@@ -149,6 +149,7 @@ help = Tulong
 privacy = Pribasiya
 cookies = Cookies
 faq = FAQ
+share-title = Tulungan kaming humanap ng ibang tao na nais magdonasyon ng kanilang mga tinig!
 link-copied = Kinopya ang Link
 back-top = Bumalik sa Itaas
 logout = Log Out
@@ -157,8 +158,18 @@ logout = Log Out
 
 home-cta = Magsalita, mag-ambag dito!
 show-wall-of-text = Magbasa nang Higit Pa
+help-us-title = Tulungan kaming magpatibay ng mga pangungusap!
 vote-yes = Oo
 vote-no = Hindi
+toggle-play-tooltip = Pindutin ang { shortcut-play-toggle } para sa toggle play mode
+speak-subtitle = I-donate ang iyong boses
+speak-goal-text = Mga clip na naitala
+listen-subtitle = Tulungan kaming magpatibay ng mga tinig
+listen-goal-text = Mga clip na napagtibay na
+hours-recorded = Mga Naitalang Oras
+hours-validated = Bilang ng Oras na Napagtibay
+read-terms-q = Nabasa mo na ba ang mga Takda?
+ready-to-record = Handa ka na bang ipagkaloob ang iyong tinig?
 all-locales = Lahat
 today = Ngayon
 x-weeks-short =
@@ -261,6 +272,7 @@ data-other-goto = Pumunta sa { $name }
 
 ## Datasets Page
 
+number-of-voices = Bilang ng mga Tinig
 size-gigabyte = GB
 size-megabyte = MB
 data-other-ted-name = TED-LIUM Corpus
@@ -293,6 +305,7 @@ select-language = Pumili ng Wika...
 action-click = Click
 action-tap = Tap
 listen = Pakinggan
+share-title-new = <bold>Tulungan kaming</bold> humanap ng marami pang mga tinig
 
 ## Reporting
 
@@ -305,6 +318,7 @@ listen = Pakinggan
 
 ## Custom Goals
 
+help-share-goal = Tulungan kaming humanap ng mas marami pang mga tinig, ibahagi ang iyong mga layunin
 
 ## Profile Delete
 
