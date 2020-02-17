@@ -217,6 +217,7 @@ benefits = فوائد
 
 whats-public = عوامی کیا ہے؟
 email-not-public = ہم آپ کے ای میل کو عوامی نہیں بنائیں گے۔
+username-optin-public = آپ اپنا صارف نام عوامی یا گمنام رکھنے کا انتخاب کر سکتے ہیں۔
 
 ## Speak & Listen Shortcuts
 
@@ -310,6 +311,10 @@ contribution-experience = شراکت کا تجربہ
 skip-submission-feedback = سب مشن فیڈبیک چھوڑ دیں
 off = بند
 on = چالو
+avatar-clip-title = اپنے اوتار میں آواز شامل کریں
+change-your-avatar-clip = اپنا صوتی کلپ تبدیل کرنا چاہتے ہیں؟
+recording-in-progress = صوتی ریکارڈنگ جاری ہے
+avatar-clip-recorded = آپ کے اوتار میں اب ایک صوتی کلپ شامل ہے!
 retry-voice-wave-recording = پھر کوشش کريں
 re-record = دوبارہ ریکارڈ کریں
 delete-voice = حذف کریں
@@ -434,6 +439,7 @@ other-language = دیگر زبانیں
 ## Languages Overview
 
 language-section-in-progress = پیش رفت جاری ہے
+language-section-launched = لانچ کیا گیا
 languages-show-more = مزید دیکھیں
 languages-show-less = کم دیکھیں
 language-meter-in-progress = پیش رفت
@@ -490,6 +496,7 @@ listen-last-time-instruction = <playIcon></playIcon>آخری ایک!
 nothing-to-validate = اس زبان میں توژیق کاری کے لیئے کچھ موجود نہیں۔ قظار بھرنے میں ہماری مدد کریں۔
 record-button-label = اپنی آواز رکارڈ کرائیں
 share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
+login-to-get-started = شروع کرنے کے لئے لاگ ان یا سائن اپ کریں
 
 ## Reporting
 
@@ -514,6 +521,11 @@ recordings =
     { $count ->
         [one] ریکارڈنگ
        *[other] ریکارڈنگز
+    }
+validations =
+    { $count ->
+        [one] توثیق
+       *[other] توثیقات
     }
 
 ## Dashboard
