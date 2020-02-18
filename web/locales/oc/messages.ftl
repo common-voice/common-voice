@@ -413,6 +413,9 @@ faq-is-account-public-q = Son publicas las informacions de mon compte ?
 faq-how-privacy-q = Cossí asseguratz l'anonimat e la vida privada de los qu'an donada lor votz ?
 faq-how-privacy-a = Totas las mòstras son expurgadas d'informacions que permeton d'identificar las personas. Quand un contributor porgís d'informacions demograficas via son perfil, aquestas son dissociadas de las mòstras abans d'èsser prepausadas al telecargament, e son pas jamai rendudas publicas sus lor pagina de perfil.
 faq-what-determine-identity-q = Qué vòl dire que pòdi pas « determinar l’identitat » dels locutors dins un jòc de donadas de Common Voice ?
+faq-what-determine-identity-a =
+    Lo jòc de donadas Common Voice es una ressorça dobèrta e accessible a totes que pòt èsser utilizada per de nombroses aplicacions ligadas a la votz. Per aparar la seguretat de nòstres contributors, demandam a totes los que telecargan de donadas de respectar la vida privada dels contributors.¶
+    ¶Totes los voice clips del jòc de donadas son expurgats de las informacions que permeton d'identificar los locutors. Quand telecargatz lo jòc de donadas, acceptatz d'ensajar pas de determinar l'identitat de cap contributor. Aquò vòl dire que vos cal pas ensajar de far lo ligam entre lo jòc de donadas e las informacions personalas d'un contributor. Podètz ça que la utilizar lo jòc de donadas per permetre la reconeissença vocala, l'identificacion de las diferentas personas que participan a una conversacion, per exemple en utilizant las donadas presentas unicament dins lo jòc de donadas.
 faq-what-is-cv = Qu'es aquò Common Voice ?
 faq-using-cv = Utilizar Common Voice
 faq-description = Common Voice es part de l’inciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas en realitat.
