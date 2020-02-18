@@ -407,6 +407,7 @@ faq-where-src-from-2-a =
     
     Podètz veire las frasas font dins<githubLink>aqueste dorsièr GitHub</githubLink>.
 faq-why-not-ask-read-q = Perqué demandatz pas al monde de legir de libres o d’articles de Wikipèdia dins diferentas lengas ?
+faq-why-not-ask-read-a = Per assegurar un maximum d'utilizacion del jòc de donadas Common Voice, avèm decidit d'autorizar unicament de tèxt font jos una licéncia Creative Commons (CC0). Utilizar l'estàndard CC0 rend la collècta de tèxt font mai dificila, mas assegura que qui que siá pòsca utilizar lo jòc de donadas sens restriccion ni autorizacion de Mozilla. De mai, volèm que lo jòc de donadas multilingüe siá lo mai util a totes, inclús de cercaires, d'universitats, d'entrepresas emergentas, de govèrns, d'organizacions a objectiu social o tota persona amatritz.
 faq-why-account-q = Perque me cal crear un compte ?
 faq-is-account-public-q = Son publicas las informacions de mon compte ?
 faq-how-privacy-q = Cossí asseguratz l'anonimat e la vida privada de los qu'an donada lor votz ?
