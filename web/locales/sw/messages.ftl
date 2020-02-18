@@ -44,6 +44,7 @@ hi-IN = Kihindi
 hr = Kikroatia
 id = Kiindonesia
 it = Kiitaliano
+ja = Kijapani
 ko = Kikorea
 ne-NP = Kinepali
 nl = Kiholanzi
@@ -146,6 +147,7 @@ retry-voice-wave-recording = jaribu tena
 
 ## ABOUT US
 
+about-get-involved = Jihusishe
 
 ## Glossary
 
@@ -155,24 +157,45 @@ retry-voice-wave-recording = jaribu tena
 
 ## Data
 
+data-download-yes = Ndio
+data-download-license = Leseni: <licenseLink> CC-0 </licenseLink>
+data-other-goto = Nenda kwa { $name }
+license = Leseni: <licenseLink> { $leseni } </licenseLink>
+license-mixed = Mchanganyiko
+terms-agree = nakubali
+terms-disagree = Sikubali
 
 ## Datasets Page
 
+cv-license = Leseni
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Jina
+contact-form-message =
+    .label = Ujumbe
+contact-required = * inahitajika
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Lugha
+select-language = Chagua lugha ...
+other-language = Lugha Nyingine
 
 ## Languages Overview
 
+language-total-progress = Jumla
+language-search-input =
+    .placeholder = Tafuta
 
 ## Contribution
 
+contribute = Changia
 
 ## Reporting
 
