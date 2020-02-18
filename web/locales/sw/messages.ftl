@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Ndio, nitumie barua pepe. Ningependa kuendelea kupokea taarifa kuhusu Mradi wa Common Voice.
+stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na teknolojia ya sauti. Tungependa kuendelea kupokea visasisho, vyanzo vipya vya data na kujuzwa zaidi kuhusu jinsi unavyotumia data hii
 return-to-cv = Rudi kwa Common Voice
 email-input =
     .label = Barua pepe

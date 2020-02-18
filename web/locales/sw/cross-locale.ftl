@@ -9,6 +9,7 @@ get-involved-email =
     .label = Barua pepe
 get-involved-opt-in = Ndio, nitumie barua pepe. Ningependa kukaa na habari juu ya maendeleo ya lugha hii kwenye Sauti ya kawaida.
 get-involved-submit = Wasilisha
+get-involved-stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na teknolojia ya sauti. Tungependa kuendelea kupokea visasisho, vyanzo vipya vya data na kujuzwa zaidi kuhusu jinsi unavyotumia data hii
 get-involved-privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma zaidi katika <privacyLink> sera yetu ya faragha </privacyLink>.
 get-involved-success-title = Umefanikiwa katika usajilli wako wa kuchangia kwa { $lugha }. Asante.
 get-involved-success-text = Tutawasiliana na habari zaidi kadiri inavyopatikana.
