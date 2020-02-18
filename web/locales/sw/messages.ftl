@@ -78,6 +78,12 @@ logout = Toka
 
 home-title = Common Voice ni hatua ya Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza.
 home-cta = Ongea sasa, changia hapa!
+vote-yes = Ndio
+todays-progress = Maendeleo ya leo
+help-reach-goal = Tusaidie kufikia { $goal }
+read-terms-q = Je! Umesoma Masharti yetu?
+today = Leo
+email-subscription-title = jiandikishe kwa sasisho za barua pepe
 
 ## Account Benefits
 
@@ -88,15 +94,32 @@ benefits = Faida
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = P
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Nasa sauti/ Acha
+shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
+english = Kiingereza
 
 ## ProfileForm
 
