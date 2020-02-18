@@ -123,6 +123,23 @@ english = Kiingereza
 
 ## ProfileForm
 
+profile-form-accent =
+    .label = Lafudhi
+profile-form-age =
+    .label = Umri
+profile-form-gender =
+    .label = Jinsia
+native-language =
+    .label = Lugha asili
+profile-form-submit-save = Hifadhi
+male = mwanaume
+female = mwanamke
+goals = malengo
+profile-close = Funga
+why-demographic = kwanini ina umuhimu?
+accept-privacy-title = Sera ya Faragha
+login-signup = Ingia/Jisajili
+retry-voice-wave-recording = jaribu tena
 
 ## FAQ
 
