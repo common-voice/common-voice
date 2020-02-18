@@ -72,10 +72,12 @@ contact = Wasiliana
 terms = Masharti
 faq = Maswali Yanayoulizwa Sana
 content-license-text = Yaliyomo yapo chini ya leseni ya <licenseLink> Creative Commons </licenseLink>
+logout = Toka
 
 ## Home Page
 
 home-title = Common Voice ni hatua ya Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza.
+home-cta = Ongea sasa, changia hapa!
 
 ## Account Benefits
 
