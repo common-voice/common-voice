@@ -126,6 +126,7 @@ ta = Taṭamilit
 te = Tatelgut
 tg = Tatajikt
 th = Taṭaylant
+tl = Tagalugt
 tr = Taṭurkit
 tt = Taṭaṭarit
 uby = Tubyixt
