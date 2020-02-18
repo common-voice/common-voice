@@ -2,6 +2,7 @@
 
 yes-receive-emails = Ndio, nitumie barua pepe. Ningependa kuendelea kupokea taarifa kuhusu Mradi wa Common Voice.
 stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na teknolojia ya sauti. Tungependa kuendelea kupokea visasisho, vyanzo vipya vya data na kujuzwa zaidi kuhusu jinsi unavyotumia data hii
+privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma zaidi katika <privacyLink> sera yetu ya faragha </privacyLink>.
 return-to-cv = Rudi kwa Common Voice
 email-input =
     .label = Barua pepe
@@ -11,6 +12,7 @@ email-opt-in-info =
     Ningependa kupokea barua pepe kama ukumbusho wa lengo, sasisho zangu za maendeleo na 
     majarida kuhusu huduma za Common Voice.
 email-opt-in-info-title = Jiunge na orodha ya barua pepe ya Common Voice
+indicates-required = * Inaashiria sehemu inayohitajika
 not-available-abbreviation = haihitajiki
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
