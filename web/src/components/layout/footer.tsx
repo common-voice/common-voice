@@ -31,9 +31,9 @@ export default React.memo(() => {
   return (
     <footer>
       <div id="help-links">
-        <LocaleLink id="help" to={URLS.FAQ}>
+        <LocaleLink to={URLS.FAQ}>
           <SupportIcon />
-          <Localized id="help" onClick={() => trackNav('help', locale)}>
+          <Localized id="faq" onClick={() => trackNav('faq', locale)}>
             <div />
           </Localized>
         </LocaleLink>
