@@ -133,6 +133,7 @@ udm = Udmurtština
 uk = Ukrajinština
 ur = Urdština
 uz = Uzbečtina
+vec = Benátština
 vi = Vietnamština
 vot = Votština
 zh-CN = Čínština (Čína)
