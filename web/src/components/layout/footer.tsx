@@ -38,11 +38,6 @@ export default React.memo(() => {
           </Localized>
         </LocaleLink>
         <div className="divider" />
-        <GitHubLink id="contribute">
-          <GithubIcon />
-          <div>GitHub</div>
-        </GitHubLink>
-        <div className="divider" />
         <DiscourseLink id="discourse">
           <DiscourseIcon />
           <div>Discourse</div>
@@ -76,15 +71,16 @@ export default React.memo(() => {
           <div>
             <LocalizedLocaleLink id="privacy" to={URLS.PRIVACY} />
             <LocalizedLocaleLink id="terms" to={URLS.TERMS} />
-          </div>
-          <div>
             <Localized id="cookies">
               <a
                 target="_blank"
                 href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
               />
             </Localized>
+          </div>
+          <div>
             <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
+            <GitHubLink>GitHub</GitHubLink>
           </div>
         </div>
 
