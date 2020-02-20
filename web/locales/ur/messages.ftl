@@ -176,6 +176,7 @@ help-us-explain = دبائیں چلائیں سن اور ہمیں بتائیں ک
 no-clips-to-validate = لگتا ہے اس زبان میں سننے کے لیئے تراشے نہیں ہیں۔ کچھ تراشے ابھی ریکارڈنگ کر کے  قطار کو بھرنے میں ہماری مدد کریں۔
 vote-yes = ہاں
 vote-no = نہیں
+toggle-play-tooltip = پلے موڈ کو ٹوگل کرنے کے لئے { shortcut-play-toggle } دبائیں
 speak-subtitle = اپنی آواز کا عطیہ کریں
 speak-goal-text = رکارڈ شدہ تراشے
 listen-subtitle = آواروں کی توثیق کرنے میں ہماری مدد کریں
