@@ -116,7 +116,10 @@ class Hero extends React.Component<
           </div>
         </div>
         <div className="column cta">
-          <PrimaryLink onClick={() => trackHome(type, locale)} />
+          <PrimaryLink
+            trackClass={`${type}-from-home`}
+            onClick={() => trackHome(type, locale)}
+          />
           <div {...this.getToggleableProps(1, 'line ' + type)} />
           <div {...this.getToggleableProps(2)}>
             <Localized id="help-reach-goal" $goal={DAILY_GOAL[type]}>

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import URLS from '../../urls';
 import { LocaleLink } from '../locale-helpers';
+import { getTrackClass } from '../../services/tracker';
 import { MicIcon, OldPlayIcon, StopIcon } from '../ui/icons';
 
 import './primary-buttons.css';
@@ -8,13 +9,15 @@ import './primary-buttons.css';
 export const PrimaryButton = ({
   className,
   to,
+  trackClass,
   ...props
-}: { to?: string } & React.ButtonHTMLAttributes<any>) => (
+}: { to?: string; trackClass?: string } & React.ButtonHTMLAttributes<any>) => (
   <div
     className={[
       'primary-button',
       className,
       props.disabled ? 'disabled' : '',
+      trackClass ? getTrackClass('fs', trackClass) : '',
     ].join(' ')}>
     {to ? (
       <LocaleLink to={to} {...props} />
@@ -29,11 +32,16 @@ export type RecordingStatus = null | 'waiting' | 'recording';
 
 export const RecordButton = ({
   status,
+  trackClass,
   ...props
-}: { status: RecordingStatus } & React.ButtonHTMLAttributes<any>) => (
+}: {
+  status: RecordingStatus;
+  trackClass?: string;
+} & React.ButtonHTMLAttributes<any>) => (
   <PrimaryButton
     className={status === null ? 'stop' : 'record'}
     {...props}
+    trackClass={trackClass}
     disabled={status === 'waiting'}>
     {status === null && <MicIcon />}
     {status === 'recording' && <StopIcon />}
@@ -52,9 +60,15 @@ export const Voice = (props: any) => (
 
 export const PlayButton = ({
   isPlaying,
+  trackClass,
   ...props
-}: { isPlaying: boolean } & React.ButtonHTMLAttributes<any>) => (
-  <PrimaryButton className={isPlaying ? 'stop' : 'play'} {...props}>
+}: { isPlaying: boolean; trackClass?: string } & React.ButtonHTMLAttributes<
+  any
+>) => (
+  <PrimaryButton
+    className={isPlaying ? 'stop' : 'play'}
+    trackClass={trackClass}
+    {...props}>
     {isPlaying ? <StopIcon /> : <OldPlayIcon />}
   </PrimaryButton>
 );

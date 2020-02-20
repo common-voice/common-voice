@@ -89,7 +89,7 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
   );
 };
 
-function ChallengePage(props: Props & RouteComponentProps<any>) {
+function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
   const [showOverlay, setShowOverlay] = useState(false);
   // [TODO]: Hook this up to the DB so we only see it once.
   const addAchievement = useAction(Notifications.actions.addAchievement);

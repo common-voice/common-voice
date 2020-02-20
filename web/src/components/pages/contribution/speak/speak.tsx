@@ -14,7 +14,7 @@ import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
 import { User } from '../../../../stores/user';
 import API from '../../../../services/api';
-import { trackRecording } from '../../../../services/tracker';
+import { trackRecording, getTrackClass } from '../../../../services/tracker';
 import URLS from '../../../../urls';
 import {
   localeConnector,
@@ -518,17 +518,26 @@ class SpeakPage extends React.Component<Props, State> {
                   <Button
                     outline
                     rounded
+                    className={getTrackClass('fs', 'exit-submit-clips')}
                     onClick={() => {
                       if (this.upload()) onConfirm();
                     }}
                   />
                 </Localized>
                 <Localized id="record-abort-continue">
-                  <Button outline rounded onClick={onCancel} />
+                  <Button
+                    outline
+                    rounded
+                    className={getTrackClass('fs', 'exit-continue-recording')}
+                    onClick={onCancel}
+                  />
                 </Localized>
               </ModalButtons>
               <Localized id="record-abort-delete">
-                <TextButton onClick={onConfirm} />
+                <TextButton
+                  className={getTrackClass('fs', 'exit-delete-clips')}
+                  onClick={onConfirm}
+                />
               </Localized>
             </Modal>
           )}
@@ -594,6 +603,7 @@ class SpeakPage extends React.Component<Props, State> {
           onSubmit={() => this.upload()}
           primaryButtons={
             <RecordButton
+              trackClass="speak-record"
               status={recordingStatus}
               onClick={this.handleRecordClick}
             />

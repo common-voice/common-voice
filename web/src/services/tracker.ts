@@ -161,3 +161,7 @@ export function trackChallenge(
 ) {
   track('Challenge', action);
 }
+
+export function getTrackClass(service: 'amp' | 'fs', name: string) {
+  return `track-${service}-${name}`;
+}

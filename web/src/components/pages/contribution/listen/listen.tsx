@@ -1,7 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { trackListening } from '../../../../services/tracker';
+import { trackListening, getTrackClass } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
@@ -34,7 +34,12 @@ const VoteButton = ({
   kind,
   ...props
 }: { kind: 'yes' | 'no' } & React.ButtonHTMLAttributes<any>) => (
-  <button type="button" className={['vote-button', kind].join(' ')} {...props}>
+  <button
+    type="button"
+    className={['vote-button', kind, getTrackClass('fs', `vote-${kind}`)].join(
+      ' '
+    )}
+    {...props}>
     {kind === 'yes' && <ThumbsUpIcon />}
     {kind === 'no' && <ThumbsDownIcon />}
     <Localized id={'vote-' + kind}>
@@ -301,7 +306,11 @@ class ListenPage extends React.Component<Props, State> {
                 onClick={this.voteYes}
                 disabled={!hasPlayed}
               />
-              <PlayButton isPlaying={isPlaying} onClick={this.play} />
+              <PlayButton
+                isPlaying={isPlaying}
+                onClick={this.play}
+                trackClass="play-clip"
+              />
               <VoteButton
                 kind="no"
                 onClick={this.voteNo}
