@@ -73,13 +73,16 @@ contact = Wasiliana
 terms = Masharti
 faq = Maswali Yanayoulizwa Sana
 content-license-text = Yaliyomo yapo chini ya leseni ya <licenseLink> Creative Commons </licenseLink>
+back-top = Rejea Mwanzoni
 logout = Toka
 
 ## Home Page
 
 home-title = Common Voice ni hatua ya Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza.
 home-cta = Ongea sasa, changia hapa!
+show-wall-of-text = Soma mengineyo
 vote-yes = Ndio
+vote-no = La
 todays-progress = Maendeleo ya leo
 help-reach-goal = Tusaidie kufikia { $goal }
 read-terms-q = Je! Umesoma Masharti yetu?
@@ -130,16 +133,20 @@ profile-form-age =
     .label = Umri
 profile-form-gender =
     .label = Jinsia
+hidden = Imefichwa
 native-language =
     .label = Lugha asili
 profile-form-submit-save = Hifadhi
 male = mwanaume
 female = mwanamke
+# Gender
+other = mengineyo
 goals = malengo
 profile-close = Funga
 why-demographic = kwanini ina umuhimu?
 accept-privacy-title = Sera ya Faragha
 login-signup = Ingia/Jisajili
+edit = Hariri
 retry-voice-wave-recording = jaribu tena
 
 ## FAQ
