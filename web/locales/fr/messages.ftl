@@ -75,6 +75,7 @@ it = Italien
 izh = Ingrien
 ja = Japonais
 ka = Géorgien
+kaa = Karakalpak
 kab = Kabyle
 kbd = Kabarde
 kk = Kazakh
