@@ -86,7 +86,23 @@ vote-no = La
 todays-progress = Maendeleo ya leo
 help-reach-goal = Tusaidie kufikia { $goal }
 read-terms-q = Je! Umesoma Masharti yetu?
+all-locales = Zote
 today = Leo
+x-weeks-short =
+    { $count ->
+        [one] { $count } wiki
+       *[other] { $count } wk
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } mo
+       *[other] { $count } mo
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } y
+       *[other] { $count } y
+    }
 email-subscription-title = jiandikishe kwa sasisho za barua pepe
 
 ## Account Benefits
