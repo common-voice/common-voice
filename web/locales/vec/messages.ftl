@@ -399,7 +399,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Parché Common Voice?
+about-subtitle = Common Voice xe parte de n’inisiativa Mozilla par insegnare a ƚe macchine cofà ƚa xente ƚa parla ne ƚa vita reaƚe. Par xonta a'l dataset de Common Voice, semo drio costruire on motore de riconosimento vocaƚe open source ciamà Deep Speech.
 how-does-it-work-title = En che modo funsiona
+how-does-it-work-text = Semo drio realixare on dataset vocaƚe open source atraverso el crowdsourcing. Dona ƚa to vose, convaƚida ƚe registrasioni invià da altre persone, rendi el dataset mijore par tuti cuanti.
 about-speak = Parla
 about-speak-text = I coƚaboratori i lexe e i registra on breve testo catà fora da na banca dati de fraxi donà.
 about-listen-queue = Coa de le robe da scoltare
