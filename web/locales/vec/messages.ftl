@@ -365,6 +365,10 @@ faq-what-cv-a =
     
     No solo memorixemo canpioni de vosi de ƚe ƚengue pì difuxe a'l mondo ma anca cuele parlà da comunidà minoritarie. La publicasion de on set de vosi diverse ƚa consentirà a svilupadori, inprenditori e comunità de afrontare da soƚi sta lacuna. Oltre al dataset de Common Voice, semo anca drio svilupare on motore de riconosimento vocaƚe open source ciamà Deep Speech.
 faq-why-important-q = Parché xe inportante?
+faq-why-important-a =
+    Parlare xe speso el modo pì naturaƚe de comunicare e ƚe tecnologìe vocaƚi ƚe xe drio introdure stà facoltà anca ne i nostri computer e i dispoxitivi mobiƚi. Voƚemo consentire a i svilupadori de realixare nove aplicasioni strabiƚianti baxà su'l riconosimento vocaƚe, cofà tradutori en tenpo realhe e asistenti digitaƚi. Ma atualmente ƚa major parte dei dati vocaƚi dimandà par realixare sto tipo de app i xe costosi e proprietari. Con el dataset de Common Voice intendemo fornire a i svilupadori ƚe risorse necesarie par inovare e rendare la tecnologìa vocaƚe disponibiƚi ne ƚa propria lengua.
+    
+    Par rendare el riconosimento vocaƚe ancora pì universaƚe, semo drio racojere canpioni vocaƚi ne ƚe ƚengue pì comuni, ma anca en cuelle parlate da on ristreto nùmaro de parsone e che speso ƚe vien ignorà da i servisi de riconosimento vocaƚe comerciaƚi. Publicando on insieme de dataset diversificà ofrimo a i svilupadori, a i inprenditori e a intiere comunidà lenguistighe ƚe risorse par colmare da soli sta lacuna.
 faq-how-get-q = In che modo poso otegnere i dati de Common Voice?
 faq-how-get-a = EIl dataset de Common Voice el xe disponibiƚe par èsare scaricà soto la licensa <licenseLink>CC0</licenseLink> da ƚa <datasetLink>pàgina Dataset</datasetLink>. Ne ƚa stesa pàgina te poi trovare molti altri dataset scaricabiƚi publicamente.
 faq-when-release2-q = Cuando vegnerà rilascià i dati de Common Voice en altre ƚengue?
@@ -427,6 +431,7 @@ about-nav-partners = Partner
 about-nav-get-involved = Coƚabora
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteƚigensa artifisaƚe
+mycroft-description = Mycroft el xe el primo asistente digitaƚe open source a'l mondo. Te poi instalare Mycroft ovunque: computer fisi, automobili e parsin Raspberry Pi.
 mycroft-secondary-description = Se trata de on software open source che tuti cuanti i poƚe modifegare, anpliare e mijorare. Mycroft el se poƚe uxare en cualsiasi anbito, da on progeto sientifego a n’applicasione software d’inpresa.
 
 ## Glossary
