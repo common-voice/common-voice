@@ -644,6 +644,7 @@ finish-editing = Vuto finire par prima ƚe modìfeghe?
 lose-changes-warning = Se te ve fora deso, te perderè ƚe to modifeghe
 build-custom-goal = Crea on obietivo personaƚe
 help-reach-hours = Juta a rivare a { NUMBER($hours) } ore en { $language } co on obiettivo personaƚe
+help-reach-hours-general = Juta a rivare a { NUMBER($hours) } ore en na ƚengua co on obiettivo personaƚe
 set-a-goal = Inposta on obietivo
 cant-decide = Sito indeciso?
 activity-needed-calculation =
