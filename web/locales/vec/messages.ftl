@@ -75,6 +75,7 @@ it = Italian
 izh = Ixoriano
 ja = Giaponexe
 ka = Georgian
+kaa = Karakalpak
 kab = Cabilo
 kbd = Cabardo
 kk = Kazako
@@ -126,6 +127,7 @@ ta = Tamil
 te = Telugu
 tg = Tagico
 th = Tailandexe
+tl = Tagalog
 tr = Turco
 tt = Tàtaro
 uby = Ubykh
@@ -535,6 +537,7 @@ record-must-allow-microphone = Xe necesario consentire l’aceso a el microfono 
 record-no-mic-found = Inpossibiƚe catare el microfono.
 record-error-too-short = Ƚa registrasion la xe masa breve.
 record-error-too-long = Ƚa registrasion la xe masa longa.
+record-error-too-quiet = El volume de ƚa registrasion ƚa xe masa bassa.
 record-cancel = Anuƚa ƚa nova registrasion
 record-instruction = { $actionType }<recordIcon></recordIcon>, e dopo lèxi ƚa fraƚe a vose alta
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cò te ghe finìo
@@ -552,7 +555,9 @@ record-abort-submit = Manda registrasion
 record-abort-continue = Porta a termine ƚa registrasion
 record-abort-delete = Esi e scanseƚa ƚe registrasion
 listen-instruction = { $actionType } <playIcon></playIcon> Ƚa fraxe xeƚa stà leta coretamente?
+listen-last-time-instruction = <playIcon></playIcon> L’ùltima!
 record-button-label = Registra ƚa to vose
+share-title-new = <bold>Jutane</bold> a catare altre vosi
 
 ## Reporting
 
