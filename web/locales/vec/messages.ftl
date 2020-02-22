@@ -427,6 +427,7 @@ about-clip-graveyard-text = El Cimitero de ƚe registrasion xe costituìo da ƚe
 about-partners = Partner
 about-become-a-partner = Diventa partner
 about-get-involved = Coƚabora
+about-get-involved-text = Vuto jutarne a mijorare Common Voice? Otimo! Contattane via email o so <discourseLink>Discourse</discourseLink>, lasa on feedback so <githubLink>GitHub</githubLink> o unisite a noialtri so <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Parché?
 about-nav-how-it-works = En che modo?
 about-nav-partners = Partner
@@ -707,6 +708,7 @@ how-many-per-day = Ottimo! Cuante registrasioni al dì?
 how-many-a-week = Ottimo! Cuante registrasioni a ƚa setimana?
 which-goal-type = Vuto registrare, convaƚidare o tuti e do?
 receiving-emails-info = Gheto dimandà de risevere email cofà: promemoria de i obietivi, axornamenti su i progresi e newsletter so Common Voice.
+not-receiving-emails-info = Co ƚa sèlta atuale <bold>NO</bold> te riseverè email cofà promemoria de i obietivi, axornamenti so i progresi e newsletter riguardo Common Voice
 n-clips = { NUMBER($count) } registrasioni
 help-share-goal = Jutane a catare pì vosi, condividi el to obietivo
 confirm-goal = Conferma obietivo
@@ -731,6 +733,11 @@ share-goal = Condividi el mìo obietivo
 delete-q = Vuto dimandare anca l’eliminasion de ƚe registrasioni vocaƚi o preferisito conservarƚe ne'l dataset de Common Voice?
 keep = Mantien
 remove = Rimovi
+remove-info = Examineremo la to richiesta de rimosione de ƚe registrasioni vocaƚi da'l dataset. Se ƚa richiesta ƚa vegnerà aprovà, contateremo chi ga scaricà el dataset e dimanderemo de rimovere ƚe to registrasioni vocaƚi.
+why-delete-recordings =
+    Le registrasion de Common Voice ƚe xe utilixà da studioxi, picoƚe inprese e apasionati de riconosimento vocaƚe par parfesionare e far cresere risorse disponibiƚi publicamente cofà i modelli vocali.
+    
+    Poderisito spiegarne parchè te dexideri canseƚare ƚe to registrasioni?
 profile-form-delete = Scanseƚa profiƚo
 
 ## Landing
