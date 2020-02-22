@@ -317,6 +317,7 @@ profile-close = Sara
 profile-explanation = Registra on profiƚo par tener tracia de i to progresi e jutarte a mijorare ƚa precixion de i dati vocaƚi.
 thanks-for-account = Grasie par aver confermà el to account, ora inisiemo a conpletare el to profiƚo.
 why-demographic = Parché el xe inportante?
+why-demographic-explanation = Dati utente anonimi cofà età, seso e asento i iuta a mijorare i dati audio utilixà par adestrare l’acuratesa de i motori de riconosimento vocaƚe. Il to nòme utente e email no i sarà mai asocià a i dati invià e te podrè sejere se rendare el to nòme utente publico o privato.
 accept-privacy = Aconsento a'l tratamento de i dati cofà indicà ne ƚ’<privacyLink>informativa so ƚa privacy</privacyLink> de Mozilla
 accept-privacy-title = Informativa so ƚa privacy
 login-identity = Identità de aceso
