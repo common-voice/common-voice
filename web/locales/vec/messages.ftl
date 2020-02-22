@@ -463,6 +463,7 @@ email-to-download = Inserisi ƚa to email par inisiare el download
 confirm-size = Sito pronto par inisiare on download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Asetito</b> de rinunciare a determinare ƚ’identità de i parlanti prexenti ne'l dataset de Common Voice
 download-language = Descarga { $language }
 validated-hours = Ore convaƚidà
 recorded-hours = Ore registrà
