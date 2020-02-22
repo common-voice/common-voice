@@ -326,6 +326,7 @@ email-subscriptions = Sotoscrision email
 download-profile = Descarga i me dati
 contribution-experience = Esperiensa de contributi
 skip-submission-feedback = Salta el invio de i commenti
+skip-submission-description = Dopo aver premù Manda mentre se xe drio inviare el contributo, te paserè diretamente a'l sucesivo set de 5 registrasioni o convalide, saltando ƚa richiesta de fornire comenti.
 skip-submission-note = Nota: bisognerà en ogni caso selesionare Parla o Scolta par modìfegare el tipo de contributo.
 off = Dixativa
 on = Ativa
@@ -405,6 +406,7 @@ about-no-votes-text = Co on utente bocia na registrasion, ƚa torna ne ƚa Coa. 
 about-dataset-new = Dataset de Common Voice
 about-dataset-new-text = Il dataset de Common Voice el contien centinaia de mijaja de tipi de vose che i juta i svilupatori a realixare stromenti de riconosimento vocaƚe.
 about-clip-graveyard = Cimitero de ƚe registrasion
+about-clip-graveyard-text = El Cimitero de ƚe registrasion xe costituìo da ƚe registrasioni vocaƚi scartà da'l dataset de Common Voice; anca eƚo el poƚe èsare scaricà liberamente.
 about-partners = Partner
 about-become-a-partner = Diventa partner
 about-get-involved = Coƚabora
@@ -414,6 +416,7 @@ about-nav-partners = Partner
 about-nav-get-involved = Coƚabora
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteƚigensa artifisaƚe
+mycroft-secondary-description = Se trata de on software open source che tuti cuanti i poƚe modifegare, anpliare e mijorare. Mycroft el se poƚe uxare en cualsiasi anbito, da on progeto sientifego a n’applicasione software d’inpresa.
 
 ## Glossary
 
