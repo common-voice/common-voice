@@ -442,9 +442,11 @@ localization-explanation = El xe el proceso che traduxe e adata i contenudi par 
 sentence-collection = Racolta de fraxi
 sentence-collection-explanation = Racojere fraxi de publico dominio o scriverne de nove soto licensa de publico dominio.
 hours-recorded-explanation = El contegio de ƚe ore de registrasion vocaƚe che gavemo racolto fin deso.
+hours-validated-explanation = Il contegio de ƚe ore de registrasion vocaƚi che ƚe xe sta convalidà da 2 utenti su 3 con on “Sì”. Sti progresi i juta a rivare a'l nòstro obietivo: 10.000 ore.
 sst = Riconosimento vocaƚe (STT acronimo de Speech-to-text)
 sst-explanation = Le tecnologie de riconosimento vocaƚe (STT) ƚe converte el parlato en testo.
 de-identified = Anonimixasion
+de-identified-explanation = El proceso che parmete a ƚe informasioni de'l profiƚo de on colaboratore contegnù ne ƚe so registrasioni ƚe vien rese ilegibiƚi cò ƚe vien scaricà cofà parte de'l dataset.
 
 ## NotFound
 
