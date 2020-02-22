@@ -646,6 +646,9 @@ build-custom-goal = Crea on obietivo personaƚe
 help-reach-hours = Juta a rivare a { NUMBER($hours) } ore en { $language } co on obiettivo personaƚe
 set-a-goal = Inposta on obietivo
 cant-decide = Sito indeciso?
+activity-needed-calculation =
+    Podemo rivare a { NUMBER($totalHours) } en soƚi { NUMBER($periodMonths) }
+    mexi se { NUMBER($people) } parsone ƚe efetua { NUMBER($clipsPerDay) } registrasion a'l dì.
 how-many-per-day = Ottimo! Cuante registrasioni al dì?
 how-many-a-week = Ottimo! Cuante registrasioni a ƚa setimana?
 which-goal-type = Vuto registrare, convaƚidare o tuti e do?
@@ -653,11 +656,17 @@ n-clips = { NUMBER($count) } registrasioni
 help-share-goal = Jutane a catare pì vosi, condividi el to obietivo
 confirm-goal = Conferma obietivo
 goal-interval-weekly = Setimanaƚe
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Condividi el to obiettivo cuotidian de { $count } registrazion par { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Condividi el to obietivo setimanaƚe de { $count } registrasion par { $type }
 share-goal-type-speak = Registrare
 share-goal-type-listen = Convaƚidare
 share-goal-type-both = Registrare e convaƚidare
 weekly-goal-created = Obietivo settimanaƚe creà
 daily-goal-created = Obietivo quotidian creà
+track-progress = Tieni tracia de i progresi chive e ne la to pàgina de ƚe statisteghe.
+return-to-edit-goal = Par modìfegare el to obietivo torna chive cò te voi.
 share-goal = Condividi el mìo obietivo
 
 ## Profile Delete
@@ -669,4 +678,7 @@ profile-form-delete = Scanseƚa profiƚo
 ## Landing
 
 welcome-staff = Benvenùo, menbro de { $company }.
+help-contribute = Crea on profilo Common Voice e dona la to vose par jutarne a costruire on dataset diversificà e open source.
+login-company = Asedi / Registrate co ƚ’email de { $company }
+profile-not-required = Registrare on profilo no xe obligatorio par coƚaborare, ma incorajà
 read-more-about = Scopri de pì so ƚa pàgina Informasion
