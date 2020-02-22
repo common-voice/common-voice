@@ -125,6 +125,7 @@ ta = Tamil
 te = Telugu
 tg = Taxiku
 th = Tailandés
+tl = Tagalu
 tr = Turcu
 tt = Tatar
 uby = Ubix
@@ -132,6 +133,7 @@ udm = Udmurtu
 uk = Ucraín
 ur = Urdu
 uz = Uzbecu
+vec = Venecianu
 vi = Vietnamita
 vot = Vóticu
 zh-CN = Chinu (China)
@@ -459,8 +461,8 @@ about-partnership =
 about-get-involved = Andecha
 about-get-involved-text =
     ¿Quies ayudar a facer que Common Voice seya meyor?
-    ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>,
-    unvia comentarios per <githubLink>GitHub</githubLink> o xúnite a nós en <slackLink>Slack</slackLink>.
+    ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>, unvia comentarios per <githubLink>GitHub</githubLink> o xúnite
+    a nós en <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
@@ -569,6 +571,7 @@ go-languages-page = Dir a la páxina de llingües
 ready-to-validate = ¿Tas preparáu p'ayudanos a validar frases?
 more = Más
 close = Zarrar
+download = Baxar
 dataset-version = Versión
 
 ## Download Modal
