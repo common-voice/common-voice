@@ -360,13 +360,19 @@ change-email-setings = Canbia ƚa to email da ƚe inpostasioni al de soto  de ƚ
 
 faq-title = Dimande pì frecuenti
 faq-what-cv-q = Che roba xe Common Voice?
+faq-what-cv-a =
+    La tecnologia de riconosimento vocaƚe ƚa xe drio rivolusionare el modo par interagire co ƚe macchine, ma al momento i sistemi disponibiƚi i xe costosi e proprietari. Common Voice fa parte de ƚ’inisiativa de Mozilla par mijorare le tecnologie de riconosimento vocaƚe e renderƚe più acesibiƚi a tuti cuanti. Common Voice el xe on gigantesco database de vosi donà da i utenti che i permete a chiuncue de adestrare en maniera ràpida e velose ƚe proprie aplicasioni che ƚe uxa el riconosimento vocaƚe en potenzialmente tute cuante ƚe ƚengue.
+    
+    No solo memorixemo canpioni de vosi de ƚe ƚengue pì difuxe a'l mondo ma anca cuele parlà da comunidà minoritarie. La publicasion de on set de vosi diverse ƚa consentirà a svilupadori, inprenditori e comunità de afrontare da soƚi sta lacuna. Oltre al dataset de Common Voice, semo anca drio svilupare on motore de riconosimento vocaƚe open source ciamà Deep Speech.
 faq-why-important-q = Parché xe inportante?
 faq-how-get-q = In che modo poso otegnere i dati de Common Voice?
 faq-how-get-a = EIl dataset de Common Voice el xe disponibiƚe par èsare scaricà soto la licensa <licenseLink>CC0</licenseLink> da ƚa <datasetLink>pàgina Dataset</datasetLink>. Ne ƚa stesa pàgina te poi trovare molti altri dataset scaricabiƚi publicamente.
 faq-when-release2-q = Cuando vegnerà rilascià i dati de Common Voice en altre ƚengue?
+faq-when-release2-a = La comunidà de voƚontari ƚa xe ancora drio radunare e rielaborare la version multilingua de'l dataset. Se te desideri jutarne a xontare altre ƚengue so Common Voice, te poi imettere nove fraxi ne'l dataset uxando el <sentenceCollectorLink>Sentence Collector Tool</sentenceCollectorLink> opure tradure ƚa pàgina web de Common Voice ne ƚa to ƚengua co <pontoonLink>Pontoon</pontoonLink>, ƚa piataforma de localixasion online de Mozilla. Le nove ƚengue ƚe vien ativà so Common Voice na volta rancurà su e aprovà 5000 fraxi.
 faq-why-mission-q = In che modo Common Voice rientra ne ƚa mision de Mozilla?
 faq-what-cv-and-deepspeech-q = Che difarensa che xe intra Common Voice e Deep Speech?
 faq-is-goal-assistant-q = L’obietivo de Common Voice xeƚo cueƚo de produre on asistente vocaƚe?
+faq-is-goal-assistant-a = L’obietivo de'l dataset de Common Voice el xe de consentire a chiuncue ne'l mondo de svilupare aplicasioni che ƚe uxà el riconoscimento vocaƚe, el riconosimento de'l parlante o cualsiasi altro tipo de funsion che uxi dati vocali. On assistente vocaƚe el xe soƚo on de i tanti tipi de aplicasion par uxare i dataset.
 faq-do-want-native-q = No son on madreƚengua ma parƚo co asento straniero. Gavìo lo steso bisogno de ƚa me vose?
 faq-do-want-native-a = Sì, serchemo sopratuto vosi cofà ƚa tua! Uno dei obietivi de Common Voice el xe rancurare cuanti pì asenti posibiƚi en modo che i servisi de riconosimento vocaƚe funsionino egualmente bene par tutti. I contributi vocaƚi de i no-madreƚingua i xe coxì particolarmente inportanti.
 faq-why-different-speakers-q = Perché gavì bisogno de così tante diverse vosi par ogni ƚengua?
