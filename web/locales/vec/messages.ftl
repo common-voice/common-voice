@@ -533,6 +533,7 @@ other-language = Altra ƚengua
 ## Languages Overview
 
 language-section-in-progress = En corso
+language-section-in-progress-new-description = Ste ƚengue ƚe xe atualmente en faxe de sviƚupo da parte de ƚa comunità. Le bare de avansamento le indica i progresi de ogni ƚengua ne'l proceso de <localizationGlossaryLink>localixasione de'l sito web</localizationGlossaryLink> e de <fraseCollectionGlossaryLink>racolta de ƚe fraxi</sentenceCollectionGlossaryLink>.
 language-section-launched = Operative
 languages-show-more = Vixualixa pì eƚementi
 languages-show-less = Visualixa meno eƚementi
