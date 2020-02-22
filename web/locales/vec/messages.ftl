@@ -651,6 +651,7 @@ validated-clips = Registrasion convalidà
 total-approved = Totaƚe aprovà
 overall-accuracy = Precixion conplesiva
 set-visibility = Inposta ƚa me visibiƚità
+visibility-overlay-note = Nota: l’opsion VisibiȽe ƚa poƚe èsare modìfegà sucesivamente en <profileLink>Profilo</profileLink>
 show-ranking = Mostra ƚa me poxision
 
 ## Custom Goals
@@ -680,6 +681,7 @@ activity-needed-calculation =
 how-many-per-day = Ottimo! Cuante registrasioni al dì?
 how-many-a-week = Ottimo! Cuante registrasioni a ƚa setimana?
 which-goal-type = Vuto registrare, convaƚidare o tuti e do?
+receiving-emails-info = Gheto dimandà de risevere email cofà: promemoria de i obietivi, axornamenti su i progresi e newsletter so Common Voice.
 n-clips = { NUMBER($count) } registrasioni
 help-share-goal = Jutane a catare pì vosi, condividi el to obietivo
 confirm-goal = Conferma obietivo
@@ -691,6 +693,8 @@ share-n-weekly-contribution-goal = Condividi el to obietivo setimanaƚe de { $co
 share-goal-type-speak = Registrare
 share-goal-type-listen = Convaƚidare
 share-goal-type-both = Registrare e convaƚidare
+# LINK will be replaced with the current URL
+goal-share-text = Go pena creà on obietivo personaƚe par donare ƚa me vocs a #CommonVoice: unisite a noialtri e jutarne a insegnare a ƚe machine cofà ƚe parla ƚe parsone reaƚi { $link }
 weekly-goal-created = Obietivo settimanaƚe creà
 daily-goal-created = Obietivo quotidian creà
 track-progress = Tieni tracia de i progresi chive e ne la to pàgina de ƚe statisteghe.
@@ -699,6 +703,7 @@ share-goal = Condividi el mìo obietivo
 
 ## Profile Delete
 
+delete-q = Vuto dimandare anca l’eliminasion de ƚe registrasioni vocaƚi o preferisito conservarƚe ne'l dataset de Common Voice?
 keep = Mantien
 remove = Rimovi
 profile-form-delete = Scanseƚa profiƚo
