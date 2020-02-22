@@ -387,9 +387,11 @@ about-speak = Parla
 about-speak-text = I coƚaboratori i lexe e i registra on breve testo catà fora da na banca dati de fraxi donà.
 about-listen-queue = Coa de le robe da scoltare
 about-listen = Scolta
+about-listen-text = I utenti i convaƚida ƚ’accuratesa de ƚe registrasioni donate, controƚando che ƚa frase ƚa sìa stà leta coretamente.
 about-is-it-valid = La registrasion xeƚa vaƚida?
 about-is-it-valid-text = Na registrasion vocaƚe la xe contrassegnà cofà “vaƚida” cò on utente ƚa valuta con on Sì.
 about-yes-votes = ≥ 2 voti Sì
+about-yes-votes-text = Par èsare inclusa ne'l dataset de Common Voice, na registrasion vocaƚe ƚa deve èsare validà da do utenti diversi.
 about-no-votes = ≥ 2 voti No
 about-dataset-new = Dataset de Common Voice
 about-clip-graveyard = Cimitero de ƚe registrasion
@@ -447,6 +449,7 @@ review-delete-recordings = Scaanseƚa ƚe me registrasion
 
 ## Datasets Page
 
+datasets-headline = Semo drio realixare on dataset de vosi multiƚingua e open source che chiuncue el poƚe utilixarƚa par mijorare aplicasioni munìe de riconosimento vocaƚe.
 language = Ƚengua
 # File size in gigabytes
 size = Dimension
