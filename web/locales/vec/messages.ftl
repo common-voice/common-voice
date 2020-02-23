@@ -168,7 +168,7 @@ logout = Va fora
 
 ## Home Page
 
-home-title = El progeto Common Voice ƚa xe n'inisiativa de Mozilla psr insegnare a ƚe machine cofà ƚe parla ƚe persone ne ƚa vita reaƚe.
+home-title = El progeto Common Voice ƚa xe n'inisiativa de Mozilla par insegnare a ƚe machine cofà ƚe parla ƚe persone ne ƚa vita reaƚe.
 home-cta = Dixi cualche roba, fà clic chive par scomisiare!
 wall-of-text-start = Ƚa vose ƚa xe naturaƚe, ƚa voce la xe umanità. Par sto cua ƚ’idea de creare na tecnologia vocaƚe utiƚixabiƚe da ƚe nòstre machine ne affasina on saco. Par creare sistemi baxà so ƚa tecnologìa vocaƚe, però, xe necesario on saco de campioni.
 wall-of-text-more-mobile = Bona parte de i dati uxà da Ƚe grandi axiende no ƚa xe acesibilƚe a ƚa magioransa de ƚe persone. Secondo noialtri sto cua sofoca l’inovasion. Par sta raxon gavemo svilupà Common Voice, on progeto de riconosimento vocaƚe vèrto a tuti cuanti.
@@ -315,7 +315,7 @@ edit-profile = Modìfega profiƚo
 profile-create-success = Profiƚo creà co suceso
 profile-close = Sara su
 profile-explanation = Registra on profiƚo par tener tracia de i to progresi e jutarte a mijorare ƚa precixion de i dati vocaƚi.
-thanks-for-account = Grasie par aver confermà el to account, ora inisiemo a conpletare el to profiƚo.
+thanks-for-account = Grasie par aver confermà el to account, deso scomisiemo a conpletare el to profiƚo.
 why-demographic = Parché el xe inportante?
 why-demographic-explanation = Dati utente anonimi cofà età, seso e asento i iuta a mijorare i dati audio utilixà par adestrare l’acuratesa de i motori de riconosimento vocaƚe. Il to nòme utente e email no i sarà mai asocià a i dati invià e te podrè sejere se rendare el to nòme utente publico o privato.
 accept-privacy = Aconsento a'l tratamento de i dati cofà indicà ne ƚ’<privacyLink>informativa so ƚa privacy</privacyLink> de Mozilla
@@ -385,7 +385,7 @@ faq-do-want-native-a = Sì, serchemo sopratuto vosi cofà ƚa tua! Uno dei obiet
 faq-why-different-speakers-q = Perché gavì bisogno de così tante diverse vosi par ogni ƚengua?
 faq-why-different-speakers-a = Ne ƚa stragrande magioransa de i database par l’aprendimento vocaƚe trovemo na neta sproporsione demografica a favore de ƚe voci <articleLink>maschiƚi e de clase media</articleLink>. Invese i asenti e i dialeti asocià a i grupi xà de par sé marginalixà, i riceve na rapresentasion minore ne i dataset par l’aprendimento de'l software. Inoltre diversi dispoxitivi i fadiga a conprendere ƚe voci feminiƚi. Eco parché voƚemo che el nostro database sia così vario.
 faq-why-my-lang-q = Parché ƚa me ƚengua no ƚa ghe xe gnancora?
-faq-why-my-lang-new-a = Mozilla no auspica o favorise en alcun modo el progresso de alcune ƚengue rispeto a altre. Common Voice ƚa xe infati n’inisiativa gestìa interamente da ƚa comunità, ma richiede <multilangLink>diversi pasagi par xontare na nuova ƚengua</multilangLink> e inisiare a rancurare donasioni vocaƚi. Par prima cosa xe necesario tradure el sito web de Common Voice, en modo da ofrire a i membri de ƚa comunidà un strumento de colaborasion ne ƚa propria ƚengua. En seguito bisogna cargare na vasta racolta de fraxi prive de copyright che i colaboratori i pòsa lexere a alta voce. Na volta sodisfati tuti sti recuisiti, na ƚengua ƚa vien “lancià” so Common Voice e i coƚaboratori i poƚe inisiare a registrare ƚa propria vose e convaƚidare ƚe registrasioni de altri. Te poi inisiare a colaborare a'l ƚancio de na nova ƚengua da'l nòstro <sentenceCollectorLink>stromento par ƚa racolta fraxi</sentenceCollectorLink>.
+faq-why-my-lang-new-a = Mozilla no auspica o favorise en alcun modo el progresso de alcune ƚengue rispeto a altre. Common Voice ƚa xe infati n’inisiativa gestìa interamente da ƚa comunità, ma richiede <multilangLink>diversi pasagi par xontare na nuova ƚengua</multilangLink> e scomisiare a rancurare donasioni vocaƚi. Par prima cosa xe necesario tradure el sito web de Common Voice, en modo da ofrire a i membri de ƚa comunidà un strumento de colaborasion ne ƚa propria ƚengua. En seguito bisogna cargare na vasta racolta de fraxi prive de copyright che i colaboratori i pòsa lexere a alta voce. Na volta sodisfati tuti sti recuisiti, na ƚengua ƚa vien “lancià” so Common Voice e i coƚaboratori i poƚe scomisiare a registrare ƚa propria vose e convaƚidare ƚe registrasioni de altri. Te poi scomisiare a colaborare a'l ƚancio de na nova ƚengua da'l nòstro <sentenceCollectorLink>stromento par ƚa racolta fraxi</sentenceCollectorLink>.
 faq-what-quality-q = Cuaƚe liveƚo de cualità audio xe necesarìa da na registrasion vocale par esare utilixà ne el dataset?
 faq-what-quality-a = Voƚemo che el dataset de Common Voice rifleta ƚa cualità audio che on motore de riconosimento vocaƚe “scolterà” ne ƚa vita de tuti i giorni, par sto motivo cerchemo ƚa varietà. Oltre a na comunità diversificada de parlanti, on dataset co cualità audio variabiƚe ƚa insegnerà a'l motore de riconosimento vocaƚe a gestire varie situasioni de'l mondo reale, da'l parlato de sotofondo a'l rumore de ƚ’automobiƚe. En poche paroƚe, finché se distingue ƚe paroƚe ƚa to registrasion ƚa va benisimo par il dataset!
 faq-why-10k-hours-q = Parché 'l obietivo de registrasion el xe  proprio 10.000 ore convalidà par ogni ƚengua?
@@ -514,9 +514,9 @@ cv-license = Licensa
 audio-format = Formato audio
 number-of-voices = Nùmaro de vosi
 splits = Divixioni
-email-to-download = Inserisi ƚa to email par inisiare el download
+email-to-download = Inserisi ƚa to email par scomisiare el download
 why-email = <b>Parché devo dare el mìo indiriso email?</b> Servirà cofà contato par informasion so eventuaƚi future modifeghe a i dataset.
-confirm-size = Sito pronto par inisiare on download de <b>{ $size }</b>
+confirm-size = Sito pronto par scomisiare on download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Asetito</b> de rinunciare a determinare ƚ’identità de i parlanti prexenti ne'l dataset de Common Voice
@@ -526,7 +526,7 @@ recorded-hours = Ore registrà
 whats-inside = Che roba ghe xe a l’interno de el dataset de Common Voice?
 dataset-description-hours =
     Ogni vose ne'l dataset la xe conposta da on singoƚo MP3 e da'l file de testo corispondente. Molte de ƚe <b>{ $total }</b> ore registrà ne'l dataset ƚe include anca metadati demografici come età, seso e asento, che ƚe poƚe jutare a afinare l’acuratesa de i motori de riconosimento vocaƚe.
-    El dataset a'l momento comprende <b>{ $valid }</b> ore convalidà en <b>{ $languages }</b> ƚengue, ma vien costantemente axornà co nove vosi e ƚengue. Da n’ocià a ƚa nostra <languagesLink>pàgina de ƚe ƚengue</languagesLink> par dimandare na nova ƚengua o inisiare a coƚaborare.
+    El dataset a'l momento comprende <b>{ $valid }</b> ore convalidà en <b>{ $languages }</b> ƚengue, ma vien costantemente axornà co nove vosi e ƚengue. Da n’ocià a ƚa nostra <languagesLink>pàgina de ƚe ƚengue</languagesLink> par dimandare na nova ƚengua o scomisiare a coƚaborare.
 want-dataset-update = Vuto risevere axornamenti so ƚe nove version de'l dataset de Common Voice? Iscrivite a ƚa newsletter.
 subscribe = Iscrivite
 get-started-speech = Inisìa co el riconosimento vocaƚe
@@ -551,7 +551,7 @@ dataset-version = Version
 
 ## Download Modal
 
-download-title = Download inisià.
+download-title = Download scomisià.
 download-helpus = Jutane a radunare na comunità de parsone interesà a ƚa tecnologìa de riconosimento vocaƚe, resta en contato via email.
 download-form-email =
     .label = Inserisi ƚa to email
@@ -640,7 +640,7 @@ nothing-to-validate = No xe prexenti registrasion da convalidare en sta ƚengua,
 record-button-label = Registra ƚa to vose
 share-title-new = <bold>Jutane</bold> a catare altre vosi
 keep-track-profile = Tien tracia de i progresi co on profiƚo
-login-to-get-started = Asedi o registrate par inisiare
+login-to-get-started = Asedi o registrate par scomisiare
 
 ## Reporting
 
