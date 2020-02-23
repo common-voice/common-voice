@@ -516,6 +516,9 @@ download-language = Descarga { $language }
 validated-hours = Ore convaƚidà
 recorded-hours = Ore registrà
 whats-inside = Che roba ghe xe a l’interno de el dataset de Common Voice?
+dataset-description-hours =
+    Ogni vose ne'l dataset la xe conposta da on singoƚo MP3 e da'l file de testo corispondente. Molte de ƚe <b>{ $total }</b> ore registrà ne'l dataset ƚe include anca metadati demografici come età, seso e asento, che ƚe poƚe jutare a afinare l’acuratesa de i motori de riconosimento vocaƚe.
+    El dataset a'l momento comprende <b>{ $valid }</b> ore convalidà en <b>{ $languages }</b> ƚengue, ma vien costantemente axornà co nove vosi e ƚengue. Da n’ocià a ƚa nostra <languagesLink>pàgina de ƚe ƚengue</languagesLink> par dimandare na nova ƚengua o inisiare a coƚaborare.
 want-dataset-update = Vuto risevere axornamenti so ƚe nove version de'l dataset de Common Voice? Iscrivite a ƚa newsletter.
 subscribe = Iscrivite
 get-started-speech = Inisìa co el riconosimento vocaƚe
