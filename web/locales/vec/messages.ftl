@@ -436,6 +436,7 @@ about-clip-graveyard = Cimitero de ƚe registrasion
 about-clip-graveyard-text = El Cimitero de ƚe registrasion xe costituìo da ƚe registrasioni vocaƚi scartà da'l dataset de Common Voice; anca eƚo el poƚe èsare scaricà liberamente.
 about-partners = Partner
 about-become-a-partner = Diventa partner
+about-partnership = Common Voice el xe on progeto en coƚaborasion e, par creare ƚa pì granda racolta dati vocaƚi de dominio publico de senpre, dipendemo da ƚa comunidà de soci e coƚaboratori. Par el ƚoro contributo a'l progeto, gavemo el piaxere de ringrasiare ƚe parsone e ƚe organixasioni seguenti:
 about-get-involved = Coƚabora
 about-get-involved-text = Vuto jutarne a mijorare Common Voice? Otimo! Contattane via email o so <discourseLink>Discourse</discourseLink>, lasa on feedback so <githubLink>GitHub</githubLink> o unisite a noialtri so <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Parché?
@@ -497,6 +498,12 @@ review-delete-recordings = Scaanseƚa ƚe me registrasion
 ## Datasets Page
 
 datasets-headline = Semo drio realixare on dataset de vosi multiƚingua e open source che chiuncue el poƚe utilixarƚa par mijorare aplicasioni munìe de riconosimento vocaƚe.
+datasets-positioning =
+    Credemo che metare en circolasion dataset de voci publici de grandi dimensioni posa promovere inovasion e sana concorensa comerciaƚe tra ƚe tecnologie de aprendimento automatico baxà so'l riconosimento vocaƚe.
+    
+    El dataset multilingue de Common Voice el xe xà pì grando de'l so xenere disponibiƚe publicamente, ma no el xe el unico.
+    
+    Considera sta pàgina cofà on punto de riferimento par dataset open source e, man man che Common Voice continua a cresere, na pàgina par i nòstri axornamenti.
 language = Ƚengua
 # File size in gigabytes
 size = Dimension
@@ -524,6 +531,7 @@ subscribe = Iscrivite
 get-started-speech = Inisìa co el riconosimento vocaƚe
 other-datasets = Altri dataset vocaƚi
 feedback-q = Gheto sugerimenti?
+common-voice-info-new = Gheto dimande so Common Voice? Vuto comunicarne opinioni o sugerimenti par mejorare na specifega ƚengua? Scrivine so'l <discourseLink>forum Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech el xe on corpus contenente sirca 1000 ore de registrasion en ƚengua inglexe a 16kHz trato da la letura de audiolibri de'l progeto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = El corpus TED-LIUM el xe realixà co registrasioni audio de conferense e relative trascrisioni disponibiƚi so'l sito TED.
