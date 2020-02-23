@@ -475,6 +475,7 @@ data-download-deny = No
 data-download-license = Licensa: <licenseLink>CC-0</licenseLink>
 data-download-modal = Vegnerà scaricà <size>{ $size }GB</size> de dati. Prosedere co el download?
 data-subtitle = Semo drio costruire on dataset de vosi publico e vèrto che chiuncue posa utilixare par adestrare aplicativi co suporto vocaƚe.
+data-explanatory-text = Secondo noialtri on grande dataset disponibiƚe publicamente promoverà l’inovasione e na sana competision comerciaƚe ne'l canpo de'l aprendimento automatico baxà so tecnologie vocaƚi. La nòstra ƚa xe n’inisiativa globaƚe, tuti i xe invità a partesipare. El nòstro scopo el xe cueƚo de rendare ƚe tecnologie vocaƚi pì incluxive e adate a rispeciare ƚa diversità de vosi ne'l mondo.
 data-get-started = <speechBlogLink>Istrusioni par el riconosimento vocaƚe</speechBlogLink>
 data-other-title = Altri dataset vocali…
 data-other-goto = Và a { $name }
