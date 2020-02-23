@@ -531,6 +531,7 @@ subscribe = Iscrivite
 get-started-speech = Inisìa co el riconosimento vocaƚe
 other-datasets = Altri dataset vocaƚi
 feedback-q = Gheto sugerimenti?
+deepspeech-info = El dataset de Common Voice integra el motore de riconosimento vocaƚe open source de Mozilla, Deep Speech, utilixabiƚe par creare aplicasioni de riconosimento vocaƚe. Lexi ƚa <githubLink>panoramica GitHub</githubLink> o unisite a <discourseLink>DeepSpeech su Discourse</discourseLink> par savere cofà comisiare.
 common-voice-info-new = Gheto dimande so Common Voice? Vuto comunicarne opinioni o sugerimenti par mejorare na specifega ƚengua? Scrivine so'l <discourseLink>forum Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech el xe on corpus contenente sirca 1000 ore de registrasion en ƚengua inglexe a 16kHz trato da la letura de audiolibri de'l progeto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
@@ -699,6 +700,7 @@ validated-clips = Registrasion convalidà
 total-approved = Totaƚe aprovà
 overall-accuracy = Precixion conplesiva
 set-visibility = Inposta ƚa me visibiƚità
+visibility-explainer = Sta inpostasion ƚa controƚa ƚa to vixibilità ne la clasifica. Se te selesioni l’opsione Sconto ƚe to atività ƚe resterà riservà, cioè ƚa to imagine, el nome utente e i progresi no i aparirà so ƚa clasifica. Tien da conto che ghe voƚe { $minutes } minuti par che la clasifica ƚa se axorni.
 visibility-overlay-note = Nota: l’opsion VisibiȽe ƚa poƚe èsare modìfegà sucesivamente en <profileLink>Profilo</profileLink>
 show-ranking = Mostra ƚa me poxision
 
