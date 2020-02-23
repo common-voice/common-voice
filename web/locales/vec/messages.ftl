@@ -169,7 +169,7 @@ logout = Va fora
 ## Home Page
 
 home-title = El progeto Common Voice ƚa xe n'inisiativa de Mozilla psr insegnare a ƚe machine cofà ƚe parla ƚe persone ne ƚa vita reaƚe.
-home-cta = Dixi cualche roba, fà clic chive par inisiare!
+home-cta = Dixi cualche roba, fà clic chive par scomisiare!
 wall-of-text-start = Ƚa vose ƚa xe naturaƚe, ƚa voce la xe umanità. Par sto cua ƚ’idea de creare na tecnologia vocaƚe utiƚixabiƚe da ƚe nòstre machine ne affasina on saco. Par creare sistemi baxà so ƚa tecnologìa vocaƚe, però, xe necesario on saco de campioni.
 wall-of-text-more-mobile = Bona parte de i dati uxà da Ƚe grandi axiende no ƚa xe acesibilƚe a ƚa magioransa de ƚe persone. Secondo noialtri sto cua sofoca l’inovasion. Par sta raxon gavemo svilupà Common Voice, on progeto de riconosimento vocaƚe vèrto a tuti cuanti.
 wall-of-text-more-desktop = Deso te poi donare ƚa to vose par jutarne a costruire on database vocaƚe open source a dispoxision de tuti i svilupatori de aplicasion par dispoxitivi o par il Web. <lineBreak></lineBreak> Contribuire xe senplicisimo! Lexi na fraxe par insegnare a ƚe machine cofà ƚe persone le parla ne ƚa vita reale. Verifica ƚe registrasion audio de i altri colaboratori par mijorare ƚa cualità de el database.
@@ -313,7 +313,7 @@ goals = Obietivi
 settings = Inpostasioni
 edit-profile = Modìfega profiƚo
 profile-create-success = Profiƚo creà co suceso
-profile-close = Sara
+profile-close = Sara su
 profile-explanation = Registra on profiƚo par tener tracia de i to progresi e jutarte a mijorare ƚa precixion de i dati vocaƚi.
 thanks-for-account = Grasie par aver confermà el to account, ora inisiemo a conpletare el to profiƚo.
 why-demographic = Parché el xe inportante?
