@@ -261,7 +261,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registra/Interonpi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ripeti ƚa registrasion
-request-language-text = No te trovi ƚa to ƚengua so Common Voice?
+request-language-text = No te cati ƚa to ƚengua so Common Voice?
 request-language-button = Dimanda na ƚengua
 
 ## ProjectStatus
@@ -371,7 +371,7 @@ faq-why-important-a =
     
     Par rendare el riconosimento vocaƚe ancora pì universaƚe, semo drio racojere canpioni vocaƚi ne ƚe ƚengue pì comuni, ma anca en cueƚe parlà da on ristreto nùmaro de parsone e che speso ƚe vien ignorà da i servisi de riconosimento vocaƚe comerciaƚi. Publicando on insieme de dataset diversificà ofrimo a i svilupadori, a i inprenditori e a intiere comunidà lenguistighe ƚe risorse par colmare da soƚi sta lacuna.
 faq-how-get-q = In che modo poso otegnere i dati de Common Voice?
-faq-how-get-a = EIl dataset de Common Voice el xe disponibiƚe par èsare scaricà soto la licensa <licenseLink>CC0</licenseLink> da ƚa <datasetLink>pàgina Dataset</datasetLink>. Ne ƚa stesa pàgina te poi trovare molti altri dataset scaricabiƚi publicamente.
+faq-how-get-a = EIl dataset de Common Voice el xe disponibiƚe par èsare scaricà soto la licensa <licenseLink>CC0</licenseLink> da ƚa <datasetLink>pàgina Dataset</datasetLink>. Ne ƚa stesa pàgina te poi catare tanti altri dataset scaricabiƚi publicamente.
 faq-when-release2-q = Cò vegnerà rilasà i dati de Common Voice en altre ƚengue?
 faq-when-release2-a = La comunidà de voƚontari ƚa xe ancora drio radunare e rielaborare la version multilingua de'l dataset. Se te desideri jutarne a xontare altre ƚengue so Common Voice, te poi imettere nove fraxi ne'l dataset uxando el <sentenceCollectorLink>Sentence Collector Tool</sentenceCollectorLink> opure tradure ƚa pàgina web de Common Voice ne ƚa to ƚengua co <pontoonLink>Pontoon</pontoonLink>, ƚa piataforma de localixasion online de Mozilla. Le nove ƚengue ƚe vien ativà so Common Voice na volta rancurà su e aprovà 5000 fraxi.
 faq-why-mission-q = In che modo Common Voice rientra ne ƚa mision de Mozilla?
@@ -383,9 +383,9 @@ faq-is-goal-assistant-a = L’obietivo de'l dataset de Common Voice el xe de con
 faq-do-want-native-q = No son on madreƚengua ma parƚo co asento straniero. Gavìo lo steso bisogno de ƚa me vose?
 faq-do-want-native-a = Sì, serchemo sopratuto vosi cofà ƚa tua! Uno dei obietivi de Common Voice el xe rancurare cuanti pì asenti posibiƚi en modo che i servisi de riconosimento vocaƚe funsionino egualmente bene par tutti. I contributi vocaƚi de i no-madreƚingua i xe coxì particolarmente inportanti.
 faq-why-different-speakers-q = Perché gavì bisogno de così tante diverse vosi par ogni ƚengua?
-faq-why-different-speakers-a = Ne ƚa stragrande magioransa de i database par l’aprendimento vocaƚe trovemo na neta sproporsione demografica a favore de ƚe voci <articleLink>maschiƚi e de clase media</articleLink>. Invese i asenti e i dialeti asocià a i grupi xà de par sé marginalixà, i riceve na rapresentasion minore ne i dataset par l’aprendimento de'l software. Inoltre diversi dispoxitivi i fadiga a conprendere ƚe voci feminiƚi. Eco parché voƚemo che el nostro database sia così vario.
+faq-why-different-speakers-a = Ne ƚa stragrande magioransa de i database par l’aprendimento vocaƚe catemo na neta sproporsione demografica a favore de ƚe voci <articleLink>maschiƚi e de clase media</articleLink>. Invese i asenti e i dialeti asocià a i grupi xà de par sé marginalixà, i riceve na rapresentasion minore ne i dataset par l’aprendimento de'l software. Inoltre diversi dispoxitivi i fadiga a conprendere ƚe voci feminiƚi. Eco parché voƚemo che el nostro database sia così vario.
 faq-why-my-lang-q = Parché ƚa me ƚengua no ƚa ghe xe gnancora?
-faq-why-my-lang-new-a = Mozilla no auspica o favorise en alcun modo el progresso de alcune ƚengue rispeto a altre. Common Voice ƚa xe infati n’inisiativa gestìa interamente da ƚa comunità, ma richiede <multilangLink>diversi pasagi par xontare na nuova ƚengua</multilangLink> e scomisiare a rancurare donasioni vocaƚi. Par prima cosa xe necesario tradure el sito web de Common Voice, en modo da ofrire a i membri de ƚa comunidà un strumento de colaborasion ne ƚa propria ƚengua. En seguito bisogna cargare na vasta racolta de fraxi prive de copyright che i colaboratori i pòsa lexere a alta voce. Na volta sodisfati tuti sti recuisiti, na ƚengua ƚa vien “lancià” so Common Voice e i coƚaboratori i poƚe scomisiare a registrare ƚa propria vose e convaƚidare ƚe registrasioni de altri. Te poi scomisiare a colaborare a'l ƚancio de na nova ƚengua da'l nòstro <sentenceCollectorLink>stromento par ƚa racolta fraxi</sentenceCollectorLink>.
+faq-why-my-lang-new-a = Mozilla no auspica o favorise en alcun modo el progreso de alcune ƚengue rispeto a altre. Common Voice ƚa xe infati n’inisiativa gestìa interamente da ƚa comunità, ma richiede <multilangLink>diversi pasagi par xontare na nuova ƚengua</multilangLink> e scomisiare a rancurare donasioni vocaƚi. Par prima cosa xe necesario tradure el sito web de Common Voice, en modo da ofrire a i membri de ƚa comunidà un strumento de colaborasion ne ƚa propria ƚengua. En seguito bisogna cargare na vasta racolta de fraxi prive de copyright che i colaboratori i pòsa lexere a alta voce. Na volta sodisfati tuti sti recuisiti, na ƚengua ƚa vien “lancià” so Common Voice e i coƚaboratori i poƚe scomisiare a registrare ƚa propria vose e convaƚidare ƚe registrasioni de altri. Te poi scomisiare a colaborare a'l ƚancio de na nova ƚengua da'l nòstro <sentenceCollectorLink>stromento par ƚa racolta fraxi</sentenceCollectorLink>.
 faq-what-quality-q = Cuaƚe liveƚo de cualità audio xe necesarìa da na registrasion vocale par esare utilixà ne el dataset?
 faq-what-quality-a = Voƚemo che el dataset de Common Voice rifleta ƚa cualità audio che on motore de riconosimento vocaƚe “scolterà” ne ƚa vita de tuti i giorni, par sto motivo cerchemo ƚa varietà. Oltre a na comunità diversificada de parlanti, on dataset co cualità audio variabiƚe ƚa insegnerà a'l motore de riconosimento vocaƚe a gestire varie situasioni de'l mondo reale, da'l parlato de sotofondo a'l rumore de ƚ’automobiƚe. En poche paroƚe, finché se distingue ƚe paroƚe ƚa to registrasion ƚa va benisimo par il dataset!
 faq-why-10k-hours-q = Parché 'l obietivo de registrasion el xe  proprio 10.000 ore convalidà par ogni ƚengua?
@@ -395,7 +395,7 @@ faq-how-calc-hours-a = Calcolemo ƚe ore stimando ƚa lunghesa media de ogni reg
 faq-where-src-from-2-q = Da dove vien el testo de origine?
 faq-where-src-from-2-a = Il testo de orixine el xe fruto de donasioni da parte de i colaboratori e da dialoghi de publico dominio trati da film cofà <italic>It’s a Wonderful Life</italic>.
 faq-why-not-ask-read-q = Parché no dimandè a ƚe parsone de lèxere brani da ƚibri o articoƚi de Wikipedia en diverse ƚengue?
-faq-why-not-ask-read-a = Par no ƚimitare ƚe possibili aplicasioni de'l dataset Common Voice, gavemo deciso de utilixare unicamente fraxi disponibiƚi soto ƚa licensa Creative Commons (CC0). El standard CC0 rende pì difisile trovare e rancurare fraxi idonee, tutavia garantise a tuti el dirito de inpiegare i dati racolti sensa restrisioni so ƚ’utilixo o autorixasion da parte de Mozilla. En definitiva, voƚemo che el dataset multilingua el gapia manco restrisioni posibiƚi en modo da èsare utƚlxà ƚiberamente da chiuncue, conpresi risercatori, università, startup, governi, organixasioni par scopi sociaƚi e hobisti.
+faq-why-not-ask-read-a = Par no ƚimitare ƚe posibili aplicasioni de'l dataset Common Voice, gavemo deciso de utilixare unicamente fraxi disponibiƚi soto ƚa licensa Creative Commons (CC0). El standard CC0 rende pì difisile catare e rancurare fraxi idonee, tutavia garantise a tuti cuanti el dirito de inpiegare i dati racolti sensa restrisioni so ƚ’utilixo o autorixasion da parte de Mozilla. En definitiva, voƚemo che el dataset multilingua el gapia manco restrisioni posibiƚi en modo da èsare utƚlxà ƚiberamente da chiuncue, conpresi risercatori, università, startup, governi, organixasioni par scopi sociaƚi e hobisti.
 faq-why-account-q = Parché gavarìa registrare on account?
 faq-is-account-public-q = Le informasion so el mìo account xeƚe publiche?
 faq-how-privacy-q = En che modo asicurè el anonimato e ƚa privacy de ƚe parsone che ƚe ga donà ƚe so vosi?
@@ -425,7 +425,7 @@ about-listen-queue-text = Le registrasion ƚe vien caricà e inserìe en na coda
 about-listen = Scolta
 about-listen-text = I utenti i convaƚida ƚ’accuratesa de ƚe registrasioni donate, controƚando che ƚa frase ƚa sìa stà leta coretamente.
 about-is-it-valid = La registrasion xeƚa vaƚida?
-about-is-it-valid-text = Na registrasion vocaƚe la xe contrassegnà cofà “vaƚida” cò on utente ƚa valuta con on Sì.
+about-is-it-valid-text = Na registrasion vocaƚe la xe contrasegnà cofà “vaƚida” cò on utente ƚa valuta con on Sì.
 about-yes-votes = ≥ 2 voti Sì
 about-yes-votes-text = Par èsare inclusa ne'l dataset de Common Voice, na registrasion vocaƚe ƚa deve èsare validà da do utenti diversi.
 about-no-votes = ≥ 2 voti No
@@ -464,8 +464,8 @@ de-identified-explanation = El proceso che parmete a ƚe informasioni de'l profi
 
 ## NotFound
 
-notfound-title = No trovà
-notfound-content = Inpossibile trovare i contenuti cercà.
+notfound-title = No catà
+notfound-content = Inposibiƚe catare i contenuti sercà.
 
 ## Data
 
@@ -612,10 +612,10 @@ record-platform-not-supported = La piattaforma in uxo no la xe atualmente suport
 record-platform-not-supported-desktop = So computer desktop te poi descargare ƚ’ultima version:
 record-platform-not-supported-ios = I utenti <bold>iOS</bold> i pole descargare ƚa nostra aplicasione gratuita:
 record-must-allow-microphone = Xe necesario consentire l’aceso a el microfono de el dispoxitivo.
-record-no-mic-found = Inpossibiƚe catare el microfono.
+record-no-mic-found = Inposibiƚe catare el microfono.
 record-error-too-short = Ƚa registrasion la xe masa breve.
 record-error-too-long = Ƚa registrasion la xe masa longa.
-record-error-too-quiet = El volume de ƚa registrasion ƚa xe masa bassa.
+record-error-too-quiet = El voƚume de ƚa registrasion ƚa xe masa basa.
 record-cancel = Anuƚa ƚa nova registrasion
 record-instruction = { $actionType }<recordIcon></recordIcon>, e dopo lèxi ƚa fraƚe a vose alta
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cò te ghe finìo
@@ -763,7 +763,7 @@ remove-info = Examineremo la to richiesta de rimosione de ƚe registrasioni voca
 why-delete-recordings =
     Le registrasion de Common Voice ƚe xe utilixà da studioxi, picoƚe inprese e apasionati de riconosimento vocaƚe par parfesionare e far cresere risorse disponibiƚi publicamente cofà i modelli vocali.
     
-    Poderisito spiegarne parchè te dexideri canseƚare ƚe to registrasioni?
+    Poderisito spiegarne parchè te voi scanseƚare ƚe to registrasion?
 profile-form-delete = Scanseƚa profiƚo
 
 ## Landing
