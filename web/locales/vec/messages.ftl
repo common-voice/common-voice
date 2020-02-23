@@ -383,6 +383,7 @@ faq-is-goal-assistant-a = L’obietivo de'l dataset de Common Voice el xe de con
 faq-do-want-native-q = No son on madreƚengua ma parƚo co asento straniero. Gavìo lo steso bisogno de ƚa me vose?
 faq-do-want-native-a = Sì, serchemo sopratuto vosi cofà ƚa tua! Uno dei obietivi de Common Voice el xe rancurare cuanti pì asenti posibiƚi en modo che i servisi de riconosimento vocaƚe funsionino egualmente bene par tutti. I contributi vocaƚi de i no-madreƚingua i xe coxì particolarmente inportanti.
 faq-why-different-speakers-q = Perché gavì bisogno de così tante diverse vosi par ogni ƚengua?
+faq-why-different-speakers-a = Ne ƚa stragrande magioransa de i database par l’aprendimento vocaƚe trovemo na neta sproporsione demografica a favore de ƚe voci <articleLink>maschiƚi e de clase media</articleLink>. Invese i asenti e i dialeti asocià a i grupi xà de par sé marginalixà, i riceve na rapresentasion minore ne i dataset par l’aprendimento de'l software. Inoltre diversi dispoxitivi i fadiga a conprendere ƚe voci feminiƚi. Eco parché voƚemo che el nostro database sia così vario.
 faq-why-my-lang-q = Parché ƚa me ƚengua no ƚa ghe xe gnancora?
 faq-what-quality-q = Cuaƚe liveƚo de cualità audio xe necesarìa da na registrasion vocale par esare utilixà ne el dataset?
 faq-why-10k-hours-q = Parché 'l obietivo de registrasion el xe  proprio 10.000 ore convalidà par ogni ƚengua?
