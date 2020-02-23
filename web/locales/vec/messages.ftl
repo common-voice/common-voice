@@ -170,7 +170,7 @@ logout = Va fora
 
 home-title = El progeto Common Voice ƚa xe n'inisiativa de Mozilla par insegnare a ƚe machine cofà ƚe parla ƚe persone ne ƚa vita reaƚe.
 home-cta = Dixi cualche roba, fà clic chive par scomisiare!
-wall-of-text-start = Ƚa vose ƚa xe naturaƚe, ƚa voce la xe umanità. Par sto cua ƚ’idea de creare na tecnologia vocaƚe utiƚixabiƚe da ƚe nòstre machine ne affasina on saco. Par creare sistemi baxà so ƚa tecnologìa vocaƚe, però, xe necesario on saco de campioni.
+wall-of-text-start = Ƚa vose ƚa xe naturaƚe, ƚa voce la xe umanità. Par sto cua ƚ’idea de creare na tecnologia vocaƚe utiƚixabiƚe da ƚe nòstre machine ne affasina on saco. Par creare sistemi baxà so ƚa tecnologìa vocaƚe, però, xe necesario on saco de canpioni.
 wall-of-text-more-mobile = Bona parte de i dati uxà da Ƚe grandi axiende no ƚa xe acesibilƚe a ƚa magioransa de ƚe persone. Secondo noialtri sto cua sofoca l’inovasion. Par sta raxon gavemo svilupà Common Voice, on progeto de riconosimento vocaƚe vèrto a tuti cuanti.
 wall-of-text-more-desktop = Deso te poi donare ƚa to vose par jutarne a costruire on database vocaƚe open source a dispoxision de tuti i svilupatori de aplicasion par dispoxitivi o par il Web. <lineBreak></lineBreak> Contribuire xe senplicisimo! Lexi na fraxe par insegnare a ƚe machine cofà ƚe persone le parla ne ƚa vita reale. Verifica ƚe registrasion audio de i altri colaboratori par mijorare ƚa cualità de el database.
 wall-of-text-first = Ƚa vose ƚa xe naturaƚe, ƚa voce la xe umanità. Par sto cua ƚ’idea de creare na tecnologia vocaƚe utiƚixabiƚe da ƚe nòstre machine ne afasina on saco. Par creare sistemi baxà so ƚa tecnologìa vocaƚe, però, xe necesario on saco de campioni.
@@ -326,7 +326,7 @@ edit = Modìfega
 email-subscriptions = Sotoscrision email
 download-profile = Descarga i me dati
 contribution-experience = Esperiensa de contributi
-skip-submission-feedback = Salta el invio de i commenti
+skip-submission-feedback = Salta el invio de i comenti
 skip-submission-description = Dopo aver premù Manda mentre se xe drio inviare el contributo, te paserè diretamente a'l sucesivo set de 5 registrasioni o convalide, saltando ƚa richiesta de fornire comenti.
 skip-submission-note = Nota: bisognerà en ogni caso selesionare Parla o Scolta par modìfegare el tipo de contributo.
 off = Dixativa
@@ -369,7 +369,7 @@ faq-why-important-q = Parché xe inportante?
 faq-why-important-a =
     Parlare xe speso el modo pì naturaƚe de comunicare e ƚe tecnologìe vocaƚi ƚe xe drio introdure stà facoltà anca ne i nostri computer e i dispoxitivi mobiƚi. Voƚemo consentire a i svilupadori de realixare nove aplicasioni strabiƚianti baxà su'l riconosimento vocaƚe, cofà tradutori en tenpo realhe e asistenti digitaƚi. Ma atualmente ƚa major parte dei dati vocaƚi dimandà par realixare sto tipo de app i xe costosi e proprietari. Con el dataset de Common Voice intendemo fornire a i svilupadori ƚe risorse necesarie par inovare e rendare la tecnologìa vocaƚe disponibiƚi ne ƚa propria lengua.
     
-    Par rendare el riconosimento vocaƚe ancora pì universaƚe, semo drio racojere canpioni vocaƚi ne ƚe ƚengue pì comuni, ma anca en cuelle parlate da on ristreto nùmaro de parsone e che speso ƚe vien ignorà da i servisi de riconosimento vocaƚe comerciaƚi. Publicando on insieme de dataset diversificà ofrimo a i svilupadori, a i inprenditori e a intiere comunidà lenguistighe ƚe risorse par colmare da soli sta lacuna.
+    Par rendare el riconosimento vocaƚe ancora pì universaƚe, semo drio racojere canpioni vocaƚi ne ƚe ƚengue pì comuni, ma anca en cueƚe parlà da on ristreto nùmaro de parsone e che speso ƚe vien ignorà da i servisi de riconosimento vocaƚe comerciaƚi. Publicando on insieme de dataset diversificà ofrimo a i svilupadori, a i inprenditori e a intiere comunidà lenguistighe ƚe risorse par colmare da soƚi sta lacuna.
 faq-how-get-q = In che modo poso otegnere i dati de Common Voice?
 faq-how-get-a = EIl dataset de Common Voice el xe disponibiƚe par èsare scaricà soto la licensa <licenseLink>CC0</licenseLink> da ƚa <datasetLink>pàgina Dataset</datasetLink>. Ne ƚa stesa pàgina te poi trovare molti altri dataset scaricabiƚi publicamente.
 faq-when-release2-q = Cò vegnerà rilasà i dati de Common Voice en altre ƚengue?
@@ -379,7 +379,7 @@ faq-why-mission-a = La mision de Mozilla ƚa xe cueƚa de mantegnere el Web vèr
 faq-what-cv-and-deepspeech-q = Che difarensa che xe intra Common Voice e Deep Speech?
 faq-what-cv-and-deepspeech-a = El dataset de Common Voice integra Deep Speech, el motore de riconosimento vocaƚe open source de Mozilla. La prima version de Deep Speech ƚa xe stà rilasià a novenbre 2017 e ƚa ga continuà a evolversi da alora. Credemo che sta tecnologia de riconosimento vocaƚe open source, insieme a'l dataset de Common Voice, ƚa gaverìa èsare disponibiƚe par tuti. Speremo che ste tecnologie ƚe permeta a i svilupatori de realixare ƚa prosima ondata de prodoti e servisi inovativi.
 faq-is-goal-assistant-q = L’obietivo de Common Voice xeƚo cueƚo de produre on asistente vocaƚe?
-faq-is-goal-assistant-a = L’obietivo de'l dataset de Common Voice el xe de consentire a chiuncue ne'l mondo de svilupare aplicasioni che ƚe uxà el riconoscimento vocaƚe, el riconosimento de'l parlante o cualsiasi altro tipo de funsion che uxi dati vocali. On assistente vocaƚe el xe soƚo on de i tanti tipi de aplicasion par uxare i dataset.
+faq-is-goal-assistant-a = L’obietivo de'l dataset de Common Voice el xe de consentire a chiuncue ne'l mondo de svilupare aplicasioni che ƚe uxà el riconoscimento vocaƚe, el riconosimento de'l parlante o cualsiasi altro tipo de funsion che uxi dati vocali. On asistente vocaƚe el xe soƚo on de i tanti tipi de aplicasion par uxare i dataset.
 faq-do-want-native-q = No son on madreƚengua ma parƚo co asento straniero. Gavìo lo steso bisogno de ƚa me vose?
 faq-do-want-native-a = Sì, serchemo sopratuto vosi cofà ƚa tua! Uno dei obietivi de Common Voice el xe rancurare cuanti pì asenti posibiƚi en modo che i servisi de riconosimento vocaƚe funsionino egualmente bene par tutti. I contributi vocaƚi de i no-madreƚingua i xe coxì particolarmente inportanti.
 faq-why-different-speakers-q = Perché gavì bisogno de così tante diverse vosi par ogni ƚengua?
