@@ -525,7 +525,7 @@ validated-hours = Ore convaƚidà
 recorded-hours = Ore registrà
 whats-inside = Che roba ghe xe a l’interno de el dataset de Common Voice?
 dataset-description-hours =
-    Ogni vose ne'l dataset la xe conposta da on singoƚo MP3 e da'l file de testo corispondente. Molte de ƚe <b>{ $total }</b> ore registrà ne'l dataset ƚe include anca metadati demografici come età, seso e asento, che ƚe poƚe jutare a afinare l’acuratesa de i motori de riconosimento vocaƚe.
+    Ogni vose ne'l dataset la xe conposta da on singoƚo MP3 e da'l file de testo corispondente. Molte de ƚe <b>{ $total }</b> ore registrà ne'l dataset ƚe include anca metadati demografici cofà età, seso e asento, che ƚe poƚe jutare a afinare l’acuratesa de i motori de riconosimento vocaƚe.
     El dataset a'l momento comprende <b>{ $valid }</b> ore convalidà en <b>{ $languages }</b> ƚengue, ma vien costantemente axornà co nove vosi e ƚengue. Da n’ocià a ƚa nostra <languagesLink>pàgina de ƚe ƚengue</languagesLink> par dimandare na nova ƚengua o scomisiare a coƚaborare.
 want-dataset-update = Vuto risevere axornamenti so ƚe nove version de'l dataset de Common Voice? Iscrivite a ƚa newsletter.
 subscribe = Iscrivite
@@ -541,7 +541,7 @@ data-other-voxforge-description = VoxForge el xe sta creà apoxitamente par ranc
 data-other-tatoeba-description = Tatoeba el xe on anpio database che racoje fraxi, tradusioni e registrasioni vocaƚi par scopi de aprendimento ƚenguistico. El presente download el contien trace audio de inglexe parlà registrà da ƚa comunidà de Tatoeba.
 your-feedback = Gheto idee so cofà far mejo el dataset de Common Voice? Faneƚo savere so Discourse
 go-discourse = Va so Discourse
-missing-language = No trovito ƚa to ƚengua ne'l dataset? Par richiederne una, va su ƚa pàgina Ƚengue.
+missing-language = No catito ƚa to ƚengua ne'l dataset? Par richiederne una, va su ƚa pàgina Ƚengue.
 go-languages-page = Va a ƚa pàgina Ƚengue
 ready-to-validate = Sito pronto a convalidare on poche de fraxi?
 more = Altro
