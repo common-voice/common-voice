@@ -401,6 +401,10 @@ faq-is-account-public-q = Le informasion so el mìo account xeƚe publiche?
 faq-how-privacy-q = En che modo asicurè el anonimato e ƚa privacy de ƚe parsone che ƚe ga donà ƚe so vosi?
 faq-how-privacy-a = Tute cuante ƚe registrasioni prexenti ne i dataset ƚe vien anonimixà par rimovere cualsiasi informasion personaƚe da indove se posa risaƚire a'l donatore. Cò on colaboratore el fornise dati demografici tramite el proprio profilo, tali informasioni ƚe vien scanseƚà da ƚe registrasioni vocaƚi vanti de èsare acorpà al dataset disponibiƚe par el download, inoltre no ƚe vien en nisun caxo rexe publiche su ƚa pàgina de'l profiƚo de'l colaboratore.
 faq-what-determine-identity-q = Che roba vol dire che xe proibìo “determinare ƚ’identità” de ƚe voci ne i dataset de Common Voice?
+faq-what-determine-identity-a =
+    El set de dati di Common Voice ƚa xe na risorsa vèrta e publicamente disponibiƚe che ƚa poƚe èsare utiƚixà par adestrare n’ampia varietà de aplicasioni co funsione de riconosimento vocaƚe. Par protegere ƚa sicuresa de i nòstri colaboratori, dimandemo a tuti cueƚi che i scarica el set de dati Common Voice de rispetare ƚa sò privacy.
+    
+    Tute ƚe registrasioni ne'l set de dati ƚe vien anonimixà. Scaricando el dataset te aconsenti a rinunciare a ogni tentativo de determinare ƚ’identità de i donatori de voce. Sto cua significa che no te devi coƚegare ƚe informasioni ne'l dataset a ƚe informasioni personaƚi de on colaboratore. Tuttavia, xe posibiƚe utiƚixare el set de dati par adestrare el software de riconosimento vocaƚe, de riconosimento de'l sogeto parlante o altre aplicasioni, o anche corelà ƚe informasioni ne'l dataset a altre informasioni senpre prexenti ne ƚo steso dataset.
 faq-what-is-cv = Che roba xeƚa Common Voice?
 faq-using-cv = Uxo de Common Voice
 faq-description = Common Voice el xe parte de n’iniziativa Mozilla par insegnare a ƚe machine en che modo ƚe persone ƚe parla ne ƚa vita reale.
@@ -411,6 +415,7 @@ faq-search-for-answers =
 
 about-title = Parché Common Voice?
 about-subtitle = Common Voice xe parte de n’inisiativa Mozilla par insegnare a ƚe macchine cofà ƚa xente ƚa parla ne ƚa vita reaƚe. Par xonta a'l dataset de Common Voice, semo drio costruire on motore de riconosimento vocaƚe open source ciamà Deep Speech.
+about-header-description = Tuti e do i progeti i rientra ne ƚa nòstra mision de colmare el divario ne'l setore de'l riconosimento vocaƚe digitaƚe. Le tecnologie de riconosimento vocaƚe ƚe conferise na dimension umana a i nòstri dispoxitivi, ma i svilupatori i ga hanno bisogno de n’enorme quantità de dati vocaƚi par crearƚe. Deso, ƚa maggior parte de sti dati ƚa xe costoxa e proprietaria. Voƚemo rendere i dati vocaƚi disponibiƚi liberamente e publicamente e asicurarse che sti dati i rispechìa ƚa diversità de ƚe parsone reaƚi. Insieme podemo rendare el riconosimento vocaƚe migliore par tuti.
 how-does-it-work-title = En che modo funsiona
 how-does-it-work-text = Semo drio realixare on dataset vocaƚe open source atraverso el crowdsourcing. Dona ƚa to vose, convaƚida ƚe registrasioni invià da altre persone, rendi el dataset mijore par tuti cuanti.
 about-speak = Parla
@@ -565,6 +570,7 @@ other-language = Altra ƚengua
 language-section-in-progress = En corso
 language-section-in-progress-new-description = Ste ƚengue ƚe xe atualmente en faxe de sviƚupo da parte de ƚa comunità. Le bare de avansamento le indica i progresi de ogni ƚengua ne'l proceso de <localizationGlossaryLink>localixasione de'l sito web</localizationGlossaryLink> e de <fraseCollectionGlossaryLink>racolta de ƚe fraxi</sentenceCollectionGlossaryLink>.
 language-section-launched = Operative
+language-section-launched-description = Par ƚe seguenti ƚengue operative el sito web el xe stà conpletamente <localizationGlossaryLink>localixà</localizationGlossaryLink> e ƚa <phraseCollectionGlossaryLink>racolte de fraxi</sentenceCollectionGlossaryLink> el xe rivà a avere dimensioni suficienti da garantire suficiente materiaƚe da <speakLink>registrare</ speakLink> e <listenLink>scoltare</listenLink> en modo continuativo.
 languages-show-more = Vixualixa pì eƚementi
 languages-show-less = Visualixa meno eƚementi
 language-meter-in-progress = Progreso
