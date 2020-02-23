@@ -395,6 +395,7 @@ faq-how-calc-hours-a = Calcolemo ƚe ore stimando ƚa lunghesa media de ogni reg
 faq-where-src-from-2-q = Da dove vien el testo de origine?
 faq-where-src-from-2-a = Il testo de orixine el xe fruto de donasioni da parte de i colaboratori e da dialoghi de publico dominio trati da film cofà <italic>It’s a Wonderful Life</italic>.
 faq-why-not-ask-read-q = Parché no dimandè a ƚe parsone de lèxere brani da ƚibri o articoƚi de Wikipedia en diverse ƚengue?
+faq-why-not-ask-read-a = Par no ƚimitare ƚe possibili aplicasioni de'l dataset Common Voice, gavemo deciso de utilixare unicamente fraxi disponibiƚi soto ƚa licensa Creative Commons (CC0). El standard CC0 rende pì difisile trovare e rancurare fraxi idonee, tutavia garantise a tuti el dirito de inpiegare i dati racolti sensa restrisioni so ƚ’utilixo o autorixasion da parte de Mozilla. En definitiva, voƚemo che el dataset multilingua el gapia meno restrisioni posibiƚi en modo da èsare utƚlxà ƚiberamente da chiuncue, conpresi risercatori, università, startup, governi, organixasioni par scopi sociaƚi e hobbisti.
 faq-why-account-q = Parché gavarìa registrare on account?
 faq-is-account-public-q = Le informasion so el mìo account xeƚe publiche?
 faq-how-privacy-q = En che modo asicurè el anonimato e ƚa privacy de ƚe parsone che ƚe ga donà ƚe so vosi?
