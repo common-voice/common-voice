@@ -385,7 +385,9 @@ faq-do-want-native-a = Sì, serchemo sopratuto vosi cofà ƚa tua! Uno dei obiet
 faq-why-different-speakers-q = Perché gavì bisogno de così tante diverse vosi par ogni ƚengua?
 faq-why-different-speakers-a = Ne ƚa stragrande magioransa de i database par l’aprendimento vocaƚe trovemo na neta sproporsione demografica a favore de ƚe voci <articleLink>maschiƚi e de clase media</articleLink>. Invese i asenti e i dialeti asocià a i grupi xà de par sé marginalixà, i riceve na rapresentasion minore ne i dataset par l’aprendimento de'l software. Inoltre diversi dispoxitivi i fadiga a conprendere ƚe voci feminiƚi. Eco parché voƚemo che el nostro database sia così vario.
 faq-why-my-lang-q = Parché ƚa me ƚengua no ƚa ghe xe gnancora?
+faq-why-my-lang-new-a = Mozilla no auspica o favorise en alcun modo el progresso de alcune ƚengue rispeto a altre. Common Voice ƚa xe infati n’inisiativa gestìa interamente da ƚa comunità, ma richiede <multilangLink>diversi pasagi par xontare na nuova ƚengua</multilangLink> e inisiare a rancurare donasioni vocaƚi. Par prima cosa xe necesario tradure el sito web de Common Voice, en modo da ofrire a i membri de ƚa comunidà un strumento de colaborasion ne ƚa propria ƚengua. En seguito bisogna cargare na vasta racolta de fraxi prive de copyright che i colaboratori i pòsa lexere a alta voce. Na volta sodisfati tuti sti recuisiti, na ƚengua ƚa vien “lancià” so Common Voice e i coƚaboratori i poƚe inisiare a registrare ƚa propria vose e convaƚidare ƚe registrasioni de altri. Te poi inisiare a colaborare a'l ƚancio de na nova ƚengua da'l nòstro <sentenceCollectorLink>stromento par ƚa racolta fraxi</sentenceCollectorLink>.
 faq-what-quality-q = Cuaƚe liveƚo de cualità audio xe necesarìa da na registrasion vocale par esare utilixà ne el dataset?
+faq-what-quality-a = Voƚemo che el dataset de Common Voice rifleta ƚa cualità audio che on motore de riconosimento vocaƚe “scolterà” ne ƚa vita de tuti i giorni, par sto motivo cerchemo ƚa varietà. Oltre a na comunità diversificada de parlanti, on dataset co cualità audio variabiƚe ƚa insegnerà a'l motore de riconosimento vocaƚe a gestire varie situasioni de'l mondo reale, da'l parlato de sotofondo a'l rumore de ƚ’automobiƚe. En poche paroƚe, finché se distingue ƚe paroƚe ƚa to registrasion ƚa va benisimo par il dataset!
 faq-why-10k-hours-q = Parché 'l obietivo de registrasion el xe  proprio 10.000 ore convalidà par ogni ƚengua?
 faq-why-10k-hours-a = El xe pì o meno el nùmaro de ore necesarie par adestrare on software de riconosimento vocaƚe.
 faq-how-calc-hours-q = En che modo Common Voice calcoƚa ƚe ore?
@@ -735,6 +737,7 @@ share-goal = Condividi el mìo obietivo
 delete-q = Vuto dimandare anca l’eliminasion de ƚe registrasioni vocaƚi o preferisito conservarƚe ne'l dataset de Common Voice?
 keep = Mantien
 remove = Rimovi
+keep-info = Le to registrasioni vocaƚi anonime ƚe resterà ne'l dataset de Common Voice e, na volta eliminà el to profiƚo, no te poderè pì mandare na richiesta par rimoverƚe.
 remove-info = Examineremo la to richiesta de rimosione de ƚe registrasioni vocaƚi da'l dataset. Se ƚa richiesta ƚa vegnerà aprovà, contateremo chi ga scaricà el dataset e dimanderemo de rimovere ƚe to registrasioni vocaƚi.
 why-delete-recordings =
     Le registrasion de Common Voice ƚe xe utilixà da studioxi, picoƚe inprese e apasionati de riconosimento vocaƚe par parfesionare e far cresere risorse disponibiƚi publicamente cofà i modelli vocali.
