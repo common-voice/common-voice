@@ -11,7 +11,7 @@ loading = Cargamento…
 email-opt-in-info = Me piaxerìa risevere email de promemoria de i obietivi, axornamenti so i me progresi e newsletter che riguarda Common Voice.
 email-opt-in-info-title = Nòtate a ƚa mailing list de Common Voice
 email-opt-in-info-sub-with-challenge = Risevi email cofà promemoria de sfide e obietivi, axornamenti su i progresi e newsletter de Common Voice.
-email-opt-in-privacy = Sèjendo de risevere ƚe email, te aseti che Mozilla el uxa ste informasioni secondo queƚo riportà ne ƚa <privacyLink>informativa so ƚa privacy<privacyLink>.
+email-opt-in-privacy = Sèjendo de risevere ƚe email, te aseti che Mozilla el uxa ste informasioni secondo cueƚo riportà ne ƚa <privacyLink>informativa so ƚa privacy<privacyLink>.
 indicates-required = * vol dire on canpo che ghe voƚe par forsa
 not-available-abbreviation = N.D.
 
@@ -169,7 +169,7 @@ logout = Va fora
 ## Home Page
 
 home-title = El progeto Common Voice ƚa xe n'inisiativa de Mozilla psr insegnare a ƚe machine cofà ƚe parla ƚe persone ne ƚa vita reaƚe.
-home-cta = Dixi qualche roba, fà clic chive par inisiare!
+home-cta = Dixi cualche roba, fà clic chive par inisiare!
 wall-of-text-start = Ƚa vose ƚa xe naturaƚe, ƚa voce la xe umanità. Par sto cua ƚ’idea de creare na tecnologia vocaƚe utiƚixabiƚe da ƚe nòstre machine ne affasina on saco. Par creare sistemi baxà so ƚa tecnologìa vocaƚe, però, xe necesario on saco de campioni.
 wall-of-text-more-mobile = Bona parte de i dati uxà da Ƚe grandi axiende no ƚa xe acesibilƚe a ƚa magioransa de ƚe persone. Secondo noialtri sto cua sofoca l’inovasion. Par sta raxon gavemo svilupà Common Voice, on progeto de riconosimento vocaƚe vèrto a tuti cuanti.
 wall-of-text-more-desktop = Deso te poi donare ƚa to vose par jutarne a costruire on database vocaƚe open source a dispoxision de tuti i svilupatori de aplicasion par dispoxitivi o par il Web. <lineBreak></lineBreak> Contribuire xe senplicisimo! Lexi na fraxe par insegnare a ƚe machine cofà ƚe persone le parla ne ƚa vita reale. Verifica ƚe registrasion audio de i altri colaboratori par mijorare ƚa cualità de el database.
@@ -415,7 +415,7 @@ faq-search-for-answers =
 
 about-title = Parché Common Voice?
 about-subtitle = Common Voice xe parte de n’inisiativa Mozilla par insegnare a ƚe macchine cofà ƚa xente ƚa parla ne ƚa vita reaƚe. Par xonta a'l dataset de Common Voice, semo drio costruire on motore de riconosimento vocaƚe open source ciamà Deep Speech.
-about-header-description = Tuti e do i progeti i rientra ne ƚa nòstra mision de colmare el divario ne'l setore de'l riconosimento vocaƚe digitaƚe. Le tecnologie de riconosimento vocaƚe ƚe conferise na dimension umana a i nòstri dispoxitivi, ma i svilupatori i ga hanno bisogno de n’enorme quantità de dati vocaƚi par crearƚe. Deso, ƚa maggior parte de sti dati ƚa xe costoxa e proprietaria. Voƚemo rendere i dati vocaƚi disponibiƚi liberamente e publicamente e asicurarse che sti dati i rispechìa ƚa diversità de ƚe parsone reaƚi. Insieme podemo rendare el riconosimento vocaƚe migliore par tuti.
+about-header-description = Tuti e do i progeti i rientra ne ƚa nòstra mision de colmare el divario ne'l setore de'l riconosimento vocaƚe digitaƚe. Le tecnologie de riconosimento vocaƚe ƚe conferise na dimension umana a i nòstri dispoxitivi, ma i svilupatori i ga hanno bisogno de n’enorme cuantità de dati vocaƚi par crearƚe. Deso, ƚa maggior parte de sti dati ƚa xe costoxa e proprietaria. Voƚemo rendere i dati vocaƚi disponibiƚi liberamente e publicamente e asicurarse che sti dati i rispechìa ƚa diversità de ƚe parsone reaƚi. Insieme podemo rendare el riconosimento vocaƚe migliore par tuti.
 how-does-it-work-title = En che modo funsiona
 how-does-it-work-text = Semo drio realixare on dataset vocaƚe open source atraverso el crowdsourcing. Dona ƚa to vose, convaƚida ƚe registrasioni invià da altre persone, rendi el dataset mijore par tuti cuanti.
 about-speak = Parla
@@ -445,7 +445,7 @@ about-nav-partners = Partner
 about-nav-get-involved = Coƚabora
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Inteƚigensa artifisaƚe
-mycroft-description = Mycroft el xe el primo asistente digitaƚe open source a'l mondo. Te poi instalare Mycroft ovunque: computer fisi, automobili e parsin Raspberry Pi.
+mycroft-description = Mycroft el xe el primo asistente digitaƚe open source a'l mondo. Te poi instalare Mycroft dapartuto: computer fisi, automobili e parsin Raspberry Pi.
 mycroft-secondary-description = Se trata de on software open source che tuti cuanti i poƚe modifegare, anpliare e mijorare. Mycroft el se poƚe uxare en cualsiasi anbito, da on progeto sientifego a n’applicasione software d’inpresa.
 
 ## Glossary
@@ -633,7 +633,7 @@ record-abort-submit = Manda registrasion
 record-abort-continue = Porta a termine ƚa registrasion
 record-abort-delete = Esi e scanseƚa ƚe registrasion
 listen-instruction = { $actionType } <playIcon></playIcon> Ƚa fraxe xeƚa stà leta coretamente?
-listen-again-instruction = Otimo ƚavoro! <playIcon></playIcon> Scolta de novo ƚa registrasion cuando te si pronto
+listen-again-instruction = Otimo ƚavoro! <playIcon></playIcon> Scolta de novo ƚa registrasion cò te si pronto
 listen-3rd-time-instruction = 2 fate <playIcon></playIcon>, vanti n’altra!
 listen-last-time-instruction = <playIcon></playIcon> L’ùltima!
 nothing-to-validate = No xe prexenti registrasion da convalidare en sta ƚengua, jutane registrando cualche fraxe.
@@ -652,7 +652,7 @@ report-offensive-language-detail = La fraxe utilixa on lenguajo irispetoso o ofe
 report-grammar-or-spelling = Erore gramaticaȽe o de ortografia
 report-grammar-or-spelling-detail = Ƚa fraxe la ga on erore gramaticaƚe o de ortografìa.
 report-different-language = Ƚengua diversa
-report-different-language-detail = Ƚa xe scrita en na ƚengua diversa da queƚa che son drio parlare.
+report-different-language-detail = Ƚa xe scrita en na ƚengua diversa da cueƚa che son drio parlare.
 report-difficult-pronounce = Difisile da pronunciare
 report-difficult-pronounce-detail = Contien paròle o fraxi dificii da ƚèxere o pronunciare.
 report-offensive-speech = Discorso ofensivo
@@ -748,7 +748,7 @@ share-goal-type-both = Registrare e convaƚidare
 # LINK will be replaced with the current URL
 goal-share-text = Go pena creà on obietivo personaƚe par donare ƚa me vocs a #CommonVoice: unisite a noialtri e jutarne a insegnare a ƚe machine cofà ƚe parla ƚe parsone reaƚi { $link }
 weekly-goal-created = Obietivo settimanaƚe creà
-daily-goal-created = Obietivo quotidian creà
+daily-goal-created = Obietivo cuotidian creà
 track-progress = Tieni tracia de i progresi chive e ne la to pàgina de ƚe statisteghe.
 return-to-edit-goal = Par modìfegare el to obietivo torna chive cò te voi.
 share-goal = Condividi el mìo obietivo
