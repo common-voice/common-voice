@@ -4,7 +4,7 @@ import {
   withLocalization,
 } from 'fluent-react/compat';
 import * as React from 'react';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { trackSharing } from '../../services/tracker';
 import { Notifications } from '../../stores/notifications';
 import { FontIcon } from '../ui/icons';
@@ -21,6 +21,7 @@ interface Props extends LocalizationProps {
 
 function ShareButtons({ getString, shareTextId }: Props) {
   const [locale] = useLocale();
+  const [copyClicked, setCopyClicked] = useState(0);
   const addNotification = useAction(Notifications.actions.addPill);
   const encodedShareText = encodeURIComponent(
     shareTextId
@@ -28,6 +29,10 @@ function ShareButtons({ getString, shareTextId }: Props) {
       : getString('share-text', { link: SHARE_URL })
   );
   const shareURLInputRef = useRef(null);
+  const onlinkedCopied = () => {
+    setCopyClicked(copyClicked + 1);
+    setTimeout(() => setCopyClicked(0), 5000);
+  };
 
   return (
     <React.Fragment>
@@ -38,15 +43,17 @@ function ShareButtons({ getString, shareTextId }: Props) {
           shareURLInputRef.current.select();
           document.execCommand('copy');
           trackSharing('link', locale);
-
-          addNotification(
-            <React.Fragment>
-              <FontIcon type="link" className="icon" />{' '}
-              <Localized id="link-copied">
-                <span />
-              </Localized>
-            </React.Fragment>
-          );
+          !copyClicked
+            ? addNotification(
+                <React.Fragment>
+                  <FontIcon type="link" className="icon" />{' '}
+                  <Localized id="link-copied">
+                    <span />
+                  </Localized>
+                </React.Fragment>
+              )
+            : null;
+          onlinkedCopied();
         }}>
         <input type="text" readOnly value={SHARE_URL} ref={shareURLInputRef} />
         <FontIcon type="link" />
