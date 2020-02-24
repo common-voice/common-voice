@@ -1,9 +1,9 @@
 ## General
 
-yes-receive-emails = Ha, menga xat yuboring. Men Common Voice loyihasi haqida xabardor bo‘lib turishni xohlayman.
-stayintouch = Mozilla ovoz texnologiyasi bo‘yicha butun dunyo tillari jamoalarini tuzmoqda. Yangiliklar, yangi ma’lumot manbalari va bu ma’lumotlardan qanday foydalanish bo‘yicha ko‘rsatmalarni sizga yuborib turamiz.
-privacy-info = Biz ma’lumotlaringizni ehtiyot qilamiz. <privacyLink>Maxfiylik siyosati</privacyLink> haqidagi ma’lumotlarni o‘qib chiqing.
-return-to-cv = Common Voice’ga qaytish
+yes-receive-emails = Ha, menga xat yuboring. Men Common Voice loyihasi haqida xabardor boʻlib turishni xohlayman.
+stayintouch = Mozilla ovoz texnologiyasi boʻyicha butun dunyo tillari jamoalarini tuzmoqda. Yangiliklar, yangi maʼlumot manbalari va bu maʼlumotlardan qanday foydalanish boʻyicha koʻrsatmalarni sizga yuborib turamiz.
+privacy-info = Biz maʼlumotlaringizni ehtiyot qilamiz. <privacyLink>Maxfiylik siyosati</privacyLink> haqidagi maʼlumotlarni oʻqib chiqing.
+return-to-cv = Common Voiceʼga qaytish
 email-input =
     .label = Elektron pochta
 submit-form-action = Yuborish
@@ -67,12 +67,16 @@ it = Italyan
 izh = Izhor
 ja = Yapon
 ka = Gruzin
+kaa = Qoraqalpoq
 kab = Kabili
+kbd = Kabardino
 kk = Qozoq
 ko = Koreyscha
 kpv = Komi-zıryan
+ku = Kurd
 kw = Kornish
 ky = Qirg‘iz
+lg = Luganda
 mdf = Moksha
 mk = Makedon
 mn = Mongol
