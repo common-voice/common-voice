@@ -638,6 +638,7 @@ Deo es ubique.
 Deo faceva pro le homine un throno, pro le feminas un altar.
 Deo mie, tu pare destruite!
 Deo non dava nos spirito de pavor, ma de fortia, amor e sagessa.
+Deo non pote esser temptate per le mal, e ille ipse non tempta alicuno.
 Deo revelava iste cosas a nos per le medio de Su Spirito.
 Depende ab te.
 Deposita le moneta in un banca, per favor.
@@ -715,6 +716,7 @@ E io faceva mi corde apprender sapientia e insipientia.
 E le semblava audir anque le riso de illa.
 E multe vices io ha plorate.
 E multo plus que solmente parolas.
+E nos parla in re iste cosas.
 E postea io vadera: non es possibile restar ci, post haber transversate le mar.
 E que es facite, illo essera facite.
 E que ha su comportamento a facer con isto?
@@ -1876,6 +1878,7 @@ Ille debe star a lecto.
 Ille debeva ir illac.
 Ille decide de ir a confessar se.
 Ille decideva de boycottar jocos con gestion de restriction digital in le futuro.
+Ille decideva de regenerar nos con le parola del veritate.
 Ille dedicava su vita al lucta contra le corruption.
 Ille demandava mi adjuta.
 Ille derideva le consilio de su matre.
@@ -1971,6 +1974,7 @@ Ille esseva detenite pro esser foras post le coperifoco.
 Ille esseva felice de haber realisate su sonio.
 Ille esseva in favor del proposition.
 Ille esseva in le armea durante trenta annos.
+Ille esseva in prision a perpetuitate.
 Ille esseva includite in le accordo.
 Ille esseva includite in le contracto.
 Ille esseva incoragiate per un professor de su annos de universitate.
@@ -1981,6 +1985,7 @@ Ille exequeva su deber al costo de su tempore.
 Ille explicava le regulas in detalio.
 Ille extendeva le cognoscentia del biochimia.
 Ille extraheva alcun numismas.
+Ille face su examine final.
 Ille faceva su auto recular a in le garage.
 Ille faceva un excusa solmente pro adaptar se al occasion.
 Ille festa troppo.
@@ -2068,6 +2073,7 @@ Ille non es malade.
 Ille non es non malade.
 Ille non es plus ci.
 Ille non es sancte.
+Ille non es satis intelligente pro calcular mentalmente.
 Ille non es sempre felice.
 Ille non es un doctor.
 Ille non ha dicite assi.
@@ -2082,6 +2088,8 @@ Ille non pote venir.
 Ille non poteva cessar de rider.
 Ille non poteva provar su innocentia.
 Ille non poteva trovar le parolas pro su sentimentos.
+Ille non sape que io es japonese.
+Ille non se fide plus al doctor.
 Ille non se ha levate presto.
 Ille non se rememorava lo que ille habeva mangiate heri vespere pro le cena.
 Ille non solmente es medico, ma etiam un autor multo famose de romanes.
@@ -2134,6 +2142,7 @@ Ille robava ab le immunditia.
 Ille robava un vetere dama.
 Ille saltava sur le traino.
 Ille sanava de novo.
+Ille sape de ubi suffla le vento.
 Ille sapeva ben convincer mi filia de su historia deceptive.
 Ille sapeva lo que ille faceva.
 Ille scribe libros.
@@ -2153,6 +2162,10 @@ Ille se sentiva fatigate.
 Ille se sentiva non secur como durante su prime lection al schola de guidar.
 Ille sedeva in le sedia.
 Ille sembla amabile.
+Ille sembla creder lo que ille dice.
+Ille sempre critica le labor de su secretario.
+Ille sempre me surprende.
+Ille sempre va al lecto a novem horas.
 Ille simula.
 Ille squattava in un angulo a facer yoga.
 Ille studia.
@@ -2193,9 +2206,13 @@ Illes comenciava a tirar.
 Illes comprava illo.
 Illes comprava un grande casa al centro.
 Illes continua a dicer al personas sin gilets que illes debe mover se.
+Illes debe resolver conflictos inter nationes.
+Illes demandava si illes debeva scriber le nove parolas.
 Illes desirava prova.
 Illes deveniva folle.
+Illes dice que su oncle laborava pro illes.
 Illes duplava le altitude.
+Illes entrava in le metro.
 Illes era assassinate.
 Illes era heroes.
 Illes era perfecte.
@@ -2206,6 +2223,7 @@ Illes es ci pro me.
 Illes es con me.
 Illes es curte e magre.
 Illes es gentil.
+Illes es in optime condition.
 Illes es mi fratres.
 Illes es tanto forte como nos.
 Illes es troppo presso.
@@ -2294,6 +2312,7 @@ Illo es interessante
 Illo es jam facite.
 Illo es le pejor burla que io ha jammais ascoltate.
 Illo es le vita.
+Illo es lo que rende isto tanto difficile.
 Illo es magic.
 Illo es mie Justo!
 Illo es solo un excusa.
@@ -2316,6 +2335,7 @@ Illo ha evenite assi velocemente.
 Illo ha quatro patas, es de ligno e sta in le cocina.
 Illo le reda corage.
 Illo me rememorava de te.
+Illo non cessa de sanguinar.
 Illo non deberea esser permittite.
 Illo non era in le scriptura.
 Illo non es mi forte.
@@ -2401,9 +2421,13 @@ In mille novem centos, ille quitava Anglaterra pro nunquam retornar.
 In mille octo centos quaranta-octo, le gente veniva a California pro cercar auro.
 In multe casos, le refugiatos era professionales multo culte in lor ex nation.
 In omne caso, isto non me place.
+In omne caso, prende le traino deman.
 In personas senior, le vulneres ha besonio de multe tempore pro sanar.
 In plus, le numeros sera scribite como cifras o como parolas?
+In qual anno ille nasceva, ille non lo ha dicite.
+In qual traino arrivara tu?
 In que classe es Maximo?
+In que es tu melior, le gitarra o le piano?
 In retrospectiva, toto era jam decidite quando nos ha ascoltate le sirena.
 In su juventute mi patre era un hooligan.
 In synthese, le recolta era realmente mal.
@@ -2481,8 +2505,10 @@ Io apprecia tu tempore.
 Io apprende chinese in Peking.
 Io arrivava troppo tarde.
 Io ascolta musica.
+Io attende ancora mi jentaculo.
 Io attendera ci.
 Io attendeva le responsa ma nemo respondeva.
+Io audi nihil a causa del ruito.
 Io audi rider.
 Io audiva alicuno critar. foras.
 Io audiva le message.
@@ -2531,6 +2557,8 @@ Io comprava succo de ananas con nulle sucro addite.
 Io comprava un libro.
 Io comprende
 Io comprende le idea.
+Io comprende lo que tu dice.
+Io comprende nihil.
 Io comprende un poco de francese ma io non sape parlar lo.
 Io concorda con Maximo.
 Io construeva un nove casa.
@@ -2538,13 +2566,16 @@ Io controlara de novo.
 Io corrumpeva le policiero.
 Io crede in le poter del spirito e io nunquam te quitara.
 Io crede que ille es honeste.
+Io crede que io comprende.
 Io cresceva in le campania.
 Io dava a Peter un chance.
 Io dava a te un libro.
 Io debe addormir.
 Io debe adjutar iste personas.
+Io debe cambiar de autobus duo vices.
 Io debe cambiar.
 Io debe comprar unos.
+Io debe conferer con mi collegas sur iste question.
 Io debe facer lo sol.
 Io debe haber lo soniate.
 Io debe ir a dormir.
@@ -2554,8 +2585,11 @@ Io debe ir, ora.
 Io debe ir.
 Io debe lassar te.
 Io debe magrir, dunque io ha le intention de mitter me a dieta.
+Io debe memorisar iste poema.
 Io debe partir deman matino.
 Io debe partir malgrado le pluvia intense.
+Io debe passar le examine.
+Io debe pensar super isto.
 Io debe prestar me alcun moneta.
 Io debe retornar a casa.
 Io debe sempre sternutar post que mangia uva.
@@ -2565,7 +2599,9 @@ Io debe vader via tosto deman.
 Io debe vider Maximo.
 Io debera permaner in Boston durante al minus tres septimanas.
 Io debeva disembarassar me de mi dubita sur isto.
+Io decideva de studiar cata die.
 Io decideva viver hic a causa del bon climate.
+Io demandava a Mike de adjutar me.
 Io demandava qui ille era.
 Io desira a dar illo a Maria.
 Io desira acceptar criticas.
@@ -2580,6 +2616,8 @@ Io desira facer lo juste.
 Io desira haber mi proprie camera.
 Io desira incontrar Peter.
 Io desira le ventilator.
+Io desira que io poterea haber accompaniate la.
+Io desira que io poterea haber partite con illa.
 Io desira retornar ora.
 Io desira retornar.
 Io desira revenir a casa.
@@ -2642,6 +2680,7 @@ Io es disappunctate.
 Io es disgustate per te.
 Io es familiar con iste subjecto.
 Io es felice de acceptar criticas.
+Io es felice de adjutar.
 Io es felice de reciper correctiones.
 Io es felice proque io apprende un poco de nederlandese.
 Io es felice que tu ha ponite iste question.
@@ -2719,6 +2758,7 @@ Io es un musico.
 Io es un photographo.
 Io es un poco ante le tempore.
 Io es un poco fatigate hodie.
+Io es un poco irate contra te.
 Io es un poco occupate.
 Io es un vegetarian.
 Io es vegetarian.
@@ -2726,6 +2766,7 @@ Io esseva a pena capace de laborar.
 Io esseva assatis irritate per le cambiamento subite in le plano.
 Io esseva fortiate a prender le droga contra mi voluntate.
 Io esseva le homine le plus felice del mundo.
+Io esseva malade e debeva restar in casa.
 Io esseva multo occupate le septimana passate.
 Io esseva un poco surprendite.
 Io examinara illo.
@@ -3268,10 +3309,12 @@ Io te diceva de vader via.
 Io te eveliava.
 Io te facera un nove habito.
 Io te facera un telephonata quando io arrivara.
+Io te ha cercate.
 Io te ha facite un favor.
 Io te ha vidite illac.
 Io te habeva dicite que le numero de spectatores es complete.
 Io te informara si tosto que nos ha decidite que facer.
+Io te inviara a casa in mi auto.
 Io te lo dicera.
 Io te lo diceva desde puero, contrabando ha essite persequite.
 Io te pagara.
@@ -3633,6 +3676,7 @@ Justo iste melodia me recordava mi adolescentia.
 Justo jecta lo via.
 Kangurus causa grosse males de testa al agricultores australian.
 Kate esseva stupefacite per le comportamento de ille.
+Kate faceva notas minutiose sur le discurso de historia.
 Kate se faceva notas minutiose sur le discurso de historia.
 L'implementazione non è conforme alle specifiche.
 La abbordava con un voce languide e somnolente.
@@ -3717,6 +3761,7 @@ Le anno-luce es un unitate de distantia, non de tempore.
 Le anthropologo dice que costumes bizarre persiste in le region.
 Le apertura del codification fonte pote ser un mesura pro crear fiducia in software.
 Le apes strideva sonante lor micre trompettas monotone.
+Le apes strideva, sonante lor micre trompettas monotone.
 Le appello telephonic era interrumpite pro rationes incognite.
 Le aqua bullira post circa cinque minutas.
 Le aqua salate es plus flottabile que le aqua dulce.
@@ -3728,9 +3773,12 @@ Le archero occideva le cervo.
 Le architecto se vantava de haber recipite un premio prestigiose.
 Le area es humide.
 Le area immobile odorava de papaveres.
+Le arithmetica tracta de numeros.
 Le armata es forte.
+Le arte me interessa profundemente.
 Le aspiration del femina es le virtute excelse.
 Le aspiration del homine es le supreme gloria.
+Le assassino confessava su crimine.
 Le assignation del premio evenira a su tempore e loco
 Le assignation del premio evenira a su tempore e loco.
 Le assistente sapeva astutias multo prestigiose e enthusiasmava su auditorio.
@@ -3815,8 +3863,10 @@ Le capro expiatori non es jammais culpabile.
 Le casa de illa se trova trans le ponte.
 Le casa es a foco.
 Le casa es ubi es le corde.
+Le casa ha besonio de reparation.
 Le casa ha essite construite de beton.
 Le casa ha essite dividite in sectiones.
+Le caseo es facite de lacte.
 Le casettas nigre.
 Le cassa era plen de libros.
 Le cassa era quasi plen.
@@ -4520,12 +4570,15 @@ Lo que es facite es facite.
 Lo que es juste es juste.
 Lo que es licite a Jove, non es licite al bove.
 Lo que es passate es passate, e nunquam revenira.
+Lo que ille dice care de senso.
 Lo que ille diceva es de nulle importantia.
 Lo que se move de movimento recte, muta loco e se allontana del partita.
 Local solutiones deberea ser preferite a solutiones in nube in multe casos.
+London es le capital de Anglaterra.
 Longe tempore on ha proclamate que le linguas natural es troppo irregular.
 Lor conditiones non es acceptabile pro nos.
 Lor demanda de asylo ha essite acceptate, perque illes es victimas de persecution politic.
+Lor effortios non esseva in van.
 Lor equipa ha un forte senso de unitate.
 Lor labor me pare bon.
 Lorena pare agitate.
@@ -4545,6 +4598,7 @@ Ma io dice que si.
 Ma iste lista non es exhaustive.
 Ma la bastona, ille?
 Ma le cinere es un excellente fertilisante.
+Ma le factos me da ration.
 Ma le senso emanate per le rationamento.
 Ma nemo les pagara.
 Ma non dubitar jammais de mi amor.
@@ -4591,6 +4645,7 @@ Maria es un cercator de auro.
 Maria es un public intellectual.
 Maria ha multe amicos.
 Maria ha un perturbation de anxietate generalisate.
+Maria habeva tote le le fascino del beltate feminin.
 Maria jammais pensava que illa esserea assi allegre.
 Maria lege ille libro
 Maria non sapeva le nomine de iste typo, ni su numero de telephono.
@@ -4682,6 +4737,7 @@ Me place le rhythmo lente de iste cantion.
 Me place leger ante de ir a lecto.
 Me place multo le secunde parte del video.
 Me place non solmente le musica classic, ma etiam le jazz.
+Me place reguardar matches de football.
 Me placerea ir, ma io non ha auto.
 Me placerea parlar con un de vostre invitatos.
 Melio abortar lo ante que tu es imbroliate!
@@ -4823,6 +4879,7 @@ Multe linguas es parlate in Tanzania, un de illos es Zulu.
 Multe linguas occidental deriva ab radices indian-europee
 Multe linguas occidental deriva ad radices indian-europee
 Multe milites del secunde guerra mundial ha essite mais sepelite in un cemeterio.
+Multe milites del secunde guerra mundial non ha essite jammais sepelite in un cemeterio.
 Multe personas es traumatisate post iste accidente de navigation, illes besonia de cura intensive.
 Multe personas estranier veni a Japon pro laborar.
 Multe personas gaude de gustar le conservas.
@@ -4839,6 +4896,7 @@ Munde le camera.
 Munde tu camera.
 Murmures es ranas, illos bibe e parla.
 Nam quanto plus on acquire sapientia, tanto plus on acquire frustration.
+Nancy poneva su cubitos super le genus.
 Natal se approxima.
 Naturalmente io la ama!
 Naturalmente tu debe pagar! Que pensava tu?
@@ -4849,6 +4907,7 @@ Nemo comprendeva proque le elephante subito attaccava su proprietario.
 Nemo curreva ante ille.
 Nemo es consentite de ir illac.
 Nemo es nascite heroe ma totes pote le devenir.
+Nemo es plus habile que ille.
 Nemo es supra le lege.
 Nemo ha dicite que illo esserea facile.
 Nemo ha fame.
@@ -4857,10 +4916,12 @@ Nemo me ha dicite alco.
 Nemo me parla.
 Nemo nasce poeta.
 Nemo pensava que ille succederea.
+Nemo pote facer duo cosas simul.
 Nemo pote facer un omelette sin rumper ovos.
 Nemo pote lo dicer.
 Nemo pote servir duo dominos.
 Nemo pote vider.
+Nemo prende plus le interdiction seriosemente.
 Nemo sape e quante munitiones ha le militares in su postos de controlo.
 Nemo sape lo que es detra iste porta.
 Nemo sape lor nomine.
@@ -5121,6 +5182,7 @@ Nos deberea vader.
 Nos deberea vocar Peter.
 Nos debeva conducer lentemente usque al fin.
 Nos descendeva con un claffo sur le carpo.
+Nos discuteva un varietate de themas.
 Nos entrava in le officio pro trovar Emet e Erkin essugar le fenestras.
 Nos entrava in un auto.
 Nos era ebrie morte.
@@ -5140,6 +5202,7 @@ Nos es in un situation difficile.
 Nos es preste pro isto.
 Nos es sempre ci.
 Nos essera bon.
+Nos esseva hypnotisate per le incandescentia pulsante del brasa.
 Nos esseva involvite in un accidente de traffico.
 Nos expecta que il pluvera hodie.
 Nos face cocer le biscuites.
@@ -5193,6 +5256,7 @@ Nos lo pote facer.
 Nos luncha.
 Nos mica le scutella con un raspa usque resta solo fractiones.
 Nos moveva le projecto a un nove servitor.
+Nos non deberea haber nos hastate.
 Nos non deveni plus juvene.
 Nos non es american.
 Nos non ha nive ci.
@@ -5205,6 +5269,7 @@ Nos non lo dice plus.
 Nos non parla jammais con le estranies.
 Nos non plus condonara, ma denunciara publicamente omne irregularitate, non importa quanto minor.
 Nos non pote continuar nostre conversation in le presentia de iste personas.
+Nos non pote distinguer vos de vostre soror junior.
 Nos non pote facer lo.
 Nos non pote facer un omelette sin rumper ovos.
 Nos non pote lo facer ora.
@@ -5215,6 +5280,7 @@ Nos non rendera public tu email.
 Nos non solmente habeva fame, ma etiam suffreva le sete.
 Nos non va a mangiar alco.
 Nos non vole saper.
+Nos nos comprava un caravana de octo metros.
 Nos nos ha basiate.
 Nos nos mantenera in contacto.
 Nos nos planger sempre.
@@ -5228,6 +5294,7 @@ Nos perdeva.
 Nos plange nos sempre.
 Nos pote describe le movimento del objecto con un equation differential de secunde ordine.
 Nos pote facer multo melio.
+Nos pote registrar le passato e le presente.
 Nos pote reparar le calefactor.
 Nos pote solo perciper un parte del ample spectro de luce emittite del sol.
 Nos pote vider multe stellas in le nocte estive.
@@ -5244,6 +5311,7 @@ Nos supervivera.
 Nos superviveva.
 Nos te besonia.
 Nos tentava plure vices.
+Nos tentava rumper le lineas del inimico.
 Nos time.
 Nos tote es ci.
 Nos tote ha essite illac.
@@ -5255,9 +5323,13 @@ Nos va facer photos del locos plus belle que nos visitara.
 Nos va viver insimul a partir de Julio.
 Nos va, veni tu?
 Nos vade a provar.
+Nos vadeva al schola secundari insimul.
 Nos videra nos tosto.
+Nos videva demolir alcun vetule casas.
+Nos videva un avion a jecto volar trans le celo.
 Nos vincera.
 Nos vive in le nove era de Internet.
+Nos vive proxime al grande bibliotheca.
 Nos vive totes sub le mesme celo, ma nostre horizontes differe.
 Nos viveva ibi durante longe tempore, presso le riviera.
 Nos vole a dispersar le nucleo ab le scalia.
@@ -5279,6 +5351,7 @@ Nostre influentia sur lor monopolio es minuscule.
 Nostre inseniante rarmente ride.
 Nostre nove intelligentia artificial pote adaptar dynamicamente le equilibrio del joco.
 Nostre opiniones concorda con le lores quanto al punctos essential.
+Nostre schola es al sud del citate.
 Nostre secundari scopo es de reconstruer illo que eveniva.
 Nostre stock es exhauste pro le momento.
 Nostre ultime submarino de alte-technologia es motorisate per hydrogeno.
@@ -5295,6 +5368,7 @@ Nulle pellicula western sin un rixa in un taverna.
 Nulle preoccupation, io prendeva un taxi pro retornar a casa con securitate.
 Nulle problema, io comprende.
 Nulle, ille es sincer.
+Nunc io te recognosce!
 Nunquam la interessa mi sentimentos.
 Nunquam le etate de auro esseva illo actual.
 O le puteo era multo profunde o ille cadeva multo lentemente.
@@ -5780,6 +5854,7 @@ Poc personas es capace de comprender su theorias.
 Pois illa se curvava.
 Ponderation del poteres.
 Pone foras tu bicyclo.
+Pone in practica la Parola e non sia solmente su auditores.
 Porta Peter al station.
 Porta isto pro me.
 Porta lo que tu desira.
@@ -5790,8 +5865,10 @@ Portugal ha decriminalisate le possession personal de drogas.
 Possession es nove decimes del lege.
 Post arrivar al aeroporto ille telephonava immediatemente a su marita.
 Post biber the, nos comenciava le discussion.
+Post dece minutas illes passava a un sequente thema.
 Post finite le prime lot de documentos, io entrava in le fluxo de labor.
 Post ille falta, tote le stadio critava cosas irate.
+Post le accidente, le policia diceva al turba de tener se a retro.
 Post le accidente, su bicyclo debeva ser reparate.
 Post le divulgation del scandalo del doping le vincitor era private del medalia auree.
 Post le frigido.
@@ -5913,6 +5990,7 @@ Pro calibrar le systema de motion capture, face un T-pose.
 Pro cata problema complexe il ha sempre un solution simple... errate!
 Pro cognoscer sapientia e disciplina.
 Pro comprender le le parolas del prudentias.
+Pro comprender le parolas del prudentias.
 Pro comprender proverbios e allegorias, le maximas del sages e lor enigmas.
 Pro dar al inexpertos le consideration, al juvenes cognoscentia e reflexion.
 Pro dicer le veritate, io non poteva finir lo a tempore.
@@ -6341,6 +6419,7 @@ Qui lo ha dicite primo?
 Qui mangia apes?
 Qui mangia solo mais non pote saporar le gusto exquisite del ris.
 Qui mangiava le ultime biscuit?
+Qui me ha inviate un telegramma?
 Qui mira plus in alto se differentia plus altemente.
 Qui moriva?
 Qui non cognosce un dicto si commun?
@@ -6506,6 +6585,7 @@ Sex mille personas ha essite infectate desde le epidemia del virus.
 Shawty, tu pare stupende con ille malia.
 Si Bob habeva sequite mi consilio, toto esserea nunc in ordine.
 Si Deo vole me, ille trovara me in le campo.
+Si alicuno non frena su lingua, ma decipe su corde, su religion es futile.
 Si es permittite confrontar cosas micre con cosas grande.
 Si il non ha altere problemas, il es multo gaudiose.
 Si il non pluve hodie, io va currer in le parco.
@@ -6656,7 +6736,9 @@ Su declaration es le sequente.
 Su designos es multo original.
 Su discurso esseva breve e concise.
 Su discurso finiva con un standing ovation.
+Su effortios non habeva resultato.
 Su error era intentional.
+Su facie esseva in le umbra ab le luce.
 Su familia es multo grande.
 Su fidantiata al matino ha sempre pedes frigide.
 Su historia de vita es complicate.
@@ -6668,6 +6750,7 @@ Su naso aquilin deveniva si tenue como papiro.
 Su naso sanguinava.
 Su nove film es digne de esser vidite.
 Su nutrition consisteva quasi integremente de cereales.
+Su objectivo es passar le examine.
 Su pessimismo deprimeva les in su vicinitate.
 Su sanitate le permitte de laborar si durmente.
 Su sonio es finite.
@@ -6862,11 +6945,13 @@ Tu debe creder in te mesme.
 Tu debe ir illac.
 Tu debe ir.
 Tu debe la adjutar.
+Tu debe mangiar alimentos nutritive.
 Tu debe mantener le rhythmo o tu suffocara a medie cammino.
 Tu debe mundar tu camera.
 Tu debe presentar tu excusas a illa, e facer lo immediatemente.
 Tu debe ser Tim Norton.
 Tu debe ser patiente.
+Tu debe solmente concentrar te.
 Tu deberea adjutar tu patre.
 Tu deberea dormir.
 Tu deberea esser plus educate.
@@ -6971,9 +7056,11 @@ Tu le ha vidite?
 Tu les ha conducite per le naso.
 Tu lo ha facite multo ben.
 Tu lo regrettara!
+Tu lo vole realmente?
 Tu lo vole, nonne?
 Tu matre se plange jammais de lavar le plattos?
 Tu me debera un favor post isto.
+Tu me disappuncta.
 Tu me espaventa.
 Tu me ha disappunctate.
 Tu me manca constantemente.
@@ -7318,6 +7405,7 @@ Vidente su matre, le puera erumpeva in lacrimas.
 Vidite de lontan, le major parte del cosas pare belle.
 Vino non es un emulator.
 Vinti personas periva in le incendio.
+Virna Lisi, su beltate es inoblidabile.
 Visitar un universitate offere grande chances pro tu carriera.
 Vita es amusante.
 Viver in pace es necesse, Deo lo vole.
