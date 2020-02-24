@@ -363,13 +363,13 @@ change-email-setings = Endre e-postkontoen din via Innstillingar under Innloggin
 faq-title = Vanlege spørsmål og svar
 faq-what-cv-q = Kva er Common Voice?
 faq-what-cv-a =
-    Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelege system er dyre og lukka. Common Voice er ein del av Mozillas initiativ for å gjere talegjenkjenningsteknologi betre og meir tilgjengeleg for alle. Common Voice er ein stor, global database med stemmebidrag, som lèt kven som helst, raskt og enkelt trene stemme-aktiverte applikasjonar i potensielt alle språk.  ¶
-    ¶
+    Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelege system er dyre og lukka. Common Voice er ein del av Mozillas initiativ for å gjere talegjenkjenningsteknologi betre og meir tilgjengeleg for alle. Common Voice er ein stor, global database med stemmebidrag, som lèt kven som helst, raskt og enkelt trene stemme-aktiverte applikasjonar i potensielt alle språk.
+    
     Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
 faq-why-important-q = Kvifor er det viktig?
 faq-why-important-a =
-    Tale er ofte den mest naturlege måten vi kommuniserer med kvarandre, og taleteknologi gir oss den mulegheita på datamaskiner og portable einingar. Vi ønskjer å setje programvareutviklarar i stand til å byggje fantastiske talegjenkjenningsapplikasjonar, som sanntidsomsetting og stemmestyrte personlege assistentar. Men akkurat no er det meste av taledata som trengs for å byggje denne typen applikasjonar dyre og proprietære. Vi håper at Common Voice datamengda vil gi programvareutviklarar det dei treng for å lage nye ting og gjere taleteknologi tilgjengeleg på sitt eige språk.  ¶
-    ¶
+    Tale er ofte den mest naturlege måten vi kommuniserer med kvarandre, og taleteknologi gir oss den mulegheita på datamaskiner og portable einingar. Vi ønskjer å setje programvareutviklarar i stand til å byggje fantastiske talegjenkjenningsapplikasjonar, som sanntidsomsetting og stemmestyrte personlege assistentar. Men akkurat no er det meste av taledata som trengs for å byggje denne typen applikasjonar dyre og proprietære. Vi håper at Common Voice datamengda vil gi programvareutviklarar det dei treng for å lage nye ting og gjere taleteknologi tilgjengeleg på sitt eige språk. 
+    
     For å gjere talegjenkjenning endå meir universelt tilgjengeleg, samlar vi taleklipp både i språk med stor utbreiing og også dei med færre brukarar som ofte ikkje er handtert av kommersielle talegjenkjenningsprodukt. Ved å publisere eit brei datamengd av stemmer sett vi utviklarar, gründarar og heile språksamfunn i stand til å sjølv fylle dette behovet.
 faq-how-get-q = Korleis kan eg få tak i Common Voice-data?
 faq-how-get-a = Common Voice-datamengda er tilgjengeleg for nedlasting under <licenseLink>CC0</licenseLink> lisens på  <datasetLink>vår side med datamengder</datasetLink>.  Du kan også laste ned fleire andre offentleg tilgjengelege datamengder frå same side.
