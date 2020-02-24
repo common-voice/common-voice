@@ -335,6 +335,7 @@ request-language-form-language =
     .label = Til
 request-language-success-title = Til so‘rovi amalga oshirildi. Rahmat.
 request-language-success-content = Ona tilingizni Common Voice loyihasiga qo‘shish haqida ma’lumotlarni tezda yuboramiz.
+other-language = Boshqa tillar
 
 ## Languages Overview
 
@@ -402,12 +403,33 @@ share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
 
 ## Reporting
 
+report = Xabar berish
+report-title = Shikoyat qilish
+report-ask = Ushbu gap bilan qanday muammo bor deb hisoblaysiz?
+report-offensive-language = Haqoratli soʻzlar
+report-offensive-language-detail = Ushbu gapda tahqirli yoki haqoratli soʻzlar mavjud.
+report-different-language = Boshqa tillar
 
 ## Goals
 
+days =
+    { $count ->
+        [one] kun
+       *[other] kun
+    }
+recordings =
+    { $count ->
+        [one] Qayd
+       *[other] Qayd
+    }
 
 ## Dashboard
 
+your-languages = Sizning tillaringiz
+stats = Statistika
+awards = Mukofotlar
+you = Siz
+everyone = Barcha foydalanuvchilar
 
 ## Custom Goals
 
