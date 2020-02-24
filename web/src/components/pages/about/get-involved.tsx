@@ -54,10 +54,10 @@ const GetInvolved: React.ComponentType = () => {
 
         <div className="get-involved-icons">
           {[
+            [ContactLink, ContactIconCode],
             [DiscourseLink, DiscourseIconCode],
             [GitHubLink, GithubIconCode],
             [MatrixLink, MatrixIcon],
-            [ContactLink, ContactIconCode],
           ].map(([LinkComponent, IconComponent]: [any, any], index: number) => (
             <LinkComponent
               key={`get-involved-icon-${index}`}

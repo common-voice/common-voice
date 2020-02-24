@@ -135,7 +135,6 @@
 
         & p {
             color: var(--near-black);
-            white-space: pre-line;
             line-height: 1.75rem;
             font-size: 1.25rem;
             font-family: var(--strong-font-family);
