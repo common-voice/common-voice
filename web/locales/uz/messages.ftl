@@ -8,6 +8,10 @@ email-input =
     .label = Elektron pochta
 submit-form-action = Yuborish
 loading = Yuklanmoqda...
+email-opt-in-info = Men maqsad va yutuqlar haqida bildirishnomalarni hamda Common Voice haqidagi yangiliklarni qabul qilib turishni istayman.
+email-opt-in-info-title = Common Voice tarqatmalariga obuna boʻlish
+indicates-required = * Toʻldirish majburiy boʻlgan maydon
+not-available-abbreviation = M/E
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,6 +19,7 @@ loading = Yuklanmoqda...
 
 ## Languages
 
+ab = Abxazcha
 ace = Aceh
 am = Amharik
 an = Aragon
@@ -79,7 +84,6 @@ nn-NO = Norvegiya Ninorsk
 oc = Oksitan
 or = Odia
 pl = Polyak
-pt-BR = Portugal (Braziliya)
 rm-sursilv = Romansh Sursilvan
 ro = Rumin
 ru = Rus
@@ -297,7 +301,7 @@ review-cancel = Yuborishni bekor qilish
 review-keep-recordings = Yozuvlarni saqlash
 review-delete-recordings = Yozuvlarni o‘chirish
 
-## New Datasets Page
+## Datasets Page
 
 data-other-librispeech-description = LibriSpeech – LibriVox loyihasidagi ingliz tilida 16Khz 1000 soat atrofida o‘qilgan audiokitoblar jamlanmasi.
 data-other-ted-name = TED-LIUM to‘plami
@@ -338,7 +342,6 @@ language-section-in-progress = Tayyor bo‘lmagan tillar
 language-section-launched = Ishga tushirilgan tillar
 languages-show-more = Ko‘proq
 languages-show-less = Kamroq
-language-speakers = So‘zlovchilar
 language-meter-in-progress = Jarayon
 language-total-progress = Jami
 language-search-input =
@@ -348,7 +351,7 @@ localized = Tarjima qilingan
 sentences = Jumlalar
 total-hours = Jami soat
 
-## New Contribution
+## Contribution
 
 action-click = Bosish
 action-tap = Bosish
@@ -381,7 +384,6 @@ record-again-instruction = Yashang!<recordIcon></recordIcon> Keyingi klipni yozi
 record-again-instruction2 = Shunday davom eting, yana yozing: <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Oxirgisi!
 review-tooltip = Tekshiring va kliplarni bu yerga qayta yozing
-unable-speak = Hozir gapira olmaysizmi?
 review-instruction = Kerak bo‘lganda, cliplarni ko‘rib chiqing va qayta yozing
 record-submit-tooltip = { $actionType } tayyor bo‘lsa, yuboring
 clips-uploaded = Yuklangan kliplar
@@ -398,12 +400,21 @@ nothing-to-validate = Bu tilda tekshirish uchun hech nima yo‘q, navbatni to‘
 record-button-label = Ovozingizni yozing
 share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
 
+## Reporting
+
+
 ## Goals
 
 
 ## Dashboard
 
 
+## Custom Goals
+
+
 ## Profile Delete
 
 profile-form-delete = Profilni o‘chirish
+
+## Landing
+
