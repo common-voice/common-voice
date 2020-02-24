@@ -131,6 +131,7 @@ udm = Udmurt
 uk = Ukrainase
 ur = Urdu
 uz = Uzbeke
+vec = Venetishte
 vi = Vietnamisht
 vot = Votik
 zh-CN = Kineze (Kinë)
