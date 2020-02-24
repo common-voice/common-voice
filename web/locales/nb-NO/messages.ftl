@@ -367,13 +367,13 @@ change-email-setings = Endre e-postadressen din via Innstillinger under Innloggi
 faq-title = Ofte stilte spørsmål
 faq-what-cv-q = Hva er Common Voice?
 faq-what-cv-a =
-    Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelige systemer er dyre og lukkede. Common Voice er en del av Mozillas initiativ for å gjøre talegjenkjenningsteknologi bedre og mer tilgjengelig for alle. Common Voice er en stor, global database med stemmebidrag, som lar hvem som helst, raskt og enkelt trene stemme-aktiverte applikasjoner i potensielt alle språk.  ¶
-    ¶
+    Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelige systemer er dyre og lukkede. Common Voice er en del av Mozillas initiativ for å gjøre talegjenkjenningsteknologi bedre og mer tilgjengelig for alle. Common Voice er en stor, global database med stemmebidrag, som lar hvem som helst, raskt og enkelt trene stemme-aktiverte applikasjoner i potensielt alle språk.
+    
     Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
 faq-why-important-q = Hvorfor er det viktig?
 faq-why-important-a =
-    Tale er ofte den mest naturlige måten vi kommuniserer med hverandre, og taleteknologi gir oss den muligheten på datamaskiner og portable enheter. Vi ønsker å sette programvareutviklere i stand til å bygge fantastiske talegjenkjenningsapplikasjoner, som sanntidsoversetting og stemmestyrte personlige assistenter. Men akkurat nå er det meste av taledata som trengs for å bygge denne typen applikasjoner dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklere det de trenger for å  lage nye ting og gjøre taleteknologi tilgjengelig på sitt eget språk.  ¶
-    ¶
+    Tale er ofte den mest naturlige måten vi kommuniserer med hverandre, og taleteknologi gir oss den muligheten på datamaskiner og portable enheter. Vi ønsker å sette programvareutviklere i stand til å bygge fantastiske talegjenkjenningsapplikasjoner, som sanntidsoversetting og stemmestyrte personlige assistenter. Men akkurat nå er det meste av taledata som trengs for å bygge denne typen applikasjoner dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklere det de trenger for å  lage nye ting og gjøre taleteknologi tilgjengelig på sitt eget språk.
+    
     For å gjøre talegjenkjenning enda mer universelt tilgjengelig, samler vi taleklipp både i språk med stor utbredelse og også de med færre brukere som ofte ikke er håndtert av kommersielle talegjenkjenningsprodukter. Ved å publisere et bredt datasett av stemmer setter vi utviklere, gründere og hele språksamfunn i stand til å selv fylle dette behovet.
 faq-how-get-q = Hvordan kan jeg få tilgang til Common Voice datasettet?
 faq-how-get-a = Common Voice datasettet er tilgjengelig for nedlasting under <licenseLink>CC0</licenseLink> lisens på  <datasetLink>vår side med datasett</datasetLink>.  Du kan også laste ned flere andre offentlig tilgjengelige datasett fra samme side.
@@ -411,7 +411,7 @@ faq-what-determine-identity-a =
     
     Alle lydklipp i datasettet blir skrubbet for personidentifiserende informasjon. Når du laster ned datasettet, godtar du  å ikke forsøke å identifisere noen bidragsyterr. Det betyr at du ikke skal prøve å koble informasjon i datasettet til en bidragsyters personlige opplysninger. Du kan imidlertid bruke datasettet til å trene tale-gjenkjenning, taler-gjenkjenning eller andre typer programmer. For eksempel ved å koble informasjon i datasettet til annen informasjon allerede i datasettet.
 faq-what-is-cv = Hva er Common Voice?
-faq-using-cv = Å Bruke Common Voice
+faq-using-cv = Bruke Common Voice
 faq-description = Common Voice er en del av Mozillas initiativ for å hjelpe maskiner å forstå hvordan virkelige mennesker snakker.
 faq-search-for-answers =
     .label = Søk svar
@@ -430,7 +430,7 @@ about-listen-queue-text = Lydklipp blir lagt inn i en bidragskø som gjør disse
 about-listen = Lytt
 about-listen-text = Brukere validerer nøyaktigheten av bidratte lydklipp og kontrollerer at taleren leser setningen korrekt.
 about-is-it-valid = Er lydklippet gyldig?
-about-is-it-valid-text = Et lydklipp er markert som "gyldig" når en bruker gir det en "Ja"-stemme.
+about-is-it-valid-text = Et lydklipp er markert som «gyldig» når en bruker gir det en «Ja»-stemme.
 about-yes-votes = ≥ 2 Ja-stemmer
 about-yes-votes-text = For å komme med i Common Voice datasettet må et lydklipp bli godkjent av to separate brukere.
 about-no-votes = ≥ 2 Nei-stemmer
@@ -444,10 +444,15 @@ about-become-a-partner = Bli en partner
 about-partnership = Common Voice er et samarbeidsprosjekt, og vi er avhengig av vårt samfunn av partnere og bidragsytere for å bygge det største åpen-kilde datasettet av stemmer noensinne.  Vi vil gjerne få takke følgende personer og organisasjoner for deres bistand med prosjektet:
 about-get-involved = Bli med
 about-get-involved-text =
-    Vil du hjelpe til med å gjøre Common Voice enda  bedre?¶
-    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,¶
-     gi tilbakemelding via <githubLink>GitHub</githubLink>, ¶
+    Vil du hjelpe til med å gjøre Common Voice enda  bedre?
+    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
+     gi tilbakemelding via <githubLink>GitHub</githubLink>,
     eller kom sammen med oss på <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Vil du hjelpe til med å gjøre Common Voice enda  bedre?
+    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
+    gi tilbakemelding via <githubLink>GitHub</githubLink>,
+    eller bli med på <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
@@ -455,7 +460,7 @@ about-nav-get-involved = Bli med
 mycroft-title = Mycroft AI
 mycroft-subtitle = Kunstig Intelligens
 mycroft-description =
-    Mycroft er verdens første åpen kildekode digitale assistent. ¶
+    Mycroft er verdens første åpen kildekode digitale assistent.
     Mycroft kjører på hva som helst - en stasjonær PC, i en bil, eller på en Raspberry Pi.
 mycroft-secondary-description = Dette er åpen kildekode som fritt kan endres, utvides og forbedres. Mycroft kan brukes i hva som helst fra vitenskapelige prosjekter til bedriftsapplikasjoner.
 
