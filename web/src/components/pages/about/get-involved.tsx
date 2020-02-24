@@ -4,16 +4,14 @@ import {
   GitHubLink,
   DiscourseLink,
   ContactLink,
-  SlackLink,
+  MatrixLink,
 } from '../../shared/links';
 import {
   GithubIconCode,
   DiscourseIconCode,
-  SlackIcon,
+  MatrixIcon,
   ContactIconCode,
-  ArrowLeft,
 } from '../../ui/icons';
-import { Button } from '../../ui/ui';
 
 import './get-involved.css';
 
@@ -47,10 +45,10 @@ const GetInvolved: React.ComponentType = () => {
         </Localized>
 
         <Localized
-          id="about-get-involved-text"
+          id="about-get-involved-text-2020"
           discourseLink={<DiscourseLink />}
           githubLink={<GitHubLink />}
-          slackLink={<SlackLink />}>
+          matrixLink={<MatrixLink />}>
           <p />
         </Localized>
 
@@ -58,7 +56,7 @@ const GetInvolved: React.ComponentType = () => {
           {[
             [DiscourseLink, DiscourseIconCode],
             [GitHubLink, GithubIconCode],
-            [SlackLink, SlackIcon],
+            [MatrixLink, MatrixIcon],
             [ContactLink, ContactIconCode],
           ].map(([LinkComponent, IconComponent]: [any, any], index: number) => (
             <LinkComponent

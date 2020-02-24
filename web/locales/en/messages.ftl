@@ -474,6 +474,10 @@ about-get-involved-text = Want to help make Common Voice even better?
     Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
     submit feedback through <githubLink>GitHub</githubLink>,
     or join us on <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 = Want to help make Common Voice even better?
+    Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
+    submit feedback through <githubLink>GitHub</githubLink>,
+    or join us on <matrixLink>Matrix</matrixLink>.
 
 about-nav-why-common-voice = Why ?
 about-nav-how-it-works = How ?
