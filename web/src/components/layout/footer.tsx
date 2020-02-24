@@ -38,6 +38,11 @@ export default React.memo(() => {
           </Localized>
         </LocaleLink>
         <div className="divider" />
+        <GitHubLink id="github">
+          <GithubIcon />
+          <div>Github</div>
+        </GitHubLink>
+        <div className="divider" />
         <DiscourseLink id="discourse">
           <DiscourseIcon />
           <div>Discourse</div>
