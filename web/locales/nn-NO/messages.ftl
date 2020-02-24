@@ -443,9 +443,9 @@ about-partnership =
     Vi vil gjerne få takke følgjande personar og organisasjonar for hjelpa deira med prosjektet:
 about-get-involved = Ver med
 about-get-involved-text =
-    Vil du hjelpe til med å gjere Common Voice endå betre?¶
-    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,¶
-     gi tilbakemelding via <githubLink>GitHub</githubLink>, ¶
+    Vil du hjelpe til med å gjere Common Voice endå betre?
+    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
+     gi tilbakemelding via <githubLink>GitHub</githubLink>,
     eller ver med oss på <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
@@ -454,7 +454,7 @@ about-nav-get-involved = Ver med
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kunstig intelligens
 mycroft-description =
-    Mycroft er verdas første assistent med open kjeldekode. ¶
+    Mycroft er verdas første assistent med open kjeldekode.
     Mycroft køyrer på kva som helst - ein stasjonær PC, i ein bil, eller på ein Raspberry Pi.
 mycroft-secondary-description = Dette er open kjeldekode som fritt kan endrast, utvidast og forbetrast. Mycroft kan brukast i kva som helst frå vitskaplege prosjekt til bedriftsapplikasjonar.
 
