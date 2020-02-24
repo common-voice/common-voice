@@ -38,7 +38,7 @@ export function trackGlobal(
     | 'discourse'
     | 'contact'
     | 'footer-newsletter'
-    | 'slack',
+    | 'matrix',
   locale: string
 ) {
   track('Global', action, locale);
