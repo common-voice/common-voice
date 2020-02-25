@@ -447,6 +447,11 @@ about-get-involved-text =
     太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 留言、
     通过 <githubLink>GitHub</githubLink> 提交反馈意见、
     也可以加入我们的 <slackLink>Slack</slackLink>。
+about-get-involved-text-2020 =
+    想要帮忙使 Common Voice 变得更好吗？
+    太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 留言、
+    通过 <githubLink>GitHub</githubLink> 提交反馈意见、
+    也可以加入我们的 <matrixLink>Matrix</matrixLink>。
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
