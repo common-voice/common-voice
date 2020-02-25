@@ -471,6 +471,11 @@ about-get-involved-text =
     Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
     cyflwyno adborth trwy <githubLink>GitHub</githubLink>,
     neu ymunwch â ni ar <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Eisiau helpu i wneud Common Voice well fyth?
+    Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
+    cyflwynwch adborth trwy <githubLink>GitHub</githubLink>,
+    neu ymunwch â ni ar <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Pam ?
 about-nav-how-it-works = Sut ?
 about-nav-partners = Partneriaid
