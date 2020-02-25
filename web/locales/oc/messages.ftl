@@ -457,6 +457,11 @@ about-get-involved-text =
     Crane ! Contactatz-nos per mail o sus <discourseLink>Discourse</discourseLink>,
     enviatz un comentari via <githubLink>GitHub</githubLink>,
     o rejonhètz-nos sus <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Volètz ajudar a melhorar Common Voice ?
+    Crane ! Contactatz-nos per corrièl o sus <discourseLink>Discourse</discourseLink>,
+    mandatz de comentaris sus <githubLink>GitHub</githubLink>,
+    o venètz sus <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Perque ?
 about-nav-how-it-works = Cossí ?
 about-nav-partners = Sòcis
