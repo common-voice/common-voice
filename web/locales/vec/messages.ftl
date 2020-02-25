@@ -439,6 +439,9 @@ about-become-a-partner = Diventa partner
 about-partnership = Common Voice el xe on progeto en coƚaborasion e, par creare ƚa pì granda rancura de dati vocaƚi de dominio publico de senpre, dipendemo da ƚa comunidà de soci e coƚaboratori. Par el ƚoro contributo a'l progeto, gavemo el piaxere de ringrasiare ƚe parsone e ƚe organixasioni seguenti:
 about-get-involved = Coƚabora
 about-get-involved-text = Vuto jutarne a mijorare Common Voice? Otimo! Contattane via email o so <discourseLink>Discourse</discourseLink>, lasa on feedback so <githubLink>GitHub</githubLink> o unisite a noialtri so <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Vuto jutarne a mijorare Common Voice? Otimo! Contattane via email o so <discourseLink>Discourse</discourseLink>,
+    lasa on feedback so <githubLink>GitHub</githubLink> o unisite a noialtri so <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Parché?
 about-nav-how-it-works = En che modo?
 about-nav-partners = Partner
