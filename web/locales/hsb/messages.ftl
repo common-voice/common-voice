@@ -457,6 +457,9 @@ about-get-involved = Čińće sobu
 about-get-involved-text =
     Chceće pomhać, Common Voice polěpšić?
     Wulkotnje! Stajće so z nami přez e-mejl abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelće swoje komentary přez <githubLink>Github</githubLink> abo wopytajće nas na <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Chceće pomhać, Common Voice polěpšić?
+    Wulkotnje! Stajće so z nami přez e-mejl abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelće swoje komentary přez <githubLink>Github</githubLink> abo wopytajće nas na <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Čehodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnerojo
