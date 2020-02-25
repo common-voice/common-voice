@@ -441,7 +441,21 @@ about-clip-graveyard = «Аудиоязма каберлеге»
 about-clip-graveyard-text = «Аудиоязма каберлеге» Common Voice'ка эләгә алмаган аудиоязмалардан тора. Common Voice мәгълүмат тупланмасы кебек үк, «Аудиоязма каберлеге»ндәге аудиоязмаларны да йөкләп алып була.
 about-partners = Партнерлар
 about-become-a-partner = Партнер булу
+about-partnership =
+    Common Voice — күмәк проект, һәм, әлегә кадәр төзелгән иң зур, ачык кодлы аудиоязма тупланмасын булдыру өчен, без партнерларыбыз һәм иреклеләр җәмгыятенең ярдәменә мохтаҗ.
+    
+    Проектка ярдәм иткәннәре өчен, безнең түбәндәге кешеләргә һәм оешмаларга рәхмәт әйтәсебез килә:
 about-get-involved = Катнашу
+about-get-involved-text =
+    Common Voice'ны тагын да яхшырак итүгә ярдәм итәсегез киләме?
+    Шәп! Безнең белән электрон почта я <discourseLink>Discourse форумы</discourseLink> аша элемтәгә керегез,
+    <githubLink>Github</githubLink> аша безгә киңәш, тәкъдим, тәнкыйтьләрегезне җиткерегез,
+    яисә безгә <slackLink>Slack чатында</slackLink> кушылыгыз.
+about-get-involved-text-2020 =
+    Common Voice'ны тагын да яхшырак итүгә ярдәм итәсегез киләме?
+    Шәп! Безнең белән электрон почта я <discourseLink>Discourse форумы</discourseLink> аша элемтәгә керегез,
+    <githubLink>Github</githubLink> аша безгә киңәш, тәкъдим, тәнкыйтьләрегезне җиткерегез,
+    яисә безгә <slackLink>Matrix чатында</slackLink> кушылыгыз.
 about-nav-why-common-voice = Нигә?
 about-nav-how-it-works = Ничек?
 about-nav-partners = Партнёрлар
