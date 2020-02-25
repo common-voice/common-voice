@@ -452,6 +452,11 @@ about-get-involved-text =
     沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、
     透過 <githubLink>GitHub</githubLink> 送出意見回饋、
     也可以加入我們的 <slackLink>Slack</slackLink>。
+about-get-involved-text-2020 =
+    想要幫忙讓 Common Voice 變得更棒嗎？
+    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、
+    透過 <githubLink>GitHub</githubLink> 送出意見回饋、
+    也可以加入我們的 <matrixLink>Matrix</matrixLink>。
 about-nav-why-common-voice = 為什麼？
 about-nav-how-it-works = 怎麼做？
 about-nav-partners = 夥伴
