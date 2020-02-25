@@ -463,6 +463,9 @@ about-get-involved-text =
     ¿Quies ayudar a facer que Common Voice seya meyor?
     ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>, unvia comentarios per <githubLink>GitHub</githubLink> o xúnite
     a nós en <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    ¿Quies ameyorar Common Voice entá más?
+    ¡Xenial! Contauta per corréu o en <discourseLink>Discourse</discourseLink>,
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
