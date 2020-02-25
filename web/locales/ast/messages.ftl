@@ -464,8 +464,10 @@ about-get-involved-text =
     ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>, unvia comentarios per <githubLink>GitHub</githubLink> o xúnite
     a nós en <slackLink>Slack</slackLink>.
 about-get-involved-text-2020 =
-    ¿Quies ameyorar Common Voice entá más?
+    ¿Quies ayudar a ameyorar Common Voice entá más?
     ¡Xenial! Contauta per corréu o en <discourseLink>Discourse</discourseLink>,
+    unvia comentarios pente <githubLink>GitHub</githubLink>,
+    o xúnite a nós en <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
