@@ -450,6 +450,11 @@ about-get-involved-text =
     Tuyệt quá! Hãy liên lạc qua email hoặc trên <discourseLink>Discourse</discourseLink>,
     gửi phản hồi thông qua <githubLink>GitHub</githubLink>,
     hoặc tham gia với chúng tôi trên <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Bạn muốn giúp làm cho Common Voice trở nên tốt hơn?
+    Tuyệt quá! Hãy liên lạc qua email hoặc trên <discourseLink>Discourse</discourseLink>,
+    gửi phản hồi thông qua <githubLink>GitHub</githubLink>,
+    hoặc tham gia với chúng tôi trên <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Tại sao ?
 about-nav-how-it-works = Làm thế nào ?
 about-nav-partners = Đối tác
