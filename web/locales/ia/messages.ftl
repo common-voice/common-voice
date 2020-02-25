@@ -451,6 +451,11 @@ about-get-involved-text =
     Grande! Tene te in contacto via email o sur <discourseLink>Discourse</discourseLink>,
     invia un commentario per <githubLink>GitHub</githubLink>,
     o junge te a nos sur <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Vole adjutar a meliorar Common Voice?
+    Optimo! Contacta nos via e-mail o sur <discourseLink>Discourse</discourseLink>,
+    invia commentarios via <githubLink>GitHub</githubLink>,
+    o junge te a nos sur <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Proque?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
