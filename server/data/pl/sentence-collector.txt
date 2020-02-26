@@ -5,6 +5,7 @@
 "Ale jaki stąd wniosek?"
 "Ale jego praktyczny, szkocki umysł nakazał mu wrócić do właściwej sprawy."
 "Ale nie było na nim żadnego znaku."
+"Ale nie górnicy."
 "Ale popatrz pan!"
 "Ale to rzecz inna."
 "Ale w jakim celu człowiek ów pozostawił ten rower?"
@@ -19,19 +20,25 @@
 "Był głęboko zainteresowany."
 "Był to jeden z tych dramatycznych momentów, dla których żył mój przyjaciel."
 "Był to spory młot, który leżał na dywanie przed ogniem, zwyczajny młot robotniczy."
+"Był w tym czasie wdowcem."
 "Była bardzo wzburzoną, drżała cała, ale nie próbowała zejść na dół."
+"Była to bardzo ładna kobieta."
 "Była to kartka, na której nabazgrałem zagadkową wiadomość."
 "Była wzmianka, że zginął od wystrzału w głowę."
 "Byłbym rozczarowany, gdyby to nie była kolumna."
+"Byłem jego drużbą."
 "Było jasnem, że wzbudził."
 "Byłoby to w tej porze roku raczej o wpół do piątej, niż szóstej."
 "Byłoby to zbyt straszne!"
 "Bądź co bądź jednak ślady te są niezbyt wyraźne."
 "Będzie się musiał w to wdać ktoś z Londynu."
 "Będę czuła się niezręcznie, jeśli go zobaczę, ale ty powinnaś."
+"Błagał mnie, abym nie wchodziła."
 "Chociaż nie, trzeba przyznać, nie tak znowu dobrze."
 "Chodźcie na pierwszy ogień i opowiedzcie nam wszystko, co wiecie."
+"Chętnie przyjmował mnie u siebie i zawsze po mnie posyłał."
 "Chłopcy zwykle apetyt niepospolity miewają."
+"Co noc obchodził dom dokoła, gdyż bał się ognia."
 "Co o nim sądzisz, Watsonie?"
 "Co to ma znaczyć?"
 "Czemu poprostu nie zaniechał pisania?"
@@ -42,8 +49,11 @@
 "Czy nie moglibyśmy poprosić na chwilę piwniczego?"
 "Czy osiągnęliśmy granice, zakreślone przez rozum?"
 "Czy pan pamięta nazwiska wszystkich fabrykantów broni na kuli ziemskiej?"
+"Czy to był romans, czy zaręczyny odbyły się tajemnie, bez świadków?"
 "Czy to fałszerz monet, oszust, względnie złodziej?"
 "Czy to pana nie uderza?"
+"Czy to pani nie nasuwa jakiegoś przypuszczenia?"
+"Czy to tajemne stowarzyszenie nie było stowarzyszeniem politycznem?"
 "Czy woda jest zawsze brudna?"
 "Czy zauważyliście go za życia?"
 "Czy zauważył pan obraz nad głową profesora?"
@@ -60,7 +70,9 @@
 "Dla nich wszystkich istnieje tylko jeden „on“."
 "Dlaczegóż miałbym się dziwić?"
 "Dlatego spiłowano lufy."
+"Dlatego właśnie przyszło mi na myśl, że ktoś go ściga."
 "Dobór słów uniemożliwia wysłanie ogólnikowej wiadomości."
+"Donald, zadumany, kiedy się drzwi za nią zamknęły."
 "Dowiedziałem się o tem przypadkowo."
 "Drukowany jest w dwuch kolumnach."
 "Gaża jego wynosi siedemset funtów rocznie."
@@ -72,11 +84,13 @@
 "Holmes machnął ręką, nie odpowiadając na pytanie."
 "Holmes parsknął śmiechem i zatarł ręce."
 "Holmes podszedł do biurka i wylał z każdej flaszeczki nieco atramentu na bibułkę."
+"Holmes przyniósł z sieni sukienne pantofle."
 "Holmes rozłożył znów ćwiartkę papieru na nietkniętym talerzu."
 "Holmes stanął nad brzegiem bagna i spojrzał na nie."
 "Holmes uśmiechnął się."
 "I cóż teraz?"
 "I dlatego interesuję się nim."
+"I powód nie mógł być błahy."
 "I to mnie zdumiało."
 "I w jaki sposób uciekł bez niego?"
 "Inspektor spoglądał osłupiały ze zdziwienia to na jednego, to na drugiego z nas."
@@ -84,6 +98,7 @@
 "Inspektor starał się okazać zaciekawienie."
 "Inspektor w miarę rozmowy stawał się coraz poważniejszy."
 "Inspektor zdawał się być mocno zainteresowanym."
+"Inspektor zmienił się pod wpływem wzburzenia."
 "Ja nie mogę się spóźnić."
 "Ja sam starałem się tę sprawę wyświetlić."
 "Ja tu przychodzę z urzędu i mam pewne polecenie dopełnić."
@@ -110,9 +125,11 @@
 "Jeszcze jeden Wysiłek mózgu."
 "Jeszcze jedna iskierka, mój drogi Watsonie."
 "Jeszcze nie rozebrany siedziałem przy ogniu w mojej sypialni, kiedy usłyszałem huk."
+"Jeszcze się z niej nie wydostałem."
 "Kiedy ktoś z bandy mówi o „nim“, ma na myśli tylko jednego człowieka."
 "Kiedy skupiam myśli, wydaje mi się łatwiej uchwytnym."
 "Kiedy usłyszałem pańskie zdanie o nim, postanowiłem go poznać."
+"Kiedy wyjechał nagle do Europy, upewniłem się, że tak było."
 "Kodeks jego uznaje tylko jedną karę."
 "Krótko mówiąc, Watsonie, jest to książka bardzo pospolita."
 "Lampę zapaliłem ja sam w kilka minut później."
@@ -124,6 +141,7 @@
 "Macie taką w domu?"
 "Mamy człowieka, który zakrada się do domu z postanowieniem popełnienia morderstwa."
 "Miał ją i był przekonany, że ja ją mam również."
+"Miał na nogach pantofle."
 "Mieszka tutaj w Tokio."
 "Mogła leżeć w każdym kuferku."
 "Mogło mu się tak tylko zdawać."
@@ -131,28 +149,36 @@
 "Może był tylko jeden."
 "Może czyjeś inicjały?"
 "Może ma ukryte zalety" - pomyślał.
+"Może się podobać kobiecie."
 "Może znajdzie się jakiś drobiazg, godny uwagi."
 "Można mu ufać?"
+"Musicie panowie wiedzieć jeszcze jedno."
 "Musisz liczyć w pewnym stopniu na inteligencję tego, do którego piszesz."
 "Na bosych nogach miał pantofle."
 "Na honor, moja klacz miała ciężką przeprawę."
 "Na miłość Boską, proszę odejść!"
 "Nadajemy naszem sierotom nazwiska w porządku abecadłowym."
+"Nagle wstał i zadzwonił."
 "Następnem słowem jest „szczotka do szorowania świń“."
 "Następnym znakiem jest C."
 "Nauczyłem się tego od pana."
 "Nazwisko, jak pan twierdzi, jest przybrane."
 "Nic pani mu nie pomoże."
+"Nie było jednak żadnych tajemnic."
 "Nie było jednak żadnych."
 "Nie było tam wyrażenia „okrutnie“."
+"Nie chciał o niem ze mną mówić."
 "Nie dowodzi to, aby młota nie użyto."
 "Nie jest żonaty."
+"Nie lubił towarzystwa ludzi i stykał się z nimi tylko z konieczności."
 "Nie mam nigdy zamiaru pracować ich kosztem."
+"Nie mam zamiaru pana obrażać."
 "Nie przypominam sobie nic podobnego."
 "Nie przypominam sobie wypadku, którego szczegóły byłyby równie ciekawe."
 "Nie trać czasu!"
 "Nie trzeba sprowadzać Amerykan z zewnątrz, kiedy się ich ma w domu."
 "Nie widziałem ich od miesięcy."
+"Nie wiem, czem byli, ale pożegnałem się z nimi z prawdziwą przyjemnością."
 "Nie znalazłem innego pomieszczenia, ale słyszę, że tam będzie czysto i wygodnie."
 "Nie znaleźliśmy na nim najmniejszych śladów gwałtu."
 "Nie, nie spieszyła się, nie zdawała się szczególnie wzruszoną."
@@ -161,6 +187,7 @@
 "Nigdzie nie mógł się ukryć, schował się zatem za firanką."
 "Nikt nie powinien wiedzieć, co posiada."
 "Nikt się nie sprzeciwiał temu zdaniu proroczemu Jegomości w białej kamizelce."
+"O ile mi się zdaje, mówił pan o płaskiej stopie..."
 "O młodości i wychowaniu Oliwera."
 "Obawiam się jednak, że chodzi o jakieś przestępstwo."
 "Obrączka i bilet wskazują, że zachodzi tu uplanowane morderstwo z powodów prywatnych."
@@ -170,6 +197,7 @@
 "Określenia takiego korespondencja urzędowa nie uznaje."
 "On mnie podejrzewa."
 "Opowiem panu jeden lub dwa szczegóły, które mogą pana zainteresować."
+"Osobiście był przekonany, że morderca uciekł przez okno."
 "Ostatnim razem pozwoliłem sobie przeglądnąć jego papiery, z nieprzewidzianym zupełnie rezultatem."
 "Ostrze inteligencji tępiało i pokrywało się rdzą w chwili wytchnienia."
 "Oto owoce rozumowania."
@@ -178,28 +206,49 @@
 "Pan Bumble nie długo czekać musiał."
 "Pan ma słuszność."
 "Pan nosił zawsze złotą obrączkę ślubną na małym palcu lewej ręki."
+"Pan podążyłeś za nim po roku, nieprawdaż?"
+"Pan wie, że tak jest."
+"Pani słyszała wystrzał i zeszła od razu na dół?"
 "Pewny, jak skała."
+"Pierwszą myślą moją było postarać się o lepsze."
 "Piwniczy niech zaczeka za drzwiami."
 "Piwniczy wydał okrzyk zdziwienia i wskazał na wyciągniętą rękę zmarłego."
 "Po chwili jednak ogólne wzburzenie nastąpiło."
+"Pobraliśmy się przed pięciu laty."
 "Pochodziły z sześciu różnych banków."
 "Policjant miejscowy był nadzwyczaj zdenerwowany i zakłopotany odpowiedzialnością, jaka spadła na niego niespodziewanie."
 "Ponieważ jest siódmego stycznia, używamy już nowego almanachu."
+"Poszedłem za nim niechętnie."
 "Potem oglądnął wyłożony kamieniami brzeg i trawnik poza nim."
 "Potem oglądnąłem strzelbę."
+"Potem spojrzał na nas z uśmiechem."
 "Potem uciekł przez okno, pozostawiając swoją strzelbę."
 "Potem wziął kopertę, podniósł ją do światła i oglądnął z całą dokładnością."
+"Potem z ukłonem wysunęła się z pokoju."
 "Potok przynosi glinę."
+"Powiedziałem im, że wyjechał do Europy, ale nie wiem, gdzie go szukać."
+"Powrócił pan zatem mniej więcej w czasie jego małżeństwa?"
 "Poślemy po was w razie potrzeby."
 "Prawa ręka trupa wychylała się z ubrania, obnażona aż po łokieć."
+"Prosił, abym powróciła do swojego pokoju."
 "Proszę spalić szyfrowaną wiadomość, która obecnie nie może mieć dla pana żadnej wartości."
 "Proszę zostać przy niej!"
+"Przyjaciel mój siedział z głową opartą na rękach, pogrążony w głębokiej zadumie."
 "Przyjemna ta i wzruszająca rozmowa toczyła się, jak przypuszczam w gabinecie profesora?"
+"Przyniosłem mu buty, kiedy szedł po policję."
+"Przypominam sobie, że mówił, iż była szwedką."
+"Przypominam sobie, że wówczas wciąż cisnęło mu się na usta jedno nazwisko."
 "Przypomniała sobie, że słyszała jakiś łoskot, który wzięła za trzaśnięcie drzwiami."
+"Przypuszcza, że napis na kawałku tektury ma jakiś związek z tem tajnem stowarzyszeniem."
+"Przypuszczam, że uważał się za bezpiecznego, kiedy już podniesiono most zwodzony."
 "Przypuszczałem, że nie minęło więcej, jak trzydzieści sekund, kiedy znalazłem się w pokoju."
 "Przypuścimy najpierw, że jakaś osoba lub osoby z domu popełniły zbrodnię."
 "Przyrzekłem mu, kiedy pisał po raz pierwszy, że go śledzić nie będę."
+"Przyszli na działkę, dowiadywali się o niego."
+"Przyznaję, że zmarły był zazdrosny i może miał do tego powody."
+"Pytający wzrok zastąpiły nagle urywane słowa."
 "Pójdźcie oglądnijcie go."
+"Rewolwer nosił zawsze w kieszeni."
 "Rygor, jaki zaprowadził, jest straszliwy."
 "Samobójstwo nie wchodzi w grę."
 "Siedziała przy ogniu w sypialni w swoim szlafroku, z głową wspartą na rękach."
@@ -211,18 +260,26 @@
 "Sierżant zastanawiał się przez chwilę."
 "Skąd bierze pieniądze?"
 "Skąd wziąłeś te nazwiska?"
+"Spali w tyle domu i nie mogli nic słyszeć."
 "Sprawa jest ciekawą."
 "Sprawdziłem je i roztrząsnąłem, dodając kilka swoich spostrzeżeń."
 "Spróbujmy jeszcze raz."
 "Spuścił tedy trochę z tonu."
 "Stare koło obraca się i ukazują się te same szprychy."
 "Stopa szeroka, jakby zupełnie płaska."
+"Swojego czasu dużo podróżował."
+"Szeregi bardzo starych drzew w dziwnych figurach otaczały go dokoła."
 "Szliśmy staroświecką ulicą wioski, między dwoma rzędami drzew olchowych."
+"Szybkim, kocim ruchem położył pantofel na krwawej plamie na futrynie okna."
+"Sądził, że będę się gryzła, gdybym wiedziała wszystko, zatem milczał."
 "Sądzę, że od świtu wszyscy policjanci w obrębie czternastu mil wypatrują przemoczonego przechodnia?"
+"Sądzę, że otrzymał jakieś ostrzeżenie."
 "Sądzę, że wiesz, iż jesteś sierotą?"
 "Słownika lękam się, nie można przyjąć z tych samych powodów."
 "Słowo daję, wypadek bardzo ciekawy“."
 "Słuch ma nieszczególny."
+"Słyszałem jak mówił o okręgach węglowych i żelaznych."
+"Tak brzmiało ewentualne jej zapytanie."
 "Tak brzmiały w ogólnych zarysach zeznania piwniczego."
 "Tak będzie lepiej."
 "Tak jest, on się uśmiechnął."
@@ -233,59 +290,93 @@
 "Talerzy nigdy myć nie potrzebowano."
 "Ten człowiek zaniesie wasze rzeczy."
 "Ten ostatni Jegomość mimowolnie wielką prawdę wyrzekł."
+"Teraz nie odpowiedziałem na jej pytające spojrzenie."
+"Teraz nie spostrzegłem u niej nawet śladu przygnębienia."
 "Teraz wodę z cukrem i wódką zamieszał."
 "To bardzo ciekawe."
 "To bohater jakiejś powieści, nieprawdaż?"
 "To go tu sprowadziło."
+"To jedno, czego się lękał."
 "To jest naszym punktem wyjścia."
 "To jest, zdaje się, jasne."
 "To piszę prywatnie."
 "To się zgadza."
 "To sprawa natchnienia, nie roboty."
 "To wbrew rozsądkowi."
+"To wszystko, co się od niego dowiedziałam."
 "To zwykła tektura."
 "Treść jest zupełnie jasna."
+"Trudno oznaczać w takiej chwili."
 "Trzeba nam znaleźć łączący ich łańcuch."
 "Trzeba ująć sprawę rozumowo."
 "Tu jest bryłka złota, tu pleciony pierścionek, ale obrączka ślubna zniknęła."
+"Tu nawiązali znowu przyjacielskie stosunki."
 "Tutaj szklankę przysunął do siebie."
 "Twarz mu się rozpromieniła; zacierał chude ręce, słuchając skąpych lecz znamiennych szczegółów."
 "Tędy, panowie, jeśli łaska."
 "Ubrany był tylko w różowy szlafrok, który wdział wprost na bieliznę."
 "Udali się razem na front budynku."
+"Ukłoniłem się sztywno, co wskazywało, jak sądzę, jakiego nabrałem o nich przekonania."
+"Umarła rok przedtem, zanim go poznałem."
 "Uzbrojony jest w strzelbę."
+"Uśmiechnął się w milczeniu do swoich kolegów."
 "W ciągu dziesięciu minut znaleźliśmy wszyscy przeznaczone dla nas pomieszkania."
+"W jadalni była poważną i milczącą."
 "W jaki sposób zrobił majątek?"
 "W jaki sposób?"
 "W każdym razie nie mogę stąd odejść, jak długo ktoś mnie nie zastąpi."
 "W każdym razie nie wstydzę się przyznać, że zadanie to przechodzi moje siły."
+"W kilka minut później byliśmy w gabinecie."
 "W tem leży nasz ratunek."
+"W tydzień po jego wyjeździe pytało się o niego z pół tuzina ludzi."
+"Według jego zapatrywania świadczyła o tem niezbicie krwawa plama."
 "Weźmy pod uwagę Whitaker Almanach."
 "Wiadomość tę wypowiedział jednym tchem."
+"Widziałem jej portret."
+"Widziałem oczyma duszy leżącą na podłodze postać z roztrzaskaną głową."
 "Widziałem, jak stał na tem krześle i przybijał wielki obraz ponad nim."
 "Widzę, że mnie podejrzewa."
 "Wiedząc, że jest zdrajcą, mógł łatwo wyczytać oskarżenie w oczach drugiego."
+"Wnosiłam patrząc na środki ostrożności, jakie przedsiębrał."
+"Wnosiłam z jego odmowy opowiedzenia mi czegoś z pobytu w Ameryce."
+"Wnosiłam z pewnych jego słów."
+"Wnosiłam z zachowania się jego, kiedy patrzył na niespodziewanych gości."
+"Wrodzony mu akcent dźwięczał, jak kij na szynach."
 "Wspominałeś pan jednak, że przesyłałeś mu pieniądze?"
+"Wspomniałem, że ogród otoczony był pierścieniem drzew owocowych."
 "Wszystko jest ciekawe w tym wypadku."
 "Wszystko jest tak, jak znalazłem."
 "Wszystko już było i znowu kiedyś będzie."
+"Wszystko to było jakby w strasznym śnie."
+"Wygląd jej uderzył mnie."
+"Wymawiał je z gniewem i jakby ze zgrozą."
 "Wynoszą rocznie siedemset funtów."
 "Wysoki, opalony od słońca, inteligentnie wyglądający, wygolony mężczyzna zajrzał do środka."
+"Wyszedł ze swojego pokoju, nie słyszałam kiedy."
 "Właśnie miała się położyć już spać, kiedy uwagę jej zwróciło gwałtowne dzwonienie."
 "Wślizgnął się do tego pokoju, ponieważ nie widział innego."
+"Zadaję pytania, które uważam za potrzebne."
+"Zadzwonimy, jeśli będziecie potrzebni."
 "Zamierzał jednak tylko, zanim przekreślono jego plan, przesłać mi w tej kopercie klucz."
+"Zapaliłem zatem stojącą na stole lampę."
+"Zapewniał, że w niczem nie mogę mu pomóc."
 "Zapewnie, to nie wiele."
 "Zapomnij o tym. On jest poza wyobrażeniem."
 "Zaprowadziła ją zatem do sypialni i starała się uspokoić."
 "Zarządczyni wyszła ze swojego pokoju, zwabiona gwałtownem dzwonieniem."
+"Zarówno w interesie pańskim, jak i wszystkich leży ich wyświetlenie."
 "Zatem napad nie był zupełnie niespodziewany."
+"Zawsze jest romans."
+"Zawsze miał przy sobie broń."
 "Zbiegłem na dół."
 "Zdaje się, że był to człowiek bogaty i że otrzymał pewne uniwersyteckie wykształcenie."
 "Zdaje się, że czynimy pewne postępy, nieprawdaż?"
 "Zdążyłem ją ukryć."
 "Zeznania piwniczego były proste, jasne i robiły wrażenie szczerych."
+"Znaki są nieco szersze od podeszwy każdego buta."
 "Zresztą opowiadania jego i żony świadczyły jasno, że część życia spędził w Ameryce."
 "Zresztą, po co miałby zostawiać ślady?"
+"Zresztą, ponieważ most był podniesiony, ucieczka inną drogą była niemożliwością."
 "Zrobił na mnie dobre wrażenie ten miejscowy specjalista."
 "Zwyczajnie wzywa się eksperta ze stolicy, kiedy ślad jest już zupełnie zatarty."
 "Świadczy ona, że to człowiek bogaty."
@@ -293,9 +384,13 @@
 "Świeca paliła się na stole."
 "Świeca, która była świeżo założona, spaliła się zaledwie na pół cala."
 "Żadnych śladów człowieka."
+"„Co sądzicie o moich zeznaniach?“."
 "„Drogi panie Holmes“, pisze."
+"„Dzięki Bogu, cień ten nigdy nie padnie na ciebie“."
 "„Nie chcę zajmować się więcej tą sprawą."
+"„Nie moim, dzięki Bogu!"
 "„Oficjalne wezwanie z prośbą o pańskie usługi załączone jest w osobnej kopercie."
+"„Wystarczy, że jedno z nas żyje w jej cieniu“, rzekł."
 w jaki sposób jest możliwe, żeby się iskry sypały z człowieka.
 - A co rządowi przyjdzie z Fatmy i jej dzieci?
 - A czy ktoś jeszcze wiem o tym?
@@ -1365,6 +1460,7 @@ Cud stał się.
 Cudna kobieta! — pomyślałem, przestępując próg sali.
 Cudowna celowość natury.
 Cukrownia, walcownia stali, przemysł wydobywczy.
+Cyfry: zero, jeden, dwa, trzy, cztery, pięć, sześć, siedem, osiem, dziewięć.
 Cygaro żarzyło się powoli, rozpylając po przedziale obłoczki sinawego dymu.
 Cynamonki w Kofikadzie to prawdziwy hit, zapraszam na nie wszystkich znajomych.
 Czapki nie można znaleźć i w bek.
@@ -1515,6 +1611,7 @@ Czy widziałeś jak pięknie kwitną wiśnie?
 Czy widziałeś kiedy prywatny wagon?
 Czy widziałeś kiedyś potem tych dwoje?
 Czy wiesz, czyje te paznokcie?
+Czy wiesz, gdzie jest postój taksówek?
 Czy wszelka „twórczość” nie pochodzi z tych źródeł?
 Czy wydarzyło się coś nowego od owej chwili?
 Czy wytrzymasz jeszcze bez snu tę chwilę?
@@ -1532,6 +1629,7 @@ Czym się różni wróbelek? Tym, że ma lewą nóżkę bardziej.
 Czymże właściwie było to młode dziewczę dla Brama?
 Czynił to z ciężkim sercem, myśląc o tym, co będzie później.
 Czytaj moje przeznaczenie.
+Czytając ten tekst pomagam w rozwoju oprogramowania rozpoznającego ludzki głos.
 Czytali je najczęściej na spotkaniach, rzadziej w domu.
 Czytam i nudzę się.
 Czytał dużo; szybko, często powierzchownie.
@@ -1642,6 +1740,7 @@ Dla siebie odciął również spory kawałek, który pożarł na surowo.
 Dla takiej frajdy nie trzeba było iść tak daleko!
 Dla zaprzestania palenia trzeba wybrać odpowiednią chwilę.
 Dla zbója córki nie mam! — krzyknął Konrad, tracąc cierpliwość.
+Dlaczego Mozilla Firefox to najlepsza przeglądarka internetowa?
 Dlaczego Panowie wtargają?
 Dlaczego czujesz się tym tak upokorzona?
 Dlaczego muszę rozumieć?
@@ -1709,6 +1808,7 @@ Do widzenia, do jutra!
 Do widzenia, panie!
 Do wieczora obrazi się jeszcze dziesięć razy albo i więcej.
 Do wieczora źrenice miałem rozszerzone.
+Doba ma dwadzieścia cztery godziny.
 Dobiegli do rozstaju i znów przystanęli.
 Dobra i cierpliwa mama traci wreszcie cierpliwość i daje córeczce klapsa.
 Dobra, zmiana
@@ -1825,6 +1925,7 @@ Dwie kazałem przysposobić, bo nie wiem, która wam się lepiej uda.
 Dwoje Narcyzów między sobą.
 Dwoje dziesięciolatków obejmując się, idzie przez ulicę.
 Dwudziestego dziewiątego czerwca imieniny obchodzą Piotr i Paweł.
+Dwudziesty pierwszy wiek przyniósł wielkie zmiany.
 Dwukrotnie chcesz złamać słowo, które dałeś umierającej żonie.
 Dygotały mu palce w sposób skandaliczny.
 Dymał, rąbał, chędożył, aż nareszcie skończył.
@@ -2115,6 +2216,7 @@ Globalne ocieplenie lub inaczej zmiany klimatyczne.
 Gluten występuje w takich zbożach jak pszenica, żyto czy jęczmień.
 Gniję pomału.
 Gnębił i dręczył poddanych.
+Godzina ma sześćdziesiąt minut.
 Goethe jest zdania, że chrześcijańskie słowo „Bóg” jest tylko inną odmianą słowa „ja”.
 Gondola docierała do molo.
 Gondola odbijała od brzegu.
@@ -2924,6 +3026,8 @@ Jezus Nazareński chodził po falach.
 Jeśli Twoja dawna szkoła została zlikwidowana, możesz uzyskać zaświadczenie o przebiegu nauczania.
 Jeśli chodzi o Europę, to nie zwiedziłam tylko krajów skandynawskich.
 Jeśli człowiek nie czyta książek, nie może być świadomym i rozumującym obywatelem.
+Jeśli dodamy dwa i cztery, to wyjdzie sześć.
+Jeśli dodamy trzy i pięć, to wyjdzie osiem.
 Jeśli i to jej się nie powiedzie, wpada w gniew.
 Jeśli jednoręki trafem kulawca z oczu stracił, szukał go zawsze na prawo.
 Jeśli nasi klienci dowiedzą się, że współpracujemy z takimi ludźmi, mogą wyniknąć kłopoty.
@@ -2944,6 +3048,7 @@ Jeżeli się lubi nauczyciela, to nawet najmniejsza uwaga boli.
 Jeżeli się pan woźny nie zgodzi, to niech sam go wyrzuci.
 Jeżeli to był sen, można było jej wybaczyć te kuchenne maniery.
 Jurek Owsiak robi dobrą robotę.
+Jutro będzie bardzo zimno, minus dwadzieścia siedem stopni Celsjusza.
 Jutro będę u was znowu.
 Jutro pójdziemy w góry.
 Już było po jego pogrzebie.
@@ -3303,6 +3408,7 @@ Leżał w półmroku, bo bał się ciemności.
 Leżała nad rzeką.
 Leżało mokre licho na mokrym piasku i bało się poruszyć.
 Liczba ich jest dotychczas dosyć znaczna.
+Liczby: dziesięć, jedenaście, dwanaście, trzynaście, czternaście, piętnaście, szesnaście, siedemnaście, osiemnaście, dziewiętnaście.
 Linux to najlepszy system operacyjny.
 Lipcowe słońce przypiekało.
 Lista zbiorowisk roślinnych Polski, syntaksonomia, fitosocjologia.
@@ -3515,6 +3621,7 @@ Mimo woli rodziło się podejrzenie, czy puchar nie zawiera trucizny.
 Mimo wszystko jest to rzecz dostatecznie nadzwyczajna, że gdyby ją opisać, to wyszedłby kicz.
 Mimo wszystko od Janka pachniało lekko jakimś obcym zapachem.
 Ministerstwo głupich kroków. Skecze brytyjskiej grupy komików
+Minuta ma sześćdziesiąt sekund.
 Minął już czas zażywania lekarstw.
 Minęli jedną chałupę z ogródkiem.
 Minęło dużo lat od tego czasu.
@@ -5055,6 +5162,7 @@ Pierwszy oto przysięgam i pierwszy będę dbał o wypełnienie umówionych waru
 Pierwszy raz jestem na żaglówce.
 Pierwszych wierszy nie można było pochwycić uchem.
 Pierwszym elementem kształtującym człowieka jest genetyka.
+Pierwszym miesiącem roku jest styczeń, a ostatnim grudzień.
 Pierś była jędrna i młoda.
 Pies szczeknął, Maciuś wyrwał zakrwawioną rękę i schował do kieszeni.
 Pietrek na folwarku… — martwiła się panna Karolina.
@@ -5149,6 +5257,7 @@ Pochylone są ku ziemi te kształty.
 Pocieszał się, że do jutra Kasia zapomni o swoim gnieździe.
 Pociąg nie zaczeka, ani statek.
 Pociąg począł raptownie zwalniać…
+Pociąg z Krakowa do Wadowic odjeżdża o godzinie dwudziestej pierwszej trzydzieści siedem.
 Pociąg, który go wiózł, wyjechał wczoraj nad ranem z Paryża.
 Pociągnął nosem, węsząc jak pies.
 Poczciwy stary zuch!
@@ -5835,6 +5944,8 @@ Rodzice się niepokoją.
 Rodzice wybierali się do cioci.
 Rodzina Halszki z pietyzmem usiłowała podtrzymać jego pierwotny charakter.
 Rok jeszcze poświęcił na studia hydrauliczne, a następnie otrzymał posadę przy kanale.
+Rok ma dwanaście miesięcy.
+Rok przestępny ma długość trzysta sześćdziesiąt sześć dni.
 Rok temu zając mu z żyta do torby wskoczył przypadkiem — objaśnił, ściszając głos, kulawiec.
 Rok urodzenia.
 Rotunda ją prześladuje!
@@ -6207,6 +6318,8 @@ Szanownych wrzucających do projektu uprasza się o wrzucanie współczesnego j�
 Szarpane wichrem płócienne ściany oblewały ich ze wszystkich stron wodą.
 Szarówka jesienna. Śnieżyca, tornado i trzęsienie ziemi na wulkanie.
 Szas ostro sprzeciwił się tym planom.
+Szczebrzeszyn to miasto w województwie lubelskim.
+Szczecin i Koszalin nie leżą nad morzem.
 Szczególne były oczy starca.
 Szczególnie nie chodzę na filmy polskie
 Szczegóły oczywista nie wchodzą w zakres naszych rozważań.
@@ -6788,6 +6901,7 @@ Ty sama wiesz, kiedy ręce myć!
 Ty się mylisz.
 Ty to rozumiesz, przyjacielu „Mostowy”, i zrobisz, jak ja proszę.
 Ty złodziejski synu!
+Tydzień ma siedem dni.
 Tyle jest marnych żywotów ludzi o wielkim dziele.
 Tyle mam ci do powiedzenia!
 Tyle mam do powiedzenia o tej pani.
@@ -7097,6 +7211,7 @@ W przedpokoju zauważył, że pada deszcz.
 W przystani onej nie masz rekina…
 W punktach kulminacyjnych robił diminuen- da, co było jego nowym odkryciem.
 W ramach programu rozwoju bibliotek zakwalifikowaliśmy się do tego projektu.
+W roku przestępnym luty ma dwadzieścia siedem dni.
 W rozmowach z Cezarym wskazywał palcem na kilka „cudów”.
 W rysach jej twarzy nie znalazł ani śladu zdziwienia.
 W rękach tuliła Emilkę, osłoniętą kawałkiem czarnego materiału.
@@ -7660,6 +7775,7 @@ Właśnie nadchodzi lekarz.
 Właśnie wtedy pociąg, zwolniwszy biegu, wjechał w las.
 Właśnie wyłączyłem ten przełącznik.
 Właśnie wzeszedł księżyc.
+Włochy to państwo na południu Europy oraz dzielnica Warszawy.
 Włodzio już zdrów po odrze.
 Włożywszy ją do paszczy wypuścił zaraz na ziemię.
 Włóczenie się jest czynnością rytualną, prastarą, jak miasta.
