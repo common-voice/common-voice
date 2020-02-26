@@ -93,6 +93,7 @@ Aber das ist es mir wert.
 Aber das ist wohl der Situation geschuldet.
 Aber das kennen Sie sicher bereits.
 Aber das sprengt meine Vorstellungskraft.
+Aber das stand doch genau so in der Zeitung.
 Aber das war erst anderthalb Stunden später.
 Aber das war es dann auch schon wieder.
 Aber davon habe ich doch gar nichts gesagt!
@@ -401,6 +402,7 @@ Alle Möbel wurden in den großen, roten Transporter geladen.
 Alle Möglichkeiten werden ergebnisoffen diskutiert und gegeneinander abgewägt.
 Alle Netzwerkknoten sind nach Figuren aus Harry Potter benannt.
 Alle Proben sind gesichert.
+Alle Schlagzeuger wurden von der Polizei festgenommen.
 Alle Spiegel und Wände sind beschlagen.
 Alle Sprachkurse sind ausgebucht.
 Alle Steckdosen waren belegt.
@@ -529,6 +531,7 @@ Alltagsbegriffe werden nach Möglichkeit durch amtliche Bezeichnungen ersetzt.
 Alltagssprache ist grammatikalisch fragwürdig bis falsch, spiegelt aber das echte Leben wider.
 Alma fühlt sich geehrt.
 Alois kann profunde Kenntnisse in der Zoologie vorweisen.
+Als Albert von der Arbeit zurück kam konnte er die Musik schon hören.
 Als Aperitif oder Digestif gibt es meistens alkoholische Getränke.
 Als Arzt muss man nicht nur in seinem Fach kompetent sein.
 Als Ausgleich nehme ich Sie in die Liste der Co-Autoren mit auf.
@@ -2437,6 +2440,7 @@ Dafür wurde Annemarie nicht ausgebildet.
 Dafür wurde nicht mit Spezialeffekten und Actionszenen gegeizt.
 Dagegen ist kein Kraut gewachsen.
 Dagegen können schon kleinste Arbeitszeitverstöße zu einer Kündigung führen.
+Dagobert badet gern in seinem Geldspeicher.
 Daher kommen die Geräusche also!
 Daher kommt der Begriff Arschkarte.
 Daher können sie auch mehr Fotosynthese betreiben.
@@ -2642,6 +2646,7 @@ Dann kannst du sie problemlos noch korrigieren, sollte sie nicht stimmen.
 Dann kommt er auch auf den Dönerspieß.
 Dann können wir es auch als Paket schicken.
 Dann können wir ja beruhigt nach Hause gehen.
+Dann könnte man dort doch ein Segel dranhängen.
 Dann könnten wir zusammen musizieren.
 Dann lag Ruben Häusler ja gar nicht so verkehrt mit seiner Einschätzung.
 Dann lass es liegen.
@@ -2863,6 +2868,7 @@ Das Buch leistet exzellente Dienste als Briefbeschwerer und Staubfänger.
 Das Bundeskartellamt schränkt die Sammlung und Verarbeitung von Nutzerdaten durch Facebook stark ein.
 Das Bundeskriminalamt hat viele Computerspezialisten für digitale Forensik.
 Das Chorwochenende war anstrengend, aber wir haben sehr viel gelernt.
+Das D in Facebook steht für Datenschutz.
 Das Dessert besteht aus Mascarpone, Quark, Banane und anderen Früchten.
 Das Ding ist bloß, ich Trottel habe den Docht im Wachs ertränkt.
 Das Ding ist kurz vorm Abqualmen.
@@ -3067,6 +3073,7 @@ Das Sicherungsseil darf nicht über scharfe Kanten gelegt werden.
 Das Signal des Drahtlosnetzwerks reicht nicht vom Keller bis auf den Dachboden.
 Das Single-Dasein hat freilich auch Vorteile.
 Das Sinnvollste wäre es wohl, mit dem Überschuss Schulden zu tilgen.
+Das Soufflé ist zusammen gefallen.
 Das Staatsoberhaupt fand gegenüber seinem Gast versöhnliche Worte.
 Das Stadtbild ist sehr vom alten Hafen geprägt.
 Das Staffelfinale war sehr spannend und überraschend.
@@ -3638,6 +3645,7 @@ Dass da oben eine Raumstation fliegt, ist ja schon etwas Sciencefiction.
 Dass der Beklagte schweigen soll, verlangt sie ferner voller Groll.
 Dass der Text politisch korrekt gegendert ist, macht ihn nicht gerade lesbarer.
 Dass der erstgeborene Sohn wertvoller sei als seine Geschwister, ist eine hoffentlich veraltete Vorstellung.
+Dass die Menschen immer im Ruhebereich telefonieren müssen.
 Dass die Postleitzahlen aller Orte in Sachsen mit null beginnen, finde ich diskriminierend.
 Dass die Schupfnudeln nichts geworden sind, ist schade, aber kein Weltuntergang.
 Dass dies ausgerechnet unter seiner Schirmherrschaft passiert, ist ein Unding!
@@ -4202,6 +4210,7 @@ Der Kleine hat sein Plüschtier verloren.
 Der Kleine trug die schaukelnde Milchkanne, sodass es richtig kleckerte.
 Der Klimawandel ist auch ein Generationenkonflikt.
 Der Klimawandel ist das größte Problem unserer Zeit.
+Der Klingelton ist schon sehr nervig.
 Der Kläger hat, wie’s oft passiert, ein wenig überreagiert.
 Der Kläger hätte nichts verbockt, hätte er die Kuh dort angepflockt.
 Der Klägerin reichte dies nicht hin.
@@ -4451,6 +4460,7 @@ Der Verfasser des Manuskripts ist wahrhaftig ein Genie.
 Der Vergleich ist nicht so weit hergeholt, wie es zunächst scheint.
 Der Vergleich mit Darth Vader ist etwas an den Haaren herbeigezogen.
 Der Verkauf von Bio-Produkten ist einfach lukrativer.
+Der Verkäufer fragte noch einmal nach der Kundenkarte.
 Der Verkäufer zeigte ihm das neue Smartphone von Huawei.
 Der Vermieter hat Elena bei der Montage ihrer neuen Deckenleuchte geholfen.
 Der Verunglückte hinterlässt eine Frau und zwei Kinder.
@@ -4511,6 +4521,7 @@ Der Zusammenhang erschließt sich mir nicht ganz.
 Der Zusammenhang von Strom und Spannung ist dabei jedoch nicht linear.
 Der Zusteller gab mir nonverbal zu verstehen, dass ich die Klappe halten sollte.
 Der absolut perfekte Augenblick wird wahrscheinlich nie einkehren.
+Der alte Seeräuber holte seinen Kompass und teleportierte sich nach Hause.
 Der amerikanische Traum erfordert, dass es Aufstiegschancen für die Unterschicht gibt.
 Der andere Bäcker hat sich auf orientalische Backwaren spezialisiert.
 Der andere Joghurt schmeckte fruchtiger.
@@ -5013,6 +5024,7 @@ Die Hafenarbeiter trugen eine Kiste Sprotten nach der anderen Richtung Lastwagen
 Die Hagelkörner trommelten nur so auf das Vordach.
 Die Halle zu restaurieren, wird ein Vermögen kosten.
 Die Handtücher sind noch nass.
+Die Handwerker fingen an die Tapete abzureißen.
 Die Handwerker tragen Berufskleidung in Leuchtfarben.
 Die Hauptverantwortlichen kommen nicht nur ungeschoren davon, sondern kassieren auch noch eine Abfindung.
 Die Hausfrau hängt Wäsche auf.
@@ -5406,6 +5418,7 @@ Die Venus wird auch als Morgenstern bezeichnet.
 Die Verhandlungen mit den Alliierten sollen auf neutralem Boden stattfinden.
 Die Verkehrsbetriebe geben bekannt, dass ihre Ziehharmonikabusse zukünftig Musik spielen werden.
 Die Verkehrsdichte hat seither deutlich zugenommen.
+Die Verkäuferin fragte, ob die Kundin Treuepunkte sammelt.
 Die Vermieterin schimpft wie ein Rohrspatz.
 Die Versicherung will schon wieder Geld von mir haben.
 Die Versicherung wird kündigen.
@@ -7607,6 +7620,7 @@ Es lohnt sich nicht, sich darüber den Kopf zu zerbrechen.
 Es lohnt sich wirklich.
 Es macht Spaß, euch zuzuhören.
 Es macht mir selbst Freude, anderen eine Freude zu bereiten.
+Es machte viel Spaß mit dem Schlauchboot über den Fluss zu fahren.
 Es mag Sie überraschen, aber auch ich kann nicht alles gleichzeitig.
 Es mag vielleicht großzügig wirken, aber eigentlich sollte es eine Selbstverständlichkeit sein.
 Es mangelt an qualifizierten Lehrkräften für Deutschkurse.
@@ -7954,6 +7968,7 @@ Fragen wir dazu unseren Experten.
 Fragst du zwei Experten, kriegst du drei Meinungen.
 Frank wollte nicht schon wieder eine neue Waschmaschine kaufen.
 Frankfurt am Main sollte man offiziell in Bankfurt umbenennen.
+Franz hatte in Moskau studiert.
 Franz ist schon mal vom Zehner gesprungen.
 Franzi hat die Finte sofort durchschaut.
 Frau Aigner fällt für längere Zeit aus, weil sie einen Tinnitus hat.
@@ -8072,6 +8087,7 @@ Früher waren Bugs noch echte Käfer.
 Früher waren die Bäume noch grün, und die Wiesen saftig.
 Früher wurde man für einen Spinner gehalten, wenn man so etwas laut gesagt hat.
 Frühestens nach sechs Monaten kann man von einer ernsthaften Beziehung sprechen.
+Frühlingsrollen waren das Lieblingsessen von Sibylle.
 Funktioniert das denn?
 Fußgänger werden jetzt auch noch mit E-Tretrollern unterwandert.
 Fährst du rückwärts gegen einen Baum, verkürzt du so deinen Kofferraum.
@@ -8663,6 +8679,7 @@ Gunnar war ungelogen schon nach drei Minuten fertig.
 Guntram hat noch einen Grafikfehler gefunden.
 Gurken gehören wie Kürbisse zur Gruppe der Panzerbeeren.
 Gustav geht regelmäßig zur Logopädie.
+Gustav hatte an diesem Tag wieder kein Glück.
 Gustav legt eine Reihe aus Bube, Dame König und Ass.
 Gustav legt eine Reihe aus Bube, Dame, König und Ass.
 Gustav wäre gern ein Doktor der Biologie.
@@ -10586,6 +10603,7 @@ In diesem Geschäft kann man T-Shirts und Pullover kaufen.
 In diesem Hostel sind alle Hostessen blau gekleidet.
 In diesem Intervall ist die Funktion undefiniert.
 In diesem Moment abzubrechen, wäre fatal.
+In diesem Moment fing sie an ihren Kinderwunsch noch einmal zu überdenken.
 In diesem Moment schaltete sich unerwartet die Notbeleuchtung ein.
 In diesem Video zeige ich euch, wie man jedes Fahrradschloss innerhalb von Sekunden knackt.
 In diesem Video öffne ich die Fanpost, die vergangene Woche hier herein flatterte.
@@ -12518,6 +12536,7 @@ Man muss sich fest aneinander klammern, damit die Menschenkette nicht aufgelöst
 Man muss sich klarmachen, dass die Demonstranten nur eine Minderheit sind.
 Man muss so lange saugen, bis die Schwerkraft den Rest von allein bewältigt.
 Man muss sogar ein Formular ausfüllen!
+Man musste aufpassen auf der glitschigen Oberfläche der Steine nicht auszurutschen.
 Man möchte damit Korruption verhindern.
 Man möchte möglichst schnell einen Präzedenzfall schaffen.
 Man möchte seinen Kindern nicht zur Last fallen.
@@ -13159,6 +13178,7 @@ Mit einem heftigen Gewitter nahm die Hitzewelle ein abruptes Ende.
 Mit einem lauten "Brrr!" brachte er sein Pferd zum Stehen.
 Mit einem originalgetreuen Nachbau führt man Besucher an der Nase herum.
 Mit einer Art Regionalbahn fährst du von Kaltenkirchen nach Neumünster.
+Mit einer Birne wäre das nicht passiert.
 Mit einer Boeing sieben-drei-sieben wäre das nicht passiert.
 Mit einer Dampfwalze wird der Untergrund geplättet.
 Mit einer Einstweiligen Verfügung kamen sie nicht zum Erfolg.
@@ -13883,6 +13903,7 @@ Niemand erlernt eine Sprache in nur einer Woche.
 Niemand erwartet Perfektion.
 Niemand fängt mit Mitte zwanzig noch das Rauchen an.
 Niemand gibt freiwillig seinen Posten ab.
+Niemand hat die Absicht eine Mauer zu errichten.
 Niemand hat die Absicht, den kompletten Straßenverkehr zu überwachen!
 Niemand hat die Absicht, eine Mauer zu errichten.
 Niemand hat die Absicht, einen Todesstern zu errichten!
@@ -15218,6 +15239,7 @@ Seine Kritik mit so viel Häme zu äußern, kann man nur als stillos bezeichnen.
 Seine Kumpanen haben wir abfangen können.
 Seine Lieblingsband war am neunzehnten April in Berlin zu Gast.
 Seine Mitbewerber zeigen, wohin die Reise geht.
+Seine Mutter kannte Simon schon aus dem Kindergarten.
 Seine Märchen glaube ich nicht mehr.
 Seine Oma lebte auf einem Bauernhof.
 Seine Papiere sind gefälscht.
@@ -15530,6 +15552,7 @@ Sie kratzt mit den Fingernägeln an der Tafel.
 Sie können das unternehmerische Risiko doch nicht einfach auf den Kunden abwälzen!
 Sie können dem Küstenschutz dienen.
 Sie können es gar nicht erwarten, gell?
+Sie können hier mit Kreditkarte oder Bargeld zahlen.
 Sie können jetzt nicht einfach jemand anderem die Schuld in die Schuhe schieben!
 Sie können sich nicht vorstellen, welch ein emotionaler Moment das für mich ist.
 Sie können sich sicher vorstellen, dass hier nachts eine gespenstische Atmosphäre herrscht.
@@ -15890,6 +15913,7 @@ So kann das Blut aus den Beinen in den Rest des Körpers fließen.
 So kann es gehen.
 So kann es gehen. Anderst als man denkt.
 So kann ich mich nicht erholen.
+So kann man es auch sehen.
 So kann man nicht erkennen, ob sie stromauf- oder stromabwärts gegangen sind.
 So kann man sich täuschen.
 So kannte ich sie gar nicht.
@@ -16088,6 +16112,7 @@ Solche Sprüche habe ich bisher nur von alten Menschen gehört.
 Solche Stellen lassen sich nicht per Autokorrelation entdecken.
 Solche Tricks funktionieren bei mir nicht.
 Solche Verfehlungen darf man sich als Wetterfrosch nicht erlauben.
+Solche Vorfälle waren nicht selten.
 Solche alten Taschenspielertricks hat Edgar auch drauf.
 Solches Verhalten könnte als anstößig angesehen werden.
 Soll Komprimierung angewandt werden?
@@ -16173,6 +16198,7 @@ Sophia wird eins auf den Deckel kriegen.
 Sophie hat blaue Hände, weil ihr der Füller ausgelaufen ist.
 Sophie lehnte dankend ab, als Nadine ihr die volle Schachtel Zigaretten hin hielt.
 Sophie zeigte auf den Bildschirm und nun konnte auch Vivi den Pixelfehler sehen.
+Sorgfältig saugte Bernd auch das letzte Staubkorn vom Boden auf.
 Sorgfältig studierte sie alle Unterlagen, die sie in der Aktentasche finden konnte.
 Sorry!
 Sorry, aber das musste einfach sein.
