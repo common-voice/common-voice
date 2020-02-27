@@ -457,6 +457,10 @@ about-get-involved-text =
     Chcesz pomóc jeszcze bardziej ulepszyć projekt Common Voice?
     Wspaniale! Skontaktuj się z nami przez e-mail lub serwis <discourseLink>Discourse</discourseLink>,
     prześlij opinię przez <githubLink>GitHub</githubLink> lub dołącz do nas w aplikacji <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Chcesz pomóc jeszcze bardziej ulepszyć projekt Common Voice?
+    Wspaniale! Skontaktuj się z nami przez e-mail lub serwis <discourseLink>Discourse</discourseLink>,
+    prześlij opinię przez <githubLink>GitHub</githubLink> lub dołącz do nas w sieci <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy
