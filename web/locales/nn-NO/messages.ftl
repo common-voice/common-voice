@@ -447,6 +447,11 @@ about-get-involved-text =
     Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
      gi tilbakemelding via <githubLink>GitHub</githubLink>,
     eller ver med oss på <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Vil du hjelpe til med å gjere Common Voice endå  betre?
+    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
+    gi tilbakemelding via <githubLink>GitHub</githubLink>,
+    eller bli med på <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
