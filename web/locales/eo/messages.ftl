@@ -378,7 +378,9 @@ faq-what-is-cv = Kio estas Common Voice?
 about-title = Kial Common Voice?
 how-does-it-work-title = Kiel ĝi funkcias?
 about-speak = Paroli
+about-listen-queue = Vico de aŭskulto
 about-listen = Aŭskulti
+about-clip-graveyard = Tombejo de voĉregistroj
 about-partners = Asociitoj
 about-become-a-partner = Iĝi asociito
 about-get-involved = Partopreni
@@ -558,6 +560,7 @@ listen-last-time-instruction = <playIcon></playIcon>Lasta!
 nothing-to-validate = Ni ne havas ion ajn por validigi en tiu ĉi lingvo, helpu nin aldoni kelkajn registrojn al la atendovico.
 record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
+login-to-get-started = Komencu seancon aŭ enskribiĝu por ekuzi
 
 ## Reporting
 
@@ -612,7 +615,9 @@ how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
 n-clips = { NUMBER($count) } voĉregistroj
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Kundividu vian ĉiutagan ĉelon, { $count } voĉregistroj { $type }
+share-n-daily-contribution-goal = Kundividu vian ĉiutagan celon, { $count } voĉregistroj { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Kundividu vian ĉiusemajnan celon, { $count } voĉregistroj { $type }
 
 ## Profile Delete
 
