@@ -371,12 +371,14 @@ faq-where-src-from-2-q = El kie venas la fonta teksto?
 faq-why-account-q = Kial mi devus krei konton?
 faq-is-account-public-q = Ĉu la informoj de mia konto estas publikaj?
 faq-how-privacy-q = Kiel vi certigas anonimecon kaj privatecon de la personoj, kiuj donacis siajn voĉojn?
+faq-what-is-cv = Kio estas Common Voice?
 
 ## ABOUT US
 
 about-title = Kial Common Voice?
 how-does-it-work-title = Kiel ĝi funkcias?
 about-speak = Paroli
+about-listen = Aŭskulti
 about-partners = Asociitoj
 about-become-a-partner = Iĝi asociito
 about-get-involved = Partopreni
