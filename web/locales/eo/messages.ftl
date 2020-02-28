@@ -651,6 +651,8 @@ share-goal-type-both = Parolante kaj aŭskultante
 weekly-goal-created = Via ĉiusemajna celo estis kreita
 daily-goal-created = Via ĉiutaga celo estis kreita
 track-progress = Sekvu vian progreson ĉi tie kaj en la paĝo pri statistikoj.
+return-to-edit-goal = Revenu ĉi tien por modifi vian celon, iam ajn.
+share-goal = Kundividi mian celon
 
 ## Profile Delete
 
@@ -661,4 +663,6 @@ profile-form-delete = Forigi profilon
 ## Landing
 
 welcome-staff = Estu bonvenaj, laboristoj de { $company }!
+login-company = Komencu seancon / registriĝu per retpoŝta adreso de { $company }
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
+read-more-about = Pli da informo en la paĝo: Pri Common Voice
