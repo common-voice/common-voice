@@ -366,6 +366,7 @@ subscribe = ਮੈਂਬਰ ਬਣੋ
 get-started-speech = ਆਵਾਜ਼ ਪਛਾਣ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ
 other-datasets = ਹੋਰ ਆਵਾਜ਼ ਡਾਟਾ-ਸਮੂਹ
 feedback-q = ਸੁਝਾਅ ਹਨ?
+data-other-ted-name = TED-LIUM ਕਾਰਪਸ
 go-discourse = ਭਾਸ਼ਣ ‘ਤੇ ਜਾਓ
 go-languages-page = ਭਾਸ਼ਾ ਸਫ਼ੇ ‘ਤੇ ਜਾਓ
 more = ਹੋਰ
@@ -403,6 +404,7 @@ other-language = ਹੋਰ ਭਾ.ਾ
 ## Languages Overview
 
 language-section-in-progress = ਜਾਰੀ ਹੈ
+language-section-launched = ਲਾਂਚ ਕੀਤਾ ਗਿਆ
 languages-show-more = ਹੋਰ ਵੇਖੋ
 languages-show-less = ਘੱਟ ਵੇਖੋ
 language-meter-in-progress = ਤਰੱਕੀ
@@ -434,6 +436,7 @@ record-cancel = ਮੁੜ-ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕਰੋ
 record-instruction = { $actionType }<recordIcon></recordIcon> ਤਦ ਵਾਕ ਨੂੰ ਉੱੱਚੀ ਪੜ੍ਹੋ
 record-stop-instruction = ਜਦੋਂ ਮੁਕੰਮਲ ਹੋ ਜਾਵੇ ਤਾਂ { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = ਤਿੰਨ ‘ਤੇ ਸ਼ੁਰੂ ਕਰੋ!
+record-abort-submit = ਕਲਿੱਪ ਜਮ੍ਹਾਂ ਕਰੋ
 record-button-label = ਆਪਣੀ ਆਵਾਜ਼ ਰਿਕਾਰਡ ਕਰੋ
 share-title-new = ਹੋਰ ਆਵਾਜ਼ਾਂ ਲੱਭਣ ਲਈ <bold>ਸਾਡੀ ਮਦਦ ਕਰੋ</bold>
 login-to-get-started = ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਲਾਗਇਨ ਕਰੋ ਜਾਂ ਸਾਈਨ ਅੱਪ ਕਰੋ
@@ -448,6 +451,7 @@ report-offensive-language-detail = ਵਾਕ ਦੀ ਬੇਅਦਬ ਜਾਂ �
 report-grammar-or-spelling = ਵਿਆਕਰਣ/ ਸ਼ਬਦ-ਜੋੜ ਗ਼ਲਤੀ
 report-grammar-or-spelling-detail = ਵਾਕ ਵਿੱਚ ਵਿਆਕਰਣ ਜਾਂ ਸ਼ਬਦ-ਜੋੜ ਗਲਤੀਆਂ ਹਨ।
 report-different-language = ਵੱਖਰੀ ਭਾਸ਼ਾ
+report-offensive-speech = ਅਪਮਾਨਜਨਕ ਭਾਸ਼ਣ
 report-other-comment =
     .placeholder = ਟਿੱਪਣੀ
 success = ਕਾਮਯਾਬ
@@ -473,6 +477,7 @@ stats = ਅੰਕੜੇ
 awards = ਇਨਾਮ
 you = ਤੁਸੀਂ
 everyone = ਹਰੇਕ
+top-contributors = ਉੱਚ ਯੋਗਦਾਨੀਆਂ
 
 ## Custom Goals
 
