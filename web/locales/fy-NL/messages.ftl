@@ -464,6 +464,11 @@ about-get-involved-text =
     Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>,
     jou kommentaar fia <githubLink>GitHub</githubLink>,
     of doch mei op <slackLink>Slack </slackLink>.
+about-get-involved-text-2020 =
+    Wolle jo Common Voice noch better helpe meitsje?
+    Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>,
+    jou kommentaar fia <githubLink>GitHub</githubLink>,
+    of doch mei op <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Wêrom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
