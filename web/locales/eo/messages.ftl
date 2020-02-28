@@ -590,6 +590,11 @@ days =
         [one] tago
        *[other] tagoj
     }
+recordings =
+    { $count ->
+        [one] Registro
+       *[other] Registroj
+    }
 validations =
     { $count ->
         [one] Validigo
@@ -598,10 +603,13 @@ validations =
 
 ## Dashboard
 
+your-languages = Viaj lingvoj
 clips-you-recorded = Viaj voĉregistroj
 clips-you-validated = Viaj revizioj
 todays-recorded-progress = Hodiaŭa progreso de Common Voice rilate al voĉregistroj
 todays-validated-progress = Hodiaŭa progreso de Common Voice rilate al validigoj
+stats = Statistikoj
+awards = Premioj
 you = Vi
 everyone = Ĉiuj
 contribution-activity = Kontribuoj
@@ -611,6 +619,15 @@ validated-clips = Validigitaj voĉregistroj
 
 ## Custom Goals
 
+both-speak-and-listen = Ambaŭ
+both-speak-and-listen-long = Ambaŭ (kaj paroli kaj aŭskulti)
+daily-goal = Ĉiutaga celo
+weekly-goal = Ĉiusemajna celo
+easy-difficulty = Facila
+average-difficulty = Normala
+difficult-difficulty = Malfacila
+pro-difficulty = Profesia
+lose-goal-progress-warning = Se vi modifas vian celon, vi povus perdi vian nuna progreson.
 how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
 n-clips = { NUMBER($count) } voĉregistroj
