@@ -16,16 +16,12 @@ import { User } from '../../../../stores/user';
 import API from '../../../../services/api';
 import { trackRecording, getTrackClass } from '../../../../services/tracker';
 import URLS from '../../../../urls';
-import {
-  localeConnector,
-  LocaleLink,
-  LocalePropsFromState,
-} from '../../../locale-helpers';
+import { localeConnector, LocalePropsFromState } from '../../../locale-helpers';
 import Modal, { ModalButtons } from '../../../modal/modal';
 import TermsModal from '../../../terms-modal';
 import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
 import { Button, TextButton } from '../../../ui/ui';
-import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
+import { isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
