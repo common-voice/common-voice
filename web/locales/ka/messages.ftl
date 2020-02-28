@@ -452,6 +452,11 @@ about-partnership =
     ჩვენ გვინდა, მადლობა გადავუხადო აღნიშნულ ადამიანებსა და დაწესებულებებს, პროექტში შეტანილი წვლილისთვის:
 about-get-involved = ჩაერთეთ
 about-get-involved-text = ან შემოგვიერთდით <slackLink>Slack-ზე</slackLink>.
+about-get-involved-text-2020 =
+    გსურთ დაგვეხმაროთ, რომ Common Voice კიდევ უფრო უკეთესი გახდეს?
+    მშვენიერია! შეგვეხმიანეთ ელფოსტით ან <discourseLink>Discourse-ით</discourseLink>,
+    გამოგვეხმაურეთ <githubLink>GitHub-ზე</githubLink>,
+    ან შემოგვიერთდით <matrixLink>Matrix-ზე</matrixLink>.
 about-nav-why-common-voice = რატომ?
 about-nav-how-it-works = როგორ?
 about-nav-partners = თანამშრომლობა
