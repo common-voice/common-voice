@@ -517,6 +517,7 @@ class SpeakPage extends React.Component<Props, State> {
                     className={getTrackClass('fs', 'exit-submit-clips')}
                     onClick={() => {
                       if (this.upload()) onConfirm();
+                      this.resetAndGoHome();
                     }}
                   />
                 </Localized>
