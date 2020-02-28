@@ -451,6 +451,10 @@ about-get-involved-text =
     Igerrez! Nermes-aɣ-d s yimayl neɣ deg <discourseLink>Discourse</discourseLink>,
     azen-d iwenniten deg <githubLink>GitHub</githubLink>,
     neɣ ddu-d yid-neɣ deg <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Tebɣiḍ ad tekkiḍ akken iqeεed Common Voice?
+    Igerrez! aru-aɣ-d s imayl ɣer <discourseLink>Discourse</discourseLink>,
+    neɣ ttekki yid-nneɣ deg <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Acuɣer?
 about-nav-how-it-works = Amek?
 about-nav-partners = Imendiden
