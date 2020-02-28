@@ -6,7 +6,7 @@ import {
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
-const NavigationPrompt = require('react-router-navigation-prompt').default;
+import NavigationPrompt from 'react-router-navigation-prompt';
 import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import { Sentences } from '../../../../stores/sentences';
