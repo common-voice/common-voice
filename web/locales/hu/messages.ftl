@@ -457,6 +457,11 @@ about-get-involved-text =
     Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse-on</discourseLink>,
     küldjön visszajelzést a <githubLink>GitHubon</githubLink>,
     vagy csatlakozzon hozzánk a <slackLink>Slacken</slackLink>.
+about-get-involved-text-2020 =
+    Szeretné még jobbá tenni a Common Voice-ot?
+    Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse-on</discourseLink>,
+    küldjön visszajelzést a <githubLink>GitHubon</githubLink>,
+    vagy csatlakozzon hozzánk a <matrixLink>Matrixon</matrixLink>.
 about-nav-why-common-voice = Miért?
 about-nav-how-it-works = Hogyan?
 about-nav-partners = Partnerek
