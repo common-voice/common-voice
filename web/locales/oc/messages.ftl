@@ -171,15 +171,15 @@ logout = Desconnexion
 home-title = Lo projècte Common Voice es l'iniciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas de vertat.
 home-cta = Parlatz fòrt, contribuissètz aquí !
 wall-of-text-start =
-    La votz es naturala, la votz es umana. Es per aquò que volèm crear de tecnologias vocala de qualitat
-    per nòstras maquinas. Mas realizar de tales sistèma demanda un volum de donadas vocalas gigantèsc.
+    La votz es naturala, la votz es umana. Es per aquò que volèm crear tecnologias vocalas de qualitat
+    per nòstras maquinas. Mas realizar de tales sistèmas demanda un volum de donadas vocalas gigantèsc.
 wall-of-text-more-mobile = La màger part de las donadas utilizadas per de grandas entrepresas son pas disponiblas de tot lo monde. Pensam que frena l’innovacion. Per aquò, avèm lançat lo projècte Common Voice, un projècte per que la tecnologia de reconeissença de la votz siá dubèrta a totes.
 wall-of-text-more-desktop =
     Ara podètz donar vòstra votz per nos ajudar a construire una basa de donas que tot lo monde pòt utilizar
     per crear d’aplicacions innovantas pels periferics e lo web. Legissètz de frasas per ajudar las maquinas a aprendre cossí lo vertadièr monde parlan. Agachatz lo trabalh dels autres
     contributors per melhorar la qualitat. Es pas mai complicat !
 wall-of-text-first =
-    La votz es naturala, la votz es umana. Es per aquò que volèm crear de tecnologias vocala de qualitat
+    La votz es naturala, la votz es umana. Es per aquò que volèm crear tecnologias vocalas de qualitat
     per nòstras maquinas. Mas realizar de tales sistèma demanda un volum de donadas vocalas gigantèsc.
 wall-of-text-second = La màger part de las donadas utilizadas per de grandas entrepresas son pas disponiblas de tot lo monde. Pensam que frena l’innovacion. Per aquò, avèm lançat lo projècte Common Voice, un projècte per que la tecnologia de reconeissença de la votz siá dubèrta a totes.
 show-wall-of-text = Legir la seguida
