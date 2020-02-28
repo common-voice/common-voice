@@ -608,6 +608,11 @@ validated-clips = Validigitaj voĉregistroj
 
 ## Custom Goals
 
+how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
+how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
+n-clips = { NUMBER($count) } voĉregistroj
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Kundividu vian ĉiutagan ĉelon, { $count } voĉregistroj { $type }
 
 ## Profile Delete
 
