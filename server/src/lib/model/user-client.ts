@@ -103,10 +103,12 @@ const UserClient = {
           (SELECT COUNT(*) FROM votes WHERE u.client_id = votes.client_id) AS votes_count,
           t.team,
           t.challenge,
-          t.invite
+          t.invite,
+          n.basket_token AS basket_token
         FROM user_clients u
-        LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
-        LEFT JOIN locales on accents.locale_id = locales.id
+        LEFT JOIN user_client_newsletter_prefs n ON u.client_id = n.client_id
+        LEFT JOIN user_client_accents accents ON u.client_id = accents.client_id
+        LEFT JOIN locales ON accents.locale_id = locales.id
         LEFT JOIN (
           SELECT enroll.client_id, enroll.url_token as invite, teams.url_token AS team, challenges.url_token AS challenge
           FROM enroll
@@ -259,10 +261,10 @@ const UserClient = {
   },
 
   async updateBasketToken(email: string, basketToken: string) {
-    await db.query('UPDATE user_clients SET basket_token = ? WHERE email = ?', [
-      basketToken,
-      email,
-    ]);
+    await db.query(
+      'UPDATE user_client_newsletter_prefs SET basket_token = ? WHERE email = ?',
+      [basketToken, email]
+    );
   },
 
   async updateSSO(old_email: string, email: string): Promise<boolean> {
