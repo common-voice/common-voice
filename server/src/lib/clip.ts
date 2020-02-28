@@ -103,23 +103,23 @@ export default class Clip {
     Basket.sync(client_id).catch(e => console.error(e));
     const ret = challenge
       ? {
-          glob: glob,
-          showFirstContributionToast: await earnBonus('first_contribution', [
-            challenge,
-            client_id,
-          ]),
-          hasEarnedSessionToast: await hasEarnedBonus(
-            'invite_contribute_same_session',
-            client_id,
-            challenge
-          ),
-          showFirstStreakToast: await earnBonus('three_day_streak', [
-            client_id,
-            client_id,
-            challenge,
-          ]),
-          challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-        }
+        glob: glob,
+        showFirstContributionToast: await earnBonus('first_contribution', [
+          challenge,
+          client_id,
+        ]),
+        hasEarnedSessionToast: await hasEarnedBonus(
+          'invite_contribute_same_session',
+          client_id,
+          challenge
+        ),
+        showFirstStreakToast: await earnBonus('three_day_streak', [
+          client_id,
+          client_id,
+          challenge,
+        ]),
+        challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+      }
       : { glob };
     response.json(ret);
   };
@@ -169,6 +169,8 @@ export default class Clip {
         transcoder = new Transcoder(request);
       }
 
+      let processAudioFlag = true;
+
       await this.s3
         .upload({
           Bucket: getConfig().BUCKET_NAME,
@@ -176,9 +178,19 @@ export default class Clip {
           Body: transcoder
             .audioCodec('mp3')
             .format('mp3')
+            .on('error', () => {
+              processAudioFlag = false;
+            })
             .stream(),
         })
         .promise();
+
+      if (!processAudioFlag) {
+        response.statusCode = 500;
+        response.statusMessage = 'save_clip_error';
+        response.json({});
+        return;
+      }
 
       console.log('clip written to s3', clipFileName);
 
@@ -199,25 +211,25 @@ export default class Clip {
       const challenge = headers.challenge as ChallengeToken;
       const ret = challenge
         ? {
-            filePrefix: filePrefix,
-            showFirstContributionToast: await earnBonus('first_contribution', [
-              challenge,
-              client_id,
-            ]),
-            hasEarnedSessionToast: await hasEarnedBonus(
-              'invite_contribute_same_session',
-              client_id,
-              challenge
-            ),
-            // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-            // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-            showFirstStreakToast: await earnBonus('three_day_streak', [
-              client_id,
-              client_id,
-              challenge,
-            ]),
-            challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-          }
+          filePrefix: filePrefix,
+          showFirstContributionToast: await earnBonus('first_contribution', [
+            challenge,
+            client_id,
+          ]),
+          hasEarnedSessionToast: await hasEarnedBonus(
+            'invite_contribute_same_session',
+            client_id,
+            challenge
+          ),
+          // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
+          // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
+          showFirstStreakToast: await earnBonus('three_day_streak', [
+            client_id,
+            client_id,
+            challenge,
+          ]),
+          challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+        }
         : { filePrefix };
       response.json(ret);
     } catch (error) {
