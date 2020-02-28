@@ -628,13 +628,29 @@ average-difficulty = Normala
 difficult-difficulty = Malfacila
 pro-difficulty = Profesia
 lose-goal-progress-warning = Se vi modifas vian celon, vi povus perdi vian nuna progreson.
+want-to-continue = Ĉu vi volas daŭrigi?
+finish-editing = Ĉu vi volas unue fini la modifojn?
+lose-changes-warning = Se vi foriras nun vi perdos viajn ŝanĝojn
+build-custom-goal = Difini personecigitan celon
+set-a-goal = Difini celon
+cant-decide = Ĉu vi ne povas decidi?
+activity-needed-calculation = Oni povas atingi { NUMBER($totalHours) } horojn post iom pli ol { NUMBER($periodMonths) } monatoj se { NUMBER($people) } personoj registras po { NUMBER($clipsPerDay) } voĉregistrojn  ĉiutage.
 how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
+which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?
 n-clips = { NUMBER($count) } voĉregistroj
+confirm-goal = Konfirmi celon
+goal-interval-weekly = Semajne
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Kundividu vian ĉiutagan celon, { $count } voĉregistroj { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Kundividu vian ĉiusemajnan celon, { $count } voĉregistroj { $type }
+share-goal-type-speak = Parolante
+share-goal-type-listen = Aŭskultante
+share-goal-type-both = Parolante kaj aŭskultante
+weekly-goal-created = Via ĉiusemajna celo estis kreita
+daily-goal-created = Via ĉiutaga celo estis kreita
+track-progress = Sekvu vian progreson ĉi tie kaj en la paĝo pri statistikoj.
 
 ## Profile Delete
 
