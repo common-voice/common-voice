@@ -57,7 +57,7 @@ interface PropsFromDispatch {
 interface LayoutProps
   extends PropsFromState,
     PropsFromDispatch,
-    RouteComponentProps<any> {}
+    RouteComponentProps<any, any, any> {}
 
 interface LayoutState {
   challengeTeamToken: ChallengeTeamToken;

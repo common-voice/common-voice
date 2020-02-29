@@ -9,7 +9,7 @@ import { trackProfile } from '../../services/tracker';
 import { useLocale } from '../locale-helpers';
 
 export const LoginFailure = withRouter(
-  ({ history }: RouteComponentProps<any>) => {
+  ({ history }: RouteComponentProps<any, any, any>) => {
     const [, toLocaleRoute] = useLocale();
     const addNotification = useAction(Notifications.actions.addPill);
 
@@ -23,7 +23,7 @@ export const LoginFailure = withRouter(
 );
 
 export const LoginSuccess = withRouter(
-  ({ history, location }: RouteComponentProps<any>) => {
+  ({ history, location }: RouteComponentProps<any, any, any>) => {
     const user = useTypedSelector(({ user }) => user);
     const [locale, toLocaleRoute] = useLocale();
 

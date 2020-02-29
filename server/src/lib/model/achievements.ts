@@ -108,7 +108,6 @@ const db = getMySQLInstance();
 export const earnBonus = async (type: AchievementType, args: any[]) => {
   let earned = false;
 
-  // @ts-ignore
   const [[res]] = await db.query(bonus_condition_sql[type], args);
   const { win_bonus = false, bonus_winner = '' } = res || {};
   if (win_bonus && bonus_winner) {
