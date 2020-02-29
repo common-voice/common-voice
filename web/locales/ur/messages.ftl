@@ -483,10 +483,15 @@ splits = ٹکڑے
 email-to-download = ڈاؤن لوڈ کرنے کے لئے ای میل درج کریں
 size-gigabyte = GB
 size-megabyte = MB
+download-language = { $language } ڈاؤن لوڈ کریں
+validated-hours = کل توثیق شدہ گھنٹے
 recorded-hours = ریکارڈ شدہ  گھنٹے
+whats-inside = کامن وائس ڈیٹاسیٹ کے اندر کیا ہے؟
 subscribe = رکن بنیں
 data-other-ted-name = TED-LIUM Corpus
+go-discourse = Discourse میں جاییں
 go-languages-page = زبانوں کے صفحے پر جائیں
+ready-to-validate = کیا جملے درست کرنے میں مدد کرنے کے لئے تیار ہیں؟
 more = مزید
 close = بند کریں
 download = ڈاؤن لوڈ کریں
@@ -499,6 +504,7 @@ download-helpus = صوتی ٹیکنالوجی کے گرد گروہ بنانے م
 download-form-email =
     .label = اپنا ای میل داخل کریں
     .value = شکریہ ہم آُپ سے رانطہ کریں گے۔
+download-back = کامن وائس ڈیٹاسیٹس پر واپس جائیں
 download-no = نہیں شکریہ
 
 ## Contact Modal
@@ -549,6 +555,7 @@ contribute-more =
        *[other] مزید { $count } کرنے کے لیئے تیار ہیں؟
     }
 record-cta = رکارڈنگ شروع کریں
+record-platform-not-supported = ہمیں افسوس ہے ، لیکن فی الحال آپ کا پلیٹ فارم تعاون یافتہ نہیں ہے۔
 record-platform-not-supported-desktop = ڈیسکٹاپ کمپیوٹر پر آُپ تازہ ترین ڈائونلوڈ کر سکتے ہیں:
 record-platform-not-supported-ios = <bold>iOS</bold>صارفین ہماری ایپلیکیشن مفت ڈائونلوڈ کر سکتے ہیں:
 record-must-allow-microphone = آپ کے مائیکرو فون تک رسائی کی اجازت ضروری ہے۔
@@ -588,6 +595,7 @@ report = ‎رپورٹ کریں
 report-title = ایک رپورٹ جمع کریں
 report-ask = آپ اس جملے کے ساتھ کون سے مسائل کا سامنا کر رہے ہیں؟
 report-offensive-language = غیر مہذب زبان
+report-offensive-language-detail = جملے  میں بے عزتی والی یا توہین آمیز زبان ہے۔
 report-grammar-or-spelling = گرائمر / املا کی غلطی
 report-grammar-or-spelling-detail = اس جملے میں گرائمر یا املا کی غلطی ہے۔
 report-different-language = مختلف زبان
@@ -603,6 +611,7 @@ report-success = رپورٹ کامیابی کے ساتھ منظور کی گئی
 
 ## Goals
 
+streaks = اسٹریک
 days =
     { $count ->
         [one] دن
@@ -631,6 +640,7 @@ stats = اعداد و شمار
 awards = ایوارڈ
 you = آپ
 everyone = تمام
+contribution-activity = شراکت کی سرگرمی
 top-contributors = اہم معاونین
 recorded-clips = ریکارڈ شدہ تراشے
 validated-clips = توثیق شدہ کلپس
@@ -639,18 +649,30 @@ overall-accuracy = مجموعی درستگی
 set-visibility = میری رویت منظم کریں
 visibility-explainer = یہ ترتیب آپ کے لیڈر بورڈ کی نمائش کو کنٹرول کرتی ہے۔ جب چھپی ہو تو  آپ کی پیش رفت نجی ہوگی۔ اس کا مطلب ہے کہ آپ کی شبیہہ ، صارف نام اور پیشرفت لیڈر بورڈ پر ظاہر نہیں ہوگی۔ نوٹ کریں کہ لیڈر بورڈ تازہ کاری  تبدیلیاں دکھانے  میں ~{ $minutes } منٹ لیتی ہے۔
 visibility-overlay-note = نوٹ: جب 'نمائش' پر سیٹ کیا ہو تو اس ترتیب کو</profileLink>پروفائل پیج <profileLink> سے تبدیل کیا جاسکتا ہے۔
+show-ranking = میری درجہ بندی دکھائیں
 
 ## Custom Goals
 
+get-started-goals = اہداف کے ساتھ شروعات کریں
+create-custom-goal = ایک کسٹم گول بنائیں
 both-speak-and-listen = دونوں
+both-speak-and-listen-long = دونوں (بولیں اور سنیں)
+daily-goal = روز وار مقصد
+weekly-goal = ہفتہ وار مقصد
 easy-difficulty = آسان
 average-difficulty = اوسط
 difficult-difficulty = مشکل
 pro-difficulty = پرو
+lose-goal-progress-warning = اپنے مقصد میں ترمیم کرکے ، آپ اپنی موجودہ پیشرفت سے محروم ہوسکتے ہیں۔
 want-to-continue = کیا آپ جاری رکھنا چاہتے ہیں؟
+finish-editing = پہلے ترمیم ختم کرو؟
+lose-changes-warning = ابھی چھوڑنے کا مطلب ہے کہ آپ اپنی تبدیلیوں سے محروم ہوجائیں گے
+build-custom-goal = ایک حسب ضرورت مقصد بنائیں
 set-a-goal = ایک مقصد طے کریں
 cant-decide = فیصلہ نہیں کر سکتے۔
 how-many-per-day = زبردست! دن میں کتنے تراشے  ہیں؟
+how-many-a-week = زبردست! ہفتے میں کتنے کلپس ہیں؟
+which-goal-type = کیا آپ بولنا ، سننا چاہتے ہیں یا دونوں؟
 n-clips = { NUMBER($count) } تراشے
 goal-interval-weekly = ہفتہ وار
 share-goal-type-speak = بولنا
