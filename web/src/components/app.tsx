@@ -70,7 +70,7 @@ interface LocalizedPagesProps
   extends PropsFromState,
     PropsFromDispatch,
     LocalePropsFromState,
-    RouteComponentProps<any> {
+    RouteComponentProps<any, any, any> {
   userLocales: string[];
 }
 
