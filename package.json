@@ -37,8 +37,8 @@
     "lint": "prettier \"**/*.{ts,tsx}\"",
     "prettier": "yarn lint --write",
     "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgBlue.bold,bgMagenta.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
-    "start:prod": "node server/js/server.js",
-    "test": "concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && yarn test\""
+    "start:prod": "yarn build-common && node server/js/server.js",
+    "test": "yarn build-common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && yarn test\""
   },
   "husky": {
     "hooks": {
