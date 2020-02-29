@@ -254,7 +254,6 @@ export default class Mysql {
    * Close all connections to the database.
    */
   endConnection(): void {
-    console.log(this.pool.end);
     if (this.pool) {
       this.pool.end().catch((e: any) => console.error(e));
       this.pool = null;
