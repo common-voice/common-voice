@@ -352,9 +352,12 @@ delete-voice = حذف کریں
 recording-voice-wave = ریکارڈنگ ہو رہا
 delete-voice-clip = یا وائس  کلپ حذف کریں
 ready-to-upload = اپ لوڈ کریں
+avatar-clip-fact = یہ ایک طویل عرصہ سے قائم حقیقت ہے کہ پڑھنے والے کے صفحے کی ترتیب کو دیکھتے وقت پڑھنے کے قابل مواد سے انحراف ہوجائے گا۔
+recreate-voice = وائس ویو کو بازیافت کریں
 cancel-avatar-clip-recording = منسوخ کریں
 about-avatar-clip-recording = اپنے پروفائل اوتار کے حصے کے طور پر ایک وائس کلپ بنائیں۔ دوسرے آپ کے کلپ کو  ہوور اور سن سکتے ہیں۔
 browse-file-title = تصویر اپ لوڈ کریں
+browse-file = ڈریگ اور ڈراپ کریں یا </browseWrap> براؤز کریں<browseWrap>
 connect-gravatar = Gravatar کے ساتھ مربوط ہوں
 gravatar_not_found = آپ کے ای میل کے لئے کوئی Gravatar نہیں ملا
 file_too_large = منتخب کی گئی فائل بہت بڑی ہے۔
@@ -614,6 +617,7 @@ total-approved = کل منظور شدہ
 overall-accuracy = مجموعی درستگی
 set-visibility = میری رویت منظم کریں
 visibility-explainer = یہ ترتیب آپ کے لیڈر بورڈ کی نمائش کو کنٹرول کرتی ہے۔ جب چھپی ہو تو  آپ کی پیش رفت نجی ہوگی۔ اس کا مطلب ہے کہ آپ کی شبیہہ ، صارف نام اور پیشرفت لیڈر بورڈ پر ظاہر نہیں ہوگی۔ نوٹ کریں کہ لیڈر بورڈ تازہ کاری  تبدیلیاں دکھانے  میں ~{ $minutes } منٹ لیتی ہے۔
+visibility-overlay-note = نوٹ: جب 'نمائش' پر سیٹ کیا ہو تو اس ترتیب کو</profileLink>پروفائل پیج <profileLink> سے تبدیل کیا جاسکتا ہے۔
 
 ## Custom Goals
 
@@ -643,3 +647,7 @@ profile-form-delete = پروفائل حزف کریں
 
 ## Landing
 
+help-contribute = کامن وائس پر پروفائل بنا کر اپنی آواز شامل کر کے آپ ہمیں ایک متنوع اوپن سورس ڈیٹا سیٹ بنانےمیں مدد کر سکتے ہیں
+login-company = لاگ ان / { $company } ای میل کے ساتھ سائن اپ کریں۔
+profile-not-required = شراکتیں شامل کرنے کے لیے پروفائل ضروری نہیں گو مددگار ہے ، وجہ کے لیے نیچے دیکھیں۔
+read-more-about = مزید جاننے کے لیے تعارفی صفحہ دیکھیں۔
