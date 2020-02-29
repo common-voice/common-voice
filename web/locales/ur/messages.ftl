@@ -382,6 +382,8 @@ faq-why-different-speakers-q = آپ کو ایک زبان کے لیے مختلف 
 faq-why-my-lang-q = میری زبان ابھی تک کیوں شامل نہیں ہے؟
 faq-what-quality-q = ڈیٹاسیٹ میں استعمال ہونے کے قابل وائس کلپ  کے لیے کس سطح کے صوتی معیار (آڈیو کوالٹی) کی ضرورت ہے؟
 faq-why-10k-hours-q = ہر زبان کے لیے بولے گئے جملوں کے تصدیق شدہ ١٠،٠٠٠ گھنٹے کیوں درکار ہیں؟
+faq-why-10k-hours-a = یہ تقریبا اتنے گھنٹے ہیں جو قابلِ استعمال آواز سے تحریر کے نظام کی تربیت کے لیے درکار ہیں۔
+faq-how-calc-hours-q = کامن وائس گھنٹوں کا حساب کتاب کیسے کرتی ہے؟
 faq-where-src-from-2-q = ماخز متن کہاں سے آتا ہے؟
 faq-why-account-q = میں اکاؤنٹ میں سائن اپ کیوں کروں؟
 faq-is-account-public-q = کیا میرے اکاؤنٹ کی معلومات عوامی ہیں؟
@@ -410,6 +412,7 @@ about-nav-get-involved = شامل ہوں
 
 glossary = فرہنگ
 localization = لوکلائزیشن
+de-identified = شناخت پھیرنا
 
 ## NotFound
 
@@ -423,8 +426,11 @@ data-download-yes = ہاں
 data-download-deny = نہیں
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-get-started = <speechBlogLink>کلام شناسی کے ساتھ شروع کریں</speechBlogLink>
+data-other-title = دیگر وائس ڈیٹا سیٹس
 data-other-goto = { $name } پر جائیں
 data-other-download = ڈائونلوڈ شدہ کوائف
+data-bundle-button = ڈیٹا سیٹ بنڈل ڈاون لوڈ کریں
+data-bundle-description = کامن وائس ڈیٹا اور اوپر موجود دیگر وائس ڈیٹا سیٹس
 license = لائیسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ملا جلا
 review-terms = Common Voice کے استعمال کے ساتھ آُپ ہماری <termsLink>شرائط</termsLink> اور <privacyLink>رازداری نوٹس</privacyLink> سے متفق ہیں
@@ -444,7 +450,12 @@ review-delete-recordings = میری رکارڈنگ حزف کریں
 language = زبانیں
 # File size in gigabytes
 size = سائز
+validated-hr-total = کل توثیق شدہ گھنٹے
+overall-hr-total = کُل مجموعی گھنٹے
 cv-license = لائسنس
+audio-format = آڈیو فارمیٹ
+number-of-voices = آوازوں کی تعداد
+splits = ٹکڑے
 email-to-download = ڈاؤن لوڈ کرنے کے لئے ای میل درج کریں
 size-gigabyte = GB
 size-megabyte = MB
@@ -544,19 +555,27 @@ listen-last-time-instruction = <playIcon></playIcon>آخری ایک!
 nothing-to-validate = اس زبان میں توژیق کاری کے لیئے کچھ موجود نہیں۔ قظار بھرنے میں ہماری مدد کریں۔
 record-button-label = اپنی آواز رکارڈ کرائیں
 share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
+keep-track-profile = ایک پروفائل کے ذریعہ اپنی پیش رفت پر نظر رکھیں
 login-to-get-started = شروع کرنے کے لئے لاگ ان یا سائن اپ کریں
 
 ## Reporting
 
 report = ‎رپورٹ کریں
 report-title = ایک رپورٹ جمع کریں
+report-ask = آپ اس جملے کے ساتھ کون سے مسائل کا سامنا کر رہے ہیں؟
 report-offensive-language = غیر مہذب زبان
+report-grammar-or-spelling = گرائمر / املا کی غلطی
+report-grammar-or-spelling-detail = اس جملے میں گرائمر یا املا کی غلطی ہے۔
 report-different-language = مختلف زبان
+report-different-language-detail = یہ میری زبان سے مختلف زبان میں لکھا گیا ہے۔
 report-difficult-pronounce = تلفظ کرنا مشکل ہے
+report-offensive-speech = اشتعال انگیز تقریر
+report-offensive-speech-detail = کلپ میں بے عزتی والی یا توہین آمیز زبان ہے۔
 report-other-comment =
     .placeholder = تبصرہ
 success = کامیاب
 continue = جاری رکھیں
+report-success = رپورٹ کامیابی کے ساتھ منظور کی گئی
 
 ## Goals
 
@@ -582,11 +601,19 @@ your-languages = آپ کی زبانیں
 toward-next-goal = اگلے مقصد کی طرف
 clips-you-recorded = آپ کے پاس ریکارڈ کردہ تراشے
 clips-you-validated = آپ کے توثیق شدہ تراشے
+todays-recorded-progress = ریکارڈ شدہ کلپس پر آج کی کامن وائس کی پیشرفت
+todays-validated-progress = تصدیق شدہ کلپس پر آج کی کامن وائس کی پیشرفت
 stats = اعداد و شمار
 awards = ایوارڈ
 you = آپ
 everyone = تمام
+top-contributors = اہم معاونین
 recorded-clips = ریکارڈ شدہ تراشے
+validated-clips = توثیق شدہ کلپس
+total-approved = کل منظور شدہ
+overall-accuracy = مجموعی درستگی
+set-visibility = میری رویت منظم کریں
+visibility-explainer = یہ ترتیب آپ کے لیڈر بورڈ کی نمائش کو کنٹرول کرتی ہے۔ جب چھپی ہو تو  آپ کی پیش رفت نجی ہوگی۔ اس کا مطلب ہے کہ آپ کی شبیہہ ، صارف نام اور پیشرفت لیڈر بورڈ پر ظاہر نہیں ہوگی۔ نوٹ کریں کہ لیڈر بورڈ تازہ کاری  تبدیلیاں دکھانے  میں ~{ $minutes } منٹ لیتی ہے۔
 
 ## Custom Goals
 
