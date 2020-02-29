@@ -293,8 +293,12 @@ body:not(.focus) #scroller {
         width: 10rem;
     }
 
-    @media (--lg-up) {
+    @media (--xl-up) {
         margin-inline-end: 4rem;
+    }
+
+    @media (--lg-only) {
+        margin-inline-end: 1rem;
     }
 
     &,
