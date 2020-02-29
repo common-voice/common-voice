@@ -411,7 +411,12 @@ about-listen-queue = سننے کی  قطار
 about-listen-queue-text = وائس کلپس جمع کرانے والی قطار میں داخل ہو جاتی ہیں جو انہی سننے کے  تیار کرتی ہیں۔
 about-listen = سنیں
 about-is-it-valid = کیا یہ تراشہ درست ہے؟
+about-is-it-valid-text = جب صارف "ہاں " ووٹ دیتا ہے تو وائس کلپ کو "درست" کے طور پر نشان زد کیا جاتا ہے۔
+about-yes-votes = 2 ہاں ووٹ
+about-yes-votes-text = کامن وائس ڈیٹاسیٹ میں شامل ہونے کے لئے  ، ایک وائس کلپ کو دو الگ الگ صارفین کے ذریعہ توثیق کرنا ہوگا۔
+about-no-votes = ≥ 2 نہیں ووٹ
 about-dataset-new = Common Voice ڈیٹاسیٹ
+about-clip-graveyard = کلپ قبرستان
 about-partners = ساتھی
 about-become-a-partner = شراکت دار بنیں۔
 about-get-involved = شامل ہوں
@@ -419,11 +424,18 @@ about-nav-why-common-voice = کیوں؟
 about-nav-how-it-works = کیسے ؟
 about-nav-partners = ساتھی
 about-nav-get-involved = شامل ہوں
+mycroft-title = Mycroft Ai
+mycroft-subtitle = آرٹیفیشل انٹیلی جنس
 
 ## Glossary
 
 glossary = فرہنگ
 localization = لوکلائزیشن
+sentence-collection = جملہ  مجموعہ
+sentence-collection-explanation = عوامی ڈومین سے جملے جمع کرنا ، یا عوامی ڈومین کے لئے نیا لکھنا۔
+hours-recorded-explanation = وائس ریکارڈنگ کے اوقات کی گھنٹے  جو ہم نے اب تک جمع کیا ہے۔
+sst = (Speech-to-text (STT
+sst-explanation = (Speech-to-text (STT  ٹیکنالوجیز وائس اعداد کو متن میں تبدیل کرتی ہیں۔
 de-identified = شناخت پھیرنا
 
 ## NotFound
