@@ -353,6 +353,7 @@ recording-voice-wave = ریکارڈنگ ہو رہا
 delete-voice-clip = یا وائس  کلپ حذف کریں
 ready-to-upload = اپ لوڈ کریں
 cancel-avatar-clip-recording = منسوخ کریں
+about-avatar-clip-recording = اپنے پروفائل اوتار کے حصے کے طور پر ایک وائس کلپ بنائیں۔ دوسرے آپ کے کلپ کو  ہوور اور سن سکتے ہیں۔
 manage-subscriptions = رکنیت منظم کریں
 manage-email-subscriptions = ایمیل رکنیت منظم کریں
 add-language = زبان شامل کریں
