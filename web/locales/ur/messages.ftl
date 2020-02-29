@@ -674,12 +674,16 @@ how-many-per-day = زبردست! دن میں کتنے تراشے  ہیں؟
 how-many-a-week = زبردست! ہفتے میں کتنے کلپس ہیں؟
 which-goal-type = کیا آپ بولنا ، سننا چاہتے ہیں یا دونوں؟
 n-clips = { NUMBER($count) } تراشے
+help-share-goal = ہمیں مزید آوازیں تلاش کرنے میں مدد کریں ، اپنا مقصد بانٹیں
+confirm-goal = مقصد کی تصدیق کریں
 goal-interval-weekly = ہفتہ وار
 share-goal-type-speak = بولنا
 share-goal-type-listen = سننا
 share-goal-type-both = بولنا اور سننا
 weekly-goal-created = آپ کا ہفتہ وار مقصد بن گیا ہے
 daily-goal-created = آپ کا روزانہ کا مقصد بن گیا ہے
+track-progress = یہاں اور اپنے اعدادوشمار کے صفحے پر پیشرفت کا سراغ لگائیں۔
+return-to-edit-goal = کسی بھی وقت اپنے مقصد میں ترمیم کرنے کے لئے یہاں واپس آجائیں۔
 share-goal = میرا مقصد شیئر کریں
 
 ## Profile Delete
@@ -690,6 +694,7 @@ profile-form-delete = پروفائل حزف کریں
 
 ## Landing
 
+welcome-staff = { $company } عملہ کا خیر مقدم ہے !
 help-contribute = کامن وائس پر پروفائل بنا کر اپنی آواز شامل کر کے آپ ہمیں ایک متنوع اوپن سورس ڈیٹا سیٹ بنانےمیں مدد کر سکتے ہیں
 login-company = لاگ ان / { $company } ای میل کے ساتھ سائن اپ کریں۔
 profile-not-required = شراکتیں شامل کرنے کے لیے پروفائل ضروری نہیں گو مددگار ہے ، وجہ کے لیے نیچے دیکھیں۔
