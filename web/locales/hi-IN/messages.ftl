@@ -468,6 +468,11 @@ about-get-involved-text =
     महान ! ईमेल के माध्यम से या <प्रवचन पर जाएं> प्रवचन </ प्रवचन पर> संपर्क करें,
     <githubLink> GitHub </ githubLink> के माध्यम से प्रतिक्रिया सबमिट करें,
     या हमसे जुड़ें <slackLink> सुस्त </ slackLink> पर।
+about-get-involved-text-2020 =
+    Common Voice को और बेहतर बनाने में मदद करना चाहते हैं?
+    बढिया! ईमेल द्वारा संपर्क करें या <discourseLink>Discourse</discourseLink> पर,
+    <githubLink>GitHub</githubLink> के माध्यम से अपनी प्रतिक्रिया दर्ज करें,
+    या फिर <matrixLink>Matrix</matrixLink> पर हमारे साथ जुड़ें।
 about-nav-why-common-voice = क्यों ?
 about-nav-how-it-works = कैसे ?
 about-nav-partners = सहभागी
