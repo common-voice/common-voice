@@ -312,18 +312,23 @@ email-subscriptions = メールニュースの購読を変更
 download-profile = 自分のデータをダウンロード
 contribution-experience = 貢献の経歴
 skip-submission-feedback = フィードバックを送らない
+skip-submission-description = 投稿中は、[送信]をクリックした後にフィードバックがスキップされます。貢献は、次の5つの録音または検証のセットに直接続きます。
 skip-submission-note = 注意: 「読み上げ」か「聞き取り」から貢献の種類を選んでください
 off = オフ
 on = オン
 avatar-clip-title = アバター声の設定
 change-your-avatar-clip = 音声クリップを変更しますか？
+recording-in-progress = 録音中
 avatar-clip-recorded = アバターに音声クリップが含まれるようになりました。
+record-voice-wave = 音声記録
 retry-voice-wave-recording = 再試行
 re-record = 再録音
 delete-voice = 削除
 recording-voice-wave = 録音中
 delete-voice-clip = または音声クリップを削除
 ready-to-upload = アップロード
+avatar-clip-fact = ページのレイアウトを見たときに、読者がページの読み取り可能なコンテンツに気を取られることは長い間確立された事実です。
+recreate-voice = 音声再記録
 cancel-avatar-clip-recording = キャンセル
 about-avatar-clip-recording = プロフィールアバターの音声クリップを作成します。アバターにカーソルを合わせると他の人が音声クリップを聞けます。
 browse-file-title = 画像ファイルをアップロード
@@ -341,18 +346,55 @@ change-email-setings = メールアドレスは、設定の「ログイン用ア
 
 faq-title = よくある質問
 faq-what-cv-q = Common Voice とは？
+faq-what-cv-a =
+    音声認識技術は私たちが機械と対話する方法に革命をもたらしていますが、現在利用可能なシステムは高価で独自のものです。 Common Voiceは、誰もが音声認識技術をより良く、より利用しやすくするためのMozillaのイニシアチブの一部です。 Common Voiceは、寄付された音声の大規模なグローバルデータベースで、誰でもすばやく簡単に音声対応アプリを潜在的にあらゆる言語でトレーニングできます。
+    
+    私たちは、広く話されている言語で音声サンプルを収集するだけでなく、話者の数がより少ない言語でもサンプルを収集しています。声の多様なデータセットを公開することは、開発者、起業家、そしてコミュニティがこのギャップに自分自身で取り組むことを可能にするでしょう。 Common Voiceデータセットに加えて、私たちはDeep Speechと呼ばれるオープンソースの音声認識エンジンも構築しています。
 faq-why-important-q = なぜ重要なのですか？
+faq-why-important-a =
+    音声は私たちがお互いに通信する最も自然な方法であることが多く、音声技術は私たちのコンピューターやモバイル機器にその便利さをもたらしています。リアルタイムの翻訳者や音声対応のデジタルアシスタントのような素晴らしい音声認識アプリケーションを開発者が構築できるようにしたいと思います。しかし、今のところ、この種のアプリを構築するために必要な音声データのほとんどは、高価で独自のものです。 Common Voiceデータセットが開発者に彼らが革新するために必要なものを与えて、彼ら自身の言語で音声技術を利用可能にすることを願っています。
+    
+    音声認識をより普遍的にするために、私達は広く話されている言語だけでなく、商用の音声認識サービスではしばしば見逃されている少数の話者のもので音声サンプルを集めています。多様な声のデータセットを公開することは、開発者、起業家、そしてスピーチコミュニティ全体にこのギャップに取り組む力を与えます。
 faq-how-get-q = Common Voice のデータはどうやって入手できますか？
 faq-how-get-a = Common Voice データセットは、<datasetLink>データセットページ</datasetLink>の <licenseLink>CC0</licenseLink> ライセンスに基づいてダウンロードできます。 同じページから他の公に利用可能なデータセットをダウンロードすることもできます。
 faq-when-release2-q = 他の言語の Common Voice データをいつリリースする予定ですか？
+faq-when-release2-a = Common Voiceデータセットの多言語バージョンは、現在、コミュニティがサポートするバンドリングとクリーニングを行っています。 Common Voiceを新しい言語に導入したい場合は、データセットに新しい文を追加するための<sentenceCollectorLink> Sentence Collection Tool </ sentenceCollectorLink>、およびWebサイトを翻訳するためのMozilla <pontoonLink> Pontoon </ pontoonLink>をご覧ください。自体。 5000の承認された文が収集されると、音声投稿のために新しい言語がCommon Voiceに追加されます。
 faq-why-mission-q = Common Voice はなぜ Mozilla の使命の一部なのですか？
+faq-why-mission-a = Mozilla はウェブを開かれた、誰にでもアクセス可能なものであり続けることに力を注いでいます。私達はこれを実現するため Common Voice のようなプロジェクトを通じてウェブクリエイタに協力していく必要があります。音声技術の普及とともに、すべてのユーザに平等にサービスを提供していく必要があると信じています。音声技術を構築、テストするためにより多くの言語、アクセント、性別、年齢のデータが世の中で求められています。Common Voice は誰もが利用できる公開リソースであり、世界中の Mozilla チームと開発者はすでに私たち自身のプロジェクトでもそれを使っています。
 faq-what-cv-and-deepspeech-q = Common Voice と Deep Speech の違いは何ですか？
+faq-what-cv-and-deepspeech-a = Common Voice データセットは、Mozilla のオープンソースの音声認識エンジンであるDeep Speechを補完するものです。Deep Speech の最初のバージョンは 2017 年 11 月にリリースされ、それ以来ずっと進化し続けています。 Common Voice データセットと共に、このオープンソースの音声認識技術は誰にでも利用できるはずです。これらのテクノロジが開発者に革新的な製品とサービスの波を生み出すことを可能にすることが私たちの願いです。
 faq-is-goal-assistant-q = Common Voice の目的は音声アシスタントを構築することですか？
+faq-is-goal-assistant-a = Common Voice データセットの目的は、音声認識、話者認識、または音声データを必要とするその他の種類のアプリケーションを世界中の誰でも構築できるようにすることです。音声アシスタントは、データセットを使用して構築することができる多くの種類のアプリケーションのうちの1つにすぎません。
+faq-do-want-native-q = 私はネイティブスピーカーではなく、訛りがあります。それでも私の音声は役立ちますか？
+faq-do-want-native-a = はい、私たちはあなたの声が特に欲しいのです！ Common Voice の目的の一部は、音声認識サービスがすべての人にとって等しくうまく機能するように、できるだけ多くの異なるアクセントを集めることです。これは、非ネイティブスピーカーからの寄付が特に重要であることを意味します。
+faq-why-different-speakers-q = なぜあなたは言語ごとにそんなに多くの異なる話者が必要なのですか？
+faq-why-different-speakers-a =
+    ほとんどの音声データベースは、特定の人口統計を過剰に表現してトレーニングされているため、<articleLink>男性と中流階級</ articleLink>に偏っています。トレーニングデータセットで過小評価される傾向のあるアクセントと方言は、通常、すでに疎外されている人々のグループに関連付けられています。多くの機械も女性の声を理解するのに苦労しています。
+    これが、音声データベースに多様性が必要な理由です！
 faq-why-my-lang-q = 私の言語がまだ含まれていないのはなぜですか？
+faq-why-my-lang-new-a = Mozillaは、ある言語を別の言語よりも優先したり、優先したりしません。代わりに、Common Voiceは純粋にコミュニティ主導のイニシアチブですが、<multilangLink>新しい言語を追加するためのいくつかの手順</ multilangLink>を取り、音声寄付の収集を開始します。まず、コミュニティメンバーが自分の言語で投稿者エクスペリエンスにアクセスできるように、Common Voice Webサイトを翻訳する必要があります。次に、人々が声を出して読むために、著作権フリーの文章の大規模なコレクションが必要です。これらの要件の両方が満たされると、共通の音声で言語が「起動」され、人々が音声を録音し、他の寄付を検証できるようになります。新しい言語の立ち上げを支援したい場合は、<sentenceCollectorLink>センテンスコレクションツール</ sentenceCollectorLink>にアクセスして開始してください。
+faq-what-quality-q = 音声クリップをデータセットで使用するには、どの程度の音質が必要ですか？
+faq-what-quality-a = Common Voice データセットには、スピーチからテキストへの変換エンジンで実際に聞こえる音声品質を反映させる必要があるため、さまざまなものを探しています。話者の多様なコミュニティに加えて、さまざまなオーディオ品質を持つデータセットは、スピーチからテキストへのエンジンに、バックグラウンドトーキングからカーノイズまで、さまざまな現実の状況を処理するように教えます。あなたのボイスクリップが理解できる限り、それはデータセットにとって十分であるべきです。
+faq-why-10k-hours-q = 音声をキャプチャするために、1 万時間の検証済み時間が言語ごとの目標であるのはなぜですか？
+faq-why-10k-hours-a = この程度の時間が、製品レベルの音声認識システムを作成するために必要と言われています。
 faq-how-calc-hours-q = Common Voice はどのように時間を計算しますか？
+faq-how-calc-hours-a = 各録音の平均長を推定し、その数字に全言語にわたる録音の合計数を掛けて時間を計算します。
 faq-where-src-from-2-q = 原文の出典はどこですか？
+faq-where-src-from-2-a =
+    ソーステキストは、元の寄稿者の寄付と、<italic> It's a Wonderful Life </ italic>などのパブリックドメインの映画の台本からの対話で構成されています。
+    
+    この<githubLink> GitHubフォルダー</ githubLink>でソース文を表示できます。
+faq-why-not-ask-read-q = 書籍や Wikipedia の記事を他の言語で読むように求めないのはなぜですか？
+faq-why-not-ask-read-a = Common Voice データセットをできるだけ便利にするために、クリエイティブコモンズ（CC0）ライセンスの下で利用可能なソーステキストのみを許可することにしました。CC0 標準を使用することは、ソーステキストを見つけて収集することがより困難であることを意味しますが、使用制限や Mozilla からの承認なしで誰でも結果の音声データを使用することを可能にします。最終的には、多言語データセットを、研究者、大学、新興企業、政府機関、社会目的団体、および趣味専門家を含むすべての人にとってできるだけ役立つものにしたいと考えています。
 faq-why-account-q = アカウント登録する必要があるのはなぜですか？
 faq-is-account-public-q = 私のアカウント情報は公開されていますか？
+faq-how-privacy-q = あなたは彼らの声を寄付した人々の匿名性とプライバシーをどのように確保しますか？
+faq-how-privacy-a = データセット内のすべてのボイスクリップには、個人を特定する情報が含まれています。投稿者が自分のプロファイルを介して人口統計データを提供すると、その情報はデータセットにダウンロードするためにバンドルされる前に自分のボイスクリップから識別解除され、自分のプロファイルページで公開されることはありません。
+faq-what-determine-identity-q = Common Voice データセット内の話者の「身元情報を特定できない」とはどういう意味ですか？
+faq-what-determine-identity-a =
+    Common Voiceデータセットは、さまざまな音声対応アプリケーションのトレーニングに使用できる、公開されて公開されているリソースです。投稿者のセキュリティを保護するために、Common Voiceデータセットをダウンロードするすべての人に投稿者のプライバシーを尊重するようお願いします。
+    
+    データセット内のすべての音声クリップは、個人を特定する情報から削除されます。データセットをダウンロードするとき、貢献者の身元を特定しようとしないことに同意します。つまり、データセット内の情報を投稿者の個人情報にリンクしようとすることはできません。ただし、たとえば、データセット内の情報をデータセット内に既にある他の情報にリンクすることにより、データセットを使用して音声認識、話者認識、または他のアプリケーションをトレーニングできます。
 faq-what-is-cv = Common Voice とは？
 faq-using-cv = Common Voice を使う
 faq-description = Common Voice プロジェクトは、機械が人の話を理解できるようにするための Mozilla の新たな取り組みの一つです。
@@ -369,24 +411,56 @@ about-header-description =
 how-does-it-work-title = 動作の仕組みは？
 how-does-it-work-text = 私たちは声のオープンソースデータセットをクラウドソーシングしています。あなたの声を寄付し、他の人々の音声クリップの正確さを検証し、誰にとっても良いデータセットにしましょう。
 about-speak = 話す
+about-listen-queue = リッスンキュー
+about-listen-queue-text = 音声クリップは送信キューに入れられ、そこでリスニングの準備が整います。
 about-listen = 聴く
 about-listen-text = ユーザーは寄付されたクリップの正確性を検証し、話者が文を正しく読んでいることを確認します。
 about-is-it-valid = 音声クリップは正しいですか？
 about-is-it-valid-text = ユーザーが「はい」の投票を行うと、音声クリップは「有効」とマークされます。
 about-yes-votes = 2 票以上の賛成
+about-yes-votes-text = Common Voiceデータセットにするには、2人の別々のユーザーが音声クリップを検証する必要があります。
 about-no-votes = 2 票未満
+about-no-votes-text = ユーザーが音声クリップを拒否すると、キューに戻ります。再度拒否された場合、音声クリップは音声墓地に移動されます。
 about-dataset-new = Common Voice データセット
 about-dataset-new-text = Common Voice データセットには、開発者が音声認識ツールを構築するのに役立つ数十万の音声サンプルが含まれています。
+about-clip-graveyard = 音声墓地
+about-clip-graveyard-text = 音声墓地は、Common Voiceデータセットに入れなかった音声クリップで構成されています。データセットと同様に、音声墓地もダウンロードできます。
 about-partners = パートナー
 about-become-a-partner = パートナーになる
+about-partnership =
+    Common Voice は共同プロジェクトであり、私たちはこれまでで最大のオープンソースの音声データセットを構築するためにパートナーと貢献者のコミュニティに依存しています。
+    
+    私たちはこのプロジェクトを手伝ってくれた以下の人々と組織に感謝します:
+about-get-involved = 参加しよう
+about-get-involved-text =
+    Common Voiceをさらに改善したいですか？
+    すばらしいです！電子メールまたは<discourseLink> Discourse </ discourseLink>で連絡を取ってください。
+    <githubLink> GitHub </ githubLink>からフィードバックを送信し、
+    または、<slackLink> Slack </ slackLink>に参加してください。
+about-nav-why-common-voice = なぜ？
+about-nav-how-it-works = どうやって？
+about-nav-partners = パートナー
+about-nav-get-involved = 参加しよう
+mycroft-title = Mycroft Ai
+mycroft-subtitle = 人工知能
+mycroft-description =
+    Mycroft は世界初のオープンソースアシスタントです。
+    Mycroft は、デスクトップコンピュータ上、自動車内、Raspberry Pi 上など、どこでも動作します。
+mycroft-secondary-description = これはオープンソースソフトウェアで、自由にリミックス、拡張、そして改良することができます。 Mycroft は科学プロジェクトから企業のソフトウェアアプリケーションまで何にでも使用できます。
 
 ## Glossary
 
 glossary = 用語集
 localization = ローカライズ
+localization-explanation = これが私たちのコンテンツを多くのロケール（言語）に翻訳して適応させるためのプロセスです。
 sentence-collection = 文章コレクション
 sentence-collection-explanation = パブリックドメインの文章を集めるか、パブリックドメインの文章として新たに書き起こします。
+hours-recorded-explanation = これまでに収集した音声録音時間の数。
+hours-validated-explanation = 「はい」の投票で 3 人のユーザーのうち 2 人によって検証された音声録音時間の数。これらのマークは、プロジェクト全体の1万時間目標に向かって進みます。
 sst = 音声合成（STT）
+sst-explanation = 音声認識（STT）技術は、音声データをテキストに変換します。
+de-identified = 匿名化
+de-identified-explanation = データセットの一部としてダウンロード用にパッケージ化される時に、寄付者のプロフィール情報が彼らの寄付された音声クリップから隠されるプロセス。
 
 ## NotFound
 
@@ -424,6 +498,13 @@ review-delete-recordings = 録音を削除
 
 ## Datasets Page
 
+datasets-headline = 音声対応のアプリケーションをトレーニングするために誰でも使用できるオープンソースの多言語音声データセットを構築しています。
+datasets-positioning =
+    大規模で公的に利用可能な音声データセットは、機械学習ベースの音声技術において技術革新と健全な商業競争を促進すると信じています。
+    
+    Common Voice の多言語データセットは、すでにその種の公的に利用可能な最大の音声データセットですが、それだけではありません。
+    
+    このページは、他のオープンソースの音声データセットの参照先として、また Common Voice は成長し続けているため、リリースの更新情報を提供しています。
 language = 言語
 # File size in gigabytes
 size = サイズ
