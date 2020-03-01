@@ -524,7 +524,11 @@ download-language = { $language } をダウンロード
 validated-hours = 検証された時間
 recorded-hours = 録音された時間
 whats-inside = Common Voice データセットの中身は？
-want-dataset-update = Common Voice データセットの新しいバージョンをリリースしたときに更新したいですか？ニュースレターを購読してください。
+dataset-description-hours =
+    データセットの各エントリーは、一意の MP3 と対応するテキストファイルで構成されます。データセットに記録された <b>{ $total }</ b> 時間の録音の多くには、年齢、性別、アクセントなどの人口統計メタデータも含まれており、音声認識エンジンの精度のトレーニングに役立ちます。
+    
+    現在のデータセットは、<b>{ $languages }</ b>言語の検証された <b>{ $valid }</ b> 時間の録音データで構成されていますが、音声と言語は常に追加されています。 <languagesLink>言語ページ</ languagesLink>をご覧になり、言語をリクエストするか、貢献を開始してください。
+want-dataset-update = Common Voice データセットの新しいバージョンがリリースされたときに更新したい方は、ニュースレターを購読してください。
 subscribe = 購読
 get-started-speech = 音声認識を始める
 other-datasets = その他の音声データセット
