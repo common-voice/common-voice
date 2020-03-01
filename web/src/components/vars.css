@@ -67,7 +67,7 @@
 @custom-media --md-down (width < 992px);
 @custom-media --lg-down (width < 1200px);
 
-@custom-media --xs-only (width <= 576px);
+@custom-media --xs-only (width < 576px);
 @custom-media --sm-only (width >= 576px) and (width < 768px);
 @custom-media --md-only (width >= 768px) and (width < 992px);
 @custom-media --lg-only (width >= 992px) and (width < 1200px);
