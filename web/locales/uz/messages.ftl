@@ -247,6 +247,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Yozib olish/To‘xtatish
+shortcut-rerecord-toggle-label = Klipni qayta yozish
 request-language-text = Common Voice loyihasida ona tilingizni ko‘rmayapsizmi?
 request-language-button = Til qo‘shishni so‘rang
 
@@ -268,12 +269,20 @@ english = Ingliz
 
 profile-form-username =
     .label = Foydalanuvchi nomi
+profile-form-native-language =
+    .label = Ona tili
+profile-form-additional-language =
+    .label = Qoʻshimcha til
 profile-form-accent =
     .label = Aksent
 profile-form-age =
     .label = Yosh
 profile-form-gender =
     .label = Jins
+leaderboard-visibility =
+    .label = Meni liderlar safida koʻrsatish
+hidden = Yashirin
+visible = Koʻrinarli
 native-language =
     .label = Ona tili
 profile-form-submit-save = Saqlash
@@ -314,16 +323,28 @@ delete-voice-clip = yoki ovozli yozuvi oʻchirish
 ready-to-upload = Yuklash
 cancel-avatar-clip-recording = Bekor qilish
 browse-file-title = Rasm yuklash
+add-language = Til qoʻshish
 
 ## FAQ
 
 faq-title = Savol-javob
+faq-how-get-q = Qanday qilib Common Voice maʼlumotlarini olishim mumkin?
+faq-how-calc-hours-q = Common Voice soatlarni qanday qilib hisoblaydi?
 
 ## ABOUT US
 
+about-speak = Gapiring
+about-listen-queue = Eshitish navbati
+about-listen = Eshiting
+about-nav-why-common-voice = Nega?
+about-nav-partners = Hamkorlar
+about-nav-get-involved = Hissa qo‘shish
+mycroft-subtitle = Sunʼiy idrok
 
 ## Glossary
 
+glossary = Glossariy
+localization = Mahalliylashtirish
 
 ## NotFound
 
@@ -360,11 +381,28 @@ review-delete-recordings = Yozuvlarni o‘chirish
 
 ## Datasets Page
 
+language = Til
+# File size in gigabytes
+size = Oʻlcham
+validated-hr-total = Jami tekshirilgan soatlar
+overall-hr-total = Jami soatlar
+cv-license = Litsenziya
+audio-format = Audioformat
+number-of-voices = Ovozlar soni
+splits = Ajratish
+email-to-download = Yuklab olish uchun emailni kiriting
+download-language = { $language }ni yuklash
+validated-hours = Tekshilgan soatlar miqdori
+feedback-q = Fikr-mulohazalaringizni bildirasizmi?
 data-other-librispeech-description = LibriSpeech – LibriVox loyihasidagi ingliz tilida 16Khz 1000 soat atrofida o‘qilgan audiokitoblar jamlanmasi.
 data-other-ted-name = TED-LIUM to‘plami
 data-other-ted-description = TED-LIUM to‘plami TED saytida mavjud bo‘lgan audio suhbatlar va ularning transkripsiyasidan iborat.
 data-other-voxforge-description = VoxForge – erkin va ochiq manbali nutqni tanish tizimlaridagi transkripsiya qilingan nutqlarni to‘plash uchun sozlangan.
 data-other-tatoeba-description = Tatoeba –  katta hajmdagi til o‘rganish uchun talaffuz qilingan audio fayllar, jumlalar va tarjima bazasidan iborat. Yuklanayotgan to‘plamda ingliz tilida talaffuz qilingan jumlalar mavjud.
+more = Koʻproq
+close = Yopish
+download = Yuklash
+dataset-version = Talqin
 
 ## Download Modal
 
@@ -392,6 +430,7 @@ request-language-form-language =
     .label = Til
 request-language-success-title = Til so‘rovi amalga oshirildi. Rahmat.
 request-language-success-content = Ona tilingizni Common Voice loyihasiga qo‘shish haqida ma’lumotlarni tezda yuboramiz.
+select-language = Tilni tanlash...
 other-language = Boshqa tillar
 
 ## Languages Overview
