@@ -27,10 +27,12 @@ af = アフリカーンス語
 am = アムハラ語
 an = アラゴン語
 ar = アラビア語
+arn = マプチェ語
 as = アッサム語
 ast = アストゥリアス語
 az = アゼルバイジャン語
 ba = バシキール語
+be = ベラルーシ語
 bg = ブルガリア語
 bn = ベンガル語
 br = ブルトン語
@@ -72,23 +74,28 @@ it = イタリア語
 izh = イングリア語
 ja = 日本語
 ka = ジョージア語
+kaa = カラカルパク語
 kab = カビル語
+kbd = カバルド語
 kk = カザフ語
 ko = 韓国語
 kpv = コミ・ジリエーン語
 ku = クルド語
 kw = コーンウォール語
 ky = キルギス語
+lg = ガンダ語
 lij = リグリア語
 lt = リトアニア語
 lv = ラトビア語
 mdf = モクシャ語
+mg = マダガスカル語
 mhr = 牧地マリ語
 mk = マケドニア語
 ml = マラヤーラム語
 mn = モンゴル語
 mrj = 山地マリ語
 mt = マルタ語
+my = ビルマ語
 myv = エルジャ語
 nb-NO = ノルウェー語 (ブークモール)
 ne-NP = ネパール語
@@ -96,6 +103,7 @@ nl = オランダ語
 nn-NO = ノルウェー語 (ニーノシュク)
 oc = オック語
 or = オリヤー語
+pa-IN = パンジャブ語
 pl = ポーランド語
 pt = ポルトガル語
 rm-sursilv = ロマンシュ語 (Sursilvan)
@@ -105,6 +113,7 @@ ru = ロシア語
 rw = ルワンダ語
 sah = サハ語
 sc = サルデーニャ語
+scn = シチリア語
 si = シンハラ語
 sk = スロバキア語
 sl = スロベニア語
@@ -117,6 +126,7 @@ ta = タミル語
 te = テルグ語
 tg = タジク語
 th = タイ語
+tl = タガログ語
 tr = トルコ語
 tt = タタール語
 uby = ウビフ語
@@ -124,6 +134,7 @@ udm = ウドムルト語
 uk = ウクライナ語
 ur = ウルドゥー語
 uz = ウズベク語
+vec = ベネチア語
 vi = ベトナム語
 vot = ヴォート語
 zh-CN = 中国語 (中国)
@@ -437,6 +448,11 @@ about-get-involved-text =
     すばらしい！ メールまたは <discourseLink>Discourse</ discourseLink> でご連絡ください。
     <githubLink>GitHub</ githubLink> からフィードバックを送信するか、
     <slackLink>Slack</ slackLink> に参加してください。
+about-get-involved-text-2020 =
+    Common Voice をさらに改善したいですか？
+    すばらしい！ メールまたは <discourseLink>Discourse</ discourseLink> でご連絡ください。
+    <githubLink>GitHub</ githubLink> からフィードバックを送信するか、
+    <matrixLink>Matrix</matrixLink> に参加してください。
 about-nav-why-common-voice = なぜ？
 about-nav-how-it-works = どうやって？
 about-nav-partners = パートナー
@@ -700,10 +716,37 @@ validated-clips = 検証件数
 total-approved = 承認された合計時間
 overall-accuracy = 全体の精度
 set-visibility = 可視性を設定する
+visibility-explainer = この設定は、リーダーボードの可視性を制御します。非表示にすると、進行状況が非公開になります。これは、画像、ユーザー名、進行状況がリーダーボードに表示されないことを意味します。リーダーボードの更新には、変更を取り込むため { $minutes } 分程度かかります。
 visibility-overlay-note = 補足: 「表示」に設定すると、この設定を<profileLink>プロファイルページ</ profileLink>から変更できます
+show-ranking = ランキングを表示する
 
 ## Custom Goals
 
+get-started-goals = 目標を持って始めましょう
+create-custom-goal = 自分の目標を作成する
+both-speak-and-listen = 両方
+both-speak-and-listen-long = 両方（話すと聞く）
+daily-goal = 毎日の目標
+weekly-goal = 週間目標
+easy-difficulty = やさしい
+average-difficulty = ふつう
+difficult-difficulty = 難しい
+pro-difficulty = 専門家
+lose-goal-progress-warning = 目標を編集すると、既存の進捗が失われる可能性があります。
+want-to-continue = 続けますか？
+finish-editing = 最初に編集を終了しますか？
+lose-changes-warning = ページを離れると変更が失われます
+build-custom-goal = 自分の目標を作成する
+help-reach-hours = 個人的な目標を持って、{ $language } で { NUMBER($hours) } 時間に到達するのを手伝います
+help-reach-hours-general = Common Voice が個人的な目標を持った言語で { NUMBER($hours) } 時間に到達するのを助けます
+set-a-goal = 目標を設定します
+cant-decide = 決められない？
+activity-needed-calculation = { NUMBER($totalHours) } 時間は、{ NUMBER($people) } 人が 1 日に { NUMBER($clipsPerDay) } クリップを記録する場合、 { NUMBER($periodMonths) } か月をわずかに超える時間で達成可能です。
+confirm-goal = 目標を確認
+goal-interval-weekly = 毎週
+share-goal-type-speak = 話す
+share-goal-type-listen = 聞く
+share-goal-type-both = 話すと聞く
 
 ## Profile Delete
 
