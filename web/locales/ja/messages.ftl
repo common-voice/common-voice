@@ -433,10 +433,10 @@ about-partnership =
     このプロジェクトを手伝ってくれた以下の人々と組織に感謝します:
 about-get-involved = 参加しよう
 about-get-involved-text =
-    Common Voiceをさらに改善したいですか？
-    すばらしいです！電子メールまたは<discourseLink> Discourse </ discourseLink>で連絡を取ってください。
-    <githubLink> GitHub </ githubLink>からフィードバックを送信し、
-    または、<slackLink> Slack </ slackLink>に参加してください。
+    Common Voice をさらに改善したいですか？
+    すばらしい！ メールまたは <discourseLink>Discourse</ discourseLink> でご連絡ください。
+    <githubLink>GitHub</ githubLink> からフィードバックを送信するか、
+    <slackLink>Slack</ slackLink> に参加してください。
 about-nav-why-common-voice = なぜ？
 about-nav-how-it-works = どうやって？
 about-nav-partners = パートナー
@@ -452,11 +452,11 @@ mycroft-secondary-description = これはオープンソースソフトウェア
 
 glossary = 用語集
 localization = ローカライズ
-localization-explanation = これが私たちのコンテンツを多くのロケール（言語）に翻訳して適応させるためのプロセスです。
+localization-explanation = これが、私たちのコンテンツを多くのロケール (言語) に翻訳して適応させるためのプロセスです。
 sentence-collection = 文章コレクション
 sentence-collection-explanation = パブリックドメインの文章を集めるか、パブリックドメインの文章として新たに書き起こします。
-hours-recorded-explanation = これまでに収集した音声録音時間の数。
-hours-validated-explanation = 「はい」の投票で 3 人のユーザーのうち 2 人によって検証された音声録音時間の数。これらのマークは、プロジェクト全体の1万時間目標に向かって進みます。
+hours-recorded-explanation = これまでに収集した音声録音時間の合計。
+hours-validated-explanation = 「はい」の投票で 3 人のユーザーのうち 2 人によって検証された音声録音時間の数。これらのマークは、プロジェクト全体を 1 万時間の目標に向かって前進させます。
 sst = 音声合成（STT）
 sst-explanation = 音声認識（STT）技術は、音声データをテキストに変換します。
 de-identified = 匿名化
@@ -500,11 +500,11 @@ review-delete-recordings = 録音を削除
 
 datasets-headline = 音声対応のアプリケーションをトレーニングするために誰でも使用できるオープンソースの多言語音声データセットを構築しています。
 datasets-positioning =
-    大規模で公的に利用可能な音声データセットは、機械学習ベースの音声技術において技術革新と健全な商業競争を促進すると信じています。
+    私たちは、大規模で公的に利用可能な音声データセットが機械学習ベースの音声技術において技術革新と健全な商業競争を促進すると信じています。
     
     Common Voice の多言語データセットは、すでにその種の公的に利用可能な最大の音声データセットですが、それだけではありません。
     
-    このページは、他のオープンソースの音声データセットの参照先として、また Common Voice は成長し続けているため、リリースの更新情報を提供しています。
+    このページは、他のオープンソースの音声データセットの参照先としてください。また、Common Voice は成長し続けているため、リリースの更新情報を提供しています。
 language = 言語
 # File size in gigabytes
 size = サイズ
