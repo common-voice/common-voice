@@ -210,13 +210,18 @@ x-years-short =
         [one] 1 yil
        *[other] { $count } yil
     }
+help-make-dataset = Bizga yuqori sifatli ommaviy maʼlumotlar bazasini yaratishga yordam bering
 sign-up-account = Akkauntni roʻyxatdan oʻtkazish
+email-subscription-title = Yangiliklardan xabardor bo‘lib turish uchun email orqali obuna bo‘ling
 
 ## Account Benefits
 
+benefits = Ustunlik
 
 ## What's public
 
+whats-public = Qaysi maʼlumotlar barcha uchun ochiq?
+email-not-public = Emailingizni sizdan boshqa hech kim koʻrmaydi.
 
 ## Speak & Listen Shortcuts
 
@@ -279,6 +284,9 @@ female = Ayol
 other = Boshqa
 why-profile-title = Nega profil?
 why-profile-text = O‘zingiz haqingizda ma’lumot kiritib, Common Voice loyihasiga audio ma’lumotlarni yuborsangiz, nutqni tanish tizimiga yordamlashgan bo‘lasiz. Bu ovozli yozuvlar ovozni tanish aniqligi va sifatini oshirishda yordam beradi.
+avatar = Avatar
+goals = Maqsadlar
+settings = Sozlamalar
 edit-profile = Profilni tahrirlash
 profile-create-success = Profil yaratildi!
 profile-close = Yopish
@@ -288,6 +296,7 @@ why-demographic = Bu nega kerak?
 why-demographic-explanation = Foydalanuvchilarning yoshi, jinsi va talaffuzi  kabi anonim maʼlumotlari nutqni tanish tizimlariga oʻrgatishda foydalaniladigan audio maʼlumotlari sifatini oshirishda yordam beradi. Taxallus va e-pochta manzilingiz siz yuborgan maʼlumotlariga qoʻshilmaydi va taxallusingizni hamma koʻradigan yoki maxfiy qilishni tanlashingiz mumkin.
 accept-privacy = Mozillaning <privacyLink>Maxfiylik siyosati</privacyLink>da koʻrsatilganidek maʼlumotlarimdan foydalanishlariga roziman.
 login-identity = Kirish uchun identifikator
+login-signup = Kirish/Roʻyxatdan oʻtish
 edit = Tahrirlash
 email-subscriptions = E-pochta orqali obuna
 download-profile = Ma’lumotlarni yuklab olish
@@ -296,6 +305,15 @@ skip-submission-feedback = Ishga baho berishni tashlab ketish
 skip-submission-note = Diqqat: hissa qo‘shish turini o‘zgartirish uchun "Gapirish" yoki "Tinglash"dan birini tanlashingiz lozim.
 off = O‘chiq
 on = Yoniq
+avatar-clip-title = Oʻz avataringizga ovoz bering
+retry-voice-wave-recording = Qaytarish
+re-record = Qayta yozish
+delete-voice = Oʻchirish
+recording-voice-wave = Yozish
+delete-voice-clip = yoki ovozli yozuvi oʻchirish
+ready-to-upload = Yuklash
+cancel-avatar-clip-recording = Bekor qilish
+browse-file-title = Rasm yuklash
 
 ## FAQ
 
