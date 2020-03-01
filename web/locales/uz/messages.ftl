@@ -293,6 +293,7 @@ female = Ayol
 other = Boshqa
 why-profile-title = Nega profil?
 why-profile-text = O‘zingiz haqingizda ma’lumot kiritib, Common Voice loyihasiga audio ma’lumotlarni yuborsangiz, nutqni tanish tizimiga yordamlashgan bo‘lasiz. Bu ovozli yozuvlar ovozni tanish aniqligi va sifatini oshirishda yordam beradi.
+dashboard = Boshqaruv paneli
 avatar = Avatar
 goals = Maqsadlar
 settings = Sozlamalar
@@ -333,9 +334,11 @@ faq-how-calc-hours-q = Common Voice soatlarni qanday qilib hisoblaydi?
 
 ## ABOUT US
 
+how-does-it-work-title = Bu qanday ishlaydi?
 about-speak = Gapiring
 about-listen-queue = Eshitish navbati
 about-listen = Eshiting
+about-partners = Hamkorlar
 about-nav-why-common-voice = Nega?
 about-nav-partners = Hamkorlar
 about-nav-get-involved = Hissa qo‘shish
@@ -393,6 +396,8 @@ splits = Ajratish
 email-to-download = Yuklab olish uchun emailni kiriting
 download-language = { $language }ni yuklash
 validated-hours = Tekshilgan soatlar miqdori
+recorded-hours = Jami yozilgan soatlar
+subscribe = Obuna boʻlish
 feedback-q = Fikr-mulohazalaringizni bildirasizmi?
 data-other-librispeech-description = LibriSpeech – LibriVox loyihasidagi ingliz tilida 16Khz 1000 soat atrofida o‘qilgan audiokitoblar jamlanmasi.
 data-other-ted-name = TED-LIUM to‘plami
