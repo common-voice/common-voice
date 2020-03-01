@@ -742,6 +742,7 @@ help-reach-hours-general = Common Voice が個人的な目標を持った言語�
 set-a-goal = 目標を設定します
 cant-decide = 決められない？
 activity-needed-calculation = { NUMBER($totalHours) } 時間は、{ NUMBER($people) } 人が 1 日に { NUMBER($clipsPerDay) } クリップを記録する場合、 { NUMBER($periodMonths) } か月をわずかに超える時間で達成可能です。
+n-clips = { NUMBER($count) } クリップ
 confirm-goal = 目標を確認
 goal-interval-weekly = 毎週
 share-goal-type-speak = 話す
@@ -763,5 +764,7 @@ profile-form-delete = プロファイルを削除
 
 ## Landing
 
+welcome-staff = { $company } のスタッフを歓迎します！
 help-contribute = Common Voice プロファイルを作成し、音声を提供することにより、多様なオープンソースデータセットの構築を支援できます。
+login-company = ログイン / { $company } メールでアカウント登録
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
