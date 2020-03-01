@@ -533,11 +533,16 @@ subscribe = 購読
 get-started-speech = 音声認識を始める
 other-datasets = その他の音声データセット
 feedback-q = フィードバックの提供
+deepspeech-info = Common Voice データセットは、音声認識アプリケーションの構築に利用できる Mozilla のオープンソース音声認識エンジン Deep Speech を補完します。使い始める方法は、<githubLink>Github の概要</ githubLink>を読むか、<discourseLink>DeepSpeech Discourse</ discourseLink> をご覧ください。
+common-voice-info-new = Common Voice についての質問や、特定の言語に関する改善やフィードバックのアイデアをお持ちの方は、<discourseLink>Discourse フォーラム</ discourseLink>に参加してお知らせください。
 data-other-librispeech-description = LibriSpeech は16Khzでおよそ1000時間、録音された英語音声のコーパスです。音声は LibriVox が公開しているオーディオブックを読み上げて録音しています。
 data-other-ted-name = TED-LIUM コーパス
 data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
 data-other-voxforge-description = VoxForge はフリーかつオープンソースの音声認識エンジンのために、ユーザが読み上げた音声を収集しています。
 data-other-tatoeba-description = Tatoeba は言語学習のための大量の文章、翻訳、音声のデータセットです。Tatoeba のコミュニティによって録音された、英語の音声がダウンロードできます。
+your-feedback = Common Voice データセットをより良くする方法についてのアイデアはありますか？Discourse でお知らせください。
+go-discourse = Discourse サイトへ移動する
+missing-language = あなたの言語をデータセットに反映させたい場合は、言語ページへ移動して、言語をリクエストしてください。
 go-languages-page = 言語選択ページへ移動
 ready-to-validate = 文章の検証を手伝う準備はできましたか？
 more = 詳細
@@ -637,6 +642,7 @@ listen-last-time-instruction = <playIcon></playIcon>最後の一つ！
 nothing-to-validate = この言語で検証することはありません。キューを埋めるのを手伝ってください。
 record-button-label = あなたの声を録音する
 share-title-new = 音声を集める<bold>手伝い</bold>をしてください
+keep-track-profile = プロフィールで進捗状況を追跡する
 login-to-get-started = ログインまたはアカウント登録して開始
 
 ## Reporting
@@ -644,8 +650,21 @@ login-to-get-started = ログインまたはアカウント登録して開始
 report = 報告
 report-title = 報告を送信
 report-ask = この文章でどのような問題が発生していますか？
+report-offensive-language = 憎まれ口
+report-offensive-language-detail = この文には、無礼または不快な言葉が含まれています。
+report-grammar-or-spelling = 文法的またはスペルの誤り
+report-grammar-or-spelling-detail = 文に文法上の誤りまたはスペルミスがあります。
+report-different-language = 異なる言語
+report-different-language-detail = 私が話しているのとは異なる言語で書かれています。
+report-difficult-pronounce = 発音が難しい
+report-difficult-pronounce-detail = 読みにくい、発音しにくい単語やフレーズが含まれています。
+report-offensive-speech = 不快な発言
+report-offensive-speech-detail = クリップは無礼または不快な言葉遣いです。
+report-other-comment =
+    .placeholder = コメント
 success = 成功
 continue = 続ける
+report-success = レポートは正常に送信されました。
 
 ## Goals
 
@@ -680,6 +699,8 @@ recorded-clips = 録音件数
 validated-clips = 検証件数
 total-approved = 承認された合計時間
 overall-accuracy = 全体の精度
+set-visibility = 可視性を設定する
+visibility-overlay-note = 補足: 「表示」に設定すると、この設定を<profileLink>プロファイルページ</ profileLink>から変更できます
 
 ## Custom Goals
 
@@ -691,8 +712,13 @@ keep = 保持
 remove = 削除
 keep-info = あなたの匿名の音声録音データは、Common Voice データセットに残ります。プロファイルを削除すると、録音データのデータセットからの削除を要求することができなくなります。
 remove-info = 私たちは、あなたの要求を確認してから音声録音データをデータセットから削除します。要求が承認された場合、同様にデータセットをダウンロードした人々に連絡を取り、あなたの音声録音データを削除してもらうように要請します。
+why-delete-recordings =
+    Common Voice の録音は、音声モデルのような公的に利用可能なリソースを訓練し成長させるのを助けるために学者、中小企業、および音声認識愛好家によって使用されます。
+    
+    あなたの録音を削除したい理由を教えてください。
 profile-form-delete = プロファイルを削除
 
 ## Landing
 
+help-contribute = Common Voice プロファイルを作成し、音声を提供することにより、多様なオープンソースデータセットの構築を支援できます。
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
