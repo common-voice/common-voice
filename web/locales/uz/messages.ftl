@@ -21,13 +21,17 @@ not-available-abbreviation = M/E
 
 ab = Abxazcha
 ace = Aceh
+ady = Adigey
+af = Afrika
 am = Amharik
 an = Aragon
 ar = Arab
+arn = Mapuche
 as = Assam
 ast = Astur
 az = Ozarbayjon
 ba = Boshqird
+be = Belarus
 bg = Bolgar
 bn = Bengal
 br = Breton
@@ -41,6 +45,7 @@ cy = Uels
 da = Daniya
 de = Nemis
 dsb = Sorb, quyi
+dv = Maldiv
 el = Grek
 en = Ingliz
 eo = Esperanto
@@ -48,6 +53,7 @@ es = Ispan
 et = Eston
 eu = Bask
 fa = Fors
+ff = Fula
 fi = Fin
 fo = Farer
 fr = Fransuz
@@ -82,7 +88,9 @@ lt = Litva
 lv = Latish
 mdf = Moksha
 mg = Malagasi
+mhr = Lugo Mariy
 mk = Makedon
+ml = Malay
 mn = Mongol
 mrj = Mari
 mt = Malta
@@ -101,16 +109,17 @@ rm-sursilv = Roman Sursilvan
 rm-vallader = Roman Vallader
 ro = Rumin
 ru = Rus
-sah = Saxa
+rw = Ruanda
+sah = Yoqut
 sc = Sardin
 scn = Sitsiliy
 si = Singal
 sk = Slovak
-sl = Sloven
+sl = Slavyan
 sq = Alban
 sr = Serb
 sv-SE = Shved
-sw = Svahili
+sw = Suaxili
 syr = Suriy
 ta = Tamil
 te = Telugu
@@ -179,8 +188,12 @@ listen-paragraph = Qo‘shilgan ovozlarni tekshirish – Common Voice loyihasi u
 listen-goal-text = Kliplar tekshirildi
 hours-recorded = Yozib olingan soat
 hours-validated = Soat tekshirildi
+voices-online = Ayni damdagi onlayn ovozlar
+todays-progress = Bugungi o'zgarish
+help-reach-goal = { $goal } ga yetishga yordam bering
 read-terms-q = Shartlarimiz bilan tanishdingizmi?
 ready-to-record = Ovozingiz bilan yordam qilishga tayyormisiz?
+all-locales = Barchasi
 today = Bugun
 x-weeks-short =
     { $count ->
@@ -197,6 +210,7 @@ x-years-short =
         [one] 1 yil
        *[other] { $count } yil
     }
+sign-up-account = Akkauntni roʻyxatdan oʻtkazish
 
 ## Account Benefits
 
