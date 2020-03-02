@@ -468,6 +468,11 @@ about-get-involved-text =
     Чудово! Зв'яжіться через електронну пошту або на сторінці <discourseLink>Discourse</discourseLink>,
     залиште відгук на <githubLink>GitHub</githubLink>,
     або приєднайтеся до нас на <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Хочете допомогти зробити Common Voice ще кращим?
+    Чудово! Зв'яжіться через електронну пошту або на сторінці <discourseLink>Discourse</discourseLink>,
+    залиште відгук на <githubLink>GitHub</githubLink>,
+    або приєднайтеся до нас на <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Чому?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнери
