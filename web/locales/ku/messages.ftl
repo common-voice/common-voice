@@ -436,6 +436,11 @@ about-become-a-partner = ببە بە یارمەتیدەر
 about-partnership = دەنگی گشتی پڕۆژەیەکی بەشدارانەیە و ئێمە چاوەڕوانی کۆمەڵگەی بەشداران و خۆبەخشانمانین بۆ ساز کردنی گەورەترین دەیتاسێتی کراوەی دەنگ. ئێمە پێمان خۆشە دەستخۆشی بکەین لەم کەسانە و سازمانانە بۆ یارمەتی دانی پڕۆژەکە:
 about-get-involved = بەشدار بە
 about-get-involved-text = پێت خۆشە ئەم پڕۆژە باشتر بکەی؟ زۆر چاکە! لە ڕێگای ئیمەیل پەیوەندیمان پێ بکە یان <discourseLink>دیسکۆرس</discourseLink>، فیدبەک بنێرە لە ڕێگای <githubLink>گیتهاب</githubLink> یان لەگەڵمان بە لە <slackLink>ئسڵەک</slackLink>.
+about-get-involved-text-2020 =
+    دەتهەوێ پرۆژەی دەنگی گشتی لەوەی هەیە باشتر کەی؟
+    زۆر چاکە! لە رێگای ئیمەیل یان <discourseLink>Discourse</discourseLink> پەیوەندی بکە،
+    لە <githubLink>GitHub</githubLink>ەوە فیدبەک بنێرە،
+    یان لە رێگەی <matrixLink>Matrix</matrixLink>ەوە لەگەڵمان بە.
 about-nav-why-common-voice = بۆچی؟
 about-nav-how-it-works = چۆن؟
 about-nav-partners = یارمەتیدەران

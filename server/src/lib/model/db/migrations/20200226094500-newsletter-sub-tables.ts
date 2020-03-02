@@ -20,7 +20,7 @@ export const up = async function(db: any): Promise<any> {
 
     INSERT INTO user_client_newsletter_prefs (client_id, email, basket_token)
     SELECT u.client_id, u.email, u.basket_token FROM user_clients u
-    WHERE u.basket_token IS NOT NULL AND u.email IS NOT NULL
+    WHERE u.basket_token IS NOT NULL AND u.email IS NOT NULL AND u.has_login
     ON DUPLICATE KEY UPDATE user_client_newsletter_prefs.basket_token = user_client_newsletter_prefs.basket_token;
     `
   );

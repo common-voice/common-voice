@@ -449,6 +449,11 @@ about-get-involved-text =
     Vrei să ajuți la îmbunătățirea Common Voice?
     Grozav! Ia legătura cu noi prin e-mail sau intră pe <discourseLink>Discourse</discourseLink>,
     dă-ne feedback prin <githubLink>GitHub</githubLink> sau alătură-te pe <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Vrei să ajuți la îmbunătățirea Common Voice?
+    Grozav! Ia legătura prin e-mail sau pe <discourseLink>Discourse</discourseLink>,
+    trimite feedback prin <githubLink>GitHub</githubLink>
+    sau vino alături de noi pe <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = De ce?
 about-nav-how-it-works = Cum?
 about-nav-partners = Parteneri

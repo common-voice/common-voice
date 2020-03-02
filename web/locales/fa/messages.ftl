@@ -457,6 +457,11 @@ about-get-involved-text =
     عالی است! با ما در پست الکترونیکی یا <discourseLink>Discource</discourseLink> تماس بگیرید،
     بازخورد را از طریق <githubLink>گیت‌هاب</githubLink> ثبت کنید،
     یا به ما در <slackLink>Slack</slackLink> ملحق شوید.
+about-get-involved-text-2020 =
+    می‌خواهید به بهترشدن آواهای مشترک کمک کنید؟
+    عالی است! با ما در پست الکترونیکی یا <discourseLink>Discource</discourseLink> تماس بگیرید،
+    بازخورد را از طریق <githubLink>گیت‌هاب</githubLink> ثبت کنید،
+    یا به ما در <matrixLink>ماتریکس</matrixLink> ملحق شوید.
 about-nav-why-common-voice = چرا ؟
 about-nav-how-it-works = چگونه ؟
 about-nav-partners = همکاران
