@@ -45,7 +45,7 @@ const GetInvolved: React.ComponentType = () => {
         </Localized>
 
         <Localized
-          id="about-get-involved-text-2020-2"
+          id="about-get-involved-text-2"
           discourseLink={<DiscourseLink />}
           githubLink={<GitHubLink />}
           matrixLink={<MatrixLink />}>

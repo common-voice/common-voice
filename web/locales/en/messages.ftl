@@ -470,15 +470,7 @@ about-partnership = Common Voice is a collaborative project, and we're depending
 
     We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Get involved
-about-get-involved-text = Want to help make Common Voice even better?
-    Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
-    submit feedback through <githubLink>GitHub</githubLink>,
-    or join us on <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 = Want to help make Common Voice even better?
-    Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
-    submit feedback through <githubLink>GitHub</githubLink>,
-    or join us on <matrixLink>Matrix</matrixLink>.
-about-get-involved-text-2020-2 = Want to help make Common Voice even better?
+about-get-involved-text-2 = Want to help make Common Voice even better?
     Great! Get in touch via email or <discourseLink>Discourse</discourseLink>
     forums, submit site issues via <githubLink>GitHub</githubLink>, or join the
     <matrixLink>Matrix</matrixLink> community chat.
