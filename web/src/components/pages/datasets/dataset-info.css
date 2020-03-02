@@ -47,7 +47,7 @@
         @media (--md-down) {
             padding: 70px 0;
             background: url('images/intro-bg-md.svg');
-            background-size: 100% 100%;
+            background-size: cover;
 
             & h1,
             & button,
@@ -309,6 +309,13 @@
         }
 
         & .text {
+            @media (--md-down) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
             & .line {
                 width: 70px;
                 height: 3px;

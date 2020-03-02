@@ -96,7 +96,7 @@ function ProfilePage({
     null
   );
   const isEnrolledInChallenge =
-    user.userClients[0].enrollment || isEnrolled(account);
+    user?.userClients[0]?.enrollment || isEnrolled(account);
 
   useEffect(() => {
     if (user.isFetchingAccount || isInitialized) {

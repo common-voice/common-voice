@@ -89,7 +89,7 @@ const Overlay = ({ hideOverlay }: { hideOverlay?: () => void }) => {
   );
 };
 
-function ChallengePage(props: Props & RouteComponentProps<any>) {
+function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
   const [showOverlay, setShowOverlay] = useState(false);
   // [TODO]: Hook this up to the DB so we only see it once.
   const addAchievement = useAction(Notifications.actions.addAchievement);
@@ -133,7 +133,9 @@ function ChallengePage(props: Props & RouteComponentProps<any>) {
           {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
           <div className="leader-board">
             <LeaderBoardCard
-              title={`${challengeTeams[account.enrollment.team].readableName} Team Progress`}
+              title={`${
+                challengeTeams[account.enrollment.team].readableName
+              } Team Progress`}
               showVisibleIcon
               showOverlay={() => setShowOverlay(true)}
               service="team-progress"

@@ -75,6 +75,7 @@ it = Italiaans
 izh = Izjorisch
 ja = Japans
 ka = Georgisch
+kaa = Karakalpaks
 kab = Kabylisch
 kbd = Kabardisch
 kk = Kazachs
@@ -83,6 +84,7 @@ kpv = Zurjeens
 ku = Koerdisch
 kw = Cornish
 ky = Kirgizisch
+lg = Luganda
 lij = Ligurisch
 lt = Litouws
 lv = Lets
@@ -94,6 +96,7 @@ ml = Malayalam
 mn = Mongools
 mrj = Berg-Mari
 mt = Maltees
+my = Burmees
 myv = Erzja
 nb-NO = Noors Bokmål
 ne-NP = Nepalees
@@ -111,6 +114,7 @@ ru = Russisch
 rw = Kinyarwanda
 sah = Jakoets
 sc = Sardijns
+scn = Siciliaans
 si = Singalees
 sk = Slowaaks
 sl = Sloveens
@@ -123,6 +127,7 @@ ta = Tamil
 te = Telugu
 tg = Tadzjieks
 th = Thai
+tl = Tagalog
 tr = Turks
 tt = Tataars
 uby = Oebychs
@@ -130,6 +135,7 @@ udm = Oedmoerts
 uk = Oekraïens
 ur = Urdu
 uz = Oezbeeks
+vec = Venetiaans
 vi = Vietnamees
 vot = Wotisch
 zh-CN = Chinees (China)
@@ -448,6 +454,11 @@ about-get-involved-text =
     Geweldig! Neem contact op via e-mail of op <discourseLink>Discourse</discourseLink>,
     geef feedback via <githubLink>GitHub</githubLink>,
     of doe mee op <slackLink>Slack </slackLink>.
+about-get-involved-text-2020 =
+    Wilt u Common Voice nog beter helpen maken?
+    Geweldig! Neem contact op via e-mail of op <discourseLink>Discourse</discourseLink>,
+    geef feedback via <githubLink>GitHub</githubLink>,
+    of doe mee op <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Waarom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners

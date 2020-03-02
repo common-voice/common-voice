@@ -77,7 +77,9 @@ async function importLocaleSentences(
   version: number
 ) {
   await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale]);
-  const [[{ localeId }]] = await pool.query(
+  const [
+    [{ localeId }],
+  ] = await pool.query(
     'SELECT id AS localeId FROM locales WHERE name = ? LIMIT 1',
     [locale]
   );
@@ -188,13 +190,10 @@ export async function importSentences(pool: any) {
   print(
     'sentences',
     JSON.stringify(
-      localeCounts.reduce(
-        (obj, { count, locale }) => {
-          obj[locale] = count;
-          return obj;
-        },
-        {} as { [locale: string]: number }
-      ),
+      localeCounts.reduce((obj, { count, locale }) => {
+        obj[locale] = count;
+        return obj;
+      }, {} as { [locale: string]: number }),
       null,
       2
     )

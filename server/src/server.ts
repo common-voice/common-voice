@@ -3,6 +3,7 @@ import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
 import * as express from 'express';
+import * as Sentry from '@sentry/node';
 import { NextFunction, Request, Response } from 'express';
 import { importLocales } from './lib/model/db/import-locales';
 import Model from './lib/model';
@@ -32,6 +33,7 @@ const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
 const RELEASE_VERSION = getConfig().RELEASE_VERSION;
 const ENVIRONMENT = getConfig().ENVIRONMENT;
 const PROD = getConfig().PROD;
+const KIBANA_PREFIX = getConfig().KIBANA_PREFIX;
 const SECONDS_IN_A_YEAR = ms('1y') / ms('1s');
 
 // Max-Age of different content types in seconds
@@ -51,11 +53,13 @@ const CSP_HEADER = [
   `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
   // Note: we allow unsafe-eval locally for certain webpack functionality.
-  `script-src 'self' 'unsafe-eval' 'sha256-TEBuoeQjVIJIlj0uGgnIweazDG5TUKQQr0SKcXeX5zQ=' 'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.prod.mozaws.net https://fullstory.com`,
+  `script-src 'self' 'unsafe-eval' 'sha256-TEBuoeQjVIJIlj0uGgnIweazDG5TUKQQr0SKcXeX5zQ=' 'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.prod.mozaws.net https://fullstory.com https://edge.fullstory.com`,
   `font-src 'self' https://fonts.gstatic.com`,
-  `connect-src 'self' https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.prod.mozaws.net https://basket.mozilla.org https://basket-dev.allizom.org https://rs.fullstory.com`,
+  `connect-src 'self' https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.prod.mozaws.net https://basket.mozilla.org https://basket-dev.allizom.org https://rs.fullstory.com https://edge.fullstory.com`,
   `frame-src https://optimize.google.com`,
 ].join(';');
+
+Sentry.init({ dsn: getConfig().SENTRY_DSN });
 
 export default class Server {
   app: express.Application;
@@ -84,6 +88,9 @@ export default class Server {
 
     const app = (this.app = express());
 
+    // Enable Sentry request handler
+    app.use(Sentry.Handlers.requestHandler());
+
     if (PROD) {
       app.use(this.ensureSSL);
     }
@@ -102,7 +109,7 @@ export default class Server {
     });
 
     app.use(authRouter);
-    app.use('/_plugin/kibana', authMiddleware, (request, response, next) => {
+    app.use(KIBANA_PREFIX, authMiddleware, (request, response, next) => {
       const { KIBANA_URL: target, KIBANA_ADMINS } = getConfig();
       if (!target) {
         response
@@ -201,6 +208,9 @@ export default class Server {
       /(.*)/,
       express.static(FULL_CLIENT_PATH + '/index.html', staticOptions)
     );
+
+    // Enable Sentry error handling
+    app.use(Sentry.Handlers.errorHandler());
 
     app.use(
       (

@@ -76,6 +76,7 @@ izh = Ingriu
 ja = Xaponés
 ka = Xeorxanu
 kab = Cabilu
+kbd = Cabardianu
 kk = Kazaxu
 ko = Coreanu
 kpv = Komi
@@ -93,6 +94,7 @@ ml = Malayalam
 mn = Mongol
 mrj = Mari de les Llombes
 mt = Maltés
+my = Birmanu
 myv = Erzya
 nb-NO = Bokmål noruegu
 ne-NP = Nepalín
@@ -110,6 +112,7 @@ ru = Rusu
 rw = Kiñaruanda
 sah = Sakha
 sc = Sardu
+scn = Sicilianu
 si = Cingalés
 sk = Eslovacu
 sl = Eslovenu
@@ -122,6 +125,7 @@ ta = Tamil
 te = Telugu
 tg = Taxiku
 th = Tailandés
+tl = Tagalu
 tr = Turcu
 tt = Tatar
 uby = Ubix
@@ -129,6 +133,7 @@ udm = Udmurtu
 uk = Ucraín
 ur = Urdu
 uz = Uzbecu
+vec = Venecianu
 vi = Vietnamita
 vot = Vóticu
 zh-CN = Chinu (China)
@@ -186,7 +191,7 @@ wall-of-text-second =
 show-wall-of-text = Lleer más
 help-us-title = ¡Ayúdanos a validar les frases!
 help-us-explain = Primi'l botón de reproducción, sienti y dinos: ¿la grabación correspuende a la fras d'embaxo?
-no-clips-to-validate = Paez que nesta llingua nun hai dengún clip pa sentir. Ayúdanos a enllenar la cola grabando daqué agora.
+no-clips-to-validate = Paez que nesta llingua nun hai nengún clip pa sentir. Ayúdanos a enllenar la cola grabando daqué agora.
 vote-yes = Sí
 vote-no = Non
 toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reproducción
@@ -357,7 +362,7 @@ about-avatar-clip-recording = Crea un clip de voz pa incluyilu y que la demás x
 browse-file-title = Xuba d'un ficheru
 browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
 connect-gravatar = Coneutar con Gravatar
-gravatar_not_found = Nun s'alcontró dengún gravatar del corréu
+gravatar_not_found = Nun s'alcontró nengún gravatar del corréu
 file_too_large = El ficheru esbilláu ye pergrande
 manage-subscriptions = Xestión de les soscripciones
 email-already-used = El corréu yá s'usa nuna cuenta diferente
@@ -416,7 +421,7 @@ faq-what-determine-identity-q = ¿Qué significa que nun pueo «determinar la id
 faq-what-determine-identity-a =
     El conxuntu de datos de Common Voice ye un recursu públicu y abiertu que pue usase pa entrenar a una montonera d'aplicaciones qu'usen la voz. Pa protexer la seguranza de los nuesos collaboradores, pidimos a tol mundu que baxe esti conxuntu de datos que respete la so privacidá.
     
-    Tolos clips de voz del conxuntu de datos analícense pa desaniciar cualesquier información identificativa. Cuando baxes el conxuntu de datos comprométeste a que nun vas tentar d'identificar a dengún collaborador. Eso significa que nun vas poder rellacionar la información del conxuntu de datos cola información personal de los collaboradores. Por embargu, vas poder usar esta información pa entrenar la reconocencia de voz, la reconocencia de falantes u otres aplicaciones, por exemplu, enllazando la información del conxuntu de datos con otra información que yá heba ehí.
+    Tolos clips de voz del conxuntu de datos analícense pa desaniciar cualesquier información identificadora. Cuando baxes el conxuntu de datos comprométeste a que nun vas tentar d'identificar a nengún collaborador. Eso significa que nun vas poder rellacionar la información del conxuntu de datos cola información personal de los collaboradores. Por embargu, vas poder usar esta información pa entrenar la reconocencia de voz, la reconocencia de falantes u otres aplicaciones, por exemplu, enllazando la información del conxuntu de datos con otra información que yá heba ehí.
 faq-what-is-cv = ¿Qué ye Common Voice?
 faq-using-cv = Usu de Common Voice
 faq-description = Common Voice ye parte de la iniciativa de Mozilla pa deprende-yos a les máquines cómo falamos los humanos.
@@ -456,8 +461,13 @@ about-partnership =
 about-get-involved = Andecha
 about-get-involved-text =
     ¿Quies ayudar a facer que Common Voice seya meyor?
-    ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>,
-    unvia comentarios per <githubLink>GitHub</githubLink> o xúnite a nós en <slackLink>Slack</slackLink>.
+    ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>, unvia comentarios per <githubLink>GitHub</githubLink> o xúnite
+    a nós en <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    ¿Quies ayudar a ameyorar Common Voice entá más?
+    ¡Xenial! Contauta per corréu o en <discourseLink>Discourse</discourseLink>,
+    unvia comentarios pente <githubLink>GitHub</githubLink>,
+    o xúnite a nós en <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
@@ -566,6 +576,7 @@ go-languages-page = Dir a la páxina de llingües
 ready-to-validate = ¿Tas preparáu p'ayudanos a validar frases?
 more = Más
 close = Zarrar
+download = Baxar
 dataset-version = Versión
 
 ## Download Modal

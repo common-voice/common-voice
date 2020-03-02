@@ -52,7 +52,7 @@ export default function ProgressCard({
 
   const overallGoal = DAILY_GOAL[type];
   const isSpeak = type == 'speak';
-  const customGoal = customGoals.find(g => g.locale == locale);
+  const customGoal = customGoals?.find(g => g.locale == locale);
   const currentCustomGoal = customGoal ? customGoal.current[type] : undefined;
   const hasCustomGoalForThis = currentCustomGoal !== undefined;
   const goalsPath = URLS.DASHBOARD + (locale ? '/' + locale : '') + URLS.GOALS;
@@ -95,11 +95,7 @@ export default function ProgressCard({
           ) : (
             !customGoal && (
               <Localized id="create-custom-goal">
-                <LinkButton
-                  className="custom-goal-button"
-                  rounded
-                  to={goalsPath}
-                />
+                <LinkButton rounded to={goalsPath} />
               </Localized>
             )
           )}

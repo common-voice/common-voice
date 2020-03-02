@@ -287,7 +287,6 @@ skip-submission-feedback = דילוג על משוב הגשה
 skip-submission-note = לתשומת לבך: עדיין יהיה עליך לבחור בין דיבור להאזנה כדי לשנות את סוג התרומה.
 off = כבוי
 on = פעיל
-add-avatar-title = הוספת דמות מייצגת לפרופיל שלך
 browse-file-title = העלאת קובץ תמונה
 browse-file = ניתן לגרור ולהשליך לכאן או <browseWrap>לעיין</browseWrap>
 connect-gravatar = התחברות עם Gravatar

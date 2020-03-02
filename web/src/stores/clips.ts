@@ -182,9 +182,11 @@ export namespace Clips {
         };
 
       case ActionType.REFILL_CACHE: {
-        const clips = action.clips
-          ? localeState.clips.concat(action.clips)
-          : localeState.clips;
+        const clips = localeState
+          ? action.clips
+            ? localeState.clips.concat(action.clips)
+            : localeState.clips
+          : [];
         const next = localeState.next || clips.shift();
         return {
           ...state,

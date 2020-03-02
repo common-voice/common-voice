@@ -76,6 +76,7 @@ izh = ingrià
 ja = japonès
 ka = georgià
 kab = cabilenc
+kbd = kabardí
 kk = kazakh
 ko = coreà
 kpv = komi

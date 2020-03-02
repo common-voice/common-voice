@@ -11,7 +11,7 @@ loading = Lade…
 email-opt-in-info = Ik wol graach e-mailberjochten lykas oantinkens oan doelstellingen, myn foartgong en nijsbrieven oer Common Voice ûntfange.
 email-opt-in-info-title = Meld jo oan foar de Common Voice-mailinglist
 email-opt-in-info-sub-with-challenge = Untfang e-mailberjochten lykas oantinkens oan útdagingen en doelstellingen, foartgong en nijsbrieven oer Common Voice.
-email-opt-in-privacy = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoard gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied<privacyLink>.
+email-opt-in-privacy = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoart gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied<privacyLink>.
 indicates-required = * jout fereaske fjild oan
 not-available-abbreviation = NB
 
@@ -75,6 +75,7 @@ it = Italiaansk
 izh = Izjorysk
 ja = Japansk
 ka = Georgysk
+kaa = Karakalpaksk
 kab = Kabylysk
 kbd = Kabardysk
 kk = Kazaksk
@@ -83,6 +84,7 @@ kpv = Kom-Zyrian
 ku = Koerdysk
 kw = Kornish
 ky = Kirgizysk
+lg = Luganda
 lij = Ligurysk
 lt = Litousk
 lv = Letsk
@@ -94,6 +96,7 @@ ml = Malayalam
 mn = Mongoalsk
 mrj = Berch-Mari
 mt = Malteesk
+my = Burmeesk
 myv = Erzja
 nb-NO = Noarsk Bokmål
 ne-NP = Nepaleesk
@@ -111,6 +114,7 @@ ru = Russysk
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardyn
+scn = Sisiliaansk
 si = Singaleesk
 sk = Slowaaksk
 sl = Sloveensk
@@ -123,6 +127,7 @@ ta = Tamilsk
 te = Telugu
 tg = Tadzjyksk
 th = Taisk
+tl = Tagalog
 tr = Turksk
 tt = Tatarsk
 uby = Oebyksk
@@ -130,6 +135,7 @@ udm = Oedmoertsk
 uk = Oekraynsk
 ur = Urdu
 uz = Oezbeeksk
+vec = Fenetiaansk
 vi = Fjetnameesk
 vot = Wotysk
 zh-CN = Sineesk (Sina)
@@ -154,7 +160,7 @@ terms = Betingsten
 cookies = Cookies
 faq = FAQ
 content-license-text = Ynhâld beskikber ûnder in <licenseLink>Creative Commons-lisinsje</licenseLink>
-share-title = Help ús oaren te finen om harren stim te donearjen!
+share-title = Help ús oaren te finen "dy't harren stim donearje wolle!
 share-text = Help mei masinen te learen hoe't echte minsken prate, donearje jo stim op { $link }
 link-copied = Keppeling kopiearre
 back-top = Nei boppe
@@ -173,7 +179,7 @@ wall-of-text-more-mobile =
     dat dat ynnovaasje behinderet. Dêrom hawwe wy it projekt Common Voice lansearre, in projekt om
     spraakwerkenning foar elkenien tagonklik te meitsjen.
 wall-of-text-more-desktop =
-    No kinne jo jo stim donearje om ús te helpen in iepen-boarne stimdatabase te meitsjen dy't elkenien brûke kin
+    No kinne jo jo stim donearje om ús te helpen in iepen boarne stimdatabase te meitsjen dy't elkenien brûke kin
     om ynnovative apps te meitsjen foar apparaten en it web.<lineBreak></lineBreak>
     Lês in sin om masinen te learen hoe't echte minsken sprekke. Kontrolearje it wurk fan oare
     dielnimmers om de kwaliteit te ferbetterjen. Sa ienfâldich is it!
@@ -323,7 +329,7 @@ profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om 
 thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
 why-demographic = Wêrom is dit wichtich?
 why-demographic-explanation = Anonime brûkersgegevens lykas leeftyd, geslacht en aksint helpe de audiogegevens dy't foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
-accept-privacy = Ik gean akkoard mei hoe't jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
+accept-privacy = Ik gean akkoart mei hoe't jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 accept-privacy-title = Privacybelied
 login-identity = Oanmeldingsidentiteit
 login-signup = Oanmelde / Registrearje
@@ -354,7 +360,7 @@ about-avatar-clip-recording = Meitsje in spraakfragmint as ûnderdiel fan jo pro
 browse-file-title = In ôfbyldingsbestân oplade
 browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
 connect-gravatar = Mei Gravatar ferbine
-gravatar_not_found = Foar jo e-mailadres waard gjin Gravatar fûn
+gravatar_not_found = Ggjin gravatar foar jo e-mailadres fûn
 file_too_large = It selektearre bestân is te grut
 manage-subscriptions = Abonneminten beheare
 manage-email-subscriptions = E-mailabonneminten beheare
@@ -369,7 +375,7 @@ faq-what-cv-q = Wat is Common Voice?
 faq-what-cv-a =
     Spraakwerkenningstechnology is in revolúsje yn de manier wêrop wy omgean mei masinen, mar de op dit stuit beskikbere systemen binne djoer en ôfskerme. Common Voice is ûnderdiel fan Mozilla’s inisjatyf om spraakwerkenningstechnologyen better en foar elkenien tagonkliker te meitsjen. Common Voice is in enoarme wrâldwide database fan donearre stimmen, wêrmei't elkenien fluch en ienfâldich spraakstjoerde apps yn potinsjeel elke taal traine kin.
     
-    Wy sammelje net allinnich spraakfragminten yn faak sprutsen talen, mar ek yn dy mei in lytser tal sprekkers. Troch in diverske gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken. Neist de Common Voice-gegevensset bouwe wy ek in iepenboarnce-spraakwerkenningsprogramma mei de namme Deep Speech.
+    Wy sammelje net allinnich spraakfragminten yn faak sprutsen talen, mar ek yn dy mei in lytser tal sprekkers. Troch in diverske gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken. Neist de Common Voice-gegevensset bouwe wy ek in iepenboarne-spraakwerkenningsprogramma mei de namme Deep Speech.
 faq-why-important-q = Wêrom is it wichtich?
 faq-why-important-a =
     Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy't nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hoopje dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
@@ -382,7 +388,7 @@ faq-when-release2-a = De meartalige ferzje fan de Common Voice-gegevensset wurdt
 faq-why-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
 faq-why-mission-a = Mozilla wijt harren oan it foar elkenien iepen en tagonklik hâlden fan it ynternet. Om dat te dwaan, moatte wy webmakkers middelen jaan mei projekten as Common Voice. Omdat spraaktechnologyen hieltyd mear tapast wurde, leauwe wy dat se foar alle brûkers beskikber wêze moatte. Dat betsjut ynvestearje yn mear talen, en romte biede foar ferskate aksinten en befolkingsferskillen by it bouwen en testen fan spraaktechnologyen. Common Voice is in foar elkenien beskikbere publike boarne, en Mozilla-teams en ûntwikkelers oer de hiele wrâld brûke it ek al foar ús eigen projekten.
 faq-what-cv-and-deepspeech-q = Wat is it ferskil tusken Common Voice en Deep Speech?
-faq-what-cv-and-deepspeech-a = De Common Voice-gegevensset is in oanfolling op Mozilla’s opensource-spraakwerkenningsengine Deep Speech. De earste ferzje fan Deep Speech waard útbrocht yn novimber 2017 en is sûnttiid bliuwe evoluearje. Wy fine dat dizze iepenboarne-spraakwerkenningstechnology tegearre mei de Common Voice-gegevensset foar elkenien beskikber wêze moat. Us hoop is dat dizze technologyen ûntwikkelers de mooglikheid jaan in golf fan ynnovative produkten en tsjinsten te bouwen.
+faq-what-cv-and-deepspeech-a = De Common Voice-gegevensset is in oanfolling op Mozilla’s opensource-spraakwerkenningsmasine Deep Speech. De earste ferzje fan Deep Speech waard útbrocht yn novimber 2017 en is sûnttiid troch evoluearre. Wy fine dat dizze iepenboarne-spraakwerkenningstechnology tegearre mei de Common Voice-gegevensset foar elkenien beskikber wêze moat. Us hoop is dat dizze technologyen ûntwikkelers de mooglikheid jaan in golf fan ynnovative produkten en tsjinsten te bouwen.
 faq-is-goal-assistant-q = Is it doel fan Common Voice om in spraakassistint te bouwen?
 faq-is-goal-assistant-a = It doel fan de Common Voice-gegevensset is om elkenien yn de wrâld de mooglikheid te jaan spraakwerkenning, sprekkerwerkenning of elk oar type tapassing te meitsjen wêrfoar spraakgegevens nedich binne. In spraakassistint is mar ien fan mear soarten fan tapassingen dy't jo mei help fan de gegevensset bouwe kinne.
 faq-do-want-native-q = Ik bin in net-memmetaalsprekker en ik sprek mei in aksint. Wolle jimme dochs myn stim?
@@ -414,7 +420,7 @@ faq-what-determine-identity-q = Wat betsjut it dat ik “de identiteit” fan sp
 faq-what-determine-identity-a =
     De Common Voice-gegevensset is in frij tagonklike en iepenbiere boarne dy't brûkt wurde kin om in breed skala oan spraakstjoerde tapassingen te trainen. Om de feilichheid fan ús meiwurkers te beskermen, freegje wy elkenien dy't de Common Voice-gegevensset downloadt om de privacy fan de meiwurkers te respektearjen.
     
-    Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear't jo de gegevensset downloade, geane jo dermei akkoard net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy't al yn de gegevensset stiet.
+    Alle spraakfragminten yn de gegevensset wurde skjinne fan persoanlik identifisearbere gegevens. Wannear't jo de gegevensset downloade, geane jo dermei akkoart net te probearjen de identiteit fan in meiwurker te bepalen. Dat betsjut dat jo net probearje meie om gegevens yn de gegevensset oan de persoanlike ynformaasje fan in meiwurker te keppeljen. Jo meie de gegevensset echter wol brûke om spraakwerkenning, sprekkerwerkenning of oare tapassingen te trainen, bygelyks troch gegevens yn de gegevensset te keppeljen oan oare ynformaasje dy't al yn de gegevensset stiet.
 faq-what-is-cv = Wat is Common Voice?
 faq-using-cv = Common Voice brûke
 faq-description = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke.
@@ -433,17 +439,17 @@ how-does-it-work-text = Wy crowdsource in iepen boarne stimgegevensset. Donearje
 about-speak = Sprek
 about-speak-text = Bydragers nimme spraakfragminten op troch te lêzen fan in databank mei donearre sinnen.
 about-listen-queue = Harkwachtrige
-about-listen-queue-text = Spraakfragminten wurde ynfierd yn in yntsjinningswachtrige dêr't se klearstean om belustere te wurden.
+about-listen-queue-text = Spraakfragminten wurde ynfierd yn in yntsjinningswachtrige dêr't se klearstean om belústere te wurden.
 about-listen = Harkje
-about-listen-text = Brukers falidearje de sekuerens fan donearre fragminten en kontrolearje oft de sprekker de sin korrekt lêst.
+about-listen-text = Brûkers falidearje de sekuerens fan donearre fragminten en kontrolearje oft de sprekker de sin korrekt lêst.
 about-is-it-valid = Is it fragmint jildich?
-about-is-it-valid-text = In spraakfragmint wurdt markearre as ‘jildich’ wannear in brûker it in ja-stim jout.
+about-is-it-valid-text = In spraakfragmint wurdt markearre as ‘jildich’ wannear't in brûker it in ja-stim jout.
 about-yes-votes = ≥ 2 Ja-stimmen
 about-yes-votes-text = Om opnommen te wurden yn de Common Voice-gegevensset moat in fragmint falidearre wurde troch twa ôfsûnderlike brûkers.
 about-no-votes = ≥ 2 Gjin stimmen
-about-no-votes-text = Wannear in bruker in spraakfragmint ôfwiist, keart dizze werom nei de wachtrige. By in twadde ôfwizing wurdt it spraakfragmint ferpleatst nei it Fragmintetsjerkhôf.
+about-no-votes-text = Wannear in brûker in spraakfragmint ôfwiist, keart dit fragmint werom nei de wachtrige. By in twadde ôfwizing wurdt it spraakfragmint ferpleatst nei it Fragmintetsjerkhôf.
 about-dataset-new = Common Voice-gegevensset
-about-dataset-new-text = De Common Voice-gegevensset befettet hûnderttûzenen spraakfragminten dy't ûntwikkelers spraakwerkenningshelpmiddelen helpe bouwe.
+about-dataset-new-text = De Common Voice-gegevensset befettet hûnderttûzenen spraakfragminten dy't ûntwikkelers helpe spraakwerkenningshelpmiddelen te bouwen.
 about-clip-graveyard = Fragmintetsjerkhôf
 about-clip-graveyard-text = It Fragmintetsjerkhôf bestiet ut stimfragminten dy't de Common Voice-gegevensset net helle hawwe. Krekt as de gegevensset kin it Fragmintetsjerkhôf download wurde.
 about-partners = Partners
@@ -458,6 +464,11 @@ about-get-involved-text =
     Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>,
     jou kommentaar fia <githubLink>GitHub</githubLink>,
     of doch mei op <slackLink>Slack </slackLink>.
+about-get-involved-text-2020 =
+    Wolle jo Common Voice noch better helpe meitsje?
+    Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>,
+    jou kommentaar fia <githubLink>GitHub</githubLink>,
+    of doch mei op <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Wêrom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
@@ -505,9 +516,9 @@ data-bundle-button = Bondel gegevensset downloade
 data-bundle-description = Common Voice-gegevens plus alle oare boppesteande stimgegevenssets.
 license = Lisinsje: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mikst
-review-terms = Troch it brûken fan Common Voice, gean jo akkoard mei ús <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink>
-terms-agree = Ik gean akkoard
-terms-disagree = Ik gean net akkoard
+review-terms = Troch it brûken fan Common Voice, gean jo akkoart mei ús <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink>
+terms-agree = Ik gean akkoart
+terms-disagree = Ik gean net akkoart
 review-aborted = Oplaad ôfbrutsen. Wolle jo jo opnamen wiskje?
 review-submit-title = Beoardiele & yntsjinje
 review-submit-msg = Tank foar jo opname!<lineBreak></lineBreak>Beoardielje en tsjinje jo ûndersteande fragminten yn.
@@ -540,7 +551,7 @@ why-email = <b>Wêrom in e-mailadres?</b> Mooglik moatte wy jo yn de takomst oer
 confirm-size = Jo binne ree om in download te starten fan <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Jo geane dermei akkoard</b> om net te probearjen de identiteit fan sprekkers yn de Common Voice-gegevensset te achterheljen
+confirm-no-identify = <b>Jo geane dermei akkoart</b> om net te probearjen de identiteit fan sprekkers yn de Common Voice-gegevensset te achterheljen
 download-language = { $language } downloade
 validated-hours = Falidearre oeren:
 recorded-hours = Opnommen oeren
@@ -555,15 +566,15 @@ get-started-speech = Oan 'e gong mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
 deepspeech-info = De Common Voice-gegevensset is in oanfolling op Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, dy't jo brûke kinne om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
-common-voice-info-new = Hawwe jo fragen oer Common Voice? Ideeën foar ferbetteringen of kommentaar oer in spesifike taal? Praat mei op 'us <discourseLink>Discourse-foarum</discourseLink> en lit it 'us witte.
+common-voice-info-new = Hawwe jo fragen oer Common Voice? Ideeën foar ferbetteringen of kommentaar oer in spesifike taal? Praat mei op ús <discourseLink>Discourse-foarum</discourseLink> en lit it ús witte.
 data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
 data-other-voxforge-description = VoxForge is opset om ûndertitele spraak te sammeljen foar gebrûk mei Free en Open Source Speech Recognition Engines.
 data-other-tatoeba-description = Tatoeba is in grutte database mei sinnen, oersettingen, en sprutsen audio foar gebrûk yn it oanlearen fan taal. Dizze download befettet al it sprutsen Ingelsk opnommen troch harren mienskip.
-your-feedback = Hawwe jo ideeën oer hoe't wy de Common Voice gegevensset better meitsje kinne? Lit it ús witte op Discourse
+your-feedback = Hawwe jo ideeën oer hoe't wy de Common Voice gegevensset better meitsje kinne? Lit it ús witte op Discourse.
 go-discourse = Gean nei Discourse
-missing-language = Sjogge jo jo taal net yn de gegevensset reflektearre? Gean nei ús talenside om in taal oan te freegjen.
+missing-language = Sjogge jo jo taal net yn de gegevensset? Gean nei ús talenside om in taal oan te freegjen.
 go-languages-page = Gean nei talenside
 ready-to-validate = Ree om te helpen sinnen te falidearjen?
 more = Mear
@@ -620,7 +631,7 @@ total-hours = Oeren totaal
 ## Contribution
 
 action-click = Klik op
-action-tap = Tikke
+action-tap = Tik op
 contribute = Meiwurkje
 listen = Harkje
 skip = Oerslaan
@@ -654,11 +665,11 @@ record-abort-text = No stopje betsjut dat jo jo foarútgong kwytreitsje
 record-abort-submit = Fragminten yntsjinje
 record-abort-continue = Opname foltôgje
 record-abort-delete = Ofslute en fragminten fuortsmite
-listen-instruction = { $actionType } <playIcon></playIcon> waard de sin dúdlik útsprutsen?
+listen-instruction = { $actionType } <playIcon></playIcon> – is de sin dúdlik útsprutsen?
 listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear't jo klear binne
 listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!
 listen-last-time-instruction = <playIcon></playIcon> De lêste!
-nothing-to-validate = Wy hawwe yn dizze taal neat om te falidearjen, help ús de rige te foljen.
+nothing-to-validate = Wy hawwe yn dizze taal neat om te falidearjen, help ús mear stimmen te krijen.
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
 keep-track-profile = Hâld jo fuortgong by mei in profyl
@@ -793,7 +804,7 @@ profile-form-delete = Profyl fuortsmite
 ## Landing
 
 welcome-staff = Wolkom meiwurkers fan { $company }!
-help-contribute = Jo kinne in ferskate, iepen-boarne gegevensset helpe bouwe troch on Common Voice-profyl te meitsjen en jo stim te donearjen.
+help-contribute = Jo kinne in ferskate, iepen boarne gegevensset helpe bouwe troch on Common Voice-profyl te meitsjen en jo stim te donearjen.
 login-company = Oanmelde / ynskriuwe mei { $company }-e-mailadres
 profile-not-required = In profyl is net nedich om by te dragen, mar it kin wol nuttich wêze
 read-more-about = Mear ynfo op ús side Oer

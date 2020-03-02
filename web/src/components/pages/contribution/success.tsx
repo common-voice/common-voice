@@ -46,7 +46,7 @@ function Success({
 
   const hasAccount = Boolean(account);
   const customGoal =
-    hasAccount && account.custom_goals.find(g => g.locale == locale);
+    hasAccount && account.custom_goals?.find(g => g.locale == locale);
   const goalValue = DAILY_GOAL[type];
 
   const killAnimation = useRef(false);

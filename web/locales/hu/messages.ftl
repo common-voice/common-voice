@@ -75,13 +75,16 @@ it = Olasz
 izh = Izsór
 ja = Japán
 ka = Grúz
+kaa = Karakalpak
 kab = Kabil
+kbd = Kabardi
 kk = Kazak
 ko = Koreai
 kpv = Komi-zürjén
 ku = Kurd
 kw = Cornwalli
 ky = Kirgiz
+lg = Luganda
 lij = Ligur
 lt = Litván
 lv = Lett
@@ -93,6 +96,7 @@ ml = Malajálam
 mn = Mongol
 mrj = Hegyi mari
 mt = Máltai
+my = Burmai
 myv = Erza
 nb-NO = Norvég bokmål
 ne-NP = Nepáli
@@ -110,6 +114,7 @@ ru = Orosz
 rw = Ruandai
 sah = Szaha
 sc = Szárd
+scn = Szicíliai
 si = Szingaléz
 sk = Szlovák
 sl = Szlovén
@@ -122,6 +127,7 @@ ta = Tamil
 te = Telugu
 tg = Tádzsik
 th = Thai
+tl = Tagalog
 tr = Török
 tt = Tatár
 uby = Ubih
@@ -129,6 +135,7 @@ udm = Udmurt
 uk = Ukrán
 ur = Urdu
 uz = Üzbég
+vec = Velencei
 vi = Vietnámi
 vot = Vót
 zh-CN = Kínai (Kína)
@@ -450,6 +457,11 @@ about-get-involved-text =
     Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse-on</discourseLink>,
     küldjön visszajelzést a <githubLink>GitHubon</githubLink>,
     vagy csatlakozzon hozzánk a <slackLink>Slacken</slackLink>.
+about-get-involved-text-2020 =
+    Szeretné még jobbá tenni a Common Voice-ot?
+    Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse-on</discourseLink>,
+    küldjön visszajelzést a <githubLink>GitHubon</githubLink>,
+    vagy csatlakozzon hozzánk a <matrixLink>Matrixon</matrixLink>.
 about-nav-why-common-voice = Miért?
 about-nav-how-it-works = Hogyan?
 about-nav-partners = Partnerek

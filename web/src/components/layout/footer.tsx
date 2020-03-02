@@ -3,12 +3,7 @@ import { Localized } from 'fluent-react/compat';
 import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
 import ShareButtons from '../share-buttons/share-buttons';
-import {
-  ContactIcon,
-  DiscourseIcon,
-  GithubIcon,
-  SupportIcon,
-} from '../ui/icons';
+import { ContactIcon, DiscourseIcon, SupportIcon } from '../ui/icons';
 import { TextButton } from '../ui/ui';
 import { LocaleLink, useLocale } from '../locale-helpers';
 import Logo from './logo';
@@ -31,17 +26,12 @@ export default React.memo(() => {
   return (
     <footer>
       <div id="help-links">
-        <LocaleLink id="help" to={URLS.FAQ}>
+        <LocaleLink to={URLS.FAQ}>
           <SupportIcon />
-          <Localized id="help" onClick={() => trackNav('help', locale)}>
+          <Localized id="faq" onClick={() => trackNav('faq', locale)}>
             <div />
           </Localized>
         </LocaleLink>
-        <div className="divider" />
-        <GitHubLink id="contribute">
-          <GithubIcon />
-          <div>GitHub</div>
-        </GitHubLink>
         <div className="divider" />
         <DiscourseLink id="discourse">
           <DiscourseIcon />
@@ -76,15 +66,16 @@ export default React.memo(() => {
           <div>
             <LocalizedLocaleLink id="privacy" to={URLS.PRIVACY} />
             <LocalizedLocaleLink id="terms" to={URLS.TERMS} />
-          </div>
-          <div>
             <Localized id="cookies">
               <a
                 target="_blank"
                 href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
               />
             </Localized>
+          </div>
+          <div>
             <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
+            <GitHubLink>GitHub</GitHubLink>
           </div>
         </div>
 

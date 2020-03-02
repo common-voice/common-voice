@@ -1,11 +1,80 @@
+Aby sme mohli presne určiť hrozby v sieti v reálnom čase, potrebujeme funkčný firewall
+Aby sme túto úlohu mohli efektívne realizovať, je nevyhnutné postupovať podľa dopredu premysleného plánu.
+Administrátori musia disponovať technickými zdatnosťami z viacerých oblastí.
+Akákoľvek údržba systému je v danom prípade náročná.
+Aký je rozdiel medzi životom a smrťou?
+Budete disponovať potrebným vybavením na bezproblémový chod spoločnosti.
+Budú musieť prinajmenšom dočasne komunikovať pomalším protokolom.
+Chladenie ale nie je dostatočné, pretože miestnosť nemá vlastné chladenie.
+Dlhodobým zámerom je uniformita serverovej infraštruktúry orientovaním sa na jednu platformu.
+Dnes veľmi rozšírenou možnosťou je virtualizácia.
 Dobre sa Ty poobzeraj, či ťa niekto nešpehuje!
+Dá sa zvýšiť rýchlosť a odozva poskytovaných služieb?
+Dátovú infraštruktúru treba doplniť o výkonný a spoľahlivý hardvér.
 Ej bisťu, vieš sa Ty ale valaškou oháňať!
+Elektronické spracovanie údajov nám podstatne uľahčuje prácu a umožňuje nám efektívne pracovať s informáciami.
+Generačná výmena hardvéru je preto pomerne náročná.
+Hlavná serverovňa je pomerne malá čo obmedzuje ďalší rozvoj.
+Hlásenie o riešení ohrozenia bezpečnosti.
+Homogénne prostredie serverovej infraštruktúry tiež zjednodušuje rozhodovanie.
+Ich správa je v porovnaní s modernými produktami neporovnateľná.
+Informácie sa stali cennejšími ako zlato.
+Je klimatizovaná viacerými nezávislými klimatizačnými jednotkami.
+Je nevyhnutné udržiavať vyhradený počítač s proprietárnym operačným systémom a starým webovým prehliadačom.
 Krava sa mi otelila a v maštali už nieto miesta.
+Kvôli nedostatku vybavenia, sú prevádzkované menej kritické služby aj na starších serveroch.
+Len sa mu nevysmievaj aby si sa nesmial naposledy!
+Logické jednotky je možné pohodlne zväčšovať podľa aktuálnej potreby.
+Na jednom fyzickom serveri je prevádzkovaných viac služieb, ktoré zdieľajú ten istý operačný systém.
+Na základe adresy sa pokúsime lokalizovať človeka s možným malvérom v počítači.
+Napájanie je zabezpečené primeranou jednotkou nepretržitého napájania, no bez záložného generátora.
 Nebodaj by si chcela radšej Paľa ako Ďura?
 Nemám na výber.
+Nepretržité napájanie je zabezpečené centrálnym záložným zdrojom.
+Nevýhodou môže byť vyššia náročnosť na odbornú správu takéhoto dátového centra.
 No to som si mohol myslieť, že na Teba nie je spoľah.
+Novšie produkty je možné pohodlne spravovať prostredníctvom webového rozhrania.
 Nože uchop nožnice a vystrihni rukavice!
 Náklady na vybudovanie infraštruktúry sú niekoľkonásobne vyššie ako pri použití iných alternatív.
+Náklady na vybudovanie infraštruktúry sú niekoľkonásobne vyššie.
+Nároky na počet poskytovaných sieťových služieb v digitálnej spoločnosti neustále rastú.
+O umiestnení služieb na jednotlivé servery z dôvodu licenčnej politiky dodávateľov softvéru rozhoduje dodávateľ.
+Obracaj sa gazdiná, kým sa máš pre koho!
+On nám pomôže čo najefektívnejšie tieto požiadavky napĺňať.
+Používateľské rozhranie je závislé na archaickej verzii Javy.
+Počas špičiek nebol výkon a dostupnosť služieb výrazne obmedzený.
+Pre využitie všetkých dostupných možností je potrebné disponovať oddeleným dátovým úložiskom.
+Pre ďalší rozvoj je potrebné nahradiť zastarané serverové vybavenie.
+Prevádzkové údaje sú uložene na sieťových úložiskách.
+Pridáš sa a či budeš ďalej otáľať?
+Pripojenie do internetu pre študentov a zamestnancov prostredníctvom WiFi a pevného káblového pripojenia.
+Pustíme sa do zvyšovania kapacity diskových úložísk a prenosovej kapacity sieťovej infraštruktúry.
+Servery, ktoré nie sú súčasťou konkrétnej siete majú smolu.
+Sieťové úložiská a servery majú oddelenú infraštruktúru.
 Slovenčina zatiaľ v zbierke nefiguruje, ale pracuje sa na nej.
+Spolieha sa len na prirodzené vetranie.
+Spoliehame sa len na prestup tepla cez otvorené dvere do vedľajšej miestnosti.
+Staré diskové polia sú doslova produkty z minulého storočia.
+Sú prepojené opticky alebo metalicky.
+Tento dokument má za cieľ zvážiť akým spôsobom by sme túto úlohu mohli plniť.
+To so sebou nesie nutnosť priebežne investovať do modernizácie komunikačnej infraštruktúry.
+To umožňuje efektívnejšie narábať s prebytočným výpočtovým výkonom a dostupným diskovým priestorom.
+To umožňuje jednoduché škálovanie celkového potrebného výpočtového výkonu.
+To umožňuje vysokú flexibilitu konfigurácie jednotlivých serverov vzájomnou výmenou či dopĺňaním jednotlivých hardvérových komponentov.
+Treba robiť správne rozhodnutia, ktoré môžu znamenať ekonomickú výhodu.
+Treba vedieť ako ich skĺbiť do jedného komplexne fungujúceho celku.
+Umožňuje flexibilitu pri presune služby medzi jednotlivými servermi v prípade údržby hardvéru.
+V osobnom živote, ale azda ešte viac v dynamickom kolektíve modernej organizácie.
+V súčasnosti nemáme postačujúcu infraštruktúru.
 Vari by ju aj zmárnil, keby som neorodovala.
+Vie zaznamenávať všetky spojenia jednotlivých používateľov a ma zároveň dostatočnú priepustnosť.
+Vyšší počet komponentov spôsobí vyšší počet výpadkov v dôsledku zlyhania hardvéru.
 Vyšší počet komponentov zvyšuje pravdepodobnosť výpadkov v dôsledku zlyhania hardvéru.
+V letných mesiacoch tu dochádza pravidelne k prehrievaniu.
+Väčšina vybavenia je umiestnená centrálne na jednom mieste v serverovni.
+Výpočtový klaster využíva všetky výhody serverovej virtualizácie.
+Za touto adresou sa nachádza niekoľko stoviek počítačov.
+Zdroj napájania je v prípade dlhších výpadkov napojený na dieselový generátor.
+Zloženie látky nie je homogénne.
+Znižuje náklady na hardvérové vybavenie.
+Ďatelinku som pokosil, teraz mi treba iné obrábať.

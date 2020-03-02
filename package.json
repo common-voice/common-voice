@@ -9,14 +9,14 @@
     "http-status-codes": "^1.4.0",
     "ms": "^2.1.1",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.7"
+    "request-promise-native": "^1.0.8"
   },
   "devDependencies": {
-    "concurrently": "^5.0.2",
-    "husky": "^3.1.0",
+    "concurrently": "^5.1.0",
+    "husky": "^4.2.1",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
-    "typescript": "3.7.3"
+    "typescript": "3.7.5"
   },
   "workspaces": [
     "common",
@@ -29,12 +29,12 @@
   "resolutions": {
     "cryptiles": "4.1.2",
     "event-stream": "3.3.4",
-    "@types/react": "16.8.19"
+    "@types/react": "16.9.19"
   },
   "scripts": {
     "build": "concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",
     "import-locales": "node scripts/import-locales",
-    "lint": "prettier **/*.ts **/*.tsx",
+    "lint": "prettier \"**/*.{ts,tsx}\"",
     "prettier": "yarn lint --write",
     "start": "concurrently -p \"[{name}]\" -n \"BE,FE\" -c \"bgBlue.bold,bgMagenta.bold\" \"cd server && yarn start\" \"cd web && yarn dev\"",
     "start:prod": "node server/js/server.js",

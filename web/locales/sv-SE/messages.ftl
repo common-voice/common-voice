@@ -75,6 +75,7 @@ it = Italienska
 izh = Ingriska
 ja = Japanska
 ka = Georgiska
+kaa = Karakalpakiska
 kab = Kabyliska
 kbd = Kabardinska
 kk = Kazakstanska
@@ -83,6 +84,7 @@ kpv = Komi-syrjänska
 ku = Kurdiska
 kw = Korniska
 ky = Kirgiziska
+lg = Luganda
 lij = Liguriska
 lt = Litauiska
 lv = Lettiska
@@ -94,6 +96,7 @@ ml = Malayalam
 mn = Mongoliska
 mrj = Västmariska
 mt = Maltesiska
+my = Burmesiska
 myv = Erzya
 nb-NO = Norska Bokmål
 ne-NP = Nepali
@@ -111,6 +114,7 @@ ru = Ryska
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardiska
+scn = Sicilianska
 si = Singalesiska
 sk = Slovakiska
 sl = Slovenska
@@ -123,6 +127,7 @@ ta = Tamilska
 te = Telugu
 tg = Tadzjikiska
 th = Thailändska
+tl = Tagalog
 tr = Turkiska
 tt = Tatariska
 uby = Ubychiska
@@ -130,6 +135,7 @@ udm = Udmurtiska
 uk = Ukrainska
 ur = Urdu
 uz = Uzbekistanska
+vec = Venetianska
 vi = Vietnamesiska
 vot = Votiska
 zh-CN = Kinesiska (Kina)
@@ -451,6 +457,11 @@ about-get-involved-text =
     Bra! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
     skicka in återkoppling via <githubLink>GitHub</ githubLink>,
     eller gå med oss på <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Vill du hjälpa till att göra Common Voice ännu bättre?
+    Bra! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
+    skicka in återkoppling via <githubLink>GitHub</ githubLink>,
+    eller gå med oss på <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Varför ?
 about-nav-how-it-works = Hur ?
 about-nav-partners = Partners
@@ -518,7 +529,7 @@ datasets-positioning =
     
     Common Voices flerspråkiga datamängd är redan den största offentligt tillgängliga röstdatamängden av sitt slag, men den är inte den enda.
     
-    Titta på den här sidan som referensnav för andra datakällor med öppen källkod och, eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
+    Titta på den här sidan som referensnav för andra datakällor med öppen källkod och eftersom Common Voice fortsätter att växa, ett hem för våra uppdateringar.
 language = Språk
 # File size in gigabytes
 size = Storlek
@@ -619,7 +630,7 @@ listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
 clips-with-count = <bold>{ $count }</bold> klipp
-goal-help-recording = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
+goal-help-recording = Du har hjälpt Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
 goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
 contribute-more =
     { $count ->

@@ -75,13 +75,16 @@ it = Itala
 izh = Iĵora
 ja = Japana
 ka = Kartvela
+kaa = Karakalpaka
 kab = Kabila
+kbd = Kabarda
 kk = Kazaĥa
 ko = Korea
 kpv = Komiziriana
 ku = Kurda
 kw = Korniŝa
 ky = Kirgiza
+lg = Ganda
 lij = Ligura
 lt = Litova
 lv = Latva
@@ -93,6 +96,7 @@ ml = Malajalama
 mn = Mongola
 mrj = Okcidentmaria
 mt = Malta
+my = Birma
 myv = Erzja
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
@@ -110,6 +114,7 @@ ru = Rusa
 rw = Ruanda
 sah = Jakuta
 sc = Sarda
+scn = Sicilia
 si = Sinhala
 sk = Slovaka
 sl = Slovena
@@ -122,6 +127,7 @@ ta = Tamila
 te = Telugua
 tg = Taĝika
 th = Taja
+tl = Tagaloga
 tr = Turka
 tt = Tatara
 uby = Ubiĥa
@@ -129,6 +135,7 @@ udm = Udmurta
 uk = Ukraina
 ur = Urdua
 uz = Uzbeka
+vec = Venecia
 vi = Vjetnama
 vot = Vota
 zh-CN = Ĉina (Ĉinio)
@@ -364,12 +371,16 @@ faq-where-src-from-2-q = El kie venas la fonta teksto?
 faq-why-account-q = Kial mi devus krei konton?
 faq-is-account-public-q = Ĉu la informoj de mia konto estas publikaj?
 faq-how-privacy-q = Kiel vi certigas anonimecon kaj privatecon de la personoj, kiuj donacis siajn voĉojn?
+faq-what-is-cv = Kio estas Common Voice?
 
 ## ABOUT US
 
 about-title = Kial Common Voice?
 how-does-it-work-title = Kiel ĝi funkcias?
 about-speak = Paroli
+about-listen-queue = Vico de aŭskulto
+about-listen = Aŭskulti
+about-clip-graveyard = Tombejo de voĉregistroj
 about-partners = Asociitoj
 about-become-a-partner = Iĝi asociito
 about-get-involved = Partopreni
@@ -549,6 +560,7 @@ listen-last-time-instruction = <playIcon></playIcon>Lasta!
 nothing-to-validate = Ni ne havas ion ajn por validigi en tiu ĉi lingvo, helpu nin aldoni kelkajn registrojn al la atendovico.
 record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
+login-to-get-started = Komencu seancon aŭ enskribiĝu por ekuzi
 
 ## Reporting
 
@@ -578,6 +590,11 @@ days =
         [one] tago
        *[other] tagoj
     }
+recordings =
+    { $count ->
+        [one] Registro
+       *[other] Registroj
+    }
 validations =
     { $count ->
         [one] Validigo
@@ -586,10 +603,13 @@ validations =
 
 ## Dashboard
 
+your-languages = Viaj lingvoj
 clips-you-recorded = Viaj voĉregistroj
 clips-you-validated = Viaj revizioj
 todays-recorded-progress = Hodiaŭa progreso de Common Voice rilate al voĉregistroj
 todays-validated-progress = Hodiaŭa progreso de Common Voice rilate al validigoj
+stats = Statistikoj
+awards = Premioj
 you = Vi
 everyone = Ĉiuj
 contribution-activity = Kontribuoj
@@ -599,6 +619,40 @@ validated-clips = Validigitaj voĉregistroj
 
 ## Custom Goals
 
+both-speak-and-listen = Ambaŭ
+both-speak-and-listen-long = Ambaŭ (kaj paroli kaj aŭskulti)
+daily-goal = Ĉiutaga celo
+weekly-goal = Ĉiusemajna celo
+easy-difficulty = Facila
+average-difficulty = Normala
+difficult-difficulty = Malfacila
+pro-difficulty = Profesia
+lose-goal-progress-warning = Se vi modifas vian celon, vi povus perdi vian nuna progreson.
+want-to-continue = Ĉu vi volas daŭrigi?
+finish-editing = Ĉu vi volas unue fini la modifojn?
+lose-changes-warning = Se vi foriras nun vi perdos viajn ŝanĝojn
+build-custom-goal = Difini personecigitan celon
+set-a-goal = Difini celon
+cant-decide = Ĉu vi ne povas decidi?
+activity-needed-calculation = Oni povas atingi { NUMBER($totalHours) } horojn post iom pli ol { NUMBER($periodMonths) } monatoj se { NUMBER($people) } personoj registras po { NUMBER($clipsPerDay) } voĉregistrojn  ĉiutage.
+how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
+how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
+which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?
+n-clips = { NUMBER($count) } voĉregistroj
+confirm-goal = Konfirmi celon
+goal-interval-weekly = Semajne
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Kundividu vian ĉiutagan celon, { $count } voĉregistroj { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Kundividu vian ĉiusemajnan celon, { $count } voĉregistroj { $type }
+share-goal-type-speak = Parolante
+share-goal-type-listen = Aŭskultante
+share-goal-type-both = Parolante kaj aŭskultante
+weekly-goal-created = Via ĉiusemajna celo estis kreita
+daily-goal-created = Via ĉiutaga celo estis kreita
+track-progress = Sekvu vian progreson ĉi tie kaj en la paĝo pri statistikoj.
+return-to-edit-goal = Revenu ĉi tien por modifi vian celon, iam ajn.
+share-goal = Kundividi mian celon
 
 ## Profile Delete
 
@@ -609,4 +663,6 @@ profile-form-delete = Forigi profilon
 ## Landing
 
 welcome-staff = Estu bonvenaj, laboristoj de { $company }!
+login-company = Komencu seancon / registriĝu per retpoŝta adreso de { $company }
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
+read-more-about = Pli da informo en la paĝo: Pri Common Voice

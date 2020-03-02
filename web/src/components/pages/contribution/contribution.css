@@ -185,11 +185,8 @@
     }
 
     & .instruction {
-        display: flex;
         margin-top: 23px;
         min-height: 23px;
-        justify-content: center;
-        align-items: center;
         font-style: italic;
         color: var(--near-black);
 
@@ -203,14 +200,9 @@
         }
 
         & svg {
-            display: none;
             margin: 0 10px 0 16px;
             width: 23px;
             height: 23px;
-
-            @media (--md-up) {
-                display: initial;
-            }
         }
     }
 

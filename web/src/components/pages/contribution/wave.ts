@@ -105,7 +105,11 @@ let framesInLastSecond: number[] = [];
 
 export default class Wave {
   private amplitude = IDLE_AMPLITUDE;
-  private colors = [[89, 203, 183], [177, 181, 229], [248, 144, 150]];
+  private colors = [
+    [89, 203, 183],
+    [177, 181, 229],
+    [248, 144, 150],
+  ];
   private ctx: CanvasRenderingContext2D;
   private curves: Curve[];
   private shouldDraw = false;

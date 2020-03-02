@@ -75,13 +75,16 @@ it = Tiếng Ý
 izh = Tiếng Izhorian
 ja = Tiếng Nhật
 ka = Tiếng Gruzia
+kaa = Tiếng Karakalpak
 kab = Tiếng Kabyle
+kbd = Tiếng Kabardian
 kk = Tiếng Kazakh
 ko = Tiếng Hàn
 kpv = Tiếng Komi-Zyria
 ku = Tiếng Kurdish
 kw = Tiếng Cornwall
 ky = Tiếng Kyrgyz
+lg = Tiếng Luganda
 lij = Tiếng Ligurian
 lt = Tiếng Litva
 lv = Tiếng Latvia
@@ -93,6 +96,7 @@ ml = Tiếng Malayalam
 mn = Tiếng Mông Cổ
 mrj = Tiếng Mari Tây
 mt = Tiếng Malta
+my = Tiếng Miến Điện
 myv = Tiếng Erzya
 nb-NO = Tiếng Na Uy Bokmål
 ne-NP = Tiếng Nepal
@@ -110,6 +114,7 @@ ru = Tiếng Nga
 rw = Tiếng Kinyarwanda
 sah = Tiếng Sakha
 sc = Tiếng Sardinia
+scn = Tiếng Sicilian
 si = Tiếng Sinhala
 sk = Tiếng Slovakia
 sl = Tiếng Slovenia
@@ -122,6 +127,7 @@ ta = Tiếng Tamil
 te = Tiếng Telugu
 tg = Tiếng Tajik
 th = Tiếng Thái
+tl = Tiếng Tagalog
 tr = Tiếng Thổ Nhĩ Kỳ
 tt = Tiếng Tatar
 uby = Tiếng Ubykh
@@ -129,6 +135,7 @@ udm = Tiếng Udmurt
 uk = Tiếng Ukraina
 ur = Tiếng Urdu
 uz = Tiếng Uzbek
+vec = Tiếng Venetian
 vi = Tiếng Việt
 vot = Tiếng Votic
 zh-CN = Tiếng Trung (Trung Quốc)
@@ -443,6 +450,11 @@ about-get-involved-text =
     Tuyệt quá! Hãy liên lạc qua email hoặc trên <discourseLink>Discourse</discourseLink>,
     gửi phản hồi thông qua <githubLink>GitHub</githubLink>,
     hoặc tham gia với chúng tôi trên <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Bạn muốn giúp làm cho Common Voice trở nên tốt hơn?
+    Tuyệt quá! Hãy liên lạc qua email hoặc trên <discourseLink>Discourse</discourseLink>,
+    gửi phản hồi thông qua <githubLink>GitHub</githubLink>,
+    hoặc tham gia với chúng tôi trên <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Tại sao ?
 about-nav-how-it-works = Làm thế nào ?
 about-nav-partners = Đối tác

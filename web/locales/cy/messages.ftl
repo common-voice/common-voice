@@ -75,13 +75,16 @@ it = Eidaleg
 izh = Izhorieg
 ja = Japanëeg
 ka = Georgeg
+kaa = Karakalpak
 kab = Kabyle
+kbd = Kabardieg
 kk = Casac
 ko = Corëeg
 kpv = Komi-Zyrian
 ku = Cwrdeg
 kw = Cernyweg
 ky = Kyrgyz
+lg = Luganda
 lij = Ligurieg
 lt = Lithiuanieg
 lv = Latfieg
@@ -93,6 +96,7 @@ ml = Malayalam
 mn = Mongolieg
 mrj = Mari Gorllewinol
 mt = Malteg
+my = Byrmaneg
 myv = Erzya
 nb-NO = Bokmål Norwyeg
 ne-NP = Nepaleg
@@ -110,6 +114,7 @@ ru = Rwsieg
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardinieg
+scn = Sisilieg
 si = Sinhala
 sk = Slofaceg
 sl = Slofeneg
@@ -122,6 +127,7 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Thai
+tl = Tagalog
 tr = Twrceg
 tt = Tartareg
 uby = Ubykh
@@ -129,6 +135,7 @@ udm = Udmurt
 uk = Wcraneg
 ur = Urdu
 uz = Wsbeceg
+vec = Venetieg
 vi = Fietnameg
 vot = Votig
 zh-CN = Tsieinëeg (Tsiena)
@@ -464,6 +471,11 @@ about-get-involved-text =
     Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
     cyflwyno adborth trwy <githubLink>GitHub</githubLink>,
     neu ymunwch â ni ar <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Eisiau helpu i wneud Common Voice well fyth?
+    Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
+    cyflwynwch adborth trwy <githubLink>GitHub</githubLink>,
+    neu ymunwch â ni ar <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Pam ?
 about-nav-how-it-works = Sut ?
 about-nav-partners = Partneriaid
@@ -664,7 +676,7 @@ listen-instruction = { $actionType }<playIcon></playIcon> os ydyn nhw wedi yngan
 listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
-nothing-to-validate = Nid oes gennym unrhyw beth i ddilysu'r iaith hon, helpwch ni i lanw'r ciw
+nothing-to-validate = Nid oes gennym unrhyw beth i'w ddilysu yn yr iaith hon, helpwch ni i lanw'r ciw.
 record-button-label = Recordio eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil
@@ -748,7 +760,7 @@ show-ranking = Dangoswch fy safle
 ## Custom Goals
 
 get-started-goals = Cychwyn gyda thargedau
-create-custom-goal = Creu Targed Cyfaddas
+create-custom-goal = Creu Targed Personol
 both-speak-and-listen = Y Ddau
 both-speak-and-listen-long = Y Ddau (Siarad a Gwrando)
 daily-goal = Targed Dyddiol
@@ -761,7 +773,7 @@ lose-goal-progress-warning = Drwy olygu eich targed, efallai byddwch yn colli ei
 want-to-continue = Hoffech chi barhau?
 finish-editing = Gorffen golygu yn gyntaf?
 lose-changes-warning = Bydd gadael nawr yn golygu eich bod yn colli eich newidiadau
-build-custom-goal = Creu targed cyfaddas
+build-custom-goal = Adeiladu targed personol
 help-reach-hours = Helpwch i gyrraedd { NUMBER($hours) } awr { $language } gyda tharged personol
 help-reach-hours-general = Helpwch  Common Voice i gyrraedd { NUMBER($hours) } awr mewn iaith gyda tharged personol
 set-a-goal = Gosod targed

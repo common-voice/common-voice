@@ -38,7 +38,7 @@ export function trackGlobal(
     | 'discourse'
     | 'contact'
     | 'footer-newsletter'
-    | 'slack',
+    | 'matrix',
   locale: string
 ) {
   track('Global', action, locale);
@@ -160,4 +160,8 @@ export function trackChallenge(
     | 'modal-welcome'
 ) {
   track('Challenge', action);
+}
+
+export function getTrackClass(service: 'amp' | 'fs', name: string) {
+  return `track-${service}-${name}`;
 }

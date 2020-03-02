@@ -75,6 +75,7 @@ it = Italština
 izh = Ižorština
 ja = Japonština
 ka = Gruzínština
+kaa = Karakalpačtina
 kab = Kabylština
 kbd = Kabardština
 kk = Kazaština
@@ -83,6 +84,7 @@ kpv = Komi-zyrjanština
 ku = Kurdština
 kw = Kornština
 ky = Kyrgyzština
+lg = Lugandština
 lij = Ligurština
 lt = Litevština
 lv = Lotyština
@@ -94,6 +96,7 @@ ml = Malajálamština
 mn = Mongolština
 mrj = Horská Marijština
 mt = Maltština
+my = Barmština
 myv = Erzja
 nb-NO = Norština (Bokmål)
 ne-NP = Nepálština
@@ -111,6 +114,7 @@ ru = Ruština
 rw = Rwandština
 sah = Jakutština
 sc = Sardinština
+scn = Sicilština
 si = Sinhalština
 sk = Slovenština
 sl = Slovinština
@@ -123,6 +127,7 @@ ta = Tamilština
 te = Telugština
 tg = Tádžičtina
 th = Thajština
+tl = Tagalština
 tr = Turečtina
 tt = Tatarština
 uby = Ubychština
@@ -130,6 +135,7 @@ udm = Udmurtština
 uk = Ukrajinština
 ur = Urdština
 uz = Uzbečtina
+vec = Benátština
 vi = Vietnamština
 vot = Votština
 zh-CN = Čínština (Čína)
@@ -439,7 +445,7 @@ about-no-votes-text = Zamítne-li uživatel nahrávku jako nepřesnou, vrací ji
 about-dataset-new = Databáze Common Voice
 about-dataset-new-text = Databáze Common Voice obsahuje stovky tisíc nahrávek pomáhajících vývojářům vytvářet systémy rozpoznávání hlasu.
 about-clip-graveyard = Hřbitov nahrávek
-about-clip-graveyard-text = Hřbitov nahrávak obsahuje všechny nahrávky, které se nedostaly do hlavní databáze Common Voice. Stejně jako hlavní databáze je i hřbitov k dispozici ke stažení.
+about-clip-graveyard-text = Hřbitov nahrávek obsahuje všechny nahrávky, které se nedostaly do hlavní databáze Common Voice. Stejně jako hlavní databáze je i hřbitov k dispozici ke stažení.
 about-partners = Partneři
 about-become-a-partner = Staňte se partnerem
 about-partnership =
@@ -452,6 +458,11 @@ about-get-involved-text =
     Skvěle! Spojte se s námi prostřednictvím e-mailu nebo na <discourseLink>Discourse</discourseLink>,
     odešlete zpětnou vazbu skrz <githubLink>GitHub</githubLink>,
     nebo se připojte na náš <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Chcete pomoci projekt Common Voice dále zlepšovat?
+    Skvěle! Spojte se s námi prostřednictvím e-mailu nebo na <discourseLink>Discourse</discourseLink>,
+    odešlete zpětnou vazbu skrz <githubLink>GitHub</githubLink>,
+    nebo se připojte na náš <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Proč?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partneři
@@ -599,7 +610,7 @@ other-language = Ostatní jazyky
 language-section-in-progress = Spouští se
 language-section-in-progress-new-description = Tyto jazyky jsou zatím v komunitním vývoji. Ukazatele informují o tom, jak daleko jazyk pokročil v <localizationGlossaryLink>překladu webu</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>sbírání vět</sentenceCollectionGlossaryLink>.
 language-section-launched = Spuštěno
-language-section-launched-description = V těchto jazycích už byly naše stránky <localizationGlossaryLink>přeloženy</localizationGlossaryLink> a mají i dostatek <sentenceCollectionGlossaryLink>nasbíraný vět</sentenceCollectionGlossaryLink> k tomu, aby bylo možné <speakLink>nahrávat</speakLink> a <listenLink>poslouchat</listenLink> hlasové příspěvky.
+language-section-launched-description = V těchto jazycích už byly naše stránky <localizationGlossaryLink>přeloženy</localizationGlossaryLink> a mají i dostatek <sentenceCollectionGlossaryLink>nasbíraných vět</sentenceCollectionGlossaryLink> k tomu, aby bylo možné <speakLink>nahrávat</speakLink> a <listenLink>poslouchat</listenLink> hlasové příspěvky.
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-meter-in-progress = Postup
@@ -620,8 +631,8 @@ listen = Poslouchejte
 skip = Přeskočit
 shortcuts = Zkratky
 clips-with-count = <bold>{ $count }</bold> nahrávek
-goal-help-recording = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> našeho denního { $goalValue } cíle nahrávání!
-goal-help-validation = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> našeho denního { $goalValue } cíle ověřování!
+goal-help-recording = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> denního cíle { $goalValue } nahrávek!
+goal-help-validation = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> denního cíle { $goalValue } ověřených nahrávek!
 contribute-more =
     { $count ->
         [one] Jste připraveni udělat ještě { $count }?
@@ -647,7 +658,7 @@ record-last-instruction = <recordIcon></recordIcon> Poslední!
 review-tooltip = Zde zkontrolujte nahrávky a nahrajte je znovu
 review-instruction = Zkontrolujte nahrávky a nahrajte je znovu, pokud to bude potřeba
 record-submit-tooltip = { $actionType } odeslat, až bude připraveno
-clips-uploaded = Nahraných klipů
+clips-uploaded = Nahrávky byly uloženy
 record-abort-title = Nechcete napřed dokončit nahrávání?
 record-abort-text = Když nyní odejdete, přijdete o dosavadní postup
 record-abort-submit = Odeslat nahrávky

@@ -122,7 +122,8 @@ type Props = RouteComponentProps<{}> & {
   localeMessages: string[][];
 } & (
     | (InProgressLanguage & { type: 'in-progress' })
-    | (LaunchedLanguage & { type: 'launched' }));
+    | (LaunchedLanguage & { type: 'launched' })
+  );
 
 const LocalizationBox = React.memo((props: Props) => {
   const { history, locale, localeMessages } = props;

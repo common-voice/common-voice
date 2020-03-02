@@ -75,13 +75,16 @@ it = ایتالیایی
 izh = ایژوریایی
 ja = ژاپنی
 ka = گرجی
+kaa = کاراکالپاک
 kab = Kabyle
+kbd = کاباردیان
 kk = قزاقی
 ko = کره‌ای
 kpv = Komi-Zyrian
 ku = کردی
 kw = کرنوالی
 ky = قرقیزی
+lg = لوگاندا
 lij = لیگوریانی
 lt = لیتوانیایی
 lv = لتونی
@@ -93,6 +96,7 @@ ml = Malayalam
 mn = مغولی
 mrj = هیل ماری
 mt = Maltese
+my = برمه‌ای
 myv = Erzya
 nb-NO = نروژی Bokmål
 ne-NP = نپالی
@@ -110,6 +114,7 @@ ru = روسی
 rw = رواندایی
 sah = یاقوتی
 sc = Sardinian
+scn = سیسیلی
 si = Sinhala
 sk = اسلوواکی
 sl = اسلوونيايی
@@ -122,6 +127,7 @@ ta = تامیلی
 te = Telugu
 tg = تاجیکی
 th = تایلندی
+tl = تاگالوگ
 tr = ترکی
 tt = تاتاری
 uby = اوبیخی
@@ -129,6 +135,7 @@ udm = اودمورت
 uk = اوکراینی
 ur = اردو
 uz = ازبکی
+vec = ونتیایی
 vi = ویتنامی
 vot = ووتی
 zh-CN = چینی (چین)
@@ -450,6 +457,11 @@ about-get-involved-text =
     عالی است! با ما در پست الکترونیکی یا <discourseLink>Discource</discourseLink> تماس بگیرید،
     بازخورد را از طریق <githubLink>گیت‌هاب</githubLink> ثبت کنید،
     یا به ما در <slackLink>Slack</slackLink> ملحق شوید.
+about-get-involved-text-2020 =
+    می‌خواهید به بهترشدن آواهای مشترک کمک کنید؟
+    عالی است! با ما در پست الکترونیکی یا <discourseLink>Discource</discourseLink> تماس بگیرید،
+    بازخورد را از طریق <githubLink>گیت‌هاب</githubLink> ثبت کنید،
+    یا به ما در <matrixLink>ماتریکس</matrixLink> ملحق شوید.
 about-nav-why-common-voice = چرا ؟
 about-nav-how-it-works = چگونه ؟
 about-nav-partners = همکاران

@@ -75,6 +75,7 @@ it = 義大利語
 izh = 伊喬里亞語
 ja = 日語
 ka = 喬治亞語
+kaa = 卡拉卡爾帕克語
 kab = 卡拜爾語
 kbd = 卡巴達語
 kk = 哈薩克語
@@ -83,6 +84,7 @@ kpv = 科米-齊良語
 ku = 庫德語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
+lg = 盧干達語
 lij = 利古里亞語
 lt = 立陶宛語
 lv = 拉脫維亞語
@@ -94,6 +96,7 @@ ml = 馬拉亞拉姆語
 mn = 蒙古語
 mrj = 山地馬里語
 mt = 馬爾他語
+my = 緬甸語
 myv = 厄茲亞語
 nb-NO = 挪威語（Bokmål）
 ne-NP = 尼泊爾語
@@ -111,6 +114,7 @@ ru = 俄語
 rw = 盧安達語
 sah = 薩哈語
 sc = 薩丁尼亞語
+scn = 西西里語
 si = 僧加羅語
 sk = 斯洛伐克語
 sl = 斯洛維尼亞語
@@ -123,6 +127,7 @@ ta = 坦米爾語
 te = 泰盧固語
 tg = 塔吉克語
 th = 泰語
+tl = 塔加祿語（菲律賓）
 tr = 土耳其語
 tt = 韃靼語
 uby = 尤比克語
@@ -130,6 +135,7 @@ udm = 烏德莫特語
 uk = 烏克蘭語
 ur = 烏爾都語
 uz = 烏茲別克語
+vec = 威尼斯語
 vi = 越南語
 vot = 沃特語
 zh-CN = 華語（中國）
@@ -446,6 +452,11 @@ about-get-involved-text =
     沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、
     透過 <githubLink>GitHub</githubLink> 送出意見回饋、
     也可以加入我們的 <slackLink>Slack</slackLink>。
+about-get-involved-text-2020 =
+    想要幫忙讓 Common Voice 變得更棒嗎？
+    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、
+    透過 <githubLink>GitHub</githubLink> 送出意見回饋、
+    也可以加入我們的 <matrixLink>Matrix</matrixLink>。
 about-nav-why-common-voice = 為什麼？
 about-nav-how-it-works = 怎麼做？
 about-nav-partners = 夥伴

@@ -14,8 +14,9 @@ module.exports = {
   entry: './src/main.ts',
   output: {
     path: OUTPUT_PATH,
-    filename: 'bundle.[chunkhash].js',
+    filename: 'bundle.js',
     publicPath: '/dist/',
+    chunkFilename: '[name].js?id=[chunkhash]',
   },
   devtool: 'source-map',
   resolve: {

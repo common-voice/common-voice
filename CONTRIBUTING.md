@@ -12,7 +12,7 @@ By participating in this project, you're agreeing to uphold the [Mozilla Communi
 
 Help us add more sentences for other volunteers to read. We've written [a detailed guide on Discourse on how to contribute new sentences](https://discourse.mozilla.org/t/readme-how-to-see-my-language-on-common-voice/31530).
 
-**Please note**, we do **not** accept any direct pull requests for adding new sentences or changing localization content. All of that is managed and merged through Mozilla's Pontoon localization system. If you have any suggestions for adding or editing translations, please check out your language on the [Common Voice project on Pontoon](https://pontoon.mozilla.org/projects/common-voice/). A community reviewer will check and approve them, and then they will be auto-incorporated into the website in our next deployment.
+**Please note**, we do **not** accept any direct pull requests for adding new sentences or changing localization content. All of that is managed and merged through Mozilla's Pontoon localization system. If you have any suggestions for adding or editing translations, please check out your language on the [Common Voice project on Pontoon](https://pontoon.mozilla.org/projects/common-voice/). A community reviewer will check and approve them, and then they will be auto-incorporated into the website in our next deployment. If you find wrong sentences, please file an issue and we will take care of it, please do not create a Pull Request with corrections.
 
 ### Bug Fixes and Feature Enhancements
 
@@ -21,24 +21,22 @@ All of our current issues can be found here on GitHub. Anything with a [help wan
 #### Project requirements
 
 - [NodeJS](https://nodejs.org) (v8.10 or higher)
-- [npm](https://www.npmjs.com) (v4 or higher)
 - [yarn](https://yarnpkg.com) (v1 or higher)
 - [ffmpeg](https://www.ffmpeg.org/download.html)
 - [MariaDB](https://mariadb.org/download/) (v10 or higher) or [MySQL](https://www.mysql.com/downloads/) (v5.6 or higher)
 
 #### Docker setup
 
-We provide a [docker-compose](https://docs.docker.com/compose/) setup to orchestrate the local development environment configuration using [docker](https://www.docker.com/).
+We provide a [docker-compose](https://docs.docker.com/compose/) setup to orchestrate the local development environment configuration using [Docker](https://www.docker.com/).
 
 ##### Requirements
 
-- [docker](https://www.docker.com/)
+- [Docker](https://www.docker.com/)
 - [docker-compose](https://docs.docker.com/compose/)
 
 ##### Setup
 
-[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
-Then run the following commands to spin off `voice-web`:
+[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer. Then run the following commands to spin off `voice-web`:
 
 ```
 > cd voice-web
@@ -49,10 +47,41 @@ This is going to:
 
 - Launch a mysql instance configured for `voice-web`
 - Launch an s3proxy instance to store files locally and avoid going through setting up AWS S3.
-- Mount the project using a docker volume to allow reflecting changes to the codebase directly to the container.
+- Mount the project using a Docker volume to allow reflecting changes to the codebase directly to the container.
 - Launch `voice-web` server
 
 You can visit the website at [http://localhost:9000](http://localhost:9000).
+
+##### Importing sentences
+
+To decrease the workload for your machine, by default sentence importing is deactivated for the Docker setup. This means that
+by default you won't have any sentences to be recorded. If you want to fix any bug that occurs within the "Speak" part of the
+app, you will first need to import sentences. To do so, set `IMPORT_SENTENCES` in `/docker/local-docker-config.json` to `true`.
+Note that this might take quite some time.
+
+##### Docker daemon error
+
+If you get an error like the following when running native Docker (not Docker for Desktop),
+
+```
+ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
+```
+
+You may need to build a new image. You can do that by issuing the following commands:
+
+```
+> cd docker/
+> docker build .
+```
+
+Then after this you can:
+
+```
+> cd ..
+> docker-compose up
+```
+
+You may have to run these commands as root/superuser.
 
 #### Local setup
 
@@ -82,6 +111,18 @@ You can then access the website at [http://localhost:9000](http://localhost:9000
 
 You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override. If you're using Docker, you may need to modify the file `/docker/local-docker-config.json` instead.
 
+##### NewRelic error during startup
+
+If you get a NewRelic error during startup, you can safely ignore it.
+
+```
+web        | [BE] Error: New Relic requires that you name this application!
+web        | [BE] Set app_name in your newrelic.js file or set environment variable
+web        | [BE] NEW_RELIC_APP_NAME. Not starting!
+```
+
+You do not need to set up NewRelic, except if you fix anything related to that.
+
 #### Authentication
 
 If you want to work with login-related features (Profile, Dashboard, Goals, ...) you'll need to set up authentication:
@@ -90,7 +131,7 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 2. Click "Applications" from the dashboard. Create a new one, or use the default application.
 3. Go to "Applications" and click on the Settings icon next to your application.
 4. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
-5. Copy the following keys from the Auth0 application into `config.json` or `local-docker-config.json`. These are found in the same Settings tab as the "Allowed Callback URLs".
+5. Copy the following keys from the Auth0 application into `config.json` or `/docker/local-docker-config.json`. These are found in the same Settings tab as the "Allowed Callback URLs".
 
 ```
 "AUTH0": {

@@ -266,6 +266,8 @@
                 min-width: 24px;
                 display: flex;
                 padding: 6px 5px 0 24px;
+                padding-inline-start: 24px;
+                padding-inline-end: 5px;
                 @media (--xs-down) {
                     padding: 0px 5px 0 16px;
                 }
@@ -390,6 +392,10 @@
                 left: calc(-100% - 6rem);
                 position: relative;
 
+                [dir='rtl'] & {
+                    left: auto;
+                    right: calc(-100% - 6rem);
+                }
                 @media (--sm-down) {
                     left: 0;
                 }

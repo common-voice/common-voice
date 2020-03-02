@@ -20,6 +20,7 @@
         background: var(--white) url('/img/down-arrow.svg') no-repeat 90% center;
         background-size: 10px;
         cursor: pointer;
+        padding-right: 45px;
 
         &:hover {
             background-color: var(--desert-storm);

@@ -8,6 +8,9 @@ email-input =
     .label = Ríomhphost
 submit-form-action = Seol
 loading = Á lódáil...
+email-opt-in-info = Ba mhaith liom ríomhphoist a fháil ar nós meabhrúcháin sprioc, nuashonruithe ar mo dhul chun cinn, agus nuachtlitreacha faoi Common Voice.
+indicates-required = Léiríonn * réimse atá riachtanach
+not-available-abbreviation = Neamhbhainteach
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,17 +18,25 @@ loading = Á lódáil...
 
 ## Languages
 
+ab = Abcáisis
+ace = Aicinéis
+ady = Adaigéis
 af = Afracáinis
+am = Amáiris
 an = Aragóinis
 ar = Araibis
+arn = Mapúitsis
 as = Asaimis
 ast = Astúiris
 az = Asarbaiseáinis
+ba = Baiscíris
+be = Bealarúisis
 bg = Bulgáiris
 bn = Beangáilis
 br = Briotáinis
 bxr = Buiriáitis
 ca = Catalóinis
+cnh = Haicéis
 cs = Seicis
 cv = Suvaisis
 cy = Breatnais
@@ -39,12 +50,17 @@ es = Spáinnis
 et = Eastóinis
 eu = Bascais
 fa = Fairsis
+ff = Fuláinis
 fi = Fionlainnis
 fo = Faróis
 fr = Fraincis
 fy-NL = Freaslannais
 ga-IE = Gaeilge
+gl = Gailísis
+ha = Hásais
 he = Eabhrais
+hi-IN = Hiondúis
+hr = Cróitis
 hsb = Sorbais Uachtarach
 hu = Ungáiris
 ia = Interlingua
@@ -54,13 +70,24 @@ it = Iodáilis
 ja = Seapáinis
 ka = Seoirsis
 kab = Ceabáilis
+kbd = Cabairdis
 kk = Casaicis
 ko = Cóiréis
 kpv = Coimis
+ku = Coirdis
 kw = Coirnis
 ky = Cirgisis
+lg = Lugandais
+lij = Ligiúiris
+lt = Liotuáinis
+lv = Laitvis
+mdf = Mocsais
+mg = Malagáisis
 mk = Macadóinis
+ml = Mailéalaimis
 mn = Mongóilis
+mt = Máltais
+my = Burmais
 myv = Éarsais
 nb-NO = Ioruais Bokmål
 ne-NP = Neipeailis
@@ -68,26 +95,35 @@ nl = Ollainnis
 nn-NO = Ioruais Nynorsk
 oc = Ocsatáinis
 or = Oirísis
+pa-IN = Puinseáibis
 pl = Polainnis
-pt-BR = Portaingéilis (An Bhrasaíl)
+pt = Portaingéilis
 ro = Rómáinis
 ru = Rúisis
+rw = Ciniaruaindis
 sah = Sachais
 sc = Sairdínis
+scn = Sicilis
+si = Siolóinis
 sk = Slóvaicis
 sl = Slóivéinis
 sq = Albáinis
 sr = Seirbis
 sv-SE = Sualainnis
+sw = Svahaílis
+syr = Siricis
 ta = Tamailis
 te = Teileagúis
+tg = Táidsícis
 th = Téalainnis
 tr = Tuircis
 tt = Tatairis
+udm = Udmairtis
 uk = Úcráinis
 ur = Urdúis
 uz = Úisbéicis
 vi = Vítneaimis
+vot = Vóitis
 zh-CN = Sínis (An tSín)
 zh-HK = Sínis (Hong Cong)
 zh-TW = Sínis (An Téaváin)
@@ -101,6 +137,7 @@ speak = Abair
 speak-now = Abair leat anois
 datasets = Tacair sonraí
 languages = Teangacha
+about = Maidir Leis
 profile = Próifíl
 help = Cabhair
 contact = Teagmháil
@@ -169,15 +206,22 @@ x-years-short =
        *[other] { $count } bl
     }
 help-make-dataset = Cabhraigh linn tacar sonraí oscailte den chéad scoth a thógáil
-profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
 sign-up-account = Cláraigh
+email-subscription-title = cláraigh le haghaidh nuashonruithe ríomhphoist
+email-subscription-title-new = Cláraigh le haghaidh nuachtlitreacha Common Voice, meabhrúcháin spriocanna, agus nuashonruithe ar dhul chun cinn
 
 ## Account Benefits
 
 benefits = Buntáistí
+keep-track = Coinnigh súil ar an dul chun cinn agus na méadrachtaí atá agat i dteangacha éagsúla.
+compare-progress = Féach cén chaoi a bhfuil do dhul chun cinn féin i gcomórtas leis an méid atá déanta ag daoine eile ar fud an domhain.
 
 ## What's public
 
+whats-public = Cad Atá Poiblí?
+email-not-public = Ní thaispeánfar do sheoladh ríomhphoist go poiblí.
+username-optin-public = Is í do rogha í d'ainm úsáideora a fhoilsiú go poiblí nó é a choinneáil rúnda.
+username-email-not-demographic = Ní bheidh d'ainm úsáideora ná do sheoladh ríomhphoist bainteach leis na sonraí foilsithe.
 
 ## Speak & Listen Shortcuts
 
@@ -202,7 +246,9 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = f
-shortcut-record-toggle-label = Taifead/Stop
+shortcut-record-toggle-label = Taifead/Stad
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Déan an ghearrthóg a thaifeadadh arís
 request-language-text = Cá bhfuil mo theangasa?
 request-language-button = Iarr Teanga Nua
 
@@ -227,8 +273,10 @@ english = Béarla
 
 profile-form-username =
     .label = Ainm Úsáideora
-profile-form-language =
-    .label = Teanga
+profile-form-native-language =
+    .label = Teanga Dhúchais
+profile-form-additional-language =
+    .label = Teanga Bhreise
 profile-form-accent =
     .label = Blas
 profile-form-age =
@@ -260,17 +308,30 @@ profile-close = Dún
 profile-explanation = Cruthaigh próifíl chun do chuid oibre a leanúint agus chun cabhrú linn cruinneas na sonraí gutha a fheabhsú.
 thanks-for-account = Go raibh maith agat as do chuntas a dheimhniú. Tógaimis do phróifíl anois.
 why-demographic = Cén fáth?
+accept-privacy-title = An Beartas Príobháideachais
 login-identity = Aitheantas
 login-signup = Logáil Isteach / Clárú
 edit = Eagar
+email-subscriptions = Síntiúis Ríomhphoist
 download-profile = Íoslódáil mo chuid sonraí
 off = As
 on = Ann
-add-avatar-title = Cuir abhatár le do phróifíl
+change-your-avatar-clip = An bhfuil fonn ort do ghearrthóg ghutha a athrú?
+recording-in-progress = Taifeadadh gutha ar siúl
+record-voice-wave = TAIFEAD TONN GHUTHA
+retry-voice-wave-recording = DÉAN ARÍS É
+re-record = ATAIFEAD
+delete-voice = SCRIOS
+delete-voice-clip = nó Scrios gearrthóg
+ready-to-upload = UASLÓDÁIL
+recreate-voice = Athchruthaigh an Tonn Ghutha
+cancel-avatar-clip-recording = CEALAIGH
 browse-file-title = Uaslódáil pictiúr
+browse-file = Tarraing agus scaoil nó <browseWrap>Brabhsáil</browseWrap>
 connect-gravatar = Ceangail le Gravatar
 gravatar_not_found = Níl aon gravatar ceangailte le do sheoladh r-phoist
 file_too_large = Tá an comhad seo rómhór
+manage-email-subscriptions = Bainistigh Síntiúis Ríomhphoist
 email-already-used = Tá an seoladh r-phoist seo ceangailte le cuntas eile cheana
 add-language = Teanga Nua
 
@@ -278,11 +339,51 @@ add-language = Teanga Nua
 
 faq-title = Ceisteanna Coitianta
 faq-what-cv-q = Cad é Common Voice?
+faq-why-important-q = Cén fáth a bhfuil sé tábhachtach?
+faq-how-get-q = Conas is féidir liom sonraí Common Voice a fháil?
+faq-when-release2-q = Cathain a fhoilseofar sonraí Common Voice i dteangacha eile?
+faq-why-mission-q = Cén fáth ar cuid de mhisean Mozilla é Common Voice?
+faq-what-cv-and-deepspeech-q = Cad é an difríocht idir Common Voice agus Deep Speech?
+faq-is-goal-assistant-q = An é an sprioc atá ag Common Voice cúntóir gutha a thógáil?
+faq-do-want-native-q = Ní cainteoir dúchais mé agus tá blas coimhthíoch le haithint ar mo theanga. An bhfuil sibh ag iarraidh mo ghutha mar sin féin?
+faq-why-my-lang-q = Cén fáth nach bhfuil mo theanga san áireamh go fóill?
+faq-why-10k-hours-a = Seo é an líon uaireanta, a bheag nó a mhór, atá ag teastáil chun córas caint-go-téacs den chéad scoth a thraenáil.
+faq-where-src-from-2-q = Cad as na téacsanna?
+faq-why-not-ask-read-q = Cén fáth nach n-iarrann tú ar dhaoine léamh ó leabhair nó ó ailt Wikipedia i dteangacha éagsúla?
+faq-why-account-q = Cén fáth ar chóir dom cuntas a chlárú?
+faq-is-account-public-q = An faisnéis phoiblí é mo chuntas?
+faq-what-is-cv = Cad é Common Voice?
+faq-description = Seo é Common Voice – tionscadal de chuid Mozilla a mhúineann do ríomhairí an chaoi a labhraíonn daoine.
+faq-search-for-answers =
+    .label = Cuardaigh freagraí
+
+## ABOUT US
+
+about-title = Cén fáth a bhfuil Common Voice ann?
+how-does-it-work-title = Conas a oibríonn sé?
+about-speak = Labhair
+about-listen-queue = Ciú Éisteachta
+about-listen = Éist
+about-is-it-valid = An bhfuil an ghearrthóg bailí?
+about-yes-votes = ≥ 2 Ghuth ar a shon
+about-no-votes = ≥ 2 Ghuth ina choinne
+about-dataset-new = Tacar Sonraí Common Voice
+about-clip-graveyard = Reilig na nGearrthóg
+about-partners = Comhpháirtithe
+about-become-a-partner = Bí i do chomhpháirtí
+about-get-involved = Glac páirt
+about-nav-why-common-voice = Cén fáth?
+about-nav-how-it-works = Conas?
+about-nav-partners = Comhpháirtithe
+about-nav-get-involved = Glac páirt
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intleacht shaorga
 
 ## Glossary
 
 glossary = Gluais
 localization = Logánú
+sentence-collection = Bailiúchán Abairtí
 sst = Cainte-go-téacs (STT)
 
 ## NotFound
@@ -303,11 +404,6 @@ data-get-started = <speechBlogLink>Tosú le hAithint Cainte</speechBlogLink>
 data-other-title = Tacair shonraí eile...
 data-other-goto = Téigh go { $name }
 data-other-download = Íoslódáil sonraí
-data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
-data-other-ted-name = Corpas TED-LIUM
-data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED agus na leaganacha tras-scríofa ar fáil ar shuíomh Gréasáin TED.
-data-other-voxforge-description = Bunaíodh VoxForge chun ábhar cainte tras-scríofa a bhailiú agus a úsáid in innill aitheanta cainte FLOSS.
-data-other-tatoeba-description = Is éard atá in Tatoeba ná bunachar sonraí abairtí, aistriúchán, agus taifeadtaí fuaime a úsáidtear chun teangacha a fhoghlaim. Gheobhaidh tú mórán Béarla labhartha, taifeadta ag comhphobal Tatoeba, san íoslódáil seo.
 data-bundle-button = Íoslódáil na Tacair Shonraí go léir
 data-bundle-description = Sonraí Common Voice chomh maith leis na tacair shonraí thuasluaite
 license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
@@ -323,6 +419,36 @@ review-rerecord = Ataifead
 review-cancel = Cealaigh
 review-keep-recordings = Coinnigh na taifeadtaí
 review-delete-recordings = Scrios na taifeadtaí
+
+## Datasets Page
+
+language = Teanga
+# File size in gigabytes
+size = Méid
+validated-hr-total = Líon uaireanta an chloig deimhnithe
+overall-hr-total = Líon uaireanta an chloig iomlán
+cv-license = Ceadúnas
+audio-format = Formáid Fuaime
+number-of-voices = Líon Guthanna
+splits = Scoilteanna
+email-to-download = Cuir isteach Seoladh Ríomhphoist chun é a Íoslódáil
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Íoslódáil { $language }
+validated-hours = Líon uaireanta an chloig deimhnithe
+recorded-hours = Líon uaireanta an chloig taifeadta
+subscribe = Liostáil
+feedback-q = An bhfuil aiseolas agat?
+data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
+data-other-ted-name = Corpas TED-LIUM
+data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED agus na leaganacha tras-scríofa ar fáil ar shuíomh Gréasáin TED.
+data-other-voxforge-description = Bunaíodh VoxForge chun ábhar cainte tras-scríofa a bhailiú agus a úsáid in innill aitheanta cainte FLOSS.
+data-other-tatoeba-description = Is éard atá in Tatoeba ná bunachar sonraí abairtí, aistriúchán, agus taifeadtaí fuaime a úsáidtear chun teangacha a fhoghlaim. Gheobhaidh tú mórán Béarla labhartha, taifeadta ag comhphobal Tatoeba, san íoslódáil seo.
+ready-to-validate = An bhfuil tú réidh abairtí a dheimhniú?
+more = Tuilleadh
+close = Dún
+download = Íoslódáil
+dataset-version = Leagan
 
 ## Download Modal
 
@@ -350,6 +476,8 @@ request-language-form-language =
     .label = Teanga
 request-language-success-title = Fuaireamar an t-iarratas, go raibh maith agat.
 request-language-success-content = Beimid i dteagmháil leat go luath le tuilleadh eolais maidir le teangacha nua ar Common Voice.
+select-language = Roghnaigh Teanga...
+other-language = Teanga Eile
 
 ## Languages Overview
 
@@ -357,7 +485,6 @@ language-section-in-progress = Idir lámha
 language-section-launched = Seolta
 languages-show-more = Níos Mó
 languages-show-less = Níos Lú
-language-speakers = Cainteoirí
 language-meter-in-progress = Dul Chun Cinn
 language-total-progress = Iomlán
 language-search-input =
@@ -367,7 +494,7 @@ localized = Aistrithe
 sentences = Abairtí
 total-hours = Uaireanta Deimhnithe
 
-## New Contribution
+## Contribution
 
 action-click = Cliceáil
 action-tap = Tapáil
@@ -403,7 +530,6 @@ record-again-instruction = Iontach! <recordIcon></recordIcon> Taifead abairt eil
 record-again-instruction2 = Lean ort, déan taifead eile <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An ceann deireanach!
 review-tooltip = Athbhreithnigh agus ataifead gearrthóga anseo
-unable-speak = Níl tú in ann labhairt anois?
 review-instruction = Athbhreithnigh agus ataifead más gá
 record-submit-tooltip = { $actionType } Seol nuair a bheidh tú réidh
 clips-uploaded = Gearrthóga Uaslódáilte
@@ -419,6 +545,20 @@ listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
 nothing-to-validate = Níl aon ábhar le deimhniú sa teanga seo; cabhraigh linn an ciú a líonadh!
 record-button-label = Taifead do ghuth
 share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
+
+## Reporting
+
+report = Tuairisc
+report-title = Seol tuairisc
+report-offensive-language = Teanga ghránna
+report-grammar-or-spelling = Botún gramadaí / litrithe
+report-grammar-or-spelling-detail = Tá botún gramadaí nó litrithe san abairt.
+report-different-language = Teanga mhícheart
+report-difficult-pronounce = Tá sé deacair é a fhuaimniú
+report-other-comment =
+    .placeholder = Nóta tráchta
+continue = Ar Aghaidh
+report-success = Seoladh an tuairisc gan fadhb
 
 ## Goals
 
@@ -455,6 +595,7 @@ toward-next-goal = I dtreo an chéad sprice eile
 clips-you-recorded = Gearrthóga a thaifead tú
 clips-you-validated = Gearrthóga a dheimhnigh tú
 stats = Staitisticí
+awards = Duaiseanna
 you = Tusa
 everyone = Gach Duine
 contribution-activity = Gníomhaíocht
@@ -464,8 +605,24 @@ validated-clips = Gearrthóga Deimhnithe
 total-approved = Líon Iomlán Deimhnithe
 overall-accuracy = Cruinneas Iomlán
 
+## Custom Goals
+
+daily-goal = Sprioc Laethúil
+weekly-goal = Sprioc Sheachtainiúil
+easy-difficulty = Éasca
+average-difficulty = Gnáthleibhéal
+difficult-difficulty = Deacair
+pro-difficulty = Proifisiúnta
+want-to-continue = An bhfuil fonn ort dul ar aghaidh?
+build-custom-goal = Socraigh do sprioc féin
+set-a-goal = Cuir sprioc romhat féin
+
 ## Profile Delete
 
 keep = Coinnigh
 remove = Scrios
 profile-form-delete = Scrios mo Phróifíl
+
+## Landing
+
+profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach

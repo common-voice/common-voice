@@ -75,6 +75,7 @@ it = იტალიური
 izh = იჟორული
 ja = იაპონური
 ka = ქართული
+kaa = ყარაყალაკი
 kab = კაბილური
 kbd = ყაბარდოული
 kk = ყაზახური
@@ -83,6 +84,7 @@ kpv = კომი
 ku = ქურთული
 kw = კორნული
 ky = ყირგიზული
+lg = ლუგანდა
 lij = ლიგურული
 lt = ლიტვური
 lv = ლატვიური
@@ -94,6 +96,7 @@ ml = მალაიალამური
 mn = მონღოლური
 mrj = მთის მარიული
 mt = მალტური
+my = ბირმული
 myv = ერზიანული
 nb-NO = ნორვეგიული ბუკმოლი
 ne-NP = ნეპალური
@@ -103,7 +106,7 @@ oc = ოქსიტანური
 or = ორია
 pa-IN = პენჯაბი
 pl = პოლონური
-pt = პორტუგალური
+pt = პორტუგალიური
 rm-sursilv = რეტორომანული სურსილვანული
 rm-vallader = რეტორომანული ვალადერი
 ro = რუმინული
@@ -111,6 +114,7 @@ ru = რუსული
 rw = კინიარუანდა
 sah = სახა
 sc = სარდინიული
+scn = სიცილიური
 si = სინჰალური
 sk = სლოვაკური
 sl = სლოვენური
@@ -123,6 +127,7 @@ ta = ტამილური
 te = ტელუგუ
 tg = ტაჯიკური
 th = ტაილანდური
+tl = ტაგალური
 tr = თურქული
 tt = თათრული
 uby = უბიხური
@@ -130,6 +135,7 @@ udm = უდმურტული
 uk = უკრაინული
 ur = ურდუ
 uz = უზბეკური
+vec = ვენეციური
 vi = ვიეტნამური
 vot = ვოტიკური
 zh-CN = ჩინური (ჩინეთი)
@@ -446,6 +452,11 @@ about-partnership =
     ჩვენ გვინდა, მადლობა გადავუხადო აღნიშნულ ადამიანებსა და დაწესებულებებს, პროექტში შეტანილი წვლილისთვის:
 about-get-involved = ჩაერთეთ
 about-get-involved-text = ან შემოგვიერთდით <slackLink>Slack-ზე</slackLink>.
+about-get-involved-text-2020 =
+    გსურთ დაგვეხმაროთ, რომ Common Voice კიდევ უფრო უკეთესი გახდეს?
+    მშვენიერია! შეგვეხმიანეთ ელფოსტით ან <discourseLink>Discourse-ით</discourseLink>,
+    გამოგვეხმაურეთ <githubLink>GitHub-ზე</githubLink>,
+    ან შემოგვიერთდით <matrixLink>Matrix-ზე</matrixLink>.
 about-nav-why-common-voice = რატომ?
 about-nav-how-it-works = როგორ?
 about-nav-partners = თანამშრომლობა
@@ -598,7 +609,7 @@ language-search-input =
 language-speakers = მოსაუბრე
 localized = თარგმნილი
 sentences = წინადადებები
-total-hours = საათები სულ
+total-hours = ჯამში საათი
 
 ## Contribution
 

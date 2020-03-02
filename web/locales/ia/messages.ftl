@@ -75,6 +75,7 @@ it = Italiano
 izh = Azoriano
 ja = Japonese
 ka = Georgiano
+kaa = Karakalpak
 kab = Cabilo
 kbd = Kabardo
 kk = Kazakh
@@ -83,6 +84,7 @@ kpv = Komi-Zyriano
 ku = Kurdo
 kw = Cornico
 ky = Kirghiso
+lg = Luganda
 lij = Ligure
 lt = Lituano
 lv = Latviano
@@ -94,6 +96,7 @@ ml = Malayalam
 mn = Mongol
 mrj = Mari occidental
 mt = Maltese
+my = Birmano
 myv = Erzya
 nb-NO = Norvegiano Bokmål
 ne-NP = Nepalese
@@ -111,6 +114,7 @@ ru = Russo
 rw = Ruanda
 sah = Sakha
 sc = Sardo
+scn = Siciliano
 si = Sinhala
 sk = Slovaco
 sl = Sloveno
@@ -123,6 +127,7 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Thai
+tl = Tagalog
 tr = Turco
 tt = Tataro
 uby = Ubykh
@@ -130,6 +135,7 @@ udm = Udmurte
 uk = Ukrainiano
 ur = Urdu
 uz = Uzbek
+vec = Venetian
 vi = Vietnamese
 vot = Votico
 zh-CN = Chinese (China)
@@ -214,7 +220,7 @@ email-subscription-title-new = Inscribe te al bulletines de novas, rememoratione
 ## Account Benefits
 
 benefits = Beneficios
-rich-data = Rende plus ric possibile tu datos inviate, per qualque informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que render illos public.
+rich-data = Que tu rende plus ric possibile tu datos inviate, per informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que nos rende public los.
 improve-audio = Le informationes del profilo meliora le precision del datos audio usate pro le exercitation del recognition de voce.
 keep-track = Tracia tu progresso e metricas inter plure linguas.
 compare-progress = Compara tu progresso a illo de altere contributores in tote le mundo.
@@ -445,6 +451,11 @@ about-get-involved-text =
     Grande! Tene te in contacto via email o sur <discourseLink>Discourse</discourseLink>,
     invia un commentario per <githubLink>GitHub</githubLink>,
     o junge te a nos sur <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Vole adjutar a meliorar Common Voice?
+    Optimo! Contacta nos via e-mail o sur <discourseLink>Discourse</discourseLink>,
+    invia commentarios via <githubLink>GitHub</githubLink>,
+    o junge te a nos sur <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Proque?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners

@@ -75,6 +75,7 @@ it = Italienisch
 izh = Ischorisch
 ja = Japanisch
 ka = Georgisch
+kaa = Karakalpak
 kab = Kabylisch
 kbd = Kabardinisch
 kk = Kasachisch
@@ -83,6 +84,7 @@ kpv = Komi-Syrjänisch
 ku = Kurdisch
 kw = Cornish
 ky = Kirgisisch
+lg = Luganda
 lij = Ligurisch
 lt = Litauisch
 lv = Lettisch
@@ -94,6 +96,7 @@ ml = Malayalam
 mn = Mongolisch
 mrj = Bergmari
 mt = Maltesisch
+my = Birmanisch
 myv = Ersjanisch
 nb-NO = Norwegisches Bokmål
 ne-NP = Nepali
@@ -111,6 +114,7 @@ ru = Russisch
 rw = Kinyarwanda
 sah = Sacha
 sc = Sardisch
+scn = Sizilianisch
 si = Singhalesisch
 sk = Slowakisch
 sl = Slowenisch
@@ -123,6 +127,7 @@ ta = Tamil
 te = Telugu
 tg = Tadschikisch
 th = Thailändisch
+tl = Tagalog
 tr = Türkisch
 tt = Tatarisch
 uby = Ubychisch
@@ -130,6 +135,7 @@ udm = Udmurtisch
 uk = Ukrainisch
 ur = Urdu
 uz = Usbekisch
+vec = Venezianisch
 vi = Vietnamesisch
 vot = Wotisch
 zh-CN = Chinesisch (China)
@@ -404,7 +410,7 @@ faq-what-determine-identity-q = Was bedeutet es, dass ich die Identität der Spr
 faq-what-determine-identity-a =
     Der Common-Voice-Datensatz ist eine offene und öffentlich zugängliche Ressource, mit der eine Vielzahl von sprachgesteuerten Anwendungen trainiert werden kann. Um die Sicherheit unserer Mitwirkenden zu gewährleisten, bitten wir jeden, der den Common-Voice-Datensatz herunterlädt, um den Schutz der Privatsphäre der Mitwirkenden.
     
-    Alle Sprachclips im Datensatz werden um persönlich identifizierende Informationen bereinigt. Wenn Sie den Daten herunterladen, stimmen Sie zu, nicht zu versuchen, die Identität eines Mitwirkenden zu ermitteln. Das bedeutet, dass Sie nicht versuchen dürfen, Informationen in der Datenmenge mit den persönlichen Informationen eines Mitwirkenden zu verknüpfen. Sie können den Datensatz jedoch zum Trainieren der Spracherkennung, Sprechererkennung oder anderer Anwendungen verwenden, indem Sie beispielsweise Informationen im Datensatz mit anderen Informationen verknüpfen, die bereits im Datensatz vorhanden sind.
+    Alle Sprachclips im Datensatz werden um persönlich identifizierende Informationen bereinigt. Wenn Sie den Datensatz herunterladen, stimmen Sie zu, nicht zu versuchen, die Identität eines Mitwirkenden zu ermitteln. Das bedeutet, dass Sie nicht versuchen dürfen, Informationen in der Datenmenge mit den persönlichen Informationen eines Mitwirkenden zu verknüpfen. Sie können den Datensatz jedoch zum Trainieren der Spracherkennung, Sprechererkennung oder anderer Anwendungen verwenden, indem Sie beispielsweise Informationen im Datensatz mit anderen Informationen verknüpfen, die bereits im Datensatz vorhanden sind.
 faq-what-is-cv = Was ist Common Voice?
 faq-using-cv = Common Voice verwenden
 faq-description = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
@@ -448,6 +454,11 @@ about-get-involved-text =
     Großartig! Kontaktieren Sie uns per E-Mail oder über <discourseLink>Discourse</discourseLink>,
     geben Sie uns Feedback über <githubLink>GitHub</githubLink>
     oder besuchen Sie uns auf <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Möchten Sie Common Voice noch besser machen?
+    Großartig! Kontaktieren Sie uns per E-Mail oder über <discourseLink>Discourse</discourseLink>,
+    geben Sie uns Feedback über <githubLink>GitHub</githubLink>
+    oder besuchen Sie uns auf <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Warum?
 about-nav-how-it-works = Wie?
 about-nav-partners = Partner
@@ -531,7 +542,7 @@ confirm-size = Sie können jetzt einen Download von <b>{ $size }</b> starten
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Sie stimmen zu</b>, nicht zu versuchen, die Identität der Sprecher im Common-Voice-Datensatz zu ermitteln
-download-language = { $Language } herunterladen
+download-language = { $language } herunterladen
 validated-hours = Bestätigte Stunden
 recorded-hours = Aufgenommene Stunden
 whats-inside = Was steckt im Common-Voice-Datensatz?
@@ -544,7 +555,7 @@ subscribe = Abonnieren
 get-started-speech = Erste Schritte mit der Spracherkennung
 other-datasets = Andere Sprachdatensätze
 feedback-q = Möchten Sie uns etwas mitteilen?
-deepspeech-info = Der Common-Voice-Datasatz ist eine Ergänzung zu Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, mit der Sie Spracherkennungsanwendungen entwickeln können. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen
+deepspeech-info = Der Common-Voice-Datasatz ist eine Ergänzung zu Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, mit der Sie Spracherkennungsanwendungen entwickeln können. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen.
 common-voice-info-new = Haben Sie Fragen zu Common Voice? Verbesserungsvorschläge oder Feedback zu einer bestimmten Sprache? Besuchen Sie unser <discourseLink>Discourse-Forum</discourseLink>und teilen Sie uns dies mit.
 data-other-librispeech-description = LibriSpeech ist ein Korpus aus ca. 1000 Stunden vorgelesener Texte in englischer Sprache (aufgenommen in 16kHz), welche ursprünglich aus Hörbüchern des LibriVox-Projektes entnommen wurden.
 data-other-ted-name = TED-LIUM-Korpus

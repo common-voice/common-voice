@@ -71,6 +71,7 @@ it = Italian
 izh = Izhorian
 ja = Japanese
 ka = Georgian
+kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
 kk = Kazakh
@@ -79,6 +80,7 @@ kpv = Komi-Zyrian
 ku = Kurdish
 kw = Cornish
 ky = Kyrgyz
+lg = Luganda
 lij = Ligurian
 lt = Lithuanian
 lv = Latvian
@@ -90,6 +92,7 @@ ml = Malayalam
 mn = Mongolian
 mrj = Hill Mari
 mt = Maltese
+my = Burmese
 myv = Erzya
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
@@ -107,6 +110,7 @@ ru = Russian
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardinian
+scn = Sicilian
 si = Sinhala
 sk = Slovak
 sl = Slovenian
@@ -119,6 +123,7 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Thai
+tl = Tagalog
 tr = Turkish
 tt = Tatar
 uby = Ubykh
@@ -126,6 +131,7 @@ udm = Udmurt
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
+vec = Venetian
 vi = Vietnamese
 vot = Votic
 zh-CN = Chinese (China)
@@ -468,6 +474,10 @@ about-get-involved-text = Want to help make Common Voice even better?
     Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
     submit feedback through <githubLink>GitHub</githubLink>,
     or join us on <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 = Want to help make Common Voice even better?
+    Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
+    submit feedback through <githubLink>GitHub</githubLink>,
+    or join us on <matrixLink>Matrix</matrixLink>.
 
 about-nav-why-common-voice = Why ?
 about-nav-how-it-works = How ?

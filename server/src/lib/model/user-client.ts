@@ -232,7 +232,9 @@ const UserClient = {
   },
 
   async save({ client_id, email, age, gender }: any): Promise<boolean> {
-    const [[row]] = await db.query(
+    const [
+      [row],
+    ] = await db.query(
       'SELECT has_login FROM user_clients WHERE client_id = ?',
       [client_id]
     );
@@ -264,7 +266,9 @@ const UserClient = {
   },
 
   async updateSSO(old_email: string, email: string): Promise<boolean> {
-    const [[row]] = await db.query(
+    const [
+      [row],
+    ] = await db.query(
       'SELECT 1 FROM user_clients WHERE email = ? AND has_login',
       [email]
     );
@@ -374,7 +378,9 @@ const UserClient = {
   },
 
   async findClientId(email: string): Promise<null | string> {
-    const [[row]] = await db.query(
+    const [
+      [row],
+    ] = await db.query(
       'SELECT client_id FROM user_clients WHERE email = ? AND has_login',
       [email]
     );
@@ -383,10 +389,12 @@ const UserClient = {
 
   async hasSSO(client_id: string): Promise<boolean> {
     return Boolean(
-      (await db.query(
-        'SELECT 1 FROM user_clients WHERE client_id = ? AND has_login',
-        [client_id]
-      ))[0][0]
+      (
+        await db.query(
+          'SELECT 1 FROM user_clients WHERE client_id = ? AND has_login',
+          [client_id]
+        )
+      )[0][0]
     );
   },
 

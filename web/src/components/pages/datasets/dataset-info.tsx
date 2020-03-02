@@ -28,27 +28,12 @@ import stats from './stats';
 
 import './dataset-info.css';
 
-const msToHours = (ms: number) => Math.floor(ms / 1000 / 60 / 60);
-
-const validHours = Object.entries(stats.locales).reduce(
-  (obj, [locale, localeStats]) => {
-    const avgDuration = localeStats.duration / localeStats.clips;
-    console.log(locale, avgDuration);
-    obj[locale] = msToHours(localeStats.buckets.validated * avgDuration);
-    return obj;
-  },
-  {} as any
-);
-
-const total = msToHours(
-  Object.values(stats.locales).reduce((sum, l) => sum + l.duration, 0)
-);
-const valid = Object.values(validHours).reduce(
-  (sum: number, n: number) => sum + n,
-  0
-) as number;
 const languages = Object.keys(stats.locales).length;
-const globalStats = { total, valid, languages };
+const globalStats = {
+  total: stats.totalHrs,
+  valid: stats.totalValidHrs,
+  languages,
+};
 
 const DEFAULT_CATEGORY_COUNT = 2;
 
@@ -165,12 +150,24 @@ class DatasetInfo extends React.Component<Props, State> {
       confirmNoIdentify,
     } = this.state;
     const localeStats = stats.locales[locale as keyof typeof stats.locales];
-    const megabytes = Math.floor(localeStats.size / 1000 / 1000);
+    const megabytes = localeStats.size / 1024 / 1024;
     const size =
-      megabytes > 1000
-        ? Math.floor(megabytes / 1000) + ' ' + getString('size-gigabyte')
-        : megabytes + ' ' + getString('size-megabyte');
-    const totalHours = msToHours(localeStats.duration);
+      megabytes < 1
+        ? Math.floor(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
+        : megabytes > 1024
+        ? Math.floor(megabytes / 1024) + ' ' + getString('size-gigabyte')
+        : Math.floor(megabytes) + ' ' + getString('size-megabyte');
+
+    const totalHours =
+      localeStats.totalHrs < 1
+        ? Math.floor(localeStats.totalHrs * 100) / 100
+        : Math.floor(localeStats.totalHrs);
+
+    const validHours =
+      localeStats.validHrs < 1
+        ? Math.floor(localeStats.validHrs * 100) / 100
+        : Math.floor(localeStats.validHrs);
+
     return (
       <div className="dataset-info">
         <div className="top">
@@ -219,7 +216,7 @@ class DatasetInfo extends React.Component<Props, State> {
                       {[locale, totalHours + 'h', stats.date].join('_')}
                     </div>
                   ),
-                  'validated-hr-total': validHours[locale],
+                  'validated-hr-total': validHours.toLocaleString(),
                   'overall-hr-total': totalHours.toLocaleString(),
                   'cv-license': 'CC-0',
                   'number-of-voices': localeStats.users.toLocaleString(),

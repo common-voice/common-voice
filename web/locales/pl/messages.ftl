@@ -75,6 +75,7 @@ it = włoski
 izh = iżorski
 ja = japoński
 ka = gruziński
+kaa = karakałpacki
 kab = kabylski
 kbd = kabardyjski
 kk = kazachski
@@ -83,6 +84,7 @@ kpv = komi (zyriański)
 ku = kurdyjski
 kw = kornijski
 ky = kirgiski
+lg = luganda
 lij = liguryjski
 lt = litewski
 lv = łotewski
@@ -94,6 +96,7 @@ ml = malajalam
 mn = mongolski
 mrj = maryjski górski
 mt = maltański
+my = birmański
 myv = erzja
 nb-NO = norweski (bokmål)
 ne-NP = nepalski
@@ -111,6 +114,7 @@ ru = rosyjski
 rw = kinyarwanda
 sah = jakucki
 sc = sardyński
+scn = sycylijski
 si = syngaleski
 sk = słowacki
 sl = słoweński
@@ -123,6 +127,7 @@ ta = tamilski
 te = telugu
 tg = tadżycki
 th = tajski
+tl = tagalski
 tr = turecki
 tt = tatarski
 uby = ubyski
@@ -130,6 +135,7 @@ udm = udmurcki
 uk = ukraiński
 ur = urdu
 uz = uzbecki
+vec = wenecki
 vi = wietnamski
 vot = wotycki
 zh-CN = chiński (Chiny)
@@ -451,6 +457,10 @@ about-get-involved-text =
     Chcesz pomóc jeszcze bardziej ulepszyć projekt Common Voice?
     Wspaniale! Skontaktuj się z nami przez e-mail lub serwis <discourseLink>Discourse</discourseLink>,
     prześlij opinię przez <githubLink>GitHub</githubLink> lub dołącz do nas w aplikacji <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Chcesz pomóc jeszcze bardziej ulepszyć projekt Common Voice?
+    Wspaniale! Skontaktuj się z nami przez e-mail lub serwis <discourseLink>Discourse</discourseLink>,
+    prześlij opinię przez <githubLink>GitHub</githubLink> lub dołącz do nas w sieci <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy

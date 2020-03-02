@@ -17,6 +17,7 @@
         margin-bottom: 30px;
         font-family: var(--base-font-family);
         font-size: 48px;
+        text-align: center;
         font-weight: normal;
     }
 
@@ -33,6 +34,7 @@
     & p {
         max-width: 270px;
         line-height: 1.5;
+        text-align: center;
     }
 }
 

@@ -101,8 +101,9 @@
 
         & .icon {
             position: absolute;
-            left: -32px;
+            left: 0;
             top: 1rem;
+            transform: translateX(-50%);
         }
 
         & .center-arrow {
@@ -151,8 +152,8 @@
 
             .icon {
                 position: relative;
-                left: 0;
                 top: 0;
+                transform: none;
                 margin-bottom: 1.25rem;
             }
 

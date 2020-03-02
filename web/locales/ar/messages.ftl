@@ -90,6 +90,7 @@ mk = المقدونيّة
 ml = الملايلاميّة
 mn = المنغوليّة
 mt = المالطيّة
+my = البورميّة
 myv = الأرزيّة
 nb-NO = النّرويجيّة بوكمال
 ne-NP = النيباليّة
@@ -345,6 +346,7 @@ recording-in-progress = يجري تسجيل الصوت
 retry-voice-wave-recording = أعِد المحاولة
 re-record = أعِد التسجيل
 delete-voice = احذف
+recording-voice-wave = التسجيل
 delete-voice-clip = أو احذف المقطع الصوتي
 ready-to-upload = ارفع
 avatar-clip-fact = ثَبُت بالحقائق أنّ انتباه القارئ (بينما يقرأ المحتوى النصّي للصفحة) يتشتّت ما إن ينظر إلى تصميمها.
@@ -663,9 +665,11 @@ report-grammar-or-spelling = خطأ نحوي/إملائي
 report-grammar-or-spelling-detail = تحتوي الجملة على خطأ نحوي أو إملائي.
 report-different-language = لغه مختلفة
 report-different-language-detail = الجملة مكتوبة بلغة مختلفة عن اللغة التي أتحدث بها.
+report-difficult-pronounce = نطقها صعب
 report-difficult-pronounce-detail = تحتوي الجملة على كلمات أو عبارات يصعب قراءتها أو نطقها.
 report-offensive-speech = كلام هجومي
 report-offensive-speech-detail = يحتوي المقطع على لغة مهينة أو مسيئة.
+continue = واصِل
 report-success = أُرسل البلاغ بنجاح
 
 ## Goals
@@ -750,4 +754,5 @@ profile-form-delete = احذف الملف الشخصي
 
 ## Landing
 
+login-company = لِج أو سجّل حسابًا ببريد { $company }
 profile-not-required = امتلاكك لملف شخصي ليس مطلوبا لتشارك معنا، إلا أن وجوده مفيد

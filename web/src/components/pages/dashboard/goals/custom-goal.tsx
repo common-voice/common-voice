@@ -205,8 +205,8 @@ export default function CustomGoal({
   const { history, location } = useRouter();
   const api = useAPI();
   const account = useAccount();
-  const { custom_goals, email } = account;
-  const customGoal = custom_goals.find(g => g.locale == dashboardLocale);
+  const { custom_goals, email } = account || {};
+  const customGoal = custom_goals?.find(g => g.locale == dashboardLocale);
   const refreshUser = useAction(User.actions.refresh);
   const saveAccount = useAction(User.actions.saveAccount);
 
@@ -241,13 +241,19 @@ export default function CustomGoal({
   const Step = steps[stepIndex];
 
   const states: any = {
-    daysInterval: [['daily-goal', 1], ['weekly-goal', 7]],
-    amount: [['easy', 15], ['average', 30], ['difficult', 45], ['pro', 60]].map(
-      ([labelId, value]) => [
-        labelId + '-difficulty',
-        (state.daysInterval || 0) * (value as number),
-      ]
-    ),
+    daysInterval: [
+      ['daily-goal', 1],
+      ['weekly-goal', 7],
+    ],
+    amount: [
+      ['easy', 15],
+      ['average', 30],
+      ['difficult', 45],
+      ['pro', 60],
+    ].map(([labelId, value]) => [
+      labelId + '-difficulty',
+      (state.daysInterval || 0) * (value as number),
+    ]),
     type: [
       ['speak', 'speak'],
       ['listen', 'listen'],

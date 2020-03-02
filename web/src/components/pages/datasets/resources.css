@@ -5,6 +5,7 @@
     background: var(--lighter-grey);
 
     @media (--md-down) {
+        align-items: center;
         flex-direction: column;
         padding: 60px 20px 0;
     }
@@ -171,6 +172,7 @@
             margin-bottom: 65px;
             height: 85px;
             opacity: 0.2;
+            z-index: 0;
         }
 
         & img {
@@ -180,6 +182,7 @@
             height: 80px;
             position: absolute;
             top: 45px;
+            z-index: 1;
             inset-inline-start: 50px;
             background: white;
         }

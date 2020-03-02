@@ -92,21 +92,22 @@ const TopBar = ({
               <h2>Challenge</h2>
             </LocaleNavLink>
           )}
-          {[['stats', URLS.STATS], ['goals', URLS.GOALS]].map(
-            ([label, path]) => (
-              <LocaleNavLink
-                key={path}
-                to={
-                  URLS.DASHBOARD +
-                  (dashboardLocale ? '/' + dashboardLocale : '') +
-                  path
-                }>
-                <Localized id={label}>
-                  <h2 />
-                </Localized>
-              </LocaleNavLink>
-            )
-          )}
+          {[
+            ['stats', URLS.STATS],
+            ['goals', URLS.GOALS],
+          ].map(([label, path]) => (
+            <LocaleNavLink
+              key={path}
+              to={
+                URLS.DASHBOARD +
+                (dashboardLocale ? '/' + dashboardLocale : '') +
+                path
+              }>
+              <Localized id={label}>
+                <h2 />
+              </Localized>
+            </LocaleNavLink>
+          ))}
           <LocaleNavLink
             to={
               URLS.DASHBOARD +
@@ -261,7 +262,9 @@ export default function Dashboard() {
   if (isChallengeEnrolled) {
     // @ts-ignore
     pages.unshift({ subPath: URLS.CHALLENGE, Page: ChallengePage });
-    defaultPage = URLS.CHALLENGE;
+    if (isChallengeLive(pilotDates)) {
+      defaultPage = URLS.CHALLENGE;
+    }
   }
 
   useEffect(() => {
