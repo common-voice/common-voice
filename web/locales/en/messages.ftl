@@ -478,6 +478,10 @@ about-get-involved-text-2020 = Want to help make Common Voice even better?
     Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
     submit feedback through <githubLink>GitHub</githubLink>,
     or join us on <matrixLink>Matrix</matrixLink>.
+about-get-involved-text-2020-2 = Want to help make Common Voice even better?
+    Great! Get in touch via email or <discourseLink>Discourse</discourseLink>
+    forums, submit site issues via <githubLink>GitHub</githubLink>, or join the
+    <matrixLink>Matrix</matrixLink> community chat.
 
 about-nav-why-common-voice = Why ?
 about-nav-how-it-works = How ?
