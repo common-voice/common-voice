@@ -287,6 +287,12 @@ const UserClient = {
       'UPDATE user_clients SET email = ? WHERE email = ? AND has_login',
       [email, old_email]
     );
+
+    await db.query(
+      'UPDATE user_client_newsletter_prefs SET email = ? WHERE email = ?',
+      [email, old_email]
+    );
+
     return true;
   },
 
