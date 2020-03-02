@@ -83,8 +83,7 @@
             padding: 30px 20px 15px;
         }
         @media (--md-up) {
-            padding-top: 95px;
-            padding-bottom: 225px;
+            padding: 95px 20px 225px;
 
             & .title,
             & .description {
@@ -152,6 +151,7 @@
         align-items: center;
         justify-content: center;
         background: var(--white);
+        padding: 0 20px;
 
         @media (--md-down) {
             margin-bottom: 33px;
@@ -282,5 +282,6 @@
 
     & .register-section {
         margin-top: 50px;
+        padding: 0 20px;
     }
 }
