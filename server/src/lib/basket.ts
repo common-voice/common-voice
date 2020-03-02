@@ -93,7 +93,7 @@ async function updateFullBasket(currentUserStats: any) {
         current_goal.created_at >= goals.created_at
       )
       LEFT JOIN awards ON current_goal.id = awards.custom_goal_id
-      WHERE newsletter.client_id = "11aa5a4b-4a0f-43ea-94d9-9b1158551d63"
+      WHERE newsletter.client_id = ?
       GROUP BY newsletter.client_id
     `,
     [currentUserStats.client_id]
