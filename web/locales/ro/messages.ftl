@@ -445,15 +445,11 @@ about-partners = Parteneri
 about-become-a-partner = Devino un partener
 about-partnership = Common Voice este un proiect de colaborare și depindem de comunitatea de parteneri și colaboratori ca să construim cel mai mare set de date vocale cu sursă deschisă. Am dori să mulțumim următoarelor persoane și organizații pentru ajutorul acordat în cadrul proiectului:
 about-get-involved = Implică-te
-about-get-involved-text =
+about-get-involved-text-2 =
     Vrei să ajuți la îmbunătățirea Common Voice?
-    Grozav! Ia legătura cu noi prin e-mail sau intră pe <discourseLink>Discourse</discourseLink>,
-    dă-ne feedback prin <githubLink>GitHub</githubLink> sau alătură-te pe <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Vrei să ajuți la îmbunătățirea Common Voice?
-    Grozav! Ia legătura prin e-mail sau pe <discourseLink>Discourse</discourseLink>,
+    Grozav! Ia legătura prin e-mail sau pe FORUMURILE <discourseLink>Discourse</discourseLink>
     trimite feedback prin <githubLink>GitHub</githubLink>
-    sau vino alături de noi pe <matrixLink>Matrix</matrixLink>.
+    sau intră în chatul comunității <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = De ce?
 about-nav-how-it-works = Cum?
 about-nav-partners = Parteneri
