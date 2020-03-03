@@ -3,6 +3,21 @@ import { getConfig } from '../config-helper';
 import { getMySQLInstance } from './model/db/mysql';
 import { computeGoals } from './model/goals';
 
+type UserEmailStats = {
+  client_id: string;
+  email: string;
+  basket_token: string;
+
+  first_contrib: string;
+  goal_created: string;
+  goal_reached: string;
+  two_day_streak: boolean;
+  last_active: boolean;
+
+  new_last_active: string;
+  hours_elapsed: number;
+};
+
 const { BASKET_API_KEY, ENVIRONMENT } = getConfig();
 const db = getMySQLInstance();
 
@@ -36,7 +51,7 @@ async function getCurrentStatus(client_id: string) {
   return row;
 }
 
-function updateLastActive(currentUserStats: any) {
+function updateLastActive(currentUserStats: UserEmailStats) {
   db.query(
     `UPDATE user_client_newsletter_prefs
       SET last_active = ?
@@ -53,12 +68,9 @@ function updateLastActive(currentUserStats: any) {
     ...basketConfig,
     form: data,
   }).catch(err => console.error(err.message));
-
-  console.log('basket', JSON.stringify(data, null, 2));
-  return;
 }
 
-async function updateFullBasket(currentUserStats: any) {
+async function updateFullBasket(currentUserStats: UserEmailStats) {
   const [[computed]] = await db.query(
     `
       SELECT
@@ -135,8 +147,6 @@ async function updateFullBasket(currentUserStats: any) {
     ...basketConfig,
     form: data,
   }).catch(err => console.error(err.message));
-
-  console.log('basket', JSON.stringify(data, null, 2));
 }
 
 export async function sync(client_id: string) {
@@ -145,7 +155,7 @@ export async function sync(client_id: string) {
 
   // If no newsletter prefs exist, they don't get email triggers
   // If last update was within the past hour, do not send another sync
-  if (!currUserStats || currUserStats.hours_elapsed === 0) {
+  if (!currUserStats || parseInt(currUserStats.hours_elapsed) === 0) {
     return;
   }
 
