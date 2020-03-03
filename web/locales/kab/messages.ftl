@@ -446,15 +446,11 @@ about-partnership =
     
     Ad nesnemmer meṛṛa imdanen akked tuddsiwin-a ɣef tallelt deg usenfaṛ:
 about-get-involved = Ttekki
-about-get-involved-text =
-    Tabɣiḍ ad tesnerniḍ Common Voice ?
-    Igerrez! Nermes-aɣ-d s yimayl neɣ deg <discourseLink>Discourse</discourseLink>,
-    azen-d iwenniten deg <githubLink>GitHub</githubLink>,
-    neɣ ddu-d yid-neɣ deg <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Tebɣiḍ ad tekkiḍ akken iqeεed Common Voice?
-    Igerrez! aru-aɣ-d s imayl ɣer <discourseLink>Discourse</discourseLink>,
-    neɣ ttekki yid-nneɣ deg <matrixLink>Matrix</matrixLink>.
+about-get-involved-text-2 =
+    Tebɣiḍ ad d-tefkkeḍ afus n tallelt deg uqaεed n Common Voice?
+    Igerrez! Nermes-aɣ-d s imayl neɣ afurum<discourseLink>Discourse</discourseLink>
+    Azen-d uguren ɣer useɣwen <githubLink>GitHub</githubLink>, neɣ ddu ɣer
+    udiwenni n timseɣwent<matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Acuɣer?
 about-nav-how-it-works = Amek?
 about-nav-partners = Imendiden
