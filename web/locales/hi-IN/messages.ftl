@@ -463,16 +463,11 @@ about-partnership =
     
     हम निम्नलिखित लोगों और संगठनों को परियोजना में उनकी मदद के लिए धन्यवाद देना चाहेंगे:
 about-get-involved = शामिल हों
-about-get-involved-text =
-    आम आवाज को और बेहतर बनाने में मदद करना चाहते हैं?
-    महान ! ईमेल के माध्यम से या <प्रवचन पर जाएं> प्रवचन </ प्रवचन पर> संपर्क करें,
-    <githubLink> GitHub </ githubLink> के माध्यम से प्रतिक्रिया सबमिट करें,
-    या हमसे जुड़ें <slackLink> सुस्त </ slackLink> पर।
-about-get-involved-text-2020 =
+about-get-involved-text-2 =
     Common Voice को और बेहतर बनाने में मदद करना चाहते हैं?
-    बढिया! ईमेल द्वारा संपर्क करें या <discourseLink>Discourse</discourseLink> पर,
-    <githubLink>GitHub</githubLink> के माध्यम से अपनी प्रतिक्रिया दर्ज करें,
-    या फिर <matrixLink>Matrix</matrixLink> पर हमारे साथ जुड़ें।
+    बढिया! ईमेल या <discourseLink>Discourse</discourseLink>
+    फोरम द्वारा संपर्क करें, <githubLink>GitHub</githubLink> के माध्यम से साइट की समस्याएं दर्ज करें, या फिर
+    <matrixLink>Matrix</matrixLink> कम्यूनिटी चैट में शामिल हों।
 about-nav-why-common-voice = क्यों ?
 about-nav-how-it-works = कैसे ?
 about-nav-partners = सहभागी
