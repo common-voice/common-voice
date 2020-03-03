@@ -447,16 +447,11 @@ about-partnership =
     
     特別感謝下列人員與組織單位，協助本專案:
 about-get-involved = 參與我們
-about-get-involved-text =
+about-get-involved-text-2 =
     想要幫忙讓 Common Voice 變得更棒嗎？
-    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、
-    透過 <githubLink>GitHub</githubLink> 送出意見回饋、
-    也可以加入我們的 <slackLink>Slack</slackLink>。
-about-get-involved-text-2020 =
-    想要幫忙讓 Common Voice 變得更棒嗎？
-    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、
-    透過 <githubLink>GitHub</githubLink> 送出意見回饋、
-    也可以加入我們的 <matrixLink>Matrix</matrixLink>。
+    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink>
+    討論區留言、透過 <githubLink>GitHub</githubLink> 回報網站問題、
+    或是加入我們的 <matrixLink>Matrix</matrixLink> 社群聊天室。
 about-nav-why-common-voice = 為什麼？
 about-nav-how-it-works = 怎麼做？
 about-nav-partners = 夥伴
