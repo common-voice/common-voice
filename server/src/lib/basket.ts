@@ -11,8 +11,8 @@ type UserEmailStats = {
   first_contrib: string;
   goal_created: string;
   goal_reached: string;
-  two_day_streak: boolean;
-  last_active: boolean;
+  two_day_streak: string;
+  last_active: string;
 
   new_last_active: string;
   hours_elapsed: number;
