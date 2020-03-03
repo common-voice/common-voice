@@ -445,16 +445,11 @@ about-partnership =
     
     Chúng tôi xin cảm ơn những người và tổ chức sau đây đã giúp đỡ cho dự án:
 about-get-involved = Tham gia đóng góp
-about-get-involved-text =
+about-get-involved-text-2 =
     Bạn muốn giúp làm cho Common Voice trở nên tốt hơn?
-    Tuyệt quá! Hãy liên lạc qua email hoặc trên <discourseLink>Discourse</discourseLink>,
-    gửi phản hồi thông qua <githubLink>GitHub</githubLink>,
-    hoặc tham gia với chúng tôi trên <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Bạn muốn giúp làm cho Common Voice trở nên tốt hơn?
-    Tuyệt quá! Hãy liên lạc qua email hoặc trên <discourseLink>Discourse</discourseLink>,
-    gửi phản hồi thông qua <githubLink>GitHub</githubLink>,
-    hoặc tham gia với chúng tôi trên <matrixLink>Matrix</matrixLink>.
+    Tuyệt quá! Hãy liên lạc qua email hoặc diễn đàn <discourseLink>Discourse</discourseLink>,
+    gửi các vấn đề về trang web thông qua <githubLink>GitHub</githubLink>,
+    hoặc tham gia trò chuyện cộng đồng trên <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Tại sao ?
 about-nav-how-it-works = Làm thế nào ?
 about-nav-partners = Đối tác
