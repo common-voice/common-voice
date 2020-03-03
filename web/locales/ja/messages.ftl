@@ -257,7 +257,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 録音/停止
 shortcut-rerecord-toggle = [1〜5]
-shortcut-rerecord-toggle-label = 音声を再録音する
+shortcut-rerecord-toggle-label = 音声クリップを再録音
 request-language-text = あなたの使っている言語は Common Voice にありますか？
 request-language-button = 言語の追加をリクエスト
 
@@ -588,11 +588,11 @@ other-language = 他の言語
 ## Languages Overview
 
 language-section-in-progress = 現在進行中
-language-section-in-progress-new-description = これらの言語は現在、コミュニティが開発中です。進捗バーは、各言語が <localizationGlossaryLink>ウェブサイトのローカライズ</localizationGlossaryLink> と <sentenceCollectionGlossaryLink>文章の収集</sentenceCollectionGlossaryLink> のプロセスの進捗状況を示します。
+language-section-in-progress-new-description = これらの言語は現在、コミュニティが開発中です。進捗バーは、各言語が進めている <localizationGlossaryLink>ウェブサイトのローカライズ</localizationGlossaryLink> と <sentenceCollectionGlossaryLink>文章の収集</sentenceCollectionGlossaryLink> のプロセスの状況を示します。
 language-section-launched = 公開中
 language-section-launched-description = これらの立ち上げられた言語について、ウェブサイトは<localizationGlossaryLink>ローカライズ</localizationGlossaryLink>されており、<speakLink>話すこと</speakLink>と<listenLink>聞くこと</listenLink>の貢献を可能にするのに十分な<sentenceCollectionGlossaryLink>文章</sentenceCollectionGlossaryLink>が集められています。
 languages-show-more = もっと見る
-languages-show-less = 閉じる
+languages-show-less = 折りたたむ
 language-meter-in-progress = 進捗
 language-total-progress = 合計
 language-search-input =
@@ -646,7 +646,7 @@ listen-instruction = <playIcon></playIcon>を{ $actionType }、流れる音声�
 listen-again-instruction = ありがとう！準備ができたら<playIcon></playIcon>で次の音声を聞いてください
 listen-3rd-time-instruction = ２つ終わりました、続けてがんばって！<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>最後の一つ！
-nothing-to-validate = この言語で検証することはありません。キューを埋めるのを手伝ってください。
+nothing-to-validate = この言語で検証できる音声クリップはありません。まず音声の録音にご協力ください。
 record-button-label = あなたの声を録音する
 share-title-new = 音声を集める<bold>手伝い</bold>をしてください
 keep-track-profile = プロフィールで進捗状況を追跡する
