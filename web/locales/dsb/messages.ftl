@@ -454,12 +454,9 @@ about-partnership =
     
     Comy se slědujucym luźam a organizacijam za jich pomoc na projekśe źěkowaś:
 about-get-involved = Cyńśo sobu
-about-get-involved-text =
+about-get-involved-text-2 =
     Cośo pomagaś, Common Voice pólěpšyś?
-    Wjelicnje! Stajśo se z nami pśez e-mail abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo swóje komentary pśez <githubLink>Github</githubLink> abo woglědajśo se k nam na <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Cośo pomagaś, Common Voice pólěpšyś?
-    Wjelicnje! Stajśo se z nami pśez e-mail abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo swóje komentary pśez <githubLink>Github</githubLink> abo woglědajśo se k nam na <matrixLink>Matrix</matrixLink>.
+    Wjelicnje! Stajśo se z nami pśez e-mail abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo sedłowe problemy pśez <githubLink>Github</githubLink> abo woglědajśo se k nam w chaśe zgromaźeństwa <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Cogodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnarje

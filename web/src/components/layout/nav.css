@@ -82,7 +82,7 @@ header {
 
     & .login {
         margin: 0 20px;
-        min-width: auto;
+        min-width: max-content;
 
         @media (--md-down) {
             display: none;
@@ -241,6 +241,10 @@ header {
     @media (--md-up) {
         flex-direction: row;
         margin-inline-start: 1rem;
+    }
+
+    @media (--lg-only) {
+        margin-inline-end: 0;
     }
 
     &:hover {

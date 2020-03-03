@@ -5,7 +5,7 @@ stayintouch = Mozilla ovoz texnologiyasi boʻyicha butun dunyo tillari jamoalari
 privacy-info = Biz maʼlumotlaringizni ehtiyot qilamiz. <privacyLink>Maxfiylik siyosati</privacyLink> haqidagi maʼlumotlarni oʻqib chiqing.
 return-to-cv = Common Voiceʼga qaytish
 email-input =
-    .label = Elektron pochta
+    .label = Email
 submit-form-action = Yuborish
 loading = Yuklanmoqda...
 email-opt-in-info = Men maqsad va yutuqlar haqida bildirishnomalarni hamda Common Voice haqidagi yangiliklarni qabul qilib turishni istayman.
@@ -21,13 +21,17 @@ not-available-abbreviation = M/E
 
 ab = Abxazcha
 ace = Aceh
+ady = Adigey
+af = Afrika
 am = Amharik
 an = Aragon
 ar = Arab
+arn = Mapuche
 as = Assam
 ast = Astur
 az = Ozarbayjon
 ba = Boshqird
+be = Belarus
 bg = Bolgar
 bn = Bengal
 br = Breton
@@ -41,6 +45,7 @@ cy = Uels
 da = Daniya
 de = Nemis
 dsb = Sorb, quyi
+dv = Maldiv
 el = Grek
 en = Ingliz
 eo = Esperanto
@@ -48,6 +53,7 @@ es = Ispan
 et = Eston
 eu = Bask
 fa = Fors
+ff = Fula
 fi = Fin
 fo = Farer
 fr = Fransuz
@@ -82,8 +88,13 @@ lt = Litva
 lv = Latish
 mdf = Moksha
 mg = Malagasi
+mhr = Lugo Mariy
 mk = Makedon
+ml = Malay
 mn = Mongol
+mrj = Mari
+mt = Malta
+my = Birma
 myv = Erzyan
 nb-NO = Norvegiya Bokmål
 ne-NP = Nepal
@@ -91,24 +102,38 @@ nl = Golland
 nn-NO = Norvegiya Ninorsk
 oc = Oksitan
 or = Odia
+pa-IN = Panjob
 pl = Polyak
-rm-sursilv = Romansh Sursilvan
+pt = Portugal
+rm-sursilv = Roman Sursilvan
+rm-vallader = Roman Vallader
 ro = Rumin
 ru = Rus
-sah = Saxa
+rw = Ruanda
+sah = Yoqut
+sc = Sardin
+scn = Sitsiliy
+si = Singal
 sk = Slovak
-sl = Sloven
+sl = Slavyan
 sq = Alban
 sr = Serb
 sv-SE = Shved
+sw = Suaxili
+syr = Suriy
 ta = Tamil
 te = Telugu
+tg = Tojik
 th = Tay
+tl = Tagal
 tr = Turk
 tt = Tatar
+uby = Ubux
+udm = Udmurt
 uk = Ukrain
 ur = Urdu
 uz = O‘zbek
+vec = Venetsiya
 vi = Vetnam
 vot = Vot
 zh-CN = Xitoycha (Xitoy)
@@ -137,6 +162,7 @@ share-title = Ovozi bilan yordam qiladigan insonlarni topishda yordam bering!
 share-text = { $link } havolasi orqali ovozingiz bilan yordam qilib, mashinalarga haqiqiy insonlar qanday gapirishini o‘rgating
 link-copied = Havoladan nusxa olindi
 back-top = Yuqoriga qaytish
+logout = Chiqish
 
 ## Home Page
 
@@ -162,8 +188,12 @@ listen-paragraph = Qo‘shilgan ovozlarni tekshirish – Common Voice loyihasi u
 listen-goal-text = Kliplar tekshirildi
 hours-recorded = Yozib olingan soat
 hours-validated = Soat tekshirildi
+voices-online = Ayni damdagi onlayn ovozlar
+todays-progress = Bugungi o'zgarish
+help-reach-goal = { $goal } ga yetishga yordam bering
 read-terms-q = Shartlarimiz bilan tanishdingizmi?
 ready-to-record = Ovozingiz bilan yordam qilishga tayyormisiz?
+all-locales = Barchasi
 today = Bugun
 x-weeks-short =
     { $count ->
@@ -180,12 +210,18 @@ x-years-short =
         [one] 1 yil
        *[other] { $count } yil
     }
+help-make-dataset = Bizga yuqori sifatli ommaviy maʼlumotlar bazasini yaratishga yordam bering
+sign-up-account = Akkauntni roʻyxatdan oʻtkazish
+email-subscription-title = Yangiliklardan xabardor bo‘lib turish uchun email orqali obuna bo‘ling
 
 ## Account Benefits
 
+benefits = Ustunlik
 
 ## What's public
 
+whats-public = Qaysi maʼlumotlar barcha uchun ochiq?
+email-not-public = Emailingizni sizdan boshqa hech kim koʻrmaydi.
 
 ## Speak & Listen Shortcuts
 
@@ -211,6 +247,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Yozib olish/To‘xtatish
+shortcut-rerecord-toggle-label = Klipni qayta yozish
 request-language-text = Common Voice loyihasida ona tilingizni ko‘rmayapsizmi?
 request-language-button = Til qo‘shishni so‘rang
 
@@ -232,12 +269,20 @@ english = Ingliz
 
 profile-form-username =
     .label = Foydalanuvchi nomi
+profile-form-native-language =
+    .label = Ona tili
+profile-form-additional-language =
+    .label = Qoʻshimcha til
 profile-form-accent =
     .label = Aksent
 profile-form-age =
     .label = Yosh
 profile-form-gender =
     .label = Jins
+leaderboard-visibility =
+    .label = Meni liderlar safida koʻrsatish
+hidden = Yashirin
+visible = Koʻrinarli
 native-language =
     .label = Ona tili
 profile-form-submit-save = Saqlash
@@ -248,6 +293,10 @@ female = Ayol
 other = Boshqa
 why-profile-title = Nega profil?
 why-profile-text = O‘zingiz haqingizda ma’lumot kiritib, Common Voice loyihasiga audio ma’lumotlarni yuborsangiz, nutqni tanish tizimiga yordamlashgan bo‘lasiz. Bu ovozli yozuvlar ovozni tanish aniqligi va sifatini oshirishda yordam beradi.
+dashboard = Boshqaruv paneli
+avatar = Avatar
+goals = Maqsadlar
+settings = Sozlamalar
 edit-profile = Profilni tahrirlash
 profile-create-success = Profil yaratildi!
 profile-close = Yopish
@@ -257,6 +306,7 @@ why-demographic = Bu nega kerak?
 why-demographic-explanation = Foydalanuvchilarning yoshi, jinsi va talaffuzi  kabi anonim maʼlumotlari nutqni tanish tizimlariga oʻrgatishda foydalaniladigan audio maʼlumotlari sifatini oshirishda yordam beradi. Taxallus va e-pochta manzilingiz siz yuborgan maʼlumotlariga qoʻshilmaydi va taxallusingizni hamma koʻradigan yoki maxfiy qilishni tanlashingiz mumkin.
 accept-privacy = Mozillaning <privacyLink>Maxfiylik siyosati</privacyLink>da koʻrsatilganidek maʼlumotlarimdan foydalanishlariga roziman.
 login-identity = Kirish uchun identifikator
+login-signup = Kirish/Roʻyxatdan oʻtish
 edit = Tahrirlash
 email-subscriptions = E-pochta orqali obuna
 download-profile = Ma’lumotlarni yuklab olish
@@ -265,16 +315,39 @@ skip-submission-feedback = Ishga baho berishni tashlab ketish
 skip-submission-note = Diqqat: hissa qo‘shish turini o‘zgartirish uchun "Gapirish" yoki "Tinglash"dan birini tanlashingiz lozim.
 off = O‘chiq
 on = Yoniq
+avatar-clip-title = Oʻz avataringizga ovoz bering
+retry-voice-wave-recording = Qaytarish
+re-record = Qayta yozish
+delete-voice = Oʻchirish
+recording-voice-wave = Yozish
+delete-voice-clip = yoki ovozli yozuvi oʻchirish
+ready-to-upload = Yuklash
+cancel-avatar-clip-recording = Bekor qilish
+browse-file-title = Rasm yuklash
+add-language = Til qoʻshish
 
 ## FAQ
 
 faq-title = Savol-javob
+faq-how-get-q = Qanday qilib Common Voice maʼlumotlarini olishim mumkin?
+faq-how-calc-hours-q = Common Voice soatlarni qanday qilib hisoblaydi?
 
 ## ABOUT US
 
+how-does-it-work-title = Bu qanday ishlaydi?
+about-speak = Gapiring
+about-listen-queue = Eshitish navbati
+about-listen = Eshiting
+about-partners = Hamkorlar
+about-nav-why-common-voice = Nega?
+about-nav-partners = Hamkorlar
+about-nav-get-involved = Hissa qo‘shish
+mycroft-subtitle = Sunʼiy idrok
 
 ## Glossary
 
+glossary = Glossariy
+localization = Mahalliylashtirish
 
 ## NotFound
 
@@ -311,11 +384,30 @@ review-delete-recordings = Yozuvlarni o‘chirish
 
 ## Datasets Page
 
+language = Til
+# File size in gigabytes
+size = Oʻlcham
+validated-hr-total = Jami tekshirilgan soatlar
+overall-hr-total = Jami soatlar
+cv-license = Litsenziya
+audio-format = Audioformat
+number-of-voices = Ovozlar soni
+splits = Ajratish
+email-to-download = Yuklab olish uchun emailni kiriting
+download-language = { $language }ni yuklash
+validated-hours = Tekshilgan soatlar miqdori
+recorded-hours = Jami yozilgan soatlar
+subscribe = Obuna boʻlish
+feedback-q = Fikr-mulohazalaringizni bildirasizmi?
 data-other-librispeech-description = LibriSpeech – LibriVox loyihasidagi ingliz tilida 16Khz 1000 soat atrofida o‘qilgan audiokitoblar jamlanmasi.
 data-other-ted-name = TED-LIUM to‘plami
 data-other-ted-description = TED-LIUM to‘plami TED saytida mavjud bo‘lgan audio suhbatlar va ularning transkripsiyasidan iborat.
 data-other-voxforge-description = VoxForge – erkin va ochiq manbali nutqni tanish tizimlaridagi transkripsiya qilingan nutqlarni to‘plash uchun sozlangan.
 data-other-tatoeba-description = Tatoeba –  katta hajmdagi til o‘rganish uchun talaffuz qilingan audio fayllar, jumlalar va tarjima bazasidan iborat. Yuklanayotgan to‘plamda ingliz tilida talaffuz qilingan jumlalar mavjud.
+more = Koʻproq
+close = Yopish
+download = Yuklash
+dataset-version = Talqin
 
 ## Download Modal
 
@@ -343,6 +435,7 @@ request-language-form-language =
     .label = Til
 request-language-success-title = Til so‘rovi amalga oshirildi. Rahmat.
 request-language-success-content = Ona tilingizni Common Voice loyihasiga qo‘shish haqida ma’lumotlarni tezda yuboramiz.
+select-language = Tilni tanlash...
 other-language = Boshqa tillar
 
 ## Languages Overview
