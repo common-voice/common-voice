@@ -742,6 +742,10 @@ goal-interval-weekly = 毎週
 share-goal-type-speak = 話す
 share-goal-type-listen = 聞く
 share-goal-type-both = 話すと聞く
+weekly-goal-created = 毎週の目標が作成されました
+daily-goal-created = 毎日の目標が作成されました
+return-to-edit-goal = ここに戻って、いつでも目標を編集できます。
+share-goal = 目標を共有する
 
 ## Profile Delete
 
