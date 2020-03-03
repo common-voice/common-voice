@@ -1,6 +1,6 @@
 FROM node:10-stretch
 
-ARG MAINTAINER="Philippe M. Chiasson <gozer@mozilla.com>"
+ARG MAINTAINER="Alberto del Barrio <alberto@mozilla.com>"
 ARG BRANCH="master"
 ARG COMMIT="local-build"
 ARG TAG=""
@@ -23,6 +23,9 @@ COPY . /code
 # Setup work directory
 WORKDIR /code
 
+# Create directory for storing logs
+RUN mkdir /code/logs
+
 # Install dependencies
 RUN apt-get update && \
     apt-get install -y apt-transport-https && \
@@ -42,4 +45,4 @@ RUN yarn
 RUN yarn build
 
 # Default command to start the server
-CMD yarn start
+CMD yarn start 2>&1 | tee /code/logs/voice-server.log
