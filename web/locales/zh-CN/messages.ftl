@@ -442,16 +442,11 @@ about-partnership =
     
     我们要感谢以下人员和组织对项目的帮助：
 about-get-involved = 参与进来
-about-get-involved-text =
+about-get-involved-text-2 =
     想要帮忙使 Common Voice 变得更好吗？
-    太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 留言、
-    通过 <githubLink>GitHub</githubLink> 提交反馈意见、
-    也可以加入我们的 <slackLink>Slack</slackLink>。
-about-get-involved-text-2020 =
-    想要帮忙使 Common Voice 变得更好吗？
-    太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 留言、
-    通过 <githubLink>GitHub</githubLink> 提交反馈意见、
-    也可以加入我们的 <matrixLink>Matrix</matrixLink>。
+    太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 论坛留言、
+    通过 <githubLink>GitHub</githubLink> 反馈网站问题、
+    也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
