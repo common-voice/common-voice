@@ -443,16 +443,6 @@ about-partnership =
     
     このプロジェクトを手伝ってくれた以下の人々と組織に感謝します:
 about-get-involved = 参加しよう
-about-get-involved-text =
-    Common Voice をさらに改善したいですか？
-    すばらしい！ メールまたは <discourseLink>Discourse</ discourseLink> でご連絡ください。
-    <githubLink>GitHub</ githubLink> からフィードバックを送信するか、
-    <slackLink>Slack</ slackLink> に参加してください。
-about-get-involved-text-2020 =
-    Common Voice をさらに改善したいですか？
-    すばらしい！ メールまたは <discourseLink>Discourse</ discourseLink> でご連絡ください。
-    <githubLink>GitHub</ githubLink> からフィードバックを送信するか、
-    <matrixLink>Matrix</matrixLink> に参加してください。
 about-nav-why-common-voice = なぜ？
 about-nav-how-it-works = どうやって？
 about-nav-partners = パートナー
@@ -473,7 +463,7 @@ sentence-collection = 文章コレクション
 sentence-collection-explanation = パブリックドメインの文章を集めるか、パブリックドメインの文章として新たに書き起こします。
 hours-recorded-explanation = これまでに収集した音声録音時間の合計。
 hours-validated-explanation = 「はい」の投票で 3 人のユーザーのうち 2 人によって検証された音声録音時間の数。これらのマークは、プロジェクト全体を 1 万時間の目標に向かって前進させます。
-sst = 音声合成（STT）
+sst = 音声認識 (STT)
 sst-explanation = 音声認識（STT）技術は、音声データをテキストに変換します。
 de-identified = 匿名化
 de-identified-explanation = データセットの一部としてダウンロード用にパッケージ化される時に、寄付者のプロフィール情報が彼らの寄付された音声クリップから隠されるプロセス。
@@ -600,6 +590,7 @@ other-language = 他の言語
 language-section-in-progress = 現在進行中
 language-section-in-progress-new-description = これらの言語は現在、コミュニティが開発中です。進捗バーは、各言語が <localizationGlossaryLink>ウェブサイトのローカライズ</localizationGlossaryLink> と <sentenceCollectionGlossaryLink>文章の収集</sentenceCollectionGlossaryLink> のプロセスの進捗状況を示します。
 language-section-launched = 公開中
+language-section-launched-description = これらの立ち上げられた言語について、ウェブサイトは<localizationGlossaryLink>ローカライズ</localizationGlossaryLink>されており、<speakLink>話すこと</speakLink>と<listenLink>聞くこと</listenLink>の貢献を可能にするのに十分な<sentenceCollectionGlossaryLink>文章</sentenceCollectionGlossaryLink>が集められています。
 languages-show-more = もっと見る
 languages-show-less = 閉じる
 language-meter-in-progress = 進捗
