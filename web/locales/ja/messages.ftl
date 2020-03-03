@@ -178,8 +178,8 @@ show-wall-of-text = 続きを読む
 help-us-title = 音声の検証を手伝ってください！
 help-us-explain = 再生ボタンを押すと音声が流れます。流れた音声が次の文章と一致しているか教えてください。
 no-clips-to-validate = この言語で再生する音声が無いようです。まず、あなたの音声を録音させてください。
-vote-yes = はい
-vote-no = いいえ
+vote-yes = OK
+vote-no = NG
 toggle-play-tooltip = { shortcut-play-toggle } を押すと再生が始まります。
 speak-subtitle = 声を寄贈する
 speak-paragraph = 音声の録音は、オープンなデータセットの作成に不可欠な工程です。いちばん楽しいところとも言えます。
@@ -707,8 +707,8 @@ validated-clips = 検証件数
 total-approved = 承認された合計時間
 overall-accuracy = 全体の精度
 set-visibility = 可視性を設定する
-visibility-explainer = この設定は、リーダーボードの可視性を制御します。非表示にすると、進行状況が非公開になります。これは、画像、ユーザー名、進行状況がリーダーボードに表示されないことを意味します。リーダーボードの更新には、変更を取り込むため { $minutes } 分程度かかります。
-visibility-overlay-note = 補足: 「表示」に設定すると、この設定を<profileLink>プロファイルページ</ profileLink>から変更できます
+visibility-explainer = この設定は、リーダーボードに進捗を公開するかどうかを制御します。非公開にすると、進行状況が隠されます。つまり、あなたのアイコン、ユーザー名、進行状況がリーダーボードに表示されなくなります。リーダーボードの更新には、変更を取り込むため { $minutes } 分程度かかります。
+visibility-overlay-note = 補足: 「公開」に設定すると、この設定を<profileLink>プロファイルページ</ profileLink>から変更できます
 show-ranking = ランキングを表示する
 
 ## Custom Goals
