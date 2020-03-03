@@ -449,16 +449,11 @@ about-partnership =
     
     We willen de volgende mensen en organisaties bedanken voor hun hulp bij het project:
 about-get-involved = Meedoen
-about-get-involved-text =
-    Wilt u Common Voice nog beter helpen maken?
-    Geweldig! Neem contact op via e-mail of op <discourseLink>Discourse</discourseLink>,
-    geef feedback via <githubLink>GitHub</githubLink>,
-    of doe mee op <slackLink>Slack </slackLink>.
-about-get-involved-text-2020 =
-    Wilt u Common Voice nog beter helpen maken?
-    Geweldig! Neem contact op via e-mail of op <discourseLink>Discourse</discourseLink>,
-    geef feedback via <githubLink>GitHub</githubLink>,
-    of doe mee op <matrixLink>Matrix</matrixLink>.
+about-get-involved-text-2 =
+    Wilt u helpen Common Voice nog beter te maken?
+    Geweldig! Neem contact op via e-mail of <discourseLink>Discourse</discourseLink>
+    -forums, meld problemen met de website via <githubLink>GitHub</githubLink>, of doe
+    mee met de gemeenschapschat op <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Waarom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
