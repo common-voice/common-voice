@@ -373,9 +373,11 @@ class ContributionPage extends React.Component<Props, State> {
               <div />
             )}
             {isSubmitted && (
-              <button className="open-share" onClick={this.toggleShareModal}>
-                <ShareIcon />
-              </button>
+              <Tooltip arrow title={getString('share-common-voice')}>
+                <button className="open-share" onClick={this.toggleShareModal}>
+                  <ShareIcon />
+                </button>
+              </Tooltip>
             )}
           </div>
 
