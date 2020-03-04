@@ -443,16 +443,11 @@ about-partners = Partnere
 about-become-a-partner = Bli en partner
 about-partnership = Common Voice er et samarbeidsprosjekt, og vi er avhengig av vårt samfunn av partnere og bidragsytere for å bygge det største åpen-kilde datasettet av stemmer noensinne.  Vi vil gjerne få takke følgende personer og organisasjoner for deres bistand med prosjektet:
 about-get-involved = Bli med
-about-get-involved-text =
+about-get-involved-text-2 =
     Vil du hjelpe til med å gjøre Common Voice enda  bedre?
     Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
-     gi tilbakemelding via <githubLink>GitHub</githubLink>,
-    eller kom sammen med oss på <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Vil du hjelpe til med å gjøre Common Voice enda  bedre?
-    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
-    gi tilbakemelding via <githubLink>GitHub</githubLink>,
-    eller bli med på <matrixLink>Matrix</matrixLink>.
+    forumer, send inn nettstedstilbakemelding via <githubLink>GitHub</githubLink>,
+    eller bli med på <matrixLink>Matrix</matrixLink>-samfunnsprat.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
