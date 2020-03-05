@@ -322,7 +322,7 @@ why-demographic-explanation = Anonymiserte brukardata, som alder, kjønn og dial
 accept-privacy = Eg godtar at de handterer denne informasjonen som forklart i Mozillas <privacyLink>personvernpraksis</privacyLink>.
 accept-privacy-title = Personvernpraksis
 login-identity = Innloggingsidentitet
-login-signup = Logg inn/Meld deg på
+login-signup = Logg inn / Meld deg på
 edit = Rediger
 email-subscriptions = E-postabonnement
 download-profile = Last ned mine data
@@ -442,16 +442,6 @@ about-partnership =
     
     Vi vil gjerne få takke følgjande personar og organisasjonar for hjelpa deira med prosjektet:
 about-get-involved = Ver med
-about-get-involved-text =
-    Vil du hjelpe til med å gjere Common Voice endå betre?
-    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
-     gi tilbakemelding via <githubLink>GitHub</githubLink>,
-    eller ver med oss på <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Vil du hjelpe til med å gjere Common Voice endå  betre?
-    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
-    gi tilbakemelding via <githubLink>GitHub</githubLink>,
-    eller bli med på <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
