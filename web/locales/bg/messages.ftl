@@ -70,6 +70,7 @@ ia = Интерлингва
 id = Индонезийски
 is = Исландски
 it = Италиански
+izh = Ижорски
 ja = Японски
 ka = Грузински
 kab = Кабилски
@@ -100,6 +101,7 @@ pa-IN = Пенджабски
 pl = Полски
 pt = Португалски
 rm-sursilv = Сурсливан
+rm-vallader = Романш валадер
 ro = Румънски
 ru = Руски
 rw = Киняруанда
@@ -433,11 +435,6 @@ about-partnership =
     
     Бихме искали да благодарим на следните хора и организации за тяхната помощ в проекта:
 about-get-involved = Участвайте
-about-get-involved-text =
-    Искате ли да направите Common Voice още по-добър?
-    Страхотно! Свържете се чрез имейл или в <discourseLink>Discourse</discourseLink>,
-    изпратете отзиви чрез <githubLink>GitHub</githubLink>,
-    или се присъединете към нас в <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Защо?
 about-nav-how-it-works = Как?
 about-nav-partners = Партньори
