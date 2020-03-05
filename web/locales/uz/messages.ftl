@@ -337,10 +337,12 @@ manage-subscriptions = Obunalarni boshqarish
 manage-email-subscriptions = Email obunalarini boshqarish
 email-already-used = Email allaqachon boshqa akkaunt uchun ishlatilgan
 add-language = Til qoʻshish
+change-email-setings = Kirish identifikatori boʻlimi orqali emailingizni oʻzgartiring
 
 ## FAQ
 
 faq-title = Savol-javob
+faq-what-cv-q = Common Voice nima?
 faq-how-get-q = Qanday qilib Common Voice maʼlumotlarini olishim mumkin?
 faq-how-calc-hours-q = Common Voice soatlarni qanday qilib hisoblaydi?
 
