@@ -463,16 +463,11 @@ about-partnership =
     
     Ми хочемо подякувати наступним людям і організаціям за допомогу в проекті:
 about-get-involved = Долучитися
-about-get-involved-text =
+about-get-involved-text-2 =
     Хочете допомогти зробити Common Voice ще кращим?
-    Чудово! Зв'яжіться через електронну пошту або на сторінці <discourseLink>Discourse</discourseLink>,
-    залиште відгук на <githubLink>GitHub</githubLink>,
-    або приєднайтеся до нас на <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Хочете допомогти зробити Common Voice ще кращим?
-    Чудово! Зв'яжіться через електронну пошту або на сторінці <discourseLink>Discourse</discourseLink>,
-    залиште відгук на <githubLink>GitHub</githubLink>,
-    або приєднайтеся до нас на <matrixLink>Matrix</matrixLink>.
+    Чудово! Напишіть нам на е-пошту або в форумі <discourseLink>Discourse</discourseLink>,
+    повідомляйте про проблеми з сайтом на <githubLink>GitHub</githubLink>,
+    або приєднуйтеся до чату спільноти <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Чому?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнери
@@ -661,6 +656,7 @@ record-again-instruction = Чудово! <recordIcon></recordIcon> Запиші�
 record-again-instruction2 = Продовжуйте, запишіть знову <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Останній!
 review-tooltip = Перевіряйте і повторно записуйте кліпи тут
+share-clip = Поділіться своїм записом
 review-instruction = Перевіряйте і повторно записуйте кліпи при необхідності
 record-submit-tooltip = { $actionType } відправте, коли готово
 clips-uploaded = Вивантажено записів
