@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { S3 } from 'aws-sdk';
+import { S3, SSM } from 'aws-sdk';
 import { config } from 'dotenv';
 
 if (process.env.DOTENV_CONFIG_PATH) {
@@ -9,6 +9,8 @@ if (process.env.DOTENV_CONFIG_PATH) {
     console.log('Failed loading dotenv file, using defaults');
   }
 }
+
+const AWS_DEPLOYMENTS = ['sandbox', 'dev', 'stage', 'prod']
 
 export type CommonVoiceConfig = {
   VERSION: string;
@@ -29,6 +31,7 @@ export type CommonVoiceConfig = {
   RELEASE_VERSION?: string;
   SECRET: string;
   S3_CONFIG: S3.Types.ClientConfiguration;
+  SSM_CONFIG: SSM.Types.ClientConfiguration;
   ADMIN_EMAILS: string;
   AUTH0: {
     DOMAIN: string;
@@ -74,6 +77,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
     signatureVersion: 'v4',
     useDualstack: true,
   }, castJson),
+  SSM_CONFIG: configEntry('CV_SSM_CONFIG', {}, castJson),
   AUTH0: {
     DOMAIN: configEntry('CV_AUTH0_DOMAIN', ''),
     CLIENT_ID: configEntry('CV_AUTH0_CLIENT_ID', ''),
@@ -90,6 +94,47 @@ const BASE_CONFIG: CommonVoiceConfig = {
 
 let injectedConfig: CommonVoiceConfig;
 let loadedConfig: CommonVoiceConfig;
+
+const ssm = new SSM(BASE_CONFIG.SSM_CONFIG);
+
+async function getSecret(key: string) {
+  const path = `/voice/${BASE_CONFIG.ENVIRONMENT}/${key}`
+  const params = {
+    Name: path,
+    WithDecryption: true
+  }
+  const secret = await ssm.getParameter(params).promise()
+
+  return secret.Parameter.Value
+}
+
+let loadedSecrets: Partial<CommonVoiceConfig>;
+
+export async function getSecrets(): Promise<Partial<CommonVoiceConfig>> {
+  if (loadedSecrets) {
+    console.log('Use pre-loaded secrets');
+    return loadedSecrets
+  }
+
+  loadedSecrets = {}
+
+  if (AWS_DEPLOYMENTS.includes(BASE_CONFIG.ENVIRONMENT)) {
+    console.log('Fetch SSM secrets.')
+    loadedSecrets = {
+      MYSQLPASS: await getSecret('mysql-user-pw'),
+      DB_ROOT_PASS: await getSecret('mysql-root-pw'),
+      MYSQLHOST: await getSecret('mysql-host'),
+      SECRET: await getSecret('app-secret'),
+      BASKET_API_KEY: await getSecret('basket-api-key'),
+      AUTH0: {
+        DOMAIN: await getSecret('auth0-domain'),
+        CLIENT_ID: await getSecret('auth0-client-id'),
+        CLIENT_SECRET: await getSecret('auth0-client-secret')
+      }
+    }
+  }
+  return loadedSecrets;
+}
 
 export function injectConfig(config: any) {
   injectedConfig = { ...BASE_CONFIG, ...config };
@@ -115,7 +160,7 @@ export function getConfig(): CommonVoiceConfig {
     }
   }
 
-  loadedConfig = {...BASE_CONFIG, ...fileConfig}
+  loadedConfig = {...BASE_CONFIG, ...loadedSecrets, ...fileConfig}
 
   return loadedConfig
 }
