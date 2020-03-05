@@ -93,7 +93,7 @@ Either create a MySQL superuser that that uses the default `DB_ROOT_USER` and `D
 
 Then `cd` into the project directory and enter the following commands:
 
-```sh
+```
 > yarn
 > yarn start
 ```
@@ -131,7 +131,15 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 2. Click "Applications" from the dashboard. Create a new one, or use the default application.
 3. Go to "Applications" and click on the Settings icon next to your application.
 4. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
-5. Copy the following keys from the Auth0 application into `config.json`. These are found in the same Settings tab as the "Allowed Callback URLs".
+5. If you're using Docker, copy the following keys from the Auth0 application into `.env-local-docker`. These are found in the same Settings tab as the "Allowed Callback URLs".
+
+```env
+CV_AUTH0_DOMAIN = "<domain_here>"
+CV_AUTH0_CLIENT_ID = "<client_id_here>"
+CV_AUTH0_CLIENT_SECRET = "<client_secret_here>"
+```
+
+If you're not using Docker, copy the same keys into `config.json`.
 
 ```json
 "AUTH0": {
@@ -139,14 +147,6 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
  "CLIENT_ID": "<client_id_here>",
  "CLIENT_SECRET": "<client_secret_here>"
 }
-```
-
-or if you're using Docker, copy the following into `.env-local-docker`.
-
-```env
-CV_AUTH0_DOMAIN = "<domain_here>"
-CV_AUTH0_CLIENT_ID = "<client_id_here>"
-CV_AUTH0_CLIENT_SECRET = "<client_secret_here>"
 ```
 
 6. You can add more login options to your app from the "Connections" tab
