@@ -343,8 +343,11 @@ change-email-setings = Kirish identifikatori boʻlimi orqali emailingizni oʻzga
 
 faq-title = Savol-javob
 faq-what-cv-q = Common Voice nima?
+faq-why-important-q = Bu nima uchun muhim?
 faq-how-get-q = Qanday qilib Common Voice maʼlumotlarini olishim mumkin?
 faq-how-calc-hours-q = Common Voice soatlarni qanday qilib hisoblaydi?
+faq-where-src-from-2-q = Matnlar qayerdan olingan?
+faq-why-account-q = Nima uchun roʻyxatdan oʻtishim kerak?
 
 ## ABOUT US
 
