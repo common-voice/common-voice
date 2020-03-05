@@ -94,8 +94,8 @@ Either create a MySQL superuser that that uses the default `DB_ROOT_USER` and `D
 Then `cd` into the project directory and enter the following commands:
 
 ```
-yarn
-yarn start
+> yarn
+> yarn start
 ```
 
 This will:
@@ -131,9 +131,17 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 2. Click "Applications" from the dashboard. Create a new one, or use the default application.
 3. Go to "Applications" and click on the Settings icon next to your application.
 4. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
-5. Copy the following keys from the Auth0 application into `config.json` or `/docker/local-docker-config.json`. These are found in the same Settings tab as the "Allowed Callback URLs".
+5. If you're using Docker, copy the following keys from the Auth0 application into `.env-local-docker`. These are found in the same Settings tab as the "Allowed Callback URLs".
 
+```env
+CV_AUTH0_DOMAIN = "<domain_here>"
+CV_AUTH0_CLIENT_ID = "<client_id_here>"
+CV_AUTH0_CLIENT_SECRET = "<client_secret_here>"
 ```
+
+If you're not using Docker, copy the same keys into `config.json`.
+
+```json
 "AUTH0": {
  "DOMAIN": "<domain_here>",
  "CLIENT_ID": "<client_id_here>",
@@ -179,7 +187,7 @@ We're using [Fluent](http://projectfluent.org/) to localize strings. You can fin
 To update the list of locales run:
 
 ```
-yarn import-locales
+> yarn import-locales
 ```
 
 This creates/updates files in `/locales`:
@@ -193,7 +201,7 @@ This creates/updates files in `/locales`:
 For more options, just type:
 
 ```
-yarn run
+> yarn run
 ```
 
 #### Project Directory Structure
