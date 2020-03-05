@@ -348,6 +348,8 @@ faq-how-get-q = Qanday qilib Common Voice maʼlumotlarini olishim mumkin?
 faq-how-calc-hours-q = Common Voice soatlarni qanday qilib hisoblaydi?
 faq-where-src-from-2-q = Matnlar qayerdan olingan?
 faq-why-account-q = Nima uchun roʻyxatdan oʻtishim kerak?
+faq-is-account-public-q = Akkauntimdagi maʼlumotlar boshqalarga ham koʻrinadimi?
+faq-how-privacy-q = Oʻz ovozlari bilan hissa qoʻshgan insonlarning anonimligi va xavfsizligi qanday ravishda himoya qilinadi?
 
 ## ABOUT US
 
