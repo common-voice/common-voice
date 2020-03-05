@@ -640,6 +640,8 @@ record-again-instruction = Supert!<recordIcon></recordIcon> Ta opp ditt neste kl
 record-again-instruction2 = Fortsett slik, spill inn en gang til <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Siste nå!
 review-tooltip = Her kan du se gjennom og ta opp klipp på nytt
+share-clip = Del lydklippet ditt
+share-common-voice = Del Common Voice
 review-instruction = Se gjennom og ta opp på nytt om nødvendig
 record-submit-tooltip = { $actionType } send inn når du er klar
 clips-uploaded = Klipp lastet opp
@@ -759,9 +761,9 @@ help-share-goal = Hjelp oss med å finne flere stemmer, del dine mål
 confirm-goal = Bekreft Mål
 goal-interval-weekly = Ukentlig
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Del { $count } Klipp Daglig Mål for { $type }
+share-n-daily-contribution-goal = Del det daglige målet ditt med { $count } lydklipp for { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Del { $count } Klipp Ukentlig Mål for { $type }
+share-n-weekly-contribution-goal = Del ukemålet ditt med { $count } lydklipp for { $type }
 share-goal-type-speak = Snakking
 share-goal-type-listen = Lytting
 share-goal-type-both = Snakking og Lytting
