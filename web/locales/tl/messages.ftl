@@ -8,6 +8,7 @@ email-input =
 submit-form-action = Ipadala
 loading = Loading…
 email-opt-in-info-title = Sumali sa mailing list ng Common Voice
+indicates-required = * Nangangahulugang kailangang patlang
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -200,6 +201,7 @@ benefits = Benepisyo
 ## What's public
 
 whats-public = Ano ang Pampubliko?
+email-not-public = Hindi namin isasapubliko ang iyong email.
 
 ## Speak & Listen Shortcuts
 
