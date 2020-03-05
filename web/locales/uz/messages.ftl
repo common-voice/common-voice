@@ -334,6 +334,8 @@ connect-gravatar = Gravatarni qoʻshish
 gravatar_not_found = Ushbu email gravatarda roʻyxatdan oʻtmagan
 file_too_large = Tanlangan fayl hajmi haddan ziyod katta
 manage-subscriptions = Obunalarni boshqarish
+manage-email-subscriptions = Email obunalarini boshqarish
+email-already-used = Email allaqachon boshqa akkaunt uchun ishlatilgan
 add-language = Til qoʻshish
 
 ## FAQ
