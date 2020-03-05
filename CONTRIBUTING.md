@@ -93,7 +93,7 @@ Either create a MySQL superuser that that uses the default `DB_ROOT_USER` and `D
 
 Then `cd` into the project directory and enter the following commands:
 
-```
+```sh
 > yarn
 > yarn start
 ```
@@ -141,7 +141,7 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 }
 ```
 
-or if you're using Docker, copy the following to `.env-local-docker`.
+or if you're using Docker, copy the following into `.env-local-docker`.
 
 ```env
 CV_AUTH0_DOMAIN = "<domain_here>"
