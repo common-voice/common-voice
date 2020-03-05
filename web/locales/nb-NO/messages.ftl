@@ -13,7 +13,7 @@ email-opt-in-info-title = Abonner på Common Voice-e-postlisten
 email-opt-in-info-sub-with-challenge = Motta e-post om utfordrings- og målpåminnelser, oppdateringer om progresjon og nyhetsbrev om Common Voice.
 email-opt-in-privacy = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink> personvernerklæring.
 indicates-required = * Indikerer obligatorisk felt
-not-available-abbreviation = (Ikke relevant)
+not-available-abbreviation = ikke tilgjengelig
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -204,22 +204,22 @@ today = I dag
 x-weeks-short =
     { $count ->
         [one] uke
-       *[other] { $count }uker
+       *[other] { $count } uker
     }
 x-months-short =
     { $count ->
         [one] måned
-       *[other] { $count }måneder
+       *[other] { $count } måneder
     }
 x-years-short =
     { $count ->
         [one] år
-       *[other] { $count }år
+       *[other] { $count } år
     }
 help-make-dataset = Hjelp oss med å lage et høykvalitets, offentlig tilgjengelig datasett.
 sign-up-account = Lag deg en konto
 email-subscription-title = meld deg på for oppdateringer på e-post
-email-subscription-title-new = Registrer deg for Common Voice nyhetsbrev, målpåminnelser og fremdriftsoppdateringer
+email-subscription-title-new = Registrer deg for Common Voice-nyhetsbrev, målpåminnelser og fremdriftsoppdateringer
 
 ## Account Benefits
 
@@ -298,7 +298,7 @@ profile-form-age =
 profile-form-gender =
     .label = Kjønn
 leaderboard-visibility =
-    .label = Synlighet på leaderboard
+    .label = Synlighet på toppliste
 hidden = Skjult
 visible = Synlig
 native-language =
@@ -311,7 +311,7 @@ female = Kvinne
 other = Annet
 why-profile-title = Hvorfor opprette en profil?
 why-profile-text = Ved å bidra med noe informasjon om deg selv, vil lyddataene du bidrar med til Common Voice være enda mer nyttige for talegjengjenningsmotorer, som bruker slike data til å forbedre sin nøyaktighet.
-dashboard = Dashboard
+dashboard = Oversikt
 build-profile = Lag profil
 avatar = Avatar
 goals = Mål
@@ -324,15 +324,15 @@ thanks-for-account = Takk for at du bekreftet kontoen din. La oss lage en profil
 why-demographic = Hvorfor er dette viktig?
 why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og e-postadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
 accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>Privacy Policy</privacyLink>.
-accept-privacy-title = Personvernpolicy
+accept-privacy-title = Personvernbestemmelser
 login-identity = Innloggingsidentitet
-login-signup = Logg inn / Lag konto
+login-signup = Logg inn / Registrer deg
 edit = Rediger
 email-subscriptions = E-postabonnement
 download-profile = Last ned mine data
 contribution-experience = Bidragserfaring
 skip-submission-feedback = Hopp over tilbakemelding
-skip-submission-description = I løpet av bidragsinnsendelse vil tilbakemelding bli hoppet over etter å ha klikket 'Send inn'. Deretter fortsetter vi direkte med det neste settet med 5 innspillinger eller valideringer.
+skip-submission-description = I løpet av bidragsinnsendelse vil tilbakemelding bli hoppet over etter å ha klikket «Send inn». Deretter fortsetter vi direkte med det neste settet med 5 innspillinger eller valideringer.
 skip-submission-note = Merk: Du må fortsatt velge mellom Tal eller Lytt for å endre bidragstype.
 off = Av
 on = På
