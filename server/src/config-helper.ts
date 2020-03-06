@@ -10,7 +10,7 @@ if (process.env.DOTENV_CONFIG_PATH) {
   }
 }
 
-const AWS_DEPLOYMENTS = ['sandbox', 'dev', 'stage', 'prod']
+const K8S_DEPLOYMENTS = ['sandbox', 'dev', 'stage']
 
 export type CommonVoiceConfig = {
   VERSION: string;
@@ -118,7 +118,7 @@ export async function getSecrets(): Promise<Partial<CommonVoiceConfig>> {
 
   loadedSecrets = {}
 
-  if (AWS_DEPLOYMENTS.includes(BASE_CONFIG.ENVIRONMENT)) {
+  if (K8S_DEPLOYMENTS.includes(BASE_CONFIG.ENVIRONMENT)) {
     console.log('Fetch SSM secrets.')
     loadedSecrets = {
       MYSQLPASS: await getSecret('mysql-user-pw'),
