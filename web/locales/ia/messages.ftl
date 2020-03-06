@@ -446,16 +446,11 @@ about-partnership =
     
     Nos volerea regratiar le sequente personas e organisationes pro lor adjuta al projecto:
 about-get-involved = Collabora
-about-get-involved-text =
-    Vole tu adjutar a render Common Voice mesmo melior?
-    Grande! Tene te in contacto via email o sur <discourseLink>Discourse</discourseLink>,
-    invia un commentario per <githubLink>GitHub</githubLink>,
-    o junge te a nos sur <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
+about-get-involved-text-2 =
     Vole adjutar a meliorar Common Voice?
-    Optimo! Contacta nos via e-mail o sur <discourseLink>Discourse</discourseLink>,
-    invia commentarios via <githubLink>GitHub</githubLink>,
-    o junge te a nos sur <matrixLink>Matrix</matrixLink>.
+    Optimo! Contacta nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
+    signala problemas con le sito via <githubLink>GitHub</githubLink>,
+    o junge te al conversation communitari sur <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Proque?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
