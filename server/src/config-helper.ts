@@ -10,8 +10,6 @@ if (process.env.DOTENV_CONFIG_PATH) {
   }
 }
 
-const K8S_DEPLOYMENTS = ['sandbox', 'dev', 'stage']
-
 export type CommonVoiceConfig = {
   VERSION: string;
   PROD: boolean;
@@ -31,6 +29,7 @@ export type CommonVoiceConfig = {
   RELEASE_VERSION?: string;
   SECRET: string;
   S3_CONFIG: S3.Types.ClientConfiguration;
+  SSM_ENABLED: boolean;
   SSM_CONFIG: SSM.Types.ClientConfiguration;
   ADMIN_EMAILS: string;
   AUTH0: {
@@ -77,6 +76,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
     signatureVersion: 'v4',
     useDualstack: true,
   }, castJson),
+  SSM_ENABLED: configEntry('CV_SSM_ENABLED', false, castBoolean),
   SSM_CONFIG: configEntry('CV_SSM_CONFIG', {}, castJson),
   AUTH0: {
     DOMAIN: configEntry('CV_AUTH0_DOMAIN', ''),
@@ -118,7 +118,7 @@ export async function getSecrets(): Promise<Partial<CommonVoiceConfig>> {
 
   loadedSecrets = {}
 
-  if (K8S_DEPLOYMENTS.includes(BASE_CONFIG.ENVIRONMENT)) {
+  if (BASE_CONFIG.SSM_ENABLED) {
     console.log('Fetch SSM secrets.')
     loadedSecrets = {
       MYSQLPASS: await getSecret('mysql-user-pw'),
