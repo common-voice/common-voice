@@ -11,7 +11,9 @@ export type CommonVoiceConfig = {
   MYSQLPASS: string;
   MYSQLDBNAME: string;
   MYSQLHOST: string;
+  MYSQLREPLICAHOST?: string;
   MYSQLPORT: number;
+  MYSQLREPLICAPORT?: number;
   BUCKET_NAME: string;
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
