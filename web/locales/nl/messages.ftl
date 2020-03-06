@@ -451,8 +451,8 @@ about-partnership =
 about-get-involved = Meedoen
 about-get-involved-text-2 =
     Wilt u helpen Common Voice nog beter te maken?
-    Geweldig! Neem contact op via e-mail of <discourseLink>Discourse</discourseLink>
-    -forums, meld problemen met de website via <githubLink>GitHub</githubLink>, of doe
+    Geweldig! Neem contact op via e-mail of <discourseLink>Discourse</discourseLink>-
+    forums, meld problemen met de website via <githubLink>GitHub</githubLink>, of doe
     mee met de gemeenschapschat op <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Waarom?
 about-nav-how-it-works = Hoe?
