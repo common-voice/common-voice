@@ -213,6 +213,7 @@ x-years-short =
 help-make-dataset = Bizga yuqori sifatli ommaviy maʼlumotlar bazasini yaratishga yordam bering
 sign-up-account = Akkauntni roʻyxatdan oʻtkazish
 email-subscription-title = Yangiliklardan xabardor bo‘lib turish uchun email orqali obuna bo‘ling
+email-subscription-title-new = Common Voiceʼning maqsadlar va yangilishlar haqidagi bildirishnomalariga obuna boʻling
 
 ## Account Benefits
 
@@ -347,21 +348,32 @@ faq-title = Savol-javob
 faq-what-cv-q = Common Voice nima?
 faq-why-important-q = Bu nima uchun muhim?
 faq-how-get-q = Qanday qilib Common Voice maʼlumotlarini olishim mumkin?
+faq-when-release2-q = Common Voiceʼning boshqa tillardagi maʼlumotlar jamlanmalarini qachon taqdim qilasiz?
 faq-why-mission-q = Common Voice nima sababdan Mozilla missiyasi hisoblanadi?
+faq-what-cv-and-deepspeech-q = Common Voice va Deep Speech orasida qanday farqlar bor?
+faq-is-goal-assistant-q = Common Voiceʼning maqsadi ovozli yordamchi yaratishmi?
 faq-do-want-native-q = Ushbu til mening ona tilim boʻlmaganligi uchun aksent bilan gapiraman. Mening ovozim sizlarga asqatadimi?
+faq-why-different-speakers-q = Bitta tilda gaplasha oladigan shuncha insonlar sizlarga nima uchun kerak?
+faq-why-my-lang-q = Mening ona tilim nega haligacha qoʻshilmagan?!
 faq-how-calc-hours-q = Common Voice soatlarni qanday qilib hisoblaydi?
 faq-where-src-from-2-q = Matnlar qayerdan olingan?
 faq-why-not-ask-read-q = Nega shunchaki odamlardan turli kitoblarni yoki Vikipediyadagi maqolalarni oʻqib berishini soʻrab qoʻya qolmaysizlar?
 faq-why-account-q = Nima uchun roʻyxatdan oʻtishim kerak?
 faq-is-account-public-q = Akkauntimdagi maʼlumotlar boshqalarga ham koʻrinadimi?
 faq-how-privacy-q = Oʻz ovozlari bilan hissa qoʻshgan insonlarning anonimligi va xavfsizligi qanday ravishda himoya qilinadi?
+faq-what-is-cv = Common Voice nima degani?
+faq-using-cv = Common Voiceʼni ishlatish
+faq-search-for-answers =
+    .label = Javoblarni izlash
 
 ## ABOUT US
 
+about-title = Nima uchun Common Voice?
 how-does-it-work-title = Bu qanday ishlaydi?
 about-speak = Gapiring
 about-listen-queue = Eshitish navbati
 about-listen = Eshiting
+about-is-it-valid = Ovoz toʻgʻri yozilganmi?
 about-partners = Hamkorlar
 about-nav-why-common-voice = Nega?
 about-nav-partners = Hamkorlar
