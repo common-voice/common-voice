@@ -396,7 +396,7 @@ faq-why-different-speakers-q = Zašto vam je potrebno mnogo različitih govornik
 faq-why-my-lang-q = Zašto moj jezik još nije uključen?
 faq-why-my-lang-new-a = Mozilla ne favorizira niti jedan jezik nad drugim. Umjesto toga, Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovnih doprinosa. Najprije se Common Voice web stranica mora prevesti, kako bi joj članovi zajednice mogli pristupiti na materinskom jeziku. Nadalje nam je potrebna velika količina rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se jezik „lansira”, kako bi ljudi započeli snimati svoj glas i potvrđivati druge doprinose. Ako želiš pomoći započeti novi jezik, prijeđi na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>.
 faq-what-quality-q = Koja je kvaliteta zvuka potrebna za korištenje glasovnog isječka?
-faq-why-10k-hours-q = Zašto je cilj, imati 10 000 potvrđenih sati po jeziku za snimanje?
+faq-why-10k-hours-q = Zašto je postavljen cilj od 10 000 potvrđenih sati po jeziku?
 faq-why-10k-hours-a = Ovo je otprilike broj sati, potrebnih za obuku proizvodnog sustava za pretvaranje govora u tekst.
 faq-how-calc-hours-q = Kako Common Voice izračunava sate?
 faq-how-calc-hours-a = Sate izračunavamo procjenjujući prosječnu duljinu svakog snimanja, a zatim taj broj množimo s ukupnim brojem snimaka na svim jezicima.
@@ -406,22 +406,25 @@ faq-where-src-from-2-a =
     
     Naše izvorne rečenice možete pogledati u ovoj <githubLink>GitHub mapi</githubLink>.
 faq-why-not-ask-read-q = Zašto ne tražite od ljudi da čitaju iz knjiga ili članaka na Wikipediji na različitim jezicima?
-faq-why-account-q = Zašto bi se prijavio za račun?
+faq-why-not-ask-read-a = Kako bi skup podataka Common Voice bio što korisniji, odlučili smo dozvoliti samo izvorne tekstove koji su dostupni pod licencom Creative Commons (CC0). Upotreba CC0 standarda znači da je teže pronaći i prikupiti izvorni tekst, ali omogućuje bilo kojem korisniku koristiti dobivene glasovne podatke bez ograničenja i bez odobrenja tvrtke Mozilla. Na kraju krajeva, želimo da višejezični skup podataka bude što korisniji svima, uključujući istraživače, sveučilišta, startapove, vlade, javne organizacije i hobiste.
+faq-why-account-q = Zašto otvoriti račun?
 faq-is-account-public-q = Jesu li podaci o računu javni?
 faq-how-privacy-q = Kako osiguravate anonimnost i privatnost ljudi koji su donirali svoj glas?
-faq-what-determine-identity-q = Što znači, da ne mogu „utvrditi identitet” govornika u skupu Common Voice podataka?
+faq-how-privacy-a = Svim glasovnim isječcima u skupu podataka brišu se osobni podaci. Kad doprinositelj daje demografske podatke putem svog profila, te se informacije uklanjaju iz njihovih glasovnih isječaka prije nego što se pakiraju za preuzimanje u skupu podataka i nikad se ne objavljuju na njihovoj stranici profila.
+faq-what-determine-identity-q = Što znači, da ne mogu „utvrditi identitet” govornika u skupu podataka Common Voice?
 faq-what-is-cv = Što je Common Voice?
 faq-using-cv = Common Voice upotreba
-faq-description = Common Voice je Mozilla-ina inicijativa da pomogne naučiti strojeve kako ljudi govore.
+faq-description = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom.
 faq-search-for-answers =
     .label = Traži odgovore
 
 ## ABOUT US
 
 about-title = Zašto Common Voice?
-about-subtitle = Common Voice dio je Mozilline inicijative da pomogne podučiti strojeve kako ljudi govore. Pored skupine Common Voice podataka također gradimo program za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
+about-subtitle = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom. Pored skupa podataka Common Voice također gradimo program za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
 how-does-it-work-title = Koji je način rada?
-about-speak = Izgovori
+how-does-it-work-text = Stvaramo skup podataka glasova otvorenog koda. Daj svoj glas, potvrdi točnost snimaka drugih ljudi, poboljšaj skup podataka za sve korisnike.
+about-speak = Govori
 about-speak-text = Sudionici snimaju glasovne zapise čitajući iz baze doniranih rečenica.
 about-listen-queue = Red čekanja za slušanje
 about-listen-queue-text = Glasovni isječci se unose se u red čekanja, koji ih priprema za slušanje.
@@ -430,10 +433,10 @@ about-listen-text = Korisnici potvrđuju ispravnost doniranih isječaka, provjer
 about-is-it-valid = Je li isječak ispravan?
 about-is-it-valid-text = Glasovni isječak se označuje kao „ispravan“, kad korisnik za njega glasa s „Da”.
 about-yes-votes = ≥ 2 „Da” glasa
-about-yes-votes-text = Da bi se glasovni isječak pruzeo u skupinu Common Voice podataka, moraju ga potvrditi dva korisnika.
+about-yes-votes-text = Da bi se glasovni isječak preuzeo u skup podataka Common Voice, moraju ga potvrditi dva korisnika.
 about-no-votes = ≥ 2 „Ne” glasa
 about-no-votes-text = Kad korisnik odbije glasovni isječak, vraća ga se u red čekanja. Ako je drugi put odbijen, glasovni isječak se premješta u „Groblje isječaka”.
-about-dataset-new = Skup Common Voice podataka
+about-dataset-new = Skup podataka Common Voice
 about-dataset-new-text = Skup Common Voice podataka sadrži stotine tisuća uzoraka glasa koji programerima pomažu izraditi alat za prepoznavanje glasa.
 about-clip-graveyard = Groblje isječaka
 about-clip-graveyard-text = Groblje isječaka se sastoji od govornih isječaka koji nisu uvršteni u skup Common Voice podataka. Kao što je skup podataka dostupan, tako je i groblje isječaka dostupno za preuzimanje.
