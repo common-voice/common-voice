@@ -28,9 +28,11 @@ af = Afrikanski
 am = Amharski
 an = Aragonski
 ar = Arapski
+arn = Mapudungun
 as = Asamski
 ast = Asturijski
 az = Azerbejdžanski
+ba = Baškirski
 be = Bjeloruski
 bg = Bugarski
 bn = Bengalski
@@ -53,12 +55,14 @@ es = Španjolski
 et = Estonski
 eu = Baskijski
 fa = Perzijski
+ff = Fulski
 fi = Finski
 fo = Ferojski
 fr = Francuski
 fy-NL = Frizijski
 ga-IE = Irski
 gl = Galicijski
+ha = Hausa
 he = Hebrejski
 hi-IN = Hindi
 hr = Hrvatski
@@ -68,15 +72,19 @@ ia = Interlingua
 id = Indonezijski
 is = Islandski
 it = Talijanski
+izh = Ingrijski
 ja = Japanski
 ka = Gruzijski
+kaa = Karakalpački
 kab = Kabilijski
+kbd = Kabardinski
 kk = Kazački
 ko = Korejski
 kpv = Komi-Zyrian
 ku = Kurdski
 kw = Kornski
 ky = Kirgiski
+lg = Lugandski
 lij = Ligurijski
 lt = Litavski
 lv = Latvijski
@@ -425,11 +433,6 @@ about-partnership =
     
     Zahvaljujemo sljedećim osobama i organizacijama za njihovu pomoć u projektu:
 about-get-involved = Uključite se
-about-get-involved-text =
-    Želiš pomoći poboljšati Common Voice?
-    Sjajno! Stupi u kontakt putem e-pošte ili putem <discourseLink>foruma za diskutiranje</discourseLink>,
-    pošalji povratne informacije putem <githubLink>GitHub</githubLink> sustava,
-    ili nam se pridruži na <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Zašto?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partneri
