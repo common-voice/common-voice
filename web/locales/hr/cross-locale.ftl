@@ -1,13 +1,13 @@
 ## Languages
 
-contribute = Doprinesite
-get-involved-button = Uključite se
+contribute = Doprinesi
+get-involved-button = Uključi se
 get-involved-title = Doprinesi jeziku { $lang }
-get-involved-text = Zahvaljujemo na interesu za doprinos lokalizacije na { $lang }. Ulažemo puno truda da svi jezici postanu spremni za produkciju i da timove informiramo putem emaila. Ako želiš sudjelovati, dolje upiši svoj email.
+get-involved-text = Zahvaljujemo na interesu za doprinos lokalizacije na { $lang }. Ulažemo puno truda da svi jezici postanu spremni za produkciju i da timove informiramo putem emaila. Ako želiš sudjelovati, dolje upiši svoju e-adresu.
 get-involved-form-title = Pretplati se na novosti za { $lang } jezik:
 get-involved-email =
-    .label = Email
-get-involved-opt-in = Da, šaljite mi e-poštu. Želim biti informiran o napretku ovog jezika na usluzi Common Voice.
+    .label = E-mail
+get-involved-opt-in = Da, šaljite mi e-poštu. Želim informacije o napretku ovog jezika na Common Voiceu.
 get-involved-submit = Pošalji
 get-involved-stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i saznati kako koristiš te podatke.
 get-involved-privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Saznaj više u našim <privacyLink>napomenama o zaštiti privatnosti</privacyLink>.
