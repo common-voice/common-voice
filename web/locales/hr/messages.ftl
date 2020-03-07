@@ -148,7 +148,7 @@ zh-TW = Kineski (Tajvan)
 ## Layout
 
 speak = Govori
-speak-now = Pričajte sada
+speak-now = Počni govoriti
 datasets = Skupovi podataka
 languages = Jezici
 about = Informacije
@@ -158,17 +158,17 @@ contact = Kontakt
 privacy = Privatnost
 terms = Uvjeti
 cookies = Kolačići
-faq = Često postavljana pitanja
+faq = Često postavljena pitanja
 content-license-text = Sadržaj dostupan pod licencom <licenseLink> Creative Commons </licenseLink>
 share-title = Pomozi nam pronaći donatore glasa.
-share-text = Pomozite naučiti strojeve kako ljudi govore, donirajte svoj glas na { $link }
+share-text = Pomogni učiti strojeve govoriti ljudskim jezikom, doniraj svoj glas na { $link }
 link-copied = Poveznica je kopirana
 back-top = Povratak na vrh
 logout = Odjava
 
 ## Home Page
 
-home-title = Common Voice je Mozilla-ina inicijativa da pomogne naučiti strojeve kako ljudi govore.
+home-title = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom.
 home-cta = Govori, doprinesi ovdje!
 wall-of-text-start =
     Glas je prirodan, glas je ljudski. Zato smo fascinirani stvaranjem upotrebljive govorne tehnologije
@@ -178,9 +178,9 @@ wall-of-text-more-mobile =
     da to guši inovaciju. Zato smo pokrenuli Common Voice projekt, projekt koji će pomoći učiniti
     prepoznavanje glasa otvoreno svima.
 wall-of-text-more-desktop =
-    Sada možete donirati svoj glas kako biste nam pomogli izgraditi govornu bazu podataka otvorenog koda koju svatko može koristiti
-    za izradu inovativnih aplikacija za uređaje i web. Pročitajte rečenicu kako biste pomogli strojevima da nauče kako stvarni ljudi govore.
-    Provjerite rad drugih donatora kako biste poboljšali kvalitetu. Tako je jednostavno!
+    Sada možeš donirati svoj glas i pomoći izgraditi govornu bazu podataka otvorenog koda, koju svatko može koristiti
+    za izradu inovativnih programa za uređaje i web. Pročitaj rečenicu i pomogni učiti strojeve govoriti ljudskim jezikom.
+    Provjeri rad drugih donatora kako bi se poboljšala kvaliteta. Stvarno je tako jednostavno!
 wall-of-text-first =
     Glas je prirodan, glas je ljudski. Zato smo uzbuđeni stvaranjem upotrebljive govorne tehnologije
     za naše strojeve. Ali za stvaranje govornih sustava, razvijateljima su potrebne iznimno velike količine snimljenog glasa.
@@ -188,21 +188,21 @@ wall-of-text-second =
     Većina podataka koje koriste velike tvrtke nisu dostupni većini ljudi. Mi smatramo da to usporava
     inovaciju. Stoga smo pokrenuli Common Voice, projekt koji pomaže u prepoznavanju glasa
     i koji je svima dostupan.
-show-wall-of-text = Pročitajte više
-help-us-title = Pomozite nam potvrditi rečenice!
-help-us-explain = Pritisnite reprodukciju, slušajte i recite nam: jesu li točno izgovorili dolje zadanu rečenicu?
-no-clips-to-validate = Čini se da nema nijednog isječka za slušanje na ovom jeziku. Pomozite nam popuniti red snimanjem nekih isječaka.
+show-wall-of-text = Saznaj više
+help-us-title = Pomogni nam potvrditi rečenice!
+help-us-explain = Pokreni snimku, slušaj i reci nam: jesu li točno izgovorili dolje zadanu rečenicu?
+no-clips-to-validate = Čini se da za ovaj jezik nema nijednog isječka za slušanje. Pomogni nam napuniti red, snimanjem nekih isječaka.
 vote-yes = Da
 vote-no = Ne
-toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za uključivanje načina reprodukcije
+toggle-play-tooltip = Pritisni { shortcut-play-toggle } za prelazak u modus reprodukcije
 speak-subtitle = Doniraj svoj glas
 speak-paragraph = Snimanje govornih isječaka sastavni je dio izgradnje našeg otvorenog skupa podataka; neki bi rekli da je to i zabavni dio.
 speak-goal-text = Snimljeno isječaka
 listen-subtitle = Pomozi nam potvrditi glasove
 listen-paragraph = Provjeravanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušajte i pomozite nam stvoriti kvalitetne govorne podatke otvorenog koda.
 listen-goal-text = Potvrđeno isječaka
-hours-recorded = Snimljeno sati
-hours-validated = Potvrđeno sati
+hours-recorded = Snimljeni sati
+hours-validated = Potvrđeni sati
 voices-online = Prisutnih glasova
 todays-progress = Današnji napredak
 help-reach-goal = Pomozite nam doći do { $goal }
@@ -228,19 +228,19 @@ x-years-short =
         [few] { $count }god
        *[other] { $count }god
     }
-help-make-dataset = Pomozite nam izgraditi kvalitetan i javno dostupan skup podataka
+help-make-dataset = Pomogni nam izgraditi kvalitetan i javno dostupan skup podataka
 sign-up-account = Otvorite račun
-email-subscription-title = registrirajte se za dobivanje novosti putem e-pošte
-email-subscription-title-new = Prijavite se za primanje Common Voice novosti, podsjetnika o ciljevima i ažuriranja o napretku
+email-subscription-title = pretplati se na novosti putem e-pošte
+email-subscription-title-new = Pretplati se na Common Voice bilten, na podsjetnike o ciljevima i na novosti o napretku
 
 ## Account Benefits
 
 benefits = Prednosti
 rich-data = Podnesene podatke učini što bogatijima, pružanjem anonimnih demografskih podataka. Prije objavljivanja otklanjamo sve identificirajuće demografske podatke.
 improve-audio = Informacije profila poboljšavaju glasovne podatke koji se koriste u treningu točnosti prepoznavanja govora.
-keep-track = Prati vlastiti napredak i mjerne podatke za više jezika.
-compare-progress = Usporedi vlastiti napredak s ostalim suradnicima u cijelom svijetu.
-view-goals = Usporedi vlastiti napredak s osobnim i projektnim ciljevima.
+keep-track = Prati svoj napredak i mjerne podatke za jezike.
+compare-progress = Usporedi svoj napredak s ostalim suradnicima u cijelom svijetu.
+view-goals = Usporedi napredak vlastitih ciljeva s ciljevima projekta.
 join-newsletter = Ako želiš, pridruži se na naš popis e-pošte za dobivanje obavijesti o ažuriranjima i novim informacijama o projektu.
 
 ## What's public
@@ -249,7 +249,7 @@ whats-public = Što je javno?
 email-not-public = Tvoju adresu e-pošte nećemo javno objavljivati.
 recordings-and-locale-public = Broj snimaka i jezici na kojima doprinosiš, bit će javni.
 username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime ili ne.
-demographic-deidentified = Opcionalno poslani demografski podaci (npr. dob, spol, jezik i naglasak) uklanjaju se od tvojih poslanih glasovnih podataka i nikada neće biti objavljeni na tvom profilu.
+demographic-deidentified = Opcionalno poslani demografski podaci (npr. dob, spol, jezik i narječje/naglasak) uklanjaju se od tvojih poslanih glasovnih podataka i nikada se neće objaviti na tvom profilu.
 username-email-not-demographic = Tvoje korisničko ime i adresa e-pošte neće biti povezani s objavljenim podacima.
 
 ## Speak & Listen Shortcuts
@@ -277,13 +277,13 @@ shortcut-vote-no = n
 shortcut-record-toggle = s
 shortcut-record-toggle-label = Snimaj/Stop
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Ponovo snimite isječak
-request-language-text = Ne vidite vaš jezik na usluzi Common Voice?
+shortcut-rerecord-toggle-label = Ponovo snimi isječak
+request-language-text = Tvoj jezik nedostaje u Common Voiceu?
 request-language-button = Zatražite jezik
 
 ## ProjectStatus
 
-status-title = Ukupni status projekta: pogledajte koliko smo daleko došli!
+status-title = Ukupno stanje projekta: pogledaj koliko smo napredovali!
 status-contribute = Doprinesite sa svojim glasom
 status-hours =
     { $hours ->
