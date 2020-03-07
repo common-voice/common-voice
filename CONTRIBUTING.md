@@ -56,7 +56,7 @@ You can visit the website at [http://localhost:9000](http://localhost:9000).
 
 To decrease the workload for your machine, by default sentence importing is deactivated for the Docker setup. This means that
 by default you won't have any sentences to be recorded. If you want to fix any bug that occurs within the "Speak" part of the
-app, you will first need to import sentences. To do so, set `IMPORT_SENTENCES` in `/docker/local-docker-config.json` to `true`.
+app, you will first need to import sentences. To do so, set `IMPORT_SENTENCES` in `/.env-local-docker` to `true`.
 Note that this might take quite some time.
 
 ##### Docker daemon error
@@ -109,7 +109,7 @@ You can then access the website at [http://localhost:9000](http://localhost:9000
 
 #### Configuration
 
-You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override. If you're using Docker, you may need to modify the file `/docker/local-docker-config.json` instead.
+You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override. If you're using Docker, you may need to modify the file `/.env-local-docker` instead.
 
 ##### NewRelic error during startup
 
@@ -131,7 +131,7 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 2. Click "Applications" from the dashboard. Create a new one, or use the default application.
 3. Go to "Applications" and click on the Settings icon next to your application.
 4. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
-5. If you're using Docker, copy the following keys from the Auth0 application into `.env-local-docker`. These are found in the same Settings tab as the "Allowed Callback URLs".
+5. If you're using Docker, copy the following keys from the Auth0 application into `/.env-local-docker`. These are found in the same Settings tab as the "Allowed Callback URLs".
 
 ```env
 CV_AUTH0_DOMAIN = "<domain_here>"
@@ -139,7 +139,7 @@ CV_AUTH0_CLIENT_ID = "<client_id_here>"
 CV_AUTH0_CLIENT_SECRET = "<client_secret_here>"
 ```
 
-If you're not using Docker, copy the same keys into `config.json`.
+If you're not using Docker, copy the same keys into `/config.json`.
 
 ```json
 "AUTH0": {
