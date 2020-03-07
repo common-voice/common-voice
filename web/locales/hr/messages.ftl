@@ -437,9 +437,9 @@ about-yes-votes-text = Da bi se glasovni isječak preuzeo u skup podataka Common
 about-no-votes = ≥ 2 „Ne” glasa
 about-no-votes-text = Kad korisnik odbije glasovni isječak, vraća ga se u red čekanja. Ako je drugi put odbijen, glasovni isječak se premješta u „Groblje isječaka”.
 about-dataset-new = Skup podataka Common Voice
-about-dataset-new-text = Skup Common Voice podataka sadrži stotine tisuća uzoraka glasa koji programerima pomažu izraditi alat za prepoznavanje glasa.
+about-dataset-new-text = Skup podataka Common Voice sadrži stotine tisuća uzoraka glasa koji programerima pomažu izraditi alat za prepoznavanje glasa.
 about-clip-graveyard = Groblje isječaka
-about-clip-graveyard-text = Groblje isječaka se sastoji od govornih isječaka koji nisu uvršteni u skup Common Voice podataka. Kao što je skup podataka dostupan, tako je i groblje isječaka dostupno za preuzimanje.
+about-clip-graveyard-text = Groblje isječaka sastoji se od govornih isječaka koji nisu uvršteni u skup podataka Common Voice. Kao što je skup podataka dostupan, tako je i groblje isječaka dostupno za preuzimanje.
 about-partners = Partneri
 about-become-a-partner = Postanite partner
 about-partnership =
@@ -463,14 +463,14 @@ mycroft-secondary-description = Ovo je softver otvorenog koda koji se može slob
 glossary = Glosar
 localization = Lokalizacija
 localization-explanation = Ovo je naš postupak prevođenja i prilagođavanja našeg sadržaja na mnoge jezične sustave (jezike).
-sentence-collection = Zbirka rečenica
+sentence-collection = Prikupljanje rečenica
 sentence-collection-explanation = Prikupljanje rečenica iz javne domene ili pisanje novih za javnu domenu.
 hours-recorded-explanation = Broj do sada prikupljenih sati snimljenog glasa.
-hours-validated-explanation = Broj sati snimanja glasa koje su 2 od 3 korisnika potvrdili glasom „Da”. Označavaju napredak u odnosu na ukupni 10-satni cilj.
+hours-validated-explanation = Broj sati snimanja glasa koje su dva od tri korisnika potvrdili glasom „Da”. Označavaju napredak u odnosu na ukupni cilj projekta od 10 000 sati.
 sst = Govor u tekst (Speech-to-text STT)
 sst-explanation = Govor u tekst (STT) tehnologije pretvaraju govor u tekst.
 de-identified = De-identificirani
-de-identified-explanation = Proces, kojim se informacije o profilu pridonositelja skrivaju iz njegovih darovanih glasovnih isječaka, kad se pakiraju za preuzimanje kao dio skupa podataka.
+de-identified-explanation = Proces, kojim se informacije o profilu doprinositelja skrivaju iz njegovih darovanih glasovnih isječaka, kad se pakiraju za preuzimanje kao dio skupa podataka.
 
 ## NotFound
 
@@ -484,16 +484,16 @@ data-download-yes = Da
 data-download-deny = Ne
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Pokrenut ćete preuzimanje od <size>{ $size }GB</size>, nastaviti?
-data-subtitle = Izgrađujemo otvoreni i javno dostupni skup glasova, koje svi mogu koristiti za podučavanje govornih aplikacija.
+data-subtitle = Gradimo otvoren i javno dostupan skup glasovnih podataka, koji svi mogu koristiti za podučavanje govornih programa.
 data-get-started = <speechBlogLink>Započni s prepoznavanjem govora</speechBlogLink>
 data-other-title = Ostali skupovi glasovnih podataka …
 data-other-goto = Prijeđi na { $name }
 data-other-download = Preuzimanje podataka
-data-bundle-button = Preuzmanje skupnih podataka
-data-bundle-description = Common Voice podaci, plus sve gore navedene skupove glasovnih podataka.
+data-bundle-button = Preuzmi paket skupova podataka
+data-bundle-description = Common Voice podaci, plus svi gore navedeni skupovi glasovnih podataka.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kombinirana
-review-terms = Korištenjem Common Voicea, prihvaćate naše <termsLink>uvjete</termsLink> i <privacyLink>obavijest o privatnosti</privacyLink>
+review-terms = Korištenjem Common Voicea, prihvaćaš naše <termsLink>uvjete</termsLink> i <privacyLink>napomene o privatnosti</privacyLink>
 terms-agree = slažem se
 terms-disagree = ne slažem se
 review-aborted = Prijenos je prekinut. Želite li izbrisati svoje snimke?
@@ -507,17 +507,17 @@ review-delete-recordings = Izbriši moje snimke
 
 ## Datasets Page
 
-datasets-headline = Izgrađujemo otvoreni i javno dostupan skup glasova, koje svi mogu koristiti za podučavanje govornih aplikacija.
+datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu koristiti za podučavanje govornih programa.
 language = Jezik
 # File size in gigabytes
 size = Veličina
-validated-hr-total = Ukupan broj sati za potvrđene
+validated-hr-total = Ukupan broj potvrđenih sati
 overall-hr-total = Ukupan broj sati
 cv-license = Licenca
 audio-format = Format zvuka
-number-of-voices = Broj govornika
+number-of-voices = Broj glasova
 splits = Podjele
-email-to-download = Unesite Email za preuzimanje
+email-to-download = Za preuzimanje, upiši e-adresu
 why-email = <b>Zašto e-pošta?</b> U budućnosti ćemo vas možda morati kontaktirati u vezi s promjenama skupa podataka, a e-pošta nam pruža mogućnost kontaktiranja.
 confirm-size = Spremni ste pokrenuti preuzimanje veličine <b>{ $size }</b>
 size-gigabyte = GB
