@@ -10,6 +10,8 @@ submit-form-action = Yuborish
 loading = Yuklanmoqda...
 email-opt-in-info = Men maqsad va yutuqlar haqida bildirishnomalarni hamda Common Voice haqidagi yangiliklarni qabul qilib turishni istayman.
 email-opt-in-info-title = Common Voice tarqatmalariga obuna boʻlish
+email-opt-in-info-sub-with-challenge = Men maqsad va yutuqlar haqida bildirishnomalarni hamda Common Voice haqidagi yangiliklarni qabul qilib turishni istayman.
+email-opt-in-privacy = Elektron pochta xabarlarini olishni rad etish bilan siz Mozilla-ning <maxfiylik siyosati> Maxfiylik siyosati <maxfiylik siyosati> da tushuntirilganidek, ushbu ma'lumotni Mozilla bilan ishlashga rozi ekanligingizni bildirasiz.
 indicates-required = * Toʻldirish majburiy boʻlgan maydon
 not-available-abbreviation = M/E
 
@@ -218,11 +220,21 @@ email-subscription-title-new = Common Voiceʼning maqsadlar va yangilishlar haqi
 ## Account Benefits
 
 benefits = Ustunlik
+rich-data = Anonim demografik ma'lumotlarni taqdim etish orqali siz yuborgan ma'lumotlaringizni iloji boricha boyroq qiling. Biz barcha demografik ma'lumotlarni oshkor qilishdan oldin aniqlaymiz.
+improve-audio = Profil ma'lumotlari nutqni aniqlashning aniqligini o'rgatish uchun ishlatiladigan audio ma'lumotlarini yaxshilaydi.
+keep-track = O'zingizning taraqqiyotingiz va ko'rsatkichlaringizni bir necha tillarda kuzatib boring.
+compare-progress = Sizning muvaffaqiyatingizni butun dunyo bo'ylab boshqa ishtirokchilar bilan taqqoslashiga qarang.
+view-goals = Shaxsiy va loyihaviy maqsadlarga erishishda muvaffaqiyatlaringizni ko'ring.
+join-newsletter = Ixtiyoriy ravishda bizning elektron pochta ro'yxatimizga qo'shiling va loyiha haqida yangi ma'lumotlarni oling.
 
 ## What's public
 
 whats-public = Qaysi maʼlumotlar barcha uchun ochiq?
 email-not-public = Emailingizni sizdan boshqa hech kim koʻrmaydi.
+recordings-and-locale-public = Yozuvlar soni va qaysi tillarga qo'shganligingiz hammaga ma'lum bo'ladi.
+username-optin-public = Siz o'z foydalanuvchi nomingizni ochiq yoki anonim qilishni tanlashingiz mumkin.
+demographic-deidentified = Ixtiyoriy ravishda taqdim etilgan demografik ma'lumotlar (masalan, yoshi, jinsi, tili va urg'usi) sizning ovozingiz ma'lumotlaridan aniqlanmagan va sizning profilingizda hech qachon oshkor qilinmaydi.
+username-email-not-demographic = Foydalanuvchi nomingiz va elektron pochta manzilingiz e'lon qilingan ma'lumotlar bilan bog'lanmaydi.
 
 ## Speak & Listen Shortcuts
 
@@ -316,6 +328,7 @@ email-subscriptions = E-pochta orqali obuna
 download-profile = Ma’lumotlarni yuklab olish
 contribution-experience = Hissangizga baho bering
 skip-submission-feedback = Ishga baho berishni tashlab ketish
+skip-submission-description = Hisobni yuborish paytida fikr-mulohaza "Yuborish" ni bosgandan so'ng o'tkazib yuboriladi. Hissa to'g'ridan-to'g'ri keyingi 5 ta yozuv to'plami yoki tasdiqlash bilan davom etadi.
 skip-submission-note = Diqqat: hissa qo‘shish turini o‘zgartirish uchun "Gapirish" yoki "Tinglash"dan birini tanlashingiz lozim.
 off = O‘chiq
 on = Yoniq
@@ -330,9 +343,12 @@ delete-voice = Oʻchirish
 recording-voice-wave = Yozish
 delete-voice-clip = yoki ovozli yozuvi oʻchirish
 ready-to-upload = Yuklash
+avatar-clip-fact = O'qiyotgan kishi sahifani ko'rib chiqayotganda, uni o'qish mumkin bo'lgan tarkib bilan chalg'itishi haqiqatdir.
 recreate-voice = Kirish soʻzini qayta yozish
 cancel-avatar-clip-recording = Bekor qilish
+about-avatar-clip-recording = Profil avataringizning bir qismi sifatida ovozli klip yarating. Boshqalar sizning ayting va klipingizni tinglashlari mumkin.
 browse-file-title = Rasm yuklash
+browse-file = Sodir va tortib oling yoki <browseWrap> Browse </browseWrap>
 connect-gravatar = Gravatarni qoʻshish
 gravatar_not_found = Ushbu email gravatarda roʻyxatdan oʻtmagan
 file_too_large = Tanlangan fayl hajmi haddan ziyod katta
@@ -346,40 +362,98 @@ change-email-setings = Kirish identifikatori boʻlimi orqali emailingizni oʻzga
 
 faq-title = Savol-javob
 faq-what-cv-q = Common Voice nima?
+faq-what-cv-a =
+    Ovozni aniqlash texnologiyasi biz mashinalar bilan o'zaro munosabatimizni o'zgartiradi, ammo mavjud tizimlar qimmat va xususiydir. Common Voice - bu Mozilla kompaniyasining ovozni aniqlash texnologiyalarini yanada yaxshiroq va hammaga ochiq qilish uchun tashabbusining bir qismidir. Common Voice - bu har qanday odamga har qanday tilda ovozli dasturlarni tez va osongina o'rgatish imkoniyatini beradigan dono ovozlarning ulkan global ma'lumotlar bazasi.
+    
+    Biz nafaqat ovozli tillarda, balki kam sonli ma'ruzachilarda ham ovoz namunalarini yig'amiz. Ovozlarning xilma-xil ma'lumotlar to'plamini nashr etish ishlab chiquvchilarga, tadbirkorlarga va hamjamiyatlarga ushbu bo'shliqni bartaraf etish imkoniyatini beradi. Common Voice ma'lumotlar bazasiga qo'shimcha ravishda, biz "Deep Speech" deb nomlangan ochiq manbali nutqni aniqlash tizimini yaratmoqdamiz.
 faq-why-important-q = Bu nima uchun muhim?
+faq-why-important-a =
+    Ko'pincha nutq biz bir-birimiz bilan aloqa qiladigan eng tabiiy usuldir va ovozli texnologiyalar bu qulaylikni kompyuterlarimizga va mobil qurilmalarimizga etkazmoqda. Biz ishlab chiquvchilarga haqiqiy vaqtda tarjimonlar va ovozli raqamli raqamli yordamchilar kabi ajoyib ovozni aniqlash dasturlarini yaratishga imkoniyat bermoqchimiz. Ammo hozirda ushbu turdagi dasturlarni yaratish uchun talab qilinadigan ovozli ma'lumotlarning aksariyati qimmat va xususiydir. Umid qilamizki, "Umumiy ovoz" ma'lumotlar bazasi ishlab chiquvchilarga yangiliklarni yaratish va nutq texnologiyalarini o'z tillarida mavjud qilish uchun zarur bo'lgan narsalarni beradi.
+    
+    Ovozni tanib olishni yanada universal qilish uchun biz ovozli namunalarni keng tarqalgan tillarda va nutqni tijoratni aniqlash xizmatlari tomonidan ta'minlanmagan kam sonli ma'ruzachilarda to'playmiz. Ovozlarning xilma-xil ma'lumotlar to'plamini nashr etish ishlab chiquvchilarga, ishbilarmonlarga va butun nutq uyushmalariga ushbu bo'shliqni bartaraf etish imkoniyatini beradi.
 faq-how-get-q = Qanday qilib Common Voice maʼlumotlarini olishim mumkin?
+faq-how-get-a = Umumiy ovozli ma'lumotlar bazasini <datasetLink> bizning ma'lumotlar bazamiz </datasetLink> saytida <licenseLink> CC0 </licenseLink> litsenziyasi ostida yuklab olish mumkin. Shu bilan bir qatorda, hammaga ochiq bo'lgan bir nechta ma'lumotlar to'plamlarini bitta sahifadan yuklab olishingiz mumkin.
 faq-when-release2-q = Common Voiceʼning boshqa tillardagi maʼlumotlar jamlanmalarini qachon taqdim qilasiz?
+faq-when-release2-a = Umumiy ovozli ma'lumotlar to'plamining ko'p tilli versiyasi hozirda jamoatchilik tomonidan qo'llab-quvvatlanadigan to'plamlar va tozalash ishlari bilan shug'ullanmoqda. Agar siz umumiy ovozni yangi tillarga olib chiqishga yordam bermoqchi bo'lsangiz, ma'lumotlar to'plamiga yangi jumlalar qo'shish uchun <sentenceCollectorLink> jumlalarni yig'ish vositasi </sentenceCollectorLink> -ni va veb-saytni tarjima qilish uchun Mozilla <pontoonLink> Pontoon </pontoonLink> -ni tekshiring. o'zi. 5000 ta jumlalar to'planganda ovozli hissa qo'shilishi uchun yangi ovozlar Common Voice qo'shiladi.
 faq-why-mission-q = Common Voice nima sababdan Mozilla missiyasi hisoblanadi?
+faq-why-mission-a = Mozilla Internetni hamma uchun ochiq va ochiq bo'lishiga bag'ishlangan. Buning uchun biz umumiy ovoz kabi loyihalar orqali veb-yaratuvchilarga imkoniyat berishimiz kerak. Ovoz texnologiyalari tokcha dasturlardan tashqarida ko'payib borar ekan, biz ular barcha foydalanuvchilarga teng darajada xizmat qilishi kerak deb o'ylaymiz. Bu ko'proq tillarga sarmoya kiritishni va ovozli texnologiyalarni qurishda va sinab ko'rishda turli xil urg'u va demografiyani hisobga olishni anglatadi. Common Voice hamma uchun ochiq bo'lgan ommaviy resursdir va Mozilla jamoalari va dasturchilari uni allaqachon o'z loyihalarimizda ishlatmoqdalar.
 faq-what-cv-and-deepspeech-q = Common Voice va Deep Speech orasida qanday farqlar bor?
+faq-what-cv-and-deepspeech-a = Common Voice ma'lumotlar bazasi Mozilla-ni ovoz manbaini aniqlash vositasi Deep Speech-ni to'ldiradi. Deep Speechning birinchi versiyasi 2017 yil noyabr oyida chiqarildi va shu paytdan beri rivojlanishda davom etmoqda. Common Voice ma'lumotlar bazasi bilan birgalikda ovozni aniqlash texnologiyasi hamma uchun mavjud bo'lishi kerak deb hisoblaymiz. Umid qilamizki, ushbu texnologiyalar ishlab chiquvchilarga innovatsion mahsulot va xizmatlarni yaratishga imkon beradi.
 faq-is-goal-assistant-q = Common Voiceʼning maqsadi ovozli yordamchi yaratishmi?
+faq-is-goal-assistant-a = Umumiy ovozli ma'lumotlar bazasining maqsadi dunyodagi har bir kishiga nutqni aniqlash, karnayni aniqlash yoki ovozli ma'lumotlarni talab qiladigan har qanday boshqa turdagi dasturlarni yaratishdir. Ovozli yordamchi - bu ma'lumotlar bazasini yaratishda foydalanishingiz mumkin bo'lgan ko'pgina ilovalardan biri.
 faq-do-want-native-q = Ushbu til mening ona tilim boʻlmaganligi uchun aksent bilan gapiraman. Mening ovozim sizlarga asqatadimi?
+faq-do-want-native-a = Ha, biz ayniqsa sizning ovozingizni xohlaymiz! Umumiy ovozning maqsadlaridan biri, ovozni aniqlash xizmatlari hamma uchun bir xil darajada ishlashi uchun iloji boricha ko'proq turli xil aksanlarni to'plashdir. Bu shuni anglatadiki, ona tilida so'zlashmagan kishilarning xayriyalari ayniqsa muhimdir.
 faq-why-different-speakers-q = Bitta tilda gaplasha oladigan shuncha insonlar sizlarga nima uchun kerak?
+faq-why-different-speakers-a =
+    Ko'pgina nutq ma'lumotlar bazalari ma'lum demografik ma'lumotlarning haddan tashqari taqdim etilishi bilan o'qitiladi, natijada <articleLink> erkak va o'rta sinf </articleLink> tomon yo'naltiriladi. Ta'lim ma'lumotlari to'plamida etarlicha aks ettirilmaydigan urg'u va lahjalar, odatda allaqachon chetga chiqqan odamlar guruhlari bilan bog'liq. Ko'pgina mashinalar ayollarning ovozini tushunish uchun ham kurashmoqda.
+    Shuning uchun bizning ovozli ma'lumotlar bazamizda xilma-xillikni xohlaymiz!
 faq-why-my-lang-q = Mening ona tilim nega haligacha qoʻshilmagan?!
+faq-why-my-lang-new-a = Mozilla biron bir tilni boshqasidan ustun qo'ymaydi yoki yoqtirmaydi. Buning o'rniga, "Umumiy ovoz" bu faqat jamoatchilik tomonidan olib boriladigan tashabbusdir, ammo yangi til qo'shish uchun </multilangLink> va ovozli xayr-ehsonlarni yig'ishni boshlash uchun <multilangLink> bir necha bosqich kerak bo'ladi. Birinchidan, umumiy ovozli veb-sayt tarjima qilinishi kerak, shunda hamjamiyat a'zolari o'zlarining tillarida o'z hissalarini qo'sha oladilar. Keyinchalik, odamlar tashqarida ovoz chiqarib o'qishlari uchun bizga mualliflik huquqisiz so'zlarning katta to'plami kerak. Ikkala talab ham bajarilgandan so'ng, odamlar o'z ovozlarini yozib olishlari va boshqa xayriyalarni tasdiqlashlari uchun Common Voice-da til ishga tushadi. Agar siz yangi til ochishga yordam bermoqchi bo'lsangiz, ishni boshlash uchun bizning <sentenceCollectorLink> jumlalar yig'ish vositamiz </sentenceCollectorLink> ga o'ting.
+faq-what-quality-q = Ovoz klipidan ma'lumotlar bazasida foydalanish uchun audio sifatining qaysi darajasi talab qilinadi?
+faq-what-quality-a = Biz "Ovozli ma'lumotlar to'plami" tabiatda nutqni matnga aylantiradigan vosita eshitadigan audio sifatini aks ettirishini xohlaymiz, shuning uchun biz xilma-xillikni qidirmoqdamiz. Turli xil ma'ruzachilar jamoasiga qo'shimcha ravishda, turli xil ovoz sifati bilan ma'lumotlar to'plami nutqni matndan boshqarish mexanizmiga turli xil real vaziyatlarni, fonda gaplashishdan tortib to avtomobil shovqinlarigacha ishlashga o'rgatadi. Ovozli klipingiz tushunarli ekan, u ma'lumotlar bazasi uchun etarlicha yaxshi bo'lishi kerak.
+faq-why-10k-hours-q = Nima uchun audio yozib olish uchun har bir maqsad uchun 10000 soat tasdiqlangan?
+faq-why-10k-hours-a = Bu taxminan nutqni matnga aylantirish tizimini o'qitish uchun talab qilinadigan vaqtlar soni.
 faq-how-calc-hours-q = Common Voice soatlarni qanday qilib hisoblaydi?
+faq-how-calc-hours-a = Biz har bir yozuvning o'rtacha uzunligini hisoblab, soatlarning sonini barcha tillardagi yozuvlar soniga ko'paytiramiz.
 faq-where-src-from-2-q = Matnlar qayerdan olingan?
+faq-where-src-from-2-a =
+    Bizning boshlang'ich matnimiz asl hissa qo'shgan xayr-ehsonlardan va <italic> Bu ajoyib hayot </italic> kabi jamoat mulki filmlari skriptlaridan olingan suhbatlardan iborat.
+    
+    Siz manba jumlalaringizni ushbu <githubLink> GitHub papkasida ko'rishingiz mumkin </githubLink>.
 faq-why-not-ask-read-q = Nega shunchaki odamlardan turli kitoblarni yoki Vikipediyadagi maqolalarni oʻqib berishini soʻrab qoʻya qolmaysizlar?
+faq-why-not-ask-read-a = Umumiy ovozli ma'lumotlar to'plamini iloji boricha foydali qilish uchun biz faqat Creative Commons (CC0) litsenziyasi ostida mavjud matn manbalariga ruxsat berishga qaror qildik. CC0 standartidan foydalanish dastlabki matnni topish va to'plash ancha qiyinligini anglatadi, ammo har kimga ovozli ma'lumotlardan foydalanish cheklovisiz yoki Mozilla-ning avtorizatsiyasiz foydalanishga imkon beradi. Oxir oqibat, biz ko'p tildagi ma'lumotlar to'plamini iloji boricha hamma uchun, shu jumladan tadqiqotchilar, universitetlar, startaplar, hukumatlar, ijtimoiy maqsadli tashkilotlar va sevimli mashg'ulotlariga imkon qadar foydali qilishni xohlaymiz.
 faq-why-account-q = Nima uchun roʻyxatdan oʻtishim kerak?
 faq-is-account-public-q = Akkauntimdagi maʼlumotlar boshqalarga ham koʻrinadimi?
 faq-how-privacy-q = Oʻz ovozlari bilan hissa qoʻshgan insonlarning anonimligi va xavfsizligi qanday ravishda himoya qilinadi?
+faq-how-privacy-a = Ma'lumotlar bazasidagi barcha ovozli kliplar shaxsni aniqlash ma'lumotlari bilan skrablanadi. Agar ishtirokchi demografik ma'lumotlarni o'zlarining profillari orqali taqdim etsa, bu ma'lumotlar to'plamga yuklab olish uchun biriktirilishidan oldin ularning ovozli kliplaridan aniqlanadi va ularning profil sahifalarida hech qachon oshkor qilinmaydi.
+faq-what-determine-identity-q = Umumiy ovoz ma'lumotlar bazasidagi dinamiklarning "kimligini" aniqlay olmayman degani nimani anglatadi?
+faq-what-determine-identity-a =
+    Umumiy ovozli ma'lumotlar to'plami nutqni qo'llab-quvvatlaydigan turli xil dasturlarni o'qitish uchun ishlatilishi mumkin bo'lgan ochiq va ommabop manbadir. Hissa kirituvchilarning xavfsizligini ta'minlash uchun Common Voice ma'lumotlar bazasini yuklab oladigan har bir kishidan hissa qo'shuvchilarning maxfiyligini hurmat qilishlarini so'raymiz.
+    
+    Ma'lumotlar bazasidagi barcha ovozli kliplar shaxsni aniqlash ma'lumotlari bilan skrablanadi. Ma'lumotlar to'plamini yuklab olayotganda, siz biron bir hissa qo'shgan shaxsning shaxsini aniqlashga urinmaslikka rozilik bildirasiz. Bu shuni anglatadiki, ma'lumotlar to'plamidagi ma'lumotlarni hissa qo'shuvchining shaxsiy ma'lumotlari bilan bog'lashga harakat qila olmaysiz. Ammo, masalan, ma'lumotlar to'plamidagi ma'lumotlarni boshqa ma'lumotlar bilan bog'lash orqali nutqni aniqlash, karnayni aniqlash yoki boshqa dasturlarni o'qitish uchun ma'lumotlar bazasidan foydalanishingiz mumkin.
 faq-what-is-cv = Common Voice nima degani?
 faq-using-cv = Common Voiceʼni ishlatish
+faq-description = Common Voice - Mozilla tashabbusining bir qismi bo'lib, mashinalarga haqiqiy odamlar qanday gapirayotganini o'rgatishga yordam beradi.
 faq-search-for-answers =
     .label = Javoblarni izlash
 
 ## ABOUT US
 
 about-title = Nima uchun Common Voice?
+about-subtitle = Common Voice - Mozilla tashabbusining bir qismi bo'lib, mashinalarga haqiqiy odamlar qanday gapirayotganini o'rgatishga yordam beradi. Common Voice ma'lumotlar bazasiga qo'shimcha ravishda, biz "Deep Speech" deb nomlangan ochiq manbali nutqni aniqlash tizimini yaratmoqdamiz.
+about-header-description =
+    Ushbu ikkala loyiha raqamli nutqlar o'rtasidagi tafovutni bartaraf etishga qaratilgan harakatlarimizning bir qismidir. Ovozni aniqlash texnologiyalari bizning qurilmalarimizga insoniy o'lchovlarni olib keladi, ammo ularni ishlab chiqish uchun ishlab chiquvchilar juda ko'p miqdordagi ovoz ma'lumotlariga muhtoj. Hozirgi vaqtda ushbu ma'lumotlarning ko'pi qimmat va mulkiy hisoblanadi.
+    Biz ovozli ma'lumotlarni bemalol va hammaga taqdim qilishni istaymiz va ma'lumotlar haqiqiy odamlarning xilma-xilligini aks ettirishiga ishonch hosil qilamiz. Birgalikda biz hamma uchun ovozni yaxshiroq aniqlashimiz mumkin.
 how-does-it-work-title = Bu qanday ishlaydi?
+how-does-it-work-text = Ovozlarning ochiq manbali ma'lumotlar to'plamini jalb qilmoqdamiz. Ovozingizni bering, boshqalarning kliplari aniqligini tekshiring, ma'lumotlar bazasini hamma uchun yaxshilang.
 about-speak = Gapiring
+about-speak-text = Ishtirokchilar ovozli roliklarni yozib olishadi va bankda berilgan jumlalarni o'qiydilar.
 about-listen-queue = Eshitish navbati
+about-listen-queue-text = Ovozli kliplar ularni tinglash uchun tayyor bo'ladigan navbatga kiritiladi.
 about-listen = Eshiting
+about-listen-text = Foydalanuvchilar sovg'a qilingan kliplarning to'g'riligini tekshiradilar va ma'ruzachining so'zlarni to'g'ri o'qiganliklarini tekshiradilar.
 about-is-it-valid = Ovoz toʻgʻri yozilganmi?
 about-is-it-valid-text = Foydalanuvchi “Ha” tugmasini bossa, bu ovozning toʻgʻriligini bildiradi.
 about-yes-votes = ≥ 2 “Ha” javobi
 about-yes-votes-text = Ovoz Common Voice maʻlumotlaridan joy olishi uchun kamida ikkita foydalanuvchi tomonidan tekshirilishi kerak.
 about-no-votes = ≥ 2 Yoʻq javobi
+about-no-votes-text = Agar foydalanuvchi ovozli klipni rad etsa, u navbatga qaytadi. Agar ikkinchi marta rad etilsa, ovozli klip Clip Mozoriga ko'chiriladi.
+about-dataset-new = Umumiy ovozli ma'lumotlar to'plami
+about-dataset-new-text = Umumiy ovozli ma'lumotlar bazasida ishlab chiquvchilarga ovozni aniqlash vositalarini yaratishga yordam beradigan yuz minglab ovoz namunalari mavjud.
 about-clip-graveyard = Ovozlar qabristoni
+about-clip-graveyard-text = Kliplar qabristoni Umumiy ovozli ma'lumotlar to'plamiga kiritilmagan ovozli kliplardan iborat. Ma'lumotlar to'plamidagi kabi, qabristonni ham ko'chirib olish mumkin.
 about-partners = Hamkorlar
+about-become-a-partner = Sherik bo'ling
+about-partnership =
+    Common Voice bu qo'shma loyihadir va biz har doim eng katta ovoz manbaini eng katta ma'lumotlar bazasini yaratish uchun sheriklar va hissa qo'shuvchilarga bog'liqmiz.
+    
+    Loyihada ko'rsatgan yordami uchun quyidagi odamlar va tashkilotlarga minnatdorchilik bildiramiz:
+about-get-involved = Jamiyatga qo‘shiling
+about-get-involved-text-2 =
+    Umumiy ovozni yanada yaxshilashga yordam bermoqchimisiz?
+    Ajoyib! Elektron pochta yoki <discourseLink> Diskurs </discourseLink> orqali bog'laning
+    forumlarda qatnashish, sayt muammolarini <githubLink> GitHub </githubLink> orqali yuborish yoki qo'shilish
+    <matrixLink> Matrix </matrixLink> jamoaviy suhbat.
 about-nav-why-common-voice = Nega?
 about-nav-partners = Hamkorlar
 about-nav-get-involved = Hissa qo‘shish
