@@ -287,9 +287,9 @@ status-title = Ukupno stanje projekta: pogledaj koliko smo napredovali!
 status-contribute = Doprinesite sa svojim glasom
 status-hours =
     { $hours ->
-        [one] Potvrđen jedan sat!
-        [few] Potvrđeno dva sata!
-       *[other] Potvrđeno sati: { $hours }
+        [one] { $hours } potvrđen sat do sada!
+        [few] { $hours } potvrđena sata do sada!
+       *[other] { $hours } potvrđenih sati do sada!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -305,7 +305,7 @@ profile-form-native-language =
 profile-form-additional-language =
     .label = Dodatni jezik
 profile-form-accent =
-    .label = Naglasak
+    .label = Narječje/Naglasak
 profile-form-age =
     .label = Dob
 profile-form-gender =
@@ -332,11 +332,12 @@ avatar = Avatar
 goals = Ciljevi
 settings = Postavke
 edit-profile = Uredi profil
-profile-create-success = Profil je uspješno kreiran!
+profile-create-success = Profil je uspješno stvoren!
 profile-close = Zatvori
-profile-explanation = Pratite svoj napredak pomoću profila i osigurajte točnije glasovne podatke.
+profile-explanation = Prati svoj napredak pomoću profila i pomogni ispravljati naše glasovne podatke.
 thanks-for-account = Zahvaljujemo što ste potvrdili svoj račun, a sada kreirajmo vaš profil.
 why-demographic = Zašto je to važno?
+why-demographic-explanation = Anonimni podaci korisnika poput dobi, spola i narječja, pomažu poboljšati audio podatke koji se koriste za točnost učenja programa za prepoznavanje govora. Tvoje korisničko ime i e-pošta nikada neće biti povezani s tvojim poslanim podacima. Uz to možeš odabrati, želiš li objaviti svoje korisničko ime ili ne.
 accept-privacy = Slažem se s načinom rukovanja s ovim podacima kao što je objašnjeno u Mozillinim <privacyLink> Pravilima o privatnosti </privacyLink>
 accept-privacy-title = Pravila o privatnosti
 login-identity = Identitet prijave
@@ -346,6 +347,7 @@ email-subscriptions = Email pretplate
 download-profile = Preuzimanje mojih podataka
 contribution-experience = Iskustvo doprinosa
 skip-submission-feedback = Preskoči povratne informacije za slanje
+skip-submission-description = Tijekom doprinošenja, povratne informacije preskaču se nakon pritiska na „Pošalji”. Nastavlja se izravno sa sljedećim nizom od 5 snimaka ili potvrda.
 skip-submission-note = Napomena: Morati ćete odabrati između opcije Govoriti ili Slušati za promjenu vrste vašeg doprinosa.
 off = Isklj.
 on = Uklj.
@@ -373,7 +375,7 @@ manage-subscriptions = Upravljanje pretplatama
 manage-email-subscriptions = Upravljanje pretplatama e-pošte
 email-already-used = Email se već koristi za drugi račun
 add-language = Dodaj jezik
-change-email-setings = Promijenite svoj Email putem Postavki pod Identitet prijave
+change-email-setings = Promijeni svoju e-adresu u postavkama, pod Identitet prijave
 
 ## FAQ
 
@@ -381,20 +383,20 @@ faq-title = Često postavljena pitanja
 faq-what-cv-q = Što je Common Voice?
 faq-why-important-q = Zašto je to važno?
 faq-how-get-q = Kako mogu dobiti Common Voice podatke?
-faq-how-get-a = Skup Common Voice podataka dostupan je za preuzimanje pod licencom <licenseLink>CC0</licenseLink> na <datasetLink>stranici naših skupova podataka</datasetLink>.  S iste stranice možete preuzeti i nekoliko drugih javno dostupnih skupova podataka.
+faq-how-get-a = Common Voice podatke je moguće preuzeti pod <licenseLink>CC0</licenseLink> licencom na našoj <datasetLink>stranici skupova podataka</datasetLink>. S iste stranice mogu se preuzeti i drugi javno dostupni skupovi podataka.
 faq-when-release2-q = Kad ćete objaviti Common Voice podatke na drugim jezicima?
 faq-why-mission-q = Zašto je Common Voice dio Mozilla misije?
 faq-what-cv-and-deepspeech-q = U čemu je razlika između Common Voice i Deep Speech?
-faq-what-cv-and-deepspeech-a = Skup podataka Common Voice dopunjuje Mozillin program otvorenog koda za prepoznavanje glasa Deep Speech. Prva verzija Deep Speech objavljena je u studenom 2017. i od tada se nastavlja razvijati. Zajedno sa skupom podataka Common Voice, smatramo da bi ova tehnologija otvorenog koda za prepoznavanje glasa trebala biti dostupna svima. Nadamo se da će ove tehnologije razvijateljima pomoći stvoriti razne inovativne proizvode i usluge.
-faq-is-goal-assistant-q = Da li je cilj Common Voice-a izgraditi glasovnog pomoćnika?
-faq-is-goal-assistant-a = Cilj skupa Common Voice podataka je omogućiti bilo kome u svijetu da izradi program za prepoznavanje govora, prepoznavanje govornika ili bilo koju drugu vrstu aplikacije, koja zahtijeva glasovne podatke. Glasovni asistent je samo jedna u nizu aplikacija, za koju se skup podataka može koristiti.
-faq-do-want-native-q = Jezik mi nije materinji i govorim s naglaskom, želite li svejedno moj glas?
-faq-do-want-native-a = Da, posebno želimo vaš glas! Dio cilja Common Voicea je sakupiti što više različitih naglaska kako bi usluge prepoznavanja glasa jednako dobro funkcionirale za sve. To znači da su donacije govornika, kojima jezik nije materinji, posebno važne.
+faq-what-cv-and-deepspeech-a = Common Voice podaci nadopunjuju Mozillin program otvorenog koda za prepoznavanje glasa Deep Speech. Prva Deep Speech verzija objavljena je u studenom 2017. i od tada se nastavlja razvijati. Zajedno sa skupom podataka Common Voice, smatramo da bi ova tehnologija otvorenog koda za prepoznavanje glasa trebala biti dostupna svima. Nadamo se da će ove tehnologije razvijateljima pomoći stvoriti razne inovativne proizvode i usluge.
+faq-is-goal-assistant-q = Je li je cilj Common Voicea izgraditi glasovnog pomoćnika?
+faq-is-goal-assistant-a = Cilj Common Voice podataka je omogućiti bilo kome u svijetu, da izradi program za prepoznavanje govora, prepoznavanje govornika ili bilo koju drugu vrstu programa koja zahtijeva glasovne podatke. Glasovni asistent je samo jedan u nizu programa, za koji se skup podataka može koristiti.
+faq-do-want-native-q = Jezik mi nije materinski i govorim s naglaskom/narječjem, želite li ipak moj glas?
+faq-do-want-native-a = Da, naročito tvoj glas želimo! Dio cilja Common Voicea je sakupiti što više različitih narječja/naglaska, kako bi usluge prepoznavanja glasa jednako dobro funkcionirale za sve. To znači, da su donacije govornika, kojima jezik nije materinski, posebno važne.
 faq-why-different-speakers-q = Zašto vam je potrebno mnogo različitih govornika po jeziku?
 faq-why-my-lang-q = Zašto moj jezik još nije uključen?
-faq-why-my-lang-new-a = Mozilla ne odabere niti jedan jezik favorizira nad drugim. Umjesto toga, Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovne donacije. Kao prvo, Common Voice web stranica mora biti prevedena, kako bi joj članovi zajednice mogli pristupiti kao suradnik na materinjem jeziku. Nadalje nam je potrebna velika zbirka rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se lansira jezik, kako bi ljudi započeli snimati svoj glas i potvrđivati druge donacije. Ako želite pomoći u započinjanju novog jezika, prijeđite na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>, kako biste započeli s radom.
+faq-why-my-lang-new-a = Mozilla ne favorizira niti jedan jezik nad drugim. Umjesto toga, Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovnih doprinosa. Najprije se Common Voice web stranica mora prevesti, kako bi joj članovi zajednice mogli pristupiti na materinskom jeziku. Nadalje nam je potrebna velika količina rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se jezik „lansira”, kako bi ljudi započeli snimati svoj glas i potvrđivati druge doprinose. Ako želiš pomoći započeti novi jezik, prijeđi na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>.
 faq-what-quality-q = Koja je kvaliteta zvuka potrebna za korištenje glasovnog isječka?
-faq-why-10k-hours-q = Zašto je cilj 10.000 potvrđenih sati po jeziku za snimanje?
+faq-why-10k-hours-q = Zašto je cilj, imati 10 000 potvrđenih sati po jeziku za snimanje?
 faq-why-10k-hours-a = Ovo je otprilike broj sati, potrebnih za obuku proizvodnog sustava za pretvaranje govora u tekst.
 faq-how-calc-hours-q = Kako Common Voice izračunava sate?
 faq-how-calc-hours-a = Sate izračunavamo procjenjujući prosječnu duljinu svakog snimanja, a zatim taj broj množimo s ukupnim brojem snimaka na svim jezicima.
