@@ -1,8 +1,8 @@
 ## General
 
-yes-receive-emails = Da, šaljite mi e-poštu. Želim informiracje o projektu Common Voice.
-stayintouch = Mi u Mozilli gradimo zajednicu oko govorne tehnologije. Želimo ostati u kontaktu s ažuriranjima, novim izvorima podataka i saznati više o tome kako upotrebljavate te podatke.
-privacy-info = Obećajemo da ćemo pažljivo postupati s vašim informacijama. Pročitajte više u <privacyLink> obavijesti o privatnosti </privacyLink>.
+yes-receive-emails = Da, šaljite mi emailove. Želim primati novosti o projektu Common Voice.
+stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i saznati kako koristiš te podatke.
+privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Saznaj više u našim <privacyLink>napomenama o zaštiti privatnosti</privacyLink>.
 return-to-cv = Povratak na Common Voice
 email-input =
     .label = Email
@@ -11,7 +11,7 @@ loading = Učitavanje…
 email-opt-in-info = Želim primati e-poruke poput podsjetnika o ciljevima, ažuriranja o napretku i novostima o Common Voiceu.
 email-opt-in-info-title = Pridruži se pretplatničkoj listi Common Voice
 email-opt-in-info-sub-with-challenge = Primaj e-poštu poput podsjetnika o izazovima i ciljevima, aktualiziranja o napretku i biltene o Common Voice.
-email-opt-in-privacy = Ukoliko se odlučite za primanje poruka e-pošte, izjavljujete da ste suglasni da Mozilla upravlja vašim podaci kako je objašnjeno u Mozilla <privacyLink>politika privatnosti<privacyLink>.
+email-opt-in-privacy = Ukoliko se odlučiš primati e-mail poruke, izjavljuješ, da se slažeš, da Mozilla upravlja tvojim podaci kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti<privacyLink>.
 indicates-required = * obilježava obvezno polje
 not-available-abbreviation = N/A
 
