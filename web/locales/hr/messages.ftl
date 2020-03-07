@@ -657,7 +657,7 @@ report = Prijavi
 report-title = Pošalji izvještaj
 report-ask = Koji problem imate s ovom rečenicom?
 report-offensive-language = Uvredljivi jezik
-report-offensive-language-detail = Rečenica sadrži uvredljiv ili prostački izraz.
+report-offensive-language-detail = Rečenica sadrži uvredljive ili prostačke riječi.
 report-grammar-or-spelling = Gramatička / pravopisna greška
 report-grammar-or-spelling-detail = Rečenica ima gramatičku ili pravopisnu grešku.
 report-different-language = Drugačiji jezik
@@ -665,7 +665,7 @@ report-different-language-detail = Napisana je jezikom kojim ne govorim.
 report-difficult-pronounce = Teško se izgovara
 report-difficult-pronounce-detail = Sadrži riječi ili izraze koje je teško pročitati ili izgovoriti.
 report-offensive-speech = Uvredljivi govor
-report-offensive-speech-detail = Isječak sadrži nepoštivanje osobe ili uvredljiv jezik.
+report-offensive-speech-detail = Isječak sadrži uvredljive ili prostačke riječi.
 report-other-comment =
     .placeholder = Komentar
 success = Uspjeh
@@ -689,9 +689,9 @@ recordings =
     }
 validations =
     { $count ->
-        [one] Provjera
-        [few] Provjere
-       *[other] Provjera
+        [one] Potvrda
+        [few] Potvrde
+       *[other] Potvrda
     }
 
 ## Dashboard
@@ -699,7 +699,7 @@ validations =
 your-languages = Vaši jezici
 toward-next-goal = Prema sljedećem cilju
 clips-you-recorded = Isječci koje ste snimili
-clips-you-validated = Isječci koje ste potvrdili
+clips-you-validated = Tvoji potvrđeni isječci
 todays-recorded-progress = Današnji napredak Common Voicea o snimljenim isječcima
 todays-validated-progress = Današnji napredak Common Voicea o potvrđenim isječcima
 stats = Statistike
@@ -713,6 +713,7 @@ validated-clips = Potvrđeni isječci
 total-approved = Ukupno odobreno
 overall-accuracy = Ukupna točnost
 set-visibility = Postavi moju vidljivost
+visibility-overlay-note = Napomena: Ako je postavljeno na „Vidljivo”, ta se postavka može promijeniti na <profileLink>stranici profila</profileLink>
 show-ranking = Pokaži moj rang
 
 ## Custom Goals
@@ -736,6 +737,9 @@ help-reach-hours = Pomozi postići { NUMBER($hours) } sati za { $language } s os
 help-reach-hours-general = Pomozi Common Voiceu dosegnuti { NUMBER($hours) } sati za jezik s osobnim ciljem
 set-a-goal = Postavi cilj
 cant-decide = Ne možete se odlučiti?
+activity-needed-calculation =
+    { NUMBER($totalHours) } sati ostvarivo je za nešto više od { NUMBER($periodMonths) }
+    mjeseci, ako { NUMBER($people) } ljudi snime { NUMBER($clipsPerDay) } isječaka dnevno.
 how-many-per-day = Sjajno! Koliko isječaka dnevno?
 how-many-a-week = Sjajno! Koliko isječaka tjedno?
 which-goal-type = Želiš li govoriti, slušati ili oboje?
@@ -756,6 +760,8 @@ share-n-weekly-contribution-goal = Podijeli svoj tjedni cilj od { $count } isje�
 share-goal-type-speak = Govor
 share-goal-type-listen = Slušanje
 share-goal-type-both = Govor i slušanje
+# LINK will be replaced with the current URL
+goal-share-text = Upravo sam stvorio osobni cilj davanja glasa projektu #CommonVoice – pridruži mi se i pomogni učiti strojeve govoriti ljudskim jezikom { $link }
 weekly-goal-created = Tvoj tjedni cilj je stvoren
 daily-goal-created = Tvoj dnevni cilj je stvoren
 track-progress = Prati napredak ovdje i na tvojoj stranici sa statistikama.
@@ -764,10 +770,10 @@ share-goal = Dijeli moj cilj s drugima
 
 ## Profile Delete
 
-delete-q = Želiš li zatražiti da se i tvoje glasovne snimke obrišu ili da se radije zadrže u skupu Common Voice podataka?
+delete-q = Želiš li zatražiti da se i tvoje glasovne snimke obrišu ili da se zadrže u Common Voice skupu podataka?
 keep = Zadrži
 remove = Ukloni
-keep-info = Tvoje anonimne glasovne snimke ostat će u skupu podataka Common Voice. Kad izbrišeš svoj profil, više nećeš moći podnijeti zahtjev za uklanjanje vlastitih snimaka iz skupa podataka
+keep-info = Tvoje anonimne glasovne snimke ostat će u Common Voice skupu podataka. Kad izbrišeš svoj profil, više nećeš moći podnijeti zahtjev za uklanjanje vlastitih snimaka iz skupa podataka
 remove-info = Razmotrit ćemo tvoj zahtjev za uklanjanje tvojih glasovnih snimaka iz skupa podataka. Ako tvoj zahtjev bude odobren, obratit ćemo se onima koji su preuzeli skup podataka i zatražiti da uklone i tvoje glasovne snimke.
 why-delete-recordings =
     Common Voice snimke koriste akademici, mala poduzeća i entuzijasti za prepoznavanje glasa, kako bi se pomoglo osposobljavanju i rastu javno dostupnih resursa, poput glasovnih modela.
