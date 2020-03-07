@@ -518,27 +518,36 @@ audio-format = Format zvuka
 number-of-voices = Broj glasova
 splits = Podjele
 email-to-download = Za preuzimanje, upiši e-adresu
-why-email = <b>Zašto e-pošta?</b> U budućnosti ćemo vas možda morati kontaktirati u vezi s promjenama skupa podataka, a e-pošta nam pruža mogućnost kontaktiranja.
-confirm-size = Spremni ste pokrenuti preuzimanje veličine <b>{ $size }</b>
+why-email = <b>Zašto e-pošta?</b> U budućnosti ćemo te možda morati kontaktirati u vezi s promjenama skupa podataka, a e-pošta nam pruža mogućnost kontaktiranja.
+confirm-size = Sve je spremno za pokretanje preuzimanja veličine <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Slažete se</b> da nećete pokušati utvrditi identitet govornika u skupu Common Voice podataka
+confirm-no-identify = <b>Slažeš se</b>, da nećeš pokušati utvrditi identitet govornika u skupu podataka Common Voice
 download-language = Preuzmi { $language }
 validated-hours = Potvrđeni sati
 recorded-hours = Snimljeni sati
-whats-inside = Što se nalazi u skupini Common Voice podataka?
-want-dataset-update = Želite ažuriranja kad objavimo novu verziju skupa Common Voice podataka? Pretplatite se na naše obavijesti.
+whats-inside = Što sadrži skup podataka Common Voice?
+dataset-description-hours =
+    Svaki unos u skupu podataka sastoji se od jedinstvene MP3 datoteke i odgovarajuće tekstualne datoteke. Mnogi od <b>{ $total }</b> zabilježenih sati u skupu podataka uključuju i demografske metapodatke poput dobi, spola i narječja, koji mogu pomoći u vježbanju točnosti govornih programa.
+    
+    Podaci se trenutačno sastoje od <b>{ $valid }</b> potvrđenih sati na <b>{ $languages }</b> jezika, ali uvijek dodajemo daljnje glasove i jezike. Na našoj <languagesLink>stranici s jezicima</languagesLink> možeš zatražiti jezik ili početi doprinositi.
+want-dataset-update = Želiš novosti o objavljenim novim verzijama skupa podataka Common Voice? Pretplati se na naš bilten.
 subscribe = Pretplati se
-get-started-speech = Započnite s prepoznavanjem govora
+get-started-speech = Započni s prepoznavanjem govora
 other-datasets = Drugi skupovi glasovnih podataka
-feedback-q = Imate povratnu informaciju?
-deepspeech-info = Skup Common Voice podataka dopunjava Mozillin mehanizam za prepoznavanje govora otvorenog koda Deep Speech, koji možete koristiti za izradu aplikacija za prepoznavanje govora. Pročitajte naš <githubLink>pregled Github-a</githubLink> ili se pridružite <discourseLink>DeepSpeech forumu za diskutiranje</discourseLink>, da biste saznali kako započeti.
-common-voice-info-new = Imaš pitanja o Common Voiceu? Imaš ideje za poboljšanja ili povratne informacije o određenom jeziku? Pridruži nam se našem <discourseLink>forumu za diskutiranje</discourseLink> i javi nam se.
-your-feedback = Imaš ideje kako poboljšati Common Voice skup podataka? Javi nam se na forumu za diskutiranje
+feedback-q = Želiš nam poslati povratne informacije?
+deepspeech-info = Skup podataka Common Voice nadopunjuje Mozillin mehanizam za prepoznavanje govora otvorenog koda Deep Speech, koji se može koristiti za izradu aplikacija za prepoznavanje govora. Pročitaj naš <githubLink>pregled Github-a</githubLink> ili se pridruži <discourseLink>DeepSpeech forumu za diskutiranje</discourseLink> i saznaj kako započeti.
+common-voice-info-new = Imaš pitanja o Common Voiceu? Imaš ideje za poboljšanja ili povratne informacije o određenom jeziku? Pridruži nam se našem <discourseLink>forumu za diskutiranje</discourseLink> i javi nam.
+data-other-librispeech-description = LibriSpeech je korpus od oko 1000 sati engleskog govora pri 16Khz, izveden iz audio knjiga LibriVox projekta.
+data-other-ted-name = TED-LIUM korpus
+data-other-ted-description = TED-LIUM korpus je izrađen iz audio razgovora i njihovih transkripcija, dostupni na TED web stranici.
+data-other-voxforge-description = VoxForge je izrađen za prikupljanje prepisanih govora za upotrebu sa otvorenim i slobodno dostupnim sustavima za prepoznavanje govora.
+data-other-tatoeba-description = Tatoeba je velika baza podataka s rečenicama, prijevodima i govornim snimkama za učenje jezika. Ovo preuzimanje sadrži govorni engleski jezik, snimljen od njihove zajednice.
+your-feedback = Imaš ideje kako poboljšati Common Voice? Javi nam se na forumu za diskutiranje
 go-discourse = Prijeđi na forum za diskutiranje
-missing-language = Ne vidite vaš jezik u skupu podataka? Da biste zatražili jezik, prijeđite na našu stranicu za jezike.
-go-languages-page = Idite na stranicu s jezicima
-ready-to-validate = Jeste li spremni pomoći potvrđivati rečenice?
+missing-language = Tvoj jezik nedostaje u skupu podataka? Prijeđi na stranicu za jezike i zatraži jezik.
+go-languages-page = Prijeđi na stranicu s jezicima
+ready-to-validate = Želiš pomoći potvrđivati rečenice?
 more = Više
 close = Zatvori
 download = Preuzmi
@@ -551,7 +560,7 @@ download-helpus = Pomozite nam izgraditi zajednicu oko glasovne tehnologije, bud
 download-form-email =
     .label = Unesite vaš Email
     .value = Hvala, biti ćemo u kontaktu.
-download-back = Vrati se na skupine Common Voice podataka
+download-back = Vrati se na skup podataka Common Voice
 download-no = Ne hvala
 
 ## Contact Modal
@@ -576,9 +585,11 @@ other-language = Ostali jezici
 ## Languages Overview
 
 language-section-in-progress = U tijeku
+language-section-in-progress-new-description = Ove jezike trenutačno razvija zajednica. Trake napretka pokazuju stanje <localizationGlossaryLink>lokalizacije web-stranice</localizationGlossaryLink> i količinu <sentenceCollectionGlossaryLink>prikupljenih rečenica</sentenceCollectionGlossaryLink>.
 language-section-launched = Pokrenuto
-languages-show-more = Pogledajte više
-languages-show-less = Pogledajte manje
+language-section-launched-description = Za ove jezike je web-stranica uspješno <localizationGlossaryLink>lokalizirana</localizationGlossaryLink> te je prikupljena dovoljna količina <sentenceCollectionGlossaryLink>rečenica</sentenceCollectionGlossaryLink> za doprinošenje <speakLink>govora</speakLink> i <listenLink>slušanja</listenLink>.
+languages-show-more = Prikaži više
+languages-show-less = Prikaži manje
 language-meter-in-progress = Napredak
 language-total-progress = Ukupno
 language-search-input =
@@ -605,7 +616,7 @@ contribute-more =
         [few] Jeste li spremni obaviti još { $count }?
        *[other] Jeste li spremni obaviti još { $count }?
     }
-record-cta = Započnite snimanje
+record-cta = Počni snimati
 record-platform-not-supported = Žao nam je, ali vaša platforma trenutačno nije podržana.
 record-platform-not-supported-desktop = Na stolnim računalima možete preuzeti najnovije:
 record-platform-not-supported-ios = <bold>iOS</bold> korisnici mogu preuzeti našu besplatnu aplikaciju:
@@ -623,17 +634,18 @@ record-again-instruction2 = Nastavite, snimite ponovno <recordIcon> </recordIcon
 record-last-instruction = <recordIcon></recordIcon>Posljednja!
 review-tooltip = Pregledajte i ponovno snimite isječke
 review-instruction = Pregledajte i ako je potrebno ponovno snimite isječke
-record-submit-tooltip = { $actionType } pošaljite kad ste spremni
+record-submit-tooltip = { $actionType } pošalji kad je spremno
 clips-uploaded = Isječaka preneseno
-record-abort-title = Prvo završite snimanje?
+record-abort-title = Najprije završiti snimanje?
 record-abort-text = Ako napustite sada, izgubit ćete vaš tijek
-record-abort-submit = Pošaljite isječke
-record-abort-continue = Završite snimanje
+record-abort-submit = Pošalji isječke
+record-abort-continue = Završi snimanje
 record-abort-delete = Izlaz i brisanje isječaka
 listen-instruction = { $actionType }<playIcon></playIcon> jesi li točno izgovorio/la rečenicu?
 listen-again-instruction = Sjajan posao!<playIcon></playIcon> Slušajte ponovo kada budete spremni
 listen-3rd-time-instruction = Još 2, ustrajte!<playIcon> </playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Posljednja!
+nothing-to-validate = Na ovom se jeziku nema što potvrditi, pomozi nam napuniti red.
 record-button-label = Snimite svoj glas
 share-title-new = <bold>Pomozite nam</bold> pronaći više glasova
 keep-track-profile = Prati svoj napredak pomoću profila
@@ -642,10 +654,10 @@ login-to-get-started = Za početak se prijavi ili registriraj
 ## Reporting
 
 report = Prijavi
-report-title = Pošaljite izvještaj
+report-title = Pošalji izvještaj
 report-ask = Koji problem imate s ovom rečenicom?
 report-offensive-language = Uvredljivi jezik
-report-offensive-language-detail = Rečenica sadrži nepoštivanje osobe ili uvredljiv jezik.
+report-offensive-language-detail = Rečenica sadrži uvredljiv ili prostački izraz.
 report-grammar-or-spelling = Gramatička / pravopisna greška
 report-grammar-or-spelling-detail = Rečenica ima gramatičku ili pravopisnu grešku.
 report-different-language = Drugačiji jezik
