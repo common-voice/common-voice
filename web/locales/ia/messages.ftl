@@ -576,7 +576,7 @@ download-no = No gratias
 
 ## Contact Modal
 
-contact-title = Modulo de contacto
+contact-title = Formulario de contacto
 contact-form-name =
     .label = Nomine
 contact-form-message =
