@@ -447,11 +447,11 @@ about-partnership =
     
     We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Përfshihuni
-about-get-involved-text =
+about-get-involved-text-2 =
     Doni të ndihmoni për ta bërë edhe më të mirë Common Voice-in?
-    Bukur! Lidhuni përmes email-i, ose përmes <discourseLink>Discourse</discourseLink>,
-    parashtroni mendime përmes <githubLink>GitHub</githubLink>,
-    ose merrni pjesë në kanalin tonë <slackLink>Slack</slackLink>.
+    Bukur! Lidhuni përmes email-i ose forumesh <discourseLink>Discourse</discourseLink>,
+    parashtroni probleme sajti përmes <githubLink>GitHub</githubLink>,
+    ose merrni pjesë te biseda të bashkësisë, te <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Pse?
 about-nav-how-it-works = Si?
 about-nav-partners = Partnerë
@@ -641,6 +641,8 @@ record-again-instruction = Bukur!<recordIcon></recordIcon> Incizoni copëzën tu
 record-again-instruction2 = Vazhdoni kështu, incizoni sërish <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> I fundit!
 review-tooltip = Shqyrtoni & ri-incizoni këtu copëza, dora-dorës
+share-clip = Ndani me të tjerët copëzën tuaj
+share-common-voice = Ndani me të tjerët Common Voice
 review-instruction = Shqyrtoni & ri-incizoni copëza, në u dashtë
 record-submit-tooltip = { $actionType } parashtrojeni, kur të jeni gati
 clips-uploaded = Copëzat U Ngarkuan
