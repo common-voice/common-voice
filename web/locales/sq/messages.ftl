@@ -171,7 +171,7 @@ wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk je
 wall-of-text-more-desktop =
     Tani mund të dhuroni zërin tuaj për të na ndihmuar të krijojmë një bazë të dhënash me burim të hapur që mund ta përdorë kushdo për të sjellë aplikacione risore për pajisje dhe web.<lineBreak></lineBreak>
     Lexoni një frazë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
-wall-of-text-first = Zëri është natyror, zëri është njerëzor. Kjo është arsyeja pse jemi të ngazëllyer nga krijimi teknologjish të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri, zhvilluesve u duhen sasi zëri tejet të mëdha.
+wall-of-text-first = Zëri është natyror, zëri është njerëzor. Kjo është arsyeja pse jemi të ngazëllyer nga krijim teknologjish të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri, zhvilluesve u duhen sasi zëri tejet të mëdha.
 wall-of-text-second = Shumica e të dhënave të përdorura nga kompani të mëdha nuk jepen për shumicën e njerëzve. Mendojmë që kjo e mbyt novacionin. Ndaj filluam Common Voice, një projekt për të ndihmuar që njohja e zërit të bëhet e hapur dhe e përdorshme nga kushdo.
 show-wall-of-text = Lexoni Më Tepër
 help-us-title = Ndihmonani të vleftësojmë fraza!
@@ -395,7 +395,7 @@ faq-how-calc-hours-q = Si i llogarit orët Common Voice-i?
 faq-how-calc-hours-a = Orët i llogarisim duke peshuar gjatësinë mesatare të çdo incizimi dhe duke e shumëfishuar këtë numër me numrin gjithsej të incizimeve nëpër krejt gjuhët.
 faq-where-src-from-2-q = Prej nga vjen teksti burim?
 faq-where-src-from-2-a =
-    Teksti ynë burim përbëhet nga dhurime origjinale nga ndihmëtarë, si dhe doalogë nga skenarë filmash nën përkatësi publike, f.v. <italic>It’s a Wonderful Life</italic>.
+    Teksti ynë burim përbëhet nga dhurime origjinale nga ndihmëtarë, si dhe dialogë nga skenarë filmash nën përkatësi publike, f.v. <italic>It’s a Wonderful Life</italic>.
     
     Fraza nga burimi ynë mund të shihni te kjo <githubLink>dosje GitHub</githubLink>.
 faq-why-not-ask-read-q = Pse s’u kërkoni njerëzve të lexojnë nga libra apo nga artikujt të Wikipedia-s në gjuhë të ndryshme?
