@@ -371,6 +371,7 @@ faq-why-important-a =
 faq-how-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
 faq-how-get-a = La datumaro de Common Voice estas disponeblaj kaj elŝuteblaj laŭ la kondiĉoj de la permesilo <licenseLink>CC0</licenseLink> en <datasetLink>la paĝo pri niaj datumaroj</datasetLink>. Vi povas elŝuti ankaŭ plurajn aliajn publike haveblajn datumarojn el la sama paĝo.
 faq-when-release2-q = Kiam vi liberigos datumojn de Common Voice en aliaj lingvoj?
+faq-when-release2-a = La plurlingva versio de la datumaro de Common Voice estas nuntempe flegata kaj polurata de la komununmo. Se vi ŝatus helpi nin porti Common Voice al novaj lingvoj, bonvolu kontroli la <sentenceCollectorLink>ilon por kolekti frazojn</sentenceCollectorLink> por aldoni novajn frazojn al la datumaro, kaj Mozilla <pontoonLink>Pontoon</pontoonLink> por traduki la retejon. Novaj lingvoj estos aldonitaj al Common Voice kiam 5000 aprobitaj frazoj estos kolektitaj.
 faq-why-mission-q = Kial Common Voice estas parto de la misio de Mozilla?
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
 faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
