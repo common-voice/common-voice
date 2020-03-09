@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Пошаљи
 loading = Учитавам…
 email-opt-in-info = Желео бих да примим е-поруке које садрже подсетнике о циљевима, ажурирања напретка и билтене о пројекту Common Voice.
+email-opt-in-info-title = Придружите се Common Voice групи за пошту
 email-opt-in-privacy = Ако изаберете да примате е-поруке, изјављујете да прихватате  да Mozilla управља овим подацима на начин објашњен у Mozilla-иној <privacyLink>политици приватности<privacyLink>.
 indicates-required = * Указује обавезно поље
 not-available-abbreviation = недоступно
