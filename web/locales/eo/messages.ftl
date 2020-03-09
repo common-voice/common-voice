@@ -362,6 +362,7 @@ change-email-setings = Ŝanĝu vian retpoŝton en Agordoj, Idento de seanco
 
 faq-title = Oftaj demandoj
 faq-what-cv-q = Kio estas Common Voice?
+faq-what-cv-a = Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Common Voice estas parto de iniciato de Mozilla, kiu celas plibonigi voĉrekonajn teknologiojn kaj igi ilin alireblaj de ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kaj ĝi permesas al iu ajn rapide kaj facile trejni voĉrekonajn programojn en, eventuale, ĉiuj lingvoj.
 faq-why-important-q = Kial ĝi gravas?
 faq-how-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
 faq-why-mission-q = Kial Common Voice estas parto de la misio de Mozilla?
