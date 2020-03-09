@@ -364,7 +364,13 @@ faq-title = Oftaj demandoj
 faq-what-cv-q = Kio estas Common Voice?
 faq-what-cv-a = Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Common Voice estas parto de iniciato de Mozilla, kiu celas plibonigi parolrekonajn teknologiojn kaj igi ilin alireblaj de ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kaj ĝi permesas al iu ajn rapide kaj facile trejni parolrekonajn programojn en, eventuale, ĉiuj lingvoj.
 faq-why-important-q = Kial ĝi gravas?
+faq-why-important-a =
+    Parolado estas ofte la plej natura maniero komunikiĝi kun la aliaj, kaj voĉaj teknologioj alportas tiun konvenecon al niaj komputiloj kaj poŝaparatoj. Ni volas doni al programistoj la rimedojn kontrui ravajn parorekonajn programojn, kiel samtempajn tradukantojn kaj parolkapablajn helpantojn. Tamen, nuntempe la plimulto de la voĉaj datumoj bezonataj por krei tiajn programojn estas multekosta kaj mallibera. Ni esperas ke la datumaro de Common Voice donos al la programistoj tion, kion ili bezonas por novaĵkrei kaj igi parolajn tekcnologiojn haveblaj en siaj propraj lingvoj.
+    
+    Por igi parolrekonon eĉ pli universala, ni kolektas specimenojn kaj de vaste parolataj lingvoj kaj de tiuj kun malpli da parolantoj, kiuj kutime ne estas tiel bone servitaj de komercaj parolrekonaj servoj. La publikigo de plurlingva datumaro de voĉoj helpos programistojn, entreprenistojn kaj tutajn komunumojn alfronti tion.
 faq-how-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
+faq-how-get-a = La datumaro de Common Voice estas disponeblaj kaj elŝuteblaj laŭ la kondiĉoj de la permesilo <licenseLink>CC0</licenseLink> en <datasetLink>la paĝo pri niaj datumaroj</datasetLink>. Vi povas elŝuti ankaŭ plurajn aliajn publike haveblajn datumarojn el la sama paĝo.
+faq-when-release2-q = Kiam vi liberigos datumojn de Common Voice en aliaj lingvoj?
 faq-why-mission-q = Kial Common Voice estas parto de la misio de Mozilla?
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
 faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
