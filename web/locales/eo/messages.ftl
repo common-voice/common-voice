@@ -659,6 +659,10 @@ share-goal = Kundividi mian celon
 
 keep = Gardi
 remove = Forigi
+why-delete-recordings =
+    La voĉregistroj de Common Voice estas uzitaj de akademioj, etaj entreprenoj kaj personoj entuziasmantaj de parolrekono, por trajni kaj disvolvi rimedojn kiel ekzemple voĉajn modelojn.
+    
+    Ĉu vi povas diri al kial vi ŝatus forigi viajn voĉregistrojn?
 profile-form-delete = Forigi profilon
 
 ## Landing
