@@ -8,14 +8,7 @@ import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
 import URLS from '../../urls';
-import {
-  getItunesURL,
-  isIOS,
-  isNativeIOS,
-  isSafari,
-  isProduction,
-  replacePathLocale,
-} from '../../utility';
+import { getItunesURL, isProduction, replacePathLocale } from '../../utility';
 import { LocaleLink, LocaleNavLink } from '../locale-helpers';
 import {
   CogIcon,

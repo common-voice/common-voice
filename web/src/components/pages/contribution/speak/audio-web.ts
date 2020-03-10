@@ -86,7 +86,7 @@ export default class AudioWeb {
 
   // Check if audio recording is supported
   isAudioRecordingSupported() {
-    return typeof MediaRecorder !== 'undefined';
+    return typeof MediaRecorder !== 'undefined' && !MediaRecorder.notSupported;
   }
 
   private visualize() {
