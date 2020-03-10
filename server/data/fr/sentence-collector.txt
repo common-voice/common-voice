@@ -34373,6 +34373,7 @@ La cuisson sera plus rapide dans un autocuiseur
 La culbute est fatalement au bout.
 La culpabilité qui crispe mes pommettes et ride mon front.
 La cupidité des banques dépasse parfois l'entendement.
+La cybermonnaie ne doit pas être confondue avec la monnaie électronique.
 La cérémonie a eu lieu ici, dans le manoir.
 La cérémonie a eu lieu ici.
 La cérémonie fut accomplie avec une grande pompe.
@@ -36433,6 +36434,7 @@ Le bien, le mal, le profane, le sacré…
 Le bien-être de l’homme
 Le bien-être matériel de la colonie était pour ainsi dire complet
 Le billet de banque de l’archipel est invariablement d’une livre sterling.
+Le bitcoin est l’une des principales cybermonnaies.
 Le blanc se proclame le premier des hommes !
 Le bleu dans le noir
 Le blé, qui est à dix-huit francs l’hectolitre
@@ -40872,6 +40874,7 @@ Les tâtonnements de l’évasion
 Les tâtonnements du Nautilus continuaient.
 Les tempêtes d’hommes pires que les tempêtes d’océans
 Les tenez-vous ? demanda sir John.
+Les termes « monnaie virtuelle » et « cryptomonnaie » sont déconseillés.
 Les terrasses des cafés étaient noires de monde.
 Les territoires de ces deux communes confinent l’un à l’autre.
 Les textes sont explicites.
