@@ -54,7 +54,7 @@ type Locales = { locale: string; accent: string }[];
 function ProfilePage({
   getString,
   history,
-}: LocalizationProps & RouteComponentProps<any>) {
+}: LocalizationProps & RouteComponentProps<any, any, any>) {
   const api = useAPI();
   const [locale, toLocaleRoute] = useLocale();
   const user = useTypedSelector(({ user }) => user);

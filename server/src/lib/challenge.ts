@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 import getLeaderboard from './model/leaderboard';
 import { earnBonus, hasEarnedBonus } from './model/achievements';
 import Model from './model';
-import { ChallengeRequestArgument } from 'common/challenge';
+import { ChallengeRequestArgument } from 'common';
 
 const PromiseRouter = require('express-promise-router');
 

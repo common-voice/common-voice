@@ -1,5 +1,5 @@
-import { ChallengeDuration, ChallengeTeamToken } from 'common/challenge';
-import { UserClient } from 'common/user-clients';
+import { ChallengeDuration, ChallengeTeamToken } from 'common';
+import { UserClient } from 'common';
 
 export const challengeLogos: {
   [key in ChallengeTeamToken]: {

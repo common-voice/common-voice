@@ -6,7 +6,7 @@ import {
 import * as React from 'react';
 import { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { UserClient } from 'common/user-clients';
+import { UserClient } from 'common';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';

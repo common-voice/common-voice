@@ -38,7 +38,7 @@ import {
   challengeTeamTokens,
   ChallengeToken,
   challengeTokens,
-} from 'common/challenge';
+} from 'common';
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
@@ -57,7 +57,7 @@ interface PropsFromDispatch {
 interface LayoutProps
   extends PropsFromState,
     PropsFromDispatch,
-    RouteComponentProps<any> {}
+    RouteComponentProps<any, any, any> {}
 
 interface LayoutState {
   challengeTeamToken: ChallengeTeamToken;

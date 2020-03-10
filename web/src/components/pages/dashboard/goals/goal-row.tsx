@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Localized } from 'fluent-react/compat';
-import { GlobalGoal } from 'common/goals';
+import { GlobalGoal } from 'common';
 
 import './goal-row.css';
 

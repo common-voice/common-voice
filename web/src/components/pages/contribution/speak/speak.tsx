@@ -94,7 +94,7 @@ interface Props
     LocalizationProps,
     PropsFromState,
     PropsFromDispatch,
-    RouteComponentProps<any> {}
+    RouteComponentProps<any, any, any> {}
 
 interface State {
   clips: SentenceRecording[];

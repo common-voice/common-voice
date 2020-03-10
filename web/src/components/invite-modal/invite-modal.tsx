@@ -10,7 +10,7 @@ import { FontIcon } from '../ui/icons';
 import { Button } from '../ui/ui';
 import { useAPI } from '../../hooks/store-hooks';
 import { trackChallenge } from '../../services/tracker';
-import { Enrollment } from 'common/challenge';
+import { Enrollment } from 'common';
 
 import './invite-modal.css';
 

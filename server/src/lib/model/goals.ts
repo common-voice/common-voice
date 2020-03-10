@@ -1,5 +1,4 @@
-import { AllGoals } from 'common/goals';
-import { ChallengeToken } from 'common/challenge';
+import { AllGoals } from 'common';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 import { earnBonus } from './achievements';

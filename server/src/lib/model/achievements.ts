@@ -1,4 +1,4 @@
-import { ChallengeToken, AchievementType } from 'common/challenge';
+import { ChallengeToken, AchievementType } from 'common';
 import { getMySQLInstance } from './db/mysql';
 
 // SQLs here is the last guards before inserting into earn table

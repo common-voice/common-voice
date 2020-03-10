@@ -1,11 +1,16 @@
 import pick = require('lodash.pick');
-import { UserClient } from 'common/user-clients';
+import { UserClient } from 'common';
 import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 import { earnBonus } from './achievements';
-import { ChallengeToken, ChallengeTeamToken } from 'common/challenge';
+import {
+  ChallengeToken,
+  ChallengeTeamToken,
+  challengeTokens,
+  challengeTeamTokens,
+} from 'common';
 
 const db = getMySQLInstance();
 
@@ -304,7 +309,11 @@ const UserClient = {
     invite?: string,
     referer?: string
   ): Promise<boolean> {
-    if (email && challenge && team) {
+    if (
+      email &&
+      challengeTokens.includes(challenge) &&
+      challengeTeamTokens.includes(team)
+    ) {
       // For registered user, client_id is not null
       // For enrolled user, enroll_id is not null
       // For user enrolled in the challenge, challenge_id is not null
