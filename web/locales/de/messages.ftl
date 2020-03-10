@@ -721,7 +721,7 @@ validated-clips = Überprüfte Aufzeichnungen
 total-approved = Angenommene Aufzeichnungen
 overall-accuracy = Gesamtgenauigkeit
 set-visibility = Meine Sichtbarkeit einstellen
-visibility-explainer = Diese Einstellung steuert die Sichtbarkeit Ihrer Bestenliste. Wenn Sie versteckt sind, ist Ihr Fortschritt privat. Dies bedeutet, dass Ihr Bild, Benutzername und Fortschritt nicht in der Bestenliste angezeigt werden. Beachten Sie, dass die Aktualisierung der Bestenliste etwa { $minutes } Minuten braucht, um die Änderungen zu übernehmen.
+visibility-explainer = Diese Einstellung steuert die Sichtbarkeit Ihrer Rangliste. Bei Wahl der Option „Versteckt“ bleibt Ihr Fortschritt privat und Ihr Profilbild, Benutzername und Fortschritt werden nicht in der Rangliste angezeigt. Beachten Sie, dass die Aktualisierung der Rangliste etwa { $minutes } Minuten benötigt, um die Änderungen zu übernehmen.
 visibility-overlay-note = Hinweis: Bei Einstellung auf „Sichtbar“ kann diese Einstellung auf der <profileLink>Profilseite</profileLink> geändert werden.
 show-ranking = Meine Bewertung ansehen
 
