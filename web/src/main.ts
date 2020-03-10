@@ -10,9 +10,16 @@ document.addEventListener('touchstart', function() {}, true);
 
 // Start the app when DOM is ready.
 document.addEventListener('DOMContentLoaded', async () => {
-  if (typeof window.IntersectionObserver === 'undefined') {
-    await require('intersection-observer');
-  }
+  const deferredPolyfills = [
+    typeof window.IntersectionObserver === 'undefined'
+      ? require('intersection-observer')
+      : Promise.resolve(),
+    typeof window.MediaRecorder === 'undefined'
+      ? require('audio-recorder-polyfill')
+      : Promise.resolve(),
+  ];
+  const [_, AudioRecorder] = await Promise.all(deferredPolyfills);
+  if (AudioRecorder) window.MediaRecorder = AudioRecorder;
   const App = require('./components/app').default;
   render(React.createElement(App), document.getElementById('root'));
 });
