@@ -48,27 +48,12 @@ export function isFirefoxFocus(): boolean {
 /**
  * Test whether this is a browser on iOS.
  */
-export function isIOS(): boolean {
+function isIOS(): boolean {
   return /(iPod|iPhone|iPad)/i.test(window.navigator.userAgent);
 }
 
-export function isWebkit(): boolean {
+function isWebkit(): boolean {
   return /AppleWebKit/i.test(window.navigator.userAgent);
-}
-
-/**
- * Check whether the browser is Safari (either desktop or mobile).
- */
-export function isSafari(): boolean {
-  const userAgent = window.navigator.userAgent;
-  /* Just checking isSafari isn't enough, because multiple browsers on iOS
-   * identify as Safari. The difference is that they have a different version
-   * string in the user agent. E.g. Safari has Version/<version>, Chrome has
-   * CriOS/<version>, Firefox has FxiOS/<version>.
-   */
-  const pretendsSafari = /Safari/i.test(userAgent);
-  const isSafari = /Version/i.test(userAgent);
-  return isWebkit() && pretendsSafari && isSafari;
 }
 
 /**
