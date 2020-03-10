@@ -437,6 +437,9 @@ about-partners = Partner
 about-become-a-partner = Diventa partner
 about-partnership = Common Voice è un progetto in collaborazione e, per creare la più grande raccolta dati vocali di dominio pubblico di sempre, dipendiamo dalla comunità di soci e collaboratori. Per il loro contributo al progetto, abbiamo il piacere di ringraziare le persone e le organizzazioni seguenti:
 about-get-involved = Collabora
+about-get-involved-text-2 =
+    Vuoi aiutarci a migliorare Common Voice?
+    Ottimo! Contattaci via email o sul forum <discourseLink>Discourse</discourseLink>, segnala problemi del sito attraverso <githubLink>GitHub</githubLink> o unisciti alla chat della comunità su <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Perché?
 about-nav-how-it-works = Come?
 about-nav-partners = Partner
