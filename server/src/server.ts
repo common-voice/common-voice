@@ -287,7 +287,9 @@ export default class Server {
       await this.model.performMaintenance();
       await importLocales();
       if (doImport) {
+        this.print('Importing sentences');
         await importSentences(await this.model.db.mysql.createPool());
+        this.print('Done importing sentences.');
       }
       this.print('Maintenance complete');
     } catch (err) {
