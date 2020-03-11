@@ -413,7 +413,7 @@ faq-what-determine-identity-a =
     Alle Sprachclips im Datensatz werden um persönlich identifizierende Informationen bereinigt. Wenn Sie den Datensatz herunterladen, stimmen Sie zu, nicht zu versuchen, die Identität eines Mitwirkenden zu ermitteln. Das bedeutet, dass Sie nicht versuchen dürfen, Informationen in der Datenmenge mit den persönlichen Informationen eines Mitwirkenden zu verknüpfen. Sie können den Datensatz jedoch zum Trainieren der Spracherkennung, Sprechererkennung oder anderer Anwendungen verwenden, indem Sie beispielsweise Informationen im Datensatz mit anderen Informationen verknüpfen, die bereits im Datensatz vorhanden sind.
 faq-what-is-cv = Was ist Common Voice?
 faq-using-cv = Common Voice verwenden
-faq-description = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
+faq-description = Common Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
 faq-search-for-answers =
     .label = Nach Antworten suchen
 
