@@ -438,6 +438,7 @@ record-cancel = ਮੁੜ-ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕਰੋ
 record-instruction = { $actionType }<recordIcon></recordIcon> ਤਦ ਵਾਕ ਨੂੰ ਉੱੱਚੀ ਪੜ੍ਹੋ
 record-stop-instruction = ਜਦੋਂ ਮੁਕੰਮਲ ਹੋ ਜਾਵੇ ਤਾਂ { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = ਤਿੰਨ ‘ਤੇ ਸ਼ੁਰੂ ਕਰੋ!
+record-last-instruction = <recordIcon> </recordIcon> ਆਖਰੀ!
 clips-uploaded = ਕਲਿੱਪਾਂ ਅਪਲੋਡ ਕੀਤੀਆਂ ਗਈਆਂ
 record-abort-submit = ਕਲਿੱਪ ਜਮ੍ਹਾਂ ਕਰੋ
 listen-last-time-instruction = <playIcon> </playIcon> ਆਖਰੀ!
