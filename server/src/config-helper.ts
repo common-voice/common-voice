@@ -83,7 +83,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
     CLIENT_ID: configEntry('CV_AUTH0_CLIENT_ID', ''),
     CLIENT_SECRET: configEntry('CV_AUTH0_CLIENT_SECRET', ''),
   },
-  IMPORT_SENTENCES: configEntry('CV_IMPORT_SENTENCES', true, castBoolean),
+  IMPORT_SENTENCES: true,
   REDIS_URL: configEntry('CV_REDIS_URL', null),
   KIBANA_URL: configEntry('CV_KIBANA_URL', null),
   KIBANA_PREFIX: configEntry('CV_KIBANA_PREFIX', '/_plugin/kibana'),
