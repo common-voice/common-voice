@@ -75,13 +75,16 @@ it = Італьянская
 izh = Іжорская
 ja = Японская
 ka = Грузінская
+kaa = Каракалпакская
 kab = Кабільская
+kbd = Кабардзінская
 kk = Казахская
 ko = Карэйская
 kpv = Комі-зыранская
 ku = Курдская
 kw = Корнская
 ky = Кіргізская
+lg = Луганда
 lij = Лігурыйская
 lt = Літоўская
 lv = Латышская
@@ -93,6 +96,7 @@ ml = Малаялам
 mn = Мангольская
 mrj = Горнамарыйская
 mt = Мальтыйская
+my = Бірманская
 myv = Эрзянская
 nb-NO = Букмал
 ne-NP = Непальская
@@ -110,6 +114,7 @@ ru = Руская
 rw = Руанда
 sah = Якуцкая
 sc = Сардзінская
+scn = Сіцылійская
 si = Сінгальская
 sk = Славацкая
 sl = Славенская
@@ -122,6 +127,7 @@ ta = Тамільская
 te = Тэлугу
 tg = Таджыкская
 th = Тайская
+tl = Тагальская
 tr = Турэцкая
 tt = Татарская
 uby = Убыхская
@@ -303,6 +309,7 @@ female = Жанчына
 # Gender
 other = Іншы
 why-profile-title = Навошта патрэбны профіль?
+why-profile-text = Калі вы прадаставіце пэўную інфармацыю пра сябе, аўдыёзапісы, дададзеныя вамі ў Common Voice, будуць больш карыснымі для рухавікоў распазнавання маўлення, якія абапіраюцца на гэтую інфармацыю для паляпшэння якасці.
 dashboard = Панэль кіравання
 build-profile = Стварыць профіль
 avatar = Аватар
@@ -311,6 +318,9 @@ settings = Налады
 edit-profile = Рэдагаваць профіль
 profile-create-success = Цудоўна, профіль створаны!
 profile-close = Закрыць
+profile-explanation = Сачыце за сваім прагрэсам праз профіль і дапамажыце нашым галасавым дадзеным стаць больш дакладнымі.
+thanks-for-account = Дзякуем, што пацвердзілі ўліковы запіс, цяпер давайце створым ваш профіль.
+why-demographic = Чаму гэта важна?
 accept-privacy-title = Палітыка прыватнасці
 login-signup = Увайсці / Зарэгістравацца
 edit = Рэдагаваць
@@ -321,22 +331,53 @@ skip-submission-feedback = Прапусціць водгук пра адпраў
 off = Пакінуць
 on = Прапусціць
 avatar-clip-title = Дайце голас свайму аватару
+change-your-avatar-clip = Хочаце змяніць свой галасавы кліп?
+recording-in-progress = Ідзе запіс голасу
+avatar-clip-recorded = Ваш аватар цяпер мае галасавы кліп!
+record-voice-wave = ЗАПІСАЦЬ ГОЛАС
 retry-voice-wave-recording = ПАЎТАРЫЦЬ
 re-record = ПЕРАЗАПІСАЦЬ
 delete-voice = ВЫДАЛІЦЬ
+recording-voice-wave = Запіс
 delete-voice-clip = або Выдаліць галасавы кліп
 ready-to-upload = ЗАПАМПАВАЦЬ
+avatar-clip-fact = Даўно вядома, што ўвага чытача будзе адцягвацца на змест старонкі пры поглядзе на яе макет.
 cancel-avatar-clip-recording = СКАСАВАЦЬ
+about-avatar-clip-recording = Стварыць галасавы кліп для аватара вашага профілю. Іншыя ўдзельнікі змогуць навесці курсор на аватар і паслухаць ваш кліп.
 browse-file-title = Запампаваць відарыс
 connect-gravatar = Звязаць з Gravatar
+gravatar_not_found = Gravatar для вашай эл. пошты не знойдзены
+file_too_large = Выбраны файл занадта вялікі.
 add-language = Дадаць мову
 
 ## FAQ
 
+faq-title = Пытанні і адказы
 faq-what-cv-q = Што такое Common Voice?
+faq-why-important-q = Чаму гэта важна?
+faq-how-get-q = Як мне атрымаць дадзеныя Common Voice?
+faq-how-get-a = Набор дадзеных Common Voice даступны для спампоўвання пад ліцэнзіяй <licenseLink>CC0</licenseLink> на старонцы з <datasetLink>нашымі наборамі дадзеных</datasetLink>. На гэтай жа старонцы вы таксама можаце спампаваць некалькі іншых адкрыта даступных набораў дадзеных.
+faq-when-release2-q = Калі вы апублікуеце дадзеныя Common Voice на іншых мовах?
+faq-why-mission-q = Чаму Common Voice з'яўляецца часткай місіі Mozilla?
+faq-what-cv-and-deepspeech-q = У чым розніца паміж Common Voice і Deep Speech?
+faq-is-goal-assistant-q = Ці з'яўляецца мэтай Common Voice стварэнне галасавога памочніка?
+faq-why-different-speakers-q = Чаму для кожнай мовы патрабуецца столькі дыктараў?
+faq-why-my-lang-q = Чаму маёй мовы яшчэ няма?
+faq-how-calc-hours-q = Як Common Voice падлічвае гадзіны?
+faq-where-src-from-2-q = Адкуль бяруцца тэксты?
+faq-why-not-ask-read-q = Чаму б не папрасіць людзей агучваць кнігі альбо артыкулы Вікіпедыі на розных мовах?
+faq-why-account-q = Чаму мне варта завесці ўліковы запіс?
+faq-is-account-public-q = Ці з'яўляецца публічнай інфармацыя майго уліковага запісу?
+faq-how-privacy-q = Якім чынам вы забяспечваеце ананімнасць і прыватнасць людзей, якія ахвяравалі свае галасы?
+faq-what-determine-identity-q = Што значыць - мне нельга "вызначаць асобы" спікераў у наборы дадзеных Common Voice?
+faq-what-is-cv = Што такое Common Voice?
+faq-using-cv = Выкарыстанне Common Voice
+faq-search-for-answers =
+    .label = Шукаць адказы
 
 ## ABOUT US
 
+about-title = Чаму Common Voice?
 how-does-it-work-title = Як гэта працуе?
 about-listen = Слухайце
 about-partners = Партнёры
@@ -346,6 +387,8 @@ about-nav-why-common-voice = Чаму?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнёры
 about-nav-get-involved = Прыняць удзел
+mycroft-title = Mycroft AI
+mycroft-subtitle = Штучны інтэлект
 
 ## Glossary
 
@@ -355,9 +398,27 @@ localization = Лакалізацыя
 ## NotFound
 
 notfound-title = Не знойдзена
+notfound-content = На жаль, я не ведаю, што вы шукаеце.
 
 ## Data
 
+data-download-button = Спампаваць дадзеныя Common Voice
+data-download-yes = Так
+data-download-deny = Не
+data-download-license = Ліцэнзія: <licenseLink>CC-0</licenseLink>
+data-download-modal = Вы збіраецеся спампаваць <size>{ $size } Гб</size>. Працягнуць?
+data-subtitle = Мы будуем адкрытую, агульнадаступную галасавую базу, якую кожны зможа выкарыстаць для распрацоўкі праграм з функцыяй распазнавання маўлення.
+data-explanatory-text = Мы верым, што вялікія агульнадаступныя базы галасавых дадзеных спрыяюць інавацыям і здаровай канкурэнцыі ў сферы тэхналогій маўлення. Гэта глабальная ініцыятыва, і мы запрашаем усіх удзельнічаць у ёй. Наша мэта – дапамагчы тэхналогіям маўлення стаць больш усеабдымнымі, каб у іх адлюстроўвалася разнастайнасць галасоў з усяго свету.
+data-get-started = <speechBlogLink>Пачаць працу з распазнаваннем маўлення</speechBlogLink>
+data-other-title = Іншыя наборы галасавых дадзеных…
+data-other-goto = Перайсці да { $name }
+data-other-download = Спампаваць дадзеныя
+review-submit-title = Праверыць і даслаць
+review-recording = Праверыць
+review-rerecord = Запісаць нанова
+review-cancel = Скасаваць пасылку
+review-keep-recordings = Захаваць запісы
+review-delete-recordings = Выдаліць мае запісы
 
 ## Datasets Page
 
