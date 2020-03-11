@@ -346,6 +346,10 @@ header {
         pointer-events: all;
         transition-duration: var(--transition-duration-slow);
         visibility: visible;
+
+        @media (--lg-up) {
+            display: none;
+        }
     }
 
     & .nav-list,
