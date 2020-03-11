@@ -379,6 +379,7 @@ faq-search-for-answers =
 
 about-title = Чаму Common Voice?
 how-does-it-work-title = Як гэта працуе?
+about-listen-queue = Чарга праслухоўвання
 about-listen = Слухайце
 about-partners = Партнёры
 about-become-a-partner = Стаць партнёрам
@@ -440,25 +441,89 @@ confirm-no-identify = <b>Вы пагаджаецесь</b> не спрабава
 download-language = Спампаваць { $language }
 validated-hours = Спраўджана гадзін
 recorded-hours = Запісана гадзін
+whats-inside = Што ўваходзіць у набор дадзеных Common Voice?
+want-dataset-update = Хочаце атрымліваць паведамленні пра новыя версіі набору дадзеных Common Voice? Падпішыцеся на нашу рассылку.
+subscribe = Падпісацца
+other-datasets = Іншыя наборы галасавых дадзеных
+feedback-q = Ёсць заўвагі?
+data-other-librispeech-description = LibriSpeech – гэта корпус з прыблізна 1000 гадзін 16 кГц запісаў англійскага маўлення, атрыманых з чытання аўдыёкніг з праекта LibriVox.
+data-other-ted-name = Корпус TED-LIUM
+data-other-ted-description = Корпус TED-LIUM быў створаны з аўдыёзапісаў выступаў і іх транскрыпцый, даступных на сайце TED.
 
 ## Download Modal
 
+download-title = Ваша спампоўванне пачалося.
+download-helpus = Дапамажыце пабудаваць супольнасць вакол тэхналогій маўлення, падтрымлівайце сувязь па электроннай пошце.
+download-form-email =
+    .label = Увядзіце ваш адрас эл. пошты
+    .value = Дзякуем, будзем трымаць сувязь.
+download-back = Вярнуцца да набораў дадзеных Common Voice
+download-no = Не, дзякую
 
 ## Contact Modal
 
+contact-title = Форма сувязі
+contact-form-name =
+    .label = Імя
+contact-form-message =
+    .label = Паведамленне
+contact-required = *абавязкова
 
 ## Request Language Modal
 
+request-language-title = Запыт мовы
+request-language-form-language =
+    .label = Мова
+request-language-success-title = Запыт мовы паспяхова адасланы, дзякуем.
+request-language-success-content = У самым хуткім часе мы дашлем вам больш інфармацыі пра тое, як дадаць вашу мову ў Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = У працэсе
+language-section-in-progress-new-description = Мовы, што знаходзяцца ў працэсе, зараз рыхтуюцца нашымі супольнасцямі; іх прагрэс адлюстроўвае, у якім стане знаходзіцца <localizationGlossaryLink>лакалізацыя сайта</localizationGlossaryLink> і да якога этапу дайшоў <sentenceCollectionGlossaryLink>збор сказаў</sentenceCollectionGlossaryLink>.
+language-section-launched = Запушчана
+language-section-launched-description = Для гэтых ужо запушчаных моў быў паспяхова <localizationGlossaryLink>лакалізаваны</localizationGlossaryLink> сайт і <sentenceCollectionGlossaryLink>сабрана</sentenceCollectionGlossaryLink> дастаткова сказаў, каб можна было дапамагаць з іх <speakLink>Агучваннем</speakLink> і <listenLink>Праслухоўваннем</listenLink>.
+language-meter-in-progress = Прагрэс
+language-total-progress = Усяго
+language-search-input =
+    .placeholder = Пошук
+language-speakers = Дыктараў
 
 ## Contribution
 
+record-cta = Пачаць запіс
+record-platform-not-supported = На жаль, ваша платформа зараз не падтрымліваецца.
+record-platform-not-supported-desktop = На настольных камп'ютарах вы можаце спампаваць апошнюю версію:
+record-platform-not-supported-ios = Карыстальнікі <bold>iOS</bold> могуць спампаваць наша бясплатнае прыкладанне:
+record-must-allow-microphone = Вы мусіце дазволіць доступ да мікрафона.
+record-no-mic-found = Мікрафон не знойдзены.
+record-error-too-short = Запіс занадта кароткі.
+record-error-too-long = Запіс занадта доўгі.
+record-error-too-quiet = Запіс занадта ціхі.
+record-cancel = Адмяніць перазапіс
+record-instruction = { $actionType }<recordIcon></recordIcon>, потым прачытайце сказ услых
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>, калі скончыце
+record-three-more-instruction = Засталося тры!
+record-again-instruction = Выдатна! <recordIcon></recordIcon> Запішыце ваш наступны кліп
+record-again-instruction2 = Працягвайце, запішыце яшчэ <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Апошні!
+record-submit-tooltip = { $actionType } дашліце, калі будзе зроблена
 clips-uploaded = Кліпы загружаны
+record-abort-title = Спачатку скончыць запіс?
+record-abort-text = Калі вы выйдзеце зараз, ваш прагрэс будзе згублены
+record-abort-submit = Даслаць кліпы
+record-abort-continue = Скончыць запіс
+record-abort-delete = Выйсці і выдаліць кліпы
+listen-instruction = { $actionType }<playIcon></playIcon> ці правільна вымаўлены сказ?
+listen-3rd-time-instruction = Засталося два <playIcon></playIcon> , працягвайце!
+listen-last-time-instruction = <playIcon></playIcon> Апошні!
+nothing-to-validate = У нас няма нічога для праверкі на гэтай мове, дапамажыце нам запоўніць чаргу.
+record-button-label = Запішыце ваш голас
+share-title-new = <bold>Дапамажыце нам</bold> знайсці больш галасоў
 
 ## Reporting
 
+report-different-language-detail = Сказ напісаны не на той мове, на якой я размаўляю.
 
 ## Goals
 
@@ -484,6 +549,13 @@ not-receiving-emails-info = Вы <bold>НЕ</bold> будзеце атрымлі
 
 ## Profile Delete
 
+delete-q = Вы хочаце, каб вашы галасавыя дадзеныя таксама былі выдалены, ці вы жадаеце пакінуць іх у наборы дадзеных Common Voice?
+keep = Пакінуць
+remove = Выдаліць
+keep-info = Вашы ананімныя запісы голасу застануцца ў наборы дадзеных Common Voice. Пасля выдалення профіля вы больш не зможаце даслаць запыт на выдаленне вашых запісаў з набору дадзеных
+profile-form-delete = Выдаліць профіль
 
 ## Landing
 
+welcome-staff = Вітаем, супрацоўнік { $company }!
+login-company = Зарэгістравацца / ўвайсці з эл. поштай { $company }
