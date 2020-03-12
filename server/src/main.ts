@@ -1,15 +1,15 @@
-import { getConfig, getSecrets } from './config-helper'
-import Server from './server'
+import { getConfig, getSecrets } from './config-helper';
+import Server from './server';
 
 async function initialize() {
   await getSecrets();
 }
 
 async function runServer() {
-  await initialize()
+  await initialize();
 
   // Handle any top-level exceptions uncaught in the app.
-  process.on('uncaughtException', function (err: any) {
+  process.on('uncaughtException', function(err: any) {
     if (err.code === 'EADDRINUSE') {
       // For now, do nothing when we are unable to start the http server.
       console.error('ERROR: server already running');
