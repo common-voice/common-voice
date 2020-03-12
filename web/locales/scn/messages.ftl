@@ -135,6 +135,7 @@ udm = Udmurtu
 uk = Ucrainu
 ur = Urdu
 uz = Uzbecu
+vec = Vènitu
 vot = Vòticu
 zh-CN = Cinisi (Cina)
 zh-HK = Cinisi (Hong Kong)
