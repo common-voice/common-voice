@@ -116,12 +116,11 @@ let LocalizedPage: any = class extends React.Component<
       await this.prepareBundleGenerator(nextProps);
     }
 
-    const award =
-      account && account.awards
-        ? account.awards.find(
-            a => !a.notification_seen_at && !this.seenAwardIds.includes(a.id)
-          )
-        : null;
+    const award = account?.awards
+      ? account.awards.find(
+          a => !a.notification_seen_at && !this.seenAwardIds.includes(a.id)
+        )
+      : null;
 
     if (award) {
       this.seenAwardIds.push(...account.awards.map(a => a.id));

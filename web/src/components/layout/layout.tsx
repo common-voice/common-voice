@@ -202,10 +202,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     });
 
     const alreadyEnrolled =
-      this.state.showWelcomeModal &&
-      user.account &&
-      user.account.enrollment &&
-      user.account.enrollment.challenge;
+      this.state.showWelcomeModal && user.account?.enrollment?.challenge;
     const redirectURL = URLS.DASHBOARD + URLS.CHALLENGE;
 
     return (
