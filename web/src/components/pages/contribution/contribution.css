@@ -545,7 +545,7 @@
             padding: 120px 105px;
         }
 
-        & a {
+        .button {
             margin-top: 30px;
             background: #ff4e5e;
             border: none;

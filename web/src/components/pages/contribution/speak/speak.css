@@ -4,6 +4,12 @@
     & .error .instruction {
         color: var(--red);
     }
+
+    .error-card {
+        .unsupported {
+            font-size: var(--font-size-lg);
+        }
+    }
 }
 
 .record-abort {

@@ -677,6 +677,7 @@ record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 keep-track-profile = Keep track of your progress with a profile
 login-to-get-started = Log in or sign up to get started
+no-sentences-left = Sorry! There is nothing left to record in this language. Why not submit some new sentences in our <sentenceCollectorLink>Sentence Collector Tool</sentenceCollectorLink>?
 
 ## Reporting
 report = Report
