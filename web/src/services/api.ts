@@ -258,16 +258,21 @@ export default class API {
     return this.fetch(API_PATH + '/newsletter/' + email, { method: 'POST' });
   }
 
-  saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {
-    return this.fetch(API_PATH + '/user_client/avatar/' + type, {
-      method: 'POST',
-      isJSON: false,
-      ...(file
-        ? {
-            body: file,
-          }
-        : {}),
-    }).then(body => JSON.parse(body));
+  async saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {
+    try {
+      const body = await this.fetch(`${API_PATH}/user_client/avatar/${type}`, {
+        method: 'POST',
+        isJSON: false,
+        ...(file
+          ? {
+              body: file,
+            }
+          : {}),
+      });
+      return JSON.parse(body);
+    } catch (err) {
+      throw err;
+    }
   }
 
   saveAvatarClip(blob: Blob): Promise<void> {

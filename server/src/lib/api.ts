@@ -232,8 +232,8 @@ export default class API {
     { body, headers, params, user }: Request,
     response: Response
   ) => {
-    let avatarURL;
-    let error;
+    let avatarURL: string;
+    let error: string | null = null;
     switch (params.type) {
       case 'default':
         avatarURL = null;
@@ -273,9 +273,10 @@ export default class API {
 
     if (!error) {
       await UserClient.updateAvatarURL(user.emails[0].value, avatarURL);
+      response.sendStatus(200);
+    } else {
+      response.status(406).send(error);
     }
-
-    response.json(error ? { error } : {});
   };
 
   saveAvatarClip = async (request: Request, response: Response) => {

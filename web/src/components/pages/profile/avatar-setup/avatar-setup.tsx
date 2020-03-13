@@ -33,7 +33,11 @@ const animationData = require('../../../layout/data.json');
 
 import './avatar-setup.css';
 
-function resizeImage(file: File, maxSize: number): Promise<Blob> {
+function resizeImage(
+  file: File,
+  maxSize: number,
+  quality?: number
+): Promise<Blob> {
   const reader = new FileReader();
   const image = new Image();
   const canvas = document.createElement('canvas');
@@ -70,7 +74,7 @@ function resizeImage(file: File, maxSize: number): Promise<Blob> {
     canvas.width = width;
     canvas.height = height;
     canvas.getContext('2d').drawImage(image, 0, 0, width, height);
-    let dataUrl = canvas.toDataURL('image/jpeg');
+    let dataUrl = canvas.toDataURL('image/jpeg', quality);
     return dataURItoBlob(dataUrl);
   };
 
@@ -155,17 +159,23 @@ class AvatarSetup extends React.Component<Props, State> {
     await this.audio.stop();
   }
 
-  async saveFileAvatar(files: FileList) {
-    const { addNotification, api, getString, locale, refreshUser } = this.props;
+  async saveFileAvatar(files: FileList, quality: number = 0.92) {
+    const { api, locale, refreshUser, addNotification, getString } = this.props;
     this.setState({ isSaving: true });
-    const image = await resizeImage(files.item(0), 200);
-    const { error } = await api.saveAvatar('file', image);
-    if (['too_large'].includes(error)) {
-      addNotification(getString('file' + error));
+    const image = await resizeImage(files.item(0), 200, quality);
+    try {
+      await api.saveAvatar('file', image);
+    } catch ({ message }) {
+      if (message === 'too_large') {
+        this.saveFileAvatar(files, quality / 2);
+        return;
+      }
     }
+    refreshUser();
     trackProfile('give-avatar', locale);
 
-    refreshUser();
+    addNotification(getString('Avatar updated!'), 'success');
+
     this.setState({ isSaving: false });
   }
 
@@ -604,16 +614,14 @@ class AvatarSetup extends React.Component<Props, State> {
               type="button"
               onClick={async () => {
                 this.setState({ isSaving: true });
-                const { error } = await api.saveAvatar(
-                  avatarType == 'gravatar' ? 'default' : 'gravatar'
-                );
-
-                if (['not_found'].includes(error)) {
-                  addNotification(getString('gravatar_' + error));
-                }
-
-                if (!error) {
+                try {
+                  await api.saveAvatar(
+                    avatarType == 'gravatar' ? 'default' : 'gravatar'
+                  );
                   refreshUser();
+                } catch ({ message }) {
+                  if (message === 'not_found')
+                    addNotification(getString('gravatar_' + message));
                 }
                 this.setState({ isSaving: false });
               }}>
