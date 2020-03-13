@@ -39,21 +39,17 @@ export default () => {
           <button onClick={hideSurvey}>
             <CloseIcon black />
           </button>
-          <h1>Have thoughts about the future of voice technology?</h1>
+          <h1>Have thoughts about voice technology?</h1>
           <p>
             The Common Voice dataset aims to empower developers to build great
-            voice recognition applications. As the dataset grows we want to
-            understand how it is working for our users.
-          </p>
-          <p>
-            If you have downloaded the Common Voice dataset, please take some
-            time to help us understand your needs, and how we can improve the
-            dataset:
+            voice recognition applications. If you have downloaded the Common
+            Voice dataset, please take some time to help us understand your
+            needs, and how we can improve the dataset.
           </p>
           <p>
             <strong>
-              Would you take a moment to provide your insights and take part in
-              a survey?
+              Please take a moment to provide your insights and take part in
+              this survey.
             </strong>
           </p>
           <a
