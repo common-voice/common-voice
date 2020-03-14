@@ -157,7 +157,7 @@ logout = Oħroġ
 
 home-title = Common Voice hija inizzjattiva tal-Mozilla biex tgħinna ngħallmu lill-magni jitkellmu bħan-nies.
 home-cta = Għolli leħnek, agħti sehmek hawn!
-wall-of-text-start = Il-vuċi naturali, il-vuċi umana. TTant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
+wall-of-text-start = Il-vuċi naturali, il-vuċi umana. Tant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
 wall-of-text-more-mobile = Ħafna mid-data li jużaw il-kumpnaiji mhix disponibbli għall-maġġoranza tan-nies. Fil-fehma tagħna, dil-qagħda xxekkel l-innovazzjoni. Għalhekk nidejna l-Proġett Common Voice, proġett biex l-għarfien awtomatiku tat-taħdit ikun miftuħ għal kulħadd.
 wall-of-text-more-desktop = Issa inti wkoll tista' taqsam il-vuċi tiegħek magħna sabiex tgħinna nibnu database ta' vuċijiet miftuħa li tista' tintuża minn kull min irid jibni apps innovattivi li jintużaw fuq aġġeġġi jew fuq l-internet. Aqralna sentenza biex tgħin il-magni jitgħallmu jitkellmu bħan-nies. Iċċekkja x-xogħol ta' ħaddieħor biex ittejjeb il-kwalità. Hija daqstant sempliċi!
 wall-of-text-first = Il-vuċi naturali, il-vuċi umana. TTant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
@@ -432,11 +432,6 @@ about-partners = Msieħba
 about-become-a-partner = Issieħeb
 about-partnership = Common Voice huwa proġett kollaborattiv u niddependu fuq komunità ta' msieħba u kontributuri biex nibnu l-ikbar ġabra miftuħa ta' vuċijiet li qatt inħolqot.
 about-get-involved = Involvi Ruħek
-about-get-involved-text =
-    Trid ittejjeb il-Common Voice?
-    Tajjeb! ikkuntattjana bl-email jew fuq <discourseLink>Discourse</discourseLink>,
-    issottometti l-feedback tiegħek minn <githubLink>GitHub</githubLink>,
-    jew issieħeb magħna fuq <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Għalfejn?
 about-nav-how-it-works = Kif?
 about-nav-partners = Msieħba
