@@ -496,6 +496,7 @@ get-started-speech = تقریر کی پہچان کے ساتھ آغاز کریں
 other-datasets = دوسرے وائس ڈیٹاسیٹس
 feedback-q = آپ کی رائے ہے؟
 data-other-ted-name = TED-LIUM Corpus
+your-feedback = کیا آپ کے پاس اس بارے میں خیالات ہیں کہ ہم Common Voice ڈیٹاسیٹ کو کس طرح بہتر بنا سکتے ہیں؟ ہمیں ڈیسکورس پر آگاہ کریں
 go-discourse = Discourse میں جاییں
 go-languages-page = زبانوں کے صفحے پر جائیں
 ready-to-validate = کیا جملے درست کرنے میں مدد کرنے کے لئے تیار ہیں؟
@@ -578,6 +579,8 @@ record-again-instruction = بہت اچھے! <recordIcon></recordIcon> اپنا �
 record-again-instruction2 = کوشش جاری رکھیں، دوبارہ رکارڈ کریں <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>آخری!
 review-tooltip = یہاں چلتے ہوئے تراشوں کو دوبارہ ریکارڈ کریں اور جائزہ لیں
+share-clip = اپنا کلپ شیئر کریں
+share-common-voice = Common Voice شیئر کریں
 review-instruction = جائرہ لیں اور تراشے دوبارہ ریکارڈ کریں اگر ظرورت ہو
 record-submit-tooltip = { $actionType } جمع کرائیں جب تیار ہوں
 clips-uploaded = اپ لوڈ شدہ تراشے
