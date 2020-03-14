@@ -163,20 +163,31 @@ class AvatarSetup extends React.Component<Props, State> {
     const { api, locale, refreshUser, addNotification, getString } = this.props;
     this.setState({ isSaving: true });
     const image = await resizeImage(files.item(0), 200, quality);
-    try {
-      await api.saveAvatar('file', image);
-    } catch ({ message }) {
-      if (message === 'too_large') {
+
+    const reader = new FileReader();
+    reader.readAsDataURL(image);
+
+    reader.onloadend = async () => {
+      const base64 = reader.result as string;
+      if (base64.length > 8000) {
         this.saveFileAvatar(files, quality / 2);
         return;
       }
-    }
-    refreshUser();
-    trackProfile('give-avatar', locale);
+      try {
+        await api.saveAvatar('file', image);
+      } catch ({ message }) {
+        if (message === 'too_large') {
+          this.saveFileAvatar(files, quality / 2);
+          return;
+        }
+      }
+      refreshUser();
+      trackProfile('give-avatar', locale);
 
-    addNotification(getString('Avatar updated!'), 'success');
+      addNotification(getString('Avatar updated!'), 'success');
 
-    this.setState({ isSaving: false });
+      this.setState({ isSaving: false });
+    };
   }
 
   private updateVolume = (volume: number) => {
