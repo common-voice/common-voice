@@ -194,7 +194,7 @@ x-months-short =
     { $count ->
         [one] Xahar
         [two] Xahrejn
-       *[many] Xhur
+       *[many] { $count }Xhur
     }
 x-years-short =
     { $count ->
@@ -513,7 +513,7 @@ validated-hours = Siegħat iċċekkjati
 recorded-hours = Siegħat Irrekordjati
 whats-inside = X'hemm fil-ġabra tad-Dati Common Voice?
 dataset-description-hours =
-    Kull entratura fil-ġabra fiha MP3 wieħed u fajl bit-test li jikkorrispondi miegħu. Ħafna mill- <b>{ $size }</b> siegħa li hemm irrekordjati b'kollox fil-ġabra jinkludu wkoll metadata demografika bħall-età, sess u aċċent, li jisttgħu jiswew biex tittejjeb l-akkuratezza tal-magni għall-għarfien tat-taħdit.
+    Kull entratura fil-ġabra fiha MP3 wieħed u fajl bit-test li jikkorrispondi miegħu. Ħafna mill- <b>{ $total }</b> siegħa li hemm irrekordjati b'kollox fil-ġabra jinkludu wkoll metadata demografika bħall-età, sess u aċċent, li jisttgħu jiswew biex tittejjeb l-akkuratezza tal-magni għall-għarfien tat-taħdit.
     
     Il-ġabra bħalissa fiha <b>{ $valid }</b> siegħat li ġew iċċekkjati, fi <b>{ $languages }</b> lingwa, imma aħna nkomplu nżidu l-vuċijiet u l-lingwi regolarment. Agħti daqqa t'għajn lill-<languagesLink>paġna dwar il-Lingwi</languagesLink> jekk trid titlob lingwa partikolari, jew biex tibda tikkontribwixxi.
 want-dataset-update = Tixtieq l-aġġornamenti meta nniedu verżjoni ġdida tal-ġabra Common Voice? Abbona biex tirċievi n-newsletter.
