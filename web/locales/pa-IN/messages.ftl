@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = ਹਾਂ, ਮੈਨੂੰ ਈਮੇਲ ਭੇਜੋ। ਮੈਂ ਕਾਮਨ ਵੌਇਸ ਪ੍ਰੋਜੈਕਟ ਬਾਰੇ ਜਾਣਕਾਰੀ ਰੱਖਣੀ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ।
+stayintouch = Mozilla ਵਿਖੇ ਅਸੀਂ ਵੌਇਸ ਤਕਨਾਲੋਜੀ ਲਈ ਇੱਕ ਭਾਈਚਾਰਾ ਬਣਾ ਰਹੇ ਹਾਂ। ਅਸੀਂ ਨਵੀਨਤਮ ਜਾਣਕਾਰੀਆਂ, ਨਵੇਂ ਡੇਟਾ ਸਰੋਤਾਂ ਦੇ ਸੰਪਰਕ ਵਿੱਚ ਰਹਿਣਾ ਚਾਹੁੰਦੇ ਹਾਂ ਅਤੇ ਇਸ ਬਾਰੇ ਵਿੱਚ ਵਧੇਰੇ ਸੁਣਨਾ ਚਾਹੁੰਦੇ ਹਾਂ ਕਿ ਤੁਸੀਂ ਇਸ ਡੇਟੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰ ਰਹੇ ਹੋ।
 privacy-info = ਅਸੀਂ ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਦਾ ਧਿਆਨ ਨਾਲ ਇੰਤਜ਼ਾਮ ਕਰਨ ਦਾ ਵਾਦਾ ਕਰਦੇ ਹਾਂ। ਹੋਰ ਸਾਡੀ <privacyLink>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</privacyLink> ‘ਚ ਪੜ੍ਹੋ।
 return-to-cv = ਕਾਮਨ ਵੌਇਸ ‘ਤੇ ਵਾਪਸ ਜਾਓ
 email-input =
@@ -22,10 +23,17 @@ not-available-abbreviation = ਲਾਗੂ ਨਹੀਂ
 
 ab = ਅਬਖਜ਼
 ace = ਏਸੀਨੇਸ
+ady = ਅਦੀਘੇ
 af = ਅਫ਼ਰੀਕੀ
+am = ਅਮਹੀਰੀਕ
+an = ਅਰਾਗੋਨੀਸੀ
 ar = ਅਰਬੀ
+arn = ਮਾਪੂਡੁੰਗਨ
+as = ਆਸਾਮੀ
 ast = ਅਸਟੂਰੀਅਨ
 az = ਅਜ਼ਰਬਾਈਜਾਨੀ
+ba = ਬਸ਼ਕੀਰਸ
+be = ਬੇਲਾਰੂਸੀ
 bn = ਬੰਗਾਲੀ
 br = ਬਰੀਟੋਨ
 bxr = ਬੁਰੀਅਤ
@@ -490,14 +498,18 @@ awards = ਇਨਾਮ
 you = ਤੁਸੀਂ
 everyone = ਹਰੇਕ
 top-contributors = ਉੱਚ ਯੋਗਦਾਨੀਆਂ
+show-ranking = ਮੇਰੀ ਰੈਂਕਿੰਗ ਦਿਖਾਓ
 
 ## Custom Goals
 
+both-speak-and-listen = ਦੋਵੇਂ
+both-speak-and-listen-long = ਦੋਵੇਂ (ਬੋਲੋ ਅਤੇ ਸੁਣੋ)
 easy-difficulty = ਸੌਖਾ
 average-difficulty = ਠੀਕ-ਠਾਕ
 difficult-difficulty = ਔਖਾ
 pro-difficulty = ਪ੍ਰੋ
 want-to-continue = ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+cant-decide = ਫੈਸਲਾ ਨਹੀਂ ਕਰ ਸਕਦੇ?
 n-clips = { NUMBER($count) } ਕਲਿੱਪ
 share-goal-type-speak = ਬੋਲਣਾ
 share-goal-type-listen = ਸੁਣਨਾ
