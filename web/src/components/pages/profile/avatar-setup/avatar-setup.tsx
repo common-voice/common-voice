@@ -170,7 +170,8 @@ class AvatarSetup extends React.Component<Props, State> {
     reader.onloadend = async () => {
       const base64 = reader.result as string;
       if (base64.length > 8000) {
-        this.saveFileAvatar(files, quality / 2);
+        const alteredQuality = (8000 / base64.length) * quality;
+        this.saveFileAvatar(files, alteredQuality);
         return;
       }
       try {
