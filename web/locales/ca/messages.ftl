@@ -449,6 +449,9 @@ about-partnership =
     
     Volem agrair les persones i organitzacions següents per la seva ajuda en el projecte:
 about-get-involved = Col·laboreu-hi
+about-get-involved-text-2 =
+    Voleu ajudar a millorar el Common Voice?
+    Genial! Poseu-vos en contacte per correu electrònic o pels fòrums del <discourseLink>Discourse</discourseLink>, notifiqueu problemes en el <githubLink>GitHub</githubLink> o uniu-vos al nostre xat de la comunitat en el <matrixLink>Matrix</matrixLink>
 about-nav-why-common-voice = Per què?
 about-nav-how-it-works = Com?
 about-nav-partners = Socis
@@ -641,6 +644,8 @@ record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un al
 record-again-instruction2 = Seguiu així! Enregistreu-ne un altre <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> L'últim!
 review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí mateix
+share-clip = Compartiu el vostre tall de veu
+share-common-voice = Compartiu el Common Voice
 review-instruction = Reviseu els talls i, si cal, torneu-los a enregistrar
 record-submit-tooltip = { $actionType } Envia quan hàgiu enllestit
 clips-uploaded = Talls pujats
