@@ -75,6 +75,7 @@ it = italià
 izh = ingrià
 ja = japonès
 ka = georgià
+kaa = karakalpak
 kab = cabilenc
 kbd = kabardí
 kk = kazakh
@@ -83,6 +84,7 @@ kpv = komi
 ku = kurd
 kw = còrnic
 ky = kirguís
+lg = ganda
 lij = lígur
 lt = lituà
 lv = letó
@@ -94,6 +96,7 @@ ml = malaiàlam
 mn = mongol
 mrj = mari occidental
 mt = maltès
+my = birmà
 myv = mordovià erza
 nb-NO = Bokmål noruec
 ne-NP = nepalès
@@ -111,6 +114,7 @@ ru = rus
 rw = ruandès
 sah = iacut
 sc = sard
+scn = sicilià
 si = singalès
 sk = eslovac
 sl = eslovè
@@ -123,6 +127,7 @@ ta = tamil
 te = telugu
 tg = tadjik
 th = tailandès
+tl = tagal
 tr = turc
 tt = tàtar
 uby = ubikh
@@ -130,6 +135,7 @@ udm = udmurt
 uk = ucraïnès
 ur = urdú
 uz = uzbek
+vec = vènet
 vi = vietnamita
 vot = vòtic
 zh-CN = xinès (Xina)
@@ -443,11 +449,6 @@ about-partnership =
     
     Volem agrair les persones i organitzacions següents per la seva ajuda en el projecte:
 about-get-involved = Col·laboreu-hi
-about-get-involved-text =
-    Voleu ajudar a millorar el Common Voice?
-    Genial! Poseu-vos en contacte per correu electrònic o pel <discourseLink>Discourse</discourseLink>,
-    envieu comentaris mitjançant el <githubLink>GitHub</githubLink>
-    o uniu-vos al nostre <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Per què?
 about-nav-how-it-works = Com?
 about-nav-partners = Socis
