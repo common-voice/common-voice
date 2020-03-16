@@ -9,7 +9,7 @@ email-input =
 submit-form-action = Absenden
 loading = Wird geladen…
 email-opt-in-info = Ich möchte E-Mails wie Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice erhalten.
-email-opt-in-info-title = Treten Sie der Mailing-Liste von Common Voice bei
+email-opt-in-info-title = Tragen Sie sich in die Mailingliste von Common Voice ein
 email-opt-in-info-sub-with-challenge = Erhalten Sie E-Mails wie  Herausforderungs- und Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice.
 email-opt-in-privacy = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung<privacyLink> von Mozilla verarbeitet.
 indicates-required = * Pflichtfeld
@@ -294,7 +294,7 @@ profile-form-age =
 profile-form-gender =
     .label = Geschlecht
 leaderboard-visibility =
-    .label = Sichtbarkeit in der Bestenliste
+    .label = Sichtbarkeit in der Rangliste
 hidden = Versteckt
 visible = Sichtbar
 native-language =
@@ -410,10 +410,10 @@ faq-what-determine-identity-q = Was bedeutet es, dass ich die Identität der Spr
 faq-what-determine-identity-a =
     Der Common-Voice-Datensatz ist eine offene und öffentlich zugängliche Ressource, mit der eine Vielzahl von sprachgesteuerten Anwendungen trainiert werden kann. Um die Sicherheit unserer Mitwirkenden zu gewährleisten, bitten wir jeden, der den Common-Voice-Datensatz herunterlädt, um den Schutz der Privatsphäre der Mitwirkenden.
     
-    Alle Sprachclips im Datensatz werden um persönlich identifizierende Informationen bereinigt. Wenn Sie den Daten herunterladen, stimmen Sie zu, nicht zu versuchen, die Identität eines Mitwirkenden zu ermitteln. Das bedeutet, dass Sie nicht versuchen dürfen, Informationen in der Datenmenge mit den persönlichen Informationen eines Mitwirkenden zu verknüpfen. Sie können den Datensatz jedoch zum Trainieren der Spracherkennung, Sprechererkennung oder anderer Anwendungen verwenden, indem Sie beispielsweise Informationen im Datensatz mit anderen Informationen verknüpfen, die bereits im Datensatz vorhanden sind.
+    Alle Sprachclips im Datensatz werden um persönlich identifizierende Informationen bereinigt. Wenn Sie den Datensatz herunterladen, stimmen Sie zu, nicht zu versuchen, die Identität eines Mitwirkenden zu ermitteln. Das bedeutet, dass Sie nicht versuchen dürfen, Informationen in der Datenmenge mit den persönlichen Informationen eines Mitwirkenden zu verknüpfen. Sie können den Datensatz jedoch zum Trainieren der Spracherkennung, Sprechererkennung oder anderer Anwendungen verwenden, indem Sie beispielsweise Informationen im Datensatz mit anderen Informationen verknüpfen, die bereits im Datensatz vorhanden sind.
 faq-what-is-cv = Was ist Common Voice?
 faq-using-cv = Common Voice verwenden
-faq-description = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
+faq-description = Common Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
 faq-search-for-answers =
     .label = Nach Antworten suchen
 
@@ -449,11 +449,11 @@ about-partnership =
     
     Wir möchten uns bei folgenden Personen und Organisationen für ihre Hilfe bei dem Projekt bedanken:
 about-get-involved = Mitmachen
-about-get-involved-text =
+about-get-involved-text-2 =
     Möchten Sie Common Voice noch besser machen?
-    Großartig! Kontaktieren Sie uns per E-Mail oder über <discourseLink>Discourse</discourseLink>,
-    geben Sie uns Feedback über <githubLink>GitHub</githubLink>
-    oder besuchen Sie uns auf <slackLink>Slack</slackLink>.
+    Großartig! Kontaktieren Sie uns per E-Mail oder über die<discourseLink>Discourse</discourseLink>-Foren,
+    melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink>
+    oder besuchen Sie unseren Community-Chat auf <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Warum?
 about-nav-how-it-works = Wie?
 about-nav-partners = Partner
@@ -537,7 +537,7 @@ confirm-size = Sie können jetzt einen Download von <b>{ $size }</b> starten
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Sie stimmen zu</b>, nicht zu versuchen, die Identität der Sprecher im Common-Voice-Datensatz zu ermitteln
-download-language = { $Language } herunterladen
+download-language = { $language } herunterladen
 validated-hours = Bestätigte Stunden
 recorded-hours = Aufgenommene Stunden
 whats-inside = Was steckt im Common-Voice-Datensatz?
@@ -550,7 +550,7 @@ subscribe = Abonnieren
 get-started-speech = Erste Schritte mit der Spracherkennung
 other-datasets = Andere Sprachdatensätze
 feedback-q = Möchten Sie uns etwas mitteilen?
-deepspeech-info = Der Common-Voice-Datasatz ist eine Ergänzung zu Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, mit der Sie Spracherkennungsanwendungen entwickeln können. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen
+deepspeech-info = Der Common-Voice-Datasatz ist eine Ergänzung zu Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, mit der Sie Spracherkennungsanwendungen entwickeln können. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen.
 common-voice-info-new = Haben Sie Fragen zu Common Voice? Verbesserungsvorschläge oder Feedback zu einer bestimmten Sprache? Besuchen Sie unser <discourseLink>Discourse-Forum</discourseLink>und teilen Sie uns dies mit.
 data-other-librispeech-description = LibriSpeech ist ein Korpus aus ca. 1000 Stunden vorgelesener Texte in englischer Sprache (aufgenommen in 16kHz), welche ursprünglich aus Hörbüchern des LibriVox-Projektes entnommen wurden.
 data-other-ted-name = TED-LIUM-Korpus
@@ -642,6 +642,8 @@ record-again-instruction = Toll! <recordIcon></recordIcon> Nehmen Sie jetzt noch
 record-again-instruction2 = Weiter so, <recordIcon></recordIcon> erneut aufnehmen
 record-last-instruction = <recordIcon></recordIcon> Einmal noch!
 review-tooltip = Hier können Sie Aufzeichnungen überprüfen und erneut aufnehmen
+share-clip = Ihre Aufzeichnung teilen
+share-common-voice = Common Voice teilen
 review-instruction = Falls nötig, prüfen & neu aufnehmen
 record-submit-tooltip = Senden { $actionType }, wenn Sie fertig sind
 clips-uploaded = Aufzeichnungen hochgeladen
@@ -719,7 +721,7 @@ validated-clips = Überprüfte Aufzeichnungen
 total-approved = Angenommene Aufzeichnungen
 overall-accuracy = Gesamtgenauigkeit
 set-visibility = Meine Sichtbarkeit einstellen
-visibility-explainer = Diese Einstellung steuert die Sichtbarkeit Ihrer Bestenliste. Wenn Sie versteckt sind, ist Ihr Fortschritt privat. Dies bedeutet, dass Ihr Bild, Benutzername und Fortschritt nicht in der Bestenliste angezeigt werden. Beachten Sie, dass die Aktualisierung der Bestenliste etwa { $minutes } Minuten braucht, um die Änderungen zu übernehmen.
+visibility-explainer = Diese Einstellung steuert die Sichtbarkeit Ihrer Rangliste. Bei Wahl der Option „Versteckt“ bleibt Ihr Fortschritt privat und Ihr Profilbild, Benutzername und Fortschritt werden nicht in der Rangliste angezeigt. Beachten Sie, dass die Aktualisierung der Rangliste etwa { $minutes } Minuten benötigt, um die Änderungen zu übernehmen.
 visibility-overlay-note = Hinweis: Bei Einstellung auf „Sichtbar“ kann diese Einstellung auf der <profileLink>Profilseite</profileLink> geändert werden.
 show-ranking = Meine Bewertung ansehen
 

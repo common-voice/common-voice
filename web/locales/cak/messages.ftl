@@ -75,6 +75,7 @@ it = Italiano
 izh = Izhoriano
 ja = Japones
 ka = Georgiano
+kaa = Karakalpak
 kab = Cabilio
 kbd = Cabardiano
 kk = Kazajo
@@ -126,6 +127,7 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Tailandes
+tl = Tagalo
 tr = Turco
 tt = Tartaro
 uby = Ubije
@@ -133,6 +135,7 @@ udm = Udmurto
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
+vec = Venetian
 vi = aj Byetnam
 vot = Votic
 zh-CN = Chino (China)
@@ -443,11 +446,6 @@ about-partners = Achib'ilal
 about-become-a-partner = Yatok jun achib'ilal
 about-partnership = Common Voice jun runimasamaj to'ojri'ïl chuqa' e pa'äl pa qawi' ri qawinaq chuqa' ri to'onela' richin yojtikïr niqatz'ük jun nïm rucholxe' rutzij ch'ab'äl, ri majub'ey tz'eton. Niqajo' niqak'awomaj ruma kito'ik re winaqi' chuqa' taq moloj re':
 about-get-involved = Kato'on
-about-get-involved-text =
-    ¿La nawajo' yato'on richin nutziläx ri Common Voice?
-    ¡Yalan ütz! Katzijon pe qik'in pan taqoya'l o pa <discourseLink>Discourse</discourseLink>,
-    ke'ataqa' taq atzij pa <githubLink>GitHub</githubLink>,
-    o tatunu' awi' pa <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = ¿Aruma ?
 about-nav-how-it-works = ¿Achi'el?
 about-nav-partners = Achib'ilal

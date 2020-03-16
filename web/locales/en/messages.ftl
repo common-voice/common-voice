@@ -470,10 +470,10 @@ about-partnership = Common Voice is a collaborative project, and we're depending
 
     We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Get involved
-about-get-involved-text = Want to help make Common Voice even better?
-    Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
-    submit feedback through <githubLink>GitHub</githubLink>,
-    or join us on <slackLink>Slack</slackLink>.
+about-get-involved-text-2 = Want to help make Common Voice even better?
+    Great! Get in touch via email or <discourseLink>Discourse</discourseLink>
+    forums, submit site issues via <githubLink>GitHub</githubLink>, or join the
+    <matrixLink>Matrix</matrixLink> community chat.
 
 about-nav-why-common-voice = Why ?
 about-nav-how-it-works = How ?
@@ -658,6 +658,8 @@ record-again-instruction = Great!<recordIcon></recordIcon> Record your next clip
 record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last one!
 review-tooltip = Review & re-record clips here as you go
+share-clip = Share your clip
+share-common-voice = Share Common Voice
 review-instruction = Review & re-record clips if needed
 record-submit-tooltip = { $actionType } submit when ready
 clips-uploaded = Clips Uploaded

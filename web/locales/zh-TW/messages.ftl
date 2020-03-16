@@ -447,11 +447,11 @@ about-partnership =
     
     特別感謝下列人員與組織單位，協助本專案:
 about-get-involved = 參與我們
-about-get-involved-text =
+about-get-involved-text-2 =
     想要幫忙讓 Common Voice 變得更棒嗎？
-    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink> 留言、
-    透過 <githubLink>GitHub</githubLink> 送出意見回饋、
-    也可以加入我們的 <slackLink>Slack</slackLink>。
+    沒問題！請寄 E-Mail 給我們，也可以到 <discourseLink>Discourse</discourseLink>
+    討論區留言、透過 <githubLink>GitHub</githubLink> 回報網站問題、
+    或是加入我們的 <matrixLink>Matrix</matrixLink> 社群聊天室。
 about-nav-why-common-voice = 為什麼？
 about-nav-how-it-works = 怎麼做？
 about-nav-partners = 夥伴
@@ -638,6 +638,8 @@ record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下下個片�
 record-again-instruction2 = 繼續加油，再錄一筆！<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>最後一筆了！
 review-tooltip = 在此確認或重錄片段
+share-clip = 分享您的錄音片段
+share-common-voice = 分享 Common Voice
 review-instruction = 確認錄音內容，有需要的話可以重錄
 record-submit-tooltip = 準備好即可{ $actionType }送出
 clips-uploaded = 已上傳片段

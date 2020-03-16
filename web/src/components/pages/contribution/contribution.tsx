@@ -172,7 +172,7 @@ class ContributionPage extends React.Component<Props, State> {
       isPlaying ? this.wave.play() : this.wave.idle();
     }
 
-    if (isSubmitted && user.account && user.account.skip_submission_feedback) {
+    if (isSubmitted && user.account?.skip_submission_feedback) {
       onReset();
     }
   }
@@ -373,9 +373,11 @@ class ContributionPage extends React.Component<Props, State> {
               <div />
             )}
             {isSubmitted && (
-              <button className="open-share" onClick={this.toggleShareModal}>
-                <ShareIcon />
-              </button>
+              <Tooltip arrow title={getString('share-common-voice')}>
+                <button className="open-share" onClick={this.toggleShareModal}>
+                  <ShareIcon />
+                </button>
+              </Tooltip>
             )}
           </div>
 

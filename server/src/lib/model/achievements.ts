@@ -1,4 +1,4 @@
-import { ChallengeToken, AchievementType } from 'common/challenge';
+import { ChallengeToken, AchievementType } from 'common';
 import { getMySQLInstance } from './db/mysql';
 
 // SQLs here is the last guards before inserting into earn table
@@ -117,7 +117,7 @@ export const earnBonus = async (type: AchievementType, args: any[]) => {
           `,
       [type, bonus_winner]
     );
-    earned = ret && ret[0] && ret[0].affectedRows > 0 ? true : false;
+    earned = ret?.[0]?.affectedRows > 0;
   }
   return earned;
 };
@@ -140,5 +140,5 @@ export const hasEarnedBonus = async (
     [type, client_id, challenge]
   );
 
-  return !!(earned && earned[0] && earned[0][0] && earned[0][0].earned);
+  return !!earned?.[0]?.[0]?.earned;
 };

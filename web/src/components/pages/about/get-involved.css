@@ -135,7 +135,6 @@
 
         & p {
             color: var(--near-black);
-            white-space: pre-line;
             line-height: 1.75rem;
             font-size: 1.25rem;
             font-family: var(--strong-font-family);
@@ -170,7 +169,8 @@
             margin-right: 1.25rem;
             cursor: pointer;
 
-            & path {
+            & path,
+            & rect {
                 fill: var(--white);
                 transition: background-color var(--transition-duration-slow)
                     var(--easing);
@@ -178,7 +178,8 @@
 
             &:hover {
                 background-color: var(--white);
-                & path {
+                & path,
+                & rect {
                     fill: var(--near-black);
                 }
             }

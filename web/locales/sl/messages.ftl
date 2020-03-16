@@ -75,13 +75,16 @@ it = italijanščina
 izh = ingrijščina
 ja = japonščina
 ka = gruzinščina
+kaa = karakalpaščina
 kab = kabilščina
+kbd = kabardščina
 kk = kazaščina
 ko = korejščina
 kpv = komijščina
 ku = kurdščina
 kw = kornijščina
 ky = kirgiščina
+lg = lugandščina
 lij = ligurščina
 lt = litovščina
 lv = latvijščina
@@ -124,6 +127,7 @@ ta = tamilščina
 te = teluščina
 tg = tadžiščina
 th = tajščina
+tl = tagaloščina
 tr = turščina
 tt = tatarščina
 uby = ubiščina
@@ -131,6 +135,7 @@ udm = udmurtščina
 uk = ukrajinščina
 ur = urdujščina
 uz = uzbeščina
+vec = beneščina
 vi = vietnamščina
 vot = votščina
 zh-CN = kitajščina (Kitajska)
@@ -439,11 +444,11 @@ about-partnership =
     
     Za pomoč pri projektu se zahvaljujemo naslednjim posameznikom in organizacijam:
 about-get-involved = Pridružite se
-about-get-involved-text =
+about-get-involved-text-2 =
     Želite izboljšati Common Voice?
-    Odlično! Pridružite se nam po e-pošti ali na <discourseLink>forumu Discourse</discourseLink>,
-    pošljite povratne informacije na <githubLink>Githubu</githubLink>
-    ali se nam pridružite na <slackLink>kanalu Slack</slackLink>.
+    Odlično! Oglasite se nam po e-pošti ali na <discourseLink>forumu Discourse</discourseLink>,
+    pošljite povratne informacije na <githubLink>GitHubu</githubLink>
+    ali se nam pridružite na <matrixLink>kanalu Matrix</matrixLink>.
 about-nav-why-common-voice = Zakaj?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partnerji
@@ -638,6 +643,7 @@ record-again-instruction = Odlično! <recordIcon></recordIcon> Posnemite nasledn
 record-again-instruction2 = Odlično napredujete, začnite ponovno snemati <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Zadnji!
 review-tooltip = Tukaj lahko pregledate posnetke in jih ponovno posnamete.
+share-common-voice = Delite Common Voice
 review-instruction = Če je potrebno, lahko posnetke pregledate in ponovno posnamete
 record-submit-tooltip = { $actionType } Pošlji, ko ste pripravljeni
 clips-uploaded = Posnetki naloženi

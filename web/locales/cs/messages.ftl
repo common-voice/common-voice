@@ -75,6 +75,7 @@ it = Italština
 izh = Ižorština
 ja = Japonština
 ka = Gruzínština
+kaa = Karakalpačtina
 kab = Kabylština
 kbd = Kabardština
 kk = Kazaština
@@ -126,6 +127,7 @@ ta = Tamilština
 te = Telugština
 tg = Tádžičtina
 th = Thajština
+tl = Tagalština
 tr = Turečtina
 tt = Tatarština
 uby = Ubychština
@@ -451,11 +453,11 @@ about-partnership =
     
     Rádi bychom poděkovali následujícím lidem a organizacím za jejich pomoc:
 about-get-involved = Zapojte se
-about-get-involved-text =
+about-get-involved-text-2 =
     Chcete pomoci projekt Common Voice dále zlepšovat?
     Skvěle! Spojte se s námi prostřednictvím e-mailu nebo na <discourseLink>Discourse</discourseLink>,
-    odešlete zpětnou vazbu skrz <githubLink>GitHub</githubLink>,
-    nebo se připojte na náš <slackLink>Slack</slackLink>.
+    pošlete nám zpětnou vazbu skrze <githubLink>GitHub</githubLink>,
+    nebo se připojte na náš komunitní chat <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Proč?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partneři
@@ -649,6 +651,8 @@ record-again-instruction = Skvělé! <recordIcon></recordIcon> Nahrajte váš da
 record-again-instruction2 = Jen tak dál, pokračujte v nahrávání <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Poslední!
 review-tooltip = Zde zkontrolujte nahrávky a nahrajte je znovu
+share-clip = Sdílejte svou nahrávku
+share-common-voice = Sdílejte Common voice
 review-instruction = Zkontrolujte nahrávky a nahrajte je znovu, pokud to bude potřeba
 record-submit-tooltip = { $actionType } odeslat, až bude připraveno
 clips-uploaded = Nahrávky byly uloženy

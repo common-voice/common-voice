@@ -8,6 +8,12 @@ const SALT = 'hoads8fh49hgfls';
 // so we will use mysql types here where we can.
 const mysql2 = require('mysql2/promise');
 
+// Rules for read/write isolation
+let QUERY_RULES = {
+  selectRead: /\s*SELECT/i,
+  selectWrite: /\s*SELECT.*FOR UPDATE/i,
+};
+
 export type MysqlOptions = {
   user: string;
   database: string;
@@ -34,6 +40,7 @@ const DEFAULTS: MysqlOptions = {
 export default class Mysql {
   rootConn: IConnection;
   pool: any;
+  readPool: any;
 
   constructor() {
     this.rootConn = null;
@@ -59,12 +66,27 @@ export default class Mysql {
     };
   }
 
+  getMysqlReplicaOptions(): MysqlOptions {
+    const config = getConfig();
+    let options = this.getMysqlOptions();
+
+    if (config.MYSQLREPLICAHOST) {
+      options.host = config.MYSQLREPLICAHOST;
+      options.port = config.MYSQLREPLICAPORT;
+    }
+    return options;
+  }
+
   async getConnection(options: MysqlOptions): Promise<IConnection> {
     return mysql2.createConnection(options);
   }
 
   async createPool(): Promise<any> {
     return mysql2.createPool(this.getMysqlOptions());
+  }
+
+  async createReadPool(): Promise<any> {
+    return mysql2.createPool(this.getMysqlReplicaOptions());
   }
 
   poolPromise: Promise<any>;
@@ -79,7 +101,26 @@ export default class Mysql {
     );
   }
 
+  async getReadPool(): Promise<any> {
+    if (this.readPool) return this.readPool;
+    return (
+      this.poolPromise ||
+      (this.poolPromise = new Promise(async resolve => {
+        this.readPool = await this.createReadPool();
+        resolve(this.readPool);
+      }))
+    );
+  }
+
   async query(...args: any[]) {
+    let sqlQuery = args[0];
+
+    if (
+      QUERY_RULES.selectRead.test(sqlQuery) &&
+      !QUERY_RULES.selectWrite.test(sqlQuery)
+    ) {
+      return (await this.getReadPool()).query(...args);
+    }
     return (await this.getPool()).query(...args);
   }
 
@@ -213,7 +254,6 @@ export default class Mysql {
    * Close all connections to the database.
    */
   endConnection(): void {
-    console.log(this.pool.end);
     if (this.pool) {
       this.pool.end().catch((e: any) => console.error(e));
       this.pool = null;

@@ -75,13 +75,16 @@ it = Itala
 izh = Iĵora
 ja = Japana
 ka = Kartvela
+kaa = Karakalpaka
 kab = Kabila
+kbd = Kabarda
 kk = Kazaĥa
 ko = Korea
 kpv = Komiziriana
 ku = Kurda
 kw = Korniŝa
 ky = Kirgiza
+lg = Ganda
 lij = Ligura
 lt = Litova
 lv = Latva
@@ -93,6 +96,7 @@ ml = Malajalama
 mn = Mongola
 mrj = Okcidentmaria
 mt = Malta
+my = Birma
 myv = Erzja
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
@@ -110,6 +114,7 @@ ru = Rusa
 rw = Ruanda
 sah = Jakuta
 sc = Sarda
+scn = Sicilia
 si = Sinhala
 sk = Slovaka
 sl = Slovena
@@ -122,6 +127,7 @@ ta = Tamila
 te = Telugua
 tg = Taĝika
 th = Taja
+tl = Tagaloga
 tr = Turka
 tt = Tatara
 uby = Ubiĥa
@@ -129,6 +135,7 @@ udm = Udmurta
 uk = Ukraina
 ur = Urdua
 uz = Uzbeka
+vec = Venecia
 vi = Vjetnama
 vot = Vota
 zh-CN = Ĉina (Ĉinio)
@@ -164,10 +171,10 @@ logout = Fini seancon
 home-title = La projekto Common Voice estas iniciato de Mozilla por helpi instrui al maŝinoj kiel veraj homoj parolas.
 home-cta = Donacu vian voĉon, kontribuu ĉi tie!
 wall-of-text-start = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei uzeblajn voĉajn teknikologiojn por niaj maŝinoj. Sed por krei voĉajn sistemojn, tre granda kvanto da voĉaj registroj estas postulata.
-wall-of-text-more-mobile = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas malfermi la pordojn de voĉrekono al ĉiuj.
+wall-of-text-more-mobile = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas malfermi la pordojn de parolrekono al ĉiuj.
 wall-of-text-more-desktop = Nun vi povas donaci vian voĉon por helpi nin konstrui malfermitkodan voĉan datumbazo, kiun iu ajn rajtas uzi por krei novajn programojn por aparatoj kaj por la reto.<lineBreak></lineBreak>Legu frazon por helpi maŝinojn kompreni kiel parolas veraj personoj. Kontrolu la laboron de aliaj kontribuantoj por plibonigi la kvaliton. Estas tiel simple!
 wall-of-text-first = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei uzeblajn voĉajn teknologiojn por niaj maŝinoj. Sed por krei voĉajn sistemojn, programistoj bezonas tre grandan kvanton da voĉaj datumoj.
-wall-of-text-second = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas igi voĉrekonon malfermita kaj alirebla por ĉiuj.
+wall-of-text-second = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas igi parolrekonon malfermita kaj alirebla por ĉiuj.
 show-wall-of-text = Pli da informo
 help-us-title = Helpu nin validigi frazojn!
 help-us-explain = Premu "ludi", aŭskultu kaj diru al ni: ĉu ili bone diris la suban frazon?
@@ -214,7 +221,7 @@ email-subscription-title-new = Abonu la bultenojn de Common Voice, la memorigojn
 
 benefits = Avantaĝoj
 rich-data = Igu viajn senditajn datumon kiel eble plej informriĉaj  per provizo de anonimaj demografiaj informoj. Ni anonimigas ĉiujn demografiajn datumojn antaŭ ol publikigi ilin.
-improve-audio = La informoj de profilo plibonigas la aŭdajn datumojn, kiujn oni uzas por trejni voĉrekoniloj kaj plibonigi ilian precizecon.
+improve-audio = La informoj de profilo plibonigas la aŭdajn datumojn, kiujn oni uzas por trejni parolrekonilojn kaj plibonigi ilian precizecon.
 keep-track = Sekvu vian progreson per mezurindikilojn por ĉiuj lingvoj.
 compare-progress = Vidu vian progreson, komparita kun tiu de aliaj kontribuantoj en la tuta mondo.
 view-goals = Vidu vian progreson rilate al personaj kaj projektaj celoj.
@@ -299,7 +306,7 @@ female = Ina
 # Gender
 other = Alia
 why-profile-title = Kial krei profilon?
-why-profile-text = Se vi donas al ni kelkajn informojn pri vi, viaj sonregistraĵoj en Common Voice, estos pli utilaj por voĉrekoniloj kiuj uzas tiujn informojn por plibonigi la precizecon.
+why-profile-text = Se vi donas al ni kelkajn informojn pri vi, viaj sonregistraĵoj en Common Voice, estos pli utilaj por parolrekoniloj kiuj uzas tiujn informojn por plibonigi la precizecon.
 dashboard = Panelo
 build-profile = Krei profilon
 avatar = Avataro
@@ -311,7 +318,7 @@ profile-close = Fermi
 profile-explanation = Sekvu vian progreson per profilo, kaj helpu niajn voĉajn datumojn iĝi pli precizaj.
 thanks-for-account = Dankon pro la konfirmo de via konto, nun kreu ni vian profilon.
 why-demographic = Kial tio ĉi gravas?
-why-demographic-explanation = Anonimigitaj datumoj de uzanto kiel aĝo, sekso kaj akĉento helpas plibonigi la voĉajn datumojn, kiujn oni uzas por trejni la akuratecon de la voĉrekoniloj. Vi nomo de uzanto kaj via retpoŝto neniam estos asociitaj kun la datumoj, kiujn vi sendas, kaj vi povas elekti ĉu igi vian nomon de uzanto publika aŭ anonima.
+why-demographic-explanation = Anonimigitaj datumoj de uzanto kiel aĝo, sekso kaj akĉento helpas plibonigi la voĉajn datumojn, kiujn oni uzas por trejni la akuratecon de la parolrekoniloj. Vi nomo de uzanto kaj via retpoŝto neniam estos asociitaj kun la datumoj, kiujn vi sendas, kaj vi povas elekti ĉu igi vian nomon de uzanto publika aŭ anonima.
 accept-privacy = Mi konsentas kun via pritrakto de tiu ĉi informo, laŭ via priskribo en la <privacyLink>privateca politiko</privacyLink> de Mozilla
 accept-privacy-title = Politiko pri privateco
 login-identity = Idento de seanco
@@ -355,21 +362,38 @@ change-email-setings = Ŝanĝu vian retpoŝton en Agordoj, Idento de seanco
 
 faq-title = Oftaj demandoj
 faq-what-cv-q = Kio estas Common Voice?
+faq-what-cv-a = Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Common Voice estas parto de iniciato de Mozilla, kiu celas plibonigi parolrekonajn teknologiojn kaj igi ilin alireblaj de ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kaj ĝi permesas al iu ajn rapide kaj facile trejni parolrekonajn programojn en, eventuale, ĉiuj lingvoj.
 faq-why-important-q = Kial ĝi gravas?
+faq-why-important-a =
+    Parolado estas ofte la plej natura maniero komunikiĝi kun la aliaj, kaj voĉaj teknologioj alportas tiun konvenecon al niaj komputiloj kaj poŝaparatoj. Ni volas doni al programistoj la rimedojn kontrui ravajn parorekonajn programojn, kiel samtempajn tradukantojn kaj parolkapablajn helpantojn. Tamen, nuntempe la plimulto de la voĉaj datumoj bezonataj por krei tiajn programojn estas multekosta kaj mallibera. Ni esperas ke la datumaro de Common Voice donos al la programistoj tion, kion ili bezonas por novaĵkrei kaj igi parolajn tekcnologiojn haveblaj en siaj propraj lingvoj.
+    
+    Por igi parolrekonon eĉ pli universala, ni kolektas specimenojn kaj de vaste parolataj lingvoj kaj de tiuj kun malpli da parolantoj, kiuj kutime ne estas tiel bone servitaj de komercaj parolrekonaj servoj. La publikigo de plurlingva datumaro de voĉoj helpos programistojn, entreprenistojn kaj tutajn komunumojn alfronti tion.
 faq-how-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
+faq-how-get-a = La datumaro de Common Voice estas disponeblaj kaj elŝuteblaj laŭ la kondiĉoj de la permesilo <licenseLink>CC0</licenseLink> en <datasetLink>la paĝo pri niaj datumaroj</datasetLink>. Vi povas elŝuti ankaŭ plurajn aliajn publike haveblajn datumarojn el la sama paĝo.
+faq-when-release2-q = Kiam vi liberigos datumojn de Common Voice en aliaj lingvoj?
+faq-when-release2-a = La plurlingva versio de la datumaro de Common Voice estas nuntempe flegata kaj polurata de la komununmo. Se vi ŝatus helpi nin porti Common Voice al novaj lingvoj, bonvolu kontroli la <sentenceCollectorLink>ilon por kolekti frazojn</sentenceCollectorLink> por aldoni novajn frazojn al la datumaro, kaj Mozilla <pontoonLink>Pontoon</pontoonLink> por traduki la retejon. Novaj lingvoj estos aldonitaj al Common Voice kiam 5000 aprobitaj frazoj estos kolektitaj.
 faq-why-mission-q = Kial Common Voice estas parto de la misio de Mozilla?
+faq-why-mission-a = Mozilla dediĉas sin al la tasko teni la teksaĵon malfermita kaj alirebla por ĉiuj. Por atingi tiun celon ni bezonas provizi al kreemuloj ilojn kaj rimedojn kiel Common Voice. La parolrekonaj teknologioj muliĝas en multaj tipoj de programoj kaj ni pensas ke ni devas same bone servi ĉiujn uzantojn. Tio por ni signifas akcepti pli da lingvoj kaj diversajn elparolmanierojn kaj regionojn dum la konstruo kaj testo de parolrekonaj teknologioj. Common Voice estas publika rimedo havebla de ĉiu kaj la teamon kaj programistoj de Mozilla en la tuta mondo jam uzas ĝin ankaŭ en nia propraj projektoj.
+faq-what-cv-and-deepspeech-q = Kiu estas la malsamo inter Common Voice kaj Deep Speech?
+faq-what-cv-and-deepspeech-a = La datumaro de Common Voice kompletigas la malfermitkodan parolrekonilon de Mozilla: Deep Speech. La unua versio de Deep Speech estis eldonita en novembro de 2017 kaj ĝi progresas senhalte ekde tiam. Kune kun la datumaro de Common Voice ni pensas ke malfermitkodaj parolrekonaj teknologio devus esti haveblaj de ĉiuj. Ni esperas ke tiuj ĉi teknologio permesos al programistoj konstrui ondon de novaj produktoj kaj servoj.
+faq-is-goal-assistant-q = Ĉu la celo de Common Voice estas konstrui parolkapablan helpanton?
+faq-is-goal-assistant-a = La celo de la datumaro de Common Voice estas permesi al iu ajn en la mondo konstrui parolrekonilon, parolantkrekonilon aŭ iun ajn tipo de programo, kiu bezonas voĉajn datumojn. Parolkapabla helpanto estas unu el tiuj pluraj tipo de programoj, kiujn vi povus konstrui per la datumaro.
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
 faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
 faq-where-src-from-2-q = El kie venas la fonta teksto?
 faq-why-account-q = Kial mi devus krei konton?
 faq-is-account-public-q = Ĉu la informoj de mia konto estas publikaj?
 faq-how-privacy-q = Kiel vi certigas anonimecon kaj privatecon de la personoj, kiuj donacis siajn voĉojn?
+faq-what-is-cv = Kio estas Common Voice?
 
 ## ABOUT US
 
 about-title = Kial Common Voice?
 how-does-it-work-title = Kiel ĝi funkcias?
 about-speak = Paroli
+about-listen-queue = Vico de aŭskulto
+about-listen = Aŭskulti
+about-clip-graveyard = Tombejo de voĉregistroj
 about-partners = Asociitoj
 about-become-a-partner = Iĝi asociito
 about-get-involved = Partopreni
@@ -405,7 +429,7 @@ data-download-license = Permesilo: <licenseLink>CC-0</licenseLink>
 data-download-modal = Vi pretas komenci elŝuton de <size>{ $size }GO</size>, ĉu vi volas daŭrigi?
 data-subtitle = Ni konstruas malfermitan kaj publike disponeblan datumaron de vocoj, kiujn iu ajn povas uzi por trejni voĉakceptajn programojn.
 data-explanatory-text = Ni kredas ke grandaj kaj publike disponeblaj voĉaj datumaroj favoras novaĵkreemon kaj sanan komercan konkuron en voĉaj teknikologioj bazitaj sur maŝininstruado. Tiu ĉi estas tutmonda strebo, kaj ni invitas ĉiujn partopreni. Nia celo estas helpi voĉajn teknikologiojn iĝi pli inkluzivemaj, spegulante la diversecon de voĉoj el la tuta mondo.
-data-get-started = <speechBlogLink>Unuaj paŝoj en voĉa rekono</speechBlogLink>
+data-get-started = <speechBlogLink>Unuaj paŝoj en parolrekono</speechBlogLink>
 data-other-title = Aliaj voĉaj datumaroj…
 data-other-goto = Iri al { $name }
 data-other-download = Elŝuti datumojn
@@ -445,12 +469,13 @@ download-language = Elŝuti { $language }
 validated-hours = Validigitaj horoj
 recorded-hours = Registritaj horoj
 subscribe = Aboni
+get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
-data-other-voxforge-description = VoxForge estis kreita kun la celo kolekti transskribitaj paroladoj, tiel ke ili estos uzeblaj de liberaj kaj malfermitkodaj voĉrekoniloj.
+data-other-voxforge-description = VoxForge estis kreita kun la celo kolekti transskribitaj paroladoj, tiel ke ili estos uzeblaj de liberaj kaj malfermitkodaj parolrekoniloj.
 data-other-tatoeba-description = Tatoeba estas granda datumbazo de frazoj, tradukoj kaj voĉaj registroj, por esti uzata dum lernado de lingvoj. Tiu ĉi elŝuto enhavas parolatan anglan, kiun registris ilia komunumo.
 more = Pli
 close = Fermi
@@ -549,6 +574,7 @@ listen-last-time-instruction = <playIcon></playIcon>Lasta!
 nothing-to-validate = Ni ne havas ion ajn por validigi en tiu ĉi lingvo, helpu nin aldoni kelkajn registrojn al la atendovico.
 record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
+login-to-get-started = Komencu seancon aŭ enskribiĝu por ekuzi
 
 ## Reporting
 
@@ -578,6 +604,11 @@ days =
         [one] tago
        *[other] tagoj
     }
+recordings =
+    { $count ->
+        [one] Registro
+       *[other] Registroj
+    }
 validations =
     { $count ->
         [one] Validigo
@@ -586,10 +617,13 @@ validations =
 
 ## Dashboard
 
+your-languages = Viaj lingvoj
 clips-you-recorded = Viaj voĉregistroj
 clips-you-validated = Viaj revizioj
 todays-recorded-progress = Hodiaŭa progreso de Common Voice rilate al voĉregistroj
 todays-validated-progress = Hodiaŭa progreso de Common Voice rilate al validigoj
+stats = Statistikoj
+awards = Premioj
 you = Vi
 everyone = Ĉiuj
 contribution-activity = Kontribuoj
@@ -599,14 +633,54 @@ validated-clips = Validigitaj voĉregistroj
 
 ## Custom Goals
 
+both-speak-and-listen = Ambaŭ
+both-speak-and-listen-long = Ambaŭ (kaj paroli kaj aŭskulti)
+daily-goal = Ĉiutaga celo
+weekly-goal = Ĉiusemajna celo
+easy-difficulty = Facila
+average-difficulty = Normala
+difficult-difficulty = Malfacila
+pro-difficulty = Profesia
+lose-goal-progress-warning = Se vi modifas vian celon, vi povus perdi vian nuna progreson.
+want-to-continue = Ĉu vi volas daŭrigi?
+finish-editing = Ĉu vi volas unue fini la modifojn?
+lose-changes-warning = Se vi foriras nun vi perdos viajn ŝanĝojn
+build-custom-goal = Difini personecigitan celon
+set-a-goal = Difini celon
+cant-decide = Ĉu vi ne povas decidi?
+activity-needed-calculation = Oni povas atingi { NUMBER($totalHours) } horojn post iom pli ol { NUMBER($periodMonths) } monatoj se { NUMBER($people) } personoj registras po { NUMBER($clipsPerDay) } voĉregistrojn  ĉiutage.
+how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
+how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
+which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?
+n-clips = { NUMBER($count) } voĉregistroj
+confirm-goal = Konfirmi celon
+goal-interval-weekly = Semajne
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Kundividu vian ĉiutagan celon, { $count } voĉregistroj { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Kundividu vian ĉiusemajnan celon, { $count } voĉregistroj { $type }
+share-goal-type-speak = Parolante
+share-goal-type-listen = Aŭskultante
+share-goal-type-both = Parolante kaj aŭskultante
+weekly-goal-created = Via ĉiusemajna celo estis kreita
+daily-goal-created = Via ĉiutaga celo estis kreita
+track-progress = Sekvu vian progreson ĉi tie kaj en la paĝo pri statistikoj.
+return-to-edit-goal = Revenu ĉi tien por modifi vian celon, iam ajn.
+share-goal = Kundividi mian celon
 
 ## Profile Delete
 
 keep = Gardi
 remove = Forigi
+why-delete-recordings =
+    La voĉregistroj de Common Voice estas uzitaj de akademioj, etaj entreprenoj kaj personoj entuziasmantaj de parolrekono, por trajni kaj disvolvi rimedojn kiel ekzemple voĉajn modelojn.
+    
+    Ĉu vi povas diri al kial vi ŝatus forigi viajn voĉregistrojn?
 profile-form-delete = Forigi profilon
 
 ## Landing
 
 welcome-staff = Estu bonvenaj, laboristoj de { $company }!
+login-company = Komencu seancon / registriĝu per retpoŝta adreso de { $company }
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
+read-more-about = Pli da informo en la paĝo: Pri Common Voice

@@ -446,11 +446,11 @@ about-partnership =
     
     Nos volerea regratiar le sequente personas e organisationes pro lor adjuta al projecto:
 about-get-involved = Collabora
-about-get-involved-text =
-    Vole tu adjutar a render Common Voice mesmo melior?
-    Grande! Tene te in contacto via email o sur <discourseLink>Discourse</discourseLink>,
-    invia un commentario per <githubLink>GitHub</githubLink>,
-    o junge te a nos sur <slackLink>Slack</slackLink>.
+about-get-involved-text-2 =
+    Vole adjutar a meliorar Common Voice?
+    Optimo! Contacta nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
+    signala problemas con le sito via <githubLink>GitHub</githubLink>,
+    o junge te al conversation communitari sur <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Proque?
 about-nav-how-it-works = Como ?
 about-nav-partners = Partners
@@ -576,7 +576,7 @@ download-no = No gratias
 
 ## Contact Modal
 
-contact-title = Modulo de contacto
+contact-title = Formulario de contacto
 contact-form-name =
     .label = Nomine
 contact-form-message =
@@ -643,6 +643,8 @@ record-again-instruction = Magnific!<recordIcon></recordIcon> Registra tu proxim
 record-again-instruction2 = Continua assi, registra de novo <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Le ultime!
 review-tooltip = Reascolta e re-registra retalios hic
+share-clip = Compartir tu retalio
+share-common-voice = Compartir Common Voice
 review-instruction = Verifica le retalios e re-registra si necessari
 record-submit-tooltip = { $actionType } inviar quando preste
 clips-uploaded = Retalios incargate

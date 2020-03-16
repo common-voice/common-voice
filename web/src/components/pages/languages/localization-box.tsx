@@ -3,7 +3,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import { RouteComponentProps, withRouter } from 'react-router';
 import ContentLoader from 'react-content-loader';
-import { InProgressLanguage, LaunchedLanguage } from 'common/language-stats';
+import { InProgressLanguage, LaunchedLanguage } from 'common';
 import URLS from '../../../urls';
 import { createCrossLocaleBundleGenerator } from '../../../services/localization';
 import { trackLanguages } from '../../../services/tracker';

@@ -12,7 +12,7 @@ import {
 import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import * as Sentry from '@sentry/browser';
-import { UserClient } from 'common/user-clients';
+import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
 import {
@@ -70,7 +70,7 @@ interface LocalizedPagesProps
   extends PropsFromState,
     PropsFromDispatch,
     LocalePropsFromState,
-    RouteComponentProps<any> {
+    RouteComponentProps<any, any, any> {
   userLocales: string[];
 }
 
@@ -116,12 +116,11 @@ let LocalizedPage: any = class extends React.Component<
       await this.prepareBundleGenerator(nextProps);
     }
 
-    const award =
-      account && account.awards
-        ? account.awards.find(
-            a => !a.notification_seen_at && !this.seenAwardIds.includes(a.id)
-          )
-        : null;
+    const award = account?.awards
+      ? account.awards.find(
+          a => !a.notification_seen_at && !this.seenAwardIds.includes(a.id)
+        )
+      : null;
 
     if (award) {
       this.seenAwardIds.push(...account.awards.map(a => a.id));

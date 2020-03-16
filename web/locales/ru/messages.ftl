@@ -453,11 +453,9 @@ about-partnership =
     
     Мы хотели бы поблагодарить следующих людей и организации за помощь в реализации проекта:
 about-get-involved = Принять участие
-about-get-involved-text =
+about-get-involved-text-2 =
     Хотите помочь сделать Common Voice ещё лучше?
-    Отлично! Свяжитесь с нами по электронной почте или на <discourseLink>Discourse-форуме</discourseLink>,
-    оставьте отзыв на <githubLink>GitHub</githubLink>,
-    или присоединитесь к нам на <slackLink>Slack</slackLink>.
+    Отлично! Свяжитесь с нами по электронной почте или через <discourseLink>Discourse</discourseLink>, сообщайте о проблемах с сайтом через <githubLink>GitHub</githubLink> или присоединяйтесь к чату сообщества на <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Почему?
 about-nav-how-it-works = Как?
 about-nav-partners = Партнёры

@@ -75,6 +75,7 @@ it = इतालवी
 izh = इंग्रियन
 ja = जापानी
 ka = जॉर्जियाई
+kaa = काराकालपाक
 kab = कबाइल
 kbd = कबार्डियन
 kk = कज़ाख़
@@ -126,6 +127,7 @@ ta = तमिल
 te = तेलुगु
 tg = ताजिकी
 th = थाई
+tl = तगालोग
 tr = तुर्कीयाई
 tt = तातार
 uby = उबैख
@@ -133,6 +135,7 @@ udm = उदमूर्त
 uk = यूक्रेनी
 ur = उर्दू
 uz = उज़्बेक
+vec = विनीशियन
 vi = वियतनामी
 vot = वोरिक
 zh-CN = चीनी (चीन)
@@ -460,11 +463,11 @@ about-partnership =
     
     हम निम्नलिखित लोगों और संगठनों को परियोजना में उनकी मदद के लिए धन्यवाद देना चाहेंगे:
 about-get-involved = शामिल हों
-about-get-involved-text =
-    आम आवाज को और बेहतर बनाने में मदद करना चाहते हैं?
-    महान ! ईमेल के माध्यम से या <प्रवचन पर जाएं> प्रवचन </ प्रवचन पर> संपर्क करें,
-    <githubLink> GitHub </ githubLink> के माध्यम से प्रतिक्रिया सबमिट करें,
-    या हमसे जुड़ें <slackLink> सुस्त </ slackLink> पर।
+about-get-involved-text-2 =
+    Common Voice को और बेहतर बनाने में मदद करना चाहते हैं?
+    बढिया! ईमेल या <discourseLink>Discourse</discourseLink>
+    फोरम द्वारा संपर्क करें, <githubLink>GitHub</githubLink> के माध्यम से साइट की समस्याएं दर्ज करें, या फिर
+    <matrixLink>Matrix</matrixLink> कम्यूनिटी चैट में शामिल हों।
 about-nav-why-common-voice = क्यों ?
 about-nav-how-it-works = कैसे ?
 about-nav-partners = सहभागी

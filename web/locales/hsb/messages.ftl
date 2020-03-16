@@ -454,9 +454,9 @@ about-partnership =
     
     Chcemy so slědowacym ludźom a organizacijam za jich pomoc na projekće dźakować:
 about-get-involved = Čińće sobu
-about-get-involved-text =
+about-get-involved-text-2 =
     Chceće pomhać, Common Voice polěpšić?
-    Wulkotnje! Stajće so z nami přez e-mejl abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelće swoje komentary přez <githubLink>Github</githubLink> abo wopytajće nas na <slackLink>Slack</slackLink>.
+    Wulkotnje! Stajće so z nami přez e-mejl abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelće sydłowe problemy přez <githubLink>Github</githubLink> abo wopytajće nas w chaće zhromadźenstwa <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Čehodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnerojo
@@ -651,6 +651,8 @@ record-again-instruction = Wulkotne! <recordIcon></recordIcon> Natočće swój p
 record-again-instruction2 = Dale tak, <recordIcon></recordIcon> znowa natočić
 record-last-instruction = <recordIcon></recordIcon> Poslednje!
 review-tooltip = Tu móžeće klipy přepruwować a znowa natočić
+share-clip = Waš klip dźělić
+share-common-voice = Common Voice dźělić
 review-instruction = Klipy přepruwować a znowa natočić, jeli trěbne
 record-submit-tooltip = { $actionType } wotpósłać, hdyž sće hotowy
 clips-uploaded = Natočenja nahrate

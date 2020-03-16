@@ -451,10 +451,11 @@ about-partnership =
     
     Θα θέλαμε να ευχαριστήσουμε τους ακόλουθους ανθρώπους και οργανισμούς για τη βοήθειά τους στο έργο:
 about-get-involved = Συμμετοχή
-about-get-involved-text =
-    Θέλετε να βοηθήσετε να κάνετε το Common Voice ακόμη καλύτερο; Θαυμάσια! Ελάτε σε επαφή μέσω ηλεκτρονικού ταχυδρομείου ή στο <discourseLink>Discourse</discursseLink>,
-    υποβάλετε σχόλια μέσω του <githubLink>GitHub</githubLink>,
-    ή συνδεθείτε μαζί μας στο <slackLink>Slack</slackLink>.
+about-get-involved-text-2 =
+    Θέλετε να βοηθήσετε το Common Voice να γίνει ακόμη καλύτερο;
+    Τέλεια! Επικοινωνήστε μέσω email ή στο <discourseLink>Discourse</discourseLink> φόρουμ,
+    αναφέρετε ζητήματα της ιστοσελίδας μέσω του <githubLink>GitHub</githubLink>,
+    ή βρείτε μας στην κοινότητα μας στο <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Γιατί;
 about-nav-how-it-works = Πώς;
 about-nav-partners = Συνεργάτες
@@ -645,6 +646,8 @@ record-again-instruction = Υπέροχα! <recordIcon></recordIcon> Ηχογρ�
 record-again-instruction2 = Συνεχίστε, ηχογραφήστε ξανά <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Τελευταίο!
 review-tooltip = Ελέγξτε και ηχογραφήστε ξανά τα ηχητικά κλιπ
+share-clip = Κοινοποίηση του κλιπ σας
+share-common-voice = Κοινοποίηση του Common Voice
 review-instruction = Ελέγξτε και ηχογραφήστε ξανά τα ηχητικά κλιπ, εφόσον χρειάζεται
 record-submit-tooltip = Υποβολή όταν είστε έτοιμοι
 clips-uploaded = Μεταφορτώθηκαν κλιπς

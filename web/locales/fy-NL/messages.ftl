@@ -75,6 +75,7 @@ it = Italiaansk
 izh = Izjorysk
 ja = Japansk
 ka = Georgysk
+kaa = Karakalpaksk
 kab = Kabylysk
 kbd = Kabardysk
 kk = Kazaksk
@@ -126,6 +127,7 @@ ta = Tamilsk
 te = Telugu
 tg = Tadzjyksk
 th = Taisk
+tl = Tagalog
 tr = Turksk
 tt = Tatarsk
 uby = Oebyksk
@@ -133,6 +135,7 @@ udm = Oedmoertsk
 uk = Oekraynsk
 ur = Urdu
 uz = Oezbeeksk
+vec = Fenetiaansk
 vi = Fjetnameesk
 vot = Wotysk
 zh-CN = Sineesk (Sina)
@@ -456,11 +459,11 @@ about-partnership =
     
     Wy wolle de folgjende minsken en organisaasjes tankje foar harren help by it projekt:
 about-get-involved = Meiwurkje
-about-get-involved-text =
-    Wolle jo Common Voice noch better helpe meitsje?
-    Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>,
-    jou kommentaar fia <githubLink>GitHub</githubLink>,
-    of doch mei op <slackLink>Slack </slackLink>.
+about-get-involved-text-2 =
+    Wolle jo helpe Common Voice noch better te meitsjen?
+    Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>
+    -forums, meld problemen mei de website fia <githubLink>GitHub</githubLink>, of doch
+    mei mei de mienskipschat op <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Wêrom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
@@ -649,6 +652,8 @@ record-again-instruction = Fantastysk! <recordIcon></recordIcon> Nim jo folgjend
 record-again-instruction2 = Gean sa troch, nim noch in kear op <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> De lêste!
 review-tooltip = Beoardielje en nim nochris fragminten op as jo wolle
+share-clip = Jo opname diele
+share-common-voice = Common Voice diele
 review-instruction = Beoardielje en nim nochris fragminten op as jo wolle
 record-submit-tooltip = { $actionType } yntsjinje wannear ree
 clips-uploaded = Clips opladen

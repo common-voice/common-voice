@@ -458,6 +458,11 @@ about-partnership =
     Fellout a rafe deomp trugarekaat an dud hag an aozadurioù da-heul evit o sikour gant ar raktres:
 about-get-involved = Kemer perzh
 about-get-involved-text = Fellout a ra deoc'h lakaat Common Voice da vezañ gwelloc'h c'hoazh? Dispar! Deuit e darempred dre bostel pe dre <discourseLink>Discourse</discourseLink>, roit ho ali dre <githubLink>GitHub</githubLink>, pe deuit ganeomp war <slackLink>Slack</slackLink>.
+about-get-involved-text-2020 =
+    Fellout a ra deoc'h lakaat Common Voice da vezañ gwelloc'h c'hoazh?
+    Dispar! Deuit e darempred ganeomp dre bostel pe war <discourseLink>Discourse</discourseLink>,
+    roit hoc'h ali dre <githubLink>GitHub</githubLink>,
+    pe kejit ganeomp war <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien

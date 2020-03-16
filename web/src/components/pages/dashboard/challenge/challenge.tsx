@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import { Redirect, RouteComponentProps, withRouter } from 'react-router';
-import { challengeTeams } from 'common/challenge';
+import { challengeTeams } from 'common';
 import WeeklyChallenge from './weekly-challenge';
 import LeaderBoardCard from './leaderboard-card';
 import TeamBoardCard from './team-card';
@@ -94,7 +94,7 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
   // [TODO]: Hook this up to the DB so we only see it once.
   const addAchievement = useAction(Notifications.actions.addAchievement);
   const [showOnboardingModal, setShowOnboardingModal] = useState(
-    props.location.state && props.location.state.showOnboardingModal
+    props.location.state?.showOnboardingModal
   );
   const [weekly, setWeekly] = useState(null);
   const account = useAccount();
@@ -104,11 +104,7 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
   }, []);
   useEffect(() => trackChallenge('dashboard-view'), []);
 
-  const isEnrolled =
-    account &&
-    account.enrollment &&
-    account.enrollment.team &&
-    account.enrollment.challenge;
+  const isEnrolled = account?.enrollment?.team && account.enrollment.challenge;
 
   return !isEnrolled ? (
     <Redirect to={URLS.DASHBOARD} /> // TODO: it shouldn't even try to fetch any challenge data in useEffect if not enrolled
@@ -118,7 +114,7 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
         <OnboardingModal
           onRequestClose={() => {
             setShowOnboardingModal(false);
-            if (props.location.state && props.location.state.earlyEnroll) {
+            if (props.location.state?.earlyEnroll) {
               addAchievement(
                 50,
                 'Bonus! You signed up in time for some extra points.'
@@ -128,7 +124,7 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
         />
       )}
       {weekly && <WeeklyChallenge weekly={weekly} />}
-      {account && account.enrollment && (
+      {account?.enrollment && (
         <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
           {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
           <div className="leader-board">

@@ -13,7 +13,7 @@ email-opt-in-info-title = Abonner på Common Voice-e-postlisten
 email-opt-in-info-sub-with-challenge = Motta e-post om utfordrings- og målpåminnelser, oppdateringer om progresjon og nyhetsbrev om Common Voice.
 email-opt-in-privacy = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink> personvernerklæring.
 indicates-required = * Indikerer obligatorisk felt
-not-available-abbreviation = (Ikke relevant)
+not-available-abbreviation = ikke tilgjengelig
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -204,22 +204,22 @@ today = I dag
 x-weeks-short =
     { $count ->
         [one] uke
-       *[other] { $count }uker
+       *[other] { $count } uker
     }
 x-months-short =
     { $count ->
         [one] måned
-       *[other] { $count }måneder
+       *[other] { $count } måneder
     }
 x-years-short =
     { $count ->
         [one] år
-       *[other] { $count }år
+       *[other] { $count } år
     }
 help-make-dataset = Hjelp oss med å lage et høykvalitets, offentlig tilgjengelig datasett.
 sign-up-account = Lag deg en konto
 email-subscription-title = meld deg på for oppdateringer på e-post
-email-subscription-title-new = Registrer deg for Common Voice nyhetsbrev, målpåminnelser og fremdriftsoppdateringer
+email-subscription-title-new = Registrer deg for Common Voice-nyhetsbrev, målpåminnelser og fremdriftsoppdateringer
 
 ## Account Benefits
 
@@ -298,7 +298,7 @@ profile-form-age =
 profile-form-gender =
     .label = Kjønn
 leaderboard-visibility =
-    .label = Synlighet på leaderboard
+    .label = Synlighet på toppliste
 hidden = Skjult
 visible = Synlig
 native-language =
@@ -311,7 +311,7 @@ female = Kvinne
 other = Annet
 why-profile-title = Hvorfor opprette en profil?
 why-profile-text = Ved å bidra med noe informasjon om deg selv, vil lyddataene du bidrar med til Common Voice være enda mer nyttige for talegjengjenningsmotorer, som bruker slike data til å forbedre sin nøyaktighet.
-dashboard = Dashboard
+dashboard = Oversikt
 build-profile = Lag profil
 avatar = Avatar
 goals = Mål
@@ -324,15 +324,15 @@ thanks-for-account = Takk for at du bekreftet kontoen din. La oss lage en profil
 why-demographic = Hvorfor er dette viktig?
 why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og e-postadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
 accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>Privacy Policy</privacyLink>.
-accept-privacy-title = Personvernpolicy
+accept-privacy-title = Personvernbestemmelser
 login-identity = Innloggingsidentitet
-login-signup = Logg inn / Lag konto
+login-signup = Logg inn / Registrer deg
 edit = Rediger
 email-subscriptions = E-postabonnement
 download-profile = Last ned mine data
 contribution-experience = Bidragserfaring
 skip-submission-feedback = Hopp over tilbakemelding
-skip-submission-description = I løpet av bidragsinnsendelse vil tilbakemelding bli hoppet over etter å ha klikket 'Send inn'. Deretter fortsetter vi direkte med det neste settet med 5 innspillinger eller valideringer.
+skip-submission-description = I løpet av bidragsinnsendelse vil tilbakemelding bli hoppet over etter å ha klikket «Send inn». Deretter fortsetter vi direkte med det neste settet med 5 innspillinger eller valideringer.
 skip-submission-note = Merk: Du må fortsatt velge mellom Tal eller Lytt for å endre bidragstype.
 off = Av
 on = På
@@ -367,13 +367,13 @@ change-email-setings = Endre e-postadressen din via Innstillinger under Innloggi
 faq-title = Ofte stilte spørsmål
 faq-what-cv-q = Hva er Common Voice?
 faq-what-cv-a =
-    Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelige systemer er dyre og lukkede. Common Voice er en del av Mozillas initiativ for å gjøre talegjenkjenningsteknologi bedre og mer tilgjengelig for alle. Common Voice er en stor, global database med stemmebidrag, som lar hvem som helst, raskt og enkelt trene stemme-aktiverte applikasjoner i potensielt alle språk.  ¶
-    ¶
+    Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelige systemer er dyre og lukkede. Common Voice er en del av Mozillas initiativ for å gjøre talegjenkjenningsteknologi bedre og mer tilgjengelig for alle. Common Voice er en stor, global database med stemmebidrag, som lar hvem som helst, raskt og enkelt trene stemme-aktiverte applikasjoner i potensielt alle språk.
+    
     Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
 faq-why-important-q = Hvorfor er det viktig?
 faq-why-important-a =
-    Tale er ofte den mest naturlige måten vi kommuniserer med hverandre, og taleteknologi gir oss den muligheten på datamaskiner og portable enheter. Vi ønsker å sette programvareutviklere i stand til å bygge fantastiske talegjenkjenningsapplikasjoner, som sanntidsoversetting og stemmestyrte personlige assistenter. Men akkurat nå er det meste av taledata som trengs for å bygge denne typen applikasjoner dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklere det de trenger for å  lage nye ting og gjøre taleteknologi tilgjengelig på sitt eget språk.  ¶
-    ¶
+    Tale er ofte den mest naturlige måten vi kommuniserer med hverandre, og taleteknologi gir oss den muligheten på datamaskiner og portable enheter. Vi ønsker å sette programvareutviklere i stand til å bygge fantastiske talegjenkjenningsapplikasjoner, som sanntidsoversetting og stemmestyrte personlige assistenter. Men akkurat nå er det meste av taledata som trengs for å bygge denne typen applikasjoner dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklere det de trenger for å  lage nye ting og gjøre taleteknologi tilgjengelig på sitt eget språk.
+    
     For å gjøre talegjenkjenning enda mer universelt tilgjengelig, samler vi taleklipp både i språk med stor utbredelse og også de med færre brukere som ofte ikke er håndtert av kommersielle talegjenkjenningsprodukter. Ved å publisere et bredt datasett av stemmer setter vi utviklere, gründere og hele språksamfunn i stand til å selv fylle dette behovet.
 faq-how-get-q = Hvordan kan jeg få tilgang til Common Voice datasettet?
 faq-how-get-a = Common Voice datasettet er tilgjengelig for nedlasting under <licenseLink>CC0</licenseLink> lisens på  <datasetLink>vår side med datasett</datasetLink>.  Du kan også laste ned flere andre offentlig tilgjengelige datasett fra samme side.
@@ -411,7 +411,7 @@ faq-what-determine-identity-a =
     
     Alle lydklipp i datasettet blir skrubbet for personidentifiserende informasjon. Når du laster ned datasettet, godtar du  å ikke forsøke å identifisere noen bidragsyterr. Det betyr at du ikke skal prøve å koble informasjon i datasettet til en bidragsyters personlige opplysninger. Du kan imidlertid bruke datasettet til å trene tale-gjenkjenning, taler-gjenkjenning eller andre typer programmer. For eksempel ved å koble informasjon i datasettet til annen informasjon allerede i datasettet.
 faq-what-is-cv = Hva er Common Voice?
-faq-using-cv = Å Bruke Common Voice
+faq-using-cv = Bruke Common Voice
 faq-description = Common Voice er en del av Mozillas initiativ for å hjelpe maskiner å forstå hvordan virkelige mennesker snakker.
 faq-search-for-answers =
     .label = Søk svar
@@ -430,7 +430,7 @@ about-listen-queue-text = Lydklipp blir lagt inn i en bidragskø som gjør disse
 about-listen = Lytt
 about-listen-text = Brukere validerer nøyaktigheten av bidratte lydklipp og kontrollerer at taleren leser setningen korrekt.
 about-is-it-valid = Er lydklippet gyldig?
-about-is-it-valid-text = Et lydklipp er markert som "gyldig" når en bruker gir det en "Ja"-stemme.
+about-is-it-valid-text = Et lydklipp er markert som «gyldig» når en bruker gir det en «Ja»-stemme.
 about-yes-votes = ≥ 2 Ja-stemmer
 about-yes-votes-text = For å komme med i Common Voice datasettet må et lydklipp bli godkjent av to separate brukere.
 about-no-votes = ≥ 2 Nei-stemmer
@@ -443,11 +443,11 @@ about-partners = Partnere
 about-become-a-partner = Bli en partner
 about-partnership = Common Voice er et samarbeidsprosjekt, og vi er avhengig av vårt samfunn av partnere og bidragsytere for å bygge det største åpen-kilde datasettet av stemmer noensinne.  Vi vil gjerne få takke følgende personer og organisasjoner for deres bistand med prosjektet:
 about-get-involved = Bli med
-about-get-involved-text =
-    Vil du hjelpe til med å gjøre Common Voice enda  bedre?¶
-    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,¶
-     gi tilbakemelding via <githubLink>GitHub</githubLink>, ¶
-    eller kom sammen med oss på <slackLink>Slack</slackLink>.
+about-get-involved-text-2 =
+    Vil du hjelpe til med å gjøre Common Voice enda  bedre?
+    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
+    forumer, send inn nettstedstilbakemelding via <githubLink>GitHub</githubLink>,
+    eller bli med på <matrixLink>Matrix</matrixLink>-samfunnsprat.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
@@ -455,7 +455,7 @@ about-nav-get-involved = Bli med
 mycroft-title = Mycroft AI
 mycroft-subtitle = Kunstig Intelligens
 mycroft-description =
-    Mycroft er verdens første åpen kildekode digitale assistent. ¶
+    Mycroft er verdens første åpen kildekode digitale assistent.
     Mycroft kjører på hva som helst - en stasjonær PC, i en bil, eller på en Raspberry Pi.
 mycroft-secondary-description = Dette er åpen kildekode som fritt kan endres, utvides og forbedres. Mycroft kan brukes i hva som helst fra vitenskapelige prosjekter til bedriftsapplikasjoner.
 
@@ -640,6 +640,8 @@ record-again-instruction = Supert!<recordIcon></recordIcon> Ta opp ditt neste kl
 record-again-instruction2 = Fortsett slik, spill inn en gang til <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Siste nå!
 review-tooltip = Her kan du se gjennom og ta opp klipp på nytt
+share-clip = Del lydklippet ditt
+share-common-voice = Del Common Voice
 review-instruction = Se gjennom og ta opp på nytt om nødvendig
 record-submit-tooltip = { $actionType } send inn når du er klar
 clips-uploaded = Klipp lastet opp
@@ -759,9 +761,9 @@ help-share-goal = Hjelp oss med å finne flere stemmer, del dine mål
 confirm-goal = Bekreft Mål
 goal-interval-weekly = Ukentlig
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Del { $count } Klipp Daglig Mål for { $type }
+share-n-daily-contribution-goal = Del det daglige målet ditt med { $count } lydklipp for { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Del { $count } Klipp Ukentlig Mål for { $type }
+share-n-weekly-contribution-goal = Del ukemålet ditt med { $count } lydklipp for { $type }
 share-goal-type-speak = Snakking
 share-goal-type-listen = Lytting
 share-goal-type-both = Snakking og Lytting

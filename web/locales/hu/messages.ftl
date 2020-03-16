@@ -452,11 +452,11 @@ about-partnership =
     
     A következő emberek és szervezetek segítségét szeretnénk megköszönni:
 about-get-involved = Csatlakozzon
-about-get-involved-text =
+about-get-involved-text-2 =
     Szeretné még jobbá tenni a Common Voice-ot?
-    Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse-on</discourseLink>,
-    küldjön visszajelzést a <githubLink>GitHubon</githubLink>,
-    vagy csatlakozzon hozzánk a <slackLink>Slacken</slackLink>.
+    Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse</discourseLink>
+    fórumon, küldjön be hibákat <githubLink>GitHubon</githubLink>,
+    vagy csatlakozzon a <matrixLink>Matrix</matrixLink> közösségi csevegéshez.
 about-nav-why-common-voice = Miért?
 about-nav-how-it-works = Hogyan?
 about-nav-partners = Partnerek
@@ -645,6 +645,8 @@ record-again-instruction = Nagyszerű! <recordIcon></recordIcon> A következő k
 record-again-instruction2 = Csak így tovább, vegyen fel újra <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Az utolsó!
 review-tooltip = Ellenőrizze, és ha kell, vegye fel újra a klipeket sorban
+share-clip = Ossza meg a klipjét
+share-common-voice = A Common Voice megosztása
 review-instruction = Ellenőrizze, és ha kell, vegye fel újra a klipeket
 record-submit-tooltip = { $actionType } a beküldéshez, ha kész
 clips-uploaded = Klipek feltöltve

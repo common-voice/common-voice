@@ -452,11 +452,11 @@ about-partnership =
     
     Vi vill tacka följande personer och organisationer för deras hjälp med projektet:
 about-get-involved = Engagera dig
-about-get-involved-text =
-    Vill du hjälpa till att göra Common Voice ännu bättre?
-    Bra! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
-    skicka in återkoppling via <githubLink>GitHub</ githubLink>,
-    eller gå med oss på <slackLink>Slack</slackLink>.
+about-get-involved-text-2 =
+    Vill du göra Common Voice ännu bättre?
+    Bra! Ta kontakt via e-post eller <discourseLink>Discourse</discourseLink>
+    forum, skicka webbplatsfrågor via <githubLink>GitHub</githubLink> eller gå med i
+    <matrixLink>Matrix</matrixLink> communitychatt.
 about-nav-why-common-voice = Varför ?
 about-nav-how-it-works = Hur ?
 about-nav-partners = Partners
@@ -649,6 +649,8 @@ record-again-instruction = Bra! <recordIcon></recordIcon> Spela in ditt nästa k
 record-again-instruction2 = Bra jobbat, spela in igen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Sista!
 review-tooltip = Här kan du kontrollera och återuppta inspelningar
+share-clip = Dela ditt klipp
+share-common-voice = Dela Common Voice
 review-instruction = Om det behövs kan du granska och återuppta inspelningar
 record-submit-tooltip = { $actionType } skicka in när du är redo
 clips-uploaded = Klipp uppladdade

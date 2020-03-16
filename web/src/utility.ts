@@ -1,4 +1,4 @@
-import { UserClient } from 'common/user-clients';
+import { UserClient } from 'common';
 
 const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g');
 
@@ -38,11 +38,7 @@ export function countSyllables(text: string): number {
  * Test if we are running in the iOS native app wrapper.
  */
 export function isNativeIOS(): boolean {
-  return (
-    window['webkit'] &&
-    webkit.messageHandlers &&
-    webkit.messageHandlers.scriptHandler
-  );
+  return window.webkit && webkit.messageHandlers?.scriptHandler;
 }
 
 export function isFirefoxFocus(): boolean {

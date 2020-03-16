@@ -40,11 +40,11 @@ const DEFAULT_CATEGORY_COUNT = 2;
 const Splits = ({
   category,
   values,
-  locale,
+  bundleLocale,
 }: {
   category: string;
   values: { [key: string]: number };
-  locale: string;
+  bundleLocale: string;
 }) => {
   const [expanded, setExpanded] = useState(false);
   const categories = Object.entries(values).filter(
@@ -69,8 +69,8 @@ const Splits = ({
                     <span />
                   </Localized>
                 ) : category == 'accent' ? (
-                  ACCENTS[locale] ? (
-                    ACCENTS[locale][key]
+                  ACCENTS[bundleLocale] ? (
+                    ACCENTS[bundleLocale][key]
                   ) : (
                     key
                   )
@@ -97,7 +97,7 @@ interface PropsFromState {
 type Props = LocalePropsFromState & LocalizationProps & PropsFromState;
 
 type State = {
-  locale: string;
+  bundleLocale: string;
   showIntroTextMdDown: boolean;
   hideEmailForm: boolean;
   email: string;
@@ -111,7 +111,7 @@ class DatasetInfo extends React.Component<Props, State> {
   constructor(props: Props, context: any) {
     super(props, context);
     this.state = {
-      locale: (stats.locales as any)[props.locale] ? props.locale : 'en',
+      bundleLocale: (stats.locales as any)[props.locale] ? props.locale : 'en',
       showIntroTextMdDown: false,
       hideEmailForm: true,
       email: '',
@@ -130,26 +130,29 @@ class DatasetInfo extends React.Component<Props, State> {
 
   saveHasDownloaded = async () => {
     // @TODO - why are we awaiting??
-    const { email, locale } = this.state;
+    const { email, bundleLocale } = this.state;
     console.log(
       Object.keys(stats.locales)
-        .map(locale => stats.bundleURLTemplate.replace('{locale}', locale))
+        .map(locale =>
+          stats.bundleURLTemplate.replace('{locale}', bundleLocale)
+        )
         .join(' ')
     );
-    await this.props.api.forLocale(locale).saveHasDownloaded(email);
+    await this.props.api.forLocale(bundleLocale).saveHasDownloaded(email);
   };
 
   render() {
     const { getString } = this.props;
     const {
-      locale,
+      bundleLocale,
       showIntroTextMdDown,
       hideEmailForm,
       email,
       confirmSize,
       confirmNoIdentify,
     } = this.state;
-    const localeStats = stats.locales[locale as keyof typeof stats.locales];
+    const localeStats =
+      stats.locales[bundleLocale as keyof typeof stats.locales];
     const megabytes = localeStats.size / 1024 / 1024;
     const size =
       megabytes < 1
@@ -198,9 +201,9 @@ class DatasetInfo extends React.Component<Props, State> {
             <div className="inner">
               <LabeledSelect
                 label={getString('language')}
-                value={locale}
+                value={bundleLocale}
                 onChange={(event: any) =>
-                  this.setState({ locale: event.target.value })
+                  this.setState({ bundleLocale: event.target.value })
                 }>
                 {Object.keys(stats.locales).map(locale => (
                   <Localized key={locale} id={locale}>
@@ -213,7 +216,7 @@ class DatasetInfo extends React.Component<Props, State> {
                   size,
                   'dataset-version': (
                     <div className="version">
-                      {[locale, totalHours + 'h', stats.date].join('_')}
+                      {[bundleLocale, totalHours + 'h', stats.date].join('_')}
                     </div>
                   ),
                   'validated-hr-total': validHours.toLocaleString(),
@@ -226,7 +229,7 @@ class DatasetInfo extends React.Component<Props, State> {
                     .map(([category, values]) => (
                       <Splits
                         key={category}
-                        {...{ category, values, locale }}
+                        {...{ category, values, bundleLocale }}
                       />
                     )),
                 }).map(([id, value]) => (
@@ -291,7 +294,10 @@ class DatasetInfo extends React.Component<Props, State> {
                       confirmNoIdentify &&
                       email &&
                       this.emailInputRef.current.checkValidity()
-                        ? stats.bundleURLTemplate.replace('{locale}', locale)
+                        ? stats.bundleURLTemplate.replace(
+                            '{locale}',
+                            bundleLocale
+                          )
                         : null
                     }
                     onClick={this.saveHasDownloaded}
@@ -300,7 +306,7 @@ class DatasetInfo extends React.Component<Props, State> {
                     style={{ minWidth: 300 }}>
                     <Localized
                       id="download-language"
-                      $language={getString(locale)}>
+                      $language={getString(bundleLocale)}>
                       <span />
                     </Localized>
                     <CloudIcon />

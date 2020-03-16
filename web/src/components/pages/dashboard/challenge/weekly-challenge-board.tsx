@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { LocaleLink } from '../../../locale-helpers';
 import { CircleProgress, Fraction } from '../../../pages/dashboard/ui';
-import { WeeklyChallenge, ChallengeTeamToken } from 'common/challenge';
+import { WeeklyChallenge, ChallengeTeamToken } from 'common';
 import { Avatar } from '../../../ui/ui';
 import URLS from '../../../../urls';
 import TeamAvatar from './team-avatar';

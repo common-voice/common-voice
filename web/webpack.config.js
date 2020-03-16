@@ -1,15 +1,18 @@
 const path = require('path');
 const chalk = require('chalk');
-const {
-  CheckerPlugin,
-  TsConfigPathsPlugin,
-} = require('awesome-typescript-loader');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PreloadWebpackPlugin = require('preload-webpack-plugin');
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
+const babelLoader = {
+  loader: 'babel-loader',
+  options: {
+    cacheDirectory: true,
+    presets: ['@babel/preset-env'],
+  },
+};
 module.exports = {
   entry: './src/main.ts',
   output: {
@@ -37,21 +40,16 @@ module.exports = {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
         use: [
+          babelLoader,
           {
-            loader: 'awesome-typescript-loader',
-            options: {
-              silent: true,
-            },
+            loader: 'ts-loader',
           },
         ],
       },
       {
         test: /\.js$/,
         include: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: { cacheDirectory: true, presets: ['@babel/preset-env'] },
-        },
+        use: [babelLoader],
       },
       {
         /**
@@ -99,10 +97,8 @@ module.exports = {
       template: 'index_template.html',
     }),
     new PreloadWebpackPlugin(),
-    new CheckerPlugin(),
-    new TsConfigPathsPlugin(),
     function() {
-      this.plugin('watchRun', () => console.log(chalk.yellow('Rebuilding...')));
+      this.plugin('watchRun', () => console.log(chalk.yellow('Rebuilding…')));
       this.plugin('done', () => console.log(chalk.green('Built!')));
     },
     // new require('webpack-bundle-analyzer').BundleAnalyzerPlugin({ analyzerMode: 'static' }),

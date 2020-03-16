@@ -100,11 +100,13 @@ function RecordingPill({
                   </span>
                 </button>
               </Tooltip>
-              <button className="share" type="button" onClick={onShare}>
-                <span className="padder">
-                  <ShareIcon />
-                </span>
-              </button>
+              <Tooltip arrow title={getString('share-clip')}>
+                <button className="share" type="button" onClick={onShare}>
+                  <span className="padder">
+                    <ShareIcon />
+                  </span>
+                </button>
+              </Tooltip>
             </React.Fragment>
           )}
         </React.Fragment>

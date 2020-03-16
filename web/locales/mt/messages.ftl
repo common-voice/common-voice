@@ -157,7 +157,7 @@ logout = Oħroġ
 
 home-title = Common Voice hija inizzjattiva tal-Mozilla biex tgħinna ngħallmu lill-magni jitkellmu bħan-nies.
 home-cta = Għolli leħnek, agħti sehmek hawn!
-wall-of-text-start = Il-vuċi naturali, il-vuċi umana. TTant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
+wall-of-text-start = Il-vuċi naturali, il-vuċi umana. Tant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
 wall-of-text-more-mobile = Ħafna mid-data li jużaw il-kumpnaiji mhix disponibbli għall-maġġoranza tan-nies. Fil-fehma tagħna, dil-qagħda xxekkel l-innovazzjoni. Għalhekk nidejna l-Proġett Common Voice, proġett biex l-għarfien awtomatiku tat-taħdit ikun miftuħ għal kulħadd.
 wall-of-text-more-desktop = Issa inti wkoll tista' taqsam il-vuċi tiegħek magħna sabiex tgħinna nibnu database ta' vuċijiet miftuħa li tista' tintuża minn kull min irid jibni apps innovattivi li jintużaw fuq aġġeġġi jew fuq l-internet. Aqralna sentenza biex tgħin il-magni jitgħallmu jitkellmu bħan-nies. Iċċekkja x-xogħol ta' ħaddieħor biex ittejjeb il-kwalità. Hija daqstant sempliċi!
 wall-of-text-first = Il-vuċi naturali, il-vuċi umana. TTant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
@@ -194,7 +194,7 @@ x-months-short =
     { $count ->
         [one] Xahar
         [two] Xahrejn
-       *[many] Xhur
+       *[many] { $count }Xhur
     }
 x-years-short =
     { $count ->
@@ -432,11 +432,6 @@ about-partners = Msieħba
 about-become-a-partner = Issieħeb
 about-partnership = Common Voice huwa proġett kollaborattiv u niddependu fuq komunità ta' msieħba u kontributuri biex nibnu l-ikbar ġabra miftuħa ta' vuċijiet li qatt inħolqot.
 about-get-involved = Involvi Ruħek
-about-get-involved-text =
-    Trid ittejjeb il-Common Voice?
-    Tajjeb! ikkuntattjana bl-email jew fuq <discourseLink>Discourse</discourseLink>,
-    issottometti l-feedback tiegħek minn <githubLink>GitHub</githubLink>,
-    jew issieħeb magħna fuq <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Għalfejn?
 about-nav-how-it-works = Kif?
 about-nav-partners = Msieħba
@@ -518,7 +513,7 @@ validated-hours = Siegħat iċċekkjati
 recorded-hours = Siegħat Irrekordjati
 whats-inside = X'hemm fil-ġabra tad-Dati Common Voice?
 dataset-description-hours =
-    Kull entratura fil-ġabra fiha MP3 wieħed u fajl bit-test li jikkorrispondi miegħu. Ħafna mill- <b>{ $size }</b> siegħa li hemm irrekordjati b'kollox fil-ġabra jinkludu wkoll metadata demografika bħall-età, sess u aċċent, li jisttgħu jiswew biex tittejjeb l-akkuratezza tal-magni għall-għarfien tat-taħdit.
+    Kull entratura fil-ġabra fiha MP3 wieħed u fajl bit-test li jikkorrispondi miegħu. Ħafna mill- <b>{ $total }</b> siegħa li hemm irrekordjati b'kollox fil-ġabra jinkludu wkoll metadata demografika bħall-età, sess u aċċent, li jisttgħu jiswew biex tittejjeb l-akkuratezza tal-magni għall-għarfien tat-taħdit.
     
     Il-ġabra bħalissa fiha <b>{ $valid }</b> siegħat li ġew iċċekkjati, fi <b>{ $languages }</b> lingwa, imma aħna nkomplu nżidu l-vuċijiet u l-lingwi regolarment. Agħti daqqa t'għajn lill-<languagesLink>paġna dwar il-Lingwi</languagesLink> jekk trid titlob lingwa partikolari, jew biex tibda tikkontribwixxi.
 want-dataset-update = Tixtieq l-aġġornamenti meta nniedu verżjoni ġdida tal-ġabra Common Voice? Abbona biex tirċievi n-newsletter.

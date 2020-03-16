@@ -451,7 +451,11 @@ about-partnership =
     
     ჩვენ გვინდა, მადლობა გადავუხადო აღნიშნულ ადამიანებსა და დაწესებულებებს, პროექტში შეტანილი წვლილისთვის:
 about-get-involved = ჩაერთეთ
-about-get-involved-text = ან შემოგვიერთდით <slackLink>Slack-ზე</slackLink>.
+about-get-involved-text-2 =
+    გსურთ დაგვეხმაროთ, რომ Common Voice გახდეს უკეთესი?
+    მშვენიერია! შეგვეხმიანეთ ელფოსტით ან <discourseLink>Discourse-ით</discourseLink>
+    ფორუმებზე, მოგვახსენეთ ხარვეზები <githubLink>GitHub-ზე</githubLink> ან შემოგვიერთდით
+    <matrixLink>Matrix-ზე</matrixLink> საერთო მიმოწერაში.
 about-nav-why-common-voice = რატომ?
 about-nav-how-it-works = როგორ?
 about-nav-partners = თანამშრომლობა
@@ -635,6 +639,8 @@ record-again-instruction = მშვენიერია! <recordIcon></recordI
 record-again-instruction2 = ასე განაგრძეთ, კვლავ ჩაწერეთ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ბოლო!
 review-tooltip = აქედან შეგიძლიათ შეამოწმოთ და ხელახლა შექმნათ ჩანაწერები
+share-clip = გააზიარეთ თქვენი ჩანაწერი
+share-common-voice = გააზიარეთ Common Voice
 review-instruction = შეამოწმეთ ჩანაწერები ან ხელახლა ჩაწერეთ, თუ საჭიროა
 record-submit-tooltip = { $actionType } გადაგზავნას როცა მზად იქნებით
 clips-uploaded = ჩანაწერები ატვირთულია

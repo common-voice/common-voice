@@ -3,12 +3,7 @@ import { Localized } from 'fluent-react/compat';
 import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
 import ShareButtons from '../share-buttons/share-buttons';
-import {
-  ContactIcon,
-  DiscourseIcon,
-  GithubIcon,
-  SupportIcon,
-} from '../ui/icons';
+import { ContactIcon, DiscourseIcon, SupportIcon } from '../ui/icons';
 import { TextButton } from '../ui/ui';
 import { LocaleLink, useLocale } from '../locale-helpers';
 import Logo from './logo';

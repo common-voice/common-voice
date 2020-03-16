@@ -3,6 +3,21 @@ import { getConfig } from '../config-helper';
 import { getMySQLInstance } from './model/db/mysql';
 import { computeGoals } from './model/goals';
 
+type UserEmailStats = {
+  client_id: string;
+  email: string;
+  basket_token: string;
+
+  first_contrib: string;
+  goal_created: string;
+  goal_reached: string;
+  two_day_streak: string;
+  last_active: string;
+
+  new_last_active: string;
+  hours_elapsed: number;
+};
+
 const { BASKET_API_KEY, ENVIRONMENT } = getConfig();
 const db = getMySQLInstance();
 
@@ -11,80 +26,149 @@ export const API_URL =
     ? 'https://basket.mozilla.org'
     : 'https://basket-dev.allizom.org';
 
+const basketConfig = {
+  uri: API_URL + '/news/common-voice-goals/',
+  method: 'POST',
+  headers: {
+    'x-api-key': BASKET_API_KEY,
+  },
+};
+
 function toISO(date: string) {
   return date ? new Date(date).toISOString().slice(0, -5) + 'Z' : null;
 }
 
-export async function sync(client_id: string) {
-  await computeGoals(client_id);
-
+async function getCurrentStatus(client_id: string) {
   const [[row]] = await db.query(
+    `SELECT u.*,
+      NOW() AS new_last_active,
+      HOUR(TIMEDIFF(NOW(), u.last_active)) AS hours_elapsed
+    FROM user_client_newsletter_prefs AS u
+    WHERE client_id = ?`,
+    [client_id]
+  );
+
+  return row;
+}
+
+function updateLastActive(currentUserStats: UserEmailStats) {
+  db.query(
+    `UPDATE user_client_newsletter_prefs
+      SET last_active = ?
+    WHERE client_id = ?`,
+    [currentUserStats.new_last_active, currentUserStats.client_id]
+  );
+
+  const data = {
+    email: currentUserStats.email,
+    last_active_date: toISO(currentUserStats.new_last_active),
+  };
+
+  sendRequest({
+    ...basketConfig,
+    form: data,
+  }).catch(err => console.error(err.message));
+}
+
+async function updateFullBasket(currentUserStats: UserEmailStats) {
+  const [[computed]] = await db.query(
     `
       SELECT
         email,
         basket_token,
         LEAST(
-          (SELECT MIN(clips.created_at) FROM clips WHERE client_id = user_clients.client_id),
-          (SELECT MIN(votes.created_at) FROM votes WHERE client_id = user_clients.client_id)
+          IFNULL((SELECT MIN(clips.created_at) FROM clips WHERE client_id = newsletter.client_id), NOW()),
+          IFNULL((SELECT MIN(votes.created_at) FROM votes WHERE client_id = newsletter.client_id), NOW())
         ) AS first_contribution_date,
         current_goal.created_at AS goal_created_at,
         current_goal.days_interval,
         MAX(awards.created_at) AS goal_reached_at,
-        NOW() AS last_active_date,
         (
           NOT EXISTS(
             SELECT 1
             FROM reached_goals
-            WHERE type = 'streak' AND client_id = user_clients.client_id
+            WHERE type = 'streak' AND client_id = newsletter.client_id
               AND count = 3  
           ) AND EXISTS(
             SELECT 1
             FROM streaks
-            WHERE client_id = user_clients.client_id
+            WHERE client_id = newsletter.client_id
               AND DATEDIFF(NOW(), started_at) >= 2
               AND DATEDIFF(NOW(), last_activity_at) <= 1
           )
         ) AS two_day_streak
-      FROM user_clients
-      LEFT JOIN custom_goals goals ON user_clients.client_id = goals.client_id
+      FROM user_client_newsletter_prefs AS newsletter
+      LEFT JOIN custom_goals goals ON newsletter.client_id = goals.client_id
                                       AND goals.locale_id = 1
       LEFT JOIN custom_goals current_goal ON (
-        user_clients.client_id = current_goal.client_id AND
+        newsletter.client_id = current_goal.client_id AND
         current_goal.created_at >= goals.created_at
       )
       LEFT JOIN awards ON current_goal.id = awards.custom_goal_id
-      WHERE user_clients.client_id = ? AND has_login
-      GROUP BY user_clients.client_id
+      WHERE newsletter.client_id = ?
+      GROUP BY newsletter.client_id
     `,
-    [client_id]
+    [currentUserStats.client_id]
   );
-  if (
-    !row ||
-    !row.basket_token ||
-    (!row.first_contribution_date && !row.goal_created_at)
-  ) {
-    return;
-  }
+
+  db.query(
+    `
+      UPDATE user_client_newsletter_prefs
+      SET 
+        first_contrib = ?,
+        goal_created = ?, 
+        goal_reached = ?,
+        two_day_streak = ?, 
+        last_active = ?
+      WHERE client_id = ?`,
+    [
+      computed.first_contribution_date,
+      computed.goal_created_at,
+      computed.goal_reached_at,
+      Boolean(computed.two_day_streak),
+      currentUserStats.new_last_active,
+      currentUserStats.client_id,
+    ]
+  );
+
   const data = {
-    email: row.email,
+    email: currentUserStats.email,
 
-    first_contribution_date: toISO(row.first_contribution_date),
+    first_contribution_date: toISO(computed.first_contribution_date),
+    created_at: toISO(computed.goal_created_at),
+    days_interval: computed.days_interval,
+    goal_reached_at: toISO(computed.goal_reached_at),
 
-    created_at: toISO(row.goal_created_at),
-    days_interval: row.days_interval,
-    goal_reached_at: toISO(row.goal_reached_at),
-
-    last_active_date: toISO(row.last_active_date),
-    two_day_streak: Boolean(row.two_day_streak),
+    last_active_date: toISO(currentUserStats.new_last_active),
+    two_day_streak: Boolean(computed.two_day_streak),
   };
 
-  await sendRequest({
-    uri: API_URL + '/news/common-voice-goals/',
-    method: 'POST',
-    headers: {
-      'x-api-key': BASKET_API_KEY,
-    },
+  sendRequest({
+    ...basketConfig,
     form: data,
-  });
-  console.log('basket', JSON.stringify(data, null, 2));
+  }).catch(err => console.error(err.message));
+}
+
+export async function sync(client_id: string) {
+  await computeGoals(client_id);
+  const currUserStats = await getCurrentStatus(client_id);
+
+  // If no newsletter prefs exist, they don't get email triggers
+  // If last update was within the past hour, do not send another sync
+  if (!currUserStats || parseInt(currUserStats.hours_elapsed) === 0) {
+    return;
+  }
+
+  // If all email triggers have been hit at least once, no need to recalculate values
+  if (
+    currUserStats.first_contrib &&
+    currUserStats.goal_created &&
+    currUserStats.goal_reached &&
+    currUserStats.two_day_streak
+  ) {
+    return updateLastActive(currUserStats);
+  }
+
+  // otherwise, do a full calculation
+  return updateFullBasket(currUserStats);
 }

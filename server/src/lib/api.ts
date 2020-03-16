@@ -4,7 +4,7 @@ import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
-import { UserClient as UserClientType } from 'common/user-clients';
+import { UserClient as UserClientType } from 'common';
 import { authMiddleware } from '../auth-router';
 import { getConfig } from '../config-helper';
 import Awards from './model/awards';

@@ -1,4 +1,4 @@
-import { CustomGoalParams } from 'common/goals';
+import { CustomGoalParams } from 'common';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 
