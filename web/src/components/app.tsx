@@ -235,8 +235,7 @@ let LocalizedPage: any = class extends React.Component<
         <LocalizationProvider bundles={bundleGenerator}>
           <div>
             <div className="notifications">
-              {notifications
-                .slice()
+              {[...new Set(notifications)]
                 .reverse()
                 .map(notification =>
                   notification.kind == 'pill' ? (
