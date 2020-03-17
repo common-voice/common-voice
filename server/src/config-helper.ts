@@ -157,7 +157,7 @@ export function getConfig(): CommonVoiceConfig {
   let fileConfig = null;
 
   try {
-    let config_path = process.env.SERVER_CONFIG_PATH || '../../config.json';
+    let config_path = process.env.SERVER_CONFIG_PATH || './config.json';
     fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
   } catch (err) {
     console.error(err, 'could not load config.json, using defaults');
