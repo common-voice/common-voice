@@ -438,6 +438,10 @@ about-clip-graveyard = Гробље исечака
 about-clip-graveyard-text = Clip Graveyard се састоји од гласовних исечака који нису ушли у Common Voice скуп података. Као и сам скуп података, тако је и Clip Graveyard доступан за преузимање.
 about-partners = Партнери
 about-become-a-partner = Постаните наш партнер
+about-partnership =
+    Common Voice је колаборативни пројекат и ми зависимо од наше заједнице партнера и сарадника у прављењу највећег скупа података гласова отвореног кода икада.
+    
+    Захваљујемо се следећим особама и организацијама на помоћи у пројекту:
 about-get-involved = Прикључите се
 about-nav-why-common-voice = Зашто ?
 about-nav-how-it-works = Како ?
@@ -445,12 +449,20 @@ about-nav-partners = Партнери
 about-nav-get-involved = Прикључите се
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Вештачка интелигенција
+mycroft-description =
+    Mycroft је први светски асистент отвореног кода.
+    Mycroft ради било где - на десктоп рачунару, у аутомобилу или на Raspberry Pi.
+mycroft-secondary-description = Ово је софтвер отвореног кода који се може слободно мешати, проширити и побољшати. Mycroft се може користити у различитим ситуацијама, од научних пројеката до пословних софтверских апликација.
 
 ## Glossary
 
 glossary = Речник
 localization = Локализација
+localization-explanation = Ово је наш процес превођења и прилагођавања садржаја на многим језицима.
 sentence-collection = Скупљање реченица
+sentence-collection-explanation = Прикупљање реченица из јавног домена или писање нових за јавни домен.
+hours-recorded-explanation = Број сати снимања гласа које смо до сада прикупили.
+hours-validated-explanation = Број сати за снимање гласа које су потврдила 2 од 3 корисника са гласом “Да”. Ово означава напредак ка остварењу пројекта од 10 000 сати.
 sst = Говор у текст (ГУТ)
 de-identified = Деидентификовано
 
