@@ -525,14 +525,22 @@ why-email = <b>Зашто е-пошту?</b> Можда ћемо требати 
 confirm-size = Спремни сте да покренете преузимање <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Слажете се</b> да не покушавате да утврдите идентитет говорника у Common Voice скупу података
 download-language = Преузми за { $language }
 validated-hours = Потврђених сати
 recorded-hours = Снимљених сати
 whats-inside = Шта се налази у Common Voice комплету података?
+dataset-description-hours =
+    Сваки унос у скуп података састоји се од јединственог MP3 датотеке и одговарајуће текстуалне датотеке. Многи од <b>{ $total }</b> снимљенх сати у скупу података укључују и демографске метаподатке као што су старост, пол и нагласак, који могу помоћи у обуци тачности програма за препознавање говора.
+    
+    Скуп података се тренутно састоји од <b>{ $valid }</b> потврђених сати у <b>{ $languages }</b> језика, али увек додајемо још гласова и језика. Погледајте нашу страницу <languagesLink>Језици</languagesLink> да бисте затражили језик или почели доприносити.
+want-dataset-update = Желите ли бити обавештени када објавимо нову верзију Common Voice скупа података? Претплатите се на наш билтен.
 subscribe = Пријавите се
 get-started-speech = Упознајте се са препознавањем говора
 other-datasets = Други скупови гласовних података
 feedback-q = Имате ли повратних података?
+deepspeech-info = Common Voice скуп података надопуњује Mozilla-ин програм отвореног кода за препознавање гласа Deep Speech, који можете користити за изградњу апликација за препознавање говора. Прочитајте наш <githubLink>Github преглед</githubLink> или се придружите на<discourseLink>DeepSpeech Discourse</discourseLink>да бисте сазнали како започети.
+common-voice-info-new = Имате питања о Common Voice-у? Имате идеје за побољшање или повратне информације о одређеном језику? Придружите нам се на нашем <discourseLink>Discourse форуму</discourseLink> и реците нам.
 data-other-ted-name = TED-LIUM Збирка
 your-feedback = Имате ли идеје о томе како можемо побољшати Common Voice комплет података? Јавите нам помоћу Discourse платформе
 go-discourse = Иди на Discourse
