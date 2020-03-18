@@ -588,7 +588,9 @@ other-language = Други језик
 ## Languages Overview
 
 language-section-in-progress = У току
+language-section-in-progress-new-description = Ови језици су тренутно у развоју заједнице. Траке напретка показују докле је сваки језик стигао у процесима <localizationGlossaryLink>локализације странице</localizationGlossaryLink> и <sentenceCollectionGlossaryLink>прикупљању реченица</sentenceCollectionGlossaryLink>.
 language-section-launched = Покренут
+language-section-launched-description = За ове језике веб страница је успешно <localizationGlossaryLink>локализована</localizationGlossaryLink>, и има довољно <sentenceCollectionGlossaryLink>прикупљених реченица</sentenceCollectionGlossaryLink> да би се омогућио стални допринос <speakLink>говора</speakLink> и <listenLink>слушања</listenLink> .
 languages-show-more = Погледајте више
 languages-show-less = Погледајте мање
 language-meter-in-progress = Напредак
