@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { BaseLanguage, InProgressLanguage, LaunchedLanguage } from 'common';
@@ -22,7 +22,7 @@ interface PropsFromState {
   locale: Locale.State;
 }
 
-interface Props extends PropsFromState, LocalizationProps {}
+interface Props extends PropsFromState, WithLocalizationProps {}
 
 type LanguageSection = 'in-progress' | 'launched';
 

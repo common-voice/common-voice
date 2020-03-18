@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useRef, useState } from 'react';
 import { connect } from 'react-redux';
@@ -62,7 +62,7 @@ const FetchRow = (props: React.HTMLProps<HTMLButtonElement>) => (
 );
 
 const RateColumn = withLocalization(
-  ({ getString, value }: { value: number } & LocalizationProps) => (
+  ({ getString, value }: { value: number } & WithLocalizationProps) => (
     <div className="rate">
       <div className="exact">
         {value == null ? getString('not-available-abbreviation') : value}
@@ -431,14 +431,16 @@ export default function LeaderboardCard() {
                 saveAccount({ visible: event.target.checked });
               }}
             />
-            <Localized id="visibility-explainer" $minutes={20}>
+            <Localized id="visibility-explainer" vars={{minutes: 20}}>
               <p className="explainer" />
             </Localized>
             <div className="info">
               <InfoIcon />
               <Localized
                 id="visibility-overlay-note"
-                profileLink={<LocaleLink to={URLS.PROFILE_INFO} />}>
+                elems={{
+                  profileLink: <LocaleLink to={URLS.PROFILE_INFO} />
+                }}>
                 <p className="note" />
               </Localized>
             </div>

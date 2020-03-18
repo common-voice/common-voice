@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 
 export default ({ localizedPrefix }: { localizedPrefix?: string }) => {
@@ -12,9 +12,7 @@ export default ({ localizedPrefix }: { localizedPrefix?: string }) => {
 
       <Localized
         id={localizedPrefix + 'privacy-info'}
-        privacyLink={
-          <a href="/privacy" target="_blank" rel="noopener noreferrer" />
-        }>
+        elems={{privacyLink: <a href="/privacy" target="_blank" rel="noopener noreferrer" />}}>
         <p className="small" />
       </Localized>
     </>

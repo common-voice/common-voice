@@ -8,9 +8,9 @@ import useActiveSection from '../../../hooks/use-active-section';
 import { faqSearchSelector, FaqSection, SECTIONS } from './selectors';
 import {
   Localized,
-  LocalizationProps,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 
 const throttle = require('lodash.throttle');
 
@@ -73,7 +73,7 @@ const Section: React.ComponentType<SectionProps> = React.memo(
   )
 );
 
-export default withLocalization(({ getString }: LocalizationProps) => {
+export default withLocalization(({ getString }: WithLocalizationProps) => {
   const activeSection = useActiveSection(Object.values(SECTIONS));
   const [searchString, setSearchString] = useState<string>('');
   const [activeQuestions, setActiveQuestions] = useState<string[]>([]);

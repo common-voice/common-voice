@@ -809,6 +809,25 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@fluent/bundle@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.15.0.tgz#c123ea08d066d8b987eae5ceaa6632451609efaf"
+  integrity sha512-pYz+TuFPwCj5yx51mFG1flPxwTaXWkpi6yt6r+rdm22Y9bkWMHWdwbUnjWLJ+9yJKQMhe2uhvMJ7YfhkF87oNg==
+
+"@fluent/react@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@fluent/react/-/react-0.12.0.tgz#df4dc87172cb62db8aa666d5a47cb6a049f5f923"
+  integrity sha512-JrQS0OMrPk913HOSuZ356mQ7z7O98GXv20R8pPKj8OMv2XHzL0tP1/kJ1kZUc74TOXtYOUUqD15n3r5vYJrALg==
+  dependencies:
+    "@fluent/sequence" "0.5.0"
+    cached-iterable "^0.2.1"
+    prop-types "^15.6.0"
+
+"@fluent/sequence@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@fluent/sequence/-/sequence-0.5.0.tgz#6349b614711df2d8ed256598fa31a757fe032539"
+  integrity sha512-70LhnbPO/sO2rI2vHws66QwKq9a7PKiEN0hrc65xY3LzWq3AlATZnt+EmFG1ihmPI+5mqGPnJMAdpp3qze3X2Q==
+
 "@fullstory/browser@^1.3.1":
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@fullstory/browser/-/browser-1.3.1.tgz#082847263caa45fb728967ac8abf745e3ee9d2a1"

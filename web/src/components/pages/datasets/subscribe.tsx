@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from 'common';
@@ -111,7 +111,7 @@ class Subscribe extends React.Component<Props, State> {
             label={
               <Localized
                 id="accept-privacy"
-                privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                elems={{privacyLink: <LocaleLink to={URLS.PRIVACY} blank />}}>
                 <span />
               </Localized>
             }

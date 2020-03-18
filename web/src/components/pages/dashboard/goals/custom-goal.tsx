@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { CustomGoalParams } from 'common';
@@ -178,7 +178,7 @@ function CurrentFields({
             }>
             {currentStateKey == 'amount' ? (
               <>
-                <Localized id="n-clips" $count={value}>
+                <Localized id="n-clips" vars={{count: value}}>
                   <span />
                 </Localized>
                 <Localized id={labelId}>

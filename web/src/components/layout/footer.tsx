@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
 import ShareButtons from '../share-buttons/share-buttons';
@@ -51,13 +51,13 @@ export default React.memo(() => {
           <p className="license">
             <Localized
               id="content-license-text"
-              licenseLink={
-                <a
+              elems={{
+                licenseLink: <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
                 />
-              }>
+              }}>
               <span />
             </Localized>
           </p>
