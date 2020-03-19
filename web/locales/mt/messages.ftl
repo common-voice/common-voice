@@ -184,7 +184,7 @@ vote-no = Le
 toggle-play-tooltip = Agħfas { shortcut-play-toggle } biex tiħol fil-play mode
 speak-subtitle = Agħtina l-vuċi tiegħek
 speak-paragraph = Recordings tal-vuċi huma parti integrali mill-proċess li bih qed nibnu l-ġabra miftuħa ta' data; skont ħafna nies, hija wkoll l-iktar parti li fiha gost.
-speak-goal-text = Clips irrekordjati
+speak-goal-text = Klips li ġew irrekordjati
 listen-subtitle = Għinna niċċekkjaw il-vuċijiet
 listen-paragraph = Li niċċekkjaw ir-recordings li ingħatawlna hija wkoll importanti għall-għanijiet ta' Common Voice. Isma' ftit u tina daqqa t'id biex noħolqu data aċċessibbli ta' kwalità għolja.
 listen-goal-text = Recordings li ġew iċċekkjati
@@ -264,7 +264,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Irrekordja/Waqqaf
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Erġa rrekordja l-clip
+shortcut-rerecord-toggle-label = Erġa rrekordja l-klip
 request-language-text = Il-lingwa tiegħek għadha mhix tidher fuq Common Voice?
 request-language-button = Itlob biex tiġi inkluża lingwa
 
@@ -337,7 +337,7 @@ skip-submission-note = Nota: Xorta se jkollok bżonn tagħżel bejn Tkellem jew 
 off = Off
 on = On
 avatar-clip-title = Agħti vuċi lill-avatar tiegħek
-change-your-avatar-clip = Trid tibdel il-klip bil-vuċi tiegħek?
+change-your-avatar-clip = Trid tibdel ir-recording li għamilt?
 recording-in-progress = L-irrekordjar tal-vuċi għaddej
 avatar-clip-recorded = L-avatar tiegħek issa għandu klip bil-vuċi!
 record-voice-wave = IRREKORDJA VOICEWAVE
@@ -385,7 +385,7 @@ faq-what-cv-and-deepspeech-q = X'inhi d-differenza bejn Common Voice u Deep Spee
 faq-what-cv-and-deepspeech-a = Il-ġabra tad-data ta' Common Voice tikkumplimenta s-sistema Deep Speech, sistema miftuħa għall-għarfien tat-taħdit mibnija minn Mozilla. L-ewwel verżjoni ta' Deep Speech ġiet imnedija f'Novembru 2017 u baqgħet tevolvi sa minn dakinhar. Flimkien mal-ġabra tad-data ta' Common Voice, aħna nemmnu li din it-teknoloġija miftuħa għall-għarfien awtomatiku tal-vuċi għandha tkun disponibbli għal kulħadd. Nisperaw li dawn it-teknoloġiji jippermettu lill-iżviluppaturi biex joħolqu mewġa ġdida ta 'prodotti u servizzi innovattivi.
 faq-is-goal-assistant-q = L-għan ta’ Common Voice huwa li jinbena assistent tal-vuċi?
 faq-is-goal-assistant-a = L-għan tad-data ta' Common Voice hija li tippermetti lil kwalunkwe persuna madwar id-dinja tibni sistemi għall-għarfien tat-taħdit, jew rikonoxximent tal-kelliem, jew kwalunkwe tip ieħor ta' applikazzjoni li teħtieġ data mitkellma. Assistent tal-vuċi huwa biss wieħed minn ħafna tipi ta' għodod li jistgħu jużaw id-data.
-faq-do-want-native-q = Jiena minix kelliem nattiv ta' din il-lingwam u nitkellem b'aċċent, xorta tridu leħni?
+faq-do-want-native-q = Jiena minix kelliem nattiv ta' din il-lingwa u meta nitkellem għandi aċċent barrani. Xorta tridu leħni?
 faq-do-want-native-a = Iva, irridu l-vuċi tiegħek b'mod speċjali! Parti mill-għan ta' Common Voice hija li tiġbor kemm jista' jkun aċċenti differenti sabiex is-servizzi ta' għarfien tal-vuċi jaħdmu tajjeb indaqs għal kulħadd. Dan ifisser li l-kontribut ta' kelliema mhux nattivi huwa partikolarment importanti.
 faq-why-different-speakers-q = Għaliex hemm bżonn daqstant kelliema differenti għal kull lingwa?
 faq-why-different-speakers-a = Il-biċċa l-kbira tal-ġabriet tad-data tat-taħdit huma mibnija bi żbilanċ favur ċerti demografiji. Dan jirriżulta fi żbilanċ b'risq <articleLink> l-irġiel u l-membri tal-klassi medja </articleLink>. Ċerti aċċenti u djaletti li ġeneralment ma jkunux rappreżentati sew fl-iskemi tad-data għall-izvilupp ta' sistemi tat-taħdit huma tipikament assoċjati ma’ gruppi ta’ nies li huma emarġinati. Ħafna sistemi jbatu wkoll biex jifhmu l-vuċijiet femminili. Dan hija r-raġuni għalfejn irridu varjetà fil-ġabriet tagħna tad-data tal-vuċi!
@@ -616,9 +616,9 @@ goal-help-recording = Għadek kemm għint lil Common Voice jilħaq <goalPercenta
 goal-help-validation = Għadek kemm għint lil Common Voice jilħaq <goalPercentage></goalPercentage>  tal-{ $goalValue } ta' validazzjonijiet li nippruvaw nilħqu kuljum!
 contribute-more =
     { $count ->
-        [one] Trid tagħmel { $count } iktar?
-        [two] Trid tagħmel { $count } iktar?
-       *[many] Trid tagħmel { $count } iktar?
+        [one] Trid tagħmel oħra?
+        [two] Trid tagħmel { $count } oħra?
+       *[many] Trid tagħmel { $count } oħra?
     }
 record-cta = Ibda' irrekordja
 record-platform-not-supported = Skużana, imma bħalissa m'hemmx support għas-sistema li tinsab fuqha.
@@ -747,8 +747,8 @@ cant-decide = Ma tistax tiddeċiedi?
 activity-needed-calculation =
     { NUMBER($totalHours) } siegħa jistgħu jitlaħqu fi ftit iktar minn { NUMBER($periodMonths) }
     xahar jekk { NUMBER($people) } persuna tirrekordja { NUMBER($clipsPerDay) } klip kuljum.
-how-many-per-day = Tajjeb! Kemm trid tagħmel klips kuljum?
-how-many-a-week = Tajjeb! Kemm trid tagħmel klips fil-ġimgħa?
+how-many-per-day = Tajjeb! Kemm trid tirrekordja sentenzi kuljum?
+how-many-a-week = Tajjeb! Kemm trid tirrekordja sentenzi fil-ġimgħa?
 which-goal-type = Trid Titkellem, Tisma' jew it-tnejn?
 receiving-emails-info = Bis-settings kif qiegħdin, se tkun qed tirċievi l-emails biex ifakkruk fl-għanijiet, ituk aġġornamenti dwar il-progress u tirċievi n-newsletters dwar Common Voice
 not-receiving-emails-info = Bis-settings kif qiegħdin, <bold>MHUX</bold> se tkun qed tirċievi l-emails biex ifakkruk fl-għanijiet, ituk aġġornamenti dwar il-progress u jibgħatulek in-newsletters dwar Common Voice
