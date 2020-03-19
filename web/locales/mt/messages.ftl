@@ -606,7 +606,7 @@ total-hours = Siegħat iċċekkjati
 ## Contribution
 
 action-click = Ikklikkja
-action-tap = Ittapja
+action-tap = Agħfas
 contribute = Ikkontribwixxi
 listen = Isma'
 skip = Aqbeż
@@ -630,7 +630,7 @@ record-error-too-short = Ir-recording kien qasir wisq.
 record-error-too-long = Ir-recording kien twil wisq.
 record-error-too-quiet = Ir-rekording kien silenzjuz wisq.
 record-cancel = Ikkanċella l-irrekordjar mill-ġdid
-record-instruction = { $actionType }<recordIcon></recordIcon> imbagħad aqra s-sentenza tgħajjat
+record-instruction = { $actionType }<recordIcon></recordIcon> Imbagħad aqra s-sentenza
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> meta tkun lest
 record-three-more-instruction = Tlieta oħra!
 record-again-instruction = Tajjeb! <recordIcon></recordIcon> Irrekordja l-clip li jmiss
@@ -647,8 +647,8 @@ record-abort-text = Jekk titlaq issa titlef il-progress li tkun għamilt
 record-abort-submit = Ibgħat il-klips
 record-abort-continue = Ieqaf irrekordja
 record-abort-delete = Oħroġ u ħassar il-klips
-listen-instruction = { $actionType }<playIcon></playIcon> qrawha sew is-sentenza?
-listen-again-instruction = Prosit!<playIcon></playIcon> X'ħin tkun lest tista' terġa tisma'
+listen-instruction = { $actionType }<playIcon></playIcon> Is-sentenza nqrat sew?
+listen-again-instruction = Prosit!<playIcon></playIcon> Meta trid tista' terġa' tisma' r-recording
 listen-3rd-time-instruction = 2 lesti, ibqa' sejjer!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> L-aħħar waħda!
 nothing-to-validate = M'hemm xejn li għandu bżonn jiġi ċċekkjat f'din il-lingwa, għinna biex inqiegħdu xi ħaġa fil-kju.
@@ -659,8 +659,8 @@ login-to-get-started = Illoggja jew oħloq kont biex tibda
 
 ## Reporting
 
-report = Rapport
-report-title = Issottometti rapport
+report = Irrapporta
+report-title = Ibgħat rapport
 report-ask = X'tip ta' problemi għandek b'din is-sentenza?
 report-offensive-language = Kliem offensiv
 report-offensive-language-detail = Din is-sentenza għandha kliem nieqes mir-rispett jew offensiv.
@@ -676,7 +676,7 @@ report-other-comment =
     .placeholder = Ikkummenta
 success = Suċċess
 continue = Kompli
-report-success = Ir-rapport irnexxilek tibgħatu
+report-success = Ir-rapport intbagħat
 
 ## Goals
 
