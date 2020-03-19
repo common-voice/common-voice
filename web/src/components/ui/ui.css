@@ -44,7 +44,7 @@
     color: var(--white);
     width: 100%;
 
-    @media (--md-up) {
+    @media (--lg-up) {
         width: auto;
         height: auto;
     }
