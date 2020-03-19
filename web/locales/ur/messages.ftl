@@ -493,6 +493,7 @@ download-language = { $language } ڈاؤن لوڈ کریں
 validated-hours = کل توثیق شدہ گھنٹے
 recorded-hours = ریکارڈ شدہ  گھنٹے
 whats-inside = کامن وائس ڈیٹاسیٹ کے اندر کیا ہے؟
+want-dataset-update = جب ہم Common Voice ڈیٹاسیٹ کا نیا ورژن جاری کرتے ہیں تو اپ تازہکاری  چاہتے ہیں؟ ہماری نیوز لیٹر کو سبسکرائب کریں.
 subscribe = رکن بنیں
 get-started-speech = تقریر کی پہچان کے ساتھ آغاز کریں
 other-datasets = دوسرے وائس ڈیٹاسیٹس
