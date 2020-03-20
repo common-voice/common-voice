@@ -393,9 +393,9 @@ faq-how-get-a = Common Voice podatke je moguće preuzeti pod <licenseLink>CC0</l
 faq-when-release2-q = Kad ćete objaviti Common Voice podatke na drugim jezicima?
 faq-why-mission-q = Zašto je Common Voice dio Mozilla misije?
 faq-what-cv-and-deepspeech-q = U čemu je razlika između Common Voice i Deep Speech?
-faq-what-cv-and-deepspeech-a = Common Voice podaci nadopunjuju Mozillin program otvorenog koda za prepoznavanje glasa Deep Speech. Prva Deep Speech verzija objavljena je u studenom 2017. i od tada se nastavlja razvijati. Zajedno sa skupom podataka Common Voice, smatramo da bi ova tehnologija otvorenog koda za prepoznavanje glasa trebala biti dostupna svima. Nadamo se da će ove tehnologije razvijateljima pomoći stvoriti razne inovativne proizvode i usluge.
+faq-what-cv-and-deepspeech-a = Common Voice podaci nadopunjuju Mozillin program otvorenog koda za prepoznavanje govora Deep Speech. Prva Deep Speech verzija objavljena je u studenom 2017. i od tada se nastavlja razvijati. Zajedno sa skupom podataka Common Voice, smatramo, da bi ova tehnologija otvorenog koda za prepoznavanje govora trebala biti dostupna svima. Nadamo se, da će ove tehnologije programerima pomoći stvoriti razne inovativne proizvode i usluge.
 faq-is-goal-assistant-q = Je li je cilj Common Voicea izgraditi glasovnog pomoćnika?
-faq-is-goal-assistant-a = Cilj Common Voice podataka je omogućiti bilo kome u svijetu, da izradi program za prepoznavanje govora, prepoznavanje govornika ili bilo koju drugu vrstu programa koja zahtijeva glasovne podatke. Glasovni asistent je samo jedan u nizu programa, za koji se skup podataka može koristiti.
+faq-is-goal-assistant-a = Cilj Common Voice podataka je omogućiti bilo kome na svijetu izraditi program za prepoznavanje govora, za prepoznavanje govornika ili bilo koju drugu vrstu programa, koja zahtijeva glasovne podatke. Glasovni asistent je samo jedan u nizu programa, za koji se skup podataka može koristiti.
 faq-do-want-native-q = Jezik mi nije materinski i govorim s naglaskom/narječjem, želite li ipak moj glas?
 faq-do-want-native-a = Da, naročito tvoj glas želimo! Dio cilja Common Voicea je sakupiti što više različitih narječja/naglaska, kako bi usluge prepoznavanja glasa jednako dobro funkcionirale za sve. To znači, da su donacije govornika, kojima jezik nije materinski, posebno važne.
 faq-why-different-speakers-q = Zašto vam je potrebno mnogo različitih govornika po jeziku?
@@ -427,7 +427,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zašto Common Voice?
-about-subtitle = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom. Pored skupa podataka Common Voice također gradimo program za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
+about-subtitle = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom. Pored skupa podataka Common Voice također gradimo program za prepoznavanje govora otvorenog koda, koji se zove Deep Speech.
 how-does-it-work-title = Koji je način rada?
 how-does-it-work-text = Stvaramo skup podataka glasova otvorenog koda. Daj svoj glas, potvrdi točnost snimaka drugih ljudi, poboljšaj skup podataka za sve korisnike.
 about-speak = Govori
