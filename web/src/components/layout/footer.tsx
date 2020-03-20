@@ -15,8 +15,11 @@ import './footer.css';
 const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
   const [locale] = useLocale();
   return (
-    <Localized id={id} onClick={() => trackNav(id, locale)}>
-      <LocaleLink to={to} />
+    <Localized id={id}>
+      <LocaleLink
+        to={to}
+        onClick={() => trackNav(id, locale)}
+      />
     </Localized>
   );
 };
@@ -26,9 +29,12 @@ export default React.memo(() => {
   return (
     <footer>
       <div id="help-links">
-        <LocaleLink to={URLS.FAQ}>
+        <LocaleLink
+          to={URLS.FAQ}
+          onClick={() => trackNav('faq', locale)}
+        >
           <SupportIcon />
-          <Localized id="faq" onClick={() => trackNav('faq', locale)}>
+          <Localized id="faq">
             <div />
           </Localized>
         </LocaleLink>
