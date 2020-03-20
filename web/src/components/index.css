@@ -170,6 +170,8 @@ button {
         left: initial;
         right: initial;
         overflow: initial;
+        max-width: var(--wide-desktop-width);
+        margin: auto;
     }
 }
 
