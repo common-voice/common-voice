@@ -642,8 +642,8 @@ contribute-more =
        *[other] Ready to do { $count } more?
     }
 record-cta = Start recording
-record-platform-not-supported = We’re sorry, but your platform is not currently supported.
-record-platform-not-supported-desktop = On desktop computers, you can download the latest:
+record-platform-not-supported = We’re sorry, your platform is not currently supported.
+record-platform-not-supported-desktop = On desktop devices you can contribute by downloading...
 record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
 record-must-allow-microphone = You must allow microphone access.
 record-no-mic-found = No microphone found.
@@ -672,12 +672,13 @@ listen-instruction = { $actionType }<playIcon></playIcon> did they accurately sp
 listen-again-instruction = Great work!<playIcon></playIcon> Listen again when you're ready
 listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Last one!
-nothing-to-validate = We don't have anything to validate in this language, help us fill the queue.
+listen-empty-state = We've run out of clips to validate in this language...
+speak-empty-state = We've run out of sentences to record in this language...
+speak-empty-state-cta = Contribute sentences
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 keep-track-profile = Keep track of your progress with a profile
 login-to-get-started = Log in or sign up to get started
-no-sentences-left = Sorry! There is nothing left to record in this language. Why not submit some new sentences in our <sentenceCollectorLink>Sentence Collector Tool</sentenceCollectorLink>?
 
 ## Reporting
 report = Report

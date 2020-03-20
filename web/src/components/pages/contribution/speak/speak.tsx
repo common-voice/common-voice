@@ -23,8 +23,16 @@ import {
 } from '../../../locale-helpers';
 import Modal, { ModalButtons } from '../../../modal/modal';
 import TermsModal from '../../../terms-modal';
-import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
-import { Button, TextButton, StyledLink } from '../../../ui/ui';
+import {
+  CheckIcon,
+  FontIcon,
+  MicIcon,
+  StopIcon,
+  ArrowRight,
+  FirefoxColor,
+  ChromeColor,
+} from '../../../ui/icons';
+import { Button, TextButton, StyledLink, LinkButton } from '../../../ui/ui';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import ContributionPage, {
   ContributionPillProps,
@@ -55,37 +63,38 @@ const UnsupportedInfo = () => (
   <div className="empty-container">
     <div className="error-card card-dimensions unsupported">
       <Localized id="record-platform-not-supported" />
-      <p key="desktop">
+      <p className="desktop" key="desktop">
         <Localized id="record-platform-not-supported-desktop">
           <span />
         </Localized>
-        <a target="_blank" href="https://www.firefox.com/">
-          <FontIcon type="firefox" />
-          Firefox
-        </a>{' '}
-        <a target="_blank" href="https://www.google.com/chrome">
-          <FontIcon type="chrome" />
-          Chrome
-        </a>
       </p>
+      <div>
+        <a target="_blank" href="https://www.firefox.com/" title="Firefox">
+          <FirefoxColor />
+        </a>{' '}
+        <a target="_blank" href="https://www.google.com/chrome" title="Chrome">
+          <ChromeColor />
+        </a>
+      </div>
     </div>
   </div>
 );
 
 const NoSentencesAvailable = () => (
   <div className="empty-container">
-    <div className="error-card card-dimensions unsupported">
-      <Localized
-        id="no-sentences-left"
-        listenLink={<StyledLink to={URLS.LISTEN} />}
-        sentenceCollectorLink={
-          <StyledLink
-            href="https://common-voice.github.io/sentence-collector/"
-            blank
-          />
-        }>
+    <div className="error-card card-dimensions no-sentences-available">
+      <Localized id="speak-empty-state">
         <span />
       </Localized>
+      <LinkButton
+        rounded
+        blank
+        href="https://common-voice.github.io/sentence-collector/">
+        <ArrowRight className="speak-sc-icon" />{' '}
+        <Localized id="speak-empty-state-cta">
+          <span />
+        </Localized>
+      </LinkButton>
     </div>
   </div>
 );
