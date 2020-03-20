@@ -726,7 +726,7 @@ show-ranking = Uri posti fil-klassifika
 ## Custom Goals
 
 get-started-goals = Ibda oħloq l-għanijiet
-create-custom-goal = Oħloq Għan Għalik
+create-custom-goal = Oħloq għan għalik innifsek
 both-speak-and-listen = It-tnejn
 both-speak-and-listen-long = It-Tnejn (Tkellem u Isma')
 daily-goal = Għan ta' Kuljum
