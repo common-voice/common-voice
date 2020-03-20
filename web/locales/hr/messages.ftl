@@ -386,6 +386,10 @@ faq-what-cv-a =
     
     Ne prikupljamo samo uzorke glasova široko rasprostranjenih jezika, već i jezika s manjom populacijom govornika. Objavljivanje raznovrsnih podataka glasova, omogućit će programerima, poduzetnicima i zajednicama da se sami popune nedostatke. Pored skupa podataka Common Voice, također gradimo mehanizam za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
 faq-why-important-q = Zašto je to važno?
+faq-why-important-a =
+    Govor je često najprirodniji način na koji komuniciramo jedni s drugima, a pomoću govornih tehnologija ta se vrsta komunikacije uvodi i u naša računala i mobilne uređaje. Želimo pomoći programerima izgraditi nevjerojatne aplikacije za prepoznavanje govora, poput aplikacija za trenutno prevođenje i digitalnih pomoćnika koji omogućuju govor. Nažalost je većina trenutačno dostupnih govornih podataka potrebnih za izgradnju ovih vrsta aplikacija skupa i vlasnička. Nadamo se da će skup podataka Common Voice programerima pružiti ono što im je potrebno za inovaciju i izgradnju govorne tehnologije na svom jeziku.
+    
+    Da bismo prepoznavanje govora učinili još univerzalnijim, prikupljamo uzorke govora široko rasprostranjenih jezika kao i jezika s manjom populacijom govornika, koji često nedostaju u komercijalnim uslugama prepoznavanja govora. Objavljivanje raznovrsnih govornih podataka omogućit će programerima, poduzetnicima i čitavim govornim zajednicama da se sami popune nedostatke.
 faq-how-get-q = Kako mogu dobiti Common Voice podatke?
 faq-how-get-a = Common Voice podatke je moguće preuzeti pod <licenseLink>CC0</licenseLink> licencom na našoj <datasetLink>stranici skupova podataka</datasetLink>. S iste stranice mogu se preuzeti i drugi javno dostupni skupovi podataka.
 faq-when-release2-q = Kad ćete objaviti Common Voice podatke na drugim jezicima?
