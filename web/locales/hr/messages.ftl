@@ -418,6 +418,10 @@ faq-is-account-public-q = Jesu li podaci o računu javni?
 faq-how-privacy-q = Kako osiguravate anonimnost i privatnost ljudi koji su donirali svoj glas?
 faq-how-privacy-a = Svim glasovnim isječcima u skupu podataka brišu se osobni podaci. Kad doprinositelj daje demografske podatke putem svog profila, te se informacije uklanjaju iz njihovih glasovnih isječaka prije nego što se pakiraju za preuzimanje u skupu podataka i nikad se ne objavljuju na njihovoj stranici profila.
 faq-what-determine-identity-q = Što znači, da ne mogu „utvrditi identitet” govornika u skupu podataka Common Voice?
+faq-what-determine-identity-a =
+    Skup podataka Common Voice otvoren je i javno dostupan resurs, koji se može koristiti za učenje raznih programa koji omogućuju govor. Da bismo zaštitili sigurnost naših suradnika, molimo sve koji preuzmu skup podataka zajedničkog glasa, da poštuju privatnost suradnika.
+    
+    Svi osobni podaci glasovnih isječaka su izbrisani. Kad preuzmeš skup podataka, prihvaćaš da nećeš pokušati utvrditi identitet bilo kojeg suradnika. To znači, da ne možeš pokušati povezati podatke u skupu podataka s osobnim podacima suradnika. Međutim, možeš koristiti skup podataka za treniranje prepoznavanja govora, prepoznavanja govornika ili drugih aplikacija, tako što ćeš npr. povezati podatke u skupu podataka s drugim podacima koji se već nalaze u skupu podataka.
 faq-what-is-cv = Što je Common Voice?
 faq-using-cv = Common Voice upotreba
 faq-description = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom.
@@ -428,6 +432,9 @@ faq-search-for-answers =
 
 about-title = Zašto Common Voice?
 about-subtitle = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom. Pored skupa podataka Common Voice također gradimo program za prepoznavanje govora otvorenog koda, koji se zove Deep Speech.
+about-header-description =
+    Oba ova projekta dio su naših nastojanja da premostimo razliku digitalnog govora. Tehnologije prepoznavanja glasa donose ljudsku dimenziju na naše uređaje, ali programerima treba ogromna količina govornih podataka za izgradnju. Trenutačno je većina tih podataka skupa i vlasnička.
+    Želimo da glasovni podaci budu javno dostupni i osigurati, da ti podaci predstavljaju raznolikost stvarnih ljudi. Zajedno možemo poboljšati prepoznavanje glasa svima.
 how-does-it-work-title = Koji je način rada?
 how-does-it-work-text = Stvaramo skup podataka glasova otvorenog koda. Daj svoj glas, potvrdi točnost snimaka drugih ljudi, poboljšaj skup podataka za sve korisnike.
 about-speak = Govori
