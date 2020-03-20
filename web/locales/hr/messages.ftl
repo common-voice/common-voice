@@ -381,6 +381,10 @@ change-email-setings = Promijeni svoju e-adresu u postavkama, pod Identitet prij
 
 faq-title = Često postavljena pitanja
 faq-what-cv-q = Što je Common Voice?
+faq-what-cv-a =
+    Tehnologija prepoznavanja glasa revolucionira način na koji komuniciramo sa strojevima, ali trenutačno dostupni sustavi su skupi i vlasnički. Common Voice dio je Mozilline inicijative da tehnologija za prepoznavanje glasa bude bolja i dostupnija svima. Common Voice je ogromna globalna baza podataka darovanih glasova, koja svima omogućuje brzo i jednostavno treniranje glasovnih aplikacija na potencijalno svim jezicima.
+    
+    Ne prikupljamo samo uzorke glasova široko rasprostranjenih jezika, već i jezika s manjom populacijom govornika. Objavljivanje raznovrsnih podataka glasova, omogućit će programerima, poduzetnicima i zajednicama da se sami popune nedostatke. Pored skupa podataka Common Voice, također gradimo mehanizam za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
 faq-why-important-q = Zašto je to važno?
 faq-how-get-q = Kako mogu dobiti Common Voice podatke?
 faq-how-get-a = Common Voice podatke je moguće preuzeti pod <licenseLink>CC0</licenseLink> licencom na našoj <datasetLink>stranici skupova podataka</datasetLink>. S iste stranice mogu se preuzeti i drugi javno dostupni skupovi podataka.
