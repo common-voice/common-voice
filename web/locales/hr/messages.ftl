@@ -447,6 +447,11 @@ about-partnership =
     
     Zahvaljujemo sljedećim osobama i organizacijama za njihovu pomoć u projektu:
 about-get-involved = Uključite se
+about-get-involved-text-2 =
+    Želiš pomoći poboljšati Common Voice?
+    Sjajno! Stupi u kontakt putem e-pošte ili putem <discourseLink>foruma za diskutiranje</discourseLink>,
+    pošalji povratne informacije putem <githubLink>GitHub</githubLink> sustava,
+    ili nam se pridruži na društvenom chatu <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Zašto?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partneri
@@ -715,6 +720,7 @@ validated-clips = Potvrđeni isječci
 total-approved = Ukupno odobreno
 overall-accuracy = Ukupna točnost
 set-visibility = Postavi moju vidljivost
+visibility-explainer = Ova postavka kontrolira vidljivost tvoje ploče najboljih rezultata. Kad je skrivena, tvoj će napredak biti privatan. To znači da se tvoja slika, korisničko ime i napredak ne pojavljuju na ploči najboljih rezultata. Imaj na umu, da je za aktualiziranje ploče potrebno otprilike { $minutes } min.
 visibility-overlay-note = Napomena: Ako je postavljeno na „Vidljivo”, ta se postavka može promijeniti na <profileLink>stranici profila</profileLink>
 show-ranking = Pokaži moj rang
 
