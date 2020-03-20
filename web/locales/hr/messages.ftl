@@ -174,9 +174,9 @@ wall-of-text-start =
     Glas je prirodan, glas je ljudski. Zato smo fascinirani stvaranjem upotrebljive govorne tehnologije
     za naše strojeve. Ali za stvaranje govornih sustava, potrebne su iznimno velike količine snimljenog glasa.
 wall-of-text-more-mobile =
-    Većina podataka koje koriste velike tvrtke nije dostupna većini ljudi. Mi mislimo
-    da to guši inovaciju. Zato smo pokrenuli Common Voice projekt, projekt koji će pomoći učiniti
-    prepoznavanje glasa otvoreno svima.
+    Većina podataka koje velike tvrtke koriste nije dostupna većini ljudi. Mi smatramo da to
+    guši inovaciju. Zato smo pokrenuli projekt Common Voice, koji će svima pomoći koristiti
+    prepoznavanje govora.
 wall-of-text-more-desktop =
     Sada možeš donirati svoj glas i pomoći izgraditi govornu bazu podataka otvorenog koda, koju svatko može koristiti
     za izradu inovativnih programa za uređaje i web. Pročitaj rečenicu i pomogni učiti strojeve govoriti ljudskim jezikom.
@@ -185,9 +185,9 @@ wall-of-text-first =
     Glas je prirodan, glas je ljudski. Zato smo uzbuđeni stvaranjem upotrebljive govorne tehnologije
     za naše strojeve. Ali za stvaranje govornih sustava, razvijateljima su potrebne iznimno velike količine snimljenog glasa.
 wall-of-text-second =
-    Većina podataka koje koriste velike tvrtke nisu dostupni većini ljudi. Mi smatramo da to usporava
-    inovaciju. Stoga smo pokrenuli Common Voice, projekt koji pomaže u prepoznavanju glasa
-    i koji je svima dostupan.
+    Većina podataka koje velike tvrtke koriste nije dostupna većini ljudi. Mi smatramo da to
+    guši inovaciju. Zato smo pokrenuli projekt Common Voice, koji će svima pomoći koristiti
+    prepoznavanje govora.
 show-wall-of-text = Saznaj više
 help-us-title = Pomogni nam potvrditi rečenice!
 help-us-explain = Pokreni snimku, slušaj i reci nam: jesu li točno izgovorili dolje zadanu rečenicu?
@@ -323,9 +323,7 @@ female = Žensko
 # Gender
 other = Ostalo
 why-profile-title = Zašto profil?
-why-profile-text =
-    Davanjem nekih informacija o sebi, zvučni podaci koje pošaljete u Common Voice bit će korisniji programima za
-    prepoznavanje govora, koji koriste ove podatke za poboljšanje njihove točnosti.
+why-profile-text = Davanjem nekih podataka o sebi, zvučni podaci koje šalješ u Common Voice bit će korisniji mehanizmima za prepoznavanje govora, koji koriste ove podatke za poboljšanje njihove točnosti.
 dashboard = Nadzorna ploča
 build-profile = Kreirajte profil
 avatar = Avatar
@@ -382,9 +380,9 @@ change-email-setings = Promijeni svoju e-adresu u postavkama, pod Identitet prij
 faq-title = Često postavljena pitanja
 faq-what-cv-q = Što je Common Voice?
 faq-what-cv-a =
-    Tehnologija prepoznavanja glasa revolucionira način na koji komuniciramo sa strojevima, ali trenutačno dostupni sustavi su skupi i vlasnički. Common Voice dio je Mozilline inicijative da tehnologija za prepoznavanje glasa bude bolja i dostupnija svima. Common Voice je ogromna globalna baza podataka darovanih glasova, koja svima omogućuje brzo i jednostavno treniranje glasovnih aplikacija na potencijalno svim jezicima.
+    Tehnologija prepoznavanja govora revolucionira način na koji komuniciramo sa strojevima, ali trenutačno dostupni sustavi su skupi i vlasnički. Common Voice je dio Mozilline inicijative, da tehnologija za prepoznavanje govora bude bolja i dostupnija svima. Common Voice je ogromna globalna baza podataka darovanih glasova, koja svima omogućuje brzo i jednostavno treniranje govornih aplikacija na potencijalno svim jezicima.
     
-    Ne prikupljamo samo uzorke glasova široko rasprostranjenih jezika, već i jezika s manjom populacijom govornika. Objavljivanje raznovrsnih podataka glasova, omogućit će programerima, poduzetnicima i zajednicama da se sami popune nedostatke. Pored skupa podataka Common Voice, također gradimo mehanizam za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
+    Ne prikupljamo samo uzorke govora široko rasprostranjenih jezika, već i jezika s manjom populacijom govornika. Objavljivanje raznovrsnih podataka govora, omogućit će programerima, poduzetnicima i zajednicama, da se sami popune nedostatke. Pored skupa podataka Common Voice, također gradimo mehanizam za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
 faq-why-important-q = Zašto je to važno?
 faq-why-important-a =
     Govor je često najprirodniji način na koji komuniciramo jedni s drugima, a pomoću govornih tehnologija ta se vrsta komunikacije uvodi i u naša računala i mobilne uređaje. Želimo pomoći programerima izgraditi nevjerojatne aplikacije za prepoznavanje govora, poput aplikacija za trenutno prevođenje i digitalnih pomoćnika koji omogućuju govor. Nažalost je većina trenutačno dostupnih govornih podataka potrebnih za izgradnju ovih vrsta aplikacija skupa i vlasnička. Nadamo se da će skup podataka Common Voice programerima pružiti ono što im je potrebno za inovaciju i izgradnju govorne tehnologije na svom jeziku.
