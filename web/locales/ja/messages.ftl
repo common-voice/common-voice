@@ -369,7 +369,7 @@ faq-why-important-a =
 faq-how-get-q = Common Voice のデータはどうやって入手できますか？
 faq-how-get-a = Common Voice データセットは、<datasetLink>データセットページ</datasetLink>の <licenseLink>CC0</licenseLink> ライセンスに基づいてダウンロードできます。 同じページから他の公に利用可能なデータセットをダウンロードすることもできます。
 faq-when-release2-q = 他の言語の Common Voice データをいつリリースする予定ですか？
-faq-when-release2-a = Common Voice データセットの多言語バージョンは、現在、コミュニティがサポートするバンドリングとクリーニングを行っています。Common Voice を新しい言語に導入したい場合は、データセットに新しい文を追加するための <sentenceCollectorLink>Sentence Collection Tool</ sentenceCollectorLink>、およびウェブサイトを翻訳するための Mozilla <pontoonLink>Pontoon</ pontoonLink> をご覧ください。5000 個の承認された文が収集されると、音声投稿のために新しい言語が Common Voiceに追加されます。
+faq-when-release2-a = Common Voice データセットの多言語バージョンは、現在、コミュニティがサポートするバンドリングとクリーニングを行っています。Common Voice を新しい言語に導入したい場合は、データセットに新しい文を追加するための <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink>、およびウェブサイトを翻訳するための Mozilla <pontoonLink>Pontoon</pontoonLink> をご覧ください。5000 個の承認された文が収集されると、音声投稿のために新しい言語が Common Voiceに追加されます。
 faq-why-mission-q = Common Voice はなぜ Mozilla の使命の一部なのですか？
 faq-why-mission-a = Mozilla は、ウェブを開かれた、誰にでもアクセス可能なものであり続けることに力を注いでいます。私たちはこれを実現するため Common Voice のようなプロジェクトを通じてウェブクリエイターに協力していく必要があります。音声技術の普及とともに、すべてのユーザーに平等にサービスを提供していく必要があると信じています。音声技術を構築、テストするためにより多くの言語、アクセント、性別、年齢のデータが世の中で求められています。Common Voice は、誰もが利用できる公開リソースであり、世界中の Mozilla チームと開発者はすでに私たち自身のプロジェクトでもそれを使っています。
 faq-what-cv-and-deepspeech-q = Common Voice と Deep Speech の違いは何ですか？
@@ -380,10 +380,10 @@ faq-do-want-native-q = 私はネイティブスピーカーではなく、訛り
 faq-do-want-native-a = はい、私たちはあなたの声が特に欲しいのです！ Common Voice の目的の一部は、音声認識サービスがすべての人にとって等しくうまく機能するように、できるだけ多くの異なるアクセントを集めることです。これは、非ネイティブスピーカーからの寄付が特に重要であることを意味します。
 faq-why-different-speakers-q = なぜ言語ごとにそれほど多くの異なる話者が必要なのですか？
 faq-why-different-speakers-a =
-    ほとんどの音声データベースは、特定の人口統計を過剰に表現してトレーニングされているため、<articleLink>男性と中流階級</ articleLink>に偏っています。トレーニングデータセットで過小評価される傾向のあるアクセントと方言は、通常、すでに疎外されている人々のグループに関連付けられています。多くの機械も女性の声を理解するのに苦労しています。
+    ほとんどの音声データベースは、特定の人口統計を過剰に表現してトレーニングされているため、<articleLink>男性と中流階級</articleLink>に偏っています。トレーニングデータセットで過小評価される傾向のあるアクセントと方言は、通常、すでに疎外されている人々のグループに関連付けられています。多くの機械も女性の声を理解するのに苦労しています。
     これが、音声データベースに多様性が必要な理由です！
 faq-why-my-lang-q = 私の言語がまだ含まれていないのはなぜですか？
-faq-why-my-lang-new-a = Mozilla は、ある言語を別の言語よりも優先したり選び取ったりしません。Common Voice は純粋にコミュニティ主導のイニシアチブですから、<multilangLink>新しい言語を追加するいくつかの手順</ multilangLink>により、音声寄付の収集を開始します。まず、コミュニティメンバーが自分の言語で音声の寄付がアクセスできるように、Common Voice のウェブサイトを翻訳する必要があります。次に、人々が声に出して読むための、著作権フリーの文章の大規模なコレクションが必要です。これらの要件の両方が満たされると、共通の音声で言語が「起動」され、人々が音声を録音し、他の寄付を検証できるようになります。新しい言語の立ち上げを支援したい場合は、<sentenceCollectorLink>センテンスコレクションツール</ sentenceCollectorLink>にアクセスして開始してください。
+faq-why-my-lang-new-a = Mozilla は、ある言語を別の言語よりも優先したり選び取ったりしません。Common Voice は純粋にコミュニティ主導のイニシアチブですから、<multilangLink>新しい言語を追加するいくつかの手順</multilangLink>により、音声寄付の収集を開始します。まず、コミュニティメンバーが自分の言語で音声の寄付がアクセスできるように、Common Voice のウェブサイトを翻訳する必要があります。次に、人々が声に出して読むための、著作権フリーの文章の大規模なコレクションが必要です。これらの要件の両方が満たされると、共通の音声で言語が「起動」され、人々が音声を録音し、他の寄付を検証できるようになります。新しい言語の立ち上げを支援したい場合は、<sentenceCollectorLink>センテンスコレクションツール</sentenceCollectorLink>にアクセスして開始してください。
 faq-what-quality-q = 音声クリップをデータセットで使用するには、どの程度の音質が必要ですか？
 faq-what-quality-a = Common Voice データセットに音声認識エンジンで実際に聞こえる音声品質を反映させる必要があるため、私たちは様々な音声を探しています。話者の多様なコミュニティに加えて、様々な音声品質を持つデータセットは、音声認識エンジンに、周囲の会話から車の騒音まで、さまざまな現実の状況を処理するように教えます。あなたの音声クリップが理解できる限り、それはデータセットにとって十分であるべきです。
 faq-why-10k-hours-q = 音声をキャプチャーするために、言語ごとの目標として 1 万時間の検証が必要なのはなぜですか？
@@ -392,9 +392,9 @@ faq-how-calc-hours-q = Common Voice はどのように時間を計算します�
 faq-how-calc-hours-a = 各録音の平均長を推定し、その数字に全言語にわたる録音の合計数を掛けて時間を計算します。
 faq-where-src-from-2-q = 原文の出典はどこですか？
 faq-where-src-from-2-a =
-    ソーステキストは、元の寄稿者の寄付と、<italic>It's a Wonderful Life</ italic> などのパブリックドメインの映画の台本からの台詞で構成されています。
+    ソーステキストは、元の寄稿者の寄付と、<italic>It's a Wonderful Life</italic> などのパブリックドメインの映画の台本からの台詞で構成されています。
     
-    この <githubLink>GitHub フォルダー</ githubLink> でソーステキストを見ることができます。
+    この <githubLink>GitHub フォルダー</githubLink> でソーステキストを見ることができます。
 faq-why-not-ask-read-q = 書籍や Wikipedia の記事を他の言語で読むように求めないのはなぜですか？
 faq-why-not-ask-read-a = Common Voice データセットをできるだけ便利にするために、クリエイティブコモンズ（CC0）ライセンスの下で利用可能なソーステキストのみを許可することにしました。CC0 標準を使用することは、ソーステキストを見つけて収集することがより困難であることを意味しますが、使用制限や Mozilla からの承認なしで誰でも結果の音声データを使用することを可能にします。最終的には、多言語データセットを、研究者、大学、新興企業、政府機関、社会目的団体、および趣味専門家を含むすべての人にとってできるだけ役立つものにしたいと考えています。
 faq-why-account-q = アカウント登録する必要があるのはなぜですか？
@@ -531,7 +531,7 @@ validated-hours = 検証された時間
 recorded-hours = 録音された時間
 whats-inside = Common Voice データセットの中身は？
 dataset-description-hours =
-    データセットの各エントリーは、一意の MP3 と対応するテキストファイルで構成されます。データセットに記録された <b>{ $total }</ b> 時間の録音の多くには、年齢、性別、アクセントなどの人口統計メタデータも含まれており、音声認識エンジンの精度のトレーニングに役立ちます。
+    データセットの各エントリーは、一意の MP3 と対応するテキストファイルで構成されます。データセットに記録された <b>{ $total }</b> 時間の録音の多くには、年齢、性別、アクセントなどの人口統計メタデータも含まれており、音声認識エンジンの精度のトレーニングに役立ちます。
     
     現在のデータセットは、<b>{ $languages }</ b>言語の検証された <b>{ $valid }</ b> 時間の録音データで構成されていますが、音声と言語は常に追加されています。 <languagesLink>言語ページ</ languagesLink>をご覧になり、言語をリクエストするか、貢献を開始してください。
 want-dataset-update = Common Voice データセットの新しいバージョンがリリースされたときに更新したい方は、ニュースレターを購読してください。
@@ -539,8 +539,8 @@ subscribe = 購読
 get-started-speech = 音声認識を始める
 other-datasets = その他の音声データセット
 feedback-q = フィードバックの提供
-deepspeech-info = Common Voice データセットは、音声認識アプリケーションの構築に利用できる Mozilla のオープンソース音声認識エンジン Deep Speech を補完します。使い始める方法は、<githubLink>Github の概要</ githubLink>を読むか、<discourseLink>DeepSpeech Discourse</ discourseLink> をご覧ください。
-common-voice-info-new = Common Voice についての質問や、特定の言語に関する改善やフィードバックのアイデアをお持ちの方は、<discourseLink>Discourse フォーラム</ discourseLink>に参加してお知らせください。
+deepspeech-info = Common Voice データセットは、音声認識アプリケーションの構築に利用できる Mozilla のオープンソース音声認識エンジン Deep Speech を補完します。使い始める方法は、<githubLink>Github の概要</githubLink>を読むか、<discourseLink>DeepSpeech Discourse</discourseLink> をご覧ください。
+common-voice-info-new = Common Voice についての質問や、特定の言語に関する改善やフィードバックのアイデアをお持ちの方は、<discourseLink>Discourse フォーラム</discourseLink>に参加してお知らせください。
 data-other-librispeech-description = LibriSpeech は16Khzでおよそ1000時間、録音された英語音声のコーパスです。音声は LibriVox が公開しているオーディオブックを読み上げて録音しています。
 data-other-ted-name = TED-LIUM コーパス
 data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
