@@ -5,8 +5,6 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    display: flex;
-    align-items: center;
     height: var(--header-height);
     box-sizing: border-box;
     z-index: var(--top-z-index);
@@ -16,10 +14,9 @@ header {
     background: var(--white);
 
     @media (--lg-up) {
-        position: relative;
-        margin: 0 auto;
-        background: none;
-        max-width: var(--desktop-width);
+        position: fixed;
+        background-color: var(--white);
+        max-width: 100%;
         height: unset;
         flex-direction: row;
         align-items: center;
@@ -39,22 +36,6 @@ header {
 
     & .main-logo {
         margin-bottom: -3px;
-    }
-
-    & > * {
-        display: flex;
-        width: 100%;
-        height: 100%;
-
-        &:first-child {
-            justify-content: flex-start;
-            align-items: center;
-        }
-
-        &:last-child {
-            justify-content: flex-end;
-            align-items: center;
-        }
     }
 
     & .nav-links a {
@@ -410,6 +391,29 @@ header {
 
         &:last-child {
             border-bottom: 0;
+        }
+    }
+}
+.header-content-wrapper {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    @media (--lg-up) {
+        max-width: var(--desktop-width);
+    }
+    & > * {
+        display: flex;
+        width: 100%;
+        height: 100%;
+
+        &:first-child {
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        &:last-child {
+            justify-content: flex-end;
+            align-items: center;
         }
     }
 }

@@ -243,36 +243,38 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           ref={header => {
             this.header = header as HTMLElement;
           }}>
-          <div>
-            <Logo />
-            <Nav id="main-nav" />
-          </div>
-          <div>
-            {this.renderTallies()}
-            {user.account ? (
-              <UserMenu />
-            ) : isBuildingProfile ? null : (
-              <Localized id="login-signup">
-                <LinkButton className="login" href="/login" rounded outline />
-              </Localized>
-            )}
-            {LOCALES.length > 1 && (
-              <LocalizationSelect
-                locale={locale}
-                locales={LOCALES_WITH_NAMES}
-                onChange={this.selectLocale}
-              />
-            )}
-            <button
-              id="hamburger-menu"
-              onClick={this.toggleMenu}
-              className={isMenuVisible ? 'active' : ''}>
+          <div className="header-content-wrapper">
+            <div>
+              <Logo />
+              <Nav id="main-nav" />
+            </div>
+            <div>
+              {this.renderTallies()}
               {user.account ? (
-                <Avatar url={user.account.avatar_url} />
-              ) : (
-                <MenuIcon className={isMenuVisible ? 'active' : ''} />
+                <UserMenu />
+              ) : isBuildingProfile ? null : (
+                <Localized id="login-signup">
+                  <LinkButton className="login" href="/login" rounded outline />
+                </Localized>
               )}
-            </button>
+              {LOCALES.length > 1 && (
+                <LocalizationSelect
+                  locale={locale}
+                  locales={LOCALES_WITH_NAMES}
+                  onChange={this.selectLocale}
+                />
+              )}
+              <button
+                id="hamburger-menu"
+                onClick={this.toggleMenu}
+                className={isMenuVisible ? 'active' : ''}>
+                {user.account ? (
+                  <Avatar url={user.account.avatar_url} />
+                ) : (
+                  <MenuIcon className={isMenuVisible ? 'active' : ''} />
+                )}
+              </button>
+            </div>
           </div>
         </header>
         <div
