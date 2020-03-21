@@ -750,6 +750,7 @@ share-goal-type-listen = 聴く
 share-goal-type-both = 話すと聴く
 weekly-goal-created = 毎週の目標が作成されました
 daily-goal-created = 毎日の目標が作成されました
+track-progress = ここと統計ページで進捗状況を追跡します。
 return-to-edit-goal = ここに戻って、いつでも目標を編集できます。
 share-goal = 目標を共有する
 
