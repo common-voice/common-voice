@@ -4,6 +4,12 @@
     --vote-button-box-shadow: 0 5px 10px;
 }
 
+@media (max-width: 1024px){
+    .hidden-sm-down {
+        display: none;
+    }
+}
+
 .contribution.listen {
     & .instruction svg {
         max-height: 20px;
