@@ -378,7 +378,7 @@ faq-what-cv-q = ¿Qué ye Common Voice?
 faq-what-cv-a =
     La teunoloxía de la reconocencia de voz ta revolucionando'l mou col que interactuamos coles máquines pero los sistemes que tán disponibles anguaño son caros y privativos. Common Voice ye parte de la iniciativa de Mozilla pa facer que la reconocencia de voz seya meyor y más accesible pa tol mundu pente la donación de voces que nos permiten a toos entrenar fácilmente aplicaciones qu'usen la voz.
     
-    Nun recoyemos namái muestres de les llingües más falaes, sinón de les minorizaes tamién. L'espublizamientu d'un conxuntu de datos diversu va permitir a los desendolcadores, empresarios y comunidaes enteres que rellenen ellos solos esi güecu. Amás de Commonn Voice, tamién tamos creando Deep Speech que ye un motor de reconocencia de voz de códigu abiertu.
+    Nun recoyemos namás muestres de les llingües más falaes, sinón de les minorizaes tamién. L'espublizamientu d'un conxuntu de datos diversu va permitir a los desendolcadores, empresarios y comunidaes enteres que rellenen ellos solos esi güecu. Amás de Commonn Voice, tamién tamos creando Deep Speech que ye un motor de reconocencia de voz de códigu abiertu.
 faq-why-important-q = ¿Por qué ye importante?
 faq-why-important-a =
     Davezu, la fala ye'l mou más natural que tenemos los humanos pa comunicanos ente nós y les teunoloxíes de voz tán brindando esa posibilidá a los preseos informáticos. Queremos permitir que los desendolcadores creen aplicaciones de reconocencia de voz ablucantes como traductores en tiempu real y asistentes de voz, pero pel momentu la mayoría de datos de voz riquíos pa crear estes tribes d'aplicaciones son caros y privativos. Esperamos que'l conxuntu de datos de Common Voice forna a los desendolcadores lo que precisen pa que la teunoloxía de voz tea disponible na so llingua.
@@ -414,7 +414,7 @@ faq-where-src-from-2-a =
     
     Pues ver les frases d'orixe nesta <githubLink>carpeta de GitHub</githubLink>.
 faq-why-not-ask-read-q = ¿Por qué nun-y pidís a la xente que llea llibros o artículos de Wikipedia n'otres llingues?
-faq-why-not-ask-read-a = Pa facer que'l conxuntu de datos de Common Voice seya lo más útil posible, decidiemos permitir namái testos que tean disponibles so la llicencia Creative Commons (CC 0). Usar l'estándar CC 0 fai que seya más difícil alcontrar y recoyer testos d'orixe pero permite a cualesquiera usar los datos de voz resultantes ensin torgues d'usu o autorización de Mozilla. P'acabar, esti conxuntu de datos plurillingüe van poder usalu investigadores, universidaes, empreses, gobiernos, organizaciones, aficionaos... En resume, tol mundu.
+faq-why-not-ask-read-a = Pa facer que'l conxuntu de datos de Common Voice seya lo más útil posible, decidiemos permitir namás testos que tean disponibles so la llicencia Creative Commons (CC 0). Usar l'estándar CC 0 fai que seya más difícil alcontrar y recoyer testos d'orixe pero permite a cualesquiera usar los datos de voz resultantes ensin torgues d'usu o autorización de Mozilla. P'acabar, esti conxuntu de datos plurillingüe van poder usalu investigadores, universidaes, empreses, gobiernos, organizaciones, aficionaos... En resume, tol mundu.
 faq-why-account-q = ¿Por qué debería rexistrar una cuenta?
 faq-is-account-public-q = ¿La información de la mio cuenta ye pública?
 faq-how-privacy-q = ¿Cómo aseguráis l'anonimatu y privacidá de la xente que donó les sos voces?
