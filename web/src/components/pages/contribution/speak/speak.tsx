@@ -94,6 +94,7 @@ interface Props
 
 interface State {
   clips: SentenceRecording[];
+  clipUploaded: boolean;
   isSubmitted: boolean;
   error?: RecordingError | AudioError;
   recordingStatus: RecordingStatus;
@@ -104,6 +105,7 @@ interface State {
 
 const initialState: State = {
   clips: [],
+  clipUploaded: false,
   isSubmitted: false,
   error: null,
   recordingStatus: null,
@@ -444,6 +446,7 @@ class SpeakPage extends React.Component<Props, State> {
       async () => {
         trackRecording('submit', locale);
         refreshUser();
+        this.setState({ clipUploaded: true });
         addNotification(
           <React.Fragment>
             <CheckIcon />{' '}
@@ -495,10 +498,12 @@ class SpeakPage extends React.Component<Props, State> {
       rerecordIndex,
       showPrivacyModal,
       showDiscardModal,
+      clipUploaded,
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
     return (
       <React.Fragment>
+        {!clipUploaded && (
         <NavigationPrompt
           when={clips.filter(clip => clip.recording).length > 0}>
           {({ onConfirm, onCancel }: any) => (
@@ -515,9 +520,8 @@ class SpeakPage extends React.Component<Props, State> {
                     outline
                     rounded
                     className={getTrackClass('fs', 'exit-submit-clips')}
-                    onClick={() => {
-                      if (this.upload()) onConfirm();
-                      this.resetAndGoHome();
+                    onClick={ () => {
+                      this.upload();
                     }}
                   />
                 </Localized>
@@ -538,7 +542,7 @@ class SpeakPage extends React.Component<Props, State> {
               </Localized>
             </Modal>
           )}
-        </NavigationPrompt>
+        </NavigationPrompt>)}
         {showPrivacyModal && (
           <TermsModal
             onAgree={this.agreeToTerms}
