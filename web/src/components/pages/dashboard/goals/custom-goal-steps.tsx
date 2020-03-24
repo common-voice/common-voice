@@ -270,7 +270,7 @@ export default [
               <a
                 className="manage-subscriptions"
                 href={getManageSubscriptionURL(account)}
-                target="__blank"
+                target="_blank"
                 rel="noopener noreferrer">
                 <Localized id="manage-email-subscriptions">
                   <span />
