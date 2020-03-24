@@ -75,6 +75,7 @@ it = Italianu
 izh = Ingriu
 ja = Xaponés
 ka = Xeorxanu
+kaa = Karakalpakia
 kab = Cabilu
 kbd = Cabardianu
 kk = Kazaxu
@@ -83,6 +84,7 @@ kpv = Komi
 ku = Kurdu
 kw = Córnicu
 ky = Kirguís
+lg = Luganda
 lij = Ligur
 lt = Lituanu
 lv = Letón
@@ -459,15 +461,11 @@ about-partnership =
     
     Prestaríanos agradecer a les persones y organizaciones de darréu pola so ayuda col proyeutu:
 about-get-involved = Andecha
-about-get-involved-text =
-    ¿Quies ayudar a facer que Common Voice seya meyor?
-    ¡Xenial! Contauta con nós per corréu o <discourseLink>Discourse</discourseLink>, unvia comentarios per <githubLink>GitHub</githubLink> o xúnite
-    a nós en <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    ¿Quies ayudar a ameyorar Common Voice entá más?
-    ¡Xenial! Contauta per corréu o en <discourseLink>Discourse</discourseLink>,
-    unvia comentarios pente <githubLink>GitHub</githubLink>,
-    o xúnite a nós en <matrixLink>Matrix</matrixLink>.
+about-get-involved-text-2 =
+    ¿Quies ameyorar Common Voice entá más?
+    ¡Xenial! Contauta per corréu o foros de <discourseLink>Discourse</discourseLink>,
+    unvia problemes per <githubLink>GitHub</githubLink> o xúnite a la sala de
+    charra en <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = ¿Por qué?
 about-nav-how-it-works = ¿Cómo?
 about-nav-partners = Socios
