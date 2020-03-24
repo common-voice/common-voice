@@ -12,6 +12,7 @@ email-opt-in-info =
     Ningependa kupokea barua pepe kama ukumbusho wa lengo, sasisho zangu za maendeleo na 
     majarida kuhusu huduma za Common Voice.
 email-opt-in-info-title = Jiunge na orodha ya barua pepe ya Common Voice
+email-opt-in-info-sub-with-challenge = Pokea barua pepe kama vile ukumbusho wa changamoto na malengo, visasisho vya maendeleo, na jarida kuhusu Common Voice.
 indicates-required = * Inaashiria sehemu inayohitajika
 not-available-abbreviation = haihitajiki
 
