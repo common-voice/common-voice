@@ -60,11 +60,17 @@ const UnsupportedInfo = () => (
       <Localized id="record-platform-not-supported-desktop">
         <span />
       </Localized>
-      <a target="_blank" href="https://www.firefox.com/">
+      <a
+        target="_blank"
+        href="https://www.firefox.com/"
+        rel="noopener noreferrer">
         <FontIcon type="firefox" />
         Firefox
       </a>{' '}
-      <a target="_blank" href="https://www.google.com/chrome">
+      <a
+        target="_blank"
+        href="https://www.google.com/chrome"
+        rel="noopener noreferrer">
         <FontIcon type="chrome" />
         Chrome
       </a>
