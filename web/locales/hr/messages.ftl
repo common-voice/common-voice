@@ -401,6 +401,9 @@ faq-is-goal-assistant-a = Cilj Common Voice podataka je omogućiti bilo kome na 
 faq-do-want-native-q = Jezik mi nije materinski i govorim s naglaskom/narječjem, želite li ipak moj glas?
 faq-do-want-native-a = Da, naročito tvoj glas želimo! Dio cilja Common Voicea je sakupiti što više različitih narječja/naglaska, kako bi usluge prepoznavanja glasa jednako dobro funkcionirale za sve. To znači, da su donacije govornika, kojima jezik nije materinski, posebno važne.
 faq-why-different-speakers-q = Zašto vam je potrebno mnogo različitih govornika po jeziku?
+faq-why-different-speakers-a =
+    Većina govornih baza podataka obučena je s prekomjernom prezentacijom određenih demografskih podataka što rezultira pristranosti prema <articleLink>muškom rodu i srednjoj klasi</articleLink>. Akcenti i dijalekti koji su nedovoljno zastupljeni u skupovima podataka obično su povezani s skupinama ljudi koji su već marginalizirani. Mnogi se strojevi također bore razumjeti ženski glas.
+    To je razlog zašto u našoj govornoj bazi podataka želimo raznolikost!
 faq-why-my-lang-q = Zašto moj jezik još nije uključen?
 faq-why-my-lang-new-a = Mozilla ne favorizira niti jedan jezik nad drugim. Umjesto toga, Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovnih doprinosa. Najprije se Common Voice web stranica mora prevesti, kako bi joj članovi zajednice mogli pristupiti na materinskom jeziku. Nadalje nam je potrebna velika količina rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se jezik „lansira”, kako bi ljudi započeli snimati svoj glas i potvrđivati druge doprinose. Ako želiš pomoći započeti novi jezik, prijeđi na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>.
 faq-what-quality-q = Koja je kvaliteta zvuka potrebna za korištenje glasovnog isječka?
@@ -530,6 +533,12 @@ review-delete-recordings = Izbriši moje snimke
 ## Datasets Page
 
 datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu koristiti za podučavanje govornih programa.
+datasets-positioning =
+    Vjerujemo da će veliki, javno dostupni setovi podataka za govor potaknuti inovacije i zdravu tržišnu konkurenciju u govornoj tehnologiji utemeljenoj na strojnom učenju.
+    
+    Višejezični skup podataka Common Voice već je najveći javno dostupni glasovni skup podataka takve vrste, ali nije jedini.
+    
+    Pogledajte ovu stranicu kao referencu za druge skupove podataka s otvorenim kodom i, kako Common Voice i dalje raste, dom za naša ažurirana izdanja.
 language = Jezik
 # File size in gigabytes
 size = Veličina
