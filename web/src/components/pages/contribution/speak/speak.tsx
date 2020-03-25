@@ -63,7 +63,7 @@ const UnsupportedInfo = () => (
   <div className="empty-container">
     <div className="error-card card-dimensions unsupported">
       <Localized id="record-platform-not-supported" />
-      <p className="desktop" key="desktop">
+      <p className="desktop">
         <Localized id="record-platform-not-supported-desktop">
           <span />
         </Localized>
