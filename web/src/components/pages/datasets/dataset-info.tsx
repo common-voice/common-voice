@@ -201,6 +201,7 @@ class DatasetInfo extends React.Component<Props, State> {
             <div className="inner">
               <LabeledSelect
                 label={getString('language')}
+                name="bundle-locale"
                 value={bundleLocale}
                 onChange={(event: any) =>
                   this.setState({ bundleLocale: event.target.value })
