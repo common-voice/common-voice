@@ -12,6 +12,7 @@ email-opt-in-info =
     Ningependa kupokea barua pepe kama ukumbusho wa lengo, sasisho zangu za maendeleo na 
     majarida kuhusu huduma za Common Voice.
 email-opt-in-info-title = Jiunge na orodha ya barua pepe ya Common Voice
+email-opt-in-info-sub-with-challenge = Pokea barua pepe kama vile ukumbusho wa changamoto na malengo, visasisho vya maendeleo, na jarida kuhusu Common Voice.
 indicates-required = * Inaashiria sehemu inayohitajika
 not-available-abbreviation = haihitajiki
 
@@ -70,9 +71,12 @@ languages = Lugha
 about = Kuhusu
 help = Usaidizi
 contact = Wasiliana
+privacy = Faragha
 terms = Masharti
+cookies = Vidakuzi
 faq = Maswali Yanayoulizwa Sana
 content-license-text = Yaliyomo yapo chini ya leseni ya <licenseLink> Creative Commons </licenseLink>
+link-copied = Kiunga Imenakiliwa
 back-top = Rejea Mwanzoni
 logout = Toka
 
@@ -83,6 +87,8 @@ home-cta = Ongea sasa, changia hapa!
 show-wall-of-text = Soma mengineyo
 vote-yes = Ndio
 vote-no = La
+listen-subtitle = Tusaidie kuthibitisha sauti
+hours-recorded = masaa yaliyorekodiwa
 todays-progress = Maendeleo ya leo
 help-reach-goal = Tusaidie kufikia { $goal }
 read-terms-q = Je! Umesoma Masharti yetu?
@@ -122,6 +128,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = P
+shortcut-play-toggle-label = cheza/simamisha
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -139,10 +146,16 @@ shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
+status-contribute = changia sauti yako
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = lengo lijalo
 english = Kiingereza
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = lugha ya asili
 profile-form-accent =
     .label = Lafudhi
 profile-form-age =
@@ -150,6 +163,7 @@ profile-form-age =
 profile-form-gender =
     .label = Jinsia
 hidden = Imefichwa
+visible = inayoonekana
 native-language =
     .label = Lugha asili
 profile-form-submit-save = Hifadhi
@@ -164,9 +178,15 @@ accept-privacy-title = Sera ya Faragha
 login-signup = Ingia/Jisajili
 edit = Hariri
 retry-voice-wave-recording = jaribu tena
+delete-voice = futa
+add-language = ongeza lugha
 
 ## FAQ
 
+faq-what-cv-q = common voice ni nini?
+faq-why-important-q = kwanini hii ni ya umuhimu?
+faq-how-calc-hours-q = Common voice inahesabuje masaa?
+faq-using-cv = kutumia common voice
 
 ## ABOUT US
 

@@ -53,6 +53,7 @@ export default function SubscribeNewsletter() {
             <input
               className={email.length > 0 ? 'has-value' : ''}
               type="email"
+              name="email"
               value={email}
               onChange={event => {
                 setEmail(event.target.value);

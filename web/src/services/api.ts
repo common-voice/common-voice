@@ -33,10 +33,7 @@ interface Vote extends Event {
 const API_PATH = location.origin + '/api/v1';
 
 const getChallenge = (user: User.State): string => {
-  return user &&
-    user.account &&
-    user.account.enrollment &&
-    user.account.enrollment.challenge
+  return user?.account?.enrollment?.challenge
     ? user.account.enrollment.challenge
     : null;
 };

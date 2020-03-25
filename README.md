@@ -12,6 +12,8 @@ By participating in this project, you're agreeing to uphold the [Mozilla Communi
 
 ### Licensing and content source
 
+This repository is released under [MPL (Mozilla Public License) 2.0](LICENSE).
+
 The majority of our sentence text in `/server/data` comes directly from user submissions in our [Sentence Collector](https://github.com/Common-Voice/sentence-collector/) or they are scraped from Wikipedia using our [extractor tool](https://github.com/Common-Voice/common-voice-wiki-scraper), and are released under a [CC0 public domain Creative Commons license](https://creativecommons.org/share-your-work/public-domain/cc0/).
 
 Any files that follow the pattern `europarl-VERSION-LANG.txt` (such as [europarl-v7-de.txt](https://github.com/mozilla/voice-web/blob/master/server/data/de/europarl-v7-de.txt)) were extracted with our thanks from the [Europarl Corpus](http://www.statmt.org/europarl/), which features transcripts from proceedings in the European parliament.
