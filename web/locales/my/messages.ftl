@@ -23,7 +23,9 @@ not-available-abbreviation = မရနိုင်သေးပါ
 
 ab = အက်ဘ်ခါးဇ်
 ace = အာချေး
+ady = Adyghe
 af = အာဖရိက
+am = Amharic
 an = အာရဂွန်
 ar = အာရပ်
 as = အာသံ

@@ -18,6 +18,7 @@ export const GitHubLink = ({ dispatch, ...props }: SharedLinkProps) => {
     <a
       target="_blank"
       href="https://github.com/mozilla/voice-web"
+      rel="noopener noreferrer"
       onClick={() => trackGlobal('github', locale)}
       {...props}
     />
