@@ -531,9 +531,11 @@ class ContributionPage extends React.Component<Props, State> {
                 <Button
                   rounded
                   outline
-                  className={['skip', getTrackClass('fs', `skip-${type}`)].join(
-                    ' '
-                  )}
+                  className={[
+                    'skip',
+                    getTrackClass('fs', `skip-${type}`),
+                    'fs-ignore-rage-clicks',
+                  ].join(' ')}
                   disabled={!this.isLoaded}
                   onClick={onSkip}>
                   <Localized id="skip">
