@@ -104,7 +104,11 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
   }, []);
   useEffect(() => trackChallenge('dashboard-view'), []);
 
-  const isEnrolled = account?.enrollment?.team && account.enrollment.challenge;
+  const isEnrolled =
+    account &&
+    account.enrollment &&
+    account.enrollment.team &&
+    account.enrollment.challenge;
 
   return !isEnrolled ? (
     <Redirect to={URLS.DASHBOARD} /> // TODO: it shouldn't even try to fetch any challenge data in useEffect if not enrolled
@@ -124,7 +128,7 @@ function ChallengePage(props: Props & RouteComponentProps<any, any, any>) {
         />
       )}
       {weekly && <WeeklyChallenge weekly={weekly} />}
-      {account?.enrollment && (
+      {account && account.enrollment && (
         <div className={`range-container ${showOverlay ? 'has-overlay' : ''}`}>
           {showOverlay && <Overlay hideOverlay={() => setShowOverlay(false)} />}
           <div className="leader-board">

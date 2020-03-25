@@ -17,7 +17,6 @@
 "Lǧetta iwumi d-zzin" d tamezgunt n Kateb Yasin.
 "Mya iseggasen d tasuft" d ungal i yura umyaru akulumbi Gabriel Garcia Marquez.
 "S tezlit i d-senfalayeɣ iḥulfan, yis-s i ssutureɣ tumast."
-"Tbeεdeḍ fell-i" n Lusif.
 "Terẓeg n tament" d ammud n tullisin sɣur Malek Ḥud.
 "Tuɣac n ddkir", d yiwen n walbum n Ferḥat.
 "Uḥdiq, abhim d uqeṭṭaɛ", d asaru western.
@@ -6895,7 +6894,6 @@ Amawal-a εziz ɣur-neɣ.
 Amaway amazrar.
 Amayas la yettẓalla.
 Amayeg ufella, iteffeẓ ur yesseblaɛ.
-Amaynut deg ccna.
 Amaynut-a dɣa, d adlis n wawalen yemcubbken, neɣ n uẓeṭṭa n wawalen.
 Amazan ad yini belli amdan-nni yeṣfa.
 Amaziɣ si zik yeḥsa tameṭṭut d tayri, d ccbaḥa, d asirem, d tudert.
@@ -17918,7 +17916,6 @@ D yir lεebd i lliɣ.
 D yir lḥula.
 D yiwen i d-yeǧǧan leqdic meqqren u mazal yezmer ad yeqdec sya ar sdat.
 D yiwen i yumnen s umennuɣ ɣef tutlayt-is.
-D yiwen n ucennay ilemẓi i iḥemmlen ad yessuzen s tuɣac-is.
 D yiwen n umdan yettaṭṭafen dima deg wawal-is
 D yiwen n uqcic yettaɣen awal.
 D yiwen n uqcic yettsetḥin.
@@ -18678,7 +18675,6 @@ Deg snat n tmura yemgaraden.
 Deg ssuq i d-ttemlilin kra n yimdanen i d-yefka Rebbi.
 Deg ssuq i ttemlilin medden.
 Deg taddart n Tewrirt, ttawin-tt-id d amedya.
-Deg taddart n Tizi Ɛammer, taddart n unaẓur Ḥsisen, deg lɛerc n Bumahni taɣiwant n Draɛ Lmizan.
 Deg tallit n Nnisan i ssefruruxen yizerman.
 Deg tallit-nni, imselmen zlan i tmen-mya n Wudayen deg yiwen n yiḍ.
 Deg tallitin yezrin.
@@ -20441,7 +20437,6 @@ Gar yimelli d ufaṛeẓ.
 Gar Sidi-ɛic d Sedduq.
 Gar cwiṭ, d waṭas.
 Gar sin n yisegra tettawi tettara adida.
-Gar temsizelt n tmedyazt, timsikniyin, ameslay ɣef tmeddurt d umecawar n lal n tejmilt Anisa.
 Gar tizya-s d ddehb d ubriz.
 Gar tlawin-a ad naf: Faḍma n Summer.
 Gar tunṭiqin n snitra, gar tefyar n tira.
@@ -23042,7 +23037,6 @@ Imir-a, kullec yelha.
 Imir-a, kullec yeqwem.
 Imir-a, la cennuɣ.
 Imir-a, la nzerrew.
-Imir-a, la ssewwayeɣ.
 Imir-a, la ttazzalen.
 Imir-a, neẓra irkelli belli anagar tamettant i aɣ-yettganin.
 Imir-a, sel-d mliḥ.
@@ -23254,9 +23248,7 @@ Ini-as kullec i Meẓyan.
 Ini-as la ccucufeɣ.
 Ini-as la nehhṛeɣ.
 Ini-as la sleɣmayeɣ.
-Ini-as la tt-ttṛajuɣ.
 Ini-as la ttetteɣ.
-Ini-as la ttqeṣṣireɣ.
 Ini-as la ttxiḍiɣ.
 Ini-as la ttɛumuɣ.
 Ini-as la ttẓallaɣ.
@@ -23375,7 +23367,6 @@ Init-as i Yuba ḥemmleɣ-t.
 Init-as kan tidet.
 Init-as slan, ugin.
 Init-as yesleb neɣ yetlef.
-Init-as ẓriɣ anwa-tt.
 Init-as.
 Init-asen anwi d nekni.
 Init-asen aql-i da.
@@ -24349,7 +24340,6 @@ Iwacu tettaḍsaḍ?
 Iwacu tettgallaḍ?
 Iwacu tettruḍ a taεzizt?
 Iwacu teṭṭseḍ akken?
-Iwacu tfeqeɛeḍ akken?
 Iwacu tfeqeεeḍ akken?
 Iwacu theddnen akka merra?
 Iwacu tkecmeḍ ɣer lḥebs?
@@ -24435,7 +24425,6 @@ Iwet aqjun s uẓru.
 Iwet armi dayen kan.
 Iwet aεdaw s umeẓrag..
 Iwet udfel da ass-a.
-Iwet udfel deg udrar.
 Iwet-itt s zzemt.
 Iwet-itt yerna yiwen ur d-yenṭiq!
 Iwet-itt ɣer uɣrab.
@@ -24613,7 +24602,6 @@ Iyya-d ad neɛreḍ kra.
 Iyyamt ad tceḍḥemt!
 Iyyamt ɣer texxamt-iw.
 Iyyat-d ɣer beṛṛa.
-Iyyaw ad narut adlis.
 Iyyawet ɣer texxamt-iw.
 Izad deg-s lehlak.
 Izad usemmiḍ ass-a.
@@ -25410,11 +25398,9 @@ Jacques yezga yestufa.
 Jane seg Ustṛalya.
 Jane tedda ɣer Zwina.
 Jane tella trekkem.
-Jane tezweǧ meẓẓiyet.
 Jane ur tumin Tiziri.
 Jane ur twufeq Lwiza.
 Janeb tilufa eǧǧ abelluḍ i tsufa.
-Japun attan deg Asya.
 Japun d tamurt icebḥen.
 Japun-nni weḥd-s.
 Jban-d warraw n temɣart-nni, ruḥen-d ɣer Miḥyaf, nnan-as: Rebbi ad iɛin a Miḥyaf.
@@ -25434,7 +25420,6 @@ Jebdent-d izmamen.
 Jebdet.
 Jebdeɣ amrar, inhez udrar.
 Jebdeɣ iman-iw.
-Jebdeɣ-d timussniwin.
 Jeddel.
 Jeddi ad d-ismir zzit ɣer tdikelt n ufus-is azelmaḍ.
 Jeddi ilul-d, setti mazal.
@@ -25448,7 +25433,6 @@ Jeddi yexneq setti.
 Jeddi yeɣli yeṛṛez deg udrar ufud.
 Jeddi-s yella d aḥeffaf ɣer Iṛumiyen.
 Jegger.
-Jehden yiɣallen-nnes.
 Jehden.
 Jehdent.
 Jelleb s igenni, ad d-tuɣaleḍ ɣeṛ lqaɛa.
@@ -25479,7 +25463,6 @@ Jerḥent d idammen.
 Jerḥeɣ deg uḍar dɣa yeffeɣ-iyi-d uwles.
 Jerḥeɣ-k?
 Jerḥeɣ-kem?
-Jerḥeɣ-tt s tmeɛmada.
 Jeyyel iyuzaḍ-nni.
 Jeṛṛebeɣ ijajiḥen-ines.
 Jgugel.
@@ -25516,8 +25499,6 @@ Jjmeɣ-k.
 Jjmeɣ-t mliḥ.
 Jjmeɣ-t.
 Jlant tektiwin rewlent, uɣalent d tirga iɣaben.
-Jmeɛ tiɣawsiwin-nnek.
-Jmeɛ tiɣawsiwin-nnem.
 Jmeɛ tura tiɣenǧawin-nni.
 Jmeɛ waki!
 Jmeɛ-d aɣedluj-nni i tserdunt ad t-tečč.
@@ -25529,7 +25510,6 @@ Jmeɣ-k.
 Jmeɣ-kem.
 Jmiɛ netta d uxellaq.
 Joan melliḥ am uletma-s.
-John atan deg unafag.
 John yerẓa tazewwut.
 John yessenker Lwiza.
 Judy teḍsa fell-i.
@@ -25585,8 +25565,6 @@ Kecmemt-d s axxam!
 Kecmemt-d s axxam.
 Kecmemt-d.
 Kecmen yimariren s anrar, bdan tturaren.
-Kecmen ɣer teẓgi-nni.
-Kecmen ɣer tmezgida.
 Kecmen-d wat icumar deg tikli, dɣa ẓẓɛen-ten yimesbaniyen.
 Kecment akk.
 Kecment ɣer-s kraḍ n tefremliyin.
@@ -25656,7 +25634,6 @@ Kemm d tameḥbust-nteɣ.
 Kemm d tameṛkantit.
 Kemm d tameṭṭut-inu.
 Kemm d tameṭṭut.
-Kemm d taneglust-inu.
 Kemm d tanesbaɣurt.
 Kemm d tapandat.
 Kemm d taqcict kan.
@@ -25687,7 +25664,6 @@ Kemm seg lejwayeh-a?
 Kemm smurǧuḥ.
 Kemm tcebḥed aṭas.
 Kemm tcebḥeḍ aṭas.
-Kemm tekkateḍ apyanu.
 Kemm tesliḍ i waya?
 Kemm tessewwayeḍ s yisɣaren deg lkanun ma d nekni nessewway s lgaz.
 Kemm tesɛid aksum.
@@ -25697,10 +25673,8 @@ Kemm tettwaṛebbaḍ-d.
 Kemm tettxemmimeḍ kan ɣef teqbaylit.
 Kemm tfetleḍ seksu s yiffasen-im, ma d nekni nettaɣ-it-id si tḥanut.
 Kemm tɣileḍ selbeɣ?
-Kemm ur tettkeyyifeḍ.
 Kemm ur tgiḍ acemma.
 Kemm yid-i, nekk yid-m, ad nessebɣes iman-nneɣ.
-Kemm ɣezzifeḍ fell-i.
 Kemm ṛuḥ ma d nekk fiḥel.
 Kemmel abrid-ik.
 Kemmel abrid-im.
@@ -25801,7 +25775,6 @@ Kemzent.
 Kemzeɣ.
 Ken ad yeḍfer Tom.
 Ken iqerres ɣef Meẓyan.
-Ken iɛeyyen-as i Si Remḍan.
 Ken wezzil ɣef Yuba.
 Ken yecɣeb-it Tom.
 Ken yesla-as i Yuba.
@@ -25814,10 +25787,8 @@ Kennemti d taluft.
 Kennemti d tibehlulin!
 Kennemti d tibudiyin?
 Kennemti d timehtufin.
-Kennemti d tirusiyin?
 Kennemti d tiɛeggunin!
 Kennemti d tuǧǧal?
-Kennemti rqiqit aṭas.
 Kennemti seg yimal?
 Kennemti tqeflemt.
 Kennemti tqefzemt.
@@ -25834,12 +25805,9 @@ Kenwi d ifalkayen.
 Kenwi d ihuskayen.
 Kenwi d ikanadiyen?
 Kenwi d ikerkasen.
-Kenwi d imarikaniyen?
 Kenwi d imaynuten?
 Kenwi d imcumen!
-Kenwi d imeddukal-iw.
 Kenwi d imehtufen.
-Kenwi d imerkantiyen?
 Kenwi d imesluben.
 Kenwi d imezrawen?
 Kenwi d imeḥbas-nteɣ.
@@ -25864,7 +25832,6 @@ Kenwi d ungifen!
 Kenwi dima telluẓem!
 Kenwi mecṭuḥit aṭas.
 Kenwi rqiqit aṭas.
-Kenwi seg lejwayeh-a?
 Kenwi teskerkisem.
 Kenwi tesɛam imal.
 Kenwi tettḥadarem.
@@ -25936,22 +25903,16 @@ Kečč d amdakel-iw.
 Kečč d amehtuf!
 Kečč d amehtuf.
 Kečč d ameslub.
-Kečč d amezraw uẓwir.
 Kečč d amezzgar n lxiṛ.
 Kečč d ameɛdaz aṭas!
 Kečč d ameḥbus-nneɣ.
 Kečč d ameḥbus-nteɣ.
-Kečč d amidi n tidet.
-Kečč d amidi n wanwa?
 Kečč d amẓad neɣ d aṛeḥwi?
 Kečč d aneglus-inu.
-Kečč d anelmad uḥric.
 Kečč d apanda.
 Kečč d aqezzab!
 Kečč d aqjun.
 Kečč d aqziḥ.
-Kečč d argaz iǧehden.
-Kečč d argaz n tidet.
 Kečč d asaḍ-iw, a Sami.
 Kečč d asaḍ-iw.
 Kečč d aselmad neɣ ala?
@@ -25965,7 +25926,6 @@ Kečč d aḥric seg uɣbel.
 Kečč d aḥric seg uɣilif.
 Kečč d aṛumi.
 Kečč d bu sin wudmanwen.
-Kečč d ifker n tidet.
 Kečč d ilemẓi.
 Kečč d imseḍsi aṭas.
 Kečč d imsujji, naɣ?
@@ -25974,17 +25934,12 @@ Kečč d inebgi da.
 Kečč d itri-w, a Sami.
 Kečč d mmi-s n menhu?
 Kečč d taluft.
-Kečč d tidet d uḥdiq.
 Kečč d tizzya n mmi.
 Kečč d ungif!
-Kečč d uẓwir s tidet.
 Kečč daεdaw-iw.
 Kečč imir-a d argaz.
-Kečč mačči d ajapuni.
 Kečč mačči d baba.
-Kečč mačči d imsujji.
 Kečč mačči d win yemmuten.
-Kečč mačči n da, naɣ?
 Kečč mačči n da, neɣ?
 Kečč s timmad-ik ur teẓriḍ ara anda i tegreḍ iman-ik.
 Kečč seg Ustṛalya?
@@ -26025,8 +25980,6 @@ Keṛhen-t.
 Keṛhent Halloween.
 Keṛhent ibeɛɛucen.
 Keṛhent ilugan-nni.
-Keṛhent isaḍufen-nni.
-Keṛhent iḍan s tidet.
 Keṛhent timeɣriwin.
 Keṛheɣ Tom.
 Keṛheɣ ad tqellqeɣ.
@@ -26037,10 +25990,8 @@ Keṛheɣ axeddim-inu.
 Keṛheɣ axeddim.
 Keṛheɣ ddabex n uḍaṛ.
 Keṛheɣ ibugaṭuten.
-Keṛheɣ imawlan n Si Remḍan.
 Keṛheɣ inaragen-inu.
 Keṛheɣ lqahwa.
-Keṛheɣ tameddurt-inu.
 Keṛheɣ tasertit.
 Keṛheɣ taɣect-inu.
 Keṛheɣ taɣect-nnem.
@@ -26051,10 +26002,7 @@ Keṛheɣ tuɣac-nsen.
 Keṛheɣ tuɣac-nsent.
 Keṛheɣ tuɣac-nwen.
 Keṛheɣ tuɣac-nwent.
-Keṛheɣ ussan n unẓar.
 Keṛheɣ-t armi d adif.
-Keṛheɣ-t armi d iɣes.
-Keṛheɣ-t ula d netta.
 Keṛheɣ-t.
 Kfan lehdur gar-aneɣ, ul-iw si lǧiha-k nɣiɣ-t.
 Kfan lehduṛ di tayri.
@@ -26072,12 +26020,10 @@ Kifkif-iten meṛṛa medden.
 Kifkif-itent di leɛmeṛ.
 Kifkif.
 Kikeḍ.
-Kim tezdeɣ akked Ken.
 Kiɛad akka ihi, d nekk ara iruḥen ɣer ɣur-s.
 Kkan iḍ deg teftist.
 Kkan-d sɣur Umeɣlal, seg igenni.
 Kkant akin nnig lebɣi-nneɣ tlufa.
-Kkant iḍ deg teftist.
 Kkant-d seg Tasya.
 Kkaten akk ad d-cbun deg-s.
 Kkaten ɣef teqbaylit.
@@ -26125,7 +26071,6 @@ Kkes iɣemran-ik seg ṭṭabla.
 Kkes lukan, acu i d-iqqimen?
 Kkes taberriḍt-ik.
 Kkes tafyirt-nni.
-Kkes ugur i wul-nnek.
 Kkes-ak awal, rriɣ-ak tamment!
 Kkes-as axemmem, rnnu-as tayri.
 Kkes-as axemmem.
@@ -26136,7 +26081,6 @@ Kkes-itt.
 Kkes-iyi taɣawsa-ya!
 Kket-d tamurt meṛṛa, sendeht lbuq.
 Kkin deg warmud-a n usiḍen i d-yellan lqaɛ n wasif Ageryun.
-Kkiɣ dduṛt ɣer ɛemmi.
 Kkiɣ deg rreḥba n udlis i d-yellan deg Cmini.
 Kkiɣ-d seg imi n tlafsa.
 Kkrem ma ulac aɣilif.
@@ -26171,7 +26115,6 @@ Kkreɣ-d zik mliḥ.
 Kkreɣ-d zikk ass-a.
 Kkreɣ-d ɣer yiri ugaraw.
 Kksem aɣilif, d nekk ara t-ixedmen.
-Kksemt irkasen-nwent.
 Kksemt-t.
 Kksen sser kra n yemsulta ɣef kra n tlawin.
 Kksen-as llebsa-s dɣa sburren-as s tlaba tazeggaɣt.
@@ -26259,7 +26202,6 @@ Kra n umzuxxu deg-k!
 Kra n umzuxxu deg-s!
 Kra n uselkim!
 Kra n wadalen, gemmun umbeεed yettmettat lḥut-nni dinna.
-Kra n waman, ttxil-k.
 Kra n wass ad d-aɣeɣ tamacint-nni i d-ixeddmen acamar n jeddi.
 Kra n wass ad yi-tettuḍ.
 Kra n wayen ixeddem ufus-is, Ameɣlal isserbaḥ-it deg-s.
@@ -26353,7 +26295,6 @@ Kreɣ-d taṣebḥit ufiɣ-d sɛiɣ illeḍ, dɣa erriɣ-as zzit uzemmur.
 Kreɣ-d ṣbeḥ ufiɣ-d yessaɣ udeffel.
 Kreḍ.
 Kri.
-Kriɣ yiwet n texxamt.
 Kruffet.
 Krumt taxxamt-nni.
 Kseɣ-d idammen iwakken ad iẓer umejjay d acu helkeɣ.
@@ -26435,13 +26376,10 @@ Kullec mellul.
 Kullec yebna ɣef ddin.
 Kullec yefra.
 Kullec yelha imir-a.
-Kullec yelha, imir-a.
-Kullec yeqwem imir-a.
 Kullec yesɛa iswi.
 Kullec yesɛa talast.
 Kullec yesɛa tazwara d taggara.
 Kullec yesɛa tazwara.
-Kullec yettaru-t Si Remḍan.
 Kullec yettaru-t Tom.
 Kullec yettbeddil.
 Kullec yuɣal d iɣed.
@@ -26462,14 +26400,9 @@ Kunwi truḥem d iɣyal deffir izgaren.
 Kunwi yecnan di tallit ideg tettwagdel teqbaylit, amek tettwaliḍ imal n tmaziɣt di tmurt n Lezzayer?
 Kwu.
 La ak-d-qqareɣ, kker-d zik azekka.
-La ak-d-teɣɣar Julia.
-La ak-d-yeɣɣar yiwen.
 La ak-n-selleɣ mliḥ.
-La ak-tent-sseɛraqeɣ?
 La akent-selleɣ mliḥ.
-La am-d-teɣɣar Julia.
 La am-n-selleɣ mliḥ.
-La am-tent-sseɛraqeɣ?
 La as-ɣɣareɣ i baba.
 La as-ɣɣareɣ i gma.
 La awen-selleɣ mliḥ.
@@ -26478,7 +26411,6 @@ La bab la tabburt.
 La bennun abrid-a.
 La cennuɣ s tmaziɣt.
 La d-ijemmeɛ isefka.
-La d-ikellu tafelwit.
 La d-irebbeḥ akud.
 La d-irennu sɣur-s.
 La d-itteddu yiwen.
@@ -26487,18 +26419,14 @@ La d-nessewway atay.
 La d-qelluɣ iselman.
 La d-qqaren tezweǧ.
 La d-qqaṛen d adfel.
-La d-rennun sɣur-sen.
 La d-sserkameɣ aman.
 La d-ssewwayen atay.
 La d-ssewwayeɣ atay.
-La d-ssewwayeɣ aɣrum.
 La d-ssunuɣeɣ agḍiḍ.
 La d-ssuquleɣ.
 La d-tessewway atay.
 La d-tessurrutemt?
 La d-tettecrurud am tsekkurt.
-La d-tetteddu ɣer da?
-La d-tetteddum ɣer-i?
 La d-tettmuqquled.
 La d-tettmuqqulem.
 La d-tettmuqqulemt.
@@ -26508,7 +26436,6 @@ La d-trennu sɣur-s.
 La d-ttawḍent.
 La d-ttbanen yitran.
 La d-tteddun ɣer da?
-La d-tteddunt ɣer da?
 La d-ttlalent ddaw iḍuḍan-is
 La d-ttnadiɣ atriku.
 La d-yekkat udfel.
@@ -26517,21 +26444,17 @@ La d-yettban yerfa.
 La d-yettban yexṣer.
 La d-yettban yeɛya.
 La d-yetteddu Sami.
-La d-yetteddu usakal.
-La d-yetteddu ɣer da?
 La d-yettqerrib Meẓyan.
 La d-yettsuḍu waḍu.
 La d-ḥekkuɣ taḥkayt.
 La felluɣ tawwurt.
 La ferrseɣ urti-inu.
-La gezzmeɣ aksum-nni.
 La heddṛeɣ i yiman-iw.
 La heddṛeɣ weḥd-i.
 La iberren am uẓṛem di lkanun.
 La icerreḍ awezɣi deg win ur nesɛi.
 La iceṭṭeḥ, la yettɣenni i yiman-is ddaw tili.
 La iferren anzaren-is.
-La ikellu axxam-nnes.
 La ileḥḥu, tikli n lmegtin.
 La ileḥḥu.
 La imegger ddaɛwessu.
@@ -26553,14 +26476,12 @@ La iyi-tesserfayemt!
 La iyi-tessewhamem.
 La iyi-tessewhamemt.
 La iyi-tettdemmirem.
-La iyi-tettdemmiremt.
 La iyi-tettnadi?
 La iyi-tettnadiḍ?
 La iyi-tsellem akk?
 La iyi-ttnadint?
 La iyi-yettnadi?
 La izehher uydi-nni.
-La izehher yizem-nni.
 La izerrew imir-a?
 La izerrew tasnajya.
 La izerreɛ lǧuheṛ i tyuzaḍ.
@@ -26600,7 +26521,6 @@ La nesserwat azeggar ḥafi.
 La nesserwat irden.
 La nessirid iqbac.
 La nessway tibḥirt.
-La nettelles akraren.
 La nettmuqqul kan.
 La nettnadi axeddim.
 La nettwali.
@@ -26611,7 +26531,6 @@ La nlemmed tacinwat.
 La nleḥḥu deg uzal, newḥec.
 La nteddu ar tmesgida.
 La nzerrew imir-a.
-La nɛerreḍ ad nɛawen.
 La nɣelleq taḥanut.
 La qqareɣ adlis-nni.
 La qqareɣ tafarsit.
@@ -26625,7 +26544,6 @@ La qqaṛeɣ aḍris-nni.
 La qqaṛeɣ idlisen-agi.
 La qqaṛeɣ tafarsit.
 La qqaṛeɣ.
-La rennuɣ deg lmizan.
 La rewwiɣ usu-inu.
 La rewwlen fell-i.
 La rewwlent fell-i.
@@ -26636,44 +26554,34 @@ La selleɣ i taḍsa.
 La selleɣ i uẓawan.
 La setteɣ taḍeffut.
 La sfuǧǧuɣent kan.
-La skerkisen fell-aɣ.
 La skerkisen fell-i.
 La skerkisent akk.
-La skerkisent fell-i.
 La skerkisent wallen-ik.
 La skerkisent wallen-im.
 La skerkisent wallen-nwen.
 La skiddibent wallen-ik.
 La skiddibent wallen-im.
 La skiddibent wallen-nwen.
-La smejgareɣ anemhal.
 La sneɣseɣ anect tesseɣ.
 La sraḥayeɣ idammen.
 La sraḥayeɣ taɣlust.
-La ssakaleɣ s usafag.
 La ssawalen fell-ak.
 La ssawalen fell-am.
-La ssawalent fell-ak.
-La ssawalent fell-am.
 La ssawaleɣ yid-k!
 La ssawaleɣ yid-m!
 La ssefsayen iɣir.
 La ssefsayent iɣir.
 La sseglafen yiḍan.
-La sseqdaceɣ aselkim.
 La sseqsayeɣ baba.
-La sserwaleɣ iẓiwcen.
 La sserwaten irden.
 La sserwatent irden.
 La sserwateɣ irden.
 La ssewwayeɣ imekli.
 La ssewwayeɣ imir-a.
-La sseḥmayeɣ taxxamt.
 La ssiriden ifassen-nsen.
 La ssiriden iqbac.
 La ssirident iqbac.
 La ssirideɣ iqbac.
-La ssizdigeɣ tanwalt.
 La ssuṭṭuḍeɣ yelli.
 La sswayen tibḥirt.
 La sswayent tibḥirt.
@@ -26720,30 +26628,22 @@ La teqqaṛ.
 La tesgar tayet-iw.
 La teskerkis fell-i.
 La teskerkiseḍ, naɣ?
-La tesmesxirem yes-i.
 La tesraḥayed aya?
 La tesraḥayem aya?
 La tesraḥayemt aya?
-La tesrugmut tfunast.
 La tessafay awren akken ad fetlent seksu.
 La tessaggaded Yuba.
 La tessaggadem Yuba.
 La tessaggademt Meẓyan.
 La tessawal fell-ak.
 La tessawal fell-am.
-La tessawalem am Eco.
-La tesseflademt mliḥ?
 La tessefsay iɣir.
 La tesserwat irden.
-La tesserwatem irden.
-La tesserwateḍ irden.
 La tessewway imensi.
 La tessirid iqbac.
 La tessiridem iqbac.
-La tessiridemt iqbac.
 La tessirideḍ iqbac.
 La tessutur awezɣi.
-La tessuturem awezɣi.
 La tessway tibḥirt.
 La tetkeɛrirem fell-i?
 La tetkeɛriremt fell-i?
@@ -26752,14 +26652,11 @@ La tetmenyikem yes-i?
 La tetmenyikemt yes-i?
 La tetmenyikeḍ yes-i?
 La tettargum tafsut!
-La tettargumt tafsut!
-La tettaru s tmaziɣt.
 La tetteddu imir-a?
 La tetteddum s zzerb.
 La tetteddumt s zzerb.
 La tettedduḍ s zzerb.
 La tetteg tasengama.
-La tettelles akraren.
 La tettemlelluyed.
 La tettemlelluyem.
 La tettemlelluyemt.
@@ -26776,7 +26673,6 @@ La tettnadi axeddim.
 La tettnadi, la treffed, la tettɛebbi, la tgerrew, la tettawi.
 La tettneqlab am tata.
 La tettqejjimeḍ fell-i.
-La tetturareḍ fell-i?
 La tettwalid adlis?
 La tettwaliḍ wigi yellan ddeffir-m akk sɛan iɣeblan.
 La tettɛekkim fell-i?
@@ -26784,11 +26680,8 @@ La tettɛekkimt fell-i?
 La tettɣawal Linda?
 La tettḍafar agal.
 La tettḍeyyiɛ akud.
-La tettḍeyyiɛem akud.
-La tettḍeyyiɛeḍ akud.
 La tettṛaju tiririt.
 La tettṛajum asakal?
-La tettṛajumt asakal?
 La tettṛajuḍ albaɛḍ?
 La tettṛaǧumt Tom?
 La tferres tiɣrasin.
@@ -26806,7 +26699,6 @@ La trewwel fell-i.
 La tselled i waya?
 La tsellemt i kra?
 La tt-teqqarem, naɣ?
-La tt-teqqaremt, naɣ?
 La tt-teqqareḍ, naɣ?
 La tt-tettnadi?
 La tt-tettnadim?
@@ -26821,18 +26713,14 @@ La ttafgen yiferṭeṭṭa.
 La ttalyeɣ isunan.
 La ttarunt tabṛat?
 La ttaruɣ amagrad.
-La ttaruɣ s tjapunit?
 La ttazzalen imir-a.
 La ttazzalen ḥafi.
 La ttazzaleɣ.
 La ttaḍsaɣ fell-ak.
 La ttaḍsaɣ ɣef Yuba.
 La tteddun ad ffɣen?
-La tteddun ad zewǧen.
-La tteddun ɣer teẓgi.
 La tteddunt lumuṛ?
 La ttellsen akraren.
-La ttellsent akraren.
 La ttellseɣ akraren.
 La ttesseɣ akeffay.
 La ttesseɣ ayefki.
@@ -26843,10 +26731,8 @@ La ttetteɣ ccikula.
 La ttetteɣ imekli.
 La ttetteɣ imir-a.
 La ttetteɣ tabanant.
-La ttetteɣ tisfenjet.
 La tteẓẓmeɣ tacinat.
 La tteẓẓuɣ tacinat.
-La ttfeǧǧiǧen yitran.
 La ttfuḥun waman-a.
 La ttgen tasengama.
 La ttgent tasengama.
@@ -26854,14 +26740,11 @@ La ttgeɣ aɣanen-inu.
 La ttlusuɣ iceṭṭiḍen-iw.
 La ttmahaleɣ yid-k.
 La ttmahaleɣ yid-m.
-La ttmeslayeɣ weḥd-i.
 La ttnadin axeddim.
 La ttnadint axeddim.
 La ttnadiɣ amahil.
 La ttnadiɣ fell-as.
 La ttnadiɣ ɣef gma.
-La ttnadiɣ ɣef yiwen.
-La ttnadiɣ ɣef yiẓra.
 La ttnaqameɣ weltma.
 La ttqejjimen fell-ak.
 La ttqejjimen fell-akent.
@@ -26871,7 +26754,6 @@ La ttqejjiment fell-ak.
 La ttqejjiment fell-akent.
 La ttqejjiment fell-am.
 La ttqejjiment fell-awen.
-La ttqellibeɣ amahil.
 La ttqellibeɣ gma.
 La ttqeṣṣireɣ kan!
 La ttqeṣṣireɣ kan.
@@ -26884,7 +26766,6 @@ La tturaren s udfel.
 La ttwaliɣ aydi-nni.
 La ttwaliɣ itri-nni.
 La ttwaliɣ tiliẓri.
-La ttɛanadeɣ aselway.
 La ttɛawaneɣ jeddi.
 La ttɣenniɣ yecbeḥ yiles-iw.
 La ttḍafareɣ agal.
@@ -26920,20 +26801,15 @@ La yettalel baba-s.
 La yettazzal wakud.
 La yetteddu imir-a?
 La yetteg tasengama.
-La yettelles akraren.
 La yettess akeffay.
 La yettfuḥu s tidet.
 La yettiɣzif wass.
 La yettmettat uqjun-nni.
 La yettnadi amahil.
 La yettnadi axeddim.
-La yettneffis s lḥif.
 La yettqeṣṣiṛ Tom?
-La yettraḥ nnefs-inu.
 La yettru Meẓyan. Ẓriɣ.
-La yettru ulufan-nni.
 La yetturar s tmes.
-La yettuzur wagu-nni.
 La yettwali tiliẓri.
 La yettḍeyyiɛ akud.
 La yettḥuǧǧu gar yiẓekwan.
@@ -26962,7 +26838,6 @@ La ɣ-ttnadin?
 La ɣ-ttnadint?
 La ɣ-yettnadi?
 La ɣellqeɣ agaṛaj.
-La ɣɣareɣ i temsulta.
 La εeṣreɣ de ul meskin.
 La ḥekkuɣ i gma taluft, yeqqar acḥal i tesɛiḍ.
 La ḥekkuɣ i gma taluft, yeqqar acḥal tesɛiḍ.
@@ -27068,8 +26943,6 @@ Layas d win ur nettfukku.
 Layas yesderɣil.
 Layat i d-yusan i Muḥemmed di Lmadina ččurent d takriṭ.
 Layes ad tt-id-ittemuqul.
-Layla attan s tadist.
-Layla d Tafalesṭinit.
 Layla d Tamalizit.
 Layla d Taǧibutit.
 Layla d tamattakt.
@@ -27582,7 +27455,6 @@ Liɣ aydi.
 Liɣ imru.
 Liɣ lecɣal ara geɣ.
 Liɣ lḥeqq, neɣ uhu?
-Liɣ tawlaft n unafag.
 Liɣ tlata n yiḍan.
 Liɣ ugur deg waya.
 Liɣ yiwen n memmi.
@@ -27646,7 +27518,6 @@ Llan reggmen medden.
 Llan reglen abrid.
 Llan rennun tifyar.
 Llan rewwlen ɣef Si Remḍan.
-Llan sebbɣen-d axxam.
 Llan sellḍen igmaḍ.
 Llan sin n yiεeṭṭaren akken kan i ddukkulen.
 Llan sin neɣ kraḍ n yimra ɣef tnarit.
@@ -27669,39 +27540,26 @@ Llan ttaggaden-kem.
 Llan ttargun tafsut.
 Llan ttarran tiyita.
 Llan ttazzalen aṭas.
-Llan ttaẓen ɣer sdat.
-Llan tteddun ɣer din.
 Llan tteggzen-kem.
 Llan tteggzen-ken.
 Llan tteggzen-kent.
 Llan ttejjmen-iyi.
-Llan ttekken i tlisa.
 Llan ttemlelluyen.
-Llan ttemsegzun mliḥ.
 Llan ttemyenbacen.
 Llan ttemyexzaren.
 Llan ttemɛetnayen.
 Llan ttemɛujjuten.
 Llan ttenkaren zik.
 Llan ttetten aṭas.
-Llan ttgen aɣan-nsen.
-Llan ttgen tasestant.
 Llan ttgurruɛen-d.
-Llan ttkeyyifen aṭas.
 Llan ttmahalen da.
 Llan ttmahalen din.
 Llan ttmeskikkiḍen.
-Llan ttqadaren-t akk.
 Llan ttqerriben-d.
 Llan ttrun fell-as.
-Llan ttwalin tiliẓri.
 Llan ttwaɛettaben.
-Llan ttɛebbin sselɛa.
-Llan ttḍeyyiɛen akud.
-Llan ttṣerrifen aṭas.
 Llan tura yilemẓiyen ur nessin d acu d tidnect.
 Llan ufan iman-nsen.
-Llan uwḍen-d i zzwaj.
 Llan waman deg lkas-a.
 Llan waman deg yal amḍiq.
 Llan waman n wasif.
@@ -27760,7 +27618,6 @@ Llant beddunt zik.
 Llant bezgent.
 Llant caṭent.
 Llant ceffunt mliḥ.
-Llant d Tibriṭaniyin.
 Llant d tiserdasin.
 Llant da.
 Llant deg aṭas yid-sent.
@@ -27773,19 +27630,14 @@ Llant deg yal amkan.
 Llant deg yal ideg!
 Llant dinna yid-s?
 Llant feṛḥent aṭas.
-Llant kkatent apyanu.
 Llant kra n layat deg Leqran i ixuṣṣen deg tmeẓla.
 Llant kra n tuccḍiwin.
 Llant kra n tɣawsiwin ur ilaq ara ad nemmeslay fell-asent.
 Llant kraḍ n temsal.
 Llant lxalat, llant lxelyat.
 Llant qqiment din.
-Llant regglent abduz.
-Llant regglent abrid.
 Llant reglent abrid.
-Llant rennunt tifyar.
 Llant sekṛent mliḥ.
-Llant sellḍent igmaḍ.
 Llant sɛant amcic.
 Llant sɛant lḥeqq.
 Llant teftilin ur ilaq ara ad ceɛlent deg yiḍ, akken win i d-iteddun ad isekked sdat-s.
@@ -27805,7 +27657,6 @@ Llant ttemyexzarent.
 Llant ttemɛawanent.
 Llant ttemɛetnayent.
 Llant ttemɣanzunt.
-Llant ttenkarent zik.
 Llant ttettixirent.
 Llant tteḥdiqirent.
 Llant ttfunzurent.
@@ -27814,9 +27665,7 @@ Llant ttgurruɛent-d.
 Llant ttkemmilent.
 Llant ttkeyyifent.
 Llant ttmahalent da.
-Llant ttmahalent din.
 Llant ttmerriḥent.
-Llant ttmeskikkiḍent.
 Llant ttmuqqulent.
 Llant ttnuddument.
 Llant ttqerribent-d.
@@ -27840,7 +27689,6 @@ Llant yid-i deg texxamt-a, kra yekka yiḍ.
 Llant yid-i deg texxamt-nni, kra yekka yiḍ.
 Llant zedɣent din.
 Llant ɛerqent-iyi akk.
-Llant ɛyant deg snat.
 Llant ɣelqent tewwura.
 Llant ḥemmlent Lwiza.
 Llant ḥemmlent Yuba.
@@ -27875,7 +27723,6 @@ Lliɣ am win i jebden waman ɣer lqaɛ n yilel.
 Lliɣ annect-ik.
 Lliɣ annect-im.
 Lliɣ annect-nwen.
-Lliɣ beddreɣ-d izmaz.
 Lliɣ berruɣ i usirem.
 Lliɣ bniɣ ɣef waya!
 Lliɣ bɣiɣ ad k-nɣeɣ.
@@ -27899,8 +27746,6 @@ Lliɣ cfiɣ.
 Lliɣ d abeṛṛani, testeṛeḥbem yis-i.
 Lliɣ d abeṛṛani, ur testeṛḥbem ara yes-i.
 Lliɣ d ameẓyan aṭas.
-Lliɣ d aqcic ijehlen.
-Lliɣ d aselmad n Si Remḍan.
 Lliɣ d nneyya.
 Lliɣ d tajdidt.
 Lliɣ d tamaynut.
@@ -27922,13 +27767,10 @@ Lliɣ dinna iḍelli.
 Lliɣ dinna, daɣen.
 Lliɣ faqeɣ d aweḥdi.
 Lliɣ ferrseɣ isekla.
-Lliɣ ferrseɣ tibḥirt.
 Lliɣ fessiɣ amutur.
 Lliɣ feṛḥeɣ s Tom.
 Lliɣ feṛḥeɣ.
 Lliɣ fkiɣ laman.
-Lliɣ gemmreɣ iselman.
-Lliɣ ggareɣ-d nnhati.
 Lliɣ heggaɣ-asen.
 Lliɣ heggaɣ-asent.
 Lliɣ helkeɣ, lliɣ di lḥebs, ur d-terzim ara fell-i.
@@ -27945,20 +27787,17 @@ Lliɣ la ken-ttṛajuɣ.
 Lliɣ la ttergigiɣ.
 Lliɣ la ttṛajuɣ Meẓyan.
 Lliɣ lemmdeɣ Leqran.
-Lliɣ leqqḍeɣ azemmur.
 Lliɣ leɛɛbeɣ.
 Lliɣ leḥḥuɣ deg tesdawit akken nummeɣ.
 Lliɣ lsiɣ akerbas.
 Lliɣ meẓẓiyeɣ imir.
 Lliɣ mmuteɣ seg laẓ.
-Lliɣ nehhṛeɣ akamyun.
 Lliɣ nnefsusiɣ.
 Lliɣ nwiɣ ad d-taseḍ.
 Lliɣ qebbleɣ isefka.
 Lliɣ qerbeɣ ɣer-s.
 Lliɣ qqareɣ di tesnawit, asmi iɣallen n laman usan-d ad aɣ-ḥebsen akked waṭas n yimeddukkal.
 Lliɣ qqareɣ idlisen.
-Lliɣ qqareɣ talmanit.
 Lliɣ qqareɣ tidet.
 Lliɣ qqareɣ ungalen.
 Lliɣ qqareɣ-as wissen amek tga tin i y-iketben.
@@ -27970,12 +27809,10 @@ Lliɣ reggmeɣ medden.
 Lliɣ regleɣ abrid.
 Lliɣ rekkbeɣ ayis.
 Lliɣ rennuɣ tifyar.
-Lliɣ rezzuɣ ɣef jida.
 Lliɣ rfiɣ ass-nni.
 Lliɣ riɣ Ustṛalya.
 Lliɣ riɣ amɣar-nni.
 Lliɣ riɣ aydi-nni.
-Lliɣ sebbɣeɣ-d axxam.
 Lliɣ sekṛeɣ.
 Lliɣ selleɣ i kullec.
 Lliɣ selleɣ i tuɣac.
@@ -27993,14 +27830,10 @@ Lliɣ ssawaleɣ yid-m.
 Lliɣ ssaɣeɣ-d aɣmis.
 Lliɣ ssaɣeɣ-d aɣrum.
 Lliɣ ssirideɣ iqbac.
-Lliɣ ssizdigeɣ axxam.
 Lliɣ ssneɣ ad aruɣ.
-Lliɣ ssneɣ ad ceḍḥeɣ.
 Lliɣ ssneɣ agemmay.
 Lliɣ ssuffuɣeɣ aydi.
 Lliɣ ssunuɣeɣ.
-Lliɣ ssuṭṭuḍeɣ yelli.
-Lliɣ sswayeɣ tibḥirt.
 Lliɣ sɛiɣ asirem ad nɛawed ad nemlil.
 Lliɣ sɛiɣ ifadden.
 Lliɣ sɛiɣ tamdakelt.
@@ -28023,12 +27856,9 @@ Lliɣ ttamneɣ kan.
 Lliɣ ttarguɣ tafsut.
 Lliɣ ttarraɣ tiyita.
 Lliɣ ttarraɣ-d ttaṛ.
-Lliɣ ttarraɣ-d ṣṣerf.
 Lliɣ ttawiɣ-d aman.
 Lliɣ ttaɣeɣ tanamit.
-Lliɣ ttaẓeɣ ɣer sdat.
 Lliɣ ttcabiɣ ɛemmi.
-Lliɣ ttdawiɣ imejraḥ.
 Lliɣ ttemkerfafeɣ.
 Lliɣ ttemlelluyeɣ.
 Lliɣ ttemɛujjuteɣ.
@@ -28042,10 +27872,8 @@ Lliɣ tteẓẓuɣ isekla.
 Lliɣ ttgeɣ aɣan-inu.
 Lliɣ ttgeɣ-d uguren.
 Lliɣ ttgurruɛeɣ-d.
-Lliɣ ttkaleɣ ɣef gma.
 Lliɣ ttkeɛbubureɣ.
 Lliɣ ttmahaleɣ din.
-Lliɣ ttnadiɣ fell-as.
 Lliɣ ttqadareɣ Yuba.
 Lliɣ ttqellibeɣ-tt.
 Lliɣ ttqerribeɣ-d.
@@ -28058,12 +27886,10 @@ Lliɣ ttwabdareɣ-d.
 Lliɣ ttwafecceceɣ.
 Lliɣ ttwaferneɣ-d.
 Lliɣ ttwakellaxeɣ.
-Lliɣ ttwaliɣ tiliẓri.
 Lliɣ ttwaxellaṣeɣ.
 Lliɣ ttwaɛerḍeɣ-d.
 Lliɣ ttwaɛettabeɣ.
 Lliɣ ttwaḥemmleɣ.
-Lliɣ ttwenniseɣ jida.
 Lliɣ ttxalaḍeɣ Yuba.
 Lliɣ ttxalaḍeɣ-ten.
 Lliɣ ttxalaḍeɣ-tent.
@@ -28074,10 +27900,8 @@ Lliɣ ttɛassaɣ axxam.
 Lliɣ ttɛettibeɣ-d.
 Lliɣ ttɣenniɣ.
 Lliɣ ttɣimiɣ yid-s.
-Lliɣ ttɣimiɣ yid-sen.
 Lliɣ ttḥibbiɣ-k.
 Lliɣ ttḥibbiɣ-kem.
-Lliɣ ttṣerrifeɣ aṭas.
 Lliɣ ufiɣ iman-inu.
 Lliɣ ufiɣ-d taxṛiṭ-iw.
 Lliɣ ugadeɣ i yugaren annect-en.
@@ -28092,7 +27916,6 @@ Lliɣ ur zmireɣ ad ggamiɣ.
 Lliɣ ur zmireɣ ad ṣebreɣ.
 Lliɣ ur ččiɣ ara rruẓ.
 Lliɣ ur εlimeɣ s uɣawas-is.
-Lliɣ uwḍeɣ-d i zzwaj.
 Lliɣ uḍneɣ aɣilif.
 Lliɣ wejdeɣ assa.
 Lliɣ wezzneɣ igumma.
@@ -28102,18 +27925,14 @@ Lliɣ zedɣeɣ deg taddart.
 Lliɣ zedɣeɣ di tejmaɛit n wadda.
 Lliɣ zhiɣ yid-k.
 Lliɣ zhiɣ.
-Lliɣ ɛejbeɣ-as i Si Remḍan.
 Lliɣ ɛejbeɣ-asent.
 Lliɣ ɛejbeɣ-awent.
-Lliɣ ɛelmeɣ d lekdeb.
 Lliɣ ɛelmeɣ qbel-ik.
 Lliɣ ɛelmeɣ qbel-im.
 Lliɣ ɛeryan, tesselsem-iyi.
 Lliɣ ɛeryan, ur yi-tesselsem ara.
 Lliɣ ɛeṭṭseɣ.
-Lliɣ ɛyiɣ aṭas ass-a.
 Lliɣ ɛyiɣ s wuṛaṛ.
-Lliɣ ɣellqeɣ taḥanut.
 Lliɣ ɣeṣṣbeɣ tikli.
 Lliɣ ɣilleɣ d lmuḥal.
 Lliɣ ɣilleɣ sεiɣ ayen ara y-ikfun d idrimen.
@@ -28131,13 +27950,10 @@ Lliɣ ḥemmleɣ Boston.
 Lliɣ ḥemmleɣ Mary.
 Lliɣ ḥemmleɣ Tom.
 Lliɣ ḥemmleɣ aɛummu.
-Lliɣ ḥemmleɣ ccikula.
 Lliɣ ḥemmleɣ urar-a.
 Lliɣ ḥemmleɣ-k.
 Lliɣ ḥemmleɣ-kem.
-Lliɣ ḥeqreɣ iman-inu.
 Lliɣ ḥerriɣ arekti.
-Lliɣ ḥessbeɣ akraren.
 Lliɣ ḥwajeɣ akebbuḍ.
 Lliɣ ḥwajeɣ idrimen.
 Lliɣ ḥwajeɣ yiwen.
@@ -28180,7 +27996,6 @@ Lmal-agi d lmal-iw, i s-yenna Luṭ.
 Lmal-nwen gint at uɛjar n ccac.
 Lmaɛun yuli-t ṣdid.
 Lmed agemmay n tsusmi.
-Lmed mliḥ ad trebḥeḍ.
 Lmed!
 Lmed.
 Lmedheb yugar cci.
@@ -28241,8 +28056,6 @@ Lqay ugelmim-a.
 Lqayet tfidi.
 Lqaɛa attan ddaw-aw.
 Lqaɛa tella texla, d tilemt.
-Lqaɛa tettecceg aṭas.
-Lqaɛa tɣumm s tẓegwa.
 Lqaɛa wessiɛet win yebɣan ad yinig.
 Lqaεa d yiwen seg imtiwag.
 Lqaεa n talsa akken ma tella.
@@ -28291,7 +28104,6 @@ Lsiɣ s lemɣawla.
 Lsiɣ-t deg wass amenzu n tuɣalin ɣer uɣerbaz.
 Lucie tqubel Marie.
 Lucy temlal-d Tiziri.
-Lucy tenna-as i Baya.
 Lucy teɛjeb-as Nna Seɛdiya.
 Lucy teɛjeb-as Ḥnifa.
 Lucy teɛreq-as Nna Seɛdiya.
@@ -28344,7 +28156,6 @@ Luleɣ-d deg sbiṭaṛ-a.
 Luleɣ-d s teqbaylit.
 Lumuṛ ffɣent afus.
 Luqben-t.
-Lusif d ilemẓi i ilulen deg useggas n wagim d tẓa n twinas d ṭam n tmerwin d ṭam.
 Lučkis yendeh deg udrar, Rsas igezzem ijebjan.
 Luɛara n yizem, d tḥerci n yinisi.
 Luɛjeɣ azrem s axjiḍ.
@@ -28383,7 +28194,6 @@ Lxetyar-iḍen ur t-tesεiḍ.
 Lxilaf ur yelli.
 Lxir dima irebbeḥ.
 Lxir i d-tefka tmurt-ik.
-Lxir i yexdem ttun-t.
 Lxir ibeddu-d seg uxxam.
 Lxir s lxir, win yezwaren axir.
 Lxir ur yettruḥ akken.
@@ -28519,10 +28329,7 @@ Ma aɣ-in-tellim tawwurt, ata yeṛẓa-aɣ wansi.
 Ma bɣiɣ ad m-heḍreɣ.
 Ma bɣiɣ, ad k-nɣen.
 Ma bɣiɣ, ad k-nɣent.
-Ma bɣiɣ, ad kem-nɣen.
-Ma bɣiɣ, ad ken-nɣen.
 Ma bɣiɣ, ad tt-nɣen.
-Ma bɣiɣ, ad tt-nɣent.
 Ma d Abṛaham mazal-it akked Umeɣlal.
 Ma d Abṛaham yuɣal s amkan anda yezdeɣ.
 Ma d Aɛraben i nella, ur nesteḥq ad aɣ-tɛerbem.
@@ -28682,7 +28489,6 @@ Ma tekkseḍ-as-t, deg wacu ara yeṭṭeṣ?
 Ma teliḍ d-argaz ddu yidi.
 Ma telliḍ s idis-iw, ur sriɣ i kra nniḍen.
 Ma telliḍ tamdint tefreḥ, iberdan-is d lmesbaḥ.
-Ma telluẓeḍ, ečč kra.
 Ma temmugreḍ-d azger neɣ aɣyul n uɛdaw-ik iɛreq, awi-as-t.
 Ma tenniḍ akken εad drus.
 Ma tenniḍ-d tidet axiṛ.
@@ -28745,7 +28551,6 @@ Ma tṣeḥḥa tiṭ-ik, lǧetta-k meṛṛa ad tnewweṛ.
 Ma ulac akk, yettliwi ibennayen.
 Ma ulac aɣilif qim!
 Ma ulac aɣilif senqed ma yella iɣewwaṛen n umiḍan-inek d imeɣta.
-Ma ulac aɣilif susem!
 Ma ulac aɣilif εreḍ tikkelt-nniḍen.
 Ma ulac aɣilif, ɛreḍ abeddel n tarrayt n usesteb ɣer tin-nniḍen.
 Ma ulac aɣilif.
@@ -28862,7 +28667,6 @@ Maca nessexdam allaɣ mi ara yezli wul.
 Maca tettwaceqqeq tuddsa-agi deg useggas n alef u ttɛemya u xemsin.
 Maca ur d-yekkir ara ɣlay?
 Maca ur d-yesnulfa ara deg talɣa.
-Maca ur sɛiɣ idrimen.
 Maca ur sεiɣ ara idrimen.
 Maca ur tettili d tidet
 Maca ur ttɣiman ara, alamma fukkent-d akk tlawin tarda, ṛuḥent-d syin.
@@ -28902,7 +28706,6 @@ Mani tazeqqa-nnek?
 Mani yella uɣerbaz
 Mara iheddeṛ yettara iffeẓ.
 Marc Zuckerberg yesnulfa-d Facebook.
-Mari tḥemmel ccakula.
 Mari tḥerr-d amḍiq.
 Maria mačči d wultma.
 Marie ad teffunzer.
@@ -29006,7 +28809,6 @@ Massinissa d mmi-s n Gaya
 Massinissa isɛa-d: Yuba, Yugurten, Dihya akked Tiziri.
 Matt ad iḥudd Dan.
 May tella Meryama?
-Mazal ad lemdeɣ aṭas.
 Mazal ad nezhu ad nqeṣṣer
 Mazal ad nili.
 Mazal ad teqqimem da?
@@ -29027,7 +28829,6 @@ Mazal ddren yimawlen-ik?
 Mazal deg-neɣ tekkat.
 Mazal ffudeɣ.
 Mazal kra ur t-teččiḍ, neɣ?
-Mazal la tettergigiḍ.
 Mazal llan wid yettnaɣen ɣef tutlayt taqbaylit.
 Mazal llan wid yettɛassan ɣef teqbaylit.
 Mazal llan widak i yekkaten ɣef tutlayt taqbaylit.
@@ -29067,7 +28868,6 @@ Mazal tkerheḍ tanfransist?
 Mazal trennu-d isteqsiyen ay at laɛraḍ.
 Mazal ttkemmilen yiminigen leqdicat-nsen.
 Mazal ttmahalen din?
-Mazal ttmahalent din?
 Mazal ttḥulfuɣ s εeyyu.
 Mazal tudert zdat-m.
 Mazal tudert zdat-wen.
@@ -29084,7 +28884,6 @@ Mazal tḥemmleḍ-iyi?
 Mazal ula d tarda ur tt-id-tusi ara.
 Mazal ur d-ikcim ara.
 Mazal ur d-nniɣ kra.
-Mazal ur d-nniɣ walu.
 Mazal ur d-terrim ara s lexbaṛ?
 Mazal ur d-ufiɣ ara yiwen akken
 Mazal ur d-uɣalen ara s axxam.
@@ -29131,8 +28930,6 @@ Mazal xeddmen.
 Mazal xeddmeɣ deg-s.
 Mazal yebɛed cwiṭ.
 Mazal yeccelbeḍ wul-iw.
-Mazal yedder jeddi-k?
-Mazal yedder jeddi-m?
 Mazal yekkat ugeffur.
 Mazal yeqqar ssneɣ!
 Mazal yesεa ccek.
@@ -29144,7 +28941,6 @@ Mazal yiwen, seg mi i d-yusa yeṭṭef amkan ur iḥerrek ara akk.
 Mazal yiwet neɣ snat.
 Mazal zedɣent din?
 Mazal ɣur-k i yella ssiwan n Tom?
-Mazal ɣur-k itikiyen?
 Mazal ḥemmleɣ Tom.
 Mazal ḥemmleɣ Yuba aṭas.
 Mazal ḥemmleɣ-k.
@@ -29159,14 +28955,9 @@ Mazal ẓeṛṛeɣ Tom.
 Mazal!
 Mazal! Yefka-yi-d ɛecra n wussan ad xemmeɣ.
 Mazal-as aman ad ḥmun.
-Mazal-aɣ deg uɣerbaz.
-Mazal-aɣ necɣel aṭas.
 Mazal-aɣ nlemmed s tmucuha.
 Mazal-ik d abujad.
 Mazal-ik d amezraw?
-Mazal-ik deg Florida?
-Mazal-ik deg uxeddim?
-Mazal-ik deg uɣerbaz.
 Mazal-ik deg uɣerbaz?
 Mazal-ik din?
 Mazal-ik meẓẓiyeḍ.
@@ -29174,7 +28965,6 @@ Mazal-ik terfiḍ?
 Mazal-ik tettɛummuḍ?
 Mazal-ik ttetteḍ aksum?
 Mazal-ik tuḍneḍ?
-Mazal-ik tḥemmleḍ-tt?
 Mazal-ikem d tameṭṭut-is?
 Mazal-ikem deg uɣerbaz?
 Mazal-ikem din?
@@ -29183,7 +28973,6 @@ Mazal-ikem teccḍed.
 Mazal-ikem tkennuḍ.
 Mazal-ikem tsekṛed.
 Mazal-ikem tuḍneḍ?
-Mazal-ikem ur tettuḍ.
 Mazal-iken deg uɣerbaz?
 Mazal-iken din?
 Mazal-iken meẓẓiyit.
@@ -29195,11 +28984,9 @@ Mazal-ikent tukimt?
 Mazal-it Yuba da?
 Mazal-it d aɛezri.
 Mazal-it d-nniya
-Mazal-it deg uɣerbaz.
 Mazal-it idder?
 Mazal-it, di tuttlin.
 Mazal-iten ar assa ttargun tamurt izerfan.
-Mazal-iten d igerdan.
 Mazal-iten kan akken rfan?
 Mazal-itt d taqcict.
 Mazal-itt mecṭuḥet.
@@ -29257,7 +29044,6 @@ Mačči akken.
 Mačči ala Tom kan iwimi tehder Mary.
 Mačči ala nekk i yebɣan ad iruḥ.
 Mačči ala nekk i yeḥsan s lbaḍna-k.
-Mačči alamma ɛelment.
 Mačči alamma εelment.
 Mačči am uletma-s akk.
 Mačči am yigennuren.
@@ -29269,7 +29055,6 @@ Mačči aṭas i as-mazal ad tt-tfakk akken ma tella.
 Mačči aṭas i d-iqqimen.
 Mačči aṭas i d-mazal.
 Mačči aṭas-aya seg mi yemmut.
-Mačči baṭel i yemmut.
 Mačči cwiṭ i yessukk fell-i.
 Mačči d Ben Badis i d agensas n tmusni.
 Mačči d abhim i lliɣ.
@@ -29292,7 +29077,6 @@ Mačči d anelmad.
 Mačči d anesnas, ẓriɣ-t s wallalen-iw.
 Mačči d aqeddac-ik i lliɣ.
 Mačči d aqeṣṣeṛ.
-Mačči d aqrur i lliɣ.
 Mačči d asaḍ.
 Mačči d asemmiḍ ass-a.
 Mačči d aserwal i d argaz.
@@ -29403,7 +29187,6 @@ Mačči d targit.
 Mačči d tasebbiwt.
 Mačči d taselmadt.
 Mačči d taxewnit i telliḍ.
-Mačči d taɛdawt-nwen.
 Mačči d taɣallit i telliḍ?
 Mačči d taḥeqqit ddunit.
 Mačči d taḥeqqit i telliḍ.
@@ -29509,7 +29292,6 @@ Mačči yiwet i iɛeddan ɣef yiqerra-nneɣ, lemmer nceffu.
 Mačči yiwet n temda i yellan: tamda tazegzawt, tamda n yiɛeṭṭaren, tamda n waman imellalen…
 Mačči yiwet n tikti i yellan deg uqerruy.
 Mačči ɛecra ifassen ay sɛiɣ!
-Mačči ɛemda i t-nɣiɣ.
 Mačči ɣef yidrimen.
 Mačči ɣer ssḥur i d-yettekkar.
 Mačči ɣulleɣ-ten, wah nekk d acu rebḥeɣ?
@@ -29589,7 +29371,6 @@ Mdel allen-ik.
 Mdel allen-im.
 Mdel idlisen-ik!
 Mdel idlisen-im!
-Mdel imi-nnem afuḥan.
 Mdel tawwurt-inna!
 Mdel tawwurt-inna.
 Mdel tawwurt-nnek.
@@ -29624,14 +29405,12 @@ Mecṭuḥit, xeddmen am umeqqran.
 Medden akk ad kecmen s ixxamen-nsen.
 Medden akk ad mmten.
 Medden akk heddṛen.
-Medden akk ran addal.
 Medden akk seffqen.
 Medden akk ssusmen.
 Medden akk ttargun.
 Medden akk ttbeddilen.
 Medden akk ttrajun tuɣalin-inek.
 Medden akk ɛudden d aɛwin i ttawin yid-sen ɣer lexla.
-Medden akk ḥemmlen-k.
 Medden akk ẓran d acu-t.
 Medden d izulalen.
 Medden ferrun-tent, netta iḍellu-tent.
@@ -29730,7 +29509,6 @@ Melmi ara ad temmektiḍ?
 Melmi ara ad tt-nexdem?
 Melmi ara ad yebdu?
 Melmi ara ad yemmekti?
-Melmi ara as-tenniḍ?
 Melmi ara d-asen?
 Melmi ara d-asent?
 Melmi ara d-qqlen?
@@ -29744,11 +29522,9 @@ Melmi ara d-taseḍ s axxam?
 Melmi ara d-taweḍ teslit?
 Melmi ara d-teffɣeɣ?
 Melmi ara d-teqqel?
-Melmi ara d-teqqlemt?
 Melmi ara d-teqḍud?
 Melmi ara d-teḍru?
 Melmi ara d-tuɣalem?
-Melmi ara d-tuɣalemt?
 Melmi ara d-tuɣaleḍ?
 Melmi ara d-uɣalen?
 Melmi ara d-uɣalent?
@@ -29788,21 +29564,16 @@ Melmi ara teččemt?
 Melmi ara truḥem ad d-tawim tislit?
 Melmi ara tt-id-sutrem?
 Melmi ara tt-id-sutreḍ?
-Melmi ara tt-tettrem?
-Melmi ara tt-tettreḍ?
 Melmi ara tzewǧeḍ?
 Melmi ara tṛuḥemt?
 Melmi ara yebdu?
 Melmi ara yerr aḍar?
 Melmi ara yečč Yuba?
-Melmi ara yeḍru waya?
 Melmi ara yeḥbes usṭeẓṭeẓ-aki deg yiberdan?
 Melmi ay d-tettakim?
-Melmi ay d-tettakimt?
 Melmi ay d-tluleḍ?
 Melmi ay d-yeqqel?
 Melmi ay ifaq Tom?
-Melmi ay tettazzaleḍ?
 Melmi ay tlul Lucia?
 Melmi ay txeddmeḍ?
 Melmi ay yettwabna?
@@ -29838,8 +29609,6 @@ Melmi i iṛuḥ yid-i?
 Melmi i iṛuḥ yid-k?
 Melmi i iṛuḥ yid-m?
 Melmi i iṛuḥ yid-s?
-Melmi i iṛuḥ yid-sen?
-Melmi i iṛuḥ yid-wen?
 Melmi i k-giɣ kra n diri?
 Melmi i k-nwala thelkeḍ neɣ di lḥebs, nerza fell-ak?
 Melmi i k-xedmen ayenni?
@@ -29867,10 +29636,8 @@ Melmi i tenwiḍ ad tṛuḥeḍ?
 Melmi i tettfunzureḍ?
 Melmi i tezmer ad tili deg-s s wudem azayez, ɣef tmuɣli-k?
 Melmi i tlul Tiziri?
-Melmi i tt-id-mlalen?
 Melmi i txedmeḍ akka?
 Melmi i txedmeḍ annect-a?
-Melmi i txedmeḍ wagi?
 Melmi i tḥebsem addal?
 Melmi i tḥebsemt addal?
 Melmi i tḥebseḍ addal?
@@ -29878,19 +29645,12 @@ Melmi i tṛuḥ yid-i?
 Melmi i tṛuḥ yid-k?
 Melmi i tṛuḥ yid-m?
 Melmi i tṛuḥ yid-s?
-Melmi i tṛuḥ yid-sen?
-Melmi i tṛuḥ yid-wen?
-Melmi i tṛuḥeḍ yid-i?
 Melmi i wen-xedmen ayenni?
 Melmi i wen-xedmeɣ ayenni?
 Melmi i wen-yexdem ayenni?
 Melmi i yemmut Tom?
 Melmi i yemmut Yuba?
 Melmi i yettwaṭṭef?
-Melmi i ṛuḥent yid-i?
-Melmi i ṛuḥent yid-k?
-Melmi i ṛuḥent yid-m?
-Melmi i ṛuḥent yid-s?
 Melmi k-d-nniɣ akka?
 Melmi kan.
 Melmi m-d-nniɣ akka?
@@ -29964,7 +29724,6 @@ Meqqer uɛebbuḍ-nsen.
 Meqqer wul-is.
 Meqqer wungal-nni, ahat yewweḍ alef isebtar.
 Meqqer, yugar akk medden uderwic-nni.
-Meqqerit yiḍarren-is.
 Meqqert tfawet, aṭas i aɣ-cergen.
 Meqqeṛ ucebbub-is ilindi.
 Meqqeṛ ucekkuḥ-is ilindi.
@@ -29972,7 +29731,6 @@ Meqqeṛ ucekkuḥ-is.
 Meqqeṛ ucekkuḥ-iw.
 Meqqeṛ ucekkuḥ-nneɣ.
 Meqqeṛ ucekkuḥ-nsen.
-Meqqeṛ ucekkuḥ-nsent.
 Meqqeṛ ucekkuḥ-nteɣ.
 Meqqeṛ ufus-nsent.
 Meqqeṛ ujeḥniḍ ubenferriw.
@@ -29984,7 +29742,6 @@ Meqqeṛit lexbuḍ-is.
 Meqqran yelmed tira.
 Meqqret texxamt-ik.
 Meqqret twacult-iw.
-Meqqreɣ aṭas ɣef Si Remḍan.
 Meqqreɣ aṭas ɣef Tom.
 Meqqreɣ.
 Meqqreḍ yakan.
@@ -29994,7 +29751,6 @@ Meqqṛent-d s teqbaylit.
 Meqqṛeɣ aṭas i waya.
 Meqqṛeɣ ɣef gma-k.
 Meqqṛeɣ ɣef gma-m.
-Meqqṛeɣ ɣef gma-twen.
 Meqqṛeɣ-d s teqbaylit.
 Meqqṛit iḍaṛṛen-is.
 Meqqṛit tfednin-is.
@@ -30008,7 +29764,6 @@ Merrḥent.
 Merrḥeɣ.
 Meryem tettaḍsa deg-s.
 Mesden am tsegnatin.
-Mesdent am tsegnatin.
 Meskin yeɣli-d si tzemmurt, dɣa seg wass-nni yewwet-it karaf ɣer iḍaren.
 Meskin, ijaḥ ṛṛay-is.
 Meskin, ičča taxsayt.
@@ -30037,7 +29792,6 @@ Mesɛud isɛa-d: Yidir, Amaṛa akked Smaɛil.
 Metwal.
 Meyya u xemsin n wussan i yekka uḥemmal n waman di ddunit.
 Meyyez i tudert tatrart.
-Meyyez i twacult-ik!
 Meyyez nnican, uqbel ad tqerseḍ!
 Meyyez qbel aneggez.
 Meyyez s tifrirt.
@@ -30103,7 +29857,6 @@ Meẓẓi meqqer, ilaq ad ɣren!
 Meẓẓiy aṭas ɣef Dda Lmulud.
 Meẓẓiy aṭas ɣef Saɛid Waɛmaṛ.
 Meẓẓiyem?
-Meẓẓiyet temdint-nni.
 Meẓẓiyeɣ.
 Meẓẓiyeḍ?
 Meẓẓiyit.
@@ -30236,7 +29989,6 @@ Mi d-yuki a yettjellib, yettgalla ar dak-nɣeɣ!
 Mi d-yuki, yaf-d iman-is deg yiwet n tegzirt yestexlan.
 Mi d-yusa ɣur-neɣ d acu i aɣ-d-yenna?
 Mi friɣ ttuzma-w fukeɣ.
-Mi fuṛqeɣ wid ɛzizen.
 Mi i izeggen wass, ffɣen-d yinelmaden seg uɣerbaz.
 Mi i tt-iḥemmel, yekker yuɣ-itt.
 Mi ifukk uselway inaw-is, yiwen ur iseffeq.
@@ -30356,7 +30108,6 @@ Mi tuner ḥedreɣ,mi yeggul umneɣ.
 Mi twala aqcic-nni, yecbeḥ, teffer-it tlata n wagguren.
 Mi twala iman-is s tadist, tuɣal teḥqer lalla-s.
 Mi tweffreḍ lḥaǧa, ad ak-d-tini anɛam.
-Mi twejdem, ad neddu.
 Mi txedmeḍ lxiṛ, ad ak-yuɣal d ixmiṛ.
 Mi tzegreḍ abrid dayen, ur d-ttuɣal ara ɣer deffir.
 Mi tɛedda lɛid, tezluḍ ufrik.
@@ -30393,8 +30144,6 @@ Mi yesraḥ aɛdaw.
 Mi yessers uḥeddad afḍis, irefd-it mmi-s.
 Mi yeswa tiqit yettḥulfu i yiman-is amzun akken yettferfir.
 Mi yetti idis yuɣal ɣer tnafa-s ad d-griɣ din waḥdi am bururu. Baba-s yeffeɣ yakkan seg texxamt.
-Mi yettimɣur, yeḍɛef.
-Mi yettiwsir, yeḍɛef.
 Mi yettwaqecceɛ lǧenn-nni, agugam-nni ihdeṛ-d.
 Mi yewweḍ Yusef s atmaten-is, kksen-as aqendur-is.
 Mi yewweḍ lewhi n lmeɣreb, ɣef tewwurt n lalla yesqerbeb.
@@ -30414,7 +30163,6 @@ Mi yeɣli yiṭij, iɣli-d ṭṭlam uṭellis.
 Mi yeḥma yiṭij, ayen i d-ittɣimin ifetti.
 Mi yi-d-tenna akka, ɣliɣ-d deg nnheq n yimeṭṭi am uqcic amecṭuḥ.
 Mi yi-d-tesɛeddaḍ sya.
-Mi yimɣur, yetɛeqqel.
 Mi yuker ḥedreɣ mi yeggul umneɣ!
 Mi yuker ḥedreɣ, mi yeggul umneɣ.
 Mi yuweḍ ɣer lɣerba, yettxemmim kan fell-as.
@@ -30467,7 +30215,6 @@ Mlalen deg unafag.
 Mlalen sin igehguhen.
 Mlalen yiqerra d yiḍarren yiwet teẓẓel aka, yiwet akken nniḍen.
 Mlalen-d meṛṛa deg uzaɣar n Sidim, yeɛni lebḥeṛ amerɣan.
-Mlalent deg tesnawit.
 Mlalent deg unafag.
 Mlalent wallen-nsen.
 Mlaleɣ Yuba deg tubeṛ.
@@ -30478,8 +30225,6 @@ Mlaleɣ-d imawlan-ik iḍelli.
 Mlaleɣ-d tabaḥant-iw iḍelli.
 Mlaleɣ-t deg yennayer.
 Mlaleɣ-t ɣur usensu n Madala, deg Bgayet.
-Mlaleɣ-tt deg unafag.
-Mlan-iyi-d axxam-nni.
 Mlaqacen lhedṛa.
 Mlelli.
 Mlellin.
@@ -30604,8 +30349,6 @@ Mmugen am yiberriqen.
 Mmugent kra n lɣelṭat.
 Mmugren inebgawen.
 Mmugren inebgiwen.
-Mmugren-aɣ s uzmumeg.
-Mmugren-iyi s tumert.
 Mmugren-iyi-d watmaten-iw di tlata ɣer tewwurt.
 Mmugrent inebgawen.
 Mmugrent inebgiwen.
@@ -30617,21 +30360,14 @@ Mmugreɣ-tent s tumert.
 Mmuqqel aydi-inna.
 Mmuqqel aṣuk-inna.
 Mmuqqel imeẓri-nni.
-Mmuqqel s aɣrab-nsen.
 Mmuqqel tiliẓri da.
 Mmuqqel tiẓgi-nni!
-Mmuqqel ɣer deffir-k!
-Mmuqqel ɣer deffir-m!
 Mmuqqel ɣer yitran.
 Mmuqqel!
 Mmuqqlemt axxam-a.
-Mmuqqlemt ɣer yitran.
 Mmuqqlen d asawen.
-Mmuqqlen ɣer yigenni.
 Mmuqqlen-t s wurfan.
-Mmuqqlen-tt s wurfan.
 Mmuqqlent d asawen.
-Mmuqqlent-t s wurfan.
 Mmuqqlet ɣer yitran.
 Mmuqqlet! D tuḍut!
 Mmuqqleɣ d asawen.
@@ -30639,11 +30375,9 @@ Mmuqqleɣ taklut-nni.
 Mmuqqleɣ ɣer lqaɛa.
 Mmuqqleɣ ɣer yiwen.
 Mmuqqleɣ ɣer yiwet.
-Mmuqqleɣ-tt s wurfan.
 Mmuten akk deg umennuɣ.
 Mmuten lekwaɣeḍ-ik?
 Mmuten lekwaɣeḍ-im?
-Mmuten lekwaɣeḍ-nwen?
 Mmuten seg tuggdi.
 Mmuten seg tumert.
 Mmuten yirgazen ur nuklal.
@@ -30679,7 +30413,6 @@ Msebɛaden am yigenni ɣef tmurt.
 Msebḍan acḥal aya.
 Msed.
 Msefhamen ɣef yiwen wawal.
-Msefhamen ad dduklen.
 Msefhamen ad nnaɣen.
 Msefhamen fell-i.
 Msefhamen yid-kent.
@@ -30835,7 +30568,6 @@ Musa yezla-t, iṛucc s idammen-is aɛalṭar meṛṛa.
 Musa yuli s adrar, dɣa tagut tɣumm adrar.
 Musa yura ayen akk i s-d-inna Umeɣlal.
 Musa yuɣ awal i uḍeggal-is, ixdem ayen akk i s-d-inna.
-Musa yuɣal ɣer tmurt.
 Musa, iqbel ayen akken i s-d-inna Haṛun.
 Muten
 Muten i meṛṛa.
@@ -30913,7 +30645,6 @@ Myufant.
 Myuggaden, am umcic d uqjun.
 Myuran.
 Myurant.
-Myussanen deg Leɣwaṭ.
 Myuzzamen ɣer lqaḍi.
 Mzi.
 Mzulen s tukkimin.
@@ -30971,19 +30702,15 @@ Nadi!
 Nadi ad tafeḍ!
 Nadi anda ara truḥeḍ!
 Nadi deg imukan meṛṛa.
-Nadi deg umawal-nnek.
-Nadi deg umawal-nnem.
 Nadi kan
 Nadi kan, ad tuɣaleḍ ad t-tafeḍ.
 Nadi zdat n watmaten-nneɣ ayen akk sɛiɣ.
-Nadi ɣef tmeṭṭut-nni.
 Nadi ɣef wayen yeḍran.
 Nadi, af-d, eg tagrut!
 Nadi-d ɣef umahil.
 Nadi-d ɣef uxeddim.
 Nadi-d ḥedd-nniḍen.
 Nadi-iyi-d abugaṭu.
-Nadi-t-id deg umawal.
 Nadi-yi.
 Nadi.
 Nadit deg usegzawal.
@@ -30995,7 +30722,6 @@ Nancy tettban-d teɛya.
 Nancy tettban-d teεya.
 Nancy tkad-d teɛya.
 Nancy tkad-d teεya.
-Nancy tḥemmel aẓawan.
 Naqal yella yettsetḥi.
 Naqal yeḥqer-ik Dda Lmulud.
 Naqal yeḥqer-ik Saɛid Waɛmaṛ.
@@ -31065,12 +30791,9 @@ Nebra-yasen-d i waman.
 Nebren tasfeḍt-nni.
 Nebzeg, ur neksi.
 Nebɛed.
-Nebɣa ad ak-nini kra.
-Nebɣa ad am-nini kra.
 Nebɣa ad as-nsel.
 Nebɣa ad d-nessekcem imusnawen n umezruy akken ur nɣelleḍ ara.
 Nebɣa ad k-nenṣeḥ.
-Nebɣa ad k-nessexdem.
 Nebɣa ad k-nissin.
 Nebɣa ad k-nɛawen.
 Nebɣa ad kem-nissin.
@@ -31086,7 +30809,6 @@ Nebɣa ad nessen Dda Lmulud.
 Nebɣa ad nessen Saɛid Waɛmaṛ.
 Nebɣa ad nessiwel.
 Nebɣa ad nettekki.
-Nebɣa ad nsel kullec.
 Nebɣa ad nɛawen Dda Lmulud.
 Nebɣa ad nɛawen Saɛid Waɛmaṛ.
 Nebɣa ad nẓer Tom.
@@ -31177,9 +30899,7 @@ Nefka azal i waya.
 Nefka lɛahed gar-aneɣ.
 Nefka tagnit i widak i yebɣan ad d-rnun ɣer tudsa-agi.
 Nefka tasertit i win i tt-yebɣan.
-Nefka-as asefk i Si Remḍan.
 Nefka-as i wuccen ad iɛas tiɣeṭṭen.
-Nefka-as lḥeqq i Si Remḍan.
 Nefka-as taḍeffut.
 Nefka-d awal-nneɣ.
 Nefka-d awal-nteɣ.
@@ -31232,7 +30952,6 @@ Nehder fell-as iḍelli.
 Nehhreɣ akamyun.
 Nehhreɣ anda qqleɣ.
 Nehhṛent s tɣawla.
-Nehhṛeɣ qrib yal ass.
 Nehren-iyi ɣer texxamt.
 Nehreɣ askutur.
 Nehreɣ aɣyul ɣer tala akken ad agmeɣ aman i Dda Ḥemmu.
@@ -31283,7 +31002,6 @@ Nekk axxam-iw ad t-bnuɣ, yelli-s n medden ad tt-sɛuɣ, ɣer teqbaylit ad wɛu�
 Nekk briɣ.
 Nekk bɣiɣ ad lemdeɣ.
 Nekk bɣiɣ ad sweɣ ccrab dagi, mačči deg laxeṛt.
-Nekk bɣiɣ ad tt-ttuɣ.
 Nekk d Afalesṭini.
 Nekk d Afinlandi
 Nekk d Akanadi.
@@ -31320,14 +31038,11 @@ Nekk d amsaltu.
 Nekk d amsuɣel.
 Nekk d anarag n Dda Lmulud.
 Nekk d anarag n Saɛid Waɛmaṛ.
-Nekk d anehhaṛ n Si Remḍan.
 Nekk d anelmad.
 Nekk d apulis.
 Nekk d aqbayli.
 Nekk d aqcic yelhan.
-Nekk d argaz alemmas.
 Nekk d argaz aṣeḥḥi.
-Nekk d argaz iǧehden.
 Nekk d argaz n wass-a, i teqbaylit ad tt-bnuɣ i uzekka.
 Nekk d argaz.
 Nekk d asariẓri.
@@ -31338,7 +31053,6 @@ Nekk d aselmad n tjapunit.
 Nekk d aselmad-nnek.
 Nekk d aselmad-nnem.
 Nekk d aselmad-nwen.
-Nekk d aselmad-nwent.
 Nekk d awḥid n imawlan-iw.
 Nekk d axeddam inmetti.
 Nekk d azuran aṭas.
@@ -31356,13 +31070,10 @@ Nekk d gma-s n Yuba.
 Nekk d iman n waṭṭan.
 Nekk d imeslem.
 Nekk d imsujji da.
-Nekk d imsujji n Si Remḍan.
 Nekk d imsujji-nnek.
 Nekk d imsujji-nnem.
 Nekk d imsujji-nwen.
-Nekk d imsujji-nwent.
 Nekk d iḥiqel.
-Nekk d jeddi-s n Si Remḍan.
 Nekk d kemm abrid-nneɣ yiwen.
 Nekk d lbumba, keččini d zzalimiḍ.
 Nekk d ljaṛ n Tom.
@@ -31380,16 +31091,12 @@ Nekk d tameṭṭut ur ilaq ara ad dduɣ yid-sen!
 Nekk d tameṭṭut, nnan-iyi-d qqim deg uxxam.
 Nekk d tameṭṭut.
 Nekk d tamsaltut.
-Nekk d tanaragt-nnek.
-Nekk d tanaragt-nnem.
 Nekk d taqbaylit i qqaṛeɣ.
 Nekk d taqbaylit, ttidireɣ deg tmurt n Leqbayel.
 Nekk d taqbaylit.
 Nekk d taselmadt da.
-Nekk d taselmadt kan.
 Nekk d taspenyult.
 Nekk d tataylandit.
-Nekk d taxḍibt n Si Remḍan.
 Nekk d taxḍibt n Tom.
 Nekk d taɛebbajt n yifassen, yeɣran di lelwan.
 Nekk d taɣect-agi arma d tafrara.
@@ -31403,12 +31110,9 @@ Nekk d win yettqadaren.
 Nekk d win yeṣfan ɣur-m.
 Nekk d xali-s n Dda Lmulud.
 Nekk d xali-s n Saɛid Waɛmaṛ.
-Nekk d yelli-s n Si Remḍan.
 Nekk d yelli-s n Tom.
-Nekk d yemma-s n Si Remḍan.
 Nekk d yemma-s n Tom.
 Nekk d yid-k ad nazzel.
-Nekk d ɛemmi-s n Si Remḍan.
 Nekk d ṭṭbib n Yuba.
 Nekk dayen heggaɣ iman-iw!
 Nekk dayen qebleɣ ayen akka d-yeḍran yid-i.
@@ -31420,7 +31124,6 @@ Nekk fehmeɣ.
 Nekk ferḥeɣ mi t-ẓriɣ.
 Nekk feṛheɣ.
 Nekk feṛḥeɣ s baba.
-Nekk gerrzeɣ, i kemm?
 Nekk gerrzeɣ, i kečč?
 Nekk gganeɣ s teqbaylit, ma kečč gen s wayen i tebɣiḍ.
 Nekk giɣ ccɣel-inu.
@@ -31430,7 +31133,6 @@ Nekk i kečč i wumi iyi-d-fkan.
 Nekk i yezwaren fell-ak.
 Nekk i yeɣran tafusi n lehhu d wayen yelhan.
 Nekk inem, kemm inu.
-Nekk ines nettat inu.
 Nekk isax wallaɣ-iw yugin ad yeqbel tilawt-a i d-yefɛefɛen fell-i.
 Nekk isem-iw tameṭṭut.
 Nekk iḥemlen ad ḍṣeɣ ad sfuǧɣeɣ akk d temdukkal-iw.
@@ -31443,7 +31145,6 @@ Nekk lhiɣ kan i useqdec!
 Nekk lhiɣ kan i uɛebbi, nekk d amerkub n udrum.
 Nekk lliɣ d aselmad.
 Nekk lluẓeɣ. I kemm?
-Nekk lluẓeɣ. I kenwi?
 Nekk lluẓeɣ. I kečč?
 Nekk lǧenn-iw d aṣeḥrawi, iḥemmel zzhu, d ahwawi.
 Nekk maci d abugaṭu.
@@ -31457,7 +31158,6 @@ Nekk mačči am tidak.
 Nekk mačči am tullas-niḍen.
 Nekk mačči d Kamal Sutra.
 Nekk mačči d Rosa Parks neɣ Simone de Beauvoir akken ad beddleɣ timetti-ya.
-Nekk mačči d ageldun.
 Nekk mačči d anazi.
 Nekk mačči d anelmad.
 Nekk mačči d argaz!
@@ -31495,7 +31195,6 @@ Nekk ttsetḥiɣ cwiṭ.
 Nekk ttusemreɣ deg umkan-iw.
 Nekk ttwaṛebbaɣ-d.
 Nekk ttxemmimeɣ kan ɣef teqbaylit.
-Nekk ttzuxxuɣ s Baya.
 Nekk umneɣ-kem.
 Nekk ur d Anglizi.
 Nekk ur d abugaṭu.
@@ -31504,9 +31203,7 @@ Nekk ur d akli-nnem!
 Nekk ur d amattar.
 Nekk ur d anelmad.
 Nekk ur d ayla-nsen.
-Nekk ur d ayla-nsent.
 Nekk ur d ayla-nwen.
-Nekk ur d ayla-nwent.
 Nekk ur d imsujji.
 Nekk ur d tameṭṭut.
 Nekk ur d tanelmadt.
@@ -31518,10 +31215,8 @@ Nekk ur lliɣ d asaḍ.
 Nekk ur lliɣ nwen.
 Nekk ur lliɣ nwent.
 Nekk ur nhiṛeɣ ara.
-Nekk ur riɣ Facebook.
 Nekk ur rqiqeɣ ara.
 Nekk ur ssirideɣ ara.
-Nekk ur sɛiɣ afrayen.
 Nekk ur sɛiɣ aydi.
 Nekk ur t-ttraǧuɣ ara ad yesɛu.
 Nekk ur t-ẓriɣ ara.
@@ -31537,7 +31232,6 @@ Nekk ur ugadeɣ ara.
 Nekk ur uggadeɣ ara lmut n uẓekka am wakken uggadeɣ lmut di tudert.
 Nekk ur umineɣ.
 Nekk ur zmireɣ ara ad mmeslayeɣ.
-Nekk ur ɣezzifeɣ ara.
 Nekk ur ḥmileɣ ara ad beṭṭleɣ lakul.
 Nekk ur ṭṭiseɣ ara.
 Nekk ur ẓriɣ acemma.
@@ -31550,13 +31244,9 @@ Nekk xḍiɣ Taninna.
 Nekk xḍiɣ i leɛyudat-agi.
 Nekk yellan d nniya.
 Nekk yeqzuzmen gar tlufa d leqdic n uxxam.
-Nekk yid-k ad neslek.
 Nekk yid-k nḥemmel uraren.
-Nekk yid-m ad neslek.
 Nekk yid-m nḥemmel uraren.
 Nekk yid-m teddez tebrez.
-Nekk zedɣeɣ deg Kobe.
-Nekk zegleɣ tamacint.
 Nekk zgiɣ ttaḍṣaɣ.
 Nekk zhiɣ.
 Nekk ḥemmleɣ tiimeɣriwin.
@@ -31564,7 +31254,6 @@ Nekk ɛebdeɣ taqbaylit, ma d kečč ɛbed ayen i tebɣiḍ.
 Nekk ɣas ini ḥefḍeɣ tuɣac n Ferḥat merra.
 Nekk ɣezzifeɣ aṭas.
 Nekk ɣileɣ ad d-yas.
-Nekk ɣriɣ-d s usawal.
 Nekk ɣur-i Taqbaylit tif-itent di kulci.
 Nekk ɣur-i mačči d lḥeqq.
 Nekk ɣur-i tudert d ayen nniḍen.
@@ -31596,7 +31285,6 @@ Nekk, mačči d abugaṭu.
 Nekk, ur ten-ttuɣ ara.
 Nekk, ḥemmleɣ tudert; tudert ur iyi-teḥmmil ara.
 Nekka seg tzewwut.
-Nekka taswiɛt yelhan.
 Nekka-d akk tamurt.
 Nekka-d d yiwen webrid mecṭuḥen amek ara nanef i ikeṛyas yeggten.
 Nekka-d nnig wiyaḍ.
@@ -31608,18 +31296,14 @@ Nekkat ɣef teqbaylit, mačči ɣef ukersi.
 Nekkat ɣef teqbaylit.
 Nekkat ɣef tugdut.
 Nekkat ɣef tutlayt taqbaylit.
-Nekkenti d Tirusiyin.
 Nekkenti d Tizwawin.
 Nekkenti d tisednan.
 Nekkenti d yessi-k.
 Nekkenti d yessi-m.
-Nekkenti nettett zik.
 Nekkenti neẓra-tt.
 Nekkenti nla tarmit.
 Nekkenti nugar Yuba.
 Nekkenti nwufeq-ik.
-Nekkenti nwufeq-ikem.
-Nekkenti nxeddem akk.
 Nekkenti nxeddem, ma d nutenti ttɣimint.
 Nekker ad d-nuɣal ɣer temdint.
 Nekkini d amdan.
@@ -31634,7 +31318,6 @@ Nekkni ad t-nxelleṣ.
 Nekkni ad tt-id-naf.
 Nekkni aql-aɣ da deffir-sen.
 Nekkni d Ijuṛiyen.
-Nekkni d Imeṛṛukiyen.
 Nekkni d Iqbayliyen.
 Nekkni d Irusiyen.
 Nekkni d Itunsiyen.
@@ -31659,13 +31342,10 @@ Nekkni deg wahil-nneɣ, nefka azal meqqren i wannect-a, akken agezdu-nneɣ ad ye
 Nekkni mačči d Aɛraben, nekkni d Imaziɣen.
 Nekkni mebɛid i d-nusa, ay nella d igawawen.
 Nekkni nebda yagi.
-Nekkni nekkat apyanu.
 Nekkni nella yes-s.
-Nekkni neqqar aẓawan.
 Nekkni nesɛa nnif, nḥemmel kan ad tnẓer tilelli mebɛid.
 Nekkni nesɛa tarmit.
 Nekkni nettett zik.
-Nekkni nettwaṛebba-d.
 Nekkni nla tarmit.
 Nekkni nwala, deg umaḍal meṛṛa, ulac tama i as-yerran tajmilt i urgaz-agi n umezruy akken i tt-yuklal.
 Nekkni nwufeq-ikem.
@@ -31676,8 +31356,6 @@ Nekkni seg Colombia.
 Nekkni seg Ustṛalya.
 Nekkni si zik akka
 Nekkni ur neddir deg Sidi Rebbi almi i aɣ-d-yefka cwiṭeḥ-agi.
-Nekkni ur nettkeyyif.
-Nekkni ur nezhi aṭas.
 Nekknti d tiqbayliyin.
 Nekmez.
 Nekni akka i d-necfa.
@@ -31721,7 +31399,6 @@ Nekṛeh-iten i meṛṛa.
 Nekṛent skerksent.
 Nella
 Nella akk da uqbel.
-Nella akk deg usakal.
 Nella akken kan nebɣa ad wen-d-nessiwel.
 Nella d ilemẓiyen ur nessin.
 Nella d imdukal.
@@ -31741,19 +31418,13 @@ Nella necɣel aṭas.
 Nella necɣel mliḥ ssmana-nni iεeddan.
 Nella nefṛeḥ aṭas.
 Nella nekkat ḍḍbel.
-Nella nelluẓ deg sin.
 Nella nemlal yakan.
 Nella nemmug wa i wa.
 Nella nemyeḥmal.
-Nella neqqar idlisen.
 Nella neqqaṛ.
 Nella nergel abrid.
 Nella neskeṛ mliḥ.
 Nella neslaẓay iḍan.
-Nella nessakay-d Si Remḍan.
-Nella nessaɣ-d aɣmis.
-Nella nessaɣ-d aɣrum.
-Nella nessirid iqbac.
 Nella nesɛa amcic.
 Nella nesɛa asihaṛ.
 Nella nesɛa lḥeqq.
@@ -31776,26 +31447,18 @@ Nella nettwaɛettab.
 Nella nettwaḥemmel.
 Nella nettɛumu din.
 Nella nezdeɣ deg sin n iɛecciwen.
-Nella nezmer ad nɣer.
 Nella nezzuzun iman-nneɣ s tuɣac-nni tirumansiyin n tkerkas.
 Nella neɣleḍ.
-Nella neḥwaj idrimen.
-Nella neḥwaj tallalt.
 Nella neḥwaj-ikem.
 Nella neḥwaj-iken.
 Nella nleɛɛeb lbalu, lehwa tekkat fell-aɣ.
-Nella nqebbel isefka.
 Nella nreggel abduz.
 Nella nreggel abrid.
 Nella nrennu tifyar.
 Nella nselleḍ igmaḍ.
-Nella nufa iman-nneɣ.
-Nella nufa iman-nteɣ.
 Nella nɣeṣṣeb tikli.
-Nella nḍellem medden.
 Nella nḥemmel Tiziri.
 Nella nḥemmel Tom.
-Nella nḥemmel urar-a.
 Nella nṛewwu iḍes.
 Nella ɣas in'as ur nesεi kra deg tkuzint.
 Nella ɣas in-s ur nesεi kra deg tkuzint.
@@ -31822,7 +31485,6 @@ Nemlal uqbel?
 Nemlal-d deg usarug.
 Nemlal-d di ssinima.
 Nemlal-d tiddukkla Numidya i tikkelt tamezwarut.
-Nemlal-d yiwen umaru.
 Nemled tafṛansist.
 Nemlelli.
 Nemmeslay ussan-agi iɛeddan ɣef wahil.
@@ -31845,14 +31507,11 @@ Nemsefham?
 Nemsefraq.
 Nemseṛwa am seksu ubelluḍ.
 Nemsudan.
-Nemtawa akk ɣef waya.
 Nemyehḍaṛ s tefransist.
 Nemyeḥmal s tidderwect.
-Nemyixẓar nekk yid-s.
 Nemyulel.
 Nemyura.
 Nemyussan acḥal uya.
-Nemyussan deg usafag.
 Nemyussan nekk yid-s, nemyaggar deg waṭas n tegnatin, ladɣa deg Paris, tikwal yettili Ben Muḥemmed.
 Nemyussan yakan.
 Nemyussan?
@@ -31878,7 +31537,6 @@ Nenwa bucḥiḍ yenqeḍ, ziɣen yuɣal-d s wadda.
 Nenwa ddunit d awal kan.
 Nenḍeb.
 Neqbel isefka-nni.
-Neqbel nnig wul-nneɣ.
 Neqbel.
 Neqleɛ.
 Neqqar leqran deg lǧamaɛ mebla ma nefhem-it.
@@ -31888,14 +31546,10 @@ Neqqar-as tagecrirt.
 Neqqaṛ imir-nni celqef berru.
 Neqqel ɣer usensu.
 Neqqel-d.
-Neqqen tiṭṭawin-nneɣ.
-Neqqen tiṭṭawin-nteɣ.
 Neqqen.
 Neqqerṣ meṛṛa.
-Neqqim akken aseggas.
 Neqqim i teɣzi n wass.
 Neqqim ɣef yisennanen.
-Neqqim ɣer tama-nnes.
 Neqqim.
 Neqqmat n temɣarin.
 Neqreb mliḥ.
@@ -31922,8 +31576,6 @@ Nerna, d acu i nerna, yekker urgaz iruḥ ɣer ssuq.
 Nerna-am sin n wussan niḍen.
 Nerna.
 Nerra srid s agafa.
-Nerra ɣef yiman-nneɣ.
-Nerra ɣef yiman-nteɣ.
 Nerra-as i sidi: Ur izmir ara uqcic ad ifareq baba-s.
 Nerra-as ṣrima d umrar, nnehher-itt kan ɣer yiberdan i aɣ-yetteɛjaben.
 Nerra-d.
@@ -31955,16 +31607,12 @@ Neskasi ɣef uɣbel-nni.
 Neskerkes fell-ak.
 Neskerkes fell-am.
 Neskerkes fell-awen.
-Neskerkes fell-awent.
 Nesla i isuɣan ɣer berra.
 Nesla i lḥess-nni.
-Nesla i tesgilt-nnek.
-Nesla i tesgilt-nnem.
 Nesla i tewwurt tuɣal.
 Nesla i usekkeṛ n tewwurt.
 Nesla i usuɣu-nnes.
 Nesla mi awen-gan snasel.
-Nesla yagi i wawal-a.
 Nesla-ak.
 Nesla-am.
 Nesla-as.
@@ -32015,7 +31663,6 @@ Nessawel s usawal.
 Nessawel ɣef waya.
 Nessawel.
 Nessaweḍ ad neg aya.
-Nessaweḍ ad nemsegzu.
 Nessaweḍ ad nerwel.
 Nessazdeg-d axxam.
 Nessazzel asaru-nni.
@@ -32035,14 +31682,12 @@ Nessemsed tiferyin.
 Nessen amek ara s-neddu.
 Nessen amek ara s-nelḥu.
 Nessen aya.
-Nessen baba-s n Baya.
 Nessen cwiṭ Smaɛil Azikiw.
 Nessen kullec.
 Nessen leṣlaḥ-nneɣ.
 Nessen timeẓyanin.
 Nessen-it, d argaz yelhan.
 Nesseqdac iẓeḍwan inmettiyen akken ad nebḍu tiktiwin gar-aneɣ.
-Nesseqdac-it yal ass.
 Nesseqdec tadabut-a.
 Nesses.
 Nessetrisi i snat-nteɣ.
@@ -32072,16 +31717,13 @@ Nesɛa aṭas n yileɣma.
 Nesɛa ccṛab.
 Nesɛa diɣ asenfar n usiweḍ s ttawil n tilifirik. Akka tura, nessaweḍ ad nfak aḥric amenzu n usenfar-agi
 Nesɛa kraḍ n yiḍan.
-Nesɛa lḥeqq, neɣ uhu?
 Nesɛa merra lesrar.
 Nesɛa sebɛa tyuẓaḍ ticebḥanin akked yiwen uyaẓiḍ azeggaɣ.
 Nesɛa sebɛa wakraren, tixsi akked uɣyul.
 Nesɛa seg-s.
-Nesɛa sin n yigerdan.
 Nesɛa tazeqqa tmeqqer nezzeh.
 Nesɛa tilelli.
 Nesɛa tmanyin n tzemrin deg uzaɣar.
-Nesɛa ugur d amecṭuḥ.
 Nesɛa uguren-nneɣ.
 Nesɛa uṭṭun uɣur yezmer umsiher ad d-yessiwel ma yebɣa ad d-yesteqsi neɣ ad icetki.
 Nesɛa yakk tamlilt ad tt-nurar.
@@ -32111,7 +31753,6 @@ Nesṛuḥ leɛqel-nneɣ.
 Nesṛuḥ leɛqel-nteɣ.
 Nesṭebṭeb-as i Nna Malḥa ɣef tewwurt sakin nerwel.
 Netqelleq fell-ak.
-Netqelleq fell-akent.
 Netqelleq fell-am.
 Netqelleq fell-awen.
 Netqelleq ɣef Tom.
@@ -32124,9 +31765,7 @@ Netta d abermellal.
 Netta d acennay.
 Netta d agnizi.
 Netta d agujil.
-Netta d amaru yelhan.
 Netta d amaynu da.
-Netta d amdan yelhan.
 Netta d amedyaz kan.
 Netta d amesnuder.
 Netta d anamur
@@ -32134,7 +31773,6 @@ Netta d anesbaɣur.
 Netta d aqbayli.
 Netta d aqcic n Mexico.
 Netta d argaz lɛali.
-Netta d argaz yelhan.
 Netta d argaz?
 Netta d aselmad-inu.
 Netta d aspenyuli.
@@ -32146,29 +31784,19 @@ Netta d winna yekkaten kan i Muḥend-is.
 Netta i ifazen akk deg-neɣ.
 Netta i meẓẓi fell-i.
 Netta ikess iysan.
-Netta ila axxam-nnes.
 Netta ineqqec s ugelzim kan.
-Netta izgel tamacint.
 Netta iɣil d taqaḥbit i d-yesserkeb.
-Netta iɣil ɛyiɣ aṭas.
-Netta maci d Azzayri.
-Netta maci d amenzug.
 Netta mačči d aqcic.
 Netta mačči d arraz i d iswi-s.
 Netta meẓẓiy fell-i.
 Netta mgal asenfar.
 Netta n taddart n Tala Xlil.
 Netta seg temdint-a.
-Netta swaswa am kemm.
-Netta swaswa am kečč.
 Netta teǧǧa-t-id ɣer jida-s.
 Netta ur d amenzug.
 Netta ur d baba-k.
 Netta ur d baba-m.
-Netta ur d baba-twen.
-Netta ur iwufeq Baya.
 Netta ur yelli d asaɣan.
-Netta ur yettess ara.
 Netta ur yettkeyyif.
 Netta ur yettsetḥi ara s leḥmala.
 Netta yebɣa ajdid, ma d nekk yerra-yi di rrif am uɣerbal aqdim.
@@ -32190,15 +31818,12 @@ Netta yettaki-d zik.
 Netta yettaɣ, yemma-s tettellif.
 Netta yettneɛtab ɣef tutlayt taqbaylit.
 Netta yettru, nettat tettru.
-Netta yetturar dihin.
 Netta yettwaṛebba-d.
 Netta yettxemmim kan ɣef teqbaylit.
-Netta yettṛebbi iḍan.
 Netta yeḥdeq yid-k?
 Netta yeḥdeq yid-m?
 Netta yeḥsa tudert maci d imenɣi.
 Netta yif-ik ljehd.
-Netta yif-ik s waṭas.
 Netta ɣezzif s waṭas
 Netta, ad ken-isseɣḍeṣ di tmes n Ṛṛuḥ Iqedsen.
 Netta, yalla ixeddem d anemhal deg yiwet n tkebbanit tameqqrant.
@@ -32207,7 +31832,6 @@ Nettaggad tili-nneɣ.
 Nettaker tiɣawsiwin.
 Nettakk-as udem n tilawt.
 Nettamen ayen nẓerr.
-Nettamen s teqbaylit.
 Nettanef-asen deg ubrid.
 Nettargu ad nesɛu axxam ad nidir akken.
 Nettargu s tutlayt taqbaylit.
@@ -32226,7 +31850,6 @@ Nettaru-d kan tifyar ur nɛeyyu.
 Nettas-d tanezzayt.
 Nettasem.
 Nettat ad sent-terr abazin, neɣ berkukes.
-Nettat ad teḍfer Si Remḍan.
 Nettat ad tt-yeḥjeb.
 Nettat d Tabriṭanit.
 Nettat d Tahulandit.
@@ -32241,7 +31864,6 @@ Nettat d tacebḥant.
 Nettat d tacennayt.
 Nettat d tacennayt?
 Nettat d tafremlit.
-Nettat d tamaynut da.
 Nettat d tamellalt.
 Nettat d tamelḥant.
 Nettat d tamezrawt.
@@ -32252,7 +31874,6 @@ Nettat d taneglust.
 Nettat d tanelmadt.
 Nettat d taneɣmast.
 Nettat d taqbaylit.
-Nettat d taqcict kan.
 Nettat d taselmadt.
 Nettat d tasertayt.
 Nettat d taweryuct.
@@ -32272,7 +31893,6 @@ Nettat meẓẓiyet? Ih.
 Nettat seg Fṛansa.
 Nettat seg tlawin yerẓan lqid-a.
 Nettat tebda yagi.
-Nettat tekkat apyanu.
 Nettat telha yid-i.
 Nettat teqqim, nitni rzan.
 Nettat teqreb ugar.
@@ -32281,7 +31901,6 @@ Nettat tessenhaz aqerruy yeffes zelmeḍ.
 Nettat tesseḥreṣ d akken tameddit-agi ad tt-tefru.
 Nettat tesɛa baba-s.
 Nettat tesɛa sin n warrac.
-Nettat tettaki-d zik.
 Nettat tettalel-iyi.
 Nettat tettayzag, trekkem.
 Nettat tetteḥriṭṭiw s wayen akk i tesɛa n lǧehd.
@@ -32289,10 +31908,8 @@ Nettat tettneɛtab ɣef tutlayt taqbaylit.
 Nettat tettraju, netta ur yebɣi ara ad d-yas, truḥ tekcem s axxam.
 Nettat tettwaqadar.
 Nettat tettwaxḍeb ma d nek nejlaɣ.
-Nettat tettwaṛebba-d.
 Nettat tettwaṛebba.
 Nettat tettxemmim kan ɣef teqbaylit.
-Nettat teǧǧa aɣerbaz.
 Nettat teɛweǧ deg ammas am taɣaṭ deg llyali.
 Nettat teḥqer-iyi.
 Nettat teṛja aṭaksi.
@@ -32308,7 +31925,6 @@ Nettat tḥemmel-ikem aṭas.
 Nettat tḥemmel-iken aṭas.
 Nettat tḥemmel-ikent aṭas.
 Nettat ur d-teclig deg wacemma.
-Nettat ur tettkeyyif.
 Nettat yettenfufuden,yeknan, yuḥwaǧen tayet-is ad tsened fell-as.
 Nettat, tella tettraǧu ad yeskiddeb fell-as.
 Nettat, yuɣ-itt lḥal deg wunnig wis-tlata.
@@ -32320,8 +31936,6 @@ Nettcemmiṛ iɣallen-nneɣ.
 Nettcemmiṛ iɣallen-nteɣ.
 Netteg deg-k laman.
 Netteg deg-m laman.
-Netteg deg-wen laman.
-Netteg laman deg Si Remḍan.
 Nettejɛuɛuy ussan d ilmawen.
 Nettekka.
 Nettemlil kan di tmeqbar.
@@ -32397,7 +32011,6 @@ Nettɛawan igellilen.
 Nettɣaḍ kemm d nekkini.
 Nettɣunzu takerriḍt.
 Nettεic s rruẓ.
-Nettḥadar ɣef medden.
 Nettḥebbiṛ ɣef teqbaylit.
 Nettṛaju melmi ara d-awḍen.
 Nettṛaju melmi ara d-awḍent.
@@ -32472,7 +32085,6 @@ Nezgel akk nnican.
 Nezgel asafag-nni.
 Nezgel asakal-nni.
 Nezgel tagnit-nni.
-Nezgel tamacint-nneɣ.
 Nezha yakk medden merra
 Nezha.
 Nezmer ad d-nalel.
@@ -32495,9 +32107,7 @@ Nezmer ad nemẓeṛ iḍ-aki?
 Nezmer ad neselmed s tmaziɣt tangiwin akk yellan.
 Nezmer ad nesgunfu.
 Nezmer ad nessiwel?
-Nezmer ad nexdem kra.
 Nezmer ad nečč tura?
-Nezmer ad neɛreḍ aya?
 Nezmer ad nkemmel tafugla?
 Nezmer ad nkemmel?
 Nezmer ad nruḥ ad nmeslay anda kra?
@@ -32537,12 +32147,10 @@ Neɛbed imsemmuden.
 Neɛceq s wallen.
 Neɛlem, mačči alamma tennam-aɣ-d.
 Neɛlem.
-Neɛreq deg teẓgi-nni.
 Neɛreq deg usafag.
 Neɛreq deg usakac.
 Neɛreḍ ad d-nefk kra n tulmisin ɣef usmeskel n tesnilest timserwest.
 Neɛreḍ ad ten-nwelleh.
-Neɛreḍ-it-id s axxam.
 Neɛreḍ.
 Neɛya deg lekdubat.
 Neɛya deg ṛṛwaḥ d uwelli.
@@ -32587,7 +32195,6 @@ Neɣ: D acu ara nels?
 Neɣ: D acu ara nsew?
 Neɣleq asenduq-nni.
 Neɣleq.
-Neɣli d timendeffirt.
 Neɣli deg yirrebi-k a yiḍ.
 Neɣli deg waluḍ.
 Neɣli deg yisunan.
@@ -32638,7 +32245,6 @@ Neḥseb.
 Neḥwaj ad neccucef.
 Neḥwaj aṭas n waman.
 Neḥwaj kra n yiwen.
-Neḥwaj tafrut i wudi.
 Neḥwaǧ amussu aseklan.
 Neḥwaǧ awal amaynut?
 Neḥwaǧ aẓawan.
@@ -32676,14 +32282,10 @@ Neṭṭeḍ deg yif adɣes.
 Neṭṭeṣ deg yiwen n wusu.
 Neṭṭqen γur-s: S tidett ay uccen, ur d-tewwiḍ ara ul-ik?
 Neẓra abeddel d awezɣi, maca d adday kan fiɣef ad yesseḥibiber umdan.
-Neẓra anwa ay k-ilan.
-Neẓra anwa ay t-ilan.
 Neẓra ayen yelhan.
 Neẓra azal yesɛa deg tikli i d-telḥa timmeɣnest ar ass-a, ɛlaḥsab n umeslay n wid yeddren ineḍruyen-a.
 Neẓra belli tuget n tikli ama n yimrecḥen ara yesɛeddin, neɣ d tiwaculin-nsen i ten-id-yettsaɛafen.
-Neẓra d acu ay nebɣa.
 Neẓra d acu ay tgam.
-Neẓra d acu ay tgamt.
 Neẓra d akken seg kra n tamiwin, d tuɣalin s kra n yisurifen ɣer deffir i yeṭṭfen amnaṛ.
 Neẓra d kečč i yerẓan asfaylu.
 Neẓra i neswa, ar ass-a nedder.
@@ -32722,7 +32324,6 @@ Nfulki.
 Nga aserwes gar umatar udmawan, d uskim n tmeẓri.
 Nga aya s tmeɛmada.
 Nga aya.
-Nga aṭas n tuccḍiwin.
 Nga daɣen aserwes gar umyag n tigawt, d umtag n tɣara.
 Nga tazrawt i tsertit tadamsant unabaḍ.
 Nga-t s timmad-nneɣ.
@@ -32762,34 +32363,25 @@ Niqal amek ihi?
 Niqal tella d tidukla, syin ɣer-s tuɣal d tuddsa akken i t-id-nniɣ.
 Niqal tumen d azɣal kan i as-ixedmen akken.
 Nitenti bdant yagi.
-Nitenti bɣant talwit.
 Nitenti d Tirusiyin.
 Nitenti d Tizwawin.
 Nitenti d imdanen.
-Nitenti d ticennayin.
-Nitenti d ticennayin?
-Nitenti d timezrawin.
 Nitenti d timidiwin.
 Nitenti d timidiwin?
 Nitenti d timsulta.
 Nitenti d tinaẓurin.
-Nitenti d tiselmadin.
 Nitenti d tixabitin.
-Nitenti d tixeddaɛin.
 Nitenti d tuzzigin.
 Nitenti d tuḍɛifin.
-Nitenti qerbent ugar.
 Nitenti ugarent Dda Lmulud.
 Nitenti ugarent Saɛid Waɛmaṛ.
 Nitni bɣan talwit.
 Nitni d Ibriṭaniyen.
 Nitni d Ijuṛjiyen.
 Nitni d Iqbayliyen.
-Nitni d arraw n xali.
 Nitni d icennayen.
 Nitni d icennayen?
 Nitni d imasiḥiyen.
-Nitni d imaynuten da.
 Nitni d imeddukal.
 Nitni d imeddukal?
 Nitni d imegliyen.
@@ -32816,10 +32408,8 @@ Nitni qerben ugar.
 Nitni rebḥen idrimen, kenwi trebḥem cciɛa.
 Nitni seg Ustṛalya.
 Nitni ssmaden-iyi.
-Nitni ssutren-d ugar.
 Nitni ttwaṛebban-d.
 Nitni ur ttkeyyifen.
-Nitni ur wufqen Baya.
 Nitni xeddmen ɣer-i.
 Nitni xeṣren aṭas.
 Nitni zhan yid-neɣ.
@@ -32840,7 +32430,6 @@ Nker!
 Nker.
 Nkeyyef.
 Nkeẓ.
-Nla kraḍ n yisafagen.
 Nla lḥeqq, neɣ uhu?
 Nleḥḥu, ur neqḍiɛ abrid.
 Nlul-d akken ad nesdukkel tikli.
@@ -32952,7 +32541,6 @@ Nnant-iyi-id.
 Nnant-iyi-t-id.
 Nnaqsa d aqraḥ n umelɣiɣ, yettili-d ugar ɣer tlawin wala irgazen.
 Nnaɛma iluqeb-itt walim.
-Nnaɣ ɣef yizerfan-ik.
 Nnaɣ.
 Nnbi Muḥemmed yejreḥ deg umennuɣ n Uḥud, qrib yemmut.
 Nnbi Muḥemmed, tazwara d Lquds i yerra d lqebla.
@@ -32973,7 +32561,6 @@ Nnek tesnasɣalt-a?
 Nneknan.
 Nneknant.
 Nnekwa-s iddem-itt waḍu.
-Nnekwa-w d taqbaylit.
 Nnem tesnasɣalt-a?
 Nnem ti?
 Nnem wa?
@@ -33087,8 +32674,6 @@ Nniɣ-as yella kra i ẓriɣ.
 Nniɣ-as ṛwaḥ, tenna-d ih!
 Nniɣ-as.
 Nniɣ-as: Di leɛnaya-m, efk-iyi-d ad sweɣ.
-Nniɣ-as: Ḥemmleɣ-kem.
-Nniɣ-asen ad d-uɣaleɣ
 Nniɣ-asen ad yi-ganin.
 Nniɣ-asen ayen akk ur ḥemmleɣ ara.
 Nniɣ-asen kullec.
@@ -33124,8 +32709,6 @@ Nnumeɣ d usemmiḍ-a.
 Nnumeɣ d wannect-a.
 Nnumeɣ ḥedd ur y-iḥemmel.
 Nnummeɣ aselkim-a.
-Nnummeɣ lḥal asemmaḍ.
-Nnummeɣ ttetteɣ aṭas.
 Nnummeɣ ttɛawazeɣ.
 Nnummeɣ.
 Nnuɣen wway-gar-asen.
@@ -33150,7 +32733,6 @@ Nqeddec ɣef tutlayt taqbaylit.
 Nqeddem-d iman-nneɣ.
 Nqeddem-d iman-nteɣ.
 Nqedwi.
-Nqerreb ɣer wanu-nni.
 Nqesd-ik-id s lfutuḥ.
 Nqesser yerna qrib ad nfakk taduṭ-nni s uqerdec.
 Nqeyyel.
@@ -33174,12 +32756,10 @@ Nruḥ gefgafi!
 Nruḥ lwaḥi ɣer teftist.
 Nruḥ neɣra-d i iɛeggalen n lkumiti ad ɛebbin aɣyul-nni yemmuten.
 Nruḥ-d asif asif, lḥal d tameddit.
-Nsan deg teftist-nni.
 Nsan deg udrar i yetran, tettfuḥ amzun d lqahwa.
 Nsan din.
 Nsant deg teftist.
 Nseffeq.
-Nsegger timlilit-nni.
 Nsellem-as tazzla i fuffu.
 Nsemma-yasen akken.
 Nsemɛen-d ɣef berru.
@@ -33232,8 +32812,6 @@ Nudaɣ fell-asent, ufiɣ-tent.
 Nudaɣ fell-awen, ufiɣ-ken.
 Nudaɣ fell-awent, ufiɣ-kent.
 Nudaɣ meṛṛa ɣef Dda Lmulud.
-Nudaɣ ɣef texxamt-iw.
-Nudaɣ ɣef tsarut-nni.
 Nudaɣ-d akk agmam.
 Nudaɣ-d kra imslayen.
 Nudef seg tzewwut.
@@ -33242,9 +32820,7 @@ Nuder-d seg tmacint.
 Nuder-d.
 Nufa iman-nneɣ.
 Nufa yiwet n teqcict tessirid iceṭṭiḍen deg wasif.
-Nufa ziɣ ṭṭsen merra.
 Nufa-d Mari.
-Nufa-d anda ay tella.
 Nufa-t-id yedder.
 Nugad ad yenger laṣel.
 Nugad akk.
@@ -33273,13 +32849,11 @@ Nunef i wegraw nerra-tt ar leǧwameɛ.
 Nunef-asen kan sfuǧǧuɣen.
 Nunez.
 Nura-d aṛabul-nni.
-Nurar aṭas n wuraren.
 Nurar deg teftist.
 Nurar tiqqar ass mi nella meẓẓiyit.
 Nurez iman-nneɣ.
 Nurǧa.
 Nusa-d ad k-nemlil.
-Nusa-d ad kem-nemlil.
 Nusa-d ad kem-nẓer.
 Nusa-d ad ken-nẓer.
 Nusa-d ad kent-nẓer.
@@ -33287,8 +32861,6 @@ Nusa-d merra.
 Nusa-d seg Spenyul.
 Nusa-d yakan akken ad naǧew lqut.
 Nusem.
-Nutenti d Tikurdiyin.
-Nutenti d Titunsiyin.
 Nutenti d tiqbayliyin.
 Nutenti ttneɛtabent ɣef tutlayt taqbaylit.
 Nutenti ttxemmiment kan ɣef teqbaylit.
@@ -33342,7 +32914,6 @@ Nuḥwaǧ kra n yiwet.
 Nuḥwaǧ kra n ḥedd.
 Nwa
 Nwala ayen nečča, ur nwala ara aɣ-yeččen.
-Nwala tiliẓri iḍelli.
 Nwala tɛerḍeḍ kra n yilguritmen akken ad tegzu tmacint tajerrumt n teqbaylit.
 Nwala yiwen n usaru.
 Nwala-ten mi ddan.
@@ -33352,7 +32923,6 @@ Nwan akk medden tamaziɣt d tutlayt.
 Nwan d agerruj i yellan ddaw wakal.
 Nwan ddunit d awal kan, waqila?
 Nwan ddunit d awal kan.
-Nwan lḥebs d asgunfu.
 Nwan s "besmelleh" ara tali tmurt!
 Nwan yeṭṭef-itt d tamerhunt, ziɣ d nettat i yeqqimen ɣur-s.
 Nwant ddunit d awal kan, waqila?
@@ -33369,7 +32939,6 @@ Nwent ti?
 Nwent wa?
 Nwent wi?
 Nwerreq-iten.
-Nwet aɣrab s ubunyiw.
 Nwet-it ɣer yiɣef.
 Nwet-itt ɣer yiɣef.
 Nwexxer tadyant-nni.
@@ -33380,7 +32949,6 @@ Nwiɣ ad d-yas.
 Nwiɣ ad k-fehmeɣ.
 Nwiɣ ad tɛeqlem Dda Lmulud.
 Nwiɣ ad tɛeqlem Saɛid Waɛmaṛ.
-Nwiɣ ad tɛeqlemt Si Remḍan.
 Nwiɣ ad tɛeqleḍ Dda Lmulud.
 Nwiɣ ad tɛeqleḍ Saɛid Waɛmaṛ.
 Nwiɣ ad tɛeqleḍ Tom.
@@ -33389,7 +32957,6 @@ Nwiɣ akken nniḍen.
 Nwiɣ akken-nniḍen.
 Nwiɣ d netta.
 Nwiɣ d nettat.
-Nwiɣ d wa ara tebɣuḍ.
 Nwiɣ ddunit d awal kan.
 Nwiɣ fsiɣ i tkersa.
 Nwiɣ imeddukal-iw akk tifeḍ-ten.
@@ -33428,7 +32995,6 @@ Nǧeɛ aɣyul, ifhem uzger.
 Nǧeṛ.
 Nɛedbaṛ.
 Nɛedda tilas.
-Nɛedda-d nnig usigna.
 Nɛeyyen i temsulta.
 Nɛeḍḍel.
 Nɛeṭṭel kra bac ad naweḍ.
@@ -33605,8 +33171,6 @@ Nḥemmel ad nexdem ticeɛbanin.
 Nḥemmel ad nmeslay.
 Nḥemmel akk tutlayt taqbaylit.
 Nḥemmel arraw-nneɣ.
-Nḥemmel axeddim-nneɣ.
-Nḥemmel axeddim-nteɣ.
 Nḥemmel aydi-nneɣ.
 Nḥemmel aydi-nteɣ.
 Nḥemmel dima ayen nesεa.
@@ -33617,10 +33181,7 @@ Nḥemmel timɛayin n Mḥend uccen, d twuɣa-s.
 Nḥemmel tudert s yijeǧǧigen, d waman ḥlawen.
 Nḥemmel tutlayt-nneɣ yellan d taqbaylit.
 Nḥemmel-ik s tidet.
-Nḥemmel-ikem s tidet.
-Nḥemmel-iken s tidet.
 Nḥemmel-ikent akk.
-Nḥemmel-iten deg sin.
 Nḥeyyaṛen ɣef uqcic-nni.
 Nḥeṛṛec lemwas.
 Nḥulfa s wexxam yengugi.
@@ -33701,9 +33262,6 @@ Qebleɣ lecruṭ-ik.
 Qebleɣ nnig wul-inu.
 Qebleɣ tardast uẓekka.
 Qebleɣ tiwitilin-nwen.
-Qebleɣ tiwtilin-nnek.
-Qebleɣ tiwtilin-nnem.
-Qebleɣ tiwtilin-nwen.
 Qebleɣ.
 Qebḥen yilsawen-nkent.
 Qebḥen yilsawen-nwen.
@@ -33737,10 +33295,8 @@ Qelɛeɣ.
 Qerb-d a tislit, afus-im yezyen.
 Qerb-d a tislit, ay imɣi n uftis.
 Qerbeɣ ad d-ẓgeɣ tafunast-iw tewwet-iyi-d s tseṭṭa-s.
-Qerrben ɣer wanu-nni.
 Qerrben, mmɣen ɣef Yasuɛ dɣa ṭṭfen-t.
 Qerrbet-d cwiṭ ɣer da.
-Qerrbeɣ ɣer wanu-nni.
 Qerrbeɣ ɣer-s ciṭ, netta iwexxer ɣer deffir.
 Qerrbeɣ.
 Qerrceɣ-am egg awackan i yinebgi i am-d-ikecmen.
@@ -33792,7 +33348,6 @@ Qeɛdeɣ iman-iw.
 Qeḍran ma yezwer s imi, tament ma teggra-d i wumi.
 Qeḍɛen At Mraw akmaz.
 Qeḍɛen imrabḍen akmaz.
-Qeḍɛeɣ layas fell-as!
 Qeḥḍen warrac n wass-a.
 Qeṛḥen-iyi imeẓẓuɣen-iw.
 Qeṛṛeḥ.
@@ -33869,7 +33424,6 @@ Qqaren-d yuḍen mliḥ.
 Qqaren-iyi Hisashi.
 Qqaren-iyi Ḥmed.
 Qqaren-iyi-d nḥemmel axeddim-im.
-Qqareɣ aɣmis yal ass.
 Qqareɣ aṭas.
 Qqareɣ idlisen aṭas.
 Qqareɣ s waṭas.
@@ -33905,19 +33459,14 @@ Qqel acemma ɣer deffir.
 Qqel ar deffir!
 Qqel ɣef yifadden!
 Qqel ɣer tkeṛṛust.
-Qqel ɣer ukersi-nnek.
-Qqel ɣer ukersi-nnem.
 Qqel ɣer uxxam-nnek.
 Qqel ɣer uxxam-nnem.
 Qqel ɣer uxxam.
 Qqel ɣer wusu!
-Qqel-d imir-a ya kan.
 Qqel-d umbeεd.
 Qqel-d zik s axxam.
-Qqel-d zik ɣer uxxam.
 Qqel-d zik!
 Qqel-d ɣer da!
-Qqel-d ɣer uxxam zik.
 Qqel-d ɣer uxxam.
 Qqel-d.
 Qqen allen-ik ad twaliḍ.
@@ -33974,7 +33523,6 @@ Qqim deg uxxam.
 Qqim di leɛnaya-k!
 Qqim di leɛnaya-k.
 Qqim di leɛnaya-m.
-Qqim dihin tesseḥmuḍ.
 Qqim din ad ak-tent-in-awiɣ.
 Qqim din!
 Qqim din.
@@ -34003,7 +33551,6 @@ Qqim ɣer ṭṭabla.
 Qqim ɣur-s kra n wussan, alamma iɛedda-as wurrif i gma-k.
 Qqim ṭṛankil!
 Qqim!
-Qqim, ma ulac aɣilif.
 Qqim, yella umkan.
 Qqim.
 Qqimem akken ur ttḥerrikem ara akk.
@@ -34017,14 +33564,12 @@ Qqimem ṭṛankil!
 Qqimem.
 Qqimemt ad tensemt.
 Qqimemt akken ur ttḥerrikemt ara akk.
-Qqimemt anda tellamt.
 Qqimemt cwit akked-i.
 Qqimemt cwiṭ yid-i.
 Qqimemt da!
 Qqimemt dagi.
 Qqimemt deg beṛṛa.
 Qqimemt deg talwit.
-Qqimemt deg tkeṛṛust.
 Qqimemt deg uxxam.
 Qqimemt di leɛnaya-nkent.
 Qqimemt lwaḥid.
@@ -34049,8 +33594,6 @@ Qqimen kan tteddun.
 Qqimen ldin aqemmuc-nsen.
 Qqimen rrif n wasif.
 Qqimen ɣef yisennanen.
-Qqimen ɣer tama-nnes.
-Qqimen, gan tawinest.
 Qqimen-d kan sin n yixenduqen, nemmuger-d deg-sen uguren di lebni-nsen.
 Qqimen.
 Qqiment akk tɛelǧtin-iw d tijdidin.
@@ -34059,8 +33602,6 @@ Qqiment d timidiwin.
 Qqiment deg tenwalt.
 Qqiment deg wadur.
 Qqiment kan akken i llant, ḍeɛfent.
-Qqiment kan tteddunt.
-Qqiment rrif n wasif.
 Qqiment ɣef yisennanen.
 Qqiment ɣer tselnin-nni timezwura, ɣef yiri n wasif.
 Qqiment-d d taqisust.
@@ -34086,7 +33627,6 @@ Qqimet.
 Qqimeɣ ciṭ aked kenza sdat n uxxam-nsen nqesser.
 Qqimeɣ d xali.
 Qqimeɣ d εemmi.
-Qqimeɣ da sin wussan.
 Qqimeɣ ddaw n tzemmurt.
 Qqimeɣ deg sbiṭar azal n smana d uzgen.
 Qqimeɣ deg uxxam.
@@ -34100,10 +33640,8 @@ Qqimeɣ ɣef tgecrar.
 Qqimeɣ ɣef tisegnit.
 Qqimeɣ ɣef wagens.
 Qqimeɣ ɣef yisennanen.
-Qqimeɣ ɣer tama-nnes.
 Qqimeɣ ɣer yiri-s.
 Qqimeɣ ɣur Tom deg Boston.
-Qqimeɣ, qqareɣ adlis.
 Qqimeɣ.
 Qqlemt-d.
 Qqlen akk ar deffir.
@@ -34127,7 +33665,6 @@ Qqlen ɣer tnefrut.
 Qqlen ɣer tneččit.
 Qqlen ɣer tneɣlust.
 Qqlen ɣer tsertit.
-Qqlen ɣer tḥanut-nni.
 Qqlen ɣer ugelmim.
 Qqlen ɣer umezgun.
 Qqlen ɣer umsawen.
@@ -34140,14 +33677,11 @@ Qqlen ɣer ustidyu.
 Qqlen ɣer uɣerbaz.
 Qqlen ɣer yicahen.
 Qqlen-d seg Bgayet.
-Qqlen-d seg Lezzayer.
 Qqlen-d seg ssinima.
 Qqlen-d seg tbanka.
 Qqlen-d seg teftist.
 Qqlen-d seg teftist?
-Qqlen-d seg tmesgida.
 Qqlen-d seg tnarit.
-Qqlen-d seg tneɣlust.
 Qqlen-d seg ucanṭi.
 Qqlen-d seg udrar.
 Qqlen-d seg umahil.
@@ -34158,7 +33692,6 @@ Qqlen-d seg usalay.
 Qqlen-d seg usanay.
 Qqlen-d seg usegnaf.
 Qqlen-d seg uɣerbaz.
-Qqlen-d seg yimsujji.
 Qqlen-d seg yimuras.
 Qqlen-d yimezrawen.
 Qqlen-d yinelmaden.
@@ -34201,20 +33734,13 @@ Qqlent ɣer uẓawan.
 Qqlent ɣer wulzuz.
 Qqlent ɣer yimsujji.
 Qqlent-d seg Bgayet.
-Qqlent-d seg ssinima.
 Qqlent-d seg tbanka.
-Qqlent-d seg teftist.
 Qqlent-d seg tnarit.
 Qqlent-d seg udrar.
 Qqlent-d seg umahil.
-Qqlent-d seg umezgun.
 Qqlent-d seg unafag.
-Qqlent-d seg uneẓruf.
 Qqlent-d seg usalay.
 Qqlent-d seg usanay.
-Qqlent-d seg ustidyu.
-Qqlent-d seg uɣerbaz.
-Qqlent-d seg yimuras.
 Qqlent-d tmezrawin.
 Qqlent-d ɣer tkanna.
 Qqlent-d.
@@ -34227,13 +33753,11 @@ Qqleɣ ɣer uxxam zik.
 Qqleɣ-d deg usakal.
 Qqleɣ-d.
 Qqnem tuggas-nwen.
-Qqnemt irkasen-nwent.
 Qqnemt tuggas-nkent.
 Qqnen s tcekkalin.
 Qqnen-t s tcekkalin.
 Qqnen.
 Qqnent lbizan, i lehna idumen.
-Qqnent-t s tcekkalin.
 Qqnent.
 Qqnet irkasen-nwen.
 Qqneɣ irkasen-inu.
@@ -34271,7 +33795,6 @@ Qrib ad yekcem ɣer uɣerbaz.
 Qrib ad yeḥmu lḥal.
 Qrib d Tubeṛ.
 Qrib d amulli-inu.
-Qrib d azgen n wakud.
 Qrib d lawan n usaɣur
 Qrib d tafsut.
 Qrib i tt-rriɣ d tameṭṭut-iw.
@@ -34398,7 +33921,6 @@ Reggmen Ben Ɣebriṭ mi sen-tekkes "besmelleh" deg idlisen uselmed.
 Reglen fell-as yiberdan.
 Reglen wanzaren-iw.
 Reglen-t.
-Regleɣ imeẓẓuɣen-inu.
 Regmen-t.
 Rekben aɣerrabu-nni.
 Rekbeɣ.
@@ -34472,7 +33994,6 @@ Rfiɣ cwiṭ fell-am.
 Rfiɣ.
 Rfu.
 Rgagint tgecrar-iw ur ẓriɣ ara acu ara xedmeɣ.
-Rgel tawwurt n uxxam.
 Rgel.
 Rgem.
 Ribika tesla i wayen akk i s-inna Isḥaq i mmi-s Meẓyan.
@@ -34487,17 +34008,13 @@ Riɣ ad iliɣ yid-k.
 Riɣ ad iliɣ yid-m.
 Riɣ ad iliɣ yid-s.
 Riɣ ad iliɣ yid-wen.
-Riɣ ad iliɣ yid-went.
 Riɣ ad merrḥeɣ cwiṭ.
 Riɣ ad nekreɣ zik.
 Riɣ ad qqimeɣ yid-s.
-Riɣ ad ssiwleɣ yid-k.
-Riɣ ad ssiwleɣ yid-m.
 Riɣ ad sɣeɣ adlis.
 Riɣ ad t-id-ssegzuɣ.
 Riɣ ad waliɣ isura.
 Riɣ ad waliɣ itran.
-Riɣ ad waliɣ tiliẓri.
 Riɣ ad ɣreɣ adlis.
 Riɣ ad ṛuḥeɣ ad sweɣ kra.
 Riɣ aman.
@@ -34515,12 +34032,8 @@ Riɣ učči n Leqbayel.
 Riɣ-k war tiwtilin.
 Riɣ-k!
 Riɣ-k.
-Riɣ-kem aṭas a yemma!
-Riɣ-kem war tiwtilin.
 Riɣ-kem!
 Riɣ-kem.
-Riɣ-ken akken tellam.
-Riɣ-ken war tiwtilin.
 Riɣ-ken!
 Riɣ-ken.
 Riɣ-kent kennemti.
@@ -34557,7 +34070,6 @@ Rjumt nnuba-nkent.
 Rjumt-aɣ!
 Rjut ad nẓer amek ara tbeddel teswiεt.
 Rjut ad nẓer amek ara tili lḥala.
-Rjut alamma d ssetta.
 Rjut cweyya!
 Rjut da!
 Rjut-aɣ!
@@ -34692,7 +34204,6 @@ Rnut tifyar, rnut!
 Rnut!
 Rnut-as ccḍeḥ s userwal aberwali!
 Rnut-as kan ccrab, teǧǧem-t.
-Robert neɣɣar-as Bob.
 Robinson Crusoe yufa-d iman-is weḥd-s deg yiwet n tegzirt.
 Ron iḥemmel asurf.
 Rqiqet neɣ hrawet.
@@ -34768,7 +34279,6 @@ Rran-iyi-t-id.
 Rran-iyi-ten-id.
 Rran-iyi-tent-id.
 Rran-iyi-tt-id.
-Rran-k amzun ulac-ik.
 Rran-k deg uɛewwiq.
 Rran-kem deg uɛewwiq.
 Rran-ken deg uɛewwiq.
@@ -34857,7 +34367,6 @@ Rremt-t-id!
 Rret ddhen-nwen!
 Rret ddhen-nwen.
 Rret-as ticekkalin.
-Rret-d tiwriqin-nwen.
 Rret-t ɣer lkuca ad yeww.
 Rret-t-id!
 Rreẓ.
@@ -34866,7 +34375,6 @@ Rrif rrif n ukeṛmus.
 Rrif rrif udarnu.
 Rriɣ Yuba ger wallen-iw.
 Rriɣ allaɣ-iw ɣer deffir amzun ugiɣ ad amneɣ.
-Rriɣ aḍar ɣer deffir.
 Rriɣ i teccuyt, dhiɣ deg usekles armi terɣa.
 Rriɣ iman-iw d ungif.
 Rriɣ iman-iw ur sliɣ ara.
@@ -34882,14 +34390,12 @@ Rriɣ-am leqder.
 Rriɣ-as amawal-nnes.
 Rriɣ-as tablaḍt i wul.
 Rriɣ-as ticekkalin.
-Rriɣ-as, nniɣ-as ala.
 Rriɣ-as,-nniɣ-as ala.
 Rriɣ-as: Anɛam.
 Rriɣ-d akk iẓerman-iw.
 Rriɣ-d iḍ-a iɛeddan.
 Rriɣ-d iḍ-a iεeddan.
 Rriɣ-d.
-Rriɣ-k amzun ulac-ik.
 Rriɣ-k deg uɛewwiq.
 Rriɣ-kem deg uɛewwiq.
 Rriɣ-ken deg uɛewwiq.
@@ -34960,8 +34466,6 @@ Ruḥ ad tcucfeḍ, tesnezfeḍ-iyi.
 Ruḥ ad teṭṭseḍ!
 Ruḥ ad teṭṭseḍ, ruḥ!
 Ruḥ ad tgeḍ kra n waddal.
-Ruḥ ad tɛawneḍ gma-k.
-Ruḥ ad tɛawneḍ gma-m.
 Ruḥ ad tεawneḍ gma-k.
 Ruḥ ad tεawneḍ gma-m.
 Ruḥ akin tesxerbeḍ liman-nneɣ.
@@ -34971,7 +34475,6 @@ Ruḥ awi-t-id!
 Ruḥ awi-t.
 Ruḥ ay aɛrab ar tafsut!
 Ruḥ bru-d i lmal.
-Ruḥ bru-yas-d i lmal.
 Ruḥ ihi ar-ticki.
 Ruḥ ihi ar-tufat.
 Ruḥ kan axir s taḍsa.
@@ -35050,7 +34553,6 @@ Ruḥeɣ iḍelli ɣer din.
 Ruḥeɣ s axxam.
 Ruḥeɣ s zzerban maḍi.
 Ruḥeɣ ula d nekk ɣer din.
-Ruḥeɣ ula ɣer Tubiret.
 Ruḥeɣ xedmeɣ kra n waddal.
 Ruḥeɣ ɣef ssaɛa kan.
 Ruḥeɣ ɣef ssaεa kan.
@@ -35098,7 +34600,6 @@ Rxis mliḥ uzebg-a.
 Rxisit wakraren da.
 Rzan ɣef jida-tsen.
 Rzant ar temnaḍt ur ssinent.
-Rzant ɣef jida-tsent.
 Rzef.
 Rziɣ ar Ustṛalya.
 Rziɣ iḍelli ɣer din.
@@ -35122,7 +34623,6 @@ Rɣant akk tzemrin-nneɣ seg tmes-nni yezrin.
 Rɣant akk tẓegwa-nneɣ.
 Rɣant akk tẓegwa.
 Rɣant.
-Rɣiɣ akken ad rebḥeɣ.
 Rɣiɣ deg uḍaḍ.
 Rɣiɣ, ad ɛemmdeɣ i ccyaḍ-iw.
 Rɣiɣ-d.
@@ -35143,7 +34643,6 @@ Rẓan-tt.
 Rẓem tiwwura-inna!
 Rẓiɣ cckal n uzaglu-nwen, sbeddeɣ lqedd-nwen.
 Rẓiɣ tazewwut-nni.
-Rẓiɣ tismaqqalin-inu.
 Rẓiɣ yiwen n lkas.
 Rẓiɣ yiwen n ugra.
 Rẓiɣ-d asalu tadamcact i wegris.
@@ -35218,8 +34717,6 @@ S leɛqel-nwen.
 S leεtab kan ara d-yawi yiwen kra.
 S leḥzen i d-terra tawwurt n yemma-s.
 S lferḥ ara d-rreɣ ɣef usteqsi-inek.
-S lferḥ ara k-nɛiwen.
-S lferḥ ara m-d-cnuɣ.
 S lferḥ ara xedmeɣ yid-k.
 S lferḥ meqqren i sliɣ i lexbar, acku arraz Racid Ɛellic yesɛa azal meqqren i umyaru.
 S lferḥ n wid imeggren.
@@ -35365,7 +34862,6 @@ S tidet tebɣiḍ ad tebruḍ?
 S tidet tenwiḍ ad k-ssudneɣ?
 S tidet tenwiḍ ad kem-ssudneɣ?
 S tidet tessewhameḍ.
-S tidet tesɛiḍ lxeṭṭ.
 S tidet tesεiḍ lxeṭṭ.
 S tidet tettamneḍ leḥwayeǧ-nni?
 S tidet tettxemmimeḍ ad tebrud?
@@ -35413,7 +34909,6 @@ S umata, nufa-d ayen irewsen yugar ayen yemgaraden.
 S uqeṛṛu-k!
 S urumi ar d iruḥ, ad aɣ-d-grin wussan yelhan.
 S usafag, tanemmirt.
-S usawal ay as-teɣra.
 S uskasi i ferrun lumuṛ.
 S utraktur i kerrzen nutni.
 S uxxam akk d ṣṣebyan.
@@ -35431,11 +34926,8 @@ S wacu ay kem-wten?
 S wacu ay kem-wtent?
 S wacu ay ken-wten?
 S wacu ay kent-wten?
-S wacu ay kent-wtent?
 S wacu ay tettewtem?
-S wacu ay tettewtemt?
 S wacu ay tettewteḍ?
-S wacu ay yettwaxdem?
 S wacu i d-cnan? S Teqbaylit neɣ s Tefṛansist?
 S wacu i d-tettewteḍ?
 S wacu i k-d-wtent?
@@ -35529,7 +35021,6 @@ Sameḥ-aɣ.
 Sameḥ-iyi ɣef yiḍelli.
 Sameḥ-iyi!
 Sameḥ-iyi, ad k-samḥeɣ.
-Sami ad d-yaf tifrat.
 Sami ad yeqqim da.
 Sami ad yeḥwij aya.
 Sami ad yili yemmut kan.
@@ -35546,18 +35037,14 @@ Sami d Layla uḍnen.
 Sami d amdan amagnu.
 Sami d amdan.
 Sami d aselmad iggerzen.
-Sami d awezzlan mliḥ.
 Sami d ineslem tura.
-Sami d tidet d ungif.
 Sami daɣen yella d ilemẓi.
 Sami dima yettess.
 Sami dinna i yella.
 Sami i caweṛ Layla.
 Sami iban-d yuggad.
-Sami ibeddel aɣerbaz.
 Sami idemmer Layla.
 Sami ifehhem kullec.
-Sami iga amahil-nnes.
 Sami igezzu kullec.
 Sami iguǧǧ ɣer din.
 Sami ikemmel awal.
@@ -35567,7 +35054,6 @@ Sami ila inebgiwen.
 Sami ila tiwlafin.
 Sami ilaq ad yečč.
 Sami imuhel yid-neɣ.
-Sami imuhel yid-nteɣ.
 Sami inu.
 Sami inuda kullec.
 Sami iqarr-d kullec.
@@ -35581,15 +35067,12 @@ Sami iruḥ s usu.
 Sami issawel i bugaṭu.
 Sami issawel i yemma-s.
 Sami iwala argaz-a.
-Sami iwala axxam-nni.
 Sami iwala kullec.
 Sami iwufeq Layla.
 Sami ixdem tafelquqt.
 Sami ixeyyeb Layla.
-Sami iɛawed yesla-as.
 Sami iɣunza imcac.
 Sami iḍall d asawen.
-Sami iḥemmel tilelli.
 Sami iṭebbeg Layla.
 Sami la ak-d-yeɣɣar.
 Sami la am-d-yeɣɣar.
@@ -35617,25 +35100,20 @@ Sami yebda yettaḍen.
 Sami yebda yetteddu.
 Sami yebda yettru.
 Sami yebded yid-sen.
-Sami yebɣa ad yeqqim.
 Sami yebɣa aydi-a.
 Sami yecfa ɣef yiḍ-nni.
 Sami yedhel Layla.
 Sami yeffeɣ ad yečč.
 Sami yefhem Layla.
 Sami yefhem kullec.
-Sami yefka-d tiririt.
 Sami yefqeɛ.
 Sami yeggez Layla.
 Sami yegza kullec.
 Sami yejjem Layla.
 Sami yekcem ar tḥanutt.
-Sami yella d ameslub.
-Sami yella d amwanes.
 Sami yella d awnaf.
 Sami yella d ukyis.
 Sami yella deffir-i.
-Sami yella deg uxxam.
 Sami yella di Tahiti.
 Sami yella dinna.
 Sami yella icennu.
@@ -35646,14 +35124,12 @@ Sami yella ixaq.
 Sami yella izerrew.
 Sami yella iḥemmel-aya.
 Sami yella yeccucuf.
-Sami yella yedder da.
 Sami yella yefcel.
 Sami yella yeffud.
 Sami yella yefqeɛ ciṭuḥ.
 Sami yella yejhel.
 Sami yella yemmut.
 Sami yella yemreg.
-Sami yella yeskerkis.
 Sami yella yesleb.
 Sami yella yessulli.
 Sami yella yetteddu.
@@ -35674,16 +35150,13 @@ Sami yemmuger-d layla.
 Sami yemmut dindin.
 Sami yenna i baba-s.
 Sami yenna-d azul.
-Sami yennermes Layla.
 Sami yenneḥcam mliḥ.
 Sami yennuɣ aṭas.
 Sami yenɣa aɣilas.
 Sami yeqbel Layla.
 Sami yeqbel dindin.
-Sami yeqbel s tumert.
 Sami yeqqim deg uxxam.
 Sami yeqqim usawen.
-Sami yeqqim yessaram.
 Sami yeqqim yid-i.
 Sami yeqres fell-i.
 Sami yerfa.
@@ -35692,12 +35165,8 @@ Sami yerra s agafa.
 Sami yerra-d aqras.
 Sami yerra-d tiyita.
 Sami yerẓa kullec.
-Sami yesla-d i Layla.
 Sami yesla-d i waya.
 Sami yessaggad-iyi.
-Sami yessagged Layla.
-Sami yessawel-aneɣ-d.
-Sami yessefk ad yečč.
 Sami yessen Layla.
 Sami yessuden Layla.
 Sami yessumer-d aya.
@@ -35714,12 +35183,9 @@ Sami yetter Layla.
 Sami yettezmumug.
 Sami yettmahal da.
 Sami yettmahal din.
-Sami yettmahal yid-i.
-Sami yettqadar Layla.
 Sami yettwacewwel.
 Sami yettwaskurma.
 Sami yettwasmemmi.
-Sami yewhem deg waya.
 Sami yewwi tastaɣt.
 Sami yewwi-yaɣ-d ar dagi.
 Sami yezga iḥemmel Layla.
@@ -35727,10 +35193,8 @@ Sami yezgel tiyita.
 Sami yezmer ad d-yemmeki.
 Sami yezmer ad yettwanɣa.
 Sami yezrew Lislam.
-Sami yeɛya deg Layla.
 Sami yeɣra ayenni.
 Sami yeẓra anda i tezdeɣ.
-Sami yeẓra axxam-nni.
 Sami yeẓẓa tijeǧǧigin.
 Sami yufa adlis d asneknay nezzeh.
 Sami yules tissulya.
@@ -35742,53 +35206,33 @@ Sami yumen yemma-s.
 Sami yura tamedyezt.
 Sami yusa-d yid-i.
 Sami yusa-d yid-neɣ.
-Sami yusa-d yid-nteɣ.
-Sami yuzzel deffir-i.
 Sami yuḍen.
 Sami yuẓam Remḍan.
-Sami ɣaḍen-t s tidet.
 Sami ɣeṛ-s leqdic.
 Sami ɣuṛ-s ẓhaṛ.
 Sami.
-Samir d alwes n Yuba.
 Samir werɛad ifuk.
 Samḥemt-iyi ɣef yiḍelli.
 Samḥet-iyi ɣef yiḍelli.
 Sancu Panza iḥemmel inzan aṭas.
 Sanda ad igiǧǧ Yuba?
-Sanda ad tgiǧǧ Zwina?
 Sanda ara t-tawimt?
 Sanda ara ten-awin?
 Sanda ara ten-tawi?
-Sanda ara ten-tawimt?
 Sanda ara ten-yawi?
 Sanda ara tt-tawim?
-Sanda ay ddan iḍelli?
-Sanda ay ddant ass-a?
-Sanda ay iguǧǧ Yidir?
-Sanda ay rran tisura?
 Sanda ay t-terram?
 Sanda ay t-terramt?
 Sanda ay t-tuznem?
 Sanda ay t-tuznemt?
 Sanda ay t-uznent?
-Sanda ay tedda Layla?
-Sanda ay tedda ass-a?
-Sanda ay ten-terramt?
 Sanda ay ten-tewwi?
-Sanda ay ten-tewwimt?
 Sanda ay ten-tuzen?
-Sanda ay ten-tuznemt?
 Sanda ay ten-uznen?
 Sanda ay ten-wwin?
 Sanda ay ten-wwint?
 Sanda ay ten-yewwi?
 Sanda ay ten-yuzen?
-Sanda ay tent-terram?
-Sanda ay tent-terriḍ?
-Sanda ay tent-tewwim?
-Sanda ay tent-tuznem?
-Sanda ay tent-uznent?
 Sanda ay tent-wwin?
 Sanda ay tewwḍemt?
 Sanda ay trewlemt?
@@ -35801,15 +35245,9 @@ Sanda ay tt-uznen?
 Sanda ay tt-uznent?
 Sanda ay tt-yerra?
 Sanda ay tt-yuzen?
-Sanda ay tuzen Yidir?
-Sanda ay uznen Yidir?
-Sanda ay yedda Yidir?
-Sanda ay yedda ass-a?
-Sanda ay yuzen Yidir?
 Sanda i k-yewwi Dda Lmulud?
 Sanda i tessawḍeḍ?
 Sani akka ara truḥeḍ?
-Sani tetteddum akk-a?
 Sani tmal ttejṛa i tɣelli.
 Sani tttedduḍ a yaḍaṛ? s aẓar.
 Sani ttwaceyyεen?
@@ -35839,14 +35277,12 @@ Sarameɣ d akken Yuba iggad.
 Sarameɣ kan ur yi-d-ttmuqqul ara s yir tiṭ.
 Sarameɣ mačči d tuccḍa.
 Sarameɣ teggerzeḍ.
-Sarameɣ tesɛiḍ lḥeqq.
 Sarameɣ tesεiḍ lḥeqq.
 Sarameɣ thennam deg sin.
 Sarameɣ thennam i sin.
 Sarameɣ thennamt i snat.
 Sarameɣ tlemmdem.
 Sarameɣ tlemmdemt.
-Sarameɣ tufam kullec.
 Sarameɣ xaṭi.
 Sarameɣ yelha ddeqs-is.
 Sarameɣ yiwen ur ken-id-iwala txeddmem-t.
@@ -35894,7 +35330,6 @@ Saḥḥit!
 Sbabben-aɣ tacmat, tawaɣit.
 Sban-d iman-ik!
 Sbedden-t s yiblaḍen, wa sdat n wa.
-Sbeddet takeṛṛust da!
 Sbeggen-d lehhu-k i sidi Abṛaham.
 Sbehdlen Tom.
 Sbelɛeɣ taɛeqqact.
@@ -35918,7 +35353,6 @@ Sdegdeg.
 Sderdez.
 Sdereɣlen lebɣi-nni d leḥmala-nni i yettnernin.
 Sdermemt afakan-a.
-Sdermemt aselkim-nni.
 Sdukkel.
 Sdukklen taseksut.
 Sdukklent-aɣ aṭas n tlufa.
@@ -35935,7 +35369,6 @@ Sebɛa n wussan ara tettettem aɣrum ur nesɛi iɣes n temtunt.
 Sebɛa n wussan ara tfeṛḥem zdat n Umeɣlal, Illu-nwen.
 Sebɛa n wussan mbeɛd, wten-d waman d iḥemmalen ɣef ddunit.
 Sebɛa uṛebɛin, Abrid aɣelnaw, Lezzayer tamanaɣt.
-Sebɛed zzit ɣef tmes.
 Sebɣasen imyura, d temyura iqbayliyen.
 Sebɣen-as-t.
 Sebɣen-as-ten.
@@ -36011,7 +35444,6 @@ Sefḍemt imeṭṭawen-nkent.
 Sefḍen akk azmumeg seg wudem-iw.
 Sefḍent s tesfeḍt.
 Sefḍet imawen-nwen.
-Seg Brizil ay d-usan.
 Seg Tibet i d-tuɣalem?
 Seg Tibet i d-tuɣalemt?
 Seg Tibet i d-tuɣaleḍ?
@@ -36061,12 +35493,8 @@ Seg wakken meẓẓiyet yemma-s, taneggarut-agi tɛawed zzwaǧ.
 Seg wakken myeḥmalen aṭas, uγalen am sin n yiḍudan n ufus.
 Seg wakken teɛya, truḥ am wakken yettsawam-itt-id yiḍeṣ.
 Seg wakken yeneḥcam, yerwel.
-Seg wansi ay d-ffɣen?
-Seg wansi ay d-tusiḍ?
 Seg wansi ay d-usan?
 Seg wansi ay d-yusa?
-Seg wansi i d-tekkam?
-Seg wansi i d-tekkiḍ?
 Seg wansi i d-tusam?
 Seg wansi i d-tusiḍ?
 Seg wansi-k deg Fransa?
@@ -36106,8 +35534,6 @@ Seg yimir-nni ur t-walaɣ.
 Seg yinig, tekker tmeṭṭut-is, teddem arekti, tessebzeg-it, terekn-it, tettel-it deg tceṭṭiḍin n leḥrir.
 Seg zgelli selleɣ-awen-d tettmeslayem ɣef tsertit.
 Seg zik Leqbayel kerhen ad arun s taɛrabt.
-Seg zik ay zedɣen da.
-Seg zik ay zedɣeɣ da.
 Seg zik leqbayel s tirugza i ttqabalen aɛdaw.
 Seg zik mi llan yimdanen am wa mačči armi d tura.
 Seg zik nettɛebbi azaglu n ddel.
@@ -37405,8 +36831,6 @@ Ssemres aselkim-ik.
 Ssemsaden tiferyin.
 Ssemsadent tiferyin.
 Ssemsadeɣ tiferyin.
-Ssemsawi akerbas-nnek.
-Ssemsawi akerbas-nnem.
 Ssemsawi taxxamt-nnek.
 Ssemsawiɣ taxxamt-inu.
 Ssemɣarent kullec.
@@ -37450,7 +36874,6 @@ Sser-is d yemma-s, kkes-itt, ffer-itt!
 Ssers iman-ik!
 Ssers iman-ik.
 Ssers wa ɣef tdabut.
-Ssers-it anda ay trid.
 Ssers-it ɣef tdabut.
 Ssersemt iman-nwent.
 Ssersen-d gar-asen taqedduḥt n zzit, tayeḍ n tazart d teḥbult n uγrum.
@@ -37463,8 +36886,6 @@ Sserɣen tiẓgi ilindi.
 Sserɣent adlis-nni.
 Sserɣeɣ iman-inu mliḥ.
 Sserɣeɣ iman-iw.
-Sserḍen seg-k s tidet.
-Sserḍen seg-m s tidet.
 Ssetḥaɣ mliḥ s waya.
 Ssew.
 Ssewhamen-iyi ibeṛṛaniyen.
@@ -37473,13 +36894,11 @@ Ssewjed iman-nnek!
 Ssewjed iman-nnek.
 Ssewjed iman-nnem!
 Ssewjed iman-nnem.
-Ssewwayent war tisent.
 Ssewwen-d aspagiti.
 Ssewweɣ-d aspagiti.
 Ssewweɣ-d imensi i yiḍ-a.
 Ssewweɣ-d imensi.
 Ssewzel awal.
-Ssewzel ciṭ tafyirt-a.
 Ssewzel-it.
 Ssexbabḍeɣ argaz-nni ur faqeɣ ara amek i t-ufiɣ yefser di lqaɛa.
 Ssexdamen allaɣ-nsen neɣ ala?
@@ -37509,7 +36928,6 @@ Sseḥman-d akk ṭbulat, ԑemren ssuq γef uyennat.
 Sseḥmaɣ.
 Sseṛtiḥ lbal-nnek.
 Sseṛtiḥ lbal-nnem.
-Sseṛtiḥemt lbal-nwent.
 Sseṛɣen-ak-ten.
 Sseṛɣen-ak-tent.
 Sseṛɣen-ak-tt.
@@ -37655,7 +37073,6 @@ Ssiwɛeṛ aqjun-ik ma tebɣiḍ ad ittɛassa!
 Ssiwḍeɣ ad ṭṭseɣ.
 Ssixfef iman-nnek!
 Ssixfef iman-nnem!
-Ssixfefemt iman-nwent!
 Ssixfefet iman-nwen!
 Ssizdeg iman-ik a Tom.
 Ssizdeg iman-ik a Yidir.
@@ -37695,7 +37112,6 @@ Ssken-iyi-d abrid, deg leεnaya-k.
 Ssken-iyi-d afus-nnek.
 Ssken-iyi-d afus-nnem.
 Ssken-iyi-d amedya.
-Ssken-iyi-d ayen tlid.
 Ssken-iyi-d kullec.
 Ssken-iyi-d!
 Ssken-iyi-tt-id.
@@ -37714,7 +37130,6 @@ Ssneflen.
 Ssnemt iman-nkent!
 Ssnen Kamel Ircen?
 Ssnen ad sekren seksu.
-Ssnen ad ɛumen meqqar?
 Ssnen akk ad arun.
 Ssnen akk ad nehṛen.
 Ssnen amek ara s-ddun.
@@ -37752,9 +37167,6 @@ Ssneɣ ad sekreɣ seksu.
 Ssneɣ ad ssewweɣ akken ilaq.
 Ssneɣ ad ssewweɣ mliḥ.
 Ssneɣ akk anect-a.
-Ssneɣ akk ufuren-nnek.
-Ssneɣ akk ufuren-nnem.
-Ssneɣ akk ufuren-nwen.
 Ssneɣ amek ara s-dduɣ.
 Ssneɣ amek ara s-lḥuɣ.
 Ssneɣ amek ara t-aruɣ.
@@ -37785,7 +37197,6 @@ Ssneɣ-k akken i iwata akken ad k-amneɣ.
 Ssneɣ-k.
 Ssneɣ-kem qbel ad nemlil.
 Ssneɣ-t am ljib-inu.
-Ssneɣ-t am temzit-inu.
 Ssneɣ-t deg Fṛansa.
 Ssneɣ-t kan s yisem.
 Ssneɣ-t.
@@ -37811,7 +37222,6 @@ Ssuden-itt.
 Ssudnen.
 Ssudnent.
 Ssudneɣ Tom.
-Ssudneɣ-tt ɣef wenyir.
 Ssudneɣ-tt ɣef yimi.
 Ssufeɣ-aɣ-ten-id iwakken ad n-nezhu deg-sen.
 Ssufeɣ-d aslem seg waman!
@@ -37840,7 +37250,6 @@ Ssukren-t deg uvilu.
 Ssukren-tt.
 Ssulin-t d asarjan.
 Ssulin-t.
-Ssullin deg Las Vegas.
 Ssullin deg Vegas.
 Ssullin.
 Ssullint deg Vegas.
@@ -37860,10 +37269,8 @@ Ssuqquleɣ-d ayen bɣiɣ!
 Ssura-m temlek-iyi.
 Ssuref-iyi a Mass.
 Ssuref-iyi ɣef waya.
-Ssuref-iyi, fuken-iyi.
 Ssurefet-iyi.
 Ssurfemt-as i Tom.
-Ssurfeɣ-as tuccḍa-nni.
 Ssusef s igenni, ad d-uɣalent s udem-ik.
 Ssusem!
 Ssusem a baba, ad ssiwleɣ!
@@ -37879,14 +37286,12 @@ Ssusmet!
 Ssuter kan asaruf.
 Ssuter-d kan asaruf.
 Ssutren axeddim-a.
-Ssutren-aɣ-d issemtar.
 Ssutren-iyi-d idrimen.
 Ssutrent assemter.
 Ssutrent axeddim-a.
 Ssutret-d ayen tebɣam!
 Ssutreɣ amahil-nni.
 Ssutreɣ axeddim-a.
-Ssutreɣ-ak-d tasegrit.
 Ssutreɣ-as ma yessen tansa-s.
 Ssuturen deg yiberriḥen-nsent ad sɛunt izerfan-nsent.
 Ssuturent tlawin izerfan-nsent.
@@ -38060,7 +37465,6 @@ Susem tettreyyiεeḍ-iyi-tt!
 Susem tura, ayhuh!
 Susem ur d-ttader izerfan-im.
 Susem xdem cɣel nhati-m ur d asent-id-nessel ara.
-Susem, ay d-yesbucbec.
 Susem, nnan-iyi-d qqim deg uxxam.
 Susem, tesleḍ-iyi-d.
 Susem.
@@ -38168,8 +37572,6 @@ Sweḥleɣ tisura-inu.
 Swingem ɣef warrac.
 Swingem-as.
 Swingimeɣ akken-nniḍen.
-Swingimeɣ kan fell-ak.
-Swingimeɣ kan fell-am.
 Swingmemt-as.
 Swingmet-as.
 Swiss d tamurt zeddigen.
@@ -38200,7 +37602,6 @@ Swiɣ qeḍran akked ilili fell-ak.
 Swiɣ qeḍran akked ilili fell-am.
 Swiɣ qeḍran d yilili.
 Swiɣ qeḍran fell-ak, ass-a txedɛeḍ-iyi di laman.
-Swiɣ rritla n teɣlust.
 Swiɣ snat n tqaɛunin n crab mebla učči fell-am.
 Swiɣ tabeyyirt tasemmaḍt.
 Swiɣ tabyirt.
@@ -38217,7 +37618,6 @@ Sxenfeṛ.
 Sxesṛen-aɣ zzhu yiḍan.
 Sxeṛbeɣ-ak iḍes-ik.
 Sxeṛbeɣ-am iḍes-im.
-Sxeṣreɣ iceḍḍiḍen-inu.
 Sya ar sdat, ad d-yili ula usuffeɣ n tesɣunt ɣef ssinima taqbaylit.
 Sya ar yimir, s umedyez ad d-nettmlil deg Yiflisen Umellil.
 Sya ar yimir, yegra-d kan ad awen-d-nini afud igerrzen.
@@ -38274,12 +37674,9 @@ Sɛan kra n taluft?
 Sɛan lḥedd wussan-im.
 Sɛan lḥeqq, a Jamal.
 Sɛan lḥeqq, neɣ uhu?
-Sɛan mraw n tfunasin.
-Sɛan sin n yimawalen.
 Sɛan snat n teqjatin.
 Sɛan taḥanut deg Leqṣeṛ?
 Sɛan ugur.
-Sɛan yifekren tuɣmas?
 Sɛan-t.
 Sɛan-tt.
 Sɛant allen d tizegzawin.
@@ -38290,10 +37687,7 @@ Sɛant aṭas n wakud.
 Sɛant aṭas n yedrimen.
 Sɛant ccṛab.
 Sɛant ddeqs n yedrimen.
-Sɛant idrimen meqqar?
 Sɛant kra n taluft?
-Sɛant lḥeqq, a Jamal.
-Sɛant lḥeqq, neɣ uhu?
 Sɛant ugur.
 Sɛant yiwen n ṣṣut i d-yettarra udrar.
 Sɛant-t.
@@ -38355,7 +37749,6 @@ Sɛiɣ lhedra yid-k.
 Sɛiɣ lḥeqq, neɣ uhu?
 Sɛiɣ nnwaḍeṛ n yiṭij.
 Sɛiɣ sin n yigerdan.
-Sɛiɣ sin n yixxamen.
 Sɛiɣ ssebbat-inu.
 Sɛiɣ takti i wungal.
 Sɛiɣ takti igerrzen.
@@ -38505,7 +37898,6 @@ Ta d tafrut n tenwalt.
 Ta d taftist igerrzen.
 Ta d tafunast-inu.
 Ta d tagrawt n Yuba.
-Ta d tagrut tagermawt.
 Ta d takerrust n baba.
 Ta d takeṛṛust-inu.
 Ta d takeṛṛust-nnek?
@@ -38517,7 +37909,6 @@ Ta d takti yelhan xir!
 Ta d takti yelhan!
 Ta d takti yelhan.
 Ta d taluft tameqqrant! Tugar-iyi.
-Ta d talɣut timseknut.
 Ta d tamdint igerrzen.
 Ta d tameddurt-inu.
 Ta d tameddurt-nnek.
@@ -38550,7 +37941,6 @@ Ta d tawacult-nnek?
 Ta d taydit n Tom?
 Ta d tazrawt tussnant.
 Ta d taɣawsa niḍen.
-Ta d taɣawsa taɣwalit.
 Ta d taɣect n Tom.
 Ta d taḥkayt niḍen.
 Ta d tidet tussnant.
@@ -38558,9 +37948,7 @@ Ta d timseknewt n Yidir.
 Ta d tuccḍa icaɛen.
 Ta d tugna n weltma.
 Ta d tutlayt yemmuten.
-Ta d tuttra tamenzugt?
 Ta d tuttra yelhan.
-Ta d weltma tameẓyant.
 Ta d yelli-s n xali.
 Ta d yelli-s n ɛemmti.
 Ta di ṭṭbel, ta di tẓayeṛt.
@@ -38633,7 +38021,6 @@ Tadrimit-agi tesqam-aɣ-d tẓa tmerwin d ukkuẓ n yimelyaṛen.
 Tadukli d yimeksawen.
 Tadukli gar medden telha.
 Tadukli i ṛṛeḥma.
-Tadukli tetteg tadusi.
 Tadukli, ay imdukal!
 Taduḍt, turad; teqqerdec; tellem. Mazal kan ad tt-teẓḍ, ad tuɣal d tacettiḍt.
 Taduṭ teshel i usbaɣ.
@@ -39360,7 +38747,6 @@ Tasdawit Mulud Mɛemmri.
 Tasdawit n Bgayet.
 Tasdawit n Tizi Uzzu, agezdu n tutlayt d yidles amaziɣ.
 Tasdawit n Uṭawa d yiwet seg tesdawiyin timeqqranin di ddunit.
-Tasdidt kan ay ḥwajeɣ.
 Tasebba n waya tban.
 Tasebbalt ma tneggi, asagem iwumi?
 Tasebḥit, yenṭeq urgaz γer uεeṭṭar ameẓyan: Ay arfiq.
@@ -39393,7 +38779,6 @@ Taseḍsut-a fell-am.
 Taseḍsut-a fell-awent.
 Taseḍsut-a texṣer.
 Taseṭṭa, taseṭṭa, ad temmed taffa.
-Tasfeḍt-a d taḥercawt.
 Tasga n Tutlayt d Yidles.
 Tasga n umuḍin, a tamettant!
 Tasint ad iliɣ din.
@@ -39405,7 +38790,6 @@ Tasleḍt-nni tgiḍ txuṣṣ acemma deg tmeẓla.
 Tasmanya d tigzrit.
 Tasnasɣalt-a n Yuba.
 Tasnasɣalt-a n gma.
-Tasnasɣalt-inna n gma.
 Tasnasɣalt-nni inu.
 Tasnuddirt.
 Tasumta mebla aɣanim.
@@ -39497,7 +38881,6 @@ Tayaẓiḍt n taddart wala tasekkurt taberranit.
 Taydit n Yuba terwel.
 Taydit-a tettkerric.
 Taydit-inu meɣɣret.
-Taydit-nwent attan da.
 Tayemmat d tameṭṭut yesɛan dderya.
 Tayemmat tettrebbi d tamezwarut, send ara yakcem uqcic ɣer tejmeɛt.
 Tayerza n ulɣem, ayen ikrez ad t-yeɛfes.
@@ -39537,11 +38920,7 @@ Tazeqqa n udɣaɣ d tilemt.
 Tazeqqa n uraju teččur d imuḍan.
 Tazeqqa-agi ur tesɛa ṭṭaq wala lecqayeq.
 Tazewwut attan da.
-Tazewwut attan terreẓ.
-Tazewwut tella teldey.
-Tazewwut tella terẓem.
 Tazewwut-a terreẓ.
-Tazewwut-nni attan da.
 Tazitma d tamrart s wayes ttarzen atmun ɣer uzaglu.
 Tazmamt gar yifassen-is.
 Tazmert yellan ɣer yemdanen n zik, tugart tin n yemdanen n tura
@@ -39632,7 +39011,6 @@ Taṭuya dayen tfukk.
 Taṭṭucin tizegzawin.
 Taẓallit tfeddu, ssadaqa tneǧǧu.
 Taẓayt n uɣyul, tixidas n wuccen.
-Taẓrawit-a tettqelliq.
 Taẓrigt tamezwarut n tfaska taɣelnawt n usefru amaziɣ iwumi fkan azwel n “Amedyez Iflisen Umellil”.
 Taẓuri n tidet d tukerḍa.
 Taẓuri trennu deg leɛmer n umdan.
@@ -43198,7 +42576,6 @@ Tettagadem amaynut.
 Tettagadem isura n tugdi?
 Tettagademt isura n tugdi?
 Tettagademt tili-nwent.
-Tettagadeḍ ad tagadeḍ?
 Tettagadeḍ isura n tugdi?
 Tettagadeḍ tillas?
 Tettaggad imsawnen.
@@ -43303,7 +42680,6 @@ Tettawim-d isefra s teqbaylit.
 Tettawimt-d isefra s teqbaylit.
 Tettawiḍ yid-k amrig?
 Tettawiḍ-d isefra s teqbaylit.
-Tettaxrem war aɛeyyen.
 Tettazalemt.
 Tettazzal yal ass?
 Tettazzal.
@@ -43448,8 +42824,6 @@ Tettenheqqi ad as-d-tesleḍ seg uzniq.
 Tettent ccakula.
 Tettenɛil txezzu tiɛeqqacin-nni yerkin aɛebbuḍ-is, yesxesṛen ṭṭbiɛa-s.
 Tetteqqes tissist-a?
-Tetteqqnem tisekkadin?
-Tetteqqneḍ tisekkadin?
 Tetter-d fell-awen.
 Tetter-d fell-awent.
 Tettess aman.
@@ -43524,14 +42898,8 @@ Tettkerric teydit-a.
 Tettkeyyifeḍ?
 Tettkid tesεa.
 Tettlusu am nutni.
-Tettlusum tismaqqalin?
 Tettmagar inebgawen.
-Tettmagarem inebgawen.
-Tettmagareḍ inebgawen.
-Tettmahal d tafremlit.
 Tettmahal d tawizit.
-Tettmahal deg tenwalt?
-Tettmahal deg uneẓruf.
 Tettmahal s leɛqel.
 Tettmahal seg wul.
 Tettmahal yelli-k?
@@ -43542,7 +42910,6 @@ Tettmenniḍ-d ad d-terzuḍ s Axxam-Amellal kra n wass?
 Tettmenniḍ-d ad d-teẓreḍ Axxam-Amellal kra n wass?
 Tettmeslay s teqbaylit.
 Tettmeslay s ttnefxa, tesɛa taflest deg yiman-is.
-Tettmeslay tabengalit.
 Tettmeslay tafṛansist?
 Tettmeslay takurdit.
 Tettmeslay talmanit.
@@ -43567,7 +42934,6 @@ Tettmesxiṛ fell-am.
 Tettmesxiṛ fell-as.
 Tettmesxiṛ fell-aɣ.
 Tettmesxiṛ fell-i.
-Tettmesxiṛemt fell-as.
 Tettmettat deg lxelɛa.
 Tettnadi axeddim.
 Tettnadi fell-i.
@@ -43676,10 +43042,7 @@ Tettuḍ-iyi ya?
 Tettuḍ-iyi yakan?
 Tettwafren-d taddart n Saḥel.
 Tettwakellex Marie.
-Tettwaker tkeṛṛust-iw.
-Tettwaker tsiwant-inu.
 Tettwaker-iyi texfet ass-nni n lǧemεa.
-Tettwali aya d amagnu.
 Tettwali deg tmenɣiwt n wayeḍ d anemgal-is: wayeḍ ɣur-s, d win ur nezmir ad neqbel, d abeɛɛuq.
 Tettwali deg wudem-is ḥala tebrek.
 Tettwali kan taqbaylit.
@@ -43760,7 +43123,6 @@ Tettḥebbiṛeḍ ɣef teqbaylit.
 Tettḥelil-iten ad rren lwelha ɣur-s.
 Tettḥewwis axeddim.
 Tettḥewwiseḍ ḥedd?
-Tettḥezzib am yemma-s.
 Tettḥezzibeḍ akken ilaq.
 Tettḥibbi lqahwa.
 Tettḥibbi ččina.
@@ -43772,12 +43134,10 @@ Tettṛuḥuḍ ar ssinima yal ssmana.
 Tettṣeffim si tizit, tesseblaɛem alɣem.
 Tetɛedda tkeṛṛust-a!
 Tetḥeqqem belli tesɛam aṭas n yedrimen?
-Tetḥeqqem ulac tifrat?
 Tetḥeqqem ɣef tririt-nwen?
 Tetḥeqqeḍ belli teẓriḍ ḥedd ɣef tqenṭert?
 Tetḥeqqeḍ belli yella win i teẓriḍ ɣef tqenṭert?
 Tetḥeqqeḍ d tansa iṣeḥḥan?
-Tetḥeqqeḍ tessneḍ-iyi?
 Tetḥeqqeḍ ɣef tririt-ik?
 Tetḥeqqeḍ ɣef tririt-im?
 Tetḥeqqeḍ ɣef waya?
@@ -43907,7 +43267,6 @@ Tewwi-yawen-tt-id.
 Tewwi-yaɣ-tent-id.
 Tewwim-d ayen i wen-nniɣ?
 Tewwim-d iman-nwen.
-Tewwim-t-id ɣer uxxam?
 Tewwimt-d iman-nkent.
 Tewwit lɣerba.
 Tewwiḍ imuras?
@@ -45417,8 +44776,6 @@ Tiglubulin tizeggaɣin akked tcebḥanin sɛant azal d ameqqran deg tfekka.
 Tigusa n tnezduɣt, tigusa n ufrag akked imurar-nsent meṛṛa.
 Tigzirin Tiknariyin.
 Tihendusit d asɣan i ṭṭafaren deg udu-menẓaw ahendi.
-Tihin d tanarit n Si Ḥmed Waɛli.
-Tihin d taselmadt-inu.
 Tihin d taydit-inu.
 Tihin d weltma-twen?
 Tihudit d asɣan n wudayen.
@@ -45431,10 +44788,8 @@ Tikelt-a tεeddaḍ tilas.
 Tikerkest tezga deg imi-nsen.
 Tikkelt ad tafeḍ ikerrez, tikkelt imegger neɣ isserwat.
 Tikkelt taneggarut i t-walaɣ, deg Tizi Uzzu, aseggas neɣ aseggas d uzgen send timenɣiwt-ines.
-Tikkelt-a ad t-ɛerḍeɣ.
 Tikkelt-a azemmur yurew ma d ilindi ulac maḍi.
 Tikkelt-a dɣa, s tallelt n tɣiwant n At Smaɛel, wwin-ten ɣer teẓgi n Takkuct.
-Tikkelt-a, ad t-armeɣ.
 Tikkelt-a, ufraren kraḍ n yimyura deg warraz n tullist i yettuɣalen d tajmilt n Belɛid At Ɛli.
 Tikkelt-agi mačči d netta i d as-d-yerran.
 Tikkelt-nni d tayaẓiḍt i d-yuker.
@@ -45511,9 +44866,6 @@ Tilelli ur tettwafras ara, ad temmels akken tella.
 Tilemẓit, i tt-iceɣben d tayri.
 Tili ad aɣeɣ gma-k.
 Tili ad aɣeɣ gma-m.
-Tili ad aɣeɣ gma-twen.
-Tili ad aɣeɣ weltma-k.
-Tili ad aɣeɣ weltma-m.
 Tili ad d-iban fell-i.
 Tili akka
 Tili dɣa akken!
@@ -45619,7 +44971,6 @@ Tin d taselmadt-inu.
 Tin d tasiwant-inu.
 Tin d tasiwant-is?
 Tin d taɣect n Yuba.
-Tin d tiḥilet icemten.
 Tin d yemma-s n Dda Lmulud.
 Tin d yemma-s n Saɛid Waɛmaṛ.
 Tin d-iqesden acewwaḍ, tečča-t. Tin d-iqesden ifeggagen, tewwi-ten.
@@ -45672,7 +45023,6 @@ Tiqcicin usant-d merra.
 Tiqcicin ḥemmlent ad urarent ilqafen.
 Tiqcicin-a d yessi.
 Tiqcicin-a, d yessi.
-Tiqcicin-nni, d yessi.
 Tiqendyar-a nsent.
 Tiqenṭert-a temmug s ublaḍ.
 Tiqernit n taddart.
@@ -45742,7 +45092,6 @@ Tislit n unẓar tcebbeḥ igenni.
 Tislit n unẓar.
 Tislit tedda iḥzen umeksa.
 Tislit-nni tella tecbeḥ.
-Tismaqqalin-a cebḥent.
 Tismin neqqent.
 Tissas n Bu Mezreg.
 Tisselbi i d tifrat di tmurt-nneɣ.
@@ -45768,11 +45117,9 @@ Tiwizi d tallelt.
 Tiwizi-inu ma tezger.
 Tiwlafin-a d tid ara ikecmen deg umezruy.
 Tiwlafin-a seg Ustṛalya.
-Tiwlafin-a ssewhament.
 Tiwurra n tatut ldint.
 Tiwwura i snat ldint.
 Tiwwura ldint.
-Tiwwura llant ɣelqent.
 Tiwwura n wexxam akk qqlent-d.
 Tiwwura n wexxam akk sekkṛent.
 Tiwwura n yigenwan.
@@ -49515,7 +48862,6 @@ Uhmeɣ amek meyyzen ɣer taɣaṭ.
 Uhu!
 Uhu a baba!
 Uhu, nekk ur cennuɣ.
-Uhu, ur tefhimemt ara.
 Uhu, ur tegzim ara.
 Uhu, ur tegzimt ara.
 Uhu, ur yezmir ara.
@@ -49548,7 +48894,6 @@ Ukreɣ i warraw-iw.
 Ukreɣ-ak cwiṭ deg wakud-ik.
 Ukreɣ-d tamekḥelt.
 Uksan.
-Ukyis yessen ad yeddu.
 Ukzɣ
 Ul ad yergagi, mačči seg semmiḍ.
 Ul d agellid, udem d ayeddid.
@@ -49654,12 +48999,9 @@ Ula d iṭij d tziri ttaḍnen.
 Ula d iṭij-a mačči inu.
 Ula d iẓerman n uɛebbuḍ ttnaɣen.
 Ula d iẓerman ttnaɣen di tɛebbuḍt.
-Ula d kemm d Talmanit?
 Ula d kemm d amdan.
 Ula d kemm teẓriḍ-t.
 Ula d kemm.
-Ula d kenwi ad teddum?
-Ula d kenwi teẓram-tt.
 Ula d kenwi txedɛem!
 Ula d kenwi.
 Ula d kečč aql-ik twennteḍ-d s tefransist.
@@ -49679,24 +49021,20 @@ Ula d lmut tugi-ten.
 Ula d lwaεda mi asen-d-tettunefk, wa ittbuddu wayeḍ s uḥric yelhan.
 Ula d lǧifat-nsen, ḥesbet-tent ḥeṛṛment.
 Ula d nadam yeggan ɣef uhicur.
-Ula d nekk cikkeɣ aya.
 Ula d nekk d abujad.
 Ula d nekk d awnaf am kemm.
 Ula d nekk d awnaf am kečč.
 Ula d nekk d uday.
 Ula d nekk jjmeɣ-k!
 Ula d nekk jjmeɣ-k.
-Ula d nekk jjmeɣ-kent.
 Ula d nekk liɣ gma.
 Ula d nekk riɣ iḍan.
 Ula d nekk sɛiɣ gma.
 Ula d nekk walaɣ d acu i k-iceɣben.
-Ula d nekk yeɛjeb-iyi.
 Ula d nekk ṛuḥeɣ.
 Ula d nekk ẓriɣ-t.
 Ula d nekk ẓriɣ-tt.
 Ula d nekk!
-Ula d nekkni neẓra-tt.
 Ula d netta ad yuɣal d agdud, ula d netta ad yimɣur.
 Ula d netta d amaru.
 Ula d netta d mmi-tneɣ.
@@ -49708,11 +49046,8 @@ Ula d netta yeẓra-t.
 Ula d netta ɣur-s yiwen.
 Ula d nettat tceffu.
 Ula d nettat teldi-yi-d ul-is, myelsen yimanen-nteɣ.
-Ula d nettat teẓra-tt.
 Ula d nettat ḥkan-as-d yimawlan-is.
 Ula d nettat, tḥemmel-it.
-Ula d nitenti ẓrant-t.
-Ula d nitni ad d-asen?
 Ula d nitni d imura.
 Ula d nitni ẓran-t.
 Ula d nitni ẓran-tt.
@@ -49730,10 +49065,6 @@ Ula d win i d-ilulen deg uxxam-is, ad yečč.
 Ula d yemma-s icaḍen? Ih ula d yemma-s.
 Ula d yemma-s ur as-tenni kra.
 Ula d yiwen ur t-id-ibdir.
-Ula d yiwen ur t-sɛiɣ.
-Ula d yiwen ur yejriḥ.
-Ula d yiwen ur yelluẓ.
-Ula d yiwen ur yemmut.
 Ula dayen i d-ttmektiɣ.
 Ula deg Surya yella uzemmur.
 Ula deg isenfaren yezwaren yella wayen ara ibeddlen.
@@ -49772,7 +49103,6 @@ Ulac akk d acu i xedmeɣ.
 Ulac akk tameṭṭut yuklalen ad truḍ fell-as.
 Ulac akk win i t-id-ibedren.
 Ulac akli i d-ikkan nnig ssid-is.
-Ulac akud ara nḍeyyeɛ.
 Ulac am ccna aqdim!
 Ulac am kečč.
 Ulac am uxxam n yiwen.
@@ -49789,8 +49119,6 @@ Ulac amaynu.
 Ulac ameddakel am uydi.
 Ulac amekdi n umdan am uydi-ines
 Ulac amgired gar yinelmaden, yal wa s wazal-is.
-Ulac anagi i tmenɣiwt.
-Ulac anda i walaɣ Si Ḥmed Waɛli.
 Ulac anda i walaɣ Tom.
 Ulac anda i ẓṛiɣ Tom.
 Ulac anelmad i d-ikkan nnig ccix-is.
@@ -49817,15 +49145,11 @@ Ulac ayen-nniḍen?
 Ulac azemmur.
 Ulac azref i tririt.
 Ulac azref s ara yerwel.
-Ulac azwu deg tallunt.
 Ulac aɣbel.
 Ulac aɣilif ma ddiɣ?
-Ulac aɣilif ma kecmeɣ?
 Ulac aɣilif ma keyyfeɣ da?
 Ulac aɣilif ma nsiɣ?
-Ulac aɣilif ma qqimeɣ?
 Ulac aɣilif ma uɣaleɣ-d zik ɣer uxxam?
-Ulac aɣilif ma zwareɣ?
 Ulac aɣilif ma ččiɣ?
 Ulac aɣilif ma ṛjiɣ.
 Ulac aɣilif!
@@ -49840,13 +49164,8 @@ Ulac ccek deg waya.
 Ulac cciṭan, sennig win iskiddiben.
 Ulac ceεban deg remḍan.
 Ulac ciṭuḥ n waman?
-Ulac d acu ara d-inin.
-Ulac d acu ara d-inin?
-Ulac d acu ara d-iniɣ.
-Ulac d acu ara d-nini.
 Ulac d acu ara nečč.
 Ulac d acu ara ten-id-iḥebsen.
-Ulac d acu ay tettumt?
 Ulac d acu i ibeddlen.
 Ulac d acu i tesham?
 Ulac d acu i teshiḍ?
@@ -49911,7 +49230,6 @@ Ulac nnif deg tayri.
 Ulac ssmaḥ, ulac!
 Ulac tabɣest, ulac afud.
 Ulac tacemmaεt ur yessens.
-Ulac tafremlit-nni da.
 Ulac tagrawla iɣeḍlen kra n udabu akka kan s talwit.
 Ulac taluft i t-izegglen.
 Ulac tamazirt ur d-nzuṛ.
@@ -50039,7 +49357,6 @@ Ulac-iten.
 Ulac-itent da ass-a.
 Ulac-itent.
 Ulac-itt da ass-a.
-Ulac-itt da deg yiḍ-a.
 Ulac-itt yemma deg wexxam.
 Ulac-itt.
 Ulac-iyi da.
@@ -50073,7 +49390,6 @@ Ulayɣer ad d-thedreḍ.
 Ulayɣer ma neɣṣeb.
 Ulayɣer ma neṛja-t.
 Ulayɣer ma tezzmeḍ iman-ik ɣef annect-en.
-Ulayɣer ma teṛjam-iyi.
 Ulayɣer ma teṛjiḍ-t.
 Ulayɣer ma truḍ am ugrud.
 Ulayɣer ma tɣeṣbemt akken.
@@ -50106,9 +49422,6 @@ Uliɣ.
 Ullah, ullah.
 Ullis i d-yeddan deg-s iḥekku-d ɣef yiwen ilemẓi iwumi qqaren Lusyus.
 Ulmud n uẓawan deg uxxam n yidles Mulud Mɛemmri n temdint n Tizi Uzzu.
-Ulsen ɣran asefru-nni.
-Ulseɣ-as tira i yiwen.
-Ulseɣ-as tira i yiwet.
 Ultma Cabḥa ur tḥemmel ara udi n tfunast.
 Ultma teckel tafunast send ad tt-id-teẓẓeg.
 Uma d yiwen ma yesla-yas.
@@ -50143,9 +49456,7 @@ Umneɣ-ken.
 Umneɣ-kent.
 Umneɣ-t.
 Umreɣ imi ay rebḥen.
-Umreɣ imi ay sliɣ aya.
 Umreɣ imi ay t-ẓriɣ.
-Umreɣ imi ay ẓriɣ Si Ḥmed Waɛli.
 Umreɣ yes-k s tidet.
 Umreɣ yes-m s tidet.
 Umsen yiceṭṭiḍen n Susan.
@@ -50192,9 +49503,6 @@ Ur ak-d-ssukkseɣ acemma.
 Ur ak-irra ara tagest.
 Ur ak-ssurufeɣ ara.
 Ur ak-t-id-mlan ara.
-Ur ak-t-id-tettak ara?
-Ur ak-t-id-ttaken ara?
-Ur ak-t-id-yettak ara?
 Ur ak-t-id-yuwi ara.
 Ur ak-t-id-ǧǧan ara.
 Ur ak-t-ttakkeɣ ara.
@@ -50208,9 +49516,6 @@ Ur am-d-qqareɣ ara isem-iw.
 Ur am-d-ssukkseɣ acemma.
 Ur am-ssurufeɣ ara.
 Ur am-t-id-mlan ara.
-Ur am-t-id-tettak ara?
-Ur am-t-id-ttaken ara?
-Ur am-t-id-yettak ara?
 Ur am-t-id-ǧǧan ara.
 Ur am-t-ttakkeɣ ara.
 Ur am-tcuḥḥ ara ddunit.
@@ -50220,23 +49525,13 @@ Ur as-d-ssukkseɣ acemma.
 Ur as-d-ssukkseɣ ara.
 Ur as-d-terri ara.
 Ur as-kennu i yiwen.
-Ur as-kennumt i yiwen.
 Ur as-nniɣ i yiwen.
-Ur as-sellfeɣ i yiwen.
 Ur as-skaray ara aɣbel.
-Ur as-sliɣ ara tusa-d.
-Ur as-sliɣ ara yusa-d.
 Ur as-smeḥsis ara.
 Ur as-smuzgut ara.
-Ur as-ssawal ara tura.
 Ur as-ssineɣ ara i tmacint-a.
 Ur as-t-id nniɣ ara.
 Ur as-t-id-mlan ara.
-Ur as-t-id-temliḍ ara.
-Ur as-t-id-tettak ara?
-Ur as-t-id-teǧǧiḍ ara.
-Ur as-t-id-ttaken ara?
-Ur as-t-id-yettak ara?
 Ur as-t-id-ǧǧan ara.
 Ur as-t-ttakk ara.
 Ur as-t-yečči ara.
@@ -50257,12 +49552,10 @@ Ur as-ufiɣ ara akk ixf-is.
 Ur as-ufiɣ ara ixf-is.
 Ur as-yebni ara axxam.
 Ur as-yezmir ara baba-s?
-Ur as-yeɛjib ara waya.
 Ur as-yeɛǧib ara i Tom.
 Ur as-yeɛǧib ara usentel n tullist-iw.
 Ur as-yufi ara ixf-is i ddunit.
 Ur as-ɛejjbeɣ i Saɛid Waɛmaṛ.
-Ur as-ɛejjbeɣ i Ḥuriya.
 Ur as-ɛjibeɣ i Yuba.
 Ur as-ɛǧibent ara temseḍsa-w timecṭaḥ.
 Ur as-ɣɣar tamẓiwt.
@@ -50277,10 +49570,7 @@ Ur asen-d-ttajjaɣ.
 Ur asen-d-ttennḍeɣ.
 Ur asen-d-ttnawaleɣ.
 Ur asen-d-ttɛawadeɣ.
-Ur asen-ferrseɣ abrid.
 Ur asen-gdileɣ awal.
-Ur asen-gezzmeɣ abrid.
-Ur asen-ggareɣ tamawt.
 Ur asen-kfiɣ lḥeqq.
 Ur asen-lliɣ d ugur.
 Ur asen-nniɣ amya.
@@ -50303,7 +49593,6 @@ Ur asen-tt-id-ttawi ara.
 Ur asen-ttabdadeɣ.
 Ur asen-ttaɣeɣ awal.
 Ur asen-ttbexxireɣ.
-Ur asen-ttekkseɣ ugur.
 Ur asen-ttezmumugeɣ.
 Ur asen-ttgeɣ abrid.
 Ur asen-ttgeɣ cceṛ.
@@ -50316,7 +49605,6 @@ Ur asen-ttḍebbileɣ.
 Ur asen-ttṣeffireɣ.
 Ur asen-yebni ara axxam.
 Ur asen-yuzin ara tabrat.
-Ur asen-ḍelluɣ acemma.
 Ur asen-ḍelluɣ udi.
 Ur asent-bɣiɣ cceṛ.
 Ur asent-d-qeddceɣ.
@@ -50324,11 +49612,8 @@ Ur asent-d-qeḍḍuɣ.
 Ur asent-d-ssaɣeɣ.
 Ur asent-d-ssukkseɣ acemma.
 Ur asent-d-ttennḍeɣ.
-Ur asent-gezzmeɣ awal.
 Ur asent-ismeḥsis ara.
 Ur asent-kfiɣ lḥeqq.
-Ur asent-kkateɣ lɣiḍa.
-Ur asent-mmaleɣ abrid.
 Ur asent-nniɣ amya.
 Ur asent-sqizzibeɣ.
 Ur asent-sslufuyeɣ.
@@ -50358,7 +49643,6 @@ Ur asent-ttṣeffireɣ.
 Ur asent-yefki ara ayen i as-d-ssutrent.
 Ur asent-yettalas acemma.
 Ur asent-ḍelluɣ udi.
-Ur asent-ḍmineɣ rrbeḥ.
 Ur assent-yebni ara axxam.
 Ur awen-d-giɣ ugur.
 Ur awen-d-nniɣ ara awit-iyi-d ɣer da.
@@ -50369,9 +49653,6 @@ Ur awen-d-ttnawaleɣ.
 Ur awen-d-ttɛawadeɣ.
 Ur awen-d-yuɣ ara baba-twen iserwula.
 Ur awen-d-ɣerrmeɣ.
-Ur awen-gdileɣ tuffɣa.
-Ur awen-gezzmeɣ abrid.
-Ur awen-kkateɣ apyanu.
 Ur awen-nniɣ amya.
 Ur awen-sqizzibeɣ.
 Ur awen-ssebrayeɣ.
@@ -50389,7 +49670,6 @@ Ur awen-ttɛeyyineɣ.
 Ur awen-ttḍebbileɣ.
 Ur awen-yebni ara axxam.
 Ur awen-yettalas acemma.
-Ur awen-ḍemmneɣ rrbeḥ.
 Ur awent-d-giɣ ugur.
 Ur awent-d-qeḍḍuɣ.
 Ur awent-d-ssukkseɣ acemma.
@@ -50397,7 +49677,6 @@ Ur awent-d-ttaruɣ.
 Ur awent-d-yuɣ ara baba-tkent iserwula.
 Ur awent-d-ɣerrmeɣ.
 Ur awent-d-ɣɣareɣ.
-Ur awent-gezzmeɣ awal.
 Ur awent-nniɣ amya.
 Ur awent-snamayeɣ.
 Ur awent-sqizzibeɣ.
@@ -50422,11 +49701,6 @@ Ur aɣ-ixuṣṣ wacemma.
 Ur aɣ-ixuṣṣ wacemma?
 Ur aɣ-ssexlaḍ ara lumuṛ!
 Ur aɣ-t-id-mlan ara.
-Ur aɣ-t-id-temliḍ ara.
-Ur aɣ-t-id-tettak ara?
-Ur aɣ-t-id-teǧǧiḍ ara.
-Ur aɣ-t-id-ttaken ara?
-Ur aɣ-t-id-yettak ara?
 Ur aɣ-t-id-ǧǧan ara.
 Ur aɣ-t-ttakk ara.
 Ur aɣ-tcuḥḥ ara ddunit.
@@ -50436,7 +49710,6 @@ Ur aɣ-ttettumt ara.
 Ur aɣ-ttettut ara.
 Ur aɣ-yenfiɛ ma nahḍer, ur yenfiɛ ma nessusem.
 Ur aɣ-yenɣi usemmiḍ.
-Ur aɣ-yeɛjib ara lḥal.
 Ur aɣ-yuɣ wara da.
 Ur bdideɣ yid-sen.
 Ur bdideɣ yid-sent.
@@ -50587,7 +49860,6 @@ Ur cukkeɣ ara d Tom.
 Ur cukkeɣ ara d ayen ilaqen.
 Ur cukkeɣ ara d tidet.
 Ur cukkeɣ ara d tikti yelhan.
-Ur cukkeɣ ara jexxreɣ.
 Ur cukkeɣ ara llan wid i s-yeslan.
 Ur cukkeɣ ara llant tidak i s-yeslan.
 Ur cukkeɣ ara mulleɣ.
@@ -50626,7 +49898,6 @@ Ur d tettarweḍ ara send saɛa naɣ snat.
 Ur d wa i d abrid n taḍsa.
 Ur d- ttaǧǧat ara seg-s i uzekka-nni ṣṣbeḥ.
 Ur d-cligeɣ ma ṛjiɣ.
-Ur d-cligeɣ seg Alice.
 Ur d-cligeɣ seg-sen.
 Ur d-cliɛen ara seg-i.
 Ur d-cliɛen ara seg-i?
@@ -50642,7 +49913,6 @@ Ur d-cliɛen ara seg-sent.
 Ur d-cliɛen ara seg-sent?
 Ur d-cliɛen ara seg-wen.
 Ur d-cliɛen ara seg-wen?
-Ur d-cliɛent ara yakk.
 Ur d-cliɛeɣ ara seg-k.
 Ur d-cliɛeɣ ara seg-m.
 Ur d-cliɛeɣ ara seg-sen.
@@ -50707,7 +49977,6 @@ Ur d-necqi deg bu-temɣilin.
 Ur d-necqi di Falasṭin, ur d-necqi deg Wudayen.
 Ur d-nefki ara udem.
 Ur d-neqqar ara d lekdeb.
-Ur d-neqqar ara tidet.
 Ur d-nerri ara agelzim s axxam.
 Ur d-nesnulfuy ara awalen s ara nesseɛwej taqbaylit-nneɣ.
 Ur d-nessaɣ aɣrum.
@@ -50721,7 +49990,6 @@ Ur d-nnint acemma.
 Ur d-nnint kra.
 Ur d-nnint walu.
 Ur d-nniɣ ara akken.
-Ur d-nniɣ ara awal-iw.
 Ur d-nniɣ ara aya.
 Ur d-nniɣ ara temxellemt.
 Ur d-nniɣ ara tidet.
@@ -50733,20 +50001,15 @@ Ur d-qqar ara d lekdeb!
 Ur d-qqar ara d si Rezqi i d argaz-im.
 Ur d-qqar ara tidet.
 Ur d-qqar yiwen n wawal.
-Ur d-qqarem ara tidet.
-Ur d-qqaren ara tidet.
 Ur d-qqareɣ ara isem-is.
-Ur d-qqareɣ ara tidet.
 Ur d-qqaṛ acemma.
 Ur d-qqaṛ kra.
 Ur d-qqaṛ walu.
 Ur d-reggem ara tigzi-w.
 Ur d-rennu awal!
 Ur d-rennu bu sebɛa tfednin.
-Ur d-rennu ula d awal.
 Ur d-rennuɣ acemma.
 Ur d-rennuɣ yiwen.
-Ur d-rezzuɣ fell-awen.
 Ur d-rrint ara agelzim s axxam.
 Ur d-rriɣ ara agelzim s axxam.
 Ur d-sbeggnen ula d tiqqit n tegmat neɣ d tamuɣli n lemɣiḍat.
@@ -50757,9 +50020,6 @@ Ur d-ssaɣen aɣrum.
 Ur d-ssaɣent aɣrum.
 Ur d-ssaɣeɣ acemma.
 Ur d-ssaɣeɣ aɣrum.
-Ur d-sseknafeɣ acemma.
-Ur d-sseɣlayeɣ acemma.
-Ur d-sseḥmayeɣ acemma.
 Ur d-ssiliɣeɣ yiwen.
 Ur d-ssilqiq di tayri.
 Ur d-ssint usuten.
@@ -50793,11 +50053,7 @@ Ur d-tefkimt ara udem.
 Ur d-tefkiḍ ara udem.
 Ur d-tefruriḍ deg ucekkiṛ
 Ur d-tegri tsertit.
-Ur d-tennim ara tidet.
-Ur d-tennimt ara akka.
-Ur d-tenniḍ ara tidet.
 Ur d-tenniḍ kra.
-Ur d-teqqar ara tidet.
 Ur d-teqqareḍ kra?
 Ur d-teqqim tayri deg tmurt-a.
 Ur d-terri ara agelzim s axxam.
@@ -50807,9 +50063,6 @@ Ur d-terrimt acemma.
 Ur d-terrimt ara agelzim s axxam.
 Ur d-terriḍ acemma.
 Ur d-terriḍ ara agelzim s axxam.
-Ur d-terḍilemt acemma.
-Ur d-teskecmem acemma.
-Ur d-teskecmeḍ acemma.
 Ur d-tessakiḍ Harry.
 Ur d-tessawel, ur as-ssawleɣ.
 Ur d-tessaɣ aɣrum.
@@ -50820,8 +50073,6 @@ Ur d-tessim usuten.
 Ur d-tessimt usuten.
 Ur d-tessiḍ usuten.
 Ur d-tessuqqul mliḥ.
-Ur d-tessutrem acemma.
-Ur d-tessutreḍ acemma.
 Ur d-tesɣim acemma.
 Ur d-tesɣim aɣrum.
 Ur d-tesɣimt acemma.
@@ -50835,7 +50086,6 @@ Ur d-tettaẓeḍ ara zdat-i ifassen-ik d ilmawen.
 Ur d-tettban ara anagar ɣer wid yessawaḍen ssekfalen-d lekdubat.
 Ur d-tettbineḍ teεyiḍ akk.
 Ur d-tettekk tafat seg uddaynin.
-Ur d-tettessum usuten.
 Ur d-tettili ara tmenɣiwt di Zzayer.
 Ur d-tettnekkar ara.
 Ur d-tettqejjimeḍ ara deg warraw n tmurt-ik.
@@ -50844,15 +50094,12 @@ Ur d-tewwiḍ ara tmeddit armi i tt-cerweɣ merriɣet.
 Ur d-teɛdil ara lbenna n tgella ara yewwen s yisɣaren d tin ara yewwen s lgaz.
 Ur d-teɣri ara Nna Seɛdiya.
 Ur d-teɣri ara Ḥnifa.
-Ur d-teɣrimt ara, naɣ?
 Ur d-tfaq ziɣ ccbaḥa tmessu.
 Ur d-ttadfemt ara.
 Ur d-ttafen acemma.
 Ur d-ttaruɣ acemma.
 Ur d-ttasem yid-i?
 Ur d-ttasemt yid-i?
-Ur d-ttasen ara ass-a.
-Ur d-ttaseɣ ara ass-a.
 Ur d-ttaseɣ ara assa.
 Ur d-ttaseḍ yid-i?
 Ur d-ttawi ara lhemm i iman-ik.
@@ -50881,12 +50128,10 @@ Ur d-ttqerribet ara.
 Ur d-ttqeṛṛib ara.
 Ur d-ttuɣalen ara.
 Ur d-ttuɣalent ara.
-Ur d-ttuɣaleɣ ara zik.
 Ur d-ttwaɛerḍeɣ ara.
 Ur d-tufi ara awalen ara d-igelmen anect-nni.
 Ur d-tuki ara zik.
 Ur d-tuki deg lawan.
-Ur d-turi ara tiririt.
 Ur d-tuɣ ara axbiz.
 Ur d-tuɣ ara aɣṛum.
 Ur d-tuɣal ur d-tsawel.
@@ -50898,10 +50143,6 @@ Ur d-twejjdemt ara.
 Ur d-ufin ara Tom.
 Ur d-ufint ara Tom.
 Ur d-ufint ara Yuba.
-Ur d-ufiɣ tasarut-inu.
-Ur d-ufiɣ taxriḍt-inu.
-Ur d-ufiɣ ula d yiwen.
-Ur d-uriɣ ara tiririt.
 Ur d-urwen ara.
 Ur d-usiɣ ara iwakken ad d-awiɣ lehna, lameɛna ajenwi.
 Ur d-usiɣ ɣef waya.
@@ -50920,13 +50161,11 @@ Ur d-yefki acemma.
 Ur d-yegri ara k-d-yessukkes yiwen.
 Ur d-yegri wacemma seg tugna-s deg wulawen d wallaɣen.
 Ur d-yekfi ara.
-Ur d-yekkat ara unẓar.
 Ur d-yelli walu.
 Ur d-yelli wayra.
 Ur d-yenni ara akka Tom.
 Ur d-yenni awal.
 Ur d-yenni ula d yiwet n tikkelt tidet.
-Ur d-yeqqar ara tidet.
 Ur d-yeqqim ara nesruḥ.
 Ur d-yeqqim deg-i nnefs ara iqiden akken ad ɛeddiɣ deg iɣeẓṛan.
 Ur d-yeqqim kra n usirem.
@@ -50936,7 +50175,6 @@ Ur d-yesmuzgut ara, ixeddem ayen i as-d-yenna uqerruy-is.
 Ur d-yessaɣ aɣrum.
 Ur d-yessi usuten.
 Ur d-yestqam s kra.
-Ur d-yettas ara ass-a.
 Ur d-yettban ara.
 Ur d-yettenkar ara zik.
 Ur d-yettnekkar ara.
@@ -50948,7 +50186,6 @@ Ur d-yeḍṛi wacemma.
 Ur d-yeḍṛi walu.
 Ur d-yeḥmil ara wasif.
 Ur d-yuki ara zik.
-Ur d-yuri ara tiririt.
 Ur d-yusi ara acku yehlek.
 Ur d-yusi ara acku yuḍen.
 Ur d-yusi ara maḍi.
@@ -50962,13 +50199,11 @@ Ur d-ččiɣ ara tamsalt.
 Ur d-ǧǧin imezwura ayen ara ad rnun ineggura.
 Ur da.
 Ur daɣ-ttaǧǧat neḥṣel.
-Ur ddaleɣ ula d yiwen.
 Ur ddan ara yid-i.
 Ur ddan ara yid-s.
 Ur ddan ara yid-sen.
 Ur ddant ara yid-i.
 Ur ddant ara yid-s.
-Ur ddant ara yid-sent.
 Ur ddin ara ɣer ṭraḍ
 Ur ddiɣ acku uḍneɣ.
 Ur ddiɣ ara deg twizi.
@@ -50981,7 +50216,6 @@ Ur din ccaɛ, ur din acbaɛ.
 Ur din takti.
 Ur din tikti.
 Ur diri-t ara.
-Ur dmiɣ ad yeḍru waya.
 Ur faqeɣ ara amek i d-ufiɣ iman-iw ssemririɣeɣ-t deg yidammen-is.
 Ur faqeɣ ara mi yeffeɣ.
 Ur fehhmeɣ talmanit.
@@ -50996,9 +50230,6 @@ Ur ffiɣeɣ, ur walaɣ.
 Ur fhimen ara turda-k.
 Ur fhimen tigert!
 Ur fhiment tigert!
-Ur fhiment tuttra-nni.
-Ur fhimeɣ afrayen-inu.
-Ur fhimeɣ anamek-nnes.
 Ur fhimeɣ ara acu i yesseḍsayen deg wanect-a.
 Ur fhimeɣ ara akken iqwem.
 Ur fhimeɣ ara asxertem-a.
@@ -51018,7 +50249,6 @@ Ur frineɣ ara abrid-a.
 Ur friḥeɣ ara.
 Ur gezzem ara abrid srid, yella umezgar.
 Ur gezzem ara abrid.
-Ur gezzem ara aḍad-ik.
 Ur gezzem ara lxiḍ-a.
 Ur gezzem ara.
 Ur gezzmen isekla.
@@ -51032,14 +50262,11 @@ Ur gganeɣ ara aṭas.
 Ur gin deg-i laman.
 Ur gineɣ ara mliḥ.
 Ur gineɣ ara.
-Ur gint acemma n diri.
 Ur gint deg-i laman.
 Ur giɣ ara daɣen akken.
-Ur giɣ aya s tmeɛmada.
 Ur gziment aseklu.
 Ur gziɣ acemma ar tura.
 Ur gziɣ ara awal-a.
-Ur gziɣ ara isali-nni.
 Ur gziɣ ara tagnizit-ik.
 Ur gziɣ ara tamuɣli-ya-inem.
 Ur gziɣ ara! Ayen win yellan d ameɣbun, ur d as-tberru ara.
@@ -51048,12 +50275,10 @@ Ur gziɣ tigert.
 Ur heddeṛ ara i Dda Lmulud.
 Ur heddeṛ ara i Saɛid Waɛmaṛ.
 Ur heddeṛ ara i Tom.
-Ur heddeṛ ara ɣef Si Ḥmed Waɛli.
 Ur heddeṛ ara!
 Ur heddrent ara maḍi.
 Ur heddreɣ ara taεrabt.
 Ur heddṛem ara!
-Ur heddṛemt ara i Si Ḥmed Waɛli.
 Ur heddṛemt ara i Tom.
 Ur heddṛemt ara!
 Ur hedṛeɣ ara tarusit.
@@ -51099,7 +50324,6 @@ Ur iksan ḥedd lewqama.
 Ur ikukra ara ad ineɣ gma-s.
 Ur ilaq ad d-tkecmeḍ deffir n tillas.
 Ur ilaq ad nettu yelli-s n inuba, d nettat kan i yesɛa.
-Ur ilaq ad teskiddbeḍ.
 Ur ilaq ara ad d-iḍes Tom.
 Ur ilaq ara ad kunt-iɣiḍ akken lḥal!
 Ur ilaq ara ad nerr awadem n Mali ad yessexdem tinfaliyin n Leqbayel.
@@ -51131,7 +50355,6 @@ Ur illi di jillul, wala di millul.
 Ur imid akka wala akka.
 Ur imlik ḥedd ṛṛay-is.
 Ur imxell ara.
-Ur inehheṛ ara azekka.
 Ur inehheṛ ara aṭas.
 Ur ineqq ara usaru n leḥrir.
 Ur ineqq, ur iɛetteq.
@@ -51159,7 +50382,6 @@ Ur iruḥ ara armi i t-iweṣṣa ɣef kullec.
 Ur iruḥ ara axaṭer yuḍen.
 Ur iruḥ ara ula d yiwen.
 Ur isawal ara tidet.
-Ur iselleḥ ara imir-a.
 Ur isetḥa ara Ɛli s uferḍas-is.
 Ur iseḥḥa ara lsas-is.
 Ur ishil ara i uxeddim.
@@ -51231,22 +50453,18 @@ Ur iyi-d-steqsan ara ugar ɣef yiman-iw.
 Ur iyi-d-temliḍ ara d acu ara xedmeɣ.
 Ur iyi-d-tewqiɛ ara akk.
 Ur iyi-d-ttnal ara!
-Ur iyi-d-ttnalemt ara!
 Ur iyi-d-tufim ara.
-Ur iyi-d-xellṣent ara.
 Ur iyi-d-yuɣ ara baba aserwal.
 Ur iyi-d-ɛriḍen ara.
 Ur iyi-frinen ara.
 Ur iyi-frinent ara.
 Ur iyi-iḥemmel ara?
-Ur iyi-mazal ḥwajeɣ-k.
 Ur iyi-sbelɛiṭ ara.
 Ur iyi-skikkiḍ ara!
 Ur iyi-skikkiḍemt ara!
 Ur iyi-skikkiḍet ara!
 Ur iyi-ssenway ara anebdu d ccetwa!
 Ur iyi-t-id-yuwi ara.
-Ur iyi-t-id-ǧǧant ara.
 Ur iyi-tefhimem ara.
 Ur iyi-tegzid ara.
 Ur iyi-tegzim ara.
@@ -51256,7 +50474,6 @@ Ur iyi-terri ara tmara ad iliɣ akken tebɣiḍ.
 Ur iyi-terri ara tmara ad rajuɣ.
 Ur iyi-tessin ara.
 Ur iyi-tessinem ara.
-Ur iyi-tettagadem ara.
 Ur iyi-tettejjmem.
 Ur iyi-tettejjmeḍ.
 Ur iyi-teǧǧi ara maca ḥulfaɣ i yiɣisi gar-anteɣ.
@@ -51283,7 +50500,6 @@ Ur iyi-yeɛjib ara.
 Ur iyi-yeɛjib waya.
 Ur iyi-yeɛǧib ara.
 Ur iyi-yuɣ ara, tanemmirt.
-Ur iyi-ḥemmel ara Si Ḥmed Waɛli.
 Ur iyi-ḥemmel ara Tom.
 Ur iyi-ḥemmlen ara?
 Ur iyi-ḥemmlent ara?
@@ -51306,7 +50522,6 @@ Ur iḥemmel ara Yidir ad iɛeṭṭel deg yiḍ di berra.
 Ur iḥemmel ara ad iruḥ s ixxamen n medden.
 Ur iḥemmel ara aɣerbaz s waṭas.
 Ur iḥemmel ara tusnakt.
-Ur iḥemmel aydi n Si Ḥmed Waɛli.
 Ur iḥemmel urar-a.
 Ur iḥeqqer yiwen.
 Ur iḥmil ara tuttla.
@@ -51442,7 +50657,6 @@ Ur ken-ttselliḥeɣ.
 Ur ken-ttserfiqeɣ.
 Ur ken-ttuɣ ara akk.
 Ur ken-ttxelliṣeɣ.
-Ur ken-ttxeyyibeɣ ara.
 Ur ken-ttxeyyibeɣ.
 Ur ken-ttɛawaneɣ ara.
 Ur ken-ttɛettibeɣ.
@@ -51452,7 +50666,6 @@ Ur ken-ttḥettimeɣ.
 Ur ken-ttṣebbireɣ.
 Ur ken-ttṭerriceɣ.
 Ur ken-yettawi ara yid-s.
-Ur ken-yettcewwil ara.
 Ur ken-yeɛjib ara?
 Ur ken-ɛebbdeɣ ara.
 Ur ken-ɣunzaɣ ara.
@@ -51540,7 +50753,6 @@ Ur kent-ttcewwileɣ.
 Ur kent-ttdemmireɣ.
 Ur kent-ttdewwiḥeɣ.
 Ur kent-ttdeḥḥiseɣ.
-Ur kent-tteḥwijin ara.
 Ur kent-ttfecciceɣ.
 Ur kent-ttfetticeɣ.
 Ur kent-ttheddineɣ.
@@ -51571,7 +50783,6 @@ Ur kent-ttḥellileɣ.
 Ur kent-ttḥettimeɣ.
 Ur kent-ttṣebbireɣ.
 Ur kent-ufint ara?
-Ur kent-yenɣi usemmiḍ.
 Ur kent-yettawi ara yid-s.
 Ur kent-yeɛjib ara?
 Ur kent-yuɣ wara?
@@ -51605,27 +50816,20 @@ Ur la nettemlelluy.
 Ur la nettḥadar ara.
 Ur la ssewwayeɣ ara.
 Ur la tettemlelluy.
-Ur la tettemɛujjutemt.
 Ur la tettnuddumem.
 Ur la tettnuddumemt.
 Ur la tettnuddumeḍ.
-Ur la tettḍeyyiɛ akud.
 Ur la tettḥadar ara.
-Ur la tettḥadarem ara.
-Ur la tettḥadareḍ ara.
 Ur la ttazzaleɣ ara.
 Ur la tteffɣen ara.
 Ur la ttemlelluyen.
 Ur la ttemlelluyent.
 Ur la ttemlelluyeɣ.
 Ur la ttnaɣeɣ ara.
-Ur la ttḍeyyiɛen akud.
-Ur la ttḍeyyiɛeɣ akud.
 Ur la ttḥadaren ara.
 Ur la ttḥadareɣ ara.
 Ur la xeddmeɣ ara.
 Ur la yettemlelluy.
-Ur la yettḍeyyiɛ akud.
 Ur la yettḥadar ara.
 Ur la zeɛɛḍeɣ ara.
 Ur leddi ara ṭṭaq-nni.
@@ -51661,12 +50865,8 @@ Ur liɣ ara tiliẓri.
 Ur liɣ ara tiririt.
 Ur liɣ ara weltma.
 Ur llin ara cennun.
-Ur llin ara d tawaɣit.
-Ur llin ara deg uxxam.
 Ur llin ara lluẓen.
-Ur llin ara ssewwayen.
 Ur llin ara ttarun.
-Ur llin slaẓayen iḍan.
 Ur llin sɛan acemma.
 Ur llin sɛan lḥeqq.
 Ur llin sɛuẓẓugen.
@@ -51677,7 +50877,6 @@ Ur llint d acemma.
 Ur llint d aggaz.
 Ur llint deg yilel tifrat.
 Ur llint ffunzrent.
-Ur llint sɛant acemma.
 Ur llint sɛuẓẓugent.
 Ur llint ttasment.
 Ur lliɣ ara cennuɣ.
@@ -51685,15 +50884,11 @@ Ur lliɣ ara d afenyan.
 Ur lliɣ ara d azeffan.
 Ur lliɣ ara d nniya.
 Ur lliɣ ara d yemma-s.
-Ur lliɣ ara deg laman.
 Ur lliɣ ara deg lɣerḍ-iw!
-Ur lliɣ ara deg uxxam.
 Ur lliɣ ara din seg Tubeṛ.
 Ur lliɣ ara heddreɣ...
 Ur lliɣ ara iman-iw.
-Ur lliɣ ara mgal waya.
 Ur lliɣ ara seg-sen.
-Ur lliɣ ara ssewwayeɣ.
 Ur lliɣ ara ttaruɣ.
 Ur lliɣ ara wejdeɣ.
 Ur lliɣ ara yid-k.
@@ -51739,7 +50934,6 @@ Ur mazal ass-a ad nadiɣ.
 Ur meqqṛeɣ ara aṭas.
 Ur messleɣ acemma.
 Ur meččḥeɣ ara iḍebsiyen.
-Ur mmugrent inebgawen.
 Ur mmuten ara.
 Ur msefhamen ara ɣef ssuma.
 Ur msefhament ara.
@@ -51764,7 +50958,6 @@ Ur negzi ara acimi aya.
 Ur negzi ara d acu-aɣ.
 Ur nehher ara mi ara teɛyuḍ mliḥ, anda tewḍeḍ, sgunfu axir.
 Ur nehher ara mi teswiḍ aṭas.
-Ur nehhṛen ara azekka.
 Ur nehhṛen ara aṭas.
 Ur nehhṛeɣ ara aṭas.
 Ur nekkat ur nettwaqis.
@@ -51777,27 +50970,21 @@ Ur nelli deg teẓgi.
 Ur nelli neffunzer.
 Ur nelli nesɛuẓẓug.
 Ur nelli nettasem.
-Ur nelli nettemlelluy.
 Ur nelli nettfunzur.
 Ur nelli nettnuddum.
 Ur nelli nettqeyyil.
 Ur nelsi ara lqecc-nteɣ.
 Ur nelsi ara.
-Ur nemmuger inebgawen.
 Ur nemmurḍes ur nemzil.
 Ur nennum ara netteffeɣ deg iḍ.
 Ur nennum ara tuffɣa deg iḍ.
-Ur neqfiz am gma-tneɣ.
 Ur neqq tarwiḥt di lɣemma.
 Ur neqqerṣ ara ass-a si ɛeggu.
 Ur nerbiḥ kra.
 Ur nesri ara isili.
 Ur nessared iqbac.
-Ur nessawal tanglizit.
 Ur nessedha igerdan.
 Ur nessefsay ddel s wayeḍ.
-Ur nessemsad tiferyin.
-Ur nessemsed tiferyin.
 Ur nessifsus ddel s gma-s.
 Ur nessin ara azal-im.
 Ur nessin ara.
@@ -51818,7 +51005,6 @@ Ur nesɛi ara ṛṛeḥma.
 Ur nesɛi ara ẓẓher.
 Ur nesɛi asnasɣal.
 Ur nesɛi aytmaten.
-Ur nesɛi aṭas n wakud.
 Ur nesɛi ifelsafiyen deg tmurt-nneɣ.
 Ur nesɛi yelli-tneɣ.
 Ur nesεa ara annect-nni deg Tuṛuft.
@@ -51826,21 +51012,15 @@ Ur nesεi ara adlis.
 Ur nesεi ara ẓẓher.
 Ur nesεi yelli-tneɣ.
 Ur nettaf ara aṭas n umgarad gar tesɣunin yezrin d tagi yetturaǧun ad d-tlal d tamaynut.
-Ur nettagad tamettant.
-Ur nettargu yir tirga.
 Ur nettaɣ ara awal.
 Ur nettcuddu, ur nfessi.
 Ur netteg ara aya.
 Ur netteɣraṣ ara am kenwi.
-Ur netteḥwiji idrimen.
 Ur netthegi iweryan.
 Ur nettili newjed.
 Ur nettmenni ad texser tmurt-nneɣ armi yeẓra Ṛebbi.
 Ur nettmettat ara.
 Ur nettqeggil ara.
-Ur nettu idrimen-nneɣ.
-Ur nettu idrimen-nteɣ.
-Ur netturar ara yid-s.
 Ur nettuɣal ara d taḍṣa i medden.
 Ur nettwali ara akk wid i aɣ-d-yettmuqulen ddaw tiṭ.
 Ur nettwaεreḍ ara ɣer tfugla n uledduy.
@@ -51860,7 +51040,6 @@ Ur nezmir ad neffer taluft i lebda.
 Ur nezmir ad nemtawi ɣef kra.
 Ur nezmir ad nerwel.
 Ur nezmir ad neḍmen aya.
-Ur nezmir ad t-nenkeṛ.
 Ur nezmir ad tt-negzem di rray gar yiḍ akkeḍ wass.
 Ur nezmir ad tt-negzem i rray gar yiḍ akked wass.
 Ur nezmir ara ad t-nenneɣ.
@@ -51875,7 +51054,6 @@ Ur neεriq ara.
 Ur neεya ara merra am kemm.
 Ur neεya ara merra am kečč.
 Ur neḥwaj idrimen.
-Ur neṭṭeq ara ɣer Si Ḥmed Waɛli.
 Ur neṭṭeq ara ɣer Tom.
 Ur neṭṭqemt ara ɣer Tom.
 Ur neṭṭqet ara ɣer Tom.
@@ -51942,11 +51120,9 @@ Ur nɣiḍ deɛwessu, negumma ad neḥlu.
 Ur nεawed ara yakk ad d-nebder annect-en.
 Ur nεellem ara yakk.
 Ur nḥemmel ara tusnakt.
-Ur nḥemmel aydi n Si Ḥmed Waɛli.
 Ur nḥemmel urar-a.
 Ur nḥiseɣ ɣef yiwen!
 Ur qbilen ara tikti-nneɣ.
-Ur qbilent isefka-nni.
 Ur qbileɣ ara asumer-nni.
 Ur qebblen isefka.
 Ur qebblent isefka.
@@ -51956,7 +51132,6 @@ Ur qebbleɣ isefka.
 Ur qebbleɣ ḥedd deg umkan-im.
 Ur qeffleɣ acemma.
 Ur qeṛṛen ara azger ar uɣyul.
-Ur qfizen am gma-tsen.
 Ur qqar ara lehdur am widak!
 Ur qqar.
 Ur qqaremt i yiwen!
@@ -51977,12 +51152,10 @@ Ur reffed ara ayen ur tettayaleḍ.
 Ur reffu ara fell-i.
 Ur reggel ara ɣef win yebɣan ad d-irḍel ɣur-k.
 Ur reggem ara Illu, ur neɛɛel ara lḥakem n tmurt-ik.
-Ur reggem sdat medden.
 Ur reggleɣ acemma.
 Ur rejjmeɣ yiwen.
 Ur reqqmeɣ acemma.
 Ur rewwi tiɣawsiwin.
-Ur rewwleɣ fell-awent.
 Ur rezzuɣ fell-asen.
 Ur rfin.
 Ur rfiɣ akk fell-ak.
@@ -51990,7 +51163,6 @@ Ur rfiɣ akk fell-am.
 Ur rfiɣ!
 Ur riɣ
 Ur riɣ ara ad iliɣ trajuɣ.
-Ur riɣ ara ad sgunfuɣ.
 Ur riɣ ara aɣerbaz.
 Ur riɣ ara taftist.
 Ur rniɣ tafyirt-a.
@@ -51999,7 +51171,6 @@ Ur rrin ara ddhen.
 Ur rriɣ ara ddhen mi yeffeɣ.
 Ur rriɣ ara ddhen.
 Ur ruḥeɣ ara acku εyiɣ.
-Ur ruḥeɣ ara ɣer ssuq.
 Ur ruḥeɣ ara ɣer temḍelt.
 Ur ruḥeɣ ara.
 Ur rǧiɣ ara ad ttwaferneɣ imi d asentel i yellan d aṭabu deg tmetti-nneɣ i ɣef i d-uriɣ.
@@ -52202,7 +51373,6 @@ Ur succuf ara dayi.
 Ur swiɣ ara aṭas.
 Ur swiɣ ara lqahwa.
 Ur swiɣay ara iman-im.
-Ur sɛin ara takeṛṛust.
 Ur sɛin ara tawla.
 Ur sɛin ara tazmert.
 Ur sɛin iḥulfan, ɛṣan wulawen-nsen.
@@ -52214,7 +51384,6 @@ Ur sɛiɣ ara adlis-a.
 Ur sɛiɣ ara afran.
 Ur sɛiɣ ara agiṭar.
 Ur sɛiɣ ara akeryun.
-Ur sɛiɣ ara akk takti.
 Ur sɛiɣ ara akud i warrac.
 Ur sɛiɣ ara am zik.
 Ur sɛiɣ ara amrig.
@@ -52235,7 +51404,6 @@ Ur sɛiɣ ara lḥeqq ad xedmeɣ ayen i yi-ihwan s wayla-w?
 Ur sɛiɣ ara memmi.
 Ur sɛiɣ ara tabɣest ad qqimeɣ deg tmetti icerwen tumert-iw ɣef cceḥ.
 Ur sɛiɣ ara tafrut.
-Ur sɛiɣ ara takeṛṛust.
 Ur sɛiɣ ara tarda.
 Ur sɛiɣ ara tarmit.
 Ur sɛiɣ ara tasarut.
@@ -52256,7 +51424,6 @@ Ur sɛiɣ la sser la d aḥeckul, ṭfeɣ kan di tjaddit seg wul.
 Ur sɛiɣ takeṛṛust.
 Ur sɛiɣ tanezduɣt.
 Ur sɛiɣ tasnasɣalt.
-Ur sɛiɣ ul ara yeččen.
 Ur sɛiɣ ula d anza.
 Ur sɛiɣ ula d yiwen.
 Ur sɛiɣ ula duru.
@@ -52986,8 +52153,6 @@ Ur tesεiḍ ara tagdeḍ.
 Ur tesεiḍ ara tikti.
 Ur tesεiḍ ara txedmeḍ?
 Ur tesεiḍ d acu yellin.
-Ur tetqellqem ɣef Si Ḥmed Waɛli.
-Ur tetqellqeḍ ɣef Si Ḥmed Waɛli.
 Ur tett ara akken tibexsisin, ččurent d aḥekka.
 Ur tett ara tinna.
 Ur tett ara winna.
@@ -53114,7 +52279,6 @@ Ur tezmir ara temgerṭ-is ad terfeḍ aqerru-s icuffen.
 Ur tezmir tmes n yiṭij.
 Ur tezmirem ara ad tqedcem ɣef Yillu akked udrim.
 Ur tezmireḍ ad t-tessakreḍ ala ma tesεiḍ kra n ttbut.
-Ur tezmireḍ ad tedduḍ.
 Ur tezmireḍ ad teffɣeḍ.
 Ur tezmireḍ ad telseḍ wa.
 Ur tezmireḍ ad teṭṭixreḍ tura.
@@ -53175,9 +52339,7 @@ Ur teẓri amek ara ffɣen yigemmaḍ-ines.
 Ur teẓri ara Maria d acu i tebɣa.
 Ur teẓri ara imiren d akken tuḍen.
 Ur teẓri sani ara tt-tessufeɣ taluft-agi d-yerzan fell-as.
-Ur teẓrim ara imsujji?
 Ur teẓrim ass wala tasaɛet.
-Ur teẓrim ula d yiwen?
 Ur teẓrimt acemma.
 Ur teẓrimt ara amek tuɣalemt?
 Ur teẓriḍ anwa nekk?
@@ -53209,7 +52371,6 @@ Ur tli ara tanfult.
 Ur tli ara tazmert.
 Ur tlim ara tazmert.
 Ur tmeččeḥ ara iḍebsiyen.
-Ur tnehheṛ ara azekka.
 Ur tnehheṛ ara aṭas.
 Ur tneqq cedda, ur tessidir telwit.
 Ur tneqqeḍ ara tamgerḍt.
@@ -53249,7 +52410,6 @@ Ur tseɛɛuḍ ugur-a.
 Ur tt-id-beddu s “besmelleh”.
 Ur tt-id-ittaf uzekka.
 Ur tt-id-mlaleɣ ara.
-Ur tt-id-nufi ara ɛad.
 Ur tt-id-ɛriḍen ara.
 Ur tt-id-ɛriḍeɣ ara.
 Ur tt-iwala ara Dda Lmulud.
@@ -53278,7 +52438,6 @@ Ur tt-tessinemt ara.
 Ur tt-tessineḍ ara
 Ur tt-tessineḍ ara.
 Ur tt-tett ara.
-Ur tt-tettagademt ara.
 Ur tt-tettnal ara.
 Ur tt-tewqiε ara deg ayen tettlus.
 Ur tt-ttagaden ara.
@@ -53302,14 +52461,11 @@ Ur tt-yessin ara
 Ur tt-yettagad ara.
 Ur tt-yettawi ara yid-s.
 Ur tt-yettaɣ, ur tt-ibellu, ala lxir deg wul-ines.
-Ur tt-yettnal ara Dan.
 Ur tt-yettnal ara.
 Ur tt-yettɛawan deg uṣubbu wala deg usali.
-Ur tt-yeɛjib ara lḥal.
 Ur tt-yeẓṛi ara Tom.
 Ur tt-ḥemmlen ara?
 Ur tt-ḥemmlent ara?
-Ur tt-ḥemmleɣ ara akk.
 Ur tt-ḥemmleɣ ara.
 Ur ttafen ara ayen ara xedmen.
 Ur ttafent ara ayen ara xedment.
@@ -53409,32 +52565,23 @@ Ur ttembiwil ara.
 Ur ttembiwil, ur ttḥewwil!
 Ur ttembiwilem ara.
 Ur ttemlelluyeɣ ara.
-Ur ttemmɣeɣ fell-awen.
 Ur ttemsefhament ara.
 Ur ttemyasamet ara gar-awen.
 Ur ttengiz ara!
 Ur ttengizet ara!
-Ur ttenhaṛeɣ ara aṭas.
 Ur ttennidet ara ɣef ṣṣuṛ.
 Ur tteqqal ara d nneyya!
 Ur tteqqen ara allen-ik.
 Ur tteqqen ara allen-im.
 Ur tteqqneɣ acemma.
 Ur tteqqneɣ yiwen.
-Ur ttess ara aman-nni!
-Ur ttess ara aman-nni.
 Ur ttesseɣ acemma.
-Ur ttesseɣ ara iɣisem.
 Ur ttestenyiɣ ula d kra.
-Ur ttett accaren-nnem.
 Ur ttett am yilef.
 Ur ttettem acemma s idammen.
 Ur ttettleɣ yiwen.
 Ur ttettu kan aya.
-Ur ttettu leḥwal-nnek.
-Ur ttewɛaṛ aṭas yid-i.
 Ur ttezzi ara ar deffir.
-Ur ttezzmeɣ fell-asen.
 Ur tteččeḥ ara!
 Ur tteɣlaqeɣ acemma.
 Ur tteɣlaqeɣ walu.
@@ -53462,7 +52609,6 @@ Ur ttili d amenzug.
 Ur ttili d azulal.
 Ur ttili d tegeldunt.
 Ur ttilint wejdent.
-Ur ttiliɣ ara iman-iw.
 Ur ttiliɣ ara yid-sent.
 Ur ttiliɣ.
 Ur ttiqbiḥ ara, tesliḍ!
@@ -53470,13 +52616,10 @@ Ur ttiqsiḥ ara aṭas.
 Ur ttissineɣ ara isewwi.
 Ur ttjellibeɣ am lleft.
 Ur ttjeyyiḥeɣ yiwen.
-Ur ttkaleɣ fell-asent.
-Ur ttkellixeɣ i yiwen.
 Ur ttkellixeɣ yiwen.
 Ur ttkerriceɣ ara.
 Ur ttkeyyif ara da.
 Ur ttkeyyifent ara ɣur-neɣ tlawin.
-Ur ttkileɣ fell-asent.
 Ur ttkukru. Mmeslay.
 Ur ttkukrut ara, ssiwlet-d ma yella kra i testeḥqem.
 Ur ttlaɛaj ara gma-k.
@@ -53509,7 +52652,6 @@ Ur ttmuqquleɣ ara ɣer deffir.
 Ur ttmuqul ara ɣur-s!
 Ur ttmuqulemt ara ɣer deffir.
 Ur ttmuqulet ara ɣer deffir.
-Ur ttnadiɣ fell-awent.
 Ur ttnal acemma da.
 Ur ttnal ara yelli!
 Ur ttnal ara.
@@ -53519,7 +52661,6 @@ Ur ttnalleɣ ara tiɛelǧtin iyi-d-yettaɣ baba.
 Ur ttnamar di lqut!
 Ur ttnaqameɣ yiwen.
 Ur ttnaɣeɣ ara d yemdanen.
-Ur ttnaɣeɣ mgal-nsent.
 Ur ttnaɣeɣ yid-sen.
 Ur ttnaɣeɣ yid-sent.
 Ur ttneggiz s igenni.
@@ -53539,7 +52680,6 @@ Ur ttqelliq ara iman-ik. Kullec ad iseggem.
 Ur ttqelliq ara! D ayen isehlen.
 Ur ttqemmir fell-as.
 Ur ttqerrib ara.
-Ur ttqerribeɣ ɣer-sen.
 Ur ttqeyyilen ara.
 Ur ttqeyyilent ara.
 Ur ttqeṛṛib ara ar tmes.
@@ -53551,7 +52691,6 @@ Ur ttrebbiɣ mmi-s n medden.
 Ur ttru ara! Dayen.
 Ur ttru ara.
 Ur ttru, ay d-tenna.
-Ur ttru. Ad akk frunt.
 Ur ttruɣ fell-asen.
 Ur ttruɣ fell-asent.
 Ur ttruḥ ara axir-ik.
@@ -53568,7 +52707,6 @@ Ur ttruẓ ara aqerru-k ɣef akka!
 Ur ttruẓ ara aqerru-m ɣef aya!
 Ur ttruẓu ara aqerruy-ik.
 Ur ttruẓuɣ acemma.
-Ur ttruẓuɣ awal-nwent.
 Ur ttruẓuɣ kra.
 Ur ttsethin ur ttlazamen.
 Ur ttsetḥi ara s teqbaylit-ik.
@@ -53578,19 +52716,16 @@ Ur ttseǧǧid ara zdat n iṛebbiten-nsen, ur ten-ttɛebbid ara.
 Ur ttseḥḥireɣ yiwen.
 Ur ttucewwleɣ ara.
 Ur ttuhumeɣ ara ma ixdem akken Tom.
-Ur ttunt idrimen-nsen.
 Ur ttuqadreɣ ara.
 Ur tturar ara deg ubrid.
 Ur tturar ara deg uzniq.
 Ur tturareɣ acemma.
 Ur tturareɣ ara ddabex deg taggara n ddurt.
-Ur tturareɣ urar-nsen.
 Ur tturareɣ yes-sen.
 Ur ttuɣ idrimen-inu.
 Ur ttuɣ ḥedd?
 Ur ttuɣal d aclim, ad k-neqbent tyuzaḍ.
 Ur ttuɣaleɣ ad ldiɣ imi-w.
-Ur ttwali ara tiliẓri.
 Ur ttwalin ara mliḥ.
 Ur ttwaliɣ ara mliḥ.
 Ur ttwaliɣ ula d aceṭṭiḍ ɣef lqaɛa.
@@ -53604,7 +52739,6 @@ Ur ttxalaḍ ara tidak.
 Ur ttxalaḍ ara tinna.
 Ur ttxalaḍ ara widak.
 Ur ttxalaḍ ara winna.
-Ur ttxalaḍemt ara Si Ḥmed Waɛli.
 Ur ttxalaḍemt ara tidak.
 Ur ttxalaḍemt ara tinna.
 Ur ttxalaḍemt ara widak.
@@ -53619,7 +52753,6 @@ Ur ttxemmimeɣ am kemm.
 Ur ttxemmimeɣ am kečč.
 Ur ttxemmimeɣ am kunnemti.
 Ur ttxemmimeɣ am kunwi.
-Ur ttxemmiseɣ yid-sen.
 Ur ttxeyyibeɣ yiwen.
 Ur ttxiḍiɣ acemma.
 Ur ttɛasamt ara.
@@ -53649,9 +52782,7 @@ Ur ttḥamaleɣ ara add y-rren am teqcict tabestuḥt.
 Ur ttḥar ara
 Ur ttḥasabet ara wiyaḍ.
 Ur ttḥawal ara učči.
-Ur ttḥawalet ara ṛṛay!
 Ur ttḥaṛaf tiddit.
-Ur ttḥemmilent urar-a.
 Ur ttḥerrik ara!
 Ur ttḥerrik ara.
 Ur ttḥerrikem ara!
@@ -53771,7 +52902,6 @@ Ur tḥeqqeɣ ara maḍi maḍi.
 Ur tḥeqqeɣ ara mliḥ.
 Ur tḥulfa i wacemma.
 Ur tḥulfa i wacemma?
-Ur tṣebber ara i waya.
 Ur tṣuni ara mi ara d-izger uqcic amecṭuḥ, ixelleɛ yettuɣal-d d timdeffirt.
 Ur ufan ara acu ara xedmen.
 Ur ufant ara acu ara xedment.
@@ -53799,7 +52929,6 @@ Ur urgan yir tirga.
 Ur urgant yir tirga.
 Ur urgaɣ yir tirga.
 Ur uriɣ ara tiririt.
-Ur usimeɣ ara deg Si Ḥmed Waɛli.
 Ur usimeɣ seg-sen.
 Ur usimeɣ seg-sent.
 Ur usimeɣ seg-wen.
@@ -53827,7 +52956,6 @@ Ur weɛɛed s wacemma.
 Ur whimeɣ ara akken maḍi maḍi.
 Ur whimeɣ ara mliḥ.
 Ur wufqeɣ ara.
-Ur wwiɣ ara tansa-nni.
 Ur wwiɣ si tirect, wala seg ukerfa.
 Ur wwiɣ ur rriɣ.
 Ur wwiḍen ara ayen i ttmennin.
@@ -53900,7 +53028,6 @@ Ur yeggan ur yesgan.
 Ur yeggan ur yettnudum uqcic-a.
 Ur yegzi ara Yuba mliḥ.
 Ur yehbil ara.
-Ur yejriḥ uma d yiwen.
 Ur yeksan ara.
 Ur yeksan ḥedd ma yesleb.
 Ur yelhi ara uɛiwed n tefyirt ɣef waṭas n wudmawen, ttmullun medden.
@@ -54016,7 +53143,6 @@ Ur yettbeddil ara mejjir aẓar.
 Ur yettbeddil yiqiḥ.
 Ur yetteg ara aya.
 Ur yettekki ara deg yisenfaṛen yekkren.
-Ur yetteḥwiji idrimen.
 Ur yettidir ara aṭas.
 Ur yettili yewjed.
 Ur yettmettat ara.
@@ -54037,7 +53163,6 @@ Ur yettɛeṭṭil ara ad yamed usideg n Facebook ɣer teqbaylit.
 Ur yettɣullu yiwen.
 Ur yettḍeyyiɛ akud.
 Ur yettḍurru yiwen.
-Ur yettḥadar ara aṭas.
 Ur yewjid ara.
 Ur yewwiḍ ara ad d-isali taggayin.
 Ur yewwiḍ ara aswir ɛlayen deg leqraya.
@@ -54285,8 +53410,6 @@ Ur ččiɣ acemma.
 Ur ččiɣ ara tikermusin.
 Ur ččiɣ ara, ur swiɣ ara.
 Ur ččiɣ ur swiɣ.
-Ur ǧhideɣ ara am kemm.
-Ur ǧhideɣ ara am kečč.
 Ur ǧǧin amkan.
 Ur ǧǧint amkan.
 Ur ǧǧiɣ amkan.
@@ -54301,7 +53424,6 @@ Ur ɛeddaɣ deg-went.
 Ur ɛeffset ara tamusayt.
 Ur ɛerrqeɣ gar-asen.
 Ur ɛerrḍeɣ acemma.
-Ur ɛlimeɣ acḥal ssaɛa.
 Ur ɛqilen ara Tom.
 Ur ɛumen ara ass-a.
 Ur ɛument ara ass-a.
@@ -54316,25 +53438,18 @@ Ur ɣ-ttagaden ara.
 Ur ɣ-tumineḍ ara?
 Ur ɣ-yettagad ara.
 Ur ɣ-εriḍen ɣer tmeɣra.
-Ur ɣeffleɣ fell-asent.
-Ur ɣeffleɣ fell-awent.
 Ur ɣelleq tawwurt.
 Ur ɣellqeɣ acemma.
-Ur ɣellqeɣ fell-asent.
-Ur ɣellqeɣ fell-awent.
 Ur ɣelṭeɣ ara.
 Ur ɣetteb ara.
 Ur ɣfileɣ ara fell-as.
-Ur ɣileɣ ad aɣ-iɛawen.
 Ur ɣileɣ ara ɣezzifet akk akka.
 Ur ɣlay ara, yak?
 Ur ɣlayet ara tgella.
 Ur ɣliqeɣ tawwurt.
 Ur ɣliḍen ara nutni.
 Ur ɣliḍen ara.
-Ur ɣrin ara adlis-nni.
 Ur ɣriɣ ara
-Ur ɣriɣ ara adlis-nni.
 Ur ɣriɣ ara deg uɣerbaz.
 Ur ɣriɣ ara.
 Ur ɣriɣ, ur fhimeɣ.
@@ -54367,7 +53482,6 @@ Ur ḥekku i ḥedd!
 Ur ḥekku ula i yiwen!
 Ur ḥekkuɣ lbaḍna i leɛyal-iw.
 Ur ḥemmlen ara aɣerbaz s waṭas.
-Ur ḥemmlen aydi n Si Ḥmed Waɛli.
 Ur ḥemmlen urar-a.
 Ur ḥemmlent ara ad meslayent ɣef tsertit.
 Ur ḥemmlent ara aɣerbaz s waṭas.
@@ -54383,21 +53497,16 @@ Ur ḥemmleɣ ara ad y-isteqsi ḥedd.
 Ur ḥemmleɣ ara ad ɣelḍeɣ.
 Ur ḥemmleɣ ara ahil-a.
 Ur ḥemmleɣ ara aya.
-Ur ḥemmleɣ ara aɣerbaz
 Ur ḥemmleɣ ara ccerba.
 Ur ḥemmleɣ ara iceyyaten.
 Ur ḥemmleɣ ara iqezzaben.
 Ur ḥemmleɣ ara iḍan.
-Ur ḥemmleɣ ara lgerra.
 Ur ḥemmleɣ ara lqahwa.
-Ur ḥemmleɣ ara tafsut.
 Ur ḥemmleɣ ara taglizit.
 Ur ḥemmleɣ ara timellalin.
 Ur ḥemmleɣ ara tusnakt.
-Ur ḥemmleɣ aydi n Si Ḥmed Waɛli.
 Ur ḥemmleɣ ccikula.
 Ur ḥemmleɣ gma, ur ḥemmleɣ wi t-ikkaten.
-Ur ḥemmleɣ timellalin.
 Ur ḥemmleɣ tizlit-a.
 Ur ḥemmleɣ urar-a.
 Ur ḥemmu ara akken.
@@ -54428,10 +53537,7 @@ Ur ḥudren ara aqjun-nni?
 Ur ḥulfan i wacemma?
 Ur ḥulfaɣ ara s leḥzen.
 Ur ḥusseɣ ara εyiɣ akk.
-Ur ḥwajen ara ad ẓren.
 Ur ḥwajent idrimen.
-Ur ḥwajeɣ ara aselkim.
-Ur ḥwajeɣ ula d yiwen.
 Ur ḥwaǧeɣ ara axeddim-ik.
 Ur ḥwaǧeɣ ara axeddim-im.
 Ur ḥwaǧeɣ ara ddin-ik.
@@ -60528,7 +59634,6 @@ Yetturar uselmad nnuba tameqqṛant deg usegmi n tmetti s umata deffir n usegmi 
 Yetturar waḍu yettawi deg-s yettara.
 Yetturaǧu ad yettwafraq deg tmeɣra n usfugel n yennayer n sin igiman d tẓa twinas d ṣa tmerwin.
 Yetturaǧu, ad ccnun deg-s ma drus ɛecra n yicennayen ilmeẓyen n taddart-agi.
-Yetturaǧu, ad yili wahil d anesbaɣur deg tfaska-a.
 Yettusu, iban yuḍen.
 Yettuɛeggen diɣ ad yili usiher n yimseḍsi neɣ n useḥḥar ɣer tama n tmeɣra n ccna.
 Yettuɣal-d yal mi ara d-yeḥḍer waggur n yebrir.
@@ -64964,37 +64069,6 @@ Zwi.
 Zwimt-t-id i llufan.
 Zwin leǧyub-nnsen.
 Zwin-tt, kksen-as ammus.
-Zwina ad tesɛu lḥeqq.
-Zwina attan s tadist.
-Zwina teffeɣ ad tečč.
-Zwina tella tessusuf.
-Zwina tella tettafeg.
-Zwina tella tettaker.
-Zwina tella tettargu.
-Zwina tella tettasem.
-Zwina tella tettsuɣu.
-Zwina tella tettxiḍi.
-Zwina tella tettɣimi.
-Zwina tella tettṛaju.
-Zwina tella teɣɣar-d.
-Zwina tennum asemmiḍ.
-Zwina tessa-d usuten.
-Zwina tessared iqbac.
-Zwina tessaɣ-d aɣrum.
-Zwina tessew tibḥirt.
-Zwina tessirid iqbac.
-Zwina tessuggut awal.
-Zwina tettqadar-ikem.
-Zwina tettqadar-iken.
-Zwina teɣleq taḥanut.
-Zwina tgezzem isefra.
-Zwina tuɣal-d ɣer da.
-Zwina tḥemmel aẓawan.
-Zwina tḥemmel urar-a.
-Zwina ur d-terri ara.
-Zwina ur telli terfa.
-Zwina ur telli tuḍen.
-Zwina ur tesɛi lḥeqq.
 Zwina! Dehbiya! Heyyimt-d lqahwa. I asent-tenna yemma-tsent.
 Zwir a Tom.
 Zwir deg tacacit, ternuḍ aqelmun.
@@ -68101,7 +67175,6 @@ zuɣer icifaḍ ar tafeḍ isebbaḍen.
 Ṣebṛet!
 Ṣeddeq.
 Ṣeddqen idlisen-nni.
-Ṣeddqent idlisen-nni.
 Ṣeddḥen akk tibḥirt s later.
 Ṣeffren.
 Ṣeffrent.
@@ -68166,7 +67239,6 @@ zuɣer icifaḍ ar tafeḍ isebbaḍen.
 Ṣṣeṛf ɣuṛ-s dima yewjed.
 Ṣṣfa tettawi-d ɣer tagara.
 Ṣṣifa, s ufella ay d-terna.
-Ṣṣin ay ulun f uḍefli.
 Ṣṣran n muc d aqeffu.
 Ṣṣubem!
 Ṣṣufṛen iḍaṛṛen-is.

@@ -10,7 +10,6 @@ submit-form-action = 送信
 loading = 読み込み中…
 email-opt-in-info = Common Voice に関する目標リマインダ、進捗状況の更新、ニュースレターなどのメールを受け取ります。
 email-opt-in-info-title = Common Voice メーリングリストに参加
-email-opt-in-info-sub-with-challenge = Common Voice に関する目標リマインダーや進捗状況の更新、ニュースレターなどのメールを受け取ります。
 email-opt-in-privacy = メールの受信を選択した場合、Mozilla の<privacyLink>プライバシーポリシー<privacyLink>に記載のとおり、この情報を Mozilla が取り扱うことに同意したものとみなされます。
 indicates-required = * の付いた項目は入力必須です
 not-available-abbreviation = 該当なし
@@ -342,7 +341,7 @@ ready-to-upload = アップロード
 avatar-clip-fact = ページのレイアウトを見たときに、読者がページの読み取り可能なコンテンツに気を取られることは長い間確立された事実です。
 recreate-voice = 音声再記録
 cancel-avatar-clip-recording = キャンセル
-about-avatar-clip-recording = プロフィールアバターの音声クリップを作成します。アバターにカーソルを合わせると他の人が音声クリップを聴けます。
+about-avatar-clip-recording = プロフィールアバターの音声クリップを作成します。アバターにカーソルを合わせると他の人が音声クリップを聞けます。
 browse-file-title = 画像ファイルをアップロード
 browse-file = ドラッグ＆ドロップまたは <browseWrap>ファイルを選択</browseWrap>
 connect-gravatar = Gravatar と接続
@@ -370,7 +369,7 @@ faq-why-important-a =
 faq-how-get-q = Common Voice のデータはどうやって入手できますか？
 faq-how-get-a = Common Voice データセットは、<datasetLink>データセットページ</datasetLink>の <licenseLink>CC0</licenseLink> ライセンスに基づいてダウンロードできます。 同じページから他の公に利用可能なデータセットをダウンロードすることもできます。
 faq-when-release2-q = 他の言語の Common Voice データをいつリリースする予定ですか？
-faq-when-release2-a = Common Voice データセットの多言語バージョンは、現在、コミュニティがサポートするバンドリングとクリーニングを行っています。Common Voice を新しい言語に導入したい場合は、データセットに新しい文を追加するための <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink>、およびウェブサイトを翻訳するための Mozilla <pontoonLink>Pontoon</pontoonLink> をご覧ください。5000 個の承認された文が収集されると、音声投稿のために新しい言語が Common Voiceに追加されます。
+faq-when-release2-a = Common Voice データセットの多言語バージョンは、現在、コミュニティがサポートするバンドリングとクリーニングを行っています。Common Voice を新しい言語に導入したい場合は、データセットに新しい文を追加するための <sentenceCollectorLink>Sentence Collection Tool</ sentenceCollectorLink>、およびウェブサイトを翻訳するための Mozilla <pontoonLink>Pontoon</ pontoonLink> をご覧ください。5000 個の承認された文が収集されると、音声投稿のために新しい言語が Common Voiceに追加されます。
 faq-why-mission-q = Common Voice はなぜ Mozilla の使命の一部なのですか？
 faq-why-mission-a = Mozilla は、ウェブを開かれた、誰にでもアクセス可能なものであり続けることに力を注いでいます。私たちはこれを実現するため Common Voice のようなプロジェクトを通じてウェブクリエイターに協力していく必要があります。音声技術の普及とともに、すべてのユーザーに平等にサービスを提供していく必要があると信じています。音声技術を構築、テストするためにより多くの言語、アクセント、性別、年齢のデータが世の中で求められています。Common Voice は、誰もが利用できる公開リソースであり、世界中の Mozilla チームと開発者はすでに私たち自身のプロジェクトでもそれを使っています。
 faq-what-cv-and-deepspeech-q = Common Voice と Deep Speech の違いは何ですか？
@@ -381,10 +380,10 @@ faq-do-want-native-q = 私はネイティブスピーカーではなく、訛り
 faq-do-want-native-a = はい、私たちはあなたの声が特に欲しいのです！ Common Voice の目的の一部は、音声認識サービスがすべての人にとって等しくうまく機能するように、できるだけ多くの異なるアクセントを集めることです。これは、非ネイティブスピーカーからの寄付が特に重要であることを意味します。
 faq-why-different-speakers-q = なぜ言語ごとにそれほど多くの異なる話者が必要なのですか？
 faq-why-different-speakers-a =
-    ほとんどの音声データベースは、特定の人口統計を過剰に表現してトレーニングされているため、<articleLink>男性と中流階級</articleLink>に偏っています。トレーニングデータセットで過小評価される傾向のあるアクセントと方言は、通常、すでに疎外されている人々のグループに関連付けられています。多くの機械も女性の声を理解するのに苦労しています。
+    ほとんどの音声データベースは、特定の人口統計を過剰に表現してトレーニングされているため、<articleLink>男性と中流階級</ articleLink>に偏っています。トレーニングデータセットで過小評価される傾向のあるアクセントと方言は、通常、すでに疎外されている人々のグループに関連付けられています。多くの機械も女性の声を理解するのに苦労しています。
     これが、音声データベースに多様性が必要な理由です！
 faq-why-my-lang-q = 私の言語がまだ含まれていないのはなぜですか？
-faq-why-my-lang-new-a = Mozilla は、ある言語を別の言語よりも優先したり選び取ったりしません。Common Voice は純粋にコミュニティ主導のイニシアチブですから、<multilangLink>新しい言語を追加するいくつかの手順</multilangLink>により、音声寄付の収集を開始します。まず、コミュニティメンバーが自分の言語で音声の寄付がアクセスできるように、Common Voice のウェブサイトを翻訳する必要があります。次に、人々が声に出して読むための、著作権フリーの文章の大規模なコレクションが必要です。これらの要件の両方が満たされると、共通の音声で言語が「起動」され、人々が音声を録音し、他の寄付を検証できるようになります。新しい言語の立ち上げを支援したい場合は、<sentenceCollectorLink>センテンスコレクションツール</sentenceCollectorLink>にアクセスして開始してください。
+faq-why-my-lang-new-a = Mozilla は、ある言語を別の言語よりも優先したり選び取ったりしません。Common Voice は純粋にコミュニティ主導のイニシアチブですから、<multilangLink>新しい言語を追加するいくつかの手順</ multilangLink>により、音声寄付の収集を開始します。まず、コミュニティメンバーが自分の言語で音声の寄付がアクセスできるように、Common Voice のウェブサイトを翻訳する必要があります。次に、人々が声に出して読むための、著作権フリーの文章の大規模なコレクションが必要です。これらの要件の両方が満たされると、共通の音声で言語が「起動」され、人々が音声を録音し、他の寄付を検証できるようになります。新しい言語の立ち上げを支援したい場合は、<sentenceCollectorLink>センテンスコレクションツール</ sentenceCollectorLink>にアクセスして開始してください。
 faq-what-quality-q = 音声クリップをデータセットで使用するには、どの程度の音質が必要ですか？
 faq-what-quality-a = Common Voice データセットに音声認識エンジンで実際に聞こえる音声品質を反映させる必要があるため、私たちは様々な音声を探しています。話者の多様なコミュニティに加えて、様々な音声品質を持つデータセットは、音声認識エンジンに、周囲の会話から車の騒音まで、さまざまな現実の状況を処理するように教えます。あなたの音声クリップが理解できる限り、それはデータセットにとって十分であるべきです。
 faq-why-10k-hours-q = 音声をキャプチャーするために、言語ごとの目標として 1 万時間の検証が必要なのはなぜですか？
@@ -393,9 +392,9 @@ faq-how-calc-hours-q = Common Voice はどのように時間を計算します�
 faq-how-calc-hours-a = 各録音の平均長を推定し、その数字に全言語にわたる録音の合計数を掛けて時間を計算します。
 faq-where-src-from-2-q = 原文の出典はどこですか？
 faq-where-src-from-2-a =
-    ソーステキストは、元の寄稿者の寄付と、<italic>It's a Wonderful Life</italic> などのパブリックドメインの映画の台本からの台詞で構成されています。
+    ソーステキストは、元の寄稿者の寄付と、<italic>It's a Wonderful Life</ italic> などのパブリックドメインの映画の台本からの台詞で構成されています。
     
-    この <githubLink>GitHub フォルダー</githubLink> でソーステキストを見ることができます。
+    この <githubLink>GitHub フォルダー</ githubLink> でソーステキストを見ることができます。
 faq-why-not-ask-read-q = 書籍や Wikipedia の記事を他の言語で読むように求めないのはなぜですか？
 faq-why-not-ask-read-a = Common Voice データセットをできるだけ便利にするために、クリエイティブコモンズ（CC0）ライセンスの下で利用可能なソーステキストのみを許可することにしました。CC0 標準を使用することは、ソーステキストを見つけて収集することがより困難であることを意味しますが、使用制限や Mozilla からの承認なしで誰でも結果の音声データを使用することを可能にします。最終的には、多言語データセットを、研究者、大学、新興企業、政府機関、社会目的団体、および趣味専門家を含むすべての人にとってできるだけ役立つものにしたいと考えています。
 faq-why-account-q = アカウント登録する必要があるのはなぜですか？
@@ -423,13 +422,12 @@ about-header-description =
 how-does-it-work-title = 動作の仕組みは？
 how-does-it-work-text = 私たちは声のオープンソースデータセットをクラウドソーシングしています。あなたの声を寄付し、他の人々の音声クリップの正確さを検証し、誰にとっても良いデータセットにしましょう。
 about-speak = 話す
-about-speak-text = 貢献者が寄付された文章を読み上げて音声クリップを録音します。
 about-listen-queue = リッスンキュー
 about-listen-queue-text = 音声クリップは送信キューに入れられ、そこでリスニングの準備が整います。
 about-listen = 聴く
 about-listen-text = ユーザーは寄付されたクリップの正確性を検証し、話者が文を正しく読んでいることを確認します。
 about-is-it-valid = 音声クリップは正しいですか？
-about-is-it-valid-text = ユーザーが「はい」の投票を行うと、音声クリップに「有効」マークが付きます。
+about-is-it-valid-text = ユーザーが「はい」の投票を行うと、音声クリップは「有効」とマークされます。
 about-yes-votes = 2 票以上の賛成
 about-yes-votes-text = Common Voice のデータセットにするには、2 人の別々のユーザーが音声クリップを検証する必要があります。
 about-no-votes = 2 票未満
@@ -445,7 +443,6 @@ about-partnership =
     
     このプロジェクトを手伝ってくれた以下の人々と組織に感謝します:
 about-get-involved = 参加しよう
-about-get-involved-text-2 = Common Voice をさらに改善しませんか？ ご協力いただける方は、メールまたは <discourseLink>Discourse</discourseLink> フォーラムでご連絡ください。サイトの問題は <githubLink>GitHub</githubLink> 経由か、<matrixLink>Matrix</matrixLink> コミュニティのチャットでフィードバックしてください。
 about-nav-why-common-voice = なぜ？
 about-nav-how-it-works = どうやって？
 about-nav-partners = パートナー
@@ -534,7 +531,7 @@ validated-hours = 検証された時間
 recorded-hours = 録音された時間
 whats-inside = Common Voice データセットの中身は？
 dataset-description-hours =
-    データセットの各エントリーは、一意の MP3 と対応するテキストファイルで構成されます。データセットに記録された <b>{ $total }</b> 時間の録音の多くには、年齢、性別、アクセントなどの人口統計メタデータも含まれており、音声認識エンジンの精度のトレーニングに役立ちます。
+    データセットの各エントリーは、一意の MP3 と対応するテキストファイルで構成されます。データセットに記録された <b>{ $total }</ b> 時間の録音の多くには、年齢、性別、アクセントなどの人口統計メタデータも含まれており、音声認識エンジンの精度のトレーニングに役立ちます。
     
     現在のデータセットは、<b>{ $languages }</ b>言語の検証された <b>{ $valid }</ b> 時間の録音データで構成されていますが、音声と言語は常に追加されています。 <languagesLink>言語ページ</ languagesLink>をご覧になり、言語をリクエストするか、貢献を開始してください。
 want-dataset-update = Common Voice データセットの新しいバージョンがリリースされたときに更新したい方は、ニュースレターを購読してください。
@@ -542,8 +539,8 @@ subscribe = 購読
 get-started-speech = 音声認識を始める
 other-datasets = その他の音声データセット
 feedback-q = フィードバックの提供
-deepspeech-info = Common Voice データセットは、音声認識アプリケーションの構築に利用できる Mozilla のオープンソース音声認識エンジン Deep Speech を補完します。使い始める方法は、<githubLink>Github の概要</githubLink>を読むか、<discourseLink>DeepSpeech Discourse</discourseLink> をご覧ください。
-common-voice-info-new = Common Voice についての質問や、特定の言語に関する改善やフィードバックのアイデアをお持ちの方は、<discourseLink>Discourse フォーラム</discourseLink>に参加してお知らせください。
+deepspeech-info = Common Voice データセットは、音声認識アプリケーションの構築に利用できる Mozilla のオープンソース音声認識エンジン Deep Speech を補完します。使い始める方法は、<githubLink>Github の概要</ githubLink>を読むか、<discourseLink>DeepSpeech Discourse</ discourseLink> をご覧ください。
+common-voice-info-new = Common Voice についての質問や、特定の言語に関する改善やフィードバックのアイデアをお持ちの方は、<discourseLink>Discourse フォーラム</ discourseLink>に参加してお知らせください。
 data-other-librispeech-description = LibriSpeech は16Khzでおよそ1000時間、録音された英語音声のコーパスです。音声は LibriVox が公開しているオーディオブックを読み上げて録音しています。
 data-other-ted-name = TED-LIUM コーパス
 data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
@@ -593,7 +590,7 @@ other-language = 他の言語
 language-section-in-progress = 現在進行中
 language-section-in-progress-new-description = これらの言語は現在、コミュニティが開発中です。進捗バーは、各言語が進めている <localizationGlossaryLink>ウェブサイトのローカライズ</localizationGlossaryLink> と <sentenceCollectionGlossaryLink>文章の収集</sentenceCollectionGlossaryLink> のプロセスの状況を示します。
 language-section-launched = 公開中
-language-section-launched-description = これらの立ち上げられた言語について、ウェブサイトは<localizationGlossaryLink>ローカライズ</localizationGlossaryLink>されており、<speakLink>話すこと</speakLink>と<listenLink>聴くこと</listenLink>の貢献を可能にするのに十分な<sentenceCollectionGlossaryLink>文章</sentenceCollectionGlossaryLink>が集められています。
+language-section-launched-description = これらの立ち上げられた言語について、ウェブサイトは<localizationGlossaryLink>ローカライズ</localizationGlossaryLink>されており、<speakLink>話すこと</speakLink>と<listenLink>聞くこと</listenLink>の貢献を可能にするのに十分な<sentenceCollectionGlossaryLink>文章</sentenceCollectionGlossaryLink>が集められています。
 languages-show-more = もっと見る
 languages-show-less = 折りたたむ
 language-meter-in-progress = 進捗
@@ -623,7 +620,7 @@ contribute-more =
 record-cta = 録音を開始する
 record-platform-not-supported = 申し訳ありません、あなたが利用しているプラットフォームは、現在サポートされていません。
 record-platform-not-supported-desktop = デスクトップPCでは、次の最新のクライアントから利用できます。：
-record-platform-not-supported-ios = <bold>iOS</bold> のユーザは次の無料アプリから利用できます:
+record-platform-not-supported-ios = <bold>iOS</bold> のユーザは次の無料アプリから利用できます。：
 record-must-allow-microphone = マイクの利用を許可してください。
 record-no-mic-found = マイクが見つかりません。
 record-error-too-short = 録音時間が短かすぎます。
@@ -637,8 +634,6 @@ record-again-instruction = ありがとう！<recordIcon></recordIcon>で続け�
 record-again-instruction2 = 頑張って、続けて録音しよう<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>これで最後！
 review-tooltip = 録音した音声の、確認と再録音
-share-clip = 音声クリップを共有する
-share-common-voice = Common Voice を共有する
 review-instruction = 録音した音声を確認して、必要なら再録音してください
 record-submit-tooltip = 終わったら提出を{ $actionType }
 clips-uploaded = 音声がアップロードされました
@@ -714,7 +709,7 @@ total-approved = 承認された合計時間
 overall-accuracy = 全体の精度
 set-visibility = 進捗の可視性を設定
 visibility-explainer = この設定は、リーダーボードに進捗を公開するかどうかを制御します。非公開にすると、進行状況が隠されます。つまり、あなたのアイコン、ユーザー名、進行状況がリーダーボードに表示されなくなります。リーダーボードの更新には、変更を取り込むため { $minutes } 分程度かかります。
-visibility-overlay-note = 補足: 「公開」に設定すると、この設定を<profileLink>プロファイルページ</profileLink>から変更できます
+visibility-overlay-note = 補足: 「公開」に設定すると、この設定を<profileLink>プロファイルページ</ profileLink>から変更できます
 show-ranking = ランキングを表示する
 
 ## Custom Goals
@@ -722,7 +717,7 @@ show-ranking = ランキングを表示する
 get-started-goals = 目標を持って始めましょう
 create-custom-goal = 自分の目標を作成する
 both-speak-and-listen = 両方
-both-speak-and-listen-long = 両方（話すと聴く）
+both-speak-and-listen-long = 両方（話すと聞く）
 daily-goal = 毎日の目標
 weekly-goal = 週間目標
 easy-difficulty = やさしい
@@ -741,18 +736,14 @@ cant-decide = 決められない？
 activity-needed-calculation = { NUMBER($totalHours) } 時間は、{ NUMBER($people) } 人が 1 日に { NUMBER($clipsPerDay) } クリップを記録する場合、 { NUMBER($periodMonths) } か月をわずかに超える時間で達成可能です。
 how-many-per-day = すばらしいです！ 1日あたりのクリップ数は？
 how-many-a-week = すばらしいです！週にいくつのクリップですか？
-which-goal-type = 話す、聴く、またはその両方をしたいですか？
-receiving-emails-info = 現在、目標リマインダーや Common Voice に関する進捗の更新、ニュースレターなどのメールを受信するように設定されています。
-not-receiving-emails-info = 現在、目標リマインダーや Common Voiceに関する進捗の更新とニュースレターなどのメールを <bold>受信しない</bold> ように設定されています。
 n-clips = { NUMBER($count) } クリップ
 confirm-goal = 目標を確認
 goal-interval-weekly = 毎週
 share-goal-type-speak = 話す
-share-goal-type-listen = 聴く
-share-goal-type-both = 話すと聴く
+share-goal-type-listen = 聞く
+share-goal-type-both = 話すと聞く
 weekly-goal-created = 毎週の目標が作成されました
 daily-goal-created = 毎日の目標が作成されました
-track-progress = ここと統計ページで進捗状況を追跡します。
 return-to-edit-goal = ここに戻って、いつでも目標を編集できます。
 share-goal = 目標を共有する
 

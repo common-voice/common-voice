@@ -453,7 +453,6 @@ data-download-button = Common Voice کے کوائف ڈائونلوڈ کریں
 data-download-yes = ہاں
 data-download-deny = نہیں
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
-data-download-modal = آپ <size>{ $size }GB</size> کا ڈاؤن لوڈ شروع کرنے ہی والے ہیں ، آگے بڑھیں؟
 data-get-started = <speechBlogLink>کلام شناسی کے ساتھ شروع کریں</speechBlogLink>
 data-other-title = دیگر وائس ڈیٹا سیٹس
 data-other-goto = { $name } پر جائیں
@@ -486,20 +485,17 @@ audio-format = آڈیو فارمیٹ
 number-of-voices = آوازوں کی تعداد
 splits = ٹکڑے
 email-to-download = ڈاؤن لوڈ کرنے کے لئے ای میل درج کریں
-confirm-size = آپ <b>{ $size }</b> کی ڈاؤن لوڈ شروع کرنے کے لئے تیار ہیں
 size-gigabyte = GB
 size-megabyte = MB
 download-language = { $language } ڈاؤن لوڈ کریں
 validated-hours = کل توثیق شدہ گھنٹے
 recorded-hours = ریکارڈ شدہ  گھنٹے
 whats-inside = کامن وائس ڈیٹاسیٹ کے اندر کیا ہے؟
-want-dataset-update = جب ہم Common Voice ڈیٹاسیٹ کا نیا ورژن جاری کرتے ہیں تو اپ تازہکاری  چاہتے ہیں؟ ہماری نیوز لیٹر کو سبسکرائب کریں.
 subscribe = رکن بنیں
 get-started-speech = تقریر کی پہچان کے ساتھ آغاز کریں
 other-datasets = دوسرے وائس ڈیٹاسیٹس
 feedback-q = آپ کی رائے ہے؟
 data-other-ted-name = TED-LIUM Corpus
-your-feedback = کیا آپ کے پاس اس بارے میں خیالات ہیں کہ ہم Common Voice ڈیٹاسیٹ کو کس طرح بہتر بنا سکتے ہیں؟ ہمیں ڈیسکورس پر آگاہ کریں
 go-discourse = Discourse میں جاییں
 go-languages-page = زبانوں کے صفحے پر جائیں
 ready-to-validate = کیا جملے درست کرنے میں مدد کرنے کے لئے تیار ہیں؟
@@ -582,8 +578,6 @@ record-again-instruction = بہت اچھے! <recordIcon></recordIcon> اپنا �
 record-again-instruction2 = کوشش جاری رکھیں، دوبارہ رکارڈ کریں <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>آخری!
 review-tooltip = یہاں چلتے ہوئے تراشوں کو دوبارہ ریکارڈ کریں اور جائزہ لیں
-share-clip = اپنا کلپ شیئر کریں
-share-common-voice = Common Voice شیئر کریں
 review-instruction = جائرہ لیں اور تراشے دوبارہ ریکارڈ کریں اگر ظرورت ہو
 record-submit-tooltip = { $actionType } جمع کرائیں جب تیار ہوں
 clips-uploaded = اپ لوڈ شدہ تراشے
@@ -614,7 +608,6 @@ report-grammar-or-spelling-detail = اس جملے میں گرائمر یا ام�
 report-different-language = مختلف زبان
 report-different-language-detail = یہ میری زبان سے مختلف زبان میں لکھا گیا ہے۔
 report-difficult-pronounce = تلفظ کرنا مشکل ہے
-report-difficult-pronounce-detail = اس میں ایسے الفاظ یا فقرے ہیں جن کو پڑھنا یا تلفظ کرنا مشکل ہے۔
 report-offensive-speech = اشتعال انگیز تقریر
 report-offensive-speech-detail = کلپ میں بے عزتی والی یا توہین آمیز زبان ہے۔
 report-other-comment =

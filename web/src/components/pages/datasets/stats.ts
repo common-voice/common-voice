@@ -1291,7 +1291,11 @@ export default {
     },
     ab: {
       clips: 58,
-      splits: { accent: { '': 1 }, age: { '': 1 }, gender: { '': 1 } },
+      splits: {
+        accent: { '': 1 },
+        age: { seventies: 0.43, thirties: 0.57 },
+        gender: { male: 0.98, female: 0.02 },
+      },
       users: 3,
       duration: 370272,
       buckets: {
@@ -1341,7 +1345,11 @@ export default {
     },
     'rm-sursilv': {
       clips: 20,
-      splits: { accent: { '': 1 }, age: { '': 1 }, gender: { '': 1 } },
+      splits: {
+        accent: { '': 1 },
+        age: { '': 0.25, thirties: 0.75 },
+        gender: { '': 0.25, male: 0.75 },
+      },
       users: 3,
       duration: 108936,
       buckets: {

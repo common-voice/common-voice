@@ -168,7 +168,7 @@ export default React.memo(() => {
               },
             ],
           ].map(([title, descriptionId, imgSrc, props]) => (
-            <div key={descriptionId as string} className="box">
+            <div className="box">
               <img src={require(`./images/${imgSrc}.png`)} />
               <div className="dots-and-content">
                 <Dots backgroundColor={'var(--lighter-grey)'} space={20} />

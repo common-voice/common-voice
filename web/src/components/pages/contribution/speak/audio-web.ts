@@ -57,7 +57,7 @@ export default class AudioWeb {
         res(stream);
       }
 
-      if (navigator.mediaDevices?.getUserMedia) {
+      if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         navigator.mediaDevices
           .getUserMedia({ audio: true })
           .then(resolve, deny);
@@ -77,7 +77,7 @@ export default class AudioWeb {
   // Check all the browser prefixes for microhpone support.
   isMicrophoneSupported() {
     return (
-      navigator.mediaDevices?.getUserMedia ||
+      (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) ||
       navigator.getUserMedia ||
       navigator.webkitGetUserMedia ||
       navigator.mozGetUserMedia

@@ -117,7 +117,7 @@ export const earnBonus = async (type: AchievementType, args: any[]) => {
           `,
       [type, bonus_winner]
     );
-    earned = ret?.[0]?.affectedRows > 0;
+    earned = ret && ret[0] && ret[0].affectedRows > 0 ? true : false;
   }
   return earned;
 };
@@ -140,5 +140,5 @@ export const hasEarnedBonus = async (
     [type, client_id, challenge]
   );
 
-  return !!earned?.[0]?.[0]?.earned;
+  return !!(earned && earned[0] && earned[0][0] && earned[0][0].earned);
 };

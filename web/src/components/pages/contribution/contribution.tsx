@@ -172,7 +172,7 @@ class ContributionPage extends React.Component<Props, State> {
       isPlaying ? this.wave.play() : this.wave.idle();
     }
 
-    if (isSubmitted && user.account?.skip_submission_feedback) {
+    if (isSubmitted && user.account && user.account.skip_submission_feedback) {
       onReset();
     }
   }

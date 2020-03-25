@@ -30,7 +30,7 @@ const isValidDate = (dateStr: string) => {
 const getNow = () => {
   const dateParam =
     location.search && location.search.match(/date=(\d+-\d+-\d+)/);
-  const date = dateParam?.[1];
+  const date = dateParam && dateParam[1];
   return date && isValidDate(date) ? new Date(date) : new Date();
 };
 
@@ -50,7 +50,7 @@ export const pilotDates: ChallengeDuration = {
 };
 
 export const isEnrolled = (account: UserClient) =>
-  account?.enrollment?.challenge;
+  account && account.enrollment && account.enrollment.challenge;
 
 export const weeklyChallengeCopy = [
   {

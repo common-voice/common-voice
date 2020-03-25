@@ -13,7 +13,7 @@ export default ({ localizedPrefix }: { localizedPrefix?: string }) => {
       <Localized
         id={localizedPrefix + 'privacy-info'}
         privacyLink={
-          <a href="/privacy" target="_blank" rel="noopener noreferrer" />
+          <a href="/privacy" target="__blank" rel="noopener noreferrer" />
         }>
         <p className="small" />
       </Localized>

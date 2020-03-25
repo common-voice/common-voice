@@ -10,7 +10,9 @@ import { LinkButton } from '../../ui/ui';
 import './landing.css';
 
 export default function Landing() {
-  const hasAccount = useTypedSelector(({ user }) => Boolean(user?.account));
+  const hasAccount = useTypedSelector(({ user }) =>
+    Boolean(user && user.account)
+  );
   return (
     <div className="partner-landing">
       <div className="partner-header">

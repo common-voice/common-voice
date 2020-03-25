@@ -70,7 +70,6 @@ export default React.memo(() => {
               <a
                 target="_blank"
                 href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
-                rel="noopener noreferrer"
               />
             </Localized>
           </div>

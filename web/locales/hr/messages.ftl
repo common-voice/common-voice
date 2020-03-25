@@ -46,7 +46,7 @@ cv = Čuvaški
 cy = Velški
 da = Danski
 de = Njemački
-dsb = Lužičkosrpski, donji
+dsb = Sorbian, Donji
 dv = Divehijski
 el = Grčki
 en = Engleski
@@ -66,7 +66,7 @@ ha = Hausa
 he = Hebrejski
 hi-IN = Hindi
 hr = Hrvatski
-hsb = Lužičkosrpski, gornji
+hsb = Sorbian, Gornji
 hu = Mađarski
 ia = Interlingua
 id = Indonezijski
@@ -174,9 +174,9 @@ wall-of-text-start =
     Glas je prirodan, glas je ljudski. Zato smo fascinirani stvaranjem upotrebljive govorne tehnologije
     za naše strojeve. Ali za stvaranje govornih sustava, potrebne su iznimno velike količine snimljenog glasa.
 wall-of-text-more-mobile =
-    Većina podataka koje velike tvrtke koriste nije dostupna većini ljudi. Mi smatramo da to
-    guši inovaciju. Zato smo pokrenuli projekt Common Voice, koji će svima pomoći koristiti
-    prepoznavanje govora.
+    Većina podataka koje koriste velike tvrtke nije dostupna većini ljudi. Mi mislimo
+    da to guši inovaciju. Zato smo pokrenuli Common Voice projekt, projekt koji će pomoći učiniti
+    prepoznavanje glasa otvoreno svima.
 wall-of-text-more-desktop =
     Sada možeš donirati svoj glas i pomoći izgraditi govornu bazu podataka otvorenog koda, koju svatko može koristiti
     za izradu inovativnih programa za uređaje i web. Pročitaj rečenicu i pomogni učiti strojeve govoriti ljudskim jezikom.
@@ -185,9 +185,9 @@ wall-of-text-first =
     Glas je prirodan, glas je ljudski. Zato smo uzbuđeni stvaranjem upotrebljive govorne tehnologije
     za naše strojeve. Ali za stvaranje govornih sustava, razvijateljima su potrebne iznimno velike količine snimljenog glasa.
 wall-of-text-second =
-    Većina podataka koje velike tvrtke koriste nije dostupna većini ljudi. Mi smatramo da to
-    guši inovaciju. Zato smo pokrenuli projekt Common Voice, koji će svima pomoći koristiti
-    prepoznavanje govora.
+    Većina podataka koje koriste velike tvrtke nisu dostupni većini ljudi. Mi smatramo da to usporava
+    inovaciju. Stoga smo pokrenuli Common Voice, projekt koji pomaže u prepoznavanju glasa
+    i koji je svima dostupan.
 show-wall-of-text = Saznaj više
 help-us-title = Pomogni nam potvrditi rečenice!
 help-us-explain = Pokreni snimku, slušaj i reci nam: jesu li točno izgovorili dolje zadanu rečenicu?
@@ -323,7 +323,9 @@ female = Žensko
 # Gender
 other = Ostalo
 why-profile-title = Zašto profil?
-why-profile-text = Davanjem nekih podataka o sebi, zvučni podaci koje šalješ u Common Voice bit će korisniji mehanizmima za prepoznavanje govora, koji koriste ove podatke za poboljšanje njihove točnosti.
+why-profile-text =
+    Davanjem nekih informacija o sebi, zvučni podaci koje pošaljete u Common Voice bit će korisniji programima za
+    prepoznavanje govora, koji koriste ove podatke za poboljšanje njihove točnosti.
 dashboard = Nadzorna ploča
 build-profile = Kreirajte profil
 avatar = Avatar
@@ -379,35 +381,21 @@ change-email-setings = Promijeni svoju e-adresu u postavkama, pod Identitet prij
 
 faq-title = Često postavljena pitanja
 faq-what-cv-q = Što je Common Voice?
-faq-what-cv-a =
-    Tehnologija prepoznavanja govora revolucionira način na koji komuniciramo sa strojevima, ali trenutačno dostupni sustavi su skupi i vlasnički. Common Voice je dio Mozilline inicijative, da tehnologija za prepoznavanje govora bude bolja i dostupnija svima. Common Voice je ogromna globalna baza podataka darovanih glasova, koja svima omogućuje brzo i jednostavno treniranje govornih aplikacija na potencijalno svim jezicima.
-    
-    Ne prikupljamo samo uzorke govora široko rasprostranjenih jezika, već i jezika s manjom populacijom govornika. Objavljivanje raznovrsnih podataka govora, omogućit će programerima, poduzetnicima i zajednicama, da se sami popune nedostatke. Pored skupa podataka Common Voice, također gradimo mehanizam za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
 faq-why-important-q = Zašto je to važno?
-faq-why-important-a =
-    Govor je često najprirodniji način na koji komuniciramo jedni s drugima, a pomoću govornih tehnologija ta se vrsta komunikacije uvodi i u naša računala i mobilne uređaje. Želimo pomoći programerima izgraditi nevjerojatne aplikacije za prepoznavanje govora, poput aplikacija za trenutno prevođenje i digitalnih pomoćnika koji omogućuju govor. Nažalost je većina trenutačno dostupnih govornih podataka potrebnih za izgradnju ovih vrsta aplikacija skupa i vlasnička. Nadamo se da će skup podataka Common Voice programerima pružiti ono što im je potrebno za inovaciju i izgradnju govorne tehnologije na svom jeziku.
-    
-    Da bismo prepoznavanje govora učinili još univerzalnijim, prikupljamo uzorke govora široko rasprostranjenih jezika kao i jezika s manjom populacijom govornika, koji često nedostaju u komercijalnim uslugama prepoznavanja govora. Objavljivanje raznovrsnih govornih podataka omogućit će programerima, poduzetnicima i čitavim govornim zajednicama da se sami popune nedostatke.
 faq-how-get-q = Kako mogu dobiti Common Voice podatke?
 faq-how-get-a = Common Voice podatke je moguće preuzeti pod <licenseLink>CC0</licenseLink> licencom na našoj <datasetLink>stranici skupova podataka</datasetLink>. S iste stranice mogu se preuzeti i drugi javno dostupni skupovi podataka.
 faq-when-release2-q = Kad ćete objaviti Common Voice podatke na drugim jezicima?
-faq-when-release2-a = Višejezična inačica Common Voice skupa podataka trenutno prolazi izgradnju i čišćenje od strane zajednice. Ukoliko nam želite pomoći s uvođenjem novih jeziku u Common Voice, provjerite <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink> kako biste dodali nove rečenice u skup podataka, i Mozilla <pontoonLink>Pontoon</pontoonLink> za prevođenje web stranice. Novi jezici se dodaju u Common Voice za prikupljanje glasova tek kada se prikupi 5000 odobrenih rečenica.
 faq-why-mission-q = Zašto je Common Voice dio Mozilla misije?
-faq-why-mission-a = Mozilla je posvećena održavanju weba otvorenim i dostupnim svima. Da bismo to postigli, moramo osnažiti programere putem projekata poput Common Voice. Kako se glasovne tehnologije šire izvan nišnih aplikacija, vjerujemo da moraju služiti svim korisnicima podjednako. To znači ulaganje u više jezika i prilagođavanje različitih naglaska i demografije prilikom izgradnje i testiranja govornih tehnologija. Common Voice je javni resurs dostupan svima, a Mozilla timovi i programeri širom svijeta već ga koriste i na vlastitim projektima.
 faq-what-cv-and-deepspeech-q = U čemu je razlika između Common Voice i Deep Speech?
-faq-what-cv-and-deepspeech-a = Common Voice podaci nadopunjuju Mozillin program otvorenog koda za prepoznavanje govora Deep Speech. Prva Deep Speech verzija objavljena je u studenom 2017. i od tada se nastavlja razvijati. Zajedno sa skupom podataka Common Voice, smatramo, da bi ova tehnologija otvorenog koda za prepoznavanje govora trebala biti dostupna svima. Nadamo se, da će ove tehnologije programerima pomoći stvoriti razne inovativne proizvode i usluge.
+faq-what-cv-and-deepspeech-a = Common Voice podaci nadopunjuju Mozillin program otvorenog koda za prepoznavanje glasa Deep Speech. Prva Deep Speech verzija objavljena je u studenom 2017. i od tada se nastavlja razvijati. Zajedno sa skupom podataka Common Voice, smatramo da bi ova tehnologija otvorenog koda za prepoznavanje glasa trebala biti dostupna svima. Nadamo se da će ove tehnologije razvijateljima pomoći stvoriti razne inovativne proizvode i usluge.
 faq-is-goal-assistant-q = Je li je cilj Common Voicea izgraditi glasovnog pomoćnika?
-faq-is-goal-assistant-a = Cilj Common Voice podataka je omogućiti bilo kome na svijetu izraditi program za prepoznavanje govora, za prepoznavanje govornika ili bilo koju drugu vrstu programa, koja zahtijeva glasovne podatke. Glasovni asistent je samo jedan u nizu programa, za koji se skup podataka može koristiti.
+faq-is-goal-assistant-a = Cilj Common Voice podataka je omogućiti bilo kome u svijetu, da izradi program za prepoznavanje govora, prepoznavanje govornika ili bilo koju drugu vrstu programa koja zahtijeva glasovne podatke. Glasovni asistent je samo jedan u nizu programa, za koji se skup podataka može koristiti.
 faq-do-want-native-q = Jezik mi nije materinski i govorim s naglaskom/narječjem, želite li ipak moj glas?
 faq-do-want-native-a = Da, naročito tvoj glas želimo! Dio cilja Common Voicea je sakupiti što više različitih narječja/naglaska, kako bi usluge prepoznavanja glasa jednako dobro funkcionirale za sve. To znači, da su donacije govornika, kojima jezik nije materinski, posebno važne.
 faq-why-different-speakers-q = Zašto vam je potrebno mnogo različitih govornika po jeziku?
-faq-why-different-speakers-a =
-    Većina govornih baza podataka obučena je s prekomjernom prezentacijom određenih demografskih podataka što rezultira pristranosti prema <articleLink>muškom rodu i srednjoj klasi</articleLink>. Akcenti i dijalekti koji su nedovoljno zastupljeni u skupovima podataka obično su povezani s skupinama ljudi koji su već marginalizirani. Mnogi se strojevi također bore razumjeti ženski glas.
-    To je razlog zašto u našoj govornoj bazi podataka želimo raznolikost!
 faq-why-my-lang-q = Zašto moj jezik još nije uključen?
 faq-why-my-lang-new-a = Mozilla ne favorizira niti jedan jezik nad drugim. Umjesto toga, Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovnih doprinosa. Najprije se Common Voice web stranica mora prevesti, kako bi joj članovi zajednice mogli pristupiti na materinskom jeziku. Nadalje nam je potrebna velika količina rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se jezik „lansira”, kako bi ljudi započeli snimati svoj glas i potvrđivati druge doprinose. Ako želiš pomoći započeti novi jezik, prijeđi na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>.
 faq-what-quality-q = Koja je kvaliteta zvuka potrebna za korištenje glasovnog isječka?
-faq-what-quality-a = Želimo da podaci skupa Common Voice odražavaju kvalitetu zvuka koju će mehanizam za govor-u-tekst razumjeti, te stoga tražimo različitost. Pored raznolike zajednice govornika, skup podataka s različitom kvalitetom zvuka, podučit će mehanizam za govor-u-tekst, riješiti razne situacije u stvarnom svijetu, od razgovora u pozadini, do buke u automobilu. Sve dok je tvoj glasovni isječak razumljiv, trebao bi biti dovoljno dobar za skup podataka.
 faq-why-10k-hours-q = Zašto je postavljen cilj od 10 000 potvrđenih sati po jeziku?
 faq-why-10k-hours-a = Ovo je otprilike broj sati, potrebnih za obuku proizvodnog sustava za pretvaranje govora u tekst.
 faq-how-calc-hours-q = Kako Common Voice izračunava sate?
@@ -424,10 +412,6 @@ faq-is-account-public-q = Jesu li podaci o računu javni?
 faq-how-privacy-q = Kako osiguravate anonimnost i privatnost ljudi koji su donirali svoj glas?
 faq-how-privacy-a = Svim glasovnim isječcima u skupu podataka brišu se osobni podaci. Kad doprinositelj daje demografske podatke putem svog profila, te se informacije uklanjaju iz njihovih glasovnih isječaka prije nego što se pakiraju za preuzimanje u skupu podataka i nikad se ne objavljuju na njihovoj stranici profila.
 faq-what-determine-identity-q = Što znači, da ne mogu „utvrditi identitet” govornika u skupu podataka Common Voice?
-faq-what-determine-identity-a =
-    Skup podataka Common Voice otvoren je i javno dostupan resurs, koji se može koristiti za učenje raznih programa koji omogućuju govor. Da bismo zaštitili sigurnost naših suradnika, molimo sve koji preuzmu skup podataka zajedničkog glasa, da poštuju privatnost suradnika.
-    
-    Svi osobni podaci glasovnih isječaka su izbrisani. Kad preuzmeš skup podataka, prihvaćaš da nećeš pokušati utvrditi identitet bilo kojeg suradnika. To znači, da ne možeš pokušati povezati podatke u skupu podataka s osobnim podacima suradnika. Međutim, možeš koristiti skup podataka za treniranje prepoznavanja govora, prepoznavanja govornika ili drugih aplikacija, tako što ćeš npr. povezati podatke u skupu podataka s drugim podacima koji se već nalaze u skupu podataka.
 faq-what-is-cv = Što je Common Voice?
 faq-using-cv = Common Voice upotreba
 faq-description = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom.
@@ -437,10 +421,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zašto Common Voice?
-about-subtitle = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom. Pored skupa podataka Common Voice također gradimo program za prepoznavanje govora otvorenog koda, koji se zove Deep Speech.
-about-header-description =
-    Oba ova projekta dio su naših nastojanja da premostimo razliku digitalnog govora. Tehnologije prepoznavanja glasa donose ljudsku dimenziju na naše uređaje, ali programerima treba ogromna količina govornih podataka za izgradnju. Trenutačno je većina tih podataka skupa i vlasnička.
-    Želimo da glasovni podaci budu javno dostupni i osigurati, da ti podaci predstavljaju raznolikost stvarnih ljudi. Zajedno možemo poboljšati prepoznavanje glasa svima.
+about-subtitle = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom. Pored skupa podataka Common Voice također gradimo program za prepoznavanje govora otvorenog koda koji se zove Deep Speech.
 how-does-it-work-title = Koji je način rada?
 how-does-it-work-text = Stvaramo skup podataka glasova otvorenog koda. Daj svoj glas, potvrdi točnost snimaka drugih ljudi, poboljšaj skup podataka za sve korisnike.
 about-speak = Govori
@@ -466,11 +447,6 @@ about-partnership =
     
     Zahvaljujemo sljedećim osobama i organizacijama za njihovu pomoć u projektu:
 about-get-involved = Uključite se
-about-get-involved-text-2 =
-    Želiš pomoći poboljšati Common Voice?
-    Sjajno! Stupi u kontakt putem e-pošte ili putem <discourseLink>foruma za diskutiranje</discourseLink>,
-    pošalji povratne informacije putem <githubLink>GitHub</githubLink> sustava,
-    ili nam se pridruži na društvenom chatu <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Zašto?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partneri
@@ -509,7 +485,6 @@ data-download-deny = Ne
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Pokrenut ćete preuzimanje od <size>{ $size }GB</size>, nastaviti?
 data-subtitle = Gradimo otvoren i javno dostupan skup glasovnih podataka, koji svi mogu koristiti za podučavanje govornih programa.
-data-explanatory-text = Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju u govornoj tehnologiji, utemeljenoj na strojnom učenju. Ovo je globalni napor i pozivamo na sudjelovanje. Naš je cilj, govornoj tehnologiji pomoći biti inkluzivnija, kako bi odražavala raznolikost glasova cijelog svijeta.
 data-get-started = <speechBlogLink>Započni s prepoznavanjem govora</speechBlogLink>
 data-other-title = Ostali skupovi glasovnih podataka …
 data-other-goto = Prijeđi na { $name }
@@ -533,12 +508,6 @@ review-delete-recordings = Izbriši moje snimke
 ## Datasets Page
 
 datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu koristiti za podučavanje govornih programa.
-datasets-positioning =
-    Vjerujemo da će veliki, javno dostupni setovi podataka za govor potaknuti inovacije i zdravu tržišnu konkurenciju u govornoj tehnologiji utemeljenoj na strojnom učenju.
-    
-    Višejezični skup podataka Common Voice već je najveći javno dostupni glasovni skup podataka takve vrste, ali nije jedini.
-    
-    Pogledajte ovu stranicu kao referencu za druge skupove podataka s otvorenim kodom i, kako Common Voice i dalje raste, dom za naša ažurirana izdanja.
 language = Jezik
 # File size in gigabytes
 size = Veličina
@@ -746,7 +715,6 @@ validated-clips = Potvrđeni isječci
 total-approved = Ukupno odobreno
 overall-accuracy = Ukupna točnost
 set-visibility = Postavi moju vidljivost
-visibility-explainer = Ova postavka kontrolira vidljivost tvoje ploče najboljih rezultata. Kad je skrivena, tvoj će napredak biti privatan. To znači da se tvoja slika, korisničko ime i napredak ne pojavljuju na ploči najboljih rezultata. Imaj na umu, da je za aktualiziranje ploče potrebno otprilike { $minutes } min.
 visibility-overlay-note = Napomena: Ako je postavljeno na „Vidljivo”, ta se postavka može promijeniti na <profileLink>stranici profila</profileLink>
 show-ranking = Pokaži moj rang
 

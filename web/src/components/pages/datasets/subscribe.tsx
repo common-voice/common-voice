@@ -71,7 +71,7 @@ class Subscribe extends React.Component<Props, State> {
     const privacyAgreed = account || this.state.privacyAgreed;
     const emailInput = this.emailInputRef.current;
 
-    if (account?.basket_token || submitStatus == 'submitted') {
+    if ((account && account.basket_token) || submitStatus == 'submitted') {
       return null;
     }
 

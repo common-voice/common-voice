@@ -124,7 +124,12 @@ export namespace Clips {
       if (!state.user.account) {
         dispatch(User.actions.tallyVerification());
       }
-      if (state.user?.account?.enrollment?.challenge) {
+      if (
+        state.user &&
+        state.user.account &&
+        state.user.account.enrollment &&
+        state.user.account.enrollment.challenge
+      ) {
         dispatch({
           type: ActionType.ACHIEVEMENT,
           showFirstContributionToast,

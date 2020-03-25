@@ -75,7 +75,6 @@ it = italià
 izh = ingrià
 ja = japonès
 ka = georgià
-kaa = karakalpak
 kab = cabilenc
 kbd = kabardí
 kk = kazakh
@@ -84,7 +83,6 @@ kpv = komi
 ku = kurd
 kw = còrnic
 ky = kirguís
-lg = ganda
 lij = lígur
 lt = lituà
 lv = letó
@@ -96,7 +94,6 @@ ml = malaiàlam
 mn = mongol
 mrj = mari occidental
 mt = maltès
-my = birmà
 myv = mordovià erza
 nb-NO = Bokmål noruec
 ne-NP = nepalès
@@ -114,7 +111,6 @@ ru = rus
 rw = ruandès
 sah = iacut
 sc = sard
-scn = sicilià
 si = singalès
 sk = eslovac
 sl = eslovè
@@ -127,7 +123,6 @@ ta = tamil
 te = telugu
 tg = tadjik
 th = tailandès
-tl = tagal
 tr = turc
 tt = tàtar
 uby = ubikh
@@ -135,7 +130,6 @@ udm = udmurt
 uk = ucraïnès
 ur = urdú
 uz = uzbek
-vec = vènet
 vi = vietnamita
 vot = vòtic
 zh-CN = xinès (Xina)
@@ -449,9 +443,11 @@ about-partnership =
     
     Volem agrair les persones i organitzacions següents per la seva ajuda en el projecte:
 about-get-involved = Col·laboreu-hi
-about-get-involved-text-2 =
+about-get-involved-text =
     Voleu ajudar a millorar el Common Voice?
-    Genial! Poseu-vos en contacte per correu electrònic o pels fòrums del <discourseLink>Discourse</discourseLink>, notifiqueu problemes en el <githubLink>GitHub</githubLink> o uniu-vos al nostre xat de la comunitat en el <matrixLink>Matrix</matrixLink>
+    Genial! Poseu-vos en contacte per correu electrònic o pel <discourseLink>Discourse</discourseLink>,
+    envieu comentaris mitjançant el <githubLink>GitHub</githubLink>
+    o uniu-vos al nostre <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Per què?
 about-nav-how-it-works = Com?
 about-nav-partners = Socis
@@ -644,8 +640,6 @@ record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un al
 record-again-instruction2 = Seguiu així! Enregistreu-ne un altre <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> L'últim!
 review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí mateix
-share-clip = Compartiu el vostre tall de veu
-share-common-voice = Compartiu el Common Voice
 review-instruction = Reviseu els talls i, si cal, torneu-los a enregistrar
 record-submit-tooltip = { $actionType } Envia quan hàgiu enllestit
 clips-uploaded = Talls pujats

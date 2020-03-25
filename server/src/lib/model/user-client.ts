@@ -1,5 +1,5 @@
 import pick = require('lodash.pick');
-import { UserClient as UserClientType } from 'common';
+import { UserClient } from 'common';
 import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
@@ -97,7 +97,7 @@ const UserClient = {
     );
   },
 
-  async findAccount(email: string): Promise<UserClientType> {
+  async findAccount(email: string): Promise<UserClient> {
     const [rows] = await db.query(
       `
         SELECT DISTINCT
@@ -134,7 +134,7 @@ const UserClient = {
     return rows.length == 0
       ? null
       : rows.reduce(
-          (client: UserClientType, row: any) => ({
+          (client: UserClient, row: any) => ({
             ...pick(
               row,
               'accent',
@@ -169,8 +169,8 @@ const UserClient = {
 
   async saveAccount(
     email: string,
-    { client_id, locales, ...data }: UserClientType
-  ): Promise<UserClientType> {
+    { client_id, locales, ...data }: UserClient
+  ): Promise<UserClient> {
     let [accountClientId, [clients]] = await Promise.all([
       UserClient.findClientId(email),
       email
@@ -214,7 +214,8 @@ const UserClient = {
     ]);
 
     if (
-      data?.enrollment &&
+      data &&
+      data.enrollment &&
       (await this.enrollRegisteredUser(
         email,
         data.enrollment.challenge,
@@ -245,7 +246,7 @@ const UserClient = {
       [client_id]
     );
 
-    if (row?.has_login) return false;
+    if (row && row.has_login) return false;
 
     if (row) {
       await db.query(
@@ -363,7 +364,7 @@ const UserClient = {
             referer || null,
           ]
         );
-        return res?.[0]?.affectedRows > 0;
+        return res && res[0] && res[0].affectedRows > 0;
       }
     }
     return false;

@@ -347,7 +347,7 @@ export default function LeaderboardCard() {
       title="top-contributors"
       iconButtons={
         <div className="icon-buttons">
-          {Boolean(account?.visible) && (
+          {Boolean(account && account.visible) && (
             <>
               <button
                 type="button"

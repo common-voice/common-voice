@@ -106,7 +106,7 @@ function Settings(props: Props) {
             <a
               className="manage-subscriptions"
               href={getManageSubscriptionURL(account)}
-              target="_blank"
+              target="__blank"
               rel="noopener noreferrer">
               <Localized id="manage-subscriptions">
                 <span />
