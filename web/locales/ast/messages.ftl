@@ -51,7 +51,7 @@ dv = Maldivu
 el = Griegu
 en = Inglés
 eo = Esperantu
-es = Español
+es = Castellán
 et = Estoniu
 eu = Vascu
 fa = Persa
@@ -456,6 +456,7 @@ about-dataset-new-text = Contién milenta muestres de voz qu'ayuden a los desend
 about-clip-graveyard = Cementeriu de clips
 about-clip-graveyard-text = Fórmenlu los clips que nun s'incluyeron nel conxuntu de datos de Common Voice. Sicasí, ta disponible pa baxar.
 about-partners = Socios
+about-become-a-partner = Conversión a sociu
 about-partnership =
     Common Voice ye un proyeutu collaborativu que depende de la comunidá de socios y collaboradores pa crear el conxuntu de datas de voz abiertu más grande del momentu.
     
