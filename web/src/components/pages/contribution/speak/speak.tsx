@@ -69,10 +69,10 @@ const UnsupportedInfo = () => (
         </Localized>
       </p>
       <div>
-        <a target="_blank" href="https://www.firefox.com/" title="Firefox">
+        <a rel="noopener noreferrer" target="_blank" href="https://www.firefox.com/" title="Firefox">
           <FirefoxColor />
         </a>{' '}
-        <a target="_blank" href="https://www.google.com/chrome" title="Chrome">
+        <a rel="noopener noreferrer" target="_blank" href="https://www.google.com/chrome" title="Chrome">
           <ChromeColor />
         </a>
       </div>
@@ -684,7 +684,7 @@ class SpeakPage extends React.Component<Props, State> {
                 ? null
                 : clips[recordingIndex].sentence.id,
           }}
-          sentences={clips.map(({ sentence }) => sentence?.text)}
+          sentences={clips.map(({ sentence }) => sentence && sentence.text)}
           shortcuts={[
             {
               key: 'shortcut-record-toggle',
