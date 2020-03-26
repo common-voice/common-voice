@@ -134,3 +134,7 @@ export function stringContains(haystack: string, needles: string) {
       .indexOf(needles) !== -1
   );
 }
+
+export function doNotTrack() {
+  return navigator.doNotTrack === '1' || navigator.doNotTrack === 'yes';
+}
