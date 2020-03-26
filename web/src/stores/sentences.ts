@@ -11,7 +11,7 @@ export namespace Sentences {
   }
 
   export interface State {
-    [locale: string]: Sentence[];
+    [locale: string]: { sentences: Sentence[]; isLoading: boolean };
   }
 
   const localeSentences = ({ locale, sentences }: StateTree) =>
@@ -41,7 +41,10 @@ export namespace Sentences {
     ) => {
       try {
         const state = getState();
-        if (Object.keys(localeSentences(state)).length >= CACHE_SET_COUNT) {
+        if (
+          Object.keys(localeSentences(state).sentences).length >=
+          CACHE_SET_COUNT
+        ) {
           return;
         }
         const newSentences = await state.api.fetchRandomSentences(
@@ -70,7 +73,7 @@ export namespace Sentences {
     state: State = contributableLocales.reduce(
       (state, locale) => ({
         ...state,
-        [locale]: [],
+        [locale]: { sentences: [], isLoading: true },
       }),
       {}
     ),
@@ -80,20 +83,28 @@ export namespace Sentences {
 
     switch (action.type) {
       case ActionType.REFILL:
-        const sentenceIds = localeState
+        const sentenceIds = localeState.sentences
           .map(s => s.id)
-          .concat(localeState.map(s => s.id));
+          .concat(localeState.sentences.map(s => s.id));
         return {
           ...state,
-          [locale]: localeState.concat(
-            action.sentences.filter(({ id }) => !sentenceIds.includes(id))
-          ),
+          [locale]: {
+            sentences: localeState.sentences.concat(
+              action.sentences.filter(({ id }) => !sentenceIds.includes(id))
+            ),
+            isLoading: false,
+          },
         };
 
       case ActionType.REMOVE:
         return {
           ...state,
-          [locale]: localeState.filter(s => !action.sentenceIds.includes(s.id)),
+          [locale]: {
+            sentences: localeState.sentences.filter(
+              s => !action.sentenceIds.includes(s.id)
+            ),
+            isLoading: false,
+          },
         };
 
       default:
@@ -103,5 +114,6 @@ export namespace Sentences {
 
   export const selectors = {
     localeSentences,
+    isLoading: true,
   };
 }

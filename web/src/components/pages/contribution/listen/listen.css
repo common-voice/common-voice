@@ -124,4 +124,18 @@
             }
         }
     }
+
+    .error-card {
+        .record-instead {
+            display: inline-flex;
+
+            & svg {
+                margin-inline-end: 10px;
+            }
+
+            & path {
+                fill: var(--white);
+            }
+        }
+    }
 }

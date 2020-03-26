@@ -4,6 +4,37 @@
     & .error .instruction {
         color: var(--red);
     }
+
+    .no-sentences-available {
+        .button {
+            background: var(--blue);
+            box-shadow: 0 5px 10px color-mod(var(--blue) alpha(50%));
+
+            &:hover {
+                background: var(--blue);
+                box-shadow: 0 5px 10px var(--blue);
+            }
+        }
+    }
+
+    .unsupported {
+        padding-bottom: 4rem;
+        .desktop {
+            margin: 0.5rem 0;
+            font-weight: 300;
+
+            @media (--md-up) {
+                font-size: var(--font-size-lg);
+            }
+        }
+    }
+}
+
+.speak-sc-icon {
+    margin-inline-end: 10px;
+    path {
+        fill: var(--white);
+    }
 }
 
 .record-abort {
