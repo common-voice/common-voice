@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@fullstory/browser": "^1.3.1",
+    "@types/amplitude-js": "^5.8.0",
     "@types/classnames": "^2.2.9",
     "@types/lodash.memoize": "^4.1.6",
     "@types/lodash.pick": "^4.4.6",
@@ -14,6 +16,7 @@
     "@types/react-redux": "^7.1.1",
     "@types/react-router": "^5.1.2",
     "@types/react-router-dom": "^5.1.0",
+    "amplitude-js": "^5.10.0",
     "classnames": "^2.2.6",
     "downshift": "^3.2.10",
     "fluent": "^0.13.0",
