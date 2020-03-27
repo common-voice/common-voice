@@ -344,11 +344,7 @@ class App extends React.Component {
       release: process.env.GIT_COMMIT_SHA || null,
     });
 
-    if (!isProduction()) {
-      console.log('disabling analytics on non production');
-    } else if (!doNotTrack()) {
-      console.log('do not track header set, disabling analytics');
-    } else {
+    if (isProduction() && !doNotTrack()) {
       Amplitude.getInstance().init(AMPLITUDE_KEY, null, {
         trackingOptions: {
           carrier: false,
