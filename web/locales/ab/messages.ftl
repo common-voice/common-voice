@@ -760,7 +760,7 @@ weekly-goal-created = Мчыбжьыктәи ухықәкы нагӡоуп
 daily-goal-created = Ҽнактәи ухықәкы нагӡоуп
 track-progress = Абреи астатистикатә даҟьаҟны уеизҳашьа уашьклаԥшла.
 return-to-edit-goal = Ианакәзаалак ухықәкы аԥсахразы абрахь ухынҳәы.
-share-goal = Схықәкы сыцеҩша
+share-goal = Схықәкы еиҩша
 
 ## Profile Delete
 
