@@ -655,6 +655,7 @@ listen-instruction = { $actionType } <playIcon></playIcon>, la phrase a-t-elle �
 listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez à nouveau lorsque vous êtes prêt·e
 listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
 listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
+listen-empty-state = Nous n’avons plus d’échantillons à valider dans cette langue…
 speak-empty-state = Nous n’avons plus de phrases à enregistrer dans cette langue…
 speak-empty-state-cta = Proposer des phrases
 record-button-label = Enregistrer votre voix
