@@ -1,6 +1,7 @@
 const { LocalizationProvider, Localized } = require('fluent-react/compat');
 import * as React from 'react';
 import { useState } from 'react';
+import { DAILY_GOALS } from '../../../constants';
 import { RouteComponentProps, withRouter } from 'react-router';
 import ContentLoader from 'react-content-loader';
 import { InProgressLanguage, LaunchedLanguage } from 'common';
@@ -13,7 +14,6 @@ import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
 
 const SENTENCE_COUNT_TARGET = 5000;
-const HOURS_TARGET = 1200;
 
 function formatSeconds(totalSeconds: number) {
   const seconds = totalSeconds % 60;
@@ -190,7 +190,10 @@ const LocalizationBox = React.memo((props: Props) => {
             </Localized>
           }
           progress={props.seconds}
-          progressTotal={HOURS_TARGET * 3600}
+          progressTotal={
+            (DAILY_GOALS.speak.find(goal => goal * 3600 > props.seconds) ||
+              DAILY_GOALS.speak[DAILY_GOALS.speak.length - 1]) * 3600
+          }
           formatProgress={formatSeconds}
           progressSecondary
           onClick={() => {

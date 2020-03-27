@@ -5,7 +5,7 @@ import {
 } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
-import { DAILY_GOAL } from '../../../constants';
+import { DAILY_GOALS } from '../../../constants';
 import { useAccount, useAPI } from '../../../hooks/store-hooks';
 import { useTypedSelector } from '../../../stores/tree';
 import URLS from '../../../urls';
@@ -47,7 +47,7 @@ function Success({
   const hasAccount = Boolean(account);
   const customGoal =
     hasAccount && account.custom_goals?.find(g => g.locale == locale);
-  const goalValue = DAILY_GOAL[type];
+  const goalValue = DAILY_GOALS[type][0];
 
   const killAnimation = useRef(false);
   const startedAt = useRef(null);
