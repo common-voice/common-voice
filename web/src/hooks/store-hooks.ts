@@ -1,6 +1,12 @@
 import { useDispatch } from 'react-redux';
 import { useCallback, useEffect, useState } from 'react';
 import { useTypedSelector } from '../stores/tree';
+import {
+  Newsletter,
+  Subscriptions,
+  newsletters,
+  emptySubscriptions,
+} from 'common';
 
 export function useAction<T>(action: (...args: T[]) => any) {
   const dispatch = useDispatch();
@@ -19,22 +25,43 @@ export function useNotifications() {
   return useTypedSelector(({ notifications }) => notifications);
 }
 
-export function useIsSubscribed() {
+export function useSubscriptions(): [
+  boolean, // Loading state.
+  Subscriptions,
+  React.Dispatch<React.SetStateAction<Subscriptions>>
+] {
   const account = useAccount();
-  const [isSubscribed, setIsSubscribed] = useState<boolean>(null);
+  const [subscriptions, setSubscriptions] = useState<Subscriptions | null>(
+    null
+  );
 
   useEffect(() => {
     if (!account.basket_token) {
-      setIsSubscribed(false);
+      setSubscriptions(emptySubscriptions);
       return;
     }
     fetch(
-      'https://basket.mozilla.org/news/lookup-user/?token=' +
-        account.basket_token
+      `https://basket.mozilla.org/news/lookup-user/?token=${account.basket_token}`
     )
       .then(response => response.json())
-      .then(body => setIsSubscribed(body.newsletters.includes('common-voice')));
+      .then(body =>
+        setSubscriptions(
+          body.newsletters
+            .filter((name: any) => newsletters.includes(name))
+            .reduce(
+              (acc: Subscriptions, newsletter: Newsletter) => ({
+                ...acc,
+                [newsletter]: true,
+              }),
+              emptySubscriptions
+            )
+        )
+      );
   }, [account.basket_token]);
 
-  return isSubscribed;
+  return [
+    subscriptions === null,
+    subscriptions || emptySubscriptions,
+    setSubscriptions,
+  ];
 }

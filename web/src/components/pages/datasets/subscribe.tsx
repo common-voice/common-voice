@@ -48,7 +48,8 @@ class Subscribe extends React.Component<Props, State> {
     this.setState({ submitStatus: 'submitting' });
     try {
       await api.subscribeToNewsletter(
-        account ? account.email : this.state.email
+        account ? account.email : this.state.email,
+        'common-voice-datasets'
       );
       addNotification(
         <Localized id="profile-form-submit-saved">
@@ -77,7 +78,7 @@ class Subscribe extends React.Component<Props, State> {
 
     return (
       <div className="dataset-subscribe">
-        <Localized id="want-dataset-update">
+        <Localized id="dataset-update-signup">
           <h2 />
         </Localized>
         <div>

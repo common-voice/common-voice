@@ -11,6 +11,7 @@ email-opt-in-info = I'd like to receive emails such as goal reminders, my progre
 email-opt-in-info-title = Join the Common Voice mailing list
 email-opt-in-info-sub-with-challenge = Receive emails such as challenge and goal reminders, progress updates, and newsletters about Common Voice.
 email-opt-in-privacy = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy<privacyLink>.
+dataset-email-opt-in-info = I’d like to receive Common Voice dataset updates and feedback requests via email.
 indicates-required = * Indicates required field
 not-available-abbreviation = N/A
 
@@ -563,7 +564,7 @@ dataset-description-hours =
         Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $total }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
 
         The dataset currently consists of <b>{ $valid }</b> validated hours in <b>{ $languages }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
-want-dataset-update = Want updates when we release a new version of the Common Voice dataset? Subscribe to our newsletter.
+dataset-update-signup = Sign up to receive Common Voice dataset updates and feedback requests via email.
 subscribe = Subscribe
 get-started-speech = Get Started with Speech Recognition
 other-datasets = Other Voice Datasets

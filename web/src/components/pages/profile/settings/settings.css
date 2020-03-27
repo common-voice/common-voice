@@ -108,26 +108,31 @@
             }
         }
 
-        & label {
+        label {
             color: var(--near-black);
             opacity: 0.5;
         }
 
-        & input {
+        label + label {
+            padding-top: 1em;
+        }
+
+        input {
             align-self: flex-start;
         }
 
-        & a {
+        a {
             color: var(--blue);
             text-decoration: underline;
         }
 
-        & .privacy-and-terms {
+        .privacy-and-terms {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            padding-top: 1em;
 
-            & svg {
+            svg {
                 margin-inline-end: 5px;
                 flex-shrink: 0;
                 width: 16px;
@@ -136,10 +141,16 @@
                     fill: var(--warm-grey);
                 }
             }
+
+            @media (--md-up) {
+                padding-top: 0;
+            }
         }
 
-        & .terms {
+        .terms {
+            display: block;
             font-weight: 600;
+            padding-top: 1em;
         }
     }
 

@@ -4,7 +4,7 @@ import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
-import { UserClient as UserClientType } from 'common';
+import { UserClient as UserClientType, Newsletter, newsletters } from 'common';
 import { authMiddleware } from '../auth-router';
 import { getConfig } from '../config-helper';
 import Awards from './model/awards';
@@ -111,7 +111,7 @@ export default class API {
 
     router.get('/language_stats', this.getLanguageStats);
 
-    router.post('/newsletter/:email', this.subscribeToNewsletter);
+    router.post('/newsletter/:newsletter/:email', this.subscribeToNewsletter);
 
     router.post('/:locale/downloaders/:email', this.insertDownloader);
 
@@ -211,12 +211,19 @@ export default class API {
     }
 
     const { email } = request.params;
+    const newsletter = request.params.newsletter as Newsletter;
+    if (!newsletters.includes(newsletter)) {
+      return response
+        .status(400)
+        .json({ error: `Invalid mailing list: ${newsletter}.` });
+    }
+
     const basketResponse = await sendRequest({
       uri: Basket.API_URL + '/news/subscribe/',
       method: 'POST',
       form: {
         'api-key': BASKET_API_KEY,
-        newsletters: 'common-voice',
+        newsletters: newsletter,
         format: 'H',
         lang: 'en',
         email,

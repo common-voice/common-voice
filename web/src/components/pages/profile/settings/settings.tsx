@@ -22,7 +22,7 @@ import {
 } from '../../../ui/ui';
 
 import './settings.css';
-import { useIsSubscribed } from '../../../../hooks/store-hooks';
+import { useSubscriptions } from '../../../../hooks/store-hooks';
 
 const Section = ({
   title,
@@ -59,7 +59,7 @@ interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 function Settings(props: Props) {
   const { account, addNotification, getString, saveAccount } = props;
-  const isSubscribed = useIsSubscribed();
+  const [isLoadingSubscriptions, subscriptions] = useSubscriptions();
 
   useEffect(() => {
     const { pathname, search } = location;
@@ -115,18 +115,29 @@ function Settings(props: Props) {
             </a>
           }>
           <div className="email-section">
-            {isSubscribed == null ? (
+            {isLoadingSubscriptions ? (
               <div />
             ) : (
-              <LabeledCheckbox
-                disabled={true}
-                checked={isSubscribed}
-                label={
-                  <Localized id="email-opt-in-info">
-                    <span />
-                  </Localized>
-                }
-              />
+              <div>
+                <LabeledCheckbox
+                  disabled={true}
+                  checked={subscriptions['common-voice']}
+                  label={
+                    <Localized id="email-opt-in-info">
+                      <span />
+                    </Localized>
+                  }
+                />
+                <LabeledCheckbox
+                  disabled={true}
+                  checked={subscriptions['common-voice-datasets']}
+                  label={
+                    <Localized id="dataset-email-opt-in-info">
+                      <span />
+                    </Localized>
+                  }
+                />
+              </div>
             )}
             <div className="privacy-and-terms">
               <InfoIcon />
@@ -136,7 +147,6 @@ function Settings(props: Props) {
                   privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
                   <div />
                 </Localized>
-                <br />
                 <Localized id="read-terms-q">
                   <LocaleLink to={URLS.TERMS} className="terms" blank />
                 </Localized>

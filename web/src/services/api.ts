@@ -1,7 +1,7 @@
 import { AllGoals, CustomGoalParams } from 'common';
 import { LanguageStats } from 'common';
 import { UserClient } from 'common';
-import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
+import { WeeklyChallenge, Challenge, TeamChallenge, Newsletter } from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
@@ -254,8 +254,13 @@ export default class API {
     });
   }
 
-  subscribeToNewsletter(email: string): Promise<void> {
-    return this.fetch(API_PATH + '/newsletter/' + email, { method: 'POST' });
+  subscribeToNewsletter(
+    email: string,
+    newsletter: Newsletter = 'common-voice'
+  ): Promise<void> {
+    return this.fetch(`${API_PATH}/newsletter/${newsletter}/${email}`, {
+      method: 'POST',
+    });
   }
 
   saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {

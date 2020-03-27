@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { CustomGoal, CustomGoalParams } from 'common';
 import { UserClient } from 'common';
 import URLS from '../../../../urls';
-import { useAccount, useIsSubscribed } from '../../../../hooks/store-hooks';
+import { useAccount } from '../../../../hooks/store-hooks';
 import { useRouter } from '../../../../hooks/use-router';
 import { getManageSubscriptionURL } from '../../../../utility';
 import {
@@ -23,7 +23,6 @@ import {
 } from '../../../ui/icons';
 import { Button, LabeledSelect, LinkButton } from '../../../ui/ui';
 import { CircleProgress, Fraction } from '../ui';
-import { useEffect } from 'react';
 
 const Buttons = ({ children, ...props }: React.HTMLProps<HTMLDivElement>) => (
   <div className="buttons padded" {...props}>
@@ -97,8 +96,9 @@ interface CustomGoalStepProps {
 
   state: CustomGoalParams;
 
-  subscribed: boolean;
-  setSubscribed: (subscribed: boolean) => void;
+  isLoadingSubscriptions: boolean;
+  isSubscribed: boolean;
+  setIsSubscribed: (subscribed: boolean) => void;
 }
 
 interface AccountProps {
@@ -244,19 +244,18 @@ export default [
     closeButtonProps,
     completedFields,
     nextButtonProps,
-
-    subscribed,
-    setSubscribed,
+    isLoadingSubscriptions,
+    isSubscribed,
+    setIsSubscribed,
   }: CustomGoalStepProps & AccountProps) => {
     const account = useAccount();
     const [privacyAgreed, setPrivacyAgreed] = useState(false);
-    const isSubscribed = useIsSubscribed();
 
     return (
       <div className="padded">
         {completedFields}
         {account.basket_token ? (
-          isSubscribed !== null && (
+          !isLoadingSubscriptions && (
             <>
               <Localized
                 id={
@@ -264,7 +263,7 @@ export default [
                     ? 'receiving-emails-info'
                     : 'not-receiving-emails-info'
                 }
-                bold={<b />}>
+                bold={<strong />}>
                 <p className="subscription-info" />
               </Localized>
               <a
@@ -284,8 +283,8 @@ export default [
             <label className="box">
               <input
                 type="checkbox"
-                checked={subscribed}
-                onChange={event => setSubscribed(event.target.checked)}
+                checked={isSubscribed}
+                onChange={event => setIsSubscribed(event.target.checked)}
               />
               <Localized id="email-opt-in-info">
                 <div className="content" />
@@ -316,7 +315,7 @@ export default [
             rounded
             className="submit"
             {...nextButtonProps}
-            disabled={subscribed && !privacyAgreed}>
+            disabled={isSubscribed && !privacyAgreed}>
             <CheckIcon />{' '}
             <Localized id="confirm-goal">
               <span />
