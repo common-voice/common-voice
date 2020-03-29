@@ -8,6 +8,12 @@ email-input =
     .label = Е-пошта
 submit-form-action = Поднеси
 loading = Се вчитува...
+email-opt-in-info = Би сакал да добивам е-пошта како потсетници за целите, извештај за мојот напредок и билтен за Common Voice.
+email-opt-in-info-title = Приклучете се на листата за е-пошта на Common Voice
+email-opt-in-info-sub-with-challenge = Примајте е-пошта како потсетници за предизвици и цели, извештаи за напредок и билтени за Common Voice
+email-opt-in-privacy = Со вашата согласност за прием на е-пошта се согласувате Mozilla да раководи со овие информации како што е опишано во <privacyLink>Политиката за приватност<privacyLink>.
+indicates-required = * Означува задолжителни полиња
+not-available-abbreviation = недостапно
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,28 +21,43 @@ loading = Се вчитува...
 
 ## Languages
 
+af = Африканс
+am = Амхариски
 an = Арагонски
 ar = Арапски
 as = Асамски
 ast = Астурски
 az = Азербејџански
+ba = Башкир
+bg = Бугарски
 bn = Бенгали
+br = Бретонски
 ca = Каталонски
+cak = Какчикелски
 cs = Чешки
 cv = Чуваш
 cy = Велшки
 da = Дански
 de = Германски
+dv = Дивехи
 el = Грчки
 en = Англиски
 eo = Есперанто
 es = Шпански
 et = Естонски
+eu = Баскиски
+fa = Персиски
+ff = Фулах
 fi = Фински
+fo = Фарски
 fr = Француски
 fy-NL = Фризиски
 ga-IE = Ирски
+gl = Галициски
+ha = Хауса
 he = Еврејски
+hi-IN = Хинди
+hr = Хрватски
 hu = Унгарски
 ia = Интерлингва
 id = Индонезиски
@@ -44,8 +65,13 @@ is = Исландски
 it = Италјански
 ja = Јапонски
 ka = Грузиски
+kab = Кабилски
+kk = Казакстански
 ko = Корејски
+ku = Курдски
 kw = Корнишки
+lt = Литвански
+lv = Латвиски
 mk = Македонски
 nb-NO = Норвешки Букмол
 ne-NP = Непалски
@@ -53,7 +79,6 @@ nl = Холандски
 nn-NO = Норвешки Нинорск
 or = Орија
 pl = Полски
-pt-BR = Португалски (Бразил)
 ro = Романски
 ru = Руски
 sk = Словачки
@@ -224,7 +249,7 @@ review-cancel = Откажи поднесок
 review-keep-recordings = Зачувај ги снимките
 review-delete-recordings = Избриши ги моите снимки
 
-## New Datasets Page
+## Datasets Page
 
 data-other-librispeech-description = LibriSpeech е корпус од приближно 1000 часа од 16Khz прочитан англиски говор добиен од читани аудио-книги од проектот LibriVox.
 data-other-ted-name = Корпус TED-LIUM
@@ -265,13 +290,12 @@ language-section-in-progress = Во тек
 language-section-launched = Започнат
 languages-show-more = Видете повеќе
 languages-show-less = Видете помалку
-language-speakers = Говорници
 language-total-progress = Вкупно
 language-search-input =
     .placeholder = Пребарај
 language-speakers = Говорници
 
-## New Contribution
+## Contribution
 
 listen = Слушај
 skip = Прескокни
@@ -289,12 +313,21 @@ record-three-more-instruction = Уште три!
 listen-last-time-instruction = <playIcon></playIcon>Последен!
 share-title-new = <bold>Помогни ни</bold> да најдеме повеќе гласови
 
+## Reporting
+
+
 ## Goals
 
 
 ## Dashboard
 
 
+## Custom Goals
+
+
 ## Profile Delete
 
 profile-form-delete = Избриши профил
+
+## Landing
+
