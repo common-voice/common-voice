@@ -443,25 +443,84 @@ record-error-too-short = Снимката беше премногу кратка
 record-error-too-long = Снимката беше премногу долга.
 record-error-too-quiet = Снимката беше премногу тивка.
 record-cancel = Откажи преснимување
+record-instruction = { $actionType }<recordIcon></recordIcon> потоа прочитајте ја реченицата на глас
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> кога сте готови
 record-three-more-instruction = Уште три!
+record-again-instruction = Одлично!<recordIcon></recordIcon> Снимете го вашиот следен клип
+record-submit-tooltip = { $actionType } доставете кога сте подготвени
+record-abort-title = Ќе го завршите снимањето прво?
+record-abort-submit = Доставете клипови
+record-abort-continue = Заврши снимање
+record-abort-delete = Излези и избриши клипови
 listen-last-time-instruction = <playIcon></playIcon>Последен!
+record-button-label = Снимете го вашиот глас
 share-title-new = <bold>Помогни ни</bold> да најдеме повеќе гласови
 
 ## Reporting
 
+report = Пријави
+report-title = Поднеси пријава
+report-offensive-language = Навредлив јазик
+report-grammar-or-spelling = Граматичка / правописна грешка
+report-different-language = Различен јазик
+report-different-language-detail = Напишано е на јазик различен од оној што го зборувам.
+report-difficult-pronounce = Тешко за изговорање
+report-offensive-speech = Навредлив говор
+report-other-comment =
+    .placeholder = Коментар
+success = Успех
+continue = Продолжи
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Ден
+       *[other] Денови
+    }
+recordings =
+    { $count ->
+        [one] Снимка
+       *[other] Снимки
+    }
 
 ## Dashboard
 
+your-languages = Вашите јазици
+toward-next-goal = Кон следната цел
+stats = Статистики
+awards = Награди
+you = Вие
+everyone = Сите
+top-contributors = Топ придонесувачи
+recorded-clips = Снимени клипови
+validated-clips = Потврдени клипови
+set-visibility = Постави ја мојата видливост
 
 ## Custom Goals
 
+both-speak-and-listen = Обете
+both-speak-and-listen-long = Обете (Збори и слушај)
+daily-goal = Дневна цел
+weekly-goal = Неделна цел
+easy-difficulty = Лесно
+average-difficulty = Просечно
+difficult-difficulty = Тешко
+want-to-continue = Дали сакате да продолжите?
+set-a-goal = Поставете цел
+cant-decide = Не можете да се одлучите?
+which-goal-type = Дали сакате да зборувате, слушате или и двете?
+help-share-goal = Помогнете ни да најдеме уште гласови, споделете ја вашата цел
+confirm-goal = Потврди цел
+goal-interval-weekly = Неделно
+share-goal = Сподели ја мојата цел
 
 ## Profile Delete
 
+keep = Задржи
+remove = Отстрани
 profile-form-delete = Избриши профил
 
 ## Landing
 
+read-more-about = Прочитајте повеќе на нашата страница За
