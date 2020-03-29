@@ -73,26 +73,38 @@ kw = Корнишки
 lt = Литвански
 lv = Латвиски
 mk = Македонски
+ml = Малајалам
+mn = Монголски
+mt = Малтешки
 nb-NO = Норвешки Букмол
 ne-NP = Непалски
 nl = Холандски
 nn-NO = Норвешки Нинорск
+oc = Очитан
 or = Орија
 pl = Полски
+pt = Португалски
 ro = Романски
 ru = Руски
+rw = Кинјарванда
+sc = Сардински
+si = Синхала
 sk = Словачки
 sl = Словенечки
 sq = Албански
 sr = Српски
 sv-SE = Шведски
+sw = Свахили
 ta = Тамил
 te = Телугу
+tg = Таџекистански
 th = Таи
 tr = Турски
 tt = Татарски
 uk = Украински
+ur = Урду
 uz = Узбекистански
+vi = Виетнамски
 zh-CN = Кинески (Кина)
 zh-HK = Кинески (Хонг Конг)
 zh-TW = Кинески (Тајван)
@@ -106,6 +118,7 @@ speak = Зборувај
 speak-now = Зборувај сега
 datasets = Податочни множества
 languages = Јазици
+about = За
 profile = Профил
 help = Помош
 contact = Контакт
@@ -116,7 +129,9 @@ faq = ЧПП
 content-license-text = Содржината е достапна под <licenseLink>лиценца на Creative Commons</licenseLink>
 share-title = Помогнете ни да најдеме други лица кои ќе го донираат нивниот глас!
 share-text = Помогнете им на машините да научат како зборуваат луѓето. Донирајте го вашиот глас на { $link }
+link-copied = Врската е ископирана
 back-top = Назад кон врвот
+logout = Одјави се
 
 ## Home Page
 
@@ -133,26 +148,51 @@ wall-of-text-second = Најголемиот дел на податоците к
 show-wall-of-text = Прочитај повеќе
 help-us-title = Помогнете ни да валидираме реченици!
 help-us-explain = Слушнете и кажете ни: дали подолната реченица беше прочитана точно?
+no-clips-to-validate = Нема снимки кои можете да ги слушате за овој јазик. Помогнете да има со тоа што ќе снимите некои сега.
 vote-yes = Да
 vote-no = Не
 toggle-play-tooltip = Притиснете { shortcut-play-toggle } за преслушување
 speak-subtitle = Донирај го својот глас
+speak-paragraph = Снимање на снимки е интегрален дел на градење на нашата отворена база; некои би рекле дека тоа е забавниот дел, исто така.
+speak-goal-text = Снимени снимки
+listen-subtitle = Помогнете да валидираме гласови
+listen-paragraph = Валидирање на донирани снимки е еднакво важно за Common Voice. Слушајте и помогнете да создадеме квалитетна отворена база на податоци.
+listen-goal-text = Валидирани снимки
+hours-recorded = Снимени часови
+hours-validated = Валидирани часови
+voices-online = Гласови онлајн сега
+todays-progress = Денешниот напредок
+help-reach-goal = Помогнете ни да стигнеме до { $goal }
+read-terms-q = Дали ги прочитавте нашите услови?
+ready-to-record = Подготвени за да го донирате вашиот глас?
+all-locales = Сите
 today = Денес
+help-make-dataset = Помогнете ни да изградиме високо-квалитетена, јавно-достапна база на податоци
+sign-up-account = Регистрирај се за сметка
+email-subscription-title = Пријавете се за известувања по е-пошта
+email-subscription-title-new = Пријавете се за билтени на Common Voice, потсетници за цели и напредок
 
 ## Account Benefits
 
+benefits = Придобивки
 
 ## What's public
 
+whats-public = Што е јавно?
+username-optin-public = Можете да изберете да го направите вашето корисничко име јавно или анонимно.
+username-email-not-demographic = Вашето корисничко име и е-пошта нема да бидат поврзани со објавените податоци.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = с
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Пушти/Запри
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -162,6 +202,12 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = р
+shortcut-record-toggle-label = Снимање/Стоп
+shortcut-rerecord-toggle = [1–5]
+shortcut-rerecord-toggle-label = Пресними клип
 request-language-text = Сѐ уште не го гледате вашиот јазик на Common Voice?
 request-language-button = Побарајте јазик
 
@@ -183,12 +229,18 @@ english = Англиски
 
 profile-form-username =
     .label = Корисничко име
+profile-form-native-language =
+    .label = Мајчин јазик
+profile-form-additional-language =
+    .label = Дополнителен јазик
 profile-form-accent =
     .label = Акцент
 profile-form-age =
     .label = Возраст
 profile-form-gender =
     .label = Пол
+hidden = Скриено
+visible = Видливо
 native-language =
     .label = Мајчин јазик
 profile-form-submit-save = Сними
@@ -201,9 +253,17 @@ why-profile-title = Зошто профил?
 why-profile-text =
     Со обезбедување на некои информации за себе, аудио-податоците што ги доставувате до Common Voice ќе бидат покорисни
     за алатките за гласовно препознавање, што ги користат овие податоци за да ја подобрат нивната точност.
+build-profile = Изгради профил
+avatar = Аватар
+goals = Цели
+settings = Поставки
 edit-profile = Уреди профил
 profile-create-success = Успех, профилот е создаден!
 profile-close = Затвори
+why-demographic = Зошто ова е важно?
+accept-privacy-title = Политика за приватност
+login-identity = Идентитет за најавување
+login-signup = Најава / Регистрација
 
 ## FAQ
 
