@@ -264,16 +264,58 @@ why-demographic = Зошто ова е важно?
 accept-privacy-title = Политика за приватност
 login-identity = Идентитет за најавување
 login-signup = Најава / Регистрација
+email-subscriptions = Претплати за е-пошта
+download-profile = Преземи ги моите податоци
+contribution-experience = Искуство со придонес
+off = Исклучен
+on = Вклучен
+ready-to-upload = Качување
+cancel-avatar-clip-recording = Откажи
+browse-file-title = Поставете датотека со слика
+connect-gravatar = Поврзете се со Gravatar
+gravatar_not_found = Не е пронајден gravatar за вашата е-пошта
+file_too_large = Избраната датотека е премногу голема
+manage-subscriptions = Управување со претплати
+manage-email-subscriptions = Управување со претплати за е-пошта
+add-language = Додај Јазик
 
 ## FAQ
 
 faq-title = Често Поставувани Прашања
+faq-what-cv-q = Што е Common Voice?
+faq-why-important-q = Зошто е ова важно?
+faq-do-want-native-q = { $lang } не е мојот мајчин јазик и зборувам со акцент. Дали сè уште го сакате мојот глас?
+faq-why-different-speakers-q = Зошто ви требаат толку многу различни говорници по јазик?
+faq-why-my-lang-q = Зошто мојот јазик не е вклучен?
+faq-how-calc-hours-q = Како Common Voice пресметува часови?
+faq-where-src-from-2-q = Од каде доаѓа изворниот текст?
+faq-why-account-q = Зошто треба да се регистрирам за сметка?
+faq-is-account-public-q = Дали информациите за мојата сметка се јавни?
+faq-search-for-answers =
+    .label = Пребарајте одговори
 
 ## ABOUT US
 
+how-does-it-work-title = Како работи?
+about-speak = Зборувај
+about-listen = Слушај
+about-is-it-valid = Дали клипот е валиден?
+about-partners = Партнери
+about-become-a-partner = Станете партнер
+about-get-involved = Вклучете се
+about-nav-why-common-voice = Зошто?
+about-nav-how-it-works = Како?
+about-nav-partners = Партнери
+about-nav-get-involved = Приклучете се
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Вештачка интелигенција
 
 ## Glossary
 
+glossary = Речник
+localization = Локализација
+sentence-collection = Збирка на реченици
+de-identified = Деидентификувани
 
 ## NotFound
 
@@ -311,11 +353,29 @@ review-delete-recordings = Избриши ги моите снимки
 
 ## Datasets Page
 
+language = Јазик
+# File size in gigabytes
+size = Големина
+overall-hr-total = Вкупно часови
+cv-license = Лиценца
+audio-format = Аудио формат
+number-of-voices = Број на гласови
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Преземете { $language }
+validated-hours = Потврдени часови
+recorded-hours = Снимени часови
+subscribe = Претплати се
 data-other-librispeech-description = LibriSpeech е корпус од приближно 1000 часа од 16Khz прочитан англиски говор добиен од читани аудио-книги од проектот LibriVox.
 data-other-ted-name = Корпус TED-LIUM
 data-other-ted-description = Корпусот TED-LIUM беше изработен од аудио-говори и нивните транскрипции, достапни на мрежното место на TED.
 data-other-voxforge-description = VoxForge беше поставен за да собира транскрибиран говор за употреба со алатки за препознавање на говор со отворен код.
 data-other-tatoeba-description = Tatoeba е голема база на податоци за реченици, преводи и гласовни снимки за употреба при учење на јазици. Ова преземање содржи говорен англиски, снимен од нивната заедница.
+go-discourse = Одете на Discourse
+more = Повеќе
+close = Затвори
+download = Преземи
+dataset-version = Верзија
 
 ## Download Modal
 
@@ -343,6 +403,8 @@ request-language-form-language =
     .label = Јазик
 request-language-success-title = Барањето за јазик е успешно доставено, ви благодариме.
 request-language-success-content = Наскоро ќе ве контактираме со повеќе информации за тоа како да го додадете вашиот јазик на Common Voice.
+select-language = Изберете јазик...
+other-language = Друг јазик
 
 ## Languages Overview
 
@@ -350,16 +412,28 @@ language-section-in-progress = Во тек
 language-section-launched = Започнат
 languages-show-more = Видете повеќе
 languages-show-less = Видете помалку
+language-meter-in-progress = Напредок
 language-total-progress = Вкупно
 language-search-input =
     .placeholder = Пребарај
 language-speakers = Говорници
+localized = Локализиран
+sentences = Реченици
 
 ## Contribution
 
+action-click = Клик
+action-tap = Допир
+contribute = Придонеси
 listen = Слушај
 skip = Прескокни
 shortcuts = Кратенки
+contribute-more =
+    { $count ->
+        [one] Подготвени сте за 1 повеќе?
+       *[other] Подготвени сте направите уште { $count } ?
+    }
+record-cta = Започнете со снимање
 record-platform-not-supported = Се извинуваме, но вашата платформа сѐ уште не е поддржана.
 record-platform-not-supported-desktop = На компјутер, можете да ги преземете најновите:
 record-platform-not-supported-ios = Корисниците на <bold>iOS</bold> може да ја преземат нашата бесплатна апликација:
