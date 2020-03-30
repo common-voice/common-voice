@@ -661,6 +661,7 @@ listen-3rd-time-instruction = Encara 2, gardatz lo ritme !<playIcon></playIcon
 listen-last-time-instruction = <playIcon></playIcon>Lo darrièr !
 listen-empty-state = Avèm pas mai de frasas a validar per aquesta lenga...
 speak-empty-state = Avèm pas mai de frasas a enregistrar per aquesta lenga...
+speak-empty-state-cta = Prepausar de frasas
 record-button-label = Enregistrar vòstra votz
 share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
 keep-track-profile = Seguissètz vòstra progression en crear un perfil
