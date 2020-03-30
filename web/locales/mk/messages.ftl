@@ -422,6 +422,7 @@ localization-explanation = Ова е нашиот процес за превед
 sentence-collection = Збирка на реченици
 sentence-collection-explanation = Собирање на реченици од јавниот домен или пишување нови за јавниот домен.
 sst = Говор-до-текст (STT)
+sst-explanation = Технологиите говор-до-текст (STT) ги претвараат гласовните податоци во текст.
 de-identified = Деидентификувани
 
 ## NotFound
@@ -478,6 +479,7 @@ download-language = Преземете { $language }
 validated-hours = Потврдени часови
 recorded-hours = Снимени часови
 whats-inside = Што има во базата на податоци на Common Voice?
+want-dataset-update = Сакате известувања кога ќе објавиме нова верзија на базата на податоци на Common Voice? Претплатете се на нашиот билтен.
 subscribe = Претплати се
 get-started-speech = Започнете со препознавање на говорот
 other-datasets = Други гласовни податочни сетови
@@ -674,6 +676,7 @@ share-goal-type-listen = Слушање
 share-goal-type-both = Зборување и слушање
 weekly-goal-created = Вашата неделна цел е создадена
 daily-goal-created = Вашата дневна цел е создадена
+track-progress = Следете го напредокот овде и на страницата со вашата статистика.
 return-to-edit-goal = Вратете се овде за да ја уредите својата цел во секое време.
 share-goal = Сподели ја мојата цел
 
