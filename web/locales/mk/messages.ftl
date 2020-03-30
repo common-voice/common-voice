@@ -394,6 +394,7 @@ about-yes-votes = ≥ 2 гласови Да
 about-no-votes = ≥ 2 гласови Не
 about-dataset-new = База на податоци Common Voice
 about-clip-graveyard = Гробишта на снимките
+about-clip-graveyard-text = Гробиштата на снимките се состојат од гласовни снимки што не се во базата на податоци на Common Voice. Исто како и базата на податоци, и базата на гробиштата на снимките е достапна за преземање.
 about-partners = Партнери
 about-become-a-partner = Станете партнер
 about-get-involved = Вклучете се
@@ -403,12 +404,17 @@ about-nav-partners = Партнери
 about-nav-get-involved = Приклучете се
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Вештачка интелигенција
+mycroft-description =
+    Mycroft е првиот асистент во светот објавен како слободен софтвер.
+    Mycroft работи секаде - на десктоп компјутер, во автомобил или на Raspberry Pi.
 
 ## Glossary
 
 glossary = Речник
 localization = Локализација
+localization-explanation = Ова е нашиот процес за преведување и прилагодување на нашата содржина за многу локалиња (јазици).
 sentence-collection = Збирка на реченици
+sentence-collection-explanation = Собирање на реченици од јавниот домен или пишување нови за јавниот домен.
 sst = Говор-до-текст (STT)
 de-identified = Деидентификувани
 
@@ -451,17 +457,23 @@ review-delete-recordings = Избриши ги моите снимки
 language = Јазик
 # File size in gigabytes
 size = Големина
+validated-hr-total = Вкупно потврдени часови
 overall-hr-total = Вкупно часови
 cv-license = Лиценца
 audio-format = Аудио формат
 number-of-voices = Број на гласови
+splits = Исечоци
 email-to-download = Внесете е-пошта за преземање
+confirm-size = Подготвени сте да започнете преземање на <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Вие се согласувате</b> да не се обидете да го утврдите идентитетот на говорниците во базата на податоци на Common Voice
 download-language = Преземете { $language }
 validated-hours = Потврдени часови
 recorded-hours = Снимени часови
+whats-inside = Што има во базата на податоци на Common Voice?
 subscribe = Претплати се
+get-started-speech = Започнете со препознавање на говорот
 other-datasets = Други гласовни податочни сетови
 feedback-q = Имате мислење?
 data-other-librispeech-description = LibriSpeech е корпус од приближно 1000 часа од 16Khz прочитан англиски говор добиен од читани аудио-книги од проектот LibriVox.
