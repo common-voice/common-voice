@@ -222,10 +222,17 @@ email-subscription-title-new = Пријавете се за билтени на 
 ## Account Benefits
 
 benefits = Придобивки
+rich-data = Направете ги вашите доставени податоци што е можно побогати со обезбедување на некои анонимни демографски податоци. Ние ги деидентификуваме сите демографски податоци пред да ги објавиме.
+improve-audio = Информациите за профилот ги подобруваат аудио податоците што се користат при обуката за препознавање на говорот.
+keep-track = Пратете го вашиот напредок и метрика преку повеќе јазици.
+compare-progress = Погледнете како вашиот напредок се споредува со другите придонесувачи низ целиот свет.
+view-goals = Погледнете го вашиот напредок во однос на личните цели и целите на проектот.
 
 ## What's public
 
 whats-public = Што е јавно?
+email-not-public = Ние нема да ја направиме вашата е-пошта јавна.
+recordings-and-locale-public = Бројот на снимки и јазиците на коишто придонесувате ќе бидат јавни.
 username-optin-public = Можете да изберете да го направите вашето корисничко име јавно или анонимно.
 username-email-not-demographic = Вашето корисничко име и е-пошта нема да бидат поврзани со објавените податоци.
 
@@ -300,6 +307,7 @@ why-profile-title = Зошто профил?
 why-profile-text =
     Со обезбедување на некои информации за себе, аудио-податоците што ги доставувате до Common Voice ќе бидат покорисни
     за алатките за гласовно препознавање, што ги користат овие податоци за да ја подобрат нивната точност.
+dashboard = Работна табла
 build-profile = Изгради профил
 avatar = Аватар
 goals = Цели
@@ -307,6 +315,7 @@ settings = Поставки
 edit-profile = Уреди профил
 profile-create-success = Успех, профилот е создаден!
 profile-close = Затвори
+thanks-for-account = Ви благодариме што го потврдивте вашата профил, сега ајде да го изградиме вашиот профил.
 why-demographic = Зошто ова е важно?
 accept-privacy-title = Политика за приватност
 login-identity = Идентитет за најавување
@@ -321,6 +330,7 @@ retry-voice-wave-recording = ОБИДИ СЕ ПОВТОРНО
 re-record = ПРЕСНИМИ
 delete-voice = ИЗБРИШИ
 recording-voice-wave = Снимање
+delete-voice-clip = или  Избришете го говорниот клип
 ready-to-upload = Качување
 cancel-avatar-clip-recording = Откажи
 browse-file-title = Поставете датотека со слика
@@ -336,11 +346,18 @@ add-language = Додај Јазик
 faq-title = Често Поставувани Прашања
 faq-what-cv-q = Што е Common Voice?
 faq-why-important-q = Зошто е ова важно?
+faq-how-get-q = Како можам да дојдам до податоците на Common Voice?
+faq-when-release2-q = Кога ќе ги објавите податоците на Common Voice на други јазици?
+faq-why-mission-q = Зошто е Common Voice дел од мисијата на Mozilla?
+faq-what-cv-and-deepspeech-q = Која е разликата помеѓу Common Voice и Deep Speech?
+faq-is-goal-assistant-q = Дали е целта на Common Voice да изгради гласовен асистент?
 faq-do-want-native-q = { $lang } не е мојот мајчин јазик и зборувам со акцент. Дали сè уште го сакате мојот глас?
 faq-why-different-speakers-q = Зошто ви требаат толку многу различни говорници по јазик?
 faq-why-my-lang-q = Зошто мојот јазик не е вклучен?
+faq-why-10k-hours-q = Зошто 10,000 потврдени часови се цел на еден јазик за снимање на аудио?
 faq-how-calc-hours-q = Како Common Voice пресметува часови?
 faq-where-src-from-2-q = Од каде доаѓа изворниот текст?
+faq-why-not-ask-read-q = Зошто не барате луѓето да читаат книги или статии од Википедија на различни јазици?
 faq-why-account-q = Зошто треба да се регистрирам за сметка?
 faq-is-account-public-q = Дали информациите за мојата сметка се јавни?
 faq-search-for-answers =
@@ -352,6 +369,8 @@ how-does-it-work-title = Како работи?
 about-speak = Зборувај
 about-listen = Слушај
 about-is-it-valid = Дали клипот е валиден?
+about-yes-votes = ≥ 2 гласови Да
+about-dataset-new = База на податоци Common Voice
 about-partners = Партнери
 about-become-a-partner = Станете партнер
 about-get-involved = Вклучете се
@@ -367,6 +386,7 @@ mycroft-subtitle = Вештачка интелигенција
 glossary = Речник
 localization = Локализација
 sentence-collection = Збирка на реченици
+sst = Говор-до-текст (STT)
 de-identified = Деидентификувани
 
 ## NotFound
@@ -412,6 +432,7 @@ overall-hr-total = Вкупно часови
 cv-license = Лиценца
 audio-format = Аудио формат
 number-of-voices = Број на гласови
+email-to-download = Внесете е-пошта за преземање
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Преземете { $language }
@@ -504,9 +525,13 @@ record-abort-title = Ќе го завршите снимањето прво?
 record-abort-submit = Доставете клипови
 record-abort-continue = Заврши снимање
 record-abort-delete = Излези и избриши клипови
+listen-again-instruction = Одлична работа! <playIcon></playIcon> Слушајте повторно кога сте подготвени
 listen-last-time-instruction = <playIcon></playIcon>Последен!
+speak-empty-state-cta = Придонесувајте реченици
 record-button-label = Снимете го вашиот глас
 share-title-new = <bold>Помогни ни</bold> да најдеме повеќе гласови
+keep-track-profile = Следете го вашиот напредок во создавањето на профил
+login-to-get-started = Најавете се или регистрирајте се за да започнете
 
 ## Reporting
 
@@ -514,9 +539,11 @@ report = Пријави
 report-title = Поднеси пријава
 report-offensive-language = Навредлив јазик
 report-grammar-or-spelling = Граматичка / правописна грешка
+report-grammar-or-spelling-detail = Реченицата има граматичка или правописна грешка.
 report-different-language = Различен јазик
 report-different-language-detail = Напишано е на јазик различен од оној што го зборувам.
 report-difficult-pronounce = Тешко за изговорање
+report-difficult-pronounce-detail = Содржи зборови или фрази што се тешки за читање или говор.
 report-offensive-speech = Навредлив говор
 report-other-comment =
     .placeholder = Коментар
@@ -540,6 +567,7 @@ recordings =
 
 your-languages = Вашите јазици
 toward-next-goal = Кон следната цел
+clips-you-recorded = Снимки што сте ги снимиле
 stats = Статистики
 awards = Награди
 you = Вие
@@ -547,6 +575,8 @@ everyone = Сите
 top-contributors = Топ придонесувачи
 recorded-clips = Снимени клипови
 validated-clips = Потврдени клипови
+total-approved = Вкупно одобрени
+overall-accuracy = Севкупна точност
 set-visibility = Постави ја мојата видливост
 
 ## Custom Goals
@@ -558,13 +588,22 @@ weekly-goal = Неделна цел
 easy-difficulty = Лесно
 average-difficulty = Просечно
 difficult-difficulty = Тешко
+pro-difficulty = Професионален
 want-to-continue = Дали сакате да продолжите?
 set-a-goal = Поставете цел
 cant-decide = Не можете да се одлучите?
+how-many-per-day = Одлично! Колку снимки на ден?
+how-many-a-week = Одлично! Колку снимки неделно?
 which-goal-type = Дали сакате да зборувате, слушате или и двете?
+n-clips = { NUMBER($count) } снимки
 help-share-goal = Помогнете ни да најдеме уште гласови, споделете ја вашата цел
 confirm-goal = Потврди цел
 goal-interval-weekly = Неделно
+share-goal-type-speak = Зборување
+share-goal-type-listen = Слушање
+share-goal-type-both = Зборување и слушање
+weekly-goal-created = Вашата неделна цел е создадена
+daily-goal-created = Вашата дневна цел е создадена
 share-goal = Сподели ја мојата цел
 
 ## Profile Delete
