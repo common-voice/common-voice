@@ -43,6 +43,7 @@ variable "public_client_ip_cidr" {
   default = [
     "63.245.208.131/32", #MDC1 External VPN West
     "63.245.210.131/32", #MDC2 External VPN East
+    "185.155.182.210/32", #BER External VPN
     "18.140.218.113/32", #Can(SAP)
     "63.245.218.198/32", #Mozilla YVR office
     "63.245.212.198/32", #Mozilla YYZ office
