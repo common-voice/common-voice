@@ -107,6 +107,7 @@
 "Besides," he added, breaking fiercely out, "I'll shame them."
 "Bring the candle," said Mr. Wallace, and led the way.
 "But Geneva is a big city" cried Harry in exasperation.
+"But Helene, I tell you," he said, "I have a conscience."
 "But I cannot!" exclaimed Dorothy, greatly surprised.
 "But I don't want to live here," cried Dorothy.
 "But I fear he has become mad," she said.
@@ -1033,6 +1034,7 @@
 "See here," he commanded.
 "See how we have trained them," said Goodwin.
 "See," he continued, "you are wrong: she is coming."
+"Send in all the bills again to everybody 'with compts'" replied Ginger.
 "Send your valet away," he said.
 "Sensible to the last, Ty," said Dickson approvingly.
 "She could not help it, for she is melted," explained the Scarecrow.
@@ -2351,6 +2353,7 @@ Adele drew a breath of relief.
 Adele dropped for the moment her tone of raillery.
 Adele followed and took her seat opposite the girl.
 Adele had done her work well and thoroughly.
+Adele had not yet made her acquaintance; that was evident.
 Adele had peeped from time to time under the blind.
 Adele had removed her hat and was taking off her gloves.
 Adele helped Celia to her feet.
@@ -3702,6 +3705,7 @@ And there was something beyond that; he knew now.
 And there was unheard-of extravagance in the larder.
 And there wasn't an arm!
 And there would be poor Emma in the carriage behind.
+And there would have been none but for Helene.
 And there you are, my partner, eh?
 And there you sit, I suppose, all the day long, eh?
 And there's no chivalry, no quarter shown in this fight.
@@ -3754,6 +3758,7 @@ And to give no sign!
 And to me that would mean so much.
 And to see dear Wickham too!
 And to tell you the truth, guardian, I rather expected it.
+And to this question Helene smiled — a quiet, slow, confidential smile.
 And to you they are memories.
 And toddle off quite happily to find another.
 And tomorrow night, they will come into my possession.
@@ -6692,6 +6697,7 @@ Celia's uneasiness grew into fear.
 Celia's vague terror grew.
 Celia, for her part, felt humiliated and small.
 Celia, her cheeks rosy, her eyes bright.
+Celia, however, was not unused to this tone.
 Celia, indeed, was not alarmed by this last precaution.
 Celsius is a common temperature scale.
 Cern is an international particle physics laboratory near Geneva.
@@ -12561,8 +12567,10 @@ Helene is sure to understand that simple and elementary word.
 Helene kept a grave and respectful face.
 Helene leaned back with an air of disappointment.
 Helene let her fall.
+Helene looked him quietly in the face.
 Helene replied again contemptuously.
 Helene set the flask down upon the table.
+Helene shrugged her shoulders.
 Helene shuddered and covered her face spasmodically with her hands.
 Helene spoke the truth.
 Helene unscrewed the top and laughed pleasantly.
@@ -26663,6 +26671,7 @@ She followed his eyes, and started.
 She followed the woman upstairs.
 She forgave her brother — he was so much upset.
 She forgot that “higher” and “lower” were arbitrary.
+She found her still talking earnestly to Adele.
 She found history, geography and Latin to be exceptionally boring.
 She found walking in the woods a very good way to relax
 She frequently gave me hints of it.
@@ -27577,6 +27586,7 @@ She turned her face slightly aside.
 She turned her head back again towards the window.
 She turned in at the hotel.
 She turned round, as one who suddenly remembers.
+She turned to Adele.
 She turned to him; unconsciously familiar words rose to her lips.
 She turned to the child; she turned from the father.
 She turned to the elder woman with a sort of appeal.
@@ -32853,6 +32863,7 @@ Then Ada blushingly asked me how did I know that.
 Then Allen stepped forward.
 Then Arthur would unhook his tunic collar.
 Then Barker glanced at the checks.
+Then Celia left the rooms and walked to the entrance-doors.
 Then Dorothy lost heart.
 Then Edgar came along with two buckets of milk.
 Then Emilia puts too many murders into hers.
@@ -33429,6 +33440,7 @@ There followed a well-informed and most technical conversation.
 There goes an hour by the clock!
 There goes the man with the tent!
 There had been a great deal of rain.
+There had been no seance as yet held in the Villa Rose.
 There had been something of affection.
 There had never been such preparations.
 There has been a change, she interrupted him.
@@ -39956,6 +39968,7 @@ You have employed your time much better.
 You have exactly one minute.
 You have given me a hope.
 You have got them?
+You have guessed it, Helene — you alone.
 You have had the money and must refund it.
 You have heard all that has come lately.
 You have heard always how he was the lover of the Princess Naomi.

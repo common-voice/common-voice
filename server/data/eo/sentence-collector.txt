@@ -551,6 +551,7 @@ Ambaŭ avide kaj kunsenteme petis lin tion fari.
 Ambaŭ devenas el Argentino.
 Ambaŭ deziroj de la estraro estis akceptitaj de la komitato en reta voĉdono.
 Ambaŭ estas el la urbo Groningen.
+Ambaŭ estas interligitaj.
 Ambaŭ estas kolore ilustritaj kaj grandformataj.
 Ambaŭ estis idealistoj, same fervoraj, same sinceraj; sed iliaj idealemoj montris ankaŭ malsamajn ecojn.
 Ambaŭ estis okupitaj de siaj propraj pensoj.
@@ -732,6 +733,7 @@ Ankoraŭ pli malbone.
 Ankoraŭ restas multe da tempo antaŭ ol la kurso de Esperanto devas komenciĝi.
 Ankoraŭ ripetu.
 Ankoraŭ tro juna.
+Ankoraŭ tute malmulte.
 Ankoraŭfoje li frapis.
 Ankoraŭfoje pri informado.
 Anne Frank ne estas de hieraŭ.
@@ -1057,6 +1059,7 @@ Bela vetero hodiaŭ, sinjorino.
 Bela, sed danĝera.
 Belaj bildoj ne sufiĉas!
 Belaj estas tiaj foloj.
+Belaj komikistoj estas esceptoj.
 Belaj ombroj!
 Belan memoron!
 Bele vestita.
@@ -1080,6 +1083,7 @@ Benu niajn entreprenojn, estu partoprenanto de niaj ĝojoj kaj suferoj, de ĉiut
 Bezonas klarigojn?
 Bezono verki satiron ne malaperis.
 Bibliografiaj laboroj.
+Biblioteko kaj arkivoj.
 Bildo el filmeto farita ĉe la pordo de la ejo.
 Bildojn de la realo.
 Biosfero kaj biodiverseco estas ne disigeblaj, karakterizaj de la planedo Tero.
@@ -1209,6 +1213,7 @@ Bonvenon, kara amiko!
 Bonvole aŭskultu detalajn informojn.
 Bonvole ĝuu la intervjuon!
 Bonvolis perdi.
+Bonvolu anonci vin.
 Bonvolu atente kompari tion.
 Bonvolu bone ĝui!
 Bonvolu diri al Lia Moŝto, ke estas iu pri la kolomboj, daŭrigis Peters.
@@ -1630,6 +1635,7 @@ Diru, ĉu valoris la penon iri al la batalkampo por reveni kun kadavro?”
 Disfloris ŝtelado kaj rabado.
 Diskuto, disputo.
 Diskutoj ne kondukas ien.
+Diskutoj, Novaĵoj, Anoncoj.
 Disponeblos por ni kuirejo.
 Distribui la fontokodon.
 Disvastigado de Esperanto ne eblas sen vasta instruado de Esperanto.
@@ -2100,6 +2106,7 @@ Edzino vizitas terapiiston.
 Edziĝa ringo, mallaŭte murmuretis la helpantoj de la juvelisto, levante la kapojn.
 Edziĝa ringo, respondis la virino.
 Efektive dum kelkaj minutoj ŝi estis tro terurita por paroli, eĉ por klare pensi.
+Efektive ili ne interesas min.
 Efektive la militado ŝanĝis sian karakteron.
 Efektive mi ne scias.
 Efektive mi posedas.
@@ -2255,6 +2262,7 @@ El ŝia buŝo tamen eliris neniu ekkrio kaj el ŝia brusto neniu ĝemo.
 Eldiru la veron.
 Eldiru!
 Elegante!
+Elektraj ventumiloj.
 Elektronika libro ankaŭ ne.
 Elektu Jes.
 Elektu do alian!
@@ -2343,6 +2351,7 @@ En la daŭro de semajno ili vivis kune en amikeco kaj frateco.
 En la deka horo mi komencos kun mia amiko ludi por vi.
 En la dometo sur la enterigejo.
 En la domo de via patrino?
+En la domo estis bruo.
 En la dua sesio la komitato pasigis multan tempon diskutante ŝanĝojn en siaj reglamentoj.
 En la dudek-unua jarcento, oni malpli emas iri al vizaĝ-al-vizaĝaj kluboj.
 En la ejo informiloj kontentigis la ĵus naskiĝintan scivolemon.
@@ -2617,6 +2626,7 @@ Esperanto devus sukcesi eĉ pro tiu sola kaŭzo.
 Esperanto estas artefaritaj aposteriora lingvo.
 Esperanto estas egalisma.
 Esperanto estas enigmo.
+Esperanto estas homa kompreno.
 Esperanto estas internacia lingvo, sed ĉu ni bezonas internacian valuton?
 Esperanto estas tio altagrade.
 Esperanto havas propran econ.
@@ -2875,6 +2885,7 @@ Estis necese, ke mi atendu la enfluon.
 Estis nenia respondo, la instruistino silentis.
 Estis nura antaŭjuĝo.
 Estis premio koni vin.
+Estis profunda, venta, humida nokto.
 Estis propono denove longigi ĝin, sed la propono ne estis populara.
 Estis sendube la unua pafilpafo, kiun ili iam aŭdis.
 Estis senhome kaj kviete.
@@ -3145,6 +3156,7 @@ Fine ekzistas nova generacio.
 Fine eniras Klomp.
 Fine estis du ensenditaj proponoj de komitatanoj.
 Fine la Reĝo devis anonci "Mi faris ŝercon," kajtuj la korteganoj aplaŭdis amase.
+Fine la du fratoj renkontiĝis.
 Fine la konfirmo pri ŝia membreco estis trovita.
 Fine la kuiristo trovis la numeron, kiun li serĉis.
 Fine la malsanulo ree parolis:
@@ -3254,6 +3266,7 @@ Foje, malfruan vesperon, li venis al dometo, kaj laca li petis tie noktan ripozl
 Foje, moneroj glitas al en internaj poŝoj.
 Foje-refoje ili montris sian kapablon elturniĝi.
 Fojfoje estas tre malfacile.
+Fojfoje eĉ laŭdis.
 Fojfoje ne eblas al maljunuloj prunte preni monon.
 Fojfoje tio okazas.
 Fojon post fojo vi trovos tiun fidon ekbrilanta kun nevenkebla brileco.
@@ -3453,6 +3466,7 @@ Hejmaj malfacilaĵoj.
 Hejme ŝi povas sidi sur apogseĝo, sed ne en ruliĝanta vagonaro.
 Hejmen, ĉe mian patron.
 Hejmenirante li forte enspiris la freŝan aeron de la maja nokto.
+Hejmeniru kaj vizitu viajn gepatrojn.
 Hela ruĝo kovris liajn vangojn.
 Helpema bopatro.
 Helpiloj estas montrataj en la ekrano de la ludo.
@@ -3623,6 +3637,7 @@ Ho, tiuj historioj de nia vivo!
 Ho, tre aminda bebo!
 Ho, tre bone!
 Ho, tute ne; mi manĝis antaŭ tri horoj.
+Ho, tute nova tono!
 Ho, ve!
 Ho, ve! mi malfruos!
 Ho, venu do!
@@ -3658,6 +3673,7 @@ Hodiaŭ ne estis sukcesa tago por tio.
 Hodiaŭ ne plu.
 Hodiaŭ ni alfrontas.
 Hodiaŭ ni konigos al vi staton ĉiflanke.
+Hodiaŭ vi trinkis.
 Hodiaŭ ĉi tie estas denove tro malvarme.
 Hodiaŭ ŝi sidiĝis sur la lito kaj aŭskultis.
 Hodiaŭ!?
@@ -3813,6 +3829,7 @@ Ili estas egoistoj, sed mi -- io tute alia!
 Ili estas ekstremuloj.
 Ili estas el Belgio.
 Ili estas enigmoj al mi mem.
+Ili estas granda problemo.
 Ili estas grandpovaj.
 Ili estas homoj.
 Ili estas interesa.
@@ -3879,6 +3896,7 @@ Ili havis preskaŭ nenion.
 Ili havis viandon sur la fajro, ĉirkaŭ kiu, mi vidis, ili dancadis.
 Ili hontis.
 Ili iras plue laŭ la sabla vojeto.
+Ili iris nelonge.
 Ili iros arbaron, kunprenos manĝaĵon en korboj, amuziĝos tre bone.
 Ili ja funkciis.
 Ili ja ne bezonas rapidi.
@@ -4118,6 +4136,7 @@ Insulo de Dioj?
 Insultoj ne prosperigos vin ĉi tie!
 Intence ni nur celas krei kondiĉojn por demokratio.
 Inter ili estas multaj maljunuloj, sed iliaj koroj ĉiam estas junaj.
+Inter ili estis maljuna homo.
 Inter ili troveblas bonegaj ekzempleroj.
 Inter ili troviĝas junuloj kaj maljunuloj, kiuj laboras por Esperanto kaj ĝojas pro ĝi.
 Inter ili troviĝas la Aventuroj de Asteriks, kaj la Aventuroj de Tinĉjo.
@@ -4347,6 +4366,7 @@ Jam estas tempo reveni hejmen.
 Jam estas tiel lume en la dometo, ke lampo estas superflua.
 Jam estas tro malfrue, mia virtega amiko; ha!
 Jam estis la oka horo.
+Jam fino!
 Jam komenciĝis la unua Internacia Junulara Kongreso en Afriko.
 Jam krepuskiĝis, kaj vespera silento regis ĉirkaŭ li.
 Jam la lingvo havis sufiĉe grandan parolantaron por formi la bazon de movado.
@@ -4482,6 +4502,7 @@ Jen la Blanka Reĝino kuranta trans la teron!
 Jen la afero fariĝas pli stranga ankoraŭ...
 Jen la afero, sinjoro.
 Jen la dua parto.
+Jen la esenca problemo.
 Jen la fino de la rakontaĉo verkita de mi.
 Jen la fino de ĉi tiu rakonto.
 Jen la foto.
@@ -4555,6 +4576,7 @@ Jen unu, super la granda arbo.
 Jen unu.
 Jen valora ekzerco pri parolado – aŭ aŭskultado – por progresemaj lernantoj.
 Jen valoroj hodiaŭ urĝe bezonataj!
+Jen vasta programo, vi dirus.
 Jen veraj viroj!
 Jen vere nenio enviinda!
 Jen vi ekas!
@@ -4968,6 +4990,7 @@ Kaj kia sankta kredo al la amo!
 Kaj kia!
 Kaj kial damne estas ĉi tiu stelo ĉi tie, hazarde rondiranta?
 Kaj kial ne laŭleĝigi?
+Kaj kial ne per preĝo?!
 Kaj kiam ekzistas nur unu libro, ne vere necesas “matura pripensado”.
 Kaj kiam ili estos kvitaj?
 Kaj kiam la patro vekiĝos, vi alvokos min?
@@ -4989,6 +5012,7 @@ Kaj kiel kun infanoj?
 Kaj kiel la vestaro, tiel la militistaro.
 Kaj kiel necesas.
 Kaj kiel vi pensas?
+Kaj kiel vi vivas?
 Kaj kiel ĉarma ŝi estas!
 Kaj kiel ĝi komenciĝas?
 Kaj kio estas Esperanto?
@@ -6012,6 +6036,7 @@ Kiel do tio okazis?
 Kiel do vojaĝi?
 Kiel do!
 Kiel do, se oni povus fari lingvon el matematiko?
+Kiel do?
 Kiel dormlokon, ni ne bezonas pli ol trankvilan dupersonan ĉambron.
 Kiel eblan kaŭzon li menciis la proksimecon de Baltiaj Esperanto-Tagoj.
 Kiel eblas kontribui al Ekparolu?
@@ -6080,6 +6105,7 @@ Kiel li eniris? Via patrino do lasis la pordon nefermita?
 Kiel li estis?
 Kiel li fartas?
 Kiel li povas labori?
+Kiel li povis erari?
 Kiel li reagis?
 Kiel li?
 Kiel lia vizaĝo blankiĝas?
@@ -6520,6 +6546,7 @@ Kion li diris?
 Kion li faras, kion?
 Kion li flustris al vi, Moseo? demandas la spicisto.
 Kion li pensis?
+Kion li povis fari?
 Kion li skribis?
 Kion li volas diri?
 Kion manĝas norduloj?
@@ -6565,6 +6592,7 @@ Kion plu?
 Kion povas fari geknaboj?
 Kion povas fari viro pli ol tio?
 Kion pri bezonata tempo kaj tempolimoj?
+Kion pri iliaj ĝojoj?
 Kion pri la klerikaro?
 Kion pri la polico?
 Kion pri la tagoj?
@@ -6593,6 +6621,7 @@ Kion vi elstarigus el via Esperanta spertaro?
 Kion vi esperas atingi per la kampanjo?
 Kion vi esperas atingi per la letero?
 Kion vi faras en via libertempo?
+Kion vi faras ĉi tie?
 Kion vi faras!..
 Kion vi faras, kiam vi ne organizas ion en Esperantujo?
 Kion vi faras?
@@ -6734,6 +6763,7 @@ Kiu venos unue?
 Kiu vi estas, kiu estas tiel scivola pri li?
 Kiu vi estas?
 Kiu vi estas? demandis mia patrino.
+Kiu ĝin eldiras?
 Kiu ŝanĝo?
 Kiu ŝi estas?
 Kiu ŝipo? demandis mia patrino, rigardante tra la fingroj la strangan preskaŭ-droninton.
@@ -6917,6 +6947,7 @@ Kompreneble ne ĉio iras en la sama direkto, mi konsentas.
 Kompreneble ne ĉiuj artikoloj estas verkitaj egale interese.
 Kompreneble ne, ŝi interĵetis kun malbela mokrido.
 Kompreneble ne.
+Kompreneble poste okazis nenio.
 Kompreneble tamen troviĝas problemoj.
 Kompreneble tio kostas sufiĉe da mono.
 Kompreneble tio ne povas esti preciza takso.
@@ -6978,6 +7009,7 @@ Konjekteble ili estis okupitaj per sekreta interkonsiliĝo.
 Konkuri ni ne volas.
 Konsciigu al vi, ke vi agas malkuraĝe, malbrave!
 Konsentite!
+Konservi ian atestaĵon.
 Konsideru do la aferojn kun kvieteco.
 Konsilu, bonkoruloj!
 Konsolo por la ĉefredaktoro eble estas la fakto, ke li ne solas.
@@ -7047,6 +7079,7 @@ Krimoj ili estas!
 Kristiano ne povas morti.
 Kriston perfidis ĉiuj.
 Kritika tono estos bonvena, kondiĉe ke respekto al homoj kaj institucioj estu regulo.
+Kritiki estas tre facile.
 Kritiko estis permesita nur se ĝi estis “konstrua” kaj aprobita de la aŭtoritatoj.
 Kritikoj estas bonvenaj, sed konkretaj helpoj estas pli bonvenaj.
 Krom eble de tempo al tempo en apuda lando.
@@ -7373,6 +7406,7 @@ La belan animon.
 La besto rigardis min tiel strange, kvazaŭ ĝi ne konus min plu.
 La besto tamen kuŝis senmove kaj ĉiam fiksadis sur min la ruĝajn okulojn.
 La bestoj estis liberaj.
+La bestoj sekvis la junulon.
 La bienon de mia patro oni kelkajn monatojn post mia edziniĝo vendis per aŭkcio.
 La bildoj estas ja realismaj.
 La birdo, rimarkante min, ektimiĝis, kaj lasante sian neston forflugis kun laŭtaj ekkrioj.
@@ -7707,6 +7741,7 @@ La idilioj ja ekzistas por malsataj poemamantoj.
 La ilustraĵoj mankas.
 La impresoj restos izolitaj.
 La indikilo por ĝusta faldado estis necesa por tiuj, kiuj efektive uzis la paperon.
+La infaneco montras la printempon.
 La infanino kreskis sub la zorgoj de la tuta familio.
 La infano bezonas supon!
 La infano estas knabino.
@@ -7953,6 +7988,7 @@ La kutime zorgolaca vizaĝo de sinjoro Vincent montris signojn de forta ĉagreno
 La kutimo iĝas mania.
 La kvanto ŝanĝiĝas ĉiutage pro la laboro de landaj organizantoj.
 La kvar partoprenontaj elementaj lernejoj troviĝas en Slovenio, Kroatio, Slovakio kaj Bulgario.
+La kvara estas mi.
 La kvara serĉis forgeson per vagado tra la mondo.
 La kvaran tagon li permesis al la sinjorino, ke ŝi leviĝu.
 La kvaronhoroj pasis.
@@ -8483,6 +8519,7 @@ La retejo kun la programo estis entute en Esperanto; ankaŭ la kluba bulteno.
 La retejo, fakte, nun jam estas dulingva, kvankam unue aperis la anglalingva versio.
 La retejoj estas malnovaj, malbelaj kaj ne ĝisdatigataj.
 La revo fariĝis realaĵo.
+La revoj estas realiĝintaj.
 La revolucio jam venkis.
 La revolvero.
 La revuo enhavis medicinajn esplorojn kaj raportojn verkitajn nur en Esperanto.
@@ -8831,6 +8868,7 @@ La virino staris senmove kaj akompanis per la okuloj ĉiun el la elportataj mebl
 La virino, kiu estis klinita super ĝi, havis larmojn en la okuloj.
 La virino, kiu estis vestita kiel servistino, laŭte diris kelkajn vortojn.
 La virino, kiu iris apud li, ekrigardis lin mirigite.
+La virino.
 La virinoj fariĝos pli liberaj kaj pli gravaj por la socia kaj ekonomia progreso.
 La virinoj pace kunlaboris.
 La virinoj, kiuj sidis antaŭ la kameneto, silentis.
@@ -9049,6 +9087,7 @@ Lecionojn de franca lingvo?
 Legante la novan tradukon de la tre fama libro, vi ekscios mem!
 Legante tiun ĉi libron, vi atentos, miros, ridos kaj, certe, lernos.
 Legantoj juĝu.
+Legi pli.
 Legi, legi, skribadi kaj laboradi super strangaj, antikvaj dokumentoj kaj planoj.
 Legu ankaŭ pri multaj aliaj gravaj kaj interesaj aferoj!
 Legu jam nun intervjuojn de Libera Folio kun ĉiuj tri kandidatoj.
@@ -9527,6 +9566,7 @@ Li naskiĝis en Kimrio.
 Li naĝadis!
 Li ne bezonas esti tiom disponebla por mi, sed li faras tion.
 Li ne bezonas recenzon, nek lia verko.
+Li ne enamiĝis.
 Li ne eraris.
 Li ne estas esperantisto.
 Li ne estas hejme; li foriris samtempe kun mi.
@@ -9628,6 +9668,7 @@ Li premis mian manon.
 Li premis ŝiajn manojn pli kaj pli forte, li proksimigis sian kapon al ŝia.
 Li prenas kuketon, kaj donas la teleron al la mezaĝa ino kiu stresas multe.
 Li prenis ambaŭ ŝiajn manojn kaj momenton rigardis ŝin, mallevinte la kapon
+Li prenis nin kun si.
 Li preskaŭ ne rimarkis, ke la vetero estas malvarma kaj pluva.
 Li preskaŭ neniam diras ion al mi..., nur se mi demandas.
 Li pripensis!
@@ -9900,6 +9941,7 @@ Liaj distritaj okuloj direktiĝadis ĉiumomente al la paperoj, kiuj kuŝis sur l
 Liaj haroj estas forrazitaj.
 Liaj intimaj amikoj rigardis lin kiel preskaŭ superhoman sanktulon.
 Liaj klientinoj sekvas lin.
+Liaj koncernaj komentoj estas forviŝitaj.
 Liaj kuntiritaj brovoj ektimigis min.
 Liaj kunuloj imitas lin en sinteno kaj vestoj.
 Liaj manoj ektremis.
@@ -10116,6 +10158,7 @@ Malpacienci pri la progreso de Esperanto, serĉi kulpulojn, estas tute normale k
 Malpleneco de la animo.
 Malpli da lokoj permesas submaran fiŝkaptadon kun spira premaerujo ol sen tio.
 Malpli ol triono el la individuaj membroj voĉdonis.
+Malproduktiveco difinas idiotismon.
 Malproksima fajro ne varmigas.
 Malrapide aliris la fenestron.
 Malrapide alvenis la mateno.
@@ -10446,6 +10489,7 @@ Mi celas unuavice la iaman sovetian "blokon".
 Mi certas ke jes.
 Mi certas ke ne estas danĝero, diris Doroteo, per sobra voĉo.
 Mi certas, ke dank' al Esperanto la retejon atendas longa kaj interesa historio.
+Mi certe estas interesata.
 Mi certe fariĝos bona esperantisto kaj laboros por Esperanto.
 Mi certigas vin, ke vi faras al mia edzo tre grandan plezuron.
 Mi certigis al ŝi, ke vi neniam dubos ŝin, neniam.
@@ -10470,6 +10514,7 @@ Mi daŭrigos.
 Mi decidas iri unue al la ĉambroflanko pri fremdaj lingvoj.
 Mi decidas leviĝi por foriri.
 Mi decidas rapide legi la nomojn de kelkaj libroj.
+Mi decidis esti forta.
 Mi decidis reveturi Danzigon por kelke da tagoj kaj poste iri al bankuracejo.
 Mi decidis ŝanĝis tion.
 Mi decidiĝis fari lian morton laŭeble plej malĝena.
@@ -10765,6 +10810,7 @@ Mi estis aktoro.
 Mi estis amata.
 Mi estis emociata.
 Mi estis en Maroko, kiam venis via letero.
+Mi estis en liceo tiutempe.
 Mi estis en marista trinkejo.
 Mi estis enterigita juna kaj eliris el la tombo preskaŭ maljunulo.
 Mi estis feliĉa.
@@ -10828,6 +10874,7 @@ Mi feliĉas.
 Mi fende malfermetis unu okulon.
 Mi fermas la ĉefan pordon de la konstruaĵo.
 Mi finas, kamaradoj!
+Mi finas.
 Mi finfine havis sufiĉe da tempo por dormi.
 Mi finis la universitaton kaj komencis mian medicinan praktikon.
 Mi finis.
@@ -10963,6 +11010,7 @@ Mi iras min vesti!
 Mi iras! mi diris.
 Mi iras, mi rapidas, mi flugas!
 Mi iris al la marbordo por varmigi min iomete sub la sunradioj.
+Mi iris al la marbordo.
 Mi iris al la ĉambro de la kuiristo, kie mi trovis du virojn malvivajn.
 Mi iris fiŝkaptadi kun ŝi sed ne en ŝia danĝerega boato.
 Mi iris kun li al "la haveno", kie mia patro jam atendis.
@@ -11593,6 +11641,7 @@ Mi petas vian permeson iam reveni.
 Mi petas vian permeson por iri serĉi lin.”
 Mi petas vian princan moŝton!
 Mi petas vin diris Petro, parolu malkaŝe.
+Mi petas vin konfirmi tion.
 Mi petas vin lasi tie kondolencajn vortojn, dividi viajn memoraĵojn pri li.
 Mi petas vin pri ĝi, diris Marta sen plej mallonga pripenso.
 Mi petas vin trinki.
@@ -11626,6 +11675,7 @@ Mi povas fari ĝin.
 Mi povas fronti kian ajn morton, nur ne tian.
 Mi povas havi dek lokojn similajn.
 Mi povas imagi tion.
+Mi povas konfirmi tion tutkore.
 Mi povas kredi tion!
 Mi povas libere rigardi la larĝajn stratojn kaj la altajn domegojn.
 Mi povas liverigi butikaĵojn al mia hejmo.
@@ -11840,6 +11890,7 @@ Mi sidiĝis sur la plej malalta ŝtupo kaj ekpensis.
 Mi sidiĝis ĉe lia flanko.
 Mi sidiĝis.
 Mi silente atendis.
+Mi silentis.
 Mi silentu pri mia ago.
 Mi simple atendadis la informojn por fari la buĝeton, esperante havi ilin tre baldaŭ.
 Mi simple ne povas atendi ĝis la apo ekfunkcios!
@@ -11905,6 +11956,7 @@ Mi timis, ke jam li estas mortinta kaj ekploris pro kompato kaj ĉagreno.
 Mi timus ŝin.
 Mi tion bezonas, komprenu.
 Mi tion esperas.
+Mi tion faris!
 Mi tion ja ŝatis.
 Mi tion prenas sur min.
 Mi tion scias, mi scias!
@@ -11960,6 +12012,7 @@ Mi troviĝas en alia mondo.
 Mi troviĝas en florplena parko.
 Mi troviĝas en vendejego.
 Mi trovos ŝian novan loĝejon, kaj edziĝu kun ŝi?
+Mi tuj aldonos tiun ĉi.
 Mi tuj decidis pasigi tie la estontajn noktojn kaj dormis jam tie la alproksimiĝantan.
 Mi tuj diros al vi.
 Mi tuj ekagis.
@@ -12510,6 +12563,7 @@ Ne atendu plu, sed tuj vizitu tiun retejon!
 Ne aĉetinte bileton ŝi envagoniĝis en la lasta momento.
 Ne balancu vian kapon.
 Ne batalu por sklaveco!
+Ne bone, jes, ne bone.
 Ne dankinde.
 Ne daŭrigu la liston!
 Ne decas, ke vi ne konfidas min.
@@ -12565,6 +12619,7 @@ Ne estas.
 Ne estis "tempo", kiu malhelpis la finpreparon de la statistiko.
 Ne estis bone, ĉar Stelkri bezonis helpon por ripari sian kosmoŝipon restantan sur monteto.
 Ne estis koncertoj de aŭtaj hupoj tra la urbo.
+Ne estis metalo, sed ligno.
 Ne estis mi kiun ili deziris sed mian riĉecon.
 Ne estis paralelaj klasoj, kiuj dekomence lernis la francan.
 Ne estu tiel avida.
@@ -12950,6 +13005,7 @@ Neniam mi ŝlosis pordon.
 Neniam nekonatuloj estis tiom afablaj al mi.
 Neniam ni volas forgesi vian kontemplatan Lumon.
 Neniam reklamiloj havis tian sukceson.
+Neniam timu, kara patrino!
 Neniam ĉevalo, kiu ne povus esti rajdita; neniam rajdanto, kiu ne povus esti ĵetita.
 Neniam ŝi revis tiel longe kaj tiel multe kiel nun.
 Neniam ŝi vidis tiajn!
@@ -13432,6 +13488,7 @@ Ni scias nun-tempe, ke du tiaj lingvoj malaperas ĉiumonate.
 Ni sekurigis la Nafton.
 Ni sekvis tien.
 Ni sekvos la tradicion de Teo Jung kaj havos nian propran opinion.
+Ni sentis kuniĝon.
 Ni serĉis ĉiuloke, laŭ ĉiuj vojoj kaj en ĉiuj longfosoj, sed nenie lin trovis.
 Ni sidiĝu, sidu iom!
 Ni silentas.
@@ -14192,6 +14249,7 @@ Organizi ion, kaj poste nuligi, post kiam homoj prepariĝis mense kaj mone?
 Orgasmo kutime akompanas ejakulon.
 Orienta bazaro.
 Oriente de la urbego.
+Originala filmeto en Esperanto.
 Oro kaj plateno.
 Ostan kanceron.
 Otlet simpatiis kun Esperanto.
@@ -14263,6 +14321,7 @@ Pasintjare en Seulo tiu programero estis aranĝita en netradicia maniero, kun la
 Pasis ankoraŭ du tagoj.
 Pasis du tagoj.
 Pasis horo.
+Pasis jam jaroj.
 Pasis jam la deka horo.
 Pasis jaroj.
 Pasis kelkaj horoj.
@@ -14572,8 +14631,10 @@ Por mi ambaŭ aferoj estas same gravaj.
 Por mi estis sufiĉe.
 Por mi la Tvitero ankaŭ ne havas sencon.
 Por mi ne gravas, ĉu la komitato nun aprobas aŭ malaprobas la katastrofan buĝeton.
+Por mi tio ne eblas.
 Por mi ĉiu rakonto kompreneble estis unika kaj grava.
 Por mi?
+Por mia eduko.
 Por momento la ĉielarko ekflamas per blindiga kupre flava fajro kaj tuj malaperas.
 Por mono venis ĉiuj.
 Por multaj homaltigaj movadoj internacia lingvo estas nepre necesa.
@@ -14726,6 +14787,7 @@ Post unu minuto jam aperis la tuta kapo.
 Post unu, du minutoj la Raŭpo demetis la pipon kaj skuis sin.
 Post vico de demandoj estis tuŝita ankaŭ la temo pri maldungo de purigisto.
 Post ĝi, pli verŝajne.
+Poste Petro fermis la latkurtenojn.
 Poste al plena enmergiĝo.
 Poste aliaj aŭ plibonigas la frazon aŭ markas ĝin kiel jam bonan.
 Poste alvenis lia vico.
@@ -14813,6 +14875,7 @@ Precipe Germanujo tiel agis.
 Precipe en via lando, sinjoro Marston, biologiaj antaŭjuĝoj mortas malfacile; eble pro religiaj kaŭzoj.
 Precipe forta estis la lasta.
 Precipe ne diru al sinjoro Romeskaŭ, ke mi parolis pri viaj talentoj.
+Precipe ne en la imperativo.
 Precipe ne la kristanoj.
 Precipe nun ĝi fariĝas tre bela.
 Precipe plaĉis al li la verbenoj.
@@ -14908,6 +14971,7 @@ Pri pli aĝa generacio eĉ ne temas.
 Pri printempa laceco.
 Pri respondeco.
 Pri rimedoj de eliro el tiu ĉi foso?
+Pri siaj kvereloj kaj skandaloj.
 Pri simila sorto por La Ondo mi tamen ne faras al mi esperojn.
 Pri talento mi neniam aŭdis, ke vi ian havas...
 Pri tio ili konsentis.
@@ -15090,6 +15154,7 @@ Rekorda estis la malfruo de la junia numero, kiu malfruis pli ol tri monatojn.
 Rekta tradukado el nacia lingvo en alian nacian lingvon ofte enhavas senco-erarojn.
 Rekte inter frenezulojn.
 Rekte rudron!
+Rekte, laŭ rekta linio.
 Rekvietiĝu do! li diris al la piedbatanto.
 Reliefo de Zamenhof sur la muro de la Zamenhof-centro.
 Religio estas randa kondiĉo.
@@ -15181,6 +15246,7 @@ Rigardinte la korbon, ŝi rememoris la pruntedonitan libron.
 Rigardinte pli atente, mi ekvidis, ke tiu tria viro estis mia amiko, la kuiristo.
 Rigardo de ekstere.
 Rigardo de okcidento orienten.
+Rigardu antaŭen al viaj ĝisdatigoj.
 Rigardu do, mi ne povas plu lin reteni.
 Rigardu kaj aŭskultu!
 Rigardu la enhavon kiel nuran pruvon de nia estimo kaj danko.
@@ -15252,6 +15318,7 @@ Sakao akceptis lian promeson.
 Salajro estas neimagebla.
 Saltas kaj diri jes.
 Salte li kuris al la pordo.
+Saluti estas nenion kostanta decaĵo.
 Salutojn el Italujo.
 Saluton Anonimulo!
 Saluton Esperantujo!
@@ -15421,6 +15488,7 @@ Se oni havas tempon kaj ne scias, kion fari, oni foriras en Esperantan societon.
 Se oni konstruas domon, oni ne povas komenci per la tegmento.
 Se oni ne faras tion, oni ekhavos nenion.
 Se oni ne scias al kio oni reagu?
+Se oni ne vidus min.
 Se oni povas verŝi sur ĝin guton da balzamo, kial ne fari tion?
 Se oni solas, oni pli ofte devas manĝi la samajn aferojn.
 Se oni sukcesas sufiĉe rapide, oni rajtas preni kolorigitajn ŝtonojn, kiuj funkcias kiel poentoj.
@@ -15551,6 +15619,7 @@ Sed estas eble, ke li lernis tion poste.
 Sed estas jam malfrue por ekvojaĝi hodiaŭ.
 Sed estas multaj aliaj gravaj plibonigoj de la enhavo.
 Sed estas ne tiel.
+Sed estas pura nuntempa literaturo.
 Sed estas tamen diferenco.
 Sed estas ĉiam tiel.
 Sed estis jam malfrue.
@@ -15981,6 +16050,7 @@ Sed tiam ne eblos utiligi ilin.
 Sed tie mi ne havis la senton de hejmo.
 Sed tio apenaŭ veras.
 Sed tio decidigas la aferon.
+Sed tio estas alia rakonto.
 Sed tio estas bagatelo.
 Sed tio estas bonega!
 Sed tio estas erara.
@@ -16036,6 +16106,7 @@ Sed unufojon plu li ĵetis for tiun penson.
 Sed utilas skizi la apartajn atestaĵojn de unuopa evangelio.
 Sed vane.
 Sed venos surprizo.
+Sed vere Vi pravas.
 Sed vi atendos!
 Sed vi devas konfesi, ke onklino Delfino iafoje estas iom stranga; ĉu ne?
 Sed vi donis al mi kvar.
@@ -16084,6 +16155,7 @@ Sed ĉu vi vizitas bildgaleriojn?
 Sed ĉu vi volas?
 Sed ĉu via patro neniam parolis pri tio?
 Sed ĉu ĝi doloras ŝin aŭ ne, tamen li estas fremda por ŝi.
+Sed ĉu ĝi vere plenumiĝos?
 Sed ĝenerale?
 Sed ĝi aperis.
 Sed ĝi estas disbombita!
@@ -16274,6 +16346,7 @@ Senviva kaj minaca silento regadis en la temploj, nerimarkeble transirantaj en s
 Senvorte la juna viro preterpasis la servistinon kaj mallaŭte supreniris mallarĝan ŝtuparon.
 Sep pasie deĵetis sian broson, kaj komencis.
 Sepcent jaroj!
+Sepdekjarulo edziĝas kun deksepjarulino.
 Serioza do estas la afero!
 Serioza kritika ĵurnalismo, sendependa de unuopaj organizaĵoj, estas tre bezonata en Esperantujo.
 Serioza!
@@ -16438,6 +16511,7 @@ Sovaĝulo mi ekkriis.
 Sovaĝulo!? demandis mia patrino.
 Sovetio ja rilatis al la esperantistoj pli suspekteme ol multaj aliaj orienteŭropaj landoj.
 Spaca Strangaĵo!
+Specialaj Komisioj.
 Specialan programon krome ni ne donas.
 Speciale al mi.
 Speciale lukso estis impostita.
@@ -16481,6 +16555,7 @@ Stranga okazo!
 Stranga rakonto.
 Stranga redakta politiko!
 Stranga sinteno por intelektulo.
+Strangaj aferoj okazas al mi.
 Strangaj pensadoj amasiĝas en ŝia cerbo.
 Strangaj pensoj kaj imagoj amasiĝas en la kapo de Rika.
 Strange estas, ke li nenie aŭdas eĉ la plej mallaŭtan brueton.
@@ -16636,6 +16711,7 @@ Sur la trotuaroj ondis miloj da homaj kapoj.
 Sur la vitron.
 Sur la vizaĝo de Mario Rudzinska aperis miro, aflikto kaj konfuzo.
 Sur la vojo nervodetruaj pensoj regis min; turmentaj demandoj premsekve traflugis mian cerbon.
+Sur lia profunda koncentriĝo.
 Sur lia skribtablo troviĝis kelkaj, ĵus alvenintaj leteroj.
 Sur lia vizaĝo oni povis vidi honton kaj bedaŭron.
 Sur mia vizaĝo sin montris sendube granda surprizo, ĉar gesinjoroj Romeskaŭ ridetis, rigardante min.
@@ -16766,6 +16842,7 @@ Tamen neniam tiel longan kiel la nun planatan karavanon de Berlino al Lisbono.
 Tamen nenio okazis dum tri kaj duona jaroj.
 Tamen neniu ekmovis sin!
 Tamen ni volas atentigi, ke la konateco havas ne nur avantaĝojn, sed ankaŭ respondecojn.
+Tamen oni konsideris tion demokratio.
 Tamen oni ne distordu la faktojn.
 Tamen oni ne dubu!
 Tamen plej kredeble efektive temas pri projekto de Google.
@@ -16911,6 +16988,7 @@ Tenu lin ĉe la ŝultroj, Mikelo.
 Teodoro sekvis sian amikon kiel ombro.
 Teorie tio sufiĉus.
 Terminologio.
+Tero de Kampoj.
 Terura afero, ĉar tiom da petoj, deziroj kaj bezonoj ekzistas, sed la subtenantoj mankas.
 Terura afero, ĉu ne?
 Terura afero.
@@ -17260,6 +17338,7 @@ Timo estas racia.
 Timo, memkulpigo, malamo, kaj flama indigno, espero kaj malespero tordadis mian koron.
 Timokreanto embarasiĝis.
 Timu nian forton!
+Tio afektis min tiam.
 Tio aferaĉo ne estas simpla kaj profitdona.
 Tio aldonis kompleksecon kaj malfacilecon rilate al integrado.
 Tio almenaŭ estas bona novaĵo.
@@ -17323,6 +17402,7 @@ Tio estas enorma ŝanco.
 Tio estas eraro.
 Tio estas evidenta.
 Tio estas fakto.
+Tio estas forto.
 Tio estas fundamente malvera.
 Tio estas granda eraro.
 Tio estas grandega perdo por la homa heredaĵo.
@@ -18274,6 +18354,7 @@ Usono ankaŭ estas strategia partnero, li diris.
 Usono ne avidas teron, deklaras li dum sia parolado.
 Utopio!
 Uzante simplan stilon, la aŭtoro prezentas utilajn esprimojn, kiujn progresantoj ankoraŭ ne tute regas.
+Uzu kutiman nomon.
 Uzu ĝin kaj disvastigu la informojn al viaj ne-esperantistaj amikoj.
 Vagpense ŝi respondis:
 Valoras la plej alta.
@@ -18359,6 +18440,7 @@ Vere mi havis deziron desalti de la seĝo kaj kisi vin por tio!
 Vere mirinde, ke li kaj Anna Striganova tion faris duope.
 Vere rara fenomeno por libro, originale verkita en la internacia lingvo!
 Vere simple, ĉu ne?
+Vere timige!
 Vere ĝi estas romaneca Romeo-kaj-Juliet-afero.
 Vere! diris Julio.
 Vere! sed mi estis komercisto!
@@ -18436,6 +18518,7 @@ Vi bone scias verki amleteron.
 Vi bone scias, ke li ĉion scias.
 Vi bonegas!
 Vi celas krom doni intervjuon al Libera Folio?
+Vi certe ne pentos.
 Vi certe pravas!
 Vi certe sukcesos.
 Vi denove alpremas min al muro!
@@ -18635,6 +18718,7 @@ Vi ne konscias tion, sed pli poste vi spertos ĝin mem.
 Vi ne kredas tion? demandas la fremdulo.
 Vi ne kredas?
 Vi ne kuraĝas?
+Vi ne laboras serioze.
 Vi ne parolas sincere.
 Vi ne povas feliĉe mastrumi po tri mil frankoj jare.
 Vi ne povas.
@@ -19017,6 +19101,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉe Klajn, la instruisto.
 Ĉe doktoro Stuthejm, kviete respondis Mikelo.
 Ĉe doktoro? Kio okazis kun patro?
+Ĉe fakiro.
 Ĉe ies morto, la plej kompatindaj estas la restantoj.
 Ĉe ili mi provizore restos.
 Ĉe kelkaj Esperanto-punktoj jam estas instalitaj informstandoj en la pola, angla kaj Esperanto.
@@ -19072,6 +19157,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉi semoj elĉerpitaj, ne plu inciteblaj, la saĝuloj estingiĝas kiel jena lampo.
 Ĉi tie eblus simple uzi unu.
 Ĉi tie en Varsovio.
+Ĉi tie estas jura nuanco.
 Ĉi tie estas lanterno.
 Ĉi tie estas multaj belaj ĝardenoj.
 Ĉi tie estas por tio nek la loko, nek la okazo.
@@ -19377,6 +19463,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉiuj plenumis la ordonon.
 Ĉiuj preterpasantoj ekhaltas por postrigardadi ilin kun miro kaj atento.
 Ĉiuj programeroj estis altkvalitaj.
+Ĉiuj radiostacioj estis elsendantaj muzikon.
 Ĉiuj respektis ilin.
 Ĉiuj ridis kaj sin amuzis.
 Ĉiuj rigardantoj ridegas.
@@ -19567,6 +19654,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu indas sisteme informi lingvistojn ankaŭ en aliaj landoj?
 Ĉu indas verki lingvistike bonajn artikolojn pri temo nula?
 Ĉu infano estas ĝi?
+Ĉu insula epoko finiĝos?
 Ĉu io surprizis vin en tio?
 Ĉu iu estrarano provizore transprenos la taskojn de ĝenerala sekretario?
 Ĉu iu forŝtelis min aŭ senkonsciigis min kaj lasis min en iu ĉambro?
@@ -19673,6 +19761,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu li ne estas tute sana?
 Ĉu li ne havas kunvojaĝanton?
 Ĉu li ne informiĝis pri vi?
+Ĉu li ne komprenis tion?
 Ĉu li ne postlasis sian novan adreson?
 Ĉu li ne venigis kuraciston?
 Ĉu li ne venos?
@@ -19898,6 +19987,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu tio estas sekvinda?
 Ĉu tio estas sufiĉe legebla?
 Ĉu tio estas tre multe?
+Ĉu tio estas vero, Vladimiro?
 Ĉu tio estas vero?
 Ĉu tio estas vi, Marta?
 Ĉu tio estas zorgiga malbonaĵo?
@@ -20262,6 +20352,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu vi volas ludi amuzan ludon en Esperanto?
 Ĉu vi volas pruvon?
 Ĉu vi volas resti ĉe mi hodiaŭ nokte?
+Ĉu vi volas trinki?
 Ĉu vi volas veni?
 Ĉu vi volas vidi homojn?
 Ĉu vi volas viziti lin?
@@ -20398,6 +20489,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĝi devas fariĝi flav-kolora.
 Ĝi devus baldaŭ aperi, ankoraŭ dum la kongreso.
 Ĝi devus esti sensencaĵo.
+Ĝi devus okazi regule.
 Ĝi disvolviĝis plue en la Okcidento.
 Ĝi doloris.
 Ĝi donas al la homo la eblon eviti ĉian malverecon kaj kontraŭparolojn.
@@ -20434,6 +20526,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĝi estas kiel pleto.
 Ĝi estas kimĉio.
 Ĝi estas la kvara titolo de la kolekto Nia Juvelaro.
+Ĝi estas la lingva problemo.
 Ĝi estas la plej granda vendejo de Esperanto-libroj en la mondo.
 Ĝi estas la plej granda.
 Ĝi estas la “gilotino”.
@@ -20583,6 +20676,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĝi ne estas entrepreno, kies valoro dependas de ĝia atendata sukceso aŭ malsukceso.
 Ĝi ne estas grava afero, ĝi estas nur plezuro.
 Ĝi ne estu ofenda.
+Ĝi ne estu tro detala.
 Ĝi ne foriros antaŭ kiam mi loĝos en Esperantujo.
 Ĝi ne havis.
 Ĝi ne riskas morti.
@@ -20640,6 +20734,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĝi volas iun trompi kaj rifuzis.
 Ĝi ŝajnas eble ekzista.
 Ĝi ŝajnis al Leonardo eterneco.
+Ĝi ŝanĝis homajn karakterojn.
 Ĝia aldona avantaĝo estas, ke oni povas rekomendi ĝin al neesperantistaj amikoj.
 Ĝia emblemo estas du interpremiĝantaj manoj sub la Esperanta stelo.
 Ĝia estonteco kuŝas nun en iliaj kvar manoj.
@@ -20823,6 +20918,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi aŭskultis lin atente kaj poste flustris kun kompato:
 Ŝi baldaŭ foriros.
 Ŝi baldaŭ frapas sur la pordo.
+Ŝi batis la muŝon senskrupule!
 Ŝi certe konsentus akcepti laborenspezon eĉ malgrandan, sed longe atendi ŝi ne povis.
 Ŝi certe parolus ankoraŭ pli longe, sed Mario interrompis ŝian parolon.
 Ŝi daŭrigis rigardi la viron kun la riĉa pelto.
@@ -21244,6 +21340,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝin portis efektive kaj preskaŭ levis super la teron doloro kaj timego.
 Ŝin ĉirkaŭis aro da sinjoroj, okupitaj kun ŝi per serioza interparolo.
 Ŝin, ĉar por li.
+Ŝirmado kaj plifortigado de fenestroj.
 Ŝlosi kaj malŝlosi paĝojn.
 Ŝoka afero.
 Ŝparu tempon!

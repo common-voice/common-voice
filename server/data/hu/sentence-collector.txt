@@ -27,6 +27,7 @@ A fenébe is, meggyőztél.
 A fizika részlegnek kéne egy új csellista.
 A fordulónál kétfelé ágazott a lépcső.
 A francba! Semmi gond, nyugi van!
+A francba, a szemüvegem.
 A francba, meghalunk!
 A francia idegenlégió büntetőszázadának egyetlen célja az elrettentés.
 A fényképész kigombolta a gallérját.
@@ -151,6 +152,7 @@ Akarsz egy idegcsípést?
 Aki cselekvőképes, maga köthet szerződést vagy tehet más jognyilatkozatot.
 Akkor az egész egy hőtartály lesz.
 Akkor azt is neked adom.
+Akkor azt mondd.
 Akkor egy idióta.
 Akkor hívd a saját anyád!
 Akkor ide hallgass.
@@ -159,6 +161,7 @@ Akkor intézzük el, mielőtt még ő intéz el minket.
 Akkor is igaza van.
 Akkor is, szeretném tudni a részleteket.
 Akkor később talizunk.
+Akkor legyen meglepetés.
 Akkor lehetnénk Bengáli Tigrisek is.
 Akkor majd mi felvisszük.
 Akkor mi megyünk is.
@@ -204,6 +207,7 @@ Anya épp összerakja a menekülési tervet, míg mi itt beszélgetünk.
 Anya, átjöhet pár barátom?
 Anyu?
 Anyukám le szokott fürdetni.
+Anyukám mindig félbevágott borsót csinált, kicsi virslidarabokkal, házi zsemlekockákkal.
 Anyám, de jó illata van.
 Aranyos pár lennétek.
 Aranyosak vagytok, de táncolni megyek a barátnőmmel!
@@ -440,10 +444,12 @@ Dehogy muszáj.
 Dehogy tanácskoztatok.
 Dehogy, alhatsz a kanapén, vagy az ágyamban, most vettem új párnát.
 Dehogy.
+Dehogyisnem, de nem egymagam.
 Diétás kólát.
 Délelőtt vagy délután?
 E törvény rendelkezéseit Magyarország alkotmányos rendjével összhangban kell értelmezni.
 Ebben látszik, hogy fizikus vagyok, de attól még jó fej.
+Ebben palacsintatésztát csináltam!
 Ebből a sértésből már csak az anyád hiányzott.
 Ebből az adathalmazból nem vonhatod le ezt a következtetést.
 Egy barát nem izzadja össze a macidat.
@@ -592,6 +598,7 @@ Ezt most hogy értette?
 Ezt nem beszélem meg veled.
 Ezt nem hiszitek el.
 Ezt randinak gondoltad?
+Ezt tedd be a fürdőszobába.
 Ezt én is tudtam.
 Ezzel kéne kezdened.
 Ezért hívják pánikrohamnak!
@@ -618,7 +625,9 @@ Folytasd csak.
 Folytassuk egy új kérdéssel.
 Folyton alábecsülsz engem, cimborám!
 Fontos, hogy kipihent legyek a gyújtogatás előtt.
+Fordulj jobbra.
 Fordítsd el a medencéd.
+Fordítsd vissza a fejed.
 Formális tiltakozás.
 Frissen gyalázva is lehetne akár kócos haja fantázianeve.
 Fura a hangod.
@@ -747,6 +756,7 @@ Hát mert lehet.
 Hát nem édes?!
 Hát, akkor jó.
 Hát, ez érdekes fordulat.
+Hát, jobbulást.
 Hát, megpróbáltuk.
 Hát, nem sok.
 Hát, nem.
@@ -794,6 +804,7 @@ Igen, tökre felszabadít a tudat.
 Igen, vagyis nem, te nem vagy normális!
 Igen, és a csomagolás, amiben jött.
 Igen, észrevettem, mikor kijöttem egy pohár vízért.
+Igyál, amit akarsz.
 Imádom Amerikát.
 Indiában gyerekek éheznek, és már itt is éhezik egy indiai!
 Indiában nincs svédasztal?
@@ -867,6 +878,7 @@ Jóságos ég!
 Jöjjön, már nincs hová rohannia.
 Jövök!
 Jövő szeptembertől a köznevelésben minden diák ingyen fogja kapni a tankönyveket-
+Kapcsold be.
 Kaptál valami jót?
 Karácsony másnapján az összes pince be volt zárva Villányban.
 Kedveljük egymást.
@@ -878,6 +890,7 @@ Kell egy menő csapatnév.
 Kellek neki!
 Kellesz nekünk.
 Kemény elveszteni a családot.
+Kend még.
 Keresem a helyes utat.
 Keskeny penge, kissé hajlott.
 Kettőnek számít.
@@ -936,6 +949,7 @@ Kösz, hogy bevettél.
 Köszi a leveleket.
 Köszi a remek éjszakát.
 Köszi az infót.
+Köszi szépen.
 Köszi, anyu.
 Köszi, hogy hazahoztál.
 Köszi, én is.
@@ -982,6 +996,7 @@ Látok egy problémát.
 Látom, nem vesztek tudomást rólam.
 Láttam, hogy kitágult a pupillád, mikor hozzá beszéltél.
 Látták, hogy megütött!
+Légy szíves, hozz levest, amíg még tudom, mire való a kanál.
 Lépek a gyalogsággal.
 Lézeres szemműtét?
 Lúdtalp miatt már első menetben kiszuperálták.
@@ -1003,6 +1018,8 @@ Majd meglátod, mi mit teszünk veled álmodban.
 Majd visszajövök.
 Majd én vigyázok rád.
 Majd én válaszolok a kérdésre.
+Maradj lent.
+Maradj vonalban.
 Maradjatok távol tőlem.
 Meg egy kis körömlakkot.
 Meg kell mentenem az idős hölgyet, de nincs önbizalmam.
@@ -1176,6 +1193,7 @@ Miért törsz szét egy fagyott banánt?
 Miért álcázza magát cserkésznek?
 Miért álltunk le?
 Miért?
+Mondd meg neki, hogy menjen haza.
 Mondj egy romantikusabb szót a csöcsökre!
 Mondja el a nevét a jegyzőkönyv kedvéért!
 Mondja, idegen, hogy történik ez a művelet?
@@ -1493,6 +1511,7 @@ Rendben!
 Rendben, ennyi volt!
 Rendben, mindenki asztalhoz!
 Rendben, nekem is.
+Rendben, pihenj le és igyál sok folyadékot.
 Rendben.
 Rendet teszek.
 Rengetegféle fegyver van, járművek és stratégiák
@@ -1502,6 +1521,7 @@ Régebben olyan voltam, mint te.
 Régen pálinkás kenyérrel is nyugtatták a síró csecsemőt.
 Részeg és betépett voltál. Úgy hagytad a hősugárzót, az meg túlmelegedett.
 Röhejes vagyok.
+Rövid ideig vártak csupán, mikor halk motorberregés hallatszott, és hosszú fütty.
 Sajnos a repülőgép legutolsó sorában maradt csak hely.
 Sajnálom, Péter nem játszhat többet. Ki kell mozdulnia.
 Sajnálom, de helytelen.
@@ -1542,6 +1562,7 @@ Szent ég!
 Szerelmétől kezdve, a jávai majomembertől a pofonig.
 Szerencséje volt.
 Szerepel benne egy olyan emberi tényező is, ami engem mindig elkerült.
+Szeretnék rámutatni, hogy én az orángutánra szavaztam, de te leoltottál.
 Szerette volna ezt közölni Johnnal.
 Szerinted az nem lépne át egy határt?
 Szerinted mi mást innék?
@@ -1743,6 +1764,7 @@ Várj, elfelejtettél valamit!
 Várj, hol is tartottam?
 Várj, hova mész?
 Várj, édes.
+Várj. Valaki hív.
 Várjatok, mi van a tetejükön?
 Vártam amíg kialszik a tűz, hogy megmutathassam.
 Végeztem a pecázással.
