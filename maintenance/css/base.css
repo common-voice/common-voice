@@ -1,0 +1,88 @@
+/* manually copied from ../web/src/components/index.css and vars.css */
+:root {
+    --white: white;
+    --black: black;
+    --red: #ff4f5e;
+    --light-red: #fdc6c8;
+    --green: #b7d43f;
+    --valid-green: #59cbb7;
+    --near-black: #4a4a4a;
+    --grey: #e7e5e2;
+    --darker-grey: #e6e5e3;
+    --light-grey: #f3f2f0;
+    --lighter-grey: #f9f9f9;
+    --desert-storm: #f3f2f1;
+    --warm-grey: #959595;
+    --blue: #629ff4;
+
+    --link-color: var(--blue);
+
+    --override-z-index: 3;
+    --top-z-index: 2;
+    --middle-z-index: 1;
+    --bottom-z-index: 0;
+
+    --base-font-family: 'Open Sans', sans-serif;
+    --strong-font-family: 'Zilla Slab', Georgia, Utopia, Charter, serif;
+    --font-size: 16px;
+    --font-size-xs: 12px;
+    --font-size-lg: 24px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 34px;
+
+    --standard-margin: 0.3rem;
+
+    --wide-desktop-width: 1400px;
+    --desktop-width: 76rem;
+    --old-desktop-width: 55rem;
+
+    --page-margin: 1rem;
+
+    --input-height: 2.5rem;
+
+    --spinner-height: 10rem;
+
+    --card-shadow: rgba(0, 0, 0, 0.09) 0px 1px 6px,
+        rgba(0, 0, 0, 0.09) 0px 1px 4px;
+
+    --transition-duration: 0.2s;
+    --transition-duration-slow: 0.5s;
+    --easing: cubic-bezier(0.4, 0, 0.2, 1);
+
+    --header-height: 4rem;
+    --nav-shadow-overhang: 0px 2px 4px rgba(0, 0, 0, 0.03);
+
+    --dataset-item-margin: 0.7rem;
+
+    --profile-column-margin: 30px;
+}
+
+html {
+    font-family: var(--base-font-family);
+    font-size: var(--font-size);
+    color: var(--black);
+    background-color: var(--white);
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+@media (--md-down) {
+    html {
+        overflow: hidden;
+    }
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--strong-font-family);
+}
