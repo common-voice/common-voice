@@ -167,19 +167,20 @@ class AvatarSetup extends React.Component<Props, State> {
     const reader = new FileReader();
     reader.readAsDataURL(image);
 
-    reader.onloadend = async () => {
+    reader.onload = async () => {
       const base64 = reader.result as string;
-      if (base64.length > 8000) {
-        const alteredQuality = (8000 / base64.length) * quality;
+      const bufferLength = 8000;
+
+      if (base64.length > bufferLength && quality > 0.1) {
+        const alteredQuality = (bufferLength / base64.length) * quality;
         this.saveFileAvatar(files, alteredQuality);
         return;
       }
       try {
         await api.saveAvatar('file', image);
-      } catch ({ message }) {
-        if (message === 'too_large') {
-          this.saveFileAvatar(files, quality / 2);
-          return;
+      } catch (error) {
+        if (error.message === 'too_large') {
+          addNotification(getString(`file_${error.message}`));
         }
       }
       refreshUser();
