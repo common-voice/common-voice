@@ -1,4 +1,3 @@
-/* manually copied from ../web/src/components/index.css and vars.css */
 :root {
     --white: white;
     --black: black;
@@ -57,32 +56,64 @@
     --profile-column-margin: 30px;
 }
 
-html {
-    font-family: var(--base-font-family);
-    font-size: var(--font-size);
-    color: var(--black);
-    background-color: var(--white);
-    overflow: auto;
-    scroll-behavior: smooth;
-}
+@custom-media --xs-up (width >= 350px);
+@custom-media --sm-up (width >= 576px);
+@custom-media --md-up (width >= 768px);
+@custom-media --lg-up (width >= 992px);
+@custom-media --xl-up (width >= 1200px);
 
-@media (--md-down) {
-    html {
-        overflow: hidden;
+@custom-media --xs-down (width < 576px);
+@custom-media --sm-down (width < 768px);
+@custom-media --md-down (width < 992px);
+@custom-media --lg-down (width < 1200px);
+
+@custom-media --xs-only (width < 576px);
+@custom-media --sm-only (width >= 576px) and (width < 768px);
+@custom-media --md-only (width >= 768px) and (width < 992px);
+@custom-media --lg-only (width >= 992px) and (width < 1200px);
+@custom-media --xl-only (width >= 1200px);
+
+@custom-media --tall (height > 800px);
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        pointer-events: none;
+    }
+    to {
+        opacity: 1;
+        pointer-events: all;
     }
 }
 
-html,
-body {
-    padding: 0;
-    margin: 0;
-    min-height: 100vh;
-    width: 100%;
+.md-block {
+    display: none;
+
+    @media (--md-up) {
+        display: block;
+    }
 }
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: var(--strong-font-family);
+.hidden-sm-down {
+    @media (--sm-down) {
+        display: none !important;
+    }
+}
+
+.hidden-md-down {
+    @media (--md-down) {
+        display: none !important;
+    }
+}
+
+.hidden-md-up {
+    @media (--md-up) {
+        display: none !important;
+    }
+}
+
+.hidden-lg-up {
+    @media (--lg-up) {
+        display: none !important;
+    }
 }
