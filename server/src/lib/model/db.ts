@@ -6,6 +6,8 @@ import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 import { ChallengeToken } from 'common';
 
+const minorityLocales = require('locales/minority.json') as string[];
+
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 500;
@@ -159,13 +161,33 @@ export default class DB {
     this.mysql.endConnection();
   }
 
-  async findSentencesWithFewClips(
+  async findUnvalidatedSentences(
     client_id: string,
     locale: string,
     count: number
   ): Promise<Sentence[]> {
-    const [rows] = await this.mysql.query(
-      `
+
+    let query = `
+        SELECT *
+        FROM (
+          SELECT sentences.id, text
+          FROM sentences
+          LEFT JOIN clips ON sentences.id = clips.original_sentence_id
+          WHERE is_used AND sentences.locale_id = ? AND clips.is_valid != TRUE
+          AND NOT EXISTS (
+            SELECT *
+            FROM clips
+            WHERE clips.original_sentence_id = sentences.id AND
+                  clips.client_id = ?
+          )
+          LIMIT ?
+        ) t
+        ORDER BY RAND()
+        LIMIT ?
+      `;
+
+    if (minorityLocales.includes(locale)) {
+      query = `
         SELECT *
         FROM (
           SELECT id, text
@@ -181,7 +203,11 @@ export default class DB {
         ) t
         ORDER BY RAND()
         LIMIT ?
-      `,
+      `
+    }
+
+    const [rows] = await this.mysql.query(
+      query,
       [await getLocaleId(locale), client_id, SHUFFLE_SIZE, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));

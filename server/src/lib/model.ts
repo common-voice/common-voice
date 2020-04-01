@@ -114,7 +114,7 @@ export default class Model {
     locale: string,
     count: number
   ): Promise<Sentence[]> {
-    return this.db.findSentencesWithFewClips(
+    return this.db.findUnvalidatedSentences(
       client_id,
       locale,
       Math.min(count, 50)
