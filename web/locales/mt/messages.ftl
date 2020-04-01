@@ -390,7 +390,7 @@ faq-do-want-native-a = Iva, irridu l-vuċi tiegħek b'mod speċjali! Parti mill-
 faq-why-different-speakers-q = Għaliex hemm bżonn daqstant kelliema differenti għal kull lingwa?
 faq-why-different-speakers-a = Il-biċċa l-kbira tal-ġabriet tad-data tat-taħdit huma mibnija bi żbilanċ favur ċerti demografiji. Dan jirriżulta fi żbilanċ b'risq <articleLink> l-irġiel u l-membri tal-klassi medja </articleLink>. Ċerti aċċenti u djaletti li ġeneralment ma jkunux rappreżentati sew fl-iskemi tad-data għall-izvilupp ta' sistemi tat-taħdit huma tipikament assoċjati ma’ gruppi ta’ nies li huma emarġinati. Ħafna sistemi jbatu wkoll biex jifhmu l-vuċijiet femminili. Dan hija r-raġuni għalfejn irridu varjetà fil-ġabriet tagħna tad-data tal-vuċi!
 faq-why-my-lang-q = Għalfejn il-lingwa tiegħi għadha mhix inkluża?
-faq-why-my-lang-new-a = Mozilla ma tiffavorixxi ebda lingwa iktar minn oħra. Filwaqt li l-inizzjattiva Common Voice hija mmexxija mill-komunità, hemm bżonn jittieħdu <multilangLink>diversi passi sakemm tiġi miżjuda lingwa ġdida</multilangLink> u jibdew jinġabru d-donazzjonijiet tal-vuċi. L-ewwelnett, is-sit ta' Common Voice irid jiġi tradott sabiex il-membri tal-komunità jkunu jistgħu jgħaddu mill-esperjenza ta' kontributuri fil-lingwa tagħhom. Imbagżad, ikollna bżonn kollezzjoni mdaqqsa ta' sentenzi li mhemmx copyright fuqhom biex in-nies ikunu jistgħu jaqrawhom b'vuċi għolja. Ladarba dawn iż-żewġ affarijiet ikunu saru, il-lingwa tista' tiġi "mnedija"  fuq  Common Voice biex in-nies jibdew jirrekordjaw il-vuċi tagħhom jew jiċċekkjaw rekordings li saru minn ħaddieħor. Jekk tixtieq tgħinna nniedu lingwa ġdida, żur l-<sentenceCollectorLink>għodda għall-ġbir tas-sentenzi</sentenceCollectorLink> biex tibda.
+faq-why-my-lang-new-a = Mozilla ma tiffavorixxi ebda lingwa iktar minn oħra. Filwaqt li l-inizzjattiva Common Voice hija mmexxija mill-komunità, hemm bżonn jittieħdu <multilangLink>diversi passi sakemm tiġi miżjuda lingwa ġdida</multilangLink> u jibdew jinġabru d-donazzjonijiet tal-vuċi. L-ewwelnett, is-sit ta' Common Voice irid jiġi tradott sabiex il-membri tal-komunità jkunu jistgħu jgħaddu mill-esperjenza ta' kontributuri fil-lingwa tagħhom. Imbagżad, ikollna bżonn kollezzjoni mdaqqsa ta' sentenzi li mhemmx copyright fuqhom biex in-nies ikunu jistgħu jaqrawhom b'vuċi għolja. Ladarba dawn iż-żewġ affarijiet ikunu saru, il-lingwa tista' tiġi "mnedija"  fuq  Common Voice biex in-nies jibdew jirrekordjaw il-vuċi tagħhom jew jiċċekkjaw recordings li saru minn ħaddieħor. Jekk tixtieq tgħinna nniedu lingwa ġdida, żur l-<sentenceCollectorLink>għodda għall-ġbir tas-sentenzi</sentenceCollectorLink> biex tibda.
 faq-what-quality-q = Xi kwalità ta' awdjo tinħtieġ biex tintuża klip fil-ġabra ta' data?
 faq-what-quality-a = Aħna nixtiequ li l-ġabra ta' dati Common Voice tirrifletti b'mod realistiku l-kwalità ta' awdjo li magna li titraduċi mit-taħdit għall-kitba hija mistennija tisma' fil-ħajja ta' kuljum, allura rridu li jkollna varjetà. Apparti komunità ta' diversi kelliema, ġabra ta' data b'varjetà ta' livelli ta' kwalità awdjo sservi biex tħarreġ magna sabiex tkun tista' tipproċessa l-vuċi f'ħafna sitwazzjonijiet reali, mit-taħdit li jseħħ fl-isfond sal-istorbju tal-karozzi. Sakemm il-klip tiegħek tinftiehem, għandha tkun tajba biex tiżdied mad-data.
 faq-why-10k-hours-q = Għalfejn l-għan huwa li jkun hemm 10000 siegħa awdjo vvalidati għal kull lingwa?
@@ -628,7 +628,7 @@ record-must-allow-microphone = Trid tippermetti aċċess għall-mikrofonu.
 record-no-mic-found = Ma nstab ebda mikrofonu.
 record-error-too-short = Ir-recording kien qasir wisq.
 record-error-too-long = Ir-recording kien twil wisq.
-record-error-too-quiet = Ir-rekording kien silenzjuz wisq.
+record-error-too-quiet = Ir-recording kien silenzjuz wisq.
 record-cancel = Ikkanċella l-irrekordjar mill-ġdid
 record-instruction = { $actionType }<recordIcon></recordIcon> Imbagħad aqra s-sentenza
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> meta tkun lest
@@ -651,7 +651,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> Is-sentenza nqrat sew?
 listen-again-instruction = Prosit!<playIcon></playIcon> Meta trid tista' terġa' tisma' r-recording
 listen-3rd-time-instruction = 2 lesti, ibqa' sejjer!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> L-aħħar waħda!
-nothing-to-validate = M'hemm xejn li għandu bżonn jiġi ċċekkjat f'din il-lingwa, għinna biex inqiegħdu xi ħaġa fil-kju.
 record-button-label = Irrekordja l-vuċi tiegħek
 share-title-new = <bold>Għinna</bold> nsibu aktar vuċijiet
 keep-track-profile = Żomm kont tal-progress tiegħek billi toħloq profil
@@ -773,7 +772,7 @@ share-goal = Aqsam l-għanijiet tiegħi ma' ħaddieħor
 
 ## Profile Delete
 
-delete-q = Tixtieq tagħmel talba biex jitħassru wkoll ir-rekordings tal-vuċi tiegħek, jew tippreferi li jinżammu fil-ġabra tad-data ta' Common Voice?
+delete-q = Tixtieq tagħmel talba biex jitħassru wkoll ir-recordings tal-vuċi tiegħek, jew tippreferi li jinżammu fil-ġabra tad-data ta' Common Voice?
 keep = Żomm
 remove = Ħassar
 keep-info = Ir-recordings anonimi tiegħek jinżammu fil-ġabra Common Voice. Ladarba tħassar il-profil ma tkunx tista' titlob li jitneħħew ir-recordings mill-ġabra.
