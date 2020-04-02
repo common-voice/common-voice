@@ -258,7 +258,7 @@ shortcut-skip = п
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = с
+shortcut-play-toggle = в
 shortcut-play-toggle-label = Відтворити/Зупинити
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -271,7 +271,7 @@ shortcut-vote-no = н
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = в
+shortcut-record-toggle = з
 shortcut-record-toggle-label = Записати/Зупинити
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перезаписати
