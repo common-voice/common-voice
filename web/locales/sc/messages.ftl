@@ -102,6 +102,7 @@ ro = Rumenu
 ru = Russu
 rw = Kinyarwanda
 sc = Sardu
+scn = Sitzilianu
 si = Sinhala
 sk = Islovacu
 sl = Islovenu
@@ -571,7 +572,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> ant lèghidu in manera
 listen-again-instruction = Bonu traballu!<playIcon></playIcon> Torra a ascurtare cando ses prontu
 listen-3rd-time-instruction = 2 giai fatas, sighi aici!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ùrtima!
-nothing-to-validate = No tenimus nudda pro validare in custa limba, agiuda·si a prenare sa lista de registratziones.
 record-button-label = Registra sa boghe tua
 share-title-new = <bold>Agiuda·si</bold> a agatare prus boghes
 
