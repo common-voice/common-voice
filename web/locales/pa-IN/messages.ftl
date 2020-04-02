@@ -454,6 +454,7 @@ record-cancel = ਮੁੜ-ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕਰੋ
 record-instruction = { $actionType }<recordIcon></recordIcon> ਤਦ ਵਾਕ ਨੂੰ ਉੱੱਚੀ ਪੜ੍ਹੋ
 record-stop-instruction = ਜਦੋਂ ਮੁਕੰਮਲ ਹੋ ਜਾਵੇ ਤਾਂ { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = ਤਿੰਨ ‘ਤੇ ਸ਼ੁਰੂ ਕਰੋ!
+record-again-instruction = ਸ਼ਾਨਦਾਰ!<recordIcon></recordIcon> ਆਪਣੀ ਅਗਲੀ ਕਲਿੱਪ ਨੂੰ ਰਿਕਾਰਡ ਕਰੋ
 record-last-instruction = <recordIcon> </recordIcon> ਆਖਰੀ!
 share-common-voice = ਆਮ ਆਵਾਜ਼ ਸਾਂਝਾ ਕਰੋ
 record-submit-tooltip = { $actionType } ਤਿਆਰ ਹੋਣ ਤੇ ਸਬਮਿਟ ਕਰੋ
@@ -525,6 +526,7 @@ n-clips = { NUMBER($count) } ਕਲਿੱਪ
 share-goal-type-speak = ਬੋਲਣਾ
 share-goal-type-listen = ਸੁਣਨਾ
 share-goal-type-both = ਬੋਲਣਾ ਅਤੇ ਸੁਣਨਾ
+share-goal = ਮੇਰਾ ਟੀਚਾ ਸਾਂਝਾ ਕਰੋ
 
 ## Profile Delete
 
