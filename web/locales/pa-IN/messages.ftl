@@ -505,6 +505,7 @@ awards = ਇਨਾਮ
 you = ਤੁਸੀਂ
 everyone = ਹਰੇਕ
 top-contributors = ਉੱਚ ਯੋਗਦਾਨੀਆਂ
+recorded-clips = ਰਿਕਾਰਡ ਕੀਤੇ ਕਲਿੱਪ
 validated-clips = ਪ੍ਰਮਾਣਿਤ ਕਲਿੱਪ
 overall-accuracy = ਸਮੁੱਚੀ ਸ਼ੁੱਧਤਾ
 set-visibility = ਮੇਰੀ ਦਿੱਖ ਨਿਰਧਾਰਤ ਕਰੋ
