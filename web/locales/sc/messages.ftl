@@ -120,6 +120,7 @@ tt = Tàtaru
 uk = Ucràinu
 ur = Urdu
 uz = Uzbecu
+vec = Vènetu
 vi = Vietnamita
 vot = Vòticu
 zh-CN = Tzinesu (Tzina)
