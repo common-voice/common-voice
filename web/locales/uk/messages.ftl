@@ -252,7 +252,7 @@ username-email-not-demographic = Ваше ім'я користувача та е
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = с
+shortcut-skip = п
 
 ## Listen Shortcuts
 
@@ -629,12 +629,12 @@ total-hours = Всього годин
 
 ## Contribution
 
-action-click = Клацнути
+action-click = Клацніть
 action-tap = Торкнутися
 contribute = Долучитися
 listen = Слухати
 skip = Пропустити
-shortcuts = Ярлики
+shortcuts = Швидкі клавіші
 clips-with-count = <bold>{ $count }</bold> Записів
 goal-help-recording = Ви допомогли Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної цілі запису { $goalValue }!
 goal-help-validation = Ви допомогли Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної цілі перевірки { $goalValue }!
@@ -666,7 +666,7 @@ record-abort-text = Якщо ви підете зараз, ваш прогрес
 record-abort-submit = Відправити кліпи
 record-abort-continue = Завершити запис
 record-abort-delete = Вийти і видалити кліпи
-listen-instruction = { $actionType }<playIcon></playIcon> вони правильно вимовили речення?
+listen-instruction = { $actionType }<playIcon></playIcon> для перевірки правильності озвученого речення?
 listen-again-instruction = Чудова робота! <playIcon></playIcon> Прослухайте знову коли будете готові
 listen-3rd-time-instruction = Залишилось 2 <playIcon></playIcon>, продовжуйте!
 listen-last-time-instruction = <playIcon></playIcon> Останній!
