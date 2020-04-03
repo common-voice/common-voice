@@ -94,6 +94,7 @@ footer {
             flex-direction: column;
             min-width: 9rem;
             margin-right: 8rem;
+            margin-left: 2rem;
             margin-top: 0;
         }
 
