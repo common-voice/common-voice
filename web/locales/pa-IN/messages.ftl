@@ -37,6 +37,8 @@ be = ਬੇਲਾਰੂਸੀ
 bn = ਬੰਗਾਲੀ
 br = ਬਰੀਟੋਨ
 bxr = ਬੁਰੀਅਤ
+ca = ਕੈਟਲਨ
+cak = ਕਾਇਚਾਕੇਲ
 cs = ਚੈੱਕ
 cy = ਵੈਲਸ਼
 da = ਡੈਨਿਸ਼
@@ -215,6 +217,11 @@ request-language-button = ਭਾਸ਼ਾ ਲਈ ਬੇਨਤੀ ਕਰੋ
 
 status-title = ਪੂਰੇ ਪਰੋਜੈਕਟ ਦੀ ਹਾਲਤ: ਵੇਖੋ ਕਿ ਅਸੀਂ ਕਿੱਥੇ ਤੱਕ ਅੱਪੜੇ ਹਾਂ?
 status-contribute = ਆਪਣੀ ਆਵਾਜ਼ ਦਾ ਯੋਗਦਾਨ ਦਿਓ
+status-hours =
+    { $hours ->
+        [one] ਹੁਣ ਤਕ ਇੱਕ ਪ੍ਰਮਾਣਿਤ ਘੰਟਾ!
+       *[other] ਹੁਣ ਤੱਕ { $hours } ਪ੍ਰਮਾਣਿਤ ਘੰਟੇ!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ਅਗਲੇ ਟੀਚੇ: { $goal }
@@ -325,6 +332,7 @@ about-nav-why-common-voice = ਕਿਉਂ?
 about-nav-how-it-works = ਕਿਵੇਂ ?
 about-nav-partners = ਹਿੱਸੇਦਾਰ
 about-nav-get-involved = ਹਿੱਸਾ ਬਣੋ
+mycroft-title = ਮਾਈਕਰੋਫਟ ਏਆਈ
 mycroft-subtitle = ਮਸ਼ੀਨੀ ਅਕਲ
 
 ## Glossary
@@ -332,6 +340,7 @@ mycroft-subtitle = ਮਸ਼ੀਨੀ ਅਕਲ
 glossary = ਸ਼ਬਦਾਵਲੀ
 localization = ਇਲਾਕਾਈਕਰਨ
 sentence-collection = ਵਾਕ ਸੰਗ੍ਰਹਿ
+sst = ਬੋਲ-ਤੋਂ-ਲਿਖਤ (ਐਸਟੀਟੀ)
 
 ## NotFound
 
@@ -541,3 +550,4 @@ profile-form-delete = ਪਰੋਫਾਈਲ ਹਟਾਓ
 
 ## Landing
 
+read-more-about = ਸਾਡੇ ਇਸ ਬਾਰੇ ਸਫ਼ੇ ਉੱਤੇ ਹੋਰ ਪੜ੍ਹੋ
