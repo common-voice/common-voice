@@ -70,7 +70,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MYSQLREPLICAPORT: configEntry('CV_MYSQLREPLICAPORT', 3306, castInt),
   BUCKET_NAME: configEntry('CV_BUCKET_NAME', 'common-voice-corpus'),
   BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', ''),
-  ENVIRONMENT: configEntry('ENVIRONMENT', 'default'),
+  ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
   S3_CONFIG: configEntry(
