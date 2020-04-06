@@ -3,6 +3,7 @@ const { src, dest, watch, series } = require('gulp');
 const inject = require('gulp-inject')
 const fs = require('fs');
 
+// @TODO: replace with Webpack
 function setup(cb) {
   try {
     fs.copyFileSync("../web/src/components/vars.css", "css/vars.css", (err) => {
@@ -13,16 +14,22 @@ function setup(cb) {
       if (err) throw err;
     });
 
-    replace({
+    // Insert injection code for gulp-inject
+    replace.sync({
       files: 'index.html',
       from: '<div id="root"></div>',
       to: '<!-- inject:html --><!-- endinject -->'
-    }).then(res => {
-      console.log("index_template.html and vars.css copied to maintenance folder");
-      cb();
-    }).catch(err => {
-      throw err;
     });
+
+    // Change title of maintenance page
+    replace.sync({
+      files: 'index.html',
+      from: '<title>Common Voice</title>',
+      to: '<title>Common Voice is undergoing maintenance</title>'
+    });
+
+    console.log("index_template.html and vars.css copied to maintenance folder");
+    cb();
   } catch(e) {
     console.log("Error encountered when attempting to copy templates from /web: ", e.message);
     cb();
