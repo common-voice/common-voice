@@ -21,7 +21,7 @@ not-available-abbreviation = عدم دستیاب
 ## Languages
 
 ab = ابخاز
-ace = Acehnese
+ace = اچنیز
 ady = Adyghe
 af = افریقانی
 am = امہارى
@@ -150,7 +150,7 @@ speak = بولیں
 speak-now = ابھی بولیں
 datasets = ڈیٹا سیٹس
 languages = زبانیں
-about = متعلق
+about = کے بارے میں
 profile = پروفائل
 help = مدد
 contact = رابطہ
@@ -394,7 +394,7 @@ faq-how-privacy-q = آپ ان لوگوں کی گمنامی اور رازداری
 faq-what-determine-identity-q = اس کا کیا مطلب ہے کہ میں کامن وائس ڈیٹاسیٹ میں بولنے والوں کی "شناخت کا تعین" نہیں کرسکتا؟
 faq-what-is-cv = Common Voice کیا ہے؟
 faq-using-cv = Common Voice کا استعمال کرنا
-faq-description = کامن وائس موزیلا کے اس اقدام کا حصہ ہے جو مشینوں کو یہ سکھانے میں مدد فراہم کرتی ہے کہ حقیقی لوگ کس طرح بولتے ہیں۔
+faq-description = mmon Voice Mozilla کے اس اقدام کا حصہ ہے جو مشینوں کو یہ سکھانے میں مدد فراہم کرتی ہے کہ حقیقی لوگ کس طرح بولتے ہیں۔
 faq-search-for-answers =
     .label = جوابات تلاش کریں
 
