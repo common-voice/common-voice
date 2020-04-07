@@ -12,7 +12,7 @@ email-opt-in-info = მსურს, მივიღო ელფოსტაზ
 email-opt-in-info-title = შემოუერთდით Common Voice-ის ელფოსტის ჯგუფს
 email-opt-in-info-sub-with-challenge = მიიღეთ ელფოსტაზე ცნობები გამოწვევების, შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და Common Voice-სთან დაკავშირებული სიახლეები.
 email-opt-in-privacy = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არაფერი გაქვთ საწინააღმდეგო, Mozilla-მ ეს მონაცემები გამოიყენოს, <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად
-indicates-required = * მიუთითებს აუცილებელ ველს
+indicates-required = * აღნიშნავს აუცილებელ ველს
 not-available-abbreviation = მიუწვდომელია
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -350,7 +350,7 @@ recreate-voice = ხელახლა შექმენით Voicewave
 cancel-avatar-clip-recording = გაუქმება
 about-avatar-clip-recording = შექმენით ხმოვანი ჩანაწერი პროფილის გამოსახულებისთვის. სხვები მის მოსმენას შეძლებენ მაჩვენებლის გადატარებისას.
 browse-file-title = ატვირთეთ სურათის ფაილი
-browse-file = გადმოიტანეთ და მოათავსეთ ან <browseWrap>მოიძიეთ</browseWrap>
+browse-file = გადმოიტანეთ და მოათავსეთ ან <browseWrap>ამოარჩიეთ</browseWrap>
 connect-gravatar = Gravatar-თან დაკავშირება
 gravatar_not_found = თქვენი ელფოსტისთვის არ არის ნაპოვნი gravatar
 file_too_large = შერჩეული ფაილი ზედმეტად დიდია
