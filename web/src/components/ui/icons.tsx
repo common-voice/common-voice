@@ -590,7 +590,7 @@ export const PenIcon = () => (
       <mask id="pen-b" fill="#fff">
         <use xlinkHref="#pen-a" />
       </mask>
-      <use fill="#000" fill-rule="nonzero" xlinkHref="#pen-a" />
+      <use fill="#000" fillRule="nonzero" xlinkHref="#pen-a" />
       <g fill="#4A4A4A" mask="url(#pen-b)">
         <path d="M-2-2h24v24H-2z" />
       </g>
