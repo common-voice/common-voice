@@ -15,6 +15,7 @@ export const up = async function(db: any): Promise<any> {
 
       taxonomy_id INT UNSIGNED NOT NULL,
       term_name VARCHAR(255) NOT NULL,
+      user_selectable BOOLEAN DEFAULT FALSE,
 
       UNIQUE (taxonomy_id, term_name),
       FOREIGN KEY (taxonomy_id) REFERENCES taxonomies(id)
