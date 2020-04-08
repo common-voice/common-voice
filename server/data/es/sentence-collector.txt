@@ -240,6 +240,7 @@ Algunos consejos prácticos
 Algunos de los padres de estos forajidos bajitos
 Algunos lo verán como algo radical
 Algunos montan a caballo para que no los muerdan los perros.
+Algunos proyectos no solo se despliegan
 Algunos pueden creer que tales estructuras pertenecen a épocas pretéritas
 Allá donde fueres, haz lo que vieres.
 Allá va el niño, donde le tratan con cariño.
@@ -2215,6 +2216,7 @@ La primavera la sangre altera.
 La primera etapa fue entre Nantes y Toulouse.
 La primera impresión es la que cuenta
 La primera impresión es la que cuenta.
+La primera motivación ha sido
 La primera noche dormirán en un refugio y el resto en tienda de campaña.
 La prioridad es garantizar la seguridad de los ciudadanos.
 La prisión del castillo era insalubre.
@@ -3342,6 +3344,7 @@ Para combatir el frío, hay que abrigarse.
 Para crear carpetas se debe utilizar el carácter antibarra
 Para el demiurgo, el universo sensible tiene la textura de una oblea muelle.
 Para eso nos han hecho.
+Para establecer sistemas confiables
 Para frenar esa situación las leyes fingen sólido lo que es gaseoso
 Para ganar el partido tuvieron que sudar la camiseta
 Para ganar, forzoso es trabajar.
@@ -5365,6 +5368,7 @@ debe saber que denunciar a sus clientes
 debe usarse de acuerdo con el resto de la frase
 deberás pagarle a la sociedad de autores
 debes conocer algunos trucos
+debido a las licencias de software restrictivas
 debía ser cerca del amanecer, y me dormí.
 decidido a correr tierras, al principio dudé sin saber a dónde dirigir mis pasos:
 decidieron aprovechar el poco tiempo que les quedaba
@@ -6259,6 +6263,7 @@ garantiza que la comunicación con muchos sitios web esté encriptada
 garantizarnos de una vez por todas, la ansiada privacidad
 garantía de una vez por todas, de la ansiada privacidad
 gasolina o papel para el culete.
+gastar los fondos de la manera más eficiente
 generando estas rachas de vientos. ah, claro.
 gime la brisa, riela la luna, el cielo azul turquí se torna negro
 giramos a la izquierda.
@@ -6272,6 +6277,7 @@ gracias de todos modos. chao.
 gracias por haber salvado a Ainhoa.
 gracias por salvarme la vida, gracias.
 gran parte del país sigue sacudida por una oleada de protestas
+gran parte son de los visitantes que quieren acceder a los barrios históricos.
 grandes y extrañas flores temblaban sobre el terso cristal entre verdosas y repugnantes algas.
 gritéle, y mandó virar para recogerme.
 grupos educativos o de crianza que atienden las necesidades de las más pequeñas
@@ -6375,6 +6381,7 @@ hay pocas cosas apropiadas en este barco.
 hay que aprovechar este racheado de popa.
 hay que arriar el trapo antes de que el vendaval rompa
 hay que asegurar estas hembrillas.
+hay que atajar el problema de raíz:
 hay que atar el saco a la red.
 hay que atraerlos con buenos y coordinados servicios de cercanías
 hay que bombear el barco y esperar.
@@ -6996,6 +7003,7 @@ mandándolo a su dirección postal
 manifestó los enormes riesgos que supone la construcción masiva en las costas
 manos cubiertas de anillos, enanas y morenas, que yo hice prisioneras.
 manos del mar que se agarraban a la barca
+mantenerse independientes de un puñado de empresas
 mantengan la mente fuera del miedo.
 mantiene la integridad y el secreto de la información que viaja por ella
 marchando la aceitunita.
@@ -8556,6 +8564,7 @@ sobre mi cabeza sonaban voces confusas y blando pataleo de pies descalzos
 sofocada entre mis brazos, murmuró con desmayo:
 software que almacena en una base de datos cifrada
 software que almacena las contraseñas en una base de datos
+software que fomente el intercambio de buenas ideas
 sol abrasador, horizontes blanquecinos y calcinados, mar en calma sin brisas ni murmullos
 solamente me quedaban algunas horas para recorrer aquel villaje indio.
 solamente por eso merecía ser Arzobispo de México.
@@ -8909,6 +8918,7 @@ un rayo de sol más juguetón, más vivo, más alegre, ilumina la cámara
 un ritmo que se ha acelerado en los últimos años
 un rudo temblor que no podía dominar agitaba su barba berberisca.
 un río silencioso y dormido, de aguas blanquecinas como la leche
+un software que ayude a las administraciones a recuperar el control
 un tiempo fuí amado de las mujeres, sus voces me eran familiares:
 un tramo de los cuales estará formado por dos líneas de alta tensión
 un tropel de jinetes estaba delante de la puerta.
