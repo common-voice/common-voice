@@ -95,7 +95,10 @@ export default class AudioWeb {
 
   // Check if audio recording is supported
   isAudioRecordingSupported() {
-    return typeof MediaRecorder !== 'undefined' && !MediaRecorder.notSupported;
+    return (
+      typeof window.MediaRecorder !== 'undefined' &&
+      !window.MediaRecorder.notSupported
+    );
   }
 
   private visualize() {
@@ -162,7 +165,7 @@ export default class AudioWeb {
     analyzerNode.connect(outputNode);
 
     // and set up the recorder.
-    this.recorder = new MediaRecorder(outputNode.stream);
+    this.recorder = new window.MediaRecorder(outputNode.stream);
 
     // Set up the analyzer node, and allocate an array for its data
     // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
