@@ -17,16 +17,11 @@ import { User } from '../../../../stores/user';
 import API from '../../../../services/api';
 import { trackRecording, getTrackClass } from '../../../../services/tracker';
 import URLS from '../../../../urls';
-import {
-  localeConnector,
-  LocaleLink,
-  LocalePropsFromState,
-} from '../../../locale-helpers';
+import { localeConnector, LocalePropsFromState } from '../../../locale-helpers';
 import Modal, { ModalButtons } from '../../../modal/modal';
 import TermsModal from '../../../terms-modal';
 import {
   CheckIcon,
-  FontIcon,
   MicIcon,
   StopIcon,
   ArrowRight,
@@ -358,7 +353,6 @@ class SpeakPage extends React.Component<Props, State> {
       this.recordingStartTime = Date.now();
       this.recordingStopTime = 0;
       this.setState({
-        // showSubmitSuccess: false,
         recordingStatus: 'recording',
         error: null,
       });
@@ -393,7 +387,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private handleSkip = async () => {
-    const { api, removeSentences, sentences } = this.props;
+    const { api, removeSentences } = this.props;
     const { clips } = this.state;
     await this.discardRecording();
     const current = this.getRecordingIndex();
