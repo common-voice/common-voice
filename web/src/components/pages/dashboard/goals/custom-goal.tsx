@@ -1,13 +1,8 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
-import { CustomGoalParams, Subscriptions } from 'common';
-import {
-  useAccount,
-  useAction,
-  useAPI,
-  useSubscriptions,
-} from '../../../../hooks/store-hooks';
+import { CustomGoalParams } from 'common';
+import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
 import { User } from '../../../../stores/user';
 import Modal from '../../../modal/modal';
 import { PenIcon } from '../../../ui/icons';
@@ -224,17 +219,7 @@ export default function CustomGoal({
   }
 
   const [touchedStepIndex, setTouchedStepIndex] = useState(STEPS.INTRO);
-  const [
-    isLoadingSubscriptions,
-    subscriptions,
-    setSubscriptions,
-  ] = useSubscriptions();
-  const isSubscribed = subscriptions['common-voice'];
-  const setIsSubscribed = (subscribed: boolean) =>
-    setSubscriptions((oldSubscriptions: Subscriptions) => ({
-      ...oldSubscriptions,
-      'common-voice': subscribed,
-    }));
+  const [shouldSubscribe, setShouldSubscribe] = useState(false);
 
   const initialState = customGoal
     ? {
@@ -297,7 +282,7 @@ export default function CustomGoal({
           }),
         });
       }
-      if (isSubscribed) {
+      if (shouldSubscribe) {
         await api.subscribeToNewsletter(email);
       }
       refreshUser();
@@ -384,9 +369,8 @@ export default function CustomGoal({
           state={state}
           {...{
             dashboardLocale,
-            isLoadingSubscriptions,
-            isSubscribed,
-            setIsSubscribed,
+            shouldSubscribe,
+            setShouldSubscribe,
           }}
         />
       )}

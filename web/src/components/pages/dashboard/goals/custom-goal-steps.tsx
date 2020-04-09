@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { CustomGoal, CustomGoalParams } from 'common';
 import { UserClient } from 'common';
 import URLS from '../../../../urls';
-import { useAccount } from '../../../../hooks/store-hooks';
+import { useAccount, useSubscriptions } from '../../../../hooks/store-hooks';
 import { useRouter } from '../../../../hooks/use-router';
 import { getManageSubscriptionURL } from '../../../../utility';
 import {
@@ -96,9 +96,8 @@ interface CustomGoalStepProps {
 
   state: CustomGoalParams;
 
-  isLoadingSubscriptions: boolean;
-  isSubscribed: boolean;
-  setIsSubscribed: (subscribed: boolean) => void;
+  shouldSubscribe: boolean;
+  setShouldSubscribe: (subscribed: boolean) => void;
 }
 
 interface AccountProps {
@@ -244,12 +243,14 @@ export default [
     closeButtonProps,
     completedFields,
     nextButtonProps,
-    isLoadingSubscriptions,
-    isSubscribed,
-    setIsSubscribed,
+    shouldSubscribe,
+    setShouldSubscribe,
   }: CustomGoalStepProps & AccountProps) => {
     const account = useAccount();
     const [privacyAgreed, setPrivacyAgreed] = useState(false);
+    const [isLoadingSubscriptions, subscriptions] = useSubscriptions();
+    const isSubscribed =
+      !isLoadingSubscriptions && subscriptions['common-voice'];
 
     return (
       <div className="padded">
@@ -283,8 +284,8 @@ export default [
             <label className="box">
               <input
                 type="checkbox"
-                checked={isSubscribed}
-                onChange={event => setIsSubscribed(event.target.checked)}
+                checked={shouldSubscribe}
+                onChange={event => setShouldSubscribe(event.target.checked)}
               />
               <Localized id="email-opt-in-info">
                 <div className="content" />
@@ -315,7 +316,7 @@ export default [
             rounded
             className="submit"
             {...nextButtonProps}
-            disabled={isSubscribed && !privacyAgreed}>
+            disabled={shouldSubscribe && !privacyAgreed}>
             <CheckIcon />{' '}
             <Localized id="confirm-goal">
               <span />
