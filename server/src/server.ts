@@ -28,6 +28,7 @@ const contributableLocales = require('locales/contributable.json');
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
+const MAINTENANCE_PATH = path.join(__dirname, '..', '..', 'maintenance');
 const RELEASE_VERSION = getConfig().RELEASE_VERSION;
 const ENVIRONMENT = getConfig().ENVIRONMENT;
 const PROD = getConfig().PROD;
@@ -75,72 +76,6 @@ export default class Server {
 
     const app = (this.app = express());
 
-    // Enable Sentry request handler
-    app.use(Sentry.Handlers.requestHandler());
-
-    if (PROD) {
-      app.use(this.ensureSSL);
-    }
-
-    app.use((request, response, next) => {
-      // redirect to omit trailing slashes
-      if (request.path.substr(-1) == '/' && request.path.length > 1) {
-        const query = request.url.slice(request.path.length);
-        response.redirect(
-          HttpStatus.MOVED_PERMANENTLY,
-          request.path.slice(0, -1) + query
-        );
-      } else {
-        next();
-      }
-    });
-
-    app.use(authRouter);
-    app.use(KIBANA_PREFIX, authMiddleware, (request, response, next) => {
-      const { KIBANA_URL: target, KIBANA_ADMINS } = getConfig();
-      if (!target) {
-        response
-          .status(HttpStatus.INTERNAL_SERVER_ERROR)
-          .json({ error: 'KIBANA_URL missing in config' });
-        return;
-      }
-
-      const { baseUrl, client_id, user } = request;
-
-      if (!user || !client_id) {
-        response.redirect('/login?redirect=' + baseUrl);
-        return;
-      }
-
-      // For now, you either get full access of Kibana or none at all.
-      const userEmail = user.emails[0].value;
-
-      if (
-        !userEmail ||
-        !(
-          userEmail.endsWith('@mozilla.com') ||
-          JSON.parse(KIBANA_ADMINS).includes(userEmail)
-        )
-      ) {
-        response.status(HttpStatus.FORBIDDEN).json({
-          error: `${userEmail} is not authenticated for Kibana access.`,
-        });
-        return;
-      }
-
-      trackPageView(baseUrl, client_id);
-
-      proxy({
-        target,
-        changeOrigin: true,
-        pathRewrite: {
-          ['^' + baseUrl]: '',
-        },
-      })(request, response, next);
-    });
-
-    app.use('/api/v1', this.api.getRouter());
-
     const staticOptions = {
       setHeaders: (response: express.Response) => {
         // Basic Information
@@ -162,55 +97,131 @@ export default class Server {
       },
     };
 
-    app.use(express.static(FULL_CLIENT_PATH, staticOptions));
+    // Enable Sentry request handler
+    app.use(Sentry.Handlers.requestHandler());
 
-    app.use(
-      '/contribute.json',
-      express.static(path.join(__dirname, '..', 'contribute.json'))
-    );
-
-    app.use(
-      '/apple-app-site-association',
-      express.static(
-        path.join(FULL_CLIENT_PATH, 'apple-app-site-association.json')
-      )
-    );
-
-    if (options.bundleCrossLocaleMessages) {
-      this.setupCrossLocaleRoute();
+    if (PROD) {
+      app.use(this.ensureSSL);
     }
 
-    this.setupPrivacyAndTermsRoutes();
+    if (getConfig().MAINTENANCE_MODE) {
+      this.print('Application starting in maintenance mode');
 
-    app.use(
-      /(.*)/,
-      express.static(FULL_CLIENT_PATH + '/index.html', staticOptions)
-    );
+      app.use(express.static(MAINTENANCE_PATH, staticOptions));
 
-    // Enable Sentry error handling
-    app.use(Sentry.Handlers.errorHandler());
-
-    app.use(
-      (
-        error: Error,
-        request: Request,
-        response: Response,
-        next: NextFunction
-      ) => {
-        console.log(error.message, error.stack);
-        const isAPIError = error instanceof APIError;
-        if (!isAPIError) {
-          console.error(request.url, error.message, error.stack);
+      app.use(/(.*)/, (request, response, next) => {
+        response.sendFile('index.html', { root: MAINTENANCE_PATH });
+      });
+    } else {
+      app.use((request, response, next) => {
+        // redirect to omit trailing slashes
+        if (request.path.substr(-1) == '/' && request.path.length > 1) {
+          const query = request.url.slice(request.path.length);
+          response.redirect(
+            HttpStatus.MOVED_PERMANENTLY,
+            request.path.slice(0, -1) + query
+          );
+        } else {
+          next();
         }
-        response
-          .status(
-            error instanceof ClientError
-              ? HttpStatus.BAD_REQUEST
-              : HttpStatus.INTERNAL_SERVER_ERROR
+      });
+
+      app.use(authRouter);
+      app.use(KIBANA_PREFIX, authMiddleware, (request, response, next) => {
+        const { KIBANA_URL: target, KIBANA_ADMINS } = getConfig();
+        if (!target) {
+          response
+            .status(HttpStatus.INTERNAL_SERVER_ERROR)
+            .json({ error: 'KIBANA_URL missing in config' });
+          return;
+        }
+
+        const { baseUrl, client_id, user } = request;
+
+        if (!user || !client_id) {
+          response.redirect('/login?redirect=' + baseUrl);
+          return;
+        }
+
+        // For now, you either get full access of Kibana or none at all.
+        const userEmail = user.emails[0].value;
+
+        if (
+          !userEmail ||
+          !(
+            userEmail.endsWith('@mozilla.com') ||
+            JSON.parse(KIBANA_ADMINS).includes(userEmail)
           )
-          .json({ message: isAPIError ? error.message : '' });
+        ) {
+          response.status(HttpStatus.FORBIDDEN).json({
+            error: `${userEmail} is not authenticated for Kibana access.`,
+          });
+          return;
+        }
+
+        trackPageView(baseUrl, client_id);
+
+        proxy({
+          target,
+          changeOrigin: true,
+          pathRewrite: {
+            ['^' + baseUrl]: '',
+          },
+        })(request, response, next);
+      });
+
+      app.use('/api/v1', this.api.getRouter());
+
+      app.use(express.static(FULL_CLIENT_PATH, staticOptions));
+
+      app.use(
+        '/contribute.json',
+        express.static(path.join(__dirname, '..', 'contribute.json'))
+      );
+
+      app.use(
+        '/apple-app-site-association',
+        express.static(
+          path.join(FULL_CLIENT_PATH, 'apple-app-site-association.json')
+        )
+      );
+
+      if (options.bundleCrossLocaleMessages) {
+        this.setupCrossLocaleRoute();
       }
-    );
+
+      this.setupPrivacyAndTermsRoutes();
+
+      app.use(
+        /(.*)/,
+        express.static(FULL_CLIENT_PATH + '/index.html', staticOptions)
+      );
+
+      // Enable Sentry error handling
+      app.use(Sentry.Handlers.errorHandler());
+
+      app.use(
+        (
+          error: Error,
+          request: Request,
+          response: Response,
+          next: NextFunction
+        ) => {
+          console.log(error.message, error.stack);
+          const isAPIError = error instanceof APIError;
+          if (!isAPIError) {
+            console.error(request.url, error.message, error.stack);
+          }
+          response
+            .status(
+              error instanceof ClientError
+                ? HttpStatus.BAD_REQUEST
+                : HttpStatus.INTERNAL_SERVER_ERROR
+            )
+            .json({ message: isAPIError ? error.message : '' });
+        }
+      );
+    }
   }
 
   private ensureSSL(
