@@ -643,8 +643,8 @@ contribute-more =
     }
 record-cta = Start recording
 record-platform-not-supported = We’re sorry, your platform is not currently supported.
-record-platform-not-supported-desktop = On desktop devices you can contribute by downloading...
-record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
+record-platform-not-supported-desktop = On desktop devices you can contribute by downloading…
+record-platform-not-supported-ios-non-safari = On iOS please continue with Safari to enable recording…
 record-must-allow-microphone = You must allow microphone access.
 record-no-mic-found = No microphone found.
 record-error-too-short = The recording was too short.

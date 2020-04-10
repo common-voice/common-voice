@@ -18,13 +18,34 @@
     }
 
     .unsupported {
-        padding-bottom: 4rem;
-        .desktop {
-            margin: 0.5rem 0;
+        min-height: 272px;
+
+        @media (--sm-down) {
             font-weight: 300;
+            padding-top: 42px;
+        }
+
+        @media (--md-up) {
+            padding-bottom: 4rem;
+        }
+
+        .desktop {
+            margin: 0.5rem auto;
+            font-weight: 300;
+            font-size: var(--font-size-lg);
+
+            @media (--sm-down) {
+                font-size: var(--font-size-xs);
+                width: 80%;
+                margin-bottom: 0;
+            }
+        }
+
+        img {
+            margin-top: 22px;
 
             @media (--md-up) {
-                font-size: var(--font-size-lg);
+                margin-top: 8px;
             }
         }
     }

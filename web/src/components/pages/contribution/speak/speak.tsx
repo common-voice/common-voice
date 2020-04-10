@@ -4,6 +4,7 @@ import {
   withLocalization,
 } from 'fluent-react/compat';
 import * as React from 'react';
+import BalanceText from 'react-balance-text';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 const NavigationPrompt = require('react-router-navigation-prompt').default;
@@ -31,9 +32,15 @@ import {
   ArrowRight,
   FirefoxColor,
   ChromeColor,
+  SafariColor,
 } from '../../../ui/icons';
-import { Button, TextButton, StyledLink, LinkButton } from '../../../ui/ui';
-import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
+import { Button, TextButton, LinkButton } from '../../../ui/ui';
+import {
+  isFirefoxFocus,
+  isNativeIOS,
+  isIOS,
+  isMobileWebkit,
+} from '../../../../utility';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -62,20 +69,41 @@ enum RecordingError {
 const UnsupportedInfo = () => (
   <div className="empty-container">
     <div className="error-card card-dimensions unsupported">
-      <Localized id="record-platform-not-supported" />
-      <p className="desktop">
-        <Localized id="record-platform-not-supported-desktop">
-          <span />
-        </Localized>
-      </p>
-      <div>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.firefox.com/" title="Firefox">
-          <FirefoxColor />
-        </a>{' '}
-        <a rel="noopener noreferrer" target="_blank" href="https://www.google.com/chrome" title="Chrome">
-          <ChromeColor />
-        </a>
-      </div>
+      {isIOS() && !isMobileWebkit() ? (
+        <>
+          <BalanceText>
+            <Localized id="record-platform-not-supported-ios-non-safari" />
+          </BalanceText>
+          <SafariColor />
+        </>
+      ) : (
+        <>
+          <BalanceText>
+            <Localized id="record-platform-not-supported" />
+          </BalanceText>
+          <p className="desktop">
+            <Localized id="record-platform-not-supported-desktop">
+              <BalanceText />
+            </Localized>
+          </p>
+          <div>
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://www.firefox.com/"
+              title="Firefox">
+              <FirefoxColor />
+            </a>{' '}
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://www.google.com/chrome"
+              title="Chrome">
+              <ChromeColor />
+            </a>
+          </div>
+        </>
+      )}
     </div>
   </div>
 );
