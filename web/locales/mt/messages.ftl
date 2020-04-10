@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Ibgħat
 loading = Dalwaqt...
 email-opt-in-info = Nixtieq nirċievi emails, per eżempju biex ifakkruni fl-għanijiet tiegħi, nirċievi aġġornamenti dwar progress u ittri-aħbar dwar Common Voice.
+email-opt-in-info-title = Issieħeb mal-mailing list ta' Common Voice.
+email-opt-in-info-sub-with-challenge = Ibda rċievi l-emails biex ifakkruk dwar sfidi u għanijiet, aġġornamenti dwar il-progress, u aħbarijiet dwar Common Voice.
 email-opt-in-privacy = Jekk tagħżel li tirċievi l-emails, qed tistqarr li inti taċċetta li l-Mozilla tuża din l-informazzjoni skont kif inhu spjegat fl-<privacyLink>iStqarrija dwar il-Privatezza<privacyLink> tal-Mozilla.
 indicates-required = * Tindika informazzjoni meħtieġa
 not-available-abbreviation = Mhux applikabbli
@@ -26,10 +28,12 @@ af = Afrikaans
 am = Amħariku
 an = Aragoniż
 ar = Għarbi
+arn = Mapudungun
 as = Assamiż
 ast = Asturjan
 az = Ażerbajġani
 ba = Bashkirs
+be = Belarussu
 bg = Bulgaru
 bn = Bengali
 br = Breton
@@ -71,23 +75,28 @@ it = Taljan
 izh = Iżorjan
 ja = Ġappuniż
 ka = Ġorġjan
+kaa = Karakalpak
 kab = Kabyle
+kbd = Kabardjan
 kk = Kazakh
 ko = Korean
 kpv = Komi-Zyrian
 ku = Kurd
 kw = Cornish
 ky = Kyrgyz
+lg = Luganda
 lij = Ligurjan
 lt = Litwan
 lv = Latvjan
 mdf = Moksha
+mg = Malagażi
 mhr = Meadow Mari
 mk = Maċedonu
 ml = Malayalam
 mn = Mongoljan
 mrj = Hill Mari
 mt = Malti
+my = Burmiż
 myv = Erzya
 nb-NO = Bokmål Norveġiż
 ne-NP = Nepali
@@ -95,6 +104,7 @@ nl = Olandiż
 nn-NO = Nynorsk Norveġiż
 oc = Occitan
 or = Odia
+pa-IN = Punġabi
 pl = Pollakk
 pt = Portugiż
 rm-sursilv = Romansh Sursilvan
@@ -104,6 +114,7 @@ ru = Russu
 rw = Kinyarwanda
 sah = Sakha
 sc = Lingwa Sarda
+scn = Sqalli
 si = Sinhala
 sk = Slovakk
 sl = Sloven
@@ -116,6 +127,7 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Tajlandiż
+tl = Tagalog
 tr = Tork
 tt = Tatar
 uby = Ubykh
@@ -123,6 +135,7 @@ udm = Udmurt
 uk = Ukren
 ur = Urdu
 uz = Uzbek
+vec = Venezjan
 vi = Vjetnamiż
 vot = Votic
 zh-CN = Ċiniż (Ċina)
@@ -157,7 +170,7 @@ logout = Oħroġ
 
 home-title = Common Voice hija inizzjattiva tal-Mozilla biex tgħinna ngħallmu lill-magni jitkellmu bħan-nies.
 home-cta = Għolli leħnek, agħti sehmek hawn!
-wall-of-text-start = Il-vuċi naturali, il-vuċi umana. TTant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
+wall-of-text-start = Il-vuċi naturali, il-vuċi umana. Tant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
 wall-of-text-more-mobile = Ħafna mid-data li jużaw il-kumpnaiji mhix disponibbli għall-maġġoranza tan-nies. Fil-fehma tagħna, dil-qagħda xxekkel l-innovazzjoni. Għalhekk nidejna l-Proġett Common Voice, proġett biex l-għarfien awtomatiku tat-taħdit ikun miftuħ għal kulħadd.
 wall-of-text-more-desktop = Issa inti wkoll tista' taqsam il-vuċi tiegħek magħna sabiex tgħinna nibnu database ta' vuċijiet miftuħa li tista' tintuża minn kull min irid jibni apps innovattivi li jintużaw fuq aġġeġġi jew fuq l-internet. Aqralna sentenza biex tgħin il-magni jitgħallmu jitkellmu bħan-nies. Iċċekkja x-xogħol ta' ħaddieħor biex ittejjeb il-kwalità. Hija daqstant sempliċi!
 wall-of-text-first = Il-vuċi naturali, il-vuċi umana. TTant hija affaxxinanti li aħna rridu noħolqu teknoloġija għall-vuċi fuq il-magni, li tista' tintuża għal skopijiet differenti. Imma biex jinħolqu sistemi li jużaw il-vuċi, jeħtieġ ħafna ħafna data.
@@ -171,12 +184,12 @@ vote-no = Le
 toggle-play-tooltip = Agħfas { shortcut-play-toggle } biex tiħol fil-play mode
 speak-subtitle = Agħtina l-vuċi tiegħek
 speak-paragraph = Recordings tal-vuċi huma parti integrali mill-proċess li bih qed nibnu l-ġabra miftuħa ta' data; skont ħafna nies, hija wkoll l-iktar parti li fiha gost.
-speak-goal-text = Clips irrekordjati
+speak-goal-text = Klips li ġew irrekordjati
 listen-subtitle = Għinna niċċekkjaw il-vuċijiet
 listen-paragraph = Li niċċekkjaw ir-recordings li ingħatawlna hija wkoll importanti għall-għanijiet ta' Common Voice. Isma' ftit u tina daqqa t'id biex noħolqu data aċċessibbli ta' kwalità għolja.
 listen-goal-text = Recordings li ġew iċċekkjati
-hours-recorded = Siegħat Irrekordjati
-hours-validated = Siegħat Iċċekkjati
+hours-recorded = Sigħat Irrekordjati
+hours-validated = Sigħat Iċċekkjati
 voices-online = Vuċijiet li Jinsabu Onlajn Bħalissa
 todays-progress = Kemm Għamilna Progress Illum
 help-reach-goal = Għinna naslu sa { $goal }
@@ -194,7 +207,7 @@ x-months-short =
     { $count ->
         [one] Xahar
         [two] Xahrejn
-       *[many] Xhur
+       *[many] { $count }Xhur
     }
 x-years-short =
     { $count ->
@@ -251,7 +264,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Irrekordja/Waqqaf
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Erġa rrekordja l-clip
+shortcut-rerecord-toggle-label = Erġa rrekordja l-klip
 request-language-text = Il-lingwa tiegħek għadha mhix tidher fuq Common Voice?
 request-language-button = Itlob biex tiġi inkluża lingwa
 
@@ -263,7 +276,7 @@ status-hours =
     { $hours ->
         [one] siegħa iċċekkjata s'issa
         [two] sagħtejn iċċekkjati s'issa
-       *[many] siegħat iċċekkjati s'issa
+       *[many] sigħat iċċekkjati s'issa
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -311,6 +324,7 @@ thanks-for-account = Grazzi talli kkonfermajt il-kont tiegħek; issa, nistgħu n
 why-demographic = Dan għaliex huwa importanti?
 why-demographic-explanation = L-informazzjoni anonimizzata bħall-età, is-sess u l-aċċent tiegħek jgħinuna ntejbu l-kwalità tad-data awdjo li tintuża biex inżarrġu sistemi għall-għarfien awtomatiku tat-taħdit. Il-username u l-email tiegħek qatt mhu se jiġu assoċċjati mad-data li tissottometti, u għandek ukoll għażla jekk tridx li l-username tiegħek ikun pubbliku jew anonimu.
 accept-privacy = M'għandi ebda oġġezzjoni li tużaw din l-informazzjoni skont kif inhu spjegat fil-<privacyLink>Privacy Policy</privacyLink> tal-Mozilla.
+accept-privacy-title = Stqarrija ta' Privatezza
 login-identity = Identifikazzjoni
 login-signup = Illoggja /  Oħloq kont
 edit = Editja
@@ -323,7 +337,7 @@ skip-submission-note = Nota: Xorta se jkollok bżonn tagħżel bejn Tkellem jew 
 off = Off
 on = On
 avatar-clip-title = Agħti vuċi lill-avatar tiegħek
-change-your-avatar-clip = Trid tibdel il-klip bil-vuċi tiegħek?
+change-your-avatar-clip = Trid tibdel ir-recording li għamilt?
 recording-in-progress = L-irrekordjar tal-vuċi għaddej
 avatar-clip-recorded = L-avatar tiegħek issa għandu klip bil-vuċi!
 record-voice-wave = IRREKORDJA VOICEWAVE
@@ -331,7 +345,7 @@ retry-voice-wave-recording = ERĠA'
 re-record = IRREKORDJA MILL-ĠDID
 delete-voice = ĦASSAR
 recording-voice-wave = Qed tirrekordja
-delete-voice-clip = jew Ħassar il-klip tal-vuċi
+delete-voice-clip = jew Ħassar ir-recording
 ready-to-upload = TELLA'
 avatar-clip-fact = Fatt li ilu magħruf huwa li qarrej li jkun qed iħares lejn l-organizzazzjoni ta' paġna se jtellfu l-kontenut li jista' jinqara.
 recreate-voice = Erġa oħloq il-Voicewave
@@ -371,18 +385,18 @@ faq-what-cv-and-deepspeech-q = X'inhi d-differenza bejn Common Voice u Deep Spee
 faq-what-cv-and-deepspeech-a = Il-ġabra tad-data ta' Common Voice tikkumplimenta s-sistema Deep Speech, sistema miftuħa għall-għarfien tat-taħdit mibnija minn Mozilla. L-ewwel verżjoni ta' Deep Speech ġiet imnedija f'Novembru 2017 u baqgħet tevolvi sa minn dakinhar. Flimkien mal-ġabra tad-data ta' Common Voice, aħna nemmnu li din it-teknoloġija miftuħa għall-għarfien awtomatiku tal-vuċi għandha tkun disponibbli għal kulħadd. Nisperaw li dawn it-teknoloġiji jippermettu lill-iżviluppaturi biex joħolqu mewġa ġdida ta 'prodotti u servizzi innovattivi.
 faq-is-goal-assistant-q = L-għan ta’ Common Voice huwa li jinbena assistent tal-vuċi?
 faq-is-goal-assistant-a = L-għan tad-data ta' Common Voice hija li tippermetti lil kwalunkwe persuna madwar id-dinja tibni sistemi għall-għarfien tat-taħdit, jew rikonoxximent tal-kelliem, jew kwalunkwe tip ieħor ta' applikazzjoni li teħtieġ data mitkellma. Assistent tal-vuċi huwa biss wieħed minn ħafna tipi ta' għodod li jistgħu jużaw id-data.
-faq-do-want-native-q = Jiena minix kelliem nattiv ta' din il-lingwam u nitkellem b'aċċent, xorta tridu leħni?
+faq-do-want-native-q = Jiena minix kelliem nattiv ta' din il-lingwa u meta nitkellem għandi aċċent barrani. Xorta tridu leħni?
 faq-do-want-native-a = Iva, irridu l-vuċi tiegħek b'mod speċjali! Parti mill-għan ta' Common Voice hija li tiġbor kemm jista' jkun aċċenti differenti sabiex is-servizzi ta' għarfien tal-vuċi jaħdmu tajjeb indaqs għal kulħadd. Dan ifisser li l-kontribut ta' kelliema mhux nattivi huwa partikolarment importanti.
 faq-why-different-speakers-q = Għaliex hemm bżonn daqstant kelliema differenti għal kull lingwa?
 faq-why-different-speakers-a = Il-biċċa l-kbira tal-ġabriet tad-data tat-taħdit huma mibnija bi żbilanċ favur ċerti demografiji. Dan jirriżulta fi żbilanċ b'risq <articleLink> l-irġiel u l-membri tal-klassi medja </articleLink>. Ċerti aċċenti u djaletti li ġeneralment ma jkunux rappreżentati sew fl-iskemi tad-data għall-izvilupp ta' sistemi tat-taħdit huma tipikament assoċjati ma’ gruppi ta’ nies li huma emarġinati. Ħafna sistemi jbatu wkoll biex jifhmu l-vuċijiet femminili. Dan hija r-raġuni għalfejn irridu varjetà fil-ġabriet tagħna tad-data tal-vuċi!
 faq-why-my-lang-q = Għalfejn il-lingwa tiegħi għadha mhix inkluża?
-faq-why-my-lang-new-a = Mozilla ma tiffavorixxi ebda lingwa iktar minn oħra. Filwaqt li l-inizzjattiva Common Voice hija mmexxija mill-komunità, hemm bżonn jittieħdu <multilangLink>diversi passi sakemm tiġi miżjuda lingwa ġdida</multilangLink> u jibdew jinġabru d-donazzjonijiet tal-vuċi. L-ewwelnett, is-sit ta' Common Voice irid jiġi tradott sabiex il-membri tal-komunità jkunu jistgħu jgħaddu mill-esperjenza ta' kontributuri fil-lingwa tagħhom. Imbagżad, ikollna bżonn kollezzjoni mdaqqsa ta' sentenzi li mhemmx copyright fuqhom biex in-nies ikunu jistgħu jaqrawhom b'vuċi għolja. Ladarba dawn iż-żewġ affarijiet ikunu saru, il-lingwa tista' tiġi "mnedija"  fuq  Common Voice biex in-nies jibdew jirrekordjaw il-vuċi tagħhom jew jiċċekkjaw rekordings li saru minn ħaddieħor. Jekk tixtieq tgħinna nniedu lingwa ġdida, żur l-<sentenceCollectorLink>għodda għall-ġbir tas-sentenzi</sentenceCollectorLink> biex tibda.
+faq-why-my-lang-new-a = Mozilla ma tiffavorixxi ebda lingwa iktar minn oħra. Filwaqt li l-inizzjattiva Common Voice hija mmexxija mill-komunità, hemm bżonn jittieħdu <multilangLink>diversi passi sakemm tiġi miżjuda lingwa ġdida</multilangLink> u jibdew jinġabru d-donazzjonijiet tal-vuċi. L-ewwelnett, is-sit ta' Common Voice irid jiġi tradott sabiex il-membri tal-komunità jkunu jistgħu jgħaddu mill-esperjenza ta' kontributuri fil-lingwa tagħhom. Imbagżad, ikollna bżonn kollezzjoni mdaqqsa ta' sentenzi li mhemmx copyright fuqhom biex in-nies ikunu jistgħu jaqrawhom b'vuċi għolja. Ladarba dawn iż-żewġ affarijiet ikunu saru, il-lingwa tista' tiġi "mnedija"  fuq  Common Voice biex in-nies jibdew jirrekordjaw il-vuċi tagħhom jew jiċċekkjaw recordings li saru minn ħaddieħor. Jekk tixtieq tgħinna nniedu lingwa ġdida, żur l-<sentenceCollectorLink>għodda għall-ġbir tas-sentenzi</sentenceCollectorLink> biex tibda.
 faq-what-quality-q = Xi kwalità ta' awdjo tinħtieġ biex tintuża klip fil-ġabra ta' data?
 faq-what-quality-a = Aħna nixtiequ li l-ġabra ta' dati Common Voice tirrifletti b'mod realistiku l-kwalità ta' awdjo li magna li titraduċi mit-taħdit għall-kitba hija mistennija tisma' fil-ħajja ta' kuljum, allura rridu li jkollna varjetà. Apparti komunità ta' diversi kelliema, ġabra ta' data b'varjetà ta' livelli ta' kwalità awdjo sservi biex tħarreġ magna sabiex tkun tista' tipproċessa l-vuċi f'ħafna sitwazzjonijiet reali, mit-taħdit li jseħħ fl-isfond sal-istorbju tal-karozzi. Sakemm il-klip tiegħek tinftiehem, għandha tkun tajba biex tiżdied mad-data.
 faq-why-10k-hours-q = Għalfejn l-għan huwa li jkun hemm 10000 siegħa awdjo vvalidati għal kull lingwa?
-faq-why-10k-hours-a = Dan huwa ftit jew wisq in-numru ta' siegħat meħtieġa biex tiġi mħarrġa sistema tajba li taqleb it-taħdit għall-kitba.
-faq-how-calc-hours-q = Kif jiġu kkalkulati s-siegħat fuq Common Voice?
-faq-how-calc-hours-a = Nikkalkulaw is-siegħat billi nieħdu t-tul medju ta' kull recording, imbagħad nimmultiplikaw dak in-nnumru man-numru totali ta' recordings fil-lingwi kollha.
+faq-why-10k-hours-a = Dan huwa ftit jew wisq in-numru ta' sigħat meħtieġa biex tiġi mħarrġa sistema tajba li taqleb it-taħdit għall-kitba.
+faq-how-calc-hours-q = Kif jiġu kkalkulati s-sigħat fuq Common Voice?
+faq-how-calc-hours-a = Nikkalkulaw is-sigħat billi nieħdu t-tul medju ta' kull recording, imbagħad nimmultiplikaw dak in-nnumru man-numru totali ta' recordings fil-lingwi kollha.
 faq-where-src-from-2-q = Minn fejn jiġi t-test li jinqara?
 faq-where-src-from-2-a = It-testi li jinqraw huma donazzjonijiet oriġinali mill-kontributuri kif ukoll djalogu meħud minn scripta tal-films li jinsabu fid-dominju pubbliku, bħal <italic>It’s a Wonderful Life</italic>. Tista tara s-sentenzi jekk iżżur dan ir-<githubLink>Repożitorju fuq GitHub</githubLink>.
 faq-why-not-ask-read-q = Għax ma ssaqsux lin-nies jaqraw mill-kotba jew minn artikli tal-Wikipedija f'lingwi differenti?
@@ -432,11 +446,11 @@ about-partners = Msieħba
 about-become-a-partner = Issieħeb
 about-partnership = Common Voice huwa proġett kollaborattiv u niddependu fuq komunità ta' msieħba u kontributuri biex nibnu l-ikbar ġabra miftuħa ta' vuċijiet li qatt inħolqot.
 about-get-involved = Involvi Ruħek
-about-get-involved-text =
-    Trid ittejjeb il-Common Voice?
-    Tajjeb! ikkuntattjana bl-email jew fuq <discourseLink>Discourse</discourseLink>,
-    issottometti l-feedback tiegħek minn <githubLink>GitHub</githubLink>,
-    jew issieħeb magħna fuq <slackLink>Slack</slackLink>.
+about-get-involved-text-2 =
+    Trid tgħinna ntejbu l-Common Voice?
+    Tajjeb! Ikkuntattjana bl-email jew fuq il-forum <discourseLink>Discourse</discourseLink>,
+    issottometti rapporti dwar problemi fis-sit permezz ta' <githubLink>GitHub</githubLink>, jew issieħeb mal-
+    <matrixLink>Matrix</matrixLink> biex tipparteċipa f'chat mal-membri tal-komunità.
 about-nav-why-common-voice = Għalfejn?
 about-nav-how-it-works = Kif?
 about-nav-partners = Msieħba
@@ -501,8 +515,8 @@ datasets-positioning = Aħna nemmnu li ġabriet kbar ta' data li huma disponibbl
 language = Lingwa
 # File size in gigabytes
 size = Daqs
-validated-hr-total = Total ta' siegħat iċċekkjati
-overall-hr-total = Siegħat b'Kollox
+validated-hr-total = Total ta' sigħat iċċekkjati
+overall-hr-total = Sigħat b'Kollox
 cv-license = Liċenzja
 audio-format = Format Awdjo
 number-of-voices = Numru ta' vuċijiet
@@ -514,13 +528,13 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Taqbel</b> li mhux se tiprovva tagħraf l-identita tal-kelliema fil-ġabra ta' Dati Common Voice
 download-language = Niżżel { $language }
-validated-hours = Siegħat iċċekkjati
-recorded-hours = Siegħat Irrekordjati
+validated-hours = Sigħat iċċekkjati
+recorded-hours = Sigħat Irrekordjati
 whats-inside = X'hemm fil-ġabra tad-Dati Common Voice?
 dataset-description-hours =
-    Kull entratura fil-ġabra fiha MP3 wieħed u fajl bit-test li jikkorrispondi miegħu. Ħafna mill- <b>{ $size }</b> siegħa li hemm irrekordjati b'kollox fil-ġabra jinkludu wkoll metadata demografika bħall-età, sess u aċċent, li jisttgħu jiswew biex tittejjeb l-akkuratezza tal-magni għall-għarfien tat-taħdit.
+    Kull entratura fil-ġabra fiha MP3 wieħed u fajl bit-test li jikkorrispondi miegħu. Ħafna mill- <b>{ $total }</b> siegħa li hemm irrekordjati b'kollox fil-ġabra jinkludu wkoll metadata demografika bħall-età, sess u aċċent, li jistgħu jiswew biex tittejjeb l-akkuratezza tal-magni għall-għarfien tat-taħdit.
     
-    Il-ġabra bħalissa fiha <b>{ $valid }</b> siegħat li ġew iċċekkjati, fi <b>{ $languages }</b> lingwa, imma aħna nkomplu nżidu l-vuċijiet u l-lingwi regolarment. Agħti daqqa t'għajn lill-<languagesLink>paġna dwar il-Lingwi</languagesLink> jekk trid titlob lingwa partikolari, jew biex tibda tikkontribwixxi.
+    Il-ġabra bħalissa fiha <b>{ $valid }</b> sigħat li ġew iċċekkjati, fi <b>{ $languages }</b> lingwa, imma aħna nkomplu nżidu l-vuċijiet u l-lingwi regolarment. Agħti daqqa t'għajn lill-<languagesLink>paġna dwar il-Lingwi</languagesLink> jekk trid titlob lingwa partikolari, jew biex tibda tikkontribwixxi.
 want-dataset-update = Tixtieq l-aġġornamenti meta nniedu verżjoni ġdida tal-ġabra Common Voice? Abbona biex tirċievi n-newsletter.
 subscribe = Abbona
 get-started-speech = Ibda Aħdem fuq l-Għarfien Awtomatiku tat-Taħdit.
@@ -587,12 +601,12 @@ language-search-input =
 language-speakers = Kelliema
 localized = Lokaliżat
 sentences = Sentenzi
-total-hours = Siegħat iċċekkjati
+total-hours = Sigħat iċċekkjati
 
 ## Contribution
 
 action-click = Ikklikkja
-action-tap = Ittapja
+action-tap = Agħfas
 contribute = Ikkontribwixxi
 listen = Isma'
 skip = Aqbeż
@@ -602,9 +616,9 @@ goal-help-recording = Għadek kemm għint lil Common Voice jilħaq <goalPercenta
 goal-help-validation = Għadek kemm għint lil Common Voice jilħaq <goalPercentage></goalPercentage>  tal-{ $goalValue } ta' validazzjonijiet li nippruvaw nilħqu kuljum!
 contribute-more =
     { $count ->
-        [one] Trid tagħmel { $count } iktar?
-        [two] Trid tagħmel { $count } iktar?
-       *[many] Trid tagħmel { $count } iktar?
+        [one] Trid tagħmel oħra?
+        [two] Trid tagħmel { $count } oħra?
+       *[many] Trid tagħmel { $count } oħra?
     }
 record-cta = Ibda' irrekordja
 record-platform-not-supported = Skużana, imma bħalissa m'hemmx support għas-sistema li tinsab fuqha.
@@ -614,28 +628,29 @@ record-must-allow-microphone = Trid tippermetti aċċess għall-mikrofonu.
 record-no-mic-found = Ma nstab ebda mikrofonu.
 record-error-too-short = Ir-recording kien qasir wisq.
 record-error-too-long = Ir-recording kien twil wisq.
-record-error-too-quiet = Ir-rekording kien silenzjuz wisq.
+record-error-too-quiet = Ir-recording kien silenzjuz wisq.
 record-cancel = Ikkanċella l-irrekordjar mill-ġdid
-record-instruction = { $actionType }<recordIcon></recordIcon> imbagħad aqra s-sentenza tgħajjat
+record-instruction = { $actionType }<recordIcon></recordIcon> Imbagħad aqra s-sentenza
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> meta tkun lest
 record-three-more-instruction = Tlieta oħra!
 record-again-instruction = Tajjeb! <recordIcon></recordIcon> Irrekordja l-clip li jmiss
 record-again-instruction2 = Ibqa' sejjer hekk, erġa rrekordja <recordIcon></recordIcon>
-record-last-instruction = <recordIcon></recordIcon> Ta' l-aħħar!
+record-last-instruction = <recordIcon></recordIcon> Tal-aħħar!
 review-tooltip = Int u għaddej, irrevedi u erġa rrekordja l-klips minn hawnhekk
-review-instruction = Irrvedi u erġa rrekordja l-klips jekk hemm bżonn
+share-clip = Aqsam din il-clip ma' ħaddieħor.
+share-common-voice = Xerred il-kelma dwar Common Voice
+review-instruction = Irrevedi u erġa' rrekordja l-klips jekk hemm bżonn
 record-submit-tooltip = { $actionType } ibgħat ladarba tkun lest
-clips-uploaded = Clips imtella'
+clips-uploaded = Ir-Recordings Intbagħtu
 record-abort-title = Trid tlesti mir-recording l-ewwel?
 record-abort-text = Jekk titlaq issa titlef il-progress li tkun għamilt
 record-abort-submit = Ibgħat il-klips
 record-abort-continue = Ieqaf irrekordja
 record-abort-delete = Oħroġ u ħassar il-klips
-listen-instruction = { $actionType }<playIcon></playIcon> qrawha sew is-sentenza?
-listen-again-instruction = Prosit!<playIcon></playIcon> X'ħin tkun lest tista' terġa tisma'
+listen-instruction = { $actionType }<playIcon></playIcon> Is-sentenza nqrat sew?
+listen-again-instruction = Prosit!<playIcon></playIcon> Meta trid tista' terġa' tisma' r-recording
 listen-3rd-time-instruction = 2 lesti, ibqa' sejjer!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> L-aħħar waħda!
-nothing-to-validate = M'hemm xejn li għandu bżonn jiġi ċċekkjat f'din il-lingwa, għinna biex inqiegħdu xi ħaġa fil-kju.
 record-button-label = Irrekordja l-vuċi tiegħek
 share-title-new = <bold>Għinna</bold> nsibu aktar vuċijiet
 keep-track-profile = Żomm kont tal-progress tiegħek billi toħloq profil
@@ -643,8 +658,8 @@ login-to-get-started = Illoggja jew oħloq kont biex tibda
 
 ## Reporting
 
-report = Rapport
-report-title = Issottometti rapport
+report = Irrapporta
+report-title = Ibgħat rapport
 report-ask = X'tip ta' problemi għandek b'din is-sentenza?
 report-offensive-language = Kliem offensiv
 report-offensive-language-detail = Din is-sentenza għandha kliem nieqes mir-rispett jew offensiv.
@@ -660,7 +675,7 @@ report-other-comment =
     .placeholder = Ikkummenta
 success = Suċċess
 continue = Kompli
-report-success = Ir-rapport irnexxilek tibgħatu
+report-success = Ir-rapport intbagħat
 
 ## Goals
 
@@ -710,7 +725,7 @@ show-ranking = Uri posti fil-klassifika
 ## Custom Goals
 
 get-started-goals = Ibda oħloq l-għanijiet
-create-custom-goal = Oħloq Għan Għalik
+create-custom-goal = Oħloq għan għalik innifsek
 both-speak-and-listen = It-tnejn
 both-speak-and-listen-long = It-Tnejn (Tkellem u Isma')
 daily-goal = Għan ta' Kuljum
@@ -731,8 +746,8 @@ cant-decide = Ma tistax tiddeċiedi?
 activity-needed-calculation =
     { NUMBER($totalHours) } siegħa jistgħu jitlaħqu fi ftit iktar minn { NUMBER($periodMonths) }
     xahar jekk { NUMBER($people) } persuna tirrekordja { NUMBER($clipsPerDay) } klip kuljum.
-how-many-per-day = Tajjeb! Kemm trid tagħmel klips kuljum?
-how-many-a-week = Tajjeb! Kemm trid tagħmel klips fil-ġimgħa?
+how-many-per-day = Tajjeb! Kemm trid tirrekordja sentenzi kuljum?
+how-many-a-week = Tajjeb! Kemm trid tirrekordja sentenzi fil-ġimgħa?
 which-goal-type = Trid Titkellem, Tisma' jew it-tnejn?
 receiving-emails-info = Bis-settings kif qiegħdin, se tkun qed tirċievi l-emails biex ifakkruk fl-għanijiet, ituk aġġornamenti dwar il-progress u tirċievi n-newsletters dwar Common Voice
 not-receiving-emails-info = Bis-settings kif qiegħdin, <bold>MHUX</bold> se tkun qed tirċievi l-emails biex ifakkruk fl-għanijiet, ituk aġġornamenti dwar il-progress u jibgħatulek in-newsletters dwar Common Voice
@@ -757,7 +772,7 @@ share-goal = Aqsam l-għanijiet tiegħi ma' ħaddieħor
 
 ## Profile Delete
 
-delete-q = Tixtieq tagħmel talba biex jitħassru wkoll ir-rekordings tal-vuċi tiegħek, jew tippreferi li jinżammu fil-ġabra tad-data ta' Common Voice?
+delete-q = Tixtieq tagħmel talba biex jitħassru wkoll ir-recordings tal-vuċi tiegħek, jew tippreferi li jinżammu fil-ġabra tad-data ta' Common Voice?
 keep = Żomm
 remove = Ħassar
 keep-info = Ir-recordings anonimi tiegħek jinżammu fil-ġabra Common Voice. Ladarba tħassar il-profil ma tkunx tista' titlob li jitneħħew ir-recordings mill-ġabra.

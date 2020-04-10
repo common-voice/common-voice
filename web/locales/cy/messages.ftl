@@ -466,16 +466,11 @@ about-partnership =
     
     Hoffem ddiolch i'r bobl a'r sefydliadau canlynol am eu cymorth gyda'r prosiect:
 about-get-involved = Ymunwch
-about-get-involved-text =
-    Eisiau helpu i wneud Common Voice hyd yn oed yn well?
-    Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
-    cyflwyno adborth trwy <githubLink>GitHub</githubLink>,
-    neu ymunwch â ni ar <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
+about-get-involved-text-2 =
     Eisiau helpu i wneud Common Voice well fyth?
     Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
-    cyflwynwch adborth trwy <githubLink>GitHub</githubLink>,
-    neu ymunwch â ni ar <slackLink>Slack</slackLink>.
+    cyflwynwch adborth trwy <githubLink>GitHub</githubLink>, neu ymuno â ni
+    ar lwyfan sgwrsio cymdeithasol <matrixLink>Matrix</matrixLink>
 about-nav-why-common-voice = Pam ?
 about-nav-how-it-works = Sut ?
 about-nav-partners = Partneriaid
@@ -664,6 +659,8 @@ record-again-instruction = Gwych! <recordIcon></recordIcon> Recordiwch eich clip
 record-again-instruction2 = Daliwch ati, recordiwch eto <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Yr un olaf!
 review-tooltip = Adolygu ac ail recordio clipiau yma wrth fynd
+share-clip = Rhannwch eich clip
+share-common-voice = Rhannu Common Voice
 review-instruction = Adolygu ac ail recordio clipiau os oes angen
 record-submit-tooltip = { $actionType } cyflwyno pan yn barod
 clips-uploaded = Clipiau Wedi'u Llwytho
@@ -676,7 +673,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> os ydyn nhw wedi yngan
 listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
-nothing-to-validate = Nid oes gennym unrhyw beth i'w ddilysu yn yr iaith hon, helpwch ni i lanw'r ciw.
+listen-empty-state = Does dim rhagor o glipiau i ddilysu yn yr iaith hon...
+speak-empty-state = Does dim rhagor o o frawddegau i'w recordio yn yr iaith hon...
+speak-empty-state-cta = Cyfrannu brawddegau
 record-button-label = Recordio eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil

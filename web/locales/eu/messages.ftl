@@ -129,6 +129,7 @@ udm = Udmurtera
 uk = Ukrainera
 ur = Urdua
 uz = Uzbekera
+vec = Veneziera
 vi = Vietnamera
 vot = Votikera
 zh-CN = Txinera (Txina)
@@ -333,6 +334,7 @@ retry-voice-wave-recording = SAIATU BERRIRO
 re-record = GRABATU BERRIRO
 delete-voice = EZABATU
 recording-voice-wave = Grabazioa
+delete-voice-clip = edo ezabatu ahots grabazioa
 ready-to-upload = IGO
 cancel-avatar-clip-recording = Utzi
 browse-file-title = Igo irudi-fitxategi bat
@@ -421,10 +423,6 @@ about-clip-graveyard-text = Grabaketen hilerria Common Voice datu-sortan sartu e
 about-partners = Babesleak
 about-become-a-partner = Babesle bihurtu
 about-get-involved = Parte hartu
-about-get-involved-text =
-    Common Voice hobeto lagundu nahi duzu?
-    Bikain! Kontaktatu gurekin epostaz edo <discourseLink>Discourse</discourseLink> bidez,
-    <githubLink>GitHub</githubLink>-en feedback bat bidaliz, edo batu zaitez gure <slackLink>Slack</slackLink>-era.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
 about-nav-partners = Babesleak

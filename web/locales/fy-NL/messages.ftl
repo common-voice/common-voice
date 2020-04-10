@@ -459,11 +459,11 @@ about-partnership =
     
     Wy wolle de folgjende minsken en organisaasjes tankje foar harren help by it projekt:
 about-get-involved = Meiwurkje
-about-get-involved-text =
-    Wolle jo Common Voice noch better helpe meitsje?
-    Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>,
-    jou kommentaar fia <githubLink>GitHub</githubLink>,
-    of doch mei op <slackLink>Slack </slackLink>.
+about-get-involved-text-2 =
+    Wolle jo helpe Common Voice noch better te meitsjen?
+    Geweldich! Nim kontakt op fia e-mail of op <discourseLink>Discourse</discourseLink>
+    -forums, meld problemen mei de website fia <githubLink>GitHub</githubLink>, of doch
+    mei mei de mienskipschat op <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Wêrom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
@@ -652,6 +652,8 @@ record-again-instruction = Fantastysk! <recordIcon></recordIcon> Nim jo folgjend
 record-again-instruction2 = Gean sa troch, nim noch in kear op <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> De lêste!
 review-tooltip = Beoardielje en nim nochris fragminten op as jo wolle
+share-clip = Jo opname diele
+share-common-voice = Common Voice diele
 review-instruction = Beoardielje en nim nochris fragminten op as jo wolle
 record-submit-tooltip = { $actionType } yntsjinje wannear ree
 clips-uploaded = Clips opladen
@@ -664,7 +666,9 @@ listen-instruction = { $actionType } <playIcon></playIcon> – is de sin dúdlik
 listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear't jo klear binne
 listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!
 listen-last-time-instruction = <playIcon></playIcon> De lêste!
-nothing-to-validate = Wy hawwe yn dizze taal neat om te falidearjen, help ús mear stimmen te krijen.
+listen-empty-state = Wy hawwe yn dizze taal gjin te falidearjen fragminten mear...
+speak-empty-state = Wy hawwe yn dizze taal gjin op te nimmen sinnen mear...
+speak-empty-state-cta = Sinnen bydrage
 record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
 keep-track-profile = Hâld jo fuortgong by mei in profyl

@@ -1,7 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { DAILY_GOAL } from '../../../../constants';
+import { DAILY_GOALS } from '../../../../constants';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { trackDashboard } from '../../../../services/tracker';
 import URLS from '../../../../urls';
@@ -50,7 +50,7 @@ export default function ProgressCard({
     fetchAndSetOverallCount();
   }, []);
 
-  const overallGoal = DAILY_GOAL[type];
+  const overallGoal = DAILY_GOALS[type][0];
   const isSpeak = type == 'speak';
   const customGoal = customGoals?.find(g => g.locale == locale);
   const currentCustomGoal = customGoal ? customGoal.current[type] : undefined;

@@ -452,11 +452,6 @@ about-partnership =
     
     ما از افراد و سازمان‌های زیر برای کمک به این پروژه تشکر می‌کنیم:
 about-get-involved = مشارکت کنید
-about-get-involved-text =
-    می‌خواهید به بهترشدن آواهای مشترک کمک کنید؟
-    عالی است! با ما در پست الکترونیکی یا <discourseLink>Discource</discourseLink> تماس بگیرید،
-    بازخورد را از طریق <githubLink>گیت‌هاب</githubLink> ثبت کنید،
-    یا به ما در <slackLink>Slack</slackLink> ملحق شوید.
 about-nav-why-common-voice = چرا ؟
 about-nav-how-it-works = چگونه ؟
 about-nav-partners = همکاران
@@ -649,6 +644,7 @@ record-again-instruction = عالیست!<recordIcon></recordIcon>کلیپ بعد
 record-again-instruction2 = ادامه دهید، دوباره ضبط کنید <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>آخرین!
 review-tooltip = کلیپ‌ها را در اینجا مرور و دوباره ضبط کنید
+share-common-voice = همرسانی آواهای مشترک
 review-instruction = در صورت لزوم، کلیپ‌ها را بازبینی و دوباره ضبط کنید
 record-submit-tooltip = { $actionType } هنگامی که آماده بودید ارسال کنید
 clips-uploaded = کلیپ‌ها بارگذاری شدند

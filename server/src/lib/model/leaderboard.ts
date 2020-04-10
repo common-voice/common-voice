@@ -7,7 +7,7 @@ import { getMySQLInstance } from './db/mysql';
 import Bucket from '../bucket';
 import { AWS } from '../aws';
 import Model from '../model';
-import { ChallengeLeaderboardArgument, ChallengeToken } from 'common/challenge';
+import { ChallengeLeaderboardArgument, ChallengeToken } from 'common';
 
 const s3 = AWS.getS3();
 const model = new Model();

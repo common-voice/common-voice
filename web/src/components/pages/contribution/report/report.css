@@ -43,10 +43,6 @@
             line-height: 1.5;
         }
 
-        & .detail {
-            width: calc(100% - 60px);
-        }
-
         & p {
             line-height: 1.7;
             font-size: 14px;
@@ -60,7 +56,8 @@
         border: 1.5px solid var(--light-grey);
         border-radius: 2px;
         padding: 10px;
-        width: 100%;
+        width: calc(100% - 60px);
+        max-width: 100%;
         font-family: var(--base-font-family);
     }
 

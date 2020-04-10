@@ -259,7 +259,7 @@ class ListenPage extends React.Component<Props, State> {
             (clips.length === 0 || !activeClip) && (
               <div className="empty-container">
                 <div className="error-card card-dimensions">
-                  <Localized id="nothing-to-validate">
+                  <Localized id="listen-empty-state">
                     <span />
                   </Localized>
                   <LinkButton

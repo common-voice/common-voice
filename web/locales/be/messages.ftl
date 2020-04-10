@@ -75,13 +75,16 @@ it = Італьянская
 izh = Іжорская
 ja = Японская
 ka = Грузінская
+kaa = Каракалпакская
 kab = Кабільская
+kbd = Кабардзінская
 kk = Казахская
 ko = Карэйская
 kpv = Комі-зыранская
 ku = Курдская
 kw = Корнская
 ky = Кіргізская
+lg = Луганда
 lij = Лігурыйская
 lt = Літоўская
 lv = Латышская
@@ -93,6 +96,7 @@ ml = Малаялам
 mn = Мангольская
 mrj = Горнамарыйская
 mt = Мальтыйская
+my = Бірманская
 myv = Эрзянская
 nb-NO = Букмал
 ne-NP = Непальская
@@ -110,6 +114,7 @@ ru = Руская
 rw = Руанда
 sah = Якуцкая
 sc = Сардзінская
+scn = Сіцылійская
 si = Сінгальская
 sk = Славацкая
 sl = Славенская
@@ -122,6 +127,7 @@ ta = Тамільская
 te = Тэлугу
 tg = Таджыкская
 th = Тайская
+tl = Тагальская
 tr = Турэцкая
 tt = Татарская
 uby = Убыхская
@@ -129,6 +135,7 @@ udm = Удмурцкая
 uk = Украінская
 ur = Урду
 uz = Узбекская
+vec = Венецыянская
 vi = В'етнамская
 vot = Водская
 zh-CN = Кітайская (Кітай)
@@ -303,6 +310,7 @@ female = Жанчына
 # Gender
 other = Іншы
 why-profile-title = Навошта патрэбны профіль?
+why-profile-text = Калі вы прадаставіце пэўную інфармацыю пра сябе, аўдыёзапісы, дададзеныя вамі ў Common Voice, будуць больш карыснымі для рухавікоў распазнавання маўлення, якія абапіраюцца на гэтую інфармацыю для паляпшэння якасці.
 dashboard = Панэль кіравання
 build-profile = Стварыць профіль
 avatar = Аватар
@@ -311,6 +319,9 @@ settings = Налады
 edit-profile = Рэдагаваць профіль
 profile-create-success = Цудоўна, профіль створаны!
 profile-close = Закрыць
+profile-explanation = Сачыце за сваім прагрэсам праз профіль і дапамажыце нашым галасавым дадзеным стаць больш дакладнымі.
+thanks-for-account = Дзякуем, што пацвердзілі ўліковы запіс, цяпер давайце створым ваш профіль.
+why-demographic = Чаму гэта важна?
 accept-privacy-title = Палітыка прыватнасці
 login-signup = Увайсці / Зарэгістравацца
 edit = Рэдагаваць
@@ -321,23 +332,55 @@ skip-submission-feedback = Прапусціць водгук пра адпраў
 off = Пакінуць
 on = Прапусціць
 avatar-clip-title = Дайце голас свайму аватару
+change-your-avatar-clip = Хочаце змяніць свой галасавы кліп?
+recording-in-progress = Ідзе запіс голасу
+avatar-clip-recorded = Ваш аватар цяпер мае галасавы кліп!
+record-voice-wave = ЗАПІСАЦЬ ГОЛАС
 retry-voice-wave-recording = ПАЎТАРЫЦЬ
 re-record = ПЕРАЗАПІСАЦЬ
 delete-voice = ВЫДАЛІЦЬ
+recording-voice-wave = Запіс
 delete-voice-clip = або Выдаліць галасавы кліп
 ready-to-upload = ЗАПАМПАВАЦЬ
+avatar-clip-fact = Даўно вядома, што ўвага чытача будзе адцягвацца на змест старонкі пры поглядзе на яе макет.
 cancel-avatar-clip-recording = СКАСАВАЦЬ
+about-avatar-clip-recording = Стварыць галасавы кліп для аватара вашага профілю. Іншыя ўдзельнікі змогуць навесці курсор на аватар і паслухаць ваш кліп.
 browse-file-title = Запампаваць відарыс
 connect-gravatar = Звязаць з Gravatar
+gravatar_not_found = Gravatar для вашай эл. пошты не знойдзены
+file_too_large = Выбраны файл занадта вялікі.
 add-language = Дадаць мову
 
 ## FAQ
 
+faq-title = Пытанні і адказы
 faq-what-cv-q = Што такое Common Voice?
+faq-why-important-q = Чаму гэта важна?
+faq-how-get-q = Як мне атрымаць дадзеныя Common Voice?
+faq-how-get-a = Набор дадзеных Common Voice даступны для спампоўвання пад ліцэнзіяй <licenseLink>CC0</licenseLink> на старонцы з <datasetLink>нашымі наборамі дадзеных</datasetLink>. На гэтай жа старонцы вы таксама можаце спампаваць некалькі іншых адкрыта даступных набораў дадзеных.
+faq-when-release2-q = Калі вы апублікуеце дадзеныя Common Voice на іншых мовах?
+faq-why-mission-q = Чаму Common Voice з'яўляецца часткай місіі Mozilla?
+faq-what-cv-and-deepspeech-q = У чым розніца паміж Common Voice і Deep Speech?
+faq-is-goal-assistant-q = Ці з'яўляецца мэтай Common Voice стварэнне галасавога памочніка?
+faq-why-different-speakers-q = Чаму для кожнай мовы патрабуецца столькі дыктараў?
+faq-why-my-lang-q = Чаму маёй мовы яшчэ няма?
+faq-how-calc-hours-q = Як Common Voice падлічвае гадзіны?
+faq-where-src-from-2-q = Адкуль бяруцца тэксты?
+faq-why-not-ask-read-q = Чаму б не папрасіць людзей агучваць кнігі альбо артыкулы Вікіпедыі на розных мовах?
+faq-why-account-q = Чаму мне варта завесці ўліковы запіс?
+faq-is-account-public-q = Ці з'яўляецца публічнай інфармацыя майго уліковага запісу?
+faq-how-privacy-q = Якім чынам вы забяспечваеце ананімнасць і прыватнасць людзей, якія ахвяравалі свае галасы?
+faq-what-determine-identity-q = Што значыць - мне нельга "вызначаць асобы" спікераў у наборы дадзеных Common Voice?
+faq-what-is-cv = Што такое Common Voice?
+faq-using-cv = Выкарыстанне Common Voice
+faq-search-for-answers =
+    .label = Шукаць адказы
 
 ## ABOUT US
 
+about-title = Чаму Common Voice?
 how-does-it-work-title = Як гэта працуе?
+about-listen-queue = Чарга праслухоўвання
 about-listen = Слухайце
 about-partners = Партнёры
 about-become-a-partner = Стаць партнёрам
@@ -346,6 +389,8 @@ about-nav-why-common-voice = Чаму?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнёры
 about-nav-get-involved = Прыняць удзел
+mycroft-title = Mycroft AI
+mycroft-subtitle = Штучны інтэлект
 
 ## Glossary
 
@@ -355,9 +400,27 @@ localization = Лакалізацыя
 ## NotFound
 
 notfound-title = Не знойдзена
+notfound-content = На жаль, я не ведаю, што вы шукаеце.
 
 ## Data
 
+data-download-button = Спампаваць дадзеныя Common Voice
+data-download-yes = Так
+data-download-deny = Не
+data-download-license = Ліцэнзія: <licenseLink>CC-0</licenseLink>
+data-download-modal = Вы збіраецеся спампаваць <size>{ $size } Гб</size>. Працягнуць?
+data-subtitle = Мы будуем адкрытую, агульнадаступную галасавую базу, якую кожны зможа выкарыстаць для распрацоўкі праграм з функцыяй распазнавання маўлення.
+data-explanatory-text = Мы верым, што вялікія агульнадаступныя базы галасавых дадзеных спрыяюць інавацыям і здаровай канкурэнцыі ў сферы тэхналогій маўлення. Гэта глабальная ініцыятыва, і мы запрашаем усіх удзельнічаць у ёй. Наша мэта – дапамагчы тэхналогіям маўлення стаць больш усеабдымнымі, каб у іх адлюстроўвалася разнастайнасць галасоў з усяго свету.
+data-get-started = <speechBlogLink>Пачаць працу з распазнаваннем маўлення</speechBlogLink>
+data-other-title = Іншыя наборы галасавых дадзеных…
+data-other-goto = Перайсці да { $name }
+data-other-download = Спампаваць дадзеныя
+review-submit-title = Праверыць і даслаць
+review-recording = Праверыць
+review-rerecord = Запісаць нанова
+review-cancel = Скасаваць пасылку
+review-keep-recordings = Захаваць запісы
+review-delete-recordings = Выдаліць мае запісы
 
 ## Datasets Page
 
@@ -379,25 +442,89 @@ confirm-no-identify = <b>Вы пагаджаецесь</b> не спрабава
 download-language = Спампаваць { $language }
 validated-hours = Спраўджана гадзін
 recorded-hours = Запісана гадзін
+whats-inside = Што ўваходзіць у набор дадзеных Common Voice?
+want-dataset-update = Хочаце атрымліваць паведамленні пра новыя версіі набору дадзеных Common Voice? Падпішыцеся на нашу рассылку.
+subscribe = Падпісацца
+other-datasets = Іншыя наборы галасавых дадзеных
+feedback-q = Ёсць заўвагі?
+data-other-librispeech-description = LibriSpeech – гэта корпус з прыблізна 1000 гадзін 16 кГц запісаў англійскага маўлення, атрыманых з чытання аўдыёкніг з праекта LibriVox.
+data-other-ted-name = Корпус TED-LIUM
+data-other-ted-description = Корпус TED-LIUM быў створаны з аўдыёзапісаў выступаў і іх транскрыпцый, даступных на сайце TED.
 
 ## Download Modal
 
+download-title = Ваша спампоўванне пачалося.
+download-helpus = Дапамажыце пабудаваць супольнасць вакол тэхналогій маўлення, падтрымлівайце сувязь па электроннай пошце.
+download-form-email =
+    .label = Увядзіце ваш адрас эл. пошты
+    .value = Дзякуем, будзем трымаць сувязь.
+download-back = Вярнуцца да набораў дадзеных Common Voice
+download-no = Не, дзякую
 
 ## Contact Modal
 
+contact-title = Форма сувязі
+contact-form-name =
+    .label = Імя
+contact-form-message =
+    .label = Паведамленне
+contact-required = *абавязкова
 
 ## Request Language Modal
 
+request-language-title = Запыт мовы
+request-language-form-language =
+    .label = Мова
+request-language-success-title = Запыт мовы паспяхова адасланы, дзякуем.
+request-language-success-content = У самым хуткім часе мы дашлем вам больш інфармацыі пра тое, як дадаць вашу мову ў Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = У працэсе
+language-section-in-progress-new-description = Мовы, што знаходзяцца ў працэсе, зараз рыхтуюцца нашымі супольнасцямі; іх прагрэс адлюстроўвае, у якім стане знаходзіцца <localizationGlossaryLink>лакалізацыя сайта</localizationGlossaryLink> і да якога этапу дайшоў <sentenceCollectionGlossaryLink>збор сказаў</sentenceCollectionGlossaryLink>.
+language-section-launched = Запушчана
+language-section-launched-description = Для гэтых ужо запушчаных моў быў паспяхова <localizationGlossaryLink>лакалізаваны</localizationGlossaryLink> сайт і <sentenceCollectionGlossaryLink>сабрана</sentenceCollectionGlossaryLink> дастаткова сказаў, каб можна было дапамагаць з іх <speakLink>Агучваннем</speakLink> і <listenLink>Праслухоўваннем</listenLink>.
+language-meter-in-progress = Прагрэс
+language-total-progress = Усяго
+language-search-input =
+    .placeholder = Пошук
+language-speakers = Дыктараў
 
 ## Contribution
 
+record-cta = Пачаць запіс
+record-platform-not-supported = На жаль, ваша платформа зараз не падтрымліваецца.
+record-platform-not-supported-desktop = На настольных камп'ютарах вы можаце спампаваць апошнюю версію:
+record-platform-not-supported-ios = Карыстальнікі <bold>iOS</bold> могуць спампаваць наша бясплатнае прыкладанне:
+record-must-allow-microphone = Вы мусіце дазволіць доступ да мікрафона.
+record-no-mic-found = Мікрафон не знойдзены.
+record-error-too-short = Запіс занадта кароткі.
+record-error-too-long = Запіс занадта доўгі.
+record-error-too-quiet = Запіс занадта ціхі.
+record-cancel = Адмяніць перазапіс
+record-instruction = { $actionType }<recordIcon></recordIcon>, потым прачытайце сказ услых
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>, калі скончыце
+record-three-more-instruction = Засталося тры!
+record-again-instruction = Выдатна! <recordIcon></recordIcon> Запішыце ваш наступны кліп
+record-again-instruction2 = Працягвайце, запішыце яшчэ <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Апошні!
+record-submit-tooltip = { $actionType } дашліце, калі будзе зроблена
 clips-uploaded = Кліпы загружаны
+record-abort-title = Спачатку скончыць запіс?
+record-abort-text = Калі вы выйдзеце зараз, ваш прагрэс будзе згублены
+record-abort-submit = Даслаць кліпы
+record-abort-continue = Скончыць запіс
+record-abort-delete = Выйсці і выдаліць кліпы
+listen-instruction = { $actionType }<playIcon></playIcon> ці правільна вымаўлены сказ?
+listen-3rd-time-instruction = Засталося два <playIcon></playIcon> , працягвайце!
+listen-last-time-instruction = <playIcon></playIcon> Апошні!
+nothing-to-validate = У нас няма нічога для праверкі на гэтай мове, дапамажыце нам запоўніць чаргу.
+record-button-label = Запішыце ваш голас
+share-title-new = <bold>Дапамажыце нам</bold> знайсці больш галасоў
 
 ## Reporting
 
+report-different-language-detail = Сказ напісаны не на той мове, на якой я размаўляю.
 
 ## Goals
 
@@ -423,6 +550,13 @@ not-receiving-emails-info = Вы <bold>НЕ</bold> будзеце атрымлі
 
 ## Profile Delete
 
+delete-q = Вы хочаце, каб вашы галасавыя дадзеныя таксама былі выдалены, ці вы жадаеце пакінуць іх у наборы дадзеных Common Voice?
+keep = Пакінуць
+remove = Выдаліць
+keep-info = Вашы ананімныя запісы голасу застануцца ў наборы дадзеных Common Voice. Пасля выдалення профіля вы больш не зможаце даслаць запыт на выдаленне вашых запісаў з набору дадзеных
+profile-form-delete = Выдаліць профіль
 
 ## Landing
 
+welcome-staff = Вітаем, супрацоўнік { $company }!
+login-company = Зарэгістравацца / ўвайсці з эл. поштай { $company }

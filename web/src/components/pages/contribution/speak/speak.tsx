@@ -22,6 +22,17 @@ import TermsModal from '../../../terms-modal';
 import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
 import { Button, TextButton } from '../../../ui/ui';
 import { isFirefoxFocus, isNativeIOS } from '../../../../utility';
+import {
+  CheckIcon,
+  FontIcon,
+  MicIcon,
+  StopIcon,
+  ArrowRight,
+  FirefoxColor,
+  ChromeColor,
+} from '../../../ui/icons';
+import { Button, TextButton, StyledLink, LinkButton } from '../../../ui/ui';
+import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -48,23 +59,42 @@ enum RecordingError {
 }
 
 const UnsupportedInfo = () => (
-  <div className="unsupported">
-    <Localized id="record-platform-not-supported">
-      <h2 />
-    </Localized>
-    <p key="desktop">
-      <Localized id="record-platform-not-supported-desktop">
+  <div className="empty-container">
+    <div className="error-card card-dimensions unsupported">
+      <Localized id="record-platform-not-supported" />
+      <p className="desktop">
+        <Localized id="record-platform-not-supported-desktop">
+          <span />
+        </Localized>
+      </p>
+      <div>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.firefox.com/" title="Firefox">
+          <FirefoxColor />
+        </a>{' '}
+        <a rel="noopener noreferrer" target="_blank" href="https://www.google.com/chrome" title="Chrome">
+          <ChromeColor />
+        </a>
+      </div>
+    </div>
+  </div>
+);
+
+const NoSentencesAvailable = () => (
+  <div className="empty-container">
+    <div className="error-card card-dimensions no-sentences-available">
+      <Localized id="speak-empty-state">
         <span />
       </Localized>
-      <a target="_blank" href="https://www.firefox.com/">
-        <FontIcon type="firefox" />
-        Firefox
-      </a>{' '}
-      <a target="_blank" href="https://www.google.com/chrome">
-        <FontIcon type="chrome" />
-        Chrome
-      </a>
-    </p>
+      <LinkButton
+        rounded
+        blank
+        href="https://common-voice.github.io/sentence-collector/">
+        <ArrowRight className="speak-sc-icon" />{' '}
+        <Localized id="speak-empty-state-cta">
+          <span />
+        </Localized>
+      </LinkButton>
+    </div>
   </div>
 );
 
@@ -73,6 +103,7 @@ interface PropsFromState {
   locale: Locale.State;
   sentences: Sentences.Sentence[];
   user: User.State;
+  isLoading: boolean;
 }
 
 interface PropsFromDispatch {
@@ -90,7 +121,7 @@ interface Props
     LocalizationProps,
     PropsFromState,
     PropsFromDispatch,
-    RouteComponentProps<any> {}
+    RouteComponentProps<any, any, any> {}
 
 interface State {
   clips: SentenceRecording[];
@@ -477,6 +508,21 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
+  private displayError = () => {
+    return (
+      this.isUnsupportedPlatform ||
+      (!this.props.isLoading && this.state.clips.length == 0)
+    );
+  };
+
+  private returnSpeakError = () => {
+    return this.isUnsupportedPlatform ? (
+      <UnsupportedInfo />
+    ) : (
+      <NoSentencesAvailable />
+    );
+  };
+
   private resetAndGoHome = () => {
     const { history, toLocaleRoute } = this.props;
     this.resetState(() => {
@@ -501,6 +547,7 @@ class SpeakPage extends React.Component<Props, State> {
       clipUploaded,
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
+
     return (
       <React.Fragment>
         {!clipUploaded && (
@@ -561,7 +608,7 @@ class SpeakPage extends React.Component<Props, State> {
         )}
         <ContributionPage
           activeIndex={recordingIndex}
-          errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
+          errorContent={this.displayError() && this.returnSpeakError()}
           instruction={props =>
             error ? (
               <div className="error">
@@ -662,11 +709,14 @@ class SpeakPage extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: StateTree) => {
+  const { sentences, isLoading } = Sentences.selectors.localeSentences(state);
+
   return {
     api: state.api,
     locale: state.locale,
-    sentences: Sentences.selectors.localeSentences(state),
+    sentences,
     user: state.user,
+    isLoading,
   };
 };
 

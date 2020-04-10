@@ -40,7 +40,7 @@ const CSP_HEADER = [
   `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
   // Note: we allow unsafe-eval locally for certain webpack functionality.
-  `script-src 'self' 'unsafe-eval' 'sha256-TEBuoeQjVIJIlj0uGgnIweazDG5TUKQQr0SKcXeX5zQ=' 'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.prod.mozaws.net https://fullstory.com https://edge.fullstory.com`,
+  `script-src 'self' 'unsafe-eval' 'sha256-yybRmIqa26xg7KGtrMnt72G0dH8BpYXt7P52opMh3pY=' 'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.prod.mozaws.net https://fullstory.com https://edge.fullstory.com`,
   `font-src 'self' https://fonts.gstatic.com`,
   `connect-src 'self' https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.prod.mozaws.net https://basket.mozilla.org https://basket-dev.allizom.org https://rs.fullstory.com https://edge.fullstory.com`,
   `frame-src https://optimize.google.com`,
@@ -412,28 +412,4 @@ export default class Server {
   async emptyDatabase() {
     await this.model.db.empty();
   }
-}
-
-// Handle any top-level exceptions uncaught in the app.
-process.on('uncaughtException', function(err: any) {
-  if (err.code === 'EADDRINUSE') {
-    // For now, do nothing when we are unable to start the http server.
-    console.error('ERROR: server already running');
-  } else {
-    // We will crash the app when getting unknown top-level exceptions.
-    console.error('uncaught exception', err);
-    process.exit(1);
-  }
-});
-
-process.on('unhandledRejection', r =>
-  console.error('unhandled promise rejection', r)
-);
-
-// If this file is run directly, boot up a new server instance.
-if (require.main === module) {
-  let server = new Server();
-  server
-    .run({ doImport: getConfig().IMPORT_SENTENCES })
-    .catch(e => console.log('error while starting server', e));
 }

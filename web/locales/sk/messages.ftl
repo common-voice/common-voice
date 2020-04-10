@@ -10,6 +10,7 @@ submit-form-action = Odoslať
 loading = Načítava sa…
 email-opt-in-info = Chcem dostávať e-maily, ako sú upozornenia na ciele, môj pokrok a novinky o službe Common Voice.
 email-opt-in-info-title = Pripojte so do emailovej skupiny Common Voice
+email-opt-in-info-sub-with-challenge = Dostávajte e-maily, ako sú upozornenia na ciele či výzvy, informácie o pokroku a novinky o službe Common Voice.
 email-opt-in-privacy = Rozhodnutím prijímať e-maily potvrdzujete svoj súhlas so spracovaním vašich údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia<privacyLink>.
 indicates-required = * označuje povinné pole
 not-available-abbreviation = N/A
@@ -81,6 +82,7 @@ kpv = komi-zyriančina
 ku = kurdčina
 kw = kornčina
 ky = kirgizština
+lg = gandčina
 lij = ligúrčina
 lt = litovčina
 lv = lotyština
@@ -104,6 +106,7 @@ pa-IN = pandžábčina
 pl = poľština
 pt = portugalčina
 rm-sursilv = rétorománčina (sursilvan)
+rm-vallader = rétorománčina (vallader)
 ro = rumunčina
 ru = ruština
 rw = rwandčina
@@ -222,6 +225,7 @@ x-years-short =
 help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú databázu
 sign-up-account = Vytvorte si účet
 email-subscription-title = prihláste sa k odberu noviniek
+email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, upozornení na ciele a aktualizáciám pokroku.
 
 ## Account Benefits
 
@@ -334,8 +338,10 @@ contribution-experience = Používateľský zážitok
 skip-submission-feedback = Preskočiť spätnú väzbu
 off = Vypnutá
 on = Zapnutá
+change-your-avatar-clip = Chcete zmeniť svoju nahrávku?
 recording-in-progress = Prebieha nahrávanie hlasu
 retry-voice-wave-recording = SKÚSIŤ ZNOVA
+re-record = NAHRAŤ ZNOVA
 delete-voice = VYMAZAŤ
 recording-voice-wave = Nahrávanie
 ready-to-upload = Nahrať
@@ -374,16 +380,21 @@ faq-what-quality-a = Chceme, aby dataset Common Voice odrážal kvalitu zvuku, k
 faq-how-calc-hours-q = Ako projekt Common Voice počíta nahrané hodiny?
 faq-how-calc-hours-a = Hodiny počítame odhadom priemernej dĺžky každého záznamu, ktorú potom vynásobíme celkovým počtom záznamov vo všetkých jazykoch.
 faq-where-src-from-2-q = Odkiaľ pochádza zdrojový text?
+faq-why-not-ask-read-q = Prečo nepožiadate ľudí, aby čítali z kníh alebo články na Wikipédii?
 faq-why-not-ask-read-a = Aby bol Common Voice dataset čo najužitočnejší, rozhodli sme sa prijímať len zdrojové texty dostupné pod licenciou Creative Commons (CC0). Použitie štandardu CC0 znamená, že je ťažšie nájsť a zozbierať zdrojový text, ale umožní komukoľvek použiť výsledné hlasové údaje bez obmedzení alebo povolení od Mozilly. V konečnom dôsledku chceme vytvoriť čo najužitočnejší mnohojazyčný dataset pre každého, vrátane vedcov, univerzít, startupov, vlád, sociálnych organizácii a hobbistov.
 faq-is-account-public-q = Sú informácie o mojom účte verejne prístupné?
 faq-how-privacy-a = Všetky hlasové klipy v datasete sú očistené od osobne identifikujúcich údajov . Keď prispievateľ poskytne demografické údaje prostredníctvom svojho profilu, tieto informácie sa de-identifikujú od jeho hlasových klipov predtým, než sa pridajú do datasetu na stiahnutie a nikdy sa na profilovej stránke nezverejnia.
 faq-what-determine-identity-q = Čo to znamená, že nemôžem „určiť identitu“ rečníkov v datasete Common Voice?
 faq-what-is-cv = Čo je Common Voice?
+faq-using-cv = Používanie projektu Common Voice
 faq-description = Projekt Common Voice je súčasťou iniciatívy Mozilly, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
+faq-search-for-answers =
+    .label = Hľadať
 
 ## ABOUT US
 
 about-title = Prečo Common Voice?
+how-does-it-work-title = Ako to funguje?
 about-clip-graveyard = Clip Graveyard
 about-partners = Partneri
 about-become-a-partner = Staňte sa partnerom
@@ -394,12 +405,17 @@ about-nav-partners = Partneri
 about-nav-get-involved = Zapojte sa
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Umelá inteligencia
+mycroft-description =
+    Mycroft je prvý open source hlasový asistent.
+    Mycroft funguje všade - na počítači, v aute aj v Raspberry Pi.
 
 ## Glossary
 
 glossary = Slovník
 localization = Lokalizácia
 sentence-collection = Zber viet
+sst = Prevod reči na text (STT)
+sst-explanation = Technológia prevodu reči na text (STT) prevádza hlasové dáta na text.
 
 ## NotFound
 
@@ -445,6 +461,7 @@ audio-format = Formát zvuku
 email-to-download = Pre prevzatie zadajte svoju e-mailovú adresu
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Súhlasíte</b>, že sa nebudete pokúšať zistiť identitu prispievateľov v datasete Common Voice.
 download-language = Prevziať jazyk { $language }
 subscribe = Odoberať
 feedback-q = Máte spätnú väzbu?
@@ -542,6 +559,8 @@ record-again-instruction = Skvelé! <recordIcon></recordIcon>Nahrajte váš ďal
 record-again-instruction2 = Vynikajúce, pokračujte v nahrávaní <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ešte naposledy!
 review-tooltip = Skontrolujte nahrávky a v prípade potreby ich opätovne nahrajte tu
+share-clip = Zdieľajte svoju nahrávku
+share-common-voice = Zdieľajte Common Voice
 review-instruction = Skontrolujte nahrávky a v prípade potreby ich nahrajte znova
 record-submit-tooltip = { $actionType } na odoslať keď budete hotoví
 clips-uploaded = Nahrávky boli nahrané
@@ -560,6 +579,14 @@ share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
 
 ## Reporting
 
+report-grammar-or-spelling = Gramatická chyba
+report-grammar-or-spelling-detail = Vo vete sa nachádza gramatická chyba alebo preklep.
+report-different-language = Iný jazyk
+report-offensive-speech = Urážky
+report-offensive-speech-detail = Nahrávka obsahuje urážky alebo nadávky.
+report-other-comment =
+    .placeholder = Komentár
+success = Hotovo
 continue = Pokračovať
 
 ## Goals
@@ -596,6 +623,8 @@ overall-accuracy = Celková presnosť
 
 ## Custom Goals
 
+want-to-continue = Chcete pokračovať?
+cant-decide = Nemôžete sa rozhodnúť?
 confirm-goal = Potvrdiť cieľ
 share-goal = Zdieľať môj cieľ
 

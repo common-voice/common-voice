@@ -470,14 +470,10 @@ about-partnership = Common Voice is a collaborative project, and we're depending
 
     We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Get involved
-about-get-involved-text = Want to help make Common Voice even better?
-    Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
-    submit feedback through <githubLink>GitHub</githubLink>,
-    or join us on <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 = Want to help make Common Voice even better?
-    Great! Get in touch via email or on <discourseLink>Discourse</discourseLink>,
-    submit feedback through <githubLink>GitHub</githubLink>,
-    or join us on <matrixLink>Matrix</matrixLink>.
+about-get-involved-text-2 = Want to help make Common Voice even better?
+    Great! Get in touch via email or <discourseLink>Discourse</discourseLink>
+    forums, submit site issues via <githubLink>GitHub</githubLink>, or join the
+    <matrixLink>Matrix</matrixLink> community chat.
 
 about-nav-why-common-voice = Why ?
 about-nav-how-it-works = How ?
@@ -646,8 +642,8 @@ contribute-more =
        *[other] Ready to do { $count } more?
     }
 record-cta = Start recording
-record-platform-not-supported = We’re sorry, but your platform is not currently supported.
-record-platform-not-supported-desktop = On desktop computers, you can download the latest:
+record-platform-not-supported = We’re sorry, your platform is not currently supported.
+record-platform-not-supported-desktop = On desktop devices you can contribute by downloading...
 record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
 record-must-allow-microphone = You must allow microphone access.
 record-no-mic-found = No microphone found.
@@ -662,6 +658,8 @@ record-again-instruction = Great!<recordIcon></recordIcon> Record your next clip
 record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last one!
 review-tooltip = Review & re-record clips here as you go
+share-clip = Share your clip
+share-common-voice = Share Common Voice
 review-instruction = Review & re-record clips if needed
 record-submit-tooltip = { $actionType } submit when ready
 clips-uploaded = Clips Uploaded
@@ -674,7 +672,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> did they accurately sp
 listen-again-instruction = Great work!<playIcon></playIcon> Listen again when you're ready
 listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Last one!
-nothing-to-validate = We don't have anything to validate in this language, help us fill the queue.
+listen-empty-state = We've run out of clips to validate in this language...
+speak-empty-state = We've run out of sentences to record in this language...
+speak-empty-state-cta = Contribute sentences
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 keep-track-profile = Keep track of your progress with a profile

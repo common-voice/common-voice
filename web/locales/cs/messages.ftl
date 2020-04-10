@@ -453,16 +453,11 @@ about-partnership =
     
     Rádi bychom poděkovali následujícím lidem a organizacím za jejich pomoc:
 about-get-involved = Zapojte se
-about-get-involved-text =
+about-get-involved-text-2 =
     Chcete pomoci projekt Common Voice dále zlepšovat?
     Skvěle! Spojte se s námi prostřednictvím e-mailu nebo na <discourseLink>Discourse</discourseLink>,
-    odešlete zpětnou vazbu skrz <githubLink>GitHub</githubLink>,
-    nebo se připojte na náš <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Chcete pomoci projekt Common Voice dále zlepšovat?
-    Skvěle! Spojte se s námi prostřednictvím e-mailu nebo na <discourseLink>Discourse</discourseLink>,
-    odešlete zpětnou vazbu skrz <githubLink>GitHub</githubLink>,
-    nebo se připojte na náš <matrixLink>Matrix</matrixLink>.
+    pošlete nám zpětnou vazbu skrze <githubLink>GitHub</githubLink>,
+    nebo se připojte na náš komunitní chat <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Proč?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partneři
@@ -656,6 +651,8 @@ record-again-instruction = Skvělé! <recordIcon></recordIcon> Nahrajte váš da
 record-again-instruction2 = Jen tak dál, pokračujte v nahrávání <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Poslední!
 review-tooltip = Zde zkontrolujte nahrávky a nahrajte je znovu
+share-clip = Sdílejte svou nahrávku
+share-common-voice = Sdílejte Common voice
 review-instruction = Zkontrolujte nahrávky a nahrajte je znovu, pokud to bude potřeba
 record-submit-tooltip = { $actionType } odeslat, až bude připraveno
 clips-uploaded = Nahrávky byly uloženy
@@ -668,7 +665,9 @@ listen-instruction = { $actionType } <playIcon></playIcon> byla věta nahrána p
 listen-again-instruction = Skvělá práce!<playIcon></playIcon> Až budete připraveni, můžete poslouchat znova
 listen-3rd-time-instruction = 2 máte za sebou, jen tak dál! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Poslední!
-nothing-to-validate = V tomto jazyce nemáme nic ke kontrole, pomozte nám naplnit frontu.
+listen-empty-state = Nahrávky ve vašem jazyce, které byste ještě mohli ověřovat, nám už bohužel došly...
+speak-empty-state = Věty, které byste mohli ve vašem jazyce nahrát, nám už bohužel došly...
+speak-empty-state-cta = Přidejte další věty
 record-button-label = Nahrajte svůj hlas
 share-title-new = <bold>Pomozte nám</bold> najít další hlasy
 keep-track-profile = Sledujte svůj pokrok pomocí profilu

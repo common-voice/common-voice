@@ -442,16 +442,11 @@ about-partnership =
     
     我们要感谢以下人员和组织对项目的帮助：
 about-get-involved = 参与进来
-about-get-involved-text =
+about-get-involved-text-2 =
     想要帮忙使 Common Voice 变得更好吗？
-    太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 留言、
-    通过 <githubLink>GitHub</githubLink> 提交反馈意见、
-    也可以加入我们的 <slackLink>Slack</slackLink>。
-about-get-involved-text-2020 =
-    想要帮忙使 Common Voice 变得更好吗？
-    太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 留言、
-    通过 <githubLink>GitHub</githubLink> 提交反馈意见、
-    也可以加入我们的 <matrixLink>Matrix</matrixLink>。
+    太好了！请发送电子邮件与我们联系，也可以到 <discourseLink>Discourse</discourseLink> 论坛留言、
+    通过 <githubLink>GitHub</githubLink> 反馈网站问题、
+    也可以加入我们的 <matrixLink>Matrix</matrixLink> 社区群组。
 about-nav-why-common-voice = 为什么？
 about-nav-how-it-works = 怎么做？
 about-nav-partners = 合作伙伴
@@ -529,7 +524,7 @@ number-of-voices = 录音人数
 splits = 分割
 email-to-download = 输入电子邮件地址进行下载
 why-email = <b>为什么需要电子邮件地址?</b>未来我们可能会联系您，提供数据集的相关更新信息。 邮件地址可作为我们联系您的方式。
-confirm-size = 您将下载 <size>{ $size }GB</size> 的文件
+confirm-size = 您将下载 <b>{ $size }</b> 的文件
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>您同意</b>不试图去确定 Common Voice 数据集中任何说话者的身份
@@ -638,6 +633,8 @@ record-again-instruction = 太棒了！<recordIcon></recordIcon> 来录制下一
 record-again-instruction2 = 继续加油，再录一次 <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> 最后一个！
 review-tooltip = 在此确认或重新录制片段
+share-clip = 分享您的录音片段
+share-common-voice = 分享 Common Voice
 review-instruction = 确认录音内容，有需要的话可以重录
 record-submit-tooltip = { $actionType } 确认无误即可提交
 clips-uploaded = 片段已上传
@@ -650,7 +647,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> 他们是否准确地�
 listen-again-instruction = 做得好！<playIcon></playIcon> 准备好就可以再听一遍
 listen-3rd-time-instruction = 完成两条了 <playIcon></playIcon>，继续加油！
 listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
-nothing-to-validate = 我们没有这个语言可供验证的录音，请帮助我们多录一些。
+listen-empty-state = 我们已经没有这种语言的片段可以验证了…
+speak-empty-state = 我们已经没有这种语言的文本可以录音了…
+speak-empty-state-cta = 贡献语句
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
 keep-track-profile = 创建账户跟踪个人贡献进度

@@ -448,16 +448,11 @@ about-partnership =
     
     Nous voudrions remercier les personnes et organisations suivantes pour leur aide dans le projet :
 about-get-involved = Participer
-about-get-involved-text =
+about-get-involved-text-2 =
     Vous voulez aider à améliorer Common Voice ?
-    Super ! Contactez-nous par courriel ou bien sur <discourseLink>Discourse</discourseLink>,
-    envoyez des commentaires sur <githubLink>GitHub</githubLink>,
-    ou rejoignez-nous sur <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Vous voulez aider à améliorer Common Voice ?
-    Super ! Contactez-nous par courriel ou bien sur <discourseLink>Discourse</discourseLink>,
-    envoyez des commentaires sur <githubLink>GitHub</githubLink>,
-    ou rejoignez-nous sur <matrixLink>Matrix</matrixLink>.
+    Super ! Contactez-nous par courriel ou bien sur les forums <discourseLink>Discourse</discourseLink>,
+    signalez des problèmes sur <githubLink>GitHub</githubLink>,
+    ou rejoignez la discussion communautaire sur <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Pourquoi ?
 about-nav-how-it-works = Comment ?
 about-nav-partners = Partenaires
@@ -628,7 +623,7 @@ shortcuts = Raccourcis
 clips-with-count = <bold>{ $count }</bold> extraits
 goal-help-recording = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalValue } enregistrements !
 goal-help-validation = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalValue } validations !
-contribute-more = Prêt à en faire { $count } de plus ?
+contribute-more = Prêt·e à en faire { $count } de plus ?
 record-cta = Commencer l’enregistrement
 record-platform-not-supported = Nous sommes désolés, mais votre plateforme n’est pas encore prise en charge.
 record-platform-not-supported-desktop = Pour les ordinateurs de bureau, vous pouvez télécharger le plus récent :
@@ -646,8 +641,10 @@ record-again-instruction = Formidable ! <recordIcon></recordIcon> Enregistrez v
 record-again-instruction2 = Continuez comme ça et enregistrez-en un de plus.
 record-last-instruction = <recordIcon></recordIcon> C’est le dernier !
 review-tooltip = Vérifier et réenregistrer au besoin
+share-clip = Partager votre enregistrement
+share-common-voice = Partager Common Voice
 review-instruction = Vérifiez et réenregistrez si nécessaire
-record-submit-tooltip = { $actionType } envoyer lorsque vous êtes prêt
+record-submit-tooltip = { $actionType } envoyer lorsque vous êtes prêt·e
 clips-uploaded = Clips mis en ligne
 record-abort-title = D’abord finir d’enregistrer ?
 record-abort-text = Quitter maintenant vous fera perdre votre progression
@@ -655,10 +652,12 @@ record-abort-submit = Envoyer les enregistrements
 record-abort-continue = Finir d’enregistrer
 record-abort-delete = Quitter et supprimer tous mes enregistrements
 listen-instruction = { $actionType } <playIcon></playIcon>, la phrase a-t-elle été correctement prononcée ?
-listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez à nouveau lorsque vous êtes prêt
+listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez à nouveau lorsque vous êtes prêt·e
 listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
 listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
-nothing-to-validate = Nous n’avons rien à valider dans cette langue, aidez-nous à ajouter quelques enregistrements dans la file d’attente.
+listen-empty-state = Nous n’avons plus d’échantillons à valider dans cette langue…
+speak-empty-state = Nous n’avons plus de phrases à enregistrer dans cette langue…
+speak-empty-state-cta = Proposer des phrases
 record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 keep-track-profile = Mesurez votre progression en créant un profil

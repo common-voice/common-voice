@@ -30,9 +30,7 @@ function* asBundleGenerator(
     const bundle = new FluentBundle(locale, { useIsolating: false });
     bundle.addMessages(
       messages +
-        (messageOverwrites && messageOverwrites[locale]
-          ? '\n' + messageOverwrites[locale]
-          : '')
+        (messageOverwrites?.[locale] ? '\n' + messageOverwrites[locale] : '')
     );
     yield bundle;
   }

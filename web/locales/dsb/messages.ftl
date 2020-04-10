@@ -454,12 +454,9 @@ about-partnership =
     
     Comy se slědujucym luźam a organizacijam za jich pomoc na projekśe źěkowaś:
 about-get-involved = Cyńśo sobu
-about-get-involved-text =
+about-get-involved-text-2 =
     Cośo pomagaś, Common Voice pólěpšyś?
-    Wjelicnje! Stajśo se z nami pśez e-mail abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo swóje komentary pśez <githubLink>Github</githubLink> abo woglědajśo se k nam na <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Cośo pomagaś, Common Voice pólěpšyś?
-    Wjelicnje! Stajśo se z nami pśez e-mail abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo swóje komentary pśez <githubLink>Github</githubLink> abo woglědajśo se k nam na <matrixLink>Matrix</matrixLink>.
+    Wjelicnje! Stajśo se z nami pśez e-mail abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelśo sedłowe problemy pśez <githubLink>Github</githubLink> abo woglědajśo se k nam w chaśe zgromaźeństwa <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Cogodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnarje
@@ -654,6 +651,8 @@ record-again-instruction = Wjelicny!<recordIcon></recordIcon> Nagrajśo swój p�
 record-again-instruction2 = Dalej tak, <recordIcon></recordIcon> znowego nagraś
 record-last-instruction = <recordIcon></recordIcon> Slědne!
 review-tooltip = How móžośo klipy pśeglědowaś a znowego nagraś
+share-clip = Waš klip źěliś
+share-common-voice = Common Voice źěliś
 review-instruction = Klipy pśeglědowaś a znowego nagraś, jolic trěbne
 record-submit-tooltip = { $actionType } wótpósłaś, gaž sćo gótowy
 clips-uploaded = Klipy nagrate
@@ -666,7 +665,9 @@ listen-instruction = { $actionType } <playIcon></playIcon> jo se sada korektnje 
 listen-again-instruction = Wjelicne źěło! <playIcon></playIcon> Słuchajśo znowego, gaž sćo gótowy
 listen-3rd-time-instruction = 2 zwónoźonej, <playIcon></playIcon> dalej tak!
 listen-last-time-instruction = <playIcon></playIcon> Slědny!
-nothing-to-validate = Njamamy nico, kótarež móžomy w toś tej rěcy pśekontrolěrowaś, pšosym pomagajśo nam cakański rěd połniś.
+listen-empty-state = Klipy su nam wujšli, kótarež se w toś tej rěcy pśeglěduja...
+speak-empty-state = Sady su nam wujšli, kótarež se w toś tej rěcy nagrawaju...
+speak-empty-state-cta = Sady pśinosowaś
 record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
 keep-track-profile = Slědujśo swójomu póstupoju z profilom

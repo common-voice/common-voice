@@ -17,7 +17,7 @@ import {
   ChallengeToken,
   challengeTokens,
   challengeTeamTokens,
-} from 'common/challenge';
+} from 'common';
 import URLS from '../../urls';
 
 import './welcome-modal.css';

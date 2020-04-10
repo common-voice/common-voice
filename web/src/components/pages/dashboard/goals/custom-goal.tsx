@@ -1,7 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { useState } from 'react';
-import { CustomGoalParams } from 'common/goals';
+import { CustomGoalParams } from 'common';
 import { useAccount, useAction, useAPI } from '../../../../hooks/store-hooks';
 import { User } from '../../../../stores/user';
 import Modal from '../../../modal/modal';

@@ -78,6 +78,8 @@ if (DOMAIN) {
         (({
           stage: 'https://voice.allizom.org',
           prod: 'https://voice.mozilla.org',
+          dev: 'https://dev.voice.mozit.cloud',
+          sandbox: 'https://sandbox.voice.mozit.cloud',
         } as any)[ENVIRONMENT] || '') + CALLBACK_URL,
       scope: 'openid email',
     },
@@ -119,7 +121,7 @@ router.get(
         session.passport.user = old_user;
       }
       response.redirect('/profile/settings?success=' + success.toString());
-    } else if (enrollment && enrollment.challenge && enrollment.team) {
+    } else if (enrollment?.challenge && enrollment.team) {
       if (
         !(await UserClient.enrollRegisteredUser(
           user.emails[0].value,

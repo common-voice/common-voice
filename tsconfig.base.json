@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "lib": ["es2017", "dom", "esnext.asynciterable"]
+  }
+}

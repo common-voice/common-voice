@@ -445,10 +445,11 @@ about-partners = Parteneri
 about-become-a-partner = Devino un partener
 about-partnership = Common Voice este un proiect de colaborare și depindem de comunitatea de parteneri și colaboratori ca să construim cel mai mare set de date vocale cu sursă deschisă. Am dori să mulțumim următoarelor persoane și organizații pentru ajutorul acordat în cadrul proiectului:
 about-get-involved = Implică-te
-about-get-involved-text =
+about-get-involved-text-2 =
     Vrei să ajuți la îmbunătățirea Common Voice?
-    Grozav! Ia legătura cu noi prin e-mail sau intră pe <discourseLink>Discourse</discourseLink>,
-    dă-ne feedback prin <githubLink>GitHub</githubLink> sau alătură-te pe <slackLink>Slack</slackLink>.
+    Grozav! Ia legătura prin e-mail sau pe FORUMURILE <discourseLink>Discourse</discourseLink>
+    trimite feedback prin <githubLink>GitHub</githubLink>
+    sau intră în chatul comunității <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = De ce?
 about-nav-how-it-works = Cum?
 about-nav-partners = Parteneri
@@ -642,6 +643,8 @@ record-again-instruction = Perfect!<recordIcon></recordIcon> Înregistrează urm
 record-again-instruction2 = Ține-o tot așa! Înregistrează din nou <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ultima!
 review-tooltip = Aici revezi și reînregistrezi secvențe vocale din mers
+share-clip = Partajează videoclipul
+share-common-voice = Partajează Common Voice
 review-instruction = Revezi și reînregistrează secvențe vocale dacă este nevoie
 record-submit-tooltip = { $actionType } trimite când ești gata
 clips-uploaded = Secvențe vocale încărcate
@@ -654,7 +657,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> a pronunțat corect pr
 listen-again-instruction = Ai lucrat bine!<playIcon></playIcon> Ascultă din nou când ești gata
 listen-3rd-time-instruction = Ai terminat 2. Ține-o tot așa!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ultima!
-nothing-to-validate = Nu avem nimic de validat în această limbă. Ajută-ne să umplem acest gol.
+listen-empty-state = Nu mai avem clipuri de validat în această limbă...
+speak-empty-state = Nu mai avem propoziții de înregistrat în această limbă...
+speak-empty-state-cta = Contribuie cu propoziții
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
 keep-track-profile = Urmărește-ți progresul cu ajutorul unui profil

@@ -454,12 +454,9 @@ about-partnership =
     
     Chcemy so slědowacym ludźom a organizacijam za jich pomoc na projekće dźakować:
 about-get-involved = Čińće sobu
-about-get-involved-text =
+about-get-involved-text-2 =
     Chceće pomhać, Common Voice polěpšić?
-    Wulkotnje! Stajće so z nami přez e-mejl abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelće swoje komentary přez <githubLink>Github</githubLink> abo wopytajće nas na <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Chceće pomhać, Common Voice polěpšić?
-    Wulkotnje! Stajće so z nami přez e-mejl abo na <discourseLink>Discourse</discourseLink>  do zwiska, sćelće swoje komentary přez <githubLink>Github</githubLink> abo wopytajće nas na <matrixLink>Matrix</matrixLink>.
+    Wulkotnje! Stajće so z nami přez e-mejl abo we forumach <discourseLink>Discourse</discourseLink>  do zwiska, sćelće sydłowe problemy přez <githubLink>Github</githubLink> abo wopytajće nas w chaće zhromadźenstwa <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Čehodla?
 about-nav-how-it-works = Kak?
 about-nav-partners = Partnerojo
@@ -654,6 +651,8 @@ record-again-instruction = Wulkotne! <recordIcon></recordIcon> Natočće swój p
 record-again-instruction2 = Dale tak, <recordIcon></recordIcon> znowa natočić
 record-last-instruction = <recordIcon></recordIcon> Poslednje!
 review-tooltip = Tu móžeće klipy přepruwować a znowa natočić
+share-clip = Waš klip dźělić
+share-common-voice = Common Voice dźělić
 review-instruction = Klipy přepruwować a znowa natočić, jeli trěbne
 record-submit-tooltip = { $actionType } wotpósłać, hdyž sće hotowy
 clips-uploaded = Natočenja nahrate
@@ -666,7 +665,9 @@ listen-instruction = { $actionType } <playIcon></playIcon> je so sada korektnje 
 listen-again-instruction = Wulkotne dźěło! <playIcon></playIcon> Słuchajće znowa, hdyž sće hotowy
 listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!
 listen-last-time-instruction = <playIcon></playIcon> Poslednje!
-nothing-to-validate = Nimamy ničo, kotrež móžemy w tutej rěči přepruwować, prošu pomhajće nam čakanski rynk pjelnić.
+listen-empty-state = Klipy su nam wušli, kotrež so w tutej rěči přepruwuja...
+speak-empty-state = Sady su nam wušli, kotrež so w tutej rěči natočeja...
+speak-empty-state-cta = Sady přinošować
 record-button-label = Nahrajće swój hłós
 share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
 keep-track-profile = Slědujće swojemu postupej z profilom

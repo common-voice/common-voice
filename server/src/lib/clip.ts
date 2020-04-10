@@ -13,7 +13,7 @@ import Bucket from './bucket';
 import { ClientParameterError } from './utility';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
-import { ChallengeToken } from 'common/challenge';
+import { ChallengeToken, challengeTokens } from 'common';
 
 const Transcoder = require('stream-transcoder');
 
@@ -101,7 +101,7 @@ export default class Clip {
     // response.json(ret);
 
     Basket.sync(client_id).catch(e => console.error(e));
-    const ret = challenge
+    const ret = challengeTokens.includes(challenge)
       ? {
           glob: glob,
           showFirstContributionToast: await earnBonus('first_contribution', [
@@ -197,7 +197,7 @@ export default class Clip {
       Basket.sync(client_id).catch(e => console.error(e));
 
       const challenge = headers.challenge as ChallengeToken;
-      const ret = challenge
+      const ret = challengeTokens.includes(challenge)
         ? {
             filePrefix: filePrefix,
             showFirstContributionToast: await earnBonus('first_contribution', [

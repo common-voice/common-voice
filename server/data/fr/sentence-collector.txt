@@ -1854,6 +1854,7 @@ Après avoir quitté le docteur, je passai le reste de la journée avec Fabian.
 Après de tels ravages, ce restaurant s’est vendu une bouchée de pain.
 Après des heures de stress.
 Après deux mois d'attente, le permis à été accepté
+Après dix mille phrases, vos enregistrements sont inutiles !
 Après du manoir jaune ma fuite, chez une amie sourde je me suis réfugiée.
 Après je suis plutôt avec toi sur ce coup.
 Après j’ai commencé à aimer ça.
@@ -1867,6 +1868,7 @@ Après la porte, un couloir
 Après le grabuge, il y aura des places vides et bonnes à briguer.
 Après le succès initial, la société de consulting en ingêneries s’est diversifiée.
 Après le travail le repos.
+Après les enchères, la cérémonie continue.
 Après les goûts ils échangèrent les peaux.
 Après l’autoradio mais avant le café.
 Après l’horrible chute, l’incendie plus horrible encore !
@@ -1891,6 +1893,7 @@ Après tout, maintenant, tu ne me sers plus à rien.
 Après tout, n’était-ce pas là leur but ?
 Après tout, qui ne serait pas disposé à payer un montant aussi modique ?
 Après trois quarts d’heure de marche, nous voilà arrivés.
+Après un certain temps, il faut valider au lieu d’enregistrer les phrases.
 Après un corridor à crépi lézardé, ils pénétrèrent dans le tumulte.
 Après vingt minutes de bagarre intensive, je ne vois pas de sang.
 Après vingt minutes de bagarre intensive.
@@ -2147,6 +2150,7 @@ Au besoin, nous l’aurions contraint à regagner les hauteurs du Sneffels !
 Au bonsaï délaissé qui croît sans beauté, il faut couper la tête.
 Au bord de la rivière, c’est bien l’été, pour arroser.
 Au bout d'un moment, il faut prendre une décision.
+Au bout d'une quarantaine de kilomètres, la voiture s'arrête net.
 Au bout de ces trois vers, il s’interrompit.
 Au bout de cette heure, la tante Gillenormand dit : — Joli !
 Au bout de dix jours, le vingt-deux novembre, Harbert allait sensiblement mieux
@@ -4326,6 +4330,7 @@ C'est MartinFulbert qui me l'a expliqué.
 C'est absurde de n'avoir pas pris plus de précautions.
 C'est ainsi qu'ont commencé mes vingt-huit jours de châtiment.
 C'est ainsi que Rome récompense les curés trop savants.
+C'est alors que je vis ma future belle-mère.
 C'est assez difficile à formuler.
 C'est au tour de Ghislain de sortir.
 C'est aujourd'hui qu'a commencé mon jugement.
@@ -6108,6 +6113,7 @@ Cela causerait sa perte.
 Cela comblait son malheur, de se retrouver entre ces deux hommes.
 Cela commence par un baiser, dit Blachevelle.
 Cela commence à chauffer dès que l’air sèche le liquide gouttant du testicule.
+Cela commença par des témoignages puérils.
 Cela complétait sa béatitude, quelquefois agacée par les piqûres lancinantes de sa plaie.
 Cela concorde définitÎvement avec mes vingt et un ans.
 Cela continua ainsi quelque temps.
@@ -6385,6 +6391,7 @@ Cela presse, fit Joe.
 Cela présage quelque événement grave !
 Cela produit souvent des effets… extraordinaires !
 Cela prouve les soins ingénieux avec lesquels Saknussemm a voulu préciser sa découverte.
+Cela provoque une surcharge importante des réseaux.
 Cela pue le crime !
 Cela regarde la justice.
 Cela regarde mon maître !
@@ -6962,6 +6969,7 @@ Certainement, puisque tu t’occupes de politique, maintenant.
 Certainement, répondit le marin
 Certainement, un quart d’heure ne se passerait pas avant qu’ils fussent engloutis…
 Certaines circonstances peuvent se produire…
+Certaines cybermonnaies sont convertibles en monnaie régalienne via des plateformes d’échanges.
 Certaines des victimes présentaient des traces de viols.
 Certaines la mettent en bouteille pour mieux la millésimer.
 Certaines m'ont même fait l'honneur de partir en dépression.
@@ -8606,6 +8614,7 @@ Comment fait-il pour être ici, le vieux joueur ?
 Comment fait-on le contrôle ?
 Comment faites-vous pour avoir de si beaux oignons ?
 Comment faites-vous pour localiser les champs quand ils se produisent ?
+Comment ferais-tu, puisque tu ne connais même pas le chemin ?
 Comment feut procéde en l’endroict de cettuy démon femelle
 Comment glaner ces loques sans y voir clair ?
 Comment identifier le moment où l’artiste gagne de l’argent, par exemple ?
@@ -9995,6 +10004,7 @@ C’est le livre de monsieur que lit monsieur !
 C’est le lézard.
 C’est le mari de Diane !
 C’est le mariage que je demande.
+C’est le meilleur moyen de lutter contre le coronavirus.
 C’est le meilleur moyen pour qu’on se fasse emmerder.
 C’est le meilleur.
 C’est le mien ! …
@@ -11763,6 +11773,7 @@ De gens qu'on ne peut pas manipuler par la noosphère.
 De gens qu’on ne peut pas manipuler par la noosphère.
 De grandes échappées de soleil se prolongeaient entre les nuages qui se déplaçaient rapidement.
 De grands arbres touffus ombrageaient le jardin.
+De grands bateaux défilent avec lenteur.
 De grands branchages s’y dressaient affreusement.
 De grands feux, page cinquante-huit.
 De grands rendez-vous
@@ -12512,6 +12523,7 @@ Des feux flambaient sous les arbres.
 Des fibres plein son placard, au moins cent mètres carrés de moquette.
 Des figures martiales le dévisageaient avec dédain.
 Des filous ! grogna Levaque.
+Des fils électriques pendent dans toutes les pièces.
 Des flèches, des arcs ! dit Pencroff avec une moue dédaigneuse
 Des flots sourds au loin roulent.
 Des fluides dégueulasses dans son paddock, et sans doute sous la cuvette des ouatères.
@@ -12634,6 +12646,7 @@ Des nouvelles de ton Weber ?
 Des nuages écrasés sur l’horizon le dérobaient à nos yeux.
 Des objets qui ont des identités très marquées.
 Des objets vieux, chargés de sens, et souvent raffinés.
+Des obstacles surgirent, jusqu'au dernier moment, devant mon ardeur à partir.
 Des oiseaux ! fit le docteur en saisissant sa lunette.
 Des oiseaux de nuit s’élevaient au-dessus des bois
 Des oiseaux de paradis ! m’écriai-je.
@@ -17271,6 +17284,7 @@ Ensuite vous ferez de moi ce que vous voudrez.
 Ensuite, Lucien avait râlé sur l’inconfort du futon, qu’il trouvait trop dur.
 Ensuite, ce fut la halte, le piétinement, le murmure confus.
 Ensuite, ce n’est pas tout, dit Europe.
+Ensuite, dans trois ou six mois au plus tard, nous repartirons.
 Ensuite, dissertant sur les intérêts du commerce, il peigna ses favoris blonds et poussiéreux.
 Ensuite, et seulement ensuite, on peut avancer ses pions.
 Ensuite, il n’y eut plus rien.
@@ -19405,6 +19419,7 @@ Et puis, la route poudroie, rien n’arrive…
 Et puis, madame Charles est heureuse de revoir la maison.
 Et puis, mes amis, il faut tout prévoir
 Et puis, nous revenons sur notre route, au lieu d’aller en avant !
+Et puis, nous verrons sur place comment les choses se présenteront.
 Et puis, on verra Dieu.
 Et puis, pas de gages — entendez-vous, mon garçon
 Et puis, quand on est triste, on mange moins.
@@ -22819,6 +22834,7 @@ Il est certain que la jeune fille le regardait.
 Il est certain que rien n’est plus simple, répondit Pencroff
 Il est certain, Seigneur, que seul vous le savez.
 Il est chauve, ajouta-t-il en se baissant ; c’est un vieillard !
+Il est cinq heures du matin, le bateau stoppe en pleine mer.
 Il est comme assis, adossé à un morceau de béton explosé.
 Il est connu de tous !
 Il est connu pour ses narrations à la temporalité éclatée.
@@ -22898,6 +22914,8 @@ Il est intelligent dans les affaires ?
 Il est intervenu comme l’archange.
 Il est inutile de parler du service.
 Il est inutile de vous inquiéter.
+Il est inutile d’enregistrer plus de cinq mille phrases.
+Il est inutile d’enregistrer trop de phrases.
 Il est ivre, et toi aussi.
 Il est jaloux comme un bourgeois.
 Il est le contraire.
@@ -23652,6 +23670,7 @@ Il faut rattraper ce gredin ! …
 Il faut refaire deux rais et un moyeu.
 Il faut rejetter les contre-façons.
 Il faut remourir tous les jours.
+Il faut rendre hommage à tout le personnel médical.
 Il faut reprendre de plus haut.
 Il faut reprendre les devants.
 Il faut rester maître de la situation.
@@ -25669,6 +25688,7 @@ Il reviendra, dit Cyrus Smith.
 Il reviendra, » répondit l’ingénieur
 Il revient ! docteur, il revient ! cria Marius.
 Il revient se jeter sur le corps de Blanche.
+Il revient tout gêné dans l'après-midi.
 Il revient vers l’Europe, qu’il nous y conduise.
 Il revint avec Florent dans le pavillon.
 Il revint prudemment vers la petite troupe.
@@ -26431,6 +26451,7 @@ Il vaut mieux que je reste moimême Drôle d'idée.
 Il vaut mieux que vous.
 Il vaut mieux se quitter quelques instants, et se retrouver ensuite.
 Il vaut mieux s’en faire un ami, car il est redoutable, dit Rastignac.
+Il vaut mieux valider que d’enregistrer trop de phrases.
 Il veillait sur sa vertu.
 Il veillerait à se rendre indispensable.
 Il venait à peine de se faire une foi ;
@@ -26725,6 +26746,7 @@ Il y a pire que les gens qui écoutent ce que tu leur dis.
 Il y a plus longtemps qu’il souffre.
 Il y a pour moi sur la terre une femme, c’est vous.
 Il y a quatre jours
+Il y a quatre jours de traversée.
 Il y a quatre jours.
 Il y a que ce n’est pas moi qui ai fait ce nœud
 Il y a que ce n’est pas moi qui ai fait ce nœud !
@@ -27020,6 +27042,7 @@ Il y eut une rumeur de consternation.
 Il y eut une sorte d’intervalle comme lorsqu’on prend position.
 Il y existe encore des castes.
 Il y faisait chaud, et il y trouva un assez bon lit de paille.
+Il y faisait souvent allusion.
 Il y fait assez noir.
 Il y fait un peu jour vers midi.
 Il y fut aussi fait, pendant cette saison, une guerre terrible aux jaguars
@@ -27337,6 +27360,7 @@ Ils me disent de me reposer, continua-t-il.
 Ils me font de la peine, tant ils se portent bien.
 Ils me permettent d’expérimenter jusque dans la forme du texte.
 Ils me regardent et essaient de ne pas rire.
+Ils me supplient de rester, promettent d'exécuter tous mes désirs dorénavant.
 Ils me tiennent en haute estime, tu sais…
 Ils me tinrent les mains, et pendant quelques instants, je respirai avec volupté.
 Ils menacèrent de descendre et de s'en mêler.
@@ -27449,6 +27473,7 @@ Ils ne vont pas tarder à rentrer ?
 Ils ne voulaient ni l’un ni l’autre quitter la place.
 Ils notaient les habitudes de la bignole aussi.
 Ils nous avaient retrouvés.
+Ils nous demandent d'attendre trois jours.
 Ils nous donnèrent des vêtements et des vivres.
 Ils nous ont raconté ça.
 Ils nous ont retrouvés.
@@ -27690,6 +27715,7 @@ Ils se valent tous deux.
 Ils secourent les pauvres, ils soignent les malades.
 Ils semblaient avoir acquis le double de leur volume ordinaire.
 Ils semblaient avoir repris espoir.
+Ils semblent ahuris par ma proposition, mais ils l'acceptent.
 Ils semblent inquiets, monsieur Smith
 Ils semblent inquiets, monsieur Smith.
 Ils sentaient un danger prochain.
@@ -28091,6 +28117,7 @@ J'ai fini mon bouquin, je te le passe ?
 J'ai foiré mon examen de maths.
 J'ai gagné plein d'argent dans les bitcoin.
 J'ai garé la voiture dans la rue.
+J'ai horreur des pays froids, brumeux, sans lumière.
 J'ai hâte d'aller m'allonger au bord de la piscine.
 J'ai inventé la rééducation par auto-électrochocs.
 J'ai inventé la rééducation par autoélectrochocs.
@@ -28256,6 +28283,7 @@ J'entends déjà du bruit dans l'escalier.
 J'entends le bruit des vagues à mes pieds.
 J'entends marcher dans le lointain.
 J'entends mes voisins quand ils font crac crac.
+J'erre longtemps sur la plage, puis je me promène sur une longue route.
 J'espère juste que Miss Marquet s'en est sortie.
 J'espère ne pas choquer des gens
 J'espère pour lui qu'il n'a jamais eu d'hémorroïdes.
@@ -28269,6 +28297,7 @@ J'ignorais complètement cette visite que je n'aurais pas permise.
 J'imagine Jérusalem et ses rues étroites, ses maisons orientales, carrées, basses et blanches.
 J'imagine la scène vue par elle.
 J'imagine que personne n'a jamais osé le lui dire.
+J'insiste pour qu'on cesse de tergiverser.
 J'insiste, ce sont les femelles qui piquent.
 J'investi dans le haut de gamme.
 J'irais bien passer une semaine de vacances à New-York.
@@ -28285,6 +28314,7 @@ J'y retournerai tant que vous voudrez.
 J'y suis
 J'y étais encore mieux qu'ici.
 J'échappe à tous les ennuis et à tous les bruits fatigants.
+J'éclate de rire, je hausse les épaules.
 J'écris ce billet à Toulouse.
 J'étais décidé à m'engager dans cette aventure coûte que coûte.
 J'étais le notaire de votre père, je compte bien devenir le vôtre.
@@ -28833,6 +28863,7 @@ Je découvre ce roman au fur et à mesure.
 Je défie quiconque de m'offrir un bouquin de Françoise Dolto.
 Je défie quiconque de m’offrir un bouquin de Françoise Dolto.
 Je déplie mes jambes.
+Je désire également me documenter sur les dates de départ des bateaux.
 Je déteste les manœuvres.
 Je dévale un escalier comme si mon fauteuil était un tout-terrain.
 Je dévale un escalier comme si mon fauteuil était un toutterrain.
@@ -28840,6 +28871,7 @@ Je est la croyance tenace que tout du long, j’ai eu le choix.
 Je est ma chimère.
 Je est présente quand il se fait enlever.
 Je est un conte qui.
+Je fais au mieux pour éviter tout faux pas.
 Je fais bouger les idées en moi.
 Je fais ici un aveu frontal : je ne me suis jamais posé ces questions.
 Je fais mieux que d’y venir, j’y suis.
@@ -28894,6 +28926,7 @@ Je forcerai le blocus de l’un des ports du Sud.
 Je forçai le professeur à promener sa lampe sur les parois de la galerie.
 Je fouillerai, dit Gringoire, tout ce qu’il vous plaira.
 Je foulais un granit sec et raboteux !
+Je franchis la porte du premier hôtel venu.
 Je frappai à sa porte.
 Je frappai de nouveau, puis je tournai le bouton.
 Je frémissais à la pensée de m’égarer dans les profondeurs de ce labyrinthe.
@@ -29433,6 +29466,7 @@ Je me préparai à noter tous les résultats de l’expérience.
 Je me préparai à remplir mon rôle, non sans une certaine émotion.
 Je me projetais partout, dans ce Palais.
 Je me promenai pendant quelques instants du salon à la bibliothèque.
+Je me précipite dans une voiture avec mes pauvres bagages.
 Je me prépare pour le marathon de Londres.
 Je me pèse tous les jours pour voir si je perds du poids.
 Je me rabattrai sur la fille du maire, pensa Bongrand.
@@ -29649,6 +29683,7 @@ Je m’y retrouve au moins.
 Je m’énerve à l’attendre ainsi !
 Je m’épile même les aisselles, ça craint…
 Je m’étais faite belle pour— — Pardon ?
+Je n'accepte évidemment pas ces conseils.
 Je n'admets pas le droit que tu t'arroges de piquer ma curiosité.
 Je n'ai jamais été si ému de ma vie
 Je n'ai jamais vu de fête pareille.
@@ -30885,6 +30920,7 @@ Je rencontre Enguerrand et Fulnicolas dans les réunions d’anonymes émotifs.
 Je rencontre un bourgeois.
 Je renonce aux triomphes du barreau.
 Je renonce à peindre l’impuissante colère du professeur Lidenbrock.
+Je renonçai à prendre mes repas, comme auparavant, dans ma chambre.
 Je rentrai dans ma chambre très-intrigué, on le conçoit.
 Je rentrai dans ma chambre.
 Je rentre chez moi.
@@ -31322,6 +31358,7 @@ Je suis même allée jusqu’à sonder le facteur : rien.
 Je suis noble, l’ami.
 Je suis né d’ici, de ce royaume où mord le vent.
 Je suis né en mille neuf-cent soixante-treize.
+Je suis née à Bayonne, de famille basque.
 Je suis pair d’Angleterre, et nous nous battrons.
 Je suis pair d’Angleterre.
 Je suis parmi ceux qui jouissent et avec ceux qui souffrent.
@@ -31592,6 +31629,7 @@ Je tiens à te remercier.
 Je tirerais sur lui comme sur un chien enragé, Nab, répondit froidement Pencroff
 Je tombai dans un profond assoupissement.
 Je tombai de cheval.
+Je tombai des nues !
 Je tourne autour des grandes lèvres sans y aller.
 Je toussais, on devenait brave.
 Je tousse, je sens que je m’en vas…
@@ -31847,6 +31885,7 @@ Je veux dire… je savais bien que c’était une maison spéciale.
 Je veux en avoir le coeur net.
 Je veux en avoir le cœur net.
 Je veux essayer des sauvages.
+Je veux faire le voyage cette année-ci.
 Je veux faire les choses bien, sans me tromper.
 Je veux juste être à vos côtés.
 Je veux la garder.
@@ -32034,11 +32073,13 @@ Je voulais l’obliger à se lever.
 Je voulais pas être une victime de son absence.
 Je voulais seulement vous en parler.
 Je voulais simplement vous…
+Je voulais sortir seule.
 Je voulais te dire que ces putains de chats.
 Je voulais te décrire Fulbert.
 Je voulais vous dire des choses que je ne sais plus du tout.
 Je voulais vous donner ça avant que de vous laisser.
 Je voulais vous emmener sur la symbolique, très forte, de la rue.
+Je voulais éviter de lier conversation avec elle.
 Je voulais être heureux un peu plus que mes parents.
 Je voulus bien ne pas contredire cette assertion.
 Je voulus fixer dans mon esprit une impression suprême.
@@ -33211,6 +33252,7 @@ J’ajouterai que je ne pouvais en aucune façon arguer de notre santé.
 J’ajouterai que nos observations personnelles ne peuvent que me confirmer dans cette opinion.
 J’allai à lui.
 J’allai le trouver.
+J’allai me cacher sous un pont où je me sentais plus libre.
 J’allai vers le capitaine.
 J’allais donc mourir de faim.
 J’allais et venais, espérant calmer par le mouvement le trouble de mon esprit.
@@ -33843,6 +33885,7 @@ L'enfant qui étonna les docteurs possède le moyen de réveiller un cataleptiqu
 L'ennui est une coque solide.
 L'enthousiasme des boutiquiers devint une frénésie étourdissante.
 L'entretoise est positionnée telle la lettre H.
+L'entrevue eut lieu chez d'autres cousins.
 L'entrée du général Héricourt n'interrompit rien de ce piquant dialogue.
 L'envie de faire taire Laly en la faisant hurler.
 L'environnement extérieur n'est pas très engageant avec toutes ces tours.
@@ -34265,6 +34308,7 @@ La clarté du dehors ne distrait pas mon âme.
 La clarté du dehors… »
 La clef de la Porte-Rouge
 La clef de la porte ?
+La cloche avait sonné, la sirène avait déchiré l'air.
 La cloche continua de sonner.
 La cloche de la passerelle tintait à ce moment.
 La cloche du port
@@ -34373,6 +34417,7 @@ La cuisson sera plus rapide dans un autocuiseur
 La culbute est fatalement au bout.
 La culpabilité qui crispe mes pommettes et ride mon front.
 La cupidité des banques dépasse parfois l'entendement.
+La cybermonnaie ne doit pas être confondue avec la monnaie électronique.
 La cérémonie a eu lieu ici, dans le manoir.
 La cérémonie a eu lieu ici.
 La cérémonie fut accomplie avec une grande pompe.
@@ -35538,6 +35583,7 @@ La rue, c’est donc un collectif, une construction commune.
 La rumeur arrivait du Palais-Royal.
 La réaction en chaîne est déclenchée.
 La réalité c'est s'enfermer dans les chiottes.
+La réalité reprend toujours ses droits.
 La réalité, c’est sortir enfin devant le regard inquisiteur de Ghislain.
 La régulation et le contrôle de l’État ont dû être réduits au maximum.
 La réplique vient de The Crow, film d’Alex Proyas.
@@ -36433,6 +36479,7 @@ Le bien, le mal, le profane, le sacré…
 Le bien-être de l’homme
 Le bien-être matériel de la colonie était pour ainsi dire complet
 Le billet de banque de l’archipel est invariablement d’une livre sterling.
+Le bitcoin est l’une des principales cybermonnaies.
 Le blanc se proclame le premier des hommes !
 Le bleu dans le noir
 Le blé, qui est à dix-huit francs l’hectolitre
@@ -36906,6 +36953,7 @@ Le comte s'était levé.
 Le comte s'évertuait à dire son amour, et à triompher là-dessus.
 Le comte était redevenu grave.
 Le condor devenait plus visible d’instants en instants.
+Le confinement a débuté le mardi quinze mars à midi.
 Le connaissez-vous, monsieur !
 Le connestable d’Armignac Lavieille cent quarante-cinq cent trente.
 Le connestable interrogue ses gens Michel cent cinquante cent trente-cinq.
@@ -37734,6 +37782,7 @@ Le malheureux, provoquant l’éclair de sa pointe, avait-il donc été foudr
 Le mandat devenait inutile !
 Le manomètre lui manquait, et nulle estime ne pouvait le suppléer.
 Le manomètre marqua dix atmosphères.
+Le manque de diversité diminue l’efficacité du jeu de données.
 Le manque d’eau, dit-il
 Le manque d’eau.
 Le manque d’intérêt.
@@ -37863,6 +37912,7 @@ Le mobilier passe-partout et moderne provenait d’un grand magasin suédois.
 Le mode de déplacement privilégié par ces habitants me laisse perplexe.
 Le mode de ventilation du navire était donc parfaitement reconnu.
 Le mode « je suis avec moi ».
+Le modèle n’exploite que les premières phrases enregistrées.
 Le moindre attouchement de ce colosse eût été désastreux.
 Le moindre centimètre carré de la semi était exploité.
 Le moindre changement indésiré en ces hommes pourrait nous être fatal.
@@ -38126,6 +38176,7 @@ Le personnage de Phœbus introduit dans le drame lui donne alors toute son ample
 Le personnage d’Enguerrand y fait sa première apparition.
 Le personnage noir se leva. — Mort et passion ! vous me faites bouillir, Gringoire.
 Le personnage qui entra avait une robe noire et la mine sombre.
+Le personnel de la banque en reste pantois.
 Le personnel enseignant devait rester au complet.
 Le personnel funéraire aux souvenirs évasifs.
 Le personnel lui assurait qu’il avait toujours bon pied bon œil.
@@ -38618,6 +38669,7 @@ Le second offrait tous les signes d’un engraissement judicieux.
 Le second plan de collines ne pouvait être loin.
 Le second profita de cette éclaircie pour prendre sa hauteur.
 Le second s’appeloyt Peccard, et vendoyt des doreloteries, dominoteries et ioyaulx d’ecclise.
+Le second tour des élections a été reporté en juin.
 Le second, celui de Flaypol.
 Le second, engravé sous le vent, résista quelques jours.
 Le second, juché sur la passerelle, bien enveloppé de son caoutchouc, faisait le quart.
@@ -39010,6 +39062,7 @@ Le travail d’appropriation fut rapidement exécuté, et Pencroff s’en dé
 Le travail embryonnaire de l’avenir est une des visions du philosophe.
 Le travail est la loi ; qui le repousse ennui, l’aura supplice.
 Le travail fut immédiatement commencé et conduit avec une infatigable opiniâtreté.
+Le travail m’attirait, par un ardent besoin de savoir.
 Le travail n’avait repris nulle part.
 Le travail récompense.
 Le treize août, on se réveilla de bon matin.
@@ -39050,6 +39103,7 @@ Le typhus est une annexe du triomphe.
 Le téléphone de Momo sonna de nouveau.
 Le téléphone sonna de nouveau.
 Le téléphone sonna et il attrapa le combiné.
+Le télétravail a été généralisé depuis hier.
 Le télétravail se développe de plus en plus.
 Le vacarme redoubla, des voix partaient de toutes parts.
 Le vaigrage et le pont du bateau furent entièrement finis vers le quinze septembre
@@ -40049,6 +40103,7 @@ Les foetus de Kangourou sont un peu dégoûtant.
 Les foissi, reprit le baron en tirant un billet de sa poche.
 Les forces lui revenaient à vue d’œil, tant sa constitution était vigoureuse
 Les forces ne nous manquent pas, et il faut en profiter.
+Les formalités reprennent au point où elles avaient été interrompues.
 Les formidables coups de queue qui frappaient ses flancs, il ne les sentait pas.
 Les fourchettes sont suspendues à quelques centimètres des lèvres.
 Les fourchettes à gauche, et les couteaux à droite.
@@ -40090,6 +40145,7 @@ Les gens hochaient la tête, indécis, surtout fourbus.
 Les gens laisseraient-ils plus facilement leur voiture au garage ?
 Les gens les plus pacifiques étaient devenus querelleurs.
 Les gens lisaient à haute voix ces phrases de rhéteurs romains.
+Les gens ne semblaient pas conscients de la gravité de la situation.
 Les gens normaux, ça repose.
 Les gens puissants veulent et veillent.
 Les gens qui refilent des tracts, c’est comme ça qu’on les appelle ?
@@ -40675,6 +40731,7 @@ Les premières pages sont les Tao : la préface, une sorte de note d’intention
 Les pressentiments de John Bunsby ne le trompaient pas.
 Les pressentiments qui avaient agité Harbert n’avaient pas cessé de l’agiter aussi
 Les préparatifs du dîner exigeaient que les colons rentrassent à leur demeure
+Les principes juridiques et les lois qui en découlent, en effet, sont immuables.
 Les prises de mer ;
 Les prix de l'immobilier sont devenus insupportables à Paris.
 Les procureurs du roi n’agissent-ils pas habituellement ainsi ?
@@ -40872,6 +40929,7 @@ Les tâtonnements de l’évasion
 Les tâtonnements du Nautilus continuaient.
 Les tempêtes d’hommes pires que les tempêtes d’océans
 Les tenez-vous ? demanda sir John.
+Les termes « monnaie virtuelle » et « cryptomonnaie » sont déconseillés.
 Les terrasses des cafés étaient noires de monde.
 Les territoires de ces deux communes confinent l’un à l’autre.
 Les textes sont explicites.
@@ -41970,6 +42028,7 @@ L’effet est radical, calculé et garanti : le roi devient proie.
 L’effet est saisissant, et le public ne s’y trompe pas.
 L’effet pleure et sans cesse interroge la cause.
 L’effet qu’ils produisent sur Ruby est indescriptible.
+L’efficacité de Common Voice vient de la variété des contributeurs.
 L’effraction eut lieu.
 L’effronterie est une honte.
 L’ellipse est le zigzag de la phrase.
@@ -45685,6 +45744,7 @@ Merde, ça a bugué ou quoi ?
 Mers, nuits ! et je l’ai mise en ce livre pour elle !
 Merveilleux oiseau ! le violoniste semblait vouloir le charmer, l’apprivoiser, le capter.
 Meryl Streep dans Mamma Mia.
+Mes affaires prirent une envergure que je n'attendais pas.
 Mes amis ! du nouveau !
 Mes amis ! mes amis !
 Mes amis imaginaires et moi nous sommes quittés.
@@ -46399,6 +46459,7 @@ Mon maître, toujours et partout ! s’écria Nab
 Mon mari est cen dessus dessous.
 Mon mari me bat.
 Mon mari n’est pas avec vous ? demanda la Levaque.
+Mon mari partageait mon goût pour les voyages.
 Mon maître ; pas de phrases !
 Mon maître te dirait que « Les moines méditent mal.
 Mon maître, êtes-vous donc capable de dissiper ces ténèbres ?
@@ -46538,6 +46599,7 @@ Mon vieux, je travaille quinze heures par jour.
 Mon vieux, lui dit le lieutenant, ne vous emportez pas trop.
 Mon vieux, tu arrives ici juste à point.
 Mon visage et un geste.
+Mon éducation fut confiée à tous les ordres religieux possibles.
 Mon époux en était indigné !
 Mon équipe a ensuite décliné le concept en une gamme.
 Mon éructation primaire prend de surprise tout le monde.
@@ -48253,6 +48315,7 @@ Notes pour l’Homme qui Rit
 Notez cecy, qui est ung point maieur en ceste adventure.
 Notez cependant qu'à la longue l'urine peut créer brûlures et irritations.
 Notez cependant qu’à la longue l’urine peut créer brûlures et irritations.
+Notez que je n'étais ni paresseuse ni mauvaise élève.
 Notice iconographique Illustration des Œuvres. — Reproductions et documents.
 Notons une suite de huit lithographies populaires par Maurin.
 Notre Dieu nous commande de racheter sa vie.
@@ -48461,6 +48524,7 @@ Nous avons déballé nos affaires, et nous sommes allés faire des courses.
 Nous avons décidé que cette nuitée serait celle des découvertes.
 Nous avons décidé que nous nous épouserions.
 Nous avons déjà indiqué qu’il est peu probable que des superproductions sortent encore.
+Nous avons déjà manqué le bateau du dix-huit mars.
 Nous avons dîné chez tes parents.
 Nous avons essayé de nous parler, nous n'avons pas pu.
 Nous avons essuyé le feu de la garde.
@@ -48643,6 +48707,7 @@ Nous fîmes une centaine de pas sans parler.
 Nous flottons à sa surface, ami Ned.
 Nous flottons dans un courant d’eau bouillante.
 Nous formons vraiment une bonne équipe.
+Nous franchissons la passerelle qui conduit à bord.
 Nous franchissons les quatorze volumes de Clarisse Harlowe avec un bouquet.
 Nous fuirons ! dit Glenarvan.
 Nous fuirons ! m’écriai-je.
@@ -48935,6 +49000,7 @@ Nous partons dans deux heures.
 Nous partons dans dix minutes pour Douvres et Calais.
 Nous partons, mylord ? demanda John Mangles.
 Nous partons, nous sommes partis.
+Nous parvenons enfin sur le sable de la plage de Haïfa.
 Nous passâmes dans la bibliothèque.
 Nous passerons ! disais-je.
 Nous passerons, » répétait mon oncle.
@@ -48967,6 +49033,7 @@ Nous produisons le précieux nectar et, et…
 Nous produisons le précieux nectar et.
 Nous profiterons de l’obscurité.
 Nous pulvérisons les précieuses fèves.
+Nous pénétrons dans ce palais par une immense porte cochère.
 Nous qui croyons, que pouvons-nous craindre ?
 Nous quittâmes cette grotte ouverte à toutes les brises.
 Nous quittâmes le salon.
@@ -49018,6 +49085,7 @@ Nous serons vos hôtes pendant notre séjour à Saint-Thomas…
 Nous servons maintenant le numéro sept cent quarante et un.
 Nous servons maintenant le numéro sept cent quarante-deux.
 Nous seuls comprenons vos extases.
+Nous signons l'acte final, il ne reste plus qu'à partir.
 Nous sommes allées faire des visites à Paris, avant-hier.
 Nous sommes arrivés à un vaste espace, auquel aboutissent un grand nombre de galeries.
 Nous sommes arrivés », dit le capitaine.
@@ -49212,6 +49280,7 @@ Nous voilà trop riches s’écriait Pencroff
 Nous voilà donc au livre deux.
 Nous voilà donc, prêts à en découdre, mais encerclés par des Noétiens.
 Nous voilà hors de peine, l'un et l'autre.
+Nous voilà parqués comme du bétail, à l'avant.
 Nous voilà rendues au lendemain.
 Nous voilà tous réunis.
 Nous voudrions vous savoir heureux.
@@ -49228,6 +49297,7 @@ Nous vous montrerons une chasse que vous ne connaissez pas encore.
 Nous vous suivrons, Will Mitz… dit Magnus Anders.
 Nous voyons distinctement les deux monstres aux prises.
 Nous y allons, dit l’enfant.
+Nous y disposons une rangée de fauteuils pour l'assistance.
 Nous y étions, il y a trois semaines, répondit Fabian.
 Nous y mangerons un morceau.
 Nous y placerons Goupil.
@@ -50950,6 +51020,7 @@ On nous appelait « Boërs, » c’est-à-dire paysans
 On nous dit qu’elles chantent.
 On nous estropie les petits, maintenant ! …
 On nous les engrosse toutes.
+On nous vaccina contre la variole, le choléra, le typhus et la peste.
 On nous vend une société hyper-individualiste.
 On nous voit aujourd’hui souffrant ou nous amusant comme les autres !
 On n’a jamais donné de si forte preuve d’attachement
@@ -53802,6 +53873,7 @@ Pensez que je ne vous vois plus jamais !
 Pensez que tous leurs meubles sont « Empire » !
 Pensez-vous que des gens comme ça puissent s'amuser à Paris ?
 Pensez-vous que sa jaunisse soit contagieuse ?
+Pensez-vous rester longtemps dans ce pays ?
 Pensiez-vous à moi ?
 Pensif, dans les buissons j’en cherchais le sentier.
 Pensif, il oubliait le froid.
@@ -54770,6 +54842,7 @@ Pour un Polonais, ma foi ! …
 Pour un chasseur comme vous, l’Afrique est un pays merveilleux.
 Pour un constructeur qui souhaitait que les commandes au volant te deviennent indispensables.
 Pour un marin, c’est singulier, n’est-ce pas ?
+Pour un peu, il prendrait le commandement du bateau.
 Pour un peu, ils seraient jaloux de mon courage.
 Pour une fois que je suis content du résultat !
 Pour une fois qu’on a du temps devant nous…
@@ -55315,6 +55388,7 @@ Presque tous les pommiers tombent de vieillesse.
 Presque tous savent lire et lisent.
 Presque tout a disparu.
 Presque tout coup portait.
+Presque tout le monde ignore mon projet.
 Presque tout le secret des grands cœurs est dans ce mot : perseverando.
 Presque toute conversation à portée d’oreille est convenue.
 Presque trop propre pour être honnête.
@@ -56743,6 +56817,7 @@ Que peut devenir l’amant d’Esther ? rien.
 Que peut donc dissimuler cette porte ?
 Que peut-elle devenir ?
 Que peut-elle signifier ? …
+Que peut-il me vouloir à cette heure ?
 Que peut-on conclure de ce chapitre ?
 Que pourraient-ils tenter maintenant ?
 Que pourrait-on ajouter ?
@@ -57828,6 +57903,7 @@ Quinze degrés multipliés par cinq heures donnaient soixante-quinze degrés
 Quinze fois sur vingt il obéissait et se désistait de la poursuite.
 Quinze francs d’amende !
 Quinze francs d’amende, dit Fauchelevent.
+Quinze jours plus tard, il me précédait à Palmyre.
 Quinze sous, ajouta l’homme.
 Quiquendone est-elle donc une cité disparue ?
 Quitte a venir à Kunismos Consulting, il fallait faire quelque chose.
@@ -57911,6 +57987,7 @@ Quoi donc ? lui demanda-t-il de loin
 Quoi donc, Jean, on ne mange pas, ce matin ?
 Quoi faire, d’ailleurs ?
 Quoi qu'il en soit tu avais raison.
+Quoi qu'il en soit, les racontars faisaient leur chemin.
 Quoi que vous voulez encore, mademoiselle ?
 Quoi qu’elle ait pu faire, je ne la mangerai point.
 Quoi qu’en disent les autres.
@@ -60351,6 +60428,7 @@ Seulement, si nous voyons les pêcheries, nous ne verrons pas les pêcheurs.
 Seulement, son regard en disait long
 Seulement, son regard en disait long !
 Seules comptent ses manigances, son plan, celui des Descendants.
+Seules les premières phrases sont utilisées par Deep Speech.
 Seules ses mains d’homme trahissent le corps dans lequel elle est née.
 Seules, les bottes lui restaient
 Seuls des tambours invisibles souhaitaient la bienvenue.
@@ -60391,6 +60469,7 @@ Si ce n’est pas vrai, montrez-le moi donc.
 Si ce n’est ta dignité.
 Si ce n’est…
 Si ce point blanc est une voile, il ne s’y trompera pas.
+Si ce sont toujours les mêmes qui enregistrent, le modèle sera moins bon.
 Si ceci était une histoire vraie.
 Si cela allait devenir terrible !
 Si cela est, dit-elle, mes visions sont possibles.
@@ -61942,6 +62021,7 @@ Tant mieux pour vous, si vous pouvez être en humeur de plaisanter.
 Tant mieux, dit Will Mitz.
 Tant mieux, fit Ned.
 Tant mieux, je saurai le consoler.
+Tant pis ! Advienne que pourra.
 Tant pis ! fallait pas descendre ! …
 Tant pis ! la Normande payera pour les autres.
 Tant pis pour eux ! dit Cadine, qui avait fini.
@@ -63543,6 +63623,7 @@ Tu connais la prophétie des chevaucheurs de pensée ?
 Tu connais la routine.
 Tu connais l’appartement de la petite Caroline Bellefeuille, rue Taitbout, reprit l’Espagnol.
 Tu connais l’expression « mère castratrice » ?
+Tu connais mes conditions ?
 Tu conserves tes impressions ; moi, j’oublie les miennes.
 Tu cries maintenant, sycophante !
 Tu crois ? dit James Playfair, en regardant son interlocuteur dans le blanc des yeux.
@@ -65057,6 +65138,7 @@ Un peu par prudence ;
 Un peu plus de quinze palmes de haut.
 Un peu plus libéré.
 Un peu plus tard dans la journée, Aglaé me fait appeler dans sa chambre.
+Un peu plus tard, nous étions installés au Caire.
 Un peu plus, elle coulait.
 Un peu plus, ils vous feraient user leurs vieux souliers !
 Un peu plus, je tombais dans le lac.

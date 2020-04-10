@@ -453,10 +453,11 @@ about-partnership =
     
     Chcielibyśmy podziękować następującym osobom i organizacjom za pomoc przy projekcie:
 about-get-involved = Dołącz do nas
-about-get-involved-text =
+about-get-involved-text-2 =
     Chcesz pomóc jeszcze bardziej ulepszyć projekt Common Voice?
     Wspaniale! Skontaktuj się z nami przez e-mail lub serwis <discourseLink>Discourse</discourseLink>,
-    prześlij opinię przez <githubLink>GitHub</githubLink> lub dołącz do nas w aplikacji <slackLink>Slack</slackLink>.
+    zgłoś problem ze stroną w serwisie <githubLink>GitHub</githubLink> lub dołącz
+    do pokoju rozmów społeczności w sieci <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Dlaczego?
 about-nav-how-it-works = Jak?
 about-nav-partners = Partnerzy
@@ -645,6 +646,8 @@ record-again-instruction = Świetnie! <recordIcon></recordIcon> Nagraj następne
 record-again-instruction2 = Tak trzymaj, nagraj jeszcze raz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ostatnie!
 review-tooltip = Weryfikuj i ponownie nagrywaj w czasie pracy
+share-clip = Udostępnij swoje nagranie
+share-common-voice = Udostępnij projekt Common Voice
 review-instruction = Weryfikuj i ponownie nagrywaj w razie potrzeby
 record-submit-tooltip = { $actionType } „Wyślij” po ukończeniu
 clips-uploaded = Wysłano nagrania
@@ -657,7 +660,9 @@ listen-instruction = { $actionType } <playIcon></playIcon> czy poprawnie wymówi
 listen-again-instruction = Świetna robota! <playIcon></playIcon> Odsłuchaj ponownie
 listen-3rd-time-instruction = Dwa zrobione <playIcon></playIcon>, tak trzymaj!
 listen-last-time-instruction = <playIcon></playIcon> Ostatnie!
-nothing-to-validate = Nie mamy nic do zweryfikowania w tym języku, pomóż nam wypełnić kolejkę.
+listen-empty-state = Skończyły się nagrania do sprawdzenia w tym języku…
+speak-empty-state = Skończyły się zdania do nagrania w tym języku…
+speak-empty-state-cta = Dodaj więcej zdań
 record-button-label = Nagraj swój głos
 share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów
 keep-track-profile = Śledź swoje postępy za pomocą profilu

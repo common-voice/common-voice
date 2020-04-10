@@ -6,7 +6,7 @@ import {
 import * as React from 'react';
 import { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { UserClient } from 'common/user-clients';
+import { UserClient } from 'common';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -106,7 +106,7 @@ function Settings(props: Props) {
             <a
               className="manage-subscriptions"
               href={getManageSubscriptionURL(account)}
-              target="__blank"
+              target="_blank"
               rel="noopener noreferrer">
               <Localized id="manage-subscriptions">
                 <span />

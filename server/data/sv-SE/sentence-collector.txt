@@ -123,6 +123,7 @@ Bra idé, va?
 Bra jobbat!
 Bra, gubben sa att jag kunde ta vilken matta som helst.
 Bra, kom så startar vi företaget.
+Brandt får ge hundra för att se på.
 Broar och tunnlar är fullpackade.
 Brorsan, jag fattar verkligen ingenting.
 Brorsan, lever du?
@@ -186,6 +187,7 @@ De kostar mycket mer.
 De kostar pengar.
 De pinar mig genom att inte svara i mobilerna.
 De pissade på min jävla matta.
+De ringer polisen, lägg ned puffran.
 De satte mig i telefonkö.
 De ser radioaktiva ut.
 De sitter lite löst på dig.
@@ -230,6 +232,7 @@ De är våra fruar.
 De åker aldrig hem.
 Demokrati är som importerad soppa.
 Den bara small.
+Den blir skärrad och tappar håret på pensionat.
 Den blivande brudgummen.
 Den blå strömbrytaren aktiverar smygläge.
 Den dumme servitören för ett förskräckligt oväsen.
@@ -408,6 +411,7 @@ Det här var fantasi.
 Det här är Lana.
 Det här är antibiotika.
 Det här är bara väldigt roligt.
+Det här är bowling, det finns regler.
 Det här är byggnaderna de planerar att förinta med sina bomber.
 Det här är de första han gjorde.
 Det här är ett meddelande till allas följare.
@@ -582,6 +586,7 @@ Det vill jag inte.
 Det ville jag berätta idag.
 Det ville jag berätta.
 Det visade sig att gruvan hade färre äkta diamanter än en ordinär pantlånare.
+Det visste jag inte.
 Det vor nog att ta i.
 Det vore ett bra jobb för en gammal, skallig dam.
 Det vore idiotiskt att lita på mig.
@@ -626,6 +631,7 @@ Det är din förlust.
 Det är din skiva.
 Det är ditt fel.
 Det är ditt problem.
+Det är ditt svar på allt.
 Det är du som vill sluta.
 Det är dumt för jag kastade gipset.
 Det är dynga.
@@ -671,6 +677,7 @@ Det är för varmt.
 Det är galet.
 Det är ganska grova repor.
 Det är ganska.
+Det är glömt nu, och vi är med i nästa turnering. Har jag fel?
 Det är han där.
 Det är hans blod.
 Det är helt jävla galet!
@@ -684,6 +691,7 @@ Det är ingen dröm.
 Det är ingen fara, älskling.
 Det är ingen fara.
 Det är ingen leksak.
+Det är inget att gömma sig bakom.
 Det är inget fel med att chansa.
 Det är inget.
 Det är inte alls andan.
@@ -725,6 +733,7 @@ Det är klart att jag når.
 Det är klart vi ska lägga av.
 Det är klart.
 Det är kul.
+Det är ligaspel, Smokey.
 Det är likadant för alla, tro mig.
 Det är lite svårt, för havet är i Kroatien.
 Det är lugnt, jag förstod det.
@@ -890,6 +899,40 @@ Du behöver min hjälp?
 Du ber mig att blåsa på dina tår?
 Du berättade för en självmordsbenägen tjej hur hon kan begå självmord.
 Du beter dig konstigt.
+Du beter dig som en apa.
+Du beter dig som en apelsin.
+Du beter dig som en banan.
+Du beter dig som en bläckfisk.
+Du beter dig som en chimpans.
+Du beter dig som en delfin.
+Du beter dig som en ekorre.
+Du beter dig som en elefant.
+Du beter dig som en flodhäst.
+Du beter dig som en fågel.
+Du beter dig som en get.
+Du beter dig som en gris.
+Du beter dig som en groda.
+Du beter dig som en haj.
+Du beter dig som en hamster.
+Du beter dig som en hund.
+Du beter dig som en kiwi.
+Du beter dig som en ko.
+Du beter dig som en kyckling.
+Du beter dig som en känguru.
+Du beter dig som en mandarin.
+Du beter dig som en melon.
+Du beter dig som en myra.
+Du beter dig som en nektarin.
+Du beter dig som en orm.
+Du beter dig som en panda.
+Du beter dig som en räv.
+Du beter dig som en råtta.
+Du beter dig som en sköldpadda.
+Du beter dig som en spindel.
+Du beter dig som en säl.
+Du beter dig som en uggla.
+Du beter dig som en varg.
+Du beter dig som en zebra.
 Du beter dig som om du är perfekt.
 Du bevisade att han har fel.
 Du blåser inte.
@@ -972,6 +1015,7 @@ Du kan gå.
 Du kan hålla käften.
 Du kan inte bara dyka upp så här.
 Du kan inte bara tillåta det.
+Du kan inte göra så, de är pacifister.
 Du kan inte släppa det här.
 Du kan inte släppa jobbet.
 Du kan inte ta ansvar för alla.
@@ -1129,6 +1173,7 @@ Du vågar inte ens gifta dig!
 Du är alltid välkommen tillbaka.
 Du är bakom mig, eller hur?
 Du är bara avundsjuk.
+Du är bara en skitstövel.
 Du är bombad!
 Du är den enda talaren.
 Du är den ende jag känner som kan klara det här.
@@ -1173,6 +1218,7 @@ Du är så hög.
 Du är så snäll.
 Du är så tokig.
 Du är så vacker.
+Du är tjugo minuter sen.
 Du är vidrig.
 Du är väldigt självbelåten för att vara en man som nyss blivit rånad.
 Du är världens gulligaste expedit.
@@ -1183,6 +1229,7 @@ Du, med en förkrossande seger.
 Du, som är klantarslet, är trött på det?
 Du, stanna där.
 Dude, det gäller inte kinesen!
+Dude, det är din kompis.
 Där fanns en bomb.
 Där har du bilden.
 Där har vi något.
@@ -1250,9 +1297,57 @@ En applåd för dem!
 En av brytarna kan vara den superladdade idiotsäkra.
 En av oss saknas.
 En avslappnad version av sanningen?
+En azurblå ananas.
+En azurblå björn.
+En azurblå fluga.
+En azurblå jordgubbe.
+En azurblå mandarin.
+En azurblå spindel.
 En bedrövlig vana vi tog efter vid reformationen.
+En beige haj.
+En beige kamel.
+En beige kanin.
 En biljett för två zoner.
+En bitter ananas.
+En bitter delfin.
+En bitter kattunge.
 En blek kopia av henne.
+En blå banan.
+En blå delfin.
+En blå hamster.
+En blå jordgubbe.
+En blå ko.
+En blå mandarin.
+En blå spindel.
+En bra aprikos.
+En bra bläckfisk.
+En bra druva.
+En bra gris.
+En bra kanin.
+En bra panda.
+En bra sköldpadda.
+En brandgul chimpans.
+En brandgul gris.
+En brandgul hummer.
+En brandgul kanin.
+En brandgul spindel.
+En bred bläckfisk.
+En bred ekorre.
+En bred fågel.
+En bred kattunge.
+En bred krokodil.
+En bred räv.
+En brun alligator.
+En brun björn.
+En brun flodhäst.
+En brun hamster.
+En brun kanin.
+En brun ko.
+En brun mandarin.
+En brun panda.
+En brun persika.
+En brun spindel.
+En brun zebra.
 En dag gör fem syskon motstånd.
 En dag hade hon fel färg på tröjan.
 En dag orkade jag inte längre.
@@ -1260,38 +1355,219 @@ En dag skrek och förolämpade de henne.
 En dag åker du till jobbet och det finns inget jobb för dig.
 En del saker gick fel.
 En diamantgruva, som troddes vara full till brädden.
+En dålig flodhäst.
+En dålig giraff.
+En dålig gris.
+En dålig häst.
+En dålig kiwi.
 En falsk hushållerska.
 En fosfor och en till organisk.
+En ful citron.
+En ful elefant.
+En ful fågel.
+En ful hund.
+En ful kanin.
+En ful kiwi.
+En ful lime.
+En ful melon.
+En ful räv.
+En ful spindel.
+En full valp.
 En fångvaktare tyckte teckningarna var oroande.
+En förbannad bläckfisk.
+En förbannad groda.
+En förbannad häst.
+En förbannad ko.
+En förbannad skorpion.
+En förbannad zebra.
 En förfrågan till.
 En försenad ursäkt, för det som hände på körkonserten.
+En gammal ananas.
+En gammal gepard.
 En genial idé med potential.
 En grupp har problem.
+En grå banan.
+En grå kanin.
+En grå mandarin.
+En grå säl.
+En grå vattenmelon.
+En grön apa.
+En grön björn.
+En grön delfin.
+En grön vattenmelon.
+En gul anka.
+En gul apelsin.
+En gul hamster.
+En gul kiwi.
+En gul råtta.
+En guldig chimpans.
+En guldig ekorre.
+En guldig giraff.
+En guldig kanin.
+En guldig mandarin.
+En guldig panda.
 En halv macka?
 En halvtimme innan han mördades.
+En hård fisk.
+En hård fluga.
+En hård säl.
+En hög delfin.
+En hög get.
+En hög kiwi.
+En hög melon.
 En i taget.
 En kille som hette Jeff Lebowski.
 En knäpp kille, men det är vi vana vid.
+En kolsvart aprikos.
+En kolsvart flodhäst.
+En kolsvart giraff.
+En kolsvart haj.
+En kolsvart kanin.
+En kolsvart mandarin.
+En kolsvart skorpion.
+En kolsvart spindel.
+En kort björn.
+En kort ekorre.
+En kort elefant.
+En kort räv.
+En kort råtta.
+En kort varg.
+En lila druva.
+En lila fluga.
+En lila gris.
+En limegrön flodhäst.
+En limegrön katt.
+En limegrön myra.
+En limegrön sköldpadda.
+En ljus gepard.
+En ljus giraff.
+En ljus varg.
 En massa träd man kan klättra i!
+En mirakulös chimpans.
+En mirakulös fågel.
+En mirakulös kattunge.
+En mirakulös räv.
+En mirakulös tiger.
+En mjuk alligator.
+En mjuk haj.
+En mjuk kamel.
+En mjuk katt.
+En mjuk ko.
+En mjuk melon.
+En modern ekorre.
+En modern gris.
+En modern häst.
+En modern kattunge.
+En modern kiwi.
+En modern ko.
+En modern lime.
+En modern skorpion.
+En modern sköldpadda.
+En modern valp.
 En moralens avgrund.
 En mun mindre.
 En månad senare.
+En mörk aprikos.
+En mörk get.
+En mörk haj.
+En mörk kanin.
+En mörk panda.
+En mörk valp.
+En olivgrön kamel.
+En olivgrön persika.
+En olivgrön skorpion.
+En olivgrön sköldpadda.
 En omöjlig uppgift.
+En orange apelsin.
+En orange banan.
+En orange björn.
+En orange mandarin.
 En patrullbil kör förbi varje halvtimme.
+En purpur melon.
+En rak jordgubbe.
+En rak ko.
+En rak persika.
+En rosa haj.
+En rosa panda.
+En rosa snigel.
+En rosa uggla.
+En rund hummer.
+En rund ko.
+En rund orm.
+En rund varg.
+En röd chimpans.
+En röd fågel.
 En sak till att ta hand om.
 En serie evighetsnätverksgeneratorer.
+En silvrig bläckfisk.
+En silvrig flodhäst.
+En silvrig känguru.
+En silvrig lime.
+En silvrig råtta.
 En sista måltid.
 En skicklig tjuv?
 En skvader är en blandning mellan en hare och en tjäder.
+En smal apa.
+En smal apelsin.
+En smal gepard.
+En smal hummer.
+En smal kanin.
+En smal katt.
+En smal panda.
+En smal räv.
+En smutsig hummer.
+En smutsig hund.
+En snabb hummer.
+En snabb katt.
+En snabb vattenmelon.
+En stor alligator.
+En stor delfin.
+En stor hund.
+En stor tiger.
 En städerska ville ge mig en väska.
+En svart ananas.
+En svart björn.
+En svart delfin.
+En svart valp.
 En sån kvinna blir aldrig utblottad, fader.
+En söt giraff.
+En söt groda.
+En söt guldfisk.
+En söt hamster.
+En söt hummer.
+En söt valp.
+En söt zebra.
 En till hörde av sig.
 En timme.
+En tjock ananas.
+En tjock kamel.
+En tjock sköldpadda.
+En tunn fågel.
+En tunn katt.
+En turkos lime.
+En turkos nektarin.
+En turkos snigel.
+En turkos zebra.
 En underbar kvinna.
 En ursäkt för en del ohyfsade saker jag gjort.
 En utmärkt poäng.
 En verksam demokrati, yttrandefrihet.
+En vinröd chimpans.
+En vinröd haj.
+En vinröd jordgubbe.
+En vinröd myra.
+En vinröd tiger.
+En violett ananas.
+En violett druva.
+En violett flodhäst.
 En viss person väntar på dig.
+En vit banan.
+En vit björn.
+En vit ekorre.
+En vit gepard.
+En vit lime.
+En vit orm.
+En vit persika.
 En väg in, en väg ut.
 Enligt henne finns ett stipendium till en skola.
 Er egen nivå av vad då?
@@ -1377,6 +1653,7 @@ Från och med nu får du inte fatta beslut åt mig.
 Från och med nu kliver du upp med mig i gryningen, förstått?
 Från och med nästa vecka är det ansvar, lojalitet, trohet, kärlek, delande.
 Från vår klass?
+Fullträff! Ni har inte en chans.
 Fundera på det!
 Fundera på vad?
 Fy fan, du har ju rätt.
@@ -1492,6 +1769,7 @@ Försöker du begå självmord?
 Försöker du lura mig?
 Förutom att jag skaffade en fisk.
 Förutom de här.
+Förutom pacifism?
 Förutom ryska antikviteter, har han två svagheter.
 Ganska lustigt, eller hur?
 Gav du klienterna fikon?
@@ -1684,8 +1962,10 @@ Han skulle plocka druvor för småpengar.
 Han smet nog till fots och ville inte bära så mycket.
 Han smälter nog ner det medan vi pratar.
 Han som ville köpa vårt hus.
+Han struntar i allt, han är nihilist.
 Han står på en badrumsvåg.
 Han säger nåt.
+Han tar inte din plats.
 Han tipsade polisen.
 Han tog dem inte.
 Han tog mig med storm.
@@ -1747,6 +2027,7 @@ Han är inte i skick ännu.
 Han är inte lika försiktig nu.
 Han är inte nödvändig längre.
 Han är liten och jättesöt.
+Han är mycket känslig.
 Han är nog redan igång.
 Han är på kanten!
 Han är smart.
@@ -1768,6 +2049,7 @@ Hans psykiater ringde mig.
 Hans tillstånd har försämrats.
 Hans vänner också, om min cykel.
 Har Thomas bjudit in dig på vin?
+Har alla blivit galna?!
 Har din gudmor något emot att jag deltar?
 Har du den?
 Har du en hund?
@@ -1851,6 +2133,7 @@ Hej, lilla bebis!
 Hejsan, kissen.
 Hela mitt liv har jag varit ensam, bortgömd.
 Helvete också!
+Helvetets alla kval.
 Herregud, den var bra!
 Herregud, det är farfar!
 Herregud, det är så gott!
@@ -2049,6 +2332,7 @@ Här, antar jag.
 Här, gör det bekvämt för dig.
 Här, ta nycklarna.
 Härligt att se dig hemfalla åt kriminellt språk, fader.
+Härligt.
 Håll det på din sida.
 Håll ett öga på henne.
 Håll kvar foten där så händer inget.
@@ -2071,6 +2355,7 @@ Hövdingen gör som han vill, och jag gör som jag vill.
 I Amerika, elektricitet från vindkraft.
 I Budapest, men ja.
 I Medelpad kan man träffa på en grönbena.
+I detta ligaspel avgörs vilka som går vidare.
 I förrgår sa han att han skulle göra nåt han inte kunde avslöja.
 I går när han gick på planet i Minneapolis.
 I kväll kommer du att dö.
@@ -2435,6 +2720,7 @@ Jag har inget bibliotekskort.
 Jag har inget med det här att göra.
 Jag har inte berättat för Katrine att du ska sluta.
 Jag har inte bevis nog för en hurrannsakan.
+Jag har inte den informationen
 Jag har inte fått prata på två timmar.
 Jag har inte gjort någonting alls.
 Jag har inte hjälpt till.
@@ -2499,10 +2785,12 @@ Jag hoppas att ni förstår.
 Jag hoppas det.
 Jag hoppas du inte blev förkyld i min brors grav.
 Jag hoppas ni hittar honom.
+Jag hyr inte skor eller bjuder den på öl.
 Jag hyser den största aktning för dig.
 Jag hämtar brödkaveln.
 Jag hämtar honom direkt.
 Jag håller med.
+Jag höll på med pacifism, men inte i Vietnam.
 Jag hör av mig om det sker något nytt.
 Jag hör av mig.
 Jag hörde det på radio.
@@ -2564,6 +2852,7 @@ Jag kommer tillbaka.
 Jag kommer åt min laptop.
 Jag konverterar mina andelar och blir majoritetsdelägare.
 Jag kunde ha varit död nu.
+Jag kunde inte hitta tidszonen för Nya Zeeland
 Jag känner dig nästan.
 Jag känner doften!
 Jag känner en modell.
@@ -2719,6 +3008,7 @@ Jag skojar bara.
 Jag skojar.
 Jag skrev även ett kontrakt för att mejsla ut alla små frågetecken.
 Jag skriver på.
+Jag skriver upp åtta poäng.
 Jag skulle aldrig lämna mina barn.
 Jag skulle behöva ta bort hjulen och ta isär ramen.
 Jag skulle berätta all information och du avbröt mig.
@@ -2735,6 +3025,7 @@ Jag skulle välja solsken varje dag.
 Jag skulle ända vilja veta hur hela planen såg ut.
 Jag skyller inte på dig.
 Jag skämtar bara.
+Jag skämtar inte! Noll poäng!
 Jag slant med handen.
 Jag slog en kille med en vattendunk!
 Jag slog mig på käften.
@@ -2756,6 +3047,7 @@ Jag står kvar tills du kommer förbi igen.
 Jag står över.
 Jag stör dig.
 Jag stöttar dig så det blir inget sött trots att det är min dag.
+Jag suger av dig för tusen dollar.
 Jag sumpade det.
 Jag säger det för att jag älskar dig.
 Jag säger det snällt.
@@ -2836,6 +3128,7 @@ Jag var där och ska tillbaka nu.
 Jag var där uppe!
 Jag var ensam.
 Jag var här i förra veckan.
+Jag var inte över.
 Jag var lycklig vid ett tillfälle.
 Jag var rädd att vi skulle vara ovänner för evigt.
 Jag var skiträdd!
@@ -2987,6 +3280,7 @@ Jag är försenad till min ridlektion, men jag kan ta hand om det också.
 Jag är förvirrad.
 Jag är gammal.
 Jag är glad för hans skull.
+Jag är helt lugn.
 Jag är hemma hela veckan.
 Jag är här för att hämnas, det är allt.
 Jag är här för att tjäna dig.
@@ -3107,6 +3401,7 @@ Kan du sluta skrika på mig?
 Kan du stanna?
 Kan du säga till om du hör om några jobb på marknaden?
 Kan du sänka lite?
+Kan du ta det lugnt?
 Kan du vara bank?
 Kan du visa mig källaren?
 Kan du öppna det?
@@ -3160,6 +3455,81 @@ Klä på dig.
 Klädde du på mig?
 Knuffa den jäveln!
 Kolla alla händer.
+Kolla en alligator.
+Kolla en ananas.
+Kolla en apelsin.
+Kolla en aprikos.
+Kolla en banan.
+Kolla en beige apa.
+Kolla en bitter druva.
+Kolla en bitter säl.
+Kolla en bläckfisk.
+Kolla en brun häst.
+Kolla en brun sköldpadda.
+Kolla en delfin.
+Kolla en druva.
+Kolla en dålig råtta.
+Kolla en dålig tiger.
+Kolla en ekorre.
+Kolla en elefant.
+Kolla en fluga.
+Kolla en fågel.
+Kolla en förbannad kyckling.
+Kolla en gammal flodhäst.
+Kolla en gepard.
+Kolla en giraff.
+Kolla en gris.
+Kolla en grå ko.
+Kolla en gul kanin.
+Kolla en gul nektarin.
+Kolla en guldfisk.
+Kolla en häst.
+Kolla en hög flodhäst.
+Kolla en jordgubbe.
+Kolla en kattunge.
+Kolla en kiwi.
+Kolla en kort guldfisk.
+Kolla en krokodil.
+Kolla en kyckling.
+Kolla en lila zebra.
+Kolla en limegrön hamster.
+Kolla en limegrön krokodil.
+Kolla en ljus kanin.
+Kolla en melon.
+Kolla en mjuk alligator.
+Kolla en modern get.
+Kolla en modern hummer.
+Kolla en myra.
+Kolla en nektarin.
+Kolla en olivgrön lime.
+Kolla en orm.
+Kolla en panda.
+Kolla en persika.
+Kolla en rosa druva.
+Kolla en rund aprikos.
+Kolla en rund panda.
+Kolla en råtta.
+Kolla en silvrig ananas.
+Kolla en sköldpadda.
+Kolla en smutsig örn.
+Kolla en snabb hummer.
+Kolla en snigel.
+Kolla en spindel.
+Kolla en stor lime.
+Kolla en svart anka.
+Kolla en svart banan.
+Kolla en säl.
+Kolla en tiger.
+Kolla en tjock ko.
+Kolla en tunn apa.
+Kolla en tunn hummer.
+Kolla en turkos melon.
+Kolla en uggla.
+Kolla en vattenmelon.
+Kolla en vinröd apa.
+Kolla en vinröd kanin.
+Kolla en violett häst.
+Kolla en vit kanin.
 Kolla fingeravtrycken på hänglåset.
 Kolla här.
 Kolla vem som bott där.
@@ -3241,6 +3611,7 @@ Lovar varandra kärlek och respekt i resten av era liv.
 Luckra jorden nu!
 Lugna ner dig, så att vi slipper lägga in dig.
 Lugna ner dig.
+Lugnare än du.
 Lugnt och fint.
 Lura inte dig själv.
 Lycka till med nya jobbet.
@@ -3286,6 +3657,7 @@ Låt mig kolla bilbatteriet.
 Låt mig kolla.
 Låt mig köra dig, som moraliskt stöd.
 Låt mig sköta det.
+Låt mig säga en sak.
 Låt mig ta dem till staden.
 Låt oss bryta oss fria!
 Låt oss få det här avklarat.
@@ -3532,6 +3904,7 @@ Nej, det är ju helt sjukt.
 Nej, det är vi inte.
 Nej, detta är löjligt.
 Nej, du fattar inte.
+Nej, du har inte fel.
 Nej, du inbillar dig bara.
 Nej, du lovade staden sex timmar.
 Nej, du måste skämta.
@@ -3760,6 +4133,7 @@ Nån måste stanna kvar och sköta maskinen som skickar tillbaka er.
 Nån som jobbar med turism.
 Nån som sysslar med illegal boxning kan inte slåss för jordens överlevnad.
 Nån vill tala med dig.
+Nöjd nu, din jävla galning?
 Nöjet är helt på min sida.
 Oavsett vem, så hoppas jag han får glädje av det.
 Och aldrig sett drottningen i underbyxor, som man säger.
@@ -3800,6 +4174,7 @@ Och flickorna bör närvara för att ge mig blommor.
 Och få tillbaka det stulna föremålet.
 Och ge ett erbjudande.
 Och glöm inte.
+Och han har ju emotionella problem.
 Och han pissade på den.
 Och han är tydligen förmögen.
 Och hon hade en förpliktelse?
@@ -4114,12 +4489,15 @@ Skit i kontraktet!
 Skit också!
 Skit samma...
 Skitsamma, jag tar livet av mig.
+Skitsnack, Walter. Åtta poäng.
+Skjut in hyran under dörren.
 Skjuta vad då?
 Skjuter du mig, släpper tummen greppet och pang.
 Skojar du?
 Skolan har blivit bombhotad.
 Skolan riskerar att stängas.
 Skratta inte, okej?
+Skriv noll!
 Skriv ut en check.
 Skrämmer jag dig?
 Skulle han inte vara miljonär?
@@ -4159,11 +4537,14 @@ Slå med bollträn.
 Slå på matchen.
 Smid medan järnet är varmt.
 Sminkningen är rakt fram.
+Smokey var vapenvägrare.
+Smokey, min vän.
 Sms:ar du honom?
 Snacka inte skit!
 Snackar vi fikon eller?
 Snappade upp lite i armén.
 Snygga solglasögon.
+Snyggt, Donny!
 Snälla, inte det.
 Snälla, skrik inte.
 Snälla, skåla inte för mig.
@@ -4194,6 +4575,7 @@ Stick, för fan!
 Stipendieungarna är respektabla.
 Stor och ful, precis som vår bakgrund.
 Strax är det klart.
+Struntar alla andra i reglerna?!
 Ställ in.
 Stämmer inte det?
 Stäng dörren när du går.
@@ -4245,6 +4627,7 @@ Så du litar inte på min skådespelartalang?
 Så du tror inte att något händer efter döden?
 Så du tror mig verkligen, fader?
 Så du visste att jag gick där?
+Så du är Bunny?
 Så du är en stor man nu?
 Så du är intresserad?
 Så där ja, nu är jag ingen främling längre.
@@ -4334,6 +4717,7 @@ Ta av den där, så kan vi slåss!
 Ta bort det.
 Ta den, så kan du läsa när det är mörkt.
 Ta det lugnt!
+Ta det lugnt, bara.
 Ta det lugnt.
 Ta det på högtalare!
 Ta det sen.
@@ -4379,9 +4763,11 @@ Tala inte så där till din mamma!
 Talar er vän ungerska?
 Talar ni ryska?
 Talen stämmer med linjerna.
+Tar du med den på bowling?
 Tatuera det på pannan!
 Teckningen med parallella streck.
 Terrorister har attackerat Amerika.
+Theodor Herzl, staten Israel.
 Thomas får det jobbigt som har tummen mitt i handen.
 Till Fiji.
 Till det här kan du använda autopiloten.
@@ -4472,9 +4858,11 @@ Tänker du räkna?
 Tänker du ta med.
 Tänker du tjura för evigt?
 Tänker du verkligen sluta?
+Tån gled över lite, det är bara på lek.
 Töm kylskåpet!
 Under flykten därifrån är förföljarna honom hack i häl.
 Under normala omständigheter skulle jag hålla med.
+Underbar kvinna!
 Ungefär samtidigt med konflikten med Saddam och Irak.
 Upp med er!
 Upp med hakan.
@@ -5218,10 +5606,12 @@ Värmen, menar jag.
 Väskan är i kassaskåpet.
 Växla in de här åt mig.
 Vår eviga tacksamhet.
+Vår gäst måste åka, mrs Lebowski.
 Vår plan är att förändra den här framtiden.
 Vår tjuv tycks ha tagit sin belöning trots allt.
 Våra klienter kan nog hosta upp.
 Walter, vad är poängen?
+Walter?
 William, om du inte kan fixa den måste du ge tillbaka hans pengar.
 William, se till att tvätta av dig innan du går in.
 William, var är min radio?
@@ -5350,3 +5740,4 @@ rappa på!
 Överallt jag har följt dig har jag förlorat något.
 Överbefälhavaren går uppför trappan med nåt som ser ut som toalettpapper under skon.
 Överdriv inte.
+Övertramp. Det är ogiltigt.

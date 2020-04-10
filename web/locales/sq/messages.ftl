@@ -171,7 +171,7 @@ wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk je
 wall-of-text-more-desktop =
     Tani mund të dhuroni zërin tuaj për të na ndihmuar të krijojmë një bazë të dhënash me burim të hapur që mund ta përdorë kushdo për të sjellë aplikacione risore për pajisje dhe web.<lineBreak></lineBreak>
     Lexoni një frazë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
-wall-of-text-first = Zëri është natyror, zëri është njerëzor. Kjo është arsyeja pse jemi të ngazëllyer nga krijimi teknologjish të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri, zhvilluesve u duhen sasi zëri tejet të mëdha.
+wall-of-text-first = Zëri është natyror, zëri është njerëzor. Kjo është arsyeja pse jemi të ngazëllyer nga krijim teknologjish të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri, zhvilluesve u duhen sasi zëri tejet të mëdha.
 wall-of-text-second = Shumica e të dhënave të përdorura nga kompani të mëdha nuk jepen për shumicën e njerëzve. Mendojmë që kjo e mbyt novacionin. Ndaj filluam Common Voice, një projekt për të ndihmuar që njohja e zërit të bëhet e hapur dhe e përdorshme nga kushdo.
 show-wall-of-text = Lexoni Më Tepër
 help-us-title = Ndihmonani të vleftësojmë fraza!
@@ -286,7 +286,7 @@ profile-form-native-language =
 profile-form-additional-language =
     .label = Gjuhë Shtesë
 profile-form-accent =
-    .label = Theksim
+    .label = Theks
 profile-form-age =
     .label = Moshë
 profile-form-gender =
@@ -395,7 +395,7 @@ faq-how-calc-hours-q = Si i llogarit orët Common Voice-i?
 faq-how-calc-hours-a = Orët i llogarisim duke peshuar gjatësinë mesatare të çdo incizimi dhe duke e shumëfishuar këtë numër me numrin gjithsej të incizimeve nëpër krejt gjuhët.
 faq-where-src-from-2-q = Prej nga vjen teksti burim?
 faq-where-src-from-2-a =
-    Teksti ynë burim përbëhet nga dhurime origjinale nga ndihmëtarë, si dhe doalogë nga skenarë filmash nën përkatësi publike, f.v. <italic>It’s a Wonderful Life</italic>.
+    Teksti ynë burim përbëhet nga dhurime origjinale nga ndihmëtarë, si dhe dialogë nga skenarë filmash nën përkatësi publike, f.v. <italic>It’s a Wonderful Life</italic>.
     
     Fraza nga burimi ynë mund të shihni te kjo <githubLink>dosje GitHub</githubLink>.
 faq-why-not-ask-read-q = Pse s’u kërkoni njerëzve të lexojnë nga libra apo nga artikujt të Wikipedia-s në gjuhë të ndryshme?
@@ -447,11 +447,11 @@ about-partnership =
     
     We would like to thank the following people and organizations for their help with the project:
 about-get-involved = Përfshihuni
-about-get-involved-text =
+about-get-involved-text-2 =
     Doni të ndihmoni për ta bërë edhe më të mirë Common Voice-in?
-    Bukur! Lidhuni përmes email-i, ose përmes <discourseLink>Discourse</discourseLink>,
-    parashtroni mendime përmes <githubLink>GitHub</githubLink>,
-    ose merrni pjesë në kanalin tonë <slackLink>Slack</slackLink>.
+    Bukur! Lidhuni përmes email-i ose forumesh <discourseLink>Discourse</discourseLink>,
+    parashtroni probleme sajti përmes <githubLink>GitHub</githubLink>,
+    ose merrni pjesë te biseda të bashkësisë, te <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Pse?
 about-nav-how-it-works = Si?
 about-nav-partners = Partnerë
@@ -641,6 +641,8 @@ record-again-instruction = Bukur!<recordIcon></recordIcon> Incizoni copëzën tu
 record-again-instruction2 = Vazhdoni kështu, incizoni sërish <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> I fundit!
 review-tooltip = Shqyrtoni & ri-incizoni këtu copëza, dora-dorës
+share-clip = Ndani me të tjerët copëzën tuaj
+share-common-voice = Ndani me të tjerët Common Voice
 review-instruction = Shqyrtoni & ri-incizoni copëza, në u dashtë
 record-submit-tooltip = { $actionType } parashtrojeni, kur të jeni gati
 clips-uploaded = Copëzat U Ngarkuan
@@ -653,7 +655,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> e shqiptuan saktë fra
 listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur të jeni gati
 listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>E fundit!
-nothing-to-validate = S’kemi ndonjë gjë për vleftësim në këtë gjuhë, ndihmonani të plotësojmë radhën.
+listen-empty-state = Na u mbaruan copëzat për vleftësim në këtë gjuhë…
+speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
+speak-empty-state-cta = Jepni ndihmesë me fraza
 record-button-label = Incizoni zërin tuaj
 share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra
 keep-track-profile = Ndiqni ecurinë tuaj përmes një profili
@@ -663,11 +667,11 @@ login-to-get-started = Që t’ia filloni, hyni ose regjistrohuni
 
 report = Raportojni
 report-title = Parashtroni një raport
-report-ask = Ç’probleme po hasni me këtë fjali?
+report-ask = Ç’probleme po hasni me këtë frazë?
 report-offensive-language = Gjuhë fyese
-report-offensive-language-detail = Fjalia ka gjuhë shpërfillëse ose fyese.
+report-offensive-language-detail = Fraza ka gjuhë shpërfillëse ose fyese.
 report-grammar-or-spelling = Gabim gramatikor / shkrimi
-report-grammar-or-spelling-detail = Fjalia ka një gabim gramatikor ose shkrimi.
+report-grammar-or-spelling-detail = Fraza ka një gabim gramatikor ose shkrimi.
 report-different-language = Gjuhë tjetër
 report-different-language-detail = Është e shkruar në tjetër gjuhë nga ajo që flas.
 report-difficult-pronounce = E zorshme të shqiptohet

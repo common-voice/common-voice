@@ -54,7 +54,7 @@ type Locales = { locale: string; accent: string }[];
 function ProfilePage({
   getString,
   history,
-}: LocalizationProps & RouteComponentProps<any>) {
+}: LocalizationProps & RouteComponentProps<any, any, any>) {
   const api = useAPI();
   const [locale, toLocaleRoute] = useLocale();
   const user = useTypedSelector(({ user }) => user);
@@ -110,7 +110,7 @@ function ProfilePage({
 
     setUserFields({
       ...userFields,
-      sendEmails: !!(account && account.basket_token),
+      sendEmails: !!account?.basket_token,
       visible: 0,
       ...pick(user, 'age', 'username', 'gender'),
       ...(account
@@ -173,7 +173,7 @@ function ProfilePage({
     addUploads([
       async () => {
         await saveAccount(data);
-        if (!(user.account && user.account.basket_token) && sendEmails) {
+        if (!user.account?.basket_token && sendEmails) {
           await api.subscribeToNewsletter(user.userClients[0].email);
         }
 
@@ -337,7 +337,7 @@ function ProfilePage({
 
       <Hr />
 
-      {!(user.account && user.account.basket_token) && (
+      {!user.account?.basket_token && (
         <React.Fragment>
           <div className="signup-section">
             <Tooltip

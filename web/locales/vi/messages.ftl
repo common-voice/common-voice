@@ -445,16 +445,11 @@ about-partnership =
     
     Chúng tôi xin cảm ơn những người và tổ chức sau đây đã giúp đỡ cho dự án:
 about-get-involved = Tham gia đóng góp
-about-get-involved-text =
+about-get-involved-text-2 =
     Bạn muốn giúp làm cho Common Voice trở nên tốt hơn?
-    Tuyệt quá! Hãy liên lạc qua email hoặc trên <discourseLink>Discourse</discourseLink>,
-    gửi phản hồi thông qua <githubLink>GitHub</githubLink>,
-    hoặc tham gia với chúng tôi trên <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Bạn muốn giúp làm cho Common Voice trở nên tốt hơn?
-    Tuyệt quá! Hãy liên lạc qua email hoặc trên <discourseLink>Discourse</discourseLink>,
-    gửi phản hồi thông qua <githubLink>GitHub</githubLink>,
-    hoặc tham gia với chúng tôi trên <matrixLink>Matrix</matrixLink>.
+    Tuyệt quá! Hãy liên lạc qua email hoặc diễn đàn <discourseLink>Discourse</discourseLink>,
+    gửi các vấn đề về trang web thông qua <githubLink>GitHub</githubLink>,
+    hoặc tham gia trò chuyện cộng đồng trên <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Tại sao ?
 about-nav-how-it-works = Làm thế nào ?
 about-nav-partners = Đối tác
@@ -646,6 +641,8 @@ record-again-instruction = Tuyệt!<recordIcon></recordIcon> Ghi âm clip tiếp
 record-again-instruction2 = Hãy tiếp tục! Ghi âm lại <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Cái cuối cùng!
 review-tooltip = Xem lại và ghi âm lại các clip ở đây khi bạn tiếp tục
+share-clip = Chia sẻ giọng nói của bạn
+share-common-voice = Chia sẻ Common Voice
 review-instruction = Xem lại & quay lại clip nếu cần
 record-submit-tooltip = { $actionType } gửi khi sẵn sàng
 clips-uploaded = Đã tải clip lên
@@ -658,7 +655,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> họ có nói chính x
 listen-again-instruction = Làm tốt lắm!<playIcon></playIcon> Nghe lại khi bạn đã sẵn sàng
 listen-3rd-time-instruction = 2 cái đã xong, cố gắng lên!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
-nothing-to-validate = Chúng tôi không có gì để xác thực của ngôn ngữ này. Hãy giúp chúng tôi điền nó vào danh sách.
+listen-empty-state = Chúng tôi đã hết clip để xác thực bằng ngôn ngữ này...
+speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
+speak-empty-state-cta = Đóng góp câu
 record-button-label = Ghi âm giọng nói của bạn
 share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
 keep-track-profile = Theo dõi tiến trình của bạn với một hồ sơ

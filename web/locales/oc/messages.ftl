@@ -32,7 +32,7 @@ arn = Mapudungun
 as = Assamés
 ast = Asturian
 az = Azèri
-ba = Bashkirs
+ba = Bashquir
 be = Bielorús
 bg = Bulgar
 bn = Bengali
@@ -160,7 +160,7 @@ terms = Condicions
 cookies = Cookies
 faq = FAQ
 content-license-text = Contengut disponible jos <licenseLink>licéncia Creative Common</licenseLink>
-share-title = Ajudatz-nos a trobar mai de personas per donar lo votz !
+share-title = Ajudatz-nos a trobar mai de personas per donar la votz !
 share-text = Ajudatz las maquinas a aprendre a parlar coma de vertadièras personas en donar vòstra votz sus { $link }
 link-copied = Ligam copiat
 back-top = Naut de la pagina
@@ -171,15 +171,15 @@ logout = Desconnexion
 home-title = Lo projècte Common Voice es l'iniciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas de vertat.
 home-cta = Parlatz fòrt, contribuissètz aquí !
 wall-of-text-start =
-    La votz es naturala, la votz es umana. Es per aquò que volèm crear de tecnologias vocala de qualitat
-    per nòstras maquinas. Mas realizar de tales sistèma demanda un volum de donadas vocalas gigantèsc.
+    La votz es naturala, la votz es umana. Es per aquò que volèm crear tecnologias vocalas de qualitat
+    per nòstras maquinas. Mas realizar de tales sistèmas demanda un volum de donadas vocalas gigantèsc.
 wall-of-text-more-mobile = La màger part de las donadas utilizadas per de grandas entrepresas son pas disponiblas de tot lo monde. Pensam que frena l’innovacion. Per aquò, avèm lançat lo projècte Common Voice, un projècte per que la tecnologia de reconeissença de la votz siá dubèrta a totes.
 wall-of-text-more-desktop =
     Ara podètz donar vòstra votz per nos ajudar a construire una basa de donas que tot lo monde pòt utilizar
     per crear d’aplicacions innovantas pels periferics e lo web. Legissètz de frasas per ajudar las maquinas a aprendre cossí lo vertadièr monde parlan. Agachatz lo trabalh dels autres
     contributors per melhorar la qualitat. Es pas mai complicat !
 wall-of-text-first =
-    La votz es naturala, la votz es umana. Es per aquò que volèm crear de tecnologias vocala de qualitat
+    La votz es naturala, la votz es umana. Es per aquò que volèm crear tecnologias vocalas de qualitat
     per nòstras maquinas. Mas realizar de tales sistèma demanda un volum de donadas vocalas gigantèsc.
 wall-of-text-second = La màger part de las donadas utilizadas per de grandas entrepresas son pas disponiblas de tot lo monde. Pensam que frena l’innovacion. Per aquò, avèm lançat lo projècte Common Voice, un projècte per que la tecnologia de reconeissença de la votz siá dubèrta a totes.
 show-wall-of-text = Legir la seguida
@@ -414,8 +414,8 @@ faq-how-privacy-q = Cossí asseguratz l'anonimat e la vida privada de los qu'an 
 faq-how-privacy-a = Totas las mòstras son expurgadas d'informacions que permeton d'identificar las personas. Quand un contributor porgís d'informacions demograficas via son perfil, aquestas son dissociadas de las mòstras abans d'èsser prepausadas al telecargament, e son pas jamai rendudas publicas sus lor pagina de perfil.
 faq-what-determine-identity-q = Qué vòl dire que pòdi pas « determinar l’identitat » dels locutors dins un jòc de donadas de Common Voice ?
 faq-what-determine-identity-a =
-    Lo jòc de donadas Common Voice es una ressorça dobèrta e accessible a totes que pòt èsser utilizada per de nombroses aplicacions ligadas a la votz. Per aparar la seguretat de nòstres contributors, demandam a totes los que telecargan de donadas de respectar la vida privada dels contributors.¶
-    ¶Totes los voice clips del jòc de donadas son expurgats de las informacions que permeton d'identificar los locutors. Quand telecargatz lo jòc de donadas, acceptatz d'ensajar pas de determinar l'identitat de cap contributor. Aquò vòl dire que vos cal pas ensajar de far lo ligam entre lo jòc de donadas e las informacions personalas d'un contributor. Podètz ça que la utilizar lo jòc de donadas per permetre la reconeissença vocala, l'identificacion de las diferentas personas que participan a una conversacion, per exemple en utilizant las donadas presentas unicament dins lo jòc de donadas.
+    Lo jòc de donadas Common Voice es una ressorça dobèrta e accessible a totes que pòt èsser utilizada per de nombroses aplicacions ligadas a la votz. Per aparar la seguretat de nòstres contributors, demandam a totes los que telecargan de donadas de respectar la vida privada dels contributors.
+    Totes los voice clips del jòc de donadas son expurgats de las informacions que permeton d'identificar los locutors. Quand telecargatz lo jòc de donadas, acceptatz d'ensajar pas de determinar l'identitat de cap contributor. Aquò vòl dire que vos cal pas ensajar de far lo ligam entre lo jòc de donadas e las informacions personalas d'un contributor. Podètz ça que la utilizar lo jòc de donadas per permetre la reconeissença vocala, l'identificacion de las diferentas personas que participan a una conversacion, per exemple en utilizant las donadas presentas unicament dins lo jòc de donadas.
 faq-what-is-cv = Qu'es aquò Common Voice ?
 faq-using-cv = Utilizar Common Voice
 faq-description = Common Voice es part de l’inciativa de Mozilla per ajudar las maquinas a aprendre coma parlam las personas en realitat.
@@ -426,7 +426,9 @@ faq-search-for-answers =
 
 about-title = Perqué Common Voice ?
 about-subtitle = Common Voice fa part de l’initiativa de Mozilla per ajudar a aprendre a las maquinas cossí lo monde parla. En mai del jòc de donadas de Common Voice, construissèm un motor de reconeissença vocal liure apelat Deep Speech.
-about-header-description = Aquestes dos projèctes fan partida de nòstres esfòrces per reduire las inegalitats dins lo mond de la votz digitala. Las tecnologias de reconeissença vocala porgisson una dimension umana a nòstres aparelhs, mas los desvolopaires an besonh d'una quantitat importanta de donadas vocalas per las concebre. Actualament, la màger part d'aquelas donadas son costosas e proprietàrias.¶ Volèm que las donadas vocalas sián liuras e publicas, e garantir que las donadas representen la diversitat de las personas realas. Amassa, podèm melhorar la reconeissença vocala per totòm.
+about-header-description =
+    Aquestes dos projèctes fan partida de nòstres esfòrces per reduire las inegalitats dins lo mond de la votz digitala. Las tecnologias de reconeissença vocala porgisson una dimension umana a nòstres aparelhs, mas los desvolopaires an besonh d'una quantitat importanta de donadas vocalas per las concebre. Actualament, la màger part d'aquelas donadas son costosas e proprietàrias.
+    Volèm que las donadas vocalas sián liuras e publicas, e garantir que las donadas representen la diversitat de las personas realas. Amassa, podèm melhorar la reconeissença vocala per totòm.
 how-does-it-work-title = Cossí fonciona ?
 how-does-it-work-text = Cridam a la participacion collectiva per constituir un jòc de donadas liure. Donatz vòstra votz, validatz la precision de las mòstras d’autras personas, melhoratz lo jòc de donadas per tot lo monde.
 about-speak = Parlar
@@ -452,16 +454,10 @@ about-partnership =
     
     Volriam mercejar las personas e organizacions seguenta per lor ajuda sul projècte :
 about-get-involved = Participar
-about-get-involved-text =
+about-get-involved-text-2 =
     Volètz ajudar a melhorar Common Voice ?
-    Crane ! Contactatz-nos per mail o sus <discourseLink>Discourse</discourseLink>,
-    enviatz un comentari via <githubLink>GitHub</githubLink>,
-    o rejonhètz-nos sus <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Volètz ajudar a melhorar Common Voice ?
-    Crane ! Contactatz-nos per corrièl o sus <discourseLink>Discourse</discourseLink>,
-    mandatz de comentaris sus <githubLink>GitHub</githubLink>,
-    o venètz sus <matrixLink>Matrix</matrixLink>.
+    Crane ! Contactatz-nos per corrièl o sul forum <discourseLink>Discourse</discourseLink>,
+    senhalatz de problèmas via <githubLink>GitHub</githubLink>, o venètz sul <matrixLink>Matrix</matrixLink> de la comunautat.
 about-nav-why-common-voice = Perque ?
 about-nav-how-it-works = Cossí ?
 about-nav-partners = Sòcis
@@ -524,7 +520,11 @@ review-delete-recordings = Suprimir mos enregistraments
 ## Datasets Page
 
 datasets-headline = Sèm a crear un jòc de donadas vocalas liure que tot lo monde pòt utilizar per entrenar d’aplicacions utilizan la reconeissença vocala.
-datasets-positioning = Pensam que metre de grands jòcs de donadas a la disposicion de totòm favoriza l'innovacion e una concurréncia sana per las tecnologias qu'utilizan la votz e que son basadas sus l'aprendissatge automatic.¶¶ Lo jòc de donadas multilingüe de Common Voice es ja lo mai grand jòc de donadas disponible d'aquesta mena, mas es pas lo sol. ¶ Aquesta pagina de referéncia lista d'autras referéncias open source e, a flor e a mesura de l'evolucion de Common Voice, prepausarà tanben nòstras mesas a jorn a venir.
+datasets-positioning =
+    Pensam que metre de grands jòcs de donadas a la disposicion de totòm favoriza l'innovacion e una concurréncia sana per las tecnologias qu'utilizan la votz e que son basadas sus l'aprendissatge automatic.
+    
+    Lo jòc de donadas multilingüe de Common Voice es ja lo mai grand jòc de donadas disponible d'aquesta mena, mas es pas lo sol.
+    Aquesta pagina de referéncia lista d'autras referéncias open source e, a flor e a mesura de l'evolucion de Common Voice, prepausarà tanben nòstras mesas a jorn a venir.
 language = Lenga
 # File size in gigabytes
 size = Talha
@@ -645,6 +645,8 @@ record-again-instruction = Crane !<recordIcon></recordIcon> Enregistratz una m
 record-again-instruction2 = Conutnatz atal, enregistratz un de mai <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>La darrièra !
 review-tooltip = Verificatz e tornatz enregistrar aquí se cal
+share-clip = Partejar vòstra mòstra
+share-common-voice = Partejar Common Voice
 review-instruction = Verificatz e tornatz enregistrar se cal
 record-submit-tooltip = { $actionType } enviar quand siatz prèst
 clips-uploaded = Mòstra enviada
@@ -657,7 +659,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> la frasa foguèt corr�
 listen-again-instruction = Polit trablah !<playIcon></playIcon>Escotatz de nòu quand siatz prèst
 listen-3rd-time-instruction = Encara 2, gardatz lo ritme !<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Lo darrièr !
-nothing-to-validate = Avèm pas res a validar dins aquesta lenga, ajudatz-nos a ajustar d’enregistraments dins la fila.
+listen-empty-state = Avèm pas mai de frasas a validar per aquesta lenga...
+speak-empty-state = Avèm pas mai de frasas a enregistrar per aquesta lenga...
+speak-empty-state-cta = Prepausar de frasas
 record-button-label = Enregistrar vòstra votz
 share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
 keep-track-profile = Seguissètz vòstra progression en crear un perfil

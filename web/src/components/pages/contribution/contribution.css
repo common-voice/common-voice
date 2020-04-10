@@ -462,7 +462,7 @@
         }
     }
 
-    & .review-instructions {
+    .review-instructions {
         font-style: italic;
 
         @media (--sm-down) {
@@ -485,7 +485,7 @@
         }
     }
 
-    & .text-button {
+    .text-button {
         font-size: var(--font-size-xs);
         font-weight: 600;
         text-decoration: underline;
@@ -526,7 +526,7 @@
         align-items: center;
     }
 
-    & .error-card {
+    .error-card {
         margin: 75px auto;
         padding: 30px 25px;
         max-width: 700px;
@@ -545,34 +545,23 @@
             padding: 120px 105px;
         }
 
-        & a {
+        .button {
             margin-top: 30px;
-            background: #ff4e5e;
             border: none;
-            box-shadow: 0 5px 10px color-mod(#ff4e5e alpha(50%));
+            background: var(--red);
+            box-shadow: 0 5px 10px color-mod(var(--red) alpha(50%));
+            text-transform: uppercase;
 
             &:hover {
                 color: var(--white);
-                background: #ff4e5e;
                 opacity: 1;
-                box-shadow: 0 5px 10px #ff4e5e;
+                background: var(--red);
+                box-shadow: 0 5px 10px var(--red);
 
                 & path {
                     fill: var(--white);
                 }
             }
-        }
-    }
-
-    & .record-instead {
-        display: inline-flex;
-
-        & svg {
-            margin-inline-end: 10px;
-        }
-
-        & path {
-            fill: var(--white);
         }
     }
 }

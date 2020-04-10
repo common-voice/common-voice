@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Kirim
 loading = Memuat…
 email-opt-in-info = Saya bersedia menerima surel seperti pengingat sasaran, pembaruan progres, dan nawala tentang Common Voice.
+email-opt-in-info-title = Bergabunglah dengan milis Common Voice
+email-opt-in-info-sub-with-challenge = Terima email seperti pengingat tantangan dan sasaran, pembaruan kemajuan, dan buletin tentang Common Voice.
 email-opt-in-privacy = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
 indicates-required = * Wajib diisi
 not-available-abbreviation = N/A
@@ -428,11 +430,6 @@ about-partnership =
     
     Kami ingin berterima kasih kepada orang-orang dan organisasi berikut atas bantuan mereka dalam proyek ini:
 about-get-involved = Mari berperan
-about-get-involved-text =
-    Ingin menjadikan Common Voice lebih baik lagi?
-    Bagus! Hubungi kami melalui surel atau di <discourseLink>Discourse</discourseLink>,
-    sampaikan tanggapan melalui <githubLink>GitHub</githubLink>,
-    atau bergabunglah bersama kami di <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Mengapa?
 about-nav-how-it-works = Bagaimana?
 about-nav-partners = Mitra

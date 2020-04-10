@@ -435,7 +435,11 @@ about-partners = یارمەتیدەران
 about-become-a-partner = ببە بە یارمەتیدەر
 about-partnership = دەنگی گشتی پڕۆژەیەکی بەشدارانەیە و ئێمە چاوەڕوانی کۆمەڵگەی بەشداران و خۆبەخشانمانین بۆ ساز کردنی گەورەترین دەیتاسێتی کراوەی دەنگ. ئێمە پێمان خۆشە دەستخۆشی بکەین لەم کەسانە و سازمانانە بۆ یارمەتی دانی پڕۆژەکە:
 about-get-involved = بەشدار بە
-about-get-involved-text = پێت خۆشە ئەم پڕۆژە باشتر بکەی؟ زۆر چاکە! لە ڕێگای ئیمەیل پەیوەندیمان پێ بکە یان <discourseLink>دیسکۆرس</discourseLink>، فیدبەک بنێرە لە ڕێگای <githubLink>گیتهاب</githubLink> یان لەگەڵمان بە لە <slackLink>ئسڵەک</slackLink>.
+about-get-involved-text-2 =
+    دەتهەوێ پرۆژەی دەنگی گشتی لەوەی هەیە باشتر کەی؟
+    زۆر چاکە! لە رێگای ئیمەیل یان مەکۆکانی <discourseLink>Discourse</discourseLink> پەیوەندی بکە
+    لە <githubLink>GitHub</githubLink>ەوە گرفتەکانی ماڵپەڕەکەمان بۆ بنێرە،
+    یان لە رێگەی <matrixLink>Matrix</matrixLink>ەوە لەگەڵمان بە.
 about-nav-why-common-voice = بۆچی؟
 about-nav-how-it-works = چۆن؟
 about-nav-partners = یارمەتیدەران
@@ -618,6 +622,8 @@ record-again-instruction = بژی!<recordIcon></recordIcon>کلیپی داهات
 record-again-instruction2 = بەردەوام بە، دیسان زەبت کە<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> دواهەمین دانە!
 review-tooltip = هاوکات لەگەڵ پێشکەوتنت کلیپەکان لێرە چاو لێ بکە و دیسان زەبتی کەوە
+share-clip = کلیپی خۆت هاوبەش کە
+share-common-voice = پڕۆژەی دەنگی گشتی هاوبەش کە
 review-instruction = کلیپەکان چاو لێ بکە ، لە کاتی پێویست دیسان زەبتی کەوە
 record-submit-tooltip = { $actionType } کاتێک ئامادە بووی بینێرە
 clips-uploaded = دەنگی ئاپلۆدکراو

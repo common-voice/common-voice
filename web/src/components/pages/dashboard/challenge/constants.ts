@@ -1,5 +1,5 @@
-import { ChallengeDuration, ChallengeTeamToken } from 'common/challenge';
-import { UserClient } from 'common/user-clients';
+import { ChallengeDuration, ChallengeTeamToken } from 'common';
+import { UserClient } from 'common';
 
 export const challengeLogos: {
   [key in ChallengeTeamToken]: {
@@ -30,7 +30,7 @@ const isValidDate = (dateStr: string) => {
 const getNow = () => {
   const dateParam =
     location.search && location.search.match(/date=(\d+-\d+-\d+)/);
-  const date = dateParam && dateParam[1];
+  const date = dateParam?.[1];
   return date && isValidDate(date) ? new Date(date) : new Date();
 };
 
@@ -50,7 +50,7 @@ export const pilotDates: ChallengeDuration = {
 };
 
 export const isEnrolled = (account: UserClient) =>
-  account && account.enrollment && account.enrollment.challenge;
+  account?.enrollment?.challenge;
 
 export const weeklyChallengeCopy = [
   {

@@ -449,16 +449,11 @@ about-partnership =
     
     We willen de volgende mensen en organisaties bedanken voor hun hulp bij het project:
 about-get-involved = Meedoen
-about-get-involved-text =
-    Wilt u Common Voice nog beter helpen maken?
-    Geweldig! Neem contact op via e-mail of op <discourseLink>Discourse</discourseLink>,
-    geef feedback via <githubLink>GitHub</githubLink>,
-    of doe mee op <slackLink>Slack </slackLink>.
-about-get-involved-text-2020 =
-    Wilt u Common Voice nog beter helpen maken?
-    Geweldig! Neem contact op via e-mail of op <discourseLink>Discourse</discourseLink>,
-    geef feedback via <githubLink>GitHub</githubLink>,
-    of doe mee op <matrixLink>Matrix</matrixLink>.
+about-get-involved-text-2 =
+    Wilt u helpen Common Voice nog beter te maken?
+    Geweldig! Neem contact op via e-mail of <discourseLink>Discourse</discourseLink>-
+    forums, meld problemen met de website via <githubLink>GitHub</githubLink>, of doe
+    mee met de gemeenschapschat op <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Waarom?
 about-nav-how-it-works = Hoe?
 about-nav-partners = Partners
@@ -647,6 +642,8 @@ record-again-instruction = Geweldig! <recordIcon></recordIcon> Neem uw volgende 
 record-again-instruction2 = Ga zo door, neem nog een keer op <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> De laatste!
 review-tooltip = Beoordeel en neem nogmaals fragmenten op als u wilt
+share-clip = Uw opname delen
+share-common-voice = Common Voice delen
 review-instruction = Beoordeel fragmenten en neem ze zo nodig opnieuw op
 record-submit-tooltip = { $actionType } Indienen wanneer gereed
 clips-uploaded = Fragmenten geüpload
@@ -659,7 +656,9 @@ listen-instruction = { $actionType } <playIcon></playIcon> - is de zin duidelijk
 listen-again-instruction = Goed werk! <playIcon></playIcon> Luister opnieuw wanneer u klaar bent
 listen-3rd-time-instruction = 2 gedaan, ga zo door! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> De laatste!
-nothing-to-validate = Er is niets in deze taal te valideren; help ons de rij te vullen.
+listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer...
+speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer...
+speak-empty-state-cta = Zinnen bijdragen
 record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
 keep-track-profile = Houd uw voortgang bij met een profiel
