@@ -477,7 +477,6 @@ class SpeakPage extends React.Component<Props, State> {
       async () => {
         trackRecording('submit', locale);
         refreshUser();
-        this.setState({ clipUploaded: true });
         addNotification(
           <React.Fragment>
             <CheckIcon />{' '}
@@ -499,6 +498,7 @@ class SpeakPage extends React.Component<Props, State> {
     this.setState({ showPrivacyModal: false });
     this.props.updateUser({ privacyAgreed: true });
     this.upload(true);
+    this.setState({ clipUploaded: true });
   };
 
   private toggleDiscardModal = () => {
