@@ -891,6 +891,11 @@ export const ChromeColor = Icon(
   'chrome-color'
 );
 
+export const SafariColor = Icon(
+  require('./icons/safari-color.svg'),
+  'safari-color'
+);
+
 export const CautionIcon = Icon(
   require('./icons/exclamation.svg'),
   'exclamation'

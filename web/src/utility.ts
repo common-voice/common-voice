@@ -48,11 +48,11 @@ export function isFirefoxFocus(): boolean {
 /**
  * Test whether this is a browser on iOS.
  */
-function isIOS(): boolean {
+export function isIOS(): boolean {
   return /(iPod|iPhone|iPad)/i.test(window.navigator.userAgent);
 }
 
-function isWebkit(): boolean {
+export function isWebkit(): boolean {
   return /AppleWebKit/i.test(window.navigator.userAgent);
 }
 
