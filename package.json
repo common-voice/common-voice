@@ -2,7 +2,7 @@
   "name": "voice-web",
   "version": "1.0.0",
   "license": "MPL-2.0",
-  "repository": "https://github.com/mozilla/voice-web",
+  "repository": "mozilla/voice-web",
   "private": true,
   "dependencies": {
     "fluent-syntax": "^0.14.0",
@@ -20,7 +20,8 @@
   "workspaces": [
     "common",
     "server",
-    "web"
+    "web",
+    "maintenance"
   ],
   "engines": {
     "node": ">=10.17.0"
@@ -32,12 +33,12 @@
     "minimist": "1.2.3"
   },
   "scripts": {
-    "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",
+    "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\" \"cd maintenance && yarn build\"",
     "build-common": "cd common && yarn build && cd ..",
     "import-locales": "node scripts/import-locales",
     "lint": "prettier \"**/*.{ts,tsx}\"",
     "prettier": "yarn lint --write",
-    "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
+    "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE,MT\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\" \"cd maintenance && yarn dev\"",
     "start:prod": "yarn build-common && node server/js/main.js",
     "test": "yarn build-common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && yarn test\""
   },
@@ -45,7 +46,5 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  },
-  "main": "index.js",
-  "author": "<fenjiromohamed1@gmail.com>"
+  }
 }
