@@ -219,7 +219,7 @@
     }
 
     .label {
-        color: #9b9b9b;
+        color: var(--warm-grey);
         margin: 0;
     }
 
@@ -233,7 +233,7 @@
 
 .language {
     line-height: 40px;
-    color: #9b9b9b;
+    color: var(--warm-grey);
 }
 
 .language-text {

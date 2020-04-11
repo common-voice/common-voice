@@ -19,7 +19,7 @@
 
         &.why-common-voice,
         &.partners {
-            background-color: #f9f9f7;
+            background-color: var(--white);
         }
 
         .about-container {

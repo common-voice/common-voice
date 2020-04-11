@@ -43,7 +43,8 @@
     "react-tippy": "^1.2.2",
     "redux": "^4.0.0",
     "redux-thunk": "^2.2.0",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",

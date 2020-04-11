@@ -39,7 +39,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background: #f6f6f5;
+        background: var(--white);
 
         @media (--md-up) {
             margin-inline-end: 50px;
@@ -52,7 +52,7 @@
             flex-direction: column;
             align-items: flex-end;
 
-            background: linear-gradient(to bottom, #f6f6f5, var(--white));
+            background: var(--white);
         }
 
         @media (--lg-up) {

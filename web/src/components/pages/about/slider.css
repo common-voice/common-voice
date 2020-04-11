@@ -4,12 +4,7 @@
     padding: 0;
     border: none;
     display: flex;
-    background: linear-gradient(
-        to bottom,
-        #f9f9f7 0%,
-        #f9f9f7 90%,
-        var(--white) 100%
-    );
+    background: var(--white);
 
     .slider-container {
         background: var(--white);

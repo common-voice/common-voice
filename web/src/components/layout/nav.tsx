@@ -8,6 +8,7 @@ import {
   useLocale,
 } from '../locale-helpers';
 
+import DarkModeToggle from './dark-mode';
 import './nav.css';
 
 const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
@@ -27,6 +28,7 @@ const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
 export default ({ children, ...props }: { [key: string]: any }) => (
   <nav {...props} className="nav-list">
     <div className="nav-links">
+      <DarkModeToggle/>
       <ContributableLocaleLock>
         <LocalizedNavLink id="contribute" to={URLS.SPEAK} />
       </ContributableLocaleLock>

@@ -174,7 +174,7 @@
                 z-index: var(--override-z-index);
                 overflow: auto;
                 max-width: inherit;
-                background-color: rgba(249, 249, 249, 1);
+                background-color: var(--white);
             }
             @media (--sm-down) {
                 padding: 0 1.25rem;

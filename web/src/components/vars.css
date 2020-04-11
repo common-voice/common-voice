@@ -1,59 +1,81 @@
 :root {
-    --white: white;
-    --black: black;
-    --red: #ff4f5e;
-    --light-red: #fdc6c8;
-    --green: #b7d43f;
-    --valid-green: #59cbb7;
-    --near-black: #4a4a4a;
-    --grey: #e7e5e2;
-    --darker-grey: #e6e5e3;
-    --light-grey: #f3f2f0;
-    --lighter-grey: #f9f9f9;
-    --desert-storm: #f3f2f1;
-    --warm-grey: #959595;
-    --blue: #629ff4;
+  --white: white;
+  --black: black;
+  --red: #ff4f5e;
+  --light-red: #fdc6c8;
+  --green: #b7d43f;
+  --valid-green: #59cbb7;
+  --near-black: #4a4a4a;
+  --grey: #e7e5e2;
+  --darker-grey: #e6e5e3;
+  --light-grey: #f3f2f0;
+  --lighter-grey: #f9f9f9;
+  --desert-storm: #f3f2f1;
+  --warm-grey: #959595;
+  --blue: #629ff4;
 
-    --link-color: var(--blue);
+  --link-color: var(--blue);
 
-    --override-z-index: 3;
-    --top-z-index: 2;
-    --middle-z-index: 1;
-    --bottom-z-index: 0;
+  --black-80: rgba(0, 0, 0, 0.8);
+  --white-10: rgba(255, 255, 255, 0.1);
 
-    --base-font-family: 'Open Sans', sans-serif;
-    --strong-font-family: 'Zilla Slab', Georgia, Utopia, Charter, serif;
-    --font-size: 16px;
-    --font-size-xs: 12px;
-    --font-size-lg: 24px;
-    --font-size-xl: 32px;
-    --font-size-xxl: 34px;
+  --override-z-index: 3;
+  --top-z-index: 2;
+  --middle-z-index: 1;
+  --bottom-z-index: 0;
 
-    --standard-margin: 0.3rem;
+  --base-font-family: "Open Sans", sans-serif;
+  --strong-font-family: "Zilla Slab", Georgia, Utopia, Charter, serif;
+  --font-size: 16px;
+  --font-size-xs: 12px;
+  --font-size-lg: 24px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 34px;
 
-    --wide-desktop-width: 1400px;
-    --desktop-width: 76rem;
-    --old-desktop-width: 55rem;
+  --standard-margin: 0.3rem;
 
-    --page-margin: 1rem;
+  --wide-desktop-width: 1400px;
+  --desktop-width: 76rem;
+  --old-desktop-width: 55rem;
 
-    --input-height: 2.5rem;
+  --page-margin: 1rem;
 
-    --spinner-height: 10rem;
+  --input-height: 2.5rem;
 
-    --card-shadow: rgba(0, 0, 0, 0.09) 0px 1px 6px,
-        rgba(0, 0, 0, 0.09) 0px 1px 4px;
+  --spinner-height: 10rem;
 
-    --transition-duration: 0.2s;
-    --transition-duration-slow: 0.5s;
-    --easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --card-shadow: rgba(0, 0, 0, 0.09) 0px 1px 6px,
+    rgba(0, 0, 0, 0.09) 0px 1px 4px;
 
-    --header-height: 4rem;
-    --nav-shadow-overhang: 0px 2px 4px rgba(0, 0, 0, 0.03);
+  --transition-duration: 0.2s;
+  --transition-duration-slow: 0.5s;
+  --easing: cubic-bezier(0.4, 0, 0.2, 1);
 
-    --dataset-item-margin: 0.7rem;
+  --header-height: 4rem;
+  --nav-shadow-overhang: 0px 2px 4px rgba(0, 0, 0, 0.03);
 
-    --profile-column-margin: 30px;
+  --dataset-item-margin: 0.7rem;
+
+  --profile-column-margin: 30px;
+}
+
+:root body.dark-mode,
+body.dark-mode,
+body.dark-theme,
+:root.dark-mode,
+html.dark-mode {
+  --white: black;
+  --black: white;
+  --near-black: #b5b5b5;
+  --grey: #e7e5e2;
+  --darker-grey: #181a1d;
+  --light-grey: #0c0d0f;
+  --lighter-grey: #060606;
+  --desert-storm: #0c0d0e;
+  --warm-grey: #6a6a6a;
+
+  --black-80: rgba(255, 255, 255, 0.8);
+  --white-10: rgba(0, 0, 0, 0.1);
 }
 
 @custom-media --xs-up (width >= 350px);
@@ -76,44 +98,44 @@
 @custom-media --tall (height > 800px);
 
 @keyframes fade-in {
-    from {
-        opacity: 0;
-        pointer-events: none;
-    }
-    to {
-        opacity: 1;
-        pointer-events: all;
-    }
+  from {
+    opacity: 0;
+    pointer-events: none;
+  }
+  to {
+    opacity: 1;
+    pointer-events: all;
+  }
 }
 
 .md-block {
-    display: none;
+  display: none;
 
-    @media (--md-up) {
-        display: block;
-    }
+  @media (--md-up) {
+    display: block;
+  }
 }
 
 .hidden-sm-down {
-    @media (--sm-down) {
-        display: none !important;
-    }
+  @media (--sm-down) {
+    display: none !important;
+  }
 }
 
 .hidden-md-down {
-    @media (--md-down) {
-        display: none !important;
-    }
+  @media (--md-down) {
+    display: none !important;
+  }
 }
 
 .hidden-md-up {
-    @media (--md-up) {
-        display: none !important;
-    }
+  @media (--md-up) {
+    display: none !important;
+  }
 }
 
 .hidden-lg-up {
-    @media (--lg-up) {
-        display: none !important;
-    }
+  @media (--lg-up) {
+    display: none !important;
+  }
 }

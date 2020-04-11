@@ -96,7 +96,7 @@ body:not(.mobile-safari) .button:hover path,
     font-family: var(--base-font-family);
     font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0 2px;
-    background: white;
+    background: var(--white);
     white-space: nowrap;
     text-transform: none;
     animation: fade-in var(--transition-duration);
@@ -108,7 +108,7 @@ body:not(.mobile-safari) .button.card-action:hover,
 .button.card-action:focus.focus-visible {
     outline: none;
     margin: 1px -1px -1px 1px;
-    background: white;
+    background: var(--white);
     color: var(--black);
     opacity: 0.8;
     box-shadow: none;
@@ -315,7 +315,7 @@ button.card-action:focus.focus-visible path {
     align-items: center;
 
     color: var(--white);
-    background: #9b9b9b;
+    background: var(--warm-grey);
 
     & input {
         margin: 0;

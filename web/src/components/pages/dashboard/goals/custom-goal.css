@@ -94,7 +94,7 @@
         margin-bottom: 30px;
 
         &.completed .box {
-            background: #efefef;
+            background: var(--white);
         }
     }
 

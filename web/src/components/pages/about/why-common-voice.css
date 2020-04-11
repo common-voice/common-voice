@@ -9,7 +9,7 @@
             left: -1rem;
             width: calc(100% + 1rem);
             height: 7.5vw;
-            background-color: #f9f9f7;
+            background-color: var(--white);
         }
     }
 

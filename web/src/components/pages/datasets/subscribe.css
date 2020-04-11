@@ -42,13 +42,13 @@
 
     & .labeled-form-control.for-input {
         & .label {
-            color: #f9f9f8;
+            color: var(--white);
             background: var(--near-black);
         }
 
         & input {
-            color: white;
-            border: 1.6px solid #f9f9f8;
+            color: var(--white);
+            border: 1.6px solid var(--white);
             border-radius: 2px 0 0 2px;
             border-inline-end: 0;
             background: transparent;
@@ -58,13 +58,13 @@
     & button {
         border-top-right-radius: 2px;
         border-bottom-right-radius: 2px;
-        border: 1.6px solid #f9f9f8;
+        border: 1.6px solid var(--white);
         width: 100%;
         min-width: auto;
         max-width: 200px;
         font-weight: normal;
         color: #666666;
-        background: #f9f9f8;
+        background: var(--white);
 
         &:disabled {
             opacity: 0.8;
@@ -103,7 +103,7 @@
         }
 
         & .checkbox-container {
-            border: 1.6px solid #f9f9f8;
+            border: 1.6px solid var(--white);
             border-radius: 2px;
         }
 
@@ -112,7 +112,7 @@
         }
 
         & .checkmark path {
-            fill: #f9f9f8;
+            fill: var(--white);
         }
     }
 }

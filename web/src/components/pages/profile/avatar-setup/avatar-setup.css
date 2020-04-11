@@ -8,7 +8,7 @@
 
 .clip {
     border-right: solid 1px;
-    border-color: whitesmoke;
+    border-color: var(--white);
     padding-right: 20px;
     @media only screen and (max-width: 414px) {
         border-color: white;
@@ -160,7 +160,7 @@
     }
 
     .delete-but {
-        background-color: white;
+        background-color: var(--white);
         font-size: 13.5px;
     }
 

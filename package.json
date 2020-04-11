@@ -2,7 +2,7 @@
   "name": "voice-web",
   "version": "1.0.0",
   "license": "MPL-2.0",
-  "repository": "mozilla/voice-web",
+  "repository": "https://github.com/mozilla/voice-web",
   "private": true,
   "dependencies": {
     "fluent-syntax": "^0.14.0",
@@ -45,5 +45,7 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "main": "index.js",
+  "author": "<fenjiromohamed1@gmail.com>"
 }

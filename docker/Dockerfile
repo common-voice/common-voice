@@ -42,7 +42,7 @@ ENV GIT_SLUG=${REPO}
 RUN yarn
 
 # Run build
-RUN yarn build
+RUN yarn build --profile
 
 # Default command to start the server
 CMD yarn start 2>&1 | tee /code/logs/voice-server.log

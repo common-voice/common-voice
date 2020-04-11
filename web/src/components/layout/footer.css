@@ -151,7 +151,7 @@ footer {
 
     & .back-top {
         margin-top: 1rem;
-        color: white;
+        color: var(--white);
         text-decoration: underline;
         text-align: center;
         order: -1;
@@ -162,7 +162,7 @@ footer {
     }
 
     & *:focus.focus-visible {
-        outline: 1px solid white;
+        outline: 1px solid var(--white);
     }
 }
 
@@ -172,7 +172,7 @@ footer {
     flex-direction: column;
     align-items: center;
     flex: 1;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--white-10);
     max-width: 260px;
 
     & .title {

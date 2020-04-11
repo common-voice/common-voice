@@ -7,7 +7,7 @@
 
     & .title-and-icon,
     & .filters {
-        background: #f9f9f8;
+        background: var(--white);
     }
 
     & .title-and-icon {

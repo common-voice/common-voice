@@ -160,7 +160,7 @@
         border-top: 2px solid var(--type-color-opaque);
         display: flex;
         flex-direction: row;
-        background: #f9f9f8;
+        background: var(--white);
 
         @media (--md-down) {
             flex-wrap: wrap;

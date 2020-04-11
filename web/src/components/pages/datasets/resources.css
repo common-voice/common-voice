@@ -184,7 +184,7 @@
             top: 45px;
             z-index: 1;
             inset-inline-start: 50px;
-            background: white;
+            background: var(--white);
         }
 
         & h2 {

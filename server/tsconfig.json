@@ -3,7 +3,8 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
-    "outDir": "js"
+    "outDir": "js",
+    "skipLibCheck": true
   },
   "include": ["src/**/*"]
 }

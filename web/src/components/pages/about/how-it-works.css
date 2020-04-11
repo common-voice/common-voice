@@ -53,7 +53,7 @@
     }
 
     .flowchart-block {
-        background: #f9f9f8;
+        background: var(--white);
         width: 100%;
         max-width: 390px;
         margin: 0 auto;

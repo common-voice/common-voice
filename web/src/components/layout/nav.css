@@ -170,7 +170,7 @@ header {
                 overflow-x: hidden;
 
                 &.selected {
-                    color: black;
+                    color: var(--black);
                 }
 
                 &.highlighted {
