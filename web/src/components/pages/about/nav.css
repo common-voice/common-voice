@@ -51,7 +51,7 @@
                     bottom: calc(100% + 6px);
                     height: 14px;
                     width: 1px;
-                    background-color: #bed9ff;
+                    background-color: var(--cyan-2);
                     transition: height 0.5s 0s;
                 }
             }

@@ -1,7 +1,7 @@
 @import url('../../../vars.css');
 
 .progress-card {
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 var(--black-10);
 
     &.speak {
         --type-color: var(--red);
@@ -160,7 +160,7 @@
         border-top: 2px solid var(--type-color-opaque);
         display: flex;
         flex-direction: row;
-        background: var(--white);
+        background: var(--white1);
 
         @media (--md-down) {
             flex-wrap: wrap;

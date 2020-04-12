@@ -43,7 +43,7 @@ footer {
     }
 
     & .divider {
-        border-right: 2px solid darkgrey;
+        border-right: 2px solid var(--gray-1);
         height: 2.5rem;
 
         @media (--md-up) {

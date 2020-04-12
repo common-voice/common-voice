@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 
 const Toggle = ({ checked, onChange }: { [key: string]: any }) => (
   <span className="toggle-control">

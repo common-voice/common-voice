@@ -9,7 +9,7 @@
             left: -1rem;
             width: calc(100% + 1rem);
             height: 7.5vw;
-            background-color: var(--white);
+            background-color: var(--white1);
         }
     }
 
@@ -78,7 +78,7 @@
         & .line {
             width: 70px;
             height: 3px;
-            background: linear-gradient(to right, #f89096, #b1b4e5);
+            background: linear-gradient(to right, var(--pink-1), var(--purple-1));
 
             @media (--md-down) {
                 margin-bottom: 20px;

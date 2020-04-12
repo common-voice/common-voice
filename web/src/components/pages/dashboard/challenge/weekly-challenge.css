@@ -6,13 +6,13 @@
     margin-right: 16px;
     height: 100%;
     background-color: var(--white);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 var(--black-10);
 }
 .weekly-topbar {
     height: 127px;
     padding: 15px 0 15px 20px;
-    background-color: var(--white);
-    border-bottom: 1px solid var(--white);
+    background-color: var(--lighter-grey);
+    border-bottom: 1px solid var(--lighter-grey);
     box-sizing: border-box;
     position: relative;
     & h2 {
@@ -41,7 +41,7 @@
     margin: 0 7.5px;
     &.active {
         color: var(--white);
-        background-color: #4a4a4a;
+        background-color: var(--near-black);
     }
 }
 .weekly-content {

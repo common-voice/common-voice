@@ -135,7 +135,7 @@
     text-decoration: none;
 
     &:hover {
-        border-color: rgba(0, 0, 0, 0.1) !important;
+        border-color: var(--black-10) !important;
         box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
     }
 

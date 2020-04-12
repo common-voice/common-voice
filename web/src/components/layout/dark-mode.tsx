@@ -6,7 +6,7 @@ const DarkModeToggle = () => {
   const darkMode = useDarkMode(false);
 
   return (
-    <div>
+    <div className="dark-mode-toggle" id="dark-mode-toggle">
       <button type="button" onClick={darkMode.disable}>
         ☀
       </button>

@@ -10,7 +10,7 @@
     width: 44px;
     height: 44px;
     overflow: hidden;
-    background: #f89096;
+    background: var(--white-10);
 
     & > img {
         object-fit: cover;
@@ -73,7 +73,7 @@ body:not(.mobile-safari) .button:hover,
 
 body:not(.mobile-safari) .button.outline:hover,
 .button.outline:focus.focus-visible {
-    border-color: black;
+    border-color: var(--black);
 }
 
 body:not(.mobile-safari) .button:hover path,
@@ -95,7 +95,7 @@ body:not(.mobile-safari) .button:hover path,
     align-items: center;
     font-family: var(--base-font-family);
     font-weight: 600;
-    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0 2px;
+    box-shadow: var(--black-10) 2px 2px 0 2px;
     background: var(--white);
     white-space: nowrap;
     text-transform: none;
@@ -130,7 +130,7 @@ button.card-action:focus.focus-visible path {
     margin: 1.5rem 0;
     width: 100%;
     height: 1.5px;
-    background-color: rgba(230, 229, 227, 0.6);
+    background-color: var(--gray-4);
 }
 
 .checkbox-container {
@@ -216,7 +216,7 @@ button.card-action:focus.focus-visible path {
     & select,
     & textarea {
         box-sizing: border-box;
-        border: 1.6px solid #e6e4e1;
+        border: 1.6px solid var(--darker-grey);
         border-radius: 2px;
         padding: 13px;
         font-size: var(--font-size);

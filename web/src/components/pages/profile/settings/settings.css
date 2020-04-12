@@ -62,7 +62,7 @@
     }
 
     & .section-title {
-        border-bottom: 2px solid var(--white);
+        border-bottom: 2px solid var(--light-grey);
         display: flex;
         flex-direction: row;
         justify-content: space-between;

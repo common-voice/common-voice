@@ -67,12 +67,12 @@
 
     &.record .background, &.play .background {
         opacity: 0.5;
-        background: linear-gradient(to left, #88d1f1, #b1b5e5);
+        background: linear-gradient(to left, var(--cyan-1), var(--purple-1));
     }
 
     &.stop .background {
         opacity: 0.7;
-        background: linear-gradient(to right, #f89096, #b1b4e5);
+        background: linear-gradient(to right, var(--pink-1), var(--purple-1));
     }
 
     &:hover .background {

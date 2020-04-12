@@ -73,7 +73,7 @@
             margin-inline-end: 25px;
             margin-bottom: -1.5px;
             padding-bottom: 5px;
-            color: rgba(0, 0, 0, 0.5);
+            color: var(--black-5);
 
             &.active {
                 color: var(--black);
@@ -181,7 +181,7 @@
             }
 
             & option[value='none'] {
-                background: grey;
+                background: var(--gray-3);
             }
         }
     }
@@ -251,7 +251,7 @@
     height: 38px;
     min-width: auto;
     max-width: 114px;
-    background-color: #629ff4;
+    background-color: var(--blue);
     border: 0;
     color: var(--white);
     text-transform: uppercase;

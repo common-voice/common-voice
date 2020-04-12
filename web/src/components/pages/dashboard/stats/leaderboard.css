@@ -156,7 +156,7 @@
             padding: 13px 0;
             list-style: none;
             background: var(--white);
-            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 6px 12px 0 var(--black-5);
         }
 
         & li {
@@ -241,7 +241,7 @@
         position: sticky;
         display: block;
         width: 100%;
-        background: linear-gradient(white, transparent);
+        background: linear-gradient(var(--white), transparent);
         opacity: 0.7;
         pointer-events: none;
     }
@@ -262,7 +262,7 @@
     & .rotate {
         border-style: dotted;
         border-radius: 50%;
-        border-color: green;
+        border-color: var(--green-2);
         animation: rotate 0.5s linear infinite;
     }
 

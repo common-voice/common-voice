@@ -19,7 +19,7 @@
 
         &.why-common-voice,
         &.partners {
-            background-color: var(--white);
+            background-color: var(--white1);
         }
 
         .about-container {
@@ -34,7 +34,7 @@
         & .vertical-line {
             width: 3px;
             height: 100px;
-            background: linear-gradient(to right, #f89096, #b1b4e5);
+            background: linear-gradient(to right, var(--pink-1), var(--purple-1));
             margin: 0 auto;
 
             @media (--sm-down) {

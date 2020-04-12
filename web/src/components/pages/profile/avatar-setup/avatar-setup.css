@@ -8,10 +8,10 @@
 
 .clip {
     border-right: solid 1px;
-    border-color: var(--white);
+    border-color: var(--white2);
     padding-right: 20px;
     @media only screen and (max-width: 414px) {
-        border-color: white;
+        border-color: var(--white);
         padding-right: 0px;
     }
 
@@ -83,17 +83,17 @@
         text-decoration: none;
 
         & path {
-            fill: #ff4f5e;
+            fill: var(--red);
         }
 
         &:hover {
-            border-color: rgba(0, 0, 0, 0.1) !important;
+            border-color: var(--black-10) !important;
             box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
             & svg {
-                background: white;
+                background: var(--white);
                 opacity: 1;
                 & path {
-                    fill: #ff4f5e;
+                    fill: var(--red);
                 }
             }
         }
@@ -106,7 +106,7 @@
     .rerecord-but:hover svg {
         opacity: 1;
         & path {
-            fill: #ff4f5e;
+            fill: var(--red);
         }
     }
 
@@ -118,7 +118,7 @@
         &:hover {
             & svg {
                 & path {
-                    fill: grey;
+                    fill: var(--gray-3);
                 }
             }
         }
@@ -137,18 +137,18 @@
         width: 70%;
         min-width: 10rem;
         height: 57px;
-        background-color: #59cbb7;
+        background-color: var(--valid-green);
         position: relative;
         left: 60%;
         right: 60%;
 
         &:hover {
-            border-color: rgba(0, 0, 0, 0.1) !important;
+            border-color: var(--black-10) !important;
             box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
             & svg {
                 opacity: 1;
                 & path {
-                    fill: grey;
+                    fill: var(--gray-3);
                 }
             }
         }
@@ -175,12 +175,12 @@
         font-size: 13.5px;
 
         &:hover {
-            border-color: rgba(0, 0, 0, 0.1) !important;
+            border-color: var(--black-10) !important;
             box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
             & svg {
                 opacity: 1;
                 & path {
-                    fill: #ff4f5e;
+                    fill: var(--red);
                 }
             }
         }
@@ -196,7 +196,7 @@
         max-width: 470px;
         height: 58px;
         text-align: center;
-        color: grey;
+        color: var(--gray-3);
         padding-top: 30px;
         padding-left: 22px;
     }
@@ -205,7 +205,7 @@
         max-width: 470px;
         height: 58px;
         text-align: center;
-        color: #629ff4;
+        color: var(--blue);
         cursor: pointer;
         padding-top: 36px;
         padding-left: 10px;
@@ -241,7 +241,7 @@
         line-height: 1.5;
         letter-spacing: normal;
         text-align: center;
-        color: grey;
+        color: var(--gray-3);
     }
 
     .counter-digit {
@@ -249,16 +249,16 @@
         font-style: normal;
         font-weight: 600;
         text-align: center;
-        color: #4a4a4a;
+        color: var(--near-black);
     }
 
     .counter-animation {
         border: 2px solid;
         border-radius: 50%;
-        border-right-color: #f89096;
-        border-left-color: white;
-        border-top-color: #f89096;
-        border-bottom-color: #f89096;
+        border-right-color: var(--white-10);
+        border-left-color: var(--white);
+        border-top-color: var(--white-10);
+        border-bottom-color: var(--white-10);
         width: 95%;
         height: 70px;
         @media only screen and (max-width: 414px) {
@@ -266,20 +266,20 @@
         }
     }
     .counter-2 {
-        border-bottom-color: white;
-        border-left-color: white;
+        border-bottom-color: var(--white);
+        border-left-color: var(--white);
     }
 
     .counter-1 {
-        border-right-color: white;
-        border-bottom-color: white;
-        border-left-color: white;
+        border-right-color: var(--white);
+        border-bottom-color: var(--white);
+        border-left-color: var(--white);
     }
     .counter-0 {
-        border-right-color: white;
-        border-bottom-color: white;
-        border-left-color: white;
-        border-top-color: white;
+        border-right-color: var(--white);
+        border-bottom-color: var(--white);
+        border-left-color: var(--white);
+        border-top-color: var(--white);
     }
 
     .recorded-play {
@@ -358,7 +358,7 @@
         }
 
         & .connect {
-            border: 1px solid rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--black-5);
             padding: 16px 20px;
             display: flex;
             flex-direction: row;

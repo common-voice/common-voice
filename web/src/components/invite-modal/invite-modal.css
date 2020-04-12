@@ -38,7 +38,7 @@
         font-weight: 600;
         background: transparent;
         color: var(--black);
-        border: 2px solid rgba(0, 0, 0, 0.1);
+        border: 2px solid var(--black-10);
 
         &:hover,
         &:focus {
@@ -46,7 +46,7 @@
         }
 
         .icon {
-            color: #4a4a4a;
+            color: var(--near-black);
             margin-left: 12px;
             font-size: 0.6em;
         }

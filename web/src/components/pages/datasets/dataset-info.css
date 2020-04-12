@@ -26,7 +26,7 @@
         border-radius: 50%;
         padding: 60px;
         width: auto;
-        background: var(--white);
+        background: var(--white1);
 
         @media (--md-down) {
             display: none;
@@ -319,7 +319,11 @@
             & .line {
                 width: 70px;
                 height: 3px;
-                background: linear-gradient(to right, #f89096, #b1b4e5);
+                background: linear-gradient(
+                    to right,
+                    var(--pink-1),
+                    var(--purple-1)
+                );
 
                 @media (--md-down) {
                     margin-bottom: 20px;

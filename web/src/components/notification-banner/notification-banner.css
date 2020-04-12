@@ -29,7 +29,7 @@
     }
 
     & .cta {
-        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        border: 2px solid var(--white-50);
         border-radius: 30px;
         margin-left: 30px;
         min-width: 150px;
@@ -54,7 +54,7 @@
     & h1 {
         &,
         & a {
-            background-image: linear-gradient(to right, #f89096, #b1b4e5);
+            background-image: linear-gradient(to right, var(--pink-1), var(--purple-1));
             color: transparent;
             font-size: var(--font-size-xl);
             text-align: center;
@@ -64,7 +64,7 @@
 
         & a {
             text-decoration: underline;
-            border-bottom: 2px solid #f89096;
+            border-bottom: 2px solid var(--pink-1);
         }
     }
 }

@@ -2,12 +2,12 @@
 
 .stats-card {
     min-height: 340px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 var(--black-10);
     background: var(--white);
 
     & .title-and-icon,
     & .filters {
-        background: var(--white);
+        background: var(--white1);
     }
 
     & .title-and-icon {

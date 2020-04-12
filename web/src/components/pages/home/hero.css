@@ -175,7 +175,7 @@
         }
 
         & a {
-            background: white;
+            background: var(--white);
             transition: background var(--transition-duration-slow) linear;
         }
     }

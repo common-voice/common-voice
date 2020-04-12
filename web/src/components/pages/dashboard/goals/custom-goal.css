@@ -94,7 +94,7 @@
         margin-bottom: 30px;
 
         &.completed .box {
-            background: var(--white);
+            background: var(--white3);
         }
     }
 
@@ -227,7 +227,7 @@
             color: var(--white);
 
             &:hover {
-                border: 1px solid black;
+                border: 1px solid var(--black);
             }
 
             &:disabled {
@@ -431,7 +431,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            background: #f9f9f8;
+            background: var(--white1);
 
             &.listen {
                 --color: var(--valid-green);

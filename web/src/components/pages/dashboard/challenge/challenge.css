@@ -72,7 +72,7 @@
     & .info {
         display: flex;
         flex-direction: row;
-        color: #4a4a4a;
+        color: var(--near-black);
         padding-right: 40%;
 
         & svg {
@@ -80,7 +80,7 @@
         }
 
         & path {
-            fill: #4a4a4a;
+            fill: var(--near-black);
         }
 
         & a {
@@ -197,7 +197,7 @@
             padding: 13px 0;
             list-style: none;
             background: var(--white);
-            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 6px 12px 0 var(--black-5);
         }
 
         & li {
@@ -291,7 +291,7 @@
         position: sticky;
         display: block;
         width: 100%;
-        background: linear-gradient(white, transparent);
+        background: linear-gradient(var(--white), transparent);
         opacity: 0.7;
         pointer-events: none;
     }
@@ -312,7 +312,7 @@
     & .rotate {
         border-style: dotted;
         border-radius: 50%;
-        border-color: green;
+        border-color: var(--green-2);
         animation: rotate 0.5s linear infinite;
     }
 
@@ -453,15 +453,23 @@
             margin-right: 10px;
             &.star-points-1 {
                 mask-image: url('../awards/star.svg');
-                background: linear-gradient(to bottom, #fffd08, #ffe07f);
+                background: linear-gradient(
+                    to bottom,
+                    var(--yellow-2),
+                    var(--yellow-3)
+                );
             }
             &.star-points-2 {
                 mask-image: url('../awards/star.svg');
-                background: linear-gradient(to top, var(--warm-grey), #cccccc);
+                background: linear-gradient(
+                    to top,
+                    var(--warm-grey),
+                    var(--gray-6)
+                );
             }
             &.star-points-3 {
                 mask-image: url('../awards/star.svg');
-                background: linear-gradient(to top, #cccccc, #e7e8ea);
+                background: linear-gradient(to top, var(--gray-6), var(--grey));
             }
         }
         & .point {
@@ -621,10 +629,10 @@
 }
 
 .speak-btn::after {
-    background: linear-gradient(90deg, #f89096, #b1b4e5);
+    background: linear-gradient(90deg, var(--pink-1), var(--purple-1));
 }
 .listen-btn::after {
-    background: linear-gradient(270deg, #88d1f1, #b1b5e5);
+    background: linear-gradient(270deg, var(--cyan-1), var(--purple-1));
 }
 
 .speak-icon,

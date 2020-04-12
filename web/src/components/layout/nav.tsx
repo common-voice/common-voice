@@ -28,7 +28,7 @@ const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
 export default ({ children, ...props }: { [key: string]: any }) => (
   <nav {...props} className="nav-list">
     <div className="nav-links">
-      <DarkModeToggle/>
+      <DarkModeToggle />
       <ContributableLocaleLock>
         <LocalizedNavLink id="contribute" to={URLS.SPEAK} />
       </ContributableLocaleLock>

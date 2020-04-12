@@ -91,7 +91,7 @@
 
     & .circle {
         margin-inline-start: auto;
-        border: 10px solid black;
+        border: 10px solid var(--black);
         border-inline-start-color: var(--primary-color);
         border-radius: 50%;
         width: var(--circle-size);

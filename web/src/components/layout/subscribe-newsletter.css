@@ -41,7 +41,7 @@
         width: 100%;
         padding: 15px;
         font-size: var(--font-size);
-        background: rgba(255, 255, 255, 0.048);
+        background: var(--white-10);
 
         &:focus {
             outline: none !important;
@@ -97,7 +97,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         & path {
-            fill: white;
+            fill: var(--white);
         }
     }
 

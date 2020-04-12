@@ -110,9 +110,9 @@ header {
 
     & select,
     & .selection {
-        border: 1px solid rgba(0, 0, 0, 0.05);
+        border: 1px solid var(--black-5);
         padding-inline-start: 2.5rem;
-        background: white;
+        background: var(--white);
         text-transform: uppercase;
         font-size: var(--font-size-xs);
         font-weight: 600;

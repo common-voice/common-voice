@@ -158,7 +158,7 @@
         background-image: linear-gradient(
             to bottom,
             var(--desert-storm) 3%,
-            rgba(249, 248, 248, 0)
+            var(--desert-storm-2)
         );
     }
 

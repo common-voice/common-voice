@@ -59,7 +59,7 @@
         background: var(--white);
 
         & .num {
-            color: white;
+            color: var(--white);
             background: var(--blue);
 
             @media (--md-up) {
@@ -82,7 +82,7 @@
 
             & .num {
                 background: var(--desert-storm);
-                border: solid 1px #f5f4f3;
+                border: solid 1px var(--white2);
             }
         }
 
@@ -109,7 +109,7 @@
         }
 
         & .num {
-            border: solid 1px #f5f4f3;
+            border: solid 1px var(--white2);
             margin: 7px;
             background: var(--desert-storm);
 

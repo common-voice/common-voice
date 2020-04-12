@@ -72,8 +72,8 @@
                 & .line {
                     background-image: linear-gradient(
                         to right,
-                        #f89096,
-                        #b1b4e5
+                        var(--pink-1),
+                        var(--purple-1)
                     );
                 }
             }
@@ -176,7 +176,7 @@
         }
 
         & img {
-            border: 5px solid white;
+            border: 5px solid var(--white);
             border-radius: 5px;
             width: 80px;
             height: 80px;
@@ -231,7 +231,7 @@
 
         & .download {
             background: var(--blue);
-            color: white;
+            color: var(--white);
         }
     }
 
