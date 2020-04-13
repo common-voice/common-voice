@@ -1193,10 +1193,12 @@ Ella no visita
 Ella sabe tocar el piano, y yo el violín.
 Ella tiene la cabeza sobre los hombros pero él está como un cencerro
 Ella visita
+Ellas no habían comido
 Ellas no visitan
 Ellas visitan
 Ellos dicen que sí y yo digo que no.
 Ellos hacen buena pareja, se van a casar en mayo.
+Ellos no habían comido
 Ellos no visitan
 Ellos te necesitan
 Ellos visitan
@@ -4850,7 +4852,18 @@ bajaron a toda prisa para hacernos más soportables los tiempos postholocausto
 bajen siquiera la voz.
 barrios que se hicieron para las personas y no para los vehículos
 basta, por favor.
+bebe
+bebemos
+beben
+bebes
+bebo
 bebo cerveza helada
+bebéis
+bebía
+bebíais
+bebíamos
+bebían
+bebías
 bien, Ulises, bien.
 bien, haga el recuento, pero no hable con nadie.
 bien, haremos eso. Leonor, ya se lo dije
@@ -5695,16 +5708,22 @@ elige uno, Ernesto.
 ella, con la voz asustada, murmuró:
 ella, sollozante, dejóse caer sobre las almohadas:
 ella, suspirando, entornó los ojos
+ella bebe
+ella bebía
 ella come una naranja
 ella comerá
 ella comería
 ella duda en decirlo
 ella gimió con rabia:
+ella ha bebido
 ella ha partido
 ella habría partido
+ella no bebe
+ella no bebía
 ella no comerá
 ella no comería
 ella no comió
+ella no ha bebido
 ella no ha partido
 ella no habría partido
 ella no parte
@@ -5726,16 +5745,23 @@ ella suspiró:
 ella también es muy española.
 ella tiene el mismo derecho.
 ella todavía gimió:
+ellas beben
+ellas bebían
 ellas comen una naranja
 ellas comerán
 ellas comían
 ellas habrían partido
+ellas han bebido
 ellas han partido
 ellas hubieron comido
 ellas me miraron mostrando gran respeto, y disputáronse ofrecerme sus ánforas
+ellas no beben
+ellas no bebían
 ellas no comerán
 ellas no comieron
+ellas no comían
 ellas no habrían partido
+ellas no han bebido
 ellas no han partido
 ellas no hubieron comido
 ellas no parten
@@ -5747,13 +5773,21 @@ ellas partieron
 ellas predican
 ellas predicarán
 ello es dudoso
+ellos beben
+ellos bebían
 ellos comen una naranja
 ellos comerán
 ellos comían
 ellos habían comido
+ellos han bebido
 ellos han partido
+ellos no beben
+ellos no bebían
 ellos no comerán
+ellos no comieron
+ellos no comían
 ellos no habrían partido
+ellos no han bebido
 ellos no han partido
 ellos no parten
 ellos no partieron
@@ -6285,6 +6319,7 @@ grupos locales que construyen monedas sociales
 guiándonos por las hogueras, llegamos a un gran raso de yerba donde cabeceaban
 guióme hasta el refectorio, y saludando más gangosa que nunca, se alejó.
 guío al Señor Marqués al refectorio, y torno a servirla luego, luego.
+ha bebido
 ha dejado de...
 ha denunciado que incumplen de manera reiterada la normativa vigente
 ha dignificado la posición del autor frente a los poderes públicos
@@ -6322,12 +6357,15 @@ habréis afirmado
 habría que fotografiar a los que compran en las mantas para
 habría que preguntarse cuánto les da si es que algo les da
 habrían partido
+habéis bebido
 habéis partido
 había cientos, había miles.
 había contado la misma historia
 había gente de toda laya:
 habíame figurado que el jugador rehusaría galantemente cobrar su deuda
+habíamos comido
 habían comenzado las ferias, aquellas famosas ferias de Grijalba
+habían comido
 habíase puesto en pie, y se echaba el rebocillo apresuradamente:
 hace apenas unos minutos. no hay tiempo.
 hace bien.
@@ -6345,6 +6383,7 @@ haga el favor de bajarla.
 haga que se lleve a unos cuantos inocentes por delante
 hago lo que puedo para no entrar en conflicto con otras personas
 hala, a jugar.
+han bebido
 han creado una rutina
 han demostrado su respeto en la preservación del patrimonio
 han desafiado una campaña de seguridad sin precedentes
@@ -6356,6 +6395,7 @@ han partido
 han pasado muchas horas.
 han sido invadidas por el movimiento de tierras
 han sido las malas compañías
+has bebido
 has de usarlo para navegar sin dejar mensajes a los desconocidos
 has de verificarlo para asegurarte de que no hay malware
 has partido
@@ -6410,6 +6450,7 @@ hazme caso, por favor.
 hazme el favor de bajarle leche, zumos y comida
 he arreglado la peli.
 he bailado. bailo que te cagas. ya te he visto.
+he bebido
 he cometido el más abominable de los pecados:
 he dejado los disfraces en el camarote.
 he dicho caca.
@@ -6433,6 +6474,7 @@ he visto a Ulises entrar en tu camarote, como me dijiste.
 he visto huellas. acabo de venir de la cocina
 heme en el puente que ilumina la plácida claridad del plenilunio.
 heme ya respirando la ventolina que huele a brea y algas.
+hemos bebido
 hemos de saber hasta dónde hay verdad en aquello que dicen:
 hemos decidido organizar una Navidad como las de la tele
 hemos encontrado a un chico que ha estado escondido
@@ -7262,6 +7304,17 @@ no... no creo que nos dejen.
 no... no reacciona.
 no a la enorme difusión de la música, sino a Rosa de España
 no abuses de la cafeína a la hora de hacer propuestas de ley
+no bebe
+no bebemos
+no beben
+no bebes
+no bebo
+no bebéis
+no bebía
+no bebíais
+no bebíamos
+no bebían
+no bebías
 no con revistas, pero...
 no confío en que los sepas educar
 no conseguiste la caja negra.
@@ -7302,17 +7355,22 @@ no fracasará aunque fracase en los tribunales
 no fue un accidente, no fue un accidente.
 no funcionar exactamente igual en sus dispositivos
 no grites.
+no ha bebido
 no ha partido
 no habrá mostrado mayor desvío ante las princesas aztecas sus prisioneras
 no habría partido
 no habrían partido
 no habrías partido
+no habéis bebido
 no habéis partido
+no había comido
 no hace falta.
 no hace falta estar borracho para querer arrimarse
 no hace falta usar un decodificador
+no han bebido
 no han ido a por maderos.
 no han partido
+no has bebido
 no hay como un buen baile agarrado
 no hay cuernos. claro que no.
 no hay error. mientras estaba inconsciente
@@ -7320,10 +7378,12 @@ no hay evidencia de que eso ocurra.
 no hay otra forma.
 no hay quien te saque
 no hay tiempo.
+no he bebido
 no he encontrado los regalos.
 no he partido
 no he pegado ojo. me he pasado la noche pensando
 no he terminado el reconocimiento. a poner mi culo a salvo.
+no hemos bebido
 no hemos partido
 no hicimos el amor.
 no hubisteis comido
@@ -7493,13 +7553,19 @@ nos obliga a utilizar su endemoniada aplicación
 nos ofrece acceso a contenidos pero también a herramientas
 nos quedan ocho metros.
 nos reunimos y continuamos la ruta a través de los negros arenales.
+nosotras bebemos
 nosotras comeremos
 nosotras comeríamos
+nosotras comimos
 nosotras dudamos en decirlo
 nosotras habríamos partido
 nosotras habíamos comido
+nosotras hemos bebido
 nosotras hemos partido
+nosotras no bebemos
 nosotras no comeremos
+nosotras no comimos
+nosotras no hemos bebido
 nosotras no hemos partido
 nosotras no partimos
 nosotras no partiríamos
@@ -7510,17 +7576,24 @@ nosotras predicaremos
 nosotras publicamos un panfleto
 nosotros, aún bastante lejos
 nosotros bajamos en tropel hasta la playa.
+nosotros bebemos
+nosotros bebíamos
 nosotros comemos una naranja
 nosotros comeremos
 nosotros comeríamos
 nosotros dudamos en decirlo
 nosotros habíamos comido
+nosotros hemos bebido
 nosotros hemos partido
 nosotros mismos hemos acudido a muchos conciertos
+nosotros no bebemos
+nosotros no bebíamos
 nosotros no comeremos
 nosotros no comeríamos
+nosotros no comimos
 nosotros no encontramos a esa gente, fuimos a buscarlos.
 nosotros no habíamos comido
+nosotros no hemos bebido
 nosotros no hemos partido
 nosotros no los encontramos, fuimos a buscarlos.
 nosotros no partimos
@@ -8874,6 +8947,8 @@ tu predicas
 tuve el placer de compartir una hora
 tuve horror a morir apuñalado, y de pronto me sentí fuerte y valeroso.
 tuvieron toda la promoción que querrían los grupos que se lo creen
+tú bebes
+tú bebías
 tú comerás
 tú debías tenerlos...
 tú eres un hombre.
@@ -8885,6 +8960,7 @@ tú no comiste
 tú no comías
 tú no habrías partido
 tú no habías comido
+tú no has bebido
 tú no has partido
 tú no partes
 tú no partirías
@@ -8962,11 +9038,17 @@ uno era chino y otro sudamericano.
 uno era el nuestro.
 uno no recibe lo que da.
 usanza mexicana que muestra amor y majeza, el viejo jarocho continuó:
+usted bebe
+usted bebía
 usted duda en decirlo
+usted ha bebido
 usted habría partido
 usted lo ha dicho, no sabemos lo que tienen.
 usted necesita estar solo.
+usted no bebe
+usted no bebía
 usted no comerá
+usted no ha bebido
 usted no ha partido
 usted no habría partido
 usted no necesita que le absuelvan
@@ -8976,10 +9058,14 @@ usted predica
 usted predicará
 usted tiene conocimientos militares, quiero que organice
 usted ya ha elegido.
+ustedes bebían
 ustedes comen una naranja
 ustedes comerán
+ustedes han bebido
 ustedes han partido
+ustedes no bebían
 ustedes no comerán
+ustedes no han bebido
 ustedes no han partido
 ustedes no parten
 ustedes no partirían
@@ -9102,12 +9188,18 @@ volvió la baraja y comenzó a tirar.
 volví a preguntarle con una punta de burla:
 volví la cabeza y halléme con la Niña Chole.
 volvía a oírse el galope de un caballo.
+vosotras bebéis
+vosotras bebíais
 vosotras comeréis
 vosotras coméis una naranja
 vosotras comíais
 vosotras habríais partido
+vosotras habéis bebido
 vosotras habéis partido
+vosotras no bebéis
+vosotras no bebíais
 vosotras no comeréis
+vosotras no habéis bebido
 vosotras no habéis partido
 vosotras no partiríais
 vosotras no partisteis
@@ -9118,11 +9210,17 @@ vosotras partisteis
 vosotras partís
 vosotras predicáis
 vosotras publicáis un panfleto
+vosotros bebéis
+vosotros bebíais
 vosotros comeréis
 vosotros coméis una naranja
 vosotros comíais
+vosotros habéis bebido
 vosotros habéis partido
+vosotros no bebéis
+vosotros no bebíais
 vosotros no comeréis
+vosotros no habéis bebido
 vosotros no habéis partido
 vosotros no partiríais
 vosotros no partisteis
@@ -9335,6 +9433,7 @@ yo, sin embargo, lo llevaba con paciencia.
 yo, sin embargo, supe permanecer desdeñoso.
 yo, sin intentar consolarla me alejé.
 yo ansiaba verme a solas con la Niña Chole.
+yo bebo
 yo besé su mano, y ella, con una sonrisa de extraña crueldad, murmuró:
 yo besé sus manos apasionado y rendido:
 yo cerré los ojos y esperé sus lágrimas, sus quejas, sus denuestos
@@ -9367,6 +9466,7 @@ yo le tendí los brazos.
 yo me incliné para besarlos:
 yo me sentí palidecer.
 yo me tengo que ir.
+yo no bebo
 yo no comeré
 yo no comería
 yo no comí
@@ -9377,6 +9477,7 @@ yo no creo que sea malo
 yo no digo que se le vaya a olvidar.
 yo no estaba enamorada. no.
 yo no habría partido
+yo no he bebido
 yo no he partido
 yo no le he visto desde anoche.
 yo no partiría
@@ -10487,6 +10588,9 @@ yo ya no puedo estar contigo.
 ¿a quién pretende realmente proteger?
 ¿al negocio de los que intermedian?
 ¿asesinan a la música a los pocos melómanos que aún la respetan?
+¿bebe?
+¿bebemos?
+¿bebes?
 ¿comería?
 ¿comeríais vosotras?
 ¿comeríais vosotros?
@@ -10497,30 +10601,39 @@ yo ya no puedo estar contigo.
 ¿comía él?
 ¿cuánto dinero ganan los cantantes por la venta de sus discos?
 ¿cómo actuamos con las personas alienadas de cara al público?
+¿ella bebe?
 ¿ella ha partido?
+¿ella no bebe?
 ¿ella no comió?
+¿ella no ha bebido?
 ¿ella parte?
 ¿ella partiría?
 ¿ellas habrían partido?
+¿ellas han bebido?
 ¿ellas han partido?
 ¿ellas hubieron comido?
+¿ellas no han bebido?
 ¿ellas no partirían?
 ¿ellas parten?
 ¿ellas partieron?
 ¿ellos habrían partido?
+¿ellos han bebido?
 ¿ellos han partido?
 ¿ellos hubieron comido?
 ¿ellos no partirían?
 ¿ellos parten?
 ¿ellos partieron?
+¿ha bebido?
 ¿habrán comido?
 ¿habría partido?
 ¿habríais partido?
 ¿habrían partido?
 ¿habrías partido?
+¿habéis bebido?
 ¿habéis partido?
 ¿habían comido ellas?
 ¿habían comido ellos?
+¿han bebido?
 ¿han partido?
 ¿has partido?
 ¿hay alguna forma de detectar que se está cometiendo esta infracción?
@@ -10530,13 +10643,18 @@ yo ya no puedo estar contigo.
 ¿hubisteis partido?
 ¿incentiva su creación o la asfixia?
 ¿invitamos nosotros?
+¿no bebe?
+¿no bebes?
 ¿no comería ella?
 ¿no comería él?
 ¿no comeríais vosotras?
 ¿no comeríais vosotros?
+¿no ha bebido?
 ¿no ha partido?
 ¿no habrías partido?
+¿no habéis bebido?
 ¿no habíais comido?
+¿no han bebido?
 ¿no han partido?
 ¿no has partido?
 ¿no hubo partido?
@@ -10557,34 +10675,50 @@ yo ya no puedo estar contigo.
 ¿será que esta taberna no esta cerca del Ayuntamiento...?
 ¿será que no se encuentra cerca del Ayuntamiento?
 ¿tú habrías partido?
+¿tú has bebido?
+¿tú no bebes?
 ¿tú no comiste?
 ¿tú no habrías partido?
+¿tú no has bebido?
 ¿tú no partirías?
 ¿tú partes?
 ¿tú partirías?
+¿usted bebe?
+¿usted ha bebido?
+¿usted no bebe?
+¿usted no ha bebido?
 ¿usted no habría partido?
 ¿usted no partiría?
 ¿usted partiría?
 ¿ustedes habrían partido?
+¿ustedes han bebido?
+¿ustedes no han bebido?
 ¿ustedes partieron?
 ¿ustedes partirían?
 ¿visito?
 ¿vosotras habríais partido?
+¿vosotras habéis bebido?
 ¿vosotras no habríais partido?
+¿vosotras no habéis bebido?
 ¿vosotras no hubisteis comido?
 ¿vosotras no partiríais?
 ¿vosotras partiríais?
 ¿vosotras partís?
 ¿vosotros habríais partido?
+¿vosotros habéis bebido?
 ¿vosotros habéis partido?
 ¿vosotros no habríais partido?
+¿vosotros no habéis bebido?
 ¿vosotros no hubisteis comido?
 ¿vosotros no partiríais?
 ¿vosotros partiríais?
 ¿vosotros partís?
 ¿Él no visita?
+¿él ha bebido?
 ¿él ha partido?
 ¿él habría partido?
+¿él no bebe?
+¿él no ha bebido?
 ¿él no habría partido?
 ¿él parte?
 ¿él partiría?
@@ -10603,16 +10737,22 @@ yo ya no puedo estar contigo.
 Ése es nuestro destino
 Éste es mi lugar, ¿ ves la cama aquí?
 Éste es un sistema de sonido de calidad.
+él bebe
+él bebía
 él come una naranja
 él comerá
 él comió
 él duda en decirlo
+él ha bebido
 él ha partido
 él habría partido
 él hubiera sido escuchado
+él no bebe
+él no bebía
 él no comerá
 él no comería
 él no comió
+él no ha bebido
 él no ha partido
 él no habría partido
 él no parte
