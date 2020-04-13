@@ -307,9 +307,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private updateVolume = (volume: number) => {
-    // For some reason, volume is always exactly 100 at the end of the
-    // recording, even if it is silent; so ignore that.
-    if (volume !== 100 && volume > this.maxVolume) {
+    if (volume > this.maxVolume) {
       this.maxVolume = volume;
     }
   };

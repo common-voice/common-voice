@@ -122,9 +122,6 @@ export default class AudioWeb {
 
   private stopVisualize() {
     this.jsNode.onaudioprocess = undefined;
-    if (this.volumeCallback) {
-      this.volumeCallback(100);
-    }
   }
 
   setVolumeCallback(cb: Function) {
