@@ -23,6 +23,7 @@
   "REDIS_URL": "{{ if exists "/config/Cache/Endpoint" }}redis://{{ $redis }}/{{end}}",
   "KIBANA_URL": "{{ if exists "/config/ElasticSearch/Endpoint" }}https://{{ getv "/config/ElasticSearch/Endpoint" }}{{ else }}http://localhost:9200{{ end }}/_plugin/kibana/",
   "LAST_DATASET": "{{ if exists "/config/Last-Dataset" }}{{ getv "/config/Last-Dataset" }}{{ end }}",
+  "MAINTENANCE_MODE": "{{ if exists "/config/Maintenance-Mode" }}{{ getv "/config/Maintenance-Mode" }}{{ else }}false{{ end }}",
   "AUTH0": {
     "DOMAIN": "{{ if exists "/config/Auth0/Domain" }}{{ getv "/config/Auth0/Domain" }}{{ end }}",
     "CLIENT_ID": "{{ if exists "/config/Auth0/Client-ID" }}{{ getv "/config/Auth0/Client-ID" }}{{ end }}",
