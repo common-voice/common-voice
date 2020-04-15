@@ -97,6 +97,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   LAST_DATASET: configEntry('CV_LAST_DATASET', '2019-06-12'),
   SENTRY_DSN: configEntry('CV_SENTRY_DSN', ''),
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
+  BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
 };
 
 let injectedConfig: CommonVoiceConfig;
