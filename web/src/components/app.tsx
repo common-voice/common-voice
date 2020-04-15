@@ -18,8 +18,7 @@ import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
 import {
-  isFirefoxFocus,
-  isMobileWebkit,
+  isMobileSafari,
   isNativeIOS,
   isProduction,
   isStaging,
@@ -329,11 +328,7 @@ class App extends React.Component {
       this.bootstrapIOS();
     }
 
-    if (isFirefoxFocus()) {
-      document.body.classList.add('focus');
-    }
-
-    if (isMobileWebkit()) {
+    if (isMobileSafari()) {
       document.body.classList.add('mobile-safari');
     }
 

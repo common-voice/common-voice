@@ -30,12 +30,7 @@ import {
   SafariColor,
 } from '../../../ui/icons';
 import { Button, TextButton, LinkButton } from '../../../ui/ui';
-import {
-  isFirefoxFocus,
-  isNativeIOS,
-  isIOS,
-  isMobileWebkit,
-} from '../../../../utility';
+import { isNativeIOS, isIOS, isMobileSafari } from '../../../../utility';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -64,7 +59,7 @@ enum RecordingError {
 const UnsupportedInfo = () => (
   <div className="empty-container">
     <div className="error-card card-dimensions unsupported">
-      {isIOS() && !isMobileWebkit() ? (
+      {isIOS() && !isMobileSafari() ? (
         <>
           <BalanceText>
             <Localized id="record-platform-not-supported-ios-non-safari" />
@@ -213,8 +208,7 @@ class SpeakPage extends React.Component<Props, State> {
 
     if (
       !this.audio.isMicrophoneSupported() ||
-      !this.audio.isAudioRecordingSupported() ||
-      isFirefoxFocus()
+      !this.audio.isAudioRecordingSupported()
     ) {
       this.isUnsupportedPlatform = true;
     }
