@@ -1,5 +1,5 @@
-import { getConfig, getSecrets } from './config-helper';
 import Server from './server';
+import { getConfig, getSecrets } from './config-helper';
 
 async function initialize() {
   await getSecrets();

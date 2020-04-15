@@ -104,7 +104,7 @@ export default class Server {
       app.use(this.ensureSSL);
     }
 
-    if (getConfig().MAINTENANCE_MODE) {
+    if (getConfig().MAINTENANCE_MODE + '' === 'true') {
       this.print('Application starting in maintenance mode');
 
       app.use(express.static(MAINTENANCE_PATH, staticOptions));
