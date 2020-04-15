@@ -326,7 +326,7 @@ export default class DB {
     sentenceId: string;
   }): Promise<void> {
     try {
-      sentenceId = sentenceId || hash(sentence);
+      sentenceId = original_sentence_id || hash(sentence);
       const localeId = await getLocaleId(locale);
 
       await this.mysql.query(
