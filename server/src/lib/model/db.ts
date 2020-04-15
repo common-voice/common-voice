@@ -470,7 +470,7 @@ export default class DB {
     const hours = Array.from({ length: 10 }).map((_, i) => i);
 
     const [rows] = await this.mysql.query(
-      `SELECT date, count(activity.created_at)
+      `SELECT date, count(activity.created_at) AS value
           FROM (
             SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
             FROM (${hours
