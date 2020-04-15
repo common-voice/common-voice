@@ -41,31 +41,24 @@ export function isNativeIOS(): boolean {
   return window.webkit && webkit.messageHandlers?.scriptHandler;
 }
 
-export function isFirefoxFocus(): boolean {
-  return navigator.userAgent.indexOf('Focus') !== -1;
-}
-
 /**
  * Test whether this is a browser on iOS.
  */
 export function isIOS(): boolean {
-  return /(iPod|iPhone|iPad)/i.test(window.navigator.userAgent);
-}
-
-export function isWebkit(): boolean {
-  return /AppleWebKit/i.test(window.navigator.userAgent);
+  return /iPod|iPhone|iPad/i.test(window.navigator.userAgent);
 }
 
 /**
- * Check whether the browser is mobile Safari (i.e. on iOS).
+ * Check whether the browser is mobile Safari on iOS.
  *
  * The logic is collected from answers to this SO question: https://stackoverflow.com/q/3007480
  */
-export function isMobileWebkit(): boolean {
+export function isMobileSafari(): boolean {
   return (
     isIOS() &&
-    isWebkit() &&
-    !/(Chrome|CriOS|OPiOS)/.test(window.navigator.userAgent)
+    !window.navigator.standalone &&
+    /AppleWebKit/i.test(window.navigator.userAgent) &&
+    !/Chrome|Focus|CriOS|OPiOS|FxiOS|mercury/i.test(window.navigator.userAgent)
   );
 }
 
