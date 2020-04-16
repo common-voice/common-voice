@@ -3,6 +3,7 @@
 contribute = ܫܲܘܬܸܦ
 get-involved-button = ܫܲܘܬܸܦ
 get-involved-title = ܫܲܘܬܸܦ ܥܲܡ { $lang }
+get-involved-text = ܒܲܣܝܼܡܵܐ ܪܵܒܵܐ ܩܵܐ
 get-involved-form-title = ܡܲܟܬܸܒ݂ ܩܵܐ ܚܲܕ݂ܚܘܿܬܹܐ ܥܲܡ { $lang }
 get-involved-email =
     .label = ܐܸܓܲܪܬܵܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܬܵܐ
