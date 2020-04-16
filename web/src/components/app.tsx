@@ -19,7 +19,6 @@ import store from '../stores/root';
 import URLS from '../urls';
 import {
   isMobileSafari,
-  isNativeIOS,
   isProduction,
   isStaging,
   replacePathLocale,
@@ -324,10 +323,6 @@ class App extends React.Component {
   constructor(props: any, context: any) {
     super(props, context);
 
-    if (isNativeIOS()) {
-      this.bootstrapIOS();
-    }
-
     if (isMobileSafari()) {
       document.body.classList.add('mobile-safari');
     }
@@ -375,13 +370,6 @@ class App extends React.Component {
       Sentry.captureException(error);
     });
     this.setState({ Sentry });
-  }
-
-  /**
-   * Perform any native iOS specific operations.
-   */
-  private bootstrapIOS() {
-    document.body.classList.add('ios');
   }
 
   render() {

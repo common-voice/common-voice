@@ -1,4 +1,4 @@
-import { isNativeIOS, isIOS } from '../../../../utility';
+import { isIOS } from '../../../../utility';
 
 const AUDIO_TYPE = `audio/${isIOS() ? 'wav' : 'ogg'}; codecs=opus`;
 
@@ -34,10 +34,6 @@ export default class AudioWeb {
   };
 
   constructor() {
-    // Make sure we are in the right context before we allow instantiation.
-    if (isNativeIOS()) {
-      throw new Error('cannot use web audio in iOS app');
-    }
     this.recorderListeners = {
       start: null,
       dataavailable: null,

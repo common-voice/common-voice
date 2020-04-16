@@ -30,7 +30,7 @@ import {
   SafariColor,
 } from '../../../ui/icons';
 import { Button, TextButton, LinkButton } from '../../../ui/ui';
-import { isNativeIOS, isIOS, isMobileSafari } from '../../../../utility';
+import { isIOS, isMobileSafari } from '../../../../utility';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -39,7 +39,6 @@ import {
   RecordButton,
   RecordingStatus,
 } from '../../../primary-buttons/primary-buttons';
-import AudioIOS from './audio-ios';
 import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
@@ -165,7 +164,7 @@ const initialState: State = {
 class SpeakPage extends React.Component<Props, State> {
   state: State = initialState;
 
-  audio: AudioWeb | AudioIOS;
+  audio: AudioWeb;
   isUnsupportedPlatform = false;
   maxVolume = 0;
   recordingStartTime = 0;
@@ -200,7 +199,7 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   componentDidMount() {
-    this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
+    this.audio = new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
     document.addEventListener('visibilitychange', this.releaseMicrophone);

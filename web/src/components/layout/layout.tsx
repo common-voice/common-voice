@@ -8,7 +8,7 @@ import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
 import URLS from '../../urls';
-import { getItunesURL, isProduction, replacePathLocale } from '../../utility';
+import { isProduction, replacePathLocale } from '../../utility';
 import { LocaleLink, LocaleNavLink } from '../locale-helpers';
 import {
   CogIcon,
@@ -126,22 +126,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       }, 100);
     }
   }
-
-  /**
-   * If the iOS app is installed, open it. Otherwise, open the App Store.
-   */
-  private openInApp = () => {
-    // TODO: Enable custom protocol when we publish an ios app update.
-    // window.location.href = 'commonvoice://';
-
-    window.location.href = getItunesURL();
-  };
-
-  private closeOpenInApp = (evt: React.MouseEvent<HTMLElement>) => {
-    evt.stopPropagation();
-    evt.preventDefault();
-    this.installApp.classList.add('hide');
-  };
 
   lastScrollTop: number;
   private handleScroll = () => {
