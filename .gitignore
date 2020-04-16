@@ -1,6 +1,7 @@
 node_modules
 config.json
 newrelic_agent.log
+maintenance/index.html
 common/index.ts
 common/js/
 web/dist/

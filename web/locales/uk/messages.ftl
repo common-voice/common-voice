@@ -160,7 +160,7 @@ terms = Умови
 cookies = Куки
 faq = ЧаП
 content-license-text = Вміст доступний на умовах ліцензії <licenseLink>Creative Commons</licenseLink>
-share-title = Допоможіть нам знайти інших бажаючих записати свій голос!
+share-title = Допоможіть нам знайти інших охочих записати свій голос!
 share-text = Допоможіть навчити машини розуміти мову людей. Запишіть свій голос тут { $link }
 link-copied = Посилання скопійовано
 back-top = Нагору
@@ -252,13 +252,13 @@ username-email-not-demographic = Ваше ім'я користувача та е
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = с
+shortcut-skip = п
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = с
+shortcut-play-toggle = в
 shortcut-play-toggle-label = Відтворити/Зупинити
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -271,7 +271,7 @@ shortcut-vote-no = н
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = в
+shortcut-record-toggle = з
 shortcut-record-toggle-label = Записати/Зупинити
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перезаписати
@@ -544,7 +544,7 @@ overall-hr-total = Всього годин
 cv-license = Ліцензія
 audio-format = Формат аудіо
 number-of-voices = Кількість голосів
-splits = Поділи
+splits = Статистика
 email-to-download = Вкажіть адресу електронної пошти для завантаження
 why-email = <b>Навіщо електронна пошта?</b> У майбутньому може знадобитися зв’язатися з вами щодо змін у наборі даних, електронна пошта надасть нам таку можливість.
 confirm-size = Ви готові розпочати завантаження файлу <b>{ $size }</b>
@@ -629,12 +629,12 @@ total-hours = Всього годин
 
 ## Contribution
 
-action-click = Клацнути
+action-click = Клацніть
 action-tap = Торкнутися
 contribute = Долучитися
 listen = Слухати
 skip = Пропустити
-shortcuts = Ярлики
+shortcuts = Швидкі клавіші
 clips-with-count = <bold>{ $count }</bold> Записів
 goal-help-recording = Ви допомогли Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної цілі запису { $goalValue }!
 goal-help-validation = Ви допомогли Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної цілі перевірки { $goalValue }!
@@ -666,7 +666,7 @@ record-abort-text = Якщо ви підете зараз, ваш прогрес
 record-abort-submit = Відправити кліпи
 record-abort-continue = Завершити запис
 record-abort-delete = Вийти і видалити кліпи
-listen-instruction = { $actionType }<playIcon></playIcon> вони правильно вимовили речення?
+listen-instruction = { $actionType }<playIcon></playIcon> для перевірки правильності озвученого речення?
 listen-again-instruction = Чудова робота! <playIcon></playIcon> Прослухайте знову коли будете готові
 listen-3rd-time-instruction = Залишилось 2 <playIcon></playIcon>, продовжуйте!
 listen-last-time-instruction = <playIcon></playIcon> Останній!
@@ -725,10 +725,10 @@ validations =
 
 your-languages = Ваші мови
 toward-next-goal = Наступна ціль
-clips-you-recorded = Кліпи, які ви записали
-clips-you-validated = Записи, які ви перевірили
-todays-recorded-progress = Прогрес запису кліпів на Common Voice за сьогодні
-todays-validated-progress = Прогрес перевірки кліпів на Common Voice за сьогодні
+clips-you-recorded = Ваші записи
+clips-you-validated = Ваші перевірки
+todays-recorded-progress = Записано сьогодні на Common Voice
+todays-validated-progress = Перевірено сьогодні на Common Voice
 stats = Статистика
 awards = Нагороди
 you = Ви

@@ -370,6 +370,9 @@ faq-is-goal-assistant-a = Common Voice 數據集的目標是讓任何人都能�
 faq-do-want-native-q = 我並非母語人士，而且講話有點口音，你們仍想要我的聲音嗎？
 faq-do-want-native-a = 當然，我們特別想要您的聲音！Common Voice 的其中一個目標是盡可能收集各種口音，讓語音識別服務能適用於每一個人。這代表非母語人士的貢獻尤其重要。
 faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言的人？
+faq-why-different-speakers-a =
+    大多數的語音數據庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在這些訓練機械的數據之中，各種不同的口音與方言與被邊緣化的人群常有所關連。許多機器也很難理解女性的聲音。
+    這就是為什麼我們的語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解還沒有我的語言？
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
 faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目標？
@@ -614,7 +617,7 @@ listen-instruction = { $actionType }<playIcon></playIcon> 佢哋將句子讀得�
 listen-again-instruction = 做得好！<playIcon></playIcon> 準備好就可以再聽更多
 listen-3rd-time-instruction = 完成兩筆了 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
-nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
+speak-empty-state-cta = 貢獻新的句子
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
 keep-track-profile = 建立個人檔案，紀錄您的進度

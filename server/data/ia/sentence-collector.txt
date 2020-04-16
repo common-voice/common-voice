@@ -81,6 +81,7 @@ Ab iste perspectiva tu pote vider le circulos concentric.
 Ab le etate de vinti annos e supra.
 Ab le spatio, le mundo pare multo parve.
 Abassar le stilos, le tempore es superate.
+Accepta le amor de qualcuno.
 Accesso negate.
 Accidentes in le bassinos hydroelectric es potentialmente catastrophic.
 Activar le area conditionate duce a major consumption de combustibile.
@@ -89,7 +90,9 @@ Actualmente nos non lo ha in stock.
 Ad ubi va tu?
 Adeo
 Adeo.
+Adjunge un poco de aqua.
 Adjuta me a sublevar le pacchetto.
+Adjuta me!
 Adjuta me, per favor.
 Adjuta te, que Deo te adjuta!
 Adjuta!
@@ -104,6 +107,8 @@ Ai, mi Deo!
 Al conilios place carotas.
 Al etate de sex annos ille habeva apprendite a usar le machina a scriber.
 Al fin, Mario succedeva a ganiar le amor del princessa.
+Al fin, nihil perdura pro sempre.
+Al fin, tote le familia se reuniva.
 Al initio le pareva de camminar in un sonio.
 Al initio, illo esseva facile.
 Al instituto de recerca illes ha un microscopio electronic.
@@ -618,6 +623,7 @@ De que vole tu parlar?
 De qui es ille telephono?
 De qui es illos?
 De qui es iste auto?
+De qui parla tu?
 De sorta que nos pote comprehender le cosas que Ille nos dava gratuitemente.
 De su gesto unic il era clar que le rhinocerote era hostil.
 De ubi veni vos?
@@ -639,6 +645,7 @@ Deman es un altere die.
 Deman essera un altere die.
 Deman il habera un excursion a pede de tres millias.
 Deman il pluvera torrentialmente.
+Deman ille arrivara in Kioto.
 Deman nos vadera al parco de attractiones e nos probara le montanias russe.
 Demanda a Tom.
 Demanda al studentes de leger tal libros como les facera pensar plus.
@@ -646,6 +653,7 @@ Demanda lo al inseniante si tu ha un question.
 Demandava Ivana, triste.
 Deo es ubique.
 Deo faceva pro le homine un throno, pro le feminas un altar.
+Deo lo vole.
 Deo mie, tu pare destruite!
 Deo non dava nos spirito de pavor, ma de fortia, amor e sagessa.
 Deo non pote esser temptate per le mal, e ille ipse non tempta alicuno.
@@ -664,6 +672,8 @@ Diamantes es producite sub pression.
 Diana es le belle dea del luna e del silvas.
 Dice a Maximo que io le saluta.
 Dice justo no.
+Dice la que io non lo ha legite.
+Dice le que io non lo ha legite.
 Dice le veritate.
 Dice lo clarmente!
 Dice lo clarmente.
@@ -5710,6 +5720,7 @@ Nos ama nostre infantes.
 Nos ambe es amicos.
 Nos appellara le nave Aegis.
 Nos apprecia nostre clientes.
+Nos ascolta musica celtic.
 Nos associa le nomine de Darwin con Le Origine del Species.
 Nos associa le nomine de Darwin con le theoria del evolution.
 Nos attendeva.
@@ -5721,6 +5732,7 @@ Nos besonia de te.
 Nos besonia hastar.
 Nos besonia un auto.
 Nos bibeva multo.
+Nos cerca un casa con garage.
 Nos cocinava tempura a ille momento.
 Nos comenciara le labor tosto.
 Nos comprende.
@@ -6090,6 +6102,7 @@ Parla clarmente, per favor!
 Parla clarmente.
 Parla con me, per favor.
 Parla de lo que tu vole.
+Parla ille anglese?
 Parla ille ora anglese, francese o germano?
 Parla me in interlingua
 Parla me!
@@ -7407,6 +7420,7 @@ Studeva ille anglese heri?
 Su Interlingua es excellente.
 Su T-shirt esseva de un color orange comburite.
 Su apparentia subite surprendeva nos totes.
+Su assistentia es irregular.
 Su auto es duo annos vetere.
 Su bicycletta es blau.
 Su bucca aperiva.
@@ -7430,8 +7444,11 @@ Su error era intentional.
 Su facie esseva in le umbra ab le luce.
 Su familia es multo grande.
 Su fidantiata al matino ha sempre pedes frigide.
+Su filio ha talento pro musica.
+Su fratre va al schola in autobus.
 Su historia de vita es complicate.
 Su longe capillos esseva completemente molliate.
+Su lumine se extingueva.
 Su mal de capite.
 Su marito es multo industriose e fidel, sed etiam multo garrule.
 Su morte me toccara profundemente.

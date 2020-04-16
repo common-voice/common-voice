@@ -37,6 +37,8 @@ be = ਬੇਲਾਰੂਸੀ
 bn = ਬੰਗਾਲੀ
 br = ਬਰੀਟੋਨ
 bxr = ਬੁਰੀਅਤ
+ca = ਕੈਟਲਨ
+cak = ਕਾਇਚਾਕੇਲ
 cs = ਚੈੱਕ
 cy = ਵੈਲਸ਼
 da = ਡੈਨਿਸ਼
@@ -215,6 +217,11 @@ request-language-button = ਭਾਸ਼ਾ ਲਈ ਬੇਨਤੀ ਕਰੋ
 
 status-title = ਪੂਰੇ ਪਰੋਜੈਕਟ ਦੀ ਹਾਲਤ: ਵੇਖੋ ਕਿ ਅਸੀਂ ਕਿੱਥੇ ਤੱਕ ਅੱਪੜੇ ਹਾਂ?
 status-contribute = ਆਪਣੀ ਆਵਾਜ਼ ਦਾ ਯੋਗਦਾਨ ਦਿਓ
+status-hours =
+    { $hours ->
+        [one] ਹੁਣ ਤਕ ਇੱਕ ਪ੍ਰਮਾਣਿਤ ਘੰਟਾ!
+       *[other] ਹੁਣ ਤੱਕ { $hours } ਪ੍ਰਮਾਣਿਤ ਘੰਟੇ!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ਅਗਲੇ ਟੀਚੇ: { $goal }
@@ -325,6 +332,7 @@ about-nav-why-common-voice = ਕਿਉਂ?
 about-nav-how-it-works = ਕਿਵੇਂ ?
 about-nav-partners = ਹਿੱਸੇਦਾਰ
 about-nav-get-involved = ਹਿੱਸਾ ਬਣੋ
+mycroft-title = ਮਾਈਕਰੋਫਟ ਏਆਈ
 mycroft-subtitle = ਮਸ਼ੀਨੀ ਅਕਲ
 
 ## Glossary
@@ -332,6 +340,7 @@ mycroft-subtitle = ਮਸ਼ੀਨੀ ਅਕਲ
 glossary = ਸ਼ਬਦਾਵਲੀ
 localization = ਇਲਾਕਾਈਕਰਨ
 sentence-collection = ਵਾਕ ਸੰਗ੍ਰਹਿ
+sst = ਬੋਲ-ਤੋਂ-ਲਿਖਤ (ਐਸਟੀਟੀ)
 
 ## NotFound
 
@@ -454,6 +463,7 @@ record-cancel = ਮੁੜ-ਰਿਕਾਰਡਿੰਗ ਰੱਦ ਕਰੋ
 record-instruction = { $actionType }<recordIcon></recordIcon> ਤਦ ਵਾਕ ਨੂੰ ਉੱੱਚੀ ਪੜ੍ਹੋ
 record-stop-instruction = ਜਦੋਂ ਮੁਕੰਮਲ ਹੋ ਜਾਵੇ ਤਾਂ { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = ਤਿੰਨ ‘ਤੇ ਸ਼ੁਰੂ ਕਰੋ!
+record-again-instruction = ਸ਼ਾਨਦਾਰ!<recordIcon></recordIcon> ਆਪਣੀ ਅਗਲੀ ਕਲਿੱਪ ਨੂੰ ਰਿਕਾਰਡ ਕਰੋ
 record-last-instruction = <recordIcon> </recordIcon> ਆਖਰੀ!
 share-common-voice = ਆਮ ਆਵਾਜ਼ ਸਾਂਝਾ ਕਰੋ
 record-submit-tooltip = { $actionType } ਤਿਆਰ ਹੋਣ ਤੇ ਸਬਮਿਟ ਕਰੋ
@@ -505,7 +515,9 @@ awards = ਇਨਾਮ
 you = ਤੁਸੀਂ
 everyone = ਹਰੇਕ
 top-contributors = ਉੱਚ ਯੋਗਦਾਨੀਆਂ
+recorded-clips = ਰਿਕਾਰਡ ਕੀਤੇ ਕਲਿੱਪ
 validated-clips = ਪ੍ਰਮਾਣਿਤ ਕਲਿੱਪ
+total-approved = ਕੁਲ ਮਨਜ਼ੂਰ
 overall-accuracy = ਸਮੁੱਚੀ ਸ਼ੁੱਧਤਾ
 set-visibility = ਮੇਰੀ ਦਿੱਖ ਨਿਰਧਾਰਤ ਕਰੋ
 show-ranking = ਮੇਰੀ ਰੈਂਕਿੰਗ ਦਿਖਾਓ
@@ -520,10 +532,15 @@ difficult-difficulty = ਔਖਾ
 pro-difficulty = ਪ੍ਰੋ
 want-to-continue = ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?
 cant-decide = ਫੈਸਲਾ ਨਹੀਂ ਕਰ ਸਕਦੇ?
+how-many-per-day = ਮਹਾਨ! ਪ੍ਰਤੀ ਦਿਨ ਕਿੰਨੇ ਕਲਿੱਪ?
+how-many-a-week = ਮਹਾਨ! ਇੱਕ ਹਫ਼ਤੇ ਵਿੱਚ ਕਿੰਨੇ ਕਲਿੱਪ?
+which-goal-type = ਕੀ ਤੁਸੀਂ ਬੋਲਣਾ, ਸੁਣਨਾ ਚਾਹੁੰਦੇ ਹੋ ਜਾਂ ਦੋਵੇਂ?
 n-clips = { NUMBER($count) } ਕਲਿੱਪ
+goal-interval-weekly = ਸਪਤਾਹਕ
 share-goal-type-speak = ਬੋਲਣਾ
 share-goal-type-listen = ਸੁਣਨਾ
 share-goal-type-both = ਬੋਲਣਾ ਅਤੇ ਸੁਣਨਾ
+share-goal = ਮੇਰਾ ਟੀਚਾ ਸਾਂਝਾ ਕਰੋ
 
 ## Profile Delete
 
@@ -533,3 +550,4 @@ profile-form-delete = ਪਰੋਫਾਈਲ ਹਟਾਓ
 
 ## Landing
 
+read-more-about = ਸਾਡੇ ਇਸ ਬਾਰੇ ਸਫ਼ੇ ਉੱਤੇ ਹੋਰ ਪੜ੍ਹੋ

@@ -78,6 +78,8 @@ if (DOMAIN) {
         (({
           stage: 'https://voice.allizom.org',
           prod: 'https://voice.mozilla.org',
+          dev: 'https://dev.voice.mozit.cloud',
+          sandbox: 'https://sandbox.voice.mozit.cloud',
         } as any)[ENVIRONMENT] || '') + CALLBACK_URL,
       scope: 'openid email',
     },

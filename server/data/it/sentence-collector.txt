@@ -120,6 +120,8 @@ Augusto non comprese bene, tuttavia le sue braccia s'irrigidirono.
 Augusto rimaneva insensibile a tutto.
 Augusto si sentiva meno oppresso, ma pieno di malinconia.
 Augusto sollevò il capo, e i suoi occhi infossati s'aprirono rotondi, grandi.
+Aurelio s'era appoggiato alla tavola.
+Aurelio sollevò gli occhi spauriti.
 Avete fatto buona pesca?
 Aveva ammazzato più di dieci banditi.
 Aveva ammazzato un professore.
@@ -176,9 +178,12 @@ Ce n'è ancora.
 Ce n'è?
 Cerca di ottenere il colloquio prima che mi portino via.
 Cercando invano parole per confortarla.
+Cesare lo fissava avidamente.
 Che Dio lo salvi.
 Che Laura si disperava e si strappava i capelli.
 Che abitava poco discosto dalla casa di Elisabetta.
+Che altro abbiamo noi se non la speranza?
+Che bimbo grasso!
 Che c'entra il mangiare, ora, con la sentenza di domani?
 Che cosa, dunque?
 Che farò io?
@@ -248,6 +253,7 @@ Con due occhi neri gonfi e lucenti di pianto.
 Con due punti verdi brillanti per occhi.
 Con la corta barba a riccioli.
 Con la sua luce azzurrognola calava la rugiada.
+Con le mani sulla schiena, imprecava in sardo, a bassa voce.
 Con moltissimi quadretti appesi in alto sulle pareti.
 Con questo sole.
 Con questo sole?
@@ -262,6 +268,7 @@ Cosa sono trent'anni?
 Cosa ti è accaduto?
 Cosa volete farci?
 Cosa vuoi, capra guercia?
+Cosa è il dovere?
 Costantino invece s'era fatto scarno.
 Costantino trasalì.
 Così Beppe riuscì ad avere un foglio di carta.
@@ -316,6 +323,7 @@ Dicendole che aveva comprato del pane e carne e frutta.
 Diceva d'aver fatto buon viaggio.
 Diceva di essere proprietario d'un gran deposito di vini.
 Diceva di essersi smarrita.
+Diceva la verità.
 Dicevasi parente d'un cardinale, il quale era segretamente amico del re e della regina.
 Dietro di lei veniva zio Stefano.
 Digrignò i denti, come rosicchiando delle ossa.
@@ -369,6 +377,7 @@ E aveva paura della morte.
 E aveva una grande stima di sé stesso perché stimava le persone oneste.
 E balzò in piedi.
 E cammina cammina.
+E chiedeva al Pirandello se egli ne avesse mai visti.
 E cominciò a decifrarla.
 E cominciò a spingerlo mettendogli una mano sul petto.
 E con l'altra dandogli dei pugni tutt'altro che scherzosi.
@@ -641,6 +650,7 @@ Finiscila un po'.
 Finita la Messa.
 Forse Dio ha voluto provarci ancora, togliendoci il frutto concepito nel peccato.
 Forse un raggio di luce sarebbe ancora sceso nel vuoto gelido che lo circondava.
+Fra l'indice e il pollice aveva una penna nera.
 Fra l'oro bruno delle stoppie scoppiava la terra gonfiata dalle pioggie autunnali.
 Fra le altre cose sognò di esser morto a causa d'un morso di vipera.
 Francesca allattava il bambino, guardandolo con dolore.
@@ -854,6 +864,7 @@ Io mangerò il mio pane, non il suo.
 Io me ne infischio.
 Io mi aggiro intorno alla sua casa.
 Io ne ho le tasche piene.
+Io non credo a queste stupidaggini!
 Io non l'ho guardata più in faccia.
 Io non so niente.
 Io non so, ma lui gli disse così.
@@ -929,6 +940,7 @@ La gioia di quella brava gente consisteva nel ritorno del figlio studente in leg
 La giovane provò un senso di dolcezza.
 La giovane si rifece scura in volto e rifiutò di mangiare.
 La giovane spalancò gli occhi rossi e vitrei, e s'alzò.
+La legge, però, oramai provvede a questa enorme ingiustizia.
 La loro ombra cadeva per terra come l'ombra di una nuvola solitaria.
 La loro voce si smarriva senza vibrazioni, nel gran silenzio dell'ora e del paesaggio.
 La luna già alta guardava sulle montagne.
@@ -1210,6 +1222,7 @@ Non ricominciare a piangere, Roberta, altrimenti ti butto in faccia questa salie
 Non ricordo; andate avanti
 Non ridere così.
 Non riusciva a dirle altro che: – Ma sei matta, Serafina, sei matta!
+Non sapendo dove posare gli occhi, fissò il movimento della penna.
 Non sapeva il valore del denaro.
 Non sapeva perché.
 Non sapevano dove.
@@ -1401,6 +1414,7 @@ Questo riso con gli asparagi era ottimo
 Questo è un sogno!
 Questo è vero!
 Qui i pesciolini entreranno ed usciranno a loro piacere.
+Raccontava che nel suo paese si vedevano.
 Restava ore ed ore immobile, seduto, con le gambe accavallate.
 Riaprì gli occhi e sputò davvero.
 Riconosceva i campi melanconici seminati d'orzo e di frumento ancora verde.
@@ -1436,6 +1450,7 @@ S'udì un passo per la scaletta esterna.
 S'è raggrinzita, sai, come quei frutti che si disseccano sulla pianta prima di maturare.
 Saettate dal sole.
 Sai come gli antichi trattavano gli schiavi?
+Sai, ho letto che in Russia è pregiato il lardo rancido.
 Sapete parlar bene, voi.
 Sapete quanto costa una zuppa così a Roma?
 Sarebbe andato dal re, e gli avrebbe raccontato come stavano le cose.
@@ -1470,6 +1485,7 @@ Se ti trovo a leggere certi libri, te li scaravento sul capo.
 Se tu mi ripeti una cosa simile.
 Se tu vai da lei è inutile farmi aspettare qui.
 Se tu vedessi quella donna non rideresti più.
+Se vostra moglie chiedesse il divorzio sarebbe vostro dovere accordarlo subito.
 Sebbene anche i giorni avanti l'avesse visto uscire fra di loro.
 Sebbene si sentisse stanca anche di piangere, pensò fosse suo dovere strillare disperatamente.
 Seduta per terra, vicino al letto.
@@ -1515,6 +1531,7 @@ Si fece rosso e chiese di parlare.
 Si fermò dietro la porta.
 Si guardò attorno e cominciò a girare attorno alla piangente.
 Si guardò bene bene l'unghia del dito mignolo destro.
+Si guardò le mani rossastre solcate di pieghe per la compressione della schiena.
 Si mise a mangiare ed a bere.
 Si misero a tavola, ma Aida non mangiò, pur tenendosi calma.
 Si offese comicamente.
@@ -1542,6 +1559,7 @@ Sia fatta la volontà del Signore.
 Sia fatta la volontà di Dio, ma io sono innocente.
 Siccome molti usano far così, lo facemmo anche noi.
 Sicuro che ce n'è!
+So che voi, dopo tutto, siete o dimostrate di essere un buon cristiano.
 Sollevò il capo.
 Sollevò la testa con fierezza.
 Solo come un cane, che poteva fare per il resto della sera?
@@ -1625,6 +1643,7 @@ Tu credi si tratti di Marcella.
 Tu dici che Gianni è un buon cristiano?
 Tu hai ammazzato tuo zio.
 Tu hai messo da parte trenta scudi d'argento e cominci a fabbricarti una casa.
+Tu le chiami stupidaggini?
 Tu non capisci ancora?
 Tu non puoi far niente.
 Tu non sai neppure dove porti i piedi.
@@ -1716,6 +1735,7 @@ Vestita di nero, col capo avvolto in una benda nera.
 Vestito di bianco, gli era apparso un giorno in riva al fiume.
 Vi si coricò e volle che il servo gli si coricasse vicino.
 Via.
+Vide nella mano grassa e rosea del signore un anello con pietra violetta.
 Vieni che ho da parlarti.
 Vieni su, che tua figlia sta diventando matta!
 Vinto dalla smania angosciosa, non pensava ad altro.
@@ -1723,6 +1743,7 @@ Visioni confuse passarono davanti alla sua mente.
 Viveva col pensiero vicino a Sonia ed al bambino.
 Voglio una pizza piena di mozzarella
 Voi non rispettate neppure i morti.
+Voi sapete bene che c'è il divorzio.
 Voi siete tanto debole.
 Voi volete partire?
 Vola più su
@@ -1761,6 +1782,7 @@ Zio Mario provò un senso di soggezione.
 Zoppicando come un pulcino ferito, le disse una cosa strana.
 È da molto tempo che non avete notizie di Giuseppe?
 È da molto tempo che non v'è apparso San Giuseppe in riva al fiume?
+È forse disonesto?
 È fra le granfie del diavolo.
 È il dolore del cane rabbioso.
 È la più alta manifestazione del genio italiano.
@@ -1770,6 +1792,7 @@ Zoppicando come un pulcino ferito, le disse una cosa strana.
 È pazza, lei!
 È povera, è giovane, e ha del sangue nelle vene.
 È spaventevole ciò!
+È umido e caldo.
 È un animale, ecco tutto!
 È una sciocchezza.
 È venuta più volte ad informarsi di Gianni e si è mostrata dolente.

@@ -52,6 +52,8 @@ This is going to:
 
 You can visit the website at [http://localhost:9000](http://localhost:9000).
 
+**Note: running the development server is a memory-intensive process. If you notice intermittent failures, or if features like auto-rebuilding crash, try increasing Docker's available memory from within Docker's _Preferences > Resources_ settings.**
+
 ##### Importing sentences
 
 To decrease the workload for your machine, by default sentence importing is deactivated for the Docker setup. This means that

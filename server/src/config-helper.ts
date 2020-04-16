@@ -45,6 +45,7 @@ export type CommonVoiceConfig = {
   KIBANA_ADMINS: string;
   LAST_DATASET: string;
   SENTRY_DSN: string;
+  MAINTENANCE_MODE: boolean;
 };
 
 const castDefault = (value: string): any => value;
@@ -70,7 +71,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MYSQLREPLICAPORT: configEntry('CV_MYSQLREPLICAPORT', 3306, castInt),
   BUCKET_NAME: configEntry('CV_BUCKET_NAME', 'common-voice-corpus'),
   BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', ''),
-  ENVIRONMENT: configEntry('ENVIRONMENT', 'default'),
+  ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
   S3_CONFIG: configEntry(
@@ -95,6 +96,8 @@ const BASE_CONFIG: CommonVoiceConfig = {
   KIBANA_ADMINS: configEntry('CV_KIBANA_ADMINS', null),
   LAST_DATASET: configEntry('CV_LAST_DATASET', '2019-06-12'),
   SENTRY_DSN: configEntry('CV_SENTRY_DSN', ''),
+  MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
+  BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
 };
 
 let injectedConfig: CommonVoiceConfig;
@@ -160,7 +163,9 @@ export function getConfig(): CommonVoiceConfig {
     let config_path = process.env.SERVER_CONFIG_PATH || './config.json';
     fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
   } catch (err) {
-    console.error(`Could not load config.json, using defaults (error message: ${err.message})`);
+    console.error(
+      `Could not load config.json, using defaults (error message: ${err.message})`
+    );
   }
   loadedConfig = { ...BASE_CONFIG, ...loadedSecrets, ...fileConfig };
 

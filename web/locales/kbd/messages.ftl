@@ -189,6 +189,10 @@ wall-of-text-more-mobile = Нэхъыбэм, макъ датэ щыIэр, фир
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = Анэдэлъхубзэ
+profile-form-age =
+    .label = Ныбжь
 
 ## FAQ
 

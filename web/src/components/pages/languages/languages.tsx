@@ -183,7 +183,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     function filterLanguages<T>(languages: T[]): T[] {
       return query
         ? languages.filter(({ locale }: any) => {
-            const q = query.toLowerCase();
+            const q = query.toLowerCase().trim();
             return (
               locale.includes(q) ||
               getString(locale)

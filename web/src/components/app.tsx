@@ -186,6 +186,7 @@ let LocalizedPage: any = class extends React.Component<
     }
 
     if (!LOCALES.includes(mainLocale)) {
+      userLocales[0] = DEFAULT_LOCALE;
       this.props.setLocale(DEFAULT_LOCALE);
       history.replace(replacePathLocale(pathname, DEFAULT_LOCALE));
     } else {

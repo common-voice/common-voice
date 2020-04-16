@@ -1,7 +1,6 @@
 ## General
 
 yes-receive-emails = جی ہاں، مجھے ای میل ارسال کریں ۔ میں اس Common Voice منصوبے کے بارے میں باخبر رہنا چاہوں گا.
-stayintouch = Mozilla میں ہم صوتی ٹیکنالوجی کے گرد ایک برادری تعمیر کر رہے ہیں ۔ ہم تازہکاریوں۔ نئے کوائفف ںئے کوائف ماخز کے ساتھ رابطے میں رہنا پسند کریں گے  اور مزید  جاننا پسند کریں گے کی آپ اس کوائف کا استعمال کس طرح کر رہے ہیں۔
 privacy-info = ہم وعدہ کرتے ہیں کہ آپ کی معلومات کی دیکھ بھال کریں گے۔ ہمارے <privacyLink> رازداری نوٹس</privacyLink>  میں مزید پڑھیں۔
 return-to-cv = Common Voice پر واپس جائیں
 email-input =
@@ -22,7 +21,7 @@ not-available-abbreviation = عدم دستیاب
 ## Languages
 
 ab = ابخاز
-ace = Acehnese
+ace = اچنیز
 ady = Adyghe
 af = افریقانی
 am = امہارى
@@ -151,7 +150,7 @@ speak = بولیں
 speak-now = ابھی بولیں
 datasets = ڈیٹا سیٹس
 languages = زبانیں
-about = متعلق
+about = کے بارے میں
 profile = پروفائل
 help = مدد
 contact = رابطہ
@@ -395,7 +394,7 @@ faq-how-privacy-q = آپ ان لوگوں کی گمنامی اور رازداری
 faq-what-determine-identity-q = اس کا کیا مطلب ہے کہ میں کامن وائس ڈیٹاسیٹ میں بولنے والوں کی "شناخت کا تعین" نہیں کرسکتا؟
 faq-what-is-cv = Common Voice کیا ہے؟
 faq-using-cv = Common Voice کا استعمال کرنا
-faq-description = کامن وائس موزیلا کے اس اقدام کا حصہ ہے جو مشینوں کو یہ سکھانے میں مدد فراہم کرتی ہے کہ حقیقی لوگ کس طرح بولتے ہیں۔
+faq-description = mmon Voice Mozilla کے اس اقدام کا حصہ ہے جو مشینوں کو یہ سکھانے میں مدد فراہم کرتی ہے کہ حقیقی لوگ کس طرح بولتے ہیں۔
 faq-search-for-answers =
     .label = جوابات تلاش کریں
 
@@ -596,7 +595,7 @@ listen-instruction = { $actionType }<playIcon></playIcon> کیا انہوں نے
 listen-again-instruction = بہت اچھے<playIcon></playIcon> دوبارہ سنیں جب آپ تیار ہوں
 listen-3rd-time-instruction = ۲  ہو گئے۔  شاباش جاری رکھیں!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>آخری ایک!
-nothing-to-validate = اس زبان میں توژیق کاری کے لیئے کچھ موجود نہیں۔ قظار بھرنے میں ہماری مدد کریں۔
+speak-empty-state = اس زبان میں ریکارڈ کرنے کے لئے ہمارے پاس جملے ختم ہوگئے ہیں...
 record-button-label = اپنی آواز رکارڈ کرائیں
 share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
 keep-track-profile = ایک پروفائل کے ذریعہ اپنی پیش رفت پر نظر رکھیں
