@@ -324,6 +324,7 @@ about-listen = ਸੁਣੋ
 about-is-it-valid = ਕੀ ਕਲਿੱਪ ਵਾਜਬ ਹੈ?
 about-yes-votes = ≥ 2 ਹਾਂ ਵੋਟਾਂ
 about-no-votes = ≥ 2 ਨਹੀਂ ਵੋਟ
+about-dataset-new = ਆਮ ਅਵਾਜ਼ ਡੇਟਾਸੇਟ
 about-clip-graveyard = ਕਲਿੱਪ ਕਬਰਸਤਾਨ
 about-partners = ਹਿੱਸੇਦਾਰ
 about-become-a-partner = ਹਿੱਸੇਦਾਰ ਬਣੋ
@@ -514,6 +515,7 @@ stats = ਅੰਕੜੇ
 awards = ਇਨਾਮ
 you = ਤੁਸੀਂ
 everyone = ਹਰੇਕ
+contribution-activity = ਯੋਗਦਾਨ ਗਤੀਵਿਧੀ
 top-contributors = ਉੱਚ ਯੋਗਦਾਨੀਆਂ
 recorded-clips = ਰਿਕਾਰਡ ਕੀਤੇ ਕਲਿੱਪ
 validated-clips = ਪ੍ਰਮਾਣਿਤ ਕਲਿੱਪ
@@ -524,6 +526,8 @@ show-ranking = ਮੇਰੀ ਰੈਂਕਿੰਗ ਦਿਖਾਓ
 
 ## Custom Goals
 
+get-started-goals = ਟੀਚਿਆਂ ਨਾਲ ਸ਼ੁਰੂਆਤ ਕਰੋ
+create-custom-goal = ਇੱਕ ਕਸਟਮ ਟੀਚਾ ਬਣਾਓ
 both-speak-and-listen = ਦੋਵੇਂ
 both-speak-and-listen-long = ਦੋਵੇਂ (ਬੋਲੋ ਅਤੇ ਸੁਣੋ)
 easy-difficulty = ਸੌਖਾ
