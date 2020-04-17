@@ -143,9 +143,10 @@ export const BarPlot = ({
           hour: '2-digit',
           minute: '2-digit',
         })
-        .replace(' AM', '')
-        .replace(' PM', '');
-      return window.innerWidth < 450 ? timeString.split(':')[0] : timeString;
+        .replace(':00 ', '')
+        .replace(/\./g, '');
+
+      return timeString;
     }}
     tickCount={TICK_COUNT}
     tickMultipliers={[5, 10, 100, 1000]}>
