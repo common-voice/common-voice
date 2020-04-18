@@ -110,6 +110,7 @@ sl = Slovēņu
 sq = Albāņu
 sr = Serbu
 sv-SE = Zviedru
+sw = Svahili
 syr = Sīriešu
 ta = Tamilu
 te = Telugu
@@ -431,11 +432,6 @@ about-partnership =
     
     Mēs vēlētos pateikties šādiem cilvēkiem un organizācijām par viņu palīdzību projektā:
 about-get-involved = Iesaistieties
-about-get-involved-text =
-    Vēlaties palīdzēt uzlabot kopējo balss kvalitāti?
-    Lieliski! Sazinieties pa e-pastu vai <discourseLink>Discourse</discourseLink>,
-    iesniedziet atsauksmes, izmantojot <githubLink>GitHub</githubLink>,
-    vai pievienojieties mums <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
@@ -641,7 +637,6 @@ listen-instruction = { $actionType } <playIcon> </playIcon> vai viņi precīzi i
 listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klausieties vēlreiz, kad esat gatavs
 listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
-nothing-to-validate = Mums nav nekas, kas jāapstiprina šajā valodā, palīdziet mums aizpildīt rindu.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
