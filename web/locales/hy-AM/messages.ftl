@@ -68,6 +68,7 @@ it = Իտալերեն
 izh = Իժորերեն
 ja = Ճապոներեն
 ka = Վրացերեն
+kpv = Կոմի-զիրյաներեն
 ku = Քրդերեն
 kw = Կոռներեն
 ky = Ղրղզերեն
@@ -77,13 +78,25 @@ lt = Լիտվաներեն
 lv = Լատիշերեն
 mdf = Մոկշա
 mg = Մալգաշերեն
+mhr = Մարգագետնային մարիերեն
 mk = Մակեդոներեն
+ml = Մալայլամ
 mn = Մոնղոլերեն
+mt = Մալթերեն
+my = Բիրմաներեն
+myv = Էրզյա
+nb-NO = Նորվեգերեն բուկմոլ
+ne-NP = Նեպալի
+nl = Հոլլանդերեն
+nn-NO = Նոր նորվեգերեն
+oc = Ակվիտաներեն
+or = Օրիյա
 pa-IN = Փենջաբի
 pl = Լեհերեն
 pt = Պորտուգալերեն
 ro = Ռումիներեն
 ru = Ռուսերեն
+sah = Յակուտերեն
 sc = Սարդիներեն
 scn = Սիցիլիերեն
 si = Սինհալի
@@ -96,11 +109,15 @@ sw = Սվահիլի
 ta = Թամիլերեն
 te = Տելուգու
 tg = Տաջիկերեն
+tl = Տագալոգ
 tr = Թուրքերեն
 tt = Թաթարերեն
+uby = Ուբիխերեն
+udm = Ուդմուրտերեն
 uk = Ուկրաիներեն
 ur = Ուրդու
 uz = Ուզբեկերեն
+vec = Վենետերեն
 vi = Վիետնամերեն
 zh-CN = Չինարեն (Չինաստան)
 zh-HK = Չինարեն (Հոնկոնգ)
@@ -250,39 +267,112 @@ record-voice-wave = ՁԱՅՆԱԳՐԵԼ
 retry-voice-wave-recording = ԿՐԿԻՆ ՓՈՐՁԵԼ
 re-record = ԿՐԿԻՆ ՁԱՅՆԱԳՐԵԼ
 delete-voice = ՋՆՋԵԼ
+ready-to-upload = ՎԵՐԲԵՌՆԵԼ
+cancel-avatar-clip-recording = ՉԵՂԱՐԿԵԼ
+browse-file-title = Վերբեռնել պատկեր
+browse-file = Քաշեք-քցեք կամ <browseWrap>Ընտրեք</browseWrap>
+connect-gravatar = Միացնել Gravatar-ը
+gravatar_not_found = Ձեր էլփոստի հասցեով Gravatar չի գտնվել
+file_too_large = Ընտրված ֆայլը չափից դուրս մեծ է
+add-language = Ավելացնել լեզու
 
 ## FAQ
 
+faq-title = Հաճախ Տրվող Հարցեր
 
 ## ABOUT US
 
+about-listen = Լսեք
+about-partners = Գործընկերներ
+about-become-a-partner = Դարձեք գործընկեր
+about-partnership =
+    Common Voice–ը համագործակցային նախագիծ է, և միայն գործընկերների և մասնակիցների համայնքի շնորհիվ մենք կարող ստեղծել երբևե եղած ամենամեծ բաց ձայնային տվյալների հավաքածուն։
+    
+    Մենք ուզում ենք շնորհակալություն հայտնել հետևյալ մարդկանց և կազմակերպությունների նախագծին իրենց աջակցության համար․
+about-get-involved = Միանալ
+about-nav-why-common-voice = Ինչո՞ւ
+about-nav-how-it-works = Ինչպե՞ս
+about-nav-partners = Գործընկերներ
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Արհեստական բանականություն
 
 ## Glossary
 
+glossary = Բառացանկ
+localization = Տեղայնացում
 
 ## NotFound
 
+notfound-title = Չի գտնվել
+notfound-content = Վստահ չեմ, որ գիտեմ թե ինչ եք որոնում։
 
 ## Data
 
+data-download-yes = Այո
+data-download-deny = Ոչ
+data-download-license = Թույլատրագիրը՝ <licenseLink>CC-0</licenseLink>
+data-other-goto = Անցնել { $name }
+data-other-download = Ներբեռնել տվյալները
+data-bundle-button = Ներբեռնել տվյալների հավաքածուն
+data-bundle-description = Common Voice-ի տվյալները և վերոնշյալ բոլոր ձայնային տվյալների հավաքածուները։
+license = Արտոնագիր՝ <licenseLink>{ $license }</licenseLink>
+license-mixed = Խառը
+review-terms = Օգտագործելով Common Voice-ը դուք համաձայնվում եք մեր <termsLink>Պայմաններին</termsLink> և  <privacyLink>Գաղտնիության քաղաքականությանը</privacyLink>
+terms-agree = Համաձայն եմ
+terms-disagree = Համաձայն չեմ
+review-aborted = Վերբեռնումը ընդհատվեց։ Դուք ուզո՞ւմ եք ջնջել ձեր ձայնագրությունները։
 
 ## Datasets Page
 
+language = Լեզու
+# File size in gigabytes
+size = Չափս
+validated-hr-total = Ստուգված ժամ
+overall-hr-total = Ընդամենը ժամ
+cv-license = Թույլատրագիր
+audio-format = Ձայնագրության ձևաչափ
+email-to-download = Մուտքագրեք էլփոստը ներբեռնելու համար
+size-gigabyte = ԳԲ
+size-megabyte = ՄԲ
+subscribe = Բաժանորդագրվել
+more = Ավելին
+close = Փակել
+download = Ներբեռնել
+dataset-version = Տարբերակ
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-title = Կապ մեզ հետ
+contact-form-name =
+    .label = Անուն
+contact-form-message =
+    .label = Հաղորդագրություն
+contact-required = *պարտադիր է
 
 ## Request Language Modal
 
+request-language-title = Լեզու հավելելու հարցում
+request-language-form-language =
+    .label = Լեզու
+request-language-success-title = Լեզու հավելելու հարցումը հաջողությամբ ուղարկվեց, շնորհակալություն։
+select-language = Ընտրել լեզու...
+other-language = Այլ լեզու
 
 ## Languages Overview
 
+languages-show-more = Տես ավելին
 
 ## Contribution
 
+skip = Բաց թողնել
+shortcuts = Դյուրանցումներ
+record-cta = Սկսել ձայնագրությունը
+record-again-instruction = Հոյակա՛պ է<recordIcon></recordIcon> Ձայնագրենք հաջորդ նախադասությունը
+record-again-instruction2 = Այո՛։ Ձայնագրենք հաջորդը <recordIcon></recordIcon>
+record-last-instruction = <recordIcon> </recordIcon> Վերջի՜նը։
 
 ## Reporting
 
@@ -295,9 +385,12 @@ delete-voice = ՋՆՋԵԼ
 
 ## Custom Goals
 
+how-many-per-day = Հոյակա՛պ է։ Օրեկան քանի՞ ձայնագրություն։
+how-many-a-week = Հոյակա՛պ է։ Շաբաթական քանի՞ ձայնագրություն։
 
 ## Profile Delete
 
 
 ## Landing
 
+read-more-about = Ավելին «Մեր մասին» էջում
