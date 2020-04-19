@@ -489,7 +489,7 @@
             }
 
             & input,
-            & button {
+            & div {
                 height: 80px;
                 box-sizing: border-box;
                 position: relative;
@@ -522,22 +522,19 @@
                 }
             }
 
-            & button {
-                align-self: flex-end;
+            & div {
                 border: none;
                 outline: none;
                 width: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 position: relative;
                 background: var(--blue);
                 border-top-right-radius: 4px;
                 border-bottom-right-radius: 4px;
                 flex: 0 0 100px;
                 transition: all var(--transition-duration) var(--easing);
-                cursor: pointer;
-
-                &:hover {
-                    background-color: var(--warm-grey);
-                }
             }
 
             & .search-button {

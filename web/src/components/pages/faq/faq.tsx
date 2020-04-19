@@ -165,14 +165,13 @@ export default withLocalization(({ getString }: LocalizationProps) => {
                     setSearchString(event.target.value);
                   }}
                   placeholder={label}
-                  required
                 />
               )}
             </LocalizedGetAttribute>
 
-            <button type="submit" className="search-button">
+            <div className="search-button">
               <SearchIconCode className="icon" />
-            </button>
+            </div>
           </form>
 
           <div className="faq-section-container">
