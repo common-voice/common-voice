@@ -237,7 +237,7 @@ whats-public = What's Public?
 email-not-public = We will not make your email public.
 recordings-and-locale-public = The number of recordings and which languages you contribute to will be public.
 username-optin-public = You can choose to make your username public or anonymous.
-demographic-deidentified = Optionally submitted demographic data (e.g. age, sex, language, and accent) is de-identified from your submitted voice data and will never be made public on your profile.
+demographic-deidentified-clarity = Optionally submitted demographic data (e.g. age, sex, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.
 username-email-not-demographic = Your username and email will not be associated with the published data.
 
 
