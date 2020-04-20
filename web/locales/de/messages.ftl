@@ -233,7 +233,7 @@ whats-public = Was ist öffentlich?
 email-not-public = Ihre E-Mail-Adresse wird nicht veröffentlicht.
 recordings-and-locale-public = Die Anzahl der Aufnahmen und die Sprachen, zu denen Sie beitragen, sind öffentlich.
 username-optin-public = Sie können Ihren Benutzernamen veröffentlichen oder geheim halten.
-demographic-deidentified = Wahlweise übermittelte demografische Daten (z.&thinsp;B. Alter, Geschlecht, Sprache und Akzent) werden aus den übermittelten Sprachdaten entfernt und in Ihrem Profil nicht veröffentlicht.
+demographic-deidentified-clarity = Optional übermittelte demografische Daten (z.&thinsp;B. Alter, Geschlecht, Sprache und Akzent) werden in Ihrem Profil niemals veröffentlicht und innerhalb des Datensatzes auch nicht mit Ihrem Konto verknüpft. Einzelne Audioclips werden demografischen Daten zugeordnet, um eine genauere Analyse zu ermöglichen. Beispielsweise möchte ein Forscher möglicherweise ein Trainingsmodell auf ein bestimmtes demografisches Segment ausrichten.
 username-email-not-demographic = Ihr Benutzername und Ihre E-Mail-Adresse werden nicht mit den veröffentlichten Daten verknüpft.
 
 ## Speak & Listen Shortcuts
