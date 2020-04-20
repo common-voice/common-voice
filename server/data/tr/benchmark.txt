@@ -1,0 +1,12 @@
+sıfır
+bir
+iki
+üç
+dört
+beş
+altı
+yedi
+sekiz
+dokuz
+evet
+hayır

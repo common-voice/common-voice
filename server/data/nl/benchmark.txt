@@ -1,0 +1,12 @@
+nul
+één
+twee
+drie
+vier
+vijf
+zes
+zeven
+acht
+negen
+ja
+nee
