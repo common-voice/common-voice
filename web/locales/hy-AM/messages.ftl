@@ -10,6 +10,7 @@ submit-form-action = Հաստատել
 loading = Բեռնվում է․․․
 email-opt-in-info = Ես կցանկանայի էլփոստիս ստանալ հիշեցումներ նպատակների մասին, իմ առաջընթացի և նորություններ Common Voice–ի մասին։
 email-opt-in-info-title = Միանալ Common Voice-ի փոստային ցանկին
+email-opt-in-info-sub-with-challenge = Էլ. փոստով ստանալ Common Voice-ի մարտահրավերների և նպատակների հիշեցումները, առաջընթացի թարմացումները և տեղեկագրերը։
 email-opt-in-privacy = Ընտրելով էլ. նամակներ ստանալու հնարավորությունը՝ Դուք համաձայնվում եք նաև, որ Mozilla-ն մշակի այդ տեղեկատվությունը համաձայն Mozilla-ի <privacyLink>Անձնական տվյալների պաշտպանության քաղաքականության<privacyLink>:
 indicates-required = * Պարտադիր լրացման համար
 not-available-abbreviation = Կիրառելի չէ
@@ -171,6 +172,10 @@ wall-of-text-more-mobile =
     Խոշոր ընկերությունների կողմից օգտագործվող տվյալների մեծ մասը հասանելի չէ մարդկանց մեծամասնությանը: Մենք կարծում ենք,
     որ դա խեղդում է նորարարությունը: Ահա թե ինչու ենք մենք նախաձեռնել Common Voice նախագիծը. նախագիծ, որն օգնելու է ձայնի ճանաչումը 
     հասանելի դարձնել բոլորին։
+wall-of-text-more-desktop =
+    Այժմ դուք կարող եք ձայնագրել Ձեր ձայնը և օգնել մեզ ստեղծել ձայնային տվյալների բաց-հասանելի բազմություն, որը կարող է օգտագործել յուրաքանչյուր ոք
+    սարքերի ու համացանցի համար նորարարական հավելվածներ պատրաստելու համար: Ընթերցեք նախադասություններ՝ օգնելու մեքենաներին սովորել, թե ինչպես են իրական մարդիկ խոսում: Ստուգեք մյուսների աշխատանքը՝
+    որակը բարելավելու համար: Դա շատ հեշտ է:
 show-wall-of-text = Կարդալ ավելին
 help-us-title = Օգնեք ստուգել նախադասությունները
 help-us-explain = Սեղմեք «նվագարկել» և նշեք, արդյոք ձայնագրության մեջ պարզ և ճիշտ է արտասանված ստորև նախադասությունը։
@@ -220,6 +225,8 @@ join-newsletter = Ցանկության դեպքում կարող եք միանա
 whats-public = Ո՞ր տվյալներն են հանրային։
 email-not-public = Մենք չենք հրապարակի Ձեր էլ. փոստի հասցեն։
 recordings-and-locale-public = Ձեր ձայնագրությունների քանակի ու դրանց լեզուների մասին տվյալները հանրային կլինեն։
+username-optin-public = Ձեր օգտանունը կարող եք հանրային դարձնել կամ էլ անանուն հանդես գալ։
+username-email-not-demographic = Ձեր օգտանունը և էլ. փոստը չեն կցվելու հրապարակվող տվյալներին։
 
 ## Speak & Listen Shortcuts
 
@@ -231,7 +238,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Նվագել/Կանգնել
+shortcut-play-toggle-label = Նվագարկել/Կանգնեցնել
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -252,6 +259,7 @@ request-language-button = Լեզու ավելացնել
 
 ## ProjectStatus
 
+status-title = Նախագծի ներկա ընթացքը. տեսեք, թե ուր ենք հասել մենք։
 english = Անգլերեն
 
 ## ProfileForm
@@ -367,7 +375,8 @@ validated-hr-total = Ստուգված ժամ
 overall-hr-total = Ընդամենը ժամ
 cv-license = Թույլատրագիր
 audio-format = Ձայնագրության ձևաչափ
-email-to-download = Մուտքագրեք էլփոստը ներբեռնելու համար
+splits = Տրոհում
+email-to-download = Մուտքագրեք էլ. փոստը՝ ներբեռնելու համար
 size-gigabyte = ԳԲ
 size-megabyte = ՄԲ
 subscribe = Բաժանորդագրվել
