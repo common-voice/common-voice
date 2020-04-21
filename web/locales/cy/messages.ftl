@@ -247,7 +247,7 @@ whats-public = Beth sy'n Gyhoeddus?
 email-not-public = Fyddwn ni ddim yn gwneud eich e-bost yn gyhoeddus.
 recordings-and-locale-public = Bydd y nifer o recordiadau a pha ieithoedd rydych yn cyfrannu atyn nhw yn gyhoeddus.
 username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n anhysbys.
-demographic-deidentified = Bydd data demograffig rydych wedi dewis ei gyflwyno (e.e. oed, rhyw, iaith ac acen) yn cael ei ddadadnabod o'ch data llais rydych wedi ei gyflwyno ac ni fydd yn cael ei wneud yn gyhoeddus ar eich proffil.
+demographic-deidentified-clarity = Fydd data demograffig sy'n cael ei gynnig o ran dewis (e.e. oedran, rhyw, iaith, ac acen) byth yn cael ei gyhoeddi ar eich proffil, a fyddan nhw ddim yn gysylltiedig â'ch cyfrif yn y set ddata. Bydd clipiau sain unigol yn gysylltiedig â data demograffig at ddibenion dadansoddiad mwy cywir - er enghraifft, efallai y bydd ymchwilydd eisiau targedu model hyfforddi at segment demograffig penodol.
 username-email-not-demographic = Ni fydd eich enw defnyddiwr na'ch e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
 
 ## Speak & Listen Shortcuts
