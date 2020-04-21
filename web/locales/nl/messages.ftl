@@ -233,7 +233,7 @@ whats-public = Wat is openbaar?
 email-not-public = We maken uw e-mailadres niet openbaar.
 recordings-and-locale-public = Het aantal opnamen en de talen waaraan u bijdraagt zijn openbaar.
 username-optin-public = U kunt kiezen of uw gebruikersnaam openbaar of anoniem is.
-demographic-deidentified = Optioneel ingediende demografische gegevens (bv. leeftijd, geslacht, taal en accent) worden anoniem gemaakt ten opzichte van uw ingediende spraakgegevens en zullen nooit openbaar worden gemaakt op uw profiel.
+demographic-deidentified-clarity = Optioneel ingediende demografische gegevens (b.v. leeftijd, geslacht, taal en accent) worden nooit openbaar gemaakt op uw profiel en worden niet gekoppeld aan uw account in de gegevensset. Afzonderlijke geluidsopnamen worden gekoppeld aan demografische gegevens voor een nauwkeurigere analyse – een onderzoeker kan bijvoorbeeld een trainingsmodel op een specifiek demografisch segment richten.
 username-email-not-demographic = Uw gebruikersnaam en e-mailadres zullen niet met de gepubliceerde gegevens worden gekoppeld.
 
 ## Speak & Listen Shortcuts
