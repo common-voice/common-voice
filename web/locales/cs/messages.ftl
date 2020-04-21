@@ -236,7 +236,7 @@ whats-public = Co vše zveřejňujeme?
 email-not-public = Vaši e-mailovou adresu nezveřejníme.
 recordings-and-locale-public = Zveřejníme, kolik příspěvků a do jakých jazyků jste učinili.
 username-optin-public = Můžete si zvolit, jestli zveřejníme vaše uživatelské jméno.
-demographic-deidentified = Dobrovolně poskytnuté demografické údaje (tj. věk, pohlaví a přízvuk) jsou anonymizovány a nikdy nebudou zveřejněny na vašem profilu.
+demographic-deidentified-clarity = Volitelně nahraná demografická data (např. věk, pohlaví, jazyk nebo přízvuk) nebudou na vašem profilu zveřejněny a nebudou ani spojeny s vaším účtem v datasetu. Jednotlivé nahrávky budou s demografickými daty spojeny za účelem přesnější analýzy, např. aby mohl výzkumný pracovník soustředit učení modelu na konkrétní demografickou skupinu.
 username-email-not-demographic = Vaše uživatelské jméno a e-mail nebudou nijak propojovány s vámi poskytnutými hlasovými daty.
 
 ## Speak & Listen Shortcuts
