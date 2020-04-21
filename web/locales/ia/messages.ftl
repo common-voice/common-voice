@@ -233,7 +233,7 @@ whats-public = Que es Public?
 email-not-public = Nos non rendera public tu email.
 recordings-and-locale-public = Le numero de registrationes e le linguas que tu usa pro contribuer sera public.
 username-optin-public = Tu pote eliger de render public tu nomine de usator o anonyme.
-demographic-deidentified = Le datos demographic optionalmente inviate (p.ex. etate, sexo, lingua e accento) es disassociate de tu datos de voce e non essera jammais rendite public sur tu profilo.
+demographic-deidentified-clarity = Le datos demographic optional (p.ex. etate, sexo, lingua, accento) nunquam essera publicate sur tu profilo e non essera ligate a tu conto in le collection de datos. Le retalios audio individual essera associate al datos demographic pro permitter un analyse plus accurate; per exemplo, un recercator poterea concentrar un modello de training a un segmento demographic particular.
 username-email-not-demographic = Tu nomine de usator e email non essera associate con le datos publicate.
 
 ## Speak & Listen Shortcuts
