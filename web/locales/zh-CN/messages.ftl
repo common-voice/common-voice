@@ -230,7 +230,7 @@ whats-public = 有哪些资料会公开？
 email-not-public = 我们不会公开您的邮件地址。
 recordings-and-locale-public = 您贡献的录音数量，以及贡献的语言将会是公开的。
 username-optin-public = 您可以选择公开用户名或保持匿名。
-demographic-deidentified = 非必要提交的人口统计数据（例如年龄、性别、语言、口音）将会在您提交的语音数据中进行去识别化，并且永远不会在您的个人资料中公开。
+demographic-deidentified-clarity = 可选提交的人口统计数据（例如年龄、性别、语言、口音）不会在您的个人资料上公开，也不会在数据集里与您的账户关联。每个音频片段只会为了能做更精准的分析，而与您的人口统计数据关联。比如，研究者可能想要针对特定人群而细分化训练模型。
 username-email-not-demographic = 您的用户名与邮件地址不会与发布的数据相关联。
 
 ## Speak & Listen Shortcuts
