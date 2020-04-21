@@ -330,7 +330,10 @@ skip-submission-description = Selama pengajuan kontribusi, saran akan dilewati s
 skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Dengarkan untuk mengubah jenis kontribusi.
 off = Nonaktif
 on = Aktif
+avatar-clip-title = Berikan avatar Anda suara
+change-your-avatar-clip = Ingin mengubah klip suara Anda?
 recording-in-progress = Perekaman suara sedang berlangsung
+avatar-clip-recorded = Avatar Anda sekarang termasuk klip suara!
 record-voice-wave = REKAM VOICEWAVE
 retry-voice-wave-recording = COBA LAGI
 re-record = REKAM ULANG
@@ -339,6 +342,7 @@ recording-voice-wave = Merekam
 delete-voice-clip = atau Hapus klip suara
 ready-to-upload = Unggah
 avatar-clip-fact = Merupakan fakta bahwa pembaca akan terganggu oleh konten yang bisa dibaca pada sebuah laman ketika melihat tata letaknya.
+recreate-voice = Buat ulang Voicewave
 cancel-avatar-clip-recording = Batal
 about-avatar-clip-recording = Buat klip suara sebagai bagian dari avatar profil Anda. Orang lain akan dapat melihat-lihat dan mendengarkan klip Anda.
 browse-file-title = Unggah berkas gambar
@@ -368,6 +372,7 @@ faq-why-important-a =
 faq-how-get-q = Bagaimana saya bisa mendapatkan data Common Voice?
 faq-how-get-a = Kumpulan data Common Voice tersedia untuk diunduh di bawah lisensi <licenseLink> CC0 </licenseLink> di <datasetLink> laman Kumpulan data kami </datasetLink>. Anda juga dapat mengunduh beberapa set data yang tersedia untuk umum dari laman yang sama.
 faq-when-release2-q = Kapan Anda akan merilis data Common Voice dalam bahasa lain?
+faq-when-release2-a = Versi multi-bahasa dari dataset Common Voice saat ini menjalani proses pemberkasan dan pembersihan yang didukung komunitas. Jika Anda ingin bantu kami menghadirkan Common Voice ke bahasa baru, buka <sentenceCollectorLink>Alat Pengumpul Kalimat</sentenceCollectorLink> untuk menambahkan kalimat baru ke dataset, dan Mozilla <pontoonLink>Pontoon</pontoonLink> untuk menerjemahkan situs web itu sendiri. Bahasa baru ditambahkan ke Common Voice untuk kontribusi suara ketika 5000 kalimat yang disetujui telah dikumpulkan.
 faq-why-mission-q = Mengapa Common Voice merupakan bagian dari misi Mozilla?
 faq-why-mission-a = Mozilla didedikasikan untuk menjaga web tetap terbuka dan dapat diakses oleh semua orang. Untuk melakukan itu kita perlu memberdayakan pembuat web melalui proyek-proyek seperti Common Voice. Teknologi suara sudah mulai berkembang di dikehidupan sehari-hari, kami percaya semua pengguna memiliki hak yang sama untuk dapat menggunakannya. Itu berarti berinvestasi dalam lebih banyak bahasa dan mengakomodasi beragam aksen dan demografi untuk membuat dan menguji teknologi suara. Common Voice adalah sumber daya publik yang tersedia untuk semua orang dan tim dan pengembang Mozilla di seluruh dunia sudah menggunakannya pula pada proyek kami sendiri.
 faq-what-cv-and-deepspeech-q = Apa perbedaan antara Common Voice dan Deep Speech?
@@ -442,6 +447,11 @@ about-partnership =
     
     Kami ingin berterima kasih kepada orang-orang dan organisasi berikut atas bantuan mereka dalam proyek ini:
 about-get-involved = Mari berperan
+about-get-involved-text-2 =
+    Ingin membantu menjadikan Common Voice lebih baik?
+    Bagus! Hubungi kami via surel atau forum <discourseLink>Discourse</discourseLink>,
+    laporkan masalah situs melalui <githubLink>GitHub</githubLink>, atau bergabung dengan
+    obrolan komunitas di <matrixLink>Matrix </matrixLink>.
 about-nav-why-common-voice = Mengapa?
 about-nav-how-it-works = Bagaimana?
 about-nav-partners = Mitra
@@ -630,6 +640,8 @@ record-again-instruction = Hebat! <recordIcon></recordIcon> Rekam klip Anda beri
 record-again-instruction2 = Lanjut terus, rekam lagi <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> Yang terakhir!
 review-tooltip = Tinjau & rekam ulang klip di sini selagi melanjutkan
+share-clip = Bagikan klip Anda
+share-common-voice = Bagikan Common Voice
 review-instruction = Tinjau & rekam ulang klip jika perlu
 record-submit-tooltip = { $actionType } kirimkan jika sudah siap
 clips-uploaded = Klip Diunggah
@@ -642,6 +654,9 @@ listen-instruction = { $actionType } <playIcon></playIcon> apakah kalimatnya sud
 listen-again-instruction = Hasil yang hebat! <playIcon></playIcon> Dengarkan kembali jika Anda siap
 listen-3rd-time-instruction = sudah 2 <playIcon></playIcon> , lanjut terus!
 listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
+listen-empty-state = Kami kehabisan klip untuk memvalidasi dalam bahasa ini ...
+speak-empty-state = Kami sudah kehabisan kalimat untuk direkam dalam bahasa ini ...
+speak-empty-state-cta = Kontribusi kalimat
 record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
 keep-track-profile = Pantau kemajuan Anda dengan profil
@@ -702,6 +717,9 @@ recorded-clips = Klip Terekam
 validated-clips = Klip Tervalidasi
 total-approved = Jumlah yang Disetujui
 overall-accuracy = Akurasi Keseluruhan
+set-visibility = Tetapkan visibilitas saya
+visibility-explainer = Pengaturan ini mengontrol visibilitas papan peringkat Anda. Saat disembunyikan, progres Anda akan bersifat pribadi. Ini berarti gambar, nama pengguna, dan kemajuan Anda tidak akan muncul di papan peringkat. Perhatikan bahwa penyegaran papan peringkat membutuhkan ~ { $minutes } menit untuk mengisi perubahan.
+visibility-overlay-note = Catatan: Ketika diatur ke 'Terlihat', pengaturan ini dapat diubah dari <profileLink>halaman Profil</profileLink>
 show-ranking = Tampilkan peringkat saya
 
 ## Custom Goals
@@ -735,6 +753,10 @@ n-clips = { NUMBER($count) } klip
 help-share-goal = Bantu kami menemukan lebih banyak suara, bagikan sasaran Anda
 confirm-goal = Konfirmasi Target
 goal-interval-weekly = Mingguan
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Bagikan { $count } Target Harian Klip Anda untuk { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Bagikan { $count } Target Mingguan Klip Anda untuk { $type }
 share-goal-type-speak = Berbicara
 share-goal-type-listen = Mendengarkan
 share-goal-type-both = Berbicara dan Mendengarkan
