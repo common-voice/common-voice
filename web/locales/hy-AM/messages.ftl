@@ -126,6 +126,7 @@ syr = Ասորերեն
 ta = Թամիլերեն
 te = Տելուգու
 tg = Տաջիկերեն
+th = Թաի
 tl = Տագալոգ
 tr = Թուրքերեն
 tt = Թաթարերեն
@@ -326,6 +327,7 @@ record-voice-wave = ՁԱՅՆԱԳՐԵԼ
 retry-voice-wave-recording = ԿՐԿԻՆ ՓՈՐՁԵԼ
 re-record = ԿՐԿԻՆ ՁԱՅՆԱԳՐԵԼ
 delete-voice = ՋՆՋԵԼ
+recording-voice-wave = Ձայնագրում
 ready-to-upload = ՎԵՐԲԵՌՆԵԼ
 cancel-avatar-clip-recording = ՉԵՂԱՐԿԵԼ
 browse-file-title = Վերբեռնել պատկեր
@@ -333,6 +335,9 @@ browse-file = Քաշեք-քցեք կամ <browseWrap>Ընտրեք</browseWrap>
 connect-gravatar = Միացնել Gravatar-ը
 gravatar_not_found = Ձեր էլփոստի հասցեով Gravatar չի գտնվել
 file_too_large = Ընտրված ֆայլը չափից դուրս մեծ է
+manage-subscriptions = Կառավարել բաժանորդագրությունները
+manage-email-subscriptions = Կառավարել էլ.փոստով բաժանորդագրությունները
+email-already-used = Էլ.փոստի հասցեն արդեն օգտագործվում է այլ հաշվի համար
 add-language = Ավելացնել լեզու
 
 ## FAQ
