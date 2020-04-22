@@ -98,7 +98,6 @@ async function importLocaleSentences(
           source: string;
         }) => {
           stream.pause();
-          // console.log(source);
           try {
             await pool.query(
               `
@@ -107,7 +106,7 @@ async function importLocaleSentences(
               VALUES ${sentences
                 .map(sentence => {
                   return `(${[
-                    source === 'benchmark'
+                    source === 'singleword-benchmark'
                       ? hash(localeId + sentence)
                       : hash(sentence),
                     sentence,
