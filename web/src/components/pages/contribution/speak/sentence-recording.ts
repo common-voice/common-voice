@@ -1,4 +1,4 @@
-import { Sentences } from '../../../../stores/sentences';
+import { Sentence as SentenceType } from 'common';
 
 interface Recording {
   blob: Blob;
@@ -6,6 +6,6 @@ interface Recording {
 }
 
 export interface SentenceRecording {
-  sentence: Sentences.Sentence;
+  sentence: SentenceType;
   recording?: Recording;
 }

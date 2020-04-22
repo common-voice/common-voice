@@ -10,6 +10,7 @@ import { Flags } from '../../../stores/flags';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
+import { Sentence } from 'common';
 import {
   trackListening,
   trackProfile,
