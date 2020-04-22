@@ -10,6 +10,7 @@ const NavigationPrompt = require('react-router-navigation-prompt').default;
 import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import { Sentences } from '../../../../stores/sentences';
+import { Sentence as SentenceType } from 'common';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
 import { User } from '../../../../stores/user';
@@ -32,7 +33,7 @@ import {
   FirefoxColor,
   ChromeColor,
 } from '../../../ui/icons';
-import { Button, TextButton, StyledLink, LinkButton } from '../../../ui/ui';
+import { Button, TextButton, LinkButton } from '../../../ui/ui';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import ContributionPage, {
   ContributionPillProps,
@@ -102,7 +103,7 @@ const NoSentencesAvailable = () => (
 interface PropsFromState {
   api: API;
   locale: Locale.State;
-  sentences: Sentences.Sentence[];
+  sentences: SentenceType[];
   user: User.State;
   isLoading: boolean;
 }

@@ -1,15 +1,11 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
 const contributableLocales = require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
+import { Sentence } from 'common';
 
 const CACHE_SET_COUNT = 10;
 
 export namespace Sentences {
-  export interface Sentence {
-    id: string;
-    text: string;
-  }
-
   export interface State {
     [locale: string]: { sentences: Sentence[]; isLoading: boolean };
   }
