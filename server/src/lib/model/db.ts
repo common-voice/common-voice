@@ -12,6 +12,8 @@ const SHUFFLE_SIZE = 500;
 
 const THREE_WEEKS = 3 * 7 * 24 * 60 * 60 * 1000;
 
+const PRIORITY_TAXONOMY = 'Benchmark';
+
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
 const self_subcondition = '(visible = 0 AND user_clients.client_id = ?)';
@@ -154,9 +156,37 @@ export default class DB {
     this.mysql.endConnection();
   }
 
-  async findSentencesWithFewClips(
+  async findSentencesNeedingClips(
     client_id: string,
     locale: string,
+    count: number
+  ): Promise<Sentence[]> {
+    let taxonomySentences: Sentence[] = [];
+    const locale_id = await getLocaleId(locale);
+
+    if (getConfig().BENCHMARK_LIVE) {
+      taxonomySentences = await this.findSentencesMatchingTaxonomy(
+        client_id,
+        locale_id,
+        count,
+        PRIORITY_TAXONOMY
+      );
+    }
+
+    const regularSentences =
+      taxonomySentences.length >= count
+        ? []
+        : await this.findSentencesWithFewClips(
+            client_id,
+            locale_id,
+            count - taxonomySentences.length
+          );
+    return taxonomySentences.concat(regularSentences);
+  }
+
+  async findSentencesWithFewClips(
+    client_id: string,
+    locale_id: number,
     count: number
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
@@ -177,9 +207,66 @@ export default class DB {
         ORDER BY RAND()
         LIMIT ?
       `,
-      [await getLocaleId(locale), client_id, SHUFFLE_SIZE, count]
+      [locale_id, client_id, SHUFFLE_SIZE, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
+  }
+
+  async findSentencesMatchingTaxonomy(
+    client_id: string,
+    locale_id: number,
+    count: number,
+    term_name: string
+  ): Promise<Sentence[]> {
+    const [termIds] = await this.mysql.query(
+      `
+      SELECT id
+      FROM taxonomy_terms WHERE term_name = ?
+      `,
+      [term_name]
+    );
+
+    if (!termIds.length) return [];
+
+    const [rows] = await this.mysql.query(
+      `
+        SELECT *
+        FROM (
+          SELECT sentence_id AS id, text
+          FROM taxonomy_entries entries
+          LEFT JOIN sentences ON entries.sentence_id = sentences.id
+          WHERE term_id IN (?)
+          AND is_used AND locale_id = ? AND NOT EXISTS (
+            SELECT *
+            FROM clips
+            WHERE clips.original_sentence_id = sentences.id AND
+                  clips.client_id = ?
+          ) AND NOT EXISTS (
+            SELECT *
+            FROM skipped_sentences skipped
+            WHERE skipped.sentence_id = sentences.id AND
+              skipped.client_id = ?
+          )
+          LIMIT ?
+        ) t
+        ORDER BY RAND()
+        LIMIT ?
+      `,
+      [
+        termIds.map((row: any) => row.id),
+        locale_id,
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
+    );
+
+    return (rows || []).map(({ id, text }: any) => ({
+      id,
+      text,
+      taxonomy: term_name,
+    }));
   }
 
   async findClipsWithFewVotes(

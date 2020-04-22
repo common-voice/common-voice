@@ -98,25 +98,27 @@ async function importLocaleSentences(
           source: string;
         }) => {
           stream.pause();
+          // console.log(source);
           try {
             await pool.query(
               `
               INSERT INTO sentences
               (id, text, is_used, locale_id, source, version)
               VALUES ${sentences
-                .map(
-                  sentence =>
-                    `(${[
-                      hash(sentence),
-                      sentence,
-                      true,
-                      localeId,
-                      source,
-                      version,
-                    ]
-                      .map(v => pool.escape(v))
-                      .join(', ')})`
-                )
+                .map(sentence => {
+                  return `(${[
+                    source === 'benchmark'
+                      ? hash(localeId + sentence)
+                      : hash(sentence),
+                    sentence,
+                    true,
+                    localeId,
+                    source,
+                    version,
+                  ]
+                    .map(v => pool.escape(v))
+                    .join(', ')})`;
+                })
                 .join(', ')}
               ON DUPLICATE KEY UPDATE
                 source = VALUES(source),

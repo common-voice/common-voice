@@ -70,10 +70,18 @@ const UnsupportedInfo = () => (
         </Localized>
       </p>
       <div>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.firefox.com/" title="Firefox">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.firefox.com/"
+          title="Firefox">
           <FirefoxColor />
         </a>{' '}
-        <a rel="noopener noreferrer" target="_blank" href="https://www.google.com/chrome" title="Chrome">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.google.com/chrome"
+          title="Chrome">
           <ChromeColor />
         </a>
       </div>
@@ -166,7 +174,7 @@ class SpeakPage extends React.Component<Props, State> {
         clips: state.clips.map(clip =>
           clip.sentence
             ? clip
-            : { recording: null, sentence: unusedSentences.pop() || null }
+            : { recording: null, sentence: unusedSentences.shift() || null }
         ),
       };
     }
@@ -371,6 +379,7 @@ class SpeakPage extends React.Component<Props, State> {
     await this.discardRecording();
     const current = this.getRecordingIndex();
     const { id } = clips[current]?.sentence || {};
+    await api.skipSentence(id);
     removeSentences([id]);
     this.setState({
       clips: clips.map((clip, i) =>
@@ -378,7 +387,6 @@ class SpeakPage extends React.Component<Props, State> {
       ),
       error: null,
     });
-    await api.skipSentence(id);
   };
 
   private upload = (hasAgreed: boolean = false) => {
