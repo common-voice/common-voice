@@ -183,7 +183,7 @@ class SpeakPage extends React.Component<Props, State> {
         clips: state.clips.map(clip =>
           clip.sentence
             ? clip
-            : { recording: null, sentence: unusedSentences.pop() || null }
+            : { recording: null, sentence: unusedSentences.shift() || null }
         ),
       };
     }
@@ -384,6 +384,7 @@ class SpeakPage extends React.Component<Props, State> {
     await this.discardRecording();
     const current = this.getRecordingIndex();
     const { id } = clips[current]?.sentence || {};
+    await api.skipSentence(id);
     removeSentences([id]);
     this.setState({
       clips: clips.map((clip, i) =>
@@ -391,7 +392,6 @@ class SpeakPage extends React.Component<Props, State> {
       ),
       error: null,
     });
-    await api.skipSentence(id);
   };
 
   private upload = (hasAgreed: boolean = false) => {
