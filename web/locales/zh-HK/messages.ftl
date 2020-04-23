@@ -386,6 +386,10 @@ faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時�
 faq-how-calc-hours-q = Common Voice 如何計算時數？
 faq-how-calc-hours-a = 我們透過估算每筆錄音的平均長度來計算時數，並乘以所有語言的錄音數量。
 faq-where-src-from-2-q = 這些文本來源出自何處？
+faq-where-src-from-2-a =
+    我們的來源文本來自貢獻者的原始貢獻，以及來自公眾領域的影片劇本，例如 <italic>莫負少年頭</italic> 的對白腳本。
+    
+    您可到此 <githubLink>GitHub 資料夾</githubLink>檢視我們的來源文本。
 faq-why-not-ask-read-q = 為什麼你們不讓人來念出書本的內容，或是維基百科內的條目？
 faq-why-account-q = 我點解應該去註冊帳戶？
 faq-is-account-public-q = 我的帳戶資料是公開的嗎？
