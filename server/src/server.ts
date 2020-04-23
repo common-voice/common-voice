@@ -37,6 +37,7 @@ const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
 
 const CSP_HEADER = [
   `default-src 'none'`,
+  `child-src blob:`,
   `style-src 'self' https://fonts.googleapis.com https://optimize.google.com 'unsafe-inline'`,
   `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
