@@ -359,6 +359,10 @@ change-email-setings = 請到「設定」内的「登入身分」修改電郵地
 
 faq-title = 常見問題
 faq-what-cv-q = Common Voice 係咩嘢？
+faq-what-cv-a =
+    語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Common Voice 是 Mozilla 打算讓語音識別技術變得更好、讓任何人都更能使用的計畫一部分。Common Voice 是一套收集了世界各地人們所捐贈的語音數據庫，希望讓任何人都可以快速而簡單地訓練出可識別不同語言的語音應用程式。
+    
+    我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套多元的語音數據集，來幫助開發者、創業家，以及不同的社群縮窄這個科技上的鴻溝。除了 Common Voice 的數據集外，我們也在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
 faq-why-important-q = 點解咁重要？
 faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
 faq-when-release2-q = 你哋幾時會發布其他語言的 Common Voice 數據？
@@ -376,6 +380,7 @@ faq-why-different-speakers-a =
     這就是為什麼我們的語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解還沒有我的語言？
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
+faq-what-quality-a = 我們希望 Common Voice 數據集能夠反映出語音轉文字引擎在野外也會聽到的聲音，所以我們希望能夠收集各種環境下與不同錄音品質的片段。除了一個多元的說話者群體，如果這個數據集包含了各種語音品質的片段，便可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至數據集中。
 faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目標？
 faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時數。
 faq-how-calc-hours-q = Common Voice 如何計算時數？
