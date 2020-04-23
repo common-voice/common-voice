@@ -641,6 +641,7 @@ contribute-more =
     { $count ->
        *[other] Ready to do { $count } more?
     }
+sentence-taxonomy = You're contributing to the { $taxonomy } segment. (<taxonomyLink>What's this?</taxonomyLink>)
 record-cta = Start recording
 record-platform-not-supported = We’re sorry, your platform is not currently supported.
 record-platform-not-supported-desktop = On desktop devices you can contribute by downloading...

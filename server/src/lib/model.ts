@@ -102,7 +102,7 @@ export default class Model {
     locale: string,
     count: number
   ): Promise<DBClipWithVoters[]> {
-    return this.db.findClipsWithFewVotes(
+    return this.db.findClipsNeedingValidation(
       client_id,
       locale,
       Math.min(count, 50)

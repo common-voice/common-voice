@@ -693,7 +693,7 @@ class SpeakPage extends React.Component<Props, State> {
                 ? null
                 : clips[recordingIndex].sentence.id,
           }}
-          sentences={clips.map(({ sentence }) => sentence && sentence.text)}
+          sentences={clips.map(({ sentence }) => sentence)}
           shortcuts={[
             {
               key: 'shortcut-record-toggle',
