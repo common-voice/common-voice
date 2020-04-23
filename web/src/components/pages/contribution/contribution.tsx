@@ -27,7 +27,7 @@ import {
   ShareIcon,
   SkipIcon,
 } from '../../ui/icons';
-import { Button, LinkButton } from '../../ui/ui';
+import { Button, StyledLink, LinkButton } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
 import { ReportButton, ReportModal, ReportModalProps } from './report/report';
@@ -103,7 +103,7 @@ interface Props extends LocalizationProps, PropsFromState {
   onSubmit?: () => any;
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
-  sentences: string[];
+  sentences: Sentence[];
   shortcuts: {
     key: string;
     label: string;
@@ -436,7 +436,7 @@ class ContributionPage extends React.Component<Props, State> {
                     const isActive = i === activeSentenceIndex;
                     return (
                       <div
-                        key={sentence}
+                        key={sentence.text}
                         className={
                           'card card-dimensions ' + (isActive ? '' : 'inactive')
                         }
@@ -452,7 +452,19 @@ class ContributionPage extends React.Component<Props, State> {
                           opacity: i < activeSentenceIndex ? 0 : 1,
                         }}>
                         <div style={{ margin: 'auto', width: '100%' }}>
-                          {sentence}
+                          {sentence.text}
+                          {sentence.taxonomy ? (
+                            <div className="sentence-taxonomy">
+                              <Localized
+                                id="sentence-taxonomy"
+                                $taxonomy={sentence.taxonomy}
+                                taxonomyLink={
+                                  <StyledLink href="https://discourse.com" />
+                                }>
+                                <span />
+                              </Localized>
+                            </div>
+                          ) : null}
                         </div>
                       </div>
                     );

@@ -7,6 +7,7 @@ export type DBClip = {
   path: string;
   sentence: string;
   original_sentence_id: string;
+  taxonomy?: string;
 };
 
 export interface DBClipWithVoters extends DBClip {
