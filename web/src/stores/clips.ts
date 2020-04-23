@@ -2,17 +2,11 @@ import { Action as ReduxAction, Dispatch } from 'redux';
 const contributableLocales = require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 import { User } from './user';
+import { Clip } from 'common';
 
 const MIN_CACHE_SIZE = 10;
 
 export namespace Clips {
-  export interface Clip {
-    id: string;
-    glob: string;
-    sentence: string;
-    audioSrc: string;
-  }
-
   export interface State {
     [locale: string]: {
       clips: Clip[];

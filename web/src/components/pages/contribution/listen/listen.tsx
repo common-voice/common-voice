@@ -1,6 +1,7 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { Clip as ClipType } from 'common';
 import { trackListening, getTrackClass } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
@@ -50,7 +51,7 @@ const VoteButton = ({
 
 interface PropsFromState {
   api: API;
-  clips: Clips.Clip[];
+  clips: ClipType[];
   isLoading: boolean;
   locale: Locale.State;
   showFirstContributionToast: boolean;
@@ -68,7 +69,7 @@ interface PropsFromDispatch {
 interface Props extends PropsFromState, PropsFromDispatch {}
 
 interface State {
-  clips: (Clips.Clip & { isValid?: boolean })[];
+  clips: (ClipType & { isValid?: boolean })[];
   hasPlayed: boolean;
   hasPlayedSome: boolean;
   isPlaying: boolean;
