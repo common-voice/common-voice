@@ -231,7 +231,7 @@ whats-public = Ç’është Publike?
 email-not-public = S’do ta bëjëm publik email-in tuaj.
 recordings-and-locale-public = Numri i incizimeve dhe në cilat gjuhë kontribuoni do të bëhen publike.
 username-optin-public = Mund të zgjidhni për ta bërë emrin tuaj të përdoruesit publik ose anonim.
-demographic-deidentified = Të dhëna demografike opsionale (p.sh., mosha, gjinia, gjuha, dhe theksi) bëhen të paidentifikueshme prej të dhënave zanore që parashtroni dhe nuk do të bëhen kurrë publike në profilin tuaj.
+demographic-deidentified-clarity = Të dhëna demografike të dhëna me dëshirë (p.sh., mosha, gjinia, gjuha dhe theksi) s’do të bëhen kurrë publike në profilin tuaj, dhe s’do të lidhen me llogarinë tuaj te masa e të dhënave.Copëzat individuale audio do të përshoqërohen me të dhëna demografike për qëllimin e një analize më të përpiktë - për shembull, një kërkues mund të dojë të fokusohet në një model stërvitjeje për një segment të caktuar demografik.
 username-email-not-demographic = Emri juaj i përdoruesit dhe email-i nuk do t’u përshoqërohen të dhënave të publikuara.
 
 ## Speak & Listen Shortcuts
