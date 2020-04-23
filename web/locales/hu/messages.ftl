@@ -239,7 +239,7 @@ whats-public = Mi nyilvános?
 email-not-public = Nem fogjuk nyilvánossá tenni az e-mail címét.
 recordings-and-locale-public = A felvételei száma, és a nyelvek amikben Ön közreműködik, nyilvánosak lesznek.
 username-optin-public = Kiválaszthatja, hogy a felhasználó neve nyilvános vagy privát legyen.
-demographic-deidentified = A benyújtott demográfiai adatok (pl. kor, nem, nyelv és akcentus), hangadatokból nem azonosíthatóak, és soha nem lesznek nyilvánosak a profilján.
+demographic-deidentified-clarity = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipeket a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – például egy kutató egy konkrét demográfiai szegmensre akarhat betanítani egy modellt.
 username-email-not-demographic = A felhasználóneve és az e-mail címe nem lesz társítva a közzétett adatokkal.
 
 ## Speak & Listen Shortcuts
