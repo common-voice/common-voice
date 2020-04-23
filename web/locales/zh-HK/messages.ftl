@@ -232,7 +232,6 @@ whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的電郵地址。
 recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
 username-optin-public = 您可以選擇公開您的使用者名稱，或保持匿名。
-demographic-deidentified = 非必要提供的人口統計資料（例如年齡、性別、語言、口音）將會在您送出的語音資料中被去識別化，也永遠不會公開在您的資料上。
 username-email-not-demographic = 您的使用者名稱和電郵地址不會跟公開發布的數據有掛鉤。
 
 ## Speak & Listen Shortcuts
@@ -619,6 +618,7 @@ listen-instruction = { $actionType }<playIcon></playIcon> 佢哋將句子讀得�
 listen-again-instruction = 做得好！<playIcon></playIcon> 準備好就可以再聽更多
 listen-3rd-time-instruction = 完成兩筆了 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
+listen-empty-state = 這款語言可以驗證的錄音已經被做完了…
 speak-empty-state = 這款語言可以錄音的句子已經用完了…
 speak-empty-state-cta = 貢獻新的句子
 record-button-label = 錄下您的聲音
