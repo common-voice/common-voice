@@ -24,8 +24,6 @@ export default class AudioWeb {
   recorder: any;
   chunks: any[];
   last: AudioInfo;
-  lastRecordingData: Blob;
-  lastRecordingUrl: string;
   frequencyBins: Uint8Array;
   volumeCallback: Function;
   jsNode: any;
@@ -252,11 +250,10 @@ export default class AudioWeb {
   }
 
   clear() {
-    if (this.lastRecordingUrl) {
-      URL.revokeObjectURL(this.lastRecordingUrl);
+    if (this.last) {
+      URL.revokeObjectURL(this.last.url);
     }
 
-    this.lastRecordingData = null;
-    this.lastRecordingUrl = null;
+    this.last = null;
   }
 }
