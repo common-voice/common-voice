@@ -244,6 +244,12 @@
             & span {
                 margin-inline-end: 20px;
             }
+            &:hover {
+                & path {
+                    fill: var(--black);
+                }
+            }
+            
         }
 
         & .why-email {
