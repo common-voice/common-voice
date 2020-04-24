@@ -13,7 +13,7 @@ import {
   ShareIcon,
   StopIcon,
 } from '../../../ui/icons';
-import { isIOS } from '../../../../utility';
+import { getAudioFormat } from '../../../../utility';
 import { ContributionPillProps } from '../contribution';
 import Pill, { PillStatus } from '../pill';
 import { SentenceRecording } from './sentence-recording';
@@ -69,10 +69,7 @@ function RecordingPill({
       {!children && status === 'done' && (
         <React.Fragment>
           <audio preload="auto" onEnded={toggleIsPlaying} ref={audioRef}>
-            <source
-              src={clip.recording.url}
-              type={`audio/${isIOS() ? 'wav' : 'ogg'}`}
-            />
+            <source src={clip.recording.url} type={getAudioFormat()} />
           </audio>
           <Tooltip
             arrow

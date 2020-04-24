@@ -1,6 +1,4 @@
-import { isNativeIOS, isIOS } from '../../../../utility';
-
-const AUDIO_TYPE = `audio/${isIOS() ? 'wav' : 'ogg'}; codecs=opus`;
+import { isNativeIOS, getAudioFormat } from '../../../../utility';
 
 interface BlobEvent extends Event {
   data: Blob;
@@ -228,7 +226,7 @@ export default class AudioWeb {
       this.stopVisualize();
       this.recorder.removeEventListener('stop', this.recorderListeners.stop);
       this.recorderListeners.stop = (e: Event) => {
-        let blob = new Blob(this.chunks, { type: AUDIO_TYPE });
+        let blob = new Blob(this.chunks, { type: getAudioFormat() });
         this.last = {
           url: URL.createObjectURL(blob),
           blob: blob,

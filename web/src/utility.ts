@@ -94,6 +94,17 @@ export function getManageSubscriptionURL(account: UserClient) {
   }newsletter/existing/${account.basket_token}`;
 }
 
+export const getAudioFormat = (() => {
+  const preferredFormat = 'audio/ogg; codecs=opus';
+  const audio = document.createElement('audio');
+  const format = audio.canPlayType(preferredFormat)
+    ? preferredFormat
+    : 'audio/wav';
+  return function getAudioFormat() {
+    return format;
+  };
+})();
+
 export async function hash(text: string) {
   const encoder = new TextEncoder();
   const data = encoder.encode(text);
