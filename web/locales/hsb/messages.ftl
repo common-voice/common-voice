@@ -68,6 +68,7 @@ hi-IN = Hindišćina
 hr = Chorwatšćina
 hsb = Hornjoserbšćina
 hu = Madźaršćina
+hy-AM = Armenšćina
 ia = Interlingua
 id = Indonešćina
 is = Islandšćina
