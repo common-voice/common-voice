@@ -333,10 +333,6 @@ body:not(.focus) #scroller {
     }
 }
 
-.focus #donate {
-    padding-bottom: 1rem;
-}
-
 .title-and-action {
     margin-bottom: var(--standard-margin);
     display: flex;

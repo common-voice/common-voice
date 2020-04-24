@@ -26,7 +26,7 @@ import { Button } from '../../../ui/ui';
 import { Voice, PlayButton } from '../../../primary-buttons/primary-buttons';
 import AudioIOS from '../../contribution/speak/audio-ios';
 import AudioWeb, { AudioError } from '../../contribution/speak/audio-web';
-import { isFirefoxFocus, isNativeIOS, isProduction } from '../../../../utility';
+import { isNativeIOS, isProduction } from '../../../../utility';
 import { Suspense, lazy } from 'react';
 const Lottie = lazy(() => import('react-lottie'));
 const animationData = require('../../../layout/data.json');
@@ -137,8 +137,7 @@ class AvatarSetup extends React.Component<Props, State> {
 
     if (
       !this.audio.isMicrophoneSupported() ||
-      !this.audio.isAudioRecordingSupported() ||
-      isFirefoxFocus()
+      !this.audio.isAudioRecordingSupported()
     ) {
       this.isUnsupportedPlatform = true;
     }

@@ -41,46 +41,24 @@ export function isNativeIOS(): boolean {
   return window.webkit && webkit.messageHandlers?.scriptHandler;
 }
 
-export function isFirefoxFocus(): boolean {
-  return navigator.userAgent.indexOf('Focus') !== -1;
-}
-
 /**
  * Test whether this is a browser on iOS.
  */
 export function isIOS(): boolean {
-  return /(iPod|iPhone|iPad)/i.test(window.navigator.userAgent);
-}
-
-export function isWebkit(): boolean {
-  return /AppleWebKit/i.test(window.navigator.userAgent);
+  return /iPod|iPhone|iPad/i.test(window.navigator.userAgent);
 }
 
 /**
- * Check whether the browser is Safari (either desktop or mobile).
- */
-export function isSafari(): boolean {
-  const userAgent = window.navigator.userAgent;
-  /* Just checking isSafari isn't enough, because multiple browsers on iOS
-   * identify as Safari. The difference is that they have a different version
-   * string in the user agent. E.g. Safari has Version/<version>, Chrome has
-   * CriOS/<version>, Firefox has FxiOS/<version>.
-   */
-  const pretendsSafari = /Safari/i.test(userAgent);
-  const isSafari = /Version/i.test(userAgent);
-  return isWebkit() && pretendsSafari && isSafari;
-}
-
-/**
- * Check whether the browser is mobile Safari (i.e. on iOS).
+ * Check whether the browser is mobile Safari on iOS.
  *
  * The logic is collected from answers to this SO question: https://stackoverflow.com/q/3007480
  */
-export function isMobileWebkit(): boolean {
+export function isMobileSafari(): boolean {
   return (
     isIOS() &&
-    isWebkit() &&
-    !/(Chrome|CriOS|OPiOS)/.test(window.navigator.userAgent)
+    !window.navigator.standalone &&
+    /AppleWebKit/i.test(window.navigator.userAgent) &&
+    !/Chrome|Focus|CriOS|OPiOS|FxiOS|mercury/i.test(window.navigator.userAgent)
   );
 }
 
@@ -115,6 +93,17 @@ export function getManageSubscriptionURL(account: UserClient) {
     firstLanguage ? firstLanguage.locale + '/' : ''
   }newsletter/existing/${account.basket_token}`;
 }
+
+export const getAudioFormat = (() => {
+  const preferredFormat = 'audio/ogg; codecs=opus';
+  const audio = document.createElement('audio');
+  const format = audio.canPlayType(preferredFormat)
+    ? preferredFormat
+    : 'audio/wav';
+  return function getAudioFormat() {
+    return format;
+  };
+})();
 
 export async function hash(text: string) {
   const encoder = new TextEncoder();

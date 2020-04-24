@@ -1,6 +1,4 @@
-import { isNativeIOS } from '../../../../utility';
-
-const AUDIO_TYPE = 'audio/ogg; codecs=opus';
+import { isNativeIOS, getAudioFormat } from '../../../../utility';
 
 interface BlobEvent extends Event {
   data: Blob;
@@ -24,18 +22,25 @@ export default class AudioWeb {
   recorder: any;
   chunks: any[];
   last: AudioInfo;
-  lastRecordingData: Blob;
-  lastRecordingUrl: string;
   frequencyBins: Uint8Array;
   volumeCallback: Function;
   jsNode: any;
+  recorderListeners: {
+    start: Function | null;
+    dataavailable: Function | null;
+    stop: Function | null;
+  };
 
   constructor() {
     // Make sure we are in the right context before we allow instantiation.
     if (isNativeIOS()) {
       throw new Error('cannot use web audio in iOS app');
     }
-
+    this.recorderListeners = {
+      start: null,
+      dataavailable: null,
+      stop: null,
+    };
     this.visualize = this.visualize.bind(this);
   }
 
@@ -86,7 +91,10 @@ export default class AudioWeb {
 
   // Check if audio recording is supported
   isAudioRecordingSupported() {
-    return typeof MediaRecorder !== 'undefined';
+    return (
+      typeof window.MediaRecorder !== 'undefined' &&
+      !window.MediaRecorder.notSupported
+    );
   }
 
   private visualize() {
@@ -110,9 +118,6 @@ export default class AudioWeb {
 
   private stopVisualize() {
     this.jsNode.onaudioprocess = undefined;
-    if (this.volumeCallback) {
-      this.volumeCallback(100);
-    }
   }
 
   setVolumeCallback(cb: Function) {
@@ -135,7 +140,7 @@ export default class AudioWeb {
     const microphone = await this.getMicrophone();
 
     this.microphone = microphone;
-    var audioContext = new AudioContext();
+    var audioContext = new (window.AudioContext || window.webkitAudioContext)();
     var sourceNode = audioContext.createMediaStreamSource(microphone);
     var volumeNode = audioContext.createGain();
     var analyzerNode = audioContext.createAnalyser();
@@ -153,7 +158,7 @@ export default class AudioWeb {
     analyzerNode.connect(outputNode);
 
     // and set up the recorder.
-    this.recorder = new MediaRecorder(outputNode.stream);
+    this.recorder = new window.MediaRecorder(outputNode.stream);
 
     // Set up the analyzer node, and allocate an array for its data
     // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
@@ -167,10 +172,6 @@ export default class AudioWeb {
     this.jsNode = audioContext.createScriptProcessor(256, 1, 1);
     this.jsNode.connect(audioContext.destination);
 
-    // Another audio node used by the beep() function
-    var beeperVolume = audioContext.createGain();
-    beeperVolume.connect(audioContext.destination);
-
     this.analyzerNode = analyzerNode;
     this.audioContext = audioContext;
   }
@@ -183,15 +184,30 @@ export default class AudioWeb {
 
     return new Promise<void>((res: Function, rej: Function) => {
       this.chunks = [];
-      this.recorder.ondataavailable = (e: BlobEvent) => {
-        this.chunks.push(e.data);
-      };
+      // Remove the old listeners.
+      this.recorder.removeEventListener('start', this.recorderListeners.start);
+      this.recorder.removeEventListener(
+        'dataavailable',
+        this.recorderListeners.dataavailable
+      );
 
-      this.recorder.onstart = (e: Event) => {
+      // Update the stored listeners.
+      this.recorderListeners.start = (e: Event) => {
         this.clear();
         res();
       };
+      this.recorderListeners.dataavailable = (e: BlobEvent) => {
+        this.chunks.push(e.data);
+      };
 
+      // Add the new listeners.
+      this.recorder.addEventListener('start', this.recorderListeners.start);
+      this.recorder.addEventListener(
+        'dataavailable',
+        this.recorderListeners.dataavailable
+      );
+
+      // Finally, start it up.
       // We want to be able to record up to 60s of audio in a single blob.
       // Without this argument to start(), Chrome will call dataavailable
       // very frequently.
@@ -202,21 +218,22 @@ export default class AudioWeb {
 
   stop(): Promise<AudioInfo> {
     if (!this.isReady()) {
-      console.error('Cannot stop audio before microhphone is ready.');
+      console.error('Cannot stop audio before microphone is ready.');
       return Promise.reject();
     }
 
     return new Promise((res: Function, rej: Function) => {
       this.stopVisualize();
-
-      this.recorder.onstop = (e: Event) => {
-        let blob = new Blob(this.chunks, { type: AUDIO_TYPE });
+      this.recorder.removeEventListener('stop', this.recorderListeners.stop);
+      this.recorderListeners.stop = (e: Event) => {
+        let blob = new Blob(this.chunks, { type: getAudioFormat() });
         this.last = {
           url: URL.createObjectURL(blob),
           blob: blob,
         };
         res(this.last);
       };
+      this.recorder.addEventListener('stop', this.recorderListeners.stop);
       this.recorder.stop();
     });
   }
@@ -231,11 +248,10 @@ export default class AudioWeb {
   }
 
   clear() {
-    if (this.lastRecordingUrl) {
-      URL.revokeObjectURL(this.lastRecordingUrl);
+    if (this.last) {
+      URL.revokeObjectURL(this.last.url);
     }
 
-    this.lastRecordingData = null;
-    this.lastRecordingUrl = null;
+    this.last = null;
   }
 }
