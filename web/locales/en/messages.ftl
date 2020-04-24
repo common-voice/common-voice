@@ -64,6 +64,7 @@ hi-IN = Hindi
 hr = Croatian
 hsb = Sorbian, Upper
 hu = Hungarian
+hy-AM = Armenian
 ia = Interlingua
 id = Indonesian
 is = Icelandic
