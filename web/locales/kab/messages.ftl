@@ -233,7 +233,7 @@ whats-public = D acu-tt telɣut tazayezt?
 email-not-public = Ur nettara ara imayl d azayez.
 recordings-and-locale-public = Amḍan n yikalasen akked tutlayin anida tettekkaḍ ad d-banen.
 username-optin-public = Tzemreḍ ad tferneḍ isem-ik n useqdac ma ad yili d azayez neɣ d abadni.
-demographic-deidentified = Talɣut tadimugrafit tafrayant (amedya: awtay, tuzuft, tutlayt akked ususru) ad tettwaqqen ɣer ikalasen-ik daɣen ur d-ttwaskanen ara i yimdanen ɣef umaɣnu-ik.
+demographic-deidentified-clarity = Isefka n tedimugrafit i d-yettwaznen s lxetyaṛ (md. awtay, tuzuft, tutlayt, akken ususru) ur ǧǧin ad ttwaseknen s wudem azayaz, daɣen ad ttwacudden ɣer umiḍan-ik deg tegrumma n yisefka. Ikalasen imeslawen i yiman-nsen ad ttwaqqnen d yisefka n tedimugrafit i wugar n tseddi n tesleḍt - amedya, amnadi izmer ad yebɣu taneɣruft n usluɣmu n kra n yimdanen kan.
 username-email-not-demographic = Isem-ik n useqdac akked tansa-ik imayl ur d-ttwaqqanen ara ɣer yisefka-ik izuyaz.
 
 ## Speak & Listen Shortcuts
