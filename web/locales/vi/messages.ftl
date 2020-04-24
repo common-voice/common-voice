@@ -230,7 +230,7 @@ whats-public = Có gì được công khai?
 email-not-public = Chúng tôi sẽ không công khai email của bạn.
 recordings-and-locale-public = Số lượng bản ghi và ngôn ngữ bạn đóng góp sẽ được công khai.
 username-optin-public = Bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
-demographic-deidentified = Dữ liệu được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) được xác định lại từ dữ liệu giọng nói đã gửi của bạn và sẽ không bao giờ được công khai trên hồ sơ của bạn.
+demographic-deidentified-clarity = Dữ liệu nhân khẩu học được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) sẽ không bao giờ được công khai trên hồ sơ của bạn và sẽ không được liên kết với tài khoản của bạn trong bộ dữ liệu. Các clip âm thanh riêng lẻ sẽ được liên kết với dữ liệu nhân khẩu học nhằm mục đích phân tích chính xác hơn - ví dụ: nhà nghiên cứu có thể muốn nhắm mục tiêu mô hình đào tạo đến một phân khúc nhân khẩu học cụ thể.
 username-email-not-demographic = Tên người dùng và email của bạn sẽ không được liên kết với dữ liệu được công bố.
 
 ## Speak & Listen Shortcuts
