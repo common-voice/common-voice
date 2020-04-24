@@ -1066,6 +1066,7 @@ Fixante in fundo al rivo le calculos blanc como ovos.
 Foco!
 Foras de mi strata, puero.
 Foras de mi via, puero.
+Forsan ille es sur le strata del hospital.
 Forsan ille non es juvene.
 Forsan ille non parlarea sin ration.
 Forsan iste fin de septimana nos poterea ir al plagia insimul.
@@ -1513,6 +1514,7 @@ Il ha trams in Berlin.
 Il ha tramvias in Berlin.
 Il ha tramways in Berlin.
 Il ha tres categorias de personas, qui: vide, vide quando altere indica, non vide.
+Il ha tres cosas belle: le parola, le exemplo e le prece.
 Il ha tres de nos.
 Il ha un auto que veni.
 Il ha un banco sub le arbore.
@@ -1678,6 +1680,7 @@ Illa corrugava su supercilios.
 Illa crita.
 Illa dara su photo a quicunque lo vole.
 Illa dava nascentia a geminos un septimana retro.
+Illa dava signos de impatientia.
 Illa descendeva pro le jentaculo a octo horas.
 Illa deveniva un functionario de policia.
 Illa disviava le oculos.
@@ -1752,6 +1755,7 @@ Illa ha dicite alco a ille.
 Illa ha essite accusate de facer false accusationes.
 Illa ha essite arrestate.
 Illa ha essite un grande fan del musica country
+Illa ha facite saltar le banca.
 Illa ha le lingua trop longe.
 Illa ha le pelle obscur.
 Illa ha mi summe respecto.
@@ -2345,6 +2349,7 @@ Ille succedera sin dubita.
 Ille sufflava le candela.
 Ille teneva su cappello.
 Ille teneva su halito.
+Ille teneva toto a portata de mano.
 Ille tenta sempre vider lo bon in alteres.
 Ille tentava bannir su anxietate.
 Ille tentava coragiosemente facer fronte a su detention como hostage.
@@ -4637,6 +4642,7 @@ Le messe cresce.
 Le meteo hodie es pejor que heri.
 Le militares adherera a leges e standardos international.
 Le milites es morite.
+Le milites es morte.
 Le mission continua a esser illo de servir alteres.
 Le mobiles esseva pulverose.
 Le mobiles esseva pulverulente.
@@ -6851,6 +6857,7 @@ Quantos ha tu recipite?
 Quantos vole tu?
 Quantu tu parti tu me mancara multo.
 Quaranta-duo non es un numero aleatori.
+Quasi nihil.
 Quasi totos ha facite fiasco.
 Que Deo non lo permitte!
 Que Peter me appella.
@@ -7015,6 +7022,7 @@ Que pote nos facer pro vos?
 Que prefere tu haber, the o caffe?
 Que prefere tu, the o caffe?
 Que prefere tu: caffe o the?
+Que prefere vos?
 Que pro como.
 Que rememora tu?
 Que rosas?
@@ -8086,6 +8094,8 @@ Un persona capabile de toto.
 Un persona nominate Itoh vole incontrar te.
 Un pisce pote natar.
 Un pluvia torrential me impediva de partir.
+Un poco de patientia.
+Un poco plus de modestia non esserea inconveniente pro te!
 Un puera attrappava su digitos in le porta.
 Un puera me telephonava.
 Un rete consignation del contento es necessari.
