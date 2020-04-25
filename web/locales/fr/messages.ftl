@@ -235,7 +235,7 @@ whats-public = Quelles informations sont publiques ?
 email-not-public = Nous ne rendrons pas publique votre adresse électronique.
 recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
 username-optin-public = Vous pouvez choisir de rendre votre nom d’utilisateur ou d’utilisatrice public ou anonyme
-demographic-deidentified = Les informations démographiques facultatives (p. ex. l’âge, le sexe, la langue et l’accent) sont dissociées de vos enregistrements audio et ne seront jamais affichées publiquement sur votre profil.
+demographic-deidentified-clarity = Les données démographiques éventuellement soumises (par exemple, l’âge, le sexe, la langue et l’accent) ne seront jamais rendues publiques sur votre profil et ne seront pas liées à votre compte dans l’ensemble de données. Des échantillons audio individuels seront associés à des données démographiques à des fins d’analyse plus précise ; par exemple, une chercheuse pourrait vouloir cibler un modèle d’entrainement sur un segment démographique spécifique.
 username-email-not-demographic = Votre nom d’utilisateur ou d’utilisatrice et votre adresse électronique ne seront pas associés aux données publiées.
 
 ## Speak & Listen Shortcuts
@@ -627,7 +627,6 @@ contribute-more = Prêt·e à en faire { $count } de plus ?
 record-cta = Commencer l’enregistrement
 record-platform-not-supported = Nous sommes désolés, mais votre plateforme n’est pas encore prise en charge.
 record-platform-not-supported-desktop = Pour les ordinateurs de bureau, vous pouvez télécharger le plus récent :
-record-platform-not-supported-ios = Les utilisateurs <bold>iOS</bold> peuvent télécharger notre application gratuite :
 record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
 record-no-mic-found = Aucun microphone trouvé.
 record-error-too-short = L’enregistrement est trop court.
