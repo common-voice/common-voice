@@ -492,12 +492,12 @@ class SpeakPage extends React.Component<Props, State> {
         trackRecording('submit', locale);
         refreshUser();
         addNotification(
-          <React.Fragment>
+          <>
             <CheckIcon />{' '}
             <Localized id="clips-uploaded">
               <span />
             </Localized>
-          </React.Fragment>
+          </>
         );
       },
     ]);
@@ -561,7 +561,7 @@ class SpeakPage extends React.Component<Props, State> {
     const recordingIndex = this.getRecordingIndex();
 
     return (
-      <React.Fragment>
+      <>
         <NavigationPrompt
           when={clips.filter(clip => clip.recording).length > 0}>
           {({ onConfirm, onCancel }: any) => (
@@ -714,7 +714,7 @@ class SpeakPage extends React.Component<Props, State> {
           ]}
           type="speak"
         />
-      </React.Fragment>
+      </>
     );
   }
 }

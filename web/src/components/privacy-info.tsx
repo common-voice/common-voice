@@ -4,7 +4,7 @@ import * as React from 'react';
 export default ({ localizedPrefix }: { localizedPrefix?: string }) => {
   localizedPrefix = localizedPrefix || '';
   return (
-    <React.Fragment>
+    <>
       <Localized id={localizedPrefix + 'stayintouch'}>
         <p className="small" />
       </Localized>
@@ -17,6 +17,6 @@ export default ({ localizedPrefix }: { localizedPrefix?: string }) => {
         }>
         <p className="small" />
       </Localized>
-    </React.Fragment>
+    </>
   );
 };

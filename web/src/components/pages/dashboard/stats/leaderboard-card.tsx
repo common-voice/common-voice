@@ -255,13 +255,13 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
           <div className="username" title={row.username}>
             {row.username || '???'}
             {row.you && (
-              <React.Fragment>
+              <>
                 {' ('}
                 <Localized id="you">
                   <span />
                 </Localized>
                 )
-              </React.Fragment>
+              </>
             )}
           </div>
           {playingClipIndex === row.position && (

@@ -39,4 +39,3 @@ export const up = async function(db: any): Promise<any> {
 export const down = function(): Promise<any> {
   return null;
 };
-
