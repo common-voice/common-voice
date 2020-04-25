@@ -237,6 +237,7 @@ whats-public = Co jest publiczne?
 email-not-public = Twój adres e-mail nie będzie dostępny publicznie.
 recordings-and-locale-public = Liczba nagrań i języki, w których uczestniczysz, będą publiczne.
 username-optin-public = Możesz ustawić swoją nazwę użytkownika jako publiczną lub anonimową.
+demographic-deidentified-clarity = Opcjonalnie wysłane dane demograficzne (np. wiek, płeć, język i akcent) nigdy nie będą publiczne w profilu użytkownika i nie będą powiązane z kontem w zbiorze danych. Poszczególne nagrania dźwiękowe będą powiązane z danymi demograficznymi w celu dokładniejszej analizy — na przykład naukowiec może chcieć ukierunkować model szkoleniowy na konkretny segment demograficzny.
 username-email-not-demographic = Twoja nazwa użytkownika i adres e-mail nie będą powiązane z opublikowanymi danymi.
 
 ## Speak & Listen Shortcuts
@@ -630,8 +631,9 @@ goal-help-recording = Twój udział pomógł projektowi Common Voice osiągnąć
 goal-help-validation = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu weryfikowania ({ $goalValue })!
 contribute-more = Zrobimy jeszcze { $count }?
 record-cta = Zacznij nagrywanie
-record-platform-not-supported = Przepraszamy, używana platforma nie jest obecnie obsługiwana.
+record-platform-not-supported = Przepraszamy, używany system nie jest obecnie obsługiwany.
 record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą wersję:
+record-platform-not-supported-ios-non-safari = W systemie iOS kontynuuj za pomocą przeglądarki Safari, aby umożliwić nagrywanie…
 record-must-allow-microphone = Musisz zezwolić na dostęp do mikrofonu.
 record-no-mic-found = Nie odnaleziono mikrofonu.
 record-error-too-short = Nagranie jest za krótkie.
