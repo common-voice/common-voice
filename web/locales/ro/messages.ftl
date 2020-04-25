@@ -68,6 +68,7 @@ hi-IN = Hindi
 hr = Croată
 hsb = Sorbenă de sus
 hu = Maghiară
+hy-AM = Armeană
 ia = Interlingua
 id = Indoneziană
 is = Islandeză
@@ -236,7 +237,7 @@ whats-public = Ce este public?
 email-not-public = Nu îți vom face publică adresa de e-mail.
 recordings-and-locale-public = Numărul de înregistrări și limbile în care vei contribui vor fi publice.
 username-optin-public = Poți alege să îți faci numele de utilizator public sau anonim.
-demographic-deidentified = Informațiile demografice trimise opțional (de ex., vârsta, sexul, limba și accentul) sunt anonimizate din datele voce trimise și nu vor fi niciodată făcute publice în profilul tău.
+demographic-deidentified-clarity = Datele demografice trimise opțional (de ex. vârsta, sexul, limba și accentul) nu vor fi făcute niciodată publice pe profilul tău și nu vor fi legate de contul tău în setul de date. Secvențele audio individuale vor fi asociate cu datele demografice în scopul unei analize mai precise - de exemplu, un cercetător ar putea dori să asocieze un model de instruire cu un anumit segment demografic.
 username-email-not-demographic = Numele de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
 
 ## Speak & Listen Shortcuts
@@ -629,7 +630,7 @@ contribute-more =
 record-cta = Începe înregistrarea
 record-platform-not-supported = Ne pare rău, dar platforma ta nu este suportată momentan.
 record-platform-not-supported-desktop = Pe calculatoare tip desktop, poți descărca cele mai recente:
-record-platform-not-supported-ios = Utilizatorii <bold>iOS</bold> pot descărca aplicația noastră gratuită:
+record-platform-not-supported-ios-non-safari = Pe iOS, continuă cu Safari pentru activarea înregistrării…
 record-must-allow-microphone = Trebuie să permiți accesul la microfon.
 record-no-mic-found = Nu a fost găsit niciun microfon.
 record-error-too-short = Înregistrarea a fost prea scurtă.
