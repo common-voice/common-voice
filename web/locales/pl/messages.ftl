@@ -68,6 +68,7 @@ hi-IN = hindi
 hr = chorwacki
 hsb = górnołużycki
 hu = węgierski
+hy-AM = ormiański
 ia = interlingua
 id = indonezyjski
 is = islandzki
@@ -236,7 +237,6 @@ whats-public = Co jest publiczne?
 email-not-public = Twój adres e-mail nie będzie dostępny publicznie.
 recordings-and-locale-public = Liczba nagrań i języki, w których uczestniczysz, będą publiczne.
 username-optin-public = Możesz ustawić swoją nazwę użytkownika jako publiczną lub anonimową.
-demographic-deidentified = Opcjonalnie przesłane dane demograficzne (np. wiek, płeć, język i akcent) są anonimizowane z przesłanych danych głosowych i nigdy nie zostaną upublicznione w Twoim profilu.
 username-email-not-demographic = Twoja nazwa użytkownika i adres e-mail nie będą powiązane z opublikowanymi danymi.
 
 ## Speak & Listen Shortcuts
@@ -632,7 +632,6 @@ contribute-more = Zrobimy jeszcze { $count }?
 record-cta = Zacznij nagrywanie
 record-platform-not-supported = Przepraszamy, używana platforma nie jest obecnie obsługiwana.
 record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą wersję:
-record-platform-not-supported-ios = Użytkownicy <bold>iOS</bold> mogą pobrać bezpłatną aplikację:
 record-must-allow-microphone = Musisz zezwolić na dostęp do mikrofonu.
 record-no-mic-found = Nie odnaleziono mikrofonu.
 record-error-too-short = Nagranie jest za krótkie.
