@@ -68,6 +68,7 @@ hi-IN = 印地文
 hr = 克羅地亞文
 hsb = 上索布文
 hu = 匈牙利文
+hy-AM = 亞美尼亞文
 ia = 因特文
 id = 印尼文
 is = 冰島文
@@ -398,6 +399,10 @@ faq-is-account-public-q = 我的帳戶資料是公開的嗎？
 faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音人士的隱私？
 faq-how-privacy-a = 數據集中所有的錄音片段都不會包含可識別出個人的資訊。若貢獻者在個人檔案中提供了相關資料，該資訊將在錄音片段被合併成數據集以供下載前去識別化，永遠不會在他們的個人檔案首頁中公開。
 faq-what-determine-identity-q = 在 Common Voice 數據集中無法「確認發言者身分」是什麼意思？
+faq-what-determine-identity-a =
+    Common Voice 數據集是一份開放，可公開使用的資源。含有語音功能的應用程式可使用這份資料來訓練程式。為了保護貢獻者的安全，我們要求所有下載 Common Voice 資料集的人確保貢獻者的隱私安全。
+    
+    所有語音片段中的個人識別資料已經被清除。當您下載數據集時，就代表您同意不會嘗試識別數據集當中的任何貢獻者。這代表您不能嘗試將數據集中的資訊，與貢獻者的個人資訊連結起來。但您可以將數據集中的不同資訊互相連結起來，用來訓練語音識別、說話者識別等功能，或其他應用程式。
 faq-what-is-cv = Common Voice 是甚麼？
 faq-using-cv = 使用 Common Voice
 faq-description = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。
@@ -601,7 +606,6 @@ contribute-more =
 record-cta = 開始錄音
 record-platform-not-supported = 對不起，你的平台暫時不被支援。
 record-platform-not-supported-desktop = 在桌面電腦上，您可以下載最新的：
-record-platform-not-supported-ios = <bold>iOS</bold> 用戶可以下載我們免費的應用程式：
 record-must-allow-microphone = 你必需允許我們存取你的咪高峰。
 record-no-mic-found = 我們找不到你的咪高峰。
 record-error-too-short = 這個錄音太短了。
