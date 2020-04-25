@@ -394,6 +394,7 @@ faq-where-src-from-2-a =
     
     您可到此 <githubLink>GitHub 資料夾</githubLink>檢視我們的來源文本。
 faq-why-not-ask-read-q = 為什麼你們不讓人來念出書本的內容，或是維基百科內的條目？
+faq-why-not-ask-read-a = 為了讓 Common Voice 數據集發揮最大效益，我們決定只允許收錄以 Creative Commons (CC0) 授權條款提供使用的來源文本。使用 CC0 條款標準會比較難找到來源文本，但能讓任何人都可用出品的語音資料，而不需受 Mozilla 的限制或授權。最終我們想讓這個多語言數據集能為最多人（包含研究者、大學、創業公司、政府、社團組織、有興趣的人）發揮最大效益。
 faq-why-account-q = 我點解應該去註冊帳戶？
 faq-is-account-public-q = 我的帳戶資料是公開的嗎？
 faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音人士的隱私？
@@ -606,6 +607,7 @@ contribute-more =
 record-cta = 開始錄音
 record-platform-not-supported = 對不起，你的平台暫時不被支援。
 record-platform-not-supported-desktop = 在桌面電腦上，您可以下載最新的：
+record-platform-not-supported-ios-non-safari = 用 iOS 的請使用 Safari 瀏覽器繼續來啓用錄音功能…
 record-must-allow-microphone = 你必需允許我們存取你的咪高峰。
 record-no-mic-found = 我們找不到你的咪高峰。
 record-error-too-short = 這個錄音太短了。
