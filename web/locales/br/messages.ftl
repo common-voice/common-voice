@@ -68,6 +68,7 @@ hi-IN = Hini
 hr = Kroateg
 hsb = Uhel-Sorabeg
 hu = Hungareg
+hy-AM = Armenianeg
 ia = Interlingua
 id = Indonezeg
 is = Islandeg
@@ -242,7 +243,6 @@ whats-public = Petra a zo foran?
 email-not-public = Ne lakaimp ket foran ho chomlec'h postel.
 recordings-and-locale-public = An niver a enrolladennoù hag ar yezhoù a gemerit perzh eno a vo foran.
 username-optin-public = Gellout a raer lakaat foran pe dizanv hoc'h anv-implijer.
-demographic-deidentified = Ar roadennoù poblañsouriezh diret (da skouer: oad, rev, yezh ha pouez-mouezh) a zo dizanvet eus hoc'h enrolladennoù ha ne vo morse diskouezet d'ar foran war ho profil.
 username-email-not-demographic = Hoc'h anv implijer hag ho chomlec'h postel na vezo ket liammet gant ar roadennoù embannet.
 
 ## Speak & Listen Shortcuts
@@ -457,12 +457,6 @@ about-partnership =
     
     Fellout a rafe deomp trugarekaat an dud hag an aozadurioù da-heul evit o sikour gant ar raktres:
 about-get-involved = Kemer perzh
-about-get-involved-text = Fellout a ra deoc'h lakaat Common Voice da vezañ gwelloc'h c'hoazh? Dispar! Deuit e darempred dre bostel pe dre <discourseLink>Discourse</discourseLink>, roit ho ali dre <githubLink>GitHub</githubLink>, pe deuit ganeomp war <slackLink>Slack</slackLink>.
-about-get-involved-text-2020 =
-    Fellout a ra deoc'h lakaat Common Voice da vezañ gwelloc'h c'hoazh?
-    Dispar! Deuit e darempred ganeomp dre bostel pe war <discourseLink>Discourse</discourseLink>,
-    roit hoc'h ali dre <githubLink>GitHub</githubLink>,
-    pe kejit ganeomp war <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
@@ -637,7 +631,6 @@ contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Enrollañ
 record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
 record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ:
-record-platform-not-supported-ios = Implijerien <bold>iOS</bold> a c'hall pellgargañ hon arload digoust:
 record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
 record-no-mic-found = Mikrofon ebet kavet.
 record-error-too-short = Re verr e oa an enrolladenn.
@@ -651,6 +644,8 @@ record-again-instruction = FIskal! <recordIcon></recordIcon> Enrollit ur c'hlip 
 record-again-instruction2 = Dalc'hit da vont, enrollit adarre <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An hini diwezhañ!
 review-tooltip = Gwiriit & adenrollit klipoù tamm-ha-tamm
+share-clip = Rannañ ho enrolladenn
+share-common-voice = Rannañ Common Voice
 review-instruction = Gwiriit & adenrollit ar c'hlipoù ma vez ezhomm
 record-submit-tooltip = { $actionType } kas p'eo prest
 clips-uploaded = Klipoù uskarget
@@ -663,7 +658,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> ha distripet mat eo be
 listen-again-instruction = Labour vat! <playIcon></playIcon> Adselaou pa viot prest
 listen-3rd-time-instruction = 2 graet <playIcon></playIcon> , dalc'hit da vont!
 listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
-nothing-to-validate = N'eus mann da wiriañ evit ar yezh-mañ, skoazellit ac'hanomp da leuniañ ar steudad-c'hortoz.
 record-button-label = Enrollit ho mouezh
 share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
 keep-track-profile = Heuilhit hoc'h araokadennoù gant ur profil
