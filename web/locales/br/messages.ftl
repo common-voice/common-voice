@@ -457,6 +457,10 @@ about-partnership =
     
     Fellout a rafe deomp trugarekaat an dud hag an aozadurioù da-heul evit o sikour gant ar raktres:
 about-get-involved = Kemer perzh
+about-get-involved-text-2 =
+    C'hoant ho peus kemer perzh evit gwellaat Common Voice ?
+    Dreist ! Kit e darempred ganeomp dre vail pe war ar foromoù <discourseLink>Discourse</discourseLink>,
+    disklêriit kudennoù lec'hiennoù dre <githubLink>GitHub</githubLink>, pe kemerit perzh e flap ar gumuniezh war <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
