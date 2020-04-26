@@ -630,6 +630,7 @@ contribute-more =
 record-cta = Initiar a registrar
 record-platform-not-supported = Nos lo regretta, ma tu platteforma non es actualmente supportate.
 record-platform-not-supported-desktop = Sur computatores de scriptorio tu pote discargar le ultime:
+record-platform-not-supported-ios-non-safari = Sur iOS, continua con Safari pro activar le registration…
 record-must-allow-microphone = Tu debe permitter le accesso al microphono
 record-no-mic-found = Nulle microphono trovate
 record-error-too-short = Le registration era troppo breve.
