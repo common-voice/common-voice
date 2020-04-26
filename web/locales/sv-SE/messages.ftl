@@ -68,6 +68,7 @@ hi-IN = Hindi
 hr = Kroatiska
 hsb = Högsorbiska
 hu = Ungerska
+hy-AM = Armeniska
 ia = Interlingua
 id = Indonesiska
 is = Isländska
@@ -236,7 +237,7 @@ whats-public = Vad är offentligt?
 email-not-public = Vi kommer inte göra din e-post offentlig.
 recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentligt.
 username-optin-public = Du kan välja att göra ditt användarnamn offentligt eller anonymt.
-demographic-deidentified = Om du valt att skicka demografisk data (t.ex. ålder, kön, och språk) anonymiseras den från dina inskickade röstdata och kommer aldrig bli publik på din profil.
+demographic-deidentified-clarity = Valfritt inskickade demografiska data (t.ex. ålder, kön, språk och accent) kommer aldrig att offentliggöras i din profil och kommer inte att länkas till ditt konto i datamängden. Enskilda ljudklipp kommer att associeras med demografiska data i syfte att göra en mer exakt analys - till exempel kan en forskare inrikta sig på en träningsmodell till ett specifikt demografiskt segment.
 username-email-not-demographic = Ditt användarnamn och e-post kommer inte att kopplas till den publicerade datan.
 
 ## Speak & Listen Shortcuts
@@ -635,7 +636,7 @@ contribute-more =
 record-cta = Starta inspelning
 record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället.
 record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
-record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
+record-platform-not-supported-ios-non-safari = På iOS fortsätt med Safari för att aktivera inspelning…
 record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
 record-no-mic-found = Ingen mikrofon kunde hittas.
 record-error-too-short = Inspelningen var för kort.
