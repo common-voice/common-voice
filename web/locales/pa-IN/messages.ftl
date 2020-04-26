@@ -543,6 +543,8 @@ how-many-a-week = ਮਹਾਨ! ਇੱਕ ਹਫ਼ਤੇ ਵਿੱਚ ਕਿੰ
 which-goal-type = ਕੀ ਤੁਸੀਂ ਬੋਲਣਾ, ਸੁਣਨਾ ਚਾਹੁੰਦੇ ਹੋ ਜਾਂ ਦੋਵੇਂ?
 n-clips = { NUMBER($count) } ਕਲਿੱਪ
 goal-interval-weekly = ਸਪਤਾਹਕ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = ਆਪਣੀ { $count } ਕਲਿੱਪ ਹਫਤਾਵਾਰੀ ਟੀਚੇ { $type } ਸਾਂਝਾ ਕਰੋ
 share-goal-type-speak = ਬੋਲਣਾ
 share-goal-type-listen = ਸੁਣਨਾ
 share-goal-type-both = ਬੋਲਣਾ ਅਤੇ ਸੁਣਨਾ
