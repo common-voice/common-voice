@@ -21,16 +21,16 @@ not-available-abbreviation = N/A
 
 ## Languages
 
-ab = Tiếng Abkhaz
-ace = Tiếng Aceh
-ady = Tiếng Adyghe
-af = Tiếng Nam Phi
-am = Tiếng Amhara
-an = Tiếng Aragon
-ar = Tiếng Ả Rập
-arn = Mapudungun
-as = Tiếng Assam
-ast = Tiếng Asturia
+ab = Abkhaz
+ace = Aceh
+ady = Adyghe
+af = Nam Phi
+am = Amhara
+an = Aragon
+ar = Ả Rập
+arn = Mapuche
+as = Assam
+ast = Asturias
 az = Tiếng Azerbaijan
 ba = Tiếng Bashkir
 be = Belarut
@@ -68,6 +68,7 @@ hi-IN = Tiếng Hindi
 hr = Tiếng Croatia
 hsb = Tiếng Sorb vùng Thượng
 hu = Tiếng Hungary
+hy-AM = Tiếng Armenia
 ia = Tiếng Khoa học Quốc tế
 id = Tiếng Indonesia
 is = Tiếng Iceland
@@ -273,7 +274,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Mục tiêu tiếp theo: { $goal }
-english = Tiếng Anh
+english = Anh
 
 ## ProfileForm
 
@@ -627,7 +628,7 @@ contribute-more =
 record-cta = Bắt đầu ghi âm
 record-platform-not-supported = Chúng tôi rất tiếc, nhưng thiết bị của bạn hiện không được hỗ trợ.
 record-platform-not-supported-desktop = Trên máy tính để bàn, bạn có thể tải xuống phiên bản mới nhất:
-record-platform-not-supported-ios = Người dùng <bold>iOS</bold> có thể tải xuống ứng dụng miễn phí của chúng tôi:
+record-platform-not-supported-ios-non-safari = Trên iOS, vui lòng tiếp tục với Safari để cho phép ghi âm…
 record-must-allow-microphone = Bạn cần phải cho phép truy cập micrô.
 record-no-mic-found = Không tìm thấy micrô.
 record-error-too-short = Bản ghi âm quá ngắn
