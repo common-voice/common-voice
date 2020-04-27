@@ -35,13 +35,6 @@ export function countSyllables(text: string): number {
 }
 
 /**
- * Test if we are running in the iOS native app wrapper.
- */
-export function isNativeIOS(): boolean {
-  return window.webkit && webkit.messageHandlers?.scriptHandler;
-}
-
-/**
  * Test whether this is a browser on iOS.
  */
 export function isIOS(): boolean {
@@ -72,10 +65,6 @@ export function isProduction(): boolean {
 
 export function isStaging(): boolean {
   return window.location.origin === 'https://voice.allizom.org';
-}
-
-export function getItunesURL(): string {
-  return 'https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326';
 }
 
 /**

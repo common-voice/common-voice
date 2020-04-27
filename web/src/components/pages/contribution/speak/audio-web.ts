@@ -1,4 +1,4 @@
-import { isNativeIOS, getAudioFormat } from '../../../../utility';
+import { getAudioFormat } from '../../../../utility';
 
 interface BlobEvent extends Event {
   data: Blob;
@@ -32,10 +32,6 @@ export default class AudioWeb {
   };
 
   constructor() {
-    // Make sure we are in the right context before we allow instantiation.
-    if (isNativeIOS()) {
-      throw new Error('cannot use web audio in iOS app');
-    }
     this.recorderListeners = {
       start: null,
       dataavailable: null,

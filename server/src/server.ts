@@ -180,13 +180,6 @@ export default class Server {
         express.static(path.join(__dirname, '..', 'contribute.json'))
       );
 
-      app.use(
-        '/apple-app-site-association',
-        express.static(
-          path.join(FULL_CLIENT_PATH, 'apple-app-site-association.json')
-        )
-      );
-
       if (options.bundleCrossLocaleMessages) {
         this.setupCrossLocaleRoute();
       }
