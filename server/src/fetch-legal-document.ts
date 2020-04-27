@@ -8,6 +8,16 @@ const cache: {
   };
 } = {};
 
+const localeMapping: { [key: string]: string } = {
+  'fy-NL': 'fy',
+  'ga-IE': 'ga',
+  hsb: 'de',
+  'pa-IN': 'pa',
+  'rm-sursilv': 'rm',
+  'rm-vallader': 'rm',
+  'sv-SE': 'se',
+};
+
 export default async function fetchLegalDocument(
   name: string,
   locale: string
@@ -19,9 +29,10 @@ export default async function fetchLegalDocument(
   if (textHTML && fetchedAt > Date.now() - CACHE_AGE) {
     return textHTML;
   }
+  const legalLocale = localeMapping[locale] ? localeMapping[locale] : locale;
 
   const [status, text] = await request({
-    uri: `https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_${name}/${locale}.md`,
+    uri: `https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_${name}/${legalLocale}.md`,
     resolveWithFullResponse: true,
   })
     .then((response: any) => [response.statusCode, response.body])
@@ -31,7 +42,7 @@ export default async function fetchLegalDocument(
     return (
       await Promise.all(
         // Fallback Languages
-        ['en', 'es-CL', 'fr', 'pt-BR', 'zh-TW'].map(locale =>
+        ['en', 'es', 'fr', 'pt', 'zh-TW'].map(locale =>
           fetchLegalDocument(name, locale)
         )
       )
