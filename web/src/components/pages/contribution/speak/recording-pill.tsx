@@ -67,7 +67,7 @@ function RecordingPill({
       )}
 
       {!children && status === 'done' && (
-        <React.Fragment>
+        <>
           <audio preload="auto" onEnded={toggleIsPlaying} ref={audioRef}>
             <source src={clip.recording.url} type={getAudioFormat()} />
           </audio>
@@ -90,7 +90,7 @@ function RecordingPill({
           {isPlaying ? (
             <div className="placeholder" />
           ) : (
-            <React.Fragment>
+            <>
               <Tooltip arrow title={getString('review-tooltip')}>
                 <button className="redo" type="button" onClick={onRerecord}>
                   <span className="padder">
@@ -105,9 +105,9 @@ function RecordingPill({
                   </span>
                 </button>
               </Tooltip>
-            </React.Fragment>
+            </>
           )}
-        </React.Fragment>
+        </>
       )}
     </Pill>
   );

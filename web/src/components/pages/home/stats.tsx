@@ -166,7 +166,7 @@ export namespace ClipsStats {
       const [x, y] = pointFromDatum(lastIndex, data[lastIndex][attribute]);
 
       return (
-        <React.Fragment>
+        <>
           <path
             d={spline.svgPath(
               spline.points(
@@ -193,7 +193,7 @@ export namespace ClipsStats {
             r={CIRCLE_RADIUS - 2}
             className={'inner ' + attribute}
           />
-        </React.Fragment>
+        </>
       );
     }
   );
@@ -237,7 +237,7 @@ export namespace ClipsStats {
       const datum = data[hoveredIndex];
       const { date, total, valid } = datum || ({} as any);
       const tooltipContents = datum ? (
-        <React.Fragment>
+        <>
           <b>
             {new Date(date).toLocaleDateString([], {
               day: 'numeric',
@@ -249,7 +249,7 @@ export namespace ClipsStats {
             <MetricValue attribute="total">{formatSeconds(total)}</MetricValue>
             <MetricValue attribute="valid">{formatSeconds(valid)}</MetricValue>
           </div>
-        </React.Fragment>
+        </>
       ) : null;
 
       return (
@@ -302,7 +302,7 @@ export namespace ClipsStats {
               tickCount={TICK_COUNT}
               tickMultipliers={[10, 60, 600, 3600, 36000, 360000]}>
               {state => (
-                <React.Fragment>
+                <>
                   <Path attribute="valid" data={data} {...state} />
                   <Path
                     attribute="total"
@@ -310,7 +310,7 @@ export namespace ClipsStats {
                     {...state}
                     ref={this.pathRef}
                   />
-                </React.Fragment>
+                </>
               )}
             </Plot>
           </Tooltip>

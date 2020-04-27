@@ -107,12 +107,12 @@ export default function HomePage() {
             <br />
 
             {showWallOfText && (
-              <React.Fragment>
+              <>
                 <Localized id="wall-of-text-more-desktop">
                   <p />
                 </Localized>
                 <br />
-              </React.Fragment>
+              </>
             )}
 
             <Localized

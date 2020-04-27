@@ -30,7 +30,7 @@ function ShareButtons({ getString, shareTextId }: Props) {
   const shareURLInputRef = useRef(null);
 
   return (
-    <React.Fragment>
+    <>
       <button
         id="link-copy"
         className="share-button"
@@ -40,12 +40,12 @@ function ShareButtons({ getString, shareTextId }: Props) {
           trackSharing('link', locale);
 
           addNotification(
-            <React.Fragment>
+            <>
               <FontIcon type="link" className="icon" />{' '}
               <Localized id="link-copied">
                 <span />
               </Localized>
-            </React.Fragment>
+            </>
           );
         }}>
         <input type="text" readOnly value={SHARE_URL} ref={shareURLInputRef} />
@@ -70,7 +70,7 @@ function ShareButtons({ getString, shareTextId }: Props) {
         onClick={() => trackSharing('twitter', locale)}>
         <FontIcon type="twitter" />
       </a>
-    </React.Fragment>
+    </>
   );
 }
 

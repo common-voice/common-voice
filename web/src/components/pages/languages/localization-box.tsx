@@ -75,10 +75,10 @@ function Skeleton({
             {loading ? (
               <ContentLoader height={25} />
             ) : (
-              <React.Fragment>
+              <>
                 {metricLabel}
                 <b className="value">{metricValue.toLocaleString()}</b>
-              </React.Fragment>
+              </>
             )}
           </div>
           <Hr />
@@ -86,13 +86,13 @@ function Skeleton({
             {loading ? (
               <ContentLoader height={25} />
             ) : (
-              <React.Fragment>
+              <>
                 {progressLabel}
                 <span className="value">
                   <b>{formatProgress(progress)}</b> /{' '}
                   {formatProgress(progressTotal)}
                 </span>
-              </React.Fragment>
+              </>
             )}
           </div>
           {loading ? (
@@ -143,7 +143,7 @@ const LocalizationBox = React.memo((props: Props) => {
   );
 
   return (
-    <React.Fragment>
+    <>
       {showModal && (
         <LocalizationProvider bundles={buildBundleGenerator()}>
           <GetInvolvedModal
@@ -207,7 +207,7 @@ const LocalizationBox = React.memo((props: Props) => {
           </LocalizationProvider>
         </Skeleton>
       )}
-    </React.Fragment>
+    </>
   );
 });
 

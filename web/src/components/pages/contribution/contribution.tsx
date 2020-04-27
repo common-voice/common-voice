@@ -418,7 +418,7 @@ class ContributionPage extends React.Component<Props, State> {
     ) : (
       errorContent ||
         (this.isLoaded && (
-          <React.Fragment>
+          <>
             <div className="cards-and-pills">
               <div />
 
@@ -567,7 +567,7 @@ class ContributionPage extends React.Component<Props, State> {
                 )}
               </div>
             </div>
-          </React.Fragment>
+          </>
         ))
     );
   }

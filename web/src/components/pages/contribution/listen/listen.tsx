@@ -246,7 +246,7 @@ class ListenPage extends React.Component<Props, State> {
     const clipIndex = this.getClipIndex();
     const activeClip = clips[clipIndex];
     return (
-      <React.Fragment>
+      <>
         <audio
           {...(activeClip && { src: activeClip.audioSrc })}
           preload="auto"
@@ -301,7 +301,7 @@ class ListenPage extends React.Component<Props, State> {
           onReset={this.reset}
           onSkip={this.handleSkip}
           primaryButtons={
-            <React.Fragment>
+            <>
               <VoteButton
                 kind="yes"
                 onClick={this.voteYes}
@@ -317,7 +317,7 @@ class ListenPage extends React.Component<Props, State> {
                 onClick={this.voteNo}
                 disabled={!hasPlayed && !hasPlayedSome}
               />
-            </React.Fragment>
+            </>
           }
           pills={clips.map(
             ({ isValid }, i) => (props: ContributionPillProps) => {
@@ -371,7 +371,7 @@ class ListenPage extends React.Component<Props, State> {
           ]}
           type="listen"
         />
-      </React.Fragment>
+      </>
     );
   }
 }

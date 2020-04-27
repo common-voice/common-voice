@@ -39,13 +39,13 @@ const Options = withLocalization(
   }: {
     children: { [key: string]: string };
   } & LocalizationProps) => (
-    <React.Fragment>
+    <>
       {Object.entries(children).map(([key, value]) => (
         <option key={key} value={key}>
           {getString(key, null, value)}
         </option>
       ))}
-    </React.Fragment>
+    </>
   )
 );
 
@@ -338,7 +338,7 @@ function ProfilePage({
       <Hr />
 
       {!user.account?.basket_token && (
-        <React.Fragment>
+        <>
           <div className="signup-section">
             <Tooltip
               arrow
@@ -401,7 +401,7 @@ function ProfilePage({
           </div>
 
           <Hr />
-        </React.Fragment>
+        </>
       )}
 
       <Localized id="profile-form-submit-save">

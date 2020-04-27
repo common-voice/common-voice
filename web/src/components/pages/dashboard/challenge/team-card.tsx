@@ -58,13 +58,13 @@ export default function TeamboardCard({
               </>
             )}
             {showVisibleIcon && (
-              <React.Fragment>
+              <>
                 <button type="button" onClick={showOverlay}>
                   {account.visible ? <EyeIcon /> : <EyeOffIcon />}
                   <span className="text">Set my visibility</span>
                 </button>
                 <div className="icon-divider" />
-              </React.Fragment>
+              </>
             )}
             <div
               className="leaderboard-info"

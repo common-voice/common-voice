@@ -159,7 +159,7 @@ export const BarPlot = ({
         (i * (width - PLOT_PADDING - TEXT_OFFSET)) / BAR_COUNT;
 
       return (
-        <React.Fragment>
+        <>
           {Array.from({ length: BAR_COUNT }).map((_, i) => (
             <rect
               key={i}
@@ -191,7 +191,7 @@ export const BarPlot = ({
               />
             );
           })}
-        </React.Fragment>
+        </>
       );
     }}
   </Plot>

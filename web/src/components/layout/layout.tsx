@@ -305,7 +305,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                 </div>
               )}
               {!isBuildingProfile && (
-                <React.Fragment>
+                <>
                   {user.account ? (
                     <Localized id="logout">
                       <LinkButton rounded href="/logout" />
@@ -315,7 +315,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                       <LinkButton rounded href="/login" />
                     </Localized>
                   )}
-                </React.Fragment>
+                </>
               )}
             </div>
           </Nav>
