@@ -64,6 +64,7 @@ hi-IN = Hindi
 hr = Croatian
 hsb = Sorbian, Upper
 hu = Hungarian
+hy-AM = Armenian
 ia = Interlingua
 id = Indonesian
 is = Icelandic
@@ -237,7 +238,7 @@ whats-public = What's Public?
 email-not-public = We will not make your email public.
 recordings-and-locale-public = The number of recordings and which languages you contribute to will be public.
 username-optin-public = You can choose to make your username public or anonymous.
-demographic-deidentified = Optionally submitted demographic data (e.g. age, sex, language, and accent) is de-identified from your submitted voice data and will never be made public on your profile.
+demographic-deidentified-clarity = Optionally submitted demographic data (e.g. age, sex, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.
 username-email-not-demographic = Your username and email will not be associated with the published data.
 
 
@@ -643,8 +644,8 @@ contribute-more =
     }
 record-cta = Start recording
 record-platform-not-supported = We’re sorry, your platform is not currently supported.
-record-platform-not-supported-desktop = On desktop devices you can contribute by downloading...
-record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
+record-platform-not-supported-desktop = On desktop devices you can contribute by downloading…
+record-platform-not-supported-ios-non-safari = On iOS please continue with Safari to enable recording…
 record-must-allow-microphone = You must allow microphone access.
 record-no-mic-found = No microphone found.
 record-error-too-short = The recording was too short.

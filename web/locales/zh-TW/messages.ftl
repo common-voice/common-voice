@@ -68,6 +68,7 @@ hi-IN = 印地語
 hr = 克羅埃西亞語
 hsb = 上索布語
 hu = 匈牙利語
+hy-AM = 亞美尼亞語
 ia = 國際語
 id = 印尼語
 is = 冰島語
@@ -232,7 +233,7 @@ whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的 E-Mail。
 recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
 username-optin-public = 您可以讓使用者名稱公開或保持匿名。
-demographic-deidentified = 非必要提供的人口統計資料（例如年齡、性別、語言、口音）將會在您送出的語音資料中被去識別化，也永遠不會公開在您的資料上。
+demographic-deidentified-clarity = 選填的人口統計資料（例如年齡、性別、語言、腔調）不會在您的個人資料上公開，也不會在資料集中與您的帳號連結。每個錄音片段只會為了能做更準確的分析，而與您的人口統計資料連結。舉例來說，研究者可能想要對特定的人口分層做出更細的訓練模型。
 username-email-not-demographic = 您的使用者名稱與 E-Mail 不會跟公開發布的資料被關聯起來。
 
 ## Speak & Listen Shortcuts
@@ -624,7 +625,7 @@ contribute-more = 準備好再作 { $count } 筆了嗎？
 record-cta = 開始錄音
 record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
 record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
-record-platform-not-supported-ios = <bold>iOS</bold> 使用者可下載我們的免費程式:
+record-platform-not-supported-ios-non-safari = 在 iOS 平台，請繼續前往 Safari 開啟錄音功能…
 record-must-allow-microphone = 您必須允許使用麥克風。
 record-no-mic-found = 找不到麥克風
 record-error-too-short = 錄音太短了。

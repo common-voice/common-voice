@@ -68,6 +68,7 @@ hi-IN = 印地文
 hr = 克羅地亞文
 hsb = 上索布文
 hu = 匈牙利文
+hy-AM = 亞美尼亞文
 ia = 因特文
 id = 印尼文
 is = 冰島文
@@ -232,7 +233,7 @@ whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的電郵地址。
 recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
 username-optin-public = 您可以選擇公開您的使用者名稱，或保持匿名。
-demographic-deidentified = 非必要提供的人口統計資料（例如年齡、性別、語言、口音）將會在您送出的語音資料中被去識別化，也永遠不會公開在您的資料上。
+demographic-deidentified-clarity = 所有可選性提供的人口統計資料，絕不會在您的個人檔案上公開，也不會在數據集中有所關聯。每一片獨立的錄音才會和您提交的人口統計資料挂鈎，讓來提供更準確的分析 -- 例如學者可能想訓練一個針對某部分人口的機器訓練模型。
 username-email-not-demographic = 您的使用者名稱和電郵地址不會跟公開發布的數據有掛鉤。
 
 ## Speak & Listen Shortcuts
@@ -333,7 +334,7 @@ on = 開
 avatar-clip-title = 給你的個人頭像一把聲音
 change-your-avatar-clip = 想更換您的錄音片段嗎？
 recording-in-progress = 錄音中
-avatar-clip-recorded = 您的頭像現可包含一段錄音片段！
+avatar-clip-recorded = 您的個人頭像現可包含一段錄音片段！
 record-voice-wave = 錄下 VOICEWAVE
 retry-voice-wave-recording = 重試
 re-record = 重新錄製
@@ -360,11 +361,19 @@ change-email-setings = 請到「設定」内的「登入身分」修改電郵地
 
 faq-title = 常見問題
 faq-what-cv-q = Common Voice 係咩嘢？
+faq-what-cv-a =
+    語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Common Voice 是 Mozilla 打算讓語音識別技術變得更好、讓任何人都更能使用的計畫一部分。Common Voice 是一套收集了世界各地人們所捐贈的語音數據庫，希望讓任何人都可以快速而簡單地訓練出可識別不同語言的語音應用程式。
+    
+    我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套多元的語音數據集，來幫助開發者、創業家，以及不同的社群縮窄這個科技上的鴻溝。除了 Common Voice 的數據集外，我們也在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
 faq-why-important-q = 點解咁重要？
 faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
+faq-how-get-a = 我們的數據集可到 <datasetLink>Common Voice 數據集頁面</datasetLink>下載，本數據集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的數據集。
 faq-when-release2-q = 你哋幾時會發布其他語言的 Common Voice 數據？
+faq-when-release2-a = 我們正動員群眾，整理不同語言的 Common Voice 數據庫。如果你也希望為 Common Voice 的新語言出一分力，可以用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink> 將新句子加入數據庫，又或者上  <pontoonLink>Pontoon</pontoonLink> 翻譯網站內容。當新語言的數據庫集齊 5000 條句子並獲審批，便會正式加入 Common Voice，開始收集錄音片段。
 faq-why-mission-q = 為什麼 Common Voice 係 Mozilla 使命的一部分？
+faq-why-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的計劃來幫助網路創作者。隨著採用語音技術的程式激增，我們相信這些程式應該公平地服務所有使用者。這代表打造與測試語音科技時，需要滿足更多語言、腔調、人口的需求。Common Voice 將會成為一套能夠幫助 Mozilla 和全球開發者群衆的公眾資源，並已用於我們自己的其他計劃中。
 faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
+faq-what-cv-and-deepspeech-a = Common Voice 能夠與 Mozilla 的開放原始碼語音識別引擎 Deep Speech 互補。初版的 Deep Speech 發行於 2017 年 11 月，並持續發展。與 Common Voice 資料集一起，我們相信這套開放原始碼語音辨識技術應開放給所有人使用，也希望這些技術可讓開發者打造出新一波的產品與服務。
 faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
 faq-is-goal-assistant-a = Common Voice 數據集的目標是讓任何人都能打造語音識別、說話者識別，或任何其他需要語音資料的應用程式。語音助理便是您可以用這個數據集來打造的應用程式之一。
 faq-do-want-native-q = 我並非母語人士，而且講話有點口音，你們仍想要我的聲音嗎？
@@ -375,17 +384,27 @@ faq-why-different-speakers-a =
     這就是為什麼我們的語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解還沒有我的語言？
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
+faq-what-quality-a = 我們希望 Common Voice 數據集能夠反映出語音轉文字引擎在野外也會聽到的聲音，所以我們希望能夠收集各種環境下與不同錄音品質的片段。除了一個多元的說話者群體，如果這個數據集包含了各種語音品質的片段，便可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至數據集中。
 faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目標？
 faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時數。
 faq-how-calc-hours-q = Common Voice 如何計算時數？
 faq-how-calc-hours-a = 我們透過估算每筆錄音的平均長度來計算時數，並乘以所有語言的錄音數量。
 faq-where-src-from-2-q = 這些文本來源出自何處？
+faq-where-src-from-2-a =
+    我們的來源文本來自貢獻者的原始貢獻，以及來自公眾領域的影片劇本，例如 <italic>莫負少年頭</italic> 的對白腳本。
+    
+    您可到此 <githubLink>GitHub 資料夾</githubLink>檢視我們的來源文本。
 faq-why-not-ask-read-q = 為什麼你們不讓人來念出書本的內容，或是維基百科內的條目？
+faq-why-not-ask-read-a = 為了讓 Common Voice 數據集發揮最大效益，我們決定只允許收錄以 Creative Commons (CC0) 授權條款提供使用的來源文本。使用 CC0 條款標準會比較難找到來源文本，但能讓任何人都可用出品的語音資料，而不需受 Mozilla 的限制或授權。最終我們想讓這個多語言數據集能為最多人（包含研究者、大學、創業公司、政府、社團組織、有興趣的人）發揮最大效益。
 faq-why-account-q = 我點解應該去註冊帳戶？
 faq-is-account-public-q = 我的帳戶資料是公開的嗎？
 faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音人士的隱私？
-faq-how-privacy-a = 數據集中所有的錄音片段都不會包含可識別出個人的資訊。若貢獻者提供個人相關資料，該資訊將在錄音片段被合併成數據集以供下載前去識別化，永遠不會在他們的個人檔案首頁中公開。
+faq-how-privacy-a = 數據集中所有的錄音片段都不會包含可識別出個人的資訊。若貢獻者在個人檔案中提供了相關資料，該資訊將在錄音片段被合併成數據集以供下載前去識別化，永遠不會在他們的個人檔案首頁中公開。
 faq-what-determine-identity-q = 在 Common Voice 數據集中無法「確認發言者身分」是什麼意思？
+faq-what-determine-identity-a =
+    Common Voice 數據集是一份開放，可公開使用的資源。含有語音功能的應用程式可使用這份資料來訓練程式。為了保護貢獻者的安全，我們要求所有下載 Common Voice 資料集的人確保貢獻者的隱私安全。
+    
+    所有語音片段中的個人識別資料已經被清除。當您下載數據集時，就代表您同意不會嘗試識別數據集當中的任何貢獻者。這代表您不能嘗試將數據集中的資訊，與貢獻者的個人資訊連結起來。但您可以將數據集中的不同資訊互相連結起來，用來訓練語音識別、說話者識別等功能，或其他應用程式。
 faq-what-is-cv = Common Voice 是甚麼？
 faq-using-cv = 使用 Common Voice
 faq-description = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。
@@ -589,7 +608,7 @@ contribute-more =
 record-cta = 開始錄音
 record-platform-not-supported = 對不起，你的平台暫時不被支援。
 record-platform-not-supported-desktop = 在桌面電腦上，您可以下載最新的：
-record-platform-not-supported-ios = <bold>iOS</bold> 用戶可以下載我們免費的應用程式：
+record-platform-not-supported-ios-non-safari = 用 iOS 的請使用 Safari 瀏覽器繼續來啓用錄音功能…
 record-must-allow-microphone = 你必需允許我們存取你的咪高峰。
 record-no-mic-found = 我們找不到你的咪高峰。
 record-error-too-short = 這個錄音太短了。
@@ -617,6 +636,8 @@ listen-instruction = { $actionType }<playIcon></playIcon> 佢哋將句子讀得�
 listen-again-instruction = 做得好！<playIcon></playIcon> 準備好就可以再聽更多
 listen-3rd-time-instruction = 完成兩筆了 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
+listen-empty-state = 這款語言可以驗證的錄音已經被做完了…
+speak-empty-state = 這款語言可以錄音的句子已經用完了…
 speak-empty-state-cta = 貢獻新的句子
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
@@ -734,7 +755,7 @@ share-goal = 分享我嘅目標
 delete-q = 您想刪除埋所有您的錄音，還是要將錄音保留喺 Common Voice 嘅資料集中？
 keep = 保留
 remove = 移除
-keep-info = 您的錄音會以匿名的形式保留喺 Common Voice 嘅資料集。當您刪除咗個人資料後，就唔能夠再從資料集中刪除錄音。
+keep-info = 您的錄音會以匿名的形式保留喺 Common Voice 嘅資料集。當您刪除咗個人檔案後，就唔能夠再從資料集中刪除錄音。
 remove-info = 我們將會審核您從資料集中刪除錄音的請求。如果您的請求獲得批准，我們將會聯絡已下載資料集的使用者，並請他們也刪除您的錄音。
 why-delete-recordings =
     學術界、小企業與語音識別愛好者會使用 Common Voice 的錄音片段來幫助訓練、發展語音模型等公共資源。
@@ -747,5 +768,5 @@ profile-form-delete = 刪除個人檔案
 welcome-staff = 你好 { $company } 的員工！
 help-contribute = 你可以透過創立一個 Common Voice 帳戶並貢獻錄音，從而協助我們建立一個多元、開放源碼的數據集。
 login-company = 以 { $company } 電郵登入 / 註冊
-profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助，下面話您知點解。
+profile-not-required = 不需要成立個人檔案便即可貢獻，但如果有的話會更有幫助，下面話您知點解。
 read-more-about = 去關於我們的頁面瞭解更多

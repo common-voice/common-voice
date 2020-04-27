@@ -68,6 +68,7 @@ hi-IN = Hindišćina
 hr = Chorwatšćina
 hsb = Górnoserbšćina
 hu = Hungoršćina
+hy-AM = Armeńšćina
 ia = Interlingua
 id = Indonešćina
 is = Islandšćina
@@ -239,7 +240,7 @@ whats-public = Co jo zjawne?
 email-not-public = Wašu e-mailowu adresu njewózjawijomy.
 recordings-and-locale-public = Licba nagraśow a rěcow, ku kótarymž pśinosujośo, budu zjawne.
 username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
-demographic-deidentified = Na žycenje wótpósłane demografiske daty (na pś. stastwo, rod, rěc a akcent) se z wašych wótpósłanych głosowych datow wótwónoźiju a nigda we wašom profilu njewózjawiju.
+demographic-deidentified-clarity = Opcionelnje zapódane demografiske daty (na pś. starstwo, rod, rěc a akcent) se we wašom profilu nigda njewózjawiju a z wašym kontom w datowej sajźbje njezwězaju. Jadnotliwe awdioklipy se z demografiskimi datami za dokradnjejšu analyzu zwězaju - slěźaŕ na pśikład co snaź treningowy model na wěsty demografiski segment wusměriś.
 username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
 ## Speak & Listen Shortcuts
@@ -637,7 +638,7 @@ contribute-more =
 record-cta = Nagraśe startowaś
 record-platform-not-supported = Jo nam luto, ale waša platforma se tuchylu njepódpěra.
 record-platform-not-supported-desktop = Na desktopowych licadłach móžośo nejnowšu wersiju ześěgnuś:
-record-platform-not-supported-ios = Wužywarje <bold>iOS</bold> mógu naše dermotne nałoženje ześěgnuś:
+record-platform-not-supported-ios-non-safari = Pšosym pókšacujśo na iOS ze Safari, aby nagraśe zmóžnił…
 record-must-allow-microphone = Musyśo pśistup k mikrofonoju dowóliś.
 record-no-mic-found = Žeden mikrofon namakany.
 record-error-too-short = Nagraśe jo było pśekrotke.

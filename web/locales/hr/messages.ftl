@@ -68,6 +68,7 @@ hi-IN = Hindi
 hr = Hrvatski
 hsb = Lužičkosrpski, gornji
 hu = Mađarski
+hy-AM = Armenski
 ia = Interlingua
 id = Indonezijski
 is = Islandski
@@ -249,7 +250,7 @@ whats-public = Što je javno?
 email-not-public = Tvoju adresu e-pošte nećemo javno objavljivati.
 recordings-and-locale-public = Broj snimaka i jezici na kojima doprinosiš, bit će javni.
 username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime ili ne.
-demographic-deidentified = Opcionalno poslani demografski podaci (npr. dob, spol, jezik i narječje/naglasak) uklanjaju se od tvojih poslanih glasovnih podataka i nikada se neće objaviti na tvom profilu.
+demographic-deidentified-clarity = Opcionalno poslani demografski podaci (kao što su dob, spol, jezik i naglasak) nikada neće biti objavljeni na tvom profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedine audio snimke bit će povezane s demografskim podacima radi točnije analize – na primjer, istraživač će možda željeti usmjeriti model treninga na određeni demografski segment.
 username-email-not-demographic = Tvoje korisničko ime i adresa e-pošte neće biti povezani s objavljenim podacima.
 
 ## Speak & Listen Shortcuts
@@ -650,7 +651,7 @@ contribute-more =
 record-cta = Počni snimati
 record-platform-not-supported = Žao nam je, ali vaša platforma trenutačno nije podržana.
 record-platform-not-supported-desktop = Na stolnim računalima možete preuzeti najnovije:
-record-platform-not-supported-ios = <bold>iOS</bold> korisnici mogu preuzeti našu besplatnu aplikaciju:
+record-platform-not-supported-ios-non-safari = Na iOS-u nastavi sa Safarijem kako bi se omogućilo snimanje …
 record-must-allow-microphone = Morate dopustiti pristup mikrofonu.
 record-no-mic-found = Nije pronađen mikrofon.
 record-error-too-short = Snimka je bila prekratka.

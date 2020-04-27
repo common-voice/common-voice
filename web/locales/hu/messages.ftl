@@ -68,6 +68,7 @@ hi-IN = Hindi
 hr = Horvát
 hsb = Szorb, felső
 hu = Magyar
+hy-AM = Örmény
 ia = Interlingva
 id = Indonéz
 is = Izlandi
@@ -239,7 +240,7 @@ whats-public = Mi nyilvános?
 email-not-public = Nem fogjuk nyilvánossá tenni az e-mail címét.
 recordings-and-locale-public = A felvételei száma, és a nyelvek amikben Ön közreműködik, nyilvánosak lesznek.
 username-optin-public = Kiválaszthatja, hogy a felhasználó neve nyilvános vagy privát legyen.
-demographic-deidentified = A benyújtott demográfiai adatok (pl. kor, nem, nyelv és akcentus), hangadatokból nem azonosíthatóak, és soha nem lesznek nyilvánosak a profilján.
+demographic-deidentified-clarity = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipeket a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – például egy kutató egy konkrét demográfiai szegmensre akarhat betanítani egy modellt.
 username-email-not-demographic = A felhasználóneve és az e-mail címe nem lesz társítva a közzétett adatokkal.
 
 ## Speak & Listen Shortcuts
@@ -631,7 +632,7 @@ contribute-more = Készen áll még { $count } felvételre?
 record-cta = Felvétel indítása
 record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
 record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti a legfrissebbet:
-record-platform-not-supported-ios = Az <bold>iOS</bold> felhasználók letölthetik szabad szoftver alkalmazásunkat:
+record-platform-not-supported-ios-non-safari = iOS-en folytassa a Safarival a felvétel engedélyezéséhez…
 record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
 record-no-mic-found = Nem található mikrofon.
 record-error-too-short = A felvétel túl rövid volt.

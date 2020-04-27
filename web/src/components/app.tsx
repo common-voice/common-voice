@@ -18,9 +18,7 @@ import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
 import {
-  isFirefoxFocus,
-  isMobileWebkit,
-  isNativeIOS,
+  isMobileSafari,
   isProduction,
   isStaging,
   replacePathLocale,
@@ -54,9 +52,10 @@ const ListenPage = React.lazy(() =>
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 
-const SENTRY_FE_DSN = "https://4a940c31e4e14d8fa6984e919a56b9fa@sentry.prod.mozaws.net/491";
-const FS_KEY = "QDBTF";
-const AMPLITUDE_KEY = "";
+const SENTRY_FE_DSN =
+  'https://4a940c31e4e14d8fa6984e919a56b9fa@sentry.prod.mozaws.net/491';
+const FS_KEY = 'QDBTF';
+const AMPLITUDE_KEY = '';
 
 interface PropsFromState {
   api: API;
@@ -324,23 +323,14 @@ class App extends React.Component {
   constructor(props: any, context: any) {
     super(props, context);
 
-    if (isNativeIOS()) {
-      this.bootstrapIOS();
-    }
-
-    if (isFirefoxFocus()) {
-      document.body.classList.add('focus');
-    }
-
-    if (isMobileWebkit()) {
+    if (isMobileSafari()) {
       document.body.classList.add('mobile-safari');
     }
 
     this.userLocales = negotiateLocales(navigator.languages);
 
     Sentry.init({
-      dsn:
-        SENTRY_FE_DSN,
+      dsn: SENTRY_FE_DSN,
       environment: isProduction() ? 'prod' : 'stage',
       release: process.env.GIT_COMMIT_SHA || null,
     });
@@ -350,12 +340,12 @@ class App extends React.Component {
         trackingOptions: {
           carrier: false,
           dma: false,
-          ip_address: false
-        }
+          ip_address: false,
+        },
       });
 
       FullStory.init({
-        orgId: FS_KEY
+        orgId: FS_KEY,
       });
     }
   }
@@ -380,13 +370,6 @@ class App extends React.Component {
       Sentry.captureException(error);
     });
     this.setState({ Sentry });
-  }
-
-  /**
-   * Perform any native iOS specific operations.
-   */
-  private bootstrapIOS() {
-    document.body.classList.add('ios');
   }
 
   render() {

@@ -68,6 +68,7 @@ hi-IN = Tahendit
 hr = Takarwasit
 hsb = Sorbyan, Tameqqrant
 hu = Tahungaṛit
+hy-AM = Taṛminit
 ia = Tutlayt tagraɣlant
 id = Tandunizit
 is = Taṣlandit
@@ -233,7 +234,7 @@ whats-public = D acu-tt telɣut tazayezt?
 email-not-public = Ur nettara ara imayl d azayez.
 recordings-and-locale-public = Amḍan n yikalasen akked tutlayin anida tettekkaḍ ad d-banen.
 username-optin-public = Tzemreḍ ad tferneḍ isem-ik n useqdac ma ad yili d azayez neɣ d abadni.
-demographic-deidentified = Talɣut tadimugrafit tafrayant (amedya: awtay, tuzuft, tutlayt akked ususru) ad tettwaqqen ɣer ikalasen-ik daɣen ur d-ttwaskanen ara i yimdanen ɣef umaɣnu-ik.
+demographic-deidentified-clarity = Isefka n tedimugrafit i d-yettwaznen s lxetyaṛ (md. awtay, tuzuft, tutlayt, akken ususru) ur ǧǧin ad ttwaseknen s wudem azayaz, daɣen ad ttwacudden ɣer umiḍan-ik deg tegrumma n yisefka. Ikalasen imeslawen i yiman-nsen ad ttwaqqnen d yisefka n tedimugrafit i wugar n tseddi n tesleḍt - amedya, amnadi izmer ad yebɣu taneɣruft n usluɣmu n kra n yimdanen kan.
 username-email-not-demographic = Isem-ik n useqdac akked tansa-ik imayl ur d-ttwaqqanen ara ɣer yisefka-ik izuyaz.
 
 ## Speak & Listen Shortcuts
@@ -629,7 +630,7 @@ contribute-more =
 record-cta = Bdu asekles
 record-platform-not-supported = Suref-aɣ, anagraw-ik ur yettwasefrak ara akka tura.
 record-platform-not-supported-desktop = I yiselkimen n tnrait, tzemreḍ ad tessidreḍ imaynuten:
-record-platform-not-supported-ios = Iseqdsacen n <bold>iOS</bold> zemren ad sidren asnaɣ-nneɣ n baṭel :
+record-platform-not-supported-ios-non-safari = Deg iOS ttxil kemmel s Safari akken ad tremdeḍ asekles…
 record-must-allow-microphone = Ilaq ad tsirgeḍ anekcum i usawaḍ.
 record-no-mic-found = Ulac asawaḍ.
 record-error-too-short = Meẓẓi mliḥ usekles-nni.

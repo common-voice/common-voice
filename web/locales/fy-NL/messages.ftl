@@ -68,6 +68,7 @@ hi-IN = Hindi
 hr = Kroätysk
 hsb = Boppe-Sorbysk
 hu = Hongaarsk
+hy-AM = Armeensk
 ia = Ynterlingua
 id = Yndonezysk
 is = Iislânsk
@@ -243,7 +244,7 @@ whats-public = Wat is iepenbier?
 email-not-public = Wy meitsje jo e-mailadres net iepenbier.
 recordings-and-locale-public = It oantal opnamen en de talen wêroan jo bydrage binne iepenbier.
 username-optin-public = Jo kinne kieze oft jo brûkersnamme iepenbier of anonym is.
-demographic-deidentified = Opsjoneel yntsjinne demografyske gegevens (byg. leeftyd, geslacht, taal en aksint) wurde anonym makke tsjinoer dy fan jo yntsjinne stimgegevens en sille nea iepenbier makke wurde op jo profyl.
+demographic-deidentified-clarity = Opsjoneel yntsjinne demografyske gegevens (byg. leeftiid, geslacht, taal en aksint) wurde nea iepenbier makke op jo profyl en wurde net keppele oan jo account yn de gegevensset. Ofsûnderlike lûdsopnamen wurde keppele oan demografyske gegevens foar in sekuere analyze – in ûndersiker kin bygelyks in trainingsmodel op in spesifyk demografysk segmint rjochtsje.
 username-email-not-demographic = Jo brûkersnamme en e-mailadres sille net mei de publisearre gegevens keppele wurde.
 
 ## Speak & Listen Shortcuts
@@ -282,7 +283,7 @@ status-contribute = Draach by mei jo stim
 status-hours =
     { $hours ->
         [one] Op dit stuit ien oer falidearre!
-       *[other] Op dit stuit { $hours } oeren falidearre!
+       *[other] Op dit stuit { $hours } oer falidearre!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -482,7 +483,7 @@ localization = Lokalisaasje
 localization-explanation = Dit is ús proses foar oersetten en oanpassen fan ús ynhâld foar in protte locales (talen).
 sentence-collection = Sinnensamling
 sentence-collection-explanation = It sammeljen fan sinnen út it publike domein, of it skriuwen fan nije foar it publike domein.
-hours-recorded-explanation = It oantal oeren oan stimopnamen dat wy oant no ta sammele hawwe.
+hours-recorded-explanation = It oantal oer oan stimopnamen dat wy oant no ta sammele hawwe.
 hours-validated-explanation = It oantal spraakopname-oeren dat troch 2 fan de 3 brûkers mei in ‘Ja’-stim falidearre is. Dizze markearje de foarútgong yn de rjochting fan de totale projektdoelstelling fan 10.000 oer.
 sst = Spraak-nei-tekst (STT)
 sst-explanation = Spraak-nei-tekst (STT)-technologyen sette stimgegevens om nei tekst.
@@ -562,7 +563,7 @@ other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
 deepspeech-info = De Common Voice-gegevensset is in oanfolling op Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, dy't jo brûke kinne om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
 common-voice-info-new = Hawwe jo fragen oer Common Voice? Ideeën foar ferbetteringen of kommentaar oer in spesifike taal? Praat mei op ús <discourseLink>Discourse-foarum</discourseLink> en lit it ús witte.
-data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
+data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oer lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
 data-other-voxforge-description = VoxForge is opset om ûndertitele spraak te sammeljen foar gebrûk mei Free en Open Source Speech Recognition Engines.
@@ -638,7 +639,7 @@ contribute-more = Klear om der noch { $count } te dwaan?
 record-cta = Opname starte
 record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit net stipe.
 record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
-record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergeze app downloade:
+record-platform-not-supported-ios-non-safari = Gean op iOS troch mei Safari om opnimmen mooglik te meitsjen…
 record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
 record-no-mic-found = Gjin mikrofoan fûn.
 record-error-too-short = De opname wie te koart.
@@ -754,8 +755,8 @@ want-to-continue = Wolle jo trochgean?
 finish-editing = Earst bewurking foltôgje?
 lose-changes-warning = Troch no ôf te sluten ferlieze jo jo wizigingen
 build-custom-goal = In oanpast doel bouwe
-help-reach-hours = Help mei { NUMBER($hours) } oeren yn it { $language } te berikjen mei in persoanlike doelstelling
-help-reach-hours-general = Help mei in persoanlike doelstelling Common Voice { NUMBER($hours) } oeren yn in taal te berikjen
+help-reach-hours = Help mei { NUMBER($hours) } oer yn it { $language } te berikjen mei in persoanlike doelstelling
+help-reach-hours-general = Help mei in persoanlike doelstelling Common Voice { NUMBER($hours) } oer yn in taal te berikjen
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
 activity-needed-calculation = { NUMBER($totalHours) } is berikber yn wat mear as { NUMBER($periodMonths) } moannen as { NUMBER($people) } persoanen { NUMBER($clipsPerDay) } fragminten op in dei opnimme.

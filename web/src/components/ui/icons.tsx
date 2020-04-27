@@ -298,6 +298,7 @@ export const CloudIcon = uniqueIcon(id => (
       <mask id={'cloud-b' + id} fill="#fff">
         <use xlinkHref={'#cloud-a' + id} />
       </mask>
+      <use xlinkHref={'#cloud-a' + id} />
       <g fill="#4A4A4A" mask={`url(#cloud-b${id})`}>
         <path d="M0 0h24v24H0z" />
       </g>
@@ -889,6 +890,11 @@ export const FirefoxColor = Icon(
 export const ChromeColor = Icon(
   require('./icons/chrome-color.svg'),
   'chrome-color'
+);
+
+export const SafariColor = Icon(
+  require('./icons/safari-color.svg'),
+  'safari-color'
 );
 
 export const CautionIcon = Icon(

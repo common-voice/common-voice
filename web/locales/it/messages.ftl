@@ -231,7 +231,7 @@ whats-public = Quali dati sono pubblici?
 email-not-public = Non renderemo il tuo indirizzo email pubblico.
 recordings-and-locale-public = Il numero di registrazioni e le lingue alle quali contribuisci saranno pubbliche.
 username-optin-public = Puoi scegliere di rendere il tuo nome utente pubblico o anonimo.
-demographic-deidentified = Le informazioni personali fornite facoltativamente (ad esempio età, sesso, lingua e accento) sono sottoposte a un processo di anonimizzazione e non saranno mai visibili sul tuo profilo pubblico.
+demographic-deidentified-clarity = I dati demografici eventualmente forniti (ad es. età, sesso, lingua e accento) non saranno mai resi pubblici sul tuo profilo né collegati al tuo account nel dataset. Le singole registrazioni saranno associate ai dati demografici per un’analisi più accurata, per esempio nel caso in cui un ricercatore volesse concentrare il suo modello di apprendimento vocale su uno specifico segmento demografico.
 username-email-not-demographic = Il tuo nome utente e il tuo indirizzo email non verranno associati ai dati pubblicati.
 
 ## Speak & Listen Shortcuts
@@ -611,7 +611,6 @@ contribute-more = Sei pronto a farne ancora { $count }?
 record-cta = Avvia la registrazione
 record-platform-not-supported = La piattaforma in uso non è attualmente supportata.
 record-platform-not-supported-desktop = Su computer desktop puoi scaricare l’ultima versione:
-record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
 record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
 record-no-mic-found = Impossibile trovare il microfono.
 record-error-too-short = La registrazione è troppo breve.

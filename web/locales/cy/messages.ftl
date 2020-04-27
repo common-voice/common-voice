@@ -68,6 +68,7 @@ hi-IN = Hindi
 hr = Croatieg
 hsb = Sorbeg Uwch
 hu = Hwngareg
+hy-AM = Armeneg
 ia = Interlingua
 id = Indoneseg
 is = Eislandeg
@@ -247,7 +248,7 @@ whats-public = Beth sy'n Gyhoeddus?
 email-not-public = Fyddwn ni ddim yn gwneud eich e-bost yn gyhoeddus.
 recordings-and-locale-public = Bydd y nifer o recordiadau a pha ieithoedd rydych yn cyfrannu atyn nhw yn gyhoeddus.
 username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n anhysbys.
-demographic-deidentified = Bydd data demograffig rydych wedi dewis ei gyflwyno (e.e. oed, rhyw, iaith ac acen) yn cael ei ddadadnabod o'ch data llais rydych wedi ei gyflwyno ac ni fydd yn cael ei wneud yn gyhoeddus ar eich proffil.
+demographic-deidentified-clarity = Fydd data demograffig sy'n cael ei gynnig o ran dewis (e.e. oedran, rhyw, iaith, ac acen) byth yn cael ei gyhoeddi ar eich proffil, a fyddan nhw ddim yn gysylltiedig â'ch cyfrif yn y set ddata. Bydd clipiau sain unigol yn gysylltiedig â data demograffig at ddibenion dadansoddiad mwy cywir - er enghraifft, efallai y bydd ymchwilydd eisiau targedu model hyfforddi at segment demograffig penodol.
 username-email-not-demographic = Ni fydd eich enw defnyddiwr na'ch e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
 
 ## Speak & Listen Shortcuts
@@ -645,7 +646,7 @@ contribute-more = Barod i wneud { $count } yn rhagor?
 record-cta = Cychwyn recordio
 record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
 record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
-record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
+record-platform-not-supported-ios-non-safari = Ar iOS parhewch gyda Safari i alluogi recordio…
 record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
 record-no-mic-found = Heb ganfod meicroffon.
 record-error-too-short = Roedd y recordiad yn rhy fyr.

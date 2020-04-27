@@ -37,13 +37,14 @@ const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
 
 const CSP_HEADER = [
   `default-src 'none'`,
+  `child-src 'self' blob:`,
   `style-src 'self' https://fonts.googleapis.com https://optimize.google.com 'unsafe-inline'`,
   `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
   // Note: we allow unsafe-eval locally for certain webpack functionality.
   `script-src 'self' 'unsafe-eval' 'sha256-yybRmIqa26xg7KGtrMnt72G0dH8BpYXt7P52opMh3pY=' 'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.prod.mozaws.net https://fullstory.com https://edge.fullstory.com`,
   `font-src 'self' https://fonts.gstatic.com`,
-  `connect-src 'self' https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.prod.mozaws.net https://basket.mozilla.org https://basket-dev.allizom.org https://rs.fullstory.com https://edge.fullstory.com`,
+  `connect-src 'self' blob: https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.prod.mozaws.net https://basket.mozilla.org https://basket-dev.allizom.org https://rs.fullstory.com https://edge.fullstory.com`,
   `frame-src https://optimize.google.com`,
 ].join(';');
 
@@ -177,13 +178,6 @@ export default class Server {
       app.use(
         '/contribute.json',
         express.static(path.join(__dirname, '..', 'contribute.json'))
-      );
-
-      app.use(
-        '/apple-app-site-association',
-        express.static(
-          path.join(FULL_CLIENT_PATH, 'apple-app-site-association.json')
-        )
       );
 
       if (options.bundleCrossLocaleMessages) {

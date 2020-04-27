@@ -4,7 +4,7 @@ import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
-import { ChallengeToken } from 'common';
+import { ChallengeToken, Sentence } from 'common';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -63,11 +63,6 @@ export async function getLocaleId(locale: string): Promise<number> {
   }
 
   return localeIds[locale];
-}
-
-export interface Sentence {
-  id: string;
-  text: string;
 }
 
 export default class DB {
@@ -437,18 +432,22 @@ export default class DB {
   async getVoicesStats(
     locale?: string
   ): Promise<{ date: string; value: number }[]> {
+    // It's necesary to manually create an array of all of the hours, because otherwise
+    // if a time interval has no contributions, that hour will just get dropped entirely
     const hours = Array.from({ length: 10 }).map((_, i) => i);
 
     const [rows] = await this.mysql.query(
       `
-        SELECT date, COUNT(DISTINCT client_id) AS value
+        SELECT date, COUNT(DISTINCT activity.client_id) AS value
         FROM (
           SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
           FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
         ) date_alias
-        LEFT JOIN user_client_activities ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR) ${
-          locale ? 'AND locale_id = ?' : ''
-        }
+        LEFT JOIN (
+          SELECT created_at, client_id FROM user_client_activities
+          WHERE created_at > (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL 9 hour)
+          ${locale ? 'AND locale_id = ?' : ''}
+        ) activity ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
         GROUP BY date
     `,
       [locale ? await getLocaleId(locale) : '']
@@ -461,48 +460,34 @@ export default class DB {
     locale?: string,
     client_id?: string
   ): Promise<{ date: string; value: number }[]> {
+    // It's necesary to manually create an array of all of the hours, because otherwise
+    // if a time interval has no contributions, that hour will just get dropped entirely
+    const hours = Array.from({ length: 10 }).map((_, i) => i);
+
     const [rows] = await this.mysql.query(
-      `
-    SELECT
-        date,
-        sum(value) AS value
-    FROM
-        ( SELECT
-            count(*) as value,
-            date_format( votes.created_at,
-            '%Y-%m-%d %H:00' ) AS date
-        FROM
-            votes
-        LEFT JOIN
-            clips
-                on clips.id = votes.clip_id
-        WHERE
-            votes.created_at > (
-                NOW() - INTERVAL 10 hour
-            )
+      `SELECT date, count(activity.created_at) AS value
+          FROM (
+            SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
+            FROM (${hours
+              .map(i => `SELECT ${i} AS hour`)
+              .join(' UNION ')}) hours
+          ) date_alias
+          LEFT JOIN (
+            SELECT created_at
+            FROM clips
+            WHERE clips.created_at > (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL 9 hour)
+            ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+            ${client_id ? 'AND clips.client_id = :client_id' : ''}
+
+            UNION
+
+            SELECT created_at
+            FROM votes
+            WHERE votes.created_at > (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL 9 hour)
             ${locale ? 'AND clips.locale_id = :locale_id' : ''}
             ${client_id ? 'AND votes.client_id = :client_id' : ''}
-        GROUP BY
-            HOUR(votes.created_at)
-        UNION
-        SELECT
-            count(*) as value,
-            date_format( clips.created_at,
-            '%Y-%m-%d %H:00' ) as date
-        FROM
-            clips
-        WHERE
-            clips.created_at > (
-                NOW() - INTERVAL 10 hour
-            )
-          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
-          ${client_id ? 'AND clips.client_id = :client_id' : ''}
-        GROUP BY
-            HOUR(clips.created_at)
-    ) as summary
-      GROUP BY date
-      ORDER BY date desc
-      LIMIT 10
+          ) activity ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
+          GROUP BY date
     `,
       {
         locale_id: locale ? await getLocaleId(locale) : null,
