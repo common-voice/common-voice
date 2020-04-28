@@ -1,5 +1,4 @@
 import { getConfig } from '../../config-helper';
-import { hash } from '../utility';
 import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
@@ -493,17 +492,14 @@ export default class DB {
     original_sentence_id,
     path,
     sentence,
-    sentenceId,
   }: {
     client_id: string;
     locale: string;
     original_sentence_id: string;
     path: string;
     sentence: string;
-    sentenceId: string;
   }): Promise<void> {
     try {
-      sentenceId = original_sentence_id || hash(sentence);
       const localeId = await getLocaleId(locale);
 
       await this.mysql.query(
@@ -512,7 +508,7 @@ export default class DB {
           VALUES (?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE created_at = NOW()
         `,
-        [client_id, sentenceId, path, sentence, localeId]
+        [client_id, original_sentence_id, path, sentence, localeId]
       );
       await this.mysql.query(
         `
@@ -520,7 +516,7 @@ export default class DB {
           SET clips_count = clips_count + 1
           WHERE id = ?
         `,
-        [sentenceId]
+        [original_sentence_id]
       );
     } catch (e) {
       console.error('error saving clip', e);

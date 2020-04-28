@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { PassThrough } from 'stream';
 import promisify from '../../../promisify';
-import { hash } from '../../clip';
+import { hashSentence } from '../../utility';
 import { redis, useRedis } from '../../redis';
 
 const CWD = process.cwd();
@@ -107,8 +107,8 @@ async function importLocaleSentences(
                 .map(sentence => {
                   return `(${[
                     source === 'singleword-benchmark'
-                      ? hash(localeId + sentence)
-                      : hash(sentence),
+                      ? hashSentence(localeId + sentence)
+                      : hashSentence(sentence),
                     sentence,
                     true,
                     localeId,
