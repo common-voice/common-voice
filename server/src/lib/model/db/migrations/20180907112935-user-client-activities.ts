@@ -1,4 +1,4 @@
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   return db.runSql(
     `
       CREATE TABLE user_client_activities (
@@ -14,6 +14,6 @@ export const up = async function(db: any): Promise<any> {
   );
 };
 
-export const down = function(): Promise<any> {
+export const down = function (): Promise<any> {
   return null;
 };

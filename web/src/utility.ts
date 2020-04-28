@@ -6,7 +6,7 @@ const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g');
  * Generate RFC4122 compliant globally unique identifier.
  */
 export function generateGUID(): string {
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
     var r = (Math.random() * 16) | 0,
       v = c == 'x' ? r : (r & 0x3) | 0x8;
     return v.toString(16);
@@ -106,10 +106,7 @@ export async function hash(text: string) {
 
 export function stringContains(haystack: string, needles: string) {
   return (
-    haystack
-      .toUpperCase()
-      .replace(SEARCH_REG_EXP, '')
-      .indexOf(needles) !== -1
+    haystack.toUpperCase().replace(SEARCH_REG_EXP, '').indexOf(needles) !== -1
   );
 }
 

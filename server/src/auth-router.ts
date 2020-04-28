@@ -54,7 +54,7 @@ passport.deserializeUser((sessionUser: any, done: Function) =>
 );
 
 if (DOMAIN) {
-  Auth0Strategy.prototype.authorizationParams = function(options: any) {
+  Auth0Strategy.prototype.authorizationParams = function (options: any) {
     var options = options || {};
 
     const params: any = {};

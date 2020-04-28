@@ -23,10 +23,12 @@ export default ({
       style={{
         ...style,
         background: [
-          `linear-gradient(90deg, ${backgroundColor} ${space -
-            size}px, transparent 1%) center`,
-          `linear-gradient(${backgroundColor} ${space -
-            size}px, transparent 1%) center`,
+          `linear-gradient(90deg, ${backgroundColor} ${
+            space - size
+          }px, transparent 1%) center`,
+          `linear-gradient(${backgroundColor} ${
+            space - size
+          }px, transparent 1%) center`,
           color,
         ].join(', '),
         backgroundSize: `${space}px ${space}px`,

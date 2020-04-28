@@ -8,10 +8,7 @@ const GA_ID = 'UA-101237170-1';
  * Needs to behave like the client side version in /web/src/utility.ts
  */
 function hash(text: string) {
-  return crypto
-    .createHash('sha256')
-    .update(text)
-    .digest('hex');
+  return crypto.createHash('sha256').update(text).digest('hex');
 }
 
 export function trackPageView(path: string, client_id: string) {
