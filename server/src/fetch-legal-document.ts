@@ -29,7 +29,7 @@ export default async function fetchLegalDocument(
   if (textHTML && fetchedAt > Date.now() - CACHE_AGE) {
     return textHTML;
   }
-  const legalLocale = localeMapping[locale] ? localeMapping[locale] : locale;
+  const legalLocale = localeMapping[locale] ?? locale;
 
   const [status, text] = await request({
     uri: `https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_${name}/${legalLocale}.md`,
