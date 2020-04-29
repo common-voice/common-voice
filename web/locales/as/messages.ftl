@@ -446,6 +446,10 @@ about-partnership =
     
     এই প্ৰকল্পত সহায় কৰাৰ বাবে আমি এইসকল লোক আৰু সংগঠনক ধন্যবাদ জনাব বিচাৰোঁ:
 about-get-involved = জড়িত হওঁক
+about-get-involved-text-2 =
+    Common Voice-ক আৰু উন্নত কৰাত সহায় কৰিব খোজেনে?
+    বঢ়িয়া! ইমেইল বা <discourseLink>Discourse</discourseLink>
+    ফ'ৰামসমূহৰ যোগেদি যোগাযোগ কৰক, <githubLink>GitHub</githubLink>-ৰ যোগেদি ছাইটৰ সমস্যা দাখিল কৰক নাইবা <matrixLink>Matrix</matrixLink> কমিউনিটী চ্চেটত যোগদান কৰক।
 about-nav-why-common-voice = কিয় ?
 about-nav-how-it-works = কেনেকৈ ?
 about-nav-partners = অংশীদাৰ
