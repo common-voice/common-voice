@@ -121,6 +121,11 @@
         & path {
             fill: var(--white);
         }
+        &:hover {
+            path {
+                fill: var(--black);
+            }
+        }
     }
 
     & .secondary {

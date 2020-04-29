@@ -549,6 +549,7 @@ export const MicIcon = uniqueIcon(id => (
       <mask id={'mic-mask' + id} fill="#fff">
         <use xlinkHref={'#mic-path' + id} />
       </mask>
+      <use xlinkHref={'#mic-path' + id} />
       <g fill="#FF4F5E" mask={`url(#mic-mask${id})`}>
         <path d="M-5 0h28v28H-5z" />
       </g>
