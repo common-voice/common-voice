@@ -380,10 +380,16 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Neden Common Voice?
+about-subtitle = Common Voice, Mozilla'nın makinelere gerçek insanların nasıl konuştuğunu öğretme girişiminin bir parçasıdır. Ortak Ses veri kümesine ek olarak, Deep Speech adlı bir açık kaynak konuşma tanıma motoru da oluşturuyoruz.
+about-header-description = Bu projelerin her ikisi de dijital konuşma bölünmesini köprüleme çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut kazandırır, ancak geliştiricilerin bunları oluşturmak için muazzam miktarda ses verisine ihtiyacı vardır. Şu anda, bu verilerin çoğu pahalı ve tescilli.
+    Ses verilerini serbestçe ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil diğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
 how-does-it-work-title = Nasıl çalışıyor?
+how-does-it-work-text = Açık kaynak tantanalı sesler iniyoruz. Sesinizi bağışlayın, diğer kişilerin kliplerinin doğruluğunu doğrulayın, veri kümesini herkes için daha iyi hale getirin.
+
 about-speak = Konuş
 about-speak-text = Katkıda bulunanlar ses kayıtlarını bağışlanan cümle bankasından okuyarak kaydederler.
 about-listen-queue = Dinleme Kuyruğu
+about-listen-queue-text = Sesli klipler, dinlemeye hazır hale gelen bir teslim kuyruğuna girilir.
 about-listen = Dinle
 about-listen-text = Kullanıcılar, konuşmacıların cümleyi doğru okuduğunu kontrol ederek bağışlanan kayıtların doğruluğunu onaylar.
 about-is-it-valid = Klip geçerli mi?
@@ -393,25 +399,46 @@ about-yes-votes-text = Common Voice veri kümesine girebilmesi için bir ses kay
 about-no-votes = Hayır oyları ≥ 2
 about-no-votes-text = Bir kullanıcı ses kaydını reddettiğinde kayıt kuyruğa geri döner. Eğer ikinci defa reddedilirse ses kaydı Kayıt Mezarlığı'na taşınır.
 about-dataset-new = Common Voice Veri Kümesi
+about-dataset-new-text = Ortak Ses Veri Kümesi, geliştiricilerin ses tanıma araçları oluşturmasına yardımcı olan yüz binlerce ses örneği içerir.
 about-clip-graveyard = Kayıt Mezarlığı
 about-clip-graveyard-text = Kayıt Mezarlığı, Common Voice veri kümesine girmeyen ses kayıtlarından oluşur. Veri kümesi gibi Kayıt Mezarlığı da indirilebilir.
+
 about-partners = İş ortakları
 about-become-a-partner = Ortağımız olun
+about-partnership = Common Voice ortak bir projedir ve şimdiye kadarki en büyük açık kaynak ses veri kümesini oluşturmak için ortaklardan ve katkıda bulunanlardan oluşan topluluğumuza bağlıyız.
+
+    Projedeki yardımları için aşağıdaki kişi ve kuruluşlara teşekkür ederiz:
 about-get-involved = Bize katılın
+about-get-involved-text-2 = Ortak Ses'i daha da iyi hale getirmeye yardım etmek ister misiniz?
+    Harıka! E-posta veya <discourseLink>Discourse</discourseLink>
+    forumları, aracılığıyla site sorunları gönder <githubLink>GitHub</githubLink> veya katıl
+    <matrixLink>Matrix</matrixLink> topluluk sohbeti.
+
+
 about-nav-why-common-voice = Neden ?
 about-nav-how-it-works = Nasıl ?
 about-nav-partners = İş ortakları
 about-nav-get-involved = Bize katılın
+
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Yapay zekâ
-
+mycroft-description = Mycroft dünyanın ilk açık kaynak asistanıdır.
+    Mycroft her yerde çalışır - bir masaüstü bilgisayarda, bir otomobil içinde, ya da Raspberry Pi.
+mycroft-secondary-description =  Bu serbestçe remix, genişletilmiş ve geliştirilmiş açık kaynak yazılımdır. Mycroft bir bilim projesinden kurumsal yazılım uygulamasına kadar her şeyde kullanılabilir.
+   
 ## Glossary
 
 glossary = Sözlük
 localization = Yerelleştirme
 sentence-collection = Cümle derleme
+sentence-collection-explanation = Kamu malı ndan cümle toplama veya kamu malı için yenilerini yazma
+hours-recorded-explanation = Şimdiye kadar topladığımız ses kayıt saatlerinin sayısı.
+hours-validated-explanation = "Evet" oyu ile 3 kullanıcıdan 2'si tarafından doğrulanmış ses kayıt saatlerinin sayısı. Bu işaret, genel proje 10k saat hedefine doğru ilerleme işareti.
 sst = Konuşmadan metne (STT)
 sst-explanation = Konuşmadan metne (STT) teknolojileri ses verilerini metne dönüştürür.
+de-identified = Tanımlanmamış
+de-identified-explanation = Bir katılımcının profil bilgilerinin veri kümesinin bir parçası olarak indirilmeye paketlendiğinde bağışlanan ses kliplerinden gizlenme işlemi.
+
 
 ## NotFound
 
@@ -435,6 +462,7 @@ data-bundle-button = Veri kümesi paketini indir
 data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
+
 review-terms = Common Voice’u kullandığınızda <termsLink>Koşullarımızı</termsLink> ve <privacyLink>Gizlilik İlkelerimizi</privacyLink> kabul etmiş olursunuz.
 terms-agree = Kabul ediyorum
 terms-disagree = Kabul etmiyorum
@@ -448,7 +476,13 @@ review-keep-recordings = Kayıtları tut
 review-delete-recordings = Kayıtlarımı sil
 
 ## Datasets Page
+datasets-headline = Konuşma özellikli uygulamaları eğitmek için herkesin kullanabileceği açık kaynak kodlu, çok dilli bir ses veri kümesi oluşturuyoruz.
+datasets-positioning = 
+    Büyük, halka açık ses veri setlerinin makine öğrenimi tabanlı konuşma teknolojisinde inovasyonu ve sağlıklı ticari rekabeti teşvik edeceğine inanıyoruz.
 
+    Common Voice'ın çok dilli veri kümesi zaten türünün kamuya açık en büyük ses veri kümesidir, ancak tek veri seti değildir.
+
+    Bu sayfaya diğer açık kaynaklı ses veri kümeleri için bir referans merkezi olarak ve Ortak Ses büyümeye devam ettikçe sürüm güncellemelerimiz için bir ev olarak bakın.
 language = Dil
 # File size in gigabytes
 size = Boyut
@@ -465,6 +499,11 @@ download-language = { $language } indir
 validated-hours = Doğrulanmış saat
 recorded-hours = Kaydedilen saat
 whats-inside = Bu Common Voice veri kümesinde neler var?
+dataset-description-hours =
+        Veri kümesindeki her giriş benzersiz bir MP3 ve ilgili metin dosyasından oluşur. Veri setinde kaydedilen <b>{ $total }</b>'in çoğu, konuşma tanıma motorlarının doğruluğunu eğitmede yardımcı olabilecek yaş, cinsiyet ve aksan gibi demografik meta verileri de içerir.
+
+        Veri kümesi şu anda <b>{ $languages }</b> dillerinde doğrulanmış <b> {$valid }}</b> doğrulanmış saatlerden oluşur, ancak her zaman daha fazla ses ve dil ekliyoruz. Dil istemek veya katkıda bulunmaya başlamak için <languagesLink>Diller sayfamıza</languagesLink> bir göz atın.
+want-dataset-update = Ortak Ses veri kümesinin yeni bir sürümünü yayımladığımızda güncelleştirmeler ister misiniz? Bültenimize abone olun.
 subscribe = Abone ol
 get-started-speech = Konuşma tanımaya giriş
 other-datasets = Diğer ses veri kümeleri
@@ -491,7 +530,7 @@ download-form-email =
     .label = E-postanızı yazın
     .value = Teşekkür ederiz.
 download-back = Common Voice veri kümelerine geri dön
-download-no = Hayır
+download-no = Hayır Teşekkürler
 
 ## Contact Modal
 
