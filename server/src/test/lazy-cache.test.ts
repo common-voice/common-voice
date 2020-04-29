@@ -24,10 +24,7 @@ describe('lazyCache', () => {
   });
 
   test('serves old cache while refreshing', async () => {
-    const f = jest
-      .fn()
-      .mockReturnValueOnce(23)
-      .mockReturnValueOnce(42);
+    const f = jest.fn().mockReturnValueOnce(23).mockReturnValueOnce(42);
     const cachedF = lazyCache(randomString(), f, 1000);
     expect(await cachedF()).toBe(23);
     await new Promise(resolve => setTimeout(resolve, 1500));

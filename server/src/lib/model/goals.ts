@@ -19,10 +19,7 @@ const daysBetween = (date1: Date, date2: Date) =>
   Math.floor((date1.getTime() - date2.getTime()) / ONE_DAY);
 
 const formatDate = (date: Date) =>
-  date
-    .toISOString()
-    .slice(0, 19)
-    .replace('T', ' ');
+  date.toISOString().slice(0, 19).replace('T', ' ');
 
 async function hasComputedGoals(client_id: string) {
   const [

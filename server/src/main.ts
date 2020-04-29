@@ -9,7 +9,7 @@ async function runServer() {
   await initialize();
 
   // Handle any top-level exceptions uncaught in the app.
-  process.on('uncaughtException', function(err: any) {
+  process.on('uncaughtException', function (err: any) {
     if (err.code === 'EADDRINUSE') {
       // For now, do nothing when we are unable to start the http server.
       console.error('ERROR: server already running');

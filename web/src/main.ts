@@ -6,7 +6,7 @@ import './components/index.css';
 declare var require: any;
 
 // Safari hack to allow :active styles.
-document.addEventListener('touchstart', function() {}, true);
+document.addEventListener('touchstart', function () {}, true);
 
 // Start the app when DOM is ready.
 document.addEventListener('DOMContentLoaded', async () => {

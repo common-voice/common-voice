@@ -1,4 +1,4 @@
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   // Note: Manual backfill to follow.
   return db.runSql(`
     UPDATE clips
@@ -9,6 +9,6 @@ export const up = async function(db: any): Promise<any> {
   `);
 };
 
-export const down = function(): Promise<any> {
+export const down = function (): Promise<any> {
   return null;
 };

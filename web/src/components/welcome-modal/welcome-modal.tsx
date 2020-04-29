@@ -33,7 +33,7 @@ export default ({ challengeToken, teamToken, ...props }: WelcomeModalProps) => {
   const account = useAccount();
   const saveAccount = useAction(User.actions.saveAccount);
   const [locale, toLocaleRoute] = useLocale();
-  const [redirectChallenge, setRedirectChallenge] = useState();
+  const [redirectChallenge, setRedirectChallenge] = useState(null);
 
   useEffect(() => trackChallenge('modal-welcome'), []);
 

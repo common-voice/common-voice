@@ -43,7 +43,7 @@ export default class NormalizedPlayer implements NormalizedPlayerInterface {
     }
 
     // Ascending sort of the averages array
-    averages.sort(function(a, b) {
+    averages.sort(function (a, b) {
       return a - b;
     });
 

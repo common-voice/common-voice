@@ -128,7 +128,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     );
   }
 
-  playAvatarClip = function(clipUrl: string, position: any, self: boolean) {
+  playAvatarClip = function (clipUrl: string, position: any, self: boolean) {
     const { locale } = this.props;
     trackVoiceAvatar(self ? 'self-listen' : 'listen', locale);
 
