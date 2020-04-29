@@ -3,7 +3,7 @@ const contributableLocales = require('../../../locales/contributable.json') as s
 import StateTree from './tree';
 import { Sentence } from 'common';
 
-const CACHE_SET_COUNT = 10;
+const CACHE_SET_COUNT = 15;
 
 export namespace Sentences {
   export interface State {
