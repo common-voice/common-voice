@@ -537,7 +537,7 @@ confirm-no-identify = <b>Ești de acord</b> să nu încerci să determini identi
 download-language = Descarcă { $language }
 validated-hours = Ore validate
 recorded-hours = Ore înregistrate
-whats-inside = Ce se găsește în setul de date Common Voice?
+whats-inside = Ce conține setul de date Common Voice?
 dataset-description-hours =
     Fiecare intrare din setul de date constă dintr-un MP3 unic și fișierul text corespondent. Multe dintre cele <b>{ $total }</b> de ore înregistrate din setul de date includ și metadate demografice, precum vârstă, sex și accent, care ajută la antrenarea pentru acuratețe a motoarelor de recunoaștere vocală.
     
