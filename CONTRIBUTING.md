@@ -213,7 +213,6 @@ The project is organized into the following directories:
 - _android_: The Android app, a simple webview wrapper of voice.mozilla.org. This app is currently not published.
 - _docs_: Design and data specifications for Common Voice.
 - _ios **(deprecated)**_: We used to maintain a native iOS app as a workaround for microphone issues in mobile Safari. As of early 2020, we officially support voice recording in iOS Safari. The Common Voice iOS app has been decommissioned.
-- _nubis_: Configuration files for [Nubis](https://github.com/nubisproject), our deployment tool.
 - _server_: The server-side app logic, written in [TypeScript](http://www.typescriptlang.org/).
 - _tools_: Some scripts for managing data.
 - _web_: The Common Voice website files, written in [TypeScript](http://www.typescriptlang.org/). We use [React](https://reactjs.org/) to build the website.
