@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Enviar
 loading = Carregando…
 email-opt-in-info = Quero receber e-mails como lembretes de meta, atualizações sobre meu progresso e novidades sobre o Common Voice.
+email-opt-in-info-sub-with-challenge = Receba e-mails, tais como lembretes de objetivos e desafios, atualizações de progresso e boletins informativos sobre o Common Voice.
 email-opt-in-privacy = Ao optar por receber e-mails, você declara que concorda com a Mozilla utilizar essas informações, conforme explicado na <privacyLink>Política de Privacidade<privacyLink> da Mozilla.
 indicates-required = * Indica campo obrigatório
 not-available-abbreviation = Não disponível
@@ -325,8 +326,13 @@ on = Ligar
 avatar-clip-title = Dê uma voz ao seu avatar
 change-your-avatar-clip = Deseja mudar seu clipe de voz?
 avatar-clip-recorded = Seu avatar agora inclui um clipe de voz!
+record-voice-wave = GRAVE SUA VOZ
+retry-voice-wave-recording = TENTAR NOVAMENTE
+re-record = REGRAVAR
 recording-voice-wave = Gravando
 ready-to-upload = Enviar
+recreate-voice = Recriar sua voz
+cancel-avatar-clip-recording = CANCELAR
 browse-file-title = Enviar um arquivo de imagem
 browse-file = Arraste e solte, ou <browseWrap>selecione</browseWrap>
 connect-gravatar = Conectar com Gravatar
@@ -628,6 +634,7 @@ listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram p
 listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
+speak-empty-state-cta = Contribua com frases
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
 keep-track-profile = Acompanhe seu progresso com um perfil
@@ -694,6 +701,7 @@ overall-accuracy = Precisão geral
 set-visibility = Definir minha visibilidade
 visibility-explainer = Esta configuração controla sua visibilidade no painel de líderes. Quando oculta, seu progresso fica privativo. Significa que sua imagem, nome de usuário e progresso não aparecem no painel de líderes. Note que a atualização do painel de líderes demora ~{ $minutes }min para aplicar alterações.
 visibility-overlay-note = Nota: quando definido como 'Visível', esta configuração pode ser alterada na <profileLink>página de perfil</profileLink>
+show-ranking = Mostrar minha classificação
 
 ## Custom Goals
 
