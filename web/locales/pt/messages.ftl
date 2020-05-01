@@ -30,6 +30,7 @@ as = Assamês
 ast = Asturiano
 az = Azerbaidjano
 ba = Basquir
+be = Bielorrusso
 bg = Búlgaro
 bn = Bengalês
 br = Bretão
@@ -88,6 +89,7 @@ ml = Malaiala
 mn = Mongol
 mrj = Hill Mari
 mt = Maltês
+my = Birmanês
 myv = Erzya
 nb-NO = Norueguês (Bokmål)
 ne-NP = Nepalês
@@ -95,8 +97,9 @@ nl = Holandês
 nn-NO = Novo norueguês
 oc = Occitânico
 or = Odia
+pa-IN = Punjabi
 pl = Polonês
-pt-BR = Português (Brasil)
+pt = Português
 rm-sursilv = Romanche (Sursilvan)
 rm-vallader = Romanche (Vallader)
 ro = Romeno
@@ -104,6 +107,7 @@ ru = Russo
 rw = Kinyarwanda
 sah = Sakha
 sc = Sardo
+scn = Siciliano
 si = Cingalês
 sk = Eslovaco
 sl = Esloveno
@@ -122,6 +126,7 @@ udm = Udmurte
 uk = Ucraniano
 ur = Urdu
 uz = Usbeque
+vec = Veneziano
 vi = Vietnamita
 vot = Vótico
 zh-CN = Chinês (China)
@@ -199,7 +204,6 @@ x-years-short =
        *[other] { $count } anos
     }
 help-make-dataset = Ajude-nos a construir um conjunto de dados de alta qualidade, aberto publicamente
-profile-not-required = Não é obrigatório ter um perfil para contribuir, apesar de ser útil
 sign-up-account = Cadastre uma conta
 email-subscription-title = cadastre-se para receber notícias por e-mail
 email-subscription-title-new = Cadastre-se para recebe do Common Voice boletins, lembretes de metas e informações de progresso
@@ -220,7 +224,6 @@ whats-public = O que é público?
 email-not-public = Não deixaremos público seu endereço de e-mail.
 recordings-and-locale-public = O número de gravações e para quais idiomas você contribuir serão públicos.
 username-optin-public = Você pode escolher deixar seu nome de usuário público ou anônimo.
-demographic-deidentified = Opcionalmente, dados demográficos enviados (por exemplo, idade, sexo, idioma e sotaque) terão removida a identificação com seus dados de voz enviados, e nunca serão deixados públicos em seu perfil.
 username-email-not-demographic = Seu nome de usuário e e-mail não serão associados com os dados publicados.
 
 ## Speak & Listen Shortcuts
@@ -307,6 +310,7 @@ thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir se
 why-demographic = Por que isto é importante?
 why-demographic-explanation = Dados anônimos de usuários, como idade, sexo e sotaque, ajudam a aprimorar os dados de áudio usados para treinar a precisão dos mecanismos de reconhecimento de voz. Seu nome de usuário e e-mail nunca serão associados com os dados enviados, e você pode escolher se seu nome de usuário ficará público ou anônimo.
 accept-privacy = Concordo que estas informações sejam utilizadas conforme explicado na <privacyLink>Política de Privacidade</privacyLink> da Mozilla.
+accept-privacy-title = Política de privacidade
 login-identity = Identidade de acesso
 login-signup = Entrar / Inscrever-se
 edit = Editar
@@ -318,12 +322,11 @@ skip-submission-description = Durante o envio de uma contribuição, o retorno s
 skip-submission-note = Nota: você ainda precisará escolher entre Falar ou Ouvir para alterar o tipo de contribuição.
 off = Desligar
 on = Ligar
-add-avatar-title = Adicione um avatar ao seu perfil
-add-avatar-clip = Adicionar um clipe de avatar ao seu perfil
-create-voice-wave = Criar um clipe de voz de apresentação
+avatar-clip-title = Dê uma voz ao seu avatar
+change-your-avatar-clip = Deseja mudar seu clipe de voz?
+avatar-clip-recorded = Seu avatar agora inclui um clipe de voz!
 recording-voice-wave = Gravando
 ready-to-upload = Enviar
-about-avatar-clip = Crie um um clipe de voz personalizado para se apresentar. Outros usuários poderão passar o mouse e ouvir seu clipe.
 browse-file-title = Enviar um arquivo de imagem
 browse-file = Arraste e solte, ou <browseWrap>selecione</browseWrap>
 connect-gravatar = Conectar com Gravatar
@@ -426,11 +429,6 @@ about-partnership =
     
     Gostaríamos de agradecer as seguintes pessoas e organizações pela ajuda neste projeto:
 about-get-involved = Envolva-se
-about-get-involved-text =
-    Quer ajudar a tornar o Common Voice ainda melhor?
-    Ótimo! Entre em contato por e-mail ou no <discourseLink>Discourse</discourseLink>,
-    envie comentários pelo <githubLink>GitHub</githubLink>,
-    ou junte-se a nós no <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
@@ -581,7 +579,6 @@ language-section-launched = Lançados
 language-section-launched-description = Nestes idiomas lançados, o site foi totalmente <localizationGlossaryLink>traduzido</localizationGlossaryLink> e há <sentenceCollectionGlossaryLink>frases coletadas</sentenceCollectionGlossaryLink> suficientes para permitir dar seguimento a contribuições de <speakLink>Falar</speakLink> e <listenLink>Ouvir</listenLink>.
 languages-show-more = Ver mais
 languages-show-less = Ver menos
-language-speakers = Falantes
 language-meter-in-progress = Progresso
 language-total-progress = Total
 language-search-input =
@@ -606,7 +603,6 @@ contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
 record-platform-not-supported = Nos desculpe, mas sua plataforma não é suportada.
 record-platform-not-supported-desktop = Em computadores, você pode baixar o mais recente:
-record-platform-not-supported-ios = Usuários de <bold>iOS</bold> podem baixar nosso aplicativo gratuito:
 record-must-allow-microphone = Você deve permitir o acesso ao microfone.
 record-no-mic-found = Não foi encontrado nenhum microfone.
 record-error-too-short = A gravação foi muito curta.
@@ -632,7 +628,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram p
 listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
-nothing-to-validate = Não temos nada para validar neste idioma, ajude-nos a preencher a fila.
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
 keep-track-profile = Acompanhe seu progresso com um perfil
@@ -703,7 +698,6 @@ visibility-overlay-note = Nota: quando definido como 'Visível', esta configura�
 ## Custom Goals
 
 get-started-goals = Introdução de metas
-toward-next-goal = Rumo à próxima meta
 create-custom-goal = Crie uma meta personalizada
 both-speak-and-listen = Ambos
 both-speak-and-listen-long = Ambos (falar e ouvir)
