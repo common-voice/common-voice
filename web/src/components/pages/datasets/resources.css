@@ -26,7 +26,7 @@
             top: 0;
             margin-bottom: 30px;
             padding-bottom: 10px;
-            z-index: var(--middle-z-index);
+            z-index: var(--top-z-index);
             overflow: auto;
         }
 
