@@ -68,6 +68,7 @@ hi-IN = ฮินดี
 hr = โครเอเชีย
 hsb = ซอร์เบียตอนบน
 hu = ฮังการี
+hy-AM = อาร์เมเนีย
 ia = อินเทอร์ลิงกัว
 id = อินโดนีเซีย
 is = ไอซ์แลนด์
@@ -245,7 +246,6 @@ whats-public = สาธารณะคืออะไร?
 email-not-public = เราจะไม่แสดงอีเมลของคุณต่อสาธารณะ
 recordings-and-locale-public = จำนวนเสียงที่บันทึกและภาษาที่คุณมีส่วนร่วมจะถูกแสดงต่อสาธารณะ
 username-optin-public = คุณสามารถเลือกแสดงชื่อผู้ใช้ของคุณต่อสาธารณะหรือไม่ระบุชื่อก็ได้
-demographic-deidentified = ข้อมูลพื้นฐานของบุคคลที่ไม่บังคับกรอก (เช่น อายุ เพศ ภาษา และสำเนียง) จะถูกลบออกจากเสียงที่คุณส่งและจะไม่ถูกแสดงต่อสาธารณะบนโปรไฟล์ของคุณ
 username-email-not-demographic = ชื่อผู้ใช้และอีเมลของคุณจะไม่เชื่อมโยงกับข้อมูลที่เผยแพร่
 
 ## Speak & Listen Shortcuts
@@ -635,7 +635,6 @@ contribute-more =
 record-cta = เริ่มอัดเสียง
 record-platform-not-supported = เราขออภัย ไม่รองรับแพลตฟอร์มของคุณในขณะนี้
 record-platform-not-supported-desktop = บนคอมพิวเตอร์เดสก์ท็อป คุณสามารถดาวน์โหลดโปรแกรมรุ่นล่าสุดดังต่อไปนี้:
-record-platform-not-supported-ios = ผู้ใช้ <bold>iOS</bold> สามารถดาวน์โหลดแอปฟรีของเรา:
 record-must-allow-microphone = คุณต้องอนุญาตให้ใช้ไมโครโฟนได้
 record-no-mic-found = ไม่พบไมโครโฟน
 record-error-too-short = เสียงที่อัดสั้นเกินไป
