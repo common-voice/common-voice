@@ -503,6 +503,12 @@ review-delete-recordings = 刪除我的錄音
 ## Datasets Page
 
 datasets-headline = 我們想建立一套開放原碼、多重語言的語音數據集，讓任何人都可以用來開發和語音相關的應用。
+datasets-positioning =
+    我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術上的創新，與健康的商業競爭。
+    
+    Common Voice 的多語言數據集已經成為最大的公開語音數據集，但不是唯一的一套。
+    
+    您可於此頁面找到其他開放原碼的語音數據集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
 language = 語言
 # File size in gigabytes
 size = 大小
