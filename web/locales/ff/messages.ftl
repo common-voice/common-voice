@@ -368,9 +368,20 @@ record-error-too-short = Nanngitogol ngol ina raɓɓiɗi no feewi.
 record-error-too-long = Nanngitogol ngol ina juuti no feewi.
 record-error-too-quiet = Nanngitogol ngol deeƴii no feewi.
 record-three-more-instruction = Ina heddii tati!
+record-abort-continue = Jokkit nanngitogol
+record-button-label = Nanngito daande maa
+login-to-get-started = Seŋo walla winndito ngam fuɗɗaade
 
 ## Reporting
 
+report = Jaŋtol
+report-title = Naatnu Jaŋtol
+report-offensive-language = Ɗemngal nefningal
+report-different-language = Ɗemngal goɗngal
+report-different-language-detail = Winndaa ko e ɗemngal ngal jiidaa e ngal kaalat-mi ngal
+report-other-comment =
+    .placeholder = Yowre
+continue = Jokku
 
 ## Goals
 
