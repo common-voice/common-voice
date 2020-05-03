@@ -162,6 +162,18 @@ logout = Seŋto
 
 ## Home Page
 
+show-wall-of-text = Jokku taro
+vote-yes = Eey
+vote-no = Alaa
+help-reach-goal = Wallu min yettaade { $goal }
+read-terms-q = A tarii sarɗiiji amen?
+all-locales = Fof
+today = Hannde
+x-weeks-short =
+    { $count ->
+        [one] Yontere
+       *[other] { $count }yontere
+    }
 
 ## Account Benefits
 
