@@ -252,9 +252,20 @@ delete-voice = MOMTU
 ready-to-upload = YOLLU
 avatar-clip-fact = Ena goongɗinaa ko ɓooyi wonde loowdi hello ena telɓina taroowo so tawii omo ndaara lelngo maggo,
 cancel-avatar-clip-recording = HAAYTU
+browse-file-title = Yollu fiilde natal
+file_too_large = Fiilde suɓaande ndee ina mawni no feewi
+manage-subscriptions = Toppito Binnditagol
+manage-email-subscriptions = Toppito Binnditagol iimeel
+email-already-used = Iimeel oo ina huutoree e konte goɗɗe kisa
+add-language = Ɓeydu ɗemngal
 
 ## FAQ
 
+faq-title = Naamne Ɓurɗe Duumaade
+faq-why-important-q = Ko saabii ɗum himmude?
+faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
+faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
+faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
 
 ## ABOUT US
 
