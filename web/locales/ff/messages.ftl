@@ -103,12 +103,60 @@ nl = Dutch
 nn-NO = Norwegian Nynorsk
 oc = Occitan
 or = Odia
+pa-IN = Punjabi
+pl = Polish
+pt = Portuguese
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
+ro = Romanian
+ru = Russian
+rw = Kinyarwanda
+sah = Sakha
+sc = Sardinian
+scn = Sicilian
+si = Sinhala
+sk = Slovak
+sl = Slovenian
+sq = Albanian
+sr = Serbian
+sv-SE = Swedish
+sw = Swahili
+syr = Syriac
+ta = Tamil
+te = Telugu
+tg = Tajik
+th = Thai
+tl = Tagalog
+tr = Turkish
+tt = Tatar
+uby = Ubykh
+udm = Udmurt
+uk = Ukrainian
+ur = Urdu
+uz = Uzbek
+vec = Venetian
+vi = Vietnamese
+vot = Votic
+zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Haal
+speak-now = Haal jooni
+languages = Ɗemɗe
+about = Baɗte
+profile = Heftinirde
+help = Ballal
+contact = Jokkondiral
+privacy = Suturo
+terms = Sarɗiiji
+cookies = Kuukiije
+link-copied = Jokkol nattaama
 back-top = Rutto Dow
 logout = Seŋto
 
