@@ -385,12 +385,29 @@ continue = Jokku
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ñalawma
+       *[other] ñalɗi
+    }
 
 ## Dashboard
 
+your-languages = Ɗemngal maa
+awards = Njeenaari
+you = Aan
+everyone = Mo woni kala
+top-contributors = Gollooɓe Rowrowɓe
 
 ## Custom Goals
 
+both-speak-and-listen = Ɗiɗi fof
+both-speak-and-listen-long = Ɗiɗi fof (Haalde e heɗaade)
+easy-difficulty = Ina weeɓi
+average-difficulty = Ina hakindii
+difficult-difficulty = Ina tiiɗi
+want-to-continue = Aɗa yiɗi jokkude?
+lose-changes-warning = Goppugol jooni firti ko a waasat bayle maa
 
 ## Profile Delete
 
