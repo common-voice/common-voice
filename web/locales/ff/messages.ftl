@@ -362,6 +362,12 @@ listen = Heɗo
 skip = Diw
 shortcuts = Codorɗe
 record-cta = Fuɗɗo nanngitogol
+record-platform-not-supported-desktop = E kaɓirɗe ordinateer aɗa waawi wallit-de ngaawtoɗaa…
+record-platform-not-supported-ios-non-safari = E iOS tiiɗno jokku e Safari ngam waawnude nanngitogol…
+record-error-too-short = Nanngitogol ngol ina raɓɓiɗi no feewi.
+record-error-too-long = Nanngitogol ngol ina juuti no feewi.
+record-error-too-quiet = Nanngitogol ngol deeƴii no feewi.
+record-three-more-instruction = Ina heddii tati!
 
 ## Reporting
 
