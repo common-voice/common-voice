@@ -266,9 +266,21 @@ faq-why-important-q = Ko saabii ɗum himmude?
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
+faq-search-for-answers =
+    .label = Yiylo jaabawuuji
 
 ## ABOUT US
 
+how-does-it-work-title = Hol no ɗum gollortoo?
+about-speak = Haal
+about-listen = Heɗo
+about-partners = Gollidiiɓe
+about-become-a-partner = Won gollidiiɗo
+about-get-involved = Ar yantu e amen
+about-nav-why-common-voice = Hol sabaabu?
+about-nav-how-it-works = Hol noon?
+about-nav-partners = Gollidiiɓe
+about-nav-get-involved = Ar yantu e amen
 
 ## Glossary
 
