@@ -356,6 +356,10 @@ localized = Nokkuɗinaama
 ## Contribution
 
 action-click = Dobo
+contribute = Wallit
+listen = Heɗo
+skip = Diw
+shortcuts = Codorɗe
 
 ## Reporting
 
