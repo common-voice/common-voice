@@ -174,12 +174,17 @@ x-weeks-short =
         [one] Yontere
        *[other] { $count }yontere
     }
+sign-up-account = Winndito ngam dañde konte
+email-subscription-title = Winndito ngam heɓde kesɗitine iimeel
 
 ## Account Benefits
 
+benefits = Ɓure
 
 ## What's public
 
+whats-public = Hol ko woni peeñcu?
+email-not-public = Min mbaɗoytaa iimeel maa peeñcu.
 
 ## Speak & Listen Shortcuts
 
