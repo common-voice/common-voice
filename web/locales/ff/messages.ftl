@@ -244,6 +244,7 @@ profile-close = Uddu
 accept-privacy-title = Dawrugol Suturo
 login-signup = Seŋaade/ Winnditaade
 edit = Taƴto
+email-subscriptions = Lulnagol iimeel
 download-profile = Aawtaade keɓe am
 off = Ñifol
 on = Kuɓɓol
