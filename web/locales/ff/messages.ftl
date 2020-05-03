@@ -281,12 +281,15 @@ about-nav-why-common-voice = Hol sabaabu?
 about-nav-how-it-works = Hol noon?
 about-nav-partners = Gollidiiɓe
 about-nav-get-involved = Ar yantu e amen
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
+localization = Nokkuɗinal
 
 ## NotFound
 
+notfound-title = Yiytaaka
 
 ## Data
 
