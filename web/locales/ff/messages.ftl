@@ -312,21 +312,50 @@ size-megabyte = MB
 download-language = Aawto { $language }
 subscribe = Lulno
 feedback-q = A heɓii duttinal?
+go-languages-page = Yah to Hello Ɗemɗe
+more = Goɗɗum
+close = Uddu
+download = Aawto
+dataset-version = Yamre
 
 ## Download Modal
 
+download-title = Gaawtol maa fuɗɗiima
+download-form-email =
+    .label = Naatnu iimeel maa
+    .value = A jaaraama, maa en njokkondir
+download-no = Alaa, mi yaafiima
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Innde
+contact-form-message =
+    .label = Ɓataake
+contact-required = *ena waɗɗii
 
 ## Request Language Modal
 
+request-language-title = Ɗaɓɓitannde Ɗemngal
+request-language-form-language =
+    .label = Ɗemngal
+select-language = Labo ɗemngal...
+other-language = Ɗemngal goɗngal
 
 ## Languages Overview
 
+language-section-in-progress = Nana yaha
+languages-show-more = Yiy keewɗum
+languages-show-less = Yiy seeɗa
+language-total-progress = kuuɓal
+language-search-input =
+    .placeholder = Yiylo
+language-speakers = Haalooɓe
+localized = Nokkuɗinaama
 
 ## Contribution
 
+action-click = Dobo
 
 ## Reporting
 
