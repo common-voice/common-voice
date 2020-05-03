@@ -239,6 +239,8 @@ build-profile = Mah heftinirde
 avatar = Maantinol
 settings = Teelte
 edit-profile = Taƴto Heftinirde
+profile-create-success = Moƴƴii, heftinirde sosaama!
+profile-close = Uddu
 ready-to-upload = YOLLU
 avatar-clip-fact = Ena goongɗinaa ko ɓooyi wonde loowdi hello ena telɓina taroowo so tawii omo ndaara lelngo maggo,
 
