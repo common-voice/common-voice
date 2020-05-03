@@ -361,6 +361,7 @@ contribute = Wallit
 listen = Heɗo
 skip = Diw
 shortcuts = Codorɗe
+record-cta = Fuɗɗo nanngitogol
 
 ## Reporting
 
