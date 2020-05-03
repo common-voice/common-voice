@@ -241,8 +241,17 @@ settings = Teelte
 edit-profile = Taƴto Heftinirde
 profile-create-success = Moƴƴii, heftinirde sosaama!
 profile-close = Uddu
+accept-privacy-title = Dawrugol Suturo
+login-signup = Seŋaade/ Winnditaade
+edit = Taƴto
+download-profile = Aawtaade keɓe am
+off = Ñifol
+on = Kuɓɓol
+retry-voice-wave-recording = Eto kadi
+delete-voice = MOMTU
 ready-to-upload = YOLLU
 avatar-clip-fact = Ena goongɗinaa ko ɓooyi wonde loowdi hello ena telɓina taroowo so tawii omo ndaara lelngo maggo,
+cancel-avatar-clip-recording = HAAYTU
 
 ## FAQ
 
