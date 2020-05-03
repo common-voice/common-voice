@@ -216,6 +216,29 @@ request-language-button = Naamno ɗemngal
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Innde kuutoro
+profile-form-native-language =
+    .label = Ɗemngal neeniwal
+profile-form-additional-language =
+    .label = Ɗemngal goɗngal
+profile-form-age =
+    .label = Duuɓi
+hidden = Cuuɗiiɗo
+visible = Peeñɗo
+native-language =
+    .label = Ɗemngal neeniwal
+profile-form-submit-save = Danndu
+profile-form-submit-saved = Danndaama
+male = Gorko
+female = Debbo
+# Gender
+other = Goɗɗo
+why-profile-title = Ko saabii heftinirde?
+build-profile = Mah heftinirde
+avatar = Maantinol
+settings = Teelte
+edit-profile = Taƴto Heftinirde
 ready-to-upload = YOLLU
 avatar-clip-fact = Ena goongɗinaa ko ɓooyi wonde loowdi hello ena telɓina taroowo so tawii omo ndaara lelngo maggo,
 
