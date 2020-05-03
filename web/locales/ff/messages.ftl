@@ -408,9 +408,17 @@ average-difficulty = Ina hakindii
 difficult-difficulty = Ina tiiɗi
 want-to-continue = Aɗa yiɗi jokkude?
 lose-changes-warning = Goppugol jooni firti ko a waasat bayle maa
+which-goal-type = Aɗa yiɗi haalde, heɗaade walla ɗiɗi fof?
+share-goal-type-speak = Kaalgol
+share-goal-type-listen = keɗogol
+share-goal-type-both = Kaalgol e Keɗogol
 
 ## Profile Delete
 
+keep = Mooftu
+remove = Momtu
+profile-form-delete = Momtu Heftinirde
 
 ## Landing
 
+login-company = Seŋo/ winndito e { $company } iimeel
