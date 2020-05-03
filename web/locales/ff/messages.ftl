@@ -293,9 +293,25 @@ notfound-title = Yiytaaka
 
 ## Data
 
+data-download-yes = Eey
+data-download-deny = Alaa
+data-other-goto = Yah to { $name }
+data-other-download = Aawto keɓe
+terms-agree = Mi jaɓii
+terms-disagree = Mi jaɓaani
+review-recording = Ƴeewto
 
 ## Datasets Page
 
+language = Ɗemngal
+# File size in gigabytes
+size = Ɓetol
+email-to-download = Naatnu iimeel ngam aawtaade
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Aawto { $language }
+subscribe = Lulno
+feedback-q = A heɓii duttinal?
 
 ## Download Modal
 
