@@ -9,5 +9,5 @@ get-involved-email =
     .label = ܐܸܓܲܪܬܵܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܬܵܐ
 get-involved-opt-in = ܗ݂ܝ، ܫܲܕܸܪ ܩܵܬܝ݂ ܐܸܓܲܪܬܸ̈ܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܬܸ̈ܐ. ܐܵܢܵܐ ܒܥܵܝܸܢ ܦܹܐܫܵܐ ܡܚܒܵܪܵܐ ܒܫܘܼܘܫܵܛܵܐ ܕܐܵܗܵܐ ܠܸܫܵܢܵܐ ܥܲܠ ܩܘܡܢ ܒ݂ܘܝܣ.
 get-involved-submit = ܡܲܩܪܸܒ݂
-get-involved-success-text = ܐܲܚܢܲܢ ܒܸܕ ܗܵܘܹܝܚ
+get-involved-success-text = ܐܲܚܢܲܢ ܒܸܕ ܡܘܼܕܥܝܼܵܐ
 get-involved-return-to-languages = ܕܵܥܹܪ ܥܲܠ ܠܹܫܵܢܸ̈ܐ
