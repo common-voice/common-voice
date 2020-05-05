@@ -36,9 +36,12 @@ export function countSyllables(text: string): number {
 
 /**
  * Test whether this is a browser on iOS.
+ *
+ * NOTE: As of early 2020 this is not reliable on iPad for some privacy-minded
+ * browsers, including Safari (!!), Brave, and Firefox Focus.
  */
 export function isIOS(): boolean {
-  return /iPod|iPhone|iPad/i.test(window.navigator.userAgent);
+  return /iPod|iPhone|iPad|iOS/i.test(window.navigator.userAgent);
 }
 
 /**
@@ -51,7 +54,9 @@ export function isMobileSafari(): boolean {
     isIOS() &&
     !window.navigator.standalone &&
     /AppleWebKit/i.test(window.navigator.userAgent) &&
-    !/Chrome|Focus|CriOS|OPiOS|FxiOS|mercury/i.test(window.navigator.userAgent)
+    !/Chrome|Focus|CriOS|OPiOS|OPT\/|FxiOS|EdgiOS|mercury/i.test(
+      window.navigator.userAgent
+    )
   );
 }
 
