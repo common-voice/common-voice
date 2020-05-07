@@ -21,11 +21,14 @@ syr = ܣܘܼܪܝܝܐ
 
 speak = ܐܡܪ
 speak-now = ܐܡܪ ܗܕ݂ܝܼܐ
+datasets = ܣܕܪ̈ܐ ܕܫܘܘܕ̈ܥܐ
 languages = ܠܫܢ̈ܐ
 about = ܡܢܘ
 profile = ܨܠܡܐ
 help = ܥܘܕܪܢܐ
 privacy = ܕܝܠܢܝܘܬܐ
+terms = ܫܪܥܬ
+cookies = ܟܘܟܟܝܣ
 faq = ܫܘܐܠ̈ܐ ܬܢܝ̈ܐ
 back-top = ܕܥܘܪ ܠܥܠܠ
 logout = ܦܠܘܛ
@@ -120,6 +123,7 @@ faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
 
 ## ABOUT US
 
+about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
 
 ## Glossary
 
