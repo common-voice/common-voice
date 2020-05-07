@@ -1,5 +1,6 @@
 ## General
 
+return-to-cv = ܕܥܘܪ ܠܩܠܐ ܓܘܢܝܐ
 email-input =
     .label = ܐܸܓܲܪܬܵܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܬܵܐ
 submit-form-action = ܫܕܪ
@@ -114,6 +115,7 @@ other = ܐ݇ܚܪ݇ܢܐ
 
 ## FAQ
 
+faq-what-cv-q = ܡܘܕܝ ܝܠܗ̇ ܩܠܐ ܓܘܢܝܐ؟
 
 ## ABOUT US
 
