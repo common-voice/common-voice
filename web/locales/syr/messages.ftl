@@ -116,8 +116,7 @@ female = ܢܩܒ݂ܐ
 # Gender
 other = ܐ݇ܚܪ݇ܢܐ
 profile-close = ܕܥܘܪ
-off = ܩܛܥ
-on = ܥܠ
+cancel-avatar-clip-recording = ܒܛܘܠ
 
 ## FAQ
 
@@ -136,6 +135,7 @@ about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
 
 ## Data
 
+review-cancel = ܒܛܘܠ ܫܕܪܬܐ
 
 ## Datasets Page
 
