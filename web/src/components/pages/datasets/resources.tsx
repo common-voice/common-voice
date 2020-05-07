@@ -139,52 +139,60 @@ export default React.memo(() => {
           name={NAV_IDS.getStarted}
           onChangeIntersection={handleIntersectionChange}
           className="get-started">
-          {[
-            [
-              'DeepSpeech',
-              'deepspeech-info',
-              'deepspeech',
-              {
-                githubLink: (
-                  <StyledLink
-                    href="https://github.com/mozilla/DeepSpeech"
-                    blank
-                  />
-                ),
-                discourseLink: (
+
+          <div key="deepspeech-info" className="box">
+            <img src={require(`./images/deepspeech.png`)} />
+            <div className="dots-and-content">
+              <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
+              <div className="content">
+                <h2>
                   <StyledLink
                     href="https://discourse.mozilla.org/c/deep-speech"
                     blank
-                  />
-                ),
-              },
-            ],
-            [
-              'Discourse',
-              'common-voice-info-new',
-              'discourse',
-              {
-                discourseLink: <StyledLink href={discourseURL} blank />,
-              },
-            ],
-          ].map(([title, descriptionId, imgSrc, props]) => (
-            <div key={descriptionId as string} className="box">
-              <img src={require(`./images/${imgSrc}.png`)} />
-              <div className="dots-and-content">
-                <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
-                <div className="content">
-                  <h2>
-                    {React.cloneElement((props as any).discourseLink, {
-                      children: title,
-                    })}
-                  </h2>
-                  <Localized id={descriptionId as string} {...props}>
-                    <p />
-                  </Localized>
-                </div>
+                  >
+                    DeepSpeech
+                  </StyledLink>
+                </h2>
+                <Localized
+                  id="deepspeech-info"
+                  elems={{
+                    githubLink: (
+                      <StyledLink
+                        href="https://github.com/mozilla/DeepSpeech"
+                        blank
+                      />
+                    ),
+                    discourseLink: (
+                      <StyledLink
+                        href="https://discourse.mozilla.org/c/deep-speech"
+                        blank
+                      />
+                    ),
+                  }}>
+                  <p />
+                </Localized>
               </div>
             </div>
-          ))}
+          </div>
+
+          <div key="common-voice-info-new" className="box">
+            <img src={require(`./images/discourse.png`)} />
+            <div className="dots-and-content">
+              <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
+              <div className="content">
+                <h2>
+                  <StyledLink href={discourseURL} blank>
+                    Discourse
+                  </StyledLink>
+                </h2>
+                <Localized id="common-voice-info-new" elems={{
+                  discourseLink: <StyledLink href={discourseURL} blank />,
+                }}>
+                  <p />
+                </Localized>
+              </div>
+            </div>
+          </div>
         </Section>
 
         <Section

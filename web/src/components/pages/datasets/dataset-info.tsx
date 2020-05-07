@@ -328,14 +328,9 @@ class DatasetInfo extends React.Component<Props, State> {
             <CircleStats {...globalStats} className="hidden-lg-up" />
             <Localized
               id="dataset-description-hours"
-              b={<b />}
-              {...Object.entries(globalStats).reduce(
-                (obj: any, [key, value]) => {
-                  obj['$' + key] = value;
-                  return obj;
-                },
-                {}
-              )}>
+              vars={globalStats}
+              elems={{b: <b />}}
+            >
               <p />
             </Localized>
           </div>

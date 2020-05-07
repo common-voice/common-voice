@@ -119,7 +119,7 @@ function CompletedFields({
           <Radio key={stateKey} checked disabled>
             <Localized
               {...(stateKey == 'amount'
-                ? { id: 'n-clips', $count: value }
+                ? { id: 'n-clips', vars: { count: value } }
                 : {
                     id:
                       stateKey == 'type' && value == 'both'

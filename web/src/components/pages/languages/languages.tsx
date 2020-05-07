@@ -229,7 +229,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       query,
     } = this.state;
 
-    const descriptionProps = {
+    const descriptionElems = {
       localizationGlossaryLink: <StyledLink to={URLS.FAQ + '#localization'} />,
       sentenceCollectionGlossaryLink: (
         <StyledLink to={URLS.FAQ + '#sentence-collection'} />
@@ -330,7 +330,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
             <Localized
               id="language-section-launched-description"
-              {...descriptionProps}>
+              elems={descriptionElems}>
               <p />
             </Localized>
             <ul>
@@ -374,7 +374,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
             <Localized
               id="language-section-in-progress-new-description"
-              {...descriptionProps}>
+              elems={descriptionElems}>
               <p />
             </Localized>
             <ul>

@@ -92,7 +92,7 @@ interface Props extends WithLocalizationProps, PropsFromState {
   errorContent?: any;
   reportModalProps: Omit<ReportModalProps, 'onSubmitted'>;
   instruction: (props: {
-    $actionType: string;
+    vars: { actionType: string };
     children: any;
   }) => React.ReactNode;
   isFirstSubmit?: boolean;
@@ -424,7 +424,7 @@ class ContributionPage extends React.Component<Props, State> {
 
               <div className="cards-and-instruction">
                 {instruction({
-                  $actionType: getString('action-click'),
+                  vars: { actionType: getString('action-click') },
                   children: <div className="instruction hidden-sm-down" />,
                 }) || <div className="instruction hidden-sm-down" />}
 
@@ -503,7 +503,7 @@ class ContributionPage extends React.Component<Props, State> {
             </div>
 
             {instruction({
-              $actionType: getString('action-tap'),
+              vars: { actionType: getString('action-tap') },
               children: <div className="instruction hidden-md-up" />,
             }) || <div className="instruction hidden-md-up" />}
 
