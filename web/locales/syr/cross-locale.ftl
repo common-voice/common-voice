@@ -10,6 +10,6 @@ get-involved-email =
 get-involved-opt-in = ܗ݂ܝ، ܫܲܕܸܪ ܩܵܬܝ݂ ܐܸܓܪ݁ܵܬܸܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܸ̈ܐ (email). ܐܵܢܵܐ ܒܥܵܝܸܢ ܦܹܐܫܵܐ ܡܚܒܵܪܵܐ ܕܫܘܼܘܫܵܛܵܐ ܕܐܵܗܵܐ ܠܸܫܵܢܵܐ ܥܲܠ ܩܵܠܵܐ ܓܵܘܵܢܵܝܵܐ (common voice).
 get-involved-submit = ܫܕܪ
 get-involved-privacy-info = ܐܲܚܢܲܢ ܫܲܘܕܘܼܝܹܐ ܝܘܲܚ ܡܲܘܕܥܵܢܘܼܬܵܘܟ݂ܘܿܢ. ܩܪܝܼ ܒܘܼܬ <privacyLink>ܦܘܼܪܢܵܣܵܐ ܕܝܼܠܵܢܵܝܘܼܬܵܐ<privacyLink/>.
-get-involved-success-title = ܦܝܼܫܐ ܝܼܘܬ ܡܟܬܒܼܐ
+get-involved-success-title = ܦܝܼܫܐ ܝܼܘܬ ܟܫܝܼܪܐ ܡܟܬܒܼܐ ܩܐ ܣܢܕܐ ܕ{ $language }. ܒܣܝܼܡܐ ܪܒܐ.
 get-involved-success-text = ܐܲܚܢܲܢ ܒܸܕ ܡܲܕܸܥܚ ܩܵܐ ܕܝܘܼܚܢ ܐܸܢ ܝܲܬܝܼܪ ܝܲܕܥܚ.
 get-involved-return-to-languages = ܕܵܥܹܪ ܥܲܠ ܠܹܫܵܢܸ̈ܐ
