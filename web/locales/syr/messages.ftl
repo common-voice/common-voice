@@ -36,6 +36,15 @@ vote-no = ܠܵܐ
 speak-subtitle = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
+x-years-short =
+    { $count ->
+        [zero] ܫܢܬ
+        [one] ܫܢܬ
+        [two] ܫ̈ܢܐ
+        [few] ܫ̈ܢܐ
+        [many] ܫ̈ܢܐ
+       *[other] ܫ̈ܢܐ
+    }
 
 ## Account Benefits
 
