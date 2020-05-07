@@ -2,7 +2,7 @@
 
 email-input =
     .label = ܐܸܓܲܪܬܵܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܬܵܐ
-submit-form-action = ܡܲܕܸܥ
+submit-form-action = ܫܕܪ
 loading = ܡܲܛܥܵܢܬܵܐ ...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -11,17 +11,17 @@ loading = ܡܲܛܥܵܢܬܵܐ ...
 
 ## Languages
 
-syr = ܣܘܼܪܝܵܐܝܼܬ݂
+syr = ܣܘܼܪܝܝܐ
 
 # [/]
 
 
 ## Layout
 
-speak = ܐܵܡܹܪ
-speak-now = ܐܵܡܹܪ ܗܵܕ݂ܝܼܵܐ
-languages = ܠܹܫܵܢ̈ܐ
-about = ܒܘܼܬ
+speak = ܐܡܪ
+speak-now = ܐܡܪ ܗܕ݂ܝܼܐ
+languages = ܠܫܢ̈ܐ
+about = ܡܢܘ
 profile = ܨܲܠܡܵܐ
 help = ܥܘܼܕ݂ܪܵܢܵܐ
 

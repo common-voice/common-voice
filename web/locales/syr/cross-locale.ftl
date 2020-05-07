@@ -11,6 +11,6 @@ get-involved-opt-in = ܗ݂ܝ، ܫܲܕܸܪ ܩܵܬܝ݂ ܐܸܓܪ݁ܵܬܸܐ ܐܸܠܝ
 get-involved-submit = ܫܕܪ
 get-involved-stayintouch = ܡܘܙܠܐ ܒܢܝܐ ܝܠܗ ܫܘܬܦܘܬܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology).  ܐܚܢܢ ܒܥܝܚ
 get-involved-privacy-info = ܐܚܢܢ ܒܕ ܚܲܡܲܚ ܠܵܗ̇ ܡܲܘܕܥܵܢܘܼܬܵܐ ܕܐܝܼܬ ܠܲܢ ܒܘܼܬ ܕܝܼܵܘܟ݂ܘܿܢ ܒܚܕܵܐ ܐܘܼܪܚܵܐ ܐ݇ܪܵܙܵܢܵܝܬܵܐ. ܩܪܝܼ ܒܘܼܬ <privacyLink>ܦܘܼܪܢܵܣܵܐ ܕܝܼܠܵܢܵܝܘܼܬܵܐ<privacyLink/>.
-get-involved-success-title = ܦܝܼܫܝ ܝܼܘܬ ܟܫܝܼܪܐ ܡܟܬܒܼܐ ܩܐ ܣܢܕܐ ܕ{ $language }. ܒܣܝܼܡܐ ܪܒܐ.
+get-involved-success-title = ܦܝܼܫܝ ܝܼܘܬ  ܩܐ ܣܢܕܐ ܕ{ $language }. ܒܣܝܼܡܐ ܪܒܐ.
 get-involved-success-text = ܐܲܚܢܲܢ ܒܸܕ ܡܲܕܸܥܚ ܩܵܐ ܕܝܘܼܚܢ ܐܝܟ ܝܲܬܝܼܪ ܝܲܕܥܚ.
 get-involved-return-to-languages = ܕܵܥܹܪ ܥܲܠ ܠܹܫܵܢܸ̈ܐ
