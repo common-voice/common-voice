@@ -107,6 +107,10 @@ native-language =
     .label = ܠܫܢܐ ܐܬܪܢܝܐ
 profile-form-submit-save = ܚܡܝ
 profile-form-submit-saved = ܦܝܫܐ ܚܡܝ
+male = ܕܟ݂ܪܐ
+female = ܢܩܒ݂ܐ
+# Gender
+other = ܐ݇ܚܪ݇ܢܐ
 
 ## FAQ
 
