@@ -116,6 +116,8 @@ female = ܢܩܒ݂ܐ
 # Gender
 other = ܐ݇ܚܪ݇ܢܐ
 profile-close = ܕܥܘܪ
+off = ܩܛܥ
+on = ܥܠ
 
 ## FAQ
 
