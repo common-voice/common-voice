@@ -30,10 +30,12 @@ logout = ܦܠܘܛ
 
 ## Home Page
 
+show-wall-of-text = ܩܪܝ ܝܬܝܪ
 vote-yes = ܗܹܐ
 vote-no = ܠܵܐ
+speak-subtitle = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
 all-locales = ܟܠ
-today = ܐܸܕܝܘܿܡ
+today = ܐܕܝܘܡ
 
 ## Account Benefits
 
