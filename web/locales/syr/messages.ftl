@@ -36,9 +36,18 @@ vote-no = ܠܵܐ
 speak-subtitle = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
+x-months-short =
+    { $count ->
+        [zero] ܝܪܚ̈ܐ
+        [one] ܝܪܚ
+        [two] ܝܪܚ̈ܐ
+        [few] ܝܪܚ̈ܐ
+        [many] ܝܪܚ̈ܐ
+       *[other] ܝܪܚ̈ܐ
+    }
 x-years-short =
     { $count ->
-        [zero] ܫܢܬ
+        [zero] ܫ̈ܢܐ
         [one] ܫܢܬ
         [two] ܫ̈ܢܐ
         [few] ܫ̈ܢܐ
