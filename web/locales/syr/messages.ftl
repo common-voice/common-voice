@@ -105,6 +105,8 @@ hidden = ܛܘܫܝܐ
 visible = ܡܒܝܘܢܐ
 native-language =
     .label = ܠܫܢܐ ܐܬܪܢܝܐ
+profile-form-submit-save = ܚܡܝ
+profile-form-submit-saved = ܦܝܫܐ ܚܡܝ
 
 ## FAQ
 
