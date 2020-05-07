@@ -95,6 +95,16 @@ profile-form-native-language =
     .label = ܠܫܢܐ ܐܬܪܢܝܐ
 profile-form-additional-language =
     .label = ܠܫܢܐ ܡܬܡܙܝܕܢܐ
+profile-form-accent =
+    .label = ܡܡܠܠܐ
+profile-form-age =
+    .label = ܫܢ̈ܐ
+profile-form-gender =
+    .label = ܓܢܣܐ
+hidden = ܛܘܫܝܐ
+visible = ܡܒܝܘܢܐ
+native-language =
+    .label = ܠܫܢܐ ܐܬܪܢܝܐ
 
 ## FAQ
 
