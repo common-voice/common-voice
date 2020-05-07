@@ -85,9 +85,16 @@ shortcut-rerecord-toggle = [1-5]
 ## ProjectStatus
 
 status-contribute = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
+english = ܐܢܓܠܣ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ܫܡܐ ܕܡܦܠܚܢܐ
+profile-form-native-language =
+    .label = ܠܫܢܐ ܐܬܪܢܝܐ
+profile-form-additional-language =
+    .label = ܠܫܢܐ ܡܬܡܙܝܕܢܐ
 
 ## FAQ
 
