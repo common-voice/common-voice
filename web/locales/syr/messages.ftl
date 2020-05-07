@@ -115,6 +115,7 @@ male = ܕܟ݂ܪܐ
 female = ܢܩܒ݂ܐ
 # Gender
 other = ܐ݇ܚܪ݇ܢܐ
+profile-close = ܕܥܘܪ
 
 ## FAQ
 
@@ -143,10 +144,10 @@ about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
 ## Contact Modal
 
 contact-form-name =
-    .label = ܫܸܡܵܐ
+    .label = ܫܡܐ
 contact-form-message =
-    .label = ܛܸܐܒ݂ܵܐ
-contact-required = ܘܵܠܝܵܝܵܐ*
+    .label = ܛܐܒ݂ܐ
+contact-required = ܘܠܝܝܐ*
 
 ## Request Language Modal
 
