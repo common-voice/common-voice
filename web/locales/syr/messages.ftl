@@ -26,6 +26,7 @@ profile = ܨܠܡܐ
 help = ܥܘܕܪܢܐ
 privacy = ܕܝܠܢܝܘܬܐ
 faq = ܫܘܐܠ̈ܐ ܬܢܝ̈ܐ
+back-top = ܕܥܘܪ ܠܥܠܠ
 logout = ܦܠܘܛ
 
 ## Home Page
@@ -36,6 +37,15 @@ vote-no = ܠܵܐ
 speak-subtitle = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
+x-weeks-short =
+    { $count ->
+        [zero] ܫܒ̈ܬ݂ܐ
+        [one] ܫܒܬܐ
+        [two] ܫܒ̈ܬ݂ܐ
+        [few] ܫܒ̈ܬ݂ܐ
+        [many] ܫܒ̈ܬ݂ܐ
+       *[other] ܫܒ̈ܬ݂ܐ
+    }
 x-months-short =
     { $count ->
         [zero] ܝܪܚ̈ܐ
@@ -57,6 +67,7 @@ x-years-short =
 
 ## Account Benefits
 
+benefits = ܫܘܟܢܐ
 
 ## What's public
 
@@ -69,9 +80,11 @@ x-years-short =
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
+status-contribute = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
 
 ## ProfileForm
 
