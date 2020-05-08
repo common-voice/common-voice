@@ -64,7 +64,7 @@ ga-IE = Ír
 gl = Galícia
 ha = Hausza
 he = Héber
-hi-IN = Hindi
+hi = Hindi
 hr = Horvát
 hsb = Szorb, felső
 hu = Magyar
@@ -667,6 +667,10 @@ record-button-label = Rögzítse a hangját
 share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
 keep-track-profile = Kövesse nyomon az előrehaladását egy profil segítségével
 login-to-get-started = A kezdéshez jelentkezzen be vagy regisztráljon
+target-segment-first-card = Közreműködik az első célszegmensünkben
+target-segment-first-banner = Segítsen a Common Voice első { $locale } célszegmensének létrehozásában
+target-segment-add-voice = Adja a hangját
+target-segment-learn-more = További tudnivalók
 
 ## Reporting
 
