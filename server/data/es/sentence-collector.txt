@@ -3422,6 +3422,7 @@ Pero no no puede ser cierto
 Pero no solo del dominio público se ha nutrido
 Pero no veía la forma de hacerla reaccionar
 Pero que no nos engañen: queda mucho por hacer.
+Pero quisiera que se disipase el humo denso que te envuelve.
 Pero sabes que siempre tendrá un lugar especial para ti.
 Pero sabes que él siempre tendrá un lugar de especial para ti.
 Pero si es la única manera, estoy de acuerdo en destruir los ordenadores
@@ -5532,6 +5533,7 @@ dos marineros subidos a la cofa de mesana, cantaban relingando el aparejo.
 dos veces le sonreíste...
 duda en decirlo
 dudamos en decirlo
+dudan en decirlo
 dudas en decirlo
 dudo en decir algo
 dudáis en decirlo
@@ -5750,6 +5752,7 @@ ellas bebían
 ellas comen una naranja
 ellas comerán
 ellas comían
+ellas dudan en decirlo
 ellas habrían partido
 ellas han bebido
 ellas han partido
@@ -5778,6 +5781,7 @@ ellos bebían
 ellos comen una naranja
 ellos comerán
 ellos comían
+ellos dudan en decirlo
 ellos habían comido
 ellos han bebido
 ellos han partido
