@@ -64,7 +64,7 @@ ga-IE = irščina
 gl = galicijščina
 ha = havščina
 he = hebrejščina
-hi-IN = hindujščina
+hi = hindujščina
 hr = hrvaščina
 hsb = gornja lužiška srbščina
 hu = madžarščina
@@ -657,10 +657,14 @@ listen-again-instruction = Odlično opravljeno!<playIcon></playIcon> Poslušajte
 listen-3rd-time-instruction = 2 sta pod streho, kar tako naprej! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
 listen-empty-state = Zmanjkalo nam je posnetkov za potrditev v tem jeziku ...
+speak-empty-state = Zmanjkalo nam je stavkov za snemanje v tem jeziku ...
+speak-empty-state-cta = Prispevajte stavke
 record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 keep-track-profile = S profilom spremljajte svoj napredek
 login-to-get-started = Za začetek se prijavite ali registrirajte
+target-segment-add-voice = Dodajte svoj glas
+target-segment-learn-more = Več o tem
 
 ## Reporting
 
