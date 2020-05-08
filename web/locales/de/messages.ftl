@@ -64,6 +64,7 @@ ga-IE = Irisch
 gl = Galizisch
 ha = Hausa
 he = Hebräisch
+hi = Hindi
 hi-IN = Hindi
 hr = Kroatisch
 hsb = Obersorbisch
