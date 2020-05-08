@@ -64,6 +64,7 @@ ga-IE = Irländska
 gl = Galiciska
 ha = Hausa
 he = Hebreiska
+hi = Hindi
 hi-IN = Hindi
 hr = Kroatiska
 hsb = Högsorbiska
