@@ -64,7 +64,7 @@ ga-IE = ਆਈਰਸ਼
 gl = ਗਾਲੀਲੀਅਨ
 ha = ਹੀਊਸਾ
 he = ਹੈਬਰਿਊ
-hi-IN = ਹਿੰਦੀ
+hi = ਹਿੰਦੀ
 hr = ਕਰੋਆਟੀਅਨ
 hsb = ਸੋਰਬੀਅਨ, ਅੱਪਰ
 hu = ਹੰਗੇਰਿਅਨ
@@ -521,6 +521,8 @@ speak-empty-state-cta = ਵਾਕਾਂ ਦਾ ਯੋਗਦਾਨ ਦਿਓ
 record-button-label = ਆਪਣੀ ਆਵਾਜ਼ ਰਿਕਾਰਡ ਕਰੋ
 share-title-new = ਹੋਰ ਆਵਾਜ਼ਾਂ ਲੱਭਣ ਲਈ <bold>ਸਾਡੀ ਮਦਦ ਕਰੋ</bold>
 login-to-get-started = ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਲਾਗਇਨ ਕਰੋ ਜਾਂ ਸਾਈਨ ਅੱਪ ਕਰੋ
+target-segment-add-voice = ਆਪਣੀ ਆਵਾਜ਼ ਸ਼ਾਮਲ ਕਰੋ
+target-segment-learn-more = ਹੋਰ ਜਾਣੋ
 
 ## Reporting
 
