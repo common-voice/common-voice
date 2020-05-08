@@ -681,6 +681,10 @@ record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 keep-track-profile = Keep track of your progress with a profile
 login-to-get-started = Log in or sign up to get started
+target-segment-first-card = You’re contributing to our first target segment
+target-segment-first-banner = Help create Common Voice’s first target segment in { $locale }
+target-segment-add-voice = Add Your Voice
+target-segment-learn-more = Learn More
 
 ## Reporting
 report = Report
