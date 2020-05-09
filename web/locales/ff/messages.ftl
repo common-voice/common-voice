@@ -274,6 +274,7 @@ settings = Teelte
 edit-profile = Taƴto Heftinirde
 profile-create-success = Moƴƴii, heftinirde sosaama!
 profile-close = Uddu
+thanks-for-account = A jaaraama e teeŋtingol konte maa, jooni noon mahen heftinirde maa.
 accept-privacy-title = Dawrugol Suturo
 login-signup = Seŋaade/ Winnditaade
 edit = Taƴto
