@@ -159,15 +159,20 @@ terms = Sarɗiiji
 cookies = Kuukiije
 content-license-text = Loowdi ina heɓoo les <licenseLink>Creative Commons license</licenseLink>
 share-title = Wallu min dañde woɗɓe ngam rokkirde daaɗe mum en!
+share-text = Wallu jannginde masiŋaaji no yimɓe woodɓe kaalirta, rokkir daande maa e { $link }
 link-copied = Jokkol nattaama
 back-top = Rutto Dow
 logout = Seŋto
 
 ## Home Page
 
+home-cta = Ɓamtu daande, wallit ɗoo!
 show-wall-of-text = Jokku taro
 vote-yes = Eey
 vote-no = Alaa
+speak-subtitle = Rokkir daande maa
+listen-subtitle = Wallu min moƴƴinde daaɗe
+hours-recorded = Waktuuji Nanngitaama
 help-reach-goal = Wallu min yettaade { $goal }
 read-terms-q = A tarii sarɗiiji amen?
 all-locales = Fof
