@@ -4,7 +4,8 @@ import StateTree from './tree';
 import { User } from './user';
 import { Clip, Sentence } from 'common';
 
-const MIN_CACHE_SIZE = 10;
+const CACHE_SET_COUNT = 15;
+const MIN_CACHE_COUNT = 5;
 
 export namespace Clips {
   export interface State {
@@ -64,13 +65,13 @@ export namespace Clips {
       getState: () => StateTree
     ) => {
       const state = getState();
-      if (localeClips(state).clips.length > MIN_CACHE_SIZE) {
+      if (localeClips(state).clips.length > MIN_CACHE_COUNT) {
         return;
       }
 
       try {
         dispatch({ type: ActionType.LOAD });
-        const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE);
+        const clips = await state.api.fetchRandomClips(CACHE_SET_COUNT);
         dispatch({
           type: ActionType.REFILL_CACHE,
           clips: clips.map(clip => {

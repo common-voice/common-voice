@@ -218,6 +218,11 @@ export default class DB {
             FROM clips
             WHERE clips.original_sentence_id = sentences.id AND
                   clips.client_id = ?
+          ) AND NOT EXISTS (
+            SELECT *
+            FROM skipped_sentences skipped
+            WHERE skipped.sentence_id = sentences.id AND
+              skipped.client_id = ?
           )
           ORDER BY clips_count ASC
           LIMIT ?
@@ -225,7 +230,7 @@ export default class DB {
         ORDER BY RAND()
         LIMIT ?
       `,
-      [locale_id, client_id, SHUFFLE_SIZE, count]
+      [locale_id, client_id, client_id, SHUFFLE_SIZE, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }
@@ -244,7 +249,7 @@ export default class DB {
           FROM taxonomy_entries entries
           LEFT JOIN sentences ON entries.sentence_id = sentences.id
           WHERE term_id = ?
-          AND is_used AND locale_id = ? AND NOT EXISTS (
+          AND is_used AND sentences.locale_id = ? AND NOT EXISTS (
             SELECT *
             FROM clips
             WHERE clips.original_sentence_id = sentences.id AND
@@ -318,25 +323,19 @@ export default class DB {
         SELECT clips.*
         FROM clips
         LEFT JOIN sentences on clips.original_sentence_id = sentences.id
-        WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ? AND
-              NOT EXISTS(
-                SELECT *
-                FROM votes
-                WHERE votes.clip_id = clips.id AND client_id = ?
-              )
-        AND original_sentence_id NOT IN (
-          SELECT original_sentence_id
-          FROM clips
-          LEFT JOIN votes ON votes.clip_id = clips.id
-          WHERE votes.client_id = ?
-          GROUP BY original_sentence_id
-          HAVING count(*) >= 2
-        )
+        WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ?
+        AND NOT EXISTS(
+            SELECT *
+            FROM votes
+            WHERE votes.clip_id = clips.id AND client_id = ?
+          )
+        AND (sentences.clips_count <= 10 OR sentences.clips_count IS NULL)
+        ORDER BY sentences.clips_count ASC, clips.created_at ASC
         LIMIT ?
       ) t
       ORDER BY RAND()
       LIMIT ?`,
-      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
+      [locale_id, client_id, client_id, SHUFFLE_SIZE, count]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
@@ -351,36 +350,39 @@ export default class DB {
     term_name: string
   ): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.query(
-      `
-      SELECT *
+      `SELECT *
       FROM (
-        SELECT clips.*
-        FROM taxonomy_entries entries
-        RIGHT JOIN clips ON entries.sentence_id = clips.original_sentence_id
-        WHERE term_id = ?
-        AND is_valid IS NULL AND clips.locale_id = ? AND client_id <> ? AND
-          NOT EXISTS(
-            SELECT *
-            FROM votes
-            WHERE votes.clip_id = clips.id AND client_id = ?
-          )
-        AND original_sentence_id NOT IN (
-          SELECT original_sentence_id
-          FROM clips
-          LEFT JOIN votes ON votes.clip_id = clips.id
-          WHERE votes.client_id = ?
-          GROUP BY original_sentence_id
-          HAVING count(*) >= 2
+
+        SELECT * FROM clips WHERE original_sentence_id IN (
+          SELECT original_sentence_id FROM (
+            SELECT original_sentence_id, clips.is_valid, count(votes.id) as vote_count
+            FROM clips
+            LEFT JOIN votes ON votes.clip_id = clips.id
+            LEFT JOIN taxonomy_entries entries
+              ON clips.original_sentence_id = entries.sentence_id
+            WHERE clips.locale_id = 1
+            AND (votes.client_id = "c9a80203-fe42-4230-86cd-20ea060f1b3d" OR votes.client_id IS NULL)
+            AND entries.term_id = 1
+            GROUP BY original_sentence_id
+            HAVING vote_count < 2
+          ) vote_counts
         )
-        LIMIT ?
+        AND is_valid IS NULL
+        AND clips.client_id <> "c9a80203-fe42-4230-86cd-20ea060f1b3d"
+        AND NOT EXISTS(
+          SELECT *
+          FROM votes
+          WHERE votes.clip_id = clips.id AND client_id = "c9a80203-fe42-4230-86cd-20ea060f1b3d"
+        )
+        GROUP BY original_sentence_id
+        LIMIT 10
       ) t
       ORDER BY RAND()
-      LIMIT ?
-    `,
+      LIMIT ?`,
       [
-        await getTermId(term_name),
         locale_id,
         client_id,
+        await getTermId(term_name),
         client_id,
         client_id,
         SHUFFLE_SIZE,

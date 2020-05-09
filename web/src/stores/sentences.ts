@@ -3,7 +3,8 @@ const contributableLocales = require('../../../locales/contributable.json') as s
 import StateTree from './tree';
 import { Sentence } from 'common';
 
-const CACHE_SET_COUNT = 15;
+const CACHE_SET_COUNT = 25;
+const MIN_CACHE_COUNT = 5;
 
 export namespace Sentences {
   export interface State {
@@ -39,7 +40,7 @@ export namespace Sentences {
         const state = getState();
         if (
           Object.keys(localeSentences(state).sentences).length >=
-          CACHE_SET_COUNT
+          MIN_CACHE_COUNT
         ) {
           return;
         }

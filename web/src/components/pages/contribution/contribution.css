@@ -566,16 +566,22 @@
     }
 
     .sentence-taxonomy {
+        border-top: 1px solid var(--lighter-grey);
         position: absolute;
-        bottom: 1rem;
-        left: 1.5rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1rem;
         font-size: var(--font-size);
         color: var(--warm-grey);
-        text-align: left;
-        [dir='rtl'] & {
-            right: 1.5rem;
-            text-align: right;
-        }
+        text-align: center;
+    }
+
+    .taxonomy-link {
+        text-transform: uppercase;
+        color: var(--blue);
+        font-weight: 600;
+        text-decoration: none;
     }
 }
 
