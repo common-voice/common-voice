@@ -63,6 +63,7 @@ ga-IE = Irish
 gl = Galician
 ha = Hawsa
 he = Hebruŋkoore
+hi = Hinndi
 hr = Korowasiire
 hsb = Sorbian, Lower
 hu = Hungarian
