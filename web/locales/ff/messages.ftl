@@ -280,6 +280,7 @@ login-signup = Seŋaade/ Winnditaade
 edit = Taƴto
 email-subscriptions = Lulnagol iimeel
 download-profile = Aawtaade keɓe am
+skip-submission-feedback = Diw duttinal naatnugol
 off = Ñifol
 on = Kuɓɓol
 retry-voice-wave-recording = Eto kadi
@@ -298,6 +299,8 @@ add-language = Ɓeydu ɗemngal
 
 faq-title = Naamne Ɓurɗe Duumaade
 faq-why-important-q = Ko saabii ɗum himmude?
+faq-how-get-q = Hol no keɓirat-mi keɓe Common Voice?
+faq-when-release2-q = Mande bayyinton keɓe Common Voice e ɗemɗe goɗɗe?
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
