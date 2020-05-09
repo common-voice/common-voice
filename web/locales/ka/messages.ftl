@@ -64,7 +64,7 @@ ga-IE = ირლანდიური
 gl = გალიციური
 ha = ჰაუსა
 he = ებრაული
-hi-IN = ჰინდი
+hi = ჰინდი
 hr = ხორვატული
 hsb = ზემოსორბული
 hu = უნგრული
@@ -661,6 +661,8 @@ record-button-label = ჩაწერეთ თქვენი ხმა
 share-title-new = <bold>დაგვეხმარეთ</bold> ხმების მოძიებაში
 keep-track-profile = თვალი მიადევნეთ თქვენს წინსვლას პროფილის მეშვეობით
 login-to-get-started = შედით ან შექმენით ანგარიში დასაწყებად
+target-segment-add-voice = დაამატეთ საკუთარი ხმა
+target-segment-learn-more = ვრცლად
 
 ## Reporting
 
