@@ -655,7 +655,10 @@ record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
 keep-track-profile = 创建账户跟踪个人贡献进度
 login-to-get-started = 请完成登录或注册，即可开始使用
+target-segment-first-card = 您为我们的第一段目标细分录音作出了贡献
+target-segment-first-banner = 帮助在 Common Voice 创建 { $locale } 的第一段目标细分语音
 target-segment-add-voice = 添加您的声音
+target-segment-learn-more = 详细了解
 
 ## Reporting
 
