@@ -173,14 +173,27 @@ vote-no = Alaa
 speak-subtitle = Rokkir daande maa
 listen-subtitle = Wallu min moƴƴinde daaɗe
 hours-recorded = Waktuuji Nanngitaama
+hours-validated = Waktuuji moƴƴinaama
+voices-online = Daaɗe ɗee e ceŋol jooni
 help-reach-goal = Wallu min yettaade { $goal }
 read-terms-q = A tarii sarɗiiji amen?
+ready-to-record = A hebiima rokkirde daande maa?
 all-locales = Fof
 today = Hannde
 x-weeks-short =
     { $count ->
         [one] Yontere
        *[other] { $count }yontere
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }lewru
+       *[other] { $count }lewru
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }hitaande
+       *[other] { $count }hitaande
     }
 sign-up-account = Winndito ngam dañde konte
 email-subscription-title = Winndito ngam heɓde kesɗitine iimeel
