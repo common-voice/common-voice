@@ -206,6 +206,8 @@ benefits = Ɓure
 
 whats-public = Hol ko woni peeñcu?
 email-not-public = Min mbaɗoytaa iimeel maa peeñcu.
+username-optin-public = Aɗa waawi suɓaade waɗde innde kuutoro maa e peñcu walla cuuɗiiɗo.
+username-email-not-demographic = Innde kuutoro maa e iimeel maa ndenndinoytaake e keɓe bayyinaaɗe ɗee.
 
 ## Speak & Listen Shortcuts
 
@@ -217,6 +219,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Tar/Dartin
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -229,11 +232,18 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Nanngito/Dartin
 shortcut-rerecord-toggle = [1-5]
+request-language-text = A suwaa yiy ɗemngal maa e Common Voice tawo?
 request-language-button = Naamno ɗemngal
 
 ## ProjectStatus
 
+status-contribute = Wallitir daande maa
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Paandaaje garooje: { $goal }
+english = Engeleere
 
 ## ProfileForm
 
