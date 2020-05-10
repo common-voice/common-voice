@@ -624,6 +624,7 @@ contribute-more =
 record-cta = ରେକର୍ଡ଼ିଂ ଆରମ୍ଭକରନ୍ତୁ
 record-platform-not-supported = ଆମେ କ୍ଷମା ମାଗୁଛୁ, କିନ୍ତୁ ଆପଣଙ୍କର ପ୍ଲାଟଫର୍ମକୁ ବର୍ତ୍ତମାନ ସମର୍ଥନ କରାଯାଉନାହିଁ ।
 record-platform-not-supported-desktop = ଡେସ୍କଟପ କମ୍ପ୍ୟୁଟରରେ, ଆପଣ ସବୁଠାରୁ ନୂଆ ଡାଉନଲୋଡ କରିପାରିବେ:
+record-platform-not-supported-ios-non-safari = IOS ରେ ଦୟାକରି ରେକର୍ଡିଂ ସକ୍ଷମ କରିବାକୁ ସଫାରି ସହିତ ଜାରି ରଖନ୍ତୁ…
 record-must-allow-microphone = ଆପଣଙ୍କୁ ମାଇକ୍ରୋଫୋନ ବ୍ୟବହାର କରିବାକୁ ଅନୁମତି ଦେବାକୁ ପଡ଼ିବ ।
 record-no-mic-found = କୌଣସି ମାଇକ୍ରୋଫୋନ ମିଳିଲାନାହିଁ ।
 record-error-too-short = ରେକର୍ଡ଼ିଂଟି ଖୁବ ଛୋଟ ।
@@ -637,6 +638,8 @@ record-again-instruction = ବଢ଼ିଆ! <recordIcon></recordIcon> ନିଜ 
 record-again-instruction2 = ଏମିତି ଚାଲିଥାଉ, ଆହୁରି ରେକର୍ଡ଼କରନ୍ତୁ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ଶେଷଟି!
 review-tooltip = ଆଗକୁ ବଢ଼ିଲାବେଳେ କ୍ଲିପଗୁଡ଼ିକ ଏଠାରେ ପରଖି ଓ ଆଉଥରେ ରେକର୍ଡ଼କରନ୍ତୁ
+share-clip = ଆପଣଙ୍କର କ୍ଲିପକୁ ବାଣ୍ଟନ୍ତୁ
+share-common-voice = କମନ ଭଏସକୁ ବାଣ୍ଟନ୍ତୁ
 review-instruction = ଦରକାର ପଡ଼ିଲେ ପରଖି କ୍ଲିପଗୁଡ଼ିକୁ ଆଉଥରେ ରେକର୍ଡ଼ କରନ୍ତୁ
 record-submit-tooltip = ପ୍ରସ୍ତୁତ ହେଲେ ପଠାନ୍ତୁ { $actionType }
 clips-uploaded = ଧ୍ୱନୀଗୁଡିକ ଅପଲୋଡ଼ ହୋଇଗଲା ।
@@ -649,10 +652,17 @@ listen-instruction = { $actionType }<playIcon></playIcon> ସେ ବାକ୍ୟ
 listen-again-instruction = ବଢ଼ିଆ କାମ! <playIcon></playIcon> ପ୍ରସ୍ତୁତ ହେଲେ ଆଉଥରେ ଶୁଣନ୍ତୁ
 listen-3rd-time-instruction = ଆଉ ୨ଟା ରହିଲା, ଆଗେଇ ଚାଲନ୍ତୁ! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> ଶେଷଟି!
+listen-empty-state = ଏହି ଭାଷାରେ ବୈଧତା ପାଇଁ ଆମ ପାଖରେ ଧ୍ୱନି ସରିଯାଇଛି...
+speak-empty-state = ଏହି ଭାଷାରେ ରେକର୍ଡ଼ କରିବା ପାଇଁ ଆମ ପାଖରେ ବାକ୍ୟ ସରିଯାଇଛି...
+speak-empty-state-cta = ବାକ୍ୟ ପ୍ରଦାନ କରନ୍ତୁ
 record-button-label = ଆପଣଙ୍କର ସ୍ୱରକୁ ରେକର୍ଡ କରନ୍ତୁ
 share-title-new = ଅଧିକ ସ୍ୱର ପାଇବା ପାଇଁ ଆମକୁ <bold>ସାହାଯ୍ୟ କରନ୍ତୁ</bold>
 keep-track-profile = ଗୋଟିଏ ପ୍ରୋଫାଇଲ ଦ୍ୱାରା ନିଜର ପ୍ରଗତିର ଅନୁକ୍ଷଣ ରଖନ୍ତୁ ।
 login-to-get-started = ଆରମ୍ଭ କରିବା ପାଇଁ ଲଗ-ଇନ କିମ୍ବା ସାଇନ-ଅପ କରନ୍ତୁ ।
+target-segment-first-card = ଆପଣ ଆମର ପ୍ରଥମ ଲକ୍ଷ୍ୟ ବିଭାଗରେ ସହଯୋଗ କରୁଛନ୍ତି
+target-segment-first-banner = କମନ ଭଏସର ପ୍ରଥମ ଲକ୍ଷ୍ୟ ବିଭାଗ, { $locale }ରେ ସୃଷ୍ଟି କରିବାକୁ ସାହାଯ୍ୟ କରନ୍ତୁ
+target-segment-add-voice = ଆପଣଙ୍କର କଣ୍ଠ ଯୋଗ କରନ୍ତୁ
+target-segment-learn-more = ଅଧିକ ଶିଖନ୍ତୁ
 
 ## Reporting
 
