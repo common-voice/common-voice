@@ -671,6 +671,9 @@ record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
 keep-track-profile = Håll koll på dina framsteg med en profil
 login-to-get-started = Logga in eller registrera dig för att komma igång
+target-segment-first-card = Du bidrar till vårt första målsegment
+target-segment-first-banner = Hjälp till med att skapa Common Voice första målsegment i { $locale }
+target-segment-add-voice = Lägg till din röst
 target-segment-learn-more = Läs mer
 
 ## Reporting
