@@ -65,7 +65,6 @@ gl = Galiciska
 ha = Hausa
 he = Hebreiska
 hi = Hindi
-hi-IN = Hindi
 hr = Kroatiska
 hsb = Högsorbiska
 hu = Ungerska
@@ -672,6 +671,7 @@ record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
 keep-track-profile = Håll koll på dina framsteg med en profil
 login-to-get-started = Logga in eller registrera dig för att komma igång
+target-segment-learn-more = Läs mer
 
 ## Reporting
 
