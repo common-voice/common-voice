@@ -64,7 +64,7 @@ ga-IE = Irski
 gl = Galicijski
 ha = Hausa
 he = Hebrejski
-hi-IN = Hindi
+hi = Hindski
 hr = Hrvatski
 hsb = Lužičkosrpski, gornji
 hu = Mađarski
@@ -686,6 +686,9 @@ record-button-label = Snimite svoj glas
 share-title-new = <bold>Pomozite nam</bold> pronaći više glasova
 keep-track-profile = Prati svoj napredak pomoću profila
 login-to-get-started = Za početak se prijavi ili registriraj
+target-segment-first-card = Doprinosiš našem prvom ciljnom segmentu
+target-segment-add-voice = Dodaj svoj glas
+target-segment-learn-more = Saznaj više
 
 ## Reporting
 
