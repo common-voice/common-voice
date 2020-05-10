@@ -64,7 +64,7 @@ ga-IE = Իռլանդերեն
 gl = Գալիսերեն
 ha = Հաուսա
 he = Եբրայերեն
-hi-IN = Հինդի
+hi = Հինդի
 hr = Խորվաթերեն
 hsb = Սորաբերեն, վերին
 hu = Հունգարերեն
@@ -552,9 +552,11 @@ dataset-version = Տարբերակ
 
 ## Download Modal
 
+download-title = Ձեր ներբեռնումը մեկնարկել է:
 download-form-email =
     .label = Նշեք ձեր էլ․ հասցեն
     .value = Շատ լավ։ Կապի մեջ կլինենք։
+download-no = Ոչ, շնորհակալություն
 
 ## Contact Modal
 
@@ -579,32 +581,55 @@ other-language = Այլ լեզու
 languages-show-more = Տես ավելին
 language-search-input =
     .placeholder = Որոնում
+localized = Տեղայնացված
 
 ## Contribution
 
+action-tap = Հպել
+listen = Լսել
 skip = Բաց թողնել
 shortcuts = Դյուրանցումներ
 record-cta = Սկսել ձայնագրությունը
 record-again-instruction = Հոյակա՛պ է<recordIcon></recordIcon> Ձայնագրենք հաջորդ նախադասությունը
 record-again-instruction2 = Այո՛։ Ձայնագրենք հաջորդը <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Վերջի՜նը։
+target-segment-learn-more = Իմանալ ավելին
 
 ## Reporting
 
+report = Զեկույց
+report-title = Ուղարկել զեկույց
+report-other-comment =
+    .placeholder = Մեկնաբանություն
+success = Հաջող էր
+continue = Շարունակել
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Օր
+       *[other] Օր
+    }
 
 ## Dashboard
 
+your-languages = Ձեր լեզուները
+awards = Պարգևներ
+you = Դուք
+everyone = Բոլորը
 
 ## Custom Goals
 
+average-difficulty = Միջինը
+difficult-difficulty = Դժվար
+pro-difficulty = Pro
 how-many-per-day = Հոյակա՛պ է։ Օրեկան քանի՞ ձայնագրություն։
 how-many-a-week = Հոյակա՛պ է։ Շաբաթական քանի՞ ձայնագրություն։
 
 ## Profile Delete
 
+remove = Հեռացնել
 why-delete-recordings =
     Common Voice-ի ձայնագրություններն օգտագործում են հետազոտողները, փոքր ձեռնարկությունները կամ ձայնի ճանաչմամբ հետաքրքրված էնտուզիաստները՝ հանրային մատչելի ռեսուրսներ ուսացնելու ու մշակելու համար, ինչպես օրինակ՝ ձայնային մոդելներ։
     
