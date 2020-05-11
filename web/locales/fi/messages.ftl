@@ -64,7 +64,6 @@ ga-IE = Iiri
 gl = galicia
 ha = Hausa
 he = Heprea
-hi-IN = Hindi
 hr = kroatia
 hsb = Yläsorbi
 hu = Unkari
@@ -230,7 +229,6 @@ whats-public = Mikä on julkista?
 email-not-public = Emme julkaise sähköpostiosoitettasi.
 recordings-and-locale-public = Tallenteiden määrä ja tieto siitä mihin kieliin olet osallistunut ovat julkisia.
 username-optin-public = Voit tehdä käyttäjätunnuksestasi joko julkisen tai nimettömän.
-demographic-deidentified = Valinnaisesti demografiset tiedot (esim. ikä, sukupuoli, kieli ja murre) muunnetaan tunnistamattomiksi lähettämistäsi tiedoista eikä niitä koskaan julkisteta profiilissasi.
 username-email-not-demographic = Käyttäjätunnustasi ja sähköpostiosoitettasi ei liitetä julkaistuun aineistoon.
 
 ## Speak & Listen Shortcuts
@@ -442,11 +440,6 @@ about-partnership =
     
     Haluaisimme kiittää seuraavia henkilöitä ja organisaatioita heidän panoksestaan hankkeen eteen:
 about-get-involved = Tule mukaan
-about-get-involved-text =
-    Haluatko tehdä Common Voice -hankeesta vielä paremman? 
-    Mahtavaa! Ota yhteyttä sähköpostilla tai <discourseLink>Discourse:n</discourseLink> kautta, 
-    lähetä palautetta <githubLink>GitHub:in</githubLink> kautta, 
-    tai liity joukoomme <slackLink>Slack:issä</slackLink>.
 about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
 about-nav-partners = Partnerit
@@ -623,7 +616,6 @@ contribute-more =
 record-cta = Uusi äänite
 record-platform-not-supported = Olemme pahoillamme, mutta alustasi ei ole tällä hetkellä tuettu.
 record-platform-not-supported-desktop = Pöytätietokoneille voi ladata viimeisimmän:
-record-platform-not-supported-ios = <bold>iOS</bold>-käyttäjät voivat ladata ilmaisen mobiilisovelluksen:
 record-must-allow-microphone = Sinun on annettava sovellukselle lupa käyttää mikrofonia.
 record-no-mic-found = Mikrofonia ei löytynyt.
 record-error-too-short = Ääninäyte on liian lyhyt.
@@ -649,11 +641,12 @@ listen-instruction = { $actionType }<playIcon></playIcon> oliko virke puhuttu t�
 listen-again-instruction = Hienoa työtä! <playIcon></playIcon> Kuuntele uudestaan, kun olet valmis
 listen-3rd-time-instruction = 2 tehty, jatka samaan malliin! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Viimeinen!
-nothing-to-validate = Meillä ei ole tarkistettavia näytteitä tälle kielelle, auta meitä täyttämään jono.
 record-button-label = Tallenna äänesi
 share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
 keep-track-profile = Seuraa edistymistäsi profiilin avulla
 login-to-get-started = Kirjaudu tai rekisteröidy aloittaaksesi
+target-segment-add-voice = Lisää äänesi
+target-segment-learn-more = Lue lisää
 
 ## Reporting
 
