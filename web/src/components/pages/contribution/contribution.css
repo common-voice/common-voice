@@ -574,7 +574,11 @@
         padding: 1rem;
         font-size: var(--font-size);
         color: var(--warm-grey);
-        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 0.75rem;
     }
 
     .taxonomy-link {
@@ -582,6 +586,18 @@
         color: var(--blue);
         font-weight: 600;
         text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        grid-gap: 0.25rem;
+        align-items: center;
+
+        svg {
+            width: 20px;
+            height: 20px;
+            path {
+                fill: var(--blue);
+            }
+        }
     }
 }
 

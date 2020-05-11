@@ -26,6 +26,7 @@ import {
   KeyboardIcon,
   ShareIcon,
   SkipIcon,
+  ExternalLinkIcon,
 } from '../../ui/icons';
 import { Button, StyledLink, LinkButton } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
@@ -455,14 +456,18 @@ class ContributionPage extends React.Component<Props, State> {
                           {sentence.text}
                           {sentence.taxonomy ? (
                             <div className="sentence-taxonomy">
-                              <Localized
-                                id="sentence-taxonomy"
-                                $taxonomy={sentence.taxonomy}
-                                taxonomyLink={
-                                  <StyledLink href="https://discourse.com" />
-                                }>
-                                <span />
+                              <Localized id="target-segment-first-card">
+                                <div />
                               </Localized>
+                              <StyledLink
+                                className="taxonomy-link"
+                                blank
+                                href={URLS.TARGET_SEGMENT_INFO}>
+                                <ExternalLinkIcon />
+                                <Localized id="target-segment-learn-more">
+                                  <div />
+                                </Localized>
+                              </StyledLink>
                             </div>
                           ) : null}
                         </div>

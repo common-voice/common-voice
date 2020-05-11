@@ -11,38 +11,57 @@
     background: var(--black);
     transform: translateY(0);
     transition: transform var(--easing) var(--transition-duration);
+    padding: 20px;
+    grid-gap: 20px;
 
-    & > * {
-        margin: 20px;
-    }
-
-    & h1 {
+    .notification-text {
         text-align: center;
     }
 
-    & .spacer {
-        margin-right: auto;
+    .button {
+        margin-left: 1rem;
+        min-width: 150px;
+        background-color: transparent;
+        width: auto;
 
-        @media (--sm-down) {
-            display: none;
+        path {
+            fill: var(--white);
         }
     }
 
-    & .cta {
+    .cta {
         border: 2px solid hsla(0, 0%, 100%, 0.5);
         border-radius: 30px;
-        margin-left: 30px;
-        min-width: 150px;
-        width: auto;
-        background-color: transparent;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        grid-gap: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+
+        &.external {
+            border-color: transparent;
+        }
+
+        svg {
+            width: 22px;
+            height: 22px;
+        }
     }
 
-    & .close {
+    .close {
         border: none;
-        margin-left: auto;
+        position: fixed;
+        right: 2rem;
+        left: auto;
 
-        & path {
+        path {
             fill: var(--white);
+        }
+
+        [dir='rtl'] & {
+            left: 2rem;
+            right: auto;
         }
     }
 }
@@ -51,20 +70,10 @@
     position: fixed;
     top: 0;
 
-    & h1 {
-        &,
-        & a {
-            background-image: linear-gradient(to right, #f89096, #b1b4e5);
-            color: transparent;
-            font-size: var(--font-size-xl);
-            text-align: center;
-            background-clip: text;
-            -webkit-background-clip: text;
-        }
-
-        & a {
-            text-decoration: underline;
-            border-bottom: 2px solid #f89096;
+    .notification-text {
+        color: #f89096;
+        a {
+            color: inherit;
         }
     }
 }

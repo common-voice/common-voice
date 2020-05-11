@@ -11,6 +11,22 @@ import { isProduction } from '../utility';
 import API from './api';
 import MessageOverwrites = Flags.MessageOverwrites;
 
+export const SEGMENT_LOCALES: string[] = [
+  'en',
+  'ar',
+  'ca',
+  'de',
+  'es',
+  'fr',
+  'nl',
+  'pl',
+  'pt',
+  'ru',
+  'ta',
+  'tr',
+  'tt',
+];
+
 export const DEFAULT_LOCALE = 'en';
 export const LOCALES = isProduction()
   ? (translatedLocales as string[])

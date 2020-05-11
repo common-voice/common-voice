@@ -1,4 +1,4 @@
-const { LocalizationProvider } = require('fluent-react/compat');
+const { LocalizationProvider, Localized } = require('fluent-react/compat');
 import * as React from 'react';
 import { Suspense } from 'react';
 import { connect, Provider } from 'react-redux';
@@ -27,7 +27,9 @@ import {
 import {
   createBundleGenerator,
   DEFAULT_LOCALE,
+  NATIVE_NAMES,
   LOCALES,
+  SEGMENT_LOCALES,
   negotiateLocales,
 } from '../services/localization';
 import API from '../services/api';
@@ -39,7 +41,8 @@ import { User } from '../stores/user';
 import Layout from './layout/layout';
 import NotificationBanner from './notification-banner/notification-banner';
 import NotificationPill from './notification-pill/notification-pill';
-import { Spinner } from './ui/ui';
+import { Spinner, LinkButton } from './ui/ui';
+import { ExternalLinkIcon, TargetIcon } from './ui/icons';
 import {
   isContributable,
   localeConnector,
@@ -104,6 +107,57 @@ let LocalizedPage: any = class extends React.Component<
     window.addEventListener('scroll', this.handleScroll);
     setTimeout(() => this.setState({ hasScrolled: true }), 5000);
     this.props.refreshUser();
+    const { locale, addNotification } = this.props;
+
+    const SEGMENT_NOTIFICATION_KEY = 'hideTargetSegmentBanner';
+
+    if (
+      SEGMENT_LOCALES.includes(locale) &&
+      !localStorage.getItem(SEGMENT_NOTIFICATION_KEY)
+    ) {
+      addNotification(
+        <>
+          <Localized
+            id="target-segment-first-banner"
+            $locale={NATIVE_NAMES[locale]}
+          />
+        </>,
+        {
+          links: [
+            {
+              to: URLS.SPEAK,
+              className: 'cta',
+              children: (
+                <>
+                  <TargetIcon />
+                  <Localized
+                    key="target-segment-add-voice"
+                    id="target-segment-add-voice">
+                    <div />
+                  </Localized>
+                </>
+              ),
+            },
+            {
+              href: URLS.TARGET_SEGMENT_INFO,
+              blank: true,
+              className: 'cta external',
+              children: (
+                <>
+                  <ExternalLinkIcon />
+                  <Localized
+                    key="target-segment-learn-more"
+                    id="target-segment-learn-more">
+                    <div />
+                  </Localized>
+                </>
+              ),
+            },
+          ],
+          storageKey: SEGMENT_NOTIFICATION_KEY,
+        }
+      );
+    }
   }
 
   async UNSAFE_componentWillReceiveProps(nextProps: LocalizedPagesProps) {
@@ -135,8 +189,12 @@ let LocalizedPage: any = class extends React.Component<
           award.days_interval == 1 ? 'daily' : 'weekly'
         } goal achieved!`,
         {
-          children: 'Check out your award!',
-          to: URLS.AWARDS,
+          links: [
+            {
+              children: 'Check out your award!',
+              to: URLS.AWARDS,
+            },
+          ],
         }
       );
       await api.seenAwards('notification');
