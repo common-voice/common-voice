@@ -332,6 +332,7 @@ on = Açık
 avatar-clip-title = Avatarınızı seslendirin
 change-your-avatar-clip = Ses kaydınızı değiştirmek mi istiyorsunuz?
 recording-in-progress = Ses kaydı devam ediyor
+avatar-clip-recorded = Avatarınıza artık ses kaydı ekleyebilirsiniz!
 retry-voice-wave-recording = YENİDEN DENE
 re-record = YENİDEN KAYDET
 delete-voice = SİL
@@ -354,9 +355,11 @@ faq-title = Sıkça Sorulan Sorular
 faq-what-cv-q = Common Voice nedir?
 faq-why-important-q = Ne önemi var?
 faq-how-get-q = Common Voice verilerini nasıl indirebilirim?
+faq-how-get-a = Common Voice veri kümesi, <datasetLink>Veri Kümeleri sayfamızdaki</datasetLink> <licenseLink>CC0</licenseLink> lisansıyla indirilebilir. Halka açık diğer birkaç veri kümesini de aynı sayfadan indirebilirsiniz.
 faq-when-release2-q = Diğer dillerdeki Common Voice verilerini ne zaman yayımlayacaksınız?
 faq-why-mission-q = Common Voice neden Mozilla misyonunun bir parçası?
 faq-what-cv-and-deepspeech-q = Deep Speech ile Common Voice arasındaki fark nedir?
+faq-what-cv-and-deepspeech-a = Common Voice veri kümesi, Mozilla’nın açık kaynaklı ses tanıma motoru Deep Speech'i tamamlar. Deep Speech'in ilk sürümü Kasım 2017'de yayımlandı ve o zamandan beri gelişmeye devam etti. Common Voice veri kümesi ile birlikte, bu açık kaynaklı ses tanıma teknolojisinin herkes tarafından erişilebilir olması gerektiğine inanıyoruz. Bu teknolojilerin, geliştiricilerin yenilikçi ürün ve hizmet dalgası oluşturmalarını sağlayacağını umuyoruz.
 faq-is-goal-assistant-q = Common Voice'un amacı sesli asistan oluşturmak mı?
 faq-do-want-native-q = Ana dilim bu değil ve aksanlı konuşuyorum, yine de katkıda bulunmamı istiyor musunuz?
 faq-why-different-speakers-q = Neden her dil için bu kadar fazla konuşmacıya ihtiyacınız var?
@@ -409,6 +412,7 @@ mycroft-subtitle = Yapay zekâ
 glossary = Sözlük
 localization = Yerelleştirme
 sentence-collection = Cümle derleme
+hours-recorded-explanation = Şimdiye kadar topladığımız ses kayıtlarının toplam süresi.
 sst = Konuşmadan metne (STT)
 sst-explanation = Konuşmadan metne (STT) teknolojileri ses verilerini metne dönüştürür.
 
@@ -448,6 +452,7 @@ review-delete-recordings = Kayıtlarımı sil
 
 ## Datasets Page
 
+datasets-headline = Herkesin konuşma özellikli uygulamaları eğitmek için kullanabileceği açık kaynaklı, çok dilli bir ses veri kümesi oluşturuyoruz.
 language = Dil
 # File size in gigabytes
 size = Boyut
@@ -464,6 +469,7 @@ download-language = { $language } indir
 validated-hours = Doğrulanmış saat
 recorded-hours = Kaydedilen saat
 whats-inside = Bu Common Voice veri kümesinde neler var?
+want-dataset-update = Common Voice veri kümesinin yeni sürümünü yayımladığımızda haberdar edilmek ister misiniz? Haber bültenimize abone olun.
 subscribe = Abone ol
 get-started-speech = Konuşma tanımaya giriş
 other-datasets = Diğer ses veri kümeleri
@@ -545,6 +551,7 @@ contribute-more =
 record-cta = Kaydetmeye başla
 record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
 record-platform-not-supported-desktop = Bilgisayarınızda şu tarayıcıların son sürümlerini kullanabilirsiniz:
+record-platform-not-supported-ios-non-safari = iOS'te kaydı etkinleştirmek için lütfen Safari ile devam edin…
 record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
 record-no-mic-found = Mikrofon bulunamadı.
 record-error-too-short = Kayıt çok kısa.
@@ -572,10 +579,15 @@ listen-instruction = <playIcon></playIcon> düğmesine { $actionType }. Cümle d
 listen-again-instruction = Çok iyi iş! <playIcon></playIcon> Hazır olduğunuzda yeniden dinleyin.
 listen-3rd-time-instruction = İkisi gitti, çalışmaya devam! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
+listen-empty-state = Bu dilde doğrulanacak ses kaydı kalmadı...
+speak-empty-state = Bu dilde kaydedilecek cümle kalmadı...
+speak-empty-state-cta = Cümlelere katkıda bulunun
 record-button-label = Sesinizi kaydedin
 share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 keep-track-profile = Profil oluşturarak ilerlemenizi takip edin
 login-to-get-started = Başlamak için giriş yapın veya kaydolun
+target-segment-add-voice = Sesinizi ekleyin
+target-segment-learn-more = Daha fazla bilgi alın
 
 ## Reporting
 
