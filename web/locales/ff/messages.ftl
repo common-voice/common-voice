@@ -312,11 +312,15 @@ faq-what-cv-and-deepspeech-q = Hol ko seerndi Common Voice e Deep Speech?
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
+faq-what-is-cv = Ko woni Common Voice?
+faq-using-cv = Kuutorogol Common Voice?
+faq-description = Common Voice ko huunde e peeje Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
 faq-search-for-answers =
     .label = Yiylo jaabawuuji
 
 ## ABOUT US
 
+about-title = Ko saabii Common Voice?
 how-does-it-work-title = Hol no ɗum gollortoo?
 about-speak = Haal
 about-listen = Heɗo
@@ -336,15 +340,18 @@ localization = Nokkuɗinal
 ## NotFound
 
 notfound-title = Yiytaaka
+notfound-content = Mbiɗo faayi waasde anndude ko njiilotoɗaa.
 
 ## Data
 
+data-download-button = Aawto keɓe Common Voice
 data-download-yes = Eey
 data-download-deny = Alaa
 data-other-goto = Yah to { $name }
 data-other-download = Aawto keɓe
 terms-agree = Mi jaɓii
 terms-disagree = Mi jaɓaani
+review-aborted = Jollugol dullii. Aɗa yiɗi momtude nanngitogol maa?
 review-recording = Ƴeewto
 
 ## Datasets Page
