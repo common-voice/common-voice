@@ -352,7 +352,9 @@ data-other-download = Aawto keɓe
 terms-agree = Mi jaɓii
 terms-disagree = Mi jaɓaani
 review-aborted = Jollugol dullii. Aɗa yiɗi momtude nanngitogol maa?
+review-submit-title = Ƴeewto & Neldu
 review-recording = Ƴeewto
+review-cancel = Haaytu neldugol
 
 ## Datasets Page
 
