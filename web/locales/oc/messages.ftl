@@ -64,7 +64,6 @@ ga-IE = Irlandés
 gl = Galician
 ha = Haussà
 he = Ebrieu
-hi-IN = Indi
 hr = Croat
 hsb = Sèrbe naut
 hu = Ongrés
@@ -240,7 +239,6 @@ whats-public = Quina informacion es publica ?
 email-not-public = Farem pas venir vòstra adreça electronica publica.
 recordings-and-locale-public = Lo nombre d’enregistraments e las lengas dins las qualas contribuïssètz seràn publics.
 username-optin-public = Podètz cuasir se volètz que vòstre nom d’utilizaire siá public o anonim.
-demographic-deidentified = Las informacions demograficas opcionalas (per exemple l'atge, lo sèxe, la lenga, e l'accent) son dissociadas de vòstres enregistraments àudio e seràn pas jamai afichadas publicament sul vòstre perfil.
 username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts
@@ -631,7 +629,6 @@ contribute-more = Prèst a ne far { $count } mai ?
 record-cta = Començar l’enregistrament
 record-platform-not-supported = O planhèm, mas vòstra plataforma es pas compatibla pel moment.
 record-platform-not-supported-desktop = Amb un ordenador de burèu, podètz telecargar lo darrièr :
-record-platform-not-supported-ios = Los utilizaires <bold>iOS</bold> pòdon telecargar nòstra aplicacion gratuita :
 record-must-allow-microphone = Devètz permetre l’accès al microfòn.
 record-no-mic-found = Cap de microfòn pas trobat.
 record-error-too-short = L’enregistrament es tròp cort.
@@ -666,6 +663,8 @@ record-button-label = Enregistrar vòstra votz
 share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
 keep-track-profile = Seguissètz vòstra progression en crear un perfil
 login-to-get-started = Connectatz-vos o marcatz-vos per començar
+target-segment-add-voice = Donatz vòstra votz
+target-segment-learn-more = Ne saber mai
 
 ## Reporting
 
