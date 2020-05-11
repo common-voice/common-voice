@@ -227,7 +227,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   private showSegmentBanner = () => {
     const { locale } = this.props;
-    console.log(process.env);
 
     return (
       SEGMENT_LOCALES.includes(locale) &&

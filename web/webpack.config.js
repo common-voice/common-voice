@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: process.env.DOTENV_CONFIG_PATH || '/code/.env-local-docker' });
 const path = require('path');
 const chalk = require('chalk');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
