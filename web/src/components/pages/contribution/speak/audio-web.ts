@@ -45,7 +45,7 @@ export default class AudioWeb {
   }
 
   private getMicrophone(): Promise<MediaStream> {
-    return new Promise(function(res: Function, rej: Function) {
+    return new Promise(function (res: Function, rej: Function) {
       function deny(error: MediaStreamError) {
         rej(
           ({

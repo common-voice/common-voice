@@ -1,5 +1,6 @@
 ## Languages
 
+contribute = Մասնակցել
 get-involved-button = Միացե՛ք
 get-involved-title = Աջակցել { $lang }ին
 get-involved-text =

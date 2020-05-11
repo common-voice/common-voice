@@ -64,7 +64,7 @@ ga-IE = Irski
 gl = Galicijski
 ha = Hausa
 he = Hebrejski
-hi-IN = Hindi
+hi = Hindski
 hr = Hrvatski
 hsb = Lužičkosrpski, gornji
 hu = Mađarski
@@ -640,8 +640,8 @@ listen = Preslušaj
 skip = Preskoči
 shortcuts = Prečaci
 clips-with-count = <bold>{ $count }</bold> Isječci
-goal-help-recording = Pomogli ste Common Voiceu da postigne <goalPercentage> </goalPercentage> našeg dnevnog cilja za snimanje od { $goalValue }!
-goal-help-validation = Pomogli ste Common Voiceu da postigne <goalPercentage> </goalPercentage> našeg dnevnog cilja za provjeravanje od { $goalValue }!
+goal-help-recording = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za snimanje od { $goalValue }!
+goal-help-validation = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za provjeravanje od { $goalValue }!
 contribute-more =
     { $count ->
         [one] Jeste li spremni obaviti još { $count }?
@@ -686,6 +686,10 @@ record-button-label = Snimite svoj glas
 share-title-new = <bold>Pomozite nam</bold> pronaći više glasova
 keep-track-profile = Prati svoj napredak pomoću profila
 login-to-get-started = Za početak se prijavi ili registriraj
+target-segment-first-card = Doprinosiš našem prvom segmentu cilja
+target-segment-first-banner = Pomogni stvoriti prvi segment cilja Common Voicea za { $locale }
+target-segment-add-voice = Dodaj svoj glas
+target-segment-learn-more = Saznaj više
 
 ## Reporting
 
@@ -771,7 +775,7 @@ finish-editing = Najprije završiti s uređivanjem?
 lose-changes-warning = Ako sad prekineš, izgubit ćeš promjene
 build-custom-goal = Izgradi prilagođeni cilj
 help-reach-hours = Pomozi postići { NUMBER($hours) } sati za { $language } s osobnim ciljem
-help-reach-hours-general = Pomozi Common Voiceu dosegnuti { NUMBER($hours) } sati za jezik s osobnim ciljem
+help-reach-hours-general = Pomogni Common Voiceu dosegnuti { NUMBER($hours) } sati za jezik s osobnim ciljem
 set-a-goal = Postavi cilj
 cant-decide = Ne možete se odlučiti?
 activity-needed-calculation =

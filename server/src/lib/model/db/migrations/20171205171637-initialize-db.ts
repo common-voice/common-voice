@@ -1,4 +1,4 @@
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   const [row] = await db.runSql("SHOW TABLES LIKE 'version';");
   // If the version table exists, the user already has all the tables below
   return db.runSql(
@@ -57,6 +57,6 @@ export const up = async function(db: any): Promise<any> {
   );
 };
 
-export const down = function(): Promise<any> {
+export const down = function (): Promise<any> {
   return null;
 };

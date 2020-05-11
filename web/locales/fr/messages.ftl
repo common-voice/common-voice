@@ -64,10 +64,11 @@ ga-IE = Irlandais
 gl = Galicien
 ha = Haoussa
 he = Hébreu
-hi-IN = Hindi
+hi = Hindi
 hr = Croate
 hsb = Haut-sorabe
 hu = Hongrois
+hy-AM = Arménien
 ia = Interlingua
 id = Indonésien
 is = Islandais
@@ -627,6 +628,7 @@ contribute-more = Prêt·e à en faire { $count } de plus ?
 record-cta = Commencer l’enregistrement
 record-platform-not-supported = Nous sommes désolés, mais votre plateforme n’est pas encore prise en charge.
 record-platform-not-supported-desktop = Pour les ordinateurs de bureau, vous pouvez télécharger le plus récent :
+record-platform-not-supported-ios-non-safari = Sous iOS, veuillez continuer avec Safari pour activer l’enregistrement…
 record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
 record-no-mic-found = Aucun microphone trouvé.
 record-error-too-short = L’enregistrement est trop court.
@@ -661,6 +663,10 @@ record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 keep-track-profile = Mesurez votre progression en créant un profil
 login-to-get-started = Connectez-vous ou inscrivez-vous pour commencer
+target-segment-first-card = Vous contribuez à notre premier segment cible
+target-segment-first-banner = Aidez à créer le premier segment cible de Common Voice en { $locale }
+target-segment-add-voice = Donner de votre voix
+target-segment-learn-more = En savoir plus
 
 ## Reporting
 

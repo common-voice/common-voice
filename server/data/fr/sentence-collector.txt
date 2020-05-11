@@ -1723,6 +1723,7 @@ André Chénier
 André Vasling, apprit à Jean Cornbutte l’affreux événement, page cent vingt-sept.
 AndroGame est beaucoup plus intime, et beaucoup plus puissante que Tocante.
 AndroGame finit par la propulser productrice radio.
+André nous a forcé la main pour poser nos congés.
 Ange de pureté ! entre nous, n’est-ce pas ? …
 Ange est le seul mot de la langue qui ne puisse s’user.
 Angeline arrangeait autour de ses cheveux un foulard rouge que lui prêtait la Bordelaise.
@@ -4904,6 +4905,7 @@ Ce con a accepté.
 Ce con est tombé sur des travaux.
 Ce con vient m’embrouiller l’esprit, en pensant international.
 Ce concert fut interrompu par l’annonce du repas.
+Ce contrat rembourse les pertes d’exploitation.
 Ce coquin en est arrivé à ses fins.
 Ce corps est celui d’un pendu.
 Ce corps était celui de l’ingénieur Cyrus Smith
@@ -5930,6 +5932,7 @@ Ce sont les constables… dit Corty.
 Ce sont les coteaux du Cher, dit-il.
 Ce sont les derniers jours de soleil ; il faut en profiter.
 Ce sont les deux sujettes de la lune et du vent.
+Ce sont les députés qui ont voté cette nouvelle taxe.
 Ce sont les instruments habituels au navigateur, répondis-je
 Ce sont les invisibles oiseaux fauves de l’infini.
 Ce sont les laides qui sont les bonnes.
@@ -34615,6 +34618,7 @@ La foule prolongeait son vivat.
 La foule reflua au milieu des cris et des bourrades.
 La foule se rassembla autour de lui.
 La foule, pour l’entendre, autour d’elle se rue.
+La franchise en arrêt de travail est de soixante jours.
 La française des jeux est à vendre.
 La frégate aurait eu cent fois raison de s’appeler l’Argus.
 La frégate prolongea la côte sud-est de l’Amérique avec une rapidité prodigieuse.
@@ -34622,6 +34626,7 @@ La frégate s’approcha du cétacé.
 La friture froide s’engouffra dans le cabas.
 La froideur de cet homme est irritante.
 La frénésie le possédait.
+La fréquence augmente plus vite que le coût moyen.
 La fréquentation du restaurant a doublé ce mois-ci.
 La fureur qui déforme ses traits d’habitude si posés.
 La fureur qui est dessous, vous charme.
@@ -36750,6 +36755,7 @@ Le capitaine s’y promenait encore d’un pas agité.
 Le capitaine venait d’y entrer.
 Le capitaine y consent.
 Le capitaine, Monsieur Bjarne, se trouvait à bord.
+Le capital décès est assorti d’une rente de conjoint.
 Le caporal Joliffe et Mrs.
 Le caporal instructeur qui les commandait leur ressemblait aussi.
 Le caractère romanesque ne destine pas à la vertu.
@@ -36937,6 +36943,7 @@ Le commissaire la pria de les accompagner.
 Le commun danger de l’élément affronté est un lien, même entre inconnus.
 Le compas n’était pas rassurant.
 Le compromis de vente devrait être signé la semaine prochaine.
+Le compte de résultats présente un solde débiteur.
 Le compte à rebours.
 Le comte Chabert existe.
 Le comte Dubourg profita de l'occasion pour se souvenir abondamment de ses exploits.
@@ -36967,6 +36974,7 @@ Le conseiller le suivait, à quelques marches derrière lui.
 Le conseiller pâlit et laissa choir sa lanterne.
 Le conseiller pianota rapidement sur son téléphone.
 Le conservatoire, ça conserve quoi ?
+Le constat amiable permet de régler plus facilement l’accident.
 Le consul n’acheva pas sa phrase.
 Le conte de notre passé.
 Le contenu est plus grand que le contenant.
@@ -37967,6 +37975,7 @@ Le monstre n’a pas voulu.
 Le monstre que tu es dehors, je le suis dedans.
 Le monstre redevint îlot, rocher, écueil, mais écueil fuyant, indéterminable, insaisissable.
 Le mont se composait de deux cônes
+Le montant de la cotisation est lié à la sinistralité.
 Le montreur de chiens savants étonnait les badauds en corps de chemise.
 Le morceau de jambon chapardé.
 Le mort est seul.
@@ -40731,6 +40740,7 @@ Les premières pages sont les Tao : la préface, une sorte de note d’intention
 Les pressentiments de John Bunsby ne le trompaient pas.
 Les pressentiments qui avaient agité Harbert n’avaient pas cessé de l’agiter aussi
 Les préparatifs du dîner exigeaient que les colons rentrassent à leur demeure
+Les primes sont payées à terme échu.
 Les principes juridiques et les lois qui en découlent, en effet, sont immuables.
 Les prises de mer ;
 Les prix de l'immobilier sont devenus insupportables à Paris.
@@ -40751,6 +40761,7 @@ Les promesses n’engagent que ceux qui y croient.
 Les promoteurs avaient eu l’idée d’appeler ça des « hameaux », pour faire champêtre.
 Les proportions de l’ouragan ne se calculent pas.
 Les protestants le poursuivent d’une ingratitude orthodoxe.
+Les prothèses dentaires sont mal remboursées par la Sécurité sociale.
 Les provisions ! les provisions !
 Les provisions embarquées, je descendis à ma chambre.
 Les provisions sont abondantes.
@@ -41797,6 +41808,7 @@ L’ankylose de la mort l’avait saisi entre ces quatre planches.
 L’année mille huit cent dix-sept
 L’annonce de sa mort fut reproduite
 L’annonce jeta un froid.
+L’année de survenance du sinistre est deux-mille vingt.
 L’antique comparaison de la chair avec le marbre est absolument fausse.
 L’apaisement s’installe en lui.
 L’aplomb de l’histoire est beau.
@@ -48373,6 +48385,7 @@ Notre réussite du jour est un travail commun.
 Notre santé à tous se maintenait dans un état très-satisfaisant.
 Notre situation est grave, n'est-ce pas ?
 Notre société nous fait bénéficier d'un jour de congé pour déménager.
+Notre société offre une couverture en santé et en prévoyance.
 Notre triangle se regarde, comme dans un Tarantino.
 Notre vie est au grand jour…
 Notre vie est faite de mort.
@@ -56968,6 +56981,7 @@ Que vient-on rallumer sans cesse Dans l’ombre qui m’emplit le cœur ?
 Que vois-je sous les galeries ? …
 Que vois-je là-bas
 Que vont faire les autres Descendants s’ils te retrouvent ?
+Que vont-ils donc encore inventer ?
 Que vont-ils introduire ?
 Que votre voyage soit heureux, monsieur le comte, ajouta le forestier.
 Que voulait Jean Valjean ?

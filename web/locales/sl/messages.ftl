@@ -64,10 +64,11 @@ ga-IE = irščina
 gl = galicijščina
 ha = havščina
 he = hebrejščina
-hi-IN = hindujščina
+hi = hindujščina
 hr = hrvaščina
 hsb = gornja lužiška srbščina
 hu = madžarščina
+hy-AM = armenščina
 ia = interlingva
 id = indonezijščina
 is = islandščina
@@ -244,7 +245,6 @@ whats-public = Kaj je javno?
 email-not-public = Vašega e-poštnega naslova ne bomo javno objavili.
 recordings-and-locale-public = Število posnetkov in jeziki, pri katerih sodelujete, bodo javni.
 username-optin-public = Svoje uporabniško ime lahko nastavite kot javno ali anonimno.
-demographic-deidentified = Po želji dodani demografski podatki (npr. starost, spol, jezik in naglas) so iz vaših poslanih glasovnih podatkov odstranjeni in jih v vašem profilu ne bomo nikoli javno objavili.
 username-email-not-demographic = Vaše uporabniško ime in e-poštni naslov ne bosta povezana z objavljenimi podatki.
 
 ## Speak & Listen Shortcuts
@@ -629,7 +629,6 @@ contribute-more =
 record-cta = Začni snemati
 record-platform-not-supported = Žal nam je, vendar vaše platforme trenutno ne podpiramo.
 record-platform-not-supported-desktop = Na namiznih in prenosnih računalnikih lahko prenesete najnovejše:
-record-platform-not-supported-ios = Uporabniki <bold>iOS</bold> lahko prenesejo našo brezplačno aplikacijo:
 record-must-allow-microphone = Dovoliti morate dostop do mikrofona.
 record-no-mic-found = Ni najdenega mikrofona.
 record-error-too-short = Posnetek je prekratek.
@@ -643,6 +642,7 @@ record-again-instruction = Odlično! <recordIcon></recordIcon> Posnemite nasledn
 record-again-instruction2 = Odlično napredujete, začnite ponovno snemati <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Zadnji!
 review-tooltip = Tukaj lahko pregledate posnetke in jih ponovno posnamete.
+share-clip = Delite svoj posnetek
 share-common-voice = Delite Common Voice
 review-instruction = Če je potrebno, lahko posnetke pregledate in ponovno posnamete
 record-submit-tooltip = { $actionType } Pošlji, ko ste pripravljeni
@@ -656,11 +656,15 @@ listen-instruction = { $actionType } <playIcon></playIcon> ali je bil stavek pra
 listen-again-instruction = Odlično opravljeno!<playIcon></playIcon> Poslušajte znova, ko boste pripravljeni.
 listen-3rd-time-instruction = 2 sta pod streho, kar tako naprej! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
-nothing-to-validate = Trenutno ni ničesar za preveriti v tem jeziku. Pomagaj nam zapolniti čakalno vrsto.
+listen-empty-state = Zmanjkalo nam je posnetkov za potrditev v tem jeziku ...
+speak-empty-state = Zmanjkalo nam je stavkov za snemanje v tem jeziku ...
+speak-empty-state-cta = Prispevajte stavke
 record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 keep-track-profile = S profilom spremljajte svoj napredek
 login-to-get-started = Za začetek se prijavite ali registrirajte
+target-segment-add-voice = Dodajte svoj glas
+target-segment-learn-more = Več o tem
 
 ## Reporting
 

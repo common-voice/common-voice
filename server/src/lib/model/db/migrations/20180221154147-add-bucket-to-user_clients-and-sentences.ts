@@ -1,4 +1,4 @@
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   await db.runSql(
     `
       ALTER TABLE user_clients ADD COLUMN bucket ENUM ('train', 'dev', 'test') DEFAULT 'train';
@@ -8,6 +8,6 @@ export const up = async function(db: any): Promise<any> {
   );
 };
 
-export const down = function(): Promise<any> {
+export const down = function (): Promise<any> {
   return null;
 };

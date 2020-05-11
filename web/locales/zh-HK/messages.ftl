@@ -383,6 +383,7 @@ faq-why-different-speakers-a =
     大多數的語音數據庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在這些訓練機械的數據之中，各種不同的口音與方言與被邊緣化的人群常有所關連。許多機器也很難理解女性的聲音。
     這就是為什麼我們的語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解還沒有我的語言？
+faq-why-my-lang-new-a = Mozilla 不特別偏好哪種語言。相反而然 Common Voice 是一個純社群發起的計劃，需要<multilangLink>幾個步驟才能新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，這樣社群成員才能用自己的語言進行貢獻。次之，我們需要大量的無版權語句，讓人們可以大聲說出來。當兩個條件都滿足後 Common Voice 即可「上線」，讓人們開始錄音，並驗證其他人所錄下的片段。若您想要協助準備讓新語言上限，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫忙。
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
 faq-what-quality-a = 我們希望 Common Voice 數據集能夠反映出語音轉文字引擎在野外也會聽到的聲音，所以我們希望能夠收集各種環境下與不同錄音品質的片段。除了一個多元的說話者群體，如果這個數據集包含了各種語音品質的片段，便可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至數據集中。
 faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目標？
@@ -443,6 +444,11 @@ about-partnership =
     
     特別感謝下列人員與組織單位對本計劃的幫助：
 about-get-involved = 參與我們
+about-get-involved-text-2 =
+    想幫手令 Common Voice 計劃變得更好？
+    太好了！請用電郵或<discourseLink>Discourse</discourseLink>論壇同我們聯絡，
+    在<githubLink>GitHub</githubLink>上提交網站問題，或者加入
+    <matrixLink>Matrix</matrixLink>群組聊天室。
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
 about-nav-partners = 合作夥伴
@@ -503,6 +509,12 @@ review-delete-recordings = 刪除我的錄音
 ## Datasets Page
 
 datasets-headline = 我們想建立一套開放原碼、多重語言的語音數據集，讓任何人都可以用來開發和語音相關的應用。
+datasets-positioning =
+    我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術上的創新，與健康的商業競爭。
+    
+    Common Voice 的多語言數據集已經成為最大的公開語音數據集，但不是唯一的一套。
+    
+    您可於此頁面找到其他開放原碼的語音數據集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
 language = 語言
 # File size in gigabytes
 size = 大小

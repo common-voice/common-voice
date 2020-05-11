@@ -6,7 +6,7 @@ const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g');
  * Generate RFC4122 compliant globally unique identifier.
  */
 export function generateGUID(): string {
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
     var r = (Math.random() * 16) | 0,
       v = c == 'x' ? r : (r & 0x3) | 0x8;
     return v.toString(16);
@@ -36,9 +36,12 @@ export function countSyllables(text: string): number {
 
 /**
  * Test whether this is a browser on iOS.
+ *
+ * NOTE: As of early 2020 this is not reliable on iPad for some privacy-minded
+ * browsers, including Safari (!!), Brave, and Firefox Focus.
  */
 export function isIOS(): boolean {
-  return /iPod|iPhone|iPad/i.test(window.navigator.userAgent);
+  return /iPod|iPhone|iPad|iOS/i.test(window.navigator.userAgent);
 }
 
 /**
@@ -51,7 +54,9 @@ export function isMobileSafari(): boolean {
     isIOS() &&
     !window.navigator.standalone &&
     /AppleWebKit/i.test(window.navigator.userAgent) &&
-    !/Chrome|Focus|CriOS|OPiOS|FxiOS|mercury/i.test(window.navigator.userAgent)
+    !/Chrome|Focus|CriOS|OPiOS|OPT\/|FxiOS|EdgiOS|mercury/i.test(
+      window.navigator.userAgent
+    )
   );
 }
 
@@ -106,10 +111,7 @@ export async function hash(text: string) {
 
 export function stringContains(haystack: string, needles: string) {
   return (
-    haystack
-      .toUpperCase()
-      .replace(SEARCH_REG_EXP, '')
-      .indexOf(needles) !== -1
+    haystack.toUpperCase().replace(SEARCH_REG_EXP, '').indexOf(needles) !== -1
   );
 }
 

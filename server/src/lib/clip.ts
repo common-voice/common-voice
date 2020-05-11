@@ -20,10 +20,7 @@ const Transcoder = require('stream-transcoder');
 const SALT = '8hd3e8sddFSdfj';
 
 export const hash = (str: string) =>
-  crypto
-    .createHmac('sha256', SALT)
-    .update(str)
-    .digest('hex');
+  crypto.createHmac('sha256', SALT).update(str).digest('hex');
 
 /**
  * Clip - Responsibly for saving and serving clips.
@@ -173,10 +170,7 @@ export default class Clip {
         .upload({
           Bucket: getConfig().BUCKET_NAME,
           Key: clipFileName,
-          Body: transcoder
-            .audioCodec('mp3')
-            .format('mp3')
-            .stream(),
+          Body: transcoder.audioCodec('mp3').format('mp3').stream(),
         })
         .promise();
 

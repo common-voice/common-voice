@@ -64,8 +64,7 @@
     "nodemon": "^2.0.2",
     "source-map-support": "^0.5.16",
     "ts-jest": "25.2.1",
-    "tsc-watch": "^4.2.3",
-    "typescript": "3.7.5"
+    "tsc-watch": "^4.2.3"
   },
   "scripts": {
     "build": "tsc",

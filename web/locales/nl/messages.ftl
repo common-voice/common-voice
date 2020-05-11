@@ -64,7 +64,7 @@ ga-IE = Iers
 gl = Galicisch
 ha = Hausa
 he = Hebreeuws
-hi-IN = Hindi
+hi = Hindi
 hr = Kroatisch
 hsb = Oppersorbisch
 hu = Hongaars
@@ -629,7 +629,7 @@ contribute-more = Klaar om er nog { $count } te doen?
 record-cta = Opname starten
 record-platform-not-supported = Sorry, maar uw platform wordt nog niet ondersteund.
 record-platform-not-supported-desktop = Op desktopcomputers kunt u de meest recente downloaden:
-record-platform-not-supported-ios-non-safari = Ga op iOS door met Safari om opnemen mogelijk te maken…
+record-platform-not-supported-ios-non-safari = Ga op iOS door met Safari om opnemen in te schakelen…
 record-must-allow-microphone = U dient toegang tot uw microfoon te geven.
 record-no-mic-found = Geen microfoon gevonden.
 record-error-too-short = De opname was te kort.
@@ -664,6 +664,10 @@ record-button-label = Uw stem opnemen
 share-title-new = <bold>Help ons</bold> meer stemmen te vinden
 keep-track-profile = Houd uw voortgang bij met een profiel
 login-to-get-started = Meld u aan of registreer om te beginnen
+target-segment-first-card = U draagt bij aan ons eerste doelsegment
+target-segment-first-banner = Help bij het maken van het eerste doelsegment in het { $locale } van Common Voice
+target-segment-add-voice = Uw stem toevoegen
+target-segment-learn-more = Meer info
 
 ## Reporting
 

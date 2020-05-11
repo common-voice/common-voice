@@ -1,4 +1,4 @@
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   return db.runSql(
     `
       # We can ignore failing updates for portuguese as it doesn't have related
@@ -8,6 +8,6 @@ export const up = async function(db: any): Promise<any> {
   );
 };
 
-export const down = function(): Promise<any> {
+export const down = function (): Promise<any> {
   return null;
 };

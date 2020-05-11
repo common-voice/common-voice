@@ -2,7 +2,7 @@
 // running this a few times, so no need to get fancy. It'll get cached anyway.
 const pilotId = `(SELECT id FROM challenges WHERE url_token='pilot')`;
 
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   return db.runSql(`
     /* We're handling logos on the front-end. */
     ALTER TABLE teams DROP COLUMN logo_url;
@@ -42,6 +42,6 @@ export const up = async function(db: any): Promise<any> {
   `);
 };
 
-export const down = function(): Promise<any> {
+export const down = function (): Promise<any> {
   return null;
 };

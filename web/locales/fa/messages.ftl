@@ -64,10 +64,10 @@ ga-IE = ایرلندی
 gl = گالیسیایی
 ha = Hausa
 he = عبری
-hi-IN = هندی
 hr = کروات
 hsb = صربی، بالا
 hu = مجاری
+hy-AM = ارمنی
 ia = میان‌زبان
 id = اندونزیایی
 is = ایسلندی
@@ -236,7 +236,6 @@ whats-public = چه چیزی عمومی است؟
 email-not-public = ما رایانامه شما را برای عموم منتشر نخواهیم کرد.
 recordings-and-locale-public = تعداد ضبط‌ها و زبان‌هایی که به آن‌ها کمک می‌کنید، عمومی هستند.
 username-optin-public = شما می‌توانید نام کاربری خود را عمومی یا ناشناس انتخاب کنید.
-demographic-deidentified = داده های جمعیت شناسی ارائه شده به صورت اختیاری (مثل سن، جنسیت، زبان و لهجه) از داده‌های صوتی ارائه شده شما جدا شده و هرگز در نمایه‌تان منتشر نخواهد شد.
 username-email-not-demographic = نام کاربری و رایانامه شما با داده‌های منتشر شده ارتباط نخواهد داشت.
 
 ## Speak & Listen Shortcuts
@@ -635,7 +634,7 @@ contribute-more =
 record-cta = شروع ضبط
 record-platform-not-supported = متاسفیم، اما پلتفرم شما در حال حاضر پشتیبانی نمی شود.
 record-platform-not-supported-desktop = در کامپیوترهای رومیزی، می‌توانید آخرین‌ها را دریافت کنید:
-record-platform-not-supported-ios = کاربران <bold>iOS</bold> می‌توانند برنامه آزاد ما را دریافت کنند:
+record-platform-not-supported-ios-non-safari = در iOS برای فعال‌سازی ضبط لطفا با سافاری ادامه دهید…
 record-must-allow-microphone = شما باید مجوز دسترسی به میکروفون را صادر کنید.
 record-no-mic-found = هیچ میکروفونی یافت نشد
 record-error-too-short = ضبط خیلی کوتاه بود.
@@ -670,6 +669,7 @@ record-button-label = صدای خود را ضبط کنید
 share-title-new = برای یافتن صداهای بیشتر <bold>به ما کمک کنید</bold>
 keep-track-profile = پیشرفت‌ خود را با یک نمایه پیگیری کنید
 login-to-get-started = برای شروع وارد شوید یا ثبت‌ نام کنید
+target-segment-learn-more = اطلاعات بیشتر
 
 ## Reporting
 

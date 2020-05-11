@@ -64,7 +64,7 @@ ga-IE = Ірландська
 gl = Галісійська
 ha = Хауса
 he = Іврит
-hi-IN = Гінді
+hi = Гінді
 hr = Хорватська
 hsb = Верхньолужицька
 hu = Угорська
@@ -678,6 +678,10 @@ record-button-label = Запишіть свій голос
 share-title-new = <bold>Допоможіть нам</bold> знайти більше голосів
 keep-track-profile = Слідкуйте за своїм прогресом за допомогою профілю
 login-to-get-started = Увійдіть або зареєструйтесь, щоб розпочати
+target-segment-first-card = Ви допомагаєте досягнути нашої першочергової цілі
+target-segment-first-banner = Допоможіть Common Voice досягнути першочергової цілі для { $locale }
+target-segment-add-voice = Додайте ваш голос
+target-segment-learn-more = Докладніше
 
 ## Reporting
 

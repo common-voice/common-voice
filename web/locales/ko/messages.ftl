@@ -229,7 +229,6 @@ whats-public = 어떤 것이 공개됩니까?
 email-not-public = 사용자의 이메일을 공개하지 않습니다.
 recordings-and-locale-public = 내 녹음 횟수와 기여한 언어는 공개됩니다.
 username-optin-public = 사용자 이름의 공개여부를 선택하실 수 있습니다.
-demographic-deidentified = 추가적으로 제출된 통계 데이터(예: 나이, 성별, 언어, 억양)는 음성 데이터에서 개인을 식별할 수 없게 처리되고 사용자의 프로필에 공개되지 않습니다.
 username-email-not-demographic = 사용자 이름과 이메일은 공개된 데이터와 연관되지 않습니다.
 
 ## Speak & Listen Shortcuts
@@ -499,6 +498,13 @@ review-delete-recordings = 내 녹음 삭제
 
 ## Datasets Page
 
+datasets-headline = 우리는 누구든지 음성 지원 응용프로그램을 교육하기 위해 사용할 수 있는 오픈 소스, 다국어 음성 데이터 세트를 구축하고 있습니다.
+datasets-positioning =
+    우리는 공개적으로 이용할 수 있는 대규모 음성 데이터 세트가 머신-러닝 기반의 음성 기술의 혁신과 건전한 상업 경쟁을 촉진할 것이라고 믿습니다.¶
+    ¶
+    Common Voice의 다국어 데이터 세트는 이미 같은 부류의 세트 중에서 공개적으로 이용할 수 있는 가장 큰 규모의 음성 데이터 세트지만, 그것만이 유일한 것은 아닙니다.¶
+    ¶
+    이 페이지를 다른 오픈 소스 음성 데이터 세트의 기준점(참조처)으로 해주십시오. 또한 Common Voice가 계속 성장하고 있기 때문에, 릴리스 업데이트를 위한 홈으로 삼으십시오.
 language = 언어
 # File size in gigabytes
 size = 크기
@@ -602,7 +608,6 @@ contribute-more =
 record-cta = 녹음 시작
 record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플랫폼입니다.
 record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
-record-platform-not-supported-ios = <bold>iOS</bold> 사용자는 무료앱을 다운받을 수 있음:
 record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
 record-no-mic-found = 마이크를 찾을 수 없습니다.
 record-error-too-short = 녹음이 너무 짧습니다.
@@ -628,7 +633,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> 문장을 정확하�
 listen-again-instruction = 잘하셨습니다! <playIcon></playIcon> 준비가 되면 다시 듣기
 listen-3rd-time-instruction = 2개 하셨네요, 계속 하세요! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
-nothing-to-validate = 해당 언어에 더 이상 검증할 목소리가 없습니다. 새로운 목소리를 추가해 주세요.
 record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
 keep-track-profile = 프로필로 진행 상황을 추적

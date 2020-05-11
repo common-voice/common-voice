@@ -64,7 +64,7 @@ ga-IE = Irština
 gl = Galicijština
 ha = Hauština
 he = Hebrejština
-hi-IN = Hindština
+hi = Hindština
 hr = Chorvatština
 hsb = Hornosrbština
 hu = Maďarština
@@ -673,6 +673,8 @@ record-button-label = Nahrajte svůj hlas
 share-title-new = <bold>Pomozte nám</bold> najít další hlasy
 keep-track-profile = Sledujte svůj pokrok pomocí profilu
 login-to-get-started = Přihlaste se či zaregistrujte a můžete začít
+target-segment-add-voice = Přidejte svůj hlas
+target-segment-learn-more = Zjistit více
 
 ## Reporting
 

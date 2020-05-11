@@ -186,9 +186,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             const q = query.toLowerCase().trim();
             return (
               locale.includes(q) ||
-              getString(locale)
-                .toLowerCase()
-                .includes(q) ||
+              getString(locale).toLowerCase().includes(q) ||
               (NATIVE_NAMES[locale] || '').toLowerCase().includes(q)
             );
           })

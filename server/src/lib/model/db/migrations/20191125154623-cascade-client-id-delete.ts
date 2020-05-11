@@ -1,4 +1,4 @@
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   return db.runSql(`
     ALTER TABLE awards DROP FOREIGN KEY awards_ibfk_1;
     ALTER TABLE awards ADD CONSTRAINT awards_ibfk_1 FOREIGN KEY (client_id) REFERENCES user_clients (client_id) ON DELETE CASCADE;
@@ -47,6 +47,6 @@ export const up = async function(db: any): Promise<any> {
   `);
 };
 
-export const down = function(): Promise<any> {
+export const down = function (): Promise<any> {
   return null;
 };

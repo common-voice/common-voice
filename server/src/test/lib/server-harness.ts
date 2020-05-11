@@ -17,9 +17,7 @@ export default class ServerHarness {
       DB_PREFIX +
       config.MYSQLDBNAME +
       '_' +
-      Math.random()
-        .toString(36)
-        .substring(7);
+      Math.random().toString(36).substring(7);
     injectConfig(config);
     this.server = new RealServer({ bundleCrossLocaleMessages: false });
   }
