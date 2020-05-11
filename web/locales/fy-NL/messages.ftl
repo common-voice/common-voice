@@ -64,7 +64,7 @@ ga-IE = Iersk
 gl = Galisysk
 ha = Hausa
 he = Hebriuwsk
-hi-IN = Hindi
+hi = Hindy
 hr = Kroätysk
 hsb = Boppe-Sorbysk
 hu = Hongaarsk
@@ -674,6 +674,10 @@ record-button-label = Nim jo stim op
 share-title-new = <bold>Help ús</bold> mear stimmen te finen
 keep-track-profile = Hâld jo fuortgong by mei in profyl
 login-to-get-started = Meld jo oan of registrearje om te begjinnen
+target-segment-first-card = Jo drage mei oan ús earste doelsegmint
+target-segment-first-banner = Help by it meitsjen fan it earste doelsegmint yn it { $locale } fan Common Voice
+target-segment-add-voice = Jo stim tafoegje
+target-segment-learn-more = Mear ynfo
 
 ## Reporting
 
