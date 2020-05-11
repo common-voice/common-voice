@@ -292,11 +292,14 @@ ready-to-upload = YOLLU
 avatar-clip-fact = Ena goongɗinaa ko ɓooyi wonde loowdi hello ena telɓina taroowo so tawii omo ndaara lelngo maggo,
 cancel-avatar-clip-recording = HAAYTU
 browse-file-title = Yollu fiilde natal
+browse-file = Daas njollaa walla <browseWrap>Wanngo</browseWrap>
+connect-gravatar = Seŋoro Gravatar
 file_too_large = Fiilde suɓaande ndee ina mawni no feewi
 manage-subscriptions = Toppito Binnditagol
 manage-email-subscriptions = Toppito Binnditagol iimeel
 email-already-used = Iimeel oo ina huutoree e konte goɗɗe kisa
 add-language = Ɓeydu ɗemngal
+change-email-setings = Waylir iimeel maa teelte les heftinirde seŋorde
 
 ## FAQ
 
