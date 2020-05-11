@@ -64,7 +64,7 @@ ga-IE = ਆਈਰਸ਼
 gl = ਗਾਲੀਲੀਅਨ
 ha = ਹੀਊਸਾ
 he = ਹੈਬਰਿਊ
-hi-IN = ਹਿੰਦੀ
+hi = ਹਿੰਦੀ
 hr = ਕਰੋਆਟੀਅਨ
 hsb = ਸੋਰਬੀਅਨ, ਅੱਪਰ
 hu = ਹੰਗੇਰਿਅਨ
@@ -156,6 +156,7 @@ terms = ਸ਼ਰਤਾਂ
 cookies = ਕੂਕੀਜ਼
 faq = ਸਵਾਲ-ਜਵਾਬ
 content-license-text = <licenseLink>ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ ਲਾਇਸੈਂਸ </licenseLink> ਦੇ ਅਧੀਨ ਉਪਲਬਧ ਸਮੱਗਰੀ
+share-title = ਦੂਜਿਆਂ ਨੂੰ ਉਨ੍ਹਾਂ ਦੀ ਅਵਾਜ਼ ਦਾਨ ਕਰਨ ਵਿਚ ਸਹਾਇਤਾ ਕਰਨ ਵਿਚ ਸਾਡੀ ਸਹਾਇਤਾ ਕਰੋ!
 link-copied = ਲਿੰਕ ਕਾਪੀ ਕੀਤਾ
 back-top = ਉੱਤੇ ਜਾਓ
 logout = ਲਾਗ ਆਉਟ
@@ -427,6 +428,7 @@ size-megabyte = MB
 download-language = { $language } ਡਾਊਨਲੋਡ ਕਰੋ
 validated-hours = ਪ੍ਰਮਾਣਿਤ ਕੀਤੇ ਘੰਟੇ
 recorded-hours = ਰਿਕਾਰਡ ਕੀਤੇ ਘੰਟੇ
+whats-inside = ਕਾਮਨ ਵੌਇਸ ਡੇਟਾਸੇਟ ਦੇ ਅੰਦਰ ਕੀ ਹੈ?
 subscribe = ਮੈਂਬਰ ਬਣੋ
 get-started-speech = ਆਵਾਜ਼ ਪਛਾਣ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ
 other-datasets = ਹੋਰ ਆਵਾਜ਼ ਡਾਟਾ-ਸਮੂਹ
@@ -521,6 +523,8 @@ speak-empty-state-cta = ਵਾਕਾਂ ਦਾ ਯੋਗਦਾਨ ਦਿਓ
 record-button-label = ਆਪਣੀ ਆਵਾਜ਼ ਰਿਕਾਰਡ ਕਰੋ
 share-title-new = ਹੋਰ ਆਵਾਜ਼ਾਂ ਲੱਭਣ ਲਈ <bold>ਸਾਡੀ ਮਦਦ ਕਰੋ</bold>
 login-to-get-started = ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਲਾਗਇਨ ਕਰੋ ਜਾਂ ਸਾਈਨ ਅੱਪ ਕਰੋ
+target-segment-add-voice = ਆਪਣੀ ਆਵਾਜ਼ ਸ਼ਾਮਲ ਕਰੋ
+target-segment-learn-more = ਹੋਰ ਜਾਣੋ
 
 ## Reporting
 

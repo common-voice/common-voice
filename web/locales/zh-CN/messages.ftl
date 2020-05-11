@@ -64,7 +64,7 @@ ga-IE = 爱尔兰语
 gl = 加利西亚语
 ha = 豪萨语
 he = 希伯莱语
-hi-IN = 印地语
+hi = 印地语
 hr = 克罗地亚语
 hsb = 上索布语
 hu = 匈牙利语
@@ -655,6 +655,10 @@ record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
 keep-track-profile = 创建账户跟踪个人贡献进度
 login-to-get-started = 请完成登录或注册，即可开始使用
+target-segment-first-card = 您为我们的第一段目标细分录音作出了贡献
+target-segment-first-banner = 帮助在 Common Voice 创建 { $locale } 的第一段目标细分语音
+target-segment-add-voice = 添加您的声音
+target-segment-learn-more = 详细了解
 
 ## Reporting
 

@@ -64,7 +64,7 @@ ga-IE = irlandzki
 gl = galicyjski
 ha = hausa
 he = hebrajski
-hi-IN = hindi
+hi = hindi
 hr = chorwacki
 hsb = górnołużycki
 hu = węgierski
@@ -668,6 +668,10 @@ record-button-label = Nagraj swój głos
 share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów
 keep-track-profile = Śledź swoje postępy za pomocą profilu
 login-to-get-started = Zaloguj się lub zarejestruj, aby zacząć
+target-segment-first-card = Przyczyniasz się do naszego pierwszego segmentu docelowego
+target-segment-first-banner = Pomóż utworzyć pierwszy segment docelowy projektu Common Voice w języku: { $locale }
+target-segment-add-voice = Dodaj swój głos
+target-segment-learn-more = Więcej informacji
 
 ## Reporting
 

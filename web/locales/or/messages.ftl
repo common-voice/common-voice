@@ -64,10 +64,11 @@ ga-IE = ଆଇରିସ
 gl = ଗେଲିସିଆନ
 ha = ହାଉସା
 he = ହିବ୍ରୁ
-hi-IN = ହିନ୍ଦୀ
+hi = ହିନ୍ଦୀ
 hr = କ୍ରୋଏସିଆନ
 hsb = ଉପର ସର୍ବିଆନ
 hu = ହଙ୍ଗାରିଆନ
+hy-AM = ଆରମେନିଆନ
 ia = ଇଣ୍ଟରଲିଙ୍ଗୁଆ
 id = ଇଣ୍ଡୋନେସିଆନ
 is = ଆଇସଲାଣ୍ଡୀୟ
@@ -233,7 +234,7 @@ whats-public = ସର୍ବସାଧାରଣ କଣ?
 email-not-public = ଆମେ ଆପଣଙ୍କର ଇମେଲ ସର୍ବସାଧାରଣରେ ଛାଡ଼ିବୁ ନାହିଁ
 recordings-and-locale-public = ରେକର୍ଡ଼ିଂର ସଂଖ୍ୟା ଏବଂ ଆପଣ କେଉଁ ଭାଷାରେ ଯୋଗଦାନ କରୁଛନ୍ତି, କେବଳ ସମସ୍ତଙ୍କର ଦେଖିବାପାଇଁ ଉପଲବ୍ଧ ହେବ
 username-optin-public = ଆପଣ ନିଜର ବ୍ୟବହାରକାରୀ ନାମକୁ ନାମହୀନ କିମ୍ବା ସର୍ବସାଧାରଣ ଚାହିଁଲେ ରଖିପାରିବେ ।
-demographic-deidentified = ଆପଣ ଚାହିଁଲେ ଆପଣଙ୍କର ସ୍ଥାନୀୟ ତଥ୍ୟ (ଯଥା: ବୟସ, ଲିଙ୍ଗ, ଭାଷା ଏବଂ ଧ୍ୱନି ଶୈଳୀ) ଦେଇପାରିବେ, ଏହି ସବୁ ତଥ୍ୟ ସର୍ବସାଧାରଣରେ ଛଡ଼ା ଯିବା ଆଗରୁ ଧ୍ୱନୀରୁ କାଢ଼ି ଦିଆଯାଇଥାଏ ।
+demographic-deidentified-clarity = ବିକଳ୍ପ ଭାବରେ ଉପସ୍ଥାପିତ ଜନସଂଖ୍ୟା ତଥ୍ୟ (ଯଥା ବୟସ, ଲିଙ୍ଗ, ଭାଷା, ଏବଂ ଉଚ୍ଚାରଣ) ଆପଣଙ୍କ ପ୍ରୋଫାଇଲରେ କେବେବି ସାର୍ବଜନୀନ ହେବ ନାହିଁ, ଏବଂ ଡାଟାସେଟରେ ଆପଣଙ୍କ ଆକାଉଣ୍ଟ ସହିତ ଲିଙ୍କ୍ ହେବ ନାହିଁ | ଅଧିକ ସଠିକ୍ ବିଶ୍ଳେଷଣ ଉଦ୍ଦେଶ୍ୟରେ ବ୍ୟକ୍ତିଗତ ଅଡିଓ କ୍ଲିପଗୁଡିକ ଜନସଂଖ୍ୟା ତଥ୍ୟ ସହିତ ଜଡିତ ହେବ - ଉଦାହରଣ ସ୍ୱରୂପ, ଜଣେ ଅନୁସନ୍ଧାନକାରୀ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଜନସଂଖ୍ୟା ବିଭାଗକୁ ଏକ ପ୍ରଶିକ୍ଷଣ ମଡେଲକୁ ଟାର୍ଗେଟ୍ କରିବାକୁ ଚାହିଁପାରନ୍ତି
 username-email-not-demographic = ପ୍ରକାଶିତ ତଥ୍ୟ ସହ ଆପଣଙ୍କର ବ୍ୟବହାରକାରୀ ନାମ କିମ୍ବା ଇମେଲକୁ ସଂଯୁକ୍ତ କରାଯିବ ନାହିଁ ।
 
 ## Speak & Listen Shortcuts
@@ -441,16 +442,11 @@ about-partners = ଯୋଡିଦାର
 about-become-a-partner = ଯୋଡିଦାର ହୁଅନ୍ତୁ
 about-partnership = କମନ ଭଏସ ହେଉଛି ଏକ ମିଳିତ ପ୍ରକଳ୍ପ, ଏବଂ ଆମେ ଆମର ସମୁଦାୟ ଜୋଡିଦାର ଏବଂ ଯୋଗଦାନକାରୀ ମାନଙ୍କ ଉପରେ ଧ୍ୱନିର ବିଶ୍ୱର ସବୁଠାରୁ ବଡ଼ ତଥ୍ୟଭଣ୍ଡାର ତିଆରି କରିବା ପାଇଁ ସାହାର୍ଯ୍ୟ ଆଶା କରୁଛୁ ।
 about-get-involved = ଜଡ଼ିତ ହୁଅନ୍ତୁ
-about-get-involved-text =
+about-get-involved-text-2 =
     କମନ ଭଏସକୁ ଆହୁରି ଉନ୍ନତ କରିବାକୁ ଚାହୁଁଛନ୍ତି?
     ବୋବାଲ! ଆମ ସହିତ ଇମେଲ କିମ୍ବା <discourseLink>ଡିସ୍କୋର୍ସ</discourseLink>ରେ ଯୋଗାଯୋଗରେ ରହନ୍ତୁ ।
     <githubLink>ଗିଟହବ</githubLink>ଦ୍ୱାରା ମତାମତ ପ୍ରଦାନ କରନ୍ତୁ,
-    କିମ୍ବା ଆମକୁ <slackLink>ସ୍ଲାକ</slackLink>ରେ ଯୋଗ ଦିଅନ୍ତୁ ।
-about-get-involved-text-2020 =
-    କମନ ଭଏସକୁ ଆହୁରି ଉନ୍ନତ କରିବାକୁ ଚାହୁଁଛନ୍ତି?
-    ବୋବାଲ! ଆମ ସହିତ ଇମେଲ କିମ୍ବା <discourseLink>ଡିସ୍କୋର୍ସ</discourseLink>ରେ ଯୋଗାଯୋଗରେ ରହନ୍ତୁ ।
-    <githubLink>ଗିଟହବ</githubLink>ଦ୍ୱାରା ମତାମତ ପ୍ରଦାନ କରନ୍ତୁ,
-    କିମ୍ବା ଆମକୁ <slackLink>ସ୍ଲାକ</slackLink>ରେ ଯୋଗ ଦିଅନ୍ତୁ ।
+    କିମ୍ବା ଆମକୁ <matrixLink>ମାଟ୍ରିକ୍ସ</matrixLink> ସାମାଜିକ ଚାଟରେ ଯୋଗ ଦିଅନ୍ତୁ ।
 about-nav-why-common-voice = କାହିଁକି?
 about-nav-how-it-works = କେମିତି?
 about-nav-partners = ସହଯୋଗୀଗଣ
@@ -628,7 +624,7 @@ contribute-more =
 record-cta = ରେକର୍ଡ଼ିଂ ଆରମ୍ଭକରନ୍ତୁ
 record-platform-not-supported = ଆମେ କ୍ଷମା ମାଗୁଛୁ, କିନ୍ତୁ ଆପଣଙ୍କର ପ୍ଲାଟଫର୍ମକୁ ବର୍ତ୍ତମାନ ସମର୍ଥନ କରାଯାଉନାହିଁ ।
 record-platform-not-supported-desktop = ଡେସ୍କଟପ କମ୍ପ୍ୟୁଟରରେ, ଆପଣ ସବୁଠାରୁ ନୂଆ ଡାଉନଲୋଡ କରିପାରିବେ:
-record-platform-not-supported-ios = ଆମର ମୁକ୍ତ ଆପ <bold>ଆଇଓଏସ</bold> ବ୍ୟବହାରକାରୀମାନେ ଡାଉନଲୋଡ଼ କରିପାରିବେ:
+record-platform-not-supported-ios-non-safari = IOS ରେ ଦୟାକରି ରେକର୍ଡିଂ ସକ୍ଷମ କରିବାକୁ ସଫାରି ସହିତ ଜାରି ରଖନ୍ତୁ…
 record-must-allow-microphone = ଆପଣଙ୍କୁ ମାଇକ୍ରୋଫୋନ ବ୍ୟବହାର କରିବାକୁ ଅନୁମତି ଦେବାକୁ ପଡ଼ିବ ।
 record-no-mic-found = କୌଣସି ମାଇକ୍ରୋଫୋନ ମିଳିଲାନାହିଁ ।
 record-error-too-short = ରେକର୍ଡ଼ିଂଟି ଖୁବ ଛୋଟ ।
@@ -642,6 +638,8 @@ record-again-instruction = ବଢ଼ିଆ! <recordIcon></recordIcon> ନିଜ 
 record-again-instruction2 = ଏମିତି ଚାଲିଥାଉ, ଆହୁରି ରେକର୍ଡ଼କରନ୍ତୁ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ଶେଷଟି!
 review-tooltip = ଆଗକୁ ବଢ଼ିଲାବେଳେ କ୍ଲିପଗୁଡ଼ିକ ଏଠାରେ ପରଖି ଓ ଆଉଥରେ ରେକର୍ଡ଼କରନ୍ତୁ
+share-clip = ଆପଣଙ୍କର କ୍ଲିପକୁ ବାଣ୍ଟନ୍ତୁ
+share-common-voice = କମନ ଭଏସକୁ ବାଣ୍ଟନ୍ତୁ
 review-instruction = ଦରକାର ପଡ଼ିଲେ ପରଖି କ୍ଲିପଗୁଡ଼ିକୁ ଆଉଥରେ ରେକର୍ଡ଼ କରନ୍ତୁ
 record-submit-tooltip = ପ୍ରସ୍ତୁତ ହେଲେ ପଠାନ୍ତୁ { $actionType }
 clips-uploaded = ଧ୍ୱନୀଗୁଡିକ ଅପଲୋଡ଼ ହୋଇଗଲା ।
@@ -654,11 +652,17 @@ listen-instruction = { $actionType }<playIcon></playIcon> ସେ ବାକ୍ୟ
 listen-again-instruction = ବଢ଼ିଆ କାମ! <playIcon></playIcon> ପ୍ରସ୍ତୁତ ହେଲେ ଆଉଥରେ ଶୁଣନ୍ତୁ
 listen-3rd-time-instruction = ଆଉ ୨ଟା ରହିଲା, ଆଗେଇ ଚାଲନ୍ତୁ! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> ଶେଷଟି!
-nothing-to-validate = ଏହି ଭାଷାରେ ଆମ ପାଖରେ କିଛି ଯାଞ୍ଚ କରିବାକୁ ନାହିଁ, ଭର୍ତ୍ତିକରିବାରେ ସାହାର୍ଯ୍ୟ କରନ୍ତୁ ।
+listen-empty-state = ଏହି ଭାଷାରେ ବୈଧତା ପାଇଁ ଆମ ପାଖରେ ଧ୍ୱନି ସରିଯାଇଛି...
+speak-empty-state = ଏହି ଭାଷାରେ ରେକର୍ଡ଼ କରିବା ପାଇଁ ଆମ ପାଖରେ ବାକ୍ୟ ସରିଯାଇଛି...
+speak-empty-state-cta = ବାକ୍ୟ ପ୍ରଦାନ କରନ୍ତୁ
 record-button-label = ଆପଣଙ୍କର ସ୍ୱରକୁ ରେକର୍ଡ କରନ୍ତୁ
 share-title-new = ଅଧିକ ସ୍ୱର ପାଇବା ପାଇଁ ଆମକୁ <bold>ସାହାଯ୍ୟ କରନ୍ତୁ</bold>
 keep-track-profile = ଗୋଟିଏ ପ୍ରୋଫାଇଲ ଦ୍ୱାରା ନିଜର ପ୍ରଗତିର ଅନୁକ୍ଷଣ ରଖନ୍ତୁ ।
 login-to-get-started = ଆରମ୍ଭ କରିବା ପାଇଁ ଲଗ-ଇନ କିମ୍ବା ସାଇନ-ଅପ କରନ୍ତୁ ।
+target-segment-first-card = ଆପଣ ଆମର ପ୍ରଥମ ଲକ୍ଷ୍ୟ ବିଭାଗରେ ସହଯୋଗ କରୁଛନ୍ତି
+target-segment-first-banner = କମନ ଭଏସର ପ୍ରଥମ ଲକ୍ଷ୍ୟ ବିଭାଗ, { $locale }ରେ ସୃଷ୍ଟି କରିବାକୁ ସାହାଯ୍ୟ କରନ୍ତୁ
+target-segment-add-voice = ଆପଣଙ୍କର କଣ୍ଠ ଯୋଗ କରନ୍ତୁ
+target-segment-learn-more = ଅଧିକ ଶିଖନ୍ତୁ
 
 ## Reporting
 

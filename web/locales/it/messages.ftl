@@ -64,6 +64,7 @@ ga-IE = Irlandese
 gl = Gallego
 ha = Hausa
 he = Ebraico
+hi = Hindi
 hi-IN = Hindi
 hr = Croato
 hsb = Alto sorabo

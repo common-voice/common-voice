@@ -65,7 +65,6 @@ gl = Galizisch
 ha = Hausa
 he = Hebräisch
 hi = Hindi
-hi-IN = Hindi
 hr = Kroatisch
 hsb = Obersorbisch
 hu = Ungarisch
@@ -665,6 +664,10 @@ record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
 keep-track-profile = Verfolgen Sie Ihren Fortschritt mit einem Profil
 login-to-get-started = Melden Sie sich an oder registrieren Sie sich, um loszulegen
+target-segment-first-card = Sie tragen zu unserem ersten Zielsegment bei
+target-segment-first-banner = Helfen Sie dabei, das erste Zielsegment von Common Voice in { $locale } zu erstellen
+target-segment-add-voice = Fügen Sie Ihre Stimme hinzu
+target-segment-learn-more = Weitere Informationen
 
 ## Reporting
 

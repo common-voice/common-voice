@@ -64,7 +64,7 @@ ga-IE = Iršćina
 gl = Galicišćina
 ha = Hausa
 he = Hebrejšćina
-hi-IN = Hindišćina
+hi = Hindišćina
 hr = Chorwatšćina
 hsb = Górnoserbšćina
 hu = Hungoršćina
@@ -673,6 +673,10 @@ record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
 keep-track-profile = Slědujśo swójomu póstupoju z profilom
 login-to-get-started = Pśizjawśo se abo registrěrujśo se, aby zachopił
+target-segment-first-card = Pśinosujośo k našomu prědnemu celowemu segmentoju
+target-segment-first-banner = Pomagajśo prědny celowy segment Common Voice w { $locale } napóraś
+target-segment-add-voice = Pśidajśo swój głos
+target-segment-learn-more = Dalšne informacije
 
 ## Reporting
 

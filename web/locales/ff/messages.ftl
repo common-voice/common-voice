@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Naatnu
 loading = Nana loowa…
 email-opt-in-info = Miɗo hatojini e heɓde iimeeluuji wano ciiftinooji, kesɗitine taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
+email-opt-in-info-title = Tawtu doggol cargol Common Voice ngol
 email-opt-in-privacy = So suɓaade heɓde iimeeluuji, a jaɓii no Mozilla huutortoo ngoo humpito hono no facciraa e <privacyLink>Dawirgol Suturo<privacyLink> Mozilla.
 indicates-required = Joofii ko gallol baɗɗingol
 not-available-abbreviation = N/A
@@ -62,7 +63,7 @@ ga-IE = Irish
 gl = Galician
 ha = Hawsa
 he = Hebruŋkoore
-hi-IN = Hinndi
+hi = Hinndi
 hr = Korowasiire
 hsb = Sorbian, Lower
 hu = Hungarian
@@ -156,23 +157,43 @@ contact = Jokkondiral
 privacy = Suturo
 terms = Sarɗiiji
 cookies = Kuukiije
+content-license-text = Loowdi ina heɓoo les <licenseLink>Creative Commons license</licenseLink>
+share-title = Wallu min dañde woɗɓe ngam rokkirde daaɗe mum en!
+share-text = Wallu jannginde masiŋaaji no yimɓe woodɓe kaalirta, rokkir daande maa e { $link }
 link-copied = Jokkol nattaama
 back-top = Rutto Dow
 logout = Seŋto
 
 ## Home Page
 
+home-cta = Ɓamtu daande, wallit ɗoo!
 show-wall-of-text = Jokku taro
 vote-yes = Eey
 vote-no = Alaa
+speak-subtitle = Rokkir daande maa
+listen-subtitle = Wallu min moƴƴinde daaɗe
+hours-recorded = Waktuuji Nanngitaama
+hours-validated = Waktuuji moƴƴinaama
+voices-online = Daaɗe ɗee e ceŋol jooni
 help-reach-goal = Wallu min yettaade { $goal }
 read-terms-q = A tarii sarɗiiji amen?
+ready-to-record = A hebiima rokkirde daande maa?
 all-locales = Fof
 today = Hannde
 x-weeks-short =
     { $count ->
         [one] Yontere
        *[other] { $count }yontere
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }lewru
+       *[other] { $count }lewru
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }hitaande
+       *[other] { $count }hitaande
     }
 sign-up-account = Winndito ngam dañde konte
 email-subscription-title = Winndito ngam heɓde kesɗitine iimeel
@@ -185,6 +206,8 @@ benefits = Ɓure
 
 whats-public = Hol ko woni peeñcu?
 email-not-public = Min mbaɗoytaa iimeel maa peeñcu.
+username-optin-public = Aɗa waawi suɓaade waɗde innde kuutoro maa e peñcu walla cuuɗiiɗo.
+username-email-not-demographic = Innde kuutoro maa e iimeel maa ndenndinoytaake e keɓe bayyinaaɗe ɗee.
 
 ## Speak & Listen Shortcuts
 
@@ -196,6 +219,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Tar/Dartin
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -208,11 +232,18 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Nanngito/Dartin
 shortcut-rerecord-toggle = [1-5]
+request-language-text = A suwaa yiy ɗemngal maa e Common Voice tawo?
 request-language-button = Naamno ɗemngal
 
 ## ProjectStatus
 
+status-contribute = Wallitir daande maa
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Paandaaje garooje: { $goal }
+english = Engeleere
 
 ## ProfileForm
 
@@ -222,6 +253,8 @@ profile-form-native-language =
     .label = Ɗemngal neeniwal
 profile-form-additional-language =
     .label = Ɗemngal goɗngal
+profile-form-accent =
+    .label = Masal
 profile-form-age =
     .label = Duuɓi
 hidden = Cuuɗiiɗo
@@ -241,11 +274,13 @@ settings = Teelte
 edit-profile = Taƴto Heftinirde
 profile-create-success = Moƴƴii, heftinirde sosaama!
 profile-close = Uddu
+thanks-for-account = A jaaraama e teeŋtingol konte maa, jooni noon mahen heftinirde maa.
 accept-privacy-title = Dawrugol Suturo
 login-signup = Seŋaade/ Winnditaade
 edit = Taƴto
 email-subscriptions = Lulnagol iimeel
 download-profile = Aawtaade keɓe am
+skip-submission-feedback = Diw duttinal naatnugol
 off = Ñifol
 on = Kuɓɓol
 retry-voice-wave-recording = Eto kadi
@@ -264,6 +299,10 @@ add-language = Ɓeydu ɗemngal
 
 faq-title = Naamne Ɓurɗe Duumaade
 faq-why-important-q = Ko saabii ɗum himmude?
+faq-how-get-q = Hol no keɓirat-mi keɓe Common Voice?
+faq-when-release2-q = Mande bayyinton keɓe Common Voice e ɗemɗe goɗɗe?
+faq-why-mission-q = Hol ko saabii Common Voice jeyeede e eɓɓoore Mozilla?
+faq-what-cv-and-deepspeech-q = Hol ko seerndi Common Voice e Deep Speech?
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?

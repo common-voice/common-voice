@@ -61,7 +61,6 @@ gl = Galician
 ha = Hausa
 he = Hebrew
 hi = Hindi
-hi-IN = Hindi
 hr = Croatian
 hsb = Sorbian, Upper
 hu = Hungarian
