@@ -28,7 +28,6 @@
     "db-migrate": "^0.11.6",
     "db-migrate-mysql": "^1.1.10",
     "db-migrate-plugin-typescript": "^2.0.0",
-    "dotenv": "^8.2.0",
     "event-stream": "^3.3.4",
     "express": "^4.17.1",
     "express-mysql-session": "^2.1.0",

@@ -66,7 +66,7 @@ export default function NotificationBanner({
       bannerProps={notification.kind == 'banner' && notification.bannerProps}
       onClose={() => hideBanner(storageKey)}
       className="notification-banner"
-      style={{ transform: `translateY(${show ? 0 : -100}%)` }}
+      style={{ display: `${show ? 'flex' : 'none'}` }}
       onTransitionEnd={event => {
         if (show || event.target != el.current) return;
         removeNotification(notification.id);

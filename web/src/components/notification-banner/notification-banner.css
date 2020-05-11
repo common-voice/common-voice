@@ -1,7 +1,6 @@
 @import url('../vars.css');
 
 .banner {
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,24 +8,27 @@
     flex-wrap: wrap;
     z-index: var(--middle-z-index);
     background: var(--black);
-    transform: translateY(0);
-    transition: transform var(--easing) var(--transition-duration);
-    padding: 20px;
-    grid-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline-start: 10px;
+    padding-inline-end: 50px;
+    grid-gap: 15px;
 
+    @media (--sm-down) {
+        padding-inline-end: 30px;
+    }
     .notification-text {
         text-align: center;
+        @media (--md-down) {
+            width: 100%;
+        }
+
+        @media (--sm-down) {
+            font-size: 1.2rem;
+        }
     }
 
     .button {
-        margin-left: 1rem;
-        min-width: 150px;
-        background-color: transparent;
-        width: auto;
-
-        path {
-            fill: var(--white);
-        }
     }
 
     .cta {
@@ -35,17 +37,48 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        grid-gap: 10px;
         text-transform: uppercase;
         letter-spacing: 0.8px;
+        margin-inline-start: 1rem;
+        min-width: 150px;
+        background-color: transparent;
+        width: auto;
 
         &.external {
             border-color: transparent;
         }
 
+        path {
+            fill: var(--white);
+        }
+
         svg {
             width: 22px;
             height: 22px;
+            margin: 0 0.5rem;
+
+            @media (--md-down) {
+                width: 18px;
+                height: 18px;
+            }
+
+            @media (--sm-down) {
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        @media (--md-down) {
+            grid-gap: 5px;
+            font-size: 80%;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        @media (--sm-down) {
+            font-size: 65%;
+            margin-inline-start: 0.5rem;
+            height: 2.5rem;
         }
     }
 
@@ -59,21 +92,31 @@
             fill: var(--white);
         }
 
+        @media (--sm-down) {
+            right: 0.75rem;
+        }
+
         [dir='rtl'] & {
             left: 2rem;
             right: auto;
+            @media (--sm-down) {
+                left: 0.75rem;
+                right: auto;
+            }
         }
     }
 }
 
 .notification-banner {
-    position: fixed;
-    top: 0;
-
     .notification-text {
         color: #f89096;
         a {
             color: inherit;
         }
+    }
+
+    @media (--md-down) {
+        position: sticky;
+        top: var(--header-height);
     }
 }

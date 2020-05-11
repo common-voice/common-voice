@@ -232,11 +232,11 @@
         justify-content: center;
         align-items: center;
         height: 100%;
+        width: 100%;
         margin-top: 30px;
 
-        @media (--md-up) {
+        @media (--xl-up) {
             margin-top: 0;
-            width: 100%;
             max-width: 60%;
         }
 
@@ -578,7 +578,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        grid-gap: 0.75rem;
+        grid-gap: 1rem;
+        flex-basis: 100%;
     }
 
     .taxonomy-link {

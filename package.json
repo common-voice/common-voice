@@ -5,6 +5,7 @@
   "repository": "mozilla/voice-web",
   "private": true,
   "dependencies": {
+    "dotenv": "^8.2.0",
     "fluent-syntax": "^0.14.0",
     "http-status-codes": "^1.4.0",
     "request": "^2.88.0",

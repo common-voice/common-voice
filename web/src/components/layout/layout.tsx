@@ -2,7 +2,11 @@ import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
-import { LOCALES, NATIVE_NAMES } from '../../services/localization';
+import {
+  LOCALES,
+  NATIVE_NAMES,
+  SEGMENT_LOCALES,
+} from '../../services/localization';
 import { trackGlobal, getTrackClass } from '../../services/tracker';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
@@ -16,6 +20,8 @@ import {
   MenuIcon,
   MicIcon,
   OldPlayIcon,
+  TargetIcon,
+  ExternalLinkIcon,
 } from '../ui/icons';
 import { Avatar, LabeledSelect, LinkButton } from '../ui/ui';
 import Content from './content';
@@ -32,6 +38,10 @@ import {
   ChallengeToken,
   challengeTokens,
 } from 'common';
+import NotificationBanner from './../notification-banner/notification-banner';
+import { Notifications } from '../../stores/notifications';
+
+const SEGMENT_NOTIFICATION_KEY = 'hideTargetSegmentBanner';
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
@@ -61,6 +71,61 @@ interface LayoutState {
   showStagingBanner: boolean;
   showWelcomeModal: boolean;
 }
+
+const SegmentBanner = ({ locale }: { locale: string }) => {
+  const notification: Notifications.Notification = {
+    id: 99,
+    kind: 'banner',
+    content: (
+      <>
+        <Localized
+          id="target-segment-first-banner"
+          $locale={NATIVE_NAMES[locale]}
+        />
+      </>
+    ),
+    bannerProps: {
+      storageKey: SEGMENT_NOTIFICATION_KEY,
+      links: [
+        {
+          to: URLS.SPEAK,
+          className: 'cta',
+          close: false,
+          children: (
+            <>
+              <TargetIcon />
+              <Localized
+                key="target-segment-add-voice"
+                id="target-segment-add-voice">
+                <div />
+              </Localized>
+            </>
+          ),
+        },
+        {
+          href: URLS.TARGET_SEGMENT_INFO,
+          blank: true,
+          close: false,
+          className: 'cta external',
+          children: (
+            <>
+              <ExternalLinkIcon />
+              <Localized
+                key="target-segment-learn-more"
+                id="target-segment-learn-more">
+                <div />
+              </Localized>
+            </>
+          ),
+        },
+      ],
+    },
+  };
+
+  return (
+    <NotificationBanner key="target-segment" notification={notification} />
+  );
+};
 
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private header: HTMLElement;
@@ -160,6 +225,17 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     );
   };
 
+  private showSegmentBanner = () => {
+    const { locale } = this.props;
+    console.log(process.env);
+
+    return (
+      SEGMENT_LOCALES.includes(locale) &&
+      process.env.CV_BENCHMARK_LIVE &&
+      !localStorage.getItem(SEGMENT_NOTIFICATION_KEY)
+    );
+  };
+
   render() {
     const { locale, location, user } = this.props;
     const {
@@ -194,6 +270,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
+        {this.showSegmentBanner() && <SegmentBanner locale={locale} />}
         {showStagingBanner && (
           <div className="staging-banner">
             You're on the staging server. Voice data is not collected here.{' '}
