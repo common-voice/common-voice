@@ -278,6 +278,7 @@ profile-create-success = Moƴƴii, heftinirde sosaama!
 profile-close = Uddu
 thanks-for-account = A jaaraama e teeŋtingol konte maa, jooni noon mahen heftinirde maa.
 accept-privacy-title = Dawrugol Suturo
+login-identity = Heftinirde seŋorde
 login-signup = Seŋaade/ Winnditaade
 edit = Taƴto
 email-subscriptions = Lulnagol iimeel
@@ -413,6 +414,8 @@ language-search-input =
     .placeholder = Yiylo
 language-speakers = Haalooɓe
 localized = Nokkuɗinaama
+sentences = Koŋnguɗi
+total-hours = Waktuuji moƴƴinaaɗi
 
 ## Contribution
 
@@ -428,6 +431,7 @@ record-error-too-short = Nanngitogol ngol ina raɓɓiɗi no feewi.
 record-error-too-long = Nanngitogol ngol ina juuti no feewi.
 record-error-too-quiet = Nanngitogol ngol deeƴii no feewi.
 record-three-more-instruction = Ina heddii tati!
+record-last-instruction = <recordIcon></recordIcon> cakkitiiɗo oo!
 record-abort-continue = Jokkit nanngitogol
 record-button-label = Nanngito daande maa
 login-to-get-started = Seŋo walla winndito ngam fuɗɗaade
