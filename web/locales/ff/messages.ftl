@@ -355,6 +355,7 @@ review-aborted = Jollugol dullii. Aɗa yiɗi momtude nanngitogol maa?
 review-submit-title = Ƴeewto & Neldu
 review-recording = Ƴeewto
 review-cancel = Haaytu neldugol
+review-delete-recordings = Momtu nanngitte am
 
 ## Datasets Page
 
@@ -365,9 +366,11 @@ email-to-download = Naatnu iimeel ngam aawtaade
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Aawto { $language }
+recorded-hours = Waktuuji nanngitaaɗi
 subscribe = Lulno
 feedback-q = A heɓii duttinal?
 go-languages-page = Yah to Hello Ɗemɗe
+ready-to-validate = Aɗa hebii wallude moƴƴinde koŋnguɗi?
 more = Goɗɗum
 close = Uddu
 download = Aawto
@@ -394,12 +397,15 @@ contact-required = *ena waɗɗii
 request-language-title = Ɗaɓɓitannde Ɗemngal
 request-language-form-language =
     .label = Ɗemngal
+request-language-success-title = Naamnal ɗemngal naatnaama no haanirta, a jaaraama.
+request-language-success-content = Ma min njokkondir e maa e humpito woɗngo baɗte no ɓeydirtaa ɗemngal maa e Common Voice ko yaawi.
 select-language = Labo ɗemngal...
 other-language = Ɗemngal goɗngal
 
 ## Languages Overview
 
 language-section-in-progress = Nana yaha
+language-section-launched = Fuɗɗaama
 languages-show-more = Yiy keewɗum
 languages-show-less = Yiy seeɗa
 language-total-progress = kuuɓal
