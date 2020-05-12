@@ -350,9 +350,9 @@ export default class DB {
     term_name: string
   ): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.query(
-      `SELECT *
+      `
+      SELECT *
       FROM (
-
         SELECT * FROM clips WHERE original_sentence_id IN (
           SELECT original_sentence_id FROM (
             SELECT original_sentence_id, clips.is_valid, count(votes.id) as vote_count
@@ -360,22 +360,22 @@ export default class DB {
             LEFT JOIN votes ON votes.clip_id = clips.id
             LEFT JOIN taxonomy_entries entries
               ON clips.original_sentence_id = entries.sentence_id
-            WHERE clips.locale_id = 1
-            AND (votes.client_id = "c9a80203-fe42-4230-86cd-20ea060f1b3d" OR votes.client_id IS NULL)
-            AND entries.term_id = 1
+            WHERE clips.locale_id = ?
+            AND (votes.client_id = ? OR votes.client_id IS NULL)
+            AND entries.term_id = ?
             GROUP BY original_sentence_id
             HAVING vote_count < 2
           ) vote_counts
         )
         AND is_valid IS NULL
-        AND clips.client_id <> "c9a80203-fe42-4230-86cd-20ea060f1b3d"
+        AND clips.client_id <> ?
         AND NOT EXISTS(
           SELECT *
           FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = "c9a80203-fe42-4230-86cd-20ea060f1b3d"
+          WHERE votes.clip_id = clips.id AND client_id = ?
         )
         GROUP BY original_sentence_id
-        LIMIT 10
+        LIMIT ?
       ) t
       ORDER BY RAND()
       LIMIT ?`,
