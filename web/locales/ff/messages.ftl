@@ -432,20 +432,27 @@ record-error-too-long = Nanngitogol ngol ina juuti no feewi.
 record-error-too-quiet = Nanngitogol ngol deeƴii no feewi.
 record-three-more-instruction = Ina heddii tati!
 record-last-instruction = <recordIcon></recordIcon> cakkitiiɗo oo!
+share-common-voice = Lollin Common Voice
+record-submit-tooltip = { $actionType } naatnu so a hebiima
 record-abort-continue = Jokkit nanngitogol
+listen-last-time-instruction = <playIcon></playIcon>cakkitiiɗo oo!
 record-button-label = Nanngito daande maa
 login-to-get-started = Seŋo walla winndito ngam fuɗɗaade
+target-segment-learn-more = Ɓeydu humpito
 
 ## Reporting
 
 report = Jaŋtol
 report-title = Naatnu Jaŋtol
+report-ask = Hol caɗeele ndañɗaa e ngol koŋngol?
 report-offensive-language = Ɗemngal nefningal
 report-different-language = Ɗemngal goɗngal
 report-different-language-detail = Winndaa ko e ɗemngal ngal jiidaa e ngal kaalat-mi ngal
 report-other-comment =
     .placeholder = Yowre
+success = Moƴƴii
 continue = Jokku
+report-success = Jaŋtol neldiraama no haanirta!
 
 ## Goals
 
