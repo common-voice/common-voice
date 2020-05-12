@@ -271,7 +271,7 @@ other = Goɗɗo
 why-profile-title = Ko saabii heftinirde?
 build-profile = Mah heftinirde
 avatar = Maantinol
-goals = Paandaale
+goals = Paandaaje
 settings = Teelte
 edit-profile = Taƴto Heftinirde
 profile-create-success = Moƴƴii, heftinirde sosaama!
@@ -493,3 +493,4 @@ profile-form-delete = Momtu Heftinirde
 ## Landing
 
 login-company = Seŋo/ winndito e { $company } iimeel
+profile-not-required = Jogogol heftinirde wonaa ko waɗɗii ngam wallitde hay so haɗum nafa, yiy ko saabii ɗum les ɗoo.
