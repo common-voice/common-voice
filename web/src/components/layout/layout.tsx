@@ -90,7 +90,7 @@ const SegmentBanner = ({ locale }: { locale: string }) => {
         {
           to: URLS.SPEAK,
           className: 'cta',
-          close: false,
+          persistafterclick: true,
           children: (
             <>
               <TargetIcon />
@@ -105,7 +105,7 @@ const SegmentBanner = ({ locale }: { locale: string }) => {
         {
           href: URLS.TARGET_SEGMENT_INFO,
           blank: true,
-          close: false,
+          persistafterclick: true,
           className: 'cta external',
           children: (
             <>

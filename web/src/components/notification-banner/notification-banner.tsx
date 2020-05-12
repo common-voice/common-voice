@@ -24,14 +24,18 @@ export const Banner = React.forwardRef(
   ) => (
     <div ref={ref} className={'banner ' + className} {...props}>
       <h2 className="notification-text">{children}</h2>
-      {bannerProps.links.map((cta: any, key: number) => (
+      {bannerProps.links.map((cta: any, key: number) => {
+        const persistafterclick = cta.persistafterclick;
+        const linkProps = {...cta, persistafterclick: null};
+
+        return (
         <LinkButton
-          {...cta}
+          {...linkProps}
           key={`banner-link-${key}`}
-          className="cta"
-          onClick={onClose}
+          onClick={persistafterclick ? null : onClose}
         />
-      ))}
+      )}
+        )}
       <button type="button" className="close" onClick={onClose}>
         <CrossIcon />
       </button>
