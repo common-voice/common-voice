@@ -665,6 +665,7 @@ record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 keep-track-profile = rnu amaɣnu akken ad twaliḍ ayen txedmed
 login-to-get-started = Kcem neɣ jerred akken ad tebduḍ
+target-segment-first-card = Tettekkaḍ deg taggayt-nneɣ tasaḍast amezwaru
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar
 
