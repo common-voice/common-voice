@@ -12,7 +12,6 @@
     padding-bottom: 20px;
     padding-inline-start: 10px;
     padding-inline-end: 50px;
-    grid-gap: 15px;
 
     @media (--md-down) {
         position: sticky;
@@ -28,6 +27,7 @@
     .notification-text {
         text-align: center;
         color: #f89096;
+        margin: 0 1rem;
 
         a {
             color: inherit;
@@ -50,7 +50,7 @@
         flex-direction: row;
         text-transform: uppercase;
         letter-spacing: 0.8px;
-        margin-inline-start: 1rem;
+        margin: 0.5rem 1rem;
         min-width: 150px;
         background-color: transparent;
         width: auto;
@@ -80,7 +80,6 @@
         }
 
         @media (--md-down) {
-            grid-gap: 5px;
             font-size: 80%;
             padding-top: 0;
             padding-bottom: 0;
