@@ -263,6 +263,7 @@ A Melanie Scott esteve nos jornais?
 A Samsung é uma empresa americana?
 A Sicília é a maior ilha do Mar Mediterrâneo.
 A Sra. Jason está no telefone.
+A Sra. Lewis foi selecionada como nova comissária.
 A Tailândia acabou sendo um feriado muito satisfatório.
 A Terra tem cerca de quatro ponto cinco milhões de anos.
 A União Europeia tem sido frequentemente criticada pelos seus regulamentos.
@@ -420,6 +421,7 @@ A espada permaneceu onde estava.
 A esperança tem um fundo profundo.
 A estrada era tão íngreme que o motoqueiro teve que mudar algumas marchas.
 A estrada larga brilhou sob o sol quente.
+A estrutura tagarelou durante todo o terremoto.
 A execução foi cancelada.
 A exibição estava abaixo do esperado.
 A experiência no caixão foi literalmente imersiva.
@@ -9843,6 +9845,7 @@ Rum perfumado!
 Ruth era chegada ao assunto da matéria.
 Ruth está chateada.
 Ruth falou fora do turno.
+Ryan sabe nadar.
 Sabedoria e inteligência são duas coisas muito separadas.
 Sabedoria é conhecimento usado para o bem.
 Sabemos que episódios de aparições angélicas não são um fato estranho na Bíblia.
@@ -10870,6 +10873,7 @@ Um cachorro preto está correndo rapidamente ao longo do chão
 Um cachorro preto está perseguindo outro cachorro ao longo da praia.
 Um cachorro preto está pulando para fora da água.
 Um cachorro preto molhado está andando na areia.
+Um cachorro preto recupera um pássaro.
 Um cachorro pula na praia.
 Um cachorro pula no ar ao lado de um homem na praia.
 Um cachorro senta em suas patas traseiras e outro cachorro se agacha.
@@ -10913,6 +10917,7 @@ Um casal recém-casado dança com dinheiro em suas roupas.
 Um casal se beijando no pescoço em uma rua movimentada.
 Um casal senta fora de um estabelecimento.
 Um casal vestido com fantasias estranhas.
+Um cavaleiro de rodeio em um cavalo bucking com um palhaço no fundo.
 Um cavalheiro Um cigano
 Um cavalheiro mais velho limpa a barra enquanto um homem atrás observa.
 Um cavalheiro negro está dançando no chão de ladrilhos.
