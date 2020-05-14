@@ -333,7 +333,7 @@ email-subscriptions = Email Subscriptions
 download-profile = Download My Data
 contribution-experience = Contribution Experience
 skip-submission-feedback = Skip Submission Feedback
-skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit. Contribution will continue directly with the next set of 5 recordings or validations.
+skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
@@ -359,7 +359,7 @@ gravatar_not_found = No gravatar found for your email
 file_too_large = The selected file is too large
 manage-subscriptions = Manage Subscriptions
 manage-email-subscriptions = Manage Email Subscriptions
-email-already-used = Email is already used for a different account
+email-already-used = Email is already used with a different account
 add-language = Add Language
 change-email-setings = Change your email via Settings under Login Identity
 
