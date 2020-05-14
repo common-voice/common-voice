@@ -1,4 +1,4 @@
-require('dotenv').config({ path: process.env.DOTENV_CONFIG_PATH || '/code/.env-local-docker' });
+require('dotenv').config();
 const path = require('path');
 const chalk = require('chalk');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -6,6 +6,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PreloadWebpackPlugin = require('preload-webpack-plugin');
 const { DefinePlugin } = require('webpack');
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
+
+console.log(process.env.CV_BENCHMARK_LIVE);
 
 const babelLoader = {
   loader: 'babel-loader',
@@ -104,7 +106,7 @@ module.exports = {
     },
     new DefinePlugin({
       'process.env': {
-        CV_BENCHMARK_LIVE: JSON.stringify(process.env.CV_BENCHMARK_LIVE),
+        CV_BENCHMARK_LIVE: process.env.CV_BENCHMARK_LIVE === 'true',
       },
     }),
     // new require('webpack-bundle-analyzer').BundleAnalyzerPlugin({ analyzerMode: 'static' }),

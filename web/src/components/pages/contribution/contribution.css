@@ -243,7 +243,7 @@
         .cards {
             position: relative;
             max-width: 700px;
-            height: 223px;
+            height: 275px;
             width: 100%;
 
             @media (--md-up) {
@@ -572,14 +572,19 @@
         left: 0;
         right: 0;
         padding: 1rem;
+        font-weight: 400;
         font-size: var(--font-size);
         color: var(--warm-grey);
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        grid-gap: 1rem;
-        flex-basis: 100%;
+
+        @media (--sm-down) {
+            display: block;
+            font-size: 14px;
+            padding: 0.75rem;
+        }
     }
 
     .taxonomy-link {
@@ -587,18 +592,27 @@
         color: var(--blue);
         font-weight: 600;
         text-decoration: none;
+        margin: 0 1rem;
         display: flex;
         flex-direction: row;
-        grid-gap: 0.25rem;
+        justify-content: center;
         align-items: center;
 
         svg {
             width: 20px;
             height: 20px;
+            margin: 0 0.5rem;
             path {
                 fill: var(--blue);
             }
         }
+
+        @media (--sm-down) {
+            font-size: 90%;
+            margin-top: 5px;
+        }
+
+
     }
 }
 

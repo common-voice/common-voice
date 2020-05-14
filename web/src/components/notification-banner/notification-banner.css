@@ -14,11 +14,26 @@
     padding-inline-end: 50px;
     grid-gap: 15px;
 
-    @media (--sm-down) {
-        padding-inline-end: 30px;
+
+    @media (--md-down) {
+        position: sticky;
+        top: var(--header-height);
     }
+
+    @media (--sm-down) {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+    }
+
     .notification-text {
         text-align: center;
+        color: #f89096;
+
+        a {
+            color: inherit;
+        }
+
         @media (--md-down) {
             width: 100%;
         }
@@ -26,9 +41,6 @@
         @media (--sm-down) {
             font-size: 1.2rem;
         }
-    }
-
-    .button {
     }
 
     .cta {
@@ -84,7 +96,7 @@
 
     .close {
         border: none;
-        position: fixed;
+        position: absolute;
         right: 2rem;
         left: auto;
 
@@ -94,6 +106,7 @@
 
         @media (--sm-down) {
             right: 0.75rem;
+            top: 2rem;
         }
 
         [dir='rtl'] & {
@@ -104,19 +117,5 @@
                 right: auto;
             }
         }
-    }
-}
-
-.notification-banner {
-    .notification-text {
-        color: #f89096;
-        a {
-            color: inherit;
-        }
-    }
-
-    @media (--md-down) {
-        position: sticky;
-        top: var(--header-height);
     }
 }
