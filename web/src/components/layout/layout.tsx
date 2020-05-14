@@ -163,7 +163,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       showWelcomeModal:
         challengeTeamToken !== undefined && challengeToken !== undefined,
       targetSegment: await api.getFeatureFlag(
-        'singleword_benchmark' as FeatureToken,
+        'singleword_benchmark',
         locale
       ),
     });

@@ -432,7 +432,7 @@ export default class API {
     return null;
   }
 
-  getFeatureFlag(feature: FeatureToken, locale: string): Promise<FeatureType> {
+  getFeatureFlag(feature: string, locale: string): Promise<FeatureType> {
     return this.fetch(`${API_PATH}/feature/${locale}/${feature}`, {
       method: 'GET',
     });

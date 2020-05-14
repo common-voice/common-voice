@@ -1,7 +1,7 @@
 export const up = async function (db: any): Promise<any> {
   return db.runSql(
     `
- 		ALTER TABLE taxonomy_entries ADD CONSTRAINT term_sentence_unique UNIQUE KEY (term_id, sentence_id);
+ 	  ALTER TABLE taxonomy_entries ADD CONSTRAINT term_sentence_unique UNIQUE KEY (term_id, sentence_id);
     ALTER TABLE taxonomy_entries ADD CONSTRAINT term_clip_unique UNIQUE KEY (term_id, clip_id);
 
     ALTER TABLE taxonomy_entries ADD COLUMN locale_id INT NOT NULL DEFAULT 1;
