@@ -188,14 +188,14 @@ speak-paragraph = କଣ୍ଠସ୍ୱର କ୍ଲିପ ରେକର୍ଡି
 speak-goal-text = କ୍ଲିପଗୁଡ଼ିକ ରେକର୍ଡ କରିଦିଅନ୍ତୁ
 listen-subtitle = ସ୍ୱରଗୁଡ଼ିକୁ ଯାଞ୍ଚ କରିବାରେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ
 listen-paragraph = ଦାନ କରାଯାଇଥିବା କ୍ଲିପଗୁଡ଼ିକୁ ଯାଞ୍ଚ କରିବା Common Voice ପାଇଁ ମଧ୍ୟ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ । କିଛି କ୍ଲିପ ଶୁଣି ଏକ ଭଲ ମାନର ଓପନ ସୋର୍ସ ଡାଟାସେଟ ତିଆରି କରିବାରେ ସାହାଯ୍ୟ କରନ୍ତୁ ।
-listen-goal-text = କ୍ଲିପଗୁଡିକର ଯାଞ୍ଚ ହୋଇଗଲା
+listen-goal-text = କ୍ଲିପଗୁଡ଼ିକ ପରଖାଗଲା
 hours-recorded = ଘଣ୍ଟାର ଗଛିତ ହୋଇଗଲା
 hours-validated = ଘଣ୍ଟାର ଯାଞ୍ଚ ହୋଇଗଲା
 voices-online = କଥାଗୁଡ଼ିକ ବର୍ତ୍ତମାନ ଅନଲାଇନ
 todays-progress = ଆଜିର ଅଗ୍ରଗତି
 help-reach-goal = ଆମକୁ { $goal }ର ଲକ୍ଷ୍ୟରେ ପହଞ୍ଚିବାରେ ସାହାଯ୍ୟ କରନ୍ତୁ
 read-terms-q = ଆପଣ ଆମର ସର୍ତ୍ତଗୁଡ଼ିକୁ ପଢ଼ିଛନ୍ତି କି?
-ready-to-record = ଆପଣଙ୍କର ସ୍ୱର ଦାନ କରିବାକୁ ଆପଣ ପ୍ରସ୍ତୁତ ଟି?
+ready-to-record = ନିଜ ସ୍ୱର ରେକର୍ଡ଼ କରିବାକୁ ପ୍ରସ୍ତୁତ ତ?
 all-locales = ସମସ୍ତ
 today = ଆଜି
 x-weeks-short =
@@ -669,7 +669,7 @@ target-segment-learn-more = ଅଧିକ ଶିଖନ୍ତୁ
 
 ## Reporting
 
-report = ରିପୋର୍ଟ୍
+report = ରିପୋର୍ଟ
 report-title = ରିପୋର୍ଟ ଦିଅନ୍ତୁ
 report-ask = ଏହି ବାକ୍ୟରେ ଆପଣ କଣ ଅସୁବିଧା ସମ୍ମୁଖୀନ କରୁଛନ୍ତି?
 report-offensive-language = ଆକ୍ରଣାତ୍ମକ ଭାଷା
