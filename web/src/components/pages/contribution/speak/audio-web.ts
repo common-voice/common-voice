@@ -21,7 +21,6 @@ export default class AudioWeb {
   audioContext: AudioContext;
   recorder: any;
   chunks: any[];
-  last: AudioInfo;
   frequencyBins: Uint8Array;
   volumeCallback: Function;
   jsNode: any;
@@ -188,10 +187,7 @@ export default class AudioWeb {
       );
 
       // Update the stored listeners.
-      this.recorderListeners.start = (e: Event) => {
-        this.clear();
-        res();
-      };
+      this.recorderListeners.start = (e: Event) => res();
       this.recorderListeners.dataavailable = (e: BlobEvent) => {
         this.chunks.push(e.data);
       };
@@ -223,11 +219,10 @@ export default class AudioWeb {
       this.recorder.removeEventListener('stop', this.recorderListeners.stop);
       this.recorderListeners.stop = (e: Event) => {
         let blob = new Blob(this.chunks, { type: getAudioFormat() });
-        this.last = {
+        res({
           url: URL.createObjectURL(blob),
           blob: blob,
-        };
-        res(this.last);
+        });
       };
       this.recorder.addEventListener('stop', this.recorderListeners.stop);
       this.recorder.stop();
@@ -241,13 +236,5 @@ export default class AudioWeb {
       }
     }
     this.microphone = null;
-  }
-
-  clear() {
-    if (this.last) {
-      URL.revokeObjectURL(this.last.url);
-    }
-
-    this.last = null;
   }
 }
