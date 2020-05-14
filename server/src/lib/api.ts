@@ -6,7 +6,7 @@ import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from 'common';
 import { authMiddleware } from '../auth-router';
-import { getConfig } from '../config-helper';
+import { getConfig, CommonVoiceConfig } from '../config-helper';
 import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
@@ -126,15 +126,25 @@ export default class API {
     return router;
   }
 
-  getFeatureFlag = ({ params: { locale, feature}}: Request, response: Response) => {
+  getFeatureFlag = (
+    { params: { locale, feature } }: Request,
+    response: Response
+  ) => {
     const featureToken = feature as FeatureToken;
     let featureResult = null;
 
-    if (
-      featureTokens.includes(featureToken) &&
-      (!features[featureToken].locales || features[featureToken].locales.includes(locale))
-    ) {
-      featureResult = features[featureToken];
+    try {
+      if (featureTokens.includes(featureToken)) {
+        const featureTemp = features[featureToken];
+        if (
+          (!featureTemp.locales || featureTemp.locales.includes(locale)) &&
+          getConfig()[featureTemp.configFlag as keyof CommonVoiceConfig]
+        ) {
+          featureResult = featureTemp;
+        }
+      }
+    } catch (e) {
+      console.log('error retrieving feature flag', e.message);
     }
 
     response.json(featureResult);

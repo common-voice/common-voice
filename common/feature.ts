@@ -3,6 +3,7 @@ export type FeatureToken = 'singleword_benchmark';
 export type FeatureType = {
   name: string;
   token: FeatureToken;
+  configFlag: string;
   storageKey?: string;
   locales?: string[];
 };
@@ -12,6 +13,7 @@ export const features: { [key in FeatureToken]: FeatureType } = {
     name: 'Yes/No/Spoken Digit Benchmark',
     token: 'singleword_benchmark',
     storageKey: 'hideTargetSegmentBanner',
+    configFlag: 'BENCHMARK_LIVE',
     locales: [
       'en',
       'ar',

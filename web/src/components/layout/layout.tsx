@@ -272,7 +272,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {targetSegment && (
+        {targetSegment && !localStorage.getItem(targetSegment.storageKey) && (
           <SegmentBanner locale={locale} segment={targetSegment} />
         )}
         {showStagingBanner && (
