@@ -6,7 +6,7 @@ import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from 'common';
 import { authMiddleware } from '../auth-router';
-import { getConfig } from '../config-helper';
+import { getConfig, CommonVoiceConfig } from '../config-helper';
 import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
@@ -19,6 +19,7 @@ import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
 import Challenge from './challenge';
+import { FeatureToken, featureTokens, FeatureType, features } from 'common';
 
 const Transcoder = require('stream-transcoder');
 
@@ -116,12 +117,38 @@ export default class API {
 
     router.use('/challenge', this.challenge.getRouter());
 
+    router.get('/feature/:locale/:feature', this.getFeatureFlag);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
 
     return router;
   }
+
+  getFeatureFlag = (
+    { params: { locale, feature } }: Request,
+    response: Response
+  ) => {
+    let featureResult = null;
+
+    try {
+      const featureToken = feature as FeatureToken;
+      if (featureTokens.includes(featureToken)) {
+        const featureTemp = features[featureToken];
+        if (
+          (!featureTemp.locales || featureTemp.locales.includes(locale)) &&
+          getConfig()[featureTemp.configFlag as keyof CommonVoiceConfig]
+        ) {
+          featureResult = featureTemp;
+        }
+      }
+    } catch (e) {
+      console.log('error retrieving feature flag', e.message);
+    }
+
+    response.json(featureResult);
+  };
 
   getRandomSentences = async (request: Request, response: Response) => {
     const { client_id, params } = request;

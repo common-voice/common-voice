@@ -46,7 +46,8 @@ import { SentenceRecording } from './sentence-recording';
 
 import './speak.css';
 
-const MIN_RECORDING_MS = 1000;
+const MIN_RECORDING_MS = 1500;
+const MIN_RECORDING_MS_BENCHMARK = 500;
 const MAX_RECORDING_MS = 10000;
 const MIN_VOLUME = 1;
 
@@ -183,7 +184,7 @@ class SpeakPage extends React.Component<Props, State> {
         clips: state.clips.map(clip =>
           clip.sentence
             ? clip
-            : { recording: null, sentence: unusedSentences.pop() || null }
+            : { recording: null, sentence: unusedSentences.shift() || null }
         ),
       };
     }
@@ -288,7 +289,13 @@ class SpeakPage extends React.Component<Props, State> {
 
   private getRecordingError = (): RecordingError => {
     const length = this.recordingStopTime - this.recordingStartTime;
-    if (length < MIN_RECORDING_MS) {
+    const currentSentence = this.state.clips[this.getRecordingIndex()].sentence;
+    const minClipLength =
+      currentSentence.taxonomy === 'Benchmark'
+        ? MIN_RECORDING_MS_BENCHMARK
+        : MIN_RECORDING_MS;
+
+    if (length < minClipLength) {
       return RecordingError.TOO_SHORT;
     }
     if (length > MAX_RECORDING_MS) {
@@ -384,6 +391,7 @@ class SpeakPage extends React.Component<Props, State> {
     await this.discardRecording();
     const current = this.getRecordingIndex();
     const { id } = clips[current]?.sentence || {};
+    await api.skipSentence(id);
     removeSentences([id]);
     this.setState({
       clips: clips.map((clip, i) =>
@@ -391,7 +399,6 @@ class SpeakPage extends React.Component<Props, State> {
       ),
       error: null,
     });
-    await api.skipSentence(id);
   };
 
   private upload = (hasAgreed: boolean = false) => {
@@ -698,7 +705,7 @@ class SpeakPage extends React.Component<Props, State> {
                 ? null
                 : clips[recordingIndex].sentence.id,
           }}
-          sentences={clips.map(({ sentence }) => sentence && sentence.text)}
+          sentences={clips.map(({ sentence }) => sentence)}
           shortcuts={[
             {
               key: 'shortcut-record-toggle',

@@ -2,17 +2,11 @@ import { AllGoals, CustomGoalParams } from 'common';
 import { LanguageStats } from 'common';
 import { UserClient } from 'common';
 import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
-import { Sentence } from 'common';
+import { FeatureToken, FeatureType } from 'common';
+import { Sentence, Clip } from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { USER_KEY } from '../stores/root';
-
-export interface Clip {
-  id: string;
-  glob: string;
-  text: string;
-  sound: string;
-}
 
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
@@ -435,6 +429,13 @@ export default class API {
         }
       );
     }
+    return null;
+  }
+
+  getFeatureFlag(feature: FeatureToken, locale: string): Promise<FeatureType> {
+    return this.fetch(`${API_PATH}/feature/${locale}/${feature}`, {
+      method: 'GET',
+    });
     return null;
   }
 }
