@@ -12,20 +12,30 @@ export const Banner = React.forwardRef(
     {
       className,
       children,
-      ctaButtonProps,
+      bannerProps,
       onClose,
       ...props
     }: {
       children: React.ReactNode;
-      ctaButtonProps: any;
+      bannerProps: any;
       onClose: () => any;
     } & React.HTMLProps<HTMLDivElement>,
     ref: any
   ) => (
     <div ref={ref} className={'banner ' + className} {...props}>
-      <div className="spacer" />
-      <h1>{children}</h1>
-      <LinkButton {...ctaButtonProps} className="cta" onClick={onClose} />
+      <h2 className="notification-text">{children}</h2>
+      {bannerProps.links.map((cta: any, key: number) => {
+        const persistafterclick = cta.persistafterclick;
+        const linkProps = { ...cta, persistafterclick: null };
+
+        return (
+          <LinkButton
+            {...linkProps}
+            key={`banner-link-${key}`}
+            onClick={persistafterclick ? null : onClose}
+          />
+        );
+      })}
       <button type="button" className="close" onClick={onClose}>
         <CrossIcon />
       </button>
@@ -42,28 +52,27 @@ export default function NotificationBanner({
   const [show, setShow] = useState(false);
 
   const el = useRef(null);
+  const { storageKey = '' } =
+    notification.kind == 'banner' && notification.bannerProps;
 
   useEffect(() => {
     setShow(true);
   }, []);
 
+  function hideBanner(storageKey?: string) {
+    setShow(false);
+    storageKey && localStorage.setItem(storageKey, JSON.stringify(true));
+  }
+
   return (
     <Banner
       ref={el}
-      ctaButtonProps={
-        notification.kind == 'banner'
-          ? {
-              ...notification.actionProps,
-              className: 'cta',
-            }
-          : {}
-      }
-      onClose={() => setShow(false)}
+      bannerProps={notification.kind == 'banner' && notification.bannerProps}
+      onClose={() => hideBanner(storageKey)}
       className="notification-banner"
-      style={{ transform: `translateY(${show ? 0 : -100}%)` }}
+      style={{ display: `${show ? 'flex' : 'none'}` }}
       onTransitionEnd={event => {
         if (show || event.target != el.current) return;
-
         removeNotification(notification.id);
       }}>
       {notification.content}
