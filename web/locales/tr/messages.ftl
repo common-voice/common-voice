@@ -674,8 +674,12 @@ want-to-continue = Devam etmek istiyor musunuz?
 finish-editing = Önce düzenleme bitirilsin mi?
 lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
+help-reach-hours = Kişisel bir hedef belirleyerek { $language } dilinde { NUMBER($hours) } saate ulaşmanıza yardımcı olun
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
+activity-needed-calculation =
+    { NUMBER($people) } kişi günde { NUMBER($clipsPerDay) } ses kaydederse
+    { NUMBER($periodMonths) } aydan biraz uzun bir sürede { NUMBER($totalHours) } saatlik ses kaydına ulaşılabilir.
 how-many-per-day = Harika! Günde kaç kayıt?
 how-many-a-week = Harika! Haftada kaç kayıt?
 which-goal-type = Konuşmak mı, dinlemek mi yoksa ikisini birden mi yapmak istiyorsunuz?
@@ -701,6 +705,8 @@ profile-form-delete = Profilimi sil
 
 ## Landing
 
+welcome-staff = Hoş geldiniz { $company } ekibi!
+help-contribute = Common Voice profili oluşturarak ve sesinizle katkıda bulunarak çeşitlilik gösteren, açık kaynaklı bir veri kümesi oluşturmaya yardımcı olabilirsiniz.
 login-company = { $company } e-postasıyla giriş / kayıt
 profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
 read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
