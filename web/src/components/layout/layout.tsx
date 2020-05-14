@@ -2,11 +2,7 @@ import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
-import {
-  LOCALES,
-  NATIVE_NAMES,
-  SEGMENT_LOCALES,
-} from '../../services/localization';
+import { LOCALES, NATIVE_NAMES } from '../../services/localization';
 import { trackGlobal, getTrackClass } from '../../services/tracker';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
@@ -37,11 +33,13 @@ import {
   challengeTeamTokens,
   ChallengeToken,
   challengeTokens,
+  FeatureType,
+  FeatureToken,
+  features,
 } from 'common';
+import API from '../../services/api';
 import NotificationBanner from './../notification-banner/notification-banner';
 import { Notifications } from '../../stores/notifications';
-
-const SEGMENT_NOTIFICATION_KEY = 'hideTargetSegmentBanner';
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
@@ -51,6 +49,7 @@ const LOCALES_WITH_NAMES = LOCALES.map(code => [
 interface PropsFromState {
   locale: Locale.State;
   user: User.State;
+  api: API;
 }
 
 interface PropsFromDispatch {
@@ -70,9 +69,16 @@ interface LayoutState {
   hasScrolledDown: boolean;
   showStagingBanner: boolean;
   showWelcomeModal: boolean;
+  targetSegment?: FeatureType;
 }
 
-const SegmentBanner = ({ locale }: { locale: string }) => {
+const SegmentBanner = ({
+  locale,
+  segment,
+}: {
+  locale: string;
+  segment: FeatureType;
+}) => {
   const notification: Notifications.Notification = {
     id: 99,
     kind: 'banner',
@@ -85,7 +91,7 @@ const SegmentBanner = ({ locale }: { locale: string }) => {
       </>
     ),
     bannerProps: {
-      storageKey: SEGMENT_NOTIFICATION_KEY,
+      storageKey: segment.storageKey,
       links: [
         {
           to: URLS.SPEAK,
@@ -140,9 +146,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     hasScrolledDown: false,
     showStagingBanner: !isProduction(),
     showWelcomeModal: false,
+    targetSegment: null,
   };
 
-  componentDidMount() {
+  async componentDidMount() {
+    const { locale, api } = this.props;
     this.scroller.addEventListener('scroll', this.handleScroll);
     this.visitHash();
 
@@ -154,6 +162,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       challengeToken: challengeToken,
       showWelcomeModal:
         challengeTeamToken !== undefined && challengeToken !== undefined,
+      targetSegment: await api.getFeatureFlag(
+        'singleword_benchmark' as FeatureToken,
+        locale
+      ),
     });
   }
 
@@ -225,16 +237,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     );
   };
 
-  private showSegmentBanner = () => {
-    const { locale } = this.props;
-
-    return (
-      SEGMENT_LOCALES.includes(locale) &&
-      process.env.CV_BENCHMARK_LIVE &&
-      !localStorage.getItem(SEGMENT_NOTIFICATION_KEY)
-    );
-  };
-
   render() {
     const { locale, location, user } = this.props;
     const {
@@ -245,6 +247,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       isMenuVisible,
       showStagingBanner,
       showWelcomeModal,
+      targetSegment,
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
 
@@ -269,7 +272,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {this.showSegmentBanner() && <SegmentBanner locale={locale} />}
+        {targetSegment && (
+          <SegmentBanner locale={locale} segment={targetSegment} />
+        )}
         {showStagingBanner && (
           <div className="staging-banner">
             You're on the staging server. Voice data is not collected here.{' '}
@@ -429,6 +434,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 const mapStateToProps = (state: StateTree) => ({
   locale: state.locale,
   user: state.user,
+  api: state.api,
 });
 
 const mapDispatchToProps = {

@@ -1,4 +1,3 @@
-require('dotenv').config();
 const path = require('path');
 const chalk = require('chalk');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -6,8 +5,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PreloadWebpackPlugin = require('preload-webpack-plugin');
 const { DefinePlugin } = require('webpack');
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
-
-console.log(process.env.CV_BENCHMARK_LIVE);
 
 const babelLoader = {
   loader: 'babel-loader',
@@ -104,11 +101,6 @@ module.exports = {
       this.plugin('watchRun', () => console.log(chalk.yellow('Rebuilding…')));
       this.plugin('done', () => console.log(chalk.green('Built!')));
     },
-    new DefinePlugin({
-      'process.env': {
-        CV_BENCHMARK_LIVE: process.env.CV_BENCHMARK_LIVE === 'true',
-      },
-    }),
     // new require('webpack-bundle-analyzer').BundleAnalyzerPlugin({ analyzerMode: 'static' }),
   ],
 };

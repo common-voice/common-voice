@@ -19,6 +19,7 @@ import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
 import Challenge from './challenge';
+import { FeatureToken, featureTokens, FeatureType, features } from 'common';
 
 const Transcoder = require('stream-transcoder');
 
@@ -116,12 +117,28 @@ export default class API {
 
     router.use('/challenge', this.challenge.getRouter());
 
+    router.get('/feature/:locale/:feature', this.getFeatureFlag);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
 
     return router;
   }
+
+  getFeatureFlag = ({ params: { locale, feature}}: Request, response: Response) => {
+    const featureToken = feature as FeatureToken;
+    let featureResult = null;
+
+    if (
+      featureTokens.includes(featureToken) &&
+      (!features[featureToken].locales || features[featureToken].locales.includes(locale))
+    ) {
+      featureResult = features[featureToken];
+    }
+
+    response.json(featureResult);
+  };
 
   getRandomSentences = async (request: Request, response: Response) => {
     const { client_id, params } = request;

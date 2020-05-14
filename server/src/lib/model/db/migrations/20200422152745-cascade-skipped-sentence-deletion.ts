@@ -1,4 +1,4 @@
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   return db.runSql(
     `
     ALTER TABLE skipped_sentences DROP FOREIGN KEY skipped_sentences_ibfk_1;
@@ -7,6 +7,6 @@ export const up = async function(db: any): Promise<any> {
   );
 };
 
-export const down = function(): Promise<any> {
+export const down = function (): Promise<any> {
   return null;
 };
