@@ -514,7 +514,7 @@ review-delete-recordings = ମୋ ରେକ୍ଡ଼ିଂସବୁ ହଟାନ
 
 ## Datasets Page
 
-datasets-headline = ଆମେ ଏକ ଓପନ ସୋର୍ସ, ବହୁଭାଷୀ ଧ୍ୱନୀଗୁଡ଼ିକର ତଥ୍ୟଭଣ୍ଡାର ନିର୍ମାଣ କରୁଛୁ ଯାହା କହିବା-ସକ୍ଷମ ଅପ୍ପଲିକେସନକୁ ପ୍ରଶିକ୍ଷଣ ଦେବାରେ ସହଯୋଗ କରିବ ।
+datasets-headline = ଆମେ ଏକ ଓପନ ସୋର୍ସ, ବହୁଭାଷୀ କ୍ଲିପଗୁଡ଼ିକର ଡାଟାସେଟ ତିଆରି କରୁଛୁ ଫଳରେ ଯେକୌଣସି ବ୍ୟକ୍ତି ଏହାକୁ କଥା କହିପାରୁଥିବା ଆପ୍ଲିକେସନସବୁକୁ ଶିଖାଇବାରେ ବ୍ୟବହାର କରିପାରିବେ ।
 datasets-positioning =
     ଆମେ ବିଶ୍ୱାସ କରୁଛୁ କି, ବଡ଼ ଏବଂ ସାର୍ବଜନିକ ରୂପରେ ଉପଲବ୍ଧ ଧ୍ୱନି ତଥ୍ୟ ଭଣ୍ଡାର, ମେସିନ ଲର୍ଣ୍ଣିଙ୍ଗ ଆଧାରିତ ସ୍ପିଚ ପ୍ରଯୁକ୍ତି ବିଦ୍ୟାର ନୂତନ ଉଦ୍ଭାବନ ଏବଂ ସ୍ଵସ୍ଥ ବ୍ୟବସାୟୀକ ପ୍ରତିଯୋଗିତା ପ୍ରଦାନ କରିବାରେ ସହାୟକ ହେବ ।
     
@@ -620,7 +620,7 @@ contribute = ଯୋଗଦିଅନ୍ତୁ
 listen = ଶୁଣନ୍ତୁ
 skip = ଛାଡ଼ନ୍ତୁ
 shortcuts = ସର୍ଟକଟ
-clips-with-count = <bold>{ $count }</bold> ଧ୍ୱନୀଗୁଡ଼ିକ
+clips-with-count = <bold>{ $count }</bold>ଟି କ୍ଲିପ
 goal-help-recording = ଆପଣ Common Voice କୁ ତା'ର ଦୈନିକ { $goalValue } ରେକର୍ଡିଙ୍ଗ ଲକ୍ଷ୍ୟରେ <goalPercentage></goalPercentage>ରେ ପହଞ୍ଚିବାରେ ସାହାଯ୍ୟ କରିଛନ୍ତି!
 goal-help-validation = ଆପଣ Common Voiceକୁ ତା'ର ଦୈନିକ ଯାଞ୍ଚ ଲକ୍ଷ୍ୟ { $goalValue }ର <goalPercentage></goalPercentage>ରେ ପହଞ୍ଚିବାରେ ସାହାଯ୍ୟ କରିଛନ୍ତି!
 contribute-more =
