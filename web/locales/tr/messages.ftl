@@ -63,6 +63,7 @@ ga-IE = İrlandaca
 gl = Galce
 ha = Hausaca
 he = İbranice
+hi = Hintçe
 hr = Hırvatça
 hsb = Yukarı Sorbca
 hu = Macarca
@@ -219,6 +220,7 @@ email-subscription-title-new = Common Voice haber bültenleri, hedef hatırlatma
 ## Account Benefits
 
 benefits = Yararları
+rich-data = Anonim demografik veriler sağlayarak, gönderdiğiniz verileri mümkün olduğunca zenginleştirin. Verileri dış kullanıcılarla paylaşmadan önce tüm demografik verileri anonimleştiriyoruz.
 improve-audio = Profil bilgileri, konuşma tanıma doğruluğunu eğitirken kullanılan ses verilerini iyileştirir.
 keep-track = Farklı dillerdeki ilerleme durumunuzu ve ölçümlerinizi takip edebilirsiniz.
 compare-progress = Katkılarınızı dünyanın her yerindeki diğer gönüllülerle karşılaştırabilirsiniz.
@@ -231,6 +233,7 @@ whats-public = Başkaları hangi bilgilerinizi görür?
 email-not-public = E-posta adresinizi hiç kimse göremez.
 recordings-and-locale-public = Yaptığınız kayıt sayısını ve katkıda bulunduğunuz dilleri başkaları görebilir.
 username-optin-public = Kullanıcı adınızı isterseniz gösterebilir isterseniz de anonim kalabilirsiniz.
+demographic-deidentified-clarity = İsteğe bağlı olarak gönderilen demografik veriler (örn. yaş, cinsiyet, dil ve aksan) hiçbir zaman profilinizde görüntülenmeyecek ve veri kümesindeki hesabınızla ilişkilendirilmeyecektir. Ses kayıtları, analizin doğruluğunu artırmak amacıyla demografik verilerle tek tek ilişkilendirilecektir. Örneğin, bir araştırmacı belirli bir demografik segmenti hedefleyen bir eğitim modeli geliştirmek isteyebilir.
 username-email-not-demographic = Kullanıcı adınız ve e-posta adresiniz, paylaşılan verilerle ilişkilendirilmeyecektir.
 
 ## Speak & Listen Shortcuts
@@ -481,6 +484,7 @@ data-other-voxforge-description = VoxForge, Özgür ve Açık Kaynaklı Konuşma
 data-other-tatoeba-description = Tatoeba, dil öğrenmede kullanılmak üzere geniş bir cümle, çeviri ve konuşma veritabanıdır. Bu dosya, Tatoeba gönüllüleri tarafından kaydedilen İngilizce konuşmaları içerir.
 your-feedback = Common Voice veri kümesini nasıl daha iyi hale getirebileceğimiz konusunda fikirleriniz mi var? Discourse'ta bizimle paylaşın.
 go-discourse = Discourse'a git
+missing-language = Dilinizi veri kümesinde görmüyor musunuz? Dil istemek için Diller sayfamıza gidin.
 go-languages-page = Diller sayfasına git
 ready-to-validate = Cümleleri doğrulamaya hazır mısınız?
 more = Daha fazla
@@ -520,7 +524,9 @@ other-language = Başka bir dil
 ## Languages Overview
 
 language-section-in-progress = Devam ediyor
+language-section-in-progress-new-description = Bu diller şu anda topluluk geliştirme aşamasındadır. İlerleme çubukları, her dilin <localizationGlossaryLink>web sitesi yerelleştirme</localizationGlossaryLink> ve <sentenceCollectionGlossaryLink>cümle toplama</sentenceCollectionGlossaryLink> sürecinde ne kadar ilerlediğini gösterir.
 language-section-launched = Yayımlandı
+language-section-launched-description = Bu başlatılan diller için web sitesi başarıyla <localizationGlossaryLink>yerelleştirilmiştir</localizationGlossaryLink> ve devam eden <speakLink>Konuşma</speakLink> ve <listenLink>Dinleme</listenLink> katkılarına izin vermek için yeterli sayıda <sentenceCollectionGlossaryLink>cümle toplanmıştır</sentenceCollectionGlossaryLink>.
 languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-meter-in-progress = İlerleme
@@ -586,6 +592,8 @@ record-button-label = Sesinizi kaydedin
 share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 keep-track-profile = Profil oluşturarak ilerlemenizi takip edin
 login-to-get-started = Başlamak için giriş yapın veya kaydolun
+target-segment-first-card = İlk hedef segmentimize katkıda bulunuyorsunuz
+target-segment-first-banner = { $locale } dilinde Common Voice'un ilk hedef segmentini oluşturmaya yardımcı olun
 target-segment-add-voice = Sesinizi ekleyin
 target-segment-learn-more = Daha fazla bilgi alın
 
@@ -646,6 +654,7 @@ validated-clips = Doğrulanan ses
 total-approved = Onaylanan toplam
 overall-accuracy = Genel doğruluk
 set-visibility = Görünürlüğümü ayarla
+visibility-overlay-note = Not: 'Görünür' olarak ayarlandığında, bu ayar<profileLink>Profil sayfasından</profileLink> değiştirilebilir.
 show-ranking = Sıralamamı göster
 
 ## Custom Goals
@@ -663,6 +672,7 @@ pro-difficulty = Profesyonel
 lose-goal-progress-warning = Hedefinizi düzenlerseniz mevcut ilerlemenizi kaybedebilirsiniz.
 want-to-continue = Devam etmek istiyor musunuz?
 finish-editing = Önce düzenleme bitirilsin mi?
+lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
