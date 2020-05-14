@@ -595,10 +595,12 @@ other-language = Այլ լեզու
 
 ## Languages Overview
 
+language-section-launched = Հասանելի
 languages-show-more = Տես ավելին
 language-search-input =
     .placeholder = Որոնում
 localized = Տեղայնացված
+sentences = Նախադասություն
 
 ## Contribution
 
@@ -610,6 +612,8 @@ record-cta = Սկսել ձայնագրությունը
 record-again-instruction = Հոյակա՛պ է<recordIcon></recordIcon> Ձայնագրենք հաջորդ նախադասությունը
 record-again-instruction2 = Այո՛։ Ձայնագրենք հաջորդը <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Վերջի՜նը։
+speak-empty-state = Այս լեզվով ձայնագրմանը պատրաստ նախադասությունները վերջացել են…
+speak-empty-state-cta = Նոր նախադասություն ավելացնել
 target-segment-learn-more = Իմանալ ավելին
 
 ## Reporting
