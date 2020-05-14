@@ -354,18 +354,23 @@ export default class DB {
       SELECT *
       FROM (
         SELECT * FROM clips WHERE original_sentence_id IN (
-          SELECT original_sentence_id FROM (
-            SELECT original_sentence_id, clips.is_valid, count(votes.id) as vote_count
-            FROM clips
-            LEFT JOIN votes ON votes.clip_id = clips.id
-            LEFT JOIN taxonomy_entries entries
-              ON clips.original_sentence_id = entries.sentence_id
-            WHERE clips.locale_id = ?
-            AND (votes.client_id = ? OR votes.client_id IS NULL)
-            AND entries.term_id = ?
-            GROUP BY original_sentence_id
-            HAVING vote_count < 2
-          ) vote_counts
+          SELECT sentence_id FROM taxonomy_entries
+          LEFT JOIN sentences ON taxonomy_entries.sentence_id = sentences.id
+          WHERE locale_id = ?
+          AND sentence_id NOT IN (
+            SELECT original_sentence_id FROM (
+              SELECT original_sentence_id, clips.is_valid, count(votes.id) as vote_count
+              FROM clips
+              LEFT JOIN votes ON votes.clip_id = clips.id
+              LEFT JOIN taxonomy_entries entries
+                ON clips.original_sentence_id = entries.sentence_id
+              WHERE clips.locale_id = ?
+              AND (votes.client_id = ?)
+              AND entries.term_id = ?
+              GROUP BY original_sentence_id
+              HAVING vote_count >= 2
+            ) vote_counts
+          )
         )
         AND is_valid IS NULL
         AND clips.client_id <> ?
@@ -380,6 +385,7 @@ export default class DB {
       ORDER BY RAND()
       LIMIT ?`,
       [
+        locale_id,
         locale_id,
         client_id,
         await getTermId(term_name),
