@@ -263,7 +263,7 @@ shortcut-vote-no = н
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = н
+shortcut-record-toggle = р
 shortcut-record-toggle-label = Снимај/заустави
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Сними поново
@@ -325,11 +325,11 @@ edit-profile = Уреди профил
 profile-create-success = Профил је успешно направљен!
 profile-close = Затвори
 profile-explanation = Пратите свој напредак помоћу профила и помозите да наши гласовни подаци буду тачнији.
-thanks-for-account = Хвала што сте потврдили свој налог, сада ћемо направити Ваш профил.
+thanks-for-account = Хвала што сте потврдили свој налог, сада ћемо изградити ваш профил.
 why-demographic = Зашто је ово важно?
 why-demographic-explanation = Анонимни подаци корисника као што су старост, пол и нагласак помажу побољшању аудио података који се користе за тренирање тачности програма за препознавање говора. Ваше корисничко име и е-пошта никада неће бити повезани са вашим достављеним подацима, а ви можете да изаберете да ли ће ваше корисничко име бити јавно или анонимно.
 accept-privacy = Слажем се са тиме да рукујете овим подацима на начин објашњен у <privacyLink>политици приватности</privacyLink>
-accept-privacy-title = Полиса приватности
+accept-privacy-title = Политика приватности
 login-identity = Идентитет пријаве
 login-signup = Пријава / Регистрација
 edit = Уреди
