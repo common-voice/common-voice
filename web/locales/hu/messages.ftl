@@ -69,6 +69,7 @@ hr = Horvát
 hsb = Szorb, felső
 hu = Magyar
 hy-AM = Örmény
+hyw = Nyugati-örmény
 ia = Interlingva
 id = Indonéz
 is = Izlandi
