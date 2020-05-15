@@ -329,6 +329,7 @@ avatar-clip-recorded = Seu avatar agora inclui um clipe de voz!
 record-voice-wave = GRAVE SUA VOZ
 retry-voice-wave-recording = TENTAR NOVAMENTE
 re-record = REGRAVAR
+delete-voice = EXCLUIR
 recording-voice-wave = Gravando
 ready-to-upload = Enviar
 recreate-voice = Recriar sua voz
