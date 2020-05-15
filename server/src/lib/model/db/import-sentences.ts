@@ -106,7 +106,7 @@ async function importLocaleSentences(
               VALUES ${sentences
                 .map(sentence => {
                   return `(${[
-                    source === 'singleword-benchmark'
+                    source == 'singleword-benchmark'
                       ? hashSentence(localeId + sentence)
                       : hashSentence(sentence),
                     sentence,
