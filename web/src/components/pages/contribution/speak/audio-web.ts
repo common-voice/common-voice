@@ -36,7 +36,7 @@ export default class AudioWeb {
       dataavailable: null,
       stop: null,
     };
-    this.visualize = this.visualize.bind(this);
+    this.analyze = this.analyze.bind(this);
   }
 
   private isReady(): boolean {
@@ -92,27 +92,12 @@ export default class AudioWeb {
     );
   }
 
-  private visualize() {
+  private analyze() {
     this.analyzerNode.getByteFrequencyData(this.frequencyBins);
 
-    let sum = 0;
-    for (var i = 0; i < this.frequencyBins.length; i++) {
-      sum += this.frequencyBins[i];
-    }
-
-    let average = sum / this.frequencyBins.length;
-
     if (this.volumeCallback) {
-      this.volumeCallback(average);
+      this.volumeCallback(Math.max(...this.frequencyBins));
     }
-  }
-
-  private startVisualize() {
-    this.jsNode.onaudioprocess = this.visualize;
-  }
-
-  private stopVisualize() {
-    this.jsNode.onaudioprocess = undefined;
   }
 
   setVolumeCallback(cb: Function) {
@@ -135,11 +120,12 @@ export default class AudioWeb {
     const microphone = await this.getMicrophone();
 
     this.microphone = microphone;
-    var audioContext = new (window.AudioContext || window.webkitAudioContext)();
-    var sourceNode = audioContext.createMediaStreamSource(microphone);
-    var volumeNode = audioContext.createGain();
-    var analyzerNode = audioContext.createAnalyser();
-    var outputNode = audioContext.createMediaStreamDestination();
+    const audioContext = new (window.AudioContext ||
+      window.webkitAudioContext)();
+    const sourceNode = audioContext.createMediaStreamSource(microphone);
+    const volumeNode = audioContext.createGain();
+    const analyzerNode = audioContext.createAnalyser();
+    const outputNode = audioContext.createMediaStreamDestination();
 
     // Make sure we're doing mono everywhere.
     sourceNode.channelCount = 1;
@@ -157,13 +143,17 @@ export default class AudioWeb {
 
     // Set up the analyzer node, and allocate an array for its data
     // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
-    // 22kHz or more, and we only care about visualizing lower frequencies
-    // which is where most human voice lies, so we use fewer bins
+    // 22kHz or more, and we only care about lower frequencies which is where
+    // most human voice lies, so we use fewer bins.
     analyzerNode.fftSize = 128;
     analyzerNode.smoothingTimeConstant = 0.96;
     this.frequencyBins = new Uint8Array(analyzerNode.frequencyBinCount);
 
-    // Setup audio visualizer.
+    // Setup jsNode for audio analysis callbacks.
+    // TODO: `createScriptProcessor` is deprecated, and is a heavy solution for
+    //       what it’s doing (checking recording volume). It should be replaced
+    //       with something lighter, or AudioWorklets once they become more
+    //       widely adopted.
     this.jsNode = audioContext.createScriptProcessor(256, 1, 1);
     this.jsNode.connect(audioContext.destination);
 
@@ -203,7 +193,7 @@ export default class AudioWeb {
       // We want to be able to record up to 60s of audio in a single blob.
       // Without this argument to start(), Chrome will call dataavailable
       // very frequently.
-      this.startVisualize();
+      this.jsNode.onaudioprocess = this.analyze;
       this.recorder.start(20000);
     });
   }
@@ -215,7 +205,7 @@ export default class AudioWeb {
     }
 
     return new Promise((res: Function, rej: Function) => {
-      this.stopVisualize();
+      this.jsNode.onaudioprocess = undefined;
       this.recorder.removeEventListener('stop', this.recorderListeners.stop);
       this.recorderListeners.stop = (e: Event) => {
         let blob = new Blob(this.chunks, { type: getAudioFormat() });

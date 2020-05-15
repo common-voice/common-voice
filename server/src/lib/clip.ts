@@ -123,6 +123,7 @@ export default class Clip {
 
   /**
    * Save the request body as an audio file.
+   * TODO: Check for empty or silent clips before uploading.
    */
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers, params } = request;
