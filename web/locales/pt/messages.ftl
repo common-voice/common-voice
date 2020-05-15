@@ -65,6 +65,7 @@ he = Hebraico
 hr = Croata
 hsb = Alto Sorábio
 hu = Húngaro
+hyw = Armênio ocidental
 ia = Interlíngua
 id = Indonésio
 is = Islandês
