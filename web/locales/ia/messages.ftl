@@ -64,7 +64,7 @@ ga-IE = Irlandese
 gl = Galiciano
 ha = Hausa
 he = Hebreo
-hi-IN = Hindi
+hi = Hindi
 hr = Croata
 hsb = Sorbio, alte
 hu = Hungaro
@@ -665,6 +665,8 @@ record-button-label = Registra tu voce
 share-title-new = <bold>Adjuta nos</bold> a trovar plus voces
 keep-track-profile = Tracia tu progresso con un profilo
 login-to-get-started = Aperi session o inscribe te pro comenciar
+target-segment-add-voice = Adde tu voce
+target-segment-learn-more = Saper plus
 
 ## Reporting
 
