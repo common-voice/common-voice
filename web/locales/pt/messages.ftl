@@ -62,7 +62,6 @@ ga-IE = Irlandês
 gl = Galego
 ha = Hauçá
 he = Hebraico
-hi-IN = Hindi
 hr = Croata
 hsb = Alto Sorábio
 hu = Húngaro
@@ -230,7 +229,7 @@ username-email-not-demographic = Seu nome de usuário e e-mail não serão assoc
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = s
+shortcut-skip = g
 
 ## Listen Shortcuts
 
