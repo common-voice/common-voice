@@ -69,6 +69,7 @@ hr = Kroatisk
 hsb = Høysorbisk
 hu = Ungarsk
 hy-AM = Armensk
+hyw = Vestarmensk
 ia = Interlingua
 id = Indonesisk
 is = Islandsk
