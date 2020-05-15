@@ -251,10 +251,10 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private getRecordingIndex() {
-    const { rerecordIndex } = this.state;
-    return rerecordIndex === null
-      ? this.state.clips.findIndex(({ recording }) => !recording)
-      : rerecordIndex;
+    return (
+      this.state.rerecordIndex ??
+      this.state.clips.findIndex(({ recording }) => !recording)
+    );
   }
 
   private releaseMicrophone = () => {
@@ -274,13 +274,13 @@ class SpeakPage extends React.Component<Props, State> {
       return this.setState({ error });
     }
 
-    const { clips } = this.state;
-    this.setState({
-      clips: clips.map(({ recording, sentence }, i) => ({
-        recording: i === this.getRecordingIndex() ? info : recording,
-        sentence,
-      })),
-      rerecordIndex: null,
+    this.setState(({ clips }) => {
+      const newClips = [...clips];
+      newClips[this.getRecordingIndex()].recording = info;
+      return {
+        clips: newClips,
+        rerecordIndex: null,
+      };
     });
 
     trackRecording('record', this.props.locale);
@@ -356,6 +356,9 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private saveRecording = () => {
+    // We noticed that some people hit the Stop button too early, cutting off
+    // the recording prematurely. To compensate, we add a short buffer to the
+    // end of each recording (issue #1648).
     const RECORD_STOP_DELAY = 500;
     setTimeout(async () => {
       const info = await this.audio.stop();
@@ -380,16 +383,18 @@ class SpeakPage extends React.Component<Props, State> {
 
   private handleSkip = async () => {
     const { api, removeSentences } = this.props;
-    const { clips } = this.state;
     await this.discardRecording();
     const current = this.getRecordingIndex();
-    const { id } = clips[current]?.sentence || {};
+    const id = this.state.clips[current]?.sentence?.id;
     removeSentences([id]);
-    this.setState({
-      clips: clips.map((clip, i) =>
-        current === i ? { recording: null, sentence: null } : clip
-      ),
-      error: null,
+    this.setState(({ clips }) => {
+      const newClips = [...clips];
+      newClips[current] = { recording: null, sentence: null };
+      URL.revokeObjectURL(clips[current].recording.url);
+      return {
+        clips: newClips,
+        error: null,
+      };
     });
     await api.skipSentence(id);
   };
@@ -433,6 +438,7 @@ class SpeakPage extends React.Component<Props, State> {
               sentence.id,
               sentence.text
             );
+            URL.revokeObjectURL(recording.url);
             sessionStorage.setItem(
               'challengeEnded',
               JSON.stringify(challengeEnded)
