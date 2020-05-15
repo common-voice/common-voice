@@ -4,8 +4,7 @@ import StateTree from './tree';
 import { User } from './user';
 import { Clip, Sentence } from 'common';
 
-const CACHE_SET_COUNT = 15;
-const MIN_CACHE_COUNT = 5;
+const CACHE_SET_COUNT = 10;
 
 export namespace Clips {
   export interface State {
@@ -65,7 +64,7 @@ export namespace Clips {
       getState: () => StateTree
     ) => {
       const state = getState();
-      if (localeClips(state).clips.length > MIN_CACHE_COUNT) {
+      if (localeClips(state).clips.length > CACHE_SET_COUNT) {
         return;
       }
 
