@@ -69,6 +69,7 @@ hr = Bahasa Kroasia
 hsb = Bahasa Sorbia Hulu
 hu = Bahasa Hongaria
 hy-AM = Bahasa Armenia
+hyw = Bahasa Armenia Barat
 ia = Bahasa Interlingua
 id = Bahasa Indonesia
 is = Bahasa Islandia
