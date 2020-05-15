@@ -65,6 +65,7 @@ hr = Croatian
 hsb = Sorbian, Upper
 hu = Hungarian
 hy-AM = Armenian
+hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
 is = Icelandic
