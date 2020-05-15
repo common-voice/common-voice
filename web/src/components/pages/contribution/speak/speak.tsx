@@ -48,7 +48,7 @@ import './speak.css';
 
 const MIN_RECORDING_MS = 1000;
 const MAX_RECORDING_MS = 10000;
-const MIN_VOLUME = 1;
+const MIN_VOLUME = 8; // Range: [0, 255].
 
 enum RecordingError {
   TOO_SHORT = 'TOO_SHORT',
@@ -167,7 +167,7 @@ class SpeakPage extends React.Component<Props, State> {
 
   audio: AudioWeb;
   isUnsupportedPlatform = false;
-  maxVolume = 0;
+  maxVolume = -1;
   recordingStartTime = 0;
   recordingStopTime = 0;
 
@@ -294,7 +294,9 @@ class SpeakPage extends React.Component<Props, State> {
     if (length > MAX_RECORDING_MS) {
       return RecordingError.TOO_LONG;
     }
-    if (this.maxVolume < MIN_VOLUME) {
+    // If updateVolume was never called, we assume there’s a problem with the
+    // AnalyserNode and skip this error.
+    if (this.maxVolume !== -1 && this.maxVolume < MIN_VOLUME) {
       return RecordingError.TOO_QUIET;
     }
     return null;
@@ -341,7 +343,7 @@ class SpeakPage extends React.Component<Props, State> {
   private startRecording = async () => {
     try {
       await this.audio.start();
-      this.maxVolume = 0;
+      this.maxVolume = -1; // Initialize to -1 in case updateVolume is never called.
       this.recordingStartTime = Date.now();
       this.recordingStopTime = 0;
       this.setState({

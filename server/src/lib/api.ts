@@ -275,6 +275,7 @@ export default class API {
     response.json(error ? { error } : {});
   };
 
+  // TODO: Check for empty or silent clips before uploading.
   saveAvatarClip = async (request: Request, response: Response) => {
     const { client_id, headers, user } = request;
 
