@@ -7,6 +7,6 @@ export type Sentence = {
 export type Clip = {
   id: string;
   glob: string;
-  sentence: string;
+  sentence: Sentence;
   audioSrc: string;
 };

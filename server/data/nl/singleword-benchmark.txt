@@ -10,3 +10,5 @@ acht
 negen
 ja
 nee
+Hé
+Firefox

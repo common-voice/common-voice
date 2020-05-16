@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { PassThrough } from 'stream';
 import promisify from '../../../promisify';
-import { hash } from '../../clip';
+import { hashSentence } from '../../utility';
 import { redis, useRedis } from '../../redis';
 
 const CWD = process.cwd();
@@ -104,19 +104,20 @@ async function importLocaleSentences(
               INSERT INTO sentences
               (id, text, is_used, locale_id, source, version)
               VALUES ${sentences
-                .map(
-                  sentence =>
-                    `(${[
-                      hash(sentence),
-                      sentence,
-                      true,
-                      localeId,
-                      source,
-                      version,
-                    ]
-                      .map(v => pool.escape(v))
-                      .join(', ')})`
-                )
+                .map(sentence => {
+                  return `(${[
+                    source == 'singleword-benchmark'
+                      ? hashSentence(localeId + sentence)
+                      : hashSentence(sentence),
+                    sentence,
+                    true,
+                    localeId,
+                    source,
+                    version,
+                  ]
+                    .map(v => pool.escape(v))
+                    .join(', ')})`;
+                })
                 .join(', ')}
               ON DUPLICATE KEY UPDATE
                 source = VALUES(source),

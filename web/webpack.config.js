@@ -97,7 +97,7 @@ module.exports = {
       template: 'index_template.html',
     }),
     new PreloadWebpackPlugin(),
-    function() {
+    function () {
       this.plugin('watchRun', () => console.log(chalk.yellow('Rebuilding…')));
       this.plugin('done', () => console.log(chalk.green('Built!')));
     },
