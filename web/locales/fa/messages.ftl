@@ -672,6 +672,8 @@ share-title-new = برای یافتن صداهای بیشتر <bold>به ما ک
 keep-track-profile = پیشرفت‌ خود را با یک نمایه پیگیری کنید
 login-to-get-started = برای شروع وارد شوید یا ثبت‌ نام کنید
 target-segment-first-card = شما در حال مشارکت در اولین بخش هدف ما هستید
+target-segment-first-banner = به ایجاد اولین بخش هدف پروژه آواهای مشترک در { $locale } کمک کنید
+target-segment-add-voice = صدای خود را اضافه کنید
 target-segment-learn-more = اطلاعات بیشتر
 
 ## Reporting
