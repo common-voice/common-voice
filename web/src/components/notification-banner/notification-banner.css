@@ -54,7 +54,7 @@
     & h1 {
         &,
         & a {
-            background-image: linear-gradient(to right, #f89096, #b1b4e5);
+            background-image: linear-gradient(to right, var(--gradient-pink), var(--gradient-purple));
             color: transparent;
             font-size: var(--font-size-xl);
             text-align: center;
@@ -64,7 +64,7 @@
 
         & a {
             text-decoration: underline;
-            border-bottom: 2px solid #f89096;
+            border-bottom: 2px solid var(--gradient-pink);
         }
     }
 }
