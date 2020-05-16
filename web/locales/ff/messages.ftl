@@ -208,6 +208,8 @@ email-subscription-title-new = Winndito e ɓatakeeji Common Voice , ciiftine faa
 ## Account Benefits
 
 benefits = Ɓure
+rich-data = Alɗin keɓe naatnuɗaa ɗo mbaawka maa haaɗi ndokkaa keɓe nguurndam aadee ɗe cuurtaaka. Min momtat heftinirde kala keɓe nguurndam aadee hade min waɗde ɗum e peñcu.
+compare-progress = Yiy hol no ɓeydagol maa yerondirta e ngol wallitooɓe e nder winndere ndee fof.
 
 ## What's public
 
