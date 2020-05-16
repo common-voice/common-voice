@@ -334,12 +334,15 @@ avatar-clip-title = Eman ahotsa zure abatarrari
 change-your-avatar-clip = Zure ahots-klipa aldatu nahi duzu?
 recording-in-progress = Ahotsa grabatzen ari da
 avatar-clip-recorded = Zure abatarrak orain ahots-klipa du!
+record-voice-wave = GRABATU AHOTS-UHINA
 retry-voice-wave-recording = SAIATU BERRIRO
 re-record = GRABATU BERRIRO
 delete-voice = EZABATU
 recording-voice-wave = Grabazioa
 delete-voice-clip = edo ezabatu ahots grabazioa
 ready-to-upload = IGO
+avatar-clip-fact = Aspalditik jakina da irakurleak eduki irakurgarritik arreta galtzen duela orriaren diseinuari begiratzen dionean.
+recreate-voice = Birsortu ahots-uhina
 cancel-avatar-clip-recording = Utzi
 browse-file-title = Igo irudi-fitxategi bat
 browse-file = Arrastatu eta jaregin, edo <browseWrap>nabigatu</browseWrap>
@@ -400,6 +403,7 @@ faq-what-determine-identity-a =
     Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Datu-sorta deskargatzen duzunean, laguntzaile bat bera ere nor den ondorioztatzen saiatuko ez zarela onartzen duzu. Horrek esan nahi du ezin duzula datu-sortako datu bat ere laguntzaile baten datu pertsonalekin lotu. Hala ere, lotu dezakezu datu-sortako informazio bat datu-sorta barruko beste datu batekin, adibidez hizketaren ezagutza, hizlariaren detekzioa edo bestelako aplikazioak burutzeko.
 faq-what-is-cv = Zer da Common Voice?
 faq-using-cv = Common Voice erabiltzen
+faq-description = Common Voice proiektua Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko.
 faq-search-for-answers =
     .label = Erantzunak bilatu
 
@@ -724,6 +728,7 @@ share-goal-type-both = Hitz egiten eta entzuten
 weekly-goal-created = Zure asteroko helburua sortu da
 daily-goal-created = Zure eguneroko helburua sortu da
 track-progress = Jarraitu aurrerapena hemen eta zure estatistiken orrian.
+return-to-edit-goal = Itzul zaitez hona zure helburua noiznahi aldatzeko.
 share-goal = Partekatu nire helburua
 
 ## Profile Delete
@@ -741,6 +746,8 @@ profile-form-delete = Ezabatu profila
 
 ## Landing
 
+welcome-staff = Ongi etorri, { $company }-(e)ko langile!
+help-contribute = Kode irekiko datu-multzo desberdin bat eraikitzen lagun dezakezu, Common Voice profil bat sortuz eta zure ahotsaz lagunduz.
 login-company = Hasi saioa / Eman izena { $company }-ko epostarekin
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 read-more-about = Irakurri gehiago guri buruzko orrian
