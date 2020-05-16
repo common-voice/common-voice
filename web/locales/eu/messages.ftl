@@ -410,6 +410,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Zergatik Common Voice?
+about-subtitle = Common Voice Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko. Common Voice datu-sortaz gain, kode irekiko ahotsa ezagutzeko motorra ere sortzen ari gara, Deep Speech izenekoa.
 how-does-it-work-title = Nola dabilen
 how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabaketen egokitasuna, egin datu-sorta hobea guztiontzat.
 about-speak = Hitz egin
@@ -437,6 +438,10 @@ about-nav-partners = Babesleak
 about-nav-get-involved = Parte hartu
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Adimen artifiziala
+mycroft-description =
+    Mycroft munduko lehen kode irekiko laguntzailea da.
+    Mycroft edozein lekutan dabil; idazmahaiko ordenagailu baten, auto baten barruan edo Raspberry Pi batean.
+mycroft-secondary-description = Hau kode irekiko softwarea da eta nahieran nahastu, hedatu eta hobetu daiteke. Mycroft edozertarako erabil daiteke, proiektu zientifiko batetik hasi eta software enpresarialeko aplikazio batera arte.
 
 ## Glossary
 
@@ -634,12 +639,14 @@ listen-3rd-time-instruction = 2 gutxiago, segi horrela!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Azkena!
 record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
+keep-track-profile = Jarraitu zure aurrerapenak profil batekin
 login-to-get-started = Hasteko, hasi saioa edo eman izena
 
 ## Reporting
 
 report = Salatu
 report-title = Bidali salaketa bat
+report-ask = Zein arazo izaten ari zara esaldi honekin?
 report-offensive-language = Hizkuntza iraingarria
 report-grammar-or-spelling = Akats gramatikala / ortografikoa
 report-different-language = Beste hizkuntza bat
