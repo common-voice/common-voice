@@ -365,6 +365,7 @@ notfound-content = Mbiɗo faayi waasde anndude ko njiilotoɗaa.
 data-download-button = Aawto keɓe Common Voice
 data-download-yes = Eey
 data-download-deny = Alaa
+data-download-modal = Ngonɗaa ko e fuɗɗaade aawtogol <size>{ $size }GB</size>, aɗa jokka?
 data-other-goto = Yah to { $name }
 data-other-download = Aawto keɓe
 terms-agree = Mi jaɓii
