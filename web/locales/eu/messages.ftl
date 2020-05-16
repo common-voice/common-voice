@@ -648,6 +648,7 @@ report = Salatu
 report-title = Bidali salaketa bat
 report-ask = Zein arazo izaten ari zara esaldi honekin?
 report-offensive-language = Hizkuntza iraingarria
+report-offensive-language-detail = Esaldia errespeturik gabea da edo hizkera iraingarria du.
 report-grammar-or-spelling = Akats gramatikala / ortografikoa
 report-different-language = Beste hizkuntza bat
 report-difficult-pronounce = Ahoskatzeko zaila
