@@ -334,9 +334,9 @@ skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun
 off = Itzalita
 on = Piztuta
 avatar-clip-title = Eman ahotsa zure abatarrari
-change-your-avatar-clip = Zure ahots-klipa aldatu nahi duzu?
+change-your-avatar-clip = Zure ahots-grabaketa aldatu nahi duzu?
 recording-in-progress = Ahotsa grabatzen ari da
-avatar-clip-recorded = Zure abatarrak orain ahots-klipa du!
+avatar-clip-recorded = Zure avatarrak orain ahots-grabaketa bat du!
 record-voice-wave = GRABATU AHOTS-UHINA
 retry-voice-wave-recording = SAIATU BERRIRO
 re-record = GRABATU BERRIRO
@@ -739,6 +739,10 @@ help-reach-hours = Lagundu { NUMBER($hours) } ordu lortzen { $language } hizkunt
 help-reach-hours-general = Lagundu Common Voice-en { NUMBER($hours) } ordu lortzen hizkuntza batean, helburu pertsonal bat ezarriz
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
+activity-needed-calculation =
+    { NUMBER($totalHours) } orduko helburua eskuragarria da { NUMBER($periodMonths) }
+    hilabete baino gehixeagoan, baldin eta { NUMBER($people) } pertsonek egunero
+    { NUMBER($clipsPerDay) } grabaketa egiten badituzte.
 how-many-per-day = Primeran! Zenbat grabaketa egunean?
 how-many-a-week = Primeran! Zenbat grabaketa astean?
 which-goal-type = Hitz egin, entzun edo biak egin nahi dituzu?
@@ -752,6 +756,10 @@ n-clips = { NUMBER($count) } grabaketa
 help-share-goal = Lagundu ahots gehiago lortzen, partekatu zure helburua
 confirm-goal = Berretsi helburua
 goal-interval-weekly = Astero
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Partekatu zure { $type } motako { $count } grabaketa egunero lortzeko helburua
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Partekatu zure { $type } motako { $count } grabaketa astero lortzeko helburua
 share-goal-type-speak = Hitz egiten
 share-goal-type-listen = Entzuten
 share-goal-type-both = Hitz egiten eta entzuten
