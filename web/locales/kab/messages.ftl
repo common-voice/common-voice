@@ -69,6 +69,7 @@ hr = Takarwasit
 hsb = Sorbyan, Tameqqrant
 hu = Tahungaṛit
 hy-AM = Taṛminit
+hyw = Taṛminit tutrimt
 ia = Tutlayt tagraɣlant
 id = Tandunizit
 is = Taṣlandit
@@ -665,6 +666,8 @@ record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 keep-track-profile = rnu amaɣnu akken ad twaliḍ ayen txedmed
 login-to-get-started = Kcem neɣ jerred akken ad tebduḍ
+target-segment-first-card = Tettekkaḍ deg taggayt-nneɣ tasaḍast amezwaru
+target-segment-first-banner = Mudd tallalt i tmerna n taggayt tasaḍast tamezwarut n Common Voice deg { $locale }
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar
 

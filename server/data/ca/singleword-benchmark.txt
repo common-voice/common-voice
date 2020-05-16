@@ -10,3 +10,5 @@ vuit
 nou
 sí
 no
+Ei
+Firefox

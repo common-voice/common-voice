@@ -64,7 +64,7 @@ ga-IE = Iwerzhoneg
 gl = Galisian
 ha = Hausa
 he = Hebraeg
-hi-IN = Hini
+hi = HIndi
 hr = Kroateg
 hsb = Uhel-Sorabeg
 hu = Hungareg
@@ -243,6 +243,7 @@ whats-public = Petra a zo foran?
 email-not-public = Ne lakaimp ket foran ho chomlec'h postel.
 recordings-and-locale-public = An niver a enrolladennoù hag ar yezhoù a gemerit perzh eno a vo foran.
 username-optin-public = Gellout a raer lakaat foran pe dizanv hoc'h anv-implijer.
+demographic-deidentified-clarity = Ar roadennoù poblañsouriezh diret roet (sk. oad, rev, yezh ha pouez-mouezh) na vezint morse lakaet da foran war ho frofil, ha ne vo ket liammet d'ho kont er spletad roadennoù. Ar c'hlipoù aodio a vo liammet gant ar roadennoù poblañsouriezh evit ma vefe resisoc'h an dielfennadenn - da skouer, un enklasker a c'hallfe kaout c'hoant da vukañ ur patrom gourdonañ evit ul lodenn resis eus ar boblañs.
 username-email-not-demographic = Hoc'h anv implijer hag ho chomlec'h postel na vezo ket liammet gant ar roadennoù embannet.
 
 ## Speak & Listen Shortcuts
@@ -670,6 +671,10 @@ record-button-label = Enrollit ho mouezh
 share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
 keep-track-profile = Heuilhit hoc'h araokadennoù gant ur profil
 login-to-get-started = Kennaskit pe lakait hoc'h anv evit kregiñ ganti
+target-segment-first-card = Kendeurel a rit d'hor dazrann vukenn gentañ
+target-segment-first-banner = Skoazellit da grouiñ dazrann gentañ Common Voice e { $locale }
+target-segment-add-voice = Ouzhpennit ho mouezh
+target-segment-learn-more = Gouzout hiroc'h
 
 ## Reporting
 

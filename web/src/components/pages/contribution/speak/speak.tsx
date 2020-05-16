@@ -46,9 +46,10 @@ import { SentenceRecording } from './sentence-recording';
 
 import './speak.css';
 
-const MIN_RECORDING_MS = 1000;
+const MIN_RECORDING_MS = 1500;
+const MIN_RECORDING_MS_BENCHMARK = 500;
 const MAX_RECORDING_MS = 10000;
-const MIN_VOLUME = 1;
+const MIN_VOLUME = 8; // Range: [0, 255].
 
 enum RecordingError {
   TOO_SHORT = 'TOO_SHORT',
@@ -167,7 +168,7 @@ class SpeakPage extends React.Component<Props, State> {
 
   audio: AudioWeb;
   isUnsupportedPlatform = false;
-  maxVolume = 0;
+  maxVolume = -1;
   recordingStartTime = 0;
   recordingStopTime = 0;
 
@@ -183,7 +184,7 @@ class SpeakPage extends React.Component<Props, State> {
         clips: state.clips.map(clip =>
           clip.sentence
             ? clip
-            : { recording: null, sentence: unusedSentences.pop() || null }
+            : { recording: null, sentence: unusedSentences.shift() || null }
         ),
       };
     }
@@ -251,10 +252,10 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private getRecordingIndex() {
-    const { rerecordIndex } = this.state;
-    return rerecordIndex === null
-      ? this.state.clips.findIndex(({ recording }) => !recording)
-      : rerecordIndex;
+    return (
+      this.state.rerecordIndex ??
+      this.state.clips.findIndex(({ recording }) => !recording)
+    );
   }
 
   private releaseMicrophone = () => {
@@ -274,13 +275,13 @@ class SpeakPage extends React.Component<Props, State> {
       return this.setState({ error });
     }
 
-    const { clips } = this.state;
-    this.setState({
-      clips: clips.map(({ recording, sentence }, i) => ({
-        recording: i === this.getRecordingIndex() ? info : recording,
-        sentence,
-      })),
-      rerecordIndex: null,
+    this.setState(({ clips }) => {
+      const newClips = [...clips];
+      newClips[this.getRecordingIndex()].recording = info;
+      return {
+        clips: newClips,
+        rerecordIndex: null,
+      };
     });
 
     trackRecording('record', this.props.locale);
@@ -288,13 +289,21 @@ class SpeakPage extends React.Component<Props, State> {
 
   private getRecordingError = (): RecordingError => {
     const length = this.recordingStopTime - this.recordingStartTime;
-    if (length < MIN_RECORDING_MS) {
+    const currentSentence = this.state.clips[this.getRecordingIndex()].sentence;
+    const minClipLength =
+      currentSentence.taxonomy === 'Benchmark'
+        ? MIN_RECORDING_MS_BENCHMARK
+        : MIN_RECORDING_MS;
+
+    if (length < minClipLength) {
       return RecordingError.TOO_SHORT;
     }
     if (length > MAX_RECORDING_MS) {
       return RecordingError.TOO_LONG;
     }
-    if (this.maxVolume < MIN_VOLUME) {
+    // If updateVolume was never called, we assume there’s a problem with the
+    // AnalyserNode and skip this error.
+    if (this.maxVolume !== -1 && this.maxVolume < MIN_VOLUME) {
       return RecordingError.TOO_QUIET;
     }
     return null;
@@ -341,7 +350,7 @@ class SpeakPage extends React.Component<Props, State> {
   private startRecording = async () => {
     try {
       await this.audio.start();
-      this.maxVolume = 0;
+      this.maxVolume = -1; // Initialize to -1 in case updateVolume is never called.
       this.recordingStartTime = Date.now();
       this.recordingStopTime = 0;
       this.setState({
@@ -356,6 +365,9 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private saveRecording = () => {
+    // We noticed that some people hit the Stop button too early, cutting off
+    // the recording prematurely. To compensate, we add a short buffer to the
+    // end of each recording (issue #1648).
     const RECORD_STOP_DELAY = 500;
     setTimeout(async () => {
       const info = await this.audio.stop();
@@ -380,18 +392,19 @@ class SpeakPage extends React.Component<Props, State> {
 
   private handleSkip = async () => {
     const { api, removeSentences } = this.props;
-    const { clips } = this.state;
     await this.discardRecording();
     const current = this.getRecordingIndex();
-    const { id } = clips[current]?.sentence || {};
+    const id = this.state.clips[current]?.sentence?.id;
     removeSentences([id]);
-    this.setState({
-      clips: clips.map((clip, i) =>
-        current === i ? { recording: null, sentence: null } : clip
-      ),
-      error: null,
+    this.setState(({ clips }) => {
+      const newClips = [...clips];
+      newClips[current] = { recording: null, sentence: null };
+      URL.revokeObjectURL(clips[current].recording.url);
+      return {
+        clips: newClips,
+        error: null,
+      };
     });
-    await api.skipSentence(id);
   };
 
   private upload = (hasAgreed: boolean = false) => {
@@ -433,6 +446,7 @@ class SpeakPage extends React.Component<Props, State> {
               sentence.id,
               sentence.text
             );
+            URL.revokeObjectURL(recording.url);
             sessionStorage.setItem(
               'challengeEnded',
               JSON.stringify(challengeEnded)
@@ -698,7 +712,7 @@ class SpeakPage extends React.Component<Props, State> {
                 ? null
                 : clips[recordingIndex].sentence.id,
           }}
-          sentences={clips.map(({ sentence }) => sentence && sentence.text)}
+          sentences={clips.map(({ sentence }) => sentence)}
           shortcuts={[
             {
               key: 'shortcut-record-toggle',

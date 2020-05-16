@@ -2,7 +2,7 @@ import { S3 } from 'aws-sdk';
 import { getConfig } from '../config-helper';
 import Model from './model';
 import { ServerError } from './utility';
-
+import { Sentence, Clip } from 'common';
 /**
  * Bucket
  *   The bucket class is responsible for loading clip
@@ -35,26 +35,28 @@ export default class Bucket {
     client_id: string,
     locale: string,
     count: number
-  ): Promise<{ id: number; glob: string; text: string; sound: string }[]> {
+  ): Promise<Clip[]> {
     const clips = await this.model.findEligibleClips(client_id, locale, count);
     try {
       return await Promise.all(
-        clips.map(async ({ id, path, sentence }) => {
-          // We get a 400 from the signed URL without this request
-          await this.s3
-            .headObject({
-              Bucket: getConfig().BUCKET_NAME,
-              Key: path,
-            })
-            .promise();
+        clips.map(
+          async ({ id, path, sentence, original_sentence_id, taxonomy }) => {
+            // We get a 400 from the signed URL without this request
+            await this.s3
+              .headObject({
+                Bucket: getConfig().BUCKET_NAME,
+                Key: path,
+              })
+              .promise();
 
-          return {
-            id,
-            glob: path.replace('.mp3', ''),
-            text: sentence,
-            sound: this.getPublicUrl(path),
-          };
-        })
+            return {
+              id: id.toString(),
+              glob: path.replace('.mp3', ''),
+              sentence: { id: original_sentence_id, text: sentence, taxonomy },
+              audioSrc: this.getPublicUrl(path),
+            };
+          }
+        )
       );
     } catch (e) {
       console.log('aws error', e, e.stack);

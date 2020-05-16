@@ -30,4 +30,7 @@ export default Object.freeze({
   NOTFOUND: '/not-found',
   LANGUAGES: '/languages',
   ABOUT: '/about',
+
+  TARGET_SEGMENT_INFO:
+    'https://discourse.mozilla.org/t/help-create-common-voices-first-target-segment/59587',
 });

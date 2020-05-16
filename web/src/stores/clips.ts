@@ -2,9 +2,9 @@ import { Action as ReduxAction, Dispatch } from 'redux';
 const contributableLocales = require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 import { User } from './user';
-import { Clip } from 'common';
+import { Clip, Sentence } from 'common';
 
-const MIN_CACHE_SIZE = 10;
+const CACHE_SET_COUNT = 10;
 
 export namespace Clips {
   export interface State {
@@ -64,35 +64,34 @@ export namespace Clips {
       getState: () => StateTree
     ) => {
       const state = getState();
-      if (localeClips(state).clips.length > MIN_CACHE_SIZE) {
+      if (localeClips(state).clips.length > CACHE_SET_COUNT) {
         return;
       }
 
       try {
         dispatch({ type: ActionType.LOAD });
-        const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE);
+        const clips = await state.api.fetchRandomClips(CACHE_SET_COUNT);
         dispatch({
           type: ActionType.REFILL_CACHE,
           clips: clips.map(clip => {
-            let sentence;
+            let sentence = clip.sentence;
             try {
-              sentence = decodeURIComponent(clip.text);
+              sentence.text = decodeURIComponent(sentence.text);
             } catch (e) {
               if (e.name !== 'URIError') {
                 throw e;
               }
-              sentence = clip.text;
             }
 
             return {
               id: clip.id,
               glob: clip.glob,
               sentence,
-              audioSrc: clip.sound,
+              audioSrc: clip.audioSrc,
             };
           }),
         });
-        await Promise.all(clips.map(({ sound }) => fetch(sound)));
+        await Promise.all(clips.map(({ audioSrc }) => fetch(audioSrc)));
       } catch (err) {
         if (err instanceof XMLHttpRequest) {
           dispatch({ type: ActionType.REFILL_CACHE });

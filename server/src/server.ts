@@ -70,11 +70,6 @@ export default class Server {
     this.logger = new Logger();
     this.isLeader = null;
 
-    // Make console.log output json.
-    if (PROD) {
-      this.logger.overrideConsole();
-    }
-
     const app = (this.app = express());
 
     const staticOptions = {
@@ -83,18 +78,16 @@ export default class Server {
         response.set('X-Release-Version', RELEASE_VERSION);
         response.set('X-Environment', ENVIRONMENT);
 
-        // Production specific security-centric headers
+        // security-centric headers
         response.set('X-Production', PROD ? 'On' : 'Off');
-        if (PROD) {
-          response.set('Content-Security-Policy', CSP_HEADER);
-          response.set('X-Content-Type-Options', 'nosniff');
-          response.set('X-XSS-Protection', '1; mode=block');
-          response.set('X-Frame-Options', 'DENY');
-          response.set(
-            'Strict-Transport-Security',
-            'max-age=' + SECONDS_IN_A_YEAR
-          );
-        }
+        response.set('Content-Security-Policy', CSP_HEADER);
+        response.set('X-Content-Type-Options', 'nosniff');
+        response.set('X-XSS-Protection', '1; mode=block');
+        response.set('X-Frame-Options', 'DENY');
+        response.set(
+          'Strict-Transport-Security',
+          'max-age=' + SECONDS_IN_A_YEAR
+        );
       },
     };
 

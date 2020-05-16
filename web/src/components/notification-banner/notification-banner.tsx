@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
-import { useAction } from '../../hooks/store-hooks';
+import { useAction, useStickyState } from '../../hooks/store-hooks';
 import { Notifications } from '../../stores/notifications';
 import { CrossIcon } from '../ui/icons';
 import { LinkButton } from '../ui/ui';
@@ -12,20 +12,30 @@ export const Banner = React.forwardRef(
     {
       className,
       children,
-      ctaButtonProps,
+      bannerProps,
       onClose,
       ...props
     }: {
       children: React.ReactNode;
-      ctaButtonProps: any;
+      bannerProps: any;
       onClose: () => any;
     } & React.HTMLProps<HTMLDivElement>,
     ref: any
   ) => (
     <div ref={ref} className={'banner ' + className} {...props}>
-      <div className="spacer" />
-      <h1>{children}</h1>
-      <LinkButton {...ctaButtonProps} className="cta" onClick={onClose} />
+      <h2 className="notification-text">{children}</h2>
+      {bannerProps.links.map((cta: any, key: number) => {
+        const persistAfterClick = cta.persistAfterClick;
+        delete cta.persistAfterClick;
+
+        return (
+          <LinkButton
+            {...cta}
+            key={`banner-link-${key}`}
+            onClick={persistAfterClick ? null : onClose}
+          />
+        );
+      })}
       <button type="button" className="close" onClick={onClose}>
         <CrossIcon />
       </button>
@@ -39,31 +49,25 @@ export default function NotificationBanner({
   notification: Notifications.Notification;
 }) {
   const removeNotification = useAction(Notifications.actions.remove);
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   const el = useRef(null);
+  const storageKey = notification.kind == 'banner' && notification.bannerProps.storageKey;
+  const [hide, setHide] = useStickyState(false, storageKey);
 
-  useEffect(() => {
-    setShow(true);
-  }, []);
+  function hideBanner(storageKey?: string) {
+    setShow(false);
+    storageKey && setHide(true);
+  }
 
-  return (
+  return show && (
     <Banner
       ref={el}
-      ctaButtonProps={
-        notification.kind == 'banner'
-          ? {
-              ...notification.actionProps,
-              className: 'cta',
-            }
-          : {}
-      }
-      onClose={() => setShow(false)}
+      bannerProps={notification.kind == 'banner' && notification.bannerProps}
+      onClose={() => hideBanner(storageKey)}
       className="notification-banner"
-      style={{ transform: `translateY(${show ? 0 : -100}%)` }}
       onTransitionEnd={event => {
         if (show || event.target != el.current) return;
-
         removeNotification(notification.id);
       }}>
       {notification.content}

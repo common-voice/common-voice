@@ -64,10 +64,12 @@ ga-IE = Bahasa Irlandia
 gl = Bahasa Galisia
 ha = Bahasa Hausa
 he = Bahasa Ibrani
-hi-IN = Bahasa Hindi
+hi = Bahasa Hindi
 hr = Bahasa Kroasia
 hsb = Bahasa Sorbia Hulu
 hu = Bahasa Hongaria
+hy-AM = Bahasa Armenia
+hyw = Bahasa Armenia Barat
 ia = Bahasa Interlingua
 id = Bahasa Indonesia
 is = Bahasa Islandia
@@ -626,7 +628,7 @@ contribute-more = Siap melanjutkan { $count } sisanya?
 record-cta = Mulai merekam
 record-platform-not-supported = Maaf, platform Anda saat ini belum mendukung.
 record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengunduh yang paling baru:
-record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
+record-platform-not-supported-ios-non-safari = Di iOS, silakan lanjutkan dengan Safari untuk mengaktifkan rekaman…
 record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
 record-no-mic-found = Tidak mendeteksi mikrofon
 record-error-too-short = Rekaman Anda terlalu pendek.
@@ -661,6 +663,10 @@ record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
 keep-track-profile = Pantau kemajuan Anda dengan profil
 login-to-get-started = Masuk atau daftar untuk memulai
+target-segment-first-card = Anda berkontribusi ke segmen target pertama kami
+target-segment-first-banner = Bantu buat segmen target pertama Common Voice dalam bahasa { $locale }
+target-segment-add-voice = Tambahkan Suara Anda
+target-segment-learn-more = Pelajari Lebih Lanjut
 
 ## Reporting
 

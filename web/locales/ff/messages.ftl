@@ -166,6 +166,7 @@ logout = Seŋto
 
 ## Home Page
 
+home-title = Common Voice ko feere Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
 home-cta = Ɓamtu daande, wallit ɗoo!
 show-wall-of-text = Jokku taro
 help-us-title = Wallu min moƴƴinde koŋnguɗi!
