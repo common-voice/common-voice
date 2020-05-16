@@ -118,13 +118,14 @@ export default class API {
     showFirstStreakToast?: boolean;
     challengeEnded: boolean;
   }> {
-    console.log("api.ts uploadClip: " + sentenceId);
+    // note: by default nginx headers are all lower case and do not
+    // allow underscores
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
         sentence: encodeURIComponent(sentence),
-        sentenceId: sentenceId,
+        sentenceid: sentenceId,
         challenge: getChallenge(this.user),
       },
       body: blob,

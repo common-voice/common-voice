@@ -123,14 +123,11 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers, params } = request;
     const sentence = decodeURIComponent(headers.sentence as string);
-    const sentence_id = headers.sentenceId;
+    const sentence_id = headers.sentenceid;
 
     if (!client_id || !sentence) {
       throw new ClientParameterError();
     }
-
-    console.log("clip.ts saveClip all headers: " + JSON.stringify(request.headers));
-    console.log("clip.ts saveClip: " + request.headers.sentenceId)
 
     // Where is our audio clip going to be located?
     const folder = client_id + '/';

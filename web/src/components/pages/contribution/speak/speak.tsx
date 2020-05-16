@@ -446,8 +446,6 @@ class SpeakPage extends React.Component<Props, State> {
               sentence.id,
               sentence.text
             );
-
-            console.log("speak.tsx addUploads: " + sentence.id);
             URL.revokeObjectURL(recording.url);
             sessionStorage.setItem(
               'challengeEnded',
