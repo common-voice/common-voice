@@ -68,6 +68,7 @@ hr = Hırvatça
 hsb = Yukarı Sorbca
 hu = Macarca
 hy-AM = Ermenice
+hyw = Batı Ermenicesi
 ia = Interlingua
 id = Endonezce
 is = İzlandaca
@@ -340,6 +341,7 @@ retry-voice-wave-recording = YENİDEN DENE
 re-record = YENİDEN KAYDET
 delete-voice = SİL
 recording-voice-wave = Kaydediliyor
+delete-voice-clip = veya  ses kaydını sil
 ready-to-upload = Yükle
 cancel-avatar-clip-recording = İptal
 browse-file-title = Resim dosyası yükle
@@ -414,6 +416,7 @@ mycroft-subtitle = Yapay zekâ
 
 glossary = Sözlük
 localization = Yerelleştirme
+localization-explanation = Bu, içeriğimizi birçok dile ve uyarlama sürecimizdir.
 sentence-collection = Cümle derleme
 hours-recorded-explanation = Şimdiye kadar topladığımız ses kayıtlarının toplam süresi.
 sst = Konuşmadan metne (STT)
@@ -466,6 +469,8 @@ audio-format = Ses biçimi
 number-of-voices = Ses sayısı
 splits = Ayrımlar
 email-to-download = İndirmek için e-postanızı yazın
+why-email = <b>Neden e-posta istiyorsunuz?</b> Veri kümesindeki değişiklikler hakkında gelecekte sizinle iletişim kurmamız gerekebilir. E-postanız bize bir iletişim bilgisi sağlar.
+confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazırsınız
 size-gigabyte = GB
 size-megabyte = MB
 download-language = { $language } indir
@@ -700,7 +705,12 @@ share-goal = Hedefimi paylaş
 
 keep = Tut
 remove = Sil
+keep-info = Anonim ses kayıtlarınız Common Voice veri kümesinde kalacaktır. Profilinizi sildikten sonra kayıtlarınızı veri kümesinden kaldırma talebinde bulunamazsınız.
 remove-info = Ses kayıtlarınızı veri kümelerinden kaldırma isteğinizi inceleyeceğiz. İsteğiniz onaylanırsa, veri kümesini indirenlerle iletişim kuracak ve ses kayıtlarınızı kaldırmalarını isteyeceğiz.
+why-delete-recordings =
+    Common Voice kayıtları akademisyenler, küçük işletmeler ve ses tanıma meraklıları tarafından ses modelleri gibi halka açık kaynakları eğitmek ve büyütmek için kullanılır.
+    
+    Kayıtlarınızın neden silinmesini istediğinizi bize bildirir misiniz?
 profile-form-delete = Profilimi sil
 
 ## Landing
