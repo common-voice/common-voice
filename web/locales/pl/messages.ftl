@@ -69,6 +69,7 @@ hr = chorwacki
 hsb = górnołużycki
 hu = węgierski
 hy-AM = ormiański
+hyw = zachodni ormiański
 ia = interlingua
 id = indonezyjski
 is = islandzki
