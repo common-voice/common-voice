@@ -14,6 +14,9 @@
     --warm-grey: #959595;
     --blue: #629ff4;
 
+    --gradient-pink: #f89096;
+    --gradient-purple: #b1b4e5;
+
     --link-color: var(--blue);
 
     --override-z-index: 3;

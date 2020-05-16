@@ -621,7 +621,7 @@
 }
 
 .speak-btn::after {
-    background: linear-gradient(90deg, #f89096, #b1b4e5);
+    background: linear-gradient(90deg, var(--gradient-pink), var(--gradient-purple));
 }
 .listen-btn::after {
     background: linear-gradient(270deg, #88d1f1, #b1b5e5);
