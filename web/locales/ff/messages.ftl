@@ -294,8 +294,10 @@ edit = Taƴto
 email-subscriptions = Lulnagol iimeel
 download-profile = Aawtaade keɓe am
 skip-submission-feedback = Diw duttinal naatnugol
+skip-submission-note = Tesko: maa sokloy labaade hakkunde Haal walla Heɗo ngam waylude sifaa ballital.
 off = Ñifol
 on = Kuɓɓol
+recording-in-progress = Nanngitogol daande ina ɓeydoo
 retry-voice-wave-recording = Eto kadi
 delete-voice = MOMTU
 recording-voice-wave = Nanngitogol
@@ -315,6 +317,7 @@ change-email-setings = Waylir iimeel maa teelte les heftinirde seŋorde
 ## FAQ
 
 faq-title = Naamne Ɓurɗe Duumaade
+faq-what-cv-q = Ko woni Common Voice?
 faq-why-important-q = Ko saabii ɗum himmude?
 faq-how-get-q = Hol no keɓirat-mi keɓe Common Voice?
 faq-when-release2-q = Mande bayyinton keɓe Common Voice e ɗemɗe goɗɗe?
