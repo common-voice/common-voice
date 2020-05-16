@@ -631,6 +631,7 @@ contribute-more =
 record-cta = Filloni incizimin
 record-platform-not-supported = Na ndjeni, por platforma juaj nuk mbulohet ende.
 record-platform-not-supported-desktop = Në kompjuter dekstop mund të shkarkoni versionin më të ri:
+record-platform-not-supported-ios-non-safari = Në iOS, ju lutemi, vazhdoni me Safari-n, që të aktivizohet incizimi…
 record-must-allow-microphone = Duhet të lejoni përdorimin e mikrofonit.
 record-no-mic-found = S’u gjet mikrofon.
 record-error-too-short = Incizimi qe shumë i shkurtër.
@@ -665,6 +666,10 @@ record-button-label = Incizoni zërin tuaj
 share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra
 keep-track-profile = Ndiqni ecurinë tuaj përmes një profili
 login-to-get-started = Që t’ia filloni, hyni ose regjistrohuni
+target-segment-first-card = Po kontribuoni te segmenti ynë i parë
+target-segment-first-banner = Ndihmoni të krijohet segmenti i parë në { $locale } për Common Voice
+target-segment-add-voice = Shtoni Zërin Tuaj
+target-segment-learn-more = Mësoni Më Tepër
 
 ## Reporting
 
