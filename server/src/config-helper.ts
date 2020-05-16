@@ -46,6 +46,7 @@ export type CommonVoiceConfig = {
   LAST_DATASET: string;
   SENTRY_DSN: string;
   MAINTENANCE_MODE: boolean;
+  BENCHMARK_LIVE: boolean;
 };
 
 const castDefault = (value: string): any => value;
@@ -98,6 +99,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   SENTRY_DSN: configEntry('CV_SENTRY_DSN', ''),
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
+  BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
 };
 
 let injectedConfig: CommonVoiceConfig;

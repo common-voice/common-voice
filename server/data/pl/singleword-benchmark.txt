@@ -10,3 +10,5 @@ osiem
 dziewięć
 tak
 nie
+Hej
+Firefox

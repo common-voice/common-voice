@@ -10,3 +10,5 @@ sekiz
 dokuz
 evet
 hayır
+Hey
+Firefox
