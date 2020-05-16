@@ -118,6 +118,7 @@ export default class API {
     showFirstStreakToast?: boolean;
     challengeEnded: boolean;
   }> {
+    console.log("api.ts uploadClip: " + sentenceId);
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
