@@ -180,6 +180,7 @@ listen-subtitle = Wallu min moƴƴinde daaɗe
 hours-recorded = Waktuuji Nanngitaama
 hours-validated = Waktuuji moƴƴinaama
 voices-online = Daaɗe ɗee e ceŋol jooni
+todays-progress = Ɓeydagol hannde
 help-reach-goal = Wallu min yettaade { $goal }
 read-terms-q = A tarii sarɗiiji amen?
 ready-to-record = A hebiima rokkirde daande maa?
@@ -202,6 +203,7 @@ x-years-short =
     }
 sign-up-account = Winndito ngam dañde konte
 email-subscription-title = Winndito ngam heɓde kesɗitine iimeel
+email-subscription-title-new = Winndito e ɓatakeeji Common Voice , ciiftine faandaare e kesɗitine beydagol.
 
 ## Account Benefits
 
