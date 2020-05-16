@@ -64,10 +64,12 @@ ga-IE = Irsk
 gl = Galisisk
 ha = Hausa
 he = Hebraisk
-hi-IN = Hindi
+hi = Hindi
 hr = Kroatisk
 hsb = Oversorbisk
 hu = Ungarsk
+hy-AM = Armensk
+hyw = Vestarmensk
 ia = Interlingua
 id = Indonesisk
 is = Islandsk
@@ -233,7 +235,6 @@ whats-public = Kva er offentleg?
 email-not-public = Vi gjer ikkje e-postadressa di offentleg.
 recordings-and-locale-public = Talet på innspelingar og kva for språk du bidreg til er offentleg.
 username-optin-public = Du kan velje å gjere brukarnamnet ditt offentleg eller anonymt.
-demographic-deidentified = Sjølvvalde innsende demografiske data (t.d. alder, kjønn, språk, dialekt) blir fjerna frå innsende stemmedata og vil aldri bli gjort offentleg i profilen din.
 username-email-not-demographic = Brukernamnet ditt og e-postadressa di vil ikkje bli assosierte med offentliggjorde data.
 
 ## Speak & Listen Shortcuts
@@ -620,7 +621,6 @@ contribute-more =
 record-cta = Start innspeling
 record-platform-not-supported = Vi beklagar, men plattforma di er for tida ikkje støtta.
 record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
-record-platform-not-supported-ios = <bold>iOS</bold>-brukarar kan laste ned gratisappen vår:
 record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
 record-no-mic-found = Fann ingen mikrofon.
 record-error-too-short = Innspelinga var for kort.
@@ -646,11 +646,11 @@ listen-instruction = { $actionType } <playIcon></playIcon> var setninga sagt ret
 listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong tilnår du er klar for det
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
 listen-last-time-instruction = <playIcon></playIcon>Det siste!
-nothing-to-validate = Vi har ikkje noko å validere på dette språket. Hjelp oss med å fylle opp køen.
 record-button-label = Spel inn stemma di
 share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
 keep-track-profile = Hald oversikt over framgangen din med ein profil
 login-to-get-started = Logg inn eller registrer deg for å kome i gang
+target-segment-learn-more = Les meir
 
 ## Reporting
 

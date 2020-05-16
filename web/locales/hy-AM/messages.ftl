@@ -562,6 +562,7 @@ other-datasets = Այլ ձայնային տվյալակազմեր
 feedback-q = Արձագանքել
 data-other-ted-name = TED-LIUM կորպուս
 go-languages-page = Անցնել «Լեզուներ» էջ
+ready-to-validate = Օգնե՛ք մեզ ստուգել ձայնագրվածը
 more = Ավելին
 close = Փակել
 download = Ներբեռնել
@@ -595,8 +596,10 @@ other-language = Այլ լեզու
 
 ## Languages Overview
 
+language-section-in-progress = Նախապատրաստման փուլում
 language-section-launched = Հասանելի
 languages-show-more = Տես ավելին
+languages-show-less = Պակաս մանրամասներ տեսնել
 language-search-input =
     .placeholder = Որոնում
 localized = Տեղայնացված

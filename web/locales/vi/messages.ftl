@@ -69,6 +69,7 @@ hr = Croatia
 hsb = Thượng Sorb
 hu = Hungary
 hy-AM = Armenia
+hyw = Armenia Tây
 ia = Interlingua
 id = Indo
 is = Iceland

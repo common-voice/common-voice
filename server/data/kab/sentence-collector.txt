@@ -45677,10 +45677,14 @@ Temmuqqel ɣer deffir.
 Temmuqqel ɣer uzelmaḍ.
 Temmuqqel ɣer yigenni.
 Temmuqqel-it s wurfan.
+Temmuqqel-itt s wurfan.
+Temmuqqlem-tt s wurfan.
 Temmuqqlemt ɣer-s?
+Temmuqqleḍ-tt s wurfan.
 Temmut
 Temmut Dabuṛa, tin akken i d-iṛebban Ribika.
 Temmut deg yifassen-ik.
+Temmut iḍelli tameddit.
 Temmut s taḍsa.
 Temmut seg tismin.
 Temmut seg tuggdi.
@@ -45776,6 +45780,7 @@ Tenna-as: a-tt-an tqeddact-iw Bilha, ṭṭeṣ yid-s.
 Tenna-d Mary, tennebra.
 Tenna-d ad aɣ-tɛawen.
 Tenna-d ar tufat.
+Tenna-d la teskerkisem.
 Tenna-d mazal ur tennudem ara.
 Tenna-d tidet?
 Tenna-d tḥemmel tawuri-a.
@@ -45783,6 +45788,7 @@ Tenna-d ur t-temlal ara.
 Tenna-d yelli: "ḥemleɣ-k".
 Tenna-d yelli: "ḥemleɣ-kem".
 Tenna-d yezmer lḥal tidet.
+Tenna-d Ḍrifa Tamlikect, tennebra.
 Tenna-d.
 Tenna-iyi-d ifuk waya.
 Tenna-iyi-d ur k-d-heddreɣ ara.
@@ -45798,14 +45804,18 @@ Tenna-yi-d ḥemmleɣ-k.
 Tenna-yi-d.
 Tenna: "Macahu!" Rran-as: "Ahu."
 Tenna: Ameɣlal ad yi-d-irnu aqcic-nniḍen!
+Tennam i yimawlan-nwen?
 Tennam-as i Tunhinan, naɣ?
+Tennam-as i yemma-twen?
 Tennam-asen ɣef waya?
 Tennam-asent ɣef waya?
 Tennam-d awal-nwen.
 Tennam-d aya, naɣ?
 Tennam-d lehmum, teddrem-ten d wid i awen-d-yezzin.
 Tennam-d.
+Tennamt-as i Ḍrifa Tamlikect, naɣ?
 Tennamt-asen ɣef waya?
+Tennamt-asent ɣef waya?
 Tennamt-d awal-nwent.
 Tennamt-d aya, naɣ?
 Tennamt-d.
@@ -45887,6 +45897,7 @@ Tenɣa Melanie yiwet n tissist s ufus-is.
 Tenɣa iman-is s leqdic.
 Tenɣa iman-is.
 Tenɣa-iyi tuɣmest-iw.
+Tenɣa-k ɛni tuɣmest-ik?
 Tenɣa-k εni tuɣmest-ik?
 Tenɣa-kent tewnafit.
 Tenɣa-t tayri.
@@ -46019,6 +46030,7 @@ Teqfez mliḥ.
 Teqim ɣriba, tessers učči ɣer lqaɛa.
 Teqla-d timellalin.
 Teqleɛ tmacint-nni.
+Teqleɛ-d imesmaṛen-nni.
 Teqleɛ.
 Teqmeḍ tqenduṛt-a.
 Teqqar kan aha tura amek ihi.
@@ -46053,10 +46065,12 @@ Teqqel d tamellalt.
 Teqqel d tamsaltut.
 Teqqel d tasegbart.
 Teqqel d timsujjit.
+Teqqel tgezzu-k imir-a.
 Teqqel ɣer Bgayet.
 Teqqel ɣer Lezzayer.
 Teqqel ɣer ssinima.
 Teqqel ɣer tbanka.
+Teqqel ɣer tcirqecwalt.
 Teqqel ɣer teftist.
 Teqqel ɣer teklut.
 Teqqel ɣer tesdawit.
@@ -46065,6 +46079,7 @@ Teqqel ɣer tkanna.
 Teqqel ɣer tmesgida.
 Teqqel ɣer tmesrit.
 Teqqel ɣer tmeɣra.
+Teqqel ɣer tmugert-nni.
 Teqqel ɣer tnarit.
 Teqqel ɣer tnefrut.
 Teqqel ɣer tnersamt.
@@ -46111,6 +46126,7 @@ Teqqel-d seg ustidyu.
 Teqqel-d seg uɣerbaz.
 Teqqel-d seg yimsujji.
 Teqqel-d seg yimuras.
+Teqqel-d sɣur yimsujji.
 Teqqel-d ɣer tkanna.
 Teqqel-d ɣer umahil.
 Teqqel-d.
@@ -46183,7 +46199,9 @@ Teqqur ttelwa deg ufenǧal-ayi.
 Teqreḥ-iyi tayet-inu.
 Teqreḥ-iyi tayet-iw.
 Teqreḥ-iyi taɣect-iw.
+Teqreḥ-iyi teɣruḍt-inu.
 Teqreḥ-iyi tuɣmest-a.
+Teqreḥ-iyi tuɣmest-inu.
 Teqreḥ-iyi tuɣmest-iw.
 Teqreḥ-iyi tuɣmest.
 Teqsaḥ n wul n tid i yettɛassan i yettrebbin s yedrimen.
@@ -46215,6 +46233,7 @@ Terfed s tadist dɣa tesɛa-d Ḥanux.
 Terfed s tadist, tesɛa-d aqcic wis xemsa i Si Mḥemmed.
 Terfed s tadist, tesɛa-d aqcic.
 Terfed tankult-nni.
+Terfed yiwet n tbalizt.
 Terfed-d ɣur-i allen-is, abrid s lɣaci yeččur.
 Terfiḍ aṭas ɣef Nna Xelluǧa.
 Terfiḍ mliḥ ɣef Mary.
@@ -46245,12 +46264,14 @@ Terna-t.
 Ternam deg lmizan.
 Ternam-d ɣur-neɣ, naɣ?
 Ternamt deg lmizan.
+Ternamt-d ɣur-neɣ, naɣ?
 Ternamt-tent, naɣ?
 Terniḍ deg lmizan.
 Terniḍ-d ɣur-neɣ, naɣ?
 Terra ddwa n waccaren.
 Terra fell-i?
 Terra iman-nnes tuḍen.
+Terra tmara ad ččeɣ wa?
 Terra ɣef yiman-nnes.
 Terra ḥmimuc.
 Terra-as Guli s tufɣa n laɛqel.
@@ -46423,6 +46444,7 @@ Terramt-iyi-tt-id.
 Terramt-iyi-tt-id?
 Terramt-tt i tissit.
 Terramt-tt kan i ucali.
+Terramt-tt kan i wawal.
 Terramt.
 Terreẓ tbalizt-inu.
 Terreẓ tefrut-inu.
@@ -46540,18 +46562,21 @@ Terɣa texxamt n lɛic.
 Terɣa tkatidralt n Notre-Dame de Paris.
 Terɣa tkatidralt ur d-yecfiε deg-s Rebbi.
 Terḍel-d tnelmadt adlis.
+Terḍel-iyi-d adlis-nni.
 Terẓam-t.
 Terẓam-t?
 Terẓeg ma tezwar s imi, tamment i wumi.
 Terẓem tbanka ass-a?
 Terẓem tewwurt-nni.
 Terẓem tzewwut-nni.
+Terẓem yiwet n tzewwut.
 Terẓid-t?
 Terẓiḍ ṭṭaq.
 Terẓiḍ-iyi anzaren-iw.
 Terẓiḍ-t.
 Tesawlem-as yakan?
 Tesawleḍ-as yakan?
+Tesbedd-it ɣer teɣdemt.
 Tesbeggneḍ-d tazmert n ufus-ik ayeffus.
 Tesbeɛbeɛ tixsi, uzzlen-d izamaren.
 Tesbeɛdeḍ lebla fell-as.
