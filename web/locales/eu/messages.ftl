@@ -706,6 +706,7 @@ validated-clips = Balioztatutako grabaketak
 total-approved = Onartuak guztira
 overall-accuracy = Zehaztasun orokorra
 set-visibility = Ezarri nire ikusgarritasuna
+visibility-overlay-note = Oharra: 'Ikusgai' ezartzen denean, ezarpen hau <profileLink>Profil orrian</profileLink> aldatu daiteke
 show-ranking = Erakutsi nire rankinga
 
 ## Custom Goals
@@ -726,6 +727,7 @@ finish-editing = Editatzea amaitu lehenengo?
 lose-changes-warning = Orain utziz gero zure aldaketak galduko dituzu
 build-custom-goal = Sortu helburu pertsonalizatua
 help-reach-hours = Lagundu { NUMBER($hours) } ordu lortzen { $language } hizkuntzan zure helburu pertsonal bat ezarriz
+help-reach-hours-general = Lagundu Common Voice-en { NUMBER($hours) } ordu lortzen hizkuntza batean, helburu pertsonal bat ezarriz
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
 how-many-per-day = Primeran! Zenbat grabaketa egunean?
