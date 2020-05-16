@@ -19,7 +19,7 @@ import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
 import Challenge from './challenge';
-import { FeatureToken, featureTokens, FeatureType, features } from 'common';
+import { FeatureToken, FeatureType, features } from 'common';
 
 const Transcoder = require('stream-transcoder');
 
@@ -134,14 +134,14 @@ export default class API {
 
     try {
       const featureToken = feature as FeatureToken;
-      if (featureTokens.includes(featureToken)) {
-        const featureTemp = features[featureToken];
-        if (
-          (!featureTemp.locales || featureTemp.locales.includes(locale)) &&
-          getConfig()[featureTemp.configFlag as keyof CommonVoiceConfig]
-        ) {
-          featureResult = featureTemp;
-        }
+      const featureObj = features[featureToken];
+
+      if (
+        featureObj &&
+        (!featureObj.locales || featureObj.locales.includes(locale)) &&
+        getConfig()[featureObj.configFlag as keyof CommonVoiceConfig]
+      ) {
+        featureResult = featureObj;
       }
     } catch (e) {
       console.log('error retrieving feature flag', e.message);

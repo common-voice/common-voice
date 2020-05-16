@@ -39,6 +39,8 @@ export namespace Notifications {
       type: ActionType.ADD,
       notification: { id: ++id, kind: 'pill', content, type },
     }),
+
+    // TODO: separate banners from notifications
     addBanner: (content: any, bannerProps: any) => ({
       type: ActionType.ADD,
       notification: { id: ++id, kind: 'banner', content, bannerProps },

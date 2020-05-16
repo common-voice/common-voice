@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
-import { useAction } from '../../hooks/store-hooks';
+import { useAction, useStickyState } from '../../hooks/store-hooks';
 import { Notifications } from '../../stores/notifications';
 import { CrossIcon } from '../ui/icons';
 import { LinkButton } from '../ui/ui';
@@ -25,14 +25,14 @@ export const Banner = React.forwardRef(
     <div ref={ref} className={'banner ' + className} {...props}>
       <h2 className="notification-text">{children}</h2>
       {bannerProps.links.map((cta: any, key: number) => {
-        const persistafterclick = cta.persistafterclick;
-        const linkProps = { ...cta, persistafterclick: null };
+        const persistAfterClick = cta.persistAfterClick;
+        delete cta.persistAfterClick;
 
         return (
           <LinkButton
-            {...linkProps}
+            {...cta}
             key={`banner-link-${key}`}
-            onClick={persistafterclick ? null : onClose}
+            onClick={persistAfterClick ? null : onClose}
           />
         );
       })}
@@ -49,28 +49,23 @@ export default function NotificationBanner({
   notification: Notifications.Notification;
 }) {
   const removeNotification = useAction(Notifications.actions.remove);
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   const el = useRef(null);
-  const { storageKey = '' } =
-    notification.kind == 'banner' && notification.bannerProps;
-
-  useEffect(() => {
-    setShow(true);
-  }, []);
+  const storageKey = notification.kind == 'banner' && notification.bannerProps.storageKey;
+  const [hide, setHide] = useStickyState(false, storageKey);
 
   function hideBanner(storageKey?: string) {
     setShow(false);
-    storageKey && localStorage.setItem(storageKey, JSON.stringify(true));
+    storageKey && setHide(true);
   }
 
-  return (
+  return show && (
     <Banner
       ref={el}
       bannerProps={notification.kind == 'banner' && notification.bannerProps}
       onClose={() => hideBanner(storageKey)}
       className="notification-banner"
-      style={{ display: `${show ? 'flex' : 'none'}` }}
       onTransitionEnd={event => {
         if (show || event.target != el.current) return;
         removeNotification(notification.id);

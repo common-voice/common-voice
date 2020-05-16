@@ -96,7 +96,7 @@ const SegmentBanner = ({
         {
           to: URLS.SPEAK,
           className: 'cta',
-          persistafterclick: true,
+          persistAfterClick: true,
           children: (
             <>
               <TargetIcon />
@@ -111,7 +111,7 @@ const SegmentBanner = ({
         {
           href: URLS.TARGET_SEGMENT_INFO,
           blank: true,
-          persistafterclick: true,
+          persistAfterClick: true,
           className: 'cta external',
           children: (
             <>
@@ -272,7 +272,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {targetSegment && !localStorage.getItem(targetSegment.storageKey) && (
+        {targetSegment && localStorage.getItem(targetSegment.storageKey) !== 'true' && (
           <SegmentBanner locale={locale} segment={targetSegment} />
         )}
         {showStagingBanner && (

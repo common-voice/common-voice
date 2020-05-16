@@ -436,6 +436,5 @@ export default class API {
     return this.fetch(`${API_PATH}/feature/${locale}/${feature}`, {
       method: 'GET',
     });
-    return null;
   }
 }
