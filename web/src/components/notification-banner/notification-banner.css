@@ -101,7 +101,46 @@
         path {
             fill: var(--white);
         }
-      
+
+        svg {
+            width: 22px;
+            height: 22px;
+            margin: 0 0.5rem;
+
+            @media (--md-down) {
+                width: 18px;
+                height: 18px;
+            }
+
+            @media (--sm-down) {
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        @media (--md-down) {
+            font-size: 80%;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        @media (--sm-down) {
+            font-size: 65%;
+            margin-inline-start: 0.5rem;
+            height: 2.5rem;
+        }
+    }
+
+    .close {
+        border: none;
+        position: absolute;
+        right: 2rem;
+        left: auto;
+
+        path {
+            fill: var(--white);
+        }
+
         @media (--sm-down) {
             right: 0.75rem;
             top: 2rem;

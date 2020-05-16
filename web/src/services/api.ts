@@ -118,12 +118,14 @@ export default class API {
     showFirstStreakToast?: boolean;
     challengeEnded: boolean;
   }> {
+    // note: by default nginx headers are all lower case and do not
+    // allow underscores
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
         sentence: encodeURIComponent(sentence),
-        sentence_id: sentenceId,
+        sentenceid: sentenceId,
         challenge: getChallenge(this.user),
       },
       body: blob,
