@@ -129,7 +129,8 @@ export default class Clip {
       throw new ClientParameterError();
     }
 
-    console.log("clip.ts saveClip: " + headers.sentenceId)
+    console.log("clip.ts saveClip all headers: " + JSON.stringify(request.headers));
+    console.log("clip.ts saveClip: " + request.headers.sentenceId)
 
     // Where is our audio clip going to be located?
     const folder = client_id + '/';
