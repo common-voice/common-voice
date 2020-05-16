@@ -101,7 +101,7 @@
         path {
             fill: var(--white);
         }
-
+      
         @media (--sm-down) {
             right: 0.75rem;
             top: 2rem;
