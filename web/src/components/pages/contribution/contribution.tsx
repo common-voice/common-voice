@@ -437,7 +437,7 @@ class ContributionPage extends React.Component<Props, State> {
                     const isActive = i === activeSentenceIndex;
                     return (
                       <div
-                        key={sentence.text}
+                        key={i}
                         className={
                           'card card-dimensions ' + (isActive ? '' : 'inactive')
                         }
