@@ -123,14 +123,16 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers, params } = request;
     const sentence = decodeURIComponent(headers.sentence as string);
+    const sentenceId = headers['sentence-id'];
 
-    if (!client_id || !sentence) {
+    if (!client_id || !sentence || !sentenceId) {
+      console.log(`sent headers: ${JSON.stringify(headers)}`);
       throw new ClientParameterError();
     }
 
     // Where is our audio clip going to be located?
     const folder = client_id + '/';
-    const filePrefix = request.headers.sentenceid;
+    const filePrefix = sentenceId;
     const clipFileName = folder + filePrefix + '.mp3';
 
     // if the folder does not exist, we create it
@@ -175,7 +177,7 @@ export default class Clip {
       await this.model.saveClip({
         client_id: client_id,
         locale: params.locale,
-        original_sentence_id: filePrefix,
+        original_sentence_id: sentenceId,
         path: clipFileName,
         sentence,
       });
