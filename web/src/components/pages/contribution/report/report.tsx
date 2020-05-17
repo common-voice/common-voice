@@ -104,7 +104,7 @@ export function ReportModal({
         rounded
         disabled={
           submitStatus == 'submitting' ||
-          otherText.trim() == '' ||
+          (otherText && otherText.trim() == '') ||
           (!Object.values(selectedReasons).some(Boolean) && otherText == null)
         }
         onClick={() => {
