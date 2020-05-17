@@ -242,6 +242,7 @@ whats-public = Quina informacion es publica ?
 email-not-public = Farem pas venir vòstra adreça electronica publica.
 recordings-and-locale-public = Lo nombre d’enregistraments e las lengas dins las qualas contribuïssètz seràn publics.
 username-optin-public = Podètz cuasir se volètz que vòstre nom d’utilizaire siá public o anonim.
+demographic-deidentified-clarity = Las donadas demograficas eventualament somesas (per exemple, l’atge, lo sèxe, la lenga e l’accent) seràn pas jamai faches publiques sus vòstre compte e seràn pas ligats a vòstre compte dins l’ensemble de las donadas. De mòstras àudio individualas seràn ligadas a de donadas demograficas per de fins d’analisis mai precisas : per exemple, un cercaire o una cercaira poiriá voler trabalhar sus un modèl d’entraïnament de segment demografic precís.
 username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts
