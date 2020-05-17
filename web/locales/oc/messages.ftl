@@ -632,6 +632,7 @@ contribute-more = Prèst a ne far { $count } mai ?
 record-cta = Començar l’enregistrament
 record-platform-not-supported = O planhèm, mas vòstra plataforma es pas compatibla pel moment.
 record-platform-not-supported-desktop = Amb un ordenador de burèu, podètz telecargar lo darrièr :
+record-platform-not-supported-ios-non-safari = Jos iOS mercés de contunhar amb Safari per activar l’enregistrament…
 record-must-allow-microphone = Devètz permetre l’accès al microfòn.
 record-no-mic-found = Cap de microfòn pas trobat.
 record-error-too-short = L’enregistrament es tròp cort.
