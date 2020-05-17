@@ -667,6 +667,8 @@ record-button-label = Enregistrar vòstra votz
 share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
 keep-track-profile = Seguissètz vòstra progression en crear un perfil
 login-to-get-started = Connectatz-vos o marcatz-vos per començar
+target-segment-first-card = Contribuissètz al primièr segment vòstre
+target-segment-first-banner = Ajudatz a crear lo primièr segment cibla de Common Voice en { $locale }
 target-segment-add-voice = Donatz vòstra votz
 target-segment-learn-more = Ne saber mai
 
