@@ -437,7 +437,7 @@ class ContributionPage extends React.Component<Props, State> {
                     const isActive = i === activeSentenceIndex;
                     return (
                       <div
-                        key={i}
+                        key={sentence ? sentence.text : i}
                         className={
                           'card card-dimensions ' + (isActive ? '' : 'inactive')
                         }
@@ -453,8 +453,8 @@ class ContributionPage extends React.Component<Props, State> {
                           opacity: i < activeSentenceIndex ? 0 : 1,
                         }}>
                         <div style={{ margin: 'auto', width: '100%' }}>
-                          {sentence.text}
-                          {sentence.taxonomy ? (
+                          {sentence?.text}
+                          {sentence?.taxonomy ? (
                             <div className="sentence-taxonomy">
                               <Localized id="target-segment-first-card">
                                 <div />

@@ -2,9 +2,9 @@ import { Action as ReduxAction, Dispatch } from 'redux';
 const contributableLocales = require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 import { User } from './user';
-import { Clip, Sentence } from 'common';
+import { Clip } from 'common';
 
-const CACHE_SET_COUNT = 10;
+const MIN_CACHE_SIZE = 10;
 
 export namespace Clips {
   export interface State {
@@ -15,7 +15,6 @@ export namespace Clips {
       showFirstStreakToast: boolean;
       hasEarnedSessionToast: boolean;
       challengeEnded: boolean;
-      next?: Clip;
     };
   }
 
@@ -64,13 +63,14 @@ export namespace Clips {
       getState: () => StateTree
     ) => {
       const state = getState();
-      if (localeClips(state).clips.length > CACHE_SET_COUNT) {
+      if (localeClips(state).clips.length > MIN_CACHE_SIZE) {
         return;
       }
 
       try {
         dispatch({ type: ActionType.LOAD });
-        const clips = await state.api.fetchRandomClips(CACHE_SET_COUNT);
+        const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE - localeClips(state).clips.length);
+
         dispatch({
           type: ActionType.REFILL_CACHE,
           clips: clips.map(clip => {
@@ -106,7 +106,8 @@ export namespace Clips {
       getState: () => StateTree
     ) => {
       const state = getState();
-      const id = clipId || localeClips(state).next.id;
+      const id = clipId;
+
       dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
       const {
         showFirstContributionToast,
@@ -146,7 +147,6 @@ export namespace Clips {
         ...state,
         [locale]: {
           clips: [],
-          next: null,
           isLoading: false,
           showFirstContributionToast: false,
           showFirstStreakToast: false,
@@ -175,28 +175,28 @@ export namespace Clips {
             ? localeState.clips.concat(action.clips)
             : localeState.clips
           : [];
-        const next = localeState.next || clips.shift();
+
+        const filtered = clips.filter(
+          (clip1, i) =>
+            clips.findIndex(clip2 => clip2.id === clip1.id) === i
+        );
+
         return {
           ...state,
           [locale]: {
-            clips: clips.filter(
-              (clip1, i) =>
-                clips.findIndex(clip2 => clip2.id === clip1.id) === i
-            ),
+            clips: filtered,
             isLoading: false,
             hasEarnedSessionToast: false,
             showFirstContributionToast: false,
             showFirstStreakToast: false,
-            challengeEnded: true,
-            next,
+            challengeEnded: true
           },
         };
       }
 
       case ActionType.REMOVE_CLIP: {
         const clips = localeState.clips.filter(c => c.id !== action.clipId);
-        const next = clips.pop();
-        return { ...state, [locale]: { ...localeState, clips, next } };
+        return { ...state, [locale]: { ...localeState, clips} };
       }
 
       case ActionType.ACHIEVEMENT: {
