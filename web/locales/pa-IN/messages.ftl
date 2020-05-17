@@ -309,6 +309,7 @@ settings = ਸੈਟਿੰਗਾਂ
 edit-profile = ਪਰੋਫਾਈਲ ਸੋਧੋ
 profile-create-success = ਕਾਮਯਾਬ, ਪਰੋਫਾਈਲ ਬਣਾਇਆ!
 profile-close = ਬੰਦ ਕਰੋ
+thanks-for-account = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਲਈ ਧੰਨਵਾਦ ਹੈ, ਆਓ ਹੁਣ ਤੁਹਾਡਾ ਪਰੋਫਾਈਲ ਬਣਾਈਏ।
 why-demographic = ਇਸ ਦੀ ਪਰਵਾਹ ਕਿਓ?
 accept-privacy = ਮੈਂ ਤੁਹਾਡੇ ਨਾਲ ਇਸ ਜਾਣਕਾਰੀ ਨੂੰ ਸੰਭਾਲਣ ਦੇ ਨਾਲ ਠੀਕ ਹਾਂ ਜਿਵੇਂ ਤੁਸੀਂ ਮੋਜ਼ੀਲਾ ਦੀ <privacyLink>ਗੋਪਨੀਯਤਾ ਨੀਤੀ</privacyLink>
 accept-privacy-title = ਪਰਦੇਦਾਰੀ ਨੀਤੀ
