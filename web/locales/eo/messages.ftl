@@ -542,15 +542,27 @@ download-language = Elŝuti { $language }
 validated-hours = Validigitaj horoj
 recorded-hours = Registritaj horoj
 whats-inside = Kio estas ene de la datumbazo de Common Voice?
+dataset-description-hours =
+    Ĉiu elemento en la datumaro konsistas el dosiero MP3 kaj la respektivan tekstan dosieron. Multaj el la <b>{ $total }</b> registritaj horoj en la datumaro ankaŭ inkluzivas demografiajn datumojn, kiel aĝon, sekson kaj akcenton, kiuj povus helpi trejni la precizecon de parolrekoniloj.
+    
+    La datumaro nunteme konsistas el <b>{ $valid }</b> validigitaj horoj en <b>{ $languages }</b> lingvoj, sed ni daŭre aldonas pli da voĉoj kaj lingvoj. Rigardu nian <languagesLink>paĝon pri ligvoj</languagesLink> por peti novan lingvon aŭ komenci kontribui.
+want-dataset-update = Ĉu vi ŝatus scii kiam ni liveras novan version de la datumaro de Common Voice? Abonu nian novaĵleteron.
 subscribe = Aboni
 get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
+deepspeech-info = La datumaro de Common Voice iras kune kun la malfermitkoda parolrekonilo de Mozilla, Deep Speech, kiun vi povas uzi por konstrui parolkapablajn programojn. Vizitu nian <githubLink>superrigardon de Gihub</githubLink> aŭ aliĝu al <discourseLink>DeepSpeech Discourse</discourseLink> por scii kie kaj kiel komenci.
+common-voice-info-new = Ĉu vi havas demandojn rilate al Common Voice? Ĉu ideojn por plibonigoj aŭ komentoj pri specifa lingvo? Venu al nia <discourseLink>forumo de Discourse</discourseLink> kaj rakontu tion al ni.
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
 data-other-voxforge-description = VoxForge estis kreita kun la celo kolekti transskribitaj paroladoj, tiel ke ili estos uzeblaj de liberaj kaj malfermitkodaj parolrekoniloj.
 data-other-tatoeba-description = Tatoeba estas granda datumbazo de frazoj, tradukoj kaj voĉaj registroj, por esti uzata dum lernado de lingvoj. Tiu ĉi elŝuto enhavas parolatan anglan, kiun registris ilia komunumo.
+your-feedback = Ĉu vi havas ideojn, kiel plibonigi la datumaron de Common Voice? Rankontu al ni en Discourse
+go-discourse = Iri al Discourse
+missing-language = Ĉu via lingvo ne aperas en la datumaro? Por peti novan lingvon iru al la paĝo pri lingvoj.
+go-languages-page = Iri al la paĝo pri lingvoj
+ready-to-validate = Ĉu vi pretas validigi frazojn?
 more = Pli
 close = Fermi
 download = Elŝuti
@@ -588,6 +600,7 @@ other-language = Alia lingvo
 ## Languages Overview
 
 language-section-in-progress = Progresanta
+language-section-in-progress-new-description = Tiu ĉi lingvoj estas nuntempe preparataj de iliaj komunumoj. La progresindikiloj montras la nunan staton  de <localizationGlossaryLink>traduko de la retejo</localizationGlossaryLink> kaj <sentenceCollectionGlossaryLink>kolekto da frazoj</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanĉita
 languages-show-more = Vidi pli
 languages-show-less = Vidi malpli
@@ -619,6 +632,7 @@ contribute-more =
 record-cta = Komenci registron
 record-platform-not-supported = Bedaŭrinde via sistemo ne estas subtenata.
 record-platform-not-supported-desktop = En komputiloj sribotablaj, vi povas elŝuti la lastajn:
+record-platform-not-supported-ios-non-safari = En iOS bonvolu daŭrigi per Safari por aktivigi sonregistradon…
 record-must-allow-microphone = Vi devas permesi aliron al la mikrofono.
 record-no-mic-found = Neniu mikrofono trovita.
 record-error-too-short = La registro estis tro mallonga.
