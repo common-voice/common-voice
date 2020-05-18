@@ -478,6 +478,7 @@ hours-validated-explanation = La nombro de horoj de voĉregistroj kiuj estis val
 sst = Voĉrekono (Speech-to-text, STT)
 sst-explanation = Voĉrekoniloj (STT) transformas voĉon en tekston.
 de-identified = Anonimigita
+de-identified-explanation = La procezo kiu permesas apartigi la personajn informojn de la kontribuantoj kaj iliajn kontribuojn, dum oni pakas la voĉregistrojn en la datumbazo por elŝuto.
 
 ## NotFound
 
@@ -515,6 +516,13 @@ review-delete-recordings = Forigi miajn registrojn
 
 ## Datasets Page
 
+datasets-headline = Ni konstruas malfermitkodan, plurlingvan datumaron de voĉoj, kiun iu ajn povas uzi por trejni parolkapablajn programojn.
+datasets-positioning =
+    Ni pensas ke grandaj kaj publike haveblaj datumaroj de voĉoj favoros novaĵkreemon kaj sanan komercan konkurecon en la parolaj teknologioj bazitaj sur automata lernado.
+    
+    La plurlingva datumaro de Common Voice estas jam la plej granda publike havebla voĉa datumaro, sed ne la ununura.
+    
+    Tiu ĉi paĝo listigas aliajn malfermitkodajn voĉajn datumarojn kaj, dum la evoluo de Common Voice, ankaŭ niajn estontajn ĝisdatigojn.
 language = Lingvo
 # File size in gigabytes
 size = Grando
@@ -529,9 +537,11 @@ why-email = <b>Kial ni petas retpoŝton</b> Ni povus bezoni kontakti vin en la e
 confirm-size = Vi pretas komenci la elŝuton de <b>{ $size }</b>
 size-gigabyte = GO
 size-megabyte = MO
+confirm-no-identify = <b>Vi akceptas</b> ne klopodi eltiri la identecon de parolantoj en la datumaro de Common Voice
 download-language = Elŝuti { $language }
 validated-hours = Validigitaj horoj
 recorded-hours = Registritaj horoj
+whats-inside = Kio estas ene de la datumbazo de Common Voice?
 subscribe = Aboni
 get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
