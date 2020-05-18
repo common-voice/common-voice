@@ -790,3 +790,4 @@ welcome-staff = { $company } のスタッフを歓迎します！
 help-contribute = Common Voice プロファイルを作成し、音声を提供することにより、多様なオープンソースデータセットの構築を支援できます。
 login-company = ログイン / { $company } メールでアカウント登録
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
+read-more-about = 詳しくは Common Voice の概要ページをご覧ください
