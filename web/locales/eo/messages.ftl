@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Jes, bonvolu sendi retpoŝtajn mesaĝojn al mi. Mi ŝatus havi aktualajn informojn pri la projekto Common Voice
-stayintouch = Ĉe Mozilla ni konstruas komunumon pri voĉaj teknologioj. Ni ŝatus resti en kontakto kun vi pri ĝisdatigoj, novaj fontojn kaj ankaŭ por scii pli pri  vi uzo de tiuj ĉi datumoj.
+stayintouch = Ĉe Mozilla ni konstruas komunumon pri voĉaj teknologioj. Ni ŝatus resti en kontakto kun vi pri ĝisdatigoj, novaj fontoj kaj ankaŭ por scii pli pri  via uzo de tiuj ĉi datumoj.
 privacy-info = Ni promesas zorge pritrakti  viajn informojn. Pli da informo en nia <privacyLink>politiko pri privateco</privacyLink>.
 return-to-cv = Reiri al Common Voice
 email-input =
@@ -64,7 +64,6 @@ ga-IE = Irlanda
 gl = Galega
 ha = Haŭsa
 he = Hebrea
-hi-IN = Hindia
 hr = Kroata
 hsb = Suprasoraba
 hu = Hungara
@@ -233,7 +232,6 @@ whats-public = Kiuj informoj estas publikaj?
 email-not-public = Ni ne publikigos vian retpoŝtadreson.
 recordings-and-locale-public = La nombro de voĉregistroj kaj la lingvoj, kun kiuj vi kunlaboras, estos publikaj.
 username-optin-public = Vi povas elekti ĉu publikigi aŭ anonimigi vian nomon de uzanto.
-demographic-deidentified = La nedevigaj demografiaj datumoj (ekzemple aĝo, sekso, lingvo, kaj elparolmaniero) estas malligitaj de viaj senditaj voĉaj datumoj, kaj estos neniam publikigita en via profilo.
 username-email-not-demographic = Via nomo de uzanto kaj retpoŝta adreso ne esos asociitaj kun la publikigitaj datumoj.
 
 ## Speak & Listen Shortcuts
@@ -545,7 +543,6 @@ contribute-more =
 record-cta = Komenci registron
 record-platform-not-supported = Bedaŭrinde via sistemo ne estas subtenata.
 record-platform-not-supported-desktop = En komputiloj sribotablaj, vi povas elŝuti la lastajn:
-record-platform-not-supported-ios = Uzantoj de <bold>iOS</bold> povas elŝuti nian senpagan programon:
 record-must-allow-microphone = Vi devas permesi aliron al la mikrofono.
 record-no-mic-found = Neniu mikrofono trovita.
 record-error-too-short = La registro estis tro mallonga.
@@ -571,7 +568,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> ĉu ili ĝuste diris l
 listen-again-instruction = Bonega laboro!<playIcon></playIcon> Aŭskultu denove kiam vi pretos
 listen-3rd-time-instruction = Restas nur du, daŭrigu tiel!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Lasta!
-nothing-to-validate = Ni ne havas ion ajn por validigi en tiu ĉi lingvo, helpu nin aldoni kelkajn registrojn al la atendovico.
 record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
 login-to-get-started = Komencu seancon aŭ enskribiĝu por ekuzi
