@@ -387,6 +387,8 @@ faq-why-different-speakers-a =
     La plejmulto da voĉaj datumbazoj estas konstruitaj kun superreprezento de kelkaj demografiaj grupoj, kiu favoras  <articleLink>virojn kaj mezan klason</articleLink>. Normale subreprezentitaj akĉentoj kaj dialektoj en trejnaj datumaroj estas kutime asociitaj kun homgrupoj, kiuj jam estas eksterigitaj. Cetere, multaj maŝinoj penas kompeni virinajn voĉojn.
     Tial en nia voĉa datumbazo ni volas diversecon!
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
+faq-why-my-lang-new-a = Mozilla ne elektas aŭ favoras iun ajn lingvon super alia. Male, Common Voice estas nur pelata de komunumoj, sed bezonatas <multilangLink>pluraj paŝoj por aldoni novan lingvon</ multilangLink> kaj komenci kolekti voĉregistrojn. Unue, la retejo de Common devas esti tradukita, por permesi al la membroj de la komunumoj sperti la kontribuadon en siaj propraj lingvoj. Poste, ni bezonas grandan kolekton de frazoj liberaj je kopirajto, kiuj estos laŭtlegitaj.  Kiam tiuj du kondiĉoj estos plenumitaj, la lingvoj estos "lanĉitaj" en Common Voice por ke homoj komencu registri siajn voĉojn kaj revizi la voĉregistrojn de aliaj. Se vi volas helpi lanĉi novan lingvon, iru al nia <sentenceCollectorLink>iloj por kolekti frazojn</ phraseCollectorLink> por komenci.
+faq-what-quality-q = Kiu nivelo de sonkvalito estas postulata por la voĉaregistroj en la datumaro?
 faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
 faq-where-src-from-2-q = El kie venas la fonta teksto?
 faq-why-account-q = Kial mi devus krei konton?
