@@ -399,6 +399,8 @@ faq-where-src-from-2-a =
     Nia fonta teksto estas miksaĵo de individuaj kontribuoj, kaj fontoj el publike haveblaj tekstoj.
     
     Vi povas vidi niajn originalajn frazojn en tiu ĉi <githubLink>dosierujo de GitHub</githubLink>.
+faq-why-not-ask-read-q = Kial vi ne petas al homoj legi librojn aŭ Vikipediajn artikolojn en malsamaj lingvoj?
+faq-why-not-ask-read-a = Por igi la datumaron de Common Voice kiel eble plej utila ni decidis akcepti nur tekstojn regataj de pemesiloj de Creative Commons (CC0). Uzo de la normo CC0 igas la serĉon kaj kolekton de tekstoj pli malfacila, sed permesas al iu ajn uzi la voĉregistrojn en la datumaro sen ia ajn limigo aŭ permeso de Mozilla. Nia celo estas havi kiel eble plej utilan datumaron por ĉiuj, kiun povos uzi esploristoj, universitatoj, novaj entrepenoj, estraroj, socicelaj organizoj kaj neprofesiuloj.
 faq-why-account-q = Kial mi devus krei konton?
 faq-is-account-public-q = Ĉu la informoj de mia konto estas publikaj?
 faq-how-privacy-q = Kiel vi certigas anonimecon kaj privatecon de la personoj, kiuj donacis siajn voĉojn?
