@@ -602,6 +602,7 @@ other-language = Alia lingvo
 language-section-in-progress = Progresanta
 language-section-in-progress-new-description = Tiu ĉi lingvoj estas nuntempe preparataj de iliaj komunumoj. La progresindikiloj montras la nunan staton  de <localizationGlossaryLink>traduko de la retejo</localizationGlossaryLink> kaj <sentenceCollectionGlossaryLink>kolekto da frazoj</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanĉita
+language-section-launched-description = Por ĉi tiuj lanĉitaj lingvoj la retejo estis sukcese <localizationGlossaryLink>tradukita</localizationGlossaryLink>, kaj la lingvo havas sufiĉe da <sentenceCollectionGlossaryLink>frazoj kolektitaj</sentenceCollectionGlossaryLink> kiu permesas daŭrajn <speakLink>parolajn</speakLink> kaj <listenLink>aŭskultaj</listenLink>   kontribuojn.
 languages-show-more = Vidi pli
 languages-show-less = Vidi malpli
 language-meter-in-progress = Progreso
@@ -731,6 +732,8 @@ validated-clips = Validigitaj voĉregistroj
 total-approved = Kvanto de aproboj
 overall-accuracy = Ĝenerala precizeco
 set-visibility = Difini mian videblecon
+visibility-explainer = Tiu ĉi agordo regas la videblecon en la rango de kontribuantoj. Se ĝi estas kaŝita, via progreso estos privata. Tio signifas ke via bildo, nomo de uzanto kaj progreso ne aperos en la rango de kontribuantoj. Notu ke bezonatas pli malpli { $minutes } minutoj por montri la lastajn ŝanĝojn.
+visibility-overlay-note = Noto: se vi elektas 'Videbla', tiu ĉi agordo povas esti ŝanĝita en la <profileLink>paĝo de profilo</profileLink>
 show-ranking = Montri mian pozicion
 
 ## Custom Goals
