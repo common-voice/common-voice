@@ -383,6 +383,9 @@ faq-is-goal-assistant-a = La celo de la datumaro de Common Voice estas permesi a
 faq-do-want-native-q = Mi ne estas denaska parolanto kaj mi parolas kun akĉento, ĉu vi tamen volas mian voĉon?
 faq-do-want-native-a = Jes, ni speciale volas vian voĉon! Parto de la celo de Common Voice estas kolekti kiel eble plej multe da malsamaj akĉentoj, por ke voĉrekono funkciu same bone por ĉiuj. Ĉi tio signifas, ke kontribuoj de nedenaskaj parolantoj estas aparte gravaj.
 faq-why-different-speakers-q = Kial vi bezonas tiom da malsamaj parolantoj por ĉiu lingvo?
+faq-why-different-speakers-a =
+    La plejmulto da voĉaj datumbazoj estas konstruitaj kun superreprezento de kelkaj demografiaj grupoj, kiu favoras  <articleLink>virojn kaj mezan klason</articleLink>. Normale subreprezentitaj akĉentoj kaj dialektoj en trejnaj datumaroj estas kutime asociitaj kun homgrupoj, kiuj jam estas eksterigitaj. Cetere, multaj maŝinoj penas kompeni virinajn voĉojn.
+    Tial en nia voĉa datumbazo ni volas diversecon!
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
 faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
 faq-where-src-from-2-q = El kie venas la fonta teksto?
