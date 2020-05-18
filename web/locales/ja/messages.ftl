@@ -655,10 +655,14 @@ listen-3rd-time-instruction = ２つ終わりました、続けてがんばっ�
 listen-last-time-instruction = <playIcon></playIcon>最後の一つ！
 listen-empty-state = この言語で検証するためのクリップが不足しています...
 speak-empty-state = この言語で録音するための文章が不足しています...
+speak-empty-state-cta = 文章の収集に協力する
 record-button-label = あなたの声を録音する
 share-title-new = 音声を集める<bold>手伝い</bold>をしてください
 keep-track-profile = プロフィールで進捗状況を追跡する
 login-to-get-started = ログインまたはアカウント登録して開始
+target-segment-first-card = あなたは私たちの最初の目標セグメントに貢献しています
+target-segment-first-banner = { $locale } における Common Voice の最初の目標セグメント作成にご協力ください
+target-segment-learn-more = 詳細情報
 
 ## Reporting
 
@@ -748,6 +752,7 @@ which-goal-type = 話す、聴く、またはその両方をしたいですか�
 receiving-emails-info = 現在、目標リマインダーや Common Voice に関する進捗の更新、ニュースレターなどのメールを受信するように設定されています。
 not-receiving-emails-info = 現在、目標リマインダーや Common Voiceに関する進捗の更新とニュースレターなどのメールを <bold>受信しない</bold> ように設定されています。
 n-clips = { NUMBER($count) } クリップ
+help-share-goal = より多くの音声を集めて、目標を共有しましょう
 confirm-goal = 目標を確認
 goal-interval-weekly = 毎週
 share-goal-type-speak = 話す
