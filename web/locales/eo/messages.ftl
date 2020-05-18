@@ -588,6 +588,8 @@ record-again-instruction = Bonege!<recordIcon></recordIcon>Faru vian venontan vo
 record-again-instruction2 = Daŭrigu tiel, registru denove <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Lasta!
 review-tooltip = Revizii kaj refari voĉregistrojn dum vi progresas
+share-clip = Kundividi vian voĉregistron
+share-common-voice = Kundividi Common Voice
 review-instruction = Revizii kaj refari voĉregistrojn se bezonatas
 record-submit-tooltip = { $actionType } sendi kiam vi pretas
 clips-uploaded = Alŝutitaj voĉregistroj
@@ -600,9 +602,17 @@ listen-instruction = { $actionType }<playIcon></playIcon> ĉu ili ĝuste diris l
 listen-again-instruction = Bonega laboro!<playIcon></playIcon> Aŭskultu denove kiam vi pretos
 listen-3rd-time-instruction = Restas nur du, daŭrigu tiel!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Lasta!
+listen-empty-state = Ni ne plu havas validigeblajn voĉregistrojn en tiu ĉi lingvo...
+speak-empty-state = Ni ne plu havas frazojn por registri en tiu ĉi lingvo...
+speak-empty-state-cta = Proponi frazojn
 record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
+keep-track-profile = Akompanu vian progreson per profilo
 login-to-get-started = Komencu seancon aŭ enskribiĝu por ekuzi
+target-segment-first-card = Vi kontribuas a la nia unua cela segmento
+target-segment-first-banner = Helpu krei la unuan celan segmenton de Common Voice en { $locale }
+target-segment-add-voice = Aldoni vian voĉon
+target-segment-learn-more = Pli da informo
 
 ## Reporting
 
