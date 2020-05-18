@@ -380,6 +380,7 @@ faq-what-cv-and-deepspeech-q = Kiu estas la malsamo inter Common Voice kaj Deep 
 faq-what-cv-and-deepspeech-a = La datumaro de Common Voice kompletigas la malfermitkodan parolrekonilon de Mozilla: Deep Speech. La unua versio de Deep Speech estis eldonita en novembro de 2017 kaj ĝi progresas senhalte ekde tiam. Kune kun la datumaro de Common Voice ni pensas ke malfermitkodaj parolrekonaj teknologio devus esti haveblaj de ĉiuj. Ni esperas ke tiuj ĉi teknologio permesos al programistoj konstrui ondon de novaj produktoj kaj servoj.
 faq-is-goal-assistant-q = Ĉu la celo de Common Voice estas konstrui parolkapablan helpanton?
 faq-is-goal-assistant-a = La celo de la datumaro de Common Voice estas permesi al iu ajn en la mondo konstrui parolrekonilon, parolantkrekonilon aŭ iun ajn tipo de programo, kiu bezonas voĉajn datumojn. Parolkapabla helpanto estas unu el tiuj pluraj tipo de programoj, kiujn vi povus konstrui per la datumaro.
+faq-do-want-native-q = Mi estas ne-denaska parolanto kaj mi parolas kun akĉento, ĉu vi tamen volas mian voĉon?
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
 faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
 faq-where-src-from-2-q = El kie venas la fonta teksto?
