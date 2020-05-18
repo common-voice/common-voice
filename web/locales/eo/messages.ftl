@@ -419,6 +419,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kial Common Voice?
+about-subtitle = Common Voice estas parto de iniciato de Mozilla por helpi instrui al maŝinoj, kiel homoj fakte parolas. Kun kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
+about-header-description =
+    Ambaŭ projektoj estas parto de nia strebo fermi la ciferecan breĉon inter lingvoj . Parolrekonaj teknologioj alportas homan dimension al niaj aparatoj, sed programistoj bezonas grandengan kvanto da voĉaj datumoj por konstrui iln. Nuntempe, la plejmulto de tiuj datumoj estas multekosta kaj privataj.
+    Ni volas igi voĉajn datumojn liberaj kaj publike haveblaj kaj certi ke tiuj datumoj reprezentas la diversecon de realaj personoj. Kune ni povas plibonigi parolrekonon por ĉiuj.
 how-does-it-work-title = Kiel ĝi funkcias?
 about-speak = Paroli
 about-listen-queue = Vico de aŭskulto
@@ -727,8 +731,11 @@ share-goal = Kundividi mian celon
 
 ## Profile Delete
 
+delete-q = Ĉu vi ankaŭ ŝatus peti la forigon de viaj voĉregistroj, aŭ ĉu vi preferas konservi ilin en la datumaro de Common Voice?
 keep = Gardi
 remove = Forigi
+keep-info = Viaj anonimaj voĉregistroj restos en la datumaro de Common Voice. Post la forigo de via profilo vi ne plu povos peti la forigon de viaj voĉregistroj el la datumaro
+remove-info = Ni revizios vian peton forigi viajn voĉregistrojn el la datumaro. Se via peto estas aprobita, ni kontaktos tiujn, kiuj elŝutis la datumaron kaj petos al ili agi same.
 why-delete-recordings =
     La voĉregistroj de Common Voice estas uzitaj de akademioj, etaj entreprenoj kaj personoj entuziasmantaj de parolrekono, por trajni kaj disvolvi rimedojn kiel ekzemple voĉajn modelojn.
     
@@ -738,6 +745,7 @@ profile-form-delete = Forigi profilon
 ## Landing
 
 welcome-staff = Estu bonvenaj, laboristoj de { $company }!
+help-contribute = Vi povas helpi konstrui diversan, malfermitkodan datumaron per kreado de profilo de Common Voice kaj kontribuo de via voĉo.
 login-company = Komencu seancon / registriĝu per retpoŝta adreso de { $company }
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
 read-more-about = Pli da informo en la paĝo: Pri Common Voice
