@@ -30,4 +30,5 @@ export default Object.freeze({
   NOTFOUND: '/not-found',
   LANGUAGES: '/languages',
   ABOUT: '/about',
+  DEMO: '/demo',
 });
