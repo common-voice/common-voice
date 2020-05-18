@@ -662,6 +662,7 @@ keep-track-profile = プロフィールで進捗状況を追跡する
 login-to-get-started = ログインまたはアカウント登録して開始
 target-segment-first-card = あなたは私たちの最初の目標セグメントに貢献しています
 target-segment-first-banner = { $locale } における Common Voice の最初の目標セグメント作成にご協力ください
+target-segment-add-voice = あなたの声を追加
 target-segment-learn-more = 詳細情報
 
 ## Reporting
@@ -755,9 +756,15 @@ n-clips = { NUMBER($count) } クリップ
 help-share-goal = より多くの音声を集めて、目標を共有しましょう
 confirm-goal = 目標を確認
 goal-interval-weekly = 毎週
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = 「{ $type }」の毎日の目標 { $count } クリップを共有する
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = 「{ $type }」の毎週の目標 { $count } クリップを共有する
 share-goal-type-speak = 話す
 share-goal-type-listen = 聴く
 share-goal-type-both = 話すと聴く
+# LINK will be replaced with the current URL
+goal-share-text = #CommonVoice に寄贈する音声の個人目標を作成しました。あなたも参加して、機械に人の話し方を教えるのを手伝ってください { $link }
 weekly-goal-created = 毎週の目標が作成されました
 daily-goal-created = 毎日の目標が作成されました
 track-progress = ここと統計ページで進捗状況を追跡します。
