@@ -424,10 +424,23 @@ about-header-description =
     Ambaŭ projektoj estas parto de nia strebo fermi la ciferecan breĉon inter lingvoj . Parolrekonaj teknologioj alportas homan dimension al niaj aparatoj, sed programistoj bezonas grandengan kvanto da voĉaj datumoj por konstrui iln. Nuntempe, la plejmulto de tiuj datumoj estas multekosta kaj privataj.
     Ni volas igi voĉajn datumojn liberaj kaj publike haveblaj kaj certi ke tiuj datumoj reprezentas la diversecon de realaj personoj. Kune ni povas plibonigi parolrekonon por ĉiuj.
 how-does-it-work-title = Kiel ĝi funkcias?
+how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malfermitkodan voĉan datumaron. Donacu vian voĉon, validigu la precizecon de la voĉregistroj de aliaj personoj, plibonigu la datumaron por ĉiuj.
 about-speak = Paroli
+about-speak-text = Kontribuantoj laŭtlegas el kolekto de donacitaj frazoj kaj registras siajn voĉojn.
 about-listen-queue = Vico de aŭskulto
+about-listen-queue-text = Voĉregistroj eniras vicon, kiu pretigas ilin por aŭskultado.
 about-listen = Aŭskulti
+about-listen-text = Uzantoj validigas la precizecon de la voĉregistroj, kontrolante ĉu la parolanto legis la frazon korekte.
+about-is-it-valid = Ĉu la voĉregistro validas?
+about-is-it-valid-text = Voĉregistro estas markita kiel "valida" kiam uzanto voĉdonas jese por ĝi.
+about-yes-votes = ≥ 2 jesaj voĉdonoj
+about-yes-votes-text = Por eniri la datumaron de Common Voice, voĉregistro devas esti validigita de almenaŭ du malsamaj uzantoj.
+about-no-votes = ≥ 2 neaj voĉdonoj
+about-no-votes-text = Kiam uzanto rifuzas voĉregistron, ĝi reiras al la vico. Se ĝi estas rifuzita duan fojon, la voĉregistro iras al la tombejo de voĉregistroj.
+about-dataset-new = Datumaro de Common Voice
+about-dataset-new-text = La datumaro de Common Voice enhavas centojn da miloj da voĉregistroj, kiuj helpas programistojn konstrui parolrekonajn ilojn.
 about-clip-graveyard = Tombejo de voĉregistroj
+about-clip-graveyard-text = La tombejo de voĉregistroj konsistas el voĉregistroj kiuj ne sukcesis eniri la datumaron de Common Voice. Same kiel la datumaro, la tombejo de voĉregistroj estas elŝutebla.
 about-partners = Asociitoj
 about-become-a-partner = Iĝi asociito
 about-get-involved = Partopreni
