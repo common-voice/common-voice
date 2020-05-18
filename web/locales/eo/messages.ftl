@@ -235,6 +235,7 @@ whats-public = Kiuj informoj estas publikaj?
 email-not-public = Ni ne publikigos vian retpoŝtadreson.
 recordings-and-locale-public = La nombro de voĉregistroj kaj la lingvoj, kun kiuj vi kunlaboras, estos publikaj.
 username-optin-public = Vi povas elekti ĉu publikigi aŭ anonimigi vian nomon de uzanto.
+demographic-deidentified-clarity = Laŭvole senditaj demografiaj informoj (ekzemple aĝo, sekso, lingvo kaj akĉento) neniam estos publikaj en via profilo, kaj ili ne estos ligitaj al via konto en la datumaro. Unuopaj voĉregistroj estos asociitaj kun demografiaj datumoj, por analizi pri precize. Ezkemplo: esploristo povus voli alĝustigi sian trejnmodelon al specifa demografia segmento.
 username-email-not-demographic = Via nomo de uzanto kaj retpoŝta adreso ne esos asociitaj kun la publikigitaj datumoj.
 
 ## Speak & Listen Shortcuts
