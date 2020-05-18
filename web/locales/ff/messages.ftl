@@ -174,6 +174,10 @@ wall-of-text-more-mobile =
     Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
     ɗum ina ñoƴƴa pental. Ɗuum noon min ummini eɓɓoore Common Voice, eɓɓoore walloore waɗde daande
     heftinirde udditaniinde kala neɗɗo.
+wall-of-text-second =
+    Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
+    ɗum ina ñoƴƴa pental. Ɗuum noon min ummini Common Voice, eɓɓoore walloore uddit-de heftinirde daande
+    mo kala neɗɗo waawi heɓde.
 show-wall-of-text = Jokku taro
 help-us-title = Wallu min moƴƴinde koŋnguɗi!
 help-us-explain = Ɓoɗɗu tarde, heɗaade e haalan-min: Ɗe kaalii koŋngol les ɗoo haa feewi?
@@ -213,6 +217,7 @@ email-subscription-title-new = Winndito e ɓatakeeji Common Voice , ciiftine faa
 
 benefits = Ɓure
 rich-data = Alɗin keɓe naatnuɗaa ɗo mbaawka maa haaɗi ndokkaa keɓe nguurndam aadee ɗe cuurtaaka. Min momtat heftinirde kala keɓe nguurndam aadee hade min waɗde ɗum e peñcu.
+improve-audio = Humpito heftinirde ina ƴellita keɓe ojoo kuutoraaɗe e peewgol heftinirde daande.
 compare-progress = Yiy hol no ɓeydagol maa yerondirta e ngol wallitooɓe e nder winndere ndee fof.
 
 ## What's public
