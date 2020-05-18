@@ -219,11 +219,13 @@ benefits = Ɓure
 rich-data = Alɗin keɓe naatnuɗaa ɗo mbaawka maa haaɗi ndokkaa keɓe nguurndam aadee ɗe cuurtaaka. Min momtat heftinirde kala keɓe nguurndam aadee hade min waɗde ɗum e peñcu.
 improve-audio = Humpito heftinirde ina ƴellita keɓe ojoo kuutoraaɗe e peewgol heftinirde daande.
 compare-progress = Yiy hol no ɓeydagol maa yerondirta e ngol wallitooɓe e nder winndere ndee fof.
+join-newsletter = So a welaama aɗa waawi yantude e doggol iimeeluuji amen ngam kesɗitine e kabaruuji kesi baɗte eɓɓoore ndee.
 
 ## What's public
 
 whats-public = Hol ko woni peeñcu?
 email-not-public = Min mbaɗoytaa iimeel maa peeñcu.
+recordings-and-locale-public = Nanngitte ɗee no poti e ɗemɗe ɗe mballittaa maa ngon e peñcu.
 username-optin-public = Aɗa waawi suɓaade waɗde innde kuutoro maa e peñcu walla cuuɗiiɗo.
 username-email-not-demographic = Innde kuutoro maa e iimeel maa ndenndinoytaake e keɓe bayyinaaɗe ɗee.
 
