@@ -364,7 +364,10 @@ change-email-setings = Ŝanĝu vian retpoŝton en Agordoj, Idento de seanco
 
 faq-title = Oftaj demandoj
 faq-what-cv-q = Kio estas Common Voice?
-faq-what-cv-a = Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Common Voice estas parto de iniciato de Mozilla, kiu celas plibonigi parolrekonajn teknologiojn kaj igi ilin alireblaj de ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kaj ĝi permesas al iu ajn rapide kaj facile trejni parolrekonajn programojn en, eventuale, ĉiuj lingvoj.
+faq-what-cv-a =
+    Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Common Voice estas parto de iniciato de Mozilla, kiu celas plibonigi parolrekonajn teknologiojn kaj igi ilin alireblaj por ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kaj ĝi permesas al iu ajn rapide kaj facile trejni parolrekonajn programojn en, eventuale, ĉiuj lingvoj.
+    
+    Ni ne nur kolektas voĉajn specimenojn en vaste parolataj lingvoj, sed ankaŭ en tiuj, kiuj havas pli etajn komunumojn de parolantoj. Publikigo de diversa datumaro de voĉoj helpos programistojn, entreprenistojn kaj komunumojn mem etigi la breĉon. Kune kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
 faq-why-important-q = Kial ĝi gravas?
 faq-why-important-a =
     Parolado estas ofte la plej natura maniero komunikiĝi kun la aliaj, kaj voĉaj teknologioj alportas tiun konvenecon al niaj komputiloj kaj poŝaparatoj. Ni volas doni al programistoj la rimedojn kontrui ravajn parorekonajn programojn, kiel samtempajn tradukantojn kaj parolkapablajn helpantojn. Tamen, nuntempe la plimulto de la voĉaj datumoj bezonataj por krei tiajn programojn estas multekosta kaj mallibera. Ni esperas ke la datumaro de Common Voice donos al la programistoj tion, kion ili bezonas por novaĵkrei kaj igi parolajn tekcnologiojn haveblaj en siaj propraj lingvoj.
@@ -419,7 +422,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kial Common Voice?
-about-subtitle = Common Voice estas parto de iniciato de Mozilla por helpi instrui al maŝinoj, kiel homoj fakte parolas. Kun kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
+about-subtitle = Common Voice estas parto de iniciato de Mozilla por helpi instrui al maŝinoj, kiel homoj fakte parolas. Kune kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
 about-header-description =
     Ambaŭ projektoj estas parto de nia strebo fermi la ciferecan breĉon inter lingvoj . Parolrekonaj teknologioj alportas homan dimension al niaj aparatoj, sed programistoj bezonas grandengan kvanto da voĉaj datumoj por konstrui iln. Nuntempe, la plejmulto de tiuj datumoj estas multekosta kaj privataj.
     Ni volas igi voĉajn datumojn liberaj kaj publike haveblaj kaj certi ke tiuj datumoj reprezentas la diversecon de realaj personoj. Kune ni povas plibonigi parolrekonon por ĉiuj.
@@ -471,6 +474,7 @@ localization-explanation = Temas pri nia procezo traduki kaj adapti la enhavon a
 sentence-collection = Kolekto de frazoj
 sentence-collection-explanation = Kolekti frazojn el la publika havaĵo, aŭ skribi novajn, kiuj apartenos al ĝi.
 hours-recorded-explanation = La nombro de voĉregistroj, kiujn ni kolektis ĝin nun.
+hours-validated-explanation = La nombro de horoj de voĉregistroj kiuj estis validigitaj de almenaŭ 2 el 3 uzantoj per voĉdono "jes". Tiuj ĉi montras la progreson al la projekta celo de 10.000 horoj.
 sst = Voĉrekono (Speech-to-text, STT)
 sst-explanation = Voĉrekoniloj (STT) transformas voĉon en tekston.
 de-identified = Anonimigita
