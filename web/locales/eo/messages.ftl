@@ -382,6 +382,7 @@ faq-is-goal-assistant-q = Ĉu la celo de Common Voice estas konstrui parolkapabl
 faq-is-goal-assistant-a = La celo de la datumaro de Common Voice estas permesi al iu ajn en la mondo konstrui parolrekonilon, parolantkrekonilon aŭ iun ajn tipo de programo, kiu bezonas voĉajn datumojn. Parolkapabla helpanto estas unu el tiuj pluraj tipo de programoj, kiujn vi povus konstrui per la datumaro.
 faq-do-want-native-q = Mi ne estas denaska parolanto kaj mi parolas kun akĉento, ĉu vi tamen volas mian voĉon?
 faq-do-want-native-a = Jes, ni speciale volas vian voĉon! Parto de la celo de Common Voice estas kolekti kiel eble plej multe da malsamaj akĉentoj, por ke voĉrekono funkciu same bone por ĉiuj. Ĉi tio signifas, ke kontribuoj de nedenaskaj parolantoj estas aparte gravaj.
+faq-why-different-speakers-q = Kial vi bezonas tiom da malsamaj parolantoj por ĉiu lingvo?
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
 faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
 faq-where-src-from-2-q = El kie venas la fonta teksto?
