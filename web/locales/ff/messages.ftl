@@ -170,6 +170,10 @@ logout = Seŋto
 
 home-title = Common Voice ko feere Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
 home-cta = Ɓamtu daande, wallit ɗoo!
+wall-of-text-more-mobile =
+    Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
+    ɗum ina ñoƴƴa pental. Ɗuum noon min ummini eɓɓoore Common Voice, eɓɓoore walloore waɗde daande
+    heftinirde udditaniinde kala neɗɗo.
 show-wall-of-text = Jokku taro
 help-us-title = Wallu min moƴƴinde koŋnguɗi!
 help-us-explain = Ɓoɗɗu tarde, heɗaade e haalan-min: Ɗe kaalii koŋngol les ɗoo haa feewi?
