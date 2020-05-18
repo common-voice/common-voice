@@ -443,7 +443,17 @@ about-clip-graveyard = Tombejo de voĉregistroj
 about-clip-graveyard-text = La tombejo de voĉregistroj konsistas el voĉregistroj kiuj ne sukcesis eniri la datumaron de Common Voice. Same kiel la datumaro, la tombejo de voĉregistroj estas elŝutebla.
 about-partners = Asociitoj
 about-become-a-partner = Iĝi asociito
+about-partnership =
+    Common Voice estas kunlabora projekto, kaj ni dependas de nian komunumo de partoprenantoj kaj kontribuantoj por konstrui la plej grandan malfermitkodan datumaron de voĉoj.
+    
+    Ni ŝatus danki la jenaj personojn kaj organizojn pro ilia helpo kun la projekto:
 about-get-involved = Partopreni
+about-get-involved-text-2 =
+    Ĉu vi volas igi Common Voice eĉ pli bona?
+    Bonege! Kontaktu nin per retpoŝto aŭ en forumoj de
+    <discourseLink>Discourse</discourseLink>, raportu
+    retejajn problemojn per <githubLink>GitHub</githubLink>
+    aŭ aliĝu al la komunuma retbabilejo en la <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
@@ -451,6 +461,7 @@ about-nav-get-involved = Partopreni
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artefarita intelekto
 mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo.¶Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
+mycroft-secondary-description = Tiu ĉi estas malfermitkoda programo kiu povas estis libere rearanĝita, etendita kaj plibonigita. Mycroft povas esti uzata en io ajn, ĉu sciencia projekto ĉu entreprena sistemo.
 
 ## Glossary
 
@@ -458,6 +469,8 @@ glossary = Glosaro
 localization = Traduko
 localization-explanation = Temas pri nia procezo traduki kaj adapti la enhavon al pluraj lingvoj.
 sentence-collection = Kolekto de frazoj
+sentence-collection-explanation = Kolekti frazojn el la publika havaĵo, aŭ skribi novajn, kiuj apartenos al ĝi.
+hours-recorded-explanation = La nombro de voĉregistroj, kiujn ni kolektis ĝin nun.
 sst = Voĉrekono (Speech-to-text, STT)
 sst-explanation = Voĉrekoniloj (STT) transformas voĉon en tekston.
 de-identified = Anonimigita
