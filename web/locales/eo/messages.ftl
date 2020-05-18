@@ -637,6 +637,7 @@ report-success = Raporto sukcese sendita
 
 ## Goals
 
+streaks = Serioj
 days =
     { $count ->
         [one] tago
@@ -656,6 +657,7 @@ validations =
 ## Dashboard
 
 your-languages = Viaj lingvoj
+toward-next-goal = Al la venonta celo
 clips-you-recorded = Viaj voĉregistroj
 clips-you-validated = Viaj revizioj
 todays-recorded-progress = Hodiaŭa progreso de Common Voice rilate al voĉregistroj
@@ -668,9 +670,15 @@ contribution-activity = Kontribuoj
 top-contributors = Ĉefaj kontribuantoj
 recorded-clips = Faritaj voĉregistroj
 validated-clips = Validigitaj voĉregistroj
+total-approved = Kvanto de aproboj
+overall-accuracy = Ĝenerala precizeco
+set-visibility = Difini mian videblecon
+show-ranking = Montri mian pozicion
 
 ## Custom Goals
 
+get-started-goals = Unuaj paŝoj kun celoj
+create-custom-goal = Krei propran celon
 both-speak-and-listen = Ambaŭ
 both-speak-and-listen-long = Ambaŭ (kaj paroli kaj aŭskulti)
 daily-goal = Ĉiutaga celo
@@ -684,13 +692,22 @@ want-to-continue = Ĉu vi volas daŭrigi?
 finish-editing = Ĉu vi volas unue fini la modifojn?
 lose-changes-warning = Se vi foriras nun vi perdos viajn ŝanĝojn
 build-custom-goal = Difini personecigitan celon
+help-reach-hours = Helpu atingi { NUMBER($hours) } horojn en { $language } per persona celo
+help-reach-hours-general = Helpu Common Voice atingi { NUMBER($hours) } horojn en lingvo per persona celo
 set-a-goal = Difini celon
 cant-decide = Ĉu vi ne povas decidi?
 activity-needed-calculation = Oni povas atingi { NUMBER($totalHours) } horojn post iom pli ol { NUMBER($periodMonths) } monatoj se { NUMBER($people) } personoj registras po { NUMBER($clipsPerDay) } voĉregistrojn  ĉiutage.
 how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
 which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?
+receiving-emails-info =
+    Vi ricevos retpoŝtajn mesaĝojn kun memorigoj pri celoj,
+    raportoj pri via progreso kaj novaĵleteroj de Common Voice
+not-receiving-emails-info =
+    Vi <bold>NE</bold> ricevos retpoŝtajn mesaĝojn kun memorigoj pri celoj
+    raportoj pri via progreso kaj novaĵleteroj de Common Voice
 n-clips = { NUMBER($count) } voĉregistroj
+help-share-goal = Helpu nin trovi pli da voĉoj, kundividu vian celon
 confirm-goal = Konfirmi celon
 goal-interval-weekly = Semajne
 # $type is one of share-goal-type-*
@@ -700,6 +717,8 @@ share-n-weekly-contribution-goal = Kundividu vian ĉiusemajnan celon, { $count }
 share-goal-type-speak = Parolante
 share-goal-type-listen = Aŭskultante
 share-goal-type-both = Parolante kaj aŭskultante
+# LINK will be replaced with the current URL
+goal-share-text = Mi ĵus krei personan celon por donacado de voĉo al #CommonVoice -- venu kun mi kaj helpu instrui al maŝinoj la manieron kiel homoj fakte parolas { $link }
 weekly-goal-created = Via ĉiusemajna celo estis kreita
 daily-goal-created = Via ĉiutaga celo estis kreita
 track-progress = Sekvu vian progreson ĉi tie kaj en la paĝo pri statistikoj.
