@@ -216,7 +216,7 @@ let LocalizedPage: any = class extends React.Component<
   };
 
   render() {
-    const { locale, notifications, toLocaleRoute } = this.props;
+    const { locale, notifications, toLocaleRoute, location } = this.props;
     const { bundleGenerator, uploadPercentage } = this.state;
 
     if (!bundleGenerator) return null;
@@ -281,12 +281,11 @@ let LocalizedPage: any = class extends React.Component<
                   }
                 />
               ))}
-              {
-                location.pathname.includes('/demo') ?
+              {location.pathname.includes('/demo') ? (
                 <DemoLayout />
-                :
+              ) : (
                 <Layout />
-              }
+              )}
             </Switch>
           </div>
         </LocalizationProvider>
