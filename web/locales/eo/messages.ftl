@@ -404,7 +404,17 @@ faq-why-not-ask-read-a = Por igi la datumaron de Common Voice kiel eble plej uti
 faq-why-account-q = Kial mi devus krei konton?
 faq-is-account-public-q = Ĉu la informoj de mia konto estas publikaj?
 faq-how-privacy-q = Kiel vi certigas anonimecon kaj privatecon de la personoj, kiuj donacis siajn voĉojn?
+faq-how-privacy-a = Ĉiuj informoj, kiuj povus identigi personon, estas forigitaj el la datumaro. Kiam kontribuanto provizas demografiajn tadumojn en sia profilo, tiu informo estas disigita de la voĉregistroj antaŭ ol arigi ilin en la datumaro, kaj ĝi neniam estos publika en la profila paĝo.
+faq-what-determine-identity-q = Kion signifas ke mi ne povas "identigi" parolantojn en la datumaro de Common Voice?
+faq-what-determine-identity-a =
+    La datumaro de Common Voice estas malfermita kaj publike havebla rimedo, kiu povas esti uzata por trejni plurajn tipoj de programoj, kiuj uzas voĉon. Por protekti la sekurecon de ĉiuj kontribuantoj, ni petas al ĉiu, kiu elŝutas la datumaron de Common Voice, respekti la privatecon de la kontribuantoj.
+    
+    Informoj, kiuj povus identigi personon, estis forigitaj el la datumaro. Kiam vi elŝutas ĝin, vi akceptas ne klpodi eltiri la identecon de iu ajn kontribuanto. Tio signifas ke vi ne povas klopodi ligi informojn en la datumaro kun personaj informoj de la kontribuanto. Vi povas, tamen, ligi informojn en la datumaro kun aliaj informoj en la datumaro por trejni parolrekonajn, voĉrekonajn aŭ aliajn programojn.
 faq-what-is-cv = Kio estas Common Voice?
+faq-using-cv = Kiel uzi Common Voice
+faq-description = Common Voice estas parto de iniciato de Mozilla helpi instrui al komputilojn la manieron, kiel homoj fakte parolas.
+faq-search-for-answers =
+    .label = Serĉi respondojn
 
 ## ABOUT US
 
