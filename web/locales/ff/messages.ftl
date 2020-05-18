@@ -364,6 +364,7 @@ mycroft-title = Mycroft Ai
 
 ## Glossary
 
+glossary = KELMEENDI
 localization = Nokkuɗinal
 
 ## NotFound
