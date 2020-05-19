@@ -41,7 +41,6 @@ fr = Kifaransa
 ga-IE = Kieire
 ha = Kihausa
 he = Kiebrania
-hi-IN = Kihindi
 hr = Kikroatia
 id = Kiindonesia
 it = Kiitaliano
@@ -76,6 +75,7 @@ terms = Masharti
 cookies = Vidakuzi
 faq = Maswali Yanayoulizwa Sana
 content-license-text = Yaliyomo yapo chini ya leseni ya <licenseLink> Creative Commons </licenseLink>
+share-title = Tusaidie kupata wengine kutoa sauti zao!
 link-copied = Kiunga Imenakiliwa
 back-top = Rejea Mwanzoni
 logout = Toka
@@ -87,6 +87,7 @@ home-cta = Ongea sasa, changia hapa!
 show-wall-of-text = Soma mengineyo
 vote-yes = Ndio
 vote-no = La
+speak-subtitle = Toa sauti yako
 listen-subtitle = Tusaidie kuthibitisha sauti
 hours-recorded = masaa yaliyorekodiwa
 todays-progress = Maendeleo ya leo
@@ -143,6 +144,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nasa sauti/ Acha
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = rekodi upya
 
 ## ProjectStatus
 
@@ -177,6 +179,8 @@ why-demographic = kwanini ina umuhimu?
 accept-privacy-title = Sera ya Faragha
 login-signup = Ingia/Jisajili
 edit = Hariri
+off = zima
+on = washa
 retry-voice-wave-recording = jaribu tena
 delete-voice = futa
 add-language = ongeza lugha
@@ -190,7 +194,10 @@ faq-using-cv = kutumia common voice
 
 ## ABOUT US
 
+how-does-it-work-title = inafanyaje kazi
+about-listen = sikiliza
 about-get-involved = Jihusishe
+about-nav-why-common-voice = kwanini?
 
 ## Glossary
 
