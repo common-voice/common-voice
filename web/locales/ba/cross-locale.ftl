@@ -7,4 +7,5 @@ get-involved-form-title = { $lang } теленә бәйле яңылыҡтарҙ
 get-involved-email =
     .label = Электрон хат
 get-involved-opt-in = Миңә электрон хаттар ебәрегеҙ. Common Voice сайтында мин был телдең үҫеше тураһында мәғлүмәт алырға теләйем.
+get-involved-submit = Ебәрергә
 get-involved-return-to-languages = Телдәргә кире ҡайтыу
