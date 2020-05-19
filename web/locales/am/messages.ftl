@@ -257,6 +257,28 @@ profile-form-username =
     .label = የተጠቃሚ ስም
 profile-form-native-language =
     .label = አፍ መፍቻ ቋንቋ
+profile-form-additional-language =
+    .label = ተጨማሪ ቋንቋ
+profile-form-accent =
+    .label = አነጋገር
+profile-form-age =
+    .label = ዕድሜ
+profile-form-gender =
+    .label = ፆታ
+leaderboard-visibility =
+    .label = የመሪዎች ሰሌዳ ታይነት
+hidden = የተደበቀ
+visible = የሚታይ
+native-language =
+    .label = አፍ መፍቻ ቋንቋ
+profile-form-submit-save = አስቀምጥ
+profile-form-submit-saved = የተቀመጠ
+male = ወንድ
+female = ሴት
+# Gender
+other = ሌላ
+why-profile-title = መገለጫ ለምን?
+why-demographic = ይህ ጉዳይ ለምን አስፈለገ?
 
 ## FAQ
 
