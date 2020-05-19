@@ -174,6 +174,7 @@ vote-yes = አዎ
 vote-no = አይደለም
 toggle-play-tooltip = ወደ ማጫወቻ አሠራር ለመቀየር { shortcut-play-toggle } እዚህ ይጫኑ
 speak-subtitle = ድምፅዋን ይለግሱ
+speak-paragraph = የድምፅ ክሊፖችን መቅዳት የእኛን የተከፈተ ዳታቤዝ የመገንባት ዋነኛው አካል ነው ፣ አንዳንዶች ደግሞ ይህ አስደሳች ክፍል ነው ይላሉ።
 speak-goal-text = የተቀዱ ድምፆች
 listen-subtitle = በትክክለኛ ድምፆች ይርዱን
 listen-goal-text = የተረጋገጡ ቅጂዎች
@@ -204,6 +205,7 @@ x-years-short =
 help-make-dataset = ጥራት ያለው እና ለህዝብ ክፍት የሆነ የመረጃ ስብስብ እንድንገነባ ይርዱን
 sign-up-account = መለያ ለማግኘት ይመዝገቡ
 email-subscription-title = ለኢሜይል ማሳወቂያ ይመዝገቡ
+email-subscription-title-new = ለተለመዱ የድምፅ ዜና መጽሔቶች ፣ ለግብ ማስታወሻዎች እና ለሂደት ዝመናዎች ይመዝገቡ
 
 ## Account Benefits
 
@@ -222,18 +224,39 @@ email-not-public = የእርስዎን ኢሜይል ይፋ አናደርግም።
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = ቅዳ / አቁም
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ድጋሚ ቅረጽ
+request-language-button = ቋንቋ ይጠይቁ
 
 ## ProjectStatus
 
+status-title = አጠቃላይ የፕሮጀክት ሁኔታ-እስከ ምን ያህል እንደመጣን ይመልከቱ!
+status-contribute = ድምፅዎን ያበርክቱ
+status-hours =
+    { $hours ->
+        [one] አንድ እስካሁን የተረጋገጡ ሰዓቶች!
+       *[other] { $hours } እስካሁን የተረጋገጡ ሰዓቶች!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ቀጣይ ግቦች: { $goal }
+english = እንግሊዝኛ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = የተጠቃሚ ስም
+profile-form-native-language =
+    .label = አፍ መፍቻ ቋንቋ
 
 ## FAQ
 
