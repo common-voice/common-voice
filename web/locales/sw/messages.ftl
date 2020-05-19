@@ -220,10 +220,15 @@ license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 terms-agree = nakubali
 terms-disagree = Sikubali
+review-delete-recordings = Futa rekodi zangu
 
 ## Datasets Page
 
+language = lugha
 cv-license = Leseni
+number-of-voices = idadi ya sauti
+splits = Migawanyiko
+recorded-hours = masaa yaliyorekodiwa
 
 ## Download Modal
 
@@ -248,6 +253,8 @@ other-language = Lugha Nyingine
 language-total-progress = Jumla
 language-search-input =
     .placeholder = Tafuta
+language-speakers = Wasemaji
+sentences = Masentensi
 
 ## Contribution
 
