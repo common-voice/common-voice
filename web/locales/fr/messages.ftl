@@ -69,6 +69,7 @@ hr = Croate
 hsb = Haut-sorabe
 hu = Hongrois
 hy-AM = Arménien
+hyw = Arménien occidental
 ia = Interlingua
 id = Indonésien
 is = Islandais
@@ -365,6 +366,10 @@ change-email-setings = Modifiez votre adresse de courriel dans les Préférences
 
 faq-title = Questions fréquentes
 faq-what-cv-q = Qu’est-ce que Common Voice ?
+faq-what-cv-a =
+    Les technologies de reconnaissance vocale révolutionnent notre façon d’interagir avec les machines, mais les systèmes disponibles sont chers et propriétaires. Common Voice fait partie des activités de Mozilla qui ont pour but d’améliorer les technologies de reconnaissance vocale et de les rendre plus accessibles à tous et à toutes. Common Voice est une immense base de données d’enregistrements vocaux qui permet à n’importe qui de facilement et rapidement entraîner des applications interagissant avec la voix, potentiellement dans toutes les langues.
+    
+    Nous ne collectons pas seulement des enregistrements de voix dans les langues les plus parlées, mais aussi dans celles qui n’ont qu’un petit nombre de locuteurs. La publication d’un échantillon diversifié de voix permettra aux développeurs, entrepreneurs et communautés de surmonter ce handicap. Outre le jeu de données Common Voice, nous développons également un moteur de reconnaissance vocale libre et open source appelé Deep Speech.
 faq-why-important-q = Pourquoi est-ce important ?
 faq-why-important-a =
     La parole est souvent le moyen le plus naturel de communiquer les uns avec les autres et les technologies vocales apportent ce confort à nos ordinateurs et appareils mobiles. Nous voulons donner aux développeurs et développeuses les moyens de créer des applications de reconnaissance vocale étonnantes, telles que des traducteurs en temps réel et des assistants numériques à commandes vocales. Mais pour le moment, la plupart des données vocales nécessaires à la création de ce type d’applications sont coûteuses et propriétaires. Nous espérons que le jeu de données Common Voice donnera aux développeurs et développeuses ce dont ils ont besoin pour innover et rendre la technologie de la parole disponible dans leur propre langue.
