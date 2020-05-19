@@ -259,6 +259,8 @@ sentences = Masentensi
 ## Contribution
 
 contribute = Changia
+skip = ruka
+record-cta = anza kurekodi
 
 ## Reporting
 
