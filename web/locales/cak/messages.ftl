@@ -654,6 +654,7 @@ record-button-label = Tayaka' ach'ab'äl
 share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
 keep-track-profile = Tawojqaj ri nab'än rik'in jun ruwäch ab'i'
 login-to-get-started = Tatikirisaj molojriïl o tatz'ib'aj ab'i' richin natikirisaj
+target-segment-learn-more = Tetamäx ch'aqa' chik
 
 ## Reporting
 
