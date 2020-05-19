@@ -125,7 +125,7 @@ export default class API {
       headers: {
         'Content-Type': blob.type,
         sentence: encodeURIComponent(sentence),
-        sentenceid: sentenceId,
+        sentence_id: sentenceId,
         challenge: getChallenge(this.user),
       },
       body: blob,

@@ -123,7 +123,7 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers, params } = request;
     const sentence = decodeURIComponent(headers.sentence as string);
-    const sentenceId = headers.sentenceid;
+    const sentenceId = headers.sentence_id;
 
     if (!client_id || !sentence || !sentenceId) {
       console.log(`sent headers: ${JSON.stringify(headers)}`);
