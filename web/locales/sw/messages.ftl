@@ -169,6 +169,7 @@ visible = inayoonekana
 native-language =
     .label = Lugha asili
 profile-form-submit-save = Hifadhi
+profile-form-submit-saved = Imehifadhiwa
 male = mwanaume
 female = mwanamke
 # Gender
@@ -191,13 +192,17 @@ faq-what-cv-q = common voice ni nini?
 faq-why-important-q = kwanini hii ni ya umuhimu?
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
 faq-using-cv = kutumia common voice
+faq-search-for-answers =
+    .label = tafuta majibu
 
 ## ABOUT US
 
+about-title = kwanini common voice
 how-does-it-work-title = inafanyaje kazi
 about-listen = sikiliza
 about-get-involved = Jihusishe
 about-nav-why-common-voice = kwanini?
+about-nav-get-involved = Jihusishe
 
 ## Glossary
 
@@ -208,6 +213,7 @@ about-nav-why-common-voice = kwanini?
 ## Data
 
 data-download-yes = Ndio
+data-download-deny = Hapana
 data-download-license = Leseni: <licenseLink> CC-0 </licenseLink>
 data-other-goto = Nenda kwa { $name }
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
