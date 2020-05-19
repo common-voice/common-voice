@@ -278,6 +278,8 @@ female = ሴት
 # Gender
 other = ሌላ
 why-profile-title = መገለጫ ለምን?
+goals = ግቦች
+thanks-for-account = መለያዎን ስላረጋገጡ እናመሰግናለን ፣ አሁን መገለጫዎን እንገንባ ፡፡
 why-demographic = ይህ ጉዳይ ለምን አስፈለገ?
 
 ## FAQ
