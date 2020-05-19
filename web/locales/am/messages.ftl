@@ -278,9 +278,32 @@ female = ሴት
 # Gender
 other = ሌላ
 why-profile-title = መገለጫ ለምን?
+dashboard = ዳሽቦርድ
+build-profile = መገለጫ ይገንቡ
+avatar = አምሳያ
 goals = ግቦች
+settings = ቅንጅቶች
+edit-profile = መገለጫ አርትዕ
+profile-create-success = ስኬት ፣ መገለጫ ተፈጠረ!
+profile-close = ዝጋ
 thanks-for-account = መለያዎን ስላረጋገጡ እናመሰግናለን ፣ አሁን መገለጫዎን እንገንባ ፡፡
 why-demographic = ይህ ጉዳይ ለምን አስፈለገ?
+accept-privacy-title = የግላዊነት ፖሊሲ
+login-identity = የመግቢያ መለያ
+login-signup = ይግቡ / ይመዝገቡ
+edit = አርትዕ ያድርጉ
+email-subscriptions = የኢሜል ምዝገባዎች
+contribution-experience = የማበርከት ተሞክሮ
+skip-submission-feedback = የግቤት ግብረመልስ ዝለል
+off = ዝግ
+on = በርቷል
+avatar-clip-title = ለአምሳሪያዎ ድምጽ ይስጡት
+retry-voice-wave-recording = እንደገና ይሞክሩ
+delete-voice = ሰርዝ
+recording-voice-wave = በመቅዳት ላይ
+ready-to-upload = መጫን
+cancel-avatar-clip-recording = ተወው
+browse-file-title = የምስል ፋይል ይጫኑ
 
 ## FAQ
 
@@ -296,6 +319,9 @@ why-demographic = ይህ ጉዳይ ለምን አስፈለገ?
 
 ## Data
 
+license-mixed = የተቀላቀለ
+terms-agree = እስማማለሁ
+terms-disagree = አልስማማም
 
 ## Datasets Page
 
