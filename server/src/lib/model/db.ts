@@ -670,7 +670,7 @@ export default class DB {
             SELECT created_at
             FROM votes
             WHERE votes.created_at > (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL 9 hour)
-            ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+            ${locale ? 'AND votes.locale_id = :locale_id' : ''}
             ${client_id ? 'AND votes.client_id = :client_id' : ''}
           ) activity ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
           GROUP BY date
