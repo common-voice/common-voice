@@ -457,7 +457,7 @@ class ContributionPage extends React.Component<Props, State> {
                           {sentence?.taxonomy ? (
                             <div className="sentence-taxonomy">
                               <Localized id="target-segment-first-card">
-                                <div />
+                                <span className="taxonomy-message" />
                               </Localized>
                               <StyledLink
                                 className="taxonomy-link"
@@ -465,7 +465,7 @@ class ContributionPage extends React.Component<Props, State> {
                                 href={URLS.TARGET_SEGMENT_INFO}>
                                 <ExternalLinkIcon />
                                 <Localized id="target-segment-learn-more">
-                                  <div />
+                                  <span />
                                 </Localized>
                               </StyledLink>
                             </div>

@@ -575,15 +575,25 @@
         font-weight: 400;
         font-size: var(--font-size);
         color: var(--warm-grey);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+
+        span {
+            display: inline-block;
+        }
 
         @media (--sm-down) {
-            display: block;
             font-size: 14px;
             padding: 0.75rem;
+        }
+    }
+
+    .taxonomy-link,
+    .taxonomy-message {
+        white-space: nowrap;
+    }
+
+    .taxonomy-message {
+        @media (--sm-down) {
+            white-space: normal;
         }
     }
 
@@ -593,10 +603,6 @@
         font-weight: 600;
         text-decoration: none;
         margin: 0 1rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
 
         svg {
             width: 20px;

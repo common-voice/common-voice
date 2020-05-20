@@ -9,7 +9,7 @@ import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
 import URLS from '../../urls';
 import { isProduction, replacePathLocale } from '../../utility';
-import { LocaleLink, LocaleNavLink } from '../locale-helpers';
+import { LocaleLink, LocaleNavLink, isContributable } from '../locale-helpers';
 import {
   CogIcon,
   DashboardIcon,
@@ -69,15 +69,15 @@ interface LayoutState {
   hasScrolledDown: boolean;
   showStagingBanner: boolean;
   showWelcomeModal: boolean;
-  targetSegment?: FeatureType;
+  featureStorageKey?: string;
 }
 
 const SegmentBanner = ({
   locale,
-  segment,
+  featureStorageKey,
 }: {
   locale: string;
-  segment: FeatureType;
+  featureStorageKey: string;
 }) => {
   const notification: Notifications.Notification = {
     id: 99,
@@ -91,7 +91,7 @@ const SegmentBanner = ({
       </>
     ),
     bannerProps: {
-      storageKey: segment.storageKey,
+      storageKey: featureStorageKey,
       links: [
         {
           to: URLS.SPEAK,
@@ -146,7 +146,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     hasScrolledDown: false,
     showStagingBanner: !isProduction(),
     showWelcomeModal: false,
-    targetSegment: null,
+    featureStorageKey: null,
   };
 
   async componentDidMount() {
@@ -162,10 +162,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       challengeToken: challengeToken,
       showWelcomeModal:
         challengeTeamToken !== undefined && challengeToken !== undefined,
-      targetSegment: await api.getFeatureFlag(
-        'singleword_benchmark',
-        locale
-      ),
+      featureStorageKey: await this.getFeatureKey(locale),
     });
   }
 
@@ -222,6 +219,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     const { setLocale, history } = this.props;
     trackGlobal('change-language', locale);
     setLocale(locale);
+    this.setState({
+       featureStorageKey: await this.getFeatureKey(locale)
+    });
     history.push(replacePathLocale(history.location.pathname, locale));
   };
 
@@ -237,6 +237,19 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     );
   };
 
+  private async getFeatureKey(locale: string) {
+    let feature = null;
+
+    if (isContributable(locale)) {
+      feature = await this.props.api.getFeatureFlag(
+        'singleword_benchmark',
+        locale
+      );
+    }
+
+    return feature ? feature.storageKey : null;
+  }
+
   render() {
     const { locale, location, user } = this.props;
     const {
@@ -247,7 +260,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       isMenuVisible,
       showStagingBanner,
       showWelcomeModal,
-      targetSegment,
+      featureStorageKey,
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
 
@@ -272,8 +285,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {targetSegment && localStorage.getItem(targetSegment.storageKey) !== 'true' && (
-          <SegmentBanner locale={locale} segment={targetSegment} />
+        {featureStorageKey && localStorage.getItem(featureStorageKey) !== 'true' && (
+          <SegmentBanner locale={locale} featureStorageKey={featureStorageKey} />
         )}
         {showStagingBanner && (
           <div className="staging-banner">
