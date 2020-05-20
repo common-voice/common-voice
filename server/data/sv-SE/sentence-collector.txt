@@ -277,6 +277,7 @@ Den är uppladdad.
 Den ärligaste mannen på marknaden.
 Deras plan är att resa tillbaka i tiden för att stoppa invasionen.
 Deras system måste ha identifierat dig som någon som kan hindra deras plan.
+Deras underleverantör har gått i konkurs.
 Dessa tillställningar må vara fåniga men vi gör det av kärlek.
 Det ante mig.
 Det behöver du inte göra.
@@ -859,6 +860,7 @@ Din lilla skit.
 Din mamma gav dig liv.
 Din mamma är läkare.
 Din matta.
+Din odugliga skrothög till dator!
 Din trygghetszon.
 Din vän drivs snart till vansinne.
 Din väska.
@@ -965,6 +967,7 @@ Du får inte röra dig.
 Du får inte ta min Maria.
 Du får kyssa bruden.
 Du får manövrera den här jätteroboten.
+Du får nog hämta en längre stege, det där ser inte säkert ut.
 Du får skjuta hela natten.
 Du får snart ledigt hela tiden.
 Du får titta.
@@ -1348,6 +1351,12 @@ En brun panda.
 En brun persika.
 En brun spindel.
 En brun zebra.
+En cyan haj.
+En cyan krokodil.
+En cyan myra.
+En cyan orm.
+En cyan spindel.
+En cyan varg.
 En dag gör fem syskon motstånd.
 En dag hade hon fel färg på tröjan.
 En dag orkade jag inte längre.
@@ -1442,6 +1451,11 @@ En limegrön sköldpadda.
 En ljus gepard.
 En ljus giraff.
 En ljus varg.
+En magenta ekorre.
+En magenta groda.
+En magenta jordgubbe.
+En magenta ko.
+En magenta panda.
 En massa träd man kan klättra i!
 En mirakulös chimpans.
 En mirakulös fågel.
@@ -1483,7 +1497,12 @@ En orange banan.
 En orange björn.
 En orange mandarin.
 En patrullbil kör förbi varje halvtimme.
+En purpur get.
+En purpur giraff.
+En purpur groda.
 En purpur melon.
+En purpur nektarin.
+En purpur skorpion.
 En rak jordgubbe.
 En rak ko.
 En rak persika.
@@ -1952,6 +1971,7 @@ Han sa att jag skulle stå stilla och vara tyst.
 Han satt alldeles stilla.
 Han satt där nere.
 Han satte fast sig vid ratten med handbojor.
+Han ser det som sin rättighet att få komma och gå som han vill.
 Han ser ut som en jävla nolla.
 Han sitter på så mycket kunskap.
 Han ska betala.
@@ -1964,6 +1984,7 @@ Han smälter nog ner det medan vi pratar.
 Han som ville köpa vårt hus.
 Han struntar i allt, han är nihilist.
 Han står på en badrumsvåg.
+Han svarar inte på sin mobil.
 Han säger nåt.
 Han tar inte din plats.
 Han tipsade polisen.
@@ -2071,6 +2092,7 @@ Har du hittat vad du sökte?
 Har du hört den förfärliga nyheten?
 Har du hört om klocktorn?
 Har du inte fått upp det ännu?
+Har du koll på hur många vi har på lager?
 Har du kommit i klimakteriet?
 Har du kvar staken?
 Har du köpt ett nytt kylskåp?
@@ -2129,9 +2151,12 @@ Hej, det är sanningen.
 Hej, gamle vän.
 Hej, jag ringer för att anmäla ett inbrott.
 Hej, jag är försäljningschefen.
+Hej, kan du hjälpa mig ta ner den här lådan?
 Hej, lilla bebis!
+Hej, vem har jag kommit till?
 Hejsan, kissen.
 Hela mitt liv har jag varit ensam, bortgömd.
+Helt rätt, en brandgul tegelbyggnad på höger sida.
 Helvete också!
 Helvetets alla kval.
 Herregud, den var bra!
@@ -2648,6 +2673,7 @@ Jag glömmer alltid hur mycket jag tycker om den här musiken.
 Jag golvar dig.
 Jag går aldrig hemifrån utan solglasögon.
 Jag går gärna till en klubb, om du menar det?
+Jag går på lunch nu!
 Jag går till auktionshuset.
 Jag går upp och tar en lång tupplur, precis som Susie gjorde.
 Jag går upp.
@@ -2902,6 +2928,7 @@ Jag måste gå.
 Jag måste hem.
 Jag måste insistera.
 Jag måste komma i min enda kostym.
+Jag måste lägga på nu, ring mig om en kvart.
 Jag måste på toan.
 Jag måste säga till mina bröder.
 Jag måste ta i för att det ska funka.
@@ -3816,6 +3843,7 @@ Men, lades det där ut?
 Menar du att ljuga för mig?
 Menar du det?
 Menar du livet efter döden?
+Min berättelse utspelar sig under början av nittio talet.
 Min blåsa är stor som en jordnöt.
 Min exmakes pappa.
 Min familj behöver det.
@@ -4440,11 +4468,13 @@ Ser du hellre företaget gå under?
 Ser du henne?
 Ser du hur du talar till mig?
 Ser du nån vigselring på mitt finger?
+Ser du skruven, in där bakom plåten?
 Ser du vad som händer, Lebowski?
 Ser en modell ut så här?
 Ser jag inte blek ut?
 Ser ni på hans vänstra fot?
 Ser till att ägarna inte gillar vapen eller har aggressiva hundar.
+Ser ut som att webbplatsen ligger nere.
 Ses i morgon.
 Sex månader till av den här skiten.
 Sex timmar, inspektören.
@@ -4738,6 +4768,7 @@ Ta oss dit.
 Ta reda på det!
 Ta till vara på varenda uns.
 Ta väldigt lite.
+Tack Katarina för den rapporten.
 Tack för allt, Harry.
 Tack för att du kom, herr president.
 Tack för att du tog med flickorna.
@@ -5214,6 +5245,7 @@ Vet du varför?
 Vet han inte att jag älskar min man?
 Vet ni vad han gjorde?
 Vet ni vad?
+Vet någon vart Johan försvann?
 Veva på pedalen.
 Vi använder den fortfarande.
 Vi avbryter programmet.
