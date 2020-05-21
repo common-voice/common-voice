@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Switch, Route, withRouter } from 'react-router';
 import { useLocale } from '../locale-helpers';
 import { Spinner } from '../ui/ui';
+import Intro from '../demo_pages/Intro/intro';
 
 function DemoLayout() {
   const [_, toLocaleRoute] = useLocale();
@@ -10,13 +11,7 @@ function DemoLayout() {
     <div>
       <React.Suspense fallback={<Spinner />}>
         <Switch>
-          <Route
-            exact
-            path={toLocaleRoute('/demo')}
-            render={() => {
-              return <h1>in get started</h1>;
-            }}
-          />
+          <Route exact path={toLocaleRoute('/demo')} component={Intro} />
           <Route
             exact
             path={toLocaleRoute('/demo/language-select')}
