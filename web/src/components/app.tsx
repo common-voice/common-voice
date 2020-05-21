@@ -37,6 +37,7 @@ import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import { User } from '../stores/user';
 import Layout from './layout/layout';
+import DemoLayout from './layout/demo-layout';
 import NotificationBanner from './notification-banner/notification-banner';
 import NotificationPill from './notification-pill/notification-pill';
 import { Spinner } from './ui/ui';
@@ -215,7 +216,7 @@ let LocalizedPage: any = class extends React.Component<
   };
 
   render() {
-    const { locale, notifications, toLocaleRoute } = this.props;
+    const { locale, notifications, toLocaleRoute, location } = this.props;
     const { bundleGenerator, uploadPercentage } = this.state;
 
     if (!bundleGenerator) return null;
@@ -280,7 +281,11 @@ let LocalizedPage: any = class extends React.Component<
                   }
                 />
               ))}
-              <Layout />
+              {location.pathname.includes(URLS.DEMO) ? (
+                <DemoLayout />
+              ) : (
+                <Layout />
+              )}
             </Switch>
           </div>
         </LocalizationProvider>

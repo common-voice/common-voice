@@ -1,5 +1,7 @@
 const PROFILE = '/profile';
 const DASHBOARD = '/dashboard';
+const DEMO = '/demo';
+
 export default Object.freeze({
   ROOT: '',
 
@@ -30,4 +32,7 @@ export default Object.freeze({
   NOTFOUND: '/not-found',
   LANGUAGES: '/languages',
   ABOUT: '/about',
+  DEMO,
+  INTRO: DEMO,
+  DEMO_DATASETS: DEMO + '/datasets',
 });
