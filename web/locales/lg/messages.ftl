@@ -30,12 +30,27 @@ sc = Lusadiniya
 sk = Lusilovakiya
 sl = Lusiloveniya
 sr = Lusabiya
+sw = Luswayiri
+ta = Lutamiru
+te = Lutelugu
+th = Lutayi
+tt = Lutata
+vi = Luviyetinamu
+zh-CN = Lucayina (Cayina)
+zh-HK = Lucayina (Hongo Kongo)
+zh-TW = Lucayina (Tayiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Yogera
+speak-now = Yogera kati
+languages = Enimi
+about = Manya
+help = Yambwa
+privacy = Ebyekyama
 
 ## Home Page
 
