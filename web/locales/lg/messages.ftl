@@ -278,12 +278,50 @@ profile-form-submit-save = Sevinga
 profile-form-submit-saved = Bisevingiddwa
 male = Musajja
 female = Mukazi
+# Gender
+other = Ndi kirala
+why-profile-title = Lwaki profayilo?
+dashboard = Dashiboodi
+build-profile = Zzimba Profayilo
+avatar = Ka dolle
+goals = Ebitukilizibwa
+settings = Setingi
+edit-profile = Kyusa Profayiro
+profile-create-success = Kulika, profayiro ekolebwa
+profile-close = Ggalawo
+thanks-for-account = Webale kukakasa akawunti yo, kati katuzimbe profayiro yo.
+why-demographic = Lwaki kino ky'amakulu?
 accept-privacy = Nzikiriza mukozese ebinkwatako nga bwe mu nyonyodde mu <privacyLink>Nkola y'ekyama<privacyLink> ya Mozilla
 accept-privacy-title = Enkola Eyekyama
+login-identity = Login Identity
+login-signup = Yingira / Wewandise
+edit = Kyusa
+email-subscriptions = By'ofuna mu email
+download-profile = Dawunulodinga ebintu byo
+contribution-experience = Ebirala by'okozze
+skip-submission-feedback = Buuka Okutuwa Obubaka
+off = Teliko
+on = Kweli
+avatar-clip-title = Ka dolle ko kawe eddoboozi
+change-your-avatar-clip = Oyagala kukyusa eddoboozi lyo?
+recording-in-progress = Oli mu ku lekodinga ddoboozi
 avatar-clip-recorded = Ekifananyi kyo kati kijja n'kalaboozi!
+retry-voice-wave-recording = DDAMU
+re-record = Lekodinga butto
+delete-voice = Sangula
+recording-voice-wave = Lekodinga
+delete-voice-clip = oba Sangula eddoboozi
+cancel-avatar-clip-recording = SAZAAMU
+browse-file-title = Tekaako akafananyi
+browse-file = Sika osuule oba <browseWrap>Nnonya</browseWrap>
+file_too_large = Fayiro gy'olonze nnene nnyo
+manage-email-subscriptions = By'ofuna mu email
+email-already-used = Email eno ekozesebwa ku akawunti endala
+add-language = Ggatako olulimi
 
 ## FAQ
 
+faq-title = Bye Basinga Okubuuza
 
 ## ABOUT US
 
