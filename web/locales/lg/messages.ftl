@@ -1,5 +1,12 @@
 ## General
 
+return-to-cv = Ddayo ku Common Voice
+email-input =
+    .label = Email
+submit-form-action = Sindika
+loading = Bijja…
+email-opt-in-info = Njagala okufuna email ezinjijukiza bye nina okola, we ntuuse n'ebifa ku Common Voice.
+email-opt-in-info-title = Weyunge kw'abo be tusindikira email ku bifa ku Common Voice
 indicates-required = Kano * kalaga kyetagisa
 not-available-abbreviation = N/A
 
@@ -87,6 +94,7 @@ status-contribute = Tuwe eddoboozi Lyo
 
 ## ProfileForm
 
+accept-privacy = Nzikiriza mukozese ebinkwatako nga bwe mu nyonyodde mu <privacyLink>Nkola y'ekyama<privacyLink> ya Mozilla
 accept-privacy-title = Enkola Eyekyama
 avatar-clip-recorded = Ekifananyi kyo kati kijja n'kalaboozi!
 
