@@ -10,6 +10,7 @@ submit-form-action = Sindika
 loading = Bijja…
 email-opt-in-info = Njagala okufuna email ezinjijukiza bye nina okola, we ntuuse n'ebifa ku Common Voice.
 email-opt-in-info-title = Weyunge kw'abo be tusindikira email ku bifa ku Common Voice
+email-opt-in-info-sub-with-challenge = Ffuna email nga ezikwata ku bilemye n'okujikiza, wetutuse, n'ebikwata ku Common Voice.
 email-opt-in-privacy = Okweyunga kwabo betusindikira emails kilaga nti okiriza Mozilla okukozesa ebikufaako nga bw'onyonyodwa mu <privacyLink>Nkola Y'ekyama<privacyLink>eya Mozilla.
 indicates-required = Kano * kalaga kyetagisa
 not-available-abbreviation = N/A
@@ -20,7 +21,23 @@ not-available-abbreviation = N/A
 
 ## Languages
 
+ab = Abkhaz
+ace = Acehnese
+ady = Adyghe
+af = Afrikaans
+am = Amharic
+an = Aragonese
 ar = Luwarabu
+arn = Mapudungun
+as = Assamese
+ast = Asturian
+az = Luzabaijani
+ba = Bashkir
+be = Lubelarusi
+bg = Lubulugari
+bn = Lubengali
+br = Breton
+bxr = Buryat
 en = Luzungu
 es = Luspana
 fr = Lufaransa
