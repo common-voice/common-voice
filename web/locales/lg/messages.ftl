@@ -176,18 +176,62 @@ wall-of-text-start =
     Voice eli natural, voice muntu. Ky'ova olaba twenyumigizamu nnyo okukola tekinologiya akozesebwa
     ow'eddoboozi ku masiini zaffe. Naye okukola sisitimu zzino, twetaga data mungi
     ow'amaloboozi.
+vote-yes = Ye
+vote-no = Nedda
+toggle-play-tooltip = Nyiga { shortcut-play-toggle } okukyusa enzanya
+speak-subtitle = Tuwe eddoboozi lyo
+hours-recorded = Essawa Ezilekodingibwa
+hours-validated = Essawa Ezikakasiddwa
+voices-online = Amaloboozi agali online kati
+todays-progress = Ebikolebwa leero
+help-reach-goal = Tuyambe okutuuka ku { $goal }
+read-terms-q = Osomye Enkolagana yaffe?
+ready-to-record = Wetegese okutuwa ku ddoboozi lyo?
+all-locales = Byona
+today = Leero
+x-weeks-short =
+    { $count ->
+        [one] Wiiki
+       *[other] wiiki
+    }
+x-months-short =
+    { $count ->
+        [one] mwezi
+       *[other] mwezi
+    }
+x-years-short =
+    { $count ->
+        [one] mwaka
+       *[other] mwaka
+    }
+sign-up-account = Ggulawo akawunti
+email-subscription-title = Ffuna obubaka mu email
+email-subscription-title-new = Ffuna ebifa ku Common Voice, ebijjukizo n'ebwetutuuse.
 
 ## Account Benefits
 
+benefits = W'ofuniramu
 
 ## What's public
 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = b
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = z
+shortcut-play-toggle-label = zanya/lekerawo
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
