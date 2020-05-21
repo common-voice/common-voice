@@ -1,5 +1,7 @@
 ## General
 
+indicates-required = Kano * kalaga kyetagisa
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -7,6 +9,27 @@
 
 ## Languages
 
+ar = Luwarabu
+en = Luzungu
+es = Luspana
+fr = Lufaransa
+he = Luyudaya
+hi = Luyindi
+it = Luyitale
+ja = Lujapaani
+ko = Lukoleya
+lg = Luganda
+ne-NP = Lunepali
+nl = Ludaaki
+pl = Lupoland
+pt = Lupotugo
+ro = Lulomana
+ru = Lulasa
+rw = Lunyarwanda
+sc = Lusadiniya
+sk = Lusilovakiya
+sl = Lusiloveniya
+sr = Lusabiya
 
 # [/]
 
