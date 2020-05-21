@@ -26,7 +26,7 @@ function DemoLayout() {
             }}
           />
           {/* more routes to be added */}
-          <Route path="*" render={() => <h1>not found</h1>} />
+          <Route render={() => <h1>not found</h1>} />
         </Switch>
       </React.Suspense>
     </div>
