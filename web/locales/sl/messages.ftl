@@ -69,6 +69,7 @@ hr = hrvaščina
 hsb = gornja lužiška srbščina
 hu = madžarščina
 hy-AM = armenščina
+hyw = zahodna armenščina
 ia = interlingva
 id = indonezijščina
 is = islandščina
