@@ -12,14 +12,14 @@ function DemoLayout() {
         <Switch>
           <Route
             exact
-            path={toLocaleRoute('/demo')}
+            path={toLocaleRoute(URLS.DEMO)}
             render={() => {
               return <h1>in get started</h1>;
             }}
           />
           <Route
             exact
-            path={toLocaleRoute('/demo/language-select')}
+            path={toLocaleRoute(URLS.DEMO_DATASETS)}
             render={() => {
               return <h1>in language select</h1>;
             }}
