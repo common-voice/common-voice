@@ -281,7 +281,7 @@ let LocalizedPage: any = class extends React.Component<
                   }
                 />
               ))}
-              {location.pathname.includes('/demo') ? (
+              {location.pathname.includes(URLS.DEMO) ? (
                 <DemoLayout />
               ) : (
                 <Layout />
