@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Switch, Route, withRouter } from 'react-router';
 import { useLocale } from '../locale-helpers';
 import { Spinner } from '../ui/ui';
+import URLS from '../../urls';
 
 function DemoLayout() {
   const [_, toLocaleRoute] = useLocale();
