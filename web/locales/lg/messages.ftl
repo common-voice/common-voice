@@ -51,9 +51,16 @@ languages = Enimi
 about = Manya
 help = Yambwa
 privacy = Ebyekyama
+cookies = Cookies
+faq = FAQ
+share-title = Tufunire abalala batuyambuse ku malaboozi!
+share-text = Yamba okusomesa masiini engeri abantu gye bogera, tuwe eddoboozi lyo ku { $link }
+back-top = Ddayo engulu
+logout = Fuluma
 
 ## Home Page
 
+home-title = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye bogera.
 home-cta = Yogera, wayo kko wano!
 
 ## Account Benefits
