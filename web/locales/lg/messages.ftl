@@ -322,6 +322,7 @@ add-language = Ggatako olulimi
 ## FAQ
 
 faq-title = Bye Basinga Okubuuza
+faq-what-cv-q = Common Voice Ky'ekiki?
 
 ## ABOUT US
 
