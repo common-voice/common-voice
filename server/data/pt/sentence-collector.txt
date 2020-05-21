@@ -10979,6 +10979,7 @@ Um cão do exército sendo treinado por um soldado.
 Um cão e uma pessoa fazendo um curso de agilidade.
 Um cão enrugado que vadeia na água pouco profunda.
 Um cão esverdeado corre através da água por várias pedras grandes.
+Um cão marrom caminha em direção a outro animal escondido na grama.
 Um cão marrom chega para uma bola de tênis.
 Um cão marrom com um colarinho preto fica ao lado de um arbusto.
 Um cão marrom corre em um campo com um cão preto e branco.
@@ -11585,6 +11586,7 @@ Um homem que monta um asno na frente de um edifício da mostarda.
 Um homem que obstrui dentro um fio ao prender uma guitarra.
 Um homem que rema um caiaque ao longo da costa de um rio.
 Um homem que senta-se fazendo chapéus de palha.
+Um homem que surfa ativamente uma onda.
 Um homem que trabalha com metais usando solda ou ferramentas de moagem.
 Um homem que trabalha com uma ferramenta de soldagem.
 Um homem que trabalha em algo sozinho em um ambiente industrial.
@@ -11749,6 +11751,7 @@ Um mecânico abaixo de um caminhão conduzindo reparos.
 Um mecânico de macacão azul trabalha em um ônibus.
 Um menino andando de skate em um trilho e três meninos assistindo.
 Um menino andando pelo pátio de edifícios em ruínas.
+Um menino aponta uma bola de basquete no aro.
 Um menino balança no playground.
 Um menino brinca com um dispositivo.
 Um menino brincando com um avião em um campo.
@@ -11777,6 +11780,7 @@ Um menino em uma camisa azul joga em uma tenda de salto.
 Um menino em uma camisa branca está espirrando na água pouco profunda.
 Um menino em uma camisa listrada de oxford aponta.
 Um menino em uma camisa listrada e um chapéu faz truques nas etapas.
+Um menino em uma piscina.
 Um menino empurra outro em um balanço.
 Um menino está admirando um carro esportivo verde.
 Um menino está ao lado de um trilho em uma pista de kart.
@@ -12417,6 +12421,7 @@ Uma mulher examina um espécime usando um microscópio
 Uma mulher fantasiada está marchando com um grande tambor.
 Uma mulher faz caretas para uma criança pequena.
 Uma mulher fica em uma piscina com três jovens rapazes.
+Uma mulher fica no topo de uma pilha de água.
 Uma mulher funde o dente-de-leão sopra em um campo.
 Uma mulher gesticula em uma festa.
 Uma mulher hispânica está usando um wok ao ar livre para cozinhar.
@@ -13202,6 +13207,7 @@ Você sabe todos os presidentes to Estados Unidos?
 Você sabe usar o Photoshop?
 Você sabia disso?
 Você sabia que Harry conseguiu um novo emprego?
+Você sabia que Muhammad era tão bom no tênis?
 Você sabia que Nikola ia se juntar a nós?
 Você sabia que eles estão fechados em janeiro?
 Você sabia toda a história.
