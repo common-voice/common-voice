@@ -127,9 +127,19 @@ sw = Luswayiri
 syr = Syriac
 ta = Lutamiru
 te = Lutelugu
+tg = Tajik
 th = Lutayi
+tl = Tagalog
+tr = Lutake
 tt = Lutata
+uby = Ubykh
+udm = Udmurt
+uk = Luyukureyini
+ur = Luddu
+uz = Uzbek
+vec = Venetian
 vi = Luviyetinamu
+vot = Votic
 zh-CN = Lucayina (Cayina)
 zh-HK = Lucayina (Hongo Kongo)
 zh-TW = Lucayina (Tayiwan)
@@ -141,14 +151,20 @@ zh-TW = Lucayina (Tayiwan)
 
 speak = Yogera
 speak-now = Yogera kati
+datasets = Datasets
 languages = Enimi
 about = Manya
+profile = Profayilo
 help = Yambwa
+contact = Ennamba
 privacy = Ebyekyama
+terms = Enkolagana
 cookies = Cookies
 faq = FAQ
+content-license-text = Bino webili mu <licenseLink>nkozesa ya Creative Commons</licenseLink>
 share-title = Tufunire abalala batuyambuse ku malaboozi!
 share-text = Yamba okusomesa masiini engeri abantu gye bogera, tuwe eddoboozi lyo ku { $link }
+link-copied = Linki ekopeddwa
 back-top = Ddayo engulu
 logout = Fuluma
 
@@ -156,6 +172,10 @@ logout = Fuluma
 
 home-title = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye bogera.
 home-cta = Yogera, wayo kko wano!
+wall-of-text-start =
+    Voice eli natural, voice muntu. Ky'ova olaba twenyumigizamu nnyo okukola tekinologiya akozesebwa
+    ow'eddoboozi ku masiini zaffe. Naye okukola sisitimu zzino, twetaga data mungi
+    ow'amaloboozi.
 
 ## Account Benefits
 
