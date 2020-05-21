@@ -64,10 +64,12 @@ ga-IE = ئێرلەندی
 gl = Galician
 ha = Hausa
 he = عیبری
-hi-IN = هیندی
+hi = هیندی
 hr = Croatian
 hsb = سێربی
 hu = Hungarian
+hy-AM = ئەرمەنی
+hyw = Armenian Western
 ia = Interlingua
 id = ئەندۆنێزیایی
 is = ئیسلەندی
@@ -233,7 +235,6 @@ whats-public = چی گشتییە؟
 email-not-public = ئیمەیلی تۆ بۆ کەس نیشان نادریت
 recordings-and-locale-public = ژمارەی دەنگەکان و ئەو زمانانەی بەشداری تێدا دەکەی گشتی ئەبێت
 username-optin-public = دەتوانی هەڵبژێری کە ناوی بەکارهێنەری تۆ گشتی بێت یان نەناسراو.
-demographic-deidentified = بە دڵخوازی خۆت دەیتای دێمۆگڕافیک (وەک تەمەن، ڕەگەز، زمان و شێوەزار) لە دەیتای دەنگی تۆ لا دەبرێت و هەرگیز ناکرێت بە گشتی.
 username-email-not-demographic = ناوی بەکارهێنەر و ئیمەیلی تۆ دیار نابێت لە دەیتای نەشرکراو.
 
 ## Speak & Listen Shortcuts
@@ -608,7 +609,7 @@ contribute-more =
 record-cta = دەست پێ کردنی زەبت
 record-platform-not-supported = ببوورە بەڵام پلاتفۆڕمی تۆ ئێستا پشتیوانی ناکرێت.
 record-platform-not-supported-desktop = لە سیستەمی دێسکتاپ دەتوانت نەوتری داگری:
-record-platform-not-supported-ios = بەکارهێنەرانی <bold>iOS</bold> دەتوانن نەرمەکالای خۆڕایی ئێمە داگرن:
+record-platform-not-supported-ios-non-safari = ئەگەر iOS تکایە بە سافاری بەردەوام بە بۆ زەبت کردنی دەنگ…
 record-must-allow-microphone = پێویستە ئیزنی مایکڕۆفۆن بدەیت
 record-no-mic-found = میکڕۆفۆن پەیدا نەبوو
 record-error-too-short = زەبتەکە زۆر کوورت بوو
@@ -636,11 +637,17 @@ listen-instruction = { $actionType }<playIcon></playIcon> ئایا بە دروو
 listen-again-instruction = بژی! <playIcon></playIcon> هەر کاتێک ئامدە بووی دیسان گوێ بدە
 listen-3rd-time-instruction = ٢ دانە ماوە، بەردەوام بە! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>دواهەمین دانە
-nothing-to-validate = هیچمان نییە بۆ ئەم زمانە کە بیسەلمێنین، یارمەتیمان بدە کە سەفەکە پڕ کەین.
+listen-empty-state = ئێستا کلیپی دیکەمان بۆ ئەم زمانە نییە بۆ سەلماندن
+speak-empty-state = ئێستا رەستەی دیکەی ئەم زمانەمان نییە بۆ زەبت کردن...
+speak-empty-state-cta = بەخشینی رەستە
 record-button-label = دەنگت زەبت کە
 share-title-new = <bold>یارمەتیمان بدە</bold> دەنگی زیاتر پەیدا کەین
 keep-track-profile = پێشکەوتنی خۆت بە ساز کردنی پڕۆفایلێک ببینە
 login-to-get-started = ڵۆگین بکە یان هەژمار ساز کە بۆ دەست پێکردن
+target-segment-first-card = تۆ خەریکی لە ئەکەمین بەشی ئامانجمان بەشداری دەکەی
+target-segment-first-banner = یارمەتی بدە کە یەکەمین بەشی ئامانجی دەنگی گشتی بۆ { $locale } درووست بکەین
+target-segment-add-voice = دەنگی خۆت زیاد کە
+target-segment-learn-more = زیاتر بزانە
 
 ## Reporting
 
