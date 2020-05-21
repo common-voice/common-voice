@@ -214,6 +214,7 @@ benefits = W'ofuniramu
 
 ## What's public
 
+email-not-public = Tetujja kulaga balala email yo
 
 ## Speak & Listen Shortcuts
 
@@ -314,6 +315,7 @@ delete-voice-clip = oba Sangula eddoboozi
 cancel-avatar-clip-recording = SAZAAMU
 browse-file-title = Tekaako akafananyi
 browse-file = Sika osuule oba <browseWrap>Nnonya</browseWrap>
+gravatar_not_found = Tewali gravatar ya email yo esangidwa
 file_too_large = Fayiro gy'olonze nnene nnyo
 manage-email-subscriptions = By'ofuna mu email
 email-already-used = Email eno ekozesebwa ku akawunti endala
@@ -323,6 +325,7 @@ add-language = Ggatako olulimi
 
 faq-title = Bye Basinga Okubuuza
 faq-what-cv-q = Common Voice Ky'ekiki?
+faq-why-important-q = Lwaki kya mugaso?
 
 ## ABOUT US
 
