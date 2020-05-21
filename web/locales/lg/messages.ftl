@@ -192,17 +192,17 @@ today = Leero
 x-weeks-short =
     { $count ->
         [one] Wiiki
-       *[other] wiiki
+       *[other] wiiki { $count }
     }
 x-months-short =
     { $count ->
-        [one] mwezi
-       *[other] mwezi
+        [one] mwezi { $count }
+       *[other] myezi { $count }
     }
 x-years-short =
     { $count ->
-        [one] mwaka
-       *[other] mwaka
+        [one] mwaka { $count }
+       *[other] myaka { $count }
     }
 sign-up-account = Ggulawo akawunti
 email-subscription-title = Ffuna obubaka mu email
@@ -235,6 +235,12 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = l
+shortcut-record-toggle-label = lekodinga/lekerawo
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Ddamu olekodinge
 request-language-text = Tonnaba kulaba lulimi lwo ku Common Voice?
 request-language-button = Saba olulimu
 
@@ -242,9 +248,36 @@ request-language-button = Saba olulimu
 
 status-title = Embeera ya project eno: Laba gyetuvudde!
 status-contribute = Tuwe eddoboozi Lyo
+status-hours =
+    { $hours ->
+        [one] ssawa emu ey'akakasibwa!
+       *[other] ssawa { $hours } ez'akakasibwa!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Eziddako: { $goal }
+english = Luzungu
 
 ## ProfileForm
 
+profile-form-native-language =
+    .label = Olulimi lwe wamwe
+profile-form-additional-language =
+    .label = Olulimi olulala
+profile-form-accent =
+    .label = Accent
+profile-form-age =
+    .label = Myaka
+profile-form-gender =
+    .label = Sex
+hidden = Bikwekweddwa
+visible = Bilabika
+native-language =
+    .label = Olulimi lwe wamwe
+profile-form-submit-save = Sevinga
+profile-form-submit-saved = Bisevingiddwa
+male = Musajja
+female = Mukazi
 accept-privacy = Nzikiriza mukozese ebinkwatako nga bwe mu nyonyodde mu <privacyLink>Nkola y'ekyama<privacyLink> ya Mozilla
 accept-privacy-title = Enkola Eyekyama
 avatar-clip-recorded = Ekifananyi kyo kati kijja n'kalaboozi!
