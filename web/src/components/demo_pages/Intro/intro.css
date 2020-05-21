@@ -1,0 +1,91 @@
+@import url('../../vars.css');
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 2.5vh;
+    background: linear-gradient(180deg, #f3f2f1 0%, #ffffff 101.23%);
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    height: 173px;
+    left: calc(50% - 700px / 2 + 1px);
+    bottom: 68px;
+}
+
+.text > h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.text > p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.btn-get-started {
+    display: flex;
+    background: var(--blue);
+    border-radius: 1000px;
+    margin: 30px auto;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 240px;
+    height: 57px;
+}
+
+.btn-get-started span {
+    display: flex;
+}
+
+.robot {
+    position: absolute;
+    margin: 30px auto;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 530px;
+}
+
+.waves {
+    width: 100vw;
+    height: 324px;
+    top: 169px;
+    position: relative;
+}
+
+.wave-1 {
+    position: absolute;
+    width: 100%;
+    max-height: 273px;
+}
+
+.layer {
+    height: 324px;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(
+        270deg,
+        #f6f6f5 0%,
+        rgba(247, 246, 246, 0.0001) 25.09%,
+        rgba(248, 248, 247, 0.0001) 71.51%,
+        #f9f8f7 98.32%
+    );
+    z-index: 20;
+}
