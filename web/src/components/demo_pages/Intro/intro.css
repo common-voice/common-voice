@@ -39,14 +39,14 @@
     height: 57px;
 }
 
-.btn-get-started span {
-    display: flex;
-}
+    & path {
+        fill: var(--white);
+    }
 
-.robot {
-    position: absolute;
-    margin: 30px auto;
-}
+    &:hover {
+        & path {
+            fill: var(--black);
+        }
 
 .img-container {
     display: flex;
