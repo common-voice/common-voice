@@ -15,11 +15,11 @@
     font-weight: normal;
 }
 
-.text h1 {
+.text-header {
     font-size: var(--font-size-xxl);
 }
 
-.text p {
+.text-body {
     font-weight: 300;
     font-size: var(--font-size-lg);
     letter-spacing: 1px;

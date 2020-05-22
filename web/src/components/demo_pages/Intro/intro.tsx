@@ -13,10 +13,10 @@ export default withLocalization(function Intro() {
       <img src={robot} id="robot" alt="red robot" />
       <div className="text">
         <Localized id="welcome">
-          <h1 />
+          <h1 className="text-header" />
         </Localized>
         <Localized id="welcome-subheader">
-          <p />
+          <p className="text-body" />
         </Localized>
       </div>
       <LinkButton rounded to={URLS.DEMO_DATASETS} className="btn-get-started">
