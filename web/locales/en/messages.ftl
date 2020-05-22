@@ -813,6 +813,6 @@ profile-not-required = Having a profile is not required to contribute though it 
 read-more-about = Read more on our About page
 
 ## DemoLayout
-get-started = Let's Get Started
-welcome = Welcome to Common Voice
-welcome-subheader = Interested in learning more and contributing to the project?
+demo-get-started = Let's Get Started
+demo-welcome = Welcome to Common Voice
+demo-welcome-subheader = Interested in learning more and contributing to the project?
