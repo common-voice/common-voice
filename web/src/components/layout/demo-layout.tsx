@@ -1,7 +1,9 @@
+import { Suspense } from 'react';
 import * as React from 'react';
-import { Switch, Route, withRouter } from 'react-router';
+import { Switch, Route, withRouter, Redirect } from 'react-router';
 import { useLocale } from '../locale-helpers';
 import { Spinner } from '../ui/ui';
+import URLS from '../../urls';
 import Intro from '../demo_pages/Intro/intro';
 
 function DemoLayout() {
@@ -9,20 +11,20 @@ function DemoLayout() {
 
   return (
     <div>
-      <React.Suspense fallback={<Spinner />}>
+      <Suspense fallback={<Spinner />}>
         <Switch>
-          <Route exact path={toLocaleRoute('/demo')} component={Intro} />
+          <Route exact path={toLocaleRoute(URLS.DEMO)} component={Intro} />
           <Route
             exact
-            path={toLocaleRoute('/demo/language-select')}
+            path={toLocaleRoute(URLS.DEMO_DATASETS)}
             render={() => {
               return <h1>in language select</h1>;
             }}
           />
           {/* more routes to be added */}
-          <Route path="*" render={() => <h1>not found</h1>} />
+          <Route render={() => <Redirect to={URLS.DEMO} />} />
         </Switch>
-      </React.Suspense>
+      </Suspense>
     </div>
   );
 }
