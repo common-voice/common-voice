@@ -1,5 +1,6 @@
 const path = require('path');
 const chalk = require('chalk');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PreloadWebpackPlugin = require('preload-webpack-plugin');
@@ -101,6 +102,10 @@ module.exports = {
       this.plugin('watchRun', () => console.log(chalk.yellow('Rebuilding…')));
       this.plugin('done', () => console.log(chalk.green('Built!')));
     },
+    new webpack.DefinePlugin({
+      'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA)
+    })
+
     // new require('webpack-bundle-analyzer').BundleAnalyzerPlugin({ analyzerMode: 'static' }),
   ],
 };
