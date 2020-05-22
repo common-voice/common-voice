@@ -10,13 +10,9 @@
     background-size: contain;
 }
 
-.text-box {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    height: 173px;
-    left: calc(50% - 700px / 2 + 1px);
-    bottom: 68px;
+.text {
+    text-align: center;
+    font-weight: normal;
 }
 
 .text > h1 {
