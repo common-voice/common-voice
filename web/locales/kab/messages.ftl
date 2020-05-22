@@ -69,6 +69,7 @@ hr = Takarwasit
 hsb = Sorbyan, Tameqqrant
 hu = Tahungaṛit
 hy-AM = Taṛminit
+hyw = Taṛminit tutrimt
 ia = Tutlayt tagraɣlant
 id = Tandunizit
 is = Taṣlandit

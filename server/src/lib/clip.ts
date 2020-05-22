@@ -17,11 +17,6 @@ import { ChallengeToken, challengeTokens } from 'common';
 
 const Transcoder = require('stream-transcoder');
 
-const SALT = '8hd3e8sddFSdfj';
-
-export const hash = (str: string) =>
-  crypto.createHmac('sha256', SALT).update(str).digest('hex');
-
 /**
  * Clip - Responsibly for saving and serving clips.
  */
@@ -123,18 +118,21 @@ export default class Clip {
 
   /**
    * Save the request body as an audio file.
+   * TODO: Check for empty or silent clips before uploading.
    */
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers, params } = request;
     const sentence = decodeURIComponent(headers.sentence as string);
+    const sentenceId = headers.sentence_id;
 
-    if (!client_id || !sentence) {
+    if (!client_id || !sentence || !sentenceId) {
+      console.log(`sent headers: ${JSON.stringify(headers)}`);
       throw new ClientParameterError();
     }
 
     // Where is our audio clip going to be located?
     const folder = client_id + '/';
-    const filePrefix = hash(sentence);
+    const filePrefix = sentenceId;
     const clipFileName = folder + filePrefix + '.mp3';
 
     // if the folder does not exist, we create it
@@ -179,10 +177,9 @@ export default class Clip {
       await this.model.saveClip({
         client_id: client_id,
         locale: params.locale,
-        original_sentence_id: filePrefix,
+        original_sentence_id: sentenceId,
         path: clipFileName,
         sentence,
-        sentenceId: headers.sentence_id,
       });
       await Awards.checkProgress(client_id, { name: params.locale });
 

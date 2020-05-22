@@ -95,6 +95,10 @@
             }
         }
 
+        path {
+            fill: var(--near-black);
+        }
+
         &:hover,
         &:active {
             color: var(--white);
@@ -110,10 +114,6 @@
             background: var(--white);
             box-shadow: var(--vote-button-box-shadow)
                 color-mod(var(--grey) alpha(80%));
-
-            & path {
-                fill: var(--near-black);
-            }
         }
 
         & svg {

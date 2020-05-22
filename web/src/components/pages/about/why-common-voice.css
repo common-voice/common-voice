@@ -78,7 +78,7 @@
         & .line {
             width: 70px;
             height: 3px;
-            background: linear-gradient(to right, #f89096, #b1b4e5);
+            background: linear-gradient(to right, var(--gradient-pink), var(--gradient-purple));
 
             @media (--md-down) {
                 margin-bottom: 20px;

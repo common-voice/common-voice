@@ -10,7 +10,7 @@
     width: 44px;
     height: 44px;
     overflow: hidden;
-    background: #f89096;
+    background: var(--gradient-pink);
 
     & > img {
         object-fit: cover;

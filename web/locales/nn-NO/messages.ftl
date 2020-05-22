@@ -235,6 +235,7 @@ whats-public = Kva er offentleg?
 email-not-public = Vi gjer ikkje e-postadressa di offentleg.
 recordings-and-locale-public = Talet på innspelingar og kva for språk du bidreg til er offentleg.
 username-optin-public = Du kan velje å gjere brukarnamnet ditt offentleg eller anonymt.
+demographic-deidentified-clarity = Valfritt innsende demografiske data (t.d. alder, kjønn, språk og aksent) vert aldri offentleggjorde på profilen din, og vert ikkje kopla til kontoen din i datasettet. Individuelle lydklipp vert assosierte med demografiske data for å oppnå meir nøyaktig analyse - til dømes vil ein forskar kunne rette ein treningsmodell mot eit spesifikt demografisk segment.
 username-email-not-demographic = Brukernamnet ditt og e-postadressa di vil ikkje bli assosierte med offentliggjorde data.
 
 ## Speak & Listen Shortcuts
@@ -443,6 +444,11 @@ about-partnership =
     
     Vi vil gjerne få takke følgjande personar og organisasjonar for hjelpa deira med prosjektet:
 about-get-involved = Ver med
+about-get-involved-text-2 =
+    Vil du hjelpe til med å gjere Common Voice endå  betre?
+    Flott! Ta kontakt via e-post eller på <discourseLink>Discourse</discourseLink>,
+    forum, send inn nettstadtilbakemelding via <githubLink>GitHub</githubLink>,
+    eller bli med på <matrixLink>Matrix</matrixLink>-samfunnsprat.
 about-nav-why-common-voice = Kvifor ?
 about-nav-how-it-works = Korleis ?
 about-nav-partners = Partnarar
@@ -621,6 +627,7 @@ contribute-more =
 record-cta = Start innspeling
 record-platform-not-supported = Vi beklagar, men plattforma di er for tida ikkje støtta.
 record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
+record-platform-not-supported-ios-non-safari = På iOS må du fortsetje med Safari for å aktivere innspeling…
 record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
 record-no-mic-found = Fann ingen mikrofon.
 record-error-too-short = Innspelinga var for kort.
@@ -634,6 +641,8 @@ record-again-instruction = Bra!<recordIcon></recordIcon> Spel inn det neste klip
 record-again-instruction2 = Fortset slik og spel inn ein gong til <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den siste!
 review-tooltip = Her kan du vurdere og spele inn klipp på nytt
+share-clip = Del lydklippet ditt
+share-common-voice = Del Common Voice
 review-instruction = Vurder og spel inn klipp på nytt om det trengst
 record-submit-tooltip = { $actionType } send inn når du er klar
 clips-uploaded = Klipp opplasta
@@ -646,10 +655,16 @@ listen-instruction = { $actionType } <playIcon></playIcon> var setninga sagt ret
 listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong tilnår du er klar for det
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
 listen-last-time-instruction = <playIcon></playIcon>Det siste!
+listen-empty-state = Vi har gått tom for klipp å validere på dette språket…
+speak-empty-state = Vi har gått tom for setningar å spele inn på dette språket…
+speak-empty-state-cta = Bidra med setningar
 record-button-label = Spel inn stemma di
 share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
 keep-track-profile = Hald oversikt over framgangen din med ein profil
 login-to-get-started = Logg inn eller registrer deg for å kome i gang
+target-segment-first-card = Du bidrar til det første målsegmentet vårt
+target-segment-first-banner = Hjelp til med å lage Common Voice sitt første målsegment i { $locale }
+target-segment-add-voice = Legg til stemma din
 target-segment-learn-more = Les meir
 
 ## Reporting

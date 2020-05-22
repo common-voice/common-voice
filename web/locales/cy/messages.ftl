@@ -69,6 +69,7 @@ hr = Croatieg
 hsb = Sorbeg Uwch
 hu = Hwngareg
 hy-AM = Armeneg
+hyw = Armeneg Gorllewninol
 ia = Interlingua
 id = Indoneseg
 is = Eislandeg

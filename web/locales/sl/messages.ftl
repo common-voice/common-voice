@@ -69,6 +69,7 @@ hr = hrvaščina
 hsb = gornja lužiška srbščina
 hu = madžarščina
 hy-AM = armenščina
+hyw = zahodna armenščina
 ia = interlingva
 id = indonezijščina
 is = islandščina
@@ -663,6 +664,8 @@ record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 keep-track-profile = S profilom spremljajte svoj napredek
 login-to-get-started = Za začetek se prijavite ali registrirajte
+target-segment-first-card = Prispevate v naš prvi ciljni segment
+target-segment-first-banner = Pomagajte ustvariti prvi ciljni segment Common Voice v jeziku { $locale }
 target-segment-add-voice = Dodajte svoj glas
 target-segment-learn-more = Več o tem
 

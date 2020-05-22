@@ -15,7 +15,6 @@ export namespace Clips {
       showFirstStreakToast: boolean;
       hasEarnedSessionToast: boolean;
       challengeEnded: boolean;
-      next?: Clip;
     };
   }
 
@@ -70,29 +69,29 @@ export namespace Clips {
 
       try {
         dispatch({ type: ActionType.LOAD });
-        const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE);
+        const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE - localeClips(state).clips.length);
+
         dispatch({
           type: ActionType.REFILL_CACHE,
           clips: clips.map(clip => {
-            let sentence;
+            let sentence = clip.sentence;
             try {
-              sentence = decodeURIComponent(clip.text);
+              sentence.text = decodeURIComponent(sentence.text);
             } catch (e) {
               if (e.name !== 'URIError') {
                 throw e;
               }
-              sentence = clip.text;
             }
 
             return {
               id: clip.id,
               glob: clip.glob,
               sentence,
-              audioSrc: clip.sound,
+              audioSrc: clip.audioSrc,
             };
           }),
         });
-        await Promise.all(clips.map(({ sound }) => fetch(sound)));
+        await Promise.all(clips.map(({ audioSrc }) => fetch(audioSrc)));
       } catch (err) {
         if (err instanceof XMLHttpRequest) {
           dispatch({ type: ActionType.REFILL_CACHE });
@@ -107,7 +106,8 @@ export namespace Clips {
       getState: () => StateTree
     ) => {
       const state = getState();
-      const id = clipId || localeClips(state).next.id;
+      const id = clipId;
+
       dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
       const {
         showFirstContributionToast,
@@ -147,7 +147,6 @@ export namespace Clips {
         ...state,
         [locale]: {
           clips: [],
-          next: null,
           isLoading: false,
           showFirstContributionToast: false,
           showFirstStreakToast: false,
@@ -176,28 +175,28 @@ export namespace Clips {
             ? localeState.clips.concat(action.clips)
             : localeState.clips
           : [];
-        const next = localeState.next || clips.shift();
+
+        const filtered = clips.filter(
+          (clip1, i) =>
+            clips.findIndex(clip2 => clip2.id === clip1.id) === i
+        );
+
         return {
           ...state,
           [locale]: {
-            clips: clips.filter(
-              (clip1, i) =>
-                clips.findIndex(clip2 => clip2.id === clip1.id) === i
-            ),
+            clips: filtered,
             isLoading: false,
             hasEarnedSessionToast: false,
             showFirstContributionToast: false,
             showFirstStreakToast: false,
-            challengeEnded: true,
-            next,
+            challengeEnded: true
           },
         };
       }
 
       case ActionType.REMOVE_CLIP: {
         const clips = localeState.clips.filter(c => c.id !== action.clipId);
-        const next = clips.pop();
-        return { ...state, [locale]: { ...localeState, clips, next } };
+        return { ...state, [locale]: { ...localeState, clips} };
       }
 
       case ActionType.ACHIEVEMENT: {

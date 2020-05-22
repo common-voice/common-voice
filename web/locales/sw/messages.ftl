@@ -41,7 +41,6 @@ fr = Kifaransa
 ga-IE = Kieire
 ha = Kihausa
 he = Kiebrania
-hi-IN = Kihindi
 hr = Kikroatia
 id = Kiindonesia
 it = Kiitaliano
@@ -76,6 +75,7 @@ terms = Masharti
 cookies = Vidakuzi
 faq = Maswali Yanayoulizwa Sana
 content-license-text = Yaliyomo yapo chini ya leseni ya <licenseLink> Creative Commons </licenseLink>
+share-title = Tusaidie kupata wengine kutoa sauti zao!
 link-copied = Kiunga Imenakiliwa
 back-top = Rejea Mwanzoni
 logout = Toka
@@ -87,8 +87,11 @@ home-cta = Ongea sasa, changia hapa!
 show-wall-of-text = Soma mengineyo
 vote-yes = Ndio
 vote-no = La
+speak-subtitle = Toa sauti yako
 listen-subtitle = Tusaidie kuthibitisha sauti
+listen-goal-text = vipande vilivyo halalishwa
 hours-recorded = masaa yaliyorekodiwa
+hours-validated = masaa yaliyo halalishwa
 todays-progress = Maendeleo ya leo
 help-reach-goal = Tusaidie kufikia { $goal }
 read-terms-q = Je! Umesoma Masharti yetu?
@@ -143,6 +146,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nasa sauti/ Acha
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = rekodi upya
 
 ## ProjectStatus
 
@@ -167,6 +171,7 @@ visible = inayoonekana
 native-language =
     .label = Lugha asili
 profile-form-submit-save = Hifadhi
+profile-form-submit-saved = Imehifadhiwa
 male = mwanaume
 female = mwanamke
 # Gender
@@ -177,6 +182,8 @@ why-demographic = kwanini ina umuhimu?
 accept-privacy-title = Sera ya Faragha
 login-signup = Ingia/Jisajili
 edit = Hariri
+off = zima
+on = washa
 retry-voice-wave-recording = jaribu tena
 delete-voice = futa
 add-language = ongeza lugha
@@ -187,10 +194,17 @@ faq-what-cv-q = common voice ni nini?
 faq-why-important-q = kwanini hii ni ya umuhimu?
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
 faq-using-cv = kutumia common voice
+faq-search-for-answers =
+    .label = tafuta majibu
 
 ## ABOUT US
 
+about-title = kwanini common voice
+how-does-it-work-title = inafanyaje kazi
+about-listen = sikiliza
 about-get-involved = Jihusishe
+about-nav-why-common-voice = kwanini?
+about-nav-get-involved = Jihusishe
 
 ## Glossary
 
@@ -201,16 +215,22 @@ about-get-involved = Jihusishe
 ## Data
 
 data-download-yes = Ndio
+data-download-deny = Hapana
 data-download-license = Leseni: <licenseLink> CC-0 </licenseLink>
 data-other-goto = Nenda kwa { $name }
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 terms-agree = nakubali
 terms-disagree = Sikubali
+review-delete-recordings = Futa rekodi zangu
 
 ## Datasets Page
 
+language = lugha
 cv-license = Leseni
+number-of-voices = idadi ya sauti
+splits = Migawanyiko
+recorded-hours = masaa yaliyorekodiwa
 
 ## Download Modal
 
@@ -235,10 +255,14 @@ other-language = Lugha Nyingine
 language-total-progress = Jumla
 language-search-input =
     .placeholder = Tafuta
+language-speakers = Wasemaji
+sentences = Masentensi
 
 ## Contribution
 
 contribute = Changia
+skip = ruka
+record-cta = anza kurekodi
 
 ## Reporting
 
