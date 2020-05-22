@@ -13,7 +13,6 @@ import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import * as Sentry from '@sentry/browser';
 import * as FullStory from '@fullstory/browser';
-import * as Amplitude from 'amplitude-js';
 import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
@@ -55,7 +54,6 @@ const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 const SENTRY_FE_DSN =
   'https://4a940c31e4e14d8fa6984e919a56b9fa@sentry.prod.mozaws.net/491';
 const FS_KEY = 'QDBTF';
-const AMPLITUDE_KEY = '';
 
 interface PropsFromState {
   api: API;
@@ -335,14 +333,6 @@ class App extends React.Component {
     });
 
     if (isProduction() && !doNotTrack()) {
-      Amplitude.getInstance().init(AMPLITUDE_KEY, null, {
-        trackingOptions: {
-          carrier: false,
-          dma: false,
-          ip_address: false,
-        },
-      });
-
       FullStory.init({
         orgId: FS_KEY,
       });

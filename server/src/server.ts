@@ -70,6 +70,11 @@ export default class Server {
     this.logger = new Logger();
     this.isLeader = null;
 
+    // Make console.log output json.
+    if (PROD) {
+      this.logger.overrideConsole();
+    }
+
     const app = (this.app = express());
 
     const staticOptions = {
