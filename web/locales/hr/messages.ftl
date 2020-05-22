@@ -69,6 +69,7 @@ hr = Hrvatski
 hsb = Lužičkosrpski, gornji
 hu = Mađarski
 hy-AM = Armenski
+hyw = Armenski zapadni
 ia = Interlingua
 id = Indonezijski
 is = Islandski

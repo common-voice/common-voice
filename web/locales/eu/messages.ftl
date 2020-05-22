@@ -64,10 +64,12 @@ ga-IE = Irlandako gaelikoa
 gl = Galiziera
 ha = Hausa
 he = Hebreera
-hi-IN = Hindia
+hi = Hindia
 hr = Kroaziera
 hsb = Goi-sorabiera
 hu = Hungariera
+hy-AM = Armeniera
+hyw = Armeniera (mendebaldekoa)
 ia = Interlingua
 id = Indonesiera
 is = Islandiera
@@ -75,13 +77,16 @@ it = Italiera
 izh = Ingriera
 ja = Japoniera
 ka = Georgiera
+kaa = Karakalpaka
 kab = Kabylera
+kbd = Kabardinoa
 kk = Kazakhera
 ko = Koreera
 kpv = Komiera
 ku = Kurduera
 kw = Kornubiera
 ky = Kirgizera
+lg = Luganda
 lij = Liguriera
 lt = Lituaniera
 lv = Letoniera
@@ -93,6 +98,7 @@ ml = Malabarera
 mn = Mongoliera
 mrj = Mendietako mariera
 mt = Maltera
+my = Birmaniera
 myv = Erziera
 nb-NO = Bokmåla
 ne-NP = Nepalera
@@ -110,6 +116,7 @@ ru = Errusiera
 rw = Kinyaruanda
 sah = Sakha
 sc = Sardiniera
+scn = Siziliera
 si = Sinhala
 sk = Eslovakiera
 sl = Esloveniera
@@ -122,6 +129,7 @@ ta = Tamilera
 te = Telugua
 tg = Tajikera
 th = Thailandiera
+tl = Tagaloa
 tr = Turkiera
 tt = Tatarera
 uby = Ubikera
@@ -227,7 +235,6 @@ whats-public = Zer da Publikoa?
 email-not-public = Ez dugu zure e-posta helbidea publiko egingo.
 recordings-and-locale-public = Grabaketa kopurua eta zein hizkuntzatan laguntzen duzun publikoa izango da.
 username-optin-public = Zure erabiltzaile-izena publikoa edo anonimoa izatea aukera dezakezu.
-demographic-deidentified = Nahi izanez gero, zehaztu ditzakezun datu demografikoak (adibidez, adina, sexua, hizkuntza eta azentua) igotzen dituzun ahots datuetatik des-identifikatu egiten dira eta ez dira inoiz publiko egiten zure profilean.
 username-email-not-demographic = Zure erabiltzaile-izena eta e-posta ez dira argitaratutako datuekin lotuko.
 
 ## Speak & Listen Shortcuts
@@ -327,16 +334,20 @@ skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun
 off = Itzalita
 on = Piztuta
 avatar-clip-title = Eman ahotsa zure abatarrari
-change-your-avatar-clip = Zure ahots-klipa aldatu nahi duzu?
+change-your-avatar-clip = Zure ahots-grabaketa aldatu nahi duzu?
 recording-in-progress = Ahotsa grabatzen ari da
-avatar-clip-recorded = Zure abatarrak orain ahots-klipa du!
+avatar-clip-recorded = Zure avatarrak orain ahots-grabaketa bat du!
+record-voice-wave = GRABATU AHOTS-UHINA
 retry-voice-wave-recording = SAIATU BERRIRO
 re-record = GRABATU BERRIRO
 delete-voice = EZABATU
 recording-voice-wave = Grabazioa
 delete-voice-clip = edo ezabatu ahots grabazioa
 ready-to-upload = IGO
+avatar-clip-fact = Aspalditik jakina da irakurleak eduki irakurgarritik arreta galtzen duela orriaren diseinuari begiratzen dionean.
+recreate-voice = Birsortu ahots-uhina
 cancel-avatar-clip-recording = Utzi
+about-avatar-clip-recording = Sortu ahots grabaketa bat zure profileko avatarrari esleitzeko. Honela, beste pertsona batzuek zure ahotsa entzun ahalko dute.
 browse-file-title = Igo irudi-fitxategi bat
 browse-file = Arrastatu eta jaregin, edo <browseWrap>nabigatu</browseWrap>
 connect-gravatar = Konektatu Gravatarrera
@@ -396,12 +407,14 @@ faq-what-determine-identity-a =
     Datu-sortako ahots grabaketa guztiei informazio pertsonala kentzen zaie. Datu-sorta deskargatzen duzunean, laguntzaile bat bera ere nor den ondorioztatzen saiatuko ez zarela onartzen duzu. Horrek esan nahi du ezin duzula datu-sortako datu bat ere laguntzaile baten datu pertsonalekin lotu. Hala ere, lotu dezakezu datu-sortako informazio bat datu-sorta barruko beste datu batekin, adibidez hizketaren ezagutza, hizlariaren detekzioa edo bestelako aplikazioak burutzeko.
 faq-what-is-cv = Zer da Common Voice?
 faq-using-cv = Common Voice erabiltzen
+faq-description = Common Voice proiektua Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko.
 faq-search-for-answers =
     .label = Erantzunak bilatu
 
 ## ABOUT US
 
 about-title = Zergatik Common Voice?
+about-subtitle = Common Voice Mozillaren ekimenaren parte da, makinei gizakiek benetan nola hitz egiten duten irakasten laguntzeko. Common Voice datu-sortaz gain, kode irekiko ahotsa ezagutzeko motorra ere sortzen ari gara, Deep Speech izenekoa.
 how-does-it-work-title = Nola dabilen
 how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabaketen egokitasuna, egin datu-sorta hobea guztiontzat.
 about-speak = Hitz egin
@@ -422,6 +435,10 @@ about-clip-graveyard = Grabaketen hilerria
 about-clip-graveyard-text = Grabaketen hilerria Common Voice datu-sortan sartu ez diren ahots grabaketez osatuta dago. Datu-sorta bezala, Grabaketen hilerria ere deskargagarri dago.
 about-partners = Babesleak
 about-become-a-partner = Babesle bihurtu
+about-partnership =
+    Common Voice lankidetza-proiektu bat da. Horregatik, gure bazkide- eta laguntzaile-komunitatea ezinbestekoa dugu historiako kode irekiko ahotsen datu-sortarik handiena biltzeko.
+    
+    Eskerrak eman nahi dizkiegu honako pertsona eta erakunde hauei proiektuan laguntzeagatik:
 about-get-involved = Parte hartu
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
@@ -429,6 +446,10 @@ about-nav-partners = Babesleak
 about-nav-get-involved = Parte hartu
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Adimen artifiziala
+mycroft-description =
+    Mycroft munduko lehen kode irekiko laguntzailea da.
+    Mycroft edozein lekutan dabil; idazmahaiko ordenagailu baten, auto baten barruan edo Raspberry Pi batean.
+mycroft-secondary-description = Hau kode irekiko softwarea da eta nahieran nahastu, hedatu eta hobetu daiteke. Mycroft edozertarako erabil daiteke, proiektu zientifiko batetik hasi eta software enpresarialeko aplikazio batera arte.
 
 ## Glossary
 
@@ -597,7 +618,7 @@ contribute-more =
 record-cta = Hasi grabazioa
 record-platform-not-supported = Sentitzen dugu baina orain ez diogu plataforma horri euskarririk ematen.
 record-platform-not-supported-desktop = Mahaigaineko ordenagailuetan, azkena deskarga dezakezu:
-record-platform-not-supported-ios = <bold>iOS</bold> erabiltzaileek gure app librea deskarga dezakete:
+record-platform-not-supported-ios-non-safari = iOS-en Safarirekin jarraitu grabaketak egin ahal izateko…
 record-must-allow-microphone = Mikrofonoa erabiltzeko baimena eman behar duzu.
 record-no-mic-found = Ez da mikrofonorik aurkitu.
 record-error-too-short = Grabaketa laburregia izan da.
@@ -611,6 +632,8 @@ record-again-instruction = Bikain!<recordIcon></recordIcon> Egin zure hurrengo g
 record-again-instruction2 = Segi horrela! grabatu berriro <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Azkena!
 review-tooltip = Berrikusi eta grabaketak berregin hemen egin ahala
+share-clip = Partekatu zure grabaketa
+share-common-voice = Partekatu Common Voice
 review-instruction = Berrikusi eta grabaketak berriz egin beharrezkoa bada
 record-submit-tooltip = { $actionType } bidali prest egotean
 clips-uploaded = Grabaketak igota
@@ -623,20 +646,31 @@ listen-instruction = { $actionType }<playIcon></playIcon> esaldia ondo ahoskatu 
 listen-again-instruction = Lan bikaina!<playIcon></playIcon> Entzun berriro prest zaudenean
 listen-3rd-time-instruction = 2 gutxiago, segi horrela!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Azkena!
-nothing-to-validate = Ez daukagu ezer balioztatzeko hizkuntza honetan, lagun gaitzazu ilara betetzen.
+listen-empty-state = Balioztatzeko grabaketarik gabe geratu gara hizkuntza honetan...
+speak-empty-state = Grabatzeko esaldirik gabe geratu gara hizkuntza honetan...
+speak-empty-state-cta = Lagundu esaldiekin
 record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
+keep-track-profile = Jarraitu zure aurrerapenak profil batekin
 login-to-get-started = Hasteko, hasi saioa edo eman izena
+target-segment-add-voice = Gehitu zure ahotsa
+target-segment-learn-more = Ikasi gehiago
 
 ## Reporting
 
 report = Salatu
 report-title = Bidali salaketa bat
+report-ask = Zein arazo izaten ari zara esaldi honekin?
 report-offensive-language = Hizkuntza iraingarria
+report-offensive-language-detail = Esaldiak errespeturik gabeko hizkuntza du edo hizkera iraingarria du.
 report-grammar-or-spelling = Akats gramatikala / ortografikoa
+report-grammar-or-spelling-detail = Esaldiak gramatika edo ortografia akats bat du.
 report-different-language = Beste hizkuntza bat
+report-different-language-detail = Hitz egiten ari naizen hizkuntza ez den beste batean idatzita dago.
 report-difficult-pronounce = Ahoskatzeko zaila
+report-difficult-pronounce-detail = Irakurtzeko edo ahoskatzeko zailak diren hitzak edo esaldiak ditu.
 report-offensive-speech = Hizkuntza iraingarria
+report-offensive-speech-detail = Grabaketak errespeturik gabeko hizkuntza du edo hizkera iraingarria du.
 report-other-comment =
     .placeholder = Iruzkina
 success = Ondo burutu da
@@ -671,6 +705,7 @@ clips-you-validated = Balioztatu dituzun grabaketak
 todays-recorded-progress = Common Voicen gaurko aurrerapena egindako grabaketetan
 todays-validated-progress = Common Voicen gaurko aurrerapena balioztatutako grabaketetan
 stats = Estatistikak
+awards = Sariak
 you = Zuk
 everyone = Denek
 contribution-activity = Gaurko jarduera
@@ -680,9 +715,12 @@ validated-clips = Balioztatutako grabaketak
 total-approved = Onartuak guztira
 overall-accuracy = Zehaztasun orokorra
 set-visibility = Ezarri nire ikusgarritasuna
+visibility-overlay-note = Oharra: 'Ikusgai' ezartzen denean, ezarpen hau <profileLink>Profil orrian</profileLink> aldatu daiteke
+show-ranking = Erakutsi nire rankinga
 
 ## Custom Goals
 
+get-started-goals = Hasi helburuekin
 create-custom-goal = Sortu helburu pertsonalizatua
 both-speak-and-listen = Biak
 both-speak-and-listen-long = Biak (hitz egin eta entzun)
@@ -692,19 +730,45 @@ easy-difficulty = Erraza
 average-difficulty = Ertaina
 difficult-difficulty = Zaila
 pro-difficulty = Profesionala
+lose-goal-progress-warning = Zure helburua aldatzean, orain arteko zure aurrerapena gal dezakezu.
 want-to-continue = Jarraitu egin nahi duzu?
 finish-editing = Editatzea amaitu lehenengo?
 lose-changes-warning = Orain utziz gero zure aldaketak galduko dituzu
+build-custom-goal = Sortu helburu pertsonalizatua
+help-reach-hours = Lagundu { NUMBER($hours) } ordu lortzen { $language } hizkuntzan zure helburu pertsonal bat ezarriz
+help-reach-hours-general = Lagundu Common Voice-en { NUMBER($hours) } ordu lortzen hizkuntza batean, helburu pertsonal bat ezarriz
+set-a-goal = Ezarri helburu bat
+cant-decide = Ezin duzu erabaki?
+activity-needed-calculation =
+    { NUMBER($totalHours) } orduko helburua eskuragarria da { NUMBER($periodMonths) }
+    hilabete baino gehixeagoan, baldin eta { NUMBER($people) } pertsonek egunero
+    { NUMBER($clipsPerDay) } grabaketa egiten badituzte.
+how-many-per-day = Primeran! Zenbat grabaketa egunean?
+how-many-a-week = Primeran! Zenbat grabaketa astean?
+which-goal-type = Hitz egin, entzun edo biak egin nahi dituzu?
 receiving-emails-info =
     Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren
     eguneraketak eta buletinak posta elektroniko bidez jasotzeko aukera ezarrita duzu
 not-receiving-emails-info =
     Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren
     eguneraketak eta buletinak posta elektroniko bidez jasotzeko aukera <bold>EZ</bold> duzu ezarrita
+n-clips = { NUMBER($count) } grabaketa
+help-share-goal = Lagundu ahots gehiago lortzen, partekatu zure helburua
 confirm-goal = Berretsi helburua
+goal-interval-weekly = Astero
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Partekatu zure { $type } motako { $count } grabaketa egunero lortzeko helburua
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Partekatu zure { $type } motako { $count } grabaketa astero lortzeko helburua
 share-goal-type-speak = Hitz egiten
 share-goal-type-listen = Entzuten
 share-goal-type-both = Hitz egiten eta entzuten
+# LINK will be replaced with the current URL
+goal-share-text = Helburu pertsonal bat sortu berri dut #CommonVoice-ri ahotsa emateko -- zatoz nirekin eta lagundu makinei erakusten benetako pertsonek nola hitz egiten duten { $link }
+weekly-goal-created = Zure asteroko helburua sortu da
+daily-goal-created = Zure eguneroko helburua sortu da
+track-progress = Jarraitu aurrerapena hemen eta zure estatistiken orrian.
+return-to-edit-goal = Itzul zaitez hona zure helburua noiznahi aldatzeko.
 share-goal = Partekatu nire helburua
 
 ## Profile Delete
@@ -722,6 +786,8 @@ profile-form-delete = Ezabatu profila
 
 ## Landing
 
+welcome-staff = Ongi etorri, { $company }-(e)ko langile!
+help-contribute = Kode irekiko datu-multzo desberdin bat eraikitzen lagun dezakezu, Common Voice profil bat sortuz eta zure ahotsaz lagunduz.
 login-company = Hasi saioa / Eman izena { $company }-ko epostarekin
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 read-more-about = Irakurri gehiago guri buruzko orrian

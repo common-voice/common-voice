@@ -136,8 +136,12 @@ let LocalizedPage: any = class extends React.Component<
           award.days_interval == 1 ? 'daily' : 'weekly'
         } goal achieved!`,
         {
-          children: 'Check out your award!',
-          to: URLS.AWARDS,
+          links: [
+            {
+              children: 'Check out your award!',
+              to: URLS.AWARDS,
+            },
+          ],
         }
       );
       await api.seenAwards('notification');
@@ -246,20 +250,15 @@ let LocalizedPage: any = class extends React.Component<
               {notifications
                 .slice()
                 .reverse()
-                .map(notification =>
-                  notification.kind == 'pill' ? (
+                .map(
+                  notification =>
+                    notification.kind == 'pill' &&
                     notification.type !== 'achievement' && (
                       <NotificationPill
                         key={notification.id}
                         notification={notification}
                       />
                     )
-                  ) : (
-                    <NotificationBanner
-                      key={notification.id}
-                      notification={notification}
-                    />
-                  )
                 )}
             </div>
 

@@ -16698,6 +16698,7 @@ En plein dans son artère, là où passent les humeurs.
 En plein milieu du Séronais.
 En plein plan à trois.
 En pleine crise schizoïde.
+En pleine pandémie, on manquait de tests et de masques.
 En pleine ville de Bombay ?
 En plus du vrai monde.
 En plus d’en être le NoéNaute.
@@ -29956,6 +29957,7 @@ Je ne pense pas comme toi.
 Je ne pense pas qu'il faille l'enlever
 Je ne pense pas qu’il puisse y avoir de problème.
 Je ne pense pas qu’il y ait là de quoi nous préoccuper
+Je ne pense pas rouvrir mon épicerie sitôt.
 Je ne peux avoir avec lui aucun rapport direct.
 Je ne peux pas faire grouiller les pierres, que diable ! …
 Je ne peux pas le tolérer !
@@ -31791,6 +31793,7 @@ Je vais probablement remplir le dossier en début d'après-midi.
 Je vais profiter de la clémence de la météo pour retourner examiner le secteur.
 Je vais remonter à la surface des eaux.
 Je vais reprendre l'exemple de Martin
+Je vais réessayer pour voir !
 Je vais seulement te raconter les effets produits par ta lettre.
 Je vais surveiller une éventuelle baisse de tarif dans les prochains jours.
 Je vais te dire Aglaé : je le connais bien, le pitchoun.
@@ -34642,6 +34645,7 @@ La garde-robe est volontiers le lieu d’audience des personnes royales.
 La garenne fournissait toujours son contingent de lapins aux offices de Granite-house
 La garenne fournissait toujours son contingent de lapins aux offices de Granite-house.
 La gargote allait mal.
+La gestion des masques a été calamiteuse.
 La gestion des situations d'urgence et de crise doit être actualisée.
 La gestion des situations d'urgence et de crise nécessite d'être organisée.
 La gestion des situations d'urgence et de crise nécessite d'être régulièrement testée.
@@ -36961,6 +36965,7 @@ Le comte s'évertuait à dire son amour, et à triompher là-dessus.
 Le comte était redevenu grave.
 Le condor devenait plus visible d’instants en instants.
 Le confinement a débuté le mardi quinze mars à midi.
+Le confinement, on aurait aimé pouvoir s’en passer.
 Le connaissez-vous, monsieur !
 Le connestable d’Armignac Lavieille cent quarante-cinq cent trente.
 Le connestable interrogue ses gens Michel cent cinquante cent trente-cinq.
@@ -40254,6 +40259,7 @@ Les huîtres c'est le mal.
 Les huîtres c’est le mal.
 Les hémorroïdes sont l'antithèse de la réincarnation.
 Les hérésies aux fruits ne méritent pas d’exister.
+Les hôpitaux étaient saturés à cause du coronavirus.
 Les hôtesses ont de nouvelles tenues.
 Les idées les plus absurdes s’enchevêtrèrent dans ma tête.
 Les idées qu’on se fait, ce ne sont jamais de bonnes idées.
@@ -40764,6 +40770,7 @@ Les protestants le poursuivent d’une ingratitude orthodoxe.
 Les prothèses dentaires sont mal remboursées par la Sécurité sociale.
 Les provisions ! les provisions !
 Les provisions embarquées, je descendis à ma chambre.
+Les provisions mathématiques permettent de couvrir les prestations à venir.
 Les provisions sont abondantes.
 Les préservatifs sont remboursés par la sécu.
 Les psychiatres lisent dans les esprits.
@@ -41683,6 +41690,7 @@ L’accord de la Reine avec les papetiers conjuguait ces deux intérêts.
 L’achat d’une conscience Lavieille quatre-vingt-quinze quatre-vingt-quatre.
 L’acheteur, un grand pâlot, impressionné, s’en alla.
 L’acteur, je ne sais pas.
+L’actuariat calcule les provisions règlementaires.
 L’adresse apparut en surimpression.
 L’adresse émergea immédiatement de l’imprimante laser.
 L’adrénaline se montrait l’amante exigeante du risque.
@@ -44480,6 +44488,7 @@ Mais maintenant que je suis au calme.
 Mais marcher ne suffit pas.
 Mais mettons le soldat, surtout le soldat contemporain, hors de cause.
 Mais moi j’ai triché, je manquais de temps.
+Mais mon ami a accepté de tourner gratuitement.
 Mais mon fils n’est-il pas un malade ! …
 Mais mon imagination s’était arrêtée en deçà.
 Mais mon oncle ne voulait pas attendre.
@@ -72994,6 +73003,7 @@ y'en a un qui se dégage du lot.
 · · · · · · · · · · · · · · · · · · · · · · · · « Une lieue et demie !
 · · · · · · · · · · · · · · · · · · · · · · · · « Vous avez votre chronomètre ?
 · · · · · · · · · · · · · · · · · · · · · · · · — Monsieur, c’est l’usage.
+À New-York, vingt-cinq pour-cent de la population a été contaminée.
 À acquérir la précision qu'il fallait pour y parvenir.
 À acquérir la précision qu’il fallait pour y parvenir.
 À aucun moment elle ne savait qui Enguerrand enverrait ce jour-là.
@@ -73064,6 +73074,7 @@ y'en a un qui se dégage du lot.
 À l'époque j'ai cru au miracle.
 À l'époque j'ai fait celui qui comprenait.
 À l'époque où il se prénommait JeanJacques.
+À l'époque, c'était soixante-dix mille francs.
 À la barbe des douaniers !
 À la base, je voulais être actrice.
 À la bonne heure !

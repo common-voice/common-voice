@@ -1,11 +1,27 @@
 const md5 = require('js-md5');
 const DEFAULT_SALT = '8shd9fg3oi0fj';
+const SENTENCE_SALT = '8hd3e8sddFSdfj';
+import * as crypto from 'crypto';
 
 /**
- * Hash the string.
+ * Default hashing function
  */
 export function hash(str: string, salt?: string): string {
   return md5(str + (salt || DEFAULT_SALT));
+}
+
+/**
+ * Needs to behave like the client side hash() in /web/src/utility.ts
+ */
+export function hashClientId(text: string) {
+  return crypto.createHash('sha256').update(text).digest('hex');
+}
+
+/**
+ * Used to hash sentences in import-sentences.ts
+ */
+export function hashSentence(str: string) {
+  return crypto.createHmac('sha256', SENTENCE_SALT).update(str).digest('hex');
 }
 
 /**

@@ -9,6 +9,8 @@ email-input =
 submit-form-action = ስጥ
 loading = እየጫነ ነው...
 email-opt-in-info = እንደ የአላማ ማስታወሻ፣ ስለራሴ የለውጥ ሂደቶች እና ስለ የጋራ ልሳኖች አጫጭር ዜናዎች፤ የኢሜይል መልእክቶችን መቀበል እፈልጋለሁ።
+email-opt-in-info-title = የጋራ ልሳኖች ይቀላቀሉ
+email-opt-in-info-sub-with-challenge = እንደ የአላማ ማስታወሻ፣ ስለራሴ የለውጥ ሂደቶች እና ስለ የጋራ ልሳኖች አጫጭር ዜናዎች፤ የኢሜይል መልእክቶችን መቀበል እፈልጋለሁ።
 email-opt-in-privacy = ኢሜይል ለመቀበል ፈቃደኛ ሲሆኑ፤ ሞዚላ እነዚህን መረጃዎች የሚይዝበትን በሞዚላ <privacyLink>የግላዊነት ፖሊሲ</privacyLink> ላይ የተገለፀውን መቀበልዎትን ያሳያል።
 indicates-required = * የግድ መሞላት ያለበት ቦታ መሆኑን ያመለክታል
 not-available-abbreviation = ሊገኝ የማይችል
@@ -60,10 +62,12 @@ ga-IE = አይሪሽ
 gl = ጋሊስያን
 ha = ሀውሳ
 he = እብራይስጥ
-hi-IN = ህንድኛ
+hi = ሂንዲኛ
 hr = ክሮሽያኛ
 hsb = ሶርብያን - የላይኛው
 hu = ሀንጋሪኛ
+hy-AM = አርመንኛ
+hyw = የአርሜኒያ ምዕራባዊ
 ia = ኢንተርሊንጓ
 id = ኢንዶኔዥያኛ
 is = አይስላንዲክ
@@ -82,6 +86,7 @@ lij = ሊጉርያን
 lt = ሊቶንያኛ
 lv = ላቲቭያኛ
 mdf = ሞክሻ
+mg = ማለጋሲኛ
 mhr = ሜዶው ማሪ
 mk = ሜቄዶንያኛ
 ml = ማላያላም
@@ -120,6 +125,7 @@ udm = ኡድመርት
 uk = ዩክሬንኛ
 ur = ኡርዱ
 uz = ኡዝቤክ
+vec = ቨኒሸንኛ
 vi = ቬትናምኛ
 vot = ቮቲክ
 zh-CN = ቻይንኛ (ቻይና)
@@ -145,6 +151,7 @@ cookies = ኩኪዎች(የሚሸጎጡ)
 faq = FAQ (አዘውትረው የሚጠየቁ)
 content-license-text = ዝርዝሩ በ <licenseLink> በፈጠራ የጋራ ፈቃድ </licenseLink> ስር ይገኛል።
 share-title = ሌሎች ድምፃቸውን አነዲሰጡ በማድረግ ይተባበሩን።
+share-text = እውነተኛ ሰዎች እንዴት እንደሚናገሩ ማሽኖችን ለማስተማር ይረዱ ፣ ድምጽዎን በ { $link } ላይ ያቅርቡ
 link-copied = የአገናኝ አድራሻ ቅዳ
 back-top = ወደ ላይ ተመለስ
 logout = ውጣ
@@ -153,6 +160,12 @@ logout = ውጣ
 
 home-title = የተለመዱ(የጋራ) ልሳኖች በሞዚላ ተነሳሽነት እየተሠራ ያለ፤ ማሽኖችን እንዴት እውነተኛ ሠዎች እንደሚናሩ የሚያስተምር ነው።
 home-cta = ይናገሩ፦ እዚህ ያበርክቱ!
+wall-of-text-start =
+    ድምፅ ተፈጥሮአዊ ነው ፣ ድምፅ የሰው ነው ፡፡ ለዚህ ነው ጥቅም ላይ ሊውል የሚችል ድምጽ መፍጠር ያስደነቅን
+    ቴክኖሎጂዎቻችን ግን የድምፅ ስርዓቶችን ለመፍጠር እጅግ በጣም ከፍተኛ መጠን ያለው ድምፅ ክምችት ያስፈልጋል።
+wall-of-text-more-mobile =
+    በትላልቅ ኩባንያዎች ጥቅም ላይ የዋለው አብዛኛዎቹ መረጃዎች ለብዙ ሰዎች አይገኙም ይህ ደግሞ 
+    ፈጠራን የሚያደናቅፍ ነው ብለን እናስባለን። ስለዚህ ድምፅን ለሁሉም እውቅና እንዲያገኝ  የሚያግዝ ፕሮጄክት እሱም  የጋራ ድምፅ የሚባል ፕሮጄክት  አስጀምረናል::
 show-wall-of-text = ተጨማሪ ያንብቡ
 help-us-title = ትክክለኛ ዓረፍተ ነገር በመስጠት ይርዱን!
 help-us-explain = ማጫወቻውን ይጫኑ፣ ያዳምጡ እና ይንገሩን፦ ከታች ያለውን ዓረፍተ-ነገር በትትክል ተናግረውታል?
@@ -161,6 +174,7 @@ vote-yes = አዎ
 vote-no = አይደለም
 toggle-play-tooltip = ወደ ማጫወቻ አሠራር ለመቀየር { shortcut-play-toggle } እዚህ ይጫኑ
 speak-subtitle = ድምፅዋን ይለግሱ
+speak-paragraph = የድምፅ ክሊፖችን መቅዳት የእኛን የተከፈተ ዳታቤዝ የመገንባት ዋነኛው አካል ነው ፣ አንዳንዶች ደግሞ ይህ አስደሳች ክፍል ነው ይላሉ።
 speak-goal-text = የተቀዱ ድምፆች
 listen-subtitle = በትክክለኛ ድምፆች ይርዱን
 listen-goal-text = የተረጋገጡ ቅጂዎች
@@ -191,6 +205,7 @@ x-years-short =
 help-make-dataset = ጥራት ያለው እና ለህዝብ ክፍት የሆነ የመረጃ ስብስብ እንድንገነባ ይርዱን
 sign-up-account = መለያ ለማግኘት ይመዝገቡ
 email-subscription-title = ለኢሜይል ማሳወቂያ ይመዝገቡ
+email-subscription-title-new = ለተለመዱ የድምፅ ዜና መጽሔቶች ፣ ለግብ ማስታወሻዎች እና ለሂደት ዝመናዎች ይመዝገቡ
 
 ## Account Benefits
 
@@ -209,18 +224,86 @@ email-not-public = የእርስዎን ኢሜይል ይፋ አናደርግም።
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = ቅዳ / አቁም
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ድጋሚ ቅረጽ
+request-language-button = ቋንቋ ይጠይቁ
 
 ## ProjectStatus
 
+status-title = አጠቃላይ የፕሮጀክት ሁኔታ-እስከ ምን ያህል እንደመጣን ይመልከቱ!
+status-contribute = ድምፅዎን ያበርክቱ
+status-hours =
+    { $hours ->
+        [one] አንድ እስካሁን የተረጋገጡ ሰዓቶች!
+       *[other] { $hours } እስካሁን የተረጋገጡ ሰዓቶች!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ቀጣይ ግቦች: { $goal }
+english = እንግሊዝኛ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = የተጠቃሚ ስም
+profile-form-native-language =
+    .label = አፍ መፍቻ ቋንቋ
+profile-form-additional-language =
+    .label = ተጨማሪ ቋንቋ
+profile-form-accent =
+    .label = አነጋገር
+profile-form-age =
+    .label = ዕድሜ
+profile-form-gender =
+    .label = ፆታ
+leaderboard-visibility =
+    .label = የመሪዎች ሰሌዳ ታይነት
+hidden = የተደበቀ
+visible = የሚታይ
+native-language =
+    .label = አፍ መፍቻ ቋንቋ
+profile-form-submit-save = አስቀምጥ
+profile-form-submit-saved = የተቀመጠ
+male = ወንድ
+female = ሴት
+# Gender
+other = ሌላ
+why-profile-title = መገለጫ ለምን?
+dashboard = ዳሽቦርድ
+build-profile = መገለጫ ይገንቡ
+avatar = አምሳያ
+goals = ግቦች
+settings = ቅንጅቶች
+edit-profile = መገለጫ አርትዕ
+profile-create-success = ስኬት ፣ መገለጫ ተፈጠረ!
+profile-close = ዝጋ
+thanks-for-account = መለያዎን ስላረጋገጡ እናመሰግናለን ፣ አሁን መገለጫዎን እንገንባ ፡፡
+why-demographic = ይህ ጉዳይ ለምን አስፈለገ?
+accept-privacy-title = የግላዊነት ፖሊሲ
+login-identity = የመግቢያ መለያ
+login-signup = ይግቡ / ይመዝገቡ
+edit = አርትዕ ያድርጉ
+email-subscriptions = የኢሜል ምዝገባዎች
+contribution-experience = የማበርከት ተሞክሮ
+skip-submission-feedback = የግቤት ግብረመልስ ዝለል
+off = ዝግ
+on = በርቷል
+avatar-clip-title = ለአምሳሪያዎ ድምጽ ይስጡት
+retry-voice-wave-recording = እንደገና ይሞክሩ
+delete-voice = ሰርዝ
+recording-voice-wave = በመቅዳት ላይ
+ready-to-upload = መጫን
+cancel-avatar-clip-recording = ተወው
+browse-file-title = የምስል ፋይል ይጫኑ
 
 ## FAQ
 
@@ -236,6 +319,9 @@ email-not-public = የእርስዎን ኢሜይል ይፋ አናደርግም።
 
 ## Data
 
+license-mixed = የተቀላቀለ
+terms-agree = እስማማለሁ
+terms-disagree = አልስማማም
 
 ## Datasets Page
 

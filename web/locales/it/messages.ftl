@@ -69,6 +69,7 @@ hr = Croato
 hsb = Alto sorabo
 hu = Ungherese
 hy-AM = Armeno
+hyw = Armeno occidentale
 ia = Interlingua
 id = Indonesiano
 is = Islandese

@@ -10,3 +10,5 @@ huit
 neuf
 oui
 non
+Hey
+Firefox

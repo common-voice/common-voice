@@ -64,11 +64,12 @@ ga-IE = アイルランド語
 gl = ガリシア語
 ha = ハウサ語
 he = ヘブライ語
-hi-IN = ヒンディー語
+hi = ヒンディー語
 hr = クロアチア語
 hsb = 高地ソルブ語
 hu = ハンガリー語
 hy-AM = アルメニア語
+hyw = 西アルメニア語
 ia = インターリングア
 id = インドネシア語
 is = アイスランド語
@@ -231,6 +232,7 @@ whats-public = 公開される情報
 email-not-public = あなたのメールアドレスは公開しません。
 recordings-and-locale-public = 録音数とあなたの貢献した言語が公開されます。
 username-optin-public = ユーザー名を公開するか匿名にするか選ぶことができます。
+demographic-deidentified-clarity = 任意で送信された統計データ (年齢、性別、言語、アクセントなど) がプロフィールで公開されることはなく、データセット内のアカウントにもリンクされません。個々の音声クリップは、より正確な分析を行う目的で統計データに関連付けられます。たとえば、研究者がトレーニングモデルを特定の統計セグメントに向けて利用する場合があります。
 username-email-not-demographic = あなたのユーザー名とメールアドレスは、発行されたデータに関連付けられることはありません。
 
 ## Speak & Listen Shortcuts
@@ -623,6 +625,7 @@ contribute-more =
 record-cta = 録音を開始する
 record-platform-not-supported = 申し訳ありません、あなたが利用しているプラットフォームは、現在サポートされていません。
 record-platform-not-supported-desktop = デスクトップPCでは、次の最新のクライアントから利用できます。：
+record-platform-not-supported-ios-non-safari = iOS で録音を有効にするには Safari で続行してください...
 record-must-allow-microphone = マイクの利用を許可してください。
 record-no-mic-found = マイクが見つかりません。
 record-error-too-short = 録音時間が短かすぎます。
@@ -650,10 +653,17 @@ listen-instruction = <playIcon></playIcon>を{ $actionType }、流れる音声�
 listen-again-instruction = ありがとう！準備ができたら<playIcon></playIcon>で次の音声を聞いてください
 listen-3rd-time-instruction = ２つ終わりました、続けてがんばって！<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>最後の一つ！
+listen-empty-state = この言語で検証するためのクリップが不足しています...
+speak-empty-state = この言語で録音するための文章が不足しています...
+speak-empty-state-cta = 文章の収集に協力する
 record-button-label = あなたの声を録音する
 share-title-new = 音声を集める<bold>手伝い</bold>をしてください
 keep-track-profile = プロフィールで進捗状況を追跡する
 login-to-get-started = ログインまたはアカウント登録して開始
+target-segment-first-card = あなたは私たちの最初の目標セグメントに貢献しています
+target-segment-first-banner = { $locale } における Common Voice の最初の目標セグメント作成にご協力ください
+target-segment-add-voice = あなたの声を追加
+target-segment-learn-more = 詳細情報
 
 ## Reporting
 
@@ -743,11 +753,18 @@ which-goal-type = 話す、聴く、またはその両方をしたいですか�
 receiving-emails-info = 現在、目標リマインダーや Common Voice に関する進捗の更新、ニュースレターなどのメールを受信するように設定されています。
 not-receiving-emails-info = 現在、目標リマインダーや Common Voiceに関する進捗の更新とニュースレターなどのメールを <bold>受信しない</bold> ように設定されています。
 n-clips = { NUMBER($count) } クリップ
+help-share-goal = より多くの音声を集めて、目標を共有しましょう
 confirm-goal = 目標を確認
 goal-interval-weekly = 毎週
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = 「{ $type }」の毎日の目標 { $count } クリップを共有する
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = 「{ $type }」の毎週の目標 { $count } クリップを共有する
 share-goal-type-speak = 話す
 share-goal-type-listen = 聴く
 share-goal-type-both = 話すと聴く
+# LINK will be replaced with the current URL
+goal-share-text = #CommonVoice に寄贈する音声の個人目標を作成しました。あなたも参加して、機械に人の話し方を教えるのを手伝ってください { $link }
 weekly-goal-created = 毎週の目標が作成されました
 daily-goal-created = 毎日の目標が作成されました
 track-progress = ここと統計ページで進捗状況を追跡します。
@@ -773,3 +790,4 @@ welcome-staff = { $company } のスタッフを歓迎します！
 help-contribute = Common Voice プロファイルを作成し、音声を提供することにより、多様なオープンソースデータセットの構築を支援できます。
 login-company = ログイン / { $company } メールでアカウント登録
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
+read-more-about = 詳しくは Common Voice の概要ページをご覧ください

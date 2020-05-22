@@ -32,4 +32,4 @@ For general discussion (feedback, ideas, random musings), head to our [Discourse
 
 For technical problems or suggestions, please use the [GitHub issue tracker](https://github.com/mozilla/voice-web/issues).
 
-Or come [chat with us on Matrix](https://chat.mozilla.org/#/room/#common-voice:mozilla.org)
+Or come [chat with us on Matrix](https://chat.mozilla.org/#/room/#common-voice:mozilla.org).

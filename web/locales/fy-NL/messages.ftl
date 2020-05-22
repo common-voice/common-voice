@@ -69,6 +69,7 @@ hr = Kroätysk
 hsb = Boppe-Sorbysk
 hu = Hongaarsk
 hy-AM = Armeensk
+hyw = West-Armeensk
 ia = Ynterlingua
 id = Yndonezysk
 is = Iislânsk

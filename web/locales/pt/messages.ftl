@@ -65,6 +65,7 @@ he = Hebraico
 hr = Croata
 hsb = Alto Sorábio
 hu = Húngaro
+hyw = Armênio ocidental
 ia = Interlíngua
 id = Indonésio
 is = Islandês
@@ -328,6 +329,7 @@ avatar-clip-recorded = Seu avatar agora inclui um clipe de voz!
 record-voice-wave = GRAVE SUA VOZ
 retry-voice-wave-recording = TENTAR NOVAMENTE
 re-record = REGRAVAR
+delete-voice = EXCLUIR
 recording-voice-wave = Gravando
 ready-to-upload = Enviar
 recreate-voice = Recriar sua voz
@@ -638,6 +640,8 @@ record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
 keep-track-profile = Acompanhe seu progresso com um perfil
 login-to-get-started = Entre ou cadastre-se para começar
+target-segment-add-voice = Adicione sua voz
+target-segment-learn-more = Saiba mais
 
 ## Reporting
 

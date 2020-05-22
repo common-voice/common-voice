@@ -46695,14 +46695,18 @@ Teskerkes fell-am.
 Teskerkes fell-as.
 Teskerkes fell-awen.
 Teskerkes fell-awent.
+Teskerkes fell-i Wrida Tasaḥlit.
+Teskerkes ɣef temsulta.
 Teskerkir deg yiḍarren-is amzun ẓẓayit fell-as.
 Teskerksem fell-aneɣ!
 Teskerksem fell-anteɣ!
 Teskerksem fell-as!
 Teskerksem fell-i.
 Teskerksemt fell-aneɣ!
+Teskerksemt fell-anteɣ!
 Teskerksemt fell-as!
 Teskerksemt fell-i.
+Teskerkseḍ fell-i, naɣ?
 Teskerkseḍ fell-i.
 Teskexkex Mary.
 Teskiddibem.
@@ -46735,9 +46739,11 @@ Teslam i tusut, naɣ?
 Teslam i waya, naɣ?
 Teslam s lexber?
 Teslam s yisallen?
+Teslam yagi i tezlit-a.
 Teslam-as i Dda Ḥemmu, naɣ?
 Teslam-as, neɣ ala?
 Teslam.
+Teslamt ayen ay d-nniɣ.
 Teslamt d acu i d-nnan?
 Teslamt d acu i d-nnant?
 Teslamt d acu i d-qqaṛent?
@@ -46777,6 +46783,7 @@ Tesliḍ i tusut, naɣ?
 Tesliḍ i waya, naɣ?
 Tesliḍ i waya?
 Tesliḍ s wakka?
+Tesliḍ yagi i tezlit-a.
 Tesliḍ yakan i wakka?
 Tesliḍ-as daɣen?
 Tesliḍ-as i Dda Ḥemmu, naɣ?
@@ -46801,7 +46808,9 @@ Tesmesxireḍ fell-i.
 Tesmesxireḍ yess-i?
 Tesmeɛnem-d ɣef berru.
 Tesmeɛneḍ-d ɣef berru.
+Tesmeɣrem tugniwin-nni.
 Tesmeɣremt ddeɛwa.
+Tesmeɣreḍ tugniwin-nni.
 Tesnegreḍ acḥal d agdud.
 Tesnehmuyem.
 Tesnehmuyemt.
@@ -46840,6 +46849,7 @@ Tesruḥeḍ aṭas n yidammen.
 Tess aṭas n waman.
 Tessa-yi-d tqeddact.
 Tessader iɣallen-nnes.
+Tessadrem iɣallen-nwen.
 Tessafses aslagen-nni.
 Tessaked akin akka, ur yelli ḥed.
 Tessaked-it seg tṣegnint armi d tifednin.
@@ -46858,6 +46868,7 @@ Tessardeḍ tuɣmas-nnek?
 Tessared takeṛṛust.
 Tessared.
 Tessasen-iyi i uletma-s.
+Tessawal mraw yilsawen.
 Tessawal tajapunit.
 Tessawal tanglizit?
 Tessawal tapuṛtugalit.
@@ -46867,7 +46878,9 @@ Tessawalem tahulandit?
 Tessawalem tajapunit.
 Tessawalem talmanit?
 Tessawalem taṭalyanit?
+Tessawalem-d fell-aneɣ?
 Tessawalemt s tɣawla.
+Tessawalemt tahulandit?
 Tessawalemt tajapunit.
 Tessawalemt talmanit?
 Tessawaleḍ tajapunit.
@@ -46897,6 +46910,7 @@ Tessawḍeḍ ad teqqimeḍ?
 Tessazdeg taxxamt-nni.
 Tessazdeg-d axxam.
 Tessazedgem-d axxam.
+Tessazedgemt timcuceft.
 Tessazedgemt-d axxam.
 Tessazedgeḍ-d axxam.
 Tessazzel asaru-nni.
@@ -46907,6 +46921,7 @@ Tessazzleḍ asaru-nni.
 Tessaɣ tamacint-nni.
 Tessaɣ ticemmaɛin-nni.
 Tessaɣ timussniwin nsen.
+Tessaɣ yiwet n tmacint.
 Tessaɣ-aɣ-d irkasen.
 Tessaɣemt tiliẓri.
 Tessaɣemt-d aɣrum.
@@ -46961,6 +46976,7 @@ Tesselqaf am umejruḥ.
 Tessemsad tiferyin.
 Tessemsadem tiferyin.
 Tessemsadeḍ tiferyin.
+Tessemsed tiferyin-nni.
 Tessemxel-iten tayri.
 Tessemɛen-d ɣef berru.
 Tessemɛuqquḍ-iyi-d.
@@ -47005,11 +47021,13 @@ Tessenz akk akal-is.
 Tessenzem-iyi s yisem n zzwaǧ.
 Tessenṭeḍ-as tuyat-is ɣer umeṭraḥ akken ur tettḥerrik ara.
 Tesseqcer tabaṭaṭat.
+Tesseqdec aselkim-nnes.
 Tesseqneɛ aselmad.
 Tesseqneɛ taselmadt.
 Tesseqneɛ-iyi Tiziri.
 Tesseqrebbi seksu akken ad as-yeɣli ufḍiḍ, terna temḥeṣ-it akken ilaq.
 Tesseqsa ɣef baba-s.
+Tesseqsayem ɣef kullec.
 Tesseqsayeḍ aṭas Dda Ḥemmu.
 Tesseqsaḍ ɣef baba-k.
 Tesseqsaḍ ɣef baba-m.
@@ -47023,6 +47041,7 @@ Tesserwel amcic-nni.
 Tesserɣ adlis-nni.
 Tessetḥa s wayen tga.
 Tessew yiwen n useklu.
+Tessew-d yemma berkukes
 Tessew-d yemma berkukes.
 Tesseweḍ lqahwa?
 Tessewhem argaz-nnes.
@@ -47064,6 +47083,7 @@ Tesseɣli-ak deg tfesna.
 Tesseɣli-am deg tfesna.
 Tesseɣli-d igenni.
 Tesseɣr-it ddunit.
+Tesseɣres akerbas-nnes.
 Tesseɣres tixsi rrebg-is.
 Tesseɣsim aselkim.
 Tesseɣta tuccḍa-nni.
@@ -47414,17 +47434,21 @@ Tesɛa Laurie aselkim?
 Tesɛa aglim d aberkan.
 Tesɛa aglim izeyyet.
 Tesɛa ala tmeṛ.
+Tesɛa alfin n yedlisen.
 Tesɛa allen d tizegzawin.
 Tesɛa allen d tizerqaqin.
 Tesɛa amcic d amellal.
 Tesɛa aselkim amaynu?
 Tesɛa axxam sdat yilel.
+Tesɛa azmul ɣef wenyir.
 Tesɛa aṭas n ccɣel.
+Tesɛa aṭas n tfendiwin.
 Tesɛa aṭas n tmeddukal.
 Tesɛa aṭas n tzemmar.
 Tesɛa aṭas n ucebbub.
 Tesɛa aṭas n wakud.
 Tesɛa aṭas n yiḍan.
+Tesɛa ccama ɣef wenyir.
 Tesɛa ccɣel seg iḍelli.
 Tesɛa cwiṭ n lqir.
 Tesɛa idrimen meqqar?
@@ -47458,6 +47482,7 @@ Tesɛam adlisfus?
 Tesɛam akud ass-a?
 Tesɛam akud mliḥ.
 Tesɛam allen d tizegzawin.
+Tesɛam amiḍan n tbanka?
 Tesɛam aqjun?
 Tesɛam aqziḥ?
 Tesɛam asegzawal ass-a?
@@ -47465,6 +47490,7 @@ Tesɛam avilu?
 Tesɛam aydi?
 Tesɛam aṭas n wakud.
 Tesɛam aṭas n wuguren.
+Tesɛam aṭas n yidlisen.
 Tesɛam cwiṭ n wakud?
 Tesɛam gma-twen-nniḍen?
 Tesɛam idrimen meqqar?
@@ -47473,10 +47499,12 @@ Tesɛam kra n taluft?
 Tesɛam kra n tiririt?
 Tesɛam kra n uɣeṛsiw?
 Tesɛam lebɣi ijehden.
+Tesɛam lweqt ad teččem?
 Tesɛam lḥeqq deg waya.
 Tesɛam lḥeqq mliḥ.
 Tesɛam lḥeqq.
 Tesɛam sebɛa n warrac.
+Tesɛam sin n wudemawen.
 Tesɛam tabɣest mliḥ.
 Tesɛam tawla.
 Tesɛam taxatemt, naɣ?
@@ -47502,6 +47530,7 @@ Tesɛamt aydi?
 Tesɛamt aṭas n wakud.
 Tesɛamt aṭas n wuguren.
 Tesɛamt cwiṭ n wakud?
+Tesɛamt idrimen meqqar?
 Tesɛamt idrimen-nni?
 Tesɛamt iɣawasen, naɣ?
 Tesɛamt kra n taluft?
@@ -47510,6 +47539,7 @@ Tesɛamt kra n tiririt?
 Tesɛamt kra n uɣeṛsiw?
 Tesɛamt kra n yemddukal?
 Tesɛamt lebɣi ijehden.
+Tesɛamt lḥeqq deg waya.
 Tesɛamt lḥeqq mliḥ.
 Tesɛamt lḥeqq.
 Tesɛamt tabɣest mliḥ.
@@ -47522,15 +47552,19 @@ Tesɛamt tuttriwin-nniḍen?
 Tesɛamt zzheṛ.
 Tesɛamt ṛṛuz?
 Tesɛedda-t ar ccṛeɛ.
+Tesɛeddam ɣer yimsujji?
 Tesɛeṛqemt-iyi-tent!
 Tesɛeẓgem inaragen.
 Tesɛeẓgemt inaragen.
 Tesɛeẓgeḍ inaragen.
+Tesɛid asegzawal ass-a?
+Tesɛid axxam d ahuskay.
 Tesɛid kuẓ n yiḍan.
 Tesɛid lḥeqq mliḥ.
 Tesɛid tiferṣuday?
 Tesɛid timseknewt?
 Tesɛid tiṭercaqin?
+Tesɛiḍ adeg n Internet?
 Tesɛiḍ akud mliḥ.
 Tesɛiḍ allen d tizegzawin.
 Tesɛiḍ amalal, naɣ?
@@ -47540,11 +47574,14 @@ Tesɛiḍ aqjun?
 Tesɛiḍ aqziḥ?
 Tesɛiḍ asegzawal?
 Tesɛiḍ asegzawal ass-a?
+Tesɛiḍ assireg-ik, naɣ?
 Tesɛiḍ avilu?
 Tesɛiḍ aydi?
+Tesɛiḍ aɣrum i yimekli?
 Tesɛiḍ aṭas n ccwami?
 Tesɛiḍ aṭas n wakud?
 Tesɛiḍ aṭas n wuguren.
+Tesɛiḍ aṭas n yedlisen.
 Tesɛiḍ cwiṭ n ukeffay?
 Tesɛiḍ cwiṭ n wakud?
 Tesɛiḍ cwiṭ n waman?
@@ -47564,8 +47601,11 @@ Tesɛiḍ kra n tiririt?
 Tesɛiḍ kra n tzemmar?
 Tesɛiḍ kra n uɣeṛsiw?
 Tesɛiḍ lehlak n wul.
+Tesɛiḍ lweqt ad teččeḍ?
 Tesɛiḍ lweqt i wučči?
 Tesɛiḍ lweqt tura?
+Tesɛiḍ lḥeqq ad k-tɣiḍ.
+Tesɛiḍ lḥeqq deg uzgen.
 Tesɛiḍ lḥeqq.
 Tesɛiḍ s wacu ara txelseḍ atiki?
 Tesɛiḍ ssaɛa.
@@ -47593,21 +47633,30 @@ Tesɛiḍ zzheṛ.
 Tesɛiḍ ɣur-k idrimen?
 Tesɛiḍ ṛṛuz?
 Tesɛiḍ ṣṣerf n xemsin?
+Tesɛiḍ ẓẓher ur nemmut.
+Tesɛiḍ-t meqqer ɣer wa?
 Tesɛiḍ-t.
 Tesɣa-as-d akerbas.
 Tesɣa-as-d kra i Tunhinan.
 Tesɣa-as-d tanfult.
 Tesɣa-d akamyun aqbur.
+Tesɣa-d aksum n uyaziḍ.
+Tesɣa-d aselkim amaynu.
 Tesɣa-d aɣmis-nni.
 Tesɣa-d takeṛṛust.
 Tesɣa-tt yiwet n Trusit, tewwi-tt ad tt-tṛebbi.
+Tesɣam-as-d kra i Ḍrifa Tamlikect.
+Tesɣam-d akamyun aqbur.
 Tesɣam-d tinfulin?
 Tesɣam-iyi-d asefk?!
 Tesɣamay-d ɣlayet.
+Tesɣamt-d axxam amaynu.
 Tesɣamt-d tinfulin?
 Tesɣamt-iyi-d asefk?!
 Tesɣel-aɣ-d s ufus-is.
 Tesɣiḍ akebbuḍ ɣlayen.
+Tesɣiḍ-as-d kra i Ḍrifa Tamlikect.
+Tesɣiḍ-d akamyun aqbur.
 Tesɣiḍ-d asafar-nni?
 Tesɣiḍ-d tadellaɛt?
 Tesɣunfuyem.
