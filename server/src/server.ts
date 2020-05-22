@@ -48,7 +48,11 @@ const CSP_HEADER = [
   `frame-src https://optimize.google.com`,
 ].join(';');
 
-Sentry.init({ dsn: getConfig().SENTRY_DSN });
+
+Sentry.init({
+  dsn: getConfig().SENTRY_DSN,
+  release: RELEASE_VERSION,
+});
 
 export default class Server {
   app: express.Application;
