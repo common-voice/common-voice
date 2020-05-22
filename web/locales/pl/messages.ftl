@@ -150,7 +150,7 @@ zh-TW = chiński (Tajwan)
 ## Layout
 
 speak = Nagrywaj
-speak-now = Wymów teraz
+speak-now = Mów teraz
 datasets = Zbiory danych
 languages = Języki
 about = O nas
