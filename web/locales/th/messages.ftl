@@ -64,11 +64,12 @@ ga-IE = ไอริช
 gl = กาลิเชีย
 ha = เฮาซา
 he = ฮิบรู
-hi-IN = ฮินดี
+hi = ฮินดี
 hr = โครเอเชีย
 hsb = ซอร์เบียตอนบน
 hu = ฮังการี
 hy-AM = อาร์เมเนีย
+hyw = อาร์เมเนียตะวันตก
 ia = อินเทอร์ลิงกัว
 id = อินโดนีเซีย
 is = ไอซ์แลนด์
@@ -676,6 +677,10 @@ record-button-label = อัดเสียงของคุณ
 share-title-new = <bold>ช่วยเรา</bold>หาเสียงเพิ่มเติม
 keep-track-profile = ติดตามความคืบหน้าของคุณด้วยโปรไฟล์
 login-to-get-started = เข้าสู่ระบบหรือลงทะเบียนเพื่อเริ่มต้นใช้งาน
+target-segment-first-card = คุณกำลังมีส่วนร่วมในส่วนแรกของเป้าหมายของเรา
+target-segment-first-banner = ช่วยสร้างส่วนแรกของเป้าหมายของ Common Voice ใน { $locale }
+target-segment-add-voice = เพิ่มเสียงของคุณ
+target-segment-learn-more = เรียนรู้เพิ่มเติม
 
 ## Reporting
 
