@@ -15,20 +15,13 @@
     font-weight: normal;
 }
 
-.text > h1 {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 43px;
-    text-align: center;
+.text h1 {
+    font-size: var(--font-size-xxl);
 }
 
-.text > p {
-    font-style: normal;
+.text p {
     font-weight: 300;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
+    font-size: var(--font-size-lg);
     letter-spacing: 1px;
     margin-top: 10px;
 }
