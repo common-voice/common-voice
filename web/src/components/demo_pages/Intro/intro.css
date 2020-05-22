@@ -27,17 +27,11 @@
 }
 
 .btn-get-started {
-    display: flex;
     background: var(--blue);
-    border-radius: 1000px;
+    border-color: var(--blue);
     margin: 30px auto;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 240px;
-    height: 57px;
-}
+    width: auto;
+    padding: 18px 37px;
 
     & path {
         fill: var(--white);
@@ -47,29 +41,17 @@
         & path {
             fill: var(--black);
         }
-
-.img-container {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: 530px;
+    }
 }
 
-.waves {
-    width: 100vw;
-    height: 324px;
-    top: 169px;
-    position: relative;
-}
-
-.wave-1 {
-    position: absolute;
-    width: 100%;
-    max-height: 273px;
+#robot {
+    margin: 30px auto;
+    /* fixed height enables the full page layout to render first before the image loads into view */
+    height: 525px;
 }
 
 .layer {
-    height: 324px;
+    height: 100vh;
     position: absolute;
     width: 100%;
     background: linear-gradient(
@@ -79,5 +61,4 @@
         rgba(248, 248, 247, 0.0001) 71.51%,
         #f9f8f7 98.32%
     );
-    z-index: 20;
 }
