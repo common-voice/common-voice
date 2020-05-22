@@ -33,4 +33,5 @@ export default Object.freeze({
 
   TARGET_SEGMENT_INFO:
     'https://discourse.mozilla.org/t/help-create-common-voices-first-target-segment/59587',
+  TARGET_SEGMENT_INFO_ES: 'https://discourse.mozilla.org/t/ayuda-a-crear-el-primer-objetivo-segmentado-de-common-voice/60472/'
 });
