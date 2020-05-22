@@ -12,15 +12,15 @@ export default withLocalization(function Intro() {
       <div className="layer"></div>
       <img src={robot} id="robot" alt="red robot" />
       <div className="text">
-        <Localized id="welcome">
+        <Localized id="demo-welcome">
           <h1 className="text-header" />
         </Localized>
-        <Localized id="welcome-subheader">
+        <Localized id="demo-welcome-subheader">
           <p className="text-body" />
         </Localized>
       </div>
       <LinkButton rounded to={URLS.DEMO_DATASETS} className="btn-get-started">
-        <Localized id="get-started">
+        <Localized id="demo-get-started">
           <span />
         </Localized>
         <ArrowRight id="arrow-right" />
