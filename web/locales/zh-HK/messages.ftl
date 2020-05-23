@@ -69,6 +69,7 @@ hr = 克羅地亞文
 hsb = 上索布文
 hu = 匈牙利文
 hy-AM = 亞美尼亞文
+hyw = 西亞美尼亞文
 ia = 因特文
 id = 印尼文
 is = 冰島文
@@ -366,6 +367,10 @@ faq-what-cv-a =
     
     我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套多元的語音數據集，來幫助開發者、創業家，以及不同的社群縮窄這個科技上的鴻溝。除了 Common Voice 的數據集外，我們也在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
 faq-why-important-q = 點解咁重要？
+faq-why-important-a =
+    說話通常是我們與其他人最自然的溝通方式，語音技術也讓電腦和流動裝置更方便使用。我們希望讓開發者們建置令人驚嘆的語音識別應用程式，例如即時翻譯機、有語音功能的數位助理等等。但現在用來建置這些軟件所需的語音資料，大部分都是昂貴且專有的，因而我們希望能提供 Common Voice 數據集給開發者進行創新，也讓他們能使用自己的語言來打造語音技術。
+    
+    為了讓語音識別技術能夠更加普遍，我們收集不論是有廣大使用者，或是較少使用者會說的語言（大部分商業語音識別服務對此類語言都缺少支援）的語音片段，並發佈一組含多元語言與腔調的語音資料集，希望能提供給開發者、創業家、以及整個語音技術社群來跨越這道鴻溝。
 faq-how-get-q = 我怎樣可以取得 Common Voice 的數據？
 faq-how-get-a = 我們的數據集可到 <datasetLink>Common Voice 數據集頁面</datasetLink>下載，本數據集使用 <licenseLink>CC0</licenseLink> 授權。您也可以在該頁面中下載幾套其他的數據集。
 faq-when-release2-q = 你哋幾時會發布其他語言的 Common Voice 數據？
@@ -534,6 +539,10 @@ download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 已錄製時數
 whats-inside = Common Voice 數據集當中有什麼？
+dataset-description-hours =
+    數據集中的每筆資料包含一組獨特的 MP3 錄音檔與對應的文字檔案。數據集中包含 <b>{ $total }</b> 小時錄製完成的片段，當中也包含有許多不同年齡層、性別、口音等能夠幫助訓練語音識別引擎準確性的人口統計資料。
+    
+    數據集中目前包含 <b>{ $valid }</b> 小時 <b>{ $languages }</b> 種語言的已驗證資料，但我們希望能夠持續加入更多語音與語言。歡迎到我們的<languagesLink>語言頁面</languagesLink>要求新增語言，或者開始貢獻。
 want-dataset-update = 想要在新的 Common Voice 數據集推出時收到通知嗎？請訂閱我們的電子報。
 subscribe = 訂閱
 get-started-speech = 語音識辨新手入門
