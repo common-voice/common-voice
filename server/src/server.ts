@@ -13,7 +13,6 @@ import {
 } from './lib/model/leaderboard';
 import { trackPageView } from './lib/analytics';
 import API from './lib/api';
-import Logger from './lib/logger';
 import { redis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
@@ -59,7 +58,6 @@ export default class Server {
   server: http.Server;
   model: Model;
   api: API;
-  logger: Logger;
   isLeader: boolean;
 
   get version() {
@@ -71,13 +69,7 @@ export default class Server {
     options = { bundleCrossLocaleMessages: true, ...options };
     this.model = new Model();
     this.api = new API(this.model);
-    this.logger = new Logger();
     this.isLeader = null;
-
-    // Make console.log output json.
-    if (PROD) {
-      this.logger.overrideConsole();
-    }
 
     const app = (this.app = express());
 
