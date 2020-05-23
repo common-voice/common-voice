@@ -64,7 +64,7 @@ ga-IE = 愛爾蘭文
 gl = 加利西亞文
 ha = 豪薩文
 he = 希伯來文
-hi-IN = 印地文
+hi = 印地文
 hr = 克羅地亞文
 hsb = 上索布文
 hu = 匈牙利文
@@ -655,6 +655,10 @@ record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
 keep-track-profile = 建立個人檔案，紀錄您的進度
 login-to-get-started = 請登入或註冊，即可開始使用
+target-segment-first-card = 您正在朝我們的第一個用例分項貢獻錄音
+target-segment-first-banner = 幫助 Common Voice 創立 { $locale } 的第一個用例分項
+target-segment-add-voice = 添加您的聲音
+target-segment-learn-more = 瞭解更多
 
 ## Reporting
 
