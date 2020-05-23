@@ -120,9 +120,10 @@ export default class Server {
         // redirect to omit trailing slashes
         if (request.path.substr(-1) == '/' && request.path.length > 1) {
           const query = request.url.slice(request.path.length);
+          const host = request.get('host');
           response.redirect(
             HttpStatus.MOVED_PERMANENTLY,
-            request.path.slice(0, -1) + query
+            host + request.path.slice(0, -1) + query
           );
         } else {
           next();
