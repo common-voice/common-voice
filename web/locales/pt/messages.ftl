@@ -338,6 +338,7 @@ ready-to-upload = Enviar
 avatar-clip-fact = É um fato há muito estabelecido que um leitor se distrai com o conteúdo legível de uma página ao olhar seu layout.
 recreate-voice = Recriar sua voz
 cancel-avatar-clip-recording = CANCELAR
+about-avatar-clip-recording = Crie um clipe de voz associado ao avatar do seu perfil. Outras pessoas poderão passar o mouse sobre ele e ouvir seu clipe.
 browse-file-title = Enviar um arquivo de imagem
 browse-file = Arraste e solte, ou <browseWrap>selecione</browseWrap>
 connect-gravatar = Conectar com Gravatar
@@ -440,6 +441,11 @@ about-partnership =
     
     Gostaríamos de agradecer as seguintes pessoas e organizações pela ajuda neste projeto:
 about-get-involved = Envolva-se
+about-get-involved-text-2 =
+    Quer ajudar a tornar o Common Voice ainda melhor?
+    Fantástico! Entre em contato via e-mail ou nos fóruns do <discourseLink>Discourse</discourseLink>,
+    relate problemas no site via <githubLink>GitHub</githubLink>,
+    ou participe de conversa da comunidade no <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
@@ -614,6 +620,7 @@ contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
 record-platform-not-supported = Nos desculpe, mas sua plataforma não é suportada.
 record-platform-not-supported-desktop = Em computadores, você pode baixar o mais recente:
+record-platform-not-supported-ios-non-safari = No iOS, continue com o Safari para ativar a gravação…
 record-must-allow-microphone = Você deve permitir o acesso ao microfone.
 record-no-mic-found = Não foi encontrado nenhum microfone.
 record-error-too-short = A gravação foi muito curta.
@@ -627,6 +634,8 @@ record-again-instruction = Ótimo! <recordIcon></recordIcon> Grave a próxima fr
 record-again-instruction2 = Continue assim, grave novamente <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Última!
 review-tooltip = Revise e grave as frases enquanto prossegue
+share-clip = Compartilhe seu clipe
+share-common-voice = Compartilhar o Common Voice
 review-instruction = Enquanto revisa, grave as frases novamente se precisar
 record-submit-tooltip = { $actionType } enviar quando estiver pronto
 clips-uploaded = Gravações carregadas
@@ -639,6 +648,8 @@ listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram p
 listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
+listen-empty-state = Nós ficamos sem clipes para validar neste idioma...
+speak-empty-state = Nós ficamos sem frases para gravar neste idioma...
 speak-empty-state-cta = Contribua com frases
 record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
@@ -728,6 +739,7 @@ finish-editing = Terminar a edição primeiro?
 lose-changes-warning = Se sair agora, perderá suas alterações
 build-custom-goal = Criar uma meta personalizada
 help-reach-hours = Ajude a alcançar { NUMBER($hours) } horas em { $language } com uma meta pessoal
+help-reach-hours-general = Ajude o Common Voice a alcançar { NUMBER($hours) } horas em um idioma com uma meta pessoal
 set-a-goal = Defina uma meta
 cant-decide = Está indeciso?
 activity-needed-calculation =
