@@ -749,6 +749,7 @@ how-many-per-day = Ótimo! Quantos clipes por dia?
 how-many-a-week = Ótimo! Quantos clipes por semana?
 which-goal-type = Quer falar, ouvir ou ambos?
 receiving-emails-info = Sua conta está configurada para receber e-mails como lembretes de metas, informações de progresso e novidades sobre o Common Voice
+not-receiving-emails-info = No momento, sua conta está configurada para <bold>NÃO</bold> receber e-mails, como lembretes de metas, informações do seu progresso e boletins informativos sobre o Common Voice
 n-clips = { NUMBER($count) } clipes
 help-share-goal = Ajude-nos a encontrar mais vozes, compartilhe sua meta
 confirm-goal = Confirmar meta
