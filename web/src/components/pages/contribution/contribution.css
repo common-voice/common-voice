@@ -27,7 +27,7 @@
     box-sizing: border-box;
 
     @media (--tall) {
-        padding-top: 60px;
+        padding-top: 50px;
     }
 
     @media (--lg-up) {
@@ -315,13 +315,16 @@
     }
 
     .primary-buttons {
-        margin-top: 23px;
-
+        margin-top: 2vh;
         display: flex;
         justify-content: center;
         align-items: center;
 
         @media (--md-up) {
+            margin-top: 8vh;
+        }
+
+        @media (--xl-up) {
             margin-top: 12vh;
         }
 
@@ -344,7 +347,7 @@
         display: flex;
         justify-content: space-between;
 
-        @media (--md-up) {
+        @media (--xl-up) {
             margin-top: 3.5vh;
         }
 
