@@ -28,6 +28,7 @@ af = Africâner
 am = Amárico
 an = Aragonês
 ar = Árabe
+arn = Mapuche
 as = Assamês
 ast = Asturiano
 az = Azerbaidjano
@@ -63,6 +64,7 @@ ga-IE = Irlandês
 gl = Galego
 ha = Hauçá
 he = Hebraico
+hi = Hindi
 hr = Croata
 hsb = Alto Sorábio
 hu = Húngaro
@@ -226,6 +228,7 @@ whats-public = O que é público?
 email-not-public = Não deixaremos público seu endereço de e-mail.
 recordings-and-locale-public = O número de gravações e para quais idiomas você contribuir serão públicos.
 username-optin-public = Você pode escolher deixar seu nome de usuário público ou anônimo.
+demographic-deidentified-clarity = Dados demográficos enviados opcionalmente (como idade, sexo, idioma e sotaque) nunca serão publicados no seu perfil e nem associados à sua conta no conjunto de dados. Clipes de áudio individuais serão associados a dados demográficos para fins de análises mais precisas - por exemplo, um pesquisador pode querer direcionar um modelo de treino para um segmento demográfico específico.
 username-email-not-demographic = Seu nome de usuário e e-mail não serão associados com os dados publicados.
 
 ## Speak & Listen Shortcuts
