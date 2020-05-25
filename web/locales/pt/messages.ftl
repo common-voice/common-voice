@@ -655,6 +655,8 @@ record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
 keep-track-profile = Acompanhe seu progresso com um perfil
 login-to-get-started = Entre ou cadastre-se para começar
+target-segment-first-card = Você está contribuindo para nosso primeiro segmento alvo
+target-segment-first-banner = Ajude a criar o primeiro segmento alvo do Common Voice em { $locale }
 target-segment-add-voice = Adicione sua voz
 target-segment-learn-more = Saiba mais
 
