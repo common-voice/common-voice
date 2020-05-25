@@ -225,15 +225,15 @@ class DatasetInfo extends React.Component<Props, State> {
                   'cv-license': 'CC-0',
                   'number-of-voices': localeStats.users.toLocaleString(),
                   'audio-format': 'MP3',
-                  splits: Object.entries(localeStats.splits)
+                  splits: localeStats.users >= 5 ? Object.entries(localeStats.splits)
                     .filter(([, values]) => Object.keys(values).length > 1)
                     .map(([category, values]) => (
                       <Splits
                         key={category}
                         {...{ category, values, bundleLocale }}
                       />
-                    )),
-                }).map(([id, value]) => (
+                    )) : null,
+                }).map(([id, value]) => value && (
                   <li key={id}>
                     <Localized id={id}>
                       <span className="label" />
