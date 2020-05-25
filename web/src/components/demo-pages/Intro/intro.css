@@ -1,57 +1,57 @@
 @import url('../../vars.css');
 
-#intro-container {
+.container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
+    padding-top: 2.5vh;
     background: var(--white) url('./assets/waves.svg') no-repeat center;
     background-size: contain;
 }
 
-#intro-container--text-box {
+.text {
     text-align: center;
     font-weight: normal;
 }
 
-#intro-container--text-box__text-header {
+.text-header {
     font-size: var(--font-size-xxl);
 }
 
-#intro-container--text-box__text-body {
+.text-body {
     font-weight: 300;
     font-size: var(--font-size-lg);
-    letter-spacing: 0.0625rem;
-    margin-top: 0.625rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
 }
 
-#intro-container--btn-get-started {
+.btn-get-started {
     background: var(--blue);
     border-color: var(--blue);
-    margin: 1.875rem auto;
+    margin: 30px auto;
     width: auto;
-    padding: 1rem 2.3125rem;
+    padding: 18px 37px;
 
-    path {
+    & path {
         fill: var(--white);
     }
 
     &:hover {
-        background-color: var(--white);
-        path {
+        & path {
             fill: var(--black);
         }
     }
 }
 
 #robot {
-    margin: 1.875rem auto;
+    margin: 30px auto;
     /* fixed height enables the full page layout to render first before the image loads into view */
-    height: 32.8rem;
+    height: 525px;
 }
 
-#intro-container--gradient-layer {
-    min-height: 100vh;
+.layer {
+    height: 100vh;
     position: absolute;
     width: 100%;
     background: linear-gradient(

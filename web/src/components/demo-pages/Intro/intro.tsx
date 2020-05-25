@@ -1,5 +1,5 @@
 import * as React from 'react';
-import robot from './assets/red-robot.svg';
+import robot from './assets/Red.svg';
 import './intro.css';
 import { Localized, withLocalization } from 'fluent-react/compat';
 import { LinkButton } from '../../ui/ui';
@@ -8,21 +8,18 @@ import URLS from '../../../urls';
 
 export default withLocalization(function Intro() {
   return (
-    <div id="intro-container">
-      <div id="intro-container--gradient-layer"></div>
+    <div className="container">
+      <div className="layer"></div>
       <img src={robot} id="robot" alt="red robot" />
-      <div id="intro-container--text-box">
+      <div className="text">
         <Localized id="demo-welcome">
-          <h1 id="intro-container--text-box__text-header" />
+          <h1 className="text-header" />
         </Localized>
         <Localized id="demo-welcome-subheader">
-          <p id="intro-container--text-box__text-body" />
+          <p className="text-body" />
         </Localized>
       </div>
-      <LinkButton
-        rounded
-        to={URLS.DEMO_DATASETS}
-        id="intro-container--btn-get-started">
+      <LinkButton rounded to={URLS.DEMO_DATASETS} className="btn-get-started">
         <Localized id="demo-get-started">
           <span />
         </Localized>

@@ -4,7 +4,7 @@ import { Switch, Route, withRouter, Redirect } from 'react-router';
 import { useLocale } from '../locale-helpers';
 import { Spinner } from '../ui/ui';
 import URLS from '../../urls';
-import Intro from '../demo-pages/intro/intro';
+import Intro from '../demo-pages/Intro/intro';
 
 function DemoLayout() {
   const [_, toLocaleRoute] = useLocale();
