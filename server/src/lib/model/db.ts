@@ -667,10 +667,11 @@ export default class DB {
 
             UNION
 
-            SELECT created_at
+            SELECT votes.created_at
             FROM votes
+            LEFT JOIN clips ON votes.clip_id = clips.id
             WHERE votes.created_at > (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL 9 hour)
-            ${locale ? 'AND votes.locale_id = :locale_id' : ''}
+            ${locale ? 'AND clips.locale_id = :locale_id' : ''}
             ${client_id ? 'AND votes.client_id = :client_id' : ''}
           ) activity ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
           GROUP BY date
