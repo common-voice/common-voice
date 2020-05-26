@@ -64,10 +64,12 @@ ga-IE = Ірландская
 gl = Галісійская
 ha = Хаўса
 he = Іўрыт
-hi-IN = Хіндзі
+hi = Хіндзі
 hr = Харвацкая
 hsb = Верхнялужыцкая
 hu = Венгерская
+hy-AM = Армянская
+hyw = Заходнеармянская
 ia = Інтэрлінгва
 id = Інданезійская
 is = Ісландская
@@ -236,7 +238,6 @@ whats-public = Што будзе публічным?
 email-not-public = Мы не будзем публікаваць ваш емэйл.
 recordings-and-locale-public = Колькасць запісаў і мовы, у якіх вы прымаеце ўдзел, будуць публічнымі.
 username-optin-public = Вы зможаце выбраць, апублікаваць сваё імя карыстальніка, ці застацца ананімным.
-demographic-deidentified = Дэмаграфічныя дадзеныя (напрыклад, узрост, пол, мова і акцэнт) дадаюцца вамі па жаданні і абезаблічваюцца падчас публікацыі галасавых дадзеных. Яны ніколі не будуць апублікаваны ў вашым профілі.
 username-email-not-demographic = Ваша імя карыстальніка і емэйл не будуць звязаныя з апублікаванымі дадзенымі.
 
 ## Speak & Listen Shortcuts
@@ -495,7 +496,6 @@ language-speakers = Дыктараў
 record-cta = Пачаць запіс
 record-platform-not-supported = На жаль, ваша платформа зараз не падтрымліваецца.
 record-platform-not-supported-desktop = На настольных камп'ютарах вы можаце спампаваць апошнюю версію:
-record-platform-not-supported-ios = Карыстальнікі <bold>iOS</bold> могуць спампаваць наша бясплатнае прыкладанне:
 record-must-allow-microphone = Вы мусіце дазволіць доступ да мікрафона.
 record-no-mic-found = Мікрафон не знойдзены.
 record-error-too-short = Запіс занадта кароткі.
@@ -518,7 +518,6 @@ record-abort-delete = Выйсці і выдаліць кліпы
 listen-instruction = { $actionType }<playIcon></playIcon> ці правільна вымаўлены сказ?
 listen-3rd-time-instruction = Засталося два <playIcon></playIcon> , працягвайце!
 listen-last-time-instruction = <playIcon></playIcon> Апошні!
-nothing-to-validate = У нас няма нічога для праверкі на гэтай мове, дапамажыце нам запоўніць чаргу.
 record-button-label = Запішыце ваш голас
 share-title-new = <bold>Дапамажыце нам</bold> знайсці больш галасоў
 
