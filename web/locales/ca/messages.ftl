@@ -64,10 +64,12 @@ ga-IE = irlandès
 gl = gallec
 ha = haussa
 he = hebreu
-hi-IN = hindi
+hi = hindi
 hr = croat
 hsb = alt sòrab
 hu = hongarès
+hy-AM = armeni
+hyw = armeni occidental
 ia = interlingua
 id = indonesi
 is = islandès
@@ -233,7 +235,7 @@ whats-public = Què és públic?
 email-not-public = No farem pública la vostra adreça electrònica.
 recordings-and-locale-public = El nombre d'enregistraments i les llengües en què heu col·laborat seran públics.
 username-optin-public = Podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
-demographic-deidentified = Les dades demogràfiques proporcionades opcionalment (per exemple, edat, sexe, llengua i accent) s'anonimitzen de les dades de veu que envieu i mai no es faran públiques en el vostre perfil.
+demographic-deidentified-clarity = Les dades demogràfiques enviades opcionalment (per exemple, edat, sexe, llengua i variant) no es faran mai públiques en el vostre perfil i no s’enllaçaran amb el vostre compte en el conjunt de dades. De forma individual, els talls de veu s’associaran a les dades demogràfiques amb la finalitat d’anàlisis més precises.  Per exemple, un investigador pot voler orientar un model d’entrenament a un segment demogràfic específic.
 username-email-not-demographic = El vostre nom d'usuari i adreça electrònica no estaran associats amb les dades publicades.
 
 ## Speak & Listen Shortcuts
@@ -630,7 +632,7 @@ contribute-more =
 record-cta = Enregistreu
 record-platform-not-supported = Malauradament, la vostra plataforma no és compatible actualment.
 record-platform-not-supported-desktop = En ordinadors d'escriptori, podeu baixar l'últim:
-record-platform-not-supported-ios = Els usuaris de l'<bold>iOS</bold> poden baixar la nostra aplicació gratuïta:
+record-platform-not-supported-ios-non-safari = En l'iOS, continueu amb el Safari per a activar l'enregistrament…
 record-must-allow-microphone = Cal que permeteu l'accés al micròfon.
 record-no-mic-found = No s'ha trobat cap micròfon.
 record-error-too-short = L'enregistrament és massa curt.
@@ -658,11 +660,17 @@ listen-instruction = { $actionType } <playIcon></playIcon> Han pronunciat la fra
 listen-again-instruction = Bona feina! <playIcon></playIcon> Escolteu una altra vegada quan estigueu a punt
 listen-3rd-time-instruction = 2 menys! Mantingueu el ritme! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> L'últim!
-nothing-to-validate = No hi ha res per validar en aquesta llengua. Ajudeu-nos a enregistrar-ne més per omplir la cua.
+listen-empty-state = No hi ha cap més tall per validar en aquesta llengua...
+speak-empty-state = No hi ha cap més frase per enregistrar en aquesta llengua...
+speak-empty-state-cta = Aporteu frases
 record-button-label = Enregistreu la vostra veu
 share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
 keep-track-profile = Feu seguiment del vostre progrés amb un perfil
 login-to-get-started = Inicieu sessió o creeu un compte per començar
+target-segment-first-card = Col·laboreu en assolir la primera part de l'objectiu
+target-segment-first-banner = Ajudeu a assolir la primera part de l'objectiu del Common Voice en { $locale }
+target-segment-add-voice = Afegiu la vostra veu
+target-segment-learn-more = Més informació
 
 ## Reporting
 

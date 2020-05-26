@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Jes, bonvolu sendi retpoŝtajn mesaĝojn al mi. Mi ŝatus havi aktualajn informojn pri la projekto Common Voice
-stayintouch = Ĉe Mozilla ni konstruas komunumon pri voĉaj teknologioj. Ni ŝatus resti en kontakto kun vi pri ĝisdatigoj, novaj fontojn kaj ankaŭ por scii pli pri  vi uzo de tiuj ĉi datumoj.
+stayintouch = Ĉe Mozilla ni konstruas komunumon pri voĉaj teknologioj. Ni ŝatus resti en kontakto kun vi pri ĝisdatigoj, novaj fontoj kaj ankaŭ por scii pli pri  via uzo de tiuj ĉi datumoj.
 privacy-info = Ni promesas zorge pritrakti  viajn informojn. Pli da informo en nia <privacyLink>politiko pri privateco</privacyLink>.
 return-to-cv = Reiri al Common Voice
 email-input =
@@ -64,10 +64,12 @@ ga-IE = Irlanda
 gl = Galega
 ha = Haŭsa
 he = Hebrea
-hi-IN = Hindia
+hi = Hinda
 hr = Kroata
 hsb = Suprasoraba
 hu = Hungara
+hy-AM = Armena
+hyw = Okcidenta armena
 ia = Interlingvao
 id = Indonezia
 is = Islanda
@@ -233,7 +235,7 @@ whats-public = Kiuj informoj estas publikaj?
 email-not-public = Ni ne publikigos vian retpoŝtadreson.
 recordings-and-locale-public = La nombro de voĉregistroj kaj la lingvoj, kun kiuj vi kunlaboras, estos publikaj.
 username-optin-public = Vi povas elekti ĉu publikigi aŭ anonimigi vian nomon de uzanto.
-demographic-deidentified = La nedevigaj demografiaj datumoj (ekzemple aĝo, sekso, lingvo, kaj elparolmaniero) estas malligitaj de viaj senditaj voĉaj datumoj, kaj estos neniam publikigita en via profilo.
+demographic-deidentified-clarity = Laŭvole senditaj demografiaj informoj (ekzemple aĝo, sekso, lingvo kaj akĉento) neniam estos publikaj en via profilo, kaj ili ne estos ligitaj al via konto en la datumaro. Unuopaj voĉregistroj estos asociitaj kun demografiaj datumoj, por analizi pri precize. Ezkemplo: esploristo povus voli alĝustigi sian trejnmodelon al specifa demografia segmento.
 username-email-not-demographic = Via nomo de uzanto kaj retpoŝta adreso ne esos asociitaj kun la publikigitaj datumoj.
 
 ## Speak & Listen Shortcuts
@@ -362,7 +364,10 @@ change-email-setings = Ŝanĝu vian retpoŝton en Agordoj, Idento de seanco
 
 faq-title = Oftaj demandoj
 faq-what-cv-q = Kio estas Common Voice?
-faq-what-cv-a = Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Common Voice estas parto de iniciato de Mozilla, kiu celas plibonigi parolrekonajn teknologiojn kaj igi ilin alireblaj de ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kaj ĝi permesas al iu ajn rapide kaj facile trejni parolrekonajn programojn en, eventuale, ĉiuj lingvoj.
+faq-what-cv-a =
+    Voĉrekonaj teknologioj revolucie ŝanĝas nian manieron interagi kun maŝinoj, sed la nune haveblaj sistemoj estas multekostaj kaj malliberaj. Common Voice estas parto de iniciato de Mozilla, kiu celas plibonigi parolrekonajn teknologiojn kaj igi ilin alireblaj por ĉiuj. Common Voice estas grandega datumbazo de donacitaj voĉregistroj, kaj ĝi permesas al iu ajn rapide kaj facile trejni parolrekonajn programojn en, eventuale, ĉiuj lingvoj.
+    
+    Ni ne nur kolektas voĉajn specimenojn en vaste parolataj lingvoj, sed ankaŭ en tiuj, kiuj havas pli etajn komunumojn de parolantoj. Publikigo de diversa datumaro de voĉoj helpos programistojn, entreprenistojn kaj komunumojn mem etigi la breĉon. Kune kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
 faq-why-important-q = Kial ĝi gravas?
 faq-why-important-a =
     Parolado estas ofte la plej natura maniero komunikiĝi kun la aliaj, kaj voĉaj teknologioj alportas tiun konvenecon al niaj komputiloj kaj poŝaparatoj. Ni volas doni al programistoj la rimedojn kontrui ravajn parorekonajn programojn, kiel samtempajn tradukantojn kaj parolkapablajn helpantojn. Tamen, nuntempe la plimulto de la voĉaj datumoj bezonataj por krei tiajn programojn estas multekosta kaj mallibera. Ni esperas ke la datumaro de Common Voice donos al la programistoj tion, kion ili bezonas por novaĵkrei kaj igi parolajn tekcnologiojn haveblaj en siaj propraj lingvoj.
@@ -378,25 +383,80 @@ faq-what-cv-and-deepspeech-q = Kiu estas la malsamo inter Common Voice kaj Deep 
 faq-what-cv-and-deepspeech-a = La datumaro de Common Voice kompletigas la malfermitkodan parolrekonilon de Mozilla: Deep Speech. La unua versio de Deep Speech estis eldonita en novembro de 2017 kaj ĝi progresas senhalte ekde tiam. Kune kun la datumaro de Common Voice ni pensas ke malfermitkodaj parolrekonaj teknologio devus esti haveblaj de ĉiuj. Ni esperas ke tiuj ĉi teknologio permesos al programistoj konstrui ondon de novaj produktoj kaj servoj.
 faq-is-goal-assistant-q = Ĉu la celo de Common Voice estas konstrui parolkapablan helpanton?
 faq-is-goal-assistant-a = La celo de la datumaro de Common Voice estas permesi al iu ajn en la mondo konstrui parolrekonilon, parolantkrekonilon aŭ iun ajn tipo de programo, kiu bezonas voĉajn datumojn. Parolkapabla helpanto estas unu el tiuj pluraj tipo de programoj, kiujn vi povus konstrui per la datumaro.
+faq-do-want-native-q = Mi ne estas denaska parolanto kaj mi parolas kun akĉento, ĉu vi tamen volas mian voĉon?
+faq-do-want-native-a = Jes, ni speciale volas vian voĉon! Parto de la celo de Common Voice estas kolekti kiel eble plej multe da malsamaj akĉentoj, por ke voĉrekono funkciu same bone por ĉiuj. Ĉi tio signifas, ke kontribuoj de nedenaskaj parolantoj estas aparte gravaj.
+faq-why-different-speakers-q = Kial vi bezonas tiom da malsamaj parolantoj por ĉiu lingvo?
+faq-why-different-speakers-a =
+    La plejmulto da voĉaj datumbazoj estas konstruitaj kun superreprezento de kelkaj demografiaj grupoj, kiu favoras  <articleLink>virojn kaj mezan klason</articleLink>. Normale subreprezentitaj akĉentoj kaj dialektoj en trejnaj datumaroj estas kutime asociitaj kun homgrupoj, kiuj jam estas eksterigitaj. Cetere, multaj maŝinoj penas kompeni virinajn voĉojn.
+    Tial en nia voĉa datumbazo ni volas diversecon!
 faq-why-my-lang-q = Kial mia lingvo ne estas ankoraŭ inkluzivita?
+faq-why-my-lang-new-a = Mozilla ne elektas aŭ favoras iun ajn lingvon super alia. Male, Common Voice estas nur pelata de komunumoj, sed bezonatas <multilangLink>pluraj paŝoj por aldoni novan lingvon</ multilangLink> kaj komenci kolekti voĉregistrojn. Unue, la retejo de Common devas esti tradukita, por permesi al la membroj de la komunumoj sperti la kontribuadon en siaj propraj lingvoj. Poste, ni bezonas grandan kolekton de frazoj liberaj je kopirajto, kiuj estos laŭtlegitaj.  Kiam tiuj du kondiĉoj estos plenumitaj, la lingvoj estos "lanĉitaj" en Common Voice por ke homoj komencu registri siajn voĉojn kaj validigi la voĉregistrojn de aliaj. Se vi volas helpi lanĉi novan lingvon, iru al nia <sentenceCollectorLink>iloj por kolekti frazojn</ phraseCollectorLink> por komenci.
+faq-what-quality-q = Kiu nivelo de sonkvalito estas postulata por la voĉaregistroj en la datumaro?
+faq-what-quality-a = Ni volas ke la datumaro de Common Voice reflektu la sonkvaliton de la ĉiutaga vivo, do ni serĉas diversecon. Krom diversa komunumo de parolantoj, datumaro kun varianta sonkvalito permesos al voĉrekoniloj trakti diversajn realajn situaciojn, ĉu fona parolado ĉu aŭta bruo. Se via voĉregistro kompreneblas, ĝi devus esti sufiĉe bona por la datumaro.
+faq-why-10k-hours-q = Kial la celo estas 10.000 validigitaj horoj de sono?
+faq-why-10k-hours-a = Tiu tempo estas proksimume la nombro de horoj bezonataj por trejni bonkvalitan voĉrekonan sistemon.
 faq-how-calc-hours-q = Kiel Common Voice kalkulas horojn?
+faq-how-calc-hours-a = Ni kalkulas horojn surbaze de taksado de mezuma daŭro por ĉiu voĉregistro, obligita per la tuta kvanto de voĉregistroj en ĉiuj lingvoj.
 faq-where-src-from-2-q = El kie venas la fonta teksto?
+faq-where-src-from-2-a =
+    Nia fonta teksto estas miksaĵo de individuaj kontribuoj, kaj fontoj el publike haveblaj tekstoj.
+    
+    Vi povas vidi niajn originalajn frazojn en tiu ĉi <githubLink>dosierujo de GitHub</githubLink>.
+faq-why-not-ask-read-q = Kial vi ne petas al homoj legi librojn aŭ Vikipediajn artikolojn en malsamaj lingvoj?
+faq-why-not-ask-read-a = Por igi la datumaron de Common Voice kiel eble plej utila ni decidis akcepti nur tekstojn regataj de pemesiloj de Creative Commons (CC0). Uzo de la normo CC0 igas la serĉon kaj kolekton de tekstoj pli malfacila, sed permesas al iu ajn uzi la voĉregistrojn en la datumaro sen ia ajn limigo aŭ permeso de Mozilla. Nia celo estas havi kiel eble plej utilan datumaron por ĉiuj, kiun povos uzi esploristoj, universitatoj, novaj entrepenoj, estraroj, socicelaj organizoj kaj neprofesiuloj.
 faq-why-account-q = Kial mi devus krei konton?
 faq-is-account-public-q = Ĉu la informoj de mia konto estas publikaj?
 faq-how-privacy-q = Kiel vi certigas anonimecon kaj privatecon de la personoj, kiuj donacis siajn voĉojn?
+faq-how-privacy-a = Ĉiuj informoj, kiuj povus identigi personon, estas forigitaj el la datumaro. Kiam kontribuanto provizas demografiajn tadumojn en sia profilo, tiu informo estas disigita de la voĉregistroj antaŭ ol arigi ilin en la datumaro, kaj ĝi neniam estos publika en la profila paĝo.
+faq-what-determine-identity-q = Kion signifas ke mi ne povas "identigi" parolantojn en la datumaro de Common Voice?
+faq-what-determine-identity-a =
+    La datumaro de Common Voice estas malfermita kaj publike havebla rimedo, kiu povas esti uzata por trejni plurajn tipoj de programoj, kiuj uzas voĉon. Por protekti la sekurecon de ĉiuj kontribuantoj, ni petas al ĉiu, kiu elŝutas la datumaron de Common Voice, respekti la privatecon de la kontribuantoj.
+    
+    Informoj, kiuj povus identigi personon, estis forigitaj el la datumaro. Kiam vi elŝutas ĝin, vi akceptas ne klpodi eltiri la identecon de iu ajn kontribuanto. Tio signifas ke vi ne povas klopodi ligi informojn en la datumaro kun personaj informoj de la kontribuanto. Vi povas, tamen, ligi informojn en la datumaro kun aliaj informoj en la datumaro por trejni parolrekonajn, voĉrekonajn aŭ aliajn programojn.
 faq-what-is-cv = Kio estas Common Voice?
+faq-using-cv = Kiel uzi Common Voice
+faq-description = Common Voice estas parto de iniciato de Mozilla helpi instrui al komputilojn la manieron, kiel homoj fakte parolas.
+faq-search-for-answers =
+    .label = Serĉi respondojn
 
 ## ABOUT US
 
 about-title = Kial Common Voice?
+about-subtitle = Common Voice estas parto de iniciato de Mozilla por helpi instrui al maŝinoj, kiel homoj fakte parolas. Kune kun la datumaro de Common Voice ni ankaŭ konstruas malfermitkodan parolrekonilon nomita Deep Speech.
+about-header-description =
+    Ambaŭ projektoj estas parto de nia strebo fermi la ciferecan breĉon inter lingvoj . Parolrekonaj teknologioj alportas homan dimension al niaj aparatoj, sed programistoj bezonas grandengan kvanto da voĉaj datumoj por konstrui iln. Nuntempe, la plejmulto de tiuj datumoj estas multekosta kaj privataj.
+    Ni volas igi voĉajn datumojn liberaj kaj publike haveblaj kaj certi ke tiuj datumoj reprezentas la diversecon de realaj personoj. Kune ni povas plibonigi parolrekonon por ĉiuj.
 how-does-it-work-title = Kiel ĝi funkcias?
+how-does-it-work-text = Ni kalkulas je kolektiva patropreno por konstrui malfermitkodan voĉan datumaron. Donacu vian voĉon, validigu la precizecon de la voĉregistroj de aliaj personoj, plibonigu la datumaron por ĉiuj.
 about-speak = Paroli
+about-speak-text = Kontribuantoj laŭtlegas el kolekto de donacitaj frazoj kaj registras siajn voĉojn.
 about-listen-queue = Vico de aŭskulto
+about-listen-queue-text = Voĉregistroj eniras vicon, kiu pretigas ilin por aŭskultado.
 about-listen = Aŭskulti
+about-listen-text = Uzantoj validigas la precizecon de la voĉregistroj, kontrolante ĉu la parolanto legis la frazon korekte.
+about-is-it-valid = Ĉu la voĉregistro validas?
+about-is-it-valid-text = Voĉregistro estas markita kiel "valida" kiam uzanto voĉdonas jese por ĝi.
+about-yes-votes = ≥ 2 jesaj voĉdonoj
+about-yes-votes-text = Por eniri la datumaron de Common Voice, voĉregistro devas esti validigita de almenaŭ du malsamaj uzantoj.
+about-no-votes = ≥ 2 neaj voĉdonoj
+about-no-votes-text = Kiam uzanto rifuzas voĉregistron, ĝi reiras al la vico. Se ĝi estas rifuzita duan fojon, la voĉregistro iras al la tombejo de voĉregistroj.
+about-dataset-new = Datumaro de Common Voice
+about-dataset-new-text = La datumaro de Common Voice enhavas centojn da miloj da voĉregistroj, kiuj helpas programistojn konstrui parolrekonajn ilojn.
 about-clip-graveyard = Tombejo de voĉregistroj
+about-clip-graveyard-text = La tombejo de voĉregistroj konsistas el voĉregistroj kiuj ne sukcesis eniri la datumaron de Common Voice. Same kiel la datumaro, la tombejo de voĉregistroj estas elŝutebla.
 about-partners = Asociitoj
 about-become-a-partner = Iĝi asociito
+about-partnership =
+    Common Voice estas kunlabora projekto, kaj ni dependas de nian komunumo de partoprenantoj kaj kontribuantoj por konstrui la plej grandan malfermitkodan datumaron de voĉoj.
+    
+    Ni ŝatus danki la jenaj personojn kaj organizojn pro ilia helpo kun la projekto:
 about-get-involved = Partopreni
+about-get-involved-text-2 =
+    Ĉu vi volas igi Common Voice eĉ pli bona?
+    Bonege! Kontaktu nin per retpoŝto aŭ en forumoj de
+    <discourseLink>Discourse</discourseLink>, raportu
+    retejajn problemojn per <githubLink>GitHub</githubLink>
+    aŭ aliĝu al la komunuma retbabilejo en la <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Kial?
 about-nav-how-it-works = Kiel?
 about-nav-partners = Asociitoj
@@ -404,6 +464,7 @@ about-nav-get-involved = Partopreni
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artefarita intelekto
 mycroft-description = Mycroft estas la unua malfermitkoda asistanto en la mondo.¶Mycroft funkcias ĉie: en komputilo, en aŭto aŭ en Raspberry Pi.
+mycroft-secondary-description = Tiu ĉi estas malfermitkoda programo kiu povas estis libere rearanĝita, etendita kaj plibonigita. Mycroft povas esti uzata en io ajn, ĉu sciencia projekto ĉu entreprena sistemo.
 
 ## Glossary
 
@@ -411,9 +472,13 @@ glossary = Glosaro
 localization = Traduko
 localization-explanation = Temas pri nia procezo traduki kaj adapti la enhavon al pluraj lingvoj.
 sentence-collection = Kolekto de frazoj
+sentence-collection-explanation = Kolekti frazojn el la publika havaĵo, aŭ skribi novajn, kiuj apartenos al ĝi.
+hours-recorded-explanation = La nombro de voĉregistroj, kiujn ni kolektis ĝin nun.
+hours-validated-explanation = La nombro de horoj de voĉregistroj kiuj estis validigitaj de almenaŭ 2 el 3 uzantoj per voĉdono "jes". Tiuj ĉi montras la progreson al la projekta celo de 10.000 horoj.
 sst = Voĉrekono (Speech-to-text, STT)
 sst-explanation = Voĉrekoniloj (STT) transformas voĉon en tekston.
 de-identified = Anonimigita
+de-identified-explanation = La procezo kiu permesas apartigi la personajn informojn de la kontribuantoj kaj iliajn kontribuojn, dum oni pakas la voĉregistrojn en la datumbazo por elŝuto.
 
 ## NotFound
 
@@ -451,6 +516,13 @@ review-delete-recordings = Forigi miajn registrojn
 
 ## Datasets Page
 
+datasets-headline = Ni konstruas malfermitkodan, plurlingvan datumaron de voĉoj, kiun iu ajn povas uzi por trejni parolkapablajn programojn.
+datasets-positioning =
+    Ni pensas ke grandaj kaj publike haveblaj datumaroj de voĉoj favoros novaĵkreemon kaj sanan komercan konkurecon en la parolaj teknologioj bazitaj sur automata lernado.
+    
+    La plurlingva datumaro de Common Voice estas jam la plej granda publike havebla voĉa datumaro, sed ne la ununura.
+    
+    Tiu ĉi paĝo listigas aliajn malfermitkodajn voĉajn datumarojn kaj, dum la evoluo de Common Voice, ankaŭ niajn estontajn ĝisdatigojn.
 language = Lingvo
 # File size in gigabytes
 size = Grando
@@ -465,18 +537,32 @@ why-email = <b>Kial ni petas retpoŝton</b> Ni povus bezoni kontakti vin en la e
 confirm-size = Vi pretas komenci la elŝuton de <b>{ $size }</b>
 size-gigabyte = GO
 size-megabyte = MO
+confirm-no-identify = <b>Vi akceptas</b> ne klopodi eltiri la identecon de parolantoj en la datumaro de Common Voice
 download-language = Elŝuti { $language }
 validated-hours = Validigitaj horoj
 recorded-hours = Registritaj horoj
+whats-inside = Kio estas ene de la datumbazo de Common Voice?
+dataset-description-hours =
+    Ĉiu elemento en la datumaro konsistas el dosiero MP3 kaj la respektivan tekstan dosieron. Multaj el la <b>{ $total }</b> registritaj horoj en la datumaro ankaŭ inkluzivas demografiajn datumojn, kiel aĝon, sekson kaj akcenton, kiuj povus helpi trejni la precizecon de parolrekoniloj.
+    
+    La datumaro nunteme konsistas el <b>{ $valid }</b> validigitaj horoj en <b>{ $languages }</b> lingvoj, sed ni daŭre aldonas pli da voĉoj kaj lingvoj. Rigardu nian <languagesLink>paĝon pri ligvoj</languagesLink> por peti novan lingvon aŭ komenci kontribui.
+want-dataset-update = Ĉu vi ŝatus scii kiam ni liveras novan version de la datumaro de Common Voice? Abonu nian novaĵleteron.
 subscribe = Aboni
 get-started-speech = Unua paŝoj en parolrekono
 other-datasets = Aliaj voĉaj datumaroj
 feedback-q = Ĉu vi ŝatus komenti?
+deepspeech-info = La datumaro de Common Voice iras kune kun la malfermitkoda parolrekonilo de Mozilla, Deep Speech, kiun vi povas uzi por konstrui parolkapablajn programojn. Vizitu nian <githubLink>superrigardon de Gihub</githubLink> aŭ aliĝu al <discourseLink>DeepSpeech Discourse</discourseLink> por scii kie kaj kiel komenci.
+common-voice-info-new = Ĉu vi havas demandojn rilate al Common Voice? Ĉu ideojn por plibonigoj aŭ komentoj pri specifa lingvo? Venu al nia <discourseLink>forumo de Discourse</discourseLink> kaj rakontu tion al ni.
 data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
 data-other-ted-name = Kolekto TED-LIUM
 data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
 data-other-voxforge-description = VoxForge estis kreita kun la celo kolekti transskribitaj paroladoj, tiel ke ili estos uzeblaj de liberaj kaj malfermitkodaj parolrekoniloj.
 data-other-tatoeba-description = Tatoeba estas granda datumbazo de frazoj, tradukoj kaj voĉaj registroj, por esti uzata dum lernado de lingvoj. Tiu ĉi elŝuto enhavas parolatan anglan, kiun registris ilia komunumo.
+your-feedback = Ĉu vi havas ideojn, kiel plibonigi la datumaron de Common Voice? Rankontu al ni en Discourse
+go-discourse = Iri al Discourse
+missing-language = Ĉu via lingvo ne aperas en la datumaro? Por peti novan lingvon iru al la paĝo pri lingvoj.
+go-languages-page = Iri al la paĝo pri lingvoj
+ready-to-validate = Ĉu vi pretas validigi frazojn?
 more = Pli
 close = Fermi
 download = Elŝuti
@@ -514,7 +600,9 @@ other-language = Alia lingvo
 ## Languages Overview
 
 language-section-in-progress = Progresanta
+language-section-in-progress-new-description = Tiu ĉi lingvoj estas nuntempe preparataj de iliaj komunumoj. La progresindikiloj montras la nunan staton  de <localizationGlossaryLink>traduko de la retejo</localizationGlossaryLink> kaj <sentenceCollectionGlossaryLink>kolekto da frazoj</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanĉita
+language-section-launched-description = Por ĉi tiuj lanĉitaj lingvoj la retejo estis sukcese <localizationGlossaryLink>tradukita</localizationGlossaryLink>, kaj la lingvo havas sufiĉe da <sentenceCollectionGlossaryLink>frazoj kolektitaj</sentenceCollectionGlossaryLink> kiu permesas daŭrajn <speakLink>parolajn</speakLink> kaj <listenLink>aŭskultaj</listenLink>   kontribuojn.
 languages-show-more = Vidi pli
 languages-show-less = Vidi malpli
 language-meter-in-progress = Progreso
@@ -545,7 +633,7 @@ contribute-more =
 record-cta = Komenci registron
 record-platform-not-supported = Bedaŭrinde via sistemo ne estas subtenata.
 record-platform-not-supported-desktop = En komputiloj sribotablaj, vi povas elŝuti la lastajn:
-record-platform-not-supported-ios = Uzantoj de <bold>iOS</bold> povas elŝuti nian senpagan programon:
+record-platform-not-supported-ios-non-safari = En iOS bonvolu daŭrigi per Safari por aktivigi sonregistradon…
 record-must-allow-microphone = Vi devas permesi aliron al la mikrofono.
 record-no-mic-found = Neniu mikrofono trovita.
 record-error-too-short = La registro estis tro mallonga.
@@ -559,6 +647,8 @@ record-again-instruction = Bonege!<recordIcon></recordIcon>Faru vian venontan vo
 record-again-instruction2 = Daŭrigu tiel, registru denove <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Lasta!
 review-tooltip = Revizii kaj refari voĉregistrojn dum vi progresas
+share-clip = Kundividi vian voĉregistron
+share-common-voice = Kundividi Common Voice
 review-instruction = Revizii kaj refari voĉregistrojn se bezonatas
 record-submit-tooltip = { $actionType } sendi kiam vi pretas
 clips-uploaded = Alŝutitaj voĉregistroj
@@ -571,10 +661,17 @@ listen-instruction = { $actionType }<playIcon></playIcon> ĉu ili ĝuste diris l
 listen-again-instruction = Bonega laboro!<playIcon></playIcon> Aŭskultu denove kiam vi pretos
 listen-3rd-time-instruction = Restas nur du, daŭrigu tiel!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Lasta!
-nothing-to-validate = Ni ne havas ion ajn por validigi en tiu ĉi lingvo, helpu nin aldoni kelkajn registrojn al la atendovico.
+listen-empty-state = Ni ne plu havas validigeblajn voĉregistrojn en tiu ĉi lingvo...
+speak-empty-state = Ni ne plu havas frazojn por registri en tiu ĉi lingvo...
+speak-empty-state-cta = Proponi frazojn
 record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
+keep-track-profile = Akompanu vian progreson per profilo
 login-to-get-started = Komencu seancon aŭ enskribiĝu por ekuzi
+target-segment-first-card = Vi kontribuas a la nia unua cela segmento
+target-segment-first-banner = Helpu krei la unuan celan segmenton de Common Voice en { $locale }
+target-segment-add-voice = Aldoni vian voĉon
+target-segment-learn-more = Pli da informo
 
 ## Reporting
 
@@ -599,6 +696,7 @@ report-success = Raporto sukcese sendita
 
 ## Goals
 
+streaks = Serioj
 days =
     { $count ->
         [one] tago
@@ -618,6 +716,7 @@ validations =
 ## Dashboard
 
 your-languages = Viaj lingvoj
+toward-next-goal = Al la venonta celo
 clips-you-recorded = Viaj voĉregistroj
 clips-you-validated = Viaj revizioj
 todays-recorded-progress = Hodiaŭa progreso de Common Voice rilate al voĉregistroj
@@ -630,9 +729,17 @@ contribution-activity = Kontribuoj
 top-contributors = Ĉefaj kontribuantoj
 recorded-clips = Faritaj voĉregistroj
 validated-clips = Validigitaj voĉregistroj
+total-approved = Kvanto de aproboj
+overall-accuracy = Ĝenerala precizeco
+set-visibility = Difini mian videblecon
+visibility-explainer = Tiu ĉi agordo regas la videblecon en la rango de kontribuantoj. Se ĝi estas kaŝita, via progreso estos privata. Tio signifas ke via bildo, nomo de uzanto kaj progreso ne aperos en la rango de kontribuantoj. Notu ke bezonatas pli malpli { $minutes } minutoj por montri la lastajn ŝanĝojn.
+visibility-overlay-note = Noto: se vi elektas 'Videbla', tiu ĉi agordo povas esti ŝanĝita en la <profileLink>paĝo de profilo</profileLink>
+show-ranking = Montri mian pozicion
 
 ## Custom Goals
 
+get-started-goals = Unuaj paŝoj kun celoj
+create-custom-goal = Krei propran celon
 both-speak-and-listen = Ambaŭ
 both-speak-and-listen-long = Ambaŭ (kaj paroli kaj aŭskulti)
 daily-goal = Ĉiutaga celo
@@ -646,13 +753,22 @@ want-to-continue = Ĉu vi volas daŭrigi?
 finish-editing = Ĉu vi volas unue fini la modifojn?
 lose-changes-warning = Se vi foriras nun vi perdos viajn ŝanĝojn
 build-custom-goal = Difini personecigitan celon
+help-reach-hours = Helpu atingi { NUMBER($hours) } horojn en { $language } per persona celo
+help-reach-hours-general = Helpu Common Voice atingi { NUMBER($hours) } horojn en lingvo per persona celo
 set-a-goal = Difini celon
 cant-decide = Ĉu vi ne povas decidi?
 activity-needed-calculation = Oni povas atingi { NUMBER($totalHours) } horojn post iom pli ol { NUMBER($periodMonths) } monatoj se { NUMBER($people) } personoj registras po { NUMBER($clipsPerDay) } voĉregistrojn  ĉiutage.
 how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
 which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?
+receiving-emails-info =
+    Vi ricevos retpoŝtajn mesaĝojn kun memorigoj pri celoj,
+    raportoj pri via progreso kaj novaĵleteroj de Common Voice
+not-receiving-emails-info =
+    Vi <bold>NE</bold> ricevos retpoŝtajn mesaĝojn kun memorigoj pri celoj
+    raportoj pri via progreso kaj novaĵleteroj de Common Voice
 n-clips = { NUMBER($count) } voĉregistroj
+help-share-goal = Helpu nin trovi pli da voĉoj, kundividu vian celon
 confirm-goal = Konfirmi celon
 goal-interval-weekly = Semajne
 # $type is one of share-goal-type-*
@@ -662,6 +778,8 @@ share-n-weekly-contribution-goal = Kundividu vian ĉiusemajnan celon, { $count }
 share-goal-type-speak = Parolante
 share-goal-type-listen = Aŭskultante
 share-goal-type-both = Parolante kaj aŭskultante
+# LINK will be replaced with the current URL
+goal-share-text = Mi ĵus krei personan celon por donacado de voĉo al #CommonVoice -- venu kun mi kaj helpu instrui al maŝinoj la manieron kiel homoj fakte parolas { $link }
 weekly-goal-created = Via ĉiusemajna celo estis kreita
 daily-goal-created = Via ĉiutaga celo estis kreita
 track-progress = Sekvu vian progreson ĉi tie kaj en la paĝo pri statistikoj.
@@ -670,8 +788,11 @@ share-goal = Kundividi mian celon
 
 ## Profile Delete
 
+delete-q = Ĉu vi ankaŭ ŝatus peti la forigon de viaj voĉregistroj, aŭ ĉu vi preferas konservi ilin en la datumaro de Common Voice?
 keep = Gardi
 remove = Forigi
+keep-info = Viaj anonimaj voĉregistroj restos en la datumaro de Common Voice. Post la forigo de via profilo vi ne plu povos peti la forigon de viaj voĉregistroj el la datumaro
+remove-info = Ni revizios vian peton forigi viajn voĉregistrojn el la datumaro. Se via peto estas aprobita, ni kontaktos tiujn, kiuj elŝutis la datumaron kaj petos al ili agi same.
 why-delete-recordings =
     La voĉregistroj de Common Voice estas uzitaj de akademioj, etaj entreprenoj kaj personoj entuziasmantaj de parolrekono, por trajni kaj disvolvi rimedojn kiel ekzemple voĉajn modelojn.
     
@@ -681,6 +802,7 @@ profile-form-delete = Forigi profilon
 ## Landing
 
 welcome-staff = Estu bonvenaj, laboristoj de { $company }!
+help-contribute = Vi povas helpi konstrui diversan, malfermitkodan datumaron per kreado de profilo de Common Voice kaj kontribuo de via voĉo.
 login-company = Komencu seancon / registriĝu per retpoŝta adreso de { $company }
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
 read-more-about = Pli da informo en la paĝo: Pri Common Voice

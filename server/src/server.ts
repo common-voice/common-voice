@@ -13,7 +13,6 @@ import {
 } from './lib/model/leaderboard';
 import { trackPageView } from './lib/analytics';
 import API from './lib/api';
-import Logger from './lib/logger';
 import { redis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
@@ -48,7 +47,6 @@ const CSP_HEADER = [
   `frame-src https://optimize.google.com`,
 ].join(';');
 
-
 Sentry.init({
   dsn: getConfig().SENTRY_DSN,
   release: RELEASE_VERSION,
@@ -59,7 +57,6 @@ export default class Server {
   server: http.Server;
   model: Model;
   api: API;
-  logger: Logger;
   isLeader: boolean;
 
   get version() {
@@ -71,13 +68,7 @@ export default class Server {
     options = { bundleCrossLocaleMessages: true, ...options };
     this.model = new Model();
     this.api = new API(this.model);
-    this.logger = new Logger();
     this.isLeader = null;
-
-    // Make console.log output json.
-    if (PROD) {
-      this.logger.overrideConsole();
-    }
 
     const app = (this.app = express());
 
@@ -120,9 +111,10 @@ export default class Server {
         // redirect to omit trailing slashes
         if (request.path.substr(-1) == '/' && request.path.length > 1) {
           const query = request.url.slice(request.path.length);
+          const host = request.get('host');
           response.redirect(
             HttpStatus.MOVED_PERMANENTLY,
-            request.path.slice(0, -1) + query
+            host + request.path.slice(0, -1) + query
           );
         } else {
           next();
@@ -179,7 +171,7 @@ export default class Server {
 
       app.use(
         '/contribute.json',
-        express.static(path.join(__dirname, '..', 'contribute.json'))
+        express.static(path.join(__dirname, '..', '..', 'contribute.json'))
       );
 
       if (options.bundleCrossLocaleMessages) {

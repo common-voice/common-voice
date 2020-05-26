@@ -64,10 +64,12 @@ ga-IE = Irlannisi
 gl = Galizzianu
 ha = Hausa
 he = Ebbraicu
-hi-IN = Hindi
+hi = Hindi
 hr = Cruatu
 hsb = Surabbu autu
 hu = Unghirisi
+hy-AM = Armenu
+hyw = Armenu uccidintali
 ia = Ntirlingua
 id = Nnunisianu
 is = Islannisi
@@ -136,6 +138,7 @@ uk = Ucrainu
 ur = Urdu
 uz = Uzbecu
 vec = Vènitu
+vi = Vietnamisi
 vot = Vòticu
 zh-CN = Cinisi (Cina)
 zh-HK = Cinisi (Hong Kong)
@@ -232,7 +235,6 @@ whats-public = Quali dati su' pùbblici?
 email-not-public = Nun pubblicaremu u to nnirizzu e-mail.
 recordings-and-locale-public = U nùmmaru di riggistrazziuna e i lingui unni cullàbburi sarannu pùbblici.
 username-optin-public = Po' scègghiri si pùbblicari u to nomu utenti o arristari anònimu.
-demographic-deidentified = I dati facurtativi chi manni (p.a. età, gèniri, lingua e accentu) vennu slazzati dî to dati vucali e nun sarannu mai pùbblici nnô to prufilu.
 username-email-not-demographic = U to nomu utenti e u to nnirizzu e-mail nun sarannu assuciati chî dati pubblicati.
 
 ## Speak & Listen Shortcuts
@@ -483,6 +485,7 @@ download-language = Scàrrica { $language }
 validated-hours = Uri appruvati
 recorded-hours = Uri riggistrati
 whats-inside = Soccu cc'è nnî dati Common Voice?
+subscribe = Scrìviti
 get-started-speech = Accumincia cû ricanuscimentu vucali
 other-datasets = Autri dati vucali
 feedback-q = Ài suggirimenti?
@@ -528,6 +531,7 @@ other-language = Autra lingua
 
 ## Languages Overview
 
+language-section-in-progress = 'N cursu
 language-section-launched = Partuti
 languages-show-more = Vidi cchiù assai
 languages-show-less = Vidi cchiù picca
@@ -556,7 +560,6 @@ contribute-more =
     }
 record-cta = Accumincia a riggistrari
 record-platform-not-supported = Ni dispiaci, ma accamora a to chiattafurma nun è suppurtata.
-record-platform-not-supported-ios = L'utenti <bold>iOS</bold> ponnu scàrricari a nostra app a gratis:
 record-must-allow-microphone = Hâ pirmèttiri l'usu dû micròfunu.
 record-no-mic-found = Nun attruvai nuḍḍu micròfunu.
 record-error-too-short = A riggistrazziuni è troppu curta.
@@ -569,6 +572,9 @@ record-three-more-instruction = Autri tri!
 record-again-instruction = Bonu!<recordIcon></recordIcon> Riggìstrani n'autra
 record-again-instruction2 = Vai accussì! Riggìstrani ancora n'autra <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> L'ùrtima!
+share-clip = Sparti a to riggistrazziuni
+share-common-voice = Sparti Common Voice
+review-instruction = Ascuta i riggistrazziuna e, si serbi, falli arrè
 record-submit-tooltip = { $actionType } mmìa quannu sì prontu
 clips-uploaded = Riggistrazziuna carricati
 record-abort-title = Vo' allèstiri sta riggistrazziuni prima?
@@ -580,11 +586,15 @@ listen-instruction = { $actionType }<playIcon></playIcon> liggeru bonu a frasi?
 listen-again-instruction = Bonu!<playIcon></playIcon> Ascùtani n'autra quannu sì prontu
 listen-3rd-time-instruction = Ni facisti dui, cuntinua accussì!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>L'ùrtima!
-nothing-to-validate = Nun cci sunnu riggistrazziuna d'appruvari nna sta lingua, ajùtani a jìnchiri sta lista.
+listen-empty-state = Finemu i riggistrazziuna di validari nni sta lingua...
+speak-empty-state = Finemu i frasi di riggistrari nni sta lingua...
+speak-empty-state-cta = Cuntribbuisci cu autri frasi
 record-button-label = Riggistra a to vuci
 share-title-new = <bold>Ajùtani</bold> a 'ttruvari autri vuci
 keep-track-profile = Vidi soccu facisti c'un prufilu
 login-to-get-started = Trasi o riggìstrati p'accuminciari
+target-segment-add-voice = Agghiungi a to vuci
+target-segment-learn-more = Cchiù nfurmazziuna
 
 ## Reporting
 
@@ -609,6 +619,7 @@ report-success = A signalazziuni fu mmiata.
 
 ## Goals
 
+streaks = Ringhi
 days =
     { $count ->
         [one] Jornu
@@ -619,12 +630,18 @@ recordings =
         [one] Riggistrazziuni
        *[other] Riggistrazziuna
     }
+validations =
+    { $count ->
+        [one] Validazziuni
+       *[other] Validazziuna
+    }
 
 ## Dashboard
 
 your-languages = I to lingui
 toward-next-goal = Ammeri u pròssimu ubbittivu
 clips-you-recorded = Riggistrazziuna fatti
+clips-you-validated = Riggistrazziuna chi validasti
 stats = Statìstichi
 awards = Premi
 you = Tu
@@ -632,6 +649,7 @@ everyone = Tutti
 contribution-activity = Cuntribbuti
 top-contributors = Cullabburatura cchiù attivi
 recorded-clips = Riggistrazziuna fatti
+validated-clips = Riggistrazziuna validati
 total-approved = Tutali appruvati
 overall-accuracy = Pricisiuni glubbali
 set-visibility = Mposta a me visibbilità
@@ -643,14 +661,22 @@ average-difficulty = Nurmali
 difficult-difficulty = Diffìcili
 pro-difficulty = Mastru
 want-to-continue = Vo' cuntinuari?
+set-a-goal = Mposta n'ubbittivu
+cant-decide = Nun sai chi fari?
 how-many-per-day = Granni! Quanti riggistrazziuna ô jornu?
 how-many-a-week = Granni! Quanti riggistrazziuna â simana?
 which-goal-type = Vo' parrari, ascutari o tutti du'?
 n-clips = { NUMBER($count) } riggistrazziuna
 help-share-goal = Ajùtani ad attruvari cchiù vuci, sparti u to ubbittivu
+confirm-goal = Cunferma ubbittivu
+goal-interval-weekly = Pâ simana
 share-goal-type-speak = Parrari
 share-goal-type-listen = Ascutari
 share-goal-type-both = Parrari ed ascutari
+weekly-goal-created = Criasti u to ubbittivu pâ simana
+daily-goal-created = Criasti u to ubbittivu pû jornu
+track-progress = Teni trazza cca dî to prugressi e ncapu â pàggina dî statìstichi.
+return-to-edit-goal = Torna cca pi canciari i to ubbittivi quannu voi.
 share-goal = Sparti u me ubbittivu
 
 ## Profile Delete
@@ -663,6 +689,7 @@ profile-form-delete = Cancella prufilu
 ## Landing
 
 welcome-staff = Bimminutu, mèmmiru di { $company }.
+help-contribute = Crea un prufilu Common Voice e cuntribbuisci câ to vuci pi criari nu nzemi di dati lìbbiru e apertu.
 login-company = Trasi / Riggìstrati cu nu nnirizzu e-mail di { $company }
 profile-not-required = Aviri un prufilu nun è ubbligatoriu pi cuntribbuiri, ma po èssiri ùtili: vidi picchì cchiù sutta.
 read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna

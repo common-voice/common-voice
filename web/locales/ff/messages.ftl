@@ -10,6 +10,7 @@ submit-form-action = Naatnu
 loading = Nana loowa…
 email-opt-in-info = Miɗo hatojini e heɓde iimeeluuji wano ciiftinooji, kesɗitine taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
 email-opt-in-info-title = Tawtu doggol cargol Common Voice ngol
+email-opt-in-info-sub-with-challenge = Heɓ iimeeluuji hono ciiftinooji ko fad-maa e faandaare maa, kesɗitine taaɓagol maa, e ɓatakeeji baɗte Common Voice.
 email-opt-in-privacy = So suɓaade heɓde iimeeluuji, a jaɓii no Mozilla huutortoo ngoo humpito hono no facciraa e <privacyLink>Dawirgol Suturo<privacyLink> Mozilla.
 indicates-required = Joofii ko gallol baɗɗingol
 not-available-abbreviation = N/A
@@ -68,6 +69,7 @@ hr = Korowasiire
 hsb = Sorbian, Lower
 hu = Hungarian
 hy-AM = Armenian
+hyw = Armeniire baŋnge hirnaange
 ia = Interlingua
 id = Indonesiire
 is = Islanndiire
@@ -168,8 +170,17 @@ logout = Seŋto
 
 home-title = Common Voice ko feere Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
 home-cta = Ɓamtu daande, wallit ɗoo!
+wall-of-text-more-mobile =
+    Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
+    ɗum ina ñoƴƴa pental. Ɗuum noon min ummini eɓɓoore Common Voice, eɓɓoore walloore waɗde daande
+    heftinirde udditaniinde kala neɗɗo.
+wall-of-text-second =
+    Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
+    ɗum ina ñoƴƴa pental. Ɗuum noon min ummini Common Voice, eɓɓoore walloore uddit-de heftinirde daande
+    mo kala neɗɗo waawi heɓde.
 show-wall-of-text = Jokku taro
 help-us-title = Wallu min moƴƴinde koŋnguɗi!
+help-us-explain = Ɓoɗɗu tarde, heɗaade e haalan-min: Ɗe kaalii koŋngol les ɗoo haa feewi?
 vote-yes = Eey
 vote-no = Alaa
 speak-subtitle = Rokkir daande maa
@@ -177,6 +188,7 @@ listen-subtitle = Wallu min moƴƴinde daaɗe
 hours-recorded = Waktuuji Nanngitaama
 hours-validated = Waktuuji moƴƴinaama
 voices-online = Daaɗe ɗee e ceŋol jooni
+todays-progress = Ɓeydagol hannde
 help-reach-goal = Wallu min yettaade { $goal }
 read-terms-q = A tarii sarɗiiji amen?
 ready-to-record = A hebiima rokkirde daande maa?
@@ -199,15 +211,21 @@ x-years-short =
     }
 sign-up-account = Winndito ngam dañde konte
 email-subscription-title = Winndito ngam heɓde kesɗitine iimeel
+email-subscription-title-new = Winndito e ɓatakeeji Common Voice , ciiftine faandaare e kesɗitine beydagol.
 
 ## Account Benefits
 
 benefits = Ɓure
+rich-data = Alɗin keɓe naatnuɗaa ɗo mbaawka maa haaɗi ndokkaa keɓe nguurndam aadee ɗe cuurtaaka. Min momtat heftinirde kala keɓe nguurndam aadee hade min waɗde ɗum e peñcu.
+improve-audio = Humpito heftinirde ina ƴellita keɓe ojoo kuutoraaɗe e peewgol heftinirde daande.
+compare-progress = Yiy hol no ɓeydagol maa yerondirta e ngol wallitooɓe e nder winndere ndee fof.
+join-newsletter = So a welaama aɗa waawi yantude e doggol iimeeluuji amen ngam kesɗitine e kabaruuji kesi baɗte eɓɓoore ndee.
 
 ## What's public
 
 whats-public = Hol ko woni peeñcu?
 email-not-public = Min mbaɗoytaa iimeel maa peeñcu.
+recordings-and-locale-public = Nanngitte ɗee no poti e ɗemɗe ɗe mballittaa maa ngon e peñcu.
 username-optin-public = Aɗa waawi suɓaade waɗde innde kuutoro maa e peñcu walla cuuɗiiɗo.
 username-email-not-demographic = Innde kuutoro maa e iimeel maa ndenndinoytaake e keɓe bayyinaaɗe ɗee.
 
@@ -278,6 +296,8 @@ edit-profile = Taƴto Heftinirde
 profile-create-success = Moƴƴii, heftinirde sosaama!
 profile-close = Uddu
 thanks-for-account = A jaaraama e teeŋtingol konte maa, jooni noon mahen heftinirde maa.
+why-demographic = Hol ko saabii ɗum ina himmi?
+accept-privacy = Mi jaɓii toppitoɗaa ngoo humpito hono no no paccirɗaa e <privacyLink>Dawrugol suturo</privacyLink>Mozilla
 accept-privacy-title = Dawrugol Suturo
 login-identity = Heftinirde seŋorde
 login-signup = Seŋaade/ Winnditaade
@@ -285,8 +305,10 @@ edit = Taƴto
 email-subscriptions = Lulnagol iimeel
 download-profile = Aawtaade keɓe am
 skip-submission-feedback = Diw duttinal naatnugol
+skip-submission-note = Tesko: maa sokloy labaade hakkunde Haal walla Heɗo ngam waylude sifaa ballital.
 off = Ñifol
 on = Kuɓɓol
+recording-in-progress = Nanngitogol daande ina ɓeydoo
 retry-voice-wave-recording = Eto kadi
 delete-voice = MOMTU
 recording-voice-wave = Nanngitogol
@@ -306,16 +328,19 @@ change-email-setings = Waylir iimeel maa teelte les heftinirde seŋorde
 ## FAQ
 
 faq-title = Naamne Ɓurɗe Duumaade
+faq-what-cv-q = Ko woni Common Voice?
 faq-why-important-q = Ko saabii ɗum himmude?
 faq-how-get-q = Hol no keɓirat-mi keɓe Common Voice?
 faq-when-release2-q = Mande bayyinton keɓe Common Voice e ɗemɗe goɗɗe?
 faq-why-mission-q = Hol ko saabii Common Voice jeyeede e eɓɓoore Mozilla?
 faq-what-cv-and-deepspeech-q = Hol ko seerndi Common Voice e Deep Speech?
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
+faq-why-different-speakers-q = Ko saabii aɗa sokli haalooɓe heewɓe woɗɓe e kala ɗemngal?
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
 faq-how-calc-hours-q = Hol no Common Voice hiisortoo waktuuji?
 faq-why-not-ask-read-q = Ko waɗi a wiyataa yimɓe yo tar e defte walla binndanɗe wikipedia e ɗemɗe goɗɗe?
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
+faq-is-account-public-q = Humpito konte am woni ko e peñcu?
 faq-what-is-cv = Ko woni Common Voice?
 faq-using-cv = Kuutorogol Common Voice?
 faq-description = Common Voice ko huunde e peeje Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
@@ -339,6 +364,7 @@ mycroft-title = Mycroft Ai
 
 ## Glossary
 
+glossary = KELMEENDI
 localization = Nokkuɗinal
 
 ## NotFound
@@ -351,6 +377,7 @@ notfound-content = Mbiɗo faayi waasde anndude ko njiilotoɗaa.
 data-download-button = Aawto keɓe Common Voice
 data-download-yes = Eey
 data-download-deny = Alaa
+data-download-modal = Ngonɗaa ko e fuɗɗaade aawtogol <size>{ $size }GB</size>, aɗa jokka?
 data-other-goto = Yah to { $name }
 data-other-download = Aawto keɓe
 terms-agree = Mi jaɓii

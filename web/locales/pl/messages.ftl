@@ -69,6 +69,7 @@ hr = chorwacki
 hsb = górnołużycki
 hu = węgierski
 hy-AM = ormiański
+hyw = zachodni ormiański
 ia = interlingua
 id = indonezyjski
 is = islandzki
@@ -149,7 +150,7 @@ zh-TW = chiński (Tajwan)
 ## Layout
 
 speak = Nagrywaj
-speak-now = Wymów teraz
+speak-now = Mów teraz
 datasets = Zbiory danych
 languages = Języki
 about = O nas

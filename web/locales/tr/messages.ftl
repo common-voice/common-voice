@@ -68,6 +68,7 @@ hr = Hırvatça
 hsb = Yukarı Sorbca
 hu = Macarca
 hy-AM = Ermenice
+hyw = Batı Ermenicesi
 ia = Interlingua
 id = Endonezce
 is = İzlandaca
@@ -340,6 +341,7 @@ retry-voice-wave-recording = YENİDEN DENE
 re-record = YENİDEN KAYDET
 delete-voice = SİL
 recording-voice-wave = Kaydediliyor
+delete-voice-clip = veya  ses kaydını sil
 ready-to-upload = Yükle
 cancel-avatar-clip-recording = İptal
 browse-file-title = Resim dosyası yükle
@@ -365,8 +367,11 @@ faq-what-cv-and-deepspeech-q = Deep Speech ile Common Voice arasındaki fark ned
 faq-what-cv-and-deepspeech-a = Common Voice veri kümesi, Mozilla’nın açık kaynaklı ses tanıma motoru Deep Speech'i tamamlar. Deep Speech'in ilk sürümü Kasım 2017'de yayımlandı ve o zamandan beri gelişmeye devam etti. Common Voice veri kümesi ile birlikte, bu açık kaynaklı ses tanıma teknolojisinin herkes tarafından erişilebilir olması gerektiğine inanıyoruz. Bu teknolojilerin, geliştiricilerin yenilikçi ürün ve hizmet dalgası oluşturmalarını sağlayacağını umuyoruz.
 faq-is-goal-assistant-q = Common Voice'un amacı sesli asistan oluşturmak mı?
 faq-do-want-native-q = Ana dilim bu değil ve aksanlı konuşuyorum, yine de katkıda bulunmamı istiyor musunuz?
+faq-do-want-native-a = Evet, sizin sesinizi özellikle istiyoruz! Common Voice'un amaçlarından biri de ses tanıma hizmetlerinin herkes için eşit derecede iyi çalışması için mümkün olduğunca çok farklı aksandan ses toplamaktır. Bu nedenle anadili olmamasına rağmen belli bir dili konuşanlardan gelen ses kayıtları özellikle önemlidir.
 faq-why-different-speakers-q = Neden her dil için bu kadar fazla konuşmacıya ihtiyacınız var?
+faq-why-different-speakers-a = Çoğu konuşma veritabanı, <articleLink>erkek ve orta sınıfın</articleLink> aşırı temsil edildiği demografik bilgilerle eğitilir. Eğitimde kullanılan veri kümelerinde yetersiz temsil edilen aksanlar ve lehçeler genellikle marjinalleşmiş halklar ve topluluklarla ilişkilidir. Birçok makine, kadın seslerini anlamakta da zorlanır. Bu yüzden ses veritabanımızda çeşitlilik istiyoruz!
 faq-why-my-lang-q = Neden dilim henüz eklenmedi?
+faq-why-my-lang-new-a = Mozilla hiçbir dili diğerlerinden üstün görmez. Common Voice tamamen topluluk tarafından yürütülen bir girişimdir, ancak <multilangLink>yeni bir dil eklemek</multilangLink> ve ses bağışlarını toplamaya başlamak için birkaç adımın tamamlanması gerekir. İlk olarak, kişilerin kendi dillerinde katkıda bulunabilmeleri için Common Voice web sitesinin o dile çevrilmesi gerekir. Daha sonra, insanların sesli olarak okuyabileceği, telif hakkı olmayan, büyük bir cümle koleksiyonunun derlenmesi gerekir. Bu gereksinimlerin her ikisi de karşılandığında insanların seslerini kaydetmeye ve başkalarının kaydettiği sesleri doğrulamaya başlaması için Common Voice'a o dil eklenir. Yeni bir dil eklemeye yardım etmek istiyorsanız <sentenceCollectorLink>cümle toplama aracımıza</sentenceCollectorLink> bakabilirsiniz.
 faq-what-quality-q = Bir ses kaydının veri kümesinde kullanılabilmesi için hangi düzeyde ses kalitesi gerekir?
 faq-why-10k-hours-a = Bu süre, işe yarar bir konuşmayı metne dönüştürme sisteminin eğitilmesi için gereken yaklaşık süredir.
 faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
@@ -376,6 +381,7 @@ faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Wi
 faq-why-account-q = Neden hesap açayım?
 faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
 faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizliliğini nasıl sağlıyorsunuz?
+faq-what-determine-identity-q = Common Voice veri kümesindeki konuşmacıların “kimliklerinin belirlenemez olması” ne anlama geliyor?
 faq-what-is-cv = Common Voice nedir?
 faq-using-cv = Common Voice Kullanımı
 faq-description = Common Voice, Mozilla’nın makinelere gerçek insanların nasıl konuştuklarını öğretme girişiminin bir parçasıdır.
@@ -385,6 +391,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Neden Common Voice?
+about-subtitle = Common Voice, Mozilla'nın makinelere gerçek insanların nasıl konuştuğunu öğretme girişiminin bir parçasıdır. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da geliştiriyoruz.
 how-does-it-work-title = Nasıl çalışıyor?
 about-speak = Konuş
 about-speak-text = Katkıda bulunanlar ses kayıtlarını bağışlanan cümle bankasından okuyarak kaydederler.
@@ -398,6 +405,7 @@ about-yes-votes-text = Common Voice veri kümesine girebilmesi için bir ses kay
 about-no-votes = Hayır oyları ≥ 2
 about-no-votes-text = Bir kullanıcı ses kaydını reddettiğinde kayıt kuyruğa geri döner. Eğer ikinci defa reddedilirse ses kaydı Kayıt Mezarlığı'na taşınır.
 about-dataset-new = Common Voice Veri Kümesi
+about-dataset-new-text = Common Voice Veri Kümesi, geliştiricilerin ses tanıma araçları oluşturmasına yardımcı olan yüz binlerce ses örneği içerir.
 about-clip-graveyard = Kayıt Mezarlığı
 about-clip-graveyard-text = Kayıt Mezarlığı, Common Voice veri kümesine girmeyen ses kayıtlarından oluşur. Veri kümesi gibi Kayıt Mezarlığı da indirilebilir.
 about-partners = İş ortakları
@@ -414,6 +422,7 @@ mycroft-subtitle = Yapay zekâ
 
 glossary = Sözlük
 localization = Yerelleştirme
+localization-explanation = Bu, içeriğimizi birçok dile ve uyarlama sürecimizdir.
 sentence-collection = Cümle derleme
 hours-recorded-explanation = Şimdiye kadar topladığımız ses kayıtlarının toplam süresi.
 sst = Konuşmadan metne (STT)
@@ -466,6 +475,8 @@ audio-format = Ses biçimi
 number-of-voices = Ses sayısı
 splits = Ayrımlar
 email-to-download = İndirmek için e-postanızı yazın
+why-email = <b>Neden e-posta istiyorsunuz?</b> Veri kümesindeki değişiklikler hakkında gelecekte sizinle iletişim kurmamız gerekebilir. E-postanız bize bir iletişim bilgisi sağlar.
+confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazırsınız
 size-gigabyte = GB
 size-megabyte = MB
 download-language = { $language } indir
@@ -700,7 +711,12 @@ share-goal = Hedefimi paylaş
 
 keep = Tut
 remove = Sil
+keep-info = Anonim ses kayıtlarınız Common Voice veri kümesinde kalacaktır. Profilinizi sildikten sonra kayıtlarınızı veri kümesinden kaldırma talebinde bulunamazsınız.
 remove-info = Ses kayıtlarınızı veri kümelerinden kaldırma isteğinizi inceleyeceğiz. İsteğiniz onaylanırsa, veri kümesini indirenlerle iletişim kuracak ve ses kayıtlarınızı kaldırmalarını isteyeceğiz.
+why-delete-recordings =
+    Common Voice kayıtları akademisyenler, küçük işletmeler ve ses tanıma meraklıları tarafından ses modelleri gibi halka açık kaynakları eğitmek ve büyütmek için kullanılır.
+    
+    Kayıtlarınızın neden silinmesini istediğinizi bize bildirir misiniz?
 profile-form-delete = Profilimi sil
 
 ## Landing
