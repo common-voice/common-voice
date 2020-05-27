@@ -13,6 +13,7 @@ import {
   localeConnector,
   LocalePropsFromState,
   LocalizedGetAttribute,
+  LocaleLink,
 } from '../../locale-helpers';
 import { CloudIcon } from '../../ui/icons';
 import {
@@ -25,6 +26,7 @@ import {
 } from '../../ui/ui';
 import CircleStats from './circle-stats';
 import stats from './stats';
+import URLS from '../../../urls';
 
 import './dataset-info.css';
 
@@ -329,7 +331,7 @@ class DatasetInfo extends React.Component<Props, State> {
             <Localized
               id="dataset-description-hours"
               vars={globalStats}
-              elems={{b: <b />}}
+              elems={{b: <b />, languagesLink: <LocaleLink to={URLS.LANGUAGES}></LocaleLink>}}
             >
               <p />
             </Localized>

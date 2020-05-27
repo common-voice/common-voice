@@ -86,7 +86,7 @@ const SegmentBanner = ({
       <>
         <Localized
           id="target-segment-first-banner"
-          $locale={NATIVE_NAMES[locale]}
+          vars={{locale: NATIVE_NAMES[locale]}}
         />
       </>
     ),
