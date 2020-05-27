@@ -1,4 +1,3 @@
-const { Localized } = require('fluent-react/compat');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
@@ -10,6 +9,7 @@ import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import PrivacyInfo from '../../privacy-info';
 import { Button, Hr, LabeledInput } from '../../ui/ui';
+import { Localized } from '@fluent/react';
 
 interface PropsFromState {
   api: API;
@@ -68,17 +68,17 @@ class GetInvolvedModal extends React.Component<Props, State> {
         innerClassName="get-involved-modal"
         onRequestClose={onRequestClose}>
         <br />
-        <Localized id="get-involved-title" $lang={nativeName}>
+        <Localized id="get-involved-title" vars={{lang: nativeName}}>
           <h2 />
         </Localized>
         <br />
-        <Localized id="get-involved-text" $lang={nativeName} lineBreak={<br />}>
+        <Localized id="get-involved-text" vars={{lang: nativeName}} elems={{lineBreak: <br />}}>
           <p />
         </Localized>
         <br />
         <div className="title-and-action">
           {!isSubmitted && (
-            <Localized id="get-involved-form-title" $lang={nativeName}>
+            <Localized id="get-involved-form-title" vars={{lang: nativeName}}>
               <h4 />
             </Localized>
           )}
@@ -87,7 +87,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
           <div className="signup-success">
             <SuccessIcon />
 
-            <Localized id="get-involved-success-title" $language={nativeName}>
+            <Localized id="get-involved-success-title" vars={{language: nativeName}}>
               <h2 />
             </Localized>
 

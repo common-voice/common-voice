@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useRef, useState } from 'react';
 import { trackRecording } from '../../../../services/tracker';
@@ -22,7 +22,7 @@ import './recording-pill.css';
 
 const { Tooltip } = require('react-tippy');
 
-interface Props extends ContributionPillProps, LocalizationProps {
+interface Props extends ContributionPillProps, WithLocalizationProps {
   children?: React.ReactNode;
   clip: SentenceRecording;
   onRerecord: () => any;

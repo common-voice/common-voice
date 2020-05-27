@@ -2,7 +2,7 @@ import Slider from './slider';
 import * as React from 'react';
 import { Button } from '../../ui/ui';
 import { ArrowLeft } from '../../ui/icons';
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import { ContactLink } from '../../shared/links';
 
 import './partners.css';

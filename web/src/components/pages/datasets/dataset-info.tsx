@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
@@ -94,7 +94,7 @@ interface PropsFromState {
   api: API;
 }
 
-type Props = LocalePropsFromState & LocalizationProps & PropsFromState;
+type Props = LocalePropsFromState & WithLocalizationProps & PropsFromState;
 
 type State = {
   bundleLocale: string;
@@ -253,7 +253,7 @@ class DatasetInfo extends React.Component<Props, State> {
                     </Localized>
                     <CloudIcon />
                   </Button>
-                  <Localized id="why-email" b={<b />}>
+                  <Localized id="why-email" elems={{b: <b />}}>
                     <p className="why-email" />
                   </Localized>
                 </>
@@ -269,7 +269,7 @@ class DatasetInfo extends React.Component<Props, State> {
                   </Localized>
                   <LabeledCheckbox
                     label={
-                      <Localized id="confirm-size" b={<b />} $size={size}>
+                      <Localized id="confirm-size" elems={{b: <b />}} vars={{size}}>
                         <span />
                       </Localized>
                     }
@@ -280,7 +280,7 @@ class DatasetInfo extends React.Component<Props, State> {
                   />
                   <LabeledCheckbox
                     label={
-                      <Localized id="confirm-no-identify" b={<b />}>
+                      <Localized id="confirm-no-identify" elems={{b: <b />}}>
                         <span />
                       </Localized>
                     }
@@ -307,7 +307,7 @@ class DatasetInfo extends React.Component<Props, State> {
                     style={{ minWidth: 300 }}>
                     <Localized
                       id="download-language"
-                      $language={getString(bundleLocale)}>
+                      vars={{language: getString(bundleLocale)}}>
                       <span />
                     </Localized>
                     <CloudIcon />
@@ -328,14 +328,9 @@ class DatasetInfo extends React.Component<Props, State> {
             <CircleStats {...globalStats} className="hidden-lg-up" />
             <Localized
               id="dataset-description-hours"
-              b={<b />}
-              {...Object.entries(globalStats).reduce(
-                (obj: any, [key, value]) => {
-                  obj['$' + key] = value;
-                  return obj;
-                },
-                {}
-              )}>
+              vars={globalStats}
+              elems={{b: <b />}}
+            >
               <p />
             </Localized>
           </div>

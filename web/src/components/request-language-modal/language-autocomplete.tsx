@@ -1,5 +1,5 @@
 import Downshift from 'downshift';
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useEffect } from 'react';
 import { useAction } from '../../hooks/store-hooks';

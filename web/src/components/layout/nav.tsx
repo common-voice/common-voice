@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { trackNav, getTrackClass } from '../../services/tracker';
 import URLS from '../../urls';
