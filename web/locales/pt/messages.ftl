@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Sim, me envie e-mails. Quero me manter informado sobre o Projeto Common Voice.
+yes-receive-emails = Sim, envie e-mails. Quero manter-me informado sobre o Projeto Common Voice.
 stayintouch = Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos nos manter em contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.
 privacy-info = Prometemos lidar com suas informações com cautela. Saiba mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
 return-to-cv = Voltar para o Common Voice
