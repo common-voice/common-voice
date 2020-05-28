@@ -114,7 +114,7 @@ export default class Server {
           const host = request.get('host');
           response.redirect(
             HttpStatus.MOVED_PERMANENTLY,
-            host + request.path.slice(0, -1) + query
+            `https://${host}${request.path.slice(0, -1)}${query}`
           );
         } else {
           next();
