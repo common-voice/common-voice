@@ -326,7 +326,7 @@ accept-privacy-title = গোপনিয়তা নীত
 login-identity = লগইন পৰিচয়
 login-signup = লগ ইন / ছাইন আপ
 edit = সম্পাদনা
-email-subscriptions = ইমেইল গ্ৰাহকীভুক্তি
+email-subscriptions = ইমেইল ছাব‌স্ক্ৰিপশ্যন
 download-profile = মোৰ ডাটা ডাউনল'ড কৰক
 contribution-experience = অৱদানৰ অভিজ্ঞতা
 skip-submission-feedback = সঁহাৰি দাখিল কৰা এৰক
@@ -354,8 +354,8 @@ browse-file = ধৰি টানি আনি এৰি দিয়ক বা <br
 connect-gravatar = Gravatar-ৰ সৈতে সংযোগ কৰক
 gravatar_not_found = আপোনাৰ ইমেইলৰ বাবে কোনো Gravatar পোৱা নাই
 file_too_large = চয়নিত ফাইলখন খুব ডাঙৰ
-manage-subscriptions = গ্ৰাহকীভুক্তি পৰিচালনা
-manage-email-subscriptions = ইমেইল গ্ৰাহকীভুক্তি পৰিচালনা
+manage-subscriptions = ছাব‌স্ক্ৰিপশ্যন পৰিচালনা
+manage-email-subscriptions = ইমেইল ছাব‌স্ক্ৰিপশ্যন পৰিচালনা
 email-already-used = অন্য এটা একাউণ্টৰ বাবে ইমেইল ইতিমধ্যে ব্যৱহাৰ কৰা হৈছে
 add-language = ভাষা যোগ কৰক
 change-email-setings = লগইন পৰিচয়ৰ অধীনত ছেটিংছৰ জৰিয়তে আপোনাৰ ইমেইল সলনি কৰক
@@ -542,8 +542,8 @@ dataset-description-hours =
     ডাটাছেটত থকা প্ৰত্যেক এণ্ট্ৰীৰে এটাকৈ অনন্য MP3 আৰু আনুষংগিক পাঠ ফাইল থাকে। ডাটাছেটত ৰেকৰ্ড কৰা <b>{ $total }</b> ঘণ্টাৰ বহুখিনিত বয়স, লিংগ আৰু এক্সেণ্টৰ দৰে জনগাঁথনিমূলক মেটাডাটাও আছে যিয়ে কথন চিনাক্তকৰণ ইঞ্জিনবোৰক সঠিকতা প্ৰশিক্ষণ দিয়াত সহায় কৰিব পাৰে।
     
     ডাটাছেটত বৰ্তমান <b>{ $languages }</b>টা ভাষাৰ <b>{ $valid }</b> বৈধকৃত ঘণ্টা আছে, কিন্তু আমি সদায়ে নতুন নতুন কণ্ঠ আৰু ভাষা যোগ কৰি আছোঁ। কোনো ভাষাৰ অনুৰোধ বা অৱদান দিয়া আৰম্ভ কৰিবলৈ আমাৰ <languagesLink>ভাষা পৃষ্ঠা</languagesLink>ত এবাৰ চকু ফুৰাওঁক।
-want-dataset-update = আমি যেতিয়া Common Voice ডাটাছেটৰ নতুন সংস্কৰণ মুকলি কৰোঁ তেতিয়া আপডেট বিচাৰে? আমাৰ বাতৰিপত্ৰত গ্ৰাহকীভুক্ত হওঁক।
-subscribe = গ্ৰাহকীভুক্ত হওঁক
+want-dataset-update = আমি যেতিয়া Common Voice ডাটাছেটৰ নতুন সংস্কৰণ মুকলি কৰোঁ তেতিয়া আপডেট বিচাৰে? আমাৰ বাতৰিপত্ৰ ছাব‌স্ক্ৰাইব কৰক।
+subscribe = ছাব‌স্ক্ৰাইব কৰক
 get-started-speech = কথন চিনাক্তকৰণেৰে আৰম্ভ হৈ যাওঁক
 other-datasets = অন্য কণ্ঠ ডাটাছেটবোৰ
 feedback-q = সঁহাৰি আছেনে?
