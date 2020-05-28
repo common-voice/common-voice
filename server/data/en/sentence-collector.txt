@@ -350,6 +350,7 @@
 "I am sending you over there now," was his next remark.
 "I am so afraid it may affect his bridge," said his mother.
 "I am sorry — " I began.
+"I am the captain of the ship," he said.
 "I am very glad indeed to hear it," says Sir Leicester.
 "I am very glad indeed to hear that," I returned.
 "I am very glad to go there, sir," I answered.
@@ -551,6 +552,7 @@
 "I wanted to talk to you," he said defiantly.
 "I was all sober when you left," he said.
 "I was anxious to see you," he said simply.
+"I was not happy or contented — no," said Celia frankly and decisively.
 "I will go down and open the gate," he whispered.
 "I will have inquiries made," he said.
 "I will not," she said.
@@ -2129,6 +2131,7 @@ A sound of panting was borne to him.
 A spec of dust went in my eye.
 A special contrast Mr. George makes to the family.
 A spot of rain fell on his hand.
+A spot of the good old snaky work.
 A standing policeman swerved into view, was hastily passed.
 A starchy young woman looked up questioningly.
 A staring baronet, with a truncheon, gets a dimple in his chin.
@@ -2821,6 +2824,7 @@ Already he had sidled some six feet.
 Already he was a prisoner of industrialism.
 Already he was getting a big boy.
 Already his heart went down.
+Already she had lied to me in her description of Adele.
 Already the valley was full of shadow.
 Already you knew of her guilt?
 Also a fellow Senator, Chauncey Depew, said.
@@ -4422,6 +4426,7 @@ As he reached it the glare came to an end.
 As he recognized Bertram, however, coldness melted, to be replaced by astonishment.
 As he rode home he felt that he was finally initiated.
 As he rolled into bed his mind was at ease.
+As he spoke these words, a feverish animation swept over Tuppy.
 As he stepped silently past it, he looked in.
 As he thought of his aunt, an idea seemed to strike him.
 As he trotted he wept bitterly.
@@ -4718,6 +4723,7 @@ Aunt Dahlia turned and spoke in a quiet, authoritative manner.
 Aunt Dahlia uttered a startled hunting cry.
 Aunt Dahlia's eyes met mine.
 Aunt Dahlia's face grew darker.
+Aunt Dahlia, to my amazement, now did it apparently without an effort.
 Aunt Dahlia, with a deathbed groan, said it didn't matter.
 Aunt Em dropped her work and came to the door.
 Aunt Em was washing the dishes.
@@ -5469,6 +5475,7 @@ But giving drugs to a cat is no joke, Lawson!
 But go — make haste!
 But gracious me!
 But gradually his hand forgot its work.
+But have no fear, Aunt Dahlia, I will fix everything.
 But have you not seen him?
 But haven’t they done well?
 But he always resented it, and she knew it.
@@ -5922,6 +5929,7 @@ But that last was impossible.
 But that sword looks awfully gleaming and sharp.
 But that was afar off, Rick, afar off!
 But that was not all.
+But that's a woman all over.
 But that's impossible!
 But that's not what I mean.
 But that's taking trouble, surely.
@@ -6653,6 +6661,7 @@ Celia drew her hands away from her face.
 Celia drove yesterday night to Geneva.
 Celia followed his advice.
 Celia had herself hidden them there for safety.
+Celia had never been brought quite close to the credulous before.
 Celia had no doubt who "she" was.
 Celia had no suspicions of Helene.
 Celia had sprung from Montmartre suddenly; therefore Helene despised her.
@@ -6662,6 +6671,7 @@ Celia heard it turn in the lock, and the door bang.
 Celia heard some one drop heavily into a chair.
 Celia heard that note and was quelled by it.
 Celia heard the women settle in their chairs about the table.
+Celia kept her thoughts away from those.
 Celia kept pace with her.
 Celia leaned back, her heart fainting within her.
 Celia let her arms fall forward on the table.
@@ -6683,6 +6693,7 @@ Celia tantalised her with hope.
 Celia travelled in this car.
 Celia turned back again to Harry.
 Celia turned her back and crossed her wrists.
+Celia turned the problem over in her mind.
 Celia was moved by the reproach.
 Celia was not greatly disconcerted by her.
 Celia was quite alone when she bought the cord.
@@ -12577,6 +12588,7 @@ Helene shuddered and covered her face spasmodically with her hands.
 Helene spoke the truth.
 Helene unscrewed the top and laughed pleasantly.
 Helene walked calmly on.
+Helene was avaricious and greedy.
 Helene was extraordinarily slow and extraordinarily fastidious that evening.
 Helene was in the plot, too.
 Helene was taken by surprise.
@@ -12732,6 +12744,7 @@ Her hand still lay clasped in his.
 Her hand trembled as she held her mug of barm.
 Her hands should be the first to touch her.
 Her hands were unquiet, as usual, on this reference.
+Her hatred of Celia, her contempt, grew into a very delirium.
 Her hazel eyes sparkled.
 Her head appeared among the young currant-bushes.
 Her head had dropped, and she was sucking her finger broodingly.
@@ -12927,6 +12940,7 @@ Here, in the midmorning, the first casualty occurred.
 Here, let me show you again.
 Here, put a bit of this soothing ointment on.
 Here, take a little wine.
+Here, then, in brief, is my plan, Jeeves.
 Here, then, was the train, but of course she had not come.
 Here, you fellows, hold him!
 Here’s a cent for collection.
@@ -13350,6 +13364,7 @@ His slim fingers closed like steel about Philip's.
 His slim hands gripped the edges of the table.
 His small grey eyes searched their faces.
 His smile belied the forthcoming crisis.
+His smile irritated Ricardo, who spoke impatiently.
 His snores continued, grunty and regular from the bed.
 His soul seemed always attentive to her.
 His soul, hurt, highly developed, sought her as if for nourishment.
@@ -18234,6 +18249,7 @@ I'm not a philosopher, but I play one on television.
 I'm not a silly young geezer.
 I'm not afraid of either of them.
 I'm not allowed to go out before breakfast, sir.
+I'm not an ass. Am I an ass, Jeeves?
 I'm not ashamed of anything I do.
 I'm not at all sure that's possible, unfortunately.
 I'm not blaming you, Jeeves.
@@ -23077,6 +23093,7 @@ My dear Hill, have you heard the good news?
 My dear Lizzy, they must have passed within ten miles of us.
 My dear Sir, I am highly honoured.
 My dear Sophie, he hasn't.
+My dear Tuppy!
 My dear aunt, how could you think of it?
 My dear chap!
 My dear child, I intend to.
@@ -24694,6 +24711,7 @@ Oh, she admitted that you were clever!
 Oh, she made them miserable, literally!
 Oh, she said that?
 Oh, she was crazy.
+Oh, she was with you all the time at Cannes, was she?
 Oh, shocking — terrible!
 Oh, some time last summer.
 Oh, sorry, I thought you said you were.
@@ -26057,6 +26075,7 @@ Ricardo cut the stitches of the sacking.
 Ricardo dared not glance at him.
 Ricardo drew a letter from his pocket.
 Ricardo drew his chair up towards the others.
+Ricardo dropped on to a bench and wiped his forehead.
 Ricardo felt like a child in the presence of his schoolmaster.
 Ricardo fetched her cloak and slipped it on her shoulders.
 Ricardo got up and walked down from the hotel with the detective.
@@ -26069,6 +26088,7 @@ Ricardo recognised the justice of his description.
 Ricardo sprang across the room and tore open the envelope.
 Ricardo spun round upon his heel.
 Ricardo stared at his friend.
+Ricardo stared in amazement.
 Ricardo stared in stupefaction at his companion.
 Ricardo was a trifle disappointed.
 Ricardo was in the seventh Heaven.
@@ -27107,6 +27127,7 @@ She loved science, and at school physics and mathematics were her favourite subj
 She loved the color mauve.
 She loved the woman who sat in the window, dreaming.
 She loved to see his hands doing things.
+She loves him, Jeeves.
 She made a little dolly out of a clothes peg
 She made a slip there.
 She made a special statement to say sorry
@@ -27711,6 +27732,7 @@ She was disgustingly, suspiciously reserved.
 She was distraught that she scored lower by just a few points.
 She was drawn to him.
 She was dressed as Helene had described.
+She was driven straight from the Villa Rose to the depot.
 She was duped; she was perpetually robbed.
 She was eating gum-drops.
 She was even more beautiful than when I saw her, before.
@@ -29404,6 +29426,7 @@ That shall be your punishment.
 That she should receive an offer of marriage from Mr. Darcy!
 That shoulder's a mass of bruises as it is.
 That shows my generosity.
+That shows you, Jeeves.
 That smile, and ghastly paleness!
 That song is the bee’s knees.
 That sort of idea.
@@ -34467,6 +34490,7 @@ They had passed through a gate into the field beyond.
 They had plenty of time, so they did not hurry.
 They had quarrelled in the city because Gloria must drive.
 They had scarcely taken their seats when there was another double knock.
+They had seen my advertisement about Celia in the Geneva paper.
 They had some chocolates on the table.
 They had sung together once or twice, it appeared, at Weymouth.
 They had to expel him.
@@ -34659,6 +34683,7 @@ They spoke Bangla in Bangladesh.
 They spoke in undertones.
 They spoke in whispers.
 They spoke the mutilated English of their class and period.
+They spoke to Celia between their dances.
 They squeezed him dreadfully, it was a wonder they did not break his ribs.
 They stared at each other.
 They stared at one another.
@@ -36135,6 +36160,7 @@ Waving his hands about almost as if he was praying.
 Way to go little buddy!.
 We Scripture-knowledge sharks stick together.
 We Woosters are fair-minded.
+We Woosters are ingenious, Jeeves, exceedingly ingenious.
 We Woosters can bite the bullet.
 We accidentally left the lid off the petri dish.
 We actually approve of each other.
@@ -37102,6 +37128,7 @@ Well, give me the blasted machine.
 Well, go on then!
 Well, go, if you please — get away!
 Well, good evening, Harper.
+Well, good night, Jeeves.
 Well, good-night to you.
 Well, have my room — have this room.
 Well, have no fear.
@@ -39215,6 +39242,7 @@ Working hard to reduce inequality.
 Worldly goods are divided unequally, and man must not repine.
 Worn socks have a pungent odour.
 Worried is right.
+Worrying about Angela, I suppose?
 Worse than I had supposed.
 Worship has moved with the times.
 Worship is about more than just singing.
@@ -39283,6 +39311,7 @@ Wouldn't Jo stare if she saw me?
 Wouldn't he give it to you?
 Wouldn't it be great if the city had a small theme park?
 Wouldn't it be nice?
+Wouldn't people say that, Jeeves?
 Wouldn't that console you?
 Wouldn't you give them a week?
 Wouldn't you like the flower-table?

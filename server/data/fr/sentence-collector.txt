@@ -47,6 +47,7 @@ A cette vue, les cavaliers en peloton dans la rue Saint-Honoré dégainèrent br
 A ceux-ci les doctrinaires donneraient des gages s'ils l'exigeaient.
 A coeur vaillant, rien d'impossible
 A combien l'estimiez-vous ?
+A conseiller pour les maîtresses d'école
 A coups de poing, un vieillard rafistolait les accoudoirs déboîtés de son fauteuil.
 A côté d'elle, il affectait de la religion par politesse.
 A côté de sa chaise, dans un seau, rafraîchissaient les bouteilles de bière.
@@ -153,6 +154,7 @@ Abandonner monsieur ! jamais ! répondit-il.
 Abandonner ton masque social.
 Abandonnerait-il cet homme ?
 Abbas beati Martini
+Abeille commence par la lettre A
 Abel, dit-elle, mon ange, je pleure de joie.
 Aboule les vingt sacs !
 Abraham-Lincoln avait été parfaitement choisi et aménagé pour sa destination nouvelle.
@@ -480,6 +482,7 @@ Ah ! le chasseur est un homme précieux !
 Ah ! le gredin ! comme la raille, la police, vous forme un voleur ! dit Jacques.
 Ah ! le gredin, est-il fort ! est-il complet !
 Ah ! le jean-foutre ! gueula Buteau en accourant.
+Ah ! le mauvais garnement !
 Ah ! le mot abor, le radical du verbe aborder.
 Ah ! le neveu ! dit James Playfair.
 Ah ! le traître, répondit-il en riant
@@ -947,6 +950,8 @@ Ajoutez l’aggravation du printemps.
 Ajoutons que l’encouragement manquait.
 Ala coque du Speedy commençait à se montrer au-dessus des eaux.
 Alain avait simplement opiné du chef.
+Alain lui transporte sa flamme
+Alain vit son coeur rejeté
 Albatros, frégates et phaetons.
 Albert Roman activa une par une les douze micro-caméras
 Albert Roman avait étudié en détail son histoire.
@@ -1794,6 +1799,7 @@ Apprends ceci : je suis contre-amiral.
 Apprends qu’il existe des punitions.
 Apprends-moi des choses nouvelles.
 Apprenez ceci : la joie n’est pas seulement joyeuse ; elle est grande.
+Apprenez à faire des pommes d'amour
 Approche, approchez tous deux.
 Approchez un peu et ouvrez vos oreilles.
 Approchez un peu, que je vous parle.
@@ -3084,6 +3090,7 @@ Avec du bois mort que nous irons couper dans l’arbre.
 Avec délices, il la mangea.
 Avec d’autres organes.
 Avec elle, le tricot devient une arme de dissuasion massive.
+Avec eux l'écriture et la lecture
 Avec eux, rien n’est jamais certitude.
 Avec l'aide de Miss Marquet.
 Avec la chaleur, le chantier commencera à sept heures
@@ -3584,6 +3591,8 @@ À vos ordres, capitaine.
 À votre convenance, monsieur Spilett, répondit Nab, à votre convenance
 À vous entendre, je croyais que vous rapportiez un perdreau truffé
 À vous qui êtes là
+B avec une baleine
+B comme bateau
 Babet, Gueulemer, Claquesous et Montparnasse
 Babeuf est un exploiteur pour Cartouche ; Marat est un aristocrate pour Schinderhannes.
 Babil d’amoureux, caquetage de moineaux.
@@ -4317,6 +4326,7 @@ Bénie sois-tu de Dieu, ma sœur !
 Bénissez mon père parce que j’ai pêché.
 Bénédicte ouvre la bouche.
 Béranger, le poète libéral.
+C comme Chien
 C'en est donc fait !
 C'est Agathe qui t'a donné son portrait ?
 C'est Benjamin, le petit dernier de la famille.
@@ -4683,6 +4693,7 @@ Cadine avait aussi ses heures de coquetterie.
 Cadine, la Sarriette, et les autres, n’est-ce pas ?
 Calembour dont on aurait tort de rire.
 Caligula faisait consul un cheval ;
+Calme et solitude
 Calmez-vous, Ned, dis-je au bouillant harponneur, la colère ne mènerait à rien.
 Calmez-vous, ami Ned, calmez-vous, répondit tranquillement Conseil.
 Calmons-nous, les momignards.
@@ -5228,6 +5239,7 @@ Ce n'est pas que notre plan n'a pas marché.
 Ce n'est pas sérieux, n'est-ce pas ?
 Ce n'est pas ta faute si tu n'entends rien aux affaires.
 Ce n'est pas tant une question de douleur.
+Ce n'est pas tous les jours dimanche.
 Ce n'est pas tout ça
 Ce n'est pas une métaphore.
 Ce n'est pas vrai, peut-être ?
@@ -8039,6 +8051,7 @@ Chevaulx ombraigeux Lavieille cent quatre-vingt-dix-neuf cent soixante-sept.
 Chevaux et bœufs firent gaillardement leur office.
 Chez José Le roi de la moule.
 Chez Maigrat, nom de Dieu ! …
+Chez de pareils époux.
 Chez le roi, le lord est chez lui.
 Chez les Quenu-Gradelle, on ne parlait point de ces choses.
 Chez leur cousin Ruthénois.
@@ -8466,6 +8479,7 @@ Comme tu veux, je te laisse décider pour moi.
 Comme tu voudras, je pourrai.
 Comme tu voudras.
 Comme un Flamand, n’en déplaise à monsieur.
+Comme un baron il est traité
 Comme un corps lascif que tu ne connaîtrais que trop.
 Comme un essaim d’oiseaux de feu.
 Comme un grain de sable de volonté pure.
@@ -8473,6 +8487,7 @@ Comme un handi-incapable.
 Comme un jeu un peu étrange.
 Comme un seau dans un puits.
 Comme un seul homme, Noétiens jaunes et blancs cessent de se battre.
+Comme un vilain il est traité.
 Comme une caresse de l’ombre !
 Comme une carpe ? s’écria Harbert, très-surpris de la proposition
 Comme une carpe, » répondit sérieusement le marin
@@ -8822,6 +8837,7 @@ Comment, un peu, mais beaucoup ! …
 Comment, vous ne lui avez pas été présenté ?
 Comment… les deux florins ? …
 Commençons par parler un peu d’informatique…
+Common Voice est un projet open-source et de production participative.
 Commotion telle qu’elle lui remit, pour ainsi dire, l’esprit sur pied.
 Communication du président Barbicane
 Como dices que le Hamas ?
@@ -11317,6 +11333,7 @@ C’était ça, son évolution professionnelle ?
 C’était ça, votre but ?
 C’était évident, n’est-ce pas ?
 C’était, et cela reste, une tâche compliquée.
+D pour dromadaire
 D'Argout, silencieux et gourmé.
 D'Orichamps enlaça le corps de son ami.
 D'Orichamps offrit une prise.
@@ -11368,6 +11385,7 @@ Dame ! quand on a des vices !
 Dame ! si les Prussiens nous emmerdent…
 Dame ! s’il y avait possibilité, mais il n’y a pas possibilité…
 Dame Suiko est prise dans d’intenses réflexions.
+Dame d’honneur, fleur au déclin
 Dame, oui ! si l’on mangeait toujours du pain, ce serait trop beau !
 Dame, voui, dit-elle.
 Damnation ! je l’ai suivi.
@@ -13278,6 +13296,7 @@ Djali frappa sept coups.
 Djali leva son petit pied d’or et frappa six coups sur le tambour.
 Docteur Eleanor Sharp, neveu de l’archevêque d’York, leur cria
 Docteur, donnez votre diagnostic.
+Docteur, j'ai mal au doigt
 Docteur, vous demeurez dans le quartier, je crois ?
 Dois-je prendre cela pour un compliment ou prendre rendez-vous avec un psy ?
 Dois-je vous en donner connaissance ?
@@ -14161,6 +14180,7 @@ Ebenezer regarda de nouveau Gilliatt.
 Ebenezer se rapprocha d’elle.
 Ecce Paris, ecce homo
 Eccola, dit languissamment la jeune fille aux yeux noirs.
+Ecrire les lettres majuscules
 Ecstase d’amour vray Laly cent cinquante-huit cent trente-neuf.
 Edward, lui dit-il, calmez-vous.
 Effacement discret de l’histoire de ma venue dans les rubans de son esprit.
@@ -14732,6 +14752,7 @@ Elle a grossi encore depuis.
 Elle a juste passé son temps à nous pourrir le tournage.
 Elle a la même formation que moi, tu sais…
 Elle a la même formation que moi.
+Elle a le plus… il a le moins
 Elle a le pouls assez fort.
 Elle a les yeux bleus comme le bleu du ciel.
 Elle a longuement réfléchi à ce que je lui ai dit.
@@ -16888,6 +16909,7 @@ En un prénom comme en cent : Fulbert.
 En un prénom comme en cent.
 En une demi-heure, on gagna un demi-mille.
 En ung clin d’œil, ses gens feurent en pied.
+En vain de lui plaire il se vante
 En vain essaya-t-il de contredire.
 En vain je suppliais maintenant.
 En vain se démenaient-ils.
@@ -17046,6 +17068,7 @@ Enfin les faire fondre comme un glacier au dégel.
 Enfin les troupes royales se débandaient autour de Saint-Cloud.
 Enfin mes forces m’abandonnèrent.
 Enfin mille questions auxquelles je n’avais pas le temps de répondre.
+Enfin moi, c'est comme ça que je ferais
 Enfin mon oncle rompit le silence : « Voyons, dit-il, il faut prendre un parti.
 Enfin monseigneur Clopin se calma.
 Enfin nous partons en contournant les roches très-accores du sud.
@@ -19243,6 +19266,7 @@ Et parfois je proposais aux autres de prendre leur tour.
 Et parler de communication restait absurde pour la plupart des informaticiens.
 Et pas d’enfant de lui !
 Et pas la peine de réclamer.
+Et pas n'importe quelles fleurs
 Et pas que parce que j’en fais partie.
 Et pas qu’un peu.
 Et pas un être humain pour nous guider ! murmurait le gabier
@@ -19345,6 +19369,7 @@ Et pourtant sa merveilleuse puissance de vision aurait rendu de grands services.
 Et pourtant, ceci n’est qu’une histoire.
 Et pourtant, celui qui 'tolère' ne le fait que parce qu'il peut
 Et pourtant, elle a dû te titiller, celle-là, hein ?
+Et pourtant, elle tourne !
 Et pourtant, il engraissait toujours !
 Et pourtant, la route m’a paru longue.
 Et pourtant, l’art a sa place dans ces existences primitives.
@@ -20151,6 +20176,7 @@ Etendu sous le tablier de peau, le tanneur à terre semblait dormir.
 Etendu sur un divan.
 Etes-vous fatiguée ?
 Etes-vous médecin ? répéta-t-il.
+Etre libre ce n'est pas toujours vrai
 Eu prison on surveille fort les lectures.
 Euh, je comptais le faire demain…
 Euh… Tu sais, moi et l’art, ça fait deux !
@@ -20908,6 +20934,7 @@ Fy doncques ! … — Veux-tu quelque dispense in articulo mortis ? …
 Félin, il se met à jouer avec lui.
 Félix, pourquoi est-ce que papa ne vient pas goûter ?
 Février, le onzième, mille huit cent trente-sept.
+G comme grenouille
 G. Les six clones répliquent car le vrai semblable ment.
 G. Nous avons pris le temps avant de prendre le train.
 G. semblait mourir parce qu’il le voulait bien.
@@ -23023,6 +23050,7 @@ Il est tout en loques !
 Il est tout frais.
 Il est tout pris, mon garçon, répondait Pencroff, je vous attendrai
 Il est tout à fait louable de ne pas mélanger travail et vie privée.
+Il est traité comme un vilain.
 Il est trop clair, votre raucourt, murmura-t-elle.
 Il est trop franc, trop courageux.
 Il est trop tard !
@@ -23903,6 +23931,7 @@ Il la parcourut de la cave au grenier.
 Il la plaignait de la peine qu’elle allait avoir.
 Il la posa sur le sol.
 Il la pousse et reste sur les pieds…
+Il la prend jeune et belle :
 Il la prit par la main, et ils sortirent tous deux.
 Il la quitte, Sainte Vierge !
 Il la recollera, si bon luy, semble.
@@ -24382,6 +24411,7 @@ Il n'imaginait pas que le jeune génie allait faire sa conquête.
 Il n'y a de richesses que d'hommes
 Il n'y a pas beaucoup de possibilités.
 Il n'y a pas de Laly.
+Il n'y a pas de solutions
 Il n'y a pas eu de petit «plop.
 Il n'y a pas longtemps que vous êtes ici ?
 Il n'y a pas moyen d'être tranquilles.
@@ -24417,6 +24447,7 @@ Il ne comprenait pas ce qu’elle disait.
 Il ne comprenait pas.
 Il ne comprenait toujours pas le pourquoi.
 Il ne comprend plus…
+Il ne comprends pas ce qui lui arrive
 Il ne comprit pas.
 Il ne comptait y passer que quelques jours, avant de se rendre en Sicile.
 Il ne connaissait pas les lieux et mit quelques secondes à s’orienter.
@@ -26789,6 +26820,7 @@ Il y a trente ans, il croyait à la sainteté de sa mission.
 Il y a trois Hanois : le grand Hanois, le petit Hanois, et la Mauve.
 Il y a trois ans.
 Il y a trois chambres.
+Il y a trois millions de personnes qui veulent du travail
 Il y a trois mois, on voulait le nommer conseiller municipal.
 Il y a trop de mousse sur tout le reste.
 Il y a trop de touristes de nos jours.
@@ -27316,6 +27348,7 @@ Ils la complimentaient.
 Ils la voyaient parfaite, point trop grasse, jamais assez bien nourrie.
 Ils laissaient aller Charvet.
 Ils lançaient en l'air leurs vieux colbacks de Jemapes.
+Ils le comparaient quelquefois.
 Ils le mangent, quoi !
 Ils le mettent sur leur pain sec.
 Ils le portent aux vers, au néant, à Peut-Être !
@@ -28298,6 +28331,7 @@ J'espère que tu mets des préservatifs !
 J'espérais que ça se ferait par correspondance.
 J'essaie de sortir faire un tour en ville.
 J'ignorais complètement cette visite que je n'aurais pas permise.
+J'ignorais ton prénom
 J'imagine Jérusalem et ses rues étroites, ses maisons orientales, carrées, basses et blanches.
 J'imagine la scène vue par elle.
 J'imagine que personne n'a jamais osé le lui dire.
@@ -28409,6 +28443,7 @@ Jamais on ne sut au juste.
 Jamais on n’avait vu des enfants si cruches.
 Jamais on n’y arriverait.
 Jamais pareille tenaille ne l’avait saisi.
+Jamais personne ne m'a manqué comme ça
 Jamais plus de neuf, entends-tu ?
 Jamais professeur ne fut dans un tel embarras.
 Jamais situation plus critique, jamais calme plus complet.
@@ -28849,6 +28884,7 @@ Je dois sans cesse rappeler les chiens qui partent sur des pistes.
 Je dois vivre seul.
 Je dois être au bord de la tendinite, tel que tu me vois.
 Je donne les six louis.
+Je donne mes œuvres à la France.
 Je donne un coup de volant pour éviter le terre-plein.
 Je donnerais dix ans de la vie de Nicholl pour comprendre !
 Je donnerais ma vie pour le trouver !
@@ -28877,6 +28913,7 @@ Je est présente quand il se fait enlever.
 Je est un conte qui.
 Je fais au mieux pour éviter tout faux pas.
 Je fais bouger les idées en moi.
+Je fais ce que je veux moi !
 Je fais ici un aveu frontal : je ne me suis jamais posé ces questions.
 Je fais mieux que d’y venir, j’y suis.
 Je fais mieux, moi, j’approuve et j’admire.
@@ -29528,6 +29565,7 @@ Je me souviens de ce jour-là comme si c'était hier.
 Je me souviens de peu de chose.
 Je me souviens d’un cours de philo.
 Je me souviens d’un papillon blanc qui allait et venait dans la rue.
+Je me souviens la première fois où je t'ai vue
 Je me souviens ne pas vouloir lire le dernier chapitre.
 Je me souviens très bien du jour où je suis mort.
 Je me souviens très bien qu’il a cité Brassens, une des chansons posthumes.
@@ -30399,6 +30437,7 @@ Je n’ai aucune explication scientifique à apporter pour confirmer mes dires.
 Je n’ai aucune idée de qui m’a mise enceinte.
 Je n’ai besoin que de consulter mon cœur, madame.
 Je n’ai demandé qu’un asile
+Je n’ai dormi qu’un moment
 Je n’ai d’autre avantage sur lui que le hasard.
 Je n’ai entendu parler que de cela durant mes visites ! …
 Je n’ai entendu que Merci.
@@ -30729,6 +30768,8 @@ Je pense que vous l’avez assassiné parce qu’il avait découvert quelque cho
 Je pense que vous me comprenez.
 Je pense qu’il fera beau cette nuit.
 Je pense à jouer à Brokeback Moutain avec elle.
+Je pense à toi le matin
+Je pense à toi tout le temps.
 Je perds mes paroles.
 Je perds quelques grammes pour bouter l’état de choc hors de mon esprit.
 Je peux continuer de vivre… pas de porter des costards.
@@ -31957,6 +31998,7 @@ Je viens de lire deux nouvelles coup sur coup dans la même journée.
 Je viens de lire l’épisode du lavement…
 Je viens de l’achever.
 Je viens de mettre le pain de mie dans le grille-pain.
+Je viens de passer le pire week-end de ma vie
 Je viens de regarder sur Urban Dictionary.
 Je viens de regarder sur Urban Dictionary : il a raison.
 Je viens de te chercher dans ta cabine.
@@ -32518,6 +32560,7 @@ Jour quatorze sur vingt-huit : J’aurais jamais cru.
 Jour seize sur vingt-huit : Le soir, seul, dans ma chambre.
 Jour vingt et un sur les vingt-huit de la punition.
 Jours courts, moins de travail.
+Jours de paix et nuits d’amour
 Joyeux Noël à tous !
 Joyeux, j’ai vingt-cinq ans ; triste, j’en ai soixante.
 Jugez alors par quelles angoisses j'ai passé depuis le soir de ma faute.
@@ -33834,6 +33877,7 @@ Kisss ! kisss ! fit-il.
 Kouik ! feirent toutes les souriz, nous le trupherons bien !
 Kunismos parce que c’est la racine grecque de notre mot « cynisme ».
 Kyrkoherde », fit Hans en se retournant vers mon oncle.
+L pour le roi des animaux, le lion
 L'Ardente-Amitié les emmena.
 L'abbaye de Fontevraud est régentée par l'abbesse.
 L'abbé ne tira point de promesses favorables à sa cause.
@@ -33908,6 +33952,7 @@ L'esprit terrassait la force.
 L'esquif glissait sur le froissis de la surface qui se moirait légèrement.
 L'essieu d'une voiture criait sur la route, au delà des murailles.
 L'estafette n'avait pas le loisir de s'attarder.
+L'eunuque est un homme dans lequel on a choisi.
 L'exagération parut audacieuse.
 L'explosion ébranla leurs crânes.
 L'herbe sèche enodorait la boutique de l'herboriste.
@@ -34427,9 +34472,11 @@ La cybermonnaie ne doit pas être confondue avec la monnaie électronique.
 La cérémonie a eu lieu ici, dans le manoir.
 La cérémonie a eu lieu ici.
 La cérémonie fut accomplie avec une grande pompe.
+La dame avait une servante
 La dame de Pôle-Emploi ouvre la fenêtre de son bureau.
 La dame de PôleEmploi ouvre la fenêtre de son bureau.
 La dame estoyt sans cotte ni chapperon.
+La dame à son tour veut lui plaire
 La danse est connue, ils l’ont répétée hier, encore et encore, devant Tristus.
 La danseuse ne tambourinait pas en ce moment.
 La demande décidée, je résolus d’en finir immédiatement.
@@ -34475,6 +34522,7 @@ La disposition de ces terrains volcaniques donne absolument raison à la théo
 La disposition du sol donna à cette droite l’orientation du sud-est
 La dispute de ce plateau fut toute la bataille.
 La distance ne dépasse guère deux cents milles marins.
+La distance ne ruine pas une relation.
 La distinction entre ces deux sortes de droits est importante.
 La distinction entre les deux est pertinente
 La division est enseignée à la classe
@@ -34484,6 +34532,7 @@ La douleur dans son bras.
 La douleur de mes phalanges, mes genoux, mes chevilles crispées à l’extrême.
 La douleur doit couper l’air voulant former un cri.
 La douleur est un interrogatoire.
+La douleur peut se manifester sous différentes formes
 La douleur qui m’élance tout le.
 La douleur, répondit-il
 La duchesse Josiane
@@ -34767,6 +34816,7 @@ La largue est fine !
 La latitude seule lui manquait, et il se mit en mesure de l’obtenir.
 La lavande avait embaumé les damassures du linge.
 La lenteur de leurs mouvements remplace la douceur maternelle.
+La lettre H pour Hibou
 La lettre contenait un coupon de loge.
 La lettre de Pluchart, dit-elle.
 La lettre de la nuit, cette femme la confirmait.
@@ -35323,6 +35373,7 @@ La plupart des objets sont conçus autour de votre personne.
 La plupart des ustensiles et les instruments d’astronomie furent perdus !
 La plupart des vociférations s'apaisèrent.
 La plupart du temps, j’effectuais l’aller-retour au radar.
+La plupart du temps, on peut gérer la douleur
 La plupart haussèrent les épaules.
 La plupart saluaient au passage, en se félicitant de la température.
 La plus adaptée est probablement celle qui permet le moins de se tromper.
@@ -35408,6 +35459,7 @@ La première des notes m’interpelle particulièrement.
 La première dose, tu la prends avec ton fournisseur.
 La première détonation retentit, déclenchant au passage le ralenti.
 La première et la dernière jamais inventée.
+La première fois que tu m'as vu ?
 La première fois, Vérand’a en a lâché son mug.
 La première fois, on rate.
 La première fonction est très japonaise.
@@ -35436,6 +35488,7 @@ La prieure vous attend.
 La prieure, assise sur l’unique chaise du parloir, attendait Fauchelevent.
 La prière des morts.
 La prime affriolait ces braves gens.
+La princesse avait une dame
 La princesse est en ce moment ce que nous appelons une belle de nuit…
 La princesse est veuve.
 La prison était restée prison, et les prisonniers, prisonniers.
@@ -35860,6 +35913,7 @@ La vie d’Harbert avant tout.
 La vie d’un auteur est parfois parsemée de moments étranges.
 La vie est dans le mouvement.
 La vie est dure, et la loi du survivant est sans concession.
+La vie est faite de bonheur simple à savourer
 La vie est une affaire.
 La vie est une fleur, l’amour en est le miel.
 La vie est une invention hideuse de je ne sais qui.
@@ -36221,6 +36275,7 @@ Là-haut notes de cett édition.
 Lâchez-la, dis-je
 Le roi aime beaucoup mon mari.
 Le valet de chambre salua respectueusement.
+Le A pour avion
 Le Bâtiment-Neuf contenait quatre dortoirs superposés
 Le Blue Face of Death du dirigeant.
 Le Blue Face of Death.
@@ -36439,6 +36494,7 @@ Le Victoria reprenait sa marche.
 Le Victoria s’abaissa de plus de deux mille pieds.
 Le Victoria, une demi-heure après
 Le Vieulx-par-chemins Riault cinq cent soixante-deux trois cent quatre-vingt-quatorze.
+Le X représente un xylophone
 Le Yarou-Dzangbo-Tchou vous attendra toujours dans les montagnes du Tibet.
 Le Yi-King est un des plus anciens ouvrages connus.
 Le Yi-King, les légendes médiévales, le Japon, mon Palais adoré.
@@ -36511,6 +36567,7 @@ Le bon sens choupi.
 Le bonheur a-t-il des vertus physiques ?
 Le bonheur de l’Olympe est au prix du silence du Cocyte.
 Le bonheur est lourd ! …
+Le bonheur n'est pas le droit de chacun
 Le bonheur ne se trouve jamais en dehors des lois…
 Le bonheur sec ressemble au pain sec.
 Le bonheur vaut bien seize cent mille francs, mon gros corrompu.
@@ -37225,6 +37282,7 @@ Le dos noirâtre qui me supportait était lisse, poli, non imbriqué.
 Le dos rond, la tête encapuchonnée.
 Le douanier se dit : Toi, mon gars, tu essaies de m’endormir.
 Le double coup de feu.
+Le doute est père de la création.
 Le doute n'était donc plus possible
 Le doute n’était pas possible !
 Le douze, vers le matin, le vent fraîchit.
@@ -38628,6 +38686,7 @@ Le rugissement d’un lion ! dit Joe.
 Le ruisseau coulait sans précipitation en murmurant sous nos pieds.
 Le ruisseau ne coulait plus à mes pieds !
 Le ruisseau qui coulait à mes pieds en murmurant se chargea de me répondre.
+Le réchauffement climatique
 Le récit de ces quinze derniers jours, en condensé.
 Le régent de l’impératrice Suiko, la sœur de son papa.
 Le réglage de cette climatisation est problématique.
@@ -40658,6 +40717,7 @@ Les petites crispations des pommettes.
 Les petites sautaient, les grandes dansaient.
 Les petits arcs-en-ciel
 Les petits savoyards se le disaient et il en passait beaucoup.
+Les petits textes pour s'entraîner à la lecture
 Les pets de vaches contribuent à l'effet de serre.
 Les peuples libres sont Français !
 Les peupliers du canal s’empanachaient de feuilles.
@@ -42821,6 +42881,7 @@ Ma fille ! ma fille ! disait-elle.
 Ma fille ! — Oh ! je m’y perds ! c’est un prodige horrible !
 Ma fille a trente neuf de fièvre.
 Ma fille a une directrice sévère.
+Ma fille adore la fin du livre
 Ma fille apprend la piano avec son ipad.
 Ma fille commence à lire mes messages, c'est horrible.
 Ma fille jouera dans le jardin.
@@ -44144,6 +44205,7 @@ Mais je ne sais donc plus manier un sextant !
 Mais je ne sais pas où ils sont allés.
 Mais je ne saurai jamais, balbutia Maheu.
 Mais je ne suis pas la petite fille de pépère.
+Mais je ne suis pas toi, alors fais-le.
 Mais je ne suis plus distrait.
 Mais je ne vais pas l'envoyer à PioupiouTrès cher Enguerrand.
 Mais je ne vais pas l’envoyer à Pioupiou.
@@ -45204,6 +45266,7 @@ Mais, chaque fois, du monde avait paru, au coude du chemin.
 Mais, circonstance fâcheuse pour nous, il ne gouverne plus.
 Mais, cloué par l’horreur, je ne pouvais remuer.
 Mais, comme il exprimait cette opinion devant James Hilton
+Mais, comptant ses amis pour rien
 Mais, cria Quenu, jamais la charcuterie du vieux n’a valu quinze mille francs !
 Mais, croyez-moi, il y a encore à faire.
 Mais, dans ces conditions, leur usure était presque insensible.
@@ -45980,6 +46043,7 @@ Mieux vaut donc s'ennuyer et flash-backer.
 Mieux vaut donc s'ennuyer et flashbacker.
 Mieux vaut donc s’ennuyer et flash-backer.
 Mieux vaut la certitude que le doute !
+Mieux vaut mourir en combattant pour la liberté
 Mieux vaut un tigre en plaine qu’un serpent sous les herbes.
 Mieux vaut être prévoyant.
 Mieux, n’est-ce pas ?
@@ -46767,6 +46831,8 @@ Monsieur de Rohan s’appelait en effet Auguste.
 Monsieur de la tour-landry.
 Monsieur de saint vallier.
 Monsieur est bien bon, répondit Conseil.
+Monsieur fera son bonheur
+Monsieur la prend comme épouse
 Monsieur la veut-il voir ?
 Monsieur le bailli est notre ami.
 Monsieur le baron ? fit Basque en se redressant.
@@ -46818,6 +46884,7 @@ Monsieur ne pourra repartir avant demain.
 Monsieur ne voit-il pas que ce cannibale a commencé l’attaque ?
 Monsieur n’a jamais été si généreux, » répondit Conseil.
 Monsieur n’a pas besoin de mes services ?
+Monsieur prend femme, c’est fort bien
 Monsieur sait que le gouvernement demande un argent terrible.
 Monsieur va pour arranger les affaires de la maison Guillaume Grandet.
 Monsieur veut se marier.
@@ -47112,6 +47179,7 @@ M’entends-tu ? je t’abhorre !
 M’est avis que nous ne retrouverons jamais une occasion semblable.
 M’étais-je trompé ?
 M’obligeant à me laisser aller dans l’histoire.
+N comme navire
 N'a pas passé aux tyrans, avec Dumouriez, lui !
 N'acceptez pas.
 N'aurait pas pris le temps de voir le blog.
@@ -47921,6 +47989,7 @@ Non seulement le bonheur, mais la prospérité
 Non timebo millia populi circumdantis me : exsurge, Domine ; salvum me fac, Deus !
 Non tu ne veux pas te mettre en colère.
 Non tu ne veux pas t’asseoir.
+Non ça c'est le jour
 Non, Aspic, c’est juste toi.
 Non, Axel, non ! le grand air pourrait te faire du mal.
 Non, Axel, non ! pars.
@@ -50779,6 +50848,7 @@ On marchait sur du velours.
 On me comprend bien.
 On me croit mort, cela suffit.
 On me dira que cela est bien compliqué, voire cynique.
+On me dis avoir un mauvais goût
 On me doit gros.
 On me laisse ma chambre sur les bras.
 On me l’avait bien dit, mais je ne voulais pas le croire.
@@ -50804,6 +50874,7 @@ On m’apprend la Bible, les mathématiques, la géographie…
 On m’attachera par une corde !
 On m’y descendra !
 On n'a jamais vu un esclave tolérer son négrier.
+On n'a pas besoin de voir quelqu'un
 On n'a pas entendu que je téléphonais, n'est-ce pas ?
 On n'accordait rien aux vétérans de la Révolution.
 On n'apprend pas à une vieille guenon à jouer aux humaines.
@@ -50907,6 +50978,7 @@ On ne peut passer.
 On ne peut plus compter sur les portes, de nos jours.
 On ne peut plus compter sur les portes.
 On ne peut rester plus longtemps dans cette eau bouillante, dis-je au capitaine.
+On ne peut rien apprendre aux gens.
 On ne peut rien saisir.
 On ne peut rien tout seul…
 On ne peut seulement pas approcher du canon !
@@ -51063,6 +51135,7 @@ On n’aime l’argent que parce qu’il en faut pour vivre.
 On n’ajoute pas des rochers.
 On n’apercevait pas d’autre maison.
 On n’apprend pas à une vieille guenon à jouer aux humaines, pichounet.
+On n’aura rien à faire
 On n’aurait jamais pu croire qu’ils avaient passé la matinée à pleurer.
 On n’aurait pu s’entendre.
 On n’avait pas de sous-pieds, on n’avait pas de bottes.
@@ -52665,6 +52738,7 @@ Où était-elle ?
 Ô gouffre ! l’âme plonge… »
 Ô souvenirs ! printemps ! aurore ! »
 Ô strophe du poëte, autrefois… »
+P comme une poule
 Pablo et deux officiers mirent l’épée et le pistolet à la main
 Paccard prit la main de Jacques Collin et la baisa respectueusement.
 Paccard, Asie, toute la maison accourut.
@@ -52959,6 +53033,7 @@ Parce que non-seulement je sais l’espagnol, mais aussi le portugais.
 Parce que notre projectile allait plus vite que le son !
 Parce que nous n’avons pas un seul canot à Reykjawik.
 Parce que personne ne peut franchir la banquise.
+Parce que sache-le mon gros
 Parce que si Dieu est partout.
 Parce que sinon le chatounet, il en chope un.
 Parce que sinon le chatounet.
@@ -55953,6 +56028,7 @@ PédoBear, alias « l’ourson pédophile ».
 Pénétrer un paraplégique, c’est un peu expérimenter la nécrophilie.
 Pépitos et Petit Elle a pris Sergueï.
 P’pa cria une voix, il est sorti.
+Q comme quiz
 Qu'a-t-elle gardé de cela.
 Qu'allons-nous faire ?
 Qu'allons-nous faire ? Où irons-nous ?
@@ -56054,6 +56130,7 @@ Qu'est-ce que ça fait ?
 Qu'est-ce que ça peut vous faire à vous ?
 Qu'est-ce que ça représente ?
 Qu'est-ce qui est arrivé en premier ? L'oeuf ou la poule ?
+Qu'est-ce qui est jaune et qui attend ?
 Qu'est-ce qui est terrible ?
 Qu'est-ce qui lui manque ?
 Qu'est-ce qui lui prend ?
@@ -56099,6 +56176,7 @@ Qu'on me donne une maison.
 Qu'un homme politique se mette à croire en une idée.
 Qu'un seul d'entre eux soit résulté et le monde lui sera offert.
 Qu'y a-t-il ?
+Qu'y a-t-il de plus affreux
 Qu'y a-t-il maintenant ?
 Qu'y voyez-vous ?
 Quadrupèdes et oiseaux, influencés par la lourdeur de l’atmosphère, étaient immobiles et silencieux
@@ -56224,6 +56302,7 @@ Quand je t'inocule une idée.
 Quand je te dis !
 Quand je te dis que tu ne te rompras rien ! …
 Quand je te dis sans domicile fixe, un portrait se dessine dans ta tête.
+Quand je te l'ai fait remarquer
 Quand je te le disais ! fit Javert.
 Quand je veux l'énerver je l'appelle.
 Quand je viens, elles s’en vont.
@@ -56753,6 +56832,7 @@ Que le ciel vous conduise ! dit l’oncle.
 Que le diable l’emporte !
 Que le diable l’estrille ! respondit-elle en resguardant Philippe de gentille fasson.
 Que le diable t’emporte !
+Que le domaine public les donne au peuple.
 Que le frais liseron se glisse en ton tombeau
 Que le jeu te fait ce coup.
 Que le justicier s’efface, que le savant continue la paisible exploration des mers !
@@ -57666,6 +57746,7 @@ Qui brillait, brillait plus ; qui aimait, aimait mieux.
 Qui c'est qui va se rendre bien sagement à la cave.
 Qui cherche le mieux peut trouver le pire
 Qui conduit Godfrey à de chagrines réflexions sur la manie des voyages
+Qui connaît la chanson de la vallée ?
 Qui craignait que l'éveil d'un nouveau NoéNaute me fasse fuir.
 Qui craignait que l’éveil d’un nouveau NoéNaute me fasse fuir.
 Qui craindre ? qui prier ?
@@ -57888,6 +57969,7 @@ Qui te fait supposer cela ?
 Qui te l'a dit ?
 Qui te montre ses rouages et ses limites.
 Qui te parle de caractères, malheureux Axel ?
+Qui tenait à la qualité
 Qui tiennent leur garde en essayant de rester dignes.
 Qui travaillait avant l’aurore, Peut s’en aller avant le soir.
 Qui trop embrasse étreindra plus tard.
@@ -58667,6 +58749,7 @@ Qu’y voulez-vous puiser, vivants, essaim frivole ?
 Qu’à cela ne tienne, on prendra notre mal en patience.
 Qu’à cela ne tienne, son plat favori restait le couscous.
 Qu’était-il donc en train de faire ?
+R comme rats des champs
 R. quatre° La copie de mon Archipel de la Manche.
 Race qui frappes et lapides, Je te plains ! hommes, je vous plains !
 Rah ça, c’est typique.
@@ -59847,6 +59930,7 @@ Sans que je m’en aperçoive ?
 Sans que vous vous en aperceviez.
 Sans qu’il pût s’expliquer pourquoi, le gars lui rappelait Momo.
 Sans rancune au moins ! lui cria Mr. Watkins.
+Sans respect il sort des bornes.
 Sans retour, je le crains
 Sans retour, je le crains.
 Sans rien me dire sur la légende que tu as découverte.
@@ -59859,6 +59943,7 @@ Sans sommation, les gardes nous tirent dessus.
 Sans surprise, des chaussettes.
 Sans toi je n'y serais pas arrivé.
 Sans toi je n’y serais pas arrivé.
+Sans toi, ma vie est plate
 Sans ton sourire, que deviendrais-je ?
 Sans trop de peur, il piqua des deux vers le quai.
 Sans varier
@@ -60743,6 +60828,7 @@ Si tu as tout suivi, tu peux t’octroyer un bon point.
 Si tu as tout suivi.
 Si tu avais l'extrême amabilité d'y verser un nuage de lait.
 Si tu connais quelqu'un qui n'aime pas les chats.
+Si tu connais un truc pour t'oublier, fais le moi savoir.
 Si tu continues, on annule les vacances.
 Si tu continues, pas de raclette au repas.
 Si tu continues, pas de week-end au ski.
@@ -60794,6 +60880,7 @@ Si tu viens me violer.
 Si t’en as beaucoup, t’as qu’à essayer.
 Si t’es pas un NoéNaute, t’es quoi, toi ?
 Si un continent émerge au pôle, il s’arrêtera devant ce continent.
+Si un jour j'avais la chance de trouver la femme idéale
 Si une balle peut faire ton bonheur, tu n’attendras pas longtemps
 Si une balle peut faire ton bonheur, tu n’attendras pas longtemps !
 Si une chandelle survenait il mettait un masque.
@@ -61955,6 +62042,7 @@ T'as vu comment elle manipule ses propres idées.
 T'as vu ça ?
 T'aurais eu droit à toute la panoplie d'onomatopées.
 T'aurais jamais dû faire ça.
+T'avais fait de petites nattes au lieu d'une seule.
 T'es peut-être très forte en tricot.
 T'es sûr qu'il est bien ce film ?
 T'es sûr que c'est une bonne idée.
@@ -63482,6 +63570,7 @@ Truqué depuis le début.
 Très bien ! J’aime mieux ça !
 Très bien ! Très bien !
 Très bien. Qu'est-ce que dit votre tante de tout ça ?
+Très joli livre, bien illustré
 Très vite cette terreur se mue en un rictus sadique.
 Très vite j’ai senti les premières gouttes annonçant l’orage à venir.
 Très vite, elles ont pris place en tête de l’épisode.
@@ -63579,6 +63668,7 @@ Tu as tellement accès à ces informations qu'elles te font mal au crâne.
 Tu as tellement accès à ces informations qu’elles te font mal au crâne.
 Tu as tente-huit ans ?
 Tu as tes idées, j'ai les miennes.
+Tu as tout engloutis à une vitesse
 Tu as trahi ! … tu vas mourir !
 Tu as trahi… tu vas mourir
 Tu as treize ans, mais tu en parais au moins seize.
@@ -63713,6 +63803,7 @@ Tu en as bien un au coude, dit Grantaire.
 Tu en as eu du tirage !
 Tu en as profité pour le réveiller ?
 Tu en as vu un ? …
+Tu en avais partout
 Tu en déduis quoi ?
 Tu en es bien sûre ?
 Tu en fais de la salade ?
@@ -63854,6 +63945,7 @@ Tu m'as donné toute une liste de courses.
 Tu m'as trop foutu les boules.
 Tu m'as un tantinet désappointée.
 Tu m'entendras, quand nous serons à Paris.
+Tu m'écoutes
 Tu mangeras, mon garçon : la fièvre t’a quitté.
 Tu manques tout, dit l’autre.
 Tu mates chaque minute ?
@@ -64179,6 +64271,7 @@ Tu sais que tu es toujours le plus beau ?
 Tu sais que tu fais bien de revenir, j’allais prendre ta place.
 Tu sais que tu nous as beaucoup manqué ?
 Tu sais que tu n’as pas choisi un métier facile.
+Tu sais quel jour, nous sommes
 Tu sais quelles robes me vont.
 Tu sais qui je veux dire, Homo.
 Tu sais quoi ? Thierry amène des croissants demain !
@@ -64914,6 +65007,7 @@ Un hymne sort du monde.
 Un héritage qui pèse un poil trop lourd.
 Un immense espoir me revient au cœur.
 Un incident est un point d’interrogation.
+Un incontournable mais pas vraiment
 Un indigène mort, vingt le remplaçaient
 Un instant ! dit-il.
 Un instant après, le marin, Nab et Harbert rentraient
@@ -64958,6 +65052,7 @@ Un jour enfin il y retourna.
 Un jour il a crié :
 Un jour il faudra vraiment que je dégote son premier prénom.
 Un jour je serai surement le meilleur dresseur.
+Un jour la joie, un jour la tristesse
 Un jour le bourreau vint, et Gwynplaine le fit rire.
 Un jour on va chez elle, elle est morte de faim.
 Un jour ou l’autre, il finirait par chercher au coron une famille.
@@ -67413,6 +67508,7 @@ Vous devez en avoir un ?
 Vous devez encore avoir pas mal de choses à mettre au point.
 Vous devez le savoir.
 Vous devez n’avoir rien entendu.
+Vous devez respirer à fond et attendre qu'elle s'estompe.
 Vous devez savoir qui je suis.
 Vous devrez alors cesser toute querelle.
 Vous devriez leur demander.
@@ -68396,6 +68492,7 @@ Vérand’a, je te présente Cassandre.
 Véritable force, elle le domptait.
 Vérité et Actions Quand tes muscles brûlent sous l'effort.
 Véronique et Virginie sont deux sœurs jumelles.
+W pour wagon
 Wagah n’inventait rien et ne plaisantait pas.
 Walpole et Dubois se tiennent.
 Warwick, le Faiseur de rois, pratiquait volontiers ce mode « d’attraire les gens ».
@@ -68521,6 +68618,7 @@ Y’avait que dix racailles ?
 Y’avait un jeune homme dans son immeuble.
 Y’en a beaucoup qui en ont oublié de faire leur commission, naine !
 Y’en a un qui a voulu prendre des notes.
+Z comme zèbre
 Z'avez vu la fierté dans ses yeux quand elle nous a pécho.
 Zacharie, est-ce fait ?
 Ze n’esd pas si chentile que zelle qui me l’einsbire…
@@ -68528,6 +68626,7 @@ Zi zi zi Pour Passy.
 Zombies endimanchés sentant la marée descendante.
 Zuela garderait les cinq mille francs, et s’en irait.
 Zut, je viens de rater mon train.
+Zéro
 Zéro Pas de raisons valables.
 Z’allez en faire quoi, de la momie ?
 Z’avez vu la fierté dans ses yeux quand elle nous a pécho ?
@@ -68551,6 +68650,7 @@ accompagnant son flow au piano.
 accompagné des principaux membres du Gun-Club.
 acheté le matin au bijoutier de Commercial-Arcade.
 acronyme de «Computer Generated Effects.
+adieu le proverbe
 adopter une attitude rebelle consistant à vous emmerder de façon littérale.
 adoucissant sa voix, vous serez puni de mort.
 afin de garder votre otage en vie.
@@ -68610,6 +68710,7 @@ après nous être esquintés pendant cinquante ans ?
 après s’être remis à son pain.
 après un instant de silence.
 après en avoir chié pour l'ouvrir.
+après la pluie, le soleil
 après mon entraînement au bougeage de gras.
 après tout ce minimalisme épuré.
 après un ou deux ans de sodomies incestueuses.
@@ -68664,6 +68765,7 @@ aucun voyageur n’a-t-il tenté de nouvelles découvertes ?
 aucun élève ne vient à mon stand.
 aucune difficulté ne paraissait être au-dessus de son courage.
 augmenté du plateau qui en faisait l’avant-scène.
+aujourd'hui c'est un anniversaire
 aujourd'hui mille huit cent quarante-trois–mille huit cent cinquante-cinq
 aujourd’hui de Grammont.
 aujourd’hui est un peu meilleur qu’hier !
@@ -68778,6 +68880,7 @@ c'est bon pour les personnes qui veulent récupérer les actes.
 c'est comme un tweet où t'essaies pas de te rendre.
 c'est comme ça qu'on les appelle.
 c'est comme ça que commencent les bonnes histoires.
+c'est de foncer tête baissée.
 c'est de ta faute à toi.
 c'est de tomber dedans en oubliant d'y croire.
 c'est de voir à quel point ils se réalisent.
@@ -68794,6 +68897,7 @@ c'est le Photoshop du vidéaste amateur.
 c'est le conte que les Noétiens utilisent pour nous endormir.
 c'est le fun qui gagne.
 c'est le meilleur moyen pour qu'ils fassent autrement.
+c'est le plus beau métier du monde
 c'est le summum du snobisme de cinéphiles.
 c'est les obliger à devenir comme lui.
 c'est lui que je prends.
@@ -68861,6 +68965,8 @@ c'est ton histoire de poids des idées.
 c'est tout pareil en fin de compte.
 c'est tout à fait supportable.
 c'est toute ma vie qui a décidé de s'enfuir par le parebrise.
+c'est très joli et sympa
+c'est un cahier d'écriture avec un feutre effaçable
 c'est un champ de blé.
 c'est un mec qui voit et qui voyage dans les idées.
 c'est un peu expérimenter la nécrophilie.
@@ -68961,6 +69067,7 @@ celui qui pleurait à mon enterrement.
 celui-ci eut le même geste.
 celui-ci se mit à rire.
 celui-ci termina sa tournée par l’inspection de la mâture et du gréement.
+cent
 cent cinquante grammes de beurre ramolli
 cent onze mille onze. cinquante-neuf en binaire.
 cent quarante degrés !
@@ -68993,6 +69100,7 @@ cet entraînement n'était pas facultatif.
 cet homme en a plus que nous n’en avons, dit-il.
 cette attitude politique qui consiste à ne rien changer puisque tout est tel
 cette crise, au contraire, la sauvera !
+cette dame faut que tu la traites comme une reine
 cette dernière finit par siffler sous la pression.
 cette douleur ne doit pas grimper bien haut.
 cette exlolita est allée faire son marché.
@@ -69005,6 +69113,7 @@ cette histoire soit inspirée de faits réels.
 cette idée qu’il a eue de sonder !
 cette idée a fait son chemin.
 cette idée qui m’a fait reprendre le blog.
+cette liste avec des albums, des romans et des livres
 cette machine commerciale.
 cette magnifique garce qui a été la première à s'éveiller.
 cette question est purement rhétorique.
@@ -69049,8 +69158,18 @@ cinq degré Un dossier contenant des choses commencées, dont Margarita.
 cinq degré là la nuit, la vieille rentre ses sacs.
 cinq degré là papa ! cria Lydie en se sauvant.
 cinq minutes d’audience à monsieur le procureur général.
+cinquante
 cinquante grammes de farine
 cinquante spectacles
+cinquante-cinq
+cinquante-deux
+cinquante-et-un
+cinquante-huit
+cinquante-neuf
+cinquante-quatre
+cinquante-sept
+cinquante-six
+cinquante-trois
 clapotement dans l’accalmie.
 clarté et chaleur à la Terre.
 combien il te faudra pour ce que tu as à acheter
@@ -69065,6 +69184,7 @@ comme des dolmens des temps anté-historiques ?
 comme des promeneurs de Hyde-Park.
 comme deux maigres échappatoires vers des cages plus grandes.
 comme explication du premier.
+comme il est vieux
 comme il faisait encore grand jour.
 comme ils disent ! des nippes qui ne valent pas quatre sous, et du pain !
 comme le dessous d’un crâne démesuré.
@@ -69110,6 +69230,7 @@ communication Les Noétiens sont les gardiens.
 comparé à l’étendue de la mer immense ?
 complimente chacune et chacun sur un élément de sa toilette.
 conduisant un buggy à toute allure.
+consonnes et voyelles
 contentons-nous d’avoir échappé à la moitié de la comédie.
 continues d’une formidable artillerie.
 contre la corde portant le boulet ?
@@ -69337,6 +69458,7 @@ des habitudes religieuses.
 des heures de réunions et de mises au point.
 des mailles et des chaînons.
 des mers polaires.
+des mots sur leurs émotions
 des peyrots qui veulent mon bien.
 des planches ! … cria la pauvre Esther.
 des poutres en chêne seront au centre de la pièce
@@ -69397,6 +69519,7 @@ deux oeufs
 deux registres à pages blanches.
 deux tel maître, tel logis
 deux vasques sont habillés par un petit meuble
+deux verres pour marquer la victoire
 deux virgule un exemplaires, divisé en trois éditions.
 deux vortex peuvent se rapprocher l'un de l'autre
 deux° Le manuscrit de Mangeront-ils ? comédie.
@@ -69478,18 +69601,22 @@ dit-il pour ne pas faire une réponse directe.
 dit-il, au moment où le croissant lunaire s’éteignait dans les flots
 dit-il, il est trop tard
 divers types d'outils qui se comprennent : ils utilisent les mêmes types de données.
+dix
 dix couverts d’aluminium.
 dix sacs de clous et de vis.
 dix mecs nous ont défendus. dix idées implantées.
 dix novembre mille huit cent quarante-six.
 dix sept chose vue un jour de printemps
 dix éclaircies, L’Océan resplendit sous sa vaste nuée.
+dix-huit
 dix-huit à dix-neuf carats.
 dix-huit mille quatre cent trente-quatre septembre
 dix-huit recrudescence du droit divin
+dix-neuf
 dix-neuf baraques de la foire lion !
 dix-neuf février, et durèrent une semaine entière.
 dix-neuf n’auraient rien compris à mes explications.
+dix-sept
 dix-sept juillet mille huit cent soixante-huit.
 dix-sept vingt et un.
 donc indiquée sur ces papiers rongés par la mer ?
@@ -69506,6 +69633,7 @@ dont trois étrangers, Cumberland, Cambridge et Schonberg.
 dont un galopin avait tenu la bride.
 dormir dans le camping loué par madame Martin.
 doubleraient la splendeur de Paris.
+douze
 douze Octobre mille huit cent quarante-six.
 douze aux anges qui nous voient — Passant, qu’es-tu ? je te connais.
 douze boîtes d’amorces fulminantes.
@@ -69556,6 +69684,7 @@ elle a vidé son hydromel.
 elle a vingt-sept ans.
 elle avale sa bouchée de popcorn et m'interpelle.
 elle causait toute seule à mi-voix.
+elle cherche le garçon
 elle cherche à faire le lien.
 elle demanda vingt-quatre heures pour lui rendre réponse.
 elle devenait laide, surtout depuis ses couches.
@@ -69604,6 +69733,8 @@ elles encodent en fait des contraintes globales
 elles ont élu ton crâne comme leur caisse de résonance.
 elles s’avançaient déjà d’un quart de mille au-delà du rivage.
 empêcher que mon personnage m'entraîne dans l'histoire de son roman.
+en classe, on ne parle pas
+en cours de musique, il fait des canards
 en coûte seize à produire.
 en espérant qu'il ne soit pas tout seul à répondre à l'appel.
 en essuyant une larme dans le coin de ses yeux.
@@ -69617,6 +69748,7 @@ en le posant par terre.
 en le regardant conduire sur le périphérique que la certitude me vient.
 en levant les bras avec emphase.
 en lui induisant cette angoisse de la rkoro.
+en marchant dans le froid
 en marchant sur ces planches sèches.
 en mesme note de voix que le bon Roy avoyt ouye.
 en mille sept cent quatre-vingt-neuf !
@@ -69660,6 +69792,8 @@ es pas moine, que je sache.
 es prête à plonger dans mes souvenirs ?
 es sûre que tu t’es pas fait aider, hé, Aglaé ?
 es trop fort Bébert !
+espérer qu'elle disparaisse d'elle-même
+espérer que la blessure qui la cause se referme
 essaie de profiter et de travailler avec ce qu'on peut te rapporter.
 essaya vainement de passer au nord et au nord-est.
 est bien au chaud et ne demande qu'à faire exploser la vérité.
@@ -69684,6 +69818,7 @@ est un scénar de courtmétrage.
 est un vers d’argot.
 est une m'ethode connue des terroristes culinaires.
 est une trentenaire au visage rond et à la bonhomie naturelle.
+est une élévation de la température de l'atmosphère
 est-ce assez beau ?
 est-ce depuis cette époque que Sainte-Lucie appartient aux Anglais ? …
 est-ce des bêtises ? …
@@ -69745,6 +69880,7 @@ et de jouer les voyeurs.
 et de leur donner la place de circuler.
 et de profonds abîmes l’en séparent.
 et des certitudes bleu céruléen lui passent devant les yeux.
+et des surfaces océaniques au niveau mondial.
 et dès lors Étienne lui-même fut débordé.
 et dis-lui d’entrer tout bellement.
 et dit que pas d’argent, pas de pain.
@@ -69917,6 +70053,7 @@ et y'avait pas trop de sang.
 et à rester ainsi assis sur nos steaks.
 et ça va pas se faire tout seul.
 evitez de marcher n'importe où, mais plutot sur les planches
+excellent, ma fille l'adore
 expliquer les choses au jeune homme.
 ébranlé par cet arrêt subit comme par un choc.
 éclairée par un soupirail.
@@ -70057,6 +70194,7 @@ il a pas eu de doutes.
 il a perturbé la noétie en usant trop de son pouvoir «Désarticulation des phalanges.
 il a rendu plus d’un service.
 il a repris le blog.
+il a retrouvé son équilibre
 il a sauté le pas pour parler en public
 il a toujours le même geste.
 il abuse tellement des adverbes que je suis à la limite de l'overdose.
@@ -70065,6 +70203,7 @@ il apercevait le projectile sur le miroir de son gigantesque télescope
 il aurait pu franchir cette distance en vingt-quatre heures.
 il avait aidé son père depuis mille huit cent quarante-sept.
 il avait également du mal à ne pas laisser transparaître sa satisfaction.
+il barbouille son visage
 il casse le mur avec une masse
 il chante faux
 il chante juste
@@ -70087,6 +70226,7 @@ il est fait référence ici à une Rubriqueàbrac.
 il est flambé, c’est-à-dire gelé.
 il est l'incarnation de l'insouciance bandante.
 il est maintenant par soixante-treize degrés sept minutes et vingt secondes !
+il est né sans noblesse
 il est peut être temps de tenter le chaos.
 il est peut-être temps de tenter le chaos.
 il est prévu une cheminée pour chauffer la maison
@@ -70099,14 +70239,17 @@ il était très-probable que l’unique habitant de l’îlot avait succombe�
 il évita de se rencontrer avec Mokoum.
 il fait des fautes
 il fait froid L’hiver blanchit le dur chemin.
+il fait l'amour à ma fille
 il fait nuit, les ouvriers quittent le chantier
 il fait trop chaud pour couler le bétons
+il faudra cinquante ans
 il faudrait que les Noétiens me l'aient laissé.
 il faut appliquer une couche de peinture
 il faut appuyer sur les adverbes.
 il faut attendre la fabrication des menuiseries
 il faut créer une petite bombe d'action.
 il faut désherbés
+il faut effacer et recommencer !
 il faut engrosser ses femelles.
 il faut massacrer son engeance.
 il faut monter les marches pour descendre du toboggan
@@ -70127,6 +70270,7 @@ il frappa Phelem-ghe-madone au sternum.
 il jette des regards à sa petite fille.
 il l'a choisie dans son placard ce matin.
 il la porte à sa bouche.
+il la traite comme une reine
 il le regarda.
 il les gardait pour avoir les pieds solides, disait-il.
 il leur dit tout bas : — Tutoyez-vous.
@@ -70136,12 +70280,16 @@ il me semble que ce serait assez facile.
 il me serait impossible de te dire ce qu'est un être interdit.
 il me simule sa mort.
 il me vient la pensée.
+il met de l'ordre dans les papiers
 il méprisait les femmes et n’aimait que Fil-de-Soie.
 il n'avait pas besoin de m'engager».
 il n'en fut pas ainsi
+il n'est jamais lassé
 il n'y a aucune vagues à l'horizon
+il n'y a pas d'autres blessés graves
 il n'y a pas de faute de frappe.
 il n'y a pas de pré-calcul
+il n'y a pas de remèdes miracles
 il n'y a pas de route pour l'instant
 il n'y a pas de sonnette
 il n'y a pas de vis à vis
@@ -70184,16 +70332,19 @@ il pleut trop pour faire avancer le chantier
 il possédait de vastes propriétés aux environs de la ville.
 il pouvait exister une différence entre la quantité de mouvement et le moment conjugué
 il raconte une charade
+il ravage tout sur son passage
 il restait encore quelque souffle !
 il reste une chose assez concrète pour imposer sa réalité.
 il resterait à peine vingt-cinq pas à franchir.
 il revient la semaine prochaine me présenter ses excuses
 il s'est fait mal avec le marteau
 il sait où en trouver.
+il se cache derrière la porte
 il se connaissait en police, ce roi-là ! arrête au milieu d’un bois.
 il se disait en lui-même Bongrand en répétant les dernières paroles du docteur.
 il se la coule douce au soleil.
 il se la pète.
+il se lêche les babines
 il se mettait à nous parler ?
 il se mouvait pesamment.
 il se rappela son fils, le capitaine.
@@ -70253,12 +70404,14 @@ il y eut à Waterloo plus de massacre que de bataille.
 il y eut un changement de dynastie en Angleterre.
 il y eut un moment de silence
 il y eut un silence
+il écrit les lettres pour former des mots
 il était dix heures du matin
 il était doué en orthographe mais pas en grammaire
 il était grand temps qu'Oscar se sépare de ses affreux meubles suédois.
 il était huit heures du soir
 ils allèrent au-devant du Mongolia.
 ils auront mille et un moyens de me transformer en collabo.
+ils buvaient pour trinquer.
 ils circulaient entre les composants de l’incroyable machine
 ils devaient déjà avoir une base très importante à disposition.
 ils font des mouvements réguliers de haut de bas
@@ -70287,6 +70440,7 @@ ils se tueraient plus souvent.
 ils sont là-dedans depuis des éternités.
 ils sont limite plus supportables que le commun des mortels.
 ils sont prêts à recevoir les idées qu'on veut leur implanter.
+ils sont tous célibataires
 ils sont très brillants
 ils sont très prisés sur les réseaux sociaux.
 ils te shootent avec un antipsychotique.
@@ -70327,14 +70481,17 @@ j'ai pu observer tout un tas de comportements différents.
 j'ai revendu ces données publiques à mes clients.
 j'ai reçu une longue longue lettre de Madame Marquet.
 j'ai saisi l'intermède qui m'était proposé.
+j'ai su que je voulais passer ma vie avec toi ?
 j'ai toujours quelque réticence à faire confiance aux réseaux.
 j'ai trouvé un vieux bouquin traduit du chinois sur les feux d'artifices.
 j'ai un superpouvoir qui sent grave la malédiction.
 j'aime souffler dans ta trompette.
 j'aime à les lire d'un trait.
 j'appelle ça faire un remake d'InceptionInception.
+j'apprends à lire
 j'arrive pas à entrer dans son ordinateur.
 j'arrive à choisir où je la prends.
+j'attends le son de la voix
 j'aurais pu te dire «ceci est une histoire pas vraie».
 j'ay ceans couchiée avecques moy la plus iolie dame de la Court.
 j'ay dict la cause, et non la iustice, repartit le iuge.
@@ -70350,8 +70507,11 @@ j'entends le va-et-vient de mon cueur…
 j'espère juste qu'elle a senti le vent tourner.
 j'espère que quelqu'un trouvera la cause de ce problème
 j'habite dans la conciergerie de mon immeuble parisien.
+j'offrirais des fleurs
+j'écoute la maitresse pendant l'école
 j'étais venu dire à Orion ce que j'ai déduit.
 j'étais à la place de Miss Marquet et lui à la mienne.
+je cherche mes mots
 je commence à me geler les ovaires dans votre caisse.
 je connais peu de prisonniers qui aient pu être mieux traités que moi.
 je crois entendre des cris d’oiseaux au-dessus de ma tête.
@@ -70450,6 +70610,7 @@ je sens que mes espoirs ont été comblés.
 je sens une idée germer en moi.
 je serais demeuré avec lui.
 je serais en pleine indigestion.
+je serais l'épaule sur laquelle pleurer
 je songe à une chose
 je sors les Pépitos et le Nutella.
 je souhaiterais vous montrer quelques-uns de nos derniers résultats.
@@ -70462,6 +70623,7 @@ je suis parvenu à me décoincer la paraplégie.
 je suis physiquement incapable de tenir le chuchotement.
 je suis sur le banc du prisonnier.
 je suis un bon diable, quoique fils de déesse !
+je t'ai regardé tous les jours rentrer chez toi
 je t'appelle Fufu ou Hugo.
 je t'attire avec ma récompense tout sucre tout miel.
 je t'écris cette histoire après l'incident des chatons.
@@ -70504,6 +70666,8 @@ je vois Nicolas courir vers moi.
 je vois le poitrail de Martin qui arbore fièrement le badge ``Norbert.
 je vois pas comment j'aurais pu être plus clair.
 je vois que tout le monde a arrêté de travailler.
+je voudrais passer chaque jour
+je voulais l'entendre tous les jours
 je vous dirai vers où prendre la route pour la prochaine étape.
 je vous disais : — Vivez, régnez, Madame !
 je vous donne du chocolat.
@@ -70514,6 +70678,7 @@ je vous propose trois camions pour vos déchets
 jette-le-lui par la figure.
 jeux de mots mis à part.
 joue pas dans la même catégorie.
+jouons ensemble pour s'occuper
 jusqu'au moindre pistil puis qui te torche une bataille essentielle en trois pages.
 jusqu'à ce qu'il prenne toute la place.
 jusqu'à ce que ça m'arrive.
@@ -70551,6 +70716,9 @@ l'absence de bruit massif s'est cruellement fait sentir.
 l'accès au sous sol se fait par le garage
 l'actuelle responsable des Noétiens de la maison Jaune.
 l'air que je souffle est chaud.
+l'alphabet a vingt consonnes
+l'alphabet de A à Z
+l'alphabet français avec vingt-six lettres
 l'analyse est positive
 l'anniversaire de la naissance sera fêté
 l'architecte dépose un permis à la préfecture
@@ -70575,17 +70743,23 @@ l'humidité de la pièce est importante
 l'huître va s'en servir pour tenter de se défendre.
 l'idée la plus présente était celle d'appartenance.
 l'installation de la prise sera fixée dans une cloison
+l'instrument de musique
 l'instrument est mal accordé
 l'isolation de la maison est en cours
 l'isolation sera thermique
+l'oeuf ou la poule
 l'on dirait une fleur aux pétales translucides.
+l'orchestre attent le signal pour jouer
 l'un d'entre eux aura ajouté «Ici c'est chez nous.
 l'échafaudage facilite la pause de l'enduit
 l'école est fini
+l'école pour apprendre
 l'éditeur américain est propriétaire de ses formats de fichier.
 l'électricien passe les câbles dans les murs
 l'électricien tire deux fils supplémentaire
 l'équipe a pu grimper en haut de la montage
+l'équipe féminine obtient un nouveau prix
+l'étable pour les vaches et les chèvres
 l'étage comprendra que des chambres
 l'été est placée sous le signe des voyages
 l'œil torve et la mèche grasse.
@@ -70627,6 +70801,7 @@ la corde a sauté délimite la moitié du terrain
 la correction passe par la grammaire
 la couleur de la peinture se choisit sur catalogue
 la couleur sera lavée à la main
+la coupe revient au gagnant
 la course va commencer
 la création sous toutes ses formes
 la cuisine est aussi un lieu de partage
@@ -70642,6 +70817,8 @@ la décoration sera vos nouveaux rideaux aux fenêtres
 la déité tenant la scène a trébuché sur un mot.
 la fabrication des machines à laver ou la culture des betteraves.
 la famille esquimaude vint au Fort-Espérance prendre congé de ses habitants.
+la façon de la faire rire.
+la façon dont on gère notre douleur dépend de nous.
 la figure de Fleur-de-Lys n’y sont pas indiqués.
 la figure de l’interlocuteur s’allongeait : « Ne prononcez jamais son nom devant moi !
 la figure du serpent qui s'avale la queue.
@@ -70662,6 +70839,9 @@ la joie des corrections passe par des rattrapages
 la joie des gens pour cette journée inoubliable
 la lampe plafonnier est branchée
 la lance de lumière de l’idéal
+la lettre E pour éléphant
+la lettre T pour tomate
+la lettre V comme un volcan
 la machine à laver sera dans la salle de bain
 la maison en bois peut prendre feu
 la maison est un espace habité
@@ -70708,6 +70888,7 @@ la position à l’intérieur de Will-Tree allait devenir intenable.
 la potence du réverbère du cul-de-sac Genrot.
 la première couche est facile à enlever
 la prise de terre est obligatoire dans les pièces
+la pêche est ouverte pour le gros poisson
 la quadra exigeante et les bendover boyfriends se retrouvent.
 la rage du chef de la police de sûreté ne saurait-elle se décrire.
 la rampe permet de monter et descendre l'escalier
@@ -70731,9 +70912,11 @@ la seule de son ordre qui eût survécu.
 la situation se retournerait contre elle.
 la somme des forces extérieures pouvant dépendre de la position
 la somme placée autrefois ?
+la soubrette attendait le signal
 la splendeur du joyau éclatait par elle-même.
 la table est trop grande pour la cuisine
 la taille des panneaux photovoltaïques seront fixés sur les toits
+la taille varie peu
 la tapisserie s'ajoute sur le papier peint
 la tempête s’apaisa subitement.
 la terre en a besoin.
@@ -70747,6 +70930,7 @@ la télévision ne fait plus recette
 la vache mange l'herbe
 la vaisselle de tous les jours est dans le buffet
 la viande sèche comme sur une proie.
+la vie est trop courte
 la vielle à cinq cordes.
 la ville se compose d'immeubles, de pavillons et de quelques commerces
 la vitesse du Gulf-Stream était de deux mètres vingt-cinq par seconde.
@@ -70771,14 +70955,19 @@ là quinze jours que je n’ai point vu de viande.
 là-bas, après la porte.
 le Dean-Richmond, étaient les plus beaux steam-boats du fleuve.
 le Duncan se trouvait à la hauteur du détroit de Magellan.
+le F pour Fraise ou fenêtre
 le Great-Eastern aurait atteint les passes de New-York.
 le Great-Eastern remonta d’un quart dans l’ouest-nord-ouest.
 le Guide du routard intergalactique.
+le M est illustré pour une marmotte
 le Nautilus se vit définitivement enrayé.
 le Noétien libéré de son serment.
+le O est représenté par une orange
+le S est un serpent
 le Thermos et les Couleurs C'est un travail de groupe.
 le U de la honte.
 le Volcan dévoile sa nouvelle saison
+le Y avec un animal comme yack
 le barbecue est sorti
 le blog il est à Enguerrand.
 le boulevard des Italiens de San-Francisco.
@@ -70789,6 +70978,7 @@ le capitaine Nemo sera enfermé dans sa chambre et probablement couché.
 le carrelage couvre le sol
 le carrelage sera sur la terrasse
 le casier à bouteilles se trouve à gauche en entrant
+le castor gratte le sol
 le centre de l’armée anglo-hollandaise était en bonne posture.
 le champ de vitesse est extrêmement simple
 le champ électrique dérive d'un potentiel
@@ -70812,6 +71002,7 @@ le compteur électrique n'est pas installé
 le conclave a puni la Laly.
 le conclave voterait à l'unanimité qu'on lui donne la fessée.
 le congélateur sera dans la cave
+le corps et l'esprit bien fait
 le couloir desservira les pièces
 le couloir est petit et étroit, les couleurs seront claires
 le crépis de la façade sera de couleur sable
@@ -70822,13 +71013,16 @@ le danger dans lequel tu serais.
 le docteur ne répondit pas
 le double vitrage aux fenêtres
 le ferait-il arrêter ?
+le feu arrive à grand pas
 le feu brulle le bois
 le feu de Corrakilly-Bay.
 le fil rouge sur le bouton rouge, le fil noir sur le bouton noir
 le filtre est bouché de la machine
+le four à deux cent dix pour faire cuire
 le fric qu'on a plus.
 le front terrible de son mari.
 le fumier aide le printemps à faire la rose
+le garçon a cinq ans
 le gazon sera retourné avec la bêche
 le grand air a été pour moi l'occasion de desserrer mes sphincters.
 le grand scénariste de ma vie est un sadique.
@@ -70847,6 +71041,7 @@ le jeu de lumière sera alterné par les ombres
 le jeu est aléatoire
 le jeune homme dut partir ce jour-là, sans avoir parlé.
 le joint du robinet est bloqué
+le jour et la nuit
 le jour où tout le monde t'admire.
 le jour où vous avez acheté la péniche.
 le joyeux excitant l'immobile et la montagne calmant le lac.
@@ -70857,6 +71052,7 @@ le lave linge ne rince plus
 le locataire de Saville-row ne devait rentrer qu’à minuit précis.
 le long de la chaîne du pont-levis.
 le lotissement est composé de plusieurs maisons
+le loup garou est encore là
 le manoir a déjà été aménagé pour devenir handipraticable.
 le marteau et le burin décolle le carrelage
 le massif de terre est un surplus de terre
@@ -70865,10 +71061,12 @@ le meilleur de la flottille.
 le mendiant, un pauvre homme passait dans le givre et le vent.
 le mien est réparable, mais dans quel estrif estes-vous tombée ?
 le minerai qu’il avait recueilli était par lui-même très-pur.
+le minou joue avec la balle
 le moment est venu
 le monstre peut rien nous faire.
 le monument prend feu mais se trouve sous contrôle
 le mur est composé de briques et de parpaings
+le méchant garçon fait des bétises
 le navire fait à l’heure quatre lieues de France.
 le niveau informationnel est confiné ici, au moins trois. Rien ne sort.
 le nom de Creek-Rouge.
@@ -70894,6 +71092,8 @@ le peintre a terminé la pièce
 le peintre arrive avec son matériel
 le peintre attend son tour
 le personnel se met à l'abri
+le petit déjeuner, c'est au lit.
+le petit poisson va grandir
 le pirate attaque le bateau
 le plafond sera peint
 le plan montre les différentes pièces
@@ -70908,6 +71108,7 @@ le pont du steam-ship était encore encombré de tout l’outillage suppléme
 le porche couvre la terrasse
 le pot indique le nombre de couche de peinture à faire
 le pot-au-feu pût mijoter doucement.
+le poulet se promène dans la ferme
 le premier adore la scène
 le prince Dakkar revint-il au Bundelkund
 le principe d'équivalence entre chaleur et énergie.
@@ -70924,6 +71125,7 @@ le robinet du jardin fuit énormément
 le roi Louis dix-huit allait presque tous les jours à Choisy-le-Roi.
 le romanesque me fait une belle jambe.
 le rôle d’Adam avec une fille d’Ève, merci !
+le rythme est plus lent
 le récupérateur d'eau sera un full
 le réseau de clandestins que j'ai monté avec mes copines des bons cadeaux.
 le sable est bouillant, il faut mettre les chaussures
@@ -70941,6 +71143,7 @@ le soleil arrive après la pluie
 le soleil il m'éblouit mais je suis heureux quand même. .
 le soleil montre les défauts du plafond
 le soleil s'est invité pour cette journée
+le sort des rois est joué
 le sous-entendu amer caché dans ce mot : toujours.
 le sous-seing et les titres.
 le spectacle est en cours
@@ -70961,6 +71164,7 @@ le toboggan est impressionnant pour les enfants
 le toit protège la fondation
 le tracteur laboure le terrain
 le tracteur labourre le terrain
+le train se compose d'une locomotive et des wagons
 le tricot devient une arme de dissuasion massive.
 le trou du chéneau laissera passer l'eau du toit
 le trou va recevoir le béton
@@ -70969,12 +71173,14 @@ le tuyau sert de conduit de cheminée
 le vent remonte d’un quart dans le nord.
 le vent se leva
 le vent souffle fort
+le verre en main montre qu'il est vide
 le vieux capitaine Gertrais-Gaboureau parut avoir radoté.
 le vingt-cinq février mille sept cent soixante-dix-sept.
 le vingt-quatre, elle fut définitivement défendue.
 le vingt-quatre, la nouvelle lune.
 le violon, le violoncelle, la contre basse forme un trio
 le volume d'eau a débordé de la casserole
+le vrai du faux
 les Bleus engloutis dans le volcan
 les Bochjesmen, effrayés, abandonnèrent leur poste et laissèrent les Russes livrés à eux-mêmes.
 les Enveloppes et l'Épuisement Un sexshop.
@@ -70987,6 +71193,8 @@ les Noétiens se retournaient contre nous.
 les agents d’aujourd’hui valent ceux de monsieur Lenoir.
 les algues c'est la prospérité.
 les allées forment soit des cercles soit des rayons.
+les amoureux sont heureux
+les animaux de la ferme sont tranquilles
 les artisans utilisent une brouette pour apporter le matériel
 les artistes rentrent sur la scène
 les astronomes avaient obtenu géodésiquement la base de leur quinzième triangle.
@@ -71018,6 +71226,7 @@ les deux Esquimaux en passaient douze à la chasse aux morses.
 les deux mots ; le son met donc vingt secondes à monter.
 les deux vaisseaux quittèrent ces funestes parages.
 les deux voiliers s'affrontent
+les différentes émotions avec les plus petits
 les dimensions sont prises pour les fenêtres et porte-fenêtres
 les dominos seront utilisés par l'électricien
 les défauts des murs sont masqués par le papier peint
@@ -71030,6 +71239,7 @@ les enfants jouent aux billes
 les enfants jouent aux boulles
 les enfants montent sur le lavabo
 les enfants sortent les pèles et les sceaux
+les enfants vont pouvoir s'entraîner
 les fabricants se partagent le marché de l'appareillage
 les femmes viennent de Vénus.
 les fenêtres ont mal été mesurés
@@ -71059,6 +71269,7 @@ les informations sont sur le pot de peinture
 les jeux extérieures attendent les enfants
 les journées prochaines promettent d'être longues.
 les klaxons sont sortis
+les lettres forment des mots
 les mains attachées dans le dos.
 les mains de ces innocents dans ses deux mains tragiques
 les mains maintenues audessus de la tête par les puissants bras d'Hugo.
@@ -71116,6 +71327,7 @@ les vacances peuvent commencer
 les vacanciers arrivent au camping
 les voisins sont brillants
 les voitures font du bruit en klaxonnant
+les voyelles sont a, e, i, o, u, y
 les yeux ternes, la face immobile.
 les écoles où se tiennent ce genre de réunions.
 les élèves apprennent l'électricité
@@ -71383,6 +71595,7 @@ mon Fulbert fait des fondants au chocolat à damner un ange.
 mon bras droit et mon meilleur Noétien.
 mon destin est suspendu aux lèvres du dingue qui dialogue avec lui-même.
 mon enfant ! mon enfant !
+mon maitre d'école parle doucement
 mon maître a-t-il eue de voyager pendant l’hiver !
 mon mignon fils !
 mon papa préfère son jeune associé à moi.
@@ -71487,6 +71700,7 @@ notre espion se rend dans la salle zen.
 notre gloire est de les enterrer au fond de nos cœurs !
 notre pauvre blessé, mort dans la nuit.
 notre pistil éructe un geyser miroitant dans les lumières tamis.
+notre premier rendez-vous au restaurant
 notre public s'est ensuite vu rassuré.
 notre sang n'a fait qu'un tour.
 nous a montré ses livres de ce temps-là.
@@ -71524,6 +71738,7 @@ nous saurons bientôt à quoi nous en tenir.
 nous sommes arriv'es aux voitures.
 nous sommes arrivées dans sa salle de tricot.
 nous sommes dans la cave où Vérand'a nous a abandonnés.
+nous soufflons les bougies
 nous tiendrez-vous compagnie ?
 nous voulons jouer dans le tas de sable
 nous voulons seulement lui dire nos noms.
@@ -71580,6 +71795,7 @@ on est juste des No'eNautes.
 on est sous la neige.
 on forge nos bombes d'idées.
 on fouillerait le burg de fond en comble ! …
+on l'anesthésie, on la surmonte
 on leur fera avaler de l’eau salée, à ceux-là.
 on m'a roulé devant mes comparses.
 on montrait les statistiques des stations essence de la ville.
@@ -71600,6 +71816,7 @@ on peut faire un changement de variables bijectif dans l'intégrale
 on peut faire éventuellement des moyennes sur des échelles de temps rapides
 on peut même pas leur faire confiance.
 on peut se le permettre.
+on peut écrire en majuscule ou minuscule
 on pourrait peut-être atteindre la terre dans une seule marée.
 on pouvait tous se coucher et crever.
 on pouvait voir la vague de perplexité parcourir les dos du public.
@@ -71628,6 +71845,7 @@ on veut te donner la mort.
 on vous repêche l’homme aux filets de Saint-Cloud.
 on était prêts à la bataille.
 ont rêvé la restitution du printemps perpétuel à la terre.
+onze
 onze mille pieds au-dessus du niveau de la mer
 opinion partagée par Madame Monsieur Beer.
 opulent doyen de Saint-Asaph.
@@ -71704,6 +71922,7 @@ parce que j’avais compris qu’il était bon.
 parce que les histoires dans leurs têtes sont vives.
 parce que ça veut dire que je vais te le révéler.
 parce qu’il faut qu’il le soit.
+parfait pour apprendre aux enfants
 parti Socialiste : Ceci n’est toujours pas une histoire vraie.
 parut sur ces côtes l’illustre Cook.
 pas Fulbert que Victor et moi avons rencontré Madame Marquet.
@@ -71772,6 +71991,7 @@ portons-lui quelque reste du buffet de ville !
 possède-t-il des manières et un ton exquis ?
 posé assis sur une table au centre de la pièce.
 pour Harry Markel et ses compagnons ? …
+pour certains d'entre nous, la meilleure façon de gérer la douleur
 pour connaître leur opinion.
 pour donner le choléra à une maison ? …
 pour elle Riault quatre-vingt-douze quatre-vingt-deux.
@@ -71849,6 +72069,7 @@ produits par les rayons réfractés, se jouaient à travers l’écume.
 prolongé, que les échos répercutèrent avec force
 proposée par LibreOffice : toutes les fonctionnalités sont là, celles du traitement de texte
 protégez les angles des murs à l’aide de ruban
+proverbe
 préface livre premier un juste
 puis à la Croix-de-Pierre, puis à Chamblay.
 puis elle éclate de rire.
@@ -71888,6 +72109,7 @@ qu'il ne lui restait aucune chance de salut…
 qu'il tenait toujours convenablement amorcées.
 qu'ils avaient inutilement amené, revinrent à Granite-house.
 qu'ils vous protègent Ils le feront.
+qu'on me foute la paix
 qu'une fois que tu te l'es gagné.
 qu'y a-t-il
 quand des phares arrivent derrière nous et nous aveuglent.
@@ -71918,9 +72140,20 @@ quand tu voyages dans les pleins et déliés d'une écorce.
 quand un personnage qui a été longtemps enfermé retrouve le dehors.
 quand une explosion formidable retentit.
 quand vous aurez fusillé tout le monde ?
+quarante
 quarante degré au-dessous de zéro, s’écria Jasper Hobson.
+quarante-cinq
+quarante-deux
 quarante-deux semaines, c’est un peu plus de dix mois.
+quarante-et-un
+quarante-huit
+quarante-neuf
+quarante-quatre
+quarante-sept
+quarante-six
 quarante-six sols huit deniers parisis.
+quarante-trois
+quatorze
 quatorze avril mille huit cent soixante-huit.
 quatorze ô gouffre ! l’âme plonge et rapporte le doute.
 quatre sabres d’abordage.
@@ -71942,7 +72175,27 @@ quatre degré Deux boussoles d’inclinaison et de déclinaison.
 quatre jeunes Parisiens firent « une bonne farce ».
 quatre septembre mille huit cent quarante-trois
 quatre-vingt une, quatre-vingt-deux, quatre-vingt-trois ; encore dix-neuf.
+quatre-vingt-cinq
+quatre-vingt-deux
+quatre-vingt-dix
+quatre-vingt-dix-huit
+quatre-vingt-dix-neuf
+quatre-vingt-dix-sept
+quatre-vingt-douze
+quatre-vingt-huit
+quatre-vingt-neuf
+quatre-vingt-onze
 quatre-vingt-onze. « Prince de la Paix ».
+quatre-vingt-quatorze
+quatre-vingt-quatre
+quatre-vingt-quinze
+quatre-vingt-seize
+quatre-vingt-sept
+quatre-vingt-six
+quatre-vingt-treize
+quatre-vingt-trois
+quatre-vingt-un
+quatre-vingts
 que Monsieur de Rohan prêchait au couvent du Petit-Picpus.
 que c'est de ma faute.
 que ce n'étaient pas des fumées colorées.
@@ -72111,6 +72364,8 @@ qui s’appliquait aux plus menus objets des voyageurs.
 qui s’applique aux observateurs du temps.
 qui va dans quelle tire.
 qui veut faire plaisir à son précepteur.
+qui veut se rendre indépendant
+quinze
 quinze février de l'année
 quinze octobre mille huit cent trente-quatre.
 quinze… Dona lucrezia Borgia
@@ -72264,6 +72519,7 @@ sans la sève qui les fait éclore ?
 sans me tuer, dit-il à Asie.
 sans moyen de m'en sortir par moi même.
 sans moyen de m'en sortir par moi-même.
+sans pain et sans vin, l'amour n'est rien.
 sans qu'on sache ni pourquoi ni comment.
 sans qu’une goutte de sueur mouillât sa peau dure.
 sans savoir où il en était.
@@ -72293,8 +72549,10 @@ se maintenait immobile à deux cents pieds du sol.
 se plier en deux dans le capot pour une nouvelle session de limage.
 se prêtait très-convenablement à la circonstance.
 se rendrait-il aux désirs de son équipage ? …
+se repérer dans le temps et l’espace
 se tourne face au soleil et s'étire.
 seigneurs, pages, gens du peuple Paris, cent cinquante-deux…
+seize
 seize degré de longitude est.
 seize, rue de la Verrerie.
 selon la couleur, le rendu sera différent
@@ -72309,6 +72567,7 @@ ses crocs écumants tournés vers la menace face à elle.
 ses gardiens se retirèrent.
 ses lèvres bougeant sans cesse.
 ses rivaux ne le suivraient-ils pas jusque-là.
+seuls les poissons morts nagent avec le courant
 si aisément, tourne au soldatesque
 si c'est pas vous qui avez fait ça.
 si c'est un exercice à la con.
@@ -72358,18 +72617,38 @@ six ciseaux à froid.
 six dos de Noétiens se détendent.
 six heures trente-cinq matin.
 six mètres de glace avaient été arrachés de l’alvéole.
+six voyelles dans l'alphabet
 sois heureux ! sois content ! oh ! oui, je t’aiJe t’aime !
 sois liant, causant, corruptible.
 soit je vois les trucs dont tu me parlais.
 soit on suit ton idée depuis le début.
 soit tu vas aider Ghislain avec nos premiers convives.
+soixante
+soixante-cinq
+soixante-deux
+soixante-dix
 soixante-dix soixante.
+soixante-dix-neuf
+soixante-douze
 soixante-douze mille combattants de chaque côté.
+soixante-et-onze
+soixante-et-un
+soixante-huit
+soixante-neuf
+soixante-quatorze
+soixante-quatre
 soixante-quatre cinquante-sept.
+soixante-quinze
+soixante-seize
+soixante-sept
+soixante-six
+soixante-treize
+soixante-trois
 somptueuse dans son ensemble voiles et vinyle.
 son choix faisant grand sens.
 son contaldots Il se fige.
 son mariage avec mademoiselle d’Aubrion ? …
+son meilleur ami est là
 son médicament le dope
 son pari perdu, arrêté, emprisonné peut-être ! …
 son perpétuel regard de cocker dépressif.
@@ -72492,6 +72771,7 @@ tenant --pour l'instant à elle seule-.
 tenant pour l'instant à elle seule la maison Blanche.
 tentaient de conquérir le monde.
 tenter de conquérir le monde.
+thermostat six ou sept
 ti seras mon gonzeil.
 ton cerveau va faire le lien.
 ton esprit n'en veut pas.
@@ -72503,6 +72783,7 @@ toujours un prédateur pour venir te croquer.
 tous les Noétiens seront là.
 tous les amants dormirent presque aussi paisiblement que monsieur et madame Guillaume.
 tous les détails de cette coque devinrent visibles.
+tous les jours, elle porte un vêtement différent
 tous les regards se fixent enfin sur l’horizon.
 tout autre à remplir cette difficile mission.
 tout ce que tu veux tant que tu m'écoutes.
@@ -72527,11 +72808,22 @@ toute ma colère pour en faire une réserve d'énergie bouillonnante.
 toutes les répudiations en germe ?
 tranchaient avec la blancheur de son front pur.
 transformer la façade vitrée en milliers de petits cubes Sécurit.
+treize
+trente
 trente et un trente-quatre.
 trente grammes de cassonade
 trente novembre mille huit cent trente-deux.
 trente septembre, quatre h matin.
+trente-cinq
+trente-deux
 trente-deux degré au-dessous de zéro, page cent cinquante-neuf.
+trente-et-un
+trente-huit
+trente-neuf
+trente-quatre
+trente-sept
+trente-six
+trente-trois
 très émotionnée par le va-et-vient de la lanterne.
 très-étonné de ne pas trouver de larmes.
 très-pittoresques dérobaient aux passagers la vue de la grande île.
@@ -72585,7 +72877,9 @@ très-affligé de ce qu’il venait d’apprendre.
 tu Vérand'a a cessé de pleurer pour me fixer.
 tu arrives à manipuler les idées.
 tu as ancrée dans la noétie.
+tu as commandé un énorme plat de pâtes bolognaise
 tu as jamais fais ces choses.
+tu as levé la main
 tu as nourri une idée.
 tu as travaillé au lieu de te reposer.
 tu as voulu croire à mon histoire.
@@ -72615,6 +72909,7 @@ tu ne crois pas en ce que je te dis.
 tu ne dois surtout pas déplacer une nouvelle idée.
 tu ne me sers plus à rien.
 tu ne nous trouveras pas.
+tu ne parles pas
 tu ne pourras plus croire que ceci puisse être une histoire vraie.
 tu ne resteras pas sans nouvelles.
 tu ne saurais que répondre.
@@ -72651,6 +72946,8 @@ tu sais de quoi je parle.
 tu sentiras pas comment c'est lourd.
 tu serais bien nommé pays du désespoir !
 tu t'enfonces encore plus vite dans le miel.
+tu t'es regardé et tu as explosé de rire
+tu t'es trouvé la femme idéale
 tu te croirais direct le héros d'un film de Tarantino.
 tu te méfies donc de nous ? dit Fil-de-Soie.
 tu te poses la question : Comment faire ?
@@ -72710,12 +73007,14 @@ un interrupteur va et vient pour le couloir
 un joint est appliqué entre le haut des plaques et le plafond
 un jour de Toussaint ?
 un jour elle sera grande
+un jour il rit, un autre jour il pleure
 un jour je serais grand
 un jour, si c’est son intérêt !
 un kiosque sera installé dans le jardin
 un légier à-compte sur la dessusdicte centaine.
 un mec qui voyage dans tes idées.
 un message est envoyé par pigeon voyageur
+un modèle détaillé de chaque lettre à reproduire
 un mono tube relie les deux tuyaux
 un muret entourera la piscine
 un mélange d'étincelles rouge désir et de traînées jaunes réflexion.
@@ -72723,19 +73022,23 @@ un nouveau quartier va agrandir le village
 un nouveau supplice de ces nègres !
 un nouvel obstacle doit être broyé.
 un nouvel « entertainment » de sir James Anderson fut-il annoncé pour ce jour-là.
+un oeuf pour rajeunir
 un panneau plein cache la vitre
 un paravent pour ne pas éclabousser la salle de bains
 un parloir et une salle à manger.
 un parquet flottant sera la salle de séjour
 un parterre de fleurs sera à l'entrée de la maison
+un petit ou un grand
 un petit renseignement à prendre sur la succession Minoret.
 un peu de ciment est prévoir
 un peu de poids ne fera pas de mal à mon père.
+un proverbe ou une citation
 un prunier et un cerisier seront plantés dans le jardin
 un robinet d'eau chaude et d'eau froide
 un rouleau mural sera employé pour les murs
 un récupérateur d'eau de pluie
 un salon sera composé d'un canapé et d'une banquette
+un souffle pour respirer
 un splendide arc-en-ciel
 un sujet d’épopée à quelque Homère maori.
 un taillis d’arbre morts.
@@ -72764,7 +73067,10 @@ une cuve va récupérer l'eau de pluie du toit
 une dalle va accueillir la véranda
 une descente permet d’accéder au garage
 une dose de couleur dans le pot de peinture blanche
+une douleur lancinante
+une douleur que l'on supporte
 une embarcation de la frégate ne nous hélait-elle pas dans l’ombre ?
+une envie de découvrir
 une erreur de calcul modifie le résultat souhaité
 une ex-institutrice très-avantageusement compromise dans un procès célèbre.
 une fantaisie qui ne nous retardera pas même d’une demi-journée.
@@ -72777,9 +73083,12 @@ une fuite innonde la cave
 une fuite inonde la cave
 une grande heure avant que le docteur parût.
 une grosse branche de honte.
+une heure de retard est un signe de ponctualité
 une heure se passa
 une histoire et au lit.
 une lettre de Sa Majesté Catholique qui autorise ma mission…
+une liste de mots
+une légère irritation
 une légère pente pour évacuer l'eau
 une légère pression pour fixer la cloison
 une m'echante reine s'apprête à d'evoiler un de ses charmes.
@@ -72801,6 +73110,7 @@ une prostituée à genoux devant lui.
 une préférence pour une technique ancestrale et encore utilisée par de nombreux parents.
 une rampe d'accès permet de descendre plus facilement
 une région “étendue” se contracte tandis qu'une autre grandit.
+une salle d'attente d'hôpital
 une salle de bains sera au rez de chaussée
 une sorte de moyen de communication.
 une sous-couche de peinture sera nécessaire avant la dépose du papier
@@ -72835,15 +73145,24 @@ vénérable comme lui, vint à son secours.
 vibro qui ont commencé à s'implanter dans les zones commerciales.
 viens pas te prendre pour ma mère.
 vieux reistre en son mestier Jattiot deux cent vingt-quatre cent quatre-vingt-trois.
+vingt
 vingt degré au-dessous de glace !
 vingt et un janvier.
 vingt et un juillet mille huit cent soixante-huit.
 vingt et un vingt-quatre.
+vingt-cinq
 vingt-cinq août le jour de sa fête.
+vingt-deux
 vingt-deux et vingt-trois octobre. — Robert Kurtis a tout appris au capitaine Huntly.
 vingt-deux mai mille huit cent soixante-huit.
+vingt-et-un
+vingt-huit
+vingt-neuf
+vingt-quatre
+vingt-sept
 vingt-sept janvier. — Je ne ferme pas l’œil.
 vingt-six quelques mots a un autre
+vingt-trois
 visage au vent et croupe en vue.
 visible des fenêtres de Bombarda.
 visualise ces petits rectangles de beurre qu'on sert dans les petits déjeuners.
@@ -72875,6 +73194,7 @@ vous avez un niveau pour vérifier le sol
 vous aviez pas à dégainer sur notre territoire.
 vous connaissez en grande partie le cours de l’Orange ?
 vous conviendrait-il de faire aujourd’hui une excursion sous-marine ?
+vous devez arriver à la surmonter
 vous devez choisir le papier peint
 vous devez couper l'électricité pour ajouter une nouvelle prise
 vous devez faire attention aux types de raccord pour la maison
@@ -73379,6 +73699,7 @@ y'en a un qui se dégage du lot.
 Ça paraît barré, comme ça…
 Ça part souvent d'un bon sentiment.
 Ça part souvent d’un bon sentiment.
+Ça peut être un petit pincement
 Ça pisse le sang partout dans la cuisine.
 Ça pousse trop au crime de la formule pour la formule.
 Ça prenait plus longtemps de se faire faire un vrai passeport !
@@ -73548,6 +73869,7 @@ y'en a un qui se dégage du lot.
 Être Descendante a ses petits avantages.
 Être content de servir
 Être la locomotive en vue d’un tunnel est en soi pénétrant.
+Être libre, c'est être capable de lutter
 Être mère et sourde demande des aménagements.
 à Naples les restaurants sont vraiment pas chers.
 à bien y songer Dans une bonne histoire.
