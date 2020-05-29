@@ -211,6 +211,7 @@ improve-audio = Informationerne på din profil forbedrer de lyddata, der bruges 
 ## What's public
 
 whats-public = Hvad er offentligt?
+email-not-public = Vi offentliggør ikke din mailadresse.
 username-email-not-demographic = Dit brugernavn og din mailadresse vil ikke blive forbundet med de offentliggjorte data.
 
 ## Speak & Listen Shortcuts
@@ -324,6 +325,7 @@ file_too_large = Den valgte fil er for stor
 manage-subscriptions = Håndter abonnementer
 email-already-used = Mailadressen bruges allerede af en anden konto
 add-language = Tilføj sprog
+change-email-setings = Skift din mailadresse via Indstillinger under Login-identitet
 
 ## FAQ
 
@@ -341,6 +343,7 @@ faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
 faq-how-calc-hours-q = Hvordan bliver timerne udregnet af Common Voice?
 faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige længde af hver optagelse, og ganger det antal med det samlede antal optagelser på tværs af alle sprog.
+faq-why-not-ask-read-q = Hvorfor beder I ikke folk om at læse op fra bøger eller Wikipedia-artikler på forskellige sprog?
 faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt som muligt, har vi besluttet kun at tillade tekst, der er tilgængeligt under en Creative Commons (CC0) licens. Brugen af CC0-standarden betyder, at det er sværere at finde og indsamle tekst, men tillader at alle kan bruge datasættet uden brugsbegrænsninger eller tilladelse fra Mozilla. I sidste ende ønsker vi at gøre det flersprogede datasæt så nyttigt som muligt for alle, herunder forskere, universiteter, iværksættere, regeringer, sociale formål og hobbyfolk.
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
 faq-is-account-public-q = Er mine kontooplysninger offentlige?
@@ -570,9 +573,32 @@ everyone = Alle
 contribution-activity = Bidragsaktivitet
 recorded-clips = Optagede klip
 validated-clips = Validerede klip
+set-visibility = Indstil min synlighed
 
 ## Custom Goals
 
+both-speak-and-listen = Begge
+both-speak-and-listen-long = Begge (tale og lytte)
+daily-goal = Dagligt mål
+weekly-goal = Ugentlig mål
+easy-difficulty = Let
+average-difficulty = Middel
+difficult-difficulty = Svært
+pro-difficulty = Pro
+want-to-continue = Vil du fortsætte?
+finish-editing = Færdiggør redigering først?
+help-reach-hours = Hjælp med at opnå { NUMBER($hours) } timer på { $language } med et personligt mål
+set-a-goal = Sæt et mål
+cant-decide = Kan du ikke beslutte dig?
+how-many-per-day = Godt! Hvor mange klip pr. dag?
+how-many-a-week = Godt! Hvor mange klip pr. uge?
+which-goal-type = Vil du tale, lytte eller begge dele?
+n-clips = { NUMBER($count) } klip
+confirm-goal = Bekræft mål
+weekly-goal-created = Dit ugentlige mål er oprettet
+daily-goal-created = Dit daglige mål er oprettet
+track-progress = Følg dit fremskridt her og på din statistikside.
+share-goal = Del mit mål
 
 ## Profile Delete
 
