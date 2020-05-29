@@ -735,7 +735,7 @@ show-ranking = মোৰ ৰেংকিং দেখুৱাওঁক
 ## Custom Goals
 
 get-started-goals = লক্ষ্যবোৰৰ সৈতে আৰম্ভ হৈ যাওঁক
-create-custom-goal = এটা অনুকূল লক্ষ্য সৃষ্টি কৰক
+create-custom-goal = এটা কাষ্টম লক্ষ্য সৃষ্টি কৰক
 both-speak-and-listen = দুয়োটা
 both-speak-and-listen-long = দুয়োটা (কথা কওঁক আৰু শুনক)
 daily-goal = দৈনিক লক্ষ্য
