@@ -473,6 +473,7 @@ request-language-form-language =
 request-language-success-title = Din anmodning om et nyt sprog er modtaget. Tak!
 request-language-success-content = Vi kontakter dig snart med oplysninger om, hvordan du tilføjer dit sprog til Common Voice.
 select-language = Vælg et sprog...
+other-language = Andet sprog
 
 ## Languages Overview
 
@@ -567,12 +568,15 @@ validations =
 
 your-languages = Dine sprog
 toward-next-goal = Til næste mål
+clips-you-recorded = Klip, du har optaget
+clips-you-validated = Klip, du har valideret
 stats = Statistik
 you = Dig
 everyone = Alle
 contribution-activity = Bidragsaktivitet
 recorded-clips = Optagede klip
 validated-clips = Validerede klip
+total-approved = Godkendt i alt
 set-visibility = Indstil min synlighed
 
 ## Custom Goals
