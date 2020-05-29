@@ -82,6 +82,7 @@ kpv = Komi
 ku = Kurdisk
 kw = Cornisk
 ky = Kirgisisk
+lg = Ganda
 lij = Ligurisk
 lt = Litauisk
 lv = Lettisk
@@ -540,7 +541,9 @@ listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det g
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
 record-button-label = Optag din stemme
 share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
+keep-track-profile = Hold styr på dine fremskridt med en profil
 login-to-get-started = Log ind eller tilmeld dig for at komme i gang
+target-segment-learn-more = Læs mere
 
 ## Reporting
 
