@@ -528,6 +528,7 @@ record-again-instruction = Fremragende! <recordIcon></recordIcon> Optag dit næs
 record-again-instruction2 = Fortsæt det gode arbejde, optag igen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den sidste!
 review-tooltip = Godkend og optag klip her efterhånden
+share-clip = Del dit klip
 review-instruction = Godkend og optag klip igen hvis nødvendigt
 record-submit-tooltip = { $actionType } indsend når du er klar
 clips-uploaded = Optagelser uploaded
@@ -540,6 +541,8 @@ listen-instruction = { $actionType } <playIcon></playIcon> udtalte de sætningen
 listen-again-instruction = Godt arbejde! <playIcon></playIcon> Lyt igen når du er klar
 listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det gode arbejde!
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
+listen-empty-state = Der er ikke flere klip at validere på dette sprog...
+speak-empty-state = Der er ikke flere sætninger at optage på dette sprog...
 record-button-label = Optag din stemme
 share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
 keep-track-profile = Hold styr på dine fremskridt med en profil
@@ -548,11 +551,14 @@ target-segment-learn-more = Læs mere
 
 ## Reporting
 
+report-ask = Hvilke problemer oplever du med denne sætning?
 report-offensive-language = Stødende sprogbrug
+report-offensive-language-detail = Sætningen har respektløst eller stødende sprog.
 report-different-language = Andet sprog
 report-different-language-detail = Det er skrevet på et andet sprog end det, jeg taler.
 report-difficult-pronounce = Svær at udtale
 report-difficult-pronounce-detail = Det indeholder ord eller sætninger, der er svære at læse eller udtale.
+report-offensive-speech-detail = Klippet har respektløst eller stødende sprog.
 report-other-comment =
     .placeholder = Kommentar
 continue = Fortsæt
