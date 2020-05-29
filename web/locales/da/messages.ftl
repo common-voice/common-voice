@@ -335,7 +335,7 @@ faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</
 faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
-faq-do-want-native-q = { $lang } er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
+faq-do-want-native-q = Dansk er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
 faq-why-different-speakers-q = Hvorfor har i brug for så mange forskellige stemmer per sprog?
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
@@ -370,6 +370,9 @@ about-nav-partners = Partnere
 about-nav-get-involved = Bliv involveret
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kunstig intelligens
+mycroft-description =
+    Mycroft er verdens første open source-assistent.
+    Mycroft kan afvikles alle steder - på en computer, i en bil eller på en Raspberry Pi.
 
 ## Glossary
 
@@ -418,6 +421,7 @@ size = Størrelse
 cv-license = Licens
 audio-format = Lydformat
 number-of-voices = Antal stemmer
+splits = Fordeling
 email-to-download = Indtast mailadresse for at hente
 confirm-size = Du er parat til at hente <b>{ $size }</b>
 size-gigabyte = GB
@@ -433,9 +437,11 @@ data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og d
 data-other-voxforge-description = VoxForge blev startet for at indsamle transskriberet tale til brug for frie og open source talegenkendelses-systemer.
 data-other-tatoeba-description = Tatoeba er en stor database af sætninger, oversættelser og indtalt lyd til brug for sprogindlæring. Denne filhentning indeholder indtalt engelsk optaget af fællesskabet bag Tatoeba.
 go-discourse = Gå til Discourse
+go-languages-page = Gå til sprogsiden
 more = Mere
 close = Luk
 download = Hent
+dataset-version = Version
 
 ## Download Modal
 
@@ -463,6 +469,7 @@ request-language-form-language =
     .label = Sprog
 request-language-success-title = Din anmodning om et nyt sprog er modtaget. Tak!
 request-language-success-content = Vi kontakter dig snart med oplysninger om, hvordan du tilføjer dit sprog til Common Voice.
+select-language = Vælg et sprog...
 
 ## Languages Overview
 
@@ -521,9 +528,18 @@ listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det g
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
 record-button-label = Optag din stemme
 share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
+login-to-get-started = Log ind eller tilmeld dig for at komme i gang
 
 ## Reporting
 
+report-offensive-language = Stødende sprogbrug
+report-different-language = Andet sprog
+report-different-language-detail = Det er skrevet på et andet sprog end det, jeg taler.
+report-difficult-pronounce = Svær at udtale
+report-difficult-pronounce-detail = Det indeholder ord eller sætninger, der er svære at læse eller udtale.
+report-other-comment =
+    .placeholder = Kommentar
+continue = Fortsæt
 
 ## Goals
 
