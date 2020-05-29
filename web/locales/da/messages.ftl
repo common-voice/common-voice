@@ -221,6 +221,7 @@ improve-audio = Informationerne på din profil forbedrer de lyddata, der bruges 
 
 whats-public = Hvad er offentligt?
 email-not-public = Vi offentliggør ikke din mailadresse.
+recordings-and-locale-public = Antallet af optagelser og hvilke sprog du bidrager til vil være offentligt.
 username-email-not-demographic = Dit brugernavn og din mailadresse vil ikke blive forbundet med de offentliggjorte data.
 
 ## Speak & Listen Shortcuts
