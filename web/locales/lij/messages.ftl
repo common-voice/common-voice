@@ -58,7 +58,6 @@ fy-NL = Frisiàn
 ga-IE = Irlandéize
 gl = Galiçiàn
 he = Ebràico
-hi-IN = Hindi
 hr = Croâto
 hsb = Sòrabo âto
 hu = Ungheréize
@@ -210,7 +209,6 @@ whats-public = Quæ dæti són pùblici?
 email-not-public = No rendiêmo o teu indirìsso de pòsta eletrònica pùblico.
 recordings-and-locale-public = O nùmero de registraçioìn e e léngoe a-e quæ contriboìsci saiàn pùblici.
 username-optin-public = Ti peu çèrne de rénde o teu nómme uténte pùblico ò anònimo.
-demographic-deidentified = E informaçioìn personæ fornîæ facoltativaménte (prezénpio etæ, sèsso, léngoa e acénto) són de-identificæ da-e teu registraçioìn e no saiàn réize pùbliche in sciô teu profî.
 username-email-not-demographic = O teu nómme uténte e indirìsso de pòsta eletrònica no saiàn asociæ a-i dæti pùblici.
 
 ## Speak & Listen Shortcuts
@@ -308,6 +306,12 @@ skip-submission-description = Dòppo avéi sciacòu Spedìsci inta a spediçiòn
 skip-submission-note = Nòtta: saiâ in tùtti i câxi necesâio seleçionâ Pàrla ò Sénti pe modificâ o tîpo de contribûto.
 off = Asmòrta
 on = Metti in fonçion
+retry-voice-wave-recording = PREUVA TORNA
+re-record = REGISTRA TORNA
+delete-voice = SCANCELLA
+recording-voice-wave = Registraçion
+ready-to-upload = CAREGA
+cancel-avatar-clip-recording = ANULLA
 browse-file-title = Càrega 'na föto
 browse-file = Rebéla e mòlla òpû <browseWrap>sfêuggia</browseWrap>
 connect-gravatar = Conétti con Gravatar
@@ -358,6 +362,12 @@ faq-what-determine-identity-q = Cöse scignificâ che o l'é proibîo de «deter
 about-speak = Parla
 about-yes-votes = ≥ 2 voti Sci
 about-no-votes = ≥ 2 voti No
+about-nav-why-common-voice = Perché ?
+about-nav-how-it-works = Comme ?
+about-nav-partners = Partner
+about-nav-get-involved = Parteçipa
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Inteligensa Artifiçiâ
 
 ## Glossary
 
@@ -447,6 +457,7 @@ ready-to-validate = T'ê prónto a convalidâ e frâze?
 more = Âtro
 close = Særa
 download = Descàrega
+dataset-version = Verscion
 
 ## Download Modal
 
@@ -509,7 +520,6 @@ contribute-more = T'ê prónto a fâne ancón { $count }?
 record-cta = Inàndia a registraçión
 record-platform-not-supported = A piatafórma in ûzo a no l'é atoalménte suportâ.
 record-platform-not-supported-desktop = In sce computer da scrivanîa ti peu descaregâ l'ùrtima versción:
-record-platform-not-supported-ios = I uténti de <bold>iOS</bold> pêuan descaregâ a nòstra aplicaçión de bàdda:
 record-must-allow-microphone = L'é necesâio consentî l'acesso a-o micròfono do dispoxitîvo.
 record-no-mic-found = Inposcìbile trovâ o micròfono.
 record-error-too-short = A registraçión a l'é tròppu brêve.
@@ -535,12 +545,19 @@ listen-instruction = { $actionType }<playIcon></playIcon> L'àn dîta bèn a fr�
 listen-again-instruction = Òtimo travàggio! <playIcon></playIcon> Sénti tórna quànde t'ê prónto
 listen-3rd-time-instruction = Dôe fæte <playIcon></playIcon>, avànti 'n'âtra!
 listen-last-time-instruction = <playIcon></playIcon>L'ùrtima!
-nothing-to-validate = No émmo registraçioìn da convalidâ in sta léngoa, agiùtine registràndo quàrche frâze.
 record-button-label = Regìstra a teu vôxe
 share-title-new = <bold>Agiùtine</bold> a trovâ âtre vôxe
+target-segment-add-voice = Azonzi a teu voxe
+target-segment-learn-more = Atre informaçioin
 
 ## Reporting
 
+report = Denunçia
+report-title = Manda 'na denucia
+report-other-comment =
+    .placeholder = Comento
+success = Operaçion ariescia
+continue = Vanni avanti
 
 ## Goals
 
@@ -570,6 +587,7 @@ clips-you-validated = Registraçioìn quæ t'æ convalidòu
 todays-recorded-progress = Progrèsso de Common Voice d'anchêu in scê registraçioìn fæte
 todays-validated-progress = O progrèsso de Common Voice d'ancheu in scê registraçioìn convalidæ
 stats = Statìstiche
+awards = Premmi
 you = Ti
 everyone = Tùtti
 contribution-activity = Contribûti
@@ -578,9 +596,16 @@ recorded-clips = Registraçioìn fæte
 validated-clips = Registraçioìn convalidæ
 total-approved = Totâle aprovòu
 overall-accuracy = Precixón conplescìva
+set-visibility = Inpòsta a mæ vixibilitæ
 
 ## Custom Goals
 
+both-speak-and-listen = L'un e l'atro
+both-speak-and-listen-long = L'un e l'atro (Parla e ascolta)
+easy-difficulty = Façile
+average-difficulty = Medio
+difficult-difficulty = Difiçile
+pro-difficulty = Asperto
 
 ## Profile Delete
 
