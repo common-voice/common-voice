@@ -599,6 +599,7 @@ set-visibility = Indstil min synlighed
 
 ## Custom Goals
 
+create-custom-goal = Sæt dig dit eget mål
 both-speak-and-listen = Begge
 both-speak-and-listen-long = Begge (tale og lytte)
 daily-goal = Dagligt mål
