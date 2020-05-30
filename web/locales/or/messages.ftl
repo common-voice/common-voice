@@ -713,7 +713,7 @@ validations =
 
 your-languages = ଆପଣଙ୍କର ଭାଷାଗୁଡ଼ିକ
 toward-next-goal = ଆଗାମୀ ଲକ୍ଷ୍ୟ ଆଡ଼କୁ
-clips-you-recorded = ଆପଣ ଲିପିବଦ୍ଧ କରିଥିବା ଧ୍ୱନିଗୁଡ଼ିକ
+clips-you-recorded = ଆପଣ ରେକର୍ଡ଼ କରିଥିବା କ୍ଲିପ
 clips-you-validated = ଆପଣ ପରଖିଥିବା କ୍ଲିପ
 todays-recorded-progress = ଧ୍ୱନିରେ ହୋଇଥିବା ଆଜିର Common Voice ପ୍ରଗତି ରେକର୍ଡ ହୋଇଯାଇଛି
 todays-validated-progress = ପରଖା ସରିଥିବା କ୍ଲିପରେ ଆଜିର Common Voice ଅଗ୍ରଗତି
