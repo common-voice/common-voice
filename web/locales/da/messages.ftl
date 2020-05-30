@@ -348,6 +348,7 @@ faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
 faq-do-want-native-q = Dansk er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
+faq-do-want-native-a = Ja, vi vil især gerne have din stemme! En del af formålet med Common Voice er at indsamle så mange forskellige accenter som muligt, så stemmegenkendelsen fungerer lige så godt for alle. Det betyder, at bidrag fra folk med andet- eller fremmedsprog er vigtige.
 faq-why-different-speakers-q = Hvorfor har i brug for så mange forskellige stemmer per sprog?
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
@@ -618,6 +619,8 @@ how-many-a-week = Godt! Hvor mange klip pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?
 n-clips = { NUMBER($count) } klip
 confirm-goal = Bekræft mål
+# LINK will be replaced with the current URL
+goal-share-text = Jeg har lige sat mig et personligt mål for stemmebidrag til #CommonVoice -- vær med og hjælpe med at lære maskiner, hvordan rigtige mennesker taler { $link }
 weekly-goal-created = Dit ugentlige mål er oprettet
 daily-goal-created = Dit daglige mål er oprettet
 track-progress = Følg dit fremskridt her og på din statistikside.
