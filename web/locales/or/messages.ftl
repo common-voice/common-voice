@@ -714,7 +714,7 @@ validations =
 your-languages = ଆପଣଙ୍କର ଭାଷାଗୁଡ଼ିକ
 toward-next-goal = ଆଗାମୀ ଲକ୍ଷ୍ୟ ଆଡ଼କୁ
 clips-you-recorded = ଆପଣ ରେକର୍ଡ଼ କରିଥିବା କ୍ଲିପ
-clips-you-validated = ଆପଣ ପରଖିଥିବା କ୍ଲିପ
+clips-you-validated = ଆପଣ ପରଖି ସାରିଥିବା କ୍ଲିପ
 todays-recorded-progress = ଧ୍ୱନିରେ ହୋଇଥିବା ଆଜିର Common Voice ପ୍ରଗତି ରେକର୍ଡ ହୋଇଯାଇଛି
 todays-validated-progress = ପରଖା ସରିଥିବା କ୍ଲିପରେ ଆଜିର Common Voice ଅଗ୍ରଗତି
 stats = ପରିସଂଖ୍ୟାନ
@@ -735,7 +735,7 @@ show-ranking = ମୋର ranking ଦେଖାନ୍ତୁ
 ## Custom Goals
 
 get-started-goals = ଲକ୍ଷ୍ୟ ସହ ଆରମ୍ଭ କରନ୍ତୁ
-create-custom-goal = ଗୋଟିଏ ପରିବର୍ତ୍ତନଶୀଳ ଲକ୍ଷ୍ୟ ତିଆରି କରନ୍ତୁ
+create-custom-goal = ନିଜ ପସନ୍ଦର ଲକ୍ଷ୍ୟଟିଏ ଧାର୍ଯ୍ୟ କରନ୍ତୁ
 both-speak-and-listen = ଉଭୟ
 both-speak-and-listen-long = ଉଭୟ (କୁହନ୍ତୁ ଏବଂ ଶୁଣନ୍ତୁ)
 daily-goal = ଦୈନିକ ଲକ୍ଷ୍ୟ
