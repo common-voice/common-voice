@@ -402,16 +402,16 @@ faq-how-calc-hours-a = Vi beregner timer ved å anslå den gjennomsnittlige leng
 faq-where-src-from-2-q = Hvor kommer kildeteksten fra?
 faq-where-src-from-2-a = Kildeteksten vår er dels originalbidrag og dels dialog fra allment tilgjengelige filmmanus som <italic>It’s a Wonderful Life</italic>. Du finner kildeteksten vår i denne <githubLink>GitHub-mappen</githubLink>.
 faq-why-not-ask-read-q = Hvorfor ber dere ikke folk om å lese fra bøker eller Wikipediaartikler i forskjellige språk?
-faq-why-not-ask-read-a = For å gjøre Common Voice datasettet så anvendelig som mulig, har vi bestemt oss for å kun tillate kildetekst som er tilgjengelig under en Creative Commons (CC0) lisens. Ved å sette denne standarden blir det vanskeligere å finne og samle inn kildetekst, men det tillater hvem som helst å benytte lyddatasettet som blir resultat, uten bruksrestriksjoner eller autorisering fra Mozilla. Til syvende og sist ønsker vi jo at det flerspråklige datasettet skal være så anvendelig som mulig for alle, inklusive forskere, universiteter, startups, regjeringer, samfunnsnyttige organisasjoner og amatører.
+faq-why-not-ask-read-a = For å gjøre Common Voice-datasettet så anvendelig som mulig, har vi bestemt oss for å kun tillate kildetekst som er tilgjengelig under en Creative Commons (CC0) lisens. Ved å sette denne standarden blir det vanskeligere å finne og samle inn kildetekst, men det tillater hvem som helst å benytte lyddatasettet som blir resultat, uten bruksrestriksjoner eller autorisering fra Mozilla. Til syvende og sist ønsker vi jo at det flerspråklige datasettet skal være så anvendelig som mulig for alle, inklusive forskere, universiteter, nystartede foretak, regjeringer, samfunnsnyttige organisasjoner og amatører.
 faq-why-account-q = Hvorfor bør jeg lage en brukerkonto?
 faq-is-account-public-q = Er informasjonen om min brukerkonto offentlig?
 faq-how-privacy-q = Hvordan garanterer dere anonymitet og personvern for menneskene som har bidratt med sin stemme?
 faq-how-privacy-a = Alle lydklipp i datasettet skrubbes for personidentifiserende informasjon. Når en bidragsyter oppgir demografiske data via sin brukerprofil, frikobles denne informasjonen fra de bidratte lydklippene før de bundles for nedlasting i datasettet. Informasjonen offentligjøres aldri på brukerens profilside.
-faq-what-determine-identity-q = Hva betyr det at jeg ikke kan "fastslå identiteten" til talere i Common Voice datasettet?
+faq-what-determine-identity-q = Hva betyr det at jeg ikke kan «fastslå identiteten» til talere i Common Voice-datasettet?
 faq-what-determine-identity-a =
-    Common Voice datasettet er en åpen og allment tilgjengelig ressurs som kan brukes til å trene et bredt spekter av taleaktiverte applikasjoner. For å beskytte sikkerheten til våre bidragsytere, ber vi alle som laster ned  Common Voice datasettet om å respektere bidragsyteres personvern.
+    Common Voice-datasettet er en åpen og allment tilgjengelig ressurs som kan brukes til å trene et bredt spekter av taleaktiverte applikasjoner. For å beskytte sikkerheten til våre bidragsytere, ber vi alle som laster ned  Common Voice-datasettet om å respektere bidragsyteres personvern.
     
-    Alle lydklipp i datasettet blir skrubbet for personidentifiserende informasjon. Når du laster ned datasettet, godtar du  å ikke forsøke å identifisere noen bidragsyterr. Det betyr at du ikke skal prøve å koble informasjon i datasettet til en bidragsyters personlige opplysninger. Du kan imidlertid bruke datasettet til å trene tale-gjenkjenning, taler-gjenkjenning eller andre typer programmer. For eksempel ved å koble informasjon i datasettet til annen informasjon allerede i datasettet.
+    Alle lydklipp i datasettet blir skrubbet for personidentifiserende informasjon. Når du laster ned datasettet, godtar du å ikke forsøke å identifisere noen bidragsytere. Det betyr at du ikke skal prøve å koble informasjon i datasettet til en bidragsyters personlige opplysninger. Du kan imidlertid bruke datasettet til å trene tale-gjenkjenning, taler-gjenkjenning eller andre typer programmer. For eksempel ved å koble informasjon i datasettet til annen informasjon allerede i datasettet.
 faq-what-is-cv = Hva er Common Voice?
 faq-using-cv = Bruke Common Voice
 faq-description = Common Voice er en del av Mozillas initiativ for å hjelpe maskiner å forstå hvordan virkelige mennesker snakker.
@@ -434,13 +434,13 @@ about-listen-text = Brukere validerer nøyaktigheten av bidratte lydklipp og kon
 about-is-it-valid = Er lydklippet gyldig?
 about-is-it-valid-text = Et lydklipp er markert som «gyldig» når en bruker gir det en «Ja»-stemme.
 about-yes-votes = ≥ 2 Ja-stemmer
-about-yes-votes-text = For å komme med i Common Voice datasettet må et lydklipp bli godkjent av to separate brukere.
+about-yes-votes-text = For å komme med i Common Voice-datasettet må et lydklipp bli godkjent av to separate brukere.
 about-no-votes = ≥ 2 Nei-stemmer
 about-no-votes-text = Når en bruker underkjenner et lydklipp, blir det returnert til køen. Om det blir underkjent en gang til blir lydklippet sendt på lydklippfyllinga.
-about-dataset-new = Common Voice datasettet
-about-dataset-new-text = Common Voice datasettet inneholder hundretusenvis av lydklipp som hjelper utviklere med å lage talegjenkjenningsverktøy.
+about-dataset-new = Common Voice-datasettet
+about-dataset-new-text = Common Voice-datasettet inneholder hundretusenvis av lydklipp som hjelper utviklere med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Lydklippfyllinga
-about-clip-graveyard-text = Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
+about-clip-graveyard-text = Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
 about-partners = Partnere
 about-become-a-partner = Bli en partner
 about-partnership = Common Voice er et samarbeidsprosjekt, og vi er avhengig av vårt samfunn av partnere og bidragsytere for å bygge det største åpen-kilde datasettet av stemmer noensinne.  Vi vil gjerne få takke følgende personer og organisasjoner for deres bistand med prosjektet:
@@ -494,7 +494,7 @@ data-other-title = Andre stemmedatasett...
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-bundle-button = Last ned datasettene
-data-bundle-description = Common Voice datasettet pluss alle andre stemmedatasett over.
+data-bundle-description = Common Voice-datasettet pluss alle andre stemmedatasett over.
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 review-terms = Ved å bruke Common Voice, godkjenner du <termlink>vilkårene</termlink> og <privacyLink>personvernbestemmelsen</privacyLink> vår
@@ -528,32 +528,32 @@ audio-format = Lydformat
 number-of-voices = Antall stemmer
 splits = Deler
 email-to-download = Skriv inn e-post for å laste ned
-why-email = <b> Hvorfor en e-postadresse? </b> Vi kan komme til å måtte kontakte deg i fremtiden om endringer i datasettet, en e-postadresse gir oss et kontaktpunkt.
+why-email = <b>Hvorfor en e-postadresse?</b> Vi kan komme til å måtte kontakte deg i fremtiden om endringer i datasettet, en e-postadresse gir oss et kontaktpunkt.
 confirm-size = Du er forberedt på å starte nedlasting av <b> { $size } </b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b> Du sier deg enig </b> i å ikke prøve å identifisere talere i Common Voice-datasettet
+confirm-no-identify = <b>Du sier deg enig</b> i å ikke prøve å identifisere talere i Common Voice-datasettet
 download-language = Last ned { $language }
 validated-hours = Validerte timer
 recorded-hours = Innspilte timer
 whats-inside = Hva inneholder Common Voice-datasettet?
 dataset-description-hours =
-    Hver oppføring i datasettet består av en unik mp3-fil og en tilhørende tekstfil. Mange av de <b> { $total } </b> timer som er spilt inn i datasettet inkluderer også demografiske metadata som alder, kjønn og aksent som kan bidra til å trene nøyaktigheten til talegjenkjenningsmotorer.
+    Hver oppføring i datasettet består av en unik mp3-fil og en tilhørende tekstfil. Mange av de <b>{ $total }</b> timer som er spilt inn i datasettet inkluderer også demografiske metadata som alder, kjønn og aksent som kan bidra til å trene nøyaktigheten til talegjenkjenningsmotorer.
     
-    Datasettet består for øyeblikket av <b> { $valid } </b> validerte timer på <b> { $languages } </b> språk, men vi legger hele tiden til flere stemmer og språk. Ta en titt på <languagesLink> Språk-siden </languagesLink> for å be om et språk eller begynne å bidra.
+    Datasettet består for øyeblikket av <b>{ $valid }</b> validerte timer på <b>{ $languages }</b> språk, men vi legger hele tiden til flere stemmer og språk. Ta en titt på <languagesLink>språksiden</languagesLink> for å be om et språk eller begynne å bidra.
 want-dataset-update = Vil du ha en oppdatering når vi slipper en ny versjon av Common Voice-datasettet? Abonner på vårt nyhetsbrev.
 subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du tilbakemeldinger?
-deepspeech-info = Common Voice-datasettet komplementerer Mozillas åpen kildekode stemmegjenkjenningsmotor Deep Speech, som du kan bruke til å bygge talegjenkjenningsapplikasjoner. Les vår <githubLink> Github-oversikt </githubLink> eller bli med på <discourseLink> DeepSpeech Discourse </discourseLink> for å lære hvordan du kommer i gang.
+deepspeech-info = Common Voice-datasettet komplementerer Mozillas åpen kildekode stemmegjenkjenningsmotor Deep Speech, som du kan bruke til å bygge talegjenkjenningsapplikasjoner. Les vår <githubLink>Github-oversikt</githubLink> eller bli med på <discourseLink>DeepSpeech Discourse</discourseLink> for å lære hvordan du kommer i gang.
 common-voice-info-new = Har du spørsmål om Common Voice? Ideer til forbedringer eller tilbakemeldinger om et spesifikt språk? Bli med på vårt <discourseLink> Discourse forum </discourseLink> og gi oss beskjed.
 data-other-librispeech-description = LibriSpeech er et korpus på omtrent 1000 timer med 16 kHz lest engelsk tale hentet fra innleste lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM-korpuset ble produsert av presentasjoner og deres transkripsjoner tilgjengelig på TED-nettstedet.
 data-other-voxforge-description = VoxForge ble satt opp for å samle transkribert tale for bruk med fri og åpen kildekode talegjenkjenningsmotorer.
 data-other-tatoeba-description = Tatoeba er en stor database med setninger, oversettelser og tale for bruk i språkopplæring. Denne nedlastingen inneholder engelsk som er spilt inn av deres samfunn.
-your-feedback = Har du ideer til hvordan vi kan gjøre Common Voice datasettet bedre? Gi oss beskjed på Discourse
+your-feedback = Har du ideer til hvordan vi kan gjøre Common Voice-datasettet bedre? Gi oss beskjed på Discourse
 go-discourse = Gå til Discourse
 missing-language = Ser du ikke språket ditt i datamengden? For å be om et språk, gå til språksiden vår.
 go-languages-page = Gå til Språk-siden
@@ -785,10 +785,10 @@ share-goal = Del målet mitt
 
 ## Profile Delete
 
-delete-q = Vil du at lydklippene dine også slettes, eller vil du helst beholde de i Common Voice datasettet?
+delete-q = Vil du at lydklippene dine også slettes, eller vil du helst beholde de i Common Voice-datasettet?
 keep = Behold
 remove = Fjern
-keep-info = Dine anonyme stemmeopptak vil forbli i Common Voice datasettet. Når du har slettet profilen din, vil du ikke lenger kunne sende inn en forespørsel om å fjerne opptakene dine fra datasettet
+keep-info = Dine anonyme stemmeopptak vil forbli i Common Voice-datasettet. Når du har slettet profilen din, vil du ikke lenger kunne sende inn en forespørsel om å fjerne opptakene dine fra datasettet
 remove-info = Vi vil gjennomgå forespørselen din om å fjerne stemmeavspillingen fra datasettet. Hvis forespørselen din blir godkjent, kontakter vi de som har lastet ned datasettet, og ber om at også de fjerner lydklippene dine.
 why-delete-recordings =
     Common Voice lydklipp brukes av akademikere, små bedrifter og talegjenkjenningsentusiaster for å hjelpe til med å trene og øke offentlig tilgjengelige ressurser som stemmemodeller.
