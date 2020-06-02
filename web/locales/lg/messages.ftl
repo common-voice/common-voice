@@ -340,30 +340,84 @@ faq-how-get-q = Nfuna ntya bwiino wa Common Voice
 faq-when-release2-q = Munatuusa ddi bwiino wa Common Voice mu nnimi endala
 faq-what-cv-and-deepspeech-q = Kiki eky'enjawulo wakati wa Common Voice ne Deep Speech?
 faq-is-goal-assistant-q = Okuzimba voice assistant ky'ekigobero kya Common Voice?
+faq-why-different-speakers-q = Lwaki twagala abogezi bangi kubuli lulimi?
+faq-why-my-lang-q = Lwaki olulimi lwange teluriimu?
+faq-where-src-from-2-q = Ensibuko y'ebigambo evaawa?
+faq-why-not-ask-read-q = Lwaki tetubuuza bantu kusoma mu bitabo oba Wikipedia ezili mu nnimi endala?
+faq-is-account-public-q = Ebinfaako mu akawunti yange bilabika mu lwatu?
+faq-what-is-cv = Common Voice Ky'ekiki?
 
 ## ABOUT US
 
+about-title = Lwaki Common Voice?
+how-does-it-work-title = Ekola etya?
+about-speak = Yogera
+about-listen = Wulira
+about-clip-graveyard = Amalaalo G'obuloboozi
+about-get-involved = Twegatteko
+about-nav-why-common-voice = Lwaki?
+about-nav-how-it-works = Batya?
+about-nav-get-involved = Twegatteko
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
 
 ## NotFound
 
+notfound-title = Tekisangidwa
 
 ## Data
 
+data-download-yes = Ye
+data-download-deny = Nedda
+data-other-goto = Genda mu { $name }
+terms-agree = Nzikiriza
+terms-disagree = Si kkiriza
+review-rerecord = Likodinga buto
+review-keep-recordings = Teleka ebilikodinge
+review-delete-recordings = Sazaamu ebilikodinge byange
 
 ## Datasets Page
 
+language = Olulimi
+# File size in gigabytes
+size = Obunene
+cv-license = Lukusa
+number-of-voices = Omuwendo gw'amaloboozi
+email-to-download = Saamu Email Okudawunulodinga
+why-email = <b>Lwaki email?</b> Bwetuba tuyagade okukutukirira nga waliwo ebicuse ku dataset, email etuyamba okukwatagana nawe.
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Download { $language }
+go-languages-page = Genda Ku Pegi y'ennimi
+more = Ebisingawo
+close = Ggalawo
+download = Download
+dataset-version = Enkola
 
 ## Download Modal
 
+download-form-email =
+    .label = Saamu email yo
+    .value = Webale, ojja ku tuwuliza.
+download-no = Nedda Webale
 
 ## Contact Modal
 
+contact-title = Foomu Y'okutukirira
+contact-form-name =
+    .label = Erinnya
+contact-form-message =
+    .label = Obubaka
+contact-required = *kyetagisa
 
 ## Request Language Modal
 
+request-language-title = Okusaba Ennimi
+request-language-form-language =
+    .label = Olulimi
+request-language-success-title = Olulimi lusabidwa, webale.
 
 ## Languages Overview
 
