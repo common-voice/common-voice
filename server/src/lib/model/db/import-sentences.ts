@@ -9,6 +9,11 @@ import { redis, useRedis } from '../../redis';
 const CWD = process.cwd();
 const SENTENCES_FOLDER = path.resolve(CWD, 'server/data/');
 
+// for sources with sentences that are likely to have repeats across
+// locales, we want to generate a unique hash for each locale + sentence,
+// not just each sentence
+const LOCALE_HASH_SOURCES = ['singleword-benchmark'];
+
 function print(...args: any[]) {
   args.unshift('IMPORT --');
   console.log.apply(console, args);
@@ -106,7 +111,7 @@ async function importLocaleSentences(
               VALUES ${sentences
                 .map(sentence => {
                   return `(${[
-                    source == 'singleword-benchmark'
+                    LOCALE_HASH_SOURCES.includes(source)
                       ? hashSentence(localeId + sentence)
                       : hashSentence(sentence),
                     sentence,
@@ -165,6 +170,7 @@ export async function importSentences(pool: any) {
       DELETE FROM sentences
       WHERE id NOT IN (SELECT original_sentence_id FROM clips) AND
             id NOT IN (SELECT sentence_id FROM skipped_sentences) AND
+            id NOT IN (SELECT sentence_id FROM taxonomy_entries) AND
             version <> ?
     `,
     [version]
