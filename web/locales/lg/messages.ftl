@@ -418,12 +418,46 @@ request-language-title = Okusaba Ennimi
 request-language-form-language =
     .label = Olulimi
 request-language-success-title = Olulimi lusabidwa, webale.
+request-language-success-content = Tujja kusindikira obubaka n'ebirala ebifa ku kugatta olulimi lwo ku Common Voice eddako.
+select-language = Londa olulimi...
+other-language = Olulimi Olulala
 
 ## Languages Overview
 
+languages-show-more = Laba Ebirala
+languages-show-less = Laba bitono
+language-meter-in-progress = Wekituuse
+language-total-progress = Omuwendo
+language-search-input =
+    .placeholder = Nnonya
+language-speakers = Abogezi
+sentences = Emboozi
 
 ## Contribution
 
+action-click = Nyiga
+action-tap = Koona
+contribute = Yambako
+listen = Wuliriza
+skip = Buuka
+contribute-more =
+    { $count ->
+        [one] Wetegese okukola ekilara { $count }?
+       *[other] Wetegese okukola ebilara { $count }?
+    }
+record-cta = Tandika okulikodinga
+record-platform-not-supported = Platform yo tenaba k'olebwa mu kaseera kano, tusonyiwe.
+record-no-mic-found = Akazindaalo tekasangidwa.
+record-cancel = Sazaamu okulikodinga buto
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> nga omaze
+record-three-more-instruction = Wabulayo busatu!
+record-last-instruction = <recordIcon></recordIcon> Ekisembayo!
+share-clip = Ggaba akaloboozi ko
+share-common-voice = Sheyaringa Common Voice
+record-submit-tooltip = { $actionType } sindika nga wetegese
+record-abort-title = Sooka omale okulekodinga?
+record-abort-continue = Maliriza okulikodinga
+record-abort-delete = Mala atte Osazeemu obuloboozi
 
 ## Reporting
 
