@@ -32,12 +32,13 @@
     width: auto;
     padding: 1rem 2.3125rem;
 
-    & path {
+    path {
         fill: var(--white);
     }
 
     &:hover {
-        & path {
+        background-color: var(--white);
+        path {
             fill: var(--black);
         }
     }
