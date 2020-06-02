@@ -1,5 +1,5 @@
 import * as React from 'react';
-import robot from './assets/Red.svg';
+import robot from './assets/red-robot.svg';
 import './intro.css';
 import { Localized, withLocalization } from 'fluent-react/compat';
 import { LinkButton } from '../../ui/ui';
