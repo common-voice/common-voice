@@ -480,15 +480,50 @@ report-different-language-detail = Kiwandiikiddwa mu lulimi olulala ku lwe njoge
 report-difficult-pronounce = Kizibu okwogera
 report-difficult-pronounce-detail = Mulimu ebigambo ebizibu okusoma oba okwogera.
 report-offensive-speech = Enjogera nswevu
+report-offensive-speech-detail = Kano akaloboozi kalimu ebigambo ebibi oba ebiluma.
+continue = Weyongereyo
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Olunaku
+       *[other] Ennaku
+    }
+recordings =
+    { $count ->
+        [one] Ekilikodinge
+       *[other] Ebilikodinge
+    }
 
 ## Dashboard
 
+your-languages = Ennimi Zo
+toward-next-goal = Sembera ekigobero ekiddirira
+clips-you-recorded = Obuloboozi Bw'olikodinze
+you = Gwe
+everyone = Buli omu
+top-contributors = Abasinga Okuyamba
+recorded-clips = Obuloboozi Obulikodinge
+show-ranking = Ndaga wendi
 
 ## Custom Goals
 
+get-started-goals = Tandika ku bigobero
+both-speak-and-listen = By'ombi
+daily-goal = Ekigobero Kya buli lunaku
+weekly-goal = Ekigobero Kya Buli Wiiki
+easy-difficulty = Nyangu
+difficult-difficulty = Nzibu
+pro-difficulty = Nkugu
+lose-goal-progress-warning = Bw'okyusa ekigobero kyo, oyinza okufirwa w'otuuse.
+want-to-continue = Oyagala okweyongerayo?
+finish-editing = Sooka omale by'okyuusa?
+lose-changes-warning = Okugenda kati kitegeeza nti ojja kufiirwa by'okyuusiza
+build-custom-goal = Zzimba eby'okukola
+set-a-goal = Tereeza ekigobero
+cant-decide = Tosobola kusalawo?
+how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
 
 ## Profile Delete
 
