@@ -458,9 +458,28 @@ record-submit-tooltip = { $actionType } sindika nga wetegese
 record-abort-title = Sooka omale okulekodinga?
 record-abort-continue = Maliriza okulikodinga
 record-abort-delete = Mala atte Osazeemu obuloboozi
+listen-3rd-time-instruction = 2 biwedde, kkola nga bw'otyo!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Ekisembayo!
+speak-empty-state = Emboozi ez'okulikodinga mulirimi luno zituweddeko...
+speak-empty-state-cta = Waayo ku mboozi
+record-button-label = Likodinga eddoboozi lyo
+target-segment-add-voice = Gattako Eddoboozi lyo
+target-segment-learn-more = Manya Ebisingawo
 
 ## Reporting
 
+report = Lloopa
+report-title = Sindika alipoota
+report-ask = Bizibu ki by'oli okusanga ku mboozi eno?
+report-offensive-language = Obuswevu
+report-offensive-language-detail = Eno emboozi elimu enjogera embi oba ey'obuswevu.
+report-grammar-or-spelling = Ensobi mu njogera / empandiika
+report-grammar-or-spelling-detail = Emboozi elina ensobi mu njogera oba empandiika.
+report-different-language = Olulimi olulala
+report-different-language-detail = Kiwandiikiddwa mu lulimi olulala ku lwe njogera.
+report-difficult-pronounce = Kizibu okwogera
+report-difficult-pronounce-detail = Mulimu ebigambo ebizibu okusoma oba okwogera.
+report-offensive-speech = Enjogera nswevu
 
 ## Goals
 
