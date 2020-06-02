@@ -176,10 +176,12 @@ wall-of-text-start =
     Voice eli natural, voice muntu. Ky'ova olaba twenyumigizamu nnyo okukola tekinologiya akozesebwa
     ow'eddoboozi ku masiini zaffe. Naye okukola sisitimu zzino, twetaga data mungi
     ow'amaloboozi.
+show-wall-of-text = Soma Ebisingawo
 vote-yes = Ye
 vote-no = Nedda
 toggle-play-tooltip = Nyiga { shortcut-play-toggle } okukyusa enzanya
 speak-subtitle = Tuwe eddoboozi lyo
+speak-goal-text = Oboloboozi obulikodinge
 hours-recorded = Essawa Ezilekodingibwa
 hours-validated = Essawa Ezikakasiddwa
 voices-online = Amaloboozi agali online kati
@@ -211,10 +213,15 @@ email-subscription-title-new = Ffuna ebifa ku Common Voice, ebijjukizo n'ebwetut
 ## Account Benefits
 
 benefits = W'ofuniramu
+join-newsletter = Bwoba oyagade, weyunge kw'abo abafuna email ez'ebipya n'ebifa ku pulojekiti.
 
 ## What's public
 
+whats-public = Olwatu kye ki?
 email-not-public = Tetujja kulaga balala email yo
+recordings-and-locale-public = Omuwendo gw'ebyo by'olikodinze n'ennimi zz'owadeyo bijja kulabika mu lwatu.
+username-optin-public = Osobola okulonda okulaga abalala erinnya ly'okozesa oba okulikweka.
+username-email-not-demographic = Erinnya lyokozesa ne email tebijakukolaganyizibwa ne bwiino efulumidwa.
 
 ## Speak & Listen Shortcuts
 
@@ -261,6 +268,8 @@ english = Luzungu
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Erinya ly'okozesa
 profile-form-native-language =
     .label = Olulimi lwe wamwe
 profile-form-additional-language =
@@ -291,7 +300,7 @@ edit-profile = Kyusa Profayiro
 profile-create-success = Kulika, profayiro ekolebwa
 profile-close = Ggalawo
 thanks-for-account = Webale kukakasa akawunti yo, kati katuzimbe profayiro yo.
-why-demographic = Lwaki kino ky'amakulu?
+why-demographic = Lwaaki kino ky'amakulu?
 accept-privacy = Nzikiriza mukozese ebinkwatako nga bwe mu nyonyodde mu <privacyLink>Nkola y'ekyama<privacyLink> ya Mozilla
 accept-privacy-title = Enkola Eyekyama
 login-identity = Login Identity
@@ -317,6 +326,7 @@ browse-file-title = Tekaako akafananyi
 browse-file = Sika osuule oba <browseWrap>Nnonya</browseWrap>
 gravatar_not_found = Tewali gravatar ya email yo esangidwa
 file_too_large = Fayiro gy'olonze nnene nnyo
+manage-subscriptions = Ddunkanya Eby'okwewandiisa
 manage-email-subscriptions = By'ofuna mu email
 email-already-used = Email eno ekozesebwa ku akawunti endala
 add-language = Ggatako olulimi
@@ -326,6 +336,10 @@ add-language = Ggatako olulimi
 faq-title = Bye Basinga Okubuuza
 faq-what-cv-q = Common Voice Ky'ekiki?
 faq-why-important-q = Lwaki kya mugaso?
+faq-how-get-q = Nfuna ntya bwiino wa Common Voice
+faq-when-release2-q = Munatuusa ddi bwiino wa Common Voice mu nnimi endala
+faq-what-cv-and-deepspeech-q = Kiki eky'enjawulo wakati wa Common Voice ne Deep Speech?
+faq-is-goal-assistant-q = Okuzimba voice assistant ky'ekigobero kya Common Voice?
 
 ## ABOUT US
 
