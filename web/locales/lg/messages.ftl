@@ -524,9 +524,21 @@ build-custom-goal = Zzimba eby'okukola
 set-a-goal = Tereeza ekigobero
 cant-decide = Tosobola kusalawo?
 how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
+how-many-a-week = Kilungi! Buloboozi bumeka mu wiiki?
+which-goal-type = Oyagala kw'ogera, Kuwuliriza oba by'ombi?
+n-clips = Obuloobozi { NUMBER($count) }
+confirm-goal = Kakasa Ekigobero
+goal-interval-weekly = Buli wiiki
+share-goal-type-listen = Okuwliriza
+weekly-goal-created = Ekigobero kyo ekya buli wiiki kikolebbwa
+daily-goal-created = Ekigobero kyo ekya buli lunaku kikolebbwa
+share-goal = Sheyaringa ekigobero kyange
 
 ## Profile Delete
 
+keep = Tereka
+remove = Jjako
 
 ## Landing
 
+profile-not-required = Tekyetagisibwa kuba na profayilo okuyamba wadde kya mugaso, laba lwaki wansi awo.
