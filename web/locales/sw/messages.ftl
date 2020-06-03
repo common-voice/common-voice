@@ -147,6 +147,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Nasa sauti/ Acha
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = rekodi upya
+request-language-text = hujaona lugha yako kwenye common voice bado?
 
 ## ProjectStatus
 
