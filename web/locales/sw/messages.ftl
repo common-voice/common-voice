@@ -226,11 +226,14 @@ license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 terms-agree = nakubali
 terms-disagree = Sikubali
+review-submit-title = Hakiki kisha utume
 review-delete-recordings = Futa rekodi zangu
 
 ## Datasets Page
 
 language = lugha
+# File size in gigabytes
+size = Ukubwa
 cv-license = Leseni
 number-of-voices = idadi ya sauti
 splits = Migawanyiko
