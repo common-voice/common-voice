@@ -206,6 +206,7 @@ how-does-it-work-title = inafanyaje kazi
 about-listen = sikiliza
 about-get-involved = Jihusishe
 about-nav-why-common-voice = kwanini?
+about-nav-how-it-works = kivipi?
 about-nav-get-involved = Jihusishe
 
 ## Glossary
@@ -213,6 +214,7 @@ about-nav-get-involved = Jihusishe
 
 ## NotFound
 
+notfound-title = haipatikani
 
 ## Data
 
