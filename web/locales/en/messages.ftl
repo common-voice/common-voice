@@ -811,3 +811,8 @@ help-contribute = You can help build a diverse, open-source dataset by creating 
 login-company = Log In / Sign Up with { $company } email
 profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
 read-more-about = Read more on our About page
+
+## DemoLayout
+demo-get-started = Let's Get Started
+demo-welcome = Welcome to Common Voice
+demo-welcome-subheader = Interested in learning more and contributing to the project?

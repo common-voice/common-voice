@@ -4,6 +4,7 @@ import { Switch, Route, withRouter, Redirect } from 'react-router';
 import { useLocale } from '../locale-helpers';
 import { Spinner } from '../ui/ui';
 import URLS from '../../urls';
+import Intro from '../demo-pages/intro/intro';
 
 function DemoLayout() {
   const [_, toLocaleRoute] = useLocale();
@@ -12,13 +13,7 @@ function DemoLayout() {
     <div>
       <Suspense fallback={<Spinner />}>
         <Switch>
-          <Route
-            exact
-            path={toLocaleRoute(URLS.DEMO)}
-            render={() => {
-              return <h1>in get started</h1>;
-            }}
-          />
+          <Route exact path={toLocaleRoute(URLS.DEMO)} component={Intro} />
           <Route
             exact
             path={toLocaleRoute(URLS.DEMO_DATASETS)}
