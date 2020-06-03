@@ -193,6 +193,7 @@ add-language = ongeza lugha
 
 faq-what-cv-q = common voice ni nini?
 faq-why-important-q = kwanini hii ni ya umuhimu?
+faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
 faq-using-cv = kutumia common voice
 faq-search-for-answers =
