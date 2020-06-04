@@ -364,7 +364,7 @@ class DatasetInfo extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api }: StateTree) => ({
+export const mapStateToProps = ({ api }: StateTree) => ({
   api,
 });
 
