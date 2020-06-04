@@ -39,7 +39,7 @@ const globalStats = {
 
 const DEFAULT_CATEGORY_COUNT = 2;
 
-const Splits = ({
+export const Splits = ({
   category,
   values,
   bundleLocale,
