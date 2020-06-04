@@ -92,7 +92,7 @@ export const Splits = ({
   );
 };
 
-interface PropsFromState {
+export interface PropsFromState {
   api: API;
 }
 
