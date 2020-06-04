@@ -107,6 +107,66 @@ type State = {
   confirmNoIdentify: boolean;
 };
 
+export function getStats(localeStats: any, getString: Function) {
+  const megabytes = localeStats.size / 1024 / 1024;
+  const size =
+    megabytes < 1
+      ? Math.floor(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
+      : megabytes > 1024
+      ? Math.floor(megabytes / 1024) + ' ' + getString('size-gigabyte')
+      : Math.floor(megabytes) + ' ' + getString('size-megabyte');
+
+  const totalHours =
+    localeStats.totalHrs < 1
+      ? Math.floor(localeStats.totalHrs * 100) / 100
+      : Math.floor(localeStats.totalHrs);
+
+  const validHours =
+    localeStats.validHrs < 1
+      ? Math.floor(localeStats.validHrs * 100) / 100
+      : Math.floor(localeStats.validHrs);
+
+  return {
+    size,
+    totalHours,
+    validHours,
+  };
+}
+
+export function renderStats(
+  size: string,
+  bundleLocale: string,
+  totalHours: number,
+  validHours: number
+) {
+  const localeStats = stats.locales[bundleLocale as keyof typeof stats.locales];
+  return Object.entries({
+    size,
+    'dataset-version': (
+      <div className="version">
+        {[bundleLocale, totalHours + 'h', stats.date].join('_')}
+      </div>
+    ),
+    'validated-hr-total': validHours.toLocaleString(),
+    'overall-hr-total': totalHours.toLocaleString(),
+    'cv-license': 'CC-0',
+    'number-of-voices': localeStats.users.toLocaleString(),
+    'audio-format': 'MP3',
+    splits: Object.entries(localeStats.splits)
+      .filter(([, values]) => Object.keys(values).length > 1)
+      .map(([category, values]) => (
+        <Splits key={category} {...{ category, values, bundleLocale }} />
+      )),
+  }).map(([id, value]) => (
+    <li key={id}>
+      <Localized id={id}>
+        <span className="label" />
+      </Localized>
+      <span className="value">{value}</span>
+    </li>
+  ));
+}
+
 class DatasetInfo extends React.Component<Props, State> {
   emailInputRef = React.createRef<HTMLInputElement>();
 
