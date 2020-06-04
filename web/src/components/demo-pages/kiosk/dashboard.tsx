@@ -1,9 +1,5 @@
 import * as React from 'react';
-import {
-  PageContentType,
-  DownloadFormProps,
-  SubscribeFormProps,
-} from './types';
+import { PageContentType } from './types';
 import { withLocalization } from 'fluent-react/compat';
 
 const dashboard = (): PageContentType => {
