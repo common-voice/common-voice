@@ -1,6 +1,7 @@
 " la Dalila " continuaba anclada bajo el Castillo de Ulua
 " la Dalila " quizá permanezca en el puerto:
 "Algo es algo" dijo un calvo al encontrar un peine
+?Habrá visitado ella?
 A Dios lo que es de Dios
 A Dios pongo por testigo de que jamás volveré a pasar hambre
 A Dios rogando y con el mazo dando
@@ -316,6 +317,7 @@ Así mismo. Tus juguetes.
 Así pasé varios veranos
 Así que juega bien.
 Así que juega limpio.
+Así que te acostumbrarás a oirme.
 Así que vamos a concretar punto por punto
 Así que vamos.
 Así que, ya sabes, ¡coge el tranvía y ve a por ella!
@@ -1188,6 +1190,7 @@ Elige el idioma por defecto.
 Elisabet y Martín se van de vacaciones a Japón.
 Ella es fuerte como una montaña.
 Ella es vegana, luego tenemos que pensar en su comida.
+Ella no habrá visitado
 Ella no te ama.
 Ella no visita
 Ella sabe tocar el piano, y yo el violín.
@@ -1842,6 +1845,7 @@ Hay canciones que nunca se olvidarán.
 Hay chocolate en la nevera y también turrón.
 Hay gente para todos los gustos
 Hay manzanas para merendar.
+Hay mas estrellas en el cielo que granos de arena en una playa
 Hay mucha más gente implicada en este caso.
 Hay muchos delincuentes en esa parte de la ciudad.
 Hay muchos medios de transporte: el autobús, metro...
@@ -1856,6 +1860,7 @@ Hay que darle tiempo al tiempo y ver como acaba la cosa
 Hay que ganarse el pan con el sudor de la frente
 Hay que hacer visible el problema de la mujer en la red
 Hay que implementar mesas individuales también para zurdos.
+Hay que ponerlas en el remojo.
 Hay que procurar preservar nuestra identidad
 Hay que saber esperar
 Hay que ser valientes y tomar el toro por los cuernos
@@ -3009,6 +3014,7 @@ No existe silencio de parecidas características
 No funciona. Lo cargué antes de salir.
 No habla mejor quien más voces da.
 No hables de la esperanza, todavía.
+No habrás visitado
 No habré visitado
 No había nada que hacer, era como barrer en el desierto
 No había pasado tanto calor.
@@ -4360,6 +4366,8 @@ Unos tienen la fama y otros cardan la lana
 Unos tienen la fama y otros cardan la lana.
 Unos vienen y otros van
 Usa el vaso y no bebas a morro
+Usted habrá visitado
+Usted no habrá visitado
 Usted no sabe con quién está hablando
 Usted no visita
 Usted visita
@@ -5534,6 +5542,8 @@ dos veces le sonreíste...
 duda en decirlo
 dudamos en decirlo
 dudan en decirlo
+dudaría
+dudarías
 dudas en decirlo
 dudo en decir algo
 dudáis en decirlo
@@ -5715,7 +5725,9 @@ ella bebía
 ella come una naranja
 ella comerá
 ella comería
+ella comía
 ella duda en decirlo
+ella dudaría
 ella gimió con rabia:
 ella ha bebido
 ella ha partido
@@ -5753,6 +5765,7 @@ ellas comen una naranja
 ellas comerán
 ellas comían
 ellas dudan en decirlo
+ellas dudarían
 ellas habrían partido
 ellas han bebido
 ellas han partido
@@ -5771,10 +5784,12 @@ ellas no parten
 ellas no partieron
 ellas no partirían
 ellas no predican
+ellas no viven
 ellas parten
 ellas partieron
 ellas predican
 ellas predicarán
+ellas viven
 ello es dudoso
 ellos beben
 ellos bebían
@@ -5782,6 +5797,7 @@ ellos comen una naranja
 ellos comerán
 ellos comían
 ellos dudan en decirlo
+ellos dudarían
 ellos habían comido
 ellos han bebido
 ellos han partido
@@ -5797,10 +5813,12 @@ ellos no parten
 ellos no partieron
 ellos no partirían
 ellos no predican
+ellos no viven
 ellos parten
 ellos partieron
 ellos predican
 ellos predicarán
+ellos viven
 embarqué en Londres, donde vivía emigrado desde la traición de Vergara
 empecemos de cero, ¿ vale?
 empecé a ver que no se me trataba como a cualquier compañero
@@ -6289,6 +6307,7 @@ fray Lope tornó a llenarlos:
 fray Lope volvió a nuestro lado, y con la voz temblorosa y colérica murmuró:
 frenar y desmontar la edificación en cauces y zonas de alto riesgo de inundación
 fue acosada y amenazada a través de redes sociales e incluso su teléfono
+fue atenuado el sonido
 fue ayer, que cuando me estaban apuntando
 fue en Vilma, en Vilma. y no creo que pueda dejar de sentir esto
 fuerza, sin embargo, es confesar que no he sido un héroe, como pudiera creerse.
@@ -7540,6 +7559,7 @@ no vamos a hacer el amor esta noche.
 no vas a saber toda mi vida. estoy cagado
 no ves la televisión
 no visito
+no viven
 no volvamos a cruzar la raya de lo personal.
 no voy a poner nuestras vidas en peligro.
 nos devuelve la siniestra imagen de nuestra presencia y de nuestra soledad
@@ -7561,7 +7581,9 @@ nosotras bebemos
 nosotras comeremos
 nosotras comeríamos
 nosotras comimos
+nosotras comíamos
 nosotras dudamos en decirlo
+nosotras dudaríamos
 nosotras habríamos partido
 nosotras habíamos comido
 nosotras hemos bebido
@@ -7585,7 +7607,9 @@ nosotros bebíamos
 nosotros comemos una naranja
 nosotros comeremos
 nosotros comeríamos
+nosotros comíamos
 nosotros dudamos en decirlo
+nosotros dudaríamos
 nosotros habíamos comido
 nosotros hemos bebido
 nosotros hemos partido
@@ -8508,7 +8532,10 @@ si decimos que por la noche todos los gatos son pardos
 si desea ver a la Madre Abadesa, le llevaré recado.
 si dices dos deseos, pues no se cumplen.
 si dices los deseos, no se cumplen.
+si dudara
+si dudaran
 si el noble Marqués tiene aquí...
+si ella dudara
 si eres un padre responsable
 si es por plantar cara, no soy de las que esconde la cabeza.
 si es que te consideras una persona normal
@@ -8564,13 +8591,17 @@ si te roban una, no comprometan la seguridad de las restantes
 si te roban una, no comprometes la seguridad del resto
 si tengo amistad con los plateados, es porque espero valerme de ellos...
 si toco el grifo, hago masa, que me puede dar calambre
+si tu dudaras
 si una práctica es generalizada no puede ser nunca delictiva
 si uno tiene un problema, lo tenemos todos.
+si usted dudara
 si vais a bailar, mejor que te pongas zapatos.
 si vas a ese barco es por algo.
 si ves tierra, silba, ¿ eh?
 si volviesen a pasar, quizá desvaneceríase el encanto.
 si ya sabe todo el mundo que tienes un arsenal.
+si yo dudara
+si él dudara
 siempre, seguridad, siempre. chaval, muy bien.
 siempre ha jugado el papel de amigo y protector de los sirvientes
 siempre juntos, mano a mano, ¿ no?
@@ -8699,6 +8730,7 @@ sonata de estío de Ramón María del Valle-Inclán.
 sonreí incrédulamente, y ella, arrancándose de mis brazos, huyó al fondo de la celda.
 sonriendo diabólicamente, le dije:
 sonó el pito del contramaestre, orzó la fragata y el velamen flameó indeciso.
+sorprendiendo con una brillante exposición
 sorprendió su exposición ligera
 soy el Marqués de Bradomín, hermana, y mi ruta acaba en esta santa casa.
 soy el Marqués de Bradomín.
@@ -8944,6 +8976,7 @@ tres, dos, uno... ¡ dale!
 tres provincias mejoran los porcentajes de conformidad
 tripulación y pasajeros, cuantos se hallaban sobre cubierta, agolpáronse a la borda.
 tu comes una naranja
+tu dudarías
 tu dudas en decirlo
 tu no predicas
 tu predicarás
@@ -8954,6 +8987,7 @@ tuvieron toda la promoción que querrían los grupos que se lo creen
 tú bebes
 tú bebías
 tú comerás
+tú comías
 tú debías tenerlos...
 tú eres un hombre.
 tú habrías partido
@@ -9045,6 +9079,7 @@ usanza mexicana que muestra amor y majeza, el viejo jarocho continuó:
 usted bebe
 usted bebía
 usted duda en decirlo
+usted dudaría
 usted ha bebido
 usted habría partido
 usted lo ha dicho, no sabemos lo que tienen.
@@ -9065,6 +9100,7 @@ usted ya ha elegido.
 ustedes bebían
 ustedes comen una naranja
 ustedes comerán
+ustedes dudarían
 ustedes han bebido
 ustedes han partido
 ustedes no bebían
@@ -9073,8 +9109,10 @@ ustedes no han bebido
 ustedes no han partido
 ustedes no parten
 ustedes no partirían
+ustedes no viven
 ustedes parten
 ustedes predican
+ustedes viven
 va a funcionar. tiene que hacerlo.
 va a ser un padrazo.
 va un poco irregular, pero es normal. no te preocupes.
@@ -9179,6 +9217,7 @@ visibilizar la labor de mujeres que investigan
 visito
 visten uniforme verde
 visto con espacio, parecióme misterioso y extraño:
+viven
 vivieron en su infancia y juventud en casas y chozas
 vivir en ese reducido y ostentoso mundo
 viéndola tan afligida, acaricié su cabeza reclinándola sobre mi pecho, y le dije:
@@ -9197,6 +9236,8 @@ vosotras bebíais
 vosotras comeréis
 vosotras coméis una naranja
 vosotras comíais
+vosotras dudaríais
+vosotras dudáis en decirlo
 vosotras habríais partido
 vosotras habéis bebido
 vosotras habéis partido
@@ -9219,6 +9260,7 @@ vosotros bebíais
 vosotros comeréis
 vosotros coméis una naranja
 vosotros comíais
+vosotros dudáis en decirlo
 vosotros habéis bebido
 vosotros habéis partido
 vosotros no bebéis
@@ -9444,6 +9486,7 @@ yo cerré los ojos y esperé sus lágrimas, sus quejas, sus denuestos
 yo ceñudo y de mal talante, me arrojé sobre la hamaca
 yo comería
 yo comí
+yo comía
 yo contemplando sus pugilatos grotescos y pueriles sobre la cubierta de la fragata
 yo contesté riéndome:
 yo creo que la vida es como un juego de posibilidades.
@@ -9451,6 +9494,7 @@ yo creo que tiene derecho a saberlo. ¿ no crees?
 yo creí adivinar, y le dije con generosa galantería:
 yo creía haber roto para siempre las redes amorosas del pecado
 yo crucé ante la Niña Chole orgulloso y soberbio como un conquistador antiguo.
+yo dudaría
 yo dudo en decirlo
 yo entonces le dije:
 yo entonces tomando sus manos entre las mías, le dije amorosamente:
@@ -10460,6 +10504,10 @@ yo ya no puedo estar contigo.
 ¿Estudias o trabajas?
 ¿Ganan mucho los cantantes por la venta de sus discos?
 ¿Habrá comido?
+¿Habrá ella visitado?
+¿Habrá él visitado?
+¿Habrás tu visitado?
+¿Habrás visitado?
 ¿Habré yo visitado?
 ¿Hacemos una horchata?
 ¿Has estado en San Miguel de Olerdola?
@@ -10607,11 +10655,14 @@ yo ya no puedo estar contigo.
 ¿cómo actuamos con las personas alienadas de cara al público?
 ¿ella bebe?
 ¿ella ha partido?
+¿ella ha vivido?
 ¿ella no bebe?
 ¿ella no comió?
 ¿ella no ha bebido?
+¿ella no ha vivido?
 ¿ella parte?
 ¿ella partiría?
+¿ella vive?
 ¿ellas habrían partido?
 ¿ellas han bebido?
 ¿ellas han partido?
@@ -10628,6 +10679,7 @@ yo ya no puedo estar contigo.
 ¿ellos parten?
 ¿ellos partieron?
 ¿ha bebido?
+¿ha vivido ella?
 ¿habrán comido?
 ¿habría partido?
 ¿habríais partido?
@@ -10640,6 +10692,7 @@ yo ya no puedo estar contigo.
 ¿han bebido?
 ¿han partido?
 ¿has partido?
+¿has vivido tú?
 ¿hay alguna forma de detectar que se está cometiendo esta infracción?
 ¿hay manera de instalarlo en un pendrive?
 ¿hubieron partido?
@@ -10726,11 +10779,14 @@ yo ya no puedo estar contigo.
 ¿él no habría partido?
 ¿él parte?
 ¿él partiría?
+¿él vive?
 ¿ó será que no sabían que la taberna llevaba declara en ruinas hacía años?
 África empieza en los Pirineos
 Él dice que no fue un accidente.
 Él es mío, y nadie me lo quitará.
 Él ha sido elegido. Él debe ir.
+Él habrá visitado
+Él no habrá visitado
 Él no visita
 Él siempre venía los jueves después de cenar.
 Él sí creía que podían cometerse estos actos ilícitos
@@ -10746,7 +10802,9 @@ yo ya no puedo estar contigo.
 él come una naranja
 él comerá
 él comió
+él comía
 él duda en decirlo
+él dudaría
 él ha bebido
 él ha partido
 él habría partido

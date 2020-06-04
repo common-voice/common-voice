@@ -1912,7 +1912,11 @@ Illa rubesceva de vergonia.
 Illa rubesceva.
 Illa sape parlar francese.
 Illa se abassava.
+Illa se agitava super le securitate de su filio.
+Illa se effortiava in van de non plorar.
+Illa se face le ungulas cata septimana.
 Illa se ha maritate juvene.
+Illa se inclinava super le infante.
 Illa se inclinava verso me.
 Illa se jectava al pedes de ille.
 Illa se leva de bon hora.
@@ -1978,6 +1982,7 @@ Ille animal es un Zebra.
 Ille anque produceva ancora un altere conclusion dubitose.
 Ille aperiva su bucca.
 Ille apprendeva a natar a schola.
+Ille arriva deman a Paris.
 Ille arrivava al puncto de dicer un tal cosa rude.
 Ille arrivava in Paris e immediatemente partiva pro London.
 Ille arrugava le folio de papiro in un bolletta.
@@ -1989,6 +1994,8 @@ Ille bibe troppo.
 Ille bibeva bira.
 Ille bibeva un bira.
 Ille cantava un canto.
+Ille celebrava un festa exorbitante.
+Ille cerca un cinctura de corio.
 Ille clarmente adora su duo cattos.
 Ille cognosce multe personas.
 Ille cognosce su valores proprie.
@@ -2014,6 +2021,7 @@ Ille derideva le consilio de su matre.
 Ille desira le vita del citate.
 Ille desirava comprar un libro.
 Ille devenira multo embarassate si tu parla con ille.
+Ille devenira un bon medico.
 Ille deveniva cec.
 Ille deveniva cognoscite como medico.
 Ille deveniva un famose cantante.
@@ -3972,6 +3980,8 @@ Iste libro es un del melior obras del poeta.
 Iste libro facera successo.
 Iste libro ha multe imagines.
 Iste libro non tracta de linguistica.
+Iste libros es le mies.
+Iste libros non es vostre?
 Iste littera es pro te.
 Iste loco es assatis grande.
 Iste machina produce electricitate.
@@ -4072,6 +4082,7 @@ Isto es lor casa.
 Isto es magic.
 Isto es mi auto.
 Isto es mi bursa.
+Isto es mi culpa.
 Isto es mi nave.
 Isto es multo facile.
 Isto es non-conventional.
@@ -4154,6 +4165,7 @@ Johannes ha un auto del Japon.
 Johannes non vive ci.
 Johannes sede presso Jacobo.
 John sonava le gitarra e su amicos cantava.
+Jorge parla quatro linguas.
 Judaismo e Christianitate es religiones medie oriental correlate a Islam.
 Judeos require signos miraculose e le grecos require sapientia.
 Judicar sur le etiquetta del sacco.
@@ -4167,11 +4179,13 @@ Kangurus causa grosse males de testa al agricultores australian.
 Kate esseva stupefacite per le comportamento de ille.
 Kate faceva notas minutiose sur le discurso de historia.
 Kate se faceva notas minutiose sur le discurso de historia.
+Ken va natar die post die.
 L'implementazione non è conforme alle specifiche.
 La abbordava con un voce languide e somnolente.
 La camelo cammina in le deserto.
 La cognosce tu?
 La tractava como un serva, tu sape; como un sclava, pejo.
+Labor dur es le precio del successo.
 Lacrimas de feminas, fontes de malitia.
 Lamentar se pro un discussion, es fatiga jectate al vento.
 Laser tag es un joco bastante simile a paintball.
@@ -4198,6 +4212,7 @@ Lassa me sol.
 Lassa me star super le capite.
 Lassa me star super le testa.
 Lassa me te adjutar.
+Lassa me un message, per favor.
 Lassa me un poco de gelato.
 Lassa me vider.
 Lassa me.
@@ -4374,7 +4389,9 @@ Le cassa esseva vacue quando io lo aperiva.
 Le cassero non habeva bastante cambio.
 Le catholicismo es le religion plus popular del Espania.
 Le catholicos es contra le controlo del nascentias.
+Le catta dormi.
 Le catto dormi sur le sofa.
+Le catto dormi.
 Le catto es sur le tapete.
 Le catto miaulava.
 Le catto sedeva sur le tapete.
@@ -4385,6 +4402,7 @@ Le cattos nigre es infortunate.
 Le causa del incendio esseva su fin de cigaretta.
 Le cavallero errante.
 Le cavallo es mie.
+Le cavallo es un animal utile.
 Le cavallo salta.
 Le cavo purpuree es pro connecter le antenna al receptor.
 Le cella mensurava a pena duo metros de longessa e un de largessa.
@@ -5576,6 +5594,8 @@ Ni le un ni le altere es belle.
 Ni memorara le generationes que habera sequite nos.
 Ni minus nostre filia es tam belle como iste puera.
 Ni satisfaciente le oculo del vider, ni occupante le aure del audir.
+Nigre te sta ben.
+Nigre te va ben.
 Nihil es tanto elastic como le seta de un aranea.
 Nihil ha evenite.
 Nihil manca.
@@ -5668,6 +5688,7 @@ Non ha tu alcun senso de justitia?
 Non ha tu audite me?
 Non ha tu frigido?
 Non ha tu quasi finite?
+Non ha vos quasi finite?
 Non importa lo que eveni, io non cambiara de idea.
 Non importa lo que eveni, io non cambiara de opinon.
 Non importa lo que eveni, tu non debe abandonar.
@@ -6258,6 +6279,7 @@ Per favor indica si tu prefere option A o option B
 Per favor informa me de omne cambiamento in le situation.
 Per favor invia qualcuno pro reparar lo le plus tosto possibile.
 Per favor jammais jectar pizza al salami.
+Per favor lassa me in pace.
 Per favor lege celle libro.
 Per favor monstra me le cammino al section de negotios.
 Per favor non alimentar le anates!
@@ -7430,6 +7452,7 @@ Si tu desira, tu pote ir.
 Si tu dice "io te ama", io dicera le mesme cosa a te.
 Si tu disingrana le accopulamento troppo rapidemente, le motor se arrestara.
 Si tu ha besonio de libros, trahe profito del libros in le bibliotheca.
+Si tu ha dactylographate le adresse, re-verifica le orthographia.
 Si tu ha sequite un ligamine sur un altere pagina, signala le problema.
 Si tu ha torto, alora io ha torto tamben.
 Si tu le vide, saluta le de me.
