@@ -65,6 +65,41 @@ async function updateLocales(
   }
 }
 
+async function updateDemographics(
+  clientId: string,
+  age?: string,
+  gender?: string
+) {
+  await db.query(
+    `
+    INSERT INTO demographics (client_id, age, gender) VALUES (?, ?, ?)
+      ON DUPLICATE KEY UPDATE
+      updated_at = now()
+  `,
+    [clientId, age, gender]
+  );
+
+  const [[{ id: demographicId }]] = await db.query(
+    `
+    SELECT id
+      FROM demographics
+      WHERE client_id = ?
+      ORDER BY updated_at DESC
+      LIMIT 1
+  `,
+    [clientId]
+  );
+
+  await db.query(
+    `
+    INSERT INTO user_client_demographics (client_id, demographic_id) VALUES (?, ?)
+      ON DUPLICATE KEY UPDATE
+      demographic_id = ?
+  `,
+    [clientId, demographicId, demographicId]
+  );
+}
+
 const UserClient = {
   async findAllWithLocales({
     client_id,
@@ -75,10 +110,12 @@ const UserClient = {
   }) {
     const [rows] = await db.query(
       `
-        SELECT u.*, accents.accent, locales.name AS locale
+        SELECT u.*, accents.accent, locales.name AS locale, demographics.age, demographics.gender
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
+        LEFT JOIN user_client_demographics on u.client_id = user_client_demographics.client_id
+        LEFT JOIN demographics on user_client_demographics.demographic_id = demographics.id
         WHERE (u.client_id = ? OR email = ?) AND !has_login
       `,
       [client_id || null, email || null]
@@ -104,6 +141,8 @@ const UserClient = {
           u.*,
           accents.accent,
           locales.name AS locale,
+          demographics.age,
+          demographics.gender,
           (SELECT COUNT(*) FROM clips WHERE u.client_id = clips.client_id) AS clips_count,
           (SELECT COUNT(*) FROM votes WHERE u.client_id = votes.client_id) AS votes_count,
           t.team,
@@ -114,6 +153,8 @@ const UserClient = {
         LEFT JOIN user_client_newsletter_prefs n ON u.client_id = n.client_id
         LEFT JOIN user_client_accents accents ON u.client_id = accents.client_id
         LEFT JOIN locales ON accents.locale_id = locales.id
+        LEFT JOIN user_client_demographics on u.client_id = user_client_demographics.client_id
+        LEFT JOIN demographics on user_client_demographics.demographic_id = demographics.id
         LEFT JOIN (
           SELECT enroll.client_id, enroll.url_token as invite, teams.url_token AS team, challenges.url_token AS challenge
           FROM enroll
@@ -190,14 +231,7 @@ const UserClient = {
       Object.entries({
         has_login: true,
         email,
-        ...pick(
-          data,
-          'age',
-          'gender',
-          'username',
-          'skip_submission_feedback',
-          'visible'
-        ),
+        ...pick(data, 'username', 'skip_submission_feedback', 'visible'),
       }).map(async ([key, value]) => key + ' = ' + (await db.escape(value)))
     );
     await db.query(
@@ -208,6 +242,9 @@ const UserClient = {
       `,
       [accountClientId]
     );
+
+    updateDemographics(client_id, data.age, data.gender);
+
     await Promise.all([
       this.claimContributions(accountClientId, clientIds),
       locales && updateLocales(accountClientId, locales),
@@ -250,18 +287,20 @@ const UserClient = {
     if (row) {
       await db.query(
         `
-        UPDATE user_clients SET email  = ?, age  = ?, gender = ? WHERE client_id = ?
+      UPDATE user_clients SET email = ? WHERE client_id = ?
       `,
-        [email, age, gender, client_id]
+        [email, client_id]
       );
     } else {
       await db.query(
         `
-        INSERT INTO user_clients (client_id, email, age, gender) VALUES (?, ?, ?, ?)
+        INSERT INTO user_clients (client_id, email) VALUES (?, ?)
       `,
-        [client_id, email, age, gender]
+        [client_id, email]
       );
     }
+
+    updateDemographics(client_id, age, gender);
   },
 
   async updateBasketToken(email: string, basketToken: string) {
@@ -275,7 +314,6 @@ const UserClient = {
         [client_id, email, basketToken]
       );
     }
-
   },
 
   async updateSSO(old_email: string, email: string): Promise<boolean> {
