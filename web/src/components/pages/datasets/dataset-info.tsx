@@ -155,23 +155,7 @@ class DatasetInfo extends React.Component<Props, State> {
     } = this.state;
     const localeStats =
       stats.locales[bundleLocale as keyof typeof stats.locales];
-    const megabytes = localeStats.size / 1024 / 1024;
-    const size =
-      megabytes < 1
-        ? Math.floor(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
-        : megabytes > 1024
-        ? Math.floor(megabytes / 1024) + ' ' + getString('size-gigabyte')
-        : Math.floor(megabytes) + ' ' + getString('size-megabyte');
-
-    const totalHours =
-      localeStats.totalHrs < 1
-        ? Math.floor(localeStats.totalHrs * 100) / 100
-        : Math.floor(localeStats.totalHrs);
-
-    const validHours =
-      localeStats.validHrs < 1
-        ? Math.floor(localeStats.validHrs * 100) / 100
-        : Math.floor(localeStats.validHrs);
+    const { size, totalHours, validHours } = getStats(localeStats, getString);
 
     return (
       <div className="dataset-info">
