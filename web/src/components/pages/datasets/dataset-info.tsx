@@ -215,42 +215,7 @@ class DatasetInfo extends React.Component<Props, State> {
                 ))}
               </LabeledSelect>
               <ul className="facts">
-                {Object.entries({
-                  size,
-                  'dataset-version': (
-                    <div className="version">
-                      {[bundleLocale, totalHours + 'h', stats.date].join('_')}
-                    </div>
-                  ),
-                  'validated-hr-total': validHours.toLocaleString(),
-                  'overall-hr-total': totalHours.toLocaleString(),
-                  'cv-license': 'CC-0',
-                  'number-of-voices': localeStats.users.toLocaleString(),
-                  'audio-format': 'MP3',
-                  splits:
-                    localeStats.users >= 5
-                      ? Object.entries(localeStats.splits)
-                          .filter(
-                            ([, values]) => Object.keys(values).length > 1
-                          )
-                          .map(([category, values]) => (
-                            <Splits
-                              key={category}
-                              {...{ category, values, bundleLocale }}
-                            />
-                          ))
-                      : null,
-                }).map(
-                  ([id, value]) =>
-                    value && (
-                      <li key={id}>
-                        <Localized id={id}>
-                          <span className="label" />
-                        </Localized>
-                        <span className="value">{value}</span>
-                      </li>
-                    )
-                )}
+                {renderStats(size, bundleLocale, totalHours, validHours)}
               </ul>
               {hideEmailForm ? (
                 <>
