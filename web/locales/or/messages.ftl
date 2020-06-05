@@ -597,9 +597,9 @@ other-language = ଅନ୍ୟାନ୍ୟ ଭାଷା
 ## Languages Overview
 
 language-section-in-progress = ଚାଲିଛି
-language-section-in-progress-new-description = ଏହି ଭାଷାଗୁଡ଼ିକ ବର୍ତ୍ତମାନ ସମୁଦାୟ ତିଆରି କରୁଛନ୍ତି । ପ୍ରତ୍ୟେକ ଭାଷାର ପ୍ରଗତି ପଟ୍ଟା ତାହାର <localizationGlossaryLink>ୱେବସାଇଟ ସ୍ଥାନୀୟକରଣ</localizationGlossaryLink> ଏବଂ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗ୍ରହ</sentenceCollectionGlossaryLink>ର ଉନ୍ନତି ଦେଖାଉଛି ।
+language-section-in-progress-new-description = ସମୁଦାୟମାନେ ଏବେ ଏହି ଭାଷାଗୁଡ଼ିକ ତିଆରି କରୁଛନ୍ତି । ଏହି ପ୍ରଗତି ବାର୍ ପ୍ରତ୍ୟେକ ଭାଷାର <localizationGlossaryLink>ୱେବସାଇଟ ସ୍ଥାନୀୟକରଣ</localizationGlossaryLink> ଓ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗ୍ରହ</sentenceCollectionGlossaryLink>ର ଉନ୍ନତି ଦର୍ଶାଉଛି ।
 language-section-launched = ଆରମ୍ଭ ହେଲା
-language-section-launched-description = ଏହି ସବୁ ପ୍ରକାଶିତ ଭାଷାଗୁଡ଼ିକ ପାଇଁ ୱେବସାଇଟ ସଫଳତାର ସହିତ <localizationGlossaryLink>ସ୍ଥାନୀୟ</localizationGlossaryLink> କରାଯାଇଛି, ଏବଂ ଯଥେଷ୍ଟ ମାତ୍ରାରେ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗ୍ରହ</sentenceCollectionGlossaryLink> ହୋଇଛି ଯାହାକୁ ଉପଯୋଗ କରି ଉଭୟ <speakLink>କଥାବାର୍ତ୍ତା</speakLink> ଏବଂ <listenLink>ଶୁଣିବାର</listenLink> ଯୋଗଦାନ ଦେଇହେବ ।
+language-section-launched-description = ଏସବୁ ପ୍ରକାଶିତ ଭାଷାଗୁଡ଼ିକ ପାଇଁ ୱେବସାଇଟଟି ସଫଳ ଭାବେ <localizationGlossaryLink>ସ୍ଥାନୀୟକରଣ</localizationGlossaryLink> କରାଯାଇଛି ଏବଂ ଯଥେଷ୍ଟ ମାତ୍ରାରେ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗୃହୀତ</sentenceCollectionGlossaryLink> ହୋଇଛି ଯାହାକୁ ବ୍ୟବହାର କରି ଉଭୟ <speakLink>କହିପାରିବେ</speakLink> ଆଉ <listenLink>ଶୁଣିପାରିବେ</listenLink> ।
 languages-show-more = ଅଧିକ ଦେଖନ୍ତୁ
 languages-show-less = କମ ଦେଖନ୍ତୁ
 language-meter-in-progress = ପ୍ରଗତି
