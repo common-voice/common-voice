@@ -1,7 +1,7 @@
 import * as React from 'react';
 import robot from './assets/Red.svg';
 import './intro.css';
-import { Localized, withLocalization } from 'fluent-react/compat';
+import { Localized, withLocalization } from '@fluent/react';
 import { LinkButton } from '../../ui/ui';
 import { ArrowRight } from '../../ui/icons';
 import URLS from '../../../urls';

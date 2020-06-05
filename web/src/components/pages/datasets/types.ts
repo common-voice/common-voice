@@ -3,7 +3,7 @@ import API from '../../../services/api';
 import { Notifications } from '../../../stores/notifications';
 import StateTree from '../../../stores/tree';
 import { LocalePropsFromState } from '../../locale-helpers';
-import { LocalizationProps } from 'fluent-react/compat';
+import { LocalizationProps } from '@fluent/react';
 
 //Datasets-info interfaces
 export interface DPropsFromState {

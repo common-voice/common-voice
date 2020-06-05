@@ -1,11 +1,7 @@
 import * as React from 'react';
 import { getStats, renderStats } from '../../pages/datasets/dataset-info';
 import stats from '../../pages/datasets/stats';
-import {
-  Localized,
-  LocalizationProps,
-  withLocalization,
-} from 'fluent-react/compat';
+import { Localized, LocalizationProps, withLocalization } from '@fluent/react';
 import {
   LinkButton,
   LabeledSelect,

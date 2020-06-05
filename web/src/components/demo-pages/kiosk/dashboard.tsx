@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { PageContentType } from './types';
-import { withLocalization } from 'fluent-react/compat';
+import { withLocalization } from '@fluent/react';
 
 const dashboard = (): PageContentType => {
   const ContentComponent = () => {
