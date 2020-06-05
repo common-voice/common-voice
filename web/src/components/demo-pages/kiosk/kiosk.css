@@ -189,6 +189,11 @@ html {
             display: flex;
             flex-direction: row;
         }
+
+        /*  */
+        li:nth-child(2) {
+            display: none;
+        }
         .label {
             font-size: 0.75rem;
             width: 12.5rem;
@@ -274,9 +279,6 @@ html {
         #download__sub--form-email,
         .labeled-checkbox {
             margin-bottom: 1.5rem;
-        }
-        .version {
-            display: none;
         }
         #demo--download__sub-download-button {
             background-color: var(--blue);
