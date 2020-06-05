@@ -4,8 +4,6 @@ import { MicIcon, PlayOutlineGreenIcon } from '../../ui/icons';
 import { useLocation } from 'react-router-dom';
 import { useLocale } from '../../locale-helpers';
 import urls from '../../../urls';
-import stats from '../../pages/datasets/stats';
-// TODO: follow up with Jenny, whether or not to move to icons.tsx
 import grid from './assets/grid.svg';
 import { PageContentType } from './types';
 import { datasets } from './datasets';
@@ -22,7 +20,6 @@ const BottomRightPane = () => {
       </li>
       <hr id="pane-divider" />
       <li>
-        {/* TODO:replace with icon equivalent when implemented */}
         <img src={grid} />
       </li>
     </ul>

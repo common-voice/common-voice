@@ -1,10 +1,5 @@
 import * as React from 'react';
-import {
-  getStats,
-  renderStats,
-  mapStateToProps,
-  PropsFromState,
-} from '../../pages/datasets/dataset-info';
+import { getStats, renderStats } from '../../pages/datasets/dataset-info';
 import stats from '../../pages/datasets/stats';
 import {
   Localized,
@@ -21,11 +16,7 @@ import {
 import { CloudIcon, ChevronRight, ArrowRight } from '../../ui/icons';
 import urls from '../../../urls';
 import CircleStats from '../../pages/datasets/circle-stats';
-import {
-  PageContentType,
-  DownloadFormProps,
-  SubscribeFormProps,
-} from './types';
+import { PageContentType, DownloadFormProps } from './types';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import {
@@ -34,6 +25,14 @@ import {
   LocalePropsFromState,
 } from '../../locale-helpers';
 import KioskCard from './kiosk-card';
+import {
+  SProps,
+  SPropsFromState,
+  SPropsFromDispatch,
+  SMapStateToProps,
+  SMapDispatchToProps,
+  DPropsFromState,
+} from '../../pages/datasets/types';
 
 const DownloadForm = ({
   getString,
@@ -51,21 +50,22 @@ const DownloadForm = ({
   const handleInputChange = ({ target }: any) => {
     setFormState(prev => ({
       ...prev,
-      [target.name]: target.checked,
+      [target.name]: target.type === 'email' ? target.value : target.checked,
     }));
   };
 
   return (
     <>
-      <LabeledInput
-        required={true}
-        type="email"
-        ref={emailRef}
-        onChange={handleInputChange}
-        value={formState.email}
-        label={getString('demo-email-input')}
-        id="download__sub--form-email"
-      />
+      <Localized id="email-input" attrs={{ label: true }}>
+        <LabeledInput
+          required
+          type="email"
+          ref={emailRef}
+          onChange={handleInputChange}
+          value={formState.email}
+          id="download__sub--form-email"
+        />
+      </Localized>
       <LabeledCheckbox
         className="demo-datasets--download__sub-checkbox"
         onChange={handleInputChange}
@@ -102,47 +102,80 @@ const DownloadForm = ({
         onClick={() => {
           api.forLocale(bundleLocale).saveHasDownloaded(formState.email);
         }}>
-        <span>
-          <Localized id="download-language" $language={getString(bundleLocale)}>
-            <span />
-          </Localized>
-        </span>
+        <Localized id="download-language" $language={getString(bundleLocale)}>
+          <span />
+        </Localized>
         <CloudIcon />
       </LinkButton>
     </>
   );
 };
 
-const SubscribeForm = ({ getString, api }: SubscribeFormProps) => {
+const SubscribeForm = ({ api, account, addNotification }: SProps) => {
   const [_, toLocaleRoute] = useLocale();
   const [formState, setFormState] = React.useState({
     email: '',
     confirmNoIdentify: false,
+    submitStatus: null,
   });
   const emailRef = React.useRef<HTMLInputElement>();
-
+  const isEditable = formState.submitStatus === null;
   const handleInputChange = ({ target }: any) => {
     setFormState(prev => ({
       ...prev,
       [target.name]: target.type === 'email' ? target.value : target.checked,
     }));
   };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setFormState(prev => ({
+      ...prev,
+      submitStatus: 'submitting',
+    }));
+    try {
+      await api.subscribeToNewsletter(
+        account ? account.email : formState.email
+      );
+      addNotification(
+        <Localized id="profile-form-submit-saved">
+          <span />
+        </Localized>
+      );
+      setFormState(prev => ({
+        ...prev,
+        submitStatus: 'submitted',
+      }));
+    } catch (e) {
+      addNotification('Subscription failed', 'error');
+      console.log('something failed', e);
+      setFormState(prev => ({
+        ...prev,
+        submitStatus: null,
+      }));
+    }
+  };
+
   return (
     <div className="demo-datasets--subscribe">
       <Localized id="demo-subscribe">
         <h2 id="demo-subscribe__header" />
       </Localized>
-      <form id="demo-dataset--subscribe__form">
+      <form id="demo-dataset--subscribe__form" onSubmit={handleSubmit}>
         <div id="subscribe__form--email-container">
-          <LabeledInput
-            onChange={handleInputChange}
-            ref={emailRef}
-            type="email"
-            id="subscribe__form--email"
-            label={getString('demo-email-input')}
-          />
+          <Localized id="email-input">
+            <LabeledInput
+              onChange={handleInputChange}
+              value={formState.email}
+              disabled={!isEditable || account}
+              ref={emailRef}
+              type="email"
+              id="subscribe__form--email"
+            />
+          </Localized>
           <TextButton
             disabled={
+              !isEditable ||
               !formState.email ||
               !emailRef.current ||
               !emailRef.current.checkValidity() ||
@@ -171,10 +204,12 @@ const SubscribeForm = ({ getString, api }: SubscribeFormProps) => {
   );
 };
 
-const ConnectedSubscribeForm = connect<PropsFromState>(mapStateToProps)(
-  SubscribeForm
-);
-const ConnectedDownloadForm = connect<PropsFromState>(mapStateToProps)(
+const ConnectedSubscribeForm = connect<SPropsFromState, SPropsFromDispatch>(
+  SMapStateToProps,
+  SMapDispatchToProps
+)(SubscribeForm);
+
+const ConnectedDownloadForm = connect<DPropsFromState>(SMapStateToProps)(
   DownloadForm
 );
 
@@ -266,7 +301,7 @@ export const datasets = (): PageContentType => {
             </Localized>
           </div>
         </div>
-        <ConnectedSubscribeForm {...{ getString }} />
+        <ConnectedSubscribeForm />
       </div>
     );
   };
