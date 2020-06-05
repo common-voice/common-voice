@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { getStats, renderStats } from '../../pages/datasets/dataset-info';
 import stats from '../../pages/datasets/stats';
-import { Localized, LocalizationProps, withLocalization } from '@fluent/react';
+import {
+  Localized,
+  WithLocalizationProps,
+  withLocalization,
+} from '@fluent/react';
 import {
   LinkButton,
   LabeledSelect,
@@ -67,7 +71,7 @@ const DownloadForm = ({
         onChange={handleInputChange}
         checked={formState.confirmSize}
         label={
-          <Localized id="confirm-size" b={<b />} $size={size}>
+          <Localized id="confirm-size" elems={{ b: <b /> }} vars={{ size }}>
             <span />
           </Localized>
         }
@@ -78,7 +82,7 @@ const DownloadForm = ({
         onChange={handleInputChange}
         checked={formState.confirmNoIdentify}
         label={
-          <Localized id="confirm-no-identify" b={<b />}>
+          <Localized id="confirm-no-identify" elems={{ b: <b /> }}>
             <span />
           </Localized>
         }
@@ -98,7 +102,9 @@ const DownloadForm = ({
         onClick={() => {
           api.forLocale(bundleLocale).saveHasDownloaded(formState.email);
         }}>
-        <Localized id="download-language" $language={getString(bundleLocale)}>
+        <Localized
+          id="download-language"
+          vars={{ language: getString(bundleLocale) }}>
           <span />
         </Localized>
         <CloudIcon />
@@ -186,7 +192,7 @@ const SubscribeForm = ({ api, account, addNotification }: SProps) => {
           onChange={handleInputChange}
           value={formState.confirmNoIdentify}
           label={
-            <Localized id="confirm-no-identify" b={<b />}>
+            <Localized id="confirm-no-identify">
               <span />
             </Localized>
           }
@@ -209,8 +215,8 @@ const ConnectedDownloadForm = connect<DPropsFromState>(SMapStateToProps)(
   DownloadForm
 );
 
-type ContentProps = LocalePropsFromState & LocalizationProps;
-interface CardProps extends LocalizationProps {}
+type ContentProps = LocalePropsFromState & WithLocalizationProps;
+interface CardProps extends WithLocalizationProps {}
 
 export const datasets = (): PageContentType => {
   const ContentComponent = ({ getString, locale }: ContentProps) => {
