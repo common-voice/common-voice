@@ -198,9 +198,12 @@ const SubscribeForm = ({ api, account, addNotification }: SProps) => {
           }
           name="confirmNoIdentify"
         />
-        <Link to={toLocaleRoute(urls.PRIVACY)} id="subscribe__form--privacy">
-          Privacy Policy
-        </Link>
+        <Localized id="accept-privacy-title">
+          <Link
+            to={toLocaleRoute(urls.PRIVACY)}
+            id="subscribe__form--privacy"
+          />
+        </Localized>
       </form>
     </div>
   );
