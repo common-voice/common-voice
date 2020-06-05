@@ -827,7 +827,6 @@ demo-datasets-building = We're building
 demo-datasets-body = an open-source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
 demo-datasets-box-link = Read more
 demo-dataset-download-lang-select =  Language
-demo-email-input = Email
 demo-eofy-header = 2019 End-of-Year Release
 demo-eofy-sub_header = Voice Dataset, Ready for Download
 demo-subscribe = Want updates when we release a new version of the Common Voice dataset?
