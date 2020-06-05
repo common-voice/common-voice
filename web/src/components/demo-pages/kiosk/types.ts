@@ -1,8 +1,8 @@
 import { DPropsFromState } from '../../pages/datasets/types';
 
 export interface PageContentType {
-  Content: React.ComponentClass<any, any>;
-  Card: React.ComponentClass<any, any>;
+  Content: React.ComponentType<any>;
+  Card: React.ComponentType<any>;
 }
 
 export interface DownloadFormProps extends DPropsFromState {
