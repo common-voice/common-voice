@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
-stayintouch = 喺 Mozilla 哩度，我哋建立緊一個同語音技術相關嘅社群。我哋想同您保持聯繫，提供最新嘅消息同資料來源，亦想瞭解您會點樣使用哩啲資料。
+stayintouch = 喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。
 privacy-info = 我哋保證會小心處理您嘅資訊。如果要了解更多，請閲讀我們嘅<privacyLink>私隱權公告</privacyLink>。
 return-to-cv = 返回 Common Voice
 email-input =
@@ -11,7 +11,7 @@ loading = 載入中…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
 email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
-email-opt-in-privacy = 如果您同意接收電郵，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法處理呢啲資訊。
+email-opt-in-privacy = 如果你同意接收電郵，就代表你同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法嚟處理呢啲資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
 
@@ -186,7 +186,7 @@ no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一
 vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
-speak-subtitle = 貢獻您的聲音
+speak-subtitle = 貢獻你嘅聲音
 speak-paragraph = 錄音係我哋建立開放數據集時不可否缺的一部分，亦係好多人覺得最好玩的一部分！
 speak-goal-text = 段新錄音
 listen-subtitle = 幫我哋驗證錄音
@@ -216,7 +216,7 @@ x-years-short =
 help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
 sign-up-account = 註冊帳戶
 email-subscription-title = 訂閱最新消息電子報
-email-subscription-title-new = 留低您嘅電郵，收取 Common Voice 電子報、目標提醒、同進度更新。
+email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子報、目標提醒、同進度更新。
 
 ## Account Benefits
 
@@ -264,7 +264,7 @@ shortcut-record-toggle-label = 錄音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製片段
 request-language-text = 沒在 Common Voice 見到您的語言嗎？
-request-language-button = 申請增加一款語言
+request-language-button = 申請增加一種語言
 
 ## ProjectStatus
 
@@ -720,8 +720,8 @@ you = 您
 everyone = 所有人
 contribution-activity = 貢獻記錄
 top-contributors = 貢獻者排行榜
-recorded-clips = 錄音
-validated-clips = 已被驗證的錄音
+recorded-clips = 已錄製的錄音
+validated-clips = 已驗證的錄音
 total-approved = 總批准數
 overall-accuracy = 整體準誠度
 set-visibility = 公開/隱藏個人檔案
