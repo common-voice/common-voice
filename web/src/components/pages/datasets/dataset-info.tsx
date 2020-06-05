@@ -6,7 +6,6 @@ import {
 import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
-import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import { ACCENTS, AGES } from '../../../stores/demographics';
 import {
@@ -26,8 +25,7 @@ import {
 } from '../../ui/ui';
 import CircleStats from './circle-stats';
 import stats from './stats';
-import URLS from '../../../urls';
-
+import { DPropsFromState } from './types';
 import './dataset-info.css';
 
 const languages = Object.keys(stats.locales).length;
@@ -92,11 +90,7 @@ export const Splits = ({
   );
 };
 
-export interface PropsFromState {
-  api: API;
-}
-
-type Props = LocalePropsFromState & WithLocalizationProps & PropsFromState;
+type Props = LocalePropsFromState & LocalizationProps & DPropsFromState;
 
 type State = {
   bundleLocale: string;
@@ -369,5 +363,5 @@ export const mapStateToProps = ({ api }: StateTree) => ({
 });
 
 export default localeConnector(
-  withLocalization(connect<PropsFromState>(mapStateToProps)(DatasetInfo))
+  withLocalization(connect<DPropsFromState>(mapStateToProps)(DatasetInfo))
 );
