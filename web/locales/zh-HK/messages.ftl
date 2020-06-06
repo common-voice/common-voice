@@ -232,7 +232,7 @@ join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的�
 
 whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的電郵地址。
-recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
+recordings-and-locale-public = 你貢獻嘅錄音數量，以及貢獻咗邊幾種語言，都會係公開的。
 username-optin-public = 你可以選擇公開你嘅賬戶名稱，或保持匿名。
 demographic-deidentified-clarity = 所有可選性提供的人口統計資料，絕不會在您的個人檔案上公開，也不會在數據集中有所關聯。每一片獨立的錄音才會和您提交的人口統計資料挂鈎，讓來提供更準確的分析 -- 例如學者可能想訓練一個針對某部分人口的機器訓練模型。
 username-email-not-demographic = 您的賬戶名稱和電郵地址不會跟公開發布的數據有掛鉤。
