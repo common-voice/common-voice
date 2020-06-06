@@ -163,7 +163,7 @@ cookies = Cookies
 faq = 常見問題
 content-license-text = 內容依照 <licenseLink>Creative Commons 授權條款</licenseLink>授權大眾使用
 share-title = 幫我哋搵其他人一齊獻聲！
-share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
+share-text = 請到 { $link } 獻聲，幫我哋教機器瞭解真人係點講話嘅。
 link-copied = 超連結已被複製
 back-top = 回到頁頂
 logout = 登出
@@ -233,9 +233,9 @@ join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的�
 whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的電郵地址。
 recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
-username-optin-public = 您可以選擇公開您的使用者名稱，或保持匿名。
+username-optin-public = 你可以選擇公開你嘅賬戶名稱，或保持匿名。
 demographic-deidentified-clarity = 所有可選性提供的人口統計資料，絕不會在您的個人檔案上公開，也不會在數據集中有所關聯。每一片獨立的錄音才會和您提交的人口統計資料挂鈎，讓來提供更準確的分析 -- 例如學者可能想訓練一個針對某部分人口的機器訓練模型。
-username-email-not-demographic = 您的使用者名稱和電郵地址不會跟公開發布的數據有掛鉤。
+username-email-not-demographic = 您的賬戶名稱和電郵地址不會跟公開發布的數據有掛鉤。
 
 ## Speak & Listen Shortcuts
 
@@ -282,7 +282,7 @@ english = 英文
 ## ProfileForm
 
 profile-form-username =
-    .label = 使用者名稱
+    .label = 賬戶名稱
 profile-form-native-language =
     .label = 母語
 profile-form-additional-language =
@@ -318,7 +318,7 @@ profile-close = 關閉
 profile-explanation = 使用您的個人檔案可以保留您的進展，並幫助增加我們語音數據的準確度。
 thanks-for-account = 多謝你確認你嘅帳戶，而家等我哋建立你嘅個人檔案。
 why-demographic = 點解咁重要？
-why-demographic-explanation = 已匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與電郵不會與您提交的數據相關，您也可以決定公開您的帳號或保持匿名。
+why-demographic-explanation = 已匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與電郵不會與您提交的數據相關，您也可以決定公開您的賬戶名稱或保持匿名。
 accept-privacy = 我同意你依照 Mozilla 嘅<privacyLink>私隱保護政策</privacyLink>中描述嘅方式嚟處理呢啲資料
 accept-privacy-title = 隱私權政策
 login-identity = 登入身份
