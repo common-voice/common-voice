@@ -149,8 +149,8 @@ zh-TW = 中文 (臺灣)
 
 ## Layout
 
-speak = 說話
-speak-now = 現在開始說話
+speak = 講話
+speak-now = 而家開始講話
 datasets = 數據集
 languages = 所有語言
 about = 關於我們
@@ -306,7 +306,7 @@ female = 女性
 # Gender
 other = 其他
 why-profile-title = 點解要個人檔案？
-why-profile-text = 提供一些關於您的資訊，可讓您的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
+why-profile-text = 提供一啲關於你嘅資訊，可令你嘅 Common Voice 語音資料更有用，令語音識別引擎更加準確。
 dashboard = 控制台
 build-profile = 建立個人檔案
 avatar = 頭像
@@ -316,12 +316,12 @@ edit-profile = 編輯個人檔案
 profile-create-success = 成功建立個人檔案！
 profile-close = 關閉
 profile-explanation = 使用您的個人檔案可以保留您的進展，並幫助增加我們語音數據的準確度。
-thanks-for-account = 多謝您確認您的帳戶, 現在讓我們建立您的個人資料。
+thanks-for-account = 多謝你確認你嘅帳戶，而家等我哋建立你嘅個人檔案。
 why-demographic = 點解咁重要？
 why-demographic-explanation = 已匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與電郵不會與您提交的數據相關，您也可以決定公開您的帳號或保持匿名。
-accept-privacy = 我同意你依照 Mozilla 的<privacyLink>私隱保護政策</privacyLink>中描述的方式處理這些資料
+accept-privacy = 我同意你依照 Mozilla 嘅<privacyLink>私隱保護政策</privacyLink>中描述嘅方式嚟處理呢啲資料
 accept-privacy-title = 隱私權政策
-login-identity = 登入身分
+login-identity = 登入身份
 login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電郵訂閱
@@ -413,7 +413,7 @@ faq-what-determine-identity-a =
     所有語音片段中的個人識別資料已經被清除。當您下載數據集時，就代表您同意不會嘗試識別數據集當中的任何貢獻者。這代表您不能嘗試將數據集中的資訊，與貢獻者的個人資訊連結起來。但您可以將數據集中的不同資訊互相連結起來，用來訓練語音識別、說話者識別等功能，或其他應用程式。
 faq-what-is-cv = Common Voice 是甚麼？
 faq-using-cv = 使用 Common Voice
-faq-description = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。
+faq-description = Common Voice 係 Mozilla 想令機器學識真人講話方式嘅計劃。
 faq-search-for-answers =
     .label = 搜尋解答
 
