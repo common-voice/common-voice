@@ -118,6 +118,7 @@ email-subscription-title = jiandikishe kwa sasisho za barua pepe
 ## Account Benefits
 
 benefits = Faida
+view-goals = Linganisha maendeleo yako dhidi ya  malengo ya kibinafsi na ya mradi.
 
 ## What's public
 
