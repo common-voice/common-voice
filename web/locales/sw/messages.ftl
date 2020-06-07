@@ -121,6 +121,9 @@ benefits = Faida
 
 ## What's public
 
+whats-public = Yapi yafikika na umma?
+email-not-public = Barua pepe yako haitakuwa wazi kwa umma.
+recordings-and-locale-public = Idadi ya rekodi na lugha ambazo unachangia itakuwa wazi kwa umma.
 
 ## Speak & Listen Shortcuts
 
