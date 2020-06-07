@@ -420,7 +420,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 點解會有 Common Voice？
-about-subtitle = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。除了 Common Voice 數據集外，我們也正在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
+about-subtitle = Common Voice 係 Mozilla 想令機器學識真人講話方式嘅計劃。除咗 Common Voice 數據集外，我哋亦喺度打造緊一套稱為 Deep Speech 嘅開放源碼語音識別引擎。
 about-header-description =
     這兩個計劃都是我們努力糾正電子語音落差的一部份。語音識別技術可讓我們的電子裝置更人性化，但開發者需要非常大量的語音數據，才能打造出這樣的系統。目前大部分語音數據都相當昂貴，並受專有權限制。
     我們想令語音數據能被公開自由地使用，並確保這些數據反映出我們大衆的多樣性。合衆人之力，我們可為大家將語音識別技術變得更好！
@@ -599,7 +599,7 @@ other-language = 其他語言
 language-section-in-progress = 準備中
 language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
 language-section-launched = 已上線
-language-section-launched-description = 以下「已上線」的語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>令大家能用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
+language-section-launched-description = 以下「已上線」嘅語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且都已經<sentenceCollectionGlossaryLink>搜集咗夠多句子</sentenceCollectionGlossaryLink>令大家可以用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>嘅方式貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-meter-in-progress = 進度
