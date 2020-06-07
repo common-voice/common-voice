@@ -247,13 +247,21 @@ size = Ukubwa
 cv-license = Leseni
 number-of-voices = idadi ya sauti
 splits = Migawanyiko
+email-to-download = Weka barua pepe kupakua
+validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
+download = Pakua
 
 ## Download Modal
 
+download-form-email =
+    .label = Weka barua pepe yako
+    .value = Asante, tutawasiliana
+download-no = Hapana, Asante
 
 ## Contact Modal
 
+contact-title = Fomu ya Mawasiliano
 contact-form-name =
     .label = Jina
 contact-form-message =
@@ -262,8 +270,11 @@ contact-required = * inahitajika
 
 ## Request Language Modal
 
+request-language-title = Ombi la Lugha
 request-language-form-language =
     .label = Lugha
+request-language-success-title = Ombi la lugha limefanikiwa kuwasilishwa , asante.
+request-language-success-content = Tutawasiliana na habari zaidi juu ya jinsi ya kuongeza lugha yako kwa Common Voice hivi karibuni.
 select-language = Chagua lugha ...
 other-language = Lugha Nyingine
 
