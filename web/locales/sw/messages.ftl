@@ -68,6 +68,7 @@ speak = Ongea
 speak-now = Ongea sasa
 languages = Lugha
 about = Kuhusu
+profile = Wasifu
 help = Usaidizi
 contact = Wasiliana
 privacy = Faragha
@@ -181,6 +182,7 @@ male = mwanaume
 female = mwanamke
 # Gender
 other = mengineyo
+why-profile-title = Kwa niniu kupeana wasifu?
 goals = malengo
 profile-close = Funga
 why-demographic = kwanini ina umuhimu?
