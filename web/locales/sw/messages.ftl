@@ -291,7 +291,10 @@ total-hours = Masaa yaliyo halalishwa
 
 ## Contribution
 
+action-click = Bonyeza
+action-tap = Gonga
 contribute = Changia
+listen = Sikiliza
 skip = ruka
 record-cta = anza kurekodi
 
