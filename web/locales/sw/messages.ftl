@@ -184,6 +184,7 @@ female = mwanamke
 other = mengineyo
 why-profile-title = Kwa niniu kupeana wasifu?
 goals = malengo
+edit-profile = Fanya mabadiliko kwenye wasifu.
 profile-close = Funga
 why-demographic = kwanini ina umuhimu?
 accept-privacy-title = Sera ya Faragha
@@ -239,6 +240,7 @@ license-mixed = Mchanganyiko
 terms-agree = nakubali
 terms-disagree = Sikubali
 review-submit-title = Hakiki kisha utume
+review-recording = Thibitisha
 review-delete-recordings = Futa rekodi zangu
 
 ## Datasets Page
