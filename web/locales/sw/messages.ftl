@@ -280,11 +280,14 @@ other-language = Lugha Nyingine
 
 ## Languages Overview
 
+language-section-in-progress = Inaendelea
+language-meter-in-progress = Maendeleo
 language-total-progress = Jumla
 language-search-input =
     .placeholder = Tafuta
 language-speakers = Wasemaji
 sentences = Masentensi
+total-hours = Masaa yaliyo halalishwa
 
 ## Contribution
 
