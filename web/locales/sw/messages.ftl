@@ -124,6 +124,7 @@ benefits = Faida
 whats-public = Yapi yafikika na umma?
 email-not-public = Barua pepe yako haitakuwa wazi kwa umma.
 recordings-and-locale-public = Idadi ya rekodi na lugha ambazo unachangia itakuwa wazi kwa umma.
+username-optin-public = Unaweza chagua kulifanya jina lako la mtumiaji liwe wazi au lisijulikane.
 
 ## Speak & Listen Shortcuts
 
