@@ -188,8 +188,11 @@ accept-privacy-title = Sera ya Faragha
 login-signup = Ingia/Jisajili
 edit = Hariri
 download-profile = pakua data yangu
+skip-submission-feedback = Ruka marejesho ya uwasilishaji
 off = zima
 on = washa
+change-your-avatar-clip = unataka kubadilisha kipande cha sauti yako?
+recording-in-progress = Kurekodiwa kwa sauti kunaendelea
 retry-voice-wave-recording = jaribu tena
 delete-voice = futa
 add-language = ongeza lugha
@@ -198,9 +201,11 @@ add-language = ongeza lugha
 
 faq-what-cv-q = common voice ni nini?
 faq-why-important-q = kwanini hii ni ya umuhimu?
+faq-why-different-speakers-q = Kwa nini unahitaji wasemaji wengi tofauti kwa kila lugha?
 faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
 faq-using-cv = kutumia common voice
+faq-description = Common Voice ni sehemu ya mpango wa Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza
 faq-search-for-answers =
     .label = tafuta majibu
 
