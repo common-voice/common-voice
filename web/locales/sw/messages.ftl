@@ -159,8 +159,12 @@ english = Kiingereza
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Jina la Mtumiaji
 profile-form-native-language =
     .label = lugha ya asili
+profile-form-additional-language =
+    .label = Lugha ya ziada
 profile-form-accent =
     .label = Lafudhi
 profile-form-age =
@@ -183,6 +187,7 @@ why-demographic = kwanini ina umuhimu?
 accept-privacy-title = Sera ya Faragha
 login-signup = Ingia/Jisajili
 edit = Hariri
+download-profile = pakua data yangu
 off = zima
 on = washa
 retry-voice-wave-recording = jaribu tena
