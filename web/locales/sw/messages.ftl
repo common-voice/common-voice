@@ -119,6 +119,7 @@ x-years-short =
         [one] { $count } y
        *[other] { $count } y
     }
+sign-up-account = Jisajili kwa akaunti
 email-subscription-title = jiandikishe kwa sasisho za barua pepe
 
 ## Account Benefits
@@ -210,6 +211,7 @@ change-your-avatar-clip = unataka kubadilisha kipande cha sauti yako?
 recording-in-progress = Kurekodiwa kwa sauti kunaendelea
 retry-voice-wave-recording = jaribu tena
 delete-voice = futa
+recording-voice-wave = Inarekodi
 add-language = ongeza lugha
 
 ## FAQ
