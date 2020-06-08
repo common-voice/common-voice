@@ -13,6 +13,7 @@ email-opt-in-info =
     majarida kuhusu huduma za Common Voice.
 email-opt-in-info-title = Jiunge na orodha ya barua pepe ya Common Voice
 email-opt-in-info-sub-with-challenge = Pokea barua pepe kama vile ukumbusho wa changamoto na malengo, visasisho vya maendeleo, na jarida kuhusu Common Voice.
+email-opt-in-privacy = Kwa kuchagua kupokea ujumbe kupitia barua pepe unaridhika na Mozilla kutunza ujumbe huu kama ilivyoelezwa katika <privacyLink> Sera ya usiri ya Mozilla <privacyLink>.
 indicates-required = * Inaashiria sehemu inayohitajika
 not-available-abbreviation = haihitajiki
 
@@ -25,7 +26,10 @@ not-available-abbreviation = haihitajiki
 af = Kiafrikana
 ar = Kiarabu
 ast = Kiasturia
+bg = Kibulgeria
 br = Kibretoni
+ca = Kikatalonia
+cs = Kicheki
 cy = Kiwelisi
 da = Kidani
 de = Kijerumani
