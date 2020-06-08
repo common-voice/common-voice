@@ -294,14 +294,16 @@ export const datasets = (): PageContentType => {
             </div>
             <Localized
               id="dataset-description-hours"
-              b={<b />}
-              {...Object.entries(globalStats).reduce(
-                (obj: any, [key, value]) => {
-                  obj['$' + key] = value;
-                  return obj;
-                },
-                {}
-              )}>
+              elems={{ b: <b /> }}
+              vars={{
+                ...Object.entries(globalStats).reduce(
+                  (obj: any, [key, value]) => {
+                    obj[key] = value;
+                    return obj;
+                  },
+                  {}
+                ),
+              }}>
               <p className="demo-datasets--eofy__body" />
             </Localized>
           </div>
