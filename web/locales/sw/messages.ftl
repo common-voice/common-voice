@@ -102,10 +102,12 @@ logout = Toka
 
 home-title = Common Voice ni hatua ya Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza.
 home-cta = Ongea sasa, changia hapa!
+wall-of-text-start = Sauti ni asili na ni ya kibinadamu. Kwa sababu hiyo, tunavutiwa na kuunda teknolojia ya sauti itakayotumika na mashine zetu. Ili kuunda mifumo ya sauti, kiwango kikubwa sana cha data ya sauti kinahitajika.
 show-wall-of-text = Soma mengineyo
 vote-yes = Ndio
 vote-no = La
 speak-subtitle = Toa sauti yako
+speak-goal-text = Vipande vilivyo rekodiwa
 listen-subtitle = Tusaidie kuthibitisha sauti
 listen-goal-text = vipande vilivyo halalishwa
 hours-recorded = masaa yaliyorekodiwa
