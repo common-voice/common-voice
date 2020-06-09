@@ -115,6 +115,7 @@ hours-validated = masaa yaliyo halalishwa
 todays-progress = Maendeleo ya leo
 help-reach-goal = Tusaidie kufikia { $goal }
 read-terms-q = Je! Umesoma Masharti yetu?
+ready-to-record = Uko tayari kutoa mchango wa sauti yako?
 all-locales = Zote
 today = Leo
 x-weeks-short =
@@ -138,6 +139,7 @@ email-subscription-title = jiandikishe kwa sasisho za barua pepe
 ## Account Benefits
 
 benefits = Faida
+compare-progress = Linganisha maendeleo yako dhidi ya maendeleo ya wachangiaji wengine ulimwenguni kote.
 view-goals = Linganisha maendeleo yako dhidi ya  malengo ya kibinafsi na ya mradi.
 
 ## What's public
