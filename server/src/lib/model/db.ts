@@ -330,7 +330,7 @@ export default class DB {
             FROM votes
             WHERE votes.clip_id = clips.id AND client_id = ?
           )
-        AND (sentences.clips_count <= 10 OR sentences.clips_count = 0)
+        AND sentences.clips_count <= 10
         AND sentences.has_valid_clip = 0
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
         LIMIT ?
