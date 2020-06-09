@@ -321,6 +321,8 @@ other-language = Lugha Nyingine
 ## Languages Overview
 
 language-section-in-progress = Inaendelea
+languages-show-more = Tazama Yaliyofichika
+languages-show-less = Punguza Yanayoonekana
 language-meter-in-progress = Maendeleo
 language-total-progress = Jumla
 language-search-input =
