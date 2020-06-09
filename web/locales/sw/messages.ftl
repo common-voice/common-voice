@@ -24,6 +24,7 @@ not-available-abbreviation = haihitajiki
 ## Languages
 
 af = Kiafrikana
+am = Kiamhara
 ar = Kiarabu
 ast = Kiasturia
 bg = Kibulgeria
@@ -46,12 +47,16 @@ fr = Kifaransa
 ga-IE = Kieire
 ha = Kihausa
 he = Kiebrania
+hi = Kihindi
 hr = Kikroatia
+hu = Kihangari
+hy-AM = Kiarmenia
 id = Kiindonesia
 it = Kiitaliano
 ja = Kijapani
 ko = Kikorea
 lg = Kiganda
+mn = Kimongoli
 ne-NP = Kinepali
 nl = Kiholanzi
 pt = Kireno
