@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import Modal from '../modal/modal';
 import { Button, LabeledInput, LabeledTextArea, TextButton } from '../ui/ui';

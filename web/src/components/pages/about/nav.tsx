@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as cx from 'classnames';
 import { SECTIONS } from './constants';
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import { FlagIcon, LayersIcon, UsersIcon, HeartIcon } from '../../ui/icons';
 
 const throttle = require('lodash.throttle');

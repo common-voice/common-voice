@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useRef } from 'react';
 import { trackSharing } from '../../services/tracker';
@@ -15,7 +15,7 @@ import { useAction } from '../../hooks/store-hooks';
 
 const SHARE_URL = 'https://voice.mozilla.org/';
 
-interface Props extends LocalizationProps {
+interface Props extends WithLocalizationProps {
   shareTextId?: string;
 }
 

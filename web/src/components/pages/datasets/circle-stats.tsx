@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { GlobeIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
 import Dots from './dots';

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import { GlobalGoal } from 'common';
 
 import './goal-row.css';
@@ -45,7 +45,7 @@ const GoalBox = ({
           votes: 'validations',
         } as any)[type]
       }
-      $count={goal}>
+      vars={{ count: goal }}>
       <div className="unit" />
     </Localized>
     {date && (

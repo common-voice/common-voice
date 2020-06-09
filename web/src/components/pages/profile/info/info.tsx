@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useCallback, useEffect, useState } from 'react';
 import { Redirect, RouteComponentProps, withRouter } from 'react-router';
@@ -38,7 +38,7 @@ const Options = withLocalization(
     getString,
   }: {
     children: { [key: string]: string };
-  } & LocalizationProps) => (
+  } & WithLocalizationProps) => (
     <>
       {Object.entries(children).map(([key, value]) => (
         <option key={key} value={key}>
@@ -54,7 +54,7 @@ type Locales = { locale: string; accent: string }[];
 function ProfilePage({
   getString,
   history,
-}: LocalizationProps & RouteComponentProps<any, any, any>) {
+}: WithLocalizationProps & RouteComponentProps<any, any, any>) {
   const api = useAPI();
   const [locale, toLocaleRoute] = useLocale();
   const user = useTypedSelector(({ user }) => user);
@@ -375,7 +375,9 @@ function ProfilePage({
                         </Localized>
                         <Localized
                           id="accept-privacy"
-                          privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                          elems={{
+                            privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                          }}>
                           <span />
                         </Localized>
                       </>

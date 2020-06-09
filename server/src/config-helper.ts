@@ -75,14 +75,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
-  S3_CONFIG: configEntry(
-    'CV_S3_CONFIG',
-    {
-      signatureVersion: 'v4',
-      useDualstack: true,
-    },
-    castJson
-  ),
+  S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
   SSM_ENABLED: configEntry('CV_SSM_ENABLED', false, castBoolean),
   SSM_CONFIG: configEntry('CV_SSM_CONFIG', {}, castJson),
   AUTH0: {

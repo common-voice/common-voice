@@ -328,7 +328,7 @@ why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dial
 accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>Privacy Policy</privacyLink>.
 accept-privacy-title = Personvernbestemmelser
 login-identity = Innloggingsidentitet
-login-signup = Logg inn / Registrer deg
+login-signup = Logg inn / registrer deg
 edit = Rediger
 email-subscriptions = E-postabonnement
 download-profile = Last ned mine data
@@ -377,24 +377,24 @@ faq-why-important-a =
     Tale er ofte den mest naturlige måten vi kommuniserer med hverandre, og taleteknologi gir oss den muligheten på datamaskiner og portable enheter. Vi ønsker å sette programvareutviklere i stand til å bygge fantastiske talegjenkjenningsapplikasjoner, som sanntidsoversetting og stemmestyrte personlige assistenter. Men akkurat nå er det meste av taledata som trengs for å bygge denne typen applikasjoner dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklere det de trenger for å  lage nye ting og gjøre taleteknologi tilgjengelig på sitt eget språk.
     
     For å gjøre talegjenkjenning enda mer universelt tilgjengelig, samler vi taleklipp både i språk med stor utbredelse og også de med færre brukere som ofte ikke er håndtert av kommersielle talegjenkjenningsprodukter. Ved å publisere et bredt datasett av stemmer setter vi utviklere, gründere og hele språksamfunn i stand til å selv fylle dette behovet.
-faq-how-get-q = Hvordan kan jeg få tilgang til Common Voice datasettet?
-faq-how-get-a = Common Voice datasettet er tilgjengelig for nedlasting under <licenseLink>CC0</licenseLink> lisens på  <datasetLink>vår side med datasett</datasetLink>.  Du kan også laste ned flere andre offentlig tilgjengelige datasett fra samme side.
-faq-when-release2-q = Når vil Common Voice datasettet bli gjort tilgjengelig på andre språk?
+faq-how-get-q = Hvordan kan jeg få tilgang til Common Voice-datasettet?
+faq-how-get-a = Common Voice-datasettet er tilgjengelig for nedlasting under <licenseLink>CC0</licenseLink> lisens på  <datasetLink>vår side med datasett</datasetLink>.  Du kan også laste ned flere andre offentlig tilgjengelige datasett fra samme side.
+faq-when-release2-q = Når vil Common Voice-datasettet bli gjort tilgjengelig på andre språk?
 faq-when-release2-a = Den flerspråklige versjonen av datasettet Common Voice gjennomgår for øyeblikket en dugnadsbasert pakking og rengjøring. Om du vil hjelpe oss med å bringe Common Voice til nye språk, kan du gå til <sentenceCollectorLink> Setningsinnsamlingsverktøy</sentenceCollectorLink> for å legge til nye setninger i datasettet, og Mozilla <pontoonLink> Pontoon </pontoonLink> for å oversette selve nettstedet. Nye språk legges til Common Voice for stemmebidrag når 5000 godkjente setninger er samlet.
 faq-why-mission-q = Hvorfor er Common Voice del av Mozillas oppdrag?
 faq-why-mission-a = Mozilla er opptatt av å holde nettet åpent og tilgjengelig for alle. For å gjøre det, må vi styrke webutviklere gjennom prosjekter som Common Voice. Ettersom taleteknologier sprer seg utover nisjeprogrammer, mener vi at de må tjene alle brukere likt. Det betyr å investere i flere språk og imøtekomme forskjellige aksenter og demografier når du bygger og tester taleteknologier. Common Voice er en offentlig ressurs tilgjengelig for alle, og Mozilla-team og utviklere over hele verden bruker den allerede på våre egne prosjekter.
 faq-what-cv-and-deepspeech-q = Hva er forskjellen mellom Common Voice og Deep Speech?
-faq-what-cv-and-deepspeech-a = Common Voice datasettet komplementerer Mozillas talegjenkjenningsmotor Deep Speech, som er lisensiert som åpen kildekode. Den første utgaven av Deep Speech ble sluppet i november 2017 og har blitt videreutviklet siden. Sammen med Common Voice datasettet mener vi at denne åpne teknologien for talegjenkjenning bør være tilgjengelig for alle. Det er vårt håp at disse teknologiene setter utviklere i stand til å lage en flom av innovative produkter og tjenester.
+faq-what-cv-and-deepspeech-a = Common Voice-datasettet komplementerer Mozillas talegjenkjenningsmotor Deep Speech, som er lisensiert som åpen kildekode. Den første utgaven av Deep Speech ble sluppet i november 2017 og har blitt videreutviklet siden. Sammen med Common Voice-datasettet mener vi at denne åpne teknologien for talegjenkjenning bør være tilgjengelig for alle. Det er vårt håp at disse teknologiene setter utviklere i stand til å lage en flom av innovative produkter og tjenester.
 faq-is-goal-assistant-q = Er målet med Common Voice å bygge en stemmestyrt digital assistent?
-faq-is-goal-assistant-a = Formålet med Common Voice datasettet er å sette hvem som helst, hvor som helst i verden, i stand til å lage talegjenkjenning, gjenkjenning av talere, eller hvilken som helst annen applikasjon som krever lydklipp av stemmer. En stemmestyrt digital assistent er bare en av mange typer applikasjoner du kan bygge med datasettet.
+faq-is-goal-assistant-a = Formålet med Common Voice-datasettet er å sette hvem som helst, hvor som helst i verden, i stand til å lage talegjenkjenning, gjenkjenning av talere, eller hvilken som helst annen applikasjon som krever lydklipp av stemmer. En stemmestyrt digital assistent er bare en av mange typer applikasjoner du kan bygge med datasettet.
 faq-do-want-native-q = Jeg snakker ikke morsmålet mitt, og jeg har en aksent. Vil dere fortsatt ha lydklipp med min stemme?
 faq-do-want-native-a = Ja! Vi vil særlig ha din stemme! Et delmål med Common Voice er å samle så mange forskjellige aksenter som mulig, slik at stemmegjenkjenningstjenester virker like godt for alle. Det betyr at bidrag fra ikke-morsmålstalere er spesielt viktig.
 faq-why-different-speakers-q = Hvorfor trenger dere så mange forskjellige talere per språk?
-faq-why-different-speakers-a = De fleste stemmedatabaser trenes med en overvekt av visse demografier, noe som innebærer vekting mot <articleLink> menn og middelklasse</articleLink>.  Aksenter og dialekter som tenderer til å være underrepresentert i datasettene som benyttes til trening er typisk assosiert med grupper av mennesker som allerede er underrepresentert ellers i samfunnet. Mange talegjenkjenningsmotorer sliter også med å forstå kvinnelige stemmer. Derfor trenger vi stor variasjon i datasettet!
+faq-why-different-speakers-a = De fleste stemmedatabaser trenes med en overvekt av visse demografier, noe som innebærer vekting mot <articleLink>menn og middelklasse</articleLink>.  Aksenter og dialekter som tenderer til å være underrepresentert i datasettene som benyttes til trening er typisk assosiert med grupper av mennesker som allerede er underrepresentert ellers i samfunnet. Mange talegjenkjenningsmotorer sliter også med å forstå kvinnelige stemmer. Derfor trenger vi stor variasjon i datasettet!
 faq-why-my-lang-q = Hvorfor er ikke mitt språk inkludert ennå?
 faq-why-my-lang-new-a = Mozilla velger eller foretrekker ingen språk over noe annet. I stedet er Common Voice et rent samfunnsdrevet initiativ. Men det krever <multilangLink>mange steg for å legge til et nytt språk</multilangLink> og å begynne med å samle inn lydklipp. Først må Common Voice nettstedet oversettes, slik at medlemmer kan bidra på sitt eget språk. Deretter trenger vi en stor samling med rettighetsfrie setninger som folk kan lese høyt. Når begge disse betingelsene er tilfredsstilt blir språket "lansert" på Common Voice, slik at folk kan begynne å spille inn lydklipp med sin stemme og validere andres bidrag. Om du vil hjelpe til med å lansere et nytt språk, besøk vårt <sentenceCollectorLink>verktøy for setningsinnsamling</sentenceCollectorLink>  for å komme i gang.
 faq-what-quality-q = Hva slags lydkvalitet kreves for at et lydklipp kan brukes i datasettet?
-faq-what-quality-a = Vi vil at Common Voice datasettet skal reflektere lydkvaliteten som en tale-til-tekst motor opplever i virkeligheten. Så vi trenger variasjon. I tillegg til et variert utvalg av talere, vil et variert utvalg lydkvaliteter lære tale-til-tekst-motoren å håndtere varierende situasjoner i den virkelige verden, som for eksempel stemmer i bakgrunnen eller støy fra biler. Så lenge lydklippet ditt er forståelig. så burde det være godt nok for datasettet.
+faq-what-quality-a = Vi vil at Common Voice-datasettet skal reflektere lydkvaliteten som en tale-til-tekst motor opplever i virkeligheten. Så vi trenger variasjon. I tillegg til et variert utvalg av talere, vil et variert utvalg lydkvaliteter lære tale-til-tekst-motoren å håndtere varierende situasjoner i den virkelige verden, som for eksempel stemmer i bakgrunnen eller støy fra biler. Så lenge lydklippet ditt er forståelig. så burde det være godt nok for datasettet.
 faq-why-10k-hours-q = Hvorfor er 10000 validerte timer målet for innhenting av lydklipp per språk?
 faq-why-10k-hours-a = Dette er det omtrentlige antallet timer som kreves for å trene et produksjonsklart tale-til-tekst-system.
 faq-how-calc-hours-q = Hvordan beregner Common Voice timer?
@@ -402,16 +402,16 @@ faq-how-calc-hours-a = Vi beregner timer ved å anslå den gjennomsnittlige leng
 faq-where-src-from-2-q = Hvor kommer kildeteksten fra?
 faq-where-src-from-2-a = Kildeteksten vår er dels originalbidrag og dels dialog fra allment tilgjengelige filmmanus som <italic>It’s a Wonderful Life</italic>. Du finner kildeteksten vår i denne <githubLink>GitHub-mappen</githubLink>.
 faq-why-not-ask-read-q = Hvorfor ber dere ikke folk om å lese fra bøker eller Wikipediaartikler i forskjellige språk?
-faq-why-not-ask-read-a = For å gjøre Common Voice datasettet så anvendelig som mulig, har vi bestemt oss for å kun tillate kildetekst som er tilgjengelig under en Creative Commons (CC0) lisens. Ved å sette denne standarden blir det vanskeligere å finne og samle inn kildetekst, men det tillater hvem som helst å benytte lyddatasettet som blir resultat, uten bruksrestriksjoner eller autorisering fra Mozilla. Til syvende og sist ønsker vi jo at det flerspråklige datasettet skal være så anvendelig som mulig for alle, inklusive forskere, universiteter, startups, regjeringer, samfunnsnyttige organisasjoner og amatører.
+faq-why-not-ask-read-a = For å gjøre Common Voice-datasettet så anvendelig som mulig, har vi bestemt oss for å kun tillate kildetekst som er tilgjengelig under en Creative Commons (CC0) lisens. Ved å sette denne standarden blir det vanskeligere å finne og samle inn kildetekst, men det tillater hvem som helst å benytte lyddatasettet som blir resultat, uten bruksrestriksjoner eller autorisering fra Mozilla. Til syvende og sist ønsker vi jo at det flerspråklige datasettet skal være så anvendelig som mulig for alle, inklusive forskere, universiteter, nystartede foretak, regjeringer, samfunnsnyttige organisasjoner og amatører.
 faq-why-account-q = Hvorfor bør jeg lage en brukerkonto?
 faq-is-account-public-q = Er informasjonen om min brukerkonto offentlig?
 faq-how-privacy-q = Hvordan garanterer dere anonymitet og personvern for menneskene som har bidratt med sin stemme?
 faq-how-privacy-a = Alle lydklipp i datasettet skrubbes for personidentifiserende informasjon. Når en bidragsyter oppgir demografiske data via sin brukerprofil, frikobles denne informasjonen fra de bidratte lydklippene før de bundles for nedlasting i datasettet. Informasjonen offentligjøres aldri på brukerens profilside.
-faq-what-determine-identity-q = Hva betyr det at jeg ikke kan "fastslå identiteten" til talere i Common Voice datasettet?
+faq-what-determine-identity-q = Hva betyr det at jeg ikke kan «fastslå identiteten» til talere i Common Voice-datasettet?
 faq-what-determine-identity-a =
-    Common Voice datasettet er en åpen og allment tilgjengelig ressurs som kan brukes til å trene et bredt spekter av taleaktiverte applikasjoner. For å beskytte sikkerheten til våre bidragsytere, ber vi alle som laster ned  Common Voice datasettet om å respektere bidragsyteres personvern.
+    Common Voice-datasettet er en åpen og allment tilgjengelig ressurs som kan brukes til å trene et bredt spekter av taleaktiverte applikasjoner. For å beskytte sikkerheten til våre bidragsytere, ber vi alle som laster ned  Common Voice-datasettet om å respektere bidragsyteres personvern.
     
-    Alle lydklipp i datasettet blir skrubbet for personidentifiserende informasjon. Når du laster ned datasettet, godtar du  å ikke forsøke å identifisere noen bidragsyterr. Det betyr at du ikke skal prøve å koble informasjon i datasettet til en bidragsyters personlige opplysninger. Du kan imidlertid bruke datasettet til å trene tale-gjenkjenning, taler-gjenkjenning eller andre typer programmer. For eksempel ved å koble informasjon i datasettet til annen informasjon allerede i datasettet.
+    Alle lydklipp i datasettet blir skrubbet for personidentifiserende informasjon. Når du laster ned datasettet, godtar du å ikke forsøke å identifisere noen bidragsytere. Det betyr at du ikke skal prøve å koble informasjon i datasettet til en bidragsyters personlige opplysninger. Du kan imidlertid bruke datasettet til å trene tale-gjenkjenning, taler-gjenkjenning eller andre typer programmer. For eksempel ved å koble informasjon i datasettet til annen informasjon allerede i datasettet.
 faq-what-is-cv = Hva er Common Voice?
 faq-using-cv = Bruke Common Voice
 faq-description = Common Voice er en del av Mozillas initiativ for å hjelpe maskiner å forstå hvordan virkelige mennesker snakker.
@@ -434,13 +434,13 @@ about-listen-text = Brukere validerer nøyaktigheten av bidratte lydklipp og kon
 about-is-it-valid = Er lydklippet gyldig?
 about-is-it-valid-text = Et lydklipp er markert som «gyldig» når en bruker gir det en «Ja»-stemme.
 about-yes-votes = ≥ 2 Ja-stemmer
-about-yes-votes-text = For å komme med i Common Voice datasettet må et lydklipp bli godkjent av to separate brukere.
+about-yes-votes-text = For å komme med i Common Voice-datasettet må et lydklipp bli godkjent av to separate brukere.
 about-no-votes = ≥ 2 Nei-stemmer
 about-no-votes-text = Når en bruker underkjenner et lydklipp, blir det returnert til køen. Om det blir underkjent en gang til blir lydklippet sendt på lydklippfyllinga.
-about-dataset-new = Common Voice datasettet
-about-dataset-new-text = Common Voice datasettet inneholder hundretusenvis av lydklipp som hjelper utviklere med å lage talegjenkjenningsverktøy.
+about-dataset-new = Common Voice-datasettet
+about-dataset-new-text = Common Voice-datasettet inneholder hundretusenvis av lydklipp som hjelper utviklere med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Lydklippfyllinga
-about-clip-graveyard-text = Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
+about-clip-graveyard-text = Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
 about-partners = Partnere
 about-become-a-partner = Bli en partner
 about-partnership = Common Voice er et samarbeidsprosjekt, og vi er avhengig av vårt samfunn av partnere og bidragsytere for å bygge det største åpen-kilde datasettet av stemmer noensinne.  Vi vil gjerne få takke følgende personer og organisasjoner for deres bistand med prosjektet:
@@ -494,7 +494,7 @@ data-other-title = Andre stemmedatasett...
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-bundle-button = Last ned datasettene
-data-bundle-description = Common Voice datasettet pluss alle andre stemmedatasett over.
+data-bundle-description = Common Voice-datasettet pluss alle andre stemmedatasett over.
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 review-terms = Ved å bruke Common Voice, godkjenner du <termlink>vilkårene</termlink> og <privacyLink>personvernbestemmelsen</privacyLink> vår
@@ -528,32 +528,32 @@ audio-format = Lydformat
 number-of-voices = Antall stemmer
 splits = Deler
 email-to-download = Skriv inn e-post for å laste ned
-why-email = <b> Hvorfor en e-postadresse? </b> Vi kan komme til å måtte kontakte deg i fremtiden om endringer i datasettet, en e-postadresse gir oss et kontaktpunkt.
+why-email = <b>Hvorfor en e-postadresse?</b> Vi kan komme til å måtte kontakte deg i fremtiden om endringer i datasettet, en e-postadresse gir oss et kontaktpunkt.
 confirm-size = Du er forberedt på å starte nedlasting av <b> { $size } </b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b> Du sier deg enig </b> i å ikke prøve å identifisere talere i Common Voice-datasettet
+confirm-no-identify = <b>Du sier deg enig</b> i å ikke prøve å identifisere talere i Common Voice-datasettet
 download-language = Last ned { $language }
 validated-hours = Validerte timer
 recorded-hours = Innspilte timer
 whats-inside = Hva inneholder Common Voice-datasettet?
 dataset-description-hours =
-    Hver oppføring i datasettet består av en unik mp3-fil og en tilhørende tekstfil. Mange av de <b> { $total } </b> timer som er spilt inn i datasettet inkluderer også demografiske metadata som alder, kjønn og aksent som kan bidra til å trene nøyaktigheten til talegjenkjenningsmotorer.
+    Hver oppføring i datasettet består av en unik mp3-fil og en tilhørende tekstfil. Mange av de <b>{ $total }</b> timer som er spilt inn i datasettet inkluderer også demografiske metadata som alder, kjønn og aksent som kan bidra til å trene nøyaktigheten til talegjenkjenningsmotorer.
     
-    Datasettet består for øyeblikket av <b> { $valid } </b> validerte timer på <b> { $languages } </b> språk, men vi legger hele tiden til flere stemmer og språk. Ta en titt på <languagesLink> Språk-siden </languagesLink> for å be om et språk eller begynne å bidra.
+    Datasettet består for øyeblikket av <b>{ $valid }</b> validerte timer på <b>{ $languages }</b> språk, men vi legger hele tiden til flere stemmer og språk. Ta en titt på <languagesLink>språksiden</languagesLink> for å be om et språk eller begynne å bidra.
 want-dataset-update = Vil du ha en oppdatering når vi slipper en ny versjon av Common Voice-datasettet? Abonner på vårt nyhetsbrev.
 subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du tilbakemeldinger?
-deepspeech-info = Common Voice-datasettet komplementerer Mozillas åpen kildekode stemmegjenkjenningsmotor Deep Speech, som du kan bruke til å bygge talegjenkjenningsapplikasjoner. Les vår <githubLink> Github-oversikt </githubLink> eller bli med på <discourseLink> DeepSpeech Discourse </discourseLink> for å lære hvordan du kommer i gang.
+deepspeech-info = Common Voice-datasettet komplementerer Mozillas åpen kildekode stemmegjenkjenningsmotor Deep Speech, som du kan bruke til å bygge talegjenkjenningsapplikasjoner. Les vår <githubLink>Github-oversikt</githubLink> eller bli med på <discourseLink>DeepSpeech Discourse</discourseLink> for å lære hvordan du kommer i gang.
 common-voice-info-new = Har du spørsmål om Common Voice? Ideer til forbedringer eller tilbakemeldinger om et spesifikt språk? Bli med på vårt <discourseLink> Discourse forum </discourseLink> og gi oss beskjed.
 data-other-librispeech-description = LibriSpeech er et korpus på omtrent 1000 timer med 16 kHz lest engelsk tale hentet fra innleste lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM-korpuset ble produsert av presentasjoner og deres transkripsjoner tilgjengelig på TED-nettstedet.
 data-other-voxforge-description = VoxForge ble satt opp for å samle transkribert tale for bruk med fri og åpen kildekode talegjenkjenningsmotorer.
 data-other-tatoeba-description = Tatoeba er en stor database med setninger, oversettelser og tale for bruk i språkopplæring. Denne nedlastingen inneholder engelsk som er spilt inn av deres samfunn.
-your-feedback = Har du ideer til hvordan vi kan gjøre Common Voice datasettet bedre? Gi oss beskjed på Discourse
+your-feedback = Har du ideer til hvordan vi kan gjøre Common Voice-datasettet bedre? Gi oss beskjed på Discourse
 go-discourse = Gå til Discourse
 missing-language = Ser du ikke språket ditt i datamengden? For å be om et språk, gå til språksiden vår.
 go-languages-page = Gå til Språk-siden
@@ -785,10 +785,10 @@ share-goal = Del målet mitt
 
 ## Profile Delete
 
-delete-q = Vil du at lydklippene dine også slettes, eller vil du helst beholde de i Common Voice datasettet?
+delete-q = Vil du at lydklippene dine også slettes, eller vil du helst beholde de i Common Voice-datasettet?
 keep = Behold
 remove = Fjern
-keep-info = Dine anonyme stemmeopptak vil forbli i Common Voice datasettet. Når du har slettet profilen din, vil du ikke lenger kunne sende inn en forespørsel om å fjerne opptakene dine fra datasettet
+keep-info = Dine anonyme stemmeopptak vil forbli i Common Voice-datasettet. Når du har slettet profilen din, vil du ikke lenger kunne sende inn en forespørsel om å fjerne opptakene dine fra datasettet
 remove-info = Vi vil gjennomgå forespørselen din om å fjerne stemmeavspillingen fra datasettet. Hvis forespørselen din blir godkjent, kontakter vi de som har lastet ned datasettet, og ber om at også de fjerner lydklippene dine.
 why-delete-recordings =
     Common Voice lydklipp brukes av akademikere, små bedrifter og talegjenkjenningsentusiaster for å hjelpe til med å trene og øke offentlig tilgjengelige ressurser som stemmemodeller.

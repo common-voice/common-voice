@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
@@ -13,6 +13,7 @@ import {
   localeConnector,
   LocalePropsFromState,
   LocalizedGetAttribute,
+  LocaleLink,
 } from '../../locale-helpers';
 import { CloudIcon } from '../../ui/icons';
 import {
@@ -25,6 +26,7 @@ import {
 } from '../../ui/ui';
 import CircleStats from './circle-stats';
 import stats from './stats';
+import URLS from '../../../urls';
 
 import './dataset-info.css';
 
@@ -94,7 +96,7 @@ interface PropsFromState {
   api: API;
 }
 
-type Props = LocalePropsFromState & LocalizationProps & PropsFromState;
+type Props = LocalePropsFromState & WithLocalizationProps & PropsFromState;
 
 type State = {
   bundleLocale: string;
@@ -225,22 +227,30 @@ class DatasetInfo extends React.Component<Props, State> {
                   'cv-license': 'CC-0',
                   'number-of-voices': localeStats.users.toLocaleString(),
                   'audio-format': 'MP3',
-                  splits: Object.entries(localeStats.splits)
-                    .filter(([, values]) => Object.keys(values).length > 1)
-                    .map(([category, values]) => (
-                      <Splits
-                        key={category}
-                        {...{ category, values, bundleLocale }}
-                      />
-                    )),
-                }).map(([id, value]) => (
-                  <li key={id}>
-                    <Localized id={id}>
-                      <span className="label" />
-                    </Localized>
-                    <span className="value">{value}</span>
-                  </li>
-                ))}
+                  splits:
+                    localeStats.users >= 5
+                      ? Object.entries(localeStats.splits)
+                          .filter(
+                            ([, values]) => Object.keys(values).length > 1
+                          )
+                          .map(([category, values]) => (
+                            <Splits
+                              key={category}
+                              {...{ category, values, bundleLocale }}
+                            />
+                          ))
+                      : null,
+                }).map(
+                  ([id, value]) =>
+                    value && (
+                      <li key={id}>
+                        <Localized id={id}>
+                          <span className="label" />
+                        </Localized>
+                        <span className="value">{value}</span>
+                      </li>
+                    )
+                )}
               </ul>
               {hideEmailForm ? (
                 <>
@@ -253,7 +263,7 @@ class DatasetInfo extends React.Component<Props, State> {
                     </Localized>
                     <CloudIcon />
                   </Button>
-                  <Localized id="why-email" b={<b />}>
+                  <Localized id="why-email" elems={{ b: <b /> }}>
                     <p className="why-email" />
                   </Localized>
                 </>
@@ -269,7 +279,10 @@ class DatasetInfo extends React.Component<Props, State> {
                   </Localized>
                   <LabeledCheckbox
                     label={
-                      <Localized id="confirm-size" b={<b />} $size={size}>
+                      <Localized
+                        id="confirm-size"
+                        elems={{ b: <b /> }}
+                        vars={{ size }}>
                         <span />
                       </Localized>
                     }
@@ -280,7 +293,7 @@ class DatasetInfo extends React.Component<Props, State> {
                   />
                   <LabeledCheckbox
                     label={
-                      <Localized id="confirm-no-identify" b={<b />}>
+                      <Localized id="confirm-no-identify" elems={{ b: <b /> }}>
                         <span />
                       </Localized>
                     }
@@ -307,7 +320,7 @@ class DatasetInfo extends React.Component<Props, State> {
                     style={{ minWidth: 300 }}>
                     <Localized
                       id="download-language"
-                      $language={getString(bundleLocale)}>
+                      vars={{ language: getString(bundleLocale) }}>
                       <span />
                     </Localized>
                     <CloudIcon />
@@ -328,14 +341,11 @@ class DatasetInfo extends React.Component<Props, State> {
             <CircleStats {...globalStats} className="hidden-lg-up" />
             <Localized
               id="dataset-description-hours"
-              b={<b />}
-              {...Object.entries(globalStats).reduce(
-                (obj: any, [key, value]) => {
-                  obj['$' + key] = value;
-                  return obj;
-                },
-                {}
-              )}>
+              vars={globalStats}
+              elems={{
+                b: <b />,
+                languagesLink: <LocaleLink to={URLS.LANGUAGES}></LocaleLink>,
+              }}>
               <p />
             </Localized>
           </div>

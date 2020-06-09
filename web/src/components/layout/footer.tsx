@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
 import ShareButtons from '../share-buttons/share-buttons';
@@ -15,8 +15,8 @@ import './footer.css';
 const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
   const [locale] = useLocale();
   return (
-    <Localized id={id} onClick={() => trackNav(id, locale)}>
-      <LocaleLink to={to} />
+    <Localized id={id}>
+      <LocaleLink to={to} onClick={() => trackNav(id, locale)} />
     </Localized>
   );
 };
@@ -26,9 +26,9 @@ export default React.memo(() => {
   return (
     <footer>
       <div id="help-links">
-        <LocaleLink to={URLS.FAQ}>
+        <LocaleLink to={URLS.FAQ} onClick={() => trackNav('faq', locale)}>
           <SupportIcon />
-          <Localized id="faq" onClick={() => trackNav('faq', locale)}>
+          <Localized id="faq">
             <div />
           </Localized>
         </LocaleLink>
@@ -51,13 +51,15 @@ export default React.memo(() => {
           <p className="license">
             <Localized
               id="content-license-text"
-              licenseLink={
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
-                />
-              }>
+              elems={{
+                licenseLink: (
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
+                  />
+                ),
+              }}>
               <span />
             </Localized>
           </p>

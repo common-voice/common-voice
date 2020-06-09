@@ -1,4 +1,3 @@
-const { LocalizationProvider, Localized } = require('fluent-react/compat');
 import * as React from 'react';
 import { useState } from 'react';
 import { DAILY_GOALS } from '../../../constants';
@@ -6,12 +5,13 @@ import { RouteComponentProps, withRouter } from 'react-router';
 import ContentLoader from 'react-content-loader';
 import { InProgressLanguage, LaunchedLanguage } from 'common';
 import URLS from '../../../urls';
-import { createCrossLocaleBundleGenerator } from '../../../services/localization';
+import { createCrossLocalization } from '../../../services/localization';
 import { trackLanguages } from '../../../services/tracker';
 import { toLocaleRouteBuilder, useLocale } from '../../locale-helpers';
 import ProgressBar from '../../progress-bar/progress-bar';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
+import { Localized, LocalizationProvider } from '@fluent/react';
 
 const SENTENCE_COUNT_TARGET = 5000;
 
@@ -132,9 +132,7 @@ const LocalizationBox = React.memo((props: Props) => {
 
   const [showModal, setShowModal] = useState(false);
 
-  const buildBundleGenerator = () =>
-    localeMessages &&
-    createCrossLocaleBundleGenerator(localeMessages, [locale, globalLocale]);
+  const l10n = createCrossLocalization(localeMessages, [locale, globalLocale]);
 
   const title = (
     <Localized id={locale}>
@@ -145,7 +143,7 @@ const LocalizationBox = React.memo((props: Props) => {
   return (
     <>
       {showModal && (
-        <LocalizationProvider bundles={buildBundleGenerator()}>
+        <LocalizationProvider l10n={l10n}>
           <GetInvolvedModal
             locale={locale}
             onRequestClose={() => setShowModal(false)}
@@ -169,7 +167,7 @@ const LocalizationBox = React.memo((props: Props) => {
           progress={props.sentencesCount}
           progressTotal={SENTENCE_COUNT_TARGET}
           onClick={() => setShowModal(true)}>
-          <LocalizationProvider bundles={buildBundleGenerator()}>
+          <LocalizationProvider l10n={l10n}>
             <Localized id="get-involved-button">
               <span />
             </Localized>
@@ -200,7 +198,7 @@ const LocalizationBox = React.memo((props: Props) => {
             trackLanguages('contribute', locale);
             history.push(toLocaleRouteBuilder(locale)(URLS.SPEAK));
           }}>
-          <LocalizationProvider bundles={buildBundleGenerator()}>
+          <LocalizationProvider l10n={l10n}>
             <Localized id="contribute">
               <span />
             </Localized>

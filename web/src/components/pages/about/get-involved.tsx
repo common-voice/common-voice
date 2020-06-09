@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import {
   GitHubLink,
   DiscourseLink,
@@ -46,9 +46,11 @@ const GetInvolved: React.ComponentType = () => {
 
         <Localized
           id="about-get-involved-text-2"
-          discourseLink={<DiscourseLink />}
-          githubLink={<GitHubLink />}
-          matrixLink={<MatrixLink />}>
+          elems={{
+            discourseLink: <DiscourseLink />,
+            githubLink: <GitHubLink />,
+            matrixLink: <MatrixLink />,
+          }}>
           <p />
         </Localized>
 

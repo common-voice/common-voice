@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useEffect } from 'react';
 import { connect } from 'react-redux';
@@ -55,7 +55,10 @@ interface PropsFromDispatch {
   saveAccount: any;
 }
 
-interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
+interface Props
+  extends WithLocalizationProps,
+    PropsFromState,
+    PropsFromDispatch {}
 
 function Settings(props: Props) {
   const { account, addNotification, getString, saveAccount } = props;
@@ -133,7 +136,9 @@ function Settings(props: Props) {
               <div>
                 <Localized
                   id="email-opt-in-privacy"
-                  privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                  elems={{
+                    privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                  }}>
                   <div />
                 </Localized>
                 <br />

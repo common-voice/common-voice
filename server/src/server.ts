@@ -6,6 +6,7 @@ import * as express from 'express';
 import * as Sentry from '@sentry/node';
 import { NextFunction, Request, Response } from 'express';
 import { importLocales } from './lib/model/db/import-locales';
+import { importTaxonomies } from './lib/model/db/import-taxonomies';
 import Model from './lib/model';
 import {
   getFullClipLeaderboard,
@@ -13,7 +14,6 @@ import {
 } from './lib/model/leaderboard';
 import { trackPageView } from './lib/analytics';
 import API from './lib/api';
-import Logger from './lib/logger';
 import { redis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
@@ -48,14 +48,16 @@ const CSP_HEADER = [
   `frame-src https://optimize.google.com`,
 ].join(';');
 
-Sentry.init({ dsn: getConfig().SENTRY_DSN });
+Sentry.init({
+  dsn: getConfig().SENTRY_DSN,
+  release: RELEASE_VERSION,
+});
 
 export default class Server {
   app: express.Application;
   server: http.Server;
   model: Model;
   api: API;
-  logger: Logger;
   isLeader: boolean;
 
   get version() {
@@ -67,7 +69,6 @@ export default class Server {
     options = { bundleCrossLocaleMessages: true, ...options };
     this.model = new Model();
     this.api = new API(this.model);
-    this.logger = new Logger();
     this.isLeader = null;
 
     const app = (this.app = express());
@@ -111,9 +112,10 @@ export default class Server {
         // redirect to omit trailing slashes
         if (request.path.substr(-1) == '/' && request.path.length > 1) {
           const query = request.url.slice(request.path.length);
+          const host = request.get('host');
           response.redirect(
             HttpStatus.MOVED_PERMANENTLY,
-            request.path.slice(0, -1) + query
+            `https://${host}${request.path.slice(0, -1)}${query}`
           );
         } else {
           next();
@@ -170,7 +172,7 @@ export default class Server {
 
       app.use(
         '/contribute.json',
-        express.static(path.join(__dirname, '..', 'contribute.json'))
+        express.static(path.join(__dirname, '..', '..', 'contribute.json'))
       );
 
       if (options.bundleCrossLocaleMessages) {
@@ -287,6 +289,7 @@ export default class Server {
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }
+      await importTaxonomies();
       this.print('Maintenance complete');
     } catch (err) {
       this.print('Maintenance error', err);
@@ -363,10 +366,7 @@ export default class Server {
     this.print('acquiring lock');
     const lock = await redlock.lock(
       'common-voice-maintenance-lock',
-      1000 *
-        60 *
-        60 *
-        30 /* intended 30 minutes -> actually 30 hours, to be adjusted @TODO */
+      1000 * 60 * 60 * 6 /* keep lock for 6 hours */
     );
     // we need to check again after the lock was acquired, as another instance
     // might've already migrated in the meantime

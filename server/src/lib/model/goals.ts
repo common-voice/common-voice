@@ -28,7 +28,7 @@ async function hasComputedGoals(client_id: string) {
     'SELECT has_computed_goals FROM user_clients WHERE client_id = ?',
     [client_id]
   );
-  return Boolean(client.has_computed_goals);
+  return Boolean(client?.has_computed_goals);
 }
 
 export async function computeGoals(client_id: string): Promise<any> {

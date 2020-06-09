@@ -353,12 +353,12 @@ recreate-voice = ଭଏସୱେଭକୁ ପୁନଃ ତିଆରି କରନ
 cancel-avatar-clip-recording = ବାତିଲ କରନ୍ତୁ
 about-avatar-clip-recording = ଆପଣଙ୍କର ପ୍ରୋଫାଇଲ ପାଇଁ ଏକ ଛୋଟ ଧ୍ୱନି ତିଆରି କରନ୍ତୁ । ଅନ୍ୟମାନେ ହୋଭର କରି ଆପଣଙ୍କର ଧ୍ୱନିଟି ଶୁଣିପାରିବେ ।
 browse-file-title = ଗୋଟିଏ ଛବି ଫାଇଲ ଅପଲୋଡ଼ କରନ୍ତୁ
-browse-file = ଭିଡିଆଣି କଚାଡ଼ିଦିଅନ୍ତୁ କିମ୍ବା <browseWrap> ଦେଖନ୍ତୁ </browseWrap>
-connect-gravatar = ଗ୍ରାବତାର ସହିତ ଯୋଡ଼ନ୍ତୁ
-gravatar_not_found = ଆପଣଙ୍କର ଇମେଲ ପାଇଁ କୌଣସି ଗ୍ରାବତାର ମିଳିଲା ନାହିଁ
+browse-file = ଟାଣି ଆଣି ଛାଡ଼ିଦିଅନ୍ତୁ ବା <browseWrap> ବ୍ରାଉଜକରନ୍ତୁ </browseWrap>
+connect-gravatar = ଗ୍ରାଭଟାର ସହିତ ଯୋଡ଼ନ୍ତୁ
+gravatar_not_found = ଆପଣଙ୍କର ଇମେଲ ପାଇଁ କୌଣସି ଗ୍ରାଭଟାର ମିଳିଲା ନାହିଁ
 file_too_large = ଚୟନିତ ଫାଇଲଟି ବହୁତ ବଡ଼ ଅଟେ
 manage-subscriptions = ସବସ୍କ୍ରିପସନକୁ ପରିଚାଳନା କରନ୍ତୁ
-manage-email-subscriptions = ଇମେଲ ସବସ୍କ୍ରିପସନକୁ ପରିଚାଳନା କରନ୍ତୁ
+manage-email-subscriptions = ଇମେଲ ସବସ୍କ୍ରିପସନ ପରିଚାଳନା କରନ୍ତୁ
 email-already-used = ଅନ୍ୟ ଏକ ଖାତା ପାଇଁ ଏହି ଇମେଲଟି ଉପଯୋଗ ହେଉଛି
 add-language = ଭାଷା ଯୋଡ଼ନ୍ତୁ
 change-email-setings = ଲଗିନ ସେଟିଙ୍ଗ ତଳେ ନିଜର ଇମେଲ ପରିବର୍ତ୍ତନ କରନ୍ତୁ
@@ -412,7 +412,7 @@ faq-what-determine-identity-a =
     
     ସମସ୍ତ ସ୍ୱର ଧ୍ଵନିଗୁଡିକରୁ ବ୍ୟକ୍ତିଗତ ତଥ୍ୟ କଢ଼ାଯାଇଥାଏ । ଯେତେବେଳେ ଆପଣ ତଥ୍ୟ ଡାଉନଲୋଡ଼ କରନ୍ତି, ଆପଣ କୌଣସି ଯୋଗଦାନକର୍ତ୍ତାଙ୍କୁ ଚିହ୍ନିବାକୁ ଚେଷ୍ଟା କରିବେ ନାହିଁ ବୋଲି ସହମତ । ଏହାର ଅର୍ଥ ଆପଣ ତଥ୍ୟଭଣ୍ଡାରରୁ ଯୋଗଦାନକର୍ତ୍ତାଙ୍କର ସୂଚନା ସହିତ ତାଙ୍କର ବ୍ୟକ୍ତିଗତ ସୂଚନାକୁ ଯୋଡ଼ିବାକୁ ଚେଷ୍ଟା କରିପାରିବେ ନାହିଁ । କିନ୍ତୁ ତଥ୍ୟଭଣ୍ଡାରରେ ପୂର୍ବରୁ ଥିବା ଅନ୍ୟ ତଥ୍ୟାବଳୀ ସହିତ ଆପଣ ଲିଙ୍କ କରି, ସ୍ପିଚ ରେକଗନୀସନ, ସ୍ପିକର ରେକଗନୀସନ ବା ଅନ୍ୟ ଆପକୁ ତାଲିମ ଦେବାପାଇଁ ଆପଣ ତଥ୍ୟଭଣ୍ଡାରକୁ ଉପଯୋଗ କରିପାରିବେ ।
 faq-what-is-cv = Common Voice କଣ?
-faq-using-cv = Common Voice ବ୍ୟବହାର କରି
+faq-using-cv = Common Voice ବ୍ୟବହାର କରିବା
 faq-description = ବାସ୍ତବ ଲୋକମାନେ କିଭଳି କଥାହୁଅନ୍ତି ତାହା ମେସିନ ମାନଙ୍କୁ ଶିଖାଇବା ପାଇଁ Mozilla ର ପ୍ରୟାସ, Common Voice ।
 faq-search-for-answers =
     .label = ଉତ୍ତରପାଇଁ ଖୋଜନ୍ତୁ
@@ -597,9 +597,9 @@ other-language = ଅନ୍ୟାନ୍ୟ ଭାଷା
 ## Languages Overview
 
 language-section-in-progress = ଚାଲିଛି
-language-section-in-progress-new-description = ଏହି ଭାଷାଗୁଡ଼ିକ ବର୍ତ୍ତମାନ ସମୁଦାୟ ତିଆରି କରୁଛନ୍ତି । ପ୍ରତ୍ୟେକ ଭାଷାର ପ୍ରଗତି ପଟ୍ଟା ତାହାର <localizationGlossaryLink>ୱେବସାଇଟ ସ୍ଥାନୀୟକରଣ</localizationGlossaryLink> ଏବଂ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗ୍ରହ</sentenceCollectionGlossaryLink>ର ଉନ୍ନତି ଦେଖାଉଛି ।
+language-section-in-progress-new-description = ସମୁଦାୟମାନେ ଏବେ ଏହି ଭାଷାଗୁଡ଼ିକ ତିଆରି କରୁଛନ୍ତି । ଏହି ପ୍ରଗତି ବାର୍ ପ୍ରତ୍ୟେକ ଭାଷାର <localizationGlossaryLink>ୱେବସାଇଟ ସ୍ଥାନୀୟକରଣ</localizationGlossaryLink> ଓ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗ୍ରହ</sentenceCollectionGlossaryLink>ର ଉନ୍ନତି ଦର୍ଶାଉଛି ।
 language-section-launched = ଆରମ୍ଭ ହେଲା
-language-section-launched-description = ଏହି ସବୁ ପ୍ରକାଶିତ ଭାଷାଗୁଡ଼ିକ ପାଇଁ ୱେବସାଇଟ ସଫଳତାର ସହିତ <localizationGlossaryLink>ସ୍ଥାନୀୟ</localizationGlossaryLink> କରାଯାଇଛି, ଏବଂ ଯଥେଷ୍ଟ ମାତ୍ରାରେ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗ୍ରହ</sentenceCollectionGlossaryLink> ହୋଇଛି ଯାହାକୁ ଉପଯୋଗ କରି ଉଭୟ <speakLink>କଥାବାର୍ତ୍ତା</speakLink> ଏବଂ <listenLink>ଶୁଣିବାର</listenLink> ଯୋଗଦାନ ଦେଇହେବ ।
+language-section-launched-description = ଏସବୁ ପ୍ରକାଶିତ ଭାଷାଗୁଡ଼ିକ ପାଇଁ ୱେବସାଇଟଟି ସଫଳ ଭାବେ <localizationGlossaryLink>ସ୍ଥାନୀୟକରଣ</localizationGlossaryLink> କରାଯାଇଛି ଏବଂ ଯଥେଷ୍ଟ ମାତ୍ରାରେ <sentenceCollectionGlossaryLink>ବାକ୍ୟ ସଂଗୃହୀତ</sentenceCollectionGlossaryLink> ହୋଇଛି ଯାହାକୁ ବ୍ୟବହାର କରି ଉଭୟ <speakLink>କହିପାରିବେ</speakLink> ଆଉ <listenLink>ଶୁଣିପାରିବେ</listenLink> ।
 languages-show-more = ଅଧିକ ଦେଖନ୍ତୁ
 languages-show-less = କମ ଦେଖନ୍ତୁ
 language-meter-in-progress = ପ୍ରଗତି
@@ -713,10 +713,10 @@ validations =
 
 your-languages = ଆପଣଙ୍କର ଭାଷାଗୁଡ଼ିକ
 toward-next-goal = ଆଗାମୀ ଲକ୍ଷ୍ୟ ଆଡ଼କୁ
-clips-you-recorded = ଆପଣ ଲିପିବଦ୍ଧ କରିଥିବା ଧ୍ୱନିଗୁଡ଼ିକ
-clips-you-validated = ଆପଣ ପରଖିଥିବା କ୍ଲିପ
-todays-recorded-progress = ଧ୍ୱନିରେ ହୋଇଥିବା ଆଜିର Common Voice ପ୍ରଗତି ରେକର୍ଡ ହୋଇଯାଇଛି
-todays-validated-progress = ପରଖା ସରିଥିବା କ୍ଲିପରେ ଆଜିର Common Voice ଅଗ୍ରଗତି
+clips-you-recorded = ଆପଣ ରେକର୍ଡ଼ କରିଥିବା କ୍ଲିପ
+clips-you-validated = ଆପଣ ପରଖି ସାରିଥିବା କ୍ଲିପ
+todays-recorded-progress = ଆଜି Common Voiceରେ ରେକର୍ଡ଼ ହୋଇଥିବା କ୍ଲିପର ଅଗ୍ରଗତି
+todays-validated-progress = ଆଜି Common Voiceରେ ପରଖା ସରିଥିବା କ୍ଲିପର ଅଗ୍ରଗତି
 stats = ପରିସଂଖ୍ୟାନ
 awards = ପୁରସ୍କାରଗୁଡିକ
 you = ଆପଣ
@@ -735,7 +735,7 @@ show-ranking = ମୋର ranking ଦେଖାନ୍ତୁ
 ## Custom Goals
 
 get-started-goals = ଲକ୍ଷ୍ୟ ସହ ଆରମ୍ଭ କରନ୍ତୁ
-create-custom-goal = ଗୋଟିଏ ପରିବର୍ତ୍ତନଶୀଳ ଲକ୍ଷ୍ୟ ତିଆରି କରନ୍ତୁ
+create-custom-goal = ନିଜ ପସନ୍ଦର ଲକ୍ଷ୍ୟଟିଏ ଧାର୍ଯ୍ୟ କରନ୍ତୁ
 both-speak-and-listen = ଉଭୟ
 both-speak-and-listen-long = ଉଭୟ (କୁହନ୍ତୁ ଏବଂ ଶୁଣନ୍ତୁ)
 daily-goal = ଦୈନିକ ଲକ୍ଷ୍ୟ
@@ -786,7 +786,7 @@ remove = ବାହାର କରନ୍ତୁ
 keep-info = ଆପଣଙ୍କର ବେନାମୀ ଧ୍ୱନି ରେକର୍ଡିଙ୍ଗଗୁଡ଼ିକ Common Voice ତଥ୍ୟଭଣ୍ଡାରରେ ରହିବ । ଥରେ ଯଦି ଆପଣ ଆପଣଙ୍କର ପ୍ରୋଫାଇଲ ବିଲୋପ କରିଦେବେ ତେବେ ଆପଣଙ୍କର ରେକର୍ଡିଙ୍ଗ ଗୁଡିକୁ ତଥ୍ୟଭଣ୍ଡାରରୁ ବିଲୋପ କରିବାକୁ ଅନୁରୋଧ କରିପାରିବେ ନାହିଁ ।
 remove-info = ଆମେ ଆପଣଙ୍କର ତଥ୍ୟଭଣ୍ଡାରରୁ ତଥ୍ୟ ବିଲୋପର ଅନୁରୋଧକୁ ବିଚାର କରିବୁ । ଯଦି ଆପଣଙ୍କର ଅନୁରୋଧ ଅନୁମୋଦିତ ହୋଇଯିବ, ଆମେ ଆପଣଙ୍କର ରେକର୍ଡିଙ୍ଗ ଡାଉନଲୋଡ଼ କରିଥିବା ବ୍ୟକ୍ତିମାନନଙ୍କୁ ମଧ୍ୟ ଆପଣଙ୍କର ରେକର୍ଡିଙ୍ଗ ବିଲୋପ କରିବାକୁ ଯୋଗାଯୋଗ କରିବୁ ।
 why-delete-recordings = Common Voice ରେକର୍ଡିଙ୍ଗଗୁଡିକ ବିଦ୍ୟାଳୟ ସ୍ତରରେ, କ୍ଷୁଦ୍ର ବ୍ୟବସାୟ ଏବଂ ଭଏସ ରେକଗନୀସନ ଆଗ୍ରହୀମାନଙ୍କୁ ସାର୍ବଜନିକ ଭଏସ ମଡେଲଗୁଡ଼ିକୁ ତାଲିମ ଏବଂ ଉନ୍ନତ କରିବାକୁ ସୁଯୋଗ ଦେବ ।
-profile-form-delete = ପ୍ରଫାଇଲ ହଟାନ୍ତୁ
+profile-form-delete = ପ୍ରୋଫାଇଲ ଲିଭାନ୍ତୁ
 
 ## Landing
 

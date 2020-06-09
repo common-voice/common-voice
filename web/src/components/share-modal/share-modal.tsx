@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import Modal from '../modal/modal';
 import ShareButtons from '../share-buttons/share-buttons';
@@ -23,7 +23,7 @@ export default ({
     {title ? (
       <h1>{title}</h1>
     ) : (
-      <Localized id="share-title-new" bold={<b />}>
+      <Localized id="share-title-new" elems={{ bold: <b /> }}>
         <h1 />
       </Localized>
     )}

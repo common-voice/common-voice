@@ -8,6 +8,8 @@ email-input =
     .label = Mailadresse
 submit-form-action = Indsend
 loading = Indlæser…
+email-opt-in-info = Jeg vil gerne modtage mails såsom påmindelser om mål, opdateringer om mine fremskridt og nyhedsbreve om Common Voice.
+email-opt-in-privacy = Ved at tilmelde dig modtagelse af mails bekræfter du, at Mozilla må håndtere disse data i overensstemmelse med Mozillas <privacyLink>privatlivspolitik<privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -23,6 +25,7 @@ af = Afrikaans
 am = Amharisk
 an = Aragonsk
 ar = Arabisk
+arn = Mapudungun
 as = Assamesisk
 ast = Asturisk
 az = Aserbajdsjansk
@@ -58,10 +61,11 @@ ga-IE = Irsk
 gl = Galicisk
 ha = Hausa
 he = Hebraisk
-hi-IN = Hindi
+hi = Hindi
 hr = Kroatisk
 hsb = Øvresorbisk
 hu = Ungarnsk
+hy-AM = Armensk
 ia = Interlingua
 id = Indonesisk
 is = Islandsk
@@ -69,23 +73,28 @@ it = Italiensk
 izh = Izhorian
 ja = Japansk
 ka = Georgisk
+kaa = Karakalpakisk
 kab = Kabylisk
+kbd = Kabardian
 kk = Kasakhisk
 ko = Koreansk
 kpv = Komi
 ku = Kurdisk
 kw = Cornisk
 ky = Kirgisisk
+lg = Ganda
 lij = Ligurisk
 lt = Litauisk
 lv = Lettisk
 mdf = Moksha
+mg = Malagassisk
 mhr = Meadow Mari
 mk = Makedonsk
 ml = Malayalam
 mn = Mongolsk
 mrj = Hill Mari
 mt = Maltesisk
+my = Burmesisk
 myv = Erzya
 nb-NO = Bokmål
 ne-NP = Nepalesisk
@@ -93,6 +102,7 @@ nl = Nederlandsk
 nn-NO = Nynorsk
 oc = Occitansk
 or = Oriya
+pa-IN = Punjabisk
 pl = Polsk
 pt = Portugisisk
 rm-sursilv = Rætoromansk sursilvansk
@@ -102,6 +112,7 @@ ru = Russisk
 rw = Kinyarwanda
 sah = Yakut
 sc = Sardisk
+scn = Siciliansk
 si = Singalesisk
 sk = Slovakisk
 sl = Slovensk
@@ -114,6 +125,7 @@ ta = Tamil
 te = Telugu
 tg = Tadsjikisk
 th = Thai
+tl = Tagalog
 tr = Tyrkisk
 tt = Tatarisk
 uby = Ubykh
@@ -208,6 +220,8 @@ improve-audio = Informationerne på din profil forbedrer de lyddata, der bruges 
 ## What's public
 
 whats-public = Hvad er offentligt?
+email-not-public = Vi offentliggør ikke din mailadresse.
+recordings-and-locale-public = Antallet af optagelser og hvilke sprog du bidrager til vil være offentligt.
 username-email-not-demographic = Dit brugernavn og din mailadresse vil ikke blive forbundet med de offentliggjorte data.
 
 ## Speak & Listen Shortcuts
@@ -302,9 +316,17 @@ contribution-experience = Bidragserfaring
 skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for at ændre bidragstype.
 off = Fra
 on = Til
+avatar-clip-title = Giv din avatar en stemme
+change-your-avatar-clip = Vil du gerne ændre dit lydklip?
+recording-in-progress = Lydoptagelse er i gang
+avatar-clip-recorded = Dit avatar inkludere nu et lydklip!
 retry-voice-wave-recording = PRØV IGEN
 re-record = OPTAG IGEN
 delete-voice = SLET
+recording-voice-wave = Optagelse
+delete-voice-clip = eller slet lydklip
+ready-to-upload = Upload
+cancel-avatar-clip-recording = Annuller
 browse-file-title = Upload en billedfil
 browse-file = Træk og slip eller <browseWrap>gennemse</browseWrap>
 connect-gravatar = Forbind med Gravatar
@@ -313,6 +335,7 @@ file_too_large = Den valgte fil er for stor
 manage-subscriptions = Håndter abonnementer
 email-already-used = Mailadressen bruges allerede af en anden konto
 add-language = Tilføj sprog
+change-email-setings = Skift din mailadresse via Indstillinger under Login-identitet
 
 ## FAQ
 
@@ -324,12 +347,14 @@ faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</
 faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
-faq-do-want-native-q = { $lang } er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
+faq-do-want-native-q = Dansk er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
+faq-do-want-native-a = Ja, vi vil især gerne have din stemme! En del af formålet med Common Voice er at indsamle så mange forskellige accenter som muligt, så stemmegenkendelsen fungerer lige så godt for alle. Det betyder, at bidrag fra folk med andet- eller fremmedsprog er vigtige.
 faq-why-different-speakers-q = Hvorfor har i brug for så mange forskellige stemmer per sprog?
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
 faq-how-calc-hours-q = Hvordan bliver timerne udregnet af Common Voice?
 faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige længde af hver optagelse, og ganger det antal med det samlede antal optagelser på tværs af alle sprog.
+faq-why-not-ask-read-q = Hvorfor beder I ikke folk om at læse op fra bøger eller Wikipedia-artikler på forskellige sprog?
 faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt som muligt, har vi besluttet kun at tillade tekst, der er tilgængeligt under en Creative Commons (CC0) licens. Brugen af CC0-standarden betyder, at det er sværere at finde og indsamle tekst, men tillader at alle kan bruge datasættet uden brugsbegrænsninger eller tilladelse fra Mozilla. I sidste ende ønsker vi at gøre det flersprogede datasæt så nyttigt som muligt for alle, herunder forskere, universiteter, iværksættere, regeringer, sociale formål og hobbyfolk.
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
 faq-is-account-public-q = Er mine kontooplysninger offentlige?
@@ -359,6 +384,9 @@ about-nav-partners = Partnere
 about-nav-get-involved = Bliv involveret
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Kunstig intelligens
+mycroft-description =
+    Mycroft er verdens første open source-assistent.
+    Mycroft kan afvikles alle steder - på en computer, i en bil eller på en Raspberry Pi.
 
 ## Glossary
 
@@ -407,6 +435,7 @@ size = Størrelse
 cv-license = Licens
 audio-format = Lydformat
 number-of-voices = Antal stemmer
+splits = Fordeling
 email-to-download = Indtast mailadresse for at hente
 confirm-size = Du er parat til at hente <b>{ $size }</b>
 size-gigabyte = GB
@@ -422,9 +451,11 @@ data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og d
 data-other-voxforge-description = VoxForge blev startet for at indsamle transskriberet tale til brug for frie og open source talegenkendelses-systemer.
 data-other-tatoeba-description = Tatoeba er en stor database af sætninger, oversættelser og indtalt lyd til brug for sprogindlæring. Denne filhentning indeholder indtalt engelsk optaget af fællesskabet bag Tatoeba.
 go-discourse = Gå til Discourse
+go-languages-page = Gå til sprogsiden
 more = Mere
 close = Luk
 download = Hent
+dataset-version = Version
 
 ## Download Modal
 
@@ -452,6 +483,8 @@ request-language-form-language =
     .label = Sprog
 request-language-success-title = Din anmodning om et nyt sprog er modtaget. Tak!
 request-language-success-content = Vi kontakter dig snart med oplysninger om, hvordan du tilføjer dit sprog til Common Voice.
+select-language = Vælg et sprog...
+other-language = Andet sprog
 
 ## Languages Overview
 
@@ -483,7 +516,6 @@ contribute-more = Klar til at lave { $count } mere?
 record-cta = Start optagelse
 record-platform-not-supported = Vi beklager, men din platform er i øjeblikket ikke understøttet.
 record-platform-not-supported-desktop = Til computere kan du hente den seneste version:
-record-platform-not-supported-ios = <bold>iOS</bold>-brugere kan hente vores gratis app:
 record-must-allow-microphone = Du skal tillade mikrofon-adgang.
 record-no-mic-found = Ingen mikrofon fundet.
 record-error-too-short = Optagelsen var for kort.
@@ -497,6 +529,7 @@ record-again-instruction = Fremragende! <recordIcon></recordIcon> Optag dit næs
 record-again-instruction2 = Fortsæt det gode arbejde, optag igen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den sidste!
 review-tooltip = Godkend og optag klip her efterhånden
+share-clip = Del dit klip
 review-instruction = Godkend og optag klip igen hvis nødvendigt
 record-submit-tooltip = { $actionType } indsend når du er klar
 clips-uploaded = Optagelser uploaded
@@ -509,12 +542,27 @@ listen-instruction = { $actionType } <playIcon></playIcon> udtalte de sætningen
 listen-again-instruction = Godt arbejde! <playIcon></playIcon> Lyt igen når du er klar
 listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det gode arbejde!
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
-nothing-to-validate = Vi har ikke noget klar til at validere på dette sprog. Hjælp os med at fylde køen op!
+listen-empty-state = Der er ikke flere klip at validere på dette sprog...
+speak-empty-state = Der er ikke flere sætninger at optage på dette sprog...
 record-button-label = Optag din stemme
 share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
+keep-track-profile = Hold styr på dine fremskridt med en profil
+login-to-get-started = Log ind eller tilmeld dig for at komme i gang
+target-segment-learn-more = Læs mere
 
 ## Reporting
 
+report-ask = Hvilke problemer oplever du med denne sætning?
+report-offensive-language = Stødende sprogbrug
+report-offensive-language-detail = Sætningen har respektløst eller stødende sprog.
+report-different-language = Andet sprog
+report-different-language-detail = Det er skrevet på et andet sprog end det, jeg taler.
+report-difficult-pronounce = Svær at udtale
+report-difficult-pronounce-detail = Det indeholder ord eller sætninger, der er svære at læse eller udtale.
+report-offensive-speech-detail = Klippet har respektløst eller stødende sprog.
+report-other-comment =
+    .placeholder = Kommentar
+continue = Fortsæt
 
 ## Goals
 
@@ -539,15 +587,44 @@ validations =
 
 your-languages = Dine sprog
 toward-next-goal = Til næste mål
+clips-you-recorded = Klip, du har optaget
+clips-you-validated = Klip, du har valideret
 stats = Statistik
 you = Dig
 everyone = Alle
 contribution-activity = Bidragsaktivitet
 recorded-clips = Optagede klip
 validated-clips = Validerede klip
+total-approved = Godkendt i alt
+set-visibility = Indstil min synlighed
 
 ## Custom Goals
 
+create-custom-goal = Sæt dig dit eget mål
+both-speak-and-listen = Begge
+both-speak-and-listen-long = Begge (tale og lytte)
+daily-goal = Dagligt mål
+weekly-goal = Ugentlig mål
+easy-difficulty = Let
+average-difficulty = Middel
+difficult-difficulty = Svært
+pro-difficulty = Pro
+want-to-continue = Vil du fortsætte?
+finish-editing = Færdiggør redigering først?
+help-reach-hours = Hjælp med at opnå { NUMBER($hours) } timer på { $language } med et personligt mål
+set-a-goal = Sæt et mål
+cant-decide = Kan du ikke beslutte dig?
+how-many-per-day = Godt! Hvor mange klip pr. dag?
+how-many-a-week = Godt! Hvor mange klip pr. uge?
+which-goal-type = Vil du tale, lytte eller begge dele?
+n-clips = { NUMBER($count) } klip
+confirm-goal = Bekræft mål
+# LINK will be replaced with the current URL
+goal-share-text = Jeg har lige sat mig et personligt mål for stemmebidrag til #CommonVoice -- vær med og hjælpe med at lære maskiner, hvordan rigtige mennesker taler { $link }
+weekly-goal-created = Dit ugentlige mål er oprettet
+daily-goal-created = Dit daglige mål er oprettet
+track-progress = Følg dit fremskridt her og på din statistikside.
+share-goal = Del mit mål
 
 ## Profile Delete
 

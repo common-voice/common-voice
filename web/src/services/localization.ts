@@ -1,11 +1,12 @@
 require('fluent-intl-polyfill');
-const { FluentBundle } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
 const locales = require('../../../locales/all.json') as string[];
 export const NATIVE_NAMES = require('../../../locales/native-names.json') as {
   [key: string]: string;
 };
 const translatedLocales = require('../../../locales/translated.json');
+import { FluentBundle, FluentResource } from '@fluent/bundle';
+import { ReactLocalization } from '@fluent/react';
 import { Flags } from '../stores/flags';
 import { isProduction } from '../utility';
 import API from './api';
@@ -22,21 +23,25 @@ export function negotiateLocales(locales: ReadonlyArray<string>) {
   });
 }
 
+// By implementing the sequence of FluentBundles as a generator, the cost of
+// parsing fallback resources is deferred to until they're needed.
 function* asBundleGenerator(
   localeMessages: string[][],
   messageOverwrites?: MessageOverwrites
 ) {
   for (const [locale, messages] of localeMessages) {
     const bundle = new FluentBundle(locale, { useIsolating: false });
-    bundle.addMessages(
-      messages +
-        (messageOverwrites?.[locale] ? '\n' + messageOverwrites[locale] : '')
+    bundle.addResource(
+      new FluentResource(
+        messages +
+          (messageOverwrites?.[locale] ? '\n' + messageOverwrites[locale] : '')
+      )
     );
     yield bundle;
   }
 }
 
-export function createCrossLocaleBundleGenerator(
+export function createCrossLocalization(
   localeMessages: string[][],
   locales: string[]
 ) {
@@ -48,10 +53,10 @@ export function createCrossLocaleBundleGenerator(
       currentLocales.indexOf(locale1) > currentLocales.indexOf(locale2) ? 1 : -1
     );
 
-  return asBundleGenerator(localeMessages);
+  return new ReactLocalization(asBundleGenerator(localeMessages));
 }
 
-export async function createBundleGenerator(
+export async function createLocalization(
   api: API,
   userLocales: string[],
   messageOverwrites: MessageOverwrites
@@ -65,5 +70,7 @@ export async function createBundleGenerator(
     ])
   );
 
-  return asBundleGenerator(localeMessages, messageOverwrites);
+  return new ReactLocalization(
+    asBundleGenerator(localeMessages, messageOverwrites)
+  );
 }

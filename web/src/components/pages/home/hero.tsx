@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { DAILY_GOALS } from '../../../constants';
@@ -122,7 +122,9 @@ class Hero extends React.Component<
           />
           <div {...this.getToggleableProps(1, 'line ' + type)} />
           <div {...this.getToggleableProps(2)}>
-            <Localized id="help-reach-goal" $goal={DAILY_GOALS[type][0]}>
+            <Localized
+              id="help-reach-goal"
+              vars={{ goal: DAILY_GOALS[type][0] }}>
               <div className="cta-message" />
             </Localized>
           </div>

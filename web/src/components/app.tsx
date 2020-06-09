@@ -1,4 +1,3 @@
-const { LocalizationProvider } = require('fluent-react/compat');
 import * as React from 'react';
 import { Suspense } from 'react';
 import { connect, Provider } from 'react-redux';
@@ -13,7 +12,6 @@ import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import * as Sentry from '@sentry/browser';
 import * as FullStory from '@fullstory/browser';
-import * as Amplitude from 'amplitude-js';
 import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
@@ -25,7 +23,7 @@ import {
   doNotTrack,
 } from '../utility';
 import {
-  createBundleGenerator,
+  createLocalization,
   DEFAULT_LOCALE,
   LOCALES,
   negotiateLocales,
@@ -47,6 +45,7 @@ import {
   LocalePropsFromState,
 } from './locale-helpers';
 import { Flags } from '../stores/flags';
+import { ReactLocalization, LocalizationProvider } from '@fluent/react';
 const rtlLocales = require('../../../locales/rtl.json');
 const ListenPage = React.lazy(() =>
   import('./pages/contribution/listen/listen')
@@ -56,7 +55,6 @@ const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 const SENTRY_FE_DSN =
   'https://4a940c31e4e14d8fa6984e919a56b9fa@sentry.prod.mozaws.net/491';
 const FS_KEY = 'QDBTF';
-const AMPLITUDE_KEY = '';
 
 interface PropsFromState {
   api: API;
@@ -83,7 +81,7 @@ interface LocalizedPagesProps
 
 interface LocalizedPagesState {
   hasScrolled: boolean;
-  bundleGenerator: any;
+  l10n: ReactLocalization | null;
   uploadPercentage?: number;
 }
 
@@ -94,7 +92,7 @@ let LocalizedPage: any = class extends React.Component<
   seenAwardIds: number[] = [];
   state: LocalizedPagesState = {
     hasScrolled: false,
-    bundleGenerator: null,
+    l10n: null,
     uploadPercentage: null,
   };
 
@@ -205,7 +203,7 @@ let LocalizedPage: any = class extends React.Component<
     );
 
     this.setState({
-      bundleGenerator: await createBundleGenerator(
+      l10n: await createLocalization(
         api,
         userLocales,
         this.props.messageOverwrites
@@ -221,9 +219,9 @@ let LocalizedPage: any = class extends React.Component<
 
   render() {
     const { locale, notifications, toLocaleRoute, location } = this.props;
-    const { bundleGenerator, uploadPercentage } = this.state;
+    const { bundleGenerator, l10n, uploadPercentage } = this.state;
 
-    if (!bundleGenerator) return null;
+    if (!l10n) return null;
 
     return (
       <div>
@@ -244,7 +242,7 @@ let LocalizedPage: any = class extends React.Component<
                 }
           }
         />
-        <LocalizationProvider bundles={bundleGenerator}>
+        <LocalizationProvider l10n={l10n}>
           <div>
             <div className="notifications">
               {notifications
@@ -340,14 +338,6 @@ class App extends React.Component {
     });
 
     if (isProduction() && !doNotTrack()) {
-      Amplitude.getInstance().init(AMPLITUDE_KEY, null, {
-        trackingOptions: {
-          carrier: false,
-          dma: false,
-          ip_address: false,
-        },
-      });
-
       FullStory.init({
         orgId: FS_KEY,
       });
