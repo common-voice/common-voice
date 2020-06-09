@@ -181,6 +181,11 @@ request-language-button = Agiza lugha
 ## ProjectStatus
 
 status-contribute = changia sauti yako
+status-hours =
+    { $hours ->
+        [one] Saa moja imehalalishwa hadi sasa!
+       *[other] { $hours } zimehalalishwa hadi sasa!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = lengo lijalo
