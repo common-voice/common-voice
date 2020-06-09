@@ -27,6 +27,7 @@ import CircleStats from './circle-stats';
 import stats from './stats';
 import { DPropsFromState } from './types';
 import './dataset-info.css';
+import URLS from '../../../urls';
 
 const languages = Object.keys(stats.locales).length;
 const globalStats = {
@@ -90,7 +91,7 @@ export const Splits = ({
   );
 };
 
-type Props = LocalePropsFromState & LocalizationProps & DPropsFromState;
+type Props = LocalePropsFromState & WithLocalizationProps & DPropsFromState;
 
 type State = {
   bundleLocale: string;
