@@ -28,6 +28,7 @@ am = Kiamhara
 ar = Kiarabu
 ast = Kiasturia
 bg = Kibulgeria
+bn = Kibengali
 br = Kibretoni
 ca = Kikatalonia
 cs = Kicheki
@@ -103,6 +104,7 @@ logout = Toka
 home-title = Common Voice ni hatua ya Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza.
 home-cta = Ongea sasa, changia hapa!
 wall-of-text-start = Sauti ni asili na ni ya kibinadamu. Kwa sababu hiyo, tunavutiwa na kuunda teknolojia ya sauti itakayotumika na mashine zetu. Ili kuunda mifumo ya sauti, kiwango kikubwa sana cha data ya sauti kinahitajika.
+wall-of-text-more-mobile = Asilimia kubwa ya data inayotumika na makampuni makubwa haifikiki kwa urahisi na asilimia kubwa ya watu. Tunadhania kuwa hili ni pingamizi kwa uvumbuzi. Alimradi, tumeanzisha mradi wa Common Voice ili kusaidia kufanya (teknolojia ya) utambuzi wa sauti uwe wazi kwa watu wote.
 show-wall-of-text = Soma mengineyo
 vote-yes = Ndio
 vote-no = La
@@ -232,6 +234,7 @@ recording-in-progress = Kurekodiwa kwa sauti kunaendelea
 retry-voice-wave-recording = jaribu tena
 delete-voice = futa
 recording-voice-wave = Inarekodi
+ready-to-upload = Pakia
 add-language = ongeza lugha
 
 ## FAQ
@@ -241,6 +244,7 @@ faq-why-important-q = kwanini hii ni ya umuhimu?
 faq-why-different-speakers-q = Kwa nini unahitaji wasemaji wengi tofauti kwa kila lugha?
 faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
+faq-what-is-cv = Common voice ni nini?
 faq-using-cv = kutumia common voice
 faq-description = Common Voice ni sehemu ya mpango wa Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza
 faq-search-for-answers =
@@ -250,10 +254,16 @@ faq-search-for-answers =
 
 about-title = kwanini common voice
 how-does-it-work-title = inafanyaje kazi
+about-speak = Zungumza
 about-listen = sikiliza
+about-yes-votes = ≥ 2 Kura za ndio
+about-no-votes = ≥ 2 Kura za hapana
+about-partners = Washiriki
+about-become-a-partner = Kuwa mshiriki
 about-get-involved = Jihusishe
 about-nav-why-common-voice = kwanini?
 about-nav-how-it-works = kivipi?
+about-nav-partners = Washiriki
 about-nav-get-involved = Jihusishe
 
 ## Glossary
@@ -265,10 +275,12 @@ notfound-title = haipatikani
 
 ## Data
 
+data-download-button = Pakua data ya Common Voice
 data-download-yes = Ndio
 data-download-deny = Hapana
 data-download-license = Leseni: <licenseLink> CC-0 </licenseLink>
 data-other-goto = Nenda kwa { $name }
+data-other-download = Pakua data
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 terms-agree = nakubali
@@ -288,9 +300,13 @@ cv-license = Leseni
 number-of-voices = idadi ya sauti
 splits = Migawanyiko
 email-to-download = Weka barua pepe kupakua
+download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
+subscribe = Jiandikishe
+close = Funga
 download = Pakua
+dataset-version = Toleo
 
 ## Download Modal
 
@@ -338,19 +354,29 @@ action-tap = Gonga
 contribute = Changia
 listen = Sikiliza
 skip = ruka
+shortcuts = Njia za mkato
 record-cta = anza kurekodi
+record-must-allow-microphone = Lazima uruhusu kinasa sauti kutumiwa
+record-no-mic-found = Hakuna kinasa sauti kilichopatikana
+clips-uploaded = Vipande vilivyo pakiwa
 
 ## Reporting
 
+continue = Endelea
 
 ## Goals
 
 
 ## Dashboard
 
+you = Wewe
+everyone = Kila mtu
 
 ## Custom Goals
 
+easy-difficulty = Rahisi
+average-difficulty = Wastani
+difficult-difficulty = Ngumu
 
 ## Profile Delete
 
