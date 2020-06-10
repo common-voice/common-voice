@@ -171,7 +171,7 @@ logout = 登出
 ## Home Page
 
 home-title = Common Voice 計劃係由 Mozilla 發起嘅，想幫機械學識好似真人咁發聲。
-home-cta = 在此貢獻您的聲音！
+home-cta = 喺呢度貢獻你嘅聲音！
 wall-of-text-start = 語音係自然、有人性的。所以我們非常希望為機器建立可用的語音技術，但建立語音系統需要非常大量的語音數據。
 wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
 wall-of-text-more-desktop =
@@ -223,7 +223,7 @@ email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子�
 benefits = 益處
 rich-data = 提供一些人口統計資料，可讓您提交的數據更加豐富。我們會在公開錄音檔前，將這些統計資料去識別化。
 improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確度時用的語音數據。
-keep-track = 跟蹤您的進度，以及各種語言的統計指標。
+keep-track = 跟蹤你嘅進度，以及各種語言嘅統計指標。
 compare-progress = 睇下您的進度同全球其他貢獻者如何相比
 view-goals = 檢視個人和整個計劃的目標進度。
 join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的進度更新與新資訊。
@@ -231,7 +231,7 @@ join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的�
 ## What's public
 
 whats-public = 有哪些資料會公開？
-email-not-public = 我們不會公開您的電郵地址。
+email-not-public = 我哋唔會公開你嘅電郵地址。
 recordings-and-locale-public = 你貢獻嘅錄音數量，以及貢獻咗邊幾種語言，都會係公開的。
 username-optin-public = 你可以選擇公開你嘅賬戶名稱，或保持匿名。
 demographic-deidentified-clarity = 所有可選性提供的人口統計資料，絕不會在您的個人檔案上公開，也不會在數據集中有所關聯。每一片獨立的錄音才會和您提交的人口統計資料挂鈎，讓來提供更準確的分析 -- 例如學者可能想訓練一個針對某部分人口的機器訓練模型。
@@ -501,7 +501,7 @@ license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 review-terms = 使用 Common Voice，即代表您同意我們的<termsLink>條款</termsLink>和<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
-terms-disagree = 我不同意
+terms-disagree = 我唔同意
 review-aborted = 上載中斷了，你想刪除你的錄音嗎？
 review-submit-title = 檢閱和提交
 review-submit-msg = 多謝你的錄音！<lineBreak></lineBreak>請在下面檢閱和提交你的錄音。
@@ -524,7 +524,7 @@ language = 語言
 # File size in gigabytes
 size = 大小
 validated-hr-total = 已驗證總時數
-overall-hr-total = 綜合總時數
+overall-hr-total = 總鐘數
 cv-license = 授權條款
 audio-format = 音檔格式
 number-of-voices = 錄音人數
@@ -708,7 +708,7 @@ validations =
 
 ## Dashboard
 
-your-languages = 您的語言
+your-languages = 你嘅語言
 toward-next-goal = 距離下一個目標
 clips-you-recorded = 您錄製的片段
 clips-you-validated = 您驗證的錄音
