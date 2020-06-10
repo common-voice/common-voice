@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { User } from '../../../../stores/user';
@@ -16,7 +16,7 @@ interface PropsFromState {
   user: User.State;
 }
 
-interface Props extends LocalizationProps, PropsFromState {}
+interface Props extends WithLocalizationProps, PropsFromState {}
 
 class DeleteProfile extends React.Component<Props, { keep: boolean }> {
   state = { keep: true };

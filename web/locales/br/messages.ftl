@@ -69,6 +69,7 @@ hr = Kroateg
 hsb = Uhel-Sorabeg
 hu = Hungareg
 hy-AM = Armenianeg
+hyw = Armenian ar c'hornog
 ia = Interlingua
 id = Indonezeg
 is = Islandeg

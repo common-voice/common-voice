@@ -1,8 +1,8 @@
 import {
   Localized,
-  LocalizationProps,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../../services/api';
@@ -96,7 +96,7 @@ interface PropsFromDispatch {
   addUpload: typeof Uploads.actions.add;
 }
 
-interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
+interface Props extends WithLocalizationProps, PropsFromState, PropsFromDispatch {}
 
 interface State {
   isSaving: boolean;
@@ -580,7 +580,7 @@ class AvatarSetup extends React.Component<Props, State> {
                 </Localized>
                 <Localized
                   id="browse-file"
-                  browseWrap={<span className="browse" />}>
+                  elems={{browseWrap: <span className="browse" />}}>
                   <span className="upload-label" />
                 </Localized>
                 <input

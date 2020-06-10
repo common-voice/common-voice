@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { BaseLanguage, InProgressLanguage, LaunchedLanguage } from 'common';
@@ -22,7 +22,7 @@ interface PropsFromState {
   locale: Locale.State;
 }
 
-interface Props extends PropsFromState, LocalizationProps {}
+interface Props extends PropsFromState, WithLocalizationProps {}
 
 type LanguageSection = 'in-progress' | 'launched';
 
@@ -229,7 +229,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       query,
     } = this.state;
 
-    const descriptionProps = {
+    const descriptionElems = {
       localizationGlossaryLink: <StyledLink to={URLS.FAQ + '#localization'} />,
       sentenceCollectionGlossaryLink: (
         <StyledLink to={URLS.FAQ + '#sentence-collection'} />
@@ -330,7 +330,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
             <Localized
               id="language-section-launched-description"
-              {...descriptionProps}>
+              elems={descriptionElems}>
               <p />
             </Localized>
             <ul>
@@ -374,7 +374,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
             <Localized
               id="language-section-in-progress-new-description"
-              {...descriptionProps}>
+              elems={descriptionElems}>
               <p />
             </Localized>
             <ul>

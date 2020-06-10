@@ -396,6 +396,7 @@ faq-where-src-from-2-a =
     
     Iturburu esaldiak <githubLink>GitHub karpeta</githubLink> honetan ikus ditzakezu.
 faq-why-not-ask-read-q = Zergatik ez diozue jendeari eskatzen liburuak edo Wikipediako artikuluak irakurtzeko hizkuntza desberdinetan?
+faq-why-not-ask-read-a = Common Voicen datu-sorta ahalik erabilgarriena egiteko, Creative Commons (CC0) lizentzia duten testuak soilik onartzea erabaki dugu. CC0 estandarra erabiltzeak zaildu egiten du jatorrizko testuak biltzea, baina edonork erabili ahal izango dituela baimentzen du, inolako erabilera edo egiletza aitortza murrizketarik gabe. Lortu nahi duguna da datu-sorta eleanitza guztientzat ahalik erabilgarriena izatea da, bai ikertzaileentzat, unibertsitateentzat, startup-entzat, gobernuentzat, helburu sozialak dituzten erakundeentzat eta baita interesa duen edonorentzat.
 faq-why-account-q = Zergatik eman beharko nuke izena eta kontu bat sortu?
 faq-is-account-public-q = Nire kontuko informazioa publikoa da?
 faq-how-privacy-q = Nola ziurtatzen dituzue beren ahotsak lagatzen dituzten pertsonen anonimotasuna eta pribatutasuna?
@@ -653,6 +654,8 @@ record-button-label = Grabatu zure ahotsa
 share-title-new = <bold>Lagun gaitzazu</bold> ahots gehiago aurkitzen
 keep-track-profile = Jarraitu zure aurrerapenak profil batekin
 login-to-get-started = Hasteko, hasi saioa edo eman izena
+target-segment-first-card = Esparru zehatzerako lehen atalean laguntzen ari zara
+target-segment-first-banner = Lagundu esparru zehatzerako lehen { $locale } atala sortzen
 target-segment-add-voice = Gehitu zure ahotsa
 target-segment-learn-more = Ikasi gehiago
 

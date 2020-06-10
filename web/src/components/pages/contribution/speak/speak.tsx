@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
+  WithLocalizationProps,
   withLocalization,
-} from 'fluent-react/compat';
+} from '@fluent/react';
 import * as React from 'react';
 import BalanceText from 'react-balance-text';
 import { connect } from 'react-redux';
@@ -138,7 +138,7 @@ interface PropsFromDispatch {
 
 interface Props
   extends LocalePropsFromState,
-    LocalizationProps,
+    WithLocalizationProps,
     PropsFromState,
     PropsFromDispatch,
     RouteComponentProps<any, any, any> {}
@@ -661,8 +661,10 @@ class SpeakPage extends React.Component<Props, State> {
                         recordingIndex
                       ] || 'record-again-instruction2'
                 }
-                recordIcon={<MicIcon />}
-                stopIcon={<StopIcon />}
+                elems={{
+                  recordIcon: <MicIcon />,
+                  stopIcon: <StopIcon />,
+                }}
                 {...props}
               />
             )

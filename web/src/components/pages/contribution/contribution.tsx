@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 const { Tooltip } = require('react-tippy');
@@ -88,12 +88,12 @@ interface PropsFromState {
   user: User.State;
 }
 
-interface Props extends LocalizationProps, PropsFromState {
+interface Props extends WithLocalizationProps, PropsFromState {
   activeIndex: number;
   errorContent?: any;
   reportModalProps: Omit<ReportModalProps, 'onSubmitted'>;
   instruction: (props: {
-    $actionType: string;
+    vars: { actionType: string };
     children: any;
   }) => React.ReactNode;
   isFirstSubmit?: boolean;
@@ -366,8 +366,8 @@ class ContributionPage extends React.Component<Props, State> {
                 {isSubmitted && <CheckIcon />}
                 <Localized
                   id="clips-with-count"
-                  bold={<b />}
-                  $count={this.renderClipCount()}>
+                  elems={{bold: <b />}}
+                  vars={{count: this.renderClipCount()}}>
                   <span className="text" />
                 </Localized>
               </div>
@@ -425,7 +425,7 @@ class ContributionPage extends React.Component<Props, State> {
 
               <div className="cards-and-instruction">
                 {instruction({
-                  $actionType: getString('action-click'),
+                  vars: { actionType: getString('action-click') },
                   children: <div className="instruction hidden-sm-down" />,
                 }) || <div className="instruction hidden-sm-down" />}
 
@@ -483,8 +483,8 @@ class ContributionPage extends React.Component<Props, State> {
                     <div className="counter">
                       <Localized
                         id="clips-with-count"
-                        bold={<b />}
-                        $count={this.renderClipCount()}>
+                        elems={{bold: <b />}}
+                        vars={{count: this.renderClipCount()}}>
                         <span className="text" />
                       </Localized>
                     </div>
@@ -520,7 +520,7 @@ class ContributionPage extends React.Component<Props, State> {
             </div>
 
             {instruction({
-              $actionType: getString('action-tap'),
+              vars: { actionType: getString('action-tap') },
               children: <div className="instruction hidden-md-up" />,
             }) || <div className="instruction hidden-md-up" />}
 

@@ -1,4 +1,3 @@
-const { LocalizationProvider } = require('fluent-react/compat');
 import * as React from 'react';
 import { Suspense } from 'react';
 import { connect, Provider } from 'react-redux';
@@ -24,7 +23,7 @@ import {
   doNotTrack,
 } from '../utility';
 import {
-  createBundleGenerator,
+  createLocalization,
   DEFAULT_LOCALE,
   LOCALES,
   negotiateLocales,
@@ -45,6 +44,7 @@ import {
   LocalePropsFromState,
 } from './locale-helpers';
 import { Flags } from '../stores/flags';
+import { ReactLocalization, LocalizationProvider } from '@fluent/react';
 const rtlLocales = require('../../../locales/rtl.json');
 const ListenPage = React.lazy(() =>
   import('./pages/contribution/listen/listen')
@@ -80,7 +80,7 @@ interface LocalizedPagesProps
 
 interface LocalizedPagesState {
   hasScrolled: boolean;
-  bundleGenerator: any;
+  l10n: ReactLocalization | null;
   uploadPercentage?: number;
 }
 
@@ -91,7 +91,7 @@ let LocalizedPage: any = class extends React.Component<
   seenAwardIds: number[] = [];
   state: LocalizedPagesState = {
     hasScrolled: false,
-    bundleGenerator: null,
+    l10n: null,
     uploadPercentage: null,
   };
 
@@ -202,7 +202,7 @@ let LocalizedPage: any = class extends React.Component<
     );
 
     this.setState({
-      bundleGenerator: await createBundleGenerator(
+      l10n: await createLocalization(
         api,
         userLocales,
         this.props.messageOverwrites
@@ -218,9 +218,9 @@ let LocalizedPage: any = class extends React.Component<
 
   render() {
     const { locale, notifications, toLocaleRoute } = this.props;
-    const { bundleGenerator, uploadPercentage } = this.state;
+    const { l10n, uploadPercentage } = this.state;
 
-    if (!bundleGenerator) return null;
+    if (!l10n) return null;
 
     return (
       <div>
@@ -241,7 +241,7 @@ let LocalizedPage: any = class extends React.Component<
                 }
           }
         />
-        <LocalizationProvider bundles={bundleGenerator}>
+        <LocalizationProvider l10n={l10n}>
           <div>
             <div className="notifications">
               {notifications

@@ -1,4 +1,4 @@
-import { Localized, withLocalization } from 'fluent-react/compat';
+import { Localized, withLocalization } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { CustomGoal, CustomGoalParams } from 'common';
@@ -120,8 +120,10 @@ export default [
             id={
               dashboardLocale ? 'help-reach-hours' : 'help-reach-hours-general'
             }
-            $hours={10000}
-            $language={getString(dashboardLocale)}>
+            vars={{
+              hours: 10000,
+              language: getString(dashboardLocale),
+            }}>
             <span className="sub-head" />
           </Localized>
         </div>
@@ -190,10 +192,12 @@ export default [
           </Localized>
           <Localized
             id="activity-needed-calculation"
-            $totalHours={10000}
-            $periodMonths={6}
-            $people={1000}
-            $clipsPerDay={45}>
+            vars={{
+              totalHours: 10000,
+              periodMonths: 6,
+              people: 1000,
+              clipsPerDay: 45,
+            }}>
             <p />
           </Localized>
         </div>
@@ -264,7 +268,7 @@ export default [
                     ? 'receiving-emails-info'
                     : 'not-receiving-emails-info'
                 }
-                bold={<b />}>
+                elems={{bold: <b />}}>
                 <p className="subscription-info" />
               </Localized>
               <a
@@ -300,7 +304,7 @@ export default [
               <div className="content">
                 <Localized
                   id="accept-privacy"
-                  privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                  elems={{privacyLink: <LocaleLink to={URLS.PRIVACY} blank />}}>
                   <span />
                 </Localized>
               </div>

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 
 import './why-common-voice.css';
 
@@ -18,7 +18,7 @@ const WhyCommonVoice: React.ComponentType<{}> = () => {
             <div className="line" />
 
             <Localized id="about-title">
-              <h1 />
+              <h1/>
             </Localized>
 
             <Localized id="about-subtitle">

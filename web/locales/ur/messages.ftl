@@ -63,10 +63,12 @@ ga-IE = آئرش
 gl = گاليشيائی
 ha = ہوسا
 he = عبرانى
-hi-IN = ہندی
+hi = ہندی
 hr = کروشیائی
 hsb = سوربیئن، بالائی
 hu = ‏‏ہنگارین
+hy-AM = آرمينيائى
+hyw = آرمینیائی مغربی
 ia = انٹرلنگوا
 id = ‏‏انڈونیشین
 is = آئس لينڈى
@@ -241,7 +243,6 @@ whats-public = عوامی کیا ہے؟
 email-not-public = ہم آپ کے ای میل کو عوامی نہیں بنائیں گے۔
 recordings-and-locale-public = ریکارڈنگ کی تعداد اور جن زبانوں میں آپ کی شراکت شامل ہیں وہ عوامی ہوگی۔
 username-optin-public = آپ اپنا صارف نام عوامی یا گمنام رکھنے کا انتخاب کر سکتے ہیں۔
-demographic-deidentified = اختیاری طور پر پیش کردہ آبادیاتی اعداد و شمار (جیسے عمر ، جنس ، زبان ، اور لہجے) کو آپ کے جمع کردہ وائس ڈیٹا سے غیر شناخت کیا جاتا ہے اور اسے آپ کے پروفائل پر کبھی بھی عام نہیں کیا جائے گا۔
 username-email-not-demographic = آپ کا صارف نام اور ای میل شائع شدہ ڈیٹا سے منسلک نہیں ہوں گے۔
 
 ## Speak & Listen Shortcuts
@@ -567,7 +568,6 @@ contribute-more =
 record-cta = رکارڈنگ شروع کریں
 record-platform-not-supported = ہمیں افسوس ہے ، لیکن فی الحال آپ کا پلیٹ فارم تعاون یافتہ نہیں ہے۔
 record-platform-not-supported-desktop = ڈیسکٹاپ کمپیوٹر پر آُپ تازہ ترین ڈائونلوڈ کر سکتے ہیں:
-record-platform-not-supported-ios = <bold>iOS</bold>صارفین ہماری ایپلیکیشن مفت ڈائونلوڈ کر سکتے ہیں:
 record-must-allow-microphone = آپ کے مائیکرو فون تک رسائی کی اجازت ضروری ہے۔
 record-no-mic-found = کوئی ماِکروفون نہیں ملا
 record-error-too-short = یہ ریکارڈنگ بہت چھوٹی تھی۔
@@ -601,6 +601,8 @@ record-button-label = اپنی آواز رکارڈ کرائیں
 share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
 keep-track-profile = ایک پروفائل کے ذریعہ اپنی پیش رفت پر نظر رکھیں
 login-to-get-started = شروع کرنے کے لئے لاگ ان یا سائن اپ کریں
+target-segment-add-voice = اپنی آواز شامل کریں
+target-segment-learn-more = مزید سیکھیں
 
 ## Reporting
 

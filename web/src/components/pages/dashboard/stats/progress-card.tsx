@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { DAILY_GOALS } from '../../../../constants';
@@ -125,7 +125,7 @@ export default function ProgressCard({
           }>
           <div className="description" />
         </Localized>
-        <Localized id="help-reach-goal" $goal={overallGoal}>
+        <Localized id="help-reach-goal" vars={{goal: overallGoal}}>
           <LinkButton
             rounded
             outline

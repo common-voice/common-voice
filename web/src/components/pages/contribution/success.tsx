@@ -1,8 +1,8 @@
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';
 import { DAILY_GOALS } from '../../../constants';
@@ -38,7 +38,7 @@ function Success({
 }: {
   type: 'speak' | 'listen';
   onReset: () => any;
-} & LocalizationProps) {
+} & WithLocalizationProps) {
   const api = useAPI();
   const account = useAccount();
 
@@ -122,16 +122,16 @@ function Success({
         <CheckIcon />
         <Localized
           id="clips-with-count"
-          bold={<b />}
-          $count={SET_COUNT + '/' + SET_COUNT}>
+          elems={{bold: <b/>}}
+          vars={{count: SET_COUNT + '/' + SET_COUNT}}>
           <span className="text" />
         </Localized>
       </div>
 
       <Localized
         id={type === 'speak' ? 'goal-help-recording' : 'goal-help-validation'}
-        goalPercentage={goalPercentage}
-        $goalValue={goalValue}>
+        elems={{goalPercentage}}
+        vars={{goalValue}}>
         <h1 />
       </Localized>
 
@@ -149,8 +149,7 @@ function Success({
           <div className="info-card">
             <Localized
               id="help-reach-hours"
-              $hours={10000}
-              $language={getString(locale)}>
+              vars={{hours: 10000, language: getString(locale)}}>
               <p />
             </Localized>
             <Localized id="get-started-goals">
@@ -171,7 +170,7 @@ function Success({
 
       <ContributeMoreButton>
         {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
-        <Localized id="contribute-more" $count={SET_COUNT}>
+        <Localized id="contribute-more" vars={{count: SET_COUNT}}>
           <span />
         </Localized>
       </ContributeMoreButton>

@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
@@ -86,7 +86,7 @@ const SegmentBanner = ({
       <>
         <Localized
           id="target-segment-first-banner"
-          $locale={NATIVE_NAMES[locale]}
+          vars={{locale: NATIVE_NAMES[locale]}}
         />
       </>
     ),

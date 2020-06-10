@@ -265,14 +265,17 @@ const UserClient = {
   },
 
   async updateBasketToken(email: string, basketToken: string) {
-    await db.query(
-      `
-        INSERT INTO user_client_newsletter_prefs (client_id, email, basket_token, last_active)
-          VALUES (
-            (SELECT client_id FROM user_clients WHERE email = ? ORDER BY created_at desc LIMIT 1), ?, ?, NOW())
-          ON DUPLICATE KEY UPDATE basket_token = basket_token`,
-      [email, email, basketToken]
-    );
+    const client_id = await this.findClientId(email);
+    if (client_id) {
+      await db.query(
+        `
+          INSERT INTO user_client_newsletter_prefs (client_id, email, basket_token, last_active)
+            VALUES (?, ?, ?, NOW())
+            ON DUPLICATE KEY UPDATE basket_token = basket_token`,
+        [client_id, email, basketToken]
+      );
+    }
+
   },
 
   async updateSSO(old_email: string, email: string): Promise<boolean> {

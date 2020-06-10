@@ -3,7 +3,7 @@ import URLS from '../../../urls';
 import { StyledLink } from '../../ui/ui';
 import { LocaleLink } from '../../locale-helpers';
 import { stringContains } from '../../../utility';
-import { LocalizationProps } from 'fluent-react/compat';
+import { WithLocalizationProps } from '@fluent/react';
 import { BENEFITS, WHATS_PUBLIC } from '../../../constants';
 
 const memoize = require('lodash.memoize');
@@ -33,31 +33,35 @@ const SECTION_CONTENTS: any = {
       'faq-how-get-q',
       'faq-how-get-a',
       {
-        licenseLink: (
-          <StyledLink
-            href="https://creativecommons.org/publicdomain/zero/1.0/"
-            blank
-          />
-        ),
-        datasetLink: <LocaleLink to={URLS.DATASETS} />,
+        elems: {
+          licenseLink: (
+            <StyledLink
+              href="https://creativecommons.org/publicdomain/zero/1.0/"
+              blank
+            />
+          ),
+          datasetLink: <LocaleLink to={URLS.DATASETS} />,
+        },
       },
     ],
     [
       'faq-when-release2-q',
       'faq-when-release2-a',
       {
-        sentenceCollectorLink: (
-          <StyledLink
-            href="https://common-voice.github.io/sentence-collector/"
-            blank
-          />
-        ),
-        pontoonLink: (
-          <StyledLink
-            href="https://pontoon.mozilla.org/projects/common-voice/"
-            blank
-          />
-        ),
+        elems: {
+          sentenceCollectorLink: (
+            <StyledLink
+              href="https://common-voice.github.io/sentence-collector/"
+              blank
+            />
+          ),
+          pontoonLink: (
+            <StyledLink
+              href="https://pontoon.mozilla.org/projects/common-voice/"
+              blank
+            />
+          ),
+        },
       },
     ],
     'faq-do-want-native',
@@ -65,25 +69,29 @@ const SECTION_CONTENTS: any = {
       'faq-why-different-speakers-q',
       'faq-why-different-speakers-a',
       {
-        articleLink: <StyledLink href="https://econ.st/2AVxVG3" blank />,
+        elems: {
+          articleLink: <StyledLink href="https://econ.st/2AVxVG3" blank />,
+        },
       },
     ],
     [
       'faq-why-my-lang-q',
       'faq-why-my-lang-new-a',
       {
-        multilangLink: (
-          <StyledLink
-            href="https://medium.com/mozilla-open-innovation/more-common-voices-24a80c879944"
-            blank
-          />
-        ),
-        sentenceCollectorLink: (
-          <StyledLink
-            href="https://common-voice.github.io/sentence-collector/"
-            blank
-          />
-        ),
+        elems: {
+          multilangLink: (
+            <StyledLink
+              href="https://medium.com/mozilla-open-innovation/more-common-voices-24a80c879944"
+              blank
+            />
+          ),
+          sentenceCollectorLink: (
+            <StyledLink
+              href="https://common-voice.github.io/sentence-collector/"
+              blank
+            />
+          ),
+        },
       },
     ],
     'faq-what-quality',
@@ -94,13 +102,15 @@ const SECTION_CONTENTS: any = {
       'faq-where-src-from-2-q',
       'faq-where-src-from-2-a',
       {
-        italic: <i />,
-        githubLink: (
-          <StyledLink
-            href="https://github.com/mozilla/voice-web/tree/master/server/data"
-            blank
-          />
-        ),
+        elems: {
+          italic: <i />,
+          githubLink: (
+            <StyledLink
+              href="https://github.com/mozilla/voice-web/tree/master/server/data"
+              blank
+            />
+          ),
+        },
       },
     ],
     ['faq-why-account-q', BENEFITS],
@@ -132,7 +142,7 @@ export const faqSearchSelector = memoize(
   ({
     getString,
     searchString,
-  }: LocalizationProps & FaqSearchSelectorProps): FaqSection[] => {
+  }: WithLocalizationProps & FaqSearchSelectorProps): FaqSection[] => {
     const search = searchString.trim().toUpperCase();
 
     return Object.values(SECTIONS)

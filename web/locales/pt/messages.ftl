@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Sim, me envie e-mails. Quero me manter informado sobre o Projeto Common Voice.
+yes-receive-emails = Sim, envie e-mails. Quero manter-me informado sobre o Projeto Common Voice.
 stayintouch = Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos nos manter em contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.
 privacy-info = Prometemos lidar com suas informações com cautela. Saiba mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
 return-to-cv = Voltar para o Common Voice
@@ -8,7 +8,7 @@ email-input =
     .label = E-mail
 submit-form-action = Enviar
 loading = Carregando…
-email-opt-in-info = Quero receber e-mails como lembretes de meta, atualizações sobre meu progresso e novidades sobre o Common Voice.
+email-opt-in-info = Quero receber e-mails, tais como lembretes de metas, atualizações sobre meu progresso e boletins informativos sobre o Common Voice.
 email-opt-in-info-title = Participe da lista de discussão do Common Voice
 email-opt-in-info-sub-with-challenge = Receba e-mails, tais como lembretes de objetivos e desafios, atualizações de progresso e boletins informativos sobre o Common Voice.
 email-opt-in-privacy = Ao optar por receber e-mails, você declara que concorda com a Mozilla utilizar essas informações, conforme explicado na <privacyLink>Política de Privacidade<privacyLink> da Mozilla.
@@ -625,7 +625,7 @@ skip = Pular
 shortcuts = Atalhos
 clips-with-count = <bold>{ $count }</bold> clipes
 goal-help-recording = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de gravações!
-goal-help-validation = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de validações!
+goal-help-validation = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } validações!
 contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
 record-platform-not-supported = Nos desculpe, mas sua plataforma não é suportada.

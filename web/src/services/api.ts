@@ -119,10 +119,7 @@ export default class API {
     showFirstStreakToast?: boolean;
     challengeEnded: boolean;
   }> {
-    Sentry.captureMessage('Uploading clip...');
-
-    // note: by default nginx headers are all lower case and do not
-    // allow underscores
+    // make sure nginx server has allow_underscore turned on
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {

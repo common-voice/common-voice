@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import URLS from '../urls';
 import { LocaleLink } from './locale-helpers';
 import Modal from './modal/modal';
@@ -12,11 +12,13 @@ const TermsModal = ({
   getString,
   onAgree,
   onDisagree,
-}: { onAgree: () => any; onDisagree: () => any } & LocalizationProps) => (
+}: { onAgree: () => any; onDisagree: () => any } & WithLocalizationProps) => (
   <Localized
     id="review-terms"
-    termsLink={<LocaleLink to={URLS.TERMS} blank />}
-    privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+    elems={{
+      termsLink: <LocaleLink to={URLS.TERMS} blank />,
+      privacyLink: <LocaleLink to={URLS.PRIVACY} blank />
+    }}>
     <Modal
       buttons={{
         [getString('terms-agree')]: onAgree,

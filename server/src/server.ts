@@ -6,6 +6,7 @@ import * as express from 'express';
 import * as Sentry from '@sentry/node';
 import { NextFunction, Request, Response } from 'express';
 import { importLocales } from './lib/model/db/import-locales';
+import { importTaxonomies } from './lib/model/db/import-taxonomies';
 import Model from './lib/model';
 import {
   getFullClipLeaderboard,
@@ -288,6 +289,7 @@ export default class Server {
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }
+      await importTaxonomies();
       this.print('Maintenance complete');
     } catch (err) {
       this.print('Maintenance error', err);
@@ -367,7 +369,7 @@ export default class Server {
       1000 *
         60 *
         60 *
-        30 /* intended 30 minutes -> actually 30 hours, to be adjusted @TODO */
+        6 /* keep lock for 6 hours */
     );
     // we need to check again after the lock was acquired, as another instance
     // might've already migrated in the meantime

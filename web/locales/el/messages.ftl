@@ -64,10 +64,12 @@ ga-IE = Ιρλανδικά
 gl = Γαλικικά
 ha = Χάουσα
 he = Εβραϊκά
-hi-IN = Χίντι
+hi = Χίντι
 hr = Κροατικά
 hsb = Άνω Σορβικά
 hu = Ουγγρικά
+hy-AM = Αρμενικά
+hyw = Αρμενικά Δυτικά
 ia = Ιντερλίνγκουα
 id = Ινδονησιακά
 is = Ισλανδικά
@@ -235,7 +237,6 @@ whats-public = Τι δημοσιοποιείται;
 email-not-public = Δεν θα δημοσιοποιήσουμε το email σας.
 recordings-and-locale-public = Ο αριθμός των ηχογραφήσεων και οι γλώσσες που συνεισφέρετε θα είναι δημόσια.
 username-optin-public = Μπορείτε να κάνετε το όνομα χρήστη σας δημόσιο ή ανώνυμο.
-demographic-deidentified = Τα προαιρετικά υποβληθέντα δημογραφικά δεδομένα (π.χ. ηλικία, φύλο, γλώσσα και προφορά) δεν σχετίζονται με τα φωνητικά σας δεδομένα και δεν θα δημοσιοποιηθούν ποτέ στο προφίλ σας.
 username-email-not-demographic = Το όνομα χρήστη και το email σας δεν θα συσχετιστούν τα δημοσιευμένα δεδομένα.
 
 ## Speak & Listen Shortcuts
@@ -632,7 +633,6 @@ contribute-more =
 record-cta = Έναρξη ηχογράφησης
 record-platform-not-supported = Λυπούμαστε, αλλά η πλατφόρμα σας δεν υποστηρίζεται ακόμη.
 record-platform-not-supported-desktop = Σε επιτραπέζιους υπολογιστές, μπορείτε να κατεβάσετε τα πιο πρόσφατα:
-record-platform-not-supported-ios = Οι χρήστες <bold>iOS</bold> μπορούν να κατεβάσουν τη δωρεάν εφαρμογή μας:
 record-must-allow-microphone = Χρειάζεται να επιτρέψετε πρόσβαση στο μικρόφωνο σας.
 record-no-mic-found = Δεν βρέθηκε μικρόφωνο.
 record-error-too-short = Η ηχογράφηση ήταν πολύ σύντομη.
@@ -667,6 +667,8 @@ record-button-label = Ηχογράφηση φωνής
 share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περισσότερες φωνές
 keep-track-profile = Παρακολουθήστε την πρόοδό σας με ένα προφίλ
 login-to-get-started = Συνδεθείτε ή εγγραφείτε για να ξεκινήσετε
+target-segment-add-voice = Προσθέστε τη φωνή σας
+target-segment-learn-more = Μάθετε περισσότερα
 
 ## Reporting
 

@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react/compat';
+import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { useAPI } from '../../hooks/store-hooks';
@@ -87,7 +87,7 @@ export default function SubscribeNewsletter() {
         label={
           <Localized
             id="accept-privacy"
-            privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+            elems={{privacyLink: <LocaleLink to={URLS.PRIVACY} blank />}}>
             <span />
           </Localized>
         }

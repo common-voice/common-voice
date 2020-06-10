@@ -64,10 +64,11 @@ ga-IE = írčina
 gl = galícijčina
 ha = hauština
 he = hebrejčina
-hi-IN = hindčina
 hr = chorvátčina
 hsb = hornolužická srbčina
 hu = maďarčina
+hy-AM = arménčina
+hyw = západná arménčina
 ia = interlingua
 id = indonézština
 is = islandčina
@@ -242,7 +243,6 @@ whats-public = Čo všetko zverejňujeme?
 email-not-public = Vašu e-mailovú adresu nezverejňujeme.
 recordings-and-locale-public = Počet nahrávok a jazyky, do ktorých prispievate, budú verejné.
 username-optin-public = Môžete si vybrať, či bude vaše používateľské meno verejné alebo anonymné.
-demographic-deidentified = Dobrovoľne poskytnuté demografické údaje (vek, pohlavie a prízvuk) sú anonymizované a nikdy nebudú zverejnené na vašom profile.
 username-email-not-demographic = Vaše používateľské meno a e-mailová adresa nebudú nijakým spôsobom prepojené s uverejnenými údajmi.
 
 ## Speak & Listen Shortcuts
@@ -545,7 +545,6 @@ contribute-more =
 record-cta = Začnite s nahrávaním
 record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
 record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
-record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
 record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
 record-no-mic-found = Nenašiel sa žiadny mikrofón.
 record-error-too-short = Vaša nahrávka bola príliš krátka.
@@ -573,7 +572,6 @@ listen-instruction = { $actionType } na <playIcon></playIcon>. Bola veta v poria
 listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pripravení, spustite ďalšiu nahrávku
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
-nothing-to-validate = Pre váš jazyk nemáme čo overiť. Pomôžte nám to zmeniť.
 record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
 

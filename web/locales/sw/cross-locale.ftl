@@ -2,7 +2,7 @@
 
 contribute = Changia
 get-involved-button = Jihusishe
-get-involved-title = Shiriki kwa
+get-involved-title = changia kwa
 get-involved-text = Shukran kwa raghba yako ya kuchangia kwenye { $lang }. Tunajikakamua kutayarisha kila lugha kwa uzinduzi na kuziarifu timu husika kuhusu sasisho kupitia barua pepe. Iwapo ungependa kuchangia, tafadhali peana anwani yako ya barua pepe kwenye sehemu inayofuata.
 get-involved-form-title = Jiandikishe kwa sasisho
 get-involved-email =

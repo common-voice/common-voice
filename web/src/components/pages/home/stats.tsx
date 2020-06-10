@@ -1,9 +1,9 @@
 const spline = require('@yr/monotone-cubic-spline');
 import {
-  LocalizationProps,
   Localized,
   withLocalization,
-} from 'fluent-react/compat';
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
@@ -198,7 +198,7 @@ export namespace ClipsStats {
     }
   );
 
-  class BareRoot extends React.Component<LocalizationProps & PropsFromState> {
+  class BareRoot extends React.Component<WithLocalizationProps & PropsFromState> {
     state: { data: any[]; hoveredIndex: number } = {
       data: [],
       hoveredIndex: null,

@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
-stayintouch = 喺 Mozilla 哩度，我哋建立緊一個同語音技術相關嘅社群。我哋想同您保持聯繫，提供最新嘅消息同資料來源，亦想瞭解您會點樣使用哩啲資料。
+stayintouch = 喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。
 privacy-info = 我哋保證會小心處理您嘅資訊。如果要了解更多，請閲讀我們嘅<privacyLink>私隱權公告</privacyLink>。
 return-to-cv = 返回 Common Voice
 email-input =
@@ -11,7 +11,7 @@ loading = 載入中…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
 email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
-email-opt-in-privacy = 如果您同意接收電郵，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法處理呢啲資訊。
+email-opt-in-privacy = 如果你同意接收電郵，就代表你同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法嚟處理呢啲資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
 
@@ -149,8 +149,8 @@ zh-TW = 中文 (臺灣)
 
 ## Layout
 
-speak = 說話
-speak-now = 現在開始說話
+speak = 講話
+speak-now = 而家開始講話
 datasets = 數據集
 languages = 所有語言
 about = 關於我們
@@ -163,7 +163,7 @@ cookies = Cookies
 faq = 常見問題
 content-license-text = 內容依照 <licenseLink>Creative Commons 授權條款</licenseLink>授權大眾使用
 share-title = 幫我哋搵其他人一齊獻聲！
-share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
+share-text = 請到 { $link } 獻聲，幫我哋教機器瞭解真人係點講話嘅。
 link-copied = 超連結已被複製
 back-top = 回到頁頂
 logout = 登出
@@ -186,7 +186,7 @@ no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一
 vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
-speak-subtitle = 貢獻您的聲音
+speak-subtitle = 貢獻你嘅聲音
 speak-paragraph = 錄音係我哋建立開放數據集時不可否缺的一部分，亦係好多人覺得最好玩的一部分！
 speak-goal-text = 段新錄音
 listen-subtitle = 幫我哋驗證錄音
@@ -216,7 +216,7 @@ x-years-short =
 help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
 sign-up-account = 註冊帳戶
 email-subscription-title = 訂閱最新消息電子報
-email-subscription-title-new = 留低您嘅電郵，收取 Common Voice 電子報、目標提醒、同進度更新。
+email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子報、目標提醒、同進度更新。
 
 ## Account Benefits
 
@@ -232,10 +232,10 @@ join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的�
 
 whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的電郵地址。
-recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
-username-optin-public = 您可以選擇公開您的使用者名稱，或保持匿名。
+recordings-and-locale-public = 你貢獻嘅錄音數量，以及貢獻咗邊幾種語言，都會係公開的。
+username-optin-public = 你可以選擇公開你嘅賬戶名稱，或保持匿名。
 demographic-deidentified-clarity = 所有可選性提供的人口統計資料，絕不會在您的個人檔案上公開，也不會在數據集中有所關聯。每一片獨立的錄音才會和您提交的人口統計資料挂鈎，讓來提供更準確的分析 -- 例如學者可能想訓練一個針對某部分人口的機器訓練模型。
-username-email-not-demographic = 您的使用者名稱和電郵地址不會跟公開發布的數據有掛鉤。
+username-email-not-demographic = 您的賬戶名稱和電郵地址不會跟公開發布的數據有掛鉤。
 
 ## Speak & Listen Shortcuts
 
@@ -264,7 +264,7 @@ shortcut-record-toggle-label = 錄音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製片段
 request-language-text = 沒在 Common Voice 見到您的語言嗎？
-request-language-button = 申請增加一款語言
+request-language-button = 申請增加一種語言
 
 ## ProjectStatus
 
@@ -282,7 +282,7 @@ english = 英文
 ## ProfileForm
 
 profile-form-username =
-    .label = 使用者名稱
+    .label = 賬戶名稱
 profile-form-native-language =
     .label = 母語
 profile-form-additional-language =
@@ -306,7 +306,7 @@ female = 女性
 # Gender
 other = 其他
 why-profile-title = 點解要個人檔案？
-why-profile-text = 提供一些關於您的資訊，可讓您的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
+why-profile-text = 提供一啲關於你嘅資訊，可令你嘅 Common Voice 語音資料更有用，令語音識別引擎更加準確。
 dashboard = 控制台
 build-profile = 建立個人檔案
 avatar = 頭像
@@ -315,13 +315,13 @@ settings = 設定
 edit-profile = 編輯個人檔案
 profile-create-success = 成功建立個人檔案！
 profile-close = 關閉
-profile-explanation = 使用您的個人檔案可以保留您的進展，並幫助增加我們語音數據的準確度。
-thanks-for-account = 多謝您確認您的帳戶, 現在讓我們建立您的個人資料。
+profile-explanation = 使用你嘅個人檔案可以保留你嘅進展，並幫助提高我哋語音數據嘅準確度。
+thanks-for-account = 多謝你確認你嘅帳戶，而家等我哋建立你嘅個人檔案。
 why-demographic = 點解咁重要？
-why-demographic-explanation = 已匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與電郵不會與您提交的數據相關，您也可以決定公開您的帳號或保持匿名。
-accept-privacy = 我同意你依照 Mozilla 的<privacyLink>私隱保護政策</privacyLink>中描述的方式處理這些資料
+why-demographic-explanation = 已匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與電郵不會與您提交的數據相關，您也可以決定公開您的賬戶名稱或保持匿名。
+accept-privacy = 我同意你依照 Mozilla 嘅<privacyLink>私隱保護政策</privacyLink>中描述嘅方式嚟處理呢啲資料
 accept-privacy-title = 隱私權政策
-login-identity = 登入身分
+login-identity = 登入身份
 login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電郵訂閱
@@ -408,19 +408,19 @@ faq-how-privacy-q = 你們如何確保匿名性，以及貢獻語音人士的隱
 faq-how-privacy-a = 數據集中所有的錄音片段都不會包含可識別出個人的資訊。若貢獻者在個人檔案中提供了相關資料，該資訊將在錄音片段被合併成數據集以供下載前去識別化，永遠不會在他們的個人檔案首頁中公開。
 faq-what-determine-identity-q = 在 Common Voice 數據集中無法「確認發言者身分」是什麼意思？
 faq-what-determine-identity-a =
-    Common Voice 數據集是一份開放，可公開使用的資源。含有語音功能的應用程式可使用這份資料來訓練程式。為了保護貢獻者的安全，我們要求所有下載 Common Voice 資料集的人確保貢獻者的隱私安全。
+    Common Voice 數據集係一份開放，可公開使用嘅資源。含有語音功能嘅應用程式可使用呢份資料嚟訓練程式。為咗保護貢獻者嘅安全，我哋要求所有下載 Common Voice 資料集嘅人確保貢獻者的隱私安全。
     
-    所有語音片段中的個人識別資料已經被清除。當您下載數據集時，就代表您同意不會嘗試識別數據集當中的任何貢獻者。這代表您不能嘗試將數據集中的資訊，與貢獻者的個人資訊連結起來。但您可以將數據集中的不同資訊互相連結起來，用來訓練語音識別、說話者識別等功能，或其他應用程式。
+    所有語音片段中嘅個人識別資料已經被清除。當你下載數據集個陣，你須要同意唔會嘗試識別數據集當中嘅任何貢獻者。呢個代表你唔可以嘗試將數據集中嘅資訊，同貢獻者嘅個人資訊聯繫起嚟。但你可以將數據集中嘅唔同資訊互相連結埋，用嚟訓練語音識別、講話人識別等功能，或其他應用程式。
 faq-what-is-cv = Common Voice 是甚麼？
 faq-using-cv = 使用 Common Voice
-faq-description = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。
+faq-description = Common Voice 係 Mozilla 想令機器學識真人講話方式嘅計劃。
 faq-search-for-answers =
     .label = 搜尋解答
 
 ## ABOUT US
 
 about-title = 點解會有 Common Voice？
-about-subtitle = Common Voice 是 Mozilla 想讓機器學會真人說話方式的計劃。除了 Common Voice 數據集外，我們也正在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
+about-subtitle = Common Voice 係 Mozilla 想令機器學識真人講話方式嘅計劃。除咗 Common Voice 數據集外，我哋亦喺度打造緊一套稱為 Deep Speech 嘅開放源碼語音識別引擎。
 about-header-description =
     這兩個計劃都是我們努力糾正電子語音落差的一部份。語音識別技術可讓我們的電子裝置更人性化，但開發者需要非常大量的語音數據，才能打造出這樣的系統。目前大部分語音數據都相當昂貴，並受專有權限制。
     我們想令語音數據能被公開自由地使用，並確保這些數據反映出我們大衆的多樣性。合衆人之力，我們可為大家將語音識別技術變得更好！
@@ -431,7 +431,7 @@ about-speak-text = 貢獻者會朗讀數據庫内由大衆提供的句子，變�
 about-listen-queue = 聆聽隊列
 about-listen-queue-text = 錄音片段會被放入隊列排隊，準備接受聆聽確認。
 about-listen = 聆聽
-about-listen-text = 使用者確認錄音片段是否精準，並確認說話者是否正確地讀出了句子。
+about-listen-text = 使用者確認錄音片段是否精準，並確認講話者有冇正確地讀出句子。
 about-is-it-valid = 片段正確嗎？
 about-is-it-valid-text = 若使用者投下「正確」，錄音片段就會標示為有效。
 about-yes-votes = ≥ 2 張「正確」票
@@ -599,7 +599,7 @@ other-language = 其他語言
 language-section-in-progress = 準備中
 language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
 language-section-launched = 已上線
-language-section-launched-description = 以下「已上線」的語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>令大家能用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
+language-section-launched-description = 以下「已上線」嘅語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且都已經<sentenceCollectionGlossaryLink>搜集咗夠多句子</sentenceCollectionGlossaryLink>令大家可以用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>嘅方式貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-meter-in-progress = 進度
@@ -720,8 +720,8 @@ you = 您
 everyone = 所有人
 contribution-activity = 貢獻記錄
 top-contributors = 貢獻者排行榜
-recorded-clips = 錄音
-validated-clips = 已被驗證的錄音
+recorded-clips = 已錄製的錄音
+validated-clips = 已驗證的錄音
 total-approved = 總批准數
 overall-accuracy = 整體準誠度
 set-visibility = 公開/隱藏個人檔案

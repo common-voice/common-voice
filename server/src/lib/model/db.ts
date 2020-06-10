@@ -224,6 +224,7 @@ export default class DB {
             WHERE skipped.sentence_id = sentences.id AND
               skipped.client_id = ?
           )
+          AND (clips_count = 0 OR has_valid_clip = 0)
           ORDER BY clips_count ASC
           LIMIT ?
         ) t
@@ -329,7 +330,8 @@ export default class DB {
             FROM votes
             WHERE votes.clip_id = clips.id AND client_id = ?
           )
-        AND (sentences.clips_count <= 10 OR sentences.clips_count IS NULL)
+        AND sentences.clips_count <= 10
+        AND sentences.has_valid_clip = 0
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
         LIMIT ?
       ) t
@@ -492,6 +494,12 @@ export default class DB {
         WHERE updated_clips.id = ${id}
       `
     );
+
+    await this.mysql.query(
+      `UPDATE sentences
+        SET has_valid_clip = EXISTS (SELECT * FROM clips WHERE original_sentence_id = ? AND is_valid = 1 LIMIT 1)
+          WHERE id = ?`,
+          [id, id]);
   }
 
   async saveClip({
@@ -521,10 +529,12 @@ export default class DB {
       await this.mysql.query(
         `
           UPDATE sentences
-          SET clips_count = clips_count + 1
+          SET
+            clips_count = clips_count + 1,
+            has_valid_clip = EXISTS (SELECT * FROM clips WHERE original_sentence_id = ? AND is_valid = 1 LIMIT 1)
           WHERE id = ?
         `,
-        [original_sentence_id]
+        [original_sentence_id, original_sentence_id]
       );
     } catch (e) {
       console.error('error saving clip', e);
