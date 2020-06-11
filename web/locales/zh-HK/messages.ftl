@@ -172,7 +172,7 @@ logout = 登出
 
 home-title = Common Voice 計劃係由 Mozilla 發起嘅，想幫機械學識好似真人咁發聲。
 home-cta = 喺呢度貢獻你嘅聲音！
-wall-of-text-start = 語音係自然、有人性的。所以我們非常希望為機器建立可用的語音技術，但建立語音系統需要非常大量的語音數據。
+wall-of-text-start = 語音係自然、有人性嘅。所以我哋非常希望為機器建造可用嘅語音技術，但建造語音系統需要非常大量嘅語音數據。
 wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
 wall-of-text-more-desktop =
     現在您可以將自己的聲音捐畀我哋，以幫助打造開放源碼的語音資料庫，讓任何人都可以為裝置和互聯網打造嶄新的應用程式。<lineBreak></lineBreak>
