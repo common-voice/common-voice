@@ -24,6 +24,7 @@ A Mozilla által üzemeltetett Matrix szerveren van az angol nyelvű Common Voic
 A ProtonMail egy svájci e-mail szoltáltató, ahol titkosítva vannak a levelek.
 A Qwant egy olyan kereső, ami tiszteletben tartja a magánszférát.
 A Qwant általában jobb találatokat ad, mint a DuckDuckGo.
+A Ráskayék lovas kerülője eszeveszett iramban vágtatott be a faluba.
 A Solus egy gördülő kiadású Linux-disztribúció.
 A Szigonyos Pityut keresem!
 A Tivoli parktól már könnyen gurult lefelé a roller.
@@ -55,6 +56,7 @@ A csúszda spirálcsövéből kirobbantam a fényre, habokba.
 A célzás pontos volt.
 A detektív fél perccel később már vissza is tért.
 A döntéshozó szerv a döntéseit ülés tartásával vagy ülés tartása nélkül hozza.
+A fehér ruhás is meglepődött kissé.
 A fehérrel akar játszani vagy a feketével?
 A fejed a másik végén legyen!
 A fejlesztő nagyon sok időt fordít az oldal felépítésére, pedig néha a kevesebb több.
@@ -74,12 +76,14 @@ A francba, meghalunk!
 A francia idegenlégió büntetőszázadának egyetlen célja az elrettentés.
 A fényképész kigombolta a gallérját.
 A férfiak nem csak a szex miatt tesznek meg dolgokat a nőknek.
+A fórumon legalábbis azt írják, hogy előnyös.
 A füstbomba nem gyerekjáték.
 A főnök azt mondja, vagy rendeltek, vagy pedig távoznotok kell.
 A főreferens?
 A gazdasági társaság tagjainak döntéshozó szerve a legfőbb szerv.
 A gengszter bódultan hátratántorodott.
 A gengszter nem volt rosszkedvű.
+A gengszterekkel!
 A gondnok tevékenységét a gyámhatóság felügyeli.
 A gumiba ágyazott gépek tompán zakatoltak alattuk.
 A gumibotját is, mint fent.
@@ -87,6 +91,7 @@ A gyorsulási versenyekre csak idióták gerjednek.
 A hagymás bab jelentős gázfejlődést generál.
 A hajolaj egy nagyon dallamos magyar szó.
 A hajó alig másfél méternyire a mólótól libegett a békés, tükörsima vízen.
+A hajó lassan elindult.
 A hajó lassan, békésen ingott, mint valami óriási bölcső.
 A hallgatóságon határozottan lincselő hangulat vett erőt.
 A halált is.
@@ -97,9 +102,11 @@ A határozathozatal szótöbbséggel történik.
 A helyiség újra megelevenedett.
 A helyzet a következő.
 A holtnak nyilvánított személyt az ellenkező bizonyításáig halottnak kell tekinteni.
+A humorom ellen eddig senkinek sem volt kifogása.
 A háború elkezdődött, ribanc.
 A házasságkötéssel megszerzett nagykorúságot a házasság megszűnése nem érinti.
 A házasságot könnyű volt érvényteleníteni.
+A hóhér az, aki szeret téged!
 A hóhér is!
 A hóhéré!
 A húgom is a szakértője volt a lehetetlen dolgoknak.
@@ -113,6 +120,7 @@ A jogképesség a halállal szűnik meg.
 A jogképesség az embert, ha élve születik, fogamzásának időpontjától illeti meg.
 A jogképességet korlátozó jognyilatkozat semmis.
 A jókedve egyenesen lebilincselő.
+A jövőre nézve azonban figyelmeztetem, hogy nem fog még egyszer sikerülni.
 A kalózok némán álltak a fedélközben.
 A kanapé jó lesz.
 A kapilláris töltési idő kevesebb, mint két másodperc.
@@ -124,6 +132,7 @@ A kocsi megállt.
 A kocsmáros szerint az a recept, hogy bent maradjon a kés.
 A kocsmáros ért ehhez, mert itt már öltek orvost is.
 A korlátolt felelősségű társaság legfőbb szerve a taggyűlés.
+A kovácsműhely előtt elordította magát.
 A képzeletbeli barátnője szakított vele.
 A késemért jöttem!
 A kínaiak ellepték a partot, mindig takarták a Kis Hableányt.
@@ -134,6 +143,7 @@ A közbeszóló Langyos Teobald volt, a hírhedt kasszafúró.
 A közgyűlés hatáskörébe tartozik az alapszabály módosítása; az alapszabály ettől eltérő rendelkezése semmis.
 A közgyűlés évente legalább egy alkalommal ülésezik.
 A közkereseti társaság legfőbb szerve a tagok gyűlése.
+A községházánál ismét elhujjantotta magát Kócs Andris, a kerülő.
 A közösség java elé helyezte önnön szükségleteit.
 A kültag nem lehet a társaság vezető tisztségviselője.
 A különteremben van.
@@ -142,6 +152,7 @@ A legények figyelemmel hallgatták, hogy milyen legyen az igazi, vad tengeri ra
 A leküldött legény felhozta a még mindig eszméletlen Billt.
 A leány egy igen magas rangú tiszt gyermeke volt.
 A lány bólintott.
+A lány ivott egy kortyot, köhögött tőle, de lassanként visszatért a szín az arcába.
 A lány megint elmosolyodott.
 A lány most mosolyodott el először.
 A lány nevetett.
@@ -158,6 +169,7 @@ A magántitok védelme kiterjed különösen a levéltitok és hivatásbeli tito
 A magáé vagyok!
 A mai bevezető csatát két remek csapat vívja meg.
 A malájt, mint ledöfött bikát az arénából, a lábainál fogva kihurcolták a porondról.
+A megbeszélt helyre visszük a hajót.
 A megfélemlített gengszterek mindig gyors felfogásúak.
 A meglévő oldalak szerkesztéséhez mindössze egy egyszerű szövegszerkesztőre van szükség.
 A mi hóhérunk nagy emberbarát, és nem tudja nézni az elkeseredett arcokat.
@@ -166,12 +178,14 @@ A miniszterelnök a megválasztásával hivatalba lép.
 A miniszterelnök megválasztásához az országgyűlési képviselők több mint a felének szavazata szükséges.
 A miniszterelnök rendeletben a miniszterek közül egy vagy több miniszterelnök-helyettest jelöl ki.
 A miniszterelnököt az Országgyűlés a köztársasági elnök javaslatára választja meg.
+A munka szünetelt.
 A munkafelügyelő két perc múlva lihegve és dühtől vörösen tért vissza.
 A munkavállalói küldött tájékoztatni köteles a munkavállalókat a felügyelőbizottság tevékenységéről.
 A munkavállalói küldöttet a társaság legfőbb szerve az üzemi tanács javaslatára hívja vissza.
 A másik baja pedig szerintem az, hogy rettenetes.
 A másik kezében revolvert tartott!
 A móló utolsó pillére mögött megtalálod azt a mentőcsónakot, amivel partra jöttem.
+A mólótól északnyugatra, körülbelül másfél kilométer távolságban egy parti gőzös vesztegel.
 A műszaki boltban kapni általános távirányítót, nem drága.
 A nagy feszültséget méltóan jellemezte a hirtelen támadt csend.
 A nagyanya későn látta be gondos pedagógiai rendszerének rossz következményeit.
@@ -181,6 +195,7 @@ A nappali üresnek tűnik.
 A neurológiai folyóiratban olvastam róla.
 A neveltetésem.
 A nők vágyálma.
+A papa volt tudniillik eredetileg éjjeliőr.
 A parti rendőrség.
 A penetráns bűztől mindenki hátrahőkölt.
 A pofon azonban mesteri volt, ezt el kell ismernem.
@@ -212,11 +227,13 @@ A szajkó a villanyoszlopon bégető hangot adott ki.
 A szalonban előkelő, finom emberek unatkoztak naphosszat, kisebb csoportokban.
 A szavazatoknak névtelennek kell lenniük.
 A szeme sarkából látta, hogy a közelben ülők arcán kiül a szívből jövő utálkozás.
+A szeme úgy járt, mint a vasvilla.
 A szemtanúk szerint össze-vissza ment az úton.
 A személyiségi jogokat személyesen lehet érvényesíteni.
 A szerelem nem sprint, sokkal inkább maraton.
 A szerkesztéshez nem szükséges internet-kapcsolat, így számomra egyszerűbb az új cikkek írása.
 A szexben csak meztelenség, orgazmus és testi kontaktus van.
+A szurtos inasok kiszaladtak a műhelyből.
 A szájában!
 A szél szinte feldönti, annyira elgyengült az ütéstől.
 A szőke lány rémült mozdulattal kapott a fejéhez.
@@ -252,12 +269,14 @@ A vöröskeresztbe se vidd, ez már nem segít senkin!
 A zöld szín jól áll magának!
 Ad ötezer dollárt.
 Add ide a telefont!
+Addig még meg kell csináltatnom a frakkomat is.
 Adj neki egy hambit.
 Adja ide a cukortartót, és távozhat.
 Ahhoz képest, hogy most közösültél, baromi ideges vagy.
 Ahhoz, hogy egy weboldal megfeleljen a mai követelményeknek, a következőket kell tudnia:
 Ahogy ott állt a pénztárfülke előtt, felemelt keze időnként hozzáért valami hűvös, sima tárgyhoz.
 Ahol akarod, a bolond választ.
+Ahol megjelent, ott veszedelmes gengszter létére okvetlenül vereséget szenvedett.
 Ahonnan ő származik, ezért halál jár.
 Akar még tudni valamit?
 Akarok neked mutatni valamit.
@@ -291,6 +310,8 @@ Akkor miért próbálkozol?
 Akkor most csak háromfélét rendelünk.
 Akkor nem lesz gond!
 Akkor nem táncos este.
+Akkor pedig lemondhatsz az egészről.
+Akkor sem biztos, hogy jó irányba fúj.
 Akkor szó szerint hogy mondta?
 Akkor találgass.
 Akkor te a mangánt keresed.
@@ -307,6 +328,7 @@ Alszik, mint a bunda.
 Aludj jól!
 Aludj jól.
 Alázzuk le.
+Amellett tudott még valamit.
 Amellett társnője a parton megőrülhet a félelemtől, hogy hová tűnt a hajó.
 Amennyiben akar.
 Ami a legritkábban fordult vele elő, teljesen komoly volt, és nagyon törte a fejét.
@@ -343,12 +365,15 @@ Anyu?
 Anyukám le szokott fürdetni.
 Anyukám mindig félbevágott borsót csinált, kicsi virslidarabokkal, házi zsemlekockákkal.
 Anyám, de jó illata van.
+Apró regények és esetek.
 Aprólékosan elmondta, hogy itt, Libreville-ben harmincéves pályafutása alatt csak kétszer történt gyermekrablás.
 Apám fűrészmalom-tulajdonos volt, de tönkrement, mire kitagadtam magam a családból.
+Arany János és Petőfi Sándor jó barátok voltak.
 Aranyos pár lennétek.
 Aranyosak vagytok, de táncolni megyek a barátnőmmel!
 Arcra, szájra, nyelves?
 Arkhimédész büszke lenne.
+Aromája van.
 Arra feleltem!
 Arra is emlékezhetünk, hogy Bobby, felhasználva a magányt, gondolkozni kezdett a legsürgetőbb tennivalóin.
 Arra kérnék egy jegyet.
@@ -398,7 +423,9 @@ Az ellenség bárhol lehet.
 Az elmúlásnak ez a módja az itt történtekhez képest egyenesen idegcsillapító.
 Az első zsidóm!
 Az elsőbbségi jog gyakorlására a tagok törzsbetéteik arányában jogosultak.
+Az előbb azt mondtam, hogy elhajózunk!
 Az előbb még nénikét mondott.
+Az előbb, amikor beszélt, láttam, hogy nagyon szép foga van.
 Az ember csak utólag jön rá az ilyesmire.
 Az emberek ebből a rövidítésből másra gondolhatnak.
 Az emberek felszabadultan nevettek.
@@ -444,7 +471,10 @@ Az ostoba pincér lelökött az asztalról egy poharat.
 Az sem haragudott, aki adta, és az sem, aki kapta.
 Az unokatesóm menyasszonya volt, miközben a bátyámmal kavart, szinte családtag.
 Az utazási iroda természetesen írásban vállal felelősséget az utasok személy- és vagyonbiztonságáért.
+Az utca népesedni kezdett.
+Az utóbbi két mondatot csak a tőle megszokott bolondozási rohamában mondta.
 Az volt az első fűtő!
+Az Északi-Középhegységet fogjuk felfedezni nyáron.
 Az állam jogi védelemben részesíti az otthon nyugalmát.
 Az állatokat beszüntettem!
 Az életben vannak sorsszerű dolgok.
@@ -474,6 +504,7 @@ Azokra gondoltam, amiket mostantól írnánk.
 Azon gondolkodtam, mi okozta a tüzet.
 Azon nincsenek rossz egyenletek.
 Azonban ő lassan eldobálta legjobb kártyáit.
+Azonkívül nyelvtanilag helyesnek kell lennie.
 Azonnal fordulj nyugat felé, és rohanj, ahogy tudsz.
 Azonos mértékű üzletrészhez azonos tagsági jogok fűződnek.
 Azt akarod, hogy az intelligenciámat egy retardált versenyre pazaroljam?
@@ -487,6 +518,7 @@ Azt hiszem, a Atom Anti a nevünk.
 Azt hiszem, a laptopjáért ment vissza.
 Azt hiszem, levetkőzöm.
 Azt hiszem, rosszul ítéltem meg ezt az éttermet.
+Azt hiszi, hogy megijedek magától?
 Azt hittem, hallottam valamit.
 Azt hittem, hogy a rák volt a nagy finálé.
 Azt hittem, kíváncsi rájuk.
@@ -509,11 +541,13 @@ Azt szinte lehetetlen elpusztítani.
 Azt tetted, amit kellett.
 Azt viszont bizonyosan állíthatjuk, hogy itt nem vicces.
 Azt viszont nem sejtettem, hogy azt is pontosan látja, ha valaki Ubuntut használ.
+Azt, amit ez a fiatal, vakmerő bolond nem tudott.
 Aztán a fickó megszökött a börtönből.
 Aztán a padlóra mutatott, majd Diamant Oktáv géppisztolyára, utána ismét a padlóra.
 Aztán egyszerre egészen váratlanul rendőrökkel telt meg a kocsma.
 Aztán hozzálátott, hogy megkösse.
 Aztán nagy lélegzetet vett, mint aki komoly akadályon jutott túl, és Bobbyra nézett.
+Aztán pattintott egyet az ujjával, mire egészen érthetetlenül meggyulladt a cigaretta.
 Aztán valahogy némiképp összeszedte magát.
 Azután John lassan elmondott mindent.
 Azzal lövöldözött!
@@ -529,10 +563,12 @@ Azóta mindenfélével foglalkozom.
 Azóta nem nőttem.
 Barátaim körében a könnyed és szellemes Szigonyosnak neveznek.
 Basszus, de nehéz vagyok.
+Be akarok társulni!
 Bejön velünk a prefektúrára!
 Bejöttetek a lakásomba amíg aludtam?!
 Beletört a kulcs a zárba.
 Belső zsebéből viszont egy konyhakés pengéje villan elő.
+Belátta, hogy tehetetlen.
 Bemondták, hogy ne járuljunk oda részvétet nyilvánítani.
 Benevezünk a Fizika Kupára, és kéne egy negyedik tag a csapatba.
 Benne van a heti megfigyelési jelentésetekben.
@@ -544,6 +580,7 @@ Beszéd közben gépiesen ismét felállította a sakkfigurákat, és játszani 
 Beszélhetnél Lengyelül is.
 Beszélj mélyebb hangon.
 Beszélj vele, biztos, hogy meg tudjátok oldani!
+Beszéljétek meg!
 Beszélnem kell veled.
 Beteg kockafejű állatok!
 Beteg vagy?!
@@ -573,6 +610,7 @@ Bobby Calaghan szeme nagyot villant.
 Bobby Calaghan volt.
 Bobby a fejéhez kapott.
 Bobby a pulthoz lépett, és tisztességtudóan köszönt.
+Bobby azonban ésszel van felszerelve.
 Bobby bólintott.
 Bobby egy pillanatig gondolkozott, aztán vállat vont.
 Bobby egy, a fedélzeten talált tengerészlátcsővel a partot nézegette.
@@ -580,6 +618,7 @@ Bobby egyedül maradt.
 Bobby elmondott mindent.
 Bobby erre újra elkáromkodta magát.
 Bobby folytatta a történetet.
+Bobby hirtelen felállt.
 Bobby hirtelen megmerevedett arca elárulta, hogy baj van.
 Bobby ismét reményvesztetten nézett körül.
 Bobby jól tudta ezt.
@@ -594,11 +633,13 @@ Bobby sem tudta.
 Bobby sokat sakkozott már életében.
 Bobby szó nélkül a zsebébe nyúlt, elővett egy beretvát és kitette az asztalra.
 Bobby szó nélkül a zsebébe nyúlt, elővett egy borotvát és kitette az asztalra.
+Bobby vigyorgott.
 Bobby vágyakozó pillantást vetett a part felé.
 Bobby várt néhány pillanatig, aztán érdeklődve kérdezte a feltápászkodó Ágostontól.
 Bobby újra elmagyarázott mindent, és mire végzett, a Szigonyos teljesen felkészült az útra.
 Bobby üldözése alatt senki sem volt a kikötőben.
 Bobbynak tapasztalnia kellett, hogy ez a mosoly, ha lehet, még fokozza a szépségét.
+Bobbyt nem lehet megelőzni.
 Bocs, bepánikoltam.
 Bocs, de rohannom kell.
 Bocs, hogy fel akartam robbantani a fejed!
@@ -609,11 +650,14 @@ Bocsánat.
 Bocsánatot kérek a korábbi kirohanásomért.
 Bocsásson meg, nincs időm, hogy valamennyi fegyházi élményét elmesélje itt nekem.
 Bolond fickó ez, de nem ellenszenves.
+Boros is volt, mérges is volt.
+Budapest Magyarország fővárosa, és egyben legnépesebb városa.
 Bágyadt napsugár, egyre hűvösebb van.
 Bámulhatod egész nap azt a táblát.
 Bár én mondhatnám ezt el magamról!
 Bárkivel lefekszik, ha az illető vásárolgat neki dolgokat.
 Békésen mulattak.
+Bíró uram éppen tanácsot tartott a hitesekkel.
 Bólintott, mint aki tudomásul vett egy utasítást, és tovább rohant.
 Bújkálunk az elől a nagy, hülye gyík izé elől.
 Büszkék vagyunk a környezetvédő irányelveinkre.
@@ -621,13 +665,17 @@ Büszkék vagyunk a magyar emberek nagyszerű szellemi alkotásaira.
 Büszkék vagyunk az országunk megmaradásáért, szabadságáért és függetlenségéért küzdő őseinkre.
 Bűnös nincs!
 Bűnösnek találtattál az emberség és az illendőség teljes hiányában.
+Bűvészkedésével teljesen megszédítette a társaságot, amely szemmel láthatóan minden előzetes megbeszélés nélkül testőrségévé szegődött.
 Cigarettázott és nevetett.
 Cipőfelsőrész-készítő.
 Citromos zselatinnal?
 Csak a szemtől szembeni beszélgetéssel van gondja, meg a jó illattal.
 Csak akik már találkoztak veled.
+Csak akkor koronázhatja siker a vállalkozásodat, ha veletek tartok.
 Csak ami a részleteket illeti…
+Csak azon töröm a fejem, hogy minél kíméletesebben adjam tudtára.
 Csak azt akarom, hogy tudd, nem kell így élned.
+Csak azt akartam mondani.
 Csak azt gondoltam, mire úgy lesz, addigra már nem számít.
 Csak barátok vagyunk.
 Csak csináld!
@@ -638,6 +686,7 @@ Csak folytasd, öregem!
 Csak gyere ide fel, segíts húzni és fordítani.
 Csak gyere velem.
 Csak hogy tudd, a leves hozzávalóit igenis el lehet ültetni.
+Csak jóval később jegyezte meg szerényen.
 Csak kezdjünk még egy menetet.
 Csak kiterjesztem az intimitást.
 Csak le kellett teríteni.
@@ -686,6 +735,7 @@ De annak harcsabajusza volt, és közel sem volt ilyen szép lába, mint magána
 De az enyém igen!
 De aztán mondott rólad valamit, aztán megölelt.
 De azért elviszel vásárolni?
+De azért higgye el, a torpedóromboló Jeanette felejthetetlen élményt jelentett számomra!
 De azért mégis hallatlan.
 De azért nem vesztem el a reményt.
 De azért nyugodtan bemehet, mert ettől eltekintve úgyszólván normális.
@@ -695,6 +745,7 @@ De ez esetben Anna merész és impulzív szenvedélye csakis tragédiához vezet
 De ez még nem minden.
 De ez nem oldja meg a problémádat?
 De ezek szerint nem.
+De ezt még akkor nem tudta.
 De ha megfigyeled, kétoldalas.
 De ha szintetikus ember leszek, én akkor is szeretnék zsidó lenni.
 De hagyjuk a tapsokat, mert nem vagyok hiú!
@@ -716,6 +767,7 @@ De lehet légzészavar is.
 De maga csinálta a mosodaívet, és itt sem szerepel két csíkos huzat.
 De maga még mindig nem mondta meg a nevét!
 De maga őszinteséget követel, és én nem akarok tovább kertelni.
+De meghalt.
 De mennyi az esély egy ilyen király pilótára?
 De mielőtt hozzáfognánk, valamit kérek, ami szintén nem változtat a gyermekrablás lényegén.
 De mindegy, ahogy nézem, a saját mondataimból is szépen gyűlik az adatkészlet.
@@ -726,6 +778,8 @@ De miért hívják a nagynénjét Dánielnek?
 De miért, ha van egyszerűbb módszer is?
 De mondom, ez volt az egyetlen hang, ami a hirtelen támadt csendet megzavarta.
 De most!
+De mégis?
+De ne dévajkodjunk egymással!
 De ne így!
 De nehogy összetévessze egy karosszékkel, mert hanyatt esik!
 De nehogy összetévessze egy karosszékkel, mert hanyatt esik.
@@ -740,7 +794,10 @@ De semmi közöm a vendégek szeszélyeihez.
 De szeretett ismerkedni is új emberekkel és új helyekkel, ami már megbocsáthatatlan.
 De talán nem kell erőszakos halált halnia.
 De tudott más módon is pénzt keresni.
+De utóvégre nem tudhattam pontosan, hogy hol ütötte meg magát.
+De van!
 De van, de indiai kajával.
+De vigyázz a sötétben, nehogy agyonüss valakit!
 De én is szoktam mondatokat beküldeni.
 De én megtiltom.
 De én nem tudom megcsinálni.
@@ -800,12 +857,14 @@ Ebből az adathalmazból nem vonhatod le ezt a következtetést.
 Ebből ered az én rovott múltam.
 Ebből is kitűnik, hogy mindketten izgatottak lettek.
 Efelől teljesen nyugodtak lehettek.
+Egy ajánlatom van a számodra!
 Egy barát nem izzadja össze a macidat.
 Egy boldog részvényesed már van.
 Egy buzogány volt nála!
 Egy csapat bank rabló túszokat ejtett a munkájuk során.
 Egy csavargó!
 Egy csomag fura zöld cigaretta eldobva a hóban.
+Egy dél-amerikai marimba-zenekarral.
 Egy embert, aki megörökölte az apja jól menő cégét.
 Egy erős hashajtó.
 Egy fém szemétlapátra lődöztek a légpuskával.
@@ -834,9 +893,12 @@ Egy szigma részecske.
 Egy tőzsdei átverés ügyét követte.
 Egy zacskó Philips csavar.
 Egy újabb gyerekkönyv, amit többé nem olvasok el.
+Egy úriember, ha módjában áll, eleget tesz a hölgyek kívánságainak.
 Egy ügyeskedő mindig talál magának utat ott, ahol más nem.
 Egye fene!
 Egyedül sakkozik.
+Egyedül sakkoztam, és mihelyt befejeztem a partit, végighallgattam Bobby mondanivalóját.
+Egyedül sakkoztam.
 Egyelőre azt sem tudom, hogy maga kicsoda.
 Egyelőre.
 Egyenesen Lórikához, a szakállas pincérhez fordult.
@@ -861,6 +923,7 @@ Egész éjjel, emberek!
 Egészen halk csobbanásokat hallott.
 Egészen halk kis sutyorgást.
 Egészen komolyan.
+Ehhez csakugyan nem volna szívem.
 Ehhez legalább három ember kell.
 Ehhez mit szólnátok?
 Ehhez mit szólsz?
@@ -880,6 +943,7 @@ Elegem van abból, hogy lekezelsz.
 Eleinte nem törődött vele.
 Elfogadom a feltevésed.
 Elharmadolhatjuk.
+Elhatározta, hogy kikeresztelkedik.
 Elismerem, hogy e pillanatban ez kissé zavaros.
 Elkennéd ezt a mellkasomon?
 Elköszönhetett volna!
@@ -904,6 +968,7 @@ Elég régen.
 Elég sok számot ismerek innen, azokból az időkből, amikor bezárt a világítótorony.
 Elég volt!
 Elégedetlenül.
+Elégedjék meg azzal, hogy megütöttem magam!
 Elöl-hátul géppisztolyos katonák kísérik a Toyotát.
 Előbb azonban lépnem kell, mert most én jövök.
 Előbb el kellett döntenie, vajon megkockáztathatja-e, hogy világosabb tájakon meneküljön tovább.
@@ -920,18 +985,23 @@ Engem azonban ne döntsön veszélybe.
 Ennek a kuplungnak eléggé fokhagyma illata lett.
 Ennek a rossz szokásnak köszönhető, hogy Bobby most mindent tud.
 Ennek megfelelően tisztálkodj és végezd szükségleteidet.
+Ennek sajnos néhány hónapja vége, mert megcsalt a bestia.
 Ennyi az egész!
 Ennyit nem ér.
 Enyhén szólva, lebuktunk.
 Enyhítő körülmény, hogy azt sem tudta volna megmagyarázni, ha történetesen nem utazik el.
 Ergo a csapat nem gyűlt össze.
 Erre a pofon napján jött rá.
+Erre az ügyességre építettem mindent, amikor idejöttem.
 Erre azonban nem kapott választ.
 Erre jártam, gondoltam, körülnézek.
+Erre kíváncsi vagyok!
+Erre magam is kíváncsi vagyok!
 Erre minden oka megvolt, mert a láda estében kinyílt, és tartalma kiborult a földre.
 Erre még nem gondoltam így.
 Erre nincs magyar szó.
 Erre!
+Errefelé nincs semmiféle áramlat!
 Erről a mostaniról is.
 Erős természetem van, de csak három napig bírtam ezt a munkát.
 Erős túlzás volt.
@@ -949,7 +1019,9 @@ Ez Bobby!
 Ez a baba nem hagyja abba a panaszkodást.
 Ez a bitang átkozottul áthúzta a számításainkat.
 Ez a cikk információközléshez készült.
+Ez a csirkefogó tudta, hogy mit csinál.
 Ez a dolog logikus része.
+Ez a fiatalember valóságos sorscsapás volt a számára.
 Ez a gazember pontosan ismeri az észjárását.
 Ez a gombnyomkodás kiújította a régi nintendós sérülésem.
 Ez a jeges szél, reménytelenül eltorzítja a mozgásomat.
@@ -958,7 +1030,9 @@ Ez a legfontosabb kritérium.
 Ez a maga véleménye.
 Ez a mi évünk!
 Ez a motor úgy fog kattogni, hogy összeszalad az egész parti rendőrség.
+Ez a mozdulat nagy bizonytalanságot árult el, és Bobby érezte, hogy fölényben van.
 Ez a név még jobban elkedvetlenítette Diamant Oktávot.
+Ez a tehetetlenség váratlanul dühbe hozta.
 Ez a weboldal kevesebb helyet foglal mint a Facebook-on a logó.
 Ez a weboldal nem használ sütiket és JavaScriptet.
 Ez alig hat órai hajóút, de sajnos mégis lehetetlen.
@@ -971,6 +1045,7 @@ Ez az egész bolygó egy emelkedő?
 Ez az írógépes pasas?
 Ez az öltöny tényleg ilyen gáz?
 Ez azonban csak egy pillanatig foglalkoztatta.
+Ez azonban e pillanatban lehetetlen volt.
 Ez azért lesz hasznos, mert így kliensoldalon is lehetséges lesz beszédfelismerő programok futtatása.
 Ez benne van a fogadalmunkban is.
 Ez beteges, de te nem vagy az.
@@ -1027,6 +1102,7 @@ Ez olyasfajta tréfa, mint a ragály.
 Ez remek.
 Ez senki lakása.
 Ez tehát nem olyan csekélység, hogy szégyen¬keznem kelljen miatta!
+Ez természetes, hiszen Bretagne-ban többnyire minden nagynénit Aglájának hívnak.
 Ez titok volt?
 Ez táplálta a reményt Bobby Calaghanben.
 Ez történne, ha ott lennék.
@@ -1044,6 +1120,7 @@ Ezek valóban szokatlan események.
 Ezeket mind próbáljam fel?
 Ezeket most nem lehet meggyőzni.
 Ezen a kabáton már nem sokat ronthatott a revolvergolyó.
+Ezen magam is csodálkozom.
 Ezt a Billt keresem!
 Ezt a beállításokban teheted meg.
 Ezt a csendet csak egy egészen egyhangú kattogás zavarta meg.
@@ -1077,21 +1154,27 @@ Ezért hívják pánikrohamnak!
 Ezért jobb lesz, ha elhagyom a várost, és nyugodtabb helyre vitorlázom.
 Ezúttal így történt.
 Fancsali képet vágsz majd, mikor ezt fel kell olvasnod.
+Fegyverszünetet ajánlok.
 Fegyvert használni nem érdemes.
+Fehér ruhát viselt.
 Fejbe csapnám ezzel a revolverrel!
 Fekszik?
+Fel a kezekkel!
 Felderült arccal szaladt a fedélzet korlátjához.
 Felfogjátok, milyen beteges ez?
+Felfüggesztette az ülést s a magisztrátus élén kivonult a ház elé.
 Felhajtotta az italt és körülnézett.
 Felhívjam a tudományos magazint, hogy tartsák neked a címlapot?
 Felraktátok a játék arcot?
 Felróható magatartására előnyök szerzése végett senki nem hivatkozhat.
+Feltárcsázta a rendőrséget.
 Feltétlenül jobb, mint az én tervem.
 Feltűnő ismertetőjele volt, hogy szeretett mosakodni, amit senki sem értett.
 Feltűrte a kabátja ujját.
 Felvesszük veled a küzdelmet!
 Felvonta a tatvitorlát és nyomban utána a fővitorlát is.
 Felállt, és tántorogva tett néhány lépést.
+Felálltak és az ajtó felé indultak.
 Felérkezett.
 Figyelembe véve mit?
 Figyelj, azt hiszem, nem is olyan jó ötlet ez!
@@ -1110,6 +1193,7 @@ Fiúk, van egy kis gondom!
 Fogalmam sem volt róla, hogy ez nem hajó, hanem egy úszó lelencház.
 Fogalmam sincs róla.
 Folytasd csak.
+Folytassa inkább azt a szörnyűséget!
 Folytassuk egy új kérdéssel.
 Folytatjuk?
 Folyton alábecsülsz engem, cimborám!
@@ -1118,6 +1202,7 @@ Fordulj jobbra.
 Fordítsd el a medencéd.
 Fordítsd vissza a fejed.
 Formális tiltakozás.
+Franciaország fővárosa Párizs.
 Frissen gyalázva is lehetne akár kócos haja fantázianeve.
 Fura a hangod.
 Furcsa dologra lettem figyelmes a hálózati forgalom figyelése közben.
@@ -1139,9 +1224,11 @@ Gondolj csak bele.
 Gondolja, hogy Katalin a megfelelő ember erre a munkára?
 Gondolja, hogy kötelességem a lelki egyensúlyával törődni?
 Gondolkodj, asszony!
+Gondolod, hogy van tárgyalnivalónk?
 Gondolod?
 Gondolom azt, hogy ti ketten egy olyan párt alkotnátok, amit mások aranyosnak mondanának.
 Gondolom most gratulálnom kéne.
+Gondolom!
 Gondolom, kevés nálatok a kóser kombájnvezető.
 Gondolom, nem kell ecsetelnem, mekkora megtiszteltetés ez.
 Gyakrabban, mint hinnéd!
@@ -1162,11 +1249,13 @@ Ha a súlyhoz viszonyított erőt nézzük, a legerősebb állat a hadi hangya.
 Ha akarja, akkor inkább a lábát dicsérem!
 Ha az ember a fején áll, megesik az ilyesmi.
 Ha az öreg tengeri fóka esetleg éppen szabadlábon van, talán segítségére siethet.
+Ha azonnal indulunk.
 Ha belőlem kellene megélniük, akkor egyebet sem tudnának, csak nélkülözni.
 Ha benne vagy, a középső részt újra elpróbálhatnánk.
 Ha biztonságosan szeretnéd használni a számítógéped, nyílt forráskódú szoftvert használj!
 Ha elvágjuk, legjobb esetben is csak egy pici üres szendvics.
 Ha ennyire biztos vagy benne, akkor bizonyítsd be.
+Ha esedékes volna a támadás, akkor Bobby már itt lenne.
 Ha ez sikerül Diamant Oktávnak, akkor minden további nélkül milliomos lesz.
 Ha ez így megy tovább, szex lesz a vége!
 Ha felfedezett egy kocsmát, azonnal bement és kipróbálta.
@@ -1177,6 +1266,7 @@ Ha futna a lakbérre, téged is elküldenélek.
 Ha használod a fogkefémet, kiugrom az ablakon.
 Ha hiszed, ha nem, ezek nem új technológiák.
 Ha hozzászólnál vagy hibát találtál, írd meg nekem!
+Ha idejekorán érkeznek, nemcsak a rablást akadályozzák meg, hanem elfoghatják a bandát is.
 Ha itt nem találta meg, akkor majdnem biztos volt, hogy az illető nincs szabadlábon.
 Ha jól emlékszem, már megmondtam a nevemet.
 Ha kell még egy játékos, beállok!
@@ -1188,6 +1278,8 @@ Ha már zene, képzeld, én meg tudok beatboxolni.
 Ha nem akarod felkelteni, beszélj mélyebb hangon.
 Ha nem olyan végtelenül szórakozott.
 Ha nem tudod, mi az a nyílt forráskódú szoftver, nézz utána!
+Ha nincs kifejezett oka, akkor szerintem jó lenne bekapcsolni.
+Ha nincs nyomós okod, akkor nem is fogsz velem társulni.
 Ha randira viszek egy lányt, mert szoktam ám, akkor tudja, hogy az egy randi.
 Ha segíteni nem segítettem, attól még csodáltam őket.
 Ha szabad kérnem, most ne foglalkozzunk az eszemmel!
@@ -1254,6 +1346,7 @@ Higgyétek el, hogy nem én sikkasztottam el.
 Hirtelen ötlettől indíttatva bal felé ment le.
 Hisszük, hogy nemzeti kultúránk gazdag hozzájárulás az európai egység sokszínűségéhez.
 Hisz nem is hívtad randira.
+Hiszen azért küldött ide a barátom.
 Hiszen azért látszik annak!
 Hiszen azért vagyunk itt!
 Hiszen egész biztos, hogy a haja teljesen ősz lett e keserves másodpercek alatt.
@@ -1266,12 +1359,15 @@ Hiú ember volt, és ilyen esetekben milliomosnak képzelte magát.
 Hogy beteg vagyok.
 Hogy jártak túl az eszeden azok az irritáló önkéntesek?
 Hogy kaphattad volna tőlem?
+Hogy kerül ide a Golf-áramlat?
+Hogy került Bretagne-ba egy kanadai nagynéni?
 Hogy került fel a netre?
 Hogy kerültök ide?
 Hogy lehet valakit írógéppel fejbe vágni?
 Hogy megtiltod?
 Hogy mondtad?
 Hogy ne robbantsd fel a fejemet!
+Hogy nem akar engem hozzájuk hasonlítani!
 Hogy nézek ki?
 Hogy ráhibáztál.
 Hogy tervezhetném meg a szükségleteimet?
@@ -1301,6 +1397,7 @@ Hol maradsz?
 Hol tanult meg előételnyelven beszélni?
 Hol tartottál?
 Hol vannak a matrózok?
+Hol?
 Holnap elmehetnék az egyik nagy raktáráruházba.
 Honnan tudja, hogy mi voltunk?
 Honnan tudod te ezeket?
@@ -1321,6 +1418,7 @@ Három hónappal a négy éves büntetésének a lejárta előtt.
 Hát akkor megengedi, hogy én gyújtsak rá?
 Hát akkor megyek is!
 Hát akkor mivel lövöldöztem, nénémasszony?
+Hát akkor miért nem mondja már az igazat?
 Hát akkor miért visznek be?!
 Hát akkor, uram, vegye tudomásul, hogy az egész környéken nem volt egyetlen rendőr sem.
 Hát az micsoda?
@@ -1336,11 +1434,13 @@ Hát kinek?
 Hát menjünk tovább.
 Hát mert lehet.
 Hát mi lesz, kérem?
+Hát neki mi dolga van?
 Hát nem édes?!
 Hát nincs egyedül?
 Hát nézze!
 Hát persze.
 Hát, ahogy akarja!
+Hát, akkor intézkedj, ahogy akarsz!
 Hát, akkor jó.
 Hát, ez érdekes fordulat.
 Hát, ha találkája van a nénikéjével, akitől örökölt, akkor a nénike nyilván halott.
@@ -1351,6 +1451,7 @@ Hát, nem.
 Hát, pedig vannak.
 Hát, talán így a legjobb.
 Hát, én inkább a hallgató voltam, mintsem a beszélő.
+Hátha ki is lehet játszani a fiút.
 Hé, fiatalember! Hová rohan?
 Héttől hét húszig vagyok a fürdőszobában.
 Hívd fel, és mondd le!
@@ -1360,18 +1461,22 @@ Hölgyeim és uraim, a kezemben tartom az utolsó kérdést.
 Hölgyeim, biztosan van középút!
 Hú, ez igen, micsoda nézettség!
 Húgom ugyanis éjjeliőrnek akarja átképezni magát, és így meg kell szoknia a sötétséget.
+Húszezret!
 Húzza ide azt a másik kötélcsomót!
 Húzódjunk a kocsi belsejébe!
 Hülye titkos szervezetek, hülye titoktartással.
 Hű, egy mintás ing!
 Ide és ide.
 Idebenn, hölgyem!
+Idegen szavakat nem, de neveket igen.
 Idegességében fejgörcsöt kapott és bevett egy aszpirint.
 Idegesítő vagy, és senki nem akar veled játszani többé.
 Idegesítő, hogy ennyit foglalkozol a kávéddal.
 Ideje sem volna hozzá.
 Időnként zsebre dugta a kezét, megrántotta a nadrágját, és imbolygó felsőtesttel elindult.
+Igaz, hogy zsidó, de nem igen ért hozzá, a bíróságot sokkal jobban csinálja.
 Igaz, most jut eszembe, hosszú ideig és mindenfelé térképfoganatosító is voltam.
+Igaza van!
 Igazad van, ez a fele jobb.
 Igazad van, velem van a baj, nekem kéne orvos.
 Igazad van.
@@ -1424,8 +1529,10 @@ Informális tiltakozás.
 Inkább hagyok neki egy cetlit.
 Inkább rendet tenni.
 Innentől kezdve az összes ide irányuló kérés a saját géped címére lesz feloldva.
+Intett a társainak, hogy ne kapkodjanak folyton a pisztolyaik után.
 Intett az embereknek, akik hirtelen közrefogták Bobbyt és kituszkolták, mielőtt valami végzetes történt volna.
 Ismerek valakit, aki nem értene egyet.
+Ismerem őt.
 Ismerem!
 Ismerj fel!
 Ismerős volt, mint a régi életem.
@@ -1435,6 +1542,7 @@ Istenem, csak fehéres-zöldest ne!
 Istenem, milyen rengeteg sok manó!
 Istenem, sugárzás van!
 Istenkém, de jó újra itthon.
+Istók alkalmatos, helyes gyereknek indult.
 Itt a tarcsi kulcsom.
 Itt az idő, hogy örök nyugalomra térjek.
 Itt csak egy karbantartó vagyok.
@@ -1462,6 +1570,7 @@ Jaj, vigyázz!
 Javaslom, vegyél nadrágot!
 Jobb egy lúdnyak tíz tyúknyaknál.
 Jobb ha mész, mielőtt még lefúj fertőtlenítővel.
+Jobb nem beszélni róluk.
 Jobb, ha veled megyek.
 John most már úgy érezte, hogy érti a nagyanyját.
 Jártam már így.
@@ -1507,6 +1616,7 @@ Jöjjön, már nincs hová rohannia.
 Jön sakkozni, vagy nem?
 Jövök!
 Jövő szeptembertől a köznevelésben minden diák ingyen fogja kapni a tankönyveket-
+Kabos Gyula a Vígszínházban, az Andrássy úti Színházban, és a Pesti Kabaréban is fellépett.
 Kabos Gyula a farkasréti temetőben van eltemetve.
 Kalandos a természetem, és a véremben van az állandó csavargás.
 Kapcsold be.
@@ -1533,6 +1643,8 @@ Keresztüllő.
 Kergettek!
 Keskeny penge, kissé hajlott.
 Kettőnek számít.
+Kevés olyasmi van, amiről én nem tudok.
+Kezdem már unni, hogy olyan fölényesen járatja a pofáját!
 Kezdett dühbe jönni.
 Kezdhetjük?
 Kezdjünk is bele.
@@ -1546,6 +1658,7 @@ Ki az a Diamant Oktáv?
 Ki ez a gengszter?
 Ki fogom magyarázni!
 Ki hív ilyen lehetetlen időben?
+Ki korán kel, aranyat lel.
 Ki mondta, hogy hozzányúlhatsz a táblámhoz?
 Ki nevet a végén?
 Ki szaladt össze?
@@ -1584,6 +1697,7 @@ Kormány tagjai a miniszterelnök és a miniszterek.
 Kár a beszédért!
 Kár megtenni az ajánlatot, ezen a hajón én nem veszem át a vezénylést.
 Kár minden szóért!
+Kár volna itt hagyni!
 Kár!
 Képmás vagy hangfelvétel elkészítéséhez és felhasználásához az érintett személy hozzájárulása szükséges.
 Képtelen nőkhöz beszélni.
@@ -1591,6 +1705,7 @@ Kérdezd a szalvétáról.
 Kérdezd meg, miért hívnak ilyenkor!
 Kérem a kulcsom!
 Kérem!
+Kérem, ne feszegessük!
 Kérem, én nem vagyok kíváncsi ezekre a részletekre!
 Kérhetem valamelyiket apró virslidarabokkal és házi zsemlekockákkal?
 Kérje meg erre a szívességre valamelyik matrózt.
@@ -1656,6 +1771,9 @@ Legyen reszponzív!
 Legyen vele körültekintő, őrmester.
 Legyen átlátható és érthető!
 Legyetek udvariasak.
+Legyőzni sem nagyon.
+Legyűrte tehát haragját, intett a társainak, és elhelyezkedett egy asztal mellett.
+Legénye félrevágta kalapját s csípőbe szegte izmos karját.
 Lehet rendelni is.
 Lehet, de egy bengáli tigrist nem tudsz megsütni egy nagyítóval.
 Lehet, hogy befelé vérzik.
@@ -1683,7 +1801,9 @@ Linuxos ökoszisztémába jól fog illeni ez a projekt.
 Logikai félrevezetés, mely során nevetségességig túlozza a másik érveit, majd kritizálja.
 Lám csak lám, a kis sakkfigurák kipotyogtak.
 Lássuk csak, ülj le!
+Lássuk!
 Láthatjuk tehát, hogy Bobbyval sok minden történhet anélkül, hogy a meglepetés levegye a lábáról.
+Láthatóan bántotta, hogy ez a zömök, idősebb matróz ilyen pökhendin bánik vele.
 Látod már a problémát?
 Látod ott jobbra azt a két kis kék lámpát?
 Látod, hogy milyen!
@@ -1702,6 +1822,7 @@ Lórika bólintott.
 Lúdtalp miatt már első menetben kiszuperálták.
 Ma este lehet, hogy be kéne osonni és kimosni a szőnyegét.
 Ma végre megjött a Revolut bankkártyám.
+Maga is csak egy ember!
 Maga joggal tarthat bolondnak.
 Maga kicsoda?
 Maga leütötte tizenkét hajósomat.
@@ -1728,10 +1849,12 @@ Majd leállítom a motort, és a tenyeremmel fogok evezni!
 Majd meglátod, mi mit teszünk veled álmodban.
 Majd utánanézek a dolognak.
 Majd visszajövök.
+Majd záróra után.
 Majd én vigyázok rád.
 Majd én válaszolok a kérdésre.
 Majd írok nekik, ha találok valamilyen elérhetőséget.
 Majdnem azt mondhatnám, hogy az elítéltek örömmel mennek a másvilágra.
+Majszter uram földhöz vágta a patagyalut, amivel éppen egy jámbor kanca patáját faragta.
 Maradj lent.
 Maradj vonalban.
 Maradjatok távol tőlem.
@@ -1739,15 +1862,18 @@ Marco Polo oldalágon játszott valami szerepet a családomban.
 Marsha, Jan és Cindy melyik tévés családban volt három testvér?
 Matróz?
 Meddig fekhettem itt?
+Meg aztán én is itt vagyok.
 Meg aztán, tudod, ártatlan gyerekek élete forog kockán.
 Meg egy kis körömlakkot.
 Meg kell mentenem az idős hölgyet, de nincs önbizalmam.
 Meg kell mutatnom neki, hogy nem vagyok érzelmi színvak.
+Meg kell tanulnia azt is.
 Megannyi veszélyes helyzetből kivágták magukat.
 Megbeszéltük, mikor?
 Megbolondult?
 Megbántotta valamivel?
 Megcsináltad, amit kértem?
+Megelégedetten nevetett.
 Megengedi, hogy pipára gyújtsak, vagy rokonszenvesebb magának, ha inkább bagózom?
 Megetted a reggelid?
 Megettem a konzervet, mert már úgyis a kezemben volt.
@@ -1758,11 +1884,13 @@ Meghalt a nagyapja, és szeretné, ha elmennék a temetésre.
 Meghúzta a zsinórját és jobbra fordította az egészet.
 Megigazította az ágvitorlát és lerögzítette.
 Megijesztesz!
+Megindul a hajóforgalom.
 Megint ifjúkori élményekről akar nekem mesélni?
 Megint lőttek a fejednek!
 Megjegyzem.
 Megjelöltem a naptárt, hogy tudjuk majd a jövőben.
 Megkeresem a kulcsom.
+Megkért, hogy jöjjek ide, a hajóra, mivel nem akarta, hogy maga egyedül legyen.
 Megkértek, hogy februárig még ne publikáljam.
 Megkértek, hogy jöjjek be.
 Megkínálhatom egy cigarettával?
@@ -1778,8 +1906,10 @@ Megpróbáltunk csókolózni, de nem indult meg a föld.
 Megsülök itt.
 Megtalálták az autóinkat!
 Megtanítom.
+Megtehetjük az utat vitorlával?
 Megtekinthető mobiltelefonon is és nagy felbontású megjelenítőn is.
 Megtettem, amit tudtam.
+Megtiltom, hogy árunak nevezze őket!
 Meguntalak téged.
 Meguntam a munkám.
 Megvan!
@@ -1793,6 +1923,7 @@ Megállhattál volna a jó résznél!
 Megértette azt is, hogy őrség nélkül találta a hajót.
 Megértették, hogy mit akar ez a gázmaszkos őrült.
 Megígértem anyámnak.
+Megütötte magát?
 Megütöttél!
 Megőrültél?
 Mehetünk!
@@ -1812,6 +1943,7 @@ Mert az emberek nem szeretik!
 Mert elveszed minden mókáját.
 Mert ez a weboldal ilyen.
 Mert ez tök úgy hangzik, mintha kéne.
+Mert ha esetleg a térdét ütötte meg, akkor borogatni kell.
 Mert hamisítom!
 Mert jobban néz ki nálad?
 Mert jött a vörös nő, és elsodorta, mint egy ciklon.
@@ -1862,17 +1994,20 @@ Mi van vele?
 Mi van?
 Mi van?!
 Mi voltál, mielőtt beálltál közénk?
+Micsoda árut?
 Micsoda őrültség volt tőle, hogy a partra ment!
 Micsoda, randira hívsz?
 Micsoda?
 Miféle gyilkosságot?!
 Miféle pasas?
+Miféle áramlatba?
 Mikor elvette anyádat, hároméves sem voltál.
 Mikor elérhető az ügyfélszolgálat?
 Mikor jelentkeztek az első tünetek?
 Mikor látta utoljára?
 Mikor mozdultál ki utoljára a házból?
 Mikor van a randid?
+Mikszáth Kálmán az egyik leghíresebb magyar író.
 Miként faktoriálja a kvantum-számítógép a nagy számokat?
 Milyen alapon?
 Milyen beteg már ez?
@@ -1889,6 +2024,7 @@ Milyen volt a meló?
 Milyen volt a randi?
 Milyen érdekes, ez egy újabb közös pont!
 Mind hamuvá vált, senki sem olvashatja már őket.
+Mind pompás, gyakorlott verekedő, akikkel egyenesen élvezet pofozkodni egy kicsit.
 Mindamellett ez a Bobby jöhetne már.
 Mindamellett ha netán velem akarna szökni, az is gazember, aki útját állja!
 Mindegy is.
@@ -1913,13 +2049,16 @@ Mindenesetre továbbra is a közelben sepregetett.
 Mindenki azt hitte, hogy én loptam el, és én soha nem helyesbítettem.
 Mindenki befelé a hálózsákokba.
 Mindenki beteg volt.
+Mindenki elfoglalta a kijelölt helyét.
 Mindenki kifelé!
 Mindenki megbánja a tetkóit.
 Mindenki mosolygott, mindenki vidáman kiáltozott, és mindenki Bobby Calaghan felé tolakodott.
+Mindenki nyugodjon meg!
 Mindenkinek joga van a szabadsághoz és a személyi biztonsághoz.
 Mindenkinek joga van a tulajdonhoz és az örökléshez.
 Mindenkinek joga van szervezeteket létrehozni, és joga van szervezetekhez csatlakozni.
 Mindenkinek tetszik?
+Mindenképpen megnyugtathatom.
 Mindent elérek vele, amit az enyémmel sosem.
 Mindig így zajlik egy ilyen fizikusizé?
 Mindjárt hat harminc.
@@ -1997,11 +2136,14 @@ Miért, hát maga bolond?
 Miért, mi volt a papája?
 Miért?
 Mondd meg neki, hogy menjen haza.
+Mondhatom, remek nők!
 Mondj egy romantikusabb szót a csöcsökre!
 Mondja el a nevét a jegyzőkönyv kedvéért!
 Mondja meg, hogy hová megyünk tulajdonképpen?
 Mondja, idegen, hogy történik ez a művelet?
 Mondjuk, a feketével.
+Mondjuk, aki szeretné az úgyis fel tudja tölteni a saját mondatait.
+Mondom már, biztos úr!
 Mondom, lőjön keresztül!
 Mondom, nem.
 Mondtam már, hogy ez nem érdekel.
@@ -2028,6 +2170,7 @@ Most már határozottan tudom!
 Most már sok mindent értett.
 Most már értem.
 Most még nevetsz, de várj csak, ha majd meg kell szerelni a gépedet!
+Most nem!
 Most pedig lódulj!
 Most pedig távozz, kérlek.
 Most pont őt vádolják ezzel az utálatos bűnnel.
@@ -2058,6 +2201,11 @@ Már megbocsáss.
 Már mondtam.
 Már össze is szaladt!
 Már-már túl jó ötletnek tűnik.
+Máris hátat fordított, és az italpult felé indult.
+Máris megbánta, mert csak időt veszített vele.
+Máris mehetünk!
+Máris mondom.
+Máris rátérek!
 Máris ugrott.
 Mármint a parancsmegtagadásért kapott hat hét felfüggesztés után.
 Mármint ma estére?
@@ -2088,6 +2236,7 @@ Még valami.
 Még zuhanyzik.
 Mégha a boldogságuk az első embert boldogtalanná is teszi.
 Méghozzá könnyedén és szellemesen.
+Mégis megcsalt!
 Mégiscsak agyrázkódásom lehet, megyek, le is fekszem.
 Mégiscsak szép tudomány a logika.
 Na de mi lesz azután?
@@ -2111,12 +2260,14 @@ Na, ez nagyon gyerekes.
 Na, hogy ment?
 Na, kezdődik.
 Na, milyen érzés?
+Na, rendben van!
 Na, ugorjon le, gyorsan!
 Na, én indulok a konferenciára!
 Na, és egyszerre egy tangát mos, vagy bedob mindent?
 Na, és mi újság a fizikában?
 Na, és vajon hogy sikerült?
 Nagy dili volt, amíg sikerült bilire szoktatni.
+Nagy szerelem volt köztünk.
 Nagy vonalakban igen.
 Nagyjából huszonöt éve létező megoldások.
 Nagyon beszédes.
@@ -2125,6 +2276,7 @@ Nagyon büszke vagyok rád, édes.
 Nagyon helyes!
 Nagyon helyes.
 Nagyon is rendes srác vagyok.
+Nagyon jó kedve volt.
 Nagyon jó!
 Nagyon kérem, kedves Szigonyos úr, ne említse többé az alsónadrágját!
 Nagyon közel áll hozzám.
@@ -2132,14 +2284,18 @@ Nagyon sajnálom.
 Nagyon segítőkész vagy.
 Nagyon szeretlek mindannyiótokat.
 Nagyon szép lába van!
+Nagyon szívesen a rendelkezésére állok.
+Nagyot nézett a mérges atyamester.
 Nagyszerű, szóval nyitottunk egy kis panziót!
 Nagyszerű.
 Nahát, ez komoly öröm számomra!
 Ne az orromba akard tenni a szerszámodat!
 Ne beszéljen ennyi szamárságot!
 Ne beszéljen itt összevissza!
+Ne beszéljünk Bobby pofonjairól!
 Ne beszéljünk tovább az alsónadrágomról!
 Ne csak álljatok ott, üssetek, menjetek!
+Ne feszegessük, kérem!
 Ne foglalkozzunk a lábammal se!
 Ne folytassa, már tudom.
 Ne félj, fél percen belül ráérzel a kétkerekű Segway-re.
@@ -2153,6 +2309,7 @@ Ne olyan gyorsan!
 Ne pimaszkodjon!
 Ne törődjön vele!
 Ne vegye rossz néven, de ez kissé egyhangú.
+Ne vegye rossz néven, de még sehol sem ittam rumot!
 Ne úgy!
 Negyed óra óta folyton egyet hajt, és nem veszi észre, mennyire unalmas ez!
 Nehezen hihető, de még mindig vannak olyan weboldalak, amelyek nem reszponzívak.
@@ -2176,6 +2333,7 @@ Nem a hajadról beszélek, barom.
 Nem a licensz tesz kikötéseket, hanem a projekt.
 Nem akarom a laborban arra kérni, hogy pucéron táncoljon nekem.
 Nem akarom elkiabálni, de azt hiszem, az új keddi hamburgerem látjuk.
+Nem akarom őket összehasonlítani nagysáddal.
 Nem az, amit mondott.
 Nem az?
 Nem baj, fogódzófarkam van.
@@ -2184,6 +2342,7 @@ Nem beszélne világosabban?
 Nem beszéltem eléggé világosan?
 Nem biztos, hogy kibírom.
 Nem bámulom, káromlom.
+Nem bánták meg az iharosiak, sőt igen büszkék Árpádra.
 Nem bírom végigcsinálni.
 Nem csak az enyémet javítom, hanem mindenkiét.
 Nem cserélni szeretnénk, csak csökkenteni.
@@ -2205,6 +2364,7 @@ Nem hallottam a telefoncsengést.
 Nem hiszem el, hogy ez tényleg ilyen bonyolult.
 Nem hiszem el, hogy ezt csinálom.
 Nem hiszem, hogy megkapja azt a szerepet.
+Nem hiszem, mert nincs magának annyi pénze, amennyiért órákat adnék!
 Nem hívlak meg a temetésemre.
 Nem hívtam el, el kell hívnom.
 Nem igazán kedvelem azt a fényképet.
@@ -2212,6 +2372,7 @@ Nem is hiszel a szerencsében.
 Nem is igaz!
 Nem is jogra hivatkoztam, hanem orvostudományra.
 Nem is lenne ez az állásom, ha nem retusálják ki az aktámat.
+Nem is látszanak túlságosan kövéreknek, mégis közel vannak a száz kilóhoz.
 Nem is szólva a lányról, aki alapjában véve egészen izé… hiszen érted?
 Nem is tudtam, hogy csellón játszol.
 Nem is tudtam, hogy itt esztek.
@@ -2221,7 +2382,9 @@ Nem jó érzés, hogy az egyetlen férfi magára hagyta.
 Nem kell a munkám.
 Nem kell benne hinnem, hogy szerencséje legyen.
 Nem kell elmondanod nekik, mit tettél, hogy megmutasd magad nekik.
+Nem kell fizetni, az urak az én vendégeim voltak.
 Nem kell hozzá más, mint egy írógép és egy fej.
+Nem kell megijedni!
 Nem kell több kilötykölt kávé a törpikétől!
 Nem kell.
 Nem kellett.
@@ -2262,6 +2425,7 @@ Nem szúrtam el!
 Nem sért személyiségi jogot az a magatartás, amelyhez az érintett hozzájárult.
 Nem tagadom, a nagy hidegben két bugyit kellett felvennem.
 Nem tetszett az a srác, akivel volt.
+Nem tudjuk, hová temették Petőfit.
 Nem tudod az elméddel felrobbantani az agyamat.
 Nem tudok lőni, álcázom magam.
 Nem tudok semmiféle csempészésről!
@@ -2274,6 +2438,7 @@ Nem tudom, mennyire előnyös tulajdonneveket beletenni a mintamondatokba.
 Nem tudom, mi a jó.
 Nem tudom, mi ilyenkor a teendő.
 Nem tudom.
+Nem tudott rá válaszolni se magának, se Gergelynek.
 Nem tudsz gyorsabban menni, Dávid?
 Nem tudta meg, hogy ez a válasz kielégíti-e az érdeklődőt.
 Nem tudta, hogy sírjon-e vagy nevessen.
@@ -2309,6 +2474,7 @@ Nem értem a filmet, mert németül van.
 Nem értem a kérdést.
 Nem értem.
 Nem így gondoltam!
+Nem ötezer dollárt akarok ajánlani!
 Nem úgy néz ki, mint egy főhadiszállás.
 Nem úgy értem!
 Nem úgy értem.
@@ -2356,6 +2522,8 @@ Nincs tovább, uraim!
 Nincs értelme a kertelésnek.
 Nincsenek beviteli lehetőségek, nincsenek űrlapok, nincs adminisztrációs felület, azaz nincs mit megtámadni.
 Nincsenek felesleges menüpontok, reklámok, színes-szagos elemek.
+No, ha ért a hajózáshoz, akkor gyorsan vezesse partra ezt a hajót!
+No, most mondja meg az igazat!
 Nos, a kezeid mehetnek és apríthatnának egy kis fát.
 Nos, úgy tűnik, hogy lett volna más választása.
 Nyilván azt jelenti, hogy álljunk meg.
@@ -2365,6 +2533,7 @@ Nyilván sértette a fülét.
 Nyisd meg a Beállításokat!
 Nyolcadik óta?
 Nyolckor kellett volna kezdenünk, nyolc óra hat van.
+Nyugalmat erőszakolt magára.
 Nyugi, kezdd egy viccel, és nem lesz baj!
 Nyugodjék békében szegény!
 Nyugodtan kötögette az ágvitorla zsinórját, és fütyörészett.
@@ -2377,10 +2546,12 @@ Négy évesen már összeolvasta a nyomtatott nagybetűket.
 Néha a súlytól eltörik a nyakuk, vagy megfulladnak, mielőtt segíthetnénk.
 Néha egy kicsit bizonytalannak érzem magam.
 Néha fel kell áldoznod magad a csapatért.
+Néhány másodperccel később már megértette volna, akkor azonban már nem volt eszméleténél.
 Néhány perccel később bent ültek a motorcsónakban.
 Néhány percnyi várakozás után mindenfelől megérkeztek a motoros bárkák.
 Néhány súlyos lépéssel a főárbocra erősített lámpa alá ért.
 Néhány vérvörös rakéta szállt fel a közeledő motorosbárkákból.
+Néhány óra múlva pirkadni kezd.
 Néhányan elállták a két bejáratot.
 Nézd a kis árva arcocskájukat!
 Nézd az üveget. Van benne folyadék ami nem fagyott meg.
@@ -2398,10 +2569,14 @@ Nézzétek, kirázott a hideg!
 Nézzük a reggeli időbeosztást!
 Nézzük először a magát Bobbynak becéző és vadul menekülő egyén szerénytelen személyét.
 Nézzük sorban őket!
+Női éjjeliőrről még nem hallottam!
 Oda tehetjük a hangcuccot.
 Odalépett a gyerekekhez, átölelte William Ibadan sebész főorvost és néhány szót súgott a fülébe.
 Okom van rá, hogy vigyázzak erre a fiúra.
 Oktáv azonban, úgy látszik, megőrizte higgadtságát.
+Oktáv fogcsikorgatva érezte, hogy ennek a fiatal csirkefogónak igaza van.
+Oktáv nagyot nyelt.
+Oktáv összevonta a szemöldökét.
 Okvetlenül úgy intézd a dolgot, hogy téged hagyjanak őrnek a hajón!
 Oké, bekapcsolva.
 Oké, köszi még egyszer.
@@ -2412,12 +2587,14 @@ Oldalba támad!
 Oldják meg az egyenletet.
 Olyan embernek ismerem, aki a rablógyilkosságtól sem ijed meg.
 Olyan mondatok is kellenek, amik egy beszélgetés során hangzanak el.
+Olyan pofonjai vannak, hogy szerintem különórákon kellene tanítania a Harvard egyetemen.
 Olyanok, mint a virsli.
 Olykor fogyasztom is!
 Országos népszavazás tárgya az Országgyűlés feladat- és hatáskörébe tartozó kérdés lehet.
 Ott feküdt Higgins is holtan.
 Ott fognak szembesíteni a főrefenssel?
 Ott voltam.
+Ott állott az öreg a portája kapujában.
 Ott állt elegáns fehér ruhájában, mint a világ legjobb célpontja.
 Otthon van.
 Pankrác, a besurranó tolvaj kiköpött, és a fejét csóválta.
@@ -2427,7 +2604,10 @@ Pardon!
 Passzírozva!
 Pattanjunk be a kocsiba egy körre!
 Pedig higgye el, az udvariasság szép dolog!
+Pedig kitűnő ital.
 Pedig meg volt elégedve új tartózkodási helyével.
+Pedig nehéz feladat volt.
+Pedig nem is intézte el olyan pompásan.
 Pedig nem volt igazuk.
 Pedig simán lehet.
 Pedig érdemes vele annyira foglalkozni, mint az eszével!
@@ -2443,9 +2623,13 @@ Persze, hogy tudom!
 Persze, igen.
 Persze, megint a rendőrség.
 Persze, miért ne?
+Petőfi Sándor fiatalon halt meg csatában.
 Pillanat, máris lehalkítom.
 Pillantása a magánosan álldogáló kis parti gőzösre esett.
 Pillantása végigfutott rajta tetőtől talpig.
+Piszok!
+Pityu megértette végre.
+Pityut még sose fenyegették büntetlenül ilyen módon.
 Pokoli pillanat volt.
 Polgári ruhára van szükségem.
 Pompás irányba mennek!
@@ -2460,6 +2644,7 @@ Probléma megoldva.
 Próbálkozz ezzel a rövidebb mondattal!
 Próbáltalak megállítani.
 Pszichológiai hadviselést alkalmaz.
+Pá, cica!
 Például?
 Pénteken talán.
 Pénzben?
@@ -2490,6 +2675,7 @@ Rendkívül kedvelte ezt a helyiséget, mert részint ennek, részint ebből él
 Rendőr azonban nem volt a közelben.
 Rengeteg Matrix kliens közül lehet választani, de a legnépszerűbb a Riot.
 Rengetegféle fegyver van, járművek és stratégiák
+Reszketett és bámult fel az égre.
 Rettentő gondot okoz most nekem.
 Revolverlövések dörrentek mögötte.
 Robbantom a kaput!
@@ -2503,6 +2689,7 @@ Rosszallóan csóválta a fejét, mert lelkes ivó volt, és elítélte az ilyen
 Ráfért a sok izgalom után.
 Régebben olyan voltam, mint te.
 Régen pálinkás kenyérrel is nyugtatták a síró csecsemőt.
+Régi aranyigazságom, hogy ne nézzük le a csempészeket, mert ezzel önmagunk ellen vétünk.
 Régi ellenségek voltak, és megfojtották volna egymást egy kávéskanálnyi vízben.
 Rémülten felegyenesedett.
 Részeg és betépett voltál. Úgy hagytad a hősugárzót, az meg túlmelegedett.
@@ -2510,6 +2697,7 @@ Részletesen bemutathatnám a csomagok felépítését és a kérés-válasz mó
 Röhejes vagyok.
 Rövid ideig vártak csupán, mikor halk motorberregés hallatszott, és hosszú fütty.
 Rövid idő alatt visszanyerte lelki egyensúlyát, nyugalmát és hangját.
+Rövid, gyors lépést tett előre, de a fehér ruhás szemvillanása megállította.
 Sajnos a repülőgép legutolsó sorában maradt csak hely.
 Sajnos azonban az volt.
 Sajnos.
@@ -2517,6 +2705,7 @@ Sajnálom, Péter nem játszhat többet. Ki kell mozdulnia.
 Sajnálom, de helytelen.
 Sajnálom.
 Saját ötletem!
+Saly Béla színész és humorista Salamon Béla művésznéven vált ismertté.
 Segítenétek megkeresni?
 Segítettem bekábelezni a webkameráját.
 Segíts sarokba szorítani a madárkát!
@@ -2527,10 +2716,12 @@ Semmi baj, a nagyja kiment az ablakon.
 Semmi baj, édes!
 Semmi baja nem lesz, ha a nők elvegyülnek a tömegben.
 Semmi esetre sem tudhatja.
+Semmi esetre!
 Semmi gond, biztos úr, a Titkos Milliomost forgatom.
 Semmi gond.
 Semmi hátrányunk nem származna belőle.
 Semmi kedvem hozzá, hogy ez a közveszélyes rablógyilkos kiirtson családostul.
+Semmi kifogásom ellene.
 Semmi nincs köztünk.
 Semmi értelme a szabályok előtt erről beszélni.
 Semmiből sem csinált problémát.
@@ -2575,9 +2766,11 @@ Szerinted az nem baj, ha a rendőrség keres?
 Szerinted az nem lépne át egy határt?
 Szerinted mi mást innék?
 Szerintem egynek sem elfogadható.
+Szerintem ez szellemi nívó kérdése csupán.
 Szerintem jó.
 Szerintem marha jól csináltad.
 Szerintem megjött neki.
+Szerintem már az is csodaszerű, hogy eddig még nem történt meg a katasztrófa.
 Szerintem még annak is kificamodott a karja, aki adta.
 Szerintem nem fogok.
 Szerintem nem.
@@ -2587,6 +2780,7 @@ Szervusztok!
 Sziasztok!
 Sziasztok, fiúk, mennem kell!
 Szigonyos Pityu a szakállába mélyesztette ujjait és töprengett.
+Szigonyos Pityu csendesen ingatta a fejét.
 Szigonyos Pityu ellenállása egyre gyengült.
 Szigonyos Pityu felderült, mikor meglátta a különterembe belépő Bobbyt.
 Szigonyos Pityu felugrott.
@@ -2598,11 +2792,13 @@ Szinte lehetetlen megjósolni a rehabilitáció hosszúságát egy hallójárati
 Szivart akar adni a kis Marynek?
 Számoljak vissza háromtól?
 Számomra nem volt túl sikeres ez a temetés.
+Széles kalapot.
 Szép esténk van.
 Szép estét, kik maguk?
 Szép munka.
 Szép volt.
 Szétcigarettázta a hangját.
+Szíves engedelmével bemutatkozom.
 Szívesen vagyok veletek.
 Szívesen!
 Szívesen.
@@ -2631,6 +2827,7 @@ Szükségem lenne a véleményedre a szemiotikát illetően.
 Szükségem van egy kis időre.
 Súlyos pillanat volt.
 Súlyosbító körülmény volna.
+Sőt, a rendőrségi arcképgalériában is ez a név szerepel a rovott múltamat felemlítő szövegben!
 Találkoznom kell valakivel.
 Talán a szüleimnek igaza van.
 Talán csak a hajó vas alkatrészein meggyülemlett vizet hordta a csökkenő erejű szél.
@@ -2657,7 +2854,10 @@ Te szemét disznó.
 Te vagy a hordozó.
 Technikailag, ez csak egy fennsík.
 Tedd el a kulcsot!
+Tedd le azt a vacakot, aztán gyerünk!
 Tegyük fel, hogy tudnak.
+Tehetetlenségében a fogát csikorgatta.
+Tehát ami helyesírásilag ma már helytelen.
 Tehát csavargó volt?
 Tehát hajlandó visszafordítani a hajót, vagy nem?
 Tehát hajlandó?
@@ -2675,11 +2875,14 @@ Tehát van egy lejtőnk.
 Tele van a torkom.
 Tele vannak felesleges elemekkel, amelyek a látogatókat általában nem is érdeklik.
 Teleportált a szemét!
+Teljes erőből.
 Teljes felelősséget vállalok.
 Teljes mértékben.
+Teljes szélcsend van.
 Teljesen elmebeteg!
 Teljesen leállította a csónakot, és a többiekre nézett.
 Teljesen szétszórt lett.
+Természetesen a gyerekeket!
 Természetesen a technécium.
 Természetesen nem ilyen tömeges.
 Természetesen ő ordított a legjobban.
@@ -2701,10 +2904,14 @@ Tojás lesz reggelire?
 Tojások kellenek.
 Toljuk.
 Tom azonban máris faképnél hagyta, és a hajón őrt álló ötödik gengszterhez sietett.
+Tom intett a társainak.
+Tom lement.
+Tomhoz fordult, aki épp most lépett ki a kormányos fülkéből.
 Tomi meg egy nadrágtól válik képernyőképessé.
 Tornádószezon volt.
 Torokban található váladéktenyészetet hozok létre.
 Tudja mit, adok magának egy kis pénzt.
+Tudja, a nők néha szeszélyesek.
 Tudja, hogy az embereit ez az egy dolog tudja elkedvetleníteni.
 Tudja, hogy mi vár egy potyautasra, ha karanténba kerülünk?
 Tudja, mit?
@@ -2726,6 +2933,7 @@ Tudom, olvastam, mielőtt kidobtam.
 Tudom.
 Tudomásom szerint az ánizspálinka nem ragad.
 Tudomásom szerint valami hegyoldalba épült nagyszerű üdülőhely.
+Tudsz róla?
 Tudta, de már kiszaladt a száján a kérdés.
 Tudtok segíteni?
 Tulajdonképpen Robert Calaghannek hívták.
@@ -2743,6 +2951,7 @@ Tényleg szeretsz agyagozni?
 Tényleg?
 Tényleg? Mi történt?
 Tényleg? Semmi?
+Térjünk fölötte napirendre!
 Tíz másodperc.
 Tíz és fél órányi elmosódott majmok.
 Tíz-tizenöt méternyire szökkent, és Bobby megkönnyebbülve felsóhajtott.
@@ -2751,6 +2960,7 @@ Több-ször és ámultan figyeli, hogy nem oda nyúl, ahová néz.
 Tökéletesen elsajátítottam a vakszerencse művészetét.
 Túlságosan sokan vannak.
 Túléltem a tüzet, ami elpusztította az otthonomat.
+Tüstént leült az asztalomhoz, és diszkréten, négyszemközt elmondott nekem egyet-mást.
 Tüstént megrótta magát azért, mert a kelleténél többet foglalkozik ezzel a Bobbyval.
 Tüzesen süt le a nyárni nap sugára az ég tetejéről a juhászbojtárra.
 Tőlem is.
@@ -2774,6 +2984,7 @@ Vad ordítás harsant mögötte.
 Vadállatok elé dobatja magát.
 Vagy Országh Lászlót, hogy szókirakózzon?
 Vagy az egyénét.
+Vagy azt hiszed, hogy privát úri szórakozásból vertem félholtra ezt a Bill nevű csirkefogót?
 Vagy azért örül, mert azt hiszi, én is örülök?
 Vagy lehetne magánéletünk.
 Vagy levelezőlap, vagy vérfürdő, ez túlzás.
@@ -2791,6 +3002,7 @@ Valami baj van?
 Valami középkori fegyver.
 Valami matrózban.
 Valamikor kipróbálhatnád az én hangszeremen.
+Valamit kezdett beszélni arról, hogy Bobbynak köze van a maga megérkezéséhez.
 Valljuk az elesettek és a szegények megsegítésének kötelességét.
 Valljuk, hogy az egyéni szabadság csak másokkal együttműködve bontakozhat ki.
 Valljuk, hogy az emberi lét alapja az emberi méltóság.
@@ -2812,6 +3024,8 @@ Van még más tudnivalóm?
 Van pár jó és pár rossz hírem.
 Van terved szilveszterre?
 Van tévé a szobádban!
+Van valami oka, hogy a publikus előnézet nincs bekapcsolva ehhez a szobához?
+Van valami okom nekem arra, hogy kíméljelek, akár egy percig is?
 Van valami terved estebédre?
 Van valami ötleted?
 Van virtuális medencém.
@@ -2836,6 +3050,7 @@ Vigyázz az ujjadra.
 Vigyázzanak az első sorban, nagyot fog fröccsenni!
 Vihar szárnyán suhanó tűzveszedelem gyorsaságával harapódzott el a hír: Gyünnek!
 Villámgyors, de alapos töprengés után választotta ezt az irányt.
+Villámgyorsan a hang irányába fordultak.
 Villámgyorsan kioldozta a csomót, és egy rúd segítségével ellökte a hajót a parttól.
 Villát használ, és szószt tesz a tavaszi tekercsre.
 Vissza, parasztok!
@@ -2851,6 +3066,7 @@ Viszontlátásra!
 Viszontlátásra, bébi.
 Vizsgáikat eredményesen letették.
 Vizsgálódva körülnézett, és jobbnak látta, ha végleg eltávolodik a parttól.
+Volna hozzá szíve?
 Volt a lényében valami csodálatos közöny és kihívó megvetés mindenkivel szemben.
 Volt nála egy hosszú kés is!
 Volt valakid, akihez segítségért fordulhattál?
@@ -2887,18 +3103,22 @@ jön a kocsmáros, mondd, hogy elmentem járni egyet ide a közelbe.
 Általában ez a kifejezés illik rá a legjobban.
 Ám nem tehetett semmit.
 Átalakulás esetén a jogi személy létesítésére vonatkozó szabályokat megfelelően alkalmazni kell.
+Átkozottul keresztülhúzta a számítását.
 Átszállás előtt a telefonról megveheted a helyjegyet.
 Édes, a barátod aggódik érted.
 Édes, ez nem fog működni, de azért csak próbálkozz.
 Édes, miért vettél szövőszéket?
 Édesapám!
 Éhes vagyok!
+Éjjel?
 Éjszaka?
 Él bennem egy állandó elvágyódás a jelenből térben és időben.
 Élesen csikorgott a fék.
 Életem legrettenetesebb foglalkozása volt.
 Élő kultúra kell hozzá, és valaki megette a barackjoghurtot.
 Élőlény azonban nem volt sehol.
+Én a hajót kivittem a nyílt tengerre, és csak én tudom pontosan az irányt.
+Én a kormányhoz állok.
 Én addig mindenesetre értesítem a rendőrséget, mert a gengsztereket azért mégiscsak el kellene fogni.
 Én alma nélkül is felfedeztem volna a gravitációt.
 Én azonban jobban szeretem az előkelőbben és némileg tudományosan hangzó térképfoganatosító megjelölést.
@@ -2943,6 +3163,7 @@ jön a kocsmáros, mondd, hogy elmentem járni egyet ide a közelbe.
 Épp most adtam ésszerű magyarázatot.
 Épp onnan jövök.
 Érdekes, hogy a tiéd megjött, az enyém meg nem.
+Érdekes, én is ezt kérdeztem tőle.
 Érdekes.
 Érezte, hogy ehhez nincs joga.
 Érezte, hogy itt nincs számára kegyelem, ha utolérik.
@@ -3015,11 +3236,13 @@ jön a kocsmáros, mondd, hogy elmentem járni egyet ide a közelbe.
 Íme!
 Ó, tényleg nem kellett volna.
 Ó, Édes Istenem!
+Órákig vesztegelhetnénk itt, amíg a legkisebb szellő támad.
 Öcsém, én már az ősrégi Mosaic böngészővel is nyomultam.
 Ökör!
 Ömlenie kellett volna a víznek.
 Ön nem hisz nekem?
 Ön nem tudja véletlenül, hogy mit jelent?
+Öntudatlanul, szinte ösztönszerűen körülnézett, hogy nincs-e a közelben egy írógép.
 Örvendek a szerencsének.
 Örvendek a találkozásnak.
 Örök szenvedéllyel szerette Itáliát.
@@ -3038,22 +3261,28 @@ jön a kocsmáros, mondd, hogy elmentem járni egyet ide a közelbe.
 Úgy jó!
 Úgy látszik ennek a nagy világcsavargónak a vére ütött ki rajtam.
 Úgy látszik, ez a lehetőség nem aggasztotta túlságosan a követelőző ifjút.
+Úgy látszik, romlanak a hajózási viszonyok.
 Úgy mondanám, valószínűleg.
 Úgy ontotta a füstöt, mint a gyárkémény.
 Úgy tűnik, te egy csodás vadállat vagy.
 Úgy van!
+Úgy érezte, hogy pompásan elintézte ezt az ügyet.
 Úgy értem, hogy rád nézve járhat életveszedelemmel!
 Úgy értem, hol akarsz lakni, tudod, amikor nem nálam.
 Úgy értem, kinyitottad a szekrényét
+Úgy örült a közmondásnak, mintha ő maga találta volna ki ebben a pillanatban.
 Úgysem kell lakbért meg kocsirészletet, meg ilyesmiket fizetnem.
 Úgysem tudnám valamennyit megjegyezni.
 Úristen!
 Úton vagyunk a titkos főhadiszállására.
+Ügyesen lehajolt, egy nagyobb láda kétszersült így elrepült a feje felett.
 Üres a metró vezetőfülkéje!
+Üzleti dolgaimat sohasem keverem össze a szórakozással.
 Üzletrész bevonása esetén az üzletrész alapjául szolgáló törzsbetét összegével a törzstőkét le kell szállítani.
 Ő akar engem jó modorra tanítani!
 Ő egy makacs gyerek.
 Ő maga volt, aki megakadályozta.
+Ő tudta, hogy a vasmacska le van eresztve, de nem szólt.
 Őszinte leszek.
 Őszintén szólva azért beszéltem eddig vadállatokról, mert nem akartam megijeszteni.
 Őszintén szólva nem is érdekel.

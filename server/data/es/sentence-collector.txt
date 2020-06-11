@@ -1791,6 +1791,7 @@ Hablando se entiende la gente
 Hablando se entiende la gente.
 Habrá negociar mucho.
 Habrá querido dar la fiesta antes de la mudanza.
+Habrá visitado
 Habrás visitado
 Habré visitado
 Habré visitado?
@@ -3014,6 +3015,7 @@ No existe silencio de parecidas características
 No funciona. Lo cargué antes de salir.
 No habla mejor quien más voces da.
 No hables de la esperanza, todavía.
+No habrá visitado
 No habrás visitado
 No habré visitado
 No había nada que hacer, era como barrer en el desierto
@@ -10505,6 +10507,8 @@ yo ya no puedo estar contigo.
 ¿Ganan mucho los cantantes por la venta de sus discos?
 ¿Habrá comido?
 ¿Habrá ella visitado?
+¿Habrá usted visitado?
+¿Habrá visitado usted?
 ¿Habrá él visitado?
 ¿Habrás tu visitado?
 ¿Habrás visitado?
@@ -10531,6 +10535,7 @@ yo ya no puedo estar contigo.
 ¿No comieron ellas?
 ¿No comieron ellos?
 ¿No comprendes, acaso, que en nuestra situación necesitamos de todo el mundo?
+¿No habrá usted visitado
 ¿No invita ella?
 ¿No lo quieres? Pues ahora te lo metes por donde te quepa
 ¿No querías caldo? ¡Pues toma tres tazas!

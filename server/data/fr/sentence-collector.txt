@@ -11507,6 +11507,7 @@ Dans la rue, des chats courent en lançant des feulements désespérés.
 Dans la rue, devant chez lui, se tenaient cinq personnes.
 Dans la rue, les chiens aboient, mais la caravane ne passe pas.
 Dans la révélation christique.
+Dans la salle d'attente trois personnes.
 Dans la salle de bain.
 Dans la salle, le trouble augmentait.
 Dans la tabagie, on s'excita tout de suite.
@@ -18335,6 +18336,7 @@ Et d'un coup j'ai compris.
 Et dans ce cas ?
 Et dans ce train, tu ne connaissais personne ?
 Et dans celles de Pollen.
+Et dans l'attente la moiteur
 Et dans la couche conjugale encore !
 Et dans le Soleil ?
 Et dans le genre tragédie, elle se pose là, tu sais ?
@@ -18884,10 +18886,12 @@ Et le courage manquera-t-il aussi ?
 Et le dessert que vous oubliez
 Et le dessert que vous oubliez ?
 Et le docteur Patak ? …
+Et le docteur encore une fois bougon
 Et le droit de cuissage, dites donc ? …
 Et le fief de Ville-Parisis ?
 Et le fonctionnaire se rua contre le trophée lamentable.
 Et le fond est horreur, et la surface est joie.
+Et le grand jour est arrivé
 Et le guernesiais poursuivit :
 Et le linge, et les robes ? continua furieusement Lise.
 Et le livre dans lequel nous l’avons découvert !
@@ -18928,10 +18932,12 @@ Et le statisticien Cokburn me quitta sans me saluer d’un adieu quelconque.
 Et le storytelling y est une matière qu'on étudie religieusement.
 Et le ton des conversations montait !
 Et le train suivant, quand passera-t-il ? demanda Phileas Fogg.
+Et le téléphone qui n'arrête pas de sonner
 Et le vendredi c'est pas elle.
 Et le vendredi c’est pas elle.
 Et le vieux d’intervenir : « Lui…
 Et le voici, l’excellent homme, qui se donne pour exemple.
+Et le voilà qui allonge ses foulées de géant
 Et le voilà tout beau tout neuf
 Et le voyage ! comment le payer ?
 Et le « cap Gédéon. .
@@ -19144,6 +19150,7 @@ Et moi je fais les cent pas.
 Et moi je jubile.
 Et moi je ne l’écoute pas.
 Et moi je ne suis rien qu'un pauvre chien sans pouvoir !
+Et moi je pensais que c'était ouvert
 Et moi je prends les notes.
 Et moi je te dis que tu mens, et nous allons voir !
 Et moi je vous aime vraiment comme si j’avais dix-huit ans.
@@ -19837,6 +19844,7 @@ Et tout l'ordinaire débat se déduisait de cette éternelle question.
 Et tout le long de ces gestes doux, chaleureux, maternels, je voyais ses pensées.
 Et tout le long de ces gestes doux.
 Et tout le monde se bouscula.
+Et tout s'invente, tout se réinvente.
 Et tout ça sans aucune arrière-pensée, tu es bien sûr ?
 Et toute cette inepte marmaille vous a des opinions politiques.
 Et toute la barricade battit des mains.
@@ -25494,6 +25502,7 @@ Il pleure les jours vides et le vent qui blesse.
 Il pleure tous les matins quand la rosée se dépose en perles.
 Il pleut des inspirations partout autour de nous.
 Il pleut donc sans nuages dans votre pays ?
+Il pleut encore beaucoup ce jour.
 Il pleut, dit Joly.
 Il pleuvait des aiguilles d'or sur les innombrables petites vagues.
 Il pleuvait par instants, le vieillard ne semblait pas s’en apercevoir.
@@ -29649,6 +29658,7 @@ Je meurs d'inquiétude.
 Je meurs de faim ! …
 Je meurs de faim et je péris de soif !
 Je meurs de faim.
+Je meurs de soif
 Je meurs de soif.
 Je meurs d’avoir cru que l’on pouvait vivre seul ! . .
 Je meurs d’avoir cru que l’on pouvait vivre seul ! …
@@ -31863,6 +31873,7 @@ Je vais reprendre l'exemple de Martin
 Je vais réessayer pour voir !
 Je vais seulement te raconter les effets produits par ta lettre.
 Je vais surveiller une éventuelle baisse de tarif dans les prochains jours.
+Je vais te chercher une limonade
 Je vais te dire Aglaé : je le connais bien, le pitchoun.
 Je vais te dire ce qu'il va se passer.
 Je vais te dire ce qu’il va se passer.
@@ -33954,6 +33965,7 @@ L'avocat savait par cœur les déclamations du comte Dubourg.
 L'avocat sentit la chaleur du sang lui rougir la figure.
 L'aïeul serait content.
 L'eau demeure active en elle-même, quel que soit son repos apparent.
+L'eau jaillissait de partout
 L'eau potable est considérée comme acquise.
 L'effrayant tourbillon des âmes.
 L'elixir de chartreuse nettoie bien l'oesophage.
@@ -33961,6 +33973,7 @@ L'enfant avait atteint la barre de pierre.
 L'enfant courut dans la rue derrière son chien.
 L'enfant qui étonna les docteurs possède le moyen de réveiller un cataleptique.
 L'ennui est une coque solide.
+L'enregistreur vocal s'arrêta subitement
 L'enthousiasme des boutiquiers devint une frénésie étourdissante.
 L'entretoise est positionnée telle la lettre H.
 L'entrevue eut lieu chez d'autres cousins.
@@ -34739,6 +34752,7 @@ La gestion des situations d'urgence et de crise nécessite des fiches réflexes.
 La gibbosité empêcha-t-elle Richard trois d’être roi d’Angleterre ?
 La gigue Ryckebus cent quatre-vingt-huit cent cinquante-neuf.
 La glace fond malgré le froid
+La glace était fondue
 La glace, c’est la nuit.
 La gloire de Cicéron avait enfin une rivale, à ce qu'ils assurèrent.
 La gloire de Gwynplaine ne passa point le pont de Londres.
@@ -38627,6 +38641,7 @@ Le regard se perd vers le bas, elle cherche à faire le lien.
 Le regard se perd vers le bas.
 Le regret s’étiole.
 Le relevé des compteurs d'eau sera effectué demain.
+Le renard et la perdrix ne se voyaient pas
 Le repaire nécromancien de la Fallotte Lavieille
 Le repas se fit assez silencieusement.
 Le repas se poursuivait donc au milieu de l’enthousiasme peu contenu des convives.
@@ -39904,6 +39919,7 @@ Les combats de coq lui durent de louables perfectionnements.
 Les combattants allant et venant s’y mouvaient comme des formes noires.
 Les combattants se rapprochent du radeau et s’en éloignent tour à tour.
 Les commandants espagnols du convoi protestèrent contre cette décision.
+Les commandes sont de plus en plus électroniques
 Les commerciaux de Bordeaux nous ont offert des chocolats.
 Les commerçants refusent de plus en plus souvent les chèques.
 Les commis de l'armurier la transmirent aux porteurs de la boulangerie.
@@ -40912,6 +40928,7 @@ Les psychiatres lisent dans les esprits.
 Les psychiatres ne servent pas à grand chose.
 Les psychiatres sont moins forts que les psychologues.
 Les punitions doivent toujours être réalistes.
+Les pyramides les plus connues sont celles d' Égypte.
 Les quadruples croches ne valaient pas des rondes ordinaires en tout autre pays.
 Les quatre autres NoéNautes réveillés dans ce cycle.
 Les quatre autres fusils furent répartis entre Cyrus Smith, Nab, Pencroff et Harbert
@@ -41655,6 +41672,7 @@ Lui, dit Ginevra, lui de qui je me sens indigne.
 Lui, du moins, servait son ambition propre.
 Lui, finissait par prendre des jambons entiers.
 Lui, il fait ça pour m’énerver.
+Lui, il pilotait à l'ancienne, à l'instinct.
 Lui, les cloches et les chats.
 Lui, lit pour lire, pour retenir ce qu’il a lu.
 Lui, l’interrompait, s’emportait.
@@ -44477,6 +44495,7 @@ Mais le gentleman ne put achever sa phrase.
 Mais le jeune astronome ne les connaissait pas personnellement.
 Mais le jour de l'accident.
 Mais le jour où je dois étrangler quelqu'un.
+Mais le langage soutenu c'est bien autre chose
 Mais le littoral du cap ? …
 Mais le major nia l'intelligence du populaire.
 Mais le matin vient…
@@ -56627,6 +56646,7 @@ Quant à sa hauteur, elle devait dépasser plusieurs lieues.
 Quant à Enguerrand, il est juste en conflit ouvert avec la Marquet…
 Quant à Vérand'a…
 Quant à l'abbé Mathieu, c'était un lâche.
+Quant à la danseuse étoile elle tomba
 Quant à leur intimer l’ordre de rester sur la dunette, pourquoi ?
 Quant à lui, son accès a été révoqué.
 Quant à l’Algérie, au Maroc, à l’Égypte… rayés des atlas britanniques !
@@ -67830,6 +67850,7 @@ Vous n'avez pas ce qu'il faut.
 Vous n'avez pas confiance en moi ?
 Vous n'avez pas d'uniforme : suffit !
 Vous n'avez pas voulu parler de la souffrance, mais de la mort.
+Vous n'avez plus de symptômes dit-il.
 Vous n'avez qu'à l'attendre ici.
 Vous n'avez rencontré personne ?
 Vous n'avez rien entendu ?
@@ -73517,6 +73538,7 @@ y'en a un qui se dégage du lot.
 À la base, je voulais être actrice.
 À la bonne heure !
 À la cantine, tous les deux jours c'est poêlée de légumes.
+À la course, il passe troisième
 À la fin de l'histoire.
 À la fin de la pièce, Oscar meurt.
 À la fin de l’histoire, je me souviendrai que c’est une fiction.
