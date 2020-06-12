@@ -1,5 +1,3 @@
-/* TODO: Check-in with */
-
 html {
     overflow: scroll;
 }
@@ -19,22 +17,102 @@ html {
     #kiosk--content {
         width: 60%;
     }
-    #gradient,
-    #mesh {
-        height: 100%;
-    }
     #kiosk-card {
         display: flex;
         flex-direction: column;
         position: fixed;
         top: 1.75rem;
         width: 32.875rem;
-        /* height: 300px; */
         background: #ffffff;
         box-shadow: 0px 1.5rem 3.375rem rgba(0, 0, 0, 0.05);
         margin-left: 3%;
         border-radius: var(--kiosk-card-border-radius);
         z-index: var(--top-z-index);
+        #kiosk-card--top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('./assets/wave-grey.svg') no-repeat;
+            height: 11.125rem;
+            border-top-left-radius: var(--kiosk-card-border-radius);
+            border-top-right-radius: var(--kiosk-card-border-radius);
+            #kiosk-card-top--button {
+                width: 100%;
+                height: 11.125rem;
+                position: absolute;
+                z-index: var(--top-z-index);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                #inner-circle {
+                    position: absolute;
+                    width: 5rem;
+                    height: 5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 100%;
+                    z-index: var(--top-z-index);
+                    svg path {
+                        fill: var(--white);
+                    }
+                }
+                #outer-circle {
+                    width: 6.875rem;
+                    height: 6.875rem;
+                    border-radius: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    opacity: 0.5;
+                    position: absolute;
+                    z-index: var(--middle-z-index);
+                }
+            }
+            #kiosk-card--top--gradient-layer {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                border-top-left-radius: var(--kiosk-card-border-radius);
+                border-top-right-radius: var(--kiosk-card-border-radius);
+                background: linear-gradient(
+                    270deg,
+                    #ffffff 1.16%,
+                    rgba(255, 255, 255, 0.0001) 26.06%,
+                    rgba(255, 255, 255, 0.0001) 71.82%,
+                    #ffffff 98.32%
+                );
+            }
+        }
+
+        #kiosk-card--body {
+            padding: 2.8rem 4rem;
+            min-height: 20rem;
+            h2 {
+                font-size: 1.25rem;
+                font-weight: 600;
+                line-height: 1.75rem;
+                margin-bottom: 1.25rem;
+            }
+            p {
+                margin-top: 0.625rem;
+            }
+        }
+        #kiosk-card--bottom {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 1.875rem 0;
+            background-color: var(--desert-storm);
+            border-bottom-left-radius: var(--kiosk-card-border-radius);
+            border-bottom-right-radius: var(--kiosk-card-border-radius);
+            a {
+                padding: 1.125rem 0;
+                min-width: 180px;
+                background: var(--white);
+                color: var(--black);
+                border-color: var(--grey);
+            }
+        }
     }
     #kiosk-bottom-right-pane {
         position: fixed;
@@ -129,6 +207,8 @@ html {
             #kiosk-bottom-right-pane__expanded--close {
                 padding: 0.75rem 1.85rem;
                 cursor: pointer;
+            }
+            #kiosk-bottom-right-pane__expanded--close {
                 border: none;
             }
             #close-icon {
@@ -142,109 +222,32 @@ html {
         min-height: 100%;
         width: 40%;
         z-index: var(--middle-z-index);
-    }
-    #gradient {
-        width: 70%;
-        /* max-width: 301px; */
-        background: linear-gradient(100.96deg, #88d1f1 3.22%, #b1b5e5 33.13%);
-    }
-    #mesh {
-        width: 30%;
-        /* max-width: 180px; */
-        background-image: url('./assets/mesh.svg');
-    }
-    #kiosk-card--top {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: url('./assets/wave-grey.svg') no-repeat;
-        height: 11.125rem;
-        border-top-left-radius: var(--kiosk-card-border-radius);
-        border-top-right-radius: var(--kiosk-card-border-radius);
-    }
-    #kiosk-card-top--button {
-        width: 100%;
-        height: 11.125rem;
-        position: absolute;
-        z-index: var(--top-z-index);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #kiosk-card--top--gradient-layer {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        border-top-left-radius: var(--kiosk-card-border-radius);
-        border-top-right-radius: var(--kiosk-card-border-radius);
-        background: linear-gradient(
-            270deg,
-            #ffffff 1.16%,
-            rgba(255, 255, 255, 0.0001) 26.06%,
-            rgba(255, 255, 255, 0.0001) 71.82%,
-            #ffffff 98.32%
-        );
-    }
-    #kiosk-card--body {
-        padding: 2.8rem 4rem;
-    }
-    #kiosk-card--bottom {
-        /* TODO: remove this */
-        /* height: 117px; */
-        padding: 0 5.625rem;
-        background-color: var(--desert-storm);
-        border-bottom-left-radius: var(--kiosk-card-border-radius);
-        border-bottom-right-radius: var(--kiosk-card-border-radius);
+        #gradient,
+        #mesh {
+            height: 100%;
+        }
+        #gradient {
+            width: 70%;
+            background: linear-gradient(
+                100.96deg,
+                #88d1f1 3.22%,
+                #b1b5e5 33.13%
+            );
+        }
+        #mesh {
+            width: 30%;
+            background-image: url('./assets/mesh.svg');
+        }
     }
 }
 
 /* DATASETS LAYOUT STYLES */
-
-#demo-datasets--button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    #language-select-card--cloud-ui-inner-circle {
-        position: absolute;
-        background: var(--valid-green);
-        width: 5rem;
-        height: 5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 100%;
-        z-index: var(--top-z-index);
-        svg path {
-            fill: var(--white);
-        }
-    }
-    #language-select-card--cloud-ui-circle {
-        width: 6.875rem;
-        height: 6.875rem;
-        border-radius: 100%;
-        background: var(--valid-green);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0.5;
-        /* filter: blur(34px); */
-        position: absolute;
-        z-index: var(--middle-z-index);
-    }
+.demo-datasets-kiosk-top-icon-circle {
+    background: var(--valid-green);
 }
 
-#demo-datasets--card__body {
-    #language-select-card--select {
-        margin: 1.25rem auto;
-    }
-}
-
-#language-select-card--next-button {
-    background: var(--white);
-    color: var(--black);
-    border-color: var(--grey);
-    margin: 1.875rem auto;
-    padding: 1.125rem 1.25rem;
+#demo-datasets-card--next-button {
+    width: 20.68rem;
 }
 
 #demo-datasets-content-container {

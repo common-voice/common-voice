@@ -316,12 +316,12 @@ export const datasets = (): PageContentType => {
   const CardComponent = ({ getString }: CardProps) => (
     <>
       <KioskCard.Top>
-        <div id="demo-datasets--button">
-          <div id="language-select-card--cloud-ui-inner-circle">
-            <CloudIcon />
-          </div>
-          <div id="language-select-card--cloud-ui-circle"></div>
+        <div id="inner-circle" className="demo-datasets-kiosk-top-icon-circle">
+          <CloudIcon />
         </div>
+        <div
+          id="outer-circle"
+          className="demo-datasets-kiosk-top-icon-circle"></div>
       </KioskCard.Top>
       <KioskCard.Body>
         <div id="demo-datasets--card__body">
@@ -329,16 +329,15 @@ export const datasets = (): PageContentType => {
             <h2 />
           </Localized>
           <LabeledSelect
-            label={getString('demo-language-select-label')}
-            id="language-select-card--select"></LabeledSelect>
+            label={getString('demo-language-select-label')}></LabeledSelect>
           <Localized id="demo-language-select-card-body">
-            <p id="card-body" />
+            <p id="kiosk-card--body_p" />
           </Localized>
         </div>
       </KioskCard.Body>
       <KioskCard.Bottom>
         <LinkButton
-          id="language-select-card--next-button"
+          id="demo-datasets-card--next-button"
           to={urls.DEMO_DASHBOARD}
           rounded>
           <Localized id="demo-language-select-card-button">
