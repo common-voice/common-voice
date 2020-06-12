@@ -1,0 +1,65 @@
+@import url('../../vars.css');
+
+#intro-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    padding-top: 2.5vh;
+    background: var(--white) url('./assets/waves.svg') no-repeat center;
+    background-size: contain;
+}
+
+#intro-container--text-box {
+    text-align: center;
+    font-weight: normal;
+}
+
+#intro-container--text-box__text-header {
+    font-size: var(--font-size-xxl);
+}
+
+#intro-container--text-box__text-body {
+    font-weight: 300;
+    font-size: var(--font-size-lg);
+    letter-spacing: 0.0625rem;
+    margin-top: 0.625rem;
+}
+
+#intro-container--btn-get-started {
+    background: var(--blue);
+    border-color: var(--blue);
+    margin: 1.875rem auto;
+    width: auto;
+    padding: 1rem 2.3125rem;
+
+    path {
+        fill: var(--white);
+    }
+
+    &:hover {
+        background-color: var(--white);
+        path {
+            fill: var(--black);
+        }
+    }
+}
+
+#robot {
+    margin: 1.875rem auto;
+    /* fixed height enables the full page layout to render first before the image loads into view */
+    height: 32.8rem;
+}
+
+#intro-container--gradient-layer {
+    min-height: 100vh;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(
+        270deg,
+        #f6f6f5 0%,
+        rgba(247, 246, 246, 0.0001) 25.09%,
+        rgba(248, 248, 247, 0.0001) 71.51%,
+        #f9f8f7 98.32%
+    );
+}
