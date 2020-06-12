@@ -816,3 +816,17 @@ read-more-about = Read more on our About page
 demo-get-started = Let's Get Started
 demo-welcome = Welcome to Common Voice
 demo-welcome-subheader = Interested in learning more and contributing to the project?
+
+## Demo Datasets
+demo-language-select-card-header = Common Voice is the world’s largest publicly available, multi-language voice dataset.
+demo-language-select-card-body = Thanks to contributions from over 259k people in over 50 languages, this data is being used to train speech-enabled applications to better respond to the human voice.
+demo-language-select-card-button = Next
+demo-language-select-label = Browse Languages
+demo-download-dataset = Common Voice Dataset
+demo-datasets-building = We're building
+demo-datasets-body = an open-source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
+demo-datasets-box-link = Read more
+demo-dataset-download-lang-select =  Language
+demo-eofy-header = 2019 End-of-Year Release
+demo-eofy-sub_header = Voice Dataset, Ready for Download
+demo-subscribe = Want updates when we release a new version of the Common Voice dataset?

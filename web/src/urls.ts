@@ -36,7 +36,7 @@ export default Object.freeze({
   DEMO,
   INTRO: DEMO,
   DEMO_DATASETS: DEMO + '/datasets',
-
+  DEMO_DASHBOARD: DEMO + '/dashboard',
   TARGET_SEGMENT_INFO:
     'https://discourse.mozilla.org/t/help-create-common-voices-first-target-segment/59587',
 });
