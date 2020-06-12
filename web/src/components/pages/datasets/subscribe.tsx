@@ -1,27 +1,18 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { UserClient } from 'common';
-import API from '../../../services/api';
-import { Notifications } from '../../../stores/notifications';
-import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import { LocaleLink } from '../../locale-helpers';
 import { ArrowLeft } from '../../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput } from '../../ui/ui';
-
+import {
+  SMapDispatchToProps,
+  SMapStateToProps,
+  SPropsFromDispatch,
+  SPropsFromState,
+  SProps,
+} from './types';
 import './subscribe.css';
-
-interface PropsFromState {
-  account: UserClient;
-  api: API;
-}
-
-interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.addPill;
-}
-
-interface Props extends PropsFromState, PropsFromDispatch {}
 
 interface State {
   email: string;
@@ -29,7 +20,7 @@ interface State {
   submitStatus: null | 'submitting' | 'submitted';
 }
 
-class Subscribe extends React.Component<Props, State> {
+class Subscribe extends React.Component<SProps, State> {
   state: State = { email: '', privacyAgreed: false, submitStatus: null };
 
   emailInputRef = React.createRef<HTMLInputElement>();
@@ -125,10 +116,7 @@ class Subscribe extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState, PropsFromDispatch>(
-  ({ api, user }: StateTree) => ({
-    account: user.account,
-    api,
-  }),
-  { addNotification: Notifications.actions.addPill }
+export default connect<SPropsFromState, SPropsFromDispatch>(
+  SMapStateToProps,
+  SMapDispatchToProps
 )(Subscribe);

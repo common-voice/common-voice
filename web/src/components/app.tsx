@@ -219,7 +219,7 @@ let LocalizedPage: any = class extends React.Component<
 
   render() {
     const { locale, notifications, toLocaleRoute, location } = this.props;
-    const { bundleGenerator, l10n, uploadPercentage } = this.state;
+    const { l10n, uploadPercentage } = this.state;
 
     if (!l10n) return null;
 
