@@ -55,7 +55,7 @@ const DownloadForm = ({
   };
 
   return (
-    <>
+    <div id="demo-datasets--download__form">
       <Localized id="email-input" attrs={{ label: true }}>
         <LabeledInput
           required
@@ -109,7 +109,7 @@ const DownloadForm = ({
         </Localized>
         <CloudIcon />
       </LinkButton>
-    </>
+    </div>
   );
 };
 

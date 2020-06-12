@@ -355,38 +355,38 @@ html {
             }
             #demo-datasets--download__form {
                 width: 20.6875rem;
-            }
-            #download__sub--form-email,
-            .labeled-checkbox {
-                margin-bottom: 1.5rem;
-            }
-            #demo--download__sub-download-button {
-                background-color: var(--blue);
-                border-color: var(--blue);
-                padding: 1.2rem 5rem;
-                svg {
-                    margin-left: 0.5rem;
-                    path {
-                        fill: white;
+                #download__sub--form-email,
+                .labeled-checkbox {
+                    margin-bottom: 1.5rem;
+                }
+                #demo--download__sub-download-button {
+                    background-color: var(--blue);
+                    border-color: var(--blue);
+                    padding: 1.2rem 5rem;
+                    svg {
+                        margin-left: 0.5rem;
+                        path {
+                            fill: white;
+                        }
+                    }
+                    &:hover {
+                        background-color: white;
+                        path {
+                            fill: var(--black);
+                        }
                     }
                 }
-                &:hover {
+                .checkbox-container {
+                    & path {
+                        fill: var(--white);
+                    }
+                }
+                .demo-datasets--download__sub-checkbox {
                     background-color: white;
-                    path {
-                        fill: var(--black);
+                    &:checked {
+                        background-color: var(--valid-green);
+                        border-color: var(--valid-green);
                     }
-                }
-            }
-            .checkbox-container {
-                & path {
-                    fill: var(--white);
-                }
-            }
-            .demo-datasets--download__sub-checkbox {
-                background-color: white;
-                &:checked {
-                    background-color: var(--valid-green);
-                    border-color: var(--valid-green);
                 }
             }
         }
