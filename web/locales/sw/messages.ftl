@@ -61,6 +61,7 @@ ku = Kikurdi
 lg = Kiganda
 lt = Kilithuania
 lv = Kilatvia
+mg = Kimalagasi
 mk = Kimasedonia
 mn = Kimongoli
 ne-NP = Kinepali
