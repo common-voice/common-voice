@@ -307,12 +307,14 @@ download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
 subscribe = Jiandikishe
+more = Zaidi
 close = Funga
 download = Pakua
 dataset-version = Toleo
 
 ## Download Modal
 
+download-title = Upakuaji umeanza
 download-form-email =
     .label = Weka barua pepe yako
     .value = Asante, tutawasiliana
