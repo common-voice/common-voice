@@ -57,7 +57,9 @@ it = Kiitaliano
 ja = Kijapani
 ka = Kijojia
 ko = Kikorea
+ku = Kikurdi
 lg = Kiganda
+lt = Kilithuania
 lv = Kilatvia
 mk = Kimasedonia
 mn = Kimongoli
@@ -366,6 +368,11 @@ continue = Endelea
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Siku
+       *[other] Siku
+    }
 
 ## Dashboard
 
