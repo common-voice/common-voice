@@ -342,6 +342,7 @@ other-language = Lugha Nyingine
 ## Languages Overview
 
 language-section-in-progress = Inaendelea
+language-section-launched = Imeanzishwa
 languages-show-more = Tazama Yaliyofichika
 languages-show-less = Punguza Yanayoonekana
 language-meter-in-progress = Maendeleo
