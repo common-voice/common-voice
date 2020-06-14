@@ -46,6 +46,7 @@ fi = Kifini
 fo = Kifaroe
 fr = Kifaransa
 ga-IE = Kieire
+gl = Kigalisia
 ha = Kihausa
 he = Kiebrania
 hi = Kihindi
@@ -64,6 +65,7 @@ lv = Kilatvia
 mg = Kimalagasi
 mk = Kimasedonia
 mn = Kimongoli
+mt = Kimalta
 ne-NP = Kinepali
 nl = Kiholanzi
 pa-IN = Kipanjabi
@@ -109,9 +111,14 @@ home-cta = Ongea sasa, changia hapa!
 wall-of-text-start = Sauti ni asili na ni ya kibinadamu. Kwa sababu hiyo, tunavutiwa na kuunda teknolojia ya sauti itakayotumika na mashine zetu. Ili kuunda mifumo ya sauti, kiwango kikubwa sana cha data ya sauti kinahitajika.
 wall-of-text-more-mobile = Asilimia kubwa ya data inayotumika na makampuni makubwa haifikiki kwa urahisi na asilimia kubwa ya watu. Tunadhania kuwa hili ni pingamizi kwa uvumbuzi. Alimradi, tumeanzisha mradi wa Common Voice ili kusaidia kufanya (teknolojia ya) utambuzi wa sauti uwe wazi kwa watu wote.
 show-wall-of-text = Soma mengineyo
+help-us-title = Tusaidie kuhalalisha sentensi!
+help-us-explain = Bonyeza kitufe cha kucheza, sikiliza na tuambie kama walizungumza kwa usahihi sentensi iliyo chini?
+no-clips-to-validate = Yaonekana kuwa hakuna vipande vya sauti vya kusikiliza katika lugha hii. Tusaidie kuchangia kwa kurekodi baadhi ya vipande hivyo sasa.
 vote-yes = Ndio
 vote-no = La
+toggle-play-tooltip = Bonyeza { shortcut-play-toggle } kugeuza namna ya kucheza
 speak-subtitle = Toa sauti yako
+speak-paragraph = Kurekodi vipande vya sauti ni sehemu muhimu ya kujenga daftari letu lililo wazi kwa umma; wengine wangesema ni mchakato wa kufurahisha pia.
 speak-goal-text = Vipande vilivyo rekodiwa
 listen-subtitle = Tusaidie kuthibitisha sauti
 listen-goal-text = vipande vilivyo halalishwa
@@ -139,6 +146,7 @@ x-years-short =
         [one] { $count } y
        *[other] { $count } y
     }
+help-make-dataset = Tusaidie kujenga daftari la hali ya juu, iliyowazi kwa umma
 sign-up-account = Jisajili kwa akaunti
 email-subscription-title = jiandikishe kwa sasisho za barua pepe
 email-subscription-title-new = Jisajili kwa jarida la Common Voice, ukumbusho wa malengo na visasisho vya maendeleo
@@ -146,6 +154,7 @@ email-subscription-title-new = Jisajili kwa jarida la Common Voice, ukumbusho wa
 ## Account Benefits
 
 benefits = Faida
+keep-track = Fuatilia maendeleo na vipimo vyako kwa lugha nyingi tofauti.
 compare-progress = Linganisha maendeleo yako dhidi ya maendeleo ya wachangiaji wengine ulimwenguni kote.
 view-goals = Linganisha maendeleo yako dhidi ya  malengo ya kibinafsi na ya mradi.
 
@@ -155,6 +164,7 @@ whats-public = Yapi yafikika na umma?
 email-not-public = Barua pepe yako haitakuwa wazi kwa umma.
 recordings-and-locale-public = Idadi ya rekodi na lugha ambazo unachangia itakuwa wazi kwa umma.
 username-optin-public = Unaweza chagua kulifanya jina lako la mtumiaji liwe wazi au lisijulikane.
+username-email-not-demographic = Jina lako la utumiaji na anwani ya baruapepe hazitahusishwa na data iliyochapishwa.
 
 ## Speak & Listen Shortcuts
 
@@ -224,7 +234,9 @@ female = mwanamke
 other = mengineyo
 why-profile-title = Kwa niniu kupeana wasifu?
 goals = malengo
+settings = Mipangilio
 edit-profile = Fanya mabadiliko kwenye wasifu.
+profile-create-success = Umefanikiwa, wasifu umeundwa!
 profile-close = Funga
 why-demographic = kwanini ina umuhimu?
 accept-privacy-title = Sera ya Faragha
