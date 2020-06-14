@@ -117,6 +117,7 @@ listen-subtitle = Tusaidie kuthibitisha sauti
 listen-goal-text = vipande vilivyo halalishwa
 hours-recorded = masaa yaliyorekodiwa
 hours-validated = masaa yaliyo halalishwa
+voices-online = Sauti ziko mtandaoni sana
 todays-progress = Maendeleo ya leo
 help-reach-goal = Tusaidie kufikia { $goal }
 read-terms-q = Je! Umesoma Masharti yetu?
@@ -140,6 +141,7 @@ x-years-short =
     }
 sign-up-account = Jisajili kwa akaunti
 email-subscription-title = jiandikishe kwa sasisho za barua pepe
+email-subscription-title-new = Jisajili kwa jarida la Common Voice, ukumbusho wa malengo na visasisho vya maendeleo
 
 ## Account Benefits
 
