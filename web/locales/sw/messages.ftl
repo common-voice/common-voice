@@ -100,14 +100,14 @@ faq = Maswali Yanayoulizwa Sana
 content-license-text = Yaliyomo yapo chini ya leseni ya <licenseLink> Creative Commons </licenseLink>
 share-title = Tusaidie kupata wengine kutoa sauti zao!
 share-text = Saidia kufundisha mashine jinsi watu wanavyozungumza, toa mchango wa sauti yako kwa { $link }
-link-copied = Kiunga Imenakiliwa
+link-copied = Kiunga kimenakiliwa
 back-top = Rejea Mwanzoni
 logout = Toka
 
 ## Home Page
 
-home-title = Common Voice ni hatua ya Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza.
-home-cta = Ongea sasa, changia hapa!
+home-title = Common Voice ni hatua ya Mozilla ya kusaidia kufunza mashine jinsi watu huzungumza.
+home-cta = Zungumza, changia hapa!
 wall-of-text-start = Sauti ni asili na ni ya kibinadamu. Kwa sababu hiyo, tunavutiwa na kuunda teknolojia ya sauti itakayotumika na mashine zetu. Ili kuunda mifumo ya sauti, kiwango kikubwa sana cha data ya sauti kinahitajika.
 wall-of-text-more-mobile = Asilimia kubwa ya data inayotumika na makampuni makubwa haifikiki kwa urahisi na asilimia kubwa ya watu. Tunadhania kuwa hili ni pingamizi kwa uvumbuzi. Alimradi, tumeanzisha mradi wa Common Voice ili kusaidia kufanya (teknolojia ya) utambuzi wa sauti uwe wazi kwa watu wote.
 show-wall-of-text = Soma mengineyo
