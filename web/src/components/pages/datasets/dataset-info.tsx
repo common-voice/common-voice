@@ -6,7 +6,6 @@ import {
 import * as React from 'react';
 import { useState } from 'react';
 import { connect } from 'react-redux';
-import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import { ACCENTS, AGES } from '../../../stores/demographics';
 import {
@@ -26,9 +25,9 @@ import {
 } from '../../ui/ui';
 import CircleStats from './circle-stats';
 import stats from './stats';
-import URLS from '../../../urls';
-
+import { DPropsFromState } from './types';
 import './dataset-info.css';
+import URLS from '../../../urls';
 
 const languages = Object.keys(stats.locales).length;
 const globalStats = {
@@ -39,7 +38,7 @@ const globalStats = {
 
 const DEFAULT_CATEGORY_COUNT = 2;
 
-const Splits = ({
+export const Splits = ({
   category,
   values,
   bundleLocale,
@@ -92,11 +91,7 @@ const Splits = ({
   );
 };
 
-interface PropsFromState {
-  api: API;
-}
-
-type Props = LocalePropsFromState & WithLocalizationProps & PropsFromState;
+type Props = LocalePropsFromState & WithLocalizationProps & DPropsFromState;
 
 type State = {
   bundleLocale: string;
@@ -106,6 +101,66 @@ type State = {
   confirmSize: boolean;
   confirmNoIdentify: boolean;
 };
+
+export function getStats(localeStats: any, getString: Function) {
+  const megabytes = localeStats.size / 1024 / 1024;
+  const size =
+    megabytes < 1
+      ? Math.floor(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
+      : megabytes > 1024
+      ? Math.floor(megabytes / 1024) + ' ' + getString('size-gigabyte')
+      : Math.floor(megabytes) + ' ' + getString('size-megabyte');
+
+  const totalHours =
+    localeStats.totalHrs < 1
+      ? Math.floor(localeStats.totalHrs * 100) / 100
+      : Math.floor(localeStats.totalHrs);
+
+  const validHours =
+    localeStats.validHrs < 1
+      ? Math.floor(localeStats.validHrs * 100) / 100
+      : Math.floor(localeStats.validHrs);
+
+  return {
+    size,
+    totalHours,
+    validHours,
+  };
+}
+
+export function renderStats(
+  size: string,
+  bundleLocale: string,
+  totalHours: number,
+  validHours: number
+) {
+  const localeStats = stats.locales[bundleLocale as keyof typeof stats.locales];
+  return Object.entries({
+    size,
+    'dataset-version': (
+      <div className="version">
+        {[bundleLocale, totalHours + 'h', stats.date].join('_')}
+      </div>
+    ),
+    'validated-hr-total': validHours.toLocaleString(),
+    'overall-hr-total': totalHours.toLocaleString(),
+    'cv-license': 'CC-0',
+    'number-of-voices': localeStats.users.toLocaleString(),
+    'audio-format': 'MP3',
+    splits: Object.entries(localeStats.splits)
+      .filter(([, values]) => Object.keys(values).length > 1)
+      .map(([category, values]) => (
+        <Splits key={category} {...{ category, values, bundleLocale }} />
+      )),
+  }).map(([id, value]) => (
+    <li key={id}>
+      <Localized id={id}>
+        <span className="label" />
+      </Localized>
+      <span className="value">{value}</span>
+    </li>
+  ));
+}
 
 class DatasetInfo extends React.Component<Props, State> {
   emailInputRef = React.createRef<HTMLInputElement>();
@@ -155,23 +210,7 @@ class DatasetInfo extends React.Component<Props, State> {
     } = this.state;
     const localeStats =
       stats.locales[bundleLocale as keyof typeof stats.locales];
-    const megabytes = localeStats.size / 1024 / 1024;
-    const size =
-      megabytes < 1
-        ? Math.floor(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
-        : megabytes > 1024
-        ? Math.floor(megabytes / 1024) + ' ' + getString('size-gigabyte')
-        : Math.floor(megabytes) + ' ' + getString('size-megabyte');
-
-    const totalHours =
-      localeStats.totalHrs < 1
-        ? Math.floor(localeStats.totalHrs * 100) / 100
-        : Math.floor(localeStats.totalHrs);
-
-    const validHours =
-      localeStats.validHrs < 1
-        ? Math.floor(localeStats.validHrs * 100) / 100
-        : Math.floor(localeStats.validHrs);
+    const { size, totalHours, validHours } = getStats(localeStats, getString);
 
     return (
       <div className="dataset-info">
@@ -215,42 +254,7 @@ class DatasetInfo extends React.Component<Props, State> {
                 ))}
               </LabeledSelect>
               <ul className="facts">
-                {Object.entries({
-                  size,
-                  'dataset-version': (
-                    <div className="version">
-                      {[bundleLocale, totalHours + 'h', stats.date].join('_')}
-                    </div>
-                  ),
-                  'validated-hr-total': validHours.toLocaleString(),
-                  'overall-hr-total': totalHours.toLocaleString(),
-                  'cv-license': 'CC-0',
-                  'number-of-voices': localeStats.users.toLocaleString(),
-                  'audio-format': 'MP3',
-                  splits:
-                    localeStats.users >= 5
-                      ? Object.entries(localeStats.splits)
-                          .filter(
-                            ([, values]) => Object.keys(values).length > 1
-                          )
-                          .map(([category, values]) => (
-                            <Splits
-                              key={category}
-                              {...{ category, values, bundleLocale }}
-                            />
-                          ))
-                      : null,
-                }).map(
-                  ([id, value]) =>
-                    value && (
-                      <li key={id}>
-                        <Localized id={id}>
-                          <span className="label" />
-                        </Localized>
-                        <span className="value">{value}</span>
-                      </li>
-                    )
-                )}
+                {renderStats(size, bundleLocale, totalHours, validHours)}
               </ul>
               {hideEmailForm ? (
                 <>
@@ -355,10 +359,10 @@ class DatasetInfo extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api }: StateTree) => ({
+export const mapStateToProps = ({ api }: StateTree) => ({
   api,
 });
 
 export default localeConnector(
-  withLocalization(connect<PropsFromState>(mapStateToProps)(DatasetInfo))
+  withLocalization(connect<DPropsFromState>(mapStateToProps)(DatasetInfo))
 );
