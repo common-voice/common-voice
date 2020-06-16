@@ -271,6 +271,8 @@ delete-voice-clip = Au futa kipande cha sauti
 ready-to-upload = Pakia
 cancel-avatar-clip-recording = Ghairi
 file_too_large = Faili lililochaguliwa ni kubwa sana
+manage-subscriptions = Dhibitisha Usajili
+manage-email-subscriptions = Dhibitisha Usajili wa Baruapepe
 add-language = ongeza lugha
 
 ## FAQ
