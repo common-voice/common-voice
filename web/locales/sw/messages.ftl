@@ -211,6 +211,7 @@ request-language-button = Agiza lugha
 
 ## ProjectStatus
 
+status-title = Maendeleo ya mradi kwa ujumla: Angalia hatua tulizopiga
 status-contribute = changia sauti yako
 status-hours =
     { $hours ->
@@ -256,6 +257,7 @@ why-demographic = kwanini ina umuhimu?
 accept-privacy-title = Sera ya Faragha
 login-signup = Ingia/Jisajili
 edit = Hariri
+email-subscriptions = Usajili wa baruapepe
 download-profile = pakua data yangu
 skip-submission-feedback = Ruka marejesho ya uwasilishaji
 off = zima
@@ -265,7 +267,10 @@ recording-in-progress = Kurekodiwa kwa sauti kunaendelea
 retry-voice-wave-recording = jaribu tena
 delete-voice = futa
 recording-voice-wave = Inarekodi
+delete-voice-clip = Au futa kipande cha sauti
 ready-to-upload = Pakia
+cancel-avatar-clip-recording = Ghairi
+file_too_large = Faili lililochaguliwa ni kubwa sana
 add-language = ongeza lugha
 
 ## FAQ
