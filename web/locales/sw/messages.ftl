@@ -167,6 +167,7 @@ email-subscription-title-new = Jisajili kwa jarida la Common Voice, ukumbusho wa
 ## Account Benefits
 
 benefits = Faida
+improve-audio = Maelezo ya wasifu yanaboresha data ya sauti inayotumika katika mafunzo ya usahihi wa utambuzi wa sauti.
 keep-track = Fuatilia maendeleo na vipimo vyako kwa lugha nyingi tofauti.
 compare-progress = Linganisha maendeleo yako dhidi ya maendeleo ya wachangiaji wengine ulimwenguni kote.
 view-goals = Linganisha maendeleo yako dhidi ya  malengo ya kibinafsi na ya mradi.
