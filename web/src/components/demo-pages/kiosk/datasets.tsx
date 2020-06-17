@@ -33,6 +33,7 @@ import {
   SubscribeMapDispatchToProps,
   DatasetPropsFromState,
 } from '../../pages/datasets/types';
+import './demo-datasets.css';
 
 const DownloadForm = ({
   getString,
