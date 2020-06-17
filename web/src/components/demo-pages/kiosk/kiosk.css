@@ -10,7 +10,6 @@ html {
 #kiosk-container {
     display: flex;
     min-height: 100vh;
-    --kiosk-card-top-height: 11.125rem;
     --kiosk-card-border-radius: 1.75rem;
     --right-section-align-padding: 20%;
     --right-section-left-value: -20%;

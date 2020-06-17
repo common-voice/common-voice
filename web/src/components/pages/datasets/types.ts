@@ -16,13 +16,13 @@ export interface SubscribePropsFromState {
   api: API;
 }
 
-export interface SubscribeProps
-  extends SubscribePropsFromState,
-    SubscribePropsFromDispatch {}
-
 export interface SubscribePropsFromDispatch {
   addNotification: typeof Notifications.actions.addPill;
 }
+
+export interface SubscribeProps
+  extends SubscribePropsFromState,
+    SubscribePropsFromDispatch {}
 
 export function SubscribeMapStateToProps({ api, user }: StateTree) {
   return {
