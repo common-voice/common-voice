@@ -45,12 +45,20 @@ const DownloadForm = ({
     email: '',
     confirmNoIdentify: false,
     confirmSize: false,
+    downloadLink: null,
   });
 
   const handleInputChange = ({ target }: any) => {
+    let downloadLink =
+      emailRef.current?.checkValidity() &&
+      formState.confirmNoIdentify &&
+      formState.confirmSize
+        ? stats.bundleURLTemplate.replace('{locale}', bundleLocale)
+        : null;
     setFormState(prev => ({
       ...prev,
       [target.name]: target.type === 'email' ? target.value : target.checked,
+      downloadLink,
     }));
   };
 
@@ -91,14 +99,7 @@ const DownloadForm = ({
       <LinkButton
         rounded={true}
         id="demo--download__sub-download-button"
-        href={
-          emailRef.current &&
-          emailRef.current.checkValidity() &&
-          formState.confirmNoIdentify &&
-          formState.confirmSize
-            ? stats.bundleURLTemplate.replace('{locale}', bundleLocale)
-            : null
-        }
+        href={formState.downloadLink}
         onClick={() => {
           api.forLocale(bundleLocale).saveHasDownloaded(formState.email);
         }}>
