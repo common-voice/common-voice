@@ -108,8 +108,8 @@ or = orija
 pa-IN = punjabi
 pl = puola
 pt = portugali
-rm-sursilv = Sursilvan retoromaani
-rm-vallader = Retoromaani (Vallader)
+rm-sursilv = sursilvan retoromaani
+rm-vallader = retoromaani (Vallader)
 ro = romania
 ru = venäjä
 rw = ruanda
@@ -446,6 +446,11 @@ about-partnership =
     
     Haluaisimme kiittää seuraavia henkilöitä ja organisaatioita heidän panoksestaan hankkeen eteen:
 about-get-involved = Tule mukaan
+about-get-involved-text-2 =
+    Haluatko tehdä Common Voice -hankkeesta vielä paremman? 
+    Mahtavaa! Ota yhteyttä sähköpostilla tai <discourseLink>Discoursen</discourseLink> kautta, 
+    lähetä palautetta sivustosta <githubLink>GitHubin</githubLink> kautta, 
+    tai liity joukkoomme <matrixLink>Matrixin</matrixLink> yhteisöchatissa.
 about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
 about-nav-partners = Partnerit
@@ -622,6 +627,7 @@ contribute-more =
 record-cta = Uusi äänite
 record-platform-not-supported = Olemme pahoillamme, mutta alustasi ei ole tällä hetkellä tuettu.
 record-platform-not-supported-desktop = Pöytätietokoneille voi ladata viimeisimmän:
+record-platform-not-supported-ios-non-safari = Jatka iOS-käyttöjärjestelmässä Safarin kanssa, jotta tallennus toimii…
 record-must-allow-microphone = Sinun on annettava sovellukselle lupa käyttää mikrofonia.
 record-no-mic-found = Mikrofonia ei löytynyt.
 record-error-too-short = Ääninäyte on liian lyhyt.
@@ -636,6 +642,7 @@ record-again-instruction2 = Hyvää työtä, äänitä uudelleen <recordIcon></r
 record-last-instruction = <recordIcon></recordIcon> Viimeinen!
 review-tooltip = Tarkasta ja uudelleenäänitä sitä mukaa kun etenet
 share-clip = Jaa leikkeesi
+share-common-voice = Jaa ilosanomaa Common Voicesta
 review-instruction = Tarkasta ja uudelleenäänitä tarvittaessa
 record-submit-tooltip = { $actionType } lähetä kun valmis
 clips-uploaded = Näytteitä ladattu
@@ -653,6 +660,8 @@ record-button-label = Tallenna äänesi
 share-title-new = <bold>auta meitä</bold> haalimaan lisää ääniä
 keep-track-profile = Seuraa edistymistäsi profiilin avulla
 login-to-get-started = Kirjaudu tai rekisteröidy aloittaaksesi
+target-segment-first-card = Osallistut ensimmäiseen kohdesegmenttiimme
+target-segment-first-banner = Auta luomaan Common Voicen ensimmäinen kohdesegmentti kielellä { $locale }
 target-segment-add-voice = Lisää äänesi
 target-segment-learn-more = Lue lisää
 
