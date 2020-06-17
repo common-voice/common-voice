@@ -19,10 +19,18 @@ function DemoLayout() {
         <Switch>
           <Route exact path={toLocaleRoute(URLS.DEMO)} component={Intro} />
           {[
-            {route: URLS.DEMO_DATASETS, pageContent: getDatasetsComponents()}, 
-            {route: URLS.DEMO_DASHBOARD, pageContent: getDashboardComponents()}
-          ].map(({ route, pageContent}) => (
-            <Route exact path={toLocaleRoute(route)} render={() => <Kiosk {...{pageContent}}/>} />
+            { route: URLS.DEMO_DATASETS, pageContent: getDatasetsComponents() },
+            {
+              route: URLS.DEMO_DASHBOARD,
+              pageContent: getDashboardComponents(),
+            },
+          ].map(({ route, pageContent }, index) => (
+            <Route
+              exact
+              path={toLocaleRoute(route)}
+              key={index}
+              render={() => <Kiosk {...{ pageContent }} />}
+            />
           ))}
           {/* more routes to be added */}
 
