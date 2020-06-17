@@ -26,12 +26,12 @@ import {
 } from '../../locale-helpers';
 import KioskCard from './kiosk-card';
 import {
-  SProps,
-  SPropsFromState,
-  SPropsFromDispatch,
-  SMapStateToProps,
-  SMapDispatchToProps,
-  DPropsFromState,
+  SubscribeProps,
+  SubscribePropsFromState,
+  SubscribePropsFromDispatch,
+  SubscribeMapStateToProps,
+  SubscribeMapDispatchToProps,
+  DatasetPropsFromState,
 } from '../../pages/datasets/types';
 
 const DownloadForm = ({
@@ -114,7 +114,7 @@ const DownloadForm = ({
   );
 };
 
-const SubscribeForm = ({ api, account, addNotification }: SProps) => {
+const SubscribeForm = ({ api, account, addNotification }: SubscribeProps) => {
   const [_, toLocaleRoute] = useLocale();
   const [formState, setFormState] = React.useState({
     email: '',
@@ -210,14 +210,17 @@ const SubscribeForm = ({ api, account, addNotification }: SProps) => {
   );
 };
 
-const ConnectedSubscribeForm = connect<SPropsFromState, SPropsFromDispatch>(
-  SMapStateToProps,
-  SMapDispatchToProps
+const ConnectedSubscribeForm = connect<
+  SubscribePropsFromState,
+  SubscribePropsFromDispatch
+>(
+  SubscribeMapStateToProps,
+  SubscribeMapDispatchToProps
 )(SubscribeForm);
 
-const ConnectedDownloadForm = connect<DPropsFromState>(SMapStateToProps)(
-  DownloadForm
-);
+const ConnectedDownloadForm = connect<DatasetPropsFromState>(
+  SubscribeMapStateToProps
+)(DownloadForm);
 
 type ContentProps = LocalePropsFromState & WithLocalizationProps;
 interface CardProps extends WithLocalizationProps {}

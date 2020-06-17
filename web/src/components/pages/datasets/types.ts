@@ -6,33 +6,31 @@ import { LocalePropsFromState } from '../../locale-helpers';
 import { WithLocalizationProps } from '@fluent/react';
 
 //Datasets-info interfaces
-export interface DPropsFromState {
+export interface DatasetPropsFromState {
   api: API;
 }
 
-export type DProps = LocalePropsFromState &
-  WithLocalizationProps &
-  DPropsFromState;
-
 //Subscribe form interfaces
-export interface SPropsFromState {
+export interface SubscribePropsFromState {
   account: UserClient;
   api: API;
 }
 
-export interface SProps extends SPropsFromState, SPropsFromDispatch {}
+export interface SubscribeProps
+  extends SubscribePropsFromState,
+    SubscribePropsFromDispatch {}
 
-export interface SPropsFromDispatch {
+export interface SubscribePropsFromDispatch {
   addNotification: typeof Notifications.actions.addPill;
 }
 
-export function SMapStateToProps({ api, user }: StateTree) {
+export function SubscribeMapStateToProps({ api, user }: StateTree) {
   return {
     account: user.account,
     api,
   };
 }
 
-export const SMapDispatchToProps = {
+export const SubscribeMapDispatchToProps = {
   addNotification: Notifications.actions.addPill,
 };

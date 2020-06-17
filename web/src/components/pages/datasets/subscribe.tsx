@@ -6,11 +6,11 @@ import { LocaleLink } from '../../locale-helpers';
 import { ArrowLeft } from '../../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput } from '../../ui/ui';
 import {
-  SMapDispatchToProps,
-  SMapStateToProps,
-  SPropsFromDispatch,
-  SPropsFromState,
-  SProps,
+  SubscribeMapDispatchToProps,
+  SubscribeMapStateToProps,
+  SubscribePropsFromDispatch,
+  SubscribePropsFromState,
+  SubscribeProps,
 } from './types';
 import './subscribe.css';
 
@@ -20,7 +20,7 @@ interface State {
   submitStatus: null | 'submitting' | 'submitted';
 }
 
-class Subscribe extends React.Component<SProps, State> {
+class Subscribe extends React.Component<SubscribeProps, State> {
   state: State = { email: '', privacyAgreed: false, submitStatus: null };
 
   emailInputRef = React.createRef<HTMLInputElement>();
@@ -116,7 +116,7 @@ class Subscribe extends React.Component<SProps, State> {
   }
 }
 
-export default connect<SPropsFromState, SPropsFromDispatch>(
-  SMapStateToProps,
-  SMapDispatchToProps
+export default connect<SubscribePropsFromState, SubscribePropsFromDispatch>(
+  SubscribeMapStateToProps,
+  SubscribeMapDispatchToProps
 )(Subscribe);

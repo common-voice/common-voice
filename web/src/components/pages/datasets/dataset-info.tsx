@@ -25,7 +25,7 @@ import {
 } from '../../ui/ui';
 import CircleStats from './circle-stats';
 import stats from './stats';
-import { DPropsFromState } from './types';
+import { DatasetPropsFromState } from './types';
 import './dataset-info.css';
 import URLS from '../../../urls';
 
@@ -91,7 +91,9 @@ export const Splits = ({
   );
 };
 
-type Props = LocalePropsFromState & WithLocalizationProps & DPropsFromState;
+type Props = LocalePropsFromState &
+  WithLocalizationProps &
+  DatasetPropsFromState;
 
 type State = {
   bundleLocale: string;
@@ -359,10 +361,10 @@ class DatasetInfo extends React.Component<Props, State> {
   }
 }
 
-export const mapStateToProps = ({ api }: StateTree) => ({
+const mapStateToProps = ({ api }: StateTree) => ({
   api,
 });
 
 export default localeConnector(
-  withLocalization(connect<DPropsFromState>(mapStateToProps)(DatasetInfo))
+  withLocalization(connect<DatasetPropsFromState>(mapStateToProps)(DatasetInfo))
 );
