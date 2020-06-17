@@ -103,9 +103,7 @@ const BottomRightPane = () => {
               <PlayOutlineGreenIcon alt="listen" />
             </Link>
           </li>
-          <li id="pane-divider">
-            <hr />
-          </li>
+          <hr id="pane-divider" />
           <li onClick={() => setExpanded(true)}>
             <button id="expand-menu-button">
               <img src={grid} alt="menu" />
