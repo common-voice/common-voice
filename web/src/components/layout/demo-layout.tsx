@@ -5,6 +5,8 @@ import { useLocale } from '../locale-helpers';
 import { Spinner } from '../ui/ui';
 import URLS from '../../urls';
 import Intro from '../demo-pages/intro/intro';
+import getDatasetsComponents from '../demo-pages/kiosk/datasets';
+import getDashboardComponents from '../demo-pages/kiosk/dashboard';
 
 const Kiosk = React.lazy(() => import('../demo-pages/kiosk/kiosk'));
 
@@ -16,8 +18,11 @@ function DemoLayout() {
       <Suspense fallback={<Spinner />}>
         <Switch>
           <Route exact path={toLocaleRoute(URLS.DEMO)} component={Intro} />
-          {[URLS.DEMO_DATASETS, URLS.DEMO_DASHBOARD].map(route => (
-            <Route exact path={toLocaleRoute(route)} component={Kiosk} />
+          {[
+            {route: URLS.DEMO_DATASETS, pageContent: getDatasetsComponents()}, 
+            {route: URLS.DEMO_DASHBOARD, pageContent: getDashboardComponents()}
+          ].map(({ route, pageContent}) => (
+            <Route exact path={toLocaleRoute(route)} render={() => <Kiosk {...{pageContent}}/>} />
           ))}
           {/* more routes to be added */}
 

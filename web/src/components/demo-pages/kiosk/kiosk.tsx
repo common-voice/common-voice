@@ -15,8 +15,6 @@ import grid from './assets/grid.svg';
 import home from './assets/home.svg';
 import upload from './assets/upload.svg';
 import { PageContentType } from './types';
-import { datasets } from './datasets';
-import dashboard from './dashboard';
 import { Localized } from '@fluent/react';
 
 const BottomRightPane = () => {
@@ -119,36 +117,12 @@ const BottomRightPane = () => {
   );
 };
 
-function Kiosk() {
-  const PageContentFactory = (): PageContentType => {
-    //returns appropriate page content based on current route url
-    let page: PageContentType;
-    switch (pathname) {
-      case toLocaleRoute(urls.DEMO_DATASETS):
-        page = datasets();
-        break;
-      case toLocaleRoute(urls.DEMO_DASHBOARD):
-        page = dashboard();
-        break;
-      // TODO: add more kiosk routes here
-      default:
-        break;
-    }
-    return {
-      Card: page.Card,
-      Content: page.Content,
-    };
-  };
+interface KioskProps {
+  pageContent: PageContentType;
+}
 
-  const [_, toLocaleRoute] = useLocale();
-  const { pathname } = useLocation();
-  const [PageContent, setPageContent] = React.useState<PageContentType>(
-    PageContentFactory()
-  );
-
-  React.useEffect(() => {
-    setPageContent(PageContentFactory());
-  }, [pathname]);
+function Kiosk(props: KioskProps) {
+  const { pageContent } = props;
 
   return (
     <div id="kiosk-container">
@@ -157,11 +131,11 @@ function Kiosk() {
         <div id="mesh"></div>
       </div>
       <div id="kiosk-card">
-        <PageContent.Card />
+        <pageContent.Card />
       </div>
       <BottomRightPane />
       <div id="kiosk--content">
-        <PageContent.Content />
+        <pageContent.Content />
       </div>
     </div>
   );
