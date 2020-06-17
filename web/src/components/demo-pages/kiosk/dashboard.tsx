@@ -2,7 +2,7 @@ import * as React from 'react';
 import { PageContentType } from './types';
 import { withLocalization } from '@fluent/react';
 
-const dashboard = (): PageContentType => {
+const getDashboardComponents = (): PageContentType => {
   const ContentComponent = () => {
     return <h1>Hi</h1>;
   };
@@ -15,4 +15,4 @@ const dashboard = (): PageContentType => {
   };
 };
 
-export default dashboard;
+export default getDashboardComponents;

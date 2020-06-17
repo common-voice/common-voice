@@ -221,7 +221,7 @@ const ConnectedDownloadForm = connect<DPropsFromState>(SMapStateToProps)(
 type ContentProps = LocalePropsFromState & WithLocalizationProps;
 interface CardProps extends WithLocalizationProps {}
 
-export const datasets = (): PageContentType => {
+const getDatasetsComponents = (): PageContentType => {
   const ContentComponent = ({ getString, locale }: ContentProps) => {
     const [bundleLocale, setBundleLocale] = React.useState(
       (stats.locales as any)[locale] ? locale : 'en'
@@ -354,3 +354,5 @@ export const datasets = (): PageContentType => {
     Card: withLocalization(CardComponent),
   };
 };
+
+export default getDatasetsComponents;
