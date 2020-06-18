@@ -170,7 +170,7 @@ logout = 登出
 
 ## Home Page
 
-home-title = Common Voice 計劃係由 Mozilla 發起嘅，想幫機械學識好似真人咁發聲。
+home-title = Common Voice 計劃係由 Mozilla 發起嘅，用嚟幫機械學識好似真人咁發聲。
 home-cta = 喺呢度貢獻你嘅聲音！
 wall-of-text-start = 語音係自然、有人性嘅。所以我哋非常希望為機器建造可用嘅語音技術，但建造語音系統需要非常大量嘅語音數據。
 wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
@@ -182,11 +182,11 @@ wall-of-text-second = 大部分現成的數據由大公司擁有，並未開放�
 show-wall-of-text = 瞭解更多
 help-us-title = 請幫我哋驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？
-no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一些聲音。
+no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一啲聲音。
 vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
-speak-subtitle = 貢獻你嘅聲音
+speak-subtitle = 捐出你嘅聲音
 speak-paragraph = 錄音係我哋建立開放數據集時不可否缺的一部分，亦係好多人覺得最好玩的一部分！
 speak-goal-text = 段新錄音
 listen-subtitle = 幫我哋驗證錄音
@@ -194,7 +194,7 @@ listen-paragraph = 驗證他人錄下的錄音片段，對 Common Voice 的使�
 listen-goal-text = 段錄音成功被驗證
 hours-recorded = 個小時的錄音
 hours-validated = 個小時已被驗證的錄音
-voices-online = 宜家在線嘅人聲
+voices-online = 而家在線嘅人聲
 todays-progress = 今日嘅進度
 help-reach-goal = 幫我哋達到 { $goal }
 read-terms-q = 睇咗我哋嘅條款未？
@@ -213,7 +213,7 @@ x-years-short =
     { $count ->
        *[other] 年
     }
-help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
+help-make-dataset = 幫我哋打造一個高品質、開放畀公眾使用嘅數據集
 sign-up-account = 註冊帳戶
 email-subscription-title = 訂閱最新消息電子報
 email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子報、目標提醒、同進度更新。
@@ -230,7 +230,7 @@ join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的�
 
 ## What's public
 
-whats-public = 有哪些資料會公開？
+whats-public = 有邊啲資料會公開？
 email-not-public = 我哋唔會公開你嘅電郵地址。
 recordings-and-locale-public = 你貢獻嘅錄音數量，以及貢獻咗邊幾種語言，都會係公開的。
 username-optin-public = 你可以選擇公開你嘅賬戶名稱，或保持匿名。
@@ -272,7 +272,7 @@ status-title = 計劃狀態：睇下我哋做到邊到！
 status-contribute = 貢獻您把聲
 status-hours =
     { $hours ->
-       *[other] 目前已驗證了 { $hours } 小時！
+       *[other] 驗證咗 { $hours } 個鐘！
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -377,7 +377,7 @@ faq-when-release2-q = 你哋幾時會發布其他語言的 Common Voice 數據�
 faq-when-release2-a = 我們正動員群眾，整理不同語言的 Common Voice 數據庫。如果你也希望為 Common Voice 的新語言出一分力，可以用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink> 將新句子加入數據庫，又或者上  <pontoonLink>Pontoon</pontoonLink> 翻譯網站內容。當新語言的數據庫集齊 5000 條句子並獲審批，便會正式加入 Common Voice，開始收集錄音片段。
 faq-why-mission-q = 為什麼 Common Voice 係 Mozilla 使命的一部分？
 faq-why-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的計劃來幫助網路創作者。隨著採用語音技術的程式激增，我們相信這些程式應該公平地服務所有使用者。這代表打造與測試語音科技時，需要滿足更多語言、腔調、人口的需求。Common Voice 將會成為一套能夠幫助 Mozilla 和全球開發者群衆的公眾資源，並已用於我們自己的其他計劃中。
-faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
+faq-what-cv-and-deepspeech-q = Common Voice 同 Deep Speech 有咩唔同？
 faq-what-cv-and-deepspeech-a = Common Voice 能夠與 Mozilla 的開放原始碼語音識別引擎 Deep Speech 互補。初版的 Deep Speech 發行於 2017 年 11 月，並持續發展。與 Common Voice 資料集一起，我們相信這套開放原始碼語音辨識技術應開放給所有人使用，也希望這些技術可讓開發者打造出新一波的產品與服務。
 faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
 faq-is-goal-assistant-a = Common Voice 數據集的目標是讓任何人都能打造語音識別、說話者識別，或任何其他需要語音資料的應用程式。語音助理便是您可以用這個數據集來打造的應用程式之一。
@@ -387,7 +387,7 @@ faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言�
 faq-why-different-speakers-a =
     大多數的語音數據庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在這些訓練機械的數據之中，各種不同的口音與方言與被邊緣化的人群常有所關連。許多機器也很難理解女性的聲音。
     這就是為什麼我們的語音數據庫應該海納百川，收集各種聲音！
-faq-why-my-lang-q = 點解還沒有我的語言？
+faq-why-my-lang-q = 點解仲未有我嘅語言？
 faq-why-my-lang-new-a = Mozilla 不特別偏好哪種語言。相反而然 Common Voice 是一個純社群發起的計劃，需要<multilangLink>幾個步驟才能新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，這樣社群成員才能用自己的語言進行貢獻。次之，我們需要大量的無版權語句，讓人們可以大聲說出來。當兩個條件都滿足後 Common Voice 即可「上線」，讓人們開始錄音，並驗證其他人所錄下的片段。若您想要協助準備讓新語言上限，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫忙。
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
 faq-what-quality-a = 我們希望 Common Voice 數據集能夠反映出語音轉文字引擎在野外也會聽到的聲音，所以我們希望能夠收集各種環境下與不同錄音品質的片段。除了一個多元的說話者群體，如果這個數據集包含了各種語音品質的片段，便可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至數據集中。
@@ -395,7 +395,7 @@ faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目�
 faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時數。
 faq-how-calc-hours-q = Common Voice 如何計算時數？
 faq-how-calc-hours-a = 我們透過估算每筆錄音的平均長度來計算時數，並乘以所有語言的錄音數量。
-faq-where-src-from-2-q = 這些文本來源出自何處？
+faq-where-src-from-2-q = 啲文本邊度嚟㗎？
 faq-where-src-from-2-a =
     我們的來源文本來自貢獻者的原始貢獻，以及來自公眾領域的影片劇本，例如 <italic>莫負少年頭</italic> 的對白腳本。
     
@@ -790,8 +790,8 @@ profile-form-delete = 刪除個人檔案
 
 ## Landing
 
-welcome-staff = 你好 { $company } 的員工！
+welcome-staff = 歡迎 { $company } 嘅員工！
 help-contribute = 你可以透過創立一個 Common Voice 帳戶並貢獻錄音，從而協助我們建立一個多元、開放源碼的數據集。
 login-company = 以 { $company } 電郵登入 / 註冊
 profile-not-required = 不需要成立個人檔案便即可貢獻，但如果有的話會更有幫助，下面話您知點解。
-read-more-about = 去關於我們的頁面瞭解更多
+read-more-about = 去關於我哋嘅頁面瞭解更多
