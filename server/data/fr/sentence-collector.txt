@@ -1236,6 +1236,7 @@ Allons-y par ta mansarde, lui dit Contenson.
 Allons… puisque vous le voulez, dit-il
 Allume la lanterne, prends-la, et descends.
 Allume la télé, l'émission commence dans cinq minutes.
+Allume la télé, s’il te plaît.
 Allumerons-nous un feu afin de signaler notre présence sur cette côte
 Allée Alfred Sisley.
 Allée Auguste Renoir.
@@ -2026,6 +2027,7 @@ Assassinat de Phœbus.
 Assault de guallanterie Predhomme cent soixante et onze cent quarante-neuf.
 Asseyez-vous ! Asseyez-vous !
 Asseyez-vous donc !
+Asseyez-vous donc ici.
 Asseyez-vous là.
 Asseyez-vous, madame, et dites-moi d'abord comment vous allez.
 Asseyez-vous, madame.
@@ -2241,6 +2243,7 @@ Au départ les faibles rayons matinaux éblouissent dans les brumes.
 Au départ ça donne une ambiance assez choupinette.
 Au départ, Madame Marquet.
 Au départ, je ne voulais pas utiliser un tel fait divers.
+Au détour d'un bosquet le chevreuil
 Au détour de la rue, les derniers Suisses s'en allaient à reculons.
 Au détour d’un croisement, Enguerrand et Madame Marquet les rejoignent.
 Au fade, j’ai eu une surprise.
@@ -2296,6 +2299,7 @@ Au grand jour de midi, cela brillait.
 Au hasard, partout, des apprentis battaient le tambour.
 Au haut bout de cette salle, ils habitaient deux compartiments qui se touchaient.
 Au iour dict, le prieur advint sans faulte.
+Au lent mouvement du dromadaire
 Au lever du soleil, John examinerait la terre.
 Au lever du soleil, nous étions en route.
 Au lieu de cela, il te donne l’élan qu’il te manquait.
@@ -4294,6 +4298,7 @@ Bruyn ! et tousiours Bruyn !
 Bruyn ! ie veulx cela !
 Brémondot oscillait sur les colonnes de ses jambes, serrait ses poings de cuirassier formidable.
 Brémondot réclamait un cheval de cuirassier pour sa latte de colonel.
+Brûlant comme le tempérament
 Buchez l'accusait amèrement de ne pas conduire mieux le procès du loueur Rambourg.
 Buchez rendait compte de ses travaux innombrables.
 Buffle Rieur est un élève avide, empli de la soif d’accomplir.
@@ -5244,6 +5249,7 @@ Ce n'est pas ta faute si tu n'entends rien aux affaires.
 Ce n'est pas tant une question de douleur.
 Ce n'est pas tous les jours dimanche.
 Ce n'est pas tout ça
+Ce n'est pas très prudent
 Ce n'est pas une métaphore.
 Ce n'est pas vrai, peut-être ?
 Ce n'est pas à cause de vous, bien entendu.
@@ -7439,6 +7445,7 @@ Cette blague ! dit Odette.
 Cette boucle entoure tout le reste de la sphère d'idées sur sa tête.
 Cette boucle entoure tout le reste de la sphère d’idées sur sa tête.
 Cette boulette tombe dans la cour.
+Cette bouteille a roulé sous le plancher
 Cette bouteille avait visiblement eu des aventures.
 Cette carte, Fabian la regarda enfin.
 Cette catastrophe fut une crise dans l’existence de Claude.
@@ -7589,6 +7596,7 @@ Cette histoire d’un mort dans sa cuisine faisait du chemin.
 Cette histoire me collait à la peau.
 Cette histoire me demande donc de flash-backer devant toi.
 Cette horrible image ne le quittait pas.
+Cette humidité tenace qui colle à la peau
 Cette hypothèse est-elle réellement surprenante ?
 Cette idée traversa mon esprit pour la première fois, mais je la repoussai.
 Cette idée fixe n’est que le pompon finissant le fil de leur pensée.
@@ -8010,6 +8018,7 @@ Chaste tombe jumelle au pied du coteau vert !
 Chastes sur la terre, mais s’accouplant dans l’infini.
 Chatouiller le garde royal en faction au Palais de Buckingham.
 Chaude caresse d'affection, le major enlaçait du bras la taille de son disciple.
+Chaude comme le soleil de l'été brûlant
 Chaude et lourde, elle pesait là, sans espoir.
 Chauffez le sucre, il bouillonnera.
 Chaval jura, le sang au visage.
@@ -8376,6 +8385,7 @@ Comme je vous vois.
 Comme j’ai compris tardivement que Smartarded narre comme tout est histoire, narratif, illusoire.
 Comme j’ai l’honneur.
 Comme j’étais très jeune, les gars me filaient des cachetons de misère.
+Comme l'on fait les bons vins
 Comme la Maheude soufflait, madame Hennebeau frappa.
 Comme la crainte et l'angoisse.
 Comme la crainte et l’angoisse.
@@ -11809,6 +11819,7 @@ De gros nuages très noirs cachaient le ciel.
 De gros nuages voilaient le disque de la lune, alors dans son premier quartier.
 De gros nuages, écrasés contre le ciel, rendaient l’atmosphère plus obscure
 De gros tourbillons de fumée, constellés d’étincelles, s’échappaient des cheminées noires.
+De grosses gouttes bien larges et épaisses
 De grosses larmes chaudes jaillirent de ses yeux.
 De grosses larmes de sueur lui tombaient du front.
 De grosses larmes roulaient de ses yeux.
@@ -11855,6 +11866,7 @@ De la place, j’en ai.
 De la pluie et du vent à faire la joie des pétrels
 De la plénitude que tu vis quand dans ce rêve.
 De la poussière tourbillonnait dans les rayons de soleil.
+De la pure poésie aurait-il dit
 De la rue Plumet au quartier Saint-Denis
 De la salle et de la déco
 De la salle et de la déco.
@@ -12481,6 +12493,8 @@ Des casquettes et de la rue Saint-Denis
 Des champs de cannes à sucre hérissaient la campagne
 Des chatouilles d’ondes.
 Des chats savouraient leur quiétude.
+Des chaussures à glands mais pas ceux du chêne
+Des chaussures à pointes
 Des chers ! des dix centimes !
 Des chiens de chasse erraient modestement, le nez à fleur de ruisseau.
 Des chocs d’une extrême violence se produisaient, quand il heurtait la muraille.
@@ -12789,6 +12803,7 @@ Des vestiges fêlés se dressent devant moi.
 Des violonistes jouaient un andante de Rossini dans la serre.
 Des virus qui détruisent aléatoirement les données entrées.
 Des vivants ou des morts ?
+Des voitures des voitures encore des voitures
 Des voitures qui passent autour.
 Des voix criaient : — Justice ! …
 Des voix se répondaient avec vivacité.
@@ -13471,6 +13486,7 @@ Donne trois francs au cocher.
 Donne, c’est ma spécialité.
 Donne, dit Jean Valjean.
 Donne-lui le sens théâtral dont Enguerrand a hérité.
+Donne-moi la main pour traverser.
 Donne-moi mon chapeau.
 Donne-moi mon couteau que je l’aiguise un peu.
 Donne-moi mon verre, Nanon ? dit le bonhomme.
@@ -16995,10 +17011,12 @@ Encore un nuage ! dit Fergusson.
 Encore un pas de fait.
 Encore un peu de force, et j’atteindrai la maison.
 Encore un peu de patience.
+Encore un toujours le même
 Encore un voyage pour des clous, leur annonça d’emblée le jeune homme.
 Encore une couillonne au cerveau ravagé par la bit-lit.
 Encore une couillonne au cerveau ravagé par la bitlitLa BitLit.
 Encore une demi-heure
+Encore une fois le goéland plongea
 Encore une fois !
 Encore une fois, Omer crut ses entrailles arrachées par la détonation.
 Encore une fois, adieu !
@@ -18813,6 +18831,7 @@ Et j’espère qu’il fera un excellent serviteur, ajouta Harbert
 Et j’insiste : toi aussi.
 Et j’irai mal demain, car il pleuvra.
 Et l'Oscar du tact est attribué à Fulbert.
+Et l'enregistreur s'arrêta
 Et l'entendre partir dans un grand éclat de rire goguenard.
 Et l'on recommence notre cinéma muet.
 Et la Bible donc !
@@ -18882,6 +18901,7 @@ Et le champion, encore une fois c'est lui.
 Et le chien aboyait comme pour répondre
 Et le clerc du parlement repartit : — Sa seigneurie a pris le test.
 Et le colonel alla se remettre sur son banc.
+Et le coup violent lui fendit le crâne
 Et le courage manquera-t-il aussi ?
 Et le dessert que vous oubliez
 Et le dessert que vous oubliez ?
@@ -18895,6 +18915,7 @@ Et le grand jour est arrivé
 Et le guernesiais poursuivit :
 Et le linge, et les robes ? continua furieusement Lise.
 Et le livre dans lequel nous l’avons découvert !
+Et le longeron principal se brisa
 Et le lundi l’entreprise a déversé plusieurs bennes par-dessus.
 Et le marin fit le récit de ce qui s’était passé la veille
 Et le mec prend vingt et un grammes.
@@ -18914,6 +18935,7 @@ Et le peintre partit avec eux.
 Et le petit dernier fraîchement re-baptisé.
 Et le petit dernier fraîchement rebaptisé.
 Et le petit soulier ? demanda Gervaise.
+Et le pivert
 Et le plus doué de ma génération, encore !
 Et le plus doué de ma génération.
 Et le portier levant le nez reconnut Marius.
@@ -18923,13 +18945,16 @@ Et le public ! le public, haletant, enflammé, gesticule, hurle !
 Et le respect des chatons.
 Et le reste des humains, c’est quoi ?
 Et le reste des humains.
+Et le robot continuait de le regarder de ses capteurs inexpressifs
 Et le roi ? demanda la vieille dame.
 Et le roulement lugubre arrêta les essors des colères libérales.
 Et le silence retomba, lourdement.
 Et le silence retomba.
 Et le silence, aussi.
+Et le soudeur tenta encore une fois
 Et le statisticien Cokburn me quitta sans me saluer d’un adieu quelconque.
 Et le storytelling y est une matière qu'on étudie religieusement.
+Et le taureau fonça tête baissée
 Et le ton des conversations montait !
 Et le train suivant, quand passera-t-il ? demanda Phileas Fogg.
 Et le téléphone qui n'arrête pas de sonner
@@ -19522,6 +19547,7 @@ Et que deviendrait-il sans son navire ?
 Et que diraient vos familles ? …
 Et que dirais-tu donc si tu me voyais rire !
 Et que dirait Mrs Kethlen Seymour ? …
+Et que dire de la montgolfière ?
 Et que dis-tu d’Anne d’Autriche ?
 Et que dit-on qu’elle ait fait ?
 Et que faire, d’ailleurs ?
@@ -21098,6 +21124,7 @@ Gibelotte, reconnaissant Joly et Laigle, mit une bouteille de vin sur la table.
 Gibelotte, voyant Grantaire, mit deux bouteilles de vin sur la table.
 Gigantostéologie, » acheva de dire le professeur Lidenbrock entre deux jurons.
 Gigonnet devina le coup !
+Gilbert lui donnait sa tête des mauvais jours
 Gilles Lecornu ! disaient les uns.
 Gilliatt a l’option
 Gilliatt avait ce tremblement.
@@ -23232,6 +23259,7 @@ Il était venu là pour tuer, et il voulait tuer.
 Il était visible que le capitaine s’éteignait peu à peu
 Il était « au fouet », pour employer une expression de l’argot des sportsmen.
 Il fabriqua ainsi une porte assez solide pour commander l’ouverture de Will-Tree.
+Il fabriquait son alcool
 Il faict si chauld en ces premiers iours de may !
 Il faillit passer au travers.
 Il faillit y casser son couteau.
@@ -25796,6 +25824,7 @@ Il s'assura que le mal était guérissable.
 Il s'avança vers elles.
 Il s'avère que l'angoisse librement partagée est rarement appréciée.
 Il s'avère que nous ne sommes pas libres de crier.
+Il s'en fallait de peu
 Il s'entraîne depuis des semaines pour la course Paris-Versailles.
 Il s'est avéré que Cassie était une garce.
 Il s'est fait aménager une partie du château, dans la tour renaissance.
@@ -27183,6 +27212,7 @@ Il était une heure du matin
 Il était vraiment pourri ce film.
 Il était à la tête de l’un des plus importants cabinets de courtage.
 Il était ébahi par ces deux droites parallèles qui semblaient se prolonger infiniment.
+Il était évident qu'il mentait
 Il était évident que le blog serait lu.
 Il était évident que tous ceux qui s'approchent du blog seraient surveillés.
 Il était évident que tous ceux qui s’approchent du blog seraient surveillés.
@@ -28197,6 +28227,7 @@ J'ai juste joué avec les cartes qu'on m'a données.
 J'ai l'impression d'être une de ces huîtres.
 J'ai l'impression que le temps humain est principalement constitué d'ennui.
 J'ai la charge de rendre honorable et respecté le nom de votre père.
+J'ai la gâchette facile
 J'ai la tête tellement prise que j'entends à peine Fulbert parler.
 J'ai lieu de penser que vous avez su toucher son cœur.
 J'ai là-dessus moins de certitudes, avoua-t-il humblement.
@@ -32582,6 +32613,7 @@ Jouant de chance et d'observation.
 Jouant le jeu de son interlocutrice, il la lui donne.
 Joue moi le dernier tube de Gainsbourg.
 Joue, dit Jean Valjean.
+Joue-moi encore cet air de musique.
 Joue-moi le dernier Bruno Mars
 Jouer des dominos, signifie manger ; comment mangent les gens poursuivis ?
 Jouet, quel mot terrible !
@@ -33928,6 +33960,7 @@ L'admiration ironique du général-comte était-elle hostile aux siens ?
 L'aimer en cet instant, cette petite sœur de Mithra, cela l'eût divinisé.
 L'air de Rome m'a grisé.
 L'air torride brûlait sa gorge sèche.
+L'amalgame ne prit pas
 L'amante était au salon quand on y revint, après les liqueurs.
 L'ambiance dans l'assistance a changé du tout au tout.
 L'amitié exclut la coquetterie, mais elle ne méprise pas l'esthétique.
@@ -33942,6 +33975,7 @@ L'anxiété de l'attente décomposait les teints des visages.
 L'application easylience est accessible depuis un navigateur web.
 L'application easylience est accessible en mobilité.
 L'apprenti glissait avec son tambour et sa casquette à gland.
+L'archiduchesse de gérolstein
 L'argent donnerait mieux.
 L'artiste est revenu ce matin.
 L'ascenseur de la résidence est encore en panne.
@@ -34352,6 +34386,7 @@ La chaleur se maintenait à un degré supportable.
 La chaleur s’accroissait d’une inquiétante façon et devait certainement atteindre quarante degrés.
 La chaleur énervait les courages.
 La chaleur était plus supportable que ce qu’il avait redouté.
+La chaleur étouffante du désert
 La chaleur, aujourd’hui, est d’autant plus forte que le ciel est orageux.
 La chaloupe avait la dimension utile.
 La chambre des lords ne sera mise au fait que demain.
@@ -34693,6 +34728,7 @@ La foi dans la victoire l'enchanta quelques secondes.
 La fois d’après, elle nous a raconté la légende.
 La folie, une douce raison ailleurs ?
 La folle du logis dessine des tableaux heureux.
+La fondue était bien chaude
 La force créatrice du ciel est mise en mouvement par le tonnerre.
 La force de la nature
 La formation primitive de ce bout de continent ne me parait pas claire !
@@ -34730,6 +34766,7 @@ La froideur de cet homme est irritante.
 La frénésie le possédait.
 La fréquence augmente plus vite que le coût moyen.
 La fréquentation du restaurant a doublé ce mois-ci.
+La fuite était si grande
 La fureur qui déforme ses traits d’habitude si posés.
 La fureur qui est dessous, vous charme.
 La fête des grand-mères se meurt.
@@ -34997,6 +35034,7 @@ La marée est haute en ce moment, capitaine
 La marmaille se divertissait aux jeux militaires.
 La marque du talon leur manquait.
 La marquise griffonna rapidement un petit billet.
+La marquise de primesautier
 La marquise d’Aiglemont.
 La marquise d’Espard !
 La marquise ne pouvait pas sourire.
@@ -35375,6 +35413,7 @@ La pieuvre nageant reste, pour ainsi dire, dans le fourreau.
 La pieuvre, c’est l’hypocrite.
 La pile disparut dans ses jupes.
 La piraterie est un phénomène plus récent, surtout à l’échelle actuelle.
+La pire des choses c'est vraiment celle-là
 La pirogue les recevait et les transportait immédiatement sur la plage
 La pirogue n’était plus là
 La pitchounette pique un fard de tous les diables.
@@ -35400,6 +35439,7 @@ La plaine qu’ils traversaient remontait en pente douce vers le nord-est.
 La plainte des bateleurs se fondait sur la religion.
 La plainte dit tunicam et non cappettam.
 La plante croît
+La plaque était immatriculée en Espagne
 La plate-forme émergeait de quatre-vingts centimètres seulement.
 La pleine mer ne dure que quelques minutes.
 La pluie ! »crie tout d’un coup Daoulas.
@@ -35588,6 +35628,7 @@ La pucelle était effrayée.
 La pudeur n’est-elle pas toute la femme ?
 La puissance de Dieu, mon enfant, est infinie.
 La puissance nominale de la machine à aubes est de mille chevaux.
+La purée de pois voilà qui tient au corps
 La putain d’encyclopédie de Ghislain en vingt-huit volumes.
 La pédagogie est la plus perverse des humiliations.
 La pépie provoquée par cette gourmande salaison.
@@ -35793,6 +35834,7 @@ La solution qu’il proposait, d’ailleurs, laissait libre carrière à l’i
 La sombre attaque arrivait.
 La somme en vaut la peine.
 La somnambule avait bien vu.
+La sonde atterrit dans la vase
 La sonde n’a su les atteindre.
 La sonnerie finit de retentir.
 La sonnerie prolongée d’une trompe de chasse fit taire les oiseaux.
@@ -35944,6 +35986,7 @@ La vapeur siffla en se précipitant dans les tiroirs entr’ouverts.
 La vapeur siffla, la locomotive se mit en mouvement.
 La variété dans le choix crée un faux sentiment de liberté pour la clientèle.
 La variété est assez commune…
+La vase venez de le recouvrir
 La vaste cohue fit silence.
 La vaste dispersion l’usait silencieusement.
 La veille du grand lendemain.
@@ -36527,6 +36570,7 @@ Le Roi, riant aussi.
 Le Roi, souriant et riant plus encore.
 Le Roi, s’interrompant de sa causerie.
 Le Roi, vidant ses poches.
+Le Rossignol chante dans la branche haute
 Le Roy chez l’orphebvre Pisan quatre-vingt-cinq soixante-seize.
 Le Roy eut la bouche close.
 Le Roy feit le silencieux.
@@ -36686,6 +36730,7 @@ Le brouillard se déroulait en grosses volutes qui se déplaçaient lourdement.
 Le bruit attira les habitants des rues voisines.
 Le bruit augmentait avec une violence sensible.
 Le bruit de ces avions est insupportable.
+Le bruit de fond était toujours le même
 Le bruit de l'alarme commence à être loin derrière nous.
 Le bruit de la cloche allait s’affaiblissant.
 Le bruit de la détonation, je crois que je ne l’entendis pas.
@@ -36694,6 +36739,7 @@ Le bruit de la pédale de freins qui tourne à vide.
 Le bruit de l’alarme commence à être loin derrière nous.
 Le bruit discordant des voix et des instruments se rapprochait.
 Le bruit d’une roue sur le quai lui fit dresser le cou.
+Le bruit effrayant de la nuit
 Le bruit se reconnaît entre mille.
 Le bruit sec est sourd, infime, impensable.
 Le brutal monologue de l’huissier cessa pourtant.
@@ -36905,6 +36951,7 @@ Le champ de bataille.
 Le champ de glace s’use par-dessous !
 Le champ de l’Alouette.
 Le chanoine ne sonna mot.
+Le chant des oiseaux souligne l'instant
 Le chant du cygne de leur putain de serment.
 Le chantier commence aujourd'hui
 Le char-à-bancs roula.
@@ -36931,6 +36978,7 @@ Le chasseur fait bonne chasse.
 Le chasseur leva les épaules en signe d’ignorance.
 Le chasseur ne se trompait pas.
 Le chasseur poussait des grognements sourds
+Le chasseur savait chasser
 Le chastel du bonhomme Bruyn Pisan vingt-huit vingt-neuf.
 Le chat c’est l’erratum de la souris.
 Le chat et la souris…
@@ -37124,6 +37172,7 @@ Le conventionnel rouvrit les yeux.
 Le convoi attendu ne paraissait pas.
 Le coquard lui ferme quasiment l’œil gauche, son corps est visiblement meurtri.
 Le coquin est un aveugle ; il ne voit pas Dieu.
+Le corbeau croassait sans cesse
 Le corbillard franchit le seuil du cimetière.
 Le coron des Deux-Cent-Quarante
 Le corps de Drake tomba comme une masse inerte.
@@ -37416,6 +37465,7 @@ Le feu dans ma bouche.
 Le feu de son regard, la passion de son geste, le transfiguraient.
 Le feu des assaillants continuait.
 Le feu est dans la cheminée, dit Gédéon Spilett
+Le feu et l'eau ne se mélangent pas
 Le feu était allumé, et il serait facile de conserver des braises
 Le feu était éteint
 Le feu n’est pas immédiat.
@@ -37486,6 +37536,7 @@ Le frisson prend rien que d’y penser.
 Le froid avait saisi la terre.
 Le froid était un peu plus vif.
 Le froid était vif
+Le froid intense du vide sidéral
 Le froid piquant du matin ranima la jeune femme.
 Le froid sans fond le paralyse.
 Le froid était vif
@@ -38503,6 +38554,7 @@ Le prince Dakkar voyagea dans toute l’Europe
 Le prince Dakkar voyagea dans toute l’Europe.
 Le prince Dakkar, qui n’avait pu mourir, revint dans les montagnes du Bundelkund
 Le prince Dakkar, qui n’avait pu mourir, revint dans les montagnes du Bundelkund.
+Le prince consort sort à cette occasion
 Le prince entraîna son ami vers la fenêtre, le balcon.
 Le prince n’y est point.
 Le principal de nous-mêmes échappe ainsi à la fatalité de la destruction.
@@ -39247,10 +39299,12 @@ Le truc qui te permet d'aller partout.
 Le truc qui t’empêche d’halluciner.
 Le truc tellement narratif que c'est pas possible dans la vraie vie.
 Le truc tellement narratif que c’est pas possible dans la vraie vie.
+Le trésor était enfin à notre portée
 Le tulle de ces rideaux vient de Tournay.
 Le tumulte devient si violent, qu’il est impossible de continuer les plaidoiries.
 Le tumulte en effet croissait autour de Notre-Dame.
 Le tumulte redoublait sur le quai.
+Le tuyau coudé traversait la paroi.
 Le tuyau espion m’est sorti de l’idée.
 Le type a eu l’air de se demander s’il devait continuer.
 Le type de risque assumé par le producteur présente quant à lui différents aspects.
@@ -39320,6 +39374,7 @@ Le vent ne soufflait plus.
 Le vent nous y porte !
 Le vent n’en porterait pas le bruit vers vous.
 Le vent portait alors le Victoria vers le nord-ouest.
+Le vent qui souffle de plus en plus
 Le vent qui s’engouffre quand les portes arrière cèdent.
 Le vent sauta de deux quarts dans le sud et redevint favorable.
 Le vent sautait brusquement à tous les points du compas.
@@ -39353,6 +39408,7 @@ Le verrou même dénoncerait trop bien la vérité.
 Le vertige de cette fuite, le tumulte et la démence des hommes affolaient Omer.
 Le vertige de l’ascension et le vertige de la chute.
 Le véritable voyage commençait.
+Le vicomte de là-bas
 Le vide du cœur ne s’accommode point d’un bouche-trou.
 Le vieil effet à deux balles.
 Le vieillard en souffrait doucement.
@@ -39415,6 +39471,7 @@ Le visage grave de celui qui n’a jamais pété devant un gamin.
 Le visage éclairé par les feux de la forge, Triste Buffle sourit.
 Le visiteur de monsieur Lucien, la camionnette, tu sais ?
 Le voici justement, dit Jean Valjean.
+Le voici qui garde l'ancien hacienda
 Le voici qui marche et qui vient.
 Le voici qui s'engouffre dans la nuit
 Le voici, dit le soldat.
@@ -39816,6 +39873,7 @@ Les chatons se carapatent sans demander leur reste.
 Les chats connaissent ces bons sentiments.
 Les chats sont des noésismographes sur pattes.
 Les chaudières de l’hélice fonctionnent mal.
+Les chaussettes sont sèches
 Les chaussettes sont-elles sèches ?
 Les chemins ne sont pas très bien entretenus.
 Les chevaux brûlèrent le pavé du Roi, escaladèrent les côtes, descendirent les pentes.
@@ -39933,6 +39991,7 @@ Les comprachicos
 Les comprachicos faisaient le commerce des enfants.
 Les comprachicos travaillaient l’homme comme les chinois travaillent l’arbre.
 Les comprachicos, insistons-y, n’avaient rien de commun avec les gypsies.
+Les compteurs digitaux sont souvent rouges
 Les compétences scientifiques et techniques ne sont pas les seules choses qui nous intéressent.
 Les comédiennes qui ont du mal à renouveler leur intermittence.
 Les conduites destinées à l’oxygène étaient déjà posées.
@@ -44475,6 +44534,7 @@ Mais le chien continua d’aboyer avec plus de fureur.
 Mais le ciel devenait de plus en plus menaçant.
 Mais le compartiment pour la noblesse resta vide.
 Mais le coup de queue du requin pouvait l’avoir frappé à mort.
+Mais le coupable se cache bien
 Mais le cours du Yarou-Dzangbo-Tchou ?
 Mais le cratère ne put donner une issue suffisante à ces vapeurs
 Mais le cœur… demanda Cyrus Smith
@@ -44500,6 +44560,7 @@ Mais le littoral du cap ? …
 Mais le major nia l'intelligence du populaire.
 Mais le matin vient…
 Mais le maudit animal filait aussi
+Mais le menu fretin avait échappé
 Mais le moment ne viendrait-il pas
 Mais le monde jase.
 Mais le moyen de procéder autrement ?
@@ -45244,6 +45305,7 @@ Mais voici le jusant qui se fait sentir.
 Mais voici l’aurore, viens dormir.
 Mais voici que le matelot Flaypol pousse un cri.
 Mais voici qui est de la providence.
+Mais voici une imagination débordante
 Mais voilà une ingénieuse hypothèse ! m’écriai-je un peu malgré moi.
 Mais voilà son défaut : elle est neuve.
 Mais voilà trente ans qu’ils manigancent.
@@ -45556,6 +45618,7 @@ Malgré tout, nous sommes arrivés aux voitures.
 Malgré toutes leurs querelles, leurs guerres intestines…
 Malheur à celui qui ne respecterait pas les rituels !
 Malheureusement cette baie forme une rade ouverte qui ne peut être aucunement défendue.
+Malheureusement le raccord céda
 Malheureusement pour lui, je joue pas à la régulière.
 Malheureusement pour moi car je n’avais pas de physique.
 Malheureusement pour moi, j’étais plutôt douée.
@@ -45867,6 +45930,7 @@ Me voici en extase devant une grillade de porc frais !
 Me voici, messieurs, » disait-il.
 Me voilà bien à l'aise pour disposer nos batteries.
 Me voilà comme rassurée.
+Me voilà que la médiathèque et ouverte
 Me voilà tranquille jusqu'à demain trois heures.
 Mendax et parricida, fit le sergent.
 Mener la charrue, lier la gerbe, c’est de la joie.
@@ -45887,6 +45951,7 @@ Merci bien Indra, mais j’ai toujours su m’occuper de mon épouse.
 Merci de me recevoir.
 Merci de vous être déplacée.
 Merci du fond du cœur !
+Merci mais fait vite
 Merci mille fois d’y avoir passé ta fin de matinée.
 Merci pour la tisane.
 Merci pour l’idée, je te tiens au jus.
@@ -52707,10 +52772,12 @@ Oui… par Mrs Kethlen Seymour.
 Oui… quelquefois… il me cherche trop souvent.
 Oui… vous en mangerez… un peu ! …
 Ouiche ! elle ne sait rien de mon tripotage ! reprit La Pouraille.
+Ours mal léché aurait été un surnom plus adapté
 Outils, armes, instruments, habits, ustensiles, livres, rien n’y manque
 Outils, armes, instruments, habits, ustensiles, livres, rien n’y manque !
 Ouverture des pièces jointes.
 Ouvre ! dit Le Cabuc.
+Ouvre la fenêtre en grand.
 Ouvre l’œil ! ouvre l’œil !
 Ouvre tes genoux, coquin !
 Ouvrez au hasard, et lisez-nous le premier verset qui tombera sous vos yeux.
@@ -56645,6 +56712,7 @@ Quant à sa hauteur, Ned Land, malgré sa grande taille, ne put la mesurer.
 Quant à sa hauteur, elle devait dépasser plusieurs lieues.
 Quant à Enguerrand, il est juste en conflit ouvert avec la Marquet…
 Quant à Vérand'a…
+Quant à dire ce qu'il pense à ce moment…
 Quant à l'abbé Mathieu, c'était un lâche.
 Quant à la danseuse étoile elle tomba
 Quant à leur intimer l’ordre de rester sur la dunette, pourquoi ?
@@ -60050,6 +60118,7 @@ Sans se presser, Buteau se fouilla.
 Sans se rendre compte que c’est la conversation qui le pilote.
 Sans ses soldats, le plus grand général ne reste qu’un rêveur.
 Sans sommation, les gardes nous tirent dessus.
+Sans son chien de chasse chasse
 Sans surprise, des chaussettes.
 Sans toi je n'y serais pas arrivé.
 Sans toi je n’y serais pas arrivé.
@@ -60657,6 +60726,7 @@ Seuls, depuis quarante-huit heures, quelques steamers avaient pu y entrer ou en 
 Seyait-il de décourager ces braves gens qui dérouillaient leurs carabines ?
 Sébastopol tenait toujours contre les armées anglo-françaises.
 Séparons-nous le moins que nous pourrons. .
+Sherlock Holmes lui-leme ne l'aurais pas deviné
 Si ! c’est elle !
 Si ! reprit le bourreau, vous le savez bien.
 Si ! si ! dit Falsten, il faut avertir le capitaine !
@@ -60951,6 +61021,7 @@ Si tu dois retenir qu'une seule chose.
 Si tu dois retenir qu’une seule chose, retiens ça : Tout est une histoire.
 Si tu déplaces le classeur mural, tu vois une punaise dans le mur.
 Si tu en veux encore, nous allons recommencer.
+Si tu es pris, prie !
 Si tu es un homme, je suis désolée pour toi.
 Si tu fais comme que je te dis, ça devrait être un bon début.
 Si tu gardes sept sous, nous n’en aurons plus que deux chacun.
@@ -61568,6 +61639,8 @@ Soudain il la jugeait hypocrite.
 Soudain je m’arrêtai.
 Soudain je revins à moi.
 Soudain la Stilla apparut.
+Soudain la cheminée craqua
+Soudain lors d'un écart la spatule du ski droit cassa
 Soudain un bruit intérieur se fit entendre.
 Soudain un éclair illumina l’obscurité
 Soudain un léger mouvement se fit sentir dans la coque.
@@ -61862,6 +61935,7 @@ Sur la base de mon intime conviction, de mon flair ?
 Sur la bordure supérieure, on remarque bien l'armoirie des Colbert.
 Sur la couche nuptiale, il se promettait peu de plaisir voluptueux.
 Sur la crête, s’avançait une troupe d’une vingtaine d’hommes.
+Sur la cuisinière le bouillon était en cours
 Sur la forme, non.
 Sur la gauche, une forêt d’acajous coupait le paysage
 Sur la joue gauche.
@@ -62869,6 +62943,7 @@ Tous les matins, elle lui donna alors des nouvelles de la rue Pirouette.
 Tous les mauvais chevaux se nomment Polignac.
 Tous les mots lui revenaient dans une sorte de chaos.
 Tous les mots qu’elles échangent sont de soi-disant paroles d’amour.
+Tous les moutons étaient présents de même que les vaches
 Tous les ouvriers doivent pointer en arrivant à l'usine.
 Tous les pans les reflètent, à l’exception de ceux au pied du lit.
 Tous les papiers du défunt y sont.
@@ -63960,6 +64035,7 @@ Tu es le vent, Bruine, fougueux et frissonnant.
 Tu es l’empereur des diables ! je me rends.
 Tu es ma fille, je te reconnais.
 Tu es membre inactif
+Tu es mieux placé
 Tu es mis comme un voleur.
 Tu es mon homme.
 Tu es persuadé que je criais ma peur de la mort.
@@ -65260,6 +65336,7 @@ Un mot qui parait beau, doux, noble ou positif.
 Un mot sur la collaboration secrète des éléments
 Un mot sur une page blanche
 Un mot… un signe.
+Un moteur
 Un moulineur ouvrait la porte, le flot des ouvriers sautait des berlines.
 Un mouvement de repli s’était fait vers la salle.
 Un mouvement de terreur parcourut la foule.
@@ -65564,6 +65641,7 @@ Un taxi était garé devant chez la voisine de Weber.
 Un tel coup de fortune lui aurait-il fait perdre la raison ?
 Un tel jeu de mots, y’a que François Pérusse qui peut l’assumer.
 Un temps de touristes.
+Un tempérament calme et paisible qui dénotait
 Un ténor fort joli garçon.
 Un thé délicieux que je ne sers qu'aux gens que j'aime.
 Un thé délicieux que je ne sers qu’aux gens que j’aime.
@@ -65596,6 +65674,7 @@ Un truc entre les deux.
 Un tumulte violent sortait de cette salle.
 Un tunnel sous-marin ! s’écria-t-il, une communication entre les deux mers !
 Un téléphone portable, une camionnette, un site ouèbe, quelques tracts.
+Un uluberlu
 Un vague pressentiment de malheur courait dans les veines du spoliateur.
 Un vaisseau de Star Wars qui a la stabilité du Cquatre.
 Un vaisseau s’est rompu dans sa poitrine…
@@ -65625,6 +65704,7 @@ Un violent coup de poing ébranla la table.
 Un visage impossible qu’on allait voir pour deux sous.
 Un visage que j'ai côtoyé pendant plus de trois ans.
 Un visage que j’ai côtoyé pendant plus de trois ans.
+Un vison qui a une vision
 Un voile d'angoisse passe sur son visage.
 Un voile de velours voletant sur les variations d'un.
 Un voile de velours voletant sur les variations d’un « ouh » voisé.
@@ -66363,6 +66443,7 @@ Une volée, voulez-vous dire ?
 Une vraie histoire aurait eu un vrai début, déjà.
 Une vraie histoire aurait eu un vrai début.
 Une vraie scène de teen-movie.
+Une vrille fut entamée qui s'acheva mortellement
 Une véranda, accessible par-devant et par-derrière, semblait en faire le tour.
 Une vérité universelle qui s'est vérifiée sitôt prononcée.
 Une vérité universelle qui s’est vérifiée sitôt prononcée.
@@ -67057,6 +67138,7 @@ Voilà comment je pense.
 Voilà comment sont nées les maisons.
 Voilà de quoi Orion avait peur.
 Voilà des idées de poète.
+Voilà deux jeunes garçons
 Voilà donc celle avec qui se consumera l'effort de ma vie entière.
 Voilà donc près de trois mois que nous nous préparons.
 Voilà justement la troisième étape du « je peux pas avoir tort », mon pitchoun.
@@ -67070,6 +67152,7 @@ Voilà le dernier grand maître des cérémonies en France.
 Voilà le mot !
 Voilà le nombre de têtes qui se sont pointées au meeting politique.
 Voilà le pourquoi de toutes ses répétitions.
+Voilà le ravitaillement qui arrive
 Voilà le règne du peuple qui commence.
 Voilà les habits rouges !
 Voilà les mots cachés dans le cerveau de la Fée dégouline.
@@ -67157,6 +67240,7 @@ Vois-tu bien, tu es baron comme ma pantoufle !
 Vois-tu ce jeune homme ?
 Vois-tu la danse de ces lucioles venues du monde des pensées ?
 Vois-tu qu’elle accouche aussi, celle-là
+Vois-tu verdoyer le ver de terre ?
 Vois-tu, ces deux tableaux n’y seraient pas sentis.
 Vois-tu, c’est comme si le dab te donnait cent mille francs.
 Vois-tu, c’est un mauvais air qui souffle en ce moment.
@@ -72784,6 +72868,7 @@ soixante-trois
 somptueuse dans son ensemble voiles et vinyle.
 son choix faisant grand sens.
 son contaldots Il se fige.
+son haleine sentait encore une fois l'alcool frelaté
 son mariage avec mademoiselle d’Aubrion ? …
 son meilleur ami est là
 son médicament le dope
@@ -73484,6 +73569,7 @@ y'en a un qui se dégage du lot.
 À ce train-là, il va me vider ma caisse noire, le petit salopiaud.
 À celle des mots qui signent notes et addenda.
 À cette bienveillance qu’ils souhaitaient au monde.
+À cette vitesse ça peut faire du vilain
 À cette époque, il vivait encore à la maison et m’écoutait.
 À ceux qui restent, je veux dire.
 À chacun sa tâche.
@@ -73701,6 +73787,7 @@ y'en a un qui se dégage du lot.
 À vos côtés quoi qu'il arrive.
 À vos côtés quoi qu’il arrive.
 À votre place, je la regarderais.
+À vous voilà ce n'est pas trop tôt
 À vrai dire : moi non plus.
 À vrai dire, il risque même d’y avoir beaucoup de silences.
 À vrai dire, ils sont limite plus supportables que le commun des mortels.

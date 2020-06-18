@@ -19,6 +19,7 @@
 "Ale Mistrz był przebiegły."
 "Ale Mistrz jest już gotów do wagi."
 "Ale akurat w tym czasie przyłapał ich patrol ułanów."
+"Ale bitwa pod Waterloo położyła kres tym wszystkim marzeniom."
 "Ale bolało go i piekło dotkliwie."
 "Ale brzeg jest wyłożony kamieniami i dlatego trudno coś zobaczyć."
 "Ale było to pismo mężczyzny wykształconego."
@@ -66,6 +67,7 @@
 "Ale jest w tem, jeżeli mi pan daruje, że tak powiem, trochę komizmu."
 "Ale jeżeli to nie był pies, to któż to był?"
 "Ale jutro będzie nam już lepiej; jutro staniemy się innymi ludźmi, nieprawdaż kapralu?"
+"Ale konia, konia, konia!"
 "Ale kołysała się bez przerwy."
 "Ale krytyczny moment walki nastąpił."
 "Ale ku mojej niespodziance i radości wszystko było jak najlepiej."
@@ -177,6 +179,7 @@
 "Ale wróćmy do naszej rozmowy."
 "Ale wróćmy do rzeczy."
 "Ale wróćmy się do rzeczy."
+"Ale wybaczy mi pan, pewny jestem tego, że przedsięwezmę niezawodne środki ostrożności."
 "Ale wyczytałem w oczach jego podejrzenie."
 "Ale wyobraź pan sobie, że przegram, wtedy wszystkie moje zamiary pójdą na marne."
 "Ale z przyjemnością wstąpię do pańskiego mieszkania na kilka minut."
@@ -208,6 +211,7 @@
 "Ani jeden ruch, ani jeden dźwięk nie był odpowiedzią naszemu wezwaniu."
 "Ani kropli krwi nie było w jego twarzy."
 "Ani mnie, ani pana nie będzie w aptece."
+"Ani słyszeć o tem nie chciał."
 "Aresztant mrugnął żartobliwie na mego przyjaciela."
 "Artykuł wydał mi się szczególną mieszaniną bystrości i głupoty."
 "Artykuł zaciekawił niezmiernie cały świat naukowy."
@@ -821,6 +825,7 @@
 "Dlatego nie pisali."
 "Dlatego rozkazałem ci, abyś nie brał ze sobą pistoletów."
 "Dlatego spiłowano lufy."
+"Dlatego też zależało mi bardzo na tem, abym wystąpił w stroju cywilnym."
 "Dlatego też, panie, projekt wasz przyjmuję."
 "Dlatego uchylam się zupełnie od tej sprawy."
 "Dlatego usłuchaj rady przyjaciela i idź zaraz."
@@ -1316,6 +1321,7 @@
 "Jakim sposobem wpadłeś w ich ręce?"
 "Jako żona nie przedstawia się świetnie, nawet w jej własnem opowiadaniu."
 "Jakoś wkrótce po jej przyjeździe, spotkałem starego, wychodzącego z naszego folwarku."
+"Jakto, dla Boga, to brzmi głucho, powiedział podnosząc oczy z zadziwieniem."
 "Jaką broń pan wybiera?"
 "Jaką pan sobie życzysz?"
 "Jakże chodziłbyś pan w nim po mieście, nie narażając się na schwytanie?"
@@ -1490,6 +1496,7 @@
 "Jeżeli chcecie, to was znów niezadługo odwiedzę."
 "Jeżeli go zdobędziemy, miasto poddać się musi."
 "Jeżeli nie wyruszy natychmiast, będzie musiał pozostać."
+"Jeżeli oni dadzą ognia, Watsonie, to nie wahaj się i pal do nich."
 "Jeżeli pan go opuści, postrada pan całe stanowisko na zawsze."
 "Jeżeli pan go wsadzi, to i mnie z nim razem."
 "Jeżeli pan kłamiesz, to pożegnaj się z życiem."
@@ -1950,6 +1957,7 @@
 "Mówię prawdziwie i wcale się nie boję, że pan sprawdzi moje słowa."
 "Mówił jeszcze, kiedy zaszło znów coś niezwykłego."
 "Mówił, że jest dziennikarzem."
+"Mówił, że nigdy nie słyszał o takiem towarzystwie."
 "Mówiłaś, że wyjedziesz ze mną."
 "Mówiłem panu, że miałem sklep na Wschodzie, zanim tu przybyłem."
 "Mąż jej wpuścił nieco więcej tlenu."
@@ -2023,6 +2031,7 @@
 "Na smagłej, kościstej jego twarzy malował się niepokój i troska."
 "Na stacji nie mogłem znaleźć powozu i dlatego spóźniłem się."
 "Na stoliku syczała paląca się maszynka naftowa."
+"Na szczęście mój towarzysz Beaumont był wysokim mężczyzną."
 "Na te słowa duma moja zawrzała."
 "Na tej ręce mogły dwie rzeczy zwrócić jej uwagę."
 "Na ten wypadek obmyślałem następujący plan."
@@ -2197,6 +2206,7 @@
 "Nie było jednak żadnych."
 "Nie było już ratunku."
 "Nie było na niej ani podpisu ani nagłówka."
+"Nie było nigdy moim zwyczajem przytwierdzać takim pochwałom, choć byłoby głupiem zaprzeczać im."
 "Nie było odpowiedzi."
 "Nie było serdeczniejszych przyjaciół nad Pawła i Piotra."
 "Nie było sposobu ucieczki z niewidzialnej sieci, jaka ich osnuła."
@@ -2477,6 +2487,7 @@
 "Nigdy chyba, przedtem, ani potem, nie widziałem twarzy ludzkiej, wyrażającej tak bezdenne osłupienie!"
 "Nigdy jeszcze nie widziałem oczu, tak pełnych życia intensywnego, mocnego."
 "Nigdy nie mówiłem żonie jak rzeczy stoją."
+"Nigdy nie poznałem tak szybko człowieka, jak Bartha."
 "Nigdy nie wiadomo, jaki sprawa weźmie obrót."
 "Nigdy nie widział w domu takiej strzelby."
 "Nigdy przedtem nie słyszał o Mistrzu."
@@ -2529,6 +2540,7 @@
 "Nóż upadł na podłogę."
 "O Jezu, Jezu!"
 "O Stachu nie było wieści i na pozór zapomniano o nim nawet."
+"O czem nie marzyliśmy w tych cielęcych latach młodości!"
 "O czem rozprawiali tak wesoło, nie mogłem zrozumieć."
 "O czemuś mnie wrócił do życia?"
 "O czwartej miała być kolumna gotowa do szturmu."
@@ -2759,6 +2771,7 @@
 "Organiścina długo czekała na męża, lecz ten się jakoś nie zjawiał."
 "Orszak zawrócił i wkrótce mała chatka u podnóża skały znikła im z oczu."
 "Osobiście był przekonany, że morderca uciekł przez okno."
+"Osobliwy jego charakter składał się z dwóch natur, które naprzemian się objawiały."
 "Ostatecznie postaramy się uczynić wszystko możliwe, by nie dopuścić do skandalu."
 "Ostatecznie zdecydowałem, że spotkanie to polepszyło nasze położenie."
 "Ostatnie lata upłynęły na troskach i ciężkiej prący, musiał więc sport zupełnie zarzucić."
@@ -3051,6 +3064,7 @@
 "Pomiędzy tymi „innymi” wyróżniał się przystojny, tęgi mężczyzna, siedzący na pięknym, dereszowatym rumaku."
 "Pomysł pański jest świetny, milordzie, ja sam zawiozę was wszystkich do Londynu."
 "Pomyłka w tym wypadku jest niemożliwa."
+"Pomyślałem o zamiłowaniu pomocnika do fotografowania i o ciągłem znikaniu jego w piwnicy."
 "Pomyślałem więc: brom, chloral lub inny środek w tym rodzaju będzie może skuteczny."
 "Pomógł mu drugi pachołek i wnet wyciągnęli na wierzch ciało chłopca."
 "Ponadto potrzebuje pan partnera do trenowania się."
@@ -3219,6 +3233,7 @@
 "Poznałem to po tem, iż słyszałem bardzo blisko ich głosy."
 "Pozostaje nam jedynie polecić dusze nasze Bogu Najwyższemu."
 "Pozostawało mi więc dokładne zastanowienie się nad pierwszą częścią wyprawy."
+"Pozostawało tylko do rozstrzygnięcia, za czem właściciel ich kopał."
 "Pozostawało tylko odlać dzwony."
 "Pozostawały mi jeszcze dwie godziny czasu do działania."
 "Pozostawiam ci rozpatrzenie szczegółów."
@@ -3716,6 +3731,7 @@
 "Spodziewam się zobaczyć pana w towarzystwie jeńca, jutro z rana."
 "Spodziewam się, że nie narazisz się już nigdy na coś podobnego."
 "Spodziewam się, że w przeciągu godziny sprawa się skończy."
+"Spodziewam się, żeś zrobił to, com ci mówił, Jonesie?"
 "Spodziewała się go ciągle, tęskniła, w końcu się i pogniewała."
 "Spoglądaliśmy na siebie w pełnem zdumienia milczeniu."
 "Spoglądałem jeszcze za nim z gorzką zawiścią, gdy wtem ktoś dotknął mego ramienia."
@@ -4095,6 +4111,7 @@
 "Teraz już zdawał sobie sprawę, że wszystko skończone."
 "Teraz już śmierć nawet rozłączyć nas nie będzie mogła."
 "Teraz mam nadzieję, żeś nauczył się trząść ze strachu."
+"Teraz mamy się zastanowić nad tem, jakby najlepiej postąpić z panem."
 "Teraz matka krzyknęła głośno i zarzuciła mi ręce na szyję."
 "Teraz mi pan nie ujdzie, przyprę pana do muru."
 "Teraz może mi pomożecie ulokować cylindry."
@@ -4111,6 +4128,7 @@
 "Teraz ty musisz się do niego zabrać."
 "Teraz widzę wszystko!"
 "Teraz wie już wszystko i postąpiłbym mądrzej, gdybym jej o tem wcześniej powiedział."
+"Teraz wiedziałem, czem mu dojadę."
 "Teraz wiem, że tak nie jest."
 "Teraz wodę z cukrem i wódką zamieszał."
 "Teraz z kolei ja zapytam, prosząc o wyjaśnienie, co to wszystko znaczy?"
@@ -4174,6 +4192,7 @@
 "To nie pańska wina, że nie chodzi o morderstwo."
 "To nie taka flegmatyczna rasa ci Anglicy, jak powszechnie mówią."
 "To nie wytwór wyobraźni!"
+"To niebyłe jaki człowiek ten młody John Clay."
 "To niechybnie plotki złośliwych języków."
 "To nielada sobie człowiek, z którym macie zaszczyt rozmawiać, to ja jestem!"
 "To niezły chłopiec, chociaż kompletny niedołęga w swoim zawodzie."
@@ -4307,6 +4326,7 @@
 "Ty będziesz dla nas taką białą myszką, najdroższa."
 "Ty i podobni tobie byli wrogami Boga i ludzi w tych stronach."
 "Ty sobie znajdziesz raźniejszego kawalera... On jeszcze kiedy oślepnąć może."
+"Ty, jedyny człowiek, który..."
 "Ty, miałabyś na mnie pracować, dla mnie nędzę znosić!"
 "Tydzień będzie we środę..."
 "Tyle naszego co się użyje!..."
@@ -4375,6 +4395,7 @@
 "Ukłoniłem się sztywno, co wskazywało, jak sądzę, jakiego nabrałem o nich przekonania."
 "Umarła rok przedtem, zanim go poznałem."
 "Umarła w tydzień po tem, jak dowiedzieliśmy się o jego śmierci."
+"Umieściłem swój rewolwer z odwiedzionym kurkiem na szczycie skrzyni, za która przycupnąłem."
 "Umieściłem wczoraj tę amebę pod mikroskopem, którego szkiełka zalepiłem hermetycznie."
 "Umysł pozostał świeży, ciało było złamane."
 "Unieruchomimy go, zanim coś przedsięweźmie."
@@ -4523,6 +4544,7 @@
 "W ostatniej chwili jej życia cały Paryż litował się nad nią."
 "W pierwszej chwili sądziłem, iż jestem ugodzony kulą."
 "W pierwszym rzędzie Sowiety starają się wyplenić miłość i przywiązanie między małżonkami."
+"W pierwszym rzędzie było dla mnie jasnem, że nie mogłem powracać."
 "W pięć minut później staliśmy już w zatoce."
 "W pobliżu dogasającego ogniska nie było żywej istoty: mężczyzna, dziewczyna, zwierzęta wszyscy znikli."
 "W pobliżu nie ma żadnych innych mieszkań."
@@ -4651,6 +4673,7 @@
 "Widok ten wprawił mnie początkowo w takie osłupienie, iż skamieniałem prawie."
 "Widok znajomej twarzy jest wielce przyjemnym dla człowieka samotnego śród wielkomiejskiego gwaru Londynu."
 "Widzi pan ten dom?"
+"Widzi pan, że jest to ograniczone tylko na Londyńczyków i dorosłych."
 "Widziałem doskonale, że łzy miała w oczach."
 "Widziałem jej portret."
 "Widziałem oczyma duszy leżącą na podłodze postać z roztrzaskaną głową."
@@ -5005,6 +5028,7 @@
 "Właśnie upłynęła godzina, naznaczona przez czarownika na działanie płynu."
 "Właśnie w tym czasie wydarzył się ten zabawny wypadek."
 "Właśnie wśród tego milczenia smutnego zjawił się on na progu."
+"Właśnie z przed dwóch miesięcy."
 "Włosy mi się najeżyły ze zgrozy."
 "Włosy mi stanęły dębem na głowie."
 "Włosy posiada brunatne z odcieniem kasztanowatym, przechodzącym niemal w złoty u końców."
@@ -5405,10 +5429,15 @@
 "Zły wiatr powiał nad naszą ziemią, wiatr, który nie wróży nic dobrego."
 "i Mrucząc i wyrzekając potoczył się za mną, jak zirytowany, groźny brytan."
 "i oto leżałeś pan jak długi."
+"iż zbliża się chwila ucieczki."
+"powiedział obcy z uszanowaniem."
+"rzekł surowo, to w istocie jest bardzo ważna rzecz."
+"spytał Sherlock Holmes."
 "w takim razie niech się twe życzenie spełni."
 "w takim razie wycofuję swój udział."
 "widzę tu przynajmniej coś podobnego w zapiskach, które sobie poczyniliśmy."
 "więc to dlatego pan zachowywał się tak dziwnie w sygnałowej wieży!"
+"wykrzyknąłem po dwukrotnym przeczytaniu tego niezwykłego anonsu."
 "Ów mściciel, z powodów dotąd mi nieznanych, zabrał obrączkę ślubną zmarłego."
 "Łagodnym głosem zapytał."
 "Łakomym ruchem zgarnął leżące pieniądze i prędko wsunął do kieszeni."
@@ -6510,6 +6539,7 @@ Cienkie nóżki grzęzły w piachu, ledwo je mógł wyciągnąć.
 Ciepłe i jasne promienie słońca zaglądały do niej przez okno.
 Ciepło, nie za gorąco.
 Ciepły wiatr gwizdał między jodłami, które chwiały się i trzeszczały w ciemności.
+Cierpiała nie mogąc dać sobie rady.
 Cieszyłam się bardzo, powróciwszy do rodzinnego domu, odzyskaną wolnością.
 Cieszę się, że od dziecka uczyłem się angielskiego.
 Cieszę się, żem okaleczył tego łotra.
@@ -6562,12 +6592,14 @@ Co się stało?
 Co się tam, do cholery, dzieje?
 Co się to dzieje?
 Co się z nimi stanie?
+Co sądzisz o nowych hulajnogach?
 Co słychać?
 Co słychać? — zapytuje go Zosia.
 Co tam trzy!
 Co teraz będzie?
 Co to jest?
 Co to kurde ma być, chyba sobie żartujesz.
+Co to za czary?
 Co to za rudera wrzasnął mały chłopiec do dziewczynki.
 Co to znaczyło co on powiedział?
 Co tu się stało?
@@ -6999,6 +7031,7 @@ Doktor przechadzał się zamyślony po celi.
 Dokuczamy jej czasem, ale dzielna z niej dziewczyna.
 Dokąd poszły?
 Dokąd potem poszedł?
+Dokąd się wybierasz?
 Dokładnie wiem.
 Dolina Małej Łąki w Tatrach w zimie.
 Dolina była spokoju pełna.
@@ -7868,6 +7901,7 @@ Jaki zręczny.
 Jaki śmieszny chłopak!
 Jakie jest godło na tej chorągwi?
 Jakie masz plany na dziś?
+Jakie są warunki wykorzystania tych zdjęć satelitarnych?
 Jakie to wszystko wspaniałe i piękne!
 Jakieś tam parę tygodni.
 Jakież to wzruszające widowisko!
@@ -8211,6 +8245,7 @@ Jeszcze dziwniejsze nazwy ludzie wymyślają
 Jeszcze jeden powód, dla którego jestem zwykłą dziewczyną.
 Jeszcze na miejsce jednego powieszonego stawało do walki dziesięciu.
 Jeszcze nas nie uczyli.
+Jeszcze nie ruszyliście?
 Jeszcze raz całuje synka i wychodzi.
 Jeszcze raz nas obejrzyj, dziewulinko płochliwa! — szepnął nieśmiało.
 Jeszcze raz od początku… — powtórzył ciszej.
@@ -8354,6 +8389,7 @@ Kiedy zajdzie potrzeba, umiejętność ta przychodzi sama z siebie.
 Kiedyś byłem zapalonym podróżnikiem.
 Kiedyś ludzie mówili gwarą, nie tak jak teraz mówimy.
 Kiedyś oprócz podstawówki i liceum było jeszcze gimnazjum.
+Kiedyś pisałem z rzecznikiem prasowym i to powiedział.
 Kiełbasa i karkówka z grilla.
 Kilka baniek powietrza z płuc.
 Kilka kroków zaledwie dzieliło ich od łuczników majstra Piotra.
@@ -8399,6 +8435,7 @@ Komu w drogę, temu czas.
 Konie i wóz ostawić, a sami precz na złamanie karku!
 Konie powinny dzisiaj wypocząć.
 Koniec dnia szkolnego.
+Koniecznie to zobacz.
 Konstanty lubi pływać.
 Konstelacja Oriona skrywa wiele kwazarów.
 Kontinuum czasoprzestrzenne - czasoprzestrzeń - wymyślił Einstein.
@@ -8519,6 +8556,7 @@ Kupiłam nową muszlę klozetową.
 Kupiłam wczoraj kilka bułek.
 Kupiłem babci bukiet goździków.
 Kupiłem sobie nową konsolę.
+Kupiłem tę piosenkę i mogę ją odtwarzać gdzie chcę.
 Kurczowo zacisnął dłoń na kolbie rewolweru.
 Kurz osiadał na nich.
 Kutasem także zwane, chociaż częściej bywa
@@ -8977,6 +9015,7 @@ Musiał pan czytać, jak polują na foki, na morsy.
 Musiał sprzątnąć i dostał od nas niezłe wymyślanie.
 Musiała czuć dotyk rączki wiolonczeli na policzku.
 Musiała wiedzieć o wszystkim, przewidywać, zapobiegać, rozkazywać.
+Musiałem wyczyścić dane z telefonu.
 Musiało ci całkiem wyschnąć w gardle.
 Musieli chłopcy coś wsypać.
 Musimy to obgadać przy browarze.
@@ -9264,6 +9303,7 @@ Nagle zauważył, że dochodzi siódma, godzina spotkania z Jankiem.
 Nagle zerwał się z posłania i gorączkowo zaczął szukać zapałek.
 Nagle, schwyciwszy zręcznie kutasa do ręki
 Nagroda przyznawana jest jedynie za tytuły przetłumaczone na język polski.
+Nagrywałeś coś na cmentarzu?
 Nagłe jego przyjście na świat nie wywarło na nich głębszego wrażenia.
 Nagłe zmiany nastrojów.
 Najbardziej jednak niepokoiła go ewentualna zmiana konduktorów.
@@ -9495,6 +9535,7 @@ Nie mają twarzy, wyżarła je ciemność.
 Nie mają zdolności organizacyjnych i dlatego nie potrafią organizować rzezi.
 Nie mam Netflixa, jestem na to za biedna.
 Nie mam czasu na twoje wymówki.
+Nie mam jeszcze drona.
 Nie mam miejsca pośród żywych i nie mam miejsca pośród umarłych…
 Nie mam mowy!
 Nie mam nic przeciwko.
@@ -9554,6 +9595,7 @@ Nie nazywali nigdy po imieniu tego, co było między nimi.
 Nie nazywali tego przyjaźnią, nie nazywali tego wcale.
 Nie no, panowie, ale wyjaśnijmy jedną rzecz od początku.
 Nie no, znowu reklamy!
+Nie oczekiwałbym odpowiedzi dzisiaj.
 Nie od razu postanowiliśmy.
 Nie odpowiadała czas dłuższy, utkwiwszy przerażone oczy w drzwi.
 Nie odpowiadała.
@@ -9866,6 +9908,7 @@ No racja, komu by się chciało nagrywać tyle zdań?
 No to po kiego to robiliśmy?
 No to zaraz cię oprawię. Wiesz z kim tańczysz?
 No widać można.
+No więc...
 No właśnie nie wiem.
 No — gospodarz, właściciel tej zagrody.
 No, a co było dalej, to wcale nieciekawe…
@@ -11040,6 +11083,7 @@ Przerzucał karty i odczytywał urywki.
 Przerzuciłam się na bambusowe szczoteczki do zębów.
 Przespałeś bez mała całą dobę, młody smyku — brzmiało powitanie.
 Przestań się mazać.
+Przestań tak ostro skręcać, aż żygać mi się chce!
 Przestraszył się tego, co powiedział; przestraszył się i spocił.
 Przestraszyła ją myśl zamieszkania przez kilka tygodni w namiocie.
 Przesyceni gwarem i krzykiem zeszliśmy do łodzi.
@@ -11049,6 +11093,7 @@ Przeszli szybko na „ty”.
 Przeszła mimo jak symbol cierpienia i śmieszności splecionych w tragiczny węzeł.
 Przeszła więc przez chodnik i stanęła na stopniu wiodącym do sklepu.
 Przeszło, minęło — myślmy o chwili obecnej.
+Przetarg zostanie dziś rozstrzygnięty.
 Przeważa członek.
 Przeważają wśród nich ludzie miejscowi.
 Przeważnie jednak były one zamieszkałe przez niezawisłe pokolenia Arabo-Murzynów.
@@ -12224,6 +12269,7 @@ Twoje myśli niepotrzebnie się będą koło tego plątać.
 Twój i mój tatuś, którzy znali doskonale Smaina, nie mieli wcale do niego zaufania.
 Twój ojciec jednak pozostał nieubłagany.
 Twój ojciec zaprosił mnie na kolację.
+Twój syn niemoże stać w szeregu ciemiężycieli.
 Ty jesteś Narcyzem, ja też.
 Ty jesteś nerwowy.
 Ty mnie do tego zmusiłaś.
@@ -12307,6 +12353,7 @@ Ubrał się i wybiegł.
 Ucho prezesa. To było dosyć śmieszne.
 Uchowaj Boże od takiej niedoli! — wtrącił z zadumą jednoręki i westchnął na wszelki przypadek.
 Ucichł też szmer głosów, poszczególne nawoływania brzmiały niemal pokornie.
+Uciec z tego wygnania!
 Ucieczka prędzej czy później musi się wykryć.
 Ucieka przed tym duszącym dymem, wciąż kichając.
 Uciekaj.
@@ -12601,6 +12648,7 @@ W tym strasznym miejscu nie będzie mogła oka zmrużyć i zachoruje z pewności
 W tym tkwi gra polityczna.
 W tym właśnie sęk! — zawołał Podlasiak, wstydliwie obmacując wybitną pozostałość.
 W tysiąc dziewięcset siedemdziesiątym roku wieżowiec zaprojektował łódzki architekt Aleksander Zwierko.
+W tę czy wew tę, mi to wisi.
 W uszach dzwoniła wciąż na alarm krew.
 W weekend majowy pojechałem w góry.
 W wolnym czasie uwielbiam chodzić z przyjaciółmi na spacery.
@@ -13646,6 +13694,7 @@ Zupełnie, jak gdyby jakiś czarodziej wdawał się w tę sprawę.
 Zupę zjedz, talerz gorącej, pomidorowa, przynajmniej dobra.
 Zużyliśmy osiemdziesiąt naboi, rozdzieliliśmy po połowie moją miesięczną rację żywności.
 Zwariowany chodził za psami na ulicy, całował je i lizał.
+Zwiać!
 Zwie go smokiem lub bucem, i rzecz oczywista
 Zwierzę laboratoryjne zakażone śmiertelnym wirusem.
 Zwierzę, któremu utkwiła strzała w grzbiecie; tarza się, biega, ryczy, pluje, krew zalewa.
