@@ -2,7 +2,7 @@
 
 yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
 stayintouch = 喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。
-privacy-info = 我哋保證會小心處理您嘅資訊。如果要了解更多，請閲讀我們嘅<privacyLink>私隱權公告</privacyLink>。
+privacy-info = 我哋保證會小心處理你嘅資訊。如果要瞭解更多，請閲讀我哋嘅<privacyLink>私隱權公告</privacyLink>。
 return-to-cv = 返回 Common Voice
 email-input =
     .label = 電郵
@@ -716,7 +716,7 @@ todays-recorded-progress = 今日 Common Voice 錄音片段的進度
 todays-validated-progress = 今日 Common Voice 驗證片段的進度
 stats = 統計
 awards = 獎勵
-you = 您
+you = 你
 everyone = 所有人
 contribution-activity = 貢獻記錄
 top-contributors = 貢獻者排行榜
