@@ -241,6 +241,8 @@ const getDatasetsComponents = (): PageContentType => {
       valid: stats.totalValidHrs,
       languages,
     };
+    const [showDetails, toggleDetails] = React.useState(false);
+
     return (
       <div id="demo-datasets-content-container">
         <div className="grey-bg">
@@ -249,15 +251,24 @@ const getDatasetsComponents = (): PageContentType => {
               <h1 id="demo-datasets--download__header" />
             </Localized>
             <div className="demo-datasets--download--box">
-              <Localized id="demo-datasets-building">
+              <Localized id="datasets-headline">
                 <h1 id="demo-datasets--download--box__header" />
               </Localized>
               <Localized id="demo-datasets-body">
                 <p id="demo-datasets-body--box__body" />
               </Localized>
               <Localized id="demo-datasets-box-link">
-                {/*TODO: set href for this*/}
-                <a id="demo-datasets-body--box__link" href="#" />
+                <button
+                  id="demo-datasets-body--box__link"
+                  className={!showDetails ? '' : 'hide'}
+                  onClick={() => toggleDetails(true)}
+                />
+              </Localized>
+              <Localized id="datasets-positioning">
+                <p
+                  id="datasets-positioning"
+                  className={showDetails ? '' : 'hide'}
+                />
               </Localized>
             </div>
           </div>
