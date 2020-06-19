@@ -341,6 +341,7 @@ recording-voice-wave = Записване
 delete-voice-clip = или Изтриване на глас
 ready-to-upload = КАЧВАНЕ
 avatar-clip-fact = Известен факт е, че вниманието на четящия се привлича повече от оформлението на страницата, от колкото от съдържанието ѝ.
+recreate-voice = Създайте гласовата вълна наново
 cancel-avatar-clip-recording = Отказ
 about-avatar-clip-recording = Запишете гласа в профила си. Другите ще могат да го чуят.
 browse-file-title = Качване на изображение
@@ -648,6 +649,8 @@ record-button-label = Запишете гласа си
 share-title-new = <bold>Помогнете</bold> да намерим още гласове
 keep-track-profile = Следете напредъка си като създадете профил
 login-to-get-started = За да започнете се впишете или се регистрирайте
+target-segment-add-voice = Добавете своя глас
+target-segment-learn-more = Научете повече
 
 ## Reporting
 
