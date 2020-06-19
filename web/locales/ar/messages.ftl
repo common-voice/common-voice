@@ -641,6 +641,7 @@ record-again-instruction2 = تابِع هكذا، سجّل ثانيةً <recordI
 record-last-instruction = <recordIcon></recordIcon> آخر جملة!
 review-tooltip = راجِع وأعِد تسجيل المقاطع وأنت تساهم
 share-clip = شارِك المقطع
+share-common-voice = شارِك «الصوت للعموم»
 review-instruction = راجِع وأعِد تسجيل المقاطع إن لزم الأمر
 record-submit-tooltip = { $actionType } ”أرسِل“ ما إن تنتهي
 clips-uploaded = رُفعت المقاطع
@@ -754,9 +755,13 @@ set-a-goal = ضع هدفًا
 how-many-per-day = جميل! كم مقطعًا في اليوم؟
 how-many-a-week = جميل! كم مقطعًا في الأسبوع؟
 which-goal-type = أتريد التحدّث أم الاستماع أم كلاهما معًا؟
+receiving-emails-info = اخترت أن تستلم البريد مثل التذكير بالأهداف والتحديثات عن مسيري وأخبار «الصوت للعموم»
+not-receiving-emails-info = اخترت <bold>ألّا</bold> تستلم البريد مثل التذكير بالأهداف والتحديثات عن مسيري وأخبار «الصوت للعموم»
 help-share-goal = ساعدنا لنجد أصواتًا أكثر. شارِك هدفك
 confirm-goal = هذا هدفي
 share-goal-type-both = التحدث والاستماع
+# LINK will be replaced with the current URL
+goal-share-text = أنشأت هدفًا شخصيًا لأساهم بصوتي في #CommonVoice. تعالوا معي ولنعلّم الآلات الكيفية التي ينطق بها بني البشر من شحم ولحم { $link }
 weekly-goal-created = أُنشئ الهدف الأسبوعي
 daily-goal-created = أُنشئ الهدف اليومي
 track-progress = راقِب مسيرك من هنا ومن صفحة الإحصاءات.
@@ -780,3 +785,4 @@ profile-form-delete = احذف الملف الشخصي
 
 login-company = لِج أو سجّل حسابًا ببريد { $company }
 profile-not-required = امتلاكك لملف شخصي ليس مطلوبا لتشارك معنا، إلا أن وجوده مفيد
+read-more-about = اطّلع على المزيد من صفحة ”من نحن“
