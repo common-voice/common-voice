@@ -474,7 +474,12 @@ about-nav-why-common-voice = لماذا؟
 about-nav-how-it-works = كيف؟
 about-nav-partners = الشركاء
 about-nav-get-involved = ساهِم معنا
+mycroft-title = ماي‌كرافت إي‌آي
 mycroft-subtitle = الذكاء الاصطناعي
+mycroft-description =
+    يُعدّ «ماي‌كرافت إي‌آي» أوّل مساعد مفتوح المصدر في العالم.
+    يعمل «ماي‌كرافت» في أيّ مكان، الحواسيب المكتبية، والسيارات و«راسبيري پاي».
+mycroft-secondary-description = هذه برمجية مفتوحة المصدر يمكنك إعادة توزيعها وتوسيعها وتحسينها كما تريد. يمكن استعمال «ماي‌كرافت إي‌آي» في أيّ شيء كان مشروعًا علميًا أو تطبيق برمجيات للشركات.
 
 ## Glossary
 
