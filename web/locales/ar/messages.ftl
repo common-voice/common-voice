@@ -92,9 +92,11 @@ lt = الليتوانيّة
 lv = اللاتفيّة
 mdf = الموكشا
 mg = المالاغاسيّة
+mhr = الميادو ماري
 mk = المقدونيّة
 ml = الملايلاميّة
 mn = المنغوليّة
+mrj = الهِل ماري
 mt = المالطيّة
 my = البورميّة
 myv = الأرزيّة
@@ -360,6 +362,7 @@ delete-voice-clip = أو احذف المقطع الصوتي
 ready-to-upload = ارفع
 avatar-clip-fact = ثَبُت بالحقائق أنّ انتباه القارئ (بينما يقرأ المحتوى النصّي للصفحة) يتشتّت ما إن ينظر إلى تصميمها.
 cancel-avatar-clip-recording = ألغِ
+about-avatar-clip-recording = اصنع مقطعًا صوتيًا ليكون جزءًا من صورتك الرمزية. يمكن للغير وضع المؤشر على الصورة والاستماع إلى المقطع.
 browse-file-title = ارفع ملف صورة
 browse-file = اسحب وأفلِت أو <browseWrap>تصفّح</browseWrap>
 connect-gravatar = اشبك عبر ”غرافاتار“
@@ -455,6 +458,11 @@ about-partnership =
     
     نودّ تقديم خالص شكرنا لمن ساعدنا في هذا المشروع أشخاصًا كانوا أو منظّمات:
 about-get-involved = ساهِم معنا
+about-get-involved-text-2 =
+    إذًا تريد أن يصير «الصوت للعموم» أفضل مما هو عليه أصلًا؟
+    جميل! راسِلنا عبر البريد أو على منتديات <discourseLink>دِسكورس</discourseLink>،
+    أو أرسِل المشكلات بالموقع على <githubLink>غِت‌هَب</githubLink>،
+    أو انضمّ معنا في المحادثة المجتمعية على <slackLink>ماترِكس</slackLink>.
 about-nav-why-common-voice = لماذا؟
 about-nav-how-it-works = كيف؟
 about-nav-partners = الشركاء
@@ -680,6 +688,9 @@ report-difficult-pronounce = نطقها صعب
 report-difficult-pronounce-detail = تحتوي الجملة على كلمات أو عبارات يصعب قراءتها أو نطقها.
 report-offensive-speech = كلام هجومي
 report-offensive-speech-detail = يحتوي المقطع على لغة مهينة أو مسيئة.
+report-other-comment =
+    .placeholder = التعليق
+success = تمّ
 continue = واصِل
 report-success = أُرسل البلاغ بنجاح
 
@@ -722,6 +733,7 @@ clips-you-validated = المقاطع التي دقّقتها
 todays-recorded-progress = سير العمل على المقاطع المسجّلة في «الصوت للعموم» اليوم
 todays-validated-progress = سير العمل على المقاطع المدقّقة في «الصوت للعموم» اليوم
 stats = إحصائيات
+awards = الجوائز
 you = أنت
 everyone = الجميع
 contribution-activity = نشاط المساهمة
@@ -731,6 +743,8 @@ validated-clips = المقاطع المدقّقة
 total-approved = إجمالي الموافق عليه
 overall-accuracy = إجمالي الدقّة
 set-visibility = أريد ضبط ظهوري هنا
+visibility-explainer = يضبط هذا الإعداد ظهورك في لوحة المتصدرين. متى أخفيت نفسك سيبقى مسيرك خاصًا بك. يعني هذا بأن صورتك واسم المستخدم ومسيرك في الموقع لن تظهر كلها في لوحة المتصدرين. ضع في علمك أن إنعاش لوحة المتصدرين يأخذ حوالي { $minutes } قبل إجراء التغييرات.
+visibility-overlay-note = لاحظ أنّه حين تضع نفسك ”ظاهرًا“ يمكنك تغيير الإعداد من <profileLink>صفحة الملف الشخصي</profileLink>
 show-ranking = اعرض رتبتي
 
 ## Custom Goals
@@ -745,6 +759,7 @@ easy-difficulty = سهل
 average-difficulty = متوسط
 difficult-difficulty = صعب
 pro-difficulty = محترف
+lose-goal-progress-warning = تعديلك للهدف يعني فقد المسير الحالي.
 want-to-continue = أتريد المواصلة؟
 finish-editing = ألن تُنهي التعديل أولًا؟
 lose-changes-warning = إن غادرت الآن فستفقد ما عدّلته
