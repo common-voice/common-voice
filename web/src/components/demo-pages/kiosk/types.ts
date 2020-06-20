@@ -7,6 +7,4 @@ export interface PageContentType {
 
 export interface DownloadFormProps extends DatasetPropsFromState {
   getString: Function;
-  size: string;
-  bundleLocale: string;
 }
