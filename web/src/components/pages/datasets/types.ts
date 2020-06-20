@@ -2,8 +2,6 @@ import { UserClient } from 'common';
 import API from '../../../services/api';
 import { Notifications } from '../../../stores/notifications';
 import StateTree from '../../../stores/tree';
-import { LocalePropsFromState } from '../../locale-helpers';
-import { WithLocalizationProps } from '@fluent/react';
 
 //Datasets-info interfaces
 export interface DatasetPropsFromState {
@@ -22,7 +20,9 @@ export interface SubscribePropsFromDispatch {
 
 export interface SubscribeProps
   extends SubscribePropsFromState,
-    SubscribePropsFromDispatch {}
+    SubscribePropsFromDispatch {
+  demoMode?: boolean;
+}
 
 export function SubscribeMapStateToProps({ api, user }: StateTree) {
   return {

@@ -13,6 +13,7 @@ import {
   SubscribeProps,
 } from './types';
 import './subscribe.css';
+import { Link } from 'react-router-dom';
 
 interface State {
   email: string;
@@ -55,7 +56,7 @@ class Subscribe extends React.Component<SubscribeProps, State> {
   };
 
   render() {
-    const { account } = this.props;
+    const { account, demoMode } = this.props;
     const { submitStatus } = this.state;
     const isEditable = submitStatus == null;
     const email = account ? account.email : this.state.email;
@@ -72,13 +73,14 @@ class Subscribe extends React.Component<SubscribeProps, State> {
           <h2 />
         </Localized>
         <div>
-          <form onSubmit={this.handleSubmit}>
+          <form onSubmit={this.handleSubmit} id="subscribe-form">
             <Localized id="email-input" attrs={{ label: true }}>
               <LabeledInput
                 value={email}
                 onChange={this.handleEmailChange}
                 disabled={!isEditable || account}
                 type="email"
+                required
                 ref={this.emailInputRef}
               />
             </Localized>
@@ -92,10 +94,12 @@ class Subscribe extends React.Component<SubscribeProps, State> {
                 !emailInput ||
                 !emailInput.checkValidity()
               }>
-              <Localized id="subscribe">
-                <span className="hidden-md-down" />
-              </Localized>
-              <ArrowLeft className="hidden-lg-up" />
+              {!demoMode && (
+                <Localized id="subscribe">
+                  <span className="hidden-md-down" />
+                </Localized>
+              )}
+              <ArrowLeft className={demoMode ? '' : 'hidden-lg-up'} />
             </Button>
           </form>
           <LabeledCheckbox
