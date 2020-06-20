@@ -824,5 +824,4 @@ demo-language-select-card-button = Next
 demo-language-select-label = Browse Languages
 demo-eofy-header = 2019 End-of-Year Release
 demo-eofy-sub_header = Voice Dataset, Ready for Download
-demo-subscribe = Want updates when we release a new version of the Common Voice dataset?
 demo-account = Account
