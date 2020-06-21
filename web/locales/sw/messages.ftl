@@ -178,6 +178,7 @@ improve-audio = Maelezo ya wasifu yanaboresha data ya sauti inayotumika katika m
 keep-track = Fuatilia maendeleo na vipimo vyako kwa lugha nyingi tofauti.
 compare-progress = Linganisha maendeleo yako dhidi ya maendeleo ya wachangiaji wengine ulimwenguni kote.
 view-goals = Linganisha maendeleo yako dhidi ya  malengo ya kibinafsi na ya mradi.
+join-newsletter = Kwa hiari yako, jisajili kwenye orodha yetu ya baruapepe ili kupata visasisho na habari mpya kuhusu mradi huu
 
 ## What's public
 
@@ -255,6 +256,8 @@ female = mwanamke
 # Gender
 other = mengineyo
 why-profile-title = Kwa niniu kupeana wasifu?
+dashboard = Dashibodi
+build-profile = Kuza wasifu
 goals = malengo
 settings = Mipangilio
 edit-profile = Fanya mabadiliko kwenye wasifu.
