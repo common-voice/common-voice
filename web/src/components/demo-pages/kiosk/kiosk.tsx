@@ -60,7 +60,7 @@ const BottomRightPane = () => {
               </Link>
             </li>
             <li>
-              <Link to={toLocaleRoute(urls.DEMO)}>
+              <Link to={toLocaleRoute(urls.DEMO_ACCOUNT)}>
                 <UserIcon />
                 <Localized id="demo-account">
                   <span />
