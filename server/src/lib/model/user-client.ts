@@ -68,15 +68,33 @@ async function updateLocales(
 async function updateDemographics(
   clientId: string,
   age?: string,
-  gender?: string
+  sex?: string
 ) {
+  const [[{ id: ageId }]] = await db.query(
+    `
+    SELECT id
+      FROM ages
+      WHERE age = ?
+  `,
+    [age]
+  );
+
+  const [[{ id: sexId }]] = await db.query(
+    `
+    SELECT id
+      FROM sexes
+      WHERE sex = ?
+  `,
+    [sex]
+  );
+
   await db.query(
     `
-    INSERT INTO demographics (client_id, age, gender) VALUES (?, ?, ?)
+    INSERT INTO demographics (client_id, age_id, sex_id) VALUES (?, ?, ?)
       ON DUPLICATE KEY UPDATE
       updated_at = now()
   `,
-    [clientId, age, gender]
+    [clientId, ageId, sexId]
   );
 
   const [[{ id: demographicId }]] = await db.query(
@@ -110,12 +128,14 @@ const UserClient = {
   }) {
     const [rows] = await db.query(
       `
-        SELECT u.*, accents.accent, locales.name AS locale, demographics.age, demographics.gender
+        SELECT u.*, accents.accent, locales.name AS locale, ages.age, sexes.sex
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
         LEFT JOIN user_client_demographics on u.client_id = user_client_demographics.client_id
         LEFT JOIN demographics on user_client_demographics.demographic_id = demographics.id
+        LEFT JOIN ages on demographics.age_id = ages.id
+        LEFT JOIN sexes on demographics.sex_id = sexes.id
         WHERE (u.client_id = ? OR email = ?) AND !has_login
       `,
       [client_id || null, email || null]
@@ -124,7 +144,7 @@ const UserClient = {
       rows.reduce((obj: { [client_id: string]: any }, row: any) => {
         const client = obj[row.client_id];
         obj[row.client_id] = {
-          ...pick(row, 'client_id', 'accent', 'age', 'gender'),
+          ...pick(row, 'client_id', 'accent', 'age', 'sex'),
           locales: (client ? client.locales : []).concat(
             row.accent ? { accent: row.accent, locale: row.locale } : []
           ),
@@ -141,8 +161,8 @@ const UserClient = {
           u.*,
           accents.accent,
           locales.name AS locale,
-          demographics.age,
-          demographics.gender,
+          ages.age,
+          sexes.sex,
           (SELECT COUNT(*) FROM clips WHERE u.client_id = clips.client_id) AS clips_count,
           (SELECT COUNT(*) FROM votes WHERE u.client_id = votes.client_id) AS votes_count,
           t.team,
@@ -155,6 +175,8 @@ const UserClient = {
         LEFT JOIN locales ON accents.locale_id = locales.id
         LEFT JOIN user_client_demographics on u.client_id = user_client_demographics.client_id
         LEFT JOIN demographics on user_client_demographics.demographic_id = demographics.id
+        LEFT JOIN ages on demographics.age_id = ages.id
+        LEFT JOIN sexes on demographics.sex_id = sexes.id
         LEFT JOIN (
           SELECT enroll.client_id, enroll.url_token as invite, teams.url_token AS team, challenges.url_token AS challenge
           FROM enroll
@@ -181,7 +203,7 @@ const UserClient = {
               'accent',
               'age',
               'email',
-              'gender',
+              'sex',
               'username',
               'basket_token',
               'skip_submission_feedback',
@@ -243,7 +265,7 @@ const UserClient = {
       [accountClientId]
     );
 
-    updateDemographics(client_id, data.age, data.gender);
+    updateDemographics(client_id, data.age, data.sex);
 
     await Promise.all([
       this.claimContributions(accountClientId, clientIds),
@@ -274,7 +296,7 @@ const UserClient = {
     return UserClient.findAccount(email);
   },
 
-  async save({ client_id, email, age, gender }: any): Promise<boolean> {
+  async save({ client_id, email, age, sex }: any): Promise<boolean> {
     const [
       [row],
     ] = await db.query(
@@ -300,7 +322,7 @@ const UserClient = {
       );
     }
 
-    updateDemographics(client_id, age, gender);
+    updateDemographics(client_id, age, sex);
   },
 
   async updateBasketToken(email: string, basketToken: string) {
