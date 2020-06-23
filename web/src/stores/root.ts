@@ -111,7 +111,7 @@ const fieldTrackers: any = {
   username: trackProfile.bind(null, 'give-username'),
   accent: trackProfile.bind(null, 'give-accent'),
   age: trackProfile.bind(null, 'give-age'),
-  gender: trackProfile.bind(null, 'give-gender'),
+  sex: trackProfile.bind(null, 'give-sex'),
 };
 
 declare const ga: any;

@@ -68,25 +68,18 @@ function ProfilePage({
     username: string;
     visible: number | string;
     age: string;
-    gender: string;
+    sex: string;
     sendEmails: boolean;
     privacyAgreed: boolean;
   }>({
     username: '',
     visible: 0,
     age: '',
-    gender: '',
+    sex: '',
     sendEmails: false,
     privacyAgreed: false,
   });
-  const {
-    username,
-    visible,
-    age,
-    gender,
-    sendEmails,
-    privacyAgreed,
-  } = userFields;
+  const { username, visible, age, sex, sendEmails, privacyAgreed } = userFields;
   const [locales, setLocales] = useState<Locales>([]);
   const [isInitialized, setIsInitialized] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
@@ -112,12 +105,12 @@ function ProfilePage({
       ...userFields,
       sendEmails: !!account?.basket_token,
       visible: 0,
-      ...pick(user, 'age', 'username', 'gender'),
+      ...pick(user, 'age', 'username', 'sex'),
       ...(account
-        ? pick(account, 'age', 'username', 'gender', 'visible')
+        ? pick(account, 'age', 'username', 'sex', 'visible')
         : {
             age: userClients.reduce((init, u) => u.age || init, ''),
-            gender: userClients.reduce((init, u) => u.gender || init, ''),
+            sex: userClients.reduce((init, u) => u.sex || init, ''),
           }),
       privacyAgreed: Boolean(account) || user.privacyAgreed,
     });
@@ -159,7 +152,7 @@ function ProfilePage({
     setTermsStatus('agreed');
 
     const data = {
-      ...pick(userFields, 'username', 'age', 'gender'),
+      ...pick(userFields, 'username', 'age', 'sex'),
       locales: locales.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
@@ -263,8 +256,8 @@ function ProfilePage({
           </LabeledSelect>
         </Localized>
 
-        <Localized id="profile-form-gender" attrs={{ label: true }}>
-          <LabeledSelect value={gender} onChange={handleChangeFor('gender')}>
+        <Localized id="profile-form-sex" attrs={{ label: true }}>
+          <LabeledSelect value={sex} onChange={handleChangeFor('sex')}>
             <Options>{SEXES}</Options>
           </LabeledSelect>
         </Localized>
@@ -375,7 +368,9 @@ function ProfilePage({
                         </Localized>
                         <Localized
                           id="accept-privacy"
-                          elems={{privacyLink: <LocaleLink to={URLS.PRIVACY} blank />}}>
+                          elems={{
+                            privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                          }}>
                           <span />
                         </Localized>
                       </>
