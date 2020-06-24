@@ -27,7 +27,7 @@ html {
     width: 32.875rem;
     background: #ffffff;
     box-shadow: 0px 1.5rem 3.375rem rgba(0, 0, 0, 0.05);
-    margin-left: 3%;
+    margin-inline-start: 3%;
     border-radius: var(--kiosk-card-border-radius);
     z-index: var(--top-z-index);
 }
@@ -105,8 +105,8 @@ html {
 
 #kiosk-card--bottom {
     display: flex;
-    justify-content: space-evenly;
-    padding: 1.875rem 0;
+    justify-content: space-around;
+    padding: 1.875rem 2rem;
     background-color: var(--desert-storm);
     border-bottom-left-radius: var(--kiosk-card-border-radius);
     border-bottom-right-radius: var(--kiosk-card-border-radius);
@@ -116,6 +116,12 @@ html {
         background: var(--white);
         color: var(--black);
         border-color: var(--grey);
+    }
+
+    &:dir('rtl') {
+        svg {
+            rotate: -180deg;
+        }
     }
 }
 
@@ -217,7 +223,7 @@ html {
             display: flex;
         }
         span {
-            margin-left: 0.5rem;
+            margin-inline-start: 0.5rem;
         }
         &:last-child {
             border: none;

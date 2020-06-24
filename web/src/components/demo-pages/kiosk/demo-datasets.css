@@ -13,8 +13,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    left: var(--right-section-left-value);
-    padding-left: var(--right-section-align-padding);
+    inset-block-start: var(--right-section-left-value);
     width: 100%;
 }
 
@@ -76,15 +75,17 @@
     margin: 5.5rem 0 2rem;
     font-size: var(--font-size-xxl);
     font-weight: normal;
-    text-align: left;
-    padding-right: 30%;
-    padding-left: var(--right-section-align-padding);
+    text-align: start;
+    padding-inline-end: 30%;
+    padding-inline-start: var(--right-section-align-padding);
     color: var(--black);
 }
 
 .demo-datasets--download__sub {
     max-width: 21rem;
     padding: 0 0 4.5rem var(--right-section-align-padding);
+    padding-inline-start: var(--right-section-align-padding);
+    padding-inline-end: 0;
 
     #download-email,
     .labeled-checkbox {
@@ -134,8 +135,8 @@
 }
 
 .demo-datasets--eofyr {
-    margin-left: var(--right-section-align-padding);
-    padding-left: var(--right-section-align-padding);
+    /* margin-inline-start: var(--right-section-align-padding); */
+    padding-inline: var(--right-section-align-padding);
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -173,7 +174,7 @@
         background-size: cover;
         padding: 4.375rem calc(var(--right-section-align-padding) - 3.75rem);
         margin-bottom: 3.75rem;
-        margin-left: 3.75rem;
+        margin-inline-start: 3.75rem;
         flex-direction: column;
         align-items: start;
 
@@ -182,9 +183,6 @@
         }
     }
 
-    #demo-dataset--subscribe__form {
-        color: white;
-    }
     #subscribe-form {
         margin: 2rem auto;
         width: 100%;
@@ -208,6 +206,10 @@
                 path {
                     fill: white;
                 }
+            }
+
+            &:dir('rtl') svg {
+                rotate: -180deg;
             }
         }
     }
@@ -239,7 +241,7 @@
         font-size: var(--font-size);
         text-decoration: underline;
         cursor: pointer;
-        margin-left: 1.5rem;
+        margin-inline-start: 1.5rem;
     }
 
     #demo-subscribe__header {
