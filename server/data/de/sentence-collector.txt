@@ -228,6 +228,7 @@ Aber mit so schwitzigen Händen hast du da oben keinen Halt.
 Aber muss sie den Vortrag denn unbedingt künstlich in die Länge ziehen?
 Aber na ja, ein paar Monate halten die noch.
 Aber naja, ist ja nicht unser Bier.
+Aber natürlich!
 Aber natürlich, dies wird mir per Grundgesetz zugestanden.
 Aber netter Versuch!
 Aber neunundneunzig Komma neun Prozent aller Kunden wollen vor allem eins.
@@ -1801,6 +1802,7 @@ Ballonfahrten in Grenznähe sind immer etwas heikel.
 Ballonstarts in der Einflugschneise sind ungefähr so sinnvoll wie ein Zebrastreifen auf der Autobahn.
 Bananenschalen und so weiter gehören hingegen in die Biotonne.
 Bananensoftware reift beim Kunden.
+Barcode der Fahrkarte nicht erkannt.
 Barfuß betritt der Moslem seinen Gebetsteppich.
 Bargeld ist ein Stück Unabhängigkeit von Banken, das man anfassen kann.
 Bartsch hatte die Kompanie gewarnt.
@@ -1841,6 +1843,7 @@ Begrapschen geht gar nicht.
 Begrenzte Mittel sind manchmal das Einzige, was Menschen zur Vernunft zwingt.
 Behalten Sie Winkler im Blick.
 Behandeltes Holz sollte nicht im Kamin verbrannt werden.
+Beherrschen Sie weitere Sprachen?
 Beherrscht dein Programm auch nichtdestruktive Bildbearbeitung?
 Beherrscht der Editor auch automatische Silbentrennung?
 Behäbig setzt sich das Gefährt in Gang.
@@ -3689,6 +3692,7 @@ Das Verfahren birgt einen inhärenten Nichtdeterminismus.
 Das Verfahren tötet potenzielle Keime ab, erhält aber den Geschmack.
 Das Vergnügen ist ganz meinerseits.
 Das Verhalten ändert sich halt mit, weil man immer denkt.
+Das Video ging viral im Internet.
 Das Vier-Augen-Prinzip soll Missbrauch verhindern.
 Das Viertel erfuhr eine für die Industrialisierung typische Stadtentwicklung.
 Das Volk blickt auf zum Firmament.
@@ -4189,6 +4193,7 @@ Das müssen alle Spieler gleichzeitig machen.
 Das müssen wir jetzt nicht alles an der Tafel durchexerzieren.
 Das nehme ich natürlich nicht an.
 Das nenne ich eine effektive Chancenauswertung!
+Das nennt man Drehtüreffekt.
 Das nennt man Schönheitsschlaf.
 Das nennt man eine selbsterfüllende Prophezeiung.
 Das nennt man wohl Geschäftsrisiko.
@@ -5216,6 +5221,7 @@ Der Schwangerschaftstest ist negativ.
 Der Schützenkönig gibt allen einen aus.
 Der See ist im Sommer ein beliebtes Ausflugsziel.
 Der Sensenmann ist einfach zu schlecht im Schach.
+Der Server ist momentan nicht erreichbar.
 Der Server ist nicht erreichbar.
 Der Server-Markt wird von Linux-Betriebssystemen dominiert.
 Der Sicherheitsdienst führt den Leger einer Stinkbombe ab.
@@ -6639,6 +6645,7 @@ Die einen behaupten dies, die anderen behaupten das.
 Die einen im wörtlichen, die anderen im übertragenen Sinne.
 Die einheimischen Völker bekamen Mitleid, als sie die unbeholfenen Fremdlinge sahen.
 Die einzige rechtmäßige Besitzerin der Stute ist Sinja Strunk.
+Die elektronische Fahrplanauskunft ist momentan nicht erreichbar.
 Die elektronische Musik kam vom Band.
 Die enthaltende Litze aus Kupfer ist lächerlich dünn.
 Die entscheidende Frage ist, wer hat hier von wem kopiert?
@@ -6886,6 +6893,7 @@ Diejenigen, die im Studium am meisten feiern, beenden es meistens auch am schnel
 Dienstag ist fast schon Wochenende.
 Dies bestätigte wohl ihre schlimmsten Befürchtungen.
 Dies bezogen auf die Gesamtkilometer, dreißig Cent pro gefahrenen Kilometer.
+Dies führt das elektronische System ab adsurdum.
 Dies gibt Don in seinem Lied sinngemäß wieder.
 Dies gilt sowohl für höhere Ebenen, wie Ministerien, als auch für das Lehrpersonal.
 Dies ist das einzige noch unbebaute Grundstück in der Innenstadt.
@@ -8085,6 +8093,7 @@ Eine Risikoanalyse ist unerlässlich.
 Eine Sache möchte Agnes noch anmerken.
 Eine Sache möchte ich euch noch mit auf den Weg geben.
 Eine Sache zur Zeit.
+Eine Schikane?
 Eine Schildkröte hat dem Jugendlichen in die Achillessehne gebissen.
 Eine Schmalspurbahn bringt Sie zur Wetterstation auf dem Brocken.
 Eine Schnellfahrstrecke von Krakau über Breslau nach Cottbus sollte errichtet werden.
@@ -9551,6 +9560,7 @@ Formal möchte ich darauf hinweisen, dass dies gegen Sie verwendet werden kann.
 Formation einnehmen!
 Formulieren Sie die zugehörige Kontinuitätsgleichung!
 Fortgeschrittene Yoga-Kenntnisse sind Grundvoraussetzung dafür, sich in diesen Kleinwagen zu zwängen.
+Fortsetzung folgt.
 Foto mit F finde ich normal.
 Fotografieren ist nur ohne Blitz erlaubt.
 Fotos, Videos und Erinnerung wären dann alle weg.
@@ -9721,6 +9731,7 @@ Frühling ist die schönste Zeit des Jahres.
 Frühlingsrollen waren das Lieblingsessen von Sibylle.
 Frühstückseier mochte Jürgen am liebsten mit Salz und Weißbrot.
 Funktioniert das denn?
+Funktioniert der Fahrkarten Scanner denn?
 Fußgänger werden jetzt auch noch mit E-Tretrollern unterwandert.
 Fährst du rückwärts gegen einen Baum, verkürzt du so deinen Kofferraum.
 Fährst du wieder nach Leipzig zum Kongress?
@@ -13816,6 +13827,7 @@ Jetzt haben wir seine Instinkte aus der Steinzeit reaktiviert.
 Jetzt haben wir wieder so Schnulzen in unserem Repertoir.
 Jetzt habt ihr euch stundenlang über Schwächere ausgelassen.
 Jetzt habt ihr eure Genugtuung, was?
+Jetzt hantiere ich schon mit zwei Apps herum, um eine Fahrkarte kaufen zu können.
 Jetzt hat das Energie, so ist das spitze.
 Jetzt hat er doch tatsächlich die Portion Spaghetti verschmäht, der Lotzi.
 Jetzt hat er mich einfach gelindnert.
@@ -14406,6 +14418,7 @@ Kohlenstoffdioxid und Stickstoffoxide sind übrigens auch nicht dasselbe.
 Koks wird in Hochöfen verbrannt.
 Kollegin Berger möchte endlich einen Schlussstrich ziehen.
 Komfort hat dabei keinen hohen Stellenwert.
+Komisch, bei der Hinfahrt funktionierte das ohne Probleme!
 Komisch, die Kamera scheint kaputt zu sein.
 Komm Du 'mal hier her!
 Komm doch mal rüber, wenn du Zeit hast!
@@ -14488,6 +14501,7 @@ Kommt man mit einer Packung aus?
 Kommt mit erhobenen Händen heraus!
 Kommt nicht in die Tüte!
 Kommt noch etwas dazu?
+Kommt sich noch jemand als ständiger Beta Tester vor?
 Kommt, wir schießen auf ein Pulverfass!
 Komplett in Großbuchstaben verfasste Abschnitte sind eine Zumutung für den Leser.
 Komponenten und Schnittstellen werden in einem Komponentendiagramm visualisiert werden.
@@ -14753,6 +14767,7 @@ Lass uns nach San Francisco trampen!
 Lass uns noch mal genau nachmessen.
 Lass uns raus gehen.
 Lass uns welche wegräumen.
+Lassen Sie den Scanner überprüfen.
 Lassen Sie mich bitte meine Arbeit verrichten!
 Lassen Sie mich das hier noch kurz verstauen!
 Lassen Sie mich das recherchieren, bitte.
@@ -16490,6 +16505,7 @@ Na schau, alles wäre perfekt.
 Na schau, du hast ein perfektes Leben.
 Na schön.
 Na toll, das hätte man auch billiger haben können!
+Na was jetzt?
 Na, Glückwunsch!
 Na, Großer!
 Na, alles senkrecht?
@@ -16590,6 +16606,7 @@ Nach langem Warten öffnete die schrullige Dame uns die Tür.
 Nach langer Bestrahlung mit Sonnenlicht wird das Material mürbe.
 Nach langer Denkpause ergriff der alte Stegemann schließlich wieder das Wort.
 Nach längerer Nichtbenutzung wachsen die Löcher in den Ohrläppchen wieder zu.
+Nach manueller Sichtprüfung ist die Fahrkarte nun doch gültig.
 Nach maximal drei Schritten muss der Ball abgegeben werden.
 Nach meiner Definition sind die Bratwürste jetzt fertig.
 Nach meiner Uhr ist es kurz nach halb vier.
@@ -18473,6 +18490,7 @@ Schön, dass du da warst.
 Schöne Statistik, aber hat sie auch irgendeinen praktischen Nutzen?
 Schöne Sätze zu erfinden ist gar nicht so einfach.
 Schönen Dank für das Kindheitstrauma!
+Schönen Tag noch.
 Schöner Vergleich, muss ich sagen.
 Schöner als ich wäre dann kitsch, woll?
 Schönes Ding!
@@ -20285,6 +20303,7 @@ Tut er dies nicht, hat man ein Recht auf eine verringerte Miete.
 Tut mir leid Kinder, ich habe es kaputt gemacht.
 Tut mir leid, wenn ich damit dein Weltbild zerstöre.
 Typ-eins-Diabetes hat meist angeborene Ursachen, wohingegen Typ zwei sich oft anders begründet.
+Täglich erfährt man neue Hiobsbotschaften.
 Täglich werden Drohnen gestartet und Flugmanöver geübt.
 Täte mir aber gut, glaube ich.
 Täuschkörper einsetzen!
@@ -20624,6 +20643,7 @@ Und was machst du sonst so, außer die Wand anzustarren?
 Und was machst du sonst so?
 Und was macht ihr so am Wochenende?
 Und was macht man, wenn man seine Geburtsurkunde nicht mehr hat?
+Und was sind Schlüsselkinder?
 Und was trinkst du gerne dazu?
 Und was wir nicht mitkriegen, das lassen wir hier zurück.
 Und was, wenn er die Leine einfach durchbeißt?
@@ -22027,6 +22047,7 @@ Was sie nicht kann, muss sie eben lernen.
 Was sie nicht weiß, macht sie nicht wild.
 Was siehst du in den Wolken?
 Was sieht der Alternativplan vor?
+Was sind Helikoptereltern und wo leben diese?
 Was sind Ihre Schwerpunktthemen?
 Was sind aber das für Waffen gegen einen Grizzlybären!
 Was sind das überhaupt für Weicheier!
@@ -22093,6 +22114,7 @@ Was verschlüsselte E-Mails angeht, ist das gar nicht so einfach.
 Was versprichst du dir davon?
 Was verspricht sich der Herzog davon?
 Was verstehen Sie unter dem Begriff Reiztechnologie?
+Was versteht man unter Münchhausen Mütter?
 Was versucht die Dame eigentlich mit ihrer Schminke zu kaschieren?
 Was verzapft ihr da für einen Unsinn?
 Was war das denn jetzt?
@@ -24877,6 +24899,7 @@ x und y heben sich gegenseitig weg.
 Überweise mir dann einfach das Geld.
 Überweist man Behörden versehentlich mehr als gefordert, müssen diese alles für eine Rückführung tun.
 Überzeugen Sie Ihren Nachbarn davon, wie cool Sie sind!
+Überzeugen Sie auch Ihre Bekannten und Verwandten davon die Stimme zu spenden.
 Überzeugen Sie sich selbst!
 Überzeugen Sie uns mit Ihrer aussagekräftigen Online-Bewerbung.
 Übrigens ist der komplette Wald künstlich angelegt.

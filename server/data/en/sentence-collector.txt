@@ -2260,6 +2260,7 @@ A white asphalt surface creates less greenhouse gases.
 A white blood cell helps the body heal and fight diseases.
 A white cat was staring at some goldfish.
 A whole raft of them.
+A wiki is run using wiki software, otherwise known as a wiki engine
 A wildly exciting time was his during the week preceding Thursday the eighteenth.
 A windscreen is easily chipped, but can be repaired if it's small.
 A winner, and just the sort for you.
@@ -2282,6 +2283,7 @@ A-I does not guarantee a dystopia or utopia.
 Abdul is a hard working entrepreneur from a humble background.
 Aberdeen terriers, they are, and as sharp as mustard.
 Abide with me.
+Abort.
 About a hundred a month.
 About eight next morning I witnessed the arrival of two constables and a sergeant.
 About four o'clock Theodore presented himself in the back kitchen.
@@ -2487,6 +2489,7 @@ After half an hour he, troubled and bewildered, came in again.
 After he was ripped off, he demanded a refund.
 After her knee operation, she needed physiotherapy
 After his decision a gradual improvement was manifest.
+After his father, he was named after a year.
 After his retirement, Poirot grew vegetable marrows.
 After last night, I thought I could.
 After leaving Miriam he went almost straight to Clara.
@@ -2607,6 +2610,7 @@ Ah, we were very close together in that moment.
 Ah, yes, I know.
 Ah, you shall believe tonight in those wonderful things!
 Ah, you've noticed it, have you?
+Ahamkara is the concept of illusion becoming reality through the means of our ego.
 Ahead of them they saw a glimmer of sunshine.
 Ahmed was never dishonest.
 Aim at the highest, and never mind the money.
@@ -4742,6 +4746,7 @@ At the same time, they were good friends.
 At the sound of it she stopped.
 At the top of the chimney stack, you can see the chimney pot
 At their feet fell the precipice where the limestone was quarried away.
+At these songs, he was held in his own team.
 At this Dexter would look a bit blank.
 At this command, or by this gracious permission, the lesson went on.
 At this diabolical violence I rushed on him furiously.
@@ -4895,6 +4900,7 @@ Be this as it may, a church bell struck two.
 Be very careful.
 Be very good to him, won't you?
 Be wary of the man that knows little, and doesn't know it.
+Be was the first of his son of the Puzo.
 Be with me always — take any form — drive me mad!
 Be yourself. Especially do not feign affection.
 Bea was dismayed by her dad’s decision.
@@ -5052,6 +5058,7 @@ Betsy Martin, widow, one child, and one eye.
 Betsy, won't you kiss me?
 Better for common sense, better for him, better for me.
 Better luck next time!.
+Better luck next time.
 Better men than I have split their trousers.
 Better pass it off as a joke.
 Better than his own brother, hey?
@@ -6481,6 +6488,7 @@ By process of elimination we could determine who the real culprit was.
 By seven o’clock the two were in good condition.
 By tacit agreement they ignored the remarks and insinuations of their acquaintances.
 By that answer my professional medical prestige stood or fell.
+By the end of my sophomore year my drive was far from unnoticed.
 By the lift, if you please; it will save time.
 By the moonlight, she can be seen in profile, perfectly still.
 By the open door were some floury loaves, put out to cool.
@@ -6556,6 +6564,7 @@ Can there really have been some one in the house?
 Can we arrange a meeting?
 Can we arrange the distribution by train?
 Can we assume that the program is moribund?
+Can we assume they had two private bathrooms?
 Can we chat later when I'm feeling a bit more sparky?
 Can we discuss it like adults?
 Can we do nothing about fake news?
@@ -7131,6 +7140,7 @@ Cordelia always wore her amethyst brooch to church.
 Cordial farewells were exchanged, and the party separated.
 Corporate organizations forget that they were once a startup.
 Corporations are usually only interested in profitability.
+Correct.
 Correlation does not equals causation.
 Corruption can be tackled by changing the culture that facilitates it.
 Cost you a dollar.
@@ -7152,6 +7162,7 @@ Could he expect that her friends would not step forward?
 Could he have Colonel Fitzwilliam in his thoughts?
 Could he impart his dangerous gift to other cats?
 Could not possibly have been better,’ replied Mr. Magnus.
+Could please let me know what the weekly skill is?
 Could the incident have anything to do with Jeanne and Pierre.
 Could the tenors and basses please watch the conductor?
 Could there be finer symptoms?
@@ -7163,6 +7174,7 @@ Could you fetch me a pinch from anywhere?
 Could you give me a ring at about ten o'clock?
 Could you kindly desist from throwing peanuts from the gallery?
 Could you look after our kangaroo while we're on holiday?
+Could you pass on our phone number to your parents?
 Could you please advise on available funds?
 Could you point a person out for me?
 Could you post this letter for me please?
@@ -7330,6 +7342,7 @@ Delightful situation this.
 Dementia causes symptoms of memory loss.
 Dementia is usually experienced by the elderly.
 Dennin's hands were released long enough for him to sign the document.
+Depending on your view, precocious youths almost never disappoint.
 Deploy all personnel to the site immediately.
 Derisively, but also sadly.
 Dermatologists specialise in the conditions of the skin.
@@ -8411,6 +8424,7 @@ Empty downs, empty sky.
 Encouraged by my conduct, Big-Face became a sudden ally.
 Encouragement should be given.
 Engine oil regularly needs changing.
+Engineers are bringing maglev technology into reality.
 Engineers need to design aircraft to rely less on fossil fuels.
 Engineers of the future will include Ethics as their design process.
 England’s most famous universities are Oxford and Cambridge
@@ -8500,6 +8514,7 @@ Every day is a day to learn.
 Every day it is met by a wall of silence.
 Every edition is packed with fun!
 Every fibre in her was in revolt.
+Every government organization ought to have a website
 Every house needs a fire alarm and extinguisher.
 Every important plan needs a contingency plan.
 Every inhabitant remaining was out of doors.
@@ -8645,6 +8660,7 @@ Except to say that he hated me.
 Except where I have moved it about to make more room, miss.
 Except, of course, in the Church.
 Exceptionally tasty assortment of them.
+Excess duplicity may result in the rescinding of your acceptance.
 Excess population harms the environment.
 Excessive heat had warped the motherboard.
 Excitement was gaining upon her.
@@ -8747,6 +8763,7 @@ Finally one of the biggest mice spoke.
 Finally she picked up her basket.
 Finally, as a State necessity, the matter of the religions was compromised.
 Finals are next week and I'm panicking.
+Find a train design that would be operable on the given track.
 Find a way, then!
 Find me a bed and breakfast nearby.
 Find me a blueprint for building stable software.
@@ -9084,6 +9101,7 @@ Fun ways with whipped cream.
 Fun with flags.
 Fundamentally changing an industry quickly, leaves little time to adapt.
 Funny thing people having gold teeth.
+Furthermore, the case was set for mandatory arbitration in July.
 Future generations will interact with the digital world by voice.
 Future medical sensors will be implantable.
 Gabby and I would like to announce we are getting married!.
@@ -9790,6 +9808,7 @@ Having thought a bit, he looked up again and resumed.
 Having turned the sarcasm into a compliment, he resumed his story.
 Hayden Caramel was afraid they'd have to toddle off.
 He abandoned all attempt at guarding.
+He absentmindedly stumbled over the cerulean staircase.
 He accidentally put his driving licence in the dustbin
 He accosted me on the street.
 He ached all over.
@@ -10787,8 +10806,10 @@ He is a good Wizard.
 He is a great reservoir of confidences, not to be so tapped.
 He is a man of attainments and of captivating manners.
 He is a master of illusion.
+He is a member of the Tenn-Dixon Dugout.
 He is a most amiable, charming young man, I believe.
 He is a most extraordinary old chap, sir.
+He is a new school for a Die.
 He is a politician.
 He is a suggestion, as I have said, of a new manner.
 He is a tremendous fellow.
@@ -10867,6 +10888,7 @@ He is such a cheery fellow.
 He is the Duke of Edinburgh.
 He is the German business man that gives your English papers the shakes.
 He is the author of "Nation and Republic".
+He is the city in Time Minister.
 He is the cleverest of the French detectives.
 He is the man that has wrecked all their games.
 He is the most intolerable scoundrel on the face of the earth.
@@ -12048,6 +12070,7 @@ He was a knowing man, and very resourceful.
 He was a little nervous about his bearing.
 He was a long way from her.
 He was a man in battle rejoicing in his power.
+He was a member of the Punching Church.
 He was a merry monarch, especially so for an Asiatic.
 He was a mighty monarch.
 He was a miserable performer on a bicycle.
@@ -12100,6 +12123,7 @@ He was an amiable bull, determined to make every colour scarlet.
 He was an amphibian and a mountaineer.
 He was an athlete and a giant.
 He was an enthusiast and a desert dweller.
+He was an extensive man
 He was an outsider.
 He was an over-worked and underpaid Engineer, it was time for something new.
 He was an undersized footman, with a long body and short legs.
@@ -12230,6 +12254,7 @@ He was just bursting with joy, joy over what.
 He was killed in his bathroom, you know.
 He was kneeling beside the couch.
 He was knocked sideways, rolled over, and recovered his feet.
+He was known as a few of the The Cage of Free and Star.
 He was known for having a good work ethic.
 He was laid up with an attack of rheumatism.
 He was late after a holdup on the Underground.
@@ -12240,6 +12265,7 @@ He was looking for his son.
 He was loving it!
 He was manifestly distressed by my coming.
 He was married in Boston.
+He was married to a son of the Veteran Sil.
 He was master of the party; his father was no good.
 He was more agile than strong, but it served.
 He was more or less under her spell again.
@@ -12375,7 +12401,11 @@ He was surprised; but it was natural, wasn't it?
 He was taken ill in the library this morning.
 He was tender and beautiful.
 He was that rare type, the natural leader.
+He was the Major of the City of the Grover.
+He was the Maze Shear.
+He was the Rummer, New Yorkshire, and became the first named after a brother
 He was the associate of them both.
+He was the father of the Niobe.
 He was the founder of a now-defunct journal.
 He was the lady.
 He was the leader, and Tudor was his lieutenant.
@@ -12532,6 +12562,7 @@ He wished he could see her face.
 He wished it were, but no such thing could be.
 He woke to a bright, pale dawn.
 He won his award at the field hospital.
+He won the case but vehemently rejected the reward.
 He won't find it there.
 He won't have a hope of declining.
 He won't hold off, and he won't come on.
@@ -12778,6 +12809,7 @@ Helene, it is not true that I am playing with her.
 Helene, you are by the switch of the electric light.
 Hell, that's what I want too.
 Hello hello. Why is this thing not working?
+Hello my friend, no sentences today?
 Hello, Anthony Comstock Ellis.
 Hello, Anthony Comstock Patch.
 Hello, I am here for my appointment booked at four o'clock.
@@ -13011,6 +13043,7 @@ Her story was not all untrue.
 Her suspicions, she was sure, were still awake.
 Her tears dissolved in a twisted smile.
 Her temper matches her hair I guess.
+Her theory, although untenable, did turn heads.
 Her thin lips were kept contemptuously closed, whatever the others might admit.
 Her throat and arms were bare.
 Her tone expressed exasperated wonder.
@@ -13342,6 +13375,7 @@ His father got up; he heard him pottering about.
 His father had been in the hospital before.
 His father had bought him a pot of scarlet and gold tulips.
 His father had no knowledge of it.
+His father was the Ran.
 His father's vicar of our village.
 His father’s presence seemed to aggravate all his sick impatience.
 His favourite and faithful housekeeper stands at his bedside.
@@ -13564,6 +13598,7 @@ His spirits soared like the lark.
 His spirits were elastic; his good-humour was restored.
 His struggles grew fainter.
 His sudden rages rather amused her.
+His sullen mood emphasized the morose color palette of his house.
 His suspicions were verified.
 His tail is sticking out!
 His talk of guards that would skin their own grandmothers was all billy-o.
@@ -13613,6 +13648,7 @@ His whole heart hardened against the idea.
 His whole idea now was to bowl fast.
 His whole will rose up and arrested him.
 His wife brought a well-soaped flannel and clapped it on his shoulders.
+His wife has a child.
 His wife is very pretty.
 His wife tried hard to get him to open up.
 His wife was easier.
@@ -13648,6 +13684,7 @@ Honestly, you don't want me.
 Honey and fair speeches, and then a stroke in the dark.
 Hope filled students are energetic go-getters.
 Hope for the best but plan for the worst case scenario
+Hope to have fun with you tomorrow!
 Hope you like it.
 Hope you work it out.
 Hope you're feeling the vibe!
@@ -13689,6 +13726,7 @@ How absurd of you!
 How acutely did she now feel it!
 How am I going to solve my snoring problem?
 How am I supposed to know that?
+How am I supposed to upload twelve documents without a computer?
 How am I to live?
 How am I to love papa?
 How are her vitals?
@@ -13989,6 +14027,7 @@ How much data is in an exabyte?
 How much did you get for it?
 How much do you know?
 How much does it cost to park for one hour?
+How much does it cost to travel to Palau?
 How much each was it?
 How much for both of them!
 How much gin did you put in the jug?
@@ -14088,6 +14127,7 @@ How was it that you appeared to me as a great Head?
 How was she to adjust herself?
 How was she to bear the change?
 How was that possible?
+How was that?
 How was the murder committed?
 How was your trip to Shanghai?
 How we roared!
@@ -14385,6 +14425,7 @@ I am much of the same mind myself.
 I am no robber.
 I am not a lady.
 I am not a match for you, gentlemen.
+I am not a native english speaker.
 I am not a vegetarian.
 I am not actively searching for a role at the moment.
 I am not afraid of being overpowered by the impression.
@@ -14684,6 +14725,7 @@ I can assure you that there is nothing to fear
 I can at least do that.
 I can communicate effectively with people.
 I can detain you both, quite concealed, here.
+I can do them on a separate sheet of paper, right?
 I can do you a deal.
 I can dream of them.
 I can endure a morning of snow, it's no biggie.
@@ -14703,6 +14745,7 @@ I can imagine what you must have felt.
 I can imagine your objection.
 I can imitate any kind of a bird or beast.
 I can lend you everything you need.
+I can lend you this astronomy book if that would help
 I can make any day other than Friday.
 I can make tea and toast bread.
 I can manage very well.
@@ -14761,6 +14804,7 @@ I can't have done, then.
 I can't have you wandering about the place.
 I can't help it, Charley.
 I can't hold myself still.
+I can't imagine being in your position.
 I can't imagine what possesses people.
 I can't imagine.
 I can't keep walking forever.
@@ -14801,9 +14845,11 @@ I cannot do justice to his kindness.
 I cannot doubt it.
 I cannot escort you.
 I cannot ever live without her.
+I cannot find my red spiral or red folder for the Phantom Tollbooth worksheet.
 I cannot follow you, she said.
 I cannot go back.
 I cannot have this noise and disturbance!
+I cannot hear you!
 I cannot help suspecting him.
 I cannot imagine what a four-dimensional image would look like.
 I cannot keep my eyes from it.
@@ -14879,6 +14925,7 @@ I comprehend books better when I read out aloud.
 I concern myself only with facts.
 I concur with the speaker.
 I confessed that she had surprised us all.
+I confirmed that the the venom was not predominantly cytotoxic.
 I confronted three pairs of eyes that missed nothing.
 I congratulate her.
 I congratulate you on your feathers.
@@ -15211,6 +15258,7 @@ I don't know that, sir!
 I don't know what I said now.
 I don't know what I said, or even that I spoke.
 I don't know what Mr. Tulkinghorn's engagements may be.
+I don't know what happened to my font size.
 I don't know what he can have done with the money.
 I don't know what his number is: he's ex-directory
 I don't know what it is.
@@ -15235,6 +15283,7 @@ I don't like them so tall.
 I don't like this game, can we play another?
 I don't like this kind of business, Ellis.
 I don't like this kiss-and-forget.
+I don't like using extra day passes; I should finish it today.
 I don't like your associates and don't want you here.
 I don't like your associates.
 I don't like your country, although it is so beautiful.
@@ -15799,6 +15848,7 @@ I have another well-laid plan for encompassing that young shrimp.
 I have arranged a conference call to discuss these matters further.
 I have arrived at maturity.
 I have asked him certain questions.
+I have attached a copy of the details for the science project.
 I have back-to-back meetings today.
 I have been awake three days — a prisoner for three days.
 I have been coding for a couple of years.
@@ -16427,6 +16477,7 @@ I married him to do this, and this supports me.
 I married someone better than them.
 I may be able to get in tonight.
 I may even have hummed a bar or two.
+I may fairly claim, however
 I may have sent you there on purpose.
 I may manage to freight a cargo back as well.
 I may now perhaps mention what I wished to say to you?
@@ -17242,6 +17293,7 @@ I stared at the man.
 I stared full at him, and laughed scornfully.
 I stayed at my post till five o’clock.
 I still don't get it.
+I still need to finish my math homework
 I stole from my room and went downstairs.
 I stole quietly along the drive.
 I stood awhile in thought.
@@ -17437,6 +17489,7 @@ I think we have to agree that he didn't mean it.
 I think we may assume that he has every detail stamped on his mind.
 I think we may have done with the place for one day!
 I think we ought to travel a lot.
+I think we should add a stage for food preparation to stop the loop.
 I think we'd better keep mum about that.
 I think we’re in a strong position
 I think women would make splendid ministers.
@@ -17656,6 +17709,7 @@ I want that duck you’ve got — and the pig too.
 I want that man Newman.
 I want the facts.
 I want the real reason.
+I want them to call my parents for confirmation.
 I want to be a published author when I grow up.
 I want to be alone.
 I want to be great, or nothing.
@@ -18581,6 +18635,7 @@ I'm so tired, I can't stir!
 I'm somewhat sceptical of horoscopes and tarot card readers.
 I'm sorry but we must leave now.
 I'm sorry, Bertie, I didn't hear.
+I'm sorry, I can't find the style guide on this website
 I'm sorry. I beg your pardon.
 I'm starving. Shall we get some fish and chips at the chip shop?
 I'm still feeling pretty wiped out.
@@ -18691,6 +18746,7 @@ I've got to tear.
 I've grown up, Carter.
 I've had a lot of fun out of it.
 I've had a speech impediment since childhood.
+I've had significant success as a Varsity debater
 I've had to wash it separately, I can't get out the smell.
 I've heard Dave speak of her often.
 I've heard her name.
@@ -18991,6 +19047,7 @@ If you've made a typing mistake you can correct it with Tippex
 If your love interest turns you down, don't harass them.
 If your ship breaks down, share your geographic coordinates.
 If you’ll excuse my saying so.
+If you’re reading this, you probably haven’t spent much time with me yet
 If you’ve been crying do own up.
 If, indeed, it should be so!
 Iliac artery.
@@ -19147,6 +19204,7 @@ In him was established her life now.
 In his anxiety and solicitude and love they did not count.
 In his arms had she spoken a little?
 In his condemnation he is all ferocity.
+In his father, he is a few years later.
 In his hand he held a shoe.
 In his left hand was a small book with a finger marking the place.
 In his own home Annie was almost glad to be a girl.
@@ -19241,6 +19299,7 @@ In the evening we had a dance.
 In the final chapter of his life, he pursued philanthropy projects.
 In the first place I've been ill all day.
 In the first place it was almost a charity.
+In the first semester, he teaches the history, applications, and theories of leadership
 In the font hundreds of white narcissi seemed to be growing.
 In the future, large companies will dis-intermediate to compete with smaller agile companies.
 In the future, we are going to need a new manager for this account.
@@ -19962,8 +20021,13 @@ It is intrinsic to the design.
 It is just as he chooses.
 It is kind of you to ask, darling.
 It is kind of you to wear that.
+It is known as his name.
 It is like a moneybox!
 It is like surrendering a part of them.
+It is located in the West sham Council.
+It is located in the city of the area.
+It is located in the village in Network.
+It is located in the west of the town.
 It is long, very long, since you drank the waters.
 It is loveliness itself.
 It is lying crossways to the carrier.
@@ -20060,6 +20124,7 @@ It is the best you can do for everybody's sake.
 It is the biggest telescope in the world.
 It is the epitome of love.
 It is the fire, partly, she said.
+It is the first pair of the University of New York City.
 It is the garden of England, you know.
 It is the garment of my misery.
 It is the greatest amusement in the world!
@@ -20503,6 +20568,7 @@ It was a low room, not very large, and bare.
 It was a master.
 It was a meaningless translation.
 It was a meeting of intellectuals and philosophers.
+It was a member of the first Traci River.
 It was a mere shell.
 It was a merry meal.
 It was a mighty risk, but against it was an absolute black certainty.
@@ -20662,6 +20728,7 @@ It was for your sake she spoke this time.
 It was forecast to snow last night.
 It was foul weather for foul deeds.
 It was four and a half miles’ drive.
+It was fun to meet on Sunday and discuss with the boys.
 It was getting late in the afternoon.
 It was getting so late; it was getting unbearable.
 It was glued on firmly and she couldn't budge it.
@@ -21425,6 +21492,7 @@ Its beak was short and hooked – probably a raptor.
 Its beauty seemed to strike the child dumb.
 Its boards are rotten.
 Its clear, knowing eyes gave her pain and fear.
+Its community is located in the township.
 Its diameter was not more than two hundred yards.
 Its field was crowded with folk from Nottingham.
 Its form suggested a man.
@@ -21804,6 +21872,7 @@ Jeeves, I'm engaged.
 Jeeves, let us get this clear.
 Jeez, that's awful!
 Jeff is a climate scientist and statistician.
+Jeff smirked. "If the city's named 'Harmony', you can bet it's unincorporated".
 Jellicoe asked me to come and bring you the money.
 Jellicoe droned on in a depressed sort of way.
 Jellicoe tried, but sat down again with a loud "Ow!"
@@ -22651,6 +22720,7 @@ Masters say, "Jones, what are you wearing on your feet?"
 Masters were rather afraid of them.
 Mat will get no harm from me.
 Material, my elbow!
+Mathematics is the language of all things beautiful in life.
 Mathematics is the language of reality.
 Maths and physics were my favourite subjects at school
 Maths is the British abbreviation for mathematics
@@ -23026,6 +23096,7 @@ Most of her social media postings were duck-face poses
 Most of the clerks had not turned up.
 Most of the discoveries of humanity exist in cyberspace.
 Most of the postings on social media are disappointingly shallow.
+Most of the two were at the first season.
 Most of them, moreover, had spent their money.
 Most parents prefer to use disposable nappies nowadays, to save on washing
 Most peculiar looking teeth.
@@ -23657,6 +23728,7 @@ My niece really loves her ballet classes
 My observation would be that this is an assumption.
 My own sweet little mistress sprang on my neck sobbing, ‘Ellen, Ellen!
 My own voice sharpened a bit as I asked him what he did next.
+My parents have approved of having you come over tomorrow after school.
 My parents live in a beautiful house just a stone's throw from the beach.
 My parents live in a cul-de-sac.
 My part in this business was not yet ended.
@@ -25548,6 +25620,7 @@ Our Councils are working hard to meet the needs of the community.
 Our French professor is a real duckie.
 Our Kanban board is looking full this week.
 Our Mr Howison will call upon you at your hotel.
+Our analysis was not enough to make a determination of the scope of injury.
 Our analysts are conducting an analysis of the public survey data.
 Our ancestors worked hard and enabled us to be where we are today.
 Our application is a vertically integrated system.
@@ -25622,6 +25695,7 @@ Out in the field somewhere.
 Out in the open somewhere — secure from collisions.
 Out of abstractions Ernest had conjured a vision and made them see it.
 Out of his eighteen hundred, he laid aside sixteen hundred each year.
+Out of sentences error.
 Out on the water someone was singing.
 Out puffed the bluish smoke and a smell of burned bread.
 Out with it, love.
@@ -25874,6 +25948,7 @@ Perhaps that's it.
 Perhaps the coal is damp.
 Perhaps they didn't even play cricket!
 Perhaps they were doing a little of both.
+Perhaps this is one of the "findings" and objects of the project.
 Perhaps we can find him for you.
 Perhaps we could compare our cells to algorithms.
 Perhaps we might call it Susan.
@@ -26115,6 +26190,7 @@ Please, sir, he came in like that.
 Please, sir, may I go and get measured this evening?
 Please, sir, may we have helmets?
 Please, sir, the falling timbers!
+Please, try again.
 Plenty of plum-cake, please.
 Plenty will come in, but none can help.
 Plunging headfirst into the swimming pool.
@@ -26432,6 +26508,7 @@ Regular practice improves performance.
 Regular small overpayment's on a mortgage is the best way to reduce interest.
 Regulation and governance removes ambiguity.
 Relate it all.
+Relax! It's Sunday and our favorite show is about to begin!
 Relaxing, he tumbled back upon his pillow.
 Religion was fading into the background.
 Remainers are a nickname given to people who disagree with the Brexit referendum.
@@ -26464,6 +26541,7 @@ Responsibility, my dear Miss Summerson?
 Responsible adults have a duty of care to children.
 Rest assured of that!
 Result, agony of spirit and no progress.
+Retry.
 Return to your books.
 Returning she would find his name, and smile.
 Revenue is expected to increase year over year.
@@ -28076,6 +28154,7 @@ She wants to absorb him.
 She warmed and soothed herself.
 She was a 'tomboy', as her mother called her.
 She was a brilliant undergraduate who went on to gain first class honours
+She was a child of his son.
 She was a devoted creature.
 She was a famous Norwegian politician.
 She was a good little girl — only she was always losing her pocket-handkerchiefs!
@@ -28198,6 +28277,7 @@ She was made for them.
 She was mending a sack.
 She was mortally frightened.
 She was much too fond of Heathcliff.
+She was named after a few years.
 She was nearly heartbroken when he ran off.
 She was neither pleased nor annoyed.
 She was nervous, could hardly reach the teacups from the shelves.
@@ -28724,6 +28804,7 @@ Smith, Roberts and Jones formed a band.
 Smith, you saw the paint on this shoe?
 Smoke a cigarette, if you'll allow me.
 Smoking, perhaps, might seem more natural.
+Snail and his owns were later sold to the city.
 Snakes and ladders is a game of chance.
 Snakes and ladders is a very popular board game
 Snakes and scorpions are best avoided.
@@ -28935,6 +29016,7 @@ So, how do you explain that?
 So, of course, I had to rally round.
 So, of course, he’ll suffer in there with the nurses.
 So, she dozed and I knitted.
+So, the case has been assigned to the firm of the Honorable Russell Hartigan.
 So, what do you propose?
 So, what now?
 So, why do they need all of this information anyway?
@@ -29398,6 +29480,7 @@ Suffering depression does not mean a person is psychotic.
 Sugar was evidently Mrs Owen’s favourite.
 Sugar was the second item on the shopper’s list; bread was the third.
 Suggest another motive I could have had.
+Summary judgment was filed and fully briefed.
 Summer solstice is typically June twenty-first, but sometimes it's earlier or later.
 Summer vacation is the best time of the year!
 Summon me anywhere, and I will come.
@@ -29467,6 +29550,7 @@ Swiftly his eyes measured the situation.
 Swipe right on the first person you see wearing a hat.
 Swiss citizens can very often speak French and German.
 Switch on the bath.
+Sworn and non-sworn personnel both have an obligation to this city
 Synthetic Intelligence.
 System on chip architectures has improved.
 Ta very much.
@@ -30155,6 +30239,7 @@ That, I was pretty clear, was his intention.
 That, he felt, would disappoint her, and he would have died rather.
 That, however, was soon arranged.
 That, of course, I know you would not abandon.
+Thats all folks.
 That’s Hallie back?
 That’s a definite no-no.
 That’s a good long way.
@@ -30297,6 +30382,7 @@ The Haber Process is an industrial process for producing ammonia
 The Hallelujah Chorus from Handel's Messiah.
 The Hatter shook his head mournfully.
 The Hatter was the first to break the silence.
+The Hay was named after The Moon.
 The Head shot forward and struck the Scarecrow.
 The Heights were Heathcliff’s land, and he was reproving the poacher.
 The Heimlich manoeuvre is a lifesaving first aid technique.
@@ -30306,6 +30392,7 @@ The Highland suit came home.
 The Highway Code sets out the law of the road.
 The Holly and the Ivy.
 The Home Secretary is brazenly refusing to answer any questions
+The Hooter of the most common name
 The Hundred Years War actually lasted one hundred and sixteen years.
 The Indian even poked his stick into the thick ground spruce.
 The Indian felt the worship of her warm in his heart.
@@ -30330,6 +30417,8 @@ The Laurence boy's grandfather!
 The Law of Club and Fang
 The Librarian was silent for a moment.
 The Library is not only used for reading books.
+The Library of Congress definitely looks bigger than the White House!
+The Lie was the Nark.
 The Lion ate some of the porridge.
 The Lion hesitated no longer, but drank till the dish was empty.
 The Lion looked at Alice wearily.
@@ -30397,6 +30486,7 @@ The Scarecrow did not know what she was doing.
 The Scarecrow sat on the big throne.
 The Scarecrow sighed.
 The Senate was in session.
+The Seventh Circuit issued its opinion affirming the dismissal of all claims.
 The Soldier with the green whiskers led them through the streets.
 The Sonographer performed the Sonography examination.
 The Sphere Project outlines the minimum standards of humanitarian work.
@@ -30417,6 +30507,9 @@ The Tv presenter offered his commiserations to the losing party.
 The United Kingdom consists of England, Scotland, Wales and Northern Ireland.
 The University of Oxford and the University of Cambridge are both collegiate institutions
 The Victorian notion of empire.
+The Village lacks records of any complaint by the Plaintiff as to the incident.
+The Village received some information about the incident.
+The Village’s motion for summary judgement was denied.
 The Voice made no answer.
 The Voice was on his left front, he thought.
 The Volkswagen Beetle was originally a kit that you would build yourself.
@@ -30507,6 +30600,9 @@ The archaeologists have found no metal in the settlement.
 The arches of Waterloo Bridge.
 The architect provided the blueprints for the new development.
 The architect said the house does not conform to building regulations.
+The area is named Ma of Huts, as an early manor, and the Bed
+The area is named after the first name of the city.
+The area of the village is at the Cambridge Dow and Core.
 The area was devastated during the war.
 The argument silenced Celia.
 The argument was measured and forensic throughout.
@@ -30584,6 +30680,8 @@ The bait was an extra.
 The balance is zero.
 The balloon rose into the air without her.
 The ballot will be held on Thursday at the local school.
+The band of The Hon is part of the following year.
+The band's first team
 The bandit made a swift getaway.
 The bank teller patiently counted the copper coins.
 The bank was winning heavily.
@@ -30620,6 +30718,7 @@ The big chalk headland in Kent, close to Bradgate.
 The big man nodded as if satisfied.
 The big-eyed, clucking moose-birds were most annoying.
 The biggest obstacle to space travel is cost.
+The bill is a number of the arcane, and a booty.
 The bill remained unpaid so was referred to the high court.
 The bird emitted an ear-piercing screech.
 The bird had stubby wings and a long bill.
@@ -30652,6 +30751,7 @@ The bonnet crumpled during the crash.
 The book had a captivating storyline.
 The book has been indexed The British Library.
 The book is a critical first hand account of the criminal justice system.
+The book is a number of the following year.
 The book was written for a child's reading level.
 The bookcase and the birdcage refused to go into the mouse-hole.
 The books were mouldering.
@@ -30706,6 +30806,7 @@ The breath was struck out of her body.
 The bright red flowers multiplied and covered the south bank.
 The bright-blazered youth walked up.
 The broad area of swaying wings seemed to jerk upward.
+The budget is probably more than we'd like to spend on a science project.
 The builder's quote was astronomical.
 The builders are altering the layout of the walls.
 The building has inadequate insulation and loses heat.
@@ -30869,6 +30970,9 @@ The cigarette fell from my fingers.
 The cigarette trembled between his lips with laughter as he spoke.
 The circus is in town!.
 The cities had still to devour them.
+The city is located in the town, Sabin.
+The city is named for The Wishing.
+The city of the town is served by the town.
 The city was founded three centuries ago.
 The claim was out of all proportion to the damage.
 The claimant on file is...
@@ -30923,6 +31027,9 @@ The common law is a creature of the judges, not of statute.
 The common man now is a helpless unit.
 The common voice corpus will host the largest collection of open voice content.
 The commonest thing is delightful if one only hides it.
+The community has been named after her children.
+The community of Ragas is named after its second.
+The community of the University.
 The companies signed a non-disclosure agreement.
 The company avoided Litigation.
 The company had an office on the town's trading estate
@@ -30939,9 +31046,11 @@ The company saved millions on its corporation tax bill.
 The company should have been more candid years ago.
 The company tanked and went under.
 The company utilizes a just in time manufacturing process.
+The company was a former part of the area of Wetly and Santa Mint.
 The company was flush with cash after hitting it big on the global market.
 The company was trumpeting the successes of its new flagship product.
 The company will not be dressing tonight.
+The company's name is located in New York City.
 The compass showed me the way back home.
 The competitors were way ahead of the curve and it was hard keeping up.
 The compliment to herself and her sister was not unfelt.
@@ -31001,6 +31110,7 @@ The counter inside was a convenient height for rabbits.
 The counterfeiter was caught at the corner of River Road and Thirtieth Street.
 The country is nearer to the equator so gets more heat.
 The country was black and still.
+The county seat is Network.
 The couple adopted a baby and loved it as their own.
 The couple had a row last night.
 The couple never realised that they had a free choice.
@@ -31032,10 +31142,12 @@ The cruise ship fell into a large Maelstrom.
 The crunch of potato-chips was making his co-workers irate.
 The cry goes round: 'Spiller has been taken unawares'.
 The crypt underneath the manor was beautiful, and in perfect preservation.
+The culina was only found in houses of the Roman wealthy
 The cumulative emissions of cars are not good for air quality.
 The cupboard door was not locked, so they pushed it open and came out.
 The cups and saucers were laid ready.
 The curator thought diligently about his collection.
+The current name is a greatest brain.
 The curriculum had all the appearance of neglect.
 The curse of the present age.
 The curtain lifted slowly.
@@ -31373,6 +31485,7 @@ The first man came to the stile.
 The first month Gilbert came out three marks ahead.
 The first object of consideration was to secure quarters for the night.
 The first of June!
+The first of the first year, he was in the village.
 The first phase of her recovery from injury was emotionally challenging.
 The first planet from the sun is Mercury, and the second is Venus
 The first stair cracked like a shot.
@@ -31408,6 +31521,7 @@ The flush was gone from her face.
 The fog is very dense indeed!
 The fog was dense and impenetrable to light.
 The folds bound her lips more surely.
+The following year, the Runes were the second major.
 The fool had chosen this day of all days to be late.
 The football manager got the sack.
 The footballer was cool, calm and collected.
@@ -31451,7 +31565,9 @@ The game had not yet commenced.
 The game has become a farce.
 The game is only beginning.
 The game itself does not play well.
+The game of Bruce
 The game was opening well.
+The game was to be named after the Logs.
 The game, I mean?
 The gaps remain, and there are not unpopular lodgings among the rubbish.
 The garage is locked; and I haven't the key.
@@ -31763,6 +31879,7 @@ The key was outside and ready.
 The keys are above the fireplace.
 The kidneys failed to retain Al's undivided attention.
 The kids are playing hide and seek in the barn.
+The kids play, lackadaisical in their mirth.
 The kids played with their grandparents.
 The kids promised not to steal anything.
 The kind lady helped the destitute man rebuild his life.
@@ -31927,7 +32044,9 @@ The maid looked at him for a few moments without speaking.
 The maid started violently.
 The maid was carrying Celia's white coat.
 The mailman hasn’t been yet.
+The main county seat is located near the town of Tamil.
 The main duties of your position are set out in the attached job description.
+The main school is located in the city of New York City.
 The majority of the experiments fail.
 The majority of the human body consists of water.
 The majority, consequently, are easily handled.
@@ -32111,6 +32230,7 @@ The musician turned in furious astonishment.
 The musicians pulled off the bass drop with incredible skill.
 The name Randy is not found very often in Britain.
 The name flashed across my memory.
+The name is a cord.
 The name of little Benjamin's papa was old Mr Benjamin Bunny.
 The name of these good people was Jordan.
 The name of this old pagan's god was Compound Interest.
@@ -32306,6 +32426,7 @@ The paramedic first responders have been deployed.
 The parameters are decoded on the server side.
 The paraphernalia of justice were sadly lacking.
 The parcel had sailed out of sight.
+The park is in the Mamma's Gram-Retrace.
 The park was built in the sixteenth century.
 The park was very large, and contained great variety of ground.
 The parlour door slammed, and the place was silent again.
@@ -32632,12 +32753,14 @@ The rough way he bowled the dog over was really loving.
 The round game comprised the rest of the company.
 The rowing boat can't accommodate any more.
 The rude coffin was borne slowly forward on men’s shoulders.
+The rules of physics are written as differential equations.
 The safe's empty.
 The sales agent didn't call me back.
 The sales were enormous, ten times as large as their competitor's.
 The salt dissolved in water immediately on contact.
 The same that I expect.
 The same words, indeed, were running through both women's minds.
+The same year, they were one of the Getup.
 The sample temperature in this experiment is far too high.
 The sateen is for church and Sunday school.
 The scale of the impact was devastating.
@@ -32646,6 +32769,7 @@ The scent made him drunk.
 The scents of strange vegetation blew off the tropic land.
 The school caretaker was a very tall man
 The school clock struck the quarter.
+The school is a member of the Battening.
 The school kids carried zest and positivity.
 The school should do more to prevent personal property being stolen.
 The school was awake.
@@ -32773,6 +32897,8 @@ The solemnity of his manner impressed him.
 The son had no watch.
 The son of the vicar.
 The song and the tramping had ceased.
+The song is the The New York Tam and Pearson.
+The song is the same game.
 The song was endlessly playing on repeat.
 The song was so-so.
 The sordid, miserable struggle for mastery in this household.
@@ -32917,6 +33043,7 @@ The teacher ticked Rosie off for punching.
 The teacher was very keen on Show and Tell.
 The team equalized just before half-time.
 The team listened, but were not comforted.
+The team members resented the early morning practices
 The teams clashed over who was the best.
 The tears continued to run down his face.
 The tears don’t hurt me like that ache did.
@@ -33009,9 +33136,16 @@ The tower seemed to rock in the wind.
 The tower was built in a structured, systematic manner.
 The town centre can get very crowded on Saturday afternoons
 The town had a linear park along the riverbank.
+The town has a new worship in the area.
 The town is an excellent base from which to explore the entire county.
 The town is in the Worcestershire region.
+The town is located in the Pan River.
+The town is now in the following year.
+The town is part of the Neocon and Avatar Put.
+The town is served by the River.
 The town is such a distance.
+The town is the Women on-Stan of the village of London.
+The town is the name of the Buck hams in Eaten.
 The town was dark; the tram tipped in its haste.
 The town was strange and delightful to them.
 The town's enough for you, eh?
@@ -33121,6 +33255,8 @@ The victim was asked to identify the thief at a police identity parade
 The victim was brutally murdered at the scene.
 The video is non-ephemeral.
 The view from the balcony was breathtaking.
+The village is located in the village.
+The village is the village of Di.
 The village of my dreams!
 The villagers worshipped a brazen idol
 The violence of his contempt nettled him.
@@ -33915,6 +34051,7 @@ There are too many blokes in here.
 There are too many records to test individually.
 There are two ducks in the canal.
 There are two lines in particular that just thrill me.
+There are two of this school reactions.
 There are untapped opportunities to invest in new burgeoning firms.
 There are worse things in the world than being a Scarecrow.
 There came a breath of wind.
@@ -34749,6 +34886,7 @@ They are just as much yours as mine.
 They are lacking the very necessities of life.
 They are lifting her out!
 They are lively fellows.
+They are many familiar with the Gris of Error.
 They are my old friends.
 They are my solemn trust, but they burden me terribly.
 They are my weak point.
@@ -34824,6 +34962,7 @@ They cleaned their boots with twigs.
 They climbed the incline against the heavens.
 They closed now until his fingers were like cords of steel.
 They clung together for dear life
+They come from the game.
 They conquered their fear.
 They continued along it for some minutes.
 They continued valiantly to lie, but the truth continued to outrun them.
@@ -35079,6 +35218,7 @@ They only had a little thirty thousand dollar fire.
 They only lifted seven hundred and fifty.
 They only want young women.
 They ought to pass here some time today.
+They oversee articles within the periodical
 They owed the restoration of Lydia, her character, everything, to him.
 They paid at the turnstile and crossed the bridge.
 They passed Forty-fifth Street and slowed down slightly.
@@ -35393,6 +35533,7 @@ They're just sheep.
 They're my guests!
 They're no exertion, those girls.
 They're not coming, are they?
+They're not only in the end of the creeks.
 They're on us!
 They're out of the question.
 They're pretty cheap, though.
@@ -35682,6 +35823,7 @@ This is not a real robot, it's just an animatron.
 This is not a rock – it's an artistic concept.
 This is not an optimal solution to the problem.
 This is not at all the kind of thing for my voyage.
+This is not done to the end of the game.
 This is not in the scope of the project.
 This is not inapplicable to my uncle and his fencing.
 This is not the shoe.
@@ -35755,6 +35897,7 @@ This isn't a real house match.
 This isn't like Jasmine, and it worries me.
 This last item brought him obvious satisfaction.
 This last with soft, almost imperceptible, cynicism.
+This lawsuit alleges a slip and fall at Town Square.
 This lease had expired the previous May.
 This left the room in a twilight.
 This letter, however, was written, and sealed, and sent.
@@ -36299,6 +36442,7 @@ Trust you for that!
 Trustees are accountable to stakeholders for their decisions.
 Truth is your only protection.
 Try again: draw a long breath, and shut your eyes.
+Try again?
 Try another subtraction sum.
 Try googling for more recommendations.
 Try it and see.
@@ -36671,6 +36815,7 @@ We all thought it was hilarious.
 We all three went home together next day.
 We allowed unnecessary room.
 We already drove past the rural areas.
+We always encourage communication with your followers.
 We always hear of him at some watering-place or other.
 We always try to take our customers’ likes and dislikes into account.
 We anticipate it will snow tomorrow and advise students to stay at home.
@@ -36753,6 +36898,7 @@ We are still in the nascent phase of implementation.
 We are tackling these challenges on several fronts.
 We are taking the slow route across China.
 We are taught the periodic table in high school.
+We are the leading academy for public diplomacy in the Midwest
 We are the proud parents of three children.
 We are to meet as usual?
 We are travelling at fifteen knots.
@@ -36855,6 +37001,7 @@ We didn't give it the chance to.
 We didn’t know of their women and all that!
 We didn’t think they could do wrong.
 We discerned Linton watching at the same spot he had selected before.
+We discussed the science project at the last meeting.
 We do not charge a fee to transact on our platform.
 We do not get a commission for sales, we're just here to help.
 We do not have any appointments listed under your name.
@@ -36938,6 +37085,7 @@ We have a very committed licensee in Singapore.
 We have all been mistaken over and over again.
 We have all denominations of currency.
 We have already had conversations over Slack chat.
+We have also begun depositions of the Plaintiff and Village staff.
 We have also optimised our supply chain.
 We have arranged an inter-branch transfer of stock.
 We have astonished them already.
@@ -38946,6 +39094,7 @@ Where do you spring from?
 Where do you want me to go?
 Where does discretion end, and avarice begin?
 Where does he live?
+Where does the United States get its cheddar cheese from?
 Where feminine delicacy is gone to, I don’t know!
 Where had the girls gone?
 Where has there been a murder?
@@ -39783,6 +39932,7 @@ Would he have dared?
 Would he, after all, be killed before he saw?
 Would it be a very hard lesson, dear?
 Would it be feasible to expand the scope of this investigation?
+Would it be possible for you to tell me the questions?
 Would it be right for me to do so too?
 Would it not be better to rest now?
 Would make genuine sensation.
@@ -40270,9 +40420,11 @@ You can call model dot summary to see the model structure.
 You can carry it back when you return.
 You can choose either the fruit salad or the cheese
 You can choose the colour Navy or Azure for the baby's bedroom.
+You can clearly hear that.
 You can contemplate your beauty at another time.
 You can convert a currency value from one to another using a conversion factor.
 You can count its three big sails — all red.
+You can do better than that.
 You can do him no good.
 You can do it. Just take baby steps.
 You can do nothing worse to me than you have done.
@@ -41520,6 +41672,7 @@ it was melancholy to leave her to such society!
 like the stone in a peach
 my dear, I am quite delighted with him.
 said I, taking the woman aside.
+the Bet was named after him.
 the constable observes to the audience.
 the judgments which I have formed
 to put me on my guard?
