@@ -414,7 +414,7 @@ export default class DB {
     auth_token?: string
   ): Promise<boolean> {
     const guidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
-    const authRegex = /^[0-9a-f]{40}$/;
+    const authRegex = /^\w{40}$/;
 
     if (!guidRegex.test(id) || (auth_token && !authRegex.test(auth_token))) {
       return false;
