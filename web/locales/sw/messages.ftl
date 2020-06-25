@@ -277,6 +277,7 @@ download-profile = pakua data yangu
 skip-submission-feedback = Ruka marejesho ya uwasilishaji
 off = zima
 on = washa
+avatar-clip-title = Ipe sauti taswira yako ya mtumiaji
 change-your-avatar-clip = unataka kubadilisha kipande cha sauti yako?
 recording-in-progress = Kurekodiwa kwa sauti kunaendelea
 record-voice-wave = Rekodi mawimbi ya sauti
