@@ -217,7 +217,7 @@ export async function authMiddleware(
   const [authType, credentials] = (request.header('Authorization') || '').split(
     ' '
   );
-  if (authType == 'Basic') {
+  if (authType === 'Basic') {
     const [client_id, auth_token] = Buffer.from(credentials, 'base64')
       .toString()
       .split(':');

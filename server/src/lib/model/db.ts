@@ -413,6 +413,13 @@ export default class DB {
     id: string,
     auth_token?: string
   ): Promise<boolean> {
+    const guidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
+    const authRegex = /^\w{40}$/;
+
+    if (!guidRegex.test(id) || (auth_token && !authRegex.test(auth_token))) {
+      return false;
+    }
+
     await this.mysql.query(
       `
         INSERT INTO user_clients (client_id, auth_token)
@@ -499,7 +506,8 @@ export default class DB {
       `UPDATE sentences
         SET has_valid_clip = EXISTS (SELECT * FROM clips WHERE original_sentence_id = ? AND is_valid = 1 LIMIT 1)
           WHERE id = ?`,
-          [id, id]);
+      [id, id]
+    );
   }
 
   async saveClip({
