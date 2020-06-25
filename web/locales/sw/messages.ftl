@@ -287,14 +287,18 @@ delete-voice = futa
 recording-voice-wave = Inarekodi
 delete-voice-clip = Au futa kipande cha sauti
 ready-to-upload = Pakia
+recreate-voice = Tengeneza upya mawimbi  ya sauti
 cancel-avatar-clip-recording = Ghairi
 file_too_large = Faili lililochaguliwa ni kubwa sana
 manage-subscriptions = Dhibitisha Usajili
 manage-email-subscriptions = Dhibitisha Usajili wa Baruapepe
+email-already-used = Baruapepe tayari inatumika kwa akaunti tofauti
 add-language = ongeza lugha
+change-email-setings = Badilisha baruapepe yako kupitia Mipangilio chini ya utambulisho wa kuingia
 
 ## FAQ
 
+faq-title = Maswali yanayoulizwa mara kwa mara
 faq-what-cv-q = common voice ni nini?
 faq-why-important-q = kwanini hii ni ya umuhimu?
 faq-how-get-q = Ninawezaje kupata data ya Common Voice?
