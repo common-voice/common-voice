@@ -61,16 +61,22 @@ html {
                 fill: var(--white);
             }
         }
-        #outer-circle {
+        #outer-circle,
+        #circle-shadow {
             width: 6.875rem;
             height: 6.875rem;
+            opacity: 0.5;
+            position: absolute;
+            z-index: var(--middle-z-index);
+        }
+        #outer-circle {
             border-radius: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            opacity: 0.5;
-            position: absolute;
-            z-index: var(--middle-z-index);
+        }
+        #circle-shadow {
+            filter: blur(34px);
         }
     }
     #kiosk-card--top--gradient-layer {

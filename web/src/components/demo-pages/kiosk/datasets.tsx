@@ -55,6 +55,9 @@ const getDatasetsComponents = (): PageContentType => {
         <div
           id="outer-circle"
           className="demo-datasets-kiosk-top-icon-circle"></div>
+        <div
+          id="circle-shadow"
+          className="demo-datasets-kiosk-top-icon-circle"></div>
       </KioskCard.Top>
       <KioskCard.Body>
         <div id="demo-datasets--card__body">
