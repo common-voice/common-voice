@@ -23,6 +23,7 @@
 
         ul {
             background: var(--lighter-grey);
+            max-height: 430px;
 
             &::-webkit-scrollbar {
                 background-color: var(--grey);
