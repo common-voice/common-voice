@@ -7,6 +7,7 @@ import URLS from '../../urls';
 import Intro from '../demo-pages/intro/intro';
 import getDatasetsComponents from '../demo-pages/kiosk/datasets';
 import getDashboardComponents from '../demo-pages/kiosk/dashboard';
+import getCreateAccountComponents from '../demo-pages/kiosk/create-account';
 
 const Kiosk = React.lazy(() => import('../demo-pages/kiosk/kiosk'));
 
@@ -23,6 +24,10 @@ function DemoLayout() {
             {
               route: URLS.DEMO_DASHBOARD,
               pageContent: getDashboardComponents(),
+            },
+            {
+              route: URLS.DEMO_ACCOUNT,
+              pageContent: getCreateAccountComponents(),
             },
           ].map(({ route, pageContent }, index) => (
             <Route
