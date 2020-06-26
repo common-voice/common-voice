@@ -535,7 +535,7 @@ review-keep-recordings = Keep the recordings
 review-delete-recordings = Delete my recordings
 
 ## Datasets Page
-datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
+datasets-headline = We’re building an open-source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
 datasets-positioning =
     We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
 
@@ -816,3 +816,12 @@ read-more-about = Read more on our About page
 demo-get-started = Let's Get Started
 demo-welcome = Welcome to Common Voice
 demo-welcome-subheader = Interested in learning more and contributing to the project?
+
+## Demo Datasets
+demo-language-select-card-header = Common Voice is the world’s largest publicly available, multi-language voice dataset.
+demo-language-select-card-body = Thanks to contributions from over 259k people in over 50 languages, this data is being used to train speech-enabled applications to better respond to the human voice.
+demo-language-select-card-button = Next
+demo-language-select-label = Browse Languages
+demo-eofy-header = 2019 End-of-Year Release
+demo-eofy-sub_header = Voice Dataset, Ready for Download
+demo-account = Account
