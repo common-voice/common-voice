@@ -826,3 +826,10 @@ demo-language-select-label = Browse Languages
 demo-eofy-header = 2019 End-of-Year Release
 demo-eofy-sub_header = Voice Dataset, Ready for Download
 demo-account = Account
+
+## Demo Account
+demo-account-card-header = Having an account is not required to contribute, though it is helpful. 
+demo-account-card-body = To the right we outline the benefits and clarify what information we make public. Use the links below to get started with a Common Voice account on your own device.
+demo-account-enter-email = 
+.label = Enter email to send a sign up link
+demo-account-sign-up = Send sign up link
