@@ -13,9 +13,9 @@ export default function RegisterSection({
   flipped = false,
   marsSrc,
 }: {
-  children: React.ReactNode[];
+  children?: React.ReactNode[];
   flipped?: boolean;
-  marsSrc: string;
+  marsSrc?: string;
 }) {
   const [locale] = useLocale();
   const [index, setIndex] = useState(0);
@@ -24,11 +24,13 @@ export default function RegisterSection({
   const info = (
     <div className="signup-info">
       <div className="tabs">
-        <img
-          className="waves"
-          src={require('./images/waves.png')}
-          alt="Waves"
-        />
+        {marsSrc && (
+          <img
+            className="waves"
+            src={require('./images/waves.png')}
+            alt="Waves"
+          />
+        )}
         {['benefits', 'whats-public'].map(l => (
           <label key={l}>
             <input
@@ -82,7 +84,7 @@ export default function RegisterSection({
           {info}
         </div>
         <div className="images-container">
-          <img className="mars" src={marsSrc} alt="Mars" />
+          {marsSrc && <img className="mars" src={marsSrc} alt="Mars" />}
           <img
             className="screenshot"
             src={require(`./images/${isBenefits ? 1 : 2}-${index + 1}.png`)}
