@@ -135,7 +135,6 @@
 }
 
 .demo-datasets--eofyr {
-    /* margin-inline-start: var(--right-section-align-padding); */
     padding-inline: var(--right-section-align-padding);
     display: flex;
     flex-direction: column;
