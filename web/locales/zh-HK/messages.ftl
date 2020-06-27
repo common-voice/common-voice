@@ -479,7 +479,7 @@ de-identified-explanation = 在打包下載資料集時，從其所貢獻的語�
 
 ## NotFound
 
-notfound-title = 找不到
+notfound-title = 搵唔到
 notfound-content = 對不起，我不知道您想找甚麽。
 
 ## Data
