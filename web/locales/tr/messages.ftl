@@ -756,6 +756,8 @@ share-n-weekly-contribution-goal = Haftalık { $type } hedefinizi paylaşın: { 
 share-goal-type-speak = Konuşma
 share-goal-type-listen = Dinleme
 share-goal-type-both = Konuşma ve Dinleme
+# LINK will be replaced with the current URL
+goal-share-text = #CommonVoice'a sesimi bağışlıyorum. Siz de bana katılın, makinelere gerçek insanların nasıl konuştuğunu birlikte öğretelim. { $link }
 weekly-goal-created = Haftalık hedefiniz oluşturuldu
 daily-goal-created = Günlük hedefiniz oluşturuldu
 track-progress = İlerlemeyi burada ve istatistikler sayfanızda izleyin.
