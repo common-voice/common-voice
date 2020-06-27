@@ -10,6 +10,7 @@ submit-form-action = Gönder
 loading = Yükleniyor…
 email-opt-in-info = Hedef hatırlatmaları, ilerleme durumum ve Common Voice ile ilgili bültenler gibi e-postalar almak istiyorum.
 email-opt-in-info-title = Common Voice e-posta listesine katılın
+email-opt-in-info-sub-with-challenge = Hedef hatırlatmaları, ilerleme durumu ve Common Voice ile ilgili bültenler gibi e-postalar alın.
 email-opt-in-privacy = E-posta almayı tercih ettiğinizde bu bilgileri Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanmasını kabul etmiş oluyorsunuz.
 indicates-required = * Gerekli alanları gösterir
 not-available-abbreviation = Yok
@@ -337,13 +338,16 @@ avatar-clip-title = Avatarınızı seslendirin
 change-your-avatar-clip = Ses kaydınızı değiştirmek mi istiyorsunuz?
 recording-in-progress = Ses kaydı devam ediyor
 avatar-clip-recorded = Avatarınıza artık ses kaydı ekleyebilirsiniz!
+record-voice-wave = SESİNİZİ KAYDEDİN
 retry-voice-wave-recording = YENİDEN DENE
 re-record = YENİDEN KAYDET
 delete-voice = SİL
 recording-voice-wave = Kaydediliyor
 delete-voice-clip = veya  ses kaydını sil
 ready-to-upload = Yükle
+recreate-voice = Sesinizi yeniden kaydedin
 cancel-avatar-clip-recording = İptal
+about-avatar-clip-recording = Profil resminizin bir parçası olarak ses kaydı oluşturun. Başkaları profilinizin üzerine gelerek kaydı dinleyebilir.
 browse-file-title = Resim dosyası yükle
 browse-file = Sürükleyip bırak veya <browseWrap>göz at</browseWrap>
 connect-gravatar = Gravatar ile bağlan
@@ -353,6 +357,7 @@ manage-subscriptions = Abonelikleri yönet
 manage-email-subscriptions = E-posta aboneliklerini yönet
 email-already-used = Bu e-posta farklı bir hesapta zaten kullanılıyor
 add-language = Dil ekle
+change-email-setings = E-posta adresinizi Ayarlar sayfasından Giriş Kimliği kısmından değiştirebilirsiniz
 
 ## FAQ
 
@@ -604,7 +609,7 @@ share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 keep-track-profile = Profil oluşturarak ilerlemenizi takip edin
 login-to-get-started = Başlamak için giriş yapın veya kaydolun
 target-segment-first-card = İlk hedef segmentimize katkıda bulunuyorsunuz
-target-segment-first-banner = { $locale } dilinde Common Voice'un ilk hedef segmentini oluşturmaya yardımcı olun
+target-segment-first-banner = Common Voice’un ilk { $locale } hedef segmentini oluşturmaya yardımcı olun
 target-segment-add-voice = Sesinizi ekleyin
 target-segment-learn-more = Daha fazla bilgi alın
 
@@ -671,7 +676,7 @@ show-ranking = Sıralamamı göster
 ## Custom Goals
 
 get-started-goals = Hedefinizi oluşturun
-create-custom-goal = Özel Bir Hedef Oluştur
+create-custom-goal = Özel hedef oluştur
 both-speak-and-listen = Her ikisi de
 both-speak-and-listen-long = Her ikisi de (konuşma ve dinleme)
 daily-goal = Günlük hedef
