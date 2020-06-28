@@ -532,6 +532,7 @@ common-voice-info-new = Ёсць пытанні пра Common Voice? Маеце 
 data-other-librispeech-description = LibriSpeech – гэта корпус з прыблізна 1000 гадзін 16 кГц запісаў англійскага маўлення, атрыманых з чытання аўдыёкніг з праекта LibriVox.
 data-other-ted-name = Корпус TED-LIUM
 data-other-ted-description = Корпус TED-LIUM быў створаны з аўдыёзапісаў выступаў і іх транскрыпцый, даступных на сайце TED.
+data-other-voxforge-description = Праект VoxForge быў заснаваны, каб збіраць транскрыбіраванае маўленне для выкарыстання ў рухавіках распазнавання маўлення з адкрытым зыходным кодам.
 data-other-tatoeba-description = Tatoeba – гэта вялікая калекцыя сказаў, перакладаў і аўдыёзапісаў маўлення, якая выкарыстоўваецца ў выкладанні моў. Па спасылцы даступныя запісы маўлення на англійскай мове, зробленыя суполкай Tatoeba.
 your-feedback = Ёсць ідэі, як палепшыць набор дадзеных Common Voice? Напішыце нам у Discourse
 go-discourse = Перайсці ў Discourse
