@@ -1,27 +1,19 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { UserClient } from 'common';
-import API from '../../../services/api';
-import { Notifications } from '../../../stores/notifications';
-import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import { LocaleLink } from '../../locale-helpers';
 import { ArrowLeft } from '../../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput } from '../../ui/ui';
-
+import {
+  SubscribeMapDispatchToProps,
+  SubscribeMapStateToProps,
+  SubscribePropsFromDispatch,
+  SubscribePropsFromState,
+  SubscribeProps,
+} from './types';
 import './subscribe.css';
-
-interface PropsFromState {
-  account: UserClient;
-  api: API;
-}
-
-interface PropsFromDispatch {
-  addNotification: typeof Notifications.actions.addPill;
-}
-
-interface Props extends PropsFromState, PropsFromDispatch {}
+import { Link } from 'react-router-dom';
 
 interface State {
   email: string;
@@ -29,7 +21,7 @@ interface State {
   submitStatus: null | 'submitting' | 'submitted';
 }
 
-class Subscribe extends React.Component<Props, State> {
+class Subscribe extends React.Component<SubscribeProps, State> {
   state: State = { email: '', privacyAgreed: false, submitStatus: null };
 
   emailInputRef = React.createRef<HTMLInputElement>();
@@ -64,7 +56,7 @@ class Subscribe extends React.Component<Props, State> {
   };
 
   render() {
-    const { account } = this.props;
+    const { account, demoMode } = this.props;
     const { submitStatus } = this.state;
     const isEditable = submitStatus == null;
     const email = account ? account.email : this.state.email;
@@ -81,13 +73,14 @@ class Subscribe extends React.Component<Props, State> {
           <h2 />
         </Localized>
         <div>
-          <form onSubmit={this.handleSubmit}>
+          <form onSubmit={this.handleSubmit} id="subscribe-form">
             <Localized id="email-input" attrs={{ label: true }}>
               <LabeledInput
                 value={email}
                 onChange={this.handleEmailChange}
                 disabled={!isEditable || account}
                 type="email"
+                required
                 ref={this.emailInputRef}
               />
             </Localized>
@@ -101,17 +94,19 @@ class Subscribe extends React.Component<Props, State> {
                 !emailInput ||
                 !emailInput.checkValidity()
               }>
-              <Localized id="subscribe">
-                <span className="hidden-md-down" />
-              </Localized>
-              <ArrowLeft className="hidden-lg-up" />
+              {!demoMode && (
+                <Localized id="subscribe">
+                  <span className="hidden-md-down" />
+                </Localized>
+              )}
+              <ArrowLeft className={demoMode ? '' : 'hidden-lg-up'} />
             </Button>
           </form>
           <LabeledCheckbox
             label={
               <Localized
                 id="accept-privacy"
-                elems={{privacyLink: <LocaleLink to={URLS.PRIVACY} blank />}}>
+                elems={{ privacyLink: <LocaleLink to={URLS.PRIVACY} blank /> }}>
                 <span />
               </Localized>
             }
@@ -125,10 +120,7 @@ class Subscribe extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState, PropsFromDispatch>(
-  ({ api, user }: StateTree) => ({
-    account: user.account,
-    api,
-  }),
-  { addNotification: Notifications.actions.addPill }
+export default connect<SubscribePropsFromState, SubscribePropsFromDispatch>(
+  SubscribeMapStateToProps,
+  SubscribeMapDispatchToProps
 )(Subscribe);
