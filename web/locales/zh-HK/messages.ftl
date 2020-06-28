@@ -221,7 +221,7 @@ email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子�
 ## Account Benefits
 
 benefits = 益處
-rich-data = 提供一些人口統計資料，可讓您提交的數據更加豐富。我們會在公開錄音檔前，將這些統計資料去識別化。
+rich-data = 提供一啲人口統計資料，可令你提交嘅數據更加豐富。我們會喺公開錄音檔前，將呢啲統計資料去識別化。
 improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確度時用的語音數據。
 keep-track = 跟蹤你嘅進度，以及各種語言嘅統計指標。
 compare-progress = 睇下您的進度同全球其他貢獻者如何相比。
@@ -791,7 +791,7 @@ profile-form-delete = 刪除個人檔案
 ## Landing
 
 welcome-staff = 歡迎 { $company } 嘅員工！
-help-contribute = 你可以透過創立一個 Common Voice 帳戶並貢獻錄音，從而協助我們建立一個多元、開放源碼的數據集。
+help-contribute = 你可以透過創立一個 Common Voice 帳戶並貢獻錄音，嚟協助我哋建立一個多元、開放源碼嘅數據集。
 login-company = 以 { $company } 電郵登入 / 註冊
 profile-not-required = 唔需要成立個人檔案即可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
 read-more-about = 去關於我哋嘅頁面瞭解更多
