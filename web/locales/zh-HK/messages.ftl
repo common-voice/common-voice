@@ -226,7 +226,7 @@ improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確�
 keep-track = 跟蹤你嘅進度，以及各種語言嘅統計指標。
 compare-progress = 睇下您的進度同全球其他貢獻者如何相比。
 view-goals = 檢視個人和整個計劃的目標進度。
-join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的進度更新與新資訊。
+join-newsletter = 你都可以加入我哋嘅電郵群組，嚟接收計劃嘅進度更新同新資訊。
 
 ## What's public
 
@@ -480,13 +480,13 @@ de-identified-explanation = 在打包下載資料集時，從其所貢獻的語�
 ## NotFound
 
 notfound-title = 搵唔到
-notfound-content = 對不起，我不知道您想找甚麽。
+notfound-content = 唔好意思，我唔知您搵緊乜。
 
 ## Data
 
 data-download-button = 下載 Common Voice 數據
 data-download-yes = 好
-data-download-deny = 不好
+data-download-deny = 唔好
 data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
 data-download-modal = 您將會下載 <size>{ $size } GB</size> 嘅檔案，下唔下載？
 data-subtitle = 我們正在打造一套開放、可公開使用的語音數據集，讓每個人都可用來訓練有語音功能的應用程式。
@@ -744,7 +744,7 @@ pro-difficulty = 專業級
 lose-goal-progress-warning = 編輯目標後，可能會失去現有進度。
 want-to-continue = 你要繼續嗎？
 finish-editing = 要完成編輯嗎？
-lose-changes-warning = 現在離開將不會儲存您的變更
+lose-changes-warning = 而家離開將唔會儲存你嘅變更
 build-custom-goal = 度身訂做目標
 help-reach-hours = 建立個人目標，為{ $language }貢獻{ NUMBER($hours) }小時嘅錄音。
 help-reach-hours-general = 設定個人目標，幫手讓 Common Voice 當中的語言時數達到 { NUMBER($hours) } 小時
