@@ -493,6 +493,7 @@ review-delete-recordings = Выдаліць мае запісы
 
 ## Datasets Page
 
+datasets-headline = Мы ствараем адкрыты шматмоўны набор галасавых дадзеных, які кожны зможа выкарыстаць для распрацоўкі праграм з функцыяй распазнавання маўлення.
 language = Мова
 # File size in gigabytes
 size = Памер
