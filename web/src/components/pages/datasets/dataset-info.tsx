@@ -25,17 +25,13 @@ import {
   TextButton,
 } from '../../ui/ui';
 import CircleStats from './circle-stats';
-import stats from './stats';
+import releases from './stats';
 import { DatasetPropsFromState, DownloadFormProps } from './types';
 import './dataset-info.css';
 import URLS from '../../../urls';
 
-const languages = Object.keys(stats.locales).length;
-const globalStats = {
-  total: stats.totalHrs,
-  valid: stats.totalValidHrs,
-  languages,
-};
+const CURRENT_RELEASE = 'cv-corpus-4-2019-12-10';
+const stats = releases[CURRENT_RELEASE];
 
 const DEFAULT_CATEGORY_COUNT = 2;
 
@@ -141,9 +137,11 @@ function renderStats(
     'audio-format': 'MP3',
     splits: Object.entries(localeStats.splits)
       .filter(([, values]) => Object.keys(values).length > 1)
-      .map(([category, values]) => (
+      .map(([category, values]: [string, {[key: string]: number}]) => {
+        return (
         <Splits key={category} {...{ category, values, bundleLocale }} />
-      )),
+      )
+      }),
   }).map(([id, value]) => (
     <li key={id}>
       <Localized id={id}>
@@ -226,14 +224,16 @@ const DatasetsDownload = ({ getString, api }: DownloadFormProps) => {
 
   const saveHasDownloaded = async () => {
     // @TODO - why are we awaiting??
-    console.log(
-      Object.keys(stats.locales)
-        .map(locale =>
-          stats.bundleURLTemplate.replace('{locale}', bundleLocale)
-        )
-        .join(' ')
-    );
-    await api.forLocale(bundleLocale).saveHasDownloaded(email);
+    // console.log(
+    //   Object.keys(stats.locales)
+    //     .map(locale =>
+    //       stats.bundleURLTemplate.replace('{locale}', bundleLocale)
+    //     )
+    //     .join(' ')
+    // );
+
+    console.log(bundleLocale);
+    await api.forLocale(bundleLocale).saveHasDownloaded(email, CURRENT_RELEASE);
   };
 
   const showEmailForm = () =>
@@ -326,6 +326,13 @@ const DatasetsDownload = ({ getString, api }: DownloadFormProps) => {
 };
 
 export const DatasetsDescription = () => {
+  const languages = Object.keys(stats.locales).length;
+  const globalStats = {
+    total: stats.totalHrs,
+    valid: stats.totalValidHrs,
+    languages,
+  };
+
   return (
     <>
       <CircleStats {...globalStats} className="hidden-md-down" />
