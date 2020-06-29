@@ -3,8 +3,7 @@ import { config, S3 } from 'aws-sdk';
 
 const awsDefaults = {
   signatureVersion: 'v4',
-  useDualstack: true,
-  logger: console
+  useDualstack: true
 }
 
 if (process.env.HTTP_PROXY) {

@@ -1,6 +1,7 @@
 @import url('../../vars.css');
 
-.dataset-info {
+.dataset-info,
+#demo-datasets-content-container {
     & .top {
         display: flex;
         position: relative;
@@ -249,7 +250,6 @@
                     fill: var(--black);
                 }
             }
-
         }
 
         & .why-email {
@@ -325,7 +325,11 @@
             & .line {
                 width: 70px;
                 height: 3px;
-                background: linear-gradient(to right, var(--gradient-pink), var(--gradient-purple));
+                background: linear-gradient(
+                    to right,
+                    var(--gradient-pink),
+                    var(--gradient-purple)
+                );
 
                 @media (--md-down) {
                     margin-bottom: 20px;

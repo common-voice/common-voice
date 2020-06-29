@@ -829,12 +829,12 @@ export default class DB {
     );
   }
 
-  async insertDownloader(locale: string, email: string) {
+  async insertDownloader(locale: string, email: string, dataset: string) {
     await this.mysql.query(
       `
-        INSERT IGNORE INTO downloaders (locale_id, email) VALUES (?, ?)
+        INSERT IGNORE INTO downloaders (locale_id, email, dataset_id) VALUES (?, ?, (SELECT id FROM datasets WHERE release_dir = ?))
       `,
-      [await getLocaleId(locale), email]
+      [await getLocaleId(locale), email, dataset]
     );
   }
 

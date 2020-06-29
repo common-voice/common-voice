@@ -111,7 +111,7 @@ export default class API {
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
 
-    router.post('/:locale/downloaders/:email', this.insertDownloader);
+    router.post('/:locale/downloaders', this.insertDownloader);
 
     router.post('/reports', this.createReport);
 
@@ -410,10 +410,10 @@ export default class API {
   };
 
   insertDownloader = async (
-    { client_id, params }: Request,
+    { client_id, params, body }: Request,
     response: Response
   ) => {
-    await this.model.db.insertDownloader(params.locale, params.email);
+    await this.model.db.insertDownloader(params.locale, body.email, body.dataset);
     response.json({});
   };
 

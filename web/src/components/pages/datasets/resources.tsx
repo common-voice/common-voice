@@ -139,7 +139,6 @@ export default React.memo(() => {
           name={NAV_IDS.getStarted}
           onChangeIntersection={handleIntersectionChange}
           className="get-started">
-
           <div key="deepspeech-info" className="box">
             <img src={require(`./images/deepspeech.png`)} />
             <div className="dots-and-content">
@@ -148,8 +147,7 @@ export default React.memo(() => {
                 <h2>
                   <StyledLink
                     href="https://discourse.mozilla.org/c/deep-speech"
-                    blank
-                  >
+                    blank>
                     DeepSpeech
                   </StyledLink>
                 </h2>
@@ -185,9 +183,11 @@ export default React.memo(() => {
                     Discourse
                   </StyledLink>
                 </h2>
-                <Localized id="common-voice-info-new" elems={{
-                  discourseLink: <StyledLink href={discourseURL} blank />,
-                }}>
+                <Localized
+                  id="common-voice-info-new"
+                  elems={{
+                    discourseLink: <StyledLink href={discourseURL} blank />,
+                  }}>
                   <p />
                 </Localized>
               </div>
