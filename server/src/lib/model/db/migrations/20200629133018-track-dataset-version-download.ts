@@ -21,12 +21,12 @@ export const up = async function (db: any): Promise<any> {
 
     INSERT INTO datasets(name, release_dir, multilingual, bundle_date, release_date)
     	VALUES
-	    	('Common Voice Corpus 1', 'cv-corpus-1', TRUE, '2019-02-25', '2019-02-25'),
-	    	('Common Voice Corpus 2', 'cv-corpus-2', TRUE, '2019-06-11', '2019-06-11'),
-	    	('Common Voice Corpus 3', 'cv-corpus-3', TRUE, '2019-06-24', '2019-06-24'),
-	    	('Common Voice Corpus 4', 'cv-corpus-4-2019-12-10', TRUE, '2019-12-10', '2020-01-14'),
-	    	('Common Voice Corpus 5', 'cv-corpus-5-2020-06-22', TRUE, '2020-06-22', '2020-06-30'),
-	    	('Common Voice Singleword Segment', 'cv-corpus-5-singleword', FALSE, '2020-06-22', '2020-06-30'),
+        ('Common Voice Corpus 1', 'cv-corpus-1', TRUE, '2019-02-25', '2019-02-25'),
+        ('Common Voice Corpus 2', 'cv-corpus-2', TRUE, '2019-06-11', '2019-06-11'),
+        ('Common Voice Corpus 3', 'cv-corpus-3', TRUE, '2019-06-24', '2019-06-24'),
+        ('Common Voice Corpus 4', 'cv-corpus-4-2019-12-10', TRUE, '2019-12-10', '2020-01-14'),
+        ('Common Voice Corpus 5', 'cv-corpus-5-2020-06-22', TRUE, '2020-06-22', '2020-06-30'),
+        ('Common Voice Singleword Segment', 'cv-corpus-5-singleword', FALSE, '2020-06-22', '2020-06-30')
 
   `);
 };
