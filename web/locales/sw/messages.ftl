@@ -367,6 +367,7 @@ download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
 subscribe = Jiandikishe
+ready-to-validate = Uko tayari kusaidia kuhalalisha sentensi?
 more = Zaidi
 close = Funga
 download = Pakua
@@ -424,7 +425,14 @@ shortcuts = Njia za mkato
 record-cta = anza kurekodi
 record-must-allow-microphone = Lazima uruhusu kinasa sauti kutumiwa
 record-no-mic-found = Hakuna kinasa sauti kilichopatikana
+record-error-too-short = Rekodi ilikua ya mda mfupi sana.
+record-error-too-long = Rekodi ilikua ya mda mrefu sana
+record-error-too-quiet = Rekodi ilikua ya kimya sana
+record-three-more-instruction = Tatu kumaliza!
+record-again-instruction = Vizuri!<recordIcon></recordIcon>Rekodi kipande kinachofata.
+record-last-instruction = <recordIcon></recordIcon> ya mwisho!
 clips-uploaded = Vipande vilivyo pakiwa
+record-abort-title = Maliza kurekodi kwanza?
 
 ## Reporting
 
