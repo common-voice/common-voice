@@ -497,6 +497,7 @@ data-bundle-button = Last ned datasettene
 data-bundle-description = Common Voice-datasettet pluss alle andre stemmedatasett over.
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
+data-download-singleword-title = Last ned målsegmentet for ett ord
 review-terms = Ved å bruke Common Voice, godkjenner du <termlink>vilkårene</termlink> og <privacyLink>personvernbestemmelsen</privacyLink> vår
 terms-agree = Jeg godtar
 terms-disagree = Jeg godtar ikke
