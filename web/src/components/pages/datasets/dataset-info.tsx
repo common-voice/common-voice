@@ -427,12 +427,10 @@ const DatasetSegmentDownload = ({
       <div className="dataset-segment-intro">
 
         <h2 className="dataset-segment-callout">
-          Download the Single Word Target Segment
+          <Localized id="data-download-singleword-title" />
         </h2>
         <p>
-          This is a use case driven segment containing data to power spoken
-          digit recognition, yes/no detection, and wakeword testing data for
-          Firefox Voice.
+          <Localized id="data-download-singleword-callout" />
         </p>
       </div>
       <div className="dataset-segment-stats">
