@@ -4,8 +4,11 @@ const releases = [
   'cv-corpus-5-2020-06-22',
 ];
 
-export default releases.reduce((statsObj: any, releaseName) => {
-  const { stats } = require(`./releases/${releaseName}`);
-  statsObj[releaseName] = stats;
-  return statsObj;
-}, {});;
+export default releases.reduce(
+  (statsObj: { [key: string]: any }, releaseName: string) => {
+    const { stats } = require(`./releases/${releaseName}`);
+    statsObj[releaseName] = stats;
+    return statsObj;
+  },
+  {}
+);
