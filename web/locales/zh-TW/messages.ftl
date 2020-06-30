@@ -500,6 +500,7 @@ data-bundle-description = Common Voice 資料，以及上面列出的所有其�
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
 license-mixed = 混和
 data-download-singleword-title = 下載單字目標字串
+data-download-singleword-callout = 這是以使用情境為導向的字串集，當中包含用來提供 Firefox Voice 進行語音數字辨識、偵測是/否、喚醒詞等功能的測試資料。
 review-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
