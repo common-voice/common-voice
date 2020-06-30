@@ -121,9 +121,9 @@ export default class Clip {
    * TODO: Check for empty or silent clips before uploading.
    */
   saveClip = async (request: Request, response: Response) => {
-    const { client_id, headers, params } = request;
-    const sentence = decodeURIComponent(headers.sentence as string);
-    const sentenceId = headers.sentence_id;
+    const { client_id, headers } = request;
+    const sentenceId = headers.sentence_id as string;
+    const sentence = await this.model.db.findSentence(sentenceId);
 
     if (!client_id || !sentence || !sentenceId) {
       console.log(`sent headers: ${JSON.stringify(headers)}`);
@@ -176,14 +176,14 @@ export default class Clip {
 
       await this.model.saveClip({
         client_id: client_id,
-        locale: params.locale,
+        locale: sentence.locale_id,
         original_sentence_id: sentenceId,
         path: clipFileName,
-        sentence,
+        sentence: sentence.text,
       });
-      await Awards.checkProgress(client_id, { name: params.locale });
+      await Awards.checkProgress(client_id, { id: sentence.locale_id });
 
-      await checkGoalsAfterContribution(client_id, { name: params.locale });
+      await checkGoalsAfterContribution(client_id, { id: sentence.locale_id });
 
       Basket.sync(client_id).catch(e => console.error(e));
 

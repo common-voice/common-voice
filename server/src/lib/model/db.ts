@@ -512,20 +512,18 @@ export default class DB {
 
   async saveClip({
     client_id,
-    locale,
+    localeId,
     original_sentence_id,
     path,
     sentence,
   }: {
     client_id: string;
-    locale: string;
+    localeId: number;
     original_sentence_id: string;
     path: string;
     sentence: string;
   }): Promise<void> {
     try {
-      const localeId = await getLocaleId(locale);
-
       await this.mysql.query(
         `
           INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id)
@@ -718,6 +716,14 @@ export default class DB {
   async findClip(id: string) {
     return (
       await this.mysql.query('SELECT * FROM clips WHERE id = ? LIMIT 1', [id])
+    )[0][0];
+  }
+
+  async findSentence(id: string) {
+    return (
+      await this.mysql.query('SELECT * FROM sentences WHERE id = ? LIMIT 1', [
+        id,
+      ])
     )[0][0];
   }
 
