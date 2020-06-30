@@ -10,7 +10,7 @@ import getLeaderboard from './model/leaderboard';
 import { earnBonus, hasEarnedBonus } from './model/achievements';
 import * as Basket from './basket';
 import Bucket from './bucket';
-import { ClientParameterError } from './utility';
+import { ClientParameterError, ServerError } from './utility';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
@@ -79,9 +79,19 @@ export default class Clip {
     const id = params.clipId as string;
     const { isValid, challenge } = body;
 
-    const clip = await this.model.db.findClip(id);
-    if (!clip || !client_id) {
+    if (!id || !client_id) {
+      response.statusMessage = 'save_clip_vote_missing_parameter';
+      response
+        .status(400)
+        .send(`Missing parameter: ${id ? 'client_id' : 'clip_id'}.`);
       throw new ClientParameterError();
+    }
+
+    const clip = await this.model.db.findClip(id);
+    if (!clip) {
+      response.statusMessage = 'save_clip_vote_missing_clip';
+      response.status(422).send(`Clip not found: ${id}.`);
+      throw new ServerError();
     }
 
     const glob = clip.path.replace('.mp3', '');
@@ -123,11 +133,22 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
     const sentenceId = headers.sentence_id as string;
-    const sentence = await this.model.db.findSentence(sentenceId);
-
-    if (!client_id || !sentence || !sentenceId) {
+    if (!sentenceId || !client_id) {
+      response.statusMessage = 'save_clip_missing_parameter';
+      response
+        .status(400)
+        .send(
+          `Missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}.`
+        );
       console.log(`sent headers: ${JSON.stringify(headers)}`);
       throw new ClientParameterError();
+    }
+
+    const sentence = await this.model.db.findSentence(sentenceId);
+    if (!sentence) {
+      response.statusMessage = 'save_clip_missing_sentence';
+      response.status(422).send(`Sentence not found: ${sentenceId}.`);
+      throw new ServerError();
     }
 
     // Where is our audio clip going to be located?

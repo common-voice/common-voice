@@ -721,9 +721,10 @@ export default class DB {
 
   async findSentence(id: string) {
     return (
-      await this.mysql.query('SELECT * FROM sentences WHERE id = ? LIMIT 1', [
-        id,
-      ])
+      await this.mysql.query(
+        'SELECT locale_id, text FROM sentences WHERE id = ? LIMIT 1',
+        [id]
+      )
     )[0][0];
   }
 
