@@ -433,9 +433,16 @@ record-again-instruction = Vizuri!<recordIcon></recordIcon>Rekodi kipande kinach
 record-last-instruction = <recordIcon></recordIcon> ya mwisho!
 clips-uploaded = Vipande vilivyo pakiwa
 record-abort-title = Maliza kurekodi kwanza?
+record-abort-submit = Tuma vipande
+record-button-label = Rekodi sauti yako
 
 ## Reporting
 
+report-different-language = Lugha tofauti
+report-different-language-detail = Imeandikwa kwa lugha ambayo ni tofauti na ninayoongea.
+report-difficult-pronounce = Vigumu kutamka
+report-other-comment =
+    .placeholder = Toa maoni
 continue = Endelea
 
 ## Goals
@@ -448,17 +455,33 @@ days =
 
 ## Dashboard
 
+your-languages = Lugha zako
 you = Wewe
 everyone = Kila mtu
 
 ## Custom Goals
 
+both-speak-and-listen = Zote mbili
+both-speak-and-listen-long = Zote mbili (kuongea na kusikiliza)
+daily-goal = Lengo la kila siku.
+weekly-goal = Lengo la kila wiki
 easy-difficulty = Rahisi
 average-difficulty = Wastani
 difficult-difficulty = Ngumu
+set-a-goal = Weka lengo
+how-many-per-day = Vizuri! Vipande vingapi vya sauti kwa siku?
+how-many-a-week = Vizuri! Vipande vingapi vya sauti kwa wiki?
+which-goal-type = Unataka kuongea, usikiliza au zote mbili?
+confirm-goal = Thibitisha lengo
+goal-interval-weekly = Kila wiki
+share-goal-type-speak = Kuongea
+share-goal-type-listen = Kusikiliza
+share-goal-type-both = Kuongea na kusikiliza
 
 ## Profile Delete
 
+keep = Hifadhi
+remove = Ondoa
 
 ## Landing
 
