@@ -52,6 +52,8 @@ let localeIds: { [name: string]: number };
 let termIds: { [name: string]: number };
 
 export async function getLocaleId(locale: string): Promise<number> {
+  if (locale === 'overall') return null;
+
   if (!localeIds) {
     const [rows] = await getMySQLInstance().query(
       'SELECT id, name FROM locales'
