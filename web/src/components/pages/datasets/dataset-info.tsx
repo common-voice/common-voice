@@ -435,7 +435,12 @@ const DatasetSegmentDownload = ({
         <Localized
           id="data-download-singleword-callout"
           elems={{
-            fxLink: <LocaleLink href="https://voice.mozilla.org/firefox-voice/" blank></LocaleLink>,
+            fxLink: (<a
+              href="https://voice.mozilla.org/firefox-voice"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Firefox Voice">
+              ></a>),
           }}>
           <p id="description-hours" />
         </Localized>
