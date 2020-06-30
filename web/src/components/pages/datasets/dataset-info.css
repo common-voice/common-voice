@@ -264,10 +264,7 @@
         min-width: 300px;
         display: inline-flex;
         justify-content: space-between;
-
-        @media (--lg-up) {
-            margin-bottom: 80px;
-        }
+        margin-bottom: 20px;
 
         &:not([href]) {
             background: var(--warm-grey);
@@ -319,8 +316,6 @@
             @media (--md-down) {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                text-align: center;
             }
 
             .line {
@@ -366,7 +361,7 @@
 
     .labeled-checkbox {
         margin-top: 0.75rem;
-        margin-bottom: 0.75rem;
+        margin-bottom: 2rem;
     }
 
     .checksum {
@@ -390,7 +385,6 @@
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    background: url('./segment-dots.svg') no-repeat top left;
 
     @media (--lg-up) {
         flex-direction: row;
@@ -411,14 +405,19 @@
     @media (--lg-up) {
         width: 37.5%;
         padding-inline-end: 3rem;
-        padding-top: 6rem;
+        padding-top: 7rem;
         padding-bottom: 4rem;
+    }
+
+    #description-hours a {
+        color: #fff;
+        text-decoration: underline;
     }
 }
 
 .dataset-segment-callout {
     font-size: var(--font-size-max);
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     line-height: 1.1;
 }
 
@@ -533,21 +532,33 @@
 
 .dataset-download-prompt {
     display: flex;
-    flex-direction: row;
     flex-flow: row wrap;
     margin-top: 1rem;
+    height: 100%;
 
     .show-email-wrapper {
-        flex-direction: column;
+        display: flex;
+        height: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .show-email-button,
+    .why-email {
+        width: auto;
+    }
+
+    .show-email-form {
+        margin-bottom: 0;
+    }
+
+    .why-email {
+        margin-inline-start: 2rem;
     }
 
     .show-email-form {
         width: auto;
         white-space: nowrap;
-    }
-
-    .why-email {
-        width: 100%;
     }
 
     .checksum {

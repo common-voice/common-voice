@@ -296,12 +296,14 @@ const DownloadEmailPrompt = ({
     <>
       {hideEmailForm ? (
         <div className="show-email-wrapper">
-          <Button className="show-email-form" rounded onClick={showEmailForm}>
-            <Localized id="email-to-download">
-              <span />
-            </Localized>
-            <CloudIcon />
-          </Button>
+          <div className="show-email-button">
+            <Button className="show-email-form" rounded onClick={showEmailForm}>
+              <Localized id="email-to-download">
+                <span />
+              </Localized>
+              <CloudIcon />
+            </Button>
+          </div>
           <Localized id="why-email" elems={{ b: <b /> }}>
             <p className="why-email" />
           </Localized>
@@ -341,9 +343,6 @@ const DownloadEmailPrompt = ({
             checked={confirmNoIdentify}
             onChange={handleInputChange}
           />
-          <div className="checksum">
-            <strong>sha256 checksum</strong>: {bundleState.checksum}
-          </div>
           <LinkButton
             href={downloadLink}
             onClick={saveHasDownloaded}
@@ -357,6 +356,9 @@ const DownloadEmailPrompt = ({
             </Localized>
             <CloudIcon />
           </LinkButton>
+          <div className="checksum">
+            <strong>sha256 checksum</strong>: {bundleState.checksum}
+          </div>
         </>
       )}
     </>
@@ -430,7 +432,15 @@ const DatasetSegmentDownload = ({
           <Localized id="data-download-singleword-title" />
         </h2>
         <p>
-          <Localized id="data-download-singleword-callout" />
+        <Localized
+          id="data-download-singleword-callout"
+          elems={{
+            fxLink: <LocaleLink href="https://voice.mozilla.org/firefox-voice/" blank></LocaleLink>,
+          }}>
+          <p id="description-hours" />
+        </Localized>
+
+
         </p>
       </div>
       <div className="dataset-segment-stats">
@@ -457,7 +467,7 @@ const DatasetSegmentDownload = ({
             <CircleStat
               className="languages"
               label="languages"
-              value={Object.keys(stats.locales).length}
+              value={Object.keys(stats.locales).filter((locale) => locale !== releaseName).length}
               icon={<GlobeIcon />}
               {...dotSettings}
             />
