@@ -1,3 +1,4 @@
+"Tårta på tårta" och "kaka på kaka" betyder samma sak.
 Absolut inte sin egen bror.
 Affärer, min vän.
 Afred, var har du varit?
@@ -312,6 +313,7 @@ Det enda sättet är att förstöra sköldsystemet där.
 Det fanns mycket värdefullt i den asken.
 Det finns bara en väg ner.
 Det finns en pool här.
+Det finns flera stora kedjor som säljer elektronik, men de har minskat över åren.
 Det finns inga pengar för lärare.
 Det finns inga tecken på liv.
 Det finns ingen för dig.
@@ -327,6 +329,7 @@ Det finns inget, inget för dig.
 Det finns kanske bevis där inne.
 Det finns saker som jag vet som inte du vet.
 Det finns till och med individuella sovplatser, så oroa dig inte.
+Det finns tusentals arter av myror ute i naturen.
 Det finns två.
 Det finns åtminstone ett dussin bomber på den här kartan.
 Det fixar biffen.
@@ -1642,6 +1645,7 @@ Finns det något kassaskåp här?
 Finns det några böcker om dynamor?
 Finns det nåt i teckningarna som du känner igen?
 Finns företaget tack vare henne?
+Finska kriget är en viktig del av svensk historia.
 Fler loggar in.
 Fly medan du kan, lita på mig.
 Flyg ut ur fönstret!
@@ -1705,6 +1709,7 @@ Följ med mig!
 Följ med mig.
 Följande år växer det exponentiellt.
 Följer du med mig?
+Följer du med på after-work sen?
 För Guds skull.
 För all del.
 För att det är galet nog.
@@ -3843,8 +3848,11 @@ Men, lades det där ut?
 Menar du att ljuga för mig?
 Menar du det?
 Menar du livet efter döden?
+Min balkong kryllar av husflugor när de vaknar upp under våren.
 Min berättelse utspelar sig under början av nittio talet.
 Min blåsa är stor som en jordnöt.
+Min brorson lär sig spela piano i skolan.
+Min bärbara dator är blå, men har några år på nacken.
 Min exmakes pappa.
 Min familj behöver det.
 Min far ska betala.
@@ -4058,6 +4066,7 @@ Ni är verkligen duktiga!
 Ni öppnar ställen så folk inte ens kommer in.
 Ni övervärderar tyvärr mitt inflytande.
 Nja, jag fick packa för ett kallare klimat.
+Norrbottningar tycker att allt söder om Sundsvall är Stockholm.
 Nu beställer vi efterrätt.
 Nu blev helgen lite bättre.
 Nu börjar jag.
@@ -4600,9 +4609,11 @@ Stan till flygplatsen.
 Stanna här med.
 Stanna, eller så.
 Stannar vi så dör vi.
+Statistiska centralbyrån har ansvar för att föra statistik över mycket här i Sverige.
 Stick med dig!
 Stick, för fan!
 Stipendieungarna är respektabla.
+Stockholmare tycker att allt norr om Gävle är Norrland.
 Stor och ful, precis som vår bakgrund.
 Strax är det klart.
 Struntar alla andra i reglerna?!
@@ -4617,6 +4628,7 @@ Suger in julstämningen.
 Svara du.
 Svara i telefon, Peter!
 Svaret finns nog i relationen.
+Sverige har få farliga djur ute i vildmarken jämfört med resten av världen.
 Svårt att parkera?
 Synd, han är ju där.
 Säg att han inte tar bort evakueringsordern förrän alla bomber är inlåsta.
@@ -5655,6 +5667,7 @@ rappa på!
 Äckligt, jag vet.
 Älskling, vi tar sportbilen.
 Älskling, är allt som det ska?
+Älvsbyn, Piteå, Luleå, och Boden utgör fyrkanten i Norrbottens län.
 Ända sen vi blev ett team har allt gått åt helvete.
 Ändrade du dig?
 Äntligen har jag hittat er.
