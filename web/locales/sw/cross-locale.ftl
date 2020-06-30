@@ -13,4 +13,4 @@ get-involved-stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na te
 get-involved-privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma zaidi katika <privacyLink> sera yetu ya faragha </privacyLink>.
 get-involved-success-title = Umefanikiwa katika usajilli wako wa kuchangia kwa { $lugha }. Asante.
 get-involved-success-text = Tutawasiliana na habari zaidi kadiri inavyopatikana.
-get-involved-return-to-languages = Rudi kwa Lugha
+get-involved-return-to-languages = Rudi kwenye sehemu ya Lugha

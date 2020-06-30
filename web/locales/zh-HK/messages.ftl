@@ -2,7 +2,7 @@
 
 yes-receive-emails = 好，寄電郵畀我。我想繼續收到同 Common Voice 計劃有關嘅資訊。
 stayintouch = 喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。
-privacy-info = 我哋保證會小心處理您嘅資訊。如果要了解更多，請閲讀我們嘅<privacyLink>私隱權公告</privacyLink>。
+privacy-info = 我哋保證會小心處理你嘅資訊。如果要瞭解更多，請閲讀我哋嘅<privacyLink>私隱權公告</privacyLink>。
 return-to-cv = 返回 Common Voice
 email-input =
     .label = 電郵
@@ -170,9 +170,9 @@ logout = 登出
 
 ## Home Page
 
-home-title = Common Voice 計劃係由 Mozilla 發起嘅，想幫機械學識好似真人咁發聲。
-home-cta = 在此貢獻您的聲音！
-wall-of-text-start = 語音係自然、有人性的。所以我們非常希望為機器建立可用的語音技術，但建立語音系統需要非常大量的語音數據。
+home-title = Common Voice 計劃係由 Mozilla 發起嘅，用嚟幫機械學識好似真人咁發聲。
+home-cta = 喺呢度貢獻你嘅聲音！
+wall-of-text-start = 語音係自然、有人性嘅。所以我哋非常希望為機器建造可用嘅語音技術，但建造語音系統需要非常大量嘅語音數據。
 wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
 wall-of-text-more-desktop =
     現在您可以將自己的聲音捐畀我哋，以幫助打造開放源碼的語音資料庫，讓任何人都可以為裝置和互聯網打造嶄新的應用程式。<lineBreak></lineBreak>
@@ -182,11 +182,11 @@ wall-of-text-second = 大部分現成的數據由大公司擁有，並未開放�
 show-wall-of-text = 瞭解更多
 help-us-title = 請幫我哋驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？
-no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一些聲音。
+no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一啲聲音。
 vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
-speak-subtitle = 貢獻你嘅聲音
+speak-subtitle = 捐出你嘅聲音
 speak-paragraph = 錄音係我哋建立開放數據集時不可否缺的一部分，亦係好多人覺得最好玩的一部分！
 speak-goal-text = 段新錄音
 listen-subtitle = 幫我哋驗證錄音
@@ -194,7 +194,7 @@ listen-paragraph = 驗證他人錄下的錄音片段，對 Common Voice 的使�
 listen-goal-text = 段錄音成功被驗證
 hours-recorded = 個小時的錄音
 hours-validated = 個小時已被驗證的錄音
-voices-online = 宜家在線嘅人聲
+voices-online = 而家在線嘅人聲
 todays-progress = 今日嘅進度
 help-reach-goal = 幫我哋達到 { $goal }
 read-terms-q = 睇咗我哋嘅條款未？
@@ -213,7 +213,7 @@ x-years-short =
     { $count ->
        *[other] 年
     }
-help-make-dataset = 幫我們打造一個高品質、可公開使用的數據集
+help-make-dataset = 幫我哋打造一個高品質、開放畀公眾使用嘅數據集
 sign-up-account = 註冊帳戶
 email-subscription-title = 訂閱最新消息電子報
 email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子報、目標提醒、同進度更新。
@@ -221,18 +221,18 @@ email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子�
 ## Account Benefits
 
 benefits = 益處
-rich-data = 提供一些人口統計資料，可讓您提交的數據更加豐富。我們會在公開錄音檔前，將這些統計資料去識別化。
+rich-data = 提供一啲人口統計資料，可令你提交嘅數據更加豐富。我們會喺公開錄音檔前，將呢啲統計資料去識別化。
 improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確度時用的語音數據。
-keep-track = 跟蹤您的進度，以及各種語言的統計指標。
-compare-progress = 睇下您的進度同全球其他貢獻者如何相比
+keep-track = 跟蹤你嘅進度，以及各種語言嘅統計指標。
+compare-progress = 睇下您的進度同全球其他貢獻者如何相比。
 view-goals = 檢視個人和整個計劃的目標進度。
-join-newsletter = 您也可以加入我們的電郵群組，可收到計劃的進度更新與新資訊。
+join-newsletter = 你都可以加入我哋嘅電郵群組，嚟接收計劃嘅進度更新同新資訊。
 
 ## What's public
 
-whats-public = 有哪些資料會公開？
-email-not-public = 我們不會公開您的電郵地址。
-recordings-and-locale-public = 你貢獻嘅錄音數量，以及貢獻咗邊幾種語言，都會係公開的。
+whats-public = 有邊啲資料會公開？
+email-not-public = 我哋唔會公開你嘅電郵地址。
+recordings-and-locale-public = 你貢獻嘅錄音數量，以及貢獻咗邊幾種語言，都會係公開嘅。
 username-optin-public = 你可以選擇公開你嘅賬戶名稱，或保持匿名。
 demographic-deidentified-clarity = 所有可選性提供的人口統計資料，絕不會在您的個人檔案上公開，也不會在數據集中有所關聯。每一片獨立的錄音才會和您提交的人口統計資料挂鈎，讓來提供更準確的分析 -- 例如學者可能想訓練一個針對某部分人口的機器訓練模型。
 username-email-not-demographic = 您的賬戶名稱和電郵地址不會跟公開發布的數據有掛鉤。
@@ -272,7 +272,7 @@ status-title = 計劃狀態：睇下我哋做到邊到！
 status-contribute = 貢獻您把聲
 status-hours =
     { $hours ->
-       *[other] 目前已驗證了 { $hours } 小時！
+       *[other] 驗證咗 { $hours } 個鐘！
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -377,7 +377,7 @@ faq-when-release2-q = 你哋幾時會發布其他語言的 Common Voice 數據�
 faq-when-release2-a = 我們正動員群眾，整理不同語言的 Common Voice 數據庫。如果你也希望為 Common Voice 的新語言出一分力，可以用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink> 將新句子加入數據庫，又或者上  <pontoonLink>Pontoon</pontoonLink> 翻譯網站內容。當新語言的數據庫集齊 5000 條句子並獲審批，便會正式加入 Common Voice，開始收集錄音片段。
 faq-why-mission-q = 為什麼 Common Voice 係 Mozilla 使命的一部分？
 faq-why-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的計劃來幫助網路創作者。隨著採用語音技術的程式激增，我們相信這些程式應該公平地服務所有使用者。這代表打造與測試語音科技時，需要滿足更多語言、腔調、人口的需求。Common Voice 將會成為一套能夠幫助 Mozilla 和全球開發者群衆的公眾資源，並已用於我們自己的其他計劃中。
-faq-what-cv-and-deepspeech-q = Common Voice 跟 Deep Speech 有何不同？
+faq-what-cv-and-deepspeech-q = Common Voice 同 Deep Speech 有咩唔同？
 faq-what-cv-and-deepspeech-a = Common Voice 能夠與 Mozilla 的開放原始碼語音識別引擎 Deep Speech 互補。初版的 Deep Speech 發行於 2017 年 11 月，並持續發展。與 Common Voice 資料集一起，我們相信這套開放原始碼語音辨識技術應開放給所有人使用，也希望這些技術可讓開發者打造出新一波的產品與服務。
 faq-is-goal-assistant-q = Common Voice 的目標是要打造語音助理嗎？
 faq-is-goal-assistant-a = Common Voice 數據集的目標是讓任何人都能打造語音識別、說話者識別，或任何其他需要語音資料的應用程式。語音助理便是您可以用這個數據集來打造的應用程式之一。
@@ -387,7 +387,7 @@ faq-why-different-speakers-q = 為什麼你們需要這麼多會說各種語言�
 faq-why-different-speakers-a =
     大多數的語音數據庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在這些訓練機械的數據之中，各種不同的口音與方言與被邊緣化的人群常有所關連。許多機器也很難理解女性的聲音。
     這就是為什麼我們的語音數據庫應該海納百川，收集各種聲音！
-faq-why-my-lang-q = 點解還沒有我的語言？
+faq-why-my-lang-q = 點解仲未有我嘅語言？
 faq-why-my-lang-new-a = Mozilla 不特別偏好哪種語言。相反而然 Common Voice 是一個純社群發起的計劃，需要<multilangLink>幾個步驟才能新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，這樣社群成員才能用自己的語言進行貢獻。次之，我們需要大量的無版權語句，讓人們可以大聲說出來。當兩個條件都滿足後 Common Voice 即可「上線」，讓人們開始錄音，並驗證其他人所錄下的片段。若您想要協助準備讓新語言上限，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫忙。
 faq-what-quality-q = 錄音品質要到甚麼等級，才能用於數據集中？
 faq-what-quality-a = 我們希望 Common Voice 數據集能夠反映出語音轉文字引擎在野外也會聽到的聲音，所以我們希望能夠收集各種環境下與不同錄音品質的片段。除了一個多元的說話者群體，如果這個數據集包含了各種語音品質的片段，便可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至數據集中。
@@ -395,12 +395,12 @@ faq-why-10k-hours-q = 為什麼每種語言都有一萬小時的錄音驗證目�
 faq-why-10k-hours-a = 這是用來訓練語音轉文字系統所需的大約時數。
 faq-how-calc-hours-q = Common Voice 如何計算時數？
 faq-how-calc-hours-a = 我們透過估算每筆錄音的平均長度來計算時數，並乘以所有語言的錄音數量。
-faq-where-src-from-2-q = 這些文本來源出自何處？
+faq-where-src-from-2-q = 啲文本邊度嚟㗎？
 faq-where-src-from-2-a =
     我們的來源文本來自貢獻者的原始貢獻，以及來自公眾領域的影片劇本，例如 <italic>莫負少年頭</italic> 的對白腳本。
     
     您可到此 <githubLink>GitHub 資料夾</githubLink>檢視我們的來源文本。
-faq-why-not-ask-read-q = 為什麼你們不讓人來念出書本的內容，或是維基百科內的條目？
+faq-why-not-ask-read-q = 點解唔叫人讀出書本或維基百科裏面各種語言嘅文章？
 faq-why-not-ask-read-a = 為了讓 Common Voice 數據集發揮最大效益，我們決定只允許收錄以 Creative Commons (CC0) 授權條款提供使用的來源文本。使用 CC0 條款標準會比較難找到來源文本，但能讓任何人都可用出品的語音資料，而不需受 Mozilla 的限制或授權。最終我們想讓這個多語言數據集能為最多人（包含研究者、大學、創業公司、政府、社團組織、有興趣的人）發揮最大效益。
 faq-why-account-q = 我點解應該去註冊帳戶？
 faq-is-account-public-q = 我的帳戶資料是公開的嗎？
@@ -479,16 +479,16 @@ de-identified-explanation = 在打包下載資料集時，從其所貢獻的語�
 
 ## NotFound
 
-notfound-title = 找不到
-notfound-content = 對不起，我不知道您想找甚麽。
+notfound-title = 搵唔到
+notfound-content = 唔好意思，我唔知您搵緊乜。
 
 ## Data
 
 data-download-button = 下載 Common Voice 數據
 data-download-yes = 好
-data-download-deny = 不好
+data-download-deny = 唔好
 data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
-data-download-modal = 您將會下載 <size>{ $size } GB</size> 的檔案，要繼續嗎？
+data-download-modal = 您將會下載 <size>{ $size } GB</size> 嘅檔案，下唔下載？
 data-subtitle = 我們正在打造一套開放、可公開使用的語音數據集，讓每個人都可用來訓練有語音功能的應用程式。
 data-explanatory-text = 我們相信，大型而公開可用的語音數據集能夠促進語音機器學習科技的創新，以及健康的商業競爭。這是一項全球性的運動，我們邀請任何人士參與。我們的目標是令語音技術能夠更具包容性，反映出世界各地語音的多樣性。
 data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
@@ -501,7 +501,7 @@ license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 review-terms = 使用 Common Voice，即代表您同意我們的<termsLink>條款</termsLink>和<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
-terms-disagree = 我不同意
+terms-disagree = 我唔同意
 review-aborted = 上載中斷了，你想刪除你的錄音嗎？
 review-submit-title = 檢閱和提交
 review-submit-msg = 多謝你的錄音！<lineBreak></lineBreak>請在下面檢閱和提交你的錄音。
@@ -524,7 +524,7 @@ language = 語言
 # File size in gigabytes
 size = 大小
 validated-hr-total = 已驗證總時數
-overall-hr-total = 綜合總時數
+overall-hr-total = 總鐘數
 cv-license = 授權條款
 audio-format = 音檔格式
 number-of-voices = 錄音人數
@@ -632,9 +632,9 @@ record-platform-not-supported-desktop = 在桌面電腦上，您可以下載最�
 record-platform-not-supported-ios-non-safari = 用 iOS 的請使用 Safari 瀏覽器繼續來啓用錄音功能…
 record-must-allow-microphone = 你必需允許我們存取你的咪高峰。
 record-no-mic-found = 我們找不到你的咪高峰。
-record-error-too-short = 這個錄音太短了。
-record-error-too-long = 這個錄音太長了。
-record-error-too-quiet = 這個錄音太靜了。
+record-error-too-short = 呢段錄音太短喇。
+record-error-too-long = 呢段錄音太長喇。
+record-error-too-quiet = 呢段錄音太靜喇。
 record-cancel = 取消重新錄音
 record-instruction = { $actionType }<recordIcon></recordIcon>然後大聲朗讀句子
 record-stop-instruction = 完成後請{ $actionType }<stopIcon></stopIcon>
@@ -645,7 +645,7 @@ record-last-instruction = <recordIcon></recordIcon>最後一筆了！
 review-tooltip = 在此確認或重錄片段
 share-clip = 分享你的錄音片段
 share-common-voice = 分享 Common Voice 計劃
-review-instruction = 確認錄音內容，有需要的話可以重錄
+review-instruction = 聽多次錄音，有需要就重錄
 record-submit-tooltip = 準備好即可{ $actionType }送出
 clips-uploaded = 錄音片段已成功上載
 record-abort-title = 不先完成錄音嗎？
@@ -673,7 +673,7 @@ target-segment-learn-more = 瞭解更多
 
 report = 舉報
 report-title = 提交報告
-report-ask = 這句句子有什麼問題？
+report-ask = 呢句有咩問題？
 report-offensive-language = 冒犯人的語言
 report-offensive-language-detail = 這句話當中有不尊重他人或冒犯性的語言。
 report-grammar-or-spelling = 文法 / 拼字錯誤
@@ -708,7 +708,7 @@ validations =
 
 ## Dashboard
 
-your-languages = 您的語言
+your-languages = 你嘅語言
 toward-next-goal = 距離下一個目標
 clips-you-recorded = 您錄製的片段
 clips-you-validated = 您驗證的錄音
@@ -716,7 +716,7 @@ todays-recorded-progress = 今日 Common Voice 錄音片段的進度
 todays-validated-progress = 今日 Common Voice 驗證片段的進度
 stats = 統計
 awards = 獎勵
-you = 您
+you = 你
 everyone = 所有人
 contribution-activity = 貢獻記錄
 top-contributors = 貢獻者排行榜
@@ -727,7 +727,7 @@ overall-accuracy = 整體準誠度
 set-visibility = 公開/隱藏個人檔案
 visibility-explainer = 用此選項在排行榜上公開/隱藏個人檔案。在「隱藏」狀態時，您的進度僅自己可見，照片、用戶名稱、貢獻進度等均不會出現在排行榜上。注意改變設定 { $minutes } 分鐘後，才會在排行榜上生效。
 visibility-overlay-note = 設定為「公開」時，可以在 <profileLink>個人檔案首頁</profileLink>改變此選項
-show-ranking = 顯示我的排名
+show-ranking = 顯示我嘅排名
 
 ## Custom Goals
 
@@ -744,7 +744,7 @@ pro-difficulty = 專業級
 lose-goal-progress-warning = 編輯目標後，可能會失去現有進度。
 want-to-continue = 你要繼續嗎？
 finish-editing = 要完成編輯嗎？
-lose-changes-warning = 現在離開將不會儲存您的變更
+lose-changes-warning = 而家離開將唔會儲存你嘅變更
 build-custom-goal = 度身訂做目標
 help-reach-hours = 建立個人目標，為{ $language }貢獻{ NUMBER($hours) }小時嘅錄音。
 help-reach-hours-general = 設定個人目標，幫手讓 Common Voice 當中的語言時數達到 { NUMBER($hours) } 小時
@@ -772,7 +772,7 @@ goal-share-text = 我啱啱訂立咗貢獻廣東話錄音俾 #CommonVoice 嘅目
 weekly-goal-created = 成功訂立咗您嘅每週目標
 daily-goal-created = 成功訂立咗您嘅每日目標
 track-progress = 可以在此追蹤進度，或前往統計頁面。
-return-to-edit-goal = 您可以隨時回到這裡編輯目標。
+return-to-edit-goal = 你可以隨時返呢度編輯目標。
 share-goal = 分享我嘅目標
 
 ## Profile Delete
@@ -790,8 +790,8 @@ profile-form-delete = 刪除個人檔案
 
 ## Landing
 
-welcome-staff = 你好 { $company } 的員工！
-help-contribute = 你可以透過創立一個 Common Voice 帳戶並貢獻錄音，從而協助我們建立一個多元、開放源碼的數據集。
+welcome-staff = 歡迎 { $company } 嘅員工！
+help-contribute = 你可以透過創立一個 Common Voice 帳戶並貢獻錄音，嚟協助我哋建立一個多元、開放源碼嘅數據集。
 login-company = 以 { $company } 電郵登入 / 註冊
-profile-not-required = 不需要成立個人檔案便即可貢獻，但如果有的話會更有幫助，下面話您知點解。
-read-more-about = 去關於我們的頁面瞭解更多
+profile-not-required = 唔需要成立個人檔案即可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
+read-more-about = 去關於我哋嘅頁面瞭解更多

@@ -1297,7 +1297,6 @@ Akoresha mudasobwa muri Gereza
 Akubye umukunzi we hafi inshuro ebyiri z’uburebure
 Akunda gukiranuka n’imanza zitabera, Isi yuzuye imbabazi z’Uwiteka.
 Akunda kujya kwivuza ku bitaro bimwegereye.
-Akunda kuririmba
 Akurikiranweho gufata ku ngufu umwana w’umugore we
 Akurikiranweho kwiba umukoresha we w’Umunyamerika
 Akurikiranyweho kwica umugore wa murumuna we n’abana babiri
@@ -2253,7 +2252,6 @@ Bisanzwe bizwi ko ntarangwa no
 Bishyize hamwe bubaka ibiro by’utugari
 Bisoso yabyinnye indirimbo karahava
 Bitabiriye kwisiramuza birenze ibyari byitezwe
-Bitanze batizigama
 Bitaramo yatumiwemo yagiriyemo ibihe byiza
 Bitarenze Ukuboza abaturage bose bazaba batanze umusanzu wa Mitiweli
 Biteganyijwe ko bitarenze kuri ubu.
@@ -2417,7 +2415,6 @@ Byukusenge yatsinze isiganwa ry’amagare ryo kurwanya ruswa
 Byumvikane ko igihe hari abakandida bigenga batowe cyane
 By’igihe kirekire mu Rwanda kuva.
 By’ubu bwoko bicyaduka mu gihugu.
-By’umwihariko
 Canada yabwiye ko mu mahanga yose
 Capati iryoha ishyushye nudushyimbo nyamirambo niryo funguro rya mugitondo
 Cara, ni rimwe mu mazina agezweho muri iki gihe ahabwa abana b’abakobwa.
@@ -2957,7 +2954,6 @@ Guverineri Munyantwali yatanze igisubizo ku banyeshuri cyo gukora ibizamini
 Guverineri Payette azashyira indabo.
 Guverineri Uwamariya yagaragarije urubyiruko amahirwe yo gushora imari i Burasirazuba
 Guverineri w’Intara y’Amajyepfo yishimiye iki.
-Guverineri w’Intara y’Iburengerazuba
 Guverinoma irasaba abayobozi b’amashuri gutanga ubumenyi bufite ireme
 Guverinoma irashinja igisirikare kuba inyuma yimyigaragambyo yapfubye
 Guverinoma nshya, Perezida na Minisitiri w’ingabo
@@ -3022,7 +3018,6 @@ Hagowe abo nzafatana indirimbo zanjye muri mudasobwa
 Haguruka udutabare, Uducungure ku bw’imbabazi
 Haguruke ukore hakiri kare.
 Hahagaritswe ibigo cumi na bibiri byigisha abakandida bigenga
-Hahirwa abafite inzara n’inyota byo gukiranuka
 Hahirwa abagwa neza, Kuko ari bo bazahabwa isi
 Hahirwa abakiranura, Kuko ari bo bazitwa abana b’Imana
 Hahirwa abamuhungiraho bose.
@@ -3333,7 +3328,6 @@ Huye Umugabo yatawe muri yombi akekwaho kwica uwo babanaga
 Huye bafite ikibazo cy’indwara y’ishaza.
 Huye hoteri izavugururwa habungabungwa amateka
 Huye yashyikirijwe by’agateganyo inyubako yatewemo inkunga nibigo birenze kimwe
-I
 I Burasirazuba Bashyizeho ingamba nshya zo guca imirire mibi
 I Burasirazuba baganiriye ku kunoza imikorere
 I Gihuma hose bava mu mirima
@@ -5864,7 +5858,6 @@ Kwirukanwa ku kazi bishobora gutera uburwayi bw’umutima
 Kwishyura hakoreshejwe amakarita ya banki cyangwa telefoni igendanwa
 Kwishyura hakoreshejwe ikoranabuhanga.
 Kwishyura ukoresheje ikoranabuhanga
-Kwita ku bidukikije
 Kwita kw’isuku birakenewe
 Kwitabira ibikorwa bya leta ni inshingano za buri mutura Rwanda.
 Kwitabira muri ahubwo narabikoreye.
@@ -11044,7 +11037,6 @@ acuruza burimunsi.
 adafite ubuzima bwiza mu rugo ndetse no ku ishuri.
 afashwe n’uburwayi runaka ari ku
 afatanyije na yagize ati Nakoze ibikorwa.
-afite amafaranga
 afite ibiro, mu kwezi kumwe gusa.
 afite irwara idakira
 afite mu gihugu mu gihe nta mwanzuro n’umwe
@@ -13047,7 +13039,6 @@ muri Pariki y’Akagera.
 muri Repubulika Iharanira Demokarasi ya Congo mu Mujyi wa Kinshasa inshuro
 muri Singida United yo
 muri Tanzania ahawe ibihumbi mirongo itanu
-muri Uganda
 muri Uganda atotezwa bikomeye.
 muri Unlimited Records na Lick Lick usigaye uba muri Leta Zunze Ubumwe za Amerika.
 muri ayo mateshwa.
@@ -13812,7 +13803,6 @@ udushya ari nayo mpamvu bakunze kwisanga mu bikorwa bifitanye
 udutsi tw’ubwonko n’umunaniro uterwa no gukora ubutaruhuka
 ufatwa nk’umugaba w’Ikirenga w’Ingabo.
 ufite amaboko manini
-ufite ikibazo
 ufite imyaka y’amavuko Yakuriye.
 ufite indangagaciro n’umuco.
 ufite insanganyamatsiko igira iti dufatane.

@@ -65,6 +65,7 @@ export default class API {
         'Basic ' + btoa(user.userId + ':' + user.authToken);
     }
 
+
     const response = await fetch(path, {
       method: method || 'GET',
       headers: finalHeaders,
@@ -111,8 +112,7 @@ export default class API {
 
   uploadClip(
     blob: Blob,
-    sentenceId: string,
-    sentence: string
+    sentenceId: string
   ): Promise<{
     showFirstContributionToast?: boolean;
     hasEarnedSessionToast?: boolean;
@@ -124,7 +124,6 @@ export default class API {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
-        sentence: encodeURIComponent(sentence),
         sentence_id: sentenceId,
         challenge: getChallenge(this.user),
       },
@@ -315,9 +314,10 @@ export default class API {
     );
   }
 
-  saveHasDownloaded(email: string): Promise<void> {
-    return this.fetch(this.getLocalePath() + '/downloaders/' + email, {
+  saveHasDownloaded(email: string, dataset: string): Promise<void> {
+    return this.fetch(this.getLocalePath() + '/downloaders', {
       method: 'POST',
+      body: { email, dataset },
     });
   }
 

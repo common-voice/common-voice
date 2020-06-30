@@ -10,6 +10,7 @@ submit-form-action = Gönder
 loading = Yükleniyor…
 email-opt-in-info = Hedef hatırlatmaları, ilerleme durumum ve Common Voice ile ilgili bültenler gibi e-postalar almak istiyorum.
 email-opt-in-info-title = Common Voice e-posta listesine katılın
+email-opt-in-info-sub-with-challenge = Hedef hatırlatmaları, ilerleme durumu ve Common Voice ile ilgili bültenler gibi e-postalar alın.
 email-opt-in-privacy = E-posta almayı tercih ettiğinizde bu bilgileri Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanmasını kabul etmiş oluyorsunuz.
 indicates-required = * Gerekli alanları gösterir
 not-available-abbreviation = Yok
@@ -337,13 +338,16 @@ avatar-clip-title = Avatarınızı seslendirin
 change-your-avatar-clip = Ses kaydınızı değiştirmek mi istiyorsunuz?
 recording-in-progress = Ses kaydı devam ediyor
 avatar-clip-recorded = Avatarınıza artık ses kaydı ekleyebilirsiniz!
+record-voice-wave = SESİNİZİ KAYDEDİN
 retry-voice-wave-recording = YENİDEN DENE
 re-record = YENİDEN KAYDET
 delete-voice = SİL
 recording-voice-wave = Kaydediliyor
 delete-voice-clip = veya  ses kaydını sil
 ready-to-upload = Yükle
+recreate-voice = Sesinizi yeniden kaydedin
 cancel-avatar-clip-recording = İptal
+about-avatar-clip-recording = Profil resminizin bir parçası olarak ses kaydı oluşturun. Başkaları profilinizin üzerine gelerek kaydı dinleyebilir.
 browse-file-title = Resim dosyası yükle
 browse-file = Sürükleyip bırak veya <browseWrap>göz at</browseWrap>
 connect-gravatar = Gravatar ile bağlan
@@ -353,19 +357,31 @@ manage-subscriptions = Abonelikleri yönet
 manage-email-subscriptions = E-posta aboneliklerini yönet
 email-already-used = Bu e-posta farklı bir hesapta zaten kullanılıyor
 add-language = Dil ekle
+change-email-setings = E-posta adresinizi Ayarlar sayfasından Giriş Kimliği kısmından değiştirebilirsiniz
 
 ## FAQ
 
 faq-title = Sıkça Sorulan Sorular
 faq-what-cv-q = Common Voice nedir?
+faq-what-cv-a =
+    Ses tanıma teknolojisi, makinelerle etkileşime girme biçimimizde devrim yaratıyor ancak şu anda mevcut sistemler pahalı ve tescilli. Common Voice, Mozilla’nın ses tanıma teknolojilerini herkes için daha iyi ve daha erişilebilir hale getirme girişiminin bir parçasıdır. Common Voice, herkesin ses özelliği olan uygulamaları potansiyel olarak her dilde hızlı ve kolay bir şekilde eğitmesine olanak tanıyan geniş bir küresel bağışlanmış ses veritabanıdır.
+    
+    Ses örneklerini yalnızca yaygın olarak konuşulan dillerden değil, aynı zamanda daha az konuşmacısı olan dillerden de topluyoruz. Farklı bir ses veri kümesi yayınlamak geliştiricileri, girişimcileri ve toplulukları bu boşluğu kendileri ele almaya teşvik edecektir. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da kuruyoruz.
 faq-why-important-q = Ne önemi var?
+faq-why-important-a =
+    Konuşma genellikle birbirimizle iletişim kurmamızın en doğal yoludur ve ses teknolojileri bu rahatlığı bilgisayarlarımıza ve mobil cihazlarımıza getirmektedir. Geliştiricilere, gerçek zamanlı çevirmenler ve ses özellikli dijital asistanlar gibi harika ses tanıma uygulamaları oluşturma konusunda güç vermek istiyoruz. Ancak şu anda bu tür uygulamaları oluşturmak için gereken ses verilerinin çoğu pahalı ve özeldir. Common Voice veri kümesinin, geliştiricilere, yenilikler yapmaları ve konuşma teknolojisini kendi dillerinde kullanıma sunmaları için ihtiyaç duydukları şeyi vereceğini umuyoruz.
+    
+    Ses tanıma özelliğini daha da evrensel hale getirmek için, yaygın olarak konuşulan dillerde ve genellikle ticari konuşma tanıma hizmetleri tarafından kullanılan daha az sayıda konuşmacıya sahip olan ses örneklerini topluyoruz. Farklı bir ses veri setinin yayınlanması, geliştiricileri, girişimcileri ve tüm konuşma topluluklarını bu boşluğu kendileri ele almaya teşvik edecektir.
 faq-how-get-q = Common Voice verilerini nasıl indirebilirim?
 faq-how-get-a = Common Voice veri kümesi, <datasetLink>Veri Kümeleri sayfamızdaki</datasetLink> <licenseLink>CC0</licenseLink> lisansıyla indirilebilir. Halka açık diğer birkaç veri kümesini de aynı sayfadan indirebilirsiniz.
 faq-when-release2-q = Diğer dillerdeki Common Voice verilerini ne zaman yayımlayacaksınız?
+faq-when-release2-a = Common Voice veri kümesinin çoklu dil sürümü şu anda topluluk destekli paketleme ve temizleme işlemlerinden geçiyor. Common Voice'u yeni dillere getirmemize yardımcı olmak istiyorsanız veri kümesine yeni cümleler eklemek için Cümle Toplama Aracı'na ve web sitesinin kendisini çevirmek için Mozilla Pontoon'a göz atın. 5.000 onaylı cümle toplandığında ses katkısı için Common Voice'a yeni diller eklenir.
 faq-why-mission-q = Common Voice neden Mozilla misyonunun bir parçası?
+faq-why-mission-a = Mozilla, web'i herkes için açık ve erişilebilir kılmaya kendini adamıştır. Bunu yapmak için, web geliştiricilerini Common Voice gibi projelerle güçlendirmemiz gerekiyor. Ses teknolojileri niş uygulamaların ötesinde ilerledikçe, tüm kullanıcılara eşit hizmet vermeleri gerektiğine inanıyoruz. Bu, daha fazla dile yatırım yapmak ve ses teknolojilerini oluştururken ve test ederken farklı aksan ve demografik bilgileri barındırmak anlamına gelir. Common Voice herkesin kullanabileceği bir kamu kaynağıdır ve dünya çapında Mozilla ekipleri ve geliştiricileri zaten kendi projelerinde kullanıyor.
 faq-what-cv-and-deepspeech-q = Deep Speech ile Common Voice arasındaki fark nedir?
 faq-what-cv-and-deepspeech-a = Common Voice veri kümesi, Mozilla’nın açık kaynaklı ses tanıma motoru Deep Speech'i tamamlar. Deep Speech'in ilk sürümü Kasım 2017'de yayımlandı ve o zamandan beri gelişmeye devam etti. Common Voice veri kümesi ile birlikte, bu açık kaynaklı ses tanıma teknolojisinin herkes tarafından erişilebilir olması gerektiğine inanıyoruz. Bu teknolojilerin, geliştiricilerin yenilikçi ürün ve hizmet dalgası oluşturmalarını sağlayacağını umuyoruz.
 faq-is-goal-assistant-q = Common Voice'un amacı sesli asistan oluşturmak mı?
+faq-is-goal-assistant-a = Common Voice veri kümesinin amacı, dünyadaki herkesin konuşma tanıma, konuşmacı tanıma veya ses verisi gerektiren başka bir uygulama türü oluşturmasını sağlamaktır. Sesli asistan uygulaması, veri kümesini oluşturmak için kullanabileceğiniz birçok uygulama türünden sadece biridir.
 faq-do-want-native-q = Ana dilim bu değil ve aksanlı konuşuyorum, yine de katkıda bulunmamı istiyor musunuz?
 faq-do-want-native-a = Evet, sizin sesinizi özellikle istiyoruz! Common Voice'un amaçlarından biri de ses tanıma hizmetlerinin herkes için eşit derecede iyi çalışması için mümkün olduğunca çok farklı aksandan ses toplamaktır. Bu nedenle anadili olmamasına rağmen belli bir dili konuşanlardan gelen ses kayıtları özellikle önemlidir.
 faq-why-different-speakers-q = Neden her dil için bu kadar fazla konuşmacıya ihtiyacınız var?
@@ -373,10 +389,15 @@ faq-why-different-speakers-a = Çoğu konuşma veritabanı, <articleLink>erkek v
 faq-why-my-lang-q = Neden dilim henüz eklenmedi?
 faq-why-my-lang-new-a = Mozilla hiçbir dili diğerlerinden üstün görmez. Common Voice tamamen topluluk tarafından yürütülen bir girişimdir, ancak <multilangLink>yeni bir dil eklemek</multilangLink> ve ses bağışlarını toplamaya başlamak için birkaç adımın tamamlanması gerekir. İlk olarak, kişilerin kendi dillerinde katkıda bulunabilmeleri için Common Voice web sitesinin o dile çevrilmesi gerekir. Daha sonra, insanların sesli olarak okuyabileceği, telif hakkı olmayan, büyük bir cümle koleksiyonunun derlenmesi gerekir. Bu gereksinimlerin her ikisi de karşılandığında insanların seslerini kaydetmeye ve başkalarının kaydettiği sesleri doğrulamaya başlaması için Common Voice'a o dil eklenir. Yeni bir dil eklemeye yardım etmek istiyorsanız <sentenceCollectorLink>cümle toplama aracımıza</sentenceCollectorLink> bakabilirsiniz.
 faq-what-quality-q = Bir ses kaydının veri kümesinde kullanılabilmesi için hangi düzeyde ses kalitesi gerekir?
+faq-why-10k-hours-q = Neden dil başına 10.000 saat onaylı ses kaydı hedefi var?
 faq-why-10k-hours-a = Bu süre, işe yarar bir konuşmayı metne dönüştürme sisteminin eğitilmesi için gereken yaklaşık süredir.
 faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
 faq-how-calc-hours-a = Saatleri, her kaydın ortalama uzunluğunu tahmin ederek ve sonra bu sayıyı tüm dillerdeki toplam kayıt sayısıyla çarparak hesaplıyoruz.
 faq-where-src-from-2-q = Kaynak metinler nereden geliyor?
+faq-where-src-from-2-a =
+    Kaynak metinlerimiz, özgün katılımcı bağışlarının yanı sıra <italic>It’s a Wonderful Life</italic> gibi kamuya açık film senaryolarındaki diyaloglardan oluşur.
+    
+    Kaynak cümlelerimizi bu <githubLink>GitHub klasöründe</githubLink> görüntüleyebilirsiniz.
 faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Wikipedia makalelerini okumalarını istemiyorsunuz?
 faq-why-account-q = Neden hesap açayım?
 faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
@@ -392,7 +413,11 @@ faq-search-for-answers =
 
 about-title = Neden Common Voice?
 about-subtitle = Common Voice, Mozilla'nın makinelere gerçek insanların nasıl konuştuğunu öğretme girişiminin bir parçasıdır. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da geliştiriyoruz.
+about-header-description =
+    Bu projelerin her ikisi de dijital konuşma ayrımını kapatma çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut getiriyor ancak geliştiricilerin bunları oluşturmak için çok büyük miktarda ses verisine ihtiyaçları var. Şu anda, bu verilerin çoğu pahalı ve tescilli.
+    Ses verilerini özgür ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil ettiğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
 how-does-it-work-title = Nasıl çalışıyor?
+how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesinizi bağışlayın, diğer kişilerin kayıtlarının doğruluğunu doğrulayın, veri kümesini herkes için daha iyi hale getirin.
 about-speak = Konuş
 about-speak-text = Katkıda bulunanlar ses kayıtlarını bağışlanan cümle bankasından okuyarak kaydederler.
 about-listen-queue = Dinleme Kuyruğu
@@ -417,6 +442,10 @@ about-nav-partners = İş ortakları
 about-nav-get-involved = Bize katılın
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Yapay zekâ
+mycroft-description =
+    Mycroft dünyanın ilk açık kaynaklı asistanıdır.
+    Mycroft her yerde (masaüstü bilgisayarda, otomobilde veya Raspberry Pi'da) çalışabilir.
+mycroft-secondary-description = Bu, serbestçe düzenlenebilen, genişletilebilen ve geliştirilebilen açık kaynaklı bir yazılımdır. Mycroft, bir bilim projesinden kurumsal yazılım uygulamasına kadar her türlü uygulamada kullanılabilir.
 
 ## Glossary
 
@@ -425,8 +454,10 @@ localization = Yerelleştirme
 localization-explanation = Bu, içeriğimizi birçok dile ve uyarlama sürecimizdir.
 sentence-collection = Cümle derleme
 hours-recorded-explanation = Şimdiye kadar topladığımız ses kayıtlarının toplam süresi.
+hours-validated-explanation = “Evet” oyu ile 3 kullanıcıdan 2’si tarafından onaylanan ses kayıt saati. Bu hedefler, projenin 10.000 saatlik genel hedefine doğru ilerleme kaydedilmesine işaret ediyor.
 sst = Konuşmadan metne (STT)
 sst-explanation = Konuşmadan metne (STT) teknolojileri ses verilerini metne dönüştürür.
+de-identified = Anonimleştirilmiş
 
 ## NotFound
 
@@ -465,6 +496,12 @@ review-delete-recordings = Kayıtlarımı sil
 ## Datasets Page
 
 datasets-headline = Herkesin konuşma özellikli uygulamaları eğitmek için kullanabileceği açık kaynaklı, çok dilli bir ses veri kümesi oluşturuyoruz.
+datasets-positioning =
+    Halka açık, büyük ses veri kümelerinin makine öğrenimi tabanlı konuşma teknolojisinde yeniliği ve sağlıklı ticari rekabeti teşvik edeceğine inanıyoruz.
+    
+    Common Voice’un çok dilli veri kümesi, zaten türünün herkese açık olan en büyük ses veri kümesidir ancak tek veri kümesi değildir.
+    
+    Bu sayfaya, diğer açık kaynaklı ses veri kümeleri için bir referans kaynağı olarak bakın ve Common Voice büyümeye devam ettikçe, sürüm güncellemelerimiz için bir ev olarak bakın.
 language = Dil
 # File size in gigabytes
 size = Boyut
@@ -479,15 +516,23 @@ why-email = <b>Neden e-posta istiyorsunuz?</b> Veri kümesindeki değişiklikler
 confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazırsınız
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = Common Voice veri kümesindeki konuşmacıların kimliğini belirlemeye çalışmamayı <b>kabul ediyorsunuz</b>
 download-language = { $language } indir
 validated-hours = Doğrulanmış saat
 recorded-hours = Kaydedilen saat
 whats-inside = Bu Common Voice veri kümesinde neler var?
+dataset-description-hours =
+    Veri kümesindeki her kayıt benzersiz bir MP3 ve buna karşılık gelen metin dosyasından oluşur. Veri kümesinde kaydedilen <b>{ $total }</b> saatin çoğunda, konuşma tanıma motorlarının doğruluğunu eğitmeye yardımcı olabilecek yaş, cinsiyet ve aksan gibi demografik meta veriler de bulunur.
+    
+    
+    Veri kümesi şu anda <b>{ $languages }</b> dilde <b>{ $valid }</b> onaylı saatten oluşuyor ancak her zaman daha fazla ses ve dil ekliyoruz. Dil istemek veya katkıda bulunmaya başlamak için <languagesLink>Diller sayfamıza</languagesLink> bakın.
 want-dataset-update = Common Voice veri kümesinin yeni sürümünü yayımladığımızda haberdar edilmek ister misiniz? Haber bültenimize abone olun.
 subscribe = Abone ol
 get-started-speech = Konuşma tanımaya giriş
 other-datasets = Diğer ses veri kümeleri
 feedback-q = Görüşleriniz mi var?
+deepspeech-info = Common Voice veri kümesi, Mozilla’nın konuşma tanıma uygulamaları oluşturmak için kullanabileceğiniz açık kaynaklı ses tanıma motoru Deep Speech'i tamamlar. Nasıl başlayacağınızı öğrenmek için <githubLink>Github genel bakışımızı</githubLink> okuyun veya <discourseLink>DeepSpeech Discourse</discourseLink>'a katılın.
+common-voice-info-new = Common Voice hakkında sorularınız mı var? Belirli bir dille ilgili iyileştirmeler veya geri bildirimler için fikirleriniz mi var? <discourseLink>Discourse forumumuzda</discourseLink> bize katılın ve bize bildirin.
 data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
 data-other-ted-name = TED-LIUM Korpusu
 data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur.
@@ -604,7 +649,7 @@ share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 keep-track-profile = Profil oluşturarak ilerlemenizi takip edin
 login-to-get-started = Başlamak için giriş yapın veya kaydolun
 target-segment-first-card = İlk hedef segmentimize katkıda bulunuyorsunuz
-target-segment-first-banner = { $locale } dilinde Common Voice'un ilk hedef segmentini oluşturmaya yardımcı olun
+target-segment-first-banner = Common Voice’un ilk { $locale } hedef segmentini oluşturmaya yardımcı olun
 target-segment-add-voice = Sesinizi ekleyin
 target-segment-learn-more = Daha fazla bilgi alın
 
@@ -654,6 +699,8 @@ your-languages = Dilleriniz
 toward-next-goal = Sonraki hedef için kalan
 clips-you-recorded = ses kaydettiniz
 clips-you-validated = ses doğruladınız
+todays-recorded-progress = Bugün Common Voice’a kaydedilen seslerdeki ilerleme
+todays-validated-progress = Bugün Common Voice’ta doğrulanan seslerdeki ilerleme
 stats = İstatistikler
 awards = Ödüller
 you = Siz
@@ -665,13 +712,14 @@ validated-clips = Doğrulanan ses
 total-approved = Onaylanan toplam
 overall-accuracy = Genel doğruluk
 set-visibility = Görünürlüğümü ayarla
+visibility-explainer = Bu ayar liderlik sıralamanızın görünürlüğünü kontrol eder. Gizlendiğinde ilerlemeniz size özel olur. Yani resminiz, kullanıcı adınız ve ilerlemeniz liderlik sıralamasında görünmez. Değişikliklerin liderlik sıralamasına yansıması yaklaşık { $minutes } dakika sürer.
 visibility-overlay-note = Not: 'Görünür' olarak ayarlandığında, bu ayar<profileLink>Profil sayfasından</profileLink> değiştirilebilir.
 show-ranking = Sıralamamı göster
 
 ## Custom Goals
 
 get-started-goals = Hedefinizi oluşturun
-create-custom-goal = Özel Bir Hedef Oluştur
+create-custom-goal = Özel hedef oluştur
 both-speak-and-listen = Her ikisi de
 both-speak-and-listen-long = Her ikisi de (konuşma ve dinleme)
 daily-goal = Günlük hedef
@@ -686,6 +734,7 @@ finish-editing = Önce düzenleme bitirilsin mi?
 lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
 help-reach-hours = Kişisel bir hedef belirleyerek { $language } dilinde { NUMBER($hours) } saate ulaşmanıza yardımcı olun
+help-reach-hours-general = Kişisel bir hedefle Common Voice'un bir dilde { NUMBER($hours) } saate ulaşmasına yardımcı olun
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
 activity-needed-calculation =
@@ -694,13 +743,21 @@ activity-needed-calculation =
 how-many-per-day = Harika! Günde kaç kayıt?
 how-many-a-week = Harika! Haftada kaç kayıt?
 which-goal-type = Konuşmak mı, dinlemek mi yoksa ikisini birden mi yapmak istiyorsunuz?
+receiving-emails-info = Hedef hatırlatıcıları, ilerleme güncellemeleri ve Common Voice ile ilgili bültenler gibi e-postaları alıyorsunuz.
+not-receiving-emails-info = Hedef hatırlatıcıları, ilerleme güncellemeleri ve Common Voice ile ilgili bültenler gibi e-postaları <bold>almayacaksınız</bold>.
 n-clips = { NUMBER($count) } ses kaydı
 help-share-goal = Hedefinizi paylaşarak daha fazla ses bulmamıza yardımcı olun
 confirm-goal = Hedefi onayla
 goal-interval-weekly = Haftalık
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Günlük { $type } hedefinizi paylaşın: { $count } ses kaydı
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Haftalık { $type } hedefinizi paylaşın: { $count } ses kaydı
 share-goal-type-speak = Konuşma
 share-goal-type-listen = Dinleme
 share-goal-type-both = Konuşma ve Dinleme
+# LINK will be replaced with the current URL
+goal-share-text = #CommonVoice'a sesimi bağışlıyorum. Siz de bana katılın, makinelere gerçek insanların nasıl konuştuğunu birlikte öğretelim. { $link }
 weekly-goal-created = Haftalık hedefiniz oluşturuldu
 daily-goal-created = Günlük hedefiniz oluşturuldu
 track-progress = İlerlemeyi burada ve istatistikler sayfanızda izleyin.
@@ -709,6 +766,7 @@ share-goal = Hedefimi paylaş
 
 ## Profile Delete
 
+delete-q = Ses kayıtlarınızın da silinmesini istiyorsunuz musunuz yoksa bunlar Common Voice veri kümesinde kalabilir mi?
 keep = Tut
 remove = Sil
 keep-info = Anonim ses kayıtlarınız Common Voice veri kümesinde kalacaktır. Profilinizi sildikten sonra kayıtlarınızı veri kümesinden kaldırma talebinde bulunamazsınız.
