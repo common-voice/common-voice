@@ -7,6 +7,7 @@ A Google ezáltal folyamatosan nyomon tudja követni az Ubuntu felhasználókat 
 A Google úgyis indexeli a nyilvános csevegőszobákat.
 A Hold már majdnem kerekre dagadt.
 A Hortobágyi kilenclyukú híd Magyarország egyik nevezetessége.
+A Kakoune egy Vim-szerű szövegszerkesztő, viszont kisebb az erőforrás-igénye.
 A Linux alapú rendszerek nyílt forráskódúak.
 A Linux használata nem is annyira bonyolult, mint amit a közhiedelemben terjesztenek róla.
 A Linux rendszerekre nem szoktak vírusirtót telepíteni, mert nincs szükség rá.
@@ -29,6 +30,8 @@ A Solus egy gördülő kiadású Linux-disztribúció.
 A Szigonyos Pityut keresem!
 A Tivoli parktól már könnyen gurult lefelé a roller.
 A baba kissé sivalkodott, de aztán lecsendesedett, és diópálinkát rendelt.
+A bagolyfiak azonban sok hűhót csaptak semmiért, ilyen volt a természetük.
+A bakter hát újra bakter lett.
 A bank cégvezetője volt az első, aki elértette ezt a célzást.
 A barlangban mindenki nedves lesz és rövid időn belül vakaródzik.
 A barátnőimmel meguntuk a táncot, és átjöttünk hozzátok szexelni.
@@ -39,41 +42,80 @@ A beállítás letiltása viszont csak a te fiókodra vonatkozik.
 A billentyűzet a zsanérokhoz van kapcsolva.
 A biztosítótársaság hivatalosan is teljes csődnek ítéli.
 A blog oldalán is fel van tüntetve a licensz-információ?
+A bodzafa erős illatot árasztott, a leáldozó nap fényébe vonta a két öreget.
+A bodzafa illata mindenüvé elkísérte őket.
+A boglárka ragyogó szemmel nézett fel Gerdára.
+A boldogokról meg a szenvedőkről szól majd a dalom.
+A bolha ott ült a hercegkisasszony keze fején, onnan bámészkodott.
 A boltban marha jól nézett ki.
 A botrányt valóban el kell kerülni.
 A bácsikája porszívógépen közlekedik.
+A bársonybundás szomszéd meg is látogatta őket.
+A báróúrfiakat egy házitanító nevelgette.
 A béka körvonala átlátszott a napsütötte levélen.
+A béka meg a giliszta sokkal fontosabb teremtmény!
+A békák azonban nem értették a szavát, vagy nem akarták megérteni.
 A bíróság a halál időpontját a körülmények mérlegelése alapján határozza meg.
+A börtönőr unokája kedves leányka volt, aranyszőke fürtű, vidám szemű, mosolygós szájú.
+A bűvös erő egyedül az egérkirály farkában van.
 A cella előtt ledobban az escorte utolsó lépése.
+A cet, a fiatal, erős cet, olyan mélyre ereszkedett, mint még soha.
+A cigányasszony neki adta szívesen, és helyette mogyorót szedett, azzal tömte meg a zsebét.
+A cipő közepébe árbocnak egy pálcikát szúrtak, s egy cérnaszállal hozzákötötték a ganajtúrót.
 A csapatokat általában erős lények után nevezik el, hogy megfélemlítsék az ellenfelet.
+A csatorna vize fölcsapott a bástyára, s még magasabbra kívánkozott!
 A cselekvőképességet korlátozó jognyilatkozat semmis.
 A cselekvőképtelen nagykorú jognyilatkozata semmis, nevében gondnoka jár el.
 A csellómra gondolsz?
+A cselédházba ment; a béresek megnézték a portékáját, forgatták, alkudoztak rá.
+A csepp rákok fényénél tengeri lények ezrei bámulták a kábelt.
+A cserebogár nem sokat törődött a pillangóval.
 A cserkészek mindig szolgálat készek.
+A csillagokat nem lehet leszedni az égről és kifényesíteni!
+A csomagon egyetlen szó állott: Fülemüle.
 A csuklószorítóm tépőzárja hozzáragadt a pólómhoz.
+A császár könnye csodálatos erejű igazgyöngy.
+A császár leánya egy nap arra sétált az udvarhölgyeivel.
+A császárnak még egy ruháját se csodálták meg ennyire.
+A csónak már olyan közel volt a vízeséshez, hogy az ólomkatona nem tarthatta vissza.
 A csónakot most nem láthatta, mert a hajó teste árnyékot vetett rá.
 A csúszda spirálcsövéből kirobbantam a fényre, habokba.
+A csőrömmel tekintélyt vívtam ki magamnak, s a jó humorommal mindenkit megnevettetek.
 A célzás pontos volt.
+A derekadra majd kötelet csavarok, hogy fölhúzhassalak, ha kiáltasz.
 A detektív fél perccel később már vissza is tért.
+A dinnye is zamatos, de amit a király asztalánál evett, egészen más ízű volt.
+A dédunokáink.
 A döntéshozó szerv a döntéseit ülés tartásával vagy ülés tartása nélkül hozza.
+A fecske leröpítette Pöttöm Pannát, és ráültette a legszebbik fehér virág széles szirmára.
 A fehér ruhás is meglepődött kissé.
+A fehér virágok tündére volt.
+A fehér vászon közepén két megtermett béka ült; ragyogott a szemük a boldogságtól.
 A fehérrel akar játszani vagy a feketével?
 A fejed a másik végén legyen!
 A fejlesztő nagyon sok időt fordít az oldal felépítésére, pedig néha a kevesebb több.
+A fején gyönyörű kis aranykorona, vállán tiszta fehér szárnyacskák.
 A felháborodott Pityu okvetlenül melléje áll.
 A felmondásról az egyesület közgyűlése dönt.
+A felnőttek nyugodt léptekkel követték őket.
 A felszólító mondatok végére felkiáltójelet írjatok!
 A felügyelő most már valamivel lassabban és bizonytalanabbul kacsázott vissza.
 A felügyelőbizottság saját tagjai közül választ elnököt.
 A fenébe is, meggyőztél.
 A fiatalember e pillanatban megfordult.
 A fiatalember lelépett a hágcsóról, mert látta, hogy itt nem tehet semmit.
+A finn asszony nem tékozolt el semmit.
+A finn asszony okosan hunyorogva hallgatta, nem szólt rá semmit.
 A fizika részlegnek kéne egy új csellista.
+A fiú az ércdisznót is viszontlátta köztük, olyan volt, mint a valóságban.
+A fiúcskának Kay volt a neve, a leánykának Gerda.
+A fiúk egyenest a százszorszép felé tartottak, aki remegve várta, mi következik.
 A fordulónál kétfelé ágazott a lépcső.
 A francba! Semmi gond, nyugi van!
 A francba, a szemüvegem.
 A francba, meghalunk!
 A francia idegenlégió büntetőszázadának egyetlen célja az elrettentés.
+A fákon, bokrokon zúzmara fehérlett, mintha illatos virágzuhatag lepte volna el az ágakat.
 A fényképész kigombolta a gallérját.
 A férfiak nem csak a szex miatt tesznek meg dolgokat a nőknek.
 A fórumon legalábbis azt írják, hogy előnyös.
@@ -97,6 +139,7 @@ A hallgatóságon határozottan lincselő hangulat vett erőt.
 A halált is.
 A hamisított pálinkától.
 A hangulat tehát békés volt.
+A harmadik féltől származó sütiket is blokkolja a Privacy Possum kiegészítő.
 A hatvanhármas kihallgatásra!
 A határozathozatal szótöbbséggel történik.
 A helyiség újra megelevenedett.
@@ -248,6 +291,7 @@ A te édes apád nem az én megboldogult fiam volt.
 A tenger nem hullámzik, a gyermekek álmát semmi sem zavarja.
 A tetem természetes helyzetben feküdt.
 A tojásrántotta épp olyan jó, amilyennek lennie kell.
+A torpedóromboló Jeanette volt ilyen.
 A tudományos dolgok viszont Jézustól jönnek.
 A tulajdon társadalmi felelősséggel jár.
 A támogató kirendelése a nagykorú cselekvőképességét nem érinti.
@@ -258,6 +302,7 @@ A többit bízd rám!
 A töltött padlizsánom után megnyalod a tíz ujjad!
 A törvény tiltja a joggal való visszaélést.
 A tüzet kérő egyén Tex Malahida volt!
+A uBlock nevű Firefox kiegészítő a uBlock Origin hamisított változata.
 A vendégek még mindig ugyanazok voltak, akiket este olyan kellemesen elszórakoztatott.
 A verseny célja, hogy helyes válaszokat adjunk.
 A vesztembe!
@@ -267,11 +312,26 @@ A vitorlás egyre közelebb jött a jachthoz.
 A válasz mínusz nyolc pi alfa.
 A vöröskeresztbe se vidd, ez már nem segít senkin!
 A zöld szín jól áll magának!
+Abba az udvarházba, ahol tavaly voltunk!
+Abban a szempillantásban felbukkant a nap, s a királyfiak eltűntek, mint a pára.
 Ad ötezer dollárt.
 Add ide a telefont!
+Add nekem a mai nap emlékéül.
+Addig ment, míg egy nagy városba nem ért.
 Addig még meg kell csináltatnom a frakkomat is.
+Addig nem lesz nyugtom!
+Addig nincs nyugtom, amíg kinn nem leszünk a messzi világban.
+Addig pedig morzsákon is megélünk.
+Adj isten, császár uram!
 Adj neki egy hambit.
+Adj tanácsot, mitévő legyek.
 Adja ide a cukortartót, és távozhat.
+Adja ide a karmantyúját meg a szép ruháját, s aludjék mellettem!
+Adja isten!
+Adjon isten, anyjuk!
+Adjon isten, vitéz uram!
+Adják vissza!
+Adjátok tovább!
 Ahhoz képest, hogy most közösültél, baromi ideges vagy.
 Ahhoz, hogy egy weboldal megfeleljen a mai követelményeknek, a következőket kell tudnia:
 Ahogy ott állt a pénztárfülke előtt, felemelt keze időnként hozzáért valami hűvös, sima tárgyhoz.
@@ -321,9 +381,15 @@ Akkor úgy is kell válaszolnunk.
 Alapból nem lehetne minden mondatot felhasználni.
 Alig várom, hogy együtt dolgozzunk a szalonnán.
 Alig értem a mólóra, amikor rettenetes lövöldözés és ordítozás hallatszott.
+Aline Duncan vagyok!
 Aline csak egy pillanatig habozott, aztán határozott.
 Aline kimeredt szemmel nézte, és szája elé kapta a kezét, hogy ne sikoltson.
+Aline kutatóan nézett le a korlát mellől.
+Aline látta, hogy itt komoly a veszély.
 Aline megfigyelte, hogy most gyorsabban evez.
+Aline megmozdult.
+Aline nem tudta, hogy sírjon-e vagy nevessen.
+Aline nem volt gyáva.
 Alszik, mint a bunda.
 Aludj jól!
 Aludj jól.
@@ -649,6 +715,7 @@ Bocsánat!
 Bocsánat.
 Bocsánatot kérek a korábbi kirohanásomért.
 Bocsásson meg, nincs időm, hogy valamennyi fegyházi élményét elmesélje itt nekem.
+Bohókás, fejes volt; igen lehetett rajta nevetni.
 Bolond fickó ez, de nem ellenszenves.
 Boros is volt, mérges is volt.
 Budapest Magyarország fővárosa, és egyben legnépesebb városa.
@@ -832,6 +899,7 @@ Diamant Oktáv sokkal különb fickókkal is elbánt már, mint te.
 Diamant Oktáv türelmetlenül visszafordult Lórika, a világ egyetlen szakállas pincére felé.
 Diamant Oktáv vigyorgott.
 Diamant Oktáv és társai lesiettek a mólóra.
+Diamant Oktávot egyenesen lesújtotta Bobby váratlan felbukkanása.
 Diamant Oktávot nem féltem!
 Diamant Oktávval és az embereivel.
 Diamant a fogát csikorgatta.
@@ -1009,6 +1077,7 @@ Esetleg kevesebb.
 Esetleg nem dobtak be egy Nobel-díjat a nevemmel?
 Esetleg vigyek nekik valami italt?
 Esténként majd bográcsozunk.
+Esvány kirakta. Majsztruram megtapogatta.
 Esze, az van!
 Eszednél vagy?
 Eszerint számíthatok arra, hogy segítségemre leszel?
@@ -1431,6 +1500,7 @@ Hát hogy is volt csak?
 Hát jó!
 Hát jó.
 Hát kinek?
+Hát látod, Diamant, én ilyen kis ügyes vagyok.
 Hát menjünk tovább.
 Hát mert lehet.
 Hát mi lesz, kérem?
@@ -1452,6 +1522,7 @@ Hát, pedig vannak.
 Hát, talán így a legjobb.
 Hát, én inkább a hallgató voltam, mintsem a beszélő.
 Hátha ki is lehet játszani a fiút.
+Hátsó zsebéből elővett egy lapos üveget, lecsavarta a kupakját, és odaadta Aline-nek.
 Hé, fiatalember! Hová rohan?
 Héttől hét húszig vagyok a fürdőszobában.
 Hívd fel, és mondd le!
@@ -2149,6 +2220,7 @@ Mondom, nem.
 Mondtam már, hogy ez nem érdekel.
 Mondtam, hogy a szenzor működni fog.
 Mondtam, hogy nagyon szívesen, erre lerakta.
+Most Diamant Oktáv is vigyorgott, és Bobby nem tudta, hogy miért.
 Most akarod kezdeni?
 Most azonban már más a helyzet!
 Most azonban más a helyzet.
