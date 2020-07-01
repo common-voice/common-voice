@@ -497,6 +497,7 @@ data-bundle-description = Data frå Common Voice pluss alle andre stemmedatameng
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blanda
 data-download-singleword-title = Last ned målsegmentet for eitt ord
+data-download-singleword-callout = Dette er eit brukstilfelle-drive segment som inneheld data for å styrkje attkjenning av talte siffer, ja/nei-attkjenning og oppvakningsord-testdata for <fxLink>Firefox Voice</fxLink>.
 review-terms = Ved å bruke Common Voice, godkjenner du <termsLink>vilkåra</termsLink> og <privacyLink>personvernpraksisen</privacyLink> vår
 terms-agree = Eg er samd
 terms-disagree = Eg er ikkje samd
