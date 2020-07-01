@@ -505,6 +505,7 @@ data-bundle-button = Загрузить пакет наборов данных
 data-bundle-description = Данные Common Voice плюс данные всех голосовых наборов данных ниже.
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Смешанная
+data-download-singleword-title = Загрузите целевой сегмент «Одно слово»
 review-terms = Используя Common Voice, вы соглашаетесь с нашими <termsLink>условиями использования</termsLink> и <privacyLink>политикой приватности</privacyLink>
 terms-agree = Я соглашаюсь
 terms-disagree = Я не соглашаюсь
