@@ -520,6 +520,7 @@ data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
+data-download-singleword-title = Llwytho'r Segment Targed Gair Unigol i Lawr
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
 terms-agree = Rwy'n cytuno
 terms-disagree = Nid wyf yn cytuno
