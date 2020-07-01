@@ -161,10 +161,10 @@ at Class.exports.up (/Users/admin/Desktop/myprojects/mozilla/voice-web-master/se
 ```
 
 First make sure you have the correct version of MySQL (v8.0 or greater) installed. If the problem still persists, the following will prove useful:
-**Note that you only need to follow these steps once since the migrations are ran once. After that be sure to discard all changes made to the relevant files after migrations are successful.**
+**You only need to follow these steps once. After that be sure to discard all changes made to the relevant files after migrations are successful.**
 
-1. In the error log, locate and open the associated migrations file. In this case, the file is named `XXXX-user-sso-fields.ts`.
-2. Locate the affected column declaration - revealed by the “sqlMessage” string in the error log - and remove the default declaration value i.e In our case, the column username will have a new declaration “ADD COLUMN username TEXT NOT NULL” instead of “ADD COLUMN username TEXT NOT NULL DEFAULT ‘ ’”
+1. In the error log, locate and open the associated migrations file (localed in the `/migrations` directory). In this case, the file is named `20180910121256-user-sso-fields.ts`.
+2. Locate the affected column declaration - revealed by the “sqlMessage” string in the error log - and remove the default declaration value i.e In our case, the column username will have a new declaration `ADD COLUMN username TEXT NOT NULL` instead of `ADD COLUMN username TEXT NOT NULL DEFAULT ‘ ’`
 3. Fixing one migration error will uncover another error in another migration file. Repeat the same process until there are no more migration errors.
 4. Discard all changes made to the relevant migration files.
 
