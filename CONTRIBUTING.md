@@ -112,6 +112,20 @@ You can then access the website at [http://localhost:9000](http://localhost:9000
 #### Configuration
 
 You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override. If you're using Docker, you may need to modify the file `/.env-local-docker` instead.
+At its basic form, the 'config.json' file should look like this:
+
+```
+{
+    "IMPORT_SENTENCES": false,
+    "MYSQLUSER": <root_username_here>,
+    "MYSQLPASS": <root_password_here>,
+    "DB_ROOT_USER": <root_username_here>,
+    "DB_ROOT_PASS": <root_password_here>,
+    "MYSQLDBNAME": "voice",
+    "MYSQLHOST": "127.0.0.1",
+    "MYSQLPORT": 3306
+  }
+```
 
 ##### NewRelic error during startup
 
@@ -124,6 +138,19 @@ web        | [BE] NEW_RELIC_APP_NAME. Not starting!
 ```
 
 You do not need to set up NewRelic, except if you fix anything related to that.
+
+##### MySQL error during startup
+
+During the server start (after running ‘yarn start’), you might notice an error log similar to the one above. First make sure you have the correct version of MySQL (v8.0 or greater) installed. If the problem still persists, the following will prove useful:
+![]('./docs/mysql-startup-error.png')￼
+
+Note that you only need to follow these steps once since the migrations are ran once. After that be sure to discard all changes made to the relevant files after migrations are successful.
+
+1. In the error log, locate and open the associated migrations file (underlined in blue in the sample error screenshot above). In this case, the file is named _some-number_-user-sso-fields.ts
+2. Locate the affected column declaration - revealed by the “sqlMessage” string in the error log - and remove the default declaration value i.e In our case, the column username will have a new declaration “ADD COLUMN username TEXT NOT NULL” instead of “ADD COLUMN username TEXT NOT NULL DEFAULT ‘ ’”
+3. Fixing one migration error will uncover another error in another migration file. Repeat the same process until you receive the following log:
+   ![]('./docs/complete-migrations.png')￼
+4. Discard all changes made to the relevant migration files.
 
 #### Authentication
 
@@ -169,11 +196,11 @@ To add a migration run:
 At the moment you manually have to change the migration file extension to `.ts`. A migration has to expose the following API:
 
 ```typescript
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   return null;
 };
 
-export const down = async function(): Promise<any> {
+export const down = async function (): Promise<any> {
   return null;
 };
 ```
