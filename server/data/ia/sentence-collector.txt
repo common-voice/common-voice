@@ -566,14 +566,18 @@ Conta me que videva tu.
 Conta me re Maximo.
 Contente de facer vostre cognoscentia!
 Continua assi!
+Contra le muro!
 Contrasignos forte non ha a ser dur a rememorar.
 Corage es le capacitate a superar pavor.
+Corage! Toto essera tosto ben.
 Corrige me si io es incorrecte.
 Cosa significa ille symbolo secundo te?
 Cosas como illo eveni.
+Cosas gratuite son magnific.
 Cosas mal ha occurrite a me.
 Cotelette de porco es alsi multo gustose
 Crede me, iste excusa es transparente.
+Crede me, iste pretexto es futile.
 Crede tu realmente illo?
 Crita Tom!
 Cryptographia asymmetric usa copulas de claves.
@@ -588,6 +592,8 @@ Cyclos eterne.
 Da a Peter tote illo.
 Da illo a illa.
 Da illo a ille.
+Da me le cisorios, per favor.
+Da me le clave, per favor.
 Da me precise instructiones como discontaminar le soldato.
 Da me qualque carotas e altere legumines, io va a alimentar le conilios.
 Da me tu camisa.
@@ -1020,6 +1026,7 @@ Etiam io non es occupate.
 Etiam io non lo audi ben.
 Etiam io non lo comprende.
 Etiam io.
+Etiam non io.
 Europa es un continente multo variate.
 Evelia me a septe horas.
 Evidentia lo.
@@ -1993,6 +2000,7 @@ Ille averteva su reguardo.
 Ille bibe troppo.
 Ille bibeva bira.
 Ille bibeva un bira.
+Ille bibeva un bottilia de vino.
 Ille cantava un canto.
 Ille celebrava un festa exorbitante.
 Ille cerca un cinctura de corio.
@@ -2029,6 +2037,7 @@ Ille deveniva un policiero.
 Ille dice lo que dicer.
 Ille diceva le veritate.
 Ille diceva que ille non cognosceva le homine, lo que esseva un mendacio.
+Ille dimitteva su secretario.
 Ille disapprobava mi viage a Vienna.
 Ille dispreciava le consilio de su matre.
 Ille entrava in le camera con su cappello levate.
@@ -2106,6 +2115,7 @@ Ille es tanto alte como illa.
 Ille es troppo vetule pro illa.
 Ille es troppo vetule pro me.
 Ille es tu amico.
+Ille es un autor multo imaginative.
 Ille es un bon natator.
 Ille es un fanatic.
 Ille es un gentleman.
@@ -2118,6 +2128,7 @@ Ille es un poeta.
 Ille es un regina del dramas.
 Ille es un scriptor multo imaginative.
 Ille es un scriptor.
+Ille es un studente industriose.
 Ille es un viro del vetere rocca.
 Ille es un vulpe astute.
 Ille es vetule.
@@ -2159,6 +2170,7 @@ Ille guasta le moneta pro bagatellas.
 Ille ha accesso al information immagazinate.
 Ille ha ardite su cerebro.
 Ille ha armas potente.
+Ille ha circa quaranta annos.
 Ille ha comenciate un viage circa le mundo in barca.
 Ille ha comprate un catto pro lepore.
 Ille ha dece vaccas.
@@ -2245,6 +2257,8 @@ Ille me provocava ultra mi resistentia.
 Ille me reguardava in le oculos.
 Ille menti.
 Ille mentiva a nos.
+Ille mesme lo ha facite.
+Ille minuspreciava le corruption.
 Ille mirava al ave.
 Ille mitteva su adversario foras de combatto.
 Ille monstrava signos de affliction.
@@ -2253,6 +2267,7 @@ Ille musica rap con su alte battimentos electronic es appellate hip-hop.
 Ille musica rap, con su alte battimentos electronic, es appellate hip-hop.
 Ille nasceva si povre que ille ha a pena frequentate un schola.
 Ille non ama attender le ultime momento pro facer un cosa.
+Ille non appareva al festa heri vespere.
 Ille non bibe.
 Ille non cessava jammais de scriber.
 Ille non debe haber le vista curte.
@@ -2323,11 +2338,13 @@ Ille parla multo sin dicer un parola sincer.
 Ille parla un poco le anglese.
 Ille partiva in le pluvia.
 Ille passava un grande parte de su dies in speculation inutile.
+Ille pensa solmente de se mesme.
 Ille pensava esser su deber critar desperatemente.
 Ille percurreva rapidemente le pagina pro trovar le parola que ille cercava.
 Ille perdeva alcun digitos in le accidente.
 Ille persona es como me.
 Ille place a illa.
+Ille plorava continuemente.
 Ille pone le libro sur le planca.
 Ille poneva grande confidentia in su assistente.
 Ille pote venir.
@@ -2912,8 +2929,10 @@ Io detesta le surprisas.
 Io detesta mi voce.
 Io detesta quando le lingua de mi scarpa glissa al latere.
 Io detestar personas como Maximo.
+Io deveni ric.
 Io deveniva amico de Maximo.
 Io diceva a me mesme: io ha apprendite e augmentate multe sapientia.
+Io diceva que il esserea melior si illa va sol.
 Io dissenti de te.
 Io distingue le signos del ancian flamma.
 Io dormiva de un a quatro horas iste postmeridie.
@@ -2947,6 +2966,7 @@ Io es assi orgoliose de te.
 Io es assi plen.
 Io es belle.
 Io es bon.
+Io es candidato pro nihil.
 Io es certe re illo.
 Io es ci cata nocte.
 Io es completemente inutile in anglese.
@@ -3188,6 +3208,7 @@ Io ha un pauco de moneta.
 Io ha un penna.
 Io ha un relation amor-odio con iste libro banal ma colorate.
 Io ha un terribile pavor de serpentes.
+Io ha veliate multo tarde heri vespere.
 Io ha vidite tote le cosas que eveni sub le sol!
 Io ha vivite cosas que tu non crederea.
 Io habera mi proprie party, e tu non es invitate!
@@ -3231,6 +3252,7 @@ Io la ama.
 Io la appellava Catharina.
 Io la cognosceva durante mi sojorno in Mexico.
 Io la demandava de facer quatro copias del littera.
+Io la demandava si illa voleva ligar su destino a me.
 Io la prendera tal qual.
 Io la reguardava.
 Io la videva al party.
@@ -3283,6 +3305,7 @@ Io lo face perque io debe.
 Io lo face sempre.
 Io lo face un vice per septimana.
 Io lo facera ora.
+Io lo ha finalmente superate.
 Io lo ha jam discutite plure vices.
 Io lo ha jam facite.
 Io lo ha trovate.
@@ -3313,9 +3336,11 @@ Io me blocava.
 Io me demanda que hora es.
 Io me demanda qui pote natar le plus rapidemente.
 Io me demanda si un tertie guerra mundial erumpera.
+Io me diverte multo in Canada.
 Io me effortiara pro disabusar te de tal idea.
 Io me eveliava pro trovar me jacente super le sofa.
 Io me fide de te.
+Io me installava in iste casa heri.
 Io me lava.
 Io me leva ora.
 Io me poneva iste question de puncto in blanc.
@@ -3365,6 +3390,7 @@ Io non crede isto.
 Io non crede que le bombo rende le melle robate al apes.
 Io non debe esser ci.
 Io non deberea esser ci.
+Io non desira viver in un grande citate.
 Io non era jammais capturate.
 Io non es bon in isto perque io nunquam practica.
 Io non es del toto fatigate.
@@ -3372,10 +3398,12 @@ Io non es disposite a cocer le cena pro vinti personas.
 Io non es fatigate del toto.
 Io non es fede ma io etiam non es belle.
 Io non es interessate.
+Io non es secur si io vole restar in casa o sortir.
 Io non es tu inimico.
 Io non es un maga.
 Io non es un mendicante.
 Io non expecta que illes se adherera a mi puncto de vista.
+Io non extingueva le lumine.
 Io non faceva ulle questiones.
 Io non fide in alcuno.
 Io non fide in le magia nigre.
@@ -3400,6 +3428,7 @@ Io non habeva jammais votate.
 Io non intende morir.
 Io non intende te leder.
 Io non la cognosce del toto.
+Io non le ha vidite desde alora.
 Io non li recognosce.
 Io non lo demandava.
 Io non lo faceva.
@@ -3574,6 +3603,7 @@ Io plorava tanto que non ne ha plus appetito.
 Io possede poteres paranormal.
 Io pote a pena respirar.
 Io pote adjutar te.
+Io pote assecurar te un empleo.
 Io pote assecurar te: nos non vole retirar nos, usque le pace es assecurate.
 Io pote attender alcun horas.
 Io pote audir le vento.
@@ -3583,6 +3613,7 @@ Io pote guidar.
 Io pote natar ben.
 Io pote natar.
 Io pote parlar pro un poco.
+Io pote reparar le calefactor.
 Io pote restar in le camera de hospites.
 Io pote ser tu sol amico.
 Io pote skiar.

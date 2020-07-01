@@ -521,6 +521,8 @@ data-bundle-button = Download Dataset Bundle
 data-bundle-description = Common Voice data plus all other voice datasets above.
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixed
+data-download-singleword-title = Download the Single Word Target Segment
+data-download-singleword-callout = This is a use case driven segment containing data to power spoken digit recognition, yes / no detection, and wakeword testing data for <fxLink>Firefox Voice</fxLink>.
 
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = I agree

@@ -109,7 +109,10 @@ const SegmentBanner = ({
           ),
         },
         {
-          href: URLS.TARGET_SEGMENT_INFO,
+          href:
+            locale === 'es'
+              ? URLS.TARGET_SEGMENT_INFO_ES
+              : URLS.TARGET_SEGMENT_INFO,
           blank: true,
           persistAfterClick: true,
           className: 'cta external',

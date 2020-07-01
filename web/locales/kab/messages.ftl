@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad yi-d-ttawḍen yisallen ɣef usenfaṛ n Commen Voice.
+yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad yi-d-ttawḍen yisallen ɣef usenfar n Commen Voice.
 stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt itezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsel ugar ɣef wamek ara ttwasqedcen isefka-agi.
 privacy-info = Ad neḍmen aḥraz n talɣut-nwen. Ɣer ugar n yisallen deg <privacyLink>tsertit-nneɣ tabaḍnit</privacyLink>.
 return-to-cv = Uɣal ɣer Common Voice
@@ -666,7 +666,7 @@ record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 keep-track-profile = rnu amaɣnu akken ad twaliḍ ayen txedmed
 login-to-get-started = Kcem neɣ jerred akken ad tebduḍ
-target-segment-first-card = Tettekkaḍ deg taggayt-nneɣ tasaḍast amezwaru
+target-segment-first-card = Tettekkaḍ deg taggayt-nneɣ tasaḍast tamezwarut
 target-segment-first-banner = Mudd tallalt i tmerna n taggayt tasaḍast tamezwarut n Common Voice deg { $locale }
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar

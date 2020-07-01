@@ -1,7 +1,6 @@
 import { S3 } from 'aws-sdk';
 import { getConfig } from '../config-helper';
 import Model from './model';
-import { ServerError } from './utility';
 import { Sentence, Clip } from 'common';
 /**
  * Bucket

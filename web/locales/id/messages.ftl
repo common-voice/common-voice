@@ -501,6 +501,7 @@ data-bundle-button = Unduh Bundel Himpunan Data
 data-bundle-description = Data Common Voice dan seluruh himpunan data suara lain di atas.
 license = Lisensi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Campuran
+data-download-singleword-title = Unduh Segmen Target Kata Tunggal
 review-terms = Dengan menggunakan Common Voice, berarti Anda menyetujui <termsLink>Persyaratan</termsLink> dan <privacyLink>Pemberitahuan Privasi</privacyLink> kami
 terms-agree = Saya setuju
 terms-disagree = Saya tidak setuju
