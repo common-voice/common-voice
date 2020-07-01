@@ -521,6 +521,7 @@ data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
 data-download-singleword-title = Llwytho'r Segment Targed Gair Unigol i Lawr
+data-download-singleword-callout = Mae hwn yn segment defnydd sy'n cael ei yrru gan achos sy'n cynnwys data i bweru adnabod digid llafar, canfod ie/na, a data profi gair deffro ar gyfer <fxLink>Firefox Voice</fxLink>.
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
 terms-agree = Rwy'n cytuno
 terms-disagree = Nid wyf yn cytuno
