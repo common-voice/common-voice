@@ -507,6 +507,7 @@ data-bundle-description = Daty Common Voice plus wšě druhe hłosowe datowe sad
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 data-download-singleword-title = Sćehńće cilowy segment jednotliweho słowa
+data-download-singleword-callout = To je segment, kotryž so přez nałožowanski pad wodźi, kotryž daty wobsahuje, zo by spóznawanje rěčanych cyfrow, haj/ně-wotkrywanje a testowanske daty wakeword za <fxLink>Firefox Voice</fxLink> podpěrał.
 review-terms = Hdyž Common Voice wužiwaće, zwoliće do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 terms-agree = Sym přezjedny
 terms-disagree = Njejsym přezjedny
