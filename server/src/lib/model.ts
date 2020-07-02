@@ -142,7 +142,13 @@ export default class Model {
     this.db.endConnection();
   }
 
-  async saveClip(clipData: any) {
+  async saveClip(clipData: {
+    client_id: string;
+    localeId: number;
+    original_sentence_id: string;
+    path: string;
+    sentence: string;
+  }) {
     await this.db.saveClip(clipData);
   }
 
