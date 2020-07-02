@@ -506,6 +506,7 @@ data-bundle-button = Paket datowych sadźbow sćahnyć
 data-bundle-description = Daty Common Voice plus wšě druhe hłosowe datowe sadźby horjeka.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
+data-download-singleword-title = Sćehńće cilowy segment jednotliweho słowa
 review-terms = Hdyž Common Voice wužiwaće, zwoliće do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 terms-agree = Sym přezjedny
 terms-disagree = Njejsym přezjedny
