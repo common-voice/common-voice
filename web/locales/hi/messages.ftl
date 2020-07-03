@@ -64,10 +64,11 @@ ga-IE = आयरिश
 gl = गैलिशियन
 ha = हाउसा
 he = इब्रानी
-hi-IN = हिन्दी
+hi = हिंदी
 hr = क्रोएशियन
 hsb = ऊपरी सोरबियन
 hu = हंगेरियाई
+hy-AM = आर्मीनियाई
 ia = अंतरभाषा
 id = इंडोनेशियाई
 is = आइसलैण्डिक
@@ -245,7 +246,6 @@ whats-public = सार्वजनिक क्या है?
 email-not-public = हम आपके ईमेल को सार्वजनिक नहीं करेंगे।
 recordings-and-locale-public = रिकॉर्डिंग की संख्या और किन भाषाओं में आप योगदान करते हैं, वह सार्वजनिक होगी।
 username-optin-public = आप अपना उपयोगकर्ता नाम सार्वजनिक या अनाम बनाने के लिए चुन सकते हैं।
-demographic-deidentified = वैकल्पिक रूप से प्रस्तुत जनसांख्यिकीय डेटा (जैसे उम्र, लिंग, भाषा और उच्चारण) आपके प्रस्तुत किए गए वॉइस डेटा से डी-पहचाने जाते हैं और आपकी प्रोफ़ाइल पर कभी भी सार्वजनिक नहीं किए जाएंगे।
 username-email-not-demographic = आपका उपयोगकर्ता नाम और ईमेल प्रकाशित डेटा शामिल में नहीं होगा।
 
 ## Speak & Listen Shortcuts
@@ -646,7 +646,6 @@ contribute-more =
 record-cta = रिकॉर्डिंग शुरू करें
 record-platform-not-supported = हमें खेद है, पर आपका प्लेटफार्म वर्तमान में समर्थित नहीं है।
 record-platform-not-supported-desktop = डेस्कटॉप कंप्यूटर पर, आप नवीनतम डाउनलोड कर सकते हैं:
-record-platform-not-supported-ios = <bold>आईओएस </bold> उपयोगकर्ता हमारे मुफ्त ऐप डाउनलोड कर सकते हैं:
 record-must-allow-microphone = आपको माइक्रोफ़ोन एक्सेस की अनुमति देनी चाहिए।
 record-no-mic-found = कोई माइक्रोफ़ोन नहीं मिला।
 record-error-too-short = रिकॉर्डिंग बहुत छोटी थी.
@@ -673,11 +672,11 @@ listen-instruction = { $actionType }<playIcon></playIcon> क्या उन्
 listen-again-instruction = महान काम! <playIcon></playIcon> जब आप तैयार हों तब फिर से सुनें
 listen-3rd-time-instruction = 2 नीचे, इसे ऊपर रखें! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> अंतिम वाला!
-nothing-to-validate = हमारे पास इस भाषा को मान्य करने के लिए कुछ भी नहीं है, हमें कतार को भरने में मदद करें।
 record-button-label = अपनी आवाज रिकॉर्ड करें
 share-title-new = <bold> हमारी मदद करें </ bold> अधिक आवाज़ें ढूंढें
 keep-track-profile = प्रोफ़ाइल के साथ अपनी प्रगति पर नज़र रखें
 login-to-get-started = आरंभ करने के लिए लॉग इन करें या साइन अप करें
+target-segment-learn-more = अधिक जानें
 
 ## Reporting
 

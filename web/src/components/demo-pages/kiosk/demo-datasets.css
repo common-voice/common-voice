@@ -202,7 +202,10 @@
         .button {
             width: 60px;
             border-color: var(--warm-grey);
+            background-color: var(--valid-green);
+            padding: 0;
             &:hover {
+                background-color: var(--valid-green);
                 path {
                     fill: white;
                 }

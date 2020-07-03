@@ -1,14 +1,14 @@
 ## General
 
 yes-receive-emails = Ye, munsindikire email. Njagala okumanya ebifa mu Common Voice Pulojekiti.
-stayintouch = Wano ku Mozilla tuzimba enkologana ekwata ku tekinologiya w'eddoboozi. Twagala tusigale nga tuwuliziganya ebyafayo eyo, data omupya n'okumanya nga bwokozesa data ono.
-privacy-info = Tukusubiza okukuuma ebikufaako n'obwegenderenza. Ssoma ebisingawo ku <privacyLink>by'ekyama</privacyLink>.
+stayintouch = Wano ku Mozilla tuzimba enkologana ekwata ku tekinologiya w'eddoboozi. Twagala tusigale nga tuwuliziganya ebyafayo eyo, data omupya n'okumanya nga bw'okozesa data ono.
+privacy-info = Tukusuubiza okukwata ebikwatako n'obwegenderenza. Ssoma ebisingawo ku <privacyLink>sanduke y'ebyekyama</privacyLink>.
 return-to-cv = Ddayo ku Common Voice
 email-input =
     .label = Email
 submit-form-action = Sindika
 loading = Bijja…
-email-opt-in-info = Njagala okufuna email ezinjijukiza bye nina okola, we ntuuse n'ebifa ku Common Voice.
+email-opt-in-info = Nandi yagadde okufuna obubaka nga obujjukiza, bye'ntuseeko ate n'ebikwata ku Common Voice.
 email-opt-in-info-title = Weyunge kw'abo be tusindikira email ku bifa ku Common Voice
 email-opt-in-info-sub-with-challenge = Ffuna email nga ezikwata ku bilemye n'okujikiza, wetutuse, n'ebikwata ku Common Voice.
 email-opt-in-privacy = Okweyunga kwabo betusindikira emails kilaga nti okiriza Mozilla okukozesa ebikufaako nga bw'onyonyodwa mu <privacyLink>Nkola Y'ekyama<privacyLink>eya Mozilla.

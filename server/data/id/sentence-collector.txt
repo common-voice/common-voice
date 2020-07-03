@@ -1,6 +1,7 @@
 "Aku cinta kamu" - Saya tidak akan mengucapkan kata semacam itu.
 "Aku ingin buku itu", katanya pada dirinya sendiri.
 "Apa kabar?" "Kabar saya baik, terima kasih."
+"Apakah kau melihat ponselku?" "Ada di meja."
 "Berapa umurmu?" "Aku enam belas tahun."
 "Berapa umurnya?" "Dia dua belas tahun."
 "Biarkan saya sendiri", dia berkata dengan marah.
@@ -113,6 +114,7 @@ Aku bekerja di sini. Aku bukanlah tamu.
 Aku belajar bahasa Ceko.
 Aku belum lihat apapun.
 Aku belum menyelesaikan pekerjaan rumahku.
+Aku belum pernah ke New York, dan kakakku juga belum.
 Aku benar-benar berterima kasih!
 Aku benar-benar berterima kasih.
 Aku benci.
@@ -145,6 +147,7 @@ Aku harus menyelesaikan pekerjaan itu pada tanggal yang ditentukan.
 Aku harus pergi ke toilet sekarang juga.
 Aku harus pergi ke toilet.
 Aku harus pergi tidur.
+Aku haus.
 Aku hendak bertanya kepadamu hal yang sama.
 Aku ingin kalian bertemu dengan Tom.
 Aku ingin kamu buat teh untukku.
@@ -217,6 +220,7 @@ Aku pikir aku akan pergi tidur.
 Aku pikir hidupku bersamamu telah berpengaruh pada cara hidupmu.
 Aku pikir kamu tidak peduli tentang uang.
 Aku ragu kamu akan senang melihat laporanku.
+Aku sakit kepala.
 Aku sangat berterima kasih!
 Aku sangat berterima kasih.
 Aku sangat mencintainya, aku akan rela mati untuknya.
@@ -284,6 +288,7 @@ Aku tidak ingin hidup denganmu.
 Aku tidak ingin mendengar keluhanmu lagi.
 Aku tidak mampu menahannya lebih dari ini.
 Aku tidak mampu menahannya lebih lama lagi.
+Aku tidak mau tinggal dengan itu.
 Aku tidak melihat Tom.
 Aku tidak memiliki kesabaran menghadapi semua ini.
 Aku tidak mempercayaimu.
@@ -292,6 +297,7 @@ Aku tidak mendengar beritanya kemarin.
 Aku tidak menyentuh gitarmu.
 Aku tidak menyukai Alice.
 Aku tidak percaya padamu.
+Aku tidak punya banyak uang seperti yang kau kira.
 Aku tidak suka ini.
 Aku tidak tahu apakah besok akan hujan.
 Aku tidak tahu artinya kebencian.
@@ -381,6 +387,7 @@ Anjing yang mati tak bisa menggigit.
 Aoi menari.
 Apa Anda mau kopi?
 Apa Anda merasa bersalah?
+Apa acara televisi kesukaanmu?
 Apa ada biaya pengiriman?
 Apa ada kucing di atas meja?
 Apa ada mesin cuci di dalam rumahnya?
@@ -444,6 +451,7 @@ Apa yang Tom rasakan tentang hal itu?
 Apa yang akan kamu berikan pada Mike di hari ulang tahunnya?
 Apa yang akan kamu lakukan?
 Apa yang akan kamu mainkan?
+Apa yang akan kulakukan tanpamu?
 Apa yang biasa kamu lakukan pada hari Minggu?
 Apa yang biasanya kamu lakukan saat libur?
 Apa yang bisa aku lakukan untuk kamu?
@@ -476,6 +484,7 @@ Apa yang sedang kamu kerjakan?
 Apa yang sedang kamu khawatirkan?
 Apa yang sedang kamu lakukan?
 Apa yang sedang kamu lihat?
+Apa yang sedang kamu pikirkan?
 Apa yang sedang kamu tulis?
 Apa yang sedang terjadi di ruangan ini?
 Apa yang telah Tom pikirkan?
@@ -559,6 +568,7 @@ Apakah kamu gila?
 Apakah kamu ingat apa yang dia katakan?
 Apakah kamu juga punya ini dengan warna yang lain?
 Apakah kamu marah pada apa yang aku katakan?
+Apakah kamu mau minuman?
 Apakah kamu melihat Tom?
 Apakah kamu memahami maksudku, Tom?
 Apakah kamu memiliki perasaan terhadap Tom?
@@ -594,6 +604,7 @@ Apakah kamu tahu tentang keluargamu sendiri?
 Apakah kamu tidak ingat pertanyaannya?
 Apakah kamu tidak tahu kalau tidak sopan untuk menanyakan usia kepada perempuan?
 Apakah kamu tinggal di sini?
+Apakah kamu yakin?
 Apakah kau melihat bukuku?
 Apakah kau telah melupakanku?
 Apakah kita diperbolehkan menggunakan lift?
@@ -667,6 +678,7 @@ Baca musiknya, dengar fiksinya.
 Bagaimana Anda bisa saling kenal?
 Bagaimana Anda bisa tahu nomor telepon saya.
 Bagaimana Tom mengetahui hal itu?
+Bagaimana bisa Tom melakukan ini pada Mary?
 Bagaimana bisa tercapai simpulan seperti ini?
 Bagaimana caramu membuat kopi?
 Bagaimana cinta dapat mencintai cinta?
@@ -722,6 +734,7 @@ Bahasa jepang adalah bahasa ibu kita.
 Bahkan Tom sedikit terkejut.
 Bahkan Tom terkejut mendengarkan itu.
 Bahkan orang terkuat pun tidak bisa menghentikan angin topan.
+Baik, aku akan terima tawaranmu.
 Baik, saya akan terima tawaran Anda.
 Baiklah, mari kita mulai pelajaran.
 Baiklah. Berapa banyak?
@@ -741,6 +754,7 @@ Banyak bunga mekar saat musim semi.
 Banyak muda-mudi yang merilis masa dewasanya tanpa jalan keluar.
 Banyak orang berbaris di belakang saya.
 Banyak orang datang ke pesta.
+Banyak orang mengira aku gila.
 Banyak orang meninggal.
 Banyak pemuda ikut perang.
 Banyak pohon di kebun saya sedang berbuah.
@@ -799,6 +813,7 @@ Berapa gaji yang harus kubayar, tergantung pada kemampuanmu.
 Berapa harga dasi ini?
 Berapa harga wortelnya?
 Berapa harganya?
+Berapa kali sehari kamu bercermin?
 Berapa lama beruang tidur?
 Berapa lama kamu dan Tom bersama?
 Berapa lama kamu tinggal di Tokyo?
@@ -1220,6 +1235,7 @@ Dia belajar bahasa Prancis dengan cepat.
 Dia belajar keras agar dapat lulus di ujian masuk.
 Dia belum datang juga. Dia pasti ketinggalan bis.
 Dia belum datang. Dia pasti ketinggalan bis.
+Dia benar-benar pintar, ya?
 Dia benci pesta.
 Dia bercerai dari suaminya.
 Dia bercerita tentang pengalamannya.
@@ -1307,6 +1323,7 @@ Dia membagi dua kuenya.
 Dia membelikan aku sebuah mainan kecil.
 Dia memberhentikan mobil.
 Dia memberikan saya nomor teleponnya.
+Dia memberikannya segala hal yang ia minta.
 Dia memberikannya sesuatu untuk diminum.
 Dia memberiku garam.
 Dia memberitahuku bahwa dia akan mengunjungi Nara bulan depan.
@@ -2144,6 +2161,8 @@ Kamu bisa meminta bantuan darinya.
 Kamu bisa menebak apa yang terjadi.
 Kamu bodoh.
 Kamu boleh merokok di ruangan ini.
+Kamu boleh pilih apapun yang kamu suka.
+Kamu boleh pilih buku mana saja yang kamu suka.
 Kamu dalang dibalik semua ini.
 Kamu dapat beristirahat sampai malam.
 Kamu dapat menghubunginya dengan menelpon nomor ini.
@@ -2158,6 +2177,7 @@ Kamu harus memilih pekerjaan yang berhubungan dengan bakat dan minatmu.
 Kamu harus memperhatikan kendaraan ketika akan menyeberang jalan.
 Kamu harus memperhatikan rambu-rambu lalu lintas.
 Kamu harus menemukan pekerjaan.
+Kamu harus pergi.
 Kamu harus tidur.
 Kamu ingin pergi?
 Kamu kelas berapa?
@@ -2165,6 +2185,7 @@ Kamu kelihatan sedang bosan.
 Kamu lebih cepat tiga puluh menit.
 Kamu lebih memilih pergi ke kebun binatang atau bioskop?
 Kamu lebih tua daripada Tom.
+Kamu lelah, ya?
 Kamu mabuk.
 Kamu masih marah, ya?
 Kamu masih muda.
@@ -2184,6 +2205,7 @@ Kamu pikir kamu ini siapa?
 Kamu punya alasan tepat untuk marah.
 Kamu ringan tangan, 'kan?
 Kamu sebaiknya memperhatikan apa yang dia katakan.
+Kamu sedang apa?
 Kamu seharusnya langsung berbicara dengan Tom.
 Kamu seharusnya malu dengan tingkah laku kamu itu.
 Kamu seharusnya tidak berada di sini.
@@ -2193,11 +2215,14 @@ Kamu sudah makan malam?
 Kamu sudah makan nasi?
 Kamu sudah membuat keputusan ke belum?
 Kamu sudah menikah atau belum?
+Kamu tahu apa yang mereka katakan tentang Mary.
 Kamu tahu apa yang mereka katakan tentang Tom.
 Kamu tak akan bisa menyelesaikan tanpa kamus yang bagus.
 Kamu telah melakukan apa yang harus kamu lakukan
+Kamu terlihat bahagia hari ini.
 Kamu terlihat berbeda hari ini.
 Kamu terlihat khawatir.
+Kamu terlihat sangat pucat.
 Kamu tertarik pada apa?
 Kamu tidak bisa datang besok.
 Kamu tidak bisa lagi tinggal di daerah ini.
@@ -2607,6 +2632,7 @@ Macam apapun permainan yang aku dan kau mainkan, kau tidak pernah menang.
 Mafia adalah salah satu jenis organisasi kriminal.
 Magda akan menikah dengan orang Spanyol.
 Magdalena dan Ania adalah teman baik.
+Maha Suci Allah.
 Mahal sekali.
 Majalah apapun boleh.
 Majalah ini menarik.
@@ -3307,6 +3333,7 @@ Rusa itu dibunuh oleh para pemburu.
 Saat aku dewasa, aku ingin menjadi raja.
 Saat aku sedang menunggu bus, aku melihat kecelakaan lalu lintas.
 Saat berada di sana, saya belajar bahasa Inggris.
+Saat ia memberitahuku bahwa ia hamil, aku hampir terkena serangan jantung.
 Saat ini aku baik-baik saja di Semarang.
 Saat ini saya sedang sibuk memasak.
 Saat ini tidak ada lagi yang perlu saya kerjakan.
@@ -4031,6 +4058,7 @@ Saya tahu Anda telah menunggu lama, tapi bisakah anda menunggu sebentar lagi?
 Saya tahu ada beberapa orang yang bisa melihatnya.
 Saya tahu dia tidak dapat bekerja lagi.
 Saya tahu nomor telepon Pak Yamada.
+Saya tahu tentang kamu dan Mary.
 Saya tahu toko yang bagus.
 Saya tak ingin tertinggal pesawat.
 Saya tak suka bepergian naik pesawat.
@@ -4323,6 +4351,7 @@ Senja yang indah, ya?
 Seorang anak laki-laki dengan mimpi yang besar.
 Seorang laki-laki kaya yang tidur diatas tempat tidur emas.
 Seorang sopir tidur didalam mobil.
+Seorang temanku sedang belajar di luar negeri.
 Seorang wanita menanyakan jalan padaku.
 Seorang wanita, yang suaminya meninggal, disebut janda.
 Seorang wartawan sedang mewawancarai Dr. Patterson mengenai koko, gorila yang bisa bicara.

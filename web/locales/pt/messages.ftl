@@ -217,7 +217,7 @@ x-years-short =
 help-make-dataset = Ajude-nos a construir um conjunto de dados de alta qualidade, aberto publicamente
 sign-up-account = Cadastre uma conta
 email-subscription-title = cadastre-se para receber notícias por e-mail
-email-subscription-title-new = Cadastre-se para recebe do Common Voice boletins, lembretes de metas e informações de progresso
+email-subscription-title-new = Cadastre-se para receber do Common Voice boletins, lembretes de metas e informações de progresso
 
 ## Account Benefits
 

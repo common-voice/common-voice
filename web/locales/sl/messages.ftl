@@ -630,6 +630,7 @@ contribute-more =
 record-cta = Začni snemati
 record-platform-not-supported = Žal nam je, vendar vaše platforme trenutno ne podpiramo.
 record-platform-not-supported-desktop = Na namiznih in prenosnih računalnikih lahko prenesete najnovejše:
+record-platform-not-supported-ios-non-safari = V sistemu iOS nadaljujte s Safarijem, da omogočite snemanje …
 record-must-allow-microphone = Dovoliti morate dostop do mikrofona.
 record-no-mic-found = Ni najdenega mikrofona.
 record-error-too-short = Posnetek je prekratek.

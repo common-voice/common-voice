@@ -1,8 +1,9 @@
 import * as React from 'react';
 import {
-  ConnectedDownloadForm,
+  ConnectedDatasetDownload,
   DatasetsIntro,
   DatasetsDescription,
+  CURRENT_RELEASE,
 } from '../../pages/datasets/dataset-info';
 import Subscribe from '../../pages/datasets/subscribe';
 import { Localized, withLocalization } from '@fluent/react';
@@ -26,7 +27,9 @@ const getDatasetsComponents = (): PageContentType => {
             <DatasetsIntro demoMode={true} />
           </div>
           <div className="demo-datasets--download__sub">
-            <ConnectedDownloadForm {...{ getString }} />
+            <ConnectedDatasetDownload
+              {...{ getString, releaseName: CURRENT_RELEASE }}
+            />
           </div>
         </div>
         <div className="white-bg">
@@ -38,7 +41,7 @@ const getDatasetsComponents = (): PageContentType => {
             <Localized id="demo-eofy-sub_header">
               <p id="demo-datasets--eofyr__subheader" />
             </Localized>
-            <DatasetsDescription />
+            <DatasetsDescription {...{ releaseName: CURRENT_RELEASE }} />
           </div>
         </div>
         <Subscribe demoMode={true} />

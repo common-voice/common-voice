@@ -12,5 +12,5 @@ get-involved-submit = Lähetä
 get-involved-stayintouch = Mozilla rakentaa yhteisöä puheteknologiaa varten. Me haluamme pitää yhteyttä koskien päivityksiä, uusia aineistolähteitä, sekä haluamme tietää miten käytät tätä aineistoa.
 get-involved-privacy-info = Lupaamme käsitellä tietojasi huolella, lue lisää <privacyLink>tietosuojaselosteesta</privacyLink>.
 get-involved-success-title = Olet kirjautunut auttamaan kielellä { $language }, kiitos siitä.
-get-involved-success-text = Me ilmoitamme sitä mukaa kun lisää tietoa on saatavilla.
+get-involved-success-text = Me ilmoitamme sitä mukaa, kun lisää tietoa on saatavilla.
 get-involved-return-to-languages = Palaa kieliin

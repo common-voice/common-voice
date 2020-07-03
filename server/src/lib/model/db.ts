@@ -52,6 +52,8 @@ let localeIds: { [name: string]: number };
 let termIds: { [name: string]: number };
 
 export async function getLocaleId(locale: string): Promise<number> {
+  if (locale === 'overall') return null;
+
   if (!localeIds) {
     const [rows] = await getMySQLInstance().query(
       'SELECT id, name FROM locales'
@@ -224,6 +226,7 @@ export default class DB {
             WHERE skipped.sentence_id = sentences.id AND
               skipped.client_id = ?
           )
+          AND (clips_count = 0 OR has_valid_clip = 0)
           ORDER BY clips_count ASC
           LIMIT ?
         ) t
@@ -329,7 +332,8 @@ export default class DB {
             FROM votes
             WHERE votes.clip_id = clips.id AND client_id = ?
           )
-        AND (sentences.clips_count <= 10 OR sentences.clips_count IS NULL)
+        AND sentences.clips_count <= 10
+        AND sentences.has_valid_clip = 0
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
         LIMIT ?
       ) t
@@ -411,6 +415,13 @@ export default class DB {
     id: string,
     auth_token?: string
   ): Promise<boolean> {
+    const guidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
+    const authRegex = /^\w{40}$/;
+
+    if (!guidRegex.test(id) || (auth_token && !authRegex.test(auth_token))) {
+      return false;
+    }
+
     await this.mysql.query(
       `
         INSERT INTO user_clients (client_id, auth_token)
@@ -492,24 +503,29 @@ export default class DB {
         WHERE updated_clips.id = ${id}
       `
     );
+
+    await this.mysql.query(
+      `UPDATE sentences
+        SET has_valid_clip = EXISTS (SELECT * FROM clips WHERE original_sentence_id = ? AND is_valid = 1 LIMIT 1)
+          WHERE id = ?`,
+      [id, id]
+    );
   }
 
   async saveClip({
     client_id,
-    locale,
+    localeId,
     original_sentence_id,
     path,
     sentence,
   }: {
     client_id: string;
-    locale: string;
+    localeId: number;
     original_sentence_id: string;
     path: string;
     sentence: string;
   }): Promise<void> {
     try {
-      const localeId = await getLocaleId(locale);
-
       await this.mysql.query(
         `
           INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id)
@@ -521,10 +537,12 @@ export default class DB {
       await this.mysql.query(
         `
           UPDATE sentences
-          SET clips_count = clips_count + 1
+          SET
+            clips_count = clips_count + 1,
+            has_valid_clip = EXISTS (SELECT * FROM clips WHERE original_sentence_id = ? AND is_valid = 1 LIMIT 1)
           WHERE id = ?
         `,
-        [original_sentence_id]
+        [original_sentence_id, original_sentence_id]
       );
     } catch (e) {
       console.error('error saving clip', e);
@@ -703,6 +721,15 @@ export default class DB {
     )[0][0];
   }
 
+  async findSentence(id: string) {
+    return (
+      await this.mysql.query(
+        'SELECT locale_id, text FROM sentences WHERE id = ? LIMIT 1',
+        [id]
+      )
+    )[0][0];
+  }
+
   async getRequestedLanguages(): Promise<string[]> {
     const [rows] = await this.mysql.query(
       'SELECT language FROM requested_languages'
@@ -811,12 +838,12 @@ export default class DB {
     );
   }
 
-  async insertDownloader(locale: string, email: string) {
+  async insertDownloader(locale: string, email: string, dataset: string) {
     await this.mysql.query(
       `
-        INSERT IGNORE INTO downloaders (locale_id, email) VALUES (?, ?)
+        INSERT IGNORE INTO downloaders (locale_id, email, dataset_id) VALUES (?, ?, (SELECT id FROM datasets WHERE release_dir = ?))
       `,
-      [await getLocaleId(locale), email]
+      [await getLocaleId(locale), email, dataset]
     );
   }
 

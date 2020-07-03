@@ -9,7 +9,7 @@ email-input =
 submit-form-action = שליחה
 loading = בטעינה…
 email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
-email-opt-in-privacy = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות<privacyLink>.
+email-opt-in-privacy = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות<privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא זמין
 
