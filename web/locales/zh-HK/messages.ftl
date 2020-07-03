@@ -173,7 +173,7 @@ logout = 登出
 home-title = Common Voice 計劃係由 Mozilla 發起嘅，用嚟幫機械學識好似真人咁發聲。
 home-cta = 喺呢度貢獻你嘅聲音！
 wall-of-text-start = 語音係自然、有人性嘅。所以我哋非常希望為機器建造可用嘅語音技術，但建造語音系統需要非常大量嘅語音數據。
-wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
+wall-of-text-more-mobile = 大部分現成嘅數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立咗等每個人都可以嚟自由建造語音識別嘅 Common Voice 計劃。
 wall-of-text-more-desktop =
     現在您可以將自己的聲音捐畀我哋，以幫助打造開放源碼的語音資料庫，讓任何人都可以為裝置和互聯網打造嶄新的應用程式。<lineBreak></lineBreak>
     只要朗讀一段文字，您就可以幫助機器了解我哋點樣講嘢。您亦可以驗證其他貢獻者的聲音，以協助改善品質。就係咁簡單！
@@ -222,7 +222,7 @@ email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子�
 
 benefits = 益處
 rich-data = 提供一啲人口統計資料，可令你提交嘅數據更加豐富。我們會喺公開錄音檔前，將呢啲統計資料去識別化。
-improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確度時用的語音數據。
+improve-audio = 個人檔案中嘅資料可幫助改善訓練語音識別準確度個陣用嘅語音數據。
 keep-track = 跟蹤你嘅進度，以及各種語言嘅統計指標。
 compare-progress = 睇下您的進度同全球其他貢獻者如何相比。
 view-goals = 檢視個人和整個計劃的目標進度。
