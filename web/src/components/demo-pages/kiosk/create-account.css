@@ -1,0 +1,57 @@
+.demo-create-account-top-icon-circle {
+    background: linear-gradient(180.36deg, #88d1f1 0.29%, #b1b5e5 99.67%);
+}
+
+.demo-create-account-top-icon-circle-outer {
+    background: linear-gradient(181.04deg, #88d1f1 0.89%, #b1b5e5 99.14%);
+    opacity: 0.5;
+}
+
+#demo-create-account {
+    background-color: var(--lighter-grey);
+    background-image: url('../../register-section/images/waves.png');
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-position: bottom;
+    .top {
+        flex-direction: column;
+        align-items: center;
+
+        .bg {
+            background: none;
+        }
+
+        ul {
+            background: var(--lighter-grey);
+            max-height: 430px;
+
+            &::-webkit-scrollbar {
+                background-color: var(--grey);
+                width: 0.28rem;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: #629ff4;
+                height: 6.25rem;
+                width: 0.28rem;
+                border-radius: 0.31rem;
+            }
+        }
+    }
+}
+
+#demo-account-sign-up {
+    display: flex;
+    margin-top: 1.5rem;
+    flex-direction: column;
+}
+
+#signup-link {
+    color: var(--blue);
+    text-decoration: underline;
+    margin-top: 2rem;
+}
+#qr-code {
+    width: 6rem;
+    height: 6rem;
+}

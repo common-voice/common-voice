@@ -822,8 +822,16 @@ demo-welcome-subheader = Interested in learning more and contributing to the pro
 ## Demo Datasets
 demo-language-select-card-header = Common Voice is the world’s largest publicly available, multi-language voice dataset.
 demo-language-select-card-body = Thanks to contributions from over 259k people in over 50 languages, this data is being used to train speech-enabled applications to better respond to the human voice.
-demo-language-select-card-button = Next
+card-button-next = Next
+card-button-back = Back
 demo-language-select-label = Browse Languages
 demo-eofy-header = 2019 End-of-Year Release
 demo-eofy-sub_header = Voice Dataset, Ready for Download
 demo-account = Account
+
+## Demo Account
+demo-account-card-header = Having an account is not required to contribute, though it is helpful. 
+demo-account-card-body = To the right we outline the benefits and clarify what information we make public. Use the links below to get started with a Common Voice account on your own device.
+demo-account-enter-email = 
+.label = Enter email to send a sign up link
+demo-account-sign-up = Send sign up link

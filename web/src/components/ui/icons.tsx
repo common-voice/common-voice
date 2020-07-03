@@ -142,6 +142,22 @@ export const ChevronRight = (props: any) => (
   </svg>
 );
 
+export const ChevronLeft = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 25 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M16.1446 5.29289C16.5351 5.68342 16.5351 6.31658 16.1446 6.70711L10.8517 12L16.1446 17.2929C16.5351 17.6834 16.5351 18.3166 16.1446 18.7071C15.7541 19.0976 15.1209 19.0976 14.7304 18.7071L8.73039 12.7071C8.33987 12.3166 8.33987 11.6834 8.73039 11.2929L14.7304 5.29289C15.1209 4.90237 15.7541 4.90237 16.1446 5.29289Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
 export const ChevronDown = (props: any) => (
   <svg width="13px" height="9px" viewBox="0 0 13 9">
     <title>icon / down-arrow-black</title>

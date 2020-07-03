@@ -49,7 +49,7 @@ const getDatasetsComponents = (): PageContentType => {
     );
   };
 
-  const CardComponent = ({ getString }: { getString: Function }) => (
+  const CardComponent = () => (
     <>
       <KioskCard.Top>
         <div id="inner-circle" className="demo-datasets-kiosk-top-icon-circle">
@@ -67,10 +67,8 @@ const getDatasetsComponents = (): PageContentType => {
           <Localized id="demo-language-select-card-header">
             <h2 />
           </Localized>
-          <LabeledSelect
-            label={getString('demo-language-select-label')}></LabeledSelect>
           <Localized id="demo-language-select-card-body">
-            <p id="kiosk-card--body_p" />
+            <p />
           </Localized>
         </div>
       </KioskCard.Body>
@@ -79,7 +77,7 @@ const getDatasetsComponents = (): PageContentType => {
           id="demo-datasets-card--next-button"
           to={urls.DEMO_DASHBOARD}
           rounded>
-          <Localized id="demo-language-select-card-button">
+          <Localized id="card-button-next">
             <span />
           </Localized>
           <ChevronRight />
