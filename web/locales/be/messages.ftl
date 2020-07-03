@@ -229,7 +229,7 @@ rich-data = Зрабіце адпраўленыя вамі дадзеныя як
 improve-audio = Інфармацыя пра профіль паляпшае гукавыя дадзеныя, што выкарыстоўваюцца для трэніроўкі распазнавання голасу.
 keep-track = Сачыце за сваім прагрэсам і паказчыкамі для некалькіх моў.
 compare-progress = Глядзіце, як ваш прагрэс спаборнічае з іншымі ўдзельнікамі па ўсім свеце.
-view-goals = Назірайце за сваім прагрэсам ў дасягненні асабістых мэт і мэт праекта.
+view-goals = Назірайце за сваім прагрэсам у дасягненні асабістых мэт і мэт праекта.
 join-newsletter = Калі захочаце, падпішыцеся на нашу рассылку з абнаўленнямі і новай інфармацыяй пра праект.
 
 ## What's public
@@ -360,7 +360,7 @@ manage-subscriptions = Кіраваць падпіскамі
 manage-email-subscriptions = Кіраваць падпіскамі па эл. пошце
 email-already-used = Эл. пошта ўжо выкарыстоўваецца іншым акаўнтам
 add-language = Дадаць мову
-change-email-setings = Змяніць ваш адрас эл. пошты праз Налады ў раздзеле «ідэнтыфікатар для ўваходу»
+change-email-setings = Змяніце ваш адрас эл. пошты праз Налады ў раздзеле «Ідэнтыфікатар для ўваходу»
 
 ## FAQ
 
@@ -674,6 +674,12 @@ recordings =
         [few] Запісы
        *[many] Запісаў
     }
+validations =
+    { $count ->
+        [one] Праверка
+        [few] Праверкі
+       *[many] Праверак
+    }
 
 ## Dashboard
 
@@ -692,18 +698,33 @@ recorded-clips = Запісана кліпаў
 validated-clips = Праверана кліпаў
 total-approved = Усяго ўхвалена
 overall-accuracy = Агульная дакладнасць
-set-visibility = Наладзіць маю бачнасць
+set-visibility = Змяніць маю бачнасць
 show-ranking = Паказаць маю пазіцыю
 
 ## Custom Goals
 
+create-custom-goal = Стварыць асабістую мэту
+both-speak-and-listen = І тое, і другое
+daily-goal = Дзённая мэта
+weekly-goal = Тыднёвая мэта
+easy-difficulty = Лёгка
+average-difficulty = Нармальна
+difficult-difficulty = Цяжка
+lose-goal-progress-warning = Рэдагуючы сваю мэту, вы можаце страціць свой прагрэс.
 want-to-continue = Хочаце працягнуць?
 finish-editing = Спачатку скончыць рэдагаванне?
+build-custom-goal = Стварыце ўласную мэту
+help-reach-hours = Дапамажыце дасягнуць { NUMBER($hours) } гадзін на мове { $language } праз асабістую мэту
+help-reach-hours-general = Дапамажыце Common Voice дасягнуць { NUMBER($hours) } гадзін на адной з моў праз асабістую мэту
+set-a-goal = Паставіць мэту
 cant-decide = Не можаце вырашыць?
+activity-needed-calculation = { NUMBER($totalHours) } гадзін можна дасягнуць прыблізна за { NUMBER($periodMonths) } месяцаў, калі { NUMBER($people) } чалавек будуць запісваць па { NUMBER($clipsPerDay) } кліпаў штодня.
 how-many-per-day = Выдатна! Колькі кліпаў у дзень?
 how-many-a-week = Выдатна! Колькі кліпаў у тыдзень?
+which-goal-type = Вы хочаце агучваць, правяраць альбо і тое, і другое?
 receiving-emails-info = Вы будзеце атрымліваць лісты, такія як напаміны аб мэтах, паведамленні пра свае дасягненні і навіны пра Common Voice.
 not-receiving-emails-info = Вы <bold>НЕ</bold> будзеце атрымліваць лісты, такія як напаміны аб мэтах, паведамленні пра свае дасягненні і навіны пра Common Voice.
+help-share-goal = Дапамажыце нам знайсці больш галасоў, падзяліцеся сваёй мэтай
 
 ## Profile Delete
 
