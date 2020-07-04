@@ -1,7 +1,7 @@
 ## Languages
 
-contribute = Contribuir
-get-involved-button = As partecipar
+contribute = Contribuischa
+get-involved-button = Collavurescha
 get-involved-title = Contribuischa al { $lang }
 get-involved-text = Grazcha per teis interess da contribuir al { $lang }. Nus ans dain tuotta fadia da preparar mincha lingua per pudair lantschar ella e da tgnair al curraint ils teams per e-mail. Scha tü voust contribuir, schi indicha tia adressa dad e-mail quia suotvart.
 get-involved-form-title = T'annunzcha per tschüffer novitats dal team { $lang }.
