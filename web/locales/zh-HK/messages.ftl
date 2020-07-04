@@ -726,7 +726,7 @@ total-approved = 總批准數
 overall-accuracy = 整體準誠度
 set-visibility = 公開/隱藏個人檔案
 visibility-explainer = 用此選項在排行榜上公開/隱藏個人檔案。在「隱藏」狀態時，您的進度僅自己可見，照片、用戶名稱、貢獻進度等均不會出現在排行榜上。注意改變設定 { $minutes } 分鐘後，才會在排行榜上生效。
-visibility-overlay-note = 設定為「公開」時，可以在 <profileLink>個人檔案首頁</profileLink>改變此選項
+visibility-overlay-note = 設定為「公開」個陣，可以喺 <profileLink>個人檔案首頁</profileLink>改變此選項
 show-ranking = 顯示我嘅排名
 
 ## Custom Goals
@@ -754,8 +754,8 @@ activity-needed-calculation = 如果有{ NUMBER($people) }人每日錄{ NUMBER($
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每週錄幾多段音？
 which-goal-type = 您想淨係講嘢、聽嘢，定係又聽又講？
-receiving-emails-info = 你目前選擇接收包括目標提醒、進度更新、及 Common Voice 電子報的電郵。
-not-receiving-emails-info = 你目前選擇 <bold>不接收</bold> 包括目標提醒、進度更新、及 Common Voice 電子報的電郵。
+receiving-emails-info = 你目前選擇接收包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
+not-receiving-emails-info = 你目前選擇 <bold>唔接收</bold> 包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
 n-clips = { NUMBER($count) } 段錄音
 help-share-goal = 幫助我們找更多人參與錄音，分享您的目標
 confirm-goal = 確認目標
@@ -777,15 +777,15 @@ share-goal = 分享我嘅目標
 
 ## Profile Delete
 
-delete-q = 您想刪除埋所有您的錄音，還是要將錄音保留喺 Common Voice 嘅資料集中？
+delete-q = 你想刪除埋你嘅所有錄音，定係想將錄音保留喺 Common Voice 嘅數據集中？
 keep = 保留
 remove = 移除
-keep-info = 您的錄音會以匿名的形式保留喺 Common Voice 嘅資料集。當您刪除咗個人檔案後，就唔能夠再從資料集中刪除錄音。
-remove-info = 我們將會審核您從資料集中刪除錄音的請求。如果您的請求獲得批准，我們將會聯絡已下載資料集的使用者，並請他們也刪除您的錄音。
+keep-info = 您的錄音會以匿名的形式保留喺 Common Voice 嘅數據集。當您刪除咗個人檔案後，就唔能夠再從數據集中刪除錄音。
+remove-info = 我哋將會審核你從數據集中刪除錄音嘅請求。如果你嘅請求獲得批准，我哋將會聯絡已下載數據集嘅使用者，並請佢哋都刪除你嘅錄音。
 why-delete-recordings =
-    學術界、小企業與語音識別愛好者會使用 Common Voice 的錄音片段來幫助訓練、發展語音模型等公共資源。
+    學術界、小企業與語音識別愛好者會使用 Common Voice 嘅錄音片段嚟幫助訓練、發展語音模型等公共資源。
     
-    可以讓我們知道您為什麼想要刪除錄音片段嗎？
+    可唔可以話畀我哋知你點解想刪除錄音片段？
 profile-form-delete = 刪除個人檔案
 
 ## Landing
