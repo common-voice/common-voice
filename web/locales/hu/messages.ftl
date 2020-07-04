@@ -506,6 +506,7 @@ data-bundle-button = Adatkészletcsomag letöltése
 data-bundle-description = Common Voice adatok plusz az összes fenti adatkészlet.
 license = Licenc: <licenseLink>{ $license }</licenseLink>
 license-mixed = Vegyes
+data-download-singleword-title = Töltse le az egyszavas célszegmenst
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
