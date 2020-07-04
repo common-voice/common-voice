@@ -507,6 +507,7 @@ data-bundle-description = Common Voice adatok plusz az összes fenti adatkészle
 license = Licenc: <licenseLink>{ $license }</licenseLink>
 license-mixed = Vegyes
 data-download-singleword-title = Töltse le az egyszavas célszegmenst
+data-download-singleword-callout = Ez egy konkrét használati esetet célzó szegmens, mely kiejtett számok felismeréséhez, igen / nem észleléshez és hívószó-teszteléshez alkalmas adatokat tartalmaz a <fxLink>Firefox Voice</fxLink> számára.
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
