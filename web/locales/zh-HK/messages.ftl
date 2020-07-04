@@ -225,7 +225,7 @@ rich-data = 提供一啲人口統計資料，可令你提交嘅數據更加豐�
 improve-audio = 個人檔案中嘅資料可幫助改善訓練語音識別準確度個陣用嘅語音數據。
 keep-track = 跟蹤你嘅進度，以及各種語言嘅統計指標。
 compare-progress = 睇下您的進度同全球其他貢獻者如何相比。
-view-goals = 檢視個人和整個計劃的目標進度。
+view-goals = 檢視個人同成個計劃嘅目標進度。
 join-newsletter = 你都可以加入我哋嘅電郵群組，嚟接收計劃嘅進度更新同新資訊。
 
 ## What's public
