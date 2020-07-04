@@ -508,6 +508,7 @@ data-bundle-description = Dane Common Voice ze wszystkimi innymi zbiorami danych
 license = Licencja: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mieszana
 data-download-singleword-title = Pobierz segment docelowy dla pojedynczego słowa
+data-download-singleword-callout = To segment zawierający dane do rozpoznawania wymawianych cyfr, wykrywania tak/nie i dane testowe słowa wybudzającego dla projektu <fxLink>Firefox Voice</fxLink>.
 review-terms = Korzystając z Common Voice, zgadzasz się na <termsLink>warunki korzystania</termsLink> i <privacyLink>zasady ochrony prywatności</privacyLink>
 terms-agree = Zgadzam się
 terms-disagree = Nie zgadzam się
