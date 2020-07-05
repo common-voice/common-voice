@@ -334,35 +334,35 @@ on = Activà
 avatar-clip-title = Dà üna vusch a teis avatar
 change-your-avatar-clip = Voust müdar tia registraziun?
 recording-in-progress = Nus registrain tia vusch ...
-avatar-clip-recorded = Teis avatar ha uossa ün clip vocal!
+avatar-clip-recorded = Teis avatar cumpiglia uossa üna registraziun!
 record-voice-wave = REGISTRESCHA TIA VUSCH
-retry-voice-wave-recording = REPETER
+retry-voice-wave-recording = REPETA
 re-record = REGISTRESCHA AMO ÜNA JADA
-delete-voice = STÜDER
-recording-voice-wave = Registrar
-delete-voice-clip = o stüda clip vocal
-ready-to-upload = CHARGIAR SÜ
-avatar-clip-fact = I's sa fingià lönch, cha il layout dad üna pagina d'internet distratta il lectur dürant cha'l legia il cuntgnü da quista.
-recreate-voice = Recrear Voicewave
-cancel-avatar-clip-recording = INTERRUMPER
-about-avatar-clip-recording = Registrescha ün clip vocal chi fa part da teis avatar da profil. Oters pudaran selecziunar teis clip culla mür per tadlar el.
-browse-file-title = Chargia sü ün purtret
-browse-file = drag and drop o <browseWrap>tscherchar</browseWrap>
-connect-gravatar = Colliar cun Gravatar
+delete-voice = STÜDA
+recording-voice-wave = Registrazun
+delete-voice-clip = o stüda la registraziun
+ready-to-upload = CHARGIA
+avatar-clip-fact = I's sa fingià dalönch innan, cha la lectura / cha'l lectur vain distrat dal layout legibel dad üna pagina d'internet.
+recreate-voice = Recreescha tia uonda da vusch
+cancel-avatar-clip-recording = INTERRUMPA
+about-avatar-clip-recording = Creescha üna registraziun sco part da teis avatar da profil. Oters pon selecziunar tia registraziun cun la mür per tilla tadlar.
+browse-file-title = Chargia üna datoteca cun purtret
+browse-file = drag and drop o <browseWrap>sföglia</browseWrap>
+connect-gravatar = Collia cun Gravatar
 gravatar_not_found = Chattà ingün Gravatar per tia adressa dad e-mail
-file_too_large = La datoteca cha tü hast tschernü es massa gronda
-manage-subscriptions = Administrar teis abunamaints
-manage-email-subscriptions = Administrar ils abunamaints dad e-mail
-email-already-used = Quist'adressa dad e-mail vegn fingià dovrada per ün oter conto
-add-language = Agiundscher üna lingua
-change-email-setings = Tü poust müdar tia adressa dad e-mail aint illas preferenzas suot l'identità d'annunzcha
+file_too_large = La datoteca tschernüda es massa gronda
+manage-subscriptions = Administrescha ils abunamaints
+manage-email-subscriptions = Administrescha ils abunamaints dad e-mail
+email-already-used = Quist'adressa dad e-mail vain fingià dovrada per ün oter conto
+add-language = Agiundscha üna lingua
+change-email-setings = Müda ti'adressa dad e-mail in Parameters suot l'identità d'annunzcha
 
 ## FAQ
 
-faq-title = Dumondas frequentas
+faq-title = Dumondas frequaintas
 faq-what-cv-q = Che es Common Voice?
 faq-what-cv-a =
-    La tecnologia da recugnuschentscha vocala revoluziunescha il möd co cha nus interagin cun maschinas. Actualmaing sun ils sistems disponibels però chars e protets cun drets d'autur. Common Voice fa part da l'iniziativa da Mozilla per render las tecnologias da recugnuschentscha vocala megldras e plü accessiblas a tuots. Common Voice es üna gronda banca da datas globala cun contribuziuns da vuschs cha minchün po dovrar per trenar apps chi funcziunan cun la vusch in möd svelt e simpel, e quai in fuond in mincha lingua
+    La tecnologia dad identificaziun da vusch revoluziunescha il möd co cha nus interagin cun maschinas. Actualmaing sun ils sistems disponibels però chars e protets cun drets d'autur. Common Voice fa part da l'iniziativa da Mozilla per render las tecnologias dad identificaziun da vusch megldras e plü accessiblas a tuots. Common Voice es üna gronda banca da datas globala cun contribuziuns da vuschs, cha minchün po dovrar per trenar apps chi funcziunan cun la vusch in möd svelt e simpel, e quai in fuond in mincha lingua
     
     Nus nu ramassain be registraziuns in linguas fich derasadas, ma eir in linguas chi vegnan discurrüdas da populaziuns plü pitschnas. Cun publichar üna vasta collecziun da datas güdaina a sviluppaders, impressaris e comunitats dad implir svessa quista locca. Sper la banca da datas Common Voice sviluppaina eir üna maschina da recugnuschentscha vocala open source cul nom Deep Speech.
 faq-why-important-q = Perche es quai important?
@@ -412,7 +412,7 @@ faq-what-determine-identity-a =
     Las infuormaziuns persunalas vegnan eliminadas da tuot la registraziuns aint illa collecziun da datas. Cur cha la collecziun da datas vain telechargiada esa dad apporovar chi nu's prova dad eruir l'identità da qualunque partecipant. Quai voul dir chi nun es permiss da crear üna colliaziun tanter las infuormaziuns da la collecziun da datas e las datas persunalas dals partecipants. Cun colliar per exaimpel las datas da la collecziun cun otras datas chi sun fingià avantman aint illa collecziun as poja però dovrar la collecziun da datas per trenar la recugnuschentscha vocala, l'identificaziun dal pledader o otras applicaziuns.
 faq-what-is-cv = Che es Common Voice?
 faq-using-cv = Dovrar Common Voice
-faq-description = Common Voice fa part da l'iniziativa da Mozilla chi voul muossar a maschinas co cha persunas realas discuorran.
+faq-description = Common Voice fa part da l'iniziativa da Mozilla chi voul muossar a maschinas co cha drettas persunas discuorran.
 faq-search-for-answers =
     .label = Tscherchar respostas
 
@@ -425,29 +425,34 @@ about-header-description =
     Nus lain render las datas da vusch accessiblas in möd liber ed avert e garantir implü cha las datas rapreschaintan la diversità da persunas realas. Insembel pudaina amegldrar la recugnuschentscha vocala per tuots.
 how-does-it-work-title = Co funcziuna quai?
 how-does-it-work-text = Culla partecipaziun collectiva s-chaffin nu üna collecziun da datas da vusch open source. Contribuischa cun tia vusch, verifichescha las registraziuns dad otras persunas, renda la collecziun da datas megldra per tuots.
-about-speak = Discuorrer
-about-speak-text = Partecipants registreschan lur vusch cun leger avant construcziuns dunadas our dad üna collecziun da datas.
+about-speak = Discuorra
+about-speak-text = Partecipants registreschan lur vusch cun preleger frasas dunadas our dad üna collecziun da datas.
 about-listen-queue = Fila da las contribuziuns chi sun da tadlar
 about-listen-queue-text = Las registraziuns vegnan missas in üna fila dad inoltraziun, prontas per gnir tadlas.
-about-listen = Tadlar
-about-listen-text = Ils ütilisaders verficheschan la qualità da las registraziuns e controllan cha'l pledader legia avant la frasa correctamaing.
-about-is-it-valid = Es la registraziun verfichada?
-about-is-it-valid-text = Üna registraziun vocala vegn marchada sco "verifichada", sch'ün ütilisader tilla validescha cun ün Schi.
+about-listen = Taidla
+about-listen-text = Ils ütilisaders valideschan la qualità da las registraziuns e controllan scha'l pledader prelegia la frasa correctamaing.
+about-is-it-valid = Es la registraziun validada?
+about-is-it-valid-text = Üna registraziun vocala vain marcada sco "validada", sch'ün ütilisader tilla validescha cun ün Schi.
 about-yes-votes = ≥ 2 validaziuns Schi
-about-yes-votes-text = Per rivar aint illa collecziun da datas da Common Voice sto üna registraziun gnir verifichada da duos differents ütilisaders.
+about-yes-votes-text = Per rivar aint illa collecziun da datas da Common Voice sto üna registraziun gnir validada da duos differents ütilisaders.
 about-no-votes = ≥ 2 validaziuns Na
 about-no-votes-text = Sch'üna registraziun vain refüsada dad ün ütilisader tuorn'la inavo aint illa fila. Scha quista registraziun vain refüsada üna seguonda jada, vain'la spostada sül sunteri da registraziuns.
 about-dataset-new = Collecziun da datas da Common Voice
-about-dataset-new-text = La collecziun da datas da Common Voice cuntegna tschientmillis dad exaimpels da vusch chi güdan als sviluppaders a construir untensils per la recugnuschentscha vocala.
+about-dataset-new-text = La collecziun da datas da Common Voice cuntegna tschientmillis dad exaimpels da vusch chi güdan als sviluppaders a construir üsaglias per l'identificaziun da vusch.
 about-clip-graveyard = Sunteri da registraziuns
-about-clip-graveyard-text = Il sunteri da registraziuns cuntegna registraziuns chi nu sun rivadas aint illa collecziun da datas da Common Voice. Sco la collecziun svessa, as poja eir telechargiar las datas dal sunteri.
+about-clip-graveyard-text = Il sunteri da registraziuns cuntegna registraziuns chi nu sun rivadas aint illa collecziun da datas da Common Voice. Sco la collecziun svessa, as poja eir s-chargiar las datas dal sunteri.
 about-partners = Partenaris
-about-become-a-partner = Dvantar ün partenari
+about-become-a-partner = Dvantar partenaria / partenari
 about-partnership =
-    Common Voice es ün proget collaborativ e nus eschan dependents da nossa comunità da partenaris e partecipants per construir la plü gronda collecziun da datas vocalas open source chi ha mai dat.¶
+    Common Voice es ün proget collaborativ e nus eschan dependents da nossa comunità da partenaris e partecipants per construir la plü gronda collecziun da datas vocalas open source insomma.¶
     ¶
-    Nus lain ingrazchar a las seguaintas persunas ed organisaziuns per lur agüd in connex cun quist proget:
-about-get-involved = Partecipar
+    Nus lain ingrazchar a las seguaintas persunas ed organisaziuns per lur sustegn in connex cun quist proget:
+about-get-involved = Partecipescha't
+about-get-involved-text-2 =
+    Voust güdar ad amegldrar Common Voice?¶
+    Stupend! Contactescha'ns per e-mail o <discourseLink>Discourse</discourseLink>¶
+    forums, infuormescha'ns a reguard problems cun la pagina-web sur <githubLink>GitHub</githubLink>, o aintra i'l¶
+    <matrixLink>Matrix</matrixLink> chat da la community.
 about-nav-why-common-voice = Perche?
 about-nav-how-it-works = Co?
 about-nav-partners = Partenaris
@@ -456,22 +461,22 @@ mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligenza artificiala
 mycroft-description =
     Mycroft es il prüm assistent digital open source dal muond.¶
-    Mycroft funcziuna dapertuot - sün ün computer, aint in ün auto o sün ün Rasperry Pi.
-mycroft-secondary-description = I's tratta dad ün program open source chi po gnir modifichà, schlargià ed amegldrà libramaing. Mycroft po gnir dovrà per tuot il pussibel, sia quai per ün proget scientific o per il program dad üna applicaziun per affars.
+    Mycroft funcziuna dapertuot - sün ün computer, in ün auto o sün ün Rasperry Pi.
+mycroft-secondary-description = I's tratta dad ün program open source chi po gnir modifichà, schlargià ed amegldrà libramaing. Mycroft po gnir dovrà per tuot il pussibel, saja quai per ün proget scientific o per il program dad ün'applicaziun per affars.
 
 ## Glossary
 
 glossary = Glossari
 localization = Localisaziun
 localization-explanation = Quist es nos process per tradüer ed adattar nos cuntgnü per blers contuorns (bleras linguas).
-sentence-collection = Collecziun da construcziuns
-sentence-collection-explanation = Ramassar construcziuns da la domena publica o scriver nouvas construcziuns per la domena publica.
+sentence-collection = Collecziun da frasas
+sentence-collection-explanation = Ramassar frasas da la domena publica o scriver nouvas frasas per la domena publica.
 hours-recorded-explanation = La quantità dad uras registradas cha nus vain ramassà fin uossa.
-hours-validated-explanation = La quantità dad uras registradas cha 2 da 3 ütilisaders han validà cun ün “Schi”. Quai marcha il progress in via al böt final da 10'000 uras.
+hours-validated-explanation = La quantità dad uras registradas cha 2 da 3 ütilisaders han validà cun ün “Schi”. Quai marca il progress vers il böt final da 10'000 uras.
 sst = Da la vusch al text (Speech-to-text, STT)
 sst-explanation = Tecnologias da la vusch al text (STT) convertischan datas vocalas in text.
 de-identified = Anonimisà
-de-identified-explanation = Tras quist process vegnan las infuormaziuns dal profil dad ün partecipant separadas da sias registraziuns cur cha quistas vegnan fattas prontas per gnir telechargiadas sco part da la collecziun da datas.
+de-identified-explanation = Tras quist process vegnan las infuormaziuns dal profil dad ün partecipant separadas da sias registraziuns, cur cha quistas vegnan preparadas per gnir s-chargiadas sco part da la collecziun da datas.
 
 ## NotFound
 
@@ -480,24 +485,24 @@ notfound-content = Displaschaivelmaing nu saja che cha tü tscherchast.
 
 ## Data
 
-data-download-button = Telechargiar la collecziun da datas da Common Voice
+data-download-button = S-chargiar la collecziun da datas da Common Voice
 data-download-yes = Schi
 data-download-deny = Na
 data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
-data-download-modal = Il download giavüschà cuntegna <size>{ $size }GB</size>. Voust continuar?
-data-subtitle = Nus construin üna collecziun da datas vocalas chi'd es averta e publica, usché cha minchün po dovrar quista per trenar applicaziuns chi vegnan dirigidas culla vusch.
-data-explanatory-text = Nus eschan persvas cha collecziuns da datas vocalas chi sun grondas e publicas sustegnan l'innovaziun ed eir üna sana concurrenza commerciala aint il chomp da la tecnologia vocala chi's basa sül imprender autonom da maschinas. Quist es ün'ambiziun globala e nus invidain a tuots da's partecipar. Nos böt esa da render la tecnologia vocala plü averta e plü rapreschantativa davart la diversità linguistica da tuot il muond.
-data-get-started = <speechBlogLink>Cumainza culla recugnuschentscha vocala</speechBlogLink>
+data-download-modal = Il download giavüschà cuntegna <size>{ $size }GB</size>. Cuntinuar?
+data-subtitle = Nus construin üna collecziun da datas vocalas chi'd es averta e publica, uschè cha minchün po dovrar quista per trenar applicaziuns support da vusch.
+data-explanatory-text = Nus eschan persvas, cha collecziuns da datas vocalas chi sun grondas e publicas sustegnan l'innovaziun ed eir üna sana concurrenza commerciala aint il chomp da la tecnologia vocala chi's basa sül imprender autonom da maschinas. Quist es ün'ambiziun globala e nus invidain a tuots da's partecipar. Nos böt es da render la tecnologia vocala plü averta, chi refletta la diversità linguistica da tuot il muond.
+data-get-started = <speechBlogLink>Cumainza cun l'identificaziun da vusch </speechBlogLink>
 data-other-title = Otras collecziuns da datas vocalas
 data-other-goto = Va a { $name }
-data-other-download = Telechargiar datas
-data-bundle-button = Telechargiar üna collecziun da datas
+data-other-download = S-chargiar datas
+data-bundle-button = S-chargiar üna collecziun da datas
 data-bundle-description = Datas da Common Voice e tuot las otras datas vocalas nomnadas sura.
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Masdà
-review-terms = Cun dovrar Common Voice acceptast nossas <termsLink>cundiziuns d'ütilisaziun</termsLink> e nossa<privacyLink>decleraziun davart la protecziun da datas</privacyLink>
-terms-agree = Eu sun perinclet
-terms-disagree = Eu nu sun perinclet
+review-terms = Cun dovrar Common Voice acceptast nossas <termsLink>cundiziuns d'ütilisaziun</termsLink> e nossa<privacyLink>decleraziun da la protecziun da datas</privacyLink>
+terms-agree = Eu accept
+terms-disagree = Eu refüs
 review-aborted = Upload interruot. Voust stüder tia registraziun?
 review-submit-title = Verifichar e trametter
 review-submit-msg = Grazcha fich per la registraziun!<lineBreak></lineBreak>Taidla tias registraziuns suotvart amo üna jada e tillas trametta davo.
