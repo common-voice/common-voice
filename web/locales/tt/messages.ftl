@@ -653,6 +653,7 @@ share-title-new = Безгә күбрәк тавыш табарга <bold>ярд
 keep-track-profile = Профиль булдырып, башкарган эшләрегезне күзәтеп барыгыз
 login-to-get-started = Башлау өчен керегез яки теркәлегез
 target-segment-add-voice = Тавышыгызны өстәү
+target-segment-learn-more = Тулырак
 
 ## Reporting
 
