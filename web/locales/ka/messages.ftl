@@ -506,6 +506,7 @@ data-bundle-description = Common Voice მონაცემებს დამ�
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = შერეული
 data-download-singleword-title = ჩამოტვირთეთ ცალკეული სიტყვების მიზნობრივი კრებული
+data-download-singleword-callout = მონაცემების ეს კრებული განკუთვნილია წარმოთქმული ციფრების, დიახ / არა პასუხების ამოსაცნობად და გამოსაძახებელი ბრძანების გამოსაცდელად პროექტში <fxLink>Firefox Voice</fxLink>.
 review-terms = Common Voice-ის გამოყენებით, ეთანხმებით ჩვენს <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დაცვის განაცხადს</privacyLink>
 terms-agree = ვეთანხმები
 terms-disagree = არ ვეთანხმები
