@@ -505,6 +505,7 @@ data-bundle-button = მონაცემთა კრებულის ჩა
 data-bundle-description = Common Voice მონაცემებს დამატებული, ზემოთ მოცემული ხმოვან მონაცემთა ყველა სხვა კრებული.
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = შერეული
+data-download-singleword-title = ჩამოტვირთეთ ცალკეული სიტყვების მიზნობრივი კრებული
 review-terms = Common Voice-ის გამოყენებით, ეთანხმებით ჩვენს <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დაცვის განაცხადს</privacyLink>
 terms-agree = ვეთანხმები
 terms-disagree = არ ვეთანხმები
