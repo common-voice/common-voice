@@ -2,7 +2,7 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
+} from '@fluent/react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { BaseLanguage, InProgressLanguage, LaunchedLanguage } from 'common';

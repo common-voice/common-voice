@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as cx from 'classnames';
 import { ChevronRight } from '../../ui/icons';
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 
 import './slider.css';
 

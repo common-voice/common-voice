@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as cx from 'classnames';
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 
 import './how-it-works.css';
 

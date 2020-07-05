@@ -44,7 +44,7 @@ import {
   LocalePropsFromState,
 } from './locale-helpers';
 import { Flags } from '../stores/flags';
-import { ReactLocalization, LocalizationProvider } from '@fluent/react';
+import { ReactLocalization, LocalizationProvider } from '@fluent/react/compat';
 const rtlLocales = require('../../../locales/rtl.json');
 const ListenPage = React.lazy(() =>
   import('./pages/contribution/listen/listen')

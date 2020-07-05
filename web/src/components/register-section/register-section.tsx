@@ -1,5 +1,5 @@
 import * as cx from 'classnames';
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 import * as React from 'react';
 import { useState } from 'react';
 import { trackHome } from '../../services/tracker';

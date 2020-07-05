@@ -1,4 +1,4 @@
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 import * as React from 'react';
 import { trackLanding } from '../../../services/tracker';
 import { useTypedSelector } from '../../../stores/tree';

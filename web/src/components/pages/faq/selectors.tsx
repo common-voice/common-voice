@@ -3,7 +3,7 @@ import URLS from '../../../urls';
 import { StyledLink } from '../../ui/ui';
 import { LocaleLink } from '../../locale-helpers';
 import { stringContains } from '../../../utility';
-import { WithLocalizationProps } from '@fluent/react';
+import { WithLocalizationProps } from '@fluent/react/compat';
 import { BENEFITS, WHATS_PUBLIC } from '../../../constants';
 
 const memoize = require('lodash.memoize');

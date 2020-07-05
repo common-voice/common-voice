@@ -1,4 +1,4 @@
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 const pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';

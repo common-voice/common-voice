@@ -1,4 +1,4 @@
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 import * as React from 'react';
 import Modal from '../modal/modal';
 import ShareButtons from '../share-buttons/share-buttons';

@@ -11,7 +11,7 @@ import { toLocaleRouteBuilder, useLocale } from '../../locale-helpers';
 import ProgressBar from '../../progress-bar/progress-bar';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
-import { Localized, LocalizationProvider } from '@fluent/react';
+import { Localized, LocalizationProvider } from '@fluent/react/compat';
 
 const SENTENCE_COUNT_TARGET = 5000;
 

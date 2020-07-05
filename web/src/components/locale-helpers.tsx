@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link, LinkProps, NavLink, NavLinkProps } from 'react-router-dom';
 import { Locale } from '../stores/locale';
 import StateTree, { useTypedSelector } from '../stores/tree';
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 
 export const contributableLocales = require('../../../locales/contributable.json') as string[];
 export const discourseLocales = require('../../../locales/discourse.json');

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 
 import './why-common-voice.css';
 

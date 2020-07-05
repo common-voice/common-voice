@@ -2,7 +2,7 @@ import {
   Localized,
   WithLocalizationProps,
   withLocalization,
-} from '@fluent/react';
+} from '@fluent/react/compat';
 import * as React from 'react';
 import BalanceText from 'react-balance-text';
 import { connect } from 'react-redux';

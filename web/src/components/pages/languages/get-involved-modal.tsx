@@ -9,7 +9,7 @@ import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import PrivacyInfo from '../../privacy-info';
 import { Button, Hr, LabeledInput } from '../../ui/ui';
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 
 interface PropsFromState {
   api: API;

@@ -5,8 +5,8 @@ export const NATIVE_NAMES = require('../../../locales/native-names.json') as {
   [key: string]: string;
 };
 const translatedLocales = require('../../../locales/translated.json');
-import { FluentBundle, FluentResource } from '@fluent/bundle';
-import { ReactLocalization } from '@fluent/react';
+import { FluentBundle, FluentResource } from '@fluent/bundle/compat';
+import { ReactLocalization } from '@fluent/react/compat';
 import { Flags } from '../stores/flags';
 import { isProduction } from '../utility';
 import API from './api';

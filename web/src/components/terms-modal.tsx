@@ -3,7 +3,7 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
+} from '@fluent/react/compat';
 import URLS from '../urls';
 import { LocaleLink } from './locale-helpers';
 import Modal from './modal/modal';

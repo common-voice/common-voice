@@ -1,4 +1,4 @@
-import { Localized, withLocalization } from '@fluent/react';
+import { Localized, withLocalization } from '@fluent/react/compat';
 import * as React from 'react';
 import { useState } from 'react';
 import { CustomGoal, CustomGoalParams } from 'common';

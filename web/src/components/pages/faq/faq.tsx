@@ -10,7 +10,7 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
+} from '@fluent/react/compat';
 
 const throttle = require('lodash.throttle');
 

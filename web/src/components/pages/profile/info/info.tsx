@@ -2,7 +2,7 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
+} from '@fluent/react/compat';
 import * as React from 'react';
 import { useCallback, useEffect, useState } from 'react';
 import { Redirect, RouteComponentProps, withRouter } from 'react-router';

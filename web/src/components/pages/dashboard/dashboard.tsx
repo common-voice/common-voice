@@ -1,4 +1,4 @@
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Redirect, Route, Switch } from 'react-router';

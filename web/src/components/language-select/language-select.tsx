@@ -1,4 +1,4 @@
-import { Localized } from '@fluent/react';
+import { Localized } from '@fluent/react/compat';
 import Downshift from 'downshift';
 import * as React from 'react';
 
