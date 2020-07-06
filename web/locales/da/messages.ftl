@@ -211,11 +211,13 @@ x-years-short =
 help-make-dataset = Hjælp os med at opbygge et offentligt og åbent datasæt af høj kvalitet.
 sign-up-account = Opret en konto
 email-subscription-title = Tilmeld dig nyheder via mail
+email-subscription-title-new = Tilmeld dig nyhedsbreve fra Common Voice, påmindelser om mål og opdateringer om fremskridt
 
 ## Account Benefits
 
 benefits = Fordele
 improve-audio = Informationerne på din profil forbedrer de lyddata, der bruges til træning af talegenkendelse.
+compare-progress = Se dine fremskridt sammenlignet med andre bidragsydere over hele verden.
 
 ## What's public
 
