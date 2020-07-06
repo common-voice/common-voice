@@ -35,6 +35,7 @@ const StatsPage = ({ allGoals, dashboardLocale }: Props) =>
         <StatsCard
           key="contribution"
           title="contribution-activity"
+          currentLocale={dashboardLocale}
           tabs={['you', 'everyone'].reduce(
             (o: any, from: any) => ({
               ...o,
@@ -48,7 +49,7 @@ const StatsPage = ({ allGoals, dashboardLocale }: Props) =>
             {}
           )}
         />
-        <LeaderboardCard />
+        <LeaderboardCard currentLocale={dashboardLocale} />
       </div>
     </div>
   ) : null;
