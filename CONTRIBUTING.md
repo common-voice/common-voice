@@ -160,7 +160,7 @@ at Class.exports.up (/Users/admin/Desktop/myprojects/mozilla/voice-web-master/se
 [BE]       '    '
 ```
 
-First make sure you have the correct version of MySQL (v8.0 or greater) installed. If the problem still persists, the following will prove useful:
+First make sure you have the correct version of MySQL installed. If the problem still persists, the following will prove useful:
 **You only need to follow these steps once. After that be sure to discard all changes made to the relevant files after migrations are successful.**
 
 1. In the error log, locate and open the associated migrations file (localed in the `/migrations` directory). In this case, the file is named `20180910121256-user-sso-fields.ts`.
