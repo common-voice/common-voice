@@ -396,6 +396,7 @@ mycroft-description =
 glossary = Ordliste
 localization = Oversættelse
 hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
+de-identified = Anonymiseret
 
 ## NotFound
 
@@ -436,6 +437,8 @@ review-delete-recordings = Slet mine optagelser
 language = Sprog
 # File size in gigabytes
 size = Størrelse
+validated-hr-total = Validerede timer i alt
+overall-hr-total = Samlede timer i alt
 cv-license = Licens
 audio-format = Lydformat
 number-of-voices = Antal stemmer
