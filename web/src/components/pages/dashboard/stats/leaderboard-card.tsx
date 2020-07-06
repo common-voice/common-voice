@@ -331,7 +331,11 @@ const FilledCheckIcon = () => (
 
 const Percentage = () => <div className="percent">%</div>;
 
-export default function LeaderboardCard() {
+export default function LeaderboardCard({
+  currentLocale,
+}: {
+  currentLocale?: string;
+}) {
   const account = useAccount();
   const saveAccount = useAction(User.actions.saveAccount);
 
@@ -343,6 +347,7 @@ export default function LeaderboardCard() {
   return (
     <StatsCard
       key="leaderboard"
+      {...{ currentLocale }}
       className={'leaderboard-card ' + (showOverlay ? 'has-overlay' : '')}
       title="top-contributors"
       iconButtons={
@@ -431,7 +436,7 @@ export default function LeaderboardCard() {
                 saveAccount({ visible: event.target.checked });
               }}
             />
-            <Localized id="visibility-explainer" vars={{minutes: 20}}>
+            <Localized id="visibility-explainer" vars={{ minutes: 20 }}>
               <p className="explainer" />
             </Localized>
             <div className="info">
@@ -439,7 +444,7 @@ export default function LeaderboardCard() {
               <Localized
                 id="visibility-overlay-note"
                 elems={{
-                  profileLink: <LocaleLink to={URLS.PROFILE_INFO} />
+                  profileLink: <LocaleLink to={URLS.PROFILE_INFO} />,
                 }}>
                 <p className="note" />
               </Localized>
