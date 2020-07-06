@@ -501,6 +501,7 @@ data-bundle-description = Isefka Common Voice akked tigrummiwin meṛṛa n yise
 license = Turagt: <licenseLink>{ $license }</licenseLink>
 license-mixed = Uxliḍ
 data-download-singleword-title = Sider aḥric iswi Single Word
+data-download-singleword-callout = Wagi d aḥric i nettnadi ɣef kra n useqdec i igebren isefka i usečči n uɛqal n taɣect s yizwilen yettwanṭaqen, aɛqal n ih/uhu akked isefka n usekyed n wawalen n usaki i <fxLink>Firefox Voice</fxLink>.
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
