@@ -835,3 +835,7 @@ demo-account-card-body = To the right we outline the benefits and clarify what i
 demo-account-enter-email = 
 .label = Enter email to send a sign up link
 demo-account-sign-up = Send sign up link
+
+## Demo Dashboard
+demo-dashboard-card-header = Personal dashboards keep you up-to-date with individual and community progress.
+demo-dashboard-card-body = For every voice clip donated, and every audio clip validated, your account dashboards are updated to reflect your latest progress in each language you contribute to. Yes, you can contribute to more than one!<br/><br/> Use dashboards to track your stats, see how you're doing alongside others in the community, and set daily or weekly contribution goals.
