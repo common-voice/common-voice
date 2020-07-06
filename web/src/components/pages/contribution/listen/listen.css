@@ -114,6 +114,12 @@
             background: var(--white);
             box-shadow: var(--vote-button-box-shadow)
                 color-mod(var(--grey) alpha(80%));
+
+            &:hover {
+                path {
+                    fill: var(--near-black);
+                }
+            }
         }
 
         & svg {
