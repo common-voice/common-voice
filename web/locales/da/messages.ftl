@@ -155,7 +155,7 @@ contact = Kontakt
 privacy = Privatliv
 terms = Vilkår
 cookies = Cookies
-faq = Ofte stillede spørgsmål
+faq = FAQ
 content-license-text = Indhold tilgængeligt under <licenseLink>Creative Commons-licens</licenseLink>
 share-title = Hjælp os med at finde andre, der kan bidrage med deres stemme!
 share-text = Hjælp med at lære maskiner, hvordan mennesker taler - bidrag med din stemme på { $link }
@@ -356,6 +356,7 @@ faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
 faq-how-calc-hours-q = Hvordan bliver timerne udregnet af Common Voice?
 faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige længde af hver optagelse, og ganger det antal med det samlede antal optagelser på tværs af alle sprog.
+faq-where-src-from-2-q = Hvor kommer teksten fra?
 faq-why-not-ask-read-q = Hvorfor beder I ikke folk om at læse op fra bøger eller Wikipedia-artikler på forskellige sprog?
 faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt som muligt, har vi besluttet kun at tillade tekst, der er tilgængeligt under en Creative Commons (CC0) licens. Brugen af CC0-standarden betyder, at det er sværere at finde og indsamle tekst, men tillader at alle kan bruge datasættet uden brugsbegrænsninger eller tilladelse fra Mozilla. I sidste ende ønsker vi at gøre det flersprogede datasæt så nyttigt som muligt for alle, herunder forskere, universiteter, iværksættere, regeringer, sociale formål og hobbyfolk.
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
@@ -394,6 +395,7 @@ mycroft-description =
 
 glossary = Ordliste
 localization = Oversættelse
+hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
 
 ## NotFound
 
