@@ -510,6 +510,7 @@ data-bundle-description = Common Voice подаци плус сви остали
 license = Лиценца: <licenseLink>{ $license }</licenseLink>
 license-mixed = Помешано
 data-download-singleword-title = Преузмите циљни сегмент за једну реч
+data-download-singleword-callout = Ово је сегмент податка који је усмерен на случајеве употребе препознавања изговорених бројева, одговора да/не, те тестирање пробне речи за <fxLink>Firefox Voice</fxLink>.
 review-terms = Коришћењем Common Voice-а, слажете се са нашим  <termsLink>условима</termsLink> и  <privacyLink>политиком приватности</privacyLink>
 terms-agree = Слажем се
 terms-disagree = Не слажем се
