@@ -509,6 +509,7 @@ data-bundle-button = Преузми запакован скуп података
 data-bundle-description = Common Voice подаци плус сви остали, горе наведени, скупови података
 license = Лиценца: <licenseLink>{ $license }</licenseLink>
 license-mixed = Помешано
+data-download-singleword-title = Преузмите циљни сегмент за једну реч
 review-terms = Коришћењем Common Voice-а, слажете се са нашим  <termsLink>условима</termsLink> и  <privacyLink>политиком приватности</privacyLink>
 terms-agree = Слажем се
 terms-disagree = Не слажем се
