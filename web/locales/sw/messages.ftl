@@ -367,6 +367,7 @@ download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
 subscribe = Jiandikishe
+go-languages-page = Nenda kwenye kurasa za lugha
 ready-to-validate = Uko tayari kusaidia kuhalalisha sentensi?
 more = Zaidi
 close = Funga
