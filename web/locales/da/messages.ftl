@@ -453,6 +453,7 @@ recorded-hours = Indspillede timer
 want-dataset-update = Vil du opdateres, når vi frigiver en ny version af datasættet fra Common Voice? Abonnér på vores nyhedsbrev.
 subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
+feedback-q = Har du feedback?
 common-voice-info-new = Har du spørgsmål om Common Voice? Ideer til forbedringer eller feedback om et specifikt sprog? Deltag i vores <discourseLink>Discourse-forum</discourseLink> og fortæl os det.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
