@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad yi-d-ttawḍen yisallen ɣef usenfar n Commen Voice.
-stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt itezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsel ugar ɣef wamek ara ttwasqedcen isefka-agi.
+stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt i itezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsell ugar ɣef wamek ara ttwasqedcen isefka-agi.
 privacy-info = Ad neḍmen aḥraz n talɣut-nwen. Ɣer ugar n yisallen deg <privacyLink>tsertit-nneɣ tabaḍnit</privacyLink>.
 return-to-cv = Uɣal ɣer Common Voice
 email-input =
