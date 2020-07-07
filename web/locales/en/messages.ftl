@@ -750,6 +750,7 @@ show-ranking = Show my ranking
 ## Custom Goals
 get-started-goals = Get started with goals
 create-custom-goal = Create a Custom Goal
+goal-type = What kind of goal do you want to build?
 both-speak-and-listen = Both
 both-speak-and-listen-long = Both (Speak and Listen)
 daily-goal = Daily Goal

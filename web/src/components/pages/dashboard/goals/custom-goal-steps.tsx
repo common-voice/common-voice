@@ -177,7 +177,9 @@ export default [
   ({ closeButtonProps, currentFields, nextButtonProps }) => (
     <>
       <div className="padded">
-        <h2>What kind of goal do you want to build?</h2>
+        <Localized id="goal-type">
+          <h2 />
+        </Localized>
         {currentFields}
       </div>
       <Buttons style={{ marginBottom: 20 }}>
@@ -268,7 +270,7 @@ export default [
                     ? 'receiving-emails-info'
                     : 'not-receiving-emails-info'
                 }
-                elems={{bold: <b />}}>
+                elems={{ bold: <b /> }}>
                 <p className="subscription-info" />
               </Localized>
               <a
@@ -304,7 +306,9 @@ export default [
               <div className="content">
                 <Localized
                   id="accept-privacy"
-                  elems={{privacyLink: <LocaleLink to={URLS.PRIVACY} blank />}}>
+                  elems={{
+                    privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                  }}>
                   <span />
                 </Localized>
               </div>
