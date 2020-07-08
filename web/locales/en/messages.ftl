@@ -638,7 +638,10 @@ contribute = Contribute
 listen = Listen
 skip = Skip
 shortcuts = Shortcuts
-clips-with-count = <bold>{ $count }</bold> Clips
+clips-with-count = { $count -> 
+                    [one] <bold>{ $count }</bold> Clip
+                    *[other] <bold>{ $count }</bold> Clips
+}
 goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
 goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
 contribute-more =
@@ -764,12 +767,29 @@ want-to-continue = Do you want to continue?
 finish-editing = Finish editing first?
 lose-changes-warning = Leaving now means you’ll lose your changes
 build-custom-goal = Build a custom goal
-help-reach-hours = Help reach { NUMBER($hours) } hours in { $language } with a personal goal
-help-reach-hours-general = Help Common Voice reach { NUMBER($hours) } hours in a language with a personal goal
+help-reach-hours = Help reach { NUMBER($hours) ->
+[one] {$hours} hour
+*[other] {$hours} hours
+ } in { $language } with a personal goal
+help-reach-hours-general = Help Common Voice reach { NUMBER($hours) -> 
+  [one] {$hours} hour
+  *[other] {$hours} hours
+ } in a language with a personal goal
 set-a-goal = Set a goal
 cant-decide = Can't decide?
-activity-needed-calculation = { NUMBER($totalHours) } hours is achievable in just over { NUMBER($periodMonths) }
-        months if { NUMBER($people) } people record { NUMBER($clipsPerDay) } clips a day.
+activity-needed-calculation = { NUMBER($totalHours) -> 
+  [one] {$totalHours} hour
+  *[other] {$totalHours} hours
+ } is achievable in just over { NUMBER($periodMonths) -> 
+  [one] {$periodMonths} month
+  *[other] {$periodMonths} months
+ } if { NUMBER($people) -> 
+  [one] {$people} person
+  *[other] {$people} people
+  } record { NUMBER($clipsPerDay) -> 
+  [one] clip
+  *[other] clips
+  } a day.
 how-many-per-day = Great! How many clips per day?
 how-many-a-week = Great! How many clips a week?
 which-goal-type = Do you want to Speak, Listen or both?
@@ -777,7 +797,10 @@ receiving-emails-info = You're currently set to receive emails such as goal remi
         progress updates and newsletters about Common Voice
 not-receiving-emails-info = You're currently set to <bold>NOT</bold> receive emails such as goal reminders, my
         progress updates and newsletters about Common Voice
-n-clips = { NUMBER($count) } clips
+n-clips = { NUMBER($count) -> 
+              [one] {$count} clip
+              *[other] {$count} clips
+              }
 help-share-goal = Help us find more voices, share your goal
 confirm-goal = Confirm Goal
 goal-interval-weekly = Weekly
