@@ -174,7 +174,7 @@ home-title = Il progetto Common Voice è un’iniziativa di Mozilla per insegnar
 home-cta = Di’ qualcosa, fai clic qui per iniziare!
 wall-of-text-start = La voce è naturale, la voce è umanità. Per questo l’idea di creare una tecnologia vocale utilizzabile dalle nostre macchine ci affascina così tanto. Per creare sistemi basati sulla tecnologia vocale, però, è necessaria una altissima quantità di campioni.
 wall-of-text-more-mobile = Buona parte dei dati usati dalle grandi aziende non è accessibile alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
-wall-of-text-more-desktop = Ora puoi donare la tua voce per aiutarci a costruire un database vocale open source a disposizione di tutti gli sviluppatori di applicazioni per dispositivi o per il Web. <lineBreak></lineBreak> Contribuire è semplicissimo! Leggi una frase per insegnare alle macchine come le persone parlano nella vita reale. Verifica le registrazioni audio degli altri collaboratori per migliorare la qualità del database.
+wall-of-text-more-desktop = Ora puoi donare la tua voce per aiutarci a costruire un database vocale open source a disposizione di tutti gli sviluppatori di applicazioni per dispositivi o per il Web. Contribuire è semplicissimo! Leggi una frase per insegnare alle macchine come le persone parlano nella vita reale. Verifica le registrazioni audio degli altri collaboratori per migliorare la qualità del database.
 wall-of-text-first = La voce è naturale, la voce è umanità. Per questo l’idea di creare una tecnologia vocale utilizzabile dalle nostre macchine ci affascina così tanto. Per creare sistemi basati sulla tecnologia vocale, però, è necessaria un’altissima quantità di campioni.
 wall-of-text-second = Buona parte dei dati usati dalle grandi aziende non è accessibile alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
 show-wall-of-text = Ulteriori informazioni
@@ -348,7 +348,7 @@ recreate-voice = Ricrea un’onda sonora
 cancel-avatar-clip-recording = Annulla
 about-avatar-clip-recording = Crea una registrazione vocale come parte del profilo del tuo avatar. Altri utenti potranno ascoltare la tua registrazione muovendo il mouse sulla tua icona.
 browse-file-title = Carica un’immagine
-browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
+browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</browseWrap>
 connect-gravatar = Connetti Gravatar
 gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
@@ -394,7 +394,10 @@ faq-why-10k-hours-a = È approssimativamente il numero di ore necessario per add
 faq-how-calc-hours-q = In che modo Common Voice calcola le ore?
 faq-how-calc-hours-a = Calcoliamo le ore stimando la lunghezza media di ciascuna registrazione e moltiplicando quel numero per il numero totale di registrazioni in tutte le lingue.
 faq-where-src-from-2-q = Da dove proviene il testo di origine?
-faq-where-src-from-2-a = Il testo di origine è frutto di donazioni da parte dei collaboratori e da dialoghi di pubblico dominio tratti da film come <italic>It’s a Wonderful Life</italic>.
+faq-where-src-from-2-a =
+    Il testo di origine è frutto di donazioni da parte dei collaboratori e da dialoghi di pubblico dominio tratti da film come <italic>It’s a Wonderful Life</italic>.
+    
+    È possibile visualizzare la fonte delle frasi in questa <githubLink>cartella su GitHub</githubLink>.
 faq-why-not-ask-read-q = Perché non chiedete alle persone di leggere brani tratti da libri o articoli di Wikipedia in diverse lingue?
 faq-why-not-ask-read-a = Per non limitare le possibili applicazioni del dataset Common Voice, abbiamo deciso di utilizzare unicamente frasi disponibili sotto la licenza Creative Commons (CC0). Lo standard CC0 rende più difficile trovare e raccogliere frasi idonee, tuttavia garantisce a chiunque il diritto di impiegare i dati raccolti senza restrizioni sull’utilizzo o autorizzazione da parte di Mozilla. In definitiva, vogliamo che il dataset multilingua abbia meno restrizioni possibili in modo da essere utilizzato liberamente da chiunque, compresi ricercatori, università, startup, governi, organizzazioni per scopi sociali e hobbisti.
 faq-why-account-q = Perché dovrei registrare un account?
