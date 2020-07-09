@@ -2,7 +2,6 @@
 
 yes-receive-emails = Sì, inviami le email. Mi piacerebbe rimanere informato sul progetto Common Voice
 stayintouch = Mozilla sta radunando una comunità di persone interessate alle tecnologie vocali. Ci piacerebbe rimanere in contatto con te con aggiornamenti e nuove fonti di dati, ma anche per conoscere come usi i dati di Common Voice.
-privacy-info = Le tue informazioni personali sono al sicuro con noi. Per i dettagli leggi l’<privacyLink>informativa sulla privacy<privacyLink>.
 return-to-cv = Torna a Common Voice
 email-input =
     .label = Email
@@ -589,9 +588,9 @@ other-language = Altra lingua
 ## Languages Overview
 
 language-section-in-progress = In corso
-language-section-in-progress-new-description = Queste lingue sono attualmente in fase di sviluppo da parte della comunità. Le barre di avanzamento indicano i progressi di ciascuna lingua nel processo di <localizationGlossaryLink>localizzazione del sito web</localizationGlossaryLink> e di <fraseCollectionGlossaryLink>raccolta delle frasi</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Queste lingue sono attualmente in fase di sviluppo da parte della comunità. Le barre di avanzamento indicano i progressi di ciascuna lingua nel processo di <localizationGlossaryLink>localizzazione del sito web</localizationGlossaryLink> e di <sentenceCollectionGlossaryLink>raccolta delle frasi</sentenceCollectionGlossaryLink>.
 language-section-launched = Operative
-language-section-launched-description = Per le seguenti lingue operative il sito web è stato completamente <localizationGlossaryLink>localizzato</localizationGlossaryLink> e la <phraseCollectionGlossaryLink>raccolte di frasi</sentenceCollectionGlossaryLink> ha raggiunto dimensioni sufficienti da garantire sufficiente materiale da <speakLink>registrare</ speakLink> e <listenLink>ascoltare</listenLink> in modo continuativo.
+language-section-launched-description = Per le seguenti lingue operative il sito web è stato completamente <localizationGlossaryLink>localizzato</localizationGlossaryLink> e la <sentenceCollectionGlossaryLink>raccolte di frasi</sentenceCollectionGlossaryLink> ha raggiunto dimensioni sufficienti da garantire sufficiente materiale da <speakLink>registrare</ speakLink> e <listenLink>ascoltare</listenLink> in modo continuativo.
 languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
 language-meter-in-progress = Progresso
