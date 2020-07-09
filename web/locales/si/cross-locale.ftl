@@ -9,4 +9,7 @@ get-involved-email =
     .label = විද්‍යුත් තැපෑල
 get-involved-opt-in = ඔව්, මට විද්‍යුත් තැපැල් එවන්න. Common Voiceහි මෙම භාෂාවේ ප්‍රගතිය පිළිබඳව දැනුවත්ව සිටීමට මම කැමතියි.
 get-involved-submit = ඉදිරිපත් කරන්න
+get-involved-stayintouch = Mozillaහි අපි හඩ තාක්‍ෂණය වටා ප්‍රජාවක් ගොඩනඟමු. යාවත්කාල කිරීම්, නව දත්ත ප්‍රභවයන් සමඟ සම්බන්ධව සිටීමට සහ ඔබ මෙම දත්ත භාවිතා කරන ආකාරය ගැන වැඩි විස්තර දැන ගැනීමට අපි කැමැත්තෙමු.
+get-involved-privacy-info = ඔබගේ තොරතුරු ප්‍රවේශමෙන් හැසිරවීමට අපි පොරොන්දු වෙමු. අපගේ <privacyLink> පුද්ගලිකත්ව නිවේදනය </privacyLink> හි වැඩිදුර කියවන්න.
+get-involved-success-title = { $language } භාෂාවට දායක වීම සදහා ඔබ සාර්ථකව ලියාපදිංචි වී ඇත. ස්තූතියි.
 get-involved-return-to-languages = භාෂා වෙත ආපසු පිවිසෙන්න

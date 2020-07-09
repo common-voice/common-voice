@@ -1,9 +1,16 @@
 ## General
 
+yes-receive-emails = ඔව්, මට ඊමේල් එවන්න. Common Voice ව්‍යාපෘතිය ගැන දැනුවත්ව සිටීමට මම කැමතියි.
+stayintouch = Mozillaහි අපි හඬ තාක්‍ෂණය වටා ප්‍රජාවක් ගොඩනඟමු. යාවත්කාල කිරීම්, නව දත්ත ප්‍රභවයන් සමඟ සම්බන්ධව සිටීමට සහ ඔබ මෙම දත්ත භාවිතා කරන ආකාරය ගැන වැඩි විස්තර දැන ගැනීමට අපි කැමතියි
+privacy-info = අප ඔබගේ තොරතුරු ප්‍රවේශමෙන් භාවිතා කිරිමට පොරොන්දු වෙමු. අපගේ <privacyLink> පුද්ගලිකත්ව නිවේදනය </privacyLink> යේ වැඩිදුර කියවන්න.
+return-to-cv = Common Voice වෙත ආපසු යන්න
 email-input =
     .label = විද්‍යුත් තැපෑල
 submit-form-action = ඉදිරිපත් කරන්න
 loading = පූරණයවෙමින්…
+email-opt-in-info = ඉලක්ක මතක් කිරීම්, මගේ ප්‍රගති යාවත්කාලී සහ Common Voice පිළිබඳ පුවත් පත්‍රිකා වැනි ඊමේල් ලැබීමට මම කැමතියි.
+email-opt-in-info-title = Common Voice තැපැල් ලැයිස්තුවට සම්බන්ධ වන්න
+email-opt-in-info-sub-with-challenge = අභියෝග සහ ඉලක්ක මතක් කිරීම්, ප්‍රගති යාවත්කාලීන සහ Common Voice පිළිබඳ පුවත් පත්‍රිකා වැනි ඊමේල් ලබා ගන්න.
 not-available-abbreviation = අදාළ නැත
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -12,6 +19,70 @@ not-available-abbreviation = අදාළ නැත
 
 ## Languages
 
+ab = අබ්කාස්
+ace = අචේනිස්
+ady = Adyghe
+af = Afrikaans
+am = Amharic
+an = Aragonese
+ar = Arabic
+arn = Mapudungun
+as = Assamese
+ast = Asturian
+az = Azerbaijani
+ba = Bashkir
+be = Belarusian
+bg = Bulgarian
+bn = Bengali
+br = Breton
+bxr = Buryat
+ca = Catalan
+cak = Kaqchikel
+cnh = Hakha Chin
+cs = Czech
+cv = Chuvash
+cy = Welsh
+da = Danish
+de = German
+dsb = Cසෝර්බියන්, පහළ
+dv = Dhivehi
+el = Greek
+en = English
+eo = Esperanto
+es = Spanish
+et = Estonian
+eu = Basque
+fa = Persian
+ff = Fulah
+fi = Finnish
+fo = Faroese
+fr = French
+fy-NL = Frisian
+ga-IE = Irish
+gl = Galician
+ha = Hausa
+he = Hebrew
+hi = Hindi
+hr = Croatian
+hsb = Sorbian, Upper
+hu = Hungarian
+hy-AM = Armenian
+hyw = Armenian Western
+ia = Interlingua
+id = Indonesian
+is = Icelandic
+it = Italian
+izh = Izhorian
+ja = Japanese
+ka = Georgian
+kaa = Karakalpak
+kab = Kabyle
+kbd = Kabardian
+kk = Kazakh
+ko = Korean
+kpv = Komi-Zyrian
+ku = Kurdish
+kw = Cornish
 
 # [/]
 
