@@ -330,23 +330,32 @@ data-other-title = වෙනත් හඩ දත්ත කට්ටල…
 data-other-goto = { $name } වෙත යන්න
 data-other-download = දත්ත බාගත කරන්න
 data-bundle-button = දත්ත කට්ටල බණ්ඩලය බාගත කරන්නන
+data-bundle-description = Common Voice දත්ත සහ ඉහත සියලුම අනෙකුත් දත්ත කට්ටල.
 license-mixed = මිශ්‍ර කළ
+data-download-singleword-title = තනි වචන ඉලක්ක කොටස බාගන්න
 terms-agree = මම එකඟයි
 terms-disagree = මම එකඟ නැහැ
+review-recording = පරීක්ෂා කිරීම
 review-delete-recordings = මගේ පටිගත කිරීම් මකන්න
 
 ## Datasets Page
 
 # File size in gigabytes
 size = ප්‍රමාණය
+validated-hr-total = වලංගු කරන ලද පැය. එකතුව
 cv-license = බලපත්‍රය
+number-of-voices = කටහඩ ගණන
 splits = බෙදීම්
 email-to-download = බාගත කිරීමට විද්‍යුත් තැපෑල ඇතුළත් කරන්න
 size-gigabyte = GB
 size-megabyte = MB
+subscribe = දායකත්වය
+get-started-speech = කථන හඳුනාගැනීම සමඟ ආරම්භ කරන්න
+other-datasets = වෙනත් හඩ දත්ත කට්ටල
 
 ## Download Modal
 
+download-back = Common Voice දත්ත කට්ටල වෙත ආපසු යන්න
 download-no = එපා, ස්තුතියි
 
 ## Contact Modal
@@ -363,6 +372,7 @@ other-language = වෙනත් භාෂාව
 
 ## Languages Overview
 
+language-section-in-progress = සිදු කරමින් පවතී
 language-section-launched = දියත් කරන ලදි
 languages-show-more = තව බලන්න
 languages-show-less = අඩුවෙන් බලන්න
@@ -377,34 +387,84 @@ sentences = වාක්‍ය
 ## Contribution
 
 action-click = ක්ලික් කරන්න
+action-tap = ටැප් කරන්න
 contribute = දායකවන්න
 listen = සවන්දෙන්න
 skip = මඟහරින්න
 shortcuts = කෙටිමං
+record-platform-not-supported-desktop = ඩෙස්ක්ටොප් උපාංග මත බාගත කිරීමෙන් ඔබට දායක විය හැකිය…
+record-platform-not-supported-ios-non-safari = iOS හි පටිගත කිරීම සක්‍රීය කිරීම සඳහා කරුණාකර Safari සමඟ ඉදිරියට යන්න…
+record-must-allow-microphone = ඔබ මයික්‍රොෆෝන ප්‍රවේශ වීමට ඉඩ දිය යුතුය.
+record-no-mic-found = මයික්‍රොෆෝනක් හමු නොවිනි.
+record-error-too-short = පටිගත කිරීම ඉතා කෙටිය.
+record-error-too-long = පටිගත කිරීම දිගුය.
+record-error-too-quiet = පටිගත කිරීම ඉතා නිහඩය.
+record-cancel = නැවත පටිගත කිරීම අවලංගු කරන්න
+share-clip = ඔබේ ක්ලිප් එක බෙදා ගන්න
+share-common-voice = Common Voice බෙදා ගන්න
+review-instruction = අවශ්‍ය නම් ක්ලිප් පරීක්ෂා කර නැවත පටිගත කරන්න
+clips-uploaded = උඩුගත කරන ලද ක්ලිප්
+record-abort-title = පළමුව පටිගත කිරීම අවසන් කරන්නද?
+record-abort-text = දැන් ඉවත්ව යාමෙන් අදහස් වන්නේ ඔබේ ප්‍රගතිය ඔබට අහිමි වන බවයි
+record-abort-submit = ක්ලිප් ඉදිරිපත් කරන්න
+record-abort-continue = පටිගත කිරීම අවසන් කරන්න
+record-abort-delete = ක්ලිප් වලින් ඉවත් වී මකන්න
+speak-empty-state-cta = වාක්‍ය දායක කරන්න
+record-button-label = ඔබේ කටහ පටිගත කරන්න
+target-segment-add-voice = ඔබේ කටහඩ එක් කරන්න
+target-segment-learn-more = තවත් දැනගන්න
 
 ## Reporting
 
+report = වාර්ථාව
+report-title = වාර්තාවක් ඉදිරිපත් කරන්න
+report-different-language = විවිධ භාෂාව
+report-offensive-speech = අහිතකර කථාව
+report-other-comment =
+    .placeholder = විචාර
+success = සාර්ථකයි!
+continue = ඉදිරියට
 
 ## Goals
 
 
 ## Dashboard
 
+toward-next-goal = ඊළඟ ඉලක්කය කරා
+clips-you-recorded = ඔබ පටිගත කළ ක්ලිප්
+clips-you-validated = ඔබ වලංගු කළ ක්ලිප්
+stats = සංඛ්‍යාන
 you = ඔබ
 everyone = සියළු දෙනා
 contribution-activity = දායකත්ව ක්‍රියාකාරකම්
 top-contributors = හොඳම දායකයන්
+recorded-clips = පටිගත කළ ක්ලිප්
+validated-clips = වලංගු කළ ක්ලිප්
+total-approved = සම්පුර්ණ අනුමත කර ඇති ප්‍රමාණය
+overall-accuracy = සමස්ත නිරවද්‍යතාවය
+set-visibility = මගේ දෘශ්‍යතාව සකසන්න
+show-ranking = මගේ ශ්‍රේණිගත කිරීම පෙන්වන්න
 
 ## Custom Goals
 
+get-started-goals = ඉලක්කයක් සමඟ අරඹන්න
+create-custom-goal = අභිරුචි ඉලක්කයක් සාදන්න
 daily-goal = දෛනික ඉලක්කය
 weekly-goal = සතිපතා ඉලක්කය
 easy-difficulty = පහසු
 average-difficulty = සාමාන්‍යය
 difficult-difficulty = දුෂ්කර
+lose-goal-progress-warning = ඔබේ ඉලක්කය සංස්කරණය කිරීමෙන්, ඔබගේ පවතින ප්‍රගතිය ඔබට අහිමි විය හැකිය.
+lose-changes-warning = දැන් ඉවත්ව යාමෙන් අදහස් වන්නේ ඔබගේ වෙනස්කම් ඔබට අහිමි වනු ඇති බවයි
+set-a-goal = ඉලක්කයක් තබන්න
+cant-decide = තීරණය කළ නොහැකිද?
+how-many-per-day = විශිෂ්ටයි! දිනකට ක්ලිප් කීයක් තිබේද?
+how-many-a-week = විශිෂ්ටයි! සතියකට ක්ලිප් කීයක් තිබේද?
+which-goal-type = ඔබට කථා කිරීමට, සවන් දීමට හෝ දෙකම කිරීමට අවශ්‍යද?
 goal-interval-weekly = සතිපතා
 share-goal-type-listen = සවන්දෙමින්
 share-goal-type-both = කථා කිරීම සහ සවන් දීම
+weekly-goal-created = ඔබගේ සතිපතා ඉලක්කය නිර්මාණය කර ඇත
 
 ## Profile Delete
 
