@@ -172,6 +172,7 @@ logout = ඉවත් වන්න
 home-title = Common Voice යනු සැබෑ මිනිසුන් කතා කරන ආකාරය යන්ත්‍රවලට ඉගැන්වීමට Mozilla හි මුලපිරීමයි.
 home-cta = කතා කරන්න, මෙහි දායක වන්න!
 wall-of-text-start = කටහඬ ස්වාභාවිකය, කටහඬ  මානුෂීයයි. භාවිතා කළ හැකි කටහඬ තාක්ෂණය අපගේ යන්ත්‍ර සඳහා නිර්මාණය කිරීමට අප උනන්දු වන්නේ එබැවිනි. නමුත් හඬපද්ධති නිර්මාණය කිරීම සඳහා අතිශය විශාල හඬ දත්ත අවශ්‍යයි.
+wall-of-text-more-mobile = විශාල සමාගම් විසින් භාවිතා කරන බොහෝ දත්ත බහුතරයකට ලබා ගත නොහැක. අපි හිතන ආකාරයට එය නව්‍යකරණයට බාධා කරයි. ඒ නිසා අපි Common Voice ව්‍යාපෘතිය දියත් කර ඇත, මෙම ව්‍යාපෘතිය හඩ හඳුනාගැනීමේ තාක්ෂණය සියළු දෙනාටම විවෘත කිරීමට උපකාරී වෙයි.
 vote-yes = ඔව්
 vote-no = නැත
 speak-subtitle = ඔබගේ කටහඩ පරිත්‍යාග කරන්න
@@ -280,13 +281,19 @@ cancel-avatar-clip-recording = අවලංගු කරන්න
 
 faq-why-important-q = එය වැදගත් වන්නේ ඇයි?
 faq-how-get-q = Common Voice දත්ත මම ලබා ගන්නේ කෙසේද?
+faq-what-is-cv = Common Voice යනු කුමක්ද?
+faq-using-cv = Common Voice භාවිතා කිරීම
 faq-search-for-answers =
     .label = පිළිතුරු සොයන්න
 
 ## ABOUT US
 
+about-title = Common Voice ඇයි?
+how-does-it-work-title = එය ක්‍රියාත්මක වෙන්නේ කෙසේද?
 about-speak = කතා කරන්න
+about-listen-queue = සවන්දීමේ පෙළ
 about-listen = සවන්දෙන්න
+about-is-it-valid = මෙම ක්ලිපය වලංගුද?
 about-partners = හවුල්කරුවන්
 about-become-a-partner = හවුල්කරුවෙකු වන්න
 about-get-involved = සහභාගී වෙන්න
@@ -296,19 +303,33 @@ about-nav-partners = හවුල්කරුවන්
 about-nav-get-involved = සම්බන්ධ වන්න
 mycroft-title = Mycroft Ai
 mycroft-subtitle = කෘතිම බුද්ධිය
+mycroft-description =
+    Mycroft යනු ලොව ප්‍රථම විවෘත කේත සහායකයා වේ.¶
+    Mycroft ඕනෑම තැනක ධාවනය වේ - ඩෙස්ක්ටොප් පරිගණකයක, මෝටර් රථයක් තුළ හෝ රාස්ප්බෙරි පයි මත.
 
 ## Glossary
 
+glossary = පදමාලාව
+localization = දේශීයකරණය
+sentence-collection = වාක්‍ය එකතුව
+sst = කථනයෙන් පෙළට (STT)
+sst-explanation = කථනයෙන් පෙළට (STT) තාක්ෂණයන් හඩ දත්ත පෙළ බවට පරිවර්තනය කරයි.
 
 ## NotFound
 
+notfound-title = හමු නොවීය
+notfound-content = ඔබ සොයන්නේ කුමක්දැයි මම නොදන්නෙමි.
 
 ## Data
 
+data-download-button = Common Voice දත්ත බාගත කරන්නන
 data-download-yes = ඔව්
 data-download-deny = නැත
 data-download-license = බලපත්‍රය: <licenseLink> CC-0 </licenseLink>
+data-other-title = වෙනත් හඩ දත්ත කට්ටල…
+data-other-goto = { $name } වෙත යන්න
 data-other-download = දත්ත බාගත කරන්න
+data-bundle-button = දත්ත කට්ටල බණ්ඩලය බාගත කරන්නන
 license-mixed = මිශ්‍ර කළ
 terms-agree = මම එකඟයි
 terms-disagree = මම එකඟ නැහැ
