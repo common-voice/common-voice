@@ -359,7 +359,9 @@ mycroft-description =
 
 glossary = පදමාලාව
 localization = දේශීයකරණය
+localization-explanation = බොහෝ ස්ථාන (භාෂා) සඳහා අපගේ අන්තර්ගතය පරිවර්තනය කිරීම හා අනුවර්තනය කිරීම සඳහා වූ අපගේ ක්‍රියාවලිය මෙයයි.
 sentence-collection = වාක්‍ය එකතුව
+sentence-collection-explanation = පොදු වසමෙන් වාක්‍ය එකතු කිරීම හෝ පොදු වසම සඳහා නව ඒවා ලිවීම.
 sst = කථනයෙන් පෙළට (STT)
 sst-explanation = කථනයෙන් පෙළට (STT) තාක්ෂණයන් හඩ දත්ත පෙළ බවට පරිවර්තනය කරයි.
 
