@@ -11,6 +11,8 @@ loading = පූරණයවෙමින්…
 email-opt-in-info = ඉලක්ක මතක් කිරීම්, මගේ ප්‍රගති යාවත්කාලී සහ Common Voice පිළිබඳ පුවත් පත්‍රිකා වැනි ඊමේල් ලැබීමට මම කැමතියි.
 email-opt-in-info-title = Common Voice තැපැල් ලැයිස්තුවට සම්බන්ධ වන්න
 email-opt-in-info-sub-with-challenge = අභියෝග සහ ඉලක්ක මතක් කිරීම්, ප්‍රගති යාවත්කාලීන සහ Common Voice පිළිබඳ පුවත් පත්‍රිකා වැනි ඊමේල් ලබා ගන්න.
+email-opt-in-privacy = ඊමේල් ලැබීමට තෝරාගැනීමෙන් ඔබ ප්‍රකාශ කරන්නේ Mozilla හි <privacyLink> පුද්ගලිකතා ප්‍රතිපත්තිය<privacyLink> හි විස්තර කර ඇති පරිදි Mozilla මෙම තොරතුරු හැසිරවීමට ඔබ එකඟවන බවයි.
+indicates-required = *අවශ්‍ය ක්ෂේත්‍රය දක්වයි
 not-available-abbreviation = අදාළ නැත
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -158,6 +160,7 @@ privacy = පුද්ගලිකත්වය
 terms = නියම
 cookies = කුකීස්
 faq = නිති අසන පැණ
+content-license-text = <licenseLink>Creative Commons license</licenseLink> යටතේ ඇති අන්තර්ගතයන්
 share-title = ඔවුන්ගේ කටහඬ පරිත්‍යාග කිරීමට අන් අය සොයා ගැනීමට අපට උදව් කරන්න!
 share-text = සැබෑ පුද්ගලයින් කතා කරන ආකාරය යන්ත්‍රවලට ඉගැන්වීමට උදව් කරන්න, { $link } හරහා ඔබේ කටහඩ පරිත්‍යාග කරන්න
 link-copied = සබැඳිය පිටපත් විය
@@ -168,6 +171,7 @@ logout = ඉවත් වන්න
 
 home-title = Common Voice යනු සැබෑ මිනිසුන් කතා කරන ආකාරය යන්ත්‍රවලට ඉගැන්වීමට Mozilla හි මුලපිරීමයි.
 home-cta = කතා කරන්න, මෙහි දායක වන්න!
+wall-of-text-start = කටහඬ ස්වාභාවිකය, කටහඬ  මානුෂීයයි. භාවිතා කළ හැකි කටහඬ තාක්ෂණය අපගේ යන්ත්‍ර සඳහා නිර්මාණය කිරීමට අප උනන්දු වන්නේ එබැවිනි. නමුත් හඬපද්ධති නිර්මාණය කිරීම සඳහා අතිශය විශාල හඬ දත්ත අවශ්‍යයි.
 vote-yes = ඔව්
 vote-no = නැත
 speak-subtitle = ඔබගේ කටහඩ පරිත්‍යාග කරන්න
@@ -274,6 +278,8 @@ cancel-avatar-clip-recording = අවලංගු කරන්න
 
 ## FAQ
 
+faq-why-important-q = එය වැදගත් වන්නේ ඇයි?
+faq-how-get-q = Common Voice දත්ත මම ලබා ගන්නේ කෙසේද?
 faq-search-for-answers =
     .label = පිළිතුරු සොයන්න
 
