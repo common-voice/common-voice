@@ -2,13 +2,13 @@ export const up = async function (db: any): Promise<any> {
   return db.runSql(
     `
       CREATE TABLE ages (
-        id  UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-        age VARCHAR(255) DEFAULT NULL
+        id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        age VARCHAR(255) NOT NULL
       );
 
       CREATE TABLE sexes (
         id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-        sex VARCHAR(255) DEFAULT NULL
+        sex VARCHAR(255) NOT NULL
       );
 
       CREATE TABLE demographics (
@@ -23,13 +23,6 @@ export const up = async function (db: any): Promise<any> {
         UNIQUE (client_id, age_id, sex_id)
       );
 
-      CREATE TABLE user_client_demographics (
-        client_id CHAR(36) NOT NULL PRIMARY KEY,
-        demographic_id BIGINT(20) UNSIGNED NOT NULL,
-        FOREIGN KEY (client_id) REFERENCES user_clients (client_id),
-        FOREIGN KEY (demographic_id) REFERENCES demographics (id)
-      );
-
       CREATE TABLE clip_demographics (
         clip_id BIGINT(20) UNSIGNED NOT NULL PRIMARY KEY,
         demographic_id BIGINT(20) UNSIGNED NOT NULL,
@@ -41,17 +34,16 @@ export const up = async function (db: any): Promise<any> {
         CHANGE COLUMN age deprecated_age VARCHAR(255),
         CHANGE COLUMN gender deprecated_gender VARCHAR(255);
 
-      INSERT INTO ages (age) VALUES (
-        'teens',
-        'twenties',
-        'thirties',
-        'fourties',
-        'fifties',
-        'sixties',
-        'seventies',
-        'eighties',
-        'nineties'
-      );
+      INSERT INTO ages (age) VALUES
+        ('teens'),
+        ('twenties'),
+        ('thirties'),
+        ('fourties'),
+        ('fifties'),
+        ('sixties'),
+        ('seventies'),
+        ('eighties'),
+        ('nineties');
 
       /* Sex and gender exist across multiple spectra which are not adequately
          represented in our current database schema.
@@ -62,20 +54,15 @@ export const up = async function (db: any): Promise<any> {
          only store records for users who opt in, and will always (at very
          least) maintain an "Other" option.
       */
-      INSERT INTO sexes (sex) VALUES ('female', 'male', 'other');
+      INSERT INTO sexes (sex) VALUES ('female'), ('male'), ('other');
 
-      /* FIXME: Only insert records with non-null demographics. */
-      INSERT INTO demographics (client_id, age, sex)  (
+      INSERT INTO demographics (client_id, age_id, sex_id)  (
         SELECT user_clients.client_id, ages.id, sexes.id
         FROM user_clients
-        INNER JOIN ages ON ages.age = user_clients.deprecated_age
-        INNER JOIN sexes ON sexes.sex = user_clients.deprecated_gender
-      );
-
-      INSERT INTO user_client_demographics (client_id, demographic_id)  (
-        SELECT user_clients.client_id, demographics.id AS demographic_id
-        FROM user_clients
-        INNER JOIN demographics ON user_clients.client_id = demographics.client_id
+        LEFT JOIN ages ON ages.age = user_clients.deprecated_age
+        LEFT JOIN sexes ON sexes.sex = user_clients.deprecated_gender
+        WHERE user_clients.deprecated_age IS NOT NULL
+           OR user_clients.deprecated_gender IS NOT NULL
       );
 
       INSERT INTO clip_demographics (clip_id, demographic_id)  (
