@@ -507,6 +507,7 @@ data-bundle-button = Telecargar lo paquet del jòc de donadas
 data-bundle-description = Donadas de Common Voice e totes los jòcs de donadas çai-jos.
 license = Licéncia : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
+data-download-singleword-title = Telecargar lo segment cibla de mot unic
 review-terms = En utilizar Common Voice, acceptatz las <termsLink>Conditions d’utilizacion<privacyLink>Politica de confidencialitat</privacyLink>
 terms-agree = Accepti
 terms-disagree = Accepti pas
