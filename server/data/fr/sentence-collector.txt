@@ -1235,6 +1235,7 @@ Allons-nous changer les lois ?
 Allons-y par ta mansarde, lui dit Contenson.
 Allons… puisque vous le voulez, dit-il
 Allume la lanterne, prends-la, et descends.
+Allume la radio s’il te plaît.
 Allume la télé, l'émission commence dans cinq minutes.
 Allume la télé, s’il te plaît.
 Allumerons-nous un feu afin de signaler notre présence sur cette côte
@@ -52217,6 +52218,7 @@ Ouais, c’est plutôt pas mal.
 Ouais, c’est ça, bonjour.
 Ouais, dans votre famille, Monsieur Omer Héricourt, le raisonnement renferme peu de vices !
 Ouais, je l’ai fait.
+Ouais, je suis bien d’accord avec toi.
 Ouais, j’ai les jambes paralysées.
 Ouais, mais là, faut arrêter de jouer.
 Ouais, t’as clairement l’impression que l’autoradio se fout de ta gueule.

@@ -652,6 +652,7 @@ A notícia estava gelando? para dizer o mínimo.
 A nova família chegou aos parentes.
 A nova lei foi retroativa.
 A nova lei proíbe fumar em sistemas de transporte público.
+A nova loja Carrefour está prestes a começar a construção.
 A nova loja parece ter muitas quedas de energia.
 A nova loja vai começar a construção.
 A nuvem se moveu de maneira majestosa e desapareceu.
@@ -881,6 +882,7 @@ Acabei de me livrar de uma multidão.
 Acabei de receber um e-mail da minha paixão!
 Acabei de ver o xerife.
 Acabou sendo um chá amargo.
+Academia de Belas Artes de Kyoto Kansai, Departamento de Arte Estrangeira
 Acalme-se temporariamente
 Acelerando a engenharia de instituições médicas
 Acelerar a transformação industrial e modernização
@@ -1139,6 +1141,7 @@ Alguém que monta uma bicicleta azul da sujeira em um curso da sujeira.
 Alice viu seu tio do outro lado da rua.
 Alison não pôde deixar de sentir orgulho por sua criação.
 Aliviar as emoções nervosas
+Alivie a pressão econômica de deixar uma pessoa sem emprego
 Aliás
 Almada é um concelho que possui mais de uma centena de associações.
 Alpinistas rápidos de repente esperaram.
@@ -1514,6 +1517,7 @@ As pessoas me viram chegando e me acolheu? ele pensou.
 As pessoas não reivindicam nada
 As pessoas observam enquanto uma pessoa esquia montanha abaixo.
 As pessoas olham ao redor da geleira
+As pessoas que estão fora devem ter cuidado!
 As pessoas que jogam são muito felizes
 As pessoas sob as estrelas mudam todos os dias
 As pessoas também estavam orando ao céu por proteção.
@@ -1900,6 +1904,7 @@ Cinco trabalhadores da construção civil em capacetes e coletes amarelos estão
 Cinemática inversa é um desafio matemático para engenheiros de robô.
 Cinquenta quilos de cimento nas costas.
 Circuito integrado
+Ciência da informação
 Ciúme é o monstro de olhos verdes
 Claro que ele está voltando aqui.
 Claro que ele fez.
@@ -2380,6 +2385,7 @@ De repente, uma ideia veio à mente
 De repente? sem razão aparente? o cavalo do menino começou a desacelerar.
 De repente? um dos falcões fez um mergulho intermitente no céu? atacando o outro.
 De seu gesto único, ficou claro que o rinoceronte era hostil.
+De um médico profissional
 De unidade e uniformidade, não havia lugar nenhum.
 De volta ao nosso plano original? eu acho.
 De volta ao renascimento
@@ -2463,6 +2469,7 @@ Depois de vários meses de negociações, a Eleven Sports chegou a um acordo.
 Depois disso, não há mais
 Depois do jantar, descanse um pouco, depois do jantar, ande uma milha.
 Depois ela aprendeu
+Depois que as crianças frequentaram a escola
 Depois que ele passou pelo Vale do Rift Leste
 Depois que o jantar descanse um tempo? depois da ceia caminhe uma milha.
 Depois que o príncipe foi resgatado, ele mostrou evidências da síndrome de Estocolmo.
@@ -2547,6 +2554,7 @@ Deve haver algum jeito.
 Deve haver apenas alguns fornecedores para fazer isso.
 Deve haver um novo modelo operacional
 Deve haver uma linguagem que não dependa de palavras, pensou o menino.
+Deve olhar para o conceito do círculo da vida capital
 Deve ser algum tipo de piada.
 Deve ter caído enquanto eu estava sentado ali.
 Deve ter sido um bom arremessador.
@@ -3213,9 +3221,11 @@ Ela chorou por uma hora.
 Ela colocou na prateleira? e lá ficou.
 Ela colocou seus chinelos? escalou as escadas? e foi para a cama.
 Ela comeu uma pêra velha e começou a sufocar.
+Ela começou a querer voltar para o país para viver
 Ela comprou pepinos no mercado.
 Ela concordou sem hesitação
 Ela costurou o casaco rasgado perfeitamente.
+Ela cresceu com segurança
 Ela dançou como um cisne? alto e gracioso.
 Ela deu a cada um deles metade para fazê-los trabalhar juntos.
 Ela deu à luz a filha mais nova
@@ -3410,6 +3420,7 @@ Ele assentiu e não disse nada.
 Ele assumiu a liderança e manteve toda a distância.
 Ele atuou em vários filmes.
 Ele avistou os navios.
+Ele balançou a cabeça silenciosamente
 Ele balançou no ar como salgueiros chorões.
 Ele bebe como peixe, pouca e só água.
 Ele beliscou sua bochecha.
@@ -4101,6 +4112,7 @@ Então ele sentou-se na entrada cheia de sol, fumando o narguilé.
 Então ele soltou sua pá? pegou sua jaqueta? e saiu para a estrada.
 Então ele vai andar de bicicleta ao lado dele!
 Então eles acham que ela deixou com você.
+Então eles podem economizar um aluguel
 Então encheu a vasilha com água e saiu.
 Então essa parte foi adorável e funcionou bem para os meus pais.
 Então eu entendo que não há objeções.
@@ -4339,6 +4351,7 @@ Esse homem é seu irmão?
 Esse identificador pode ser repetido várias vezes.
 Esse lápis é meu.
 Esse modelo é insustentável
+Esse par de cingapurianos
 Esse pessoal pode ser seu próprio ou subcontratado.
 Esse preço está um assalto!
 Esse quebra-cabeça tem mais de quinhentas peças.
@@ -4497,6 +4510,7 @@ Este post vai te ensinar como configurar o ambiente básico de reconhecimento de
 Este presidente está completamente perdido.
 Este prêmio é dado em três categorias diferentes.
 Este rebento será uma vez um carvalho gigante.
+Este recrutamento
 Este serviço deve ser oferecido em um espaço que garanta confidencialidade e discrição.
 Este site precisa de mais elementos interativos.
 Este site utiliza cookies.
@@ -4714,6 +4728,7 @@ Eu deveria dizer não!
 Eu deveria dizer não.
 Eu deveria estar lá.
 Eu deveria fazer o que eu quero fazer.
+Eu deveria pegar uma mala maior e sair.
 Eu deveria ter minha cabeça examinada.
 Eu devo a eles mais de um milhão
 Eu devo ser tocado
@@ -5254,6 +5269,7 @@ Eu quero reservar uma pizzaria no Afeganistão.
 Eu quero saber o que é isso.
 Eu quero saber o tempo para amanhã.
 Eu quero saber.
+Eu quero te dar uma tarefa.
 Eu quero tirar algo disso.
 Eu quero ver
 Eu quero ver a simpatia pelo diabo
@@ -5319,6 +5335,7 @@ Eu sempre olhei para Bessie como minha própria irmã.
 Eu sempre penso que pode haver melhor na frente.
 Eu sempre posso voltar a ser um pastor? o menino pensou.
 Eu sempre quis viajar pelo mundo.
+Eu sempre sinto que não é tão bom quanto eu vi antes.
 Eu sempre uso Linux.
 Eu sempre vou te decepcionar!
 Eu serei o tio de um macaco!
@@ -5683,6 +5700,7 @@ Finalmente, ele expõe sua preocupação sobre o uso de medicamentos e antibiót
 Finalmente, na tabela dez, podemos ver a evolução dos empregos no setor da construção.
 Finalmente? depois de horas de espera? o guarda mandou o menino entrar.
 Finalmente? uma jovem se aproximou e não estava vestida de preto.
+Financiamento de empréstimos e outros fundos
 Finanças do condado e da cidade
 Fingindo ser feliz
 Fins de semana são sempre divertidos.
@@ -5883,6 +5901,7 @@ Graças aos nossos óculos de realidade aumentada, ganhamos conhecimento dos det
 Graças à extensibilidade dos navegadores modernos? isso funciona surpreendentemente bem.
 Grime? ferrugem e partículas residuais poluíram o ar.
 Gritando de dentro da tenda
+Gritando, não me mate
 Grite e aplauda quando a cortina desliza para trás.
 Grito de barriga
 Grupo de asiáticos gravando algum vídeo.
@@ -5934,6 +5953,7 @@ Henderson entrou na estação de trem para telegrafar as notícias para Londres.
 Henderson estava aceitando.
 Henderson levantou-se com uma pá na mão.
 Hey Lucy, você já se lembrou da letra do hino?
+Hipermercado ao lado da estação
 Hipoteca não pode ser paga
 Hipster executa no violão.
 Hoje a comissão implicitamente decidiu estender o arsenal.
@@ -6120,6 +6140,7 @@ Incapaz de ser verdadeiramente independente
 Inclinação do sol
 Inclui corretores em catalão, espanhol, francês e inglês.
 Inconveniência, por favor, me perdoe
+Incorporar arte pública no plano
 Incrível!
 Indo bêbado e certo, isso não pode ser.
 Indo duas vezes
@@ -6225,6 +6246,7 @@ Isso pertence a você?
 Isso pode estar bem.
 Isso rasga tanto?
 Isso salvou sua vida.
+Isso se torna um mundo de prata
 Isso se tornou um culto na Romênia.
 Isso sempre ajuda a aprender algo novo e excitante.
 Isso sempre me deixa bem aqui.
@@ -6536,6 +6558,7 @@ Mamãe realmente quer
 Mamãe, feliz dia das mães!
 Mandando um pistoleiro para me sequestrar!
 Manhã participando da conferência de imprensa do projeto
+Manipulando minha vida
 Mantenha a escotilha apertada e o relógio constante.
 Mantenha a organização no programa de área de trabalho.
 Mantenha um coração amável
@@ -7206,6 +7229,7 @@ No amor, fugir é a única vitória.
 No ano passado não estava mudando a bateria
 No antigo modo de dar conselhos, você tem que ter uma boa aparência.
 No bêbado fino você não precisa de água ou vinho.
+No caminho de volta
 No campo das ciências.
 No caso do Android, é mais complicado.
 No cemitério o silêncio reinava
@@ -7259,6 +7283,7 @@ Noite de verão
 Nome da namorada de Drake.
 Nome da ocupação e instituição de pesquisa
 Nomeação de pessoal através do pensamento político
+Normalmente ainda há neve
 North City está servindo a Taipei Youth Career Development Center
 Nos Estados Unidos? usamos sacolas de papel para fazer compras.
 Nos ajude
@@ -9244,6 +9269,7 @@ Palhaço colorido com balão de manipulação do assobio.
 Palhaços andando pela rua, aparentemente em um desfile com um Porta Potty no fundo
 Palhaços misteriosos foram colocados no labirinto.
 Papai está com problemas?
+Papai sozinho
 Papai, olhe.
 Papel principal do cuidado familiar
 Papéis têm um papel
@@ -9414,6 +9440,7 @@ Pegue o seu cartão e deixe-o com ele.
 Pegue o teleférico descendo a montanha
 Pegue um dos cravos em cada mexilhão e guarde-os.
 Pegue um pouco de água rapidamente!
+Pegue um táxi para o outro lado
 Pegue uma bandeja para esses grandes líderes importantes.
 Pegue uma carga disso.
 Pegue uma suíte no Imperial e contrate alguns guarda-costas.
@@ -10395,6 +10422,7 @@ Realista representando as boas montanhas e águas de Taiwan
 Realizar o próprio destino é a única obrigação real de uma pessoa.
 Realizar um inquérito geral
 Realize experimentos científicos estranhos
+Realmente com medo
 Realmente eficaz?
 Realmente elogios, vale a pena comprar
 Realmente há um oitenta e sete
@@ -10420,6 +10448,7 @@ Reconhecimento de Entidade Nomeada pode ser feito usando Redes Neurais.
 Reconhecimento de voz.
 Recuou para o buraco.
 Recuperamos a maioria dos arquivos excluídos?, mas alguns ainda estão sendo processados.
+Recuperando gradualmente a força
 Recém-casados ​​estão se beijando na recepção no dia do casamento.
 Reduza o risco de câncer
 Reduzir as responsabilidades de cuidados familiares
@@ -10500,6 +10529,7 @@ Sabemos que episódios de aparições angélicas não são um fato estranho na B
 Sabemos que? e estamos acostumados a isso.
 Saberemos quando chegar ao fim
 Sabia da conversa do menino com o deserto? porque os ventos sabem tudo.
+Sabor doce ao recordar
 Sacos baratos e baratos estão sendo vendidos em todos os lugares neste mercado.
 Sacos de plástico acabaram sendo um problema para o meio ambiente.
 Sacos vazios não podem ficar em pé.
@@ -10516,6 +10546,7 @@ Saindo da porta da sala de computadores
 Sair de um carro que foi atingido pela iluminação é uma ameaça à vida.
 Saiu um novo episódio ontem.
 Salim mudou-se da Índia para a Holanda.
+Salinidade moderada e um pouco de doçura
 Salmão, peixe salmão, ovo de peixe
 Salsichas, croquetes e brócolis são a nossa refeição na cantina hoje.
 Salsichas? croquetes e brócolis são a nossa refeição na cantina hoje.
@@ -13524,6 +13555,7 @@ Varrendo o chão, separando mercadorias, etc.
 Vasos vazios fazem mais barulho.
 Veja a atitude da tia
 Veja a rua da primavera quente na estrada
+Veja a suspensão da aula
 Veja as capas dos jornais e revistas de hoje completamente grátis.
 Veja como esses atletas são flexíveis!
 Veja esta cena
@@ -13765,6 +13797,7 @@ Você gosta?
 Você gostaria de um cappuccino?
 Você gostaria de um selo?
 Você gostaria de viajar para a Flórida, senhor?
+Você irá para a Nova Cidade de Natal do Norte amanhã?
 Você joga Fortnite?
 Você joga futebol, Samuel?
 Você já conheceu Peter?
@@ -14167,6 +14200,7 @@ Você é muito gentil
 Você é muito valioso!
 Você é o cara que eu quero ver.
 Você é o melhor.
+Você é o nosso megafone
 Você é o único que sobrou.
 Você é realmente irmão de Fred?
 Você é sua presa.
@@ -14213,6 +14247,7 @@ Vou telefonar para eles para obter a história.
 Vou tirar meu braço disso.
 Vou verificar novamente.
 Vovó ainda é muito forte
+Vovó mora na grande família de Taipei
 Vovó realmente foi muito importante para esta operação.
 Vovó se senta na porta da cozinha
 Vovó é uma pessoa que gosta de contar histórias.
@@ -14239,6 +14274,7 @@ Vá para a sua dança!
 Vá para este endereço.
 Vá para o óleo de cavalo imediatamente.
 Vá pegar uma das maiores e mais douradas espigas de trigo
+Vá ver a cachoeira da barba branca
 Várias crianças estão em pé na praia.
 Várias crianças estão sentadas e segurando bolas de basquete
 Várias crianças praticando artes marciais com espadas de madeira
@@ -14623,6 +14659,7 @@ vários jovens asiáticos carregando bandeiras preto e brancas
 Água mineral por favor!
 Água, pedra e fogo, fuja se puder.
 Águas do oceano.
+Área comercial subterrânea de Sapporo
 Área especial
 Ânfora mínima é para crianças.
 É Candice agora em longa distância de Washington!
