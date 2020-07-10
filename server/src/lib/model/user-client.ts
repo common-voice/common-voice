@@ -96,26 +96,6 @@ async function updateDemographics(
   `,
     [clientId, ageId, sexId]
   );
-
-  const [[{ id: demographicId }]] = await db.query(
-    `
-    SELECT id
-      FROM demographics
-      WHERE client_id = ?
-      ORDER BY updated_at DESC
-      LIMIT 1
-  `,
-    [clientId]
-  );
-
-  await db.query(
-    `
-    INSERT INTO user_client_demographics (client_id, demographic_id) VALUES (?, ?)
-      ON DUPLICATE KEY UPDATE
-      demographic_id = ?
-  `,
-    [clientId, demographicId, demographicId]
-  );
 }
 
 const UserClient = {
@@ -132,10 +112,20 @@ const UserClient = {
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
-        LEFT JOIN user_client_demographics on u.client_id = user_client_demographics.client_id
-        LEFT JOIN demographics on user_client_demographics.demographic_id = demographics.id
-        LEFT JOIN ages on demographics.age_id = ages.id
-        LEFT JOIN sexes on demographics.sex_id = sexes.id
+        -- TODO: This subquery is VERY awkward, but safer until we simplify
+                 accent grouping.
+        CROSS JOIN
+          (SELECT ages.id AS age_id, sexes.id AS sex_id
+            FROM user_clients
+            LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
+            WHERE user_clients.${
+              client_id ? `client_id = ${client_id}` : `email = ${email}`
+            }
+            ORDER BY updated_at DESC
+            LIMIT 1
+          ) AS d
+        LEFT JOIN ages on d.age_id = ages.id
+        LEFT JOIN sexes on d.sex_id = sexes.id
         WHERE (u.client_id = ? OR email = ?) AND !has_login
       `,
       [client_id || null, email || null]
@@ -173,10 +163,20 @@ const UserClient = {
         LEFT JOIN user_client_newsletter_prefs n ON u.client_id = n.client_id
         LEFT JOIN user_client_accents accents ON u.client_id = accents.client_id
         LEFT JOIN locales ON accents.locale_id = locales.id
-        LEFT JOIN user_client_demographics on u.client_id = user_client_demographics.client_id
-        LEFT JOIN demographics on user_client_demographics.demographic_id = demographics.id
-        LEFT JOIN ages on demographics.age_id = ages.id
-        LEFT JOIN sexes on demographics.sex_id = sexes.id
+
+        -- TODO: This subquery is awkward, but safer until we simplify accent
+        --       grouping.
+        CROSS JOIN
+          (SELECT ages.id AS age_id, sexes.id AS sex_id
+            FROM user_clients
+            LEFT JOIN demographics
+            ON user_clients.client_id = demographics.client_id
+            WHERE user_clients.email = ?
+            ORDER BY updated_at DESC
+            LIMIT 1
+          ) AS d
+        LEFT JOIN ages ON d.age_id = ages.id
+        LEFT JOIN sexes ON d.sex_id = sexes.id
         LEFT JOIN (
           SELECT enroll.client_id, enroll.url_token as invite, teams.url_token AS team, challenges.url_token AS challenge
           FROM enroll
@@ -187,7 +187,7 @@ const UserClient = {
         GROUP BY u.client_id, accents.id
         ORDER BY accents.id ASC
       `,
-      [email]
+      [email, email]
     );
 
     const clientId = rows[0] ? rows[0].client_id : null;
