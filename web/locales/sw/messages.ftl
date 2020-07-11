@@ -389,6 +389,7 @@ download-title = Upakuaji umeanza
 download-form-email =
     .label = Weka barua pepe yako
     .value = Asante, tutawasiliana
+download-back = Rudi kwa daftari ya Common Voice
 download-no = Hapana, Asante
 
 ## Contact Modal
@@ -441,6 +442,7 @@ record-error-too-quiet = Rekodi ilikua ya kimya sana
 record-three-more-instruction = Tatu kumaliza!
 record-again-instruction = Vizuri!<recordIcon></recordIcon>Rekodi kipande kinachofata.
 record-last-instruction = <recordIcon></recordIcon> ya mwisho!
+share-common-voice = Sambaza Common Voice
 clips-uploaded = Vipande vilivyo pakiwa
 record-abort-title = Maliza kurekodi kwanza?
 record-abort-submit = Tuma vipande
