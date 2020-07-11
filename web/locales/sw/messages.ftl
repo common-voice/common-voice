@@ -459,6 +459,7 @@ target-segment-learn-more = Jifunze zaidi
 
 ## Reporting
 
+report-ask = Unakutana na shida gani kwenye hii sentensi?
 report-different-language = Lugha tofauti
 report-different-language-detail = Imeandikwa kwa lugha ambayo ni tofauti na ninayoongea.
 report-difficult-pronounce = Vigumu kutamka
@@ -477,6 +478,7 @@ days =
 ## Dashboard
 
 your-languages = Lugha zako
+awards = Tuzo
 you = Wewe
 everyone = Kila mtu
 
@@ -489,7 +491,10 @@ weekly-goal = Lengo la kila wiki
 easy-difficulty = Rahisi
 average-difficulty = Wastani
 difficult-difficulty = Ngumu
+want-to-continue = Unataka kuendelea?
+finish-editing = Maaliza kuhariri kwanza?
 set-a-goal = Weka lengo
+cant-decide = Huwezi kuamua?
 how-many-per-day = Vizuri! Vipande vingapi vya sauti kwa siku?
 how-many-a-week = Vizuri! Vipande vingapi vya sauti kwa wiki?
 which-goal-type = Unataka kuongea, usikiliza au zote mbili?
