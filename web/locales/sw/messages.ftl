@@ -443,9 +443,16 @@ record-three-more-instruction = Tatu kumaliza!
 record-again-instruction = Vizuri!<recordIcon></recordIcon>Rekodi kipande kinachofata.
 record-last-instruction = <recordIcon></recordIcon> ya mwisho!
 share-common-voice = Sambaza Common Voice
+review-instruction = Pitia na rekodi tena vipande vya sauti ikiwa inahitajika.
+record-submit-tooltip = { $actionType } wasilisha ikiwa tayari
 clips-uploaded = Vipande vilivyo pakiwa
 record-abort-title = Maliza kurekodi kwanza?
 record-abort-submit = Tuma vipande
+record-abort-continue = Maliza kurekodi
+listen-instruction = { $actionType }<playIcon></playIcon>Wameongea sentensi kwa usahihi?
+listen-again-instruction = Kazi nzuri!<playIcon></playIcon>Sikiliza tena ukiwa tayari
+listen-last-time-instruction = <playIcon></playIcon>ya mwisho!
+listen-empty-state = Tumeishiwa na vipande vya sauti vya kuhalalishwa kwenye hii lugha
 record-button-label = Rekodi sauti yako
 
 ## Reporting
