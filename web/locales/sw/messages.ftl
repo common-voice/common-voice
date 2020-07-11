@@ -454,6 +454,8 @@ listen-again-instruction = Kazi nzuri!<playIcon></playIcon>Sikiliza tena ukiwa t
 listen-last-time-instruction = <playIcon></playIcon>ya mwisho!
 listen-empty-state = Tumeishiwa na vipande vya sauti vya kuhalalishwa kwenye hii lugha
 record-button-label = Rekodi sauti yako
+login-to-get-started = Ingia au jisajili ili uanze
+target-segment-learn-more = Jifunze zaidi
 
 ## Reporting
 
