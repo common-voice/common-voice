@@ -352,6 +352,7 @@ review-submit-title = Hakiki kisha utume
 review-submit-msg = Asante kwa kurekodi!<lineBreak></lineBreak> Sasa hakiki kisha utume hivyo vipande
 review-recording = Thibitisha
 review-rerecord = Rekodi tena
+review-cancel = Ghairi uwasilishaji
 review-keep-recordings = Hifadhi rekodi
 review-delete-recordings = Futa rekodi zangu
 
@@ -364,6 +365,9 @@ cv-license = Leseni
 number-of-voices = idadi ya sauti
 splits = Migawanyiko
 email-to-download = Weka barua pepe kupakua
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Unakubali</b> kutojaribu kubaini utambulisho wa wasemaji kwenye daftari ya Common Voice
 download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
