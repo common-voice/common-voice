@@ -351,6 +351,7 @@ terms-disagree = Sikubali
 review-submit-title = Hakiki kisha utume
 review-submit-msg = Asante kwa kurekodi!<lineBreak></lineBreak> Sasa hakiki kisha utume hivyo vipande
 review-recording = Thibitisha
+review-rerecord = Rekodi tena
 review-keep-recordings = Hifadhi rekodi
 review-delete-recordings = Futa rekodi zangu
 
