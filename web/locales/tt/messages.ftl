@@ -657,6 +657,7 @@ listen-again-instruction = Шәп эш! <playIcon></playIcon> Әзер булг�
 listen-3rd-time-instruction = Икесе әзер, <playIcon></playIcon> дәвам итегез!
 listen-last-time-instruction = <playIcon></playIcon> Соңгысы!
 listen-empty-state = Бу телдә тикшерүгә җөмләләр калмады...
+speak-empty-state = Бу телдә яздыруга җөмләләр калмады...
 speak-empty-state-cta = Җөмләләр өстәү
 record-button-label = Тавышыгызны яздырыгыз
 share-title-new = Безгә күбрәк тавыш табарга <bold>ярдәм итегез</bold>
