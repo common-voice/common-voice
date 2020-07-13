@@ -175,8 +175,8 @@ const TopBar = ({
                       {NATIVE_NAMES[l]}
                     </option>
                   ) : (
-                    <Localized key={ALL_LOCALES} id={l}>
-                      <option value={l} />
+                    <Localized key={ALL_LOCALES} id={l ? l : ALL_LOCALES}>
+                      <option value={l ? l : ALL_LOCALES} />
                     </Localized>
                   )
                 )}
