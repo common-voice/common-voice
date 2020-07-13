@@ -1,4 +1,7 @@
 @import url('../../vars.css');
+html {
+    overflow: scroll;
+}
 
 #intro-container {
     display: flex;
