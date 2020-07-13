@@ -65,6 +65,9 @@
         border-bottom: 1px solid var(--darker-grey);
         width: 100%;
 
+        @media (--xs-only) {
+            flex-direction: column;
+        }
     }
 
     nav {
