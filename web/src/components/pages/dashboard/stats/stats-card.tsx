@@ -1,6 +1,6 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import LanguageSelect, {
   ALL_LOCALES,
 } from '../../../language-select/language-select';
@@ -14,6 +14,7 @@ export default function StatsCard({
   overlay,
   tabs,
   challenge,
+  currentLocale,
 }: {
   className?: string;
   title: string;
@@ -21,9 +22,13 @@ export default function StatsCard({
   overlay?: React.ReactNode;
   tabs?: { [label: string]: (props: { locale?: string }) => any };
   challenge?: boolean;
+  currentLocale?: string;
 }) {
   const [locale, setLocale] = useState(ALL_LOCALES);
   const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0]);
+  useEffect(() => setLocale(currentLocale ? currentLocale : ALL_LOCALES), [
+    currentLocale,
+  ]);
 
   return (
     <div className={'stats-card ' + (className || '')}>
