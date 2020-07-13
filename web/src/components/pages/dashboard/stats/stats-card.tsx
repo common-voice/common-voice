@@ -24,11 +24,11 @@ export default function StatsCard({
   challenge?: boolean;
   currentLocale?: string;
 }) {
-  const [locale, setLocale] = useState(
-    currentLocale ? currentLocale : ALL_LOCALES
-  );
+  const [locale, setLocale] = useState(ALL_LOCALES);
   const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0]);
-  useEffect(() => setLocale(currentLocale), [currentLocale]);
+  useEffect(() => setLocale(currentLocale ? currentLocale : ALL_LOCALES), [
+    currentLocale,
+  ]);
 
   return (
     <div className={'stats-card ' + (className || '')}>
