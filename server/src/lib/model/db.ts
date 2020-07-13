@@ -13,6 +13,11 @@ const THREE_WEEKS = 3 * 7 * 24 * 60 * 60 * 1000;
 
 const PRIORITY_TAXONOMY = 'Benchmark';
 
+// Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
+// from the single sentence record limit, because they are unlikely to amass enough unique speakers
+// to benefit from single sentence constraints
+const SMALL_LANGUAGE_COMMUNITIES = ['ab', 'cnh', 'dv', 'rm-sursilv', 'sah', 'vot'];
+
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
 const self_subcondition = '(visible = 0 AND user_clients.client_id = ?)';
@@ -183,6 +188,7 @@ export default class DB {
   ): Promise<Sentence[]> {
     let taxonomySentences: Sentence[] = [];
     const locale_id = await getLocaleId(locale);
+    const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
 
     if (getConfig().BENCHMARK_LIVE) {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
@@ -199,7 +205,8 @@ export default class DB {
         : await this.findSentencesWithFewClips(
             client_id,
             locale_id,
-            count - taxonomySentences.length
+            count - taxonomySentences.length,
+            exemptFromSSRL
           );
     return taxonomySentences.concat(regularSentences);
   }
@@ -207,7 +214,8 @@ export default class DB {
   async findSentencesWithFewClips(
     client_id: string,
     locale_id: number,
-    count: number
+    count: number,
+    exemptFromSSRL?: boolean
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
       `
@@ -226,7 +234,7 @@ export default class DB {
             WHERE skipped.sentence_id = sentences.id AND
               skipped.client_id = ?
           )
-          AND (clips_count = 0 OR has_valid_clip = 0)
+          ${exemptFromSSRL ? '' : 'AND (clips_count = 0 OR has_valid_clip = 0)'}
           ORDER BY clips_count ASC
           LIMIT ?
         ) t
@@ -292,6 +300,7 @@ export default class DB {
   ): Promise<DBClipWithVoters[]> {
     let taxonomySentences: DBClipWithVoters[] = [];
     const locale_id = await getLocaleId(locale);
+    const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
 
     if (getConfig().BENCHMARK_LIVE) {
       taxonomySentences = await this.findClipsMatchingTaxonomy(
@@ -308,7 +317,8 @@ export default class DB {
         : await this.findClipsWithFewVotes(
             client_id,
             locale_id,
-            count - taxonomySentences.length
+            count - taxonomySentences.length,
+            exemptFromSSRL
           );
 
     return taxonomySentences.concat(regularSentences);
@@ -317,7 +327,8 @@ export default class DB {
   async findClipsWithFewVotes(
     client_id: string,
     locale_id: number,
-    count: number
+    count: number,
+    exemptFromSSRL?: boolean
   ): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.query(
       `
@@ -332,8 +343,8 @@ export default class DB {
             FROM votes
             WHERE votes.clip_id = clips.id AND client_id = ?
           )
-        AND sentences.clips_count <= 10
-        AND sentences.has_valid_clip = 0
+        AND sentences.clips_count <= 15
+        ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
         LIMIT ?
       ) t
