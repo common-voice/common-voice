@@ -9,8 +9,11 @@ email-input =
 submit-form-action = Indsend
 loading = Indlæser…
 email-opt-in-info = Jeg vil gerne modtage mails såsom påmindelser om mål, opdateringer om mine fremskridt og nyhedsbreve om Common Voice.
+email-opt-in-info-title = Meld dig til mailinglisten for Common Voice
+email-opt-in-info-sub-with-challenge = Modtag mails med påmindelser om udfordringer og mål, opdateringer om fremskridt samt nyhedsbreve om Common Voice.
 email-opt-in-privacy = Ved at tilmelde dig modtagelse af mails bekræfter du, at Mozilla må håndtere disse data i overensstemmelse med Mozillas <privacyLink>privatlivspolitik<privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
+not-available-abbreviation = Ikke tilgængelig
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -180,6 +183,7 @@ vote-yes = Ja
 vote-no = Nej
 toggle-play-tooltip = Tryk på { shortcut-play-toggle } for at starte eller stoppe afspilningen
 speak-subtitle = Donér din stemme
+speak-paragraph = Optagelse af stemmeklip er en vigtig del af opbygningen af vores åbne datasæt. Mange vil sige at det også er den sjoveste del.
 speak-goal-text = Klip optaget
 listen-subtitle = Hjælp os med at validere stemmer
 listen-paragraph = Validering af donerede klip er mindst lige så vigtigt for Common Voice-missionen. Lyt til et klip og hjælp os med at skabe kvalitets open source stemme-data.
