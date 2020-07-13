@@ -61,6 +61,7 @@ const AccountModal = (props: ModalProps) => {
         <LinkButton
           rounded
           href="/login"
+          className={getTrackClass('fs', `nudge-profile-modal`)}
           onClick={() => {
             sessionStorage.setItem('redirectURL', location.pathname);
             trackProfile('contribution-conversion-modal', locale);

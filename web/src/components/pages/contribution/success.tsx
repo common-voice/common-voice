@@ -13,6 +13,7 @@ import { LocaleLink, useLocale } from '../../locale-helpers';
 import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
 import { Button, LinkButton, TextButton } from '../../ui/ui';
 import { SET_COUNT } from './contribution';
+import { getTrackClass } from '../../../services/tracker';
 
 import './success.css';
 
@@ -163,7 +164,7 @@ function Success({
             <p />
           </Localized>
           <Localized id="login-signup">
-            <LinkButton rounded href="/login" />
+            <LinkButton rounded href="/login" className={getTrackClass('fs', `nudge-profile-on-succcess`)} />
           </Localized>
         </div>
       )}
