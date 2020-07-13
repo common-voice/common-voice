@@ -220,6 +220,7 @@ email-subscription-title-new = Tilmeld dig nyhedsbreve fra Common Voice, påmind
 ## Account Benefits
 
 benefits = Fordele
+rich-data = Gør dine indsendte data så informationsrige som muligt ved at indgive anonyme, demografiske data. Vi anonymiserer alle demografiske data, inden de offentliggøres.
 improve-audio = Informationerne på din profil forbedrer de lyddata, der bruges til træning af talegenkendelse.
 compare-progress = Se dine fremskridt sammenlignet med andre bidragsydere over hele verden.
 
