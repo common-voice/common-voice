@@ -63,6 +63,8 @@
     .underlined {
         flex-grow: 1;
         border-bottom: 1px solid var(--darker-grey);
+        width: 100%;
+
     }
 
     nav {
