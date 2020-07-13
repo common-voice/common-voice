@@ -118,6 +118,7 @@
         display: flex;
 
         @media (--xs-only) {
+            margin-top: 10px;
             flex-direction: column;
             justify-content: space-between;
         }
