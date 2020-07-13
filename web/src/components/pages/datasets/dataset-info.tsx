@@ -36,7 +36,7 @@ import {
 import './dataset-info.css';
 import URLS from '../../../urls';
 
-const CURRENT_RELEASE = 'cv-corpus-5-2020-06-22';
+const CURRENT_RELEASE = 'cv-corpus-5.1-2020-06-22';
 const SEGMENT_RELEASE = 'cv-corpus-5-singleword';
 const DEFAULT_CATEGORY_COUNT = 2;
 
@@ -255,6 +255,7 @@ const DownloadEmailPrompt = ({
     confirmSize: false,
     downloadLink: null,
     hideEmailForm: true,
+    locale: bundleState.bundleLocale,
   });
 
   const {
@@ -263,7 +264,15 @@ const DownloadEmailPrompt = ({
     confirmSize,
     downloadLink,
     hideEmailForm,
+    locale,
   } = formState;
+
+  const updateLink = (locale: string, confirmNoIdentify: boolean, confirmSize: boolean) => {
+    return emailInputRef.current?.checkValidity() &&
+      confirmNoIdentify && confirmSize
+        ? urlPattern.replace('{locale}', locale)
+        : null;
+  }
 
   const saveHasDownloaded = async () => {
     await api
@@ -279,18 +288,22 @@ const DownloadEmailPrompt = ({
       ...formState,
       [target.name]: target.type !== 'checkbox' ? target.value : target.checked,
     };
-    let downloadLink =
-      emailInputRef.current?.checkValidity() &&
-      newState.confirmNoIdentify &&
-      newState.confirmSize
-        ? urlPattern.replace('{locale}', bundleState.bundleLocale)
-        : null;
+
+    let downloadLink = updateLink(bundleState.bundleLocale, newState.confirmNoIdentify, newState.confirmSize);
 
     setFormState({
       ...newState,
       downloadLink,
     });
   };
+
+  if (bundleState.bundleLocale != formState.locale) {
+    setFormState({
+      ...formState,
+      downloadLink: updateLink(bundleState.bundleLocale, confirmNoIdentify, confirmSize),
+      locale: bundleState.bundleLocale
+    });
+  }
 
   return (
     <>
@@ -431,7 +444,6 @@ const DatasetSegmentDownload = ({
         <h2 className="dataset-segment-callout">
           <Localized id="data-download-singleword-title" />
         </h2>
-        <p>
         <Localized
           id="data-download-singleword-callout"
           elems={{
@@ -444,9 +456,6 @@ const DatasetSegmentDownload = ({
           }}>
           <p id="description-hours" />
         </Localized>
-
-
-        </p>
       </div>
       <div className="dataset-segment-stats">
         <div className="circle-stats">
