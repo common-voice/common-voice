@@ -442,7 +442,7 @@ class SpeakPage extends React.Component<Props, State> {
               hasEarnedSessionToast = false,
               showFirstStreakToast = false,
               challengeEnded = true,
-            } = await api.uploadClip(recording.blob, sentence.id);
+            } = await api.uploadClip(recording.blob,sentence.id,this.demoMode);
             URL.revokeObjectURL(recording.url);
             sessionStorage.setItem(
               'challengeEnded',
