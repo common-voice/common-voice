@@ -89,6 +89,7 @@ interface PropsFromState {
 }
 
 interface Props extends WithLocalizationProps, PropsFromState {
+  demoMode: boolean;
   activeIndex: number;
   errorContent?: any;
   reportModalProps: Omit<ReportModalProps, 'onSubmitted'>;
@@ -289,6 +290,7 @@ class ContributionPage extends React.Component<Props, State> {
       reportModalProps,
       type,
       user,
+      demoMode,
     } = this.props;
     const {
       showAccountModal,
