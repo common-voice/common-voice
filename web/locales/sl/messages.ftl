@@ -11,7 +11,7 @@ loading = Nalaganje …
 email-opt-in-info = Želim prejemati e-poštna sporočila, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
 email-opt-in-info-title = Pridružite se e-poštnemu seznamu Common Voice
 email-opt-in-info-sub-with-challenge = Prejemajte e-poštna sporočila, kot so opomniki na izzive in cilje, posodobitve napredka in novice projekta Common Voice.
-email-opt-in-privacy = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti<privacyLink>.
+email-opt-in-privacy-v2 = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>.
 indicates-required = * Zahtevano polje
 not-available-abbreviation = Ni na voljo
 
