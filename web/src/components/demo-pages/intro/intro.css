@@ -10,6 +10,13 @@ html {
     width: 100vw;
     background: var(--white) url('./assets/waves.svg') no-repeat center;
     background-size: contain;
+
+    .localization-select {
+        width: 200px;
+        position: absolute;
+        top: 710px;
+        inset-inline-end: 30px;
+    }
 }
 
 #intro-container--text-box {
@@ -54,7 +61,7 @@ html {
 }
 
 #intro-container--gradient-layer {
-    min-height: 100vh;
+    min-height: 105vh;
     position: absolute;
     width: 100%;
     background: linear-gradient(
