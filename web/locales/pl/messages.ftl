@@ -11,7 +11,7 @@ loading = Wczytywanie…
 email-opt-in-info = Chcę otrzymywać wiadomości e-mail, takie jak przypomnienia o celach, informacje o moim postępie oraz biuletyny na temat Common Voice.
 email-opt-in-info-title = Dołącz do listy dyskusyjnej projektu Common Voice
 email-opt-in-info-sub-with-challenge = Otrzymuj wiadomości e-mail, takie jak przypomnienia o wyzwaniach i celach, informacje o postępie oraz biuletyny na temat Common Voice.
-email-opt-in-privacy = Wybierając otrzymywanie wiadomości wyrażasz zgodę na wykorzystywanie tych danych przez Mozillę w sposób opisany w <privacyLink>zasadach ochrony prywatności<privacyLink>.
+email-opt-in-privacy-v2 = Wybierając otrzymywanie wiadomości wyrażasz zgodę na wykorzystywanie tych danych przez Mozillę w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink>.
 indicates-required = * wskazuje pole obowiązkowe
 not-available-abbreviation = Niedostępne
 
