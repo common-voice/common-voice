@@ -11,7 +11,7 @@ loading = 加载中…
 email-opt-in-info = 我希望收到诸如目标提醒、我的进度更新与 Common Voice 的相关新闻通讯。
 email-opt-in-info-title = 加入 Common Voice 邮件列表
 email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进度更新与 Common Voice 的相关新闻通讯。
-email-opt-in-privacy = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
+email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
 
