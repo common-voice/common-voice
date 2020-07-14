@@ -11,7 +11,7 @@ loading = Wird geladen…
 email-opt-in-info = Ich möchte E-Mails wie Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice erhalten.
 email-opt-in-info-title = Tragen Sie sich in die Mailingliste von Common Voice ein
 email-opt-in-info-sub-with-challenge = Erhalten Sie E-Mails wie  Herausforderungs- und Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice.
-email-opt-in-privacy = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung<privacyLink> von Mozilla verarbeitet.
+email-opt-in-privacy-v2 = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung</privacyLink> von Mozilla verarbeitet.
 indicates-required = * Pflichtfeld
 not-available-abbreviation = Nicht verfügbar
 
