@@ -41,7 +41,7 @@ import API from '../../services/api';
 import NotificationBanner from './../notification-banner/notification-banner';
 import { Notifications } from '../../stores/notifications';
 
-const LOCALES_WITH_NAMES = LOCALES.map(code => [
+export const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
   NATIVE_NAMES[code] || code,
 ]).sort((l1, l2) => l1[1].localeCompare(l2[1]));
