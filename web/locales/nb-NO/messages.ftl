@@ -2,7 +2,7 @@
 
 yes-receive-emails = Ja, send meg e-post slik at jeg kan holde meg oppdatert om prosjektet Common Voice.
 stayintouch = Vi i Mozilla bygger et samfunn rundt taleteknologi. Vi vil gjerne holde deg oppdatert på endringer, nye datakilder og høre mer om hvordan du bruker disse dataene.
-privacy-info = Vi lover å håndtere informasjonen din omsorgsfullt. Les mer i vår <privacyLink>Personvernnotis</privacyLink>.
+privacy-info = Vi lover å håndtere informasjonen din på en trygg måte. Les mer i vår <privacyLink>personvernerklæring</privacyLink>.
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
@@ -11,7 +11,7 @@ loading = Laster…
 email-opt-in-info = Jeg vil gjerne motta e-post med påminnelser, oppdateringer om fremgang og nyheter om Common Voice.
 email-opt-in-info-title = Abonner på Common Voice-e-postlisten
 email-opt-in-info-sub-with-challenge = Motta e-post om utfordrings- og målpåminnelser, oppdateringer om progresjon og nyhetsbrev om Common Voice.
-email-opt-in-privacy = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink> personvernerklæring.
+email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 indicates-required = * Indikerer obligatorisk felt
 not-available-abbreviation = ikke tilgjengelig
 
@@ -325,7 +325,7 @@ profile-explanation = Hold rede på fremgangen din med en profil og hjelp oss me
 thanks-for-account = Takk for at du bekreftet kontoen din. La oss lage en profil til deg.
 why-demographic = Hvorfor er dette viktig?
 why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og e-postadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
-accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>Privacy Policy</privacyLink>.
+accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 accept-privacy-title = Personvernbestemmelser
 login-identity = Innloggingsidentitet
 login-signup = Logg inn / registrer deg
@@ -499,7 +499,7 @@ license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 data-download-singleword-title = Last ned målsegmentet for ett ord
 data-download-singleword-callout = Dette er et brukstilfelle-drevet segment som inneholder data for å styrke gjenkjennelse av talte siffer, ja/nei-gjenkjennelse og oppvåkningsord-testdata for <fxLink>Firefox Voice</fxLink>.
-review-terms = Ved å bruke Common Voice, godkjenner du <termlink>vilkårene</termlink> og <privacyLink>personvernbestemmelsen</privacyLink> vår
+review-terms = Ved å bruke Common Voice, godkjenner du <termlink>vilkårene</termlink> og <privacyLink>personvernerklæringen</privacyLink> vår
 terms-agree = Jeg godtar
 terms-disagree = Jeg godtar ikke
 review-aborted = Opplasting avbrutt. Vil du slette innspillingene dine?
