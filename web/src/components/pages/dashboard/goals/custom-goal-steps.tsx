@@ -118,7 +118,9 @@ export default [
           </Localized>
           <Localized
             id={
-              dashboardLocale ? 'help-reach-hours' : 'help-reach-hours-general'
+              dashboardLocale
+                ? 'help-reach-hours-pluralized'
+                : 'help-reach-hours-general'
             }
             vars={{
               hours: 10000,
@@ -193,7 +195,7 @@ export default [
             <h4 />
           </Localized>
           <Localized
-            id="activity-needed-calculation"
+            id="activity-needed-calculation-pluralized"
             vars={{
               totalHours: 10000,
               periodMonths: 6,

@@ -119,7 +119,7 @@ function CompletedFields({
           <Radio key={stateKey} checked disabled>
             <Localized
               {...(stateKey == 'amount'
-                ? { id: 'n-clips', vars: { count: value } }
+                ? { id: 'n-clips-pluralized', vars: { count: value } }
                 : {
                     id:
                       stateKey == 'type' && value == 'both'
@@ -178,7 +178,7 @@ function CurrentFields({
             }>
             {currentStateKey == 'amount' ? (
               <>
-                <Localized id="n-clips" vars={{count: value}}>
+                <Localized id="n-clips-pluralized" vars={{ count: value }}>
                   <span />
                 </Localized>
                 <Localized id={labelId}>

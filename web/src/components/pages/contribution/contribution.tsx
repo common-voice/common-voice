@@ -365,9 +365,9 @@ class ContributionPage extends React.Component<Props, State> {
               <div className={'counter ' + (isSubmitted ? 'done' : '')}>
                 {isSubmitted && <CheckIcon />}
                 <Localized
-                  id="clips-with-count"
-                  elems={{bold: <b />}}
-                  vars={{count: this.renderClipCount()}}>
+                  id="clips-with-count-pluralized"
+                  elems={{ bold: <b /> }}
+                  vars={{ count: this.renderClipCount() }}>
                   <span className="text" />
                 </Localized>
               </div>
@@ -482,9 +482,9 @@ class ContributionPage extends React.Component<Props, State> {
                   {!errorContent && (
                     <div className="counter">
                       <Localized
-                        id="clips-with-count"
-                        elems={{bold: <b />}}
-                        vars={{count: this.renderClipCount()}}>
+                        id="clips-with-count-pluralized"
+                        elems={{ bold: <b /> }}
+                        vars={{ count: this.renderClipCount() }}>
                         <span className="text" />
                       </Localized>
                     </div>
