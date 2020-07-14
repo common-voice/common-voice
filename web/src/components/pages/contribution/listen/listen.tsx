@@ -28,6 +28,7 @@ import Pill from '../pill';
 
 import './listen.css';
 import { User } from '@sentry/types';
+import { RouteComponentProps, withRouter } from 'react-router';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -66,7 +67,10 @@ interface PropsFromDispatch {
   addAchievement: typeof Notifications.actions.addAchievement;
 }
 
-interface Props extends PropsFromState, PropsFromDispatch {}
+interface Props
+  extends PropsFromState,
+    PropsFromDispatch,
+    RouteComponentProps {}
 
 interface State {
   clips: (ClipType & { isValid?: boolean })[];
@@ -89,6 +93,7 @@ class ListenPage extends React.Component<Props, State> {
   playedSomeInterval: any;
 
   state: State = initialState;
+  demoMode = this.props.location.pathname.includes(URLS.DEMO);
 
   static getDerivedStateFromProps(props: Props, state: State) {
     if (state.clips.length > 0) return null;
@@ -255,6 +260,7 @@ class ListenPage extends React.Component<Props, State> {
         />
         <ContributionPage
           activeIndex={clipIndex}
+          demoMode={this.demoMode}
           errorContent={
             !this.props.isLoading &&
             (clips.length === 0 || !activeClip) && (
@@ -265,7 +271,7 @@ class ListenPage extends React.Component<Props, State> {
                   </Localized>
                   <LinkButton
                     rounded
-                    to={URLS.SPEAK}
+                    to={this.demoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
                     className="record-instead">
                     <MicIcon />{' '}
                     <Localized id="record-button-label">
@@ -407,4 +413,4 @@ const mapDispatchToProps = {
 export default connect<PropsFromState, any>(
   mapStateToProps,
   mapDispatchToProps
-)(ListenPage);
+)(withRouter(ListenPage));

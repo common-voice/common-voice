@@ -165,6 +165,7 @@ const initialState: State = {
 
 class SpeakPage extends React.Component<Props, State> {
   state: State = initialState;
+  demoMode = this.props.location.pathname.includes(URLS.DEMO);
 
   audio: AudioWeb;
   isUnsupportedPlatform = false;
@@ -442,7 +443,11 @@ class SpeakPage extends React.Component<Props, State> {
               hasEarnedSessionToast = false,
               showFirstStreakToast = false,
               challengeEnded = true,
-            } = await api.uploadClip(recording.blob,sentence.id,this.demoMode);
+            } = await api.uploadClip(
+              recording.blob,
+              sentence.id,
+              this.demoMode
+            );
             URL.revokeObjectURL(recording.url);
             sessionStorage.setItem(
               'challengeEnded',
@@ -628,6 +633,7 @@ class SpeakPage extends React.Component<Props, State> {
           </Localized>
         )}
         <ContributionPage
+          demoMode={this.demoMode}
           activeIndex={recordingIndex}
           errorContent={this.displayError() && this.returnSpeakError()}
           instruction={props =>
