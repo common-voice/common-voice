@@ -19,7 +19,7 @@ export default class Bucket {
   /**
    * Fetch a public url for the resource.
    */
-  private getPublicUrl(key: string) {
+  public getPublicUrl(key: string) {
     return this.s3.getSignedUrl('getObject', {
       Bucket: getConfig().BUCKET_NAME,
       Key: key,
