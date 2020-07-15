@@ -771,7 +771,7 @@ help-reach-hours-pluralized = Help reach { NUMBER($hours) ->
 [one] {$hours} hour
 *[other] {$hours} hours
  } in { $language } with a personal goal
-help-reach-hours-general = Help Common Voice reach { NUMBER($hours) -> 
+help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) -> 
   [one] {$hours} hour
   *[other] {$hours} hours
  } in a language with a personal goal

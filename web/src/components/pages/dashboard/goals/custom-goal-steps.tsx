@@ -120,7 +120,7 @@ export default [
             id={
               dashboardLocale
                 ? 'help-reach-hours-pluralized'
-                : 'help-reach-hours-general'
+                : 'help-reach-hours-general-pluralized'
             }
             vars={{
               hours: 10000,
