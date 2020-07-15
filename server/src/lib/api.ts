@@ -279,15 +279,16 @@ export default class API {
         break;
 
       case 'file':
+        let fileName = MD5(user.emails[0].value).toString() + '-avatar.png';
         await this.s3
           .upload({
-            Key: 'user-avatar',
+            Key: fileName,
             Bucket: getConfig().BUCKET_NAME,
             Body: body,
           })
           .promise();
 
-        avatarURL = this.bucket.getPublicUrl('user-avatar');
+        avatarURL = this.bucket.getPublicUrl(fileName);
         break;
 
       default:
