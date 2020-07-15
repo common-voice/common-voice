@@ -279,15 +279,15 @@ export default class API {
         break;
 
       case 'file':
-        avatarURL =
-          'data:' +
-          headers['content-type'] +
-          ';base64,' +
-          body.toString('base64');
-        console.log(avatarURL.length);
-        if (avatarURL.length > 8000) {
-          error = 'too_large';
-        }
+        await this.s3
+          .upload({
+            Key: 'user-avatar',
+            Bucket: getConfig().BUCKET_NAME,
+            Body: body,
+          })
+          .promise();
+
+        avatarURL = this.bucket.getPublicUrl('user-avatar');
         break;
 
       default:
@@ -413,7 +413,11 @@ export default class API {
     { client_id, params, body }: Request,
     response: Response
   ) => {
-    await this.model.db.insertDownloader(params.locale, body.email, body.dataset);
+    await this.model.db.insertDownloader(
+      params.locale,
+      body.email,
+      body.dataset
+    );
     response.json({});
   };
 
