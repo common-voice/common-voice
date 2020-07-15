@@ -356,6 +356,7 @@ faq-what-cv-q = Hvad er Common Voice?
 faq-why-important-q = Hvorfor er det vigtigt?
 faq-how-get-q = Hvordan får jeg fat i data fra Common Voice?
 faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</licenseLink>-licensen på vores <datasetLink>side med datasæt</datasetLink>. Du kan også hente flere andre offentligt tilgængelige datasæt fra samme side.
+faq-when-release2-q = Hvornår udgiver I Common Voice-data på andre sprog?
 faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
