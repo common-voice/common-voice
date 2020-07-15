@@ -11,7 +11,7 @@ loading = Загрузка…
 email-opt-in-info = Я хочу получать такие письма, как напоминания о целях, уведомления о достижениях и новости о Common Voice.
 email-opt-in-info-title = Присоединиться к рассылке Common Voice
 email-opt-in-info-sub-with-challenge = Получать такие письма, как челленджи, напоминания о целях, уведомления о достижениях и новости о Common Voice.
-email-opt-in-privacy = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
 
