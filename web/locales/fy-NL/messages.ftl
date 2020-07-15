@@ -11,7 +11,7 @@ loading = Lade…
 email-opt-in-info = Ik wol graach e-mailberjochten lykas oantinkens oan doelstellingen, myn foartgong en nijsbrieven oer Common Voice ûntfange.
 email-opt-in-info-title = Meld jo oan foar de Common Voice-mailinglist
 email-opt-in-info-sub-with-challenge = Untfang e-mailberjochten lykas oantinkens oan útdagingen en doelstellingen, foartgong en nijsbrieven oer Common Voice.
-email-opt-in-privacy = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoart gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied<privacyLink>.
+email-opt-in-privacy-v2 = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoard gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied</privacyLink>.
 indicates-required = * jout fereaske fjild oan
 not-available-abbreviation = NB
 
