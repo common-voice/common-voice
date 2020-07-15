@@ -365,6 +365,7 @@ faq-do-want-native-a = Ja, vi vil især gerne have din stemme! En del af formål
 faq-why-different-speakers-q = Hvorfor har i brug for så mange forskellige stemmer per sprog?
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
+faq-why-10k-hours-a = Dette er cirka det antal timer, som det kræver at træne et velfungerende tale-til-tekst-system.
 faq-how-calc-hours-q = Hvordan bliver timerne udregnet af Common Voice?
 faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige længde af hver optagelse, og ganger det antal med det samlede antal optagelser på tværs af alle sprog.
 faq-where-src-from-2-q = Hvor kommer teksten fra?
