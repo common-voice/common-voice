@@ -11,7 +11,7 @@ loading = Cyta se…
 email-opt-in-info = Ja by rady mejlki dostał, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice.
 email-opt-in-info-title = Aboněrujśo rozpósłańsku lisćinu Common Voice
 email-opt-in-info-sub-with-challenge = Dostańśo mejlki, ako na pśikład wupominańske a celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice.
-email-opt-in-privacy = Jolic cośo mejlki dostaś, musyśo do wobchadanja Mozilla z tymi informacijami zwóliś, kótarež se w <privacyLink>pšawidłach priwatnosći<privacyLink> Mozilla rozjasnjuju.
+email-opt-in-privacy-v2 = Jolic cośo mejlki dostaś, musyśo do wobchadanja Mozilla z tymi informacijami zwóliś, kótarež se w <privacyLink>pšawidłach priwatnosći</privacyLink> Mozilla rozjasnjuju.
 indicates-required = * Wóznamjenijo trěbne pólo
 not-available-abbreviation = Nic k dispoziciji
 
