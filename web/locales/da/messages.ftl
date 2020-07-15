@@ -223,12 +223,14 @@ rich-data = Gør dine indsendte data så informationsrige som muligt ved at indg
 improve-audio = Informationerne på din profil forbedrer de lyddata, der bruges til træning af talegenkendelse.
 keep-track = Hold styr på dine fremskridt og mål på tværs af flere sprog.
 compare-progress = Se dine fremskridt sammenlignet med andre bidragsydere over hele verden.
+join-newsletter = Du kan eventuelt melde dig til vores mailliste for at få opdateringer og ny info om projektet.
 
 ## What's public
 
 whats-public = Hvad er offentligt?
 email-not-public = Vi offentliggør ikke din mailadresse.
 recordings-and-locale-public = Antallet af optagelser og hvilke sprog du bidrager til vil være offentligt.
+username-optin-public = Du kan vælge at gøre dit brugernavn offentligt eller anonymt.
 username-email-not-demographic = Dit brugernavn og din mailadresse vil ikke blive forbundet med de offentliggjorte data.
 
 ## Speak & Listen Shortcuts
@@ -320,6 +322,8 @@ edit = Rediger
 email-subscriptions = Mail-abonnementer
 download-profile = Hent mine data
 contribution-experience = Bidragserfaring
+skip-submission-feedback = Spring feedback over
+skip-submission-description = Ved indsendelse af bidrag ignoreres feedback efter at have klikket på "Send". Bidrag fortsætter direkte med det næste sæt af 5 optagelser eller valideringer.
 skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for at ændre bidragstype.
 off = Fra
 on = Til
@@ -340,6 +344,7 @@ connect-gravatar = Forbind med Gravatar
 gravatar_not_found = Ingen gravatar fundet for din mailadresse
 file_too_large = Den valgte fil er for stor
 manage-subscriptions = Håndter abonnementer
+manage-email-subscriptions = Administrer dine mail-abonnementer
 email-already-used = Mailadressen bruges allerede af en anden konto
 add-language = Tilføj sprog
 change-email-setings = Skift din mailadresse via Indstillinger under Login-identitet
