@@ -11,7 +11,7 @@ loading = Betöltés…
 email-opt-in-info = Szeretnék e-maileket kapni, köztük cél emlékeztetőket, előrehaladási híreket és a Common Voice hírlevelét.
 email-opt-in-info-title = Csatlakozzon a Common Voice levelezőlistához
 email-opt-in-info-sub-with-challenge = Kapjon e-maileket, köztük kihívásokat, cél emlékeztetőket, előrehaladási híreket és a Common Voice hírlevelét.
-email-opt-in-privacy = Azzal hogy az e-mailek fogadását kéri, kijelenti hogy beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben<privacyLink> leírt módon kezelje ezeket az adatokat.
+email-opt-in-privacy-v2 = Azzal, hogy az e-mailek fogadását kéri, beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben</privacyLink> leírt módon kezelje ezeket az adatokat.
 indicates-required = * Kötelező mezőt jelez
 not-available-abbreviation = Nincs
 
