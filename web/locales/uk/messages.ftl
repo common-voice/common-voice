@@ -639,7 +639,12 @@ contribute = Долучитися
 listen = Слухати
 skip = Пропустити
 shortcuts = Швидкі клавіші
-clips-with-count = <bold>{ $count }</bold> Записів
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Запис
+        [few] <bold>{ $count }</bold> Записи
+       *[many] <bold>{ $count }</bold> Записів
+    }
 goal-help-recording = Ви допомогли Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної цілі запису { $goalValue }!
 goal-help-validation = Ви допомогли Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної цілі перевірки { $goalValue }!
 contribute-more = Готові зробити ще { $count }?
@@ -756,6 +761,7 @@ show-ranking = Показати мій рейтинг
 
 get-started-goals = Розпочати з цілей
 create-custom-goal = Створіть власну ціль
+goal-type = Якої цілі ви хочете досягти?
 both-speak-and-listen = Обидва
 both-speak-and-listen-long = Обидва (говорити та слухати)
 daily-goal = Щоденна ціль
@@ -769,13 +775,38 @@ want-to-continue = Хочете продовжити?
 finish-editing = Завершити спочатку редагування?
 lose-changes-warning = Якщо ви підете зараз, ваш прогрес буде втрачено
 build-custom-goal = Створити власну ціль
-help-reach-hours = Допоможіть досягти { NUMBER($hours) } годин мовою { $language } за допомогою особистої цілі
-help-reach-hours-general = Допоможіть Common Voice досягти { NUMBER($hours) } годин цією мовою за допомогою особистої цілі
+help-reach-hours-pluralized =
+    Допоможіть досягти{ NUMBER($hours) ->
+        [one] { $hours } годину
+        [few] { $hours } години
+       *[many] { $hours } годин
+    } мовою { $language } за допомогою особистої цілі
+help-reach-hours-general-pluralized =
+    Допоможіть Common Voice досягти{ NUMBER($hours) ->
+        [one] { $hours } годину
+        [few] { $hours } години
+       *[many] { $hours } годин
+    }цією мовою за допомогою особистої цілі
 set-a-goal = Поставити ціль
 cant-decide = Не можете вирішити?
-activity-needed-calculation =
-    { NUMBER($totalHours) } годин можна досягти за { NUMBER($periodMonths) }
-    місяців, якщо { NUMBER($people) } людей робитимуть { NUMBER($clipsPerDay) } записів щодня.
+activity-needed-calculation-pluralized =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } година
+        [few] { $totalHours } години
+       *[many] { $totalHours } годин
+    }досягається впродовж лише{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } місяця
+        [few] { $periodMonths } місяців
+       *[many] { $periodMonths } місяців
+    }, якщо{ NUMBER($people) ->
+        [one] { $people } особа
+        [few] { $people } особи
+       *[many] { $people } осіб
+    }додаватиме{ NUMBER($clipsPerDay) ->
+        [one] запис
+        [few] записи
+       *[many] записів
+    }щодня.
 how-many-per-day = Чудово! Скільки записів на день?
 how-many-a-week = Чудово! Скільки записів на тиждень?
 which-goal-type = Ви хочете записувати, перевіряти, чи те й інше?
@@ -785,7 +816,12 @@ receiving-emails-info =
 not-receiving-emails-info =
     Ви <bold>НЕ</bold> отримуватимете листи з нагадуванням про цілі, оновлення прогресу
     та новини про Common Voice
-n-clips = { NUMBER($count) } записів
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } запис
+        [few] { $count } записи
+       *[many] { $count } записів
+    }
 help-share-goal = Допоможіть нам знайти більше голосів, поділіться своєю ціллю
 confirm-goal = Підтвердити ціль
 goal-interval-weekly = Щотижня
