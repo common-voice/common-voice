@@ -11,6 +11,7 @@ loading = يُحمّل…
 email-opt-in-info = أرغب في استلام البريد مثل التذكير بالأهداف والتحديثات عن مسيري وأخبار «الصوت للعموم».
 email-opt-in-info-title = انضمّ إلى قائمة «الصوت للعموم» البريدية
 email-opt-in-info-sub-with-challenge = أريد استلام البريد مثل التذكير بالأهداف والتحديات، والتحديثات عن مسيري، وأخبار «الصوت للعموم».
+email-opt-in-privacy-v2 = اشتراكك في خدمة تلقّي البريد تعني بأنك لا تُمانع بأن تتعامل Mozilla مع هذه البيانات كما هو موضّح في <privacyLink>سياسة الخصوصية</privacyLink>.
 indicates-required = * يعني أن الحقل مطلوب
 not-available-abbreviation = غير متاح
 
@@ -777,6 +778,7 @@ show-ranking = اعرض رتبتي
 
 get-started-goals = ابدأ بالأهداف
 create-custom-goal = اصنع هدفًا مخصّصًا
+goal-type = أيّ نوع من هذه الأهداف تريد صنعه؟
 both-speak-and-listen = كلاهما
 both-speak-and-listen-long = كلاهما (التحدث والاستماع)
 daily-goal = هدف يومي
