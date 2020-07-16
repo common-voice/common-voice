@@ -253,7 +253,7 @@ export default class API {
   };
 
   saveAvatar = async (
-    { body, headers, params, user }: Request,
+    { body, headers, params, user, client_id }: Request,
     response: Response
   ) => {
     let avatarURL;
@@ -279,7 +279,7 @@ export default class API {
         break;
 
       case 'file':
-        let fileName = MD5(user.emails[0].value).toString() + '-avatar.png';
+        let fileName = `${client_id}/avatar.jpeg`;
         await this.s3
           .upload({
             Key: fileName,
