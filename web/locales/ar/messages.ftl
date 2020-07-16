@@ -11,7 +11,6 @@ loading = يُحمّل…
 email-opt-in-info = أرغب في استلام البريد مثل التذكير بالأهداف والتحديثات عن مسيري وأخبار «الصوت للعموم».
 email-opt-in-info-title = انضمّ إلى قائمة «الصوت للعموم» البريدية
 email-opt-in-info-sub-with-challenge = أريد استلام البريد مثل التذكير بالأهداف والتحديات، والتحديثات عن مسيري، وأخبار «الصوت للعموم».
-email-opt-in-privacy = اشتراكك في خدمة تلقّي البريد تعني بأنك لا تُمانع بأن تتعامل موزيلا مع هذه البيانات كما هو موضّح في <privacyLink>سياسة الخصوصية</privacyLink>.
 indicates-required = * يعني أن الحقل مطلوب
 not-available-abbreviation = غير متاح
 
@@ -637,7 +636,15 @@ contribute = ساهِم
 listen = الاستماع
 skip = تخطَّ
 shortcuts = الاختصارات
-clips-with-count = <bold>{ $count }</bold> من المقاطع
+clips-with-count-pluralized =
+    { $count ->
+        [zero] <bold>لا</bold> مقاطع
+        [one] <bold>مقطع واحد</bold>
+        [two] <bold>مقطعان اثنان</bold>
+        [few] <bold>{ $count }</bold> مقاطع
+        [many] <bold>{ $count }</bold> مقطعًا
+       *[other] <bold>{ $count }</bold> مقطع
+    }
 goal-help-recording = لقد ساعدت «الصوت للعموم» في الوصول إلى <goalPercentage></goalPercentage> من هدفنا لتسجيل { $goalValue } يوميًا!
 goal-help-validation = لقد ساعدت «الصوت للعموم» في الوصول إلى <goalPercentage></goalPercentage> من هدفنا للتحقق من { $goalValue } يوميًا!
 contribute-more =
@@ -783,16 +790,40 @@ want-to-continue = أتريد المواصلة؟
 finish-editing = ألن تُنهي التعديل أولًا؟
 lose-changes-warning = إن غادرت الآن فستفقد ما عدّلته
 build-custom-goal = اصنع هدفًا مخصّصًا
-help-reach-hours = ساعِدنا لنصل { NUMBER($hours) } من الساعات للغة { $language } بوضع هدف شخصي
-help-reach-hours-general = ساعِد «الصوت للعموم» لنصل { NUMBER($hours) } من الساعات في إحدى اللغات بوضع هدف شخصي
+help-reach-hours-pluralized =
+    ساعِدنا لنصل { NUMBER($hours) ->
+        [zero] أقل من ساعة
+        [one] ساعة واحدة
+        [two] ساعتين اثنتين
+        [few] { $hours } ساعات
+        [many] { $hours } ساعة
+       *[other] { $hours } ساعة
+    }للغة { $language } بوضع هدف شخصي
+help-reach-hours-general-pluralized =
+    ساعِد «الصوت للعموم» لنصل { NUMBER($hours) ->
+        [zero] أقل من ساعة
+        [one] ساعة واحدة
+        [two] ساعتين اثنتين
+        [few] { $hours } ساعات
+        [many] { $hours } ساعة
+       *[other] { $hours } ساعة
+    } في إحدى اللغات بوضع هدف شخصي
 set-a-goal = ضع هدفًا
 cant-decide = محتار؟
-activity-needed-calculation = يمكن أن نصل إلى { NUMBER($totalHours) } ساعة خلال { NUMBER($periodMonths) } أشهر إن سجّل { NUMBER($people) } شخص { NUMBER($clipsPerDay) } مقطعًا يوميًا.
 how-many-per-day = جميل! كم مقطعًا في اليوم؟
 how-many-a-week = جميل! كم مقطعًا في الأسبوع؟
 which-goal-type = أتريد التحدّث أم الاستماع أم كلاهما معًا؟
 receiving-emails-info = اخترت أن تستلم البريد مثل التذكير بالأهداف والتحديثات عن مسيري وأخبار «الصوت للعموم»
 not-receiving-emails-info = اخترت <bold>ألّا</bold> تستلم البريد مثل التذكير بالأهداف والتحديثات عن مسيري وأخبار «الصوت للعموم»
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [zero] لا مقاطع
+        [one] مقطع واحد
+        [two] مقطعان اثنان
+        [few] { $count } مقاطع
+        [many] { $count } مقطعًا
+       *[other] { $count } مقطع
+    }
 help-share-goal = ساعدنا لنجد أصواتًا أكثر. شارِك هدفك
 confirm-goal = هذا هدفي
 goal-interval-weekly = أسبوعيا
