@@ -1211,6 +1211,7 @@ Artikolojn skribas granda nombro da propraj korespondantoj; tekstojn de informag
 Artisto deziras havi kiom eble plej da rimedoj kaj la plej grandan liberecon.
 Arto kiel altaro?
 Arturo ekstaris.
+Ascendi kaj descendi kune estus danĝeraj, sekve simplaj, taŭgaj solvoj entute ekzistas.
 Ascendis la suno.
 Aspektas, kvazaŭ la kajto tiun ĉi fojon maltrafus la aeran blovon.
 Aspekte vi estas tre multflanka.
@@ -2043,6 +2044,7 @@ De la registaro gepatroj ricevas nenian financan helpon.
 De la sako, mi forigas notlibrojn kaj administrajn dokumentojn.
 De la surdmuta virino, sidanta ĉe lia flanko.
 De la terpomoj leviĝis vaporo, la nigra ŝelo makulis la fingrojn.
+De lia tuta korpo radiis freŝeco, energio, forto.
 De l’komenco ni amis unu la alian kun profunda, senmorta amo.
 De mi?
 De mia du jarmilojn longa erarvagado.
@@ -3224,6 +3226,8 @@ Elstaran rekordon ni havas.
 Elstaris konversacia stilo.
 Eluzu do tiun ĉi eblecon.
 Emerita instruisto demandas etulinon, ĉu ŝi jam frekventas la lernejon.
+Emil dormis nuda ĝis la lumbo.
+Emil tamen ne eksentis la mantuŝon kaj ne vekiĝis.
 Emocio de pasinteco.
 Emocio ne povas anstataŭi politikon.
 Emocioj ne alportas bonajn decidojn.
@@ -4050,6 +4054,7 @@ Estis kvazaŭ revelacio!
 Estis la foriranta blua stelo, kaj nun apud ĝi estis verda stelo.
 Estis la jenaj: Mi vi ne forlasos.
 Estis la longe atendita postsekvantaro.
+Estis la mezo de septembro.
 Estis la momento, kiu antaŭiras la krepuskon.
 Estis la unua fojo, ke iu vekis min.
 Estis la unua fojo, ke mi vidis la malsupran parton de turo.
@@ -4711,6 +4716,7 @@ Frenezulo, kiun atakis la nervoj, grimacridis unu el la aro.
 Freŝa roso brilis sur la folioj.
 Freŝega tero humida.
 Fripona penado rabi al mi la solan komforton!
+Friska vento lulis la branĉojn de la arboj en la parko.
 Frostis kaj la neĝo kraketis sub la piedoj de la homoj.
 Frue aŭ malfrue!
 Frumatene kaj malfrue vespere el sub la grundo aŭdeblis la sono de la presmaŝino.
@@ -4724,6 +4730,7 @@ Fumo kaj fia odoro.
 Fumo kovris la fenestrojn.
 Fundamentaj rajtoj estas proklamitaj.
 Futbalon ludis geukrainoj ĉe norda poluso – kaj kelkaj tie eĉ naĝis.
+Gabriel, la edzo, ekiris al la laborejo.
 Gaja menso.
 Gaja rido regis ĉiujn.
 Gaja?
@@ -5423,6 +5430,7 @@ Ili estis plene mortnaskitaj.
 Ili estis senvivaj, ili restis senvivaj!
 Ili estis tiam tie kiel grandaj amikoj.
 Ili estis tiel dolĉaj, sed Stelkri ne komprenis la dolĉecon.
+Ili estis tre bonaj najbarinoj kaj amikinoj.
 Ili estis tre malkontentaj.
 Ili estis ĉirkaŭataj, pluraj deziris aŭdi la lingvon, scii pli pri ĝi.
 Ili estos same respektataj kiel se unu aspektus ine kaj la alia iĉe.
@@ -5542,6 +5550,7 @@ Ili ne plu aktivas kaj ne donas esperon pri reaktiviĝo.
 Ili ne plu parolis.
 Ili ne povis aprobi Esperanton kaj ne aprobis ĝin.
 Ili ne povis interkosenti.
+Ili ne povis rifuzi.
 Ili ne revenas.
 Ili ne sciis tion.
 Ili ne sciis.
@@ -5944,6 +5953,7 @@ Irako nun ŝanĝiĝas.
 Irante al Vendredo, mi demandas, ĉu li scias, kie ni nun troviĝas.
 Irante plue ŝi atingas la domareton kaj la preĝejon kun la malalta pinta turo.
 Irante, ŝi atente rigardadis la fenestrajn ekspoziciojn de la magazenoj.
+Irena kuris, senzorge ludis kun la aliaj infanoj.
 Iri al la koncerto.
 Iri loko kie proksa.
 Iri por kvalito super kvanto.
@@ -6083,6 +6093,7 @@ Ja ŝi pensis!
 Ja, kial nura ekvido de impreso de homa piedo min ektremigas pro timo?
 Ja, la ringo plaĉas al mi.
 Ja, laŭdo estu al Lia Nomo, Li jam de longe pardonis.
+Ja, mi ege timis, ke li malfruos morgaŭ matene.
 Ja, mi perfortis ŝin.
 Jafet ankoraŭ dormadis.
 Jafet ankoraŭ dormis kaj ne sciis, en kia stato mi troviĝis.
@@ -6545,6 +6556,7 @@ Jes, kondiĉe, ke ni ne eniros trinkejon.
 Jes, konfeso!
 Jes, kredu min, sinjoroj.
 Jes, kvin jaroj kaj duono.
+Jes, la fonetikeco de Esperanto estas entute taŭga por la aviada lingvo.
 Jes, la infano havas sufiĉajn vestojn, sed ili ne taŭgas por la ceremonio.
 Jes, la komputiloj.
 Jes, la retejo.
@@ -8058,6 +8070,7 @@ Kiam la tuta korteganaro estis kune, tuj aperis la emiro.
 Kiam la vakstolo estis forigita, oni vidis fraksenan tablon, kovritan per kotona retotuko.
 Kiam la virino turnis la kranon, strio da varma akvo enfluis en la kuvon.
 Kiam laŭ via supozo la papera listo aperos venontfoje?
+Kiam li dormas, nek vekhorloĝon, nek sonorilon li aŭdas.
 Kiam li estas tie, subite prenas ion el la defluilo.
 Kiam li estis pli entuziasma kaj malpli prostituita.
 Kiam li etendis la fingron dum la ekskursa tago, alflugis papilio.
@@ -9351,6 +9364,7 @@ Komence li sin okupis kiel telegrafisto de oceanotransporta ŝipo.
 Komence mi malfidis.
 Komence ni ne povis.
 Komence nia situacio interesas min.
+Komence oni supozis, ke estas trovita grimpinto, kiu mortis verŝajne pro lavango.
 Komence tio min maltrankviligis.
 Komence ŝi legis malrapide, atente, poste kun entuziasmo, kun preskaŭ febra intereso.
 Komence ŝi tenis por ŝi guvernantinon, poste ŝi sendis ŝin en ian malgrandan edukejon.
@@ -9672,6 +9686,7 @@ Krome mi malkovris, ke kreskas ankaŭ arboforma specio de eriko.
 Krome ne temas pri ciferoj, sed pri bezono.
 Krome neniu, ankaŭ ne Usono, postulis partoprenon de germanaj soldatoj.
 Krome ni proponas korekti du verkaĵetojn kaj konsili pri gramatikaĵoj kaj stilo.
+Krome oni ne pretervidu, ke Serbio havas nenian tradicion, nenian sperton pri demokratio.
 Krome oni tute ne povas scii, kiujn kontraŭrimedojn ellaborus la celataj kanajlo– ho pardonu!
 Krome propagandis la antisemitismon.
 Krome ĉi tiu posteno prezentas apartajn kondiĉojn.
@@ -10249,6 +10264,7 @@ La doloro inside atakis min: mi ne volas vivi sen li.
 La doloro iom mildiĝis.
 La dolĉa paco de la naturo ŝajne mokis lian turmentitan, ŝiritan koron.
 La dometo estas simpla, malalta kaj malnova.
+La dometo protektas la restaŭristojn kontraŭ vento kaj malvarmo.
 La domo de la artistino.
 La domo estis pura kaj bone ekipita, nur tre malofte estis varma akvo.
 La domo konstruiĝas.
@@ -10339,6 +10355,7 @@ La ekzaminanto ankoraŭ kuŝas en malsanulejo.
 La ekzekutisto ekbruligis la ŝtiparon.
 La ekzekutisto tuj ekrapidis for, kiel sago el pafarko.
 La ekzercoj estas simplaj kaj efikaj.
+La ekzistanta literumilo surbaze de la angla lingvo ne taŭgas por Esperanto.
 La eldonaĵo vokas kontraŭdirajn sentojn.
 La eldonejo pardonpetas pro tiu fuŝo.
 La eldonejo proponas la ludon kiel senpagan donacon al ĉiuj asocioj kiuj instruas Esperanton.
@@ -10801,6 +10818,7 @@ La knabino ridis, sed jam eksciis, ke mi ne povoscias legi, almenaŭ tiun libron
 La knabino sin turnis al la sono, kaj timo larĝigis ŝiajn brilantajn pupilojn.
 La knabino.
 La knabinoj gvidis la muzikistojn al la ĝardena scenejo.
+La knabo dormis profunde kaj trankvile.
 La knabo eksilentis, ĉar eniris Maria kun akvo, sapo kaj viŝtuko.
 La knabo estas malkontenta.
 La knabo estis arestita.
@@ -11353,6 +11371,7 @@ La nunaj ĉinoj neniel uzas la geografian nomon Manĉurio – kiel forgesi?
 La nura diferenco inter ni estis subteno kaj kampanjo.
 La nura pripenso pri tiom da raviteco timigas min.
 La objekto ne estis varmiĝanta, do ĝi devas havi tre spegul-aspektan eksteraĵon.
+La obstaklo staras sole ĉe la homa stulteco en politikaj interesoj.
 La obstine munkenisman politikon de la grandpotencoj dum tiu periodo li lasas ekster konsidero.
 La oficiala listo de partneraj organizaĵoj.
 La oficiala retejo tre similas al tiuj de antaŭaj alilokaj eventoj.
@@ -12253,6 +12272,7 @@ La vivo estis revenanta.
 La vivo estis sekura.
 La vivo finiĝis.
 La vivo kaj la agado de monaĥoj kaj monaĥinoj okupas ĉi tie centran lokon.
+La vivo ne estas filmo.
 La vivo ne finiĝis.
 La vivo similis la hodiaŭan matenon – io neklara, malserena duonblizardo.
 La vivoj de infanoj, maljunuloj kaj gravedaj virinoj estas tre mizeraj.
@@ -13579,6 +13599,7 @@ Lia manpremo estis varma kaj kora.
 Lia memestimo estis tuŝita.
 Lia metodo instrui estis tia, ke mi nepre devis fari progresojn en la lingvo.
 Lia morto sendube estas grandega perdo por la mondo de beleco.
+Lia nazo estis rekta, iomete akra kaj liaj malfermitaj lipoj tre sentemaj.
 Lia nobla, alta kaj tiel malĝoja animo.
 Lia nobleco, lia tureca forteco estos mia defendo kontraŭ danĝero.
 Lia nombro estante tiom malmulta, Karlo konsideris saĝe kaŝi kaj gardi.
@@ -13870,6 +13891,7 @@ Malfermu la ŝrankon!
 Malfermu, karaj infanoj, via panjo alportis ion por ĉiu.
 Malforta kaj maltrankvila, mi timis la tutan tagon, ke mia atako reokazos.
 Malfortas gravito!
+Malfrostiginte la korpon, spertuloj komencos analizi ĝin.
 Malfruo anoncita.
 Malgaja adiaŭo!
 Malgaje li daŭrigis sian trairadon tra la ĉambro.
@@ -14513,6 +14535,7 @@ Mi do promenadis pluen kun mia trezoro.
 Mi dolorigis mian piedon, ŝmiru ĝin per pasto.
 Mi donis al li tason da buljono, kiun li trinkis sen mia helpo.
 Mi donis al li tranĉilon, kio kaŭzis, ke li dancis ĝoje.
+Mi donos al vi la ŝlosilon de nia loĝejo.
 Mi donos ekzemplon.
 Mi dormemas.
 Mi dormis la tutan nokton, ĉar mi tre bezonis ripozon.
@@ -14959,6 +14982,7 @@ Mi iris fiŝkaptadi kun ŝi sed ne en ŝia danĝerega boato.
 Mi iris kun li al "la haveno", kie mia patro jam atendis.
 Mi iris tra la barpordo kaj ekpromenis.
 Mi iris tri-aŭ-kvarfoje por ĝin rigardi.
+Mi iros al la laborejo antaŭ li.
 Mi iros certe, diris la virino.
 Mi iros for.
 Mi iros hejmen kun vi.
@@ -16806,6 +16830,7 @@ Najbaroj eĉ miras, kiam ŝi trovas tempon por dormi.
 Narcisistoj restas narcisistoj.
 Naskiĝis gazeto.
 Naskiĝis miraklo.
+Natalia estis flegistino en la urba malsanulejo.
 Naturaj kondiĉoj estas admirindaj.
 Nature, ĉiuj vekiĝas.
 Naturo estas sankta.
@@ -18490,6 +18515,7 @@ Nun la rivero estas parte uzebla por ŝipveturado.
 Nun la situacio estas drasta, kaj tio postulas oferon de ni.
 Nun la stato ŝanĝiĝis.
 Nun la tigro jam ne povis moviĝi.
+Nun la timo en ŝi vekiĝis kaj kiel raba falko terurigis ŝin.
 Nun la turko tenis mane ne monon, sed ringon.
 Nun la vivo tie fluas libere.
 Nun la vizaĝo de Mario ekflamis per honto kaj indigno.
@@ -18561,6 +18587,7 @@ Nun permesu, ke mi tuj konduku vin hejmen; la vagonaro, kiel kutime, malfruiĝis
 Nun plu ne.
 Nun pluen!
 Nun por la unua fojo en iom arta eldono, kun malmola kovrilo.
+Nun preterpasantoj povas admiri sur ĝi pli alte situantan dometon, kiu aspektas porinfana ludejo.
 Nun pri bonaj aferoj.
 Nun restas multaj laborfortoj kaj oni devas serĉi elirejon por ili.
 Nun retrankviliĝu kaj dormu momenton, se vi povos, hodiaŭ vespere ni parolos plue.
@@ -18595,6 +18622,7 @@ Nun ŝi ne estas.
 Nun ŝi ree aŭdis:
 Nun ŝi scias multe pli ol en la komenco.
 Nun ŝi vekos Franjon kaj kuros bazaron.
+Nun ŝi vidas sin sur rando de abismo, al kies fundo ŝi baldaŭ ekflugos.
 Nun!
 Nun, en la malliberejo, Marta havis plurajn tagojn por pripensi ĉion, kio okazis.
 Nun, estas tro malfrue, ili konas mian nomon.
@@ -18775,6 +18803,7 @@ Ofta okazo de hezito.
 Ofte ankaŭ la anglan.
 Ofte eblas antaŭvidi kaj eĉ eviti interetnajn malakordojn.
 Ofte estas pli facile ol oni pensas.
+Ofte ili renkontiĝis, trinkis kafon kaj babilis.
 Ofte la bultenoj estas disdonataj nur papere.
 Ofte la ĉapitret-fermaj frazoj okul-frapas.
 Ofte mi rememoras pri tiuj aventuroj en Venezuelo.
@@ -18793,6 +18822,7 @@ Ofte tre grava parto.
 Ofte virinoj helpon petas por kontraŭi la alkoholismon de siaj edzoj.
 Ofte ĝi enhavas satirajn elementojn.
 Ofte ĝi estas asociita kun ciberpunko kaj kunuzas iun similajn bazojn.
+Ofte ŝanĝiĝis la estraro.
 Ofte ŝi transportas siajn verkojn ĝis la aŭtobus-stacio per ĉevalĉaro.
 Ofte, kiam oni sentas frostotremon, la malfeliĉaĵo jam okazis.
 Ofte?
@@ -18947,6 +18977,7 @@ Oni klare ĉeestas politikan decidon.
 Oni komencis diskuti detalojn.
 Oni komencis subpremi socian aktivadon.
 Oni konas la plejmulton de la ĉirkaŭaj plantoj kaj oni interesiĝas pri la nekonataj.
+Oni konjektas, ke alpa ŝtormo surprizis lin, kaj li frostiĝis.
 Oni konkludis ke la mankoj estis precipe administraj.
 Oni konsideras ilin transitivaj.
 Oni konstatas denove, ke tio funkcias same kiel en Esperanto.
@@ -18967,6 +18998,7 @@ Oni malfermas ledajn tekojn.
 Oni malpacience atendis vin.
 Oni malpli esprimas sin.
 Oni mensogis al mi, dirante, ke ĉiuj konatoj, ĉiuj, eĉ Marta, malestimegas min.
+Oni mezuras tiun senton, la temperaturon, per termometro aŭ pirometro.
 Oni min demandas, ĉu tiu vilaĝa idilio ĉiam ankoraŭ ekzistas.
 Oni min dormigis.
 Oni min sciigis.
@@ -19392,6 +19424,7 @@ Petro faris maldolĉan grimacon.
 Petro kaj Danjelo kuregis suben ĝis la fermita pordo.
 Petro kaj Danjelo vizitis Karlon.
 Petro kuntiris ironie la lipojn.
+Petro oficvojaĝas kaj revenos malfrue vespere.
 Petro ree disetendis la manojn.
 Petro silentis.
 Petro tre ekĝojis!
@@ -20019,6 +20052,7 @@ Poste ĉio haltis.
 Poste ĉiuj kriis ĥore: “Jes, revenu, revenu.”
 Poste ĝi aperos ankaŭ ĉe ŝuldantaj loĝantoj.
 Poste ĝi maljuniĝis kaj malfortiĝis.
+Poste ŝi atente proksimiĝis al la lito de Emil.
 Poste ŝi demandis, Ĉu vi vere volas scii？
 Poste ŝi eksidis sur la benko, almetis tukon al la okuloj kaj ekploris.
 Poste ŝi ekvidis ankoraŭ paron.
@@ -20748,6 +20782,7 @@ Romeskaŭ senprokraste skribis la jenan letereton al Barazof.
 Romeskaŭ tre miris, kiam li ekaŭdis pri la buboj kaj pri Barazof.
 Romeskaŭ, lia edzino kaj Aleksandra akampanus min.
 Rompiĝas al mi la koro, kiam mi pripensas, kio fariĝos el li!
+Ros denove lin karesis, sed vane.
 Roza forte deziris ekscii la surskribon kaj ne povis trankviliĝi.
 Roza tamen estis tre obstina.
 Rozo prezentas amon.
@@ -20886,6 +20921,7 @@ Sciu, ke tiuj etaj eroj kapablas faligi ŝtatojn kaj ŝtat-estrojn tra la mondo.
 Sciu, ne fore de tie ĉi, estas ĉi-vintre bona skiado.
 Scivolo kreskas en la klasĉambro.
 Se Esperantistoj ne faras la farendaĵojn pri tio, mi faros ilin.
+Se Esperanto estas relative simpla, ni devas ĝin prezenti tiel kaj tia.
 Se Esperanto estus adoptita, kelkaj fonetikaj simpligoj estus necesaj por tiu funkcio.
 Se Pollando havas radio-elsendojn, kial iu alia lando ne faru same?
 Se Vi vidus tiujn vizaĝaĉojn!
@@ -22176,6 +22212,7 @@ Sendube Varsovio estas heroa urbo.
 Sendube ankaŭ la lando patrina devas fari pli multe por Kosovo.
 Sendube estas adekvate paroli pri Dio kiel pri elaĉentinto.
 Sendube estis ĝi.
+Sendube estos ankoraŭ multaj okazoj por verki tiutemajn artikolojn en nia revuo.
 Sendube fraŭlino Prior ŝuldas al vi multon, kaj mi sentas min sub simila ŝuldanteco.
 Sendube iu nova estaĵo de torturo kaj detruo.
 Sendube iuj artikoloj kaj raportoj estas pripagitaj, sed ne ĉiuj.
@@ -22261,6 +22298,7 @@ Severaj altiĝoj de la tarifoj puŝis la entreprenon en malfavoran situacion.
 Severege mi sekvis ankaŭ la koncernan dieton.
 Seĝoj ŝoviĝis.
 Sia buŝo nerveme kuntiriĝis kaj larmoj ekvenis en ŝiaj okuloj.
+Siaflanke Kanado decidis plene restarigi siajn provizore limigitajn diplomatajn rilatojn.
 Siaflanke, Albanio starigis agentejon por stimuli eleksterlandajn investojn.
 Siaflanke, la plukistoj asertas, ke ili estas preskaŭ senhavaj kaj ekspluatataj.
 Siaj respondoj estis malsamaj.
@@ -22608,6 +22646,7 @@ Subite vi aperis sur vivopado mia.
 Subite ĉio silentiĝis.
 Subite ĝi malaperis.
 Subite ŝajnas al ŝi, kvazaŭ nigreta ombro sin ŝovas sur la vando antaŭ ŝi.
+Subite ŝajnis al ŝi, ke nun unuan fojon ŝi vidis lin.
 Subite ŝi direktis sin al alia flanko kaj rapide ekiris al sia loĝejo.
 Subite ŝi ekaŭdis kvazaŭ en dormo ronkan, nehaltigeblan tusadon.
 Subite ŝi ekaŭdis murmureton post la pordo.
@@ -23207,6 +23246,7 @@ Teorie certas eblas seriozaj miskomprenoj.
 Teorie tio sufiĉus.
 Terapion tute negi ne indas.
 Tere kuŝas viro.
+Termino estas vorto aŭ esprimo speciala al iu scienco, arto, metio, fako.
 Terminologio.
 Tero de Kampoj.
 Terorismon oni bedaŭrinde ne povas forigi per bombardado.
@@ -23933,6 +23973,7 @@ Tio estas tragedio.
 Tio estas trapezo.
 Tio estas tre bona demando, kiu ĉiam okupas min.
 Tio estas tre dezirinda.
+Tio estas tre facila.
 Tio estas tre maldolĉa, sinjoro!
 Tio estas tre malproksime.
 Tio estas tre malĝoja; ĉu li kuracigas sin?
@@ -25199,6 +25240,7 @@ Vanesa ronronas pro ĝuo, ĉar vampiroj amas sangon, kiel homoj amas bieron: bel
 Vanesa ĉasis raton.
 Varianto dua: nur la greka parto de la insulo eniras la Union.
 Varie tradukita kaj varie interpretita.
+Varma estas adjektiva kapvorto kiu klare rilatas al homaj sentoj nur.
 Varma sento trakuris miajn vejnojn kaj mi rekonsciiĝis.
 Varma vespero.
 Varman akvon!
@@ -26557,6 +26599,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉiu vorto de Leonardo ŝajne trapikis lian animon.
 Ĉiu vorto de la najbaro estis al mi kvazaŭ pikego en la koron.
 Ĉiu ĉerpadis mem.
+Ĉiu ŝia tuŝo kvazaŭ varmigus ŝin.
 Ĉiu, sen ia ajn diskriminacio, rajtas ricevi egalan salajron pro egala laboro.
 Ĉiuflanke estas najbaroj.
 Ĉiufoje kiam li sin klinis, mi rimarkis, ke lia dorso ankaŭ elstaras.
@@ -26652,6 +26695,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉiuj ĝuis tre agrablan kaj viglan interparolon.
 Ĉiuj ŝipoj kaj ankaŭ la vaporboato malaperis, sed anstataŭe ekaperis aliaj.
 Ĉiuj, kiuj povas, foriras.
+Ĉiujare okazas tie pli ol cent aranĝoj, ekzemple diskutoj, festenoj, seminarioj.
 Ĉiujare sur alia monto.
 Ĉiujn mi salutas elkore.
 Ĉiujn oni forigis post la sekiĝo de gluaĵo.
@@ -27672,6 +27716,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu vi povus paroli pli klare?
 Ĉu vi povus paroli pli malrapide?
 Ĉu vi povus rakonti iom pri la nuna stato de la aferoj?
+Ĉu vi povus veki Emilon?
 Ĉu vi prenos?
 Ĉu vi promesas al mi esti saĝa? Estu kuraĝa kaj kuiru...
 Ĉu vi rajtis kunpreni personan havaĵon?
@@ -28548,6 +28593,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi devis kuri bazaron por aĉeti kuirejan provizon.
 Ŝi devis min servi, por ke mi povu vidi ŝin ĉiutage.
 Ŝi devis uzi la vorton ĝusta.
+Ŝi deziris tuj forkuri, sed ja ŝi promesis al Natalia veki lin.
 Ŝi diligente kudris.
 Ŝi diligente lernis kaj nun pergajnas pli da mono ol antaŭe en la fabriko.
 Ŝi diras al mi, ke ŝi bezonas min.
