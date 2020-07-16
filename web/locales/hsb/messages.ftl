@@ -797,10 +797,10 @@ activity-needed-calculation-pluralized =
         [few] { $totalHours } hodźiny su docpějomne
        *[other] { $totalHours } hodźin je docpějomne
     } za jenož trochu wjace hač { NUMBER($periodMonths) ->
-        [one] { $periodMonths } měsac
-        [two] { $periodMonths } měsacaj
-        [few] { $periodMonths } měsacy
-       *[other] { $periodMonths } měsacow
+        [one] { $periodMonths } měsac,
+        [two] { $periodMonths } měsacaj,
+        [few] { $periodMonths } měsacy,
+       *[other] { $periodMonths } měsacow,
     } jeli{ NUMBER($people) ->
         [one] { $people } wosoba natoča
         [two] { $people } wosobje natočetej
