@@ -627,7 +627,11 @@ contribute = Contribuir
 listen = Escotar
 skip = Passar
 shortcuts = Acorchis
-clips-with-count = <bold>{ $count }</bold> mòstras
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> mòstra
+       *[other] <bold>{ $count }</bold> mòstras
+    }
 goal-help-recording = Gràcias a vos Common Voice a atengut <goalPercentage></goalPercentage> del seu objectiu quotidian de { $goalValue }{ $goalValue } enregistraments !
 goal-help-validation = Gràcias a vos Common Voice a atengut <goalPercentage></goalPercentage> del seu objectiu quotidian de { $goalValue }{ $goalValue } validacions !
 contribute-more = Prèst a ne far { $count } mai ?
@@ -754,17 +758,13 @@ want-to-continue = Volètz contunhar ?
 finish-editing = Volètz terminar las modificacions ?
 lose-changes-warning = Se sortissètz ara, perdretz vòstres cambiaments
 build-custom-goal = Crear un objectiu personalizat
-help-reach-hours = Ajudatz a arribar a { NUMBER($hours) } oras en { $language } amb un objectiu personal
-help-reach-hours-general = Ajudatz a arribar a { NUMBER($hours) } oras en una lenga amb un objectiu personal
 set-a-goal = Definir un objectiu
 cant-decide = Podètz pas decidir ?
-activity-needed-calculation = Se { NUMBER($people) } personas enregistran { NUMBER($clipsPerDay) } mòstras per jorn, se pòt arribar a { NUMBER($totalHours) } oras en un pauc mai de { NUMBER($periodMonths) } meses.
 how-many-per-day = Crane ! Quantas de mòstras per jorn ?
 how-many-a-week = Crane ! Quantas de mòstras per setmana ?
 which-goal-type = Volètz parlar, escotar, o los dos ?
 receiving-emails-info = Actualament avètz configurat per recebre de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
 not-receiving-emails-info = Actualament recebètz <bold>PAS</bold> de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
-n-clips = { NUMBER($count) } mòstras
 help-share-goal = Ajudatz-nos a trobar mai de voses, partejatz vòstre objectiu
 confirm-goal = Confirmar l’objectiu
 goal-interval-weekly = Setmanièr
