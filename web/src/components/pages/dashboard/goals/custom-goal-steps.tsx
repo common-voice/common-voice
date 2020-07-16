@@ -195,7 +195,7 @@ export default [
             <h4 />
           </Localized>
           <Localized
-            id="activity-needed-calculation-pluralized"
+            id="activity-needed-calculation-plural"
             vars={{
               totalHours: 10000,
               periodMonths: 6,

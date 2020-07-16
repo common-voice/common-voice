@@ -777,7 +777,7 @@ help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) -
  } in a language with a personal goal
 set-a-goal = Set a goal
 cant-decide = Can't decide?
-activity-needed-calculation-pluralized = { NUMBER($totalHours) -> 
+activity-needed-calculation-plural = { NUMBER($totalHours) -> 
   [one] {$totalHours} hour
   *[other] {$totalHours} hours
  } is achievable in just over { NUMBER($periodMonths) -> 
@@ -787,8 +787,8 @@ activity-needed-calculation-pluralized = { NUMBER($totalHours) ->
   [one] {$people} person
   *[other] {$people} people
   } record { NUMBER($clipsPerDay) -> 
-  [one] clip
-  *[other] clips
+  [one] {$clipsPerDay} clip 
+  *[other] {$clipsPerDay} clips 
   } a day.
 how-many-per-day = Great! How many clips per day?
 how-many-a-week = Great! How many clips a week?
