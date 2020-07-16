@@ -790,6 +790,28 @@ help-reach-hours-general-pluralized =
     }w rěči docpěć
 set-a-goal = Cil stajić
 cant-decide = Njemóžeće so rozsudźić?
+activity-needed-calculation-pluralized =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } hodźina je docpějomna
+        [two] { $totalHours } hodźinje stej docpějomnej
+        [few] { $totalHours } hodźiny su docpějomne
+       *[other] { $totalHours } hodźin je docpějomne
+    } za jenož trochu wjace hač { NUMBER($periodMonths) ->
+        [one] { $periodMonths } měsac
+        [two] { $periodMonths } měsacaj
+        [few] { $periodMonths } měsacy
+       *[other] { $periodMonths } měsacow
+    } jeli{ NUMBER($people) ->
+        [one] { $people } wosoba natoča
+        [two] { $people } wosobje natočetej
+        [few] { $people } wosoby natočeja
+       *[other] { $people } wosobow natoča
+    } { NUMBER($clipsPerDay) ->
+        [one] klip
+        [two] klipaj
+        [few] klipy
+       *[other] klipow
+    }.
 how-many-per-day = Wulkotnje! Kelko klipow wob dźeń?
 how-many-a-week = Wulkotnje! Kelko klipow wob tydźeń?
 which-goal-type = Chceće rěčeć, słuchać abo wobě?
