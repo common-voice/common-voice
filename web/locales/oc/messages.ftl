@@ -745,6 +745,7 @@ show-ranking = Veire mon classament
 
 get-started-goals = Creatz vòstres objectius
 create-custom-goal = Crear un objectiu personalizat
+goal-type = Quina mena de tòca volètz construire ?
 both-speak-and-listen = Far los dos
 both-speak-and-listen-long = Los dos (parlar e escotar)
 daily-goal = Objectiu quotidian
