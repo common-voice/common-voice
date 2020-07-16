@@ -122,17 +122,17 @@ function Success({
       <div className="counter done">
         <CheckIcon />
         <Localized
-          id="clips-with-count"
-          elems={{bold: <b/>}}
-          vars={{count: SET_COUNT + '/' + SET_COUNT}}>
+          id="clips-with-count-pluralized"
+          elems={{ bold: <b /> }}
+          vars={{ count: SET_COUNT + '/' + SET_COUNT }}>
           <span className="text" />
         </Localized>
       </div>
 
       <Localized
         id={type === 'speak' ? 'goal-help-recording' : 'goal-help-validation'}
-        elems={{goalPercentage}}
-        vars={{goalValue}}>
+        elems={{ goalPercentage }}
+        vars={{ goalValue }}>
         <h1 />
       </Localized>
 
@@ -149,8 +149,8 @@ function Success({
         !customGoal && (
           <div className="info-card">
             <Localized
-              id="help-reach-hours"
-              vars={{hours: 10000, language: getString(locale)}}>
+              id="help-reach-hours-pluralized"
+              vars={{ hours: 10000, language: getString(locale) }}>
               <p />
             </Localized>
             <Localized id="get-started-goals">
@@ -171,7 +171,7 @@ function Success({
 
       <ContributeMoreButton>
         {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
-        <Localized id="contribute-more" vars={{count: SET_COUNT}}>
+        <Localized id="contribute-more" vars={{ count: SET_COUNT }}>
           <span />
         </Localized>
       </ContributeMoreButton>
