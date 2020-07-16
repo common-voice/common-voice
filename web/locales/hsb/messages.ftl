@@ -628,7 +628,13 @@ contribute = Sobu dźěłać
 listen = Słuchać
 skip = Přeskočić
 shortcuts = Skrótšenki
-clips-with-count = <bold>{ $count }</bold> klipow
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> klip
+        [two] <bold>{ $count }</bold> klipaj
+        [few] <bold>{ $count }</bold> klipy
+       *[other] <bold>{ $count }</bold> klipow
+    }
 goal-help-recording = Sće Common Voice pomhał, <goalPercentage></goalPercentage> našeho wšědneho natočenskeho cila { $goalValue } docpěć!
 goal-help-validation = Sće Common Voice pomhał, <goalPercentage></goalPercentage> našeho wšědneho wobkručenskeho  cila { $goalValue } docpěć!
 contribute-more =
@@ -754,6 +760,7 @@ show-ranking = Moje městno pokazać
 
 get-started-goals = Započńće z cilemi
 create-custom-goal = Swójski cil wutworić
+goal-type = Kajki cil chceće docpěć?
 both-speak-and-listen = Wobě
 both-speak-and-listen-long = Wobě (rěčenje a słuchanje)
 daily-goal = Dnjowy cil
@@ -767,17 +774,34 @@ want-to-continue = Chceće pokročować?
 finish-editing = Chceće wobdźěłowanje najprjedy dokónčić?
 lose-changes-warning = Hdyž nětko přetorhnjeće, zhubiće swoje změny
 build-custom-goal = Swójski cil wutworić
-help-reach-hours = Pomhajće z wosobinskim cilom { NUMBER($hours) } hodźin w rěči { $language } docpěć
-help-reach-hours-general = Pomhajće Common Voice z wosobinskim cilom { NUMBER($hours) } hodźin w rěči docpěć
+help-reach-hours-pluralized =
+    Pomhajće z wosobinskim cilom{ NUMBER($hours) ->
+        [one] { $hours } hodźinu
+        [two] { $hours } hodźinje
+        [few] { $hours } hodźiny
+       *[other] { $hours } hodźin
+    }w rěči { $language } docpěć
+help-reach-hours-general-pluralized =
+    Pomhajće Common Voice z wosobinskim cilom { NUMBER($hours) ->
+        [one] { $hours } hodźinu
+        [two] { $hours } hodźinje
+        [few] { $hours } hodźiny
+       *[other] { $hours } hodźin
+    }w rěči docpěć
 set-a-goal = Cil stajić
 cant-decide = Njemóžeće so rozsudźić?
-activity-needed-calculation = { NUMBER($totalHours) } hodźin je w trochu wjace hač { NUMBER($periodMonths) } měsacow docpějomne, jeli { NUMBER($people) } ludźi { NUMBER($clipsPerDay) } klipow wob dźeń natoča.
 how-many-per-day = Wulkotnje! Kelko klipow wob dźeń?
 how-many-a-week = Wulkotnje! Kelko klipow wob tydźeń?
 which-goal-type = Chceće rěčeć, słuchać abo wobě?
 receiving-emails-info = Sće tuchwilu e-mejlki, kaž na přikład cilowe dopomnjeća, postupowe aktualizacije a powěsćowe listy wo Common Voice abonował
 not-receiving-emails-info = Je so runje nastajiło, zo mejlki hižo <bold>NJE</bold>dóstanjeće, kaž na přikład cilowe dopomnjeća, postupowe aktualizacije a powěsćowe listy wo Common Voice wotskazał
-n-clips = { NUMBER($count) } klipow
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } klip
+        [two] { $count } klipaj
+        [few] { $count } klipy
+       *[other] { $count } klipow
+    }
 help-share-goal = Dźělće swój cil, zo byšće nam pomhał, wjace hłosow namakać
 confirm-goal = Cil wobkrućić
 goal-interval-weekly = Kóždy tydźeń
