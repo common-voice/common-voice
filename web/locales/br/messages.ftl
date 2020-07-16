@@ -11,6 +11,7 @@ loading = O kargañ...
 email-opt-in-info = Fallout a ra din degemer posteloù evit diskouez din ar palioù, ma araokadennoù ha lizher kelaouiñ Common Voice.
 email-opt-in-info-title = Emezelañ e roll posteloù Common Voice
 email-opt-in-info-sub-with-challenge = Resevit posteloù diwar-benn daeoù, kounadurioù palioù, araokadennoù, hag al lizher-kelaouiñ diwar-benn Common Voice.
+email-opt-in-privacy-v2 = En ur asantiñ da zegemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget e <privacyLink>Politikerezh a-fed buhez prevez</privacyLink> Mozilla.
 indicates-required = * Maeziennoù azgoulennet
 not-available-abbreviation = Dihegerz
 
@@ -509,6 +510,7 @@ data-bundle-button = Pellgargañ ur spletad roadennoù
 data-bundle-description = Spletad roadennoù Common Voice mui an holl spletadoù roadennoù mouezh all a-us.
 license = Lañvaz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
+data-download-singleword-title = Pellgargañ skejenn vukenn ar ger
 review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
