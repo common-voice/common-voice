@@ -11,7 +11,6 @@ loading = O kargañ...
 email-opt-in-info = Fallout a ra din degemer posteloù evit diskouez din ar palioù, ma araokadennoù ha lizher kelaouiñ Common Voice.
 email-opt-in-info-title = Emezelañ e roll posteloù Common Voice
 email-opt-in-info-sub-with-challenge = Resevit posteloù diwar-benn daeoù, kounadurioù palioù, araokadennoù, hag al lizher-kelaouiñ diwar-benn Common Voice.
-email-opt-in-privacy = En ur asantiñ da zegemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget e <privacyLink>Politikerezh a-fed buhez prevez<privacyLink> Mozilla.
 indicates-required = * Maeziennoù azgoulennet
 not-available-abbreviation = Dihegerz
 
@@ -32,7 +31,7 @@ arn = Mapudungun
 as = Asameg
 ast = Asturieg
 az = Azerbaidjaneg
-ba = Bashkirs
+ba = Bachkireg
 be = Belaruseg
 bg = Bulgareg
 bn = Bengaleg
