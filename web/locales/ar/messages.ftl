@@ -810,6 +810,36 @@ help-reach-hours-general-pluralized =
     } في إحدى اللغات بوضع هدف شخصي
 set-a-goal = ضع هدفًا
 cant-decide = محتار؟
+activity-needed-calculation-pluralized =
+    يمكننا الوصول إلى { NUMBER($totalHours) ->
+        [zero] أقل من ساعة
+        [one] ساعة واحدة
+        [two] ساعتين اثنتين
+        [few] { $totalHours } ساعات
+        [many] { $totalHours } ساعة
+       *[other] { $totalHours } ساعة
+    } خلال { NUMBER($periodMonths) ->
+        [zero] أقل من شهر
+        [one] شهر واحد
+        [two] شهرين اثنين
+        [few] { $periodMonths } أشهر
+        [many] { $periodMonths } شهرًا
+       *[other] { $periodMonths } شهر
+    } لو سجّل { NUMBER($people) ->
+        [zero] بعض الأشخاص
+        [one] شخص واحد
+        [two] شخصان اثنان
+        [few] { $people } أشخاص
+        [many] { $people } شخصًا
+       *[other] { $people } شخص
+    } { NUMBER($clipsPerDay) ->
+        [zero] أقل من مقطع
+        [one] مقطع واحد
+        [two] مقطعين اثنين
+        [few] { $clipsPerDay } مقاطع
+        [many] { $clipsPerDay } مقطعًا
+       *[other] { $clipsPerDay } مقطع
+    } يوميًا.
 how-many-per-day = جميل! كم مقطعًا في اليوم؟
 how-many-a-week = جميل! كم مقطعًا في الأسبوع؟
 which-goal-type = أتريد التحدّث أم الاستماع أم كلاهما معًا؟
