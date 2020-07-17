@@ -617,7 +617,13 @@ contribute = Prispevaj
 listen = Poslušaj
 skip = Preskoči
 shortcuts = Bližnjice
-clips-with-count = <bold>{ $count }</bold> posnetkov
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> posnetek
+        [two] <bold>{ $count }</bold> posnetka
+        [few] <bold>{ $count }</bold> posnetki
+       *[other] <bold>{ $count }</bold> posnetkov
+    }
 goal-help-recording = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od našega dnevnega cilja, ki znaša { $goalValue } posnetkov.
 goal-help-validation = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od našega dnevnega cilja, ki znaša { $goalValue } preverjenih posnetkov.
 contribute-more =
@@ -743,6 +749,7 @@ show-ranking = Pokaži mojo uvrstitev
 
 get-started-goals = Začnite s cilji
 create-custom-goal = Ustvari cilj po meri
+goal-type = Kakšen cilj želite ustvariti?
 both-speak-and-listen = Oboje
 both-speak-and-listen-long = Oboje (govori in poslušaj)
 daily-goal = Dnevni cilj
@@ -756,11 +763,8 @@ want-to-continue = Želite nadaljevati?
 finish-editing = Želite najprej dokončati urejanje?
 lose-changes-warning = Če zapustite zdaj, boste izgubili spremembe
 build-custom-goal = Sestavite cilj po meri
-help-reach-hours = Pomagajte doseči { NUMBER($hours) } ur v jeziku { $language } z osebnim ciljem
-help-reach-hours-general = Pomagajte projektu Common Voice doseči { NUMBER($hours) } ur v jeziku z osebnim ciljem
 set-a-goal = Zastavite cilj
 cant-decide = Se ne morete odločiti?
-activity-needed-calculation = { NUMBER($totalHours) } ur je dosegljivih v nekaj več kot { NUMBER($periodMonths) } mesecih, če { NUMBER($people) } ljudi posname { NUMBER($clipsPerDay) } posnetkov na dan.
 how-many-per-day = Odlično! Koliko posnetkov na dan?
 how-many-a-week = Odlično! Koliko posnetkov na teden?
 which-goal-type = Želite govoriti, poslušati ali oboje?
@@ -768,7 +772,6 @@ receiving-emails-info =
     Trenutno prejemate e-poštna sporočila, kot so opomniki za cilje, 
     posodobitve napredka in novice projekta Common Voice
 not-receiving-emails-info = Trenutno <bold>NE</bold> prejemate e-poštnih sporočil, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
-n-clips = { NUMBER($count) } posnetkov
 help-share-goal = Pomagajte nam najti več glasov, delite svoj cilj
 confirm-goal = Potrdi cilj
 goal-interval-weekly = Tedensko
