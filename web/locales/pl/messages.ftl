@@ -629,7 +629,12 @@ contribute = Nagraj
 listen = Odsłuchaj
 skip = Pomiń
 shortcuts = Skróty
-clips-with-count = Nagrania <bold>{ $count }</bold>
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> nagranie
+        [few] <bold>{ $count }</bold> nagrania
+       *[many] <bold>{ $count }</bold> nagrań
+    }
 goal-help-recording = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu nagrywania ({ $goalValue })!
 goal-help-validation = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu weryfikowania ({ $goalValue })!
 contribute-more = Zrobimy jeszcze { $count }?
@@ -746,6 +751,7 @@ show-ranking = Wyświetlaj moją rangę
 
 get-started-goals = Cele: pierwsze kroki
 create-custom-goal = Utwórz własny cel
+goal-type = Do jakiego celu chcesz dążyć?
 both-speak-and-listen = Oba
 both-speak-and-listen-long = Oba (nagrywanie i odsłuchiwanie)
 daily-goal = Dzienny cel
@@ -759,13 +765,20 @@ want-to-continue = Czy chcesz kontynuować?
 finish-editing = Dokończyć najpierw modyfikację?
 lose-changes-warning = Opuszczenie teraz spowoduje utratę zmian
 build-custom-goal = Utwórz własny cel
-help-reach-hours = Pomóż osiągnąć { NUMBER($hours) } godz. w tym języku ({ $language }) za pomocą osobistego celu
-help-reach-hours-general = Pomóż projektowi Common Voice osiągnąć { NUMBER($hours) } godz. w jednym z języków za pomocą osobistego celu
+help-reach-hours-pluralized =
+    Pomóż osiągnąć { NUMBER($hours) ->
+        [one] { $hours } godzinę
+        [few] { $hours } godziny
+       *[many] { $hours } godzin
+    } w tym języku ({ $language }) za pomocą osobistego celu
+help-reach-hours-general-pluralized =
+    Pomóż projektowi Common Voice osiągnąć { NUMBER($hours) ->
+        [one] { $hours } godzinę
+        [few] { $hours } godziny
+       *[many] { $hours } godzin
+    } w jednym z języków za pomocą osobistego celu
 set-a-goal = Ustal cel
 cant-decide = Nie możesz się zdecydować?
-activity-needed-calculation =
-    { NUMBER($totalHours) } godz. można osiągnąć w nieco ponad { NUMBER($periodMonths) }
-    mies., jeśli { NUMBER($people) } osób wyśle { NUMBER($clipsPerDay) } nagrań dziennie.
 how-many-per-day = Świetnie! Ile nagrań dziennie?
 how-many-a-week = Świetnie! Ile nagrań tygodniowo?
 which-goal-type = Czy chcesz nagrywać, odsłuchiwać czy wykonywać oba działania?
@@ -775,7 +788,6 @@ receiving-emails-info =
 not-receiving-emails-info =
     Obecnie <bold>nie</bold> otrzymujesz wiadomości e-mail, takich jak przypomnienia o celach,
     informacje o postępie oraz biuletyny na temat Common Voice
-n-clips = Nagrania: { NUMBER($count) }
 help-share-goal = Pomóż nam znaleźć więcej głosów, podziel się swoim celem
 confirm-goal = Potwierdź cel
 goal-interval-weekly = Tygodniowy
