@@ -790,6 +790,24 @@ want-to-continue = Hoffech chi barhau?
 finish-editing = Gorffen golygu yn gyntaf?
 lose-changes-warning = Bydd gadael nawr yn golygu eich bod yn colli eich newidiadau
 build-custom-goal = Adeiladu targed personol
+help-reach-hours-pluralized =
+    Helpu i gyrraedd{ NUMBER($hours) ->
+        [zero] { $hours } awr
+        [one] { $hours } awr
+        [two] { $hours } awr
+        [few] { $hours } awr
+        [many] { $hours } awr
+       *[other] { $hours } awr
+    }{ $language } gyda nod personol
+help-reach-hours-general-pluralized =
+    Helpu i gyrraedd{ NUMBER($hours) ->
+        [zero] { $hours } awr
+        [one] { $hours } awr
+        [two] { $hours } awr
+        [few] { $hours } awr
+        [many] { $hours } awr
+       *[other] { $hours } awr
+    }mewn iaith gyda tharged personol
 set-a-goal = Gosod targed
 cant-decide = Methu penderfynu?
 how-many-per-day = Gwych! Sawl clip y dydd?
