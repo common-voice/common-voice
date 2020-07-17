@@ -776,7 +776,7 @@ show-ranking = Dangoswch fy safle
 
 get-started-goals = Cychwyn gyda thargedau
 create-custom-goal = Creu Targed Personol
-goal-type = Pa fath o nod ydych chi am ei osod?
+goal-type = Pa fath o darged ydych chi am ei osod?
 both-speak-and-listen = Y Ddau
 both-speak-and-listen-long = Y Ddau (Siarad a Gwrando)
 daily-goal = Targed Dyddiol
@@ -798,7 +798,7 @@ help-reach-hours-pluralized =
         [few] { $hours } awr
         [many] { $hours } awr
        *[other] { $hours } awr
-    } { $language } gyda nod personol
+    } { $language } gyda tharged personol
 help-reach-hours-general-pluralized =
     Helpu i gyrraedd { NUMBER($hours) ->
         [zero] { $hours } awr
@@ -818,28 +818,28 @@ activity-needed-calculation-plural =
         [few] { $totalHours } awr
         [many] { $totalHours } awr
        *[other] { $totalHours } awr
-    }yn bosib mewn ychydig dros{ NUMBER($periodMonths) ->
+    } yn bosib mewn ychydig dros { NUMBER($periodMonths) ->
         [zero] { $periodMonths } mis
         [one] { $periodMonths } mis
         [two] { $periodMonths } fis
         [few] { $periodMonths } mis
         [many] { $periodMonths } mis
        *[other] { $periodMonths } mis
-    }os fydd{ NUMBER($people) ->
+    } os fydd { NUMBER($people) ->
         [zero] { $people } person
         [one] { $people } person
         [two] { $people } berson
         [few] { $people } person
         [many] { $people } pherson
        *[other] { $people } person
-    }yn recordio{ NUMBER($clipsPerDay) ->
+    } yn recordio { NUMBER($clipsPerDay) ->
         [zero] { $clipsPerDay } clip
         [one] { $clipsPerDay } clip
         [two] { $clipsPerDay } glip
         [few] { $clipsPerDay } clip
         [many] { $clipsPerDay } chlip
        *[other] { $clipsPerDay } clip
-    }bob dydd.
+    } bob dydd.
 how-many-per-day = Gwych! Sawl clip y dydd?
 how-many-a-week = Gwych! Sawl clip yr wythnos?
 which-goal-type = Hoffech chi Siarad, Gwrando neu'r ddau?
