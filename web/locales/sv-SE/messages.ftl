@@ -750,6 +750,7 @@ show-ranking = Visa min ranking
 
 get-started-goals = Kom igång med mål
 create-custom-goal = Skapa ett anpassat mål
+goal-type = Vilken typ av mål vill du bygga?
 both-speak-and-listen = Båda
 both-speak-and-listen-long = Båda (Prata och lyssna)
 daily-goal = Dagligt mål
