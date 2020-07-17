@@ -779,6 +779,24 @@ help-reach-hours-general-pluralized =
     } w jednym z języków za pomocą osobistego celu
 set-a-goal = Ustal cel
 cant-decide = Nie możesz się zdecydować?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } godzinę
+        [few] { $totalHours } godziny
+       *[many] { $totalHours } godzin
+    } można osiągnąć w nieco ponad { NUMBER($periodMonths) ->
+        [one] { $periodMonths } miesiąc
+        [few] { $periodMonths } miesiące
+       *[many] { $periodMonths } miesięcy
+    }, jeśli { NUMBER($people) ->
+        [one] { $people } osoba
+        [few] { $people } osoby
+       *[many] { $people } osób
+    } wyśle { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } nagranie
+        [few] { $clipsPerDay } nagrania
+       *[many] { $clipsPerDay } nagrań
+    } dziennie.
 how-many-per-day = Świetnie! Ile nagrań dziennie?
 how-many-a-week = Świetnie! Ile nagrań tygodniowo?
 which-goal-type = Czy chcesz nagrywać, odsłuchiwać czy wykonywać oba działania?
@@ -788,6 +806,12 @@ receiving-emails-info =
 not-receiving-emails-info =
     Obecnie <bold>nie</bold> otrzymujesz wiadomości e-mail, takich jak przypomnienia o celach,
     informacje o postępie oraz biuletyny na temat Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } nagranie
+        [few] { $count } nagrania
+       *[many] { $count } nagrań
+    }
 help-share-goal = Pomóż nam znaleźć więcej głosów, podziel się swoim celem
 confirm-goal = Potwierdź cel
 goal-interval-weekly = Tygodniowy
