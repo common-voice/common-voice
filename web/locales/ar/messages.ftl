@@ -812,7 +812,7 @@ help-reach-hours-general-pluralized =
     } في إحدى اللغات بوضع هدف شخصي
 set-a-goal = ضع هدفًا
 cant-decide = محتار؟
-activity-needed-calculation-pluralized =
+activity-needed-calculation-plural =
     يمكننا الوصول إلى { NUMBER($totalHours) ->
         [zero] أقل من ساعة
         [one] ساعة واحدة
