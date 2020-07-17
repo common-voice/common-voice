@@ -760,6 +760,16 @@ help-reach-hours-general-pluralized =
     }的個人目標
 set-a-goal = 設定目標
 cant-decide = 無法決定嗎？
+activity-needed-calculation-plural =
+    若有 { NUMBER($people) ->
+       *[other] { $people } 個人
+    }每天錄下 { NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } 個片段
+    }，就可以在 { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } 個月
+    }內達成 { NUMBER($totalHours) ->
+       *[other] { $totalHours } 小時
+    }錄音片段的目標。
 how-many-per-day = 好的，每天要貢獻幾個片段？
 how-many-a-week = 好的，每週要貢獻幾個片段？
 which-goal-type = 想要錄音、聆聽確認，還是兩者都要？
