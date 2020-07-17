@@ -11,7 +11,7 @@ loading = Đang tải...
 email-opt-in-info = Tôi muốn nhận email như lời nhắc mục tiêu, cập nhật tiến độ và bản tin của tôi về Common Voice.
 email-opt-in-info-title = Tham gia danh sách gửi thư Common Voice
 email-opt-in-info-sub-with-challenge = Nhận email như lời nhắc cho thử thách và mục tiêu, cập nhật tiến độ và bản tin về Common Voice.
-email-opt-in-privacy = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật<privacyLink> của Mozilla.
+email-opt-in-privacy-v2 = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật</privacyLink> của Mozilla.
 indicates-required = * Trường được yêu cầu
 not-available-abbreviation = N/A
 
@@ -621,7 +621,10 @@ contribute = Đóng góp
 listen = Nghe
 skip = Bỏ qua
 shortcuts = Phím tắt
-clips-with-count = <bold>{ $count }</bold> Clip
+clips-with-count-pluralized =
+    { $count ->
+       *[other] <bold>{ $count }</bold> clip
+    }
 goal-help-recording = Bạn đã giúp cho Common Voice đạt được <goalPercentage></goalPercentage> trong số { $goalValue } mục tiêu ghi âm hàng ngày của chúng tôi!
 goal-help-validation = Bạn đã giúp cho Common Voice đạt được <goalPercentage></goalPercentage> trong số { $goalValue } mục tiêu xác thực hàng ngày của chúng tôi!
 contribute-more =
@@ -735,6 +738,7 @@ show-ranking = Hiển thị hạng của tôi
 
 get-started-goals = Bắt đầu với mục tiêu
 create-custom-goal = Tạo mục tiêu tùy chỉnh
+goal-type = Loại mục tiêu nào bạn muốn xây dựng?
 both-speak-and-listen = Cả hai
 both-speak-and-listen-long = Cả hai (nói và nghe)
 daily-goal = Mục tiêu hàng ngày
@@ -748,13 +752,26 @@ want-to-continue = Bạn có muốn tiếp tục?
 finish-editing = Kết thúc chỉnh sửa trước?
 lose-changes-warning = Rời đi sẽ làm mất những thay đổi của bạn
 build-custom-goal = Xây dựng mục tiêu tùy chỉnh
-help-reach-hours = Trợ giúp đạt { NUMBER($hours) } giờ trong ngôn ngữ { $language } với mục tiêu cá nhân
-help-reach-hours-general = Giúp Common Voice đạt được { NUMBER($hours) } giờ bằng ngôn ngữ với mục tiêu cá nhân
+help-reach-hours-pluralized =
+    Giúp tiếp cận{ NUMBER($hours) ->
+       *[other] { $hours } giờ
+    } trong ngôn ngữ { $language } với mục tiêu cá nhân
+help-reach-hours-general-pluralized =
+    Giúp Common Voice đạt{ NUMBER($hours) ->
+       *[other] { $hours } giờ
+    } trong một ngôn ngữ với mục tiêu cá nhân
 set-a-goal = Đặt một mục tiêu
 cant-decide = Không thể quyết định?
-activity-needed-calculation =
-    { NUMBER($totalHours) } giờ có thể đạt được chỉ trong hơn { NUMBER($periodMonths) }
-    tháng nếu { NUMBER($people) } người ghi { NUMBER($clipsPerDay) } clip mỗi ngày.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+       *[other] { $totalHours } giờ
+    } có thể đạt được chỉ trong hơn { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } tháng
+    } nếu { NUMBER($people) ->
+       *[other] { $people } người
+    } ghi { NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } clip
+    } một ngày.
 how-many-per-day = Tuyệt quá! Có bao nhiêu clip mỗi ngày?
 how-many-a-week = Tuyệt quá! Có bao nhiêu clip một tuần?
 which-goal-type = Bạn có muốn nói, nghe hay cả hai?
@@ -762,7 +779,10 @@ receiving-emails-info =
     Bạn hiện đang được thiết lập để nhận email như lời nhắc mục tiêu, 
     cập nhật tiến độ của tôi và bản tin về Common Voice.
 not-receiving-emails-info = Hiện tại bạn đang được đặt thành <bold>KHÔNG</bold> nhận email như lời nhắc mục tiêu, cập nhật của tôi tiến độ và bản tin về Common Voice
-n-clips = { NUMBER($count) } clip
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] { $count } clip
+    }
 help-share-goal = Hãy giúp chúng tôi tìm thêm tiếng nói, chia sẻ mục tiêu của bạn
 confirm-goal = Xác nhận mục tiêu
 goal-interval-weekly = Hàng tuần
