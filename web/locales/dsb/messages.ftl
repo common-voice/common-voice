@@ -781,6 +781,13 @@ help-reach-hours-pluralized =
         [few] { $hours } góźiny
        *[other] { $hours } góźinow
     }w rěcy { $language } dojśpěś
+help-reach-hours-general-pluralized =
+    Pomagajśo Common Voice z wósobinskim celom { NUMBER($hours) ->
+        [one] { $hours } góźinu
+        [two] { $hours } góźinje
+        [few] { $hours } góźiny
+       *[other] { $hours } góźinow
+    }w rěcy dojśpěś
 set-a-goal = Cel stajiś
 cant-decide = Njamóžośo se rozsuźiś?
 how-many-per-day = Wjelicnje! Wjele klipow na źeń?
