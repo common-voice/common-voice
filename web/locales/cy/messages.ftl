@@ -791,30 +791,69 @@ finish-editing = Gorffen golygu yn gyntaf?
 lose-changes-warning = Bydd gadael nawr yn golygu eich bod yn colli eich newidiadau
 build-custom-goal = Adeiladu targed personol
 help-reach-hours-pluralized =
-    Helpu i gyrraedd{ NUMBER($hours) ->
+    Helpu i gyrraedd { NUMBER($hours) ->
         [zero] { $hours } awr
         [one] { $hours } awr
         [two] { $hours } awr
         [few] { $hours } awr
         [many] { $hours } awr
        *[other] { $hours } awr
-    }{ $language } gyda nod personol
+    } { $language } gyda nod personol
 help-reach-hours-general-pluralized =
-    Helpu i gyrraedd{ NUMBER($hours) ->
+    Helpu i gyrraedd { NUMBER($hours) ->
         [zero] { $hours } awr
         [one] { $hours } awr
         [two] { $hours } awr
         [few] { $hours } awr
         [many] { $hours } awr
        *[other] { $hours } awr
-    }mewn iaith gyda tharged personol
+    } mewn iaith gyda tharged personol
 set-a-goal = Gosod targed
 cant-decide = Methu penderfynu?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [zero] { $totalHours } awr
+        [one] { $totalHours } awr
+        [two] { $totalHours } awr
+        [few] { $totalHours } awr
+        [many] { $totalHours } awr
+       *[other] { $totalHours } awr
+    }yn bosib mewn ychydig dros{ NUMBER($periodMonths) ->
+        [zero] { $periodMonths } mis
+        [one] { $periodMonths } mis
+        [two] { $periodMonths } fis
+        [few] { $periodMonths } mis
+        [many] { $periodMonths } mis
+       *[other] { $periodMonths } mis
+    }os fydd{ NUMBER($people) ->
+        [zero] { $people } person
+        [one] { $people } person
+        [two] { $people } berson
+        [few] { $people } person
+        [many] { $people } pherson
+       *[other] { $people } person
+    }yn recordio{ NUMBER($clipsPerDay) ->
+        [zero] { $clipsPerDay } clip
+        [one] { $clipsPerDay } clip
+        [two] { $clipsPerDay } glip
+        [few] { $clipsPerDay } clip
+        [many] { $clipsPerDay } chlip
+       *[other] { $clipsPerDay } clip
+    }bob dydd.
 how-many-per-day = Gwych! Sawl clip y dydd?
 how-many-a-week = Gwych! Sawl clip yr wythnos?
 which-goal-type = Hoffech chi Siarad, Gwrando neu'r ddau?
 receiving-emails-info = Ar hyn o bryd rydych wedi trefnu i dderbyn negeseuon e-bost i'ch atgoffa am eich targed, diweddariadau cynnydd a chylchlythyron am Common Voice
 not-receiving-emails-info = Ar hyn o bryd, rydych wedi eich gosod i <bold>BEIDIO</bold> â derbyn e-byst i atgoffa am dargedau, diweddariadau cynnydd a newyddlenni am Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [zero] { $count } clip
+        [one] { $count } clip
+        [two] { $count } glip
+        [few] { $count } clip
+        [many] { $count } chlip
+       *[other] { $count } clip
+    }
 help-share-goal = Helpwch ni i ddenu rhagor o leisiau, rhannwch eich targed
 confirm-goal = Cadarnhau'r Targed
 goal-interval-weekly = Wythnosol
