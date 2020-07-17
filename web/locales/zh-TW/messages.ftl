@@ -621,7 +621,11 @@ contribute = 參與貢獻
 listen = 聆聽
 skip = 略過
 shortcuts = 捷徑
-clips-with-count = <bold>{ $count }</bold> 段
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> 個片段
+       *[other] <bold>{ $count }</bold> 個片段
+    }
 goal-help-recording = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 錄音目標！
 goal-help-validation = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 筆驗證目標！
 contribute-more = 準備好再作 { $count } 筆了嗎？
@@ -732,6 +736,7 @@ show-ranking = 顯示我的排名
 
 get-started-goals = 設定目標開始貢獻
 create-custom-goal = 自訂目標
+goal-type = 您想要達到怎樣的目標？
 both-speak-and-listen = 兩者
 both-speak-and-listen-long = 兩者（說與聽）
 daily-goal = 每日目標
@@ -745,17 +750,18 @@ want-to-continue = 你想要繼續嗎？
 finish-editing = 要先完成編輯嗎？
 lose-changes-warning = 現在離開將不會儲存變更
 build-custom-goal = 自訂目標
-help-reach-hours = 設定個人目標，幫助讓 { $language } 的片段達到 { NUMBER($hours) } 小時
-help-reach-hours-general = 設定個人目標，幫助讓 Common Voice 當中的語言時數達到 { NUMBER($hours) } 小時
 set-a-goal = 設定目標
 cant-decide = 無法決定嗎？
-activity-needed-calculation = 若有 { NUMBER($people) } 每天錄下 { NUMBER($clipsPerDay) } 片段，就可以在 { NUMBER($periodMonths) } 個月後達到 { NUMBER($totalHours) } 小時的目標。
 how-many-per-day = 好的，每天要貢獻幾個片段？
 how-many-a-week = 好的，每週要貢獻幾個片段？
 which-goal-type = 想要錄音、聆聽確認，還是兩者都要？
 receiving-emails-info = 您已經設定要訂閱目標提醒、我的進度更新、Common Voice 相關最新消息的電子報。
 not-receiving-emails-info = 您目前設定<bold>不要</bold>收到諸如目標提醒、我的進度更新與 Common Voice 的相關電子報。
-n-clips = { NUMBER($count) } 片段
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } 個片段
+       *[other] { $count } 個片段
+    }
 help-share-goal = 分享您的目標，幫助我們找到更多人參與錄音
 confirm-goal = 確認目標
 goal-interval-weekly = 每週
