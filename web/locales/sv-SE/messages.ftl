@@ -628,7 +628,11 @@ contribute = Bidra
 listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
-clips-with-count = <bold>{ $count }</bold> klipp
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count } Klipp
+       *[other] <bold>{ $count } Flera Klipp
+    }
 goal-help-recording = Du har hjälpt Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
 goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
 contribute-more =
@@ -759,13 +763,8 @@ want-to-continue = Vill du fortsätta?
 finish-editing = Avsluta redigeringen först?
 lose-changes-warning = Om du lämnar nu kommer du att förlora dina förändringar
 build-custom-goal = Bygg ett anpassat mål
-help-reach-hours = Hjälp oss att nå { NUMBER($hours) } timmar för { $language } med ett personligt mål
-help-reach-hours-general = Hjälp Common Voice att nå { NUMBER($hours) } timmar i ett språk med ett personligt mål
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
-activity-needed-calculation =
-    { NUMBER($totalHours) } timmar kan uppnås på drygt { NUMBER($periodMonths) }
-    månader om { NUMBER($people) } personer spelar in { NUMBER($clipsPerDay) } klipp per dag.
 how-many-per-day = Bra! Hur många klipp per dag?
 how-many-a-week = Bra! Hur många klipp på en vecka?
 which-goal-type = Vill du prata, lyssna eller båda?
@@ -775,7 +774,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Du är för närvarande inställd på att <bold>INTE</bold> ta emot e-postmeddelanden som målpåminnelser, min
     framstegsuppdateringar och nyhetsbrev om Common Voice
-n-clips = { NUMBER($count) } klipp
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } klipp
+       *[other] { $count } flera klipp
+    }
 help-share-goal = Hjälp oss att hitta fler röster, dela ditt mål
 confirm-goal = Bekräfta målet
 goal-interval-weekly = Veckovis
