@@ -776,7 +776,7 @@ finish-editing = Завершити спочатку редагування?
 lose-changes-warning = Якщо ви підете зараз, ваш прогрес буде втрачено
 build-custom-goal = Створити власну ціль
 help-reach-hours-pluralized =
-    Допоможіть досягти{ NUMBER($hours) ->
+    Допоможіть досягти { NUMBER($hours) ->
         [one] { $hours } годину
         [few] { $hours } години
        *[many] { $hours } годин
@@ -789,6 +789,24 @@ help-reach-hours-general-pluralized =
     } цією мовою за допомогою особистої цілі
 set-a-goal = Поставити ціль
 cant-decide = Не можете вирішити?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } година
+        [few] { $totalHours } години
+       *[many] { $totalHours } годин
+    } досягається впродовж лише { NUMBER($periodMonths) ->
+        [one] { $periodMonths } місяця
+        [few] { $periodMonths } місяців
+       *[many] { $periodMonths } місяців
+    }, якщо { NUMBER($people) ->
+        [one] { $people } особа
+        [few] { $people } особи
+       *[many] { $people } осіб
+    } додаватиме { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } запис
+        [few] { $clipsPerDay } записи
+       *[many] { $clipsPerDay } записів
+    } щодня.
 how-many-per-day = Чудово! Скільки записів на день?
 how-many-a-week = Чудово! Скільки записів на тиждень?
 which-goal-type = Ви хочете записувати, перевіряти, чи те й інше?
