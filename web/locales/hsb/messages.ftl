@@ -790,28 +790,28 @@ help-reach-hours-general-pluralized =
     }w rěči docpěć
 set-a-goal = Cil stajić
 cant-decide = Njemóžeće so rozsudźić?
-activity-needed-calculation-pluralized =
+activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } hodźina je docpějomna
+        [one] { $totalHours } hodźina je docpějomna jeli{ $people } wosobow natoča klipow.
         [two] { $totalHours } hodźinje stej docpějomnej
         [few] { $totalHours } hodźiny su docpějomne
        *[other] { $totalHours } hodźin je docpějomne
     } za jenož trochu wjace hač { NUMBER($periodMonths) ->
-        [one] { $periodMonths } měsac,
-        [two] { $periodMonths } měsacaj,
-        [few] { $periodMonths } měsacy,
-       *[other] { $periodMonths } měsacow,
-    } jeli{ NUMBER($people) ->
+        [one] { $periodMonths }  měsac
+        [two] { $periodMonths } měsacaj
+        [few] { $periodMonths } měsacy
+       *[other] { $periodMonths } měsacow
+    } jeli { NUMBER($people) ->
         [one] { $people } wosoba natoča
         [two] { $people } wosobje natočetej
         [few] { $people } wosoby natočeja
        *[other] { $people } wosobow natoča
-    } { NUMBER($clipsPerDay) ->
-        [one] klip
-        [two] klipaj
-        [few] klipy
-       *[other] klipow
-    }.
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } klip
+        [two] { $clipsPerDay } klipaj
+        [few] { $clipsPerDay } klipy
+       *[other] { $clipsPerDay } klipow
+    } na dźeń.
 how-many-per-day = Wulkotnje! Kelko klipow wob dźeń?
 how-many-a-week = Wulkotnje! Kelko klipow wob tydźeń?
 which-goal-type = Chceće rěčeć, słuchać abo wobě?
