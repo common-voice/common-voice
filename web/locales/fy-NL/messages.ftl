@@ -635,7 +635,11 @@ contribute = Meiwurkje
 listen = Harkje
 skip = Oerslaan
 shortcuts = Fluchkeppelingen
-clips-with-count = <bold>{ $count }</bold> fragminten
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> fragmint
+       *[other] <bold>{ $count }</bold> fragminten
+    }
 goal-help-recording = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } doel te beheljen!
 goal-help-validation = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } falidaasje te beheljen!
 contribute-more = Klear om der noch { $count } te dwaan?
@@ -749,6 +753,7 @@ show-ranking = Myn ranglist toane
 
 get-started-goals = Begjinne mei doelstellingen
 create-custom-goal = In oanpaste doelstelling meitsje
+goal-type = Hokker doel wolle jo bouwe?
 both-speak-and-listen = Beide
 both-speak-and-listen-long = Beide (sprekke en harkje)
 daily-goal = Deistige doel
@@ -762,11 +767,32 @@ want-to-continue = Wolle jo trochgean?
 finish-editing = Earst bewurking foltôgje?
 lose-changes-warning = Troch no ôf te sluten ferlieze jo jo wizigingen
 build-custom-goal = In oanpast doel bouwe
-help-reach-hours = Help mei { NUMBER($hours) } oer yn it { $language } te berikjen mei in persoanlike doelstelling
-help-reach-hours-general = Help mei in persoanlike doelstelling Common Voice { NUMBER($hours) } oer yn in taal te berikjen
+help-reach-hours-pluralized =
+    Help mei{ NUMBER($hours) ->
+        [one] { $hours } oer
+       *[other] { $hours } oer
+    }yn it { $language } te berikken mei in persoanlike doelstelling
+help-reach-hours-general-pluralized =
+    Help Common Voice{ NUMBER($hours) ->
+        [one] { $hours } oer
+       *[other] { $hours } oer
+    }yn in taal te berikken mei in persoanlike doelstelling
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
-activity-needed-calculation = { NUMBER($totalHours) } is berikber yn wat mear as { NUMBER($periodMonths) } moannen as { NUMBER($people) } persoanen { NUMBER($clipsPerDay) } fragminten op in dei opnimme.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } oer
+       *[other] { $totalHours } oer
+    }is berikber yn wat mear as{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } moanne
+       *[other] { $periodMonths } moannen
+    }as{ NUMBER($people) ->
+        [one] { $people } persoan
+       *[other] { $people } persoanen
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } fragmint
+       *[other] { $clipsPerDay } fragminten
+    }op in dei opnimme
 how-many-per-day = Bjusterbaarlik! Hoefolle fragminten op in dei?
 how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn 'e wike?
 which-goal-type = Wolle jo sprekke, harkje of beide?
@@ -776,7 +802,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Der is op dit stuit ynsteld dat jo <bold>GJIN</bold> e-mailberjochten lykas omtinken oan doelen,
     fernijingen oer jo fuortgong en nijsbrieven oer Common Voice ûntfange
-n-clips = { NUMBER($count) } fragminten
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } fragmint
+       *[other] { $count } fragminten
+    }
 help-share-goal = Help ús mear stimmen te finen, diel jo doel
 confirm-goal = Doel befêstigje
 goal-interval-weekly = Wykliks
