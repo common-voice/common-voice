@@ -790,11 +790,40 @@ help-reach-hours-general-pluralized =
     }w rěcy dojśpěś
 set-a-goal = Cel stajiś
 cant-decide = Njamóžośo se rozsuźiś?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } góźina jo dojśpiwajobna
+        [two] { $totalHours } góźinje stej dojśpiwajobnej
+        [few] { $totalHours } góźina su dojśpiwajobne
+       *[other] { $totalHours } góźinow jo dojśpiwajobne
+    } za jano tšochu wěcej ako { NUMBER($periodMonths) ->
+        [one] { $periodMonths }  mjasec,
+        [two] { $periodMonths } mjaseca,
+        [few] { $periodMonths } mjasece,
+       *[other] { $periodMonths } mjasecow,
+    } jolic { NUMBER($people) ->
+        [one] { $people } wósoba nagrawa
+        [two] { $people } wósobje nagrawatej
+        [few] { $people } wósoby nagrawaju
+       *[other] { $people } wósobow nagrawa
+    }{ NUMBER($clipsPerDay) ->
+        [one]  { $clipsPerDay } klip
+        [two]  { $clipsPerDay } klipa
+        [few]  { $clipsPerDay } klipy
+       *[other]  { $clipsPerDay } klipow
+    } na dźeń.
 how-many-per-day = Wjelicnje! Wjele klipow na źeń?
 how-many-a-week = Wjelicnje! Wjele klipow na tyźeń?
 which-goal-type = Cośo powědaś, słuchaś abo wobej?
 receiving-emails-info = Sćo tuchylu aboněrował mejlki, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice
 not-receiving-emails-info = Jo se rowno nastajiło, až mejlki wěcej <bold>NJE</bold>dostanjośo, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } klip
+        [two] { $count } klipa
+        [few] { $count } klipy
+       *[other] { $count } klipow
+    }
 help-share-goal = Źělśo swój cel, aby nam pomagał, wěcej głosow namakaś
 confirm-goal = Cel wobkšuśiś
 goal-interval-weekly = Kuždy tyźeń
