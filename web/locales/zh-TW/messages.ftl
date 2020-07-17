@@ -750,6 +750,14 @@ want-to-continue = 你想要繼續嗎？
 finish-editing = 要先完成編輯嗎？
 lose-changes-warning = 現在離開將不會儲存變更
 build-custom-goal = 自訂目標
+help-reach-hours-pluralized =
+    幫助{ $language }達到{ NUMBER($hours) ->
+       *[other] { $hours } 小時
+    }的個人目標
+help-reach-hours-general-pluralized =
+    幫助 Common Voice 的任一種語言達到{ NUMBER($hours) ->
+       *[other] { $hours } 小時
+    }的個人目標
 set-a-goal = 設定目標
 cant-decide = 無法決定嗎？
 how-many-per-day = 好的，每天要貢獻幾個片段？
