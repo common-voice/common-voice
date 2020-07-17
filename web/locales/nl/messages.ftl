@@ -769,6 +769,20 @@ help-reach-hours-general-pluralized =
     }in een taal te bereiken met een persoonlijke doelstelling
 set-a-goal = Een doel stellen
 cant-decide = Kunt u geen besluit nemen?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } uur
+       *[other] { $totalHours } uur
+    }is bereikbaar in iets meer dan{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } maand
+       *[other] { $periodMonths } maanden
+    }als{ NUMBER($people) ->
+        [one] { $people } persoon
+       *[other] { $people } personen
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } fragment
+       *[other] { $clipsPerDay } fragmenten
+    }per dag opnemen
 how-many-per-day = Geweldig! Hoeveel fragmenten per dag?
 how-many-a-week = Geweldig! Hoeveel fragmenten per week?
 which-goal-type = Wilt u spreken, luisteren of allebei?
@@ -778,6 +792,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Er is momenteel ingesteld dat u <bold>GEEN</bold> e-mailberichten zoals herinneringen aan doelen,
     updates over uw voortgang en nieuwsbrieven over Common Voice ontvangt
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } fragment
+       *[other] { $count } fragmenten
+    }
 help-share-goal = Help ons meer stemmen te vinden, deel uw doel
 confirm-goal = Doel bevestigen
 goal-interval-weekly = Wekelijks
