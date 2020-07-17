@@ -625,7 +625,11 @@ contribute = Bijdragen
 listen = Luisteren
 skip = Overslaan
 shortcuts = Sneltoetsen
-clips-with-count = <bold>{ $count }</bold> fragmenten
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> fragment
+       *[other] <bold>{ $count }</bold> fragmenten
+    }
 goal-help-recording = U hebt Common Voice geholpen <goalPercentage></goalPercentage> van het dagelijkse doel van { $goalValue } opnamen te bereiken!
 goal-help-validation = U hebt Common Voice geholpen <goalPercentage></goalPercentage> van het dagelijkse doel van { $goalValue } validaties te bereiken!
 contribute-more = Klaar om er nog { $count } te doen?
@@ -739,6 +743,7 @@ show-ranking = Mijn ranglijst tonen
 
 get-started-goals = Beginnen met doelstellingen
 create-custom-goal = Een aangepaste doelstelling maken
+goal-type = Welk doel wilt u bouwen?
 both-speak-and-listen = Beide
 both-speak-and-listen-long = Beide (spreken en luisteren)
 daily-goal = Dagelijks doel
@@ -752,11 +757,18 @@ want-to-continue = Wilt u doorgaan?
 finish-editing = Eerst bewerking voltooien?
 lose-changes-warning = Door nu af te sluiten verliest u uw wijzigingen
 build-custom-goal = Een aangepast doel bouwen
-help-reach-hours = Help mee { NUMBER($hours) } uren in het { $language } te bereiken met een persoonlijke doelstelling
-help-reach-hours-general = Help met een persoonlijke doelstelling Common Voice { NUMBER($hours) } uren in een taal te bereiken
+help-reach-hours-pluralized =
+    Help mee{ NUMBER($hours) ->
+        [one] { $hours } uur
+       *[other] { $hours } uur
+    }in het { $language } te bereiken met een persoonlijke doelstelling
+help-reach-hours-general-pluralized =
+    Help Common Voice{ NUMBER($hours) ->
+        [one] { $hours } uur
+       *[other] { $hours } uur
+    }in een taal te bereiken met een persoonlijke doelstelling
 set-a-goal = Een doel stellen
 cant-decide = Kunt u geen besluit nemen?
-activity-needed-calculation = { NUMBER($totalHours) } is bereikbaar in iets meer dan { NUMBER($periodMonths) } maanden als { NUMBER($people) } personen { NUMBER($clipsPerDay) } fragmenten per dag opnemen.
 how-many-per-day = Geweldig! Hoeveel fragmenten per dag?
 how-many-a-week = Geweldig! Hoeveel fragmenten per week?
 which-goal-type = Wilt u spreken, luisteren of allebei?
@@ -766,7 +778,6 @@ receiving-emails-info =
 not-receiving-emails-info =
     Er is momenteel ingesteld dat u <bold>GEEN</bold> e-mailberichten zoals herinneringen aan doelen,
     updates over uw voortgang en nieuwsbrieven over Common Voice ontvangt
-n-clips = { NUMBER($count) } fragmenten
 help-share-goal = Help ons meer stemmen te vinden, deel uw doel
 confirm-goal = Doel bevestigen
 goal-interval-weekly = Wekelijks
