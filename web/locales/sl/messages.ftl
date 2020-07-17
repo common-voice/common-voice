@@ -763,6 +763,13 @@ want-to-continue = Želite nadaljevati?
 finish-editing = Želite najprej dokončati urejanje?
 lose-changes-warning = Če zapustite zdaj, boste izgubili spremembe
 build-custom-goal = Sestavite cilj po meri
+help-reach-hours-pluralized =
+    Pomagajte doseči{ NUMBER($hours) ->
+        [one] { $hours } uro
+        [two] { $hours } uri
+        [few] { $hours } ure
+       *[other] { $hours } ur
+    }v jeziku { $language } z osebnim ciljem
 set-a-goal = Zastavite cilj
 cant-decide = Se ne morete odločiti?
 how-many-per-day = Odlično! Koliko posnetkov na dan?
@@ -772,6 +779,13 @@ receiving-emails-info =
     Trenutno prejemate e-poštna sporočila, kot so opomniki za cilje, 
     posodobitve napredka in novice projekta Common Voice
 not-receiving-emails-info = Trenutno <bold>NE</bold> prejemate e-poštnih sporočil, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } posnetek
+        [two] { $count } posnetka
+        [few] { $count } posnetki
+       *[other] { $count } posnetkov
+    }
 help-share-goal = Pomagajte nam najti več glasov, delite svoj cilj
 confirm-goal = Potrdi cilj
 goal-interval-weekly = Tedensko
