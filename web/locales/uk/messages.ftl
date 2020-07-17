@@ -782,31 +782,13 @@ help-reach-hours-pluralized =
        *[many] { $hours } годин
     } мовою { $language } за допомогою особистої цілі
 help-reach-hours-general-pluralized =
-    Допоможіть Common Voice досягти{ NUMBER($hours) ->
+    Допоможіть Common Voice досягти { NUMBER($hours) ->
         [one] { $hours } годину
         [few] { $hours } години
        *[many] { $hours } годин
-    }цією мовою за допомогою особистої цілі
+    } цією мовою за допомогою особистої цілі
 set-a-goal = Поставити ціль
 cant-decide = Не можете вирішити?
-activity-needed-calculation-pluralized =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } година
-        [few] { $totalHours } години
-       *[many] { $totalHours } годин
-    }досягається впродовж лише{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } місяця
-        [few] { $periodMonths } місяців
-       *[many] { $periodMonths } місяців
-    }, якщо{ NUMBER($people) ->
-        [one] { $people } особа
-        [few] { $people } особи
-       *[many] { $people } осіб
-    }додаватиме{ NUMBER($clipsPerDay) ->
-        [one] запис
-        [few] записи
-       *[many] записів
-    }щодня.
 how-many-per-day = Чудово! Скільки записів на день?
 how-many-a-week = Чудово! Скільки записів на тиждень?
 which-goal-type = Ви хочете записувати, перевіряти, чи те й інше?
