@@ -619,7 +619,11 @@ contribute = Bidra
 listen = Lytt
 skip = Hopp over
 shortcuts = Snarveier
-clips-with-count = <bold>{ $count }</bold> Lydklipp
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> lydklipp
+       *[other] <bold>{ $count }</bold> lydklipp
+    }
 goal-help-recording = Du har hjulpet Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglige opptaksmål på { $goalValue }!
 goal-help-validation = Du har hjulpet Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglige bekreftelsesmål på { $goalValue }!
 contribute-more =
@@ -737,6 +741,7 @@ show-ranking = Vis min rangering
 
 get-started-goals = Kom i gang med mål
 create-custom-goal = Lag et tilpasset mål
+goal-type = Hva slags mål vil du bygge?
 both-speak-and-listen = Begge to
 both-speak-and-listen-long = Begge to (Snakke og Lytte)
 daily-goal = Daglig mål
@@ -750,13 +755,32 @@ want-to-continue = Ønsker du å fortsette?
 finish-editing = Vil du fullføre redigeringen først?
 lose-changes-warning = Å avslutte nå betyr at du mister endringene dine
 build-custom-goal = Lag et tilpasset mål
-help-reach-hours = Hjelp til med å nå { NUMBER($hours) } timer på { $language } med et personlig mål
-help-reach-hours-general = Hjelp Common Voice med å nå { NUMBER($hours) } timer på et språk med et personlig mål
+help-reach-hours-pluralized =
+    Hjelp til med å nå{ NUMBER($hours) ->
+        [one] { $hours } time
+       *[other] { $hours } timer
+    } på { $language } med et personlig mål
+help-reach-hours-general-pluralized =
+    Hjelp Common Voice med å nå{ NUMBER($hours) ->
+        [one] { $hours } time
+       *[other] { $hours } timer
+    } på et språk med et personlig mål
 set-a-goal = Sett et mål
 cant-decide = Klarer du ikke å velge?
-activity-needed-calculation =
-    { NUMBER($totalHours) } timer er oppnåelig på drøyt { NUMBER($periodMonths) }
-    måneder hvis { NUMBER($people) } folk registrerer { NUMBER($clipsPerDay) } klipp om dagen.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } time
+       *[other] { $totalHours } timer
+    }er oppnåelig på drøyt{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } måned
+       *[other] { $periodMonths } måneder
+    }hvis{ NUMBER($people) ->
+        [one] { $people } person
+       *[other] { $people } personer
+    }registrerer{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } lydklipp
+       *[other] { $clipsPerDay } lydklipp
+    }om dagen.
 how-many-per-day = Flott! Hvor mange klipp per dag?
 how-many-a-week = Flott! Hvor mange klipp i uken?
 which-goal-type = Vil du snakke, lytte eller begge deler?
@@ -766,7 +790,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Du er for øyeblikket satt til å <bold>IKKE</bold> motta e-poster som målpåminnelser, personlige
     fremdriftsoppdateringer og nyhetsbrev om Common Voice
-n-clips = { NUMBER($count) } klipp
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } lydklipp
+       *[other] { $count } lydklipp
+    }
 help-share-goal = Hjelp oss med å finne flere stemmer, del dine mål
 confirm-goal = Bekreft Mål
 goal-interval-weekly = Ukentlig
