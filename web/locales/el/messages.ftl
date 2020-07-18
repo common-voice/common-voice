@@ -758,6 +758,11 @@ want-to-continue = Θέλετε να συνεχίσετε;
 finish-editing = Να ολοκληρωθεί πρώτα η επεξεργασία;
 lose-changes-warning = Αν αποχωρήσετε τώρα, θα χάσετε τις αλλαγές σας
 build-custom-goal = Δημιουργήστε έναν προσαρμοσμένο στόχο
+help-reach-hours-pluralized =
+    Βοηθήστε μας να φτάσουμε { NUMBER($hours) ->
+        [one] { $hours } ώρα
+       *[other] { $hours } ώρες
+    } στα { $language } με ένα προσωπικό στόχο
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
 how-many-per-day = Εξαιρετικά! Πόσα κλιπ την ημέρα;
