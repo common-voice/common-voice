@@ -628,7 +628,11 @@ contribute = Közreműködés
 listen = Figyeljen
 skip = Kihagyás
 shortcuts = Gyorsbillentyűk
-clips-with-count = <bold>{ $count }</bold> kllip
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> klip
+       *[other] <bold>{ $count }</bold> klip
+    }
 goal-help-recording = Segítettél a Common Voice-nak elérni a napi rögzítési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 goal-help-validation = Segítettél a Common Voice-nak elérni a napi ellenőrzési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
@@ -742,6 +746,7 @@ show-ranking = Saját rangsor megjelenítése
 
 get-started-goals = Kezdje el a célok használatát
 create-custom-goal = Egyéni cél létrehozása
+goal-type = Milyen célra vágyik?
 both-speak-and-listen = Mindkettő
 both-speak-and-listen-long = Mindkettő (Beszéd és figyelés)
 daily-goal = Napi cél
@@ -755,13 +760,32 @@ want-to-continue = Biztos, hogy folytatja?
 finish-editing = Előbb befejezi a szerkesztést?
 lose-changes-warning = A lap elhagyása azt jelenti, hogy elveszíti a változásokat
 build-custom-goal = Egyéni cél létrehozása
-help-reach-hours = Segítsen elérni a(z) { NUMBER($hours) } órát { $language } nyelven egy személyes céllal
-help-reach-hours-general = Segítsen a Common Voice-nak elérnie a(z) { NUMBER($hours) } órát egy személyes céllal rendelkező nyelven
+help-reach-hours-pluralized =
+    Segítsen elérni a(z) { NUMBER($hours) ->
+        [one] { $hours } órát
+       *[other] { $hours } órát
+    } { $language } nyelven egy személyes céllal
+help-reach-hours-general-pluralized =
+    Segítsen a Common Voice-nak elérni a(z) { NUMBER($hours) ->
+        [one] { $hours } órát
+       *[other] { $hours } órát
+    } egy nyelven egy személyes céllal!
 set-a-goal = Cél kitűzése
 cant-decide = Nem tud dönteni?
-activity-needed-calculation =
-    { NUMBER($totalHours) } óra akár { NUMBER($periodMonths) } hónap alatt is elérhető,
-    ha { NUMBER($people) } ember napi { NUMBER($clipsPerDay) } klipet rögzít.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } óra
+       *[other] { $totalHours } óra
+    } akár { NUMBER($periodMonths) ->
+        [one] { $periodMonths } hónap
+       *[other] { $periodMonths } hónap
+    } alatt is elérhető, ha { NUMBER($people) ->
+        [one] { $people } ember
+       *[other] { $people } ember
+    } napi { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } klipet
+       *[other] { $clipsPerDay } klipet
+    } vesz fel.
 how-many-per-day = Nagyszerű! Naponta hány klipet?
 how-many-a-week = Nagyszerű! Hetente hány klipet?
 which-goal-type = Beszélni, figyelni vagy mindkettőt szeretne?
@@ -771,7 +795,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Jelenleg úgy van beállítva, hogy <bold>NEM</bold> kap e-mailt cél emlékeztetőkkel,
     előrehaladási hírekkel és a Common Voice hírlevéllel
-n-clips = { NUMBER($count) } klip
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } klip
+       *[other] { $count } klip
+    }
 help-share-goal = Segítsen még több hangot találni, ossza meg a célját
 confirm-goal = Cél megerősítése
 goal-interval-weekly = Hetente
