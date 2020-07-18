@@ -744,6 +744,7 @@ show-ranking = Εμφάνιση κατάταξης
 
 get-started-goals = Ξεκινήστε με στόχους
 create-custom-goal = Δημιουργία προσαρμοσμένου στόχου
+goal-type = Τι είδους στόχο θέλετε να δημιουργήσετε;
 both-speak-and-listen = Και τα δυο
 both-speak-and-listen-long = Και τα δύο (Μιλήστε και Ακούστε)
 daily-goal = Ημερήσιος στόχος
