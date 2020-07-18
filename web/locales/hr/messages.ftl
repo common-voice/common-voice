@@ -11,7 +11,6 @@ loading = Učitavanje…
 email-opt-in-info = Želim primati e-poruke poput podsjetnika o ciljevima, ažuriranja o napretku i novostima o Common Voiceu.
 email-opt-in-info-title = Pridruži se pretplatničkoj listi Common Voice
 email-opt-in-info-sub-with-challenge = Primaj e-poštu poput podsjetnika o izazovima i ciljevima, aktualiziranja o napretku i biltene o Common Voice.
-email-opt-in-privacy = S prihvaćanjem primanja e-mail poruka, pristaješ na obradu tvojih podataka, kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti<privacyLink>.
 indicates-required = * obilježava obvezno polje
 not-available-abbreviation = N/A
 
@@ -642,7 +641,12 @@ contribute = Doprinesite
 listen = Preslušaj
 skip = Preskoči
 shortcuts = Prečaci
-clips-with-count = <bold>{ $count }</bold> Isječci
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> isječak
+        [few] <bold>{ $count }</bold> isječka
+       *[other] <bold>{ $count }</bold> isječaka
+    }
 goal-help-recording = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za snimanje od { $goalValue }!
 goal-help-validation = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za provjeravanje od { $goalValue }!
 contribute-more =
@@ -764,6 +768,7 @@ show-ranking = Pokaži moj rang
 
 get-started-goals = Započni sa ciljevima
 create-custom-goal = Stvori prilagođeni cilj
+goal-type = Koju vrstu cilja želiš izgraditi?
 both-speak-and-listen = Oboje
 both-speak-and-listen-long = Oboje (govori i slušaj)
 daily-goal = Dnevni cilj
@@ -777,13 +782,14 @@ want-to-continue = Želiš li nastaviti?
 finish-editing = Najprije završiti s uređivanjem?
 lose-changes-warning = Ako sad prekineš, izgubit ćeš promjene
 build-custom-goal = Izgradi prilagođeni cilj
-help-reach-hours = Pomozi postići { NUMBER($hours) } sati za { $language } s osobnim ciljem
-help-reach-hours-general = Pomogni Common Voiceu dosegnuti { NUMBER($hours) } sati za jezik s osobnim ciljem
+help-reach-hours-general-pluralized =
+    Pomogni Common Voiceu dosegnuti{ NUMBER($hours) ->
+        [one] { $hours } sat
+        [few] { $hours } sata
+       *[other] { $hours } sati
+    }za jezik s osobnim ciljem
 set-a-goal = Postavi cilj
 cant-decide = Ne možete se odlučiti?
-activity-needed-calculation =
-    { NUMBER($totalHours) } sati ostvarivo je za nešto više od { NUMBER($periodMonths) }
-    mjeseci, ako { NUMBER($people) } ljudi snime { NUMBER($clipsPerDay) } isječaka dnevno.
 how-many-per-day = Sjajno! Koliko isječaka dnevno?
 how-many-a-week = Sjajno! Koliko isječaka tjedno?
 which-goal-type = Želiš li govoriti, slušati ili oboje?
@@ -793,7 +799,12 @@ receiving-emails-info =
 not-receiving-emails-info =
     S tvojim trenutačnim postavkama <bold>NE PRIMAŠ</bold> poruke e-pošte kao što su podsjetnici za ciljeve,
     ažuriranja vlastitog napretka i novosti o Common Voice
-n-clips = Broj isječaka { NUMBER($count) }
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } isječak
+        [few] { $count } isječka
+       *[other] { $count } isječaka
+    }
 help-share-goal = Pomozi nam pronaći više glasova, podijeli svoj cilj
 confirm-goal = Potvrdi cilj
 goal-interval-weekly = Tjedno
