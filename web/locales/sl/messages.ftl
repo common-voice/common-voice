@@ -769,7 +769,14 @@ help-reach-hours-pluralized =
         [two] { $hours } uri
         [few] { $hours } ure
        *[other] { $hours } ur
-    }v jeziku { $language } z osebnim ciljem
+    } v jeziku { $language } z osebnim ciljem
+help-reach-hours-general-pluralized =
+    Pomagajte projektu Common Voice doseči { NUMBER($hours) ->
+        [one] { $hours } uro
+        [two] { $hours } uri
+        [few] { $hours } ure
+       *[other] { $hours } ur
+    } v jeziku z osebnim ciljem
 set-a-goal = Zastavite cilj
 cant-decide = Se ne morete odločiti?
 how-many-per-day = Odlično! Koliko posnetkov na dan?
