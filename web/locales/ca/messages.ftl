@@ -771,6 +771,21 @@ help-reach-hours-general-pluralized =
     }en una llengua amb un objectiu personal
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
+activity-needed-calculation-plural =
+    Si { NUMBER($people) ->
+        [one] { $people } persona enregistra
+       *[other] { $people } persones enregistren
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } tall
+       *[other] { $clipsPerDay } talls
+    } per dia, es pot arribar a { NUMBER($totalHours) ->
+        [one] { $totalHours } hora
+       *[other] { $totalHours } hores
+    } en poc més { NUMBER($periodMonths) ->
+        [one] d'{ $periodMonths } mes
+        [11] d'{ $periodMonths } mesos
+       *[other] de { $periodMonths } mesos
+    }
 how-many-per-day = Genial! Quants talls per dia?
 how-many-a-week = Genial! Quants talls per setmana?
 which-goal-type = Genial! Voleu parlar, escoltar o totes dues coses?
