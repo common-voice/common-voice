@@ -764,7 +764,7 @@ finish-editing = Želite najprej dokončati urejanje?
 lose-changes-warning = Če zapustite zdaj, boste izgubili spremembe
 build-custom-goal = Sestavite cilj po meri
 help-reach-hours-pluralized =
-    Pomagajte doseči{ NUMBER($hours) ->
+    Pomagajte doseči { NUMBER($hours) ->
         [one] { $hours } uro
         [two] { $hours } uri
         [few] { $hours } ure
