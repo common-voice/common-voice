@@ -11,7 +11,6 @@ loading = Φόρτωση...
 email-opt-in-info = Θα ήθελα να λαμβάνω emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 email-opt-in-info-title = Εγγραφείτε στη λίστα αλληλογραφίας του Common Voice
 email-opt-in-info-sub-with-challenge = Λάβετε emails, όπως υπενθυμίσεις στόχων και προκλήσεων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
-email-opt-in-privacy = Επιλέγοντας να λαμβάνετε emails, δηλώνετε ότι συμφωνείτε με το χειρισμό αυτών των πληροφοριών από τη Mozilla, όπως εξηγείται στην <privacyLink>πολιτική απορρήτου<privacyLink> της Mozilla.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
 
@@ -623,7 +622,11 @@ contribute = Συνεισφορά
 listen = Ακρόαση
 skip = Παράλειψη
 shortcuts = Συντομεύσεις
-clips-with-count = <bold>{ $count }</bold> κλιπ
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> κλιπ
+       *[other] <bold>{ $count }</bold> κλιπ
+    }
 goal-help-recording = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου ηχογραφήσεών μας!
 goal-help-validation = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου επαληθεύσεών μας!
 contribute-more =
@@ -754,17 +757,18 @@ want-to-continue = Θέλετε να συνεχίσετε;
 finish-editing = Να ολοκληρωθεί πρώτα η επεξεργασία;
 lose-changes-warning = Αν αποχωρήσετε τώρα, θα χάσετε τις αλλαγές σας
 build-custom-goal = Δημιουργήστε έναν προσαρμοσμένο στόχο
-help-reach-hours = Βοηθήστε να φτάσουμε τις { NUMBER($hours) }ώρες στα { $language } με έναν προσωπικό στόχο
-help-reach-hours-general = Βοηθήστε το Common Voice να φτάσει τις { NUMBER($hours) }ώρες σε μία γλώσσα με έναν προσωπικό στόχο
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
-activity-needed-calculation = Οι { NUMBER($totalHours) } ώρες είναι εφικτές σε λίγο περισσότερο από { NUMBER($periodMonths) }μήνες εάν { NUMBER($people) }άτομα ηχογραφούν { NUMBER($clipsPerDay) }κλιπ την ημέρα.
 how-many-per-day = Εξαιρετικά! Πόσα κλιπ την ημέρα;
 how-many-a-week = Εξαιρετικά! Πόσα κλιπ την εβδομάδα;
 which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή και τα δύο;
 receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, θα λαμβάνετε emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 not-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, <bold>ΔΕΝ</bold> θα λαμβάνετε emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
-n-clips = { NUMBER($count) } κλιπ
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } κλιπ
+       *[other] { $count } κλιπ
+    }
 help-share-goal = Βοηθήστε μας να βρείτε περισσότερες φωνές, μοιραστείτε το στόχο σας
 confirm-goal = Επιβεβαίωση στόχου
 goal-interval-weekly = Εβδομαδιαία
