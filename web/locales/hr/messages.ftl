@@ -782,6 +782,12 @@ want-to-continue = Želiš li nastaviti?
 finish-editing = Najprije završiti s uređivanjem?
 lose-changes-warning = Ako sad prekineš, izgubit ćeš promjene
 build-custom-goal = Izgradi prilagođeni cilj
+help-reach-hours-pluralized =
+    Pomogni dosegnuti{ NUMBER($hours) ->
+        [one] { $hours } sat
+        [few] { $hours } sata
+       *[other] { $hours } sati
+    }za { $language } s osobnim ciljem
 help-reach-hours-general-pluralized =
     Pomogni Common Voiceu dosegnuti{ NUMBER($hours) ->
         [one] { $hours } sat
