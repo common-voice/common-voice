@@ -621,6 +621,11 @@ contribute = Col·laboreu‑hi
 listen = Escolta
 skip = Omet
 shortcuts = Dreceres
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> tall
+       *[other] <bold>{ $count }</bold> talls
+    }
 goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } enregistraments!
 goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!
 contribute-more =
@@ -738,6 +743,7 @@ show-ranking = Mostra la meva classificació
 
 get-started-goals = Introducció als objectius
 create-custom-goal = Creeu un objectiu personalitzat
+goal-type = Quin tipus d'objectiu voleu crear?
 both-speak-and-listen = Ambdós
 both-speak-and-listen-long = Ambdós (Parla i Escolta)
 daily-goal = Objectiu diari
@@ -751,6 +757,16 @@ want-to-continue = Voleu continuar?
 finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
 build-custom-goal = Crea un objectiu personalitzat
+help-reach-hours-pluralized =
+    Ajudeu a arribar a { NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } hores
+    }en { $language } amb un objectiu personal
+help-reach-hours-general-pluralized =
+    Ajudeu al Common Voice a arribar a{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } hores
+    }en una llengua amb un objectiu personal
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
 how-many-per-day = Genial! Quants talls per dia?
@@ -758,6 +774,11 @@ how-many-a-week = Genial! Quants talls per setmana?
 which-goal-type = Genial! Voleu parlar, escoltar o totes dues coses?
 receiving-emails-info = Actualment teniu configurat rebre correus electrònics, com ara recordatoris d’objectius, actualitzacions del vostre progrés i butlletins de notícies sobre el Common Voice.
 not-receiving-emails-info = Actualment <bold>NO</bold> rebeu correus electrònics com ara recordatoris dels objectius, actualitzacions del progrés personal o notícies sobre el Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } tall
+       *[other] { $count } talls
+    }
 help-share-goal = Ajudeu-nos a trobar més veus, compartiu el vostre objectiu
 confirm-goal = Confirmo l'objectiu
 goal-interval-weekly = Setmanal
