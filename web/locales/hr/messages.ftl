@@ -790,6 +790,24 @@ help-reach-hours-general-pluralized =
     }za jezik s osobnim ciljem
 set-a-goal = Postavi cilj
 cant-decide = Ne možete se odlučiti?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } sat
+        [few] { $totalHours } sata
+       *[other] { $totalHours } sati
+    }je ostvarivo u samo više od{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mjesec
+        [few] { $periodMonths } mjeseca
+       *[other] { $periodMonths } mjeseci
+    }ako{ NUMBER($people) ->
+        [one] { $people } osoba
+        [few] { $people } osobe
+       *[other] { $people } osoba
+    }snimi/snime{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } isječak
+        [few] { $clipsPerDay } isječka
+       *[other] { $clipsPerDay } isječaka
+    }na dan.
 how-many-per-day = Sjajno! Koliko isječaka dnevno?
 how-many-a-week = Sjajno! Koliko isječaka tjedno?
 which-goal-type = Želiš li govoriti, slušati ili oboje?
