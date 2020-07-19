@@ -622,7 +622,11 @@ contribute = წვლილის შეტანა
 listen = მოსმენა
 skip = გამოტოვება
 shortcuts = მალსახმობები
-clips-with-count = <bold>{ $count }</bold> ჩანაწერი
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ჩანაწერი
+       *[other] <bold>{ $count }</bold> ჩანაწერი
+    }
 goal-help-recording = თქვენ დაეხმარეთ Common Voice-ს დღიური მიზნის, { $goalValue } ჩანაწერის <goalPercentage></goalPercentage>-ის შექმნაში!
 goal-help-validation = თქვენ დაეხმარეთ Common Voice-ს დღიური მიზნის, { $goalValue } შემოწმების <goalPercentage></goalPercentage>-ის შესრულებაში!
 contribute-more = მზად ხართ შეასრულოთ კიდევ { $count }?
@@ -736,6 +740,7 @@ show-ranking = ჩემი ადგილის ნახვა
 
 get-started-goals = მიზნის შექმნა
 create-custom-goal = საკუთარი მიზნის შექმნა
+goal-type = რა მიზანი გსურთ დაისახოთ?
 both-speak-and-listen = ორივე
 both-speak-and-listen-long = ორივე (წარმოთქმა და მოსმენა)
 daily-goal = ყოველდღიური მიზანი
@@ -749,11 +754,8 @@ want-to-continue = გსურთ, განაგრძოთ?
 finish-editing = გსურთ, ჯერ ჩასწორების დასრულება?
 lose-changes-warning = ახლავე დატოვებით თქვენი ცვლილებები დაიკარგება
 build-custom-goal = საკუთარი მიზნის შექმნა
-help-reach-hours = დაგვეხმარეთ მივაღწიოთ { NUMBER($hours) } საათს { $language } ენისთვის, საკუთარი მიზნით
-help-reach-hours-general = დაგვეხმარეთ Common Voice-ს { NUMBER($hours) } საათის მიღწევაში { $language } ენისთვის, საკუთარი მიზნის მეშვეობით
 set-a-goal = მიზნის მითითება
 cant-decide = ვერ გადაგიწყვეტიათ?
-activity-needed-calculation = { NUMBER($totalHours) } საათი მიიღწევა სულ რაღაც { NUMBER($periodMonths) } თვეში, თუ { NUMBER($people) } ადამიანი გააკეთებს { NUMBER($clipsPerDay) } ჩანაწერს ყოველდღიურად.
 how-many-per-day = მშვენიერია! რამდენი ჩანაწერი ყოველდღიურად?
 how-many-a-week = მშვენიერია! რამდენი ჩანაწერი ყოველკვირეულად?
 which-goal-type = გირჩევნიათ წარმოთქმა, მოსმენა, თუ ორივე?
@@ -761,7 +763,6 @@ receiving-emails-info =
     თქვენ მითითებული გაქვთ, რომ გსურთ ელფოსტაზე მიიღოთ შეხსენებები შესასრულებელი მიზნების,
     აგრეთვე სამუშაოს მიმდინარეობის შესახებ და Common Voice-სთან დაკავშირებული სიახლეები.
 not-receiving-emails-info = თქვენ მითითებული გაქვთ, რომ <bold>არ</bold> გსურთ ელფოსტაზე მიიღოთ შეხსენებები შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და Common Voice-სთან დაკავშირებული სიახლეები
-n-clips = { NUMBER($count) } ჩანაწერი
 help-share-goal = დაგვეხმარეთ მეტი ხმის მოძიებაში, გააზიარეთ თქვენი მიზანი
 confirm-goal = მიზნის დადასტურება
 goal-interval-weekly = ყოველკვირეული
