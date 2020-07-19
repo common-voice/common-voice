@@ -778,8 +778,32 @@ help-reach-hours-pluralized =
         [few] { $hours } сата
        *[other] { $hours } сати
     }у { $language } радећи на сопственом циљу
+help-reach-hours-general-pluralized =
+    Помозите Common Voice-у да достигне{ NUMBER($hours) ->
+        [one] { $hours } сат
+        [few] { $hours } сата
+       *[other] { $hours } сати
+    }за језик с личним циљем
 set-a-goal = Поставите циљ
 cant-decide = Не можете се одлучити?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } сат
+        [few] { $totalHours } сата
+       *[other] { $totalHours } сати
+    }се може достигнути за нешто више од{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } месеца
+        [few] { $periodMonths } месеца
+       *[other] { $periodMonths } месеци
+    }ако{ NUMBER($people) ->
+        [one] { $people } човек
+        [few] { $people } човека
+       *[other] { $people } људи
+    }сними{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } исечак
+        [few] { $clipsPerDay } исечка
+       *[other] { $clipsPerDay } исечака
+    }сваког дана.
 how-many-per-day = Одлично! Колико снимака дневно?
 how-many-a-week = Одлично! Колико снимака недељно?
 which-goal-type = Да ли желите да говорите, слушајте или и једно и друго?
