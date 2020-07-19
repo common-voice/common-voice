@@ -765,12 +765,12 @@ finish-editing = Avsluta redigeringen först?
 lose-changes-warning = Om du lämnar nu kommer du att förlora dina förändringar
 build-custom-goal = Bygg ett anpassat mål
 help-reach-hours-pluralized =
-    Hjälp oss nå{ NUMBER($hours) ->
+    Hjälp oss nå { NUMBER($hours) ->
         [one] { $hours } timme
        *[other] { $hours } timmar
     } på { $language } med ett personligt mål
 help-reach-hours-general-pluralized =
-    Hjälp Common Voice nå{ NUMBER($hours) ->
+    Hjälp Common Voice nå { NUMBER($hours) ->
         [one] { $hours } timme
        *[other] { $hours } timmar
     } på ett språk med ett personligt mål
@@ -780,16 +780,16 @@ activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } timme
        *[other] { $totalHours } timmar
-    }kan uppnås på drygt{ NUMBER($periodMonths) ->
+    } kan uppnås på drygt { NUMBER($periodMonths) ->
         [one] { $periodMonths } månad
        *[other] { $periodMonths } månader
-    }om{ NUMBER($people) ->
+    } om { NUMBER($people) ->
         [one] { $people } person
        *[other] { $people } personer
-    }spelar in{ NUMBER($clipsPerDay) ->
+    } spelar in { NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } klipp
-       *[other] { $clipsPerDay } flera klipp
-    }per dag.
+       *[other] { $clipsPerDay } klipp
+    } per dag.
 how-many-per-day = Bra! Hur många klipp per dag?
 how-many-a-week = Bra! Hur många klipp på en vecka?
 which-goal-type = Vill du prata, lyssna eller båda?
@@ -802,7 +802,7 @@ not-receiving-emails-info =
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } klipp
-       *[other] { $count } flera klipp
+       *[other] { $count } klipp
     }
 help-share-goal = Hjälp oss att hitta fler röster, dela ditt mål
 confirm-goal = Bekräfta målet
