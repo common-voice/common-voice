@@ -11,7 +11,6 @@ loading = 載入中…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
 email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
-email-opt-in-privacy = 如果你同意接收電郵，就代表你同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法嚟處理呢啲資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
 
@@ -178,16 +177,16 @@ wall-of-text-more-desktop =
     現在您可以將自己的聲音捐畀我哋，以幫助打造開放源碼的語音資料庫，讓任何人都可以為裝置和互聯網打造嶄新的應用程式。<lineBreak></lineBreak>
     只要朗讀一段文字，您就可以幫助機器了解我哋點樣講嘢。您亦可以驗證其他貢獻者的聲音，以協助改善品質。就係咁簡單！
 wall-of-text-first = 語音係一種好自然、富有人性嘅事物。我哋希望建立一套畀機器用到嘅語音技術。但建立呢一個語音系統嘅過程，需要超多嘅語音數據。
-wall-of-text-second = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
+wall-of-text-second = 大部分現成嘅數據由大公司擁有，並未開放畀大眾使用。我哋覺得噉樣會阻礙創新，所以創立咗畀每個人都可以嚟自由建造語音識別嘅 Common Voice 計劃。
 show-wall-of-text = 瞭解更多
 help-us-title = 請幫我哋驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？
 no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一啲聲音。
 vote-yes = Yes
 vote-no = No
-toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
+toggle-play-tooltip = 撳 { shortcut-play-toggle } 即可切換播放模式
 speak-subtitle = 捐出你嘅聲音
-speak-paragraph = 錄音係我哋建立開放數據集時不可否缺的一部分，亦係好多人覺得最好玩的一部分！
+speak-paragraph = 錄音係我哋建立開放數據集個陣不可或缺嘅一部分，亦都係好多人覺得最好玩嘅一部分！
 speak-goal-text = 段新錄音
 listen-subtitle = 幫我哋驗證錄音
 listen-paragraph = 驗證人哋錄低嘅錄音片段，對 Common Voice 嘅使命都非常重要。只要聽一下，就可以幫我哋打造高品質、開放源碼嘅語音數據集。
@@ -619,7 +618,10 @@ contribute = 參與貢獻
 listen = 聆聽
 skip = 略過
 shortcuts = 捷徑
-clips-with-count = <bold>{ $count }</bold> 段錄音
+clips-with-count-pluralized =
+    { $count ->
+       *[other] <bold>{ $count }</bold>錄音片段
+    }
 goal-help-recording = 您已幫助 Common Voice 完成每日 { $goalValue } 錄音目標的<goalPercentage></goalPercentage>！
 goal-help-validation = 您已幫助 Common Voice 達到我們每日 { $goalValue } 驗證目標的 <goalPercentage></goalPercentage>！
 contribute-more =
@@ -746,17 +748,17 @@ want-to-continue = 你要繼續嗎？
 finish-editing = 要完成編輯嗎？
 lose-changes-warning = 而家離開將唔會儲存你嘅變更
 build-custom-goal = 度身訂做目標
-help-reach-hours = 建立個人目標，為{ $language }貢獻{ NUMBER($hours) }小時嘅錄音。
-help-reach-hours-general = 設定個人目標，幫手讓 Common Voice 當中的語言時數達到 { NUMBER($hours) } 小時
 set-a-goal = 訂立目標
 cant-decide = 決定唔到？
-activity-needed-calculation = 如果有{ NUMBER($people) }人每日錄{ NUMBER($clipsPerDay) }段錄音，{ NUMBER($periodMonths) }月内就可以有{ NUMBER($totalHours) }小時嘅數據喇。
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每週錄幾多段音？
 which-goal-type = 您想淨係講嘢、聽嘢，定係又聽又講？
 receiving-emails-info = 你目前選擇接收包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
 not-receiving-emails-info = 你目前選擇 <bold>唔接收</bold> 包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
-n-clips = { NUMBER($count) } 段錄音
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] { $count }錄音片段
+    }
 help-share-goal = 幫助我們找更多人參與錄音，分享您的目標
 confirm-goal = 確認目標
 goal-interval-weekly = 每週
