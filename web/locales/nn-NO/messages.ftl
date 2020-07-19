@@ -343,7 +343,7 @@ retry-voice-wave-recording = PRØV IGJEN
 re-record = SPEL INN PÅ NYTT
 delete-voice = SLETT
 recording-voice-wave = Innspeling
-delete-voice-clip = eller Slett lydklipp
+delete-voice-clip = eller Slett stemmeklipp
 ready-to-upload = Last opp
 avatar-clip-fact = Det er eit etablert faktum at ein lesar vil bli distrahert av sideinnhaldet når vedkomande studerer oppsettet til sida.
 recreate-voice = Bygg oppatt Lydklipp
@@ -618,7 +618,6 @@ contribute = Bidra
 listen = Lytt
 skip = Hopp over
 shortcuts = Snarvegar
-clips-with-count = <bold>{ $count }</bold> klipp
 goal-help-recording = Du har hjelpt Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglege opptaksmål på { $goalValue }!
 goal-help-validation = Du har hjelpt Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglige valideringsmål på { $goalValue }!
 contribute-more =
@@ -749,13 +748,8 @@ want-to-continue = Vil du fortsetje?
 finish-editing = Vil du fullføre redigeringa først?
 lose-changes-warning = Å avslutte no tyder at du mistar endringane dine
 build-custom-goal = Lag eit tilpassa mål
-help-reach-hours = Hjelp til med å nå { NUMBER($hours) } timar på { $language } med eit personleg mål
-help-reach-hours-general = Hjelp Common Voice med å nå { NUMBER($hours) } timar på eit språk med eit personlig mål
 set-a-goal = Sett deg eit mål
 cant-decide = greier du ikkje å bestemme deg+
-activity-needed-calculation =
-    { NUMBER($totalHours) } timar er oppnåeleg på drygt { NUMBER($periodMonths) }
-    månadar dersom { NUMBER($people) } folk registrerer { NUMBER($clipsPerDay) } klipp om dagen.
 how-many-per-day = Flott! Kor mange klipp pr. dag?
 how-many-a-week = Flott! Kor mange klipp i veka?
 which-goal-type = Vil du snakke, lytte eller begge delar?
@@ -765,7 +759,6 @@ receiving-emails-info =
 not-receiving-emails-info =
     Du er for tida sett opp til å <bold>IKKE</bold> få e-postar som målpåminningar, personlege
     framdriftsoppdateringar og nyheitsbrev om Common Voice
-n-clips = { NUMBER($count) } klipp
 help-share-goal = Hjelp oss med å finne fleire stemmer, del måla dine
 confirm-goal = Stadfest mål
 goal-interval-weekly = Kvar veke
