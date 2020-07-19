@@ -630,8 +630,8 @@ skip = Hoppa över
 shortcuts = Genvägar
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count } Klipp
-       *[other] <bold>{ $count } Flera Klipp
+        [one] <bold>{ $count } klipp
+       *[other] <bold>{ $count } klipp
     }
 goal-help-recording = Du har hjälpt Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
 goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
@@ -768,12 +768,12 @@ help-reach-hours-pluralized =
     Hjälp oss nå{ NUMBER($hours) ->
         [one] { $hours } timme
        *[other] { $hours } timmar
-    }på ett { $language } med ett personligt mål
+    } på { $language } med ett personligt mål
 help-reach-hours-general-pluralized =
     Hjälp Common Voice nå{ NUMBER($hours) ->
         [one] { $hours } timme
        *[other] { $hours } timmar
-    }på ett språk med ett personligt mål
+    } på ett språk med ett personligt mål
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
 activity-needed-calculation-plural =
