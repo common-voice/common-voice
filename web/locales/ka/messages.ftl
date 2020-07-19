@@ -754,8 +754,32 @@ want-to-continue = გსურთ, განაგრძოთ?
 finish-editing = გსურთ, ჯერ ჩასწორების დასრულება?
 lose-changes-warning = ახლავე დატოვებით თქვენი ცვლილებები დაიკარგება
 build-custom-goal = საკუთარი მიზნის შექმნა
+help-reach-hours-pluralized =
+    დაგვეხმარეთ მივაღწიოთ{ NUMBER($hours) ->
+        [one] { $hours } საათს
+       *[other] { $hours } საათს
+    }{ $language } ენისთვის, პირადი მიზნის დასახვით
+help-reach-hours-general-pluralized =
+    დაგვეხმარეთ Common Voice-ში მივაღწიოთ{ NUMBER($hours) ->
+        [one] { $hours } საათს
+       *[other] { $hours } საათს
+    }ენისთვის, პირადი მიზნის დასახვით
 set-a-goal = მიზნის მითითება
 cant-decide = ვერ გადაგიწყვეტიათ?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } საათის
+       *[other] { $totalHours } საათის
+    }მიიღწევა სულ რაღაც{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } თვეში
+       *[other] { $periodMonths } თვეში
+    }თუ{ NUMBER($people) ->
+        [one] { $people } ადამიანი
+       *[other] { $people } ადამიანი
+    }გააკეთებს{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } ჩანაწერს
+       *[other] { $clipsPerDay } ჩანაწერს
+    }დღეში
 how-many-per-day = მშვენიერია! რამდენი ჩანაწერი ყოველდღიურად?
 how-many-a-week = მშვენიერია! რამდენი ჩანაწერი ყოველკვირეულად?
 which-goal-type = გირჩევნიათ წარმოთქმა, მოსმენა, თუ ორივე?
@@ -763,6 +787,11 @@ receiving-emails-info =
     თქვენ მითითებული გაქვთ, რომ გსურთ ელფოსტაზე მიიღოთ შეხსენებები შესასრულებელი მიზნების,
     აგრეთვე სამუშაოს მიმდინარეობის შესახებ და Common Voice-სთან დაკავშირებული სიახლეები.
 not-receiving-emails-info = თქვენ მითითებული გაქვთ, რომ <bold>არ</bold> გსურთ ელფოსტაზე მიიღოთ შეხსენებები შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და Common Voice-სთან დაკავშირებული სიახლეები
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ჩანაწერი
+       *[other] { $count } ჩანაწერი
+    }
 help-share-goal = დაგვეხმარეთ მეტი ხმის მოძიებაში, გააზიარეთ თქვენი მიზანი
 confirm-goal = მიზნის დადასტურება
 goal-interval-weekly = ყოველკვირეული
