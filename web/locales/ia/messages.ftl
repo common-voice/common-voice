@@ -501,6 +501,7 @@ data-bundle-description = Le datos de Common Voice plus tote le altere collectio
 license = Licentia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
 data-download-singleword-title = Discarga le segmento specific con parolas singule.
+data-download-singleword-callout = Isto es un segmento ducite per "casos de uso" que contine datos pro potentiar le recognition vocal del cifras, le relevamento de “sì”/“no” e pro testar datos del parolas de re-activation pro <fxLink>Firefox Voice</fxLink>.
 review-terms = Per usar Common Voice, tu accepta nostre <termsLink>terminos de uso</termsLink> e le <privacyLink>aviso de confidentialitate</privacyLink>
 terms-agree = Io accepta
 terms-disagree = Io non accepta
@@ -757,6 +758,16 @@ want-to-continue = Desira tu continuar?
 finish-editing = Fini primo le modificationes?
 lose-changes-warning = Si tu exi ora, tu perdera tu modificationes
 build-custom-goal = Crea un objectivo personal
+help-reach-hours-pluralized =
+    Adjuta attinger{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    }in { $language } con un objectivo personal.
+help-reach-hours-general-pluralized =
+    Adjuta Common Voice attinger{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    } in un lingua con un objectivo personal
 set-a-goal = Definir un objectivo
 cant-decide = Impossibile decider?
 how-many-per-day = Magnific! Quante retalios per die?
