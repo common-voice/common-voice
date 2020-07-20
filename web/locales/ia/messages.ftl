@@ -500,6 +500,7 @@ data-bundle-button = Discargar le pacco del collection de datos
 data-bundle-description = Le datos de Common Voice plus tote le altere collectiones de datos vocal precedente.
 license = Licentia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
+data-download-singleword-title = Discarga le segmento specific con parolas singule.
 review-terms = Per usar Common Voice, tu accepta nostre <termsLink>terminos de uso</termsLink> e le <privacyLink>aviso de confidentialitate</privacyLink>
 terms-agree = Io accepta
 terms-disagree = Io non accepta
