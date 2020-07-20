@@ -621,6 +621,11 @@ contribute = Contribuie
 listen = Ascultă
 skip = Sari peste
 shortcuts = Comenzi rapide
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Clip
+       *[other] <bold>{ $count }</bold> Clipuri
+    }
 goal-help-recording = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } înregistrări!
 goal-help-validation = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } validări!
 contribute-more =
@@ -667,6 +672,10 @@ record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
 keep-track-profile = Urmărește-ți progresul cu ajutorul unui profil
 login-to-get-started = Autentifică-te sau înregistrează-te pentru a începe
+target-segment-first-card = Contribui la primul nostru segment-țintă
+target-segment-first-banner = Ajută-ne să creăm primul segment-țintă Common Voice în { $locale }
+target-segment-add-voice = Adaugă-ți vocea
+target-segment-learn-more = Află mai multe
 
 ## Reporting
 
@@ -738,6 +747,7 @@ show-ranking = Afișează ce loc am în clasament
 
 get-started-goals = Introducere în obiective
 create-custom-goal = Creează un obiectiv personalizat
+goal-type = Ce fel de obiectiv vrei să creezi?
 both-speak-and-listen = Ambele
 both-speak-and-listen-long = Ambele (vorbire și ascultare)
 daily-goal = Obiectiv zilnic
@@ -751,8 +761,38 @@ want-to-continue = Vrei să continui?
 finish-editing = Termini mai întâi editarea?
 lose-changes-warning = Dacă ieși acum, vei pierde modificările efectuate
 build-custom-goal = Creează un obiectiv personalizat
+help-reach-hours-pluralized =
+    Ajută-ne să ajungem la{ NUMBER($hours) ->
+        [one] { $hours } oră
+        [few] { $hours } ore
+       *[other] { $hours } de ore
+    } în { $language }, cu un obiectiv personal
+help-reach-hours-general-pluralized =
+    Ajută Common Voice să ajungă la{ NUMBER($hours) ->
+        [one] { $hours } oră
+        [few] { $hours } ore
+       *[other] { $hours } de ore
+    } într-o limbă, cu un obiectiv personal
 set-a-goal = Stabilește un obiectiv
 cant-decide = Nu te poți decide?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } oră
+        [few] { $totalHours } ore
+       *[other] { $totalHours } de ore
+    } se poate(pot) atinge în numai{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } lună
+        [few] { $periodMonths } luni
+       *[other] { $periodMonths } de luni
+    } dacă{ NUMBER($people) ->
+        [one] { $people } persoană
+        [few] { $people } persoane
+       *[other] { $people } de persoane
+    } înregistrează{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } secvență vocală
+        [few] { $clipsPerDay } secvențe vocale
+       *[other] { $clipsPerDay } de secvențe vocale
+    } pe zi.
 how-many-per-day = Grozav! Câte înregistrări pe zi?
 how-many-a-week = Grozav! Câte înregistrări pe săptămână?
 which-goal-type = Vrei să vorbești, să asculți sau ambele?
