@@ -11,7 +11,7 @@ loading = Cargamento…
 email-opt-in-info = Io volerea reciper e-mails como rememorationes de objectivos, actualisationes de mi progresso e bulletines de novas sur Common Voice.
 email-opt-in-info-title = Inscribe te al lista de diffusion de Common Voice
 email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de defias e objectivos, actualisationes de progresso e bulletines de novas sur Common Voice.
-email-opt-in-privacy = Si tu opta pro reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate<privacyLink>.
+email-opt-in-privacy-v2 = Si tu opta de reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
 
@@ -620,7 +620,11 @@ contribute = Contribuer
 listen = Ascolta
 skip = Saltar
 shortcuts = Accessos directe
-clips-with-count = <bold>{ $count }</bold> retalios
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> registration
+       *[other] <bold>{ $count }</bold> registrationes
+    }
 goal-help-recording = Tu ha adjutate Common Voice a attinger <goalPercentage></goalPercentage> de su objectivo quotidian de { $goalValue } registrationes!
 goal-help-validation = Tu ha adjutate Common Voice a attinger <goalPercentage></goalPercentage> de su objectivo quotidian de { $goalValue } validationes!
 contribute-more =
@@ -738,6 +742,7 @@ show-ranking = Monstrar mi classification
 
 get-started-goals = Comencia a usar le objectivos
 create-custom-goal = Crear un Objectivo personal
+goal-type = Qual typo de proposito desira tu cunstruer?
 both-speak-and-listen = Ambe
 both-speak-and-listen-long = Ambe (Parlar e Ascoltar)
 daily-goal = Objectivo quotidian
@@ -751,17 +756,13 @@ want-to-continue = Desira tu continuar?
 finish-editing = Fini primo le modificationes?
 lose-changes-warning = Si tu exi ora, tu perdera tu modificationes
 build-custom-goal = Crea un objectivo personal
-help-reach-hours = Adjuta a attinger { NUMBER($hours) } horas in { $language } con un objectivo personal
-help-reach-hours-general = Adjuta Common Voice a attinger { NUMBER($hours) } horas in un lingua con un objectivo personal
 set-a-goal = Definir un objectivo
 cant-decide = Impossibile decider?
-activity-needed-calculation = Nos pote attinger { NUMBER($totalHours) } horas in solo { NUMBER($periodMonths) } menses si { NUMBER($people) } personas registra { NUMBER($clipsPerDay) } retalios per die.
 how-many-per-day = Magnific! Quante retalios per die?
 how-many-a-week = Magnific! Quante retalios per septimana?
 which-goal-type = Vole tu parlar, ascoltar o ambe?
 receiving-emails-info = Tu ha optate pro reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
 not-receiving-emails-info = Tu ha optate pro <bold>NON</bold> reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
-n-clips = { NUMBER($count) } retalios
 help-share-goal = Adjuta nos a trovar plus voces, comparti tu objectivo
 confirm-goal = Confirmar objectivo
 goal-interval-weekly = Septimanal
