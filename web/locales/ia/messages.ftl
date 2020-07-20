@@ -770,6 +770,20 @@ help-reach-hours-general-pluralized =
     } in un lingua con un objectivo personal
 set-a-goal = Definir un objectivo
 cant-decide = Impossibile decider?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } hora
+       *[other] { $totalHours } horas
+    } es attingibile solo in ultra{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mense
+       *[other] { $periodMonths } menses
+    } si { NUMBER($people) ->
+        [one] { $people } persona
+       *[other] { $people } personas
+    } registra { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } registration
+       *[other] { $clipsPerDay } registrationes
+    } cata die.
 how-many-per-day = Magnific! Quante retalios per die?
 how-many-a-week = Magnific! Quante retalios per septimana?
 which-goal-type = Vole tu parlar, ascoltar o ambe?
