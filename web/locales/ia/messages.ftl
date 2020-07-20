@@ -763,6 +763,11 @@ how-many-a-week = Magnific! Quante retalios per septimana?
 which-goal-type = Vole tu parlar, ascoltar o ambe?
 receiving-emails-info = Tu ha optate pro reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
 not-receiving-emails-info = Tu ha optate pro <bold>NON</bold> reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } registration
+       *[other] { $count } registrationes
+    }
 help-share-goal = Adjuta nos a trovar plus voces, comparti tu objectivo
 confirm-goal = Confirmar objectivo
 goal-interval-weekly = Septimanal
