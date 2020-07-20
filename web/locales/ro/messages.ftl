@@ -623,8 +623,9 @@ skip = Sari peste
 shortcuts = Comenzi rapide
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> Clip
-       *[other] <bold>{ $count }</bold> Clipuri
+        [one] <bold>{ $count }</bold> secvență vocală
+        [few] <bold>{ $count }</bold> secvențe vocale
+       *[other] <bold>{ $count }</bold> de secvențe vocale
     }
 goal-help-recording = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } înregistrări!
 goal-help-validation = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } validări!
@@ -798,6 +799,12 @@ how-many-a-week = Grozav! Câte înregistrări pe săptămână?
 which-goal-type = Vrei să vorbești, să asculți sau ambele?
 receiving-emails-info = Ai optat ca să primești e-mailuri precum mementouri de obiective, actualizări despre progres și buletine informative despre Common Voice
 not-receiving-emails-info = Ai optat ca să <bold>NU</bold> primești e-mailuri precum mementouri de obiective, actualizări cu progresul înregistrat și buletine informative despre Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } secvență vocală
+        [few] { $count } secvențe vocale
+       *[other] { $count } de secvențe vocale
+    }
 help-share-goal = Ajută-ne să găsim mai multe voci; partajează-ți obiectivul
 confirm-goal = Confirmă obiectivul
 goal-interval-weekly = Săptămânal
