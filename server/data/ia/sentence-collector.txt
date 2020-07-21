@@ -62,6 +62,7 @@ A qualque personas place le laros, a alteres non.
 A quatro annos ille sapeva jam leger e scriber.
 A que hora comencia le partita?
 A que hora del die sorti tu pro tu promenada quotidian?
+A que hora sole tu levar te?
 A que hora te leva tu generalmente?
 A que hora te leva tu normalmente?
 A que servi le amicos?
@@ -157,6 +158,7 @@ Amar es amar
 Amar es amar, quando amar non es amar como on debe vermente amar.
 Ambe elephantes e simias ha un memoria capabile.
 Ambe le effectos nocebo e placebo es presumibilemente psychogenic.
+Ambe le fratres esseva foras.
 Ambula ad intra.
 Amen.
 Americanos ama haber un barbecue.
@@ -564,7 +566,9 @@ Conta me le composition de iste material.
 Conta me que tu pensa.
 Conta me que videva tu.
 Conta me re Maximo.
+Contender le precio non obliga a comprar.
 Contente de facer vostre cognoscentia!
+Continua a natar usque a tu limite.
 Continua assi!
 Contra le muro!
 Contrasignos forte non ha a ser dur a rememorar.
@@ -672,6 +676,7 @@ Deposita le moneta in un banca, per favor.
 Descende ab le pulpito.
 Descende.
 Desde alora alcun mysteriose fortia ha luctate nos in cata grado.
+Desde ora tu essera toto sol.
 Desde quando es tu hic?
 Desde quando habita vos in Tokio?
 Desde que illa videva un designo de un plesiosauro.
@@ -789,6 +794,7 @@ Ecce que ille veni.
 Ecce que illes veni.
 Ecce que veni Peter.
 Ecce que veni nostre inseniante.
+Ecce un pomo.
 Ecce un summario del presentation.
 Education es multo importante.
 Ego prefere contemplar le belle cosas e odia laborar.
@@ -828,6 +834,7 @@ Es illa belle?
 Es illa japonese?
 Es illa lor filia unic?
 Es illa maritate?
+Es illa su filia unic?
 Es illa vostre filia unic?
 Es illac un coperifoco?
 Es ille Japonese?
@@ -1071,6 +1078,7 @@ Facebook collige datos re non-membros.
 Facer bon facie a mal jocos.
 Facer camino pro lancear se in un aventura.
 Facer lo que tu vole.
+Facera il calor deman?
 Fadil prendeva le prime volo a Cairo.
 Faller a su examine esseva un amar disillusion pro ille.
 Familia es plus importante que amicos.
@@ -2002,6 +2010,7 @@ Ille bibeva bira.
 Ille bibeva un bira.
 Ille bibeva un bottilia de vino.
 Ille cantava un canto.
+Ille cedeva al pression.
 Ille celebrava un festa exorbitante.
 Ille cerca un cinctura de corio.
 Ille clarmente adora su duo cattos.
@@ -6089,6 +6098,7 @@ Nostre guida contava nos historias de mythologia scandinave in un accento galles
 Nostre horto es plen de rosas.
 Nostre influentia sur lor monopolio es minuscule.
 Nostre inseniante rarmente ride.
+Nostre melior aviso es, non misce negotios con placer.
 Nostre melior aviso pro te personalmente es: non misce negotios con placer.
 Nostre nove intelligentia artificial pote adaptar dynamicamente le equilibrio del joco.
 Nostre opiniones concorda con le lores quanto al punctos essential.
@@ -7074,6 +7084,7 @@ Que facera nos?
 Que facera tu hodie?
 Que faceva ille postea?
 Que faceva tu heri vespere?
+Que faceva tu?
 Que festa splendide!
 Que genere de film vole tu reguardar?
 Que grande can!
@@ -7113,6 +7124,7 @@ Que le diabolo le excoria le naso.
 Que le sage ascolta e accrescera su sapientia, e le homine perspicace acquirera consilio.
 Que lege tu?
 Que leva le anima disincantate del humanitate al culmine del abnegation liberatori.
+Que malitia!
 Que manca?
 Que mangia Ken?
 Que mantene Jacobo?
@@ -7652,12 +7664,15 @@ Tal esseva su delecto que illa comenciava a dansar.
 Tam capites quam sententias.
 Tanto gentil e tanto honeste pare.
 Tanto va le catta al lardo que ibi lassa su pede.
+Taro, pote tu adjutar me?
 Te Deo nos lauda!
+Te displace si io fuma?
 Te disturba io?
 Te enoia io?
 Te face illo triste?
 Te ha Peter menaciate?
 Te ha Peter oblidate?
+Te interessa le musica classic?
 Te place Peter?
 Te place, eh?
 Te placerea jocar al tennis dominica?
