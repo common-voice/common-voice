@@ -538,9 +538,9 @@ review-delete-recordings = Izbriši moje snimke
 
 datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu koristiti za podučavanje govornih programa.
 datasets-positioning =
-    Vjerujemo da će veliki, javno dostupni skupovi podataka za govor potaknuti inovacije i zdravu tržišnu konkurenciju u govornoj tehnologiji utemeljenoj na strojnom učenju.
+    Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju govorne tehnologije, utemeljene na strojnom učenju.
     
-    Višejezični skup podataka Common Voice već je najveći javno dostupan glasovni skup podataka takve vrste, ali nije jedini.
+    Višejezični skup podataka Common Voicea već je najveći javno dostupan glasovni skup podataka takve vrste, ali nije jedini.
     
     Pogledaj ovu stranicu kao referencu za druge skupove podataka otvorenog koda i, kako Common Voice raste, bit će izvor za naša buduća izdanja.
 language = Jezik
