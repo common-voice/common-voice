@@ -822,8 +822,8 @@ receiving-emails-info =
     S tvojim trenutačnim postavkama primat ćeš e-mailove kao što su podsjetnici za ciljeve,
     aktualiziranja vlastitog napretka i biltene Common Voicea
 not-receiving-emails-info =
-    S tvojim trenutačnim postavkama <bold>NE PRIMAŠ</bold> poruke e-pošte kao što su podsjetnici za ciljeve,
-    aktualiziranja vlastitog napretka i novosti o Common Voice
+    S tvojim trenutačnim postavkama <bold>NE PRIMAŠ</bold> e-mailove kao što su podsjetnici za ciljeve,
+    aktualiziranja vlastitog napretka i biltene Common Voicea
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } isječak
@@ -865,6 +865,6 @@ profile-form-delete = Obriši profil
 
 welcome-staff = Dobrodošli { $company } suradnici!
 help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaranjem Common Voice profila i doprinošenjem vlastitog glasa.
-login-company = Prijavi se / registriraj se s { $company } e-adresom
+login-company = Prijavi se / registriraj se s { $company } e-mail adresom
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
 read-more-about = Pročitaj više na našoj stranici Informacije
