@@ -51,8 +51,6 @@
         }
 
         & .fraction {
-            border-inline-end: 1px solid var(--desert-storm);
-            padding-inline-end: 20px;
             color: var(--type-color);
 
             @media (max-width: 420px) {
