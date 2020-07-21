@@ -321,7 +321,7 @@ native-language =
 profile-form-submit-save = Spremi
 profile-form-submit-saved = Spremljeno
 male = Muški
-female = Žensko
+female = Ženski
 # Gender
 other = Ostalo
 why-profile-title = Zašto profil?
@@ -427,9 +427,9 @@ faq-how-privacy-q = Kako osiguravate anonimnost i privatnost ljudi koji su donir
 faq-how-privacy-a = Svim glasovnim isječcima u skupu podataka brišu se osobni podaci. Kad doprinositelji daju demografske podatke putem svog profila, te se informacije uklanjaju iz njihovih glasovnih isječaka prije nego što se pakiraju za preuzimanje u skup podataka i nikad se ne objavljuju na njihovoj stranici profila.
 faq-what-determine-identity-q = Što znači, da ne mogu „utvrditi identitet” govornika u skupu podataka Common Voice?
 faq-what-determine-identity-a =
-    Skup podataka Common Voice otvoren je i javno dostupan resurs, koji se može koristiti za učenje raznih programa koji omogućuju govor. Da bismo zaštitili sigurnost naših suradnika, molimo sve koji preuzmu skup podataka zajedničkog glasa, da poštuju privatnost suradnika.
+    Skup podataka Common Voice otvoren je i javno dostupan resurs, koji se može koristiti za učenje raznih programa koji omogućuju govor. Da bismo zaštitili sigurnost naših suradnika, molimo sve koji preuzmu skup podataka Common Voice, da poštuju privatnost suradnika.
     
-    Svi osobni podaci glasovnih isječaka su izbrisani. Kad preuzmeš skup podataka, prihvaćaš da nećeš pokušati utvrditi identitet bilo kojeg suradnika. To znači, da ne možeš pokušati povezati podatke u skupu podataka s osobnim podacima suradnika. Međutim, možeš koristiti skup podataka za treniranje prepoznavanja govora, prepoznavanja govornika ili drugih aplikacija, tako što ćeš npr. povezati podatke u skupu podataka s drugim podacima koji se već nalaze u skupu podataka.
+    Svi osobni podaci glasovnih isječaka se brišu. Kad preuzmeš skup podataka, prihvaćaš da nećeš pokušati utvrditi identitet bilo kojeg suradnika. To znači, da ne možeš pokušati povezati podatke u skupu podataka s osobnim podacima suradnika. Međutim, možeš koristiti skup podataka za treniranje prepoznavanja govora, prepoznavanja govornika ili drugih aplikacija, tako što ćeš npr. povezati podatke u skupu podataka s drugim podacima koji se već nalaze u skupu podataka.
 faq-what-is-cv = Što je Common Voice?
 faq-using-cv = Common Voice upotreba
 faq-description = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom.
@@ -538,11 +538,11 @@ review-delete-recordings = Izbriši moje snimke
 
 datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu koristiti za podučavanje govornih programa.
 datasets-positioning =
-    Vjerujemo da će veliki, javno dostupni setovi podataka za govor potaknuti inovacije i zdravu tržišnu konkurenciju u govornoj tehnologiji utemeljenoj na strojnom učenju.
+    Vjerujemo da će veliki, javno dostupni skupovi podataka za govor potaknuti inovacije i zdravu tržišnu konkurenciju u govornoj tehnologiji utemeljenoj na strojnom učenju.
     
     Višejezični skup podataka Common Voice već je najveći javno dostupni glasovni skup podataka takve vrste, ali nije jedini.
     
-    Pogledajte ovu stranicu kao referencu za druge skupove podataka s otvorenim kodom i, kako Common Voice i dalje raste, dom za naša ažurirana izdanja.
+    Pogledaj ovu stranicu kao referencu za druge skupove podataka otvorenog koda i, kako Common Voice i bude i dalje rastao, bit će izvor za naša buduća izdanja.
 language = Jezik
 # File size in gigabytes
 size = Veličina
