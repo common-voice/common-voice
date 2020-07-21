@@ -44,7 +44,7 @@ const Circle = ({
   />
 );
 
-const RADIUS = 32;
+const RADIUS = 34;
 const STROKE = 2;
 
 export function CircleProgress({
@@ -60,6 +60,11 @@ export function CircleProgress({
   radius?: number;
   strokeW?: number;
 }) {
+  if (0.1 <= value || value <= 0.99) {
+    radius = 44;
+  } else if (value >= 1) {
+    radius = 50;
+  }
   const circumference = 2 * Math.PI * radius;
   const center = radius + strokeW;
   const size = center * 2;
@@ -92,7 +97,12 @@ export function CircleProgress({
       {denominator ? (
         <Fraction numerator={value} denominator={denominator} />
       ) : (
-        <Fraction numerator={Math.round(100 * value)} percentage />
+        <Fraction
+          numerator={
+            Math.round(100 * value) >= 100 ? '100' : Math.round(100 * value)
+          }
+          percentage
+        />
       )}
     </div>
   );
