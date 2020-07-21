@@ -2,7 +2,7 @@
 
 yes-receive-emails = Da, šaljite mi emailove. Želim primati novosti o projektu Common Voice.
 stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i saznati kako koristiš te podatke.
-privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Saznaj više u našim <privacyLink>napomenama o zaštiti privatnosti</privacyLink>.
+privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Saznaj više u našim <privacyLink>napomenama o privatnosti</privacyLink>.
 return-to-cv = Povratak na Common Voice
 email-input =
     .label = Email
@@ -249,7 +249,7 @@ join-newsletter = Ako želiš, pridruži se na naš popis e-pošte za dobivanje 
 
 whats-public = Što je javno?
 email-not-public = Tvoju adresu e-pošte nećemo javno objavljivati.
-recordings-and-locale-public = Broj snimaka i jezici na kojima doprinosiš, bit će javni.
+recordings-and-locale-public = Broj snimaka i jezika kojima doprinosiš, bit će javni.
 username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime ili ne.
 demographic-deidentified-clarity = Opcionalno poslani demografski podaci (kao što su dob, spol, jezik i naglasak) nikada neće biti objavljeni na tvom profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedine audio snimke bit će povezane s demografskim podacima radi točnije analize – na primjer, istraživač će možda željeti usmjeriti model treninga na određeni demografski segment.
 username-email-not-demographic = Tvoje korisničko ime i adresa e-pošte neće biti povezani s objavljenim podacima.
@@ -338,8 +338,8 @@ profile-explanation = Prati svoj napredak pomoću profila i pomogni ispravljati 
 thanks-for-account = Zahvaljujemo što ste potvrdili svoj račun, a sada kreirajmo vaš profil.
 why-demographic = Zašto je to važno?
 why-demographic-explanation = Anonimni podaci korisnika poput dobi, spola i narječja, pomažu poboljšati audio podatke koji se koriste za točnost učenja programa za prepoznavanje govora. Tvoje korisničko ime i e-pošta nikada neće biti povezani s tvojim poslanim podacima. Uz to možeš odabrati, želiš li objaviti svoje korisničko ime ili ne.
-accept-privacy = Slažem se s načinom rukovanja s ovim podacima kao što je objašnjeno u Mozillinim <privacyLink> Pravilima o privatnosti </privacyLink>
-accept-privacy-title = Pravila o privatnosti
+accept-privacy = Slažem se s načinom rukovanja s ovim podacima kao što je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>
+accept-privacy-title = Politika privatnosti
 login-identity = Identitet prijave
 login-signup = Prijavi se / Registriraj se
 edit = Uredi
@@ -407,7 +407,7 @@ faq-why-different-speakers-a =
     Većina govornih baza podataka obučena je s prekomjernom prezentacijom određenih demografskih podataka što rezultira pristranosti prema <articleLink>muškom rodu i srednjoj klasi</articleLink>. Akcenti i dijalekti koji su nedovoljno zastupljeni u skupovima podataka obično su povezani s skupinama ljudi koji su već marginalizirani. Mnogi se strojevi također bore razumjeti ženski glas.
     To je razlog zašto u našoj govornoj bazi podataka želimo raznolikost!
 faq-why-my-lang-q = Zašto moj jezik još nije uključen?
-faq-why-my-lang-new-a = Mozilla ne favorizira niti jedan jezik nad drugim. Umjesto toga, Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovnih doprinosa. Najprije se Common Voice web stranica mora prevesti, kako bi joj članovi zajednice mogli pristupiti na materinskom jeziku. Nadalje nam je potrebna velika količina rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se jezik „lansira”, kako bi ljudi započeli snimati svoj glas i potvrđivati druge doprinose. Ako želiš pomoći započeti novi jezik, prijeđi na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>.
+faq-why-my-lang-new-a = Mozilla ne daje prednost niti jednom jeziku. Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovnih doprinosa. Common Voice web-stranica se najprije mora prevesti, kako bi joj članovi zajednice mogli pristupiti na materinskom jeziku. Nadalje nam je potrebna velika količina rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se jezik „lansira”, kako bi ljudi započeli snimati svoj glas i potvrđivati druge doprinose. Ako želiš pomoći započeti novi jezik, prijeđi na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>.
 faq-what-quality-q = Koja je kvaliteta zvuka potrebna za korištenje glasovnog isječka?
 faq-what-quality-a = Želimo da podaci skupa Common Voice odražavaju kvalitetu zvuka koju će mehanizam za govor-u-tekst razumjeti, te stoga tražimo različitost. Pored raznolike zajednice govornika, skup podataka s različitom kvalitetom zvuka, podučit će mehanizam za govor-u-tekst, riješiti razne situacije u stvarnom svijetu, od razgovora u pozadini, do buke u automobilu. Sve dok je tvoj glasovni isječak razumljiv, trebao bi biti dovoljno dobar za skup podataka.
 faq-why-10k-hours-q = Zašto je postavljen cilj od 10 000 potvrđenih sati po jeziku?
@@ -418,7 +418,7 @@ faq-where-src-from-2-q = Od kuda dolazi izvorni tekst?
 faq-where-src-from-2-a =
     Naš izvorni tekst se sastoji od originalnih donacija autora, kao i dijaloga iz skripata filmova iz javnog vlasništva, poput <italic>It is a Wonderful Life</italic>.
     
-    Naše izvorne rečenice možete pogledati u ovoj <githubLink>GitHub mapi</githubLink>.
+    Naše izvorne rečenice možeš pogledati u ovoj <githubLink>GitHub mapi</githubLink>.
 faq-why-not-ask-read-q = Zašto ne tražite od ljudi da čitaju iz knjiga ili članaka na Wikipediji na različitim jezicima?
 faq-why-not-ask-read-a = Kako bi skup podataka Common Voice bio što korisniji, odlučili smo dozvoliti samo izvorne tekstove koji su dostupni pod licencom Creative Commons (CC0). Upotreba CC0 standarda znači da je teže pronaći i prikupiti izvorni tekst, ali omogućuje bilo kojem korisniku koristiti dobivene glasovne podatke bez ograničenja i bez odobrenja tvrtke Mozilla. Na kraju krajeva, želimo da višejezični skup podataka bude što korisniji svima, uključujući istraživače, sveučilišta, startapove, vlade, javne organizacije i hobiste.
 faq-why-account-q = Zašto otvoriti račun?
@@ -658,7 +658,7 @@ contribute-more =
     }
 record-cta = Počni snimati
 record-platform-not-supported = Žao nam je, ali vaša platforma trenutačno nije podržana.
-record-platform-not-supported-desktop = Na stolnim računalima možete preuzeti najnovije:
+record-platform-not-supported-desktop = Na stolnim računalima možeš doprinijeti, preuzimanjem …
 record-platform-not-supported-ios-non-safari = Na iOS-u nastavi sa Safarijem kako bi se omogućilo snimanje …
 record-must-allow-microphone = Morate dopustiti pristup mikrofonu.
 record-no-mic-found = Nije pronađen mikrofon.
@@ -796,7 +796,7 @@ help-reach-hours-general-pluralized =
        *[other] { $hours } sati
     }za jezik s osobnim ciljem
 set-a-goal = Postavi cilj
-cant-decide = Ne možete se odlučiti?
+cant-decide = Ne možeš se odlučiti?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } sat
