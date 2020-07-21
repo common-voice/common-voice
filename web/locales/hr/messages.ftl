@@ -10,8 +10,8 @@ submit-form-action = Pošalji
 loading = Učitavanje…
 email-opt-in-info = Želim primati e-mailove poput podsjetnika o ciljevima, novostima o napretku i bilten Common Voicea.
 email-opt-in-info-title = Pridruži se mailing listi Common Voicea
-email-opt-in-info-sub-with-challenge = Primaj e-poštu poput podsjetnika o izazovima i ciljevima, aktualiziranja o napretku i biltene o Common Voice.
-email-opt-in-privacy-v2 = S prihvaćanjem primanja e-mail poruka, pristaješ na obradu tvojih podataka, kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>.
+email-opt-in-info-sub-with-challenge = Primaj e-mailove poput podsjetnika o izazovima i ciljevima, novostima o napretku i bilten Common Voicea.
+email-opt-in-privacy-v2 = Prihvaćanjem primanja e-mail poruka, pristaješ na obradu tvojih podataka, kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>.
 indicates-required = * obilježava obvezno polje
 not-available-abbreviation = N/A
 
@@ -232,8 +232,8 @@ x-years-short =
     }
 help-make-dataset = Pomogni nam izgraditi kvalitetan i javno dostupan skup podataka
 sign-up-account = Otvorite račun
-email-subscription-title = pretplati se na novosti putem e-pošte
-email-subscription-title-new = Pretplati se na Common Voice bilten, na podsjetnike o ciljevima i na novosti o napretku
+email-subscription-title = pretplati se na novosti putem e-maila
+email-subscription-title-new = Pretplati se na bilten Common Voicea, na podsjetnike o ciljevima i na novosti o napretku
 
 ## Account Benefits
 
@@ -243,16 +243,16 @@ improve-audio = Podaci profila poboljšavaju glasovne podatke koji se koriste za
 keep-track = Prati svoj napredak i mjerne podatke za jezike.
 compare-progress = Usporedi svoj napredak s ostalim suradnicima u cijelom svijetu.
 view-goals = Usporedi napredak vlastitih ciljeva s ciljevima projekta.
-join-newsletter = Ako želiš, pridruži se na naš popis e-pošte za dobivanje obavijesti o novim verzijama te novim informacijama o projektu.
+join-newsletter = Ako želiš, pridruži se na naš popis e-maila za dobivanje obavijesti o novim verzijama te novim informacijama o projektu.
 
 ## What's public
 
 whats-public = Što je javno?
-email-not-public = Tvoju adresu e-pošte nećemo javno objavljivati.
+email-not-public = Tvoju e-mail adresu nećemo javno objavljivati.
 recordings-and-locale-public = Broj snimaka i jezika kojima doprinosiš, bit će javni.
 username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime ili ne.
 demographic-deidentified-clarity = Opcionalno poslani demografski podaci (kao što su dob, spol, jezik i naglasak) nikada neće biti objavljeni na tvom profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedine audio snimke bit će povezane s demografskim podacima radi točnije analize – na primjer, istraživač će možda željeti usmjeriti model treninga na određeni demografski segment.
-username-email-not-demographic = Tvoje korisničko ime i adresa e-pošte neće biti povezani s objavljenim podacima.
+username-email-not-demographic = Tvoje korisničko ime i e-mail adresa neće biti povezani s objavljenim podacima.
 
 ## Speak & Listen Shortcuts
 
@@ -337,13 +337,13 @@ profile-close = Zatvori
 profile-explanation = Prati svoj napredak pomoću profila i pomogni ispravljati naše glasovne podatke.
 thanks-for-account = Zahvaljujemo što ste potvrdili svoj račun, a sada kreirajmo vaš profil.
 why-demographic = Zašto je to važno?
-why-demographic-explanation = Anonimni podaci korisnika poput dobi, spola i narječja, pomažu poboljšati audio podatke koji se koriste za točnost učenja programa za prepoznavanje govora. Tvoje korisničko ime i e-pošta nikada neće biti povezani s tvojim poslanim podacima. Uz to možeš odabrati, želiš li objaviti svoje korisničko ime ili ne.
+why-demographic-explanation = Anonimni podaci korisnika poput dobi, spola i narječja, pomažu poboljšati audio podatke koji se koriste za točnost učenja programa za prepoznavanje govora. Tvoje korisničko ime i e-mail adresa nikada neće biti povezani s tvojim poslanim podacima. Uz to možeš odabrati, želiš li objaviti svoje korisničko ime ili ne.
 accept-privacy = Slažem se s načinom upotrebe ovih podataka kao što je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>
 accept-privacy-title = Politika privatnosti
 login-identity = Identitet prijave
 login-signup = Prijavi se / Registriraj se
 edit = Uredi
-email-subscriptions = Email pretplate
+email-subscriptions = E-mail pretplate
 download-profile = Preuzimanje mojih podataka
 contribution-experience = Iskustvo doprinosa
 skip-submission-feedback = Preskoči povratne informacije za slanje
@@ -369,11 +369,11 @@ about-avatar-clip-recording = Stvori glasovni isječak kao dio tvog avatar profi
 browse-file-title = Dodaj novu fotografiju
 browse-file = Povuci i ispusti ili <browseWrap>pregledaj</browseWrap>
 connect-gravatar = Poveži sa Gravatar
-gravatar_not_found = Ne postoji gravatar za vaš Email
+gravatar_not_found = Za tvoju e-mail adresu ne postoji gravatar
 file_too_large = Odabrana datoteka je prevelika
 manage-subscriptions = Upravljanje pretplatama
-manage-email-subscriptions = Upravljanje pretplatama e-pošte
-email-already-used = Email se već koristi za drugi račun
+manage-email-subscriptions = Upravljaj e-mail pretplatama
+email-already-used = E-mail adresa se već koristi za jedan drugi račun
 add-language = Dodaj jezik
 change-email-setings = Promijeni svoju e-adresu u postavkama, pod Identitet prijave
 
@@ -553,7 +553,7 @@ audio-format = Format zvuka
 number-of-voices = Broj glasova
 splits = Podjele
 email-to-download = Za preuzimanje, upiši e-adresu
-why-email = <b>Zašto e-pošta?</b> U budućnosti ćemo te možda morati kontaktirati u vezi s promjenama skupa podataka, a e-pošta nam pruža mogućnost kontaktiranja.
+why-email = <b>Zašto e-mail adresa?</b> U budućnosti ćemo te možda morati kontaktirati u vezi s promjenama skupa podataka, a e-mail nam pruža mogućnost kontaktiranja.
 confirm-size = Sve je spremno za pokretanje preuzimanja veličine <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -591,7 +591,7 @@ dataset-version = Verzija
 ## Download Modal
 
 download-title = Preuzimanje je započelo.
-download-helpus = Pomozi nam izgraditi zajednicu za glasovne tehnologije, ostani u kontaktu putem e-pošte.
+download-helpus = Pomozi nam izgraditi zajednicu za glasovne tehnologije, ostani u kontaktu putem e-maila.
 download-form-email =
     .label = Upiši svoju e-adresu
     .value = Hvala, javit ćemo se.
@@ -819,8 +819,8 @@ how-many-per-day = Sjajno! Koliko isječaka dnevno?
 how-many-a-week = Sjajno! Koliko isječaka tjedno?
 which-goal-type = Želiš li govoriti, slušati ili oboje?
 receiving-emails-info =
-    S tvojim trenutačnim postavkama ćeš primati poruke e-pošte kao što su podsjetnici za ciljeve,
-    ažuriranja vlastitog napretka i novosti o Common Voice
+    S tvojim trenutačnim postavkama primat ćeš e-mailove kao što su podsjetnici za ciljeve,
+    aktualiziranja vlastitog napretka i biltene Common Voicea
 not-receiving-emails-info =
     S tvojim trenutačnim postavkama <bold>NE PRIMAŠ</bold> poruke e-pošte kao što su podsjetnici za ciljeve,
     aktualiziranja vlastitog napretka i novosti o Common Voice
