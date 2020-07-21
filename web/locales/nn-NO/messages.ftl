@@ -180,16 +180,16 @@ wall-of-text-second = Det meste av dataa som vert nytta av store bedrifter er ut
 show-wall-of-text = Les meir
 help-us-title = Hjelp oss med å validere setningar!
 help-us-explain = Trykk på Spel av, lytt, og fortel os om den innspelte setninga var korrekt.
-no-clips-to-validate = Det verkar ikkje som om det finst klipp å høyre på for dette språket. Hjelp oss fylle inn køen ved å spele inn nokre no.
+no-clips-to-validate = Det verkar ikkje som om det finst lydklipp å høyre på for dette språket. Hjelp oss med å fylle inn køen ved å spele inn nokre no.
 vote-yes = Ja
 vote-no = Nei
 toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
 speak-subtitle = Doner stemma di
 speak-paragraph = Innspeling av stemmeklipp er ein integrert del av å byggje opp den opne datamengda vår; og enkelte vil seie at det er den artigaste delen òg.
-speak-goal-text = Innspelte klipp
+speak-goal-text = Innspelte lydklipp
 listen-subtitle = Hjelp oss med å validere stemmene
 listen-paragraph = Å validere lydklipp som er bidratt er like viktig for måloppnåinga til Common Voice. Lytt, og hjelp oss med å skape opne taledata med kvalitet.
-listen-goal-text = Validerte klipp
+listen-goal-text = Validerte lydklipp
 hours-recorded = Innspelte timar
 hours-validated = Validerte timar
 voices-online = Stemmer på nettet no
@@ -618,6 +618,11 @@ contribute = Bidra
 listen = Lytt
 skip = Hopp over
 shortcuts = Snarvegar
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> lydklipp
+       *[other] <bold>{ $count }</bold> lydklipp
+    }
 goal-help-recording = Du har hjelpt Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglege opptaksmål på { $goalValue }!
 goal-help-validation = Du har hjelpt Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglige valideringsmål på { $goalValue }!
 contribute-more =
@@ -735,6 +740,7 @@ show-ranking = Vis rangeringa mi
 
 get-started-goals = Kom i gang med mål
 create-custom-goal = Lag eit tilpassa mål
+goal-type = Kva for type mål vil du byggje?
 both-speak-and-listen = Begge
 both-speak-and-listen-long = Begge (snakke og lytte)
 daily-goal = Dagleg mål
@@ -748,8 +754,32 @@ want-to-continue = Vil du fortsetje?
 finish-editing = Vil du fullføre redigeringa først?
 lose-changes-warning = Å avslutte no tyder at du mistar endringane dine
 build-custom-goal = Lag eit tilpassa mål
+help-reach-hours-pluralized =
+    Hjelp til med å nå{ NUMBER($hours) ->
+        [one] { $hours } time
+       *[other] { $hours } timar
+    } på { $language } med eit personleg mål
+help-reach-hours-general-pluralized =
+    Hjelp Common Voice med å nå{ NUMBER($hours) ->
+        [one] { $hours } time
+       *[other] { $hours } timar
+    } på et språk med eit personleg mål
 set-a-goal = Sett deg eit mål
 cant-decide = greier du ikkje å bestemme deg+
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } time
+       *[other] { $totalHours } timar
+    }er oppnåelig på drygt{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } månead
+       *[other] { $periodMonths } månadar
+    }dersom{ NUMBER($people) ->
+        [one] { $people } person
+       *[other] { $people } personar
+    }registrerer{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } lydklipp
+       *[other] { $clipsPerDay } lydklipp
+    }om dagen.
 how-many-per-day = Flott! Kor mange klipp pr. dag?
 how-many-a-week = Flott! Kor mange klipp i veka?
 which-goal-type = Vil du snakke, lytte eller begge delar?
@@ -759,6 +789,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Du er for tida sett opp til å <bold>IKKE</bold> få e-postar som målpåminningar, personlege
     framdriftsoppdateringar og nyheitsbrev om Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } lydklipp
+       *[other] { $count } lydklipp
+    }
 help-share-goal = Hjelp oss med å finne fleire stemmer, del måla dine
 confirm-goal = Stadfest mål
 goal-interval-weekly = Kvar veke
