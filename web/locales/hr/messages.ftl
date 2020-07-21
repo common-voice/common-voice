@@ -441,9 +441,9 @@ faq-search-for-answers =
 about-title = Zašto Common Voice?
 about-subtitle = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom. Pored skupa podataka Common Voice također gradimo program za prepoznavanje govora otvorenog koda, koji se zove Deep Speech.
 about-header-description =
-    Oba ova projekta dio su naših nastojanja da premostimo razliku digitalnog govora. Tehnologije prepoznavanja glasa donose ljudsku dimenziju na naše uređaje, ali programerima treba ogromna količina govornih podataka za izgradnju. Trenutačno je većina tih podataka skupa i vlasnička.
+    Oba ova projekta dio su naših nastojanja da premostimo razliku između ljudskog i digitalnog govora. Tehnologije prepoznavanja glasa dodaju ljudsku dimenziju našim uređajima, ali za njihovu izgradnju, programeri trebaju ogromne količine govornih podataka. Trenutačno je većina tih podataka vrlo skupa i vlasnička.
     Želimo da glasovni podaci budu javno dostupni i osigurati, da ti podaci predstavljaju raznolikost stvarnih ljudi. Zajedno možemo poboljšati prepoznavanje glasa svima.
-how-does-it-work-title = Koji je način rada?
+how-does-it-work-title = Način rada.
 how-does-it-work-text = Stvaramo skup podataka glasova otvorenog koda. Daj svoj glas, potvrdi točnost snimaka drugih ljudi, poboljšaj skup podataka za sve korisnike.
 about-speak = Govori
 about-speak-text = Sudionici snimaju glasovne zapise čitajući iz baze doniranih rečenica.
@@ -467,7 +467,7 @@ about-partnership =
     Common Voice je surađivački projekt, a mi ovisimo o partnerima naše zajednice i o suradnicima, kako bismo izgradili najveći skup podataka otvorenog koda, ikad.
     
     Zahvaljujemo sljedećim osobama i organizacijama za njihovu pomoć u projektu:
-about-get-involved = Uključite se
+about-get-involved = Uključi se
 about-get-involved-text-2 =
     Želiš pomoći poboljšati Common Voice?
     Sjajno! Stupi u kontakt putem e-pošte ili putem <discourseLink>foruma za diskutiranje</discourseLink>,
@@ -476,7 +476,7 @@ about-get-involved-text-2 =
 about-nav-why-common-voice = Zašto?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partneri
-about-nav-get-involved = Uključite se
+about-nav-get-involved = Uključi se
 mycroft-title = Mycroft umjetna inteligencija
 mycroft-subtitle = Umjetna inteligencija
 mycroft-description =
@@ -593,8 +593,8 @@ dataset-version = Verzija
 download-title = Preuzimanje je započelo.
 download-helpus = Pomozite nam izgraditi zajednicu oko glasovne tehnologije, budite u kontaktu putem e-pošte.
 download-form-email =
-    .label = Unesite vaš Email
-    .value = Hvala, biti ćemo u kontaktu.
+    .label = Upiši svoju e-adresu
+    .value = Hvala, javit ćemo se.
 download-back = Vrati se na skup podataka Common Voice
 download-no = Ne hvala
 
