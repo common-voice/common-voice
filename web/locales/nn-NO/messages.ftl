@@ -151,7 +151,7 @@ zh-TW = Kinesisk (Taiwan)
 
 speak = Snakk
 speak-now = Snakk no
-datasets = Datamengder
+datasets = Datasett
 languages = Språk
 about = Om oss
 profile = Profil
@@ -185,7 +185,7 @@ vote-yes = Ja
 vote-no = Nei
 toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
 speak-subtitle = Doner stemma di
-speak-paragraph = Innspeling av stemmeklipp er ein integrert del av å byggje opp den opne datamengda vår; og enkelte vil seie at det er den artigaste delen òg.
+speak-paragraph = Innspeling av stemmeklipp er ein integrert del av å byggje opp det opne datasettet vårt; og enkelte vil seie at det er den artigaste delen òg.
 speak-goal-text = Innspelte lydklipp
 listen-subtitle = Hjelp oss med å validere stemmene
 listen-paragraph = Å validere lydklipp som er bidratt er like viktig for måloppnåinga til Common Voice. Lytt, og hjelp oss med å skape opne taledata med kvalitet.
@@ -370,9 +370,9 @@ faq-what-cv-a =
     Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
 faq-why-important-q = Kvifor er det viktig?
 faq-why-important-a =
-    Tale er ofte den mest naturlege måten vi kommuniserer med kvarandre, og taleteknologi gir oss den mulegheita på datamaskiner og portable einingar. Vi ønskjer å setje programvareutviklarar i stand til å byggje fantastiske talegjenkjenningsapplikasjonar, som sanntidsomsetting og stemmestyrte personlege assistentar. Men akkurat no er det meste av taledata som trengs for å byggje denne typen applikasjonar dyre og proprietære. Vi håper at Common Voice datamengda vil gi programvareutviklarar det dei treng for å lage nye ting og gjere taleteknologi tilgjengeleg på sitt eige språk. 
+    Tale er ofte den mest naturlege måten vi kommuniserer med kvarandre, og taleteknologi gir oss den mulegheita på datamaskiner og portable einingar. Vi ønskjer å setje programvareutviklarar i stand til å byggje fantastiske talegjenkjenningsapplikasjonar, som sanntidsomsetting og stemmestyrte personlege assistentar. Men akkurat no er det meste av taledata som trengs for å byggje denne typen applikasjonar dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklarar det dei treng for å lage nye ting og gjere taleteknologi tilgjengeleg på sitt eige språk. 
     
-    For å gjere talegjenkjenning endå meir universelt tilgjengeleg, samlar vi taleklipp både i språk med stor utbreiing og også dei med færre brukarar som ofte ikkje er handtert av kommersielle talegjenkjenningsprodukt. Ved å publisere eit brei datamengd av stemmer sett vi utviklarar, gründarar og heile språksamfunn i stand til å sjølv fylle dette behovet.
+    For å gjere talegjenkjenning endå meir universelt tilgjengeleg, samlar vi taleklipp både i språk med stor utbreiing og også dei med færre brukarar som ofte ikkje er handtert av kommersielle talegjenkjenningsprodukt. Ved å publisere eit breitt datasett av stemmer sett vi utviklarar, gründarar og heile språksamfunn i stand til å sjølv fylle dette behovet.
 faq-how-get-q = Korleis kan eg få tak i Common Voice-data?
 faq-how-get-a = Common Voice-datamengda er tilgjengeleg for nedlasting under <licenseLink>CC0</licenseLink> lisens på  <datasetLink>vår side med datamengder</datasetLink>.  Du kan også laste ned fleire andre offentleg tilgjengelege datamengder frå same side.
 faq-when-release2-q = Når vert Common Voice-data sleppt på andra språk?
@@ -420,13 +420,13 @@ about-title = Kvifor Common Voice?
 about-subtitle = Common Voice er ein del av Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar. I tillegg til Common Voice-datamengda byggjer vi òg ein talegjenkjenningsmotor med open kjeldekode som heiter Deep Speech.
 about-header-description = Begge desse prosjekta er delar av strevet vårt for å byggje bru over det digitale skiljet. Talegjenkjenning bidreg med ein menneskeleg dimensjon til dei digitale einingane våre, men utviklarar treng ei enorm mengde med data for å byggje dei. Det meste av slike data er dyre og proprietære. Vi ønskjer å gjere stemmedata gratis og offentleg tilgjengeleg, og forsikre om at dataa representerer variasjonen mellom verkelege menneske. Saman kan vi gjere talegjenkjenning betre for alle.
 how-does-it-work-title = Korleis fungerer det?
-how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) ei open datamengd av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datamengda betre for alle.
+how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datasettet betre for alle.
 about-speak = Tal
 about-speak-text = Bidragsytarar spelar inn stemmeklipp ved å lese inn frå ei samling bidregne setningar.
 about-listen-queue = Lyttekø
 about-listen-queue-text = Lydklipp blir lagt inn i ei bidragskø som gjer desse klare for gjennomlytting.
 about-listen = Lytt
-about-listen-text = Brukarar validerer kor nøyaktig bidragsklippet er, og kontrollerer at talaren les setninga korrekt.
+about-listen-text = Brukarar validerer kor nøyaktig bidragslydklippet er, og kontrollerer at talaren les setninga korrekt.
 about-is-it-valid = Er klippet gyldig?
 about-is-it-valid-text = Eit lydklipp er markert som «gyldig» når ein bruker gir det ei «Ja»-stemme.
 about-yes-votes = ≥ 2 Ja-røyster
@@ -436,7 +436,7 @@ about-no-votes-text = Når ein brukar underkjenner eit lydklipp, blir det return
 about-dataset-new = Common Voice.datamengde
 about-dataset-new-text = Common Voice-datamengda inneheld hundretusenvis av lydklipp som hjelper utviklarar med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Klippkyrkjegard
-about-clip-graveyard-text = Lydklippfyllinga inneheld lydklipp som ikkje vart tatt med i Common Voice-datamengda. Akkurat som datamengda, er også lydklippfyllinga tilgjengeleg for nedlasting.
+about-clip-graveyard-text = Lydklippfyllinga inneheld lydklipp som ikkje vart tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengeleg for nedlasting.
 about-partners = Partnarar
 about-become-a-partner = Bli ein partnar
 about-partnership =
@@ -472,7 +472,7 @@ hours-validated-explanation = Talet på timar med stemmeopptak som er validerte 
 sst = Tale-til-tekst (STT)
 sst-explanation = Tale-til-tekst-teknologi konverterer taledata til tekst.
 de-identified = Anonymisering
-de-identified-explanation = Prosessen der profilinformasjonen til ein bidragsytar blir frikopla frå dei bidratte stemmeklippa når dei vert pakka for nedlasting som ein del av datamengda.
+de-identified-explanation = Prosessen der profilinformasjonen til ein bidragsytar blir frikopla frå dei bidratte stemmeklippa når dei vert pakka for nedlasting som ein del av datasettet.
 
 ## NotFound
 
@@ -503,7 +503,7 @@ terms-agree = Eg er samd
 terms-disagree = Eg er ikkje samd
 review-aborted = Opplasting avbroten. Vil du slette innspelingane dine?
 review-submit-title = Vurder og send inn
-review-submit-msg = Takk for innspelinga! <lineBreak></lineBreak>Vurder og send inn klippa dine nedanfor.
+review-submit-msg = Takk for innspelinga! <lineBreak></lineBreak>Vurder og send inn lydklippa dine nedanfor.
 review-recording = Vurder
 review-rerecord = Spel inn på nytt
 review-cancel = Avbryt innsending
@@ -646,22 +646,22 @@ record-three-more-instruction = Tre att!
 record-again-instruction = Bra!<recordIcon></recordIcon> Spel inn det neste klippet ditt
 record-again-instruction2 = Fortset slik og spel inn ein gong til <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den siste!
-review-tooltip = Her kan du vurdere og spele inn klipp på nytt
+review-tooltip = Her kan du gå gjennom, og spele inn lydklipp på nytt
 share-clip = Del lydklippet ditt
 share-common-voice = Del Common Voice
-review-instruction = Vurder og spel inn klipp på nytt om det trengst
+review-instruction = Vurder og spel inn lydklipp på nytt om det trengst
 record-submit-tooltip = { $actionType } send inn når du er klar
-clips-uploaded = Klipp opplasta
+clips-uploaded = Lydklipp opplasta
 record-abort-title = Avslutte opptaket først?
 record-abort-text = Forlet du no, mistar du framdrifta di
-record-abort-submit = Send inn klipp
+record-abort-submit = Send inn lydklipp
 record-abort-continue = Avslutt innspeling
-record-abort-delete = Avslutt og slett klippa
+record-abort-delete = Avslutt og slett lydklipp
 listen-instruction = { $actionType } <playIcon></playIcon> var setninga sagt rett?
 listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong tilnår du er klar for det
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
 listen-last-time-instruction = <playIcon></playIcon>Det siste!
-listen-empty-state = Vi har gått tom for klipp å validere på dette språket…
+listen-empty-state = Vi har gått tom for lydklipp å validere på dette språket…
 speak-empty-state = Vi har gått tom for setningar å spele inn på dette språket…
 speak-empty-state-cta = Bidra med setningar
 record-button-label = Spel inn stemma di
@@ -717,18 +717,18 @@ validations =
 
 your-languages = Språka dine
 toward-next-goal = Mot neste mål
-clips-you-recorded = Klipp du har spelt inn
-clips-you-validated = Klipp du har validert
-todays-recorded-progress = Framgangen i dag på Common Voice for innspelte klipp
-todays-validated-progress = Framgangen i dag på Common Voice for validerte klipp
+clips-you-recorded = Lydklipp du har spelt inn
+clips-you-validated = Lydklipp du har validert
+todays-recorded-progress = Framgangen i dag på Common Voice for innspelte lydklipp
+todays-validated-progress = Framgangen i dag på Common Voice for validerte lydklipp
 stats = Statistikk
 awards = Prisar
 you = Du
 everyone = Alle
 contribution-activity = Bidragsaktivitet
 top-contributors = Toppbidragsytarar
-recorded-clips = Innspelte klipp
-validated-clips = Validerte klipp
+recorded-clips = Innspelte lydklipp
+validated-clips = Validerte lydklipp
 total-approved = Godkjende i alt
 overall-accuracy = Nøyaktigheit jamt over
 set-visibility = Still inn kor synleg eg er
@@ -771,7 +771,7 @@ activity-needed-calculation-plural =
         [one] { $totalHours } time
        *[other] { $totalHours } timar
     }er oppnåelig på drygt{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } månead
+        [one] { $periodMonths } månad
        *[other] { $periodMonths } månadar
     }dersom{ NUMBER($people) ->
         [one] { $people } person
@@ -780,8 +780,8 @@ activity-needed-calculation-plural =
         [one] { $clipsPerDay } lydklipp
        *[other] { $clipsPerDay } lydklipp
     }om dagen.
-how-many-per-day = Flott! Kor mange klipp pr. dag?
-how-many-a-week = Flott! Kor mange klipp i veka?
+how-many-per-day = Flott! Kor mange lydklipp pr. dag?
+how-many-a-week = Flott! Kor mange lydklipp i veka?
 which-goal-type = Vil du snakke, lytte eller begge delar?
 receiving-emails-info =
     Du er fortida sett opp til å få e-postmeldingar som målpåminningar, personlege
