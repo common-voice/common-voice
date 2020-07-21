@@ -3,7 +3,6 @@ import { Switch, Route, Redirect } from 'react-router';
 import URLS from '../../urls';
 import { isContributable, useLocale } from '../locale-helpers';
 import DocumentPage from '../pages/document-page';
-import NotFoundPage from '../pages/not-found';
 import { Spinner } from '../ui/ui';
 import { LoginFailure, LoginSuccess } from '../pages/login';
 const HomePage = React.lazy(() => import('../pages/home/home'));
@@ -14,6 +13,7 @@ const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
 const FAQPage = React.lazy(() => import('../pages/faq/faq'));
 const AboutPage = React.lazy(() => import('../pages/about/about'));
 const LandingPage = React.lazy(() => import('../pages/landing/landing'));
+const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
 
 export default function Content() {
   const [locale, toLocaleRoute] = useLocale();
@@ -115,7 +115,15 @@ export default function Content() {
             path={toLocaleRoute('/landing/sodedif')}
             component={LandingPage}
           />
-          <Route component={NotFoundPage} />
+          <Route
+            path={toLocaleRoute('/404')}
+            render={() => <ErrorPage errorCode={404} />}
+          />
+          <Route
+            path={toLocaleRoute('/503')}
+            render={() => <ErrorPage errorCode={503} />}
+          />
+          <Redirect to={toLocaleRoute('/404')} />
         </Switch>
       </React.Suspense>
     </div>
