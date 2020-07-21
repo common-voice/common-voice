@@ -511,7 +511,7 @@ data-download-deny = Ne
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Pokrenut ćete preuzimanje od <size>{ $size }GB</size>, nastaviti?
 data-subtitle = Gradimo otvoren i javno dostupan skup glasovnih podataka, koji svi mogu koristiti za podučavanje govornih programa.
-data-explanatory-text = Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju u govornoj tehnologiji, utemeljenoj na strojnom učenju. Ovo je globalni napor i pozivamo na sudjelovanje. Naš je cilj, govornoj tehnologiji pomoći biti inkluzivnija, kako bi odražavala raznolikost glasova cijelog svijeta.
+data-explanatory-text = Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju govorne tehnologije, utemeljene na strojnom učenju. Ovo je globalni napor i pozivamo na sudjelovanje. Naš je cilj, govornoj tehnologiji pomoći biti inkluzivnija, kako bi odražavala raznolikost glasova cijelog svijeta.
 data-get-started = <speechBlogLink>Započni s prepoznavanjem govora</speechBlogLink>
 data-other-title = Ostali skupovi glasovnih podataka …
 data-other-goto = Prijeđi na { $name }
@@ -540,9 +540,9 @@ datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu 
 datasets-positioning =
     Vjerujemo da će veliki, javno dostupni skupovi podataka za govor potaknuti inovacije i zdravu tržišnu konkurenciju u govornoj tehnologiji utemeljenoj na strojnom učenju.
     
-    Višejezični skup podataka Common Voice već je najveći javno dostupni glasovni skup podataka takve vrste, ali nije jedini.
+    Višejezični skup podataka Common Voice već je najveći javno dostupan glasovni skup podataka takve vrste, ali nije jedini.
     
-    Pogledaj ovu stranicu kao referencu za druge skupove podataka otvorenog koda i, kako Common Voice i bude i dalje rastao, bit će izvor za naša buduća izdanja.
+    Pogledaj ovu stranicu kao referencu za druge skupove podataka otvorenog koda i, kako Common Voice raste, bit će izvor za naša buduća izdanja.
 language = Jezik
 # File size in gigabytes
 size = Veličina
@@ -580,8 +580,8 @@ data-other-voxforge-description = VoxForge je izrađen za prikupljanje prepisani
 data-other-tatoeba-description = Tatoeba je velika baza podataka s rečenicama, prijevodima i govornim snimkama za učenje jezika. Ovo preuzimanje sadrži govorni engleski jezik, snimljen od njihove zajednice.
 your-feedback = Imaš ideje kako poboljšati Common Voice? Javi nam se na forumu za diskutiranje
 go-discourse = Prijeđi na forum za diskutiranje
-missing-language = Tvoj jezik nedostaje u skupu podataka? Prijeđi na stranicu za jezike i zatraži jezik.
-go-languages-page = Prijeđi na stranicu s jezicima
+missing-language = Tvoj jezik nedostaje u skupu podataka? Prijeđi na stranicu jezika i zatraži jezik.
+go-languages-page = Prijeđi na stranicu jezika
 ready-to-validate = Želiš pomoći potvrđivati rečenice?
 more = Više
 close = Zatvori
