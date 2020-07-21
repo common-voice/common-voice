@@ -11,7 +11,6 @@ loading = Yükleniyor…
 email-opt-in-info = Hedef hatırlatmaları, ilerleme durumum ve Common Voice ile ilgili bültenler gibi e-postalar almak istiyorum.
 email-opt-in-info-title = Common Voice e-posta listesine katılın
 email-opt-in-info-sub-with-challenge = Hedef hatırlatmaları, ilerleme durumu ve Common Voice ile ilgili bültenler gibi e-postalar alın.
-email-opt-in-privacy = E-posta almayı tercih ettiğinizde bu bilgileri Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanmasını kabul etmiş oluyorsunuz.
 indicates-required = * Gerekli alanları gösterir
 not-available-abbreviation = Yok
 
@@ -602,7 +601,11 @@ contribute = Katkıda bulun
 listen = Dinle
 skip = Atla
 shortcuts = Kısayollar
-clips-with-count = <bold>{ $count }</bold> ses kaydı
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ses kaydı
+       *[other] <bold>{ $count }</bold> ses kaydı
+    }
 goal-help-recording = Common Voice'un günlük { $goalValue } kayıt hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
 goal-help-validation = Common Voice'un günlük { $goalValue } doğrulama hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
 contribute-more =
@@ -720,6 +723,7 @@ show-ranking = Sıralamamı göster
 
 get-started-goals = Hedefinizi oluşturun
 create-custom-goal = Özel hedef oluştur
+goal-type = Ne tür bir hedef oluşturmak istiyorsunuz?
 both-speak-and-listen = Her ikisi de
 both-speak-and-listen-long = Her ikisi de (konuşma ve dinleme)
 daily-goal = Günlük hedef
@@ -733,19 +737,18 @@ want-to-continue = Devam etmek istiyor musunuz?
 finish-editing = Önce düzenleme bitirilsin mi?
 lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
-help-reach-hours = Kişisel bir hedef belirleyerek { $language } dilinde { NUMBER($hours) } saate ulaşmanıza yardımcı olun
-help-reach-hours-general = Kişisel bir hedefle Common Voice'un bir dilde { NUMBER($hours) } saate ulaşmasına yardımcı olun
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
-activity-needed-calculation =
-    { NUMBER($people) } kişi günde { NUMBER($clipsPerDay) } ses kaydederse
-    { NUMBER($periodMonths) } aydan biraz uzun bir sürede { NUMBER($totalHours) } saatlik ses kaydına ulaşılabilir.
 how-many-per-day = Harika! Günde kaç kayıt?
 how-many-a-week = Harika! Haftada kaç kayıt?
 which-goal-type = Konuşmak mı, dinlemek mi yoksa ikisini birden mi yapmak istiyorsunuz?
 receiving-emails-info = Hedef hatırlatıcıları, ilerleme güncellemeleri ve Common Voice ile ilgili bültenler gibi e-postaları alıyorsunuz.
 not-receiving-emails-info = Hedef hatırlatıcıları, ilerleme güncellemeleri ve Common Voice ile ilgili bültenler gibi e-postaları <bold>almayacaksınız</bold>.
-n-clips = { NUMBER($count) } ses kaydı
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ses kaydı
+       *[other] { $count } ses kaydı
+    }
 help-share-goal = Hedefinizi paylaşarak daha fazla ses bulmamıza yardımcı olun
 confirm-goal = Hedefi onayla
 goal-interval-weekly = Haftalık
