@@ -359,7 +359,7 @@ gravatar_not_found = No gravatar found for your email
 file_too_large = The selected file is too large
 manage-subscriptions = Manage Subscriptions
 manage-email-subscriptions = Manage Email Subscriptions
-email-already-used = Email is already used with a different account
+email-already-used = Email is already used for a different account
 add-language = Add Language
 change-email-setings = Change your email via Settings under Login Identity
 
