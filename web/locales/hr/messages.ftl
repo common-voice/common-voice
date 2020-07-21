@@ -243,7 +243,7 @@ improve-audio = Informacije profila poboljšavaju glasovne podatke koji se koris
 keep-track = Prati svoj napredak i mjerne podatke za jezike.
 compare-progress = Usporedi svoj napredak s ostalim suradnicima u cijelom svijetu.
 view-goals = Usporedi napredak vlastitih ciljeva s ciljevima projekta.
-join-newsletter = Ako želiš, pridruži se na naš popis e-pošte za dobivanje obavijesti o ažuriranjima i novim informacijama o projektu.
+join-newsletter = Ako želiš, pridruži se na naš popis e-pošte za dobivanje obavijesti o novim verzijama te novim informacijama o projektu.
 
 ## What's public
 
