@@ -180,12 +180,12 @@ wall-of-text-more-mobile =
     guši inovaciju. Zato smo pokrenuli projekt Common Voice, koji će svima pomoći koristiti
     prepoznavanje govora.
 wall-of-text-more-desktop =
-    Sada možeš donirati svoj glas i pomoći izgraditi govornu bazu podataka otvorenog koda, koju svatko može koristiti
-    za izradu inovativnih programa za uređaje i web. Pročitaj rečenicu i pomogni učiti strojeve govoriti ljudskim jezikom.
+    Donirati svoj glas i pomogni izgraditi govornu bazu podataka otvorenog koda, koju svatko može koristiti
+    za izradu inovativnih programa za uređaje i za web. Pročitaj rečenicu i pomogni učiti strojeve govoriti ljudskim jezikom.
     Provjeri rad drugih donatora kako bi se poboljšala kvaliteta. Stvarno je tako jednostavno!
 wall-of-text-first =
-    Glas je prirodan, glas je ljudski. Zato smo uzbuđeni stvaranjem upotrebljive govorne tehnologije
-    za naše strojeve. Ali za stvaranje govornih sustava, razvijateljima su potrebne iznimno velike količine snimljenog glasa.
+    Glas je prirodan, glas je ljudski. Stoga želimo stvoriti upotrebljive govorne tehnologije
+    za naše strojeve. Ali za stvaranje govornih sustava, programeri trebaju iznimno velike količine snimljenog glasa.
 wall-of-text-second =
     Većina podataka koje velike tvrtke koriste nije dostupna većini ljudi. Mi smatramo da to
     guši inovaciju. Zato smo pokrenuli projekt Common Voice, koji će svima pomoći koristiti
@@ -239,7 +239,7 @@ email-subscription-title-new = Pretplati se na Common Voice bilten, na podsjetni
 
 benefits = Prednosti
 rich-data = Podnesene podatke učini što bogatijima, pružanjem anonimnih demografskih podataka. Prije objavljivanja otklanjamo sve identificirajuće demografske podatke.
-improve-audio = Informacije profila poboljšavaju glasovne podatke koji se koriste u treningu točnosti prepoznavanja govora.
+improve-audio = Podaci profila poboljšavaju glasovne podatke koji se koriste za treniranje točnosti prepoznavanja govora.
 keep-track = Prati svoj napredak i mjerne podatke za jezike.
 compare-progress = Usporedi svoj napredak s ostalim suradnicima u cijelom svijetu.
 view-goals = Usporedi napredak vlastitih ciljeva s ciljevima projekta.
