@@ -87,7 +87,7 @@ const SegmentBanner = ({
       <>
         <Localized
           id="target-segment-first-banner"
-          vars={{locale: NATIVE_NAMES[locale]}}
+          vars={{ locale: NATIVE_NAMES[locale] }}
         />
       </>
     ),
@@ -110,7 +110,10 @@ const SegmentBanner = ({
           ),
         },
         {
-          href: locale === 'es' ? URLS.TARGET_SEGMENT_INFO_ES : URLS.TARGET_SEGMENT_INFO,
+          href:
+            locale === 'es'
+              ? URLS.TARGET_SEGMENT_INFO_ES
+              : URLS.TARGET_SEGMENT_INFO,
           blank: true,
           persistAfterClick: true,
           className: 'cta external',
@@ -227,7 +230,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     trackGlobal('change-language', locale);
     setLocale(locale);
     this.setState({
-       featureStorageKey: await this.getFeatureKey(locale)
+      featureStorageKey: await this.getFeatureKey(locale),
     });
     history.push(replacePathLocale(history.location.pathname, locale));
   };
@@ -294,9 +297,13 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {featureStorageKey && localStorage.getItem(featureStorageKey) !== 'true' && (
-          <SegmentBanner locale={locale} featureStorageKey={featureStorageKey} />
-        )}
+        {featureStorageKey &&
+          localStorage.getItem(featureStorageKey) !== 'true' && (
+            <SegmentBanner
+              locale={locale}
+              featureStorageKey={featureStorageKey}
+            />
+          )}
         {showStagingBanner && (
           <div className="staging-banner">
             You're on the staging server. Voice data is not collected here.{' '}

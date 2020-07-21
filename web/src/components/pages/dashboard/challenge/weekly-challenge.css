@@ -41,7 +41,7 @@
     margin: 0 7.5px;
     &.active {
         color: var(--white);
-        background-color: #4a4a4a;
+        background-color: var(--near-black);
     }
 }
 .weekly-content {
