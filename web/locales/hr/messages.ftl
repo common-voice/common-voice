@@ -424,7 +424,7 @@ faq-why-not-ask-read-a = Kako bi skup podataka Common Voice bio što korisniji, 
 faq-why-account-q = Zašto otvoriti račun?
 faq-is-account-public-q = Jesu li podaci o računu javni?
 faq-how-privacy-q = Kako osiguravate anonimnost i privatnost ljudi koji su donirali svoj glas?
-faq-how-privacy-a = Svim glasovnim isječcima u skupu podataka brišu se osobni podaci. Kad doprinositelj daje demografske podatke putem svog profila, te se informacije uklanjaju iz njihovih glasovnih isječaka prije nego što se pakiraju za preuzimanje u skupu podataka i nikad se ne objavljuju na njihovoj stranici profila.
+faq-how-privacy-a = Svim glasovnim isječcima u skupu podataka brišu se osobni podaci. Kad doprinositelji daju demografske podatke putem svog profila, te se informacije uklanjaju iz njihovih glasovnih isječaka prije nego što se pakiraju za preuzimanje u skup podataka i nikad se ne objavljuju na njihovoj stranici profila.
 faq-what-determine-identity-q = Što znači, da ne mogu „utvrditi identitet” govornika u skupu podataka Common Voice?
 faq-what-determine-identity-a =
     Skup podataka Common Voice otvoren je i javno dostupan resurs, koji se može koristiti za učenje raznih programa koji omogućuju govor. Da bismo zaštitili sigurnost naših suradnika, molimo sve koji preuzmu skup podataka zajedničkog glasa, da poštuju privatnost suradnika.
