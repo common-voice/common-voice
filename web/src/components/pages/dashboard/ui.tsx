@@ -44,7 +44,7 @@ const Circle = ({
   />
 );
 
-const RADIUS = 34;
+const RADIUS = 30;
 const STROKE = 2;
 
 export function CircleProgress({
