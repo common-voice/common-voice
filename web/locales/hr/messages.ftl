@@ -338,7 +338,7 @@ profile-explanation = Prati svoj napredak pomoću profila i pomogni ispravljati 
 thanks-for-account = Zahvaljujemo što ste potvrdili svoj račun, a sada kreirajmo vaš profil.
 why-demographic = Zašto je to važno?
 why-demographic-explanation = Anonimni podaci korisnika poput dobi, spola i narječja, pomažu poboljšati audio podatke koji se koriste za točnost učenja programa za prepoznavanje govora. Tvoje korisničko ime i e-pošta nikada neće biti povezani s tvojim poslanim podacima. Uz to možeš odabrati, želiš li objaviti svoje korisničko ime ili ne.
-accept-privacy = Slažem se s načinom rukovanja s ovim podacima kao što je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>
+accept-privacy = Slažem se s načinom upotrebe ovih podataka kao što je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>
 accept-privacy-title = Politika privatnosti
 login-identity = Identitet prijave
 login-signup = Prijavi se / Registriraj se
@@ -565,7 +565,7 @@ whats-inside = Što sadrži skup podataka Common Voice?
 dataset-description-hours =
     Svaki unos u skupu podataka sastoji se od jedinstvene MP3 datoteke i odgovarajuće tekstualne datoteke. Mnogi od <b>{ $total }</b> zabilježenih sati u skupu podataka uključuju i demografske metapodatke poput dobi, spola i narječja, koji mogu pomoći u vježbanju točnosti govornih programa.
     
-    Podaci se trenutačno sastoje od <b>{ $valid }</b> potvrđenih sati na <b>{ $languages }</b> jezika, ali uvijek dodajemo daljnje glasove i jezike. Na našoj <languagesLink>stranici s jezicima</languagesLink> možeš zatražiti jezik ili početi doprinositi.
+    Podaci se trenutačno sastoje od <b>{ $valid }</b> potvrđenih sati za <b>{ $languages }</b> jezika, no stalno dodajemo daljnje glasove i jezike. Na našoj <languagesLink>stranici jezika</languagesLink> možeš zatražiti jezik ili početi doprinositi.
 want-dataset-update = Želiš novosti o objavljenim novim verzijama skupa podataka Common Voice? Pretplati se na naš bilten.
 subscribe = Pretplati se
 get-started-speech = Započni s prepoznavanjem govora
@@ -591,7 +591,7 @@ dataset-version = Verzija
 ## Download Modal
 
 download-title = Preuzimanje je započelo.
-download-helpus = Pomozite nam izgraditi zajednicu oko glasovne tehnologije, budite u kontaktu putem e-pošte.
+download-helpus = Pomozi nam izgraditi zajednicu za glasovne tehnologije, ostani u kontaktu putem e-pošte.
 download-form-email =
     .label = Upiši svoju e-adresu
     .value = Hvala, javit ćemo se.
@@ -823,7 +823,7 @@ receiving-emails-info =
     ažuriranja vlastitog napretka i novosti o Common Voice
 not-receiving-emails-info =
     S tvojim trenutačnim postavkama <bold>NE PRIMAŠ</bold> poruke e-pošte kao što su podsjetnici za ciljeve,
-    ažuriranja vlastitog napretka i novosti o Common Voice
+    aktualiziranja vlastitog napretka i novosti o Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } isječak
@@ -865,6 +865,6 @@ profile-form-delete = Obriši profil
 
 welcome-staff = Dobrodošli { $company } suradnici!
 help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaranjem Common Voice profila i doprinošenjem vlastitog glasa.
-login-company = Prijavi se / registriraj se putem e-pošte { $company }
+login-company = Prijavi se / registriraj se s { $company } e-adresom
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
 read-more-about = Pročitaj više na našoj stranici Informacije
