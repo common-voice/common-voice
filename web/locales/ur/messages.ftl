@@ -484,6 +484,7 @@ data-bundle-description = کامن وائس ڈیٹا اور اوپر موجود 
 license = لائیسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ملا جلا
 data-download-singleword-title = یک لفظ ہدف طبقہ ڈاؤن لوڈ کریں
+data-download-singleword-callout = یہ قابل استعمال مثال پر مبنی حصہ ہے جس میں </fxLink> فائر فاکس وائس <fxLink> کیلئے اعداد و شمار کی شناخت ، ہاں/نہیں کھوج ، اور ویک ورڈ ٹیسٹنگ ڈیٹا سے متعلق ڈیٹا شامل ہوتا ہے۔
 review-terms = Common Voice کے استعمال کے ساتھ آُپ ہماری <termsLink>شرائط</termsLink> اور <privacyLink>رازداری نوٹس</privacyLink> سے متفق ہیں
 terms-agree = میں متفق ہوں
 terms-disagree = میں متفق نہیں ہوں
@@ -519,6 +520,7 @@ why-email = <b> ایک ای میل کیوں؟ </ b> ڈیٹاسیٹ میں تبد
 confirm-size = آپ <b>{ $size }</b> کی ڈاؤن لوڈ شروع کرنے کے لئے تیار ہیں
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b> آپ </b> اتفاق کرتے ہیں کہ آپ صوتی ڈیٹا سیٹ میں مقررین کی شناخت کا تعین کرنے کی کوشش نہیں کریں گے۔
 download-language = { $language } ڈاؤن لوڈ کریں
 validated-hours = کل توثیق شدہ گھنٹے
 recorded-hours = ریکارڈ شدہ  گھنٹے
@@ -528,7 +530,11 @@ subscribe = رکن بنیں
 get-started-speech = تقریر کی پہچان کے ساتھ آغاز کریں
 other-datasets = دوسرے وائس ڈیٹاسیٹس
 feedback-q = آپ کی رائے ہے؟
+deepspeech-info = کامن وائس ڈیٹاسیٹ موزیلا کے اوپن سورس صوتی شناس انجن ڈیپ سپیچ کی تکمیل کرتا ہے ، جسے آپ گفتگو شناس ایپلی کیشنز کی تعمیر کے لئے استعمال کرسکتے ہیں ۔  شروع کرنے کا طریقہ سیکھنے کے لئے ہمارا </ githubLink> گٹ ہب جائزہ <githubLink>  پڑھیں یا </discourseLink>  ڈیپ اسپیچ ڈسکورس لنک <discourseLink> میں شامل ہوں۔
+common-voice-info-new = کیا کامن وائس کے بارے میں سوالات ہیں ؟ کسی مخصوص زبان کی بہتری یا رائے بارے خیالات ؟ ہمارے <discourseLink> گفتگو فورم </discourseLink> پر ہمارے ساتھ شامل ہوں اور ہمیں بتائیں.
+data-other-librispeech-description = لائبرسپیچ  تقریبا 1000 گھنٹوں کا 16Khz ریڈ انگلش گفتگو پر مشتمل کارپس ہے جو لائبری ووکس پراجیکٹ کی ریڈ آڈیو کتابوں سے اخذ کیا گیا۔
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM  کارپس آڈیو گفتگو سے بنایا گیا تھا اور ان کی تحریری نقلیں TED کی ویب سائٹ پر دستیاب ہیں۔
 data-other-voxforge-description = VoxForge کو تحریری نقل گفتگو کو مفت اور آزاد مصدر گفتگو شناس انجن کے ساتھ استعمال کے لئے قائم کیا گیا تھا.
 data-other-tatoeba-description = Tatoeba زبان سیکھنے میں مددگار ایک بڑی ڈیٹابیس ہے جوجملوں، تراجم اور گفتگو آڈیو پر مشتمل ہے۔ اس ڈاؤن لوڈ میں برادی کی ریکارڈ کی ہوئی انگریزی گفتگو ہے۔
 your-feedback = کیا آپ کے پاس اس بارے میں خیالات ہیں کہ ہم Common Voice ڈیٹاسیٹ کو کس طرح بہتر بنا سکتے ہیں؟ ہمیں ڈیسکورس پر آگاہ کریں
@@ -736,6 +742,9 @@ cant-decide = فیصلہ نہیں کر سکتے۔
 how-many-per-day = زبردست! دن میں کتنے تراشے  ہیں؟
 how-many-a-week = زبردست! ہفتے میں کتنے کلپس ہیں؟
 which-goal-type = کیا آپ بولنا ، سننا چاہتے ہیں یا دونوں؟
+receiving-emails-info =
+    آپ فی الحال ای میلز موصول کرنے کیلئے تیار ہیں جیسم کہ ہدف یاددہانی ،
+    کامن وائس کے بارے میں  پیشرفت کی میری تازہ ترین خبریں اور نیوز لیٹر
 not-receiving-emails-info =
     آپ فی الحال<bold>  نہیں  </bold> پر ای میل موصول کرنے پر سیٹ ہیں جیسے گول یاددہانی ، میری
     Common Voice  کے بارے میں پیشرفت کی تازہ ترین خبریں اور نیوز لیٹر
@@ -747,9 +756,15 @@ n-clips-pluralized =
 help-share-goal = ہمیں مزید آوازیں تلاش کرنے میں مدد کریں ، اپنا مقصد بانٹیں
 confirm-goal = مقصد کی تصدیق کریں
 goal-interval-weekly = ہفتہ وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = اپنا  { $count } یومیہ تراشہ ہدف برائے { $type } شیئر کریں۔
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = اپنی  { $count } ہفتہ وار تراشہ ہدف برائے { $type } شیئر کریں۔
 share-goal-type-speak = بولنا
 share-goal-type-listen = سننا
 share-goal-type-both = بولنا اور سننا
+# LINK will be replaced with the current URL
+goal-share-text = میں نے #CommonVoice کو آواز عطیہ کرنے کے لیے ذاتی ہدف بنایا ہے -- میرے ساتھ دیں اور مشینوں کو سکھائیں کہ حقیقی لوگ کیسے بولتے ہیں { $link }
 weekly-goal-created = آپ کا ہفتہ وار مقصد بن گیا ہے
 daily-goal-created = آپ کا روزانہ کا مقصد بن گیا ہے
 track-progress = یہاں اور اپنے اعدادوشمار کے صفحے پر پیشرفت کا سراغ لگائیں۔
