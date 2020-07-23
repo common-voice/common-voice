@@ -344,6 +344,7 @@ delete-voice = SİL
 recording-voice-wave = Kaydediliyor
 delete-voice-clip = veya  ses kaydını sil
 ready-to-upload = Yükle
+avatar-clip-fact = Okuyucular bir sayfanın yerleşimini incelerken okunabilir içerik dikkat dağıtabilir.
 recreate-voice = Sesinizi yeniden kaydedin
 cancel-avatar-clip-recording = İptal
 about-avatar-clip-recording = Profil resminizin bir parçası olarak ses kaydı oluşturun. Başkaları profilinizin üzerine gelerek kaydı dinleyebilir.
@@ -480,6 +481,7 @@ data-bundle-button = Veri kümesi paketini indir
 data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
+data-download-singleword-title = Tek kelimelik hedef segmentini indir
 review-terms = Common Voice’u kullandığınızda <termsLink>Koşullarımızı</termsLink> ve <privacyLink>Gizlilik İlkelerimizi</privacyLink> kabul etmiş olursunuz.
 terms-agree = Kabul ediyorum
 terms-disagree = Kabul etmiyorum
@@ -737,6 +739,11 @@ want-to-continue = Devam etmek istiyor musunuz?
 finish-editing = Önce düzenleme bitirilsin mi?
 lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
+help-reach-hours-general-pluralized =
+    Kişisel bir hedefle Common Voice'un bir dilde { NUMBER($hours) ->
+        [one] { $hours } saate
+       *[other] { $hours } saate
+    }ulaşmasına yardımcı olun
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
 how-many-per-day = Harika! Günde kaç kayıt?
