@@ -16,7 +16,8 @@ export function track(
     | 'Nav'
     | 'Landing'
     | 'Challenge'
-    | 'voice-avatar',
+    | 'voice-avatar'
+    | 'Error',
   action: string,
   locale?: string
 ) {
@@ -160,6 +161,12 @@ export function trackChallenge(
     | 'modal-welcome'
 ) {
   track('Challenge', action);
+}
+
+// Error pages send the full previous route as a third argument, which is
+// typically reserved for locale.
+export function trackError(action: '404' | '503', route: string) {
+  track('Error', action, route);
 }
 
 export function getTrackClass(service: 'amp' | 'fs', name: string) {

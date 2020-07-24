@@ -15,7 +15,7 @@ const AboutPage = React.lazy(() => import('../pages/about/about'));
 const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
 
-export default function Content() {
+export default function Content({ location }: { location: any }) {
   const [locale, toLocaleRoute] = useLocale();
   return (
     <div id="content">
@@ -117,13 +117,23 @@ export default function Content() {
           />
           <Route
             path={toLocaleRoute('/404')}
-            render={() => <ErrorPage errorCode={404} />}
+            render={() => (
+              <ErrorPage errorCode="404" prevPath={location.state?.prevPath} />
+            )}
           />
           <Route
             path={toLocaleRoute('/503')}
-            render={() => <ErrorPage errorCode={503} />}
+            render={() => (
+              <ErrorPage errorCode="503" prevPath={location.state?.prevPath} />
+            )}
           />
-          <Redirect to={toLocaleRoute('/404')} />
+          <Redirect
+            push
+            to={{
+              pathname: toLocaleRoute('/404'),
+              state: { prevPath: location.pathname },
+            }}
+          />
         </Switch>
       </React.Suspense>
     </div>

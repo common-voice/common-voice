@@ -170,8 +170,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     });
 
     try {
-      FullStory.setUserVars({ isLoggedIn: !!user.account })
-    } catch(e) {
+      FullStory.setUserVars({ isLoggedIn: !!user.account });
+    } catch (e) {
       // do nothing if FullStory not initialized (see app.tsx)
     }
   }
@@ -372,7 +372,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             this.scroller = div as HTMLElement;
           }}>
           <div id="scrollee">
-            <Content />
+            <Content location={location} />
             <Footer />
           </div>
         </div>

@@ -1,14 +1,25 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import { Localized } from '@fluent/react';
 
+import { trackError } from '../../../services/tracker';
 import { LocaleLink } from '../../locale-helpers';
 import { GitHubLink, DiscourseLink, MatrixLink } from '../../shared/links';
 import { GithubIconCode, DiscourseIconCode, MatrixIcon } from '../../ui/icons';
 
 import './error-page.css';
 
-export default ({ errorCode }: { errorCode: number }) => {
-  console.log(errorCode);
+export default ({
+  errorCode,
+  prevPath = '',
+}: {
+  errorCode: '404' | '503';
+  prevPath: string;
+}) => {
+  useEffect(() => {
+    trackError(errorCode, prevPath);
+  }, []);
+
   return (
     <div className="error-page-container-outer">
       <div className="error-page-container-inner">

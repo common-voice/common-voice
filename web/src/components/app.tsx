@@ -347,7 +347,11 @@ class App extends React.Component {
   }
 
   async componentDidCatch(error: Error, errorInfo: any) {
-    this.setState({ error }, () => history.push(`${this.userLocales[0]}/503`));
+    this.setState({ error }, () =>
+      history.push(`${this.userLocales[0]}/503`, {
+        prevPath: history.location.pathname,
+      })
+    );
     if (!isProduction() && !isStaging()) return;
 
     Sentry.withScope(scope => {
@@ -395,7 +399,13 @@ class App extends React.Component {
                       userLocales={[locale, ...this.userLocales]}
                     />
                   ) : (
-                    <Redirect to={`/${userLocale}/404`} />
+                    <Redirect
+                      push
+                      to={{
+                        pathname: `/${userLocale}/404`,
+                        state: { prevPath: location.pathname },
+                      }}
+                    />
                   )
                 }
               />
