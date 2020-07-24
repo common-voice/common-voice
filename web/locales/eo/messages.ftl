@@ -770,6 +770,20 @@ help-reach-hours-general-pluralized =
     }en iu lingvo per persona celo
 set-a-goal = Difini celon
 cant-decide = Ĉu vi ne povas decidi?
+activity-needed-calculation-plural =
+    Se { NUMBER($people) ->
+        [one] { $people } persono
+       *[other] { $people } personoj
+    } faras { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } voĉregistron
+       *[other] { $clipsPerDay } voĉregistrojn
+    } ĉiutage, { NUMBER($totalHours) ->
+        [one] { $totalHours } horo
+       *[other] { $totalHours } horoj
+    } atingeblas post iom pli ol { NUMBER($periodMonths) ->
+        [one] monato
+       *[other] { $periodMonths } monatoj
+    }.
 how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
 which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?
