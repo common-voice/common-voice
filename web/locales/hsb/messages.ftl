@@ -487,6 +487,7 @@ de-identified-explanation = Proces, přez kotryž so profilowe informacije sobus
 ## Error pages
 
 error-title-404 = Njemóžachmy tu stronu za was namakać
+error-title-503 = Mamy njewočakowany čas staća
 error-code = Zmylk { $code }
 
 ## Data
