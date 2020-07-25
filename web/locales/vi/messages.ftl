@@ -477,10 +477,10 @@ sst-explanation = Công nghệ Nhận dạng giọng nói (STT) chuyển đổi 
 de-identified = Không xác định
 de-identified-explanation = Quá trình mà một người đóng góp thông tin hồ sơ cá nhân bị che khuất khỏi các clip thoại được tặng của họ khi được đóng gói để tải xuống như một phần của bộ dữ liệu.
 
-## NotFound
+## Error pages
 
-notfound-title = Không tìm thấy
-notfound-content = Tôi không biết bạn đang tìm gì.
+error-title-404 = Chúng tôi không thể tìm thấy trang đó cho bạn
+error-code = Lỗi { $code }
 
 ## Data
 
