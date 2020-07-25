@@ -484,10 +484,10 @@ sst-explanation = Technologije Rěčenje-do-teksta (STT) hłosowe daty to teksta
 de-identified = Anonymizowane
 de-identified-explanation = Proces, přez kotryž so profilowe informacije sobuskutkowarja z jeho darjenych hłosowych klipow zakrywaja, hdyž so za sćehnjenje jako dźěl datoweje sadźby pakuja.
 
-## NotFound
+## Error pages
 
-notfound-title = Njenamakany
-notfound-content = Boju so, njewěm, za čim pytaće.
+error-title-404 = Njemóžachmy tu stronu za was namakać
+error-code = Zmylk { $code }
 
 ## Data
 
