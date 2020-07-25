@@ -484,10 +484,9 @@ sst-explanation = Tal-till-text (STT)-tekniken konverterar röstdata till text.
 de-identified = Anonymisering
 de-identified-explanation = Processen genom vilken en bidragsgivares profilinformation döljs från sina donerade röstklipp när de är packade för nedladdning som en del av datamängden.
 
-## NotFound
+## Error pages
 
-notfound-title = Hittades inte
-notfound-content = Jag är rädd att jag inte vet vad du letar efter.
+error-code = Fel { $code }
 
 ## Data
 
