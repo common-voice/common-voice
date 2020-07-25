@@ -233,6 +233,7 @@ whats-public = 어떤 것이 공개됩니까?
 email-not-public = 사용자의 이메일을 공개하지 않습니다.
 recordings-and-locale-public = 내 녹음 횟수와 기여한 언어는 공개됩니다.
 username-optin-public = 사용자 이름의 공개여부를 선택하실 수 있습니다.
+demographic-deidentified-clarity = 선택적으로 제출 된 인구 통계 데이터 (예 : 연령, 성별, 언어 및 악센트)는 프로필에 공개되지 않으며 데이터 세트의 계정에 연결되지 않습니다. 보다 정확한 분석을 위해 개별 오디오 클립이 인구 통계 데이터와 연결됩니다. 예를 들어, 연구원은 특정 인구 통계 세그먼트에 대한 훈련 모델을 대상으로 할 수 있습니다.
 username-email-not-demographic = 사용자 이름과 이메일은 공개된 데이터와 연관되지 않습니다.
 
 ## Speak & Listen Shortcuts
@@ -441,6 +442,10 @@ about-clip-graveyard = 클립 무덤
 about-clip-graveyard-text = 클립 무덤은 Common Voice 데이터 세트에 포함되지 못 한 음성 클립으로 구성됩니다. 데이터 세트와 마찬가지로 클립 무덤도 다운로드할 수 있습니다.
 about-partners = 파트너
 about-become-a-partner = 파트너 되기
+about-partnership =
+    Common Voice는 공동 작업 프로젝트이며 가장 큰 오픈 소스 음성 데이터 세트를 구축하기 위해 파트너와 기여자 커뮤니티의 도움을 받고 있습니다.¶
+    ¶
+    프로젝트에 도움을 주신 다음 분들과 단체에 감사드립니다:
 about-get-involved = 참여하기
 about-nav-why-common-voice = 왜?
 about-nav-how-it-works = 어떻게?
@@ -465,6 +470,7 @@ hours-validated-explanation = 3 명의 사용자 중 2 명이 “찬성”에 �
 sst = 음성 문자 변환(STT)
 sst-explanation = 음성 문자 변환(STT) 기술은 음성 데이터를 문자로 변환합니다.
 de-identified = 개인정보가 제거된
+de-identified-explanation = 데이터 세트의 일부로 다운로드할 수 있게 패키지로 만들 때 기여자의 음성 정보에서 기여자의 프로필 정보가 가려지는 프로세스입니다.
 
 ## Error pages
 
