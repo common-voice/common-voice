@@ -249,7 +249,7 @@
         font-style: normal;
         font-weight: 600;
         text-align: center;
-        color: #4a4a4a;
+        color: var(--near-black);
     }
 
     .counter-animation {

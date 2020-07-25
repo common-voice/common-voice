@@ -20,8 +20,9 @@ const GetInvolved: React.ComponentType = () => {
     <>
       <img
         className="wave-footer"
-        src={require('./images/wave-footer@3x.png')}
-        alt="Wave"
+        src={require('../images/wave-footer@3x.png')}
+        alt=""
+        role="presentation"
       />
 
       {/*<div className="become-partner">
@@ -49,7 +50,7 @@ const GetInvolved: React.ComponentType = () => {
           elems={{
             discourseLink: <DiscourseLink />,
             githubLink: <GitHubLink />,
-            matrixLink: <MatrixLink />
+            matrixLink: <MatrixLink />,
           }}>
           <p />
         </Localized>
