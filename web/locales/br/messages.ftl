@@ -488,10 +488,13 @@ sst-explanation = Teknologiezhioù komz-da-destenn (KDD) a amdroy roadennoù mou
 de-identified = Dizanvet
 de-identified-explanation = An doare m'eo kuzhet titouroù profil ur c'hendaoler eus e klipoù mouezh roet pa vez fardet ar pakad da bellgargañ evel lodenn eus ar spletad roadennoù.
 
-## NotFound
+## Error pages
 
-notfound-title = N'eo ket bet kavet
-notfound-content = N'ouzon ket ar pezh emaoc'h o klask war-lerc'h, 'm eus aon.
+error-title-404 = Ne c’haller ket kavout ar bajenn-se evidoc’h
+error-content-404 = Marteze e sikouro ar <homepageLink>bajenn degemer</homepageLink>? Evit sevel ur goulenn, kit war <matrixLink>kumuniezh Matrix</matrixLink>, sellit ouzh kudennoù al lec’hienn dre <githubLink>GitHub</githubLink> pe gweladennit <discourseLink>foromoù Discourse</discourseLink>.
+error-title-503 = Sac’het eo al lec’hienn evit ar mare
+error-content-503 = Kempennet e vo al lec’hienn pa vo posupl en ober. Evit kaout an titouroù diwezhañ, kit e <matrixLink>kumuniezh Matrix</matrixLink> pe gweladennit <githubLink>GitHub</githubLink> pe c’hoazh <discourseLink>foromoù Discourse</discourseLink> evit kinnig ha sellet ouzh kudennoù al lec’hienn.
+error-code = Fazi { $code }
 
 ## Data
 
@@ -631,7 +634,6 @@ contribute = Kemer-perzh
 listen = Selaou
 skip = Mont hebioù
 shortcuts = Berradurioù
-clips-with-count = <bold>{ $count }</bold> a glipoù
 goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn enrollet bemdez!
 goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn gwiriet bemdez!
 contribute-more = Prest d'ober { $count } ouzhpenn?
@@ -767,17 +769,13 @@ want-to-continue = Fellout a ra deoc'h kenderc'hel ganti?
 finish-editing = Echuiñ gant an embann a-raok?
 lose-changes-warning = En ur guitaat bremañ e kollot ho kemmoù
 build-custom-goal = Sevel ur pal personelaet
-help-reach-hours = Skoazellit da dizhout { NUMBER($hours) } eur e { $language } gant ur pal personelaet
-help-reach-hours-general = Skoazellit Common Voice da dizout { NUMBER($hours) } eur en ur yezh gant ur pal personelaet
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
-activity-needed-calculation = { NUMBER($totalHours) } eur a  zo posupl e { NUMBER($periodMonths) } a vizioù ma vez { NUMBER($people) } a dud oc'h enrollañ { NUMBER($clipsPerDay) } a glipoù bemdez.
 how-many-per-day = Dispar! Pegement a glipoù bemdez?
 how-many-a-week = Dispar! Pegement a glipoù bep sizhun?
 which-goal-type = Fellout a ra deoc'h komz, selaou pe ober an daou?
 receiving-emails-info = Dibabet ho peus degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
 not-receiving-emails-info = Dibabet ho peus CHOM HEP degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
-n-clips = { NUMBER($count) } a glipoù
 help-share-goal = Skoazellit ac'hanomp da gaout muioc'h a vouezhioù, rannit ho pal
 confirm-goal = Kadarnaat ar pal
 goal-interval-weekly = Sizhuniek
