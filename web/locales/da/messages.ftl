@@ -461,6 +461,7 @@ size-megabyte = MB
 download-language = Hent { $language }
 validated-hours = Validerede timer
 recorded-hours = Indspillede timer
+whats-inside = Hvad består datasættet fra Common Voice af?
 want-dataset-update = Vil du opdateres, når vi frigiver en ny version af datasættet fra Common Voice? Abonnér på vores nyhedsbrev.
 subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
