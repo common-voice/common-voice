@@ -537,6 +537,7 @@ subscribe = 구독하기
 get-started-speech = 음성인식 시작하기
 other-datasets = 기타 음성 데이터세트
 feedback-q = 제안 사항이 있습니까?
+common-voice-info-new = Common Voice에 대해 질문이 있나요? 특정한 언어에 대한 개선 아이디어나 피드백이 있나요? <discourseLink>Discourse 포럼</discourseLink>에 참여하여 알려주세요.
 data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 읽은 오디오 북에서 파생 된 16Khz의 약 1000 시간의 말뭉치입니다.
 data-other-ted-name = TED-LIUM 말뭉치
 data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
@@ -628,6 +629,8 @@ record-again-instruction = 잘하셨습니다! <recordIcon></recordIcon> 다음 
 record-again-instruction2 = 계속하세요, <recordIcon></recordIcon> 다시 녹음하세요
 record-last-instruction = <recordIcon></recordIcon> 마지막입니다!
 review-tooltip = 진행하면서 여기서 클립을 검토하고 재녹음 하세요
+share-clip = 클립 공유
+share-common-voice = Common voice 공유
 review-instruction = 필요한 경우 클립을 검토하고 재녹음 하세요
 record-submit-tooltip = { $actionType } 준비가 되면 제출
 clips-uploaded = 클립 업로드됨
@@ -640,10 +643,15 @@ listen-instruction = { $actionType } <playIcon></playIcon> 문장을 정확하�
 listen-again-instruction = 잘하셨습니다! <playIcon></playIcon> 준비가 되면 다시 듣기
 listen-3rd-time-instruction = 2개 하셨네요, 계속 하세요! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
+listen-empty-state = 이 언어로 검증 할 클립이 부족합니다...
+speak-empty-state = 이 언어로 녹음 할 문장이 부족합니다...
+speak-empty-state-cta = 문장 기여하기
 record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
 keep-track-profile = 프로필로 진행 상황을 추적
 login-to-get-started = 시작하려면 로그인 또는 가입을 하세요.
+target-segment-first-banner = { $locale }로 Common Voice의 첫 번째 대상 세그먼트 만드는 것을 도와주세요.
+target-segment-learn-more = 더 알아보기
 
 ## Reporting
 
@@ -701,6 +709,8 @@ validated-clips = 검증된 클립
 total-approved = 승인 전체
 overall-accuracy = 종합적 정확도
 set-visibility = 공개 설정
+visibility-explainer = 이 설정은 리더 보드 표시를 제어합니다. 숨기면 진행 상황이 비공개가 됩니다. 이는 이미지나 사용자 이름, 진행률이 리더 보드에 나타나지 않음을 의미합니다. 리더 보드 새로 고침하면 변경 사항이 적용되는 데에 ~ { $minutes } 분이 걸립니다.
+visibility-overlay-note = 참고: '표시'로 설정하면 <profileLink>프로필 페이지</profileLink>에서 이 설정을 변경할 수 있습니다.
 show-ranking = 내 순위 표시
 
 ## Custom Goals
