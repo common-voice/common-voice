@@ -477,10 +477,9 @@ sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字�
 de-identified = 去識別化
 de-identified-explanation = 在打包下載資料集時，貢獻者的個人資料會從其所貢獻的語音片段隱藏的過程。
 
-## NotFound
+## Error pages
 
-notfound-title = 找不到
-notfound-content = 很抱歉，找不到您想找的東西。
+error-title-404 = 找不到您想要開啟的頁面
 
 ## Data
 
