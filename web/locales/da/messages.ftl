@@ -621,9 +621,11 @@ recorded-clips = Optagede klip
 validated-clips = Validerede klip
 total-approved = Godkendt i alt
 set-visibility = Indstil min synlighed
+show-ranking = Vis min placering
 
 ## Custom Goals
 
+get-started-goals = Kom i gang med mål
 create-custom-goal = Sæt dig dit eget mål
 both-speak-and-listen = Begge
 both-speak-and-listen-long = Begge (tale og lytte)
@@ -635,23 +637,31 @@ difficult-difficulty = Svært
 pro-difficulty = Pro
 want-to-continue = Vil du fortsætte?
 finish-editing = Færdiggør redigering først?
+build-custom-goal = Opret et brugerdefineret mål
 set-a-goal = Sæt et mål
 cant-decide = Kan du ikke beslutte dig?
 how-many-per-day = Godt! Hvor mange klip pr. dag?
 how-many-a-week = Godt! Hvor mange klip pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?
 confirm-goal = Bekræft mål
+share-goal-type-speak = Taler
+share-goal-type-listen = Lytter
+share-goal-type-both = Taler og lytter
 # LINK will be replaced with the current URL
 goal-share-text = Jeg har lige sat mig et personligt mål for stemmebidrag til #CommonVoice -- vær med og hjælpe med at lære maskiner, hvordan rigtige mennesker taler { $link }
 weekly-goal-created = Dit ugentlige mål er oprettet
 daily-goal-created = Dit daglige mål er oprettet
 track-progress = Følg dit fremskridt her og på din statistikside.
+return-to-edit-goal = Vend tilbage hertil for at ændre dit mål senere.
 share-goal = Del mit mål
 
 ## Profile Delete
 
+delete-q = Vil du gerne have dine stemmeoptagelser slettet, eller foretrækker du at beholde dem i Common Voice-datasættet?
 keep = Behold
 remove = Fjern
+keep-info = Dine anonyme stemmeoptagelser forbliver i Common Voice-datasættet. Når du har slettet din profil, kan du ikke længere sende en anmodning om at fjerne dine optagelser fra datasættet
+remove-info = Vi vil gennemgå din anmodning om at fjerne dine stemmeoptagelser fra datasættet. Hvis din anmodning bliver godkendt, kontakter vi dem, der har downloadet datasættet, og beder om, at de også fjerner dine stemmeoptagelser.
 profile-form-delete = Slet profil
 
 ## Landing
