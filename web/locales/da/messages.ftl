@@ -412,6 +412,7 @@ mycroft-subtitle = Kunstig intelligens
 mycroft-description =
     Mycroft er verdens første open source-assistent.
     Mycroft kan afvikles alle steder - på en computer, i en bil eller på en Raspberry Pi.
+mycroft-secondary-description = Dette er open source-software, der frit kan ændres, udvides og forbedres. Mycroft kan bruges til alt fra forskningsprojekter til store software-produkter.
 
 ## Glossary
 
@@ -468,6 +469,7 @@ audio-format = Lydformat
 number-of-voices = Antal stemmer
 splits = Fordeling
 email-to-download = Indtast mailadresse for at hente
+why-email = <b>Hvorfor en mailadresse?</ b> Vi har muligvis brug for at kontakte dig i fremtiden om ændringer i datasættet. En mailadresse giver os mulighed for dette.
 confirm-size = Du er parat til at hente <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
