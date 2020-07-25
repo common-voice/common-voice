@@ -392,6 +392,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hvorfor Common Voice?
+about-subtitle = Common Voice er en del af Mozillas initiativ, der skal hjælpe maskiner med at forstå, hvordan mennesker snakker i virkeligheden. Udover Common Voice-datasættet bygger vi også en open source-tjeneste til talegenkendelse ved navn Deep Speech.
 how-does-it-work-title = Hvordan fungerer det?
 about-speak = Tal
 about-listen-queue = Lytte-kø
@@ -422,6 +423,8 @@ de-identified = Anonymiseret
 
 ## Error pages
 
+error-title-404 = Den side kunne vi ikke finde.
+error-code = Fejl { $code }
 
 ## Data
 
@@ -454,6 +457,7 @@ review-delete-recordings = Slet mine optagelser
 
 ## Datasets Page
 
+datasets-headline = Vi bygger et open source-datasæt af stemmer på mange forskellige sprog, som alle kan bruge til at træne taleaktiverede programmer.
 language = Sprog
 # File size in gigabytes
 size = Størrelse
@@ -474,6 +478,7 @@ whats-inside = Hvad består datasættet fra Common Voice af?
 want-dataset-update = Vil du opdateres, når vi frigiver en ny version af datasættet fra Common Voice? Abonnér på vores nyhedsbrev.
 subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
+other-datasets = Andre stemme-datasæt
 feedback-q = Har du feedback?
 common-voice-info-new = Har du spørgsmål om Common Voice? Ideer til forbedringer eller feedback om et specifikt sprog? Deltag i vores <discourseLink>Discourse-forum</discourseLink> og fortæl os det.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
@@ -675,4 +680,5 @@ profile-form-delete = Slet profil
 
 ## Landing
 
+help-contribute = Du kan hjælpe med at bygge et mangfoldigt open source-datasæt ved at oprette en Common Voice-profil og bidrage med din stemme.
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
