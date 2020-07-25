@@ -474,10 +474,10 @@ sst-explanation = Tale-til-tekst-teknologi konverterer taledata til tekst.
 de-identified = Anonymisering
 de-identified-explanation = Prosessen der profilinformasjonen til ein bidragsytar blir frikopla frå dei bidratte stemmeklippa når dei vert pakka for nedlasting som ein del av datasettet.
 
-## NotFound
+## Error pages
 
-notfound-title = Ikkje funne
-notfound-content = Eg er redd for at eg ikkje forstår kva du ser etter.
+error-title-404 = Vi fann ikkje sida for deg
+error-code = Feil { $code }
 
 ## Data
 
