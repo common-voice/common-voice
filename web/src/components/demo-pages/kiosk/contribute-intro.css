@@ -1,0 +1,178 @@
+/* CONTRIBUTE PAGE LAYOUT STYLES */
+
+.demo-contribute-kiosk-top-icon-circle {
+    background: var(--red);
+}
+
+#demo-contribute-button {
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 20.68rem;
+    padding: 1.1rem 0;
+    background-color: var(--blue);
+    border-color: var(--blue);
+
+    path {
+        fill: white;
+    }
+
+    &:hover {
+        path {
+            fill: black;
+        }
+        background-color: white;
+    }
+}
+
+#demo-contribute-back {
+    width: 20.68rem;
+}
+
+#demo-contribute-speak-box,
+#demo-contribute-listen-box {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .hidden-paragraph {
+        /* TODO: convert to rem */
+        width: 280px;
+        min-height: 50px;
+        visibility: hidden;
+        color: transparent;
+        transform: translateY(5px);
+        transition: transform 0.5s ease-in-out, color 0.9s var(--easing);
+    }
+    .demo-contribute-text {
+        min-width: 205px;
+        margin-right: 5rem;
+        z-index: var(--middle-z-index);
+        transition: margin var(--transition-duration-slow) var(--easing);
+        .contribute-title {
+            font-size: 3rem;
+            font-weight: normal;
+        }
+        .contribute-subtitle {
+            font-size: 1.5rem;
+        }
+    }
+    .gradient {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: var(--middle-z-index);
+        opacity: 0.5;
+        background: linear-gradient(
+            90deg,
+            #f9f9f8 0%,
+            rgba(255, 255, 255, 0.0001) 19.29%,
+            rgba(255, 255, 255, 0.0001) 86.08%,
+            #f9f9f8 100%
+        );
+    }
+    .contribute-button {
+        border-radius: 100%;
+        width: 110px;
+        height: 110px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        background: white;
+        transition: all var(--transition-duration-slow) ease-in-out;
+    }
+}
+
+#demo-contribute-listen-box {
+    background: url('./assets/listen-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    svg {
+        width: 22px;
+        path {
+            fill: var(--valid-green);
+        }
+    }
+    &:hover {
+        .contribute-button {
+            background: var(--valid-green);
+            svg path {
+                fill: white;
+            }
+        }
+    }
+}
+
+#listen-background {
+    background: rgba(89, 203, 183, 0.5);
+}
+
+#demo-contribute-speak-box {
+    background: url('./assets/speak-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    #demo-contribute-speak-button {
+        #speak-background {
+            background: linear-gradient(90deg, #f89096 0%, #b1b5e5 100%);
+        }
+    }
+    &:hover {
+        .contribute-button {
+            background: var(--red);
+            svg path {
+                fill: white;
+            }
+        }
+    }
+}
+
+#demo-contribute-speak-box:hover,
+#demo-contribute-listen-box:hover {
+    &::before {
+        opacity: 0;
+    }
+    .hidden-paragraph {
+        visibility: visible;
+        width: 280px;
+        height: auto;
+        color: var(--warm-grey);
+        transform: translateY(0);
+        transition: transform 0.5s ease-in-out, color 0.9s var(--easing);
+    }
+    .demo-contribute-text {
+        margin-right: 9.5rem !important;
+    }
+}
+
+#demo-contribute-speak-box::before,
+#demo-contribute-listen-box::before {
+    background: white;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: var(--bottom-z-index);
+    transition: opacity var(--transition-duration-slow) linear;
+}
+
+#speak-background,
+#listen-background {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: relative;
+    opacity: 0.5;
+    filter: blur(34px);
+    z-index: -1;
+}
+
+#demo-contribute-listen-button,
+#demo-contribute-speak-button {
+    z-index: var(--middle-z-index);
+}

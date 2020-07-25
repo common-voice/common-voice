@@ -836,6 +836,11 @@ demo-account-enter-email =
 .label = Enter email to send a sign up link
 demo-account-sign-up = Send sign up link
 
+## Demo Contribute
+demo-contribute-card-header = Ready to add your voice or lend your ear?
+demo-contribute-card-body = Now that you know a little bit more about Common Voice, why not try it out? Click on the microphone icon to start reading sentences aloud. <br/><br/>If you prefer to review other people's voice contributions, click on the play icon. If the voice recording you hear matches the words written onscreen.
+demo-listen-subtitle = Ready to contribute?
+
 ## Demo Dashboard
 demo-dashboard-card-header = Personal dashboards keep you up-to-date with individual and community progress.
 demo-dashboard-card-body = For every voice clip donated, and every audio clip validated, your account dashboards are updated to reflect your latest progress in each language you contribute to. Yes, you can contribute to more than one!<br/><br/> Use dashboards to track your stats, see how you're doing alongside others in the community, and set daily or weekly contribution goals.

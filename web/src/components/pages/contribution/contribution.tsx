@@ -89,6 +89,7 @@ interface PropsFromState {
 }
 
 interface Props extends WithLocalizationProps, PropsFromState {
+  demoMode: boolean;
   activeIndex: number;
   errorContent?: any;
   reportModalProps: Omit<ReportModalProps, 'onSubmitted'>;
@@ -289,6 +290,7 @@ class ContributionPage extends React.Component<Props, State> {
       reportModalProps,
       type,
       user,
+      demoMode,
     } = this.props;
     const {
       showAccountModal,
@@ -341,7 +343,13 @@ class ContributionPage extends React.Component<Props, State> {
           ].join(' ')}>
           <div className="top">
             <LocaleLink
-              to={user.account ? URLS.DASHBOARD : URLS.ROOT}
+              to={
+                user.account && !demoMode
+                  ? URLS.DASHBOARD
+                  : demoMode
+                  ? URLS.DEMO_CONTRIBUTE
+                  : URLS.ROOT
+              }
               className="back">
               <ArrowLeft />
             </LocaleLink>
@@ -350,13 +358,13 @@ class ContributionPage extends React.Component<Props, State> {
               <Localized id="speak">
                 <LocaleNavLink
                   className={getTrackClass('fs', `toggle-speak`)}
-                  to={URLS.SPEAK}
+                  to={demoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
                 />
               </Localized>
               <Localized id="listen">
                 <LocaleNavLink
                   className={getTrackClass('fs', `toggle-listen`)}
-                  to={URLS.LISTEN}
+                  to={demoMode ? URLS.DEMO_LISTEN : URLS.LISTEN}
                 />
               </Localized>
             </div>
