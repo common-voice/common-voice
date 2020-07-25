@@ -11,7 +11,6 @@ loading = 로딩중…
 email-opt-in-info = 개인 목표 리마인더, 진행상황 알림, Common Voice 뉴스레터와 같은 이메일을 받고 싶습니다.
 email-opt-in-info-title = Common Voice 메일링 리스트 가입
 email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행상황 알림, Common Voice 뉴스레터와 같은 이메일을 받기
-email-opt-in-privacy = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
 
@@ -64,10 +63,12 @@ ga-IE = 아일랜드어
 gl = 갈리시아어
 ha = 하우사어
 he = 히브리어
-hi-IN = 힌디어
+hi = 힌디어
 hr = 크로아티아어
 hsb = 고지 소르브어
 hu = 헝가리어
+hy-AM = 아르메니아어
+hyw = 서부 아르메니아어
 ia = 인테르링구아어
 id = 인도네시아어
 is = 아이슬란드어
@@ -75,6 +76,7 @@ it = 이탈리아어
 izh = 이조르어
 ja = 일본어
 ka = 그루지아어
+kaa = 카라칼파크어
 kab = 커바일어
 kbd = 카바르다어
 kk = 카자흐스탄어
@@ -126,6 +128,7 @@ ta = 타밀어
 te = 텔루구어
 tg = 타지크어
 th = 태국어
+tl = 타갈로그어
 tr = 터키어
 tt = 타타르어
 uby = 우비흐어
@@ -133,6 +136,7 @@ udm = 우드무르트어
 uk = 우크라이나어
 ur = 우르두어
 uz = 우즈베키스탄어
+vec = 베네치아어
 vi = 베트남어
 vot = 바트어
 zh-CN = 중국어(중국)
@@ -462,10 +466,8 @@ sst = 음성 문자 변환(STT)
 sst-explanation = 음성 문자 변환(STT) 기술은 음성 데이터를 문자로 변환합니다.
 de-identified = 개인정보가 제거된
 
-## NotFound
+## Error pages
 
-notfound-title = 찾을 수 없음
-notfound-content = 찾고 있는 것이 무엇인지 모르겠습니다.
 
 ## Data
 
@@ -598,7 +600,6 @@ contribute = 기여하기
 listen = 듣기
 skip = 건너뛰기
 shortcuts = 바로 가기
-clips-with-count = <bold>{ $count }</bold>클립
 goal-help-recording = 방금 오늘 Common Voice 일간 녹음 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 goal-help-validation = 방금 오늘 Common Voice 일간 검증 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 contribute-more =
@@ -724,7 +725,6 @@ receiving-emails-info =
 not-receiving-emails-info =
     목표 알림이나 내 진행 업데이트, Common Voice 뉴스레터와 같은
     이메일을 수신하지 <bold>않도록</bold> 설정되어 있습니다.
-n-clips = { NUMBER($count) }개의 클립
 help-share-goal = 더 많은 목소리를 찾게 도와 주세요. 목표를 공유하세요.
 confirm-goal = 목표 확인
 goal-interval-weekly = 주간
