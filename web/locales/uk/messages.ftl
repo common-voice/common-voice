@@ -495,10 +495,13 @@ sst-explanation = Технології Speech-to-text (STT) перетворюю
 de-identified = Знеособлений
 de-identified-explanation = Процес, за допомогою якого інформація про профіль учасника приховується в наданих голосових кліпах під час запаковування для завантаження, як частина набору даних.
 
-## NotFound
+## Error pages
 
-notfound-title = Не знайдено
-notfound-content = Боюсь, я не знаю, що ви шукаєте.
+error-title-404 = Нам не вдається знайти цю сторінку для вас
+error-content-404 = Можливо допоможе наша <homepageLink>домашня сторінка</homepageLink>? Щоб поставити питання, будь ласка, долучіться до <matrixLink>обговорень спільноти у Matrix</matrixLink>, відстежуйте проблеми сайту через <githubLink>GitHub</githubLink> або відвідайте <discourseLink>наші форуми на Discours</discourseLink>.
+error-title-503 = Неочікуване вимкнення сайту
+error-content-503 = Роботу сайту буде поновлено якнайшвидше. Щоб отримати найновішу інформацію, будь ласка, долучіться до <matrixLink>обговорень спільноти у Matrix</matrixLink> або відвідайте <githubLink>GitHub</githubLink> чи <discourseLink>наші форуми на Discourse</discourseLink>, щоб повідомляти та відстежувати проблеми із сайтом.
+error-code = Помилка { $code }
 
 ## Data
 
