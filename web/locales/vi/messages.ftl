@@ -480,6 +480,8 @@ de-identified-explanation = Quá trình mà một người đóng góp thông ti
 ## Error pages
 
 error-title-404 = Chúng tôi không thể tìm thấy trang đó cho bạn
+error-content-404 = Có lẽ <homepageLink>trang chủ</homepageLink> của chúng tôi sẽ giúp ích? Để đặt câu hỏi, vui lòng tham gia <matrixLink>cộng đồng trò chuyện trên Matrix</matrixLink>, theo dõi các sự cố trang qua <githubLink>GitHub</githubLink> hoặc truy cập <discourseLink>diễn đàn Discourse của chúng tôi</discourseLink>.
+error-content-503 = Các trang web sẽ quay lại càng sớm càng tốt. Để biết thông tin mới nhất, vui lòng tham gia <matrixLink>cộng đồng trò chuyện trên Matrix</matrixLink> hoặc truy cập <githubLink>GitHub</githubLink> hoặc <discourseLink>diễn đàn Discourse của chúng tôi</discourseLink> để gửi và theo dõi các vấn đề về trải nghiệm trang web.
 error-code = Lỗi { $code }
 
 ## Data
