@@ -474,6 +474,7 @@ de-identified-explanation = 在打包下载数据集时，贡献者的个人信�
 
 ## Error pages
 
+error-title-404 = 我们找不到你要查看的页面
 error-code = { $code } 错误
 
 ## Data
