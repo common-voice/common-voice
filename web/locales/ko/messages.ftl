@@ -474,6 +474,7 @@ de-identified-explanation = 데이터 세트의 일부로 다운로드할 수 �
 
 ## Error pages
 
+error-code = 오류 { $code }
 
 ## Data
 
@@ -607,6 +608,11 @@ contribute = 기여하기
 listen = 듣기
 skip = 건너뛰기
 shortcuts = 바로 가기
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> 클립
+       *[other] <bold>{ $count }</bold> 클립
+    }
 goal-help-recording = 방금 오늘 Common Voice 일간 녹음 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 goal-help-validation = 방금 오늘 Common Voice 일간 검증 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 contribute-more =
@@ -616,6 +622,7 @@ contribute-more =
 record-cta = 녹음 시작
 record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플랫폼입니다.
 record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
+record-platform-not-supported-ios-non-safari = iOS에서는 Safari에서 녹음을 계속해 주세요…
 record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
 record-no-mic-found = 마이크를 찾을 수 없습니다.
 record-error-too-short = 녹음이 너무 짧습니다.
@@ -650,7 +657,9 @@ record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
 keep-track-profile = 프로필로 진행 상황을 추적
 login-to-get-started = 시작하려면 로그인 또는 가입을 하세요.
+target-segment-first-card = 첫 번째 대상 세그먼트에 기여하고 있습니다.
 target-segment-first-banner = { $locale }로 Common Voice의 첫 번째 대상 세그먼트 만드는 것을 도와주세요.
+target-segment-add-voice = 내 목소리 추가
 target-segment-learn-more = 더 알아보기
 
 ## Reporting
@@ -717,6 +726,7 @@ show-ranking = 내 순위 표시
 
 get-started-goals = 목표로 시작하기
 create-custom-goal = 맞춤 목표 만들기
+goal-type = 어떤 목표를 세우고 싶은가요?
 both-speak-and-listen = 둘 다
 both-speak-and-listen-long = 둘 다(말하기와 듣기)
 daily-goal = 일일 목표
@@ -741,6 +751,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     목표 알림이나 내 진행 업데이트, Common Voice 뉴스레터와 같은
     이메일을 수신하지 <bold>않도록</bold> 설정되어 있습니다.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } 클립
+       *[other] { $count } 클립
+    }
 help-share-goal = 더 많은 목소리를 찾게 도와 주세요. 목표를 공유하세요.
 confirm-goal = 목표 확인
 goal-interval-weekly = 주간
@@ -751,6 +766,8 @@ share-n-weekly-contribution-goal = { $type }에 { $count } 개의 클립을 완�
 share-goal-type-speak = 말하기
 share-goal-type-listen = 듣기
 share-goal-type-both = 말하기와 듣기
+# LINK will be replaced with the current URL
+goal-share-text = 방금 #CommonVoice 에 음성 기여에 대한 나만의 목표를 만들었습니다. 나와 함께 기계에게 실제 사람이 말하는 방법을 가르쳐주세요. { $link }
 weekly-goal-created = 주간 목표가 생성되었습니다
 daily-goal-created = 일일 목표가 생성되었습니다
 track-progress = 여기와 통계 페이지에서 진행 상황을 추적하세요.
