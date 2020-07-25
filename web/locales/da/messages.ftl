@@ -408,12 +408,11 @@ mycroft-description =
 glossary = Ordliste
 localization = Oversættelse
 hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
+hours-validated-explanation = Antallet af stemmeoptagelser i timer, der er blevet valideret af 2 ud af 3 brugere med en "Ja"-stemme. Disse markerer fremgangen mod det overordnede mål på 10.000 timer.
 de-identified = Anonymiseret
 
-## NotFound
+## Error pages
 
-notfound-title = Ikke fundet
-notfound-content = Jeg er bange for, at jeg ikke ved, hvad du leder efter.
 
 ## Data
 
@@ -532,7 +531,6 @@ contribute = Bidrag
 listen = Lyt
 skip = Spring over
 shortcuts = Genveje
-clips-with-count = <bold>{ $count }</bold> optagelser
 goal-help-recording = Du har hjulpet Common Voice med at nå <goalPercentage></goalPercentage> af vores daglige { $goalValue } mål for indspilninger!
 goal-help-validation = Du har hjulpet Common Voice med at nå <goalPercentage></goalPercentage> af vores daglige { $goalValue } mål for validering!
 contribute-more = Klar til at lave { $count } mere?
@@ -634,13 +632,11 @@ difficult-difficulty = Svært
 pro-difficulty = Pro
 want-to-continue = Vil du fortsætte?
 finish-editing = Færdiggør redigering først?
-help-reach-hours = Hjælp med at opnå { NUMBER($hours) } timer på { $language } med et personligt mål
 set-a-goal = Sæt et mål
 cant-decide = Kan du ikke beslutte dig?
 how-many-per-day = Godt! Hvor mange klip pr. dag?
 how-many-a-week = Godt! Hvor mange klip pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?
-n-clips = { NUMBER($count) } klip
 confirm-goal = Bekræft mål
 # LINK will be replaced with the current URL
 goal-share-text = Jeg har lige sat mig et personligt mål for stemmebidrag til #CommonVoice -- vær med og hjælpe med at lære maskiner, hvordan rigtige mennesker taler { $link }
