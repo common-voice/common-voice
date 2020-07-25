@@ -481,10 +481,13 @@ sst-explanation = STT-Technologien (Sprache-zu-Text) wandeln Sprachdaten in Text
 de-identified = Anonymisiert
 de-identified-explanation = Der Prozess, durch den die Profilinformationen eines Mitwirkenden von den gespendeten Sprachclips verborgen werden, wenn sie als Teil des Datensatzes zum Download verpackt werden.
 
-## NotFound
+## Error pages
 
-notfound-title = Nicht gefunden
-notfound-content = Ich fürchte, ich weiß nicht, wonach Sie suchen.
+error-title-404 = Wir konnten diese Seite nicht finden
+error-content-404 = Vielleicht hilft unsere <homepageLink>Startseite</ homepageLink> weiter. Um eine Frage zu stellen, nehmen Sie bitte am <matrixLink>Matrix-Community-Chat</matrixLink> teil, melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink> oder besuchen Sie <discourseLink>unsere Discourse-Foren</discourseLink>.
+error-title-503 = Unsere Website ist unerwarteterweise nicht erreichbar.
+error-content-503 = Die Seite wird so schnell wie möglich wieder verfügbar sein. Die neuesten Informationen erhalten Sie im <matrixLink>Matrix-Community-Chat</matrixLink>. Nutzen Sie <githubLink>GitHub</githubLink> oder <discourseLink>unsere Discourse-Foren</discourseLink>, um Probleme mit der Website zu melden und Fehlerberichte zu lesen.
+error-code = Fehler { $code }
 
 ## Data
 
