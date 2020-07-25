@@ -475,10 +475,10 @@ sst-explanation = Tehnologija govora v besedilo (STT), pretvarja glasovne podatk
 de-identified = Prikrivanje
 de-identified-explanation = Postopek, s katerim so podatki o profilu avtorja prikriti iz njegovih poslanih glasovnih posnetkov, ko so ti pripravljeni za prenos kot del nabora podatkov.
 
-## NotFound
+## Error pages
 
-notfound-title = Ni zadetkov
-notfound-content = Na žalost tega, kar iščete, ne najdemo.
+error-content-404 = Morda vam lahko pomaga naša <homepageLink>domača stran</homepageLink>? Če želite postaviti vprašanje, se pridružite <matrixLink>klepetu skupnosti na Matrixu</matrixLink>, spremljajte težave na <githubLink>GitHubu</githubLink> ali obiščite <discourseLink>naš forum Discourse</discourseLink>.
+error-code = Napaka { $code }
 
 ## Data
 
@@ -497,6 +497,7 @@ data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešana
+data-download-singleword-title = Prenesite enobesedni ciljni segment
 review-terms = Z uporabo Common Voice se strinjate z našimi <termsLink>pogoji</termsLink> in z <privacyLink>obvestilom o zasebnosti</privacyLink>
 terms-agree = Strinjam se
 terms-disagree = Ne strinjam se
