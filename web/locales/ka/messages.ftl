@@ -486,6 +486,10 @@ de-identified-explanation = მოხალისეების პროფი
 ## Error pages
 
 error-title-404 = გვერდი ვერ მოიძებნა
+error-content-404 = იქნებ ჩვენი <homepageLink>მთავარი გვერდი</homepageLink> დაგეხმაროთ? კითხვის დასასმელად, შემოუერთდით <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, საიტის ხარვეზების შესახებ იხილეთ <githubLink>GitHub</githubLink> ან ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>.
+error-title-503 = საიტის მუშაობის დაუგეგმავი შეჩერება
+error-content-503 = საიტი აღდგება უმოკლეს დროში. უახლესი ინფორმაციისთვის, გთხოვთ შემოუერთდეთ <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, ან იხილოთ <githubLink>GitHub</githubLink> და ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>, ხარვეზების მოსახსენებლად.
+error-code = შეცდომა { $code }
 
 ## Data
 
