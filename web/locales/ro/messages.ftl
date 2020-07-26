@@ -2,7 +2,7 @@
 
 yes-receive-emails = Da, vreau să primesc e-mailuri. Aș dori să primesc informații despre proiectul Common Voice.
 stayintouch = La Mozilla construim o comunitate în jurul tehnologiei vocale. Am vrea să te ținem la curent cu noutăți, surse noi de date și să aflăm mai multe despre cum folosești aceste date.
-privacy-info = Promitem că vom gestiona cu atenție datele tale personale. Pentru mai multe informații, citește <privacyLink>Declarația noastră de confidențialitate</privacyLink>.
+privacy-info = Promitem că vom gestiona cu atenție datele tale personale. Pentru mai multe informații, citește <privacyLink>Notificarea noastră privind confidențialitatea</privacyLink>.
 return-to-cv = Întoarce-te la Common Voice
 email-input =
     .label = E-mail
@@ -477,10 +477,8 @@ sst-explanation = Tehnologiile de recunoaștere vocală (Speech-to-text (STT)) c
 de-identified = Anominizat
 de-identified-explanation = Procesul prin care informațiile de profil ale unui colaborator devin ilizibile în secvențele vocale donate când sunt împachetate pentru descărcare ca parte a setului de date.
 
-## NotFound
+## Error pages
 
-notfound-title = Nu a fost găsit
-notfound-content = Ne pare rău, dar nu știm ce cauți.
 
 ## Data
 
@@ -501,7 +499,7 @@ license = Licență: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixtă
 data-download-singleword-title = Descarcă segmentul-țintă de cuvinte unice
 data-download-singleword-callout = Este un segment pe bază de cazuri de utilizare, ce conține date pentru recunoașterea vocală a cifrelor, detecție „da/nu” și date de testare de cuvinte de activare pentru <fxLink>Firefox Voice</fxLink>.
-review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Declarația de confidențialitate</privacyLink>
+review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>
 terms-agree = De acord
 terms-disagree = Nu sunt de acord
 review-aborted = Încărcare abandonată. Vrei să-ți ștergi înregistrările?
