@@ -295,7 +295,7 @@ profile-form-gender =
 leaderboard-visibility =
     .label = Synlighed på leaderboard
 hidden = Skjult
-visible = Synligt
+visible = Synlig
 native-language =
     .label = Modersmål
 profile-form-submit-save = Gem
@@ -639,6 +639,8 @@ recorded-clips = Optagede klip
 validated-clips = Validerede klip
 total-approved = Godkendt i alt
 set-visibility = Indstil min synlighed
+visibility-explainer = Denne indstilling styrer, om du er synlig på vores leaderboard. Når "skjult" er valgt, så vil dine fremskridt kun være synlige for dig selv. Det betyder, at dit billede, brugernavn og fremskridt ikke vil være synligt på leaderboardet. Bemærk at det tager { $minutes } minutter før ændringer vises på leaderboardet.
+visibility-overlay-note = Bemærk: Når indstillingen "synlig" er valgt, så kan den ændres på din <profileLink>profilside</profileLink>
 show-ranking = Vis min placering
 
 ## Custom Goals
