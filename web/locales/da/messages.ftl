@@ -11,6 +11,7 @@ loading = Indlæser…
 email-opt-in-info = Jeg vil gerne modtage mails såsom påmindelser om mål, opdateringer om mine fremskridt og nyhedsbreve om Common Voice.
 email-opt-in-info-title = Meld dig til mailinglisten for Common Voice
 email-opt-in-info-sub-with-challenge = Modtag mails med påmindelser om udfordringer og mål, opdateringer om fremskridt samt nyhedsbreve om Common Voice.
+email-opt-in-privacy-v2 = Ved at tilmelde dig nyhedsbreve accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
 not-available-abbreviation = Ikke tilgængelig
 
@@ -225,6 +226,7 @@ rich-data = Gør dine indsendte data så informationsrige som muligt ved at indg
 improve-audio = Informationerne på din profil forbedrer de lyddata, der bruges til træning af talegenkendelse.
 keep-track = Hold styr på dine fremskridt og mål på tværs af flere sprog.
 compare-progress = Se dine fremskridt sammenlignet med andre bidragsydere over hele verden.
+view-goals = Sammenhold dine fremskridt med dine personlige mål - og projektets overordnede mål.
 join-newsletter = Du kan eventuelt melde dig til vores mailliste for at få opdateringer og ny info om projektet.
 
 ## What's public
