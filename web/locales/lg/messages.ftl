@@ -314,7 +314,9 @@ female = Mukazi
 # Gender
 other = Ndi kirala
 why-profile-title = Lwaki profayilo?
-why-profile-text = Mu kuwa ebimu ebikukwatako, data ow'amaloboozi gw'owa Common Voice ajja kuba wa mugaso nnyo ku Njogerayingini ezikozesa okwogera okukozesa data ono okulongoosa mu acculesi.
+why-profile-text =
+    Mu kuwa ebimu ebikukwatako, data ow'amaloboozi gw'owa Common Voice ajja kuba wa mugaso nnyo ku Yingini
+    Ezitegera Okwogera kuba zikozesa data ono mu kulongoosa obutuufu bw'azo.
 dashboard = Dashiboodi
 build-profile = Zzimba Profayilo
 avatar = Ka dolle
