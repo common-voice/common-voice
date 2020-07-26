@@ -11,7 +11,7 @@ loading = Bijja…
 email-opt-in-info = Nandi yagadde okufuna obubaka nga obujjukiza, bye'ntuseeko ate n'ebikwata ku Common Voice.
 email-opt-in-info-title = Weyunge kw'abo be tusindikira email ku bifa ku Common Voice
 email-opt-in-info-sub-with-challenge = Ffuna email nga ezikwata ku bilemye n'okujikiza, wetutuse, n'ebikwata ku Common Voice.
-email-opt-in-privacy = Okweyunga kwabo betusindikira emails kilaga nti okiriza Mozilla okukozesa ebikufaako nga bw'onyonyodwa mu <privacyLink>Nkola Y'ekyama<privacyLink>eya Mozilla.
+email-opt-in-privacy-v2 = Bwokkiriza okufuna email otegeeza nti tolina buzibu na Mozilla kubeera na information eno nga bwe bannyonnyola mu <privacyLink>Engeri gye Tukuumamu Ebikukwatako  </privacyLink>.
 indicates-required = Kano * kalaga kyetagisa
 not-available-abbreviation = N/A
 
@@ -363,9 +363,8 @@ mycroft-title = Mycroft Ai
 ## Glossary
 
 
-## NotFound
+## Error pages
 
-notfound-title = Tekisangidwa
 
 ## Data
 
@@ -526,7 +525,6 @@ cant-decide = Tosobola kusalawo?
 how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
 how-many-a-week = Kilungi! Buloboozi bumeka mu wiiki?
 which-goal-type = Oyagala kw'ogera, Kuwuliriza oba by'ombi?
-n-clips = Obuloobozi { NUMBER($count) }
 confirm-goal = Kakasa Ekigobero
 goal-interval-weekly = Buli wiiki
 share-goal-type-listen = Okuwliriza
