@@ -577,6 +577,7 @@ record-again-instruction2 = Fortsæt det gode arbejde, optag igen <recordIcon></
 record-last-instruction = <recordIcon></recordIcon> Den sidste!
 review-tooltip = Godkend og optag klip her efterhånden
 share-clip = Del dit klip
+share-common-voice = Del Common Voice
 review-instruction = Godkend og optag klip igen hvis nødvendigt
 record-submit-tooltip = { $actionType } indsend når du er klar
 clips-uploaded = Optagelser uploaded
@@ -591,10 +592,14 @@ listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det g
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
 listen-empty-state = Der er ikke flere klip at validere på dette sprog...
 speak-empty-state = Der er ikke flere sætninger at optage på dette sprog...
+speak-empty-state-cta = Bidrag med sætninger
 record-button-label = Optag din stemme
 share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
 keep-track-profile = Hold styr på dine fremskridt med en profil
 login-to-get-started = Log ind eller tilmeld dig for at komme i gang
+target-segment-first-card = Du bidrager til vores første målsegment
+target-segment-first-banner = Vær med til at lave det første målsegment til Common Voice på { $locale }
+target-segment-add-voice = Tilføj din stemme
 target-segment-learn-more = Læs mere
 
 ## Reporting
@@ -707,6 +712,10 @@ keep = Behold
 remove = Fjern
 keep-info = Dine anonyme stemmeoptagelser forbliver i Common Voice-datasættet. Når du har slettet din profil, kan du ikke længere sende en anmodning om at fjerne dine optagelser fra datasættet
 remove-info = Vi vil gennemgå din anmodning om at fjerne dine stemmeoptagelser fra datasættet. Hvis din anmodning bliver godkendt, kontakter vi dem, der har downloadet datasættet, og beder om, at de også fjerner dine stemmeoptagelser.
+why-delete-recordings =
+    Optagelser fra Common Voice bruges af akademikere, små virksomheder og andre, der interesserer sig for talegenkendelse til at træne og udvide offentligt tilgængelige ressourcer som fx talemodeller.
+    
+    Kan du fortælle os, hvorfor du vil have dine optagelser slettet?
 profile-form-delete = Slet profil
 
 ## Landing
