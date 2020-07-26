@@ -342,6 +342,7 @@ recording-voice-wave = Optagelse
 delete-voice-clip = eller slet lydklip
 ready-to-upload = Upload
 cancel-avatar-clip-recording = Annuller
+about-avatar-clip-recording = Optag et stemmeklip som en del af din profil-avatar. Andre kan holde musen over avataren og lytte til din optagelse.
 browse-file-title = Upload en billedfil
 browse-file = Træk og slip eller <browseWrap>gennemse</browseWrap>
 connect-gravatar = Forbind med Gravatar
@@ -479,6 +480,10 @@ download-language = Hent { $language }
 validated-hours = Validerede timer
 recorded-hours = Indspillede timer
 whats-inside = Hvad består datasættet fra Common Voice af?
+dataset-description-hours =
+    Hver post i datasættet består af en unik MP3-fil og en tilhørende tekstfil. Mange af de <b>{ $total }</b> optagede timer i datasættet inkluderer desuden demografisk metadata som alder, køn og accent, hvilket kan hjælpe til at gøre stemmegenkendelses-tjenester mere nøjagtige.
+    
+    Data sættet består lige nu af <b>{ $valid }</b> validerede timer på <b>{ $languages }</b> sprog - og vi tilføjer hele tiden nye stemmer og nye sprog. Besøg <languagesLink>Oversigten over sprog</languagesLink> for at anmode om et nyt sprog eller at komme i gang med at bidrage til projektet.
 want-dataset-update = Vil du opdateres, når vi frigiver en ny version af datasættet fra Common Voice? Abonnér på vores nyhedsbrev.
 subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
