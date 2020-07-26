@@ -448,6 +448,7 @@ mycroft-subtitle = آرٹیفیشل انٹیلی جنس
 mycroft-description =
     مائکروفٹ دنیا کا اوپن سورس پہلا معاون ہے۔
     مائکروفٹ کہیں بھی چلتا ہے - ڈیسک ٹاپ کمپیوٹر پر ، آٹوموبائل کے اندر ، یا رسبری پائی پر  بھی۔
+mycroft-secondary-description = یہ اوپن سورس سافٹ ویئر ہے جسے آزادانہ طور پر ریمکس ، توسیع اور بہتر بنایا جاسکتا ہے۔ مائکروفٹ کسی سائنس پروجیکٹ سے لے کر انٹرپرائز سافٹ ویئر ایپلی کیشن تک کسی بھی چیز میں استعمال ہوسکتا ہے۔
 
 ## Glossary
 
@@ -457,6 +458,7 @@ localization-explanation = یہ ہمارے متعدد مقامات (زبانیں
 sentence-collection = جملہ  مجموعہ
 sentence-collection-explanation = عوامی ڈومین سے جملے جمع کرنا ، یا عوامی ڈومین کے لئے نیا لکھنا۔
 hours-recorded-explanation = وائس ریکارڈنگ کے اوقات کی گھنٹے  جو ہم نے اب تک جمع کیا ہے۔
+hours-validated-explanation = صوتی ریکارڈنگ کے اوقات کی گنتی جنہیں 3 میں سے 2 صارفین نے "ہاں" کے ووٹ کے ذریعہ توثیق کی ہے۔ یہ 10k گھنٹے کے مقصد سے پورے منصوبے کی نشاندہی کرتے ہیں۔
 sst = (Speech-to-text (STT
 sst-explanation = (Speech-to-text (STT  ٹیکنالوجیز وائس اعداد کو متن میں تبدیل کرتی ہیں۔
 de-identified = شناخت پھیرنا
@@ -741,6 +743,16 @@ want-to-continue = کیا آپ جاری رکھنا چاہتے ہیں؟
 finish-editing = پہلے ترمیم ختم کرو؟
 lose-changes-warning = ابھی چھوڑنے کا مطلب ہے کہ آپ اپنی تبدیلیوں سے محروم ہوجائیں گے
 build-custom-goal = ایک حسب ضرورت مقصد بنائیں
+help-reach-hours-pluralized =
+    پہنچنے میں مدد{ NUMBER($hours) ->
+        [one] { $hours }  گھنٹا
+       *[other] { $hours }  گھنٹے
+    }{ $language } زبان میں زاتی گول کے ساتھ
+help-reach-hours-general-pluralized =
+    Common Voice  کو پھنھنے میں مدد{ NUMBER($hours) ->
+        [one] { $hours }  گھنٹا
+       *[other] { $hours }  گھنٹے
+    }ایک  زبان میں زاتی گول کے ساتھ
 set-a-goal = ایک مقصد طے کریں
 cant-decide = فیصلہ نہیں کر سکتے۔
 how-many-per-day = زبردست! دن میں کتنے تراشے  ہیں؟
