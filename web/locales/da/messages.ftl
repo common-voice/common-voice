@@ -643,6 +643,7 @@ show-ranking = Vis min placering
 
 get-started-goals = Kom i gang med mål
 create-custom-goal = Sæt dig dit eget mål
+goal-type = Hvilken slags mål vil du oprette?
 both-speak-and-listen = Begge
 both-speak-and-listen-long = Begge (tale og lytte)
 daily-goal = Dagligt mål
@@ -654,6 +655,11 @@ pro-difficulty = Pro
 want-to-continue = Vil du fortsætte?
 finish-editing = Færdiggør redigering først?
 build-custom-goal = Opret et brugerdefineret mål
+help-reach-hours-general-pluralized =
+    Hjælp Common Voice med at opnå{ NUMBER($hours) ->
+        [one] { $hours } time
+       *[other] { $hours } timer
+    }på et sprog med et personligt mål
 set-a-goal = Sæt et mål
 cant-decide = Kan du ikke beslutte dig?
 how-many-per-day = Godt! Hvor mange klip pr. dag?
