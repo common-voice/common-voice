@@ -477,6 +477,9 @@ de-identified-explanation = Prosessen der profilinformasjonen til ein bidragsyta
 ## Error pages
 
 error-title-404 = Vi fann ikkje sida for deg
+error-content-404 = Kanskje vil <homepageLink>startsida</homepageLink> hjelpe? For å stille et spørsmål, kan du bli med på <matrixLink>Matrix felleskapsprat</matrixLink> eller besøke <githubLink>GitHub</githubLink> eller <discourseLink>Discourse-foruma våre</discourseLink>.
+error-title-503 = Vi opplever uventa driftsstans
+error-content-503 = Sida vil vere tilbake så snart som råd. For den siste informasjonen, bli med på <matrixLink>Matrix felleskapsprat</matrixLink> eller besøk <githubLink>GitHub</githubLink> eller <discourseLink>Discourse-foruma våre</discourseLink> for å sende inn og overvake problem med nettstaden.
 error-code = Feil { $code }
 
 ## Data
