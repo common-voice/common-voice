@@ -460,11 +460,15 @@ hours-recorded-explanation = وائس ریکارڈنگ کے اوقات کی گھ
 sst = (Speech-to-text (STT
 sst-explanation = (Speech-to-text (STT  ٹیکنالوجیز وائس اعداد کو متن میں تبدیل کرتی ہیں۔
 de-identified = شناخت پھیرنا
+de-identified-explanation = وہ عمل جس کے ذریعے ایک شراکت دار کی پروفائل کی معلومات ان کے عطیہ صوتی کلپس میں مبہم کر دی جاتی ہے جب اسے ڈیٹا سیٹ کے ساتھ ڈاؤن لوڈ کے لیے نتھی کیا جاتا ہے۔
 
-## NotFound
+## Error pages
 
-notfound-title = نہیں ملا
-notfound-content = مجھے ڈر ہے کہ میں نہیں جانتا کہ آپ کیا تلاش کررہے ہیں۔
+error-title-404 = ہم اس صفحہ کو آپ کے لئے نہیں تلاش کر سکے
+error-content-404 = ہو سکتا ہے کہ ہمارا ہوم پیج مدد کرے ؟ سوال پوچھنے کے لیے، براہ کرم مسائل میں شریک ہوں براستہ  <githubLink>گٹ ہب </githubLink>   یا <discourseLink>ہمارے گفتگو فورمز</discourseLink>  کا رخ کریں۔
+error-title-503 = ہم غیر متوقع ڈاؤن ٹائم کا سامنا کر رہے ہیں
+error-content-503 = سائٹ جتنی جلدی ممکن ہو سکا بحال ہو جائے گی۔ تازہ ترین معلومات کے لئے ، براہ کرم <matrixLink> میٹرکس کمیونٹی چیٹ </matrixLink> میں شمولیت اختیار کریں یا <githubLink> گٹ ہب </githubLink> یا سائٹ کے مسائل کو پیش کرنے اور مانیٹر کرنے کے لئے <discourseLink>ہمارے گفتگو کے فورمز</discourseLink>  کا دورہ کریں۔
+error-code = غلطی  { $code }
 
 ## Data
 
