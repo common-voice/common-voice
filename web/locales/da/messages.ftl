@@ -476,6 +476,7 @@ why-email = <b>Hvorfor en mailadresse?</ b> Vi har muligvis brug for at kontakte
 confirm-size = Du er parat til at hente <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = Du bekræfter hermed, at du ikke vil forsøge at identificere individer med Common Voice-datasættet.
 download-language = Hent { $language }
 validated-hours = Validerede timer
 recorded-hours = Indspillede timer
