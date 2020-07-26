@@ -662,6 +662,20 @@ help-reach-hours-general-pluralized =
     }på et sprog med et personligt mål
 set-a-goal = Sæt et mål
 cant-decide = Kan du ikke beslutte dig?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } time
+       *[other] { $totalHours } timer
+    }kan opnås på bare lidt mere end{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } måned
+       *[other] { $periodMonths } måneder
+    }hvis{ NUMBER($people) ->
+        [one] { $people } person
+       *[other] { $people } personer
+    }optager{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } klip
+       *[other] { $clipsPerDay } klip
+    }om dagen.
 how-many-per-day = Godt! Hvor mange klip pr. dag?
 how-many-a-week = Godt! Hvor mange klip pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?
