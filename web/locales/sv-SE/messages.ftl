@@ -486,6 +486,7 @@ de-identified-explanation = Processen genom vilken en bidragsgivares profilinfor
 
 ## Error pages
 
+error-title-404 = Vi kunde inte hitta den sidan åt dig
 error-code = Fel { $code }
 
 ## Data
