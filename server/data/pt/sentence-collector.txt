@@ -1946,6 +1946,7 @@ Cinco crianças de origem indiana estão sorrindo e posando em um slide.
 Cinco crianças estão em frente a uma cabana de madeira.
 Cinco homens de terno.
 Cinco homens estão jogando lacrosse em um campo.
+Cinco homens sentados com um corpo de água atrás deles.
 Cinco mulheres envolvidas em um jogo de futebol.
 Cinco mulheres jovens estão em uma sala interagindo umas com as outras.
 Cinco pessoas esperaram na fila enquanto o homem de jaqueta azul pagava o caixa.
@@ -2395,6 +2396,7 @@ Cães se familiarizando com a calçada enquanto seus donos se sentam nas proximi
 Cão branco brincando na neve.
 Cão branco pequeno pulando para pegar uma bola
 Cão colorido claro que corre com uma bola em sua boca.
+Cão macio branco que corre na sujeira.
 Cão preto e branco que prende um basebol na boca.
 Cão preto que escava na neve branca.
 Céu vermelho, subindo perto
@@ -2599,6 +2601,7 @@ Design colocado ao redor
 Desligar.
 Desligue a tv imediatamente!
 Desligue isso.
+Deslize a bandeja pelo tampo de vidro.
 Deslize a caixa para esse espaço vazio.
 Deslize a nota entre as duas folhas.
 Deslize a tampa para trás e abra a mesa.
@@ -6125,6 +6128,7 @@ Havia realmente? Eu acho que? duas ou trezentas pessoas se acotovelam.
 Havia risinhos do fundo.
 Havia trinta meninas no campo de futebol.
 Havia um buraco ali entre as pedras.
+Havia um corte vermelho com raiva na testa.
 Havia um tubo de metal, mas foi perdido
 Havia uma luz verde cintilante emanando da estátua.
 Havia vozes levantadas e uma espécie de luta parecia estar acontecendo..
@@ -6182,6 +6186,7 @@ Homem jovem
 Homem mais idoso que monta o transporte público ao ler um jornal.
 Homem na camisa branca e shorts tan fazendo um truque em um skate.
 Homem no tampão da sarja de Nimes e óculos de sol entre uma multidão.
+Homem novo em uma camiseta cinzenta que joga um jogo video da guitarra.
 Homem novo que escala sobre um corrimão.
 Homem que faz uma volta sobre o concreto na frente das pessoas.
 Homem que olha a parte traseira de uma escavadora em um campo do cascalho.
@@ -7808,6 +7813,7 @@ Não tenho nada a dizer.
 Não tenho opinião sobre quem você quer dar.
 Não tenho tanta certeza de como me sinto sobre os códigos de vestimenta.
 Não tente chutar contra o vento.
+Não tente ensinar sua avó a sugar ovos.
 Não tente entrar na vida do oásis.
 Não tente lamber esse poste? sua língua ficará presa!
 Não tente se mover.
@@ -8751,6 +8757,7 @@ O plano ou esboço, que facilita a localização geográfica de cada uma das per
 O plano é por muito tempo
 O poder me faz feliz
 O poeta às vezes vive entre dois mundos
+O policial está tendo nota na mão.
 O polvo ficou preocupado com a lula.
 O ponteiro das horas vira trezentos e sessenta graus
 O ponteiro implacável do relógio está me perseguindo
@@ -10104,6 +10111,7 @@ Poucas palavras e muitos atos.
 Poucas pessoas percebem a imensidão da vaga.
 Pouco conhecimento é uma coisa perigosa.
 Pouco dinheiro abre o olho.
+Poupe a vara e estrague a criança.
 Povos africanos no desgaste tribal em um deserto.
 Povos que fazem o alimento em uma frigideira gigante da plataforma giratória.
 Povos que sentam-se nas bordas que cercam etapas e uma parede telhada.
@@ -11896,6 +11904,7 @@ Um assistente segura os pés e os fixa no chão.
 Um ato de fé
 Um automóvel chegará no final do beco em meia hora, você deve entrar.
 Um avançado progressista radical
+Um balão de ar quente vermelho aterra em um campo entre uma multidão.
 Um bando de cachorros está correndo por uma trilha.
 Um bando de crianças está subindo em uma árvore e encolhendo-a.
 Um bando de pessoas seminuas estão sentadas em volta de uma cabana de troncos
@@ -11918,6 +11927,7 @@ Um bebê lava as mãos com água e sabão de uma pia.
 Um bebê olha para fora sobre a borda de seu cercadinho.
 Um bebê que olha acima em um ramo frondoso acima de sua cabeça.
 Um bebê que veste minha melhor camisa do amigo em uma cama.
+Um bebê rasteja em um assoalho de madeira perto de uma garrafa da água.
 Um belo pescoço que você tem aí.
 Um bom amigo é o parente mais próximo.
 Um bom exemplo de dinossauro é o Pterodáctilo.
@@ -12084,6 +12094,7 @@ Um cão do exército sendo treinado por um soldado.
 Um cão e uma pessoa fazendo um curso de agilidade.
 Um cão enrugado que vadeia na água pouco profunda.
 Um cão esverdeado corre através da água por várias pedras grandes.
+Um cão manchado preto e branco está circundando um cão cinzento e branco.
 Um cão marrom caminha em direção a outro animal escondido na grama.
 Um cão marrom chega para uma bola de tênis.
 Um cão marrom com um colarinho preto fica ao lado de um arbusto.
@@ -12381,6 +12392,7 @@ Um homem com um cocar olhando entre pedaços de frutas.
 Um homem com um colete amarelo e calças azuis está andando pela grama seca.
 Um homem com um colete de segurança está ajoelhado e limpando os tijolos.
 Um homem com um suéter vermelho segura uma criança em cima de seus ombros.
+Um homem com uma arma observa enquanto outro homem trabalha em um carro.
 Um homem com uma banca de frutas dando mudança para outro homem.
 Um homem com uma bandana toca alguns instrumentos caseiros em uma cidade lotada.
 Um homem com uma barba e bandanas brancas está tocando violão na calçada.
@@ -13781,9 +13793,12 @@ Uma pitada de pimenta estraga ensopado de carne.
 Uma porta aberta pode tentar um santo.
 Uma propriedade rural
 Uma propriedade rural.
+Uma rapariga com as fitas do cabelo que bocejam.
 Uma rapariga com calças roxas da neve está limpando a neve.
 Uma rapariga com uma camisa roxa? molha a grama.
 Uma rapariga em um vestido cor-de-rosa está em um passeio.
+Uma rapariga mistura a farinha em um contador de cozinha.
+Uma rapariga que veste o azul está saltando no ar.
 Uma rapariga vestiu-se na roupa asiática tradicional que come uma refeição.
 Uma raposa caída não pega galinhas.
 Uma rara visita à amizade aumenta.
