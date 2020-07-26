@@ -11,7 +11,7 @@ loading = Bijja…
 email-opt-in-info = Nandi yagadde okufuna obubaka nga obujjukiza, bye'ntuseeko ate n'ebikwata ku Common Voice.
 email-opt-in-info-title = Weyunge kw'abo be tusindikira email ku bifa ku Common Voice
 email-opt-in-info-sub-with-challenge = Ffuna email nga ezikwata ku bilemye n'okujikiza, wetutuse, n'ebikwata ku Common Voice.
-email-opt-in-privacy-v2 = Bwokkiriza okufuna email otegeeza nti tolina buzibu na Mozilla kubeera na information eno nga bwe bannyonnyola mu <privacyLink>Engeri gye Tukuumamu Ebikukwatako  </privacyLink>.
+email-opt-in-privacy-v2 = Bwokkiriza okufuna email kitegeeza nti tolina buzibu na Mozilla kubeera na information eno nga bwe bannyonnyola. <privacyLink>Privacy Policy</privacyLink>.
 indicates-required = Kano * kalaga kyetagisa
 not-available-abbreviation = N/A
 
@@ -176,7 +176,16 @@ wall-of-text-start =
     Voice eli natural, voice muntu. Ky'ova olaba twenyumigizamu nnyo okukola tekinologiya akozesebwa
     ow'eddoboozi ku masiini zaffe. Naye okukola sisitimu zzino, twetaga data mungi
     ow'amaloboozi.
+wall-of-text-more-mobile = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tu loncinze pulojekiti ya Common Voice, egenda okuyamba omuntu yenna okumanyisa n'okukozesa amaloboozi.
+wall-of-text-more-desktop = Kakati osobola okudonetinga eddoboozi lyo okutuyamba okuzimba database ey'amaloboozi eyabuli omu, omuntu yena gy'asobola okukozesa okukola appu n'omutimbagano. Soma sentensi okuyamba masini okuyiga engeri abantu gye bogera. Kebera ku waka w'abayambye abalala okusobola okulongoosa quality. Kyangu bwe kityo.
+wall-of-text-first =
+    Voice eli natural, voice muntu. Ky'ova olaba twenyumigizamu nnyo okukola tekinologiya akozesebwa
+    ow'eddoboozi ku masiini zaffe. Naye okukola sisitimu zzino, twetaga data mungi
+    ow'amaloboozi.
+wall-of-text-second = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tu loncinze pulojekiti ya Common Voice, egenda okuyamba omuntu yenna okumanyisa n'okukozesa amaloboozi.
 show-wall-of-text = Soma Ebisingawo
+help-us-title = Tuyambe okusunsula sentensi!
+help-us-explain = Nnyiga play, Wuliriza era otubuulire: Sentensi zino wamanga baazogedde bulungi?
 vote-yes = Ye
 vote-no = Nedda
 toggle-play-tooltip = Nyiga { shortcut-play-toggle } okukyusa enzanya
