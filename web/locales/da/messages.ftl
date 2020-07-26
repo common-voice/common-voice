@@ -399,6 +399,7 @@ about-listen-queue = Lytte-kø
 about-listen = Lyt
 about-is-it-valid = Er klippet gyldigt?
 about-yes-votes = ≥ 2 ja-stemmer
+about-yes-votes-text = For at blive optaget i Common Voice-datasættet skal et klip være valideret af to forskellige brugere.
 about-no-votes = ≥ 2 nej-stemmer
 about-partners = Partnere
 about-become-a-partner = Bliv partner
@@ -418,6 +419,7 @@ mycroft-secondary-description = Dette er open source-software, der frit kan ænd
 
 glossary = Ordliste
 localization = Oversættelse
+sentence-collection = Indsamling af sætninger
 hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
 hours-validated-explanation = Antallet af stemmeoptagelser i timer, der er blevet valideret af 2 ud af 3 brugere med en "Ja"-stemme. Disse markerer fremgangen mod det overordnede mål på 10.000 timer.
 de-identified = Anonymiseret
