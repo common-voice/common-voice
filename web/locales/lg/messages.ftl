@@ -359,12 +359,14 @@ cancel-avatar-clip-recording = SAZAAMU
 about-avatar-clip-recording = Kkola clip y'eddoboozi enebeera ku kabonero ka pulofayiro yo. Abalala bajja kusobola okuyisako n'ebajiwuliriza.
 browse-file-title = Tekaako akafananyi
 browse-file = Sika osuule oba <browseWrap>Nnonya</browseWrap>
+connect-gravatar = Conekitinga ne Gravatar
 gravatar_not_found = Tewali gravatar ya email yo esangidwa
 file_too_large = Fayiro gy'olonze nnene nnyo
 manage-subscriptions = Ddunkanya Eby'okwewandiisa
 manage-email-subscriptions = By'ofuna mu email
 email-already-used = Email eno ekozesebwa ku akawunti endala
 add-language = Ggatako olulimi
+change-email-setings = Kyusa mail yo mu Setingi wansi wa Login Identity.
 
 ## FAQ
 
