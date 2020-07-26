@@ -485,10 +485,10 @@ sst-explanation = La reconeissença vocala (STT) convertís la votz en tèxt.
 de-identified = Anonimizar
 de-identified-explanation = Procès que permet que las informacions del perfil dels contributors sián pas ligadas a las mòstras de votz per la preparacion del jòc de donadas.
 
-## NotFound
+## Error pages
 
-notfound-title = Pas trobat
-notfound-content = Impossible de trobar çò que cercatz.
+error-title-404 = Vos avèm pas trobada aquesta pagina
+error-code = Error { $code }
 
 ## Data
 
@@ -766,6 +766,11 @@ how-many-a-week = Crane ! Quantas de mòstras per setmana ?
 which-goal-type = Volètz parlar, escotar, o los dos ?
 receiving-emails-info = Actualament avètz configurat per recebre de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
 not-receiving-emails-info = Actualament recebètz <bold>PAS</bold> de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } mòstra
+       *[other] { $count } mòstras
+    }
 help-share-goal = Ajudatz-nos a trobar mai de voses, partejatz vòstre objectiu
 confirm-goal = Confirmar l’objectiu
 goal-interval-weekly = Setmanièr
