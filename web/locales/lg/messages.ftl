@@ -372,7 +372,15 @@ change-email-setings = Kyusa mail yo mu Setingi wansi wa Login Identity.
 
 faq-title = Bye Basinga Okubuuza
 faq-what-cv-q = Common Voice Ky'ekiki?
+faq-what-cv-a =
+    Tekinologiya w'okutegera amaloboozi akyusizza engeri gye tukwataganamu n'ebyuma. Naye sisitimu eziriwo kati za bbeeyi n'okulambibwa amateeka. Common voice kitundu kya buyiiya bwa Mozilla okutumbula okukola tekinologiya akozesa amaloboozi  n'okumusasaanyiza buli omu. Common voice database ennene mu nsi yonna ey'amaloboozi agawereddwayo ku bwerere ekiriza omuntu yena okutendeka mu bwangu appu ezikozesa amaloboozi mu buli lulimi lwonna olwesobola.  
+    
+    Tetuli mukukunganya sampo z'amaloboozi mu nnimi ez'ogelebwa ennyo wabula ne mw'ezo ezirina abogezi abatono. Okufulumya dataset w'amaloboozi ow'enjawulo kijja kuwa ba developer, ba nnabisinesi, n'abantu b'omu community amaanyi okugyawo ebibulawo bbo be nnyini. Mu kwongera ku dataset ya Common Voice, tuzimba yingini ekozesa amaloboozi eyabuli omu eyitibwa Deep speech.
 faq-why-important-q = Lwaki kya mugaso?
+faq-why-important-a =
+    Okwogera y'enkola y'obutonde mwe tusinga okuwanyisiganyiza obubaka ne buli omu ne tekinologiya akozesa amaloboozi agenda kuleeta obwangu mu computa ne mu masimu ag'omungalo. Twagala okusobozesa ba developer okuzimba appu ezikozesa amaloboozi ez'amagero nga ezivvunula mu nnimi ez'enjawulo mu kaseera ako ke nnyini ne digital assistant ezikozesa amaloboozi. Naye mu kaseera kano data ow'amaloboozi eyetagibwa okuzimba appu zino wa bbeeyi n'okuba nti aliko obwa nnannyini. Tusuubira dataset ya Common voice ejja kuwa ba developer kyebetaaga okuyiiya n'okukola tekinologiya ow'okwogera okuberawo mu nnimi zabwe.
+    
+    Okufuula okukozesa kw'amaloboozi okw'ensi yonna tuli mu kukungaanya sampo z'abogezi b'ennimi abangi n'abo abogezi abatono abafiibwako ekitono mu buweereza bw'okukozesa enkola ezitegera okwegera ensasulire. Okufulumya amaloboozi ga dataset ag'enjawulo kijja kuwa ba developer, ba nnabisinesi n'abogezi mu community  amaanyi okumalawo gaapu eno bbo bennyini.
 faq-how-get-q = Nfuna ntya bwiino wa Common Voice
 faq-when-release2-q = Munatuusa ddi bwiino wa Common Voice mu nnimi endala
 faq-what-cv-and-deepspeech-q = Kiki eky'enjawulo wakati wa Common Voice ne Deep Speech?
