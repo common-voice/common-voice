@@ -382,6 +382,7 @@ faq-why-important-a =
     
     Okufuula okukozesa kw'amaloboozi okw'ensi yonna tuli mu kukungaanya sampo z'abogezi b'ennimi abangi n'abo abogezi abatono abafiibwako ekitono mu buweereza bw'okukozesa enkola ezitegera okwegera ensasulire. Okufulumya amaloboozi ga dataset ag'enjawulo kijja kuwa ba developer, ba nnabisinesi n'abogezi mu community  amaanyi okumalawo gaapu eno bbo bennyini.
 faq-how-get-q = Nfuna ntya bwiino wa Common Voice
+faq-how-get-a = Dataset ya Common voice w'eli ela osobola okugidownloadinga ku <datasetLink>pegi yaffe eya Dataset</datasetLink> evunganibwa layisensi ya <licenseLink>CC0</licenseLink>. Ela osobola oku downloadinga dataset endala ez'olukale okuva ku pegi y'emu.
 faq-when-release2-q = Munatuusa ddi bwiino wa Common Voice mu nnimi endala
 faq-what-cv-and-deepspeech-q = Kiki eky'enjawulo wakati wa Common Voice ne Deep Speech?
 faq-is-goal-assistant-q = Okuzimba voice assistant ky'ekigobero kya Common Voice?
