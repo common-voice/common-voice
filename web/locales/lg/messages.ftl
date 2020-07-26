@@ -186,11 +186,16 @@ wall-of-text-second = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonn
 show-wall-of-text = Soma Ebisingawo
 help-us-title = Tuyambe okusunsula sentensi!
 help-us-explain = Nnyiga play, Wuliriza era otubuulire: Sentensi zino wamanga baazogedde bulungi?
+no-clips-to-validate = Kirabika nga tewali bu clip bwakuwuliriza mu lulimi luno. Tuyambe tuterekeyo nga olikodingayo obumu kati.
 vote-yes = Ye
 vote-no = Nedda
 toggle-play-tooltip = Nyiga { shortcut-play-toggle } okukyusa enzanya
 speak-subtitle = Tuwe eddoboozi lyo
+speak-paragraph = Okulikoodinga bu clip bw'amaloboozi nsonga nkulu mu kuzimba dataset yaffe eya buli omu; Abamu bandigamba ky'ekitundu ekirimu okunyumirwa.
 speak-goal-text = Oboloboozi obulikodinge
+listen-subtitle = Tuyambe okusunsula amaloboozi.
+listen-paragraph = Okusunsula bu clip obutuweereddwa kyamugaso nnyo mu kutuukiriza mission ya Common voice. Wuliriza era otuyambe okutondawo data w'amaloboozi owabuli omu ali ku mutindo.
+listen-goal-text = Bu clip obusunsuddwa.
 hours-recorded = Essawa Ezilekodingibwa
 hours-validated = Essawa Ezikakasiddwa
 voices-online = Amaloboozi agali online kati
@@ -215,6 +220,7 @@ x-years-short =
         [one] mwaka { $count }
        *[other] myaka { $count }
     }
+help-make-dataset = Tuyambe tuzimbe omutindo ogwa wagulu, dataset akirizibwa abantu bonna
 sign-up-account = Ggulawo akawunti
 email-subscription-title = Ffuna obubaka mu email
 email-subscription-title-new = Ffuna ebifa ku Common Voice, ebijjukizo n'ebwetutuuse.
@@ -222,6 +228,11 @@ email-subscription-title-new = Ffuna ebifa ku Common Voice, ebijjukizo n'ebwetut
 ## Account Benefits
 
 benefits = W'ofuniramu
+rich-data = Fuula data wo gwowaddeyo omujjuvu nga bw'osobola nga owaayo ebimu ku data w'obuzimbe bw'abantu atamanyikiddwa. Tugyako obulambe bwonna ku data w'obuzimbe bw'abantu nga tetunnamufuula wa lukale.
+improve-audio = Obubaka ku pulofayilo bulongoosa data omwogere akozesebwa mu ku tendeka obutufu bw'entegeera y'okwogera.
+keep-track = Manya ebikwata ku ntambulayo n'ebipimo mu nnimi ennyingi
+compare-progress = Gelageranya entambulayo n'abayambi abalala mu nsi yonna.
+view-goals = Laba entambulayo ng'osinziira ku goolo ya pulojekiti n'ezizo.
 join-newsletter = Bwoba oyagade, weyunge kw'abo abafuna email ez'ebipya n'ebifa ku pulojekiti.
 
 ## What's public
@@ -230,6 +241,7 @@ whats-public = Olwatu kye ki?
 email-not-public = Tetujja kulaga balala email yo
 recordings-and-locale-public = Omuwendo gw'ebyo by'olikodinze n'ennimi zz'owadeyo bijja kulabika mu lwatu.
 username-optin-public = Osobola okulonda okulaga abalala erinnya ly'okozesa oba okulikweka.
+demographic-deidentified-clarity = Data ow'obuzimbe bw'abantu aw'ereddwayo kyegalalire (nga emyaka, sex, olulimi, ne enjogera) tebijja kulabibwa bantu ku pulofayilo yo, era tebijja kuyungibwa ku akawuntiyo mu dataset. Bu audio clip obwa ssekinnomu bujja kuwanyizibwa ne data w'obuzimbe bw'abantu ku nsonga y'okwongera okwekaliriza ebituufu- Okugeza, Omunoonyereza yandiyagadde okutagetinga enkola y'okusemesa ku segimenti y'obuzimbe bw'abantu.
 username-email-not-demographic = Erinnya lyokozesa ne email tebijakukolaganyizibwa ne bwiino efulumidwa.
 
 ## Speak & Listen Shortcuts
@@ -289,6 +301,8 @@ profile-form-age =
     .label = Myaka
 profile-form-gender =
     .label = Sex
+leaderboard-visibility =
+    .label = Okulabibwa kwa Leaderboard
 hidden = Bikwekweddwa
 visible = Bilabika
 native-language =
@@ -548,4 +562,5 @@ remove = Jjako
 
 ## Landing
 
+welcome-staff = Tukwaniriza{ $company } mukozi waffe!
 profile-not-required = Tekyetagisibwa kuba na profayilo okuyamba wadde kya mugaso, laba lwaki wansi awo.
