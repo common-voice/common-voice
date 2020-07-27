@@ -46,4 +46,8 @@
         justify-content: center;
         font-weight: 600;
     }
+
+    .md-right{
+        left: 55% !important;
+    }
 }
