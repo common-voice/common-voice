@@ -55,7 +55,10 @@ interface PropsFromDispatch {
   saveAccount: any;
 }
 
-interface Props extends WithLocalizationProps, PropsFromState, PropsFromDispatch {}
+interface Props
+  extends WithLocalizationProps,
+    PropsFromState,
+    PropsFromDispatch {}
 
 function Settings(props: Props) {
   const { account, addNotification, getString, saveAccount } = props;
@@ -133,7 +136,9 @@ function Settings(props: Props) {
               <div>
                 <Localized
                   id="email-opt-in-privacy"
-                  elems={{privacyLink: <LocaleLink to={URLS.PRIVACY} blank />}}>
+                  elems={{
+                    privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                  }}>
                   <div />
                 </Localized>
                 <br />
@@ -172,12 +177,12 @@ function Settings(props: Props) {
         <div className="images">
           <img
             className="hidden-sm-down"
-            src={require('./submission-screenshot-lg.png')}
+            src={require('./submission-screenshot-lg.jpg')}
             alt="Submission Success Screenshot"
           />
           <img
             className="hidden-md-up"
-            src={require('./submission-screenshot-xs.png')}
+            src={require('./submission-screenshot-xs.jpg')}
             alt="Submission Success Screenshot"
           />
         </div>
