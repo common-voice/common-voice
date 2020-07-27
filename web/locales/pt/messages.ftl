@@ -481,10 +481,10 @@ sst-explanation = Tecnologias speech-to-text (STT) convertem dados de voz para t
 de-identified = Identificação removida
 de-identified-explanation = O processo pelo qual as informações de perfil de um contribuidor são obscurecidas de seus clipes de voz doados, quando esses são empacotados para ser baixados como parte do conjunto de dados.
 
-## NotFound
+## Error pages
 
-notfound-title = Não encontrado
-notfound-content = Eu tenho receio de não saber o que vocês estão procurando.
+error-title-404 = Não foi possível encontrar esta página para você
+error-content-404 = Talvez nossa <homepageLink>página inicial</homepageLink> ajude? Para fazer uma pergunta, entre no <matrixLink>bate-papo da comunidade Matrix</matrixLink>, monitore problemas no site por meio do <githubLink>GitHub</githubLink> ou visite <discourseLink>nossos fóruns no Discourse</discourseLink>.
 
 ## Data
 
