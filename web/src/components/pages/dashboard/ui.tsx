@@ -14,7 +14,7 @@ export function Fraction({
   className?: string;
 }) {
   return (
-    <div className={`fraction${className ? ` ${className}` : ''}`}>
+    <div className={`fraction${className ? ` ${className}` : ''}${numerator <= 99 ? ' md-right': ''}`}>
       <div className="numerator">{numerator}</div>
       <div className="denominator">
         {percentage ? ' % ' : ' / '}
