@@ -498,10 +498,13 @@ sst-explanation = Govor u tekst (STT) tehnologije pretvaraju govor u tekst.
 de-identified = De-identificirani
 de-identified-explanation = Proces, kojim se informacije o profilu doprinositelja skrivaju iz njegovih darovanih glasovnih isječaka, kad se pakiraju za preuzimanje kao dio skupa podataka.
 
-## NotFound
+## Error pages
 
-notfound-title = Nije pronađeno
-notfound-content = Bojim se da ne znam što tražiš.
+error-title-404 = Nismo mogli pronaći tu stranicu
+error-content-404 = Možda će naša <homepageLink>početna stranica</homepageLink> biti od pomoći? Kako biste postavili pitanje, pridružite se <matrixLink>razgovorima Matrix zajednice</matrixLink>, pratite poteškoće na stranici putem <githubLink>GitHub</githubLink> ili posjetite <discourseLink>naše Discourse forume</discourseLink>.
+error-title-503 = Došlo je do neočekivanog prekida rada
+error-content-503 = Stranica će biti dostupna što je prije moguće. Za najnovije informacije, pridružite se <matrixLink>razgovorima Matrix zajednice</matrixLink> ili posjetite <githubLink>GitHub</githubLink> ili <discourseLink>naš Discourse forum</discourseLink> kako biste prijavili i pratili probleme sa stranicom.
+error-code = Greška { $code }
 
 ## Data
 
