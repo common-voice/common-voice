@@ -274,6 +274,11 @@ Arkku alkoi liikkua kohti putkea.
 Arvasin oikein.
 Arvasinhan minä.
 Arvin jalat ja kädet olivat kylmät.
+Arvoisa juhlayleisö
+Arvoisa puhemies
+Arvoisa puhemies, hyvät kollegat, kriisi pakottaa meidät muuttumaan.
+Arvoisa puhemies, hyvät kollegat, kuuluin niihin, jotka olivat paikalla koko perjantain.
+Arvoisa puhemies, hyvät kollegat, laajentuminen on tällä hetkellä tosiasia, mutta niin on myös sota.
 Asetun vaan mukavammin, kas näin.
 Asia alkoi miellyttää.
 Asia näytti entisestäänkin yhä vain pahenevan.
@@ -395,6 +400,7 @@ Ei hän olisi Maunoa kadehtinut.
 Ei hän sinne lähde.
 Ei hän sitäkään kuule.
 Ei ihme, että operaatio oli sujunut niin mutkitta.
+Ei itsetyytyväisyyttä.
 Ei kai auttanut, kun lähteä pääpötkylän matkaan.
 Ei kai meidän tarvitse perääntyä ja palata kotiin häntä koipien välissä?
 Ei kauluksia, tuota korvettavan tornia.
@@ -427,6 +433,7 @@ Ei ollut tarkoitus.
 Ei ollut tulen tyytyminen vähään, sillä nyt hän oli omaksunut isännän roolin.
 Ei puhunut silloin mitään.
 Ei pässi kukkaroihinsa rahaa tarvitse.
+Ei rinnan röyhistelyä.
 Ei risahdusta eikä ääntä.
 Ei saa katsoa.
 Ei sanonut.
@@ -4429,6 +4436,7 @@ Victor makasi yhä sylissäni.
 Videon kuvaamat tapahtumat eivät vaikuttaneet todellisilta.
 Vielä ajoivat he tuokion.
 Vielä ei tarvinnut nousta.
+Vielä on paljon työtä jäljellä. Juuri siitä haluaisin puhua teille tänä aamuna.
 Vielä pitäisi jaksaa pakata, mutta tulin ummistaneeksi silmäni.
 Vielä sininen mekko sängyn alle.
 Vieläköhän he jatkoivat uimistaan?
@@ -4856,6 +4864,7 @@ vasta äsken olin yrittänyt tappaa itseni, ja sen jälkeen avautunut Cassandral
 Äänestin mietinnön puolesta talousasioiden valiokunnassa, jotta se voitaisiin ottaa esityslistalle.
 Äänestin mietinnön puolesta tämän perinteen säilyttämiseksi ja avointen markkinoiden tukemiseksi.
 Äänestin mietinnön puolesta valiokunnassa ja vahvistan ääneni täällä.
+Äänestin mietinnön puolesta!
 Äänestin mietinnön puolesta, jotta korvaukset jakaantuisivat oikeudenmukaisemmin.
 Äänestin mietinnön puolesta, koska kannatan tarvetta yksinkertaistaa yhteistä maatalouspolitiikkaa.
 Äänestin mietinnön puolesta, koska kannatan varauksettomasti siinä esitettyä kantaa.
@@ -4884,6 +4893,7 @@ vasta äsken olin yrittänyt tappaa itseni, ja sen jälkeen avautunut Cassandral
 Äänestin mietinnön puolesta, vaikka se onkin lievempi kuin aluksi ehdotettiin.
 Äänestin mietinnön puolesta.
 Äänestin mietinnön sisältämien suositusten puolesta.
+Äänestin mietinnössä ehdotettujen suositusten puolesta.
 Äänestin mietinnössä esitettyjen suositusten puolesta.
 Äänestin mietintöä ja direktiiviä vastaan aivan kuten tämän ehdotuksen ensimmäisessä käsittelyssä.
 Äänestin mietintöä koskevien kompromissitarkistusten puolesta ja kaikkia muita tarkistuksia vastaan.
@@ -5015,6 +5025,17 @@ vasta äsken olin yrittänyt tappaa itseni, ja sen jälkeen avautunut Cassandral
 Äänestin siksi mietinnössä ehdotettujen muutosten puolesta.
 Äänestin siksi mietintöä vastaan.
 Äänestin siksi päätöslauselmaa vastaan.
+Äänestin siksi päätöslauselmaesityksen puolesta.
+Äänestin siksi päätöslauselmaesitystä vastaan.
+Äänestin siksi päätöslauselman puolesta.
+Äänestin siksi sen puolesta.
+Äänestin siksi sitä vastaan.
+Äänestin siksi tarkistettua ehdotusta ja lainsäädäntöpäätöslauselmaa vastaan.
+Äänestin siksi tämän mietinnön puolesta.
+Äänestin siksi tämän päätöslauselmaesityksen puolesta.
+Äänestin siksi tämän säädösaloitteen puolesta.
+Äänestin siksi tätä mietintöä vastaan.
+Äänestin siksi tätä päätöslauselmaesitystä vastaan.
 Äänestinkin mietinnön puolesta.
 Äänestinkin päätöslauselmaa vastaan.
 Äänestinkin tästä syystä mietinnön puolesta.
@@ -5083,6 +5104,7 @@ vasta äsken olin yrittänyt tappaa itseni, ja sen jälkeen avautunut Cassandral
 Äänestäminen mietintöä vastaan on selkeästi ääni toissijaisuuden lisäämisen puolesta.
 Äänestäminen näitä tarkistuksia vastaan merkitsisi tinkimistä ympäristötavoitteistamme.
 Äänestäminen on demokratiassa tavanomainen menettely.
+Äänestäminen tämän kodifikaation puolesta ei muuta millään tavoin tätä mielipidettä.
 Äänestämme asetuksen ensimmäisestä käsittelystä kesäkuussa.
 Äänestämme asian puolesta, joskin innottomasti.
 Äänestämme asian puolesta.
@@ -5103,6 +5125,7 @@ vasta äsken olin yrittänyt tappaa itseni, ja sen jälkeen avautunut Cassandral
 Äänestämme huomenna tästä ehdotuksesta, jota pidän järkevänä kokonaisuutena.
 Äänestämme huomenna, ja kukin toimii oman harkintansa mukaan, kuten useat kollegat ovat todenneet.
 Äänestämme huomenna, ja luotan siihen, että tulos on myönteinen.
+Äänestämme joka maanantain esityslistasta.
 Äänestämme joka tapauksessa tämän määräyksen sisältävää päätöslauselmaa vastaan.
 Äänestämme koko päätöslauselmaa vastaan.
 Äänestämme komission ehdotuksen puolesta.
@@ -5138,6 +5161,7 @@ vasta äsken olin yrittänyt tappaa itseni, ja sen jälkeen avautunut Cassandral
 Äänestämme nyt joka tapauksessa mietinnöstä.
 Äänestämme nyt koko päätöslauselmaesityksestä näin muutettuna.
 Äänestämme nyt koko päätöslauselmaesityksestä tarkistukset mukaan luettuina.
+Äänestämme nyt kvestoreiden arvojärjestyksestä salaisella koneäänestyksellä.
 Äänestämme nyt mietinnöstä.
 Äänestämme nyt neljästä yhteispäätösmenettelyn soveltamisalaan kuuluvasta mietinnöstä.
 Äänestämme nyt näistä luonnoksista päätöslauselmiksi.
@@ -5364,6 +5388,7 @@ vasta äsken olin yrittänyt tappaa itseni, ja sen jälkeen avautunut Cassandral
 Äänestän tästä syystä mietintöä vastaan.
 Äänestän tätä aihetta koskevan mietinnön puolesta.
 Äänestän tätä asiakirjaa vastaan.
+Äänestän tätä hyvän ajatuksen julmaa kaappausta vastaan.
 Äänestän tätä kompromissia vastaan.
 Äänestän tätä mietintöä vastaan useasta syystä.
 Äänestän tätä mietintöä vastaan.
