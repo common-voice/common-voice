@@ -731,7 +731,7 @@ validations = { $count ->
 ## Dashboard
 your-languages = Your Languages
 toward-next-goal = Toward next goal
-goal-reached = goal reached
+goal-reached = Goal reached
 clips-you-recorded = Clips You've Recorded
 clips-you-validated = Clips You've Validated
 todays-recorded-progress = Today's Common Voice progress on clips recorded
