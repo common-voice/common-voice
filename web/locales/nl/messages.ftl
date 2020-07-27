@@ -11,7 +11,7 @@ loading = Laden…
 email-opt-in-info = Ik wil graag e-mailberichten zoals herinneringen aan doelstellingen, mijn voortgangsupdates en nieuwsbrieven over Common Voice ontvangen.
 email-opt-in-info-title = Meld u aan voor de Common Voice-mailinglijst
 email-opt-in-info-sub-with-challenge = Ontvang e-mailberichten zoals herinneringen aan uitdagingen en doelstellingen, voortgangsupdates en nieuwsbrieven over Common Voice.
-email-opt-in-privacy = Door u in te schrijven voor het ontvangen van e-mailberichten, verklaart u dat u akkoord gaat met het verwerken van deze informatie door Mozilla in overeenstemming met Mozilla’s <privacyLink>Privacybeleid<privacyLink>.
+email-opt-in-privacy-v2 = Door u in te schrijven voor het ontvangen van e-mailberichten, verklaart u dat u akkoord gaat met het verwerken van deze informatie door Mozilla in overeenstemming met Mozilla’s <privacyLink>Privacybeleid</privacyLink>.
 indicates-required = * Geeft verplicht veld aan
 not-available-abbreviation = NB
 
@@ -481,10 +481,13 @@ sst-explanation = Spraak-naar-tekst (STT)-technologieën zetten spraakgegevens o
 de-identified = Anoniem gemaakt
 de-identified-explanation = Het proces waarbij de profielgegevens van een bijdrager worden gescheiden van gedoneerde spraakfragmenten wanneer deze als onderdeel van de gegevensset worden verpakt voor downloaden.
 
-## NotFound
+## Error pages
 
-notfound-title = Niet gevonden
-notfound-content = Ik ben bang dat ik niet weet wat u zoekt.
+error-title-404 = We kunnen deze pagina niet voor u vinden
+error-content-404 = Misschien helpt onze <homepageLink>startpagina</homepageLink>? Als u een vraag wilt stellen, kunt u lid worden van de <matrixLink>Matrix-gemeenschap-chat</matrixLink>, siteproblemen volgen via <githubLink>GitHub</githubLink> of bezoek <discourseLink>onze Discourse-forums</discourseLink>.
+error-title-503 = We ondervinden momenteel een onverwachte onderbreking
+error-content-503 = De site zal zo snel mogelijk worden hersteld. Neem voor de meest recente informatie deel aan de <matrixLink>Matrix-gemeenschap-chat</matrixLink> of bezoek <githubLink>GitHub</githubLink> of <discourseLink>onze Discourse-forums</discourseLink> om problemen met de website te melden en te volgen.
+error-code = Fout { $code }
 
 ## Data
 
@@ -625,7 +628,11 @@ contribute = Bijdragen
 listen = Luisteren
 skip = Overslaan
 shortcuts = Sneltoetsen
-clips-with-count = <bold>{ $count }</bold> fragmenten
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> fragment
+       *[other] <bold>{ $count }</bold> fragmenten
+    }
 goal-help-recording = U hebt Common Voice geholpen <goalPercentage></goalPercentage> van het dagelijkse doel van { $goalValue } opnamen te bereiken!
 goal-help-validation = U hebt Common Voice geholpen <goalPercentage></goalPercentage> van het dagelijkse doel van { $goalValue } validaties te bereiken!
 contribute-more = Klaar om er nog { $count } te doen?
@@ -739,6 +746,7 @@ show-ranking = Mijn ranglijst tonen
 
 get-started-goals = Beginnen met doelstellingen
 create-custom-goal = Een aangepaste doelstelling maken
+goal-type = Welk doel wilt u bouwen?
 both-speak-and-listen = Beide
 both-speak-and-listen-long = Beide (spreken en luisteren)
 daily-goal = Dagelijks doel
@@ -752,11 +760,32 @@ want-to-continue = Wilt u doorgaan?
 finish-editing = Eerst bewerking voltooien?
 lose-changes-warning = Door nu af te sluiten verliest u uw wijzigingen
 build-custom-goal = Een aangepast doel bouwen
-help-reach-hours = Help mee { NUMBER($hours) } uren in het { $language } te bereiken met een persoonlijke doelstelling
-help-reach-hours-general = Help met een persoonlijke doelstelling Common Voice { NUMBER($hours) } uren in een taal te bereiken
+help-reach-hours-pluralized =
+    Help mee{ NUMBER($hours) ->
+        [one] { $hours } uur
+       *[other] { $hours } uur
+    }in het { $language } te bereiken met een persoonlijke doelstelling
+help-reach-hours-general-pluralized =
+    Help Common Voice{ NUMBER($hours) ->
+        [one] { $hours } uur
+       *[other] { $hours } uur
+    }in een taal te bereiken met een persoonlijke doelstelling
 set-a-goal = Een doel stellen
 cant-decide = Kunt u geen besluit nemen?
-activity-needed-calculation = { NUMBER($totalHours) } is bereikbaar in iets meer dan { NUMBER($periodMonths) } maanden als { NUMBER($people) } personen { NUMBER($clipsPerDay) } fragmenten per dag opnemen.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } uur
+       *[other] { $totalHours } uur
+    }is bereikbaar in iets meer dan{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } maand
+       *[other] { $periodMonths } maanden
+    }als{ NUMBER($people) ->
+        [one] { $people } persoon
+       *[other] { $people } personen
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } fragment
+       *[other] { $clipsPerDay } fragmenten
+    }per dag opnemen
 how-many-per-day = Geweldig! Hoeveel fragmenten per dag?
 how-many-a-week = Geweldig! Hoeveel fragmenten per week?
 which-goal-type = Wilt u spreken, luisteren of allebei?
@@ -766,7 +795,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Er is momenteel ingesteld dat u <bold>GEEN</bold> e-mailberichten zoals herinneringen aan doelen,
     updates over uw voortgang en nieuwsbrieven over Common Voice ontvangt
-n-clips = { NUMBER($count) } fragmenten
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } fragment
+       *[other] { $count } fragmenten
+    }
 help-share-goal = Help ons meer stemmen te vinden, deel uw doel
 confirm-goal = Doel bevestigen
 goal-interval-weekly = Wekelijks

@@ -2,7 +2,7 @@
 
 yes-receive-emails = Sì, inviami le email. Mi piacerebbe rimanere informato sul progetto Common Voice
 stayintouch = Mozilla sta radunando una comunità di persone interessate alle tecnologie vocali. Ci piacerebbe rimanere in contatto con te con aggiornamenti e nuove fonti di dati, ma anche per conoscere come usi i dati di Common Voice.
-privacy-info = Le tue informazioni personali sono al sicuro con noi. Per i dettagli leggi l’<privacyLink>informativa sulla privacy<privacyLink>.
+privacy-info = Le tue informazioni personali sono al sicuro con noi. Per i dettagli leggi l’<privacyLink>informativa sulla privacy</privacyLink>.
 return-to-cv = Torna a Common Voice
 email-input =
     .label = Email
@@ -11,7 +11,7 @@ loading = Caricamento in corso…
 email-opt-in-info = Mi piacerebbe ricevere email come promemoria degli obiettivi, aggiornamenti sui miei progressi e newsletter riguardo Common Voice.
 email-opt-in-info-title = Iscriviti alla mailing list di Common Voice
 email-opt-in-info-sub-with-challenge = Ricevi email come promemoria di sfide e obiettivi, aggiornamenti sui progressi e newsletter di Common Voice.
-email-opt-in-privacy = Scegliendo di ricevere le email, accetti che Mozilla utilizzi queste informazioni secondo quanto riportato nella <privacyLink>informativa sulla privacy<privacyLink>.
+email-opt-in-privacy-v2 = Scegliendo di ricevere le email, accetti che Mozilla utilizzi queste informazioni secondo quanto riportato nell’<privacyLink>informativa sulla privacy</privacyLink>.
 indicates-required = * indica un campo obbligatorio
 not-available-abbreviation = N.D.
 
@@ -174,7 +174,7 @@ home-title = Il progetto Common Voice è un’iniziativa di Mozilla per insegnar
 home-cta = Di’ qualcosa, fai clic qui per iniziare!
 wall-of-text-start = La voce è naturale, la voce è umanità. Per questo l’idea di creare una tecnologia vocale utilizzabile dalle nostre macchine ci affascina così tanto. Per creare sistemi basati sulla tecnologia vocale, però, è necessaria una altissima quantità di campioni.
 wall-of-text-more-mobile = Buona parte dei dati usati dalle grandi aziende non è accessibile alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
-wall-of-text-more-desktop = Ora puoi donare la tua voce per aiutarci a costruire un database vocale open source a disposizione di tutti gli sviluppatori di applicazioni per dispositivi o per il Web. <lineBreak></lineBreak> Contribuire è semplicissimo! Leggi una frase per insegnare alle macchine come le persone parlano nella vita reale. Verifica le registrazioni audio degli altri collaboratori per migliorare la qualità del database.
+wall-of-text-more-desktop = Ora puoi donare la tua voce per aiutarci a costruire un database vocale open source a disposizione di tutti gli sviluppatori di applicazioni per dispositivi o per il Web. Contribuire è semplicissimo! Leggi una frase per insegnare alle macchine come le persone parlano nella vita reale. Verifica le registrazioni audio degli altri collaboratori per migliorare la qualità del database.
 wall-of-text-first = La voce è naturale, la voce è umanità. Per questo l’idea di creare una tecnologia vocale utilizzabile dalle nostre macchine ci affascina così tanto. Per creare sistemi basati sulla tecnologia vocale, però, è necessaria un’altissima quantità di campioni.
 wall-of-text-second = Buona parte dei dati usati dalle grandi aziende non è accessibile alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
 show-wall-of-text = Ulteriori informazioni
@@ -348,7 +348,7 @@ recreate-voice = Ricrea un’onda sonora
 cancel-avatar-clip-recording = Annulla
 about-avatar-clip-recording = Crea una registrazione vocale come parte del profilo del tuo avatar. Altri utenti potranno ascoltare la tua registrazione muovendo il mouse sulla tua icona.
 browse-file-title = Carica un’immagine
-browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
+browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</browseWrap>
 connect-gravatar = Connetti Gravatar
 gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
@@ -394,7 +394,10 @@ faq-why-10k-hours-a = È approssimativamente il numero di ore necessario per add
 faq-how-calc-hours-q = In che modo Common Voice calcola le ore?
 faq-how-calc-hours-a = Calcoliamo le ore stimando la lunghezza media di ciascuna registrazione e moltiplicando quel numero per il numero totale di registrazioni in tutte le lingue.
 faq-where-src-from-2-q = Da dove proviene il testo di origine?
-faq-where-src-from-2-a = Il testo di origine è frutto di donazioni da parte dei collaboratori e da dialoghi di pubblico dominio tratti da film come <italic>It’s a Wonderful Life</italic>.
+faq-where-src-from-2-a =
+    Il testo di origine è frutto di donazioni da parte dei collaboratori e da dialoghi di pubblico dominio tratti da film come <italic>It’s a Wonderful Life</italic>.
+    
+    È possibile visualizzare la fonte delle frasi in questa <githubLink>cartella su GitHub</githubLink>.
 faq-why-not-ask-read-q = Perché non chiedete alle persone di leggere brani tratti da libri o articoli di Wikipedia in diverse lingue?
 faq-why-not-ask-read-a = Per non limitare le possibili applicazioni del dataset Common Voice, abbiamo deciso di utilizzare unicamente frasi disponibili sotto la licenza Creative Commons (CC0). Lo standard CC0 rende più difficile trovare e raccogliere frasi idonee, tuttavia garantisce a chiunque il diritto di impiegare i dati raccolti senza restrizioni sull’utilizzo o autorizzazione da parte di Mozilla. In definitiva, vogliamo che il dataset multilingua abbia meno restrizioni possibili in modo da essere utilizzato liberamente da chiunque, compresi ricercatori, università, startup, governi, organizzazioni per scopi sociali e hobbisti.
 faq-why-account-q = Perché dovrei registrare un account?
@@ -487,6 +490,8 @@ data-bundle-button = Scarica bundle di dataset
 data-bundle-description = Dati di Common Voice più tutti i dataset precedenti.
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
+data-download-singleword-title = Scarica il segmento specifico con parole singole
+data-download-singleword-callout = Questo è un segmento dedicato a casi d’uso specifici, contenente dati per gestire il riconoscimento di singoli numeri, rilevamento di “sì”/“no” e parola di attivazione per <fxLink>Firefox Voice</fxLink>.
 review-terms = Utilizzando Common Voice, accetti le nostre <termsLink>condizioni</termsLink> e l’<privacyLink>informativa sulla privacy</privacyLink>
 terms-agree = Accetto
 terms-disagree = Non accetto
@@ -584,9 +589,9 @@ other-language = Altra lingua
 ## Languages Overview
 
 language-section-in-progress = In corso
-language-section-in-progress-new-description = Queste lingue sono attualmente in fase di sviluppo da parte della comunità. Le barre di avanzamento indicano i progressi di ciascuna lingua nel processo di <localizationGlossaryLink>localizzazione del sito web</localizationGlossaryLink> e di <fraseCollectionGlossaryLink>raccolta delle frasi</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Queste lingue sono attualmente in fase di sviluppo da parte della comunità. Le barre di avanzamento indicano i progressi di ciascuna lingua nel processo di <localizationGlossaryLink>localizzazione del sito web</localizationGlossaryLink> e di <sentenceCollectionGlossaryLink>raccolta delle frasi</sentenceCollectionGlossaryLink>.
 language-section-launched = Operative
-language-section-launched-description = Per le seguenti lingue operative il sito web è stato completamente <localizationGlossaryLink>localizzato</localizationGlossaryLink> e la <phraseCollectionGlossaryLink>raccolte di frasi</sentenceCollectionGlossaryLink> ha raggiunto dimensioni sufficienti da garantire sufficiente materiale da <speakLink>registrare</ speakLink> e <listenLink>ascoltare</listenLink> in modo continuativo.
+language-section-launched-description = Per le seguenti lingue operative il sito web è stato completamente <localizationGlossaryLink>localizzato</localizationGlossaryLink> e la <sentenceCollectionGlossaryLink>raccolte di frasi</sentenceCollectionGlossaryLink> ha raggiunto dimensioni sufficienti da garantire sufficiente materiale da <speakLink>registrare</speakLink> e <listenLink>ascoltare</listenLink> in modo continuativo.
 languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
 language-meter-in-progress = Progresso

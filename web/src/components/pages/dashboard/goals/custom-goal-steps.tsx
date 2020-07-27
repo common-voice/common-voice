@@ -118,7 +118,9 @@ export default [
           </Localized>
           <Localized
             id={
-              dashboardLocale ? 'help-reach-hours' : 'help-reach-hours-general'
+              dashboardLocale
+                ? 'help-reach-hours-pluralized'
+                : 'help-reach-hours-general-pluralized'
             }
             vars={{
               hours: 10000,
@@ -177,7 +179,9 @@ export default [
   ({ closeButtonProps, currentFields, nextButtonProps }) => (
     <>
       <div className="padded">
-        <h2>What kind of goal do you want to build?</h2>
+        <Localized id="goal-type">
+          <h2 />
+        </Localized>
         {currentFields}
       </div>
       <Buttons style={{ marginBottom: 20 }}>
@@ -191,7 +195,7 @@ export default [
             <h4 />
           </Localized>
           <Localized
-            id="activity-needed-calculation"
+            id="activity-needed-calculation-plural"
             vars={{
               totalHours: 10000,
               periodMonths: 6,

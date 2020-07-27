@@ -197,7 +197,7 @@ export default class Clip {
 
       await this.model.saveClip({
         client_id: client_id,
-        locale: sentence.locale_id,
+        localeId: sentence.locale_id,
         original_sentence_id: sentenceId,
         path: clipFileName,
         sentence: sentence.text,

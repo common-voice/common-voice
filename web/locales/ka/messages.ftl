@@ -11,7 +11,7 @@ loading = იტვირთება...
 email-opt-in-info = მსურს, მივიღო ელფოსტაზე შეხსენებები შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და Common Voice-სთან დაკავშირებული სიახლეები.
 email-opt-in-info-title = შემოუერთდით Common Voice-ის ელფოსტის ჯგუფს
 email-opt-in-info-sub-with-challenge = მიიღეთ ელფოსტაზე ცნობები გამოწვევების, შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და Common Voice-სთან დაკავშირებული სიახლეები.
-email-opt-in-privacy = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არაფერი გაქვთ საწინააღმდეგო, Mozilla-მ ეს მონაცემები გამოიყენოს, <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად
+email-opt-in-privacy-v2 = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არ ხართ წინააღმდეგი, Mozilla-მ ეს მონაცემები დაამუშაოს <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად.
 indicates-required = * აღნიშნავს აუცილებელ ველს
 not-available-abbreviation = მიუწვდომელია
 
@@ -311,7 +311,7 @@ female = მდედრობითი
 other = სხვა
 why-profile-title = რა საჭიროა პროფილი?
 why-profile-text = თქვენ შესახებ გარკვეული ინფორმაციის მოწოდებით, თქვენ მიერ გადმოგზავნილი ჩანაწერები Common Voice-ში, მეტად გამოსადეგი იქნება იმ ხმოვანი ამოცნობის სისტემებისთვის, რომლებიც ამ მონაცემებს სიზუსტის გასაუმჯობესებლად იყენებს.
-dashboard = მონაცემების გვერდი
+dashboard = მაჩვენებლები
 build-profile = პროფილის შექმნა
 avatar = გამოსახულება
 goals = მიზანი
@@ -483,10 +483,13 @@ sst-explanation = წარმოთქმულის ტექსტად ქ
 de-identified = ვინაობის მონაცემების მოცილება
 de-identified-explanation = მოხალისეების პროფილის მონაცემების დაფარვა და გამიჯვნა მათ მიერ მოწოდებული ხმოვანი ჩანაწერებისგან, ჩამოსატვირთ კრებულში დამატებისას.
 
-## NotFound
+## Error pages
 
-notfound-title = ვერ მოიძებნა
-notfound-content = სამწუხაროდ, ვერ მოინახა, რასაც ეძებდით.
+error-title-404 = გვერდი ვერ მოიძებნა
+error-content-404 = იქნებ ჩვენი <homepageLink>მთავარი გვერდი</homepageLink> დაგეხმაროთ? კითხვის დასასმელად, შემოუერთდით <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, საიტის ხარვეზების შესახებ იხილეთ <githubLink>GitHub</githubLink> ან ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>.
+error-title-503 = საიტის მუშაობის დაუგეგმავი შეჩერება
+error-content-503 = საიტი აღდგება უმოკლეს დროში. უახლესი ინფორმაციისთვის, გთხოვთ შემოუერთდეთ <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, ან იხილოთ <githubLink>GitHub</githubLink> და ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>, ხარვეზების მოსახსენებლად.
+error-code = შეცდომა { $code }
 
 ## Data
 
@@ -505,6 +508,8 @@ data-bundle-button = მონაცემთა კრებულის ჩა
 data-bundle-description = Common Voice მონაცემებს დამატებული, ზემოთ მოცემული ხმოვან მონაცემთა ყველა სხვა კრებული.
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = შერეული
+data-download-singleword-title = ჩამოტვირთეთ ცალკეული სიტყვების მიზნობრივი კრებული
+data-download-singleword-callout = მონაცემების ეს კრებული განკუთვნილია წარმოთქმული ციფრების, დიახ / არა პასუხების ამოსაცნობად და გამოსაძახებელი ბრძანების გამოსაცდელად პროექტში <fxLink>Firefox Voice</fxLink>.
 review-terms = Common Voice-ის გამოყენებით, ეთანხმებით ჩვენს <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დაცვის განაცხადს</privacyLink>
 terms-agree = ვეთანხმები
 terms-disagree = არ ვეთანხმები
@@ -620,7 +625,11 @@ contribute = წვლილის შეტანა
 listen = მოსმენა
 skip = გამოტოვება
 shortcuts = მალსახმობები
-clips-with-count = <bold>{ $count }</bold> ჩანაწერი
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ჩანაწერი
+       *[other] <bold>{ $count }</bold> ჩანაწერი
+    }
 goal-help-recording = თქვენ დაეხმარეთ Common Voice-ს დღიური მიზნის, { $goalValue } ჩანაწერის <goalPercentage></goalPercentage>-ის შექმნაში!
 goal-help-validation = თქვენ დაეხმარეთ Common Voice-ს დღიური მიზნის, { $goalValue } შემოწმების <goalPercentage></goalPercentage>-ის შესრულებაში!
 contribute-more = მზად ხართ შეასრულოთ კიდევ { $count }?
@@ -662,8 +671,8 @@ record-button-label = ჩაწერეთ თქვენი ხმა
 share-title-new = <bold>დაგვეხმარეთ</bold> ხმების მოძიებაში
 keep-track-profile = თვალი მიადევნეთ თქვენს წინსვლას პროფილის მეშვეობით
 login-to-get-started = შედით ან შექმენით ანგარიში დასაწყებად
-target-segment-first-card = თქვენ წვლილი შეგაქვთ ჩვენი პირველი სამიზნე ჯგუფისთვის
-target-segment-first-banner = დაგვეხმარეთ შევქმნათ Common Voice-ის პირველი სამიზნე ჯგუფი { $locale } ენისთვის.
+target-segment-first-card = თქვენ წვლილი შეგაქვთ ჩვენს პირველ მიზნობრივ კრებულში
+target-segment-first-banner = დაგვეხმარეთ შევქმნათ Common Voice-ის პირველი მიზნობრივი კრებული { $locale } ენისთვის.
 target-segment-add-voice = დაამატეთ საკუთარი ხმა
 target-segment-learn-more = ვრცლად
 
@@ -734,6 +743,7 @@ show-ranking = ჩემი ადგილის ნახვა
 
 get-started-goals = მიზნის შექმნა
 create-custom-goal = საკუთარი მიზნის შექმნა
+goal-type = რა მიზანი გსურთ დაისახოთ?
 both-speak-and-listen = ორივე
 both-speak-and-listen-long = ორივე (წარმოთქმა და მოსმენა)
 daily-goal = ყოველდღიური მიზანი
@@ -747,11 +757,32 @@ want-to-continue = გსურთ, განაგრძოთ?
 finish-editing = გსურთ, ჯერ ჩასწორების დასრულება?
 lose-changes-warning = ახლავე დატოვებით თქვენი ცვლილებები დაიკარგება
 build-custom-goal = საკუთარი მიზნის შექმნა
-help-reach-hours = დაგვეხმარეთ მივაღწიოთ { NUMBER($hours) } საათს { $language } ენისთვის, საკუთარი მიზნით
-help-reach-hours-general = დაგვეხმარეთ Common Voice-ს { NUMBER($hours) } საათის მიღწევაში { $language } ენისთვის, საკუთარი მიზნის მეშვეობით
+help-reach-hours-pluralized =
+    დაგვეხმარეთ მივაღწიოთ{ NUMBER($hours) ->
+        [one] { $hours } საათს
+       *[other] { $hours } საათს
+    }{ $language } ენისთვის, პირადი მიზნის დასახვით
+help-reach-hours-general-pluralized =
+    დაგვეხმარეთ Common Voice-ში მივაღწიოთ{ NUMBER($hours) ->
+        [one] { $hours } საათს
+       *[other] { $hours } საათს
+    }ენისთვის, პირადი მიზნის დასახვით
 set-a-goal = მიზნის მითითება
 cant-decide = ვერ გადაგიწყვეტიათ?
-activity-needed-calculation = { NUMBER($totalHours) } საათი მიიღწევა სულ რაღაც { NUMBER($periodMonths) } თვეში, თუ { NUMBER($people) } ადამიანი გააკეთებს { NUMBER($clipsPerDay) } ჩანაწერს ყოველდღიურად.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } საათის
+       *[other] { $totalHours } საათის
+    }მიიღწევა სულ რაღაც{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } თვეში
+       *[other] { $periodMonths } თვეში
+    }თუ{ NUMBER($people) ->
+        [one] { $people } ადამიანი
+       *[other] { $people } ადამიანი
+    }გააკეთებს{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } ჩანაწერს
+       *[other] { $clipsPerDay } ჩანაწერს
+    }დღეში
 how-many-per-day = მშვენიერია! რამდენი ჩანაწერი ყოველდღიურად?
 how-many-a-week = მშვენიერია! რამდენი ჩანაწერი ყოველკვირეულად?
 which-goal-type = გირჩევნიათ წარმოთქმა, მოსმენა, თუ ორივე?
@@ -759,7 +790,11 @@ receiving-emails-info =
     თქვენ მითითებული გაქვთ, რომ გსურთ ელფოსტაზე მიიღოთ შეხსენებები შესასრულებელი მიზნების,
     აგრეთვე სამუშაოს მიმდინარეობის შესახებ და Common Voice-სთან დაკავშირებული სიახლეები.
 not-receiving-emails-info = თქვენ მითითებული გაქვთ, რომ <bold>არ</bold> გსურთ ელფოსტაზე მიიღოთ შეხსენებები შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და Common Voice-სთან დაკავშირებული სიახლეები
-n-clips = { NUMBER($count) } ჩანაწერი
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ჩანაწერი
+       *[other] { $count } ჩანაწერი
+    }
 help-share-goal = დაგვეხმარეთ მეტი ხმის მოძიებაში, გააზიარეთ თქვენი მიზანი
 confirm-goal = მიზნის დადასტურება
 goal-interval-weekly = ყოველკვირეული

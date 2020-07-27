@@ -11,7 +11,7 @@ loading = Laddar…
 email-opt-in-info = Jag vill få e-postmeddelanden med påminnelser om mål, mina framstegsuppdateringar och nyhetsbrev om Common Voice.
 email-opt-in-info-title = Gå med i Common Voice e-postlista
 email-opt-in-info-sub-with-challenge = Få e-postmeddelanden som målpåminnelser, framstegsuppdateringar och nyhetsbrev om Common Voice.
-email-opt-in-privacy = Genom att ta emot e-postmeddelanden godkänner du Mozillas hantering av denna information som förklaras i Mozillas <privacyLink>sekretesspolicy<privacyLink>.
+email-opt-in-privacy-v2 = Genom att anmäla dig till att ta emot e-postmeddelanden godkänner du att du är okej med att Mozilla hanterar denna information, som förklaras i Mozillas <privacyLink>sekretesspolicy</privacyLink>.
 indicates-required = * Indikerar obligatoriska fält
 not-available-abbreviation = inte tillgänglig
 
@@ -484,10 +484,13 @@ sst-explanation = Tal-till-text (STT)-tekniken konverterar röstdata till text.
 de-identified = Anonymisering
 de-identified-explanation = Processen genom vilken en bidragsgivares profilinformation döljs från sina donerade röstklipp när de är packade för nedladdning som en del av datamängden.
 
-## NotFound
+## Error pages
 
-notfound-title = Hittades inte
-notfound-content = Jag är rädd att jag inte vet vad du letar efter.
+error-title-404 = Vi kunde inte hitta den sidan åt dig
+error-content-404 = Kanske kan vår <homepageLink>hemsida</homepageLink> hjälpa dig? För att ställa en fråga, gå med i <matrixLink>Matrix community chat</matrixLink>, övervaka webbplatsfrågor via <githubLink>GitHub</githubLink> eller besök <discourseLink>våra Discourse-forum</discourseLink>.
+error-title-503 = Vi upplever oväntat driftstopp
+error-content-503 = Webbplatsen kommer att säkerhetskopieras så snart som möjligt. För den senaste informationen, gå med i <matrixLink>Matrix community chat</matrixLink> eller besök <githubLink>GitHub</githubLink> eller <discourseLink>våra Discourse-forum</discourseLink> för att skicka in och övervaka problem med webbplatsupplevelsen.
+error-code = Fel { $code }
 
 ## Data
 
@@ -506,6 +509,8 @@ data-bundle-button = Ladda ner Dataset-paket
 data-bundle-description = Common Voice data plus alla andra röstdatamängder ovan.
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandat
+data-download-singleword-title = Ladda ner målsegmentet för ett ord
+data-download-singleword-callout = Detta är ett användningsfallsdrivet segment som innehåller data för att driva taligenkänning, ja/nej-upptäckt och wakeword-testdata för <fxLink>Firefox Voice</fxLink>.
 review-terms = Genom att använda Common Voice godkänner du våra <termsLink>villkor</termsLink> och <privacyLink> sekretesspolicy</privacyLink>
 terms-agree = Jag håller med
 terms-disagree = Jag håller inte med
@@ -626,7 +631,11 @@ contribute = Bidra
 listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
-clips-with-count = <bold>{ $count }</bold> klipp
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count } klipp
+       *[other] <bold>{ $count } klipp
+    }
 goal-help-recording = Du har hjälpt Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
 goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
 contribute-more =
@@ -744,6 +753,7 @@ show-ranking = Visa min ranking
 
 get-started-goals = Kom igång med mål
 create-custom-goal = Skapa ett anpassat mål
+goal-type = Vilken typ av mål vill du bygga?
 both-speak-and-listen = Båda
 both-speak-and-listen-long = Båda (Prata och lyssna)
 daily-goal = Dagligt mål
@@ -757,13 +767,32 @@ want-to-continue = Vill du fortsätta?
 finish-editing = Avsluta redigeringen först?
 lose-changes-warning = Om du lämnar nu kommer du att förlora dina förändringar
 build-custom-goal = Bygg ett anpassat mål
-help-reach-hours = Hjälp oss att nå { NUMBER($hours) } timmar för { $language } med ett personligt mål
-help-reach-hours-general = Hjälp Common Voice att nå { NUMBER($hours) } timmar i ett språk med ett personligt mål
+help-reach-hours-pluralized =
+    Hjälp oss nå { NUMBER($hours) ->
+        [one] { $hours } timme
+       *[other] { $hours } timmar
+    } på { $language } med ett personligt mål
+help-reach-hours-general-pluralized =
+    Hjälp Common Voice nå { NUMBER($hours) ->
+        [one] { $hours } timme
+       *[other] { $hours } timmar
+    } på ett språk med ett personligt mål
 set-a-goal = Sätt ett mål
 cant-decide = Kan du inte bestämma?
-activity-needed-calculation =
-    { NUMBER($totalHours) } timmar kan uppnås på drygt { NUMBER($periodMonths) }
-    månader om { NUMBER($people) } personer spelar in { NUMBER($clipsPerDay) } klipp per dag.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } timme
+       *[other] { $totalHours } timmar
+    } kan uppnås på drygt { NUMBER($periodMonths) ->
+        [one] { $periodMonths } månad
+       *[other] { $periodMonths } månader
+    } om { NUMBER($people) ->
+        [one] { $people } person
+       *[other] { $people } personer
+    } spelar in { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } klipp
+       *[other] { $clipsPerDay } klipp
+    } per dag.
 how-many-per-day = Bra! Hur många klipp per dag?
 how-many-a-week = Bra! Hur många klipp på en vecka?
 which-goal-type = Vill du prata, lyssna eller båda?
@@ -773,7 +802,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Du är för närvarande inställd på att <bold>INTE</bold> ta emot e-postmeddelanden som målpåminnelser, min
     framstegsuppdateringar och nyhetsbrev om Common Voice
-n-clips = { NUMBER($count) } klipp
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } klipp
+       *[other] { $count } klipp
+    }
 help-share-goal = Hjälp oss att hitta fler röster, dela ditt mål
 confirm-goal = Bekräfta målet
 goal-interval-weekly = Veckovis

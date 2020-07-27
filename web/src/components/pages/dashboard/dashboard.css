@@ -63,6 +63,11 @@
     .underlined {
         flex-grow: 1;
         border-bottom: 1px solid var(--darker-grey);
+        width: 100%;
+
+        @media (--xs-only) {
+            flex-direction: column;
+        }
     }
 
     nav {
@@ -112,6 +117,7 @@
         display: flex;
 
         @media (--xs-only) {
+            margin-top: 10px;
             flex-direction: column;
             justify-content: space-between;
         }

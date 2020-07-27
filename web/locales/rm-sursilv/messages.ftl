@@ -64,7 +64,6 @@ ga-IE = irlandes
 gl = galizian
 ha = hausa
 he = hebraic
-hi-IN = hindi
 hr = croat
 hsb = sorb ault
 hu = ungares
@@ -155,7 +154,7 @@ contact = Contact
 privacy = Protecziun da datas
 terms = Cundiziuns d'utilisaziun
 cookies = Cookies
-faq = Damondas frequentas - FAQ
+faq = Damondas frequentas
 content-license-text = Il cuntegn stat a disposiziun sut ina <licenseLink>licenzia da Creative Commons</licenseLink>
 share-title = Gida nus ad anflar autras persunas che contribueschan cun lur vusch!
 share-text = Gida a mussar a maschinas co persunas realas discuoran, contribuescha cun tia vusch sin { $link }
@@ -210,7 +209,7 @@ x-years-short =
        *[other] { $count } onns
     }
 help-make-dataset = Gida nus a crear in'unitad da datas aviarta, publica e d'aulta qualitad
-sign-up-account = Seregistrar per in conto
+sign-up-account = Seregistrar
 email-subscription-title = Abonnar novitads per e-mail
 email-subscription-title-new = Seregistrar per las newsletters da Common Voice, regurdientschas da las finamiras ed actualisaziuns dil progress.
 
@@ -230,7 +229,6 @@ whats-public = Tgei ei public?
 email-not-public = Nus vegnin buc a publicar tia adressa dad e-mail.
 recordings-and-locale-public = Il diember da tias registraziuns ed a tgei lungatgs che ti contribueschas vegnan publicai.
 username-optin-public = Ti sas decider, sche tiu num d'utilisader duei esser publics ni anonims.
-demographic-deidentified = Informaziuns demograficas facultativas (p. ex. vegliadetgna, schlatteina, lungatg ed accent) vegnan de-identificadas da tias datas da vusch tarmessas e vegnan mai publicadas sin tiu profil.
 username-email-not-demographic = Tiu num d'utilisader e tia adressa dad e-mail vegnan buc ad haver in connex cun las datas publicadas.
 
 ## Speak & Listen Shortcuts
@@ -291,7 +289,7 @@ profile-form-age =
 profile-form-gender =
     .label = Schlatteina
 leaderboard-visibility =
-    .label = Visibladad ella gliesta dils megliers
+    .label = Visibladad ella gliesta da rangaziun
 hidden = buca  mussar
 visible = mussar
 native-language =
@@ -353,7 +351,7 @@ manage-subscriptions = administrar ils abonnaments
 manage-email-subscriptions = Administrar ils abonnaments dad e-mail
 email-already-used = Quella adressa dad e-mail vegn gia duvrada per in auter conto
 add-language = aschuntar in lungatg
-change-email-setings = Ti sas midar tia adressa dad e-mail ellas Preferenzas sut Identitad d'annunzia
+change-email-setings = Ti sas midar tia adressa dad e-mail en Parameters sut Identitad d'annunzia
 
 ## FAQ
 
@@ -423,7 +421,7 @@ about-header-description =
     Nus lein metter a disposiziun datas da lungatg a moda libra e publica e garantir che las datas representien la diversitad dallas persunas realas. Ensemen savein nus migliurar l'identificaziun da lungatg per tuts.
 how-does-it-work-title = Co funcziunescha quei?
 how-does-it-work-text = Culla participaziun collectiva creein nus in'unitad da datas vocalas open source. Contribuescha cun tia vusch, verifichescha las registraziuns dad autras persunas e meglierescha l'unitad da datas per tuts.
-about-speak = discuora
+about-speak = Discuora
 about-speak-text = Ils contribuiders registreschan lur vusch cun preleger construcziuns contribuidas en ina banca da datas.
 about-listen-queue = Colonna da spetga per tedlar
 about-listen-queue-text = Las registraziuns vegnan transmessas en ina colonna da spetga, nua ch'ellas vegnan preparadas per tedlar.
@@ -446,11 +444,6 @@ about-partnership =
     
     Nus engraziein allas suandontas persunas ed organisaziuns per lur agid en connex cul project:
 about-get-involved = separticipar
-about-get-involved-text =
-    Vul ti segidar da meglierar Common Voice?
-    Grondius! Contactescha nus via e-mail ni sin <discourseLink>Discourse </discourseLink>,
-    dai in resun a nus sur <githubLink> GitHub</githubLink>,
-    ni viseta nus sin <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Daco?
 about-nav-how-it-works = Co?
 about-nav-partners = Partenaris
@@ -631,7 +624,6 @@ contribute-more =
 record-cta = registrar
 record-platform-not-supported = Nus stein mal, tia plattafuorma vegn actualmein buca sustenida.
 record-platform-not-supported-desktop = Sin computers da desktop sas ti telecargar la pli nova versiun:
-record-platform-not-supported-ios = Utilisaders dad <bold>iOS</bold> san telecargar nossa app gratuitamein:
 record-must-allow-microphone = Ti stos lubir igl access al microfon.
 record-no-mic-found = Anflau negin microfon.
 record-error-too-short = La registraziun ei memia cuorta.
@@ -657,7 +649,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> Ei la construcziun veg
 listen-again-instruction = Excellenta lavur!<playIcon></playIcon>Teidla danovamein, sche ti eis promts/promta.
 listen-3rd-time-instruction = Duas pli pauc, mo vinavon! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>La davosa!
-nothing-to-validate = Ei dat aunc neginas registraziuns per valetar en quei lungatg, gida nus ad emplenir la colonna da spetga cun tias registraziuns.
 record-button-label = registrescha tia vusch
 share-title-new = <bold>Gida nus</bold> ad anflar novas vuschs
 keep-track-profile = Teni en egl vies progress cun in profil

@@ -46,7 +46,7 @@
         }
 
         .icon {
-            color: #4a4a4a;
+            color: var(--near-black);
             margin-left: 12px;
             font-size: 0.6em;
         }

@@ -11,7 +11,7 @@ loading = Llwytho…
 email-opt-in-info = Hoffwn dderbyn e-byst sy'n cynnwys atgoffwr targed, diweddariad ar fy nghynydd a newyddlen am Common Voice.
 email-opt-in-info-title = Ymunwch â rhestr e-bost Common Voice
 email-opt-in-info-sub-with-challenge = Derbyn e-byst sy'n cynnwys atgoffwr her a tharged , diweddariad ar fy nghynydd a newyddlen am Common Voice.
-email-opt-in-privacy = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
 indicates-required = Mae * yn dynodi maes angenrheidiol
 not-available-abbreviation = Dim Ar Gael
 
@@ -498,10 +498,13 @@ sst-explanation = Mae technolegau llais-i-destun (STT) yn trosi data llais yn de
 de-identified = Dadadnabod
 de-identified-explanation = Y broses o sut mae manylion proffil cyfrannwr yn cael ei guddio oddi wrth eu clipiau llais pan gaiff ei becynnu i'w lwytho i lawr fel rhan o'r set ddata.
 
-## NotFound
+## Error pages
 
-notfound-title = Heb ganfod
-notfound-content = Mae'n ddrwg gen i, dwi ddim yn gwybod beth rydych yn chwilio amdano.
+error-title-404 = Nid oedd modd i ni ddod o hyd i'r dudalen honno i chi
+error-content-404 = Efallai y bydd ein <homepageLink>tudalen cartref</homepageLink> yn gallu eich helpu? I ofyn cwestiwn, ymunwch â'n sgwrs gymunedol yn <matrixLink>Matrix</matrixLink>, monitro materion gwefan trwy <githubLink>GitHub</githubLink> neu ewch i'n <discourseLink>fforymau Discours</discourseLink>.
+error-title-503 = Rydym yn profi toriad darpariaeth annisgwyl
+error-content-503 = Bydd y wefan yn ôl at ei gilydd cyn gynted â phosibl. Am y wybodaeth ddiweddaraf, ymunwch â'n  sgwrs gymunedol yn <matrixLink>Matrix</matrixLink> neu ewch i <githubLink>GitHub</githubLink> neu'n <discourseLink>fforymau Discourse</discourseLink> i gyflwyno a monitro materion profiad gwefan.
+error-code = Gwall { $code }
 
 ## Data
 
@@ -642,7 +645,15 @@ contribute = Cyfrannu
 listen = Gwrando
 skip = Hepgor
 shortcuts = Llwybrau Byr
-clips-with-count = <bold>{ $count }</bold> Clip
+clips-with-count-pluralized =
+    { $count ->
+        [zero] <bold>{ $count }</bold> Clip
+        [one] <bold>{ $count }</bold> Clip
+        [two] <bold>{ $count }</bold> Glip
+        [few] <bold>{ $count }</bold> Clip
+        [many] <bold>{ $count }</bold> Chlip
+       *[other] <bold>{ $count }</bold> Clip
+    }
 goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein targed recordio dyddiol!
 goal-help-validation = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein targed dilysu dyddiol!
 contribute-more = Barod i wneud { $count } yn rhagor?
@@ -768,6 +779,7 @@ show-ranking = Dangoswch fy safle
 
 get-started-goals = Cychwyn gyda thargedau
 create-custom-goal = Creu Targed Personol
+goal-type = Pa fath o darged ydych chi am ei osod?
 both-speak-and-listen = Y Ddau
 both-speak-and-listen-long = Y Ddau (Siarad a Gwrando)
 daily-goal = Targed Dyddiol
@@ -781,17 +793,70 @@ want-to-continue = Hoffech chi barhau?
 finish-editing = Gorffen golygu yn gyntaf?
 lose-changes-warning = Bydd gadael nawr yn golygu eich bod yn colli eich newidiadau
 build-custom-goal = Adeiladu targed personol
-help-reach-hours = Helpwch i gyrraedd { NUMBER($hours) } awr { $language } gyda tharged personol
-help-reach-hours-general = Helpwch  Common Voice i gyrraedd { NUMBER($hours) } awr mewn iaith gyda tharged personol
+help-reach-hours-pluralized =
+    Helpu i gyrraedd { NUMBER($hours) ->
+        [zero] { $hours } awr
+        [one] { $hours } awr
+        [two] { $hours } awr
+        [few] { $hours } awr
+        [many] { $hours } awr
+       *[other] { $hours } awr
+    } { $language } gyda tharged personol
+help-reach-hours-general-pluralized =
+    Helpu i gyrraedd { NUMBER($hours) ->
+        [zero] { $hours } awr
+        [one] { $hours } awr
+        [two] { $hours } awr
+        [few] { $hours } awr
+        [many] { $hours } awr
+       *[other] { $hours } awr
+    } mewn iaith gyda tharged personol
 set-a-goal = Gosod targed
 cant-decide = Methu penderfynu?
-activity-needed-calculation = Mae { NUMBER($totalHours) } awr yn gyraeddadwy ymhen { NUMBER($periodMonths) } mis os fydd { NUMBER($people) } o bobl yn recordio { NUMBER($clipsPerDay) } clip y dydd.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [zero] { $totalHours } awr
+        [one] { $totalHours } awr
+        [two] { $totalHours } awr
+        [few] { $totalHours } awr
+        [many] { $totalHours } awr
+       *[other] { $totalHours } awr
+    } yn bosib mewn ychydig dros { NUMBER($periodMonths) ->
+        [zero] { $periodMonths } mis
+        [one] { $periodMonths } mis
+        [two] { $periodMonths } fis
+        [few] { $periodMonths } mis
+        [many] { $periodMonths } mis
+       *[other] { $periodMonths } mis
+    } os fydd { NUMBER($people) ->
+        [zero] { $people } person
+        [one] { $people } person
+        [two] { $people } berson
+        [few] { $people } person
+        [many] { $people } pherson
+       *[other] { $people } person
+    } yn recordio { NUMBER($clipsPerDay) ->
+        [zero] { $clipsPerDay } clip
+        [one] { $clipsPerDay } clip
+        [two] { $clipsPerDay } glip
+        [few] { $clipsPerDay } clip
+        [many] { $clipsPerDay } chlip
+       *[other] { $clipsPerDay } clip
+    } bob dydd.
 how-many-per-day = Gwych! Sawl clip y dydd?
 how-many-a-week = Gwych! Sawl clip yr wythnos?
 which-goal-type = Hoffech chi Siarad, Gwrando neu'r ddau?
 receiving-emails-info = Ar hyn o bryd rydych wedi trefnu i dderbyn negeseuon e-bost i'ch atgoffa am eich targed, diweddariadau cynnydd a chylchlythyron am Common Voice
 not-receiving-emails-info = Ar hyn o bryd, rydych wedi eich gosod i <bold>BEIDIO</bold> â derbyn e-byst i atgoffa am dargedau, diweddariadau cynnydd a newyddlenni am Common Voice
-n-clips = { NUMBER($count) } clip
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [zero] { $count } clip
+        [one] { $count } clip
+        [two] { $count } glip
+        [few] { $count } clip
+        [many] { $count } chlip
+       *[other] { $count } clip
+    }
 help-share-goal = Helpwch ni i ddenu rhagor o leisiau, rhannwch eich targed
 confirm-goal = Cadarnhau'r Targed
 goal-interval-weekly = Wythnosol

@@ -11,7 +11,7 @@ loading = Ŝargado…
 email-opt-in-info = Mi ŝatus ricevi retpoŝtajn mesaĝojn, ekzemple memorigojn pri celoj, raportojn pri mia progreso kaj bultenojn pri Common Voice.
 email-opt-in-info-title = Aliĝi al la dissendolisto de Common Voice
 email-opt-in-info-sub-with-challenge = Ricevi retpoŝtmesaĝojn, kiel ekzemple memorigilojn pri defioj kaj celoj, progresajn ĝisdatigojn, kaj informilojn pri Common Voice.
-email-opt-in-privacy = Si vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko<privacyLink> de Mozilla.
+email-opt-in-privacy-v2 = Si vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko</privacyLink> de Mozilla.
 indicates-required = * signas devigan kampon
 not-available-abbreviation = Nedisponebla
 
@@ -622,7 +622,11 @@ contribute = Kontribui
 listen = Aŭskulti
 skip = Ignori
 shortcuts = Alirklavoj
-clips-with-count = <bold>{ $count }</bold> voĉregistroj
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> voĉregistro
+       *[other] <bold>{ $count }</bold> voĉregistroj
+    }
 goal-help-recording = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } registra celo!
 goal-help-validation = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } revizia celo!
 contribute-more =
@@ -740,6 +744,7 @@ show-ranking = Montri mian pozicion
 
 get-started-goals = Unuaj paŝoj kun celoj
 create-custom-goal = Krei propran celon
+goal-type = Kian celon vi volas atingi?
 both-speak-and-listen = Ambaŭ
 both-speak-and-listen-long = Ambaŭ (kaj paroli kaj aŭskulti)
 daily-goal = Ĉiutaga celo
@@ -753,11 +758,32 @@ want-to-continue = Ĉu vi volas daŭrigi?
 finish-editing = Ĉu vi volas unue fini la modifojn?
 lose-changes-warning = Se vi foriras nun vi perdos viajn ŝanĝojn
 build-custom-goal = Difini personecigitan celon
-help-reach-hours = Helpu atingi { NUMBER($hours) } horojn en { $language } per persona celo
-help-reach-hours-general = Helpu Common Voice atingi { NUMBER($hours) } horojn en lingvo per persona celo
+help-reach-hours-pluralized =
+    Helpu atingi{ NUMBER($hours) ->
+        [one] { $hours } horon
+       *[other] { $hours } horojn
+    }en la { $language } per persona celo
+help-reach-hours-general-pluralized =
+    Helpu Common Voice atingi{ NUMBER($hours) ->
+        [one] { $hours } horon
+       *[other] { $hours } horojn
+    }en iu lingvo per persona celo
 set-a-goal = Difini celon
 cant-decide = Ĉu vi ne povas decidi?
-activity-needed-calculation = Oni povas atingi { NUMBER($totalHours) } horojn post iom pli ol { NUMBER($periodMonths) } monatoj se { NUMBER($people) } personoj registras po { NUMBER($clipsPerDay) } voĉregistrojn  ĉiutage.
+activity-needed-calculation-plural =
+    Se { NUMBER($people) ->
+        [one] { $people } persono
+       *[other] { $people } personoj
+    } faras { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } voĉregistron
+       *[other] { $clipsPerDay } voĉregistrojn
+    } ĉiutage, { NUMBER($totalHours) ->
+        [one] { $totalHours } horo
+       *[other] { $totalHours } horoj
+    } atingeblas post iom pli ol { NUMBER($periodMonths) ->
+        [one] monato
+       *[other] { $periodMonths } monatoj
+    }.
 how-many-per-day = Bonege! Po kiom da voĉregistroj ĉiutage?
 how-many-a-week = Bonege! Po kiom da voĉregistroj ĉiusemajne?
 which-goal-type = Ĉu vi volas paroli, aŭskulti aŭ ambaŭ?
@@ -767,7 +793,6 @@ receiving-emails-info =
 not-receiving-emails-info =
     Vi <bold>NE</bold> ricevos retpoŝtajn mesaĝojn kun memorigoj pri celoj
     raportoj pri via progreso kaj novaĵleteroj de Common Voice
-n-clips = { NUMBER($count) } voĉregistroj
 help-share-goal = Helpu nin trovi pli da voĉoj, kundividu vian celon
 confirm-goal = Konfirmi celon
 goal-interval-weekly = Semajne

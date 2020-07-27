@@ -11,7 +11,7 @@ loading = در حال بارگیری...
 email-opt-in-info = من مایل به دریافت یادآوری هستم مانند هدف،‌ پیشرفت من و خبرنامه ها در مورد پروژه آواهای مشترک.
 email-opt-in-info-title = به فهرست پستی الکترونیکی صدای مشترک بپیوندید
 email-opt-in-info-sub-with-challenge = دریافت پست الکترونیکی شامل چالش ها و یادآوری اهداف،‌ پیشرفت بروزرسانی و خبرنامه‌ها در خصوص صدای مشترک.
-email-opt-in-privacy = با انتخاب دریافت رایانامه‌ها، شما اعلام می‌کنید که با دسترسی موزیلا به این اطلاعات مشکلی ندارید، همان‌طور که در <privacyLink> خط‌مشی رازداری<privacyLink> توضیح داده‌ شده است.
+email-opt-in-privacy-v2 = با انتخاب دریافت رایانامه‌ها، اعلام می‌کنید که با دسترسی موزیلا به این اطلاعات مطابق موارد <privacyLink> مقررات حریم خصوصی<privacyLink>  مشکلی ندارید.
 indicates-required = * فیلد الزامی را مشخص می‌کند
 not-available-abbreviation = N/A
 
@@ -506,6 +506,8 @@ data-bundle-button = دریافت بسته مجموعه‌ی داده‌ها
 data-bundle-description = اطلاعات آواهای مشترک به همراه تمام مجموعه داده‌های صوتی بالا.
 license = مجوز: <licenseLink>{ $license }</licenseLink>
 license-mixed = ترکیبی
+data-download-singleword-title = دریافت بخش هدف تک کلمه‌ای.
+data-download-singleword-callout = این مورد از داده‌هایی تشکیل شده است که به تشخیص اعداد در گفت‌وگو کمک می‌کند، تشخیص بله/خیر و آزمایش داده‌های wakeword برای <fxLink>صدای Firefox</fxLink>.
 review-terms = با استفاده از آواهای مشترک، شما با <termsLink>شرایط</termsLink> و <privacyLink>خط مشی رازداری</privacyLink> ما موافقت می‌کنید
 terms-agree = موافقم
 terms-disagree = موافق نیستم

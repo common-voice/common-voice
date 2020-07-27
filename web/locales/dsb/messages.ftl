@@ -11,7 +11,7 @@ loading = Cyta se…
 email-opt-in-info = Ja by rady mejlki dostał, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice.
 email-opt-in-info-title = Aboněrujśo rozpósłańsku lisćinu Common Voice
 email-opt-in-info-sub-with-challenge = Dostańśo mejlki, ako na pśikład wupominańske a celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice.
-email-opt-in-privacy = Jolic cośo mejlki dostaś, musyśo do wobchadanja Mozilla z tymi informacijami zwóliś, kótarež se w <privacyLink>pšawidłach priwatnosći<privacyLink> Mozilla rozjasnjuju.
+email-opt-in-privacy-v2 = Jolic cośo mejlki dostaś, musyśo do wobchadanja Mozilla z tymi informacijami zwóliś, kótarež se w <privacyLink>pšawidłach priwatnosći</privacyLink> Mozilla rozjasnjuju.
 indicates-required = * Wóznamjenijo trěbne pólo
 not-available-abbreviation = Nic k dispoziciji
 
@@ -484,10 +484,11 @@ sst-explanation = Technologije Powědanje-do-teksta (STT) głosowe daty to tekst
 de-identified = Anonymizěrowane
 de-identified-explanation = Proces, pśez kótaryž se profilowe informacije sobustatkujucego z jogo pósćonych głosowych klipow zamazuju, gaž se za ześěgnjenje ako źěl datoweje sajźby zapakuju.
 
-## NotFound
+## Error pages
 
-notfound-title = Njenamakany
-notfound-content = Bójm se, njewěm, za cym pytaśo.
+error-title-404 = Njejsmy mógli ten bok za was namakaś
+error-title-503 = Nazgónijomy njewótcakany cas stojanja
+error-code = Zmólka { $code }
 
 ## Data
 
@@ -506,6 +507,8 @@ data-bundle-button = Paket datowych sajźbow ześěgnuś
 data-bundle-description = Daty Common Voice plus wšykne druge głosowe datowe sajźby górjejce.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
+data-download-singleword-title = Ześěgniśo celowy segment jadnotliwego słowa
+data-download-singleword-callout = To jo segment, kótaryž se pśez nałožowański pad wóźi, kótaryž daty wopśimujo, aby spóznawanje powědanych cyfrow, jo/ně-wótkrywanje a testowańske daty wakeword za <fxLink>Firefox Voice</fxLink> pódpěrał.
 review-terms = Gaž Common Voice wužywaśo, zwolijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
@@ -626,7 +629,13 @@ contribute = Sobu źěłaś
 listen = Słuchaś
 skip = Pśeskócyś
 shortcuts = Skrotconki
-clips-with-count = <bold>{ $count }</bold> klipow
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> klip
+        [two] <bold>{ $count }</bold> klipa
+        [few] <bold>{ $count }</bold> klipy
+       *[other] <bold>{ $count }</bold> klipow
+    }
 goal-help-recording = Sćo pomogł Common Voice, <goalPercentage></goalPercentage> našogo wšednego nagraśowego cela { $goalValue } dojśpiś!
 goal-help-validation = Sćo pomogł Common Voice, <goalPercentage></goalPercentage> našogo wšednego wobkšuśeńskego  cela { $goalValue } dojśpiś!
 contribute-more =
@@ -752,6 +761,7 @@ show-ranking = Mójp městno pokazaś
 
 get-started-goals = Prědne kšace z cilami
 create-custom-goal = Swójski cel napóraś
+goal-type = Kaki cel cośo dojśpiś?
 both-speak-and-listen = Wobej
 both-speak-and-listen-long = Wobej (powědanje a słuchanje)
 daily-goal = Dnjowny cel
@@ -765,17 +775,56 @@ want-to-continue = Cośo pókšacowaś?
 finish-editing = Cośo wobźěłowanje nejpjerwjej dokóńcyś?
 lose-changes-warning = Gaž něnto pśetergnjośo, zgubijośo swóje změny
 build-custom-goal = Swójski cel napóraś
-help-reach-hours = Pomagajśo z wósobinskim celom { NUMBER($hours) } góźin w rěcy { $language } dojśpiś
-help-reach-hours-general = Pomagajśo Common Voice z wósobinskim celom { NUMBER($hours) } góźin w rěcy dojśpiś
+help-reach-hours-pluralized =
+    Pomagajśo z wósobinskim celom{ NUMBER($hours) ->
+        [one] { $hours } góźinu
+        [two] { $hours } góźinje
+        [few] { $hours } góźiny
+       *[other] { $hours } góźinow
+    }w rěcy { $language } dojśpěś
+help-reach-hours-general-pluralized =
+    Pomagajśo Common Voice z wósobinskim celom { NUMBER($hours) ->
+        [one] { $hours } góźinu
+        [two] { $hours } góźinje
+        [few] { $hours } góźiny
+       *[other] { $hours } góźinow
+    }w rěcy dojśpěś
 set-a-goal = Cel stajiś
 cant-decide = Njamóžośo se rozsuźiś?
-activity-needed-calculation = { NUMBER($totalHours) } góźin jo w pitśku wěcej ako { NUMBER($periodMonths) } mjasecow k dostaśeju, jolic { NUMBER($people) } luźi { NUMBER($clipsPerDay) } klipow na źeń nagrawa.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } góźina jo dojśpiwajobna
+        [two] { $totalHours } góźinje stej dojśpiwajobnej
+        [few] { $totalHours } góźina su dojśpiwajobne
+       *[other] { $totalHours } góźinow jo dojśpiwajobne
+    } za jano tšochu wěcej ako { NUMBER($periodMonths) ->
+        [one] { $periodMonths }  mjasec,
+        [two] { $periodMonths } mjaseca,
+        [few] { $periodMonths } mjasece,
+       *[other] { $periodMonths } mjasecow,
+    } jolic { NUMBER($people) ->
+        [one] { $people } wósoba nagrawa
+        [two] { $people } wósobje nagrawatej
+        [few] { $people } wósoby nagrawaju
+       *[other] { $people } wósobow nagrawa
+    }{ NUMBER($clipsPerDay) ->
+        [one]  { $clipsPerDay } klip
+        [two]  { $clipsPerDay } klipa
+        [few]  { $clipsPerDay } klipy
+       *[other]  { $clipsPerDay } klipow
+    } na dźeń.
 how-many-per-day = Wjelicnje! Wjele klipow na źeń?
 how-many-a-week = Wjelicnje! Wjele klipow na tyźeń?
 which-goal-type = Cośo powědaś, słuchaś abo wobej?
 receiving-emails-info = Sćo tuchylu aboněrował mejlki, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice
 not-receiving-emails-info = Jo se rowno nastajiło, až mejlki wěcej <bold>NJE</bold>dostanjośo, ako na pśikład celowe dopomnjeśa, póstupowe aktualizacije a powěsćowe listy wó Common Voice
-n-clips = { NUMBER($count) } klipow
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } klip
+        [two] { $count } klipa
+        [few] { $count } klipy
+       *[other] { $count } klipow
+    }
 help-share-goal = Źělśo swój cel, aby nam pomagał, wěcej głosow namakaś
 confirm-goal = Cel wobkšuśiś
 goal-interval-weekly = Kuždy tyźeń

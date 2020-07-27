@@ -11,7 +11,7 @@ loading = Учитавам…
 email-opt-in-info = Желео бих да примим е-поруке које садрже подсетнике о циљевима, ажурирања напретка и билтене о пројекту Common Voice.
 email-opt-in-info-title = Придружите се Common Voice групи за пошту
 email-opt-in-info-sub-with-challenge = Примајте е-пошту попут подсетника о изазовима и циљевима, актуелизовања напретка и Common Voice билтене.
-email-opt-in-privacy = Ако изаберете да примате е-поруке, изјављујете да прихватате да Mozilla управља овим подацима на начин објашњен у Mozilla-иној <privacyLink>политици приватности<privacyLink>.
+email-opt-in-privacy-v2 = Ако изаберете да примате е-поруке, изјављујете да прихватате да Mozilla управља овим подацима на начин објашњен у Mozilla-иној <privacyLink>политици приватности<privacyLink>.
 indicates-required = * Указује обавезно поље
 not-available-abbreviation = недоступно
 
@@ -509,6 +509,8 @@ data-bundle-button = Преузми запакован скуп података
 data-bundle-description = Common Voice подаци плус сви остали, горе наведени, скупови података
 license = Лиценца: <licenseLink>{ $license }</licenseLink>
 license-mixed = Помешано
+data-download-singleword-title = Преузмите циљни сегмент за једну реч
+data-download-singleword-callout = Ово је сегмент податка који је усмерен на случајеве употребе препознавања изговорених бројева, одговора да/не, те тестирање пробне речи за <fxLink>Firefox Voice</fxLink>.
 review-terms = Коришћењем Common Voice-а, слажете се са нашим  <termsLink>условима</termsLink> и  <privacyLink>политиком приватности</privacyLink>
 terms-agree = Слажем се
 terms-disagree = Не слажем се
@@ -629,7 +631,12 @@ contribute = Допринеси
 listen = Слушај
 skip = Прескочи
 shortcuts = Пречице
-clips-with-count = <bold>{ $count }</bold> исечака
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> исечак
+        [few] <bold>{ $count }</bold> исечка
+       *[other] <bold>{ $count }</bold> исечака
+    }
 goal-help-recording = Помогли сте Common Voice пројекту да достигне <goalPercentage></goalPercentage> од нашег дневног { $goalValue } циља за снимање!
 goal-help-validation = Помогли сте Common Voice-у да достигне <goalPercentage></goalPercentage> од нашег дневног { $goalValue } циља валидације!
 contribute-more =
@@ -751,6 +758,7 @@ show-ranking = Покажи мој ранг
 
 get-started-goals = Почните са одређеним циљевима
 create-custom-goal = Направите сопствени циљ
+goal-type = Који циљ желите да постигнете?
 both-speak-and-listen = Оба
 both-speak-and-listen-long = Оба (говори и слушај)
 daily-goal = Дневни циљ
@@ -764,13 +772,38 @@ want-to-continue = Да ли желите да наставите?
 finish-editing = Завршити уређивање прво?
 lose-changes-warning = Ако напустите сада изгубићете своје промене
 build-custom-goal = Направите прилагођени циљ
-help-reach-hours = Помози нам да достигнемо { NUMBER($hours) } сати у { $language } радећи на сопственим циљевима
-help-reach-hours-general = Поставите лични циљ како бисте помогли Common Voice-у да постигне { NUMBER($hours) } сати за језик
+help-reach-hours-pluralized =
+    Помозите да достигнемо{ NUMBER($hours) ->
+        [one] { $hours } сат
+        [few] { $hours } сата
+       *[other] { $hours } сати
+    }у { $language } радећи на сопственом циљу
+help-reach-hours-general-pluralized =
+    Помозите Common Voice-у да достигне{ NUMBER($hours) ->
+        [one] { $hours } сат
+        [few] { $hours } сата
+       *[other] { $hours } сати
+    }за језик с личним циљем
 set-a-goal = Поставите циљ
 cant-decide = Не можете се одлучити?
-activity-needed-calculation =
-    { NUMBER($totalHours) } сати је оствариво за нешто више од { NUMBER($periodMonths) }
-    месеци, ако { NUMBER($people) } људи сниме { NUMBER($clipsPerDay) } снимака дневно.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } сат
+        [few] { $totalHours } сата
+       *[other] { $totalHours } сати
+    }се може достигнути за нешто више од{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } месеца
+        [few] { $periodMonths } месеца
+       *[other] { $periodMonths } месеци
+    }ако{ NUMBER($people) ->
+        [one] { $people } човек
+        [few] { $people } човека
+       *[other] { $people } људи
+    }сними{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } исечак
+        [few] { $clipsPerDay } исечка
+       *[other] { $clipsPerDay } исечака
+    }сваког дана.
 how-many-per-day = Одлично! Колико снимака дневно?
 how-many-a-week = Одлично! Колико снимака недељно?
 which-goal-type = Да ли желите да говорите, слушајте или и једно и друго?
@@ -778,7 +811,12 @@ receiving-emails-info =
     Тренутно сте подесили примање е-порука као што су то подсетници о циљевима, 
     новости о сопственом напретку и билтени о Common Voice пројекту
 not-receiving-emails-info = Тренутно сте подесили да <bold>не примате</bold> е-поруке попут подсетника о циљевима, новости о напретку и билтене о Common Voice пројекту
-n-clips = { NUMBER($count) } снимака
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } исечак
+        [few] { $count } исечка
+       *[other] { $count } исечака
+    }
 help-share-goal = Помозите нам да нађемо више гласова, поделите свој циљ
 confirm-goal = Потврдите циљ
 goal-interval-weekly = Недељно

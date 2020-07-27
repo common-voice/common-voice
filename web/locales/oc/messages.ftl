@@ -11,7 +11,7 @@ loading = Cargament…
 email-opt-in-info = M’agradariá de recebre de messatges electronics coma de recòrds, ma progression e d’infoletras tocant Common Voice.
 email-opt-in-info-title = Rejonhètz l'infoletra Common Voice
 email-opt-in-info-sub-with-challenge = Recebètz de corrièls coma de desfisses e recòrds d’objectius, rapòrts d’avançament e infoletras tocant Common Voice.
-email-opt-in-privacy = En acceptar de recebre los corrièls, indicatz acceptar que Mozilla gerisca aquestas informacions segon la <privacyLink>politica de confidencialitat<privacyLink> de Mozilla.
+email-opt-in-privacy-v2 = En acceptar de recebre los corrièls, indicatz acceptar que Mozilla gerisca aquestas informacions segon la <privacyLink>politica de confidencialitat</privacyLink> de Mozilla.
 indicates-required = * indica un camp obligatòri
 not-available-abbreviation = Non disponible
 
@@ -485,10 +485,10 @@ sst-explanation = La reconeissença vocala (STT) convertís la votz en tèxt.
 de-identified = Anonimizar
 de-identified-explanation = Procès que permet que las informacions del perfil dels contributors sián pas ligadas a las mòstras de votz per la preparacion del jòc de donadas.
 
-## NotFound
+## Error pages
 
-notfound-title = Pas trobat
-notfound-content = Impossible de trobar çò que cercatz.
+error-title-404 = Vos avèm pas trobada aquesta pagina
+error-code = Error { $code }
 
 ## Data
 
@@ -507,6 +507,7 @@ data-bundle-button = Telecargar lo paquet del jòc de donadas
 data-bundle-description = Donadas de Common Voice e totes los jòcs de donadas çai-jos.
 license = Licéncia : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
+data-download-singleword-title = Telecargar lo segment cibla de mot unic
 review-terms = En utilizar Common Voice, acceptatz las <termsLink>Conditions d’utilizacion<privacyLink>Politica de confidencialitat</privacyLink>
 terms-agree = Accepti
 terms-disagree = Accepti pas
@@ -626,7 +627,11 @@ contribute = Contribuir
 listen = Escotar
 skip = Passar
 shortcuts = Acorchis
-clips-with-count = <bold>{ $count }</bold> mòstras
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> mòstra
+       *[other] <bold>{ $count }</bold> mòstras
+    }
 goal-help-recording = Gràcias a vos Common Voice a atengut <goalPercentage></goalPercentage> del seu objectiu quotidian de { $goalValue }{ $goalValue } enregistraments !
 goal-help-validation = Gràcias a vos Common Voice a atengut <goalPercentage></goalPercentage> del seu objectiu quotidian de { $goalValue }{ $goalValue } validacions !
 contribute-more = Prèst a ne far { $count } mai ?
@@ -740,6 +745,7 @@ show-ranking = Veire mon classament
 
 get-started-goals = Creatz vòstres objectius
 create-custom-goal = Crear un objectiu personalizat
+goal-type = Quina mena de tòca volètz construire ?
 both-speak-and-listen = Far los dos
 both-speak-and-listen-long = Los dos (parlar e escotar)
 daily-goal = Objectiu quotidian
@@ -753,17 +759,18 @@ want-to-continue = Volètz contunhar ?
 finish-editing = Volètz terminar las modificacions ?
 lose-changes-warning = Se sortissètz ara, perdretz vòstres cambiaments
 build-custom-goal = Crear un objectiu personalizat
-help-reach-hours = Ajudatz a arribar a { NUMBER($hours) } oras en { $language } amb un objectiu personal
-help-reach-hours-general = Ajudatz a arribar a { NUMBER($hours) } oras en una lenga amb un objectiu personal
 set-a-goal = Definir un objectiu
 cant-decide = Podètz pas decidir ?
-activity-needed-calculation = Se { NUMBER($people) } personas enregistran { NUMBER($clipsPerDay) } mòstras per jorn, se pòt arribar a { NUMBER($totalHours) } oras en un pauc mai de { NUMBER($periodMonths) } meses.
 how-many-per-day = Crane ! Quantas de mòstras per jorn ?
 how-many-a-week = Crane ! Quantas de mòstras per setmana ?
 which-goal-type = Volètz parlar, escotar, o los dos ?
 receiving-emails-info = Actualament avètz configurat per recebre de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
 not-receiving-emails-info = Actualament recebètz <bold>PAS</bold> de corrièls coma de recòrds d’objectius, de rapòrts de progression e las letras d’informacion de Common Voice.
-n-clips = { NUMBER($count) } mòstras
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } mòstra
+       *[other] { $count } mòstras
+    }
 help-share-goal = Ajudatz-nos a trobar mai de voses, partejatz vòstre objectiu
 confirm-goal = Confirmar l’objectiu
 goal-interval-weekly = Setmanièr

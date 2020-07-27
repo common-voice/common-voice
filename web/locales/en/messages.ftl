@@ -10,7 +10,7 @@ loading = Loading…
 email-opt-in-info = I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.
 email-opt-in-info-title = Join the Common Voice mailing list
 email-opt-in-info-sub-with-challenge = Receive emails such as challenge and goal reminders, progress updates, and newsletters about Common Voice.
-email-opt-in-privacy = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy<privacyLink>.
+email-opt-in-privacy-v2 = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy</privacyLink>.
 indicates-required = * Indicates required field
 not-available-abbreviation = N/A
 
@@ -334,7 +334,7 @@ email-subscriptions = Email Subscriptions
 download-profile = Download My Data
 contribution-experience = Contribution Experience
 skip-submission-feedback = Skip Submission Feedback
-skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit. Contribution will continue directly with the next set of 5 recordings or validations.
+skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
@@ -501,9 +501,12 @@ sst-explanation = Speech-to-text (STT) technologies convert voice data into text
 de-identified = De-identified
 de-identified-explanation = The process by which a contributor’s profile information is obscured from their donated voice clips when packaged for download as a part of the dataset.
 
-## NotFound
-notfound-title = Not found
-notfound-content = I’m afraid I don’t know what you’re looking for.
+## Error pages
+error-title-404 = We couldn’t find that page for you
+error-content-404 = Maybe our <homepageLink>homepage</homepageLink> will help? To ask a question, please join the <matrixLink>Matrix community chat</matrixLink>, monitor site issues via <githubLink>GitHub</githubLink> or visit <discourseLink>our Discourse forums</discourseLink>.
+error-title-503 = We’re experiencing unexpected downtime
+error-content-503 = The site will be back up as soon as possible. For the latest information, please join the <matrixLink>Matrix community chat</matrixLink> or visit <githubLink>GitHub</githubLink> or <discourseLink>our Discourse forums</discourseLink> to submit and monitor site experience issues.
+error-code = Error { $code }
 
 ## Data
 data-download-button = Download Common Voice Data
@@ -537,7 +540,7 @@ review-keep-recordings = Keep the recordings
 review-delete-recordings = Delete my recordings
 
 ## Datasets Page
-datasets-headline = We’re building an open-source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
+datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
 datasets-positioning =
     We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
 
@@ -638,7 +641,10 @@ contribute = Contribute
 listen = Listen
 skip = Skip
 shortcuts = Shortcuts
-clips-with-count = <bold>{ $count }</bold> Clips
+clips-with-count-pluralized = { $count -> 
+                    [one] <bold>{ $count }</bold> Clip
+                    *[other] <bold>{ $count }</bold> Clips
+}
 goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
 goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
 contribute-more =
@@ -750,6 +756,7 @@ show-ranking = Show my ranking
 ## Custom Goals
 get-started-goals = Get started with goals
 create-custom-goal = Create a Custom Goal
+goal-type = What kind of goal do you want to build?
 both-speak-and-listen = Both
 both-speak-and-listen-long = Both (Speak and Listen)
 daily-goal = Daily Goal
@@ -763,12 +770,29 @@ want-to-continue = Do you want to continue?
 finish-editing = Finish editing first?
 lose-changes-warning = Leaving now means you’ll lose your changes
 build-custom-goal = Build a custom goal
-help-reach-hours = Help reach { NUMBER($hours) } hours in { $language } with a personal goal
-help-reach-hours-general = Help Common Voice reach { NUMBER($hours) } hours in a language with a personal goal
+help-reach-hours-pluralized = Help reach { NUMBER($hours) ->
+[one] {$hours} hour
+*[other] {$hours} hours
+ } in { $language } with a personal goal
+help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) -> 
+  [one] {$hours} hour
+  *[other] {$hours} hours
+ } in a language with a personal goal
 set-a-goal = Set a goal
 cant-decide = Can't decide?
-activity-needed-calculation = { NUMBER($totalHours) } hours is achievable in just over { NUMBER($periodMonths) }
-        months if { NUMBER($people) } people record { NUMBER($clipsPerDay) } clips a day.
+activity-needed-calculation-plural = { NUMBER($totalHours) -> 
+  [one] {$totalHours} hour
+  *[other] {$totalHours} hours
+ } is achievable in just over { NUMBER($periodMonths) -> 
+  [one] {$periodMonths} month
+  *[other] {$periodMonths} months
+ } if { NUMBER($people) -> 
+  [one] {$people} person
+  *[other] {$people} people
+  } record { NUMBER($clipsPerDay) -> 
+  [one] {$clipsPerDay} clip 
+  *[other] {$clipsPerDay} clips 
+  } a day.
 how-many-per-day = Great! How many clips per day?
 how-many-a-week = Great! How many clips a week?
 which-goal-type = Do you want to Speak, Listen or both?
@@ -776,7 +800,10 @@ receiving-emails-info = You're currently set to receive emails such as goal remi
         progress updates and newsletters about Common Voice
 not-receiving-emails-info = You're currently set to <bold>NOT</bold> receive emails such as goal reminders, my
         progress updates and newsletters about Common Voice
-n-clips = { NUMBER($count) } clips
+n-clips-pluralized = { NUMBER($count) -> 
+              [one] {$count} clip
+              *[other] {$count} clips
+              }
 help-share-goal = Help us find more voices, share your goal
 confirm-goal = Confirm Goal
 goal-interval-weekly = Weekly
@@ -813,34 +840,3 @@ help-contribute = You can help build a diverse, open-source dataset by creating 
 login-company = Log In / Sign Up with { $company } email
 profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
 read-more-about = Read more on our About page
-
-## DemoLayout
-demo-get-started = Let's Get Started
-demo-welcome = Welcome to Common Voice
-demo-welcome-subheader = Interested in learning more and contributing to the project?
-
-## Demo Datasets
-demo-language-select-card-header = Common Voice is the world’s largest publicly available, multi-language voice dataset.
-demo-language-select-card-body = Thanks to contributions from over 259k people in over 50 languages, this data is being used to train speech-enabled applications to better respond to the human voice.
-card-button-next = Next
-card-button-back = Back
-demo-language-select-label = Browse Languages
-demo-eofy-header = 2019 End-of-Year Release
-demo-eofy-sub_header = Voice Dataset, Ready for Download
-demo-account = Account
-
-## Demo Account
-demo-account-card-header = Having an account is not required to contribute, though it is helpful. 
-demo-account-card-body = To the right we outline the benefits and clarify what information we make public. Use the links below to get started with a Common Voice account on your own device.
-demo-account-enter-email = 
-.label = Enter email to send a sign up link
-demo-account-sign-up = Send sign up link
-
-## Demo Contribute
-demo-contribute-card-header = Ready to add your voice or lend your ear?
-demo-contribute-card-body = Now that you know a little bit more about Common Voice, why not try it out? Click on the microphone icon to start reading sentences aloud. <br/><br/>If you prefer to review other people's voice contributions, click on the play icon. If the voice recording you hear matches the words written onscreen.
-demo-listen-subtitle = Ready to contribute?
-
-## Demo Dashboard
-demo-dashboard-card-header = Personal dashboards keep you up-to-date with individual and community progress.
-demo-dashboard-card-body = For every voice clip donated, and every audio clip validated, your account dashboards are updated to reflect your latest progress in each language you contribute to. Yes, you can contribute to more than one!<br/><br/> Use dashboards to track your stats, see how you're doing alongside others in the community, and set daily or weekly contribution goals.

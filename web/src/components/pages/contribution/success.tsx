@@ -13,6 +13,7 @@ import { LocaleLink, useLocale } from '../../locale-helpers';
 import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
 import { Button, LinkButton, TextButton } from '../../ui/ui';
 import { SET_COUNT } from './contribution';
+import { getTrackClass } from '../../../services/tracker';
 
 import './success.css';
 
@@ -121,7 +122,7 @@ function Success({
       <div className="counter done">
         <CheckIcon />
         <Localized
-          id="clips-with-count"
+          id="clips-with-count-pluralized"
           elems={{ bold: <b /> }}
           vars={{ count: SET_COUNT + '/' + SET_COUNT }}>
           <span className="text" />
@@ -148,7 +149,7 @@ function Success({
         !customGoal && (
           <div className="info-card">
             <Localized
-              id="help-reach-hours"
+              id="help-reach-hours-pluralized"
               vars={{ hours: 10000, language: getString(locale) }}>
               <p />
             </Localized>
@@ -163,7 +164,7 @@ function Success({
             <p />
           </Localized>
           <Localized id="login-signup">
-            <LinkButton rounded href="/login" />
+            <LinkButton rounded href="/login" className={getTrackClass('fs', `nudge-profile-on-succcess`)} />
           </Localized>
         </div>
       )}

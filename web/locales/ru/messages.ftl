@@ -11,7 +11,7 @@ loading = Загрузка…
 email-opt-in-info = Я хочу получать такие письма, как напоминания о целях, уведомления о достижениях и новости о Common Voice.
 email-opt-in-info-title = Присоединиться к рассылке Common Voice
 email-opt-in-info-sub-with-challenge = Получать такие письма, как челленджи, напоминания о целях, уведомления о достижениях и новости о Common Voice.
-email-opt-in-privacy = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
 
@@ -238,7 +238,7 @@ whats-public = Какие данные доступны всем?
 email-not-public = Мы не будем публиковать вашу электронную почту.
 recordings-and-locale-public = Количество сделанных вами записей и их языки будут публично доступны.
 username-optin-public = Вы можете сделать свое имя пользователя публичным или анонимным.
-demographic-deidentified-clarity = По желанию, представленные демографические данные (например возраст, пол, язык и акцент) никогда не будут сделаны публичными в вашем профиле и не будут связаны с вашей учётной записью в наборе данных. Отдельные аудиоклипы будут связаны с демографическими данными с целью более точного анализа - например исследователь может захотеть нацелить модель обучения на определённый демографический сегмент.
+demographic-deidentified-clarity = Представленные необязательные демографические данные (такие как возраст, пол, язык и акцент) никогда не будут сделаны публичными в вашем профиле и не будут связаны с вашим аккаунтом в наборе данных. Отдельные записи будут связаны с демографическими данными с целью более точного анализа - например, если исследователь захочет нацелить обучаемую модель на определённый демографический сегмент.
 username-email-not-demographic = Ваше имя пользователя и адрес электронной почты не будут связаны с опубликованными данными.
 
 ## Speak & Listen Shortcuts
@@ -378,7 +378,7 @@ faq-why-important-a =
     
     Чтобы сделать распознавание голоса ещё более универсальным, мы собираем образцы голоса на широко распространенных языках, а также образцы с меньшим количеством говорящих, которые часто недооцениваются коммерческими службами распознавания речи. Публикация разнообразных наборов голосов позволит разработчикам, предпринимателям и целым речевым сообществам самим устранить этот пробел.
 faq-how-get-q = Как я могу получить данные Common Voice?
-faq-how-get-a = Набор данных Common Voice доступен для загрузки по лицензии <licenseLink> CC0 </ licenseLink> на <datasetLink> нашей странице наборов данных </ datasetLink>. Вы также можете загрузить несколько других общедоступных наборов данных с той же страницы.
+faq-how-get-a = Набор данных Common Voice доступен для загрузки по лицензии <licenseLink>CC0</licenseLink> на <datasetLink>нашей странице наборов данных</datasetLink>. Вы также можете загрузить несколько других общедоступных наборов данных с той же страницы.
 faq-when-release2-q = Когда вы выпустите набор данных Common Voice на других языках?
 faq-when-release2-a = Мультиязычная версия набора данных Common Voice в настоящее время проходит объединение и валидацию при поддержке сообщества. Если вы хотите помочь нам перевести Common Voice на новые языки, перейдите на страницу <sentenceCollectorLink>инструмента для сбора предложений</sentenceCollectorLink> для добавления новых предложений в набор данных и Mozilla <pontoonLink>Pontoon</pontoonLink> для перевода самого веб-сайта. Новые языки добавляются в Common Voice, когда собирается 5000 утверждённых предложений.
 faq-why-mission-q = Почему Common Voice является частью миссии Mozilla?
@@ -483,10 +483,10 @@ sst-explanation = Технология Speech-to-text (STT) преобразов
 de-identified = Обезличенный
 de-identified-explanation = Процесс, с помощью которого информация профиля участника убирается из пожертвованных им голосовых записей, когда они упаковываются для загрузки, как часть набора данных.
 
-## NotFound
+## Error pages
 
-notfound-title = Страница не найдена
-notfound-content = Я боюсь, что не знаю, что вы ищете.
+error-title-404 = Мы не смогли найти эту страницу
+error-code = Код ошибки: { $code }
 
 ## Data
 
@@ -505,6 +505,7 @@ data-bundle-button = Загрузить пакет наборов данных
 data-bundle-description = Данные Common Voice плюс данные всех голосовых наборов данных ниже.
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Смешанная
+data-download-singleword-title = Загрузите целевой сегмент «Одно слово»
 review-terms = Используя Common Voice, вы соглашаетесь с нашими <termsLink>условиями использования</termsLink> и <privacyLink>политикой приватности</privacyLink>
 terms-agree = Я соглашаюсь
 terms-disagree = Я не соглашаюсь
@@ -625,7 +626,12 @@ contribute = Принять участие
 listen = Прослушать
 skip = Пропустить
 shortcuts = Сочетания клавиш
-clips-with-count = <bold>{ $count }</bold> Клипов
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> запись
+        [few] <bold>{ $count }</bold> записи
+       *[many] <bold>{ $count }</bold> записей
+    }
 goal-help-recording = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по записи в { $goalValue }!
 goal-help-validation = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по проверке в { $goalValue }!
 contribute-more =
@@ -760,13 +766,38 @@ want-to-continue = Вы хотите продолжить?
 finish-editing = Хотите сначала закончить редактирование?
 lose-changes-warning = Уход сейчас означает, что вы потеряете сделанные изменения
 build-custom-goal = Создать собственную цель
-help-reach-hours = Помогите достичь { NUMBER($hours) } часов на { $language } с помощью личной цели
-help-reach-hours-general = Помогите Common Voice достичь { NUMBER($hours) } часов на этом языке с помощью личной цели
+help-reach-hours-pluralized =
+    Помогите достичь{ NUMBER($hours) ->
+        [one] { $hours } час
+        [few] { $hours } часа
+       *[many] { $hours } часов
+    }на { $language } с помощью личной цели
+help-reach-hours-general-pluralized =
+    Помогите Common Voice достичь{ NUMBER($hours) ->
+        [one] { $hours } час
+        [few] { $hours } часа
+       *[many] { $hours } часов
+    }на этом языке с помощью личной цели
 set-a-goal = Поставить цель
 cant-decide = Не можете решиться?
-activity-needed-calculation =
-    { NUMBER($totalHours) } часов достижимо за { NUMBER($periodMonths) }
-    месяцев, если { NUMBER($people) } людей будут делать { NUMBER($clipsPerDay) } записей в день.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } час
+        [few] { $totalHours } часа
+       *[many] { $totalHours } часов
+    }достижимо за{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } месяц
+        [few] { $periodMonths } месяца
+       *[many] { $periodMonths } месяцев
+    }если{ NUMBER($people) ->
+        [one] { $people } человек
+        [few] { $people } человека
+       *[many] { $people } человек
+    }будут делать{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } запись
+        [few] { $clipsPerDay } записи
+       *[many] { $clipsPerDay } записей
+    }в день.
 how-many-per-day = Отлично! Сколько записей в день?
 how-many-a-week = Отлично! Сколько записей в неделю?
 which-goal-type = Вы хотите записывать, проверять или и то, и другое?
@@ -774,7 +805,12 @@ receiving-emails-info =
     Вы будете получать такие письма, как напоминания о целях, уведомления
     о своих достижениях и новости о Common Voice.
 not-receiving-emails-info = Вы <bold>НЕ</bold> будете получать такие письма, как напоминания о целях, уведомления о достижениях и новости о Common Voice.
-n-clips = { NUMBER($count) } записей
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } запись
+        [few] { $count } записи
+       *[many] { $count } записей
+    }
 help-share-goal = Помогите нам найти больше голосов, поделитесь своей целью
 confirm-goal = Подтвердить цель
 goal-interval-weekly = Каждую неделю

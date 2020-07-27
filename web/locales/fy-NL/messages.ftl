@@ -11,7 +11,7 @@ loading = Lade…
 email-opt-in-info = Ik wol graach e-mailberjochten lykas oantinkens oan doelstellingen, myn foartgong en nijsbrieven oer Common Voice ûntfange.
 email-opt-in-info-title = Meld jo oan foar de Common Voice-mailinglist
 email-opt-in-info-sub-with-challenge = Untfang e-mailberjochten lykas oantinkens oan útdagingen en doelstellingen, foartgong en nijsbrieven oer Common Voice.
-email-opt-in-privacy = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoart gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied<privacyLink>.
+email-opt-in-privacy-v2 = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoard gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied</privacyLink>.
 indicates-required = * jout fereaske fjild oan
 not-available-abbreviation = NB
 
@@ -491,10 +491,13 @@ sst-explanation = Spraak-nei-tekst (STT)-technologyen sette stimgegevens om nei 
 de-identified = Anonym makke
 de-identified-explanation = It proses wêrby de profylgegevens fan in dielnimmer skieden wurde fan donearre spraakfragminten wannear dizze as ûnderdiel fan de gegevensset ferpakt wurde foar downloaden.
 
-## NotFound
+## Error pages
 
-notfound-title = Net fûn
-notfound-content = It is ús spitigernôch net dúdlik wat jo sykje.
+error-title-404 = Wy kinne dizze side net foar jo fine
+error-content-404 = Miskien helpt ús <homepageLink>startside</homepageLink>? As jo in fraach stelle wolle, kinne jo lid wurde fan de <matrixLink>Matrix-mienskip-chat</matrixLink>, siteproblemen folgje fia <githubLink>GitHub</githubLink> of besykje <discourseLink>ús Discourse-foarums</discourseLink>.
+error-title-503 = Wy ûnderfine op dit stuit in ûnferwachte ûnderbrekking
+error-content-503 = De site sil sa gau as mooglik wersteld wurde. Nim foar de meast resinte ynformaasje diel oan de <matrixLink>Matrix-mienskip-chat</matrixLink> of besykje <githubLink>GitHub</githubLink> of <discourseLink>ús Discourse-foarums</discourseLink> om problemen mei de website te melden en te folgjen.
+error-code = Flater { $code }
 
 ## Data
 
@@ -635,7 +638,11 @@ contribute = Meiwurkje
 listen = Harkje
 skip = Oerslaan
 shortcuts = Fluchkeppelingen
-clips-with-count = <bold>{ $count }</bold> fragminten
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> fragmint
+       *[other] <bold>{ $count }</bold> fragminten
+    }
 goal-help-recording = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } doel te beheljen!
 goal-help-validation = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } falidaasje te beheljen!
 contribute-more = Klear om der noch { $count } te dwaan?
@@ -749,6 +756,7 @@ show-ranking = Myn ranglist toane
 
 get-started-goals = Begjinne mei doelstellingen
 create-custom-goal = In oanpaste doelstelling meitsje
+goal-type = Hokker doel wolle jo bouwe?
 both-speak-and-listen = Beide
 both-speak-and-listen-long = Beide (sprekke en harkje)
 daily-goal = Deistige doel
@@ -762,11 +770,32 @@ want-to-continue = Wolle jo trochgean?
 finish-editing = Earst bewurking foltôgje?
 lose-changes-warning = Troch no ôf te sluten ferlieze jo jo wizigingen
 build-custom-goal = In oanpast doel bouwe
-help-reach-hours = Help mei { NUMBER($hours) } oer yn it { $language } te berikjen mei in persoanlike doelstelling
-help-reach-hours-general = Help mei in persoanlike doelstelling Common Voice { NUMBER($hours) } oer yn in taal te berikjen
+help-reach-hours-pluralized =
+    Help mei{ NUMBER($hours) ->
+        [one] { $hours } oer
+       *[other] { $hours } oer
+    }yn it { $language } te berikken mei in persoanlike doelstelling
+help-reach-hours-general-pluralized =
+    Help Common Voice{ NUMBER($hours) ->
+        [one] { $hours } oer
+       *[other] { $hours } oer
+    }yn in taal te berikken mei in persoanlike doelstelling
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
-activity-needed-calculation = { NUMBER($totalHours) } is berikber yn wat mear as { NUMBER($periodMonths) } moannen as { NUMBER($people) } persoanen { NUMBER($clipsPerDay) } fragminten op in dei opnimme.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } oer
+       *[other] { $totalHours } oer
+    }is berikber yn wat mear as{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } moanne
+       *[other] { $periodMonths } moannen
+    }as{ NUMBER($people) ->
+        [one] { $people } persoan
+       *[other] { $people } persoanen
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } fragmint
+       *[other] { $clipsPerDay } fragminten
+    }op in dei opnimme
 how-many-per-day = Bjusterbaarlik! Hoefolle fragminten op in dei?
 how-many-a-week = Bjusterbaarlik! Hoefolle fragminten yn 'e wike?
 which-goal-type = Wolle jo sprekke, harkje of beide?
@@ -776,7 +805,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Der is op dit stuit ynsteld dat jo <bold>GJIN</bold> e-mailberjochten lykas omtinken oan doelen,
     fernijingen oer jo fuortgong en nijsbrieven oer Common Voice ûntfange
-n-clips = { NUMBER($count) } fragminten
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } fragmint
+       *[other] { $count } fragminten
+    }
 help-share-goal = Help ús mear stimmen te finen, diel jo doel
 confirm-goal = Doel befêstigje
 goal-interval-weekly = Wykliks

@@ -61,6 +61,7 @@ const AccountModal = (props: ModalProps) => {
         <LinkButton
           rounded
           href="/login"
+          className={getTrackClass('fs', `nudge-profile-modal`)}
           onClick={() => {
             sessionStorage.setItem('redirectURL', location.pathname);
             trackProfile('contribution-conversion-modal', locale);
@@ -373,7 +374,7 @@ class ContributionPage extends React.Component<Props, State> {
               <div className={'counter ' + (isSubmitted ? 'done' : '')}>
                 {isSubmitted && <CheckIcon />}
                 <Localized
-                  id="clips-with-count"
+                  id="clips-with-count-pluralized"
                   elems={{ bold: <b /> }}
                   vars={{ count: this.renderClipCount() }}>
                   <span className="text" />
@@ -490,7 +491,7 @@ class ContributionPage extends React.Component<Props, State> {
                   {!errorContent && (
                     <div className="counter">
                       <Localized
-                        id="clips-with-count"
+                        id="clips-with-count-pluralized"
                         elems={{ bold: <b /> }}
                         vars={{ count: this.renderClipCount() }}>
                         <span className="text" />

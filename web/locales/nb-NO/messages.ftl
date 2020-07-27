@@ -2,7 +2,7 @@
 
 yes-receive-emails = Ja, send meg e-post slik at jeg kan holde meg oppdatert om prosjektet Common Voice.
 stayintouch = Vi i Mozilla bygger et samfunn rundt taleteknologi. Vi vil gjerne holde deg oppdatert på endringer, nye datakilder og høre mer om hvordan du bruker disse dataene.
-privacy-info = Vi lover å håndtere informasjonen din omsorgsfullt. Les mer i vår <privacyLink>Personvernnotis</privacyLink>.
+privacy-info = Vi lover å håndtere informasjonen din på en trygg måte. Les mer i vår <privacyLink>personvernerklæring</privacyLink>.
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
@@ -11,7 +11,7 @@ loading = Laster…
 email-opt-in-info = Jeg vil gjerne motta e-post med påminnelser, oppdateringer om fremgang og nyheter om Common Voice.
 email-opt-in-info-title = Abonner på Common Voice-e-postlisten
 email-opt-in-info-sub-with-challenge = Motta e-post om utfordrings- og målpåminnelser, oppdateringer om progresjon og nyhetsbrev om Common Voice.
-email-opt-in-privacy = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink> personvernerklæring.
+email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 indicates-required = * Indikerer obligatorisk felt
 not-available-abbreviation = ikke tilgjengelig
 
@@ -325,7 +325,7 @@ profile-explanation = Hold rede på fremgangen din med en profil og hjelp oss me
 thanks-for-account = Takk for at du bekreftet kontoen din. La oss lage en profil til deg.
 why-demographic = Hvorfor er dette viktig?
 why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og e-postadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
-accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>Privacy Policy</privacyLink>.
+accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 accept-privacy-title = Personvernbestemmelser
 login-identity = Innloggingsidentitet
 login-signup = Logg inn / registrer deg
@@ -475,10 +475,13 @@ sst-explanation = Tale-til-tekst-teknologi konverterer taledata til tekst.
 de-identified = Avidentifisert
 de-identified-explanation = Prosessen der en bidragsyteres profilinformasjon blir frikoblet fra de bidratte stemmeklippene når de pakkes for nedlasting som en del av datasettet.
 
-## NotFound
+## Error pages
 
-notfound-title = Ikke funnet
-notfound-content = Jeg er redd for at jeg ikke forstår hva du ser etter.
+error-title-404 = Vi fant ikke siden for deg
+error-content-404 = Kanskje vil <homepageLink>startsiden</homepageLink> hjelpe? For å stille et spørsmål, kan du bli med på <matrixLink>Matrix felleskapsprat</matrixLink> eller besøke <githubLink>GitHub</githubLink> eller <discourseLink>våre Discourse-forum</discourseLink>.
+error-title-503 = Vi opplever uventet driftsstans
+error-content-503 = Siden vil være tilbake så snart som mulig. For den siste informasjonen, bli med på <matrixLink>Matrix felleskapsprat</matrixLink> eller besøk <githubLink>GitHub</githubLink> eller <discourseLink>våre Discourse-forum</discourseLink> for å sende inn og overvåke problemer med nettstedet.
+error-code = Feil { $code }
 
 ## Data
 
@@ -499,7 +502,7 @@ license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 data-download-singleword-title = Last ned målsegmentet for ett ord
 data-download-singleword-callout = Dette er et brukstilfelle-drevet segment som inneholder data for å styrke gjenkjennelse av talte siffer, ja/nei-gjenkjennelse og oppvåkningsord-testdata for <fxLink>Firefox Voice</fxLink>.
-review-terms = Ved å bruke Common Voice, godkjenner du <termlink>vilkårene</termlink> og <privacyLink>personvernbestemmelsen</privacyLink> vår
+review-terms = Ved å bruke Common Voice, godkjenner du <termlink>vilkårene</termlink> og <privacyLink>personvernerklæringen</privacyLink> vår
 terms-agree = Jeg godtar
 terms-disagree = Jeg godtar ikke
 review-aborted = Opplasting avbrutt. Vil du slette innspillingene dine?
@@ -619,7 +622,11 @@ contribute = Bidra
 listen = Lytt
 skip = Hopp over
 shortcuts = Snarveier
-clips-with-count = <bold>{ $count }</bold> Lydklipp
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> lydklipp
+       *[other] <bold>{ $count }</bold> lydklipp
+    }
 goal-help-recording = Du har hjulpet Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglige opptaksmål på { $goalValue }!
 goal-help-validation = Du har hjulpet Common Voice med å nå <goalPercentage></goalPercentage> av vårt daglige bekreftelsesmål på { $goalValue }!
 contribute-more =
@@ -737,6 +744,7 @@ show-ranking = Vis min rangering
 
 get-started-goals = Kom i gang med mål
 create-custom-goal = Lag et tilpasset mål
+goal-type = Hva slags mål vil du bygge?
 both-speak-and-listen = Begge to
 both-speak-and-listen-long = Begge to (Snakke og Lytte)
 daily-goal = Daglig mål
@@ -750,13 +758,32 @@ want-to-continue = Ønsker du å fortsette?
 finish-editing = Vil du fullføre redigeringen først?
 lose-changes-warning = Å avslutte nå betyr at du mister endringene dine
 build-custom-goal = Lag et tilpasset mål
-help-reach-hours = Hjelp til med å nå { NUMBER($hours) } timer på { $language } med et personlig mål
-help-reach-hours-general = Hjelp Common Voice med å nå { NUMBER($hours) } timer på et språk med et personlig mål
+help-reach-hours-pluralized =
+    Hjelp til med å nå{ NUMBER($hours) ->
+        [one] { $hours } time
+       *[other] { $hours } timer
+    } på { $language } med et personlig mål
+help-reach-hours-general-pluralized =
+    Hjelp Common Voice med å nå{ NUMBER($hours) ->
+        [one] { $hours } time
+       *[other] { $hours } timer
+    } på et språk med et personlig mål
 set-a-goal = Sett et mål
 cant-decide = Klarer du ikke å velge?
-activity-needed-calculation =
-    { NUMBER($totalHours) } timer er oppnåelig på drøyt { NUMBER($periodMonths) }
-    måneder hvis { NUMBER($people) } folk registrerer { NUMBER($clipsPerDay) } klipp om dagen.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } time
+       *[other] { $totalHours } timer
+    }er oppnåelig på drøyt{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } måned
+       *[other] { $periodMonths } måneder
+    }hvis{ NUMBER($people) ->
+        [one] { $people } person
+       *[other] { $people } personer
+    }registrerer{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } lydklipp
+       *[other] { $clipsPerDay } lydklipp
+    }om dagen.
 how-many-per-day = Flott! Hvor mange klipp per dag?
 how-many-a-week = Flott! Hvor mange klipp i uken?
 which-goal-type = Vil du snakke, lytte eller begge deler?
@@ -766,7 +793,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Du er for øyeblikket satt til å <bold>IKKE</bold> motta e-poster som målpåminnelser, personlige
     fremdriftsoppdateringer og nyhetsbrev om Common Voice
-n-clips = { NUMBER($count) } klipp
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } lydklipp
+       *[other] { $count } lydklipp
+    }
 help-share-goal = Hjelp oss med å finne flere stemmer, del dine mål
 confirm-goal = Bekreft Mål
 goal-interval-weekly = Ukentlig

@@ -11,7 +11,7 @@ loading = Nalaganje …
 email-opt-in-info = Želim prejemati e-poštna sporočila, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
 email-opt-in-info-title = Pridružite se e-poštnemu seznamu Common Voice
 email-opt-in-info-sub-with-challenge = Prejemajte e-poštna sporočila, kot so opomniki na izzive in cilje, posodobitve napredka in novice projekta Common Voice.
-email-opt-in-privacy = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti<privacyLink>.
+email-opt-in-privacy-v2 = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>.
 indicates-required = * Zahtevano polje
 not-available-abbreviation = Ni na voljo
 
@@ -475,10 +475,10 @@ sst-explanation = Tehnologija govora v besedilo (STT), pretvarja glasovne podatk
 de-identified = Prikrivanje
 de-identified-explanation = Postopek, s katerim so podatki o profilu avtorja prikriti iz njegovih poslanih glasovnih posnetkov, ko so ti pripravljeni za prenos kot del nabora podatkov.
 
-## NotFound
+## Error pages
 
-notfound-title = Ni zadetkov
-notfound-content = Na žalost tega, kar iščete, ne najdemo.
+error-content-404 = Morda vam lahko pomaga naša <homepageLink>domača stran</homepageLink>? Če želite postaviti vprašanje, se pridružite <matrixLink>klepetu skupnosti na Matrixu</matrixLink>, spremljajte težave na <githubLink>GitHubu</githubLink> ali obiščite <discourseLink>naš forum Discourse</discourseLink>.
+error-code = Napaka { $code }
 
 ## Data
 
@@ -497,6 +497,7 @@ data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešana
+data-download-singleword-title = Prenesite enobesedni ciljni segment
 review-terms = Z uporabo Common Voice se strinjate z našimi <termsLink>pogoji</termsLink> in z <privacyLink>obvestilom o zasebnosti</privacyLink>
 terms-agree = Strinjam se
 terms-disagree = Ne strinjam se
@@ -617,7 +618,13 @@ contribute = Prispevaj
 listen = Poslušaj
 skip = Preskoči
 shortcuts = Bližnjice
-clips-with-count = <bold>{ $count }</bold> posnetkov
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> posnetek
+        [two] <bold>{ $count }</bold> posnetka
+        [few] <bold>{ $count }</bold> posnetki
+       *[other] <bold>{ $count }</bold> posnetkov
+    }
 goal-help-recording = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od našega dnevnega cilja, ki znaša { $goalValue } posnetkov.
 goal-help-validation = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od našega dnevnega cilja, ki znaša { $goalValue } preverjenih posnetkov.
 contribute-more =
@@ -743,6 +750,7 @@ show-ranking = Pokaži mojo uvrstitev
 
 get-started-goals = Začnite s cilji
 create-custom-goal = Ustvari cilj po meri
+goal-type = Kakšen cilj želite ustvariti?
 both-speak-and-listen = Oboje
 both-speak-and-listen-long = Oboje (govori in poslušaj)
 daily-goal = Dnevni cilj
@@ -756,11 +764,22 @@ want-to-continue = Želite nadaljevati?
 finish-editing = Želite najprej dokončati urejanje?
 lose-changes-warning = Če zapustite zdaj, boste izgubili spremembe
 build-custom-goal = Sestavite cilj po meri
-help-reach-hours = Pomagajte doseči { NUMBER($hours) } ur v jeziku { $language } z osebnim ciljem
-help-reach-hours-general = Pomagajte projektu Common Voice doseči { NUMBER($hours) } ur v jeziku z osebnim ciljem
+help-reach-hours-pluralized =
+    Pomagajte doseči { NUMBER($hours) ->
+        [one] { $hours } uro
+        [two] { $hours } uri
+        [few] { $hours } ure
+       *[other] { $hours } ur
+    } v jeziku { $language } z osebnim ciljem
+help-reach-hours-general-pluralized =
+    Pomagajte projektu Common Voice doseči { NUMBER($hours) ->
+        [one] { $hours } uro
+        [two] { $hours } uri
+        [few] { $hours } ure
+       *[other] { $hours } ur
+    } v jeziku z osebnim ciljem
 set-a-goal = Zastavite cilj
 cant-decide = Se ne morete odločiti?
-activity-needed-calculation = { NUMBER($totalHours) } ur je dosegljivih v nekaj več kot { NUMBER($periodMonths) } mesecih, če { NUMBER($people) } ljudi posname { NUMBER($clipsPerDay) } posnetkov na dan.
 how-many-per-day = Odlično! Koliko posnetkov na dan?
 how-many-a-week = Odlično! Koliko posnetkov na teden?
 which-goal-type = Želite govoriti, poslušati ali oboje?
@@ -768,7 +787,13 @@ receiving-emails-info =
     Trenutno prejemate e-poštna sporočila, kot so opomniki za cilje, 
     posodobitve napredka in novice projekta Common Voice
 not-receiving-emails-info = Trenutno <bold>NE</bold> prejemate e-poštnih sporočil, kot so opomniki za cilje, posodobitve napredka in novice projekta Common Voice.
-n-clips = { NUMBER($count) } posnetkov
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } posnetek
+        [two] { $count } posnetka
+        [few] { $count } posnetki
+       *[other] { $count } posnetkov
+    }
 help-share-goal = Pomagajte nam najti več glasov, delite svoj cilj
 confirm-goal = Potrdi cilj
 goal-interval-weekly = Tedensko

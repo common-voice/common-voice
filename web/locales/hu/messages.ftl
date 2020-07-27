@@ -11,7 +11,7 @@ loading = Betöltés…
 email-opt-in-info = Szeretnék e-maileket kapni, köztük cél emlékeztetőket, előrehaladási híreket és a Common Voice hírlevelét.
 email-opt-in-info-title = Csatlakozzon a Common Voice levelezőlistához
 email-opt-in-info-sub-with-challenge = Kapjon e-maileket, köztük kihívásokat, cél emlékeztetőket, előrehaladási híreket és a Common Voice hírlevelét.
-email-opt-in-privacy = Azzal hogy az e-mailek fogadását kéri, kijelenti hogy beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben<privacyLink> leírt módon kezelje ezeket az adatokat.
+email-opt-in-privacy-v2 = Azzal, hogy az e-mailek fogadását kéri, beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben</privacyLink> leírt módon kezelje ezeket az adatokat.
 indicates-required = * Kötelező mezőt jelez
 not-available-abbreviation = Nincs
 
@@ -484,10 +484,13 @@ sst-explanation = A beszédből szöveggé alakítási (STT) technológiák szö
 de-identified = Azonosítás visszavonva
 de-identified-explanation = Az a folyamat, amellyel a közreműködő profilinformációi elrejtésre kerülnek a felajánlott hangklipekben, ha az adatkészlet részeként letöltésre kerülnek.
 
-## NotFound
+## Error pages
 
-notfound-title = Nem található
-notfound-content = Attól tartok, nem tudom mit keres.
+error-title-404 = Nem találtuk az Ön oldalát
+error-content-404 = Talán a <homepageLink>kezdőlapunk</homepageLink> segít. Ha kérdést szeretne feltenni, csatlakozzon a <matrixLink>Matrix közösségi csevegéshez</matrixLink>, figyelje a webhely problémáit a <githubLink>GitHubon</githubLink>, vagy látogassa meg <discourseLink>a Discourse fórumunkat</discourseLink>.
+error-title-503 = Váratlan leállásokat tapasztalunk
+error-content-503 = Az oldal a lehető leghamarabb újra üzemelni fog. A legfrissebb információkért csatlakozzon a <matrixLink>Matrix közösségi csevegéshez</matrixLink>, vagy látogassa meg a <githubLink>GitHubot</githubLink> vagy a <discourseLink>Discourse fórumunkat</discourseLink>, hogy elküldje és figyelje a webhellyel kapcsolatos problémákat.
+error-code = Hibakód: { $code }
 
 ## Data
 
@@ -506,6 +509,8 @@ data-bundle-button = Adatkészletcsomag letöltése
 data-bundle-description = Common Voice adatok plusz az összes fenti adatkészlet.
 license = Licenc: <licenseLink>{ $license }</licenseLink>
 license-mixed = Vegyes
+data-download-singleword-title = Töltse le az egyszavas célszegmenst
+data-download-singleword-callout = Ez egy konkrét használati esetet célzó szegmens, mely kiejtett számok felismeréséhez, igen / nem észleléshez és hívószó-teszteléshez alkalmas adatokat tartalmaz a <fxLink>Firefox Voice</fxLink> számára.
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
@@ -626,7 +631,11 @@ contribute = Közreműködés
 listen = Figyeljen
 skip = Kihagyás
 shortcuts = Gyorsbillentyűk
-clips-with-count = <bold>{ $count }</bold> kllip
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> klip
+       *[other] <bold>{ $count }</bold> klip
+    }
 goal-help-recording = Segítettél a Common Voice-nak elérni a napi rögzítési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 goal-help-validation = Segítettél a Common Voice-nak elérni a napi ellenőrzési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
@@ -740,6 +749,7 @@ show-ranking = Saját rangsor megjelenítése
 
 get-started-goals = Kezdje el a célok használatát
 create-custom-goal = Egyéni cél létrehozása
+goal-type = Milyen célra vágyik?
 both-speak-and-listen = Mindkettő
 both-speak-and-listen-long = Mindkettő (Beszéd és figyelés)
 daily-goal = Napi cél
@@ -753,13 +763,32 @@ want-to-continue = Biztos, hogy folytatja?
 finish-editing = Előbb befejezi a szerkesztést?
 lose-changes-warning = A lap elhagyása azt jelenti, hogy elveszíti a változásokat
 build-custom-goal = Egyéni cél létrehozása
-help-reach-hours = Segítsen elérni a(z) { NUMBER($hours) } órát { $language } nyelven egy személyes céllal
-help-reach-hours-general = Segítsen a Common Voice-nak elérnie a(z) { NUMBER($hours) } órát egy személyes céllal rendelkező nyelven
+help-reach-hours-pluralized =
+    Segítsen elérni a(z) { NUMBER($hours) ->
+        [one] { $hours } órát
+       *[other] { $hours } órát
+    } { $language } nyelven egy személyes céllal
+help-reach-hours-general-pluralized =
+    Segítsen a Common Voice-nak elérni a(z) { NUMBER($hours) ->
+        [one] { $hours } órát
+       *[other] { $hours } órát
+    } egy nyelven egy személyes céllal!
 set-a-goal = Cél kitűzése
 cant-decide = Nem tud dönteni?
-activity-needed-calculation =
-    { NUMBER($totalHours) } óra akár { NUMBER($periodMonths) } hónap alatt is elérhető,
-    ha { NUMBER($people) } ember napi { NUMBER($clipsPerDay) } klipet rögzít.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } óra
+       *[other] { $totalHours } óra
+    } akár { NUMBER($periodMonths) ->
+        [one] { $periodMonths } hónap
+       *[other] { $periodMonths } hónap
+    } alatt is elérhető, ha { NUMBER($people) ->
+        [one] { $people } ember
+       *[other] { $people } ember
+    } napi { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } klipet
+       *[other] { $clipsPerDay } klipet
+    } vesz fel.
 how-many-per-day = Nagyszerű! Naponta hány klipet?
 how-many-a-week = Nagyszerű! Hetente hány klipet?
 which-goal-type = Beszélni, figyelni vagy mindkettőt szeretne?
@@ -769,7 +798,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Jelenleg úgy van beállítva, hogy <bold>NEM</bold> kap e-mailt cél emlékeztetőkkel,
     előrehaladási hírekkel és a Common Voice hírlevéllel
-n-clips = { NUMBER($count) } klip
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } klip
+       *[other] { $count } klip
+    }
 help-share-goal = Segítsen még több hangot találni, ossza meg a célját
 confirm-goal = Cél megerősítése
 goal-interval-weekly = Hetente

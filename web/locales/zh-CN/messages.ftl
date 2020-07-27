@@ -11,7 +11,7 @@ loading = 加载中…
 email-opt-in-info = 我希望收到诸如目标提醒、我的进度更新与 Common Voice 的相关新闻通讯。
 email-opt-in-info-title = 加入 Common Voice 邮件列表
 email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进度更新与 Common Voice 的相关新闻通讯。
-email-opt-in-privacy = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
+email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
 
@@ -472,10 +472,13 @@ sst-explanation = 语音转文字（STT）技术将语音数据转换为文字�
 de-identified = 去识别化
 de-identified-explanation = 在打包下载数据集时，贡献者的个人信息会从其所贡献的语音片段隐藏的过程。
 
-## NotFound
+## Error pages
 
-notfound-title = 未找到
-notfound-content = 很抱歉，找不到您想找的东西。
+error-title-404 = 我们找不到你要查看的页面
+error-content-404 = 也许回到我们的<homepageLink>主页</homepageLink>会有所帮助？若要询问问题，可以加入<matrixLink>Matrix 社区聊天频道</matrixLink>、关注 <githubLink>GitHub</githubLink> 上的网站问题反馈，或到<discourseLink>我们的 Discourse 论坛</discourseLink>让我们知道。
+error-title-503 = 发生了意外的宕机
+error-content-503 = 网站将尽快恢复正常。请到我们的 <matrixLink>Matrix 社区聊天频道</matrixLink>、<githubLink>GitHub</githubLink> 上的网站问题反馈，或到 <discourseLink>Discourse 论坛</discourseLink>向我们反馈，获取最新信息。
+error-code = { $code } 错误
 
 ## Data
 
@@ -616,7 +619,11 @@ contribute = 参与贡献
 listen = 聆听
 skip = 跳过
 shortcuts = 快捷方式
-clips-with-count = <bold>{ $count }</bold> 个片段
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> 个片段
+       *[other] <bold>{ $count }</bold> 个片段
+    }
 goal-help-recording = 您已帮助 Common Voice 达成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 录音目标！
 goal-help-validation = 您已帮助 Common Voice 达成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 验证目标！
 contribute-more = 准备好再来 { $count } 条了吗？
@@ -727,6 +734,7 @@ show-ranking = 显示我的排名
 
 get-started-goals = 从设定目标开始
 create-custom-goal = 创建自定义目标
+goal-type = 您想要达到怎样的目标？
 both-speak-and-listen = 两者
 both-speak-and-listen-long = 两者（说与听）
 daily-goal = 每日目标
@@ -740,17 +748,36 @@ want-to-continue = 是否继续？
 finish-editing = 要先完成编辑吗？
 lose-changes-warning = 若现在离开，将丢失所有更改
 build-custom-goal = 建立自定义目标
-help-reach-hours = 设定个人目标，助力 { $language } 的片段达到 { NUMBER($hours) } 小时
-help-reach-hours-general = 设定个人目标，助力 Common Voice 的片段达到 { NUMBER($hours) } 小时
+help-reach-hours-pluralized =
+    助力{ $language }的片段达到{ NUMBER($hours) ->
+       *[other] { $hours } 小时
+    }的个人目标
+help-reach-hours-general-pluralized =
+    助力 Common Voice 的任一语言达到{ NUMBER($hours) ->
+       *[other] { $hours } 小时
+    }的个人目标
 set-a-goal = 设定目标
 cant-decide = 无法决定？
-activity-needed-calculation = 若有 { NUMBER($people) } 人每天录制 { NUMBER($clipsPerDay) } 片段，就可在 { NUMBER($periodMonths) } 个月后达到 { NUMBER($totalHours) } 小时的目標。
+activity-needed-calculation-plural =
+    若有 { NUMBER($people) ->
+       *[other] { $people } 个人
+    }每天录下 { NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } 个片段
+    }，就可以在 { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } 个月
+    }内达成{ NUMBER($totalHours) ->
+       *[other] { $totalHours } 小时
+    }录音片段的目标。
 how-many-per-day = 好的，每天要贡献几个片段？
 how-many-a-week = 好的，每周要贡献几个片段？
 which-goal-type = 想要录音、聆听确认，还是两者都要？
 receiving-emails-info = 您当前已设为接收目标提醒、我的进度更新、Common Voice 新闻通讯等邮件
 not-receiving-emails-info = 您当前已设为<bold>拒绝</bold>接收诸如目标提醒、我的进度更新与 Common Voice 的相关新闻通讯。
-n-clips = { NUMBER($count) } 个片段
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } 个片段
+       *[other] { $count } 个片段
+    }
 help-share-goal = 帮助我们找到更多人献声，分享您的目标
 confirm-goal = 确认目标
 goal-interval-weekly = 每周

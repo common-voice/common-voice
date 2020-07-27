@@ -3,8 +3,8 @@ import { config, S3 } from 'aws-sdk';
 
 const awsDefaults = {
   signatureVersion: 'v4',
-  useDualstack: true,
-};
+  useDualstack: true
+}
 
 if (process.env.HTTP_PROXY) {
   // Currently have no TS typings for proxy-agent, so have to use plain require().

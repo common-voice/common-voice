@@ -11,7 +11,6 @@ loading = 載入中…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
 email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
-email-opt-in-privacy = 如果你同意接收電郵，就代表你同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方法嚟處理呢啲資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
 
@@ -173,24 +172,24 @@ logout = 登出
 home-title = Common Voice 計劃係由 Mozilla 發起嘅，用嚟幫機械學識好似真人咁發聲。
 home-cta = 喺呢度貢獻你嘅聲音！
 wall-of-text-start = 語音係自然、有人性嘅。所以我哋非常希望為機器建造可用嘅語音技術，但建造語音系統需要非常大量嘅語音數據。
-wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
+wall-of-text-more-mobile = 大部分現成嘅數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立咗等每個人都可以嚟自由建造語音識別嘅 Common Voice 計劃。
 wall-of-text-more-desktop =
     現在您可以將自己的聲音捐畀我哋，以幫助打造開放源碼的語音資料庫，讓任何人都可以為裝置和互聯網打造嶄新的應用程式。<lineBreak></lineBreak>
     只要朗讀一段文字，您就可以幫助機器了解我哋點樣講嘢。您亦可以驗證其他貢獻者的聲音，以協助改善品質。就係咁簡單！
 wall-of-text-first = 語音係一種好自然、富有人性嘅事物。我哋希望建立一套畀機器用到嘅語音技術。但建立呢一個語音系統嘅過程，需要超多嘅語音數據。
-wall-of-text-second = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
+wall-of-text-second = 大部分現成嘅數據由大公司擁有，並未開放畀大眾使用。我哋覺得噉樣會阻礙創新，所以創立咗畀每個人都可以嚟自由建造語音識別嘅 Common Voice 計劃。
 show-wall-of-text = 瞭解更多
 help-us-title = 請幫我哋驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？
 no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一啲聲音。
 vote-yes = Yes
 vote-no = No
-toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
+toggle-play-tooltip = 撳 { shortcut-play-toggle } 即可切換播放模式
 speak-subtitle = 捐出你嘅聲音
-speak-paragraph = 錄音係我哋建立開放數據集時不可否缺的一部分，亦係好多人覺得最好玩的一部分！
+speak-paragraph = 錄音係我哋建立開放數據集個陣不可或缺嘅一部分，亦都係好多人覺得最好玩嘅一部分！
 speak-goal-text = 段新錄音
 listen-subtitle = 幫我哋驗證錄音
-listen-paragraph = 驗證他人錄下的錄音片段，對 Common Voice 的使命也非常重要。只要聽一聽，便能幫助我們打造高品質、開放源碼的語音數據。
+listen-paragraph = 驗證人哋錄低嘅錄音片段，對 Common Voice 嘅使命都非常重要。只要聽一下，就可以幫我哋打造高品質、開放源碼嘅語音數據集。
 listen-goal-text = 段錄音成功被驗證
 hours-recorded = 個小時的錄音
 hours-validated = 個小時已被驗證的錄音
@@ -222,10 +221,10 @@ email-subscription-title-new = 留低你嘅電郵，收取 Common Voice 電子�
 
 benefits = 益處
 rich-data = 提供一啲人口統計資料，可令你提交嘅數據更加豐富。我們會喺公開錄音檔前，將呢啲統計資料去識別化。
-improve-audio = 個人檔案中的資料可幫助改善訓練語音識別準確度時用的語音數據。
+improve-audio = 個人檔案中嘅資料可幫助改善訓練語音識別準確度個陣用嘅語音數據。
 keep-track = 跟蹤你嘅進度，以及各種語言嘅統計指標。
 compare-progress = 睇下您的進度同全球其他貢獻者如何相比。
-view-goals = 檢視個人和整個計劃的目標進度。
+view-goals = 檢視個人同成個計劃嘅目標進度。
 join-newsletter = 你都可以加入我哋嘅電郵群組，嚟接收計劃嘅進度更新同新資訊。
 
 ## What's public
@@ -619,7 +618,10 @@ contribute = 參與貢獻
 listen = 聆聽
 skip = 略過
 shortcuts = 捷徑
-clips-with-count = <bold>{ $count }</bold> 段錄音
+clips-with-count-pluralized =
+    { $count ->
+       *[other] <bold>{ $count }</bold>錄音片段
+    }
 goal-help-recording = 您已幫助 Common Voice 完成每日 { $goalValue } 錄音目標的<goalPercentage></goalPercentage>！
 goal-help-validation = 您已幫助 Common Voice 達到我們每日 { $goalValue } 驗證目標的 <goalPercentage></goalPercentage>！
 contribute-more =
@@ -720,13 +722,13 @@ you = 你
 everyone = 所有人
 contribution-activity = 貢獻記錄
 top-contributors = 貢獻者排行榜
-recorded-clips = 已錄製的錄音
-validated-clips = 已驗證的錄音
+recorded-clips = 已錄製嘅錄音
+validated-clips = 已驗證嘅錄音
 total-approved = 總批准數
 overall-accuracy = 整體準誠度
 set-visibility = 公開/隱藏個人檔案
 visibility-explainer = 用此選項在排行榜上公開/隱藏個人檔案。在「隱藏」狀態時，您的進度僅自己可見，照片、用戶名稱、貢獻進度等均不會出現在排行榜上。注意改變設定 { $minutes } 分鐘後，才會在排行榜上生效。
-visibility-overlay-note = 設定為「公開」時，可以在 <profileLink>個人檔案首頁</profileLink>改變此選項
+visibility-overlay-note = 設定為「公開」個陣，可以喺 <profileLink>個人檔案首頁</profileLink>改變此選項
 show-ranking = 顯示我嘅排名
 
 ## Custom Goals
@@ -746,17 +748,17 @@ want-to-continue = 你要繼續嗎？
 finish-editing = 要完成編輯嗎？
 lose-changes-warning = 而家離開將唔會儲存你嘅變更
 build-custom-goal = 度身訂做目標
-help-reach-hours = 建立個人目標，為{ $language }貢獻{ NUMBER($hours) }小時嘅錄音。
-help-reach-hours-general = 設定個人目標，幫手讓 Common Voice 當中的語言時數達到 { NUMBER($hours) } 小時
 set-a-goal = 訂立目標
 cant-decide = 決定唔到？
-activity-needed-calculation = 如果有{ NUMBER($people) }人每日錄{ NUMBER($clipsPerDay) }段錄音，{ NUMBER($periodMonths) }月内就可以有{ NUMBER($totalHours) }小時嘅數據喇。
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每週錄幾多段音？
 which-goal-type = 您想淨係講嘢、聽嘢，定係又聽又講？
-receiving-emails-info = 你目前選擇接收包括目標提醒、進度更新、及 Common Voice 電子報的電郵。
-not-receiving-emails-info = 你目前選擇 <bold>不接收</bold> 包括目標提醒、進度更新、及 Common Voice 電子報的電郵。
-n-clips = { NUMBER($count) } 段錄音
+receiving-emails-info = 你目前選擇接收包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
+not-receiving-emails-info = 你目前選擇 <bold>唔接收</bold> 包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] { $count }錄音片段
+    }
 help-share-goal = 幫助我們找更多人參與錄音，分享您的目標
 confirm-goal = 確認目標
 goal-interval-weekly = 每週
@@ -777,15 +779,15 @@ share-goal = 分享我嘅目標
 
 ## Profile Delete
 
-delete-q = 您想刪除埋所有您的錄音，還是要將錄音保留喺 Common Voice 嘅資料集中？
+delete-q = 你想刪除埋你嘅所有錄音，定係想將錄音保留喺 Common Voice 嘅數據集中？
 keep = 保留
 remove = 移除
-keep-info = 您的錄音會以匿名的形式保留喺 Common Voice 嘅資料集。當您刪除咗個人檔案後，就唔能夠再從資料集中刪除錄音。
-remove-info = 我們將會審核您從資料集中刪除錄音的請求。如果您的請求獲得批准，我們將會聯絡已下載資料集的使用者，並請他們也刪除您的錄音。
+keep-info = 您的錄音會以匿名的形式保留喺 Common Voice 嘅數據集。當您刪除咗個人檔案後，就唔能夠再從數據集中刪除錄音。
+remove-info = 我哋將會審核你從數據集中刪除錄音嘅請求。如果你嘅請求獲得批准，我哋將會聯絡已下載數據集嘅使用者，並請佢哋都刪除你嘅錄音。
 why-delete-recordings =
-    學術界、小企業與語音識別愛好者會使用 Common Voice 的錄音片段來幫助訓練、發展語音模型等公共資源。
+    學術界、小企業與語音識別愛好者會使用 Common Voice 嘅錄音片段嚟幫助訓練、發展語音模型等公共資源。
     
-    可以讓我們知道您為什麼想要刪除錄音片段嗎？
+    可唔可以話畀我哋知你點解想刪除錄音片段？
 profile-form-delete = 刪除個人檔案
 
 ## Landing

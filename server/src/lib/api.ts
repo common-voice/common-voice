@@ -413,11 +413,7 @@ export default class API {
     { client_id, params, body }: Request,
     response: Response
   ) => {
-    await this.model.db.insertDownloader(
-      params.locale,
-      body.email,
-      body.dataset
-    );
+    await this.model.db.insertDownloader(params.locale, body.email, body.dataset);
     response.json({});
   };
 

@@ -331,7 +331,11 @@ const FilledCheckIcon = () => (
 
 const Percentage = () => <div className="percent">%</div>;
 
-export default function LeaderboardCard() {
+export default function LeaderboardCard({
+  currentLocale,
+}: {
+  currentLocale?: string;
+}) {
   const account = useAccount();
   const saveAccount = useAction(User.actions.saveAccount);
 
@@ -343,6 +347,7 @@ export default function LeaderboardCard() {
   return (
     <StatsCard
       key="leaderboard"
+      {...{ currentLocale }}
       className={'leaderboard-card ' + (showOverlay ? 'has-overlay' : '')}
       title="top-contributors"
       iconButtons={

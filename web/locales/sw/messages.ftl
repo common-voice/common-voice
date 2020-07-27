@@ -351,6 +351,8 @@ terms-disagree = Sikubali
 review-submit-title = Hakiki kisha utume
 review-submit-msg = Asante kwa kurekodi!<lineBreak></lineBreak> Sasa hakiki kisha utume hivyo vipande
 review-recording = Thibitisha
+review-rerecord = Rekodi tena
+review-cancel = Ghairi uwasilishaji
 review-keep-recordings = Hifadhi rekodi
 review-delete-recordings = Futa rekodi zangu
 
@@ -363,10 +365,18 @@ cv-license = Leseni
 number-of-voices = idadi ya sauti
 splits = Migawanyiko
 email-to-download = Weka barua pepe kupakua
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Unakubali</b> kutojaribu kubaini utambulisho wa wasemaji kwenye daftari ya Common Voice
 download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
+want-dataset-update = Unahitaji visasisho pindi tunapotoa toleo jipya la hifadhi ya Common Voice? Jiandikishe kwa jarida letu.
 subscribe = Jiandikishe
+get-started-speech = Pata kuanza na utambulizi wa sauti
+other-datasets = Daftari zingine za sauti
+feedback-q = Una Maoni?
+go-languages-page = Nenda kwenye kurasa za lugha
 ready-to-validate = Uko tayari kusaidia kuhalalisha sentensi?
 more = Zaidi
 close = Funga
@@ -379,6 +389,7 @@ download-title = Upakuaji umeanza
 download-form-email =
     .label = Weka barua pepe yako
     .value = Asante, tutawasiliana
+download-back = Rudi kwa daftari ya Common Voice
 download-no = Hapana, Asante
 
 ## Contact Modal
@@ -431,13 +442,24 @@ record-error-too-quiet = Rekodi ilikua ya kimya sana
 record-three-more-instruction = Tatu kumaliza!
 record-again-instruction = Vizuri!<recordIcon></recordIcon>Rekodi kipande kinachofata.
 record-last-instruction = <recordIcon></recordIcon> ya mwisho!
+share-common-voice = Sambaza Common Voice
+review-instruction = Pitia na rekodi tena vipande vya sauti ikiwa inahitajika.
+record-submit-tooltip = { $actionType } wasilisha ikiwa tayari
 clips-uploaded = Vipande vilivyo pakiwa
 record-abort-title = Maliza kurekodi kwanza?
 record-abort-submit = Tuma vipande
+record-abort-continue = Maliza kurekodi
+listen-instruction = { $actionType }<playIcon></playIcon>Wameongea sentensi kwa usahihi?
+listen-again-instruction = Kazi nzuri!<playIcon></playIcon>Sikiliza tena ukiwa tayari
+listen-last-time-instruction = <playIcon></playIcon>ya mwisho!
+listen-empty-state = Tumeishiwa na vipande vya sauti vya kuhalalishwa kwenye hii lugha
 record-button-label = Rekodi sauti yako
+login-to-get-started = Ingia au jisajili ili uanze
+target-segment-learn-more = Jifunze zaidi
 
 ## Reporting
 
+report-ask = Unakutana na shida gani kwenye hii sentensi?
 report-different-language = Lugha tofauti
 report-different-language-detail = Imeandikwa kwa lugha ambayo ni tofauti na ninayoongea.
 report-difficult-pronounce = Vigumu kutamka
@@ -456,6 +478,7 @@ days =
 ## Dashboard
 
 your-languages = Lugha zako
+awards = Tuzo
 you = Wewe
 everyone = Kila mtu
 
@@ -468,7 +491,10 @@ weekly-goal = Lengo la kila wiki
 easy-difficulty = Rahisi
 average-difficulty = Wastani
 difficult-difficulty = Ngumu
+want-to-continue = Unataka kuendelea?
+finish-editing = Maaliza kuhariri kwanza?
 set-a-goal = Weka lengo
+cant-decide = Huwezi kuamua?
 how-many-per-day = Vizuri! Vipande vingapi vya sauti kwa siku?
 how-many-a-week = Vizuri! Vipande vingapi vya sauti kwa wiki?
 which-goal-type = Unataka kuongea, usikiliza au zote mbili?

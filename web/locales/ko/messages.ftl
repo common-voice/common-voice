@@ -11,7 +11,6 @@ loading = 로딩중…
 email-opt-in-info = 개인 목표 리마인더, 진행상황 알림, Common Voice 뉴스레터와 같은 이메일을 받고 싶습니다.
 email-opt-in-info-title = Common Voice 메일링 리스트 가입
 email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행상황 알림, Common Voice 뉴스레터와 같은 이메일을 받기
-email-opt-in-privacy = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
 
@@ -64,10 +63,12 @@ ga-IE = 아일랜드어
 gl = 갈리시아어
 ha = 하우사어
 he = 히브리어
-hi-IN = 힌디어
+hi = 힌디어
 hr = 크로아티아어
 hsb = 고지 소르브어
 hu = 헝가리어
+hy-AM = 아르메니아어
+hyw = 서부 아르메니아어
 ia = 인테르링구아어
 id = 인도네시아어
 is = 아이슬란드어
@@ -75,6 +76,7 @@ it = 이탈리아어
 izh = 이조르어
 ja = 일본어
 ka = 그루지아어
+kaa = 카라칼파크어
 kab = 커바일어
 kbd = 카바르다어
 kk = 카자흐스탄어
@@ -126,6 +128,7 @@ ta = 타밀어
 te = 텔루구어
 tg = 타지크어
 th = 태국어
+tl = 타갈로그어
 tr = 터키어
 tt = 타타르어
 uby = 우비흐어
@@ -133,6 +136,7 @@ udm = 우드무르트어
 uk = 우크라이나어
 ur = 우르두어
 uz = 우즈베키스탄어
+vec = 베네치아어
 vi = 베트남어
 vot = 바트어
 zh-CN = 중국어(중국)
@@ -229,6 +233,7 @@ whats-public = 어떤 것이 공개됩니까?
 email-not-public = 사용자의 이메일을 공개하지 않습니다.
 recordings-and-locale-public = 내 녹음 횟수와 기여한 언어는 공개됩니다.
 username-optin-public = 사용자 이름의 공개여부를 선택하실 수 있습니다.
+demographic-deidentified-clarity = 선택적으로 제출 된 인구 통계 데이터 (예 : 연령, 성별, 언어 및 악센트)는 프로필에 공개되지 않으며 데이터 세트의 계정에 연결되지 않습니다. 보다 정확한 분석을 위해 개별 오디오 클립이 인구 통계 데이터와 연결됩니다. 예를 들어, 연구원은 특정 인구 통계 세그먼트에 대한 훈련 모델을 대상으로 할 수 있습니다.
 username-email-not-demographic = 사용자 이름과 이메일은 공개된 데이터와 연관되지 않습니다.
 
 ## Speak & Listen Shortcuts
@@ -437,6 +442,10 @@ about-clip-graveyard = 클립 무덤
 about-clip-graveyard-text = 클립 무덤은 Common Voice 데이터 세트에 포함되지 못 한 음성 클립으로 구성됩니다. 데이터 세트와 마찬가지로 클립 무덤도 다운로드할 수 있습니다.
 about-partners = 파트너
 about-become-a-partner = 파트너 되기
+about-partnership =
+    Common Voice는 공동 작업 프로젝트이며 가장 큰 오픈 소스 음성 데이터 세트를 구축하기 위해 파트너와 기여자 커뮤니티의 도움을 받고 있습니다.¶
+    ¶
+    프로젝트에 도움을 주신 다음 분들과 단체에 감사드립니다:
 about-get-involved = 참여하기
 about-nav-why-common-voice = 왜?
 about-nav-how-it-works = 어떻게?
@@ -461,11 +470,11 @@ hours-validated-explanation = 3 명의 사용자 중 2 명이 “찬성”에 �
 sst = 음성 문자 변환(STT)
 sst-explanation = 음성 문자 변환(STT) 기술은 음성 데이터를 문자로 변환합니다.
 de-identified = 개인정보가 제거된
+de-identified-explanation = 데이터 세트의 일부로 다운로드할 수 있게 패키지로 만들 때 기여자의 음성 정보에서 기여자의 프로필 정보가 가려지는 프로세스입니다.
 
-## NotFound
+## Error pages
 
-notfound-title = 찾을 수 없음
-notfound-content = 찾고 있는 것이 무엇인지 모르겠습니다.
+error-code = 오류 { $code }
 
 ## Data
 
@@ -529,6 +538,7 @@ subscribe = 구독하기
 get-started-speech = 음성인식 시작하기
 other-datasets = 기타 음성 데이터세트
 feedback-q = 제안 사항이 있습니까?
+common-voice-info-new = Common Voice에 대해 질문이 있나요? 특정한 언어에 대한 개선 아이디어나 피드백이 있나요? <discourseLink>Discourse 포럼</discourseLink>에 참여하여 알려주세요.
 data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 읽은 오디오 북에서 파생 된 16Khz의 약 1000 시간의 말뭉치입니다.
 data-other-ted-name = TED-LIUM 말뭉치
 data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
@@ -598,7 +608,11 @@ contribute = 기여하기
 listen = 듣기
 skip = 건너뛰기
 shortcuts = 바로 가기
-clips-with-count = <bold>{ $count }</bold>클립
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> 클립
+       *[other] <bold>{ $count }</bold> 클립
+    }
 goal-help-recording = 방금 오늘 Common Voice 일간 녹음 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 goal-help-validation = 방금 오늘 Common Voice 일간 검증 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 contribute-more =
@@ -608,6 +622,7 @@ contribute-more =
 record-cta = 녹음 시작
 record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플랫폼입니다.
 record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
+record-platform-not-supported-ios-non-safari = iOS에서는 Safari에서 녹음을 계속해 주세요…
 record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
 record-no-mic-found = 마이크를 찾을 수 없습니다.
 record-error-too-short = 녹음이 너무 짧습니다.
@@ -621,6 +636,8 @@ record-again-instruction = 잘하셨습니다! <recordIcon></recordIcon> 다음 
 record-again-instruction2 = 계속하세요, <recordIcon></recordIcon> 다시 녹음하세요
 record-last-instruction = <recordIcon></recordIcon> 마지막입니다!
 review-tooltip = 진행하면서 여기서 클립을 검토하고 재녹음 하세요
+share-clip = 클립 공유
+share-common-voice = Common voice 공유
 review-instruction = 필요한 경우 클립을 검토하고 재녹음 하세요
 record-submit-tooltip = { $actionType } 준비가 되면 제출
 clips-uploaded = 클립 업로드됨
@@ -633,10 +650,17 @@ listen-instruction = { $actionType } <playIcon></playIcon> 문장을 정확하�
 listen-again-instruction = 잘하셨습니다! <playIcon></playIcon> 준비가 되면 다시 듣기
 listen-3rd-time-instruction = 2개 하셨네요, 계속 하세요! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
+listen-empty-state = 이 언어로 검증 할 클립이 부족합니다...
+speak-empty-state = 이 언어로 녹음 할 문장이 부족합니다...
+speak-empty-state-cta = 문장 기여하기
 record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
 keep-track-profile = 프로필로 진행 상황을 추적
 login-to-get-started = 시작하려면 로그인 또는 가입을 하세요.
+target-segment-first-card = 첫 번째 대상 세그먼트에 기여하고 있습니다.
+target-segment-first-banner = { $locale }로 Common Voice의 첫 번째 대상 세그먼트 만드는 것을 도와주세요.
+target-segment-add-voice = 내 목소리 추가
+target-segment-learn-more = 더 알아보기
 
 ## Reporting
 
@@ -694,12 +718,15 @@ validated-clips = 검증된 클립
 total-approved = 승인 전체
 overall-accuracy = 종합적 정확도
 set-visibility = 공개 설정
+visibility-explainer = 이 설정은 리더 보드 표시를 제어합니다. 숨기면 진행 상황이 비공개가 됩니다. 이는 이미지나 사용자 이름, 진행률이 리더 보드에 나타나지 않음을 의미합니다. 리더 보드 새로 고침하면 변경 사항이 적용되는 데에 ~ { $minutes } 분이 걸립니다.
+visibility-overlay-note = 참고: '표시'로 설정하면 <profileLink>프로필 페이지</profileLink>에서 이 설정을 변경할 수 있습니다.
 show-ranking = 내 순위 표시
 
 ## Custom Goals
 
 get-started-goals = 목표로 시작하기
 create-custom-goal = 맞춤 목표 만들기
+goal-type = 어떤 목표를 세우고 싶은가요?
 both-speak-and-listen = 둘 다
 both-speak-and-listen-long = 둘 다(말하기와 듣기)
 daily-goal = 일일 목표
@@ -724,7 +751,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     목표 알림이나 내 진행 업데이트, Common Voice 뉴스레터와 같은
     이메일을 수신하지 <bold>않도록</bold> 설정되어 있습니다.
-n-clips = { NUMBER($count) }개의 클립
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } 클립
+       *[other] { $count } 클립
+    }
 help-share-goal = 더 많은 목소리를 찾게 도와 주세요. 목표를 공유하세요.
 confirm-goal = 목표 확인
 goal-interval-weekly = 주간
@@ -735,6 +766,8 @@ share-n-weekly-contribution-goal = { $type }에 { $count } 개의 클립을 완�
 share-goal-type-speak = 말하기
 share-goal-type-listen = 듣기
 share-goal-type-both = 말하기와 듣기
+# LINK will be replaced with the current URL
+goal-share-text = 방금 #CommonVoice 에 음성 기여에 대한 나만의 목표를 만들었습니다. 나와 함께 기계에게 실제 사람이 말하는 방법을 가르쳐주세요. { $link }
 weekly-goal-created = 주간 목표가 생성되었습니다
 daily-goal-created = 일일 목표가 생성되었습니다
 track-progress = 여기와 통계 페이지에서 진행 상황을 추적하세요.

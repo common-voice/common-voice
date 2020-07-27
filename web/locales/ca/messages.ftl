@@ -11,7 +11,7 @@ loading = S'està carregant…
 email-opt-in-info = M'agradaria rebre correus electrònics com ara recordatoris d’objectius, actualitzacions del meu progrés i butlletins de notícies sobre el Common Voice.
 email-opt-in-info-title = Uniu-vos a la llista de correu del Common Voice
 email-opt-in-info-sub-with-challenge = Rebreu correus com ara recordatoris d'objectius i reptes, actualitzacions del progrés i butlletins sobre el Common voice.
-email-opt-in-privacy = En optar per rebre correus electrònics, accepteu que Mozilla gestioni aquesta informació en els termes descrits en la seva <privacyLink>política de privadesa</privacyLink>.
+email-opt-in-privacy-v2 = En optar per rebre correus electrònics, accepteu que Mozilla gestioni aquesta informació en els termes descrits en la seva <privacyLink>política de privadesa</privacyLink>.
 indicates-required = * Indica un camp necessari
 not-available-abbreviation = N/D
 
@@ -501,6 +501,8 @@ data-bundle-button = Baixa el paquet del conjunt de dades
 data-bundle-description = Dades del Common Voice més tots els conjunts de dades de veu anteriors.
 license = Llicència: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
+data-download-singleword-title = Baixeu el segment específic amb paraules individuals
+data-download-singleword-callout = Es tracta d'un segment basat en casos d'ús que conté dades per al reconeixement de dígits parlats, detecció de «sí/no» i dades de proves de paraules d'activació per al <fxLink> Firefox Voice </fxLink>.
 review-terms = En usar Common Voice, accepteu les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink>
 terms-agree = D'acord
 terms-disagree = No hi estic d'acord
@@ -621,7 +623,11 @@ contribute = Col·laboreu‑hi
 listen = Escolta
 skip = Omet
 shortcuts = Dreceres
-clips-with-count = <bold>{ $count }</bold> talls
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> tall
+       *[other] <bold>{ $count }</bold> talls
+    }
 goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } enregistraments!
 goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!
 contribute-more =
@@ -739,6 +745,7 @@ show-ranking = Mostra la meva classificació
 
 get-started-goals = Introducció als objectius
 create-custom-goal = Creeu un objectiu personalitzat
+goal-type = Quin tipus d'objectiu voleu crear?
 both-speak-and-listen = Ambdós
 both-speak-and-listen-long = Ambdós (Parla i Escolta)
 daily-goal = Objectiu diari
@@ -752,17 +759,43 @@ want-to-continue = Voleu continuar?
 finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
 build-custom-goal = Crea un objectiu personalitzat
-help-reach-hours = Ajudeu a arribar a { NUMBER($hours) } hores en { $language } amb un objectiu personal
-help-reach-hours-general = Ajudeu al Common Voice a arribar a { NUMBER($hours) } hores en una llengua amb un objectiu personal
+help-reach-hours-pluralized =
+    Ajudeu a arribar a { NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } hores
+    }en { $language } amb un objectiu personal
+help-reach-hours-general-pluralized =
+    Ajudeu al Common Voice a arribar a{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } hores
+    }en una llengua amb un objectiu personal
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
-activity-needed-calculation = Si { NUMBER($people) } persones enregistren { NUMBER($clipsPerDay) } talls per dia, es pot arribar a { NUMBER($totalHours) } hores en poc més de { NUMBER($periodMonths) } mesos.
+activity-needed-calculation-plural =
+    Si { NUMBER($people) ->
+        [one] { $people } persona enregistra
+       *[other] { $people } persones enregistren
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } tall
+       *[other] { $clipsPerDay } talls
+    } per dia, es pot arribar a { NUMBER($totalHours) ->
+        [one] { $totalHours } hora
+       *[other] { $totalHours } hores
+    } en poc més { NUMBER($periodMonths) ->
+        [one] d'{ $periodMonths } mes
+        [11] d'{ $periodMonths } mesos
+       *[other] de { $periodMonths } mesos
+    }
 how-many-per-day = Genial! Quants talls per dia?
 how-many-a-week = Genial! Quants talls per setmana?
 which-goal-type = Genial! Voleu parlar, escoltar o totes dues coses?
 receiving-emails-info = Actualment teniu configurat rebre correus electrònics, com ara recordatoris d’objectius, actualitzacions del vostre progrés i butlletins de notícies sobre el Common Voice.
 not-receiving-emails-info = Actualment <bold>NO</bold> rebeu correus electrònics com ara recordatoris dels objectius, actualitzacions del progrés personal o notícies sobre el Common Voice
-n-clips = { NUMBER($count) } talls
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } tall
+       *[other] { $count } talls
+    }
 help-share-goal = Ajudeu-nos a trobar més veus, compartiu el vostre objectiu
 confirm-goal = Confirmo l'objectiu
 goal-interval-weekly = Setmanal

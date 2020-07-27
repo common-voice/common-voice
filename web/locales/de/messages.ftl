@@ -11,7 +11,7 @@ loading = Wird geladen…
 email-opt-in-info = Ich möchte E-Mails wie Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice erhalten.
 email-opt-in-info-title = Tragen Sie sich in die Mailingliste von Common Voice ein
 email-opt-in-info-sub-with-challenge = Erhalten Sie E-Mails wie  Herausforderungs- und Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice.
-email-opt-in-privacy = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung<privacyLink> von Mozilla verarbeitet.
+email-opt-in-privacy-v2 = Mit Ihrer Zustimmung zum Empfang von E-Mails erklären Sie, dass Sie damit einverstanden sind, dass Mozilla diese Informationen gemäß der <privacyLink>Datenschutzerklärung</privacyLink> von Mozilla verarbeitet.
 indicates-required = * Pflichtfeld
 not-available-abbreviation = Nicht verfügbar
 
@@ -481,10 +481,13 @@ sst-explanation = STT-Technologien (Sprache-zu-Text) wandeln Sprachdaten in Text
 de-identified = Anonymisiert
 de-identified-explanation = Der Prozess, durch den die Profilinformationen eines Mitwirkenden von den gespendeten Sprachclips verborgen werden, wenn sie als Teil des Datensatzes zum Download verpackt werden.
 
-## NotFound
+## Error pages
 
-notfound-title = Nicht gefunden
-notfound-content = Ich fürchte, ich weiß nicht, wonach Sie suchen.
+error-title-404 = Wir konnten diese Seite nicht finden
+error-content-404 = Vielleicht hilft unsere <homepageLink>Startseite</ homepageLink> weiter. Um eine Frage zu stellen, nehmen Sie bitte am <matrixLink>Matrix-Community-Chat</matrixLink> teil, melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink> oder besuchen Sie <discourseLink>unsere Discourse-Foren</discourseLink>.
+error-title-503 = Unsere Website ist unerwarteterweise nicht erreichbar.
+error-content-503 = Die Seite wird so schnell wie möglich wieder verfügbar sein. Die neuesten Informationen erhalten Sie im <matrixLink>Matrix-Community-Chat</matrixLink>. Nutzen Sie <githubLink>GitHub</githubLink> oder <discourseLink>unsere Discourse-Foren</discourseLink>, um Probleme mit der Website zu melden und Fehlerberichte zu lesen.
+error-code = Fehler { $code }
 
 ## Data
 
@@ -625,7 +628,11 @@ contribute = Mitarbeiten
 listen = Anhören
 skip = Überspringen
 shortcuts = Tastenkürzel
-clips-with-count = <bold>{ $count }</bold> Aufzeichnungen
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Aufzeichnung
+       *[other] <bold>{ $count }</bold> Aufzeichnungen
+    }
 goal-help-recording = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> des heutigen Aufzeichnungsziels von { $goalValue } zu erreichen!
 goal-help-validation = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> des heutigen Bestätigungsziels von { $goalValue } zu erreichen!
 contribute-more = Bereit { $count } weitere zu machen?
@@ -739,6 +746,7 @@ show-ranking = Meine Bewertung ansehen
 
 get-started-goals = Erste Schritte mit Zielen
 create-custom-goal = Ein eigenes Ziel erstellen
+goal-type = Was für ein Ziel möchten Sie erreichen?
 both-speak-and-listen = Beides
 both-speak-and-listen-long = Beide (Sprechen und Hören)
 daily-goal = Tagesziel
@@ -752,13 +760,32 @@ want-to-continue = Möchten Sie fortfahren?
 finish-editing = Erst die Bearbeitung beenden?
 lose-changes-warning = Wenn Sie jetzt abbrechen, gehen Ihre Änderungen verloren
 build-custom-goal = Ein eigenes Ziel erstellen
-help-reach-hours = Helfen Sie mit einem persönlichen Ziel dabei, { NUMBER($hours) } Stunden in { $language } zu erreichen
-help-reach-hours-general = Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { NUMBER($hours) } Stunden in einer Sprache zu erreichen
+help-reach-hours-pluralized =
+    Helfen Sie mit einem persönlichen Ziel dabei, { NUMBER($hours) ->
+        [one] { $hours } Stunde
+       *[other] { $hours } Stunden
+    } in { $language } zu erreichen.
+help-reach-hours-general-pluralized =
+    Helfen Sie Common Voice mit einem persönlichen Ziel dabei, { NUMBER($hours) ->
+        [one] { $hours } Stunde
+       *[other] { $hours } Stunden
+    }in einer Sprache zu erreichen.
 set-a-goal = Ein Ziel setzen
 cant-decide = Sie können sich nicht entscheiden?
-activity-needed-calculation =
-    { NUMBER($totalHours) } Stunden sind in etwas mehr als { NUMBER($periodMonths) } Monaten
-    erreichbar, wenn { NUMBER($people) } Personen { NUMBER($clipsPerDay) } Clips pro Tag aufnehmen.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } Stunde
+       *[other] { $totalHours } Stunden
+    } sind in { NUMBER($periodMonths) ->
+        [one] { $periodMonths } Monat
+       *[other] { $periodMonths } Monaten
+    } erreichbar, wenn{ NUMBER($people) ->
+        [one] { $people } Person
+       *[other] { $people } Personen
+    } jeden Tag{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } Aufnahme
+       *[other] { $clipsPerDay } Aufnahmen
+    } aufnehmen.
 how-many-per-day = Top! Wie viele Clips pro Tag?
 how-many-a-week = Top! Wie viele Clips pro Woche?
 which-goal-type = Möchten Sie Sprechen, Hören oder beides?
@@ -766,7 +793,11 @@ receiving-emails-info =
     Sie haben aktuell E-Mail wie Zielerinnerungen, meine Fortschrittsmeldungen
     und Newsletter zu Common Voice abonniert
 not-receiving-emails-info = Aktuell erhalten Sie aufgrund Ihrer Einstellungen <bold>KEINE</bold> E-Mails wie Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice
-n-clips = { NUMBER($count) } Clips
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } Aufnahme
+       *[other] { $count } Aufnahmen
+    }
 help-share-goal = Teilen Sie Ihr Ziel und helfen Sie uns, mehr Stimmen zu finden
 confirm-goal = Ziel bestätigen
 goal-interval-weekly = Wöchentlich

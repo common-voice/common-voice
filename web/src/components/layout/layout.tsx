@@ -2,6 +2,7 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
+import * as FullStory from '@fullstory/browser';
 import { LOCALES, NATIVE_NAMES } from '../../services/localization';
 import { trackGlobal, getTrackClass } from '../../services/tracker';
 import StateTree from '../../stores/tree';
@@ -153,7 +154,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   async componentDidMount() {
-    const { locale, api } = this.props;
+    const { locale, api, user } = this.props;
     this.scroller.addEventListener('scroll', this.handleScroll);
     this.visitHash();
 
@@ -167,6 +168,12 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         challengeTeamToken !== undefined && challengeToken !== undefined,
       featureStorageKey: await this.getFeatureKey(locale),
     });
+
+    try {
+      FullStory.setUserVars({ isLoggedIn: !!user.account });
+    } catch (e) {
+      // do nothing if FullStory not initialized (see app.tsx)
+    }
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
@@ -267,7 +274,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
 
-    const pathParts = location.pathname.split('/');
+    const pathParts = location.pathname
+      .replace(/(404|503)/g, 'error-page')
+      .split('/');
     const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home', {
       'staging-banner-is-visible': showStagingBanner,
     });
@@ -363,7 +372,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             this.scroller = div as HTMLElement;
           }}>
           <div id="scrollee">
-            <Content />
+            <Content location={location} />
             <Footer />
           </div>
         </div>

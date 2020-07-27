@@ -112,6 +112,20 @@ You can then access the website at [http://localhost:9000](http://localhost:9000
 #### Configuration
 
 You can find configurable options, like the port Common Voice is running on, in `/server/src/config-helper.ts`. Just create a `/config.json` with the config you want to override. If you're using Docker, you may need to modify the file `/.env-local-docker` instead.
+At its basic form, the 'config.json' file should look like this:
+
+```
+{
+    "IMPORT_SENTENCES": false,
+    "MYSQLUSER": <root_username_here>,
+    "MYSQLPASS": <root_password_here>,
+    "DB_ROOT_USER": <root_username_here>,
+    "DB_ROOT_PASS": <root_password_here>,
+    "MYSQLDBNAME": "voice",
+    "MYSQLHOST": "127.0.0.1",
+    "MYSQLPORT": 3306
+  }
+```
 
 ##### NewRelic error during startup
 
@@ -124,6 +138,35 @@ web        | [BE] NEW_RELIC_APP_NAME. Not starting!
 ```
 
 You do not need to set up NewRelic, except if you fix anything related to that.
+
+##### MySQL error during startup
+
+During the server start (after running ‘yarn start’), you might notice an error log similar to this:
+
+```
+at Class.exports.up (/Users/admin/Desktop/myprojects/mozilla/voice-web-master/server/src/lib/model/db/migrations/20180910121256-user-sso-fields.ts:2:13)
+....
+[BE]       at /Users/admin/Desktop/myprojects/mozilla/voice-web-master/node_modules/db-migrate/lib/migrator.js:237:31 {
+[BE]     code: 'ER_BLOB_CANT_HAVE_DEFAULT',
+[BE]     errno: 1101,
+[BE]     sqlMessage: "BLOB, TEXT, GEOMETRY or JSON column 'username' can't have a default value",
+[BE]     sqlState: '42000',
+[BE]     index: 0,
+[BE]     sql: '\n' +
+[BE]       '      ALTER TABLE user_clients\n' +
+[BE]       '        ADD COLUMN sso_id VARCHAR(255) UNIQUE,\n' +
+[BE]       "        ADD COLUMN username TEXT NOT NULL DEFAULT '',\n" +
+[BE]       '        ADD COLUMN basket_token TEXT;\n' +
+[BE]       '    '
+```
+
+First make sure you have the correct version of MySQL installed. If the problem still persists, the following will prove useful:
+**You only need to follow these steps once. After that be sure to discard all changes made to the relevant files after migrations are successful.**
+
+1. In the error log, locate and open the associated migrations file (localed in the `/migrations` directory). In this case, the file is named `20180910121256-user-sso-fields.ts`.
+2. Locate the affected column declaration - revealed by the “sqlMessage” string in the error log - and remove the default declaration value i.e In our case, the column username will have a new declaration `ADD COLUMN username TEXT NOT NULL` instead of `ADD COLUMN username TEXT NOT NULL DEFAULT ‘ ’`
+3. Fixing one migration error will uncover another error in another migration file. Repeat the same process until there are no more migration errors.
+4. Discard all changes made to the relevant migration files.
 
 #### Authentication
 
@@ -169,11 +212,11 @@ To add a migration run:
 At the moment you manually have to change the migration file extension to `.ts`. A migration has to expose the following API:
 
 ```typescript
-export const up = async function(db: any): Promise<any> {
+export const up = async function (db: any): Promise<any> {
   return null;
 };
 
-export const down = async function(): Promise<any> {
+export const down = async function (): Promise<any> {
   return null;
 };
 ```

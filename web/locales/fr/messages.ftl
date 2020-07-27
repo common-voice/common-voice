@@ -11,7 +11,7 @@ loading = Chargement…
 email-opt-in-info = J’aimerais recevoir des courriels tels que des rappels d’objectifs, des rapports sur mes progrès et les lettres d’information de Common Voice.
 email-opt-in-info-title = Rejoignez la liste de diffusion Common Voice
 email-opt-in-info-sub-with-challenge = Recevez des courriels tels que des défis, des rappels d’objectifs, des rapports d’avancement et des lettres d’information sur Common Voice.
-email-opt-in-privacy = En acceptant de recevoir des courriels, vous indiquez accepter que Mozilla gère ces informations, conformément à la <privacyLink>politique de confidentialité<privacyLink> de Mozilla.
+email-opt-in-privacy-v2 = En acceptant de recevoir des courriels, vous indiquez accepter que Mozilla gère ces informations, conformément à la <privacyLink>politique de confidentialité</privacyLink> de Mozilla.
 indicates-required = * indique un champ obligatoire
 not-available-abbreviation = Non disponible
 
@@ -505,6 +505,8 @@ data-bundle-button = Télécharger un lot de jeux de données
 data-bundle-description = Données Common Voice ainsi que tous les autres jeux de données ci-dessus.
 license = Licence : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
+data-download-singleword-title = Télécharger le segment cible de mot unique
+data-download-singleword-callout = Il s’agit d’un segment ciblé sur des cas d’utilisation contenant des données pour alimenter la reconnaissance des chiffres parlés, la détection oui/non et les données de test de mots de réveil pour <fxLink>Firefox Voice</fxLink>.
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>Conditions d’utilisation</termsLink> et notre <privacyLink>Politique de confidentialité</privacyLink>
 terms-agree = J’accepte
 terms-disagree = Je refuse
@@ -625,7 +627,11 @@ contribute = Contribuer
 listen = Écouter
 skip = Passer
 shortcuts = Raccourcis
-clips-with-count = <bold>{ $count }</bold> extraits
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> extrait
+       *[other] <bold>{ $count }</bold> extraits
+    }
 goal-help-recording = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalValue } enregistrements !
 goal-help-validation = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalValue } validations !
 contribute-more = Prêt·e à en faire { $count } de plus ?
@@ -739,6 +745,7 @@ show-ranking = Afficher mon classement
 
 get-started-goals = Créez vos objectifs
 create-custom-goal = Créer un objectif personnalisé
+goal-type = Quel type d’objectif souhaitez-vous définir ?
 both-speak-and-listen = Faire les deux
 both-speak-and-listen-long = Les deux (parler et écouter)
 daily-goal = Objectif quotidien
@@ -752,17 +759,42 @@ want-to-continue = Voulez-vous continuer ?
 finish-editing = Terminer d’abord les modifications ?
 lose-changes-warning = Si vous quittez maintenant, vous perdrez vos modifications
 build-custom-goal = Définissez un objectif personnalisé
-help-reach-hours = Aidez à atteindre { NUMBER($hours) } heures en { $language } avec un objectif personnel
-help-reach-hours-general = Aidez Common Voice à atteindre { NUMBER($hours) } heures dans une langue avec un objectif personnel
+help-reach-hours-pluralized =
+    Aidez à atteindre{ NUMBER($hours) ->
+        [one] { $hours } heure
+       *[other] { $hours } heures
+    }en { $language } avec un objectif personnel
+help-reach-hours-general-pluralized =
+    Aidez Common Voice à atteindre{ NUMBER($hours) ->
+        [one] { $hours } heure
+       *[other] { $hours } heures
+    }dans une langue avec un objectif personnel
 set-a-goal = Fixer un objectif
 cant-decide = Vous ne pouvez pas décider ?
-activity-needed-calculation = Un objectif de { NUMBER($totalHours) } heures peut être atteint en { NUMBER($periodMonths) } mois si { NUMBER($people) } personnes enregistrent { NUMBER($clipsPerDay) } échantillons par jour.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] Un objectif d’une heure
+       *[other] Un objectif  de { $totalHours } heures
+    }peut être atteint en un peu plus{ NUMBER($periodMonths) ->
+        [one] d’un mois
+       *[other] de { $periodMonths } mois
+    }si{ NUMBER($people) ->
+        [one] une personne enregistre
+       *[other] { $people } personnes enregistrent
+    }{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } échantillon
+       *[other] { $clipsPerDay } échantillons
+    }par jour.
 how-many-per-day = Génial ! Combien d’échantillons par jour ?
 how-many-a-week = Génial ! Combien d’échantillons par semaine ?
 which-goal-type = Voulez-vous parler, écouter ou faire les deux ?
 receiving-emails-info = Vous allez recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
 not-receiving-emails-info = Vous n’allez <bold>PAS</bold> recevoir des courriels tels que des rappels d’objectifs, des rapports sur vos progrès et les lettres d’information de Common Voice.
-n-clips = { NUMBER($count) } échantillons
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } échantillon
+       *[other] { $count } échantillons
+    }
 help-share-goal = Aidez-nous à trouver plus de voix, partagez votre objectif
 confirm-goal = Confirmer l’objectif
 goal-interval-weekly = Hebdomadaire

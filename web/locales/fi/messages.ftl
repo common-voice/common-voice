@@ -11,7 +11,6 @@ loading = Ladataan…
 email-opt-in-info = Haluan vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseeni sekä Common Voice -uutiskirjeitä.
 email-opt-in-info-title = Liity Common Voicen postituslistalle
 email-opt-in-info-sub-with-challenge = Haluan vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseeni sekä Common Voice -uutiskirjeitä.
-email-opt-in-privacy = Tilaamalla uutiskirjeen hyväksyt Mozillan käsittelevän tätä tietoa Mozillan <privacyLink>tietosuojakäytännössä<privacyLink> kuvatulla tavalla.
 indicates-required = * Pakollinen kenttä
 not-available-abbreviation = N/A
 
@@ -617,7 +616,11 @@ contribute = Osallistu
 listen = Kuuntele
 skip = Ohita
 shortcuts = Oikopolut
-clips-with-count = <bold>{ $count }</bold> näytettä
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ääninäyte
+       *[other] <bold>{ $count }</bold> ääninäytettä
+    }
 goal-help-recording = Olet auttanut Common Voice -projektia saavuttamaan <goalPercentage></goalPercentage> päivittäisestä tavoitteestamme { $goalValue } ääninäytettä!
 goal-help-validation = Olet auttanut Common Voice -projektia saavuttamaan <goalPercentage></goalPercentage> päivittäisestä tavoitteestamme { $goalValue } tarkastusta!
 contribute-more =
@@ -748,19 +751,18 @@ want-to-continue = Haluatko jatkaa?
 finish-editing = Viimeistelläänkö muokkaaminen ensin?
 lose-changes-warning = Nyt poistumalla muutokset katoavat
 build-custom-goal = Rakenna mukautettu tavoite
-help-reach-hours = Auta kasvattamaan { $language } { NUMBER($hours) } tuntiin omalla tavoitteella
-help-reach-hours-general = Auta Common Voice { NUMBER($hours) } tuntiin kielessä omalla tavoitteella
 set-a-goal = Aseta tavoite
 cant-decide = Vaikeuksia päättää?
-activity-needed-calculation =
-    { NUMBER($totalHours) } tuntia voidaan saavuttaa hiukan yli { NUMBER($periodMonths) }
-    kuukaudessa jos { NUMBER($people) } ihmistä nauhottaa { NUMBER($clipsPerDay) } klippiä päivässä.
 how-many-per-day = Hienoa! Kuinka monta näytettä päivittäin?
 how-many-a-week = Hienoa! Kuinka monta näytettä viikottain?
 which-goal-type = Haluatko puhua, kuunnella vai tehdä molempia?
 receiving-emails-info = Olet valinnut, että haluat vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseesi sekä Common Voice -uutiskirjeitä.
 not-receiving-emails-info = Olet valinnut, että <bold>ET</bold> halua vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseesi sekä Common Voice -uutiskirjeitä.
-n-clips = { NUMBER($count) } klippiä
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ääninäyte
+       *[other] { $count } ääninäytettä
+    }
 help-share-goal = Auta meitä löytämään enemmän ääniä, jaa tavoitteesi
 confirm-goal = Vahvista tavoite
 goal-interval-weekly = Viikoittainen
