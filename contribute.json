@@ -7,7 +7,7 @@
     "tests": "https://travis-ci.org/mozilla/voice-web/"
   },
   "participate": {
-    "home": "https://voice.mozilla.org",
+    "home": "https://commonvoice.mozilla.org",
     "docs": "https://github.com/mozilla/voice-web/blob/master/CONTRIBUTING.md",
     "forum": "https://discourse.mozilla.org/c/voice",
     "matrix": "https://chat.mozilla.org/#/room/#common-voice:mozilla.org"
@@ -17,8 +17,8 @@
     "report": "https://github.com/mozilla/voice-web/issues/new"
   },
   "urls": {
-    "prod": "https://voice.mozilla.org",
-    "stage": "https://voice.allizom.org"
+    "prod": "https://commonvoice.mozilla.org",
+    "stage": "https://commonvoice.allizom.org"
   },
   "keywords": [
     "asr",
