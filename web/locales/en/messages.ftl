@@ -774,24 +774,24 @@ help-reach-hours-pluralized = Help reach { NUMBER($hours) ->
 [one] {$hours} hour
 *[other] {$hours} hours
  } in { $language } with a personal goal
-help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) -> 
+help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) ->
   [one] {$hours} hour
   *[other] {$hours} hours
  } in a language with a personal goal
 set-a-goal = Set a goal
 cant-decide = Can't decide?
-activity-needed-calculation-plural = { NUMBER($totalHours) -> 
-  [one] {$totalHours} hour
-  *[other] {$totalHours} hours
- } is achievable in just over { NUMBER($periodMonths) -> 
+activity-needed-calculation-plural-v2 = { NUMBER($totalHours) ->
+  [one] {$totalHours} hour is
+  *[other] {$totalHours} hours are
+ } achievable in just over { NUMBER($periodMonths) ->
   [one] {$periodMonths} month
   *[other] {$periodMonths} months
- } if { NUMBER($people) -> 
-  [one] {$people} person
-  *[other] {$people} people
-  } record { NUMBER($clipsPerDay) -> 
-  [one] {$clipsPerDay} clip 
-  *[other] {$clipsPerDay} clips 
+ } if { NUMBER($people) ->
+  [one] {$people} person records
+  *[other] {$people} people record
+  } { NUMBER($clipsPerDay) ->
+  [one] {$clipsPerDay} clip
+  *[other] {$clipsPerDay} clips
   } a day.
 how-many-per-day = Great! How many clips per day?
 how-many-a-week = Great! How many clips a week?
