@@ -481,10 +481,13 @@ sst-explanation = Spraak-naar-tekst (STT)-technologieën zetten spraakgegevens o
 de-identified = Anoniem gemaakt
 de-identified-explanation = Het proces waarbij de profielgegevens van een bijdrager worden gescheiden van gedoneerde spraakfragmenten wanneer deze als onderdeel van de gegevensset worden verpakt voor downloaden.
 
-## NotFound
+## Error pages
 
-notfound-title = Niet gevonden
-notfound-content = Ik ben bang dat ik niet weet wat u zoekt.
+error-title-404 = We kunnen deze pagina niet voor u vinden
+error-content-404 = Misschien helpt onze <homepageLink>startpagina</homepageLink>? Als u een vraag wilt stellen, kunt u lid worden van de <matrixLink>Matrix-gemeenschap-chat</matrixLink>, siteproblemen volgen via <githubLink>GitHub</githubLink> of bezoek <discourseLink>onze Discourse-forums</discourseLink>.
+error-title-503 = We ondervinden momenteel een onverwachte onderbreking
+error-content-503 = De site zal zo snel mogelijk worden hersteld. Neem voor de meest recente informatie deel aan de <matrixLink>Matrix-gemeenschap-chat</matrixLink> of bezoek <githubLink>GitHub</githubLink> of <discourseLink>onze Discourse-forums</discourseLink> om problemen met de website te melden en te volgen.
+error-code = Fout { $code }
 
 ## Data
 
