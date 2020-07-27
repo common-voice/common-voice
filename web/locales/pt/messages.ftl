@@ -485,6 +485,7 @@ de-identified-explanation = O processo pelo qual as informações de perfil de u
 
 error-title-404 = Não foi possível encontrar esta página para você
 error-content-404 = Talvez nossa <homepageLink>página inicial</homepageLink> ajude? Para fazer uma pergunta, entre no <matrixLink>bate-papo da comunidade Matrix</matrixLink>, monitore problemas no site por meio do <githubLink>GitHub</githubLink> ou visite <discourseLink>nossos fóruns no Discourse</discourseLink>.
+error-title-503 = Estamos com uma inatividade inesperada
 
 ## Data
 
