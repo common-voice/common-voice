@@ -738,6 +738,7 @@ validations =
 
 your-languages = Waše rěcy
 toward-next-goal = K pśiducemu celoju
+goal-reached = Cel dojśpjony
 clips-you-recorded = Klipy, kótarež sćo nagrał
 clips-you-validated = Klipy, kótarež sćo pśeglědał
 todays-recorded-progress = Źinsajšny póstup Common Voice za nagrate klipy
