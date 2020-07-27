@@ -769,6 +769,20 @@ help-reach-hours-general-pluralized =
     }লৈ গৈ পোৱাত সহায় কৰক
 set-a-goal = লক্ষ্য ছেট কৰক
 cant-decide = সিদ্ধান্ত ল'ব পৰা নাই?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } ঘণ্টা
+       *[other] { $totalHours } ঘণ্টা
+    }প্ৰায় { NUMBER($periodMonths) ->
+        [one] { $periodMonths } মাহ
+       *[other] { $periodMonths } মাহ
+    }তে পাব পাৰি যদি { NUMBER($people) ->
+        [one] এগৰাকী ব্যক্তিয়ে
+       *[other] { $people } গৰাকী লোকে
+    }এদিনত { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay }টাকৈ ক্লিপ
+       *[other] { $clipsPerDay }টাকৈ ক্লিপ
+    }ৰেকৰ্ড কৰে।
 how-many-per-day = বঢ়িয়া! এদিনত কেইটাকৈ ক্লিপ?
 how-many-a-week = বঢ়িয়া! এসপ্তাহত কেইটাকৈ ক্লিপ?
 which-goal-type = আপুনি কথা ক'ব, শুনিব নে দুয়োটা কৰিব বিচাৰে?
