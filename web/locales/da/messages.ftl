@@ -366,6 +366,7 @@ faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</
 faq-when-release2-q = Hvornår udgiver I Common Voice-data på andre sprog?
 faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
+faq-what-cv-and-deepspeech-a = Datasættet fra Common Voice supplerer Mozillas open source-talegenkendelse Deep Speech. Den første version af Deep Speech blev udgivet i november 2017 og er siden blevet udviklet yderligere. I kombination med datasættet fra Common Voice mener vi, at denne open source-stemmegenkendelsesteknologi bør være tilgængelig for alle. Det er vores håb, at disse teknologier gør det muligt for udviklere at skabe en sand overflod af innovative produkter og tjenester.
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
 faq-do-want-native-q = Dansk er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
 faq-do-want-native-a = Ja, vi vil især gerne have din stemme! En del af formålet med Common Voice er at indsamle så mange forskellige accenter som muligt, så stemmegenkendelsen fungerer lige så godt for alle. Det betyder, at bidrag fra folk med andet- eller fremmedsprog er vigtige.
