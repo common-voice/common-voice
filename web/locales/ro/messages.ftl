@@ -449,9 +449,9 @@ about-partnership = Common Voice este un proiect de colaborare și depindem de c
 about-get-involved = Implică-te
 about-get-involved-text-2 =
     Vrei să ajuți la îmbunătățirea Common Voice?
-    Grozav! Ia legătura prin e-mail sau pe FORUMURILE <discourseLink>Discourse</discourseLink>
-    trimite feedback prin <githubLink>GitHub</githubLink>
-    sau intră în chatul comunității <matrixLink>Matrix</matrixLink>.
+    Grozav! Ia legătura prin e-mail sau prin forumurile <discourseLink>Discourse</discourseLink>,
+    raportează problemele site-ului prin <githubLink>GitHub</githubLink> sau intră pe
+    chatul comunității <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = De ce?
 about-nav-how-it-works = Cum?
 about-nav-partners = Parteneri
@@ -479,6 +479,11 @@ de-identified-explanation = Procesul prin care informațiile de profil ale unui 
 
 ## Error pages
 
+error-title-404 = Nu am găsit pagina pe care o cauți
+error-content-404 = Poate că te ajută <homepageLink>pagina noastră de start</homepageLink>? Pentru a adresa o întrebare, intră pe <matrixLink>chatul comunității Matrix</matrixLink>, monitorizează problemele site-ului prin <githubLink>GitHub</githubLink> sau intră pe <discourseLink>forumurile noastre Discourse</discourseLink>.
+error-title-503 = Ne confruntăm cu opriri neașteptate
+error-content-503 = Site-ul va deveni funcțional cât mai curând posibil. Pentru cele mai noi informații, intră pe <matrixLink>chatul comunității Matrix</matrixLink> sau pe <githubLink>GitHub</githubLink> sau pe <discourseLink>forumurile noastre Discourse</discourseLink> pentru a raporta și monitoriza probleme de utilizare a site-ului.
+error-code = Eroare { $code }
 
 ## Data
 
