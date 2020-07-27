@@ -301,8 +301,8 @@ hidden = লুকুৱা
 visible = দৃশ্যমান
 native-language =
     .label = খিলঞ্জীয়া ভাষা
-profile-form-submit-save = সঞ্চয় কৰক
-profile-form-submit-saved = সঞ্চিত হ'ল
+profile-form-submit-save = সাঁচি থওক
+profile-form-submit-saved = সাঁচি থোৱা হ'ল
 male = পুৰুষ
 female = স্ত্ৰী
 # Gender
