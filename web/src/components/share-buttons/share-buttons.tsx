@@ -9,11 +9,12 @@ import { trackSharing } from '../../services/tracker';
 import { Notifications } from '../../stores/notifications';
 import { FontIcon } from '../ui/icons';
 import { useLocale } from '../locale-helpers';
+import URLS from '../../urls';
 
 import './share-buttons.css';
 import { useAction } from '../../hooks/store-hooks';
 
-const SHARE_URL = 'https://voice.mozilla.org/';
+const SHARE_URL = URLS.HTTP_ROOT;
 
 interface Props extends WithLocalizationProps {
   shareTextId?: string;
