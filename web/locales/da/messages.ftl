@@ -473,6 +473,12 @@ review-delete-recordings = Slet mine optagelser
 ## Datasets Page
 
 datasets-headline = Vi bygger et open source-datasæt af stemmer på mange forskellige sprog, som alle kan bruge til at træne taleaktiverede programmer.
+datasets-positioning =
+    Vi mener, at store, offentligt tilgængelige stemme-datasæt vil give grobund for innovation og sund kommerciel konkurrence indenfor stemmeteknologier baseret på maskinlæring.
+    
+    Common Voice-datasættet på flere sprog er allerede verdens største open source-samling af stemme-data af sin slags - men det er ikke det eneste.
+    
+    På denne side finder du en oversigt over andre open source-samlinger af stemme-datasæt, og - i takt med at Common Voice vokser - en oversigt over vores udgivelser og opdateringer.
 language = Sprog
 # File size in gigabytes
 size = Størrelse
