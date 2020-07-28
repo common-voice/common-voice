@@ -398,6 +398,9 @@ faq-search-for-answers =
 
 about-title = Hvorfor Common Voice?
 about-subtitle = Common Voice er en del af Mozillas initiativ, der skal hjælpe maskiner med at forstå, hvordan mennesker snakker i virkeligheden. Udover Common Voice-datasættet bygger vi også en open source-tjeneste til talegenkendelse ved navn Deep Speech.
+about-header-description =
+    Begge projekter er en del af vores forsøg på at gøre digital tale-teknologi mere tilgængeligt. Teknologi, der kan genkende stemmer, giver vores computere og telefoner en mere menneskelig dimension - men udviklerne bag teknologierne har brug for enorme mængder stemmedata for at kunne bygge dem. I øjeblikket er hovedparten af disse data både dyre og underlagt ophavsret.
+    Vi vil gøre stemmedata offentligt tilgængelige - gratis. Data skal repræsentere, hvor forskellige folk faktisk er. Sammen kan vi gøre stemmegenkendelse bedre for alle.
 how-does-it-work-title = Hvordan fungerer det?
 about-speak = Tal
 about-listen-queue = Lytte-kø
@@ -430,6 +433,7 @@ localization = Oversættelse
 sentence-collection = Indsamling af sætninger
 hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
 hours-validated-explanation = Antallet af stemmeoptagelser i timer, der er blevet valideret af 2 ud af 3 brugere med en "Ja"-stemme. Disse markerer fremgangen mod det overordnede mål på 10.000 timer.
+sst = Tale-til-tekst (speech-to-text, STT)
 de-identified = Anonymiseret
 
 ## Error pages
@@ -571,6 +575,7 @@ contribute-more = Klar til at lave { $count } mere?
 record-cta = Start optagelse
 record-platform-not-supported = Vi beklager, men din platform er i øjeblikket ikke understøttet.
 record-platform-not-supported-desktop = Til computere kan du hente den seneste version:
+record-platform-not-supported-ios-non-safari = Hvis du er på iOS skal du bruge Safari for at optage…
 record-must-allow-microphone = Du skal tillade mikrofon-adgang.
 record-no-mic-found = Ingen mikrofon fundet.
 record-error-too-short = Optagelsen var for kort.
@@ -701,6 +706,13 @@ activity-needed-calculation-plural =
 how-many-per-day = Godt! Hvor mange klip pr. dag?
 how-many-a-week = Godt! Hvor mange klip pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?
+receiving-emails-info =
+    Du er i øjeblikket tilmeldt nyhedsbreve med påmindelser om mål, opdateringer
+    om dine fremskridt, og nyheder om Common Voice.
+not-receiving-emails-info =
+    Du er i øjeblikket<bold>IKKE</bold> tilmeldt nyhedsbreve med påmindelser om mål, opdateringer
+    om dine fremskridt, og nyheder om Common Voice.
+help-share-goal = Del dit mål, og hjælp os med at finde flere stemmer
 confirm-goal = Bekræft mål
 share-goal-type-speak = Taler
 share-goal-type-listen = Lytter
@@ -728,5 +740,7 @@ profile-form-delete = Slet profil
 
 ## Landing
 
+welcome-staff = Velkommen til medarbejdere fra { $firma }!
 help-contribute = Du kan hjælpe med at bygge et mangfoldigt open source-datasæt ved at oprette en Common Voice-profil og bidrage med din stemme.
+login-company = Log ind / Tilmeld dig med en mailadresse fra { $company }
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
