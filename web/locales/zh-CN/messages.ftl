@@ -711,6 +711,7 @@ validations =
 
 your-languages = 您的语言
 toward-next-goal = 距离下一个目标
+goal-reached = 目标达成
 clips-you-recorded = 您录制的片段
 clips-you-validated = 您验证的片段
 todays-recorded-progress = 今日 Common Voice 已录片段进度
