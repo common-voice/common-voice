@@ -711,6 +711,7 @@ validations =
 
 your-languages = آپ کی زبانیں
 toward-next-goal = اگلے مقصد کی طرف
+goal-reached = مقصد پورا ہوا
 clips-you-recorded = آپ کے پاس ریکارڈ کردہ تراشے
 clips-you-validated = آپ کے توثیق شدہ تراشے
 todays-recorded-progress = ریکارڈ شدہ تراشوں پر آج کی Common Voice کی پیشرفت
@@ -760,6 +761,20 @@ help-reach-hours-general-pluralized =
     }ایک  زبان میں زاتی گول کے ساتھ
 set-a-goal = ایک مقصد طے کریں
 cant-decide = فیصلہ نہیں کر سکتے۔
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours }  گھنٹا
+       *[other] { $totalHours }  گھنٹے
+    }{ NUMBER($periodMonths) ->
+        [one] { $periodMonths }  مہنہ
+       *[other] { $periodMonths }  مہینے
+    }اگر{ NUMBER($people) ->
+        [one] { $people }  عوام
+       *[other] { $people }  عوام
+    }ریکارڈ{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay }  تراشہ
+       *[other] { $clipsPerDay }  تراشے
+    }ایک دن
 how-many-per-day = زبردست! دن میں کتنے تراشے  ہیں؟
 how-many-a-week = زبردست! ہفتے میں کتنے کلپس ہیں؟
 which-goal-type = کیا آپ بولنا ، سننا چاہتے ہیں یا دونوں؟
