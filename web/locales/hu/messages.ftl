@@ -726,6 +726,7 @@ validations =
 
 your-languages = Az Ön nyelvei
 toward-next-goal = A következő cél felé
+goal-reached = Cél elérve
 clips-you-recorded = Az Ön által rögzített klipek
 clips-you-validated = Az Ön által ellenőrzött klipek
 todays-recorded-progress = A mai Common Voice előrehaladás a klipek rögzítésében
