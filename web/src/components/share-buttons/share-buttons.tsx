@@ -14,7 +14,7 @@ import URLS from '../../urls';
 import './share-buttons.css';
 import { useAction } from '../../hooks/store-hooks';
 
-const SHARE_URL = URLS.HTTP_ROOT;
+const SHARE_URL = URLS.HTTP_ROOT[0];
 
 interface Props extends WithLocalizationProps {
   shareTextId?: string;

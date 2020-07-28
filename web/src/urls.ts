@@ -35,7 +35,7 @@ export default Object.freeze({
   TARGET_SEGMENT_INFO_ES:
     'https://discourse.mozilla.org/t/ayuda-a-crear-el-primer-objetivo-segmentado-de-common-voice/60472/',
 
-  HTTP_ROOT: 'https://commonvoice.mozilla.org',
-  STAGING_ROOT: 'https://commonvoice.allizom.org',
+  HTTP_ROOT: ['https://commonvoice.mozilla.org', 'https://voice.mozilla.org'],
+  STAGING_ROOT: ['https://commonvoice.allizom.org', 'https://voice.mozilla.org'],
   GITHUB_ROOT: 'https://github.com/mozilla/voice-web',
 });

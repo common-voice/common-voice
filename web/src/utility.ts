@@ -66,11 +66,11 @@ export function isMobileResolution(): boolean {
 }
 
 export function isProduction(): boolean {
-  return window.location.origin === URLS.HTTP_ROOT;
+  return URLS.HTTP_ROOT.includes(window.location.origin);
 }
 
 export function isStaging(): boolean {
-  return window.location.origin === URLS.STAGING_ROOT;
+  return URLS.STAGING_ROOT.includes(window.location.origin);
 }
 
 /**

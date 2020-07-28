@@ -308,7 +308,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           <div className="staging-banner">
             You're on the staging server. Voice data is not collected here.{' '}
             <a
-              href={URLS.HTTP_ROOT}
+              href={URLS.HTTP_ROOT[0]}
               target="_blank"
               rel="noopener noreferrer">
               Don't waste your breath.
