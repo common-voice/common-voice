@@ -491,12 +491,16 @@ language = Jazyk
 size = Veľkosť
 cv-license = Licencia
 audio-format = Formát zvuku
+number-of-voices = Počet hlasov
+splits = Rozdelenie
 email-to-download = Pre prevzatie zadajte svoju e-mailovú adresu
+confirm-size = Ste pripravení prevziať <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Súhlasíte</b>, že sa nebudete pokúšať zistiť identitu prispievateľov v datasete Common Voice.
 download-language = Prevziať jazyk { $language }
 subscribe = Odoberať
+other-datasets = Ďalšie hlasové datasety
 feedback-q = Máte spätnú väzbu?
 data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
@@ -566,6 +570,12 @@ contribute = Zapojte sa
 listen = Počúvajte
 skip = Preskočiť
 shortcuts = Skratky
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> nahrávka
+        [few] <bold>{ $count }</bold> nahrávky
+       *[other] <bold>{ $count }</bold> nahrávok
+    }
 goal-help-recording = Pomohli ste projektu Common Voice dosiahnuť <goalPercentage></goalPercentage> z nášho denného cieľa { $goalValue } nahrávok!
 goal-help-validation = Pomohli ste projektu Common Voice dosiahnuť <goalPercentage></goalPercentage> z nášho denného cieľa { $goalValue } kontrol!
 contribute-more =
@@ -657,9 +667,34 @@ overall-accuracy = Celková presnosť
 
 ## Custom Goals
 
+create-custom-goal = Vytvorte si vlastný cieľ
+goal-type = Aký druh cieľa chcete vytvoriť?
+both-speak-and-listen = Oboje
+both-speak-and-listen-long = Oboje (hovoriť aj počúvať)
+daily-goal = Denný cieľ
+weekly-goal = Týždenný cieľ
+easy-difficulty = Jednoduché
+average-difficulty = Stredné
+difficult-difficulty = Ťažké
+pro-difficulty = Veľmi ťažké
+lose-goal-progress-warning = Úpravou cieľa môžete prísť o svoj doterajší postup.
 want-to-continue = Chcete pokračovať?
+lose-changes-warning = Ak teraz odídete, prídete o svoje zmeny
+build-custom-goal = Vytvorte si vlastný cieľ
+set-a-goal = Vytvoriť cieľ
 cant-decide = Nemôžete sa rozhodnúť?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } nahrávku
+        [few] { $count } nahrávky
+       *[other] { $count } nahrávok
+    }
+help-share-goal = Pomôžte nám nájsť viac hlasov, zdieľajte svoje ciele
 confirm-goal = Potvrdiť cieľ
+weekly-goal-created = Váš týždenný cieľ bol vytvorený
+daily-goal-created = Váš denný cieľ bol vytvorený
+track-progress = Sledujte svoj pokrok tu a na stránke štatistík.
+return-to-edit-goal = Kedykoľvek sa môžete vrátiť a svoje ciele upraviť.
 share-goal = Zdieľať môj cieľ
 
 ## Profile Delete
@@ -672,3 +707,4 @@ profile-form-delete = Odstrániť profil
 ## Landing
 
 profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
+read-more-about = Prečítajte si viac na stránke O nás
