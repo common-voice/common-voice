@@ -478,6 +478,8 @@ you = మీరు
 everyone = అందరూ
 contribution-activity = తోడ్పాటు కలాపం
 top-contributors = మేటి తోడ్పాటుదార్లు
+recorded-clips = రికార్డ్ చేసిన క్లిప్పులు
+validated-clips = సరిచూసిన క్లిప్పులు
 total-approved = మొత్తం ఆమోదించబడినవి
 overall-accuracy = మొత్తం ఖచ్చితత్వం
 
@@ -492,3 +494,4 @@ profile-form-delete = ప్రొఫైలును తొలగించు
 
 ## Landing
 
+read-more-about = మా గురించి పేజీలో మరింత చదవండి
