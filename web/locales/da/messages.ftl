@@ -372,6 +372,9 @@ faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassiste
 faq-do-want-native-q = Dansk er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
 faq-do-want-native-a = Ja, vi vil især gerne have din stemme! En del af formålet med Common Voice er at indsamle så mange forskellige accenter som muligt, så stemmegenkendelsen fungerer lige så godt for alle. Det betyder, at bidrag fra folk med andet- eller fremmedsprog er vigtige.
 faq-why-different-speakers-q = Hvorfor har i brug for så mange forskellige stemmer per sprog?
+faq-why-different-speakers-a =
+    De fleste databaser med stemmedata har en overrepræsentation af bestemte demografier, hvilket resulterer i en overvægt af data fra <articleLink>mænd og middelklassen</articleLink>. Underrepræsenterede accenter og dialekter er typisk forbundet med grupper af mennesker, der allerede er marginaliserede. Mange computere har svært ved at forstå kvindestemmer. 
+    Derfor vil vi have variation i vores stemme-database!
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
 faq-why-10k-hours-q = Hvorfor er 10.000 timers validerede stemmeoptagelser målet for alle sprog?
@@ -507,6 +510,7 @@ subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
 other-datasets = Andre stemme-datasæt
 feedback-q = Har du feedback?
+deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
 common-voice-info-new = Har du spørgsmål om Common Voice? Ideer til forbedringer eller feedback om et specifikt sprog? Deltag i vores <discourseLink>Discourse-forum</discourseLink> og fortæl os det.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
