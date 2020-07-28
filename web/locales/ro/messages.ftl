@@ -728,6 +728,7 @@ validations =
 
 your-languages = Limbile tale
 toward-next-goal = Spre obiectivul următor
+goal-reached = Obiectiv atins
 clips-you-recorded = Secvențe vocale pe care le-ai înregistrat
 clips-you-validated = Secvențe vocale pe care le-ai validat
 todays-recorded-progress = Progresul de astăzi pe Common Voice pentru secvențe vocale înregistrate
