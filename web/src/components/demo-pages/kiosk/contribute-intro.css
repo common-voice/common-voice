@@ -47,7 +47,7 @@
     }
     .demo-contribute-text {
         min-width: 205px;
-        margin-right: 5rem;
+        margin-inline-end: 1rem;
         z-index: var(--middle-z-index);
         transition: margin var(--transition-duration-slow) var(--easing);
         .contribute-title {
@@ -142,7 +142,7 @@
         transition: transform 0.5s ease-in-out, color 0.9s var(--easing);
     }
     .demo-contribute-text {
-        margin-right: 9.5rem !important;
+        margin-inline-end: 2.5rem !important;
     }
 }
 

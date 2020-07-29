@@ -8,11 +8,19 @@
 }
 
 #demo-create-account {
+    display: flex;
+    justify-content: center;
     background-color: var(--lighter-grey);
     background-image: url('../../register-section/images/waves.png');
     background-repeat: no-repeat;
     background-size: 100% 20%;
     background-position: bottom;
+
+    .register-section {
+        width: 70%;
+        margin-inline-start: 50px;
+    }
+
     .top {
         flex-direction: column;
         align-items: center;
@@ -24,6 +32,7 @@
         ul {
             background: var(--lighter-grey);
             max-height: 430px;
+            padding-inline-start: 0;
 
             &::-webkit-scrollbar {
                 background-color: var(--grey);
