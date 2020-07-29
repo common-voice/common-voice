@@ -425,9 +425,13 @@ faq-search-for-answers =
 
 about-title = Prečo Common Voice?
 how-does-it-work-title = Ako to funguje?
+about-is-it-valid = Je nahrávka platná?
+about-is-it-valid-text = Nahrávka je označená ako platná po jej schválení iným používateľom
 about-yes-votes = ≥ 2 hlasy pre Áno
+about-yes-votes-text = Aby sa nahrávka dostala do databázy Common Voice, musí byť schválená dvoma rôznymi používateľmi.
 about-no-votes = ≥ 2 hlasy pre Nie
-about-clip-graveyard = Clip Graveyard
+about-clip-graveyard = Cintorín nahrávok
+about-clip-graveyard-text = Cintorín nahrávok obsahuje nahrávky, ktoré sa nedostali do hlavnej databázy Common Voice. Rovnako ako hlavná databáza, je aj cintorín k dispozícii na prevzatie.
 about-partners = Partneri
 about-become-a-partner = Staňte sa partnerom
 about-get-involved = Zapojte sa
@@ -614,6 +618,7 @@ listen-instruction = { $actionType } na <playIcon></playIcon>. Bola veta v poria
 listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pripravení, spustite ďalšiu nahrávku
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
+speak-empty-state-cta = Pridajte ďalšie vety
 record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
 target-segment-add-voice = Pridajte svoj hlas
@@ -656,17 +661,28 @@ validations =
 ## Dashboard
 
 your-languages = Vaše jazyky
+toward-next-goal = Ďalší cieľ
 goal-reached = Cieľ bol dosiahnutý
+clips-you-recorded = Nahrávky, ktoré ste nahrali
+clips-you-validated = Nahrávky, ktoré ste overili
+todays-recorded-progress = Dnešný pokrok Common Voice v nahraných nahrávkach
+todays-validated-progress = Dnešný pokrok Common Voice v overených nahrávkach
 stats = Štatistiky
 awards = Ocenenia
 you = Vy
 everyone = Všetci
 contribution-activity = Aktivita prispievateľov
 top-contributors = Najlepší prispievatelia
+recorded-clips = Nahrané nahrávky
+validated-clips = Overené nahrávky
+total-approved = Celkom schválených
 overall-accuracy = Celková presnosť
+set-visibility = Nastaviť moju viditeľnosť
+show-ranking = Ukázať moje hodnotenie
 
 ## Custom Goals
 
+get-started-goals = Začíname s cieľmi
 create-custom-goal = Vytvorte si vlastný cieľ
 goal-type = Aký druh cieľa chcete vytvoriť?
 both-speak-and-listen = Oboje
@@ -679,10 +695,14 @@ difficult-difficulty = Ťažké
 pro-difficulty = Veľmi ťažké
 lose-goal-progress-warning = Úpravou cieľa môžete prísť o svoj doterajší postup.
 want-to-continue = Chcete pokračovať?
+finish-editing = Nechcete najskôr dokončiť úpravy?
 lose-changes-warning = Ak teraz odídete, prídete o svoje zmeny
 build-custom-goal = Vytvorte si vlastný cieľ
 set-a-goal = Vytvoriť cieľ
 cant-decide = Nemôžete sa rozhodnúť?
+which-goal-type = Chcete hovoriť, počúvať alebo oboje?
+receiving-emails-info = Momentálne máte nastavený príjem e-mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
+not-receiving-emails-info = Momentálne <bold>NEMÁTE</bold> nastavený príjem e-mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } nahrávku
