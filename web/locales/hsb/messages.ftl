@@ -487,6 +487,7 @@ de-identified-explanation = Proces, přez kotryž so profilowe informacije sobus
 ## Error pages
 
 error-title-404 = Njemóžachmy tu stronu za was namakać
+error-content-404 = Snano budźe naša <homepageLink>startowa strona</homepageLink> pomhać? Zo byšće prašenje stajił, wobdźělće so na <matrixLink>chaće zhromadźenstwa Matrix</matrixLink>, zdźělće problemy z websydłom přez <githubLink>GitHub</githubLink> abo wopytajće <discourseLink>naše forumy na Discourse</discourseLink>.
 error-title-503 = Mamy njewočakowany čas staća
 error-code = Zmylk { $code }
 
