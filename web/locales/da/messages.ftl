@@ -338,6 +338,7 @@ avatar-clip-title = Giv din avatar en stemme
 change-your-avatar-clip = Vil du gerne ændre dit lydklip?
 recording-in-progress = Lydoptagelse er i gang
 avatar-clip-recorded = Dit avatar inkludere nu et lydklip!
+record-voice-wave = OPTAG DIN STEMME
 retry-voice-wave-recording = PRØV IGEN
 re-record = OPTAG IGEN
 delete-voice = SLET
