@@ -361,6 +361,10 @@ change-email-setings = Skift din mailadresse via Indstillinger under Login-ident
 
 faq-title = Ofte stillede spørgsmål
 faq-what-cv-q = Hvad er Common Voice?
+faq-what-cv-a =
+    Stemmegenkendelsesteknologi revolutionerer måden, vi interagerer med computere på. Men de nuværende systemer er dyre og proprietære. Common Voice er en del af Mozillas initiativ til at gøre stemmegenkendelsesteknologier bedre og mere tilgængelige for alle. Common Voice er en stor, global database med donerede stemmer, der gør det muligt for alle hurtigt og nemt at træne stemmestyrede programmer på potentielt set set alle sprog.
+    
+    Vi samler ikke kun donerede stemmer på de mest talte sprog, men også på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om. Udover datasættet bag Common Voice  opbygger vi også en open source-talegenkendelse kaldet Deep Speech.
 faq-why-important-q = Hvorfor er det vigtigt?
 faq-how-get-q = Hvordan får jeg fat i data fra Common Voice?
 faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</licenseLink>-licensen på vores <datasetLink>side med datasæt</datasetLink>. Du kan også hente flere andre offentligt tilgængelige datasæt fra samme side.
