@@ -51,7 +51,7 @@ export default function RegisterSection({
       </div>
       <div className="list-and-bg">
         <div className="bg" />
-        <ul key={tab}>
+        <ul key={tab} onScroll={demoMode ? handleSroll: null} ref={ulElement}>
           {(isBenefits ? BENEFITS : WHATS_PUBLIC).map((l, i) => (
             <li
               key={l}
