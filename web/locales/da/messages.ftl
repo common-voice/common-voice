@@ -376,7 +376,7 @@ faq-what-cv-and-deepspeech-a = Datasættet fra Common Voice supplerer Mozillas o
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
 faq-do-want-native-q = Dansk er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
 faq-do-want-native-a = Ja, vi vil især gerne have din stemme! En del af formålet med Common Voice er at indsamle så mange forskellige accenter som muligt, så stemmegenkendelsen fungerer lige så godt for alle. Det betyder, at bidrag fra folk med andet- eller fremmedsprog er vigtige.
-faq-why-different-speakers-q = Hvorfor har i brug for så mange forskellige stemmer per sprog?
+faq-why-different-speakers-q = Hvorfor har I brug for så mange forskellige stemmer per sprog?
 faq-why-different-speakers-a =
     De fleste databaser med stemmedata har en overrepræsentation af bestemte demografier, hvilket resulterer i en overvægt af data fra <articleLink>mænd og middelklassen</articleLink>. Underrepræsenterede accenter og dialekter er typisk forbundet med grupper af mennesker, der allerede er marginaliserede. Mange computere har svært ved at forstå kvindestemmer. 
     Derfor vil vi have variation i vores stemme-database!
