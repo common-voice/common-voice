@@ -2,19 +2,19 @@
   "name": "Common Voice",
   "description": "Common Voice is Mozilla's initiative to help teach machines how real people speak.",
   "repository": {
-    "url": "https://github.com/mozilla/voice-web",
+    "url": "https://github.com/mozilla/common-voice",
     "license": "MPL2",
-    "tests": "https://travis-ci.org/mozilla/voice-web/"
+    "tests": "https://travis-ci.org/mozilla/common-voice/"
   },
   "participate": {
     "home": "https://commonvoice.mozilla.org",
-    "docs": "https://github.com/mozilla/voice-web/blob/master/CONTRIBUTING.md",
+    "docs": "https://github.com/mozilla/common-voice/blob/main/CONTRIBUTING.md",
     "forum": "https://discourse.mozilla.org/c/voice",
     "matrix": "https://chat.mozilla.org/#/room/#common-voice:mozilla.org"
   },
   "bugs": {
-    "list": "https://github.com/mozilla/voice-web/issues",
-    "report": "https://github.com/mozilla/voice-web/issues/new"
+    "list": "https://github.com/mozilla/common-voice/issues",
+    "report": "https://github.com/mozilla/common-voice/issues/new"
   },
   "urls": {
     "prod": "https://commonvoice.mozilla.org",
