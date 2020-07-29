@@ -16,6 +16,7 @@ import home from './assets/home.svg';
 import upload from './assets/upload.svg';
 import { PageContentType } from './types';
 import { Localized } from '@fluent/react';
+import NotSupported from '../not-supported';
 
 const BottomRightPane = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -123,19 +124,22 @@ function Kiosk(props: KioskProps) {
   const { pageContent } = props;
 
   return (
-    <div id="kiosk-container">
-      <div id="pattern-bg">
-        <div id="gradient"></div>
-        <div id="mesh"></div>
+    <>
+      <NotSupported />
+      <div id="kiosk-container">
+        <div id="pattern-bg">
+          <div id="gradient"></div>
+          <div id="mesh"></div>
+        </div>
+        <div id="kiosk-card">
+          <pageContent.Card />
+        </div>
+        <BottomRightPane />
+        <div id="kiosk--content">
+          <pageContent.Content />
+        </div>
       </div>
-      <div id="kiosk-card">
-        <pageContent.Card />
-      </div>
-      <BottomRightPane />
-      <div id="kiosk--content">
-        <pageContent.Content />
-      </div>
-    </div>
+    </>
   );
 }
 

@@ -15,6 +15,7 @@ import { connect } from 'react-redux';
 import { LOCALES_WITH_NAMES } from '../../layout/layout';
 import { useHistory } from 'react-router';
 import { replacePathLocale } from '../../../utility';
+import NotSupported from '../not-supported';
 
 const mapDispatchToProps = {
   setLocale: Locale.actions.set,
@@ -46,43 +47,46 @@ export default connect<PropsFromState, PropsFromDispatch>(
     const history = useHistory();
 
     return (
-      <div id="intro-container">
-        <div id="intro-container--gradient-layer"></div>
-        <img src={robot} id="robot" alt="red robot" />
-        <div id="intro-container--text-box">
-          <Localized id="demo-welcome">
-            <h1 id="intro-container--text-box__text-header" />
-          </Localized>
-          <Localized id="demo-welcome-subheader">
-            <p id="intro-container--text-box__text-body" />
-          </Localized>
+      <>
+        <NotSupported />
+        <div id="intro-container">
+          <div id="intro-container--gradient-layer"></div>
+          <img src={robot} id="robot" alt="red robot" />
+          <div id="intro-container--text-box">
+            <Localized id="demo-welcome">
+              <h1 id="intro-container--text-box__text-header" />
+            </Localized>
+            <Localized id="demo-welcome-subheader">
+              <p id="intro-container--text-box__text-body" />
+            </Localized>
+          </div>
+          <LinkButton
+            rounded
+            to={URLS.DEMO_DATASETS}
+            id="intro-container--btn-get-started">
+            <Localized id="demo-get-started">
+              <span />
+            </Localized>
+            <ArrowRight id="arrow-right" />
+          </LinkButton>
+          <LabeledSelect
+            className="localization-select"
+            value={locale}
+            onChange={(event: any) => {
+              let newLocale = event.target.value;
+              setLocale(newLocale);
+              history.push(
+                replacePathLocale(history.location.pathname, newLocale)
+              );
+            }}>
+            {LOCALES_WITH_NAMES.map(([code, name]) => (
+              <option key={code} value={code}>
+                {name}
+              </option>
+            ))}
+          </LabeledSelect>
         </div>
-        <LinkButton
-          rounded
-          to={URLS.DEMO_DATASETS}
-          id="intro-container--btn-get-started">
-          <Localized id="demo-get-started">
-            <span />
-          </Localized>
-          <ArrowRight id="arrow-right" />
-        </LinkButton>
-        <LabeledSelect
-          className="localization-select"
-          value={locale}
-          onChange={(event: any) => {
-            let newLocale = event.target.value;
-            setLocale(newLocale);
-            history.push(
-              replacePathLocale(history.location.pathname, newLocale)
-            );
-          }}>
-          {LOCALES_WITH_NAMES.map(([code, name]) => (
-            <option key={code} value={code}>
-              {name}
-            </option>
-          ))}
-        </LabeledSelect>
-      </div>
+      </>
     );
   })
 );
