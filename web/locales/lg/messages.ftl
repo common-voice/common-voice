@@ -404,11 +404,16 @@ faq-how-calc-hours-q = Common voice ebala etya essawa?
 faq-how-calc-hours-a = Okubala essawa tutebereza obuwanvu bwa buli likodingi ne tumala ne tukubisamu n'omugatte gwa likodingi eziri mu nnimi zonna.
 faq-where-src-from-2-q = Ensibuko y'ebigambo evaawa?
 faq-where-src-from-2-a =
-    Ensibuko ya text yaffe ekolebwa ebituweereddwa ba contributors ebiri orignal ne dialogue za script eza movie eziva mu domain ey'olukale  nga <italic> Obulamu obulungi.<italic>
-     Osobola okulaba ensibuko y'emboozi zaffe muno <githubLink>GitHub folder</githubLink>.
+    Ebigambo byaffe biva mu batuyambako nga gwe ne mu mboozi eza filimu ezili buli wamu nga <italic>It’s a Wonderful Life</italic>.
+    
+    Osobola okulaba ensibuko y'emboozi zaffe mweno <githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-q = Lwaki tetubuuza bantu kusoma mu bitabo oba Wikipedia ezili mu nnimi endala?
+faq-why-account-q = Lwaki nzigulawo akawunti?
 faq-is-account-public-q = Ebinfaako mu akawunti yange bilabika mu lwatu?
+faq-how-privacy-q = Mukakasa mutya nti ebikwata ku bagaba amaloboozi gabwe bikumibwa mu kyama?
 faq-what-is-cv = Common Voice Ky'ekiki?
+faq-search-for-answers =
+    .label = Nnonya answer
 
 ## ABOUT US
 
