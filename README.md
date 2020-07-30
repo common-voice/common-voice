@@ -4,7 +4,7 @@ This is the web app for Mozilla Common Voice, a platform for collecting speech d
 
 ### Official Website
 
-[voice.mozilla.org](https://commonvoice.mozilla.org)
+[commonvoice.mozilla.org](https://commonvoice.mozilla.org)
 
 ### Code of Conduct
 
