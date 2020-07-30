@@ -37,5 +37,5 @@ export default Object.freeze({
 
   HTTP_ROOT: 'https://commonvoice.mozilla.org',
   STAGING_ROOT: 'https://commonvoice.allizom.org',
-  GITHUB_ROOT: 'https://github.com/mozilla/voice-web',
+  GITHUB_ROOT: 'https://github.com/mozilla/common-voice',
 });
