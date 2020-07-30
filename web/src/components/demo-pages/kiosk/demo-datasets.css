@@ -87,6 +87,15 @@
     padding-inline-start: var(--right-section-align-padding);
     padding-inline-end: 0;
 
+    .checkbox-container {
+        input:checked {
+            background-color: var(--black);
+        }
+        svg path {
+            fill: white;
+        }
+    }
+
     #download-email,
     .labeled-checkbox {
         margin-bottom: 1.5rem;
