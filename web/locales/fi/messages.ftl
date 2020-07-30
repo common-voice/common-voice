@@ -476,10 +476,9 @@ sst-explanation = Puheentunnistus (STT) muuntaa äänen tekstiksi.
 de-identified = Tunnistamattomaksi tekeminen
 de-identified-explanation = Prosessi, jolla avustajien profiilitiedot peitetään lahjoitetuista ääninäytteistä aineistoa paketoitaessa jakelua varten.
 
-## NotFound
+## Error pages
 
-notfound-title = Ei löytynyt
-notfound-content = Valitettavasti en tiedä mitä etsit.
+error-code = Virhe { $code }
 
 ## Data
 
@@ -498,6 +497,7 @@ data-bundle-button = Lataa koottu aineistokokoelma
 data-bundle-description = Common Voice -aineisto sekä kaikki ylläolevat aineistot
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Useita
+data-download-singleword-title = Lataa yhden sanan kohdesegmentti
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy
@@ -649,7 +649,7 @@ share-clip = Jaa leikkeesi
 share-common-voice = Jaa ilosanomaa Common Voicesta
 review-instruction = Tarkasta ja uudelleenäänitä tarvittaessa
 record-submit-tooltip = { $actionType } lähetä kun valmis
-clips-uploaded = Näytteitä ladattu
+clips-uploaded = Näytteet ladattu
 record-abort-title = Viimeistele äänittäminen ensin?
 record-abort-text = Poistuminen tarkoittaa, että menetät edistymisesi
 record-abort-submit = Lähetä äänileikkeet
@@ -715,6 +715,7 @@ validations =
 
 your-languages = Kielesi
 toward-next-goal = Seuraavaan tavoitteeseen
+goal-reached = Tavoite saavutettu
 clips-you-recorded = Tallentamiasi näytteitä
 clips-you-validated = Tarkastamiasi näytteitä
 todays-recorded-progress = Tämän päivän edistyminen tallennettuja näytteitä
@@ -736,12 +737,13 @@ show-ranking = Näytä sijoitukseni
 
 ## Custom Goals
 
-get-started-goals = Aloita tavoitteiden kanssa
+get-started-goals = Aseta tavoite
 create-custom-goal = Luo mukautettu tavoite
+goal-type = Millaisen tavoitteen haluat?
 both-speak-and-listen = Kummatkin
 both-speak-and-listen-long = Molemmat (puhuminen ja kuunteleminen)
 daily-goal = Päivittäinen tavoite
-weekly-goal = Viikottainen tavoite
+weekly-goal = Viikoittainen tavoite
 easy-difficulty = Helppo
 average-difficulty = Keskitaso
 difficult-difficulty = Vaikea
@@ -751,6 +753,16 @@ want-to-continue = Haluatko jatkaa?
 finish-editing = Viimeistelläänkö muokkaaminen ensin?
 lose-changes-warning = Nyt poistumalla muutokset katoavat
 build-custom-goal = Rakenna mukautettu tavoite
+help-reach-hours-pluralized =
+    Auta saavuttamaan{ NUMBER($hours) ->
+        [one] { $hours } tunti
+       *[other] { $hours } tuntia
+    }kielelle { $language } henkilökohtaisen tavoitteen avulla
+help-reach-hours-general-pluralized =
+    Auta Common Voicea saavuttamaan{ NUMBER($hours) ->
+        [one] { $hours } tunti
+       *[other] { $hours } tuntia
+    }kielessä henkilökohtaisen tavoitteen avulla
 set-a-goal = Aseta tavoite
 cant-decide = Vaikeuksia päättää?
 how-many-per-day = Hienoa! Kuinka monta näytettä päivittäin?
@@ -775,7 +787,7 @@ share-goal-type-listen = Kuunteleminen
 share-goal-type-both = Puhuminen ja kuunteleminen
 # LINK will be replaced with the current URL
 goal-share-text = Loin juuri oman tavoitteeni äänen lahjoitukselle #CommonVoice -sivustolle -- liity mukaan ja auta koneita ymmärtämään oikeiden ihmisten puhetta { $link }
-weekly-goal-created = Viikottainen tavoitteesi on luotu
+weekly-goal-created = Viikoittainen tavoitteesi on luotu
 daily-goal-created = Päivittäinen tavoitteesi on luotu
 track-progress = Seuraa edistymistä täällä sekä tilastosivullasi.
 return-to-edit-goal = Palaa tänne muokataksesi tavoitettasi milloin tahansa.
