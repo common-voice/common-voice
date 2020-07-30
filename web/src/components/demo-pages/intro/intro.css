@@ -10,7 +10,7 @@ html {
     width: 100vw;
     background: var(--white) url('./assets/waves.svg') no-repeat center;
     background-size: contain;
-
+    background-position-y: 15%;
     .localization-select {
         width: 200px;
         position: absolute;
