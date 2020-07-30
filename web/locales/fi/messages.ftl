@@ -192,7 +192,6 @@ listen-goal-text = Näytettä tarkastettu
 hours-recorded = Tunteja tallennettu
 hours-validated = Tunteja tarkastettu
 voices-online = Ääniä aktiivisena
-todays-progress = Tämän päivän edistyminen
 help-reach-goal = Auta meitä saavuttamaan { $goal }
 read-terms-q = Oletko lukenut käyttöehtomme?
 ready-to-record = Valmiina lahjoittamaan äänesi?
@@ -673,7 +672,7 @@ target-segment-learn-more = Lue lisää
 
 ## Reporting
 
-report = Raportti
+report = Raportoi
 report-title = Lähetä ilmoitus
 report-ask = Mitä ongelmia tässä lauseessa on?
 report-offensive-language = Loukkaavaa kieltä
