@@ -398,7 +398,14 @@ faq-why-different-speakers-a = Amaloboozi getuyina ag'asinga g'atendekebwa n'obu
 faq-why-my-lang-q = Lwaki olulimi lwange teluriimu?
 faq-why-my-lang-new-a = Mozilla telonda atte tetintimya lulimi lw'ona okusinga olulala. Wabula, Common voice etambuzibwa community,  naye kitwala <multilangLink>ebikolwa bingi okugattamu olulimi olupya</multilangLink> n'otandika okukunganya amaloboozi agabawereddwa. Okusooka, website ya Common voice yetaga okuvunulwa okusobozesa ba memba ba community okufuna obumanyirivu mu nnimi zabwe. Ekiddako, twetaga okukunganya sentensi nyingi ezitaliiko bwa nanyini abantu ze banasoma. Kasita ebyo ebyetagisa byombi bitukirizibwa nga olulimi "luteekebwa" ku Common Voice abantu batandike okulikodinga n'okusunsula ebiwereddwa abalala. Bw'oba oyagala ku lonkinga lulimi lupya, genda ku <sentenceCollectorLink>kakunganya sentensi</sentenceCollectorLink> okutandika.
 faq-what-quality-q = Quality eya audio ki eyetagisibwa eddoboozi okukozesebwa mu dataset?
+faq-why-10k-hours-q = Lwaki essawa 10,000 ensunsule zezetagisa ku buli lulimi ng'okwata eddoboozi?
+faq-why-10k-hours-a = Guno gwe muwendo gw'essaawa ogwetagisa okutendeka sisitimu efuula eddoboozi ebigambo.
+faq-how-calc-hours-q = Common voice ebala etya essawa?
+faq-how-calc-hours-a = Okubala essawa tutebereza obuwanvu bwa buli likodingi ne tumala ne tukubisamu n'omugatte gwa likodingi eziri mu nnimi zonna.
 faq-where-src-from-2-q = Ensibuko y'ebigambo evaawa?
+faq-where-src-from-2-a =
+    Ensibuko ya text yaffe ekolebwa ebituweereddwa ba contributors ebiri orignal ne dialogue za script eza movie eziva mu domain ey'olukale  nga <italic> Obulamu obulungi.<italic>
+     Osobola okulaba ensibuko y'emboozi zaffe muno <githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-q = Lwaki tetubuuza bantu kusoma mu bitabo oba Wikipedia ezili mu nnimi endala?
 faq-is-account-public-q = Ebinfaako mu akawunti yange bilabika mu lwatu?
 faq-what-is-cv = Common Voice Ky'ekiki?
