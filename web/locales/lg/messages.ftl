@@ -418,9 +418,19 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Lwaki Common Voice?
+about-subtitle = Common Voice emu ku nkola za Mozilla okuyamba okusomesa masini engeri abantu gye bogera mu. Okwongereza ku dataset ya Common Voice tuzimba ne yingini etegera amaloboozi eyitibwa Deep Speech.
 how-does-it-work-title = Ekola etya?
 about-speak = Yogera
+about-speak-text = Abayamba balikodinga obuloboozi nga basoma sentensi eziwebwa abalala.
+about-listen-queue = Nga-W'obiwuliriza
+about-listen-queue-text = Obuloboozi butekebwa mu ngeri en'ebutegeka okuwulirizibwa.
 about-listen = Wulira
+about-listen-text = Abantu basunsula obutuufu bw'obuloboozi obuwebwa, okukebera oba omwogezi yasoma sentensi bulungi.
+about-is-it-valid = Akaloboozi katuufu?
+about-is-it-valid-text = Akaloboozi kalambibwa "valid" nga omukozesi akawadde akalulu ka Ye.
+about-yes-votes = ≥ Obululu bwa Ye 2
+about-yes-votes-text = Okutekebwa mu dataset wa Common Voice, akaloboozi kalina okusunsulwa abantu babiri.
+about-no-votes = ≥ 2 Tewali bululu
 about-clip-graveyard = Amalaalo G'obuloboozi
 about-get-involved = Twegatteko
 about-nav-why-common-voice = Lwaki?
