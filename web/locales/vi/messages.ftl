@@ -717,6 +717,7 @@ validations =
 
 your-languages = Ngôn ngữ của bạn
 toward-next-goal = Hướng tới mục tiêu tiếp theo
+goal-reached = Đã đạt được mục tiêu
 clips-you-recorded = Clip bạn đã ghi
 clips-you-validated = Clip bạn đã xác thực
 todays-recorded-progress = Tiến trình giọng nói chung hôm nay trên các clip được ghi lại

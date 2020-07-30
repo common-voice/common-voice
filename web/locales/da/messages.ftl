@@ -235,6 +235,7 @@ whats-public = Hvad er offentligt?
 email-not-public = Vi offentliggør ikke din mailadresse.
 recordings-and-locale-public = Antallet af optagelser og hvilke sprog du bidrager til vil være offentligt.
 username-optin-public = Du kan vælge at gøre dit brugernavn offentligt eller anonymt.
+demographic-deidentified-clarity = Valgfrit indsendte demografiske data (fx alder, køn, sprog og accent) vil aldrig blive offentliggjort på din profil eller blive sammenkædet med din profil i datasættet. Enkelte stemmeklip bliver tilknyttet med demografiske data for at gøre mere nøjagtige analyser mulige - til eksempel, når en forsker ønsker at rette en træningsmodel mod et bestemt demografisk segment.
 username-email-not-demographic = Dit brugernavn og din mailadresse vil ikke blive forbundet med de offentliggjorte data.
 
 ## Speak & Listen Shortcuts
@@ -337,6 +338,7 @@ avatar-clip-title = Giv din avatar en stemme
 change-your-avatar-clip = Vil du gerne ændre dit lydklip?
 recording-in-progress = Lydoptagelse er i gang
 avatar-clip-recorded = Dit avatar inkludere nu et lydklip!
+record-voice-wave = OPTAG DIN STEMME
 retry-voice-wave-recording = PRØV IGEN
 re-record = OPTAG IGEN
 delete-voice = SLET
@@ -360,6 +362,10 @@ change-email-setings = Skift din mailadresse via Indstillinger under Login-ident
 
 faq-title = Ofte stillede spørgsmål
 faq-what-cv-q = Hvad er Common Voice?
+faq-what-cv-a =
+    Stemmegenkendelsesteknologi revolutionerer måden, vi interagerer med computere på. Men de nuværende systemer er dyre og proprietære. Common Voice er en del af Mozillas initiativ til at gøre stemmegenkendelsesteknologier bedre og mere tilgængelige for alle. Common Voice er en stor, global database med donerede stemmer, der gør det muligt for alle hurtigt og nemt at træne stemmestyrede programmer på potentielt set set alle sprog.
+    
+    Vi samler ikke kun donerede stemmer på de mest talte sprog, men også på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om. Udover datasættet bag Common Voice  opbygger vi også en open source-talegenkendelse kaldet Deep Speech.
 faq-why-important-q = Hvorfor er det vigtigt?
 faq-how-get-q = Hvordan får jeg fat i data fra Common Voice?
 faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</licenseLink>-licensen på vores <datasetLink>side med datasæt</datasetLink>. Du kan også hente flere andre offentligt tilgængelige datasæt fra samme side.
@@ -370,7 +376,10 @@ faq-what-cv-and-deepspeech-a = Datasættet fra Common Voice supplerer Mozillas o
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
 faq-do-want-native-q = Dansk er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
 faq-do-want-native-a = Ja, vi vil især gerne have din stemme! En del af formålet med Common Voice er at indsamle så mange forskellige accenter som muligt, så stemmegenkendelsen fungerer lige så godt for alle. Det betyder, at bidrag fra folk med andet- eller fremmedsprog er vigtige.
-faq-why-different-speakers-q = Hvorfor har i brug for så mange forskellige stemmer per sprog?
+faq-why-different-speakers-q = Hvorfor har I brug for så mange forskellige stemmer per sprog?
+faq-why-different-speakers-a =
+    De fleste databaser med stemmedata har en overrepræsentation af bestemte demografier, hvilket resulterer i en overvægt af data fra <articleLink>mænd og middelklassen</articleLink>. Underrepræsenterede accenter og dialekter er typisk forbundet med grupper af mennesker, der allerede er marginaliserede. Mange computere har svært ved at forstå kvindestemmer. 
+    Derfor vil vi have variation i vores stemme-database!
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
 faq-why-10k-hours-q = Hvorfor er 10.000 timers validerede stemmeoptagelser målet for alle sprog?
@@ -397,6 +406,9 @@ faq-search-for-answers =
 
 about-title = Hvorfor Common Voice?
 about-subtitle = Common Voice er en del af Mozillas initiativ, der skal hjælpe maskiner med at forstå, hvordan mennesker snakker i virkeligheden. Udover Common Voice-datasættet bygger vi også en open source-tjeneste til talegenkendelse ved navn Deep Speech.
+about-header-description =
+    Begge projekter er en del af vores forsøg på at gøre digital tale-teknologi mere tilgængeligt. Teknologi, der kan genkende stemmer, giver vores computere og telefoner en mere menneskelig dimension - men udviklerne bag teknologierne har brug for enorme mængder stemmedata for at kunne bygge dem. I øjeblikket er hovedparten af disse data både dyre og underlagt ophavsret.
+    Vi vil gøre stemmedata offentligt tilgængelige - gratis. Data skal repræsentere, hvor forskellige folk faktisk er. Sammen kan vi gøre stemmegenkendelse bedre for alle.
 how-does-it-work-title = Hvordan fungerer det?
 about-speak = Tal
 about-listen-queue = Lytte-kø
@@ -429,6 +441,7 @@ localization = Oversættelse
 sentence-collection = Indsamling af sætninger
 hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
 hours-validated-explanation = Antallet af stemmeoptagelser i timer, der er blevet valideret af 2 ud af 3 brugere med en "Ja"-stemme. Disse markerer fremgangen mod det overordnede mål på 10.000 timer.
+sst = Tale-til-tekst (speech-to-text, STT)
 de-identified = Anonymiseret
 
 ## Error pages
@@ -468,6 +481,12 @@ review-delete-recordings = Slet mine optagelser
 ## Datasets Page
 
 datasets-headline = Vi bygger et open source-datasæt af stemmer på mange forskellige sprog, som alle kan bruge til at træne taleaktiverede programmer.
+datasets-positioning =
+    Vi mener, at store, offentligt tilgængelige stemme-datasæt vil give grobund for innovation og sund kommerciel konkurrence indenfor stemmeteknologier baseret på maskinlæring.
+    
+    Common Voice-datasættet på flere sprog er allerede verdens største open source-samling af stemme-data af sin slags - men det er ikke det eneste.
+    
+    På denne side finder du en oversigt over andre open source-samlinger af stemme-datasæt, og - i takt med at Common Voice vokser - en oversigt over vores udgivelser og opdateringer.
 language = Sprog
 # File size in gigabytes
 size = Størrelse
@@ -496,6 +515,7 @@ subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
 other-datasets = Andre stemme-datasæt
 feedback-q = Har du feedback?
+deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
 common-voice-info-new = Har du spørgsmål om Common Voice? Ideer til forbedringer eller feedback om et specifikt sprog? Deltag i vores <discourseLink>Discourse-forum</discourseLink> og fortæl os det.
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
@@ -570,6 +590,7 @@ contribute-more = Klar til at lave { $count } mere?
 record-cta = Start optagelse
 record-platform-not-supported = Vi beklager, men din platform er i øjeblikket ikke understøttet.
 record-platform-not-supported-desktop = Til computere kan du hente den seneste version:
+record-platform-not-supported-ios-non-safari = Hvis du er på iOS skal du bruge Safari for at optage…
 record-must-allow-microphone = Du skal tillade mikrofon-adgang.
 record-no-mic-found = Ingen mikrofon fundet.
 record-error-too-short = Optagelsen var for kort.
@@ -700,6 +721,13 @@ activity-needed-calculation-plural =
 how-many-per-day = Godt! Hvor mange klip pr. dag?
 how-many-a-week = Godt! Hvor mange klip pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?
+receiving-emails-info =
+    Du er i øjeblikket tilmeldt nyhedsbreve med påmindelser om mål, opdateringer
+    om dine fremskridt, og nyheder om Common Voice.
+not-receiving-emails-info =
+    Du er i øjeblikket<bold>IKKE</bold> tilmeldt nyhedsbreve med påmindelser om mål, opdateringer
+    om dine fremskridt, og nyheder om Common Voice.
+help-share-goal = Del dit mål, og hjælp os med at finde flere stemmer
 confirm-goal = Bekræft mål
 share-goal-type-speak = Taler
 share-goal-type-listen = Lytter
@@ -727,5 +755,7 @@ profile-form-delete = Slet profil
 
 ## Landing
 
+welcome-staff = Velkommen til medarbejdere fra { $firma }!
 help-contribute = Du kan hjælpe med at bygge et mangfoldigt open source-datasæt ved at oprette en Common Voice-profil og bidrage med din stemme.
+login-company = Log ind / Tilmeld dig med en mailadresse fra { $company }
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere

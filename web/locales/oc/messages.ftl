@@ -722,6 +722,7 @@ validations =
 
 your-languages = Vòstras lengas
 toward-next-goal = Cap al seguent objectiu
+goal-reached = Objectiu atengut
 clips-you-recorded = Mòstras qu’enregistrèretz
 clips-you-validated = Mòstras que validèretz
 todays-recorded-progress = Progression d’uèi de Common Voice tocant las mòstras enregistradas

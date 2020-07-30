@@ -16,7 +16,7 @@ Help us add more sentences for other volunteers to read. We've written [a detail
 
 ### Bug Fixes and Feature Enhancements
 
-All of our current issues can be found here on GitHub. Anything with a [help wanted](https://github.com/mozilla/voice-web/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) tag is definitely up for grabs. If you're interested in an issues without this tag, best to ask first to make sure our vision of it aligns.
+All of our current issues can be found here on GitHub. Anything with a [help wanted](https://github.com/mozilla/common-voice/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) tag is definitely up for grabs. If you're interested in an issues without this tag, best to ask first to make sure our vision of it aligns.
 
 #### Project requirements
 
@@ -36,19 +36,19 @@ We provide a [docker-compose](https://docs.docker.com/compose/) setup to orchest
 
 ##### Setup
 
-[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer. Then run the following commands to spin off `voice-web`:
+[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer. Then run the following commands to spin off `common-voice`:
 
 ```
-> cd voice-web
+> cd common-voice
 > docker-compose up
 ```
 
 This is going to:
 
-- Launch a mysql instance configured for `voice-web`
+- Launch a mysql instance configured for `common-voice`
 - Launch an s3proxy instance to store files locally and avoid going through setting up AWS S3.
 - Mount the project using a Docker volume to allow reflecting changes to the codebase directly to the container.
-- Launch `voice-web` server
+- Launch `common-voice` server
 
 You can visit the website at [http://localhost:9000](http://localhost:9000).
 
@@ -91,7 +91,7 @@ You may have to run these commands as root/superuser.
 
 [Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
 
-Either create a MySQL superuser that that uses the default `DB_ROOT_USER` and `DB_ROOT_PASS` values from `/server/src/config-helper.ts` or [create your own config](https://github.com/mozilla/voice-web/blob/master/CONTRIBUTING.md#configuration).
+Either create a MySQL superuser that that uses the default `DB_ROOT_USER` and `DB_ROOT_PASS` values from `/server/src/config-helper.ts` or [create your own config](https://github.com/mozilla/common-voice/blob/main/CONTRIBUTING.md#configuration).
 
 Then `cd` into the project directory and enter the following commands:
 
@@ -144,9 +144,9 @@ You do not need to set up NewRelic, except if you fix anything related to that.
 During the server start (after running ‘yarn start’), you might notice an error log similar to this:
 
 ```
-at Class.exports.up (/Users/admin/Desktop/myprojects/mozilla/voice-web-master/server/src/lib/model/db/migrations/20180910121256-user-sso-fields.ts:2:13)
+at Class.exports.up (/Users/admin/Desktop/myprojects/mozilla/common-voice-master/server/src/lib/model/db/migrations/20180910121256-user-sso-fields.ts:2:13)
 ....
-[BE]       at /Users/admin/Desktop/myprojects/mozilla/voice-web-master/node_modules/db-migrate/lib/migrator.js:237:31 {
+[BE]       at /Users/admin/Desktop/myprojects/mozilla/common-voice-master/node_modules/db-migrate/lib/migrator.js:237:31 {
 [BE]     code: 'ER_BLOB_CANT_HAVE_DEFAULT',
 [BE]     errno: 1101,
 [BE]     sqlMessage: "BLOB, TEXT, GEOMETRY or JSON column 'username' can't have a default value",
@@ -225,7 +225,7 @@ Migrations are always run when the server is started.
 
 #### Making Strings localizable
 
-We're using [Fluent](http://projectfluent.org/) to localize strings. You can find examples all over the frontend code. Strings that appear in the [english message files](https://github.com/mozilla/voice-web/tree/master/web/locales/en), can then be translated on [Pontoon](https://pontoon.mozilla.org/projects/common-voice/). Some things to note regarding string changes are documented on [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_content_best_practices#Changing_existing_strings).
+We're using [Fluent](http://projectfluent.org/) to localize strings. You can find examples all over the frontend code. Strings that appear in the [english message files](https://github.com/mozilla/common-voice/tree/main/web/locales/en), can then be translated on [Pontoon](https://pontoon.mozilla.org/projects/common-voice/). Some things to note regarding string changes are documented on [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_content_best_practices#Changing_existing_strings).
 
 #### Import languages
 
@@ -253,7 +253,7 @@ For more options, just type:
 
 The project is organized into the following directories:
 
-- _android_: The Android app, a simple webview wrapper of voice.mozilla.org. This app is currently not published.
+- _android_: The Android app, a simple webview wrapper of commonvoice.mozilla.org. This app is currently not published.
 - _docs_: Design and data specifications for Common Voice.
 - _ios **(deprecated)**_: We used to maintain a native iOS app as a workaround for microphone issues in mobile Safari. As of early 2020, we officially support voice recording in iOS Safari. The Common Voice iOS app has been decommissioned.
 - _server_: The server-side app logic, written in [TypeScript](http://www.typescriptlang.org/).
@@ -262,7 +262,7 @@ The project is organized into the following directories:
 
 ## Submitting an Issue
 
-Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/voice-web/issues).
+Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/common-voice/issues).
 
 ## Something Else?
 

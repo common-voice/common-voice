@@ -1,7 +1,7 @@
 1. General information
 ======================
 
-Common Voice is a corpus of speech data read by users on the Common Voice website (https://voice.mozilla.org/), and based upon text from a number of public domain sources like user submitted blog posts, old books, movies, and other public speech corpora. Its primary purpose is to enable the training and testing of automatic speech recognition (ASR) systems, but we encourage its use for other purposes as well.
+Common Voice is a corpus of speech data read by users on the Common Voice website (https://commonvoice.mozilla.org/), and based upon text from a number of public domain sources like user submitted blog posts, old books, movies, and other public speech corpora. Its primary purpose is to enable the training and testing of automatic speech recognition (ASR) systems, but we encourage its use for other purposes as well.
 
 
 2. Structure
@@ -44,7 +44,7 @@ Each row of a csv file represents a single audio clip, and contains the followin
   female
   other
 * accent - accent of the speaker, if the speaker reported it
-  us: 'United States English'                                                                                                                                          
+  us: 'United States English'
   australia: 'Australian English'
   england: 'England English'
   canada: 'Canadian English'

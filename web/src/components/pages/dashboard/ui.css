@@ -4,7 +4,7 @@
 
     .numerator {
         line-height: 1;
-        font-size: 48px;
+        font-size: 38px;
 
         @media (--md-down) {
             font-size: 24px;
@@ -16,6 +16,7 @@
         flex-direction: row;
         flex-shrink: 0;
         white-space: pre-wrap;
+        font-size: 12px;
     }
 }
 
@@ -45,5 +46,9 @@
         transform: translate(-50%, -50%);
         justify-content: center;
         font-weight: 600;
+    }
+
+    .md-right {
+        left: 55% !important;
     }
 }

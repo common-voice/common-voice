@@ -721,6 +721,7 @@ validations =
 
 your-languages = Dine språk
 toward-next-goal = Mot neste mål
+goal-reached = Målet oppnådd
 clips-you-recorded = Lydklipp du har spilt inn
 clips-you-validated = Lydklipp du har validert
 todays-recorded-progress = Dagens framgang på antall lydklipp spilt inn

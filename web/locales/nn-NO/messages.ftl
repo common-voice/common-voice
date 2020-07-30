@@ -720,6 +720,7 @@ validations =
 
 your-languages = Språka dine
 toward-next-goal = Mot neste mål
+goal-reached = Målet oppnådd
 clips-you-recorded = Lydklipp du har spelt inn
 clips-you-validated = Lydklipp du har validert
 todays-recorded-progress = Framgangen i dag på Common Voice for innspelte lydklipp

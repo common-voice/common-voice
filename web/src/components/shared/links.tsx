@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { TextButton } from '../ui/ui';
+import URLS from '../../urls';
 import { trackGlobal } from '../../services/tracker';
 import ContactModal from '../contact-modal/contact-modal';
 import { useLocale, useLocalizedDiscourseURL } from '../locale-helpers';
@@ -17,7 +18,7 @@ export const GitHubLink = ({ dispatch, ...props }: SharedLinkProps) => {
   return (
     <a
       target="_blank"
-      href="https://github.com/mozilla/voice-web"
+      href={`${URLS.GITHUB_ROOT}`}
       rel="noopener noreferrer"
       onClick={() => trackGlobal('github', locale)}
       {...props}

@@ -1,4 +1,5 @@
 import { UserClient } from 'common';
+import URLS from './urls';
 
 const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g');
 
@@ -65,11 +66,11 @@ export function isMobileResolution(): boolean {
 }
 
 export function isProduction(): boolean {
-  return window.location.origin === 'https://voice.mozilla.org';
+  return window.location.origin === URLS.HTTP_ROOT;
 }
 
 export function isStaging(): boolean {
-  return window.location.origin === 'https://voice.allizom.org';
+  return window.location.origin === URLS.STAGING_ROOT;
 }
 
 /**
