@@ -370,6 +370,7 @@ faq-why-important-q = Hvorfor er det vigtigt?
 faq-how-get-q = Hvordan får jeg fat i data fra Common Voice?
 faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</licenseLink>-licensen på vores <datasetLink>side med datasæt</datasetLink>. Du kan også hente flere andre offentligt tilgængelige datasæt fra samme side.
 faq-when-release2-q = Hvornår udgiver I Common Voice-data på andre sprog?
+faq-when-release2-a = Common Voice-fællesskabet er i øjeblikket ved at gennemgå datasættet for den flersprogede version af Common Voice. Hvis du har lyst til at hjælpe os med at få udbredt Common Voice til nye sprog, så kan du anvende <sentenceCollectorLink>Sætningsindsamlings-værktøjet</sentenceCollectorLink> til at tilføje nye sætninger til datasættet. Du kan også hjælpe til med at oversætte selve hjemmesiden med Mozillas værktøj <pontoonLink>Pontoon</pontoonLink>. Nye sprog bliver tilføjet til Common Voice, når 5000 godkendte sætninger er blevet indsamlet.
 faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
 faq-what-cv-and-deepspeech-a = Datasættet fra Common Voice supplerer Mozillas open source-talegenkendelse Deep Speech. Den første version af Deep Speech blev udgivet i november 2017 og er siden blevet udviklet yderligere. I kombination med datasættet fra Common Voice mener vi, at denne open source-stemmegenkendelsesteknologi bør være tilgængelig for alle. Det er vores håb, at disse teknologier gør det muligt for udviklere at skabe en sand overflod af innovative produkter og tjenester.
@@ -564,7 +565,9 @@ other-language = Andet sprog
 ## Languages Overview
 
 language-section-in-progress = I gang
+language-section-in-progress-new-description = Disse sprog er i øjeblikket under udvikling af fællesskabet. Grafikken viser, hvor langt det enkelte sprog er kommet med at <localizationGlossaryLink>oversætte hjemmesiden</localizationGlossaryLink> og <sentenceCollectionGlossaryLink>indsamling af sætninger</sentenceCollectionGlossaryLink>.
 language-section-launched = Startet
+language-section-launched-description = For disse lancerede sprog er hjemmesiden blevet <localizationGlossaryLink>oversat</localizationGlossaryLink>, og tilstrækkeligt mange <sentenceCollectionGlossaryLink>sætninger er blevet indsamlet</sentenceCollectionGlossaryLink> til at bidragsydere kan hjælpe med at <speakLink>indtale</speakLink> og <listenLink>godkende</listenLink> optagelser.
 languages-show-more = Se flere
 languages-show-less = Se mindre
 language-meter-in-progress = Status
