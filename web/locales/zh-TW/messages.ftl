@@ -477,10 +477,13 @@ sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字�
 de-identified = 去識別化
 de-identified-explanation = 在打包下載資料集時，貢獻者的個人資料會從其所貢獻的語音片段隱藏的過程。
 
-## NotFound
+## Error pages
 
-notfound-title = 找不到
-notfound-content = 很抱歉，找不到您想找的東西。
+error-title-404 = 找不到您想要開啟的頁面
+error-content-404 = 也許從我們的<homepageLink>首頁</homepageLink>重新開始能幫到忙？若要詢問問題，可以加入<matrixLink>Matrix 社群聊天頻道</matrixLink>、關注 <githubLink>GitHub</githubLink> 上的網站問題回報，或到<discourseLink>我們的 Discourse 討論區</discourseLink>讓我們知道。
+error-title-503 = 發生了意外的停機時間
+error-content-503 = 網站將盡快恢復作業。請到我們的 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上的網站問題回報，或到 <discourseLink>Discourse 討論區</discourseLink>回報給我們，或取得最新資訊。
+error-code = 錯誤 { $code }
 
 ## Data
 
@@ -713,6 +716,7 @@ validations =
 
 your-languages = 您的語言
 toward-next-goal = 距離下一個目標
+goal-reached = 達成目標
 clips-you-recorded = 您已錄音的片段
 clips-you-validated = 您已驗證的片段
 todays-recorded-progress = 本日 Common Voice 錄音片段進度

@@ -1,10 +1,10 @@
-## Common Voice [![Travis Status](https://travis-ci.org/mozilla/voice-web.svg?branch=master)](https://travis-ci.org/mozilla/voice-web)
+## Common Voice [![Travis Status](https://travis-ci.org/mozilla/voice-web.svg?branch=main)](https://travis-ci.org/mozilla/voice-web)
 
-This is the web app for Mozilla Common Voice, a platform for collecting speech donations in order to create public domain datasets for training voice recognition-related tools. 
+This is the web app for Mozilla Common Voice, a platform for collecting speech donations in order to create public domain datasets for training voice recognition-related tools.
 
 ### Official Website
 
-[voice.mozilla.org](https://voice.mozilla.org)
+[voice.mozilla.org](https://commonvoice.mozilla.org)
 
 ### Code of Conduct
 
@@ -16,7 +16,7 @@ This repository is released under [MPL (Mozilla Public License) 2.0](LICENSE).
 
 The majority of our sentence text in `/server/data` comes directly from user submissions in our [Sentence Collector](https://github.com/Common-Voice/sentence-collector/) or they are scraped from Wikipedia using our [extractor tool](https://github.com/Common-Voice/common-voice-wiki-scraper), and are released under a [CC0 public domain Creative Commons license](https://creativecommons.org/share-your-work/public-domain/cc0/).
 
-Any files that follow the pattern `europarl-VERSION-LANG.txt` (such as [europarl-v7-de.txt](https://github.com/mozilla/voice-web/blob/master/server/data/de/europarl-v7-de.txt)) were extracted with our thanks from the [Europarl Corpus](http://www.statmt.org/europarl/), which features transcripts from proceedings in the European parliament.
+Any files that follow the pattern `europarl-VERSION-LANG.txt` (such as [europarl-v7-de.txt](https://github.com/mozilla/voice-web/blob/main/server/data/de/europarl-v7-de.txt)) were extracted with our thanks from the [Europarl Corpus](http://www.statmt.org/europarl/), which features transcripts from proceedings in the European parliament.
 
 ### Contributing
 

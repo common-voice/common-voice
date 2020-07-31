@@ -27,11 +27,15 @@ export default Object.freeze({
   PRIVACY: '/privacy',
   TERMS: '/terms',
   CHALLENGE_TERMS: '/challenge-terms',
-  NOTFOUND: '/not-found',
   LANGUAGES: '/languages',
   ABOUT: '/about',
 
   TARGET_SEGMENT_INFO:
     'https://discourse.mozilla.org/t/help-create-common-voices-first-target-segment/59587',
-  TARGET_SEGMENT_INFO_ES: 'https://discourse.mozilla.org/t/ayuda-a-crear-el-primer-objetivo-segmentado-de-common-voice/60472/'
+  TARGET_SEGMENT_INFO_ES:
+    'https://discourse.mozilla.org/t/ayuda-a-crear-el-primer-objetivo-segmentado-de-common-voice/60472/',
+
+  HTTP_ROOT: 'https://commonvoice.mozilla.org',
+  STAGING_ROOT: 'https://commonvoice.allizom.org',
+  GITHUB_ROOT: 'https://github.com/mozilla/common-voice',
 });

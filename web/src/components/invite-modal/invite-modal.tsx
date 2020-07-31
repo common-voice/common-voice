@@ -1,6 +1,6 @@
 /**
  * NOTE: Want to add a mailto form to this component? Start here:
- *       https://github.com/mozilla/voice-web/pull/2440
+ *       https://github.com/mozilla/common-voice/pull/2440
  */
 import * as React from 'react';
 import { useEffect, useRef, useState } from 'react';

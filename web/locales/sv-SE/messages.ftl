@@ -484,10 +484,13 @@ sst-explanation = Tal-till-text (STT)-tekniken konverterar röstdata till text.
 de-identified = Anonymisering
 de-identified-explanation = Processen genom vilken en bidragsgivares profilinformation döljs från sina donerade röstklipp när de är packade för nedladdning som en del av datamängden.
 
-## NotFound
+## Error pages
 
-notfound-title = Hittades inte
-notfound-content = Jag är rädd att jag inte vet vad du letar efter.
+error-title-404 = Vi kunde inte hitta den sidan åt dig
+error-content-404 = Kanske kan vår <homepageLink>hemsida</homepageLink> hjälpa dig? För att ställa en fråga, gå med i <matrixLink>Matrix community chat</matrixLink>, övervaka webbplatsfrågor via <githubLink>GitHub</githubLink> eller besök <discourseLink>våra Discourse-forum</discourseLink>.
+error-title-503 = Vi upplever oväntat driftstopp
+error-content-503 = Webbplatsen kommer att säkerhetskopieras så snart som möjligt. För den senaste informationen, gå med i <matrixLink>Matrix community chat</matrixLink> eller besök <githubLink>GitHub</githubLink> eller <discourseLink>våra Discourse-forum</discourseLink> för att skicka in och övervaka problem med webbplatsupplevelsen.
+error-code = Fel { $code }
 
 ## Data
 
@@ -727,6 +730,7 @@ validations =
 
 your-languages = Dina språk
 toward-next-goal = Till nästa mål
+goal-reached = Målet uppnått
 clips-you-recorded = Klipp du har spelat in
 clips-you-validated = Klipp du har validerat
 todays-recorded-progress = Dagens framsteg på Common Voice för inspelade klipp

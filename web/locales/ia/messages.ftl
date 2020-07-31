@@ -478,10 +478,9 @@ sst-explanation = Technologias de recognition vocal pro converter datos vocal in
 de-identified = De-identificate
 de-identified-explanation = Le processo que disassocia le informationes personal de un contributor ab su retalios vocal durante le preparation del collection de datos discargabile.
 
-## NotFound
+## Error pages
 
-notfound-title = Non trovate
-notfound-content = Io time que io non sape lo que tu recerca.
+error-code = Error { $code }
 
 ## Data
 

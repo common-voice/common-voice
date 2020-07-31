@@ -485,10 +485,13 @@ sst-explanation = Technologie rozpoznawania mowy zamieniają dane głosowe na te
 de-identified = Anonimizacja
 de-identified-explanation = Proces, w wyniku którego informacje profilowe uczestnika są usuwane z przekazanych nagrań mowy podczas pakowania ich do pobrania jako część zbioru danych.
 
-## NotFound
+## Error pages
 
-notfound-title = Nie odnaleziono
-notfound-content = Obawiam się, że nie ma tutaj tego, czego szukasz.
+error-title-404 = Nie możemy znaleźć tej strony
+error-content-404 = Może znajdziesz to, czego szukasz, na naszej <homepageLink>stronie głównej</homepageLink>? Aby zadać pytanie, prosimy dołączyć do <matrixLink>pokoju rozmów społeczności w sieci Matrix</matrixLink>, obserwować rozwiązywanie błędów w serwisie <githubLink>GitHub</githubLink> lub odwiedzić <discourseLink>nasze fora Discourse</discourseLink>.
+error-title-503 = Nieoczekiwany przestój
+error-content-503 = Działanie strony zostanie przywrócone tak szybko, jak to możliwe. Najnowsze informacje można uzyskać dołączając do <matrixLink>pokoju rozmów społeczności w sieci Matrix</matrixLink>, a w serwisie <githubLink>GitHub</githubLink> lub na <discourseLink>naszych forach Discourse</discourseLink> można zgłosić i obserwować rozwiązywanie błędów strony.
+error-code = Błąd { $code }
 
 ## Data
 

@@ -484,10 +484,13 @@ sst-explanation = Technologije Powědanje-do-teksta (STT) głosowe daty to tekst
 de-identified = Anonymizěrowane
 de-identified-explanation = Proces, pśez kótaryž se profilowe informacije sobustatkujucego z jogo pósćonych głosowych klipow zamazuju, gaž se za ześěgnjenje ako źěl datoweje sajźby zapakuju.
 
-## NotFound
+## Error pages
 
-notfound-title = Njenamakany
-notfound-content = Bójm se, njewěm, za cym pytaśo.
+error-title-404 = Njejsmy mógli ten bok za was namakaś
+error-content-404 = Snaź buźo naš <homepageLink>startowy bok</homepageLink> pomagaś? Aby pšašanje stajił, wobźělśo se na <matrixLink>chaśe zgromaźeństwa Matrix</matrixLink>, dajśo problemy z websedłom pśez <githubLink>GitHub</githubLink> k wěsći abo woglědajśo se k <discourseLink>našym forumam na Discourse</discourseLink>.
+error-title-503 = Nazgónijomy njewótcakany cas stojanja
+error-content-503 = Sedło buźo tak skóro ako móžno zasej k dispoziciji. Nejnowše informacije dostanjośo w <matrixLink>chaśe zgromaźeństwa Matrix</matrixLink>, abo woglědajśo se k <githubLink>GitHub</githubLink> abo <discourseLink>našym forumam na Discourse</discourseLink>, aby problemy ze sedłom k wěsći dał abo zmólkowe rozpšawy cytał.
+error-code = Zmólka { $code }
 
 ## Data
 
@@ -737,6 +740,7 @@ validations =
 
 your-languages = Waše rěcy
 toward-next-goal = K pśiducemu celoju
+goal-reached = Cel dojśpjony
 clips-you-recorded = Klipy, kótarež sćo nagrał
 clips-you-validated = Klipy, kótarež sćo pśeglědał
 todays-recorded-progress = Źinsajšny póstup Common Voice za nagrate klipy

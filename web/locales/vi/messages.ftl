@@ -477,10 +477,13 @@ sst-explanation = Công nghệ Nhận dạng giọng nói (STT) chuyển đổi 
 de-identified = Không xác định
 de-identified-explanation = Quá trình mà một người đóng góp thông tin hồ sơ cá nhân bị che khuất khỏi các clip thoại được tặng của họ khi được đóng gói để tải xuống như một phần của bộ dữ liệu.
 
-## NotFound
+## Error pages
 
-notfound-title = Không tìm thấy
-notfound-content = Tôi không biết bạn đang tìm gì.
+error-title-404 = Chúng tôi không thể tìm thấy trang đó cho bạn
+error-content-404 = Có lẽ <homepageLink>trang chủ</homepageLink> của chúng tôi sẽ giúp ích? Để đặt câu hỏi, vui lòng tham gia <matrixLink>cộng đồng trò chuyện trên Matrix</matrixLink>, theo dõi các sự cố trang qua <githubLink>GitHub</githubLink> hoặc truy cập <discourseLink>diễn đàn Discourse của chúng tôi</discourseLink>.
+error-title-503 = Đã xảy ra sự cố bất ngờ
+error-content-503 = Các trang web sẽ quay lại càng sớm càng tốt. Để biết thông tin mới nhất, vui lòng tham gia <matrixLink>cộng đồng trò chuyện trên Matrix</matrixLink> hoặc truy cập <githubLink>GitHub</githubLink> hoặc <discourseLink>diễn đàn Discourse của chúng tôi</discourseLink> để gửi và theo dõi các vấn đề về trải nghiệm trang web.
+error-code = Lỗi { $code }
 
 ## Data
 
@@ -715,6 +718,7 @@ validations =
 
 your-languages = Ngôn ngữ của bạn
 toward-next-goal = Hướng tới mục tiêu tiếp theo
+goal-reached = Đã đạt được mục tiêu
 clips-you-recorded = Clip bạn đã ghi
 clips-you-validated = Clip bạn đã xác thực
 todays-recorded-progress = Tiến trình giọng nói chung hôm nay trên các clip được ghi lại

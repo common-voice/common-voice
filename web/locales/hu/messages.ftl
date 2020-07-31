@@ -484,10 +484,13 @@ sst-explanation = A beszédből szöveggé alakítási (STT) technológiák szö
 de-identified = Azonosítás visszavonva
 de-identified-explanation = Az a folyamat, amellyel a közreműködő profilinformációi elrejtésre kerülnek a felajánlott hangklipekben, ha az adatkészlet részeként letöltésre kerülnek.
 
-## NotFound
+## Error pages
 
-notfound-title = Nem található
-notfound-content = Attól tartok, nem tudom mit keres.
+error-title-404 = Nem találtuk az Ön oldalát
+error-content-404 = Talán a <homepageLink>kezdőlapunk</homepageLink> segít. Ha kérdést szeretne feltenni, csatlakozzon a <matrixLink>Matrix közösségi csevegéshez</matrixLink>, figyelje a webhely problémáit a <githubLink>GitHubon</githubLink>, vagy látogassa meg <discourseLink>a Discourse fórumunkat</discourseLink>.
+error-title-503 = Váratlan leállásokat tapasztalunk
+error-content-503 = Az oldal a lehető leghamarabb újra üzemelni fog. A legfrissebb információkért csatlakozzon a <matrixLink>Matrix közösségi csevegéshez</matrixLink>, vagy látogassa meg a <githubLink>GitHubot</githubLink> vagy a <discourseLink>Discourse fórumunkat</discourseLink>, hogy elküldje és figyelje a webhellyel kapcsolatos problémákat.
+error-code = Hibakód: { $code }
 
 ## Data
 
@@ -723,6 +726,7 @@ validations =
 
 your-languages = Az Ön nyelvei
 toward-next-goal = A következő cél felé
+goal-reached = Cél elérve
 clips-you-recorded = Az Ön által rögzített klipek
 clips-you-validated = Az Ön által ellenőrzött klipek
 todays-recorded-progress = A mai Common Voice előrehaladás a klipek rögzítésében

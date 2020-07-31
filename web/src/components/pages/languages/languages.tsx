@@ -99,14 +99,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
           return 1;
         }
 
-        // English comes last
-        if (l1.locale === 'en') {
-          return 1;
-        }
-        if (l2.locale === 'en') {
-          return -1;
-        }
-
         // Browser locales are prioritized as well
         if (navigator.languages.includes(l1.locale)) {
           return -1;

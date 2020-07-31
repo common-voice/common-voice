@@ -137,7 +137,8 @@ export default withLocalization(({ getString }: WithLocalizationProps) => {
             <img
               className="robot"
               src={require('./images/robot.png')}
-              alt="Waves"
+              alt=""
+              role="presentation"
             />
           </div>
         </div>

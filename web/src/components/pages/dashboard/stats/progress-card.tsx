@@ -87,7 +87,12 @@ export default function ProgressCard({
             <LocaleLink className="custom-goal-link" to={goalsPath}>
               <CircleProgress value={currentCustomGoal / customGoal.amount} />
               <div className="custom-goal-text">
-                <Localized id="toward-next-goal">
+                <Localized
+                  id={
+                    currentCustomGoal / customGoal.amount < 1
+                      ? 'toward-next-goal'
+                      : 'goal-reached'
+                  }>
                   <span />
                 </Localized>
               </div>
@@ -125,7 +130,7 @@ export default function ProgressCard({
           }>
           <div className="description" />
         </Localized>
-        <Localized id="help-reach-goal" vars={{goal: overallGoal}}>
+        <Localized id="help-reach-goal" vars={{ goal: overallGoal }}>
           <LinkButton
             rounded
             outline

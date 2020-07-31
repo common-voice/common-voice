@@ -53,6 +53,9 @@
         }
 
         & .images {
+            img {
+                width: 100%;
+            }
             @media (--md-down) {
                 margin-top: 10px;
                 display: flex;

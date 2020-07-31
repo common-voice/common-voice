@@ -87,7 +87,7 @@ const SegmentBanner = ({
       <>
         <Localized
           id="target-segment-first-banner"
-          vars={{locale: NATIVE_NAMES[locale]}}
+          vars={{ locale: NATIVE_NAMES[locale] }}
         />
       </>
     ),
@@ -110,7 +110,10 @@ const SegmentBanner = ({
           ),
         },
         {
-          href: locale === 'es' ? URLS.TARGET_SEGMENT_INFO_ES : URLS.TARGET_SEGMENT_INFO,
+          href:
+            locale === 'es'
+              ? URLS.TARGET_SEGMENT_INFO_ES
+              : URLS.TARGET_SEGMENT_INFO,
           blank: true,
           persistAfterClick: true,
           className: 'cta external',
@@ -167,8 +170,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     });
 
     try {
-      FullStory.setUserVars({ isLoggedIn: !!user.account })
-    } catch(e) {
+      FullStory.setUserVars({ isLoggedIn: !!user.account });
+    } catch (e) {
       // do nothing if FullStory not initialized (see app.tsx)
     }
   }
@@ -227,7 +230,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     trackGlobal('change-language', locale);
     setLocale(locale);
     this.setState({
-       featureStorageKey: await this.getFeatureKey(locale)
+      featureStorageKey: await this.getFeatureKey(locale),
     });
     history.push(replacePathLocale(history.location.pathname, locale));
   };
@@ -271,7 +274,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     } = this.state;
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
 
-    const pathParts = location.pathname.split('/');
+    const pathParts = location.pathname
+      .replace(/(404|503)/g, 'error-page')
+      .split('/');
     const className = cx(pathParts[2] ? pathParts.slice(2).join(' ') : 'home', {
       'staging-banner-is-visible': showStagingBanner,
     });
@@ -292,20 +297,24 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {featureStorageKey && localStorage.getItem(featureStorageKey) !== 'true' && (
-          <SegmentBanner locale={locale} featureStorageKey={featureStorageKey} />
-        )}
+        {featureStorageKey &&
+          localStorage.getItem(featureStorageKey) !== 'true' && (
+            <SegmentBanner
+              locale={locale}
+              featureStorageKey={featureStorageKey}
+            />
+          )}
         {showStagingBanner && (
           <div className="staging-banner">
             You're on the staging server. Voice data is not collected here.{' '}
             <a
-              href="https://voice.mozilla.org"
+              href={URLS.HTTP_ROOT}
               target="_blank"
               rel="noopener noreferrer">
               Don't waste your breath.
             </a>{' '}
             <a
-              href="https://github.com/mozilla/voice-web/issues/new"
+              href={`${URLS.GITHUB_ROOT}/issues/new`}
               rel="noopener noreferrer"
               target="_blank">
               Feel free to report issues.
@@ -363,7 +372,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             this.scroller = div as HTMLElement;
           }}>
           <div id="scrollee">
-            <Content />
+            <Content location={location} />
             <Footer />
           </div>
         </div>

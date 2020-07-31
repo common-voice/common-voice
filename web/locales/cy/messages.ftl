@@ -498,10 +498,13 @@ sst-explanation = Mae technolegau llais-i-destun (STT) yn trosi data llais yn de
 de-identified = Dadadnabod
 de-identified-explanation = Y broses o sut mae manylion proffil cyfrannwr yn cael ei guddio oddi wrth eu clipiau llais pan gaiff ei becynnu i'w lwytho i lawr fel rhan o'r set ddata.
 
-## NotFound
+## Error pages
 
-notfound-title = Heb ganfod
-notfound-content = Mae'n ddrwg gen i, dwi ddim yn gwybod beth rydych yn chwilio amdano.
+error-title-404 = Nid oedd modd i ni ddod o hyd i'r dudalen honno i chi
+error-content-404 = Efallai y bydd ein <homepageLink>tudalen cartref</homepageLink> yn gallu eich helpu? I ofyn cwestiwn, ymunwch â'n sgwrs gymunedol yn <matrixLink>Matrix</matrixLink>, monitro materion gwefan trwy <githubLink>GitHub</githubLink> neu ewch i'n <discourseLink>fforymau Discours</discourseLink>.
+error-title-503 = Rydym yn profi toriad darpariaeth annisgwyl
+error-content-503 = Bydd y wefan yn ôl at ei gilydd cyn gynted â phosibl. Am y wybodaeth ddiweddaraf, ymunwch â'n  sgwrs gymunedol yn <matrixLink>Matrix</matrixLink> neu ewch i <githubLink>GitHub</githubLink> neu'n <discourseLink>fforymau Discourse</discourseLink> i gyflwyno a monitro materion profiad gwefan.
+error-code = Gwall { $code }
 
 ## Data
 
@@ -753,6 +756,7 @@ validations =
 
 your-languages = Eich Ieithoedd
 toward-next-goal = Ymlaen i'r targed nesaf
+goal-reached = Wedi cyrraedd fy nharged
 clips-you-recorded = Clipiau Rydych Wedi'u Recordio
 clips-you-validated = Clipiau Rydych Wedi'u Dilysu
 todays-recorded-progress = Cynnydd Common Voice heddiw ar glipiau wedi'u recordio

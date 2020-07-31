@@ -483,10 +483,10 @@ sst-explanation = Технология Speech-to-text (STT) преобразов
 de-identified = Обезличенный
 de-identified-explanation = Процесс, с помощью которого информация профиля участника убирается из пожертвованных им голосовых записей, когда они упаковываются для загрузки, как часть набора данных.
 
-## NotFound
+## Error pages
 
-notfound-title = Страница не найдена
-notfound-content = Я боюсь, что не знаю, что вы ищете.
+error-title-404 = Мы не смогли найти эту страницу
+error-code = Код ошибки: { $code }
 
 ## Data
 
@@ -626,7 +626,12 @@ contribute = Принять участие
 listen = Прослушать
 skip = Пропустить
 shortcuts = Сочетания клавиш
-clips-with-count = <bold>{ $count }</bold> Клипов
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> запись
+        [few] <bold>{ $count }</bold> записи
+       *[many] <bold>{ $count }</bold> записей
+    }
 goal-help-recording = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по записи в { $goalValue }!
 goal-help-validation = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по проверке в { $goalValue }!
 contribute-more =
@@ -761,13 +766,38 @@ want-to-continue = Вы хотите продолжить?
 finish-editing = Хотите сначала закончить редактирование?
 lose-changes-warning = Уход сейчас означает, что вы потеряете сделанные изменения
 build-custom-goal = Создать собственную цель
-help-reach-hours = Помогите достичь { NUMBER($hours) } часов на { $language } с помощью личной цели
-help-reach-hours-general = Помогите Common Voice достичь { NUMBER($hours) } часов на этом языке с помощью личной цели
+help-reach-hours-pluralized =
+    Помогите достичь{ NUMBER($hours) ->
+        [one] { $hours } час
+        [few] { $hours } часа
+       *[many] { $hours } часов
+    }на { $language } с помощью личной цели
+help-reach-hours-general-pluralized =
+    Помогите Common Voice достичь{ NUMBER($hours) ->
+        [one] { $hours } час
+        [few] { $hours } часа
+       *[many] { $hours } часов
+    }на этом языке с помощью личной цели
 set-a-goal = Поставить цель
 cant-decide = Не можете решиться?
-activity-needed-calculation =
-    { NUMBER($totalHours) } часов достижимо за { NUMBER($periodMonths) }
-    месяцев, если { NUMBER($people) } людей будут делать { NUMBER($clipsPerDay) } записей в день.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } час
+        [few] { $totalHours } часа
+       *[many] { $totalHours } часов
+    }достижимо за{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } месяц
+        [few] { $periodMonths } месяца
+       *[many] { $periodMonths } месяцев
+    }если{ NUMBER($people) ->
+        [one] { $people } человек
+        [few] { $people } человека
+       *[many] { $people } человек
+    }будут делать{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } запись
+        [few] { $clipsPerDay } записи
+       *[many] { $clipsPerDay } записей
+    }в день.
 how-many-per-day = Отлично! Сколько записей в день?
 how-many-a-week = Отлично! Сколько записей в неделю?
 which-goal-type = Вы хотите записывать, проверять или и то, и другое?
@@ -775,7 +805,12 @@ receiving-emails-info =
     Вы будете получать такие письма, как напоминания о целях, уведомления
     о своих достижениях и новости о Common Voice.
 not-receiving-emails-info = Вы <bold>НЕ</bold> будете получать такие письма, как напоминания о целях, уведомления о достижениях и новости о Common Voice.
-n-clips = { NUMBER($count) } записей
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } запись
+        [few] { $count } записи
+       *[many] { $count } записей
+    }
 help-share-goal = Помогите нам найти больше голосов, поделитесь своей целью
 confirm-goal = Подтвердить цель
 goal-interval-weekly = Каждую неделю

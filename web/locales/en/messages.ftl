@@ -334,7 +334,7 @@ email-subscriptions = Email Subscriptions
 download-profile = Download My Data
 contribution-experience = Contribution Experience
 skip-submission-feedback = Skip Submission Feedback
-skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit. Contribution will continue directly with the next set of 5 recordings or validations.
+skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit'. Contribution will continue directly with the next set of 5 recordings or validations.
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
@@ -501,9 +501,12 @@ sst-explanation = Speech-to-text (STT) technologies convert voice data into text
 de-identified = De-identified
 de-identified-explanation = The process by which a contributor’s profile information is obscured from their donated voice clips when packaged for download as a part of the dataset.
 
-## NotFound
-notfound-title = Not found
-notfound-content = I’m afraid I don’t know what you’re looking for.
+## Error pages
+error-title-404 = We couldn’t find that page for you
+error-content-404 = Maybe our <homepageLink>homepage</homepageLink> will help? To ask a question, please join the <matrixLink>Matrix community chat</matrixLink>, monitor site issues via <githubLink>GitHub</githubLink> or visit <discourseLink>our Discourse forums</discourseLink>.
+error-title-503 = We’re experiencing unexpected downtime
+error-content-503 = The site will be back up as soon as possible. For the latest information, please join the <matrixLink>Matrix community chat</matrixLink> or visit <githubLink>GitHub</githubLink> or <discourseLink>our Discourse forums</discourseLink> to submit and monitor site experience issues.
+error-code = Error { $code }
 
 ## Data
 data-download-button = Download Common Voice Data
@@ -731,6 +734,7 @@ validations = { $count ->
 ## Dashboard
 your-languages = Your Languages
 toward-next-goal = Toward next goal
+goal-reached = Goal reached
 clips-you-recorded = Clips You've Recorded
 clips-you-validated = Clips You've Validated
 todays-recorded-progress = Today's Common Voice progress on clips recorded

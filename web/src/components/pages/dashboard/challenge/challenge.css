@@ -72,7 +72,7 @@
     & .info {
         display: flex;
         flex-direction: row;
-        color: #4a4a4a;
+        color: var(--near-black);
         padding-right: 40%;
 
         & svg {
@@ -80,7 +80,7 @@
         }
 
         & path {
-            fill: #4a4a4a;
+            fill: var(--near-black);
         }
 
         & a {
@@ -621,7 +621,11 @@
 }
 
 .speak-btn::after {
-    background: linear-gradient(90deg, var(--gradient-pink), var(--gradient-purple));
+    background: linear-gradient(
+        90deg,
+        var(--gradient-pink),
+        var(--gradient-purple)
+    );
 }
 .listen-btn::after {
     background: linear-gradient(270deg, #88d1f1, #b1b5e5);

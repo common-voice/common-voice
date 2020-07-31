@@ -483,10 +483,13 @@ sst-explanation = წარმოთქმულის ტექსტად ქ
 de-identified = ვინაობის მონაცემების მოცილება
 de-identified-explanation = მოხალისეების პროფილის მონაცემების დაფარვა და გამიჯვნა მათ მიერ მოწოდებული ხმოვანი ჩანაწერებისგან, ჩამოსატვირთ კრებულში დამატებისას.
 
-## NotFound
+## Error pages
 
-notfound-title = ვერ მოიძებნა
-notfound-content = სამწუხაროდ, ვერ მოინახა, რასაც ეძებდით.
+error-title-404 = გვერდი ვერ მოიძებნა
+error-content-404 = იქნებ ჩვენი <homepageLink>მთავარი გვერდი</homepageLink> დაგეხმაროთ? კითხვის დასასმელად, შემოუერთდით <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, საიტის ხარვეზების შესახებ იხილეთ <githubLink>GitHub</githubLink> ან ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>.
+error-title-503 = საიტის მუშაობის დაუგეგმავი შეჩერება
+error-content-503 = საიტი აღდგება უმოკლეს დროში. უახლესი ინფორმაციისთვის, გთხოვთ შემოუერთდეთ <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, ან იხილოთ <githubLink>GitHub</githubLink> და ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>, ხარვეზების მოსახსენებლად.
+error-code = შეცდომა { $code }
 
 ## Data
 

@@ -35,7 +35,6 @@ import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import { User } from '../stores/user';
 import Layout from './layout/layout';
-import NotificationBanner from './notification-banner/notification-banner';
 import NotificationPill from './notification-pill/notification-pill';
 import { Spinner } from './ui/ui';
 import {
@@ -348,8 +347,11 @@ class App extends React.Component {
   }
 
   async componentDidCatch(error: Error, errorInfo: any) {
-    this.setState({ error });
-
+    this.setState({ error }, () =>
+      history.push(`${this.userLocales[0]}/503`, {
+        prevPath: history.location.pathname,
+      })
+    );
     if (!isProduction() && !isStaging()) return;
 
     Sentry.withScope(scope => {
@@ -362,20 +364,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { error, Sentry } = this.state;
-    if (error) {
-      return (
-        <div>
-          An error occurred. Sorry!
-          <br />
-          <button onClick={() => Sentry.showReportDialog()} disabled={!Sentry}>
-            Report feedback
-          </button>
-          <br />
-          <button onClick={() => location.reload()}>Reload</button>
-        </div>
-      );
-    }
+    const userLocale = this.userLocales[0];
 
     return (
       <Suspense fallback={<Spinner />}>
@@ -388,9 +377,7 @@ class App extends React.Component {
                   exact
                   path={url || '/'}
                   render={() => (
-                    <Redirect
-                      to={'/' + this.userLocales[0] + url + location.search}
-                    />
+                    <Redirect to={`/${userLocale}${url}${location.search}`} />
                   )}
                 />
               ))}
@@ -406,9 +393,21 @@ class App extends React.Component {
                   match: {
                     params: { locale },
                   },
-                }) => (
-                  <LocalizedPage userLocales={[locale, ...this.userLocales]} />
-                )}
+                }) =>
+                  LOCALES.includes(locale) ? (
+                    <LocalizedPage
+                      userLocales={[locale, ...this.userLocales]}
+                    />
+                  ) : (
+                    <Redirect
+                      push
+                      to={{
+                        pathname: `/${userLocale}/404`,
+                        state: { prevPath: location.pathname },
+                      }}
+                    />
+                  )
+                }
               />
             </Switch>
           </Router>

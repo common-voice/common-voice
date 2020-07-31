@@ -11,7 +11,6 @@ loading = 読み込み中…
 email-opt-in-info = Common Voice に関する目標リマインダ、進捗状況の更新、ニュースレターなどのメールを受け取ります。
 email-opt-in-info-title = Common Voice メーリングリストに参加
 email-opt-in-info-sub-with-challenge = Common Voice に関する目標リマインダーや進捗状況の更新、ニュースレターなどのメールを受け取ります。
-email-opt-in-privacy = メールの受信を選択した場合、Mozilla の<privacyLink>プライバシーポリシー<privacyLink>に記載のとおり、この情報を Mozilla が取り扱うことに同意したものとみなされます。
 indicates-required = * の付いた項目は入力必須です
 not-available-abbreviation = 該当なし
 
@@ -473,10 +472,10 @@ sst-explanation = 音声認識（STT）技術は、音声データをテキス�
 de-identified = 匿名化
 de-identified-explanation = データセットの一部としてダウンロード用にパッケージ化される時に、寄付者のプロフィール情報が彼らの寄付された音声クリップから隠されるプロセス。
 
-## NotFound
+## Error pages
 
-notfound-title = ページが見つかりません
-notfound-content = 残念ながらお探しのページが見つかりませんでした。
+error-title-404 = お探しのページを見つけられませんでした
+error-code = エラー { $code }
 
 ## Data
 
@@ -615,7 +614,6 @@ contribute = 貢献する
 listen = 聴く
 skip = スキップ
 shortcuts = ショートカット
-clips-with-count = <bold>{ $count }</bold> 個の音声
 goal-help-recording = あなたの貢献によって Common Voice は、日々の録音目標 { $goalValue } の内 <goalPercentage></goalPercentage> を達成できました！
 goal-help-validation = あなたの貢献によって Common Voice は、日々の検証目標 { $goalValue } の内 <goalPercentage></goalPercentage> を達成できました！
 contribute-more =
@@ -742,17 +740,13 @@ want-to-continue = 続けますか？
 finish-editing = 最初に編集を終了しますか？
 lose-changes-warning = ページを離れると変更が失われます
 build-custom-goal = 自分の目標を作成する
-help-reach-hours = 個人的な目標を持って、{ $language } で { NUMBER($hours) } 時間に到達するのを手伝います
-help-reach-hours-general = Common Voice が個人的な目標を持った言語で { NUMBER($hours) } 時間に到達するのを助けます
 set-a-goal = 目標を設定します
 cant-decide = 決められない？
-activity-needed-calculation = { NUMBER($totalHours) } 時間は、{ NUMBER($people) } 人が 1 日に { NUMBER($clipsPerDay) } クリップを記録する場合、 { NUMBER($periodMonths) } か月をわずかに超える時間で達成可能です。
 how-many-per-day = すばらしいです！ 1日あたりのクリップ数は？
 how-many-a-week = すばらしいです！週にいくつのクリップですか？
 which-goal-type = 話す、聴く、またはその両方をしたいですか？
 receiving-emails-info = 現在、目標リマインダーや Common Voice に関する進捗の更新、ニュースレターなどのメールを受信するように設定されています。
 not-receiving-emails-info = 現在、目標リマインダーや Common Voiceに関する進捗の更新とニュースレターなどのメールを <bold>受信しない</bold> ように設定されています。
-n-clips = { NUMBER($count) } クリップ
 help-share-goal = より多くの音声を集めて、目標を共有しましょう
 confirm-goal = 目標を確認
 goal-interval-weekly = 毎週
