@@ -424,6 +424,9 @@ about-clip-graveyard = Optagelses-kirkegården
 about-partners = Partnere
 about-become-a-partner = Bliv partner
 about-get-involved = Bliv involveret
+about-get-involved-text-2 =
+    Vil du hjælpe med at gøre Common Voice endnu bedre?
+    Det er vi glade for at høre! Send os en mail eller kig forbi vores forum på <discourseLink>Discourse</discourseLink>, indberet fejl med hjemmesiden på <githubLink>GitHub</githubLink> eller kom og vær med  på vores fælles-chat på <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
@@ -448,6 +451,7 @@ de-identified = Anonymiseret
 ## Error pages
 
 error-title-404 = Den side kunne vi ikke finde.
+error-title-503 = Der er desværre problemer med hjemmesiden lige nu.
 error-code = Fejl { $code }
 
 ## Data
