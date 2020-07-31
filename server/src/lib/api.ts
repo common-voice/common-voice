@@ -305,7 +305,7 @@ export default class API {
   // TODO: Check for empty or silent clips before uploading.
   saveAvatarClip = async (request: Request, response: Response) => {
     const { client_id, headers, user } = request;
-
+    console.log(`VOICE_AVATAR: saveAvatarClip() called, ${client_id}`);
     const folder = client_id;
     const clipFileName = folder + '.mp3';
     try {
@@ -314,6 +314,9 @@ export default class API {
       if ((headers['content-type'] as string).includes('base64')) {
         // If we were given base64, we'll need to concat it all first
         // So we can decode it in the next step.
+        console.log(
+          `VOICE_AVATAR: base64 to saveAvatarClip(), ${clipFileName}`
+        );
         const chunks: Buffer[] = [];
         await new Promise(resolve => {
           request.on('data', (chunk: Buffer) => {
@@ -413,7 +416,11 @@ export default class API {
     { client_id, params, body }: Request,
     response: Response
   ) => {
-    await this.model.db.insertDownloader(params.locale, body.email, body.dataset);
+    await this.model.db.insertDownloader(
+      params.locale,
+      body.email,
+      body.dataset
+    );
     response.json({});
   };
 

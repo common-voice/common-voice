@@ -156,8 +156,8 @@ export default class Clip {
     const filePrefix = sentenceId;
     const clipFileName = folder + filePrefix + '.mp3';
 
-    // if the folder does not exist, we create it
     try {
+      // If the folder does not exist, we create it.
       await this.s3
         .putObject({ Bucket: getConfig().BUCKET_NAME, Key: folder })
         .promise();
@@ -167,6 +167,7 @@ export default class Clip {
       if ((headers['content-type'] as string).includes('base64')) {
         // If we were given base64, we'll need to concat it all first
         // So we can decode it in the next step.
+        console.log(`VOICE_AVATAR: base64 to saveClip(), ${clipFileName}`);
         const chunks: Buffer[] = [];
         await new Promise(resolve => {
           request.on('data', (chunk: Buffer) => {
