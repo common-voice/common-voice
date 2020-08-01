@@ -479,10 +479,10 @@ sst-explanation = Les tecnologies de veu a text (STT) converteixen les dades de 
 de-identified = Anonimització
 de-identified-explanation = Procés pel qual la informació del perfil d'un col·laborador s'oculta dels talls de veu que han donat quan s'empaqueten per baixar-los com a part del conjunt de dades.
 
-## NotFound
+## Error pages
 
-notfound-title = No s'ha trobat
-notfound-content = No s'ha trobat allò que cercàveu.
+error-title-404 = No s’ha trobat aquesta pàgina
+error-content-404 = Potser us pot ajudar la nostra <homepageLink>pàgina d'inici</homepageLink>? Si teniu alguna pregunta, uniu-vos al <matrixLink>xat de la comunitat en el Matrix</matrixLink>, superviseu els problemes del lloc mitjançant el <githubLink>GitHub</githubLink> o visiteu <discourseLink>els nostres fòrums del Discourse</discourseLink>.
 
 ## Data
 
