@@ -730,6 +730,7 @@ validations =
 
 your-languages = Ваши языки
 toward-next-goal = Следующая цель
+goal-reached = Цель достигнута
 clips-you-recorded = Вы записали
 clips-you-validated = Вы проверили
 todays-recorded-progress = Сегодня сделано записей на Common Voice
