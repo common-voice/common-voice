@@ -731,6 +731,7 @@ validations =
 
 your-languages = Twoje języki
 toward-next-goal = Do następnego celu
+goal-reached = Osiągnięto cel
 clips-you-recorded = Twoje nagrania
 clips-you-validated = Nagrania sprawdzone przez Ciebie
 todays-recorded-progress = Dzisiejszy postęp nagrywania Common Voice
