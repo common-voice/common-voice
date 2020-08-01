@@ -480,6 +480,8 @@ de-identified-explanation = Le processo que disassocia le informationes personal
 
 ## Error pages
 
+error-title-404 = Impossibile trovar iste pagina pro te.
+error-title-503 = Nos pati un inactivitate inexpectate
 error-code = Error { $code }
 
 ## Data
@@ -720,6 +722,7 @@ validations =
 
 your-languages = Tu linguas
 toward-next-goal = Verso le proxime objectivo
+goal-reached = Proposito attingite
 clips-you-recorded = Retalios que tu ha registrate
 clips-you-validated = Retalios que tu ha validate
 todays-recorded-progress = Progresso hodierne de Common Voice sur le retalios audio registrate
