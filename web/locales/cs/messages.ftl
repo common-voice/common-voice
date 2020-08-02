@@ -11,7 +11,7 @@ loading = Načítání…
 email-opt-in-info = Chci dostávat e-maily jako jsou přimínky k nedosaženým cílům, informace o mém postupu nebo novinky o projektu Common Voice.
 email-opt-in-info-title = Připojte se do elektronické konference Common Voice
 email-opt-in-info-sub-with-challenge = Dostávejte e-maily jako jsou připomínky k nedosaženým cílům či vývám, informace o postupu nebo novinky o projektu Common Voice.
-email-opt-in-privacy = Rozhodnutím se přijímat e-maily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů<privacyLink> společnosti Mozilla.
+email-opt-in-privacy-v2 = Rozhodnutím se přijímat e-maily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů</privacyLink> společnosti Mozilla.
 indicates-required = * označuje povinná pole
 not-available-abbreviation = není k dispozici
 
@@ -485,10 +485,9 @@ sst-explanation = Technologie převodu řeči na text (STT) převádí hlasová 
 de-identified = De-identifikováno
 de-identified-explanation = Při tomto procesu je v souborech datasetu ke stažení skryta identita přispěvatele hlasových záznamů.
 
-## NotFound
+## Error pages
 
-notfound-title = Nenalezeno
-notfound-content = Obávám se, že nevím, co hledáte.
+error-code = Chyba { $code }
 
 ## Data
 
@@ -627,7 +626,12 @@ contribute = Přispět
 listen = Poslouchejte
 skip = Přeskočit
 shortcuts = Zkratky
-clips-with-count = <bold>{ $count }</bold> nahrávek
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> nahrávka
+        [few] <bold>{ $count }</bold> nahrávky
+       *[other] <bold>{ $count }</bold> nahrávek
+    }
 goal-help-recording = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> denního cíle { $goalValue } nahrávek!
 goal-help-validation = Pomohli jste Common Voice dosáhnout <goalPercentage></goalPercentage> denního cíle { $goalValue } ověřených nahrávek!
 contribute-more =
@@ -721,6 +725,7 @@ validations = zkontrolováno
 
 your-languages = Vaše jazyky
 toward-next-goal = Další cíl
+goal-reached = Cíl dosažen
 clips-you-recorded = Nahrávky, které jste nahráli
 clips-you-validated = Nahrávky, které jste ověřili
 todays-recorded-progress = Dnešní pokrok Common Voice v zaznamenaných nahrávkách
@@ -757,13 +762,38 @@ want-to-continue = Chcete pokračovat?
 finish-editing = Nechcete napřed dokončit úpravy?
 lose-changes-warning = Pokud nyní odejdete, přijdete o své změny
 build-custom-goal = Vytvořit vlastní cíl
-help-reach-hours = Pomozte nám v rámci svého cíle dosáhnout { NUMBER($hours) } hodin v jazyce { $language }
-help-reach-hours-general = Pomozte projektu Common Voice v rámci svého cíle dosáhnout { NUMBER($hours) } hodin v jazyce { $language }
+help-reach-hours-pluralized =
+    Pomozte nám v rámci svého cíle dosáhnout{ NUMBER($hours) ->
+        [one] jedné hodiny
+        [few] { $hours } hodin
+       *[other] { $hours } hodin
+    }v jazyce { $language }
+help-reach-hours-general-pluralized =
+    Pomozte projektu Common Voice v rámci svého cíle dosáhnout{ NUMBER($hours) ->
+        [one] jedné hodiny
+        [few] { $hours } hodin
+       *[other] { $hours } hodin
+    }v jazyce { $language }
 set-a-goal = Stanovte si cíl
 cant-decide = Nemůžete se rozhodnout?
-activity-needed-calculation =
-    { NUMBER($totalHours) } hodin je dosažitelných už za { NUMBER($periodMonths) } měsíců,
-    pokud { NUMBER($people) } lidí nahraje { NUMBER($clipsPerDay) } záznamů denně.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] Jedna hodina
+        [few] { $totalHours } hodiny
+       *[other] { $totalHours } hodin
+    }je dosažitelných už za{ NUMBER($periodMonths) ->
+        [one] měsíc
+        [few] { $periodMonths } měsíce
+       *[other] { $periodMonths } měsíců
+    }, pokud{ NUMBER($people) ->
+        [one] jeden člověk
+        [few] { $people } lidé
+       *[other] { $people } lidí
+    }nahraje{ NUMBER($clipsPerDay) ->
+        [one] jeden záznam
+        [few] { $clipsPerDay } záznamy
+       *[other] { $clipsPerDay } záznamů
+    }denně.
 how-many-per-day = Skvěle! Kolik záznamů denně?
 how-many-a-week = Skvěle! Kolik záznamů týdně?
 which-goal-type = Chcete mluvit, poslouchat, nebo obojí?
@@ -773,7 +803,12 @@ receiving-emails-info =
 not-receiving-emails-info =
     Momentálně <bold>NE</bold>máte nastaven příjem e-mailů jako jsou připomínky k cílům,
     informace o postupu a novinky o projektu Common Voice.
-n-clips = { NUMBER($count) } záznamů
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } nahrávka
+        [few] { $count } nahrávky
+       *[other] { $count } nahrávek
+    }
 help-share-goal = Pomozte nám najít více hlasů, sdílejte své cíle
 confirm-goal = Potvrdit Cíl
 goal-interval-weekly = Týdně
