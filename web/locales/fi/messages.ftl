@@ -192,6 +192,7 @@ listen-goal-text = Näytettä tarkastettu
 hours-recorded = Tunteja tallennettu
 hours-validated = Tunteja tarkastettu
 voices-online = Ääniä aktiivisena
+todays-progress = Edistys tänään
 help-reach-goal = Auta meitä saavuttamaan { $goal }
 read-terms-q = Oletko lukenut käyttöehtomme?
 ready-to-record = Valmiina lahjoittamaan äänesi?
@@ -477,6 +478,7 @@ de-identified-explanation = Prosessi, jolla avustajien profiilitiedot peitetää
 
 ## Error pages
 
+error-title-404 = Sivua ei löytynyt
 error-code = Virhe { $code }
 
 ## Data
@@ -717,8 +719,8 @@ toward-next-goal = Seuraavaan tavoitteeseen
 goal-reached = Tavoite saavutettu
 clips-you-recorded = Tallentamiasi näytteitä
 clips-you-validated = Tarkastamiasi näytteitä
-todays-recorded-progress = Tämän päivän edistyminen tallennettuja näytteitä
-todays-validated-progress = Tämän päivän edistyminen tarkastettuja näytteitä
+todays-recorded-progress = Edistys tänään tallennetuissa näytteissä
+todays-validated-progress = Edistys tänään tarkastetuissa näytteissä
 stats = Tilastot
 awards = Palkinnot
 you = Sinä
@@ -764,6 +766,19 @@ help-reach-hours-general-pluralized =
     }kielessä henkilökohtaisen tavoitteen avulla
 set-a-goal = Aseta tavoite
 cant-decide = Vaikeuksia päättää?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } tunti
+       *[other] { $totalHours } tuntia
+    } voidaan saavuttaa hiukan yli { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } kuukaudessa
+    } jos { NUMBER($people) ->
+        [one] { $people } ihminen
+       *[other] { $people } ihmistä
+    } nauhottaa { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } klipin
+       *[other] { $clipsPerDay } klippiä
+    } päivässä.
 how-many-per-day = Hienoa! Kuinka monta näytettä päivittäin?
 how-many-a-week = Hienoa! Kuinka monta näytettä viikottain?
 which-goal-type = Haluatko puhua, kuunnella vai tehdä molempia?
