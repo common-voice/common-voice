@@ -719,6 +719,8 @@ toward-next-goal = Til næste mål
 goal-reached = Mål opnået
 clips-you-recorded = Klip, du har optaget
 clips-you-validated = Klip, du har valideret
+todays-recorded-progress = Dagens fremskridt for Common Voice målt på antal nye optagelser
+todays-validated-progress = Dagens fremskridt for Common Voice målt på antal validerede optagelser
 stats = Statistik
 awards = Diplomer
 you = Dig
@@ -749,7 +751,13 @@ difficult-difficulty = Svært
 pro-difficulty = Pro
 want-to-continue = Vil du fortsætte?
 finish-editing = Færdiggør redigering først?
+lose-changes-warning = Du mister dine ændringer, hvis du afslutter nu
 build-custom-goal = Opret et brugerdefineret mål
+help-reach-hours-pluralized =
+    Brug et personligt mål til at opnå { NUMBER($hours) ->
+        [one] { $hours } time
+       *[other] { $hours } timer
+    }på { $language }
 help-reach-hours-general-pluralized =
     Hjælp Common Voice med at opnå{ NUMBER($hours) ->
         [one] { $hours } time
@@ -780,6 +788,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Du er i øjeblikket<bold>IKKE</bold> tilmeldt nyhedsbreve med påmindelser om mål, opdateringer
     om dine fremskridt, og nyheder om Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } optagelse
+       *[other] { $count } optagelser
+    }
 help-share-goal = Del dit mål, og hjælp os med at finde flere stemmer
 confirm-goal = Bekræft mål
 goal-interval-weekly = Ugentligt
