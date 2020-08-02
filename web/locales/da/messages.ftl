@@ -367,14 +367,20 @@ faq-what-cv-a =
     
     Vi samler ikke kun donerede stemmer på de mest talte sprog, men også på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om. Udover datasættet bag Common Voice  opbygger vi også en open source-talegenkendelse kaldet Deep Speech.
 faq-why-important-q = Hvorfor er det vigtigt?
+faq-why-important-a =
+    Tale er ofte den mest naturlige måde, vi kommunikerer med hinanden på. Og med stemmeteknologiens hjælp har vi nu mulighed for at få computere og telefoner til at forstå, hvad vi siger. Vi ønsker at give udviklere mulighed for at oprette fantastiske talegenkendelsesprogrammer som fx apps, der kan oversætte i realtid, og stemmeaktiverede digitale assistenter. Men lige nu er de fleste af de stemmedata, der kræves for at udvikle disse typer programmer både dyre og proprietære. Vi håber, at Common Voice-datasættet vil give udviklere dét, de har brug for til at forny og gøre teknologien tilgængelig på deres eget sprog.
+    
+    For at gøre stemmegenkendelse endnu mere universel, indsamler vi stemmer på de mest talte sprog såvel som på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om.
 faq-how-get-q = Hvordan får jeg fat i data fra Common Voice?
 faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</licenseLink>-licensen på vores <datasetLink>side med datasæt</datasetLink>. Du kan også hente flere andre offentligt tilgængelige datasæt fra samme side.
 faq-when-release2-q = Hvornår udgiver I Common Voice-data på andre sprog?
 faq-when-release2-a = Common Voice-fællesskabet er i øjeblikket ved at gennemgå datasættet for den flersprogede version af Common Voice. Hvis du har lyst til at hjælpe os med at få udbredt Common Voice til nye sprog, så kan du anvende <sentenceCollectorLink>Sætningsindsamlings-værktøjet</sentenceCollectorLink> til at tilføje nye sætninger til datasættet. Du kan også hjælpe til med at oversætte selve hjemmesiden med Mozillas værktøj <pontoonLink>Pontoon</pontoonLink>. Nye sprog bliver tilføjet til Common Voice, når 5000 godkendte sætninger er blevet indsamlet.
 faq-why-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
+faq-why-mission-a = Mozillas mål er at holde internettet åbent og tilgængeligt for alle. Derfor er det vigtigt, at vi hjælper kreative mennesker med at virkeliggøre deres idéer på nettet gennem projekter som Common Voice. I takt med at stemmeteknologier vinder større udbredelse, mener vi, at det er vigtigt, at de kommer alle til gode. Det kræver, at vi inkluderer flere sprog og tager højde for forskellige accenter og demografier for at understøtte produktion og test af stemmeteknologier. Common Voice er et fælles gode, der er tilgængeligt for alle. Mozilla og udviklere rundt om i verden anvender allerede Common Voice til vores egne projekter.
 faq-what-cv-and-deepspeech-q = Hvad er forskellen mellem Common Voice og Deep Speech?
 faq-what-cv-and-deepspeech-a = Datasættet fra Common Voice supplerer Mozillas open source-talegenkendelse Deep Speech. Den første version af Deep Speech blev udgivet i november 2017 og er siden blevet udviklet yderligere. I kombination med datasættet fra Common Voice mener vi, at denne open source-stemmegenkendelsesteknologi bør være tilgængelig for alle. Det er vores håb, at disse teknologier gør det muligt for udviklere at skabe en sand overflod af innovative produkter og tjenester.
 faq-is-goal-assistant-q = Er målet med Common Voice at opbygge en stemmeassistent?
+faq-is-goal-assistant-a = Målet med datasættet fra Common Voice er, at gøre det muligt for alle i verden at arbejde med talegenkendelse, stemmegenkendelse eller enhver anden form for applikation, der kræver stemmedata. En stemmeassistent er blot én af mange typer applikationer, som du kan bruge datasættet til at bygge.
 faq-do-want-native-q = Dansk er ikke mit modersmål, og jeg taler med accent. Vil I stadig gerne have, at jeg bidrager med min stemme?
 faq-do-want-native-a = Ja, vi vil især gerne have din stemme! En del af formålet med Common Voice er at indsamle så mange forskellige accenter som muligt, så stemmegenkendelsen fungerer lige så godt for alle. Det betyder, at bidrag fra folk med andet- eller fremmedsprog er vigtige.
 faq-why-different-speakers-q = Hvorfor har I brug for så mange forskellige stemmer per sprog?
@@ -383,6 +389,7 @@ faq-why-different-speakers-a =
     Derfor vil vi have variation i vores stemme-database!
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-what-quality-q = Hvilken lydkvalitet er nødvendig for at et stemmeklip kan bruges i datasættet?
+faq-what-quality-a = Datasættet bag Common Voice skal afspejle den lydkvalitet, som tale-til-tekst-software kommer til at støde på ude i den rigtige verden. Det vil sige, at vi ikke blot leder efter et stort udvalg af talere, men også et stort udvalg af lydkvalitet - fra snak i baggrunden til bilstøj. Så længe dine optagelser er forståelige, så bør de være god nok til datasættet.
 faq-why-10k-hours-q = Hvorfor er 10.000 timers validerede stemmeoptagelser målet for alle sprog?
 faq-why-10k-hours-a = Dette er cirka det antal timer, som det kræver at træne et velfungerende tale-til-tekst-system.
 faq-how-calc-hours-q = Hvordan bliver timerne udregnet af Common Voice?
@@ -397,6 +404,7 @@ faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt s
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
 faq-is-account-public-q = Er mine kontooplysninger offentlige?
 faq-how-privacy-q = Hvordan sikrer I anonymitet og privatliv for de mennesker, der har doneret deres stemme?
+faq-how-privacy-a = Alle stemmeklip i datasættet bliver renset for alle personlige identificerende oplysninger. Når en frivillig oplyser demografiske data på deres profil, bliver disse oplysninger uidentificerbare, før de bliver klargjort til download i datasættet og offentliggøres aldrig på personens profilside.
 faq-what-is-cv = Hvad er Common Voice?
 faq-using-cv = Brug af Common Voice
 faq-description = Common Voice er en del af Mozillas initiativ til at hjælpe maskiner med at forstå, hvordan mennesker taler.
@@ -415,6 +423,7 @@ about-speak = Tal
 about-listen-queue = Lytte-kø
 about-listen = Lyt
 about-is-it-valid = Er klippet gyldigt?
+about-is-it-valid-text = Et stemmeklip markeres som "gyldigt", når en bruger giver det en ja-stemme.
 about-yes-votes = ≥ 2 ja-stemmer
 about-yes-votes-text = For at blive optaget i Common Voice-datasættet skal et klip være valideret af to forskellige brugere.
 about-no-votes = ≥ 2 nej-stemmer
@@ -423,6 +432,10 @@ about-dataset-new-text = Common Voice-datasættet indeholder hundredtusindvis af
 about-clip-graveyard = Optagelses-kirkegården
 about-partners = Partnere
 about-become-a-partner = Bliv partner
+about-partnership =
+    Common Voice er et projekt baseret på samarbejde, og vi er afhængige af vores fællesskab af bidragsydere og partnere for at kunne bygge det mest omfattende open-source-datasæt af stemmer nogensinde.
+    
+    Vi vil gerne takke følgende personer og organisationer for deres hjælp med projektet:
 about-get-involved = Bliv involveret
 about-get-involved-text-2 =
     Vil du hjælpe med at gøre Common Voice endnu bedre?
@@ -442,6 +455,7 @@ mycroft-secondary-description = Dette er open source-software, der frit kan ænd
 
 glossary = Ordliste
 localization = Oversættelse
+localization-explanation = Dette er vores proces til oversættelse og tilpasning af vores indhold til mange sprog.
 sentence-collection = Indsamling af sætninger
 hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
 hours-validated-explanation = Antallet af stemmeoptagelser i timer, der er blevet valideret af 2 ud af 3 brugere med en "Ja"-stemme. Disse markerer fremgangen mod det overordnede mål på 10.000 timer.
