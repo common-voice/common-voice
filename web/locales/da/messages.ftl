@@ -429,6 +429,7 @@ about-header-description =
 how-does-it-work-title = Hvordan fungerer det?
 how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Donér din stemme, vurdér nøjagtigheden af andre menneskers optagelser, og gør datasættet bedre for alle.
 about-speak = Tal
+about-speak-text = Bidragsydere optager stemmeoptagelser ved at læse dem op fra en samling af donerede sætninger.
 about-listen-queue = Lytte-kø
 about-listen-queue-text = Stemmeoptagelser bliver lagt i en kø, så de kan blive gjort klare til at blive hørt.
 about-listen = Lyt
@@ -470,17 +471,20 @@ glossary = Ordliste
 localization = Oversættelse
 localization-explanation = Dette er vores proces til oversættelse og tilpasning af vores indhold til mange sprog.
 sentence-collection = Indsamling af sætninger
+sentence-collection-explanation = Indsamling af sætninger fra det offentlige domæne eller oprettelse af nye sætninger til det offentlige domæne.
 hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
 hours-validated-explanation = Antallet af stemmeoptagelser i timer, der er blevet valideret af 2 ud af 3 brugere med en "Ja"-stemme. Disse markerer fremgangen mod det overordnede mål på 10.000 timer.
 sst = Tale-til-tekst (speech-to-text, STT)
 sst-explanation = Tale-til-tekst (speech-to-text, STT) teknologier konverterer stemmedata til tekst.
 de-identified = Anonymiseret
+de-identified-explanation = Processen, der anvendes til at beskytte en bidragsyders identitet i deres donerede stemmeoptagelser, når de samles for at blive hentet som en del af datasættet.
 
 ## Error pages
 
 error-title-404 = Den side kunne vi ikke finde.
 error-content-404 = Prøv at gå til <homepageLink>forsiden</homepageLink>. Har du et spørgsmål, så kan du deltage i vores <matrixLink>fælles-chat på Matrix</matrixLink>, indberette fejl på <githubLink>GitHub</githubLink> eller besøge vores <discourseLink>forummer på Discourse</discourseLink>.
 error-title-503 = Der er desværre problemer med hjemmesiden lige nu.
+error-content-503 = Hjemmesiden vil være tilbage igen så hurtigt som muligt.  Få de seneste opdateringer i <matrixLink>fælles-chat på Matrix</matrixLink>, indberet eller få mere viden om fejl på <githubLink>GitHub</githubLink> eller besøg vores <discourseLink>forummer på Discourse</discourseLink>.
 error-code = Fejl { $code }
 
 ## Data
