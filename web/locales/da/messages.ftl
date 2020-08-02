@@ -345,6 +345,7 @@ delete-voice = SLET
 recording-voice-wave = Optagelse
 delete-voice-clip = eller slet lydklip
 ready-to-upload = Upload
+recreate-voice = Gendan Voicewave
 cancel-avatar-clip-recording = Annuller
 about-avatar-clip-recording = Optag et stemmeklip som en del af din profil-avatar. Andre kan holde musen over avataren og lytte til din optagelse.
 browse-file-title = Upload en billedfil
@@ -460,11 +461,13 @@ sentence-collection = Indsamling af sætninger
 hours-recorded-explanation = Antallet af stemmeoptagelser i timer, vi har samlet indtil videre.
 hours-validated-explanation = Antallet af stemmeoptagelser i timer, der er blevet valideret af 2 ud af 3 brugere med en "Ja"-stemme. Disse markerer fremgangen mod det overordnede mål på 10.000 timer.
 sst = Tale-til-tekst (speech-to-text, STT)
+sst-explanation = Tale-til-tekst (speech-to-text, STT) teknologier konverterer stemmedata til tekst.
 de-identified = Anonymiseret
 
 ## Error pages
 
 error-title-404 = Den side kunne vi ikke finde.
+error-content-404 = Prøv at gå til <homepageLink>forsiden</homepageLink>. Har du et spørgsmål, så kan du deltage i vores <matrixLink>fælles-chat på Matrix</matrixLink>, indberette fejl på <githubLink>GitHub</githubLink> eller besøge vores <discourseLink>forummer på Discourse</discourseLink>.
 error-title-503 = Der er desværre problemer med hjemmesiden lige nu.
 error-code = Fejl { $code }
 
@@ -485,6 +488,7 @@ data-bundle-button = Hent datasæt-samling
 data-bundle-description = Data fra Common Voice samt alle andre stemme-datasæt ovenfor.
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
+data-download-singleword-callout = Dette er et segment, der indeholder data til at understøtte genkendelse af talte tal, detektering af ja/nej og aktiveringsords-testdata til <fxLink>Firefox Voice</fxLink>.
 review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
 terms-agree = Jeg accepterer
 terms-disagree = Jeg accepterer ikke
@@ -653,17 +657,24 @@ target-segment-learn-more = Læs mere
 
 ## Reporting
 
+report = Rapportér
+report-title = Indsend en rapport
 report-ask = Hvilke problemer oplever du med denne sætning?
 report-offensive-language = Stødende sprogbrug
 report-offensive-language-detail = Sætningen har respektløst eller stødende sprog.
+report-grammar-or-spelling = Grammatisk fejl/stavefejl
+report-grammar-or-spelling-detail = Sætningen har en grammatisk fejl eller en stavefejl.
 report-different-language = Andet sprog
 report-different-language-detail = Det er skrevet på et andet sprog end det, jeg taler.
 report-difficult-pronounce = Svær at udtale
 report-difficult-pronounce-detail = Det indeholder ord eller sætninger, der er svære at læse eller udtale.
+report-offensive-speech = Stødende sprog
 report-offensive-speech-detail = Klippet har respektløst eller stødende sprog.
 report-other-comment =
     .placeholder = Kommentar
+success = Succes
 continue = Fortsæt
+report-success = Rapport indsendt korrekt!
 
 ## Goals
 
@@ -688,15 +699,19 @@ validations =
 
 your-languages = Dine sprog
 toward-next-goal = Til næste mål
+goal-reached = Mål opnået
 clips-you-recorded = Klip, du har optaget
 clips-you-validated = Klip, du har valideret
 stats = Statistik
+awards = Diplomer
 you = Dig
 everyone = Alle
 contribution-activity = Bidragsaktivitet
+top-contributors = Største bidragsydere
 recorded-clips = Optagede klip
 validated-clips = Validerede klip
 total-approved = Godkendt i alt
+overall-accuracy = Overordnet nøjagtighed
 set-visibility = Indstil min synlighed
 visibility-explainer = Denne indstilling styrer, om du er synlig på vores leaderboard. Når "skjult" er valgt, så vil dine fremskridt kun være synlige for dig selv. Det betyder, at dit billede, brugernavn og fremskridt ikke vil være synligt på leaderboardet. Bemærk at det tager { $minutes } minutter før ændringer vises på leaderboardet.
 visibility-overlay-note = Bemærk: Når indstillingen "synlig" er valgt, så kan den ændres på din <profileLink>profilside</profileLink>
@@ -750,6 +765,7 @@ not-receiving-emails-info =
     om dine fremskridt, og nyheder om Common Voice.
 help-share-goal = Del dit mål, og hjælp os med at finde flere stemmer
 confirm-goal = Bekræft mål
+goal-interval-weekly = Ugentligt
 share-goal-type-speak = Taler
 share-goal-type-listen = Lytter
 share-goal-type-both = Taler og lytter
@@ -780,3 +796,4 @@ welcome-staff = Velkommen til medarbejdere fra { $firma }!
 help-contribute = Du kan hjælpe med at bygge et mangfoldigt open source-datasæt ved at oprette en Common Voice-profil og bidrage med din stemme.
 login-company = Log ind / Tilmeld dig med en mailadresse fra { $company }
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
+read-more-about = Læs mere på vores Om-side
