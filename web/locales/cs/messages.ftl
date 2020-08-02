@@ -763,17 +763,17 @@ finish-editing = Nechcete napřed dokončit úpravy?
 lose-changes-warning = Pokud nyní odejdete, přijdete o své změny
 build-custom-goal = Vytvořit vlastní cíl
 help-reach-hours-pluralized =
-    Pomozte nám v rámci svého cíle dosáhnout{ NUMBER($hours) ->
+    Pomozte nám v rámci svého cíle dosáhnout { NUMBER($hours) ->
         [one] jedné hodiny
         [few] { $hours } hodin
        *[other] { $hours } hodin
-    }v jazyce { $language }
+    } v jazyce { $language }
 help-reach-hours-general-pluralized =
-    Pomozte projektu Common Voice v rámci svého cíle dosáhnout{ NUMBER($hours) ->
+    Pomozte projektu Common Voice v rámci svého cíle dosáhnout { NUMBER($hours) ->
         [one] jedné hodiny
         [few] { $hours } hodin
        *[other] { $hours } hodin
-    }v jazyce { $language }
+    } v jazyce { $language }
 set-a-goal = Stanovte si cíl
 cant-decide = Nemůžete se rozhodnout?
 activity-needed-calculation-plural =
@@ -781,19 +781,19 @@ activity-needed-calculation-plural =
         [one] Jedna hodina
         [few] { $totalHours } hodiny
        *[other] { $totalHours } hodin
-    }je dosažitelných už za{ NUMBER($periodMonths) ->
+    } je dosažitelných už za { NUMBER($periodMonths) ->
         [one] měsíc
         [few] { $periodMonths } měsíce
        *[other] { $periodMonths } měsíců
-    }, pokud{ NUMBER($people) ->
+    }, pokud { NUMBER($people) ->
         [one] jeden člověk
         [few] { $people } lidé
        *[other] { $people } lidí
-    }nahraje{ NUMBER($clipsPerDay) ->
+    } nahraje { NUMBER($clipsPerDay) ->
         [one] jeden záznam
         [few] { $clipsPerDay } záznamy
        *[other] { $clipsPerDay } záznamů
-    }denně.
+    } denně.
 how-many-per-day = Skvěle! Kolik záznamů denně?
 how-many-a-week = Skvěle! Kolik záznamů týdně?
 which-goal-type = Chcete mluvit, poslouchat, nebo obojí?
