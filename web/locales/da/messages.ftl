@@ -188,7 +188,7 @@ speak-subtitle = Donér din stemme
 speak-paragraph = Optagelse af stemmeklip er en vigtig del af opbygningen af vores åbne datasæt. Mange vil sige at det også er den sjoveste del.
 speak-goal-text = Klip optaget
 listen-subtitle = Hjælp os med at validere stemmer
-listen-paragraph = Validering af donerede klip er mindst lige så vigtigt for Common Voice-missionen. Lyt til et klip og hjælp os med at skabe kvalitets open source stemme-data.
+listen-paragraph = Validering af donerede stemmeoptagelser er mindst lige så vigtigt for Common Voice-missionen. Lyt til en stemmeoptagelse og hjælp os med at skabe kvalitets open source stemme-data.
 listen-goal-text = Klip valideret
 hours-recorded = Timer optaget
 hours-validated = Timer valideret
@@ -407,7 +407,7 @@ faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt s
 faq-why-account-q = Hvorfor skal jeg oprette en konto?
 faq-is-account-public-q = Er mine kontooplysninger offentlige?
 faq-how-privacy-q = Hvordan sikrer I anonymitet og privatliv for de mennesker, der har doneret deres stemme?
-faq-how-privacy-a = Alle stemmeklip i datasættet bliver renset for alle personlige identificerende oplysninger. Når en frivillig oplyser demografiske data på deres profil, bliver disse oplysninger uidentificerbare, før de bliver klargjort til download i datasættet og offentliggøres aldrig på personens profilside.
+faq-how-privacy-a = Alle stemmeoptagelser i datasættet bliver renset for alle personlige identificerende oplysninger. Når en frivillig oplyser demografiske data på deres profil, bliver disse oplysninger uidentificerbare, før de bliver klargjort til download i datasættet og offentliggøres aldrig på personens profilside.
 faq-what-determine-identity-q = Hvad betyder det, at jeg ikke kan "fastlægge identiteten" på en taler i Common Voice-datasættet?
 faq-what-determine-identity-a =
     Common Voice-datasættet er en åben og offentligt tilgængelig ressource, der kan bruges til at træne et stort udvalg af programmer baseret på stemmegenkendelse. For at beskytte bidragydernes sikkerhed, beder vi alle om at respektere deres ret til et privatliv.
