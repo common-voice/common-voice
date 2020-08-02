@@ -345,6 +345,7 @@ delete-voice = SLET
 recording-voice-wave = Optagelse
 delete-voice-clip = eller slet lydklip
 ready-to-upload = Upload
+avatar-clip-fact = Det er en kendsgerning, at læsere ofte bliver distraherede af en sides læsbare indhold, når de kigger på dens opsætning.
 recreate-voice = Gendan Voicewave
 cancel-avatar-clip-recording = Annuller
 about-avatar-clip-recording = Optag et stemmeklip som en del af din profil-avatar. Andre kan holde musen over avataren og lytte til din optagelse.
@@ -407,6 +408,11 @@ faq-why-account-q = Hvorfor skal jeg oprette en konto?
 faq-is-account-public-q = Er mine kontooplysninger offentlige?
 faq-how-privacy-q = Hvordan sikrer I anonymitet og privatliv for de mennesker, der har doneret deres stemme?
 faq-how-privacy-a = Alle stemmeklip i datasættet bliver renset for alle personlige identificerende oplysninger. Når en frivillig oplyser demografiske data på deres profil, bliver disse oplysninger uidentificerbare, før de bliver klargjort til download i datasættet og offentliggøres aldrig på personens profilside.
+faq-what-determine-identity-q = Hvad betyder det, at jeg ikke kan "fastlægge identiteten" på en taler i Common Voice-datasættet?
+faq-what-determine-identity-a =
+    Common Voice-datasættet er en åben og offentligt tilgængelig ressource, der kan bruges til at træne et stort udvalg af programmer baseret på stemmegenkendelse. For at beskytte bidragydernes sikkerhed, beder vi alle om at respektere deres ret til et privatliv.
+    
+    Alle stemmeoptagelser bliver renset for information, der kan identificere bidragsyderens identitet. Når du henter datasættet, så accepterer du samtidig, at du ikke må forsøge at fastlægge identiteten på nogen af bidragsyderne. Det betyder, at du ikke må forsøge at knytte oplysninger i datasættet til en bidragsyders personlige oplysninger. Til gengæld må du anvende datasættet til at træne software til stemmegenkendelse, genkendelse af personen, der taler, samt til andre formål - fx til at sammenkæde oplysninger i datasættet til andre oplysninger, der allerede eksisterer i datasættet.
 faq-what-is-cv = Hvad er Common Voice?
 faq-using-cv = Brug af Common Voice
 faq-description = Common Voice er en del af Mozillas initiativ til at hjælpe maskiner med at forstå, hvordan mennesker taler.
@@ -421,17 +427,22 @@ about-header-description =
     Begge projekter er en del af vores forsøg på at gøre digital tale-teknologi mere tilgængeligt. Teknologi, der kan genkende stemmer, giver vores computere og telefoner en mere menneskelig dimension - men udviklerne bag teknologierne har brug for enorme mængder stemmedata for at kunne bygge dem. I øjeblikket er hovedparten af disse data både dyre og underlagt ophavsret.
     Vi vil gøre stemmedata offentligt tilgængelige - gratis. Data skal repræsentere, hvor forskellige folk faktisk er. Sammen kan vi gøre stemmegenkendelse bedre for alle.
 how-does-it-work-title = Hvordan fungerer det?
+how-does-it-work-text = Vi crowdsourcer et open source-datasæt med stemmer. Donér din stemme, vurdér nøjagtigheden af andre menneskers optagelser, og gør datasættet bedre for alle.
 about-speak = Tal
 about-listen-queue = Lytte-kø
+about-listen-queue-text = Stemmeoptagelser bliver lagt i en kø, så de kan blive gjort klare til at blive hørt.
 about-listen = Lyt
+about-listen-text = Brugere validerer nøjagtigheden af de donerede optagelser ved at undersøge, om taleren læser sætningen op korrekt.
 about-is-it-valid = Er klippet gyldigt?
 about-is-it-valid-text = Et stemmeklip markeres som "gyldigt", når en bruger giver det en ja-stemme.
 about-yes-votes = ≥ 2 ja-stemmer
 about-yes-votes-text = For at blive optaget i Common Voice-datasættet skal et klip være valideret af to forskellige brugere.
 about-no-votes = ≥ 2 nej-stemmer
+about-no-votes-text = Når en bruger afviser en stemmeoptagelser, så kommer det tilbage i køen. Hvis det bliver afvist igen, så havner det på optagelses-kirkegården.
 about-dataset-new = Common Voice-datasæt
 about-dataset-new-text = Common Voice-datasættet indeholder hundredtusindvis af stemme-optagelser, der hjælper udviklere med at bygge teknologi til stemmegenkendelse.
 about-clip-graveyard = Optagelses-kirkegården
+about-clip-graveyard-text = Optagelses-kirkegården består af stemmeoptagelser, der ikke kom med i Common Voice-datasættet. Akkurat som datasættet kan optagelser fra optagelses-kirkegården også downloades.
 about-partners = Partnere
 about-become-a-partner = Bliv partner
 about-partnership =
@@ -610,6 +621,11 @@ contribute = Bidrag
 listen = Lyt
 skip = Spring over
 shortcuts = Genveje
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> optagelse
+       *[other] <bold>{ $count }</bold> optagelser
+    }
 goal-help-recording = Du har hjulpet Common Voice med at nå <goalPercentage></goalPercentage> af vores daglige { $goalValue } mål for indspilninger!
 goal-help-validation = Du har hjulpet Common Voice med at nå <goalPercentage></goalPercentage> af vores daglige { $goalValue } mål for validering!
 contribute-more = Klar til at lave { $count } mere?
