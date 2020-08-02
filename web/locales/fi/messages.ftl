@@ -347,7 +347,7 @@ ready-to-upload = LATAA
 avatar-clip-fact = On vakiintunut tieto, että lukija häiriintyy sivun luettavasta sisällöstä tarkastellessaan sen asettelua.
 recreate-voice = Luo äänitys uudelleen
 cancel-avatar-clip-recording = PERUUTA
-about-avatar-clip-recording = Lisää ääniklippi profiilikuvaasi. Muut voivat kuunnella klipin siirtämällä kursorin sen päälle.
+about-avatar-clip-recording = Lisää ääninäyte profiilikuvaasi. Muut voivat kuunnella näytteen siirtämällä kursorin sen päälle.
 browse-file-title = Lataa kuvatiedosto
 browse-file = Vedä ja pudota tai <browseWrap>Selaa</BrowseWrap>
 connect-gravatar = Yhdistä Gravatariin
@@ -775,9 +775,9 @@ activity-needed-calculation-plural =
     } jos { NUMBER($people) ->
         [one] { $people } ihminen
        *[other] { $people } ihmistä
-    } nauhottaa { NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } klipin
-       *[other] { $clipsPerDay } klippiä
+    } äänittää { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } näytteen
+       *[other] { $clipsPerDay } näytettä
     } päivässä.
 how-many-per-day = Hienoa! Kuinka monta näytettä päivittäin?
 how-many-a-week = Hienoa! Kuinka monta näytettä viikottain?
