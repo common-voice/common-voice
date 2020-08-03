@@ -393,7 +393,9 @@ faq-why-my-lang-q = Lwaki olulimi lwange teluriimu?
 faq-where-src-from-2-q = Ensibuko y'ebigambo evaawa?
 faq-why-not-ask-read-q = Lwaki tetubuuza bantu kusoma mu bitabo oba Wikipedia ezili mu nnimi endala?
 faq-is-account-public-q = Ebinfaako mu akawunti yange bilabika mu lwatu?
+faq-what-determine-identity-q = Kitegeeza ki nti sisobola kumanya bikwata ku bogezi mu dataset ya Common voice?
 faq-what-is-cv = Common Voice Ky'ekiki?
+faq-using-cv = Okozesa Common Voice
 
 ## ABOUT US
 
