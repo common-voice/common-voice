@@ -445,9 +445,17 @@ data-other-download = Dawunulodinga Data
 data-bundle-button = Dawunulodinga Enkata ya Dataset
 data-bundle-description = Data wa Common Voice gattako dataset y'amaloboozi amalala waggulu.
 license = Layisinsi: <licenseLink>{ $license }</licenseLink>
+license-mixed = Ntabule
+data-download-singleword-title = Dawunulodinga ekitundu kya tageti ya Single Word
+review-terms = Bw'okozesa Common Voice, okiriza <termsLink>Enkolagana</termsLink> ne <privacyLink>Eby'ekyama</privacyLink>
 terms-agree = Nzikiriza
 terms-disagree = Si kkiriza
+review-aborted = Upload esaziddwamu. Oyagala ku deletinga likodingi yo?
+review-submit-title = Wetegereze Osindike
+review-submit-msg = Webale okulikodinga!<lineBreak></lineBreak>Kati byetegereze osindike obuloboozi bwo wansi.
+review-recording = Wetegereze
 review-rerecord = Likodinga buto
+review-cancel = Sazaamu Okusindika
 review-keep-recordings = Teleka ebilikodinge
 review-delete-recordings = Sazaamu ebilikodinge byange
 
@@ -456,6 +464,7 @@ review-delete-recordings = Sazaamu ebilikodinge byange
 language = Olulimi
 # File size in gigabytes
 size = Obunene
+validated-hr-total = Essaawa Wamu Ezikakasiddwa
 cv-license = Lukusa
 number-of-voices = Omuwendo gw'amaloboozi
 email-to-download = Saamu Email Okudawunulodinga
