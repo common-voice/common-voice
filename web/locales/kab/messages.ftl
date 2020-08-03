@@ -480,6 +480,7 @@ de-identified-explanation = D akala ara yeǧǧen asimgired gar telɣut tudmawant
 ## Error pages
 
 error-title-404 = Ur nezmir ara ad ak•am-d-naf asebter-nni
+error-content-404 = Ahat <homepageLink>asebter-nneɣ agejdan </homepageLink> ad iɛawen? I usteqsi, ttxil ddu ɣer <matrixLink> udiwenni n tmezdagnut n Matrix </matrixLink>, qareɛ uguren n usmel s  <githubLink>GitHub</githubLink> neɣ rzu ɣer  <discourseLink> yinmagaren-nneɣ n Discourse </discourseLink>.
 error-code = Tuccḍa { $code }
 
 ## Data
@@ -621,6 +622,11 @@ contribute = Ttekki
 listen = Timesliwt
 skip = Suref
 shortcuts = Inegzumen
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold> { $count } </bold> n tukkist
+       *[other] <bold> { $count } </bold> n tukkisin
+    }
 goal-help-recording = Tmuddeḍ-d afus akken Common Voice ad yaweḍ <goalPercentage></goalPercentage> seg iswi-ines n usekles n wass { $goalValue }!
 goal-help-validation = Tmuddeḍ-d afus akken  Common Voice ad yaweḍ <goalPercentage></goalPercentage> seg iswi-ines n usentem n wass { $goalValue }!
 contribute-more =
