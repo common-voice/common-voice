@@ -487,10 +487,10 @@ sst-explanation = Говор у текст (STT) технологије прет
 de-identified = Деидентификовано
 de-identified-explanation = Процес, којим се подаци о профилу сарадника прикривају из њихових донираних гласовних исечака, када се пакују за преузимање као дио скупа података.
 
-## NotFound
+## Error pages
 
-notfound-title = Није пронађен
-notfound-content = Бојим се да не знам шта тражите.
+error-title-404 = Нисмо могли да вам пронађемо ту страницу
+error-content-404 = Можда ће наша <homepageLink>почетна страница</homepageLink> помоћи? Да бисте поставили питање, придружите се <matrixLink>ћаскању Matrix заједнице</matrixLink>, пратите проблеме преко <githubLink>GitHub-а</githubLink> или посетите <discourseLink>наше Discourse форуме</discourseLink>.
 
 ## Data
 
