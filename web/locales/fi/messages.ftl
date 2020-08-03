@@ -11,6 +11,7 @@ loading = Ladataan…
 email-opt-in-info = Haluan vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseeni sekä Common Voice -uutiskirjeitä.
 email-opt-in-info-title = Liity Common Voicen postituslistalle
 email-opt-in-info-sub-with-challenge = Haluan vastaanottaa sähköposteja, kuten muistutuksia ja päivityksiä liittyen etenemiseeni sekä Common Voice -uutiskirjeitä.
+email-opt-in-privacy-v2 = Tilaamalla uutiskirjeen hyväksyt Mozillan käsittelevän tätä tietoa Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> kuvatulla tavalla.
 indicates-required = * Pakollinen kenttä
 not-available-abbreviation = N/A
 
@@ -499,6 +500,7 @@ data-bundle-description = Common Voice -aineisto sekä kaikki ylläolevat aineis
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Useita
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
+data-download-singleword-callout = Tämä on käyttötapauskohtainen segmentti, joka sisältää tietoja puhutun numeron tunnistusta varten, kyllä / ei -tapausten tunnistusta varten ja herätyssanojen testeiksi <fxLink> Firefox Voicessa </fxLink>.
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy
