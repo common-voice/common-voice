@@ -475,8 +475,20 @@ why-email = <b>Lwaki email?</b> Bwetuba tuyagade okukutukirira nga waliwo ebicus
 confirm-size = Wetegese okutandika oku downloadinga <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Okiriza</b>obutagendelera kuzuula bikwata ku bogezi mu dataset ya Common Voice
 download-language = Download { $language }
+validated-hours = Essaawa Ezisunsuddwa
+recorded-hours = Essaawa ezilikodingiddwa
+whats-inside = Kiki ekiri munda mu dataset ya Common Voice?
+want-dataset-update = Oyagala okufuna updates bwetufulumya enkola empya eya dataset ya Common Voice? Wewandiise okufuna newsletter yaffe.
+subscribe = Wewandiise
+get-started-speech = Tandika Okutegera Amaloboozi
+other-datasets = Dataset z'amaloboozi endala
+feedback-q = Oyina obubaka?
+go-discourse = Genda ku Discourse
+missing-language = Olulimi lwo tolulaba mu Dataset? Okusaba olulimi genda pegi yaffe Ey'ennimi.
 go-languages-page = Genda Ku Pegi y'ennimi
+ready-to-validate = Wetegese okuyamba okusunsula sentensi?
 more = Ebisingawo
 close = Ggalawo
 download = Download
@@ -484,6 +496,7 @@ dataset-version = Enkola
 
 ## Download Modal
 
+download-title = Download yo etandise.
 download-form-email =
     .label = Saamu email yo
     .value = Webale, ojja ku tuwuliza.
