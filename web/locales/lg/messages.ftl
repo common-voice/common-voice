@@ -421,6 +421,8 @@ mycroft-subtitle = Artificial intelligence
 ## Glossary
 
 localization = Okuvunnula
+localization-explanation = Eno y'enkola yaffe ey'okuvvunula n'okukyusa ebintu byaffe mu nnimi ez'enjawulo.
+sentence-collection = Okukunganya sentensi
 
 ## Error pages
 
