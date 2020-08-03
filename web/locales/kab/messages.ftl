@@ -758,8 +758,32 @@ want-to-continue = Tebɣiḍ ad tkemleḍ?
 finish-editing = Ar d-tefakeḍ deg tazwara tazrigt?
 lose-changes-warning = Ma teffɣeḍ tura ad ruḥen ibeddilen-ik
 build-custom-goal = Bnu iswi udmawan
+help-reach-hours-pluralized =
+    Alel ad tawḍeḍ{ NUMBER($hours) ->
+        [one] { $hours } n usrag
+       *[other] { $hours } n yisragen
+    }deg { $language } s yiswi udmawan
+help-reach-hours-general-pluralized =
+    Alel Common Voice ad yaweḍ{ NUMBER($hours) ->
+        [one] { $hours } n usrag
+       *[other] { $hours } n yisragen
+    }deg tutlayt s yiswi udmawan
 set-a-goal = Sbadu iswi
 cant-decide = Ur tezmireḍ ara tferneḍ?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } n usrag
+       *[other] { $totalHours } n yisragen
+    } i nezmer ad naweḍ deg { NUMBER($periodMonths) ->
+        [one] { $periodMonths } n wayyur
+       *[other] { $periodMonths } n wayyuren
+    } ma{ NUMBER($people) ->
+        [one] { $people } n umdan
+       *[other] { $people } n yimdanen
+    } i yesseklasen{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } n tukkist
+       *[other] { $clipsPerDay } n tukkisin
+    } deg wass.
 how-many-per-day = Igerrez! Acḥal n tukkisin deg wass?
 how-many-a-week = Igerrez! Acḥal n tukkisin di ddurt?
 which-goal-type = Tebɣiḍ ad tmeslayeḍ,  ad tesleḍ neɣ di sin?
