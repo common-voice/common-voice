@@ -406,15 +406,21 @@ how-does-it-work-text = Tuli mu kukunganya dataset y'amaloboozi ey'obwereere. Gg
 about-speak = Yogera
 about-listen = Wulira
 about-no-votes-text = Omuntu bwagana eddoboozi liddayo emabega mu layini y'ezo ezitannaba kutukibwako. Bweliganibwa ogw'okubiri, eddoboozi lisuulibwa mu limbo.
+about-dataset-new = Dataset ya Common Voice
 about-clip-graveyard = Amalaalo G'obuloboozi
+about-partners = Ba patana
+about-become-a-partner = Fuuka patana
 about-get-involved = Twegatteko
 about-nav-why-common-voice = Lwaki?
 about-nav-how-it-works = Batya?
+about-nav-partners = Ba patana
 about-nav-get-involved = Twegatteko
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Artificial intelligence
 
 ## Glossary
 
+localization = Okuvunnula
 
 ## Error pages
 
