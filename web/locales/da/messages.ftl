@@ -800,6 +800,10 @@ n-clips-pluralized =
 help-share-goal = Del dit mål, og hjælp os med at finde flere stemmer
 confirm-goal = Bekræft mål
 goal-interval-weekly = Ugentligt
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Del dit daglige mål på { $count } om dagen for { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Del dit ugentlige mål på { $count } om ugen for { $type }
 share-goal-type-speak = Taler
 share-goal-type-listen = Lytter
 share-goal-type-both = Taler og lytter
