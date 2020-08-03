@@ -497,9 +497,11 @@ dataset-version = Enkola
 ## Download Modal
 
 download-title = Download yo etandise.
+download-helpus = Tuyambe mu kuzimba community ne tekinologiya ow'amaloboozi. Sigala naffe ku email.
 download-form-email =
     .label = Saamu email yo
     .value = Webale, ojja ku tuwuliza.
+download-back = Ddayo ku Dataset ya Common Voice.
 download-no = Nedda Webale
 
 ## Contact Modal
@@ -523,6 +525,7 @@ other-language = Olulimi Olulala
 
 ## Languages Overview
 
+language-section-in-progress = Kigenda mu maaso
 languages-show-more = Laba Ebirala
 languages-show-less = Laba bitono
 language-meter-in-progress = Wekituuse
@@ -530,7 +533,9 @@ language-total-progress = Omuwendo
 language-search-input =
     .placeholder = Nnonya
 language-speakers = Abogezi
+localized = Kyavvunulwa
 sentences = Emboozi
+total-hours = Essawa ensunsule
 
 ## Contribution
 
@@ -539,6 +544,14 @@ action-tap = Koona
 contribute = Yambako
 listen = Wuliriza
 skip = Buuka
+shortcuts = Shortcut
+clips-with-count-pluralized =
+    { $count ->
+        [one] Kaloboozi <bold>{ $count }</bold>
+       *[other] Buloboozi <bold>{ $count }</bold>
+    }
+goal-help-recording = Oyambyeko common voice okutuuka ku <goalPercentage></goalPercentage> eya goolo { $goalValue } ez'okulikodingibwa buli lunaku.
+goal-help-validation = Oyambyeko common voice okutuuka ku <goalPercentage></goalPercentage> eya goolo { $goalValue } ez'okusunsula buli lunaku.
 contribute-more =
     { $count ->
         [one] Wetegese okukola ekilara { $count }?
@@ -546,6 +559,7 @@ contribute-more =
     }
 record-cta = Tandika okulikodinga
 record-platform-not-supported = Platform yo tenaba k'olebwa mu kaseera kano, tusonyiwe.
+record-platform-not-supported-ios-non-safari = Ku iOS tusaba weyongereyo ne Safari okusobola okulikodinga…
 record-no-mic-found = Akazindaalo tekasangidwa.
 record-cancel = Sazaamu okulikodinga buto
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> nga omaze
