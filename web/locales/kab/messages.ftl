@@ -744,6 +744,7 @@ show-ranking = Sken asmizzwer-iw
 
 get-started-goals = Bdu d yiswiyen
 create-custom-goal = Rnu iswi udmawan
+goal-type = Anwa anaw n yiswi i tebɣiḍ ad tebnuḍ?
 both-speak-and-listen = Di sin
 both-speak-and-listen-long = Di sin (Mmeslay u Sel)
 daily-goal = Iswi n yal ass
