@@ -760,6 +760,11 @@ receiving-emails-info =
     Aql-ak tura theggaḍ ad tremseḍ imaylen n yismektiyen n yiswi,
     ileqman n usfari-iw akked tebratin n yisallen ɣef Common Voice
 not-receiving-emails-info = Aql-ak tura terriḍ  <bold>UHU</bold>  i urmas n yimaylen i yismektiyen n yiswan, ileqman n usfari-iw akked tebrat n yisallen ɣef Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } n tukkist
+       *[other] { $count } n tukkisin
+    }
 help-share-goal = Mudd-aɣ-d afus ad d-naf ugar n tuɣac, bḍu iswi-ik
 confirm-goal = Sentem iswi
 goal-interval-weekly = Yal ddurt
