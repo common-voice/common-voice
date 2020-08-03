@@ -465,10 +465,14 @@ language = Olulimi
 # File size in gigabytes
 size = Obunene
 validated-hr-total = Essaawa Wamu Ezikakasiddwa
+overall-hr-total = Essaawa Zonna Awamu
 cv-license = Lukusa
+audio-format = Format y'eddoboozi
 number-of-voices = Omuwendo gw'amaloboozi
+splits = Obutundu
 email-to-download = Saamu Email Okudawunulodinga
 why-email = <b>Lwaki email?</b> Bwetuba tuyagade okukutukirira nga waliwo ebicuse ku dataset, email etuyamba okukwatagana nawe.
+confirm-size = Wetegese okutandika oku downloadinga <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Download { $language }
