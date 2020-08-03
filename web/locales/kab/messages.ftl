@@ -11,6 +11,7 @@ loading = Asali…
 email-opt-in-info = Bɣiɣ ad d-ṭṭfeɣ imaylen am yismektiyen n yiswan, aswir-iw n umecwar n yileqman akked uɣmis ɣef Common Voice.
 email-opt-in-info-title = Jerred deg tebdert n unermes Common Voice
 email-opt-in-info-sub-with-challenge = Ṭṭef imaylen am iznan n timzizliyin akked usmekti n iswiyen, tilḥin deg umahel akked isallen ɣef Common Voice.
+email-opt-in-privacy-v2 = Ma tferneḍ armas n yimaylen, ad tqebleḍ ad tesseqdec Mozilla talɣut-a akken i d-tettwasegza deg <privacyLink>Tasertit n tbaḍnit n Mozilla</privacyLink>.
 indicates-required = * Yemmal-d urti ilaqen
 not-available-abbreviation = N/A
 
