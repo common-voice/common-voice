@@ -405,6 +405,7 @@ how-does-it-work-title = Ekola etya?
 how-does-it-work-text = Tuli mu kukunganya dataset y'amaloboozi ey'obwereere. Ggaba eddoboozi lyo, sunsula obutuufu bwa amaloboozi g'abalala, fuula dataset nnungi eri buli muntu.
 about-speak = Yogera
 about-listen = Wulira
+about-no-votes-text = Omuntu bwagana eddoboozi liddayo emabega mu layini y'ezo ezitannaba kutukibwako. Bweliganibwa ogw'okubiri, eddoboozi lisuulibwa mu limbo.
 about-clip-graveyard = Amalaalo G'obuloboozi
 about-get-involved = Twegatteko
 about-nav-why-common-voice = Lwaki?
