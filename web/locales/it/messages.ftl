@@ -468,10 +468,8 @@ sst-explanation = Le tecnologie di riconoscimento vocale (STT) convertono il par
 de-identified = Anonimizzazione
 de-identified-explanation = Il processo con il quale le informazioni del profilo di un collaboratore contenute nelle sue registrazioni vengono rese illeggibili quando scaricate come parte del dataset.
 
-## NotFound
+## Error pages
 
-notfound-title = Non trovato
-notfound-content = Impossibile trovare i contenuti cercati.
 
 ## Data
 
@@ -611,7 +609,11 @@ contribute = Contribuisci
 listen = Ascolta
 skip = Salta
 shortcuts = Scorciatoie
-clips-with-count = <bold>{ $count }</bold> registrazioni
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> registrazione
+       *[other] <bold>{ $count }</bold> registrazioni
+    }
 goal-help-recording = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le registrazioni.
 goal-help-validation = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le convalide.
 contribute-more = Sei pronto a farne ancora { $count }?
@@ -738,19 +740,18 @@ want-to-continue = Vuoi continuare?
 finish-editing = Vuoi finire prima le modifiche?
 lose-changes-warning = Se esci ora, perderai le tue modifiche
 build-custom-goal = Crea un obiettivo personale
-help-reach-hours = Aiuta a raggiungere { NUMBER($hours) } ore in { $language } con un obiettivo personale
-help-reach-hours-general = Aiuta Common Voice a raggiungere { NUMBER($hours) } ore in una lingua con gli obiettivi personali
 set-a-goal = Imposta un obiettivo
 cant-decide = Sei indeciso?
-activity-needed-calculation =
-    Possiamo raggiungere { NUMBER($totalHours) } in soli { NUMBER($periodMonths) }
-    mesi se { NUMBER($people) } persone effettuano { NUMBER($clipsPerDay) } registrazioni al giorno.
 how-many-per-day = Ottimo! Quante registrazioni al giorno?
 how-many-a-week = Ottimo! Quante registrazioni a settimana?
 which-goal-type = Vuoi registrare, convalidare o entrambi?
 receiving-emails-info = Hai richiesto di ricevere email come: promemoria degli obiettivi, aggiornamenti sui progressi e newsletter su Common Voice.
 not-receiving-emails-info = Con la scelta attuale <bold>NON</bold> riceverai email come promemoria degli obiettivi, aggiornamenti sui progressi e newsletter riguardo Common Voice
-n-clips = { NUMBER($count) } registrazioni
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } registrazione
+       *[other] { $count } registrazioni
+    }
 help-share-goal = Aiutaci a trovare più voci, condividi il tuo obiettivo
 confirm-goal = Conferma obiettivo
 goal-interval-weekly = Settimanale
