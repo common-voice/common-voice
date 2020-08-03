@@ -740,6 +740,16 @@ want-to-continue = Vuoi continuare?
 finish-editing = Vuoi finire prima le modifiche?
 lose-changes-warning = Se esci ora, perderai le tue modifiche
 build-custom-goal = Crea un obiettivo personale
+help-reach-hours-pluralized =
+    Aiuta a raggiungere{ NUMBER($hours) ->
+        [one] { $hours } ora
+       *[other] { $hours } ore
+    } in { $language } con un obiettivo personale
+help-reach-hours-general-pluralized =
+    Aiuta Common Voice a raggiungere { NUMBER($hours) ->
+        [one] { $hours } ora
+       *[other] { $hours } ore
+    } in una lingua con gli obiettivi personali
 set-a-goal = Imposta un obiettivo
 cant-decide = Sei indeciso?
 how-many-per-day = Ottimo! Quante registrazioni al giorno?
