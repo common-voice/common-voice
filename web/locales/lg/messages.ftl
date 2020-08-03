@@ -423,15 +423,28 @@ mycroft-subtitle = Artificial intelligence
 localization = Okuvunnula
 localization-explanation = Eno y'enkola yaffe ey'okuvvunula n'okukyusa ebintu byaffe mu nnimi ez'enjawulo.
 sentence-collection = Okukunganya sentensi
+sentence-collection-explanation = Okukunganya sentensi okuva mu tterekero ly'olukale, oba okuwandiika empya.
+hours-recorded-explanation = Omuwendo gw'amaloboozi mu ssaawa ze twakalikodinga.
+sst = Eddoboozi-mu-buwandiike (STT)
+sst-explanation = Tekinologiya wa Speech-to-text (STT) akyusa eddoboozi n'alizza mu buwandiike
 
 ## Error pages
 
 
 ## Data
 
+data-download-button = Download Common Voice Data
 data-download-yes = Ye
 data-download-deny = Nedda
+data-download-license = Layisensi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Oli kumpi kutandika download eya <size>{ $size }GB</size>, weeyongereyo?
+data-get-started = <speechBlogLink>Tandika N'okutegera Amaloboozi</speechBlogLink>
+data-other-title = Dataset z'amaloboozi endala...
 data-other-goto = Genda mu { $name }
+data-other-download = Dawunulodinga Data
+data-bundle-button = Dawunulodinga Enkata ya Dataset
+data-bundle-description = Data wa Common Voice gattako dataset y'amaloboozi amalala waggulu.
+license = Layisinsi: <licenseLink>{ $license }</licenseLink>
 terms-agree = Nzikiriza
 terms-disagree = Si kkiriza
 review-rerecord = Likodinga buto
