@@ -487,6 +487,10 @@ de-identified-explanation = Při tomto procesu je v souborech datasetu ke staže
 
 ## Error pages
 
+error-title-404 = Tuto stránku se nám nepodařilo najít
+error-content-404 = Možná vám pomůže naše <homepageLink>domovská stránka</homepageLink>. Pro případné položení dotazu se prosím připojte do naší <matrixLink>skupiny na Matrix serveru</matrixLink>. Nahlášené chyby můžete sledovat na <githubLink>GitHubu</githubLink> nebo na <discourseLink>fóru Discourse</discourseLink>.
+error-title-503 = Stránka je neočekávaně dočasně nedostupná
+error-content-503 = Budeme zpět jak nejdříve to půjde. Pro nahlášení problému se prosím připojte do naší <matrixLink>skupiny na Matrix serveru</matrixLink>. Nahlášené chyby můžete sledovat také na <githubLink>GitHubu</githubLink> nebo na <discourseLink>fóru Discourse</discourseLink>.
 error-code = Chyba { $code }
 
 ## Data
@@ -749,6 +753,7 @@ show-ranking = Ukázat moje hodnocení
 
 get-started-goals = Začněte s cíli
 create-custom-goal = Vytvořit vlastní cíl
+goal-type = Jaký cíl si chcete vytyčit?
 both-speak-and-listen = Obojí
 both-speak-and-listen-long = Obojí (mluvit i poslouchat)
 daily-goal = Denní cíl
