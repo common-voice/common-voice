@@ -396,11 +396,13 @@ faq-is-account-public-q = Ebinfaako mu akawunti yange bilabika mu lwatu?
 faq-what-determine-identity-q = Kitegeeza ki nti sisobola kumanya bikwata ku bogezi mu dataset ya Common voice?
 faq-what-is-cv = Common Voice Ky'ekiki?
 faq-using-cv = Okozesa Common Voice
+faq-description = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye bogera.
 
 ## ABOUT US
 
 about-title = Lwaki Common Voice?
 how-does-it-work-title = Ekola etya?
+how-does-it-work-text = Tuli mu kukunganya dataset y'amaloboozi ey'obwereere. Ggaba eddoboozi lyo, sunsula obutuufu bwa amaloboozi g'abalala, fuula dataset nnungi eri buli muntu.
 about-speak = Yogera
 about-listen = Wulira
 about-clip-graveyard = Amalaalo G'obuloboozi
