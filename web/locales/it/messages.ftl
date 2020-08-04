@@ -470,6 +470,9 @@ de-identified-explanation = Il processo con il quale le informazioni del profilo
 
 ## Error pages
 
+error-title-404 = Pagina non trovata
+error-title-503 = Si è verificata un’interruzione imprevista
+error-code = Errore { $code }
 
 ## Data
 
@@ -704,6 +707,7 @@ validations =
 
 your-languages = Le tue lingue
 toward-next-goal = Verso il prossimo obiettivo
+goal-reached = Obiettivo raggiunto
 clips-you-recorded = Registrazioni che hai immesso
 clips-you-validated = Registrazioni che hai convalidato
 todays-recorded-progress = Progresso di Common Voice di oggi sulle registrazioni immesse
