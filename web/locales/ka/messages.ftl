@@ -720,6 +720,7 @@ validations =
 
 your-languages = თქვენი ენები
 toward-next-goal = პირდაპირ შემდეგ მიზნამდე
+goal-reached = მიზანი მიღწეულია
 clips-you-recorded = თქვენი ჩანაწერები
 clips-you-validated = თქვენ მიერ დამოწმებული
 todays-recorded-progress = დღევანდელი წინსვლა ჩანაწერებში
