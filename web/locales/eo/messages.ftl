@@ -506,6 +506,7 @@ data-bundle-description = Datumoj de Common Voice kaj ĉiuj aliaj supraj voĉaj 
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
 license-mixed = Miksita
 data-download-singleword-title = Elŝuti la celan segmenton de unikaj vortoj
+data-download-singleword-callout = Tiu ĉi estas cela segmento por aparta uzo. Ĝi enhavas datumojn, kiuj rilatas la rekonon de parolitaj ciferoj, detekton de jes kaj ne,  kaj  testajn datumojn por la vekvorto de <fxLink>Firefox Voice</fxLink>.
 review-terms = Per la uzo de Common Voice vi akceptas niajn <termsLink>kondiĉojn</termsLink> kaj <privacyLink>privatecan rimarkon</privacyLink>
 terms-agree = Mi akceptas
 terms-disagree = Mi ne akceptas
