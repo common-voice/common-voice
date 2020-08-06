@@ -723,6 +723,7 @@ validations =
 
 your-languages = Uw talen
 toward-next-goal = Naar het volgende doel
+goal-reached = Doel bereikt
 clips-you-recorded = Door u opgenomen fragmenten
 clips-you-validated = Door u gevalideerde fragmenten
 todays-recorded-progress = Voortgang van Common Voice vandaag omtrent opgenomen fragmenten
