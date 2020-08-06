@@ -83,6 +83,7 @@ export default class API {
     );
     router.post('/user_client/avatar_clip', this.saveAvatarClip);
     router.get('/user_client/avatar_clip', this.getAvatarClip);
+    router.get('/user_client/recordings', this.getRecordings);
     router.get('/user_client/delete_avatar_clip', this.deleteAvatarClip);
     router.post('/user_client/:locale/goals', this.createCustomGoal);
     router.get('/user_client/goals', this.getGoals);
@@ -353,6 +354,12 @@ export default class API {
       response.statusMessage = 'save avatar clip error';
       response.json(error);
     }
+  };
+
+  getRecordings = async (request: Request, response: Response) => {
+    response.attachment('recordings.zip');
+    let recordings = await this.bucket.getRecordedClips(request.client_id);
+    recordings.pipe(response).on('end', () => { response.end(); });
   };
 
   getAvatarClip = async (request: Request, response: Response) => {

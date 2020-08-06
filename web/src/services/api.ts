@@ -234,6 +234,10 @@ export default class API {
     );
   }
 
+  fetchRecordings(): Promise<Response> {
+    return fetch(API_PATH + '/user_client/recordings');
+  }
+
   fetchUserClients(): Promise<UserClient[]> {
     return this.fetch(API_PATH + '/user_clients');
   }

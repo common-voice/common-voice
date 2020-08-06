@@ -4,6 +4,7 @@
     &.info,
     &.avatar,
     &.settings,
+    &.download,
     &.delete {
         & header {
             @media (--lg-up) {
