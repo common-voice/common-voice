@@ -482,6 +482,10 @@ de-identified-explanation = La procezo kiu permesas apartigi la personajn inform
 
 ## Error pages
 
+error-title-404 = Ni ne povis trovi tiun paĝon
+error-content-404 = Nia <homepageLink>hejmpaĝo</homepageLink> povus eble helpi. Por demandi ion, bonvolu aliĝi al la <matrixLink>retbabilejo de la komunumo Matrix</matrixLink>, vi ankaŭ povas vidi raportitajn problemojn en la retejo per <githubLink>GitHub</githubLink> aŭ viziti <discourseLink>niajn forumojn Discourse</discourseLink>.
+error-title-503 = La retejo estas provizore nedisponebla
+error-content-503 = La retejo estos restarigita kiel eble plej rapide. Por pli da informo bonvolu aliĝi al la <matrixLink>retbabilejo de la komunumo Matrix</matrixLink> au viziti <githubLink>GitHub</githubLink> aŭ <discourseLink>niajn forumojn Discourse</discourseLink> por raporti kaj informiĝi pri problemoj en la retejo.
 error-code = Eraro { $code }
 
 ## Data
@@ -501,6 +505,7 @@ data-bundle-button = Elŝuti kolekto da datumaroj
 data-bundle-description = Datumoj de Common Voice kaj ĉiuj aliaj supraj voĉaj datumaroj.
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
 license-mixed = Miksita
+data-download-singleword-title = Elŝuti la celan segmenton de unikaj vortoj
 review-terms = Per la uzo de Common Voice vi akceptas niajn <termsLink>kondiĉojn</termsLink> kaj <privacyLink>privatecan rimarkon</privacyLink>
 terms-agree = Mi akceptas
 terms-disagree = Mi ne akceptas
@@ -671,7 +676,7 @@ record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
 keep-track-profile = Akompanu vian progreson per profilo
 login-to-get-started = Komencu seancon aŭ enskribiĝu por ekuzi
-target-segment-first-card = Vi kontribuas a la nia unua cela segmento
+target-segment-first-card = Vi kontribuas kun nia unua cela segmento
 target-segment-first-banner = Helpu krei la unuan celan segmenton de Common Voice en { $locale }
 target-segment-add-voice = Aldoni vian voĉon
 target-segment-learn-more = Pli da informo
