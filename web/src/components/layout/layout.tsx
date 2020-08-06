@@ -67,7 +67,6 @@ interface LayoutState {
   challengeToken: ChallengeToken;
   isMenuVisible: boolean;
   hasScrolled: boolean;
-  hasScrolledDown: boolean;
   showStagingBanner: boolean;
   showWelcomeModal: boolean;
   featureStorageKey?: string;
@@ -147,7 +146,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     challengeToken: undefined,
     isMenuVisible: false,
     hasScrolled: false,
-    hasScrolledDown: false,
     showStagingBanner: !isProduction(),
     showWelcomeModal: false,
     featureStorageKey: null,
@@ -211,14 +209,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     }
   }
 
-  lastScrollTop: number;
   private handleScroll = () => {
     const { scrollTop } = this.scroller;
     this.setState({
       hasScrolled: scrollTop > 0,
-      hasScrolledDown: scrollTop > this.lastScrollTop,
     });
-    this.lastScrollTop = scrollTop;
   };
 
   private toggleMenu = () => {
@@ -266,7 +261,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       challengeTeamToken,
       challengeToken,
       hasScrolled,
-      hasScrolledDown,
       isMenuVisible,
       showStagingBanner,
       showWelcomeModal,
@@ -307,10 +301,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         {showStagingBanner && (
           <div className="staging-banner">
             You're on the staging server. Voice data is not collected here.{' '}
-            <a
-              href={URLS.HTTP_ROOT}
-              target="_blank"
-              rel="noopener noreferrer">
+            <a href={URLS.HTTP_ROOT} target="_blank" rel="noopener noreferrer">
               Don't waste your breath.
             </a>{' '}
             <a
@@ -325,12 +316,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </div>
         )}
         <header
-          className={
-            !isMenuVisible &&
-            (hasScrolled ? 'active' : '') +
-              ' ' +
-              (hasScrolledDown ? 'hidden' : '')
-          }
+          className={!isMenuVisible && (hasScrolled ? 'active' : '')}
           ref={header => {
             this.header = header as HTMLElement;
           }}>

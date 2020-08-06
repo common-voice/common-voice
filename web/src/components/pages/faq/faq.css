@@ -56,7 +56,11 @@
         & .header-line {
             width: 70px;
             height: 3px;
-            background: linear-gradient(to right, var(--gradient-pink), var(--gradient-purple));
+            background: linear-gradient(
+                to right,
+                var(--gradient-pink),
+                var(--gradient-purple)
+            );
 
             @media (--md-down) {
                 margin-bottom: 20px;
@@ -308,7 +312,11 @@
 
             & .line {
                 height: 3px;
-                background: linear-gradient(to right, var(--gradient-pink), var(--gradient-purple));
+                background: linear-gradient(
+                    to right,
+                    var(--gradient-pink),
+                    var(--gradient-purple)
+                );
                 margin: 0 75px 30px;
 
                 @media (--md-down) {
@@ -550,9 +558,5 @@
                 }
             }
         }
-    }
-
-    .hidden {
-        display: none;
     }
 }
