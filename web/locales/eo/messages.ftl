@@ -480,10 +480,9 @@ sst-explanation = Voĉrekoniloj (STT) transformas voĉon en tekston.
 de-identified = Anonimigita
 de-identified-explanation = La procezo kiu permesas apartigi la personajn informojn de la kontribuantoj kaj iliajn kontribuojn, dum oni pakas la voĉregistrojn en la datumbazo por elŝuto.
 
-## NotFound
+## Error pages
 
-notfound-title = Ne trovita
-notfound-content = Bedaŭrinde mi ne trovas tion, kion vi serĉas.
+error-code = Eraro { $code }
 
 ## Data
 
@@ -721,6 +720,7 @@ validations =
 
 your-languages = Viaj lingvoj
 toward-next-goal = Al la venonta celo
+goal-reached = Celo atingita
 clips-you-recorded = Viaj voĉregistroj
 clips-you-validated = Viaj revizioj
 todays-recorded-progress = Hodiaŭa progreso de Common Voice rilate al voĉregistroj
@@ -793,6 +793,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Vi <bold>NE</bold> ricevos retpoŝtajn mesaĝojn kun memorigoj pri celoj
     raportoj pri via progreso kaj novaĵleteroj de Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } voĉregistro
+       *[other] { $count } voĉregistroj
+    }
 help-share-goal = Helpu nin trovi pli da voĉoj, kundividu vian celon
 confirm-goal = Konfirmi celon
 goal-interval-weekly = Semajne
