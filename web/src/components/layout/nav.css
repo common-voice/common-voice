@@ -1,10 +1,8 @@
 @import url('../vars.css');
 
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
     display: flex;
     align-items: center;
     height: var(--header-height);
@@ -29,11 +27,9 @@ header {
 
     &.active {
         box-shadow: var(--nav-shadow-overhang);
-        background-color: var(--white);
 
         @media (--lg-up) {
             box-shadow: none;
-            background-color: initial;
         }
     }
 

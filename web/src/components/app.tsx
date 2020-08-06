@@ -208,7 +208,7 @@ let LocalizedPage: any = class extends React.Component<
     if (!l10n) return null;
 
     return (
-      <div>
+      <>
         <div
           className="upload-progress"
           style={
@@ -266,7 +266,7 @@ let LocalizedPage: any = class extends React.Component<
             </Switch>
           </div>
         </LocalizationProvider>
-      </div>
+      </>
     );
   }
 };

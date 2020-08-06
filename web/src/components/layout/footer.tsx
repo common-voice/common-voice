@@ -16,10 +16,7 @@ const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
   const [locale] = useLocale();
   return (
     <Localized id={id}>
-      <LocaleLink
-        to={to}
-        onClick={() => trackNav(id, locale)}
-      />
+      <LocaleLink to={to} onClick={() => trackNav(id, locale)} />
     </Localized>
   );
 };
@@ -29,10 +26,7 @@ export default React.memo(() => {
   return (
     <footer>
       <div id="help-links">
-        <LocaleLink
-          to={URLS.FAQ}
-          onClick={() => trackNav('faq', locale)}
-        >
+        <LocaleLink to={URLS.FAQ} onClick={() => trackNav('faq', locale)}>
           <SupportIcon />
           <Localized id="faq">
             <div />
@@ -58,11 +52,13 @@ export default React.memo(() => {
             <Localized
               id="content-license-text"
               elems={{
-                licenseLink: <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
-                />
+                licenseLink: (
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
+                  />
+                ),
               }}>
               <span />
             </Localized>
@@ -104,7 +100,7 @@ export default React.memo(() => {
           <TextButton
             className="back-top"
             onClick={() => {
-              document.getElementById('scroller').scrollTop = 0;
+              window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
           />
         </Localized>
