@@ -15,16 +15,12 @@
         }
     }
 
-    #scroller,
-    #scrollee,
     #content,
     .mars {
         display: flex;
         flex-direction: column;
     }
 
-    #scroller,
-    #scrollee,
     #content,
     .error-page-container-outer {
         flex-grow: 1;

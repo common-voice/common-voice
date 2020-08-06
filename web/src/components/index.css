@@ -22,14 +22,7 @@ html {
     font-size: var(--font-size);
     color: var(--black);
     background-color: var(--white);
-    overflow: auto;
     scroll-behavior: smooth;
-}
-
-@media (--md-down) {
-    html {
-        overflow: hidden;
-    }
 }
 
 html,
@@ -151,37 +144,6 @@ button {
     box-sizing: border-box;
     background-color: var(--white);
     animation: fadein var(--transition-duration-slow) linear;
-}
-
-#scroller {
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-    position: fixed;
-    top: var(--header-height);
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    z-index: 0;
-
-    @media (--md-up) {
-        -webkit-overflow-scrolling: initial;
-        scroll-behavior: initial;
-    }
-
-    @media (--lg-up) {
-        position: relative;
-        top: initial;
-        bottom: initial;
-        left: initial;
-        right: initial;
-        overflow: initial;
-    }
-}
-
-#scrollee {
-    position: relative;
 }
 
 .profile #content {
