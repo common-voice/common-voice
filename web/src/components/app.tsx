@@ -78,7 +78,6 @@ interface LocalizedPagesProps
 }
 
 interface LocalizedPagesState {
-  hasScrolled: boolean;
   l10n: ReactLocalization | null;
   uploadPercentage?: number;
 }
@@ -89,7 +88,6 @@ let LocalizedPage: any = class extends React.Component<
 > {
   seenAwardIds: number[] = [];
   state: LocalizedPagesState = {
-    hasScrolled: false,
     l10n: null,
     uploadPercentage: null,
   };
@@ -98,8 +96,6 @@ let LocalizedPage: any = class extends React.Component<
 
   async componentDidMount() {
     await this.prepareBundleGenerator(this.props);
-    window.addEventListener('scroll', this.handleScroll);
-    setTimeout(() => this.setState({ hasScrolled: true }), 5000);
     this.props.refreshUser();
   }
 
@@ -142,10 +138,6 @@ let LocalizedPage: any = class extends React.Component<
       );
       await api.seenAwards('notification');
     }
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
   }
 
   async runUploads(uploads: Uploads.State) {
@@ -208,12 +200,6 @@ let LocalizedPage: any = class extends React.Component<
       ),
     });
   }
-
-  handleScroll = () => {
-    if (!this.state.hasScrolled) {
-      this.setState({ hasScrolled: true });
-    }
-  };
 
   render() {
     const { locale, notifications, toLocaleRoute } = this.props;
