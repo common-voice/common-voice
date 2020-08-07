@@ -641,7 +641,7 @@ contribute = Contribute
 listen = Listen
 skip = Skip
 shortcuts = Shortcuts
-clips-with-count-pluralized = { $count -> 
+clips-with-count-pluralized = { $count ->
                     [one] <bold>{ $count }</bold> Clip
                     *[other] <bold>{ $count }</bold> Clips
 }
@@ -780,7 +780,7 @@ help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) -
  } in a language with a personal goal
 set-a-goal = Set a goal
 cant-decide = Can't decide?
-activity-needed-calculation-plural-v2 = { NUMBER($totalHours) ->
+activity-needed-calculation-plural = { NUMBER($totalHours) ->
   [one] {$totalHours} hour is
   *[other] {$totalHours} hours are
  } achievable in just over { NUMBER($periodMonths) ->
@@ -800,7 +800,7 @@ receiving-emails-info = You're currently set to receive emails such as goal remi
         progress updates and newsletters about Common Voice
 not-receiving-emails-info = You're currently set to <bold>NOT</bold> receive emails such as goal reminders, my
         progress updates and newsletters about Common Voice
-n-clips-pluralized = { NUMBER($count) -> 
+n-clips-pluralized = { NUMBER($count) ->
               [one] {$count} clip
               *[other] {$count} clips
               }
