@@ -9,7 +9,7 @@ import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
-import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
+import { ACCENTS, AGES, GENDERS } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
 import { useTypedSelector } from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -68,18 +68,25 @@ function ProfilePage({
     username: string;
     visible: number | string;
     age: string;
-    sex: string;
+    gender: string;
     sendEmails: boolean;
     privacyAgreed: boolean;
   }>({
     username: '',
     visible: 0,
     age: '',
-    sex: '',
+    gender: '',
     sendEmails: false,
     privacyAgreed: false,
   });
-  const { username, visible, age, sex, sendEmails, privacyAgreed } = userFields;
+  const {
+    username,
+    visible,
+    age,
+    gender,
+    sendEmails,
+    privacyAgreed,
+  } = userFields;
   const [locales, setLocales] = useState<Locales>([]);
   const [isInitialized, setIsInitialized] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
@@ -105,12 +112,12 @@ function ProfilePage({
       ...userFields,
       sendEmails: !!account?.basket_token,
       visible: 0,
-      ...pick(user, 'age', 'username', 'sex'),
+      ...pick(user, 'age', 'username', 'gender'),
       ...(account
-        ? pick(account, 'age', 'username', 'sex', 'visible')
+        ? pick(account, 'age', 'username', 'gender', 'visible')
         : {
             age: userClients.reduce((init, u) => u.age || init, ''),
-            sex: userClients.reduce((init, u) => u.sex || init, ''),
+            gender: userClients.reduce((init, u) => u.gender || init, ''),
           }),
       privacyAgreed: Boolean(account) || user.privacyAgreed,
     });
@@ -152,7 +159,7 @@ function ProfilePage({
     setTermsStatus('agreed');
 
     const data = {
-      ...pick(userFields, 'username', 'age', 'sex'),
+      ...pick(userFields, 'username', 'age', 'gender'),
       locales: locales.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
@@ -256,9 +263,9 @@ function ProfilePage({
           </LabeledSelect>
         </Localized>
 
-        <Localized id="profile-form-sex" attrs={{ label: true }}>
-          <LabeledSelect value={sex} onChange={handleChangeFor('sex')}>
-            <Options>{SEXES}</Options>
+        <Localized id="profile-form-gender" attrs={{ label: true }}>
+          <LabeledSelect value={gender} onChange={handleChangeFor('gender')}>
+            <Options>{GENDERS}</Options>
           </LabeledSelect>
         </Localized>
 

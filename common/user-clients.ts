@@ -6,7 +6,7 @@ export type UserClient = {
   username?: string;
   client_id?: string;
   age?: string;
-  sex?: string;
+  gender?: string;
   locales?: { locale: string; accent: string }[];
   visible?: 0 | 1 | 2;
   basket_token?: string;

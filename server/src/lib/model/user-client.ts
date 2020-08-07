@@ -68,7 +68,7 @@ async function updateLocales(
 async function updateDemographics(
   clientId: string,
   age?: string,
-  sex?: string
+  gender?: string
 ) {
   const [[{ id: ageId }]] = await db.query(
     `
@@ -79,22 +79,22 @@ async function updateDemographics(
     [age]
   );
 
-  const [[{ id: sexId }]] = await db.query(
+  const [[{ id: genderId }]] = await db.query(
     `
     SELECT id
-      FROM sexes
-      WHERE sex = ?
+      FROM genders
+      WHERE gender = ?
   `,
-    [sex]
+    [gender]
   );
 
   await db.query(
     `
-    INSERT INTO demographics (client_id, age_id, sex_id) VALUES (?, ?, ?)
+    INSERT INTO demographics (client_id, age_id, gender_id) VALUES (?, ?, ?)
       ON DUPLICATE KEY UPDATE
       updated_at = now()
   `,
-    [clientId, ageId, sexId]
+    [clientId, ageId, genderId]
   );
 }
 
@@ -108,14 +108,14 @@ const UserClient = {
   }) {
     const [rows] = await db.query(
       `
-        SELECT u.*, accents.accent, locales.name AS locale, ages.age, sexes.sex
+        SELECT u.*, accents.accent, locales.name AS locale, ages.age, genders.gender
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
         -- TODO: This subquery is VERY awkward, but safer until we simplify
                  accent grouping.
         CROSS JOIN
-          (SELECT ages.id AS age_id, sexes.id AS sex_id
+          (SELECT ages.id AS age_id, genders.id AS gender_id
             FROM user_clients
             LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
             WHERE user_clients.${
@@ -125,7 +125,7 @@ const UserClient = {
             LIMIT 1
           ) AS d
         LEFT JOIN ages on d.age_id = ages.id
-        LEFT JOIN sexes on d.sex_id = sexes.id
+        LEFT JOIN genders on d.gender_id = genders.id
         WHERE (u.client_id = ? OR email = ?) AND !has_login
       `,
       [client_id || null, email || null]
@@ -134,7 +134,7 @@ const UserClient = {
       rows.reduce((obj: { [client_id: string]: any }, row: any) => {
         const client = obj[row.client_id];
         obj[row.client_id] = {
-          ...pick(row, 'client_id', 'accent', 'age', 'sex'),
+          ...pick(row, 'client_id', 'accent', 'age', 'gender'),
           locales: (client ? client.locales : []).concat(
             row.accent ? { accent: row.accent, locale: row.locale } : []
           ),
@@ -152,7 +152,7 @@ const UserClient = {
           accents.accent,
           locales.name AS locale,
           ages.age,
-          sexes.sex,
+          genders.gender,
           (SELECT COUNT(*) FROM clips WHERE u.client_id = clips.client_id) AS clips_count,
           (SELECT COUNT(*) FROM votes WHERE u.client_id = votes.client_id) AS votes_count,
           t.team,
@@ -167,7 +167,7 @@ const UserClient = {
         -- TODO: This subquery is awkward, but safer until we simplify accent
         --       grouping.
         CROSS JOIN
-          (SELECT ages.id AS age_id, sexes.id AS sex_id
+          (SELECT ages.id AS age_id, genders.id AS gender_id
             FROM user_clients
             LEFT JOIN demographics
             ON user_clients.client_id = demographics.client_id
@@ -176,7 +176,7 @@ const UserClient = {
             LIMIT 1
           ) AS d
         LEFT JOIN ages ON d.age_id = ages.id
-        LEFT JOIN sexes ON d.sex_id = sexes.id
+        LEFT JOIN genders ON d.gender_id = genders.id
         LEFT JOIN (
           SELECT enroll.client_id, enroll.url_token as invite, teams.url_token AS team, challenges.url_token AS challenge
           FROM enroll
@@ -203,7 +203,7 @@ const UserClient = {
               'accent',
               'age',
               'email',
-              'sex',
+              'gender',
               'username',
               'basket_token',
               'skip_submission_feedback',
@@ -265,7 +265,7 @@ const UserClient = {
       [accountClientId]
     );
 
-    updateDemographics(client_id, data.age, data.sex);
+    updateDemographics(client_id, data.age, data.gender);
 
     await Promise.all([
       this.claimContributions(accountClientId, clientIds),
@@ -296,7 +296,7 @@ const UserClient = {
     return UserClient.findAccount(email);
   },
 
-  async save({ client_id, email, age, sex }: any): Promise<boolean> {
+  async save({ client_id, email, age, gender }: any): Promise<boolean> {
     const [
       [row],
     ] = await db.query(
@@ -322,7 +322,7 @@ const UserClient = {
       );
     }
 
-    updateDemographics(client_id, age, sex);
+    updateDemographics(client_id, age, gender);
   },
 
   async updateBasketToken(email: string, basketToken: string) {

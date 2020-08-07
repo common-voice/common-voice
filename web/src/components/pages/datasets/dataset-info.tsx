@@ -67,7 +67,7 @@ const Splits = ({
               <b>{Math.round(value * 100)}%</b>
               <span> </span>
               <div className="ellipsis">
-                {category == 'sex' ? (
+                {category == 'gender' ? (
                   <Localized id={key}>
                     <span />
                   </Localized>
