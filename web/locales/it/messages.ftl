@@ -471,7 +471,9 @@ de-identified-explanation = Il processo con il quale le informazioni del profilo
 ## Error pages
 
 error-title-404 = Pagina non trovata
+error-content-404 = Vuoi tornare alla <homepageLink>pagina iniziale</homepageLink>? Puoi anche chiedere assistenza nella <matrixLink>chat della community Matrix</matrixLink>, consultare i problemi noti del sito su <githubLink>GitHub</githubLink> o seguire la discussione sul <discourseLink>forum Discourse</discourseLink>.
 error-title-503 = Si è verificata un’interruzione imprevista
+error-content-503 = Questo sito verrà ripristinato il prima possibile. Per rimanere aggiornato sugli ultimi sviluppi accedi alla <matrixLink>chat della community Matrix</matrixLink>. Per segnalare o monitorare i problemi di funzionamento del sito web visita <githubLink>GitHub</githubLink> o l’apposito <discourseLink>forum su Discourse</discourseLink>.
 error-code = Errore { $code }
 
 ## Data
@@ -731,6 +733,7 @@ show-ranking = Mostra la mia posizione
 
 get-started-goals = Comincia a utilizzare gli obiettivi
 create-custom-goal = Crea un obiettivo personale
+goal-type = Qual è il tuo obiettivo?
 both-speak-and-listen = Entrambi
 both-speak-and-listen-long = Entrambi (registrare e convalidare)
 daily-goal = Obiettivo giornaliero
@@ -756,6 +759,20 @@ help-reach-hours-general-pluralized =
     } in una lingua con gli obiettivi personali
 set-a-goal = Imposta un obiettivo
 cant-decide = Sei indeciso?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } ora
+       *[other] { $totalHours } ore
+    }è un obiettivo che si può raggiungere in solo { NUMBER($periodMonths) ->
+        [one] { $periodMonths } mese
+       *[other] { $periodMonths } mesi
+    } da{ NUMBER($people) ->
+        [one] { $people } persona
+       *[other] { $people } persone
+    } producendo{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } registrazione
+       *[other] { $clipsPerDay } registrazioni
+    } al giorno.
 how-many-per-day = Ottimo! Quante registrazioni al giorno?
 how-many-a-week = Ottimo! Quante registrazioni a settimana?
 which-goal-type = Vuoi registrare, convalidare o entrambi?
