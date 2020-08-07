@@ -27,6 +27,7 @@
     }
 
     .error-page-container-outer {
+        border-top: 1px solid var(--light-grey);
         background: url('../images/wave-footer@3x.png') no-repeat bottom/100%;
 
         @media (--xs-down) {
@@ -42,13 +43,18 @@
         margin: 0 auto;
         padding: 80px 40px 100px 20px;
 
-        @media (--sm-down) {
-            padding-bottom: 20px;
+        @media (--xs-down) {
+            padding-top: 32px;
+            padding-bottom: 40px;
         }
     }
 
-    .error-page-container-text {
+    .error-page-container-inner > * {
+        /* Hack: reduces vertical spacing if children wrap to the next row. */
         margin-bottom: -20px;
+    }
+
+    .error-page-container-text {
         max-width: 456px;
 
         a {
@@ -92,6 +98,15 @@
     .mars {
         margin-left: auto;
         max-width: 40%;
+
+        @media (--xs-down) {
+            max-width: 50%;
+        }
+    }
+
+    .mars-body,
+    .mars-shadow {
+        width: 100%;
     }
 
     .mars-body-container {

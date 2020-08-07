@@ -223,6 +223,7 @@ button {
 #content {
     position: relative;
     min-height: 80vh;
+    overflow-x: hidden;
 
     @media (--md-up) {
         position: unset;
