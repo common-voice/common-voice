@@ -227,7 +227,7 @@ let LocalizedPage: any = class extends React.Component<
           }
         />
         <LocalizationProvider l10n={l10n}>
-          <div>
+          <>
             <div className="notifications">
               {notifications
                 .slice()
@@ -264,7 +264,7 @@ let LocalizedPage: any = class extends React.Component<
               ))}
               <Layout />
             </Switch>
-          </div>
+          </>
         </LocalizationProvider>
       </>
     );
