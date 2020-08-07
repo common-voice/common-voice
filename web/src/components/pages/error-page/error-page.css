@@ -49,8 +49,9 @@
         }
     }
 
-    .error-page-container-inner > * {
-        /* Hack: reduces vertical spacing if children wrap to the next row. */
+    .error-page-container-text,
+    .mars {
+        /* Hack: reduces vertical spacing if Mars wraps to the next row. */
         margin-bottom: -20px;
     }
 
