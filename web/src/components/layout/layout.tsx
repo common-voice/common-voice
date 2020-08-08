@@ -217,11 +217,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private selectLocale = async (locale: string) => {
     const { setLocale, history } = this.props;
     trackGlobal('change-language', locale);
+    history.push(replacePathLocale(history.location.pathname, locale));
     setLocale(locale);
     this.setState({
       featureStorageKey: await this.getFeatureKey(locale),
     });
-    history.push(replacePathLocale(history.location.pathname, locale));
   };
 
   private getChallengeToken = () => {
