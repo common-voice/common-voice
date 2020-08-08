@@ -12,6 +12,7 @@ header {
         box-shadow var(--transition-duration) linear;
     padding: var(--page-margin);
     background: var(--white);
+    z-index: var(--header-z-index);
 
     @media (--lg-up) {
         position: relative;

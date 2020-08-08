@@ -19,7 +19,8 @@
 
     --link-color: var(--blue);
 
-    --override-z-index: 3;
+    --override-z-index: 4;
+    --header-z-index: 3;
     --top-z-index: 2;
     --middle-z-index: 1;
     --bottom-z-index: 0;

@@ -89,7 +89,7 @@ button {
     color: var(--white);
     background: var(--red);
     text-align: center;
-    z-index: 5;
+    z-index: var(--top-z-index);
 
     @media (--md-up) {
         top: 0;
@@ -169,37 +169,6 @@ button {
             color: var(--link-color);
         }
     }
-}
-
-#install-app {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--black);
-    height: 3rem;
-    line-height: 3rem;
-    vertical-align: middle;
-    cursor: pointer;
-    text-align: center;
-    color: var(--white);
-    font-weight: bold;
-    z-index: var(--top-z-index);
-    transform: translateY(0);
-    transition: transform var(--transition-duration) linear;
-    font-family: var(--base-font-family);
-}
-
-#install-app.hide {
-    transform: translateY(3rem);
-}
-
-#install-app a {
-    position: absolute;
-    right: 0;
-    height: 100%;
-    width: 3rem;
-    color: var(--white);
 }
 
 /**
@@ -393,7 +362,7 @@ a.small,
     left: 0;
     right: 0;
     height: 5px;
-    z-index: 3;
+    z-index: var(--override-z-index);
     background: linear-gradient(270deg, #e5868b, #a2a4d1);
     background-size: 400% 400%;
     animation: move-background 2s ease infinite;
