@@ -763,13 +763,13 @@ activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } ora
        *[other] { $totalHours } ore
-    }è un obiettivo che si può raggiungere in solo { NUMBER($periodMonths) ->
+    } è un obiettivo che può essere raggiunto in solo { NUMBER($periodMonths) ->
         [one] { $periodMonths } mese
        *[other] { $periodMonths } mesi
-    } da{ NUMBER($people) ->
+    } da { NUMBER($people) ->
         [one] { $people } persona
        *[other] { $people } persone
-    } producendo{ NUMBER($clipsPerDay) ->
+    } producendo { NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } registrazione
        *[other] { $clipsPerDay } registrazioni
     } al giorno.
