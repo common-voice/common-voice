@@ -483,10 +483,9 @@ sst-explanation = La reconnaissance vocale (STT) convertit de la voix en texte.
 de-identified = Déidentifié 
 de-identified-explanation = Processus permettant de séparer les informations personnelles des contributeurs et contributrices de leurs échantillons lors de la préparation du jeu de données.
 
-## NotFound
+## Error pages
 
-notfound-title = Introuvable
-notfound-content = J’ai bien peur de ne pas savoir ce que vous recherchez.
+error-title-404 = Page introuvable
 
 ## Data
 
