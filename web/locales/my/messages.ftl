@@ -11,9 +11,9 @@ loading = ဆောင်ရွက်နေသည်…
 email-opt-in-info = ရည်မှန်းချက်ဆိုင်ရာ အသိပေးချက်များ၊ တိုးတက်မှုအခြေအနေများနှင့် Common Voice နှင့် ပတ်သက်သည့် သတင်းလွှာများ စသည့် အီးမေးလ်များ ရယူလိုပါသည်။
 email-opt-in-info-title = Common Voice mailing list တွင် ပါဝင်ပါ
 email-opt-in-info-sub-with-challenge = စိန်ခေါ်မှုနှင့် ရည်မှန်းချက်ဆိုင်ရာ အသိပေးချက်များ၊ နောက်ဆုံးရ တိုးတက်မှုအခြေအနေနှင့် Common Voice နှင့်ပတ်သက်သည့် သတင်းလွှာများ ရယူရန်။
-email-opt-in-privacy = အီးမေးလ်များကို လက်ခံရရှိရန် ရွေးချယ်ခြင်းအားဖြင့် Mozilla ၏ <privacyLink>ကိုယ်ရေးကာကွယ်မှု မူဝါဒ<privacyLink> တွင် ရှင်းပြထားသည့်အတိုင်း Mozilla က ဤအချက်အလက်ကို ကိုင်တွယ်ခြင်းနှင့်ပတ်သက်၍ သင်သည် အဆင်ပြေလက်ခံသည်ဟု ဖော်ပြသည်။
+email-opt-in-privacy-v2 = အီးမေးလ်များ လက်ခံရန် စာရင်းသွင်းခြင်း ကို Mozilla ၏ <privacyLink>ကိုယ်ရေးအချက်အလက်မူဝါဒ</privacyLink> တွင် ရှင်းပြထားသည့်အတိုင်း  Mozilla မှ ကိုင်တွယ်ခြင်း အတွက် သင် အဆင်ပြေပါလိမ့်မည်။
 indicates-required = * သင်္ကေတသည် ရေးဖြည့်ပေးရန် လိုအပ်ကြောင်း ဖော်ပြချက်
-not-available-abbreviation = မရနိုင်သေးပါ
+not-available-abbreviation = မ/ရ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -28,28 +28,38 @@ af = အာဖရိက
 am = Amharic
 an = အာရဂွန်
 ar = အာရပ်
+arn = မပူဒန်ဂန်း
 as = အာသံ
 ast = အက်စ်တူးရီယန်
 az = အဇာဘိုင်ဂျာနီ
+ba = ဘာရှ်ကီး
 be = ဘယ်လာရုစ်
 bg = ဘူဂေးလ်ရီးယား
 bn = ဘင်္ဂလီ
+br = ဘရီတွန်
+bxr = ဘာရီရက်
 ca = ကက်တလန်
+cak = ကချိကို
+cnh = ဟားခါး ချင်း
 cs = ချက်ဇ်
+cv = ကျူဘား
 cy = ဝဲလ်ရှ်
 da = ဒိန်းမတ်
 de = ဂျာမန်
+dsb = ဆိုဘီယမ် အောက်ပိုင်း
+dv = ဒီဗေးဟီ
 el = ဂရိ
 en = အင်္ဂလိပ်
 eo = အက်စ်ပါရန်တို
 es = စပိန်
 et = အက်စတိုးနီးယန်း
+eu = ဘားစ်
 fa = ပါရှန်
+ff = ဖူလာ
 fi = ဖင်းန်နစ်ရှ်
 fr = ပြင်သစ်
 ga-IE = အိုင်ရစ်
 he = ဟေဗြဲ
-hi-IN = ဟင်ဒီ
 hr = ခရိုအေးရှား
 hu = ဟန်ဂေရီးယန်း
 id = အင်ဒိုနီးရှား
@@ -154,7 +164,7 @@ speak-subtitle = သင့်အသံကို လှူဒါန်းပါ
 ## Glossary
 
 
-## NotFound
+## Error pages
 
 
 ## Data
