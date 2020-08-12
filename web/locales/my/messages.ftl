@@ -281,6 +281,18 @@ profile-form-username =
     .label = အသုံးပြုသူ အမည်
 profile-form-native-language =
     .label = မိခင်ဘာသာစကား
+profile-form-additional-language =
+    .label = ထပ်ဆောင်း ဘာသာစကား
+profile-form-accent =
+    .label = လေယူလေသိမ်း
+profile-form-age =
+    .label = အသက်
+profile-form-gender =
+    .label = လိင်
+leaderboard-visibility =
+    .label = ဦးဆောင်သူ ကြေငြာသင်ပုန်း မြင်တွေ့ရမှု
+hidden = ဖျောက်ထား
+visible = ပြရန်
 
 ## FAQ
 
