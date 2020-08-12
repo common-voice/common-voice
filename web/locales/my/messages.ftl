@@ -219,24 +219,68 @@ email-subscription-title-new = Common Voice သတင်းလွှာမျာ
 ## Account Benefits
 
 benefits = ကောင်းကျိုးများ
+improve-audio = ပရိုဖိုင် ရှိ တိုးတက်လာသော စကားပြော နားလည်မှု့ဆိုင်ရာ တိကျမှု သင်ကြားခြင်း တွင် သုံးရန် အသံ အချက်အလက် ဆိုင်ရာ သတင်းအချက်အလက်။
+compare-progress = သင် ၏ တိုးတက်မှု ကို တစ်ကမ္ဘာလုံးရှိ အခြား မျှဝေသူများနှင့် မည်သို့ နှိုင်းယှဉ်ရန် ရှုပါ။
+view-goals = သင်၏ တစ်ကိုယ်ရည် နှင့် စီမံကိန်းဆိုင်ရာ မျှော်မှန်းချက် နှင့် တိုးတက်မှု့ ကွာခြားချက် ကိုကြည့်ရန်။
+join-newsletter = စီမံကိန်း နှင့် ဆက်စပ်သော သတင်းအချက်အလက် အသစ်များ နှင့် နောက်ဆုံးပြင်ဆင်ချက်များ အတွက် ကျွန်ုပ်တို့၏ အီးလ်မေး စာရင်း တွင် ပါဝင်လိုပါက ပါဝင်နိုင်သည်။
 
 ## What's public
 
+whats-public = ဘာတွေကို အများပြည်သူ က သိခွင့်ရမလဲ။
+email-not-public = ကျွန်ုပ်တို့ သည် သင်၏ အီးမေးကို အများပြည်သူသို့ မပြောပါ။
+recordings-and-locale-public = သင် ပါဝင်ကူညီသော ဘာသာစကားနှင့် အသံသွင်း အရေအတွက် ကို အများပြည်သူ မြင်ရပါမည်။
+username-optin-public = သင် ၏ အသုံးပြုသူအမည် ကို အများမြင်ရန် သို့မဟုတ် အမည်မဲ့ ဖြစ်ရန် ကိုမူ သင်ကိုယ်တိုင် ရွေးချယ်နိုင်သည်။
+demographic-deidentified-clarity = သင် ၏ ပရိုဖိုင် တွင် ရွေးချယ် တင်သွင်းထားသော သန်းခေါင်းစာရင်း အချက်အလက် (ဥပမာ။ ။ အသက်၊ လိင်၊ ဘာသာစကား နှင့် လေယူလေသိမ်း) တို့ ကို မည်သည့်အခါမှ အများပြည်သူ သို့ မဖော်ပြသည့်အပြင် သင့် အကောင့် အချက်အလက်အစု နှင့်လည်း မချိတ်ဆက်ထားပါ။ သီးခြား တည်ရှိနေသည့် အသံဖိုင်များသာလျှင် ပိုမို တိကျသော သရုပ်ခွဲလေ့လာမှု့ပြုလုပ်ရန်အတွက်သာ သန်းခေါင်စာရင်းအချက်အလက် တို့နှင့် သက်ဆိုင်ပါလိမ့်မည်။ ဥပမာ ဆိုရသော် သုတေသီတစ်ဦး သည် သီးခြား ကိုယ်စားပြုသော လူဦးရေဆိုင်ရာ အပိုင်းအခြား ကိုရည်ရွယ်ကာ စံပြုပုံစံအား လေ့ကျင့်ခြင်း ကိုဆိုလိုသည်။
+username-email-not-demographic = သင့် အသုံးပြုသူအမည် နှင့် အီးမေးလ် သည် ဘယ်သောအခါမျှ အချက်အလက်ဖြန့်ချီ ရာတွင် မပါဝင်ပါ။
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = က
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = ဖွင့်/ရပ်
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = အသံသွင်း/ရပ်
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = အသံကလစ် ပြန်သွင်း
+request-language-text = Common Voice မှာ သင့်ဘာသာစကား ကို ရှာမတွေ့ဘူးလား။
+request-language-button = ဘာသာစကားတစ်ခု တောင်းဆိုရန်
 
 ## ProjectStatus
 
+status-title = စီမံကိန်း၏ အလုံးစုံအခြေအနေ - ကျွန်တော်တို့ ဘယ်လောက်ရောက်ပြီလဲ ကြည့်ပါဦး။
+status-contribute = သင့် အသံကို မျှဝေပါ။
+status-hours =
+    { $hours ->
+       *[other] အတည်ပြုရန် { $hours } နာရီစာရှိသည်။
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = နောက်ထပ် ပန်းတိုင်များ − { $goal }
+english = အင်္ဂလိပ်
 
 ## ProfileForm
 
+profile-form-username =
+    .label = အသုံးပြုသူ အမည်
+profile-form-native-language =
+    .label = မိခင်ဘာသာစကား
 
 ## FAQ
 
