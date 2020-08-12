@@ -297,6 +297,7 @@ native-language =
     .label = မိခင် ဘာသာစကား
 profile-form-submit-save = သိမ်း
 profile-form-submit-saved = သိမ်းပြီး
+male = ကျား
 
 ## FAQ
 
