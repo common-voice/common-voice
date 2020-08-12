@@ -293,6 +293,10 @@ leaderboard-visibility =
     .label = ဦးဆောင်သူ ကြေငြာသင်ပုန်း မြင်တွေ့ရမှု
 hidden = ဖျောက်ထား
 visible = ပြရန်
+native-language =
+    .label = မိခင် ဘာသာစကား
+profile-form-submit-save = သိမ်း
+profile-form-submit-saved = သိမ်းပြီး
 
 ## FAQ
 
