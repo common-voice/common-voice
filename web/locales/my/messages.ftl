@@ -325,6 +325,11 @@ download-profile = ကျွန်ုပ်၏ အချက်အလက် က�
 contribution-experience = ဝေမျှခြင်း အတွေ့အကြုံ
 skip-submission-feedback = တုံ့ပြန်ချက် တင်သွင်းခြင်း ကို ကျော်ရန်
 off = ပိတ်
+on = ဖွင့်
+avatar-clip-title = သင့် ကိုယ်ပွား လေး ကို အသံ ပေးလိုက်ပါ။
+change-your-avatar-clip = သင့် အသံ ကလစ် ကို ပြောင်း လိုသလား။
+avatar-clip-recorded = ယခုပဲ သင်၏ ကိုယ်စားပြု အသံကလစ်တစ်ခု ရသွားပါပြီ။
+retry-voice-wave-recording = ပြန်လုပ်ရန်
 
 ## FAQ
 
