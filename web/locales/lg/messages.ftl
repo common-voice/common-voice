@@ -529,6 +529,7 @@ other-language = Olulimi Olulala
 ## Languages Overview
 
 language-section-in-progress = Kigenda mu maaso
+language-section-launched = Launched
 languages-show-more = Laba Ebirala
 languages-show-less = Laba bitono
 language-meter-in-progress = Wekituuse
@@ -562,6 +563,7 @@ contribute-more =
     }
 record-cta = Tandika okulikodinga
 record-platform-not-supported = Platform yo tenaba k'olebwa mu kaseera kano, tusonyiwe.
+record-platform-not-supported-desktop = Ku desktop divayisi osobola okuwaayo nga odawunilodinga
 record-platform-not-supported-ios-non-safari = Ku iOS tusaba weyongereyo ne Safari okusobola okulikodinga…
 record-must-allow-microphone = Olina okukkiriza okukozesa omuzindaalo.
 record-no-mic-found = Akazindaalo tekasangidwa.
