@@ -120,6 +120,7 @@ Aku benar-benar berterima kasih.
 Aku benci.
 Aku berharap bisa tinggal lebih lama.
 Aku berikan kamu kataku.
+Aku berjalan-jalan di taman.
 Aku berpikir maka aku ada.
 Aku bersyukur kamu dapat melakukannya, Tom.
 Aku bertanya sendiri jalan mana yang paling singkat.
@@ -127,7 +128,9 @@ Aku bertemu Mary kemarin.
 Aku bertemu dengannya di jalan.
 Aku berterima kasih padamu.
 Aku berterima kasih.
+Aku bisa hidup tanpa air.
 Aku bukan budakmu.
+Aku bukan orang yang harus menjawab.
 Aku cinta kamu!
 Aku cinta kamu.
 Aku dalam masalah, ya?
@@ -160,6 +163,7 @@ Aku ingin membuat penawaran.
 Aku ingin mengadakan pembicaraan dengan ayahmu mengenai hal ini.
 Aku ingin mengajarimu sesuatu.
 Aku ingin mengganti ini ke ukuran yang lebih kecil.
+Aku ingin menginap semalam.
 Aku ingin menjadi anak kecil.
 Aku ingin minum kopi.
 Aku ingin pergi ke Belitung untuk melihat pemandangan laut yang indah.
@@ -170,6 +174,7 @@ Aku ingin tidur! Tidur daripada hidup!
 Aku ingin tidur.
 Aku kangen kamu.
 Aku kehilangan keseimbangan dijalan yang berlumpur itu.
+Aku kelaparan!
 Aku kenal anak yang duduk paling dekat dengan pintu.
 Aku kenal nama tempat itu.
 Aku lebih suka mebel modern.
@@ -274,6 +279,7 @@ Aku tidak akan diam.
 Aku tidak akan melakukannya lagi.
 Aku tidak akan pernah meninggalkanmu.
 Aku tidak bercanda.
+Aku tidak bermaksud menyakitimu.
 Aku tidak bersalah!
 Aku tidak bisa membaca pikiranmu.
 Aku tidak bisa mengatakan itu.
@@ -467,6 +473,7 @@ Apa yang dokter katakan?
 Apa yang ingin kamu katakan?
 Apa yang ingin kamu lakukan hari ini?
 Apa yang ingin kamu lakukan selanjutnya?
+Apa yang kamu inginkan?
 Apa yang kamu lakukan dalam beberapa bulan ini?
 Apa yang kamu lakukan lebih penting daripada apa yang kamu katakan.
 Apa yang kamu rasakan tentang ini, Tom?
@@ -480,6 +487,7 @@ Apa yang orang tersebut katakan?
 Apa yang salah denganmu?
 Apa yang sedang dilakukan Ken?
 Apa yang sedang kamu baca?
+Apa yang sedang kamu cari?
 Apa yang sedang kamu kerjakan?
 Apa yang sedang kamu khawatirkan?
 Apa yang sedang kamu lakukan?
@@ -586,6 +594,7 @@ Apakah kamu percaya akan Tuhan?
 Apakah kamu pernah berenang telanjang?
 Apakah kamu pernah dengar lagu itu dinyanyikan dalam Bahasa Perancis?
 Apakah kamu pernah ke Jepang?
+Apakah kamu pernah mendaki Gunung Fuji?
 Apakah kamu pernah menonton film ini?
 Apakah kamu punya air?
 Apakah kamu punya album terbaru Stevie Wonder?
@@ -595,6 +604,7 @@ Apakah kamu sedang mendengarkan bahasa Inggris?
 Apakah kamu sering menangis?
 Apakah kamu serius ingin menikah?
 Apakah kamu setuju?
+Apakah kamu siswa dari Jepang?
 Apakah kamu suka bowling?
 Apakah kamu tahu Tom berkerja di sana?
 Apakah kamu tahu apa yang Tom lakukan di sini?
@@ -1064,6 +1074,7 @@ Dapatkah saya melihat paspor anda?
 Dapatkah saya mempercayai perkataanmu terhadap itu, Tom?
 Dari awal, uangnya tidak cukup untuk mendirikan toko pangan.
 Dari mana kamu mendapatkan sepatu aneh itu?
+Dari mana kamu?
 Dari rumah ke sekolah makan waktu satu jam dengan kereta.
 Dari stasiun ke perpustakaan jaraknya dua kilometer.
 Dari stasiun sampai perusahaan saya naik taksi.
@@ -2166,6 +2177,7 @@ Kamu boleh pilih buku mana saja yang kamu suka.
 Kamu dalang dibalik semua ini.
 Kamu dapat beristirahat sampai malam.
 Kamu dapat menghubunginya dengan menelpon nomor ini.
+Kamu di mana?
 Kamu dicari pada sambungan telepon. Ini dari Tom.
 Kamu harus belajar bahasa Jepang lebih giat.
 Kamu harus berhenti merokok.
@@ -2191,11 +2203,13 @@ Kamu masih marah, ya?
 Kamu masih muda.
 Kamu mau pergi ke mana duluan?
 Kamu mau pergi?
+Kamu membuat kesalahan dengan sengaja, kan?
 Kamu membuatku bahagia.
 Kamu membutuhkan sedikit keberanian untuk menyatakan cinta padanya.
 Kamu mengambil kunci yang salah.
 Kamu nanti akan mendengar cerita ini.
 Kamu orang baru?
+Kamu pasti lelah setelah perjalanan jauh.
 Kamu pasti salah hitung.
 Kamu percaya padaku?
 Kamu percaya pernyataan saksi itu?
@@ -2230,6 +2244,7 @@ Kamu tidak bisa memasuki toko buku tanpa mengenakan pakaian.
 Kamu tidak bisa menunggang kuda.
 Kamu tidak boleh merokok di ruangan ini.
 Kamu tidak diajari itu di sekolah.
+Kamu tidak harus datang besok.
 Kamu tidak harus pergi kecuali kalau kamu memang mau.
 Kamu tidak melihat apapun.
 Kamu tidak mendengar.
@@ -3193,6 +3208,8 @@ Permisi, apakah kamu melihat Tom dimana?
 Permisi, saya ingin bertemu dengan Tom.
 Permisi, tetapi kamu bisa bantu saya?
 Pernah bepergian naik pesawat?
+Pernah ke Amerika?
+Pernahkah kamu ke Amerika?
 Pernahkah kamu memikirkan tentang Tom?
 Pernahkah kau mendengar yang seperti itu?
 Pernahkah menjadi relawan?
@@ -4248,6 +4265,7 @@ Seekor anjing mengejar seekor kucing, dan kucing itu mengejar seekor tikus.
 Seekor tikus berlari melintasi jalan.
 Segerakan, nantinya tepat waktu.
 Segeralah kembali.
+Seharusnya kamu datang lebih awal.
 Seharusnya kamu menelpon.
 Seharusnya kamu tahu diri.
 Seharusnya kamu tak perlu merasa malu.
@@ -4536,6 +4554,7 @@ Susah sekali memuaskan semua pihak.
 Susan, dia suka kucing.
 Tadi ada masalah di sekolah.
 Tadi itu cepat.
+Tadi kamu di mana?
 Tadi malam saya pergi makan malam bersama Pak Kimura.
 Tadi malam saya tidur awal karena lelah.
 Tadi saya pergi sebentar.
