@@ -73,6 +73,7 @@
 "And refused all proposals," said my guardian.
 "And some extra-ordinary things out of 'em," said the mariner.
 "And was I not wise?" he said, with complacency.
+"And what did you do today Jason?" said Emma
 "And you promised to give me a heart," said the Tin Woodman.
 "And you promised to give me brains," said the Scarecrow.
 "And you promised to give me courage," said the Cowardly Lion.
@@ -301,6 +302,7 @@
 "He should look in the safe," said she.
 "He was arrested this evening," he said.
 "He was bitten," said Patel.
+"He wash playink hish game" said Emily with a mouthful of casserole
 "He won't let me in," said Lyla.
 "He'll clear out," said Luz.
 "He'll laugh," said Georgie warningly.
@@ -1137,6 +1139,7 @@
 "Thank you," said Dorothy, gratefully.
 "Thank you," said my guardian.
 "That I wonder where you found it," said Mrs. R..
+"That again? I don't see what you find so interesting about that game
 "That can do little for an unhappy mind," said I.
 "That is a first rate idea," said the Lion.
 "That is because you have no brains," answered the girl.
@@ -1615,6 +1618,7 @@
 "You've taken up my time —." "Hey, you!"
 "Your Silver Shoes will carry you over the desert," replied Glinda.
 "Your beetle," I explained.
+"Your father will hear about this," was all Emma could muster
 "Your report came this morning, Alan," she said.
 "Your servant, sir," says Mr. George with a military salute.
 "Your son is indefatigable," said I.
@@ -1886,6 +1890,7 @@ A fair bit of road, Turnbull, and not badly engineered.
 A fairy must have been crying.
 A fake website or email is known as a spoof or phish attempt.
 A familiar voice hailed him.
+A fanatic is one who can't change his mind and won't change the subject.
 A fat chance!
 A father is not a valid substitute for a mother.
 A feeling of remorse seized hold of him.
@@ -1936,6 +1941,7 @@ A gold watch-chain, and seals, depended from his fob.
 A good conscience means better sleep.
 A good endearing creature she was.
 A good landing is any landing you walk away from.
+A good place in the world until people are happy.
 A good riddance to me, whether as clerk or client!
 A good spy is trained to have a photographic memory.
 A good subject to start!
@@ -2969,6 +2975,7 @@ An almost imperceptible nod from Helene, moreover, assured her.
 An altruistic act is an act performed for the welfare of others.
 An anaconda is the largest type of snake in the world.
 An animal skin was found at the scene.
+An appeaser is one who feeds a crocodile – hoping it will eat him last.
 An apple a day, keeps the doctor away.
 An apple a day, will keep the doctor away.
 An archaic shame came upon him.
@@ -4877,6 +4884,7 @@ Baking soda is good at absorbing bad smells in the fridge.
 Balance, test-tubes in stands, and a smell of — evening primrose.
 Banana and raisin loaf.
 Banana is full of potassium.
+Banquet is not nearly parquet
 Banting and Best discovered insulin.
 Barbara grinned broadly.
 Barker and he were both impatient of Wesson.
@@ -6859,6 +6867,7 @@ Certainly; you shall go to your friends at once.
 Chance would be a fine thing!
 Chancery justice is so very difficult to follow.
 Change chairs, Daylight commanded.
+Changed words in recorded clips result also in an error.
 Chantelle gossiped non-stop.
 Characteristically he thought last of where he was to go.
 Charities are developing systems to offer cash direct to the needy in emergencies.
@@ -7096,6 +7105,7 @@ Companies will need to prioritize their workforce over profit.
 Companies working on Machine Learning must build an ethical product.
 Company Q, Eighty-third Infantry.
 Comparative benchmarks have shown the latter to perform exceedingly better.
+Compare alien with Italian
 Compare him with either of them.
 Competent judges at Eton gave me to understand so.
 Competitiveness in the industry drives innovation and growth. The consumer wins.
@@ -7150,6 +7160,7 @@ Consumables are the most sold items.
 Consumer electronics are not built to last like they used to.
 Consumers want an appealing, stylish and durable product.
 Continuous Integration has been a lifesaver for us.
+Continuous effort – not strength or intelligence – is the key to unlocking our potential.
 Contrary to popular belief, the Great Wall of China is not visible from space.
 Contrary to popular belief, you shouldn't feed bread to ducks. Give birdseeds instead.
 Contributions gratefully received
@@ -7282,6 +7293,7 @@ Damned if I know.
 Dance with your well-known cousin.
 Dancing and French gloves.
 Dancing was her passion.
+Dandelion with battalion
 Daniel concealed the F grade in the corner so his mother wouldn't see it.
 Darcy asked him why he had not married your sister at once.
 Darcy said nothing at all.
@@ -7302,6 +7314,7 @@ Dashed reasonable, was my verdict.
 Dashed silly thing to say.
 Data Scientists can learn to de-bias an algorithm during model training.
 Data is a vital ingredient of training machine learning models.
+Daughter, laughter and Terpsichore
 Daughtry elaborated on the counting trick by bringing Cocky along.
 David manoeuvred the lorry carefully through the narrow streets of London.
 David, Tim and Sarah regularly perform jazz at the local bar.
@@ -8105,6 +8118,7 @@ Don't you see what this means?
 Don't you see, I'm chewing this thing in two.
 Don't you sleep well?
 Don't you suppose we could rescue them?
+Don't you think so, reader, rather
 Don't you think that's a rather risky course of action?
 Don't you think the spelling of weird is, well, weird?
 Don't you think you are?
@@ -8166,6 +8180,7 @@ Don’t you think that is a very strange coincidence?
 Don’t you understand, Julia?
 Don’t you? I do.
 Don’t, Miss Catherine!’ I cried.
+Dorian Gray? Is that his name?
 Dorian told me so afterwards.
 Dorothy L Sayers used to have a job as an advertising copywriter
 Dorothy Raycroft was nineteen.
@@ -8435,6 +8450,7 @@ Elsa isn't a beggar!
 Elsa said something quite clever on Thursday.
 Else why should the gate again be open at midnight?
 Elsewhere in the world, the birds were chirping and wildlife was thriving.
+Emily came tumbling down the stairs, a big ball of excitement
 Emily has fun all afternoon playing outside while you're cooped up in your room
 Emma Ann Rochester came home tired, as usual
 Emma is spoiled by being the cleverest of her family.
@@ -8546,6 +8562,7 @@ Every city now is a prison.
 Every country is a sovereign country.
 Every day is a day to learn.
 Every day it is met by a wall of silence.
+Every day. I couldn't be happy if I didn't see him every day.
 Every edition is packed with fun!
 Every fibre in her was in revolt.
 Every government organization ought to have a website
@@ -9092,6 +9109,7 @@ Friday was the baking night and market night.
 Friday we shall return to London.
 Friend of the old lady's.
 Friends to see me!
+From "desire": desirable—admirable from "admire";
 From Elizabeth's thoughts it was never absent.
 From an orphan asylum!
 From behind the sand dunes came the whisper of the sea.
@@ -11766,6 +11784,7 @@ He stared right through me.
 He stares at it, aghast.
 He started and rubbed his eyes.
 He started as if they had been red hot, shuddering.
+He started up the stairs, munching on his dinner all the way up
 He started up, and stared eagerly in my face.
 He started up, glaring at her.
 He started violently and uttered an exclamation.
@@ -12796,6 +12815,7 @@ Head west toward New York.
 Healthcare in the United Kingdom is provided by the National Health Service
 Healthy competition is a catalyst for growth and improvement.
 Hear a live paper yelp!
+Hear me say, devoid of trickery:
 Hear me, my love, but do not speak.
 Hear the Indian dogs wailing down at Churchill.
 Hear, hear!’ cried Mr. Weller, in the excitement of his feelings.
@@ -13275,6 +13295,7 @@ He’s turning the corner.
 He’s your boss, but he’s not come yet.
 Hi sweetie. Still okay to meet up?
 Hi; are you back yet?
+Hiccough has the sound of "cup"......
 Hide the basket, quick!
 High overhead a heron floated.
 High tide there was at ten on the ninth of June.
@@ -13709,6 +13730,7 @@ History repeats itself until it doesn't.
 Hitherto I have gone on vague lines.
 Ho, you know you can't, so why make believe?
 Hoardings are panels used to display outdoor advertisements
+Hoist, in lieu of flags, left pennants.
 Hold on for just a second.
 Hold on to me, Alex, dear!
 Hold that thought.
@@ -14401,6 +14423,7 @@ I am designed to never break the law.
 I am determined to maintain contact with my children.
 I am done early.
 I am dumb.
+I am easily satisfied with the very best.
 I am ecstatic my sister is getting married!.
 I am elated.
 I am excellent friends with you.
@@ -16049,6 +16072,7 @@ I have nothing left to say.
 I have nothing more to say to this young man!
 I have nothing to ask you, nothing in the world.
 I have nothing to forgive her, Ellen.
+I have nothing to offer but blood, toil, tears and sweat.
 I have nothing to say just now.
 I have noticed her.
 I have now come to apologize for doubting you.
@@ -17470,6 +17494,7 @@ I think I might be adopted.
 I think I must have had some.
 I think I see myself letting you do it.
 I think I shall.
+I think I will take a bath then I can come down and help
 I think I would like a little orange juice.
 I think I'll add just another fluid ounce or so.
 I think I'll come and watch you.
@@ -18699,6 +18724,7 @@ I'm sorry but we must leave now.
 I'm sorry, Bertie, I didn't hear.
 I'm sorry, I can't find the style guide on this website
 I'm sorry. I beg your pardon.
+I'm standing in front of the house.
 I'm starving. Shall we get some fish and chips at the chip shop?
 I'm still feeling pretty wiped out.
 I'm still good friends with my ex-husband.
@@ -19965,6 +19991,7 @@ It is a lively and jolly narrative.
 It is a lovely joke, that.
 It is a mechanical clock.
 It is a mechanized clock tower.
+It is a mistake to try to look too far ahead.
 It is a moot point.
 It is a person's name.
 It is a pity they are not handsome!
@@ -20512,6 +20539,7 @@ It succeeded beautifully.
 It suddenly became a mere flat edge, and behold!
 It suggests a lack of faith in my vision.
 It takes Sir Leicester some time to ask this.
+It tells you which card made the purchase on the Capital One website
 It terrifies me too much to think of it.
 It then occurred to her to employ him in reading.
 It tired me dreadfully writing those long letters.
@@ -21273,6 +21301,7 @@ It's a capital profession!
 It's a case of system failure.
 It's a circus!
 It's a confounded nuisance, but I am.
+It's a dark abyss or tunnel
 It's a dashed sight too poetic.
 It's a delightful place.
 It's a disaster. It's all gone pear-shaped
@@ -21355,6 +21384,7 @@ It's bound to work.
 It's business, and I don't know business.
 It's certainly true that she came here.
 It's certainly very kind of you.
+It's constant post nasal drip and an annoying productive cough
 It's cruel, I know.
 It's different somehow.
 It's down the hall.
@@ -21931,9 +21961,11 @@ Jane’s stories are extremely sensible.
 January was the least profitable month for the company.
 Jason looked defensive
 Jason never used to be tardy, he was the model kid
+Jason took a long drink from his milk and then set it down
 Jason trained intensely to be the fittest he could be.
 Jason, this is extraordinary!
 Jaywalking is a dangerous risk.
+Jaz faded into existence
 Jaz faded out of existence
 Jaz was of average height, with dark skin and short hair
 Jeanne and Pierre both gazed toward the great rock.
@@ -22213,6 +22245,7 @@ Kiss me, Hareton!
 Kiss me, my love.
 Kissing the tips of his fingers.
 Kitchen roll is great for soaking up wine spills.
+Kitchen, lichen; laundry, laurel;
 Kitty stared at him, and Lydia exclaimed.
 Kitty, a fair but frozen maid.
 Kitty, can you play chess?
@@ -22243,6 +22276,7 @@ Last night I was on the threshold of hell.
 Last night he showed all the symptoms of coming down with pneumonia.
 Last night will have killed all that.
 Last night, someone stole all the lead from the church roof.
+Last year the number was so low that they let us put tax exempt
 Lastly, it was no one, and I was no one.
 Late hours do not agree with us.
 Late in my pregnancy, I walked a little bit like a Penguin.
@@ -22316,6 +22350,7 @@ Let him attempt to do it on orange juice, and what ensues?
 Let him take precautions; it will impress my people.
 Let it go to the four winds for tonight.
 Let it go.
+Let it snow.
 Let leniency walk in the wake of victory.
 Let me do it without further loss of time.
 Let me explain to Comrade Adair.
@@ -22777,6 +22812,7 @@ Marjory sat on the table and watched Mike eat.
 Mark had always been a worrier.
 Mark that word "unnecessary".
 Mark the area of water with a buoy.
+Mark the difference, moreover
 Marmalade for me, auntie.
 Marmie had not been slow in looking for his revenge.
 Marriage is an excellent thing, after all.
@@ -23541,6 +23577,7 @@ My Lady, leaning forward, looks out of her window.
 My Lord knows nothing of it.
 My Twitter post has gone viral.
 My accreditation demonstrates I am competent for this role.
+My advice is—give it up!
 My age, in years, is twenty two.
 My ancestry is unknown.
 My anger was greater than my astonishment for a minute.
@@ -23948,6 +23985,7 @@ Neither could she deny the justice of his description of Jane.
 Neither could they understand the growing disaffection among Thorpe's men.
 Neither did good Mrs. Chan.
 Neither did we till lately.
+Neither does devour with clangour.
 Neither had noted his coming.
 Neither knew that she was more tolerant because she loved him less.
 Neither left nor right.
@@ -24395,6 +24433,7 @@ Nor did she recover herself very cleverly.
 Nor did that day wear out her resentment.
 Nor did the latter escape.
 Nor do I know yet.
+Nor does fury sound like bury.
 Nor have I heard what became of him.
 Nor is it intended for much conversation.
 Nor the man to allow his junior to be walked over either?
@@ -26297,6 +26336,7 @@ Poetry is dying.
 Poetry, just imagine!
 Poets are not so scrupulous as you are.
 Points of view, new ideas, life.
+Politics is more dangerous than war, for in war you are only killed once.
 Polly was curt and businesslike.
 Polynesia could mimic any one.
 Polynesia crept in, very softly, and got under the bed.
@@ -26494,6 +26534,7 @@ Quantum computing machines are rare and hard to build.
 Quantum machines have exotic parts and components are hard to procure.
 Quarrelled and hinted about it.
 Quebec City is the only walled city in North America.
+Query does not rime with very
 Quick was the disappointment in his face, yet smiling was the acquiescence.
 Quick! — Make a bridge!
 Quick, man, and there'll be a coin for you.
@@ -26710,6 +26751,7 @@ Right on his head as usual!
 Right on the bull's-eye.
 Right through the empty streets of Geneva the landau was quietly driven.
 Right, lets try these new skills out!
+Rime with "shirk it" and "beyond it"
 Ring out those joyful bells.
 Ring the bell!
 Ring the bell, Kitty, for Hill.
@@ -26921,6 +26963,7 @@ Set me down, Elliott!
 Setting his teeth, he started to ascend again.
 Settle it among yourselves.
 Seven feet from your head, up a tree.
+Seven is right, but so is even;
 Seven per cent per annum is their annuity.
 Seven wickets were down for thirty when Baxter went in.
 Seven, Cousin Peter, and all of them twins!
@@ -29148,6 +29191,7 @@ Software frameworks exist to let developers focus on writing business logic.
 Solar energy fueled the electric car.
 Solar technology can be embedded in day to day furniture.
 Soliloquy is a knack.
+Solitary trees, if they grow at all, grow strong.
 Solitude crept upon him — his pace slackened.
 Some Car batteries require a top-up of deionized water.
 Some amiable gardener sells them.
@@ -29350,6 +29394,7 @@ Speak the truth, please!
 Speak to Lizzy about it yourself.
 Speak up; none of your tricks.
 Speak your truth quietly and clearly
+Speaking english in a way that you are understood.
 Speaking for myself, I intend to return to bed.
 Spectators were abound at the tournament.
 Speculators say artificial intelligence is the next big thing.
@@ -29479,6 +29524,7 @@ Straight out they swam, their heads growing smaller and smaller.
 Strain every nerve, Jeeves.
 Strange and incredible meeting!
 Strangely enough, he was almost sober.
+Stranger does not rime with anger
 Strike home, sir, strike home!
 String is my foible.
 Strong enough to be told a secret, I think?
@@ -31609,6 +31655,7 @@ The first phase of her recovery from injury was emotionally challenging.
 The first planet from the sun is Mercury, and the second is Venus
 The first stair cracked like a shot.
 The first step had been taken.
+The first thing he did was see
 The first thing he did was to take me round to Scotland Yard.
 The first thing he saw was Mr McGregor hoeing onions.
 The first thing they found was Mittens, hiding in an empty jar.
@@ -36283,6 +36330,7 @@ Though her manner varied, however, her determination never did.
 Though his services were rendered quite gratuitously.
 Though it is something to see you have not white blood.
 Though the aurora still flamed, another day had begun.
+Though the difference seems little
 Thought I, and a worthy fool he proved.
 Thought and language are to the artist instruments of an art.
 Three cheers for Lexi!
@@ -36628,6 +36676,7 @@ Two gigantic owls were tearing at the carcass.
 Two girls travel through Europe.
 Two good names would be sufficient for my friend in the city.
 Two inside, and one out.
+Two kids aren't too many, but they sure are a lot
 Two major companies made an alliance to compliment each other's limitations.
 Two minds with but a single thought.
 Two minutes hence may be too late.
@@ -36848,6 +36897,7 @@ Want to do the swan dance.
 Want to get the Easter stuff out?
 Want to have some fun.
 Wanted to talk to you.
+War is mainly a catalogue of blunders.
 Wardle — a friend of mine,’ said Mr. Pickwick.
 Warm Croissant tastes better.
 Warm! — red hot — scorching — glowing.
@@ -37355,6 +37405,7 @@ We must barricade the danger points.
 We must be cautious while crossing a busy junction.
 We must be strenuous.
 We must be very cautious.’ ‘We!’ he said, with marked emphasis.
+We must beware of needless innovations, especially when guided by logic.
 We must bring her forward.
 We must decide upon a day.
 We must design systems so they will benefit everyone
@@ -37510,6 +37561,7 @@ We said yes, we had passed one night there.
 We sat in silence for a few minutes.
 We saw a man go up in a balloon.
 We saw your light, and thought you wouldn't mind a call.
+We say actual, but victual
 We see a lot of you in court.
 We see convergences of different technologies.
 We see the best in humanity when we help each other.
@@ -37541,6 +37593,7 @@ We shall return home this day week.
 We shall seize the flying stages.
 We shall soon overtake her.
 We shall use the recess.
+We shape our dwellings, and afterwards our dwellings shape us.
 We shook hands and struck up a sort of friendship.
 We should be able to get some posts from the timber merchant
 We should be on line to hit or even exceed our quarterly targets.
@@ -38781,6 +38834,7 @@ What sort of things are you interested in?
 What started me on about country boys, and runaways, and good-for-nothings?
 What stopped him?
 What strange things he could tell us if he would!
+What the...?
 What the deuce is she at our table for?
 What the devil am I to say, Bertie?
 What the devil are they waiting for?
@@ -39188,6 +39242,7 @@ When you came in, I was full of it.
 When you got home.
 When you make tea, do you pour the tea or the milk first?
 When you say 'No, sir,' do you mean 'Yes, sir'?
+When you say correctly croquet;
 When you were ten!
 When you're at rock bottom, the only way is up.
 When your cervix dilates ten centimetres you are in stage two labour.
@@ -39351,6 +39406,7 @@ Which do you prefer: the Windows or the Mac operating system?
 Which email client do you use?
 Which he certainly did not, being made entirely of cardboard.
 Which he did, but without result.
+Which is said to rime with "darky".
 Which is the best women's baseball team?
 Which is the factory?
 Which is the key of the safe?
@@ -39473,6 +39529,7 @@ Who normally cleans the loo in your house?
 Who on earth are you?
 Who put that into your head?
 Who reads the newspaper anymore?
+Who reads?
 Who says that the aristocracy are proud?
 Who shall I say called?
 Who should suffer but myself?
@@ -40014,6 +40071,7 @@ Within half an hour it was known all over town.
 Within himself he called it no longer his own.
 Within the house those shutters had been opened.
 Without a doubt, some of them have dinner engagements.
+Without a measureless and perpetual uncertainty, the drama of human life would be destroyed.
 Without an intelligent being to create it, intelligence is not created on its own.
 Without any clue to anything more?
 Without brain, where are we?
@@ -44533,13 +44591,31 @@ you really aren't made for this work, he said with condescension.
 “You’ve never tried,” she answered.
 “‘Monsieur,’” he began; then he looked in great confusion at Mr. Jordan.
 “‘Transpires’ — oh yes!” “‘Transpires!’” repeated she mockingly.
+⁠Blood and flood are not like food
 ⁠But be careful how you speak
+⁠But it is not hard to tell
 ⁠Dies and diet, lord and word
+⁠Doll and roll and some and home.
+⁠Exiles, similes, reviles;
+⁠Face but preface, but efface
+⁠Gertrude, German; wind and mind;
+⁠Housewife, verdict and indict!
 ⁠I will teach you in my verse
+⁠Islington and Isle of Wight
+⁠Job, Job, blossom, bosom, oath.
 ⁠Just compare heart, beard and heard
 ⁠Made has not the sound of bade
+⁠Never guess—it is not safe;
+⁠Nor is mould like should and would.
 ⁠Say break, steak, but bleak and streak
 ⁠Say—said, pay—paid, laid, but plaid.
 ⁠So shall I! Oh, hear my prayer
 ⁠Sounds like corpse, corps, horse and worse.
 ⁠Tear in eye your dress you'll tear.
+⁠This phonetic labyrinth
+⁠Toward, to forward, to reward
+⁠Typhoid; measles, topsails, aisles;
+⁠We say hallowed, but allowed;
+⁠Why it's pall, mall, but Pall Mall.
+⁠Won't it make you lose your wits
+⁠Worm and storm; chaise, chaos, chair;
