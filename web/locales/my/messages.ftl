@@ -323,6 +323,8 @@ edit = ပြင်ဆင်
 email-subscriptions = အီမေးလ် စာရင်းသွင်းခြင်းများ
 download-profile = ကျွန်ုပ်၏ အချက်အလက် ကိုဆွဲယူရန်
 contribution-experience = ဝေမျှခြင်း အတွေ့အကြုံ
+skip-submission-feedback = တုံ့ပြန်ချက် တင်သွင်းခြင်း ကို ကျော်ရန်
+off = ပိတ်
 
 ## FAQ
 
