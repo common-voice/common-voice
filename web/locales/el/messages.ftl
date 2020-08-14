@@ -482,6 +482,7 @@ de-identified-explanation = Η διαδικασία κατά την οποία �
 
 ## Error pages
 
+error-title-404 = Δεν ήταν δυνατή η εύρεση αυτής της σελίδας
 error-code = Σφάλμα { $code }
 
 ## Data
