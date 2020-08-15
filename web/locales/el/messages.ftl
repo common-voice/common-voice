@@ -636,7 +636,7 @@ contribute-more =
     }
 record-cta = Έναρξη ηχογράφησης
 record-platform-not-supported = Λυπούμαστε, αλλά η πλατφόρμα σας δεν υποστηρίζεται ακόμη.
-record-platform-not-supported-desktop = Σε επιτραπέζιους υπολογιστές, μπορείτε να κατεβάσετε τα πιο πρόσφατα:
+record-platform-not-supported-desktop = Σε υπολογιστές, μπορείτε να συνεισφέρετε κάνοντας λήψη…
 record-platform-not-supported-ios-non-safari = Στο iOS παρακαλούμε συνεχίστε με το Safari για ενεργοποίησης ηχογράφησης…
 record-must-allow-microphone = Χρειάζεται να επιτρέψετε πρόσβαση στο μικρόφωνο σας.
 record-no-mic-found = Δεν βρέθηκε μικρόφωνο.
