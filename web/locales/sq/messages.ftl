@@ -11,7 +11,6 @@ loading = Po ngarkohet…
 email-opt-in-info = Do të doja të merrja email-e të tillë si kujtues objektivash, përditësime rreth ecurisë time dhe buletine mbi Common Voice.
 email-opt-in-info-title = Bëhuni pjesë e listës së postimeve rreth Common Voice-it
 email-opt-in-info-sub-with-challenge = Merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë dhe buletinë rreth Common Voice-it.
-email-opt-in-privacy = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
 indicates-required = * tregon një fushë të domosdoshme
 not-available-abbreviation = N/A
 
@@ -481,10 +480,10 @@ sst-explanation = Teknologjitë E-folur-në-tekst (FNT) shndërrojnë të dhëna
 de-identified = Çidentifikim
 de-identified-explanation = Procesi sipas të cilit të dhënat e profilit të një vullnetari bëhen të padukshme në copëzat zanore që ky ka dhuruar, kur ato paketohen për shkarkim si pjesë e grupit të të dhënave.
 
-## NotFound
+## Error pages
 
-notfound-title = S’u gjet
-notfound-content = Kam frikë s’e nuk di se ç’po kërkoni.
+error-title-404 = S’e gjetëm dot atë faqe për ju
+error-title-503 = Po kalojmë një mosfunksionim të papritur
 
 ## Data
 
@@ -620,7 +619,6 @@ contribute = Jepni Ndihmesë
 listen = Dëgjoni
 skip = Anashkaloje
 shortcuts = Shkurtore
-clips-with-count = <bold>{ $count }</bold> Copëza
 goal-help-recording = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të objektivit tonë ditor të incizimit të { $goalValue } fjalive!
 goal-help-validation = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të objektivit tonë ditor të vleftësimit të { $goalValue } fjalive!
 contribute-more =
@@ -750,19 +748,13 @@ want-to-continue = Doni të vazhdohet?
 finish-editing = Të përfundohet përpunimi së pari?
 lose-changes-warning = Largimi tani do të thotë se do të humbni ndryshimet tuaja
 build-custom-goal = krijoni një objektiv vetjak
-help-reach-hours = Ndihmoni përmes një objektivi personal të mbërrihet në { NUMBER($hours) } orë për gjuhën { $language }
-help-reach-hours-general = Ndihmojeni Common Voice përmes një objektivi personal të mbërrijë në { NUMBER($hours) } orë për një gjuhë
 set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
-activity-needed-calculation =
-    { NUMBER($totalHours) } orë arrihen në thjeshtr { NUMBER($periodMonths) }
-    muaj, nëse { NUMBER($people) } vetë incizojnë { NUMBER($clipsPerDay) } copëza në ditë.
 how-many-per-day = Bukur! Sa copëza në ditë?
 how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?
 receiving-emails-info = Keni caktuar të merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
 not-receiving-emails-info = Keni caktuar të <bold>MOS</bold> merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
-n-clips = { NUMBER($count) } copëza
 help-share-goal = Ndihmonani të gjejmë më shumë zëra, ndani me të tjerët objektivin tuaj
 confirm-goal = Ripohojeni Objektivin
 goal-interval-weekly = Përjavë
