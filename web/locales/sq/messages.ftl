@@ -11,6 +11,7 @@ loading = Po ngarkohet…
 email-opt-in-info = Do të doja të merrja email-e të tillë si kujtues objektivash, përditësime rreth ecurisë time dhe buletine mbi Common Voice.
 email-opt-in-info-title = Bëhuni pjesë e listës së postimeve rreth Common Voice-it
 email-opt-in-info-sub-with-challenge = Merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë dhe buletinë rreth Common Voice-it.
+email-opt-in-privacy-v2 = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
 indicates-required = * tregon një fushë të domosdoshme
 not-available-abbreviation = N/A
 
@@ -484,6 +485,8 @@ de-identified-explanation = Procesi sipas të cilit të dhënat e profilit të n
 
 error-title-404 = S’e gjetëm dot atë faqe për ju
 error-title-503 = Po kalojmë një mosfunksionim të papritur
+error-content-503 = Sajti do të kopjeruhet sa më shpejt që të jetë e mundur. Për të informacionet më të reja, ju lutemi, merrni pjesë te <matrixLink>fjalosja e bashkësisë sonë Matrix</matrixLink> ose vizitoni <githubLink>GitHub</githubLink> ose <discourseLink>forumet tanë Discourse</discourseLink> që të parashtroni dhe mbikëqyrni probleme funksionimi sajtesh.
+error-code = Gabim { $code }
 
 ## Data
 
@@ -619,6 +622,11 @@ contribute = Jepni Ndihmesë
 listen = Dëgjoni
 skip = Anashkaloje
 shortcuts = Shkurtore
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Copëz
+       *[other] <bold>{ $count }</bold> Copëza
+    }
 goal-help-recording = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të objektivit tonë ditor të incizimit të { $goalValue } fjalive!
 goal-help-validation = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të objektivit tonë ditor të vleftësimit të { $goalValue } fjalive!
 contribute-more =
@@ -712,6 +720,7 @@ validations =
 
 your-languages = Gjuhët Tuaja
 toward-next-goal = Drejt objektivit të ardhshëm
+goal-reached = U arrit synimi
 clips-you-recorded = Copëza Që Keni Incizuar
 clips-you-validated = Copëza Që Keni Vleftësuar
 todays-recorded-progress = Ecuria e sotme për copëza Common Voice të incizuara
@@ -735,6 +744,7 @@ show-ranking = Shfaq renditjen time
 
 get-started-goals = Filloni me objektiva
 create-custom-goal = Krijoni një Objektiv Vetjak
+goal-type = Ç’lloj synimi doni të krijoni?
 both-speak-and-listen = Të dyja
 both-speak-and-listen-long = Të dy (Folje dhe Dëgjim)
 daily-goal = Objektiv Ditor
@@ -755,6 +765,11 @@ how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?
 receiving-emails-info = Keni caktuar të merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
 not-receiving-emails-info = Keni caktuar të <bold>MOS</bold> merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } copëz
+       *[other] { $count } copëza
+    }
 help-share-goal = Ndihmonani të gjejmë më shumë zëra, ndani me të tjerët objektivin tuaj
 confirm-goal = Ripohojeni Objektivin
 goal-interval-weekly = Përjavë
