@@ -480,6 +480,7 @@ de-identified-explanation = Prosessi, jolla avustajien profiilitiedot peitetää
 ## Error pages
 
 error-title-404 = Sivua ei löytynyt
+error-title-503 = Palvelussamme on suunnittelematon katko
 error-code = Virhe { $code }
 
 ## Data
