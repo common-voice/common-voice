@@ -11,6 +11,7 @@ loading = 로딩중…
 email-opt-in-info = 개인 목표 리마인더, 진행상황 알림, Common Voice 뉴스레터와 같은 이메일을 받고 싶습니다.
 email-opt-in-info-title = Common Voice 메일링 리스트 가입
 email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행상황 알림, Common Voice 뉴스레터와 같은 이메일을 받기
+email-opt-in-privacy-v2 = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
 
@@ -424,6 +425,7 @@ about-header-description =
     이 두 프로젝트는 디지털 음성 격차를 해소하려는 노력의 일환입니다. 음성 인식 기술은 우리의 기기에 인간과 같은 능력을 가져다 주지만 개발자는 이를 구축하기 위해 엄청난 양의 음성 데이터가 필요합니다. 현재 이 데이터의 대부분은 비싸고 독점되어 있습니다.
     우리는 음성 데이터를 자유롭고 공개적으로 이용할 수 있게 하고 데이터가 실제 사람들의 다양성을 나타내는 지 확인하고 싶습니다. 함께하면 우리는 모두를 위한 음성 인식기술을 만들 수 있습니다.
 how-does-it-work-title = 어떻게 작동하나요?
+how-does-it-work-text = 오픈 소스 음성 데이터 세트를 크라우드 소싱하고 있습니다. 목소리를 기부하고, 다른 사람의 클립의 정확성을 검증하고, 모든 사람에게 더 나은 데이터 세트를 만드세요.
 about-speak = 말하기
 about-speak-text = 참가가 미리 기여된 문장의 저장고에서 글을 읽고 음성 클립을 녹음합니다.
 about-listen-queue = 듣기 대기열
@@ -447,6 +449,10 @@ about-partnership =
     ¶
     프로젝트에 도움을 주신 다음 분들과 단체에 감사드립니다:
 about-get-involved = 참여하기
+about-get-involved-text-2 =
+    Common Voice를 더 좋게 만들고 싶으신가요?
+    이메일 또는 <discourseLink>Discourse</discourseLink> 포럼을 통해 연락하세요.
+    <githubLink>GitHub</githubLink>를 통해 사이트 문제를 제출하거나, <matrixLink>Matrix</matrixLink> 커뮤니티 채팅에 참여하세요.
 about-nav-why-common-voice = 왜?
 about-nav-how-it-works = 어떻게?
 about-nav-partners = 파트너
@@ -474,6 +480,10 @@ de-identified-explanation = 데이터 세트의 일부로 다운로드할 수 �
 
 ## Error pages
 
+error-title-404 = 해당 페이지를 찾을 수 없음
+error-content-404 = <homepageLink>홈페이지</homepageLink>가 도움이 되시나요? 더 자세한 질문이 있으시면,  <matrixLink>Matrix 커뮤니티 채팅</matrixLink>에 참여하거나 <githubLink>GitHub</githubLink>를 통해 사이트 문제를 모니터링하거나 <discourseLink>Discourse 포럼</discourseLink>을 방문하세요.
+error-title-503 = 예기치 않은 작동 중단 발생 중
+error-content-503 = 본 사이트는 가능한 한 빨리 백업됩니다. 최신 정보를 보려면 <matrixLink>Matrix 커뮤니티 채팅</matrixLink>에 참여하거나 <githubLink>GitHub</githubLink> 또는 <discourseLink>Discourse 포럼 </discourseLink>을 방문하여 사이트 경험 문제를 제출하고 모니터링하세요.
 error-code = 오류 { $code }
 
 ## Data
@@ -493,6 +503,8 @@ data-bundle-button = 데이터 세트 번들 다운로드
 data-bundle-description = Common Voice 데이터에는 위의 모든 다른 음성 데이터 세트가 포함됩니다.
 license = 라이센스: <licenseLink>{ $license }</licenseLink>
 license-mixed = 혼합됨
+data-download-singleword-title = 단일 단어 대상 세그먼트 다운로드
+data-download-singleword-callout = 이것은 음성 숫자 인식, 예 / 아니오 감지 및 <fxLink>Firefox Voice</fxLink>에 대한 wakeword 테스트 데이터를 지원하는 데이터를 포함하는 사용 사례 중심 세그먼트입니다.
 review-terms = Common Voice를 사용하면 <termsLink>이용약관</termsLink>과 <privacyLink>개인정보 보호 정책</privacyLink>에 동의한 것으로 간주합니다.
 terms-agree = 동의합니다
 terms-disagree = 동의하지 않습니다
@@ -533,11 +545,16 @@ download-language = { $language } 다운로드
 validated-hours = 검증된 분량
 recorded-hours = 녹음된 분량
 whats-inside = Common Voice 데이터 세트에는 어떤것이 포함되어 있습니까?
+dataset-description-hours =
+    데이터 세트의 각 항목은 고유 한 MP3 및 해당 텍스트 파일로 구성됩니다. 데이터 세트에 기록 된 많은 <b>{ $total }</b> 시간에는 음성 인식 엔진의 정확성을 훈련시키는 데 도움이 될 수 있는 연령, 성별, 억양과 같은 인구 통계 학적 메타 데이터도 포함됩니다.
+    
+    데이터 세트는 현재 <b>{ $languages }</b> 언어로 확인 된 <b>{ $valid }</b> 시간으로 구성되어 있지만 더 많은 음성과 언어를 추가하고 있습니다. <languagesLink>언어 페이지</languagesLink>에서 언어를 요청하거나 참여를 시작하세요.
 want-dataset-update = 새 버전의 Common Voice 데이터 세트의 출시 소식을 받기 원하시나요? 뉴스 레터를 구독 하십시오.
 subscribe = 구독하기
 get-started-speech = 음성인식 시작하기
 other-datasets = 기타 음성 데이터세트
 feedback-q = 제안 사항이 있습니까?
+deepspeech-info = Common Voice 데이터 세트는 음성 인식 애플리케이션을 구축하는 데 사용할 수있는 Mozilla의 오픈 소스 음성 인식 엔진 Deep Speech를 보완합니다. <githubLink>Github 개요</githubLink>를 읽거나 <discourseLink>DeepSpeech Discourse</discourseLink>에 참여하여 시작하는 방법을 알아보세요.
 common-voice-info-new = Common Voice에 대해 질문이 있나요? 특정한 언어에 대한 개선 아이디어나 피드백이 있나요? <discourseLink>Discourse 포럼</discourseLink>에 참여하여 알려주세요.
 data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 읽은 오디오 북에서 파생 된 16Khz의 약 1000 시간의 말뭉치입니다.
 data-other-ted-name = TED-LIUM 말뭉치
@@ -741,8 +758,26 @@ want-to-continue = 계속 하시겠습니까?
 finish-editing = 먼저 편집을 완료 하시겠습니까?
 lose-changes-warning = 지금 떠나면 변경 사항을 잃게됩니다.
 build-custom-goal = 맞춤 목표를 만들기
+help-reach-hours-pluralized =
+    도움 주기{ NUMBER($hours) ->
+       *[other] { $hours } 시간
+    }{ $language } 개인 목표
+help-reach-hours-general-pluralized =
+    Common Voice 돕기{ NUMBER($hours) ->
+       *[other] { $hours } 시간
+    }언어별 개인 목표
 set-a-goal = 목표를 설정하기
 cant-decide = 결정할 수 없습니까?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+       *[other] { $totalHours } 시간
+    }완료 가능 { $periodMonths }{ NUMBER($periodMonths) ->
+       *[other] { $periodMonths } 개월
+    }만약{ NUMBER($people) ->
+       *[other] { $people } 명
+    }기록{ NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } 개
+    }일간
 how-many-per-day = 좋습니다! 하루에 몇 개의 클립을 하시겠습니까?
 how-many-a-week = 좋습니다! 일주일에 몇 개의 클립을 하시겠습니까?
 which-goal-type = 말하기, 듣기 또는 둘 다를 원하십니까?
