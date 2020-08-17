@@ -703,6 +703,7 @@ validations =
 
 your-languages = 나의 언어
 toward-next-goal = 다음 목표를 향해
+goal-reached = 목표 달성
 clips-you-recorded = 녹음한 레코드 클립
 clips-you-validated = 검증한 레코드 클립
 todays-recorded-progress = 오늘의 Common Voice 레코드 클립 녹음 진행 현황
