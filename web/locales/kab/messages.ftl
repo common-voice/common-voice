@@ -722,6 +722,7 @@ validations =
 
 your-languages = Tutlayin-inek
 toward-next-goal = Ɣer iswi i d-iteddun
+goal-reached = Nsaweḍ iswi
 clips-you-recorded = Tukkisin yettwaskelsen
 clips-you-validated = Tukkisin yettwaqeblen
 todays-recorded-progress = Asfari n Common Voice n tukkisin yettwaskelsen ass-a
