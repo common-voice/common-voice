@@ -11,6 +11,7 @@ loading = Φόρτωση...
 email-opt-in-info = Θα ήθελα να λαμβάνω emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 email-opt-in-info-title = Εγγραφείτε στη λίστα αλληλογραφίας του Common Voice
 email-opt-in-info-sub-with-challenge = Λάβετε emails, όπως υπενθυμίσεις στόχων και προκλήσεων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με το χειρισμό αυτών των πληροφοριών από τη Mozilla, όπως εξηγεί η <privacyLink>πολιτική απορρήτου</privacyLink>.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
 
@@ -483,6 +484,8 @@ de-identified-explanation = Η διαδικασία κατά την οποία �
 ## Error pages
 
 error-title-404 = Δεν ήταν δυνατή η εύρεση αυτής της σελίδας
+error-title-503 = Αντιμετωπίζουμε μη αναμενόμενο χρόνο διακοπής λειτουργίας
+error-content-503 = Η ιστοσελίδα θα επανέλθει το συντομότερο δυνατό. Για τις πιο πρόσφατες πληροφορίες, παρακαλούμε γίνετε μέλος της <matrixLink>της κοινότητας μας στο Matrix</matrixLink>, επισκεφθείτε το <githubLink>GitHub</githubLink> ή το <discourseLink>φόρουμ μας στο Discourse</discourseLink> για να υποβάλετε και να παρακολουθείτε ζητήματα σχετικά με την ιστοσελίδα.
 error-code = Σφάλμα { $code }
 
 ## Data
