@@ -721,6 +721,7 @@ validations =
 
 your-languages = Οι γλώσσες σας
 toward-next-goal = Προς τον επόμενο στόχο
+goal-reached = Ο στόχος επιτεύχθηκε
 clips-you-recorded = Ηχογραφημένα κλιπ
 clips-you-validated = Επικυρωμένα κλιπ
 todays-recorded-progress = Σημερινή πρόοδος του Common Voice (ηχογραφημένα κλιπ)
