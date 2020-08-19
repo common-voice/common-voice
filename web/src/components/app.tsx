@@ -83,6 +83,7 @@ interface LocalizedPagesState {
   hasScrolled: boolean;
   l10n: ReactLocalization | null;
   uploadPercentage?: number;
+  demoFeatureFlag: boolean;
 }
 
 let LocalizedPage: any = class extends React.Component<
@@ -94,6 +95,7 @@ let LocalizedPage: any = class extends React.Component<
     hasScrolled: false,
     l10n: null,
     uploadPercentage: null,
+    demoFeatureFlag: null,
   };
 
   isUploading = false;
@@ -103,6 +105,9 @@ let LocalizedPage: any = class extends React.Component<
     window.addEventListener('scroll', this.handleScroll);
     setTimeout(() => this.setState({ hasScrolled: true }), 5000);
     this.props.refreshUser();
+    let demoFeatureFlag =
+      (await this.props.api.getFeatureFlag('DEMO', this.props.locale)) !== null;
+    this.setState(prev => ({ demoFeatureFlag, ...prev }));
   }
 
   async UNSAFE_componentWillReceiveProps(nextProps: LocalizedPagesProps) {
@@ -219,7 +224,7 @@ let LocalizedPage: any = class extends React.Component<
 
   render() {
     const { locale, notifications, toLocaleRoute, location } = this.props;
-    const { l10n, uploadPercentage } = this.state;
+    const { l10n, uploadPercentage, demoFeatureFlag } = this.state;
 
     if (!l10n) return null;
 
@@ -278,7 +283,7 @@ let LocalizedPage: any = class extends React.Component<
                   }
                 />
               ))}
-              {location.pathname.includes(URLS.DEMO) ? (
+              {location.pathname.includes(URLS.DEMO) && demoFeatureFlag ? (
                 <DemoLayout />
               ) : (
                 <Layout />
