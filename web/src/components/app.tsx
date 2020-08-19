@@ -106,7 +106,7 @@ let LocalizedPage: any = class extends React.Component<
     setTimeout(() => this.setState({ hasScrolled: true }), 5000);
     this.props.refreshUser();
     let demoFeatureFlag =
-      (await this.props.api.getFeatureFlag('DEMO', this.props.locale)) !== null;
+      (await this.props.api.getFeatureFlag('demo', this.props.locale)) !== null;
     this.setState(prev => ({ demoFeatureFlag, ...prev }));
   }
 
