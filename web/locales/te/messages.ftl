@@ -181,6 +181,7 @@ x-years-short =
         [one] { $count }సం
        *[other] { $count }సం
     }
+help-make-dataset = అధిక నాణ్యత, బహిరంగంగా అందుబాటులో ఉండే డేటా సమితిని రూపొందించడంలో మాకు సహాయపడండి
 sign-up-account = ఖాతా కోసం నమోదవండి
 email-subscription-title = ఈమెయిలు ద్వారా తాజాసమాచారం కోసం నమోదవండి
 
@@ -270,6 +271,7 @@ settings = అమరికలు
 edit-profile = ప్రొఫైల్‌ను సవరించు
 profile-create-success = విజయవంతం, ప్రొఫైల్ సృష్టించబడింది!
 profile-close = మూసివేయి
+thanks-for-account = మీ ఖాతాను నిర్ధారిస్తున్నందుకు ధన్యవాదాలు, ఇప్పుడు మీ ప్రొఫైలును నిర్మిద్దాం.
 why-demographic = ఈ విషయం ఎందుకు అవసరం?
 login-identity = లాగిన్ గుర్తింపు
 login-signup = ప్రవేశం / నమోదు
@@ -295,8 +297,10 @@ faq-why-important-q = ఇది ఎందుకు ముఖ్యం?
 faq-how-get-q = కామన్ వాయిస్ డేటాను నేను ఎలా పొందగలను?
 faq-when-release2-q = కామన్ వాయిస్ డేటాను మీరు ఇతర భాషలలో ఎప్పుడు విడుదల చేస్తారు?
 faq-why-mission-q = కామన్ వాయిస్ ఎందుకు మొజిల్లా ఆశయంలో భాగమైంది?
+faq-what-cv-and-deepspeech-q = కామన్ వాయిస్, డీప్ స్పీచ్ మధ్య భేదం ఏమిటి?
 faq-is-goal-assistant-q = కామన్ వాయిస్ లక్ష్యం స్వర సహాయకులను తయారుచేయడమేనా?
 faq-why-my-lang-q = నా భాష ఇంకా ఎందుకు చేర్చబడలేదు?
+faq-how-calc-hours-q = గంటలను కామన్ వాయిస్ ఎలా లెక్కిస్తుంది?
 faq-where-src-from-2-q = మూల పాఠ్యం ఎక్కడ నుండి వస్తుంది?
 faq-why-account-q = నేను ఖాతా కోసం ఎందుకు నమోదుచేసుకోవాలి?
 faq-is-account-public-q = నా ఖాతా సమాచారం బహిరంగమా?
@@ -370,6 +374,7 @@ language = భాష
 # File size in gigabytes
 size = పరిమాణం
 cv-license = లైసెన్సు
+audio-format = ఆడియో ఫార్మాటు
 number-of-voices = గొంతుల సంఖ్య
 email-to-download = దించుకోడానికి ఈమెయిలు ఇవ్వండి
 size-gigabyte = గిబై
