@@ -95,7 +95,7 @@ let LocalizedPage: any = class extends React.Component<
     hasScrolled: false,
     l10n: null,
     uploadPercentage: null,
-    demoFeatureFlag: null,
+    demoFeatureFlag: false,
   };
 
   isUploading = false;
