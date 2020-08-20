@@ -620,10 +620,13 @@ report-offensive-speech = Enjogera nswevu
 report-offensive-speech-detail = Kano akaloboozi kalimu ebigambo ebibi oba ebiluma.
 report-other-comment =
     .placeholder = Comment
+success = Success
 continue = Weyongereyo
+report-success = Alipoota yayisiddwawo bulungi
 
 ## Goals
 
+streaks = Streaks
 days =
     { $count ->
         [one] Olunaku
@@ -634,12 +637,18 @@ recordings =
         [one] Ekilikodinge
        *[other] Ebilikodinge
     }
+validations =
+    { $count ->
+        [one] Okukakasa
+       *[other] Ebikakasiddwa
+    }
 
 ## Dashboard
 
 your-languages = Ennimi Zo
 toward-next-goal = Sembera ekigobero ekiddirira
 clips-you-recorded = Obuloboozi Bw'olikodinze
+clips-you-validated = Clips z'okakasizza
 you = Gwe
 everyone = Buli omu
 top-contributors = Abasinga Okuyamba
