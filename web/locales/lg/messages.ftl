@@ -675,6 +675,7 @@ both-speak-and-listen-long = Byombi (Yogera ate owulirize)
 daily-goal = Ekigobero Kya buli lunaku
 weekly-goal = Ekigobero Kya Buli Wiiki
 easy-difficulty = Nyangu
+average-difficulty = Average
 difficult-difficulty = Nzibu
 pro-difficulty = Nkugu
 lose-goal-progress-warning = Bw'okyusa ekigobero kyo, oyinza okufirwa w'otuuse.
@@ -682,6 +683,16 @@ want-to-continue = Oyagala okweyongerayo?
 finish-editing = Sooka omale by'okyuusa?
 lose-changes-warning = Okugenda kati kitegeeza nti ojja kufiirwa by'okyuusiza
 build-custom-goal = Zzimba eby'okukola
+help-reach-hours-pluralized =
+    Yamba okuweza{ NUMBER($hours) ->
+        [one] { $hours } essaawa
+       *[other] { $hours } ssaawa
+    } mu { $language }  n'ekiruubirirwa ekikyo
+help-reach-hours-general-pluralized =
+    Yamba Common Voice okuweza{ NUMBER($hours) ->
+        [one] { $hours } essaawa
+       *[other] { $hours } ssaawa
+    }  mu lulimi n'ekiruubirirwa ekikyo.
 set-a-goal = Tereeza ekigobero
 cant-decide = Tosobola kusalawo?
 how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
