@@ -698,8 +698,19 @@ cant-decide = Tosobola kusalawo?
 how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
 how-many-a-week = Kilungi! Buloboozi bumeka mu wiiki?
 which-goal-type = Oyagala kw'ogera, Kuwuliriza oba by'ombi?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } clip
+       *[other] { $count } clips
+    }
+help-share-goal = Tuyambeko okuzuula amaloboozi amalala, gabana ekiruubirirwa kyo
 confirm-goal = Kakasa Ekigobero
 goal-interval-weekly = Buli wiiki
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Gabana ekiruubirirwa kyo ekya { $count } Clip buli lunaku ku { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Gabana ekiruubirirwa kyo ekya { $count } Clip buli wiiki ku { $type }
+share-goal-type-speak = Okwogera.
 share-goal-type-listen = Okuwliriza
 weekly-goal-created = Ekigobero kyo ekya buli wiiki kikolebbwa
 daily-goal-created = Ekigobero kyo ekya buli lunaku kikolebbwa
