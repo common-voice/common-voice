@@ -595,6 +595,7 @@ listen-last-time-instruction = <playIcon></playIcon> Ekisembayo!
 speak-empty-state = Emboozi ez'okulikodinga mulirimi luno zituweddeko...
 speak-empty-state-cta = Waayo ku mboozi
 record-button-label = Likodinga eddoboozi lyo
+share-title-new = <bold>Help us</bold> okufuna amaloboozi amalala.
 target-segment-add-voice = Gattako Eddoboozi lyo
 target-segment-learn-more = Manya Ebisingawo
 
