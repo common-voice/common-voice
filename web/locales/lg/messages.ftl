@@ -400,6 +400,7 @@ faq-why-10k-hours-a = Guno gwe muwendo gw'essaawa ogwetaagisa okutendeka sisitii
 faq-how-calc-hours-q = Common voice ebala etya essaawa?
 faq-how-calc-hours-a = Tubala essaawa nga tuteebereza obuwanvu bwa buli likoodingi ne tumala ne tukubisaamu n'omugatte gwa likoodingi eziri mu nnimi zonna.
 faq-where-src-from-2-q = Ensibuko y'ebigambo evaawa?
+faq-where-src-from-2-a = Ensibuko y'ebigambo byaffe ekolebwa bannayini abenyigiramu nga bawaayo era n;emboozi eziwandiikiddwa okuva mu firimu ez'olukale nga <italic>It’s a Wonderful Life</italic>.¶
 faq-why-not-ask-read-q = Lwaki tetubuuza bantu kusoma mu bitabo oba Wikipedia ezili mu nnimi endala?
 faq-is-account-public-q = Ebinfaako mu akawunti yange bilabika mu lwatu?
 faq-what-determine-identity-q = Kitegeeza ki nti sisobola kumanya bikwata ku bogezi mu dataset ya Common voice?
