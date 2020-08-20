@@ -388,6 +388,7 @@ faq-when-release2-a = Version y'ennimi eza dataset ya Common voice mu kasera kan
 faq-why-mission-q = Lwaki Common Voice kw'eli ku misoni ya Mozilla?
 faq-what-cv-and-deepspeech-q = Kiki eky'enjawulo wakati wa Common Voice ne Deep Speech?
 faq-is-goal-assistant-q = Okuzimba voice assistant ky'ekigobero kya Common Voice?
+faq-is-goal-assistant-a = Ekigendererwa kya dataset ya  Common Voice kwe kusobozesa buli omu wonna mu nsi okuzimba tekinologiya ategeera eddoboozi, ategeera enjogera y'omwogezi, oba tekinologiya yenna eyeetaaga data w'amaloboozi. Voice assistant y'emu ku bika bya tekinologiya by'oyinza okuzimba ne dataset.
 faq-do-want-native-a = Yee, tusinga kwagala ddoboozi lyo! Ebimu ku biruubirirwa bya Common Voice kwe kukungaanya enjogera ez'enjawulo okusobozesa obuweereza obutegeera amaloboozi okukolera buli omu mu bwenkanya. Kino kitegeeza nti ebiva eri aboogezi abatali bazaaliranwa byamugaso.
 faq-why-different-speakers-q = Lwaki twagala abogezi bangi kubuli lulimi?
 faq-why-my-lang-q = Lwaki olulimi lwange teluriimu?
