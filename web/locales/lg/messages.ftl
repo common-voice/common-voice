@@ -410,6 +410,8 @@ faq-what-determine-identity-q = Kitegeeza ki nti sisobola kumanya bikwata ku bog
 faq-what-is-cv = Common Voice Ky'ekiki?
 faq-using-cv = Okozesa Common Voice
 faq-description = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye bogera.
+faq-search-for-answers =
+    .label = Noonya answers.
 
 ## ABOUT US
 
@@ -728,4 +730,6 @@ profile-form-delete = Sangula ebikwatako
 ## Landing
 
 welcome-staff = Tukwaniriza{ $company } mukozi waffe!
+login-company = Log in/ sign up ne { $company } email
 profile-not-required = Tekyetagisibwa kuba na profayilo okuyamba wadde kya mugaso, laba lwaki wansi awo.
+read-more-about = Soma ebisingawo ku page yaffe ey'Ebitukwatako.
