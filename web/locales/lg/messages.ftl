@@ -662,12 +662,16 @@ validated-clips = Clips ezikakasiddwa
 total-approved = Omuwendo gw'ebisiimiddwa
 overall-accuracy = Overall Accuracy
 set-visibility = Set my visibility
+visibility-overlay-note = Jjukira: Bw'eteekebwa ku 'Visible', setting eno esobola okukyusibwa ku <profileLink>Profile page</profileLink>
 show-ranking = Ndaga wendi
 
 ## Custom Goals
 
 get-started-goals = Tandika ku bigobero
+create-custom-goal = Teekawo ekiruubirirwa ekikyo
+goal-type = Kiruubirirwa ki ky'oyagala okuzimba?
 both-speak-and-listen = By'ombi
+both-speak-and-listen-long = Byombi (Yogera ate owulirize)
 daily-goal = Ekigobero Kya buli lunaku
 weekly-goal = Ekigobero Kya Buli Wiiki
 easy-difficulty = Nyangu
