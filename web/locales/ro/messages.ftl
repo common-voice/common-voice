@@ -675,7 +675,7 @@ speak-empty-state-cta = Contribuie cu propoziții
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
 keep-track-profile = Urmărește-ți progresul cu ajutorul unui profil
-login-to-get-started = Autentifică-te sau înregistrează-te pentru a începe
+login-to-get-started = Intră în cont sau creează-ți unul pentru a începe
 target-segment-first-card = Contribui la primul nostru segment-țintă
 target-segment-first-banner = Ajută-ne să creăm primul segment-țintă Common Voice în { $locale }
 target-segment-add-voice = Adaugă-ți vocea
@@ -844,6 +844,6 @@ profile-form-delete = Șterge profilul
 
 welcome-staff = Bun venit, angajaților { $company }!
 help-contribute = Poți ajuta la clădirea unui set de date divers, cu cursă deschisă, creând un profil Common Voice și contribuind cu vocea ta.
-login-company = Autentifică-te / Înregistrează-te cu adresa de e-mail { $company }
+login-company = Conectare/Înregistrare cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
 read-more-about = Află mai multe pe pagina Despre
