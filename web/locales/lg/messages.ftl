@@ -655,8 +655,13 @@ stats = Stats
 awards = Awards
 you = Gwe
 everyone = Buli omu
+contribution-activity = Contribution Activity
 top-contributors = Abasinga Okuyamba
 recorded-clips = Obuloboozi Obulikodinge
+validated-clips = Clips ezikakasiddwa
+total-approved = Omuwendo gw'ebisiimiddwa
+overall-accuracy = Overall Accuracy
+set-visibility = Set my visibility
 show-ranking = Ndaga wendi
 
 ## Custom Goals
