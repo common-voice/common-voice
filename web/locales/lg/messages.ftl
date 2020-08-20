@@ -592,10 +592,14 @@ record-abort-continue = Maliriza okulikodinga
 record-abort-delete = Mala atte Osazeemu obuloboozi
 listen-3rd-time-instruction = 2 biwedde, kkola nga bw'otyo!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Ekisembayo!
+listen-empty-state = Clip ez'okusunsula ziweddewo mu lulimi luno...
 speak-empty-state = Emboozi ez'okulikodinga mulirimi luno zituweddeko...
 speak-empty-state-cta = Waayo ku mboozi
 record-button-label = Likodinga eddoboozi lyo
 share-title-new = <bold>Help us</bold> okufuna amaloboozi amalala.
+login-to-get-started = Log in oba sign up okutandika
+target-segment-first-card = Oli mu kuwaayo ku target segment yaffe esooka.
+target-segment-first-banner = Yambako okutondawo target segment ya Common Voice esooka mu { $locale }
 target-segment-add-voice = Gattako Eddoboozi lyo
 target-segment-learn-more = Manya Ebisingawo
 
@@ -614,6 +618,8 @@ report-difficult-pronounce = Kizibu okwogera
 report-difficult-pronounce-detail = Mulimu ebigambo ebizibu okusoma oba okwogera.
 report-offensive-speech = Enjogera nswevu
 report-offensive-speech-detail = Kano akaloboozi kalimu ebigambo ebibi oba ebiluma.
+report-other-comment =
+    .placeholder = Comment
 continue = Weyongereyo
 
 ## Goals
