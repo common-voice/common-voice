@@ -712,14 +712,18 @@ share-n-daily-contribution-goal = Gabana ekiruubirirwa kyo ekya { $count } Clip 
 share-n-weekly-contribution-goal = Gabana ekiruubirirwa kyo ekya { $count } Clip buli wiiki ku { $type }
 share-goal-type-speak = Okwogera.
 share-goal-type-listen = Okuwliriza
+share-goal-type-both = Okwogera n'okuwuliriza.
 weekly-goal-created = Ekigobero kyo ekya buli wiiki kikolebbwa
 daily-goal-created = Ekigobero kyo ekya buli lunaku kikolebbwa
+track-progress = Manyira wano w'otuuse oba ku stats page yo.
+return-to-edit-goal = Komawo wano okyuse ekiruubirirwa kyo essaawa yonna.
 share-goal = Sheyaringa ekigobero kyange
 
 ## Profile Delete
 
 keep = Tereka
 remove = Jjako
+profile-form-delete = Sangula ebikwatako
 
 ## Landing
 
