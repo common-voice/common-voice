@@ -506,6 +506,7 @@ data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 license-mixed = Të përziera
+data-download-singleword-callout = Ky është një segment i bazuar në raste përdorimi, që përmban të dhëna për fuqizimin e të kuptuarit të shifrave të thëna, pikasjeje po-je / jo-je, dhe të dhëna testimi <em>wakeword</em> për <fxLink>Firefox Voice</fxLink>.
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
 terms-agree = Pajtohem
 terms-disagree = Nuk pajtohem
