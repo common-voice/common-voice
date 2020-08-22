@@ -514,6 +514,7 @@ data-bundle-description = Spletad roadennoù Common Voice mui an holl spletadoù
 license = Lañvaz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
 data-download-singleword-title = Pellgargañ skejenn vukenn ar ger
+data-download-singleword-callout = Kement se a zo un teskad buket war an implij evit luskañ adanaoudegezh ar sifroù komzet, dinoadur ar gerioù asantiñ ha nac'hañ, ha roadennoù amprouiñ gerioù dihuniñ evit <fxLink>Firefox Voice</fxLink>.
 review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
