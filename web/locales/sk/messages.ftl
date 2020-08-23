@@ -711,6 +711,12 @@ n-clips-pluralized =
     }
 help-share-goal = Pomôžte nám nájsť viac hlasov, zdieľajte svoje ciele
 confirm-goal = Potvrdiť cieľ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Zdieľajte svoj denný cieľ { $count } nahrávok pre { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Zdieľajte svoj týždenný cieľ { $count } nahrávok pre { $type }
+# LINK will be replaced with the current URL
+goal-share-text = Práve som si vytvoril osobný cieľ pre darovanie hlasu pre #CommonVoice - pripoj sa ku mne a pomôž naučiť stroje, ako rozprávajú skutoční ľudia { $link }
 weekly-goal-created = Váš týždenný cieľ bol vytvorený
 daily-goal-created = Váš denný cieľ bol vytvorený
 track-progress = Sledujte svoj pokrok tu a na stránke štatistík.
@@ -722,9 +728,18 @@ share-goal = Zdieľať môj cieľ
 delete-q = Chcete tiež požiadať o vymazanie vašich hlasových nahrávok, alebo ich chcete ponechať v datasete Common Voice?
 keep = Ponechať
 remove = Odstrániť
+keep-info = Vaše anonymné hlasové nahrávky zostanú v dátovom súbore Common Voice. Po odstránení profilu už nebudete môcť odoslať žiadosť o odstránenie záznamov z datasetu
+remove-info = Vašu žiadosť o odstránenie vašich hlasových záznamov z datasetu posúdime. Ak bude vaša žiadosť schválená, skontaktujeme sa s tými, ktorí si stiahli dataset a požiadame ich o odstránenie vašich hlasových záznamov.
+why-delete-recordings =
+    Nahrávky Common Voice používajú akademici, malé podniky a nadšenci, aby pomohli trénovať a rozširovať verejne dostupné zdroje, ako sú hlasové modely.
+    
+    Môžete nám dať vedieť, prečo by ste chceli odstrániť svoje nahrávky?
 profile-form-delete = Odstrániť profil
 
 ## Landing
 
+welcome-staff = Vítame zamestnancov spoločnosti { $company }!
+help-contribute = Vytvorením profilu v Common Voice a prispením svojho hlasu, môžete pomôcť vytvoriť rozmanitý open-source dataset.
+login-company = Prihláste sa / zaregistrujte sa pomocou e-mailu { $company }
 profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 read-more-about = Prečítajte si viac na stránke O nás
