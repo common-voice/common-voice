@@ -476,10 +476,10 @@ sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字�
 de-identified = 去識別化
 de-identified-explanation = 在打包下載資料集時，從其所貢獻的語音片段隱藏貢獻者個人資料的過程。
 
-## NotFound
+## Error pages
 
-notfound-title = 搵唔到
-notfound-content = 唔好意思，我唔知您搵緊乜。
+error-title-404 = 搵唔到您想開嘅頁面
+error-code = 錯誤 { $code }
 
 ## Data
 
@@ -735,6 +735,7 @@ show-ranking = 顯示我嘅排名
 
 get-started-goals = 訂立目標，開始貢獻
 create-custom-goal = 訂立個人目標
+goal-type = 您想要建立點樣嘅目標？
 both-speak-and-listen = 兩樣都做
 both-speak-and-listen-long = 兩樣都做 (又聽又講)
 daily-goal = 每日目標
