@@ -11,6 +11,7 @@ loading = 載入中…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
 email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
+email-opt-in-privacy-v2 = 假如同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方式處理呢啲些資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
 
@@ -353,7 +354,7 @@ gravatar_not_found = 找不到您電郵所屬的 Gravatar
 file_too_large = 選擇的檔案太大
 manage-subscriptions = 管理訂閱
 manage-email-subscriptions = 電郵訂閱管理
-email-already-used = 電子郵件地址已被使用
+email-already-used = 有人用咗呢個電郵地址喇
 add-language = 增加語言
 change-email-setings = 請到「設定」内的「登入身分」修改電郵地址
 
@@ -479,6 +480,7 @@ de-identified-explanation = 在打包下載資料集時，從其所貢獻的語�
 ## Error pages
 
 error-title-404 = 搵唔到您想開嘅頁面
+error-content-503 = 網站將會盡快恢復作業。請到我們嘅 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上嘅網站報告問題，或到 <discourseLink>Discourse 討論區</discourseLink>報俾我地，或者瀏覽最新資訊。
 error-code = 錯誤 { $code }
 
 ## Data
@@ -498,6 +500,8 @@ data-bundle-button = 下載數據組合
 data-bundle-description = Common Voice 數據，以及上面列出的所有其他語音數據集。
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
+data-download-singleword-title = 下載單字目標群體分項
+data-download-singleword-callout = 呢個喺以使用情境為導向嘅目標群體分項，當中包含用黎提供 Firefox Voice 進行語音數據識別、偵測喺或者唔喺、喚醒詞句等功能嘅測試資料。
 review-terms = 使用 Common Voice，即代表您同意我們的<termsLink>條款</termsLink>和<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我唔同意
@@ -666,8 +670,8 @@ record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
 keep-track-profile = 建立個人檔案，紀錄您的進度
 login-to-get-started = 請登入或註冊，即可開始使用
-target-segment-first-card = 您正在朝我們的第一個用例分項貢獻錄音
-target-segment-first-banner = 幫助 Common Voice 創立 { $locale } 的第一個用例分項
+target-segment-first-card = 您正在朝我們的第一個目標群體分項貢獻錄音
+target-segment-first-banner = 幫助 Common Voice 創立 { $locale } 的第一個目標群體分項
 target-segment-add-voice = 添加您的聲音
 target-segment-learn-more = 瞭解更多
 
@@ -712,6 +716,7 @@ validations =
 
 your-languages = 你嘅語言
 toward-next-goal = 距離下一個目標
+goal-reached = 達到咗嘅目標
 clips-you-recorded = 您錄製的片段
 clips-you-validated = 您驗證的錄音
 todays-recorded-progress = 今日 Common Voice 錄音片段的進度
@@ -751,6 +756,16 @@ lose-changes-warning = 而家離開將唔會儲存你嘅變更
 build-custom-goal = 度身訂做目標
 set-a-goal = 訂立目標
 cant-decide = 決定唔到？
+activity-needed-calculation-plural =
+    假如有 { NUMBER($people) ->
+       *[other] { $people } 個人
+    }每天錄低 { NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } 條片
+    }，就可以喺 { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } 個月
+    }內達到{ NUMBER($totalHours) ->
+       *[other] { $totalHours } 小時
+    }錄音片段嘅目標。
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每週錄幾多段音？
 which-goal-type = 您想淨係講嘢、聽嘢，定係又聽又講？
