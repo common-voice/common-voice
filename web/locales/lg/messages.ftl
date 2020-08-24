@@ -437,6 +437,7 @@ about-no-votes = ≥ obululu "Nedda" 2
 about-no-votes-text = Omuntu bwagana eddoboozi liddayo emabega mu layini y'ezo ezitannaba kutukibwako. Bweliganibwa ogw'okubiri, eddoboozi lisuulibwa mu limbo.
 about-dataset-new = Dataset ya Common Voice
 about-clip-graveyard = Amalaalo G'obuloboozi
+about-clip-graveyard-text = Limbo ya Clip erimu clip z'amaloboozi ezitayinginziddwa mu dataset ya Common Voice. Nga era dataset, Limbo ya Clip weeri okuwanulwa.
 about-partners = Ba patana
 about-become-a-partner = Fuuka patana
 about-get-involved = Twegatteko
