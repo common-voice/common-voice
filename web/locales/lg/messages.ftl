@@ -420,6 +420,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Lwaki Common Voice?
+about-subtitle = Common Voice kitundu ku byatandikibwawo Mozilaa okuyamba okuyigiriza komputa abantu bwe boogera. Nga oggyeko dataset ya Common Voice, tuzimba yingini ey'olukale etegeera okwogera eyitibwa Deep Speech.
 how-does-it-work-title = Ekola etya?
 how-does-it-work-text = Tuli mu kukunganya dataset y'amaloboozi ey'obwereere. Ggaba eddoboozi lyo, sunsula obutuufu bwa amaloboozi g'abalala, fuula dataset nnungi eri buli muntu.
 about-speak = Yogera
