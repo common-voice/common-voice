@@ -408,6 +408,9 @@ faq-is-account-public-q = Ebinfaako mu akawunti yange bilabika mu lwatu?
 faq-how-privacy-q = Mukakasa mutya nti ebikwata ku bagaba amaloboozi gaabwe bikumibwa mu kyama?
 faq-how-privacy-a = Clip z'amaloboozi zonna mu dataset zisangulwako ebikwata ku muntu. Omuntu bw'awaayo ebimukwatako ng'ayita ku pulofayiro ye, ebimukwatako byawulwa ku clip z'amaloboozi nga tezinateekebwateekebwa wamu okusobola okuziwanula mu dataset era tebifuulibwa bya lukale ku pulofayiro page ye.
 faq-what-determine-identity-q = Kitegeeza ki nti sisobola kumanya bikwata ku bogezi mu dataset ya Common voice?
+faq-what-determine-identity-a =
+    Dataset ya Common Voice ya lukale era esobola  okukozesebwa okuyigiriza tekinologiya akozesa amaloboozi ow'enjawulo.  Okukuuma abawaayo eri Common Voice, tusaba buli muntu awanula dataset ya Common voice okuwa ekitiibwa privacy yaabwe.
+    Clips ez'amaloboozi  zonna eziri mu dataset zisangulwako ebikwata  ku muntu. Bw'owanula dataset okiriziganya n'obutagezaako kuzuula ebikwata ku yawaayo. Ekyo kitegeeza nti tosobola kugezaako kukwanaganya biri mu dataset ku bikwata n'oyo eyawaayo. Wabula, osobola okukozesa dataset mu kuyigiriza tekinologiya ategeera okwogera, tekinologiya ategeera omwogezi oba tekinologiya omulala okugeza nga okukwataganya obubaka obuli mu dataset kubusangiddwamu.
 faq-what-is-cv = Common Voice Ky'ekiki?
 faq-using-cv = Okozesa Common Voice
 faq-description = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye bogera.
