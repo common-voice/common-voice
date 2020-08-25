@@ -29,7 +29,6 @@ import Pill from '../pill';
 import './listen.css';
 import { User } from '@sentry/types';
 import { RouteComponentProps, withRouter } from 'react-router';
-import NotSupported from '../../../demo-pages/not-supported';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -253,7 +252,6 @@ class ListenPage extends React.Component<Props, State> {
     const activeClip = clips[clipIndex];
     return (
       <>
-        {this.demoMode && <NotSupported />}
         <div id="listen-page">
           <audio
             {...(activeClip && { src: activeClip.audioSrc })}

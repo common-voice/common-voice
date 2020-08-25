@@ -45,7 +45,6 @@ import RecordingPill from './recording-pill';
 import { SentenceRecording } from './sentence-recording';
 
 import './speak.css';
-import NotSupported from '../../../demo-pages/not-supported';
 
 const MIN_RECORDING_MS = 1500;
 const MIN_RECORDING_MS_BENCHMARK = 500;
@@ -578,7 +577,6 @@ class SpeakPage extends React.Component<Props, State> {
 
     return (
       <>
-        {this.demoMode ? <NotSupported /> : null}
         <div id="speak-page">
           <NavigationPrompt
             when={clips.filter(clip => clip.recording).length > 0}>

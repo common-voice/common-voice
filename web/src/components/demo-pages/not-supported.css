@@ -21,5 +21,8 @@
         align-items: center;
         background: black;
         color: white;
+        p {
+            margin: 0 16px;
+        }
     }
 }
