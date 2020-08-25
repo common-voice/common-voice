@@ -24,7 +24,8 @@ html {
     flex-direction: column;
     position: fixed;
     top: 1.75rem;
-    width: 32.875rem;
+    width: 45%;
+    max-width: 32.875rem;
     background: #ffffff;
     box-shadow: 0px 1.5rem 3.375rem rgba(0, 0, 0, 0.05);
     margin-inline-start: 3%;

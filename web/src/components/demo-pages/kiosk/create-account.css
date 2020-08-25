@@ -9,6 +9,7 @@
 
 #demo-create-account {
     display: flex;
+    height: 100%;
     justify-content: center;
     background-color: var(--lighter-grey);
     background-image: url('../../register-section/images/waves.png');
