@@ -466,6 +466,7 @@ data-bundle-button = Hent datasæt-samling
 data-bundle-description = Data fra Common Voice samt alle andre stemme-datasæt ovenfor.
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
+data-download-singleword-title = Hent målsegmentet med enkelte ord
 review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
 terms-agree = Jeg accepterer
 terms-disagree = Jeg accepterer ikke

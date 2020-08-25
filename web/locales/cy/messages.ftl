@@ -756,6 +756,7 @@ validations =
 
 your-languages = Eich Ieithoedd
 toward-next-goal = Ymlaen i'r targed nesaf
+goal-reached = Wedi cyrraedd fy nharged
 clips-you-recorded = Clipiau Rydych Wedi'u Recordio
 clips-you-validated = Clipiau Rydych Wedi'u Dilysu
 todays-recorded-progress = Cynnydd Common Voice heddiw ar glipiau wedi'u recordio
