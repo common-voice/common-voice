@@ -70,23 +70,56 @@ async function updateDemographics(
   age?: string,
   gender?: string
 ) {
-  const [[{ id: ageId }]] = await db.query(
-    `
-    SELECT id
-      FROM ages
-      WHERE age = ?
-  `,
-    [age]
-  );
+  const ageId =
+    age &&
+    (
+      await db.query(
+        `
+          SELECT id
+            FROM ages
+            WHERE age = ?
+        `,
+        [age]
+      )
+    )?.[0]?.[0]?.id;
 
-  const [[{ id: genderId }]] = await db.query(
-    `
-    SELECT id
-      FROM genders
-      WHERE gender = ?
-  `,
-    [gender]
-  );
+  const genderId =
+    gender &&
+    (
+      await db.query(
+        `
+          SELECT id
+            FROM genders
+            WHERE gender = ?
+        `,
+        [gender]
+      )
+    )?.[0]?.[0]?.id;
+
+  const ageFound = typeof ageId === 'number';
+  const genderFound = typeof genderId === 'number';
+
+  if (!ageFound && !genderFound) return;
+
+  // If we're missing an id for age or gender, we fall back to their existing
+  // values.
+  const { age_id: prevAgeId, gender_id: prevGenderId } =
+    ((!ageFound || !genderFound) &&
+      (
+        await db.query(
+          `
+            SELECT demographics.age_id, demographics.gender_id
+              FROM user_clients
+              LEFT JOIN demographics
+                ON user_clients.client_id = demographics.client_id
+              WHERE user_clients.client_id = ?
+              ORDER BY updated_at DESC
+              LIMIT 1
+          `,
+          [clientId]
+        )
+      )?.[0]?.[0]) ||
+    {};
 
   await db.query(
     `
@@ -94,7 +127,7 @@ async function updateDemographics(
       ON DUPLICATE KEY UPDATE
       updated_at = now()
   `,
-    [clientId, ageId, genderId]
+    [clientId, ageId ?? prevAgeId ?? null, genderId ?? prevGenderId ?? null]
   );
 }
 
@@ -115,7 +148,7 @@ const UserClient = {
         -- TODO: This subquery is VERY awkward, but safer until we simplify
                  accent grouping.
         CROSS JOIN
-          (SELECT ages.id AS age_id, genders.id AS gender_id
+          (SELECT demographics.age_id, demographics.gender_id
             FROM user_clients
             LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
             WHERE user_clients.${
@@ -167,10 +200,9 @@ const UserClient = {
         -- TODO: This subquery is awkward, but safer until we simplify accent
         --       grouping.
         CROSS JOIN
-          (SELECT ages.id AS age_id, genders.id AS gender_id
+          (SELECT demographics.age_id, demographics.gender_id
             FROM user_clients
-            LEFT JOIN demographics
-            ON user_clients.client_id = demographics.client_id
+            LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
             WHERE user_clients.email = ?
             ORDER BY updated_at DESC
             LIMIT 1
