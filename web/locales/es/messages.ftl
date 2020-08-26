@@ -475,6 +475,7 @@ de-identified-explanation = El proceso por el que la información del perfil de 
 
 ## Error pages
 
+error-content-404 = ¿Quizás nuestra <homepageLink>página de inicio</homepageLink> te puede ayudar? Para hacer una pregunta, únete al <matrixLink>chat de la comunidad Matrix</matrixLink>, monitorea los problemas del sitio a través de <githubLink>GitHub</githubLink> o visita <discourseLink>nuestros foros de Discurse</discourseLink>.
 error-content-503 = El sitio volverá a su funcionamiento lo antes posible. Para obtener la información más reciente, únete al <matrixLink>chat de la comunidad Matrix</matrixLink> o visita <githubLink>GitHub</githubLink> o <discourseLink> nuestros foros de Discourse</discourseLink> para enviar y hacer un seguimiento de los problemas con la experiencia del sitio.
 
 ## Data
@@ -494,6 +495,8 @@ data-bundle-button = Descargar paquete de archivo de datos
 data-bundle-description = Datos de Common Voice junto con todos los archivos de datos de voz anteriores.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
+data-download-singleword-title = Descarga el objetivo segmentado de una sola palabra
+data-download-singleword-callout = Este es un segmento basado en casos de uso que contiene datos para potenciar el reconocimiento de dígitos hablados, detección sí / no y datos de prueba de wakeword para <fxLink>Firefox Voice</fxLink>.
 review-terms = Al usar Common Voice, aceptas nuestros <termsLink>Términos de uso</termsLink> y la <privacyLink>Política de privacidad</privacyLink>
 terms-agree = Estoy de acuerdo
 terms-disagree = Estoy en desacuerdo
@@ -614,6 +617,11 @@ contribute = Colaborar
 listen = Escuchar
 skip = Saltar
 shortcuts = Accesos directos
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> fragmento
+       *[other] <bold>{ $count }</bold> fragmentos
+    }
 goal-help-recording = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de grabación del { $goalValue }!
 goal-help-validation = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de validación del { $goalValue }!
 contribute-more = ¿Listo para hacer { $count } más?
@@ -741,8 +749,32 @@ want-to-continue = ¿Quieres continuar?
 finish-editing = ¿Quieres terminar de editar antes?
 lose-changes-warning = Si lo dejas ahora, perderás los cambios
 build-custom-goal = Crear un objetivo personalizado
+help-reach-hours-pluralized =
+    Ayuda a alcanzar{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    }en { $language } con un objetivo personal
+help-reach-hours-general-pluralized =
+    Ayuda a que Common Voice alcance{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    }en un idioma con un objetivo personal
 set-a-goal = Establecer objetivo
 cant-decide = ¿No te decides?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } hora
+       *[other] { $totalHours } horas
+    }es alcanzable en solo{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mes
+       *[other] { $periodMonths } meses
+    }si{ NUMBER($people) ->
+        [one] { $people } persona
+       *[other] { $people } personas
+    }graban{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } fragmento
+       *[other] { $clipsPerDay } fragmentos
+    }al día.
 how-many-per-day = ¡Excelente! ¿Cuántas grabaciones al día?
 how-many-a-week = ¡Excelente! ¿Cuántas grabaciones a la semana?
 which-goal-type = ¿Quieres hablar, escuchar o los dos?
