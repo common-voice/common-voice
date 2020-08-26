@@ -14,8 +14,8 @@ export const up = async function (db: any): Promise<any> {
       CREATE TABLE demographics (
         id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
         client_id CHAR(36) NOT NULL,
-        age_id BIGINT(20),
-        gender_id BIGINT(20),
+        age_id BIGINT(20) UNSIGNED,
+        gender_id BIGINT(20) UNSIGNED,
         updated_at DATETIME DEFAULT now(),
         FOREIGN KEY (client_id) REFERENCES user_clients (client_id),
         FOREIGN KEY (age_id) REFERENCES ages (id),
@@ -59,10 +59,10 @@ export const up = async function (db: any): Promise<any> {
       INSERT INTO demographics (client_id, age_id, gender_id)  (
         SELECT user_clients.client_id, ages.id, genders.id
         FROM user_clients
-        LEFT JOIN ages ON ages.age = user_clients.deprecated_age
-        LEFT JOIN genders ON genders.gender = user_clients.deprecated_gender
-        WHERE user_clients.deprecated_age IS NOT NULL
-           OR user_clients.deprecated_gender IS NOT NULL
+        LEFT JOIN ages ON ages.age = TRIM(LOWER(user_clients.deprecated_age))
+        LEFT JOIN genders ON genders.gender = TRIM(LOWER(user_clients.deprecated_gender))
+        WHERE ages.age IS NOT NULL
+           OR genders.gender IS NOT NULL
       );
 
       INSERT INTO clip_demographics (clip_id, demographic_id)  (
