@@ -4967,6 +4967,7 @@ Der Apfel hingegen ist etwas dazwischen.
 Der Apfel spielt in vielen alten und neuen Geschichten eine Rolle.
 Der Appell richtet sich vor allem an die Opposition.
 Der Arme rechnet dem Reichen die Großmut niemals als Tugend an.
+Der Artikel offenbart, dass der Redakteur nichts vom Thema verstanden hat.
 Der Arzt gab mir damals noch fünf Monate.
 Der Arzt setzte seine Brille auf die Nasenspitze und sah Hildegard unheimlich an.
 Der Aufbau eines Iglus ist einfach, aber durchdacht.
@@ -5091,6 +5092,7 @@ Der Ersthelfer steht am Anfang der Rettungskette.
 Der Erzähler machte eine Kunstpause.
 Der Esel nennt sich immer zuerst.
 Der Express-Aufzug hält nicht an jedem Stockwerk.
+Der Fachkräftemangel ist in aller Munde.
 Der Fachkräftemangel ist nur ein Zeichen für die fehlende Zahlungsbereitschaft.
 Der Fahrer bestimmt das Tempo und der Beifahrer die Musik.
 Der Fahrer hat uns im Stich gelassen.
@@ -7576,6 +7578,7 @@ Du gehst rein und sagst ihm, dass du dein Armband wiederhaben willst.
 Du glaubst gar nicht, was Lora alles in ihrem Wanderrucksack verstaut hat.
 Du glaubst gar nicht, wie viele Probleme ich auf diese Weise schon gelöst habe.
 Du hast aber kräftige Arme!
+Du hast beim Sprechen immer solche Aussetzer.
 Du hast da aber ein teures Hobby.
 Du hast das Recht auf freie Meinungsäußerung, aber nicht darauf, dass dir jemand zuhört.
 Du hast den Rennfahrer mit einem rostigen Damenfahrrad überholt?
@@ -9543,6 +9546,7 @@ Es sieht nach Unsinn aus.
 Es sieht nicht gut aus für den Drittligisten.
 Es sieht nicht nur nach Bestechung aus, es ist Bestechung.
 Es sind aber lateinische Buchstaben, nicht etwa griechische.
+Es sind die Touristen, die in den Urlaub fliegen.
 Es sind doch die Motzköpfe die lautesten Schreier.
 Es sind keine Teelöffel mehr da.
 Es sind nur noch Fragmente übrig.
@@ -17801,6 +17805,7 @@ Niemand hat die Absicht, den Küstenwald abzuholzen!
 Niemand hat die Absicht, den kompletten Straßenverkehr zu überwachen!
 Niemand hat die Absicht, eine Mauer zu errichten.
 Niemand hat die Absicht, einen Todesstern zu errichten!
+Niemand hat diese Gewohnheiten willentlich eingeführt.
 Niemand hat so oft mit dem Rauchen aufgehört wie mein Vater.
 Niemand hätte gedacht, dass ein Schwamm der Star aller Kinder werden könnte.
 Niemand interessiert sich für diese blöde Folgemilch.
@@ -18248,6 +18253,7 @@ Oder auch zwei Saxophone.
 Oder beides.
 Oder beteiligen Sie sich an der Entwicklung von freier Software!
 Oder bin ich nur zu blöd, es zu kapieren?
+Oder die Konsumenten, die Weintrauben aus Südafrika und Elektronik aus China kaufen.
 Oder die Warnweste?
 Oder drücken Sie den Reset-Knopf.
 Oder du hast in der Vergangenheit zu wenig getrunken.
@@ -22079,6 +22085,7 @@ Vielleicht wird es gerade so passen.
 Vielleicht zu einer anderen Zeit?
 Vielleicht ändert sie ja ihre Meinung, wenn ich einen Schlager-Hit daraus mache.
 Vielleicht übernehmen Drohnen eines Tages diesen Job.
+Vielmehr haben sie sich als Folge des technischen Fortschritts so ergeben.
 Vielmehr sieht der einstige Branchenprimus seine Felle davonschwimmen.
 Vier Augen sehen mehr als zwei.
 Vier Eisenbahnhochbrücken führen über den Nord-Ostsee-Kanal.
@@ -22354,6 +22361,7 @@ Vorher muss ich noch das Paket zur Postfiliale bringen.
 Vorher müssen wir Sie noch erkennungsdienstlich behandeln.
 Vorher sollte der Akku unbedingt vollständig geladen werden.
 Vorher sollte man nichts gegessen haben.
+Vorher war es nicht möglich und wurde daher nicht gemacht.
 Vorher will ich noch die Zimmerpflanze umtopfen.
 Vorher wollte Laura noch schnell die Festplatte auswechseln.
 Vorher würde ich noch schnell die Kanten schleifen.
@@ -22398,6 +22406,7 @@ Wahrscheinlich ist der Akzent nur aufgesetzt.
 Wahrscheinlich ist er bereits der berühmteste Dirigent der Welt.
 Wahrscheinlich kennen wir alle dieses eine Bild von Albert Einstein.
 Wahrscheinlich liegt es daran, dass vor allem technikbezogene News-Seiten über das Projekt berichten.
+Wahrscheinlich sind die Wissenschaftler an ihm verzweifelt und haben aufgegeben.
 Wahrscheinlich steckt die Mafia dahinter.
 Wahrscheinlich tritt er dann wieder diesem Kegelclub bei oder so.
 Wahrscheinlich war es eher Zeitdruck als Bequemlichkeit.
@@ -24343,6 +24352,7 @@ Wie oft fährt die Stadtbahn in Köln?
 Wie oft hast du dich heute schon umgezogen?
 Wie oft ist der Name Hannah eigentlich in diesem Chat gefallen?
 Wie oft kann man im öffentlichen Dienst befördert werden?
+Wie oft muss ich es noch erklären?
 Wie oft muss man die Blumen gießen?
 Wie oft seid ihr die Strecke abgefahren?
 Wie oft soll ich es noch sagen?

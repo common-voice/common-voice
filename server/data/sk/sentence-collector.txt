@@ -18,6 +18,7 @@ Dá sa zvýšiť rýchlosť a odozva poskytovaných služieb?
 Dátovú infraštruktúru treba doplniť o výkonný a spoľahlivý hardvér.
 Ej bisťu, vieš sa Ty ale valaškou oháňať!
 Elektronické spracovanie údajov nám podstatne uľahčuje prácu a umožňuje nám efektívne pracovať s informáciami.
+Elypsovité náušníky sú uchytené mimo vrcholu, čo posúva náhlavný oblúk výrazne dopredu.
 Flexibilita správy logických diskov s obmedzenou možnosťou zmeny kapacity logických jednotiek.
 Frekvenčné spektrum je zúžené na rozsah ľudského hlasu.
 Funguje veľmi dobre.
@@ -29,13 +30,17 @@ Ich správa je v porovnaní s modernými produktami neporovnateľná.
 Informácie sa stali cennejšími ako zlato.
 Je klimatizovaná viacerými nezávislými klimatizačnými jednotkami.
 Je nevyhnutné udržiavať vyhradený počítač s proprietárnym operačným systémom a starým webovým prehliadačom.
+Je pripevnený k masívnej nohe.
+Keď vás vyrušia, intuitívne si siahnete na ucho.
 Konektory sú pozlátené a na boku majú výrazný prelis.
 Krava sa mi otelila a v maštali už nieto miesta.
 Kvalita izolovania voči vetru je priam rozprávková.
 Kvôli nedostatku vybavenia, sú prevádzkované menej kritické služby aj na starších serveroch.
 Len ak majú splniť požiadavky náročného hráča.
+Len preto aby ste si zložili slúchadlá.
 Len sa mu nevysmievaj aby si sa nesmial naposledy!
 Logické jednotky je možné pohodlne zväčšovať podľa aktuálnej potreby.
+Magnetom je jeho jedinečný mikrofón.
 Má totiž funkciu automatického vypnutia mikrofónu.
 Na jednom fyzickom serveri je prevádzkovaných viac služieb, ktoré zdieľajú ten istý operačný systém.
 Na vnútornej strane sú nahnuté tak, aby vám čo najvernejšie kopírovali ucho.
@@ -45,6 +50,7 @@ Napájanie je zabezpečené primeranou jednotkou nepretržitého napájania, no 
 Nebodaj by si chcela radšej Paľa ako Ďura?
 Nemám na výber.
 Nepretržité napájanie je zabezpečené centrálnym záložným zdrojom.
+Netlačia na temeno ani sa nekĺžu dopredu.
 Nevýhodou môže byť vyššia náročnosť na odbornú správu takéhoto dátového centra.
 Nie je nad uniformnú správu celého serverového vybavenia prostredníctvom vzdialenej konzoly.
 No to som si mohol myslieť, že na Teba nie je spoľah.
@@ -59,6 +65,8 @@ O umiestnení služieb na jednotlivé servery z dôvodu licenčnej politiky dod�
 Obracaj sa gazdiná, kým sa máš pre koho!
 Ohromne návykové!
 On nám pomôže čo najefektívnejšie tieto požiadavky napĺňať.
+Otvorená konštrukcia neposkytuje takú izoláciu od okolitého prostredia ako plne uzavreté slúchadlá.
+Ovládanie hlasitosti je geniálne zabudované do pravej mušle.
 Po pár hodinách nosenia mi to začalo prekážať.
 Posunutie náhlavného oblúku dopredu bol vynikajúci nápad.
 Používateľské rozhranie je závislé na archaickej verzii Javy.
@@ -70,13 +78,16 @@ Preto sme za vás vyskúšali jeden z najlepších.
 Prevádzka jednej zo služieb ovplyvňuje aj ostatné služby bežiace v rovnakom operačnom systéme
 Prevádzkové údaje sú uložene na sieťových úložiskách.
 Pri virtualizovaní je eliminované riziko ovplyvňovania služieb navzájom.
+Približne tromi obrátkami otočného voliča, môžete znížiť hlasitosť na minimum.
 Pridáš sa a či budeš ďalej otáľať?
 Pripojenie do internetu pre študentov a zamestnancov prostredníctvom WiFi a pevného káblového pripojenia.
+Príjemne uľahčuje zasúvanie i vyberanie.
 Prívodný kábel je mimoriadne ľahký a ohybný.
 Pustíme sa do zvyšovania kapacity diskových úložísk a prenosovej kapacity sieťovej infraštruktúry.
 Rameno mikrofónu je presvedčivo robustné.
 Rýchla dostupnosť informácií v správnej forme umožňuje orientovať sa v mimoriadne komplexných problémoch.
 S bežným ruchom si poradil zodpovedne.
+Serverovňa dokáže fungovať bez obsluhy aj pri viac ako dvadsaťštyri hodinovom výpadku napájania.
 Servery, ktoré nie sú súčasťou konkrétnej siete majú smolu.
 Sieťové úložiská a servery majú oddelenú infraštruktúru.
 Slovenčina zatiaľ v zbierke nefiguruje, ale pracuje sa na nej.
@@ -97,7 +108,10 @@ Tomu zodpovedá aj ich cena.
 Treba robiť správne rozhodnutia, ktoré môžu znamenať ekonomickú výhodu.
 Treba vedieť ako ich skĺbiť do jedného komplexne fungujúceho celku.
 Tu ostáva závislosť na dostupnosti konkrétneho hardvéru.
+Tú by mohol zlomiť azda len grobian.
 Umožňuje flexibilitu pri presune služby medzi jednotlivými servermi v prípade údržby hardvéru.
+Už na prvý pohľad vyzerá inak ako sme zvyknutí.
+Už žiadne šmátranie po kábli s posuvným potenciometrom.
 V osobnom živote, ale azda ešte viac v dynamickom kolektíve modernej organizácie.
 V súčasnosti nemáme postačujúcu infraštruktúru.
 Vari by ju aj zmárnil, keby som neorodovala.
@@ -113,7 +127,9 @@ Výpočtový klaster využíva všetky výhody serverovej virtualizácie.
 Výrobca počítal s tým, že ňou budete hýbať niekoľkokrát denne.
 Vďaka tomu slúchadlá na hlave takmer necítite.
 Za touto adresou sa nachádza niekoľko stoviek počítačov.
+Za zváženie stojí či neobetovať skutočne pár eur naviac.
 Za ňu dostanete slúchadlá ktoré splnia vaše požiadavky na výbornú.
+Zamyslene sa pozeral do diaľky.
 Začali ma bolieť uši.
 Zdieľanie diskového priestoru výrazne zefektívňuje jeho využitie.
 Zdroj napájania je v prípade dlhších výpadkov napojený na dieselový generátor.
@@ -125,4 +141,7 @@ Znížením počtu serverov potrebných na prevádzku rovnakého počtu služieb
 Zorientovať sa v ponuke nie je nič jednoduché.
 Zvuk slúchadiel je mimoriadne vyvážený a reálny.
 Zároveň výrazne zvyšujeme dostupnosť služieb minimalizovaním výpadkov, spojených s údržbou.
+Čudoval som sa, prečo teda počujem svoj dych?
 Ďatelinku som pokosil, teraz mi treba iné obrábať.
+Špagátovitý káblik má tri metre a vďaka jeho ľahkosti ho takmer vôbec necítite.
+Že volič nejde až do nuly hodnotím pozitívne.

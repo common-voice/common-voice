@@ -369,6 +369,7 @@ A comissária de bordo piscou para o passageiro desagradável sentado ao meu lad
 A composição do tribunal tenderá à paridade entre mulheres e homens.
 A comunicação não verbal é, por vezes, mais significativa do que as palavras faladas.
 A condenação é menos temível e mais segura.
+A condição está piorando
 A constituição de seu apartamento não era ideal.
 A conta foi encerrada.
 A contribuição média anual nessa localidade é setenta hectómetros cúbicos.
@@ -400,6 +401,7 @@ A diferença não é tão grande quanto você pensa.
 A dificuldade real é saber quais são esses objetos.
 A distância de outras fazendas dedicadas à mesma atividade é de quinhentos metros.
 A divisão digital não termina quando as pessoas estão conectadas à Internet.
+A doce primavera no deserto também é consumida
 A documentação do Keras está disponível em japonês.
 A doença que cura o sono, doença do vinho.
 A donzela do comum não paga ninguém.
@@ -429,8 +431,10 @@ A espada não caiu.
 A espada permaneceu onde estava.
 A esperança tem um fundo profundo.
 A esta hora da manhã?
+A estação enfileirou um ingresso
 A estrada era tão íngreme que o motoqueiro teve que mudar algumas marchas.
 A estrada larga brilhou sob o sol quente.
+A estratégia e competitividade do espelho
 A estrutura tagarelou durante todo o terremoto.
 A execução foi cancelada.
 A exibição estava abaixo do esperado.
@@ -459,6 +463,7 @@ A fim de fazer um efeito legal e deslumbrante
 A fita vermelha ligava a comida contrabandeada.
 A flor caída não retorna mais ao ramo.
 A floresta era completamente verde.
+A fofoca acabou, comece!
 A fofoca está terminada, abra a honra!
 A folha embaralhada serve como nova.
 A fome é boa mostarda - o melhor molho
@@ -506,6 +511,7 @@ A hera subiu o prédio e se enrolou na chaminé.
 A história da cidade começa há alguns milhares de anos.
 A história do Brasil é antiga.
 A história nos ensina que os humanos não aprendem da história.
+A história se passa na aldeia simples de Yunlin
 A história é meu assunto favorito.
 A honestidade é a melhor política.
 A hospitalidade era boa.
@@ -696,6 +702,8 @@ A perdiz cansada é mais delicada.
 A pesquisa estava em progresso.
 A pessoa de capuz vermelho salta da pilha de pedras.
 A pessoa está construindo o trabalho.
+A pessoa que toma a decisão ainda é você mesmo
+A pessoa é diretamente liquidada naquele dia.
 A peça começou assim que nos sentamos.
 A pilha de moedas era maior que a cesta de frutas.
 A piscina estava cheia de cloro.
@@ -837,6 +845,7 @@ A vida começa aos quarenta anos.
 A vida da cidade é muito conveniente
 A vida na encruzilhada é tão frágil
 A vida não é muito rica
+A vida é a vida de uma pessoa
 A vida é como ser um grupo de fraudes
 A vida é como um flash; ambos passam rapidamente.
 A vida é uma boa professora que merece um bom salário.
@@ -878,6 +887,7 @@ Abra o explorador de arquivos.
 Abra o firefox.
 Abra o navegador.
 Abra o pacote
+Abra para a estação, tenha um assento
 Abra um nova aba para este processo.
 Abra um terminal e execute um programa.
 Abra uma nova aba.
@@ -1055,6 +1065,8 @@ Ainda há tantas pessoas como nos dias anteriores, isto é, ninguém.
 Ainda há uma chance tão grande de ser eliminada
 Ainda há uma espécie de clima de lazer
 Ainda me lembro quando era criança.
+Ainda muito bom em Taipei
+Ainda muito frio
 Ainda na pesquisa
 Ainda não está nervoso
 Ainda não ganhei minhas asas.
@@ -1093,6 +1105,7 @@ Ajude todos em inglês a entrar
 Ajude-me a encontrá-los.
 Ajude-me!
 Ajudou o Dr. Chen a escolher uma flor na lapela
+Ajudou por três dias
 Ajuste o alarme para as sete horas.
 Alabama, Montgomery.
 Albert Einstein foi um físico alemão que desenvolveu a Teoria da Relatividade.
@@ -1163,6 +1176,7 @@ Alguém está pegando papel higiênico e pegando uma briga
 Alguém está pintando uma parede lá fora.
 Alguém falou com você sobre isso?
 Alguém havia devolvido meu cartão de crédito perdido ao banco.
+Alguém já cortou hoje?
 Alguém lavando pratos com luvas de látex em uma pia de metal.
 Alguém nos cortou!
 Alguém pode atender o telefone?
@@ -1209,8 +1223,10 @@ Amanhã é um novo começo
 Amanhã é um novo dia.
 Amanhã? vende o seu camelo e compra um cavalo.
 Amarrado afetando a circulação sanguínea
+Amarrado como um elástico
 Ambas as experiências reais e eventos imaginários podem ser narrados.
 Ambas as representações podem ser assistidas por conselheiros com voz, mas sem voto.
+Ambiente de ensino e aprendizagem seguro e protegido
 Ambiente de trabalho mais amigável
 Ambos eram brasileiros.
 Ambos eram espertos demais para nós!
@@ -1242,6 +1258,7 @@ Ande na grama em meus pés descalços?
 Angela está grávida? ela me disse.
 Angela queria copiar tudo o que ele havia feito.
 Aniversário de uma pessoa
+Ano Novo Lunar é o festival mais importante em ambos os lados do estreito
 Ano chuvoso, agricultor feliz.
 Ano de cogumelos, ano de resfriados.
 Ano dos cogumelos, ano das castanhas.
@@ -1302,7 +1319,9 @@ Apenas diga a eles que Marge te enviou.
 Apenas em nossa loja no andar de cima
 Apenas em pé em silêncio
 Apenas encontrando turbulência
+Apenas espere a notícia sair
 Apenas espere o feriado.
+Apenas espere que as notícias tenham um grande lucro.
 Apenas indo dormir no quarto
 Apenas lidar com eles o fez se sentir melhor.
 Apenas lágrimas silenciosas
@@ -1329,6 +1348,7 @@ Apenas tu e eu.
 Apenas um compartimento está sobrecarregado
 Apenas um pedaço de vidro frágil
 Apenas um pouco ocupado recentemente
+Apenas um pouco preocupado com você
 Apenas um terço do lixo está sendo reciclado neste país.
 Apenas uma burocracia inchada
 Apenas use o telefone.
@@ -1453,6 +1473,7 @@ As estrelas são brancas.
 As estrelas são sóis.
 As explicações não eram boas.
 As explicações são ilógicas e confusas.
+As expressões que estão conectadas ao sono estão todas rindo.
 As famílias estarão aqui em breve.
 As festas de Páscoa e Natal serão consideradas o dia trabalhado.
 As festas, para muitos, são pragas.
@@ -1811,9 +1832,11 @@ Cada um sabe melhor onde o sapato o aperta.
 Cadeiras de garçom são usadas para cair
 Café da manhã no café da manhã de amanhã
 Café e lanche
+Café é bom, lanches são deliciosos.
 Caindo no chão com uma bengala
 Caiu à tarde.
 Caixa de dois homens.
+Calculado por posição relativa
 Calcule a proporção de transmissão nos casos, quando apropriado.
 Calibração completa.
 Camas? praias? e gramados são bons para leitura.
@@ -1824,6 +1847,7 @@ Caminhou três quilômetros até chegar
 Caminhávamos devagar, quando fomos surpreendidos por você
 Campeonatos mundiais de futebol.
 Campo de estudo de filosofia.
+Campo de melhoria agrícola
 Canadá, México e Uruguai.
 Canal e Armazém de Otaru
 Candidate-se a uma estadia de bebê e deixe a folha de pagamento
@@ -1934,6 +1958,8 @@ Cheia de amor e união
 Cheio de pensar nas possibilidades
 Cheque de autoridade empresarial de propósito central
 China tem liberdade e democracia
+Chineses em outras partes do mundo
+Chineses estão esperando pelo carro
 Chris disse que Lisa fez isso, mas eu não confio nele.
 Chupou suas duas bofetadas
 Chuva no final de setembro, em outubro de plantio de cogumelos.
@@ -1982,6 +2008,7 @@ Claro que é.
 Claro que? volto já.
 Claro, sempre há tudo.
 Claro? os dois não conseguiram fazer nada.
+Classificação de classe não é alta
 Classifique esta saga em dois de seis.
 Classifique o ensaio atual em três dos seis pontos.
 Classifique o livro atual como zero
@@ -2080,6 +2107,7 @@ Como ela era?
 Como ela está em casa?
 Como ela parecia?
 Como ela é?
+Como ele está?
 Como ele parecia?
 Como ele poderia ser falso?
 Como ele é?
@@ -2104,6 +2132,7 @@ Como foi seu dia
 Como isso aconteceu?
 Como isso afeta você?
 Como isso pode ser resolvido separadamente?
+Como isso poderia ser?
 Como isso pôde acontecer?
 Como isso será causado por atrasos?
 Como me sinto?
@@ -2213,6 +2242,7 @@ Completar objetivos desbloqueará novas skins e habilidades.
 Completo em tons frios
 Completou esta pintura
 Composição simples
+Compra de bilhetes que não são garantidos pela fatura correspondente não serão aceitos.
 Compra de ingressos no local
 Compra e venda é muito rentável
 Compradores em uma loja de discos.
@@ -2250,6 +2280,7 @@ Confirme conosco onde ir
 Confirme também o ônibus
 Confrontada com a escolha entre cappuccino e espresso, ela se decidiu por um americano.
 Confrontada com uma escolha entre cappuccino e café expresso, ela optou por um americano.
+Confrontado com questões importantes quando confuso
 Conhecemos Alexander e o bar e nos divertimos muito na noite passada.
 Conhecendo a realidade.
 Conhecimento é melhor que riquezas
@@ -2278,6 +2309,7 @@ Contando a nostalgia por décadas
 Contanto que a área seja grande o suficiente, você pode vir.
 Conte me mais sobre isso.
 Conte suas experiências.
+Conte uma piada para você
 Contexto é necessário.
 Conteúdo sugerido pelo algoritmo.
 Continua...
@@ -2288,7 +2320,9 @@ Continue a inventariar edifícios perigosos
 Continue em frente
 Continue estudos inacabados
 Continue pedindo dinheiro emprestado às pessoas da aldeia
+Continue subindo
 Continue tentando.
+Continue tirando fotos e brincando com a neve
 Continuem?
 Contornos de pessoas olhando em casos de vidro que estão alinhando a passarela.
 Contrata dois personal trainers e faz um deles treinar o outro.
@@ -2314,6 +2348,7 @@ Coração de ouro
 Cordeiro assado está cheio
 Coro da sociedade harmônica.
 Corpo de bombeiros realizando um resgate.
+Corporação de Construção e Desenvolvimento
 Corporação de mídia nova
 Corra para a grande loja para descansar
 Corra para a rua comercial
@@ -2361,6 +2396,7 @@ Crianças na escola tirando uma foto com seu professor.
 Crianças perseguindo a bola em um jogo de futebol.
 Crianças praticando artes marciais em um dojo? enquanto membros mais velhos observam.
 Crianças pulando em poças.
+Criar um assentamento industrial estatal
 Criação frequentemente relacionada
 Criação moderna hoje
 Crie produtos exclusivos com ferramentas digitais e plataformas de conhecimento
@@ -2389,6 +2425,7 @@ Cultura pop popular
 Cumprimente os novos convidados e saia rapidamente.
 Cursor branco na tela pisca brilho
 Cursos diferentes para diferentes pessoas.
+Cursos regulares de treinamento educacional
 Câmeras de vigilância foram montadas para permitir que a polícia encontrasse atividades suspeitas.
 Cânhamo é uma erva daninha encontrada em partes dos trópicos.
 Cães correndo ao redor de uma pista
@@ -2409,6 +2446,7 @@ Da mesma forma, municípios limítrofes têm abundantes terras industriais dispo
 Da mesma forma, uma patente pode impedir que concorrentes desenvolvam produtos similares.
 Da mesma maneira que você fez.
 Da próxima vez que chover, por favor me ligue.
+Da véspera de Ano Novo ao Festival das Lanternas
 Dado apenas a chave pública?, é muito difícil calcular a chave privada.
 Dado o grau de antropização, as espécies encontradas são geralmente de ampla distribuição cronológica.
 Dano sofrido faz você saber, mas raramente rico.
@@ -2430,6 +2468,7 @@ De alguma forma,? os parágrafos se embaçaram.
 De fato
 De fato, essa visão ainda está presente em muitos materiais de ensino desatualizados.
 De fato, foi a inexistência desses controles que tornou isso possível.
+De jeito nenhum com minha habilidade
 De lá,? ele pôde ver a África à distância.
 De maneira nenhuma
 De nada.
@@ -2463,6 +2502,7 @@ De unidade e uniformidade, não havia lugar nenhum.
 De volta ao nosso plano original? eu acho.
 De volta ao renascimento
 De volta para você.
+De volta à escola é realmente interessante
 Debaixo do chão havia um mundo desconhecido por qualquer humano.
 Debater e votar a validação ou revogação do decreto-lei.
 Decepção psicológica
@@ -2504,6 +2544,7 @@ Deixe-me tentar!
 Deixe-me ter a mesa.
 Deixe-me tocar em você!
 Deixe-me ver seu ingresso.
+Deixe-o correr, ele vai parar.
 Deixe-o decidir por si mesmo
 Deixe-o saber que ele está discutindo
 Deixe-o ter tudo o que ele quer.
@@ -2514,6 +2555,8 @@ Deixou um rastro esverdeado que brilhou por alguns segundos.
 Delinear a ocorrência e mudanças
 Delitos de tráfico que constituem um crime.
 Demais!
+Demanda por todas as etapas das pessoas ou negócios
+Demasiado carboidrato
 Demolição da recusa de destruir a polícia
 Demora duas horas para treinar este modelo.
 Demorou algum tempo para ele acordar completamente.
@@ -2540,10 +2583,12 @@ Depois de terminar o assunto
 Depois de todo o giro ter parado? Megan se sentiu melhor.
 Depois de um ano de tratamento
 Depois de uma escada rolante
+Depois de visitar o armazém e o canal
 Depois de vários meses de negociações, a Eleven Sports chegou a um acordo.
 Depois disso, não há mais
 Depois do jantar, descanse um pouco, depois do jantar, ande uma milha.
 Depois ela aprendeu
+Depois que a locomotiva mudou a bateria
 Depois que as crianças frequentaram a escola
 Depois que ele passou pelo Vale do Rift Leste
 Depois que o jantar descanse um tempo? depois da ceia caminhe uma milha.
@@ -2577,7 +2622,9 @@ Desculpas por não ligar de volta. Acabei de trabalhar.
 Desculpe por interromper sua palestra?, senhor Edward.
 Desculpe, eu fui enganado.
 Desculpe, eu não consegui!
+Desculpe, eu não te contei primeiro.
 Desculpe, mas sou alérgico a isso.
+Desculpe, não consigo me lembrar disso.
 Desculpe, o período de teste expirou.
 Desculpe-me!
 Desculpe-me?, onde posso encontrar alguns livros contábeis para pedir emprestado?
@@ -2623,6 +2670,7 @@ Desça para jantar este minuto.
 Determine se esta carta é importante
 Deu um ao outro
 Deu um grito peculiarmente agudo.
+Deus abençoe
 Deus abençoou Hualien
 Deus ajuda quem cedo madruga.
 Deus dá alfarrobas àqueles que não podem enferrujá-los.
@@ -2702,6 +2750,7 @@ Dinheiro faz dinheiro
 Direcione o setor criativo
 Diretor disse que ele foi forçado
 Diretrizes na vida
+Direção geral da política
 Dirigir é uma tarefa que requer foco.
 Dirija o parafuso diretamente para a madeira.
 Discussão e propostas para discussão subseqüente na Wikipedia.
@@ -3067,6 +3116,7 @@ Duas pessoas jogando um intenso jogo de beisebol ao ar livre.
 Duas pessoas perseguindo borboletas e pegando elas.
 Duas pessoas pintando uma parede de tijolos.
 Duas pessoas recriando uma luta medieval.
+Duas pessoas se abraçam em silêncio
 Duas pessoas sentadas em frente e interessante edifício segurando uma garrafa de vidro transparente.
 Duas pessoas sentadas em uma pedra em um parque da cidade.
 Duas pessoas sentam-se com um chapéu vermelho entre eles.
@@ -3416,6 +3466,7 @@ Ela não pode sobreviver um dia sem ter um kebab.
 Ela não procura por ninguém diferente de nós.
 Ela não respondeu nada.
 Ela não respondeu.
+Ela não suporta o corpo e despeja-o para trás
 Ela não tem tempo para reagir
 Ela não tinha temperatura.
 Ela não tinha um.
@@ -3456,6 +3507,7 @@ Ela se retirou para um grande sofá confortável no canto do corredor.
 Ela se sentia como uma fraca em comparação com sua filha recém-nascida.
 Ela se sentou no chão tomando seu café.
 Ela sempre foi muito gentil e amigável com todos os estranhos.
+Ela sempre puxa as roupas dele
 Ela sente dor no abdômen
 Ela sente muito por ele.
 Ela sorriu
@@ -3742,6 +3794,7 @@ Ele perguntou por ele.
 Ele poderia vender as pedras e comprar uma passagem de volta.
 Ele podia ver que o velho queria saber mais sobre sua vida.
 Ele possuía a verdade e não podia viver com o cego do espírito.
+Ele precisa decidir onde ele quer ir.
 Ele precisava de alguém com quem conversar para evitar pensar na possibilidade de guerra.
 Ele preferia química a matemática
 Ele preparou um sanduíche e bebeu chá quente de um copo de cristal.
@@ -3879,8 +3932,10 @@ Eles descobriram que não havia insetos no inverno.
 Eles desmontaram? e o alquimista não disse nada.
 Eles devem indicar o ambiente de desenvolvimento, o sistema e as comunicações que preferirem.
 Eles devem sair imediatamente.
+Eles devem ter um jeito
 Eles dinamitaram uma montanha inteira.
 Eles disseram que não
+Eles disseram que os membros presentes estão dormindo.
 Eles dizem que isso não é bom.
 Eles dizem que é falso!
 Eles encheram três sacos.
@@ -3956,6 +4011,7 @@ Eles não podem se ajudar.
 Eles não são meus filhos.
 Eles não são terrivelmente exigentes.
 Eles não tinham guitarras de que você gostasse?
+Eles não vão salvar o desastre
 Eles não vêem que os campos são novos e as estações mudam.
 Eles o lembraram do velho.
 Eles ouviram as pessoas andando na rua.
@@ -3979,9 +4035,11 @@ Eles representam milhões de eleitores!
 Eles sabem que foi um acidente.
 Eles saíram
 Eles se acostumaram com meu afastamento? e eu também.
+Eles se casaram no ano passado
 Eles se conheceram através de mensagens de vídeo on-line.
 Eles se encontraram com um monte de gente no bar.
 Eles se estabeleceram por enquanto
+Eles se preparam silenciosamente para o rescaldo
 Eles se reúnem
 Eles se sentiram alegres quando o navio chegou no porto.
 Eles se tornam parte de tudo...
@@ -4055,6 +4113,7 @@ Em caso de adoção permanente, a validade será até os dezoito anos.
 Em caso de empate, o mais velho será escolhido.
 Em caso de transferência bancária, o recebimento da transação deve ser anexado à solicitação.
 Em certos lugares, não.
+Em consonância com o estilo industrial da cidade de Taipei
 Em duas horas haverá um debate.
 Em estilo siciliano
 Em fevereiro, um pouco ao sol e outro no cemitério.
@@ -4127,7 +4186,9 @@ Emprego empresarial subsidiado
 Empregos cheios de perspectivas de emprego
 Empresa de catering
 Empresa de eletrônicos
+Empresas de tecnologia estão fechando
 Emprestar dinheiro dos vizinhos
+Empresário pega boas mercadorias
 Empresários e funcionários ainda discutem as metas para esse ano.
 Empréstimo sob o teto dos outros
 Emulação de sistema.
@@ -4179,6 +4240,7 @@ Engenharia atual na área
 Enguia de vidro está no menu hoje?, mas é muito caro.
 Enquanto Jennifer caminhava pelo corredor, ela se perguntou se tinha cometido um erro.
 Enquanto a limeira está florescendo, não falta abelhas.
+Enquanto ajuda a comprar e vender na loja
 Enquanto ele estava sentado lá pensando que? ele sentiu o movimento acima dele.
 Enquanto eles procuravam a loja juntos.
 Enquanto há vida, há esperança.
@@ -4319,6 +4381,7 @@ Equipe de busca e resgate de vários municípios e cidades
 Equipe de construção aguarda passagem pelos portões de um canteiro de obras.
 Equipe do ballet do homem e das mulheres durante um desempenho no estágio.
 Equivalente de mão de obra
+Equivocadamente comprou um cupom de transferência
 Era a hora do dia em que toda a Espanha dormia durante o verão.
 Era a luz das estrelas? e eu expliquei os Signos do Zodíaco para ela.
 Era como eletricidade em suas veias.
@@ -4349,6 +4412,7 @@ Era uma forma oblonga.
 Era uma tenda como muitos no oásis.
 Era?, no entanto? ainda estava tão quente de seu voo pelo ar.
 Eram quase duas mil léguas submarinas
+Errado olhando para a porta aberta
 Errar é humano, perdoar é divino.
 Erro de previsão
 Esboçando no final da Austrália
@@ -4362,6 +4426,7 @@ Escolha um mapa e coloque-o debaixo de um tapete.
 Escolha uma loja que seja certificada por um vendedor seguro
 Escolhemos uma topologia de toro para nossa rede.
 Escolta.
+Esconder loja
 Escorra bem, despeje a farinha e frite em óleo quente, na lateral da pele.
 Escreva uma nota para o amigo que você ama.
 Escrevendo, a melhor memória.
@@ -4379,11 +4444,14 @@ Espaço de criação auto-criado
 Espaço infinito
 Especialista em consultoria
 Especialmente participando da tarde
+Espera-se expandir os encargos no futuro
 Esperamos que mais de trinta mil pessoas participem.
 Esperando na fila em Taiwan
 Esperando por décadas
 Esperando por isso
 Esperando por nós
+Esperando por você por décadas
+Esperança não é apenas um esforço unilateral
 Esperar para ouvir a mãe da garota no rádio seria o melhor.
 Esperar por isso não vai doer.
 Espere até chegarmos em casa.
@@ -4401,6 +4469,7 @@ Espere um segundo.
 Espero abrir oportunidades de negócios no exterior
 Espero apresentar o poder do povo
 Espero dar espaço para isso.
+Espero escrever sua história.
 Espero que durma bem
 Espero que ele cresça para se parecer com você.
 Espero que ele possa mudar de ideia.
@@ -4615,6 +4684,7 @@ Estava pensando em compor a foto com uma frase
 Estava tão camuflado que ninguém suspeitaria de sua presença.
 Estava vazio.
 Estavam alinhados em fila dupla
+Estação de serviço de emprego Beitou
 Este anel tem um significado maior
 Este ano também coopera com a era digital
 Este ano vamos viajar pelos trópicos.
@@ -4840,6 +4910,8 @@ Eu caí em um poço e foi horrível.
 Eu chamei Benjamin.
 Eu cobrirei o método que uso e descreverei algumas alternativas.
 Eu colei de volta.
+Eu comecei a correr no ginásio na semana passada.
+Eu comecei a cozinhar depois que cheguei em casa.
 Eu comecei sozinho em casa na oficina.
 Eu começo a ver.
 Eu comprei mais de trinta vieiras
@@ -4967,18 +5039,22 @@ Eu estou no rosa da condição.
 Eu estou no trabalho!
 Eu estou ouvindo você!
 Eu estou procurando a possibilidade de saltar.
+Eu estou procurando por isso.
 Eu estou seguindo meu destino.
 Eu estou te implorando.
 Eu estou trabalhando em um barco de gado.
 Eu estou tão feliz.
 Eu estudei C na universidade.
+Eu exausto todos os métodos e não posso fazê-la melhor.
 Eu exportei o modelo no formato json.
 Eu faria se achasse que eu ouviria alguma coisa que valesse a pena ouvir.
 Eu faço o melhor que posso para ajudar.
 Eu ficarei aqui por mim durante este tempo.
 Eu fico mais chutando dessa maneira.
 Eu finalmente comprei um jato particular.
+Eu finalmente consegui hoje.
 Eu finalmente fui sozinha e voltei esta manhã me sentindo feliz e revigorada.
+Eu finalmente te vi.
 Eu finalmente tenho dinheiro suficiente? e todo o tempo que preciso.
 Eu fiquei bêbado ontem e pensei que eu construí um super computador.
 Eu fiz
@@ -5043,6 +5119,7 @@ Eu já tenho contramedidas
 Eu já tinha lambido minha perna três vezes na noite passada.
 Eu já vi caras como você passar antes.
 Eu leio poemas do Castro Alves de vez em quando.
+Eu levantei
 Eu lhe disse que Baldwin estava com problemas.
 Eu lhe disse que não posso mais usar sua coluna.
 Eu li três anos de lixo escolar.
@@ -5188,6 +5265,7 @@ Eu não posso falar por um tempo.
 Eu não posso fazer isso.
 Eu não posso fazer mais.
 Eu não posso imaginar porque estou com medo
+Eu não posso mais ajudar.
 Eu não posso mais comer isso.
 Eu não posso mais pensar.
 Eu não posso responder a este movimento repentino.
@@ -5310,6 +5388,7 @@ Eu pensei que era Peter Parker.
 Eu pensei que era um ônibus.
 Eu pensei que era uma grande chuva
 Eu pensei que esta noite eu teria colocado a Srta. Kelly lá.
+Eu pensei que estava chegando.
 Eu pensei que estava sendo inteligente.
 Eu pensei que não havia eletricidade.
 Eu pensei que o assento livre não teria assento.
@@ -5344,6 +5423,7 @@ Eu posso estar errado, mas está em algum lugar nessa região.
 Eu posso explicar se você apenas escutar.
 Eu posso falar com meu advogado.
 Eu posso marcar uma consulta.
+Eu posso ouvir você devagar.
 Eu posso ser capaz de trabalhar com isso.
 Eu posso ter dormido demais.
 Eu posso ter que vir amanhã.
@@ -5379,6 +5459,7 @@ Eu quase esqueci minha bolsa da câmera.
 Eu quase me esqueci depois de comer.
 Eu queimei a omelete.
 Eu queria dormir um pouco mais? ele pensou.
+Eu queria ir ao McDonald's.
 Eu queria que eles fizessem parte de sua herança.
 Eu queria que fosse tão simples assim.
 Eu queria que você me deixasse te ajudar.
@@ -5418,6 +5499,7 @@ Eu quero ouvir o Electroclash
 Eu quero ouvir o álbum Live In Munich de Laura Love.
 Eu quero ouvir o álbum Picchio Dal Pozzo de Con Hunley
 Eu quero passar o Natal na Califórnia com minha família.
+Eu quero pedir a ela para ir para a água quente.
 Eu quero pedir toalhas do hotel.
 Eu quero pedir um aumento.
 Eu quero perguntar a ele cara a cara.
@@ -5469,6 +5551,7 @@ Eu realmente sinto que esse comportamento é estúpido.
 Eu recebo trinta dólares por semana.
 Eu recomendaria fazê-lo antes de você ficar velho demais.
 Eu recomendo Mouseless Browsing para Firefox e Vimium para Chrome.
+Eu recomendo aos meus colegas aqui.
 Eu recomendo que você tente primeiro para ver se funciona para você.
 Eu recuperei a colheita com um palete.
 Eu respirei profundamente.
@@ -5478,6 +5561,7 @@ Eu sabia que se estivesse me afogando, você tentaria me salvar.
 Eu sabia que você acordaria mais cedo ou mais tarde!
 Eu sabia que você viria.
 Eu segurei o movimento do Sr. Potter.
+Eu sei antes de comprar.
 Eu sei aprender
 Eu sei como eles se sentem.
 Eu sei de uma maneira que você pode fazer isso.
@@ -5524,6 +5608,7 @@ Eu sonhei que eu era seu pai.
 Eu sou alérgico à penicilina.
 Eu sou apenas seu pequeno colecionador de aluguel.
 Eu sou apenas um idiota.
+Eu sou apenas uma filha serva.
 Eu sou apenas uma pessoa comum
 Eu sou como alguém que foi esquecido pelo mundo.
 Eu sou criança
@@ -5599,6 +5684,7 @@ Eu tenho muita coisa em mente.
 Eu tenho o dinheiro que preciso para comprar minhas ovelhas.
 Eu tenho pernas macias.
 Eu tenho procurado por toda a cidade tentando encontrar você.
+Eu tenho procurado por você há muito tempo.
 Eu tenho que admitir que meu horizonte se expandiu exponencialmente.
 Eu tenho que começar minha entrevista.
 Eu tenho que decorar minha árvore.
@@ -5661,6 +5747,7 @@ Eu vendi cristal e atravessei o deserto.
 Eu vi Louis no outro dia? ele estava super preocupado com você.
 Eu vi Louis outro dia, ele estava super preocupado com você.
 Eu vi Morse e entrei.
+Eu vi algumas espigas de trigo particularmente grandes e esplêndidas.
 Eu vi ele entender.
 Eu vi isso uma vez antes.
 Eu vi muitos anúncios cobrindo este site.
@@ -5764,6 +5851,7 @@ Existem apenas oito bandeiras lá em cima agora.
 Existem bons trabalhadores e poucos inventores.
 Existem dois desafios.
 Existem dois rios
+Existem duas pessoas vendendo produtos
 Existem estrelas brilhantes no céu
 Existem inúmeras coisas maravilhosas por trás de todos.
 Existem milhões de maneiras.
@@ -5786,10 +5874,13 @@ Exportar este arquivo.
 Expressar a opinião de que a área não está desenvolvida
 Expresso no momento do discurso
 Extraia os dados relevantes e veja se ele corresponde às nossas estatísticas.
+Exército nacional totalmente mobilizado alívio de desastres
 Fabricado em Taiwan.
 Facebook coleta dados sobre não membros.
 Fala sério!
+Falando gradualmente
 Falar sem pensar é atirar sem mirar.
+Fale com eles sobre as condições
 Fale comigo sobre isso.
 Fale mais alto, por favor
 Falsos amigos são piores que inimigos abertos.
@@ -5875,6 +5966,7 @@ Fim de tempo
 Finalmente ainda não
 Finalmente aliviado
 Finalmente chegou às dez horas
+Finalmente eles chegaram na entrada do hospital
 Finalmente o upload está completo
 Finalmente o? instala o Dragonfly? uma interface Python mais limpa para o NatLink.
 Finalmente tenho oito horas
@@ -5894,6 +5986,7 @@ Fique com seus clubes.
 Fique ligado!
 Fique muito feliz
 Fique no seu próprio círculo pequeno
+Fique saudável assim que o tomar
 Fiquei chocado com o que você disse
 Fiquei desapontado com este volume inanimado.
 Fiquei profundamente impressionado com esta pintura.
@@ -5986,6 +6079,7 @@ Forma de resolução
 Fornecer cobertura para todos os atos e serviços que a corporação organiza ou exige.
 Fornecer serviço satisfatório e móvel
 Fornecer serviços diversificados e ricos
+Fornecer um ambiente de incubação de qualidade
 Fornecer uma variedade de atividades recreativas
 Fornecimento e instalação de um sistema de guia de áudio.
 Forneça informações relacionadas profissionais
@@ -6064,6 +6158,7 @@ Gestão de fundos e outras tecnologias
 Girafas são vegetarianas.
 Goiaba sem sementes
 Goku possui apenas o poder do protagonismo.
+Google vai para baixo
 Gostaria de encontrar o trailer de uma experiência com o tempo
 Gostaria de estudar em Stanford?
 Gosto de estudar física ao invés de história.
@@ -6106,6 +6201,7 @@ Grupo de pessoas, iluminado por luz de lanterna de óleo macio.
 Grátis é a palavra mágica que todos gostamos de ouvir.
 Guarda florestal Dave cita um carro por não ter uma placa no local adequado
 Guarda-chuvas e lixo sentado em um quarto bagunçado
+Guarde a jaqueta usada em seu corpo
 Guarde isso para o Tribune.
 Guaxinins são mamíferos também.
 Guerra ama sangue.
@@ -6157,6 +6253,7 @@ Hoje vai ser um longo dia.
 Hoje vem que a nossa festa.
 Hoje à noite? eles descobririam a verdade.
 Hoje é terça-feira.
+Hoje é uma ação corretiva
 Hoje é véspera de ano novo
 Hoje, as pessoas da cidade são muito gratas por esse fato.
 Hoje, o debate sobre o papel das tecnologias está definitivamente consolidado na agenda internacional.
@@ -6218,6 +6315,7 @@ Homens usando capacetes e coletes de segurança estão trabalhando.
 Honesto Ahmed não convenceu os desenvolvedores.
 Hong Kong é muito ventoso
 Honrar vem com sofrimento.
+Hospedagem de grandes estágios e feiras de emprego
 Hospital de Taipei
 Houve incêndios em dois mil anos.
 Houve muita dor
@@ -6331,6 +6429,7 @@ Impressionante
 Inadvertidamente
 Incapaz de se livrar do triste destino
 Incapaz de ser verdadeiramente independente
+Incerto esperando para pagar
 Inclinação do sol
 Inclui corretores em catalão, espanhol, francês e inglês.
 Inconveniência, por favor, me perdoe
@@ -6340,6 +6439,7 @@ Indo bêbado e certo, isso não pode ser.
 Indo duas vezes
 Indo para a casa do meu tio
 Indo para a cozinha
+Indo para comer de manhã
 Indo para frente ou para trás?
 Indo para o país para cozinhar arroz
 Indo para o próximo milênio
@@ -6382,6 +6482,7 @@ Introdução à equipe da exposição
 Intuição
 Inunde os emails com pedidos para este livro.
 Invadir o Yuan Legislativo
+Inventário abrangente de habitats de vaga-lumes
 Inútil como uma porta de tela em um submarino.
 Ir ao Museu da Cerveja de Sapporo
 Ir para Mick Fleetwood no meu Vimeo
@@ -6717,9 +6818,11 @@ Lucca é um grande cara? sempre lá para você quando você precisar dele.
 Lucy é uma jornalista.
 Luke? Eu sou sua irmã!
 Lula é deliciosa
+Lutando contra brinquedos elétricos ilegais
 Lá embaixo, na escuridão, havia centenas de pessoas que dormiam em paz.
 Lá está ele no jardim municipal da grande capital do vinho.
 Lá vai outra moça esfoladora.
+Lá você pode aprender muito a partir daí.
 Lágrimas infreqüentes
 Lápis abaixo do tempo de? acabou.
 Lápis para baixo, o tempo acabou.
@@ -6749,6 +6852,7 @@ Mais poderoso que nós
 Mais pressa menos velocidade
 Mais tarde descobriu que o pessoal de serviço é taiwanês
 Mais tarde ele concordou
+Mais tarde ele correu para bater em suas duas bofetadas
 Mais tarde ele deu à luz a sua filha.
 Mais tarde ele foi adiado pela Dinamarca.
 Mais tarde mudaram-se para a Rua Sanjin
@@ -6798,6 +6902,7 @@ Marque o local com uma placa pintada de vermelho.
 Marte é quase inabitável.
 Marte, o Planeta Vermelho.
 Marty ajudou a capturar a ponte Remagen.
+Mas a barriga está gritando
 Mas a cada semana eu ficava mais e mais rápido.
 Mas achei difícil chegar ao trabalho por causa das investigações.
 Mas acho que é difícil descrever
@@ -6878,6 +6983,7 @@ Mas eu tive que fazer isso.
 Mas eu vou fazer você e Maria uma proposta de negócios.
 Mas existe uma regra
 Mas finalmente o comerciante apareceu? e pediu ao menino para cortar quatro ovelhas.
+Mas fique por uma hora
 Mas foi o que eles me deram.
 Mas havia alguns deles que demoraram um pouco mais para despertar.
 Mas há também uma razão social.
@@ -6938,6 +7044,7 @@ Mas porque não há tempo suficiente
 Mas qual o custo do software necessário para que essa fratura não ocorra?
 Mas quando os viu caídos no chão, outra frase lhe veio à mente.
 Mas quem poderia imaginar que o homem se atreve tanto?
+Mas recebi um telefonema do meu pai.
 Mas recentemente, a visão foi substituída por uma explicação mais detalhada.
 Mas requer uma estação na frente da barra quadrada.
 Mas se você tiver que ir antes, o? continuará em busca do seu sonho.
@@ -6969,6 +7076,7 @@ Mas você tem que me deixar em paz.
 Mas você vai amar ela? e ela vai devolver o seu amor.
 Mas é a capacidade de completar o sonho a tempo.
 Mas é algo que eu esqueci de arrumar.
+Mas é muito doce e crocante!
 Mas é o que você está fazendo.
 Mas, confesso que estou sem coragem
 Mas? com o passar do tempo? Tangier mudou.
@@ -7136,6 +7244,7 @@ Minas Gerais.
 Minha amiga ia se casar e me pediu para ser sua dama de honra.
 Minha bolsa de estudos foi rejeitada.
 Minha caneta é azul.
+Minha carne assada é deliciosa.
 Minha chinchila come pão.
 Minha condição é séria.
 Minha conta também tem privilégios administrativos
@@ -7229,6 +7338,7 @@ Muitas pessoas pensam que os computadores nunca terão sentimentos.
 Muitas pessoas pisando em algum tipo de fruta vermelha.
 Muitas são justificativas e perspectivas.
 Muitas vezes bêbado
+Muitas vezes falando duramente
 Muitas vezes me pedem ajuda para o trabalho dela.
 Muitas vezes me pedem ajuda.
 Muitas vezes, conta para eles mais barato
@@ -7332,6 +7442,8 @@ Na autorização, a Administração determinará as medidas apropriadas de autop
 Na casa de uma mulher rica, ela manda e chama.
 Na casa dos jogadores todos dançando a contraparte.
 Na colheita, o fazendeiro dorme tanto que ele põe a cabeça no limiar.
+Na governança urbana e nacional
+Na hora me sinto muito acurada
 Na idade da escola primária
 Na imagem vemos uma torre.
 Na indicação do testador, a tentativa será concluída.
@@ -7350,6 +7462,7 @@ Na sala de amamentação
 Na sua cabeça!
 Na terra e no gado, você nunca precisa se cansar.
 Na verdade entendi depois
+Na verdade, algumas pessoas acham que esse país é muito bom.
 Na verdade, envolvido na produção agrícola
 Na verdade, já é menor que seu antecessor.
 Na verdade, não precisamos sair da estação.
@@ -7407,6 +7520,7 @@ Nenhum inseto é chamado
 Nenhum método de recuperação
 Nenhum ponto inicial e final encontrado
 Nenhum quarto adequado
+Nenhum quarto pode assistir
 Nenhum ser humano vai lá
 Nenhum sinal neste momento
 Nenhum? ele é leal.
@@ -7464,6 +7578,7 @@ No caminho de volta
 No campo das ciências.
 No caso do Android, é mais complicado.
 No cemitério o silêncio reinava
+No começo eu estava ganhando.
 No começo, estudar correlação em gráficos é difícil para mim.
 No céu você vai, não vá antes.
 No dia do check-in, você vai comer o que quiser.
@@ -7531,6 +7646,7 @@ Nos vemos na hora do almoço
 Nossa cadela tinha filhotes? você quer um?
 Nossa detecção de colisão só funciona para corpos rígidos.
 Nossa família ainda precisa de dinheiro.
+Nossa família costumava ver o quarto
 Nossa galáxia?, a Via Láctea?, aparentemente contém matéria escura.
 Nossa hipoteca está em atraso.
 Nossa melhor aposta é que este animal só é ativo à noite.
@@ -7548,6 +7664,7 @@ Notarização
 Notificando a unidade policial
 Notícia ruim chega rápido.
 Notícias diárias do povo de Taiwan
+Notícias estão sempre soprando
 Nova York ou Nova Iorque?
 Novamente.
 Novas pontuações de dança ensinadas na noite passada
@@ -7681,6 +7798,7 @@ Não há estrela na cidade
 Não há grandes povos sem a ideia de direitos.
 Não há honra entre os ladrões.
 Não há hospital adequado perto de nossa casa.
+Não há loteria nesta rota.
 Não há luta contra o destino.
 Não há lâmpada de rua aqui.
 Não há mais bilhetes para a esquerda.
@@ -7714,6 +7832,7 @@ Não machuque meu dedo novamente.
 Não mais sozinho
 Não mais vivemos como porcos no campo.
 Não me atrevo a atravessar
+Não me atrevo a comentar sobre a política externa central
 Não me deixe mais, Cuca!
 Não me diga o que fazer!
 Não me diga que você estava preocupado!
@@ -7741,6 +7860,7 @@ Não perca de novo
 Não pestaneje
 Não pode ajudar, mas apostar mais
 Não pode dar ao seu filho algo melhor
+Não pode enfrentar suas cabeças
 Não pode escapar desse destino
 Não pode escapar para Taipei
 Não pode explicar mais claramente
@@ -7773,9 +7893,11 @@ Não quero entrar na cozinha
 Não relacionado à codificação?, mas os codificadores de mãos livres também precisam se divertir.
 Não retornando
 Não revelará sua localização
+Não saia de dentro
 Não se arrisque.
 Não se atreva a ser civil comigo!
 Não se importe com o coronel.
+Não se mexa demais
 Não se preocupe
 Não se preocupe com ele? ele ficará bem.
 Não se preocupe com isso.
@@ -7799,6 +7921,7 @@ Não seria legal se fôssemos assim?
 Não seria o primeiro.
 Não será martírio e não libertará água
 Não será muito caro.
+Não solitário à noite
 Não somos todos irmãos?
 Não são considerados aqueles que ainda são exigidos pelos regulamentos.
 Não só Taipei pode resolver
@@ -7930,6 +8053,7 @@ Nós entramos no ônibus
 Nós especialmente voltamos para o campo
 Nós esperamos por um tempo
 Nós estamos estudando Inglês.
+Nós estamos indo para o campo
 Nós estamos indo para o jogo de futebol hoje à noite.
 Nós estamos procurando um lugar para tomar café
 Nós estamos rindo o dia todo sobre isso.
@@ -7969,6 +8093,7 @@ Nós não sabemos o que está na coisa confusa? você?
 Nós não temos muito conhecimento e tecnologia
 Nós não temos que desistir do nosso clube.
 Nós não temos relação de sangue
+Nós o levantamos até o presente
 Nós o salvamos!
 Nós olhamos o tempo
 Nós pagaremos todas as suas despesas.
@@ -8001,11 +8126,13 @@ Nós temos a possibilidade de sucesso
 Nós temos comida.
 Nós temos dois planos perfeitamente ruins? e você sabe disso.
 Nós temos que chegar até eles!
+Nós temos que entregar dentro de quatro horas
 Nós temos que fazer alguma coisa!
 Nós temos tempo
 Nós temos tudo isso planejado.
 Nós temos um acordo?
 Nós temos um cachorrinho
+Nós teremos uma força mais forte
 Nós tivemos algumas maçãs deliciosas com caramelo.
 Nós tivemos muitos furacões este ano.
 Nós tivemos que nos apressar no minuto que aconteceu!
@@ -8049,6 +8176,7 @@ O Dia de São João é o dia mais longo do ano.
 O Egito é um país que é frequentemente mencionado na Bíblia.
 O Facebook tem muitos problemas de privacidade.
 O Festival Ching Ming está chegando
+O Grande Terremoto do Leste do Japão
 O Império Romano.
 O Internet Explorer só servia para instalar o Google Chrome.
 O Ministério Público não aprovou o projeto de lei.
@@ -8286,6 +8414,7 @@ O céu é lindo.
 O dano ao pano foi reparado rapidamente.
 O dano deve ser mais grave
 O deadline é amanhã.
+O debate com a comissão não pode exceder duas horas.
 O degelo chegou cedo e libertou o riacho.
 O dentista estava reclamando da minha higiene bucal medíocre.
 O depósito de lixo tinha um cheiro de mofo.
@@ -8299,6 +8428,7 @@ O dia de trabalho anual acordado é um dia de trabalho eficaz.
 O dia estava amanhecendo? e o pastor instigou suas ovelhas na direção do sol.
 O dia está nublado
 O dia está quente
+O dia não é todo preto
 O dia perfeito chegou.
 O diabo encontra trabalho para mãos ociosas.
 O dialeto do norte é fácil de entender.
@@ -8509,6 +8639,8 @@ O inglês não pôde conter sua excitação.
 O inglês não respondeu diretamente a ele.
 O inglês perguntou se estavam em perigo.
 O inglês tinha várias malas cheias de livros.
+O interesse de conversão é profissional
+O inverno ainda pode ir
 O inverno passou
 O irlandês bebeu o chá.
 O irmão de Ana tem vinte e dois anos.
@@ -8780,6 +8912,7 @@ O presidente da Rússia é Vladimir Putin.
 O presidente do Brasil terá muito o que fazer pela frente.
 O presidente fez uma curva acentuada na política
 O presidente lutou heroicamente contra tal selvageria.
+O presidente não pediu a sobremesa mas não informou
 O preço unitário será menor e menor
 O preço é justo para um bom relógio antigo.
 O preço é muito alto.
@@ -8931,6 +9064,7 @@ O que você está fazendo aqui então?
 O que você está fazendo aqui?
 O que você está fazendo aí?
 O que você está fazendo neste belo dia?
+O que você está fazendo?
 O que você está procurando?
 O que você está tentando fazer?
 O que você faria com uma arma nas costas?
@@ -9061,10 +9195,12 @@ O telefone tocou enquanto ela estava acordada.
 O telefonema foi interrompido por razões desconhecidas.
 O telhado deve ser inclinado em uma inclinação acentuada.
 O tempo aqui é tão bom.
+O tempo deve olhar mais longe
 O tempo devia estar em algum lugar por volta das seis horas.
 O tempo está acabando
 O tempo nos traz muitas mudanças.
 O tempo parecia ter parado, o evento estava tocando.
+O tempo perdido nunca mais retorna.
 O terceiro ato foi monótono e cansado dos jogadores.
 O terminal Linux se recusa a me fazer uma xícara de café.
 O terminal está quase vazio? apenas algumas pessoas estão lá chegando ao seu destino.
@@ -9119,6 +9255,7 @@ O uso que corresponde a esses espaços se torna um sótão.
 O vagão se movia em rodas bem lubrificadas.
 O vale estava cheio de denso nevoeiro.
 O valor das ações da empresa aumentou dramaticamente depois que encontraram um novo medicamento.
+O valor de Taiwan não está acontecendo em Taiwan.
 O vandalismo poderia transmitir algumas mensagens engraçadas? também!
 O vaqueiro era muito rápido.
 O vasto mundo
@@ -9191,6 +9328,7 @@ Oceano Atlântico.
 Oceano e rio secando
 Ocorre após uma longa jornada
 Ofereça medidas
+Oficialmente entrou no pico de busca de emprego após o ano
 Ogilvy assistiu até um e depois desistiu.
 Oh Deus!
 Oh Natal, verde, numa grande neve noturna.
@@ -9289,6 +9427,7 @@ Onde você esteve por tanto tempo?
 Onde você esteve?
 Onde você está?
 Onde você mora?
+Onde você não pode alcançar seus dedos
 Onde você pensa que está indo?
 Onde você vai ficar esta noite?
 Onde você vai?
@@ -9424,6 +9563,7 @@ Os negócios terão um aumento esse ano.
 Os netos também são bons filhos.
 Os olhos dela eram azuis claros.
 Os olhos do inglês se iluminaram.
+Os olhos estão tão desamparados
 Os operários trabalham na cidade enquanto são vigiados por espectadores.
 Os pacíficos herdarão a terra.
 Os padeiros têm casas? enquanto os pastores dormem ao ar livre.
@@ -9611,10 +9751,12 @@ Para melhorar a energia cinética
 Para mim não importa.
 Para mim é difícil.
 Para mim, existem metas estabelecidas.
+Para mulheres de emprego de segundo grau
 Para nossos objetivos,?, é claro,?, vamos querer usar um comando de voz.
 Para o almoço, uma boa paella e salada.
 Para o chamado silencioso dizem sábio.
 Para o filho dos ricos, não toque no vestido.
+Para o grande problema da cúpula
 Para o irmão, irmã rica, e para o marido, a mulher saudável.
 Para o jantar, eles tiveram salada Cesar.
 Para o topo da montanha é super frio
@@ -9627,6 +9769,8 @@ Para onde vais?
 Para os usuários, é importante que eles possam confiar em seu sistema operacional.
 Para ouvir a verdade, você precisa ouvir dois sinos.
 Para pegar a ferrovia da cidade para o ônibus
+Para picada de abelha, cera de ovelha.
+Para poder atravessar décadas
 Para projetar uma interface de ação dedicada
 Para qualquer um
 Para que serve isso?
@@ -9687,6 +9831,7 @@ Parte inferior do trabalho
 Participando de conferência internacional
 Participantes de meia maratona reclamaram porque havia pouca sombra na estrada.
 Participar ativamente de reuniões de bairro
+Participação
 Participação em seguro social
 Participação pública na transparência
 Participei de várias reuniões
@@ -9728,6 +9873,8 @@ Pegue a partida e bata contra o seu sapato.
 Pegue a tela com as duas mãos
 Pegue algumas roupas velhas e comece a costurar
 Pegue as duas filhas juntas
+Pegue eles!
+Pegue o caminho da pesquisa
 Pegue o controle remoto.
 Pegue o quadro de avisos!
 Pegue o seu cartão e deixe-o com ele.
@@ -9772,6 +9919,7 @@ Pequeno muito fraco
 Pequenos corpos têm grandes almas.
 Pequenos ladrões são enforcados, mas os grandes escapam.
 Perca a reserva para negócios
+Perca seu visual
 Perdendo tempo
 Perdi o ônibus de novo.
 Perdido, porém feliz
@@ -9915,6 +10063,7 @@ Poesia e verdade.
 Pois claro, eu disse isso.
 Pois naquele momento? não lhe ocorreu que poderia ser oco.
 Policiais consideram a máfia responsável pelo massacre.
+Polvilhado no carro
 Política de inovação e empreendedorismo
 Pomares e moleiros, a colheita nunca desmoronou.
 Pontos de vista e instalações de segurança serão a única grande infraestrutura permitida.
@@ -10049,6 +10198,7 @@ Por que você não vai para casa?
 Por que você não veio para a festa de lançamento?
 Por que você quer falar com ele?
 Por que você quer ir para casa para comer?
+Por que você tem uma vida?
 Por que vocês não recebem suas próprias notícias?
 Por quê não?
 Por sorte havia uma passadeira.
@@ -10147,6 +10297,7 @@ Precisamos trocar a lâmpada de novo
 Preciso de ajuda no final da tarde, a partir de março.
 Preciso encontrar uma maneira de ganhar dinheiro primeiro.
 Preciso falar com meu advogado.
+Prefeito liderando o desenvolvimento da cidade
 Prefiro o Pytorch ao Tensorflow.
 Prefiro o jornalismo da Record e da Band.
 Premonições não são uma base segura para a política.
@@ -10159,6 +10310,7 @@ Preocupe-se com muitas coisas chatas
 Preparando-se para o funeral
 Preparar e articular os meios processuais de prova, com investigação prévia dos fatos.
 Prepare o jantar com a mãe
+Prepare os pratos para serem preparados ao meio-dia
 Prepare-se para a aula
 Preservando suas memórias
 Presidente Obama.
@@ -10228,6 +10380,7 @@ Pronto para atacar
 Pronto para ir onde jogar
 Proposta para processamento em uma única leitura.
 Propõe questões organizacionais ou melhoria interna.
+Protegendo os direitos dos agricultores de participar
 Proteger a vida e a propriedade dos cidadãos
 Proteja-se
 Proteínas têm muitas funções no corpo humano.
@@ -10291,6 +10444,7 @@ Qual idioma é falado na Alemanha?
 Qual jogo você quer jogar?
 Qual língua você deseja aprender este ano?
 Qual língua é falada em Angola?
+Qual método é usado para esclarecer a si mesmo?
 Qual música está tocando?
 Qual o clima no lugar atual?
 Qual o limite do seu humano?
@@ -10380,6 +10534,7 @@ Quando Jennifer andou pelo corredor?, ela se perguntou se tinha cometido um erro
 Quando Luke terminou a análise de risco?, ele franziu a testa.
 Quando a bandeira se abriu, todos gritaram como feras.
 Quando a identidade do usuário for aceita pelo servidor?, você será notificado.
+Quando a lição de casa termina, ela vai para a sala de estar.
 Quando a menina tem alguns meses
 Quando a mãe não está lá, eu pulo e danço.
 Quando a namorada se torna uma esposa
@@ -10527,6 +10682,7 @@ Quase não havia movimento do poço.
 Quase não há como realizar nada
 Quase reteve sua forma.
 Quase sete mil pessoas começaram a perceber que erro catastrófico haviam cometido.
+Quase toda vez que eu me deparo com isso
 Quatorze palhaços de aparência boba entraram juntos no parque provocando risadas enquanto faziam piruetas.
 Quatro adultos olham para cartazes na parede de uma sala de espera.
 Quatro alunos em sala de aula.
@@ -10778,6 +10934,7 @@ Reconciliação e ruína estão intimamente relacionadas.
 Reconhece materiais têxteis, descrevendo suas propriedades e aplicações.
 Reconhecimento de Entidade Nomeada pode ser feito usando Redes Neurais.
 Reconhecimento de voz.
+Reconstrução da casa inteira, custódia da carta
 Recuou para o buraco.
 Recuperamos a maioria dos arquivos excluídos?, mas alguns ainda estão sendo processados.
 Recuperando gradualmente a força
@@ -10789,8 +10946,10 @@ Redução no consumo de combustível e desgaste do veículo.
 Reembolsar a enorme dívida
 Reencha um copo de graça
 Reestruturação do tráfego na cidade de Kaohsiung
+Regenere com um novo visual
 Regras são feitas para serem quebradas.
 Regulando as fontes de poluição urbana
+Relacionamento deve ser tornado público
 Relacionamento interpessoal ainda razoável
 Relatório sobre a situação salarial e incidentes do Departamento.
 Relatórios e vídeos de análises de Empresas.
@@ -10837,6 +10996,7 @@ Rico aqui? pobre daqui em diante.
 Rio rápido
 Riqueza sem fim
 Robert é o rei do recreio.
+Roda gigante e cena noturna são os melhores
 Rodrigo sabia lutar.
 Roger?, a equipe de backup está a caminho.
 Rolar para fora do arroz de grão
@@ -10968,6 +11128,7 @@ Se você adicionar mais dois andares?, precisará de mais colunas de suporte.
 Se você ainda não sabe o que é a recursão?, leia esta frase novamente.
 Se você colocar algumas fatias de açafrão um pouco torradas, será mais saboroso.
 Se você comprar os bilhetes você economiza seis euros.
+Se você continuar assim, seu corpo será quebrado.
 Se você cortar por um longo tempo, o carvalho mais grosso também deve cair.
 Se você enfrentasse esses valores discrepantes, isso reduziria os artefatos.
 Se você estender a massa fina.
@@ -11052,6 +11213,7 @@ Seminário de análise de dados
 Sempre atordoado
 Sempre com pressa? sempre atrasado.
 Sempre empurrando o carro
+Sempre espere e seja forte
 Sempre faça uma pergunta objetiva.
 Sempre feche a porta do celeiro com força.
 Sempre foi assim.
@@ -11101,6 +11263,7 @@ Setas de construção de estrada estão apontando para a esquerda
 Sete anos atrás, tudo está chegando.
 Sete jogadores de futebol em um campo verde vestindo camisas vermelhas
 Sete marinheiros vestidos de azul num barco.
+Sete quarteirões e cinco quarteirões na cidade de Keelung
 Sete selos estavam estampados em grandes lençóis.
 Setenta por cento dos alunos falam bem do professor.
 Seu adversário tinha três respawns restantes.
@@ -11115,6 +11278,7 @@ Seu coração apertou? como se seu peito tivesse subitamente comprimido.
 Seu coração estava pesado? e ele tinha sido melancólico desde a noite anterior.
 Seu coração está vivo.
 Seu corpo estava perdido entre os muitos outros no necrotério da cidade.
+Seu corpo ligeiramente gordo é gradualmente inconveniente
 Seu dentista ligou ontem.
 Seu descontentamento iria levá-lo no dia seguinte.
 Seu destino estava do outro lado do oceano
@@ -11293,6 +11457,7 @@ Subindo ao topo da montanha de esqui para ter uma melhor visão do lago
 Subindo para ver Erin.
 Subscrito na plataforma de compras on-line pública
 Substitua-o mais e mais rápido
+Sugerir uma mudança de foto
 Sujeira e poeira em todos os lugares? me dê a vassoura!
 Sumuel tinha o hábito de acordar cedo.
 Super delicioso e barato
@@ -11320,10 +11485,12 @@ Só faltam duas mil.
 Só lembra de Santa Bárbara quando chove.
 Só mais uma coisa.
 Só me leve de volta para meu marido e filhos.
+Só para comer carne de porco
 Só pode ser escrito neste caderno
 Só uma maneira você pode me ajudar.
 Só vai ser muito mais fácil com você.
 Taipei City tem potencial ilimitado e vitalidade
+Taipei City é o centro político e econômico de tomada de decisões
 Taipei tem um alto grau de humanidade
 Taiwan deve ter sua própria força
 Taiwan está localizado na zona de falha
@@ -11351,6 +11518,7 @@ Talvez eu pudesse vender ingressos.
 Talvez ninguém aqui saiba o que é um alquimista!
 Talvez nós somos todos assim? o menino meditou.
 Talvez o alquimista nunca tenha se apaixonado, pensou o menino.
+Talvez o caso mais paradigmático seja a mesma palavra "nacionalista".
 Talvez por causa do medo
 Talvez porque esse não era realmente o sonho dele.
 Talvez seja melhor ligarmos para Herman.
@@ -11393,6 +11561,7 @@ Teatro completo de Natália Correia vai ser editado pela Imprensa Nacional.
 Teclado, mouse e monitor.
 Tecnicamente? quebrando um espelho não é cinco anos? mas sete anos de azar.
 Tecnologia Open Source é essencial.
+Tecnologia de aplicação de conotação de núcleo
 Tecnologia, esse ano novos meios de conexão serão lançados.
 Tel Aviv é uma cidade muito gay friendly.
 Tela suspensa
@@ -11560,16 +11729,22 @@ Todo esse tempo os marcianos devem ter se preparado.
 Todo homem tem seu preço.
 Todo homem é o arquiteto de seu destino.
 Todo mundo chega ao fim, mas o objetivo nem sempre é.
+Todo mundo dirigindo, tenha cuidado
 Todo mundo espera um minuto.
 Todo mundo estava com gripe.
 Todo mundo estava congelado assistindo a tela.
+Todo mundo está espalhado
 Todo mundo está morrendo
+Todo mundo fica fora
 Todo mundo já ouviu falar do problema do ovo de galinha.
 Todo mundo quer o seu trabalho.
 Todo mundo quieto e pronto para uma emergência.
 Todo mundo sabe que um mais um é dois.
 Todo mundo sabe que você é um amor.
+Todo mundo se tornou inconveniente
 Todo mundo tem uma opinião sobre Jesus Cristo.
+Todo mundo é especial
+Todo mês tem um progresso diário
 Todo o caminho é super frio
 Todo o conteúdo está dentro
 Todo o desporto do país e do mundo está aqui.
@@ -11876,6 +12051,7 @@ Tux não está sorrindo? ele só fica bem o tempo todo.
 Tá bom, você venceu.
 Tânger não é como o resto da África.
 Tão certo quanto eu estou vivo
+Tão desamparado na sua frente chorando
 Tão doente quanto um cachorro.
 Tão duro quanto as unhas.
 Tão engraçado
@@ -13388,8 +13564,10 @@ Uma grande multidão de pessoas andando.
 Uma grande parte do cilindro havia sido descoberta.
 Uma grande quantidade de pessoas se aglomerou em um sistema de metrô.
 Uma haste é usada para pegar salmão rosa.
+Uma hora de distância da decolagem
 Uma ideia da skyline de Manhattan de uma rua próxima.
 Uma ideia de um mercado completamente dos povos em um país asiático.
+Uma ideia pouco disposta
 Uma imagem de pessoas sentadas em mesas do lado de fora de um restaurante.
 Uma jaqueta de seda branca combina com qualquer sapato.
 Uma jovem de camisa vermelha balança virada para baixo nos balanços
@@ -14064,6 +14242,7 @@ Você ainda não viu nada.
 Você ainda ouve música?
 Você ainda se lembra da senha da sua conta antiga?
 Você ainda tem amigos do lado de fora?
+Você ainda tem uma chance
 Você ajudou com o projeto.
 Você aponta para um rastro de formigas que leva à casa.
 Você aposta que eu tenho uma oferta melhor.
@@ -14173,6 +14352,7 @@ Você faz todas as contratações por aqui.
 Você fez isso?
 Você fez um ótimo trabalho!
 Você fica fora disso.
+Você finalmente comprou uma casa.
 Você foi assisti Deadpool?
 Você foi pago por isso ou você não estava?
 Você foi uma verdadeira bênção para mim.
@@ -14345,6 +14525,7 @@ Você pode contar comigo sob uma condição.
 Você pode criar diferentes formas hexagonais?
 Você pode dar exemplos específicos do impacto do seu trabalho?
 Você pode enviar alguém comigo se você não acredita em mim!
+Você pode esperar que ele volte.
 Você pode estar tão cansado sem trabalhar
 Você pode evitar isso em seu próprio código, preferindo identificadores facilmente reconhecidos.
 Você pode falar um rótulo para clicar em um elemento.
@@ -14429,6 +14610,7 @@ Você quer uma bolacha?
 Você queria me ver?
 Você queria vê-la sobre algo importante?
 Você realmente deu a Tamara essa arma?
+Você realmente me assustou.
 Você realmente pensou nisso?
 Você rebobinou o cassete?
 Você receberá donuts como bônus se fizer uma selfie comigo.
@@ -14491,6 +14673,7 @@ Você só deve deixar passar frases perfeitamente soletradas.
 Você só fez cinco refeições hoje.
 Você só pode cuspir tantas sementes.
 Você só pode dormir no chão
+Você só pode pegá-lo uma vez
 Você só precisa adicionar mais camadas como sempre.
 Você também é claro sobre si mesmo
 Você tem a chave?
@@ -14658,6 +14841,7 @@ Vovó mora na grande família de Taipei
 Vovó realmente foi muito importante para esta operação.
 Vovó se senta na porta da cozinha
 Vovó é uma pessoa que gosta de contar histórias.
+Vovô está sofrendo
 Vovô se foi
 Vovô é sempre tão calmo e colecionado.
 Voz não caiu
@@ -14680,6 +14864,7 @@ Vá para a estação depois de comprá-lo.
 Vá para a sua dança!
 Vá para casa, tenho que fechar.
 Vá para este endereço.
+Vá para o aeroporto para enviar sua bagagem
 Vá para o óleo de cavalo imediatamente.
 Vá pegar uma das maiores e mais douradas espigas de trigo
 Vá ver a cachoeira da barba branca
@@ -15022,6 +15207,7 @@ uma grande parte dele
 uma jornada que nunca se cansará
 uma jovem correu
 uma jovem garota levantando o cabelo molhado de um balde branco
+uma maneira de se ajudar
 uma mulher abre um presente enquanto bebe cerveja
 uma mulher e um homem? fora de? desfrutando da companhia uns dos outros.
 uma mulher está olhando em um microscópio sentado em uma mesa.
@@ -15076,6 +15262,7 @@ vários jovens asiáticos carregando bandeiras preto e brancas
 É LeviÔsa, não LeviosÁ
 É a alma solitária de chorar
 É a filosofia que garante a liberdade de todos.
+É a habilidade básica necessária para se dar bem
 É a opinião mais preciosa para mim.
 É a primeira vez que o meu avô faz serviços bancários online.
 É a principal causa da civilização
@@ -15270,6 +15457,7 @@ vários jovens asiáticos carregando bandeiras preto e brancas
 É verdade que alguns métodos se beneficiam da normalização das entradas de imagem.
 É verdade que tudo tem seu destino, mas um dia esse destino será realizado.
 É verdade que? é o café mais caro que já provei.
+É verdade?
 É íntimo e familiar, e abriga um café amigável.
 Óculos espessos ajudaram-no a ler a impressão.
 Óleo e vinho, remédio divino.

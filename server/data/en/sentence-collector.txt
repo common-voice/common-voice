@@ -4452,6 +4452,7 @@ Aren’t those gulls splendid?
 Argentina once dominated in football.
 Arguments are too much like disputes.
 Arguments were fatal to Daisy's disposition.
+Array and hash map literals allow one to write code with less boilerplate.
 Arrogance does not make a respectable man.
 Arthur came home, and was splendid in uniform.
 Arthur is the employee of the month.
@@ -7107,6 +7108,7 @@ Company Q, Eighty-third Infantry.
 Comparative benchmarks have shown the latter to perform exceedingly better.
 Compare alien with Italian
 Compare him with either of them.
+Competent Officials
 Competent judges at Eton gave me to understand so.
 Competitiveness in the industry drives innovation and growth. The consumer wins.
 Complete silence followed upon his words.
@@ -7121,6 +7123,7 @@ Compounded by debt.
 Computer scientists have banged their heads trying to solve this problem until now.
 Computer, read out aloud this page.
 Computer-aided design tools enable product designers to prototype ideas.
+Computer-related offenses
 Computers are incredible devices.
 Computing power can speed up the progress of human-like computational reasoning.
 Comrade Adair's rather a stoutish fellow in his way.
@@ -7187,6 +7190,7 @@ Could I ask what's the matter?
 Could I ask you to fill in this form, please?
 Could I borrow a bit of cash?
 Could I come in out of the rain?
+Could I email you one hundred thousand sentences of Romanian corpus?
 Could I reserve parking, please?
 Could I speak to you alone for a moment?
 Could Jeeves have got you into Brinkley Court?
@@ -11220,6 +11224,7 @@ He may be at Marseille today.
 He may be in the house now!
 He may be watching me now.
 He may desire to escape pain, or to enjoy pleasure.
+He may have been lovestruck, but he was no fool.
 He may have lost, but he will always be the people's champ.
 He may have wept; it is certain that he prayed.
 He may not be at all nice, you know, on further acquaintance.
@@ -13637,6 +13642,7 @@ His question was almost an appeal.
 His questions betrayed in no way the colour of his mind.
 His reception, however, was of the most flattering kind.
 His red face shone and was almost asleep with sunshine.
+His resumé says he enjoys solving usability problems in user interfaces.
 His revenge would have been complete indeed.
 His reward should have been peace and repose.
 His ridiculous hypersensitiveness made her heart ache.
@@ -14952,6 +14958,7 @@ I can’t fancy him.
 I can’t find any record of that name.
 I can’t get over it.
 I can’t go to school.
+I can’t imagine anything that could possibly excuse your behavior in there.
 I can’t imagine the place without her.
 I can’t read or sew with any comfort now.
 I can’t realize it.
@@ -17542,6 +17549,7 @@ I think it’s cruel to bury her there.
 I think marriage is an error of youth.
 I think my darling girl is more beautiful than ever.
 I think my little girl is learning this?
+I think our views are just fundamentally irreconcilable.
 I think she gave it him.
 I think she resents you.
 I think she's organising some sort of do.
@@ -21885,6 +21893,7 @@ I’m watching television with friends this evening
 I’m young — for so old a man.
 I’ve been crying like a baby, actually I have.
 I’ve been expecting something queer for some time.
+I’ve been getting into the mahou shoujo genre recently.
 I’ve been haunted, Nelly!
 I’ve been thinking and planning.
 I’ve been thinking them out for a week.
@@ -21923,6 +21932,7 @@ I’ve thought it all over.
 I’ve treated you infernally — and you’ll take your revenge!
 I’ve worn the blue.
 Jack London, Waikiki Beach, Honolulu, Oahu.
+Jack O’Clery of the opposition derided Mrs. Clarke’s claims as “mere blustering”.
 Jack especially enjoyed mountaineering.
 Jack had forgiven many people for many offenses.
 Jackson and Cross, remain.
@@ -23967,6 +23977,7 @@ Natural indolence, you mean.
 Natural selection must take its course.
 Naturally he wouldn't, under those contagious circumstances.
 Naturally there was no end to his tongue then.
+Naturally, he was under no such time constraint.
 Nature gave you understanding — she gave you principles.
 Nature taking its toll of the exhausted frame.
 Nay, it’s not Nelly; don’t look at her!
@@ -24412,6 +24423,7 @@ Non-religious weddings are often held at a Register Office
 None at all, my dear fellow, none at all.
 None knew what had happened.
 None of that nonsense!
+None of the forum posts mention Armsmaster’s heel-face turn.
 None of the sporting prophets mentioned it as having an outside chance.
 None of them counted the money.
 None of them ever pay.
@@ -28890,6 +28902,7 @@ Six hundred eyes were turned slightly upward.
 Six months ago he would have read it simply.
 Six months, perhaps a year.
 Six of one, and half-a-dozen of the other.
+Six times nine is not forty-two unless you’re using base thirteen.
 Six yards in front of you.
 Six years I hammered at the fiddle.
 Six years to thirty!
@@ -29287,6 +29300,7 @@ Someone supported him by one arm.
 Someone switched on the light.
 Someone thrust him forward.
 Someone was shouting — it might be at him.
+Someone will be by to assist you momentarily.
 Someone will suffer for this.
 Something about it seemed to fascinate him, to challenge his presence.
 Something about pictures by machinery.
@@ -29366,6 +29380,7 @@ Sorry, I don't know my way around campus yet.
 Sorry, I just don’t think we’re compatible.
 Sorry, I missed that.
 Sorry, I really didn't mean it.
+Sorry, I think my connection dropped for a moment.
 Sorry, are you reading that brochure?
 Sorry, but we need your original birth certificate, not a copy.
 Sorry, it's like a nervous tick.
@@ -32214,6 +32229,7 @@ The maid started violently.
 The maid was carrying Celia's white coat.
 The mailman hasn’t been yet.
 The main county seat is located near the town of Tamil.
+The main course, salmon teriyaki with rice, was served at noon.
 The main duties of your position are set out in the attached job description.
 The main school is located in the city of New York City.
 The majority of the experiments fail.
@@ -32707,6 +32723,7 @@ The plane descends steadily during landing.
 The plane was delayed by two hours.
 The plane was delayed for three hours at Heathrow
 The planters are already considering the matter.
+The platform’s support for just-in-time compilation was a major selling point.
 The playwright spent many years refining his craft.
 The pleasure is not enhanced, and the inconvenience is often considerable.
 The plot was evidently in execution, as Mr. Trotter had foretold.
@@ -34948,6 +34965,7 @@ These bones are dating back to two hundred Anno Domini.
 These calcium tablets are effervescent.
 These causes must be stated, though briefly.
 These children became silent at the near sound of feet.
+These chocolate soufflés are delectable, my dear.
 These country binges are all the same.
 These craters are from millions of years ago when dinosaurs walked the planet.
 These creams are derived from plant extract.
@@ -41866,6 +41884,7 @@ You’ve thwarted destiny enough.
 Yusuf wants to build a life-size Lego castle.
 Zaki shared his toys with his sister Sarah.
 Zara replied, and, after a musical dialogue, consented to fly.
+Zhu Li’s betrayal was a great surprise to Varrick.
 Zilla relaxed her sour mouth long enough to sigh her satisfaction.
 Zucchini is the same thing as courgette
 a potato.
