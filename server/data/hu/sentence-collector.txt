@@ -1748,7 +1748,9 @@ Borsot tör valakinek az orra alá.
 Borzasztó, hogy mit tett velem az az egy pohár puncs!
 Bottal üthetik a nyomát.
 Bozontos szakálla volt, és sűrű szemöldöke belelógott a szemébe.
+Brrr!
 Budapest Magyarország fővárosa, és egyben legnépesebb városa.
+Bugyrot cipelt a hátán, kezében görcsös botot tartott, cigányasszony volt.
 Bujkál bennem a kisördög.
 Bumm!
 Buta nem vagyok!
@@ -1911,6 +1913,7 @@ Cseppet se vágyom rá.
 Cserélek én!
 Csevegni, csevegni, csevegni kell a gyerekekkel, mert különben itt rettenetes ribillió lesz pillanatokon belül.
 Csikorgott a fagy, szélcsend volt, a tiszta ég csupa csillag.
+Csikorgó hideg tél volt; a folyosókon futkostam, meg a toronybástyákon, hogy fölmelegedjem.
 Csikorgó, hideg napok jártak, befagytak a vizek, ínségesen tengődtek a vadak, a madarak.
 Csillogó hópelyhek tapadtak szépen göndörödő, hosszú szőke hajára, de nem is gondolt vele.
 Csinálj te is hasonló weboldalakat mint ez!
@@ -1918,6 +1921,7 @@ Csinálj úgy, mintha itt se lennék!
 Csip!
 Csirkét készítettem.
 Csivit!
+Csivit, csivit!
 Csodálatos láng volt az!
 Csodálatos látvány volt!
 Csodálatos látvány volt.
@@ -1952,6 +1956,7 @@ Daliás legény!
 Dalok és mondák már régóta beszélnek a nagy tengeri kígyóról.
 De Félix így is megállapíthatja, hogy igen karcsú nő áll előtte.
 De Marco Polo nem tapasztalta ki a világ összes fogházait!
+De Pöttöm Panna tudta, hogy az öreg mezeiegér igen zokon venné, ha elhagyná.
 De a bakter nem felelt, hogy is felelhetett volna?
 De a csúcsán még ott tündöklött az aranycsillag, s visszaverte a napsugarakat.
 De a dalnokverseny bizony nem sikerült.
@@ -1970,6 +1975,7 @@ De a kis pásztorlány nem nyugodott bele a sorsába.
 De a kábel még ettől se ijedt meg.
 De a mi hóemberünket ez sem vigasztalta boldogtalanságában.
 De a nagyanyja megsimogatta a haját, s új mesébe kezdett.
+De a nagyanyám tud varjúul, még a te beszédet is tudja.
 De a nagybeteg leányka nem követte kishúgát.
 De a rózsák a fejüket ingatták, és visszasúgták a szélnek: Szebb a kis királylány!
 De a szelencéből a csodálatos rózsa került elő.
@@ -2082,6 +2088,7 @@ De hát le akarod mondani.
 De hát mit csináljak én a fa odvában?
 De hát miért tette?
 De hát miért várna engem?
+De hátha, most jut eszembe, hátha szerencsepénz vagy te, az vagy, persze, egészen biztos!
 De hűséges és derék ember.
 De igen.
 De igenis volt fegyvere!
@@ -2182,14 +2189,17 @@ De persze ez attól is függ, kinek a kezébe kerül.
 De persze nem a fenyőfára értették.
 De persze nem használt ez sem.
 De pompás volt tegnap az ünnepi ebéd!
+De ragyogó fehér egytől egyik valamennyi, hiszen eleven hópelyhek voltak.
 De remélem, most már tálalják.
 De régóta vágyom rá!
 De sem a teológus, sem útitársai nem lelkesedtek ilyen tűzzel.
 De semmi közöm a vendégek szeszélyeihez.
 De sokat vesződöm veled!
+De sokféle teremtmény él a föld hátán, s én még a nevüket se hallottam!
 De szeretett ismerkedni is új emberekkel és új helyekkel, ami már megbocsáthatatlan.
 De szeretnék lábra kelni!
 De szeretném, ha az anyjuk láthatná ezt a tenger sok almát!
+De szép elhagyni a sötét kutat, csalánerdőben pihenni, forró porban vándorolni, virágos árokparton elmélkedni!
 De szép idefönn!
 De szép is az élet!
 De szép is volt azon a nyáron a határ!
@@ -2218,6 +2228,7 @@ De visszatérhetnek, még visszatérhetnek egyszer!
 De volt ott egy darabka föld, éppen a vén fűzzel szemben, amelyen hajdina termett.
 De várj csak!
 De végre is beleegyezett a frigybe, miután leánya még rosszabb szemmel nézte a művészt.
+De élet lüktetett, és gondolatok cikáztak benne: emberi gondolatok futottak rajta keresztül.
 De én is szoktam mondatokat beküldeni.
 De én megtiltom.
 De én nem akarok abban a sötét almáriumban lakni!
@@ -2281,8 +2292,11 @@ Disznóság így takarékoskodni.
 Diétás kólát.
 Dolgozni és tojást rakni, annyi, mint a jelenben élni és a jövőt biztosítani.
 Dolgoznia kell.
+Dolgozott egész nap, amikor egyedül maradt; sohasem szállt még ilyen sebesen az idő.
+Drágakövet?
 Drótsövényt állítottak fel.
 Dunát lehetne rekeszteni vele.
+Durr!
 Durván belerúgott a faládába, aztán leszakította a két rózsát.
 Dédszülők voltak már, és az aranylakodalmukra készültek, de az esküvőjük napjára nem emlékeztek pontosan.
 Délelőtt vagy délután?
@@ -2351,9 +2365,11 @@ Egy gengszter elől menekülök, aki halálra ítélt.
 Egy gyermeknyaraltatási akció részeként hoztuk át őket ide, Libreville-be.
 Egy gyors keresés után kiderült, hogy ez már másnak is feltűnt.
 Egy hal sose lehet beteg.
+Egy harmadik porcelán figura is állt azon az asztalon, háromszor akkora, mint ők.
 Egy hatalmas vízipatkány bukott föl mellette; itt lakott a híd alatt a csatornában.
 Egy hercegkisasszony állt a küszöbön.
 Egy homályos fordulónál vaslépcső tűnt eléje, keskeny falnyílásból indultak a tekervényes fokok.
+Egy háromfelé törött, szép fehér márványoszlop feküdt ott; körülötte nyíltak a legpompásabb fehér virágok.
 Egy hét múlva fölkelt egy órácskára.
 Egy igazi barát soha nem hazudtolna meg.
 Egy ilyen ajánlatnak nem tudok ellenállni.
@@ -2366,6 +2382,7 @@ Egy kicsit várhatunk még, ha úgy akarod.
 Egy kis udvarra melegen sütött le az isten napja a tavasz első reggelén.
 Egy kis zenei előjáték.
 Egy kismadár csiripelte.
+Egy kisvarangy, vagy legalább égy zöld béka hiányzik az igazi boldogságomhoz!
 Egy káposztaágyás szélén megpihent, kicsit kifújta magát és körülnézett.
 Egy képeskönyvet emelt le a polcról, de micsoda képeskönyvet!
 Egy kóbor lovag törpe.
@@ -2430,6 +2447,7 @@ Egy úriember, ha módjában áll, eleget tesz a hölgyek kívánságainak.
 Egy ügyeskedő mindig talál magának utat ott, ahol más nem.
 Egy őr meg egy bagoly volt a torony lakója.
 Egye fene!
+Egyedül a holdat tartották lakhatónak, a világmindenség tulajdonképpeni központjának, az élőlények bölcsőjének.
 Egyedül sakkozik.
 Egyedül sakkoztam, és mihelyt befejeztem a partit, végighallgattam Bobby mondanivalóját.
 Egyedül sakkoztam.
@@ -2447,6 +2465,7 @@ Egyet se látni.
 Egyetlen hibája a szórakozottság volt, ami már sok kellemetlenséget és bajt hozott rá.
 Egyetlen szenvedélyét róják fel hibájául, mégpedig azt, hogy állandóan sakkozni szeretne.
 Egyetlen ugrással az ágvitorlánál termett.
+Egyetlen ugrással átszökkent az elesett ellenfél lován, röpült, mint a szélvész, megmentette gazdája életét.
 Egyetlen, garast sem adtak.
 Egyetlenegy nagy hal se ijed meg tőle.
 Egyformán teltek a napok.
@@ -2492,6 +2511,7 @@ Egyszóval, hogy ami hasznot hajt, azt el is viszi.
 Egytől egyig arra a semmirekellő apjukra ütöttek.
 Egyébként bocs a kocsid miatt.
 Együgyű Jankó lebucskázott a grádicson, mégis megkapta a királykisasszony kezét!
+Együgyű Jankóról!
 Együnk levest!
 Együtt dolgoztunk rajta, tartsuk meg együtt az előadást!
 Együtt maradtak egész nap.
@@ -2752,6 +2772,7 @@ Ettől féltem.
 Ettől se ijedj meg, vissza ne fordulj!
 Európában például alig két-három fogházban voltam összesen.
 Evés közben jön meg az étvágy.
+Ez A Nap mai száma?
 Ez Bobby!
 Ez a Martin is megválogathatná magának.
 Ez a baba nem hagyja abba a panaszkodást.
@@ -3051,6 +3072,7 @@ Felőlem bámulhat, ugyan nem hunyorgok, szemem se rebben!
 Fenséges, komoly és sötét volt a természet.
 Fertelmes banya volt, alsó ajka olyan mélyen lelógott, hogy a mellét verte.
 Fertelmes rút vagy!
+Fiatalok voltak mind a ketten, törékenyek, s egyfajta porcelánból formálták őket.
 Figyelembe véve mit?
 Figyelj, azt hiszem, nem is olyan jó ötlet ez!
 Figyelj, be kell mennem a laborba.
@@ -3129,6 +3151,7 @@ Félájult és sírógörcse van?
 Fénylett, tündöklött a szívében a vágyakozás.
 Fészkelődött szegény, de a fiú erőteljes szorítással utasította rendre.
 Föl akarnak kötni, segítsetek rajtam!
+Fölkapta társaival együtt Pöttöm Pannát, leröpültek vele a fáról, s ráültették egy pitypangvirágra.
 Fölkeltette felséges kíváncsiságomat!
 Föllobogott a nagy üst alatt, s mélyeket sóhajtott, olyan hangosan, hogy puskaropogásnak hallatszott.
 Fölmászunk a magasba, föl, egészen a kéménybe, s azon át kijutunk a nagyvilágba.
@@ -3148,12 +3171,15 @@ Fő a tisztaság!
 Főisten a szanszkrit mondavilágból.
 Fővitorla, tatvitorla és brigantin.
 Főzök is mindjárt!
+Fűszálakból ágyat font magának, s fölfüggesztette egy nagy sóskalevél alá, hogy eső ne érje.
 Garantálom, hogy a statikus tartalmat senki sem fogja feltörni.
 Gazda szeme hizlalja a jószágot.
+Gazdag család volt, előkelő család; születésük óta pompa vette őket körül.
 Gazdag éléskamra ez!
 Gazdasági társaság más gazdasági társasággal, valamint szövetkezettel és egyesüléssel egyesülhet.
 Gazember, aki nem azt tartja, hogy a mi országunk a legszebb a világon!
 Gengszter úr, én becsületszavamra kijelentem, hogy még életemben nem láttam ekkora pofont.
+Gerda akkor a boglárkához hajolt le, amely sárgán ragyogott zöld levelei között.
 Gerda előre örült a találkozásnak, de félt is tőle.
 Gerda kiáltott nekik, mert eleven katonáknak gondolta őket; a fakatonák persze nem válaszoltak.
 Gerda meg Kay egymás szavába vágva mondták el történetüket.
@@ -3201,6 +3227,7 @@ Gyere, itt a kötél, és fogd a kék kockás kötényemet.
 Gyere, leánykám, vedd magadra ékességeidet, mint a nővéreid.
 Gyere, menjünk.
 Gyereksereg ujjongó kiáltásai közepette született, szánkócsilingelés, ostorpattogás köszöntötte.
+Gyermekei születtek, felnőttek egészségben, tudós mesterek tanították őket.
 Gyertek hát, hadd mutatom meg nektek a világot!
 Gyerünk a Borjúfókába, mert Bill, a kormányos biztosan vár már bennünket!
 Gyerünk csak tovább, most már nemsokára odaérünk.
@@ -3227,6 +3254,7 @@ Gyönyörű!
 Gyötrelmeit még tetézte az éhség, a csillapíthatatlan, rettenetes éhség.
 Gyújtsanak alája!
 Gyümölcsök is csüggtek az ágakon, ragyogtak, mint a színarany; édes kalácsok, tele mazsolával.
+Gyümölcsöt árult, halastavai voltak, érett kalászú gabonaföldjei.
 Győzd meg a megrendelőt az előnyökről!
 Gúlába rakott puskák, gőzölgő kondér, táborozó legénység.
 Gőgösen hátat fordított és odábbállt.
@@ -3257,7 +3285,9 @@ Ha belőlem kellene megélniük, akkor egyebet sem tudnának, csak nélkülözni
 Ha benne vagy, a középső részt újra elpróbálhatnánk.
 Ha biztonságosan szeretnéd használni a számítógéped, nyílt forráskódú szoftvert használj!
 Ha bőrig ázik is mindenki, az ország földje hízik az esőtől.
+Ha csak egyetlen szót kimondasz, gyilkos tőrré változik a szavad, s bátyáid szívébe fúródik.
 Ha csak moccan, elriasztja ezeket.
+Ha csak rágondolok, végigfut a hideg a csőrömön!
 Ha elvágjuk, legjobb esetben is csak egy pici üres szendvics.
 Ha ennyire biztos vagy benne, akkor bizonyítsd be.
 Ha esedékes volna a támadás, akkor Bobby már itt lenne.
@@ -3319,8 +3349,12 @@ Ha ördöggel lakol, ördöggé kell lenned.
 Ha úgy érzed, tudnál segíteni a Common Voice projekttel kapcsolatban kezdőknek, gyere Matrix-ra!
 Hacsak nem ösztökél rá a Szentlélek.
 Hacsak nincsenek összekötve relékkel vagy mozgásérzékelőkkel.
+Hadd harsogja túl a szavukat!
 Hadd javasoljak egy új megközelítést!
 Hadd legyen eggyel kevesebb gondja.
+Hadd lobogjon a tűz, amíg csak zubogni nem kezd a víz!
+Hadd látom azt a csökönyös tojást!
+Hadd maradjon!
 Hadd morogjon Varga Pál, csak jó sarut varrjon.
 Hadd segítsek talpra állni!
 Hadd ássak le a kérdésem gyökeréig!
@@ -5682,6 +5716,7 @@ jön a kocsmáros, mondd, hogy elmentem járni egyet ide a közelbe.
 Én már nem sokat mérgelődök veletek.
 Én még sokra vihetem a tanári pályán.
 Én nem azt mondtam, hogy az összes üzenetünk itt felhasználható.
+Én nem bírom ki nála!
 Én nem bírom tovább!
 Én nem csak bent ülök, hanem beszélgetek másokkal is.
 Én nem eszek itt.
