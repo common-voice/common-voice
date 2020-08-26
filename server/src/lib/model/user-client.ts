@@ -328,7 +328,10 @@ const UserClient = {
     return UserClient.findAccount(email);
   },
 
+  // TODO: Is this used anywhere? lib/model/db.ts@updateUser from 5f781aa0d05e
+  //       no-longer exists.
   async save({ client_id, email, age, gender }: any): Promise<boolean> {
+    console.log(`TRACK_USER_CLIENT_SAVE: ${age}\t${gender}`);
     const [
       [row],
     ] = await db.query(
