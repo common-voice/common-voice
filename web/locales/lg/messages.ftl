@@ -386,21 +386,51 @@ faq-how-get-a = Dataset ya Common voice w'eli ela osobola okugidownloadinga ku <
 faq-when-release2-q = Munatuusa ddi bwiino wa Common Voice mu nnimi endala
 faq-when-release2-a = Version y'ennimi eza dataset ya Common voice mu kasera kano eyambibwako community mu kuziteeka mu bibinja n'okuzilongosa. Bw'oba wandiyagadde okutuyambako okuleta ennimi endala mu Common Voice, genda okebere  <sentenceCollectorLink>Ekikungaanya sentensi</sentenceCollectorLink>okugatta sentensi empya mu dataset, ne Mozilla <pontoonLink>Pontoon</pontoonLink>okuvvunula website ye nnyini. Ennimi empya zigattibwa mu Common Voice okuyambibwa ku maloboozi buli sentensi 5000 w'ezikunganyizibwa n'ezikirizibwa.
 faq-why-mission-q = Lwaki Common Voice kw'eli ku misoni ya Mozilla?
+faq-why-mission-a = Mozilla efaayo okukuuma omutimbagano nga gukozesebwa buli omu. Okutuuka ku ekyo twetaaga okusobozesa abakola emitimbagano nga bayita mu pulojekiti nga Common Voice. Nga tekinologiya w'amaloboozi yeyongera mu miwendo okusukka mu nkola endala, tusuubira nti bateekeddwa okuweereza buli omu mu bwenkanya. Ekyo kitegeeza okwongera amanyi mu nnimi endala n'okukiriza enjogera ez'enjawulo n'obuzimbe bw'abantu nga tuzimba n'okugezesa tekinologiya w'amaloboozi. Common Voice kibanja kyalukale ekikozesebwa buli omu ne ttiimu za Mozilla n'abazimbi abeetoolodde ensi yonna batandika dda okugikozesa mu pulojekiti zaffe.
 faq-what-cv-and-deepspeech-q = Kiki eky'enjawulo wakati wa Common Voice ne Deep Speech?
+faq-what-cv-and-deepspeech-a = Dataset ya Common voice eyamba okugabilira kubwerere yingini ya Deep Speech eya Mozilla ekozesa amaloboozi. Ekika kya Deep Speech ekyasooka kyafulumizibwa mu Novemba 2017 era yeyongedde okukula okuva olwo. Nga tuli wamu ne dataset ya Common Voice, tuyina endowooza nti tekinologiya w'amaloboozi ow'obwereere alina kuberawo nga wabuli omu. Ssuubi lyaffe nti tekinologiya ajja kusobozesa ba developa okuzimba enkola eddako ey'obuyiiya bw'ebintu ne savisi.
 faq-is-goal-assistant-q = Okuzimba voice assistant ky'ekigobero kya Common Voice?
+faq-is-goal-assistant-a = Ekigendererwa kya dataset ya Common Voice kwe kusobozesa buli omu wona mu nsi okuzimba tekinologiya ategeera eddoboozi, ategeera enjogera y'omwogezi, oba tekinologiya yenna eyetaga data w'amaloboozi. Voice assistant y'emu ku bika bya tekinologiya by'oyinza okuzimba ne dataset.
+faq-do-want-native-q = Tebanzaala mu ggwanga ly'olulimi lwe njogera atte njogeza akisenti, muky'ayagala eddoboozi lyange?
+faq-do-want-native-a = Yee, tusinga kwagala ddoboozi lyo! Emu ku bigendelerwa bya Common Voice kwe kukungaanya enjogera ez'enjawulo okusobozesa obuweereza obutegera amaloboozi okukolera buli omu mu bwenkanya. Kino kitegeeza nti ebiva eri abogezi abatali b'ago amawanga by'ebisinga omugaso.
 faq-why-different-speakers-q = Lwaki twagala abogezi bangi kubuli lulimi?
+faq-why-different-speakers-a = Amaloboozi getuyina ag'asinga g'atendekebwa n'obutazza bw'enkanya eli abantu abamu ekileeta okufa enyo okusinga ku <articleLink>basajja n'abakozemu</articleLink>. Enjogera n'enjawulo mu nnimi ezitafibwako nnyo mu kutendeka dataset zikwataganyizibwa nnyo n'ebibinja by'abantu abanyigilizibwa.  Ebyuma bingi nabyo bilwana okutegera amaloboozi g'abakazi.  Y'ensonga lwaki ekiteleke ky'amaloboozi gaffe yeetaaga amaloboozi mangi ag'enjawulo.
 faq-why-my-lang-q = Lwaki olulimi lwange teluriimu?
+faq-why-my-lang-new-a = Mozilla telonda atte tetintimya lulimi lw'ona okusinga olulala. Wabula, Common voice etambuzibwa community,  naye kitwala <multilangLink>ebikolwa bingi okugattamu olulimi olupya</multilangLink> n'otandika okukunganya amaloboozi agabawereddwa. Okusooka, website ya Common voice yetaga okuvunulwa okusobozesa ba memba ba community okufuna obumanyirivu mu nnimi zabwe. Ekiddako, twetaga okukunganya sentensi nyingi ezitaliiko bwa nanyini abantu ze banasoma. Kasita ebyo ebyetagisa byombi bitukirizibwa nga olulimi "luteekebwa" ku Common Voice abantu batandike okulikodinga n'okusunsula ebiwereddwa abalala. Bw'oba oyagala ku lonkinga lulimi lupya, genda ku <sentenceCollectorLink>kakunganya sentensi</sentenceCollectorLink> okutandika.
+faq-what-quality-q = Quality eya audio ki eyetagisibwa eddoboozi okukozesebwa mu dataset?
+faq-why-10k-hours-q = Lwaki essawa 10,000 ensunsule zezetagisa ku buli lulimi ng'okwata eddoboozi?
+faq-why-10k-hours-a = Guno gwe muwendo gw'essaawa ogwetagisa okutendeka sisitimu efuula eddoboozi ebigambo.
+faq-how-calc-hours-q = Common voice ebala etya essawa?
+faq-how-calc-hours-a = Okubala essawa tutebereza obuwanvu bwa buli likodingi ne tumala ne tukubisamu n'omugatte gwa likodingi eziri mu nnimi zonna.
 faq-where-src-from-2-q = Ensibuko y'ebigambo evaawa?
+faq-where-src-from-2-a =
+    Ebigambo byaffe biva mu batuyambako nga gwe ne mu mboozi eza filimu ezili buli wamu nga <italic>It’s a Wonderful Life</italic>.
+    
+    Osobola okulaba ensibuko y'emboozi zaffe mweno <githubLink>GitHub folder</githubLink>.
 faq-why-not-ask-read-q = Lwaki tetubuuza bantu kusoma mu bitabo oba Wikipedia ezili mu nnimi endala?
+faq-why-account-q = Lwaki nzigulawo akawunti?
 faq-is-account-public-q = Ebinfaako mu akawunti yange bilabika mu lwatu?
+faq-how-privacy-q = Mukakasa mutya nti ebikwata ku bagaba amaloboozi gabwe bikumibwa mu kyama?
 faq-what-is-cv = Common Voice Ky'ekiki?
+faq-search-for-answers =
+    .label = Nnonya answer
 
 ## ABOUT US
 
 about-title = Lwaki Common Voice?
+about-subtitle = Common Voice emu ku nkola za Mozilla okuyamba okusomesa masini engeri abantu gye bogera mu. Okwongereza ku dataset ya Common Voice tuzimba ne yingini etegera amaloboozi eyitibwa Deep Speech.
 how-does-it-work-title = Ekola etya?
 about-speak = Yogera
+about-speak-text = Abayamba balikodinga obuloboozi nga basoma sentensi eziwebwa abalala.
+about-listen-queue = Nga-W'obiwuliriza
+about-listen-queue-text = Obuloboozi butekebwa mu ngeri en'ebutegeka okuwulirizibwa.
 about-listen = Wulira
+about-listen-text = Abantu basunsula obutuufu bw'obuloboozi obuwebwa, okukebera oba omwogezi yasoma sentensi bulungi.
+about-is-it-valid = Akaloboozi katuufu?
+about-is-it-valid-text = Akaloboozi kalambibwa "valid" nga omukozesi akawadde akalulu ka Ye.
+about-yes-votes = ≥ Obululu bwa Ye 2
+about-yes-votes-text = Okutekebwa mu dataset wa Common Voice, akaloboozi kalina okusunsulwa abantu babiri.
+about-no-votes = ≥ 2 Tewali bululu
 about-clip-graveyard = Amalaalo G'obuloboozi
 about-get-involved = Twegatteko
 about-nav-why-common-voice = Lwaki?

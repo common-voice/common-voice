@@ -6,8 +6,6 @@
 @media (--demo-only) {
     #intro-container,
     #kiosk-bottom-right-pane,
-    #speak-page,
-    #listen-page,
     #kiosk-container {
         display: none !important;
     }

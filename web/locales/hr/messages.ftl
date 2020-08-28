@@ -749,6 +749,7 @@ validations =
 
 your-languages = Vaši jezici
 toward-next-goal = Prema sljedećem cilju
+goal-reached = Cilj postignut
 clips-you-recorded = Isječci koje ste snimili
 clips-you-validated = Tvoji potvrđeni isječci
 todays-recorded-progress = Današnji napredak Common Voicea o snimljenim isječcima
