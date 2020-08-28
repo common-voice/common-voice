@@ -468,6 +468,7 @@ de-identified-explanation = datu-sorta deskargagarri uzteko paketatzen denean, e
 ## Error pages
 
 error-title-404 = Ezin izan dugu orri hori aurkitu zuretzat
+error-title-503 = Ezusteko matxura bat izaten ari gara
 error-code = { $code } errorea
 
 ## Data
@@ -487,6 +488,7 @@ data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
+data-download-singleword-title = Deskargatu hitz bakarreko esparru zehatzeko atala
 review-terms = Common Voice erabiltzean, bere <termsLink>erabilera baldintzak</termsLink> eta <privacyLink>pribatutasun-oharra</privacyLink> onartzen dituzu
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
@@ -743,6 +745,16 @@ want-to-continue = Jarraitu egin nahi duzu?
 finish-editing = Editatzea amaitu lehenengo?
 lose-changes-warning = Orain utziz gero zure aldaketak galduko dituzu
 build-custom-goal = Sortu helburu pertsonalizatua
+help-reach-hours-pluralized =
+    Lagundu{ NUMBER($hours) ->
+        [one] { $hours } ordu
+       *[other] { $hours } ordu
+    } lortzen { $language } hizkuntzan helburu pertsonal batekin
+help-reach-hours-general-pluralized =
+    Lagundu Common Voice-ri { NUMBER($hours) ->
+        [one] { $hours } ordu
+       *[other] { $hours } ordu
+    }lortzen hizkuntza batean helburu pertsonal batekin
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
 how-many-per-day = Primeran! Zenbat grabaketa egunean?
