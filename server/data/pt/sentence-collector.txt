@@ -935,6 +935,7 @@ Acompanhado por mim
 Acompanhe-me para conhecer a casa de montagem
 Aconselhá-los a cooperar
 Acontece que alguém está construindo uma casa.
+Acontece que há um monte de pessoas comendo no restaurante no andar de baixo.
 Acontece que isso é mais fácil do que você poderia esperar.
 Acontece também com a vara de São José, que é a flor mais levítica.
 Acontecerá na primeira quarta-feira após a data final do prazo de envio.
@@ -4439,6 +4440,7 @@ Esmagando a parede de tijolos vermelhos
 Espadas colidiram em uma terrível cacofonia de som, mas ela não vacilou.
 Espanhol Cuca não faz xixi sozinho.
 Espanhol é um língua muito sexy.
+Espaço aberto ativo para vítimas
 Espaço de armazenamento de arquivos apropriado
 Espaço de criação auto-criado
 Espaço infinito
@@ -10027,6 +10029,7 @@ Pode me deixar ver
 Pode perder o trabalho
 Pode reduzir a produção de células cancerígenas
 Pode sair e viver
+Pode se tornar um político
 Pode ser adicionado à minha playlist de dias úteis?
 Pode ser anexado à parte de trás da capa do telefone
 Pode ser aplicado em reabilitação e cuidados
@@ -10068,6 +10071,7 @@ Política de inovação e empreendedorismo
 Pomares e moleiros, a colheita nunca desmoronou.
 Pontos de vista e instalações de segurança serão a única grande infraestrutura permitida.
 População idosa em todo o mundo
+População total de respondentes
 Por algum motivo,? fomos impedidos de entrar.
 Por aqui nos arbustos.
 Por bem ou por mal.
@@ -14192,6 +14196,7 @@ Vindo aqui
 Vingadores Guerra Infinita.
 Vinho e ouro, quanto mais velho melhor.
 Vinte e cinco unidades, por favor.
+Vinte e uma bases industriais foram planejadas
 Vinte mil dólares por ano?
 Vinte mil não é usado
 Vinícius e Benjamim são Brasileiros.

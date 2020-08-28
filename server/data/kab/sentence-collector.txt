@@ -53138,9 +53138,11 @@ Maɣef ay tettaru Taninna akka?
 Maɣef ay tettaru akka?
 Maɣef ay tettarum akka?
 Maɣef ay tettarumt akka?
+Maɣef ay tettdukkulem ed Yidir?
 Maɣef ay tetteddu ɣer umahil?
 Maɣef ay tetteddu ɣer uɣerbaz?
 Maɣef ay tetteddud ɣer umahil?
+Maɣef ay tetteddud ɣer uɣerbaz?
 Maɣef ay tetteddum ɣer umahil?
 Maɣef ay tetteddum ɣer uɣerbaz?
 Maɣef ay tetteddumt ɣer umahil?
@@ -53309,9 +53311,12 @@ Maɣef ay tmedlem tawwurt?
 Maɣef ay tneggez imekli ass-a?
 Maɣef ay tneggzem imekli ass-a?
 Maɣef ay tnehhṛemt s tɣawla?
+Maɣef ay tqebled ad ten-talled?
 Maɣef ay tqeblem ad ten-tallem?
 Maɣef ay tqeblem ad tgem aya?
 Maɣef ay tqeblemt ad tallemt?
+Maɣef ay tqeblemt ad tgemt aya?
+Maɣef ay tqelliqen akk anect-a?
 Maɣef ay tra Taninna Lezzayer?
 Maɣef ay tra Taninna asaru-a?
 Maɣef ay tra Yidir anect-a akk?

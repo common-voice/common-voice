@@ -3288,6 +3288,8 @@ Ha bőrig ázik is mindenki, az ország földje hízik az esőtől.
 Ha csak egyetlen szót kimondasz, gyilkos tőrré változik a szavad, s bátyáid szívébe fúródik.
 Ha csak moccan, elriasztja ezeket.
 Ha csak rágondolok, végigfut a hideg a csőrömön!
+Ha el nem hallgatsz, kettéhasítom a fejed!
+Ha elpanaszolhatná neki szenvedéseit!
 Ha elvágjuk, legjobb esetben is csak egy pici üres szendvics.
 Ha ennyire biztos vagy benne, akkor bizonyítsd be.
 Ha esedékes volna a támadás, akkor Bobby már itt lenne.
@@ -3354,10 +3356,13 @@ Hadd javasoljak egy új megközelítést!
 Hadd legyen eggyel kevesebb gondja.
 Hadd lobogjon a tűz, amíg csak zubogni nem kezd a víz!
 Hadd látom azt a csökönyös tojást!
+Hadd maradjon csak ott.
 Hadd maradjon!
+Hadd menjek a háborúba!
 Hadd morogjon Varga Pál, csak jó sarut varrjon.
 Hadd segítsek talpra állni!
 Hadd ássak le a kérdésem gyökeréig!
+Hadd üljek a hintóba!
 Hadszíntér lett a szálló?
 Hagyd abba!
 Hagyd az öltönyt, én úgy kalimpálok, mint egy hiperaktív flamingó.
