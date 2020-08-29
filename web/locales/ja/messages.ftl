@@ -475,6 +475,7 @@ de-identified-explanation = データセットの一部としてダウンロー�
 ## Error pages
 
 error-title-404 = お探しのページを見つけられませんでした
+error-title-503 = 予期しないダウンタイムが発生しています
 error-code = エラー { $code }
 
 ## Data
@@ -614,6 +615,10 @@ contribute = 貢献する
 listen = 聴く
 skip = スキップ
 shortcuts = ショートカット
+clips-with-count-pluralized =
+    { $count ->
+       *[other] <bold>{ $count }</bold> 個の音声
+    }
 goal-help-recording = あなたの貢献によって Common Voice は、日々の録音目標 { $goalValue } の内 <goalPercentage></goalPercentage> を達成できました！
 goal-help-validation = あなたの貢献によって Common Voice は、日々の検証目標 { $goalValue } の内 <goalPercentage></goalPercentage> を達成できました！
 contribute-more =
@@ -704,6 +709,7 @@ validations =
 
 your-languages = あなたの言語
 toward-next-goal = 次の目標に向けて
+goal-reached = 目標を達成しました
 clips-you-recorded = 音声の録音件数
 clips-you-validated = 音声の検証件数
 todays-recorded-progress = 今日の Common Voice に録音された数
@@ -747,6 +753,10 @@ how-many-a-week = すばらしいです！週にいくつのクリップです�
 which-goal-type = 話す、聴く、またはその両方をしたいですか？
 receiving-emails-info = 現在、目標リマインダーや Common Voice に関する進捗の更新、ニュースレターなどのメールを受信するように設定されています。
 not-receiving-emails-info = 現在、目標リマインダーや Common Voiceに関する進捗の更新とニュースレターなどのメールを <bold>受信しない</bold> ように設定されています。
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] { $count } 個の音声クリップ
+    }
 help-share-goal = より多くの音声を集めて、目標を共有しましょう
 confirm-goal = 目標を確認
 goal-interval-weekly = 毎週
