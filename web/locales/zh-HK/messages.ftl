@@ -480,6 +480,7 @@ de-identified-explanation = 在打包下載資料集時，從其所貢獻的語�
 ## Error pages
 
 error-title-404 = 搵唔到您想開嘅頁面
+error-title-503 = 我哋遇上意外嘅系统停機時段
 error-content-503 = 網站將會盡快恢復作業。請到我們嘅 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上嘅網站報告問題，或到 <discourseLink>Discourse 討論區</discourseLink>報俾我地，或者瀏覽最新資訊。
 error-code = 錯誤 { $code }
 
