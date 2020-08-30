@@ -630,6 +630,7 @@ report-offensive-language-detail = Veta obsahuje urážky alebo nadávky.
 report-grammar-or-spelling = Gramatická chyba
 report-grammar-or-spelling-detail = Vo vete sa nachádza gramatická chyba alebo preklep.
 report-different-language = Iný jazyk
+report-different-language-detail = Je napísaná v inom jazyku, než aký mám nastavený.
 report-difficult-pronounce = Zložitá výslovnosť
 report-offensive-speech = Urážky
 report-offensive-speech-detail = Nahrávka obsahuje urážky alebo nadávky.
