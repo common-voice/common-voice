@@ -492,7 +492,10 @@ de-identified-explanation = El procesu pol que la información del perfil d'un c
 
 ## Error pages
 
+error-title-404 = Nun pudimos alcontrar esa páxina
 error-title-503 = Tamos esperimentando una cayida temporal
+error-content-503 = El sitiu va volver tar disponible cuando seya posible. Pa les últimes noticies, xúnite a la <matrixLink>charra de la comunidá en Matrix</matrixLink> o visita <githubLink>GitHub</githubLink> o <discourseLink>los nuesos foros en Discourse</discourseLink> pa unviar y supervisar problemes sufríos nel sitiu.
+error-code = Fallu { $code }
 
 ## Data
 
@@ -631,6 +634,11 @@ contribute = Collaborar
 listen = Sentir
 skip = Saltar
 shortcuts = Atayos
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> clip
+       *[other] <bold>{ $count }</bold> clips
+    }
 goal-help-recording = ¡Ayudesti a Common Voive a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } grabaciones!
 goal-help-validation = ¡Ayudesti a Common Voice a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } validaciones!
 contribute-more =
