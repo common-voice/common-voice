@@ -11,7 +11,6 @@ loading = ئامادەسازی
 email-opt-in-info = بەڵێ پێم خۆشە ئیمەیل وەرگرم بۆ وەبیرخستنەوەی ئامانجەکانی من، پێشکەوتی من و هەروەها هەواڵەکانی پڕۆژەی دەنگی گشتی.
 email-opt-in-info-title = خۆت ناونووس کە بۆ لیستی ئیمەیلمان
 email-opt-in-info-sub-with-challenge = ئیمەلەکانی سەبارەت بە وەبیرهێنەرەوەی ئامانجەکانت، پێشکەوتن و هەواڵنامەی سەبارەت بە دەنگی گشتی وەرگرە.
-email-opt-in-privacy = بە قبووڵ کردنی ئەوەی کە ئیمەیل وەرگری، ڕەزامەندی خۆت نێشان دەدەی کە زانیاری تۆ وەک لە <privacyLink>نهێنی پارێزی<privacyLink> باس کراوە بەکار بهێنرێت.
 indicates-required = فیلدی پێویست
 not-available-abbreviation = نادیار
 
@@ -465,10 +464,11 @@ sst-explanation = تەکنۆلۆژیار وتار-بۆ-تێکست، دەیتای
 de-identified = نەشناس-کراو
 de-identified-explanation = پڕۆسەی لابردنی زانیاری پڕۆفیالە هەر کەس لە دەنگەکانی کە بەخشیویەتی، لە پەکەیجی دەیتاسێتەکە لە کاتی دانڵۆد.
 
-## NotFound
+## Error pages
 
-notfound-title = پەیدا نەبوو
-notfound-content = ببوورە نازانم بە شوێن چی دا دەگەڕێی.
+error-title-404 = نەمانتوانی ئەو پەڕەیە بۆ تۆ بدۆزینەوە
+error-title-503 = هەندێ کێشەی تەکنیکی بەرەوڕومان بوەتەوە
+error-code = کێشە { $code }
 
 ## Data
 
@@ -599,7 +599,6 @@ contribute = بەشداری
 listen = ببیستە
 skip = باز دان
 shortcuts = شۆرتکات
-clips-with-count = <bold>{ $count }</bold> کلیپ
 goal-help-recording = تۆ یارمەتی دەنگی گشتیت داوە بگات بە <goalPercentage></goalPercentage> لە ئامانجی زەبت کردنی { $goalValue } رۆژانە.
 goal-help-validation = تۆ یارمەتی دەنگی گشتیت داوە بگات بە <goalPercentage></goalPercentage> لە ئامانجی سەلماندنی { $goalValue } رۆژانە.
 contribute-more =
@@ -694,6 +693,7 @@ validations =
 
 your-languages = زمانەکانی تۆ
 toward-next-goal = بەرەو ئامانجی داهاتوو
+goal-reached = ئامانجەکە سەرکەوتوبوو
 clips-you-recorded = کلیپ کە تۆ زەبتت کردووە
 clips-you-validated = کلیپ کە تۆ سەلماندووتە
 todays-recorded-progress = پێشکەوتنی ئەمڕۆی دەنگی گشتی بۆ کلیپی زەبتکراو
@@ -717,6 +717,7 @@ show-ranking = پلەی نم نیشان بدە
 
 get-started-goals = ئامانجەکان دەست پێ بکە
 create-custom-goal = درووست کردنی ئامانجی شەخسی
+goal-type = دەتەوێت چ جۆرە ئامانجێک دروست بکەیت؟
 both-speak-and-listen = هەردووکیان
 both-speak-and-listen-long = هەردووکیان (وتن و بیستن)
 daily-goal = ئامانجی ڕۆژانە
@@ -730,17 +731,23 @@ want-to-continue = دەتهەوێ بەردەوام بی؟
 finish-editing = پێشتر زەبت کردن تەواو بکەین؟
 lose-changes-warning = ئەگەر ئێستا بڕۆی گۆڕانکارییەکانت لە دەست دەچن
 build-custom-goal = ئامانجێکی شەخسی درووست کە
-help-reach-hours = یارمەتی دبە بگەین بە { NUMBER($hours) } کاژێر لە زمانی { $language } لە ڕێگای ئامانجی شەخسی
-help-reach-hours-general = یارمەتی بدە بە دیاری کردنی ئامانج کە دەنگی گشتی بگاتە { NUMBER($hours) } کاژێر لە زمانەکان
+help-reach-hours-pluralized =
+    یارمەتیمان بە بگەین{ NUMBER($hours) ->
+        [one] { $hours } کاتژمێر
+       *[other] { $hours } کاتژمێر
+    } بە ئامانجی کەسی لە زمانی { $language }
 set-a-goal = دیاری کردنی ئامانج
 cant-decide = ناتوانی بڕیار بدەی؟
-activity-needed-calculation = دەکرێ { NUMBER($totalHours) } کاژێر دەنگ لە ماوەی { NUMBER($periodMonths) } مانگ دا کۆ بکرێتەوە ئەگەر { NUMBER($people) } کەس رۆژانە { NUMBER($clipsPerDay) } کلیپ زبت کەن.
 how-many-per-day = بژی! چەند کلیپ لە ڕۆژدا؟
 how-many-a-week = بژی! چەند کلیپ لە حەفتە دا؟
 which-goal-type = دەتهەوێ قسە بکەی، ببیستی یان هەردووکیان؟
 receiving-emails-info = تۆ ئێستا تۆمار کراوی بۆ وەگرتنی ئیمەیلهای سەبارەت بە وەبیرهێنەرەوەی ئامانجەکان، پێشکەوتنت و هەروەها هەواڵنامەی دەنگی گشتی.
 not-receiving-emails-info = ئێستا تۆ دیاریت کردووە کە ئیمەیلەکانی وەبیرخستەنەوەی ئامامنجەکان، پێشکەوتنت و هەواڵنامەکانی پڕۆژەی دەنگی گشتی <bold>وەرنەگری</bold>.
-n-clips = { NUMBER($count) } کلیپ
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count }کلیپ
+       *[other] { $count }کلیپەکان
+    }
 help-share-goal = یارمەتیمان بدە دەنگی زیاتر کۆ بکەینەوە، ئامانجی خۆت هاوبەش کە
 confirm-goal = ئامانجەکە بسەلمێنە
 goal-interval-weekly = حەفتانە
