@@ -630,6 +630,7 @@ report-offensive-language-detail = Veta obsahuje urážky alebo nadávky.
 report-grammar-or-spelling = Gramatická chyba
 report-grammar-or-spelling-detail = Vo vete sa nachádza gramatická chyba alebo preklep.
 report-different-language = Iný jazyk
+report-difficult-pronounce = Zložitá výslovnosť
 report-offensive-speech = Urážky
 report-offensive-speech-detail = Nahrávka obsahuje urážky alebo nadávky.
 report-other-comment =
@@ -698,6 +699,18 @@ want-to-continue = Chcete pokračovať?
 finish-editing = Nechcete najskôr dokončiť úpravy?
 lose-changes-warning = Ak teraz odídete, prídete o svoje zmeny
 build-custom-goal = Vytvorte si vlastný cieľ
+help-reach-hours-pluralized =
+    Pomôžte dosiahnuť{ NUMBER($hours) ->
+        [one] { $hours } hodinu
+        [few] { $hours } hodiny
+       *[other] { $hours } hodín
+    } v jazyku { $language } pomocou osobných cieľov
+help-reach-hours-general-pluralized =
+    Pomôžte Common Voice dosiahnuť{ NUMBER($hours) ->
+        [one] { $hours } hodinu
+        [few] { $hours } hodiny
+       *[other] { $hours } hodín
+    }v jazyku s pomocou osobných cieľov
 set-a-goal = Vytvoriť cieľ
 cant-decide = Nemôžete sa rozhodnúť?
 which-goal-type = Chcete hovoriť, počúvať alebo oboje?
