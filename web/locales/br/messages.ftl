@@ -635,6 +635,14 @@ contribute = Kemer-perzh
 listen = Selaou
 skip = Mont hebioù
 shortcuts = Berradurioù
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> klip
+        [two] <bold>{ $count }</bold> glip
+        [few] <bold>{ $count }</bold> c’hlip
+        [many] <bold>{ $count }</bold> a glipoù
+       *[other] <bold>{ $count }</bold> klip
+    }
 goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn enrollet bemdez!
 goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn gwiriet bemdez!
 contribute-more = Prest d'ober { $count } ouzhpenn?
@@ -734,6 +742,7 @@ validations =
 
 your-languages = Ho yezhoù
 toward-next-goal = Betek ar pal da zont
+goal-reached = Pal tizhet
 clips-you-recorded = Klipoù enrollet ganeoc'h
 clips-you-validated = Klipoù gwiriekaet ganeoc'h
 todays-recorded-progress = Araokadenn Common Voice an devezh war an niver a glipoù enrollet
@@ -757,6 +766,7 @@ show-ranking = Diskouez ma renkadur
 
 get-started-goals = Kregiñ gant ar palioù
 create-custom-goal = Krouiñ ur pal personelaet
+goal-type = Peseurt pal a fell deoc’h sevel?
 both-speak-and-listen = An daou
 both-speak-and-listen-long = An daou (komz ha selaou)
 daily-goal = Pal pemdeziek
