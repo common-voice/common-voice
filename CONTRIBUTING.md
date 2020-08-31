@@ -127,18 +127,6 @@ At its basic form, the 'config.json' file should look like this:
   }
 ```
 
-##### NewRelic error during startup
-
-If you get a NewRelic error during startup, you can safely ignore it.
-
-```
-web        | [BE] Error: New Relic requires that you name this application!
-web        | [BE] Set app_name in your newrelic.js file or set environment variable
-web        | [BE] NEW_RELIC_APP_NAME. Not starting!
-```
-
-You do not need to set up NewRelic, except if you fix anything related to that.
-
 ##### MySQL error during startup
 
 During the server start (after running ‘yarn start’), you might notice an error log similar to this:
