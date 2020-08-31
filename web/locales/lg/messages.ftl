@@ -446,6 +446,7 @@ about-partnership =
     
     Twagala okwebaza abantu bano n'ebitongole  bino wamanga ku lw'obuyambi ku pulojekiti:
 about-get-involved = Twegatteko
+about-get-involved-text-2 = Oyagala okuyamba Common Voice okulungiwa? Kirungi! Kwatagana naffe ku email oba <discourseLink>Discourse</discourseLink> foramu, weereza ebizibu bya site eno ku <githubLink>GitHub</githubLink>, oba weegatte <matrixLink>Matrix</matrixLink>chat ya  community.
 about-nav-why-common-voice = Lwaki?
 about-nav-how-it-works = Batya?
 about-nav-partners = Ba patana
