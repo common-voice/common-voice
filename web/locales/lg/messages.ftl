@@ -460,6 +460,7 @@ mycroft-secondary-description = Ono software wa lukale asobola okutabikibwa,okug
 
 ## Glossary
 
+glossary = Awannyonnyolerwa Ebigambo
 localization = Okuvunnula
 localization-explanation = Eno y'enkola yaffe ey'okuvvunula n'okukyusa ebintu byaffe mu nnimi ez'enjawulo.
 sentence-collection = Okukunganya sentensi
