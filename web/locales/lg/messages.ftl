@@ -453,6 +453,9 @@ about-nav-partners = Ba patana
 about-nav-get-involved = Twegatteko
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
+mycroft-description =
+    Mycroft ye kiyambi ey'obwereere nga ya lukale eyasooka mu nsi.
+    Mycroft ekolera wonna - ku komputa y'okummeeza, mu automobile, oba ku Raspberry Pi.
 
 ## Glossary
 
