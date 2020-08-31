@@ -456,6 +456,7 @@ mycroft-subtitle = Artificial intelligence
 mycroft-description =
     Mycroft ye kiyambi ey'obwereere nga ya lukale eyasooka mu nsi.
     Mycroft ekolera wonna - ku komputa y'okummeeza, mu automobile, oba ku Raspberry Pi.
+mycroft-secondary-description = Ono software wa lukale asobola okutabikibwa,okugaziyizibwa, era n'okulongoosebwa ku bwereere. Mycroft asobola okukozesebwa mu ngeri yonna okuva ku  pulojekiti ya sayansi okutuuka ku software owa kitunzi.
 
 ## Glossary
 
