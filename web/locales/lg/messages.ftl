@@ -436,10 +436,15 @@ about-yes-votes-text = Okuyingizibwa mu dataset ya Common Voice, clip y'eddobooz
 about-no-votes = ≥ obululu "Nedda" 2
 about-no-votes-text = Omuntu bwagana eddoboozi liddayo emabega mu layini y'ezo ezitannaba kutukibwako. Bweliganibwa ogw'okubiri, eddoboozi lisuulibwa mu limbo.
 about-dataset-new = Dataset ya Common Voice
+about-dataset-new-text = Dataset ya Common Voice erimu amaloboozi enkumi n'enkumi agayamba ba diveropa okuzimba  ebintu ebyeyamisibwa mu tekinologiya w'amaloboozi.
 about-clip-graveyard = Amalaalo G'obuloboozi
 about-clip-graveyard-text = Limbo ya Clip erimu clip z'amaloboozi ezitayinginziddwa mu dataset ya Common Voice. Nga era dataset, Limbo ya Clip weeri okuwanulwa.
 about-partners = Ba patana
 about-become-a-partner = Fuuka patana
+about-partnership =
+    Common Voice pulojekiti ya ku kolera wamu era twesigamye ku  ba patina baffe abangi n'abawaayo okuzimba dataset ey'amaloboozi ekyasinze obunene ate nga ya lukale.
+    
+    Twagala okwebaza abantu bano n'ebitongole  bino wamanga ku lw'obuyambi ku pulojekiti:
 about-get-involved = Twegatteko
 about-nav-why-common-voice = Lwaki?
 about-nav-how-it-works = Batya?
