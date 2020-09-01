@@ -251,6 +251,7 @@ A Dinamarca é pioneira da energia eólica renovável.
 A Espanha está produzindo lotes de alface? páprica e tomates.
 A Europa é um pouco menor que o Brasil.
 A Fine Manufacturing Company foi contadora por catorze anos.
+A Guerra Japonês-Russa
 A Inglaterra tinha corrido para esse novo curso com uma espécie de raiva.
 A Internet deve colocar o poder nas mãos dos muitos
 A Internet deve refletir todas as pessoas que a usam
@@ -342,6 +343,7 @@ A cena que vejo agora
 A cera de parafina é um ingrediente importante de uma vela.
 A cerveja foi mais do que apenas refrescante? foi delicioso.
 A cerveja provei realmente bom.
+A chuva de Taichung é muito grande?
 A chuva era forte, assim como o vento.
 A chuva se moverá para a direção noroeste na parte da tarde.
 A cidade ainda estava dormindo.
@@ -478,6 +480,7 @@ A fronteira era fortemente vigiada.
 A fruta laranja ainda não está madura.
 A fumaça do tráfego era insuportável.
 A furadeira sem fio da Jade se tornou defeituosa.
+A fábrica foi demitida devido a um mau funcionamento.
 A fábrica recentemente fez dinheiro
 A fé dela era imensa.
 A galinha e o galo não se davam bem.
@@ -825,6 +828,7 @@ A tristeza em casa é um desejo mórbido de voltar para casa.
 A troca justa não é um roubo.
 A tropa nova do escuteiro de menino olha sobre quando em seus uniformes.
 A turma de amanhã será
+A turnê social foi cancelada?
 A uma certa escala
 A universidade não aceita alunos com notas baixa.
 A vaca preguiçosa estava deitada na grama fresca.
@@ -1055,11 +1059,13 @@ Ainda bem que ele tirou o "T" disso.
 Ainda continuará a avançar
 Ainda correm águas profundas
 Ainda depois daquele primeiro milhão antes dos trinta.
+Ainda deve ser mantido no North Gate
 Ainda espero viver no país
 Ainda estamos lá, mas está chegando ao fim.
 Ainda existem alguns registros
 Ainda faltam duas horas
 Ainda gosto de mim conversando com ela
+Ainda há mais de uma dúzia de pessoas indo ao ônibus.
 Ainda há muitas idéias para fortalecer
 Ainda há muito tempo.
 Ainda há tantas pessoas como nos dias anteriores, isto é, ninguém.
@@ -1253,6 +1259,7 @@ América do Sul.
 América?, a bela?, como sintetizada por esta cena de ilha de doces.
 Amêijoas são pequenas, redondas, macias e saborosas.
 Ana, Júlio, Juliana e José foram ao evento na quinta.
+Analise maneiras de explorar a si mesmo
 Analise possíveis aplicações e oportunidades
 Andando sobre a corda bamba outra vez
 Ande na grama em meus pés descalços?
@@ -1315,6 +1322,7 @@ Apenas andando
 Apenas as luzes da grande tenda permaneceram.
 Apenas comeu pudim
 Apenas deixe seu cartão com o garoto.
+Apenas deixe um casaco grande diretamente
 Apenas destacando esse fato no caso de você ter esquecido isso.
 Apenas diga a eles que Marge te enviou.
 Apenas em nossa loja no andar de cima
@@ -1653,6 +1661,7 @@ Atrair talentos e reter talentos
 Através da visão única do curador
 Atrás da cruz está o diabo.
 Atualizar o sistema.
+Atualmente ainda no anúncio da fase inicial de seleção
 Atualmente em arbitragem
 Atualmente internacionalmente, seja Tóquio, Seul, Londres
 Atualmente, qualquer pessoa ou órgão interessado pode propor novos emojis ao Unicode Consortium.
@@ -1899,6 +1908,7 @@ Cassie desmontou a bicicleta.
 Catalunha, não vamos descobrir agora, é uma terra de passagem.
 Catherine andou ao lado do canal.
 Cauda sem desempenho
+Causando mais dano de conflito
 Cavaleiro da bicicleta pulando obstáculos.
 Cavalo dado não se olha os dentes.
 Cavar fundo na terra para o ouro dos piratas.
@@ -1961,6 +1971,7 @@ Cheque de autoridade empresarial de propósito central
 China tem liberdade e democracia
 Chineses em outras partes do mundo
 Chineses estão esperando pelo carro
+Chorando o fluxo dos olhos
 Chris disse que Lisa fez isso, mas eu não confio nele.
 Chupou suas duas bofetadas
 Chuva no final de setembro, em outubro de plantio de cogumelos.
@@ -2024,6 +2035,7 @@ Coberto com lona
 Coberto com palha
 Cobrança de dívidas de cassino é mais feroz e mais ruim
 Cobrança geral do povo
+Coincidentemente a mãe sai da sonda
 Colaborar com os inspetores atuariais na avaliação de ativos urbanos e rurais.
 Colaborar na definição da estratégia e dos objetivos na programação de ações.
 Colar pode limpar o latão mais sujo.
@@ -2159,6 +2171,7 @@ Como posso saber?
 Como posso te agradecer?
 Como preliminar, familiarize-se com o conceito básico de fissão nuclear.
 Como procurar uma agulha num palheiro.
+Como projetar verificação
 Como quando você entra em uma farmácia.
 Como resolver
 Como resultado, comprei um total de três livros.
@@ -2257,6 +2270,7 @@ Comprometido em aumentar a taxa de participação da mulher no trabalho
 Compromisso de longo prazo
 Comprou chocolate cru
 Comprou dois pacotes de bolo de mel
+Comprou um espeto e lula
 Comprou um monte de pequenos bolos
 Comprou uma passagem de onibus
 Computador.
@@ -2287,6 +2301,7 @@ Conhecendo a realidade.
 Conhecimento é melhor que riquezas
 Conhecimento é poder
 Conheça as tendências e aplicações futuras
+Conheça o seguinte
 Conscientização de todos os operadores para que eles utilizem primeiro produtos que expiram antes.
 Consciência faz covardes de todos nós
 Consequentemente, o regime de competência acima mencionado tem um caráter fortemente assimétrico.
@@ -2601,6 +2616,7 @@ Derretido no ar fino
 Derrube todas as cercas.
 Desafie nossa vontade
 Desamparados, eles correram
+Desate o embaraço duradouro
 Desativar os gadgets que não estão em uso pode economizar muita energia.
 Desativei algumas das autoridades de certificação, mas elas não estão esmaecidas nessa lista.
 Desativei algumas das autoridades de certificação?, mas elas não estão esmaecidas nessa lista.
@@ -3543,6 +3559,7 @@ Ela é de Belo Horizonte.
 Ela é de uma segunda geração de imigrantes.
 Ela é gentil e doce e atenciosa.
 Ela é justa.
+Ela é mais cautelosa em fazer as coisas.
 Ela é melhor que ela própria, muito mais estrangeira.
 Ela é romântica.
 Ela é uma feroz pequena doninha.
@@ -4587,8 +4604,10 @@ Esta afirmação é completamente falsa.
 Esta banana tem gosto de cerejas.
 Esta bobina mortal
 Esta caixa de marcadores tem muitas cores diferentes.
+Esta casa também é comprada por um empréstimo.
 Esta cerveja foi fabricada na Alemanha, mais especificamente na Baviera.
 Esta cerveja foi fabricada na Alemanha?, mais especificamente na Baviera.
+Esta classe era originalmente um ônibus de turnê.
 Esta comida é bastante insípida, mas cara.
 Esta convenção vai custar muito.
 Esta criança está segurando balões brancos e azuis vermelhos
@@ -4916,6 +4935,7 @@ Eu comecei a correr no ginásio na semana passada.
 Eu comecei a cozinhar depois que cheguei em casa.
 Eu comecei sozinho em casa na oficina.
 Eu começo a ver.
+Eu comprei algo muito parecido com o squid.
 Eu comprei mais de trinta vieiras
 Eu comprei três livros em uma tarde.
 Eu comprei uma cocada deliciosa!
@@ -5459,6 +5479,7 @@ Eu proporia um ataque de dicionário em vez de força bruta.
 Eu pulei para salvar Rachel.
 Eu quase esqueci minha bolsa da câmera.
 Eu quase me esqueci depois de comer.
+Eu quase não consegui me concentrar nisso.
 Eu queimei a omelete.
 Eu queria dormir um pouco mais? ele pensou.
 Eu queria ir ao McDonald's.
@@ -6078,6 +6099,7 @@ Fora do calendário escolar, você receberá apoio de saúde.
 Fora é uma floresta
 Foram tempos de infelicidade.
 Forma de resolução
+Formatura nacional de hoje
 Fornecer cobertura para todos os atos e serviços que a corporação organiza ou exige.
 Fornecer serviço satisfatório e móvel
 Fornecer serviços diversificados e ricos
@@ -7166,6 +7188,7 @@ Mesmo os? fracos quando unidos? se tornam poderosos.
 Mesmo quando tudo que você quer fazer é viajar?
 Mesmo que as ovelhas não me ensinassem a falar árabe.
 Mesmo que eu não fale bem em taiwanês
+Mesmo se a neve
 Mesmo se for reeleito, são apenas sete anos.
 Mesmo se você limpou meu cristal por um ano inteiro...
 Mesmo se você pensa assim
@@ -7645,6 +7668,7 @@ Nos próximos anos, provavelmente iremos até Marte.
 Nos reunimos de novo
 Nos salvou outro prédio.
 Nos vemos na hora do almoço
+Nos últimos anos, é realmente o primeiro ano de soprar bolhas.
 Nossa cadela tinha filhotes? você quer um?
 Nossa detecção de colisão só funciona para corpos rígidos.
 Nossa família ainda precisa de dinheiro.
@@ -8370,6 +8394,7 @@ O comprador sabe ou pode razoavelmente saber a incorreção.
 O computador estava enlouquecendo, exibia um absurdo truncado e depois desligava.
 O computador não vai superaquecer
 O comunismo é o oposto do capitalismo.
+O conceito principal é
 O confisco dos elementos utilizados para cometer a infração também pode ser decretado.
 O conflito não foi resolvido.
 O congresso fica em Brasília.
@@ -8923,6 +8948,7 @@ O primeiro dia passou.
 O primeiro ministro.
 O primeiro termo passou um ano
 O primo também se mudou para Luzhou para morar com eles.
+O principal conceito é
 O principal esforço da alma vai para esta banda.
 O princípio deste método é muito simples
 O problema deve estar bem
@@ -9200,6 +9226,7 @@ O tempo aqui é tão bom.
 O tempo deve olhar mais longe
 O tempo devia estar em algum lugar por volta das seis horas.
 O tempo está acabando
+O tempo está super bom no almoço
 O tempo nos traz muitas mudanças.
 O tempo parecia ter parado, o evento estava tocando.
 O tempo perdido nunca mais retorna.
@@ -9278,6 +9305,7 @@ O ventilador estava girando silenciosamente.
 O vento começou a soprar novamente.
 O vento gritou com prazer? e explodiu mais do que nunca.
 O vento limpo, às sete horas, vai dormir.
+O vento sopra deles
 O vento tem muitos nomes.
 O verdadeiro homem pobre é o mestre que nunca foi aprendiz.
 O verdadeiro tratamento não é assim
@@ -9685,6 +9713,7 @@ Paciente que recebeu radioterapia
 Paciência tem limite
 Pacote quente é super barato
 Pagamento de horas extras
+Pagar após inspeção
 Pai e filha estão jogando em uma área rasa de um lago juntos.
 Paixão imponente
 Palavras boas não maculam o repolho.
@@ -9812,6 +9841,7 @@ Parece haver uma lacuna
 Parece lógico.
 Parece menos que no ano passado
 Parece que ela pode manter Kathy na ponta dos pés.
+Parece que eu tenho que comprar um único painço.
 Parece que o desempenho não é muito pior.
 Parece que sempre? está sempre escuro aqui.
 Parece separá-los
@@ -10012,6 +10042,7 @@ Planos de longo prazo deveriam ter sido feitos há muito tempo
 Pobre daquele que muito escuta, mas pouco ouve...
 Pobre que só conhece uma música não ganha mais do que um pouco.
 Pode ajudar
+Pode ajudar a melhorar o corpo ácido
 Pode ajudar com o processamento
 Pode colocar no meu cartão.
 Pode economizar uma quantia em dinheiro
@@ -10326,6 +10357,7 @@ Preste sempre atenção ao hábito do tempo
 Presumivelmente, Ryan nunca fez nenhum teste de sanidade.
 Presumo entender que a senhora pretende deturpar os fatos apresentados por mim?
 Preto e branco, é girado.
+Prevenção do delinquente juvenil
 Primeira despedida
 Primeira esposa de Warren Buffett.
 Primeiro andar como armazém
@@ -10340,6 +10372,7 @@ Primeiro você tem que assinar um recibo.
 Primeiro? eles tentaram encontrá-lo sozinhos.
 Primeiro?, a rota de comércio terrestre entre leste e oeste perdeu relevância.
 Primeiro?, você precisa instalar uma extensão que rotule elementos clicáveis ​​na página.
+Primo abriu uma fábrica
 Primo veio para persuadir
 Principalmente apenas os corações daqueles que estão tentando realizar seus destinos.
 Princípio de não ferir ninguém
@@ -10563,6 +10596,7 @@ Quando ele fala em nossa língua, eu posso interpretar o que ele disse.
 Quando ele olhou para as pedras, sentiu-se aliviado por algum motivo.
 Quando ele surgiu? foi com um jovem árabe? vestido de branco e dourado.
 Quando em março é alto, a amêndoa é boa.
+Quando entrei no campo
 Quando estamos saindo
 Quando eu continuo indo
 Quando eu era criança, o Ano Novo Chinês estava muito frio.
@@ -10993,6 +11027,7 @@ Rever sentenças.
 Revise as declarações fiscais com vista à sua apresentação.
 Revise os resultados da reunião de revisão
 Revisão dos verões bascos de verão.
+Reúna e comunique-se
 Ria e o mundo ri com você. Chore e chore sozinho.
 Richard foi acampar sozinho.
 Rico aqui, pobre daqui em diante.
@@ -11176,6 +11211,7 @@ Segunda de manhã às cinco horas.
 Segunda-feira não é meu pior dia da semana.
 Segunda-feira é muito puxada.
 Segundo dados do serviço, passaram a existir mais de um milhão de frases.
+Segundo filho fumando, bebendo
 Segundo o dicionário, isso não é verdade.
 Segundo parágrafo do parágrafo anterior
 Segurando o saco de papel com dinheiro
@@ -11622,6 +11658,7 @@ Tempo de leitura na livraria
 Tempo em Malásia
 Tempo virar
 Tempo, tudo cura.
+Temporariamente não aberto para visita
 Tendo ouvido que? o menino ficou ainda mais interessado em alquimia.
 Tenha cuidado
 Tenha dinheiro para comprar colares de ouro para você
@@ -11801,6 +11838,7 @@ Todos? quando são jovens? sabem qual é o seu destino.
 Tolo, com o que você está preocupado?
 Tolos correm para lugares onde anjos temem pisar.
 Tom hanks lendo um livro na tomada de náufrago.
+Tomando minhas filhas como modelos
 Tomando o ferry foi uma escolha sábia.
 Tomar drogas que são confusas por si
 Tome a decisão errada
