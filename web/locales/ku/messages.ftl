@@ -11,6 +11,7 @@ loading = ئامادەسازی
 email-opt-in-info = بەڵێ پێم خۆشە ئیمەیل وەرگرم بۆ وەبیرخستنەوەی ئامانجەکانی من، پێشکەوتی من و هەروەها هەواڵەکانی پڕۆژەی دەنگی گشتی.
 email-opt-in-info-title = خۆت ناونووس کە بۆ لیستی ئیمەیلمان
 email-opt-in-info-sub-with-challenge = ئیمەلەکانی سەبارەت بە وەبیرهێنەرەوەی ئامانجەکانت، پێشکەوتن و هەواڵنامەی سەبارەت بە دەنگی گشتی وەرگرە.
+email-opt-in-privacy-v2 = ئەگەر خۆت تۆمار بکەی بۆ وەرگرتنی ئیمەیل ئەوە رەزامەندی خۆت دەردەبڕی لەوەی کە مووزیلا ئەم زانییاریانە وەک لە <privacyLink>سیاسەتی پاراستنی نهێنی</privacyLink> مووزیلا هاتوە بەکار بێنێت.
 indicates-required = فیلدی پێویست
 not-available-abbreviation = نادیار
 
@@ -468,6 +469,7 @@ de-identified-explanation = پڕۆسەی لابردنی زانیاری پڕۆف�
 
 error-title-404 = نەمانتوانی ئەو پەڕەیە بۆ تۆ بدۆزینەوە
 error-title-503 = هەندێ کێشەی تەکنیکی بەرەوڕومان بوەتەوە
+error-content-503 = سایتەکە بە زووترین کات چالاک دەکرێتەوە. بۆ بینینی تازەترین زانیاری تکایە خۆتان لە <matrixLink>چاتی کۆمەڵەی Matrix</matrixLink> تۆمار بکەن یان سەردانی <githubLink>GitHub</githubLink> و هەروەها <discourseLink>مەکۆی Discourseی ئێمە</discourseLink> بکەن بۆ ناردنی راپۆرت سەبارەت بە ماڵپەڕەکەمان.
 error-code = کێشە { $code }
 
 ## Data
@@ -488,6 +490,7 @@ data-bundle-description = دەنگی گشتی و هەمووی دەیتاسێتە
 license = مۆڵەت: <licenseLink>{ $license }</licenseLink>
 license-mixed = تێکەڵ
 data-download-singleword-title = داگترنی بەشی ئامانجی تەک وشەیی
+data-download-singleword-callout = ئەوە بەشێکی تایبەتە بۆ چالاک کردنی ناسینەوەی رەقەم، بەڵێ/نەخێر و وشەی Wakeword بۆ پڕۆژەی <fxLink>Firefox Voice</fxLink>
 review-terms = بە بەکارهێنانی دەنگی گشتی، تۆ ڕەزامەندی بە <termsLink>یاساکان</termsLink> و <privacyLink>ن‌ینی پارێزی</privacyLink> ئێمە.
 terms-agree = ڕەزامەندم
 terms-disagree = ڕەزامەند نیم
@@ -742,8 +745,27 @@ help-reach-hours-pluralized =
         [one] { $hours } کاتژمێر
        *[other] { $hours } کاتژمێر
     } بە ئامانجی کەسی لە زمانی { $language }
+help-reach-hours-general-pluralized =
+    یارمەتی بدە پڕۆژەی دەنگی گشتی لەڕێگەی ئامانجی کەسی بگات بە{ NUMBER($hours) ->
+        [one] { $hours } کاژێر
+       *[other] { $hours } کاژێر
+    }لە زمانی داخوازت
 set-a-goal = دیاری کردنی ئامانج
 cant-decide = ناتوانی بڕیار بدەی؟
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } کاژێر
+       *[other] { $totalHours } کاژێر
+    }لە ماوەی{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } مانگ
+       *[other] { $periodMonths } مانگ
+    }کۆ دەبێتەوە ئەگەر{ NUMBER($people) ->
+        [one] { $people } کەس
+       *[other] { $people } کەس
+    }رۆژانە{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } کلیپ
+       *[other] { $clipsPerDay } کلیپ
+    }زەبت بکەن.
 how-many-per-day = بژی! چەند کلیپ لە ڕۆژدا؟
 how-many-a-week = بژی! چەند کلیپ لە حەفتە دا؟
 which-goal-type = دەتهەوێ قسە بکەی، ببیستی یان هەردووکیان؟
