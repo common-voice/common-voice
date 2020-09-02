@@ -487,6 +487,7 @@ data-bundle-button = دانڵۆد کردنی دەیتاسێت
 data-bundle-description = دەنگی گشتی و هەمووی دەیتاسێتەکانی سەرەوە.
 license = مۆڵەت: <licenseLink>{ $license }</licenseLink>
 license-mixed = تێکەڵ
+data-download-singleword-title = داگترنی بەشی ئامانجی تەک وشەیی
 review-terms = بە بەکارهێنانی دەنگی گشتی، تۆ ڕەزامەندی بە <termsLink>یاساکان</termsLink> و <privacyLink>ن‌ینی پارێزی</privacyLink> ئێمە.
 terms-agree = ڕەزامەندم
 terms-disagree = ڕەزامەند نیم
@@ -599,6 +600,11 @@ contribute = بەشداری
 listen = ببیستە
 skip = باز دان
 shortcuts = شۆرتکات
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> کلدپ
+       *[other] <bold>{ $count }</bold> کلیپ
+    }
 goal-help-recording = تۆ یارمەتی دەنگی گشتیت داوە بگات بە <goalPercentage></goalPercentage> لە ئامانجی زەبت کردنی { $goalValue } رۆژانە.
 goal-help-validation = تۆ یارمەتی دەنگی گشتیت داوە بگات بە <goalPercentage></goalPercentage> لە ئامانجی سەلماندنی { $goalValue } رۆژانە.
 contribute-more =
