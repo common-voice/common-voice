@@ -466,8 +466,10 @@ localization-explanation = Eno y'enkola yaffe ey'okuvvunula n'okukyusa ebintu by
 sentence-collection = Okukunganya sentensi
 sentence-collection-explanation = Okukunganya sentensi okuva mu tterekero ly'olukale, oba okuwandiika empya.
 hours-recorded-explanation = Omuwendo gw'amaloboozi mu ssaawa ze twakalikodinga.
+hours-validated-explanation = Omuwendo gw'essaawa z'amaloboozi agalikondingibwa nga gakakasiddwa abantu babiri ku basatu n'akalulu aka "Ye". Bino biraga pulojekiti weetuuse ku kiruubirirwa  eky'essaawa omutwalo gumu.
 sst = Eddoboozi-mu-buwandiike (STT)
 sst-explanation = Tekinologiya wa Speech-to-text (STT) akyusa eddoboozi n'alizza mu buwandiike
+de-identified = De-identified
 
 ## Error pages
 
