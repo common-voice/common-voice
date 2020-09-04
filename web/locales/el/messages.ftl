@@ -484,6 +484,7 @@ de-identified-explanation = Η διαδικασία κατά την οποία �
 ## Error pages
 
 error-title-404 = Δεν ήταν δυνατή η εύρεση αυτής της σελίδας
+error-content-404 = Ίσως σας βοηθήσει η <homepageLink>αρχική μας σελίδα</homepageLink>; Για να θέσετε μια ερώτηση, παρακαλούμε γίνετε μέλος της <matrixLink>συνομιλίας της κοινότητας Matrix</matrixLink>, παρακολουθήστε τα ζητήματα της σελίδας μέσω του <githubLink>GitHub</githubLink> ή επισκεφτείτε το <discourseLink>φόρουμ στο Discourse</discourseLink>.
 error-title-503 = Αντιμετωπίζουμε μη αναμενόμενο χρόνο διακοπής λειτουργίας
 error-content-503 = Η ιστοσελίδα θα επανέλθει το συντομότερο δυνατό. Για τις πιο πρόσφατες πληροφορίες, παρακαλούμε γίνετε μέλος της <matrixLink>της κοινότητας μας στο Matrix</matrixLink>, επισκεφθείτε το <githubLink>GitHub</githubLink> ή το <discourseLink>φόρουμ μας στο Discourse</discourseLink> για να υποβάλετε και να παρακολουθείτε ζητήματα σχετικά με την ιστοσελίδα.
 error-code = Σφάλμα { $code }
