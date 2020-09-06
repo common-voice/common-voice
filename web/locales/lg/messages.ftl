@@ -470,9 +470,11 @@ hours-validated-explanation = Omuwendo gw'essaawa z'amaloboozi agalikondingibwa 
 sst = Eddoboozi-mu-buwandiike (STT)
 sst-explanation = Tekinologiya wa Speech-to-text (STT) akyusa eddoboozi n'alizza mu buwandiike
 de-identified = De-identified
+de-identified-explanation = Enkola ey'okukweka ebikwata ku ayambako okuva  ku ddoboozi ly'awaddeyo bwe liteekebwateekebwa okuwanulwa awamu ne dataset.
 
 ## Error pages
 
+error-title-404 = Tetusobodde kufunira page eyo
 
 ## Data
 
