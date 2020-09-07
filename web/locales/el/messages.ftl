@@ -777,6 +777,20 @@ help-reach-hours-general-pluralized =
     }σε μια γλώσσα με ένα προσωπικό ρεκόρ
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } ώρα
+       *[other] { $totalHours } ώρες
+    }μπορεί(ούν) να επιτευχθεί(ούν) σε λίγο περισσότερο από{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } μήνα
+       *[other] { $periodMonths } μήνες
+    }αν{ NUMBER($people) ->
+        [one] { $people } άτομο
+       *[other] { $people } άτομα
+    }καταγράφει(ουν){ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } κλιπ
+       *[other] { $clipsPerDay } κλιπ
+    }κάθε μέρα.
 how-many-per-day = Εξαιρετικά! Πόσα κλιπ την ημέρα;
 how-many-a-week = Εξαιρετικά! Πόσα κλιπ την εβδομάδα;
 which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή και τα δύο;
