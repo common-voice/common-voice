@@ -705,6 +705,7 @@ validated-clips = Clips ezikakasiddwa
 total-approved = Omuwendo gw'ebisiimiddwa
 overall-accuracy = Overall Accuracy
 set-visibility = Set my visibility
+visibility-explainer = Seetingi eno eyamba ku kulabika kwa leaderboard. Bw'ekwekebwa, okulaba wootuuse kuba kwa kyama. Kino kitegeeza, ekifaananyi kyo, erinnya ne wootuuse tebijja kulabika ku leadersboard . Jjukira nti leaderboard bwedda obuggya etwala ~{ $minutes } eddakiika okukyusa.
 visibility-overlay-note = Jjukira: Bw'eteekebwa ku 'Visible', setting eno esobola okukyusibwa ku <profileLink>Profile page</profileLink>
 show-ranking = Ndaga wendi
 
