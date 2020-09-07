@@ -484,6 +484,7 @@ data-download-deny = Nedda
 data-download-license = Layisensi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Oli kumpi kutandika download eya <size>{ $size }GB</size>, weeyongereyo?
 data-subtitle = Tuzimba dataset ey'obwereere era nga yalukale nga y'amaloboozi buli muntu gy'asobola okukozesa okuyigiriza tekinologiya w'okwogera.
+data-explanatory-text = Tukkiriza nti dataset enene ate nga za lukale az'amaloboozi zireeta okuyiiya n'okuvuganya okulungi okw'ebyensimbi mu tekinologiya w'okwogera. Kuno kulafuubana kwa nsi yonna era tuyita buli omu okwenyigiramu. Ekigendererwa kyaffe kuyamba tekinologiya w'okwogera okukikirira n'okulaga  enjawulo eriwo mu maloboozi mu nsi yonna.
 data-get-started = <speechBlogLink>Tandika N'okutegera Amaloboozi</speechBlogLink>
 data-other-title = Dataset z'amaloboozi endala...
 data-other-goto = Genda mu { $name }
@@ -493,6 +494,7 @@ data-bundle-description = Data wa Common Voice gattako dataset y'amaloboozi amal
 license = Layisinsi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Ntabule
 data-download-singleword-title = Dawunulodinga ekitundu kya tageti ya Single Word
+data-download-singleword-callout = This is a use case driven segment containing data to power spoken digit recognition, yes / no detection, and wakeword testing data for <fxLink>Firefox Voice</fxLink>.
 review-terms = Bw'okozesa Common Voice, okiriza <termsLink>Enkolagana</termsLink> ne <privacyLink>Eby'ekyama</privacyLink>
 terms-agree = Nzikiriza
 terms-disagree = Si kkiriza
@@ -507,6 +509,13 @@ review-delete-recordings = Sazaamu ebilikodinge byange
 
 ## Datasets Page
 
+datasets-headline = Tuzimba dataset y'amaloboozi ey'obwereere ey'ennimi ennyingi  omuntu yenna gy'asobola okukozesa okuyigiriza tekinologiya  w'okwogera.
+datasets-positioning =
+    Tukkiriza nti dataset y'amaloboozi ennene ey'abantu bonna ey'obwereere ejja kwongera amaanyi mu buyiiya n'okuvuganya mu by'ensimbi okulungi mu kuyiga kwa masiini mu tekinologiya akozesa amaloboozi.
+    
+    Dataset wa Common Voice ow'ennimi ennyingi ye dataset w'amaloboozi omungi  ow'olukale ali available ow'ekika kino, naye si yeyekka aliwo.
+    
+    Tunuulira page eno ng'ejjulizibwako dataset ow'amaloboozi ow'obwereere era nga Common Voice bwayongera okukula, Awaka aw'okufulumiza updates zaffe.
 language = Olulimi
 # File size in gigabytes
 size = Obunene
