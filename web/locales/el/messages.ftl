@@ -506,6 +506,8 @@ data-bundle-button = Λήψη ολόκληρου του συνόλου δεδο�
 data-bundle-description = Τα δεδομένα του Common Voice, καθώς και όλα τα άλλα σύνολα φωνητικών δεδομένων που περιγράφονται πιο πάνω.
 license = Άδεια χρήσης: <licenseLink>{ $license }</licenseLink>
 license-mixed = Μεικτό
+data-download-singleword-title = Λήψη τμήματος μεμονωμένης λέξης
+data-download-singleword-callout = Πρόκειται για ένα τμήμα ειδικών χρήσεων, που περιέχει δεδομένα για αναγνώριση ψηφίων στην ομιλία, ανίχνευση "ναι"/"όχι", καθώς και δεδομένα δοκιμής λέξης ενεργοποίησης για το <fxLink>Firefox Voice</fxLink>.
 review-terms = Εάν χρησιμοποιείτε το Common Voice, συμφωνείτε με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink>
 terms-agree = Συμφωνώ
 terms-disagree = Δεν συμφωνώ
@@ -768,6 +770,11 @@ help-reach-hours-pluralized =
         [one] { $hours } ώρα
        *[other] { $hours } ώρες
     } στα { $language } με ένα προσωπικό στόχο
+help-reach-hours-general-pluralized =
+    Βοηθήστε το Common Voice να φτάσει την/τις { NUMBER($hours) ->
+        [one] { $hours } ώρα
+       *[other] { $hours } ώρες
+    }σε μια γλώσσα με ένα προσωπικό ρεκόρ
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
 how-many-per-day = Εξαιρετικά! Πόσα κλιπ την ημέρα;
