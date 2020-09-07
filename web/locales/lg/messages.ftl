@@ -742,6 +742,9 @@ cant-decide = Tosobola kusalawo?
 how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
 how-many-a-week = Kilungi! Buloboozi bumeka mu wiiki?
 which-goal-type = Oyagala kw'ogera, Kuwuliriza oba by'ombi?
+receiving-emails-info =
+    Kaakano oteekeddwa  okufuna emails nga ezikujjukiza ku kiruubirirwakyo,¶
+    wootuuse n'ebikwata ku Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } clip
