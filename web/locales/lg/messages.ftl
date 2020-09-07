@@ -511,11 +511,11 @@ review-delete-recordings = Sazaamu ebilikodinge byange
 
 datasets-headline = Tuzimba dataset y'amaloboozi ey'obwereere ey'ennimi ennyingi  omuntu yenna gy'asobola okukozesa okuyigiriza tekinologiya  w'okwogera.
 datasets-positioning =
-    Tukkiriza nti dataset y'amaloboozi ennene ey'abantu bonna ey'obwereere ejja kwongera amaanyi mu buyiiya n'okuvuganya mu by'ensimbi okulungi mu kuyiga kwa masiini mu tekinologiya akozesa amaloboozi.
-    
-    Dataset wa Common Voice ow'ennimi ennyingi ye dataset w'amaloboozi omungi  ow'olukale ali available ow'ekika kino, naye si yeyekka aliwo.
-    
-    Tunuulira page eno ng'ejjulizibwako dataset ow'amaloboozi ow'obwereere era nga Common Voice bwayongera okukula, Awaka aw'okufulumiza updates zaffe.
+    Tukkiriza nti dataset enene ate nga za lukale az'amaloboozi zireeta okuyiiya n'okuvuganya okulungi okw'ebyensimbi mu tekinologiya w'okwogera.¶
+    ¶
+    Dataset ya Common Voice ey'ennimi ennyingi ye dataset ey'amaloboozi ey'olukale esinga obunene mu ngeri yaayo, naye si ye yokka.
+    ¶
+    Tunuulira page eno nga ekyokulabirako kya dataset z'amaloboozi ez'olukale era, nga Common Voice bwe ye yongera okukula, ekibanja aw'okufulumiza ebipya ebyaffe.
 language = Olulimi
 # File size in gigabytes
 size = Obunene
@@ -540,6 +540,8 @@ subscribe = Wewandiise
 get-started-speech = Tandika Okutegera Amaloboozi
 other-datasets = Dataset z'amaloboozi endala
 feedback-q = Oyina obubaka?
+deepspeech-info = Dataset ya Common Voice ekwatagana ne tekinologiya ow'obwereere owa Deep Speech owa Mozilla, gw'osobola okukozesa okuzimba tekinologiya ategeera amaloboozi. Soma <githubLink>Github overview</githubLink>  oba weyunge ku <discourseLink>DeepSpeech Discourse</discourseLink> okuyiga engeri y'okutandika.
+common-voice-info-new = Oyina ebibuuzo ebikwata ku Common Voice? Ebirowoozo by'okulongoosa oba obubaka obukwata ku lulimi olumu? Tweyungeko ku  <discourseLink>Discourse forum</discourseLink> otubuulire.
 go-discourse = Genda ku Discourse
 missing-language = Olulimi lwo tolulaba mu Dataset? Okusaba olulimi genda pegi yaffe Ey'ennimi.
 go-languages-page = Genda Ku Pegi y'ennimi
