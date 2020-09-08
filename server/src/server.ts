@@ -41,7 +41,7 @@ const CSP_HEADER = [
   `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
   // Note: we allow unsafe-eval locally for certain webpack functionality.
-  `script-src 'self' 'unsafe-eval' 'sha256-yybRmIqa26xg7KGtrMnt72G0dH8BpYXt7P52opMh3pY=' 'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.prod.mozaws.net https://fullstory.com https://edge.fullstory.com`,
+  `script-src 'self' 'unsafe-eval' 'sha256-DuorfhDEHHCiLVbhlN7ms52/01i7fGLsiLhiV9Veexs=' 'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.prod.mozaws.net https://fullstory.com https://edge.fullstory.com`,
   `font-src 'self' https://fonts.gstatic.com`,
   `connect-src 'self' blob: https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.prod.mozaws.net https://basket.mozilla.org https://basket-dev.allizom.org https://rs.fullstory.com https://edge.fullstory.com`,
   `frame-src https://optimize.google.com`,
