@@ -1,5 +1,6 @@
 "Aku cinta kamu" - Saya tidak akan mengucapkan kata semacam itu.
 "Aku ingin buku itu", katanya pada dirinya sendiri.
+"Aku memilih jalan hidup yang salah." adalah kata-kata terakhirnya.
 "Apa kabar?" "Kabar saya baik, terima kasih."
 "Apakah kau melihat ponselku?" "Ada di meja."
 "Berapa umurmu?" "Aku enam belas tahun."
@@ -11,6 +12,7 @@
 "Kosong" sama dengan "nol".
 "Mengapa kamu sangat tertarik dengan Negara Jerman?" "Aku tidak tahu."
 "Michael" adalah nama laki-laki, tetapi "Michelle" adalah nama perempuan.
+"Sejujurnya," kata Dima. "Aku benar-benar tidak bisa mengingat siapa mereka..."
 "Selamat pagi," kata Tom sambil tersenyum.
 "Siapa namamu?" "Mary." " Nama yang indah."
 "Tatoeba" dalam Bahasa Jepang berarti "contohnya".
@@ -35,6 +37,7 @@ Ada jalan rahasia di sebelah kiri.
 Ada kalanya hidup itu tidak seindah yang dibayangkan.
 Ada kebun buah di rumahku.
 Ada kebun di samping rumah kami
+Ada kucing.
 Ada lebih banyak mobil di jalan saat musim panas dari pada di musim dingin.
 Ada masalah yang tidak kamu lihat.
 Ada panjang gelombang cahaya yang tak terlihat oleh mata manusia.
@@ -101,6 +104,7 @@ Aku adalah seorang pengembang.
 Aku akan baik-baik saja besok.
 Aku akan berikan kamu sepeda di hari ulang tahunmu.
 Aku akan di rumah.
+Aku akan jawab dalam satu atau dua hari.
 Aku akan memakan kamu anak kecil.
 Aku akan memanggilmu saat makan malamnya sudah siap.
 Aku akan membantu saat kau dalam masalah.
@@ -112,6 +116,7 @@ Aku akan segera kembali.
 Aku baik-baik saja.
 Aku bangga dengan pekerjaan, yang aku sendiri memilihnya.
 Aku baru kembali.
+Aku baru makan.
 Aku baru menyelesaikan pekerjaanku.
 Aku bekerja di sini. Aku bukan tamu.
 Aku bekerja di sini. Aku bukanlah seorang tamu.
@@ -140,6 +145,7 @@ Aku bukan orang yang harus menjawab.
 Aku cinta kamu!
 Aku cinta kamu.
 Aku dalam masalah, ya?
+Aku dan John adalah teman lama.
 Aku datang ke Jepang tahun lalu.
 Aku datang kemarin.
 Aku dengar sesuatu jatuh ke tanah.
@@ -147,6 +153,7 @@ Aku dengar, anak laki-lakimu ikut serta dalam pergerakan pelajar.
 Aku di gunung.
 Aku hampir menjatuhkan piring-piring itu.
 Aku hanya berbicara bahasa Prancis.
+Aku hanya ingin tahu apakah kamu memperhatikan atau tidak.
 Aku hanya tahu ini.
 Aku harap aku bisa melakukannya.
 Aku harap kau berada dekat denganku.
@@ -175,6 +182,7 @@ Aku ingin mengajarimu sesuatu.
 Aku ingin mengganti ini ke ukuran yang lebih kecil.
 Aku ingin menginap semalam.
 Aku ingin menjadi anak kecil.
+Aku ingin merantau, merasakan hidup di luar kota kelahiranku.
 Aku ingin minum kopi.
 Aku ingin minuman dingin.
 Aku ingin pergi ke Belitung untuk melihat pemandangan laut yang indah.
@@ -209,6 +217,7 @@ Aku menang!
 Aku menantikannya.
 Aku mencoba meneleponmu semalam, tapi kamu tidak menjawab.
 Aku mendengar cerita yang mengagumkan kemarin.
+Aku mendengar dia dikeluarkan dari tempat kerjanya.
 Aku meneleponnya.
 Aku mengantuk karena kelamaan menunggu.
 Aku mengatakan ini dari hati.
@@ -240,6 +249,7 @@ Aku pikir hidupku bersamamu telah berpengaruh pada cara hidupmu.
 Aku pikir kamu tidak peduli tentang uang.
 Aku punya teman yang bapaknya seorang pianis yang terkenal.
 Aku ragu kamu akan senang melihat laporanku.
+Aku rasa tidak.
 Aku rindu kamu.
 Aku sakit kepala.
 Aku sampai di Narita kemarin lusa.
@@ -340,6 +350,7 @@ Ambil dan pergi!
 Ambil jalan di sebelah kanan.
 Ambil semua barangmu dan pergilah.
 Ambilah jalan yang benar.
+Ambillah peluang sekarang juga.
 Amerika Serikat berbatasan dengan Kanada.
 Anak anjing itu ingin tidur.
 Anak itu bilang bahwa taksi tersebut telah lenyap di dalam kabut.
@@ -403,6 +414,7 @@ Angka tujuh terkadang dianggap sebagai angka keberuntungan.
 Angkat tanganmu.
 Anjing dengan tongkat, orang dengan pelajaran.
 Anjing di rumah saya besar.
+Anjing itu bersembunyi tiap kali kilat menyambar.
 Anjing itu dibuat agar menggonggong kepada orang asing.
 Anjing itu lompat.
 Anjing itu nampaknya sakit.
@@ -448,6 +460,7 @@ Apa kamu sedang terburu-buru?
 Apa kamu sudah selesai?
 Apa kamu suka musik?
 Apa kamu suka semuanya?
+Apa kamu suka soda rasa nanas?
 Apa kamu tidak tahu?
 Apa kamu tinggal dengan orangtuamu?
 Apa kata tetangga?
@@ -456,6 +469,7 @@ Apa kau ingin makan sesuatu?
 Apa kau membeli sesuatu untuk dimakan?
 Apa kau percaya akan hal ini?
 Apa kau serius?
+Apa komputer ini terhubung pada internet?
 Apa kosa kata itu?
 Apa maksud dari bintang yang ada di bendera Brasil?
 Apa maumu?
@@ -467,6 +481,7 @@ Apa pekerjaan Anda.
 Apa pekerjaan ayahmu?
 Apa pekerjaanmu?
 Apa saya masih mampu melakukannya?
+Apa tidak ada yang lebih baik?
 Apa warna ikan ini?
 Apa warna kesukaanmu?
 Apa yang Anda inginkan?
@@ -492,6 +507,7 @@ Apa yang dikatakannya?
 Apa yang dilakukan ayahmu?
 Apa yang dilakukan ibumu saat kamu kembali ke rumah.
 Apa yang dokter katakan?
+Apa yang harus saya lakukan jika ingin mengurus Paspor di Indonesia?
 Apa yang ingin kamu katakan?
 Apa yang ingin kamu lakukan hari ini?
 Apa yang ingin kamu lakukan selanjutnya?
@@ -507,6 +523,7 @@ Apa yang membuat Anda memutuskan untuk bekerja di perusahaan kami?
 Apa yang membuat dia tetap datang ke pesta itu?
 Apa yang membuat ini begitu berbeda?
 Apa yang membuat pikiranmu berubah?
+Apa yang membuatmu begitu sedih?
 Apa yang membuatmu datang ke sini?
 Apa yang orang tersebut katakan?
 Apa yang salah denganmu?
@@ -521,6 +538,7 @@ Apa yang sedang kamu lihat?
 Apa yang sedang kamu pikirkan?
 Apa yang sedang kamu tulis?
 Apa yang sedang kamu tunggu?
+Apa yang sedang kau lakukan di sini?
 Apa yang sedang terjadi di ruangan ini?
 Apa yang telah Tom pikirkan?
 Apa yang terjadi bukanlah kesalahan Tom.
@@ -557,6 +575,7 @@ Apakah Anda tahu perbedaannya?
 Apakah Anda tinggal di sini?
 Apakah Anda yakin?
 Apakah Mary sudah mulai?
+Apakah Paris jauh?
 Apakah Tom masih sakit?
 Apakah Tom memintamu untuk menulis ini?
 Apakah Tom mengatakan sesuatu kepadamu tentang hal itu?
@@ -566,10 +585,12 @@ Apakah Tom tahu berapa banyak yang kamu keluarkan untuk itu?
 Apakah ada area bebas rokok?
 Apakah ada kamar yang tersedia untuk malam ini?
 Apakah ada orang yang bisa melafalkan kalimat ini?
+Apakah ada perbedaan?
 Apakah ada pertanyaan?
 Apakah ada pilihan lain?
 Apakah ada sesuatu yang ingin kamu tanyakan padaku?
 Apakah ada ukuran yang lebih kecil?
+Apakah ada yang bisa saya sampaikan ke beliau.
 Apakah aku boleh meminjam kamusmu?
 Apakah aku terlihat seperti seorang idiot?
 Apakah anda ingin makan disini, atau membawa pulang? Makan disini
@@ -643,6 +664,7 @@ Apakah kamu sering menangis?
 Apakah kamu serius ingin menikah?
 Apakah kamu setuju?
 Apakah kamu siswa dari Jepang?
+Apakah kamu sudah makan?
 Apakah kamu sudah minum obat?
 Apakah kamu suka bowling?
 Apakah kamu tahu Tom berkerja di sana?
@@ -657,6 +679,7 @@ Apakah kamu tidak tahu kalau tidak sopan untuk menanyakan usia kepada perempuan?
 Apakah kamu tinggal di sini?
 Apakah kamu yakin?
 Apakah kau melihat bukuku?
+Apakah kau sedang bicara padaku?
 Apakah kau telah melupakanku?
 Apakah kita diperbolehkan menggunakan lift?
 Apakah kita siap?
@@ -755,6 +778,7 @@ Bagaimana kalau minuman?
 Bagaimana kamu bisa mendapatkannya?
 Bagaimana kamu bisa selalu bersemangat?
 Bagaimana kamu mengetahui ini?
+Bagaimana keadaan Mary?
 Bagaimana keadaan saudaramu?
 Bagaimana keadaannya?
 Bagaimana kelihatannya?
@@ -845,10 +869,12 @@ Belajar bahasa asing itu sulit.
 Belajar bahasa asing membosankan.
 Belajar bahasa asing sulit.
 Belajar bahasa tidaklah mudah.
+Belajar tentang budaya asing itu menyenangkan.
 Belajar untuk mencintai produk dalam negeri.
 Belanda adalah negara yang kecil.
 Beli tiket di mana, ya?
 Beliau guru sekolah ini.
+Belum ada komentar.
 Benarkah Tom menyangka saya akan mempercayai itu?
 Benarkah?
 Benarkah? Mengapa?
@@ -871,6 +897,7 @@ Berapa buah roti yang Anda beli.
 Berapa buku yang bisa saya ambil dalam sekali?
 Berapa gaji yang harus kubayar, tergantung pada kemampuanmu.
 Berapa harga dasi ini?
+Berapa harga mobil paling mahal?
 Berapa harga wortelnya?
 Berapa harganya?
 Berapa kali sehari kamu bercermin?
@@ -1052,6 +1079,7 @@ Buku itu kecil.
 Buku itu punya saya.
 Buku itu tersedia hanya di satu toko.
 Buku saya amat berat.
+Buku siapa ini?
 Buku tulis ada di dalam tas.
 Buku tulis ini berbeda dengan buku tulis saya.
 Buku tulis ini lebih panjang lebarnya daripada panjangnya.
@@ -1160,6 +1188,7 @@ Di Amerika Utara, usaha umumnya berpegang pada prinsip "pelanggan selalu benar".
 Di Jepang arak boleh diminum dari umur dua puluh tahun.
 Di Jepang bisa mengendarai mobil mulai umur delapan belas tahun.
 Di Jepang musim semi anginnya kencang.
+Di Swis, musim semi datang pada bulan Mei.
 Di atas meja ada asbak.
 Di atas meja ada berapa buah gelas.
 Di atas meja ada buku dan buku tulis.
@@ -1245,6 +1274,7 @@ Di mana saya bisa membeli sikat?
 Di mana supermarket terdekat?
 Di manakah mereka?
 Di meja berjejer macam-macam masakan.
+Di negeri itu, apa ada pekerjaan sosial?
 Di perempatan ada banyak polisi.
 Di perpustakaan banyak rak buku berjejer.
 Di pintu masuk rumah diletakkan vas bunga.
@@ -1313,11 +1343,14 @@ Dia belajar Bahasa Inggris.
 Dia belajar bahasa Prancis dengan cepat.
 Dia belajar keras agar dapat lulus di ujian masuk.
 Dia belum datang juga. Dia pasti ketinggalan bis.
+Dia belum datang.
 Dia belum datang. Dia pasti ketinggalan bis.
+Dia belum kembali dari gunung.
 Dia benar-benar pintar, ya?
 Dia benci pesta.
 Dia bercerai dari suaminya.
 Dia bercerita tentang pengalamannya.
+Dia berdandan setiap pagi.
 Dia berduduk di situ dengan mata tertutup.
 Dia bereputasi sebagai pengacara terbaik di kota ini.
 Dia berharap dia memiliki lebih banyak waktu.
@@ -1376,18 +1409,23 @@ Dia kaya pengalaman.
 Dia kehilangan semuanya.
 Dia keluar dari ruangan tanpa mengatakan sepatah kata pun.
 Dia kembali dari Singapura bulan Januari depan.
+Dia ketahuan mencuri uang perusahaan.
 Dia kurang cocok menjadi guru.
 Dia lahir di Swiss.
 Dia lari menyelamatkan diri.
 Dia lebih baik dariku.
 Dia lebih indah dariku.
+Dia lebih punya uang ketimbang otak.
 Dia lebih tinggi daripada saya.
 Dia lupa mematikan lampu.
 Dia mahir dalam sastra.
 Dia marah pada anaknya.
 Dia masih belum datang, apa mungkin terjadi sesuatu dengannya?
 Dia masih bergantung secara finansial kepada orang tuanya.
+Dia masih di bawah umur.
 Dia masih di sini.
+Dia masih hidup.
+Dia masih marah.
 Dia masih percaya pada kata-katanya.
 Dia melakukan hal yang sangat bodoh.
 Dia melakukan pekerjaannya sendiri.
@@ -1585,6 +1623,7 @@ Dia tidak datang, katanya.
 Dia tidak ingin kamu tahu.
 Dia tidak lain dan tidak bukan adalah seorang pembohong.
 Dia tidak lebih baik daripada seorang pengemis.
+Dia tidak mampu melakukannya.
 Dia tidak mempunyai keberanian untuk mengatakan kebenaran.
 Dia tidak mengenal satupun dari kami.
 Dia tidak menjawab semua pertanyaan.
@@ -1623,6 +1662,7 @@ Dimengerti.
 Dinding kelas ini tebal.
 Dingin.
 Dinosaurus sekarang sudah punah.
+Ditujukan kepada siapa surat itu?
 Dokter gigi yang murah hati itu memberikan sejumlah dua milyar yen untuk amal.
 Dokter hanya ada pada hari kerja.
 Dokter memperingatkan padanya bahaya merokok.
@@ -1661,6 +1701,7 @@ Film yang saya tonton kemarin menarik.
 Foto ini mengingatkanku pada masa kecilku
 Foto itu diambil bulan lalu.
 Fotografi merupakan hobi yang mahal.
+Gadis itu datang menari ke arahku.
 Gadis itu telah terluka parah dalam kecelakaan lalu-lintas.
 Gadis itu terkenal bukan karena kecantikannya, tapi karena kebaikannya.
 Gadis kecil ini dulu tinggal di Brasil.
@@ -1680,6 +1721,7 @@ Ginjal adalah organ yang berfungsi untuk menyaring darah manusia.
 Gordon melamun terus minggu ini.
 Gordon tertarik dengan gaya hidup Jepang.
 Gratis untuk masyarakat Uni Eropa.
+Gubuk itu dibakar.
 Gula menggantikan madu sebagai pemanis.
 Gulanya larut dalam kopi hangat.
 Gunung api itu meletus beberapa tahun yang lalu.
@@ -1697,6 +1739,7 @@ Habiskan apapun yang ada dari piringmu, atau kamu tidak akan mendapatkan hidanga
 Hai, Pak Tanaka, selamat malam.
 Hai, saya punya janji dengan manajer umum, ini surat pemberitahuan wawancaranya.
 Hai. Nama saya José Silva. Siapa nama Anda?
+Hal ini bisa membuatmu frustrasi.
 Hal ini tidak akan pernah berakhir.
 Hal yang aneh telah terjadi di hari ulang tahunnya.
 Hal-hal ini tidak berjalan sesuai yang direncanakan.
@@ -1836,6 +1879,7 @@ Ibu saya selalu meminta saya berbelanja.
 Ibu saya suka memasak.
 Ibu saya tidak bisa bersepeda.
 Ibu sedang masak di dapur.
+Ibu sedang tidak ada di rumah.
 Ibu, Tom tidak mau berbagi denganku!
 Ibu, saya juga ingin menikah.
 Ibukota Italia adalah Roma.
@@ -1877,6 +1921,7 @@ Ini adalah tanggungjawab kami untuk membantu.
 Ini akan menjadi mudah setelah kamu tahu caranya.
 Ini alamat e-mail saya.
 Ini bisa digunakan sebagai pisau.
+Ini bukan awal yang bagus.
 Ini bukan ikan.
 Ini bukan lelucon.
 Ini bukan soal uang.
@@ -1934,6 +1979,8 @@ Inilah pen saya.
 Inovasi teknologi membawa kemajuan pesat di industri informasi.
 Intinya adalah ibu terlalu sibuk.
 Introspeksilah dirimu sendiri bukan menyalahkan orang lain.
+Isi botolnya dengan air.
+Istana kerajaan tersebut dibangun di atas bukit.
 Istri Pak Tanaka dosen universitas.
 Istri saya segera pulang.
 Istriku mempunyai kesalahan-kesalahan. Meskipun demikian, aku mencintainya.
@@ -1988,6 +2035,7 @@ Jadilah tamuku.
 Jaga dirimu sendiri.
 Jaga tanganmu tetap bersih.
 Jagalah kebersihan kelasmu.
+Jagalah keluargamu, sayangilah mereka.
 Jagalah lisan mu.
 Jakarta sudah padat penduduk.
 Jaket ini praktis karena sakunya ada banyak.
@@ -2027,6 +2075,7 @@ Jangan biarkan Tom mendengarkanmu mengatakan itu.
 Jangan bicara saat mulut penuh.
 Jangan bilang siapa-siapa.
 Jangan buang apapun diatas lantai.
+Jangan buat keputusan sekarang!
 Jangan dekati anjing itu.
 Jangan duduk di sofa itu.
 Jangan hanya makan ikan, makan daging juga.
@@ -2054,6 +2103,7 @@ Jangan merendahkanku.
 Jangan merokok di ruangan ini.
 Jangan merokok, bertenggang rasalah dengan yang lainnya.
 Jangan minum air dari gelas kotor itu!
+Jangan pergi dulu.
 Jangan pergi ke situ karena berbahaya.
 Jangan pergi.
 Jangan pernah berbohong.
@@ -2107,6 +2157,7 @@ Jika saya kaya, saya akan memberimu uang.
 Jikalau barang seorang tiada mau bekerja, jangan ia makan.
 Jim mahir dalam Bahasa Perancis dan Jerman.
 Jim tergelincir dijalan yang membeku dan terluka.
+Jimmy terbiasa diolok-olok teman-temannya.
 John datang dan memindahkan beberapa kotak.
 John mengeluarkan kunci dari sakunya.
 John menyukai catur.
@@ -2162,6 +2213,7 @@ Kalau pergi ke kedutaan, Anda turun di stasiun berikutnya.
 Kalau pergi ke situ, ada kantor pos dan bank.
 Kalau pergi ke universitas itu, lebih praktis menggunakan sepeda.
 Kalau pergi, kunci pintu ya.
+Kalau saja aku bertanya padanya, dia akan memberitahuku yang sebenarnya.
 Kalau semua pergi, saya juga pergi.
 Kalau setiap hari saya membaca koran, saya bisa ingat.
 Kalau sudah dewasa, boleh minum arak.
@@ -2192,6 +2244,7 @@ Kamar saya terang karena berada di sebelah selatan.
 Kamar saya tidak begitu luas.
 Kamera ini mahal, tetapi sangat praktis.
 Kameraku tahan air.
+Kami akan bekerja di Osaka tahun depan.
 Kami akan bersepeda ke danau besok.
 Kami akan memperbaikinya.
 Kami akan mengadakan pesta pada hari ulang tahun Pak Yamada.
@@ -2217,12 +2270,15 @@ Kami melakukan apa yang seharusnya dilakukan untuk bertahan.
 Kami melaporkan pencurian itu kepada polisi.
 Kami melihat monyet di kebun binatang.
 Kami melihat sebuah pulau di kejauhan.
+Kami memakan pai yang sangat enak.
 Kami memancing dari waktu ke waktu.
 Kami membandingkan pekerjaan dia dengan pekerjaan dia.
 Kami membuat keputusan bersama.
 Kami memelihara kuda-kuda kami secara bergantian.
 Kami memiliki beberapa berita yang menyemangatkan.
 Kami memiliki pasokan produk yang cukup untuk memenuhi permintaan lokal.
+Kami menggunakan kaki kami untuk berjalan.
+Kami percaya bahwa perdamaian dari koeksistensi dua sistem sosial yang berbeda sepenuhnya bisa terwujud.
 Kami pergi nonton semalam.
 Kami perlu bicara dengan Anda.
 Kami punya banyak roti. Sementara mentega, kami punya lebih dari cukup.
@@ -2268,6 +2324,7 @@ Kamu di mana?
 Kamu dicari pada sambungan telepon. Ini dari Tom.
 Kamu harus belajar bahasa Jepang lebih giat.
 Kamu harus berhenti merokok.
+Kamu harus bisa melakukannya.
 Kamu harus datang ke stasiun sepagi mungkin pada jam lima.
 Kamu harus hati-hati jangan membuatnya marah.
 Kamu harus melakukannya, suka tidak suka.
@@ -2292,6 +2349,7 @@ Kamu masih muda.
 Kamu mau minum apa?
 Kamu mau pergi ke mana duluan?
 Kamu mau pergi?
+Kamu memakai sweter terbalik.
 Kamu membuat kesalahan dengan sengaja, kan?
 Kamu membuatku bahagia.
 Kamu membutuhkan sedikit keberanian untuk menyatakan cinta padanya.
@@ -2445,6 +2503,7 @@ Kau harus membayar harganya
 Kaus kaki ini kuat dan murah.
 Kaus saya belum kering.
 Ke mana kamu selama akhir pekan?
+Ke mana perginya dia?
 Ke mana semua uang rakyat itu dibelanjakan?
 Ke manapun kau pergi, aku ikut.
 Keabadian itu ada. Keabadian itu ada disini...
@@ -2458,6 +2517,7 @@ Kecepatan pesawat jauh lebih tinggi daripada helikopter.
 Kecintaan terhadap seni telah tertanam pada Tom sejak dini.
 Kedai itu murah, tetapi tidak enak.
 Kedai kopi itu ada di sebelah toko buku.
+Kedalaman kolam tersebut tiga meter.
 Kedua orang tua Tom adalah guru.
 Kedua orang tua saya tinggal dekat laut.
 Kedua orang tuanya baik-baik saja.
@@ -2570,6 +2630,8 @@ Kerugiannya mencapai satu juta dolar.
 Kesabaran merupakan kebajikan yang sukar ditemukan belakangan ini.
 Kesadaran tidak terbatas dan merupakan kenyataan yang sesungguhnya.
 Kesehatan lebih penting dibanding emas.
+Kesempatan tidak akan datang untuk kedua kalinya.
+Kesimpulan ini sulit untuk dipungkiri.
 Ketika aku kecil, ibu sering membacakan dongeng untukku.
 Ketika aku memasuki kafe, aku melihat dua pemuda sedang menyaksikan pertandingan gulat di televisi.
 Ketika babi dapat terbang!
@@ -2586,6 +2648,7 @@ Ketika musim dingin datang, sebelah utara Jepang sangat dingin.
 Ketika musim panas datang, hawa menjadi panas.
 Ketika musim semi datang, hawanya akan menjadi hangat.
 Ketika naik kereta, dahulukan orang yang turun.
+Ketika polisi tiba, para pencuri telah melarikan diri.
 Ketika saya datang ke sini, saya tidak kenal siapa pun.
 Ketika saya sampai stasiun, keretanya telah berangkat.
 Ketika saya sedang makan malam, teman saya datang ke rumah.
@@ -2596,6 +2659,7 @@ Kita akan berjuang sampai akhir.
 Kita bahkan tidak tahu cara menghubungi Tom.
 Kita banyak membuang waktu.
 Kita belajar dari pengalaman bahwa kita tidak pernah belajar apapun dari pengalaman.
+Kita bisa mencari jati diri kita sendiri.
 Kita bisa mendengarkan radio dan juga musik dengan radio kaset.
 Kita bisa pergi ke mana pun kalau kita membeli mobil.
 Kita buat perlombaan sekarang menjadi meriah.
@@ -2782,6 +2846,7 @@ Malam ini saya tidak ingin pergi ke mana-mana.
 Malam ini teman saya menginap di rumah.
 Malu bertanya sesat di jalan.
 Mama, aku lapar.
+Manakah berkas yang benar?
 Mandilah dua kali sehari.
 Mantel ini sepuluh ribu yen.
 Manusia berusaha, Tuhan yang mengaturnya.
@@ -2802,6 +2867,7 @@ Mari menyeberang di sini.
 Mari naik kereta bawah tanah.
 Mari saya bawakan barang itu.
 Maria adalah kutu buku.
+Maria berkata kepada dirinya sendiri, "Aku sangat beruntung".
 Maria mengeluarkan banyak uang untuk pakaian.
 Mary adalah gadis yang enak diajak bicara.
 Mary adalah yang paling malas diantara teman-teman sekolahnya.
@@ -2840,6 +2906,7 @@ Mata dibalas mata, gigi dibalas gigi.
 Mata sama tajamnya seperti lidah.
 Mata saya lelah karena saya membaca buku di ruang gelap.
 Mata uang Eropa melemah terhadap dolar.
+Matahari bersinar lebih terang setelah badai.
 Matematika adalah segalanya
 Matematika ditulis untuk matematikawan.
 Mau coba satu gigitan?
@@ -2853,13 +2920,16 @@ Mau pergi ke mana?
 Maukah anda memberitahu saya bagaimana cara pergi ke Shinjuku?
 Maukah anda memeriksa olinya?
 Maukah anda untuk jalan jalan dan mencari makanan?
+Maukah kalian tinggal di sini sementara?
 Maukah kamu bermain tenis hari Minggu?
+Maukah kamu tinggal di sini sementara?
 Maukah kau berdansa?
 Maukah kau mengatakannya sekali lagi?
 Mawar ini sangat indah.
 Meja ini terlalu berat untuk diangkat.
 Meja itu makan banyak tempat di ruangan ini.
 Meja itu terlihat kecil di ruangan ini.
+Membaca buku itu tidak membosankan.
 Memberi lebih baik daripada diberi.
 Membuat hal semakin buruk, lalu lintasnya buruk.
 Membuat sebuah makanan cepat saji.
@@ -2919,11 +2989,13 @@ Mereka akan mati.
 Mereka belum pulang ke rumah.
 Mereka bertengkar cukup sering.
 Mereka hanya ingin bersenang-senang.
+Mereka masih belum bangun.
 Mereka memandang dia seolah-olah pemimpin mereka.
 Mereka memborgol Tom.
 Mereka membuka pintu.
 Mereka membutuhkannya
 Mereka memeriksa apakah ruangan itu kosong.
+Mereka mempunyai satu anak.
 Mereka memutuskan untuk bermukim di Virginia tahun itu
 Mereka menanyakan ayah saya.
 Mereka mengajukan kasus itu ke pengadilan.
@@ -2993,9 +3065,11 @@ Muiriel tidak ada pilihan lain. Dia hanya dengan menerima kekalahannya.
 Mukamu merah.
 Mulai besok saya akan belajar huruf kanji tiap hari.
 Mulai bulan Juli hawanya akan semakin panas.
+Mulai bulan depan, aku sudah tidak bekerja di perusahaan ini.
 Mulai hari ini, berusahalah untuk datang tepat waktu.
 Mulai minggu depan setiap hari akan ada ujian.
 Mulai tahun depan kakak laki-laki saya bekerja di bank.
+Mulailah berlari.
 Mulut mu harimau mu.
 Mungkin Tom akan menyukai itu.
 Mungkin dia lupa hari ulang tahunku.
@@ -3048,6 +3122,7 @@ Naples adalah kota yang indah.
 Napoleon Bonaparte lahir di Korsika.
 Nasi biasa dimakan dengan sumpit di Jepang.
 Nasi di kantin murah dan enak.
+Nasi goreng biasanya dijual oleh pedagang diwaktu malam hari.
 Nasi kotak Pak Hayashi kelihatannya enak.
 Nasihat gratis tidak selalu nasihat yang baik.
 Negara Anda di mana.
@@ -3191,6 +3266,7 @@ Pak Tanaka diminta Pak Hayashi membantunya bekerja.
 Pak Tanaka dua tahun lalu lulus universitas.
 Pak Tanaka memakai dasi hijau.
 Pak Tanaka membeli lima buah keik.
+Pak Tanaka mencari nafkah dengan membuka toko alat tulis di dekat stasiun.
 Pak Tanaka minum coca-cola.
 Pak Tanaka orang yang ceria.
 Pak Tanaka pergi ke luar negeri pada tanggal dua bulan depan.
@@ -3312,6 +3388,7 @@ Perkataannya telah membuat kesan yang dalam terhadap murid-murid.
 Permisi, apa waktu itu?
 Permisi, apakah Tom di sini hari ini?
 Permisi, apakah kamu melihat Tom dimana?
+Permisi, bisa beritahu jalan ke halte bis?
 Permisi, saya ingin bertemu dengan Tom.
 Permisi, tetapi kamu bisa bantu saya?
 Pernah bepergian naik pesawat?
@@ -3360,6 +3437,7 @@ Polisi berkata pada mereka, "Berhenti!"
 Polisi itu mengejarmu.
 Polisi meminta saya untuk memindahkan mobil.
 Polisi menunjukkan jalan sampai stasiun kepada saya.
+Politik bikin gila.
 Ponsel kecil dan sangat praktis.
 Pos laut makan waktu tetapi murah.
 Pos surat ada di seberang rumah.
@@ -3602,7 +3680,9 @@ Saya bertanggung jawab atas perbuatan saya sendiri.
 Saya bertemu dengan ayahmu kemarin.
 Saya bertemu dengannya kemarin.
 Saya bertemu dua orang asing, satu dari Kanada, satu lagi dari Inggris.
+Saya berumur sembilan belas tahun.
 Saya besok pergi ke kedutaan.
+Saya biasanya sarapan dengan tahu dan tempe.
 Saya bisa berbicara bahasa Inggris.
 Saya bisa makan yang ini?
 Saya bisa mengerjakan ujian kemarin dengan baik.
@@ -3879,6 +3959,7 @@ Saya membuka pintu dan masuk ke kamar.
 Saya membuka sepatu dan memakai sandal.
 Saya membuka sepatu di pintu masuk rumah.
 Saya membuka sweter karena panas.
+Saya membutuhkan waktu dan tenaga untuk menyelesaikan buku teks Islandia saya.
 Saya memegang sumpit dengan tangan kiri.
 Saya memeriksa jawaban ujian.
 Saya memesan empat masakan di restoran.
@@ -4021,6 +4102,7 @@ Saya murid.
 Saya naik bus ke sekolah, tidak berjalan kaki.
 Saya naik bus nomor lima belas dari stasiun.
 Saya naik pesawat terbang.
+Saya orang asli Indonesia.
 Saya paham maksud anda.
 Saya paham perasaanmu, namun ini sudah berakhir.
 Saya paham perasaanmu, tetapi ini sudah berakhir.
@@ -4205,6 +4287,7 @@ Saya tidak ada uang.
 Saya tidak ada waktu bermain karena sibuk bekerja.
 Saya tidak akan bisa datang besok.
 Saya tidak akan memberitahu siapapun.
+Saya tidak akan menyerah.
 Saya tidak begitu banyak minum arak.
 Saya tidak begitu lelah.
 Saya tidak begitu suka belajar.
@@ -4264,6 +4347,7 @@ Saya tidak masuk sekolah.
 Saya tidak mau gula.
 Saya tidak mau lagi.
 Saya tidak mau melakukan ini dengan kamu.
+Saya tidak mau memakan itu.
 Saya tidak mau pergi ke sekolah.
 Saya tidak melakukan apa-apa saat liburan minggu lalu.
 Saya tidak memiliki kaitan dengan regu itu.
@@ -4306,6 +4390,7 @@ Saya tidak suka belajar.
 Saya tidak suka berolahraga.
 Saya tidak suka bersih-bersih dan mencuci baju.
 Saya tidak suka bunga buatan.
+Saya tidak suka cokelat.
 Saya tidak suka menggunakan Google-Terjemahan.
 Saya tidak suka minum kopi.
 Saya tidak suka minum teh hitam, jadi waktu sarapan saya biasanya minum kopi.
@@ -4346,6 +4431,7 @@ Sayang sekali hujan.
 Sayang sekali kamu tidak bisa datang.
 Sayang sekali.
 Sayang, benar.
+Sayangnya dia bertemu dengan wanita yang salah.
 Sayangnya itu benar.
 Sayangnya, dia menolak datang.
 Sayangnya, dia tidak datang.
@@ -4422,6 +4508,7 @@ Selalu memberikan jalan yang datang dari kanan.
 Selama musim dingim aku tidur dengan dua lembar selimut.
 Selama pelajaran, guru bertanya kepada murid.
 Selamat Ulang Tahun, Nona Aiba!
+Selamat datang di San Fransisco.
 Selamat datang di tempat penerjemahan!
 Selamat liburan!
 Selamat makan.
@@ -4669,6 +4756,7 @@ Sungguh, ingin belajar bahasa Jepang bersama-sama.
 Sup ini benar-benar lezat, ya?
 Supermarket di sana ikannya sedikit.
 Supermarket di sana juga buka pada malam hari.
+Supermarketnya buka jam sepuluh tepat.
 Surat dari ibu yang ada di negara asal sudah sampai.
 Susah sekali memuaskan semua pihak.
 Susan, dia suka kucing.
@@ -4697,6 +4785,7 @@ Tak ada yang dapat merusak persahabatan sejati.
 Tak ada yang ingin tahu negaraku.
 Tak ada yang terjadi.
 Tak bisa!
+Tak jarang dia pulang membawa oleh-oleh.
 Tak perlu menangis seperti anak kecil.
 Tak seorangpun tahu kemana dia melarikan diri.
 Tak terpikir bisa berjumpa denganmu.
@@ -4731,6 +4820,7 @@ Televisi menyala sepanjang malam.
 Televisi tidak baik untuk mata.
 Televisi tidak berfungsi.
 Televisinya sudah rusak.
+Telurnya masih panas.
 Teman saya bekerja sebagai pemandu wisata.
 Tempat lahir Pak Tanaka adalah Tokyo.
 Tempat penjualan kaus kaki ada di lantai satu.
@@ -4756,6 +4846,7 @@ Terimakasih sudah membantuku!
 Terkadang dia bertingkah seolah-olah dia adalah bosku.
 Terkadang dia bisa menjadi orang aneh.
 Terkadang ia berperilaku aneh.
+Terkadang orang membuat keputusan yang tidak masuk akal.
 Terlalu banyak waktu yang hilang.
 Terlalu mahal!
 Tersenyumlah sekarang, menangislah kemudian!
@@ -4786,6 +4877,7 @@ Tidak ada orang yang cukup memperhatikan Tom.
 Tidak ada orang yang sempurna.
 Tidak ada radio pada saat itu.
 Tidak ada ruang untuk alasan ketika itu datang dari kelalaian anda, adakah?
+Tidak ada sesuatu yang tidak mungkin.
 Tidak ada tuhan selain Allah. Muhammad adalah utusan Allah.
 Tidak ada tumbuhan di bulan.
 Tidak ada yang harus tahu.
@@ -4836,6 +4928,7 @@ Tidur dan menunggu keberuntungan.
 Tiga hari yang lalu saya memotong rambut.
 Tiketnya berlaku selama seminggu.
 Tikus itu diperangkap ke dalam jebakan dengan potongan keju besar.
+Tim mana yang menang?
 Tinggalkan aku sendiri sekarang.
 Tinggalkan buku di tempat asalnya.
 Tinggalkan sendiri, bayi itu mulai menangis.
@@ -4877,6 +4970,7 @@ Tolong perlihatkan yang ini!
 Tolong sampaikan salamku kepadanya.
 Tolong tafsirkan mimpi anehku.
 Tolong tanyain dong sama dia!
+Tolong tekan tombolnya.
 Tolong tunggu sebentar.
 Tolong tutup pintu di belakangmu.
 Tolong, jangan menangis lagi.
@@ -4963,6 +5057,7 @@ Tom kehilangan pekerjaannya.
 Tom kehilangan rasa tertarik dalam belajar bahasa Perancis.
 Tom kehilangan semua uangnya.
 Tom kehilangan topinya.
+Tom kesulitan dalam membuat keputusan.
 Tom lahir di mana?
 Tom lebih tua tiga tahun dari istrinya.
 Tom mampu berenang dengan baik.
@@ -4985,6 +5080,7 @@ Tom membaca catatan dari Mary dan menyerahkannya kepada John.
 Tom membaca surat Mary berulang kali.
 Tom membatalkan pernikahannya karena kecelakaan lalu-lintas.
 Tom membenciku.
+Tom memberi Mary sekotak coklat.
 Tom memberitahu Mary bahwa dia tidak ingin melakukan apapun.
 Tom membidik dan menembakkan tembakan peringatan.
 Tom membuat alasan atas keterlambatannya.
@@ -5165,6 +5261,7 @@ Tom tidak pernah sekalipun meninggalkan rumah.
 Tom tidak punya mobil.
 Tom tidak seharusnya mengucapkan perkataan itu.
 Tom tidak suka berbicara di depan umum.
+Tom tidak suka keju.
 Tom tidak tahu banyak tentang Indonesia.
 Tom tidak tahu berapa biayanya.
 Tom tidak takut gagal.
@@ -5241,6 +5338,7 @@ Ya, saya mengerti.
 Ya, sepertinya ada salah diagnosa.
 Ya, silakan.
 Ya, suka.
+Yang berlalu biarlah berlalu.
 Yang coklat punya saya juga.
 Yang kamu katakan itu tidak masuk akal.
 Yang makan keik adalah Pak Yamada.
@@ -5302,12 +5400,14 @@ mengapa tidak dijual saja?
 motivasi pembangun diri
 mungkin kita bisa bersama suatu saat nanti.
 pantang menyerah salah satu kunci sukses
+pengisian internet dapat dilakukan setiap tanggal enam.
 relajar di negara orang
 roti ini sangat enak rasanya.
 rumah adalah tempat kita pulang
 saya harus pulang
 saya ingin tahu alasannya
 saya suka makan sambil nonton tv
+saya tidak percaya yang dikatakannya
 sebuah mobil berhenti di depan saya.
 sehat itu penting
 semangat melakukan. aktivitas
@@ -5315,6 +5415,7 @@ sepuluh menit lagi pukul lima.
 setahun sekali saya pergi ke luar negeri.
 suatu saat saya akan menguasai dunia.
 tak terasa mereka sudah berada tak jauh dari tempat tinggal
+tidak ada salahnya belajar
 tolong jangan makan terlalu banyak
 tujuan aku ingin mempelajari bahasa mu
 wajah kamu tidak asing
