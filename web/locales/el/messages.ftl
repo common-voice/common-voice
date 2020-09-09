@@ -11,6 +11,7 @@ loading = Φόρτωση...
 email-opt-in-info = Θα ήθελα να λαμβάνω emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 email-opt-in-info-title = Εγγραφείτε στη λίστα αλληλογραφίας του Common Voice
 email-opt-in-info-sub-with-challenge = Λάβετε emails, όπως υπενθυμίσεις στόχων και προκλήσεων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με το χειρισμό αυτών των πληροφοριών από τη Mozilla, όπως εξηγεί η <privacyLink>πολιτική απορρήτου</privacyLink>.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
 
@@ -316,7 +317,7 @@ avatar = Εικόνα χρήστη
 goals = Στόχοι
 settings = Ρυθμίσεις
 edit-profile = Επεξεργασία προφίλ
-profile-create-success = Το προφίλ δημιουργήθηκε επιτυχώς!
+profile-create-success = Επιτυχής δημιουργία προφίλ!
 profile-close = Κλείσιμο
 profile-explanation = Παρακολουθήστε την πρόοδό σας με ένα προφίλ και βοηθήστε τα δεδομένα φωνής μας να γίνουν πιο ακριβή.
 thanks-for-account = Ευχαριστούμε που επιβεβαιώσατε το λογαριασμό σας, ας δημιουργήσουμε τώρα το προφίλ σας.
@@ -444,7 +445,7 @@ about-no-votes-text = Όταν ένας χρήστης απορρίπτει έν
 about-dataset-new = Σύνολο δεδομένων Common Voice
 about-dataset-new-text = Το σύνολο δεδομένων της Common Voice περιέχει εκατοντάδες χιλιάδες δείγματα φωνής που βοηθούν τους προγραμματιστές να δημιουργήσουν εργαλεία αναγνώρισης φωνής.
 about-clip-graveyard = Κοιμητήριο κλιπ
-about-clip-graveyard-text = Το νεκροταφείο των κλιπ αποτελείται από φωνητικά κλιπ που δεν κατάφεραν να μπουν στο σύνολο δεδομένων του Common Voice. Ακριβώς όπως το σύνολο των δεδομένων, το νεκροταφείο των κλιπ είναι διαθέσιμο για λήψη.
+about-clip-graveyard-text = Το Κοιμητήριο κλιπ αποτελείται από φωνητικά κλιπ που δεν κατάφεραν να μπουν στο σύνολο δεδομένων του Common Voice. Όπως και το σύνολο των δεδομένων, το κοιμητήριο είναι διαθέσιμο προς λήψη.
 about-partners = Συνεργάτες
 about-become-a-partner = Γίνετε συνεργάτης
 about-partnership =
@@ -480,10 +481,13 @@ sst-explanation = Οι τεχνολογίες ομιλία-σε-κείμενο (
 de-identified = Ανωνυμοποίηση
 de-identified-explanation = Η διαδικασία κατά την οποία οι πληροφορίες του προφίλ ενός εθελοντή αποκρύπτονται από τα δωρισμένα κλιπ φωνής του, όταν πακετάρονται για λήψη ως μέρος του συνόλου δεδομένων.
 
-## NotFound
+## Error pages
 
-notfound-title = Δεν βρέθηκε
-notfound-content = Δυστυχώς δεν ξέρω τι ψάχνετε.
+error-title-404 = Δεν ήταν δυνατή η εύρεση αυτής της σελίδας
+error-content-404 = Ίσως σας βοηθήσει η <homepageLink>αρχική μας σελίδα</homepageLink>; Για να θέσετε μια ερώτηση, παρακαλούμε γίνετε μέλος της <matrixLink>συνομιλίας της κοινότητας Matrix</matrixLink>, παρακολουθήστε τα ζητήματα της σελίδας μέσω του <githubLink>GitHub</githubLink> ή επισκεφτείτε το <discourseLink>φόρουμ στο Discourse</discourseLink>.
+error-title-503 = Αντιμετωπίζουμε μη αναμενόμενο χρόνο διακοπής λειτουργίας
+error-content-503 = Η ιστοσελίδα θα επανέλθει το συντομότερο δυνατό. Για τις πιο πρόσφατες πληροφορίες, παρακαλούμε γίνετε μέλος της <matrixLink>της κοινότητας μας στο Matrix</matrixLink>, επισκεφθείτε το <githubLink>GitHub</githubLink> ή το <discourseLink>φόρουμ μας στο Discourse</discourseLink> για να υποβάλετε και να παρακολουθείτε ζητήματα σχετικά με την ιστοσελίδα.
+error-code = Σφάλμα { $code }
 
 ## Data
 
@@ -502,6 +506,8 @@ data-bundle-button = Λήψη ολόκληρου του συνόλου δεδο�
 data-bundle-description = Τα δεδομένα του Common Voice, καθώς και όλα τα άλλα σύνολα φωνητικών δεδομένων που περιγράφονται πιο πάνω.
 license = Άδεια χρήσης: <licenseLink>{ $license }</licenseLink>
 license-mixed = Μεικτό
+data-download-singleword-title = Λήψη τμήματος μεμονωμένης λέξης
+data-download-singleword-callout = Πρόκειται για ένα τμήμα ειδικών χρήσεων, που περιέχει δεδομένα για αναγνώριση ψηφίων στην ομιλία, ανίχνευση "ναι"/"όχι", καθώς και δεδομένα δοκιμής λέξης ενεργοποίησης για το <fxLink>Firefox Voice</fxLink>.
 review-terms = Εάν χρησιμοποιείτε το Common Voice, συμφωνείτε με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink>
 terms-agree = Συμφωνώ
 terms-disagree = Δεν συμφωνώ
@@ -636,7 +642,7 @@ contribute-more =
     }
 record-cta = Έναρξη ηχογράφησης
 record-platform-not-supported = Λυπούμαστε, αλλά η πλατφόρμα σας δεν υποστηρίζεται ακόμη.
-record-platform-not-supported-desktop = Σε επιτραπέζιους υπολογιστές, μπορείτε να κατεβάσετε τα πιο πρόσφατα:
+record-platform-not-supported-desktop = Σε υπολογιστές, μπορείτε να συνεισφέρετε κάνοντας λήψη…
 record-platform-not-supported-ios-non-safari = Στο iOS παρακαλούμε συνεχίστε με το Safari για ενεργοποίησης ηχογράφησης…
 record-must-allow-microphone = Χρειάζεται να επιτρέψετε πρόσβαση στο μικρόφωνο σας.
 record-no-mic-found = Δεν βρέθηκε μικρόφωνο.
@@ -721,6 +727,7 @@ validations =
 
 your-languages = Οι γλώσσες σας
 toward-next-goal = Προς τον επόμενο στόχο
+goal-reached = Ο στόχος επιτεύχθηκε
 clips-you-recorded = Ηχογραφημένα κλιπ
 clips-you-validated = Επικυρωμένα κλιπ
 todays-recorded-progress = Σημερινή πρόοδος του Common Voice (ηχογραφημένα κλιπ)
@@ -763,8 +770,27 @@ help-reach-hours-pluralized =
         [one] { $hours } ώρα
        *[other] { $hours } ώρες
     } στα { $language } με ένα προσωπικό στόχο
+help-reach-hours-general-pluralized =
+    Βοηθήστε το Common Voice να φτάσει την/τις { NUMBER($hours) ->
+        [one] { $hours } ώρα
+       *[other] { $hours } ώρες
+    }σε μια γλώσσα με ένα προσωπικό ρεκόρ
 set-a-goal = Ορισμός στόχου
 cant-decide = Δεν μπορείτε να αποφασίσετε;
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } ώρα
+       *[other] { $totalHours } ώρες
+    }μπορεί(ούν) να επιτευχθεί(ούν) σε λίγο περισσότερο από{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } μήνα
+       *[other] { $periodMonths } μήνες
+    }αν{ NUMBER($people) ->
+        [one] { $people } άτομο
+       *[other] { $people } άτομα
+    }καταγράφει(ουν){ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } κλιπ
+       *[other] { $clipsPerDay } κλιπ
+    }κάθε μέρα.
 how-many-per-day = Εξαιρετικά! Πόσα κλιπ την ημέρα;
 how-many-a-week = Εξαιρετικά! Πόσα κλιπ την εβδομάδα;
 which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή και τα δύο;

@@ -127,6 +127,24 @@ export default function Content({ location }: { location: any }) {
               <ErrorPage errorCode="503" prevPath={location.state?.prevPath} />
             )}
           />
+          <Route
+            exact
+            path={toLocaleRoute(URLS.SPEAK)}
+            render={() => {
+              // note: this is redundant with routing in LocalizedPage in app.tsx, and hanldes
+              // locale changing edge cases where toLocaleRoute is still using the old locale
+              return <Redirect to={toLocaleRoute(URLS.SPEAK)} />;
+            }}
+          />
+          <Route
+            exact
+            path={toLocaleRoute(URLS.LISTEN)}
+            render={() => {
+              // note: this is redundant with routing in LocalizedPage in app.tsx, and hanldes
+              // locale changing edge cases where toLocaleRoute is still using the old locale
+              return <Redirect to={toLocaleRoute(URLS.LISTEN)} />;
+            }}
+          />
           <Redirect
             push
             to={{

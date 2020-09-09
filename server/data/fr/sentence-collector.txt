@@ -1860,6 +1860,7 @@ Après Tocante, au moment d’écrire AndroGame, j’ai tenté de faire auteur.
 Après avoir confié Orion et quelques ordres à un collègue.
 Après avoir ouvert les portes des cages.
 Après avoir quitté le docteur, je passai le reste de la journée avec Fabian.
+Après avoir traversé cette petite plaine, la route s’élève assez rapidement.
 Après de tels ravages, ce restaurant s’est vendu une bouchée de pain.
 Après des heures de stress.
 Après deux mois d'attente, le permis à été accepté
@@ -30320,6 +30321,7 @@ Je ne suis qu'un Noétien.
 Je ne suis que la proie de mes vices !
 Je ne suis qu’historien.
 Je ne suis qu’un Noétien, moi…
+Je ne suis qu’un bon soldat timide.
 Je ne suis qu’un faussaire, remarquez ! …
 Je ne t'ai pas dit ?
 Je ne t'ai pas menti.
@@ -31937,6 +31939,7 @@ Je vais vous dire ce qui m’a fait de la peine.
 Je vais vous dire comment vous pouvez me panser, mieux qu’un chirurgien.
 Je vais vous dire son nom vrai.
 Je vais vous dire.
+Je vais vous donner un petit coup charmant.
 Je vais vous empester, dit-il, je viens de fumer des cigares.
 Je vais vous expliquer cela, voyez-vous.
 Je vais vous faire un aveu : j’ai ma philosophie.
@@ -33696,6 +33699,7 @@ J’entrai dans un village que je vis.
 J’entrai dans une seconde rue.
 J’entraînai Graüben vers le cabinet du professeur.
 J’entrave que dalle, parole !
+J’entre aux gardes demain, dans les Cadets.
 J’entre en passant chez des amis que j’ai.
 J’entre libre dans la puissance.
 J’entreprends le nettoyage de vos intelligences.
@@ -37795,6 +37799,7 @@ Le lagon fut atteint vers cinq heures du soir.
 Le lagon se prit le premier.
 Le laid est petit, le difforme est grand.
 Le laisserons-nous lié demanda le marin
+Le langage aujourd’hui qu’on parle et qu’on écrit, me trouble.
 Le languedocien criait : caoucagno ! « Cocagne !
 Le languedocien signa Jacques Quatourze, dit le Narbonnais.
 Le lapin d’un lord est plus que l’homme du bon Dieu.
@@ -44353,6 +44358,7 @@ Mais je ne fis pas valoir cet argument.
 Mais je ne la connais pas.
 Mais je ne le ferai pas sans toi.
 Mais je ne le puis…
+Mais je ne permets pas qu’un autre me les serve.
 Mais je ne peux pas t’en empêcher.
 Mais je ne peux pas, voyons ! Je ne dois pas.
 Mais je ne pouvais m’arrêter.
@@ -46389,6 +46395,7 @@ Moi, capitaine, et je viens vous demander…
 Moi, ce sont justement celles-là qui me vont.
 Moi, comme tu vois.
 Moi, c’est Canne Fougueuse.
+Moi, c’est moralement que j’ai mes élégances.
 Moi, depuis que les pensées je lis, les lèvres beaucoup mieux je lis.
 Moi, dit Conseil, je serai franc avec monsieur.
 Moi, dit Jean Valjean.
@@ -48696,6 +48703,7 @@ Nous allons partir, colonel.
 Nous allons partir, dit-il.
 Nous allons prendre nos dispositions.
 Nous allons retrouver notre route.
+Nous allons revenir après notre repas.
 Nous allons sortir du Sund grand largue et toutes voiles dehors.
 Nous allons te veiller.
 Nous allons tirer à pile ou face pour savoir qui commence.
@@ -51053,6 +51061,7 @@ On n'est pas chez moi.
 On n'est toujours pas dans leur catalogue.
 On ne bougeait pas.
 On ne chauffait la machine d’extraction que le matin.
+On ne commence qu’à deux heures.
 On ne compte plus…
 On ne contemple pas l’enfer.
 On ne distinguait la figure d’aucun.

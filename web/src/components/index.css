@@ -22,14 +22,7 @@ html {
     font-size: var(--font-size);
     color: var(--black);
     background-color: var(--white);
-    overflow: auto;
     scroll-behavior: smooth;
-}
-
-@media (--md-down) {
-    html {
-        overflow: hidden;
-    }
 }
 
 html,
@@ -96,7 +89,7 @@ button {
     color: var(--white);
     background: var(--red);
     text-align: center;
-    z-index: 5;
+    z-index: var(--top-z-index);
 
     @media (--md-up) {
         top: 0;
@@ -153,40 +146,6 @@ button {
     animation: fadein var(--transition-duration-slow) linear;
 }
 
-#scroller {
-    position: fixed;
-    top: var(--header-height);
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    z-index: 0;
-
-    @media (--lg-up) {
-        position: relative;
-        top: initial;
-        bottom: initial;
-        left: initial;
-        right: initial;
-        overflow: initial;
-    }
-}
-
-body:not(.focus) #scroller {
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-
-    @media (--md-up) {
-        -webkit-overflow-scrolling: initial;
-        scroll-behavior: initial;
-    }
-}
-
-#scrollee {
-    position: relative;
-}
-
 .profile #content {
     margin: 0 auto;
     max-width: var(--old-desktop-width);
@@ -212,37 +171,6 @@ body:not(.focus) #scroller {
     }
 }
 
-#install-app {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--black);
-    height: 3rem;
-    line-height: 3rem;
-    vertical-align: middle;
-    cursor: pointer;
-    text-align: center;
-    color: var(--white);
-    font-weight: bold;
-    z-index: var(--top-z-index);
-    transform: translateY(0);
-    transition: transform var(--transition-duration) linear;
-    font-family: var(--base-font-family);
-}
-
-#install-app.hide {
-    transform: translateY(3rem);
-}
-
-#install-app a {
-    position: absolute;
-    right: 0;
-    height: 100%;
-    width: 3rem;
-    color: var(--white);
-}
-
 /**
  * We have two different page transition types:
  * one for desktop and one for mobile.
@@ -264,6 +192,7 @@ body:not(.focus) #scroller {
 #content {
     position: relative;
     min-height: 80vh;
+    overflow-x: hidden;
 
     @media (--md-up) {
         position: unset;
@@ -433,7 +362,7 @@ a.small,
     left: 0;
     right: 0;
     height: 5px;
-    z-index: 3;
+    z-index: var(--override-z-index);
     background: linear-gradient(270deg, #e5868b, #a2a4d1);
     background-size: 400% 400%;
     animation: move-background 2s ease infinite;
@@ -451,67 +380,4 @@ a.small,
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.survey {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 25px 40px;
-    width: 100%;
-    max-width: 440px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-    z-index: var(--override-z-index);
-    animation: fade-in var(--transition-duration) linear;
-
-    @media (--sm-down) {
-        right: 0;
-        left: 0;
-        bottom: 0;
-        margin: 0 auto;
-    }
-
-    & button {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        outline: none;
-        border: none;
-    }
-
-    & h1 {
-        margin-bottom: 20px;
-        width: 100%;
-    }
-
-    & p {
-        margin-bottom: 28px;
-        line-height: 1.5;
-        color: var(--near-black);
-    }
-
-    & a {
-        border-radius: 29px;
-        padding: 12px 40px;
-        font-size: 14px;
-        font-weight: 600;
-        letter-spacing: 0.8px;
-        text-transform: uppercase;
-        text-align: center;
-        background-color: #629ff4;
-        color: white;
-        box-shadow: none;
-        transition: box-shadow linear var(--transition-duration);
-
-        &:hover {
-            opacity: 1;
-            box-shadow: 0 5px 10px rgba(98, 159, 244, 0.8);
-        }
-    }
 }

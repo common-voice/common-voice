@@ -60,7 +60,6 @@
     "jest": "^25.1.0",
     "jest-matcher-utils": "^25.1.0",
     "mkdirp": "^0.5.1",
-    "newrelic": "^6.4.0",
     "nodemon": "^2.0.2",
     "source-map-support": "^0.5.16",
     "ts-jest": "25.2.1",

@@ -479,10 +479,13 @@ sst-explanation = Les tecnologies de veu a text (STT) converteixen les dades de 
 de-identified = Anonimització
 de-identified-explanation = Procés pel qual la informació del perfil d'un col·laborador s'oculta dels talls de veu que han donat quan s'empaqueten per baixar-los com a part del conjunt de dades.
 
-## NotFound
+## Error pages
 
-notfound-title = No s'ha trobat
-notfound-content = No s'ha trobat allò que cercàveu.
+error-title-404 = No s’ha trobat aquesta pàgina
+error-content-404 = Potser us pot ajudar la nostra <homepageLink>pàgina d'inici</homepageLink>? Si teniu alguna pregunta, uniu-vos al <matrixLink>xat de la comunitat en el Matrix</matrixLink>, superviseu els problemes del lloc mitjançant el <githubLink>GitHub</githubLink> o visiteu els nostres <discourseLink>fòrums del Discourse</discourseLink>.
+error-title-503 = El lloc web no està disponible temporalment
+error-content-503 = El lloc tornarà a estar disponible al més aviat possible. Per veure la informació més actual, uniu-vos al <matrixLink>xat de la comunitat en el Matrix</matrixLink>, o visiteu el <githubLink>GitHub</githubLink> o els nostres <discourseLink>fòrums del Discourse</discourseLink> per enviar i supervisar els problemes que experimenteu en el lloc.
+error-code = Error { $code }
 
 ## Data
 
@@ -722,6 +725,7 @@ validations =
 
 your-languages = Les vostres llengües
 toward-next-goal = Cap al següent objectiu
+goal-reached = S'ha assolit l'objectiu
 clips-you-recorded = Talls que heu enregistrat
 clips-you-validated = Talls que heu validat
 todays-recorded-progress = Progrés d'avui del Common Voice quant a talls enregistrats

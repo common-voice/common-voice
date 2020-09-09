@@ -67,7 +67,6 @@ interface LayoutState {
   challengeToken: ChallengeToken;
   isMenuVisible: boolean;
   hasScrolled: boolean;
-  hasScrolledDown: boolean;
   showStagingBanner: boolean;
   showWelcomeModal: boolean;
   featureStorageKey?: string;
@@ -138,8 +137,6 @@ const SegmentBanner = ({
 };
 
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
-  private header: HTMLElement;
-  private scroller: HTMLElement;
   private installApp: HTMLElement;
 
   state: LayoutState = {
@@ -147,7 +144,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     challengeToken: undefined,
     isMenuVisible: false,
     hasScrolled: false,
-    hasScrolledDown: false,
     showStagingBanner: !isProduction(),
     showWelcomeModal: false,
     featureStorageKey: null,
@@ -155,7 +151,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   async componentDidMount() {
     const { locale, api, user } = this.props;
-    this.scroller.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll);
     this.visitHash();
 
     const challengeTeamToken = this.getTeamToken();
@@ -182,10 +178,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
       // Immediately scrolling up after page change has no effect.
       setTimeout(() => {
-        if (this.scroller) {
-          this.scroller.scrollTop = 0;
-        }
-
         if (location.hash) {
           this.visitHash();
         } else {
@@ -199,7 +191,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   }
 
   componentWillUnmount() {
-    this.scroller.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll);
   }
 
   private visitHash() {
@@ -211,14 +203,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     }
   }
 
-  lastScrollTop: number;
   private handleScroll = () => {
-    const { scrollTop } = this.scroller;
+    const { scrollY } = window;
     this.setState({
-      hasScrolled: scrollTop > 0,
-      hasScrolledDown: scrollTop > this.lastScrollTop,
+      hasScrolled: scrollY > 0,
     });
-    this.lastScrollTop = scrollTop;
   };
 
   private toggleMenu = () => {
@@ -228,11 +217,11 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private selectLocale = async (locale: string) => {
     const { setLocale, history } = this.props;
     trackGlobal('change-language', locale);
+    history.push(replacePathLocale(history.location.pathname, locale));
     setLocale(locale);
     this.setState({
       featureStorageKey: await this.getFeatureKey(locale),
     });
-    history.push(replacePathLocale(history.location.pathname, locale));
   };
 
   private getChallengeToken = () => {
@@ -266,7 +255,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       challengeTeamToken,
       challengeToken,
       hasScrolled,
-      hasScrolledDown,
       isMenuVisible,
       showStagingBanner,
       showWelcomeModal,
@@ -304,36 +292,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               featureStorageKey={featureStorageKey}
             />
           )}
-        {showStagingBanner && (
-          <div className="staging-banner">
-            You're on the staging server. Voice data is not collected here.{' '}
-            <a
-              href={URLS.HTTP_ROOT}
-              target="_blank"
-              rel="noopener noreferrer">
-              Don't waste your breath.
-            </a>{' '}
-            <a
-              href={`${URLS.GITHUB_ROOT}/issues/new`}
-              rel="noopener noreferrer"
-              target="_blank">
-              Feel free to report issues.
-            </a>{' '}
-            <button onClick={() => this.setState({ showStagingBanner: false })}>
-              Close
-            </button>
-          </div>
-        )}
-        <header
-          className={
-            !isMenuVisible &&
-            (hasScrolled ? 'active' : '') +
-              ' ' +
-              (hasScrolledDown ? 'hidden' : '')
-          }
-          ref={header => {
-            this.header = header as HTMLElement;
-          }}>
+        <header className={hasScrolled ? 'active' : ''}>
           <div>
             <Logo />
             <Nav id="main-nav" />
@@ -366,16 +325,25 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </button>
           </div>
         </header>
-        <div
-          id="scroller"
-          ref={div => {
-            this.scroller = div as HTMLElement;
-          }}>
-          <div id="scrollee">
-            <Content location={location} />
-            <Footer />
+        {showStagingBanner && (
+          <div className="staging-banner">
+            You're on the staging server. Voice data is not collected here.{' '}
+            <a href={URLS.HTTP_ROOT} target="_blank" rel="noopener noreferrer">
+              Don't waste your breath.
+            </a>{' '}
+            <a
+              href={`${URLS.GITHUB_ROOT}/issues/new`}
+              rel="noopener noreferrer"
+              target="_blank">
+              Feel free to report issues.
+            </a>{' '}
+            <button onClick={() => this.setState({ showStagingBanner: false })}>
+              Close
+            </button>
           </div>
-        </div>
+        )}
+        <Content location={location} />
+        <Footer />
         <div
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>

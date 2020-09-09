@@ -480,10 +480,13 @@ sst-explanation = Voĉrekoniloj (STT) transformas voĉon en tekston.
 de-identified = Anonimigita
 de-identified-explanation = La procezo kiu permesas apartigi la personajn informojn de la kontribuantoj kaj iliajn kontribuojn, dum oni pakas la voĉregistrojn en la datumbazo por elŝuto.
 
-## NotFound
+## Error pages
 
-notfound-title = Ne trovita
-notfound-content = Bedaŭrinde mi ne trovas tion, kion vi serĉas.
+error-title-404 = Ni ne povis trovi tiun paĝon
+error-content-404 = Nia <homepageLink>hejmpaĝo</homepageLink> povus eble helpi. Por demandi ion, bonvolu aliĝi al la <matrixLink>retbabilejo de la komunumo Matrix</matrixLink>, vi ankaŭ povas vidi raportitajn problemojn en la retejo per <githubLink>GitHub</githubLink> aŭ viziti <discourseLink>niajn forumojn Discourse</discourseLink>.
+error-title-503 = La retejo estas provizore nedisponebla
+error-content-503 = La retejo estos restarigita kiel eble plej rapide. Por pli da informo bonvolu aliĝi al la <matrixLink>retbabilejo de la komunumo Matrix</matrixLink> au viziti <githubLink>GitHub</githubLink> aŭ <discourseLink>niajn forumojn Discourse</discourseLink> por raporti kaj informiĝi pri problemoj en la retejo.
+error-code = Eraro { $code }
 
 ## Data
 
@@ -502,6 +505,8 @@ data-bundle-button = Elŝuti kolekto da datumaroj
 data-bundle-description = Datumoj de Common Voice kaj ĉiuj aliaj supraj voĉaj datumaroj.
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
 license-mixed = Miksita
+data-download-singleword-title = Elŝuti la celan segmenton de unikaj vortoj
+data-download-singleword-callout = Tiu ĉi estas cela segmento por aparta uzo. Ĝi enhavas datumojn, kiuj rilatas la rekonon de parolitaj ciferoj, detekton de jes kaj ne,  kaj  testajn datumojn por la vekvorto de <fxLink>Firefox Voice</fxLink>.
 review-terms = Per la uzo de Common Voice vi akceptas niajn <termsLink>kondiĉojn</termsLink> kaj <privacyLink>privatecan rimarkon</privacyLink>
 terms-agree = Mi akceptas
 terms-disagree = Mi ne akceptas
@@ -672,7 +677,7 @@ record-button-label = Registri vian voĉon
 share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
 keep-track-profile = Akompanu vian progreson per profilo
 login-to-get-started = Komencu seancon aŭ enskribiĝu por ekuzi
-target-segment-first-card = Vi kontribuas a la nia unua cela segmento
+target-segment-first-card = Vi kontribuas kun nia unua cela segmento
 target-segment-first-banner = Helpu krei la unuan celan segmenton de Common Voice en { $locale }
 target-segment-add-voice = Aldoni vian voĉon
 target-segment-learn-more = Pli da informo
@@ -721,6 +726,7 @@ validations =
 
 your-languages = Viaj lingvoj
 toward-next-goal = Al la venonta celo
+goal-reached = Celo atingita
 clips-you-recorded = Viaj voĉregistroj
 clips-you-validated = Viaj revizioj
 todays-recorded-progress = Hodiaŭa progreso de Common Voice rilate al voĉregistroj
@@ -793,6 +799,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Vi <bold>NE</bold> ricevos retpoŝtajn mesaĝojn kun memorigoj pri celoj
     raportoj pri via progreso kaj novaĵleteroj de Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } voĉregistro
+       *[other] { $count } voĉregistroj
+    }
 help-share-goal = Helpu nin trovi pli da voĉoj, kundividu vian celon
 confirm-goal = Konfirmi celon
 goal-interval-weekly = Semajne

@@ -11,7 +11,6 @@ loading = Kargatzen…
 email-opt-in-info = Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren eguneraketak eta buletinak jaso nahi ditut posta elektroniko bidez.
 email-opt-in-info-title = Batu Common Voice posta-zerrendara
 email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice-ri buruzko helburuen abisuak, aurrerapenaren eguneraketak eta buletinak.
-email-opt-in-privacy = E-postak jaso nahi dituzula adieraziz, Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
 
@@ -466,10 +465,11 @@ sst-explanation = hizketatik testura teknologiek (STT), ahots datuak testu bihur
 de-identified = Des-identifikazioa
 de-identified-explanation = datu-sorta deskargagarri uzteko paketatzen denean, egilearen profilaren informazioa berak grabatutako grabaketetatik ezkutatzeko prozesua.
 
-## NotFound
+## Error pages
 
-notfound-title = Ez da aurkitu
-notfound-content = Sentitzen dut baina ez dakit zeren bila zabiltzan.
+error-title-404 = Ezin izan dugu orri hori aurkitu zuretzat
+error-title-503 = Ezusteko matxura bat izaten ari gara
+error-code = { $code } errorea
 
 ## Data
 
@@ -488,6 +488,7 @@ data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
+data-download-singleword-title = Deskargatu hitz bakarreko esparru zehatzeko atala
 review-terms = Common Voice erabiltzean, bere <termsLink>erabilera baldintzak</termsLink> eta <privacyLink>pribatutasun-oharra</privacyLink> onartzen dituzu
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
@@ -608,7 +609,11 @@ contribute = Lagundu
 listen = Entzun
 skip = Saltatu
 shortcuts = Lasterbideak
-clips-with-count = <bold>{ $count }</bold> grabaketa
+clips-with-count-pluralized =
+    { $count ->
+        [one] Grabaketa <bold>{ $count }</bold>
+       *[other] <bold>{ $count }</bold> grabaketa
+    }
 goal-help-recording = Common Voicek egunero { $goalValue } grabaketa lortzea du helburu eta zuk helburuaren <goalPercentage></goalPercentage>a lortzen lagundu duzu!
 goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balidatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
 contribute-more =
@@ -703,6 +708,7 @@ validations =
 
 your-languages = Zure hizkuntzak
 toward-next-goal = Hurrengo helbururantz
+goal-reached = Helburua lortuta
 clips-you-recorded = Egin dituzun grabaketak
 clips-you-validated = Balioztatu dituzun grabaketak
 todays-recorded-progress = Common Voicen gaurko aurrerapena egindako grabaketetan
@@ -725,6 +731,7 @@ show-ranking = Erakutsi nire rankinga
 
 get-started-goals = Hasi helburuekin
 create-custom-goal = Sortu helburu pertsonalizatua
+goal-type = Zein motatako helburua nahi duzu ezarri?
 both-speak-and-listen = Biak
 both-speak-and-listen-long = Biak (hitz egin eta entzun)
 daily-goal = Eguneko helburua
@@ -738,14 +745,18 @@ want-to-continue = Jarraitu egin nahi duzu?
 finish-editing = Editatzea amaitu lehenengo?
 lose-changes-warning = Orain utziz gero zure aldaketak galduko dituzu
 build-custom-goal = Sortu helburu pertsonalizatua
-help-reach-hours = Lagundu { NUMBER($hours) } ordu lortzen { $language } hizkuntzan zure helburu pertsonal bat ezarriz
-help-reach-hours-general = Lagundu Common Voice-en { NUMBER($hours) } ordu lortzen hizkuntza batean, helburu pertsonal bat ezarriz
+help-reach-hours-pluralized =
+    Lagundu{ NUMBER($hours) ->
+        [one] { $hours } ordu
+       *[other] { $hours } ordu
+    } lortzen { $language } hizkuntzan helburu pertsonal batekin
+help-reach-hours-general-pluralized =
+    Lagundu Common Voice-ri { NUMBER($hours) ->
+        [one] { $hours } ordu
+       *[other] { $hours } ordu
+    }lortzen hizkuntza batean helburu pertsonal batekin
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
-activity-needed-calculation =
-    { NUMBER($totalHours) } orduko helburua eskuragarria da { NUMBER($periodMonths) }
-    hilabete baino gehixeagoan, baldin eta { NUMBER($people) } pertsonek egunero
-    { NUMBER($clipsPerDay) } grabaketa egiten badituzte.
 how-many-per-day = Primeran! Zenbat grabaketa egunean?
 how-many-a-week = Primeran! Zenbat grabaketa astean?
 which-goal-type = Hitz egin, entzun edo biak egin nahi dituzu?
@@ -755,7 +766,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren
     eguneraketak eta buletinak posta elektroniko bidez jasotzeko aukera <bold>EZ</bold> duzu ezarrita
-n-clips = { NUMBER($count) } grabaketa
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] Grabaketa { $count }
+       *[other] { $count } grabaketa
+    }
 help-share-goal = Lagundu ahots gehiago lortzen, partekatu zure helburua
 confirm-goal = Berretsi helburua
 goal-interval-weekly = Astero

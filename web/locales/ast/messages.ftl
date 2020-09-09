@@ -11,7 +11,6 @@ loading = Cargando...
 email-opt-in-info = Prestaríame recibir correos pa recordar los oxetivos, boletinos y anovamientos del mio progresu tocante a Common Voice.
 email-opt-in-info-title = Xunise a la llista de corréu de Common Voice
 email-opt-in-info-sub-with-challenge = Vas recibir correos con recordatorios, anovamientos de progresu, noticies y retos tocante a Common Voice
-email-opt-in-privacy = Optar pola receición de correos fai qu'aceutes el tar d'alcuerdu con que Mozilla remane esta información como se desplica na so <privacyLink>política de privacidá<privacyLink>.
 indicates-required = * indica que ye un campu riquíu
 not-available-abbreviation = N/D
 
@@ -491,10 +490,12 @@ sst-explanation = Les teunoloxíes de fala a testu (STT) convierten los datos de
 de-identified = Anonimación
 de-identified-explanation = El procesu pol que la información del perfil d'un collaborador s'anubre nos clips de voz que se donen cuando s'empaqueten por baxalos como parte d'un conxuntu de datos.
 
-## NotFound
+## Error pages
 
-notfound-title = Nun s'alcontró
-notfound-content = Sentímoslo pero nun damos colo que tabes guetando.
+error-title-404 = Nun pudimos alcontrar esa páxina
+error-title-503 = Tamos esperimentando una cayida temporal
+error-content-503 = El sitiu va volver tar disponible cuando seya posible. Pa les últimes noticies, xúnite a la <matrixLink>charra de la comunidá en Matrix</matrixLink> o visita <githubLink>GitHub</githubLink> o <discourseLink>los nuesos foros en Discourse</discourseLink> pa unviar y supervisar problemes sufríos nel sitiu.
+error-code = Fallu { $code }
 
 ## Data
 
@@ -633,7 +634,11 @@ contribute = Collaborar
 listen = Sentir
 skip = Saltar
 shortcuts = Atayos
-clips-with-count = <bold>{ $count }</bold> clips
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> clip
+       *[other] <bold>{ $count }</bold> clips
+    }
 goal-help-recording = ¡Ayudesti a Common Voive a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } grabaciones!
 goal-help-validation = ¡Ayudesti a Common Voice a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } validaciones!
 contribute-more =
@@ -743,6 +748,7 @@ visibility-overlay-note = Nota: Al aftiar «Visible», esti axuste pue modificas
 
 get-started-goals = Entamar coles metes
 create-custom-goal = Crear una meta global
+goal-type = ¿Qué triba de meta quies crear?
 both-speak-and-listen = Dambos
 both-speak-and-listen-long = Dambos (Falar y Sentir)
 daily-goal = Meta diaria
@@ -756,19 +762,18 @@ want-to-continue = ¿Quies siguir?
 finish-editing = ¿Nun acabes primero d'editar?
 lose-changes-warning = El colar agora va facer que pierdas los cambeos
 build-custom-goal = Creación d'una meta personalizada
-help-reach-hours = Ayuda a algamar { NUMBER($hours) } hores en { $language } con una meta personal
-help-reach-hours-general = Ayuda con una meta personal a que Common Voice algame { NUMBER($hours) } hores nuna llingua
 set-a-goal = Afitar una meta
 cant-decide = ¿Nun te decides?
-activity-needed-calculation =
-    Puen algamase les { NUMBER($totalHours) } hores en { NUMBER($periodMonths) }
-    si { NUMBER($people) } persones graben { NUMBER($clipsPerDay) } clips per día.
 how-many-per-day = ¡Mui bien! ¿Cuántos clips per día?
 how-many-a-week = ¡Mui bien! ¿Cuántos clips per selmana?
 which-goal-type = ¿Quies Falar, Sentir o dambos?
 receiving-emails-info = Anguaño <bold>TAS</bold> recibiendo correos tocante a Common Voice
 not-receiving-emails-info = Anguaño <bold>NUN</bold> tas recibiendo correos tocante a Common Voice
-n-clips = { NUMBER($count) } clips
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } clip
+       *[other] { $count } clips
+    }
 help-share-goal = Ayúdanos a alcontrar más voces. Comparti la meta
 confirm-goal = Confirmar la meta
 goal-interval-weekly = Selmanalmente
@@ -797,3 +802,4 @@ profile-form-delete = Desaniciu del perfil
 welcome-staff = ¡Afayáivos, personal de { $company }!
 help-contribute = Pues ayudar a crear un conxuntu de datos diversu y abiertu creando un perfil en Common Voice y collaborando cola to voz.
 profile-not-required = Nun se rique tener un perfil pa collaborar, pero ayuda
+read-more-about = Llei más tocante a nós na nuesa páxina Tocante a

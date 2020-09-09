@@ -100,7 +100,7 @@ export default React.memo(() => {
           <TextButton
             className="back-top"
             onClick={() => {
-              document.getElementById('scroller').scrollTop = 0;
+              window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
           />
         </Localized>

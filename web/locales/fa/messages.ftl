@@ -484,10 +484,12 @@ sst-explanation = فن‌آوری‌ها گفتار به متن (TTS)، اطلا
 de-identified = دیگر شناسایی نمی‌شود
 de-identified-explanation = فرآیندی که از طریق آن اطلاعات نمایه شرکت کننده از کلیپ‌های صوتی اهدا شده آنها هنگامی که برای دریافت به عنوان مجموعه داده‌ها جمع‌آوری می‌شوند، محو می‌شود.
 
-## NotFound
+## Error pages
 
-notfound-title = پیدا نشد
-notfound-content = من نگرانم و نمی دانم شما به دنبال چه هستید.
+error-title-404 = ما نتوانسیم آن صفحه را پیدا کنیم
+error-content-404 = شاید <homepageLink>صفحه خانگی</homepageLink> ما به شما کمک کند؟ برای پرسیدن سوال لطفا به <matrixLink> چت عمومی ماتریکس</matrixLink> و برای رصد مشکلات به <githubLink>GitHub</githubLink> بپیوندید و یا از <discourseLink> فروم دیسکورس ما </discourseLink> دیدن کنید.
+error-title-503 = ما خرابی غیرمنتظره را تجربه می‌کنیم
+error-code = خطا { $code }
 
 ## Data
 
@@ -628,7 +630,11 @@ contribute = مشارکت
 listen = بشنوید
 skip = رد کردن
 shortcuts = میانبرها
-clips-with-count = <bold>{ $count }</bold> کلیپ
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> کلیپ
+       *[other] <bold>{ $count }</bold> کلیپ
+    }
 goal-help-recording = شما به آواهای مشترک کمک کردید تا به <goalPercentage></goalPercentage> از { $goalValue } هدف ضبط روزانه‌مان برسیم
 goal-help-validation = شما به آواهای مشترک کمک کردید تا به <goalPercentage></goalPercentage> از { $goalValue } هدف اعتبارسنجی روزانه‌مان برسیم
 contribute-more =
@@ -759,17 +765,28 @@ want-to-continue = می‌خواهید ادامه دهید؟
 finish-editing = ویرایش را نخست تمام کنیم؟
 lose-changes-warning = اگر اکنون خارج شوید باعث از بین رفتن تغییرات شما می شود
 build-custom-goal = یک هدف سفارشی بسازید
-help-reach-hours = در رسیدن به { NUMBER($hours) } ساعت به زبان { $language } با یک هدف شخصی کمک کنید
-help-reach-hours-general = با تعیین یک هدفِ شخصی، به پروژهٔ آواهای مشترک برای رسیدن به { NUMBER($hours) } ساعت در یک زبان کمک کنید
+help-reach-hours-pluralized =
+    با یک هدف شخصی در رسیدن به{ NUMBER($hours) ->
+        [one] { $hours } ساعت
+       *[other] { $hours } ساعت
+    } در { $language } کمک کنید
+help-reach-hours-general-pluralized =
+    با یک هدف شخصی آواهای مشترک را در رسیدن به{ NUMBER($hours) ->
+        [one] { $hours } ساعت
+       *[other] { $hours } ساعت
+    } در یک زبان کمک کنید
 set-a-goal = یک هدف تنظیم کنید
 cant-decide = نمی‌توانید تصمیم بگیرید؟
-activity-needed-calculation = { NUMBER($totalHours) } ساعت فقط در بیش از { NUMBER($periodMonths) } ماه دست‌یافتنی است اگر افراد هر روز یک { NUMBER($clipsPerDay) } برش صوتی ضبط کنند.
 how-many-per-day = عالی است! چه تعداد برش صوتی در روز؟
 how-many-a-week = عالی است! چه تعداد برش صوتی در هفته؟
 which-goal-type = می‌خواهید صحبت کنید، بشنوید یا هردو؟
 receiving-emails-info = شما در حال حاضر پست های الکترونیکی دریافت خواهید کرد شامل  یادآورهای هدف، به‌روزرسانی‌های پیشرفت و خبرنامه‌هایی درباره آواهای مشترک.
 not-receiving-emails-info = شما هم اکنون بر روی وضعیت <bold>دریافت نکردن</bold> نامه‌های الکترونیکی،‌ یادآوری هدف و وضعیت پیشرفت خود و همچنین خبرنامه ها از آواهای مشترک قرار دارید.
-n-clips = { NUMBER($count) } کلیپ
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } کلیپ
+       *[other] { $count } کلیپ
+    }
 help-share-goal = به ما کمک کنید صداهای بیشتری بیابیم، هدف‌تان را به اشتراک بگذارید
 confirm-goal = تایید هدف
 goal-interval-weekly = هفتگی

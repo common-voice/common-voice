@@ -2,6 +2,7 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { HTMLProps, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import * as cx from 'classnames';
 import { LocaleLink } from '../locale-helpers';
 import { CheckIcon } from './icons';
 
@@ -133,12 +134,7 @@ export const LinkButton = ({
   const Component = props.to ? (absolute ? Link : LocaleLink) : 'a';
   return (
     <Component
-      className={[
-        'button',
-        outline ? 'outline' : '',
-        rounded ? 'rounded' : '',
-        className,
-      ].join(' ')}
+      className={cx('button', { outline, rounded }, className)}
       {...(blank ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
       {...props}
     />

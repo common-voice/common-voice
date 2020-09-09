@@ -453,16 +453,18 @@ glossary = Sözlük
 localization = Yerelleştirme
 localization-explanation = Bu, içeriğimizi birçok dile ve uyarlama sürecimizdir.
 sentence-collection = Cümle derleme
+sentence-collection-explanation = Kamu malı olmuş cümleler toplamak veya kamu malı cümleler yazmak.
 hours-recorded-explanation = Şimdiye kadar topladığımız ses kayıtlarının toplam süresi.
 hours-validated-explanation = “Evet” oyu ile 3 kullanıcıdan 2’si tarafından onaylanan ses kayıt saati. Bu hedefler, projenin 10.000 saatlik genel hedefine doğru ilerleme kaydedilmesine işaret ediyor.
 sst = Konuşmadan metne (STT)
 sst-explanation = Konuşmadan metne (STT) teknolojileri ses verilerini metne dönüştürür.
 de-identified = Anonimleştirilmiş
 
-## NotFound
+## Error pages
 
-notfound-title = Bulunamadı
-notfound-content = Maalesef aradığınız şeyi bulamadık.
+error-title-404 = Aradığınız sayfayı bulamadık
+error-title-503 = Beklenmedik bir kesinti yaşıyoruz
+error-code = Hata { $code }
 
 ## Data
 
@@ -702,6 +704,7 @@ validations =
 
 your-languages = Dilleriniz
 toward-next-goal = Sonraki hedef için kalan
+goal-reached = Hedefe ulaşıldı
 clips-you-recorded = ses kaydettiniz
 clips-you-validated = ses doğruladınız
 todays-recorded-progress = Bugün Common Voice’a kaydedilen seslerdeki ilerleme
@@ -739,6 +742,11 @@ want-to-continue = Devam etmek istiyor musunuz?
 finish-editing = Önce düzenleme bitirilsin mi?
 lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
+help-reach-hours-pluralized =
+    Kişisel bir hedef belirleyerek { $language } dilinde{ NUMBER($hours) ->
+        [one] { $hours } saate
+       *[other] { $hours } saate
+    }ulaşmamıza yardımcı olun
 help-reach-hours-general-pluralized =
     Kişisel bir hedefle Common Voice'un bir dilde { NUMBER($hours) ->
         [one] { $hours } saate

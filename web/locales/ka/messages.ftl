@@ -720,6 +720,7 @@ validations =
 
 your-languages = თქვენი ენები
 toward-next-goal = პირდაპირ შემდეგ მიზნამდე
+goal-reached = მიზანი მიღწეულია
 clips-you-recorded = თქვენი ჩანაწერები
 clips-you-validated = თქვენ მიერ დამოწმებული
 todays-recorded-progress = დღევანდელი წინსვლა ჩანაწერებში
@@ -763,26 +764,26 @@ help-reach-hours-pluralized =
        *[other] { $hours } საათს
     }{ $language } ენისთვის, პირადი მიზნის დასახვით
 help-reach-hours-general-pluralized =
-    დაგვეხმარეთ Common Voice-ში მივაღწიოთ{ NUMBER($hours) ->
+    დაგვეხმარეთ Common Voice-ში მივაღწიოთ { NUMBER($hours) ->
         [one] { $hours } საათს
        *[other] { $hours } საათს
-    }ენისთვის, პირადი მიზნის დასახვით
+    } ენისთვის, პირადი მიზნის დასახვით
 set-a-goal = მიზნის მითითება
 cant-decide = ვერ გადაგიწყვეტიათ?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } საათის
-       *[other] { $totalHours } საათის
-    }მიიღწევა სულ რაღაც{ NUMBER($periodMonths) ->
+        [one] { $totalHours } საათი
+       *[other] { $totalHours } საათი
+    } მიიღწევა სულ რაღაც  { NUMBER($periodMonths) ->
         [one] { $periodMonths } თვეში
        *[other] { $periodMonths } თვეში
-    }თუ{ NUMBER($people) ->
+    } თუ{ NUMBER($people) ->
         [one] { $people } ადამიანი
        *[other] { $people } ადამიანი
-    }გააკეთებს{ NUMBER($clipsPerDay) ->
+    } გააკეთებს { NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } ჩანაწერს
        *[other] { $clipsPerDay } ჩანაწერს
-    }დღეში
+    } დღეში
 how-many-per-day = მშვენიერია! რამდენი ჩანაწერი ყოველდღიურად?
 how-many-a-week = მშვენიერია! რამდენი ჩანაწერი ყოველკვირეულად?
 which-goal-type = გირჩევნიათ წარმოთქმა, მოსმენა, თუ ორივე?

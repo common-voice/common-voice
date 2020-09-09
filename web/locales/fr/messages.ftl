@@ -483,10 +483,13 @@ sst-explanation = La reconnaissance vocale (STT) convertit de la voix en texte.
 de-identified = Déidentifié 
 de-identified-explanation = Processus permettant de séparer les informations personnelles des contributeurs et contributrices de leurs échantillons lors de la préparation du jeu de données.
 
-## NotFound
+## Error pages
 
-notfound-title = Introuvable
-notfound-content = J’ai bien peur de ne pas savoir ce que vous recherchez.
+error-title-404 = Page introuvable
+error-content-404 = Peut-être que notre <homepageLink>page d’accueil</homepageLink> vous aidera ? Pour poser une question, rejoignez la <matrixLink>discussion communautaire Matrix</matrixLink>, surveillez les problèmes du site sur <githubLink>GitHub</githubLink> ou visitez nos <discourseLink>forums Discourse</discourseLink>.
+error-title-503 = Nous subissons des temps d’arrêt inattendus
+error-content-503 = L’accès au site sera restauré dans les plus brefs délais. Pour obtenir les dernières informations, rejoignez le <matrixLink>chat de la communauté Matrix</matrixLink>, visitez <githubLink>GitHub</githubLink> ou <discourseLink>nos forums Discourse</discourseLink> pour soumettre et surveiller les problèmes liés à l’utilisation du site.
+error-code = Erreur { $code }
 
 ## Data
 
@@ -722,6 +725,7 @@ validations =
 
 your-languages = Vos langues 
 toward-next-goal = Vers le prochain objectif
+goal-reached = Objectif atteint
 clips-you-recorded = Les échantillons que vous avez enregistrés
 clips-you-validated = Les échantillons que vous avez validés
 todays-recorded-progress = La progression de Common Voice sur les échantillons enregistrés aujourd’hui

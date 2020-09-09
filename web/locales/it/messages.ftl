@@ -468,10 +468,13 @@ sst-explanation = Le tecnologie di riconoscimento vocale (STT) convertono il par
 de-identified = Anonimizzazione
 de-identified-explanation = Il processo con il quale le informazioni del profilo di un collaboratore contenute nelle sue registrazioni vengono rese illeggibili quando scaricate come parte del dataset.
 
-## NotFound
+## Error pages
 
-notfound-title = Non trovato
-notfound-content = Impossibile trovare i contenuti cercati.
+error-title-404 = Pagina non trovata
+error-content-404 = Vuoi tornare alla <homepageLink>pagina iniziale</homepageLink>? Puoi anche chiedere assistenza nella <matrixLink>chat della community Matrix</matrixLink>, consultare i problemi noti del sito su <githubLink>GitHub</githubLink> o seguire la discussione sul <discourseLink>forum Discourse</discourseLink>.
+error-title-503 = Si è verificata un’interruzione imprevista
+error-content-503 = Questo sito verrà ripristinato il prima possibile. Per rimanere aggiornato sugli ultimi sviluppi accedi alla <matrixLink>chat della community Matrix</matrixLink>. Per segnalare o monitorare i problemi di funzionamento del sito web visita <githubLink>GitHub</githubLink> o l’apposito <discourseLink>forum su Discourse</discourseLink>.
+error-code = Errore { $code }
 
 ## Data
 
@@ -611,7 +614,11 @@ contribute = Contribuisci
 listen = Ascolta
 skip = Salta
 shortcuts = Scorciatoie
-clips-with-count = <bold>{ $count }</bold> registrazioni
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> registrazione
+       *[other] <bold>{ $count }</bold> registrazioni
+    }
 goal-help-recording = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le registrazioni.
 goal-help-validation = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le convalide.
 contribute-more = Sei pronto a farne ancora { $count }?
@@ -702,6 +709,7 @@ validations =
 
 your-languages = Le tue lingue
 toward-next-goal = Verso il prossimo obiettivo
+goal-reached = Obiettivo raggiunto
 clips-you-recorded = Registrazioni che hai immesso
 clips-you-validated = Registrazioni che hai convalidato
 todays-recorded-progress = Progresso di Common Voice di oggi sulle registrazioni immesse
@@ -725,6 +733,7 @@ show-ranking = Mostra la mia posizione
 
 get-started-goals = Comincia a utilizzare gli obiettivi
 create-custom-goal = Crea un obiettivo personale
+goal-type = Qual è il tuo obiettivo?
 both-speak-and-listen = Entrambi
 both-speak-and-listen-long = Entrambi (registrare e convalidare)
 daily-goal = Obiettivo giornaliero
@@ -738,19 +747,42 @@ want-to-continue = Vuoi continuare?
 finish-editing = Vuoi finire prima le modifiche?
 lose-changes-warning = Se esci ora, perderai le tue modifiche
 build-custom-goal = Crea un obiettivo personale
-help-reach-hours = Aiuta a raggiungere { NUMBER($hours) } ore in { $language } con un obiettivo personale
-help-reach-hours-general = Aiuta Common Voice a raggiungere { NUMBER($hours) } ore in una lingua con gli obiettivi personali
+help-reach-hours-pluralized =
+    Aiuta a raggiungere{ NUMBER($hours) ->
+        [one] { $hours } ora
+       *[other] { $hours } ore
+    } in { $language } con un obiettivo personale
+help-reach-hours-general-pluralized =
+    Aiuta Common Voice a raggiungere { NUMBER($hours) ->
+        [one] { $hours } ora
+       *[other] { $hours } ore
+    } in una lingua con gli obiettivi personali
 set-a-goal = Imposta un obiettivo
 cant-decide = Sei indeciso?
-activity-needed-calculation =
-    Possiamo raggiungere { NUMBER($totalHours) } in soli { NUMBER($periodMonths) }
-    mesi se { NUMBER($people) } persone effettuano { NUMBER($clipsPerDay) } registrazioni al giorno.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } ora
+       *[other] { $totalHours } ore
+    } è un obiettivo che può essere raggiunto in solo { NUMBER($periodMonths) ->
+        [one] { $periodMonths } mese
+       *[other] { $periodMonths } mesi
+    } da { NUMBER($people) ->
+        [one] { $people } persona
+       *[other] { $people } persone
+    } producendo { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } registrazione
+       *[other] { $clipsPerDay } registrazioni
+    } al giorno.
 how-many-per-day = Ottimo! Quante registrazioni al giorno?
 how-many-a-week = Ottimo! Quante registrazioni a settimana?
 which-goal-type = Vuoi registrare, convalidare o entrambi?
 receiving-emails-info = Hai richiesto di ricevere email come: promemoria degli obiettivi, aggiornamenti sui progressi e newsletter su Common Voice.
 not-receiving-emails-info = Con la scelta attuale <bold>NON</bold> riceverai email come promemoria degli obiettivi, aggiornamenti sui progressi e newsletter riguardo Common Voice
-n-clips = { NUMBER($count) } registrazioni
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } registrazione
+       *[other] { $count } registrazioni
+    }
 help-share-goal = Aiutaci a trovare più voci, condividi il tuo obiettivo
 confirm-goal = Conferma obiettivo
 goal-interval-weekly = Settimanale

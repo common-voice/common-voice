@@ -3,7 +3,7 @@
 contribute = Ttekki
 get-involved-button = Ttekki
 get-involved-title = Ttekki deg { $lang }
-get-involved-text = Tanemmirt γef tallelt i d-tefkiḍ i { $lang }. Nqeddec iwakken yal tutlayt ad tili, ad nermes akk imttekkiyen  s ttawil n yimayl. Ma tebγiḍ ad tekkiḍ, ttxil sekcem tansa n yimayl seddaw-a.
+get-involved-text = Tanemmirt ɣef tallelt i d-tefkiḍ i { $lang }. Nqeddec iwakken yal tutlayt ad tili, ad nermes akk imttekkiyen  s ttawil n yimayl. Ma tebɣiḍ ad tekkiḍ, ttxil sekcem tansa n yimayl seddaw-a.
 get-involved-form-title = Jerred ar ileqman n { $lang }
 get-involved-email =
     .label = Imayl

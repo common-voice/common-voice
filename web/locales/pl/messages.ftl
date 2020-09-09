@@ -501,7 +501,7 @@ data-download-deny = Nie
 data-download-license = Licencja: <licenseLink>CC-0</licenseLink>
 data-download-modal = Za chwilę zaczniesz pobierać plik o rozmiarze <size>{ $size } GB</size>, czy chcesz kontynuować?
 data-subtitle = Tworzymy otwarty i publicznie dostępny zbiór danych mowy, który wszyscy mogą używać do trenowania aplikacji obsługujących mowę.
-data-explanatory-text = Wierzymy, że wielkie i publicznie dostępne zbiory danych z mową będą sprzyjać innowacji i zdrowej konkurencji rynkowej w zakresie technologii rozpoznawania mowy na podstawie nauczania maszynowego. To globalny wysiłek i zapraszamy wszystkich do brania udziału. Naszym celem jest, aby technologia rozpoznawania mowy była bardziej inkluzywna, odzwierciedlając różnorodność głosów na całym świecie.
+data-explanatory-text = Wierzymy, że wielkie i publicznie dostępne zbiory danych z mową będą sprzyjać innowacji i zdrowej konkurencji rynkowej w zakresie technologii rozpoznawania mowy opartej na uczeniu maszynowym. To globalny wysiłek i zapraszamy wszystkich do brania udziału. Naszym celem jest, aby technologia rozpoznawania mowy była bardziej inkluzywna, odzwierciedlając różnorodność głosów na całym świecie.
 data-get-started = <speechBlogLink>Pierwsze kroki z rozpoznawaniem mowy</speechBlogLink>
 data-other-title = Inne zbiory danych…
 data-other-goto = Przejdź do { $name }
@@ -731,6 +731,7 @@ validations =
 
 your-languages = Twoje języki
 toward-next-goal = Do następnego celu
+goal-reached = Osiągnięto cel
 clips-you-recorded = Twoje nagrania
 clips-you-validated = Nagrania sprawdzone przez Ciebie
 todays-recorded-progress = Dzisiejszy postęp nagrywania Common Voice

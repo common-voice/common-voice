@@ -11,6 +11,7 @@ loading = 載入中…
 email-opt-in-info = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
 email-opt-in-info-title = 加入 Common Voice 郵件群組
 email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進度更新、同 Common Voice 電子報嘅電郵。
+email-opt-in-privacy-v2 = 假如同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方式處理呢啲些資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
 
@@ -191,8 +192,8 @@ speak-goal-text = 段新錄音
 listen-subtitle = 幫我哋驗證錄音
 listen-paragraph = 驗證人哋錄低嘅錄音片段，對 Common Voice 嘅使命都非常重要。只要聽一下，就可以幫我哋打造高品質、開放源碼嘅語音數據集。
 listen-goal-text = 段錄音成功被驗證
-hours-recorded = 個小時的錄音
-hours-validated = 個小時已被驗證的錄音
+hours-recorded = 個鐘嘅錄音
+hours-validated = 個鐘已被驗證嘅錄音
 voices-online = 而家在線嘅人聲
 todays-progress = 今日嘅進度
 help-reach-goal = 幫我哋達到 { $goal }
@@ -353,7 +354,7 @@ gravatar_not_found = 找不到您電郵所屬的 Gravatar
 file_too_large = 選擇的檔案太大
 manage-subscriptions = 管理訂閱
 manage-email-subscriptions = 電郵訂閱管理
-email-already-used = 電子郵件地址已被使用
+email-already-used = 有人用咗呢個電郵地址喇
 add-language = 增加語言
 change-email-setings = 請到「設定」内的「登入身分」修改電郵地址
 
@@ -476,10 +477,16 @@ sst-explanation = 語音轉文字（STT）技術可將語音資料轉為文字�
 de-identified = 去識別化
 de-identified-explanation = 在打包下載資料集時，從其所貢獻的語音片段隱藏貢獻者個人資料的過程。
 
-## NotFound
+## Error pages
 
-notfound-title = 搵唔到
-notfound-content = 唔好意思，我唔知您搵緊乜。
+error-title-404 = 搵唔到您想開嘅頁面
+error-content-404 =
+    我哋嘅<homepageLink>首頁</homepageLink>可能會幫倒你？想問問題，請加入<matrixLink>Matrix 群組聊天室</matrixLink>，網站問題可以交畀<githubLink>GitHub</githubLink>，或去一去我哋嘅<discourseLink>Discourse 論壇</discourseLink>。
+    在上，或者加入
+    。
+error-title-503 = 我哋遇上意外嘅系统停機時段
+error-content-503 = 網站將會盡快恢復作業。請到我們嘅 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上嘅網站報告問題，或到 <discourseLink>Discourse 討論區</discourseLink>報俾我地，或者瀏覽最新資訊。
+error-code = 錯誤 { $code }
 
 ## Data
 
@@ -498,6 +505,8 @@ data-bundle-button = 下載數據組合
 data-bundle-description = Common Voice 數據，以及上面列出的所有其他語音數據集。
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
+data-download-singleword-title = 下載單字目標群體分項
+data-download-singleword-callout = 呢個喺以使用情境為導向嘅目標群體分項，當中包含用黎提供 Firefox Voice 進行語音數據識別、偵測喺或者唔喺、喚醒詞句等功能嘅測試資料。
 review-terms = 使用 Common Voice，即代表您同意我們的<termsLink>條款</termsLink>和<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我唔同意
@@ -522,7 +531,7 @@ datasets-positioning =
 language = 語言
 # File size in gigabytes
 size = 大小
-validated-hr-total = 已驗證總時數
+validated-hr-total = 已驗證總鐘數
 overall-hr-total = 總鐘數
 cv-license = 授權條款
 audio-format = 音檔格式
@@ -535,8 +544,8 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>您同意</b>不嘗試識別 Common Voice 資料集内談話人士的個人身分
 download-language = 下載{ $language }
-validated-hours = 已驗證時數
-recorded-hours = 已錄製時數
+validated-hours = 已驗證鐘數
+recorded-hours = 已錄製鐘數
 whats-inside = Common Voice 數據集當中有什麼？
 dataset-description-hours =
     數據集中的每筆資料包含一組獨特的 MP3 錄音檔與對應的文字檔案。數據集中包含 <b>{ $total }</b> 小時錄製完成的片段，當中也包含有許多不同年齡層、性別、口音等能夠幫助訓練語音識別引擎準確性的人口統計資料。
@@ -608,7 +617,7 @@ language-search-input =
 language-speakers = 錄音人數
 localized = 本地化進度
 sentences = 句子
-total-hours = 已驗證時數
+total-hours = 已驗證鐘數
 
 ## Contribution
 
@@ -655,7 +664,7 @@ record-abort-text = 如果要現在離開，會失去目前的進度
 record-abort-submit = 提交錄音
 record-abort-continue = 完成錄音
 record-abort-delete = 結束並刪除錄音
-listen-instruction = { $actionType }<playIcon></playIcon> 佢哋將句子讀得準確嗎？
+listen-instruction = { $actionType }<playIcon></playIcon> 呢句讀得準唔準？
 listen-again-instruction = 做得好！<playIcon></playIcon> 準備好就可以再聽更多
 listen-3rd-time-instruction = 完成兩筆了 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
@@ -666,8 +675,8 @@ record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
 keep-track-profile = 建立個人檔案，紀錄您的進度
 login-to-get-started = 請登入或註冊，即可開始使用
-target-segment-first-card = 您正在朝我們的第一個用例分項貢獻錄音
-target-segment-first-banner = 幫助 Common Voice 創立 { $locale } 的第一個用例分項
+target-segment-first-card = 您正在朝我們的第一個目標群體分項貢獻錄音
+target-segment-first-banner = 幫助 Common Voice 創立 { $locale } 的第一個目標群體分項
 target-segment-add-voice = 添加您的聲音
 target-segment-learn-more = 瞭解更多
 
@@ -712,6 +721,7 @@ validations =
 
 your-languages = 你嘅語言
 toward-next-goal = 距離下一個目標
+goal-reached = 達到咗嘅目標
 clips-you-recorded = 您錄製的片段
 clips-you-validated = 您驗證的錄音
 todays-recorded-progress = 今日 Common Voice 錄音片段的進度
@@ -735,6 +745,7 @@ show-ranking = 顯示我嘅排名
 
 get-started-goals = 訂立目標，開始貢獻
 create-custom-goal = 訂立個人目標
+goal-type = 您想要建立點樣嘅目標？
 both-speak-and-listen = 兩樣都做
 both-speak-and-listen-long = 兩樣都做 (又聽又講)
 daily-goal = 每日目標
@@ -748,8 +759,26 @@ want-to-continue = 你要繼續嗎？
 finish-editing = 要完成編輯嗎？
 lose-changes-warning = 而家離開將唔會儲存你嘅變更
 build-custom-goal = 度身訂做目標
+help-reach-hours-pluralized =
+    建立一個幫{ $language }達到{ NUMBER($hours) ->
+       *[other] { $hours } 小時
+    }嘅個人目標
+help-reach-hours-general-pluralized =
+    建立一個幫 Common Voice 嘅任何一種語言達到{ NUMBER($hours) ->
+       *[other] { $hours } 小時
+    }嘅個人目標
 set-a-goal = 訂立目標
 cant-decide = 決定唔到？
+activity-needed-calculation-plural =
+    假如有 { NUMBER($people) ->
+       *[other] { $people } 個人
+    }每天錄低 { NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } 條片
+    }，就可以喺 { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } 個月
+    }內達到{ NUMBER($totalHours) ->
+       *[other] { $totalHours } 小時
+    }錄音片段嘅目標。
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每週錄幾多段音？
 which-goal-type = 您想淨係講嘢、聽嘢，定係又聽又講？

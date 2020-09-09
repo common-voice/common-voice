@@ -23,7 +23,7 @@ export namespace Locale {
       dispatch: Dispatch<SetAction | any>,
       getState: () => StateTree
     ) => {
-      if (getState().locale == locale) return;
+      if (getState().locale === locale) return;
       dispatch({
         type: ActionType.SET,
         locale,

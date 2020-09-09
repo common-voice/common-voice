@@ -480,6 +480,10 @@ de-identified-explanation = Le processo que disassocia le informationes personal
 
 ## Error pages
 
+error-title-404 = Impossibile trovar iste pagina pro te.
+error-content-404 = Forsan nostre <homepageLink>pagina initial</homepageLink> pote adjutar? Pro poner un question, junge te al <matrixLink>chat del communitate Matrix</matrixLink>, survelia le problemas per <githubLink>GitHub</githubLink> o visita <discourseLink>nostre foros Discourse</discourseLink>.
+error-title-503 = Nos pati un inactivitate inexpectate
+error-content-503 = Le sito sera restabilite al plus tosto possibile. Pro le ultime informationes junge te al <matrixLink>chat del communitate Matrix</matrixLink> o visita <githubLink>GitHub</githubLink> o <discourseLink>nostre foros Discourse</discourseLink> pro inviar e surveliar problemas experimentate del sito.
 error-code = Error { $code }
 
 ## Data
@@ -720,6 +724,7 @@ validations =
 
 your-languages = Tu linguas
 toward-next-goal = Verso le proxime objectivo
+goal-reached = Proposito attingite
 clips-you-recorded = Retalios que tu ha registrate
 clips-you-validated = Retalios que tu ha validate
 todays-recorded-progress = Progresso hodierne de Common Voice sur le retalios audio registrate

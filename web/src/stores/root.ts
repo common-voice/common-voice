@@ -120,7 +120,11 @@ let prevUser: User.State = null;
 store.subscribe(async () => {
   const { locale, user } = store.getState();
 
-  if (ga && (!prevUser || !prevUser.account) && user.account) {
+  if (
+    typeof ga === 'function' &&
+    (!prevUser || !prevUser.account) &&
+    user.account
+  ) {
     ga('set', 'userId', await hash(user.account.client_id));
     // const { custom_goals } = user.account;
     // if (custom_goals[0]) {

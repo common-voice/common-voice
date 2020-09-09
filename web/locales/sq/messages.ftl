@@ -11,7 +11,7 @@ loading = Po ngarkohet…
 email-opt-in-info = Do të doja të merrja email-e të tillë si kujtues objektivash, përditësime rreth ecurisë time dhe buletine mbi Common Voice.
 email-opt-in-info-title = Bëhuni pjesë e listës së postimeve rreth Common Voice-it
 email-opt-in-info-sub-with-challenge = Merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë dhe buletinë rreth Common Voice-it.
-email-opt-in-privacy = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
+email-opt-in-privacy-v2 = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
 indicates-required = * tregon një fushë të domosdoshme
 not-available-abbreviation = N/A
 
@@ -481,10 +481,13 @@ sst-explanation = Teknologjitë E-folur-në-tekst (FNT) shndërrojnë të dhëna
 de-identified = Çidentifikim
 de-identified-explanation = Procesi sipas të cilit të dhënat e profilit të një vullnetari bëhen të padukshme në copëzat zanore që ky ka dhuruar, kur ato paketohen për shkarkim si pjesë e grupit të të dhënave.
 
-## NotFound
+## Error pages
 
-notfound-title = S’u gjet
-notfound-content = Kam frikë s’e nuk di se ç’po kërkoni.
+error-title-404 = S’e gjetëm dot atë faqe për ju
+error-content-404 = Ndoshta do t’ju ndihmojë  <homepageLink>faqja jonë hyrëse</homepageLink>? Për të bërë një pyetje, ju lutemi, bëhuni pjesë e <matrixLink>fjalosjes në bashkësinë Matrix</matrixLink>, mbikëqyrni probleme sajti përmes <githubLink>GitHub</githubLink>-it ose vizitonit <discourseLink>forumet tanë Discourse</discourseLink>.
+error-title-503 = Po kalojmë një mosfunksionim të papritur
+error-content-503 = Sajti do të kopjeruhet sa më shpejt që të jetë e mundur. Për të informacionet më të reja, ju lutemi, merrni pjesë te <matrixLink>fjalosja e bashkësisë sonë Matrix</matrixLink> ose vizitoni <githubLink>GitHub</githubLink> ose <discourseLink>forumet tanë Discourse</discourseLink> që të parashtroni dhe mbikëqyrni probleme funksionimi sajtesh.
+error-code = Gabim { $code }
 
 ## Data
 
@@ -503,6 +506,7 @@ data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 license-mixed = Të përziera
+data-download-singleword-callout = Ky është një segment i bazuar në raste përdorimi, që përmban të dhëna për fuqizimin e të kuptuarit të shifrave të thëna, pikasjeje po-je / jo-je, dhe të dhëna testimi <em>wakeword</em> për <fxLink>Firefox Voice</fxLink>.
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
 terms-agree = Pajtohem
 terms-disagree = Nuk pajtohem
@@ -620,7 +624,11 @@ contribute = Jepni Ndihmesë
 listen = Dëgjoni
 skip = Anashkaloje
 shortcuts = Shkurtore
-clips-with-count = <bold>{ $count }</bold> Copëza
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Copëz
+       *[other] <bold>{ $count }</bold> Copëza
+    }
 goal-help-recording = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të objektivit tonë ditor të incizimit të { $goalValue } fjalive!
 goal-help-validation = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të objektivit tonë ditor të vleftësimit të { $goalValue } fjalive!
 contribute-more =
@@ -714,6 +722,7 @@ validations =
 
 your-languages = Gjuhët Tuaja
 toward-next-goal = Drejt objektivit të ardhshëm
+goal-reached = U arrit synimi
 clips-you-recorded = Copëza Që Keni Incizuar
 clips-you-validated = Copëza Që Keni Vleftësuar
 todays-recorded-progress = Ecuria e sotme për copëza Common Voice të incizuara
@@ -737,6 +746,7 @@ show-ranking = Shfaq renditjen time
 
 get-started-goals = Filloni me objektiva
 create-custom-goal = Krijoni një Objektiv Vetjak
+goal-type = Ç’lloj synimi doni të krijoni?
 both-speak-and-listen = Të dyja
 both-speak-and-listen-long = Të dy (Folje dhe Dëgjim)
 daily-goal = Objektiv Ditor
@@ -750,19 +760,18 @@ want-to-continue = Doni të vazhdohet?
 finish-editing = Të përfundohet përpunimi së pari?
 lose-changes-warning = Largimi tani do të thotë se do të humbni ndryshimet tuaja
 build-custom-goal = krijoni një objektiv vetjak
-help-reach-hours = Ndihmoni përmes një objektivi personal të mbërrihet në { NUMBER($hours) } orë për gjuhën { $language }
-help-reach-hours-general = Ndihmojeni Common Voice përmes një objektivi personal të mbërrijë në { NUMBER($hours) } orë për një gjuhë
 set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
-activity-needed-calculation =
-    { NUMBER($totalHours) } orë arrihen në thjeshtr { NUMBER($periodMonths) }
-    muaj, nëse { NUMBER($people) } vetë incizojnë { NUMBER($clipsPerDay) } copëza në ditë.
 how-many-per-day = Bukur! Sa copëza në ditë?
 how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?
 receiving-emails-info = Keni caktuar të merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
 not-receiving-emails-info = Keni caktuar të <bold>MOS</bold> merrni email-e të tillë si kujtues objektivash, përditësime rreth ecurisë tuaj dhe buletine mbi Common Voice-in.
-n-clips = { NUMBER($count) } copëza
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } copëz
+       *[other] { $count } copëza
+    }
 help-share-goal = Ndihmonani të gjejmë më shumë zëra, ndani me të tjerët objektivin tuaj
 confirm-goal = Ripohojeni Objektivin
 goal-interval-weekly = Përjavë

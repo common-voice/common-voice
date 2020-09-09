@@ -11,7 +11,6 @@ loading = Cargando…
 email-opt-in-info = Me gustaría recibir correos electrónicos como recordatorios de objetivos, actualizaciones de mi progreso y boletines de noticias sobre Common Voice.
 email-opt-in-info-title = Unirse a la lista de correo de Common Voice
 email-opt-in-info-sub-with-challenge = Recibe correos con recordatorios de objetivos, actualizaciones de progreso y nuestro boletín de noticias de Common Voice.
-email-opt-in-privacy = Aceptando recibir correos entendemos que das permiso a Mozilla para utilizar la información tal y como se explica en la <privacyLink>Política de Privacidad<privacyLink> de Mozilla.
 indicates-required = * Indica un campo obligatorio
 not-available-abbreviation = N/A
 
@@ -474,10 +473,10 @@ sst-explanation = Tecnologías de texto a voz (STT) que convierten los datos de 
 de-identified = Anonimizar
 de-identified-explanation = El proceso por el que la información del perfil de un colaborador se oculta en los fragmentos de voz que ha donado, cuando se descargan como parte de la base de datos.
 
-## NotFound
+## Error pages
 
-notfound-title = No encontrado
-notfound-content = Perdóname, no sé qué estás buscando.
+error-content-404 = ¿Quizás nuestra <homepageLink>página de inicio</homepageLink> te puede ayudar? Para hacer una pregunta, únete al <matrixLink>chat de la comunidad Matrix</matrixLink>, monitorea los problemas del sitio a través de <githubLink>GitHub</githubLink> o visita <discourseLink>nuestros foros de Discurse</discourseLink>.
+error-content-503 = El sitio volverá a su funcionamiento lo antes posible. Para obtener la información más reciente, únete al <matrixLink>chat de la comunidad Matrix</matrixLink> o visita <githubLink>GitHub</githubLink> o <discourseLink> nuestros foros de Discourse</discourseLink> para enviar y hacer un seguimiento de los problemas con la experiencia del sitio.
 
 ## Data
 
@@ -496,6 +495,8 @@ data-bundle-button = Descargar paquete de archivo de datos
 data-bundle-description = Datos de Common Voice junto con todos los archivos de datos de voz anteriores.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
+data-download-singleword-title = Descarga el objetivo segmentado de una sola palabra
+data-download-singleword-callout = Este es un segmento basado en casos de uso que contiene datos para potenciar el reconocimiento de dígitos hablados, detección sí / no y datos de prueba de wakeword para <fxLink>Firefox Voice</fxLink>.
 review-terms = Al usar Common Voice, aceptas nuestros <termsLink>Términos de uso</termsLink> y la <privacyLink>Política de privacidad</privacyLink>
 terms-agree = Estoy de acuerdo
 terms-disagree = Estoy en desacuerdo
@@ -616,7 +617,11 @@ contribute = Colaborar
 listen = Escuchar
 skip = Saltar
 shortcuts = Accesos directos
-clips-with-count = <bold>{ $count }</bold> fragmentos
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> fragmento
+       *[other] <bold>{ $count }</bold> fragmentos
+    }
 goal-help-recording = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de grabación del { $goalValue }!
 goal-help-validation = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de validación del { $goalValue }!
 contribute-more = ¿Listo para hacer { $count } más?
@@ -730,6 +735,7 @@ show-ranking = Mostrar mi avance
 
 get-started-goals = Comenzar mis objetivos
 create-custom-goal = Crear un objetivo personalizado
+goal-type = ¿Qué tipo de objetivo quieres crear?
 both-speak-and-listen = Ambos
 both-speak-and-listen-long = Ambos (hablar y escuchar)
 daily-goal = Objetivo diario
@@ -743,17 +749,42 @@ want-to-continue = ¿Quieres continuar?
 finish-editing = ¿Quieres terminar de editar antes?
 lose-changes-warning = Si lo dejas ahora, perderás los cambios
 build-custom-goal = Crear un objetivo personalizado
-help-reach-hours = Ayuda a alcanzar { NUMBER($hours) } horas en { $language } con un objetivo personal
-help-reach-hours-general = Ayuda a que Common Voice alcance { NUMBER($hours) } horas en un idioma gracias a los objetivos personales
+help-reach-hours-pluralized =
+    Ayuda a alcanzar{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    }en { $language } con un objetivo personal
+help-reach-hours-general-pluralized =
+    Ayuda a que Common Voice alcance{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    }en un idioma con un objetivo personal
 set-a-goal = Establecer objetivo
 cant-decide = ¿No te decides?
-activity-needed-calculation = Puedes alcanzar { NUMBER($totalHours) } horas en poco más de { NUMBER($periodMonths) } meses si { NUMBER($people) } usuarios crean { NUMBER($clipsPerDay) } grabaciones al día.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } hora
+       *[other] { $totalHours } horas
+    }es alcanzable en solo{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mes
+       *[other] { $periodMonths } meses
+    }si{ NUMBER($people) ->
+        [one] { $people } persona
+       *[other] { $people } personas
+    }graban{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } fragmento
+       *[other] { $clipsPerDay } fragmentos
+    }al día.
 how-many-per-day = ¡Excelente! ¿Cuántas grabaciones al día?
 how-many-a-week = ¡Excelente! ¿Cuántas grabaciones a la semana?
 which-goal-type = ¿Quieres hablar, escuchar o los dos?
 receiving-emails-info = Ahora mismo lo tienes configurado para recibir correos electrónicos como recordatorios de objetivos, actualizaciones de progreso y boletines de información sobre Common Voice
 not-receiving-emails-info = Tu configuración actual indica que <bold>NO</bold> recibes correos con recordatorios de objetivos, actualizaciones de progreso ni boletines de noticias de Common Voice
-n-clips = { NUMBER($count) } grabaciones
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } fragmento
+       *[other] { $count } fragmentos
+    }
 help-share-goal = Ayúdanos a encontrar más voces, comparte tu objetivo
 confirm-goal = Confirmar objetivo
 goal-interval-weekly = Semanal
