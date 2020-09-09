@@ -800,6 +800,7 @@ Also hat Falk es einfach auf Verdacht bestellt.
 Also hat man aus der Not eine Tugend gemacht.
 Also hat sie sich den Oberschenkel und den Hals gebrochen?
 Also hör mal, das finde ich jetzt aber nicht in Ordnung, ok?
+Also ich finde mich sehr vertrauenswürdig.
 Also ich glaube, dass dir eine Fernbeziehung nicht gut tut.
 Also ich habe was dabei.
 Also ich lüge schon länger als vierzig Tage nicht.
@@ -823,6 +824,7 @@ Also noch mal kurz und prägnant.
 Also passen wir den Grenzwert an.
 Also realitätsmäßig auch tot - finde ich.
 Also rollte Karl Becher den Schlauchwagen wieder zum Geräteschuppen.
+Also schaltete ich das Gerät aus.
 Also schnell weiter zum nächsten Exponat!
 Also schön, noch ein allerletztes Mal!
 Also sechs Leute brauchen wir mindestens.
@@ -1596,6 +1598,7 @@ Auf lauwarmer Stufe fünfzehn Minuten garen.
 Auf manche Fragen im Vorstellungsgespräch darf man mit Lügen antworten.
 Auf mein Bestreben hin wurde die Aufnahmesperre ausgesetzt.
 Auf meiner Beerdigung hast du Hausverbot!
+Auf menschliche Gier ist überall auf der Welt Verlass.
 Auf mich hört sowieso niemand.
 Auf polnischer Seite könnte die Strecke über Posen weiter nach Stettin geführt werden.
 Auf scharfen Kanten kann man engere Kurven fahren.
@@ -2189,6 +2192,7 @@ Beim Zoll arbeiten hauptsächlich nur Bundesbeamte im mittleren, gehobenen oder 
 Beim Zoll wird man meistens einfach durchgewunken.
 Beim besten Willen nicht.
 Beim ersten Einsatz bekommt sie beide Bälle.
+Beim ersten hat es funktioniert, der zweite blieb stecken.
 Beim heutigen Derby gewannen die Gastgeber.
 Beim heutigen Lokalderby geht es zur Sache.
 Beim letzten Einbruch blieb ich untätig.
@@ -3195,6 +3199,7 @@ Dann dauert es ja doch noch was.
 Dann drücke ich dir mal die Daumen, dass es so bleibt.
 Dann fahren wir auch wieder mit dem Kanu.
 Dann fahren wir zu Inis.
+Dann fing es zu stinken an.
 Dann fragt doch Benjamin um Rat!
 Dann fragt keiner nach.
 Dann fährst du nächste Woche, okay?
@@ -3454,6 +3459,7 @@ Darüber muss ich mich erst schlau machen.
 Darüber muss man diskutieren.
 Darüber muss sie erst mal in Ruhe nachdenken.
 Darüber scheint man sich noch nicht so ganz einig zu sein.
+Darüber sollte man mal nachdenken.
 Darüber sollten wir mal in Ruhe nachdenken.
 Darüber war er nicht sehr erfreut.
 Darüber werden wir am Freitag abstimmen.
@@ -3892,6 +3898,7 @@ Das dürfte selbst die ärgsten Kritiker verstummen lassen.
 Das eigene Denken erscheint einem immer logisch.
 Das eigentlich benötigte Medikament ist gerade nicht verfügbar.
 Das eine Ende führst du von links durch die Schlaufe, das andere von rechts.
+Das eingeführte Stück Papier war nicht mehr herauszubekommen.
 Das einzelne Leben ist endlich, aber das Leben im allgemeinen Sinne endet hoffentlich nie.
 Das einzige Fleisch, das sie isst, ist Fruchtfleisch.
 Das einzige, was sie eint, ist ein gemeinsamer Feind.
@@ -4688,6 +4695,7 @@ Dein Rucksack ist viel zu schwer.
 Dein Vortrag war locker, flockig und informativ.
 Dein Wort ist mir Befehl, piepste der Wicht unterwürfig.
 Dein momentan dominierendes Gefühl ist Hunger?
+Dein neuer Schlüssel ist aber nicht signiert.
 Dein wievieltes Eis ist das heute?
 Deine Aufgabe ist es, das ganze Geraffel hier auseinander zu klabüstern.
 Deine Ausreden will ich gar nicht hören.
@@ -5888,6 +5896,7 @@ Die Abwärme der Server wird genutzt, um das Gewächshaus zu beheizen.
 Die Adresse des Bauernhofes lautet zur Pferdekoppel fünf.
 Die Affen ziehen dir die Socken aus!
 Die Agentur hat sich bewusst für das Tarnmuster entschieden.
+Die Airline hat mir mein Gepäck gestohlen!
 Die Akkus müssen nur so lange überbrücken, bis das Notstromaggregat angesprungen ist.
 Die Aktienkurse gehen auf Achterbahnfahrt.
 Die Aktion war nicht annähernd so spontan, wie sie aussah.
@@ -6315,10 +6324,12 @@ Die Klägerin klagte dann sogleich.
 Die Kohlensäure juckt in der Nase.
 Die Kombination aus Bleifuß und Holzkopf ist ein häufiger orthopädischer Befund auf deutschen Autobahnen.
 Die Kompressionshemden müssen enger gemacht werden.
+Die Konkurrenz bedankt sich.
 Die Kontrahenten schenken sich gegenseitig nichts.
 Die Konversation ist hiermit beendet.
 Die Konzentrationsabhängigkeit des Elektrodenpotentials hat sich in der Nernst-Gleichung niedergeschlagen.
 Die Kopfschmerzen sind eine Folge des Wassermangels.
+Die Korrektur von enthaltenen Fehlern gehört nicht zu ihren Aufgaben.
 Die Kosten für den Versand kommen noch oben drauf.
 Die Kosten – dies bleibt noch zu sagen – sind von der Klägerin zu tragen.
 Die Kraft des Fahrtwindes ist beeindruckend.
@@ -6335,6 +6346,7 @@ Die Kuh, vielleicht mit Namen Liese, träumte noch von jener Wiese.
 Die Kunden haben ihr Konsumverhalten in den letzten Jahren geändert.
 Die Kunden haben mir kein gutes Feedback gegeben.
 Die Kundin wartet schon auf uns.
+Die Kunst liegt darin, sich selbst zu beschränken.
 Die Kurve war so eng, dass Stefan scharf bremsen musste.
 Die Kurzgeschichte beschäftigt sich inhaltlich mit einem Jugendlichen.
 Die Körpersprache sagt schon alles.
@@ -7792,6 +7804,7 @@ Durch die effiziente Heizungsanlage reduzieren sich die Wohnnebenkosten.
 Durch die heutigen Durchsuchungsmaßnahmen wurden weitere verdächtige Personen und Firmen bekannt.
 Durch die häufigen Unterbrechungen seiner Jobs kam er nie auf einen grünen Zweig.
 Durch die intensive Berichterstattung könnten Nachahmer inspiriert werden.
+Durch die massiven Wände hört man kaum etwas.
 Durch die schnellen Temperaturschwankungen wird das Material stark belastet.
 Durch die ständige Inhalation der giftigen Gase entstehen bleibende Schäden.
 Durch die Überdüngung der Äcker wird sich unser Trinkwasser verteuern.
@@ -7910,6 +7923,7 @@ Eigentlich braucht man dazu nicht einmal eine grafische Oberfläche.
 Eigentlich eignet sich diese Technik nur für spiegelnde Oberflächen richtig gut.
 Eigentlich geht es mich nichts an.
 Eigentlich guckt man diese Filme nur wegen der Prügelszenen.
+Eigentlich habe ich nur einen Zettel hineingesteckt.
 Eigentlich hatte sie gar keine Lust auf Krawall.
 Eigentlich hatten wir uns doch dazu verabredet mal Italienisch essen zu gehen.
 Eigentlich hätte das Überdruckventil öffnen müssen.
@@ -9308,6 +9322,7 @@ Es hilft nichts, wir müssen weitermachen.
 Es hält nicht.
 Es hängt davon ab, welche essenziellen Aminosäuren sie enthalten.
 Es irritiert mich jedes Mal, wenn sie den Kopf als Kokosnuss bezeichnet.
+Es irritiert, dass das Land blau und das Meer weiß eingefärbt sind.
 Es ist Potenzial nach oben auf meiner Skala.
 Es ist Zeit, einen Neuanfang zu wagen.
 Es ist allenfalls eine Wahl zwischen Pest und Cholera.
@@ -10104,6 +10119,7 @@ Fühlt euch geehrt, dieses seltene Aroma wahrnehmen zu dürfen!
 Fühlt euch wie zu Hause!
 Fühlt sich hier jemand angesprochen?
 Fühlt sich nicht gut an.
+Fühlte sich jeder Schüler akzeptiert und anerkannt, würde keiner von ihnen Amok laufen.
 Führe Herrn Zach mal in den Heizungskeller!
 Führe mich nicht in Versuchung!
 Führen Sie Butangasflaschen für meinen Campingkocher im Sortiment?
@@ -10118,6 +10134,7 @@ Fünftausend gibt es jetzt, weitere fünftausend bekommen Sie, wenn Sie den Job 
 Fünfundsiebzig Pferdestärken machen auf der Autobahn einfach keinen Spaß.
 Für Absichtserklärungen sollte es keine Preise geben, nur für Taten.
 Für Allergiker ist der Mund-Nasen-Schutz eine super Sache.
+Für Ausländer ist das Völkerschlachtdenkmal schwer auszusprechen.
 Für Depressive sind die Feiertage häufig schwer zu ertragen.
 Für Enrico war das Aufstellen des Maibaums eine ehrenhafte Aufgabe.
 Für Ersatz ist gesorgt.
@@ -10203,6 +10220,7 @@ Für die Kosmonauten ist das eine körperliche Belastung.
 Für die Menschheit besteht wieder Hoffnung!
 Für die Modernisierung der Flotte reicht der Fond leider nicht aus.
 Für die Pflege von großen Datenbanken benötigt man solche Tools.
+Für die Qualität seiner Beiträge ist jeder selbst verantwortlich.
 Für die Sklaven gibt es nicht genug Unterkünfte.
 Für die Sonderausstellung mussten wir noch mal extra bezahlen.
 Für die Studie werden Menschen mit Nahtoderfahrung befragt.
@@ -12106,6 +12124,7 @@ Ich glaube, es geht los.
 Ich glaube, es ist sogar ein wenig größer als meines zu Hause.
 Ich glaube, ich backe gleich einen Kuchen.
 Ich glaube, ich gehe gleich noch in die Bar, eine Kleinigkeit essen.
+Ich glaube, ich habe Ihr Laminiergerät zerstört.
 Ich glaube, ich hätte Schriftsteller werden sollen.
 Ich glaube, ich muss mal nachpudern.
 Ich glaube, ich stehe im Wald!
@@ -12248,6 +12267,7 @@ Ich habe noch nicht ein freundliches Wort von ihm gehört.
 Ich habe noch nie gehört, dass irgendwo eine Autobahn stillgelegt wird.
 Ich habe noch nie geschmeckt, ob der Käsekuchen selbstgemacht war oder nicht.
 Ich habe noch nie in meinem Leben eine Bewerbung schreiben müssen.
+Ich habe noch nie so eine hässliche Stadt gesehen.
 Ich habe nur eine Niere, die zweite wurde mir entfernt.
 Ich habe nur einen Hunderter und einen Zwanziger.
 Ich habe schon wieder vergessen wer eigentlich Benedikt war.
@@ -12312,6 +12332,7 @@ Ich hätte auf ihn hören sollen.
 Ich hätte dir welche bestellen sollen.
 Ich hätte ein Foto machen sollen.
 Ich hätte einmal bitte die gebratenen Nudeln mit Hühnchen.
+Ich hätte es mir aufschreiben sollen.
 Ich hätte es sonst bestimmt wieder vergessen.
 Ich hätte geantwortet, dass ich sogar stereoskopisch träume.
 Ich hätte gern die Kontrolle über alle Messdaten.
@@ -13522,6 +13543,7 @@ In die Parklücke passt der doch niemals rein!
 In die Zwischenablage passt nur eine Sache zur Zeit.
 In die tiefsten Ecken des Internets wagt sich nicht einmal Google.
 In diese kleine Küche passt kein Esstisch.
+In diesem Baumhaus?
 In diesem Dorf geschehen seltsame Dinge!
 In diesem Fach könnten Sie zum Beispiel gut Ihr Klopapier bunkern.
 In diesem Fall hat er sofort das auswärtige Amt konsultiert.
@@ -14679,6 +14701,7 @@ Kannst du bitte das Licht abdrehen?
 Kannst du bitte das Licht anlassen?
 Kannst du bitte den Fernseher einschalten?
 Kannst du bitte den Frühstückstisch abräumen?
+Kannst du bitte den Tank auffüllen?
 Kannst du bitte den Tisch decken?
 Kannst du bitte die Karten mischen?
 Kannst du bitte die chinesischen Untertitel wieder an machen?
@@ -15278,6 +15301,7 @@ Könnte man sie nicht zu Kerosin verarbeiten?
 Könnte sich die Filmindustrie bitte ein für alle Mal auf ein Seitenverhältnis einigen?
 Könnte sowas auch hierzulande passieren?
 Könnten Sie den Strom, den Sie täglich verbrauchen, durch Muskelkraft zu erzeugen?
+Könnten Sie ohne Stackoverflow Ihren Job ausüben?
 Könntest du das Schreiben bitte Korrektur lesen?
 Könntest du das Toastbrot aus dem Toaster nehmen?
 Könntest du nicht ein gutes Wort für ihn einlegen?
@@ -15820,6 +15844,7 @@ Man bräuchte ein Gegengewicht auf der gegenüberliegenden Seite.
 Man darf die Hoffnung nicht aufgeben.
 Man darf jetzt auch nicht alles dramatisieren.
 Man darf nur nicht den Fehler machen und zwischendurch aufhören.
+Man darf nur nicht der größte Fisch sein.
 Man darf sich nicht von anderen entmutigen lassen.
 Man darf sich nur nicht erwischen lassen.
 Man einigte sich im Vergleich.
@@ -18327,6 +18352,7 @@ Offenbar wird der Veranstaltung große Wichtigkeit beigemessen.
 Offenbar wird die Enzyklopädie von Untoten geschrieben.
 Offenbar wurde der Betonmischer vergessen.
 Offenbar wurde nie ein selbsttätiger Entlüfter eingebaut.
+Offenbar zu spät.
 Offenkundig liegt hier ein Abspracheproblem vor.
 Offenkundig ohne ordentliche Ohrenstöpsel ortet Otto ohnmächtige Omas.
 Offensichtlich ist das so.
@@ -18417,6 +18443,7 @@ Ohne Bier kann man das alles doch nicht ertragen!
 Ohne Dachgepäckträger kriegen wir all das Gepäck nicht mit.
 Ohne Diffusion wäre der Geruchssinn relativ nutzlos.
 Ohne Drucker ist das Internet für mich nutzlos.
+Ohne Egoismus gäbe es keine Korruption.
 Ohne Einladung kommt niemand rein.
 Ohne Elektronisches Stabilitätsprogramm würden viele Modelle nicht einmal den Elchtest bestehen.
 Ohne Frage war er ein brillanter Theoretiker.
@@ -19322,6 +19349,7 @@ Sehen Sie denn nicht, dass das Gerät außer Betrieb ist?
 Sehen Sie genau hin!
 Sehen Sie hier das alternative Ende des Films!
 Sehen Sie hier, es ist noch originalverpackt.
+Sehen Sie nun eine historische Aufzeichnung der Uraufführung!
 Sehen Sie nun unsere Altkleider-Kollektion!
 Sehen Sie nur, es ist ganz einfach!
 Sehen Sie selbst!
@@ -21036,6 +21064,7 @@ Tja, dann wird es halt wieder nur Tütensuppe geben.
 Tja, daraus wird nichts.
 Tja, das ist Pech.
 Tja, das ist die große Frage.
+Tja, das kann man sich leider nicht aussuchen.
 Tja, das waren die guten, alten Zeiten!
 Tja, der Flug ist schon gebucht.
 Tja, die Katze hat eben Hunger.
@@ -22412,6 +22441,7 @@ Wahrscheinlich liegt es daran, dass vor allem technikbezogene News-Seiten über 
 Wahrscheinlich sind die Wissenschaftler an ihm verzweifelt und haben aufgegeben.
 Wahrscheinlich steckt die Mafia dahinter.
 Wahrscheinlich tritt er dann wieder diesem Kegelclub bei oder so.
+Wahrscheinlich war der Kunststoff in der Maschine an ihr festgeschmolzen.
 Wahrscheinlich war es eher Zeitdruck als Bequemlichkeit.
 Wahrscheinlich waren sie bekifft.
 Wahrscheinlich werden sich die meisten nicht einmal mehr daran erinnern können.
@@ -22543,6 +22573,7 @@ Warum das Frühwarnsystem ausgefallen ist, ist unergründlich.
 Warum das alles?
 Warum denkst du, dass es das nicht hätte?
 Warum drehen sich alle meine Texte um Döner?
+Warum eigentlich erst jetzt?
 Warum etwas komplett Neues erfinden?
 Warum fahren hier keine Doppelstockbusse?
 Warum geht beim Videoschnitt immer die Synchronisation verloren?
@@ -23905,6 +23936,7 @@ Wer mit Tabulatoren einrückt, verdient im Schnitt weniger.
 Wer mit allen Wassern gewaschen ist, kann unmöglich so eine dreckige Lache haben.
 Wer morgens nichts frühstückt, muss sich nicht wundern, wenn er tagsüber keine Energie hat.
 Wer muss gehen, wer darf bleiben?
+Wer möchte Common Voice bei der langen Nacht der Wissenschaften vorstellen?
 Wer möchte Kuchen?
 Wer möchte dies mit mir diskutieren?
 Wer möchte vorlesen?
@@ -25002,6 +25034,7 @@ Wir wechseln sehr oft zwischen Sprachstilen, Sprachen oder Formalitätsgraden.
 Wir wenden die Rechte-Hand-Regel an.
 Wir werden Sie jetzt für vierundzwanzig Stunden zur Beobachtung hier behalten.
 Wir werden auf jeden Fall am Ball bleiben.
+Wir werden das Gerät öffnen müssen, um Genaueres zu erfahren.
 Wir werden den Pharao zu neuem Leben erwecken!
 Wir werden es wohl nie erfahren.
 Wir werden ihn schmerzlich vermissen.
@@ -25234,12 +25267,14 @@ Wo wart ihr denn die ganze Zeit?
 Wo willst du denn so plötzlich hin?
 Wo wird die nächste Landesgartenschau stattfinden?
 Wo wohne ich noch mal?
+Wo wohnt dein Freund?
 Wo wollen wir das Zelt aufschlagen?
 Wo wollen wir unsere Flitterwochen verbringen?
 Wo wolltest du schon immer mal hin?
 Wo wurde der Leichnam gefunden?
 Wo zu lange dieselbe Partei an der Macht ist, findet man immer Korruption.
 Woanders habe ich dieses Produkt schon günstiger gesehen.
+Woanders herrschen noch schlimmere Zustände.
 Woanders passiert mehr als hier.
 Wobei Fabian jetzt nicht so auf Heavy Metal steht.
 Wobei die Briten ja nicht mehr lange dazugehören werden.
