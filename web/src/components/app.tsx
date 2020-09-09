@@ -82,7 +82,6 @@ interface LocalizedPagesProps
 interface LocalizedPagesState {
   l10n: ReactLocalization | null;
   uploadPercentage?: number;
-  demoFeatureFlag: boolean;
 }
 
 let LocalizedPage: any = class extends React.Component<
@@ -93,7 +92,6 @@ let LocalizedPage: any = class extends React.Component<
   state: LocalizedPagesState = {
     l10n: null,
     uploadPercentage: null,
-    demoFeatureFlag: false,
   };
 
   isUploading = false;
@@ -101,9 +99,6 @@ let LocalizedPage: any = class extends React.Component<
   async componentDidMount() {
     await this.prepareBundleGenerator(this.props);
     this.props.refreshUser();
-    let demoFeatureFlag =
-      (await this.props.api.getFeatureFlag('demo', this.props.locale)) !== null;
-    this.setState(prev => ({ demoFeatureFlag, ...prev }));
   }
 
   async UNSAFE_componentWillReceiveProps(nextProps: LocalizedPagesProps) {
@@ -210,7 +205,7 @@ let LocalizedPage: any = class extends React.Component<
 
   render() {
     const { locale, notifications, toLocaleRoute, location } = this.props;
-    const { l10n, uploadPercentage, demoFeatureFlag } = this.state;
+    const { l10n, uploadPercentage } = this.state;
 
     if (!l10n) return null;
 
@@ -269,7 +264,7 @@ let LocalizedPage: any = class extends React.Component<
                   }
                 />
               ))}
-              {location.pathname.includes(URLS.DEMO) && demoFeatureFlag ? (
+              {location.pathname.includes(URLS.DEMO) ? (
                 <DemoLayout />
               ) : (
                 <Layout />
