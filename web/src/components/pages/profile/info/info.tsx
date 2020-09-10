@@ -9,7 +9,7 @@ import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
-import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
+import { ACCENTS, AGES, GENDERS } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
 import { useTypedSelector } from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -265,7 +265,7 @@ function ProfilePage({
 
         <Localized id="profile-form-gender" attrs={{ label: true }}>
           <LabeledSelect value={gender} onChange={handleChangeFor('gender')}>
-            <Options>{SEXES}</Options>
+            <Options>{GENDERS}</Options>
           </LabeledSelect>
         </Localized>
 
@@ -375,7 +375,9 @@ function ProfilePage({
                         </Localized>
                         <Localized
                           id="accept-privacy"
-                          elems={{privacyLink: <LocaleLink to={URLS.PRIVACY} blank />}}>
+                          elems={{
+                            privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
+                          }}>
                           <span />
                         </Localized>
                       </>
