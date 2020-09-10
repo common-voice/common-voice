@@ -35,9 +35,17 @@ logout = Scunnettassi
 ## Home Page
 
 home-title = Common Voice hè l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone.
+home-cta = Parlate puru, cuntribuite quì !
 show-wall-of-text = Leghje di più
 vote-yes = Iè
 vote-no = Innò
+all-locales = Tutte
+today = Oghje
+x-weeks-short =
+    { $count ->
+        [one] Settimana
+       *[other] { $count } sett
+    }
 
 ## Account Benefits
 
