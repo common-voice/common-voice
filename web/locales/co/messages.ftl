@@ -27,9 +27,14 @@ privacy = Vita privata
 terms = Cundizioni
 cookies = Canistrelli
 faq = Dumande frequente
+content-license-text = Cuntenutu dispunibule sott’à una licenza <licenseLink>Creative Commons</licenseLink>
+link-copied = Ligame cupiatu
+back-top = Vultà in cima
+logout = Scunnettassi
 
 ## Home Page
 
+home-title = Common Voice hè l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone.
 show-wall-of-text = Leghje di più
 vote-yes = Iè
 vote-no = Innò
