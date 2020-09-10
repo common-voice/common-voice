@@ -4,6 +4,7 @@ return-to-cv = Vultà à Common Voice
 submit-form-action = Invià
 loading = Caricamentu…
 email-opt-in-info-sub-with-challenge = Riceve email cum'è sfide è ramintenze di scope, aghjurnamenti di prugressu, è nutizie appuntu à Common Voice.
+not-available-abbreviation = Micca dispunibule
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,11 +18,15 @@ email-opt-in-info-sub-with-challenge = Riceve email cum'è sfide è ramintenze d
 
 ## Layout
 
+speak = Parlà
+speak-now = Parlà avà
+languages = Lingue
 help = Aiutu
 contact = Cuntattu
 privacy = Vita privata
 terms = Cundizioni
 cookies = Canistrelli
+faq = Dumande frequente
 
 ## Home Page
 
