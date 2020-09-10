@@ -1,5 +1,7 @@
 ## General
 
+return-to-cv = Vultà à Common Voice
+submit-form-action = Invià
 loading = Caricamentu…
 email-opt-in-info-sub-with-challenge = Riceve email cum'è sfide è ramintenze di scope, aghjurnamenti di prugressu, è nutizie appuntu à Common Voice.
 
@@ -23,6 +25,9 @@ cookies = Canistrelli
 
 ## Home Page
 
+show-wall-of-text = Leghje di più
+vote-yes = Iè
+vote-no = Innò
 
 ## Account Benefits
 
