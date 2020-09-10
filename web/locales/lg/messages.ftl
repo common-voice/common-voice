@@ -589,7 +589,6 @@ other-language = Olulimi Olulala
 ## Languages Overview
 
 language-section-in-progress = Kigenda mu maaso
-language-section-in-progress-new-description = Kaakano ennimi zino zikyali mu community development. Bar za progress ziraga buli lulimi we lutuuse mu mugendo gwa <linky'okugandawazaGlossary>okugandawaza website</linky'okugandawazaGlossary> ne <linkyaGlosaryeyasentensiezikunganyiziddwa>sentensi ezikunganyiziddwa</inkyaGlosaryeyasentensiezikunganyiziddwa>.
 language-section-launched = Launched
 language-section-launched-description = Ennimi ezimaze okulonchingibwa website ezikirizza <OkugandawazaGlossaryLink>zigandawaziddwa</okugandawazaGlossaryLink>, era erina ekimala <sentensiEzikunganyiziddwaGlossaryLink>sentensienkunganye</sentensiezikunganyiziddwaGlossaryLink> okukiriza okugenda maaso  <kwogeraLink>Yogera</yogeraLink> and <WulirizaLink>Wuliriza</WulirirzaLink> ebituweereddwa
 languages-show-more = Laba Ebirala
