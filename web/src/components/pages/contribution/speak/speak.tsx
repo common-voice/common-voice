@@ -399,7 +399,8 @@ class SpeakPage extends React.Component<Props, State> {
     this.setState(({ clips }) => {
       const newClips = [...clips];
       newClips[current] = { recording: null, sentence: null };
-      if (clips[current]?.recording?.url) URL.revokeObjectURL(clips[current].recording.url);
+      if (clips[current]?.recording?.url)
+        URL.revokeObjectURL(clips[current].recording.url);
       return {
         clips: newClips,
         error: null,

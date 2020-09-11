@@ -87,7 +87,7 @@ export default function SubscribeNewsletter() {
         label={
           <Localized
             id="accept-privacy"
-            elems={{privacyLink: <LocaleLink to={URLS.PRIVACY} blank />}}>
+            elems={{ privacyLink: <LocaleLink to={URLS.PRIVACY} blank /> }}>
             <span />
           </Localized>
         }

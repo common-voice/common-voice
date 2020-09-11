@@ -45,7 +45,7 @@ const GoalBox = ({
           votes: 'validations',
         } as any)[type]
       }
-      vars={{count: goal}}>
+      vars={{ count: goal }}>
       <div className="unit" />
     </Localized>
     {date && (

@@ -291,7 +291,7 @@ class ListenPage extends React.Component<Props, State> {
                         'listen-3rd-time-instruction',
                       ][clipIndex] || 'listen-again-instruction'
                 }
-                elems={{playIcon: <OldPlayIcon />}}
+                elems={{ playIcon: <OldPlayIcon /> }}
                 {...props}
               />
             )

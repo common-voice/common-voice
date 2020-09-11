@@ -18,7 +18,7 @@ const WhyCommonVoice: React.ComponentType<{}> = () => {
             <div className="line" />
 
             <Localized id="about-title">
-              <h1/>
+              <h1 />
             </Localized>
 
             <Localized id="about-subtitle">

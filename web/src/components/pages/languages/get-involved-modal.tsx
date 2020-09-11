@@ -68,17 +68,20 @@ class GetInvolvedModal extends React.Component<Props, State> {
         innerClassName="get-involved-modal"
         onRequestClose={onRequestClose}>
         <br />
-        <Localized id="get-involved-title" vars={{lang: nativeName}}>
+        <Localized id="get-involved-title" vars={{ lang: nativeName }}>
           <h2 />
         </Localized>
         <br />
-        <Localized id="get-involved-text" vars={{lang: nativeName}} elems={{lineBreak: <br />}}>
+        <Localized
+          id="get-involved-text"
+          vars={{ lang: nativeName }}
+          elems={{ lineBreak: <br /> }}>
           <p />
         </Localized>
         <br />
         <div className="title-and-action">
           {!isSubmitted && (
-            <Localized id="get-involved-form-title" vars={{lang: nativeName}}>
+            <Localized id="get-involved-form-title" vars={{ lang: nativeName }}>
               <h4 />
             </Localized>
           )}
@@ -87,7 +90,9 @@ class GetInvolvedModal extends React.Component<Props, State> {
           <div className="signup-success">
             <SuccessIcon />
 
-            <Localized id="get-involved-success-title" vars={{language: nativeName}}>
+            <Localized
+              id="get-involved-success-title"
+              vars={{ language: nativeName }}>
               <h2 />
             </Localized>
 

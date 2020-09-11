@@ -96,7 +96,10 @@ interface PropsFromDispatch {
   addUpload: typeof Uploads.actions.add;
 }
 
-interface Props extends WithLocalizationProps, PropsFromState, PropsFromDispatch {}
+interface Props
+  extends WithLocalizationProps,
+    PropsFromState,
+    PropsFromDispatch {}
 
 interface State {
   isSaving: boolean;
@@ -580,7 +583,7 @@ class AvatarSetup extends React.Component<Props, State> {
                 </Localized>
                 <Localized
                   id="browse-file"
-                  elems={{browseWrap: <span className="browse" />}}>
+                  elems={{ browseWrap: <span className="browse" /> }}>
                   <span className="upload-label" />
                 </Localized>
                 <input

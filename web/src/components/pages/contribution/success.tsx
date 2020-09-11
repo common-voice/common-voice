@@ -164,7 +164,11 @@ function Success({
             <p />
           </Localized>
           <Localized id="login-signup">
-            <LinkButton rounded href="/login" className={getTrackClass('fs', `nudge-profile-on-succcess`)} />
+            <LinkButton
+              rounded
+              href="/login"
+              className={getTrackClass('fs', `nudge-profile-on-succcess`)}
+            />
           </Localized>
         </div>
       )}

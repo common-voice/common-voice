@@ -134,7 +134,7 @@ export const LinkButton = ({
   const Component = props.to ? (absolute ? Link : LocaleLink) : 'a';
   return (
     <Component
-      className={cx('button', {outline, rounded}, className)}
+      className={cx('button', { outline, rounded }, className)}
       {...(blank ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
       {...props}
     />

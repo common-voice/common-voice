@@ -23,7 +23,7 @@ export default ({
     {title ? (
       <h1>{title}</h1>
     ) : (
-      <Localized id="share-title-new" elems={{bold: <b />}}>
+      <Localized id="share-title-new" elems={{ bold: <b /> }}>
         <h1 />
       </Localized>
     )}

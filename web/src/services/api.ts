@@ -65,7 +65,6 @@ export default class API {
         'Basic ' + btoa(user.userId + ':' + user.authToken);
     }
 
-
     const response = await fetch(path, {
       method: method || 'GET',
       headers: finalHeaders,

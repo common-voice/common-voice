@@ -133,7 +133,7 @@ export default function Content({ location }: { location: any }) {
             render={() => {
               // note: this is redundant with routing in LocalizedPage in app.tsx, and hanldes
               // locale changing edge cases where toLocaleRoute is still using the old locale
-              return (<Redirect to={toLocaleRoute(URLS.SPEAK)} />)
+              return <Redirect to={toLocaleRoute(URLS.SPEAK)} />;
             }}
           />
           <Route
@@ -142,8 +142,8 @@ export default function Content({ location }: { location: any }) {
             render={() => {
               // note: this is redundant with routing in LocalizedPage in app.tsx, and hanldes
               // locale changing edge cases where toLocaleRoute is still using the old locale
-              return (<Redirect to={toLocaleRoute(URLS.LISTEN)} />)}
-            }
+              return <Redirect to={toLocaleRoute(URLS.LISTEN)} />;
+            }}
           />
           <Redirect
             push

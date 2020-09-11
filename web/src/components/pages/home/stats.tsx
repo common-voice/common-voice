@@ -198,7 +198,9 @@ export namespace ClipsStats {
     }
   );
 
-  class BareRoot extends React.Component<WithLocalizationProps & PropsFromState> {
+  class BareRoot extends React.Component<
+    WithLocalizationProps & PropsFromState
+  > {
     state: { data: any[]; hoveredIndex: number } = {
       data: [],
       hoveredIndex: null,

@@ -21,7 +21,7 @@ export default function Landing() {
         />
       </div>
       <RegisterSection flipped marsSrc={require('./mars.svg')}>
-        <Localized id="welcome-staff" vars={{company: "Sodedif"}}>
+        <Localized id="welcome-staff" vars={{ company: 'Sodedif' }}>
           <h1 />
         </Localized>
         <Localized id="help-contribute">
@@ -36,7 +36,7 @@ export default function Landing() {
             />
           </Localized>
         ) : (
-          <Localized id="login-company" vars={{company: "Sodedif"}}>
+          <Localized id="login-company" vars={{ company: 'Sodedif' }}>
             <LinkButton
               rounded
               href="/login"

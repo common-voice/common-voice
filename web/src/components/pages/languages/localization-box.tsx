@@ -132,9 +132,7 @@ const LocalizationBox = React.memo((props: Props) => {
 
   const [showModal, setShowModal] = useState(false);
 
-  const l10n = createCrossLocalization(
-    localeMessages, [locale, globalLocale]
-  );
+  const l10n = createCrossLocalization(localeMessages, [locale, globalLocale]);
 
   const title = (
     <Localized id={locale}>

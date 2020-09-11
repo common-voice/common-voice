@@ -17,7 +17,7 @@ const TermsModal = ({
     id="review-terms"
     elems={{
       termsLink: <LocaleLink to={URLS.TERMS} blank />,
-      privacyLink: <LocaleLink to={URLS.PRIVACY} blank />
+      privacyLink: <LocaleLink to={URLS.PRIVACY} blank />,
     }}>
     <Modal
       buttons={{

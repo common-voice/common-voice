@@ -52,7 +52,8 @@ export default function NotificationBanner({
   const [show, setShow] = useState(true);
 
   const el = useRef(null);
-  const storageKey = notification.kind == 'banner' && notification.bannerProps.storageKey;
+  const storageKey =
+    notification.kind == 'banner' && notification.bannerProps.storageKey;
   const [hide, setHide] = useStickyState(false, storageKey);
 
   function hideBanner(storageKey?: string) {
@@ -60,17 +61,19 @@ export default function NotificationBanner({
     storageKey && setHide(true);
   }
 
-  return show && (
-    <Banner
-      ref={el}
-      bannerProps={notification.kind == 'banner' && notification.bannerProps}
-      onClose={() => hideBanner(storageKey)}
-      className="notification-banner"
-      onTransitionEnd={event => {
-        if (show || event.target != el.current) return;
-        removeNotification(notification.id);
-      }}>
-      {notification.content}
-    </Banner>
+  return (
+    show && (
+      <Banner
+        ref={el}
+        bannerProps={notification.kind == 'banner' && notification.bannerProps}
+        onClose={() => hideBanner(storageKey)}
+        className="notification-banner"
+        onTransitionEnd={event => {
+          if (show || event.target != el.current) return;
+          removeNotification(notification.id);
+        }}>
+        {notification.content}
+      </Banner>
+    )
   );
 }

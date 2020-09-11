@@ -16,7 +16,14 @@ const PRIORITY_TAXONOMY = 'Benchmark';
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
 // to benefit from single sentence constraints
-const SMALL_LANGUAGE_COMMUNITIES = ['ab', 'cnh', 'dv', 'rm-sursilv', 'sah', 'vot'];
+const SMALL_LANGUAGE_COMMUNITIES = [
+  'ab',
+  'cnh',
+  'dv',
+  'rm-sursilv',
+  'sah',
+  'vot',
+];
 
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';

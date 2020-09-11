@@ -31,10 +31,12 @@ function* asBundleGenerator(
 ) {
   for (const [locale, messages] of localeMessages) {
     const bundle = new FluentBundle(locale, { useIsolating: false });
-    bundle.addResource(new FluentResource(
-      messages +
-        (messageOverwrites?.[locale] ? '\n' + messageOverwrites[locale] : '')
-    ));
+    bundle.addResource(
+      new FluentResource(
+        messages +
+          (messageOverwrites?.[locale] ? '\n' + messageOverwrites[locale] : '')
+      )
+    );
     yield bundle;
   }
 }

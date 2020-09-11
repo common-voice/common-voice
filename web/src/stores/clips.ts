@@ -69,7 +69,9 @@ export namespace Clips {
 
       try {
         dispatch({ type: ActionType.LOAD });
-        const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE - localeClips(state).clips.length);
+        const clips = await state.api.fetchRandomClips(
+          MIN_CACHE_SIZE - localeClips(state).clips.length
+        );
 
         dispatch({
           type: ActionType.REFILL_CACHE,
@@ -177,8 +179,7 @@ export namespace Clips {
           : [];
 
         const filtered = clips.filter(
-          (clip1, i) =>
-            clips.findIndex(clip2 => clip2.id === clip1.id) === i
+          (clip1, i) => clips.findIndex(clip2 => clip2.id === clip1.id) === i
         );
 
         return {
@@ -189,14 +190,14 @@ export namespace Clips {
             hasEarnedSessionToast: false,
             showFirstContributionToast: false,
             showFirstStreakToast: false,
-            challengeEnded: true
+            challengeEnded: true,
           },
         };
       }
 
       case ActionType.REMOVE_CLIP: {
         const clips = localeState.clips.filter(c => c.id !== action.clipId);
-        return { ...state, [locale]: { ...localeState, clips} };
+        return { ...state, [locale]: { ...localeState, clips } };
       }
 
       case ActionType.ACHIEVEMENT: {
