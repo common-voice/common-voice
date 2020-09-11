@@ -201,12 +201,21 @@ profile-form-age =
     .label = Ary
 profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
+male = Kuimba’e
+settings = Ñemboheko
+profile-close = Mboty
+edit = Mbosako’i
+off = Mboguepyre
+on = Hendypyre
+delete-voice = MBOGUETE
+cancel-avatar-clip-recording = HEJA
 
 ## FAQ
 
 
 ## ABOUT US
 
+about-speak = Ayvu
 
 ## Glossary
 
@@ -216,24 +225,46 @@ profile-form-submit-saved = Ñongatupyre
 
 ## Data
 
+data-download-yes = Héẽ
+data-download-deny = Nahániri
+review-recording = Hechajey
 
 ## Datasets Page
 
+language = Ñe’ẽ
+# File size in gigabytes
+size = Tuichakue
+size-gigabyte = GB
+size-megabyte = MB
+more = Hetave
+close = Mboty
+download = Mboguejy
 
 ## Download Modal
 
+download-no = Nahániri, aguyje
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Téra
+contact-form-message =
+    .label = Ñe’ẽmondo
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Ñe’ẽ
 
 ## Languages Overview
 
+language-section-launched = Mombopyre
+language-search-input =
+    .placeholder = Heka
 
 ## Contribution
 
+action-tap = Jeporavo
 
 ## Reporting
 
@@ -243,12 +274,16 @@ profile-form-submit-saved = Ñongatupyre
 
 ## Dashboard
 
+you = Nde
 
 ## Custom Goals
 
+both-speak-and-listen = Mokõive
+share-goal-type-speak = Ayvúpe
 
 ## Profile Delete
 
+remove = Mboguete
 
 ## Landing
 
