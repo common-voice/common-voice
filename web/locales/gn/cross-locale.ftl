@@ -15,3 +15,4 @@ get-involved-stayintouch = Ore Mozillaygua romongakuaa rohóvo tapicha aty omba'
 get-involved-privacy-info = Roñe'ẽme'ẽ roñangarekoporãtaha kuaapyrã nde rehegua rehe. Emoñe'ẽve kóva rehegua ore <privacyLink>ko'ápe</privacyLink>.
 get-involved-success-title = Reiketéma reipytyvõ hag̃ua { $language } ñe'ẽme. Aguyje jo'ajo'a ndéve.
 get-involved-success-text = Roñatõita oĩ guive mba'ekuaarã ipyahúva.
+get-involved-return-to-languages = Ejevy Ñe'ẽguéra rysýipe
