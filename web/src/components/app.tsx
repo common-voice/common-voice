@@ -45,8 +45,8 @@ import {
 import { Flags } from '../stores/flags';
 import { ReactLocalization, LocalizationProvider } from '@fluent/react';
 const rtlLocales = require('../../../locales/rtl.json');
-const ListenPage = React.lazy(() =>
-  import('./pages/contribution/listen/listen')
+const ListenPage = React.lazy(
+  () => import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 
