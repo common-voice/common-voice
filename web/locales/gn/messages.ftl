@@ -129,12 +129,40 @@ ta = Tamil ñe'ẽ
 te = Telugu ñe'ẽ
 tg = Tajik ñe'ẽ
 th = Tailandia ñe'ẽ
+tl = Tagalo ñe'ẽ
+tr = Turquía ñe'ẽ
+tt = Tátaro ñe'ẽ
+uby = Ubykh ñe'ẽ
+udm = Udmurt ñe'ẽ
+uk = Ucrania ñe'ẽ
+ur = Urdu ñe'ẽ
+uz = Uzbequistán ñe'ẽ
+vec = Venecia ñe'ẽ
+vi = Vietnam ñe'ẽ
+vot = Votic ñe'ẽ
+zh-CN = China ñe'ẽ (Chinapegua)
+zh-HK = China ñe'ẽ (Hong Kong-pegua)
+zh-TW = China ñe'ẽ (Taiwán-pegua)
 
 # [/]
 
 
 ## Layout
 
+speak = Eñe'ẽ
+speak-now = Eñe'ẽ ko'ág̃a
+datasets = Kuaapy'aty
+languages = Ñe'ẽnguéra
+about = Hesegua
+profile = Toguetee
+help = Pytyvõ
+contact = Máva ndivépa oñeñe'ẽkuaa
+privacy = Kuaapyrã ñemi ñeñangareko
+terms = Mbojojaha
+cookies = Cookie-kuéra
+faq = Oñeporanduvéva
+content-license-text = Mba'ekuaa ojeporukuaa <licenseLink>Creative Commons license</licenseLink>rupive.
+share-title = Orepytyvõ rojuhúvo tapicha oipytyvõséva avei ijahy'o reheve.
 
 ## Home Page
 
