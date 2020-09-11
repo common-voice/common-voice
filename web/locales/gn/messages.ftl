@@ -174,6 +174,8 @@ home-title = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe
 home-cta = Eñe'ẽ, eipytyvõ ápe!
 wall-of-text-start = Ñane ahy'o ñe'ẽ niko yvypóra mba'e. Upévare roipytyvõseterei oĩ hag̃ua ñe'ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe'ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe'ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo'ã ndaupeichaiva'erã. Upévare romoheñói Aponde'a Common Voice, roipotágui opavave oiporukuaa ñe'ẽ rembiporu.
+all-locales = Opavave
+today = Ko’árape
 
 ## Account Benefits
 
@@ -195,6 +197,10 @@ wall-of-text-more-mobile = Haimete opa ñe'ẽryapu ojeporukuaáva oñeñongatu 
 
 ## ProfileForm
 
+profile-form-age =
+    .label = Ary
+profile-form-submit-save = Ñongatu
+profile-form-submit-saved = Ñongatupyre
 
 ## FAQ
 
