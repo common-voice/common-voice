@@ -163,9 +163,17 @@ cookies = Cookie-kuéra
 faq = Oñeporanduvéva
 content-license-text = Mba'ekuaa ojeporukuaa <licenseLink>Creative Commons license</licenseLink>rupive.
 share-title = Orepytyvõ rojuhúvo tapicha oipytyvõséva avei ijahy'o reheve.
+share-text = Eipytyvõ embo'évo máquina toñe'ẽ hag̃ua oñe'ẽháicha yvypóra, eipytyvõ nde ahy'o reheve { $link }
+link-copied = Joajuha oĩma Oñembohasa hag̃uáicha
+back-top = Ehojey Yvatépe
+logout = Esẽ
 
 ## Home Page
 
+home-title = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe'ẽvo oñe'ẽháicha yvypóra.
+home-cta = Eñe'ẽ, eipytyvõ ápe!
+wall-of-text-start = Ñane ahy'o ñe'ẽ niko yvypóra mba'e. Upévare roipytyvõseterei oĩ hag̃ua ñe'ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe'ẽryapu ñongatupyre.
+wall-of-text-more-mobile = Haimete opa ñe'ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo'ã ndaupeichaiva'erã. Upévare romoheñói Aponde'a Common Voice, roipotágui opavave oiporukuaa ñe'ẽ rembiporu.
 
 ## Account Benefits
 
