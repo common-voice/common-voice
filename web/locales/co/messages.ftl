@@ -32,6 +32,7 @@ fr = Francese
 ga-IE = Irlandese
 he = Ebraicu
 hsb = Altu Sorbu
+hu = Ungherese
 ia = Interlingua
 is = Islandese
 ja = Giapponese
@@ -107,6 +108,7 @@ x-weeks-short =
 
 ## FAQ
 
+faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 
 ## ABOUT US
 
