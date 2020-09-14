@@ -39,6 +39,16 @@ ko = Coreanu
 lij = Ligure
 mhr = Mari da e pratuline
 mt = Maltese
+nl = Nederlandese
+oc = Occitanu
+pt = Portughese
+sc = Sardu
+scn = Sicilianu
+sk = Slovaccu
+sl = Slovenu
+sv-SE = Svedese
+th = Tailandese
+tr = Turcu
 
 # [/]
 
