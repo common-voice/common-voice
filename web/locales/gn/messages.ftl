@@ -174,6 +174,8 @@ home-title = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe
 home-cta = Eñe'ẽ, eipytyvõ ápe!
 wall-of-text-start = Ñane ahy'o ñe'ẽ niko yvypóra mba'e. Upévare roipytyvõseterei oĩ hag̃ua ñe'ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe'ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe'ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo'ã ndaupeichaiva'erã. Upévare romoheñói Aponde'a Common Voice, roipotágui opavave oiporukuaa ñe'ẽ rembiporu.
+vote-yes = Héẽ
+vote-no = Nahániri
 all-locales = Opavave
 today = Ko’árape
 
@@ -205,18 +207,30 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
+english = Inglés ñe’ẽ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Puruhára Réra
+profile-form-accent =
+    .label = Muanduhe
 profile-form-age =
     .label = Ary
+profile-form-gender =
+    .label = Meña
 profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
 male = Kuimba’e
+# Gender
+other = Ambue
+avatar = Avatar
 settings = Ñemboheko
+edit-profile = Embosako’i Mba’ete
 profile-close = Mboty
 edit = Mbosako’i
 off = Mboguepyre
