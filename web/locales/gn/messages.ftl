@@ -229,6 +229,7 @@ male = Kuimba’e
 # Gender
 other = Ambue
 avatar = Avatar
+goals = Hupytyrã
 settings = Ñemboheko
 edit-profile = Embosako’i Mba’ete
 profile-close = Mboty
@@ -236,6 +237,7 @@ edit = Mbosako’i
 off = Mboguepyre
 on = Hendypyre
 delete-voice = MBOGUETE
+ready-to-upload = HUPI
 cancel-avatar-clip-recording = HEJA
 
 ## FAQ
@@ -250,6 +252,7 @@ about-speak = Ayvu
 
 ## Error pages
 
+error-code = Javy { $code }
 
 ## Data
 
@@ -287,12 +290,18 @@ request-language-form-language =
 ## Languages Overview
 
 language-section-launched = Mombopyre
+languages-show-more = Ehechave
+language-total-progress = Opavavete
 language-search-input =
     .placeholder = Heka
 
 ## Contribution
 
+action-click = Eikutu
 action-tap = Jeporavo
+listen = Tysýi
+skip = Jepo
+shortcuts = Mbopya’eha
 
 ## Reporting
 
