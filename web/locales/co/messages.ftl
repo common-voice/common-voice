@@ -26,6 +26,19 @@ da = Danese
 de = Tedescu
 dv = Maldivianu
 el = Grecu
+es = Spagnolu
+fi = Finlandese
+fr = Francese
+ga-IE = Irlandese
+he = Ebraicu
+hsb = Altu Sorbu
+ia = Interlingua
+is = Islandese
+ja = Giapponese
+ko = Coreanu
+lij = Ligure
+mhr = Mari da e pratuline
+mt = Maltese
 
 # [/]
 
