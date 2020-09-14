@@ -188,6 +188,11 @@ listen-paragraph = Tuichamba'e pe ñe'ẽryapu jeporavo Common Voice-pe g̃uarã
 listen-goal-text = Ñe'ẽryapu moneĩpyre
 hours-recorded = Aravo ñongatupyre
 hours-validated = Aravo moneĩmbyre
+voices-online = Ahy'o Oĩvahína ko'ág̃a Ñandutípe
+todays-progress = Mboýpa ñaneakãrapu'ã ko árape
+help-reach-goal = Orepytyvõmína rohupytývo { $goal }
+read-terms-q = Remoñe'ẽmapa ore mbojojaha?
+ready-to-record = Reimembámapa eme'ẽhag̃uáicha ndeahy'o?
 all-locales = Opavave
 today = Ko’árape
 
