@@ -427,6 +427,9 @@ faq-search-for-answers =
 
 about-title = Lwaki Common Voice?
 about-subtitle = Common Voice kitundu ku byatandikibwawo Mozilaa okuyamba okuyigiriza komputa abantu bwe boogera. Nga oggyeko dataset ya Common Voice, tuzimba yingini ey'olukale etegeera okwogera eyitibwa Deep Speech.
+about-header-description =
+    Pulojekiti zino zombi kitundu ku kaweefube waffe mu kuggyawo ekibangirizi mu tekinologiya w'okwogera. Tekinologiya ategeera amaloboozi aleetawo engeri y'omuntu mu byuma byaffe ebyatekinologiya, naye abazimbi beetaaga amaloboozi mangi nnyo okumuzimba. Kaakano, data asinga wa bbeeyi ate wa bwannanyini.
+    Twagala kufuula data w'amaloboozi okubeera nga waabwereere ate nga waalukale, era tufube okulaba ng'akiikirira enjawulo eziri mu bantu abaddala. Awamu tusobola okufuula okutegeera kw'amaloboozi okulungi eri buli muntu.
 how-does-it-work-title = Ekola etya?
 how-does-it-work-text = Tuli mu kukunganya dataset y'amaloboozi ey'obwereere. Ggaba eddoboozi lyo, sunsula obutuufu bwa amaloboozi g'abalala, fuula dataset nnungi eri buli muntu.
 about-speak = Yogera
@@ -481,6 +484,10 @@ de-identified-explanation = Enkola ey'okukweka ebikwata ku ayambako okuva  ku dd
 ## Error pages
 
 error-title-404 = Tetusobodde kufunira page eyo
+error-content-404 = Oba nga <homepageLink>homepage</homepageLink> yaffe enayamba? Okubuza ekibuuzo, weegatte ku <matrixLink>Matrix community chat</matrixLink>, londoola ebikwata ku mutimbagano okuyita ku<githubLink>GitHub</githubLink> oba kyala <discourseLink>our Discourse forums</discourseLink>.
+error-title-503 = Tuli mu kufuna buzibu obutanategeerekeka
+error-content-503 = The site will be back up as soon as possible. For the latest information, please join the <matrixLink>Matrix community chat</matrixLink> or visit <githubLink>GitHub</githubLink> or <discourseLink>our Discourse forums</discourseLink> to submit and monitor site experience issues.
+error-code = Error { $code }
 
 ## Data
 
@@ -599,6 +606,7 @@ other-language = Olulimi Olulala
 ## Languages Overview
 
 language-section-in-progress = Kigenda mu maaso
+language-section-in-progress-new-description = Kaakano ennimi zino zikyali mu community development. Bar za progress ziraga buli lulimi we lutuuse mu mugendo gwa <linky'okugandawazaGlossary>okugandawaza website</linky'okugandawazaGlossary> ne <linkyaGlosaryeyasentensiezikunganyiziddwa>sentensi ezikunganyiziddwa</inkyaGlosaryeyasentensiezikunganyiziddwa>.
 language-section-launched = Launched
 language-section-launched-description = Ennimi ezimaze okulonchingibwa website ezikirizza <OkugandawazaGlossaryLink>zigandawaziddwa</okugandawazaGlossaryLink>, era erina ekimala <sentensiEzikunganyiziddwaGlossaryLink>sentensienkunganye</sentensiezikunganyiziddwaGlossaryLink> okukiriza okugenda maaso  <kwogeraLink>Yogera</yogeraLink> and <WulirizaLink>Wuliriza</WulirirzaLink> ebituweereddwa
 languages-show-more = Laba Ebirala
@@ -668,6 +676,7 @@ speak-empty-state = Emboozi ez'okulikodinga mulirimi luno zituweddeko...
 speak-empty-state-cta = Waayo ku mboozi
 record-button-label = Likodinga eddoboozi lyo
 share-title-new = <bold>Help us</bold> okufuna amaloboozi amalala.
+keep-track-profile = Keep track of your progress with a profile
 login-to-get-started = Log in oba sign up okutandika
 target-segment-first-card = Oli mu kuwaayo ku target segment yaffe esooka.
 target-segment-first-banner = Yambako okutondawo target segment ya Common Voice esooka mu { $locale }
@@ -718,6 +727,7 @@ validations =
 
 your-languages = Ennimi Zo
 toward-next-goal = Sembera ekigobero ekiddirira
+goal-reached = Ekiruubirirwa kituukiddwako
 clips-you-recorded = Obuloboozi Bw'olikodinze
 clips-you-validated = Clips z'okakasizza
 todays-recorded-progress = Wetutuuse leero ku Common Voice ku clips ezirikodingiddwa.
