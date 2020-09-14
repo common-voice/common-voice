@@ -535,6 +535,10 @@ download-language = Download { $language }
 validated-hours = Essaawa Ezisunsuddwa
 recorded-hours = Essaawa ezilikodingiddwa
 whats-inside = Kiki ekiri munda mu dataset ya Common Voice?
+dataset-description-hours =
+    Buli kiyingizibwa mu dataset kibeera ne MP3 ey'enjawulo ne text fayiro egenderako. Essaawa  <b>{ $total }</b> ezirikondingiddwa ezisinga obungi mu dataset zirina obubaka obulala ng'emyaka, n'ebikwata ku butonde bw'omuntu, n'enjogera ez'enjawulo ezisobola okuyamba okuyigiriza tekinologiya ategeera okwogera okwongeza ku mutindo.
+    
+    Dataset mu kaseera kano eyina essaawa <b>{ $valid }</b> ezikakasiddwa mu nnimi <b>{ $languages } </b> naye buli kaseera tuba twongeramu amaloboozi n'ennimi. Tunuulira  <languagesLink>Page Y'ennimi</languagesLink> yaffe osabe olulimi oba otandike okuwaayo.
 want-dataset-update = Oyagala okufuna updates bwetufulumya enkola empya eya dataset ya Common Voice? Wewandiise okufuna newsletter yaffe.
 subscribe = Wewandiise
 get-started-speech = Tandika Okutegera Amaloboozi
