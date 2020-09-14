@@ -12,6 +12,20 @@ not-available-abbreviation = Micca dispunibule
 
 ## Languages
 
+af = Africaanu
+an = Aragonese
+ar = Arabu
+ast = Asturianu
+az = Azerbaigianu
+be = Bielorussiu
+bg = Bulgaru
+bn = Bengalese
+ca = Catalanu
+cy = Gallese
+da = Danese
+de = Tedescu
+dv = Maldivianu
+el = Grecu
 
 # [/]
 
