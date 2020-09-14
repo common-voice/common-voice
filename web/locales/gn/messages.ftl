@@ -176,8 +176,11 @@ wall-of-text-start = Ñane ahy'o ñe'ẽ niko yvypóra mba'e. Upévare roipytyv�
 wall-of-text-more-mobile = Haimete opa ñe'ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo'ã ndaupeichaiva'erã. Upévare romoheñói Aponde'a Common Voice, roipotágui opavave oiporukuaa ñe'ẽ rembiporu.
 show-wall-of-text = Emoñe'ẽve
 help-us-title = ¡Orepytyvõmi ikatuhag̃uáicha jaiporavo ñe'ẽjoaju oĩporãva!
+help-us-explain = Ejopy Tahendúpe, ehendu ha eremi: ombohyapu porãpa ñe'ẽjoaju oĩva iguýpe?
 vote-yes = Héẽ
 vote-no = Nahániri
+toggle-play-tooltip = Ejopy { shortcut-play-toggle } emoambuévo teko ñembopúpe
+speak-subtitle = Eme'ẽ nde ahy'o
 all-locales = Opavave
 today = Ko’árape
 
