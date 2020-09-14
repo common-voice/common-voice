@@ -394,6 +394,9 @@ faq-is-goal-assistant-a = Ekigendererwa kya dataset ya  Common Voice kwe kusoboz
 faq-do-want-native-q = Siri mwogezi wa lulimi muzaaliranwa era njogera ne akisenti, mwetaaga eddoboozi lyange?
 faq-do-want-native-a = Yee, tusinga kwagala ddoboozi lyo! Ebimu ku biruubirirwa bya Common Voice kwe kukungaanya enjogera ez'enjawulo okusobozesa obuweereza obutegeera amaloboozi okukolera buli omu mu bwenkanya. Kino kitegeeza nti ebiva eri aboogezi abatali bazaaliranwa byamugaso.
 faq-why-different-speakers-q = Lwaki twagala abogezi bangi kubuli lulimi?
+faq-why-different-speakers-a =
+    Databasese z'amaloboozi ezisinga zitendekeddwa n'obungi bw'amaloboozi ag'ekikula ekimu ekivaamu okusosola eri <articleLink>abasajja n'ab'enfuna entono</articleLink>. Enjogera n'enjawulo mu nnimi ezitakiikiriddwa nnyo mu dataset z'okutendeka kyekuusa nnyo ku bibinja by'abantu abanyigirizibwa. Ebyuma bingi nabyo bifuna obuzibu okutegeera amaloboozi g'abakazi. ¶
+    Y'ensonga lwaki twetaaga amaloboozi ag'enjawulo mu database yaffe!
 faq-why-my-lang-q = Lwaki olulimi lwange teluriimu?
 faq-what-quality-q = Mutindo ki audio  gw'erina okuba nagwo eddoboozi liryoke likozesebwe mu dataset?
 faq-what-quality-a = Twagala dataset ya Common Voice erefulekitinge omutindo gw'eddoboozi, speech-to-text engine gweneewulira, era tunoonya eby'enjawulo. Nga ogaseeko community ey'aboogezi ab'enjawulo, dataset erina omutindo gw'amaloboozi ag'enjawulo ejja kusomesa speech-to-text engine okukola ku mbeera z'ensi ez'enjawulo okuva ku kwogera okutuuka ku maloboozi g'emmotoka.Clip ye'ddoboozi lyo bwenaaba etegeerekeka, lijja kuba ddungi ekimala okuteeka mu dataset.
