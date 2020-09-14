@@ -181,6 +181,13 @@ vote-yes = Héẽ
 vote-no = Nahániri
 toggle-play-tooltip = Ejopy { shortcut-play-toggle } emoambuévo teko ñembopúpe
 speak-subtitle = Eme'ẽ nde ahy'o
+speak-paragraph = Ñañongatukuévo rupi ñe'ẽryapu ñamongakuaa jahávo ñe'ẽryapu rupa opavavépe g̃uarã jaguerekóva ha oĩnte avei he'íva péva pe igutove jajapóva.
+speak-goal-text = Ñe'ẽryapu ñongatupyre
+listen-subtitle = Orepytyvõmi roiporãvo hag̃ua ñe'ẽryapu ñongatupyre oĩporãva
+listen-paragraph = Tuichamba'e pe ñe'ẽryapu jeporavo Common Voice-pe g̃uarã. Eguapymína sapy'aite ha orepytyvõ roiporavõ hag̃ua ñe'ẽryapu oĩporãva ikatúva oiporu opavave.
+listen-goal-text = Ñe'ẽryapu moneĩpyre
+hours-recorded = Aravo ñongatupyre
+hours-validated = Aravo moneĩmbyre
 all-locales = Opavave
 today = Ko’árape
 
