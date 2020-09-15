@@ -371,16 +371,20 @@ validations =
 
 ## Dashboard
 
+awards = Jopói
 you = Nde
+everyone = Opavavete
 
 ## Custom Goals
 
 both-speak-and-listen = Mokõive
 share-goal-type-speak = Ayvúpe
+share-goal-type-listen = Ohenduhína
 
 ## Profile Delete
 
 remove = Mboguete
+profile-form-delete = Mba’ete Mboguete
 
 ## Landing
 
