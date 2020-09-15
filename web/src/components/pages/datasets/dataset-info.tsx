@@ -190,6 +190,7 @@ const DatasetCorpusDownload = ({
   const [bundleState, setBundleState] = React.useState({
     bundleLocale,
     checksum: localeStats.checksum,
+    rawSize: localeStats.size,
     size: byteToSize(localeStats.size, getString),
     language: getString(bundleLocale),
     totalHours: formatHrs(localeStats.totalHrs),
@@ -204,6 +205,7 @@ const DatasetCorpusDownload = ({
     setBundleState({
       bundleLocale: newLocale,
       checksum: newLocaleStats.checksum,
+      rawSize: newLocaleStats.size,
       size: byteToSize(newLocaleStats.size, getString),
       language: getString(newLocale),
       totalHours: formatHrs(newLocaleStats.totalHrs),
@@ -270,12 +272,17 @@ const DownloadEmailPrompt = ({
   const updateLink = (
     locale: string,
     confirmNoIdentify: boolean,
-    confirmSize: boolean
+    confirmSize: boolean,
+    bundleSize: number
   ) => {
+    // AWS CDN only supports files up to 20GB
+    const urlRoot =
+      bundleSize >= 20 * 1024 * 1024 * 1024 ? URLS.S3_BUCKET : URLS.S3_CDN;
+
     return emailInputRef.current?.checkValidity() &&
       confirmNoIdentify &&
       confirmSize
-      ? urlPattern.replace('{locale}', locale)
+      ? `${urlRoot}/${urlPattern.replace('{locale}', locale)}`
       : null;
   };
 
@@ -297,7 +304,8 @@ const DownloadEmailPrompt = ({
     let downloadLink = updateLink(
       bundleState.bundleLocale,
       newState.confirmNoIdentify,
-      newState.confirmSize
+      newState.confirmSize,
+      bundleState.rawSize
     );
 
     setFormState({
@@ -312,7 +320,8 @@ const DownloadEmailPrompt = ({
       downloadLink: updateLink(
         bundleState.bundleLocale,
         confirmNoIdentify,
-        confirmSize
+        confirmSize,
+        bundleState.rawSize
       ),
       locale: bundleState.bundleLocale,
     });
@@ -441,6 +450,7 @@ const DatasetSegmentDownload = ({
     language: '',
     totalHours: formatHrs(stats.totalHrs),
     validHours: formatHrs(stats.totalValidHrs),
+    rawSize: stats.overall.size,
   };
 
   const dotSettings = {
