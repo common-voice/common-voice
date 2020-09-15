@@ -251,24 +251,38 @@ female = Kuña
 # Gender
 other = Ambue
 why-profile-title = ¿Mba’ére peteĩ mba’ete?
+build-profile = Hemoheñói Mba’ete
 avatar = Avatar
 goals = Hupytyrã
 settings = Ñemboheko
 edit-profile = Embosako’i Mba’ete
 profile-close = Mboty
+accept-privacy-title = Temiñemi Purureko
+login-identity = Tembiapo ñepyrũ kuaaukaha
+login-signup = Emoñeprũ tembiapo / Eñemboheraguapy
 edit = Mbosako’i
 off = Mboguepyre
 on = Hendypyre
+retry-voice-wave-recording = EHA’ÃJEY
+re-record = EÑONGATUJEY
 delete-voice = MBOGUETE
+recording-voice-wave = Eñongatuhína
 ready-to-upload = HUPI
 cancel-avatar-clip-recording = HEJA
+add-language = Embojuaju Ñe’ẽ
 
 ## FAQ
 
+faq-why-important-q = ¿Mba’ére ehecharamo?
+faq-using-cv = Mba’éicha eipurúta Common Voice
+faq-search-for-answers =
+    .label = Eheka mbohovái ne porandúpe
 
 ## ABOUT US
 
+about-title = ¿Mba’é eipurúta Common Voice?
 about-speak = Ayvu
+about-listen = Ehendu
 
 ## Glossary
 
