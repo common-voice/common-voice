@@ -190,6 +190,7 @@ const DatasetCorpusDownload = ({
   const [bundleState, setBundleState] = React.useState({
     bundleLocale,
     checksum: localeStats.checksum,
+    rawSize: localeStats.size,
     size: byteToSize(localeStats.size, getString),
     language: getString(bundleLocale),
     totalHours: formatHrs(localeStats.totalHrs),
@@ -204,6 +205,7 @@ const DatasetCorpusDownload = ({
     setBundleState({
       bundleLocale: newLocale,
       checksum: newLocaleStats.checksum,
+      rawSize: newLocaleStats.size,
       size: byteToSize(newLocaleStats.size, getString),
       language: getString(newLocale),
       totalHours: formatHrs(newLocaleStats.totalHrs),
@@ -267,12 +269,22 @@ const DownloadEmailPrompt = ({
     locale,
   } = formState;
 
-  const updateLink = (locale: string, confirmNoIdentify: boolean, confirmSize: boolean) => {
+  const updateLink = (
+    locale: string,
+    confirmNoIdentify: boolean,
+    confirmSize: boolean,
+    bundleSize: number
+  ) => {
+    // AWS CDN only supports files up to 20GB
+    const urlRoot =
+      bundleSize >= 20 * 1024 * 1024 * 1024 ? URLS.S3_BUCKET : URLS.S3_CDN;
+
     return emailInputRef.current?.checkValidity() &&
-      confirmNoIdentify && confirmSize
-        ? urlPattern.replace('{locale}', locale)
-        : null;
-  }
+      confirmNoIdentify &&
+      confirmSize
+      ? `${urlRoot}/${urlPattern.replace('{locale}', locale)}`
+      : null;
+  };
 
   const saveHasDownloaded = async () => {
     await api
@@ -289,7 +301,12 @@ const DownloadEmailPrompt = ({
       [target.name]: target.type !== 'checkbox' ? target.value : target.checked,
     };
 
-    let downloadLink = updateLink(bundleState.bundleLocale, newState.confirmNoIdentify, newState.confirmSize);
+    let downloadLink = updateLink(
+      bundleState.bundleLocale,
+      newState.confirmNoIdentify,
+      newState.confirmSize,
+      bundleState.rawSize
+    );
 
     setFormState({
       ...newState,
@@ -300,8 +317,13 @@ const DownloadEmailPrompt = ({
   if (bundleState.bundleLocale != formState.locale) {
     setFormState({
       ...formState,
-      downloadLink: updateLink(bundleState.bundleLocale, confirmNoIdentify, confirmSize),
-      locale: bundleState.bundleLocale
+      downloadLink: updateLink(
+        bundleState.bundleLocale,
+        confirmNoIdentify,
+        confirmSize,
+        bundleState.rawSize
+      ),
+      locale: bundleState.bundleLocale,
     });
   }
 
@@ -428,31 +450,34 @@ const DatasetSegmentDownload = ({
     language: '',
     totalHours: formatHrs(stats.totalHrs),
     validHours: formatHrs(stats.totalValidHrs),
+    rawSize: stats.overall.size,
   };
 
   const dotSettings = {
-    dotBackground: "#121217",
-    dotColor: "#4a4a4a",
-    dotSpace:15,
-    dotWidth: 100
-  }
+    dotBackground: '#121217',
+    dotColor: '#4a4a4a',
+    dotSpace: 15,
+    dotWidth: 100,
+  };
 
   return (
     <div className="dataset-segment-content">
       <div className="dataset-segment-intro">
-
         <h2 className="dataset-segment-callout">
           <Localized id="data-download-singleword-title" />
         </h2>
         <Localized
           id="data-download-singleword-callout"
           elems={{
-            fxLink: (<a
-              href="https://voice.mozilla.org/firefox-voice"
-              rel="noopener noreferrer"
-              target="_blank"
-              title="Firefox Voice">
-              ></a>),
+            fxLink: (
+              <a
+                href="https://voice.mozilla.org/firefox-voice"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Firefox Voice">
+                >
+              </a>
+            ),
           }}>
           <p id="description-hours" />
         </Localized>
@@ -481,7 +506,11 @@ const DatasetSegmentDownload = ({
             <CircleStat
               className="languages"
               label="languages"
-              value={Object.keys(stats.locales).filter((locale) => locale !== releaseName).length}
+              value={
+                Object.keys(stats.locales).filter(
+                  locale => locale !== releaseName
+                ).length
+              }
               icon={<GlobeIcon />}
               {...dotSettings}
             />

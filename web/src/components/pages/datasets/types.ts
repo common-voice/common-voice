@@ -26,6 +26,7 @@ export interface BundleState {
   language: string;
   totalHours: number;
   validHours: number;
+  rawSize: number;
 }
 
 //Subscribe form interfaces
