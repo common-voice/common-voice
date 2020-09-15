@@ -240,11 +240,17 @@ profile-form-age =
     .label = Ary
 profile-form-gender =
     .label = Meña
+hidden = Kañygua
+visible = Hecháva
+native-language =
+    .label = Ñe’ẽ ñepyrũ
 profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
 male = Kuimba’e
+female = Kuña
 # Gender
 other = Ambue
+why-profile-title = ¿Mba’ére peteĩ mba’ete?
 avatar = Avatar
 goals = Hupytyrã
 settings = Ñemboheko
