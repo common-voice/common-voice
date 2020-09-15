@@ -283,9 +283,15 @@ faq-search-for-answers =
 about-title = ¿Mba’é eipurúta Common Voice?
 about-speak = Ayvu
 about-listen = Ehendu
+about-nav-why-common-voice = ¿Mba’ére?
+about-nav-how-it-works = ¿Mba’e?
+about-nav-get-involved = Ñepytyvõ
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
+glossary = Ñe’ẽrysýi
+localization = Moñe’ẽasa
 
 ## Error pages
 
@@ -339,12 +345,29 @@ action-tap = Jeporavo
 listen = Tysýi
 skip = Jepo
 shortcuts = Mbopya’eha
+target-segment-learn-more = Kuaave
 
 ## Reporting
 
+report = Momarandu
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Ára
+       *[other] Arakuéra
+    }
+recordings =
+    { $count ->
+        [one] Ñeñongatu
+       *[other] Ñeñongatukuéra
+    }
+validations =
+    { $count ->
+        [one] Ñemboaje
+       *[other] Ñemboajekuéra
+    }
 
 ## Dashboard
 
