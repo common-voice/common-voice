@@ -195,6 +195,16 @@ read-terms-q = Remoñe'ẽmapa ore mbojojaha?
 ready-to-record = Reimembámapa eme'ẽhag̃uáicha ndeahy'o?
 all-locales = Opavave
 today = Ko’árape
+x-weeks-short =
+    { $count ->
+        [one] Arapokõindy
+       *[other] { $count } Arapokõindy
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } jasy
+       *[other] { $count } jasykuéra
+    }
 
 ## Account Benefits
 
@@ -212,6 +222,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Mbopu/Joko
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -224,6 +235,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Ñongatu/Joko
 shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
@@ -234,6 +246,10 @@ english = Inglés ñe’ẽ
 
 profile-form-username =
     .label = Puruhára Réra
+profile-form-native-language =
+    .label = Ypygua Ñe’ẽ
+profile-form-additional-language =
+    .label = Ñe’ẽ oĩvéva
 profile-form-accent =
     .label = Muanduhe
 profile-form-age =
