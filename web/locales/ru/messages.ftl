@@ -2,7 +2,7 @@
 
 yes-receive-emails = Да, отправляйте мне письма. Я хочу быть в курсе новостей проекта Common Voice.
 stayintouch = Мы в Mozilla создаём сообщество по языковым технологиям. Мы хотим, чтобы вы были в курсе всех новостей, новых источников данных, а также хотели бы знать больше о том, как вы используете такого рода данные.
-privacy-info = Мы обещаем, что будем обрабатывать вашу информацию с осторожностью. Подробнее в нашей <privacyLink>политике приватности</privacyLink>.
+privacy-info = Мы обещаем, что будем обрабатывать вашу информацию с осторожностью. Подробнее в нашем <privacyLink>Уведомлении о конфиденциальности</privacyLink>.
 return-to-cv = Вернуться к Common Voice
 email-input =
     .label = Эл. почта
@@ -510,7 +510,7 @@ license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Смешанная
 data-download-singleword-title = Загрузите целевой сегмент «Одно слово»
 data-download-singleword-callout = Это сегмент, основанный на сценариях использования, содержащий данные для распознавания речи, определения да/нет и данные тестирования Wakeword для <fxLink>Firefox Voice</fxLink>.
-review-terms = Используя Common Voice, вы соглашаетесь с нашими <termsLink>условиями использования</termsLink> и <privacyLink>политикой приватности</privacyLink>
+review-terms = Используя Common Voice, вы соглашаетесь с нашими <termsLink>Условиями использования</termsLink> и <privacyLink>Уведомлением о конфиденциальности</privacyLink>
 terms-agree = Я соглашаюсь
 terms-disagree = Я не соглашаюсь
 review-aborted = Загрузка прервана. Хотите ли вы удалить ваши записи?
