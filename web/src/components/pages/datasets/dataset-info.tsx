@@ -474,9 +474,7 @@ const DatasetSegmentDownload = ({
                 href="https://voice.mozilla.org/firefox-voice"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Firefox Voice">
-                >
-              </a>
+                title="Firefox Voice"></a>
             ),
           }}>
           <p id="description-hours" />
