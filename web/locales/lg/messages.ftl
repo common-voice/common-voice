@@ -606,7 +606,7 @@ other-language = Olulimi Olulala
 ## Languages Overview
 
 language-section-in-progress = Kigenda mu maaso
-language-section-in-progress-new-description = Kaakano ennimi zino zikyali mu community development. Bar za progress ziraga buli lulimi we lutuuse mu mugendo gwa <linky'okugandawazaGlossary>okugandawaza website</linky'okugandawazaGlossary> ne <linkyaGlosaryeyasentensiezikunganyiziddwa>sentensi ezikunganyiziddwa</inkyaGlosaryeyasentensiezikunganyiziddwa>.
+language-section-in-progress-new-description = Kaakano ennimi zino zikyali wansi w'okuzimbibwa ne community. Zi progress bar ziraga buli lulimi we lutuuse <localizationGlossaryLink>okuvvuunulwa ku mutimbagano</localizationGlossaryLink> ne <sentenceCollectionGlossaryLink>okukungaanya kwa sentensi</sentenceCollectionGlossaryLink>.
 language-section-launched = Launched
 language-section-launched-description = Ennimi ezimaze okulonchingibwa website ezikirizza <OkugandawazaGlossaryLink>zigandawaziddwa</okugandawazaGlossaryLink>, era erina ekimala <sentensiEzikunganyiziddwaGlossaryLink>sentensienkunganye</sentensiezikunganyiziddwaGlossaryLink> okukiriza okugenda maaso  <kwogeraLink>Yogera</yogeraLink> and <WulirizaLink>Wuliriza</WulirirzaLink> ebituweereddwa
 languages-show-more = Laba Ebirala
@@ -676,7 +676,7 @@ speak-empty-state = Emboozi ez'okulikodinga mulirimi luno zituweddeko...
 speak-empty-state-cta = Waayo ku mboozi
 record-button-label = Likodinga eddoboozi lyo
 share-title-new = <bold>Help us</bold> okufuna amaloboozi amalala.
-keep-track-profile = Keep track of your progress with a profile
+keep-track-profile = Londoola w'otuuse ne pulofayiro
 login-to-get-started = Log in oba sign up okutandika
 target-segment-first-card = Oli mu kuwaayo ku target segment yaffe esooka.
 target-segment-first-banner = Yambako okutondawo target segment ya Common Voice esooka mu { $locale }
