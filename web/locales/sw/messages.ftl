@@ -13,7 +13,6 @@ email-opt-in-info =
     majarida kuhusu huduma za Common Voice.
 email-opt-in-info-title = Jiunge na orodha ya barua pepe ya Common Voice
 email-opt-in-info-sub-with-challenge = Pokea barua pepe kama vile ukumbusho wa changamoto na malengo, visasisho vya maendeleo, na jarida kuhusu Common Voice.
-email-opt-in-privacy = Kwa kuchagua kupokea ujumbe kupitia barua pepe unaridhika na Mozilla kutunza ujumbe huu kama ilivyoelezwa katika <privacyLink> Sera ya usiri ya Mozilla <privacyLink>.
 indicates-required = * Inaashiria sehemu inayohitajika
 not-available-abbreviation = haihitajiki
 
@@ -305,6 +304,7 @@ faq-how-get-q = Ninawezaje kupata data ya Common Voice?
 faq-when-release2-q = Ni lini data ya Common Voice itatolewa katika lugha zingine?
 faq-why-different-speakers-q = Kwa nini unahitaji wasemaji wengi tofauti kwa kila lugha?
 faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
+faq-why-10k-hours-q = Kwa nini saa 10,000 zilizothibitishwa ndio lengo la kila lugha la kurekodi sauti?
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
 faq-why-account-q = Kwa nini nijisajili kupata akaunti?
 faq-what-is-cv = Common voice ni nini?
@@ -332,9 +332,8 @@ about-nav-get-involved = Jihusishe
 ## Glossary
 
 
-## NotFound
+## Error pages
 
-notfound-title = haipatikani
 
 ## Data
 
