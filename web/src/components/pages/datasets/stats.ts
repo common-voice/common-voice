@@ -3,6 +3,7 @@ const releases = [
   'cv-corpus-5-singleword',
   'cv-corpus-5-2020-06-22',
   'cv-corpus-5.1-2020-06-22',
+  'cv-corpus-5.1-singleword',
 ];
 
 export default releases.reduce(
