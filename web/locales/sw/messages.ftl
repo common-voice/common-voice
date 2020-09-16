@@ -305,6 +305,7 @@ faq-when-release2-q = Ni lini data ya Common Voice itatolewa katika lugha zingin
 faq-why-different-speakers-q = Kwa nini unahitaji wasemaji wengi tofauti kwa kila lugha?
 faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
 faq-why-10k-hours-q = Kwa nini saa 10,000 zilizothibitishwa ndio lengo la kila lugha la kurekodi sauti?
+faq-why-10k-hours-a = Hii ni takriban idadi ya saa zinazotakiwa kufundisha mfumo wa uzalishaji wa sauti kwa maandishi.
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
 faq-why-account-q = Kwa nini nijisajili kupata akaunti?
 faq-what-is-cv = Common voice ni nini?
