@@ -9,7 +9,9 @@ email-input =
 submit-form-action = Enviar
 loading = Cargando...
 email-opt-in-info = Gustaríame recibir correos para lembrar os obxectivos, actualizacións sobre o meu progreso e novas sobre Common Voice.
-email-opt-in-privacy = Ao optar por recibir correos, declara que está conforme con que Mozilla xestione esta info consonte o explicado na <privacyLink>Política de privacidade<privacyLink> de Mozilla.
+email-opt-in-info-title = Unirse a lista de correo de Common Voice
+email-opt-in-info-sub-with-challenge = Recibir correos electrónicos como recordatorios de retos e obxectivo», actualizacións do progreso e boletíns informativos sobre Common Voice.
+email-opt-in-privacy-v2 = Ao optar por recibir correos, declara que está conforme  con que Mozilla xestione esta información consonte está explicado na <privacyLink>Política de privacidade</privacyLink> de Mozilla.
 indicates-required = * Indica un campo requirido
 not-available-abbreviation = N/A
 
@@ -26,6 +28,7 @@ af = Afrikaans
 am = Amhárico
 an = Aragonés
 ar = Árabe
+arn = Mapuche
 as = Assamés
 ast = Asturiano
 az = Acerbaixano
@@ -60,7 +63,6 @@ ga-IE = Irlandés
 gl = Galego
 ha = Hausa
 he = Hebreo
-hi-IN = Hindi
 hr = Croata
 hsb = Sorabo, alto
 hu = Húngaro
@@ -216,7 +218,6 @@ whats-public = Que é público?
 email-not-public = Non faremos público o seu enderezo de correo.
 recordings-and-locale-public = O número de gravacións e en que idiomas contribúe serán públicos.
 username-optin-public = Pode escoller facer o seu nome de usuario público ou anónimo.
-demographic-deidentified = Opcionalmente, os datos demográficos enviados (i.e. idade, sexo, idioma e acento) serán anonimizados respecto da voz enviada e nunca serán públicos no seu perfil.
 username-email-not-demographic = O seu nome de usuario e enderezo de correo non se asociará cos datos publicados.
 
 ## Speak & Listen Shortcuts
@@ -338,7 +339,7 @@ faq-what-cv-q = Que é Common Voice?
 glossary = Glosario
 localization = Localización
 
-## NotFound
+## Error pages
 
 
 ## Data
