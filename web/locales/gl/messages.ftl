@@ -378,6 +378,10 @@ faq-how-get-a = O conxunto de datos de Common Voice está dispoñíbel para desc
 faq-when-release2-q = Cando publicará os datos de Common Voice noutros idiomas?
 faq-when-release2-a = Na actualidade, a versión multilingüe do conxunto de datos de Common Voice  é obxecto dunha agregación e limpeza co apoio da comunidade. Se quixer axudarnos a ampliación de  Common Voice a novas linguas, visite a <sentençaCollectorLink>Ferramenta de recollida de frases</sentenceCollectorLink> para engadir novas frases ao conxunto de datos, e Mozilla <pontoonLink>PontoonLink</pontoonLink> para traducir o propio sitio. Engádense novoso idiomas a Common Voice para contribucións de voz, cando se teñen recollido e aprobado 5000 frases.
 faq-why-mission-q = Por que forma parte Common Voice da misión de Mozilla?
+faq-why-mission-a = Mozilla dedícase a manter a Web aberta e accesíbel para todos. Para facer iso, necesitamos empoderar os creadores a través de proxectos como Common Voice. Xa que as tecnoloxías de voz proliferan alén das aplicacións de nicho, cremos que deben servir a todos os usuarios equitativamente. Iso significa que se debe investir en máis idiomas e acomodación de diversos acentos e variacións demográficas ao crear e probar tecnoloxías de voz. Common Voice é un recurso público dispoñíbel para todos, e tanto os equipos de Mozilla coma os desenvolvedores de todo o mundo tamén están xa facendo uso del nos seus proxectos.
+faq-what-cv-and-deepspeech-q = Cal é a diferenza entre Common Voice e Deep Speech?
+faq-what-cv-and-deepspeech-a = O conxunto de datos Common Voice complementa o motor aberto de recoñecemento de voz de Mozilla Deep Speech. A primeira versión de Deep Speech publicouse en novembro do 2017 e continúa a súa evolución desde entón. Xunto co conxunto de datos Common Voice, cremos que esta tecnoloxía de recoñecemento de voz debería estar dispoñíbel para todos. A nosa esperanza é que lles permita aos desenvolvedores crear unha xeración de produtos e servizos innovadores.
+faq-is-goal-assistant-q = O obxectivo de Common Voice é crear un asistente de voz?
 
 ## ABOUT US
 
