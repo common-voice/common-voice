@@ -485,7 +485,7 @@ de-identified-explanation = Enkola ey'okukweka ebikwata ku ayambako okuva  ku dd
 
 error-title-404 = Tetusobodde kufunira page eyo
 error-content-404 = Oba nga <homepageLink>homepage</homepageLink> yaffe enayamba? Okubuza ekibuuzo, weegatte ku <matrixLink>Matrix community chat</matrixLink>, londoola ebikwata ku mutimbagano okuyita ku<githubLink>GitHub</githubLink> oba kyala <discourseLink>our Discourse forums</discourseLink>.
-error-title-503 = Tuli mu kufuna buzibu obutanategeerekeka
+error-title-503 = Tulinamu obuzibu bwetuteetegekedde.
 error-content-503 = The site will be back up as soon as possible. For the latest information, please join the <matrixLink>Matrix community chat</matrixLink> or visit <githubLink>GitHub</githubLink> or <discourseLink>our Discourse forums</discourseLink> to submit and monitor site experience issues.
 error-code = Error { $code }
 
