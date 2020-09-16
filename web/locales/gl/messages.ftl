@@ -392,6 +392,15 @@ faq-why-my-lang-new-a = Mozilla nin escolle nin favorece ningunha lingua en detr
 faq-what-quality-q = Que nivel de calidade de son se require para que un fragmento de voz se utilice no conxunto de datos?
 faq-what-quality-a = Queremos que o conxunto de datos de Common Voice teña a calidade de son que un motor de fala a texto atopará en condicións reais, así que buscamos variedade. Ademais dunha comunidade diversa de falantes, un conxunto de datos con variación na calidade do son ensinaralle ao motor de fala a texto a xestionar varias situacións do mundo real, desde unha conversa de fondo a un ruído de coche. Mentres o fragmento de voz sexa intelixíbel, será abondo para o conxunto de datos.
 faq-why-10k-hours-q = Por que o obxectivo é de 10.000 horas validadas por idioma de captura de son?
+faq-why-10k-hours-a = Este é aproximadamente o número de horas requirido co que adestrar un sistema de fala a texto para produción.
+faq-how-calc-hours-q = Como Common Voice calcula as horas?
+faq-how-calc-hours-a = Calculamos as horas estimando a media de tamaño de cada gravación e logo multiplicándo ese número polo número total de gravacións entre todos os idiomas.
+faq-where-src-from-2-q = Cal é a orixe dos textos?
+faq-where-src-from-2-a =
+    Os nosos textos de base proveñen de doazóns orixinais de colaboradores así como de diálogos guionizados en dominio público de películas como <italic>It's a Wonderful Life (Que fermoso é vivir)</italic>.
+    
+    Pode ver as nosas frases neste <githubLink>cartafol de GitHub</githubLink>.
+faq-why-not-ask-read-q = Por que non se lle pide á xente que lea a partir de libros ou artigos da Wikipedia en diferentes idiomas?
 
 ## ABOUT US
 
