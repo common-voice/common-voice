@@ -376,6 +376,8 @@ faq-why-important-a =
 faq-how-get-q = Como podo conseguir os datos de Common Voice?
 faq-how-get-a = O conxunto de datos de Common Voice está dispoñíbel para descargar coa licenza <licenseLink>CC0</licenseLink> na <datasetLink>nosa páxina de conxunto de datos</datasetLink>. Tamén pode descargar outros conxuntos de datos desde a mesma páxina.
 faq-when-release2-q = Cando publicará os datos de Common Voice noutros idiomas?
+faq-when-release2-a = Na actualidade, a versión multilingüe do conxunto de datos de Common Voice  é obxecto dunha agregación e limpeza co apoio da comunidade. Se quixer axudarnos a ampliación de  Common Voice a novas linguas, visite a <sentençaCollectorLink>Ferramenta de recollida de frases</sentenceCollectorLink> para engadir novas frases ao conxunto de datos, e Mozilla <pontoonLink>PontoonLink</pontoonLink> para traducir o propio sitio. Engádense novoso idiomas a Common Voice para contribucións de voz, cando se teñen recollido e aprobado 5000 frases.
+faq-why-mission-q = Por que forma parte Common Voice da misión de Mozilla?
 
 ## ABOUT US
 
