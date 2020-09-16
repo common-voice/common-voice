@@ -485,8 +485,8 @@ de-identified-explanation = Enkola ey'okukweka ebikwata ku ayambako okuva  ku dd
 
 error-title-404 = Tetusobodde kufunira page eyo
 error-content-404 = Oba nga <homepageLink>homepage</homepageLink> yaffe enayamba? Okubuza ekibuuzo, weegatte ku <matrixLink>Matrix community chat</matrixLink>, londoola ebikwata ku mutimbagano okuyita ku<githubLink>GitHub</githubLink> oba kyala <discourseLink>our Discourse forums</discourseLink>.
-error-title-503 = Tuli mu kufuna buzibu obutanategeerekeka
-error-content-503 = The site will be back up as soon as possible. For the latest information, please join the <matrixLink>Matrix community chat</matrixLink> or visit <githubLink>GitHub</githubLink> or <discourseLink>our Discourse forums</discourseLink> to submit and monitor site experience issues.
+error-title-503 = Tulinamu obuzibu bwetuteetegekedde.
+error-content-503 = Ekibanja kino kijja kuddako mangu ddala nga bwekisoboka. Okufuna obubaka obwakatuuka, weegatte ku <matrixLink>Matrix community chat</matrixLink> oba kyala ku <githubLink>GitHub</githubLink> oba <discourseLink>our Discourse forums</discourseLink> okuwaayo n'okulondoola ebuzibu bw'ofuna ku mutimbagano.
 error-code = Error { $code }
 
 ## Data
@@ -606,7 +606,7 @@ other-language = Olulimi Olulala
 ## Languages Overview
 
 language-section-in-progress = Kigenda mu maaso
-language-section-in-progress-new-description = Kaakano ennimi zino zikyali mu community development. Bar za progress ziraga buli lulimi we lutuuse mu mugendo gwa <linky'okugandawazaGlossary>okugandawaza website</linky'okugandawazaGlossary> ne <linkyaGlosaryeyasentensiezikunganyiziddwa>sentensi ezikunganyiziddwa</inkyaGlosaryeyasentensiezikunganyiziddwa>.
+language-section-in-progress-new-description = Kaakano ennimi zino zikyali wansi w'okuzimbibwa ne community. Zi progress bar ziraga buli lulimi we lutuuse <localizationGlossaryLink>okuvvuunulwa ku mutimbagano</localizationGlossaryLink> ne <sentenceCollectionGlossaryLink>okukungaanya kwa sentensi</sentenceCollectionGlossaryLink>.
 language-section-launched = Launched
 language-section-launched-description = Ennimi ezimaze okulonchingibwa website ezikirizza <OkugandawazaGlossaryLink>zigandawaziddwa</okugandawazaGlossaryLink>, era erina ekimala <sentensiEzikunganyiziddwaGlossaryLink>sentensienkunganye</sentensiezikunganyiziddwaGlossaryLink> okukiriza okugenda maaso  <kwogeraLink>Yogera</yogeraLink> and <WulirizaLink>Wuliriza</WulirirzaLink> ebituweereddwa
 languages-show-more = Laba Ebirala
@@ -676,7 +676,7 @@ speak-empty-state = Emboozi ez'okulikodinga mulirimi luno zituweddeko...
 speak-empty-state-cta = Waayo ku mboozi
 record-button-label = Likodinga eddoboozi lyo
 share-title-new = <bold>Help us</bold> okufuna amaloboozi amalala.
-keep-track-profile = Keep track of your progress with a profile
+keep-track-profile = Londoola w'otuuse ne pulofayiro
 login-to-get-started = Log in oba sign up okutandika
 target-segment-first-card = Oli mu kuwaayo ku target segment yaffe esooka.
 target-segment-first-banner = Yambako okutondawo target segment ya Common Voice esooka mu { $locale }
