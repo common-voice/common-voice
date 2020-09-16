@@ -345,6 +345,10 @@ delete-voice = Eliminar
 recording-voice-wave = Gravando
 delete-voice-clip = ou · elimine o clip de voz
 ready-to-upload = Cargar
+avatar-clip-fact = É ben sabido que un lector se vai distraer co contido lexíbel dunha páxina cando olla o deseño.
+recreate-voice = Recrear a voz
+cancel-avatar-clip-recording = Cancelar
+about-avatar-clip-recording = Crear un clip de voz como parte do perfil do seu avatar. Outras persoas poderán escoitar o seu clip ao sobrepoñer o punteiro do rato.
 browse-file-title = Cargar un ficheiro de imaxe
 browse-file = Arrastrar e soltar ou <browseWrap>Navegar</browseWrap>
 connect-gravatar = Conectar con Gravatar
@@ -360,6 +364,18 @@ change-email-setings = Cambiar o seu enderezo de correo en Configuración estand
 
 faq-title = Preguntas máis frecuentes
 faq-what-cv-q = Que é Common Voice?
+faq-what-cv-a =
+    O recoñecemento de voz está a revolucionar o modo en que interactuamos coas máquinas pero os sistemas dispoñíbeis hoxe en día son caros e privados. Common Voice forma parte da iniciativa de Mozilla para facer as tecnoloxías de voz mellores e máis accesíbeis para todos. Common Voice é unha base de datos masiva de voces doadas que lle permite a calquera adestrar aplicacións con capacidades de voz en potencialmente calquera idioma.
+    
+    Non estamos a recoller mostras de voz só en idiomas amplamente falados senón tamén naqueles cunha menor poboación de falantes. A publicación dun conxunto voces diverso facilitaralles aos desenvolvedores, emprendedores e comunidades afrontar esta fenda por si mesmos. Ademais do conxunto de datos de Common Voice, tamén estamos a crear un motor aberto de recoñecemento de voz chamado Deep Speech.
+faq-why-important-q = Por que é importante?
+faq-why-important-a =
+    A fala adoita ser o xeito máis natural de comunicarnos os uns cos outros e as tecnoloxías de voz están a traernos esa vantaxe aos nosos computadores e dispositivos móbiles. Queremos facilitarlles aos desenvolvedores construír sorprendentes aplicacións de recoñecemento de voz como tradutores en tempo real e asistentes dixitais activados por voz. No entanto, a maioría dos datos de voz requiridos para crear esta clase de aplicacións é cara e privativa. Esperamos cos datos de Common Voice dármoslles aos desenvolvedores o que estes necesitan para innovar e facer que a tecnoloxía de recoñecemento de voz estea dispoñíbel no seu propio idioma.
+    
+    Para facermos o recoñecemento de voz máis universal, estamos a recoller mostras de voz tanto en idiomas amplamente falados como naqueles con poboación de falantes menor, que adoito carecen de servizos de recoñecemento de voz comerciais. A publicación dun conxunto diverso de datos de voz facilitaralles aos desenvolvedores, emprendedores e a enteiras comunidades de falantes afrontar esta fenda por si mesmos.
+faq-how-get-q = Como podo conseguir os datos de Common Voice?
+faq-how-get-a = O conxunto de datos de Common Voice está dispoñíbel para descargar coa licenza <licenseLink>CC0</licenseLink> na <datasetLink>nosa páxina de conxunto de datos</datasetLink>. Tamén pode descargar outros conxuntos de datos desde a mesma páxina.
+faq-when-release2-q = Cando publicará os datos de Common Voice noutros idiomas?
 
 ## ABOUT US
 
