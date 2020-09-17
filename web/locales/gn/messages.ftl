@@ -216,9 +216,20 @@ x-months-short =
         [one] { $count } jasy
        *[other] { $count } jasykuéra
     }
+x-years-short =
+    { $count ->
+        [one] peteĩ
+       *[other] ambue
+    }
+help-make-dataset = Orepytyvõmína ñamono'õvo ñe'ẽryapu iporãva ha opavavépe g̃uarã
+sign-up-account = Eñemboheraguapy
+email-subscription-title = eñemboheraguapy romog̃uahẽmi hag̃ua ndéve marandura ipyahúva rehegua
+email-subscription-title-new = Eñemboheraguapy og̃uahẽmi hag̃ua ndéve marandu ipyahúva ha tekotevẽva ojejapo rehegua ha avei reikuaávo mba'éichapa oguata ohóvo tembiapo.
 
 ## Account Benefits
 
+benefits = Iporãva oguerúva
+rich-data = Ikatuhag̃uáicha iporupyrã añetéva ñe'ẽryapu ñongatupyrea eremi moõguápa ou. Upéva noñemoherakuãmo'ãi katu oipytyvõhetáta.
 
 ## What's public
 
