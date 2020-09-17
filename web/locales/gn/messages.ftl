@@ -357,10 +357,22 @@ ready-to-upload = HUPI
 avatar-clip-fact = Aréma ojekuaa hesahoreítaha omoñe'ẽva ohecháramo kóicha.
 recreate-voice = Ejapojey Ñe'ẽryapu
 cancel-avatar-clip-recording = HEJA
+about-avatar-clip-recording = Embojoapy ne ra'ãnga'ípe ñe'ẽryapu. Ambuéva ohendukuaáta he'iva ne ra'ãnga'i omoĩ vove hu'y hi'ári.
+browse-file-title = Ehupi ta'ãnga
+browse-file = Etyryry ha Epoi ỹrõ <browseWrap>Eikundaha</browseWrap>
+connect-gravatar = Embojoaju Gravatar reheve
+gravatar_not_found = Ndojejuhúi Gravatar ne ñe'ẽvevepegua
+file_too_large = Tuichaitereíma marandurenda eiporavova'ekue
+manage-subscriptions = Eñangareko Ñemboheraguapykuéra rehe
+manage-email-subscriptions = Eñangareko Ñe'ẽveve Ñemboheraguapykuéra rehe
+email-already-used = Ko Ñe'ẽveve ojeporúma ambue cuénta reheve.
 add-language = Embojuaju Ñe’ẽ
+change-email-setings = Emoambue ne ñe'ẽveve eikévo Ñembosako'ípe oĩva Jeike Rerateeguýpe
 
 ## FAQ
 
+faq-title = Oñeporanduvéva (FAQ)
+faq-what-cv-q = Mba'épa Common Voice?
 faq-why-important-q = ¿Mba’ére ehecharamo?
 faq-using-cv = Mba’éicha eipurúta Common Voice
 faq-search-for-answers =
