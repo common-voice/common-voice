@@ -178,9 +178,16 @@ wall-of-text-more-desktop =
     Ko'ág̃a ikatúma reme'ẽ nde ahy'o ha reipytyvõ jajapo hag̃ua ñe'ẽ ha ñe'ẽjoaju ryapu apesã opavavépe g̃uarã
     ojeporukuaáva tembiporu'i, mba'e'okápe ñandutípe. Emoñe'ẽ atã ñe'ẽjoajukuéra ikatuhag̃uáicha máquina oikuaa mba'éichapa oñeñe'ẽ ne ñe'ẽme.
     Ehendu avei ambuéva rembiapo ha eremi oĩ porãpa. ¡Pévante rejapova'ẽrã eipytyvõ hag̃ua!
+wall-of-text-first =
+    Ñe'ẽniko yvypóra mba'e. Upévare rovy'aite rojapóvo ko tembiapo, roikuave'ẽsévagui tembiporu ñe'ẽ ñembohyapurã rehegua ikatuhag̃uáicha máquina ohai ha ojapokuaa oje'éva chupe.
+    Upevarã roikotevẽmi hetaite ñe'ẽryapu ñongatupyrére.
+wall-of-text-second =
+    Heta ñe'ẽryapu ñongatupyre oĩva yvy ape ári oĩ empresa privada pópe ha upevakuére ndaikatúi oiporu opavave.
+    Ore roimo'ã naiporãiha upéva ha romoñepyrũ ko tembiapoguasu hérava Common Voice, roipotágui opavave oiporukuaa ñe'ẽ ñembohyapu ha ñembokuatia rembiporu.
 show-wall-of-text = Emoñe'ẽve
 help-us-title = ¡Orepytyvõmi ikatuhag̃uáicha jaiporavo ñe'ẽjoaju oĩporãva!
 help-us-explain = Ejopy Tahendúpe, ehendu ha eremi: ombohyapu porãpa ñe'ẽjoaju oĩva iguýpe?
+no-clips-to-validate = Ha'etévaicha ndaiporiha ñe'ẽryapu ñongatupyre ko ñe'ẽme g̃uarã. Orepytyvõmína ha eñe'ẽñongatumína.
 vote-yes = Héẽ
 vote-no = Nahániri
 toggle-play-tooltip = Ejopy { shortcut-play-toggle } emoambuévo teko ñembopúpe
