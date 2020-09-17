@@ -827,7 +827,7 @@ delete-q = Naawe wandiyagadde okusaba amaloboozi go agalikondigiddwa gasangulwe,
 keep = Tereka
 remove = Jjako
 keep-info = Likondingi z'amaloboozi go nga tosobola kutegeerebwa/kutegeerwa zigenda kusigala mu dataset ya Common Voice. Bwonaasangula pulofayiro yo ojja kubanga tokyasobola kuweereza kusaba okw'okusangula kwa likondingi zo okuva mu dataset.
-remove-info = Tugenda kwetegereza okusaba kwo okw'okusangula likodingi z'amaloboozi go okuva mu dataset. Okusaba kwo bwekunakkirizibwa, tujja kuwuliziganya n'abo abaawanula dataset tubasabe basangule likondigi z'amaloboozi go nazo.
+remove-info = Tugenda kwetegereza okusaba kwo okw'okusangula likodingi z'amaloboozi go okuva mu dataset. Okusaba kwo bwe kunakkirizibwa, tujja kuwuliziganya n'abo abaawanula dataset tubasabe basangule likondigi z'amaloboozi go nazo.
 why-delete-recordings =
     Likondigi za Common Voice zikozesebwa abayivu, bizinensi obutono, n'abanyiikivu mu by'okutegeera eddoboozi okuyamba okuyigiriza n'okugaziya ebikozesebwa eby'olukale nga models z'eddoboozi.
     
