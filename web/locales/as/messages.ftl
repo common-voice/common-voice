@@ -502,6 +502,7 @@ data-bundle-description = Common Voice ডেটাছেটৰ লগতে ও
 license = লাইচেঞ্চ: <licenseLink>{ $license }</licenseLink>
 license-mixed = মিশ্ৰিত
 data-download-singleword-title = এটা শব্দৰ টাৰ্গেট ছেগমেণ্ট ডাউনল'ড কৰক
+data-download-singleword-callout = এয়া এক ব্যৱহাৰ ক্ষেত্ৰ চালিত ছেগমেণ্ট য'ত কথিত সংখ্যা চিনাক্তকৰণ, হয় / নহয় ধৰা পেলোৱা আৰু <fxLink>Firefox ভইচ</fxLink>ৰ জগোৱা-শব্দ পৰীক্ষা ডেটা সমৃদ্ধ কৰিবলৈ ডেটা আছে।
 review-terms = Common Voice ব্যৱহাৰ কৰি, আপুনি আমাৰ <termsLink>নীতি</termsLink> আৰু <privacyLink>গোপনিয়তা জাননী</privacyLink>ক সন্মতি জনাইছে
 terms-agree = মই সন্মত
 terms-disagree = মই সন্মত নহয়
