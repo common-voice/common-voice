@@ -242,6 +242,8 @@ whats-public = Mba'épa ohechakuaáta opavave?
 email-not-public = Ne ñe'ẽveve ndoikuaamo'ãi mavave.
 recordings-and-locale-public = Mboýpa reipytyvõva'ekue ojekuaaukátai.
 username-optin-public = Erekuaa avei reipotápa ojekuaa ndeipot poruhára réra.
+demographic-deidentified-clarity = Eme'ẽkuaa avei reipotárõ kuaapyrã yvypóra rehegua (techapyrãrõ ary, meña, ñe'ẽ'ypy ha mba'eichaguápa iñe'ẽ). Ko'ã mba'e ndojekuaaukái ha ndoje'emo'ãi nde eme'ẽhague ã kuaapyrã. Ñe'ẽryapu ñongatupyre ojehecháta tuichakuépe ha oiko porãve hag̃ua tembiporu oikũmbýva ha ohaíva ñe'ẽ ohendúva.
+username-email-not-demographic = Mavave ndoikuaamo'ãi nde poruhára réra ni ñe'ẽveve oiporukuévo ñe'ẽryapu.
 
 ## Speak & Listen Shortcuts
 
@@ -268,6 +270,8 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Ñongatu/Joko
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Embohyapupyahu
+request-language-text = Nderejuhúipiko ne ñe'ẽ'ypy Common Voice-pe?
 
 ## ProjectStatus
 
