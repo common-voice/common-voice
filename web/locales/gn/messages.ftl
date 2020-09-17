@@ -417,11 +417,15 @@ review-recording = Hechajey
 language = Ñe’ẽ
 # File size in gigabytes
 size = Tuichakue
+audio-format = Mba’epu Ysaja
+splits = Ñemboja’o
 size-gigabyte = GB
 size-megabyte = MB
+subscribe = Mboheraguapy
 more = Hetave
 close = Mboty
 download = Mboguejy
+dataset-version = Peteĩchagua
 
 ## Download Modal
 
@@ -438,14 +442,19 @@ contact-form-message =
 
 request-language-form-language =
     .label = Ñe’ẽ
+select-language = Eiporavo ñe’ẽ...
+other-language = Ambue Ñe’ẽ
 
 ## Languages Overview
 
 language-section-launched = Mombopyre
 languages-show-more = Ehechave
+languages-show-less = Ehecha’ive
 language-total-progress = Opavavete
 language-search-input =
     .placeholder = Heka
+language-speakers = Ñe’ẽharakuéra
+localized = Ñe’ẽasapyre
 
 ## Contribution
 
