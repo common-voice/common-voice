@@ -777,12 +777,27 @@ help-reach-hours-general-pluralized =
     }  mu lulimi n'ekiruubirirwa ekikyo.
 set-a-goal = Tereeza ekigobero
 cant-decide = Tosobola kusalawo?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] essaawa { $totalHours }
+       *[other] essaawa { $totalHours }
+    }esoboka mu { NUMBER($periodMonths) ->
+        [one] mwezi { $periodMonths }
+       *[other] myezi { $periodMonths }
+    }singa{ NUMBER($people) ->
+        [one] omuntu { $people }
+       *[other] abantu { $people }
+    }balikondinga{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } clip
+       *[other] { $clipsPerDay } clips
+    }olunaku.
 how-many-per-day = Kilungi! Buloboozi bumeka olunaku?
 how-many-a-week = Kilungi! Buloboozi bumeka mu wiiki?
 which-goal-type = Oyagala kw'ogera, Kuwuliriza oba by'ombi?
 receiving-emails-info =
     Kaakano oteekeddwa  okufuna emails nga ezikujjukiza ku kiruubirirwakyo,¶
     wootuuse n'ebikwata ku Common Voice
+not-receiving-emails-info = Kaakano oteekeddwa ku <bold>BUTAFUNA</bold> email nga ezikujjukiza ku kiruubirirwa kyo, ebifa ku w'otuuse n'obubaka obukwata ku Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } clip
