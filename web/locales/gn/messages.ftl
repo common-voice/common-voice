@@ -232,9 +232,14 @@ benefits = Iporãva oguerúva
 rich-data = Ikatuhag̃uáicha iporupyrã añetéva ñe'ẽryapu ñongatupyrea eremi moõguápa ou. Upéva noñemoherakuãmo'ãi katu oipytyvõhetáta.
 improve-audio = Kuaapyrã ñe'ẽryapu rehegua oipytyvõ osẽ porãve hag̃ua ñe'ẽ ñeikũmby.
 keep-track = Eikuaa tapiaite mba'éichapa oguata ohóvo ne rembiapo ha avei ambue ñe'ẽ rembiapo.
+compare-progress = Ehecha akóinte máva rembiapópab itenondeve ñande yvy ape ári.
+view-goals = Ehecha moõpevépa reg̃uahẽma ne rembiapópe ha mboýpa hemby rehupyty hag̃ua rehupytyséva térã ojehupytyséva aponde'ápe.
+join-newsletter = Ikatu avei reike ore rerarysýipe romog̃uahẽmi hag̃ua ndéve marandu ipyahúva aponde'a rehegua.
 
 ## What's public
 
+whats-public = Mba'épa ohechakuaáta opavave?
+email-not-public = Ne ñe'ẽveve ndoikuaamo'ãi mavave.
 
 ## Speak & Listen Shortcuts
 
