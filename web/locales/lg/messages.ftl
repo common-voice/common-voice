@@ -826,6 +826,7 @@ share-goal = Sheyaringa ekigobero kyange
 delete-q = Naawe wandiyagadde okusaba amaloboozi go agalikondigiddwa gasangulwe, oba osinga kwagala gakuumibwe mu dataset ya Common Voice?
 keep = Tereka
 remove = Jjako
+keep-info = Likondingi z'amaloboozi go nga tosobola kutegeerebwa/kutegeerwa zigenda kusigala mu dataset ya Common Voice. Bwonaasangula pulofayiro yo ojja kubanga tokyasobola kuweereza kusaba okw'okusangula kwa likondingi zo okuva mu dataset.
 profile-form-delete = Sangula ebikwatako
 
 ## Landing
