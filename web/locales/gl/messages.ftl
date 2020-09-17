@@ -468,9 +468,19 @@ mycroft-secondary-description = É un software de código aberto que se pode rem
 
 glossary = Glosario
 localization = Localización
+localization-explanation = É o noso proceso para traducir e adaptar o noso contido a moitos idiomas.
+sentence-collection = Recollida de frases
+sentence-collection-explanation = Recollida de frases do dominio público ou escribir frases novas de dominio público.
+hours-recorded-explanation = A conta de horas de gravacións de voz que temos recollidas ata agora.
+hours-validated-explanation = A conta de horas de gravación de voz que temos validadas por 2 ou 3 usuarios cun «Si». Marcan o progreso do proxecto global respecto do obxectivo de 10 mil horas.
+sst = Fala-texto (STT)
+sst-explanation = As tecnoloxías fala-texto (STT) converten datos de voz en texto.
+de-identified = Anonimización
+de-identified-explanation = O proceso mediante o cal a información do perfil dun colaborador se escurece dos seus fragmentos doados de voz  ao empaquetalos para a descarga como parte do conxunto de datos.
 
 ## Error pages
 
+error-title-404 = Non nos foi posíbel atopar esa páxina
 
 ## Data
 
