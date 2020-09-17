@@ -240,6 +240,8 @@ join-newsletter = Ikatu avei reike ore rerarysýipe romog̃uahẽmi hag̃ua ndé
 
 whats-public = Mba'épa ohechakuaáta opavave?
 email-not-public = Ne ñe'ẽveve ndoikuaamo'ãi mavave.
+recordings-and-locale-public = Mboýpa reipytyvõva'ekue ojekuaaukátai.
+username-optin-public = Erekuaa avei reipotápa ojekuaa ndeipot poruhára réra.
 
 ## Speak & Listen Shortcuts
 
