@@ -813,6 +813,8 @@ share-n-weekly-contribution-goal = Gabana ekiruubirirwa kyo ekya { $count } Clip
 share-goal-type-speak = Okwogera.
 share-goal-type-listen = Okuwliriza
 share-goal-type-both = Okwogera n'okuwuliriza.
+# LINK will be replaced with the current URL
+goal-share-text = Nateekawo ekiruubirwa kyange eky'okuwaayo eri #CommonVoice -- neegattaako oyambe okuyigiriza ebyuma  ngeri abantu abaddala bwe bayogera { $link }
 weekly-goal-created = Ekigobero kyo ekya buli wiiki kikolebbwa
 daily-goal-created = Ekigobero kyo ekya buli lunaku kikolebbwa
 track-progress = Manyira wano w'otuuse oba ku stats page yo.
@@ -821,6 +823,7 @@ share-goal = Sheyaringa ekigobero kyange
 
 ## Profile Delete
 
+delete-q = Naawe wandiyagadde okusaba amaloboozi go agalikondigiddwa gasangulwe, oba osinga kwagala gakuumibwe mu dataset ya Common Voice?
 keep = Tereka
 remove = Jjako
 profile-form-delete = Sangula ebikwatako
