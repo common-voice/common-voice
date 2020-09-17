@@ -437,6 +437,32 @@ about-is-it-valid-text = Un clip de voz está marcado como «correcto» cando un
 about-yes-votes = ≥ 2 votos Si
 about-yes-votes-text = Para incluílo no conxunto de datos de Common Voice, un clip de voz debe ser validado por dous usuarios diferentes.
 about-no-votes = ≥ 2 votos Non
+about-no-votes-text = Cando un usuario rexeita un clip de voz, volve á cola. De se rexeitar unha segunda vez, o clip de voz vai para o cemiterio de clips.
+about-dataset-new = Conxunto de datos de Common Voice
+about-dataset-new-text = O conxunto de datos Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento de voz.
+about-clip-graveyard = Cemiterio de Clips
+about-clip-graveyard-text = O Cemiterio de Clips son clips de voz que non acadaron ser parte do conxunto de datos de Common Voice. Do mesmo xeito que o conxunto de datos, o Cemiterio de Clips está dispoñíbel para descarga.
+about-partners = Socios
+about-become-a-partner = Convírtase en socio
+about-partnership =
+    Common Voice é un proxecto colaborativo e dependemos da nosa comunidade de socios e colaboradores para construír o maior conxunto de datos abertos de voz que teña habido.
+    
+    Grazas ás seguintes persoas e organizacións pola súa axuda ao proxecto:
+about-get-involved = Participe
+about-get-involved-text-2 =
+    Quere axudar a mellorar Common Voice?¶
+    Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>¶
+    remita incidencias do sitio vía <githubLink>GitHub</githubLink>,¶ ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
+about-nav-why-common-voice = Por que?
+about-nav-how-it-works = Como?
+about-nav-partners = Socios
+about-nav-get-involved = Participe
+mycroft-title = Mycroft Ia
+mycroft-subtitle = Intelixencia artificial
+mycroft-description =
+    Mycroft é o primeiro asistente de código aberto do mundo.
+    Mycroft funciona en calquera lugar - nunha computadora de escritorio, dentro dun automóbil ou nunha Raspberry Pi.
+mycroft-secondary-description = É un software de código aberto que se pode remisturar, ampliar e mellorar libremente. Mycroft pódese usar en calquera cousa, desde nun proxecto de ciencia ata nun aplicativo de software empresarial.
 
 ## Glossary
 
