@@ -721,6 +721,7 @@ validations =
 
 your-languages = আপোনাৰ ভাষাবোৰ
 toward-next-goal = পৰৱৰ্তী লক্ষ্যৰ দিশে
+goal-reached = লক্ষ্যত উপনীত হৈছে
 clips-you-recorded = টা ক্লিপ আপুনি ৰেকৰ্ড কৰিছে
 clips-you-validated = টা ক্লিপ আপুনি বৈধকৰণ কৰিছে
 todays-recorded-progress = Common Voice-ৰ আজিৰ ক্লিপ ৰেকৰ্ড কৰা প্ৰগতি
