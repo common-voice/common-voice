@@ -174,6 +174,10 @@ home-title = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe
 home-cta = Eñe'ẽ, eipytyvõ ápe!
 wall-of-text-start = Ñane ahy'o ñe'ẽ niko yvypóra mba'e. Upévare roipytyvõseterei oĩ hag̃ua ñe'ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe'ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe'ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo'ã ndaupeichaiva'erã. Upévare romoheñói Aponde'a Common Voice, roipotágui opavave oiporukuaa ñe'ẽ rembiporu.
+wall-of-text-more-desktop =
+    Ko'ág̃a ikatúma reme'ẽ nde ahy'o ha reipytyvõ jajapo hag̃ua ñe'ẽ ha ñe'ẽjoaju ryapu apesã opavavépe g̃uarã
+    ojeporukuaáva tembiporu'i, mba'e'okápe ñandutípe. Emoñe'ẽ atã ñe'ẽjoajukuéra ikatuhag̃uáicha máquina oikuaa mba'éichapa oñeñe'ẽ ne ñe'ẽme.
+    Ehendu avei ambuéva rembiapo ha eremi oĩ porãpa. ¡Pévante rejapova'ẽrã eipytyvõ hag̃ua!
 show-wall-of-text = Emoñe'ẽve
 help-us-title = ¡Orepytyvõmi ikatuhag̃uáicha jaiporavo ñe'ẽjoaju oĩporãva!
 help-us-explain = Ejopy Tahendúpe, ehendu ha eremi: ombohyapu porãpa ñe'ẽjoaju oĩva iguýpe?
