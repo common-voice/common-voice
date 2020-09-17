@@ -330,6 +330,7 @@ profile-explanation = Eikuaa akóinte mba'éichapa oguata ohóvo tembiapo ehech�
 thanks-for-account = Aguyjevete erehaguére nde cuénta añeteha, ko'ag̃a ñambosako'ive nde roguetee.
 why-demographic = Mba'érepa jajapova'erã kóva?
 why-demographic-explanation = Poruhára rehegua marandu ndojekuaaukái katu oipytyvõ tuicha omba'apo porãve hag̃ua tembiporu ohaíva ohendúvape. Nde poruhára réra ha ne ñe'ẽveve ndojehechaukamo'ãi umi oiporúva ñe'ẽryapu reme'ẽva'ekue ha akóinte erekuaa avei eipotárõ ojekuaa nde poruhára réra pytyvõháraramo.
+accept-privacy = Oĩ porã, amoneĩ ojeporu kuaapyrã chemba'éva oñemyesakãhaguéicha chéve Mozilla <privacyLink>Kuaapy Jeporu</privacyLink> kuatiápe.
 accept-privacy-title = Temiñemi Purureko
 login-identity = Tembiapo ñepyrũ kuaaukaha
 login-signup = Emoñeprũ tembiapo / Eñemboheraguapy
