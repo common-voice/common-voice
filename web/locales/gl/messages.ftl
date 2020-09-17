@@ -405,9 +405,38 @@ faq-why-not-ask-read-a = Para facermos o conxunto de voz Common Voice tan utiliz
 faq-why-account-q = Por que debería rexistrar unha conta?
 faq-is-account-public-q = A miña conta, é información pública?
 faq-how-privacy-q = Como se asegura a anonimización e confidencialidade das persoas que doaron as súas voces?
+faq-how-privacy-a = Todos os fragmentos de voz no conxunto de datos están preservados de información de identificación. Cando un colaborador fornece datos demográficos a través do seu perfil, esa información está separada dos seus fragmentos de voz no conxunto de datos antes de ser empaquetados para a descarga e nunca se fan públicos na súa páxina de perfil.
+faq-what-determine-identity-q = Que significa que non podo «determinar a identidade» de falantes no conxunto de datos Common Voice?
+faq-what-determine-identity-a =
+    O conxunto de datos Common Voice é un recurso aberto e dispoñíbel publicamente que pode utilizarse para adestrar unha ampla variedade de aplicacións relacionada coa voz. Para protexer a seguranza dos nosos colaboradores, pedímoslle a todos os que descarguen o conxunto de datos Common Voice que respecten a confidencialidade dos colaboradores.
+    
+    Todos os fragmentos de voz no conxunto de datos están preservados de información sobre a identidade. Ao descargar o conxunto de datos, vostede está de acordo en non tentar determinar a identidade de ningún colaborador. Isto significa que non pode ligar información no conxunto de datos con ningunha información persoal dun colaborador. No entanto, vostede pode utilizar o conxunto de datos para adestrar o recoñecemento de fala, o recoñecemento dun falante ou outras aplicacións ao, valla o exemplo, conectar información que está no conxunto de datos con outra información que xa está tamén no conxunto de datos.
+faq-what-is-cv = Que é Common Voice?
+faq-using-cv = Utilización de Common Voice
+faq-description = Common Voice é parte dunha iniciativa de Mozilla para axudar a ensinar ás máquinas como fala a xente común.
+faq-search-for-answers =
+    .label = Buscar respostas
 
 ## ABOUT US
 
+about-title = Por que Common Voice?
+about-subtitle = Common Voice forma parte da iniciativa de Mozilla de ensinar ás máquinas como falan as persoas reais. Ademais do conxunto de datos de de Common Voice, tamén estamos construíndo un motor de recoñecemento de voz de código aberto chamado Deep Speech.
+about-header-description =
+    Ambos proxectos forman parte dos nosos esforzos para superar a fenda da fala dixital. As tecnoloxías de recoñecemento de voz achegan unha dimensión humana ao nosos dispositivos, mais os desenvolvedores precisan dunha enormidade de datos de voz para as elaborar. Na actualidade, a maioría dos datos non son de acceso libre e ademais son caros.¶
+    Queremos producir datos de voz libres e dispoñíbeis publicamente, e asegurarnos de que os datos recollen a diversidade da xente común. Xuntos podemos mellorar o recoñecemento de voz para todo o mundo.
+how-does-it-work-title = Como funciona?
+how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte aberta. Ofreza a súa voz, valide a precisión dos clips doados por outras persoas, mellore o conxunto de datos para todo o mundo.
+about-speak = Falar
+about-speak-text = Os colaboradores gravan clips de voz lendo dun banco de frases doadas.
+about-listen-queue = Escoitar cola
+about-listen-queue-text = Os clips de voz introdúcense nunha cola de envío que os prepara para escoitar.
+about-listen = Escoitar
+about-listen-text = Os usuarios validan a precisión dos clips doados e comproban se o falante leu correctamente a frase.
+about-is-it-valid = O clip vale?
+about-is-it-valid-text = Un clip de voz está marcado como «correcto» cando un usuario lle dá un voto Si.
+about-yes-votes = ≥ 2 votos Si
+about-yes-votes-text = Para incluílo no conxunto de datos de Common Voice, un clip de voz debe ser validado por dous usuarios diferentes.
+about-no-votes = ≥ 2 votos Non
 
 ## Glossary
 
