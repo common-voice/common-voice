@@ -272,9 +272,20 @@ shortcut-record-toggle-label = Ñongatu/Joko
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Embohyapupyahu
 request-language-text = Nderejuhúipiko ne ñe'ẽ'ypy Common Voice-pe?
+request-language-button = Ejererure toñembojoapy avei ambue ñe'ẽ
 
 ## ProjectStatus
 
+status-title = Mba'éichapa oikohína aponde'a: ehecha mboypevépa jahupytýma!
+status-contribute = Eme'ẽ nde ahy'o
+status-hours =
+    { $hours ->
+        [one] Peteĩ aravóma oñemoneĩ ko'ág̃a peve!
+       *[other] { $hours } aravóma oñemoneĩ ko'ág̃a peve!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Jahupytyséva Avei: { $goal }
 english = Inglés ñe’ẽ
 
 ## ProfileForm
@@ -291,6 +302,8 @@ profile-form-age =
     .label = Ary
 profile-form-gender =
     .label = Meña
+leaderboard-visibility =
+    .label = Jehechakuaa Itenondéva apytépe
 hidden = Kañygua
 visible = Hecháva
 native-language =
@@ -302,12 +315,21 @@ female = Kuña
 # Gender
 other = Ambue
 why-profile-title = ¿Mba’ére peteĩ mba’ete?
+why-profile-text =
+    Emombe'umivéramo nde rehegua oipytyvõta ñe'ẽryapu ojeporu porãve hag̃ua.
+    Tembiporu oñeha'ãva ohaívo ohendúva oiporu remombe'úva ohai porãve hag̃ua.
+dashboard = Tembiporu Renda'ypy
 build-profile = Hemoheñói Mba’ete
 avatar = Avatar
 goals = Hupytyrã
 settings = Ñemboheko
 edit-profile = Embosako’i Mba’ete
+profile-create-success = ¡Oĩporãite, oñemoheñóima nde roguerã!
 profile-close = Mboty
+profile-explanation = Eikuaa akóinte mba'éichapa oguata ohóvo tembiapo ehechávo nde rogueteépe ha eipytyvõ avei hekopete hag̃ua ñe'ẽryapu ojeporúva.
+thanks-for-account = Aguyjevete erehaguére nde cuénta añeteha, ko'ag̃a ñambosako'ive nde roguetee.
+why-demographic = Mba'érepa jajapova'erã kóva?
+why-demographic-explanation = Poruhára rehegua marandu ndojekuaaukái katu oipytyvõ tuicha omba'apo porãve hag̃ua tembiporu ohaíva ohendúvape. Nde poruhára réra ha ne ñe'ẽveve ndojehechaukamo'ãi umi oiporúva ñe'ẽryapu reme'ẽva'ekue ha akóinte erekuaa avei eipotárõ ojekuaa nde poruhára réra pytyvõháraramo.
 accept-privacy-title = Temiñemi Purureko
 login-identity = Tembiapo ñepyrũ kuaaukaha
 login-signup = Emoñeprũ tembiapo / Eñemboheraguapy
