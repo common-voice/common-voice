@@ -230,6 +230,8 @@ email-subscription-title-new = Eñemboheraguapy og̃uahẽmi hag̃ua ndéve mara
 
 benefits = Iporãva oguerúva
 rich-data = Ikatuhag̃uáicha iporupyrã añetéva ñe'ẽryapu ñongatupyrea eremi moõguápa ou. Upéva noñemoherakuãmo'ãi katu oipytyvõhetáta.
+improve-audio = Kuaapyrã ñe'ẽryapu rehegua oipytyvõ osẽ porãve hag̃ua ñe'ẽ ñeikũmby.
+keep-track = Eikuaa tapiaite mba'éichapa oguata ohóvo ne rembiapo ha avei ambue ñe'ẽ rembiapo.
 
 ## What's public
 
