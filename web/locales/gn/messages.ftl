@@ -374,6 +374,7 @@ change-email-setings = Emoambue ne ñe'ẽveve eikévo Ñembosako'ípe oĩva Jei
 faq-title = Oñeporanduvéva (FAQ)
 faq-what-cv-q = Mba'épa Common Voice?
 faq-why-important-q = ¿Mba’ére ehecharamo?
+faq-what-is-cv = ¿Mba’épa Common Voice?
 faq-using-cv = Mba’éicha eipurúta Common Voice
 faq-search-for-answers =
     .label = Eheka mbohovái ne porandúpe
@@ -381,10 +382,18 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ¿Mba’é eipurúta Common Voice?
+how-does-it-work-title = ¿Mba’éicha omba’apo?
 about-speak = Ayvu
+about-listen-queue = Ñehenduha ruguái
 about-listen = Ehendu
+about-is-it-valid = ¿Ñeñongatu oikoite?
+about-yes-votes = ≥ 2 vóto oikóva
+about-partners = Irũnguéra
+about-become-a-partner = Toiko ndehegui irũ
+about-get-involved = Poropytyvõ
 about-nav-why-common-voice = ¿Mba’ére?
 about-nav-how-it-works = ¿Mba’e?
+about-nav-partners = Irũnguéra
 about-nav-get-involved = Ñepytyvõ
 mycroft-title = Mycroft Ai
 
