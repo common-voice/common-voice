@@ -837,6 +837,7 @@ profile-form-delete = Sangula ebikwatako
 ## Landing
 
 welcome-staff = Tukwaniriza{ $company } mukozi waffe!
+help-contribute = Osobola okuyambako okuzimba dataset erina amaloboozi ag'enjawulo, ey'olukale ng'oteekawo Common Voice pulofayiro n'owaayo eddoboozi lyo.
 login-company = Log in/ sign up ne { $company } email
 profile-not-required = Tekyetagisibwa kuba na profayilo okuyamba wadde kya mugaso, laba lwaki wansi awo.
 read-more-about = Soma ebisingawo ku page yaffe ey'Ebitukwatako.
