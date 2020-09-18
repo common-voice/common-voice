@@ -493,6 +493,18 @@ data-download-yes = Si
 data-download-deny = Non
 data-download-license = Licenza <licenseLink>CC-0</licenseLink>
 data-download-modal = Vai comezar a descargar <size>{ $size }GB</size>, seguir?
+data-subtitle = Estamos a construír un conxunto de voces aberto e publicamente dispoñíbel que calquera pode utilizar para adestrar aplicacións que empregan a voz.
+data-explanatory-text = Cremos que os grandes conxuntos de datos axudan á innovación e á competición comercial saudábel en tecnoloxías de aprendizaxe baseada na fala. Este é un esforzo global e convidamos a calquera a participar. A nosa intención é axudar a tecnoloxía de fala a ser máis inclusiva para que reflicta a diversidade de voces de todo o mundo.
+data-get-started = <speechBlogLink>Primeiros pasos co recoñecemento de voz</speechBlogLink>
+data-other-title = Outros conxuntos de datos de voz...
+data-other-goto = Ir a { $name }
+data-other-download = Descargar os datos
+data-bundle-button = Descargar o paquete do conxunto de datos
+data-bundle-description = O conxunto de datos Common Voice xunta todos os demais conxuntos de datos anteriores.
+license = Licenza: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mesturados
+data-download-singleword-title = Descarga o Segmento de Destino Único de Palabra
+data-download-singleword-callout = Este é un segmento baseado en casos de uso que contén datos para o recoñecemento de números de voz falada, detección de si / non e datos de proba de palabras clave para <fxLink>Firefox Voice</fxLink>.
 
 ## Datasets Page
 
