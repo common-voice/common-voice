@@ -123,6 +123,7 @@ faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 
 ## ABOUT US
 
+about-listen-queue-text = L'arrighjistramenti vucali sò mandati in una fila d'attesa induve sarani approntati pè l'ascolta.
 
 ## Glossary
 
