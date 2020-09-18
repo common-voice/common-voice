@@ -3,6 +3,9 @@
 contribute = Cuntribuisce
 get-involved-button = Impegnassi
 get-involved-title = Cuntribuisce à { $lang }
+get-involved-text =
+    Grazie per u vostru interessu à cuntribuisce in { $lang }. Travagliemu duru per avè ogni lingua pronta per u lanciamentu è per mantene
+    e squadre infurmati da email. Si vo vulete cuntribuisce, scrivite u vostru email inghjò.
 get-involved-form-title = Arrighjistrassi pà è misse à ghjornu in { $lang } :
 get-involved-email =
     .label = email
