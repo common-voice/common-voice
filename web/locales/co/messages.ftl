@@ -1,6 +1,9 @@
 ## General
 
+privacy-info = Vi prumittimu di trattà e vostre informazioni cun cura. Leghjite più in u nostru <privacyLink> Avvisu di cunfidenzialità</privacyLink>.
 return-to-cv = Vultà à Common Voice
+email-input =
+    .label = Email
 submit-form-action = Invià
 loading = Caricamentu…
 email-opt-in-info-sub-with-challenge = Riceve email cum'è sfide è ramintenze di scope, aghjurnamenti di prugressu, è nutizie appuntu à Common Voice.
@@ -124,6 +127,7 @@ faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 
 ## Datasets Page
 
+missing-language = Ùn vidite micca à vostra lingua in a basa di dati ? Pà dumandà una lingua, andate annantu à nostra paghjina Lingue.
 
 ## Download Modal
 
