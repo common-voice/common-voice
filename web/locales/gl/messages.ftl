@@ -483,12 +483,16 @@ de-identified-explanation = O proceso mediante o cal a información do perfil du
 error-title-404 = Non nos foi posíbel atopar esa páxina
 error-content-404 = Se cadra a nosa<homepageLink>páxina principal</homepageLink> axudaría? Para facer unha pregunta, únase ao  <matrixLink>chat da comunidade Matrix</matrixLink>, siga as incidencias do sitio por  <githubLink>GitHub</githubLink> ou visite <discourseLink>os nosos foros Discourse</discourseLink>.
 error-title-503 = Neste intre sufrimos unha caída do servizo inesperada
+error-content-503 = O sitio volverá a estar activo tan pronto como sexa posible. Para ter as últimas novas, únase ao <matrixLink>chat da comunidade Matrix</matrixLink> ou visite <githubLink>GitHub</githubLink> ou <discourseLink>os nosos foros Discourse </discourseLink> para enviar e monitorizar as incidencias na experiencia de utilización do sitio.
+error-code = Erro { $code }
 
 ## Data
 
+data-download-button = Descargar os datos de Common Voice
 data-download-yes = Si
 data-download-deny = Non
 data-download-license = Licenza <licenseLink>CC-0</licenseLink>
+data-download-modal = Vai comezar a descargar <size>{ $size }GB</size>, seguir?
 
 ## Datasets Page
 
