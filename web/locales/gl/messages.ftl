@@ -505,13 +505,36 @@ license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesturados
 data-download-singleword-title = Descarga o Segmento de Destino Único de Palabra
 data-download-singleword-callout = Este é un segmento baseado en casos de uso que contén datos para o recoñecemento de números de voz falada, detección de si / non e datos de proba de palabras clave para <fxLink>Firefox Voice</fxLink>.
+review-terms = Ao utilizar Common Voice, está conforme cos nosos <termsLink>Termos</termsLink> e <privacyLink>Política de privacidade</privacyLink>
+terms-agree = Conforme
+terms-disagree = Non estou conforme
+review-aborted = Carga anulada. Quere eliminar as súas gravacións?
+review-submit-title = Revisar e enviar
+review-submit-msg = Grazas pola gravación! <lineBreak></lineBreak>Agora revísea e envíe os fragmentos seguintes.
+review-recording = Revisar
+review-rerecord = Regravar
+review-cancel = Anular o envío
+review-keep-recordings = Conservar as gravacións
+review-delete-recordings = Eliminar as miñas gravacións
 
 ## Datasets Page
 
+datasets-headline = Estamos a construír un conxunto de datos de voces de fonte aberta, multilingüe que calquera pode utilizar para adestrar aplicacións que funcionan coa voz.
+datasets-positioning =
+    Cremos que os grandes conxuntos de datos, dispoñíbeis publicamente, alimentarán a innovación e a saudábel competición comercial da tecnoloxía de voz baseada na aprendizaxe automática.
+    
+    O conxunto de datos Common Voice xa é o maior conxunto de datos de voz do seu tipo dispoñíbel publicamente mais non é o único.
+    
+    Vexa esta páxina como unha referencia a un feixe de doutros conxuntos de datos e, así como Common Voice continúe a medrar, un lugar onde atopar as actualizacións publicadas.
 language = Idioma
 # File size in gigabytes
 size = Tamaño
+validated-hr-total = Total de horas validado
+overall-hr-total = Total xeral de horas
 cv-license = Licenza
+audio-format = Formato de son
+number-of-voices = Número de voces
+splits = Intervalos
 more = Máis
 close = Pechar
 download = Descargar
