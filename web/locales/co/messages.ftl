@@ -85,6 +85,7 @@ logout = Scunnettassi
 
 home-title = Common Voice hè l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone.
 home-cta = Parlate puru, cuntribuite quì !
+wall-of-text-start = A voce hè naturale, a voce hè umana. Hè per quessa chì simu affascinati cù a creazione di una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, una quantità strimamente grande di dati vucale sò richiesti.
 show-wall-of-text = Leghje di più
 vote-yes = Iè
 vote-no = Innò
