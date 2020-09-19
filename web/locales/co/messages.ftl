@@ -1,11 +1,13 @@
 ## General
 
+yes-receive-emails = Iè, mandatemi email. Mi piaceria esse infurmatu appuntu à u prughjettu Common Voice.
 privacy-info = Vi prumittimu di trattà e vostre informazioni cun cura. Leghjite più in u nostru <privacyLink> Avvisu di cunfidenzialità</privacyLink>.
 return-to-cv = Vultà à Common Voice
 email-input =
     .label = Email
 submit-form-action = Invià
 loading = Caricamentu…
+email-opt-in-info-title = Raghjunghje à a lista di distribuzione di Common Voice
 email-opt-in-info-sub-with-challenge = Riceve email cum'è sfide è ramintenze di scope, aghjurnamenti di prugressu, è nutizie appuntu à Common Voice.
 email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chi Mozilla ghjuva questi infurmazioni cum'è spiegatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink>.
 not-available-abbreviation = Micca dispunibule
