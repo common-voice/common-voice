@@ -210,6 +210,7 @@ Aber irgendwie musste der Drahtzieher ja Komplizen anheuern.
 Aber ist es dafür nicht umso beeindruckender?
 Aber ist es ethisch vertretbar?
 Aber ja!
+Aber ja, mein Kind.
 Aber jetzt ist deine Mitarbeit gefordert.
 Aber jetzt ist’s wieder getrocknet.
 Aber jetzt muss ich meiner kleinen Tochter eine Gute-Nacht-Geschichte vorlesen.
@@ -1231,6 +1232,7 @@ Applets sind kleine Programme, auch App oder Apps genannt.
 Araber schreiben von rechts nach links.
 Arabische Schrift müsste für Linkshänder besser geeignet sein als die lateinische.
 Arbeit hat mit Nichtstun überhaupt nichts zu tun.
+Arbeite nicht so viel!
 Arbeiten Sie bei einer Blaulichtorganisation?
 Arbeiten wir, um zu leben oder leben wir, um zu arbeiten?
 Arbeitet Gerhard Schröder immer noch für Gazprom?
@@ -2256,6 +2258,7 @@ Besonders beliebt sind die Parties der Sporthochschulen.
 Besonders beliebt sind die Partys der Sporthochschulen.
 Besonders bewundernswert finde ich an ihm, dass er seinen Lebensweg ohne Navi gefunden hat.
 Besonders coole Organisten spielen mit den Händen über Kreuz.
+Besonders die fachlich informativen Ausführungen waren legendär.
 Besonders kreativ war die Idee mit dem Furzkissen aber nicht gerade.
 Besonders problematisch ist dies, weil die Programme mit erhöhten Rechten laufen.
 Besonders toll sind solche Meldungen beim Online Fahrkahrtenkauf unter Zeitdruck.
@@ -4383,6 +4386,7 @@ Das rosa Himbeerbonbon ist aus dem Nest gefallen.
 Das rote Pferd hätte einfach mal kräftiger zuschlagen sollen.
 Das sage ich nicht.
 Das sagt einiges über sein Entstehen aus.
+Das sagt man nicht, davon geht die Bildung in den Arsch!
 Das schickt sich aber nicht!
 Das schmeckt wie ein ganzes Gewürzregal.
 Das schwarze Gold wird in Zukunft an Bedeutung verlieren.
@@ -6166,6 +6170,7 @@ Die Frau macht mich ganz perplex.
 Die Frau zog eine Duftwolke von Parfüm hinter sich her.
 Die Frauen ähnelten sich sehr in ihren Vorurteilen.
 Die Freude ist auf meiner Seite!
+Die Frisur hält.
 Die FritzBox ist gleichzeitig Modem und Router.
 Die Frühschicht erledigt Herr Wittgenstein.
 Die Funktion ist wahrscheinlich ein Einzeiler, maximal aber ein Dreizeiler.
@@ -7567,6 +7572,7 @@ Du bist nicht mehr der Mann, in den ich mich mal verliebt habe.
 Du bist nichts, dein Verstand ist alles!
 Du bist schwer zu verstehen.
 Du bist so ein Charmeur!
+Du bist spät.
 Du bist unschuldig.
 Du bist unsere Glücksfee.
 Du bist verantwortlich für die Datenverarbeitung.
@@ -7618,6 +7624,7 @@ Du hast gewiss das reinste Glück empfunden.
 Du hast heute lange Uni oder?
 Du hast immer irgendwas dagegen.
 Du hast immer kalte Hände.
+Du hast ja Recht, mein Liebling.
 Du hast ja recht, mein Liebling.
 Du hast kein Interesse an Mode, möchtest jedoch bei einem Mode-Magazin arbeiten?
 Du hast keine Beweise dafür!
@@ -8005,6 +8012,7 @@ Ein Blick ins Vorstrafenregister disqualifizierte ihn für die Stelle.
 Ein Blick über den eigenen Tellerrand hinaus würde sich lohnen.
 Ein Blitz entfachte das Feuer.
 Ein Blumenstrauß als Entschuldigung und alles ist wieder vergessen.
+Ein Bombengeschäft.
 Ein Brummi reiht sich an den anderen.
 Ein Burgunder aus dem Jahr zweitausend, habe ich Recht?
 Ein Burgunder aus dem Jahr zweitausend, habe ich recht?
@@ -8213,6 +8221,7 @@ Ein einzelner Maulwurf kann viele Haufen verursachen.
 Ein einziger Schwachpunkt reicht zur Infiltration.
 Ein einziger erfolgreicher Konter würde für einen Sieg ausreichen.
 Ein expressionistisches Gedicht handelte von rauchenden Fabriken.
+Ein feiner Pinkel.
 Ein freies Leben ist erstrebenswert.
 Ein funktionierendes Kundenbindungsprogramm muss her.
 Ein ganz bestimmter Bakterienstamm verleiht dem Getränk seinen unverwechselbaren Geschmack.
@@ -8416,6 +8425,7 @@ Eine Stichprobe der Größe eins ist nicht besonders aussagekräftig.
 Eine Stimme transportiert viel mehr Information als nur den gesprochenen Text.
 Eine Strafe soll eine Verhaltensänderung bewirken.
 Eine Straßenbahn ist wesentlich günstiger zu haben als eine U-Bahn.
+Eine Stunde schlafen, und dann ins Bett!
 Eine These, die sich nicht falsifizieren lässt, ist aus wissenschaftlicher Sicht wertlos.
 Eine Touristin soll irgendwo auf dem Pilgerpfad verschollen sein.
 Eine Trommelfellruptur ist eine relativ harmlose Tauchverletzung.
@@ -9623,6 +9633,7 @@ Es war nie eine gute Idee Menschen im Internet über Namen abstimmen zu lassen.
 Es war noch alles angeschaltet.
 Es war noch früh am Morgen, als der Hahn das erste mal krähte.
 Es war nämlich ein Salami-Sandwich.
+Es war schön mit ihnen zu "arbeiten".
 Es war sowieso Blödsinn, sie die ganze Nacht laufen zu lassen.
 Es war von Anfang an so konzipiert.
 Es war völlig unklar, wer dieses Chaos verursacht haben könnte.
@@ -11804,6 +11815,7 @@ Höhere Luftschichten werden verdrängt.
 Höhere Strafen werden niemanden abschrecken, solange es keine Kontrollen gibt.
 Hör auf damit!
 Hör auf mit dem Unsinn!
+Hör auf!
 Hör auf, alles zu verzögern, und komm endlich mit!
 Hör auf, mit der Schere zu spielen!
 Hör dir bitte deine eigenen Aufnahmen an.
@@ -11934,6 +11946,7 @@ Ich bin neidisch auf den Reichtum meiner Freunde.
 Ich bin neu in diesem Beruf.
 Ich bin nicht bereit, mich unterzuordnen.
 Ich bin nicht dein Kuschelbär!
+Ich bin nicht der Götzenanbeter.
 Ich bin nicht dumm, ich habe nur oft Pech beim Denken.
 Ich bin noch ganz heiser von gestern Abend.
 Ich bin nur Mitläufer. Fragen Sie einen anderen!
@@ -13939,6 +13952,7 @@ Ist die Farbe entscheidend für den Geschmack?
 Ist die Frisur wichtig?
 Ist die Garnitur etwa aus Elfenbein geschnitzt?
 Ist die Gitarre ordentlich gestimmt?
+Ist die Musik zu laut, sind Sie zu alt.
 Ist die Quantelung ein Hinweis darauf, dass wir in einer Simulation leben?
 Ist die Salami mit Pferdefleisch?
 Ist die Uni nur ein Auffangbecken für Unentschlossene?
@@ -14050,6 +14064,7 @@ Ja passt.
 Ja sind denn schon wieder Ferien, hmm?
 Ja sind denn schon wieder Ferien?
 Ja so ist es richtig!
+Ja super, du.
 Ja toll, danke für den Ohrwurm!
 Ja was geht denn ab?
 Ja wenn das hier so gefährlich ist!
@@ -14057,6 +14072,7 @@ Ja wo gehn se, wo gehn se denn alle hin?
 Ja! Nein! Ohhh!
 Ja, Gefühle sind ein echter Beziehungskiller!
 Ja, Herr, aber die reichen nicht.
+Ja, Mutti!
 Ja, aber bitte warte nicht so lange.
 Ja, aber damit fängt man sich auch die besten Erkältungen ein.
 Ja, aber das Gummi ist doch schon total ausgeleiert.
@@ -14629,6 +14645,7 @@ Kann ich mit Rena sprechen?
 Kann ich nicht auch mal das Opfer spielen?
 Kann ich nicht irgendeiner sinnvollen Beschäftigung nachgehen?
 Kann ich seine Nummer sperren lassen?
+Kann ich so gehen?
 Kann ich stattdessen auch Sojamilch verwenden?
 Kann mal bitte jemand wieder das Licht am Ende des Tunnels anschalten?
 Kann man Bayern noch als sicheren Herkunftsstaat bezeichnen?
@@ -15663,6 +15680,7 @@ Liebevoll tätschelte sie seinen Kopf.
 Liebhabereien bewahren vor Leidenschaften; eine Liebhaberei wird zur Leidenschaft.
 Lied aus!
 Lieder, die einem früher peinlich waren, berühren einen auf einmal.
+Liegen meine Haare denn richtig?
 Liegst du beim Schlafen auf der Seite, auf dem Bauch oder auf dem Rücken?
 Liegt das an Tim oder an den anderen?
 Liegt das an meiner Essstörung?
@@ -18770,6 +18788,7 @@ Puh, die ist aber grell geschminkt. Na ja, wem´s gefällt.
 Puh, du bist gerade noch rechtzeitig gekommen!
 Puh, geschafft!
 Puh, jetzt habe ich aber Durst, alter Schwede!
+Puh.
 Punkt, Punkt, Komma, Strich, Satzzeichen vorlesen brauche ich nicht.
 Punkte in Flensburg bleiben einem auch erspart.
 Pures Wunschdenken, mein Lieber!
@@ -19107,6 +19126,7 @@ Scheinbar weiß kaum noch jemand, wie man die Konjunktion weil korrekt verwendet
 Scheint so, als bräuchte er noch etwas Feintuning.
 Scheint so, als wäre das Programm in einer Endlosschleife gefangen.
 Scheiß drauf!
+Scheiße.
 Schenkel abtupfen, damit kein Fett sich mit dem Rest Wasser vermischt.
 Schere schneidet Papier.
 Schere-Stein-Papier geht so.
@@ -19654,6 +19674,7 @@ Sich zur Disziplin zu zwingen, erfordert Disziplin.
 Sicher ist das Aufklärungsflugzeug eine teure Anschaffung.
 Sicher ist sicher.
 Sicher wird die Kartellbehörde alle Register ziehen, um die Übernahme zu verhindern.
+Sicherheitsabstand!
 Sicherlich war der Sprengmeister jederzeit Herr der Lage.
 Sicherlich wertet es die Müllkippe etwas auf.
 Sichtlich um Frieden bemüht versucht die Kassiererin noch irgendwo welche aufzutreiben.
@@ -20722,6 +20743,7 @@ Sportmagazine bescheinigen dem Rugby-Spieler mehrheitlich eine souveräne Leistu
 Spot-on hat nicht funktioniert, da gab es trotzdem laufend Zeckenalarm.
 Sprache ist der wohl wichtigste Schlüssel zur Integration.
 Sprachexperten geben ihre Einschätzung dazu ab, ob der Akzent echt ist.
+Sprechen Sie auch in ganzen Sätzen?
 Sprechen Sie bitte so, dass die Spracherkennung schon auch den Bundestrainer verstehen wird.
 Sprechen Sie deutsch?
 Sprechen Sie direkt mit der Patientin, nicht mit Ihren Assistenten über sie.
@@ -21012,6 +21034,7 @@ Terroristen haben einen Helikopter in ihre Gewalt gebracht.
 Tesla ist das bekannteste Elektroauto.
 Tess krümmt sich vor Schmerzen.
 Tessa macht sich auf die Socken.
+Test, Test, eins, zwei, drei.
 Testen Sie Ihre Toleranz!
 Testosteron begünstigt aggressives Verhalten und Imponiergehabe.
 Teures Essen gibt es überall, aber nicht zum besten Preis-Leistungsverhältnis!
@@ -21469,6 +21492,7 @@ Und ja, Frau Vorsitzende, auch Ihr Passwort ist mir bekannt.
 Und jetzt auf zum Bahnhof?
 Und jetzt bück dich gute Fee!
 Und jetzt ein Nutellabrot!
+Und jetzt ein halbes Schwein auf Toast.
 Und jetzt etwas tiefer!
 Und jetzt hängt das Internet auch noch.
 Und jetzt kräftig kurbeln!
@@ -22283,6 +22307,7 @@ Von mir aus, aber fühlt euch deswegen nicht moralisch überlegen.
 Von mir erntet Anerkennung, wer sich statt materieller Reichtümer eine eigene Meinung leistet.
 Von mir hätte er kostenlos eins bekommen.
 Von mir kriegt diese Verbrecherbande nichts!
+Von mir nicht!
 Von mir werden Sie es niemals erfahren!
 Von morgens früh bis abends spät sitze ich am Empfangsgerät.
 Von neuerem Krempel ganz abgesehen.
@@ -23153,6 +23178,7 @@ Was, wenn ihm etwas zugestoßen ist?
 Was? Wie? Haben wir schon wieder Muttertag?
 Was? Wieso bei mir?
 Waschen verbraucht Strom und Wasser.
+Waschen, fönen und legen.
 Waschmaschinen sind teuer.
 Wasser ist ein exzellenter Wärmespeicher.
 Wasser ist überlebenswichtig.
@@ -23290,6 +23316,7 @@ Welch ein fataler Irrtum!
 Welch ein gewaltiger Irrtum!
 Welch eine Erkenntnis!
 Welch glorreicher Tod für euch alle!
+Welch schillernde Persönlichkeit!
 Welche Add-ons nutzt du für Firefox?
 Welche Arbeiten wurden dabei durchgeführt?
 Welche Augenfarbe haben Kaninchen?
@@ -23516,6 +23543,7 @@ Wenn der giftige Qualm nach oben zieht, muss man nach unten flüchten.
 Wenn die Abrisssysteme nicht halten, können wir sie nicht schützen.
 Wenn die Abwehr so tief steht, kann der Gegner frei kombinieren.
 Wenn die Airbags auslösen, geht der Motor automatisch aus.
+Wenn die Deutschen fluchen, wird es meist fäkal.
 Wenn die Druckerpatrone jetzt nicht leer ist, wird sie es wohl nie sein.
 Wenn die Erde eine Scheibe wäre, würde das viele geographische Probleme lösen.
 Wenn die Herdplatte warm wird, sollte man die Finger davon lassen.
@@ -25353,6 +25381,7 @@ Wollen Sie das wirklich am eigenen Leib erfahren?
 Wollen Sie den Joker jetzt einlösen?
 Wollen Sie die Straße an dieser Stelle überqueren?
 Wollen Sie meinen Ausweis sehen?
+Wollen Sie mich auf den Arm nehmen?
 Wollen Sie mich aushorchen?
 Wollen Sie mir weismachen, dass die Kennlinie nicht durch den Ursprung verläuft?
 Wollen Sie, dass E-Tretroller auf dem Bürgersteig fahren?
