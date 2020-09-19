@@ -562,6 +562,7 @@ Considera tu vermente de comprar iste vetule auto?
 Considerate le crescimento del human population, pote insectos ser le alimento del futuro?
 Consulta tu medico si tu experientia ulle effectos collateral.
 Conta a Peter que io te ha dicite: holla.
+Conta a tu matre sur le viage.
 Conta me le composition de iste material.
 Conta me que tu pensa.
 Conta me que videva tu.
@@ -800,6 +801,7 @@ Education es multo importante.
 Ego prefere contemplar le belle cosas e odia laborar.
 Elige le pagina que tu vide cata vice que tu aperi un nove scheda.
 Elisa es un inseniante de ballo.
+Ellen non parla anglese.
 Emilia vide le rosas.
 Emilio es folle.
 Emilio moriva.
@@ -824,6 +826,7 @@ Es aperte le supermercato iste vespere?
 Es ben troppo grande.
 Es bon mercato, ma non es bon.
 Es clar que on non pote contar sur ille!
+Es de illa, nonne?
 Es de ille, nonne?
 Es dece mille yen bastante?
 Es difficile de justificar.
@@ -898,6 +901,7 @@ Es toto illac?
 Es toto preparate?
 Es troppo car!
 Es troppo complicate.
+Es tu ben secur de illo?
 Es tu de accordo?
 Es tu disposite a conducer me al station?
 Es tu folle?
@@ -1428,6 +1432,7 @@ Il es incredibile.
 Il es inutile se planger.
 Il es ja medie die.
 Il es jam dece-un horas.
+Il es jam pro nos le hora de eveliar nos del somno.
 Il es le deber del studentes nettar lor salas de classe.
 Il es le prime vice in mi vita.
 Il es le puncta del iceberg.
@@ -2046,6 +2051,8 @@ Ille deveniva un policiero.
 Ille dice lo que dicer.
 Ille diceva le veritate.
 Ille diceva que ille non cognosceva le homine, lo que esseva un mendacio.
+Ille diceva que ille venirea e ille lo faceva.
+Ille diceva que ille venirea.
 Ille dimitteva su secretario.
 Ille disapprobava mi viage a Vienna.
 Ille dispreciava le consilio de su matre.
@@ -4699,6 +4706,7 @@ Le jardineria ha essite popular durante un tempore.
 Le jentaculo es preste.
 Le joco era amusante e le amicos se diverteva.
 Le jornalista es, pro si dicer, un cosmopolita.
+Le jorno es proxime.
 Le jury es appendite.
 Le jury es suspendite.
 Le juvene aperiva le oculos rubie e vitree, e se levava.
@@ -4796,6 +4804,7 @@ Le nave va al nord.
 Le nebula matutinal cela le village addormite per le hiberno cineree.
 Le necessitate de un preparation theoric e practic es obvie.
 Le nive es blanc.
+Le nocte avantia a grande passos verso le levar se del sol.
 Le nocte cade a tempo super le village con le sono compassate del campanil.
 Le nocte esseva si frigide que io esseva quasi congelate a mi retorno.
 Le nocte passate un grande incendio se declarava in le vicinitate.
@@ -5660,10 +5669,12 @@ Non cantar.
 Non ceder al mediate del strata.
 Non ceder!
 Non cerca faltas in altere personas.
+Non committe adulterio.
 Non committer actos impur.
 Non committer adulterio.
 Non compra me alcun cosa.
 Non con parolas inseniate per le sapientia human.
+Non concupisce.
 Non confunde piras con pyras!
 Non confunder piras con pyras!
 Non contar immunditia.
@@ -5744,6 +5755,7 @@ Non importa quanto erudite ille es, ille non es digne de fide.
 Non importa quanto tu me place, io non te sposara.
 Non importa ubi tu va, non oblida de scriber me.
 Non importa ubi vos va, non oblida de scriber me.
+Non indulger in festas orgiastic e ebrietate, immoralitates sexual e luxuria, discordia e jelosia.
 Non ingere te in su affaires.
 Non interrumper Maximo.
 Non interrumper Peter.
@@ -5780,6 +5792,7 @@ Non oblida de serrar le porta.
 Non oblida que nos hereditara le consequentias de vostre decisiones.
 Non oblidar de brossar tu dentes al matino.
 Non oblidar tu bursa.
+Non occide.
 Non occider.
 Non omne le ingredientes es convenibile pro le confection de un suppa saporose.
 Non parla a ille durante que ille conduce.
@@ -5814,10 +5827,12 @@ Non reguardar.
 Non reguardo assi choccate.
 Non repone le receptor!
 Non repone le receptor, ma resta in linea, per favor.
+Non roba.
 Non robar.
 Non saltar!
 Non sape tu qui es io?
 Non sasir me.
+Non satisface al desiderios carnal.
 Non se pote usar iste sito web etiam como un sorta de Twitter?
 Non seliger le via facile, trappas que illo cela non permitte attinger tu interior.
 Non ser assi dramatic.
@@ -7275,6 +7290,7 @@ Qui interessarea?
 Qui le cognosce le apprecia.
 Qui lo ha dicite primo?
 Qui mangia apes?
+Qui mangia face micas.
 Qui mangia solo mais non pote saporar le gusto exquisite del ris.
 Qui mangiava le ultime biscuit?
 Qui me ha inviate un telegramma?
@@ -7290,6 +7306,7 @@ Qui parlara iste vespere?
 Qui pote melio occupar se del problema?
 Qui prendera cura de vostre catto alora?
 Qui rumpeva isto?
+Qui sape tote le responsas, non se poneva bastante demandas.
 Qui sape?
 Qui scribeva le littera?
 Qui se occupara de vostre catto alora?
@@ -7415,6 +7432,7 @@ Scribe lo, per favor
 Scribe me.
 Scribe tu nomine hic.
 Scriber phrases que sera legite per centenas de personas me face sentir assi potente!
+Se resume in isto: “Ama tu proximo como te ipse”.
 Secundo me, ille ha ration.
 Secundo mi cognoscentia, ille es culpabile.
 Secundo mi horologio, il es quatro horas.
@@ -8338,6 +8356,7 @@ Vade nos lontano?
 Vade retro Satana!
 Vamos dansar, si?
 Vamos sortir e cenar insimul un die.
+Vamos viver decentemente como il es convenibile al jorno!
 Van gloria es como un spica enorme sin grano.
 Velocitate incrementa le risco de accidentes de auto.
 Venetia, le citate in Italia, es un del miraculos del mundo.
