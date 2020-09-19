@@ -53,16 +53,23 @@ lij = Ligure
 mhr = Mari da e pratuline
 mrj = Mari da e culline
 mt = Maltese
+my = Birmanu
+ne-NP = Nepalese
 nl = Nederlandese
 oc = Occitanu
 pt = Portughese
+ru = Russiu
 sc = Sardu
 scn = Sicilianu
 sk = Slovaccu
 sl = Slovenu
+sr = Serbu
 sv-SE = Svedese
+te = Telugu
 th = Tailandese
 tr = Turcu
+tt = Tataru
+ur = Urdu
 
 # [/]
 
@@ -140,6 +147,7 @@ about-listen-queue-text = L'arrighjistramenti vucali sò mandati in una fila d'a
 
 ## Data
 
+review-cancel = Annuddà l'inviu
 
 ## Datasets Page
 
