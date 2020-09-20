@@ -574,9 +574,16 @@ dataset-version = Versión
 ## Download Modal
 
 download-title = A descarga xa comezou.
+download-helpus = Axúdenos a crear unha comunidade arredor da tecnoloxía de voz, manteña o contacto a través do correo.
+download-form-email =
+    .label = Escriba o seu enderezo de correo
+    .value = Grazas, quedamos en contacto.
+download-back = Volver aos conxuntos de datos de Common Voice
+download-no = Non, grazas
 
 ## Contact Modal
 
+contact-title = Formulario de contacto
 contact-form-name =
     .label = Nome
 contact-form-message =
@@ -585,13 +592,17 @@ contact-required = *requirido
 
 ## Request Language Modal
 
+request-language-title = Solicitude de idioma
 request-language-form-language =
     .label = Idioma
+request-language-success-title = A solicitude de idioma foi correctamente enviada, grazas.
+request-language-success-content = Poñerémonos en contacto con máis información verbo de como engadir o seu idioma a Common Voice moi axiña.
 select-language = Seleccione un idioma...
 other-language = Outro idioma
 
 ## Languages Overview
 
+language-section-in-progress = En curso
 languages-show-more = Ver máis
 languages-show-less = Ver menos
 
