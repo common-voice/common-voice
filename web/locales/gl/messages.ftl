@@ -665,9 +665,40 @@ record-abort-submit = Enviar clips
 record-abort-continue = Rematar a gravación
 record-abort-delete = Saír e eliminar clips
 listen-instruction = { $actionType }<playIcon></playIcon>pronuncian con precisión a frase?
+listen-again-instruction = Bo traballo!<playIcon></playIcon> Volva escoitar cando estea listo
+listen-3rd-time-instruction = 2 menos, sigamos!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Derradeira!
+listen-empty-state = Esgotamos os clips para aprobar neste idioma...
+speak-empty-state = Esgotamos as frases para gravar neste idioma
+speak-empty-state-cta = Propor novas frases
+record-button-label = Grave a súa voz
+share-title-new = <bold>Axúdenos</bold> a atopar máis voces
+keep-track-profile = Faga o seguimento do seu avance cun perfil
+login-to-get-started = Inicie sesión ou rexístrese para comezar
+target-segment-first-card = Esta a colaborar no noso primeiro segmento obxectivo
+target-segment-first-banner = Axude a crear o primeiro segmento obxectivo de Common Voice en { $locale }
+target-segment-add-voice = Engada a súa voz
+target-segment-learn-more = Saber máis
 
 ## Reporting
 
+report = Informar
+report-title = Enviar un informe
+report-ask = Que problemas está experimentando con esta frase?
+report-offensive-language = Linguaxe ofensiva
+report-offensive-language-detail = A frase ten unha linguaxe irrespectuosa ou ofensiva
+report-grammar-or-spelling = Erro gramatical/ortográfico
+report-grammar-or-spelling-detail = A frase ten un erro gramatical ou ortográfico.
+report-different-language = Idioma diferente
+report-different-language-detail = Está escrito nun idioma diferente do que estou falando.
+report-difficult-pronounce = Difícil de pronunciar
+report-difficult-pronounce-detail = Contén palabras ou frases que son difíciles de ler ou pronunciar.
+report-offensive-speech = Discurso ofensivo
+report-offensive-speech-detail = O clip ten unha linguaxe irrespectuosa ou ofensiva.
+report-other-comment =
+    .placeholder = Comentar
+success = Correcto
+continue = Continuar
 
 ## Goals
 
