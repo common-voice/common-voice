@@ -653,6 +653,8 @@ record-three-more-instruction = Á de tres!
 record-again-instruction = Excelente! <recordIcon></recordIcon> Gravar o seguinte fragmento
 record-again-instruction2 = Así vai ben, gravar outra vez <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> A última!
+review-tooltip = Revisar e regravar fragmentos sobre a marcha
+share-clip = Comparta o seu clip
 
 ## Reporting
 
