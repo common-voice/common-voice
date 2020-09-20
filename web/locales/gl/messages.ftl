@@ -535,6 +535,7 @@ cv-license = Licenza
 audio-format = Formato de son
 number-of-voices = Número de voces
 splits = Intervalos
+email-to-download = Escriba o enderezo de correo para descargar
 more = Máis
 close = Pechar
 download = Descargar
