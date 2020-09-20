@@ -610,9 +610,35 @@ languages-show-more = Ver máis
 languages-show-less = Ver menos
 language-meter-in-progress = Progreso
 language-total-progress = Total
+language-search-input =
+    .placeholder = Buscar
+language-speakers = Falantes
+localized = Localizado
+sentences = Frases
+total-hours = Horas aprobadas
 
 ## Contribution
 
+action-click = Prema
+action-tap = Toque
+contribute = Colabore
+listen = Escoite
+skip = Salte
+shortcuts = Atallos
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Clip
+       *[other] <bold>{ $count }</bold> Clips
+    }
+goal-help-recording = Axudou a que Common Voice acadase o <goalPercentage></goalPercentage> respecto do noso obxectivo do { $goalValue } de gravación diaria!
+goal-help-validation = Axudou a que Common Voice acadase o <goalPercentage></goalPercentage> respecto do noso obxectivo do { $goalValue } de aprobación diaria!
+contribute-more =
+    { $count ->
+        [one] Quere facer { $count } máis?
+       *[other] Quere facer { $count } máis?
+    }
+record-cta = Arrancar a gravación
+record-platform-not-supported = Desculpe pero a súa plataforma non é compatíbel actualmente.
 
 ## Reporting
 
