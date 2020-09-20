@@ -536,6 +536,24 @@ audio-format = Formato de son
 number-of-voices = Número de voces
 splits = Intervalos
 email-to-download = Escriba o enderezo de correo para descargar
+why-email = <b>Por que un correo?</b> Podemos necesitar contactar con vostede no futuro sobre os cambios no conxunto de datos, un enderezo de correo electrónico fornécenos dese punto de contacto.
+confirm-size = Xa está preparado para iniciar unha descarga de <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Acepta</b> non tentar determinar a identidade dos falantes do conxunto de datos Common Voice
+download-language = Descargar { $language }
+validated-hours = Horas validadas
+recorded-hours = Horas gravadas
+whats-inside = Que hai dentro do conxunto de datos Common Voice?
+dataset-description-hours =
+    Cada entrada no conxunto de datos consiste dun único MP3 e o correspondente ficheiro de texto. Moitas das <b>{ $total }</b> horas gravadas no conxunto de datos tamén inclúen metadatos demográficos como idade, xénero e acento que poden axudar a adestrar a precisión dos motores de recoñecemento de voz.
+    
+    O conxunto de datos consiste neste inte en <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas pero estamos a engadir de xeito continuo máis voces e idiomas. Bótelle un ollo á nosa <languagesLink>páxina de idiomas</languagesLink> para solicitar un idioma ou comezar a colaborar.
+want-dataset-update = Quere recibir actualizacións de cando publicamos unha nova versión do conxunto de datos Common Voice? Subscríbase ao noso boletín.
+subscribe = Subscribir
+get-started-speech = Primeiros pasos co recoñecemento de voz
+other-datasets = Outros conxuntos de datos de voz
+feedback-q = Quere comentar?
 more = Máis
 close = Pechar
 download = Descargar
