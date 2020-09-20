@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Si, envíeme correos. Gustaríame estar informado sobre o proxecto Common Voice.
-stayintouch = En Mozilla estamos a construír unha comunidade arredor da tecnoloxía de voz. Gustaríanos estar en contacto para as actualizacións, novas fontes de datos e escoitarte sobre como está a usar estes datos.
+stayintouch = En Mozilla estamos a construír unha comunidade arredor da tecnoloxía de voz. Gustaríanos estar en contacto para as actualizacións, novas fontes de datos e escoitalo sobre como está a usar estes datos.
 privacy-info = Prometemos xestionar a súa información con tino. Obteña máis información na nosa <privacyLink>Política de privacidade</privacyLink>.
 return-to-cv = Volver a Common Voice
 email-input =
@@ -806,12 +806,37 @@ help-share-goal = Axúdenos a atopar máis voces, comparte o teu obxectivo
 confirm-goal = Confirme o obxectivo
 goal-interval-weekly = Semanalmente
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Comparta o seu { $count } obxectivo diario de clips de { $type }
+share-n-daily-contribution-goal = Comparta o seu obxectivo diario de { $count } clips de { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Comparta o seu obxectivo semanal de { $count } clips de { $type }
+share-goal-type-speak = Falando
+share-goal-type-listen = Escoitando
+share-goal-type-both = Falando e escoitando
+# LINK will be replaced with the current URL
+goal-share-text = Acabo de crear un obxectivo persoal de doazón de voz a #CommonVoice -- únase e axúdeme a ensinarlles ás máquinas como falan as persoas reais { $link }
+weekly-goal-created = Creouse o seu obxectivo semanal
+daily-goal-created = Creouse o seu obxectivo diario
+track-progress = Siga o seu avance aquí e na súa páxina de estatísticas.
+return-to-edit-goal = Volva aquí para editar o teu obxectivo en calquera momento.
+share-goal = Compartir o seu obxectivo
 
 ## Profile Delete
 
+delete-q = Quere solicitar que as súas gravación se eliminen tamén ou prefire conservalas no conxunto de datos Common Voice?
+keep = Conservar
+remove = Retirar
+keep-info = As súas gravacións anónimas permanecerán no conxunto de datos Common Voice. Tras eliminar o seu perfil, xa non poderá enviar ningunha solicitude para retirar as gravacións do conxunto de datos.
+remove-info = Revisaremos a solicitude de retirada das súas gravacións de voz do conxunto de datos. Se a solicitude for aprobada, contactaremos con aqueles que descargasen o conxunto de datos e pedirémoslles que eliminen tamén as súas gravacións de voz.
+why-delete-recordings =
+    As gravacións de Common Voice son utilizadas por académicos, pequenas empresas e afeccionados ao recoñecemento de voz para axudalos a adestrar e aumentar os recursos publicamente dispoñíbeis como modelos de voz.
+    
+    Poderiamos saber porque quere eliminar as súas gravacións?
+profile-form-delete = Eliminar o perfil
 
 ## Landing
 
+welcome-staff = Benvida ao persoal de { $company }
+help-contribute = Pode axudar a construír un conxunto de datos diverso e de código aberto creando un perfil de Common Voice e doando a súa voz.
+login-company = Iniciar sesión / Rexistrarse co correo electrónico de { $company }
+profile-not-required = Non é necesario ter un perfil para colaborar, malia que tamén axuda, e vexa por que a seguir.
+read-more-about = Máis información na páxina "Sobre Common Voice"
