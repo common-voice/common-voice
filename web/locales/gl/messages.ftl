@@ -5,7 +5,7 @@ stayintouch = En Mozilla estamos a construír unha comunidade arredor da tecnolo
 privacy-info = Prometemos manexar a súa información con tino. Obteña máis información na nosa <privacyLink>Política de privacidade</privacyLink>.
 return-to-cv = Volver a Common Voice
 email-input =
-    .label = Correo
+    .label = Correo Electrónico
 submit-form-action = Enviar
 loading = Cargando...
 email-opt-in-info = Gustaríame recibir correos para lembrar os obxectivos, actualizacións sobre o meu progreso e novas sobre Common Voice.
@@ -124,7 +124,7 @@ sq = Albano
 sr = Serbio
 sv-SE = Sueco
 sw = Suahili
-syr = Sirio
+syr = Siríaco
 ta = Tamil
 te = Telugu
 tg = Taxico
@@ -153,7 +153,7 @@ speak = Fale
 speak-now = Fale agora
 datasets = Conxunto de datos
 languages = Idiomas
-about = Verbo de
+about = Sobre
 profile = Perfil
 help = Axuda
 contact = Contacto
@@ -183,7 +183,7 @@ help-us-explain = Prema en reproducir, escoite e díganos: expresouse con precis
 no-clips-to-validate = Parece que non hai fragmentos para escoitar neste idioma. Axúdenos a encher a cola gravando algo agora.
 vote-yes = Si
 vote-no = Non
-toggle-play-tooltip = Prema{ shortcut-play-toggle } para cambiar ao modo de reprodución
+toggle-play-tooltip = Prema{ shortcut-play-toggle } para trocar ao modo de reprodución
 speak-subtitle = Doe a súa voz
 speak-paragraph = Gravar fragmentos de voz é unha parte integral de construír este conxunto de datos aberto; algúns dirían que tamén é a parte divertida.
 speak-goal-text = Fragmentos gravados
@@ -194,7 +194,7 @@ hours-recorded = Horas gravadas
 hours-validated = Horas validadas
 voices-online = Voces en liña agora
 todays-progress = Progreso de hoxe
-help-reach-goal = Axúdenos a acadar { $goal }
+help-reach-goal = Axúdenos a atinxir { $goal }
 read-terms-q = Leu os termos e condicións?
 ready-to-record = Preparado para doar a súa voz?
 all-locales = Todo
@@ -215,14 +215,14 @@ x-years-short =
        *[other] { $count }anos
     }
 help-make-dataset = Axúdenos a construír un conxunto de datos públicos abertos de alta calidade
-sign-up-account = Rexistre unha conta
+sign-up-account = Rexístrese para obter unha conta
 email-subscription-title = Rexístrese para recibir actualizacións por correo
 email-subscription-title-new = Subscríbase aos boletíns de información, aos recordatorios de obxectivos e actualizacións de progreso de Common Voice
 
 ## Account Benefits
 
 benefits = Beneficios
-rich-data = Faga que os datos enviados sexan o máis ricos que sexa posíbel fornecendo algúns datos demográficos anónimos. Anonimizaremos todos os datos demográficos antes de facelos públicos.
+rich-data = Faga que os datos enviados sexan o máis ricos posíbel fornecendo algunha información demográfica anónima. Deixaremos anonimizados os datos demográficos antes de facelos públicos.
 improve-audio = O perfil informativo mellora os datos de son utilizados para adestrar a precisión do recoñecemento oral.
 keep-track = Faga un seguimento do seu progreso e das métricas entre varios idiomas.
 compare-progress = Vexa como o seu progreso comparado con outros colaboradores de todo o mundo.
@@ -264,12 +264,12 @@ shortcut-record-toggle = g
 shortcut-record-toggle-label = Gravar/Parar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regravar fragmento
-request-language-text = Aínda non está o seu idioma en Common Voice?
+request-language-text = Non ve a súa lingua en Common Voice?
 request-language-button = Solicitar un idioma
 
 ## ProjectStatus
 
-status-title = Estado xeral do proxecto: mire ata onde chegamos!
+status-title = Estado xeral do proxecto: olle ata onde chegamos!
 status-contribute = Contribúa coa súa voz
 status-hours =
     { $hours ->
@@ -353,12 +353,12 @@ browse-file-title = Cargar un ficheiro de imaxe
 browse-file = Arrastrar e soltar ou <browseWrap>Navegar</browseWrap>
 connect-gravatar = Conectar con Gravatar
 gravatar_not_found = Non se atopou un gravatar para o seu correo
-file_too_large = O ficheiro seleccionado é demasiado longo
+file_too_large = O ficheiro seleccionado é longo de máis
 manage-subscriptions = Xestionar subscricións
 manage-email-subscriptions = Xestionar as subscricións por correo
 email-already-used = Este enderezo de correo xa está en uso por unha conta diferente
 add-language = Engadir idioma
-change-email-setings = Cambiar o seu enderezo de correo en Configuración estando coa identidade de Inicio de sesión.
+change-email-setings = Trocar o seu enderezo de correo en Configuración estando coa identidade de Inicio de sesión.
 
 ## FAQ
 
