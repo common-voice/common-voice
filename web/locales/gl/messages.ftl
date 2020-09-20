@@ -640,6 +640,19 @@ contribute-more =
 record-cta = Arrancar a gravación
 record-platform-not-supported = Desculpe pero a súa plataforma non é compatíbel actualmente.
 record-platform-not-supported-desktop = En computadores de escritorio, pode colaborar descargando...
+record-platform-not-supported-ios-non-safari = En iOS, continúe con Safari para habilitar a gravación ...
+record-must-allow-microphone = Debe permitirlle o acceso ao micrófono.
+record-no-mic-found = Non se atopou micrófono.
+record-error-too-short = A gravación resultou demasiado curta.
+record-error-too-long = A gravación resultou demasiado longa.
+record-error-too-quiet = A gravación resultou demasiado silenciosa.
+record-cancel = Anular a regravación
+record-instruction = { $actionType }<recordIcon></recordIcon> e logo lea a frase en voz alta
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ao acabar
+record-three-more-instruction = Á de tres!
+record-again-instruction = Excelente! <recordIcon></recordIcon> Gravar o seguinte fragmento
+record-again-instruction2 = Así vai ben, gravar outra vez <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> A última!
 
 ## Reporting
 
