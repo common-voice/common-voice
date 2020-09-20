@@ -699,12 +699,50 @@ report-other-comment =
     .placeholder = Comentar
 success = Correcto
 continue = Continuar
+report-success = O informe foi aceptado
 
 ## Goals
 
+streaks = Intres
+days =
+    { $count ->
+        [one] Día
+       *[other] Días
+    }
+recordings =
+    { $count ->
+        [one] Gravación
+       *[other] Gravacións
+    }
+validations =
+    { $count ->
+        [one] Aprobación
+       *[other] Aprobacións
+    }
 
 ## Dashboard
 
+your-languages = Os seus idiomas
+toward-next-goal = Cara ao seguinte obxectivo
+goal-reached = Obxectivo acadado
+clips-you-recorded = Clips que gravou
+clips-you-validated = Clips que aprobou
+todays-recorded-progress = Avance de hoxe en clips gravados para Common Voice
+todays-validated-progress = Avance de hoxe en clips aprobados para Common Voice
+stats = Estatísticas
+awards = Premios
+you = Vostede
+everyone = Todos
+contribution-activity = Actividade colaboradora
+top-contributors = Os máis colaboradores
+recorded-clips = Clips gravados
+validated-clips = Clips aprobados
+total-approved = Total de aprobados
+overall-accuracy = Precisión global
+set-visibility = Definir a súa visibilidade
+visibility-explainer = Esta configuración controla a súa visibilidade no panel de líderes. De estar oculta, o seu avance gardarase en privado. Isto significa que a súa imaxe, nome de usuario e avance non van aparecer no panel de líderes. Saiba que o panel demora ~{ $minutes }min en actualizarse.
+visibility-overlay-note = Nota: Cando se define como 'Visíbel', esta configuración pode modificarse na <profileLink>páxina de perfil</profileLink>
+show-ranking = Amosar a súa clasificación
 
 ## Custom Goals
 
