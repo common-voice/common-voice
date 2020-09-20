@@ -655,6 +655,16 @@ record-again-instruction2 = Así vai ben, gravar outra vez <recordIcon></recordI
 record-last-instruction = <recordIcon></recordIcon> A última!
 review-tooltip = Revisar e regravar fragmentos sobre a marcha
 share-clip = Comparta o seu clip
+share-common-voice = Compartir Common Voice
+review-instruction = Revisar e regravar fragmentos se fai falta
+record-submit-tooltip = { $actionType } enviar cando estea listo
+clips-uploaded = Clips cargados
+record-abort-title = Rematar a gravación primeiro?
+record-abort-text = Abandonar agora significa que perderá o seu avance
+record-abort-submit = Enviar clips
+record-abort-continue = Rematar a gravación
+record-abort-delete = Saír e eliminar clips
+listen-instruction = { $actionType }<playIcon></playIcon>pronuncian con precisión a frase?
 
 ## Reporting
 
