@@ -746,6 +746,69 @@ show-ranking = Amosar a súa clasificación
 
 ## Custom Goals
 
+get-started-goals = Primeiros pasos cos obxectivos
+create-custom-goal = Crear un obxectivo personalizado
+goal-type = Que tipo de obxectivos quere fixar?
+both-speak-and-listen = Ambos
+both-speak-and-listen-long = Ambos (falar e escoitar)
+daily-goal = Obxectivo diario
+weekly-goal = Obxectivo semanal
+easy-difficulty = Doado
+average-difficulty = Medio
+difficult-difficulty = Difícil
+pro-difficulty = Profesional
+lose-goal-progress-warning = Ao editar o seu obxectivo, pode perder o seu avance actual.
+want-to-continue = Quere continuar?
+finish-editing = Rematar primeiro a edición?
+lose-changes-warning = Saír agora significa que perderá os teus cambios
+build-custom-goal = Fixar un obxectivo personalizado
+help-reach-hours-pluralized =
+    Axuda para chegar a{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    }en { $language } cun obxectivo persoal
+help-reach-hours-general-pluralized =
+    Axuda a Common Voice para acadar{ NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } horas
+    }nun idioma cun obxectivo persoal
+set-a-goal = Estabelecer un obxectivo
+cant-decide = Non se decide?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } hora
+       *[other] { $totalHours } horas
+    }Pódese conseguir en algo máis de { NUMBER($periodMonths) ->
+        [one] { $periodMonths } mes
+       *[other] { $periodMonths } meses
+    }se{ NUMBER($people) ->
+        [one] { $people } a persoa
+       *[other] { $people } a xente
+    }rexistra{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } o clip
+       *[other] { $clipsPerDay } os clips
+    }ao día
+how-many-per-day = Xenial! Cantos clips por día?
+how-many-a-week = Xenial! Cantos clips por semana?
+which-goal-type = Quere falar, escoitar ou ambos?
+receiving-emails-info =
+    Actualmente está a recibir correos electrónicos de recordatorios de obxectivos, actualizacións
+    do seu avance e boletíns de novas sobre Common Voice
+not-receiving-emails-info =
+    Actualmente, ten definido que <bold>NON</bold> recibirá correos electrónicos recordatorios de obxectivos, as  
+    actualizacións de avance nin os boletíns sobre Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } clip
+       *[other] { $count } clips
+    }
+help-share-goal = Axúdenos a atopar máis voces, comparte o teu obxectivo
+confirm-goal = Confirme o obxectivo
+goal-interval-weekly = Semanalmente
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Comparta o seu { $count } obxectivo diario de clips de { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Comparta o seu obxectivo semanal de { $count } clips de { $type }
 
 ## Profile Delete
 
