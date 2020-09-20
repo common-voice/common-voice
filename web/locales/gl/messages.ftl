@@ -2,7 +2,7 @@
 
 yes-receive-emails = Si, envíeme correos. Gustaríame estar informado sobre o proxecto Common Voice.
 stayintouch = En Mozilla estamos a construír unha comunidade arredor da tecnoloxía de voz. Gustaríanos estar en contacto para as actualizacións, novas fontes de datos e escoitalo sobre como está a usar estes datos.
-privacy-info = Prometemos xestionar a súa información con tino. Obteña máis información na nosa <privacyLink>Política de privacidade</privacyLink>.
+privacy-info = Prometemos manexar a súa información con tino. Obteña máis información na nosa <privacyLink>Política de privacidade</privacyLink>.
 return-to-cv = Volver a Common Voice
 email-input =
     .label = Correo
@@ -13,7 +13,7 @@ email-opt-in-info-title = Unirse a lista de correo de Common Voice
 email-opt-in-info-sub-with-challenge = Recibir correos electrónicos como recordatorios de retos e obxectivo», actualizacións do progreso e boletíns informativos sobre Common Voice.
 email-opt-in-privacy-v2 = Ao optar por recibir correos, declara que está conforme  con que Mozilla xestione esta información consonte está explicado na <privacyLink>Política de privacidade</privacyLink> de Mozilla.
 indicates-required = * Indica un campo requirido
-not-available-abbreviation = N/A
+not-available-abbreviation = N/D
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -100,12 +100,12 @@ mrj = Mari das Montañas
 mt = Maltés
 my = Birmano
 myv = Erzya
-nb-NO = Bokmal noruego
+nb-NO = Noruegués Bokmål
 ne-NP = Nepalí
 nl = Neerlandés
-nn-NO = Nynorsk noruego
+nn-NO = Noruegués Nynorsk
 oc = Occitano
-or = Oriya
+or = Oriá
 pa-IN = Punjabi
 pl = Polaco
 pt = Portugués
