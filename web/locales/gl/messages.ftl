@@ -639,6 +639,7 @@ contribute-more =
     }
 record-cta = Arrancar a gravación
 record-platform-not-supported = Desculpe pero a súa plataforma non é compatíbel actualmente.
+record-platform-not-supported-desktop = En computadores de escritorio, pode colaborar descargando...
 
 ## Reporting
 
