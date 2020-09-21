@@ -13,6 +13,7 @@ email-opt-in-info =
     majarida kuhusu huduma za Common Voice.
 email-opt-in-info-title = Jiunge na orodha ya barua pepe ya Common Voice
 email-opt-in-info-sub-with-challenge = Pokea barua pepe kama vile ukumbusho wa changamoto na malengo, visasisho vya maendeleo, na jarida kuhusu Common Voice.
+email-opt-in-privacy-v2 = Kwa kuchagua kupokea ujumbe kwa njia ya barua pepe unakubaliana na  Mozilla kutunza ujumbe huu kama ilivyoelekezwa katika <privacyLink>Sera ya faragha ya Mozilla</privacyLink>
 indicates-required = * Inaashiria sehemu inayohitajika
 not-available-abbreviation = haihitajiki
 
