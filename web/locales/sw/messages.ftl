@@ -281,6 +281,7 @@ login-signup = Ingia/Jisajili
 edit = Hariri
 email-subscriptions = Usajili wa baruapepe
 download-profile = pakua data yangu
+contribution-experience = Tajiriba wa Mchango
 skip-submission-feedback = Ruka marejesho ya uwasilishaji
 off = zima
 on = washa
