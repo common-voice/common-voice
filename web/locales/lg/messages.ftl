@@ -11,7 +11,7 @@ loading = Bijja…
 email-opt-in-info = Nandiyagadde okufuna obubaka ng'obujjukiza, bye ntuseeko ate n'ebikwata ku Common Voice.
 email-opt-in-info-title = Weeyunge kw'abo be tusindikira email ku bifa ku Common Voice
 email-opt-in-info-sub-with-challenge = Ffuna email ng'ezikwata ku bisoomooza n'ebiruubirirwa, wetutuuse, n'ebikwata ku Common Voice.
-email-opt-in-privacy-v2 = Bw'okkiriza okufuna email kitegeeza nti tolina buzibu na Mozilla kubeera na information eno nga bwe bannyonnyola. <privacyLink>Privacy Policy</privacyLink>.
+email-opt-in-privacy-v2 = Bw'okkiriza okufuna email kitegeeza nti tolina buzibu na Mozilla kubeera na information eno nga bwe bannyonnyola. <privacyLink>Engeri gye Tukuumamu Ebikukwatako</privacyLink>.
 indicates-required = Kano * kalaga kyetaagisa
 not-available-abbreviation = N/A
 
@@ -158,7 +158,7 @@ profile = Pulofayiro
 help = Yamba
 contact = Ennamba
 privacy = Eby'ekyama
-terms = Enkolagana
+terms = Obukwakkulizo
 cookies = Cookies
 faq = FAQ
 content-license-text = Bino webili mu <licenseLink>nkozesa ya Creative Commons</licenseLink>
