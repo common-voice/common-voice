@@ -143,6 +143,7 @@ speak-subtitle = Toa sauti yako
 speak-paragraph = Kurekodi vipande vya sauti ni sehemu muhimu ya kujenga daftari letu lililo wazi kwa umma; wengine wangesema ni mchakato wa kufurahisha pia.
 speak-goal-text = Vipande vilivyo rekodiwa
 listen-subtitle = Tusaidie kuthibitisha sauti
+listen-paragraph = Kuhalalisha vipande vya sauti vilivyochangiwa ni muhimu kwa dhamira ya Common Voice. Sikiliza na utusaidie kuunda data ya sauti ya chanzo wazi bora.
 listen-goal-text = vipande vilivyo halalishwa
 hours-recorded = masaa yaliyorekodiwa
 hours-validated = masaa yaliyo halalishwa
