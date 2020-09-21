@@ -248,6 +248,8 @@ profile-form-age =
     .label = Umri
 profile-form-gender =
     .label = Jinsia
+leaderboard-visibility =
+    .label = Mwonekano wa Ubao wa wanaoongoza
 hidden = Imefichwa
 visible = inayoonekana
 native-language =
@@ -259,6 +261,7 @@ female = mwanamke
 # Gender
 other = mengineyo
 why-profile-title = Kwa niniu kupeana wasifu?
+why-profile-text = Kwa kutoa baadhi ya taarifa zako, data ya sauti unayowasilisha kwa Common Voice itakua ya umuhimu zaidi kwa injini ya utambulizi wa sauti ambayo hutumia data hii kuboresha usahihi wao.
 dashboard = Dashibodi
 build-profile = Kuza wasifu
 avatar = Taswira ya mtumiaji
