@@ -764,15 +764,15 @@ finish-editing = Terminer d’abord les modifications ?
 lose-changes-warning = Si vous quittez maintenant, vous perdrez vos modifications
 build-custom-goal = Définissez un objectif personnalisé
 help-reach-hours-pluralized =
-    Aidez à atteindre{ NUMBER($hours) ->
+    Aidez à atteindre { NUMBER($hours) ->
         [one] { $hours } heure
        *[other] { $hours } heures
-    }en { $language } avec un objectif personnel
+    } en { $language } avec un objectif personnel
 help-reach-hours-general-pluralized =
-    Aidez Common Voice à atteindre{ NUMBER($hours) ->
+    Aidez Common Voice à atteindre { NUMBER($hours) ->
         [one] { $hours } heure
        *[other] { $hours } heures
-    }dans une langue avec un objectif personnel
+    } dans une langue avec un objectif personnel
 set-a-goal = Fixer un objectif
 cant-decide = Vous ne pouvez pas décider ?
 activity-needed-calculation-plural =
