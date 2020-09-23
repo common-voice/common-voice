@@ -248,7 +248,7 @@ export const AGES = {
   nineties: '> 89',
 };
 
-export const GENDERS = {
+export const SEXES = {
   '': '',
   male: 'Male',
   female: 'Female',
