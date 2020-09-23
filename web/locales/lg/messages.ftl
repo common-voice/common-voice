@@ -182,14 +182,14 @@ wall-of-text-first =
     Eddoboozi lya butonde, eddoboozi muntu. Ky'ova olaba twenyumiriza nnyo okukola tekinologiya akozesebwa
     ow'eddoboozi ku masiini zaffe. Naye okukola sisitiimu zino, abazizimba beetaaga data mungi nnyo
     ow'amaloboozi.
-wall-of-text-second = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tulonkinze pulojekiti ya Common Voice, egenda okuyamba okufuula enkola y'okutegeera kw'eddoboozi okubeera ng'efunika era nga yaabuli omu.
+wall-of-text-second = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tulonkinze pulojekiti ya Common Voice, egenda okuyamba okufuula enkola y'okutegeera kw'eddoboozi okubeera ng'efunika era nga ya buli omu.
 show-wall-of-text = Soma Ebisingawo
-help-us-title = Tuyambe okusunsula sentensi!
+help-us-title = Tuyambe okukakasa sentensi!
 help-us-explain = Nnyiga play, Wuliriza era otubuulire: Sentensi zino wamanga baazogedde bulungi?
-no-clips-to-validate = Kirabika nga tewali bu clip bwakuwuliriza mu lulimi luno. Tuyambe tuterekeyo nga olikodingayo obumu kati.
+no-clips-to-validate = Kirabika tewali clip zaakuwuliriza mu lulimi luno. Tuyambe okujjuzaawo ng'olikoodingayo ezimu kati.
 vote-yes = Ye
 vote-no = Nedda
-toggle-play-tooltip = Nyiga { shortcut-play-toggle } okukyusa enzanya
+toggle-play-tooltip = Nyiga { shortcut-play-toggle } okukyusa enzannya
 speak-subtitle = Tuwe eddoboozi lyo
 speak-paragraph = Okulikoodinga bu clip bw'amaloboozi nsonga nkulu mu kuzimba dataset yaffe eya buli omu; Abamu bandigamba ky'ekitundu ekirimu okunyumirwa.
 speak-goal-text = Oboloboozi obulikodinge
