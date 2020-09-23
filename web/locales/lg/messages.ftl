@@ -173,8 +173,8 @@ logout = Fuluma
 home-title = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye boogera.
 home-cta = Yogera, waayo wano!
 wall-of-text-start =
-    Voice eli natural, voice muntu. Ky'ova olaba twenyumigizamu nnyo okukola tekinologiya akozesebwa
-    ow'eddoboozi ku masiini zaffe. Naye okukola sisitimu zzino, twetaga data mungi
+    Eddoboozi lya butonde, eddoboozi muntu. Ky'ova olaba twenyumirizaamu nnyo okukola tekinologiya akozesebwa
+    ow'eddoboozi ku masiini zaffe. Naye okukola sisitiimu z'amaloboozi zino, twetaaga data mungi nnyo
     ow'amaloboozi.
 wall-of-text-more-mobile = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tu loncinze pulojekiti ya Common Voice, egenda okuyamba omuntu yenna okumanyisa n'okukozesa amaloboozi.
 wall-of-text-more-desktop = Kakati osobola okudonetinga eddoboozi lyo okutuyamba okuzimba database ey'amaloboozi eyabuli omu, omuntu yena gy'asobola okukozesa okukola appu n'omutimbagano. Soma sentensi okuyamba masini okuyiga engeri abantu gye bogera. Kebera ku waka w'abayambye abalala okusobola okulongoosa quality. Kyangu bwe kityo.
