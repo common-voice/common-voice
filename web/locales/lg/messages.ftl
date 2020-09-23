@@ -156,7 +156,7 @@ languages = Ennimi
 about = Manya
 profile = Pulofayiro
 help = Yamba
-contact = Ennamba
+contact = Tubuulire
 privacy = Eby'ekyama
 terms = Obukwakkulizo
 cookies = Cookies
@@ -170,8 +170,8 @@ logout = Fuluma
 
 ## Home Page
 
-home-title = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye bogera.
-home-cta = Yogera, wayo kko wano!
+home-title = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye boogera.
+home-cta = Yogera, waayo wano!
 wall-of-text-start =
     Voice eli natural, voice muntu. Ky'ova olaba twenyumigizamu nnyo okukola tekinologiya akozesebwa
     ow'eddoboozi ku masiini zaffe. Naye okukola sisitimu zzino, twetaga data mungi
