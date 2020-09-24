@@ -290,6 +290,7 @@ on = washa
 avatar-clip-title = Ipe sauti taswira yako ya mtumiaji
 change-your-avatar-clip = unataka kubadilisha kipande cha sauti yako?
 recording-in-progress = Kurekodiwa kwa sauti kunaendelea
+avatar-clip-recorded = Taswira yako sasa inajumuisha kipande cha sauti!
 record-voice-wave = Rekodi mawimbi ya sauti
 retry-voice-wave-recording = jaribu tena
 re-record = Rekodi tena
