@@ -408,6 +408,7 @@ data-other-download = Pakua data
 data-bundle-button = Pakua kifurushi cha daftari
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
+data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja
 terms-agree = nakubali
 terms-disagree = Sikubali
 review-submit-title = Hakiki kisha utume
