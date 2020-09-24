@@ -77,13 +77,16 @@ it = Italų
 izh = Ižorų
 ja = Japonų
 ka = Gruzinų
+kaa = Karakalpakų
 kab = Kabilų
+kbd = Kabardinų
 kk = Kazachų
 ko = Korėjiečių
 kpv = Komių-zyrų
 ku = Kurdų
 kw = Hakų činų
 ky = Kirgizų
+lg = Luganda
 lij = Ligūrų
 lt = Lietuvių
 lv = Latvių
@@ -95,6 +98,7 @@ ml = Malajų
 mn = Mongolų
 mrj = Aukštumų marių
 mt = Maltiečių
+my = Birmiečių
 myv = Erzių
 nb-NO = Norvegų (bukmolas)
 ne-NP = Nepalų
@@ -112,6 +116,7 @@ ru = Rusų
 rw = Kinjaruanda
 sah = Jakutų
 sc = Sardų
+scn = Siciliečių
 si = Sinhalų
 sk = Slovakų
 sl = Slovėnų
@@ -124,6 +129,7 @@ ta = Tamilų
 te = Telugų
 tg = Tadžikų
 th = Tajų
+tl = Tagalogų
 tr = Turkų
 tt = Totorių
 uby = Ubychų
@@ -131,6 +137,7 @@ udm = Udmurtų
 uk = Ukrainiečių
 ur = Urdu
 uz = Uzbekų
+vec = Venecijiečių
 vi = Vietnamiečių
 vot = Vodų
 zh-CN = Kinų (Kinija)
@@ -216,6 +223,7 @@ whats-public = Kas yra vieša?
 email-not-public = Mes neskelbsime Tavo el. pašto.
 recordings-and-locale-public = Įrašų skaičius ir kalbų, prie kurių prisidedi, sąrašas yra vieši.
 username-optin-public = Gali pasirinkti, ar Tavo naudotojo vardas bus matomas kitiems.
+demographic-deidentified-clarity = Pasirinktinai pateikti demografiniai duomenys (pvz., amžius, lytis, kalba ar tarmė) niekada nebus viešinami jūsų profilyje ir nebus susieti su jūsų paskyra duomenų rinkinyje. Individualūs garso įrašai bus susieti su demografiniais duomenimis tikslesnės analizės tikslais - pavyzdžiui, mokslininkas gali norėti pritaikyti mokymo modelį pagal konkretų demografinį segmentą.
 username-email-not-demographic = Tavo naudotojo vardas ir el. paštas nebus susieti su paskelbtais duomenimis.
 
 ## Speak & Listen Shortcuts
@@ -432,6 +440,11 @@ about-partnership =
     
     Norėtume padėkoti šiems asmenims ir organizacijoms už jų pagalbą įgyvendinant projektą:
 about-get-involved = Įsitrauk
+about-get-involved-text-2 =
+    Nori prisidėti tobulinant „Common Voice“?
+    Puiku! Susisiek su mumis el. paštu arba <discourseLink>„Discourse“ serveryje</discourseLink>,
+    pateik atsiliepimą <githubLink>„GitHub“ platformoje</githubLink>,
+    arba prisijunk prie <matrixLink>„Matrix“ diskusijos</matrixLink>.
 about-nav-why-common-voice = Kodėl?
 about-nav-how-it-works = Kaip?
 about-nav-partners = Partneriai
@@ -459,6 +472,11 @@ de-identified-explanation = Procesas, kurio metu talkininko ar talkininkės prof
 
 ## Error pages
 
+error-title-404 = Nepavyko rasti šio tinklalapio
+error-content-404 = Gal pravers mūsų <homepageLink>pradžios tinklalapis</homepageLink>? Jei norite užduoti klausimą, prisijunkite prie <matrixLink>„Matrix“ bendruomenės diskusijos</matrixLink>, stebėkite svetainės problemas <githubLink>„GitHub“ svetainėje</githubLink> arba apsilankykite <discourseLink>mūsų „Discourse“ forumuose</discourseLink>.
+error-title-503 = Šiuo metu patiriame nenumatytus nesklandumus
+error-content-503 = Svetainė vėl veiks, kai tik išspręsime šią problemą. Norėdami gauti naujausios informacijos, prisijunkite prie <matrixLink>„Matrix“ bendruomenės pokalbio</matrixLink>, o pranešti ir stebėti svetainės būseną galite apsilankydami <githubLink>„GitHub“</githubLink> projekte arba <discourseLink> mūsų „Discourse“ forume</discourseLink>.
+error-code = { $code } klaida
 
 ## Data
 
@@ -477,6 +495,7 @@ data-bundle-button = Parsisiųsti duomenų rinkinius
 data-bundle-description = „Common Voice“ ir visi aukščiau nurodyti duomenų rinkiniai.
 license = Licencija: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mišri
+data-download-singleword-title = Atsisiųskite vieno žodžio tikslinį segmentą
 review-terms = Naudodamasis „Common Voice“, sutinki su <termsLink>Sąlygomis</termsLink> ir <privacyLink>Privatumo pranešimu</privatacyLink>
 terms-agree = Sutinku
 terms-disagree = Nesutinku
