@@ -223,7 +223,6 @@ whats-public = Kas yra vieša?
 email-not-public = Mes neskelbsime Tavo el. pašto.
 recordings-and-locale-public = Įrašų skaičius ir kalbų, prie kurių prisidedi, sąrašas yra vieši.
 username-optin-public = Gali pasirinkti, ar Tavo naudotojo vardas bus matomas kitiems.
-demographic-deidentified-clarity = Pasirinktinai pateikti demografiniai duomenys (pvz., amžius, lytis, kalba ar tarmė) niekada nebus viešinami jūsų profilyje ir nebus susieti su jūsų paskyra duomenų rinkinyje. Individualūs garso įrašai bus susieti su demografiniais duomenimis tikslesnės analizės tikslais - pavyzdžiui, mokslininkas gali norėti pritaikyti mokymo modelį pagal konkretų demografinį segmentą.
 username-email-not-demographic = Tavo naudotojo vardas ir el. paštas nebus susieti su paskelbtais duomenimis.
 
 ## Speak & Listen Shortcuts
@@ -473,9 +472,7 @@ de-identified-explanation = Procesas, kurio metu talkininko ar talkininkės prof
 ## Error pages
 
 error-title-404 = Nepavyko rasti šio tinklalapio
-error-content-404 = Gal pravers mūsų <homepageLink>pradžios tinklalapis</homepageLink>? Jei norite užduoti klausimą, prisijunkite prie <matrixLink>„Matrix“ bendruomenės diskusijos</matrixLink>, stebėkite svetainės problemas <githubLink>„GitHub“ svetainėje</githubLink> arba apsilankykite <discourseLink>mūsų „Discourse“ forumuose</discourseLink>.
 error-title-503 = Šiuo metu patiriame nenumatytus nesklandumus
-error-content-503 = Svetainė vėl veiks, kai tik išspręsime šią problemą. Norėdami gauti naujausios informacijos, prisijunkite prie <matrixLink>„Matrix“ bendruomenės pokalbio</matrixLink>, o pranešti ir stebėti svetainės būseną galite apsilankydami <githubLink>„GitHub“</githubLink> projekte arba <discourseLink> mūsų „Discourse“ forume</discourseLink>.
 error-code = { $code } klaida
 
 ## Data
@@ -495,7 +492,7 @@ data-bundle-button = Parsisiųsti duomenų rinkinius
 data-bundle-description = „Common Voice“ ir visi aukščiau nurodyti duomenų rinkiniai.
 license = Licencija: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mišri
-data-download-singleword-title = Atsisiųskite vieno žodžio tikslinį segmentą
+data-download-singleword-callout = Šiame duomenų segmente yra duomenys, skirti sakytinių skaitmenų atpažinimui, žodžių „taip“ ir „ne“ aptikimui ir pažadinančio žodžio atpažinimui naudojant <fxLink>„Firefox Voice“</fxLink>.
 review-terms = Naudodamasis „Common Voice“, sutinki su <termsLink>Sąlygomis</termsLink> ir <privacyLink>Privatumo pranešimu</privatacyLink>
 terms-agree = Sutinku
 terms-disagree = Nesutinku
@@ -628,6 +625,12 @@ contribute = Prisidėti
 listen = Klausyk
 skip = Praleisti
 shortcuts = Spartieji klavišai
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> įrašas
+        [few] <bold>{ $count }</bold> įrašai
+       *[other] <bold>{ $count }</bold> įrašų
+    }
 goal-help-recording = Tu padėjai „Common Voice“ pasiekti <goalPercentage></goalPercentage> mūsų kasdienio { $goalValue } naujų įrašų tikslo!
 goal-help-validation = Tu padėjai „Common Voice“ pasiekti <goalPercentage></goalPercentage> mūsų kasdienio { $goalValue } įrašų perklausų tikslo!
 contribute-more =
@@ -664,10 +667,15 @@ listen-instruction = { $actionType }<playIcon></playIcon>. Ar kalbėtojas teisin
 listen-again-instruction = Šaunu!<playIcon></playIcon> Kai galėsi, klausyk vėl
 listen-3rd-time-instruction = Du įrašai išklausyti, taip ir toliau!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Paskutinis!
+listen-empty-state = Nebeliko šios kalbos įrašų, kuriuos reikėtų patvirtinti…
+speak-empty-state = Nebeliko šios kalbos sakinių, kuriuos reikėtų įrašyti…
+speak-empty-state-cta = Prisidėk sakiniais
 record-button-label = Įrašyk savo balsą
 share-title-new = <bold>Padėk mums</bold> rasti daugiau balsų
 keep-track-profile = Sek savo pažangą profilyje
 login-to-get-started = Jeigu nori įsitraukti, prisijunk arba prisiregistruok
+target-segment-add-voice = Pridėk savo balsą
+target-segment-learn-more = Išsamiau
 
 ## Reporting
 
@@ -716,6 +724,7 @@ validations =
 
 your-languages = Tavo kalbos
 toward-next-goal = Link kito tikslo
+goal-reached = Tikslas pasiektas
 clips-you-recorded = Tavo pateikti garso įrašai
 clips-you-validated = Tavo patvirtinti garso įrašai
 todays-recorded-progress = Šiandienos „Common Voice“ pateiktų įrašų progresas
@@ -739,6 +748,7 @@ show-ranking = Rodyti mano reitingą
 
 get-started-goals = Išsikelti tikslą
 create-custom-goal = Susikurk tikslą
+goal-type = Kokį tikslą nori pasiekti?
 both-speak-and-listen = Ir tai, ir tai
 both-speak-and-listen-long = Ir kalbėti, ir klausyti
 daily-goal = Dienos tikslas
