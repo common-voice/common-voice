@@ -427,7 +427,12 @@ error-code = Javy { $code }
 data-download-yes = Héẽ
 data-download-deny = Nahániri
 data-download-license = Moneĩmby: <licenseLink>CC-0</licenseLink>
+data-other-title = Ambue mba’ekuaarã marandurenda ijayvúva…
 data-other-goto = Eho { $name }-pe
+data-other-download = Emboguejy Mba’ekuaarã
+license-mixed = Jehe’a
+terms-agree = Amoneĩ avei
+terms-disagree = Namoneĩri
 review-recording = Hechajey
 
 ## Datasets Page
@@ -439,6 +444,7 @@ audio-format = Mba’epu Ysaja
 splits = Ñemboja’o
 size-gigabyte = GB
 size-megabyte = MB
+download-language = Emboguejy { $language }
 subscribe = Mboheraguapy
 more = Hetave
 close = Mboty
@@ -486,6 +492,10 @@ target-segment-learn-more = Kuaave
 ## Reporting
 
 report = Momarandu
+report-other-comment =
+    .placeholder = Je’erei
+success = Oĩporãva
+continue = Ku’ejey
 
 ## Goals
 
@@ -514,6 +524,8 @@ everyone = Opavavete
 ## Custom Goals
 
 both-speak-and-listen = Mokõive
+easy-difficulty = Hasy’ỹva
+average-difficulty = Mbytegua
 share-goal-type-speak = Ayvúpe
 share-goal-type-listen = Ohenduhína
 
