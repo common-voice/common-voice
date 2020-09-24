@@ -762,6 +762,18 @@ want-to-continue = Ar nori tęsti?
 finish-editing = Pirma baigti redaguoti?
 lose-changes-warning = Jeigu išeisi dabar, prarasi ką tik įrašytas frazes
 build-custom-goal = Susikurk savo tikslą
+help-reach-hours-pluralized =
+    Padėk pasiekti { NUMBER($hours) ->
+        [one] { $hours } valandą
+        [few] { $hours } valandas
+       *[other] { $hours } valandų
+    } įrašų { $language } kalba – susikurk asmeninį tikslą
+help-reach-hours-general-pluralized =
+    Padėk „Common Voice“ pasiekti { NUMBER($hours) ->
+        [one] { $hours } valandą
+        [few] { $hours } valandas
+       *[other] { $hours } valandų
+    } įrašų norima kalba – susikurk asmeninį tikslą
 set-a-goal = Užsibrėžti tikslą
 cant-decide = Negali apsispręsti?
 how-many-per-day = Puiku! Kiek įrašų per dieną?
