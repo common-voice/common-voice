@@ -776,6 +776,24 @@ help-reach-hours-general-pluralized =
     } įrašų norima kalba – susikurk asmeninį tikslą
 set-a-goal = Užsibrėžti tikslą
 cant-decide = Negali apsispręsti?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } valandą
+        [few] { $totalHours } valandas
+       *[other] { $totalHours } valandų
+    } galima pasiekti vos per { NUMBER($periodMonths) ->
+        [one] { $periodMonths } mėnesį
+        [few] { $periodMonths } menesius
+       *[other] { $periodMonths } menesių
+    }, { NUMBER($people) ->
+        [one] { $people } asmeniui
+        [few] { $people } asmenims
+       *[other] { $people } asmenų
+    } padarant po { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } įrašą
+        [few] { $clipsPerDay } įrašus
+       *[other] { $clipsPerDay } įrašų
+    } per dieną.
 how-many-per-day = Puiku! Kiek įrašų per dieną?
 how-many-a-week = Puiku! Kiek įrašų per savaitę?
 which-goal-type = Nori šnekėti, kalbėti ar užsiimti abiem veiklomis?
