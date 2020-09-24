@@ -335,6 +335,10 @@ faq-why-10k-hours-a = Hii ni takriban idadi ya saa zinazotakiwa kufundisha mfumo
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
 faq-how-calc-hours-a = Tunahesabu saa kwa kukadiria wastani wa urefu kwa kila rekodi, na kisha kuzidisha nambari hiyo kwa jumla ya idadi ya rekodi katika lugha zote.
 faq-where-src-from-2-q = Nakala ya chanzo inatoka wapi?
+faq-where-src-from-2-a =
+    Nakala yetu ya maandishi yanaundwa na michango ya wafadhili asili na mazungumzo kutoka kwa maandishi ya sinema za umma kama <italic>Ni Maisha Mazuri</italic>.
+    
+    Unaweza kuona sentensi zetu katika hii <githubLink> Folda ya GitHub </githubLink>.
 faq-why-not-ask-read-q = Kwa nini usiombe watu wasome vitabu au nakala za Wikipedia katika lugha tofauti?
 faq-why-account-q = Kwa nini nijisajili kupata akaunti?
 faq-is-account-public-q = Je! Habari za akaunti yangu zinawekwa kwa umma?
@@ -356,11 +360,15 @@ about-speak-text = Wachangiaji hurekodi vipande vya sauti kwa kusoma kutoka kwa 
 about-listen-queue = Foleni ya kusikiliza
 about-listen-queue-text = Vipande vya sauti huingizwa kwenye foleni ya uwasilishaji inayovitayarisha kwa kusikilizwa.
 about-listen = sikiliza
+about-listen-text = Watumiaji wanahalalisha usahihi wa vipande vya sauti zilizotolewa, wakiangalia kwamba msemaji alisoma sentensi kwa usahihi.
 about-is-it-valid = Je! Kipande cha sauti ni halali?
 about-is-it-valid-text = Kipande cha sauti kinawekewa alama "halali" wakati mtumiaji anaweka kura ya Ndio.
 about-yes-votes = ≥ 2 Kura za ndio
+about-yes-votes-text = Ili kuifanya iwekwe kwenye daftari la Common Voice, kipande cha sauti lazima kihalalishwe na watumiaji wawili tofauti.
 about-no-votes = ≥ 2 Kura za hapana
+about-no-votes-text = Mtumiaji akikataa kipande cha sauti hurejea kwenye foleni. Ikiwa imekataliwa mara ya pili, hicho kipande cha sauti kinahamishwa kwenye maziara ya vipande vya sauti.
 about-dataset-new = Daftari la Common Voice
+about-clip-graveyard = Maziara ya vipande vya sauti.
 about-partners = Washiriki
 about-become-a-partner = Kuwa mshiriki
 about-get-involved = Jihusishe
@@ -368,9 +376,14 @@ about-nav-why-common-voice = kwanini?
 about-nav-how-it-works = kivipi?
 about-nav-partners = Washiriki
 about-nav-get-involved = Jihusishe
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelijensia bandia
 
 ## Glossary
 
+glossary = Faharasa
+localization = Ujanibishaji
+sentence-collection = Mkusanyiko wa sentensi
 
 ## Error pages
 
