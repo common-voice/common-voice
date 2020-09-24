@@ -384,9 +384,16 @@ mycroft-subtitle = Intelijensia bandia
 glossary = Faharasa
 localization = Ujanibishaji
 sentence-collection = Mkusanyiko wa sentensi
+sentence-collection-explanation = Kukusanya sentensi kutoka kwa uwanja wa umma, au kuandika sentensi mpya kwa uwanja wa umma.
+hours-recorded-explanation = Idadi ya saa za kurekodi sauti ambazo tumekusanya hadi sasa.
+sst = Sauti kwa maandishi (SKM)
+sst-explanation = Teknolojia ya sauti kwa maandishi (SKM) hubadilisha data ya sauti kuwa maandishi.
 
 ## Error pages
 
+error-title-404 = Hatukuweza kukupata ukurasa huo
+error-title-503 = Tunapata hitilafu isiyotarajiwa
+error-code = Kosa { $code }
 
 ## Data
 
@@ -394,6 +401,7 @@ data-download-button = Pakua data ya Common Voice
 data-download-yes = Ndio
 data-download-deny = Hapana
 data-download-license = Leseni: <licenseLink> CC-0 </licenseLink>
+data-download-modal = Unakaribia kuanzisha upakuaji wa <size>{ $size }GB</size> , endelea?
 data-other-goto = Nenda kwa { $name }
 data-other-download = Pakua data
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
