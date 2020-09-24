@@ -399,6 +399,8 @@ about-listen = Ehendu
 about-is-it-valid = ¿Ñeñongatu oikoite?
 about-yes-votes = ≥ 2 vóto oikóva
 about-no-votes = ≥ 2 Voto oiko’ỹva
+about-dataset-new = Common Voice mba’ekuaarã rupa
+about-clip-graveyard = Ñongatuhakuéra mbyatyha
 about-partners = Irũnguéra
 about-become-a-partner = Toiko ndehegui irũ
 about-get-involved = Poropytyvõ
@@ -412,6 +414,9 @@ mycroft-title = Mycroft Ai
 
 glossary = Ñe’ẽrysýi
 localization = Moñe’ẽasa
+sentence-collection = Ñe’ẽsyry ñembyaty
+sst = Moñe’ẽra ijayvúva (STT)
+de-identified = Jekuaa’ỹ
 
 ## Error pages
 
@@ -421,6 +426,8 @@ error-code = Javy { $code }
 
 data-download-yes = Héẽ
 data-download-deny = Nahániri
+data-download-license = Moneĩmby: <licenseLink>CC-0</licenseLink>
+data-other-goto = Eho { $name }-pe
 review-recording = Hechajey
 
 ## Datasets Page
