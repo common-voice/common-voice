@@ -324,6 +324,7 @@ faq-when-release2-q = Ni lini data ya Common Voice itatolewa katika lugha zingin
 faq-why-mission-q = Kwa nini Common Voice ni sehemu ya misheni ya Mozilla?
 faq-what-cv-and-deepspeech-q = Je! Ni tofauti gani kati ya Common Voice na Deep Speech?
 faq-is-goal-assistant-q = Je! Lengo la Common Voice ni kuunda msaidizi wa sauti?
+faq-is-goal-assistant-a = Lengo la daftari la Common Voice ni kuwezesha mtu yeyote duniani kutengeneza programu za utambuzi wa sauti, utambuzi wa msemaji, au aina nyingine yoyote ya programu ambayo inahitaji data ya sauti. Msaidizi wa sauti ni moja ya aina nyingi za programu unazoweza kujenga kwa kutumia daftari hilo.
 faq-why-different-speakers-q = Kwa nini unahitaji wasemaji wengi tofauti kwa kila lugha?
 faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
 faq-why-10k-hours-q = Kwa nini saa 10,000 zilizothibitishwa ndio lengo la kila lugha la kurekodi sauti?
