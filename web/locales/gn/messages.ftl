@@ -427,15 +427,21 @@ localization-explanation = Kóicha ñamba'apo ñambohasa ha ñamoporãve hag̃ua
 sentence-collection = Ñe’ẽsyry ñembyaty
 sentence-collection-explanation = Rombyaty ñe'ẽjoaju ikatúva ojeporurei ñandutípe térã orevoi rohai ñe'ẽjoaju opavavépe g̃uarã.
 hours-recorded-explanation = Mboy ñe'ẽryapu roñongatúma ohóvo ko'ág̃a peve.
+hours-validated-explanation = Mboy ñe'ẽryapu aravópa omoneĩmava 2, 3 tapichágui ojopy rupi hikuái “Héẽ”. Kóva ohechauka mboy pevépa romba'apóma rohupyty hag̃ua pe 10.000 aravo rohupytyséva.
 sst = Moñe’ẽra ijayvúva (STT)
+sst-explanation = Ñe'ẽ-Jehai (STT) rembiporu amboguapy jehaípe ñe'ẽryapu.
 de-identified = Jekuaa’ỹ
 
 ## Error pages
 
+error-title-404 = Ndorojuhúi upe togue rehekáva.
+error-content-404 = Oiméne rejuhukuaa ore <homepageLink>ñandutirenda ñepyrũha</homepageLink>-pe reikotevẽva. Eporandu hag̃ua, eikemína <matrixLink>Pytyvõhára Aty Ñemongetarenda'i</matrixLink>-pe, ehechami ehóvo apañuãi oikóva <githubLink>GitHub</githubLink>-pe térã eikemi <discourseLink>ore Ñemongetaguasu rendakuéra</discourseLink>-pe.
+error-title-503 = Ore apañuãi ko'ág̃aite, ho'ávaicha mohendahavusu.
 error-code = Javy { $code }
 
 ## Data
 
+data-download-button = Emboguejy Common Voice Kuaapy
 data-download-yes = Héẽ
 data-download-deny = Nahániri
 data-download-license = Moneĩmby: <licenseLink>CC-0</licenseLink>
