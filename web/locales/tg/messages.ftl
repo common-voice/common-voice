@@ -98,6 +98,8 @@ today = Имрӯз
 
 ## FAQ
 
+faq-what-cv-q = «Common Voice» чист?
+faq-why-important-q = Чаро ин муҳим аст?
 
 ## ABOUT US
 
@@ -110,9 +112,18 @@ today = Имрӯз
 
 ## Data
 
+terms-agree = Ман розӣ
+terms-disagree = Ман розӣ нестам
 
 ## Datasets Page
 
+language = Забон
+# File size in gigabytes
+size = Андоза
+number-of-voices = Шумораи овозҳо
+validated-hours = Соатҳои тасдиқшуда
+recorded-hours = Соатҳои сабтшуда
+more = Бештар
 
 ## Download Modal
 
