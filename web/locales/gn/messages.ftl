@@ -486,6 +486,7 @@ subscribe = Mboheraguapy
 feedback-q = ¿Eñe’ẽsépa?
 go-discourse = Eike Discourse-pe
 go-languages-page = Eho Ñe’ẽ Kuatiaroguépe
+ready-to-validate = ¿Eiméma emboaje hag̃ua ñe’ẽjuaju?
 more = Hetave
 close = Mboty
 download = Mboguejy
@@ -501,6 +502,7 @@ contact-form-name =
     .label = Téra
 contact-form-message =
     .label = Ñe’ẽmondo
+contact-required = *tekotevẽva
 
 ## Request Language Modal
 
