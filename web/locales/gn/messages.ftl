@@ -455,17 +455,27 @@ data-bundle-description = Common Voice kuaapy ha avei opaite ambue ñe'ẽryapu 
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
 data-download-singleword-title = Emboguejy Ñe'ẽryapu Pehẽ'i
+data-download-singleword-callout = Kóvaniko ñe'ẽryapu pehẽ ojeporúva oñemombareteve hag̃ua mba'éichapa tembiporu oikũmbykuaa peteĩteĩ ñe'ẽ pehẽ michíva, héẽ/nahániri kuaapy ha mba'e oiporúva wakeword Firefox Voice-pe.
 terms-agree = Amoneĩ avei
 terms-disagree = Namoneĩri
+review-submit-title = Ehechajey ha Emondo
+review-submit-msg = Aguyjevete reñongatúre ne ñe'ẽ!<lineBreak></lineBreak>Ko'ág̃a ikatúma rehendujey ha remondo ne ñe'ẽñongatupyre.
 review-recording = Hechajey
+review-rerecord = Eñe'ẽñongatujey
+review-cancel = Ani Remondo
+review-keep-recordings = Eñongatu ñe'ẽryapu ñongatupyre
+review-delete-recordings = Embogue ñe'ẽ añongatuva'ekue
 
 ## Datasets Page
 
 language = Ñe’ẽ
 # File size in gigabytes
 size = Tuichakue
+cv-license = Ñemoneĩkuatia
 audio-format = Mba’epu Ysaja
+number-of-voices = Mboy Ahy'ópa
 splits = Ñemboja’o
+email-to-download = Ehai ne Ñe'ẽveve emboguejy hag̃ua
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Emboguejy { $language }
