@@ -373,6 +373,10 @@ change-email-setings = Emoambue ne ñe'ẽveve eikévo Ñembosako'ípe oĩva Jei
 
 faq-title = Oñeporanduvéva (FAQ)
 faq-what-cv-q = Mba'épa Common Voice?
+faq-what-cv-a =
+    Tembiporu ñe'ẽ oikũmbývaniko omoambue ohóvo mba'éichapa jaiporu máquina-kuéra, ikatúvagui ojapo térã ohai ja'éva chupe. Jepéramo upéva ãichagua tembiporu hepyete ha ijára. Common Voice niko Mozilla rembiapo, oñemoñepyrũva ikatuhag̃uáicha opavave oiporukuaa tembiporu ñe'ẽ oikũmbýva. Common Voice omono'õ ohóvo ñe'ẽ ñongatupyre ome'ẽreíva oporopytyvõséva ikatuhag̃uáicha ojeporukuaa opaite ñe'ẽme ñande yvy ape arigua
+    
+    Ore rombyaty rohóvo ñe'ẽ ñongatupyre heta ñe'ẽ sa'ivévama oñeñe'ẽva ko'ág̃a ikatuhag̃uáicha imbareteve ha okakuaave. Avei romba'apo rohóvo peteĩ tembiporu'i oikũmbykuaáva ñe'ẽ ohendúva hérava Deep Speech rehe.
 faq-why-important-q = ¿Mba’ére ehecharamo?
 faq-how-get-q = ¿Mba’éicha arekokuaa Common Voice mba’ekuaarã?
 faq-when-release2-q = ¿Araka’e emoherakuãta Common Voice mba’ekuaarã ambue ñe’ẽme?
@@ -409,6 +413,7 @@ about-nav-how-it-works = ¿Mba’e?
 about-nav-partners = Irũnguéra
 about-nav-get-involved = Ñepytyvõ
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Tembiporu Ikatupyrýva
 
 ## Glossary
 
