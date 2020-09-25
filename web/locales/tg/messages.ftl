@@ -159,12 +159,28 @@ more = Бештар
 
 ## Download Modal
 
+download-form-email =
+    .label = Почтаи электронии худро ворид кунед
+    .value = Ташаккур, мо бо шумо дар тамос мешавем.
+download-no = Не, ташаккур
 
 ## Contact Modal
 
+contact-title = Шакли тамос
+contact-form-name =
+    .label = Ном
+contact-form-message =
+    .label = Паём
+contact-required = *ҳатмист
 
 ## Request Language Modal
 
+request-language-title = Дархости забон
+request-language-form-language =
+    .label = Забон
+request-language-success-title = Дархости забон бо муваффақият пешниҳод карда шуд, ташаккур.
+select-language = Забонеро интихоб кунед ...
+other-language = Забони дигар
 
 ## Languages Overview
 
