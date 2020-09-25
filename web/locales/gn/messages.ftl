@@ -414,12 +414,19 @@ about-nav-partners = Irũnguéra
 about-nav-get-involved = Ñepytyvõ
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Tembiporu Ikatupyrýva
+mycroft-description =
+    Mycroft-niko pytyvõhára open source peteĩha.
+    Mycroft ojeporukuaa opaichagua tembiporúpe - mohendahápe, mba'yruguatápe térã pumbyrýpe.
+mycroft-secondary-description = Ko tembiporu open source oñemoambuekuaa, oñemoporãvekuaa ojeipotaháicha. Mycroft ikatu avei ojeporu oimeraẽva tembikuaaty aponde'ápe térã empresa  oguerojeráva software-pe.
 
 ## Glossary
 
 glossary = Ñe’ẽrysýi
 localization = Moñe’ẽasa
+localization-explanation = Kóicha ñamba'apo ñambohasa ha ñamoporãve hag̃ua mba'ekuaa ambue ñe'ẽme.
 sentence-collection = Ñe’ẽsyry ñembyaty
+sentence-collection-explanation = Rombyaty ñe'ẽjoaju ikatúva ojeporurei ñandutípe térã orevoi rohai ñe'ẽjoaju opavavépe g̃uarã.
+hours-recorded-explanation = Mboy ñe'ẽryapu roñongatúma ohóvo ko'ág̃a peve.
 sst = Moñe’ẽra ijayvúva (STT)
 de-identified = Jekuaa’ỹ
 
