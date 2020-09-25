@@ -14,7 +14,10 @@ email-opt-in-info-title = Ба рӯйхати «Common Voice» мактубҳо 
 
 ar = Арабӣ
 az = Озарӣ
+ba = Бошқирдӣ
+be = Белорусӣ
 bg = Булғорӣ
+bn = Банголӣ
 ca = Каталонӣ
 cs = Чехӣ
 de = Олмонӣ
@@ -63,17 +66,40 @@ zh-CN = Хитоӣ (Чин)
 
 ## Layout
 
+speak = Ҳарф занед
+speak-now = Акнун ҳарф занед
+languages = Забонҳо
+about = Дар бораи барнома
 help = Ёрӣ
 contact = Тамoс
+privacy = Махфият
 terms = Шартҳо
+cookies = Кукиҳо
 back-top = Бозгашт ба аввал
 
 ## Home Page
 
+vote-yes = Ҳа
+vote-no = Не
 hours-recorded = Соатҳои сабтшуда
 hours-validated = Соатҳои тасдиқшуда
 all-locales = Ҳама
 today = Имрӯз
+x-weeks-short =
+    { $count ->
+        [one] ҳафта
+       *[other] ҳафта
+    }
+x-months-short =
+    { $count ->
+        [one] моҳ
+       *[other] моҳ
+    }
+x-years-short =
+    { $count ->
+        [one] сол
+       *[other] сол
+    }
 
 ## Account Benefits
 
@@ -103,15 +129,21 @@ faq-why-important-q = Чаро ин муҳим аст?
 
 ## ABOUT US
 
+about-partners = Шарикон
 
 ## Glossary
 
+glossary = Вожанома
+localization = Маҳаллисозӣ
 
 ## Error pages
 
 
 ## Data
 
+data-download-yes = Ҳа
+data-download-deny = Не
+data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам
 
