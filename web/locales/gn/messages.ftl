@@ -396,6 +396,11 @@ faq-why-different-speakers-a =
     Heta ñe'ẽryapu ñongatupyre oĩva ombyaty mba'éichapa oñe'ẽ sa'i tapicha ha péicha rupi oñembo'yke ambuévape ombohyapuambuévape, techapyrãrõ <articleLink>kuimba'e ha tapicha aty avano'õ iviru sa'ivévape</articleLink>. Ndajaresarekóiramo tapicha aty michĩvévape ombohyapuambuéva peteĩ ñe'ẽ térã iñe'ẽambue'íva rehe, opytáta hikuái tapykuépe, ja'eporãsérõ oñembo'ykémava voi chupekuéra. Heta máquina noikũmbykuaái avei kuña ñe'ẽ ohendúramo.
     Upévare rombyatyva'erã opaichagua ñe'ẽryapu, taha'e kuñáva térã kuimba'éva, iñe'ẽ'ypýva térã iñe'ẽmokõiva!
 faq-why-my-lang-q = ¿Mba'ére che ñe’ẽ ndaipóri gueteri?
+faq-why-my-lang-new-a = Mozilla nomoĩri araka'eve peteĩ ñe'ẽ ambuéva ári. Upéva oiko'ỹ hag̃uákatu romba'apomeme, Common Voice techapyrã upéva rehegua. Jepéramo upéva tekotevẽ jajapo <multilangLink>sa'i mba'e ikatuhag̃uáicha oike ambue ñe'ẽ</multilangLink> ko tembiapoguasúpe. Tenonderã, oñembohasava'erã Common Voice ñandutirenda upe ñe'ẽ pyahúpe, ikatuhag̃uáicha oikéva oporopytyvõ oiporukuaa ñandutirenda iñe'ẽtépe. Upéi tekotevẽ ñambyaty hetaite ñe'ẽjoaju ndaijáraiva ikatuhag̃uáicha ombohyapu umíva tapicha ome'ẽva ijahy'o. Ojehupyty vove ko'ã mokõi mba'e oikekuaáma peteĩ ñe'ẽ Common Voice-pe ha upéva rire ikatúma oipytyvõséva oike ombohyapu ñe'ẽjoaju mono'õmbyre ha omoneĩkuaa avei ambuéva ñe'ẽryapu ñongatupyre. Embojoapyséramo peteĩ ñe'ẽ, reiporuva'erã ore <sentenceCollectorLink>Ñe'ẽjoaju Mbyatyha Rembiporu</sentenceCollectorLink>.
+faq-what-quality-q = Mba'eichaitépa iporãva'erã ñe'ẽryapu ikatuhag̃uáicha oike kuaapy'atýpe?
+faq-what-quality-a = Ore roipota Common Voice kuaapy'aty oguerekoha opaichagua ñe'ẽryapu ikatuhag̃uáicha tembiporu oikũmbýtava oje'éva chupe omba'apokuaa avei ka'aguýpe. Iporã oĩramo opaichagua ñe'ẽryapu, péichante oñembokatupyrýta avei tembiporu'i ojapoporã hembiapo ndohenduporãkuaáiramo jepe. Katu yvypóra oikũmbykuaava'erã oje'éva ñe'ẽryapu ñongatupyrépe.
+faq-why-10k-hours-q = Mba'érepiko pehupytyse 10,000 aravo ñe'ẽryapu ñongatupyre peteĩ ñe'ẽme?
+faq-why-10k-hours-a = Tembiporu'i ñe'ẽryapu oikũmbýva oikotevẽ upe tetakue ikatupyry hag̃ua ñe'ẽryapu jehaípe.
 faq-how-calc-hours-q = ¿Mba’éicha omboaje Common Voice aravokuéra?
 faq-where-src-from-2-q = ¿Moõgui ojegueru moñe’ẽrã reñoiha?
 faq-why-account-q = ¿Mba’ére añemboheraguapyva’erã?
