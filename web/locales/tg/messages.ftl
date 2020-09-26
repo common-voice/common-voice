@@ -277,6 +277,7 @@ everyone = Ҳар як кас
 easy-difficulty = Осон
 average-difficulty = Миёна
 difficult-difficulty = Душвор
+pro-difficulty = Касбӣ
 
 ## Profile Delete
 
