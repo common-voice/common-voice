@@ -546,12 +546,19 @@ speak-empty-state = Tumeishiwa na sentensi za kurekodi katika lugha hii...
 speak-empty-state-cta = Changia sentensi
 record-button-label = Rekodi sauti yako
 share-title-new = <bold>Tusaidie</bold> kupata sauti zaidi
+keep-track-profile = Fuatilia maendeleo yako na wasifu
 login-to-get-started = Ingia au jisajili ili uanze
+target-segment-first-card = Unachangia sehemu yetu ya kwanza ya lengo
+target-segment-first-banner = Saidia kuunda sehemu ya kwanza ya lengo la Common Voice katika { $locale }
+target-segment-add-voice = Ongeza Sauti yako
 target-segment-learn-more = Jifunze zaidi
 
 ## Reporting
 
+report = Ripoti
+report-title = Wasilisha ripoti
 report-ask = Unakutana na shida gani kwenye hii sentensi?
+report-grammar-or-spelling = Kosa la kisarufi / tahajia
 report-different-language = Lugha tofauti
 report-different-language-detail = Imeandikwa kwa lugha ambayo ni tofauti na ninayoongea.
 report-difficult-pronounce = Vigumu kutamka
