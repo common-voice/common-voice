@@ -392,6 +392,9 @@ faq-is-goal-assistant-a = Ore rupytyrã tuichavéva Common Voice kuaapy'aty rehe
 faq-do-want-native-q = Ko ñe'ẽ ndaha'éi cheñe'ẽ'ypy ha ojekuaa upéva cherehe añe'ẽvo, jepéramo upéva ikatúpa aipytyvõ avei?
 faq-do-want-native-a = Ikatu, ndeichagua oñe'ẽvakatu roipota avei orepytyvõ! Common Voice ombyatykuaa avei mba'éichapa ombohyapuambue tapicha oñe'ẽva peteĩ ñe'ẽme, upéva rupive omba'apokuaaporãvéta tembiporu ñe'ẽryapu ñeikũmby rehegua. Ja'ekuaa opaichagua tapicha taha'éva iñe'ẽ'ypy térã nahániri oporopytyvõkuaa.
 faq-why-different-speakers-q = Mba'érepa peikotevẽ opaichagua tapicha rehe oñe'ẽkuaáva peteĩ ñe'ẽme?
+faq-why-different-speakers-a =
+    Heta ñe'ẽryapu ñongatupyre oĩva ombyaty mba'éichapa oñe'ẽ sa'i tapicha ha péicha rupi oñembo'yke ambuévape ombohyapuambuévape, techapyrãrõ <articleLink>kuimba'e ha tapicha aty avano'õ iviru sa'ivévape</articleLink>. Ndajaresarekóiramo tapicha aty michĩvévape ombohyapuambuéva peteĩ ñe'ẽ térã iñe'ẽambue'íva rehe, opytáta hikuái tapykuépe, ja'eporãsérõ oñembo'ykémava voi chupekuéra. Heta máquina noikũmbykuaái avei kuña ñe'ẽ ohendúramo.
+    Upévare rombyatyva'erã opaichagua ñe'ẽryapu, taha'e kuñáva térã kuimba'éva, iñe'ẽ'ypýva térã iñe'ẽmokõiva!
 faq-why-my-lang-q = ¿Mba'ére che ñe’ẽ ndaipóri gueteri?
 faq-how-calc-hours-q = ¿Mba’éicha omboaje Common Voice aravokuéra?
 faq-where-src-from-2-q = ¿Moõgui ojegueru moñe’ẽrã reñoiha?
