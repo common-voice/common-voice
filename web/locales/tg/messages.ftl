@@ -49,7 +49,10 @@ et = Эстонӣ
 eu = Баскӣ
 fa = Форсӣ
 ff = Фулаҳ
+fi = Финӣ
+fo = Фарерӣ
 fr = Фаронсавӣ
+fy-NL = Фризӣ
 ga-IE = Ирландӣ
 hi = Ҳиндӣ
 hu = Маҷорӣ
@@ -150,9 +153,14 @@ x-years-short =
 
 faq-what-cv-q = «Common Voice» чист?
 faq-why-important-q = Чаро ин муҳим аст?
+faq-what-is-cv = «Common Voice» чист?
+faq-using-cv = Истифодаи «Common Voice»
 
 ## ABOUT US
 
+about-title = Чаро «Common Voice»?
+how-does-it-work-title = Он чӣ тавр кор мекунад?
+about-speak = Ҳарф занед
 about-partners = Шарикон
 
 ## Glossary
@@ -170,16 +178,27 @@ data-download-deny = Не
 data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам
+review-rerecord = Аз нав сабт кардан
+review-cancel = Бекор кардани пешниҳод
+review-keep-recordings = Нигоҳ доштани сабтҳо
+review-delete-recordings = Нест кардани сабтҳои ман
 
 ## Datasets Page
 
 language = Забон
 # File size in gigabytes
 size = Андоза
+cv-license = Иҷозатнома
 number-of-voices = Шумораи овозҳо
+size-gigabyte = ГБ
+size-megabyte = МБ
 validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда
+subscribe = Обуна шудан
 more = Бештар
+close = Пӯшидан
+download = Боргирӣ кардан
+dataset-version = Силсила
 
 ## Download Modal
 
