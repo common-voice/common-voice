@@ -100,6 +100,7 @@ ur = Урду
 uz = Ӯзбекӣ
 vi = Ветнамӣ
 zh-CN = Хитоӣ (Чин)
+zh-TW = Хитоӣ (Тайван)
 
 # [/]
 
@@ -144,6 +145,7 @@ x-years-short =
 
 ## Account Benefits
 
+benefits = Бартариҳо
 
 ## What's public
 
@@ -162,6 +164,22 @@ x-years-short =
 
 ## ProfileForm
 
+profile-form-age =
+    .label = Синну сол
+profile-form-gender =
+    .label = Ҷинс
+hidden = Ноаён
+visible = Намоён
+native-language =
+    .label = Забони модарӣ
+profile-form-submit-save = Нигоҳ доштан
+male = Мард
+female = Зан
+# Gender
+other = Дигар
+dashboard = Лавҳаи иттилоотӣ
+avatar = Аватар
+goals = Ҳадафҳо
 
 ## FAQ
 
