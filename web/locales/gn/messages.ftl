@@ -386,6 +386,7 @@ faq-when-release2-a = Common Voice Rova iñe'ẽ'etáva oñemoporãve ohóvo ore
 faq-why-mission-q = ¿Mba’ére Common Voice oiko Mozilla rembipota ndive?
 faq-why-mission-a = Mozilla omba'apo'asy ikatuhag̃uáicha ñanduti okakuaa opavavépe g̃uarã. Upéva'erã tekotevẽ roipytyvõ ñanduti guerojerahárape tembiapo porãite rupive, Common Voice peteĩva upeichagua. Jepéramo tembiporu'i ñe'ẽryapu reheve omba'apóva ojeporumeme heta aty michĩvape, ore roimo'ã tekotevẽha oiporukuaa opavave. Upeva'erã tuichamba'e pe ñamombaretéramo ñe'ẽ sa'ivéva oñeñe'ẽva ñande yvy ape ári. Common Voice ningo kuaapymbyatyha opavavépe g̃uarã, oimeraẽva oiporukuaáva ha upévare Mozila aty'i ha guerojerahára oĩva ñande yvy pukukue javevépe omba'apo heta ko tembiapópe ha oiporu avei ko'ã tembiporu'i rojapóvape.
 faq-what-cv-and-deepspeech-q = ¿Mba’épe ojuavy Common Voice ha Deep Speech?
+faq-what-cv-and-deepspeech-a = Common Voice Kuaapy'aty omombareteve Mozilla ñe'ẽkũmbyha rembiporu hérava Deep Speech. Kóva osẽ'ypy jasypateĩ 2017-pe ha mbeguekatúpe iporãve ohóvo. Roimo'ã opavave oiporukuaava'erã Deep Speech ha Common Voice Kuaapy'aty oñondive, ha'éva mba'eporurã opavavépe g̃uarã. Roipota'asy ko'ã tembiporu oipytyvõ guerojerahárape omoheñóivo ambue tembiporu porãva ha opavavépe g̃uarã.
 faq-is-goal-assistant-q = ¿Common Voice ohupytyséva ha’e ayvu pytyvõha jejapo?
 faq-why-my-lang-q = ¿Mba'ére che ñe’ẽ ndaipóri gueteri?
 faq-how-calc-hours-q = ¿Mba’éicha omboaje Common Voice aravokuéra?
