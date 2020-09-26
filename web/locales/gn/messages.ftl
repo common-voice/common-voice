@@ -402,7 +402,13 @@ faq-what-quality-a = Ore roipota Common Voice kuaapy'aty oguerekoha opaichagua �
 faq-why-10k-hours-q = Mba'érepiko pehupytyse 10,000 aravo ñe'ẽryapu ñongatupyre peteĩ ñe'ẽme?
 faq-why-10k-hours-a = Tembiporu'i ñe'ẽryapu oikũmbýva oikotevẽ upe tetakue ikatupyry hag̃ua ñe'ẽryapu jehaípe.
 faq-how-calc-hours-q = ¿Mba’éicha omboaje Common Voice aravokuéra?
+faq-how-calc-hours-a = Ore roipapa peteĩteĩ mboy aravópa ipukútavaicha ñe'ẽryapu ñongatupyre ha upéi romboheta upe papapy opaite ñe'ẽryapu ñongatupyre oĩva ambue ñe'ẽme rehe.
 faq-where-src-from-2-q = ¿Moõgui ojegueru moñe’ẽrã reñoiha?
+faq-where-src-from-2-a =
+    Jehai jaiporúva ko tembiapópe ome'ẽrei ñandéve tapicha opytyvõséva ha avei roiporu ñe'ẽjoaju oĩreímava oimeraẽ oiporu hag̃uáicha, ou avei ta'ãngambyry ome'ẽreíva ñandéve, techapyrãrõ <italic>¡Qué bello es vivir!</italic>.
+    
+    Ehechakuaa moõguipa ou jehai jaiporúva ko <githubLink>GitHub ñongatuhápe</githubLink>.
+faq-why-not-ask-read-q = Mba'éguipa ndapejeruréi tapichakuérape tomoñe'ẽ hag̃ua aranduka térã Wikipedia mba'ehai oĩmava heta ñe'ẽme?
 faq-why-account-q = ¿Mba’ére añemboheraguapyva’erã?
 faq-is-account-public-q = ¿Marandu che mba’ete rehegua ojehechakuaa?
 faq-what-is-cv = ¿Mba’épa Common Voice?
