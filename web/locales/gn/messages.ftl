@@ -378,6 +378,7 @@ faq-what-cv-a =
     
     Ore rombyaty rohóvo ñe'ẽ ñongatupyre heta ñe'ẽ sa'ivévama oñeñe'ẽva ko'ág̃a ikatuhag̃uáicha imbareteve ha okakuaave. Avei romba'apo rohóvo peteĩ tembiporu'i oikũmbykuaáva ñe'ẽ ohendúva hérava Deep Speech rehe.
 faq-why-important-q = ¿Mba’ére ehecharamo?
+faq-why-important-a = Ñane ñe'ẽ rupive ningo ñañomomarandu'ypy jepi ambuéva ndive, ñande rógape, ñane irũ ndive ha ñamba'apohápe. Upévare tembiporu ñe'ẽryapu reheve omba'apóva ñanepytyvõkuaa jaiporuporãve hag̃ua ñane mohendaha ha ñane pumbyry avei. Ore roykekose ñanduti guerojeraharakuérape ojapo hag̃ua tembiporu'i oikũmbykuaáva oje'éva chupe taha'e ombohasakuaa hag̃ua ambue ñe'ẽme térã ojapo hag̃ua ojejeruréva chupe ñane pumbyrýpe. Rombyasy haimete opaite ñe'ẽryapu ñongatupyre oĩva ñandutípe ijaraha ha upévare ndaikatúi  oimeraẽva oiporu. Upevakuére roimo'ã 'a Common Voice rupive ikatuha ñame'ẽ tembiporu'i apoharakuérape oĩva ñande yvy ape ári oikotevẽva omoheñói hag̃ua tembiporu ñe'ẽryapu oiporúva opaite ñe'ẽme ha opavavépe g̃uarã.
 faq-how-get-q = ¿Mba’éicha arekokuaa Common Voice mba’ekuaarã?
 faq-when-release2-q = ¿Araka’e emoherakuãta Common Voice mba’ekuaarã ambue ñe’ẽme?
 faq-why-mission-q = ¿Mba’ére Common Voice oiko Mozilla rembipota ndive?
