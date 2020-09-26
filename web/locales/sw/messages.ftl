@@ -89,6 +89,9 @@ sq = Kialbania
 sr = Kisebia
 sv-SE = Kiswidi
 sw = Kiswahili
+syr = Kisiria
+ta = Kitamili
+te = Kitelugu
 tg = Kitajiki
 th = Kithai
 tl = Kitagalogi
@@ -98,6 +101,7 @@ uby = Ubiki
 uk = Kiukreini
 ur = Kiurdu
 uz = Kiuzbeki
+vec = Kivenetia
 vi = Kivietnamu
 zh-CN = Kichina (Uchina)
 zh-HK = Kichina (Hong Kong)
@@ -413,6 +417,7 @@ data-bundle-button = Pakua kifurushi cha daftari
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja
+review-terms = Kwa kutumia Common Voice, unakubaliana na <termsLink>Masharti</termsLink> yetu na <privacyLink> Ilani ya Faragha</privacyLink>
 terms-agree = nakubali
 terms-disagree = Sikubali
 review-submit-title = Hakiki kisha utume
@@ -432,6 +437,7 @@ cv-license = Leseni
 number-of-voices = idadi ya sauti
 splits = Migawanyiko
 email-to-download = Weka barua pepe kupakua
+confirm-size = Uko tayari kuanzisha upakuaji wa <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Unakubali</b> kutojaribu kubaini utambulisho wa wasemaji kwenye daftari ya Common Voice
@@ -489,6 +495,7 @@ language-total-progress = Jumla
 language-search-input =
     .placeholder = Tafuta
 language-speakers = Wasemaji
+localized = Ujanibishaji
 sentences = Masentensi
 total-hours = Masaa yaliyo halalishwa
 
@@ -500,14 +507,27 @@ contribute = Changia
 listen = Sikiliza
 skip = ruka
 shortcuts = Njia za mkato
+clips-with-count-pluralized =
+    { $count ->
+        [one] kipande <bold>{ $count }</bold> cha sauti
+       *[other] Vipande <bold>{ $count }</bold> vya sauti
+    }
+goal-help-recording = Umesaidia Common Voice kufikia <goalPercentage></goalPercentage> ya malengo yetu ya kila siku ya { $goalValue } ya kurekodi!
+contribute-more =
+    { $count ->
+        [one] Uko tayari kufanya { $count } zaidi?
+       *[other] Uko tayari kufanya { $count } zaidi?
+    }
 record-cta = anza kurekodi
 record-must-allow-microphone = Lazima uruhusu kinasa sauti kutumiwa
 record-no-mic-found = Hakuna kinasa sauti kilichopatikana
 record-error-too-short = Rekodi ilikua ya mda mfupi sana.
 record-error-too-long = Rekodi ilikua ya mda mrefu sana
 record-error-too-quiet = Rekodi ilikua ya kimya sana
+record-instruction = { $actionType } <recordIcon> </recordIcon> kisha soma sentensi hiyo kwa sauti
 record-three-more-instruction = Tatu kumaliza!
 record-again-instruction = Vizuri!<recordIcon></recordIcon>Rekodi kipande kinachofata.
+record-again-instruction2 = Jitahidi, rekodi tena <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ya mwisho!
 share-common-voice = Sambaza Common Voice
 review-instruction = Pitia na rekodi tena vipande vya sauti ikiwa inahitajika.
