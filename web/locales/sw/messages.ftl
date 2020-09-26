@@ -559,9 +559,11 @@ report = Ripoti
 report-title = Wasilisha ripoti
 report-ask = Unakutana na shida gani kwenye hii sentensi?
 report-grammar-or-spelling = Kosa la kisarufi / tahajia
+report-grammar-or-spelling-detail = Sentensi hiyo ina kosa la kisarufi au tahajia.
 report-different-language = Lugha tofauti
 report-different-language-detail = Imeandikwa kwa lugha ambayo ni tofauti na ninayoongea.
 report-difficult-pronounce = Vigumu kutamka
+report-difficult-pronounce-detail = Inayo maneno au misemo ambayo ni magumu kusoma au kutamka.
 report-other-comment =
     .placeholder = Toa maoni
 continue = Endelea
@@ -573,16 +575,29 @@ days =
         [one] Siku
        *[other] Siku
     }
+recordings =
+    { $count ->
+        [one] Rekodi
+       *[other] Rekodi
+    }
 
 ## Dashboard
 
 your-languages = Lugha zako
+toward-next-goal = Kuelekea lengo linalofuata
+clips-you-recorded = Vipande vya sauti ulivyo rekodi
+clips-you-validated = Vipande vya sauti ulivyohalalisha
+todays-recorded-progress = Maendeleo ya Common Voice kwenye vipande vya sauti vilivyorekodiwa leo
 awards = Tuzo
 you = Wewe
 everyone = Kila mtu
+top-contributors = Wachangiaji wakuu
+recorded-clips = Vipande vya sauti zilizorekodiwa
+validated-clips = Vipande vya sauti vilivyohalalishwa
 
 ## Custom Goals
 
+get-started-goals = Anza na malengo
 both-speak-and-listen = Zote mbili
 both-speak-and-listen-long = Zote mbili (kuongea na kusikiliza)
 daily-goal = Lengo la kila siku.
@@ -597,6 +612,12 @@ cant-decide = Huwezi kuamua?
 how-many-per-day = Vizuri! Vipande vingapi vya sauti kwa siku?
 how-many-a-week = Vizuri! Vipande vingapi vya sauti kwa wiki?
 which-goal-type = Unataka kuongea, usikiliza au zote mbili?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] Kipande { $count } cha sauti
+       *[other] Vipande { $count } vya sauti
+    }
+help-share-goal = Tusaidie kupata sauti zaidi, sambaza lengo lako
 confirm-goal = Thibitisha lengo
 goal-interval-weekly = Kila wiki
 share-goal-type-speak = Kuongea
