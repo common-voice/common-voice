@@ -409,8 +409,10 @@ faq-where-src-from-2-a =
     
     Ehechakuaa moõguipa ou jehai jaiporúva ko <githubLink>GitHub ñongatuhápe</githubLink>.
 faq-why-not-ask-read-q = Mba'éguipa ndapejeruréi tapichakuérape tomoñe'ẽ hag̃ua aranduka térã Wikipedia mba'ehai oĩmava heta ñe'ẽme?
+faq-why-not-ask-read-a = Ikatu hag̃uáicha Common Voice Kuaapy'aty ojeporukuaa, rog̃uahẽ peteĩ ñe'ẽme roiporu'añotaha ñe'ẽ oñemoherakuãva'ekue Ñemoneĩ Creative Commons (CC0) rupive. Péva he'ise ijetu'uveha oréve rojuhu hag̃ua ñe'ẽjoaju ikatúva roiporu, katu péicha rupi opavave oiporukuaa ñe'ẽjoaju ñambyatyva'ekue oikotevẽ'ỹre Mozilla ñemoneĩkuatia. Ipahápeniko rombyatyse ñe'ẽjoaju oiporukuaáva oimeraẽva, taha'e kuaarekahára, mbo'ehaovusu, mba'apoha, tekuái, ONG ha ambueve.
 faq-why-account-q = ¿Mba’ére añemboheraguapyva’erã?
 faq-is-account-public-q = ¿Marandu che mba’ete rehegua ojehechakuaa?
+faq-how-privacy-q = Mba'éichapa pemboajekatu ndojekuaaitaha mávapa ome'ẽ ijahy'o ko tembiapópe?
 faq-what-is-cv = ¿Mba’épa Common Voice?
 faq-using-cv = Mba’éicha eipurúta Common Voice
 faq-search-for-answers =
