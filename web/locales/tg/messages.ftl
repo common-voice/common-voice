@@ -205,6 +205,7 @@ dataset-version = Силсила
 download-form-email =
     .label = Почтаи электронии худро ворид кунед
     .value = Ташаккур, мо бо шумо дар тамос мешавем.
+download-back = Бозгашт ба маҷмӯаи маълумоти «Common Voice»
 download-no = Не, ташаккур
 
 ## Contact Modal
@@ -227,21 +228,55 @@ other-language = Забони дигар
 
 ## Languages Overview
 
+languages-show-more = Дидани бештар
+languages-show-less = Дидани камтар
+language-meter-in-progress = Раванд
+language-total-progress = Ҳамагӣ
+language-search-input =
+    .placeholder = Ҷустуҷӯ
+language-speakers = Баландгӯякҳо
+sentences = Ҷумлаҳо
 
 ## Contribution
 
+action-click = Зер кардан
+action-tap = Зарба задан
+contribute = Иштирок доштан
+skip = Нодида гузарондан
+shortcuts = Миёнбурҳо
+record-no-mic-found = Микрофон ёфт нашуд.
+record-error-too-short = Сабт хеле кӯтоҳ буд.
+record-error-too-long = Сабт хеле дароз буд.
+record-error-too-quiet = Сабт хеле ором буд.
+record-cancel = Бекор кардани сабти такрорӣ
+target-segment-learn-more = Маълумоти бештар
 
 ## Reporting
 
+report-other-comment =
+    .placeholder = Шарҳ
+success = Тайёр!
+continue = Давом додан
 
 ## Goals
 
+recordings =
+    { $count ->
+        [one] сабт
+       *[other] сабт
+    }
 
 ## Dashboard
 
+your-languages = Забонҳои шумо
+you = Шумо
+everyone = Ҳар як кас
 
 ## Custom Goals
 
+easy-difficulty = Осон
+average-difficulty = Миёна
+difficult-difficulty = Душвор
 
 ## Profile Delete
 
