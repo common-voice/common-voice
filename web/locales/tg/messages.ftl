@@ -38,6 +38,7 @@ bn = Банголӣ
 br = Бретонӣ
 bxr = Бурятӣ
 ca = Каталонӣ
+cak = Какчикелӣ
 cs = Чехӣ
 cv = Чувашӣ
 cy = Валлӣ
@@ -66,9 +67,12 @@ hy-AM = Арманӣ
 id = Индонезӣ
 is = Исландӣ
 it = Итолиёӣ
+izh = Ижорӣ
 ja = Ҷопонӣ
 ka = Гурҷӣ
 kaa = Қароқалпоқӣ
+kab = Кабилӣ
+kbd = Кабардинӣ
 kk = Қазоқӣ
 ko = Кореягӣ
 ku = Курдӣ
@@ -121,6 +125,7 @@ back-top = Бозгашт ба аввал
 
 ## Home Page
 
+show-wall-of-text = Бештар хондан
 vote-yes = Ҳа
 vote-no = Не
 hours-recorded = Соатҳои сабтшуда
@@ -155,15 +160,24 @@ benefits = Бартариҳо
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Пахш/Таваққуф
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Сабт кардан/Истодан
 
 ## ProjectStatus
 
+english = Англисӣ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Номи корбар
+profile-form-native-language =
+    .label = Забони модарӣ
+profile-form-additional-language =
+    .label = Забони иловагӣ
 profile-form-age =
     .label = Синну сол
 profile-form-gender =
@@ -180,6 +194,20 @@ other = Дигар
 dashboard = Лавҳаи иттилоотӣ
 avatar = Аватар
 goals = Ҳадафҳо
+settings = Танзимот
+profile-close = Пӯшидан
+accept-privacy-title = Сиёсати махфият
+login-signup = Воридшавӣ / Бақайдгирӣ
+edit = Таҳрир кардан
+email-subscriptions = Обунаҳои почтаи электронӣ
+off = Ғайрифаъол
+on = Фаъол
+retry-voice-wave-recording = АЗ НАВ КӮШИШ КАРДАН
+re-record = АЗ НАВ САБТ КАРДАН
+delete-voice = НЕСТ КАРДАН
+ready-to-upload = БОР КАРДАН
+cancel-avatar-clip-recording = БЕКОР КАРДАН
+add-language = Илова кардани забон
 
 ## FAQ
 
@@ -193,7 +221,11 @@ faq-using-cv = Истифодаи «Common Voice»
 about-title = Чаро «Common Voice»?
 how-does-it-work-title = Он чӣ тавр кор мекунад?
 about-speak = Ҳарф занед
+about-listen = Гӯш кунед
 about-partners = Шарикон
+about-nav-why-common-voice = Чаро?
+about-nav-how-it-works = Чӣ тавр?
+about-nav-partners = Шарикон
 
 ## Glossary
 
@@ -202,6 +234,7 @@ localization = Маҳаллисозӣ
 
 ## Error pages
 
+error-code = Рамзи хато { $code }
 
 ## Data
 
@@ -227,6 +260,7 @@ size-megabyte = МБ
 validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда
 subscribe = Обуна шудан
+go-languages-page = Гузариш ба саҳифаи забонҳо
 more = Бештар
 close = Пӯшидан
 download = Боргирӣ кардан
@@ -274,6 +308,7 @@ sentences = Ҷумлаҳо
 action-click = Зер кардан
 action-tap = Зарба задан
 contribute = Иштирок доштан
+listen = Гӯш кунед
 skip = Нодида гузарондан
 shortcuts = Миёнбурҳо
 record-no-mic-found = Микрофон ёфт нашуд.
@@ -281,10 +316,13 @@ record-error-too-short = Сабт хеле кӯтоҳ буд.
 record-error-too-long = Сабт хеле дароз буд.
 record-error-too-quiet = Сабт хеле ором буд.
 record-cancel = Бекор кардани сабти такрорӣ
+target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
 
 ## Reporting
 
+report = Гузориш
+report-title = Гузориш додан
 report-other-comment =
     .placeholder = Шарҳ
 success = Тайёр!
@@ -306,13 +344,18 @@ everyone = Ҳар як кас
 
 ## Custom Goals
 
+daily-goal = Ҳадафи ҳаррӯза
+weekly-goal = Ҳадафи ҳафтаина
 easy-difficulty = Осон
 average-difficulty = Миёна
 difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
+goal-interval-weekly = Ҳар ҳафта
 
 ## Profile Delete
 
+keep = Ногоҳ доштан
+remove = Тоза кардан
 
 ## Landing
 
