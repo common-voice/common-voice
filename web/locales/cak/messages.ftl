@@ -11,7 +11,7 @@ loading = Nisamajib'ëx...
 email-opt-in-info = Ninwajo' yenk'ül taq taqoya'l achi'el kinatab'al taq rayb'äl, taq ruk'exoj ri nib'anon chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
 email-opt-in-info-title = Tatunu' awi' pa ri rucholajem rutaqoya'l Common Voice
 email-opt-in-info-sub-with-challenge = Ke'ak'ulu' taq taqoya'l achi'el kinatab'al ri najowäx, taq rayb'äl, taq ruk'exoj ri nib'an chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
-email-opt-in-privacy = Toq naya' q'ij ye'ak'ül taq taqoya'l, niq'ax pan qawi' chi naya' q'ij chi re ri Mozilla nrokisaj ri awetamab'al achi'el nichol pa ri <privacyLink>Ichinan Runa'ojil <privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Toq naya' q'ij ye'ak'ül taq taqoya'l, niq'ax pan qawi' chi naya' q'ij chi re ri Mozilla nrokisaj ri awetamab'al achi'el nichol pa ri <privacyLink>Ichinan Runa'ojil </privacyLink> Mozilla.
 indicates-required = * Retal chi k'atzinel ri k'ojlib'äl
 not-available-abbreviation = M/O
 
@@ -472,10 +472,8 @@ sst-explanation = Runa'ob'al tz'ib'anïk-pa-ch'ab'äl (STT) ri yekijäl ri taq r
 de-identified = Tewäch-ruwäch
 de-identified-explanation = Rub'eyal richin newäx ri retamab'al ruwäch rub'i' ri to'onel, newäx pa ri taq q'aptzij ch'ab'äl erusipan toq niqasäx ri rucholxetzij.
 
-## NotFound
+## Error pages
 
-notfound-title = Man xilitäj ta
-notfound-content = Kinakuyu', man wetaman ta achike nakanoj.
 
 ## Data
 
@@ -614,7 +612,6 @@ contribute = Kato'on
 listen = Tak'axäx
 skip = Tik'o'
 shortcuts = Chojmin Okem
-clips-with-count = <bold>{ $count }</bold> Perb'ab'
 goal-help-recording = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al { $goalValue } q'ij q'ij!
 goal-help-validation = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al richin rujunamanem { $goalValue } q'ij q'ij!
 contribute-more =
@@ -736,13 +733,8 @@ want-to-continue = ¿La nawajo' nab'än qa?
 finish-editing = ¿La nawajo' nab'ey nak'ïs nanük'?
 lose-changes-warning = We yatel wakami, xtisach ronojel ri jaloj
 build-custom-goal = Tinuk' jun ichinan rayib'äl
-help-reach-hours = Kato'on richin niq'i' { NUMBER($hours) } taq ramaj pa { $language } rik'in jun ichinan rayib'äl
-help-reach-hours-general = Kato'on richin chi ri Common Voice nuq'i' { NUMBER($hours) } taq ramaj pa jun ch'ab'äl ruma ri ichinan rayib'äl
 set-a-goal = Tijikib'äx jun rayib'äl
 cant-decide = ¿La man at jikïl ta?
-activity-needed-calculation =
-    Yatikïr naq'i' { NUMBER($totalHours) } taq ramaj pa jub'ama { NUMBER($periodMonths) }
-    jujun taq ik' we { NUMBER($people) } ri winaqi' yekitz'uk { NUMBER($clipsPerDay) } taq yakoj pa jun q'ij.
 how-many-per-day = ¡Yalan ütz! ¿Jarupe' taq yakoj pa jun q'ij?
 how-many-a-week = ¡Yalan ütz! ¿Jarupe' taq yakoj pa jun ik'?
 which-goal-type = ¿La nawajo' Yach'o, Nawak'axaj o chi ka'i' ruwa?
@@ -752,7 +744,6 @@ receiving-emails-info =
 not-receiving-emails-info =
     Ri rub'anon anuk'ulem wakami nub'ij chi <bold>MAJUN</bold> ye'ak'ül taq taqoya'l achi'el kinatab'al taq rayb'äl, taq 
     ruk'exoj ri nib'anon chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
-n-clips = { NUMBER($count) } taq yakoj
 help-share-goal = Kojato' yeqïl ch'aqa' chik taq ch'ab'äl, takomonij ri arayb'al
 confirm-goal = Tijikib'äx Rayb'äl
 goal-interval-weekly = Wuqq'ijil
