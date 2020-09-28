@@ -109,14 +109,20 @@ pa-IN = Панҷобӣ
 pl = Лаҳистонӣ
 pt = Португалӣ
 rm-sursilv = Сурселвии романшӣ
+rm-vallader = Валладери романшӣ
 ro = Руминӣ
 ru = Русӣ
+rw = Киняруанда
+sah = Саха
 sc = Сардинӣ
+scn = Ситсилӣ
+si = Сингалӣ
 sk = Словакӣ
 sl = Словенӣ
 sq = Албанӣ
 sr = Сербӣ
 sv-SE = Шведӣ
+sw = Суахилӣ
 tg = Тоҷикӣ
 th = Тайӣ
 tr = Туркӣ
@@ -144,7 +150,9 @@ contact = Тамoс
 privacy = Махфият
 terms = Шартҳо
 cookies = Кукиҳо
+link-copied = Пайванд нусха бардошта шуд
 back-top = Бозгашт ба аввал
+logout = Баромадан
 
 ## Home Page
 
@@ -230,6 +238,7 @@ re-record = АЗ НАВ САБТ КАРДАН
 delete-voice = НЕСТ КАРДАН
 ready-to-upload = БОР КАРДАН
 cancel-avatar-clip-recording = БЕКОР КАРДАН
+browse-file-title = Бор кардани файли тасвирӣ
 add-language = Илова кардани забон
 
 ## FAQ
@@ -382,3 +391,4 @@ remove = Тоза кардан
 
 ## Landing
 
+read-more-about = Дар саҳифаи «Дар бораи мо» бештар хонед
