@@ -231,6 +231,7 @@ visible = Намоён
 native-language =
     .label = Забони модарӣ
 profile-form-submit-save = Нигоҳ доштан
+profile-form-submit-saved = Нигоҳ дошта шуд
 male = Мард
 female = Зан
 # Gender
@@ -243,6 +244,7 @@ goals = Ҳадафҳо
 settings = Танзимот
 edit-profile = Таҳрири профил
 profile-close = Пӯшидан
+why-demographic = Чаро ин муҳим аст?
 accept-privacy-title = Сиёсати махфият
 login-signup = Воридшавӣ / Бақайдгирӣ
 edit = Таҳрир кардан
