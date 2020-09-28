@@ -239,11 +239,13 @@ accept-privacy-title = Сиёсати махфият
 login-signup = Воридшавӣ / Бақайдгирӣ
 edit = Таҳрир кардан
 email-subscriptions = Обунаҳои почтаи электронӣ
+download-profile = Боргирӣ кардани маълумоти ман
 off = Ғайрифаъол
 on = Фаъол
 retry-voice-wave-recording = АЗ НАВ КӮШИШ КАРДАН
 re-record = АЗ НАВ САБТ КАРДАН
 delete-voice = НЕСТ КАРДАН
+recording-voice-wave = Сабт шуда истодааст
 ready-to-upload = БОР КАРДАН
 cancel-avatar-clip-recording = БЕКОР КАРДАН
 browse-file-title = Бор кардани файли тасвирӣ
@@ -255,6 +257,8 @@ faq-what-cv-q = «Common Voice» чист?
 faq-why-important-q = Чаро ин муҳим аст?
 faq-what-is-cv = «Common Voice» чист?
 faq-using-cv = Истифодаи «Common Voice»
+faq-search-for-answers =
+    .label = Ҷустуҷӯи ҷавобҳо
 
 ## ABOUT US
 
@@ -263,9 +267,11 @@ how-does-it-work-title = Он чӣ тавр кор мекунад?
 about-speak = Ҳарф занед
 about-listen = Гӯш кунед
 about-partners = Шарикон
+about-get-involved = Ҳамроҳ шудан
 about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
+about-nav-get-involved = Ҳамроҳ шудан
 
 ## Glossary
 
