@@ -146,7 +146,7 @@ const UserClient = {
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
         -- TODO: This subquery is VERY awkward, but safer until we simplify
-                 accent grouping.
+        --       accent grouping.
         CROSS JOIN
           (SELECT demographics.age_id, demographics.gender_id
             FROM user_clients
