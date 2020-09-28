@@ -133,8 +133,8 @@ async function updateDemographics(
 
 const UserClient = {
   async findAllWithLocales({
-    client_id,
-    email,
+    client_id = null,
+    email = null,
   }: {
     client_id: string;
     email: string;
@@ -152,7 +152,7 @@ const UserClient = {
             FROM user_clients
             LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
             WHERE user_clients.${
-              client_id ? `client_id = ${client_id}` : `email = ${email}`
+              client_id ? `client_id = "${client_id}"` : `email = "${email}"`
             }
             ORDER BY updated_at DESC
             LIMIT 1
@@ -161,7 +161,7 @@ const UserClient = {
         LEFT JOIN genders on d.gender_id = genders.id
         WHERE (u.client_id = ? OR email = ?) AND !has_login
       `,
-      [client_id || null, email || null]
+      [client_id, email]
     );
     return Object.values(
       rows.reduce((obj: { [client_id: string]: any }, row: any) => {
