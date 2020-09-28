@@ -544,7 +544,7 @@ export default class DB {
     sentence: string;
   }): Promise<void> {
     try {
-      await this.mysql.query(
+      const [{ insertId }] = await this.mysql.query(
         `
           INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id)
           VALUES (?, ?, ?, ?, ?)
@@ -561,6 +561,18 @@ export default class DB {
           WHERE id = ?
         `,
         [original_sentence_id, original_sentence_id]
+      );
+      await this.mysql.query(
+        `
+          INSERT INTO clip_demographics (clip_id, demographic_id) (
+            SELECT ?, id
+            FROM demographics
+            WHERE client_id = ?
+            ORDER BY updated_at DESC
+            LIMIT 1
+          )
+        `,
+        [insertId, client_id]
       );
     } catch (e) {
       console.error('error saving clip', e);
