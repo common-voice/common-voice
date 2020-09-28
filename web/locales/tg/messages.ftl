@@ -281,6 +281,7 @@ error-code = Рамзи хато { $code }
 data-download-yes = Ҳа
 data-download-deny = Не
 data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
+license = Иҷозатнома: <licenseLink>{ $license }</licenseLink>
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам
 review-rerecord = Аз нав сабт кардан
@@ -363,10 +364,14 @@ target-segment-learn-more = Маълумоти бештар
 
 report = Гузориш
 report-title = Гузориш додан
+report-offensive-language = Забони таҳқиромез
+report-grammar-or-spelling = Хатои грамматикӣ / имлоӣ
+report-different-language = Забони дигар
 report-other-comment =
     .placeholder = Шарҳ
 success = Тайёр!
 continue = Давом додан
+report-success = Гузориш бо муваффақият пешниҳод карда шуд
 
 ## Goals
 
@@ -374,6 +379,11 @@ recordings =
     { $count ->
         [one] сабт
        *[other] сабт
+    }
+validations =
+    { $count ->
+        [one] тасдиқи эътибор
+       *[other] тасдиқи эътибор
     }
 
 ## Dashboard
