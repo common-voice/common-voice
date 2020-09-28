@@ -153,11 +153,13 @@ speak-now = Акнун ҳарф занед
 datasets = Маҷмӯаи маълумот
 languages = Забонҳо
 about = Дар бораи барнома
+profile = Профил
 help = Ёрӣ
 contact = Тамoс
 privacy = Махфият
 terms = Шартҳо
 cookies = Кукиҳо
+content-license-text = Муҳтаво зери иҷозатномаи <licenseLink>Creative Commons</licenseLink> дастрас аст
 link-copied = Пайванд нусха бардошта шуд
 back-top = Бозгашт ба аввал
 logout = Баромадан
@@ -186,6 +188,7 @@ x-years-short =
         [one] сол
        *[other] сол
     }
+help-make-dataset = Ба мо барои бунёди маҷмӯаи маълумоти босифат ва оммавӣ кумак расонед
 
 ## Account Benefits
 
@@ -204,6 +207,8 @@ shortcut-play-toggle-label = Пахш/Таваққуф
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Сабт кардан/Истодан
+shortcut-rerecord-toggle = [1-5]
+request-language-button = Дархости забон
 
 ## ProjectStatus
 
@@ -230,10 +235,13 @@ male = Мард
 female = Зан
 # Gender
 other = Дигар
+why-profile-title = Чаро профил?
 dashboard = Лавҳаи иттилоотӣ
+build-profile = Сохтани профил
 avatar = Аватар
 goals = Ҳадафҳо
 settings = Танзимот
+edit-profile = Таҳрири профил
 profile-close = Пӯшидан
 accept-privacy-title = Сиёсати махфият
 login-signup = Воридшавӣ / Бақайдгирӣ
@@ -242,6 +250,7 @@ email-subscriptions = Обунаҳои почтаи электронӣ
 download-profile = Боргирӣ кардани маълумоти ман
 off = Ғайрифаъол
 on = Фаъол
+avatar-clip-title = Ба аватари худ овоз диҳед
 retry-voice-wave-recording = АЗ НАВ КӮШИШ КАРДАН
 re-record = АЗ НАВ САБТ КАРДАН
 delete-voice = НЕСТ КАРДАН
@@ -277,6 +286,7 @@ about-nav-get-involved = Ҳамроҳ шудан
 
 glossary = Вожанома
 localization = Маҳаллисозӣ
+sst = Нутқ-ба-матн (STT)
 
 ## Error pages
 
@@ -287,7 +297,9 @@ error-code = Рамзи хато { $code }
 data-download-yes = Ҳа
 data-download-deny = Не
 data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
+data-other-goto = Ба { $name } гузаред
 license = Иҷозатнома: <licenseLink>{ $license }</licenseLink>
+license-mixed = Омехта
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам
 review-rerecord = Аз нав сабт кардан
