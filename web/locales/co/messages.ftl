@@ -157,6 +157,7 @@ faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone c
 ## ABOUT US
 
 about-listen-queue-text = L'arrighjistramenti vucali sò mandati in una fila d'attesa induve sarani approntati pè l'ascolta.
+about-listen-text = L'utilizatori cunvalidanu l'esatezza di i clip dunati, verifichendu chì l'uratori ani lettu a frasa currittamente.
 
 ## Glossary
 
