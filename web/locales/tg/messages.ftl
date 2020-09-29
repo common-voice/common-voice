@@ -196,6 +196,7 @@ benefits = Бартариҳо
 
 ## What's public
 
+username-email-not-demographic = Номи корбар ва почтаи электронии шумо бо маълумоти нашршуда иртибот нахоҳад дошт.
 
 ## Speak & Listen Shortcuts
 
@@ -212,6 +213,7 @@ request-language-button = Дархости забон
 
 ## ProjectStatus
 
+status-title = Вазъи умумии лоиҳа: бинед, ки мо то куҷо расидаем!
 english = Англисӣ
 
 ## ProfileForm
@@ -250,6 +252,7 @@ login-signup = Воридшавӣ / Бақайдгирӣ
 edit = Таҳрир кардан
 email-subscriptions = Обунаҳои почтаи электронӣ
 download-profile = Боргирӣ кардани маълумоти ман
+contribution-experience = Таҷрибаи саҳмгузорӣ
 off = Ғайрифаъол
 on = Фаъол
 avatar-clip-title = Ба аватари худ овоз диҳед
@@ -260,6 +263,7 @@ recording-voice-wave = Сабт шуда истодааст
 ready-to-upload = БОР КАРДАН
 cancel-avatar-clip-recording = БЕКОР КАРДАН
 browse-file-title = Бор кардани файли тасвирӣ
+connect-gravatar = Бо Gravatar пайваст шавед
 add-language = Илова кардани забон
 
 ## FAQ
