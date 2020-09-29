@@ -104,6 +104,7 @@ wall-of-text-first = A voce hè naturale, a voce hè umana. Hè per quessa chì 
 show-wall-of-text = Leghje di più
 vote-yes = Iè
 vote-no = Innò
+voices-online = Voce attualmente in linea
 all-locales = Tutte
 today = Oghje
 x-weeks-short =
