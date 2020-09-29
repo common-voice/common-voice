@@ -574,30 +574,83 @@ Den gamla hågen att få vara med om märkvärdiga händelser vaknade hos honom.
 Den gamla matmodern blev ensam kvar på gården.
 Den gamla skogsmarken ville hellre bära jätteekar och storfuror än rovor och korn.
 Den gamla tystnade.
+Den gamla vissna handen klappade han alltjämt.
+Den gamla älgen blev nu i sin ordning trängd tillbaka över ängen.
+Den gamla älgen kom emot honom och de råkade genast i strid.
+Den grannaste hästen på kyrkbacken, det ska bli du, det, än en gång.
+Den grep han raskt, simmade intill stranden med den och lade den framför pojken.
 Den gråstrimmiga katten från Tisksågen var den första, som fick reda på olyckan.
+Den gången dröjde han inte att gripa in.
 Den gör bubblor.
+Den hade inga fönster utan bara en lucka.
+Den hade inte alltid varit så fattig, som den nu var.
+Den har alltid varit räknad som ett av de präktigaste i riket.
+Den har de kanske inte vågat sig på.
+Den har du inte tålamod att höra på.
 Den har en motor som driver kassetten.
+Den har just nyss fått till sig Horrmundsjön.
 Den har något underligt oljud.
+Den häftiga vindstöten hade väl fört dem med sig.
+Den här dammen kallar jag för Yngaren.
 Den här gamla saken?
 Den här hann åtminstone i tid.
 Den här klubben har kassa.
+Den här kvarnen, där skogsskörden skulle malas, låg tätt invid kusten.
 Den här pausen är bra för oss.
 Den här ritningen är nyckeln till planen.
+Den här staden tillhör inte bara stockholmarna.
 Den här vägen.
 Den här är bra.
 Den här är rätt så rolig att styra.
+Den höll också på att göra sig i ordning för sommaren.
+Den höll svansen mellan benen och nästan kröp utefter marken.
+Den kalla blåsten var det första riktigt obehag, som de hade mött under vandringen.
+Den kallar jag Eskilstuna.
+Den kallas Kubikenborg.
 Den kameran filmade honom för knappt en timme sen.
+Den kan väl inte göra mig något.
+Den kom inte från träden, och ingen av människorna hade kastat den.
 Den kommer tidigt, men tar åtminstone samma väg.
 Den kon var redan sjuk.
 Den korrupta regeringen är bara intresserad av att vinna valet.
+Den kunde både kasta sig fram genom luften långa sträckor och smyga utmed jorden.
+Den kunde inte stå stilla längre.
+Den ligger enformig och är sig lik nästan överallt.
+Den ligger ganska ansenlig på en udde, som är överskuggad av rika fruktträd.
+Den lilla stugan stod tom, och åkern låg obrukad.
+Den låg alldeles lös på en smal kant.
+Den låg och blänkte som en väg av guld i eldskenet.
 Den mentalt instabile mannen med kärnvapen som vi gillar att reta.
+Den nakna kusten med sandfält och tångvallar tyckte han sig också känna igen.
 Den ruttnar fort.
 Den räknar ner!
+Den satte hela åsen i brand på en gång.
 Den ser bra ut.
+Den sista flocken, som trädde fram, var prästgårdsboskapen.
+Den sista i raden var hästen, som hade fört sin husbonde upp på Blacksåsen.
+Den sjätte hade följt en besynnerlig fåra.
+Den ska vi snart bli av med.
+Den sköt skott och sände ut kvistar.
+Den som kommer bort från flocken, är förlorad.
+Den som också gav till ett glädjeskrik det var mor.
 Den som vi har inne är tyvärr redan reserverad.
+Den som vill, får ta emot, den som vill, får ta emot.
 Den som väntar på något gott, tjejer.
+Den sprickan var många famnar djup och närapå en famn bred.
+Den steg mycket långsamt och liksom ovillig att skada sina vackra stränder.
+Den stiger och sjunker, stiger och sjunker, men alltjämt klingar och kvittrar den.
+Den stod mittöver honom och sken så praktfullt, att det nästan var full dager.
+Den stod stilla en stund, tog några tveksamma steg och tvärstannade alldeles.
+Den stora ön låg jämn och slät under dem.
+Den ståtliga gamla herrn gick nu och satte sig på bänken bredvid spelmannen.
+Den största av dem hette Helveteshålet.
 Den svarta röken som den avger är full av giftiga ämnen.
+Den svarta spillkråkan med den röda nacken började hamra med näbben mot en trädstam.
+Den svenska flickan var barn av rika föräldrar.
+Den såg åt norr.
+Den tanken gjorde honom glad, men han tordes inte tro på den.
 Den tar nästan kål på en.
+Den tillhör dig och hela Sverige.
 Den var farfars.
 Den var vidrig och korkad.
 Den våldsamma cykeln av fortplantning.
@@ -672,6 +725,7 @@ Det fungerar inte så!
 Det funkar.
 Det får du inte.
 Det får du snart reda på.
+Det första hon gjorde var att såga ner alla fruktträd.
 Det förtjänade han.
 Det gemensamma för dem är att de är anonyma.
 Det ger en fin hud.
@@ -770,6 +824,7 @@ Det här är verkligheten.
 Det håller jag inte med om, men det finns trevliga människor där.
 Det håller lamporna igång.
 Det håller många år till.
+Det hör inte hit, det är helt irrelevant för sammanhanget.
 Det intrycket fick jag inte av dig senast jag var där.
 Det kan betyda vad som helst.
 Det kan bli översvämning.
@@ -1028,6 +1083,7 @@ Det är inga hot.
 Det är ingen dröm.
 Det är ingen fara, älskling.
 Det är ingen fara.
+Det är ingen lek att klippa hennes klor!
 Det är ingen leksak.
 Det är inget att gömma sig bakom.
 Det är inget fel med att chansa.
@@ -2158,6 +2214,7 @@ Gjorde han detta?
 Gluten låter som ett av era ord.
 Gluten är livet!
 Glutenfri pasta smakar skit.
+Glöm inte paraply och tumstock!
 God morgon!
 God morgon, pappa.
 God morgon, solstrålen.
@@ -2237,6 +2294,7 @@ Han byggde inte järnvägarna här.
 Han bygger upp relationer genom att bo nära offren.
 Han bölade som en bebis!
 Han började bråka med mig.
+Han famlade i mörkret efter ficklampan.
 Han fattade inte.
 Han fattar inte.
 Han fick ge namn åt en skola.
@@ -2546,6 +2604,7 @@ Hon har inte helt fel.
 Hon har levt hela sitt liv i en labyrint.
 Hon har rymt med läraren.
 Hon har sprejat honom med en gas som gjorde honom galen.
+Hon hällde ivrigt ut färgtuberna på golvet.
 Hon höll på med badminton och friidrott.
 Hon kan inte låta bli drinkarna.
 Hon kan verkligen distrahera honom.
@@ -2637,6 +2696,7 @@ Hur länge behöver du den?
 Hur länge har den varit uppe?
 Hur länge har du vetat det?
 Hur lång tid har vi på oss?
+Hur långt är ett lila snöre?
 Hur mycket har du druckit egentligen?
 Hur mycket kan de ha?
 Hur mycket ska jag behöva förlora?
@@ -2723,6 +2783,7 @@ I detta ligaspel avgörs vilka som går vidare.
 I förrgår sa han att han skulle göra nåt han inte kunde avslöja.
 I går när han gick på planet i Minneapolis.
 I kväll kommer du att dö.
+I kvällsljuset skimrade de svagt i orange.
 I min fästning.
 I min jacka.
 I morgon gräver vi vallar och börjar plantera.
@@ -3001,6 +3062,7 @@ Jag gillade klocktornet.
 Jag gillar det inte.
 Jag gillar det.
 Jag gillar ändå min plan bättre.
+Jag gissar att de mest går på magkänsla.
 Jag gjorde det förr.
 Jag gjorde det som förväntades av mig.
 Jag gjorde ingenting.
@@ -3520,6 +3582,7 @@ Jag vet inte om du insett att du börjar bli tunnhårig.
 Jag vet inte säkert.
 Jag vet inte vad de stoppar i, men det är typ.
 Jag vet inte vad han håller på med.
+Jag vet inte vad jag ska tro.
 Jag vet inte vad som gäller efter att man nästan dött.
 Jag vet inte vad som hade hänt om inte du varit där.
 Jag vet inte vad som är bäst.
@@ -3655,6 +3718,7 @@ Jag är hög.
 Jag är imponerad.
 Jag är inbrottstjuv.
 Jag är ingen hemsk kille, men jag fattar dåliga beslut.
+Jag är ingen kattmänniska, katter är så lömska djur.
 Jag är ingen modell.
 Jag är ingen tillverkare.
 Jag är inget mer än klok och förnuftig.
@@ -3762,6 +3826,7 @@ Kan du lägga av?
 Kan du lägga ifrån dig iPaden och göra läxorna nu?
 Kan du peka ut honom?
 Kan du plocka fram telefonen åt mig?
+Kan du påminna mig om det?
 Kan du sitta barnvakt?
 Kan du sluta skrika på mig?
 Kan du stanna?
@@ -4220,6 +4285,7 @@ Minns du första gången?
 Minns du hur han såg på mig i mataffären?
 Minns du hur hon låg?
 Minns du slutet på "Familjen Flinta"?
+Minst fem trappor är det.
 Mitt barnbarn hade sin bar mitzvah i dag.
 Mitt batteri är slut.
 Mitt hår är helt galet.
@@ -4689,6 +4755,7 @@ Om vi kan ses klockan tio imorgon kan vi ligga.
 Om vi lyckas norpa ens en procent är det två gånger hundra.
 Om vår skörd är okej ska vi betala för resten av hans skolgång.
 Området är väldigt isolerat.
+Onödigt att vanhedra lejon på det viset.
 Oppositionen behöver vårt stöd!
 Oppositionen kan sätta press på regeringen.
 Oroa dig inte.
@@ -4795,6 +4862,7 @@ Se till att ni har övning tre på min kateder i morgon.
 Se vad vi har uppnåt.
 Se, hon ringde.
 Sedan brände de träden för att torka sina tobaksblad.
+Sedan högg de upp resten av veden under tystnad.
 Sen garanterar vi er hemresa till Paris, på söndag kväll.
 Sen har vi de andra besluten.
 Sen har vi det här.
@@ -4949,6 +5017,7 @@ Stick med dig!
 Stick, för fan!
 Stipendieungarna är respektabla.
 Stockholmare tycker att allt norr om Gävle är Norrland.
+Stolen luktade nytt och tillsammans ställde de in sitthöjd och armstöd.
 Stor och ful, precis som vår bakgrund.
 Strax är det klart.
 Struntar alla andra i reglerna?!
