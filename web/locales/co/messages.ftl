@@ -105,6 +105,7 @@ show-wall-of-text = Leghje di più
 vote-yes = Iè
 vote-no = Innò
 voices-online = Voce attualmente in linea
+ready-to-record = Prontu à dà a to voce ?
 all-locales = Tutte
 today = Oghje
 x-weeks-short =
@@ -115,9 +116,11 @@ x-weeks-short =
 
 ## Account Benefits
 
+compare-progress = Paraguneti u vostru prugressu à quellu di l'altri cuntributori in u mondu sanu.
 
 ## What's public
 
+username-email-not-demographic = U vostru nome d'utilizatore è email ùn sarani micca assuciati à i dati publicati.
 
 ## Speak & Listen Shortcuts
 
@@ -130,13 +133,26 @@ x-weeks-short =
 
 ## ProjectStatus
 
+english = Inglese
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nome d’utilizatore
+profile-form-accent =
+    .label = Accentu
+profile-form-age =
+    .label = Età
+profile-form-gender =
+    .label = Sessu
+visible = Visìbile
+profile-form-submit-saved = Arrighjistratu
+avatar = Avatar
 
 ## FAQ
 
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
+faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 
 ## ABOUT US
 
