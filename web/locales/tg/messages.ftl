@@ -268,6 +268,7 @@ add-language = Илова кардани забон
 
 ## FAQ
 
+faq-title = Саволҳои зиёд такроршаванда
 faq-what-cv-q = «Common Voice» чист?
 faq-why-important-q = Чаро ин муҳим аст?
 faq-what-is-cv = «Common Voice» чист?
@@ -303,11 +304,14 @@ error-code = Рамзи хато { $code }
 data-download-yes = Ҳа
 data-download-deny = Не
 data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
+data-download-modal = Шумо боргирии <size>{ $size } ГБ</size>-ро оғоз карданӣ ҳастед, идома медиҳед?
 data-other-goto = Ба { $name } гузаред
 license = Иҷозатнома: <licenseLink>{ $license }</licenseLink>
 license-mixed = Омехта
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам
+review-submit-title = Бознигарӣ ва пешниҳод
+review-recording = Бознигарӣ
 review-rerecord = Аз нав сабт кардан
 review-cancel = Бекор кардани пешниҳод
 review-keep-recordings = Нигоҳ доштани сабтҳо
