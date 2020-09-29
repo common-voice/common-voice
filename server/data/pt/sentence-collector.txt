@@ -1971,6 +1971,7 @@ Chamada para graduados do ensino médio no local da entrevista
 Chamado igual a desperdício
 Chamado um para comer juntos
 Chamado urgente
+Chamar é igual a desperdício
 Chame a polícia agora!
 Chame o Vicente aqui!
 Chanceler do Tesouro
@@ -2723,6 +2724,7 @@ Deus abençoou Hualien
 Deus ajuda quem cedo madruga.
 Deus dá alfarrobas àqueles que não podem enferrujá-los.
 Deve considerar seriamente a questão da reconstrução
+Deve esconder no lugar onde as mercadorias são carregadas
 Deve estar bebendo leite.
 Deve estar congelado.
 Deve fornecer resultados comparáveis ​​ao estado da técnica.
@@ -3076,6 +3078,7 @@ Duas crianças que estão entre dois carros vermelhos.
 Duas crianças que jogam um jogo dos verificadores com os brinquedos no fundo.
 Duas dançarinas em uniformes combinando dançando.
 Duas equipes patinando.
+Duas filhas estão felizes em jogar
 Duas fêmeas idosas que sentam-se em um banco branco entre árvores.
 Duas galinhas brilhantemente coloridas estão fora de um bar.
 Duas garotas em vestidos rindo.
@@ -3434,6 +3437,7 @@ Ela discutiu com você?
 Ela dispersou os discípulos.
 Ela disse durável não é novidade quando se trata de cadeiras.
 Ela disse que Linda fez isso!
+Ela disse que é muito filial.
 Ela disse-lhes para me seqüestrar.
 Ela diz que não é nada para se preocupar.
 Ela e Heather estavam conversando.
@@ -4199,6 +4203,7 @@ Em que ano essa música foi lançada?
 Em que ano nasceu Steve Jobs?
 Em que você trabalha.
 Em relação ao documento resumo, cuja qualidade é considerada melhorada.
+Em resposta a mudanças e riscos econômicos externos
 Em resposta à controvérsia, eles publicaram um artigo.
 Em setembro, abóboras.
 Em setembro, colha as maçãs antes que as piadas cheguem.
@@ -6413,6 +6418,7 @@ Homens usando capacetes e coletes de segurança estão trabalhando.
 Honesto Ahmed não convenceu os desenvolvedores.
 Hong Kong é muito ventoso
 Honrar vem com sofrimento.
+Horas extras adicionadas à morte
 Hospedagem de grandes estágios e feiras de emprego
 Hospital de Taipei
 Houve incêndios em dois mil anos.
@@ -6522,6 +6528,7 @@ Imediatamente sentiu que o Sr. Ashby lhe fizera um grande desserviço.
 Imediatamente siga o conselho dela
 Imigração
 Imitando com sucesso o seu design
+Implementar comunicação com os moradores locais
 Impossível por causa da substituição
 Impossível ser eles
 Impressionante
@@ -6816,6 +6823,7 @@ Lasanha feita para veganos
 Laser tag é um jogo bastante semelhante ao paintball.
 Laura ficou com raiva da Beatriz.
 Lave legumes e verduras todas as manhãs
+Lave todas as dúvidas
 Lawrence ficou perplexo com a quantidade de coisas que aprendera sobre a lógica difusa.
 Leanne se juntou a um coro para que todos pudessem ouvir sua voz sublime.
 Legal!
@@ -10136,6 +10144,7 @@ Peça a Liv que me ligue no restaurante daqui a vinte minutos.
 Peça ao advogado para deixar cair a causa perdida.
 Peça uma pizza.
 Peça à esposa para ser colocada no armazém
+Peça-lhes para pensar em publicidade e planos de marketing
 Pierre decidiu pesquisar a cultura gay.
 Piloto de bicicleta no ar em uma rampa
 Piloto de rodeio na cobrança de touro.
@@ -15375,6 +15384,7 @@ um snowboarder vestindo vermelho está descendo uma montanha coberta de neve.
 um trabalhador da construção civil sentado em uma pedra, fazendo uma ligação.
 um vendedor do lado da rua que vende lanches e refrigerantes.
 uma aula de artes marciais tem lugar em Ourense? Espanha.
+uma caixa de oitocentos e oito
 uma competição de tiro com arco com dois homens jogando
 uma criança brincando na neve.
 uma criança pequena em uma camisa rosa correndo através de um campo florido.
