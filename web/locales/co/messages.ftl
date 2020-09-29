@@ -48,6 +48,7 @@ ia = Interlingua
 is = Islandese
 it = Talianu
 ja = Giapponese
+kab = Cabile
 ko = Coreanu
 lij = Ligure
 mhr = Mari da e pratuline
@@ -70,6 +71,7 @@ th = Tailandese
 tr = Turcu
 tt = Tataru
 ur = Urdu
+vec = Venizianu
 
 # [/]
 
