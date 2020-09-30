@@ -493,6 +493,7 @@ de-identified-explanation = Proces, pśez kótaryž se profilowe informacije sob
 error-title-404 = Njejsmy mógli ten bok za was namakaś
 error-content-404 = Snaź buźo naš <homepageLink>startowy bok</homepageLink> pomagaś? Aby pšašanje stajił, wobdělśo se pšosym na <matrixLink>chaśe Matrix zgromaźeństwa</matrixLink>, wobglědujśo sedłowe problemy pśez <githubLink>GitHub</githubLink> abo woglědajśo se k <discourseLink>našym forumam Discourse</discourseLink>.
 error-title-503 = Nazgónijomy njewótcakany cas stojanja
+error-content-503 = Sedło buźo tak skóro ako móžno zasej k dispoziciji byś. Nejnowše informacije dostanjośo w  <matrixLink>chaśe Matrix zgromaźeństwa</matrixLink> abo woglědajśo se k <githubLink>GitHub</githubLink> abo <discourseLink>našym forumam Discourse</discourseLink>, aby problemy ze sedłom k wěsći dał abo wobglědował.
 error-code = Zmólka { $code }
 
 ## Data
