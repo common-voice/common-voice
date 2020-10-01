@@ -238,7 +238,7 @@ whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的 E-Mail。
 recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
 username-optin-public = 您可以讓使用者名稱公開或保持匿名。
-demographic-deidentified-clarity = 選填的人口統計資料（例如年齡、性別、語言、腔調）不會在您的個人資料上公開，也不會在資料集中與您的帳號連結。每個錄音片段只會為了能做更準確的分析，而與您的人口統計資料連結。舉例來說，研究者可能想要對特定的人口分層做出更細的訓練模型。
+demographic-deidentified-clarity-2 = 選填的人口統計資料（例如年齡、性別、語言、腔調）不會在您的個人資料上公開，也不會在資料集中與您的帳號連結。每個錄音片段只會為了能做更準確的分析，而與您的人口統計資料連結。舉例來說，研究者可能想要對特定的人口分層做出更細的訓練模型。
 username-email-not-demographic = 您的使用者名稱與 E-Mail 不會跟公開發布的資料被關聯起來。
 
 ## Speak & Listen Shortcuts
@@ -295,7 +295,7 @@ profile-form-accent =
     .label = 腔調
 profile-form-age =
     .label = 年齡
-profile-form-gender =
+profile-form-gender-2 =
     .label = 性別
 leaderboard-visibility =
     .label = 是否顯示於排行榜
@@ -322,7 +322,7 @@ profile-close = 關閉
 profile-explanation = 保留您的專案紀錄，並幫助增加我們的語音資料準確度。
 thanks-for-account = 感謝您確認帳號資訊，接下來請提供您的基本資料。
 why-demographic = 這有什麼重要的？
-why-demographic-explanation = 匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與 E-Mail 不會與送出的資料相關聯，您也可以決定是否要公開您的帳號名稱或保持匿名。
+why-demographic-explanation-2 = 匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與 E-Mail 不會與送出的資料相關聯，您也可以決定是否要公開您的帳號名稱或保持匿名。
 accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊
 accept-privacy-title = 隱私權保護政策
 login-identity = 登入身分
