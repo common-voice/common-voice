@@ -243,7 +243,7 @@ whats-public = Hva er offentlig?
 email-not-public = Vi vil ikke offentliggjøre din e-postadresse
 recordings-and-locale-public = Antall lydklipp og hvilke språk du bidrar til vil være offentlig.
 username-optin-public = Du kan velge å gjøre brukernavnet ditt offentlig eller forbli anonym.
-demographic-deidentified-clarity = Valgfritt innsendte demografiske data (f.eks. alder, kjønn, språk og aksent) vil aldri bli offentliggjort på profilen din, og blir ikke koblet til kontoen din i datasettet. Individuelle lydklipp vil bli assosiert med demografiske data for å oppnå mer nøyaktig analyse - for eksempel vil en forsker kunne rette en treningsmodell mot et spesifikt demografisk segment.
+demographic-deidentified-clarity-2 = Valgfritt innsendte demografiske data (f.eks. alder, kjønn, språk og dialekt) vil aldri bli offentliggjort på profilen din, og blir ikke koblet til kontoen din i datasettet. Individuelle lydklipp vil bli assosiert med demografiske data for å oppnå mer nøyaktig analyse - for eksempel vil en forsker kunne rette en treningsmodell mot et spesifikt demografisk segment.
 username-email-not-demographic = Ditt brukernavn og din e-postadresse vil ikke bli assosiert med offentliggjorte data.
 
 ## Speak & Listen Shortcuts
@@ -301,7 +301,7 @@ profile-form-accent =
     .label = Dialekt
 profile-form-age =
     .label = Alder
-profile-form-gender =
+profile-form-gender-2 =
     .label = Kjønn
 leaderboard-visibility =
     .label = Synlighet på toppliste
@@ -328,7 +328,7 @@ profile-close = Lukk
 profile-explanation = Hold rede på fremgangen din med en profil og hjelp oss med å gjøre våre stemmedata mer nøyaktige.
 thanks-for-account = Takk for at du bekreftet kontoen din. La oss lage en profil til deg.
 why-demographic = Hvorfor er dette viktig?
-why-demographic-explanation = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og e-postadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
+why-demographic-explanation-2 = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og e-postadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
 accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 accept-privacy-title = Personvernbestemmelser
 login-identity = Innloggingsidentitet

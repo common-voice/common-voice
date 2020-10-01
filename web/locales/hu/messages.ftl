@@ -245,7 +245,7 @@ whats-public = Mi nyilvános?
 email-not-public = Nem fogjuk nyilvánossá tenni az e-mail címét.
 recordings-and-locale-public = A felvételei száma, és a nyelvek amikben Ön közreműködik, nyilvánosak lesznek.
 username-optin-public = Kiválaszthatja, hogy a felhasználó neve nyilvános vagy privát legyen.
-demographic-deidentified-clarity = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipeket a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – például egy kutató egy konkrét demográfiai szegmensre akarhat betanítani egy modellt.
+demographic-deidentified-clarity-2 = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipeket a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – például egy kutató egy konkrét demográfiai szegmensre akarhat betanítani egy modellt.
 username-email-not-demographic = A felhasználóneve és az e-mail címe nem lesz társítva a közzétett adatokkal.
 
 ## Speak & Listen Shortcuts
@@ -303,7 +303,7 @@ profile-form-accent =
     .label = Akcentus
 profile-form-age =
     .label = Életkor
-profile-form-gender =
+profile-form-gender-2 =
     .label = Nem
 leaderboard-visibility =
     .label = Ranglista láthatósága
@@ -330,7 +330,7 @@ profile-close = Bezárás
 profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen pontosabbá tenni az adatainkat.
 thanks-for-account = Köszönjük, hogy megerősítette a fiókját, most állítsuk össze a profilját.
 why-demographic = Miért számít ez?
-why-demographic-explanation = Az anonimizált felhasználói adatok, mint az életkor, nem és akcentus segít jobbá tenni a hangadatokat, melyek a hangfelismerő motorok pontosságának tanítására használhatóak. A felhasználónév és a jelszó sosem lesz hozzákapcsolva a beküldött adatokhoz, és megadhatja azt is, hogy a felhasználóneve nyilvános vagy anonim legyen.
+why-demographic-explanation-2 = Az anonimizált felhasználói adatok, mint az életkor, nem és akcentus segít jobbá tenni a hangadatokat, melyek a hangfelismerő motorok pontosságának tanítására használhatóak. A felhasználónév és a jelszó sosem lesz hozzákapcsolva a beküldött adatokhoz, és megadhatja azt is, hogy a felhasználóneve nyilvános vagy anonim legyen.
 accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelveiben</privacyLink> leírtak szerint kezeljék az adataimat
 accept-privacy-title = Adatvédelmi irányelvek
 login-identity = Bejelentkezési azonosító

@@ -245,7 +245,7 @@ whats-public = Co jo zjawne?
 email-not-public = Wašu e-mailowu adresu njewózjawijomy.
 recordings-and-locale-public = Licba nagraśow a rěcow, ku kótarymž pśinosujośo, budu zjawne.
 username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
-demographic-deidentified-clarity = Opcionelnje zapódane demografiske daty (na pś. starstwo, rod, rěc a akcent) se we wašom profilu nigda njewózjawiju a z wašym kontom w datowej sajźbje njezwězaju. Jadnotliwe awdioklipy se z demografiskimi datami za dokradnjejšu analyzu zwězaju - slěźaŕ na pśikład co snaź treningowy model na wěsty demografiski segment wusměriś.
+demographic-deidentified-clarity-2 = Opcionelnje zapódane demografiske daty (na pś. starstwo, rod, rěc a akcent) se we wašom profilu nigda njewózjawiju a z wašym kontom w datowej sajźbje njezwězaju. Jadnotliwe awdioklipy se z demografiskimi datami za dokradnjejšu analyzu zwězaju - slěźaŕ na pśikład co snaź treningowy model na wěsty demografiski segment wusměriś.
 username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
 ## Speak & Listen Shortcuts
@@ -305,7 +305,7 @@ profile-form-accent =
     .label = Akcent
 profile-form-age =
     .label = Starstwo
-profile-form-gender =
+profile-form-gender-2 =
     .label = Rod
 leaderboard-visibility =
     .label = Wiźobnosć lisćiny nejlěpšych
@@ -332,7 +332,7 @@ profile-close = Zacyniś
 profile-explanation = Z profilom móžośo swój póstup we wócyma wobchowaś a pomagaś, naše głosowe daty dokradnjejše cyniś.
 thanks-for-account = Źěkujomy se, až sćo wobkšuśił swójo konto, comy něnto waš profil zarědowaś.
 why-demographic = Cogodla jo to wažne?
-why-demographic-explanation = Anonymizěrowane wužywarske daty ako starstwo, rod a akcent pomagaju awdiodaty pólěpšyś, kótarež se wužywaju, aby dokradnosć softwary powědańskego spóznaśa treněrowali. Waše wužywarske mě a e-mailowa adresa se nigda z wašymi pósłanymi datami njezwězujotej, a móžośo wubraś, lěc dej wašo wužywarske mě zjawne abo anonymne byś.
+why-demographic-explanation-2 = Anonymizěrowane wužywarske daty ako starstwo, rod a akcent pomagaju awdiodaty pólěpšyś, kótarež se wužywaju, aby dokradnosć softwary powědańskego spóznaśa treněrowali. Waše wužywarske mě a e-mailowa adresa se nigda z wašymi pósłanymi datami njezwězujotej, a móžośo wubraś, lěc dej wašo wužywarske mě zjawne abo anonymne byś.
 accept-privacy = Som wobjadny, až se toś te informacije wužywaju, kak se w <privacyLink>pšawidłach priwatnosći</privacyLink> Mozilla wujasnjujo.
 accept-privacy-title = Pšawidła priwatnosći
 login-identity = Pśizjawjeńska identita
