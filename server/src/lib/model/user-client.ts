@@ -67,9 +67,15 @@ async function updateLocales(
 
 async function updateDemographics(
   clientId: string,
-  age?: string,
-  gender?: string
+  age: string,
+  gender: string
 ) {
+  // Null (unset) values are sent up as blank strings. Here we cast blank
+  // strings to null so they're unambiguously unset and map to the expected
+  // NULL id in our database.
+  age = age || null;
+  gender = gender || null;
+
   const ageId =
     age &&
     (
@@ -96,38 +102,13 @@ async function updateDemographics(
       )
     )?.[0]?.[0]?.id;
 
-  const ageFound = typeof ageId === 'number';
-  const genderFound = typeof genderId === 'number';
-
-  if (!ageFound && !genderFound) return;
-
-  // If we're missing an id for age or gender, we fall back to their existing
-  // values.
-  const { age_id: prevAgeId, gender_id: prevGenderId } =
-    ((!ageFound || !genderFound) &&
-      (
-        await db.query(
-          `
-            SELECT demographics.age_id, demographics.gender_id
-              FROM user_clients
-              LEFT JOIN demographics
-                ON user_clients.client_id = demographics.client_id
-              WHERE user_clients.client_id = ?
-              ORDER BY updated_at DESC
-              LIMIT 1
-          `,
-          [clientId]
-        )
-      )?.[0]?.[0]) ||
-    {};
-
   await db.query(
     `
     INSERT INTO demographics (client_id, age_id, gender_id) VALUES (?, ?, ?)
       ON DUPLICATE KEY UPDATE
       updated_at = now()
   `,
-    [clientId, ageId ?? prevAgeId ?? null, genderId ?? prevGenderId ?? null]
+    [clientId, ageId ?? null, genderId ?? null]
   );
 }
 
