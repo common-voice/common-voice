@@ -245,7 +245,7 @@ whats-public = Što je zjawne?
 email-not-public = Wašu e-mejlowu adresu njewozjewimy.
 recordings-and-locale-public = Ličba natočenjow a rěčow, ke kotrymž přinošujeće, budu zjawne.
 username-optin-public = Móžeće swoje wužiwarske mjeno wozjewić abo anonymizować.
-demographic-deidentified-clarity = Opcionelnje zapodate demografiske daty (na př. staroba, splah, rěč a akcent) so we wašim profilu ženje njewozjewja a z wašim kontom w datowej sadźbje njezwjazaja. Jednotliwe awdioklipy so z demografiskimi datami za dokładnišu analyzu zwjazaja - slědźer na přikład chce snano treningowy model na wěsty demografiski segment wusměrić.
+demographic-deidentified-clarity-2 = Opcionelnje zapodate demografiske daty (na př. staroba, splah, rěč a akcent) so we wašim profilu ženje njewozjewja a z wašim kontom w datowej sadźbje njezwjaza. Jednotliwe awdioklipy so z demografiskimi datami za dokładnišu analyzu zwjazaja - slědźer na přikład chce snano treningowy model na wěsty demografiski segment wusměrić.
 username-email-not-demographic = Waše wužiwarske mjeno a e-mejlowa adresa so z wozjewjenymi datami njezwjazujetej.
 
 ## Speak & Listen Shortcuts
@@ -305,7 +305,7 @@ profile-form-accent =
     .label = Akcent
 profile-form-age =
     .label = Staroba
-profile-form-gender =
+profile-form-gender-2 =
     .label = Splah
 leaderboard-visibility =
     .label = Widźomnosć lisćiny najlěpšich
@@ -332,7 +332,7 @@ profile-close = Začinić
 profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
 thanks-for-account = Dźakujemy so, zo sće swoje konto wobkrućił, chcemy nětko waš profil zarjadować.
 why-demographic = Čehodla je to wažne?
-why-demographic-explanation = Anonymizowane wužiwarske daty kaž staroba, splah a akcent pomhaja awdiodaty polěpšić, kotrež so wužiwaja, zo bychu dokładnosć softwary rěčenskeho spóznaća trenowali. Waše wužiwarske mjeno a e-mejlowa adresa so ženje z wašimi pósłanymi datami njezwjazujetej, a móžeće wubrać, hač ma waše wužiwarske mjeno zjawne abo anonymne być.
+why-demographic-explanation-2 = Anonymizowane wužiwarske daty kaž staroba, splah a akcent pomhaja awdiodaty polěpšić, kotrež so wužiwaja, zo bychu dokładnosć softwary rěčenskeho spóznaća trenowali. Waše wužiwarske mjeno a e-mejlowa adresa so ženje z wašimi pósłanymi datami njezwjazujetej, a móžeće wubrać, hač ma waše wužiwarske mjeno zjawne abo anonymne być.
 accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla wujasnja.
 accept-privacy-title = Prawidła priwatnosće
 login-identity = Přizjewjenska identita
