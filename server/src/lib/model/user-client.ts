@@ -154,6 +154,7 @@ const UserClient = {
             WHERE user_clients.${
               client_id ? `client_id = "${client_id}"` : `email = "${email}"`
             }
+              AND user_clients.has_login
             ORDER BY updated_at DESC
             LIMIT 1
           ) AS d
@@ -204,6 +205,7 @@ const UserClient = {
             FROM user_clients
             LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
             WHERE user_clients.email = ?
+              AND user_clients.has_login
             ORDER BY updated_at DESC
             LIMIT 1
           ) AS d
@@ -297,7 +299,7 @@ const UserClient = {
       [accountClientId]
     );
 
-    updateDemographics(client_id, data.age, data.gender);
+    updateDemographics(accountClientId, data.age, data.gender);
 
     await Promise.all([
       this.claimContributions(accountClientId, clientIds),
@@ -326,38 +328,6 @@ const UserClient = {
       ]);
     }
     return UserClient.findAccount(email);
-  },
-
-  // TODO: Is this used anywhere? lib/model/db.ts@updateUser from 5f781aa0d05e
-  //       no-longer exists.
-  async save({ client_id, email, age, gender }: any): Promise<boolean> {
-    console.log(`TRACK_USER_CLIENT_SAVE: ${age}\t${gender}`);
-    const [
-      [row],
-    ] = await db.query(
-      'SELECT has_login FROM user_clients WHERE client_id = ?',
-      [client_id]
-    );
-
-    if (row?.has_login) return false;
-
-    if (row) {
-      await db.query(
-        `
-      UPDATE user_clients SET email = ? WHERE client_id = ?
-      `,
-        [email, client_id]
-      );
-    } else {
-      await db.query(
-        `
-        INSERT INTO user_clients (client_id, email) VALUES (?, ?)
-      `,
-        [client_id, email]
-      );
-    }
-
-    updateDemographics(client_id, age, gender);
   },
 
   async updateBasketToken(email: string, basketToken: string) {

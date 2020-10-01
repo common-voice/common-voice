@@ -243,7 +243,7 @@ whats-public = What's Public?
 email-not-public = We will not make your email public.
 recordings-and-locale-public = The number of recordings and which languages you contribute to will be public.
 username-optin-public = You can choose to make your username public or anonymous.
-demographic-deidentified-clarity = Optionally submitted demographic data (e.g. age, sex, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.
+demographic-deidentified-clarity-2 = Optionally submitted demographic data (e.g. age, gender, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.
 username-email-not-demographic = Your username and email will not be associated with the published data.
 
 
@@ -299,8 +299,8 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Age
-profile-form-gender =
-    .label = Sex
+profile-form-gender-2 =
+    .label = Gender
 leaderboard-visibility =
     .label = Leaderboard Visibility
 hidden = Hidden
@@ -328,7 +328,7 @@ profile-close = Close
 profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
 thanks-for-account = Thanks for confirming your account, now let's build your profile.
 why-demographic = Why does this matter?
-why-demographic-explanation = Anonymized user data like age, sex, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
+why-demographic-explanation-2 = Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
 accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
 accept-privacy-title = Privacy Policy
 login-identity = Login Identity
@@ -645,7 +645,7 @@ contribute = Contribute
 listen = Listen
 skip = Skip
 shortcuts = Shortcuts
-clips-with-count-pluralized = { $count -> 
+clips-with-count-pluralized = { $count ->
                     [one] <bold>{ $count }</bold> Clip
                     *[other] <bold>{ $count }</bold> Clips
 }
@@ -779,24 +779,24 @@ help-reach-hours-pluralized = Help reach { NUMBER($hours) ->
 [one] {$hours} hour
 *[other] {$hours} hours
  } in { $language } with a personal goal
-help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) -> 
+help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) ->
   [one] {$hours} hour
   *[other] {$hours} hours
  } in a language with a personal goal
 set-a-goal = Set a goal
 cant-decide = Can't decide?
-activity-needed-calculation-plural = { NUMBER($totalHours) -> 
+activity-needed-calculation-plural = { NUMBER($totalHours) ->
   [one] {$totalHours} hour
   *[other] {$totalHours} hours
- } is achievable in just over { NUMBER($periodMonths) -> 
+ } is achievable in just over { NUMBER($periodMonths) ->
   [one] {$periodMonths} month
   *[other] {$periodMonths} months
- } if { NUMBER($people) -> 
+ } if { NUMBER($people) ->
   [one] {$people} person
   *[other] {$people} people
-  } record { NUMBER($clipsPerDay) -> 
-  [one] {$clipsPerDay} clip 
-  *[other] {$clipsPerDay} clips 
+  } record { NUMBER($clipsPerDay) ->
+  [one] {$clipsPerDay} clip
+  *[other] {$clipsPerDay} clips
   } a day.
 how-many-per-day = Great! How many clips per day?
 how-many-a-week = Great! How many clips a week?
@@ -805,7 +805,7 @@ receiving-emails-info = You're currently set to receive emails such as goal remi
         progress updates and newsletters about Common Voice
 not-receiving-emails-info = You're currently set to <bold>NOT</bold> receive emails such as goal reminders, my
         progress updates and newsletters about Common Voice
-n-clips-pluralized = { NUMBER($count) -> 
+n-clips-pluralized = { NUMBER($count) ->
               [one] {$count} clip
               *[other] {$count} clips
               }
