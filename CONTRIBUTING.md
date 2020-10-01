@@ -16,12 +16,12 @@ Help us add more sentences for other volunteers to read. We've written [a detail
 
 ### Bug Fixes and Feature Enhancements
 
-All of our current issues can be found here on GitHub. Anything with a [help wanted](https://github.com/mozilla/common-voice/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) tag is definitely up for grabs. If you're interested in an issues without this tag, best to ask first to make sure our vision of it aligns.
+All of our current issues can be found here on GitHub. Anything with a [help wanted](https://github.com/mozilla/common-voice/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) tag is definitely up for grabs. If you're interested in an issues without this tag, best to ask first to make sure our vision of it aligns. Better works on cent OS
 
 #### Project requirements
 
 - [NodeJS](https://nodejs.org) (v8.10 or higher)
-- [yarn](https://yarnpkg.com) (v1 or higher)
+- [yarn](https://yarnpkg.com) (v1 or higher) no need if you are using cent os
 - [ffmpeg](https://www.ffmpeg.org/download.html)
 - [MariaDB](https://mariadb.org/download/) (v10 or higher) or [MySQL](https://www.mysql.com/downloads/) (v5.6 or higher)
 
