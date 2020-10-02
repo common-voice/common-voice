@@ -239,7 +239,6 @@ whats-public = Kva er offentleg?
 email-not-public = Vi gjer ikkje e-postadressa di offentleg.
 recordings-and-locale-public = Talet på innspelingar og kva for språk du bidreg til er offentleg.
 username-optin-public = Du kan velje å gjere brukarnamnet ditt offentleg eller anonymt.
-demographic-deidentified-clarity = Valfritt innsende demografiske data (t.d. alder, kjønn, språk og aksent) vert aldri offentleggjorde på profilen din, og vert ikkje kopla til kontoen din i datasettet. Individuelle lydklipp vert assosierte med demografiske data for å oppnå meir nøyaktig analyse - til dømes vil ein forskar kunne rette ein treningsmodell mot eit spesifikt demografisk segment.
 username-email-not-demographic = Brukernamnet ditt og e-postadressa di vil ikkje bli assosierte med offentliggjorde data.
 
 ## Speak & Listen Shortcuts
@@ -297,7 +296,7 @@ profile-form-accent =
     .label = Dialekt
 profile-form-age =
     .label = Alder
-profile-form-gender =
+profile-form-gender-2 =
     .label = KJønn
 leaderboard-visibility =
     .label = Synlegheit på toppliste
@@ -324,7 +323,6 @@ profile-close = Lat att
 profile-explanation = Hald auge med framdrifta di med ein profil som òg gjer stemmedataa våre meir korrekte.
 thanks-for-account = Takk for at du stadfesta kontoen din, no byggjer vi profilen din.
 why-demographic = Kvifor er dette viktig?
-why-demographic-explanation = Anonymiserte brukardata, som alder, kjønn og dialekt berikar stemmedataa som vert brukte for å trene talegjenkjenningsmotorane. Brukarnamnet ditt og e-postadressa di vil aldri bli assosierte med dine bidrag, og du kan velje om du vil at brukarnamnet ditt skal vere offentleg eller anonymt.
 accept-privacy = Eg godtar at de handterer denne informasjonen som forklart i Mozillas <privacyLink>personvernpraksis</privacyLink>.
 accept-privacy-title = Personvernpraksis
 login-identity = Innloggingsidentitet
