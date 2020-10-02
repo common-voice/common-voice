@@ -236,7 +236,7 @@ whats-public = Có gì được công khai?
 email-not-public = Chúng tôi sẽ không công khai email của bạn.
 recordings-and-locale-public = Số lượng bản ghi và ngôn ngữ bạn đóng góp sẽ được công khai.
 username-optin-public = Bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
-demographic-deidentified-clarity = Dữ liệu nhân khẩu học được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) sẽ không bao giờ được công khai trên hồ sơ của bạn và sẽ không được liên kết với tài khoản của bạn trong bộ dữ liệu. Các clip âm thanh riêng lẻ sẽ được liên kết với dữ liệu nhân khẩu học nhằm mục đích phân tích chính xác hơn - ví dụ: nhà nghiên cứu có thể muốn nhắm mục tiêu mô hình đào tạo đến một phân khúc nhân khẩu học cụ thể.
+demographic-deidentified-clarity-2 = Dữ liệu nhân khẩu học được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) sẽ không bao giờ được công khai trên hồ sơ của bạn và sẽ không được liên kết với tài khoản của bạn trong bộ dữ liệu. Các clip âm thanh riêng lẻ sẽ được liên kết với dữ liệu nhân khẩu học nhằm mục đích phân tích chính xác hơn - ví dụ: nhà nghiên cứu có thể muốn nhắm mục tiêu mô hình đào tạo đến một phân khúc nhân khẩu học cụ thể.
 username-email-not-demographic = Tên người dùng và email của bạn sẽ không được liên kết với dữ liệu được công bố.
 
 ## Speak & Listen Shortcuts
@@ -293,7 +293,7 @@ profile-form-accent =
     .label = Giọng vùng miền
 profile-form-age =
     .label = Tuổi
-profile-form-gender =
+profile-form-gender-2 =
     .label = Giới tính
 leaderboard-visibility =
     .label = Hiển thị bảng thành tích
@@ -320,7 +320,7 @@ profile-close = Đóng
 profile-explanation = Theo dõi tiến trình của bạn với một hồ sơ và giúp dữ liệu giọng nói của chúng tôi chính xác hơn.
 thanks-for-account = Cảm ơn bạn đã xác nhận tài khoản của mình, giờ hãy tạo hồ sơ của bạn.
 why-demographic = Vì sao điều này quan trọng?
-why-demographic-explanation = Dữ liệu người dùng ẩn danh như tuổi, giới tính và giọng vùng miền giúp cải thiện dữ liệu âm thanh được sử dụng để đào tạo sự chính xác của công cụ nhận dạng giọng nói. Tên người dùng và email của bạn sẽ không bao giờ được liên kết với dữ liệu đã gửi của bạn, và bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
+why-demographic-explanation-2 = Dữ liệu người dùng ẩn danh như tuổi, giới tính và giọng vùng miền giúp cải thiện dữ liệu âm thanh được sử dụng để đào tạo sự chính xác của công cụ nhận dạng giọng nói. Tên người dùng và email của bạn sẽ không bao giờ được liên kết với dữ liệu đã gửi của bạn, và bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
 accept-privacy = Tôi đồng ý với việc các bạn xử lý thông tin này khi các bạn giải thích trong <privacyLink>Chính sách bảo mật</privacyLink> của Mozilla
 accept-privacy-title = Chính sách riêng tư
 login-identity = Nhận dạng đăng nhập
