@@ -85,6 +85,7 @@ kaa = Karakalpak
 kab = Cabilo
 kbd = Cabardo
 kk = Kazako
+kmr = Curdo Kurmanji
 ko = Coreano
 kpv = Komi-Zyrian
 kw = Cornico
