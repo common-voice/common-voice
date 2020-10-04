@@ -173,14 +173,14 @@ vote-yes = بەڵێ
 vote-no = نەخێر
 toggle-play-tooltip = دوگمەی { shortcut-play-toggle } لێ بدە بۆ گۆرانی دۆخی پەخش.
 speak-subtitle = دەنگت ببەخشە
-speak-paragraph = زەبت کردنی کلیپی دەنگی بەشێکی گرینگە بۆ درووستکردنی زانیاریسێتی کراوە، چەند کەسێک پێیان وایە ئەوە بەشە خۆشەکەیەتی!
+speak-paragraph = چێکردنی کلیپی دەنگی بەشێکی گرینگە بۆ درووستکردنی کۆمەڵە زانیارییەکی کراوە، چەند کەسێک پێیان وایە ئەوە بەشە خۆشەکەیەتی!
 speak-goal-text = دەنگی تۆمارکراو
 listen-subtitle = یارمەتیمان بدە دەنگەکان بسەلمێنین
 listen-paragraph = سەلماندنی کلیپە بەخشراوەکانیش بە هەمان ئەندازە گرینگە. گوێ بدە بە کلیپەکان تا یارمەتیمان بدەیت زانیاریی دەنگی بە کوالیتی کۆ بکەینەوە.
-listen-goal-text = کلیپی سەلماندراو
+listen-goal-text = کلیپی سەلمێندراو
 hours-recorded = کاژێرت تۆمارکراو
-hours-validated = کاژێری سەلماندراو
-voices-online = دەنگی ئێستا ئانڵاین
+hours-validated = کاژێری سەلمێندراو
+voices-online = ئەو دەنگانەی ئێستا چالاکن
 todays-progress = پێشکەوتنی ئەمڕۆ
 help-reach-goal = یارمەتیمان بدە بگەین بە { $goal }
 read-terms-q = مەرجەکانی ئێمەت خوێندوەتەوە؟
@@ -202,15 +202,15 @@ x-years-short =
         [one] ساڵ
        *[other] ساڵ
     }
-help-make-dataset = یارمەتیمان بدە زانیاریسێتێکی کراوە و بە کوالیتی کۆ بکەینەوە.
+help-make-dataset = یارمەتیمان بدە کۆمەڵە زانیارییەکی کراوە و بە کوالیتی کۆ بکەینەوە.
 sign-up-account = ناونووسی بکە بۆ هەژماری خۆت
-email-subscription-title = ناونووسی بۆ ئاپدەیت لە ڕێگای پۆستی ئەلیکترۆنی
+email-subscription-title = ناونووسی بۆ نوێکردنەوە لەڕێگای پۆستی ئەلیکترۆنی
 email-subscription-title-new = خۆت ناونووس بکە بۆ هەواڵنامە، وەبیرهێنەرەوە و پێشکەوتنت لە پڕۆژەی دەنگی گشتی
 
 ## Account Benefits
 
-benefits = کەڵکەکان
-rich-data = زانیاریی ناردراوی خۆت دەوڵەمەندتر بکە بە دابین کردنی کۆمەڵێک زانیاریت دێمۆگڕافیک بە شێەوی نەناسراو. ئێمە پێش بڵاو کردنی زانیاریکان هەموو زانیاری دێمۆگڕافیک دەسڕینەوە.
+benefits = سوودەکان
+rich-data = زانیاریی ناردراوی خۆت دەوڵەمەندتر بکە بە دابین کردنی کۆمەڵێک زانیاری دێمۆگڕافیک بە شێوەی نەناسراو. ئێمە پێش بڵاوکردنی زانیارییەکان هەموو زانیاری دێمۆگڕافیک دەسڕینەوە.
 improve-audio = زانیاری پڕۆفایل زانیاریی دەنگ باشتر دەکات کە بۆ باشترکردنی سەرنجی فێرکاری ناسینەوەی وتار.
 keep-track = ئاگادار بە لە پێشکەوتن و ئاماری خۆت بۆ زمانەکان.
 compare-progress = بزانە پێشکەوتنی تۆ چۆنە بەرامبەر بە بەشدارانی دیکەی جیهان.
@@ -220,7 +220,7 @@ join-newsletter = بە دلخوازی خۆت ناونووسی بکە بۆ لیس
 ## What's public
 
 whats-public = چی گشتییە؟
-email-not-public = پۆستی ئەلیکترۆنیی تۆ بۆ کەس نیشان نادریت
+email-not-public = پۆستی ئەلیکترۆنیی تۆ بۆ کەس نیشان نادرێت
 recordings-and-locale-public = ژمارەی دەنگەکان و ئەو زمانانەی بەشداری تێدا دەکەی گشتی ئەبێت
 username-optin-public = دەتوانی هەڵبژێری کە ناوی بەکارهێنەری تۆ گشتی بێت یان نەناسراو.
 username-email-not-demographic = ناوی بەکارهێنەر و پۆستی ئەلیکترۆنیی تۆ دیار نابێت لە زانیاریی نەشرکراو.
@@ -251,7 +251,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = تۆمار/ڕاگرتن
 shortcut-rerecord-toggle = [٥-١]
 shortcut-rerecord-toggle-label = تۆماری دووبارە
-request-language-text = زمانی خۆت لە دەگی گشتی نابینیت؟
+request-language-text = زمانی خۆت لە دەنگی گشتی نابینیت؟
 request-language-button = داواکردنی زمان
 
 ## ProjectStatus
@@ -266,7 +266,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ئامانجی داهاتوو
-english = ئنگلیزی
+english = ئینگلیزی
 
 ## ProfileForm
 
@@ -280,30 +280,32 @@ profile-form-accent =
     .label = شێوەزار
 profile-form-age =
     .label = تەمەن
+profile-form-gender-2 =
+    .label = ڕەگەز
 leaderboard-visibility =
     .label = دیاربوونی لیدێربۆڕد
 hidden = شاراوە
 visible = دیار
 native-language =
     .label = زمانی خۆیی
-profile-form-submit-save = سەیڤ
-profile-form-submit-saved = سەیڤ کرا
+profile-form-submit-save = پاشەکەوتکردن
+profile-form-submit-saved = پاشەکەوت کرا
 male = پیاو
 female = ژن
 # Gender
 other = جیاواز
-why-profile-title = بۆچی پرۆفایل؟
+why-profile-title = بۆچی پرۆفایل پێویستە؟
 why-profile-text = بە دیاری کردنی هەندێک زانیاری سەبارەت بە خۆت، زانیاریی ناردراوی تۆ بۆ دەنگی گشتی سوودمەندتر دەبێت. مۆتۆڕەکانە ناسینەوەی وتار ئەم زانیارییە بەکار دێنن بۆ باشتر کردنی دیقەتی خۆیان.
 dashboard = داشبۆڕد
 build-profile = پرۆفایل درووست کە
 avatar = ئاڤاتار
 goals = ئامانجەکان
 settings = ڕێکخستنەکان
-edit-profile = دەسکاریکردنی پرۆفایل
+edit-profile = دەستکاریکردنی پرۆفایل
 profile-create-success = سەرکەوتن! پرۆفایل ساز کرا
-profile-close = بەستن
-profile-explanation = ئاگادار بە لە پێشکەوتنی خۆت لە ڕێێگای پڕۆفایل و یارمەتی ئێمە بدە زانیاریکەمان دەقیقتر بێت.
-thanks-for-account = سوپاس بۆ سەلماندنی هەژماری خۆت، ئێستا وەرە پڕۆفایلێک ساز کەین.
+profile-close = داخستن
+profile-explanation = ئاگادار بە لە پێشکەوتنی خۆت لە ڕێگای پڕۆفایل و یارمەتی ئێمە بدە زانیاریکەمان وردتر بێت.
+thanks-for-account = سوپاس بۆ سەلماندنی هەژماری خۆت، ئێستا وەرە پڕۆفایلێک درووستبکەین.
 why-demographic = گرینگی ئەوە چییە؟
 accept-privacy = ڕازیم بە چۆنیەتی بەکارهێنانی ئام زانیاریانە بەرامبەر بۆ <privacyLink>نهێنی پارێزی</privacyLink> مووزیلا.
 accept-privacy-title = سیاسەتی پاراستنی نهێنی
@@ -312,19 +314,18 @@ login-signup = چوونەژوور/هەژمارکردنی خۆت
 edit = دەسکاریکردن
 email-subscriptions = ئابوونەی پۆستی ئەلیکترۆنیی
 download-profile = داگرتنی زانیاریی من
-contribution-experience = جەڕبی بەشداری
-skip-submission-feedback = بێخیاڵ بوونی فیدبەک بۆ ناردنەکان
-skip-submission-description = لە کاتی بەشدارە، پاش کلیل کردنی نکمەی ناردن چیدی فەدبەکی ناردنت پێشان نادەین. بەشداری تۆ ڕێک دەچیتەوە سەر ٥ زەبت یان سەلماندنی دیکە.
-skip-submission-note = ئاگاداری: پێویستە لە نێوان قسەکردن یان گوێ دان هەڵبأێری.
-off = خامۆش
-on = ڕۆشن
+contribution-experience = تاقیکردنەوەی بەشداری
+skip-submission-feedback = ناردنی پێشنیاز بپەڕێنە
+skip-submission-note = ئاگاداری: پێویستە لە نێوان قسەکردن یان گوێگرتن هەڵبژێری.
+off = ناکارا
+on = کارا
 avatar-clip-title = دەنگێک ببخشە بە ئەڤاتاری خۆت
 change-your-avatar-clip = دەتهەوێ کلیپی دەنگی خۆت بگۆڕی؟
 recording-in-progress = زەبت کردنی دەنگ لە ئەنجام دایە
 avatar-clip-recorded = ئێستا ئەڤاتاری تۆ کلیپی دەنگی هەیە!
 record-voice-wave = تۆمار کردنی شەپۆلی دەنگ
 retry-voice-wave-recording = هەوڵی دووبارە
-re-record = زەبتی دووبارە
+re-record = دووبارە تۆمارکردن
 delete-voice = سڕینەوە
 recording-voice-wave = تۆمارکردن
 delete-voice-clip = یان  کلیپی دەنگی بسڕەوە
@@ -333,7 +334,7 @@ avatar-clip-fact = لە راستیدا دەرکەوتووە کە خوێنەر ک
 recreate-voice = مەوجی دەنگ دیسان ساز کەوە
 cancel-avatar-clip-recording = ڕەتكردنەوە
 about-avatar-clip-recording = کلیپێکی دەنگی بۆ ئەڤاتاری خۆت ساز کە، کەسانی تر دەتوانن ماوس ببەنە سەری و گوێ لە دەنگت بگرن
-browse-file-title = فایلێکی وێنە ئاپلۆد بکە
+browse-file-title = فایلێکی وێنە باربکە بکە
 browse-file = دڕاگی کە ئێرە یان <browseWrap>بگەڕێ بۆ فایل</browseWrap>
 connect-gravatar = بەستنەوە لەگەڵ Gravatar
 gravatar_not_found = هێچ گراڤاتارێک پەیدا نەبوو بۆ پۆستی ئەلیکترۆنیی تۆ
@@ -341,7 +342,7 @@ file_too_large = فایلی هەڵبژێردراو زۆر گەورەیە
 manage-subscriptions = کارگێڕی ئابوونەکان
 manage-email-subscriptions = پیاچوونەوەی ئابوونەی ئێمەیلی
 email-already-used = ئەم پۆستی ئەلیکترۆنیە بۆ هەژمارێکی تر بە کار هێنراوە
-add-language = زمان زیاد کە
+add-language = زمان زیاد بکە
 change-email-setings = پۆستی ئەلیکترۆنیی خۆت لە بەشی تەنزیمات و ناسنامەی چوونەژوور بگۆڕە.
 
 ## FAQ
