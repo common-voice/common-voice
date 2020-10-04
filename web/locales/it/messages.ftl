@@ -237,6 +237,7 @@ whats-public = Quali dati sono pubblici?
 email-not-public = Non renderemo il tuo indirizzo email pubblico.
 recordings-and-locale-public = Il numero di registrazioni e le lingue alle quali contribuisci saranno pubbliche.
 username-optin-public = Puoi scegliere di rendere il tuo nome utente pubblico o anonimo.
+demographic-deidentified-clarity-2 = I dati demografici eventualmente forniti (ad es. età, genere, lingua e accento) non saranno mai resi pubblici sul tuo profilo né collegati al tuo account nel dataset. Le singole registrazioni saranno associate ai dati demografici per un’analisi più accurata, per esempio nel caso in cui un ricercatore volesse concentrare il suo modello di apprendimento vocale su uno specifico segmento demografico.
 username-email-not-demographic = Il tuo nome utente e il tuo indirizzo email non verranno associati ai dati pubblicati.
 
 ## Speak & Listen Shortcuts
@@ -294,6 +295,8 @@ profile-form-accent =
     .label = Accento
 profile-form-age =
     .label = Età
+profile-form-gender-2 =
+    .label = Genere
 leaderboard-visibility =
     .label = Visibilità nella classifica
 hidden = Nascosto
@@ -319,6 +322,7 @@ profile-close = Chiudi
 profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
 thanks-for-account = Grazie per aver confermato il tuo account, ora iniziamo a completare il tuo profilo.
 why-demographic = Perché è importante?
+why-demographic-explanation-2 = Dati utente anonimi come età, genere e accento aiutano a migliorare i dati audio utilizzati per addestrare l’accuratezza dei motori di riconoscimento vocale. Il tuo nome utente ed email non saranno mai associati ai dati inviati e potrai scegliere se rendere il tuo nome utente pubblico o privato.
 accept-privacy = Acconsento al trattamento dei dati come indicato nell’<privacyLink>informativa sulla privacy</privacyLink> di Mozilla
 accept-privacy-title = Informativa sulla privacy
 login-identity = Identità di accesso
