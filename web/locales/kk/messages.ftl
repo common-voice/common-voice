@@ -612,9 +612,17 @@ overall-accuracy = Жалпы дәлдік
 
 ## Custom Goals
 
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] { $count } clip
+    }
 help-share-goal = Бізге көбірек дауыстар табуға көмектесіңіз, мақсатыңызбен бөлісіңіз
 confirm-goal = Мақсатты растаңыз
 goal-interval-weekly = Апта сайын
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $count } Clip күнделікті мақсатын { $type } үшін бөлісіңіз
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $count } Clip апталық мақсатын { $type } үшін бөлісіңіз
 share-goal-type-speak = Сөйлеу
 share-goal-type-listen = Тыңдау
 share-goal-type-both = Сөйлеу және тыңдау
