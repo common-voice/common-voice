@@ -429,7 +429,7 @@ difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
 confirm-goal = Ҳадафро тасдиқ кардан
 goal-interval-weekly = Ҳар ҳафта
-return-to-edit-goal = Барои вироиши ҳадафи худ ҳар вақт ба ин ҷо баргардед.
+return-to-edit-goal = Барои таҳрир кардани ҳадафи худ ҳар вақт ба ин ҷо баргардед.
 
 ## Profile Delete
 

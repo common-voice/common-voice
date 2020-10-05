@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = Саҳмгузорӣ
+contribute = Саҳм гузоштан
 get-involved-button = Ҳамроҳ шудан
 get-involved-title = Ба забони { $lang } саҳм гузоред
 get-involved-text =
