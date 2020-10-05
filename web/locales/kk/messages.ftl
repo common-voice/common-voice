@@ -612,6 +612,7 @@ overall-accuracy = Жалпы дәлдік
 
 ## Custom Goals
 
+share-goal = Мақсатыммен бөлісу
 
 ## Profile Delete
 
@@ -628,6 +629,8 @@ profile-form-delete = Профайлды өшіру
 
 ## Landing
 
+welcome-staff = { $company } қызметкерлеріне қош келдіңіз!
+help-contribute = Сіз Common Voice профилін құру және өз даусыңызды беру арқылы алуан түрлі, бастапқы коды ашық деректер жиынтығын құруға көмектесе аласыз.
 login-company = { $company } электрондық поштасымен кіріңіз / тіркеліңіз
 profile-not-required = Профайл болуы қажетті емес, бірақ пайдалы болуы мүмкін
 read-more-about = Толығырақ туралы Біздің парағымыздан оқыңыз
