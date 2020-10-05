@@ -377,6 +377,10 @@ about-clip-graveyard = Maziara ya vipande vya sauti.
 about-clip-graveyard-text = Maziara ya vipande vya sauti vina sehemu za sauti ambazo hazikuweza kuwekwa kwenye daftari la Common Voice. Kama daftari tu, maziara ya vipande vya sauti vinapatikana kwa kupakuliwa.
 about-partners = Washiriki
 about-become-a-partner = Kuwa mshiriki
+about-partnership =
+    Common Voice ni mradi wa kushirikiana, na tunategemea jamii yetu ya washirika na wachangiaji wa kutengeneza chanzo wazi cha daftari kubwa la sauti.¶
+    ¶
+    Tungependa kuwashukuru watu na mashirika yafuatayo kwa msaada wao kwenye huu mradi:
 about-get-involved = Jihusishe
 about-nav-why-common-voice = kwanini?
 about-nav-how-it-works = kivipi?
