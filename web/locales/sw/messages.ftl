@@ -409,6 +409,7 @@ hours-validated-explanation = Idadi ya saa za kurekodi sauti ambazo zimehalalish
 sst = Sauti kwa maandishi (SKM)
 sst-explanation = Teknolojia ya sauti kwa maandishi (SKM) hubadilisha data ya sauti kuwa maandishi.
 de-identified = kutodhihirisha
+de-identified-explanation = Mchakato ambao maelezo ya wasifu wa mchangiaji hufungiwa kutoka kwa vipande vyao vya sauti vilivyotolewa wakati wa kukusanywa na kupakuliwa kama sehemu ya daftari.
 
 ## Error pages
 
