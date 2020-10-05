@@ -612,6 +612,7 @@ overall-accuracy = Жалпы дәлдік
 
 ## Custom Goals
 
+return-to-edit-goal = Мақсатыңызды өзгерту үшін кез-келген уақытта осы жерге оралыңыз.
 share-goal = Мақсатыммен бөлісу
 
 ## Profile Delete
