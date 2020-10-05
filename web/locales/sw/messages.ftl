@@ -405,8 +405,10 @@ localization-explanation = Huu ni mchakato wetu wa kutafsiri na kurekebisha yali
 sentence-collection = Mkusanyiko wa sentensi
 sentence-collection-explanation = Kukusanya sentensi kutoka kwa uwanja wa umma, au kuandika sentensi mpya kwa uwanja wa umma.
 hours-recorded-explanation = Idadi ya saa za kurekodi sauti ambazo tumekusanya hadi sasa.
+hours-validated-explanation = Idadi ya saa za kurekodi sauti ambazo zimehalalishwa na watumiaji 2 kati ya 3 na kura ya "Ndio". Hii ni alama ya maendeleo ya kuelekea lengo la mradi wa jumla ya saa elfu kumi.
 sst = Sauti kwa maandishi (SKM)
 sst-explanation = Teknolojia ya sauti kwa maandishi (SKM) hubadilisha data ya sauti kuwa maandishi.
+de-identified = kutodhihirisha
 
 ## Error pages
 
