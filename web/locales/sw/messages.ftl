@@ -374,6 +374,7 @@ about-no-votes-text = Mtumiaji akikataa kipande cha sauti hurejea kwenye foleni.
 about-dataset-new = Daftari la Common Voice
 about-dataset-new-text = Daftari la Common Voice ina mamia ya maelfu ya sampuli za sauti ambazo husaidia wasanidi kuunda zana za utambuzi wa sauti.
 about-clip-graveyard = Maziara ya vipande vya sauti.
+about-clip-graveyard-text = Maziara ya vipande vya sauti vina sehemu za sauti ambazo hazikuweza kuwekwa kwenye daftari la Common Voice. Kama daftari tu, maziara ya vipande vya sauti vinapatikana kwa kupakuliwa.
 about-partners = Washiriki
 about-become-a-partner = Kuwa mshiriki
 about-get-involved = Jihusishe
