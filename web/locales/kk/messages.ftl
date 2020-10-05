@@ -477,6 +477,7 @@ ready-to-validate = Сөйлемдерді растауға көмектесуг
 more = Көбірек
 close = Жабу
 download = Жүктеп алу
+dataset-version = Нұсқа
 
 ## Download Modal
 
@@ -627,4 +628,6 @@ profile-form-delete = Профайлды өшіру
 
 ## Landing
 
+login-company = { $company } электрондық поштасымен кіріңіз / тіркеліңіз
 profile-not-required = Профайл болуы қажетті емес, бірақ пайдалы болуы мүмкін
+read-more-about = Толығырақ туралы Біздің парағымыздан оқыңыз
