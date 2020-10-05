@@ -612,6 +612,17 @@ overall-accuracy = Жалпы дәлдік
 
 ## Custom Goals
 
+help-share-goal = Бізге көбірек дауыстар табуға көмектесіңіз, мақсатыңызбен бөлісіңіз
+confirm-goal = Мақсатты растаңыз
+goal-interval-weekly = Апта сайын
+share-goal-type-speak = Сөйлеу
+share-goal-type-listen = Тыңдау
+share-goal-type-both = Сөйлеу және тыңдау
+# LINK will be replaced with the current URL
+goal-share-text = Мен #CommonVoice жобасына дауыс беру үшін жеке мақсат құрдым - маған қосылыңыз және машиналарға нақты адамдардың сөйлеу мәнерін үйретуге көмектесіңіз { $link }
+weekly-goal-created = Сіздің апталық мақсатыңыз жасалды.
+daily-goal-created = Сіздің күнделікті мақсатыңыз жасалды.
+track-progress = Жетістіктерді осы жерде және статистика парағында қадағалаңыз.
 return-to-edit-goal = Мақсатыңызды өзгерту үшін кез-келген уақытта осы жерге оралыңыз.
 share-goal = Мақсатыммен бөлісу
 
