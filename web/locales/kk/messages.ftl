@@ -533,6 +533,10 @@ contribute = Үлес қосу
 listen = Тыңдаңыз
 skip = Өткізіңіз
 shortcuts = Таңбашалар
+clips-with-count-pluralized =
+    { $count ->
+       *[other] <bold>{ $count }</bold> клип
+    }
 goal-help-recording = Сіз Common Voice'ка күндік { $goalValue } аудиожазба жаздыру мақсатының <goalPercentage></goalPercentage> көрсеткішіне қолжетуде көмек еттіңіз!
 goal-help-validation = Сіз Common Voice'ка күндік { $goalValue } аудиожазба тексеру мақсатының <goalPercentage></goalPercentage> көрсеткішіне қолжетуде көмек еттіңіз!
 contribute-more =
@@ -542,6 +546,7 @@ contribute-more =
 record-cta = Жазуды бастау
 record-platform-not-supported = Кешіріңіз, бірақ сіздің платформаңызға қолдау көрсетілмейді.
 record-platform-not-supported-desktop = Жұмыс үстелі компьютерлерінде ең соңғы нұсқаны жүктеуге болады:
+record-platform-not-supported-ios-non-safari = IOS жүйесінде жазуды қосу үшін Safari-ді қолданыңыз...
 record-must-allow-microphone = Сіз микрофонға қатынауға рұқсат беруіңіз керек.
 record-no-mic-found = Микрофон табылмады.
 record-error-too-short = Бұл жазба тым қысқа болды.
@@ -569,6 +574,8 @@ listen-instruction = { $actionType } <playIcon></playIcon> Олар сөйлем
 listen-again-instruction = Керемет жұмыс! <playIcon></playIcon> Дайын болған кезіңізде қайта тыңдаңыз
 listen-3rd-time-instruction = 2 дайын, жалғастырыңыз! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Соңғысы!
+listen-empty-state = Осы тілде тексеру үшін клиптеріміз таусылды ...
+speak-empty-state = Осы тілде жазу үшін сөйлемдеріміз таусылды ...
 speak-empty-state-cta = Сөйлемдерді қосыңыз
 record-button-label = Дауысыңызды жазыңыз
 share-title-new = Көбірек дауыс табуға <bold>бізге көмектесіңіз</bold>
