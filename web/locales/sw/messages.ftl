@@ -474,6 +474,8 @@ subscribe = Jiandikishe
 get-started-speech = Pata kuanza na utambulizi wa sauti
 other-datasets = Daftari zingine za sauti
 feedback-q = Una Maoni?
+go-discourse = Nenda kwenye Discourse
+missing-language = Je! Huoni lugha yako ikijitokeza kwenye daftari? Kuomba lugha, elekea kwenye ukurasa wetu wa Lugha.
 go-languages-page = Nenda kwenye kurasa za lugha
 ready-to-validate = Uko tayari kusaidia kuhalalisha sentensi?
 more = Zaidi
@@ -484,6 +486,7 @@ dataset-version = Toleo
 ## Download Modal
 
 download-title = Upakuaji umeanza
+download-helpus = Tusaidie kujenga jamii kwenye eneo la teknolojia ya sauti, tuwasiliane kupitia ujumbe wa barua pepe.
 download-form-email =
     .label = Weka barua pepe yako
     .value = Asante, tutawasiliana
@@ -538,6 +541,7 @@ clips-with-count-pluralized =
        *[other] Vipande <bold>{ $count }</bold> vya sauti
     }
 goal-help-recording = Umesaidia Common Voice kufikia <goalPercentage></goalPercentage> ya malengo yetu ya kila siku ya { $goalValue } ya kurekodi!
+goal-help-validation = Umesaidia Common Voice kufikia <goalPercentage></goalPercentage> ya lengo letu la uthibitisho la { $goalValue } la kila siku!
 contribute-more =
     { $count ->
         [one] Uko tayari kufanya { $count } zaidi?
@@ -549,11 +553,14 @@ record-no-mic-found = Hakuna kinasa sauti kilichopatikana
 record-error-too-short = Rekodi ilikua ya mda mfupi sana.
 record-error-too-long = Rekodi ilikua ya mda mrefu sana
 record-error-too-quiet = Rekodi ilikua ya kimya sana
+record-cancel = Ghairi Kurekodi tena
 record-instruction = { $actionType } <recordIcon> </recordIcon> kisha soma sentensi hiyo kwa sauti
+record-stop-instruction = { $actionType } <stopIcon> </stopIcon> ukimaliza
 record-three-more-instruction = Tatu kumaliza!
 record-again-instruction = Vizuri!<recordIcon></recordIcon>Rekodi kipande kinachofata.
 record-again-instruction2 = Jitahidi, rekodi tena <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ya mwisho!
+review-tooltip = Pitia na rekodi upya vipande vya sauti unapoendelea
 share-clip = Sambaza kipande chako cha sauti
 share-common-voice = Sambaza Common Voice
 review-instruction = Pitia na rekodi tena vipande vya sauti ikiwa inahitajika.
@@ -563,8 +570,10 @@ record-abort-title = Maliza kurekodi kwanza?
 record-abort-text = Kuondoka sasa inamaanisha utapoteza maendeleo yako
 record-abort-submit = Tuma vipande
 record-abort-continue = Maliza kurekodi
+record-abort-delete = Toka na futa vipande vya sauti
 listen-instruction = { $actionType }<playIcon></playIcon>Wameongea sentensi kwa usahihi?
 listen-again-instruction = Kazi nzuri!<playIcon></playIcon>Sikiliza tena ukiwa tayari
+listen-3rd-time-instruction = 2 tayari, endelea kujitahidi!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>ya mwisho!
 listen-empty-state = Tumeishiwa na vipande vya sauti vya kuhalalishwa kwenye hii lugha
 speak-empty-state = Tumeishiwa na sentensi za kurekodi katika lugha hii...
