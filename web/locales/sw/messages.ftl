@@ -382,12 +382,19 @@ about-partnership =
     ¶
     Tungependa kuwashukuru watu na mashirika yafuatayo kwa msaada wao kwenye huu mradi:
 about-get-involved = Jihusishe
+about-get-involved-text-2 =
+    Je! Unataka kusaidia kufanya Common Voice kuwa bora zaidi?
+    Vizuri! Wasiliana kupitia barua pepe au idhaa ya <discourseLink> Discourse </discourseLink>
+    ,wasilisha maswala ya tovuti kupitia <githubLink> GitHub </githubLink>, au ujiunge na mazungumzo ya jamii ya <matrixLink> Matrix </matrixLink>.
 about-nav-why-common-voice = kwanini?
 about-nav-how-it-works = kivipi?
 about-nav-partners = Washiriki
 about-nav-get-involved = Jihusishe
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelijensia bandia
+mycroft-description =
+    Mycroft ni msaidizi wa kwanza wa chanzo wazi ulimwenguni.¶
+    Mycroft inatumika popote - kwenye tarakilishi, ndani ya gari, au kwenye Raspberry Pi.
 
 ## Glossary
 
