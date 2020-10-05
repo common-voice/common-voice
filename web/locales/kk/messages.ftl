@@ -609,17 +609,24 @@ recorded-clips = Жазылған клиптер
 validated-clips = Тексерілген клиптер
 total-approved = Жалпы мақұлданды
 overall-accuracy = Жалпы дәлдік
+set-visibility = Менің көрінуімді орнатыңыз
+show-ranking = Менің рейтингімді көрсетіңіз
 
 ## Custom Goals
 
+get-started-goals = Мақсаттардан бастаңыз
 build-custom-goal = Жеке мақсатты құр
+help-reach-hours-pluralized =
+    Жетуге көмектесіңіз{ NUMBER($hours) ->
+       *[other] сағат
+    }{ $language } тілінде жеке мақсатпен
 set-a-goal = Мақсат қойыңыз
 how-many-per-day = Керемет! Күніне қанша клип?
 how-many-a-week = Керемет! Аптасына қанша клип?
 which-goal-type = Сіз сөйлегіңіз келе ме, тыңдайсыз ба әлде екеуі де ме?
 n-clips-pluralized =
     { NUMBER($count) ->
-       *[other] { $count } clip
+       *[other] { $count } клип
     }
 help-share-goal = Бізге көбірек дауыстар табуға көмектесіңіз, мақсатыңызбен бөлісіңіз
 confirm-goal = Мақсатты растаңыз
