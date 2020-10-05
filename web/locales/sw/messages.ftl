@@ -395,11 +395,13 @@ mycroft-subtitle = Intelijensia bandia
 mycroft-description =
     Mycroft ni msaidizi wa kwanza wa chanzo wazi ulimwenguni.¶
     Mycroft inatumika popote - kwenye tarakilishi, ndani ya gari, au kwenye Raspberry Pi.
+mycroft-secondary-description = Hii ni programu ya chanzo wazi ambayo inaweza kurekebishwa kwa uhuru na kuboreshwa. Mycroft inaweza kutumika katika kitu chochote kutoka kwa mradi wa sayansi hadi programu ya wamiliki.
 
 ## Glossary
 
 glossary = Faharasa
 localization = Ujanibishaji
+localization-explanation = Huu ni mchakato wetu wa kutafsiri na kurekebisha yaliyomo katika nyanja nyingi (lugha).
 sentence-collection = Mkusanyiko wa sentensi
 sentence-collection-explanation = Kukusanya sentensi kutoka kwa uwanja wa umma, au kuandika sentensi mpya kwa uwanja wa umma.
 hours-recorded-explanation = Idadi ya saa za kurekodi sauti ambazo tumekusanya hadi sasa.
