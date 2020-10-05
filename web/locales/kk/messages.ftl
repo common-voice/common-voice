@@ -140,6 +140,7 @@ speak = Сөйлеу
 speak-now = Қазір сөйлеу
 datasets = Деректер жинағы
 languages = Тілдер
+about = Біз туралы
 profile = Профайл
 help = Көмек
 contact = Контакт
@@ -635,6 +636,17 @@ help-reach-hours-pluralized =
        *[other] сағат
     }{ $language } тілінде жеке мақсатпен
 set-a-goal = Мақсат қойыңыз
+cant-decide = Шешім қабылдай алмайсыз ба?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+       *[other] { $totalHours } сағатқа
+    }қол жеткізуге болады{ NUMBER($periodMonths) ->
+       *[other] { $periodMonths } ай ішінде
+    }егер{ NUMBER($people) ->
+       *[other] { $people } адам
+    }жазса{ NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } клип
+    }күніне
 how-many-per-day = Керемет! Күніне қанша клип?
 how-many-a-week = Керемет! Аптасына қанша клип?
 which-goal-type = Сіз сөйлегіңіз келе ме, тыңдайсыз ба әлде екеуі де ме?
