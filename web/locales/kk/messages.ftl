@@ -202,6 +202,7 @@ x-years-short =
 help-make-dataset = Жоғары сапалы, жалпы ашық деректер жиынтығын құруға көмектесіңіз
 sign-up-account = Тіркелгіні баптау
 email-subscription-title = электрондық пошта жаңартуларына тіркеліңіз
+email-subscription-title-new = Common Voice бюллетеньдеріне, мақсат туралы ескертулерге және прогреске қатысты жаңартуларға жазылыңыз
 
 ## Account Benefits
 
