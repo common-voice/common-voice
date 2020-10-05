@@ -612,6 +612,11 @@ overall-accuracy = Жалпы дәлдік
 
 ## Custom Goals
 
+build-custom-goal = Жеке мақсатты құр
+set-a-goal = Мақсат қойыңыз
+how-many-per-day = Керемет! Күніне қанша клип?
+how-many-a-week = Керемет! Аптасына қанша клип?
+which-goal-type = Сіз сөйлегіңіз келе ме, тыңдайсыз ба әлде екеуі де ме?
 n-clips-pluralized =
     { NUMBER($count) ->
        *[other] { $count } clip
