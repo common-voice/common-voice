@@ -596,11 +596,13 @@ validations =
 
 your-languages = Сіздің тілдеріңіз
 toward-next-goal = Келесі мақсатқа қарай
+goal-reached = Мақсатқа жетті
 clips-you-recorded = Сіз жазған клиптер
 clips-you-validated = Сіз растаған клиптер
 todays-recorded-progress = Жаздырған клиптернің бүгінгі Common Voice прогресі
 todays-validated-progress = Тексерілген клиптернің бүгінгі Common Voice прогресі
 stats = Статистика
+awards = Марапаттар
 you = Сіз
 everyone = Әркім
 contribution-activity = Көмек ету белсенділігі
@@ -610,6 +612,8 @@ validated-clips = Тексерілген клиптер
 total-approved = Жалпы мақұлданды
 overall-accuracy = Жалпы дәлдік
 set-visibility = Менің көрінуімді орнатыңыз
+visibility-explainer = Бұл параметр көшбасшылар кестесінің көрінуін басқарады. Жасырын болса, сіздің жетістіктеріңіз Сізге ғана көрсетіледі. Бұл сіздің суретіңіз, пайдаланушы атыңыз және жетістіктеріңіздің көшбасшылар кестесінде көрінбейтінін білдіреді. Өзгерістерді енгізу мақсатындағы көшбасшылар кестесінің жаңартылуы  ~{ $minutes } минут орындалатынына назар аударыңыз .
+visibility-overlay-note = Ескерту: «Көрінетін» күйіне орнатылған кезде, бұл параметрді <profileLink> Профиль бетінен </profileLink> өзгертуге болады.
 show-ranking = Менің рейтингімді көрсетіңіз
 
 ## Custom Goals
