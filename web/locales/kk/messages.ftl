@@ -555,6 +555,8 @@ record-again-instruction = Керемет! Келесі клипіңізді ж�
 record-again-instruction2 = Жалғастырыңыз, қайта жазып көріңіз <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Соңғысы!
 review-tooltip = Қарап шығып, жазуларды қайта жазыңыз
+share-clip = Клипіңізбен бөлісіңіз
+share-common-voice = Common Voice-пен бөлісіңіз
 review-instruction = Клиптерді қарап шығыңыз, қажет болса, қайта жазыңыз.
 record-submit-tooltip = { $actionType } Дайын болғанда жіберіңіз.
 clips-uploaded = Клиптер жүктелді
@@ -567,6 +569,7 @@ listen-instruction = { $actionType } <playIcon></playIcon> Олар сөйлем
 listen-again-instruction = Керемет жұмыс! <playIcon></playIcon> Дайын болған кезіңізде қайта тыңдаңыз
 listen-3rd-time-instruction = 2 дайын, жалғастырыңыз! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Соңғысы!
+speak-empty-state-cta = Сөйлемдерді қосыңыз
 record-button-label = Дауысыңызды жазыңыз
 share-title-new = Көбірек дауыс табуға <bold>бізге көмектесіңіз</bold>
 
