@@ -505,8 +505,11 @@ confirm-size = Reiméma remboguejy hag̃uáicha <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 download-language = Emboguejy { $language }
+validated-hours = Aravo mboajepyre
+recorded-hours = Aravo ñongatupyre
 whats-inside = ¿Mba’e oĩ Common Voice mba’ekuaarãme?
 subscribe = Mboheraguapy
+other-datasets = Ambue mba’ekuaara ayvugua rupa
 feedback-q = ¿Eñe’ẽsépa?
 go-discourse = Eike Discourse-pe
 go-languages-page = Eho Ñe’ẽ Kuatiaroguépe
@@ -537,9 +540,11 @@ other-language = Ambue Ñe’ẽ
 
 ## Languages Overview
 
+language-section-in-progress = Ojejapóva
 language-section-launched = Mombopyre
 languages-show-more = Ehechave
 languages-show-less = Ehecha’ive
+language-meter-in-progress = Jeku’e
 language-total-progress = Opavavete
 language-search-input =
     .placeholder = Heka
