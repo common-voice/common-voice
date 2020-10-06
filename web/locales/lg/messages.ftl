@@ -727,7 +727,7 @@ clips-you-validated = Clips z'okakasizza
 todays-recorded-progress = Wetutuuse leero ku Common Voice ku clips ezirikodingiddwa.
 todays-validated-progress = Wetutuuse leero ku Common Voice ku clips ezikakasiddwa
 stats = Stats
-awards = Awards
+awards = Ebirabo
 you = Gwe
 everyone = Buli omu
 contribution-activity = Contribution Activity
@@ -743,7 +743,7 @@ show-ranking = Ndaga wendi
 
 ## Custom Goals
 
-get-started-goals = Tandika ku bigobero
+get-started-goals = Tandika n'ebiruubirirwa
 create-custom-goal = Teekawo ekiruubirirwa ekikyo
 goal-type = Kiruubirirwa ki ky'oyagala okuzimba?
 both-speak-and-listen = By'ombi
@@ -808,7 +808,7 @@ share-goal-type-speak = Okwogera.
 share-goal-type-listen = Okuwliriza
 share-goal-type-both = Okwogera n'okuwuliriza.
 # LINK will be replaced with the current URL
-goal-share-text = Nateekawo ekiruubirwa kyange eky'okuwaayo eri #CommonVoice -- neegattaako oyambe okuyigiriza ebyuma  ngeri abantu abaddala bwe bayogera { $link }
+goal-share-text = Ntadewo ekiruubirwa kyange eky'okuwaayo eri #CommonVoice -- neegattaako oyambe okuyigiriza ebyuma ngeri abantu abaddala bwe bayogera { $link }
 weekly-goal-created = Ekigobero kyo ekya buli wiiki kikolebbwa
 daily-goal-created = Ekigobero kyo ekya buli lunaku kikolebbwa
 track-progress = Manyira wano w'otuuse oba ku stats page yo.
