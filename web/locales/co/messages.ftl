@@ -129,6 +129,7 @@ compare-progress = Paraguneti u vostru prugressu à quellu di l'altri cuntributo
 
 ## What's public
 
+whats-public = Chì dati sò publichi ?
 username-email-not-demographic = U vostru nome d'utilizatore è email ùn sarani micca assuciati à i dati publicati.
 
 ## Speak & Listen Shortcuts
