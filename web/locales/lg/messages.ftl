@@ -218,9 +218,9 @@ x-years-short =
         [one] mwaka { $count }
        *[other] myaka { $count }
     }
-help-make-dataset = Tuyambe tuzimbe omutindo ogwa wagulu, dataset akirizibwa abantu bonna
+help-make-dataset = Tuyambe okuzimba dataset ey'omutindo ogwa waggulu, ey'olukale nga ya bwereere.
 sign-up-account = Ggulawo akawunti
-email-subscription-title = Ffuna obubaka mu email
+email-subscription-title = Funa obubaka mu email
 email-subscription-title-new = Ffuna ebifa ku Common Voice, ebijjukizo n'ebwetutuuse.
 
 ## Account Benefits
