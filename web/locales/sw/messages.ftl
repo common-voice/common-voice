@@ -23,8 +23,10 @@ not-available-abbreviation = haihitajiki
 
 ## Languages
 
+ab = Kiabkhazia
 af = Kiafrikana
 am = Kiamhara
+an = Kiaragoni
 ar = Kiarabu
 ast = Kiasturia
 ba = Kibashkiri
