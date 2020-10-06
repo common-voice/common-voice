@@ -166,9 +166,9 @@ terms = Obukwakkulizo
 cookies = Cookies
 faq = FAQ
 content-license-text = Bye tulina biri wansi wa <licenseLink>Creative Commons layisinsi</licenseLink>
-share-title = Tufunire abalala batuwe ku malaboozi!
+share-title = Tuyambe okufuna abalala baweeyo amaloboozi gaabwe!
 share-text = Yamba okusomesa masiini engeri abantu gye boogera, tuwe eddoboozi lyo ku { $link }
-link-copied = Linki ekopeddwa
+link-copied = Linki Ekopeddwa
 back-top = Ddayo waggulu
 logout = Fuluma
 
