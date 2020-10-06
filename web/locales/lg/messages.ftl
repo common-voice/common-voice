@@ -221,11 +221,11 @@ x-years-short =
 help-make-dataset = Tuyambe okuzimba dataset ey'omutindo ogwa waggulu, ey'olukale nga ya bwereere.
 sign-up-account = Ggulawo akawunti
 email-subscription-title = Funa obubaka mu email
-email-subscription-title-new = Ffuna ebifa ku Common Voice, ebijjukizo n'ebwetutuuse.
+email-subscription-title-new = Funa ebifa ku Common Voice, okujjukiza ekiruubirirwa kyo ne w'otuuse
 
 ## Account Benefits
 
-benefits = W'ofuniramu
+benefits = Emigaso
 rich-data = Fuula data wo gwowaddeyo omujjuvu nga bw'osobola nga owaayo ebimu ku data w'obuzimbe bw'abantu atamanyikiddwa. Tugyako obulambe bwonna ku data w'obuzimbe bw'abantu nga tetunnamufuula wa lukale.
 improve-audio = Obubaka ku pulofayilo bulongoosa data omwogere akozesebwa mu ku tendeka obutufu bw'entegeera y'okwogera.
 keep-track = Manya ebikwata ku ntambulayo n'ebipimo mu nnimi ennyingi
@@ -251,7 +251,7 @@ shortcut-skip = b
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = z
-shortcut-play-toggle-label = zanya/lekerawo
+shortcut-play-toggle-label = Zannya/Lekera awo
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -264,10 +264,10 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = l
-shortcut-record-toggle-label = lekodinga/lekerawo
+shortcut-record-toggle-label = Likodinga/Lekera awo
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ddamu olekodinge
-request-language-text = Tonnaba kulaba lulimi lwo ku Common Voice?
+request-language-text = Tolaba lulimi lwo ku Common Voice?
 request-language-button = Saba olulimu
 
 ## ProjectStatus
@@ -334,19 +334,19 @@ contribution-experience = Ebirala by'okozze
 skip-submission-feedback = Buuka Okutuwa Obubaka
 skip-submission-description = Bw'oba osindika by'oyambyeko, obubabaka bujja kubukibwa oluvannyuma lw'okunyiga 'Submit'. By'oyambyeko bijja kweyongerayo butereevu ne likoodingi 5 eziddako oba ebisunsuddwa.
 skip-submission-note = Manya: Ojja kwetaga okulonda wakati W'okwogera oba Okuwuliriza okukyusa ekika ky'okuyamba.
-off = Teliko
-on = Kweli
+off = Teriiko
+on = Kweri
 avatar-clip-title = Ka dolle ko kawe eddoboozi
 change-your-avatar-clip = Oyagala kukyusa eddoboozi lyo?
 recording-in-progress = Oli mu ku lekodinga ddoboozi
 avatar-clip-recorded = Ekifananyi kyo kati kijja n'kalaboozi!
 record-voice-wave = LIKODINGA AKALOBOOZI
 retry-voice-wave-recording = DDAMU
-re-record = Lekodinga butto
+re-record = Likodinga buto
 delete-voice = Sangula
-recording-voice-wave = Lekodinga
-delete-voice-clip = oba Sangula eddoboozi
-ready-to-upload = TEKAYO
+recording-voice-wave = Likodinga
+delete-voice-clip = oba Sangula clip y'eddoboozi
+ready-to-upload = TEEKAYO
 avatar-clip-fact = Mazima kuva dda nti omusomi abuzabuzibwa by'asoma ku pegi nga atunilidde enfanana y'ayo.
 recreate-voice = Ddamu Akaloboozi
 cancel-avatar-clip-recording = SAZAAMU
