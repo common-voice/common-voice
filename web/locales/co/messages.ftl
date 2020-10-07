@@ -146,6 +146,8 @@ username-email-not-demographic = U vostru nome d'utilizatore è email ùn sarani
 
 ## Speak Shortcuts
 
+request-language-text = Ùn viditi micca a vostra lingua in Common Voice ?
+request-language-button = Richiede una lingua
 
 ## ProjectStatus
 
@@ -160,8 +162,14 @@ profile-form-accent =
 profile-form-age =
     .label = Età
 visible = Visìbile
+profile-form-submit-save = Arrighjistrà
 profile-form-submit-saved = Arrighjistratu
+male = Masciu
+female = Femina
+# Gender
+other = Altru
 avatar = Avatar
+skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 
 ## FAQ
 
