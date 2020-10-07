@@ -130,6 +130,7 @@ x-weeks-short =
 
 ## Account Benefits
 
+benefits = Vantaghji
 compare-progress = Paraguneti u vostru prugressu à quellu di l'altri cuntributori in u mondu sanu.
 
 ## What's public
