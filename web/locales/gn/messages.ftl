@@ -300,6 +300,8 @@ profile-form-accent =
     .label = Muanduhe
 profile-form-age =
     .label = Ary
+profile-form-gender-2 =
+    .label = Meña
 leaderboard-visibility =
     .label = Jehechakuaa Itenondéva apytépe
 hidden = Kañygua
@@ -495,6 +497,8 @@ review-delete-recordings = Embogue ñe'ẽ añongatuva'ekue
 language = Ñe’ẽ
 # File size in gigabytes
 size = Tuichakue
+validated-hr-total = Aravo mboajepyre
+overall-hr-total = Aravo hasapyre
 cv-license = Ñemoneĩkuatia
 audio-format = Mba’epu Ysaja
 number-of-voices = Mboy Ahy'ópa
