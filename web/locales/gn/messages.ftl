@@ -513,6 +513,7 @@ validated-hours = Aravo mboajepyre
 recorded-hours = Aravo ñongatupyre
 whats-inside = ¿Mba’e oĩ Common Voice mba’ekuaarãme?
 subscribe = Mboheraguapy
+get-started-speech = Eñepyrũ ko árape ayvu jeikuaa
 other-datasets = Ambue mba’ekuaara ayvugua rupa
 feedback-q = ¿Eñe’ẽsépa?
 go-discourse = Eike Discourse-pe
@@ -525,6 +526,7 @@ dataset-version = Peteĩchagua
 
 ## Download Modal
 
+download-title = Ne ñemboguejy oñepyrũma.
 download-no = Nahániri, aguyje
 
 ## Contact Modal
