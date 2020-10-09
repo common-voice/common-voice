@@ -518,10 +518,8 @@ review-delete-recordings = Sazaamu ebilikodinge byange
 
 datasets-headline = Tuzimba dataset y'amaloboozi ey'obwereere ey'ennimi ennyingi  omuntu yenna gy'asobola okukozesa okuyigiriza tekinologiya  w'okwogera.
 datasets-positioning =
-    Tukkiriza nti dataset enene ate nga za lukale az'amaloboozi zireeta okuyiiya n'okuvuganya okulungi okw'ebyensimbi mu tekinologiya w'okwogera.¶
-    ¶
+    Tukkiriza nti dataset enene ate nga za lukale az'amaloboozi zireeta okuyiiya n'okuvuganya okulungi okw'ebyensimbi mu tekinologiya w'okwogera.
     Dataset ya Common Voice ey'ennimi ennyingi ye dataset ey'amaloboozi ey'olukale esinga obunene mu ngeri yaayo, naye si ye yokka.
-    ¶
     Tunuulira page eno nga ekyokulabirako kya dataset z'amaloboozi ez'olukale era, nga Common Voice bwe ye yongera okukula, ekibanja aw'okufulumiza ebipya ebyaffe.
 language = Olulimi
 # File size in gigabytes
@@ -537,7 +535,7 @@ why-email = <b>Lwaki email?</b> Bwetuba tuyagade okukutukirira nga waliwo ebicus
 confirm-size = Wetegese okutandika oku downloadinga <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Okiriza</b>obutagendelera kuzuula bikwata ku bogezi mu dataset ya Common Voice
+confirm-no-identify = <b>Okkiriza</b> obutagezaako kuzuula bikwata ku boogezi mu dataset ya Common Voice
 download-language = Download { $language }
 validated-hours = Essaawa Ezisunsuddwa
 recorded-hours = Essaawa ezilikodingiddwa
