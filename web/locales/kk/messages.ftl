@@ -357,6 +357,7 @@ connect-gravatar = Gravatar-мен байланысыңыз
 gravatar_not_found = Электрондық поштаңыз үшін gravatar табылған жоқ
 file_too_large = Таңдалған файл тым үлкен
 manage-subscriptions = Жазылуларды басқару
+manage-email-subscriptions = Электрондық поштаға жазылымдарды басқару
 email-already-used = Электрондық пошта әлдеқашан басқа тіркелгі үшін пайдаланылды
 add-language = Тіл қосу
 change-email-setings = Электрондық поштаңызды Логин бөлігіндегі баптаулар арқылы өзгертіңіз
