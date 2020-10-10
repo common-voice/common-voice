@@ -651,6 +651,18 @@ contribute-more =
     }
 record-cta = Eñepyrũ eñe'ẽñongatu
 record-platform-not-supported = Rombyasyete, ne pyendavusu nomba'apokuaáira'e gueteri ore mba'éva ndive.
+record-platform-not-supported-desktop = Reiporúramo mohendaha mesa'arigua eporopytyvõkuaa emboguejývo…
+record-platform-not-supported-ios-non-safari = Reiporúramo iOS eikeva'erã Safari-pe emoneĩ hag̃ua ñe'ẽñemboguapy…
+record-must-allow-microphone = Remoneĩva'erã ñe'ẽmbotuichaha jeporu.
+record-no-mic-found = Ndojejuhúi ñe'ẽmbotuichaha.
+record-error-too-short = Mbykyetereíma ñe'ẽñembohyapupyre.
+record-error-too-long = Ipukuetereíma ñe'ẽñembohyapupyre.
+record-error-too-quiet = Ikirirĩetereíma ñe'ẽñembohyapupyre.
+record-cancel = Ejoko Ñe'ẽñemboguapyjey
+record-instruction = { $actionType }<recordIcon></recordIcon> ha upéi emoñe'ẽ hatã ñe'ẽjoaju
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> oĩmba vove
+record-three-more-instruction = ¡Ejapo mbohapyve!
+record-again-instruction = ¡Oĩ porãitépiko! <recordIcon></recordIcon> Embohyapuve
 target-segment-learn-more = Kuaave
 
 ## Reporting
