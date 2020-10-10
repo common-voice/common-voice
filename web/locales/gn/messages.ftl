@@ -488,12 +488,14 @@ hours-validated-explanation = Mboy ñe'ẽryapu aravópa omoneĩmava 2, 3 tapich
 sst = Moñe’ẽra ijayvúva (STT)
 sst-explanation = Ñe'ẽ-Jehai (STT) rembiporu amboguapy jehaípe ñe'ẽryapu.
 de-identified = Jekuaa’ỹ
+de-identified-explanation = Mba'éichapa oñembo'apohárakuaa'ỹ oñeñongatu jave ñe'ẽryapu kuaapy'atýpe.
 
 ## Error pages
 
 error-title-404 = Ndorojuhúi upe togue rehekáva.
 error-content-404 = Oiméne rejuhukuaa ore <homepageLink>ñandutirenda ñepyrũha</homepageLink>-pe reikotevẽva. Eporandu hag̃ua, eikemína <matrixLink>Pytyvõhára Aty Ñemongetarenda'i</matrixLink>-pe, ehechami ehóvo apañuãi oikóva <githubLink>GitHub</githubLink>-pe térã eikemi <discourseLink>ore Ñemongetaguasu rendakuéra</discourseLink>-pe.
 error-title-503 = Ore apañuãi ko'ág̃aite, ho'ávaicha mohendahavusu.
+error-content-503 = Ñandutirogue oĩjeýta vokoieténte. Eikuaasevéramo, eikemi <matrixLink>Atyrusu ñemongeta renda</matrixLink>-pe térã <githubLink>GitHub</githubLink> ỹramo katu <discourseLink>Ñomongetaguasu renda</discourseLink>pe eñeñandukami hag̃ua rejuhúramo apañuãi.
 error-code = Javy { $code }
 
 ## Data
@@ -503,6 +505,8 @@ data-download-yes = Héẽ
 data-download-deny = Nahániri
 data-download-license = Moneĩmby: <licenseLink>CC-0</licenseLink>
 data-download-modal = Remboguejytahína <size>{ $size }GB</size> Kuaapy, oĩ porãpa?
+data-subtitle = Ore rojaporo'ína ñe'ẽryapu aty ñongatupyre opavavépe g̃uarã ha ombokatupyrýva mohendahápe oikũmbývo yvypóra ñe'ẽ.
+data-explanatory-text = Ore roimo'ã oĩramo ñe'ẽryapu opavavépe g̃uarã oĩvéta avei tembiapo pyahu opavavépe g̃uarã oikũmbýva ha ohaíva oje'éva chupe. Upévare roñepia'ãmbaite ko tembiapópe, roipotágui tembiporu pyahu og̃uahẽkuaa opavave pópe ha opaite ñe'ẽme.
 data-get-started = <speechBlogLink>Eikuaañepyrũ Ñe'ẽ Ñeikũmby rehegua</speechBlogLink>
 data-other-title = Ambue mba’ekuaarã marandurenda ijayvúva…
 data-other-goto = Eho { $name }-pe
