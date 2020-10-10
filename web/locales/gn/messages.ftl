@@ -586,10 +586,16 @@ dataset-version = Peteĩchagua
 ## Download Modal
 
 download-title = Ne ñemboguejy oñepyrũma.
+download-helpus = Orepytyvõmína okakuaa hag̃ua ñande aty omba'apóva tembiporu pyahu rehe, ehejami ne ñe'ẽveve ikatuhag̃uáicha akóinte reikuaa ipyahúva.
+download-form-email =
+    .label = Ehai ne ñe'ẽveve
+    .value = Aguyjevete, ñañomongetátajepi.
+download-back = Ejevy Common Voice Kuaapyryrukuérape
 download-no = Nahániri, aguyje
 
 ## Contact Modal
 
+contact-title = Kuatia ñemyenyhẽrã Eñe'ẽ hag̃ua orendive
 contact-form-name =
     .label = Téra
 contact-form-message =
@@ -598,14 +604,18 @@ contact-required = *tekotevẽva
 
 ## Request Language Modal
 
+request-language-title = Ejerure Ñe'ẽ Ñemoinge
 request-language-form-language =
     .label = Ñe’ẽ
+request-language-success-title = Oñemondóma mba'ejerure, aguyjevete.
+request-language-success-content = Ag̃aite roñatõita ikatuhag̃uáicha reikuaami mba'éichapa remoingekuaa ne ñe'ẽ Common Voice aponde'ápe.
 select-language = Eiporavo ñe’ẽ...
 other-language = Ambue Ñe’ẽ
 
 ## Languages Overview
 
 language-section-in-progress = Ojejapóva
+language-section-in-progress-new-description = Ko'ã ñe'ẽ rehe oñemba'apohína ore atýpe. Ñemboguata ra'ãnga ohechauka mboy pevépa <localizationGlossaryLink>oñembohasáma ñandutirenda</localizationGlossaryLink> ñe'ẽ pyahúpe ha mboýpa okakuaáma <sentenceCollectionGlossaryLink>ñe'ẽjoaju ñemono'õ</sentenceCollectionGlossaryLink>.
 language-section-launched = Mombopyre
 languages-show-more = Ehechave
 languages-show-less = Ehecha’ive
