@@ -432,6 +432,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ¿Mba’é eipurúta Common Voice?
+about-subtitle = Common Voice-niko Mozilla rembiapo oipytyvõva maquina-kuérape oñe'ẽvo oñe'ẽháicha yvypóra. Common Voice kuaapy'aty ykére, rojapo avei ambue tembiporu hérava Deep Speech, ha'evahína tembiporu oikũmbykuaáva yvypóra ñe'ẽ.
 how-does-it-work-title = ¿Mba’éicha omba’apo?
 about-speak = Ayvu
 about-listen-queue = Ñehenduha ruguái
