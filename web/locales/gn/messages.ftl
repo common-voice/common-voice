@@ -451,10 +451,20 @@ about-yes-votes-text = Ikatuhag̃uáicha oñemoneĩ ñe'ẽjoaju ñembohyapupyre
 about-no-votes = ≥ 2 Voto oiko’ỹva
 about-no-votes-text = Oĩramo ombotovéva'ekue ñe'ẽjoaju ñongatupyre, ojevyjeýta upéva ñe'ẽjoaju rysýipe. Oñembotovejeýramo, ohasáma upe ñe'ẽjoaju Clip Graveyard, ha'evahína Ñe'ẽryapu ñongatupyre Tyvyty.
 about-dataset-new = Common Voice mba’ekuaarã rupa
+about-dataset-new-text = Common Voice kuaapy'aty oñongatu pype hetaite ñe'ẽryapu oipytyvõva tembiporu guerojerahárape ojapo hag̃ua tembiporu oikũmbýva ha ohaikuaáva ohendúva.
 about-clip-graveyard = Ñongatuhakuéra mbyatyha
+about-clip-graveyard-text = Clip Graveyard, ñe'ẽryapu ñongatupyre tyvytýniko ombyaty umi ñe'ẽjoaju oñembohyapuva'ekue oñembotoveva'ekue, ikatúva avei oñemboguejy.
 about-partners = Irũnguéra
 about-become-a-partner = Toiko ndehegui irũ
+about-partnership =
+    Common Voice oguata oĩ rupi tapicha oporopytyvõva, upévare ore rembiapo osãingo pytyvõhára rehe oiko hag̃ua chugui ñe'ẽryapu ñongatupyre atypy tuichavéva ñande yvy ape árigua.
+    
+    Ore rombo'aguyjeme'ẽse opaite yvypóra ha tapicha aty orepytyvõvape:
 about-get-involved = Poropytyvõ
+about-get-involved-text-2 =
+    Reipytyvõsépa ikatuhag̃uáicha Common Voice iporãve?
+    Iporãiténe upéva! Eñe'ẽ orendive ne ñe'ẽveve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
+    renda rupive, orekuaaukamína avei oĩramo apañuãi ñanduti rendápe ko'ápe:<githubLink>GitHub</githubLink> térã eikemi <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
 about-nav-why-common-voice = ¿Mba’ére?
 about-nav-how-it-works = ¿Mba’e?
 about-nav-partners = Irũnguéra
