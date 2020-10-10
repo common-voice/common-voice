@@ -816,13 +816,29 @@ n-clips-pluralized =
     }
 help-share-goal = Orepytyvõmína rojuhumívo ambuéva ome'ẽséva avei ijahy'o
 confirm-goal = Emoneĩ Jehupytyrã
+goal-interval-weekly = Arapokõindy ñavõ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Eikuaauka nde { $count } Jehupytyrã ara ñavõmegua kóvape: { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Eikuaauka nde { $count } Jehupytyrã arapokõindy ñavõmegua kóvape: { $type }
 share-goal-type-speak = Ayvúpe
 share-goal-type-listen = Ohenduhína
+share-goal-type-both = Ñe'ẽ ñembohyapu ha Ñemoneĩ
+# LINK will be replaced with the current URL
+goal-share-text = Amohendaramoite che jehupytyrã ame'ẽ hag̃ua che ahy'o #CommonVoice -pe, eikemína emba'apomívo chendive ikatuhag̃uáicha jaguereko tembiporu oikũmby ha ohaikuaáva oje'éva chupe opavavépe g̃uarã: { $link }
+weekly-goal-created = Oñemohendáma rehupytyséva arapokõindy ñavõme.
+return-to-edit-goal = Ejevy ko'ápe emoambuese jave nde jehupytyrã.
+share-goal = Emoherakuã che jehupytyrã
 
 ## Profile Delete
 
+keep = Eñongatu
 remove = Mboguete
 profile-form-delete = Mba’ete Mboguete
 
 ## Landing
 
+welcome-staff = ¡Tereg̃uahẽporãite { $company } atýpe!
+login-company = Eike / Eñemboheraguapy ñe'ẽveve { $company } pegua reheve
+profile-not-required = Natekotevẽi rejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapóramo, ko guýpe romyesakãmive mba'érepa.
+read-more-about = Eikuaave kóva rehe ore Mba'e rehegua roguépe
