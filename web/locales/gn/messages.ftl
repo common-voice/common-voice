@@ -557,10 +557,20 @@ download-language = Emboguejy { $language }
 validated-hours = Aravo mboajepyre
 recorded-hours = Aravo ñongatupyre
 whats-inside = ¿Mba’e oĩ Common Voice mba’ekuaarãme?
+dataset-description-hours =
+    Peteĩteĩ ñe'ẽryapu ñongatupyre oĩvaniko oguereko peteĩ MP3 ha jehai. Heta umi <b>{ $total }</b> aravo ñe'ẽryapu ñongatupyrégui oĩva kuaapy'atýpe oguereko avei ijykére kuaapyrã avano'õ rehegua: aryve, meña ha ñembohyapu reko oipytyvõkuaaporãvéva tembiporu oikũmby ha ohai hag̃ua ohendúva.
+    
+    Kuaapy'aty oguerekohína <b>{ $valid }</b> aravo moneĩmbyre <b>{ $languages }</b> ñe'ẽme, katu ore romongakuaa rohóvo ko tembiapo. Eikemi ehechávo ore <languagesLink>Ñe'ẽnguéra rogue</languagesLink> eikesévo peteĩ ñe'ẽ rembiapópe eporopytyvõ hag̃ua.
+want-dataset-update = Akóintepa reikuaase mba'epyahu Common Voice kuaapy'aty rehegua? Eñemboheraguapy ore Momaranduhápe.
 subscribe = Mboheraguapy
 get-started-speech = Eñepyrũ ko árape ayvu jeikuaa
 other-datasets = Ambue mba’ekuaara ayvugua rupa
 feedback-q = ¿Eñe’ẽsépa?
+deepspeech-info = Common Voice kuaapy'aty oykeko ambue Mozilla rembiporu hérava Deep Speech, ha'éva ku'eha ojeporukuaáva tembiporúpe oikũmby ha ohaiséva oje'éva chupe. Emoñe'ẽ ore <githubLink>Github Kuaapyrã</githubLink> térã eike ore <discourseLink>DeepSpeech Ñomongeta renda</discourseLink> eikuaaseve hag̃ua hese ha mba'éichapa eikekuaa ko tembiapópe.
+common-voice-info-new = Oĩpa emba'eporanduséva Common Voice rehe? Oúramo ne akãme apy'ã iporãjepéva térã oĩramo mba'e eme'ẽséva hese ne remiandu peteĩ ñe'ẽme rehegua, eike eñe'ẽvo orendive ore <discourseLink>Ñomongetaguasu</discourseLink> rendápe.
+data-other-librispeech-description = LibriSpeech-niko peteĩ ñe'ẽryapuryru oguerekóva 1000 aravo rupi 16Khz ñe'ẽjoaju ryapu ñongatupyre inglés-pe oúva aponde'aguasu LibriVox arandukarendúvagui.
+data-other-ted-name = TED-LIUM Ñe'ẽryapu Ryru
+data-other-ted-description = TED-LIUM ñe'ẽryapu ryru ombyaty ñe'ẽryapu oúva ñomongeta ha jehai TED ñandutirendágui.
 go-discourse = Eike Discourse-pe
 go-languages-page = Eho Ñe’ẽ Kuatiaroguépe
 ready-to-validate = ¿Eiméma emboaje hag̃ua ñe’ẽjuaju?
