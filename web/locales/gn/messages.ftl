@@ -617,6 +617,7 @@ other-language = Ambue Ñe’ẽ
 language-section-in-progress = Ojejapóva
 language-section-in-progress-new-description = Ko'ã ñe'ẽ rehe oñemba'apohína ore atýpe. Ñemboguata ra'ãnga ohechauka mboy pevépa <localizationGlossaryLink>oñembohasáma ñandutirenda</localizationGlossaryLink> ñe'ẽ pyahúpe ha mboýpa okakuaáma <sentenceCollectionGlossaryLink>ñe'ẽjoaju ñemono'õ</sentenceCollectionGlossaryLink>.
 language-section-launched = Mombopyre
+language-section-launched-description = Ko'ã ñe'ẽme g̃uarã oĩma <localizationGlossaryLink>ñandutirenda ñembohasapyre</localizationGlossaryLink> ha oĩma avei heta porã <sentenceCollectionGlossaryLink>ñe'ẽjoaju mono'õmbyre</sentenceCollectionGlossaryLink> ha upévare ikatúma <speakLink>oñembohyapu</speakLink> ha <listenLink>oñehendu</listenLink>.
 languages-show-more = Ehechave
 languages-show-less = Ehecha’ive
 language-meter-in-progress = Jeku’e
@@ -625,6 +626,8 @@ language-search-input =
     .placeholder = Heka
 language-speakers = Ñe’ẽharakuéra
 localized = Ñe’ẽasapyre
+sentences = Ñe'ẽjoajukuéra
+total-hours = Aravo Moneĩmbyre
 
 ## Contribution
 
@@ -634,6 +637,20 @@ contribute = Ñepytyvõ
 listen = Tysýi
 skip = Jepo
 shortcuts = Mbopya’eha
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Ñe'ẽryapu
+       *[other] <bold>{ $count }</bold> Ñe'ẽryapu
+    }
+goal-help-recording = ¡Reipytyvõma Common Voice-pe ohupyty hag̃ua <goalPercentage></goalPercentage> arapegua rembiapógui, ha'éva { $goalValue } ñe'ẽ ñembohyapu rupytyrã!
+goal-help-validation = ¡Reipytyvõma Common Voice-pe ohupyty hag̃ua <goalPercentage></goalPercentage> arapegua rembiapógui, ha'éva { $goalValue } ñe'ẽ ñemoneĩ rupytyrã!
+contribute-more =
+    { $count ->
+        [one] Reĩmapa rejapomi { $count }ve?
+       *[other] Reĩmapa rejapomi { $count }ve?
+    }
+record-cta = Eñepyrũ eñe'ẽñongatu
+record-platform-not-supported = Rombyasyete, ne pyendavusu nomba'apokuaáira'e gueteri ore mba'éva ndive.
 target-segment-learn-more = Kuaave
 
 ## Reporting
