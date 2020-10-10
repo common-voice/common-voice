@@ -246,6 +246,7 @@ whats-public = Mba'épa ohechakuaáta opavave?
 email-not-public = Ne ñe'ẽveve ndoikuaamo'ãi mavave.
 recordings-and-locale-public = Mboýpa reipytyvõva'ekue ojekuaaukátai.
 username-optin-public = Erekuaa avei reipotápa ojekuaa ndeipot poruhára réra.
+demographic-deidentified-clarity-2 = Kuaapyrã avano'õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe'ẽte ha ñembohyapu reko) ndojekuaaukamo'ãi araka'eve nde roguetépe, ha noñembojoajumo'ãi avei nde poruhára rérare kuaapy'atýpe. Mba'erendurã oñembojoajúta kuaapy avano'õ rehegua rehe ikatuhag̃uáicha oñehesa'ỹijoporãve mba'ekuaapy - techapyrãrõ oĩramo tembiporu apohára omoheñoiséva tembiporu peteĩ tetã térã tetãpehẽme g̃uarã.
 username-email-not-demographic = Mavave ndoikuaamo'ãi nde poruhára réra ni ñe'ẽveve oiporukuévo ñe'ẽryapu.
 
 ## Speak & Listen Shortcuts
@@ -332,6 +333,7 @@ profile-close = Mboty
 profile-explanation = Eikuaa akóinte mba'éichapa oguata ohóvo tembiapo ehechávo nde rogueteépe ha eipytyvõ avei hekopete hag̃ua ñe'ẽryapu ojeporúva.
 thanks-for-account = Aguyjevete erehaguére nde cuénta añeteha, ko'ag̃a ñambosako'ive nde roguetee.
 why-demographic = Mba'érepa jajapova'erã kóva?
+why-demographic-explanation-2 = Mba'ekuaarã poruhára rehegua: aryve, meña ha mba'éichapa oñembohyapu oikoha rupi oipytyvõ mbarete mohendahápe oikũmby hag̃ua ohendúva. Nde poruhára réra ha ñe'ẽveve noñembojoajumo'ãi araka'eve mba'erendurã remondóva rehe ha ndevoi erekuaa reipotápa ojekuaa nde poruhára réra térãpa nahániri.
 accept-privacy = Oĩ porã, amoneĩ ojeporu kuaapyrã chemba'éva oñemyesakãhaguéicha chéve Mozilla <privacyLink>Kuaapy Jeporu</privacyLink> kuatiápe.
 accept-privacy-title = Temiñemi Purureko
 login-identity = Tembiapo ñepyrũ kuaaukaha
@@ -417,8 +419,13 @@ faq-is-account-public-q = ¿Marandu che mba’ete rehegua ojehechakuaa?
 faq-how-privacy-q = Mba'éichapa pemboajekatu ndojekuaaitaha mávapa ome'ẽ ijahy'o ko tembiapópe?
 faq-how-privacy-a = Opaite ñe'ẽryapu ñongatupyre oñeñongatu kuaapy'atýpe ndoguerekóiva pype kuaapyrã ome'ẽva'ekue ijahy'o rehegua. Ijahy'o ome'ẽva he'i avei moõgotyoguápa ha'e katu upéva noñeñongatúi héra ykére. Ojepe'a héra oñemboguapy mboyve kuaapy'atýpe ha araka'eve ndojehechaukái mavavépe.
 faq-what-determine-identity-q = Mba'épa he'ise "ndaikatuiha aikuaa mávapa ñe'ẽhára" Common Voice kuaapy'atýpe?
+faq-what-determine-identity-a =
+    Common Voice kuaapy'aty oiporukuaa opavave ojapóvo tembiporu oikũmbýva ha ohaíva ohendúva. Romo'ã hag̃ua ñane pytyvõhárape mba'evaígui, ore rojerure opavavépe omboguejýva Common Voice kuaapy'aty oñangareko ha omboaje hag̃ua ore pytyvõhárape.
+    
+    Opaite ñe'ẽryapu ñongatupyre oñembo'apoharakuaa'ỹ. Remboguejy jave Common Voice kuaapy'aty, remoneĩ nderehekamo'ãiha mávapa umi oporopytyvõva. Péva he'ise ndaikatuiha rembojoaju ñe'ẽryapu ñongatupyre pytyvõhára rehe. Jepéramo upéva reiporukuaa ñe'ẽryapu ñongatupyre ejapo hag̃ua tembiporu oikũmbýva oje'éva chupe ha ohaikuaáva ohendúva ha avei ambue tembiporu.
 faq-what-is-cv = ¿Mba’épa Common Voice?
 faq-using-cv = Mba’éicha eipurúta Common Voice
+faq-description = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe'ẽvõ oñe'ẽháicha yvypóra.
 faq-search-for-answers =
     .label = Eheka mbohovái ne porandúpe
 
