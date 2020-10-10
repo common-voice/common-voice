@@ -753,12 +753,38 @@ total-approved = Opaite Oñemoĩmáva
 overall-accuracy = Hekopetekue
 set-visibility = Emohenda che rechapyrã
 visibility-explainer = Ko'ápe oñeñangareko mboýpa ojehecha nde rehegua. Oñemi jave, mavave ndohechamo'ãi mboýpa rejapo rehóvo. Péva he'ise ne ra'ãnga ha rejapóva ndojehechamo'ãi Pytyvõhára Rysýipe. Pytyvõhára rysýi oñembopyahuve ijehegui ha sapy'ánte imbeguemi ojehecha hag̃ua remoambueva'ekue.
+visibility-overlay-note = Ejesareko: He'íramo 'Ojekuaa', emoambuekuaa upéva nde <profileLink>Rogueteé</profileLink>pe
+show-ranking = Ehechauka moõpa aime mba'erysýipe
 
 ## Custom Goals
 
+get-started-goals = Tañepyrũ jehupytyrã reheve
+create-custom-goal = Eiporavo nde rupytyrã reipotaháicha
+goal-type = Mba'épa rehupytyse?
 both-speak-and-listen = Mokõive
+both-speak-and-listen-long = Mokõive (Ñe'ẽ Ñembohyapu ha Ñemoneĩ)
+daily-goal = Jehupytyrã Arapegua
+weekly-goal = Jehupytyrã Arapokõindypegua
 easy-difficulty = Hasy’ỹva
 average-difficulty = Mbytegua
+difficult-difficulty = Hasy
+pro-difficulty = Ikatupyrýva
+lose-goal-progress-warning = Ndevoi emoĩramo nde jehupypytyrã, oiméne oguéta marandu rejapómava'ekue rehegua.
+want-to-continue = Ejaposépa upéva?
+finish-editing = Remohendapase raẽpa?
+lose-changes-warning = Esẽramo ko'ág̃a noñeñongatumo'ãi emoambuéva'ekue
+build-custom-goal = Emoĩ ndevoi nde jehupytyrã
+help-reach-hours-pluralized =
+    Pytyvõ Rupytykue{ NUMBER($hours) ->
+        [one] { $hours } aravo
+       *[other] { $hours } aravo
+    }ko ñe'ẽme: { $language } che jehupytyrã reheve
+help-reach-hours-general-pluralized =
+    Common Voice jehupytyrã Pytyvõ{ NUMBER($hours) ->
+        [one] { $hours } aravo
+       *[other] { $hours } aravo
+    }ñe'ẽ ha jehupytyrã che aiporavóva
+set-a-goal = Emoĩ nde jehupytyrã
 share-goal-type-speak = Ayvúpe
 share-goal-type-listen = Ohenduhína
 
