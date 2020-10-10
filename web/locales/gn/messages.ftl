@@ -688,18 +688,34 @@ share-title-new = <bold>Orepytyvõmína</bold> rojuhumíva tapicha ome'ẽséva 
 keep-track-profile = Eikuaameme mboýpa rejapóma peteĩ togue nemba'éva rupive
 login-to-get-started = Eike térã eñemboheraguapy eñepyrũvo
 target-segment-first-card = Remba'apohína ore ñe'ẽpehẽ rupytyrã peteĩha rehe
+target-segment-first-banner = Eipytyvõmive emoheñóivo Common Voice ñe'ẽpehẽ rupytyrã peteĩha { $locale }me
+target-segment-add-voice = Eme'ẽ Nde Ahy'o
 target-segment-learn-more = Kuaave
 
 ## Reporting
 
 report = Momarandu
+report-title = Emondo Marandu
+report-ask = Mba'épa oĩvai térã nemoapañu'ãi ko ñe'ẽjoajúpe?
+report-offensive-language = Ha'épa ñe'ẽky'a?
+report-offensive-language-detail = Ñe'ẽjoaju hekoky'a.
+report-grammar-or-spelling = Oĩ vai ñe'ẽtekuaa térã jehaípe
+report-grammar-or-spelling-detail = Ñe'ẽjoaju ojehai vai térã iñe'ẽtekuaa noiporãi.
+report-different-language = Kóva ambue ñe'ẽ
+report-different-language-detail = Ko ñe'ẽ ndaha'éi pe che añe'ẽvahína.
+report-difficult-pronounce = Ijetu'u oñembohyapu hag̃ua
+report-difficult-pronounce-detail = Oĩ pype ñe'ẽ térã ñe'ẽ apesã hasyetereíva oñemoñe'ẽ hag̃ua.
+report-offensive-speech = Ñe'ẽky'a
+report-offensive-speech-detail = Ñe'ẽjoaju iky'a
 report-other-comment =
     .placeholder = Je’erei
 success = Oĩporãva
 continue = Ku’ejey
+report-success = Eikuaauka osẽ porãvakuri
 
 ## Goals
 
+streaks = Jehupytyrã
 days =
     { $count ->
         [one] Ára
@@ -718,6 +734,11 @@ validations =
 
 ## Dashboard
 
+your-languages = Ne ñe'ẽnguéra
+toward-next-goal = Ambue hupytyrã rapykuéri
+goal-reached = Ojehupytymáva
+clips-you-recorded = Ñe'ẽjoaju rembohyapuva'ekue
+clips-you-validated = Ñe'ẽjoaju remoneĩva'ekue
 awards = Jopói
 you = Nde
 everyone = Opavavete
