@@ -433,13 +433,23 @@ faq-search-for-answers =
 
 about-title = ¿Mba’é eipurúta Common Voice?
 about-subtitle = Common Voice-niko Mozilla rembiapo oipytyvõva maquina-kuérape oñe'ẽvo oñe'ẽháicha yvypóra. Common Voice kuaapy'aty ykére, rojapo avei ambue tembiporu hérava Deep Speech, ha'evahína tembiporu oikũmbykuaáva yvypóra ñe'ẽ.
+about-header-description =
+    Mokõivéva tembiapo rojapo roñeha'ãgui og̃uahẽ hag̃ua tembiporu pyahu opavavépe. Tembiporu yvypóra ñe'ẽ oikũmbýva ombohasy'ỹve mba'epyahu jeporu (mohendaha, pumbyry, tablet ha ambueve). Upeva'erã roikotevẽ hetaite ñe'ẽryapu ñongatupyre. Ko'ag̃a rupi heta yvypóra ñe'ẽryapu ñongatupyre oĩva ijára.
+    Ore rohecha vai upéva ha roipota opavave oiporukuaa tembiporu yvypóra ñe'ẽ oikũmbýva ha oĩhágui opaichagua yvypóra, roipota avei ojejesarekõ opaite ñe'ẽ oĩva ñande yvy ape ári rehe. Oñondive ñamoĩkuaa ãichagua tembiporu opavave pópe.
 how-does-it-work-title = ¿Mba’éicha omba’apo?
+how-does-it-work-text = Ore romono'õ viru yvypóra ome'ẽreíva ñandéve jajapo hag̃ua ko tembiapo. Eme'ẽmi nde ahy'o térã emoneĩ ñe'ẽryapu ñongatupyre eporopytyvõ hag̃ua avei. Péicharupi ko tembiapo iporãveta opavavépe g̃uarã.
 about-speak = Ayvu
+about-speak-text = Ome'ẽva ijahy'o omoñe'ẽ hatã ñe'ẽjoaju ome'ẽreiva'ekue avei oréve ambue pytyvõhára ha oĩva ore kuaapy'atýpe.
 about-listen-queue = Ñehenduha ruguái
+about-listen-queue-text = Ñe'ẽryapu ñongatupyre oike peteĩ ñemoneĩrã rysýipe oñembosako'íva oñemboaje hag̃ua.
 about-listen = Ehendu
+about-listen-text = Poruhára omoneĩ oĩ porãpa ñe'ẽryapu ñongatupyre ambuéva ojapova'ekue.
 about-is-it-valid = ¿Ñeñongatu oikoite?
+about-is-it-valid-text = Ñe'ẽryapu ñongatupyre rehe oje'e "oĩ porã"ha oĩramo tapicha ojopyva'ekue votõ he'ihápe "Héẽ".
 about-yes-votes = ≥ 2 vóto oikóva
+about-yes-votes-text = Ikatuhag̃uáicha oñemoneĩ ñe'ẽjoaju ñembohyapupyre ha oike Common Voice kuaapy'atýpe, oĩva'erã mokõi pytyvõhára omoneĩva'ekue upe ñe'ẽjoajuryapu ñongatupyre.
 about-no-votes = ≥ 2 Voto oiko’ỹva
+about-no-votes-text = Oĩramo ombotovéva'ekue ñe'ẽjoaju ñongatupyre, ojevyjeýta upéva ñe'ẽjoaju rysýipe. Oñembotovejeýramo, ohasáma upe ñe'ẽjoaju Clip Graveyard, ha'evahína Ñe'ẽryapu ñongatupyre Tyvyty.
 about-dataset-new = Common Voice mba’ekuaarã rupa
 about-clip-graveyard = Ñongatuhakuéra mbyatyha
 about-partners = Irũnguéra
