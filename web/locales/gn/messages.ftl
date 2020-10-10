@@ -739,9 +739,20 @@ toward-next-goal = Ambue hupytyrã rapykuéri
 goal-reached = Ojehupytymáva
 clips-you-recorded = Ñe'ẽjoaju rembohyapuva'ekue
 clips-you-validated = Ñe'ẽjoaju remoneĩva'ekue
+todays-recorded-progress = Mboýpa oñembohyapúma ko árape Common Voice-pe
+todays-validated-progress = Mboy ñe'ẽryapu ñongatupyrépa oñemoneĩma ko árape Common Voice-pe
+stats = Jepapara'ãnga'i
 awards = Jopói
 you = Nde
 everyone = Opavavete
+contribution-activity = Poropytyvõ Kyre'ỹ
+top-contributors = Oipytyvõvéva
+recorded-clips = Ñe'ẽryapu Ñongatupyre
+validated-clips = Ñe'ẽryapu Moneĩmbyre
+total-approved = Opaite Oñemoĩmáva
+overall-accuracy = Hekopetekue
+set-visibility = Emohenda che rechapyrã
+visibility-explainer = Ko'ápe oñeñangareko mboýpa ojehecha nde rehegua. Oñemi jave, mavave ndohechamo'ãi mboýpa rejapo rehóvo. Péva he'ise ne ra'ãnga ha rejapóva ndojehechamo'ãi Pytyvõhára Rysýipe. Pytyvõhára rysýi oñembopyahuve ijehegui ha sapy'ánte imbeguemi ojehecha hag̃ua remoambueva'ekue.
 
 ## Custom Goals
 
