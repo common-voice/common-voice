@@ -663,6 +663,18 @@ record-instruction = { $actionType }<recordIcon></recordIcon> ha upéi emoñe'�
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> oĩmba vove
 record-three-more-instruction = ¡Ejapo mbohapyve!
 record-again-instruction = ¡Oĩ porãitépiko! <recordIcon></recordIcon> Embohyapuve
+record-again-instruction2 = ¡iporãvéntema! ejapove ambue <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ¡Peteĩvéjepe!
+review-tooltip = Ehechajey ha Eñe'ẽñembohyapujey ñe'ẽjoaju ápe rejapo aja ambue mba'e.
+share-clip = Emboja'o ne ñe'ẽryapu ñongatupyre ambuéva ndive
+share-common-voice = Emoherakuã Common Voice
+review-instruction = Ehendujey ha Eñembohyapujey ñe'ẽjoaju tekotevẽramo
+record-submit-tooltip = { $actionType } emondo oĩporãmaramo
+clips-uploaded = Ñe'ẽryapu Ñongatupyre Ojehupímava
+record-abort-title = Eñembohyapupase raẽpa?
+record-abort-text = Esẽramo ko'ág̃a noñeñongatumo'ãi ejapovahína
+record-abort-submit = Emondo Ñe'ẽryapu Ñongatupyre
+record-abort-continue = Embopaha ñe'ẽñembohyapu
 target-segment-learn-more = Kuaave
 
 ## Reporting
