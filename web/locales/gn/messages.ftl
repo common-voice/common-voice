@@ -785,6 +785,37 @@ help-reach-hours-general-pluralized =
        *[other] { $hours } aravo
     }ñe'ẽ ha jehupytyrã che aiporavóva
 set-a-goal = Emoĩ nde jehupytyrã
+cant-decide = Ndereikuaamo'ãipa mba'épa?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } aravo
+       *[other] { $totalHours } aravo
+    }ahupytykuaa{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } jasýpe
+       *[other] { $periodMonths } jasýpe
+    }oĩramo{ NUMBER($people) ->
+        [one] { $people } tapicha
+       *[other] { $people } tapicha
+    }ombohyapúva{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } ñe'ẽjoaju
+       *[other] { $clipsPerDay } ñe'ẽjoaju
+    }ára ñavõme
+how-many-per-day = ¡Oĩ porãiterei! Mboy ñe'ẽjoajúpa ára ñavõme?
+how-many-a-week = ¡Oĩ porãiterei! Mboy ñe'ẽjoajúpa arapokõindy ñavõme?
+which-goal-type = Reñembohyapusépa, remoneĩsépa ñe'ẽ térãpa mokõive?
+receiving-emails-info =
+    Og̃uahẽta ndéve marandu ñe'ẽveve rupive, nemomandu'átava nde jehupytyserã, 
+    avei mboýpa rejapóma rehóvo ha Common Voice rehegua.
+not-receiving-emails-info =
+    <bold>Nog̃uahẽmo'ãi</bold> ndéve marandu ñe'ẽveve rupive, nemomandu'átava nde jehupytyserã, 
+    térã mboýpa rejapóma rehóvo ha Common Voice rehegua.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ñe'ẽryapu ñongatupyre
+       *[other] { $count } ñe'ẽryapu ñongatupyre
+    }
+help-share-goal = Orepytyvõmína rojuhumívo ambuéva ome'ẽséva avei ijahy'o
+confirm-goal = Emoneĩ Jehupytyrã
 share-goal-type-speak = Ayvúpe
 share-goal-type-listen = Ohenduhína
 
