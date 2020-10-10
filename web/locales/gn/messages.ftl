@@ -675,6 +675,19 @@ record-abort-title = Eñembohyapupase raẽpa?
 record-abort-text = Esẽramo ko'ág̃a noñeñongatumo'ãi ejapovahína
 record-abort-submit = Emondo Ñe'ẽryapu Ñongatupyre
 record-abort-continue = Embopaha ñe'ẽñembohyapu
+record-abort-delete = Esẽ ha Emboguepaite Ñe'ẽryapu
+listen-instruction = { $actionType }<playIcon></playIcon> ombohyapuporãpara'e ñe'ẽjoaju?
+listen-again-instruction = ¡Iporãitereíma ne rembiapo! <playIcon></playIcon> Ehendujey ikatumi vove
+listen-3rd-time-instruction = 2 oĩma ko'ág̃a, ¡Péva ha'e, ejapomi ambueve! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Ipahapeguáma!
+listen-empty-state = Ndaiporivéima ko'ág̃a ñe'ẽryapu ñongatupyre ko ñe'ẽme oñemoneĩ hag̃ua...
+speak-empty-state = Ndaiporivéima ko'ág̃a ñe'ẽjoaju ko ñe'ẽme oñembohyapu hag̃ua...
+speak-empty-state-cta = Embojoapyve ñe'ẽjoaju
+record-button-label = Eñongatu nde ahy'o
+share-title-new = <bold>Orepytyvõmína</bold> rojuhumíva tapicha ome'ẽséva ijahy'o
+keep-track-profile = Eikuaameme mboýpa rejapóma peteĩ togue nemba'éva rupive
+login-to-get-started = Eike térã eñemboheraguapy eñepyrũvo
+target-segment-first-card = Remba'apohína ore ñe'ẽpehẽ rupytyrã peteĩha rehe
 target-segment-learn-more = Kuaave
 
 ## Reporting
