@@ -517,8 +517,10 @@ license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
 data-download-singleword-title = Emboguejy Ñe'ẽryapu Pehẽ'i
 data-download-singleword-callout = Kóvaniko ñe'ẽryapu pehẽ ojeporúva oñemombareteve hag̃ua mba'éichapa tembiporu oikũmbykuaa peteĩteĩ ñe'ẽ pehẽ michíva, héẽ/nahániri kuaapy ha mba'e oiporúva wakeword Firefox Voice-pe.
+review-terms = Reiporúramo Common Voice, remoneĩ ore <termsLink>Jeporu Mbojojaha</termsLink> ha avei ore <privacyLink>Kuaapyñemi rehegua Mbojojaha</privacyLink>
 terms-agree = Amoneĩ avei
 terms-disagree = Namoneĩri
+review-aborted = Oñembotove Jehupi. Remboguesépa ne ñe'ẽryapu ñongatupyre?
 review-submit-title = Ehechajey ha Emondo
 review-submit-msg = Aguyjevete reñongatúre ne ñe'ẽ!<lineBreak></lineBreak>Ko'ág̃a ikatúma rehendujey ha remondo ne ñe'ẽñongatupyre.
 review-recording = Hechajey
@@ -529,6 +531,13 @@ review-delete-recordings = Embogue ñe'ẽ añongatuva'ekue
 
 ## Datasets Page
 
+datasets-headline = Ore rojaporoína tembiporu opavavépe g̃uarã ha opaite ñe'ẽme oiporukuaáva opavave oguerojeráva tembiporu oikũmby ha ohaikuaáva yvypóra ñe'ẽ ohendúva.
+datasets-positioning =
+    Ore roimo'ã oĩramo ñe'ẽryapu opavavépe g̃uarã oĩvéta avei tembiapo pyahu opavavépe g̃uarã oikũmbýva ha ohaíva oje'éva chupe.
+    
+    Common Voice-niko ha'emavoi kuaapy'aty tuichavéva oĩva heta ñe'ẽme, katu naha'eñói
+    
+    Eikemi ko toguépe eikuaasevérõ ambue kuaapy'aty ãichagua oĩva opavavépe g̃uarã ha avei okakuaa ohóvo Common Voice, reikuaáta ápe mba'epyahu.
 language = Ñe’ẽ
 # File size in gigabytes
 size = Tuichakue
@@ -543,6 +552,7 @@ why-email = <b>Mba'érepa roikotevẽ ne ñe'ẽvevére?</b>Oiméne romog̃uah�
 confirm-size = Reiméma remboguejy hag̃uáicha <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Remoneĩ</b> nderehekamo'ãiha mávapa ombohyapúva'ekue ñe'ẽjoaju oĩva Common Voice kuaapy'atýpe.
 download-language = Emboguejy { $language }
 validated-hours = Aravo mboajepyre
 recorded-hours = Aravo ñongatupyre
