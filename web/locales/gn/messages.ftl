@@ -827,18 +827,28 @@ share-goal-type-both = Ñe'ẽ ñembohyapu ha Ñemoneĩ
 # LINK will be replaced with the current URL
 goal-share-text = Amohendaramoite che jehupytyrã ame'ẽ hag̃ua che ahy'o #CommonVoice -pe, eikemína emba'apomívo chendive ikatuhag̃uáicha jaguereko tembiporu oikũmby ha ohaikuaáva oje'éva chupe opavavépe g̃uarã: { $link }
 weekly-goal-created = Oñemohendáma rehupytyséva arapokõindy ñavõme.
+daily-goal-created = Oñemohendáma rehupytyséva ára ñavõme
+track-progress = Ehapykueho ne rembiapo ko'ápe ha avei Jepapara'ãnga'i roguépe.
 return-to-edit-goal = Ejevy ko'ápe emoambuese jave nde jehupytyrã.
 share-goal = Emoherakuã che jehupytyrã
 
 ## Profile Delete
 
+delete-q = Reipotápa avei oñemboguepa ñe'ẽryapu eme'ẽva'ekue térã oĩ porãpa opytáramo umíva Common Voice kuaapyryrúpe?
 keep = Eñongatu
 remove = Mboguete
+keep-info = Ñe'ẽryapu ñongatupyre rejapova'ekue opytáta Common Voice kuaapyryrúpe. Emboguéramo nde roguetee ndaikatumo'ãvéima rejerure oñembogue hag̃ua ñe'ẽryapu reme'ẽva'ekue.
+remove-info = Rohechamíta rejerureva'ekue, ha'evahína pe oñemboguepa hag̃ua ñe'ẽryapu reme'ẽva'ekue oĩva kuaapyryrúpe. Oñemoneĩramo ejeruréva ko'ág̃a, roñe'ẽta avei umi omboguejyva'ekue kuaapyryru ndive rojerure hag̃ua chupekuéra tombogue hag̃ua avei ne rembiapokue oguerekóva hikuái.
+why-delete-recordings =
+    Common Voice ñe'ẽryapu ñongatupyre oiporu tapicha mbo'ehaovusu ha empresa michĩmegua, ha avei umi oguerojeráva tembiporu oikũmby ha ohaikuaáva oje'éva chupe.
+    
+    Ikatúpa eremi oréve mba'érepa remboguesepa reipytyvõva'ekue?
 profile-form-delete = Mba’ete Mboguete
 
 ## Landing
 
 welcome-staff = ¡Tereg̃uahẽporãite { $company } atýpe!
+help-contribute = Ndéniko reipytyvõkuaa rojapo hag̃ua ko tembiapo porãite, ha'éva Common Voice ñe'ẽryapu ryru oiporukuaáva opavave, ejapomína nde rogueteerã.
 login-company = Eike / Eñemboheraguapy ñe'ẽveve { $company } pegua reheve
 profile-not-required = Natekotevẽi rejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapóramo, ko guýpe romyesakãmive mba'érepa.
 read-more-about = Eikuaave kóva rehe ore Mba'e rehegua roguépe
