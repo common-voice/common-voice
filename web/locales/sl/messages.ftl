@@ -64,6 +64,7 @@ fr = francoščina
 fy-NL = frizijščina
 ga-IE = irščina
 gl = galicijščina
+gn = gvaranijščina
 ha = havščina
 he = hebrejščina
 hi = hindujščina
