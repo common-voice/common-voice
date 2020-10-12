@@ -474,6 +474,7 @@ de-identified-explanation = Rub'eyal richin newäx ri retamab'al ruwäch rub'i' 
 
 ## Error pages
 
+error-code = Sachoj { $code }
 
 ## Data
 
@@ -635,6 +636,7 @@ record-again-instruction = ¡Jeb'ël!<recordIcon></recordIcon> Tayaka' jun chik
 record-again-instruction2 = Ütz ke ri', kayakon chik <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ¡Ri ruk'isib'äl!
 review-tooltip = Tanik'oj & tayaka'-chik wawe pan ab'anikil
+share-common-voice = Tikomonïx Common Voice
 review-instruction = Tanik'oj & tayaka'-chik we k'atzinel
 record-submit-tooltip = { $actionType } tataqa' toq xtak'ïs
 clips-uploaded = Taq Yakoj Ejotob'an
@@ -651,6 +653,7 @@ record-button-label = Tayaka' ach'ab'äl
 share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
 keep-track-profile = Tawojqaj ri nab'än rik'in jun ruwäch ab'i'
 login-to-get-started = Tatikirisaj molojriïl o tatz'ib'aj ab'i' richin natikirisaj
+target-segment-add-voice = Tatz'aqatisaj Ach'ab'äl
 target-segment-learn-more = Tetamäx ch'aqa' chik
 
 ## Reporting
