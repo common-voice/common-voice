@@ -176,10 +176,10 @@ logout = Fuluma
 
 home-title = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye boogera.
 home-cta = Yogera, waayo wano!
-wall-of-text-start = Eddoboozi lya butonde, eddoboozi muntu. Ky'ova olaba twenyumiriza nnyo mu kukola tekinologiya akozesebwa ow'eddoboozi ku masiini zaffe. Naye okukola sisitiimu z'amaloboozi zino, twetaaga data mungi nnyo ow'amaloboozi.
+wall-of-text-start = Eddoboozi lya butonde, eddoboozi lya buntu. Ky'ova olaba twenyumiriza nnyo mu kukola tekinologiya akozesebwa ow'eddoboozi ku masiini zaffe. Naye okukola sisitiimu z'amaloboozi zino, twetaaga data mungi nnyo ow'amaloboozi.
 wall-of-text-more-mobile = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tulonkinga pulojekiti ya Common Voice, egenda okuyamba okufuula enkola y'okutegeera kw'eddoboozi okubeera nga ya buli omu.
 wall-of-text-more-desktop = Kaakati osobola okuwaayo eddoboozi lyo okutuyamba okuzimba database ey'amaloboozi eyaabuli omu, omuntu yenna gy'asobola okukozesa okukola apu n'omutimbagano. Soma sentensi okuyamba masiini okuyiga engeri abantu gye boogera. Kebera abawaayo abalala byebakoze okusobola okwongenza omutindo. Kyangu bwe kityo!
-wall-of-text-first = Eddoboozi lya butonde, eddoboozi muntu. Ky'ova olaba twenyumiriza nnyo okukola tekinologiya akozesebwa ow'eddoboozi ku masiini zaffe. Naye okukola sisitiimu zino, abazizimba beetaaga data mungi nnyo ow'amaloboozi.
+wall-of-text-first = Eddoboozi lya butonde, eddoboozi lya buntu. Ky'ova olaba twenyumiriza nnyo okukola tekinologiya akozesebwa ow'eddoboozi ku masiini zaffe. Naye okukola sisitiimu zino, abazizimba beetaaga data mungi nnyo ow'amaloboozi.
 wall-of-text-second = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tulonkinze pulojekiti ya Common Voice, egenda okuyamba okufuula enkola y'okutegeera kw'eddoboozi okubeera ng'efunika era nga ya buli omu.
 show-wall-of-text = Soma Ebisingawo
 help-us-title = Tuyambe okusunsula sentensi!
