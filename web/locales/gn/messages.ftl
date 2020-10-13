@@ -122,92 +122,92 @@ sah = Sakha ñe’ẽ
 sc = Sardinia ñe’ẽ
 scn = Sicilia ñe’ẽ
 si = Sinhala ñe’ẽ
-sk = Eslovaquia ñe'ẽ
-sl = Eslovenia ñe'ẽ
-sq = Albania ñe'ẽ
-sr = Serbia ñe'ẽ
-sv-SE = Suecia ñe'ẽ
-sw = Swahili ñe'ẽ
-syr = Syriac ñe'ẽ
-ta = Tamil ñe'ẽ
-te = Telugu ñe'ẽ
-tg = Tajik ñe'ẽ
-th = Tailandia ñe'ẽ
-tl = Tagalo ñe'ẽ
-tr = Turquía ñe'ẽ
-tt = Tátaro ñe'ẽ
-uby = Ubykh ñe'ẽ
-udm = Udmurt ñe'ẽ
-uk = Ucrania ñe'ẽ
-ur = Urdu ñe'ẽ
-uz = Uzbequistán ñe'ẽ
-vec = Venecia ñe'ẽ
-vi = Vietnam ñe'ẽ
-vot = Votic ñe'ẽ
-zh-CN = China ñe'ẽ (Chinapegua)
-zh-HK = China ñe'ẽ (Hong Kong-pegua)
-zh-TW = China ñe'ẽ (Taiwán-pegua)
+sk = Eslovaquia ñe’ẽ
+sl = Eslovenia ñe’ẽ
+sq = Albania ñe’ẽ
+sr = Serbia ñe’ẽ
+sv-SE = Suecia ñe’ẽ
+sw = Swahili ñe’ẽ
+syr = Syriac ñe’ẽ
+ta = Tamil ñe’ẽ
+te = Telugu ñe’ẽ
+tg = Tajik ñe’ẽ
+th = Tailandia ñe’ẽ
+tl = Tagalo ñe’ẽ
+tr = Turquía ñe’ẽ
+tt = Tátaro ñe’ẽ
+uby = Ubykh ñe’ẽ
+udm = Udmurt ñe’ẽ
+uk = Ucrania ñe’ẽ
+ur = Urdu ñe’ẽ
+uz = Uzbequistán ñe’ẽ
+vec = Venecia ñe’ẽ
+vi = Vietnam ñe’ẽ
+vot = Votic ñe’ẽ
+zh-CN = China ñe’ẽ (Chinapegua)
+zh-HK = China ñe’ẽ (Hong Kong-pegua)
+zh-TW = China ñe’ẽ (Taiwán-pegua)
 
 # [/]
 
 
 ## Layout
 
-speak = Eñe'ẽ
-speak-now = Eñe'ẽ ko'ág̃a
+speak = Eñe’ẽ
+speak-now = Eñe’ẽ ko’ág̃a
 datasets = Kuaapy'aty
-languages = Ñe'ẽnguéra
+languages = Ñe’ẽnguéra
 about = Hesegua
 profile = Toguetee
 help = Pytyvõ
-contact = Máva ndivépa oñeñe'ẽkuaa
+contact = Máva ndivépa oñeñe’ẽkuaa
 privacy = Kuaapyrã ñemi ñeñangareko
 terms = Mbojojaha
 cookies = Cookie-kuéra
 faq = Oñeporanduvéva
 content-license-text = Mba'ekuaa ojeporukuaa <licenseLink>Creative Commons license</licenseLink>rupive.
 share-title = Orepytyvõ rojuhúvo tapicha oipytyvõséva avei ijahy'o reheve.
-share-text = Eipytyvõ embo'évo máquina toñe'ẽ hag̃ua oñe'ẽháicha yvypóra, eipytyvõ nde ahy'o reheve { $link }
+share-text = Eipytyvõ embo’évo máquina toñe’ẽ hag̃ua oñe’ẽháicha yvypóra, eipytyvõ nde ahy’o reheve { $link }
 link-copied = Joajuha oĩma Oñembohasa hag̃uáicha
 back-top = Ehojey Yvatépe
 logout = Esẽ
 
 ## Home Page
 
-home-title = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe'ẽvo oñe'ẽháicha yvypóra.
-home-cta = Eñe'ẽ, eipytyvõ ápe!
-wall-of-text-start = Ñane ahy'o ñe'ẽ niko yvypóra mba'e. Upévare roipytyvõseterei oĩ hag̃ua ñe'ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe'ẽryapu ñongatupyre.
-wall-of-text-more-mobile = Haimete opa ñe'ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo'ã ndaupeichaiva'erã. Upévare romoheñói Aponde'a Common Voice, roipotágui opavave oiporukuaa ñe'ẽ rembiporu.
+home-title = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo oñe’ẽháicha yvypóra.
+home-cta = Eñe’ẽ, eipytyvõ ápe!
+wall-of-text-start = Ñane ahy’o ñe’ẽ niko yvypóra mba’e. Upévare roipytyvõseterei oĩ hag̃ua ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
+wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
 wall-of-text-more-desktop =
-    Ko'ág̃a ikatúma reme'ẽ nde ahy'o ha reipytyvõ jajapo hag̃ua ñe'ẽ ha ñe'ẽjoaju ryapu apesã opavavépe g̃uarã
-    ojeporukuaáva tembiporu'i, mba'e'okápe ñandutípe. Emoñe'ẽ atã ñe'ẽjoajukuéra ikatuhag̃uáicha máquina oikuaa mba'éichapa oñeñe'ẽ ne ñe'ẽme.
-    Ehendu avei ambuéva rembiapo ha eremi oĩ porãpa. ¡Pévante rejapova'ẽrã eipytyvõ hag̃ua!
+    Ko’ág̃a ikatúma reme’ẽ nde ahy’o ha reipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opavavépe g̃uarã
+    ojeporukuaáva tembiporu’i, mba’e’okápe ñandutípe. Emoñe’ẽ atã ñe’ẽjoajukuéra ikatu hag̃uáicha máquina oikuaa mba’éichapa oñeñe’ẽ ne ñe’ẽme.
+    Ehendu avei ambuéva rembiapo ha eremi oĩ porãpa. ¡Pévante rejapova’ẽrã eipytyvõ hag̃ua!
 wall-of-text-first =
-    Ñe'ẽniko yvypóra mba'e. Upévare rovy'aite rojapóvo ko tembiapo, roikuave'ẽsévagui tembiporu ñe'ẽ ñembohyapurã rehegua ikatuhag̃uáicha máquina ohai ha ojapokuaa oje'éva chupe.
-    Upevarã roikotevẽmi hetaite ñe'ẽryapu ñongatupyrére.
+    Ñe’ẽniko yvypóra mba’e. Upévare rovy’aite rojapóvo ko tembiapo, roikuave’ẽsévagui tembiporu ñe’ẽ ñembohyapurã rehegua ikatu hag̃uáicha máquina ohai ha ojapokuaa oje’éva chupe.
+    Upevarã roikotevẽmi hetaite ñe’ẽryapu ñongatupyrére.
 wall-of-text-second =
     Heta ñe'ẽryapu ñongatupyre oĩva yvy ape ári oĩ empresa privada pópe ha upevakuére ndaikatúi oiporu opavave.
     Ore roimo'ã naiporãiha upéva ha romoñepyrũ ko tembiapoguasu hérava Common Voice, roipotágui opavave oiporukuaa ñe'ẽ ñembohyapu ha ñembokuatia rembiporu.
-show-wall-of-text = Emoñe'ẽve
+show-wall-of-text = Emoñe’ẽve
 help-us-title = ¡Orepytyvõmi ikatuhag̃uáicha jaiporavo ñe'ẽjoaju oĩporãva!
 help-us-explain = Ejopy Tahendúpe, ehendu ha eremi: ombohyapu porãpa ñe'ẽjoaju oĩva iguýpe?
 no-clips-to-validate = Ha'etévaicha ndaiporiha ñe'ẽryapu ñongatupyre ko ñe'ẽme g̃uarã. Orepytyvõmína ha eñe'ẽñongatumína.
 vote-yes = Héẽ
 vote-no = Nahániri
 toggle-play-tooltip = Ejopy { shortcut-play-toggle } emoambuévo teko ñembopúpe
-speak-subtitle = Eme'ẽ nde ahy'o
+speak-subtitle = Eme’ẽ nde ahy’o
 speak-paragraph = Ñañongatukuévo rupi ñe'ẽryapu ñamongakuaa jahávo ñe'ẽryapu rupa opavavépe g̃uarã jaguerekóva ha oĩnte avei he'íva péva pe igutove jajapóva.
-speak-goal-text = Ñe'ẽryapu ñongatupyre
-listen-subtitle = Orepytyvõmi roiporãvo hag̃ua ñe'ẽryapu ñongatupyre oĩporãva
+speak-goal-text = Ñe’ẽryapu ñongatupyre
+listen-subtitle = Orepytyvõmi roiporãvo hag̃ua ñe’ẽryapu ñongatupyre oĩporãva
 listen-paragraph = Tuichamba'e pe ñe'ẽryapu jeporavo Common Voice-pe g̃uarã. Eguapymína sapy'aite ha orepytyvõ roiporavõ hag̃ua ñe'ẽryapu oĩporãva ikatúva oiporu opavave.
-listen-goal-text = Ñe'ẽryapu moneĩpyre
+listen-goal-text = Ñe’ẽryapu moneĩpyre
 hours-recorded = Aravo ñongatupyre
 hours-validated = Aravo moneĩmbyre
 voices-online = Ahy'o Oĩvahína ko'ág̃a Ñandutípe
 todays-progress = Mboýpa ñaneakãrapu'ã ko árape
 help-reach-goal = Orepytyvõmína rohupytývo { $goal }
-read-terms-q = Remoñe'ẽmapa ore mbojojaha?
-ready-to-record = Reimembámapa eme'ẽhag̃uáicha ndeahy'o?
+read-terms-q = Remoñe’ẽmapa ore mbojojaha?
+ready-to-record = Reimembámapa eme’ẽ hag̃uáicha ndeahy’o?
 all-locales = Opavave
 today = Ko’árape
 x-weeks-short =
@@ -225,7 +225,7 @@ x-years-short =
         [one] peteĩ
        *[other] ambue
     }
-help-make-dataset = Orepytyvõmína ñamono'õvo ñe'ẽryapu iporãva ha opavavépe g̃uarã
+help-make-dataset = Orepytyvõmína ñamono’õvo ñe’ẽryapu iporãva ha opavavépe g̃uarã
 sign-up-account = Eñemboheraguapy
 email-subscription-title = eñemboheraguapy romog̃uahẽmi hag̃ua ndéve marandura ipyahúva rehegua
 email-subscription-title-new = Eñemboheraguapy og̃uahẽmi hag̃ua ndéve marandu ipyahúva ha tekotevẽva ojejapo rehegua ha avei reikuaávo mba'éichapa oguata ohóvo tembiapo.
@@ -233,7 +233,7 @@ email-subscription-title-new = Eñemboheraguapy og̃uahẽmi hag̃ua ndéve mara
 ## Account Benefits
 
 benefits = Iporãva oguerúva
-rich-data = Ikatuhag̃uáicha iporupyrã añetéva ñe'ẽryapu ñongatupyrea eremi moõguápa ou. Upéva noñemoherakuãmo'ãi katu oipytyvõhetáta.
+rich-data = Ikatu hag̃uáicha iporupyrã añetéva ñe’ẽryapu ñongatupyrea eremi moõguápa ou. Upéva noñemoherakuãmo’ãi katu oipytyvõhetáta.
 improve-audio = Kuaapyrã ñe'ẽryapu rehegua oipytyvõ osẽ porãve hag̃ua ñe'ẽ ñeikũmby.
 keep-track = Eikuaa tapiaite mba'éichapa oguata ohóvo ne rembiapo ha avei ambue ñe'ẽ rembiapo.
 compare-progress = Ehecha akóinte máva rembiapópab itenondeve ñande yvy ape ári.
@@ -762,7 +762,7 @@ get-started-goals = Tañepyrũ jehupytyrã reheve
 create-custom-goal = Eiporavo nde rupytyrã reipotaháicha
 goal-type = Mba'épa rehupytyse?
 both-speak-and-listen = Mokõive
-both-speak-and-listen-long = Mokõive (Ñe'ẽ Ñembohyapu ha Ñemoneĩ)
+both-speak-and-listen-long = Mokõive (Ñe’ẽ Ñembohyapu ha Ñemoneĩ)
 daily-goal = Jehupytyrã Arapegua
 weekly-goal = Jehupytyrã Arapokõindypegua
 easy-difficulty = Hasy’ỹva
@@ -811,8 +811,8 @@ not-receiving-emails-info =
     térã mboýpa rejapóma rehóvo ha Common Voice rehegua.
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } ñe'ẽryapu ñongatupyre
-       *[other] { $count } ñe'ẽryapu ñongatupyre
+        [one] { $count } ñe’ẽryapu ñongatupyre
+       *[other] { $count } ñe’ẽryapu ñongatupyre
     }
 help-share-goal = Orepytyvõmína rojuhumívo ambuéva ome'ẽséva avei ijahy'o
 confirm-goal = Emoneĩ Jehupytyrã
