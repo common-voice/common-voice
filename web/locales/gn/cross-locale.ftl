@@ -2,14 +2,14 @@
 
 contribute = Eipytyvõ
 get-involved-button = Eike eipytyvõvo
-get-involved-title = Eipytyvõ { $lang } ñe'ẽme
+get-involved-title = Eipytyvõ { $lang } ñe’ẽme
 get-involved-text =
-    Aguyjevete reipytyvõségui { $lang } ñe'ẽme. Romba'apo asy ikatuhag̃uáicha ojeporukuaameme opaite ñe'ẽ
-    Atykuérape romomarandu ñe'ẽveve rupive. Eipytyvõséramo, ehaimi ko'ápe ne ñe'ẽveve.
-get-involved-form-title = Eñemboheraguapy eikuaasérõ mba'epyahu { $lang } ñe'ẽ rehegua:
+    Aguyjevete reipytyvõségui { $lang } ñe’ẽme. Romba’apo asy ikatu hag̃uáicha ojeporukuaameme opaite ñe’ẽ
+    Atykuérape romomarandu ñe’ẽveve rupive. Eipytyvõséramo, ehaimi ko’ápe ne ñe’ẽveve.
+get-involved-form-title = Eñemboheraguapy eikuaasérõ mba’epyahu { $lang } ñe’ẽ rehegua:
 get-involved-email =
-    .label = Ñe'ẽveve
-get-involved-opt-in = Héẽ, erahaukami chéve marandu. Aikuaase mba'éichapa oguata ohóvo Common Voice ko ñe'ẽme.
+    .label = Ñe’ẽveve
+get-involved-opt-in = Héẽ, erahaukami chéve marandu. Aikuaase mba’éichapa oguata ohóvo Common Voice ko ñe’ẽme.
 get-involved-submit = Emondo
 get-involved-stayintouch = Ore Mozillaygua romongakuaa rohóvo tapicha aty omba'apóva tembiporu ñe'ẽ jeporúpe rehe. Akóinte roikuaase oĩ jave mba'e térã kuaapyrã pyahu ha avei rohendu hag̃ua mba'éichapa reiporu rehóvo ko kuaapyrã.
 get-involved-privacy-info = Roñe'ẽme'ẽ roñangarekoporãtaha kuaapyrã nde rehegua rehe. Emoñe'ẽve kóva rehegua ore <privacyLink>ko'ápe</privacyLink>.
