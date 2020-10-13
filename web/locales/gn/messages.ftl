@@ -203,8 +203,8 @@ listen-paragraph = Tuichamba’e pe ñe’ẽryapu jeporavo Common Voice-pe g̃u
 listen-goal-text = Ñe’ẽryapu moneĩpyre
 hours-recorded = Aravo ñongatupyre
 hours-validated = Aravo moneĩmbyre
-voices-online = Ahy'o Oĩvahína ko'ág̃a Ñandutípe
-todays-progress = Mboýpa ñaneakãrapu'ã ko árape
+voices-online = Ahy’o Oĩvahína ko’ág̃a Ñandutípe
+todays-progress = Mboýpa ñaneakãrapu’ã ko árape
 help-reach-goal = Orepytyvõmína rohupytývo { $goal }
 read-terms-q = Remoñe’ẽmapa ore mbojojaha?
 ready-to-record = Reimembámapa eme’ẽ hag̃uáicha ndeahy’o?
@@ -284,8 +284,8 @@ status-title = Mba’éichapa oikohína aponde’a: ehecha mboypevépa jahupytý
 status-contribute = Eme’ẽ nde ahy’o
 status-hours =
     { $hours ->
-        [one] Peteĩ aravóma oñemoneĩ ko'ág̃a peve!
-       *[other] { $hours } aravóma oñemoneĩ ko'ág̃a peve!
+        [one] Peteĩ aravóma oñemoneĩ ko’ág̃a peve!
+       *[other] { $hours } aravóma oñemoneĩ ko’ág̃a peve!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -331,7 +331,7 @@ edit-profile = Embosako’i Mba’ete
 profile-create-success = ¡Oĩporãite, oñemoheñóima nde roguerã!
 profile-close = Mboty
 profile-explanation = Eikuaa akóinte mba’éichapa oguata ohóvo tembiapo ehechávo nde rogueteépe ha eipytyvõ avei hekopete hag̃ua ñe’ẽryapu ojeporúva.
-thanks-for-account = Aguyjevete erehaguére nde cuénta añeteha, ko'ag̃a ñambosako'ive nde roguetee.
+thanks-for-account = Aguyjevete erehaguére nde cuénta añeteha, ko’ag̃a ñambosako’ive nde roguetee.
 why-demographic = Mba’érepa jajapova’erã kóva?
 why-demographic-explanation-2 = Mba’ekuaarã poruhára rehegua: aryve, meña ha mba’éichapa oñembohyapu oikoha rupi oipytyvõ mbarete mohendahápe oikũmby hag̃ua ohendúva. Nde poruhára réra ha ñe’ẽveve noñembojoajumo’ãi araka’eve mba’erendurã remondóva rehe ha ndevoi erekuaa reipotápa ojekuaa nde poruhára réra térãpa nahániri.
 accept-privacy = Oĩ porã, amoneĩ ojeporu kuaapyrã chemba’éva oñemyesakã haguéicha chéve Mozilla <privacyLink>Kuaapy Jeporu</privacyLink> kuatiápe.
@@ -342,8 +342,8 @@ edit = Mbosako’i
 email-subscriptions = Ñe’ẽveve Ñemboheraguapy
 download-profile = Kuaapyrã chemba’éva ñemboguejy
 contribution-experience = Tembiasakue Pytyvõháraramo
-skip-submission-feedback = Ani pemondo chéve Marandu'i
-skip-submission-description = Oñepytyvõ aja noñemondomo'ãi marandu'i ojejopy vove "Emondo". Remondóva oikétama oñembo'aje hag̃ua.
+skip-submission-feedback = Ani pemondo chéve Marandu’i
+skip-submission-description = Oñepytyvõ aja noñemondomo’ãi marandu’i ojejopy vove 'Emondo'. Remondóva oikétama oñembo’aje hag̃ua.
 skip-submission-note = Jesarekorã: Tekotevẽta gueteri eiporavo Eñe’ẽ térã Ehendu ere hag̃ua mba’éichapa reipytyvõse.
 off = Mboguepyre
 on = Hendypyre
@@ -390,7 +390,7 @@ faq-when-release2-a = Common Voice Rova iñe’ẽ’etáva oñemoporãve ohóvo
 faq-why-mission-q = ¿Mba’ére Common Voice oiko Mozilla rembipota ndive?
 faq-why-mission-a = Mozilla omba’apo’asy ikatu hag̃uáicha ñanduti okakuaa opavavépe g̃uarã. Upeva’erã tekotevẽ roipytyvõ ñanduti guerojerahárape tembiapo porãite rupive, Common Voice peteĩva upeichagua. Jepéramo tembiporu’i ñe’ẽryapu reheve omba’apóva ojeporumeme heta aty michĩvape, ore roimo’ã tekotevẽha oiporukuaa opavave. Upeva’erã tuichamba’e pe ñamombaretéramo ñe’ẽ sa’ivéva oñeñe’ẽva ñande yvy ape ári. Common Voice ningo kuaapymbyatyha opavavépe g̃uarã, oimeraẽva oiporukuaáva ha upévare Mozila aty’i ha guerojerahára oĩva ñande yvy pukukue javevépe omba’apo heta ko tembiapópe ha oiporu avei ko’ã tembiporu’i rojapóvape.
 faq-what-cv-and-deepspeech-q = ¿Mba’épe ojuavy Common Voice ha Deep Speech?
-faq-what-cv-and-deepspeech-a = Common Voice Kuaapy’aty omombareteve Mozilla ñe’ẽkũmbyha rembiporu hérava Deep Speech. Kóva osẽ’ypy jasypateĩ 2017-pe ha mbeguekatúpe iporãve ohóvo. Roimo’ã opavave oiporukuaava’erã Deep Speech ha Common Voice Kuaapy’aty oñondive, ha’éva mba’eporurã opavavépe g̃uarã. Roipota’asy ko'ã tembiporu oipytyvõ guerojerahárape omoheñóivo ambue tembiporu porãva ha opavavépe g̃uarã.
+faq-what-cv-and-deepspeech-a = Common Voice Kuaapy’aty omombareteve Mozilla ñe’ẽkũmbyha rembiporu hérava Deep Speech. Kóva osẽ’ypy jasypateĩ 2017-pe ha mbeguekatúpe iporãve ohóvo. Roimo’ã opavave oiporukuaava’erã Deep Speech ha Common Voice Kuaapy’aty oñondive, ha’éva mba’eporurã opavavépe g̃uarã. Roipota’asy ko’ã tembiporu oipytyvõ guerojerahárape omoheñóivo ambue tembiporu porãva ha opavavépe g̃uarã.
 faq-is-goal-assistant-q = ¿Common Voice ohupytyséva ha’e ayvu pytyvõha jejapo?
 faq-is-goal-assistant-a = Ore rupytyrã tuichavéva Common Voice kuaapy’aty reheve ha’ehína pe opaite oiporukuaa ñe’ẽñeikũmby rembiporu iñe’ẽtépe oikotevẽhápe. Tembiporu pytyvõha oñe’ẽkuaávaniko peteĩchante ãichagua rembiporu, ikatu avei ojejapo heta ambue mba’e Common Voice kuaapy’ypy reheve.
 faq-do-want-native-q = Ko ñe’ẽ ndaha’éi cheñe’ẽ’ypy ha ojekuaa upéva cherehe añe’ẽvo, jepéramo upéva ikatúpa aipytyvõ avei?
@@ -494,7 +494,7 @@ de-identified-explanation = Mba’éichapa oñembo’apohárakuaa’ỹ oñeñon
 
 error-title-404 = Ndorojuhúi upe togue rehekáva.
 error-content-404 = Oiméne rejuhukuaa ore <homepageLink>ñandutirenda ñepyrũha</homepageLink>-pe reikotevẽva. Eporandu hag̃ua, eikemína <matrixLink>Pytyvõhára Aty Ñemongetarenda’i</matrixLink>-pe, ehechami ehóvo apañuãi oikóva <githubLink>GitHub</githubLink>-pe térã eikemi <discourseLink>ore Ñemongetaguasu rendakuéra</discourseLink>-pe.
-error-title-503 = Ore apañuãi ko'ág̃aite, ho'ávaicha mohendahavusu.
+error-title-503 = Ore apañuãi ko’ag̃aite, ho’ávaicha mohendahavusu
 error-content-503 = Ñandutirogue oĩjeýta vokoieténte. Eikuaasevéramo, eikemi <matrixLink>Atyrusu ñemongeta renda</matrixLink>-pe térã <githubLink>GitHub</githubLink> ỹramo katu <discourseLink>Ñomongetaguasu renda</discourseLink>pe eñeñandukami hag̃ua rejuhúramo apañuãi.
 error-code = Javy { $code }
 
@@ -615,7 +615,7 @@ other-language = Ambue Ñe’ẽ
 ## Languages Overview
 
 language-section-in-progress = Ojejapóva
-language-section-in-progress-new-description = Ko’ã ñe’ẽ rehe oñemba’apohína ore atýpe. Ñemboguata ra’ãnga ohechauka mboy pevépa <localizationGlossaryLink>oñembohasáma ñandutirenda</localizationGlossaryLink> ñe’ẽ pyahúpe ha mboýpa okakuaáma <sentenceCollectionGlossaryLink>ñe’ẽjoaju ñemono'õ</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = Ko’ã ñe’ẽ rehe oñemba’apohína ore atýpe. Ñemboguata ra’ãnga ohechauka mboy pevépa <localizationGlossaryLink>oñembohasáma ñandutirenda</localizationGlossaryLink> ñe’ẽ pyahúpe ha mboýpa okakuaáma <sentenceCollectionGlossaryLink>ñe’ẽjoaju ñemono’õ</sentenceCollectionGlossaryLink>.
 language-section-launched = Mombopyre
 language-section-launched-description = Ko’ã ñe’ẽme g̃uarã oĩma <localizationGlossaryLink>ñandutirenda ñembohasapyre</localizationGlossaryLink> ha oĩma avei heta porã <sentenceCollectionGlossaryLink>ñe’ẽjoaju mono’õmbyre</sentenceCollectionGlossaryLink> ha upévare ikatúma <speakLink>oñembohyapu</speakLink> ha <listenLink>oñehendu</listenLink>.
 languages-show-more = Ehechave
@@ -672,7 +672,7 @@ review-instruction = Ehendujey ha Eñembohyapujey ñe’ẽjoaju tekotevẽramo
 record-submit-tooltip = { $actionType } emondo oĩporãmaramo
 clips-uploaded = Ñe’ẽryapu Ñongatupyre Ojehupímava
 record-abort-title = Eñembohyapupase raẽpa?
-record-abort-text = Esẽramo ko'ág̃a noñeñongatumo'ãi ejapovahína
+record-abort-text = Esẽramo ko’ág̃a noñeñongatumo’ãi ejapovahína
 record-abort-submit = Emondo Ñe’ẽryapu Ñongatupyre
 record-abort-continue = Embopaha ñe’ẽñembohyapu
 record-abort-delete = Esẽ ha Emboguepaite Ñe’ẽryapu
@@ -689,7 +689,7 @@ keep-track-profile = Eikuaameme mboýpa rejapóma peteĩ togue nemba’éva rupi
 login-to-get-started = Eike térã eñemboheraguapy eñepyrũvo
 target-segment-first-card = Remba’apohína ore ñe’ẽpehẽ rupytyrã peteĩha rehe
 target-segment-first-banner = Eipytyvõmive emoheñóivo Common Voice ñe’ẽpehẽ rupytyrã peteĩha { $locale }me
-target-segment-add-voice = Eme'ẽ Nde Ahy'o
+target-segment-add-voice = Eme’ẽ Nde Ahy’o
 target-segment-learn-more = Kuaave
 
 ## Reporting
@@ -698,15 +698,15 @@ report = Momarandu
 report-title = Emondo Marandu
 report-ask = Mba’épa oĩvai térã nemoapañu’ãi ko ñe’ẽjoajúpe?
 report-offensive-language = Ha’épa ñe’ẽky’a?
-report-offensive-language-detail = Ñe'ẽjoaju hekoky'a.
-report-grammar-or-spelling = Oĩ vai ñe'ẽtekuaa térã jehaípe
-report-grammar-or-spelling-detail = Ñe'ẽjoaju ojehai vai térã iñe'ẽtekuaa noiporãi.
-report-different-language = Kóva ambue ñe'ẽ
+report-offensive-language-detail = Ñe’ẽjoaju hekoky’a.
+report-grammar-or-spelling = Oĩ vai ñe’ẽtekuaa térã jehaípe
+report-grammar-or-spelling-detail = Ñe’ẽjoaju ojehai vai térã iñe’ẽtekuaa noiporãi.
+report-different-language = Kóva ambue ñe’ẽ
 report-different-language-detail = Ko ñe’ẽ ndaha’éi pe che añe’ẽvahína.
 report-difficult-pronounce = Ijetu'u oñembohyapu hag̃ua
-report-difficult-pronounce-detail = Oĩ pype ñe'ẽ térã ñe'ẽ apesã hasyetereíva oñemoñe'ẽ hag̃ua.
-report-offensive-speech = Ñe'ẽky'a
-report-offensive-speech-detail = Ñe'ẽjoaju iky'a
+report-difficult-pronounce-detail = Oĩ pype ñe’ẽ térã ñe’ẽ apesã hasyetereíva oñemoñe’ẽ hag̃ua.
+report-offensive-speech = Ñe’ẽky’a
+report-offensive-speech-detail = Ñe’ẽjoaju iky’a
 report-other-comment =
     .placeholder = Je’erei
 success = Oĩporãva
@@ -734,21 +734,21 @@ validations =
 
 ## Dashboard
 
-your-languages = Ne ñe'ẽnguéra
+your-languages = Ne ñe’ẽnguéra
 toward-next-goal = Ambue hupytyrã rapykuéri
 goal-reached = Ojehupytymáva
 clips-you-recorded = Ñe’ẽjoaju rembohyapuva’ekue
 clips-you-validated = Ñe’ẽjoaju remoneĩva’ekue
 todays-recorded-progress = Mboýpa oñembohyapúma ko árape Common Voice-pe
-todays-validated-progress = Mboy ñe'ẽryapu ñongatupyrépa oñemoneĩma ko árape Common Voice-pe
+todays-validated-progress = Mboy ñe’ẽryapu ñongatupyrépa oñemoneĩma ko árape Common Voice-pe
 stats = Jepapara’ãnga’i
 awards = Jopói
 you = Nde
 everyone = Opavavete
-contribution-activity = Poropytyvõ Kyre'ỹ
+contribution-activity = Poropytyvõ Kyre’ỹ
 top-contributors = Oipytyvõvéva
-recorded-clips = Ñe'ẽryapu Ñongatupyre
-validated-clips = Ñe'ẽryapu Moneĩmbyre
+recorded-clips = Ñe’ẽryapu Ñongatupyre
+validated-clips = Ñe’ẽryapu Moneĩmbyre
 total-approved = Opaite Oñemoĩmáva
 overall-accuracy = Hekopetekue
 set-visibility = Emohenda che rechapyrã
@@ -778,12 +778,12 @@ help-reach-hours-pluralized =
     Pytyvõ Rupytykue{ NUMBER($hours) ->
         [one] { $hours } aravo
        *[other] { $hours } aravo
-    }ko ñe'ẽme: { $language } che jehupytyrã reheve
+    }ko ñe’ẽme: { $language } che jehupytyrã reheve
 help-reach-hours-general-pluralized =
     Common Voice jehupytyrã Pytyvõ{ NUMBER($hours) ->
         [one] { $hours } aravo
        *[other] { $hours } aravo
-    }ñe'ẽ ha jehupytyrã che aiporavóva
+    }ñe’ẽ ha jehupytyrã che aiporavóva
 set-a-goal = Emoĩ nde jehupytyrã
 cant-decide = Ndereikuaamo’ãipa mba’épa?
 activity-needed-calculation-plural =
@@ -797,24 +797,24 @@ activity-needed-calculation-plural =
         [one] { $people } tapicha
        *[other] { $people } tapicha
     }ombohyapúva{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } ñe'ẽjoaju
-       *[other] { $clipsPerDay } ñe'ẽjoaju
+        [one] { $clipsPerDay } ñe’ẽjoaju
+       *[other] { $clipsPerDay } ñe’ẽjoaju
     }ára ñavõme
-how-many-per-day = ¡Oĩ porãiterei! Mboy ñe'ẽjoajúpa ára ñavõme?
-how-many-a-week = ¡Oĩ porãiterei! Mboy ñe'ẽjoajúpa arapokõindy ñavõme?
-which-goal-type = Reñembohyapusépa, remoneĩsépa ñe'ẽ térãpa mokõive?
+how-many-per-day = ¡Oĩ porãiterei! Mboy ñe’ẽjoajúpa ára ñavõme?
+how-many-a-week = ¡Oĩ porãiterei! Mboy ñe’ẽjoajúpa arapokõindy ñavõme?
+which-goal-type = Reñembohyapusépa, remoneĩsépa ñe’ẽ térãpa mokõive?
 receiving-emails-info =
-    Og̃uahẽta ndéve marandu ñe'ẽveve rupive, nemomandu'átava nde jehupytyserã, 
+    Og̃uahẽta ndéve marandu ñe’ẽveve rupive, nemomandu’átava nde jehupytyserã, 
     avei mboýpa rejapóma rehóvo ha Common Voice rehegua.
 not-receiving-emails-info =
-    <bold>Nog̃uahẽmo'ãi</bold> ndéve marandu ñe'ẽveve rupive, nemomandu'átava nde jehupytyserã, 
+    <bold>Nog̃uahẽmo’ãi</bold> ndéve marandu ñe’ẽveve rupive, nemomandu’átava nde jehupytyserã, 
     térã mboýpa rejapóma rehóvo ha Common Voice rehegua.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } ñe’ẽryapu ñongatupyre
        *[other] { $count } ñe’ẽryapu ñongatupyre
     }
-help-share-goal = Orepytyvõmína rojuhumívo ambuéva ome'ẽséva avei ijahy'o
+help-share-goal = Orepytyvõmína rojuhumívo ambuéva ome’ẽséva avei ijahy’o
 confirm-goal = Emoneĩ Jehupytyrã
 goal-interval-weekly = Arapokõindy ñavõ
 # $type is one of share-goal-type-*
@@ -823,13 +823,13 @@ share-n-daily-contribution-goal = Eikuaauka nde { $count } Jehupytyrã ara ñav�
 share-n-weekly-contribution-goal = Eikuaauka nde { $count } Jehupytyrã arapokõindy ñavõmegua kóvape: { $type }
 share-goal-type-speak = Ayvúpe
 share-goal-type-listen = Ohenduhína
-share-goal-type-both = Ñe'ẽ ñembohyapu ha Ñemoneĩ
+share-goal-type-both = Ñe’ẽ ñembohyapu ha Ñemoneĩ
 # LINK will be replaced with the current URL
 goal-share-text = Amohendaramoite che jehupytyrã ame’ẽ hag̃ua che ahy’o #CommonVoice-pe, eikemína emba’apomívo chendive ikatu hag̃uáicha jaguereko tembiporu oikũmby ha ohaikuaáva oje’éva chupe opavavépe g̃uarã: { $link }
 weekly-goal-created = Oñemohendáma rehupytyséva arapokõindy ñavõme.
 daily-goal-created = Oñemohendáma rehupytyséva ára ñavõme
 track-progress = Ehapykueho ne rembiapo ko’ápe ha avei Jepapara’ãnga’i roguépe.
-return-to-edit-goal = Ejevy ko'ápe emoambuese jave nde jehupytyrã.
+return-to-edit-goal = Ejevy ko’ápe emoambuese jave nde jehupytyrã.
 share-goal = Emoherakuã che jehupytyrã
 
 ## Profile Delete
@@ -849,6 +849,6 @@ profile-form-delete = Mba’ete Mboguete
 
 welcome-staff = ¡Tereg̃uahẽporãite { $company } atýpe!
 help-contribute = Ndéniko reipytyvõkuaa rojapo hag̃ua ko tembiapo porãite, ha’éva Common Voice ñe’ẽryapu ryru oiporukuaáva opavave, ejapomína nde rogueteerã.
-login-company = Eike / Eñemboheraguapy ñe'ẽveve { $company } pegua reheve
+login-company = Eike / Eñemboheraguapy ñe’ẽveve { $company } pegua reheve
 profile-not-required = Natekotevẽi rejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapóramo, ko guýpe romyesakãmive mba’érepa.
 read-more-about = Eikuaave kóva rehe ore Mba’e rehegua roguépe
