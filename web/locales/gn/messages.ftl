@@ -526,16 +526,16 @@ review-submit-msg = Aguyjevete reñongatúre ne ñe’ẽ!<lineBreak></lineBreak
 review-recording = Hechajey
 review-rerecord = Eñe’ẽñongatujey
 review-cancel = Ani Remondo
-review-keep-recordings = Eñongatu ñe'ẽryapu ñongatupyre
+review-keep-recordings = Eñongatu ñe’ẽryapu ñongatupyre
 review-delete-recordings = Embogue ñe’ẽ añongatuva’ekue
 
 ## Datasets Page
 
-datasets-headline = Ore rojaporoína tembiporu opavavépe g̃uarã ha opaite ñe'ẽme oiporukuaáva opavave oguerojeráva tembiporu oikũmby ha ohaikuaáva yvypóra ñe'ẽ ohendúva.
+datasets-headline = Ore rojaporoína tembiporu opavavépe g̃uarã ha opaite ñe’ẽme oiporukuaáva opavave oguerojeráva tembiporu oikũmby ha ohaikuaáva yvypóra ñe’ẽ ohendúva.
 datasets-positioning =
-    Ore roimo’ã oĩramo ñe’ẽryapu opavavépe g̃uarã oĩvéta avei tembiapo pyahu opavavépe g̃uarã oikũmbýva ha ohaíva oje'éva chupe.
+    Ore roimo’ã oĩramo ñe’ẽryapu opavavépe g̃uarã oĩvéta avei tembiapo pyahu opavavépe g̃uarã oikũmbýva ha ohaíva oje’éva chupe.
     
-    Common Voice-niko ha’emavoi kuaapy’aty tuichavéva oĩva heta ñe’ẽme, katu naha’eñói
+    Common Voice-niko ha’emavoi kuaapy’aty tuichavéva oĩva heta ñe’ẽme, katu naha’eñói.
     
     Eikemi ko toguépe eikuaasevérõ ambue kuaapy’aty ãichagua oĩva opavavépe g̃uarã ha avei okakuaa ohóvo Common Voice, reikuaáta ápe mba’epyahu.
 language = Ñe’ẽ
@@ -547,7 +547,7 @@ cv-license = Ñemoneĩkuatia
 audio-format = Mba’epu Ysaja
 number-of-voices = Mboy Ahy'ópa
 splits = Ñemboja’o
-email-to-download = Ehai ne Ñe'ẽveve emboguejy hag̃ua
+email-to-download = Ehai ne Ñe’ẽveve emboguejy hag̃ua
 why-email = <b>Mba’érepa roikotevẽ ne ñe’ẽvevére?</b> Oiméne romog̃uahẽ ndéve marandu iñambuéva jave kuaapy’aty, péicha roikuaaukakuaa.
 confirm-size = Reiméma remboguejy hag̃uáicha <b>{ $size }</b>
 size-gigabyte = GB
@@ -558,9 +558,9 @@ validated-hours = Aravo mboajepyre
 recorded-hours = Aravo ñongatupyre
 whats-inside = ¿Mba’e oĩ Common Voice mba’ekuaarãme?
 dataset-description-hours =
-    Peteĩteĩ ñe'ẽryapu ñongatupyre oĩvaniko oguereko peteĩ MP3 ha jehai. Heta umi <b>{ $total }</b> aravo ñe'ẽryapu ñongatupyrégui oĩva kuaapy'atýpe oguereko avei ijykére kuaapyrã avano'õ rehegua: aryve, meña ha ñembohyapu reko oipytyvõkuaaporãvéva tembiporu oikũmby ha ohai hag̃ua ohendúva.
+    Peteĩteĩ ñe’ẽryapu ñongatupyre oĩvaniko oguereko peteĩ MP3 ha jehai. Heta umi <b>{ $total }</b> aravo ñe’ẽryapu ñongatupyrégui oĩva kuaapy’atýpe oguereko avei ijykére kuaapyrã avano’õ rehegua: aryve, meña ha ñembohyapu reko oipytyvõkuaaporãvéva tembiporu oikũmby ha ohai hag̃ua ohendúva.
     
-    Kuaapy'aty oguerekohína <b>{ $valid }</b> aravo moneĩmbyre <b>{ $languages }</b> ñe'ẽme, katu ore romongakuaa rohóvo ko tembiapo. Eikemi ehechávo ore <languagesLink>Ñe'ẽnguéra rogue</languagesLink> eikesévo peteĩ ñe'ẽ rembiapópe eporopytyvõ hag̃ua.
+    Kuaapy’aty oguerekohína <b>{ $valid }</b> aravo moneĩmbyre <b>{ $languages }</b> ñe’ẽme, katu ore romongakuaa rohóvo ko tembiapo. Eikemi ehechávo ore <languagesLink>Ñe’ẽnguéra rogue</languagesLink> eikesévo peteĩ ñe’ẽ rembiapópe eporopytyvõ hag̃ua.
 want-dataset-update = Akóintepa reikuaase mba’epyahu Common Voice kuaapy’aty rehegua? Eñemboheraguapy ore Momaranduhápe.
 subscribe = Mboheraguapy
 get-started-speech = Eñepyrũ ko árape ayvu jeikuaa
@@ -568,14 +568,14 @@ other-datasets = Ambue mba’ekuaara ayvugua rupa
 feedback-q = ¿Eñe’ẽsépa?
 deepspeech-info = Common Voice kuaapy’aty oykeko ambue Mozilla rembiporu hérava Deep Speech, ha’éva ku'eha ojeporukuaáva tembiporúpe oikũmby ha ohaiséva oje’éva chupe. Emoñe’ẽ ore <githubLink>Github Kuaapyrã</githubLink> térã eike ore <discourseLink>DeepSpeech Ñomongeta renda</discourseLink> eikuaaseve hag̃ua hese ha mba’éichapa eikekuaa ko tembiapópe.
 common-voice-info-new = Oĩpa emba’eporanduséva Common Voice rehe? Oúramo ne akãme apy’ã iporãjepéva térã oĩramo mba’e eme’ẽséva hese ne remiandu peteĩ ñe’ẽme rehegua, eike eñe’ẽvo orendive ore <discourseLink>Ñomongetaguasu</discourseLink> rendápe.
-data-other-librispeech-description = LibriSpeech-niko peteĩ ñe'ẽryapuryru oguerekóva 1000 aravo rupi 16Khz ñe'ẽjoaju ryapu ñongatupyre inglés-pe oúva aponde'aguasu LibriVox arandukarendúvagui.
-data-other-ted-name = TED-LIUM Ñe'ẽryapu Ryru
-data-other-ted-description = TED-LIUM ñe'ẽryapu ryru ombyaty ñe'ẽryapu oúva ñomongeta ha jehai TED ñandutirendágui.
+data-other-librispeech-description = LibriSpeech-niko peteĩ ñe’ẽryapuryru oguerekóva 1000 aravo rupi 16Khz ñe’ẽjoaju ryapu ñongatupyre inglés-pe oúva aponde’aguasu LibriVox arandukarendúvagui.
+data-other-ted-name = TED-LIUM Ñe’ẽryapu Ryru
+data-other-ted-description = TED-LIUM ñe’ẽryapu ryru ombyaty ñe’ẽryapu oúva ñomongeta ha jehai TED ñandutirendágui.
 data-other-voxforge-description = VoxForge ojejapókuri ombyaty hag̃ua ñe’ẽryapu oñembotaiva’ekue ojeporu rei hag̃ua tembiporu oikũmby ha ohaíva oje’éva chupe reheve.
-data-other-tatoeba-description = Tatoeba-niko avei kuaapyryru oguerekóva pype ñe'ẽjoaju, ñe'ẽ'asa ha ñe'ẽryapu ojeporúva oñemoarandu hag̃ua ñe'ẽme. Ko ñemboguejyrã oguereko ñe'ẽ inglés-pe.
+data-other-tatoeba-description = Tatoeba-niko avei kuaapyryru oguerekóva pype ñe’ẽjoaju, ñe’ẽ’asa ha ñe’ẽryapu ojeporúva oñemoarandu hag̃ua ñe’ẽme. Ko ñemboguejyrã oguereko ñe’ẽ inglés-pe.
 your-feedback = Reikuaápa mba’éichapa ikatu ñamboporãvekuaa Common Voice kuaapyryru? Eñandukamína Ñomongetaguasúpe
 go-discourse = Eike Discourse-pe
-missing-language = Reñandúpa ne ñe'ẽte rehe ndaiporiha Kuaapyryrúpe? Ejerurekuaa toñemoinge hag̃ua avei ne ñe'ẽ ore Ñe'ẽnguéra Roguépe.
+missing-language = Reñandúpa ne ñe’ẽte rehe ndaiporiha Kuaapyryrúpe? Ejerurekuaa toñemoinge hag̃ua avei ne ñe’ẽ ore Ñe’ẽnguéra Roguépe.
 go-languages-page = Eho Ñe’ẽ Kuatiaroguépe
 ready-to-validate = ¿Eiméma emboaje hag̃ua ñe’ẽjuaju?
 more = Hetave
@@ -588,14 +588,14 @@ dataset-version = Peteĩchagua
 download-title = Ne ñemboguejy oñepyrũma.
 download-helpus = Orepytyvõmína okakuaa hag̃ua ñande aty omba’apóva tembiporu pyahu rehe, ehejami ne ñe’ẽveve ikatu hag̃uáicha akóinte reikuaa ipyahúva.
 download-form-email =
-    .label = Ehai ne ñe'ẽveve
+    .label = Ehai ne ñe’ẽveve
     .value = Aguyjevete, ñañomongetátajepi.
 download-back = Ejevy Common Voice Kuaapyryrukuérape
 download-no = Nahániri, aguyje
 
 ## Contact Modal
 
-contact-title = Kuatia ñemyenyhẽrã Eñe'ẽ hag̃ua orendive
+contact-title = Kuatia ñemyenyhẽrã Eñe’ẽ hag̃ua orendive
 contact-form-name =
     .label = Téra
 contact-form-message =
@@ -604,7 +604,7 @@ contact-required = *tekotevẽva
 
 ## Request Language Modal
 
-request-language-title = Ejerure Ñe'ẽ Ñemoinge
+request-language-title = Ejerure Ñe’ẽ Ñemoinge
 request-language-form-language =
     .label = Ñe’ẽ
 request-language-success-title = Oñemondóma mba’ejerure, aguyjevete.
@@ -617,7 +617,7 @@ other-language = Ambue Ñe’ẽ
 language-section-in-progress = Ojejapóva
 language-section-in-progress-new-description = Ko’ã ñe’ẽ rehe oñemba’apohína ore atýpe. Ñemboguata ra’ãnga ohechauka mboy pevépa <localizationGlossaryLink>oñembohasáma ñandutirenda</localizationGlossaryLink> ñe’ẽ pyahúpe ha mboýpa okakuaáma <sentenceCollectionGlossaryLink>ñe’ẽjoaju ñemono'õ</sentenceCollectionGlossaryLink>.
 language-section-launched = Mombopyre
-language-section-launched-description = Ko'ã ñe'ẽme g̃uarã oĩma <localizationGlossaryLink>ñandutirenda ñembohasapyre</localizationGlossaryLink> ha oĩma avei heta porã <sentenceCollectionGlossaryLink>ñe'ẽjoaju mono'õmbyre</sentenceCollectionGlossaryLink> ha upévare ikatúma <speakLink>oñembohyapu</speakLink> ha <listenLink>oñehendu</listenLink>.
+language-section-launched-description = Ko’ã ñe’ẽme g̃uarã oĩma <localizationGlossaryLink>ñandutirenda ñembohasapyre</localizationGlossaryLink> ha oĩma avei heta porã <sentenceCollectionGlossaryLink>ñe’ẽjoaju mono’õmbyre</sentenceCollectionGlossaryLink> ha upévare ikatúma <speakLink>oñembohyapu</speakLink> ha <listenLink>oñehendu</listenLink>.
 languages-show-more = Ehechave
 languages-show-less = Ehecha’ive
 language-meter-in-progress = Jeku’e
@@ -626,7 +626,7 @@ language-search-input =
     .placeholder = Heka
 language-speakers = Ñe’ẽharakuéra
 localized = Ñe’ẽasapyre
-sentences = Ñe'ẽjoajukuéra
+sentences = Ñe’ẽjoajukuéra
 total-hours = Aravo Moneĩmbyre
 
 ## Contribution
@@ -639,8 +639,8 @@ skip = Jepo
 shortcuts = Mbopya’eha
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> Ñe'ẽryapu
-       *[other] <bold>{ $count }</bold> Ñe'ẽryapu
+        [one] <bold>{ $count }</bold> Ñe’ẽryapu
+       *[other] <bold>{ $count }</bold> Ñe’ẽryapu
     }
 goal-help-recording = ¡Reipytyvõma Common Voice-pe ohupyty hag̃ua <goalPercentage></goalPercentage> arapegua rembiapógui, ha’éva { $goalValue } ñe’ẽ ñembohyapu rupytyrã!
 goal-help-validation = ¡Reipytyvõma Common Voice-pe ohupyty hag̃ua <goalPercentage></goalPercentage> arapegua rembiapógui, ha’éva { $goalValue } ñe’ẽ ñemoneĩ rupytyrã!
@@ -649,17 +649,17 @@ contribute-more =
         [one] Reĩmapa rejapomi { $count }ve?
        *[other] Reĩmapa rejapomi { $count }ve?
     }
-record-cta = Eñepyrũ eñe'ẽñongatu
+record-cta = Eñepyrũ eñe’ẽñongatu
 record-platform-not-supported = Rombyasyete, ne pyendavusu nomba’apokuaáira’e gueteri ore mba’éva ndive.
 record-platform-not-supported-desktop = Reiporúramo mohendaha mesa arigua eporopytyvõkuaa emboguejývo…
 record-platform-not-supported-ios-non-safari = Reiporúramo iOS eikeva’erã Safari-pe emoneĩ hag̃ua ñe’ẽñemboguapy…
 record-must-allow-microphone = Remoneĩva’erã ñe’ẽmbotuichaha jeporu.
-record-no-mic-found = Ndojejuhúi ñe'ẽmbotuichaha.
-record-error-too-short = Mbykyetereíma ñe'ẽñembohyapupyre.
-record-error-too-long = Ipukuetereíma ñe'ẽñembohyapupyre.
-record-error-too-quiet = Ikirirĩetereíma ñe'ẽñembohyapupyre.
-record-cancel = Ejoko Ñe'ẽñemboguapyjey
-record-instruction = { $actionType }<recordIcon></recordIcon> ha upéi emoñe'ẽ hatã ñe'ẽjoaju
+record-no-mic-found = Ndojejuhúi ñe’ẽmbotuichaha.
+record-error-too-short = Mbykyetereíma ñe’ẽñembohyapupyre.
+record-error-too-long = Ipukuetereíma ñe’ẽñembohyapupyre.
+record-error-too-quiet = Ikirirĩetereíma ñe’ẽñembohyapupyre.
+record-cancel = Ejoko Ñe’ẽñemboguapyjey
+record-instruction = { $actionType }<recordIcon></recordIcon> ha upéi emoñe’ẽ hatã ñe’ẽjoaju
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> oĩmba vove
 record-three-more-instruction = ¡Ejapo mbohapyve!
 record-again-instruction = ¡Oĩ porãitépiko! <recordIcon></recordIcon> Embohyapuve
@@ -668,27 +668,27 @@ record-last-instruction = <recordIcon></recordIcon> ¡Peteĩvéjepe!
 review-tooltip = Ehechajey ha Eñe’ẽñembohyapujey ñe’ẽjoaju ápe rejapo aja ambue mba’e.
 share-clip = Emboja’o ne ñe’ẽryapu ñongatupyre ambuéva ndive
 share-common-voice = Emoherakuã Common Voice
-review-instruction = Ehendujey ha Eñembohyapujey ñe'ẽjoaju tekotevẽramo
+review-instruction = Ehendujey ha Eñembohyapujey ñe’ẽjoaju tekotevẽramo
 record-submit-tooltip = { $actionType } emondo oĩporãmaramo
-clips-uploaded = Ñe'ẽryapu Ñongatupyre Ojehupímava
+clips-uploaded = Ñe’ẽryapu Ñongatupyre Ojehupímava
 record-abort-title = Eñembohyapupase raẽpa?
 record-abort-text = Esẽramo ko'ág̃a noñeñongatumo'ãi ejapovahína
-record-abort-submit = Emondo Ñe'ẽryapu Ñongatupyre
-record-abort-continue = Embopaha ñe'ẽñembohyapu
-record-abort-delete = Esẽ ha Emboguepaite Ñe'ẽryapu
+record-abort-submit = Emondo Ñe’ẽryapu Ñongatupyre
+record-abort-continue = Embopaha ñe’ẽñembohyapu
+record-abort-delete = Esẽ ha Emboguepaite Ñe’ẽryapu
 listen-instruction = { $actionType }<playIcon></playIcon> ombohyapuporãpara’e ñe’ẽjoaju?
 listen-again-instruction = ¡Iporãitereíma ne rembiapo! <playIcon></playIcon> Ehendujey ikatumi vove
 listen-3rd-time-instruction = 2 oĩma ko’ág̃a, ¡Péva ha’e, ejapomi ambueve! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Ipahapeguáma!
-listen-empty-state = Ndaiporivéima ko'ág̃a ñe'ẽryapu ñongatupyre ko ñe'ẽme oñemoneĩ hag̃ua...
-speak-empty-state = Ndaiporivéima ko'ág̃a ñe'ẽjoaju ko ñe'ẽme oñembohyapu hag̃ua...
-speak-empty-state-cta = Embojoapyve ñe'ẽjoaju
+listen-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽryapu ñongatupyre ko ñe’ẽme oñemoneĩ hag̃ua...
+speak-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽjoaju ko ñe’ẽme oñembohyapu hag̃ua...
+speak-empty-state-cta = Embojoapyve ñe’ẽjoaju
 record-button-label = Eñongatu nde ahy'o
-share-title-new = <bold>Orepytyvõmína</bold> rojuhumíva tapicha ome'ẽséva ijahy'o
+share-title-new = <bold>Orepytyvõmína</bold> rojuhumíva tapicha ome’ẽséva ijahy’o
 keep-track-profile = Eikuaameme mboýpa rejapóma peteĩ togue nemba’éva rupive
 login-to-get-started = Eike térã eñemboheraguapy eñepyrũvo
 target-segment-first-card = Remba’apohína ore ñe’ẽpehẽ rupytyrã peteĩha rehe
-target-segment-first-banner = Eipytyvõmive emoheñóivo Common Voice ñe'ẽpehẽ rupytyrã peteĩha { $locale }me
+target-segment-first-banner = Eipytyvõmive emoheñóivo Common Voice ñe’ẽpehẽ rupytyrã peteĩha { $locale }me
 target-segment-add-voice = Eme'ẽ Nde Ahy'o
 target-segment-learn-more = Kuaave
 
