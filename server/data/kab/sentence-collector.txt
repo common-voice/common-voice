@@ -21072,6 +21072,7 @@ Azeffan-a ur yesseḍsay ara akk.
 Azeggaɣ axir.
 Azeggaɣ mačči d tiɣmi-k.
 Azegzaw yerna fell-ak.
+Azegḍuf d yiwen n yimɣi iteqsen.
 Azekka ad ak-d-rreɣ adlis-nnek.
 Azekka ad as-aruɣ.
 Azekka ad as-ɣreɣ i Dda Racid.
@@ -21088,6 +21089,7 @@ Azekka ad ifat lḥal.
 Azekka ad iliɣ da.
 Azekka ad iliɣ di lbiru alarma d setta.
 Azekka ad iliɣ din.
+Azekka ad k-id-taweḍ tririt-inu.
 Azekka ad n-rzuɣ fell-awen.
 Azekka ad n-rzuɣ fell-awent.
 Azekka ad n-uɣaleɣ.
@@ -86265,6 +86267,7 @@ Ttaǧǧan imeɣnasen ttmettaten deg leḥbus, u ad d-qqaren nettnadi tugdut!
 Ttaǧǧaɣ-asen idrimen yal ass.
 Ttaɛjabent-iyi teḥkayin am ti.
 Ttaɛraḍeɣ ad iliɣ am tullas akk akken kan ur ttaḍsan ara fell-i.
+Ttaɣ awal i tmeṭṭut-nnek a Dda Ɛmiiruc u Qasi Waɛmer n Ḥmed.
 Ttaɣ awal i tselmadin-nnek.
 Ttaɣ awal i tselmadin-nnem.
 Ttaɣ awal i yiselmaden-nnek.
@@ -86310,6 +86313,7 @@ Ttbanen-d ur ten-yuɣ wara.
 Ttbanen-d ur umaren ara.
 Ttbanent gerrzent.
 Ttbanent-d akk kifkif-itent.
+Ttbanent-d d tumliḥent ddukkli.
 Ttbanent-d ur umarent ara.
 Ttbanent-iyi-d am wakken qrib ad d-ɣlint ɣef udekkan iɣef rsent.
 Ttbanent-iyi-d iyi-s d tilawin timeqranin.
@@ -87279,6 +87283,7 @@ Ttwaliɣ tiliẓri yal tameddit.
 Ttwaliɣ tiliẓri.
 Ttwaliɣ timeẓri-nnes tjebbed-d.
 Ttwaliɣ timliliyin sseɛyayent.
+Ttwaliɣ tuggda deg wallen nwen.
 Ttwaliɣ tuggda deg wallen-ik.
 Ttwaliɣ ur yelli wugur.
 Ttwaliɣ yesɛa lḥeqq.
@@ -87472,6 +87477,7 @@ Ttxil-k, as-d ɣer da.
 Ttxil-k, ass-a ṣber fell-i.
 Ttxil-k, awi lqeḍyan-a s axxam.
 Ttxil-k, awi-yi-d ad sweɣ.
+Ttxil-k, azen-it s yizen uɛjil.
 Ttxil-k, azen-iyi tabṛat-a.
 Ttxil-k, azen-iyi-d akaṭalug.
 Ttxil-k, azen-iyi-d tabṛat.
@@ -87485,6 +87491,7 @@ Ttxil-k, ddu akked Saɛid Waɛli.
 Ttxil-k, ddu yid-i s axxam.
 Ttxil-k, ddu ɣer unafag.
 Ttxil-k, ddu-iyi s leɛqel tura.
+Ttxil-k, dima tteqqen amsegdal.
 Ttxil-k, dima ttlusu amsegdal.
 Ttxil-k, efk-as amahil i Dda Yidir.
 Ttxil-k, efk-iyi-d aman!
@@ -87560,6 +87567,7 @@ Ttxil-k, ur iyi-ttaǧǧa ara!
 Ttxil-k, ur reffu ara fell-i.
 Ttxil-k, ur t-ttini i yiwen.
 Ttxil-k, ur ttnal.
+Ttxil-k, ur ttṛuḥu ara s axxam.
 Ttxil-k, ur zerreb ara deg tmeslayt.
 Ttxil-k, ur zeɛɛef ara.
 Ttxil-k, xdem akken i d-nniɣ.
@@ -87578,6 +87586,8 @@ Ttxil-k, ɣer-iyi-d i uṭaksi.
 Ttxil-k, ɣer-iyi-d.
 Ttxil-k, ɣiwel, teɛjel tegnit.
 Ttxil-k, ɣleq lgaz-nni.
+Ttxil-k, ɣleq tawwurt deffir-k.
+Ttxil-k, ḍegger-iyi-d tabalunt.
 Ttxil-k, ḍeyyer-iyi wa.
 Ttxil-k, ḍfer-iyi-d.
 Ttxil-k, ḍfer-iyi.
@@ -87895,6 +87905,7 @@ Ttṛebbin ibekki.
 Ttṛebbin yiwen webṛik yelha.
 Ttṛekkibent timacinin n tira.
 Ttṛuḥun ar ssinima yal ssmana.
+Ttṛuḥunt ar ssinima yal ssmana.
 Ttṛuḥuɣ ad d-qḍuɣ yal taṣebḥit.
 Ttṛuḥuɣ ar ssinima yal ssmana.
 Ttṣeddiqet idammen.
@@ -87948,6 +87959,7 @@ Tudert-is akk d lmeḥna.
 Tudert-is yebna-tt ɣef tidet.
 Tudert-iw akk nekk ttṛajuɣ-tt.
 Tudert-iw attan gar ifassen-ik.
+Tudert-iw attan gar ifassen-im.
 Tudert-iw d timterwit.
 Tudert-iw tbeddel ddeqs-is.
 Tudert-iw tella trab akk.
@@ -88377,6 +88389,7 @@ Tulyemt isunan-nni s tazzla.
 Tum la imecceḍ acebbub-is.
 Tum terkeb-it tawla n lqeḍyan.
 Tum yekkes-d tuɣmest iḍelli.
+Tum yemceḍ ucebbub-is, yemsawi.
 Tum yemmut imalas iɛeddan.
 Tum yeqqar tikkwal deg wusu.
 Tum yeqqim deg usensu.
@@ -89160,6 +89173,7 @@ Tuɣemt-tt-id deg Makuda?
 Tuɣeḍ axxam deg Buḥemza?
 Tuɣeḍ t deg ssuq aberkan?
 Tuɣeḍ tannumi d ɛawaz.
+Tuɣeḍ tanumi tettruḥuḍ ɣer din?
 Tuɣeḍ taqcict icebḥen akk deg temdint.
 Tuɣeḍ yiwet n teqcict tugar-ik.
 Tuɣeḍ-as-d aẓru i ssaɛa-k.
@@ -89859,6 +89873,7 @@ Tzemremt ad iyi-tessurfemt?
 Tzemremt ad iyi-tgemt lemzeyya?
 Tzemremt ad iyi-thennimt?
 Tzemremt ad iyi-tɛawnemt?
+Tzemremt ad mmeslayemt neɣ ala?
 Tzemremt ad t-id-leḥqemt?
 Tzemremt ad t-id-tafemt?
 Tzemremt ad t-id-tɛawdemt?
@@ -92025,6 +92040,7 @@ Ula d akalṣun iɛellqen ɣef ccriṭ, ukren-t!
 Ula d akerfa ur t-ṛwiɣ.
 Ula d aksum alamma nsečč-as.
 Ula d akufi yeɣli.
+Ula d akṛah d aderɣal am tayri.
 Ula d alday ur t-yeldiy.
 Ula d aneɛruḍ ur t-id-yeɛriḍ.
 Ula d argaz ilaq-as ad yedhu akked warraw-is.
@@ -92656,6 +92672,7 @@ Ulac aɣilif ma rniɣ-n ɣer-went?
 Ulac aɣilif ma sqedceɣ asawal?
 Ulac aɣilif ma sqedceɣ aya?
 Ulac aɣilif ma sqedceɣ imru-a?
+Ulac aɣilif ma sqedceɣ isislem?
 Ulac aɣilif ma ssaɣeɣ taftilt?
 Ulac aɣilif ma ssaɣeɣ tiliẓri?
 Ulac aɣilif ma ssaɣeɣ ṛṛadyu?
@@ -93030,6 +93047,7 @@ Ulac win yemmuten.
 Ulac win yenɣa ustaɛfu.
 Ulac win yestehzan fell-i.
 Ulac win yettmuqqulen ɣuṛ-s.
+Ulac win yettmuqulen ɣer gma-s.
 Ulac win yeẓran ma d tidet.
 Ulac win yugaren Dilem Ɛli deg tẓuri n tkarikaturin.
 Ulac win ḥemleɣ nnig-k.
@@ -94868,6 +94886,8 @@ Ur aɣ-tent-id-yettak ara?
 Ur aɣ-tent-id-yeǧǧa ara.
 Ur aɣ-tent-id-ǧǧan ara.
 Ur aɣ-tent-id-ǧǧant ara.
+Ur aɣ-terri akk tmara ad nerfu.
+Ur aɣ-terri ara tmara ad nerfu.
 Ur aɣ-terri ara tmara ad nruḥ.
 Ur aɣ-tewqiɛ di tlisa.
 Ur aɣ-teṭṭfen ara.
