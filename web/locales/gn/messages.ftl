@@ -441,7 +441,7 @@ how-does-it-work-text = Ore romono’õ viru yvypóra ome’ẽreíva ñandéve 
 about-speak = Ayvu
 about-speak-text = Ome’ẽva ijahy’o omoñe’ẽ hatã ñe’ẽjoaju ome’ẽreiva’ekue avei oréve ambue pytyvõhára ha oĩva ore kuaapy’atýpe.
 about-listen-queue = Ñehenduha ruguái
-about-listen-queue-text = Ñe'ẽryapu ñongatupyre oike peteĩ ñemoneĩrã rysýipe oñembosako'íva oñemboaje hag̃ua.
+about-listen-queue-text = Ñe’ẽryapu ñongatupyre oike peteĩ ñemoneĩrã rysýipe oñembosako’íva oñemboaje hag̃ua.
 about-listen = Ehendu
 about-listen-text = Poruhára omoneĩ oĩ porãpa ñe’ẽryapu ñongatupyre ambuéva ojapova’ekue.
 about-is-it-valid = ¿Ñeñongatu oikoite?
@@ -451,20 +451,20 @@ about-yes-votes-text = Ikatu hag̃uáicha oñemoneĩ ñe’ẽjoaju ñembohyapup
 about-no-votes = ≥ 2 Voto oiko’ỹva
 about-no-votes-text = Oĩramo ombotovéva’ekue ñe’ẽjoaju ñongatupyre, ojevyjeýta upéva ñe’ẽjoaju rysýipe. Oñembotovejeýramo, ohasáma upe ñe’ẽjoaju Clip Graveyard, ha’evahína Ñe’ẽryapu ñongatupyre Tyvyty.
 about-dataset-new = Common Voice mba’ekuaarã rupa
-about-dataset-new-text = Common Voice kuaapy'aty oñongatu pype hetaite ñe'ẽryapu oipytyvõva tembiporu guerojerahárape ojapo hag̃ua tembiporu oikũmbýva ha ohaikuaáva ohendúva.
+about-dataset-new-text = Common Voice kuaapy'aty oñongatu pype hetaite ñe’ẽryapu oipytyvõva tembiporu guerojerahárape ojapo hag̃ua tembiporu oikũmbýva ha ohaikuaáva ohendúva.
 about-clip-graveyard = Ñongatuhakuéra mbyatyha
 about-clip-graveyard-text = Clip Graveyard, ñe’ẽryapu ñongatupyre tyvytýniko ombyaty umi ñe’ẽjoaju oñembohyapuva’ekue oñembotoveva’ekue, ikatúva avei oñemboguejy.
 about-partners = Irũnguéra
 about-become-a-partner = Toiko ndehegui irũ
 about-partnership =
-    Common Voice oguata oĩ rupi tapicha oporopytyvõva, upévare ore rembiapo osãingo pytyvõhára rehe oiko hag̃ua chugui ñe'ẽryapu ñongatupyre atypy tuichavéva ñande yvy ape árigua.
+    Common Voice oguata oĩ rupi tapicha oporopytyvõva, upévare ore rembiapo osãingo pytyvõhára rehe oiko hag̃ua chugui ñe’ẽryapu ñongatupyre atypy tuichavéva ñande yvy ape árigua.
     
-    Ore rombo'aguyjeme'ẽse opaite yvypóra ha tapicha aty orepytyvõvape:
+    Ore rombo’aguyjeme’ẽse opaite yvypóra ha tapicha aty orepytyvõvape:
 about-get-involved = Poropytyvõ
 about-get-involved-text-2 =
-    Reipytyvõsépa ikatuhag̃uáicha Common Voice iporãve?
-    Iporãiténe upéva! Eñe'ẽ orendive ne ñe'ẽveve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
-    renda rupive, orekuaaukamína avei oĩramo apañuãi ñanduti rendápe ko'ápe:<githubLink>GitHub</githubLink> térã eikemi <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
+    Reipytyvõsépa ikatu hag̃uáicha Common Voice iporãve?
+    Iporãiténe upéva! Eñe’ẽ orendive ne ñe’ẽveve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
+    renda rupive, orekuaaukamína avei oĩramo apañuãi ñanduti rendápe ko’ápe:<githubLink>GitHub</githubLink> térã eikemi <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
 about-nav-why-common-voice = ¿Mba’ére?
 about-nav-how-it-works = ¿Mba’e?
 about-nav-partners = Irũnguéra
@@ -474,7 +474,7 @@ mycroft-subtitle = Tembiporu Ikatupyrýva
 mycroft-description =
     Mycroft niko pytyvõhára open source peteĩha.
     Mycroft ojeporukuaa opaichagua tembiporúpe - mohendahápe, mba’yruguatápe térã pumbyrýpe.
-mycroft-secondary-description = Ko tembiporu open source oñemoambuekuaa, oñemoporãvekuaa ojeipotaháicha. Mycroft ikatu avei ojeporu oimeraẽva tembikuaaty aponde'ápe térã empresa  oguerojeráva software-pe.
+mycroft-secondary-description = Ko tembiporu open source oñemoambuekuaa, oñemoporãvekuaa ojeipotaháicha. Mycroft ikatu avei ojeporu oimeraẽva tembikuaaty aponde’ápe térã empresa  oguerojeráva software-pe.
 
 ## Glossary
 
@@ -482,11 +482,11 @@ glossary = Ñe’ẽrysýi
 localization = Moñe’ẽasa
 localization-explanation = Kóicha ñamba’apo ñambohasa ha ñamoporãve hag̃ua mba’ekuaa ambue ñe’ẽme.
 sentence-collection = Ñe’ẽsyry ñembyaty
-sentence-collection-explanation = Rombyaty ñe'ẽjoaju ikatúva ojeporurei ñandutípe térã orevoi rohai ñe'ẽjoaju opavavépe g̃uarã.
-hours-recorded-explanation = Mboy ñe'ẽryapu roñongatúma ohóvo ko'ág̃a peve.
+sentence-collection-explanation = Rombyaty ñe’ẽjoaju ikatúva ojeporurei ñandutípe térã orevoi rohai ñe’ẽjoaju opavavépe g̃uarã.
+hours-recorded-explanation = Mboy ñe’ẽryapu roñongatúma ohóvo ko’ág̃a peve.
 hours-validated-explanation = Mboy ñe’ẽryapu aravópa omoneĩmava 2, 3 tapichágui ojopy rupi hikuái “Héẽ”. Kóva ohechauka mboy pevépa romba’apóma rohupyty hag̃ua pe 10.000 aravo rohupytyséva.
 sst = Moñe’ẽra ijayvúva (STT)
-sst-explanation = Ñe'ẽ-Jehai (STT) rembiporu amboguapy jehaípe ñe'ẽryapu.
+sst-explanation = Ñe’ẽ-Jehai (STT) rembiporu amboguapy jehaípe ñe’ẽryapu.
 de-identified = Jekuaa’ỹ
 de-identified-explanation = Mba’éichapa oñembo’apohárakuaa’ỹ oñeñongatu jave ñe’ẽryapu kuaapy’atýpe.
 
@@ -505,26 +505,26 @@ data-download-yes = Héẽ
 data-download-deny = Nahániri
 data-download-license = Moneĩmby: <licenseLink>CC-0</licenseLink>
 data-download-modal = Remboguejytahína <size>{ $size }GB</size> Kuaapy, oĩ porãpa?
-data-subtitle = Ore rojaporo'ína ñe'ẽryapu aty ñongatupyre opavavépe g̃uarã ha ombokatupyrýva mohendahápe oikũmbývo yvypóra ñe'ẽ.
+data-subtitle = Ore rojaporo’ína ñe’ẽryapu aty ñongatupyre opavavépe g̃uarã ha ombokatupyrýva mohendahápe oikũmbývo yvypóra ñe’ẽ.
 data-explanatory-text = Ore roimo’ã oĩramo ñe’ẽryapu opavavépe g̃uarã oĩvéta avei tembiapo pyahu opavavépe g̃uarã oikũmbýva ha ohaíva oje’éva chupe. Upévare roñepia’ãmbaite ko tembiapópe, roipotágui tembiporu pyahu og̃uahẽkuaa opavave pópe ha opaite ñe’ẽme.
-data-get-started = <speechBlogLink>Eikuaañepyrũ Ñe'ẽ Ñeikũmby rehegua</speechBlogLink>
+data-get-started = <speechBlogLink>Eikuaañepyrũ Ñe’ẽ Ñeikũmby rehegua</speechBlogLink>
 data-other-title = Ambue mba’ekuaarã marandurenda ijayvúva…
 data-other-goto = Eho { $name }-pe
 data-other-download = Emboguejy Mba’ekuaarã
 data-bundle-button = Emboguejy Kuaapy'aty Apakuapy
-data-bundle-description = Common Voice kuaapy ha avei opaite ambue ñe'ẽryapu kuaapy'aty yvatepegua.
+data-bundle-description = Common Voice kuaapy ha avei opaite ambue ñe’ẽryapu kuaapy’aty yvatepegua.
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
-data-download-singleword-title = Emboguejy Ñe'ẽryapu Pehẽ'i
+data-download-singleword-title = Emboguejy Ñe’ẽryapu Pehẽ’i
 data-download-singleword-callout = Kóvaniko ñe’ẽryapu pehẽ ojeporúva oñemombareteve hag̃ua mba’éichapa tembiporu oikũmbykuaa peteĩteĩ ñe’ẽ pehẽ michíva, héẽ/nahániri kuaapy ha mba’e oiporúva wakeword Firefox Voice-pe.
 review-terms = Reiporúramo Common Voice, remoneĩ ore <termsLink>Jeporu Mbojojaha</termsLink> ha avei ore <privacyLink>Kuaapyñemi rehegua Mbojojaha</privacyLink>
 terms-agree = Amoneĩ avei
 terms-disagree = Namoneĩri
-review-aborted = Oñembotove Jehupi. Remboguesépa ne ñe'ẽryapu ñongatupyre?
+review-aborted = Oñembotove Jehupi. Remboguesépa ne ñe’ẽryapu ñongatupyre?
 review-submit-title = Ehechajey ha Emondo
-review-submit-msg = Aguyjevete reñongatúre ne ñe'ẽ!<lineBreak></lineBreak>Ko'ág̃a ikatúma rehendujey ha remondo ne ñe'ẽñongatupyre.
+review-submit-msg = Aguyjevete reñongatúre ne ñe’ẽ!<lineBreak></lineBreak>Ko’ág̃a ikatúma rehendujey ha remondo ne ñe’ẽñongatupyre.
 review-recording = Hechajey
-review-rerecord = Eñe'ẽñongatujey
+review-rerecord = Eñe’ẽñongatujey
 review-cancel = Ani Remondo
 review-keep-recordings = Eñongatu ñe'ẽryapu ñongatupyre
 review-delete-recordings = Embogue ñe’ẽ añongatuva’ekue
