@@ -11,7 +11,7 @@ loading = Se încarcă…
 email-opt-in-info = Doresc să primesc mesaje pe e-mail, cum ar fi mementouri de obiective, actualizări ale progresului propriu și buletine informative despre Common Voice.
 email-opt-in-info-title = Înscrie-te pe lista de corespondență Common Voice
 email-opt-in-info-sub-with-challenge = Primești mesaje pe e-mail, precum memento-uri de provocări și obiective, actualizări legate de progres și buletine de știri despre Common Voice.
-email-opt-in-privacy-v2 = Dacă optezi să primești mesaje pe e-mail înseamnă că accepți ca Mozilla să gestioneze aceste informații conform informațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Dacă optezi să primești mesaje pe e-mail înseamnă că accepți ca Mozilla să gestioneze aceste informații, conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla.
 indicates-required = * Indică un câmp obligatoriu
 not-available-abbreviation = Nu e cazul
 
