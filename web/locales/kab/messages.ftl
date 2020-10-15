@@ -239,6 +239,7 @@ whats-public = D acu-tt telɣut tazayezt?
 email-not-public = Ur nettara ara imayl d azayez.
 recordings-and-locale-public = Amḍan n yikalasen akked tutlayin anida tettekkaḍ ad d-banen.
 username-optin-public = Tzemreḍ ad tferneḍ isem-ik n useqdac ma ad yili d azayez neɣ d abadni.
+demographic-deidentified-clarity-2 = Isefka n tedimugrafit i d-yettwaznen s lxetyaṛ (md. awtay, tuzuft, tutlayt, akken ususru) ur ǧǧin ad ttwaseknen s wudem azayaz, daɣen ad ttwacudden ɣer umiḍan-ik deg tegrumma n yisefka. Ikalasen imeslawen i yiman-nsen ad ttwaqqnen d yisefka n tedimugrafit i wugar n tseddi n tesleḍt - amedya, amnadi izmer ad yebɣu taneɣruft n usluɣmu n kra n yimdanen kan.
 username-email-not-demographic = Isem-ik n useqdac akked tansa-ik imayl ur d-ttwaqqanen ara ɣer yisefka-ik izuyaz.
 
 ## Speak & Listen Shortcuts
@@ -323,6 +324,7 @@ profile-close = Mdel
 profile-explanation = Sers allen-ik ɣef usfari s tmerna n umaɣnu sakin muddaɣ-d afus ad nerr isefka n taɣect d usdiden.
 thanks-for-account = Tanemmirt ɣimi tsentmeḍ amiḍan-ik, tura rnu kra n talɣut ɣer umaɣnu-inek.
 why-demographic = Ayɣer aya isεa azal?
+why-demographic-explanation-2 = Talɣut tusligt am laεmer, tuzuft, akked tmeslayt ad aɣ-d-mudden afus akken senqed isefka n umesli deg imesdayen n uεqal aɣectan. Isem-ik n useqdac akked imayl-inek werǧin ad ddun akked isefka ad ittwaznen, tzemreḍ daɣen ad terreḍ isem-inek n useqdec d aziraz neɣ d uslig.
 accept-privacy = Qebleɣ akken ad tesqedcem talɣut inu am akken yella deg <privacyLink>tsertit n tbaḍnit</privacyLink> n Mozilla.
 accept-privacy-title = Tasertit n tbaḍnit
 login-identity = Tinekkit n tuqna
