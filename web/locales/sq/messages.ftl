@@ -40,7 +40,9 @@ br = Bretonisht
 bxr = Buriat
 ca = Katalane
 cak = Kakshikel
+ckb = Kurde Qendrore
 cnh = Haka Çin
+co = Korse
 cs = Çekisht
 cv = Çuvashe
 cy = Uells
@@ -62,6 +64,7 @@ fr = Frëngjisht
 fy-NL = Frisiane
 ga-IE = Irlandisht
 gl = Galiciane
+gn = Guaraneze
 ha = Hausa
 he = Hebraisht
 hi = Indiane
@@ -81,9 +84,9 @@ kaa = Karakalpak
 kab = Kabile
 kbd = Kabardiane
 kk = Kazake
+kmr = Kurde Kurmanxhi
 ko = Koreane
 kpv = Komi-Zyrian
-ku = Kurde
 kw = Kornike
 ky = Kirgize
 lg = Luganda
@@ -235,7 +238,7 @@ whats-public = Ç’është Publike?
 email-not-public = S’do ta bëjëm publik email-in tuaj.
 recordings-and-locale-public = Numri i incizimeve dhe në cilat gjuhë kontribuoni do të bëhen publike.
 username-optin-public = Mund të zgjidhni për ta bërë emrin tuaj të përdoruesit publik ose anonim.
-demographic-deidentified-clarity = Të dhëna demografike të dhëna me dëshirë (p.sh., mosha, gjinia, gjuha dhe theksi) s’do të bëhen kurrë publike në profilin tuaj, dhe s’do të lidhen me llogarinë tuaj te masa e të dhënave.Copëzat individuale audio do të përshoqërohen me të dhëna demografike për qëllimin e një analize më të përpiktë - për shembull, një kërkues mund të dojë të fokusohet në një model stërvitjeje për një segment të caktuar demografik.
+demographic-deidentified-clarity-2 = Të dhëna demografike të dhëna me dëshirë (p.sh., mosha, gjinia, gjuha dhe theksi) s’do të bëhen kurrë publike në profilin tuaj, dhe s’do të lidhen me llogarinë tuaj te masa e të dhënave.Copëzat individuale audio do të përshoqërohen me të dhëna demografike për qëllimin e një analize më të përpiktë - për shembull, një kërkues mund të dojë të fokusohet në një model stërvitjeje për një segment të caktuar demografik.
 username-email-not-demographic = Emri juaj i përdoruesit dhe email-i nuk do t’u përshoqërohen të dhënave të publikuara.
 
 ## Speak & Listen Shortcuts
@@ -293,7 +296,7 @@ profile-form-accent =
     .label = Theks
 profile-form-age =
     .label = Moshë
-profile-form-gender =
+profile-form-gender-2 =
     .label = Gjini
 leaderboard-visibility =
     .label = Dukshmëri Tabele
@@ -320,7 +323,7 @@ profile-close = Mbylle
 profile-explanation = Ndiqni ecurinë tuaj, përmes një profili, dhe ndihmoni që të dhënat tona zanore të jenë më të sakta.
 thanks-for-account = Faleminderit që ripohuat llogarinë tuaj, tani le të krijojmë profilin tuaj.
 why-demographic = Pse ka rëndësi kjo?
-why-demographic-explanation = Të dhëna të anonimizuara përdoruesish, të tilla si mosha, gjinia dhe theksi ndihmojnë të përmirësohen të dhënat audio e përdorura për të stërvitur mekanizmat e kuptimit të të folurës në pikëpamje të saktësisë. Emri juaj i përdoruesit dhe email nuk do të përshoqërohen kurrë me të dhënat e parashtruara prej jush, dhe mund të zgjidhni bërjen publik të emrit tuaj të përdoruesit ose anonimitetin.
+why-demographic-explanation-2 = Të dhëna të anonimizuara përdoruesish, të tilla si mosha, gjinia dhe theksi ndihmojnë të përmirësohen të dhënat audio e përdorura për të stërvitur mekanizmat e kuptimit të të folurës në pikëpamje të saktësisë. Emri juaj i përdoruesit dhe email nuk do të përshoqërohen kurrë me të dhënat e parashtruara prej jush, dhe mund të zgjidhni bërjen publik të emrit tuaj të përdoruesit ose anonimitetin.
 accept-privacy = Pajtohem me trajtimin që u bëni këtyre të dhënave ashtu siç e shpjegoni <privacyLink>Rregulla Privatësie</privacyLink> të Mozilla-s
 accept-privacy-title = Rregulla Privatësie
 login-identity = Identitet Hyrjesh
@@ -760,8 +763,32 @@ want-to-continue = Doni të vazhdohet?
 finish-editing = Të përfundohet përpunimi së pari?
 lose-changes-warning = Largimi tani do të thotë se do të humbni ndryshimet tuaja
 build-custom-goal = krijoni një objektiv vetjak
+help-reach-hours-pluralized =
+    Ndihmonani të arrijmë{ NUMBER($hours) ->
+        [one] { $hours } orë
+       *[other] { $hours } orë
+    }në { $language }, përmes një objektivi personal
+help-reach-hours-general-pluralized =
+    Ndihmojeni Common Voice-in të arrijë{ NUMBER($hours) ->
+        [one] { $hours } orë
+       *[other] { $hours } orë
+    }për një gjuhë, përmes një objektivi personal.
 set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } orë
+       *[other] { $totalHours } orë
+    }mund të plotësohen në thjesht{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } muaj
+       *[other] { $periodMonths } muaj
+    }nëse{ NUMBER($people) ->
+        [one] { $people } person
+       *[other] { $people } vetë
+    }incizojnë { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } copë
+       *[other] { $clipsPerDay } copa
+    }në ditë.
 how-many-per-day = Bukur! Sa copëza në ditë?
 how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?
