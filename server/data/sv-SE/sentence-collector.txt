@@ -298,9 +298,11 @@ Cesar, du förstår människornas språk mycket bättre än Klorina.
 Cesar, säg att Klorina inte har hört rätt!
 Cheferna hade lika kul som klienterna!
 Choklad är överskattat.
+Chokladglass är ju aldrig fel!
 Chris ska tydligen sluta.
 Dagen efter den, då Jarro hade försvunnit, sprang Per Ola ute på gården.
 Dags att fatta ett beslut.
+Dags att gå över till andra sidan.
 Dags att poppa popcorn!
 Dalkarlen var den som började.
 Damen drar tillbaka anmälan.
@@ -313,6 +315,8 @@ De barnen är vi.
 De behövde ju järn till allting.
 De behöver en lastbil.
 De besvarade dem, och en stor vacker flock närmade sig.
+De betalar alltid med kort.
+De betraktade utsikten under tystnad.
 De blev alla mäktiga bergsmän och byggde sig stora och ansenliga gårdar.
 De blev utsvälta, utträngda, utrotade.
 De bor ju mitt ute i skogen!
@@ -396,6 +400,7 @@ De har ju lockat er vilse.
 De har kanske räddat sig.
 De har räddat den riktige doktorn.
 De har sagt ja till min ansökan.
+De har satt upp en övervakningskamera och installerat larm.
 De har sina planer och.
 De har snart inte mycken fägring kvar.
 De har varit grabbar jättelänge.
@@ -404,6 +409,7 @@ De här människorna förstörde ditt liv.
 De här människrona har ingen rädsla för värme och lågor.
 De här är två anledningar att leva.
 De håller på att fälla träden.
+De håller på att rusta upp parken här intill.
 De håller tummarna för henne.
 De höjde sig och for utåt havet.
 De höll inne med alla anmärkningar, och Akka var helt förvånad.
@@ -468,6 +474,7 @@ De sammanvuxna ögonbrynen var det mest anmärkningsvärda i fars utseende.
 De satt nästan hela dagen orörliga på en och samma plats.
 De satte mig i telefonkö.
 De ser radioaktiva ut.
+De ser rätt vissna ut.
 De simmade i kapp, sprang i kapp och flög i kapp med honom.
 De sitter lite löst på dig.
 De sitter perfekt.
@@ -501,6 +508,7 @@ De stod i en lång rad på stranden, där den spolades av vågorna.
 De stora stenblocken var för det första ingenting annat än hus.
 De ställde kosan neråt slättlandet, och Akka uppgav en suck av lättnad.
 De ställde sig på plogarna och drev hästarna ut i vattnet.
+De ställde till med stort skilsmässoparty, det var fantastiskt.
 De säger, att han har gått ut för att fiska.
 De säljer under marknadspriset.
 De såg eländiga och ängsliga ut.
@@ -727,6 +735,7 @@ Den vita gåskarlen hade den lyckan att få syn på en liten abborre.
 Den vite sprang rätt emot den stora klyftan.
 Den växer ingenting ätbart på mark eller träd i mars månad.
 Den våldsamma cykeln av fortplantning.
+Den är antik och inte helt värdelös…
 Den är bara synlig vid lågvatten.
 Den är galen!
 Den är grym.
@@ -806,10 +815,12 @@ Det blir inte billigt.
 Det blir lätt att tycka synd om honom.
 Det blir mycket smidigare så.
 Det blir många mil i veckan.
+Det blir mörkt så fort nu.
 Det blir nog bekymmersamt för dem.
 Det blir nog så, att jag får gå tillbaka till människorna i alla fall.
 Det blir roligt.
 Det blir svårt.
+Det blir så svettigt med alla trapporna!
 Det blir vi och Jennifer ikväll!
 Det blir väl tid att sörja sedan.
 Det blänkte i tegeltaken, och fönsterrutorna lyste som juveler.
@@ -834,6 +845,7 @@ Det du sa var väldigt opassande.
 Det där har du tyvärr fått om bakfoten.
 Det där har vi hört förr.
 Det där kommer att ta tid!
+Det där sista uppfattade jag inte riktigt?
 Det där vet jag inte.
 Det där är bara paranoia.
 Det där är bestämt ett sådant där örnnäste.
@@ -899,6 +911,7 @@ Det finns åtminstone ett dussin bomber på den här kartan.
 Det fixar biffen.
 Det fortsätter bara så där.
 Det fungerar inte så!
+Det funkar, men det blir ju inte så förtroendeingivande.
 Det funkar.
 Det får andra fundera ut.
 Det får du inte.
@@ -909,6 +922,7 @@ Det förehöll sig så, att Vår Herre just då höll på att skapa Småland.
 Det första hon gjorde var att såga ner alla fruktträd.
 Det första som Åsa talade vid om begravningen var sjuksköterskan.
 Det förtjänade han.
+Det gamla brädgolvet var repigt och slitet.
 Det gemensamma för dem är att de är anonyma.
 Det ger en fin hud.
 Det ger oss en vinstmarginal!
@@ -933,6 +947,7 @@ Det gäller en matta jag har, den förhöjde verkligen rummet.
 Det gäller ett okontrollerat angrepp.
 Det gäller inte kinesen!
 Det går aldrig.
+Det går att ro dit, det är inga problem.
 Det går bra!
 Det går bra.
 Det går en ledning upp i lådan.
@@ -1058,6 +1073,7 @@ Det kan ingen beskriva hur häpen han blev.
 Det kan inte tänka sig hur skrämd hon blev när hon fick denna uppmaning.
 Det kan inte vara annat än silverpengar.
 Det kan inte vara lätt att ha ansvar för det här.
+Det kan inte vara något du ätit?
 Det kan inte vara sant.
 Det kan jag inte hjälpa.
 Det kan jag inte påstå.
@@ -1095,6 +1111,7 @@ Det kunde knappast ha varit någon annan sjukdom.
 Det kunde vara värt att försöka att ta vara på den i alla fall.
 Det känns helt overkligt.
 Det känns inte som ett riktigt hem.
+Det känns lite fånigt tycker jag.
 Det känns som aldrig förr.
 Det känns som om det fungerar.
 Det ligger på gångavstånd!
@@ -1211,6 +1228,7 @@ Det säger allt.
 Det säger att vi inte är på listan.
 Det säger en företagsjurist.
 Det sägs att det finns varg i trakten.
+Det sägs att han är synsk.
 Det sägs att man inte ser regnbågen utan regn.
 Det såg bedrövligt ut i lagården.
 Det såg han som ett tecken, sen slog han till.
@@ -1273,6 +1291,7 @@ Det var därför jag hellre ville vara här, bland vänner.
 Det var därför, att ni trodde, att jag skulle kunna frälsa den gamla staden.
 Det var därför, som de kunde böja och forma järnet, hur de behagade.
 Det var då alls inte så illa ment.
+Det var då den totala paltkoman infann sig.
 Det var då inte så galet att tycka, att det var havstroll.
 Det var då omöjligt att de inte skulle se honom där han stod.
 Det var då torktumlaren kraschade ihop.
@@ -1302,6 +1321,7 @@ Det var en stor flyttningsdag.
 Det var en stor skara husdjur, som kom upp på berget.
 Det var en stor, svart katt med en vit fläck i bringan.
 Det var en student av helt annat slag än den, som satt vid skrivbordet.
+Det var en sånär paradisstrand, med palmer och vit sand.
 Det var en tagg i den gamla älgens horn, som hade brustit.
 Det var en ung lärarinna med en tolv, tretton barn omkring sig.
 Det var en väta och smuts och en trängsel på gårdsplanen, som var förfärlig.
@@ -1339,6 +1359,7 @@ Det var han, som kom till mig.
 Det var handlat så, att jag skulle ha velat göra det själv.
 Det var hans mening att vända hästen genast, men så hejdade han sig.
 Det var hemskt härnere, därför att de överallt råkade på döda får.
+Det var imma på alla rutor och verkligheten var suddig utanför.
 Det var inga vargar som kom emot honom utan en gammal fattig gumma.
 Det var ingen fest!
 Det var inte alls vad som hände.
@@ -1359,6 +1380,7 @@ Det var mitt mormors överkast.
 Det var märkvärdigt att ge akt på Cesars uppförande under detta samtal.
 Det var måsen.
 Det var när de fick bonuslådan.
+Det var något krux med motorn, sa hon.
 Det var något särskilt med den katten.
 Det var okej.
 Det var ord och inga visor.
@@ -1512,6 +1534,7 @@ Det är ingen fara.
 Det är ingen idé längre.
 Det är ingen lek att klippa hennes klor!
 Det är ingen leksak.
+Det är ingen som tycker om dom.
 Det är ingen vidare badsjö, tyvärr.
 Det är inget att gömma sig bakom.
 Det är inget fel med att chansa.
@@ -1535,6 +1558,7 @@ Det är inte mycket att säga om mig, sade gåskarlen.
 Det är inte mänsklig teknologi.
 Det är inte nyttigt.
 Det är inte problemet.
+Det är inte riktigt pappas stil.
 Det är inte rättvist!
 Det är inte sant.
 Det är inte som ni tror.
@@ -1610,6 +1634,7 @@ Det är okej, kom in.
 Det är okej.
 Det är olagligt att köpa sex, men lagligt att sälja.
 Det är olikt mig att köpa nytt innan det gamla är sålt.
+Det är omöjligt att hålla reda på alla kusiner.
 Det är omöjligt.
 Det är otur.
 Det är outhärdligt.
@@ -1636,6 +1661,7 @@ Det är som en mardröm.
 Det är som första dagen.
 Det är som julafton eller min födelsedag!
 Det är starkt.
+Det är strömavbrott i hela kvarteret.
 Det är styrkan hos de rättmätiga.
 Det är subventionerat av staten.
 Det är svårläst.
@@ -1651,6 +1677,7 @@ Det är tack vare er i så fall.
 Det är taskigt.
 Det är till hantverkaren.
 Det är tillgång och efterfrågan.
+Det är tio minuter med cykel till badsjön.
 Det är torrperiod.
 Det är tråkigt och dåligt inrett!
 Det är tyvärr bara fallfrukt.
@@ -1708,6 +1735,7 @@ Din lilla skit.
 Din mamma gav dig liv.
 Din mamma är läkare.
 Din matta.
+Din mormor var alltid så sur.
 Din odugliga skrothög till dator!
 Din trygghetszon.
 Din vän drivs snart till vansinne.
@@ -1722,6 +1750,8 @@ Ditt flin gör mig förbannad.
 Ditt fortplantningssystemär som en sextonårings.
 Ditt jobb är skit.
 Ditt sista vad?
+Dom håller alltid med varandra.
+Dom tyckte sig skymta en gestalt bakom duschdraperiet.
 Dom är stjärnor med glitterhjärnor.
 Donny, du vet inget!
 Dra åt helvete!
@@ -1735,6 +1765,7 @@ Driver jag dig till det?
 Dröm om fluffiga kaniner!
 Drömmer du aldrig om nåt annat?
 Du arbetade hårt där.
+Du avbryter mig ju hela tiden?
 Du avbryter mig och säger.
 Du begår ett misstag.
 Du behöver bara spela ett par partier.
@@ -1826,6 +1857,7 @@ Du får skjuta hela natten.
 Du får snart ledigt hela tiden.
 Du får tatuera in det i pannan.
 Du får titta.
+Du får väl bjuda lite på dig själv!
 Du förstår inte.
 Du förstörde min aptit.
 Du försöker få mig att bli modell.
@@ -1835,6 +1867,7 @@ Du gav borgmästaren sex timmar att evakuera.
 Du gav just en väldigt detaljerad redogörelse av ditt eget självmord.
 Du gav mig det jag tyckte var mitt livs värsta dag.
 Du gjorde ditt värsta.
+Du glömmer att hon är min syster också.
 Du hade behövt investera den tiden för länge sen.
 Du hade fest och förstörde hela huset.
 Du hade fest, Max.
@@ -1942,6 +1975,7 @@ Du måste lova mig!
 Du måste låta mig göra min grej, låta mig misslyckas eller lyckas.
 Du måste skicka med ett meddelande så det sjunger.
 Du måste sluta!
+Du måste släppa taget nu!
 Du måste stanna här!
 Du måste trycka på resetknappen.
 Du måste tänka på framtiden.
@@ -2140,6 +2174,7 @@ Då får jag väl vara självisk.
 Då får vi göra något åt det
 Då förstod Jarro.
 Då ger vi oss av till månen.
+Då gick hon ner på knä och friade!
 Då gjorde min far rätt som inte lämnade den åt dig.
 Då går jag någon annanstans.
 Då halkade glorian lite på sned.
@@ -2312,6 +2347,7 @@ En guldig panda.
 En gång tyckte de mycket om varandra.
 En halv macka?
 En halvtimme innan han mördades.
+En hare skuttade ljudlöst förbi över slänten.
 En hård fisk.
 En hård fluga.
 En hård säl.
@@ -2440,6 +2476,7 @@ En stor alligator.
 En stor delfin.
 En stor hund.
 En stor tiger.
+En stor, röd fåtölj tronade i ett hörn på balkongen.
 En stund därefter var Karr på hemvägen.
 En städerska ville ge mig en väska.
 En svart ananas.
@@ -2526,8 +2563,10 @@ Fan, det är polisen.
 Fan, mitt huvud bultar.
 Fan, vad heter det?
 Fanns det anhöriga eller vittnen?
+Fantasin har visst sina begränsningar.
 Farsan har riktigt mäktiga polisonger.
 Fast det betyder ju ingenting, egentligen.
+Fast det kan vi ju inte veta säkert.
 Fast jag har varken sett London eller Frankrike.
 Fast jag vill ha era rapporter.
 Fast med en kvinna.
@@ -2553,6 +2592,7 @@ Finns det något som heter borgerlig skymning?
 Finns det några böcker om dynamor?
 Finns det nåt i teckningarna som du känner igen?
 Finns det pool?
+Finns det sockervadd?
 Finns företaget tack vare henne?
 Finska kriget är en viktig del av svensk historia.
 Fiskmåsar är så skräniga.
@@ -2571,6 +2611,7 @@ Folk i den här staden är jävla pack!
 Folk måste få veta vad som pågår.
 Folk svälter ihjäl.
 Folk utan huvud, monster och nu det här.
+Folk är sådana får.
 Folkdräkt funkar alltid.
 Fortsätta utan mig?
 Framför min far, min familj?
@@ -2607,10 +2648,12 @@ Få tag på ägarna.
 Får jag använda biblioteket?
 Får jag den äran att betala er drink?
 Får jag fråga vad du heter?
+Får jag komma in?
 Får jag känna på den?
 Får jag känna?
 Får jag köpa dig en drink?
 Får jag lov?
+Får jag presentera min brorson Albin?
 Får jag satsa allt?
 Får jag se väskan?
 Får jag se.
@@ -2751,6 +2794,7 @@ Gick ni aldrig på college?
 Gillar du det?
 Gjorde du inget med honom?
 Gjorde han detta?
+Glaset är halvfullt, såklart!
 Gluten låter som ett av era ord.
 Gluten är livet!
 Glutenfri pasta smakar skit.
@@ -2809,6 +2853,7 @@ Gå till skolan.
 Gå ut i köket.
 Gå, jogga, jag bryr mig inte.
 Går det bra att min bror är den som styr roboten?
+Går det bra om jag tar med min brorson också?
 Går det bra?
 Går det omkring isbjörnar på gatorna?
 Går du hit ofta?
@@ -2876,6 +2921,7 @@ Han får barn.
 Han får inte bli indragen i stöld.
 Han följde efter dig.
 Han föredrar till och med att inte bli påmind själv.
+Han försover sig alltid!
 Han försöker skriva något.
 Han försökte inte ens kyssa mig.
 Han gick för långt några gånger.
@@ -2883,12 +2929,14 @@ Han gick i min klass.
 Han gillar definitivt inte vapen, eller hur?
 Han gillar det visst!
 Han gillar ju att laga mat.
+Han gissade på halsfluss, men proverna är inte klara ännu.
 Han gjorde det!
 Han går inte längre på skolan, men vi har jobbat på olika experiment.
 Han går omkring och sprätter som en tupp.
 Han hade bråttom.
 Han hade ett gammalt foto på dig.
 Han hade inte dödat dig.
+Han hade inte ätit på tre dagar nu.
 Han hade kul med polarna, inte grannarna.
 Han hade skickat honom pengar utan att berätta för mig.
 Han har alltid velat dö som en hjälte.
@@ -2908,6 +2956,7 @@ Han har städat hela helgen.
 Han har så långa ögonfransar!
 Han har tydligen skaffat mustasch.
 Han har varken familj eller papper.
+Han hoppar klumpigt över pölen.
 Han hämtade sig aldrig.
 Han håller på att aktivera planetomvandlaren.
 Han höll koll på henne tills han sköt henne i bussen.
@@ -2945,6 +2994,7 @@ Han nämnde det för en månad sen.
 Han och hans bror handmålar varje platta.
 Han och jag hade redan lämnat bunkern.
 Han pissade på min matta.
+Han pluggar till sjuksköterska.
 Han rökte två cigaretter om dagen.
 Han sa att den skulle explodera.
 Han sa att jag skulle stå stilla och vara tyst.
@@ -2999,6 +3049,7 @@ Han vet vem hon är.
 Han vet väl inte vad som händer i min kropp?
 Han vill bara leka mer.
 Han vill fortsätta själv.
+Han vill lägga in parkett i alla rum.
 Han vill nog bara ha lite uppmärksamhet.
 Han vill se det.
 Han ville bara förstöra saker.
@@ -3036,6 +3087,7 @@ Han är inte i skick ännu.
 Han är inte lika försiktig nu.
 Han är inte nödvändig längre.
 Han är ju gammal som gatan!
+Han är kock och hon är nog rektor, tror jag.
 Han är liten och jättesöt.
 Han är mycket känslig.
 Han är nog redan igång.
@@ -3051,6 +3103,7 @@ Han är vattenansvarig.
 Han är vid medvetande, men kan inte säga något vettigt just nu.
 Han är väl din bror?
 Han önskar sig en röd dunjacka, med pälskrage.
+Hans ansikte spricker upp i ett leende.
 Hans bror har förlorat en hand.
 Hans dotter mördades av min patient och han ger mig skulden.
 Hans flickvän verkar inte snäll.
@@ -3088,6 +3141,7 @@ Har du hittat vad du sökte?
 Har du hållit dina nyårslöften?
 Har du hört den förfärliga nyheten?
 Har du hört om klocktorn?
+Har du hört talas om fjärilseffekten?
 Har du inte fått upp det ännu?
 Har du koll på hur många vi har på lager?
 Har du kollat kattvinden?
@@ -3095,6 +3149,7 @@ Har du kommit i klimakteriet?
 Har du kvar staken?
 Har du köpt ett nytt kylskåp?
 Har du läst vår post?
+Har du min rygg isåfall?
 Har du någon vodka?
 Har du något att säga till dem?
 Har du nån aning om var du är?
@@ -3175,6 +3230,7 @@ Helt rätt, en brandgul tegelbyggnad på höger sida.
 Helvete också!
 Helvetets alla kval.
 Hennes dotter var så himla gullig.
+Hennes granne stalkar henne!
 Henrikssons svarta villa stod ut i det gammeldags området.
 Herr Ermenrich flög på nytt rätt mot månen.
 Herregud, den var bra!
@@ -3245,6 +3301,7 @@ Hon kan verkligen distrahera honom.
 Hon kanske aldrig blir den person jag kände.
 Hon kanske inte hade något val?
 Hon klarar sig säkert.
+Hon kliver med stora steg uppför den rangliga trappan.
 Hon kommer att döda mig.
 Hon kröntes till drottning med pompa och ståt.
 Hon kör alltid för fort.
@@ -3292,6 +3349,7 @@ Hon är inte er målgrupp.
 Hon är inte kvar.
 Hon är inte min typ.
 Hon är inte social.
+Hon är kroppsaktivist!
 Hon är med mig på alla sätt.
 Hon är min svärmor.
 Hon är någon jag hyser den allra största aktning för.
@@ -3362,6 +3420,7 @@ Hur många dygn blir det?
 Hur många har du druckit, egentligen?
 Hur många hissar ser du?
 Hur många tjejer här har fått er mens?
+Hur många år är du?
 Hur mår Agnes?
 Hur mår du i dag?
 Hur mår du just nu?
@@ -3383,13 +3442,16 @@ Hur ställer man ens frågan?
 Hur står det till?
 Hur säger man?
 Hur tror du att vi har råd med saker?
+Hur var det man gjorde, nu igen?
 Hur var det när du var liten?
 Hur vet du det?
 Hur visste du att pappa var rätt man för dig?
+Hur är det med dig egentligen?
 Hur är det?
 Hur är läget med min lilla prinsessa?
 Hur är läget?
 Hursomhelst ska vi fånga honom.
+Huvudet kändes lätt och tungt på samma gång.
 Huvudsaken är ändå att alla är friska.
 Hyfsat mycket.
 Häftigt. Har han plats för en till?
@@ -3425,6 +3487,7 @@ Håll kvar foten där så händer inget.
 Håll käften, allihop!
 Håll oss inte i ovisshet.
 Hör bara på.
+Hör du ens vad jag säger?
 Hör du inte hemma nere bland vassruggarna?"
 Hör du inte vad jag säger?
 Hör ni änglakören i bakgrunden?
@@ -3471,6 +3534,7 @@ Imorgon flyger vi med till Budapest.
 Imponerande.
 In i pansarvagnen.
 Inga fler ursäkter.
+Ingen av dem hade någonsin sett något liknande förut.
 Ingen av dem har något lokalsinne.
 Ingen av dem var klar ännu.
 Ingen av dem är någon värdig vinnare.
@@ -3573,6 +3637,7 @@ Ja, han är yngre där.
 Ja, helt rätt!
 Ja, hon sitter fast.
 Ja, hon ska inte bete sig som din mamma, men.
+Ja, hon var bra tycker jag.
 Ja, i alla fall i min skola.
 Ja, i morgon.
 Ja, jag berättade det för er alla.
@@ -3661,6 +3726,7 @@ Jag ber om ursäkt.
 Jag berättade allt för dig.
 Jag berättade inte om det för du hade sagt nej.
 Jag betalade det jag blev tillsagd att betala.
+Jag beundrar verkligen hennes tålamod med honom.
 Jag blev avstängd.
 Jag blev helt stelfrusen.
 Jag blir bara trött.
@@ -3677,6 +3743,7 @@ Jag borde stanna och hjälpa er med marken.
 Jag borde vara van nu, men vissa dagar kan man knappast andas.
 Jag brukar jobba ute på lagret.
 Jag brukar spela med högre insatser.
+Jag brukar ta med en termos kaffe.
 Jag brydde mig bara om mig själv.
 Jag bryr mig fan inte.
 Jag bryr mig inte!
@@ -3766,6 +3833,7 @@ Jag glömde ställa väckarklockan.
 Jag glömmer alltid hur mycket jag tycker om den här musiken.
 Jag golvar dig.
 Jag går aldrig hemifrån utan solglasögon.
+Jag går aldrig på maskerader.
 Jag går gärna till en klubb, om du menar det?
 Jag går på lunch nu!
 Jag går till auktionshuset.
@@ -3906,6 +3974,7 @@ Jag hindrar dig inte längre, eller hur?
 Jag hinner inte hem ikväll.
 Jag hinner inte.
 Jag hittar inte här.
+Jag hittar inte min vigselring någonstans!
 Jag hittar inte mina glasögon.
 Jag hjälper dig bara för att jag är med Lee nu.
 Jag hjälpte dig att ta bort din piercing.
@@ -3948,6 +4017,7 @@ Jag kan hänga med dig, men jag tänker bara titta.
 Jag kan inte bege mig dit nu!
 Jag kan inte bestämma mig.
 Jag kan inte blunda när han smyger in här.
+Jag kan inte hitta glasögonen utan glasögonen!
 Jag kan inte låtsas känna igen personen jag ser framför mig.
 Jag kan inte skicka en räkning till kinesen som pissade på mattan.
 Jag kan inte somna.
@@ -3997,6 +4067,7 @@ Jag känner en modell.
 Jag känner henne.
 Jag känner igen honom.
 Jag känner igen mig här.
+Jag känner ingen av dom.
 Jag känner inte ens henne.
 Jag känner mig dum för att jag var emot medicinering.
 Jag känner mig själv, så jag sa, nej tack.
@@ -4016,6 +4087,7 @@ Jag lyckas alltid få horisonten sned.
 Jag lyssnar.
 Jag lämnade grovjobbet åt honom.
 Jag lämnar dig.
+Jag läser aldrig manualer.
 Jag lånade av en karlakarl.
 Jag markerar mitt revir.
 Jag marscherar in och konfronterar honom.
@@ -4047,6 +4119,7 @@ Jag måste gå.
 Jag måste hem.
 Jag måste insistera.
 Jag måste komma i min enda kostym.
+Jag måste känna efter hur det känns, först.
 Jag måste lägga på nu, ring mig om en kvart.
 Jag måste på toan.
 Jag måste säga till mina bröder.
@@ -4145,6 +4218,7 @@ Jag ska skapa en ny framtid.
 Jag ska skapa ett nytt land i min avbild.
 Jag ska ta ett dopp.
 Jag ska tyvärr shoppa.
+Jag ska ut och skaffa lite fräknar!
 Jag ska vara tydlig.
 Jag ska vidare.
 Jag ska visa hur han gjorde.
@@ -4229,6 +4303,7 @@ Jag tjänade en smärre förmögenhet i obetalda biljetter.
 Jag tog fisk.
 Jag tog hand om min exmake.
 Jag tog inte med den.
+Jag tog precis det sista av fotsalvan, har vi en tub till?
 Jag tog tre små fikon.
 Jag trodde aldrig att du skulle kunna agera av ren girighet.
 Jag trodde att du skulle vilja vara vackrare.
@@ -4258,6 +4333,7 @@ Jag tror det blir stjärnklart inatt också.
 Jag tror det var i våras, redan.
 Jag tror det.
 Jag tror dig inte.
+Jag tror han är Simons brorson.
 Jag tror hon har en syster till.
 Jag tror hon är allmänläkare.
 Jag tror inte att det finns någon koppling.
@@ -4335,6 +4411,7 @@ Jag vet inte heller det.
 Jag vet inte hur jag ska förklara det.
 Jag vet inte hur jag ska rösta, än.
 Jag vet inte om du insett att du börjar bli tunnhårig.
+Jag vet inte om hon orkar det längre.
 Jag vet inte säkert.
 Jag vet inte vad de stoppar i, men det är typ.
 Jag vet inte vad han håller på med.
@@ -4493,6 +4570,7 @@ Jag är inte mr Lebowski ni är mr Lebowski.
 Jag är inte redo för det här.
 Jag är inte säker på om de har några.
 Jag är inte säker.
+Jag är inte så mycket för gardiner.
 Jag är inte tråkig.
 Jag är jurist i advokatsamfundet.
 Jag är kluven.
@@ -4633,11 +4711,14 @@ Kan vi bara sätta igång?
 Kan vi betala eller?
 Kan vi glömma reglerna för ikväll och bara stanna till?
 Kan vi göra det?
+Kan vi inte bara svänga ihop lite varma mackor, då?
 Kan vi inte snooza lite till?
 Kan vi inte spåra det?
 Kan vi inte ta ett steg i taget?
 Kan vi röka i din taxi?
 Kan vi snabba på lite?
+Kan vi ta det här imorgon istället?
+Kan vi ta det imorgon istället?
 Kan vi tänka någonstans?
 Kan vi åka till hotellet?
 Kanske armens fotknöl.
@@ -4781,6 +4862,7 @@ Kom på ovanliga aktiviteter.
 Kom så drar vi!
 Kom så fort du kan.
 Kom så går vi!
+Kom tillbaka om det inte blivit bättre sen.
 Kom, så drar vi.
 Kommer alltid att göra det.
 Kommer de tillbaka, tror du?
@@ -4820,6 +4902,7 @@ Kära Mårten gåskarl, sade pojken, försök att få dig en klunk vatten!
 Kärnreläet är hjärnan.
 Köket renoverades för två år sen.
 Köp något slags pyssel till Thora!
+Köp nån orkidé, bara?
 Köp spannmål, så mycket du kan.
 Kör försiktigt!
 Kör hårt, mamma!
@@ -4853,6 +4936,7 @@ Lovar du det?
 Lovar varandra kärlek och respekt i resten av era liv.
 Luckra jorden nu!
 Luften gick ur honom fullständigt.
+Luften var ljummen och len mot kroppen.
 Lugna ner dig, så att vi slipper lägga in dig.
 Lugna ner dig.
 Lugnare än du.
@@ -4881,6 +4965,7 @@ Lämna inte något alls.
 Länge leve jag.
 Lärk blir för dyrt, tyvärr.
 Läs innantill!
+Läskigt med vildsvinen tycker jag!
 Lätt att gömma.
 Lätt att man hamnar i en knepig sits!
 Lätt för dig att säga.
@@ -4925,6 +5010,7 @@ Mamman begick självmord direkt.
 Man bygger snabbt upp en tolerans mot svampar.
 Man får inte skämta med stipendieungarna!
 Man får inte ta den på flyget.
+Man får mycket bättre läge också.
 Man får tydligen välja färg.
 Man har bra och dåliga perioder.
 Man har uteslutande riktat in sig på robotingenjörer och deras familjer.
@@ -5093,6 +5179,7 @@ Men, lades det där ut?
 Menar du att ljuga för mig?
 Menar du det?
 Menar du livet efter döden?
+Mer civilkurage åt folket.
 Mest nybörjartur, skulle jag säga.
 Min ambition är att lära mig hjula.
 Min balkong kryllar av husflugor när de vaknar upp under våren.
@@ -5121,11 +5208,13 @@ Min mor är gay.
 Min nagel håller på att ramla av.
 Min också!
 Min svärmor är underbar, jag är så glad att jag har henne.
+Min syrra har absolut gehör.
 Mina data innehåller hans kunskap, minnen och personlighet.
 Mina föräldrar är skilda.
 Mina herrar, kommissionen beviljar er resebyrålicens.
 Mina klienter ska åka vattenskoter i stan.
 Mina klienter uppförde sig inom parametrarna för ert erbjudande.
+Mina syrror stannade i Skåne, tack och lov.
 Mina värdesaker är inlåsta.
 Mina äggledare mår jättebra.
 Mindre uselt är bra.
@@ -5136,6 +5225,7 @@ Minns du hur hon låg?
 Minns du slutet på "Familjen Flinta"?
 Minst fem trappor är det.
 Minst tio stycken, var det.
+Minst två per skalle, brukar jag tänka.
 Mitt barnbarn hade sin bar mitzvah i dag.
 Mitt batteri är slut.
 Mitt ena örhänge är borta.
@@ -5143,8 +5233,10 @@ Mitt hår är helt galet.
 Mitt rum har havsutsikt!
 Mjukglass är mycket godare.
 Molnen var mörka och i fjärran hördes muller.
+Mor är sju år äldre än far.
 Morfar lade alltid små lavendelpåsar bland sänglinnet.
 Morgonkaffe där ute är kanske ingen dålig idé.
+Morsan har alltid så bråttom.
 Motion är bra för själen.
 Mr Lebowski med rikets första dam.
 Mr Lebowski är rörelsehindrad.
@@ -5299,6 +5391,7 @@ Ni kastar för hårt!
 Ni kom väl för att sälja galna helger?
 Ni kommer att dö.
 Ni kommer att smälla av.
+Ni kommer få världens bästa grannar.
 Ni kommer inte in ikväll.
 Ni kommer ändå att jobba.
 Ni kunde verkligen såra mig.
@@ -5373,6 +5466,7 @@ Nu skall du göra mig en tjänst, Klement.
 Nu skålar vi.
 Nu sover vi.
 Nu sticker vi innan hon spränger oss i småbitar.
+Nu sträcker han långsamt på sig och kisar mot solen.
 Nu sätter vi igång.
 Nu tappade jag tråden helt.
 Nu tar jag ledigt.
@@ -5439,6 +5533,7 @@ Nästa gång.
 Nästa, för torr.
 Nästan varje gång.
 Någon gång måste man få sova ut också.
+Någon gång måste man ju få lov att sätta ner foten.
 Någon kunde ha dött.
 Någon sorts rik gudmor.
 Någon ungersk grej.
@@ -5667,6 +5762,7 @@ Pappa sa att du har massa pengar och att han har det skitdåligt.
 Pappa, ska jag betala terminsavgiften i morgon?
 Pappan lever än.
 Paris är så litet.
+Pasta funkar ändå för det mesta.
 Peppa igång dem.
 Per Ola drev snart omkring på Tåkern och ropade på Jarro.
 Perfekt timing!
@@ -5676,7 +5772,9 @@ Peter, du krossade mitt hjärta.
 Peter, förlåt mig.
 Pissar i alla hus vi bryter oss in i.
 Planer vi fått reda på tack vare den här gentlemannen.
+Plingar du stannar den vid nästa hållplats.
 Plocka ur kylskåpet!
+Plötsligt sprang två rådjur över vägen och Sanna stod på bromsen.
 Plötsligt så såg jag dem bara.
 Plötsligt var det ben och armar överallt.
 Pojkar är så omogna i den åldern.
@@ -5697,6 +5795,7 @@ Precis som jag har gjort.
 Precis som jag vet att du är där just nu.
 Precis vad jag behöver.
 Problem med en grupp!
+Problemet ligger helt hos mig.
 Processen har utvecklats med.
 Propellern alstrar elektricitet, och det driver radion.
 Prostitution är lagligt där.
@@ -5718,11 +5817,14 @@ På med foliehatten!
 På månen, för att träna mig på att styra den här.
 På vilket sätt?
 Rambo i bergen.
+Rasmus och Kevin är tvillingar.
+Redan på långt håll känner hon doften från skogen.
 Regeringen förnekar matkrisen.
 Regeringen kommer att skydda dem.
 Regeringen som slog vår hövding?
 Regeringen vill inte ha någon uppståndelse.
 Regnbågen är överskattad.
+Regnet smattrade enträget mot fönstren.
 Rent lagligt har du petat på en stol i två timmar!
 Resecheckar finns väl inte längre?
 Resultatet var kanske inte vad vi hoppats på, men det var värt risken.
@@ -5778,6 +5880,7 @@ Se på mig.
 Se så, blås.
 Se till att det händer.
 Se till att ha en kofta liggande på kontoret.
+Se till att hålla honom kopplad, det är jaktsäsong nu!
 Se till att ni har övning tre på min kateder i morgon.
 Se vad vi har uppnåt.
 Se, hon ringde.
@@ -5801,6 +5904,7 @@ Ser du bomben?
 Ser du hellre företaget gå under?
 Ser du henne?
 Ser du hur du talar till mig?
+Ser du karlavagnen?
 Ser du nån vigselring på mitt finger?
 Ser du skruven, in där bakom plåten?
 Ser du vad som händer, Lebowski?
@@ -5839,12 +5943,14 @@ Ska jag styra den?
 Ska jag svara på sms:et?
 Ska jag sätta på tv:n åt dig?
 Ska jag ta den sista?
+Ska man ställa fram eller bak klockan på söndag?
 Ska man äta?
 Ska ni renovera köket igen?
 Ska ni ut ikväll?
 Ska vi berätta det för dem nu?
 Ska vi bygga tågbana när vi kommer hem?
 Ska vi ha gäster?
+Ska vi inte dra på utflykt i helgen?
 Ska vi inte ringa henne och berätta vad du tänker göra?
 Ska vi kanske öka insatsen?
 Ska vi käka ramen efteråt?
@@ -5936,6 +6042,7 @@ Snälla, skåla inte för mig.
 Snällhet är underskattat.
 Snöar det?
 Snömannen har aldrig funnits på riktigt.
+Solen målade strimmor över lakanen.
 Som Berlin, fast gratis!
 Som Vincent och jag måste smörja, så att allt går smidigt?
 Som den här tjejen.
@@ -5952,6 +6059,7 @@ Somna inte ifrån filmen!
 Sov du, Tummetott!
 Sovrummet är inte stort nog.
 Spel och vackra kvinnor.
+Spelar du något instrument?
 Spelar ingen roll.
 Spelar katolska präster ofta i ert land?
 Spelaren har åtta och är kvar.
@@ -6049,6 +6157,7 @@ Så gå hem, var med Alfred, var trygg.
 Så går det för slödder, Lebowski.
 Så han kunde inte komma.
 Så han lade till en meter.
+Så har det hetat under hela min livstid, i alla fall.
 Så hon frågade mig!
 Så hon hade inte förändrats?
 Så hur har du haft det på jobbet?
@@ -6145,6 +6254,7 @@ Ta god tid på dig och återkom.
 Ta god tid på dig.
 Ta hand om er nu!
 Ta hit min dotter!
+Ta med en extra tröja, det kan bli rejält kallt.
 Ta ner den, nu!
 Ta ner det!
 Ta något ur väskan.
@@ -6184,6 +6294,7 @@ Talgoxar är inte flyttfåglar.
 Tandkrämen smakade lite skumt.
 Tar du med den på bowling?
 Tar du med en filt till mig också?
+Tar du ut soporna när du går?
 Tar ni med husvagnen?
 Tar ni swish?
 Tatuera det på pannan!
@@ -6193,6 +6304,7 @@ Theodor Herzl, staten Israel.
 Thomas får det jobbigt som har tummen mitt i handen.
 Tiden går alldeles för fort.
 Till Fiji.
+Till Uppsala, vi har en brorson där.
 Till det här kan du använda autopiloten.
 Till en reklamkampanj.
 Till nyår kommer jag hem igen.
@@ -6225,6 +6337,7 @@ Tjuvarna på var sida om kristus vid korsfästelsen.
 Tobak som såg ut som mjölkchoklad.
 Tog du den sista tandkrämen imorse?
 Tog du ner den eller?
+Tomaterna har vi i växthuset.
 Tre år tidigare än våra uppgifter.
 Trevlig kväll.
 Trevligt att träffas igen.
@@ -6409,6 +6522,7 @@ Vad sa de på stationen?
 Vad sa du, hjärtat?
 Vad sa du?
 Vad sade säkerhetsvakten om angriparen?
+Vad ska det bli?
 Vad ska du göra?
 Vad ska han göra?
 Vad ska jag göra?
@@ -6433,6 +6547,7 @@ Vad sysslar du med?
 Vad sägs om fyra paket för kylskåpspengarna?
 Vad sägs om lite glass?
 Vad tar det åt mig?
+Vad tar ni för apelsinerna?
 Vad trevligt att träffa er!
 Vad trodde du?
 Vad tror du att du vet som inte jag vet?
@@ -6717,6 +6832,7 @@ Vi fattar flera beslut varje dag.
 Vi fick alltid köttfärssås och spagetti.
 Vi fick dem.
 Vi firar alltid jul ihop.
+Vi firar alltid med bubbel!
 Vi firar ju Ludvigs nionde och flickorna bör fira med mig.
 Vi fixar det här, tillsammans!
 Vi fixar en ny cykel och bygger generatorn.
@@ -6744,6 +6860,7 @@ Vi hade en överenskommelse.
 Vi hade grannmöte om katastrofhjälp.
 Vi hade ingen framtid på grund av dina psykiska problem.
 Vi hade ju städat tills du kom.
+Vi har aldrig träffats ”på riktigt”.
 Vi har alla våra brister.
 Vi har besparingar.
 Vi har bokat ett bord.
@@ -6751,6 +6868,7 @@ Vi har bränt alla våra broar.
 Vi har bråttom, kommissarien.
 Vi har dragit in femtiotusen.
 Vi har drömt ihop något.
+Vi har elva höns också, och en tupp.
 Vi har en bil som blir stulen från en bensinmack.
 Vi har en budget och affärsplanen är stabil.
 Vi har en del frågor.
@@ -6831,6 +6949,7 @@ Vi kommer själva plocka liljekonvaljer till graven.
 Vi kommer tillbaka i kväll, eller senast i morgon.
 Vi krossade nötter med våra fötter.
 Vi kräver garantier från våra ledare.
+Vi kunde gå på bio, till exempel?
 Vi kunde ha blivit dödade.
 Vi kämpade för att ta examen.
 Vi leder budgivningen!
@@ -6854,6 +6973,7 @@ Vi måste hjälpas åt med skörden.
 Vi måste härifrån.
 Vi måste köpa en ny.
 Vi måste köpa en till fläkt.
+Vi måste köpa nytt tärnljus till Esmeralda.
 Vi måste se till att klienterna gifter sig.
 Vi måste skydda oss.
 Vi måste skynda oss innan det blir mörkt.
@@ -6863,6 +6983,7 @@ Vi måste stoppa den innan dess.
 Vi måste ta cykeln.
 Vi måste ta med klienterna hit.
 Vi måste ta reda på var han bor.
+Vi måste tanka snart.
 Vi måste till skrotupplaget.
 Vi måste tillbaka till stationen.
 Vi måste åka.
@@ -6990,6 +7111,7 @@ Vi är polisen.
 Vi är på alla de små nyhetsinläggen.
 Vi är på alla!
 Vi är på din sida.
+Vi är på väg nu, var är ni?
 Vi är stolta över dig.
 Vi är systrar!
 Vi är så glada att berätta.
@@ -7051,6 +7173,7 @@ Vill du ha en oxkärra?
 Vill du ha en öl?
 Vill du ha mer?
 Vill du ha mjukisbyxor?
+Vill du ha mjölk i teet?
 Vill du höra?
 Vill du inte ha dina pengar?
 Vill du inte skjuta?
@@ -7099,6 +7222,7 @@ Vita och blanka.
 Volymen går alltid upp när det blir reklam.
 Vore det möjligt?
 Vore du inte hellre en forell?
+Vägen ringlade sig uppför den branta slänten, som aldrig tycktes ta slut.
 Väggen är inte bärande.
 Väldigt gullig och han är bra med aggressiva hundar.
 Väljer du galna möhippan får ni en fest skapad av kvinnor för kvinnor.
@@ -7144,6 +7268,7 @@ kan vi fortfarande plantera.
 och bowla.
 rappa på!
 Äckligt, jag vet.
+Älgen stannade upp i skogsbrynet.
 Älskling, vi tar sportbilen.
 Älskling, är allt som det ska?
 Älvsbyn, Piteå, Luleå, och Boden utgör fyrkanten i Norrbottens län.
@@ -7165,6 +7290,7 @@ rappa på!
 Är det bra så här?
 Är det det här huset?
 Är det det ni vill ha?
+Är det där en tiger?
 Är det där vad jag tror?
 Är det där?
 Är det en kopia av min bror?
@@ -7179,6 +7305,7 @@ rappa på!
 Är det här storgossen?
 Är det här?
 Är det inte tidigare än vad ni sa?
+Är det kvällssol på altanen?
 Är det lika svårt att komma in där?
 Är det mina shorts?
 Är det möjligt?
@@ -7216,6 +7343,7 @@ rappa på!
 Är du klar?
 Är du knäpp?
 Är du kvar?
+Är du nervös?
 Är du ny här?
 Är du någon slags fiskexpert?
 Är du nöjd nu?
@@ -7242,6 +7370,7 @@ rappa på!
 Är ni med?
 Är ni okej?
 Är ni redo?
+Är ni systrar?
 Är någon annan hemma?
 Är offren slumpmässigt utvalda?
 Är vi överens?
