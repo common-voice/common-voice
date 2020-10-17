@@ -767,7 +767,7 @@ help-reach-hours-general-pluralized =
         [one] { $hours } essaawa
        *[other] { $hours } ssaawa
     }  mu lulimi n'ekiruubirirwa ekikyo.
-set-a-goal = Tereeza ekigobero
+set-a-goal = Teekawo ekiruubirirwa
 cant-decide = Tosobola kusalawo?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
