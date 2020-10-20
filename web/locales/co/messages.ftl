@@ -111,6 +111,7 @@ wall-of-text-first = A voce hè naturale, a voce hè umana. Hè per quessa chì 
 wall-of-text-second = A maiò parte di i dati ghjuvati da l'imprese maiò ùn sò micca dispunibile à a maiurità di e parsone. Pinsemu chì suffuca l'innuvazione. Tandu avemu lanciatu Common Voice, un prughjettu pà aiutà à rende aperta è accissibile à tutti a ricunniscenza vucale.
 show-wall-of-text = Leghje di più
 help-us-title = Aiutateci à cunvalidà e frase !
+help-us-explain = Appughjeti lettura, asculteti, è diteci : hè stata prununciata currettamente a frasa inghjò ?
 no-clips-to-validate = Pare ch'ùn ci sò micca arrighjistramenti da ascultà in sta lingua. Aiutateci à riempie a fila arrighjistrendu qualchì unu avà.
 vote-yes = Iè
 vote-no = Innò
@@ -124,6 +125,7 @@ hours-validated = Ore Cunvalidate
 voices-online = Voce attualmente in linea
 todays-progress = Prugressu oghjincu
 help-reach-goal = Aiutateci à francà { $goal }
+read-terms-q = Avete lettu e nostre cundizioni d’utilizazione ?
 ready-to-record = Prontu à dà a to voce ?
 all-locales = Tutte
 today = Oghje
@@ -132,6 +134,7 @@ x-weeks-short =
         [one] Settimana
        *[other] { $count } sett
     }
+help-make-dataset = Aiutateci à custruisce una banca di dati d'alta qualità, aperta à u publicu
 
 ## Account Benefits
 
