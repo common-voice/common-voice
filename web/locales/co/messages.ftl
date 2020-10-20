@@ -154,6 +154,7 @@ join-newsletter = Pudeti raghjunghje à a nostra lista di distribuzione pà rice
 whats-public = Chì dati sò publichi ?
 email-not-public = Ùn palisaremu micca u vostru indirizzu eletronicu.
 recordings-and-locale-public = U numaru d'arrighjistramenti è di lingue in quale cuntribuite sarà publicu.
+username-optin-public = Pudeti sceglie di rende u vostru nome d’utilizatore publicu o anonimu.
 username-email-not-demographic = U vostru nome d'utilizatore è email ùn sarani micca assuciati à i dati publicati.
 
 ## Speak & Listen Shortcuts
