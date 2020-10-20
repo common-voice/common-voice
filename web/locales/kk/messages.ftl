@@ -419,6 +419,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Неліктен Common Voice?
+about-subtitle = Common Voice - бұл Mozilla-ның машиналарға адамдарша сөйлеуді үйрету мақсатындағы бастамасының бөлігі. Common Voice деректер жиынтығынан басқа, біз Deep Speech деп аталатын кодтары ашық (open source) сөйлеуді тану қозғалтқышын жасаймыз.
 how-does-it-work-title = Бұл қалай жұмыс істейді?
 about-speak = Сөйлеңіз
 about-listen = Тыңдаңыз
