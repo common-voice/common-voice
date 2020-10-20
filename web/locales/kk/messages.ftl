@@ -424,13 +424,20 @@ how-does-it-work-title = Бұл қалай жұмыс істейді?
 about-speak = Сөйлеңіз
 about-listen-queue = Тыңдау кезегі
 about-listen = Тыңдаңыз
+about-listen-text = Пайдаланушылар сөйлеушінің сөйлемді дұрыс оқығанын тексеріп, сыйға тартылған клиптердің дәлдігін тексереді.
 about-is-it-valid = Клип дұрыс па?
+about-is-it-valid-text = Дауыстық клип қолданушы «Иә» деп дауыс берген кезде «жарамды» деп белгіленеді.
 about-yes-votes = ≥ 2 "Ия" дауысы
 about-no-votes = ≥ 2 "Жоқ" дауысы
 about-dataset-new = Common Voice деректер жинағы
+about-clip-graveyard = Клиптер "зираты"
 about-partners = Серіктестер
 about-become-a-partner = Серіктес болыңыз
 about-get-involved = Қосылыңыз
+about-get-involved-text-2 =
+    Common Voice - ты жақсартуға көмектескіңіз келе ме?
+    Керемет! Электрондық пошта немесе <discourseLink> Discourse </discourseLink> форумы арқылы байланысыңыз, ¶сайт мәселелерін <githubLink> GitHub </githubLink> арқылы жіберіңіз немесе
+    <matrixLink> Matrix </matrixLink> қауымдастығы.
 about-nav-why-common-voice = Неліктен?
 about-nav-how-it-works = Қалайша?
 about-nav-partners = Серіктестер
