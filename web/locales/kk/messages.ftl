@@ -422,10 +422,13 @@ about-title = Неліктен Common Voice?
 about-subtitle = Common Voice - бұл Mozilla-ның машиналарға адамдарша сөйлеуді үйрету мақсатындағы бастамасының бөлігі. Common Voice деректер жиынтығынан басқа, біз Deep Speech деп аталатын кодтары ашық (open source) сөйлеуді тану қозғалтқышын жасаймыз.
 how-does-it-work-title = Бұл қалай жұмыс істейді?
 about-speak = Сөйлеңіз
+about-listen-queue = Тыңдау кезегі
 about-listen = Тыңдаңыз
 about-is-it-valid = Клип дұрыс па?
 about-yes-votes = ≥ 2 "Ия" дауысы
 about-no-votes = ≥ 2 "Жоқ" дауысы
+about-dataset-new = Common Voice деректер жинағы
+about-partners = Серіктестер
 about-become-a-partner = Серіктес болыңыз
 about-get-involved = Қосылыңыз
 about-nav-why-common-voice = Неліктен?
@@ -434,6 +437,10 @@ about-nav-partners = Серіктестер
 about-nav-get-involved = Қосылыңыз
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Жасанды интеллект
+mycroft-description =
+    Mycroft - әлемдегі алғашқы кодтары ашық көмекші.¶
+    Mycroft кез-келген жерде - дербес компьютерде, автомобиль ішінде немесе Raspberry Pi-де жұмыс істейді.
+mycroft-secondary-description = Бұл кодтары ашық бағдарламалық жасақтама, яғни оны еркін түрде ремикстеуге, кеңейтуге және жаңартуға болады. Mycroft ғылыми жобадан бастап, корпоративті бағдарламалық жасақтамаға дейін қолданыла алады.
 
 ## Glossary
 
