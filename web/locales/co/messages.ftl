@@ -153,8 +153,9 @@ join-newsletter = Pudeti raghjunghje à a nostra lista di distribuzione pà rice
 
 whats-public = Chì dati sò publichi ?
 email-not-public = Ùn palisaremu micca u vostru indirizzu eletronicu.
-recordings-and-locale-public = U numaru d'arrighjistramenti è di lingue in quale cuntribuite sarà publicu.
+recordings-and-locale-public = U numaru d'arrighjistramenti è di lingue à i quale cuntribuite sarà publicu.
 username-optin-public = Pudeti sceglie di rende u vostru nome d’utilizatore publicu o anonimu.
+demographic-deidentified-clarity-2 = I dati dimograffichi inviati facultativamente (i.e. età, sessu, lingua è accentu) ùn seranu mai publicati nantu à u vostru prufile, è ùn seranu micca ligati à u vostru contu in a banca di dati. I campiunarii audio individuali sarani assuciati à i dati dimograffichi cù u scopu di fà analise più esatte - per indettu, una circatrice puderia vulè indirizzassi à un sigmentu dimografficu specificu.
 username-email-not-demographic = U vostru nome d'utilizatore è email ùn sarani micca assuciati à i dati publicati.
 
 ## Speak & Listen Shortcuts
