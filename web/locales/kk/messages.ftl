@@ -704,6 +704,10 @@ easy-difficulty = Оңай
 average-difficulty = Орташа
 difficult-difficulty = Қиын
 pro-difficulty = Pro
+lose-goal-progress-warning = Мақсатыңызды өзгерту арқылы Сіз бар жетістіктеріңізді жоғалтуыңыз мүмкін.
+want-to-continue = Жалғастырғыңыз келе ме?
+finish-editing = Алдымен редакциялауды аяқтайсыз ба?
+lose-changes-warning = Қазір шығып кетсеңіз, Сіздің өзгертулеріңіз сақталынбайды
 build-custom-goal = Жеке мақсатты құр
 help-reach-hours-pluralized =
     Жетуге көмектесіңіз{ NUMBER($hours) ->
