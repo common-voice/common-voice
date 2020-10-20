@@ -158,7 +158,7 @@ email-not-public = Ùn palisaremu micca u vostru indirizzu eletronicu.
 recordings-and-locale-public = U numaru d'arrighjistramenti è di lingue à i quale cuntribuite sarà publicu.
 username-optin-public = Pudeti sceglie di rende u vostru nome d’utilizatore publicu o anonimu.
 demographic-deidentified-clarity-2 = I dati dimograffichi inviati facultativamente (i.e. età, sessu, lingua è accentu) ùn seranu mai publicati nantu à u vostru prufile, è ùn seranu micca ligati à u vostru contu in a banca di dati. I campiunarii audio individuali sarani assuciati à i dati dimograffichi cù u scopu di fà analise più esatte - per indettu, una circatrice puderia vulè indirizzassi à un sigmentu dimografficu specificu.
-username-email-not-demographic = U vostru nome d'utilizatore è email ùn sarani micca assuciati à i dati publicati.
+username-email-not-demographic = U vostru nome d'utilizatore è indirizzu electronicu ùn sarani micca assuciati à i dati publicati.
 
 ## Speak & Listen Shortcuts
 
@@ -168,11 +168,13 @@ username-email-not-demographic = U vostru nome d'utilizatore è email ùn sarani
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle-label = Rifà l’arrighjistramentu
 request-language-text = Ùn viditi micca a vostra lingua in Common Voice ?
 request-language-button = Richiede una lingua
 
 ## ProjectStatus
 
+status-title = Statu generale di u prughjettu : fighjuleti comu simu ghjunti luntanu !
 english = Inglese
 
 ## ProfileForm
