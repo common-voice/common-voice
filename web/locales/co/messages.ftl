@@ -175,6 +175,7 @@ request-language-button = Richiede una lingua
 ## ProjectStatus
 
 status-title = Statu generale di u prughjettu : fighjuleti comu simu ghjunti luntanu !
+status-contribute = Cuntribuisce cù a vostra voce
 english = Inglese
 
 ## ProfileForm
