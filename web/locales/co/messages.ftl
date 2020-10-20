@@ -135,11 +135,18 @@ x-weeks-short =
        *[other] { $count } sett
     }
 help-make-dataset = Aiutateci à custruisce una banca di dati d'alta qualità, aperta à u publicu
+sign-up-account = Creà u so contu
+email-subscription-title = Arrighjistrassi pà riceve infurmazioni (o nutizie) da messaghju eletronicu
+email-subscription-title-new = Abbunatevi à e nutizie, i ricordi d’ubbiettivu è l’infurmazione di prugressu di Common Voice.
 
 ## Account Benefits
 
 benefits = Vantaghji
+rich-data = Arriccheti u più pussìbile i dati inviati pruvidendu infurmazione dimograffiche anonime. Issi dati sò anonimizzati nanzu à esse publicati.
+improve-audio = L’infurmazioni di prufile migliurani i dati audio utilizzati pà addistrà a pricisione di a ricunniscenza vucale.
+keep-track = Tinite una traccia di i vostri prugressi è d'altre misure trà parechje lingue.
 compare-progress = Paraguneti u vostru prugressu à quellu di l'altri cuntributori in u mondu sanu.
+view-goals = Paraguneti u vostru prugressu à i vostri ubbiettivi parsunali è à quelli di u prughjettu.
 
 ## What's public
 
