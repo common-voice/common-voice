@@ -10,6 +10,7 @@ loading = Caricamentu…
 email-opt-in-info-title = Raghjunghje à a lista di distribuzione di Common Voice
 email-opt-in-info-sub-with-challenge = Riceve email cum'è sfide è ramintenze di scope, aghjurnamenti di prugressu, è nutizie appuntu à Common Voice.
 email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chi Mozilla ghjuva questi infurmazioni cum'è spiegatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink>.
+indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -18,6 +19,7 @@ not-available-abbreviation = Micca dispunibule
 
 ## Languages
 
+ab = Abcasu
 af = Africaanu
 an = Aragonese
 ar = Arabu
