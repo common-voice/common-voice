@@ -147,10 +147,12 @@ improve-audio = L’infurmazioni di prufile migliurani i dati audio utilizzati p
 keep-track = Tinite una traccia di i vostri prugressi è d'altre misure trà parechje lingue.
 compare-progress = Paraguneti u vostru prugressu à quellu di l'altri cuntributori in u mondu sanu.
 view-goals = Paraguneti u vostru prugressu à i vostri ubbiettivi parsunali è à quelli di u prughjettu.
+join-newsletter = Pudeti raghjunghje à a nostra lista di distribuzione pà riceve messe à ghjornu è nove infurmazioni appuntu à u prughjettu.
 
 ## What's public
 
 whats-public = Chì dati sò publichi ?
+email-not-public = Ùn palisaremu micca u vostru indirizzu eletronicu.
 username-email-not-demographic = U vostru nome d'utilizatore è email ùn sarani micca assuciati à i dati publicati.
 
 ## Speak & Listen Shortcuts
