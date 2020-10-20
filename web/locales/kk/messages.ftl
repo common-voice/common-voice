@@ -419,6 +419,12 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Неліктен Common Voice?
+how-does-it-work-title = Бұл қалай жұмыс істейді?
+about-speak = Сөйлеңіз
+about-listen = Тыңдаңыз
+about-is-it-valid = Клип дұрыс па?
+about-yes-votes = ≥ 2 "Ия" дауысы
+about-no-votes = ≥ 2 "Жоқ" дауысы
 about-become-a-partner = Серіктес болыңыз
 about-get-involved = Қосылыңыз
 about-nav-why-common-voice = Неліктен?
