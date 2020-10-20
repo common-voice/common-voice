@@ -428,6 +428,7 @@ about-listen-text = Пайдаланушылар сөйлеушінің сөйл
 about-is-it-valid = Клип дұрыс па?
 about-is-it-valid-text = Дауыстық клип қолданушы «Иә» деп дауыс берген кезде «жарамды» деп белгіленеді.
 about-yes-votes = ≥ 2 "Ия" дауысы
+about-yes-votes-text = Common Voice деректер жиынтығына ену үшін дауыстық клипті екі жеке пайдаланушы растауы керек.
 about-no-votes = ≥ 2 "Жоқ" дауысы
 about-dataset-new = Common Voice деректер жинағы
 about-clip-graveyard = Клиптер "зираты"
@@ -435,9 +436,10 @@ about-partners = Серіктестер
 about-become-a-partner = Серіктес болыңыз
 about-get-involved = Қосылыңыз
 about-get-involved-text-2 =
-    Common Voice - ты жақсартуға көмектескіңіз келе ме?
-    Керемет! Электрондық пошта немесе <discourseLink> Discourse </discourseLink> форумы арқылы байланысыңыз, ¶сайт мәселелерін <githubLink> GitHub </githubLink> арқылы жіберіңіз немесе
-    <matrixLink> Matrix </matrixLink> қауымдастығы.
+    Common Voice-ты жақсартуға көмектескіңіз келе ме?
+    Керемет! Электрондық пошта немесе <discourseLink> Discourse </discourseLink> форумы арқылы байланысыңыз,
+    сайт бойынша мәселелерді <githubLink> GitHub </githubLink> арқылы жіберіңіз немесе
+    <matrixLink> Matrix </matrixLink> қауымдастығының чатына қосылыңыз.
 about-nav-why-common-voice = Неліктен?
 about-nav-how-it-works = Қалайша?
 about-nav-partners = Серіктестер
