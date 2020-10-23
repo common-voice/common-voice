@@ -505,14 +505,14 @@ data-download-singleword-callout = This is a use case driven segment containing 
 review-terms = Bw'okozesa Common Voice, okiriza <termsLink>Enkolagana</termsLink> ne <privacyLink>Eby'ekyama</privacyLink>
 terms-agree = Nzikiriza
 terms-disagree = Si kkiriza
-review-aborted = Upload esaziddwamu. Oyagala ku deletinga likodingi yo?
+review-aborted = Okuwanikibwa kusaziddwamu. Oyagala kusangula maloboozi go?
 review-submit-title = Wetegereze Osindike
 review-submit-msg = Webale okulikodinga!<lineBreak></lineBreak>Kati byetegereze osindike obuloboozi bwo wansi.
 review-recording = Wetegereze
 review-rerecord = Likodinga buto
 review-cancel = Sazaamu Okusindika
-review-keep-recordings = Teleka ebilikodinge
-review-delete-recordings = Sangula likooding zange
+review-keep-recordings = Tereka amaloboozi
+review-delete-recordings = Sangula amaloboozi gange
 
 ## Datasets Page
 
@@ -706,8 +706,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] Ekilikodinge
-       *[other] Ebilikodinge
+        [one] eddoboozi
+       *[other] Amaloboozi
     }
 validations =
     { $count ->
