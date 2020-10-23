@@ -33,6 +33,7 @@ as = Asamšćina
 ast = Asturšćina
 az = Azerbajdžanišćina
 ba = Baškiršćina
+bas = Basašćina
 be = Běłorušćina
 bg = Bułgaršćina
 bm = Bambaršćina, Bambara
