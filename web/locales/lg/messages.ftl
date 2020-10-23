@@ -629,8 +629,8 @@ goal-help-recording = Oyambyeko common voice okutuuka ku <goalPercentage></goalP
 goal-help-validation = Oyambyeko common voice okutuuka ku <goalPercentage></goalPercentage> eya goolo { $goalValue } ez'okusunsula buli lunaku.
 contribute-more =
     { $count ->
-        [one] Wetegese okukola ekilara { $count }?
-       *[other] Wetegese okukola ebilara { $count }?
+        [one] Weetegese okukola ekirala { $count }?
+       *[other] Weetegese okukola ebirala { $count }?
     }
 record-cta = Tandika okulikodinga
 record-platform-not-supported = Platform yo tenaba k'olebwa mu kaseera kano, tusonyiwe.
