@@ -379,6 +379,8 @@ faq-why-important-q = Hvers vegna er þetta mikilvægt?
 faq-why-important-a = Ein af okkar allra náttúrulegustu leiðum til þess að tjá okkur og eiga samskipti er með tali og tækniframfarir eru að gera okkur kleift að eiga slík samskipti við tölvurnar okkar, síma og önnur tæki. Við viljum efla þróunaraðila til þess að gera frábærar máltæknilausnir eins og textaþýðingar í rauntíma og raddstýrð aðstoðartæki. En til þess þarf góð og nothæf gagnasett, og því miður eru núverandi aðgengileg gagnasett kostnaðarsöm og háð notkunarskilmálum. Okkar von er að gagnasettið á Samrómi muni gefa þróunaraðilum það sem þeir þurfa til þess að búa til nýjungar og gera máltæknilausnir aðgengilegar á öllum tungumálum.
 faq-how-get-q = Hvernig get ég nálgast gögn Samróms?
 faq-how-get-a = Gögn Samróms verður hægt að niðurhala með <licenseLink>CC0-leyfi</licenseLink> á <datasetLink>gagnasafnasíðunni okkar</datasetLink>. Einnig verður hægt að niðurhala nokkur önnur gagnasöfn á síðunni sem opin eru almenningi.
+faq-when-release2-q = Hvenær verða raddgögn Samróms í boði á öðrum tungumálum?
+faq-when-release2-a = Fjöltunguútgáfu gagnapakka Samróms er verið að klára og snurfusa í samfélagsverkefni. Ef þú vilt hjálpa okkur að koma Samrómi yfir á ný tungumál, farðu þá og skoðaðu <sentenceCollectorLink>Setningasöfnunartólið</sentenceCollectorLink> til að fjölga setningum í gagnapakkanum og Mozilla <pontoonLink>Pontoon</pontoonLink> til að þýða vefsíðuna sjálfa. Nýjum tungumálum er bætt við Samróm fyrir raddframlag þegar 5000 samþykktum setningum hefur verið safnað.
 faq-why-mission-q = Hví er Samrómur eitt af markmiðum Mozilla?
 faq-why-mission-a = Mozilla hefur tileinkað sér að tryggja það að vefurinn sé öllum opinn og aðgengilegur. Til þess þarf að virkja vefsmiði með verkefnum á borð við Samróm. Líkt og raddbúnaðartæknin þróast umfram sértæk forrit, trúum við að hún verði að þjóna öllum notendum jafnt. Það þýðir að fjölga tungumálum, framburðarsýnum og lýðfræðiupplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Samrómur verður opinn grunnur sem mun gagnast öllum en Mozilla teymi og forritarar úti um allan heim eru þegar byrjaðir að nota hann fyrir sín verkefni.
 faq-what-cv-and-deepspeech-q = Hver er munurinn á Samrómi og Deep Speech?
@@ -453,6 +455,11 @@ about-partnership =
     
     Við þökkum eftirfarandi aðilum og samtökum fyrir þeirra framlag til verkefnisins:
 about-get-involved = Taktu þátt
+about-get-involved-text-2 =
+    Viltu hjálpa að gera Samróm enn betri?¶
+    Frábært! Settu þig í samband með tölvupósti eða <discourseLink>Discourse</discourseLink>¶
+    spjallborðum, sendu inn vandamál sem koma upp á síðunni á <githubLink>GitHub</githubLink>,¶ 
+    eða taktu þátt á <matrixLink>Matrix-rásinni</matrixLink> okkar.
 about-nav-why-common-voice = Af hverju?
 about-nav-how-it-works = Hvernig?
 about-nav-partners = Samstarfsaðilar
@@ -480,6 +487,8 @@ de-identified-explanation = Það þegar tengsl prófílgagna þátttakanda við
 
 ## Error pages
 
+error-title-404 = Við fundum þá síðu ekki handa þér
+error-content-404 = Kannski getur <homepageLink>heimasíðan</homepageLink> okkar hjálpað? Til að spyrja spurningar, skráðu þig vinsamlegast í <matrixLink>Matrix</matrixLink> samfélagsspjallið, fylgstu með vandamálum síðunnar í gegnum <githubLink>GitHub</githubLink> eða heimsæktu <discourseLink>Discourse</discourseLink> spjallborðin.
 
 ## Data
 
