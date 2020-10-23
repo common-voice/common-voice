@@ -186,6 +186,7 @@ profile-form-accent =
     .label = Accentu
 profile-form-age =
     .label = Età
+hidden = Piattatu
 visible = Visìbile
 profile-form-submit-save = Arrighjistrà
 profile-form-submit-saved = Arrighjistratu
@@ -193,6 +194,7 @@ male = Masciu
 female = Femina
 # Gender
 other = Altru
+why-profile-title = Parchì creà un prufilu ?
 avatar = Avatar
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 
