@@ -29,6 +29,7 @@ as = Assamese
 ast = Asturian
 az = Azerbaijani
 ba = Bashkir
+bas = Basaa
 be = Belarusian
 bg = Bulgarian
 bm = Bambara

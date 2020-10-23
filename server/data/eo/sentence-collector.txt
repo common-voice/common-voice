@@ -447,6 +447,7 @@ Al tiuj, de kiuj li esperas ricevi pagon, li portis pezan faskon da ligno.
 Al unu el tiuj benkoj iras la mastrino kaj la mutulino sekvas.
 Al vi eble eĉ tro plaĉas tiu etulino!
 Al vi la homoj donos por tio laŭdon, al ni ili donos ofendon.
+Al vi mi donos mian ĉapon.
 Al vi necesas edziĝi.
 Al vi?
 Al via princa moŝto ĉio estas facila.
@@ -727,6 +728,7 @@ Ambaŭ kalvinistoj tiun ĉi aperon konsideris ŝerco de malica spirito.
 Ambaŭ komencis batali.
 Ambaŭ kondutas kiel konversaciantoj.
 Ambaŭ libroj aperis proksimume samtempe en tri lingvoj, la sveda, la finna kaj Esperanto.
+Ambaŭ ludojn ni, japanoj, havas.
 Ambaŭ malaperis en la kursan ĉambron kaj la pordo denove fermiĝis.
 Ambaŭ mankas en Simptomoj, kaj tio frapis min de la komenco.
 Ambaŭ metodoj eblas.
@@ -3438,6 +3440,7 @@ En la suda muro de la ĉambro estis du fenestroj kun flankaj kurtenoj.
 En la sveda.
 En la tablotenisa sekcio nun trejnas sin homoj de ĉiuj aĝoj.
 En la tagordo elstaras la elektoj de la novaj Komitato kaj revizora kolegio.
+En la templo ŝi ankaŭ ludas vjetnaman bambuan fluton.
 En la tempoj barbaraj ekzistis nur rajto de pugno kaj glavo.
 En la tiea albordiĝejo ni trovis kelkajn boatojn.
 En la tiel nomata tria mondo ĝi, male, subtenis kaj helpis plurajn despotojn.
@@ -3465,6 +3468,7 @@ En la ĉambro estis tri personoj, el kiuj unu leviĝis renkonte al Marta.
 En la ĉambro troviĝas multaj seĝoj sed nur du homoj.
 En la ĉelo regis silento.
 En la ĉirkaŭaĵo oni trovis signojn skrapitajn en rokoj.
+En la ĝardeno staris multaj monumentoj, sur kiuj estis engravuritaj nomoj.
 En la ĝenerala kunveno li raportas pri la financa stato de la asocio.
 En laboro ni vivas.
 En lernejoj de Friulo kromo eblas partopreni semajne unuhoran lecionon en la friula lingvo.
@@ -3646,6 +3650,7 @@ En ĝia mezo, kvazaŭ bela juvelaro, staris la domego, turohava kaj parte hedero
 En ĥinda vilaĝo vivis bramano.
 En ŝia flustro estis io preskaŭ freneza.
 En ŝia koro kantis la magia vorto: „Li amas!
+En ŝia universitato studentoj devas lerni ĉiujn tradiciajn muzikilojn.
 En ŝia voĉo montriĝis iometa konfuzo, sed ankaŭ ĝojo kaj sento de liberiĝo.
 En ŝiaj malgrandaj kaj iom strabaj okuloj aperis io simila al kompato.
 En ŝiaj vortoj estis peto, amaro kaj doloro.
@@ -4067,6 +4072,7 @@ Estis momento de streĉita silento.
 Estis monaton poste.
 Estis multe da stultaj problemoj, ĉefe pri veturoj, manĝoj kaj dormĉambroj.
 Estis muziko, danco kaj drum-ludado.
+Estis nature, ke ŝi havis bonan voĉon kaj kantis belege.
 Estis ne evitebla la ŝanĝo.
 Estis ne nur Tolstoj, kiu pruvis la facilecon de la zamenhofa lingvo.
 Estis neakra dolorado en lia ventro.
@@ -5228,6 +5234,8 @@ Horora afero, ĉu ne?
 Hortensioj estas tre ŝatataj.
 Hoteloj tro multekostas kaj foras.
 Hu Jintao afable diris al ŝi: Vi estas tre konata de ĉinaj junuloj.
+Hue forĵetis la ŝelojn sur la stratojn.
+Hue kaj ŝia amikino kolektis tiujn kaj mem ludis la ludojn kun ili.
 Hugo devas respondi pri tiu mortigo.
 Humilan, tamen iomete sendependan.
 Humuraj retejoj estas multegaj en aliaj lingvoj, sed ĝis nun mankis simila en Esperanto.
@@ -5432,6 +5440,7 @@ Ili estis tiam tie kiel grandaj amikoj.
 Ili estis tiel dolĉaj, sed Stelkri ne komprenis la dolĉecon.
 Ili estis tre bonaj najbarinoj kaj amikinoj.
 Ili estis tre malkontentaj.
+Ili estis tre oportunaj por manĝi, ĉar oni facile senŝeligas ilin per la fingroj.
 Ili estis ĉirkaŭataj, pluraj deziris aŭdi la lingvon, scii pli pri ĝi.
 Ili estos same respektataj kiel se unu aspektus ine kaj la alia iĉe.
 Ili estris min klare.
@@ -5546,6 +5555,7 @@ Ili ne hezitas priparoli aktualajn tiklajn aferojn en Aŭstrio: pensioj, fremdla
 Ili ne komprenas kiom danĝera tio estas.
 Ili ne malamis siajn neserbajn najbarojn, kiel Aldo mem diris, kaj multaj mikse geedziĝadis.
 Ili ne multe esprimas sin veste.
+Ili ne permesis al mi pagi por ili.
 Ili ne plu aktivas kaj ne donas esperon pri reaktiviĝo.
 Ili ne plu parolis.
 Ili ne povis aprobi Esperanton kaj ne aprobis ĝin.
@@ -5679,6 +5689,7 @@ Ili vane serĉas la kaŭzon de tiu strangaĵo.
 Ili venas al ni.
 Ili venis de Francujo kompreneble sed ankaŭ de Irlando, Britujo, Belgujo, Svislando kaj Rusujo.
 Ili verŝajne jam malinstalis la aplikaĵon, aŭ ili blokas ĝiajn sciigojn.
+Ili vestis sin malriĉe, nudpiedaj.
 Ili videble estis instruistinoj, kiuj forlasis la lokon, al kiu ŝi nun celis.
 Ili videble hezitis.
 Ili vidis lumeron, kiel brila stelo, ie en la fono.
@@ -5707,6 +5718,7 @@ Ilia filo vivas!
 Ilia genealogio diferencas dependante de la verkisto.
 Ilia kverado estas plezura.
 Ilia muskolaro devus esti dekoble pli forta, ol ĝi estas en realo.
+Ilia nomo estas na.
 Ilia parolado estas miksaĵo de loka dialekto kaj usonangla slango.
 Ilia precipa okupo estis transiradi nian straton.
 Ilia sinteno ŝanĝiĝos, kiam ilia socio ŝanĝiĝos.
@@ -7627,6 +7639,7 @@ Kerna propraĵo de ĉiuj frazeologismoj estas ilia fiksformuleco.
 Kia abomena komedio!
 Kia absurdaĵo!
 Kia agrabla kaj bonvena surprizo!
+Kia aminda rideto!
 Kia aŭdaco, kia defio, kia vizio!
 Kia bagatelama, malalta, seka estis tiu ĉi penso!
 Kia baleno estis?
@@ -8063,6 +8076,7 @@ Kiam la koro doloras, ĝi doloras, kruele do estus lasi doloron en malcerteco.
 Kiam la malfluso ekestis, ili metis la dispecigitajn vegetaĵojn en la akvon.
 Kiam la mastrino de la oficejo parolis tiujn vortojn, Marta atente ŝin rigardis.
 Kiam la matena vento eksusuris inter palmoj kaj cedroj, la panjo vokis Marion.
+Kiam la muziko finiĝis, la ludistino levis sian vizaĝon.
 Kiam la patro mortis, oni vendis la vilaon kaj la konstruaĵon por la servistoj.
 Kiam la procezo okazas en motoro, oni ankaŭ uzas la vorton karburaĵo.
 Kiam la sekvantan matenon mi vekiĝis, tiu sama viro staris antaŭ mia lito.
@@ -8092,6 +8106,7 @@ Kiam mi komencis mian mandaton kiel ĜenSek, mi estis tre entuziasma.
 Kiam mi komencis mian universitatan studadon, mi naive decidis studi ne matematikon sed teologion.
 Kiam mi maldormiĝis kaj malfermis la okulojn, ĉirkaŭ mi estis absoluta mallumo.
 Kiam mi ne plu atendas ŝin.
+Kiam mi provis foti la infanojn, tiuj tuj forkuris disen.
 Kiam mi rekonsciiĝis, preskaŭ ĉiuj vizitantoj estis forkurintaj kun teruro...
 Kiam mi renormaliĝis kaj trankviliĝis, ŝi deziregis ekscii kion mi opinias pri ŝia juvelaĵo.
 Kiam mi sidis sur la supro monteta, Paŭlo alproksimiĝas.
@@ -8141,6 +8156,7 @@ Kiam ŝi estis juna knabino, kelkaj el ŝiaj gefratoj kaj poste la gepatroj mort
 Kiam ŝi estis libera, ŝprucis sennombraj ideoj en ŝia cerbo.
 Kiam ŝi rehejmiĝos?
 Kiam ŝi revenis, ŝi alportis kun si tri librojn.
+Kiam ŝia patrino vizitis Japanion, ŝi estis unujara.
 Kiam?
 Kiamaniere eblas ekspliki tion?
 Kiamaniere eblas hodiaŭ altiri homojn al la teatro?
@@ -10093,6 +10109,7 @@ La aĉetantoj elŝutas muzikon el servilo, kiu fizike troviĝas en Rusio.
 La aŭdebleco ne estis perfekta.
 La aŭlo malpleniĝis.
 La aŭstralia registaro kondamnas lian sintenon.
+La aŭstrian parlamentejon sur Viena Ringstrato oni nomas ankaŭ Alta Domo.
 La aŭto atendas.
 La aŭtobotoj jam fuĝis el la metala planedo kaj iris al Tero.
 La aŭtobuso eĉ haltis ĉe kvar stacioj sur pekina strato.
@@ -10879,6 +10896,7 @@ La komunumaj elektoj en oktobro intensigas la nervozecon.
 La komunumo de la parolantoj de Esperanto funkcias same kiel ĉiuj aliaj lingvaj komunumoj.
 La komunumoj de specioj kiuj vivas je tiuj latitudoj estas adaptitaj al la malvarmo.
 La koncerto estus aranĝata post tri tagoj.
+La koncertoj, ege bonvenigite, sukcesis en ĉiuj urboj kun plenplenaj spektejoj.
 La koncilion partoprenis grandparte pastroj kaj ekleziaj altranguloj neindaj je siaj postenoj.
 La kondamno estis falsa.
 La kondiĉoj en la kongresejo estas simplaj.
@@ -11817,6 +11835,7 @@ La sekvan tagon ĉio estis pli klara kaj nedubinda.
 La sekvanta ondo estis egale alta, kaj enfermis min en sia vasto.
 La sekvantan matenon mi vekiĝis jam frue.
 La sekvantan someron?
+La sekvantan tagon mi sola vizitis Literatur-Templon.
 La sekvinta tago trovis Malkomon jam iom pli trankvila, sed strange malinklina iri hejmen.
 La sekvintan tagon mi volis viziti lin en lia kajuto, aŭdinte, ke li malsaniĝis.
 La sekvoj dolorigas, sed ili sanigas.
@@ -12056,6 +12075,7 @@ La triumfo de la ideo!
 La troigita adorado de Zamenhof?
 La tromalnova instrulibro, kiun ŝi uzas, ne helpas.
 La trovo estas tiom nekutima, ke ni ripetade demandos nin, pri kio temas.
+La trupo vizitis dekkelkajn urbojn en Japanio, inter kiuj estis mia urbo.
 La tujmesaĝilo estas privata.
 La tunelo ŝajnis senfina.
 La tur-pinto de la katedralo rompiĝis en fajro kaj fumo.
@@ -12323,6 +12343,7 @@ La voĉo restis en la aero sobre, deklare.
 La voĉoj ĉarmas, kaj ili verŝajne diras ĉarmajn aferojn.
 La vulkano eniris novan eksplodan erupciociklon, procedon kiu ŝajne ne baldaŭ malrapidiĝos.
 La vundo en mia koro estas tro profunda por cikatriĝi per bonfarada plastro.
+La zono pendis kaj flirtis antaŭ ŝia korpo.
 La zorgoj de Mikrosofto estas eble surpriza signo, ke la libera mastrumsistemo maturiĝas.
 La zumado tuj eksilentis; ĉiuj aŭskultis, ĉar ĉiuj estis scivolaj.
 La zumo de la strato delonge silentiĝis.
@@ -14226,6 +14247,7 @@ Meze de ili mi vidis mian longkruran amikon.
 Meze de mia telero estas longa, dika, nigra haro!
 Mezlonga kaj longtempa perspektivoj.
 Meznokte ni atingis Guantanamon.
+Meznokte oni kolektis tiujn rubojn kaj matene la stratoj estis senrubaj.
 Mezvoje ni renkontis la bovinon, kiu sin paŝtis.
 Mi ade rigardas la horloĝon, kie loĝas tro da nepasintaj horoj.
 Mi admiras la influon kaj karismon de Esperanto kiel internacia lingvo.
@@ -14964,6 +14986,7 @@ Mi interesas pri tio.
 Mi interesiĝas pri ekonomio.
 Mi interesiĝas pri filozofio.
 Mi interesiĝas pri homoj.
+Mi interesiĝis pri muzikilo, kiu konsistis el dekkelkaj dikaj bambuoj kunligitaj horizontale.
 Mi interrompis la kuiriston kaj diris:
 Mi interrompis lin dirante:
 Mi invitas homojn kiuj volas fariĝi tradukistoj bonvole aliĝi en la retejo.
@@ -17838,6 +17861,7 @@ Ni jam lanĉis en majo la provversion.
 Ni jam plurfoje faris tion.
 Ni jam preterveturis la golfeton.
 Ni jam prilaboras version por iPhone.
+Ni kantis, ludis kaj ludis kune ĝis malfrua vespero.
 Ni klopodas, ke la navigado en niaj retejoj estu alloga, rapida kaj facila.
 Ni klopodis altiri iun savanton al nia planedo por forigi la homojn detrumemajn.
 Ni komencas disputi.
@@ -18455,6 +18479,7 @@ Nun Jalta iĝis vera studenta urbo, kaj tial aperis la eblo trejni ankaŭ studen
 Nun Krimeo estas nia.
 Nun Mario ekridetis.
 Nun Marta rememoris la tagon, kiam Aniko proponis, ke ili kune somerumu en Turkio.
+Nun Ros sidis en la parko kaj sencele gapis antaŭ si.
 Nun al aliaj!
 Nun aldoniĝos pliaj surkondomaj sloganoj.
 Nun ankaŭ vi scias, kunulo.
@@ -18956,6 +18981,7 @@ Oni estu pacienca!
 Oni eĉ devas, ĉar alie tio signifus, ke ni opinias ilin fremdaj.
 Oni eĉ liberlasis plurdekmilojn da fiŝoj en la Mekongo.
 Oni eĉ rifuzas tion.
+Oni eĉ verŝis sur stratojn akvon per akvumaŭto por preventi venton forblovi koton.
 Oni fajfas pri tio.
 Oni faras gramatikajn erarojn.
 Oni faris purigadon ne nur por bonvenigi la diojn, sed ankaŭ por forbalai malfeliĉon.
@@ -19879,6 +19905,7 @@ Post la fortaj ekscitiĝoj, kiujn ŝi havis, Marta denove enfalis tute en bagate
 Post la gajno.
 Post la halto li eliris al la kajo.
 Post la intervjuo li ankoraŭ ludos partion de tabloteniso.
+Post la koncerto ni havis bankedon.
 Post la liberiĝo li laboris kiel profesia versanto.
 Post la ludado li ekhavas girlandon el belaj floroj kaj denove li devas ludi.
 Post la ludo estis intervjuo.
@@ -20058,6 +20085,7 @@ Poste ŝi eksidis sur la benko, almetis tukon al la okuloj kaj ekploris.
 Poste ŝi ekvidis ankoraŭ paron.
 Poste ŝi konfesis, ke ŝi haluciniĝis, sentas dorsdolorojn kaj suferas pro ŝvelinta lango.
 Poste ŝi laboris ĉe literaturĵurnalo.
+Poste ŝi ofte aŭdis pri la vojaĝo, koncertoj kaj bonkoreco de japanoj.
 Poste ŝi partoprenis kurson organizitan de la ŝtato por fariĝi frizisto.
 Poste ŝi postulis, ke oni korektu la parlamentan protokolon.
 Poste ŝi rigardis sin kaj ridis.
@@ -20406,6 +20434,7 @@ Pro tio, la insulo nun staras sursojle de malapero.
 Pro tio, ĝi estas tre amuza ludo por kunvenoj de esperantistaj.
 Pro tio.
 Pro tiu laboro la kapo al mi preskaŭ krevas.
+Pro tiu tradicio gestudentoj ofte vizitas la templon por preĝi por sukceso en ekzameno.
 Pro tiuj kunaj travivaĵoj.
 Pro transiro de socialismo al kapitalismo suferas la pola popolo.
 Pro vi mem.
@@ -20573,6 +20602,7 @@ Reliefo de Zamenhof sur la muro de la Zamenhof-centro.
 Religio estas randa kondiĉo.
 Religio ne plu estas socia forto sed privataĵo.
 Rememorante ion, kion mi lernis antaŭ kelkaj jaroj, mi komencis realigi alian projekton.
+Rememorante la koncerton, mi atente aŭskultis la muzikon.
 Remu aŭ pagaju vian boaton silente al malprofunda loko proksime al la bordo.
 Renaskiĝas memkonscio de minoritataj popoloj.
 Renkonten iras fremda ŝipo!
@@ -20783,6 +20813,7 @@ Romeskaŭ tre miris, kiam li ekaŭdis pri la buboj kaj pri Barazof.
 Romeskaŭ, lia edzino kaj Aleksandra akampanus min.
 Rompiĝas al mi la koro, kiam mi pripensas, kio fariĝos el li!
 Ros denove lin karesis, sed vane.
+Ros provis diversmaniere klarigi al li, ke li eraras, sed vane.
 Roza forte deziris ekscii la surskribon kaj ne povis trankviliĝi.
 Roza tamen estis tre obstina.
 Rozo prezentas amon.
@@ -20875,6 +20906,7 @@ Sammaniere agis la kato, kiam ĝi saltis sur la ŝultron de la sonĝanta fremdul
 Samokaze la komunumo rifuzas iujn ajn provojn pri plendoj antaŭ tribunaloj.
 Samon oni povas diri pri rebriloj kaj ombro.
 Samtempa tradukado – vive!
+Samtempe Microsoft akiris sperton pri Linukso, kiun ĝi povas uzi en konvenaj okazoj.
 Samtempe aperis en ŝi la sento de neesprimebla premanta humileco.
 Samtempe aro da respublikanoj eskapis el la prizono.
 Samtempe ekas vojaĝo por orfosado de Monda Pokalo.
@@ -21036,6 +21068,7 @@ Se oni aĉetu, oni devu elspezi en Esperantujo aŭ sendi al aliaj esperantistoj.
 Se oni estas scivolema pri io, serĉi en la reto ĉiam estas solvo.
 Se oni havas tempon kaj ne scias, kion fari, oni foriras en Esperantan societon.
 Se oni konstruas domon, oni ne povas komenci per la tegmento.
+Se oni ludas unu specon de fluto, oni relative facile povas ludi alian.
 Se oni ne faras tion, oni ekhavos nenion.
 Se oni ne scias al kio oni reagu?
 Se oni ne vidus min.
@@ -22299,6 +22332,7 @@ Severege mi sekvis ankaŭ la koncernan dieton.
 Seĝoj ŝoviĝis.
 Sia buŝo nerveme kuntiriĝis kaj larmoj ekvenis en ŝiaj okuloj.
 Siaflanke Kanado decidis plene restarigi siajn provizore limigitajn diplomatajn rilatojn.
+Siaflanke Microsoft klopodas konvinki la publikon, ke ĝi tute ne estas fia monopolisto.
 Siaflanke, Albanio starigis agentejon por stimuli eleksterlandajn investojn.
 Siaflanke, la plukistoj asertas, ke ili estas preskaŭ senhavaj kaj ekspluatataj.
 Siaj respondoj estis malsamaj.
@@ -22754,6 +22788,7 @@ Sur la perono staris juna virino en funebra vesto kun tre pala vizaĝo.
 Sur la piedoj li havis botojn de la mateno ĝi la vespero.
 Sur la pli granda mi vidis nenion krom sablo.
 Sur la senarbigejo la arbaro povas juniĝi.
+Sur la strato infanoj ludis.
 Sur la strato, proksime de mia domo.
 Sur la stratoj iris multaj homoj, kiuj ne atentis sin reciproke.
 Sur la stratoj videblis armitaj soldatoj kaj policanoj.
@@ -23497,6 +23532,7 @@ Tiam lia vivo eniris en la malfacilan periodon.
 Tiam mi ekhejmportis mian ŝarĝon de la marbordo, kie mi antaŭe ĝin lasis.
 Tiam mi eksplodis.
 Tiam mi eltiris mian saketon kaj montris mian nikelan monon.
+Tiam mi estis estrarano de la filio de la societo en mia urbo.
 Tiam mi estis stulta.
 Tiam mi estis tre juna kaj opiniis ambaŭ eldonaĵojn tre enuigaj.
 Tiam mi faris seĝon kaj skribtablon.
@@ -28009,6 +28045,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĝi estas facile dresebla, sed foje iom tro ludema.
 Ĝi estas fama pro la korea milito.
 Ĝi estas fama simbolo de la urbo.
+Ĝi estas fama templo kun malnova historio.
 Ĝi estas fama trismejo.
 Ĝi estas fidinda.
 Ĝi estas formita el tre densaj ŝtono kaj metaloj.
@@ -28293,6 +28330,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĝi similis al tintado de oraj moneroj, kiuj kune dancas senbride.
 Ĝi simple estas interkonsento.
 Ĝi simple estis la plej granda kaj plej kompleta vortaro havebla.
+Ĝi situis najbare de la hotelo.
 Ĝi sola tamen ne sufiĉas por klarigi tian drastan kolapson.
 Ĝi spuras la disvolviĝon de la intelekto, de la persona pensado.
 Ĝi staris nefermita kaj mi eliris la ĝardenon.
@@ -28506,6 +28544,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝajnas, ke temas pri hororfilmo absolute ne-realeca.
 Ŝajnas, ke tiu ĉi kazo ne unikas.
 Ŝajnata defio.
+Ŝajne Microsoft nun profitas de la cirkonstancoj por prepari ŝanĝon de sia strategio.
 Ŝajne estas nenio pri la lingvo mem.
 Ŝajne hodiaŭ estos unu el tiuj tagoj.
 Ŝajne ili estas jam sub iuspeca hipnoto aŭ amashisterio.
@@ -28566,6 +28605,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi ankau kritikis la socian politikon de la nederlanda registaro.
 Ŝi ankaŭ aldonis dimensiojn al mia kompreno de Zamenhof kaj liaj motivoj.
 Ŝi ankaŭ ne povis alkutimiĝi al la penso, ke ŝia infano ĉesos manĝi viandon.
+Ŝi ankaŭ surpriziĝis, trovinte min antaŭ ŝi.
 Ŝi aspektas tre gracia, aminda junulino.
 Ŝi aspektis bela, korpura, bona.
 Ŝi aĉetas ilin tuj pagante.
@@ -28745,6 +28785,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi indignis.
 Ŝi instruas matematikon.
 Ŝi interfingrigas la manojn kaj penas forigi ĉiujn pensojn por tute jam ne revadi.
+Ŝi invitis min antaŭ la muzikilon kaj lasis min ludi.
 Ŝi invitis min veni.
 Ŝi iomete skuiĝis.
 Ŝi iras al Rika.
@@ -28767,6 +28808,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi kaj fraŭlino Bratsberg estas amikinoj ekde la tempo de konfirmacio.
 Ŝi kaj lia fianĉino ne amikas.
 Ŝi kaj ŝia edzo ambaŭ estis fervoraj esperantistoj.
+Ŝi kantis bele.
 Ŝi kapjesis.
 Ŝi kaptis la ambaŭ al ŝi etenditajn manojn de la virino.
 Ŝi kaptis sian sakon kaj rapide impete elkuris el la vagono.
@@ -28802,6 +28844,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi leviĝis.
 Ŝi loĝas en Koreio.
 Ŝi loĝas en Rusio.
+Ŝi ludis por mi!
 Ŝi maldikiĝis, pliaĝiĝis.
 Ŝi malice ridetis.
 Ŝi mallevis la okulojn.
@@ -28929,11 +28972,14 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi staris nur kelke da sekundoj kaj ekkuris denove rekte antaŭen.
 Ŝi staris tiel kelke da minutoj, kun senmova vizaĝo kaj teniĝo.
 Ŝi stariĝis antaŭ la fenestro.
+Ŝi studis muzikon en hanoja Arta Universitato.
 Ŝi stumblis, kaj ŝi volis kapti la pordon por apogi sin, sed ŝi maltrafis.
 Ŝi suferis kulturan ŝokon.
 Ŝi suferis tiom multe dezirante sciigi la aferon kiom mi dezirante ĝin ekscii.
 Ŝi suicidis.
 Ŝi sulkigas fulmotondre la brovojn.
+Ŝi surmetis bluan tradician ĉapon.
+Ŝi surmetis pale rozkoloran robon kun ruĝa zono.
 Ŝi tamen baldaŭ forskuis de si la kontraŭvolan enpensiĝon.
 Ŝi tamen estis ŝutinta antaŭe sukeron en sian glaseton.
 Ŝi tamen ne desaltis de la seĝo kaj ne alkuris al la kuzino.
