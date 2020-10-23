@@ -195,18 +195,33 @@ female = Femina
 # Gender
 other = Altru
 why-profile-title = Parchì creà un prufilu ?
+build-profile = Creà u vostru prufilu
 avatar = Avatar
+goals = Ubbiettivi
+profile-close = Sarrà
+why-demographic = Parchì hè impurtante ?
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 
 ## FAQ
 
+faq-how-get-q = Comu possu uttene i dati di Common Voice ?
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
+faq-search-for-answers =
+    .label = Circà risposte
 
 ## ABOUT US
 
+about-title = Parchì Common Voice ?
+how-does-it-work-title = Comu funziona ?
+about-speak = Parlà
+about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da una banca di frasi dunati da a cumunità.
 about-listen-queue-text = L'arrighjistramenti vucali sò mandati in una fila d'attesa induve sarani approntati pè l'ascolta.
-about-listen-text = L'utilizatori cunvalidanu l'esatezza di i clip dunati, verifichendu chì l'uratori ani lettu a frasa currittamente.
+about-listen-text = L'utilizatori cunvalidanu l'esatezza di i campiunarii dunati, verifichendu chì l'uratori ani lettu a frasa currittamente.
+about-dataset-new = Basa di dati Common Voice
+about-partners = Partinarii
+about-become-a-partner = Diventà un partinariu
+about-get-involved = Impegnassi
 
 ## Glossary
 
