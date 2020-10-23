@@ -512,7 +512,7 @@ review-recording = Wetegereze
 review-rerecord = Likodinga buto
 review-cancel = Sazaamu Okusindika
 review-keep-recordings = Teleka ebilikodinge
-review-delete-recordings = Sazaamu ebilikodinge byange
+review-delete-recordings = Sangula likooding zange
 
 ## Datasets Page
 
@@ -743,7 +743,7 @@ show-ranking = Ndaga wendi
 
 get-started-goals = Tandika n'ebiruubirirwa
 create-custom-goal = Teekawo ekiruubirirwa ekikyo
-goal-type = Kiruubirirwa ki ky'oyagala okuzimba?
+goal-type = Kiruubirirwa ki ky'oyagala okuteekawo?
 both-speak-and-listen = By'ombi
 both-speak-and-listen-long = Byombi (Yogera ate owulirize)
 daily-goal = Ekigobero Kya buli lunaku
@@ -756,7 +756,7 @@ lose-goal-progress-warning = Bw'okyusa ekigobero kyo, oyinza okufirwa w'otuuse.
 want-to-continue = Oyagala okweyongerayo?
 finish-editing = Sooka omale by'okyuusa?
 lose-changes-warning = Okugenda kati kitegeeza nti ojja kufiirwa by'okyuusiza
-build-custom-goal = Zzimba eby'okukola
+build-custom-goal = Teekawo ky'oluubirira
 help-reach-hours-pluralized =
     Yamba okuweza{ NUMBER($hours) ->
         [one] { $hours } essaawa
@@ -764,9 +764,9 @@ help-reach-hours-pluralized =
     } mu { $language }  n'ekiruubirirwa ekikyo
 help-reach-hours-general-pluralized =
     Yamba Common Voice okuweza{ NUMBER($hours) ->
-        [one] { $hours } essaawa
-       *[other] { $hours } ssaawa
-    }  mu lulimi n'ekiruubirirwa ekikyo.
+        [one] essaawa { $hours }
+       *[other] essaawa { $hours }
+    }mu lulimi n'ekiruubirirwa ekikyo.
 set-a-goal = Teekawo ekiruubirirwa
 cant-decide = Tosobola kusalawo?
 activity-needed-calculation-plural =
