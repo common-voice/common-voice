@@ -489,6 +489,9 @@ de-identified-explanation = Það þegar tengsl prófílgagna þátttakanda við
 
 error-title-404 = Við fundum þá síðu ekki handa þér
 error-content-404 = Kannski getur <homepageLink>heimasíðan</homepageLink> okkar hjálpað? Til að spyrja spurningar, skráðu þig vinsamlegast í <matrixLink>Matrix</matrixLink> samfélagsspjallið, fylgstu með vandamálum síðunnar í gegnum <githubLink>GitHub</githubLink> eða heimsæktu <discourseLink>Discourse</discourseLink> spjallborðin.
+error-title-503 = Við erum að upplifa óvæntan niðurtíma
+error-content-503 = Öryggisafrit síðu verður tekið eins fljótt og auðið er. Fyrir nýjustu upplýsingar, skráðu þig á <matrixLink>Matrix</matrixLink> samfélagsspjallið eða heimsæktu <githubLink>GitHub</githubLink> eða <discourseLink>Discourse</discourseLink> spjallborðin okkar til að senda inn og fylgjast með vandamálatengdri upplifun af vefsíðunni.
+error-code = Villa { $code }
 
 ## Data
 
@@ -507,6 +510,7 @@ data-bundle-button = Niðurhala gagnasafnapakka
 data-bundle-description = Gögn Samróms og öll gagnasöfnin að ofan.
 license = Leyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
+data-download-singleword-title = Hlaða niður markmiðum um einstaka orðhluta
 review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
 terms-agree = Ég samþykki
 terms-disagree = Ég samþykki ekki
