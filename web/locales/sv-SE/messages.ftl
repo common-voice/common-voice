@@ -33,6 +33,7 @@ as = Assamesiska
 ast = Asturiska
 az = Azerbajdzjanska
 ba = Basjkiriska
+bas = Basaa
 be = Vitryska
 bg = Bulgariska
 bm = Bambara
