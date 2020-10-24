@@ -33,6 +33,7 @@ as = Assam
 ast = Asturias
 az = Azerbaijan
 ba = Bashkir
+bas = Basaa
 be = Belarut
 bg = Bulgaria
 bm = Bambara
