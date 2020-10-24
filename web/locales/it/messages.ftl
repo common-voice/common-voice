@@ -513,7 +513,7 @@ review-delete-recordings = Cancella le mie registrazioni
 
 ## Datasets Page
 
-datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite riconoscimento vocale.
+datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite di riconoscimento vocale.
 datasets-positioning =
     Crediamo che mettere in circolazione dataset di voci pubblici di grandi dimensioni possa promuovere innovazione e sana concorrenza commerciale tra le tecnologie di apprendimento automatico basate sul riconoscimento vocale.
     
