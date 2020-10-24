@@ -32,6 +32,7 @@ bg = Bulgaru
 bn = Bengalese
 br = Brittonu
 ca = Catalanu
+co = Corsu
 cs = Ceccu
 cy = Gallese
 da = Danese
