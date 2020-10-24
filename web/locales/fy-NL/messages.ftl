@@ -33,6 +33,7 @@ as = Assameesk
 ast = Asturysk
 az = Azerbeidzjaansk
 ba = Bashkyrsk
+bas = Basaa
 be = Wit-Russysk
 bg = Bulgaarsk
 bm = Bambara
