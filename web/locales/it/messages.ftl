@@ -33,6 +33,7 @@ as = Assamese
 ast = Asturiano
 az = Azerbaigiano
 ba = Baschiro
+bas = Basaa
 be = Bielorusso
 bg = Bulgaro
 bm = Bambara
