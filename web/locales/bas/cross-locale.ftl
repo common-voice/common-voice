@@ -1,9 +1,9 @@
 ## Languages
 
-contribute = Lisañge
+contribute = Sañge
 get-involved-button = Yoñ ñgaba
 get-involved-title = Sañge inyu hop { $basaa }
-get-involved-text = Di nti we mayéga inyu ndun u nyoñ inyu isañge kiñ yoñ ni hop { $basaa }. Nduña yés iyé le hiki hop u ba ñḱóobaga inyu lisañnge makiñ; di ga tilna bij́o bi ini yum bôlô mél. Ibale u yé le u gwés sañge kiň yoň, tila njañ i mél yoň hana i si
+get-involved-text = Di nti we mayéga inyu ndun u nyoñ inyu isañge kiñ yoñ ni hop u { $basaa }. Nduña yés iyé le hiki hop u ba ñḱóobaga inyu lisañge makiñ; di ga tilna bij́o bi ini yum i bôlô mél. Ibale u yé le u gwés sañge kiň yoň, tila njañ i mél yoň hana i si
 get-involved-form-title = Tila jôl inyu ikôhna manwin ma yum i nson u { $basaa }
 get-involved-email =
     .label = njaň i mél
