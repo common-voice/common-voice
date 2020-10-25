@@ -33,6 +33,7 @@ as = Asszámi
 ast = Asztúriai
 az = Azeri
 ba = Baskír
+bas = Basza
 be = Belorusz
 bg = Bolgár
 bm = Bambara
