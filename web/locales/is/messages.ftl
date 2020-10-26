@@ -730,6 +730,7 @@ overall-accuracy = Almenn nákvæmni
 
 ## Custom Goals
 
+lose-goal-progress-warning = Með því að breyta markmiði, geturðu tapað þeim árangri sem þú hefur þá náð.
 receiving-emails-info =
     Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
