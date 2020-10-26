@@ -12,5 +12,5 @@ get-involved-submit = Sule
 get-involved-stayintouch = Ikede jut li bôlô le Mozilla, di ñkot bôt inyu lihôlôs minsélél mi mapôdôl. Di yé le di gwés kônde ba libaba ni we, ka i ye le u lak yis bés ibale manjel ma yondo ma libulus njañgi makiñ, ma nnene, ni inyu iyi lelaa u ñgwélél  mayaa ma makiñ ma nsaňgna.
 get-involved-privacy-info = Di mbôn we le, di gatédés libim u nla saňge. U yé le u kônde kôs ndoñol ikolbaha ni <privacyLink>ñkok u matédés</privacyLink> wés
 get-involved-success-title = Hanano u yé ntilbaga. U nla sañge ni hop { $basaa }. Di nti we mayéga.
-get-involved-success-text = Di gaom we win ibale ñkén jam a yé.
+get-involved-success-text = Di gaom we nwin ibale ñkén jam a yé.
 get-involved-return-to-languages = Témb i mahop
