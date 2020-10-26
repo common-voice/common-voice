@@ -683,9 +683,13 @@ share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
 keep-track-profile = Rekja framfarir sínar með prófíl
 login-to-get-started = Innskráning eða nýskráning
 target-segment-first-card = Þú leggur af mörkum til okkar fyrstu markmiða
+target-segment-first-banner = Hjálpa til við að klára fyrsta markhluta Samróms í { $locale }
+target-segment-add-voice = Bæta rödd sinni
+target-segment-learn-more = Læra meira
 
 ## Reporting
 
+report = Tilkynna
 
 ## Goals
 
