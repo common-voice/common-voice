@@ -730,6 +730,13 @@ overall-accuracy = Almenn nákvæmni
 
 ## Custom Goals
 
+receiving-emails-info =
+    Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
+    uppfærslur um árangur minn og fréttabréf um Samróm
+not-receiving-emails-info =
+    Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
+    uppfærslur um árangur minn og fréttabréf um Samróm
+track-progress = Rekja árangur sinn hér og á tölfræðisíðu sinni.
 return-to-edit-goal = Hér má breyta markmiði sínu hvenær sem er.
 share-goal = Deila markmiði sínu
 
