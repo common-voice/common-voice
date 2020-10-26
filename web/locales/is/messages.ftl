@@ -511,6 +511,7 @@ data-bundle-description = Gögn Samróms og öll gagnasöfnin að ofan.
 license = Leyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
 data-download-singleword-title = Hlaða niður markmiðum um einstaka orðhluta
+data-download-singleword-callout = Þetta er notendastýrður hluti sem inniheldur gögn til að auka viðurkenningu talaðs tölustafs, já / nei viðurkenningu og prófunargögn fyrir vakningarorð fyrir <fxLink>Firefox Voice</fxLink>.
 review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
 terms-agree = Ég samþykki
 terms-disagree = Ég samþykki ekki
