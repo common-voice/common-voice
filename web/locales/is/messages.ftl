@@ -730,6 +730,8 @@ overall-accuracy = Almenn nákvæmni
 
 ## Custom Goals
 
+return-to-edit-goal = Hér má breyta markmiði sínu hvenær sem er.
+share-goal = Deila markmiði sínu
 
 ## Profile Delete
 
