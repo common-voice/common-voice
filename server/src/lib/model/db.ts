@@ -605,11 +605,11 @@ export default class DB {
     const localeId = locale ? await getLocaleId(locale) : null;
 
     const intervals = [
-      '100 YEAR',
-      '1 YEAR',
+      '15 MONTH',
+      '12 MONTH',
+      '9 MONTH',
       '6 MONTH',
-      '1 MONTH',
-      '1 WEEK',
+      '3 MONTH',
       '0 HOUR',
     ];
     const ranges = intervals
