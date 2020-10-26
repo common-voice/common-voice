@@ -676,8 +676,11 @@ listen-3rd-time-instruction = Tvær búnar, haltu þínu striki! <playIcon></pla
 listen-last-time-instruction = <playIcon></playIcon> Síðasta!
 listen-empty-state = Við erum uppiskroppa með upptökur til að staðfesta á þessu tungumáli...
 speak-empty-state = Við erum uppiskroppa með setningar til að taka upp á þessu máli...
+speak-empty-state-cta = Leggja til setningar
 record-button-label = Raddupptaka
 share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
+keep-track-profile = Rekja framfarir sínar með prófíl
+login-to-get-started = Innskráning eða nýskráning
 
 ## Reporting
 
