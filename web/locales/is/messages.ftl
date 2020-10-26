@@ -690,6 +690,21 @@ target-segment-learn-more = Læra meira
 ## Reporting
 
 report = Tilkynna
+report-offensive-language = Móðgandi málfar
+report-offensive-language-detail = Í setningunni er ókurteisislegt eða móðgandi málfar.
+report-grammar-or-spelling = Málfræðileg / stafsetningarvilla
+report-grammar-or-spelling-detail = Í setningunni er málfræði- eða stafsetningarvilla.
+report-different-language = Annað tungumál
+report-different-language-detail = Það er ritað á öðru tungumáli en ég er að tala.
+report-difficult-pronounce = Erfitt að bera fram
+report-difficult-pronounce-detail = Það inniheldur orð eða frasa sem er erfitt að lesa að bera fram.
+report-offensive-speech = Móðgandi málfar
+report-offensive-speech-detail = Hljóðbútur inniheldur ókurteisislegt eða móðgandi málfar.
+report-other-comment =
+    .placeholder = Athugasemd
+success = Árangur
+continue = Halda áfram
+report-success = Skýrsla samþykkt með góðum árangri
 
 ## Goals
 
