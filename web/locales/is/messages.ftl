@@ -683,9 +683,13 @@ share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
 keep-track-profile = Rekja framfarir sínar með prófíl
 login-to-get-started = Innskráning eða nýskráning
 target-segment-first-card = Þú leggur af mörkum til okkar fyrstu markmiða
+target-segment-first-banner = Hjálpa til við að klára fyrsta markhluta Samróms í { $locale }
+target-segment-add-voice = Bæta rödd sinni
+target-segment-learn-more = Læra meira
 
 ## Reporting
 
+report = Tilkynna
 
 ## Goals
 
@@ -726,6 +730,16 @@ overall-accuracy = Almenn nákvæmni
 
 ## Custom Goals
 
+lose-goal-progress-warning = Með því að breyta markmiði, geturðu tapað þeim árangri sem þú hefur þá náð.
+receiving-emails-info =
+    Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
+    uppfærslur um árangur minn og fréttabréf um Samróm
+not-receiving-emails-info =
+    Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
+    uppfærslur um árangur minn og fréttabréf um Samróm
+track-progress = Rekja árangur sinn hér og á tölfræðisíðu sinni.
+return-to-edit-goal = Hér má breyta markmiði sínu hvenær sem er.
+share-goal = Deila markmiði sínu
 
 ## Profile Delete
 
