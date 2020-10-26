@@ -40,6 +40,7 @@ bxr = Бурятӣ
 ca = Каталонӣ
 cak = Какчикелӣ
 cnh = Хаха Чинӣ
+co = Корсиканӣ
 cs = Чехӣ
 cv = Чувашӣ
 cy = Валлӣ
@@ -61,6 +62,7 @@ fr = Фаронсавӣ
 fy-NL = Фризӣ
 ga-IE = Ирландӣ
 gl = Галикӣ
+gn = Гуаранӣ
 ha = Ҳауса
 he = Яҳудӣ
 hi = Ҳиндӣ
@@ -82,7 +84,6 @@ kbd = Кабардинӣ
 kk = Қазоқӣ
 ko = Кореягӣ
 kpv = Коми-зирянӣ
-ku = Курдӣ
 kw = Корнишӣ
 ky = Қирғизӣ
 lg = Луганда
@@ -166,6 +167,8 @@ logout = Баромадан
 
 ## Home Page
 
+home-title = «Common Voice» ташуббуси Mozilla буда ба мошинҳо омӯхтани тарзи суханронии одамони воқеиро кӯмак мекунад.
+home-cta = Сухан гӯед, саҳми худро гузоред!
 show-wall-of-text = Бештар хондан
 vote-yes = Ҳа
 vote-no = Не
@@ -226,7 +229,7 @@ profile-form-additional-language =
     .label = Забони иловагӣ
 profile-form-age =
     .label = Синну сол
-profile-form-gender =
+profile-form-gender-2 =
     .label = Ҷинс
 hidden = Ноаён
 visible = Намоён
@@ -428,7 +431,9 @@ easy-difficulty = Осон
 average-difficulty = Миёна
 difficult-difficulty = Душвор
 pro-difficulty = Касбӣ
+confirm-goal = Ҳадафро тасдиқ кардан
 goal-interval-weekly = Ҳар ҳафта
+return-to-edit-goal = Барои таҳрир кардани ҳадафи худ ҳар вақт ба ин ҷо баргардед.
 
 ## Profile Delete
 
@@ -437,4 +442,5 @@ remove = Тоза кардан
 
 ## Landing
 
+welcome-staff = Кормандони { $company } хуш омадед!
 read-more-about = Дар саҳифаи «Дар бораи мо» бештар хонед

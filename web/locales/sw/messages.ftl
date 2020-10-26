@@ -23,13 +23,18 @@ not-available-abbreviation = haihitajiki
 
 ## Languages
 
+ab = Kiabkhazia
 af = Kiafrikana
 am = Kiamhara
+an = Kiaragoni
 ar = Kiarabu
+as = Kiasamisi
 ast = Kiasturia
+az = Kiazabajani
 ba = Kibashkiri
 be = Kibelarusi
 bg = Kibulgeria
+bm = Kibambara
 bn = Kibengali
 br = Kibretoni
 ca = Kikatalonia
@@ -66,7 +71,6 @@ it = Kiitaliano
 ja = Kijapani
 ka = Kijojia
 ko = Kikorea
-ku = Kikurdi
 lg = Kiganda
 lt = Kilithuania
 lv = Kilatvia
@@ -254,8 +258,6 @@ profile-form-accent =
     .label = Lafudhi
 profile-form-age =
     .label = Umri
-profile-form-gender =
-    .label = Jinsia
 leaderboard-visibility =
     .label = Mwonekano wa Ubao wa wanaoongoza
 hidden = Imefichwa
@@ -281,7 +283,6 @@ profile-close = Funga
 profile-explanation = Tumia wasifu wako kufuatilia maendelo yako ili kusaidia data ya sauti kuwa sahihi zaidi.
 thanks-for-account = Asante kwa kudhibitisha akaunti yako, sasa kuza wasifu wako.
 why-demographic = kwanini ina umuhimu?
-why-demographic-explanation = Data ya watumiaji isiyojulikana kama umri, jinsia, na lafudhi husaidia kuboresha data ya sauti inayotumiwa kufunza usahihi wa injini za utambuzi wa sauti. Jina lako la utumiaji na barua pepe hazitahusishwa na data uliowasilisha, na unaweza kuchagua ikiwa utafanya jina lako la utumiaji liwe wazi au lisilojulikana.
 accept-privacy = Nakubaliana na maelekezo ya kushughulikia data hii kama mnavyoeleza kupitia <privacyLink> Sera ya faragha ya Mozilla </privacyLink>
 accept-privacy-title = Sera ya Faragha
 login-identity = Utambulisho wa Kuingia
@@ -376,31 +377,51 @@ about-yes-votes-text = Ili kuifanya iwekwe kwenye daftari la Common Voice, kipan
 about-no-votes = ≥ 2 Kura za hapana
 about-no-votes-text = Mtumiaji akikataa kipande cha sauti hurejea kwenye foleni. Ikiwa imekataliwa mara ya pili, hicho kipande cha sauti kinahamishwa kwenye maziara ya vipande vya sauti.
 about-dataset-new = Daftari la Common Voice
+about-dataset-new-text = Daftari la Common Voice ina mamia ya maelfu ya sampuli za sauti ambazo husaidia wasanidi kuunda zana za utambuzi wa sauti.
 about-clip-graveyard = Maziara ya vipande vya sauti.
+about-clip-graveyard-text = Maziara ya vipande vya sauti vina sehemu za sauti ambazo hazikuweza kuwekwa kwenye daftari la Common Voice. Kama daftari tu, maziara ya vipande vya sauti vinapatikana kwa kupakuliwa.
 about-partners = Washiriki
 about-become-a-partner = Kuwa mshiriki
+about-partnership =
+    Common Voice ni mradi wa kushirikiana, na tunategemea jamii yetu ya washirika na wachangiaji wa kutengeneza chanzo wazi cha daftari kubwa la sauti.¶
+    ¶
+    Tungependa kuwashukuru watu na mashirika yafuatayo kwa msaada wao kwenye huu mradi:
 about-get-involved = Jihusishe
+about-get-involved-text-2 =
+    Je! Unataka kusaidia kufanya Common Voice kuwa bora zaidi?
+    Vizuri! Wasiliana kupitia barua pepe au idhaa ya <discourseLink> Discourse </discourseLink>
+    ,wasilisha maswala ya tovuti kupitia <githubLink> GitHub </githubLink>, au ujiunge na mazungumzo ya jamii ya <matrixLink> Matrix </matrixLink>.
 about-nav-why-common-voice = kwanini?
 about-nav-how-it-works = kivipi?
 about-nav-partners = Washiriki
 about-nav-get-involved = Jihusishe
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelijensia bandia
+mycroft-description =
+    Mycroft ni msaidizi wa kwanza wa chanzo wazi ulimwenguni.¶
+    Mycroft inatumika popote - kwenye tarakilishi, ndani ya gari, au kwenye Raspberry Pi.
+mycroft-secondary-description = Hii ni programu ya chanzo wazi ambayo inaweza kurekebishwa kwa uhuru na kuboreshwa. Mycroft inaweza kutumika katika kitu chochote kutoka kwa mradi wa sayansi hadi programu ya wamiliki.
 
 ## Glossary
 
 glossary = Faharasa
 localization = Ujanibishaji
+localization-explanation = Huu ni mchakato wetu wa kutafsiri na kurekebisha yaliyomo katika nyanja nyingi (lugha).
 sentence-collection = Mkusanyiko wa sentensi
 sentence-collection-explanation = Kukusanya sentensi kutoka kwa uwanja wa umma, au kuandika sentensi mpya kwa uwanja wa umma.
 hours-recorded-explanation = Idadi ya saa za kurekodi sauti ambazo tumekusanya hadi sasa.
+hours-validated-explanation = Idadi ya saa za kurekodi sauti ambazo zimehalalishwa na watumiaji 2 kati ya 3 na kura ya "Ndio". Hii ni alama ya maendeleo ya kuelekea lengo la mradi wa jumla ya saa elfu kumi.
 sst = Sauti kwa maandishi (SKM)
 sst-explanation = Teknolojia ya sauti kwa maandishi (SKM) hubadilisha data ya sauti kuwa maandishi.
+de-identified = kutodhihirisha
+de-identified-explanation = Mchakato ambao maelezo ya wasifu wa mchangiaji hufungiwa kutoka kwa vipande vyao vya sauti vilivyotolewa wakati wa kukusanywa na kupakuliwa kama sehemu ya daftari.
 
 ## Error pages
 
 error-title-404 = Hatukuweza kukupata ukurasa huo
+error-content-404 = Labda <homepageLink> ukurasa wetu wa kwanza</homepageLink> utasaidia? Ili kuuliza swali, tafadhali jiunge na <matrixLink>mazungumzo ya jamii ya Matrix</matrixLink>, fuatilia maswala ya tovuti kupitia <githubLink> GitHub </githubLink> au tembelea <discourseLink> idhaa yetu ya Discourse</discourseLink>.
 error-title-503 = Tunapata hitilafu isiyotarajiwa
+error-content-503 = Wavuti utarudishwa haraka iwezekanavyo. Kwa habari ya hivi karibuni, tafadhali jiunge na<matrixLink> mazungumzo ya jamii ya Matrix</matrixLink>  au tembelea <githubLink>GitHub</githubLink> au <discourseLink>idhaa yetu ya Discourse </discourseLink> ili kutuma na kufatilia maswala ya uzoefu wa tovuti.
 error-code = Kosa { $code }
 
 ## Data
@@ -410,16 +431,20 @@ data-download-yes = Ndio
 data-download-deny = Hapana
 data-download-license = Leseni: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Unakaribia kuanzisha upakuaji wa <size>{ $size }GB</size> , endelea?
+data-subtitle = Tunaunda daftari la data ya sauti inayopatikana wazi na kwa umma ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
+data-get-started = <speechBlogLink> Anza na Utambuzi wa sauti </speechBlogLink>
 data-other-title = Daftari zingine za sauti
 data-other-goto = Nenda kwa { $name }
 data-other-download = Pakua data
 data-bundle-button = Pakua kifurushi cha daftari
+data-bundle-description = Data ya Common Voice pamoja na hifadhisauti zingine hapo juu.
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja
 review-terms = Kwa kutumia Common Voice, unakubaliana na <termsLink>Masharti</termsLink> yetu na <privacyLink> Ilani ya Faragha</privacyLink>
 terms-agree = nakubali
 terms-disagree = Sikubali
+review-aborted = Kupakia kumekomeshwa. Je! Unataka kufuta rekodi zako?
 review-submit-title = Hakiki kisha utume
 review-submit-msg = Asante kwa kurekodi!<lineBreak></lineBreak> Sasa hakiki kisha utume hivyo vipande
 review-recording = Thibitisha
@@ -433,10 +458,14 @@ review-delete-recordings = Futa rekodi zangu
 language = lugha
 # File size in gigabytes
 size = Ukubwa
+validated-hr-total = Jumla ya saa zilizo halalishwa
+overall-hr-total = Saa kwa ujumla
 cv-license = Leseni
+audio-format = Muundo wa sauti
 number-of-voices = idadi ya sauti
 splits = Migawanyiko
 email-to-download = Weka barua pepe kupakua
+why-email = <b>Kwa nini barua pepe?</b> Tunaweza kuhitaji kuwasiliana nawe katika siku zijazo juu ya mabadiliko kwenye daftari, barua pepe inatupa uhakika.
 confirm-size = Uko tayari kuanzisha upakuaji wa <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -444,11 +473,14 @@ confirm-no-identify = <b>Unakubali</b> kutojaribu kubaini utambulisho wa wasemaj
 download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
+whats-inside = Nini kipo ndani ya daftari la Common Voice?
 want-dataset-update = Unahitaji visasisho pindi tunapotoa toleo jipya la hifadhi ya Common Voice? Jiandikishe kwa jarida letu.
 subscribe = Jiandikishe
 get-started-speech = Pata kuanza na utambulizi wa sauti
 other-datasets = Daftari zingine za sauti
 feedback-q = Una Maoni?
+go-discourse = Nenda kwenye Discourse
+missing-language = Je! Huoni lugha yako ikijitokeza kwenye daftari? Kuomba lugha, elekea kwenye ukurasa wetu wa Lugha.
 go-languages-page = Nenda kwenye kurasa za lugha
 ready-to-validate = Uko tayari kusaidia kuhalalisha sentensi?
 more = Zaidi
@@ -459,6 +491,7 @@ dataset-version = Toleo
 ## Download Modal
 
 download-title = Upakuaji umeanza
+download-helpus = Tusaidie kujenga jamii kwenye eneo la teknolojia ya sauti, tuwasiliane kupitia ujumbe wa barua pepe.
 download-form-email =
     .label = Weka barua pepe yako
     .value = Asante, tutawasiliana
@@ -513,6 +546,7 @@ clips-with-count-pluralized =
        *[other] Vipande <bold>{ $count }</bold> vya sauti
     }
 goal-help-recording = Umesaidia Common Voice kufikia <goalPercentage></goalPercentage> ya malengo yetu ya kila siku ya { $goalValue } ya kurekodi!
+goal-help-validation = Umesaidia Common Voice kufikia <goalPercentage></goalPercentage> ya lengo letu la uthibitisho la { $goalValue } la kila siku!
 contribute-more =
     { $count ->
         [one] Uko tayari kufanya { $count } zaidi?
@@ -524,11 +558,14 @@ record-no-mic-found = Hakuna kinasa sauti kilichopatikana
 record-error-too-short = Rekodi ilikua ya mda mfupi sana.
 record-error-too-long = Rekodi ilikua ya mda mrefu sana
 record-error-too-quiet = Rekodi ilikua ya kimya sana
+record-cancel = Ghairi Kurekodi tena
 record-instruction = { $actionType } <recordIcon> </recordIcon> kisha soma sentensi hiyo kwa sauti
+record-stop-instruction = { $actionType } <stopIcon> </stopIcon> ukimaliza
 record-three-more-instruction = Tatu kumaliza!
 record-again-instruction = Vizuri!<recordIcon></recordIcon>Rekodi kipande kinachofata.
 record-again-instruction2 = Jitahidi, rekodi tena <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ya mwisho!
+review-tooltip = Pitia na rekodi upya vipande vya sauti unapoendelea
 share-clip = Sambaza kipande chako cha sauti
 share-common-voice = Sambaza Common Voice
 review-instruction = Pitia na rekodi tena vipande vya sauti ikiwa inahitajika.
@@ -538,8 +575,10 @@ record-abort-title = Maliza kurekodi kwanza?
 record-abort-text = Kuondoka sasa inamaanisha utapoteza maendeleo yako
 record-abort-submit = Tuma vipande
 record-abort-continue = Maliza kurekodi
+record-abort-delete = Toka na futa vipande vya sauti
 listen-instruction = { $actionType }<playIcon></playIcon>Wameongea sentensi kwa usahihi?
 listen-again-instruction = Kazi nzuri!<playIcon></playIcon>Sikiliza tena ukiwa tayari
+listen-3rd-time-instruction = 2 tayari, endelea kujitahidi!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>ya mwisho!
 listen-empty-state = Tumeishiwa na vipande vya sauti vya kuhalalishwa kwenye hii lugha
 speak-empty-state = Tumeishiwa na sentensi za kurekodi katika lugha hii...

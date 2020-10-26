@@ -9,7 +9,6 @@ email-input =
 submit-form-action = שליחה
 loading = בטעינה…
 email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
-email-opt-in-privacy = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות<privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא זמין
 
@@ -229,7 +228,7 @@ status-contribute = תרמו את הקול שלכם
 status-hours =
     { $hours ->
         [one] שעה אחת עברה אימות עד כה!
-        [2] שעתיים עברו אימות עד כה!
+        [two] שעתיים עברו אימות עד כה!
        *[other] { $hours } שעות עברו אימות עד כה!
     }
 # Variables:
@@ -249,8 +248,6 @@ profile-form-accent =
     .label = מבטא
 profile-form-age =
     .label = גיל
-profile-form-gender =
-    .label = מגדר
 leaderboard-visibility =
     .label = הופעה בטבלת המובילים
 hidden = מוסתר
@@ -337,10 +334,8 @@ sst = דיבור־לטקסט
 sst-explanation = טכנולוגיות דיבור־לטקסט ממירות הקלטת דיבור לטקסט כתוב.
 de-identified = ניתוק זיהוי
 
-## NotFound
+## Error pages
 
-notfound-title = לא נמצא
-notfound-content = לצערי לא ברור לי מה חיפשת.
 
 ## Data
 
@@ -458,7 +453,6 @@ contribute = תרומה
 listen = האזנה
 skip = דילוג
 shortcuts = קיצורים
-clips-with-count = <bold>{ $count }</bold> מקטעים
 goal-help-recording = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד ההקלטות היומי { $goalValue }!
 goal-help-validation = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד האימות היומי { $goalValue }!
 contribute-more = להגיש לך { $count } נוספים?

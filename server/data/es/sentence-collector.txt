@@ -5047,6 +5047,7 @@ claro, claro. es que lo vuestro es
 claro, es que primero le creas ilusiones
 claro, la raya, ¿ no?
 claro que lo he visto.
+claro que si
 claro que tenemos heridas del naufragio
 claro y por eso les atacaron. buscaban algo que estaba escondido
 clavándome los ojos repetía:
@@ -5766,6 +5767,7 @@ ella no partiría
 ella no partió
 ella no predica
 ella no vive
+ella no viviere
 ella no vivirá
 ella no vivió
 ella obedeció sonriendo.
@@ -5784,6 +5786,7 @@ ella también es muy española.
 ella tiene el mismo derecho.
 ella todavía gimió:
 ella vive
+ella viviere
 ella vivirá
 ella vivió
 ellas beben
@@ -9210,6 +9213,7 @@ usted predica
 usted predicará
 usted tiene conocimientos militares, quiero que organice
 usted vive
+usted viviere
 usted ya ha elegido.
 ustedes bebían
 ustedes comen una naranja
@@ -9348,6 +9352,7 @@ vivirás
 viviré
 viviréis
 viviste
+viviéremos
 vivió
 vivo
 viví
@@ -9369,6 +9374,9 @@ vos no vivís
 vos vivís
 vos habrías vivido
 vos no habrías vivido
+vos no vivieres
+vos vivieres
+vos vivise
 vosotras bebéis
 vosotras bebíais
 vosotras comeréis
@@ -10861,6 +10869,7 @@ yo ya no puedo estar contigo.
 ¿ellos partieron?
 ¿ellos viven?
 ¿ha bebido?
+¿ha usted vivido?
 ¿ha vivido ella?
 ¿ha vivido usted?
 ¿ha vivido él?
@@ -11122,12 +11131,14 @@ yo ya no puedo estar contigo.
 él no partió
 él no predica
 él no vive
+él no viviere
 él no vivió
 él parte
 él partió
 él predica
 él predicará
 él publica un panfleto
+él viviere
 él vivirá
 él vivió
 éstas ya serán poco menos que una reliquia del pasado
