@@ -661,6 +661,7 @@ record-again-instruction2 = Þetta gengur vel, taktu upp aftur <recordIcon></rec
 record-last-instruction = <recordIcon></recordIcon> Síðasta!
 review-tooltip = Yfirfara og endurtaka upptökur hér jafnóðum
 share-clip = Deila upptöku
+share-common-voice = Deila Samrómi
 review-instruction = Yfirfara og endurtaka upptöku ef þörf krefur
 record-submit-tooltip = { $actionType } senda inn þegar hægt er
 clips-uploaded = Upptökur sendar inn
@@ -673,6 +674,8 @@ listen-instruction = { $actionType }<playIcon></playIcon> var setningin rétt le
 listen-again-instruction = Vel gert! <playIcon></playIcon> Hlustaðu aftur þegar þú ert til
 listen-3rd-time-instruction = Tvær búnar, haltu þínu striki! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Síðasta!
+listen-empty-state = Við erum uppiskroppa með upptökur til að staðfesta á þessu tungumáli...
+speak-empty-state = Við erum uppiskroppa með setningar til að taka upp á þessu máli...
 record-button-label = Raddupptaka
 share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
 
