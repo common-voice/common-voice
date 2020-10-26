@@ -690,6 +690,8 @@ target-segment-learn-more = Læra meira
 ## Reporting
 
 report = Tilkynna
+report-title = Setja inn skýrslu
+report-ask = Á hvaða vandamál er rekist í þessari setningu?
 report-offensive-language = Móðgandi málfar
 report-offensive-language-detail = Í setningunni er ókurteisislegt eða móðgandi málfar.
 report-grammar-or-spelling = Málfræðileg / stafsetningarvilla
@@ -729,11 +731,13 @@ validations =
 
 your-languages = Þín tungumál
 toward-next-goal = Að næsta markmiði
+goal-reached = Markmiði náð
 clips-you-recorded = Upptökur sem þú hefur skráð
 clips-you-validated = Upptökur sem þú hefur samþykkt
 todays-recorded-progress = Framför dagsins í að skrá gögn í Samróm
 todays-validated-progress = Framför dagsins í að samþykkja gögn í Samróm
 stats = Tölfræði
+awards = Verðlaun
 you = Þú
 everyone = Allir
 contribution-activity = Virkni þátttakenda
@@ -742,6 +746,7 @@ recorded-clips = Skráðar upptökur
 validated-clips = Staðfestar upptökur
 total-approved = Samtals samþykkt
 overall-accuracy = Almenn nákvæmni
+set-visibility = Stilla sýnanleika minn
 
 ## Custom Goals
 
