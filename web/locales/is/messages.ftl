@@ -757,7 +757,8 @@ receiving-emails-info =
 not-receiving-emails-info =
     Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
-daily-goal-created = Markmið dagsins hefur verið búið til
+weekly-goal-created = Markmið viku hefur verið sett
+daily-goal-created = Markmið dags hefur verið sett
 track-progress = Rekja árangur sinn hér og á tölfræðisíðu sinni.
 return-to-edit-goal = Hér má breyta markmiði sínu hvenær sem er.
 share-goal = Deila markmiði sínu
