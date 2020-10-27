@@ -795,6 +795,7 @@ activity-needed-calculation-plural =
         [one] { $clipsPerDay } hreyfimynd
        *[other] { $clipsPerDay } hreyfimyndir
     }á dag.
+which-goal-type = Viltu tala, hlusta eða hvort tveggja?
 receiving-emails-info =
     Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
