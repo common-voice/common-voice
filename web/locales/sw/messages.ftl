@@ -488,6 +488,8 @@ common-voice-info-new = Je! Una maswali kuhusu Common Voice? Mawazo ya maboresho
 data-other-librispeech-description = LibriSpeech ni daftari la takriban saa 1000 za 16Khz za sauti ya Kiingereza ziliyosomwa kutoka vitabu vya sauti vya mradi wa LibriVox.
 data-other-ted-name = Daftari la TED-LIUM
 data-other-ted-description = Daftari la TED-LIUM liliundawa kutoka kwa mazungumzo ya sauti na nakala zao zinapatikana kwenye wavuti wa TED.
+data-other-voxforge-description = VoxForge ilianzishwa ili kukusanya sauti zilizonukuliwa kwa matumizi ya Injini za Utambuzi wa sauti zilizo bure na wazi kwa umma.
+your-feedback = Je! Una maoni juu ya jinsi tunaweza kuboresha dafari la Common Voice? Tujulishe kwenye Discourse
 go-discourse = Nenda kwenye Discourse
 missing-language = Je! Huoni lugha yako ikijitokeza kwenye daftari? Kuomba lugha, elekea kwenye ukurasa wetu wa Lugha.
 go-languages-page = Nenda kwenye kurasa za lugha
@@ -529,6 +531,7 @@ other-language = Lugha Nyingine
 ## Languages Overview
 
 language-section-in-progress = Inaendelea
+language-section-in-progress-new-description = Lugha hizi kwa sasa ziko chini ya maendeleo ya jamii. Chati za maendeleo zinaonyesha umbali gani kila lugha iko katika mchakato wa <localizationGlossaryLink> ujanibishaji wa wavuti </localizationGlossaryLink> na <sentenceCollectionGlossaryLink> ukusanyaji wa sentensi </sentenceCollectionGlossaryLink>.
 language-section-launched = Imeanzishwa
 languages-show-more = Tazama Yaliyofichika
 languages-show-less = Punguza Yanayoonekana
