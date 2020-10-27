@@ -367,6 +367,7 @@ faq-search-for-answers =
 about-title = kwanini common voice
 about-subtitle = Common Voice ni hatua ya Mozilla ya kusaidia kufunza mashine jinsi watu wanavyozungumza. Mbali na daftari la Common Voice, pia tunaunda injini ya utambuzi wa sauti ya chanzo wazi inayoitwa Deep Speech.
 how-does-it-work-title = inafanyaje kazi
+how-does-it-work-text = Tunachangisha chanzo wazi la daftari la sauti. Toa sauti yako, halalisha usahihi wa vipande vya sauti vya watu wengine, fanya daftari liwe bora kwa kila mtu.
 about-speak = Zungumza
 about-speak-text = Wachangiaji hurekodi vipande vya sauti kwa kusoma kutoka kwa benki ya sentensi zilizotolewa.
 about-listen-queue = Foleni ya kusikiliza
@@ -458,6 +459,7 @@ review-delete-recordings = Futa rekodi zangu
 
 ## Datasets Page
 
+datasets-headline = Tunaunda chanzo wazi la hifadhidata ya sauti yenye lugha nyingi tofauti ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
 language = lugha
 # File size in gigabytes
 size = Ukubwa
