@@ -775,6 +775,10 @@ not-receiving-emails-info =
     Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
 confirm-goal = Staðfesta markmið
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Deildu hinu daglega markmiði þínu, { $count } raddsýni af { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Deildu hinu vikulega markmiði þínu, { $count } raddsýni af { $type }
 share-goal-type-speak = Talandi
 share-goal-type-listen = Hlustandi
 share-goal-type-both = Talandi og hlustandi
