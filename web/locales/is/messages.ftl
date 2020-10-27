@@ -762,13 +762,19 @@ daily-goal = Dagleg markmið
 weekly-goal = Vikuleg markmið
 easy-difficulty = Einfalt
 average-difficulty = Miðlungs
+difficult-difficulty = Erffitt
+pro-difficulty = Að atvinnu
 lose-goal-progress-warning = Með því að breyta markmiði, geturðu tapað þeim árangri sem þú hefur þá náð.
+want-to-continue = Viltu halda áfram?
+finish-editing = Ljúka ritvinnslu áður?
+lose-changes-warning = Ef hætt er að svo stöddu, þá glatast allar breytingar þínar til þessa
 receiving-emails-info =
     Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
 not-receiving-emails-info =
     Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
+confirm-goal = Staðfesta markmið
 share-goal-type-speak = Talandi
 share-goal-type-listen = Hlustandi
 share-goal-type-both = Talandi og hlustandi
