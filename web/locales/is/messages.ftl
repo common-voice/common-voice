@@ -747,10 +747,21 @@ validated-clips = Staðfestar upptökur
 total-approved = Samtals samþykkt
 overall-accuracy = Almenn nákvæmni
 set-visibility = Stilla sýnanleika minn
+visibility-explainer = Með þessari stillingu er sýnileika topplistans stjórnað. Þegar valið er að fela hann, þá birtist árangur manni einum. Það veldur að mynd, notandanafn og árangur birtast ekki topplista. Athugið að endurhlaðning topplistans tekur ~{ $minutes } mín, á meðan breytingarnar öðlast gildi.
 visibility-overlay-note = Athugið: stillingunni ‚sýnilegt‘ má breyta á <profileLink>prófílsíðunni</profileLink>
+show-ranking = Birta í hvaða sæti ég er
 
 ## Custom Goals
 
+get-started-goals = Hefjast handa við markmið
+create-custom-goal = Setja sérsniðið markmið
+goal-type = Hvers konar markmið viltu byggja upp?
+both-speak-and-listen = Hvort tveggja
+both-speak-and-listen-long = Hvort tveggja (tala og hlusta)
+daily-goal = Dagleg markmið
+weekly-goal = Vikuleg markmið
+easy-difficulty = Einfalt
+average-difficulty = Miðlungs
 lose-goal-progress-warning = Með því að breyta markmiði, geturðu tapað þeim árangri sem þú hefur þá náð.
 receiving-emails-info =
     Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
