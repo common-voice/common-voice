@@ -484,6 +484,7 @@ subscribe = Jiandikishe
 get-started-speech = Pata kuanza na utambulizi wa sauti
 other-datasets = Daftari zingine za sauti
 feedback-q = Una Maoni?
+common-voice-info-new = Je! Una maswali kuhusu Common Voice? Mawazo ya maboresho au maoni juu ya lugha maalum? Jiunge nasi kwenye idhaa yetu ya <discourseLink> Discourse </discourseLink> na utujulishe.
 go-discourse = Nenda kwenye Discourse
 missing-language = Je! Huoni lugha yako ikijitokeza kwenye daftari? Kuomba lugha, elekea kwenye ukurasa wetu wa Lugha.
 go-languages-page = Nenda kwenye kurasa za lugha
