@@ -781,6 +781,20 @@ help-reach-hours-general-pluralized =
     }á tungumáli með persónulegu markmiði
 set-a-goal = Setja sér markmið
 cant-decide = Getur þú ekki ákveðið þig?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } klukkutími
+       *[other] { $totalHours } klukkutímar
+    }eru í{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mánuði
+       *[other] { $periodMonths } mánuðum
+    }innan seilingar, þegar{ NUMBER($people) ->
+        [one] { $people } manneskja
+       *[other] { $people } manneskjur
+    }taka upp{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } upptöku
+       *[other] { $clipsPerDay } upptökur
+    }dag hvern.
 how-many-per-day = Frábært! Hversu margar upptökur á dag?
 how-many-a-week = Frábært! Hversu margar upptökur á viku?
 which-goal-type = Viltu tala, hlusta eða hvort tveggja?
