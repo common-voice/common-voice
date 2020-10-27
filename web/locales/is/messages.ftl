@@ -768,6 +768,12 @@ lose-goal-progress-warning = Með því að breyta markmiði, geturðu tapað þ
 want-to-continue = Viltu halda áfram?
 finish-editing = Ljúka ritvinnslu áður?
 lose-changes-warning = Ef hætt er að svo stöddu, þá glatast allar breytingar þínar til þessa
+build-custom-goal = Setja sér einstaklingsmiðað markmið
+help-reach-hours-pluralized =
+    Hjálpa að ná{ NUMBER($hours) ->
+        [one] { $hours } tíma
+       *[other] { $hours } tímum
+    }á { $language } með persónulegu markmiði
 receiving-emails-info =
     Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
@@ -779,7 +785,7 @@ n-clips-pluralized =
         [one] { $count } hljóðupptaka
        *[other] { $count } hljóðupptökur
     }
-help-share-goal = Hjálpið okkur að finna fleiri raddir, deilið markmiðum ykkar
+help-share-goal = Hjálpið okkur að finna fleiri raddir, deilið markmiðum ykkar með
 confirm-goal = Staðfesta markmið
 goal-interval-weekly = Vikulega
 # $type is one of share-goal-type-*
