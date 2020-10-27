@@ -781,6 +781,20 @@ help-reach-hours-general-pluralized =
     }á tungumáli með persónulegu markmiði
 set-a-goal = Setja sér markmið
 cant-decide = Getur þú ekki ákveðið þig?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } klukkustund
+       *[other] { $totalHours } klukkustundir
+    }næst á rúmum { NUMBER($periodMonths) ->
+        [one] { $periodMonths } mánuði
+       *[other] { $periodMonths } mánuðum
+    }ef { NUMBER($people) ->
+        [one] { $people } fólk
+       *[other] { $people } fólk
+    }tekur upp { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } hreyfimynd
+       *[other] { $clipsPerDay } hreyfimyndir
+    }á dag.
 receiving-emails-info =
     Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
