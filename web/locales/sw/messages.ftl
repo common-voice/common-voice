@@ -689,6 +689,7 @@ goal-interval-weekly = Kila wiki
 share-goal-type-speak = Kuongea
 share-goal-type-listen = Kusikiliza
 share-goal-type-both = Kuongea na kusikiliza
+share-goal = Sambaza lengo langu
 
 ## Profile Delete
 
