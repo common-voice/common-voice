@@ -639,11 +639,17 @@ recordings =
         [one] Rekodi
        *[other] Rekodi
     }
+validations =
+    { $count ->
+        [one] Uthibitishaji
+       *[other] Uthibitishaji
+    }
 
 ## Dashboard
 
 your-languages = Lugha zako
 toward-next-goal = Kuelekea lengo linalofuata
+goal-reached = Lengo limefikiwa
 clips-you-recorded = Vipande vya sauti ulivyo rekodi
 clips-you-validated = Vipande vya sauti ulivyohalalisha
 todays-recorded-progress = Maendeleo ya Common Voice kwenye vipande vya sauti vilivyorekodiwa leo
@@ -664,6 +670,7 @@ weekly-goal = Lengo la kila wiki
 easy-difficulty = Rahisi
 average-difficulty = Wastani
 difficult-difficulty = Ngumu
+pro-difficulty = Pro
 want-to-continue = Unataka kuendelea?
 finish-editing = Maaliza kuhariri kwanza?
 set-a-goal = Weka lengo
