@@ -332,6 +332,7 @@ faq-why-important-q = kwanini hii ni ya umuhimu?
 faq-how-get-q = Ninawezaje kupata data ya Common Voice?
 faq-how-get-a = Daftari la Common Voice linapatikana kwa kupakuliwa chini ya leseni ya <licenseLink> CC0 </licenseLink> kwenye <datasetLink> ukurasa wetu wa Takwimu</datasetLink>. Unaweza pia kupakua daftari kadhaa zinazopatikana kwa umma kutoka ukurasa huo huo.
 faq-when-release2-q = Ni lini data ya Common Voice itatolewa katika lugha zingine?
+faq-when-release2-a = Toleo la lugha nyingi tofauti la daftari la Common Voice kwa sasa linaendelea kukusanywa na kusafishwa na jamii inayoisaidia. Ikiwa ungetaka kutusaidia kuleta Common Voice kwa lugha mpya, nenda uangalie <sentenceCollectorLink> Zana ya Kukusanya Sentensi </sentenceCollectorLink> kwa kuongeza sentensi mpya kwenye daftari, na Mozilla <pontoonLink> Pontoon </pontoonLink> kwa kutafsiri tovuti yenyewe. Lugha mpya zinaongezwa kwa Common Voice kwa mchango wa sauti wakati sentensi 5000 zilizoidhinishwa zimekusanywa.
 faq-why-mission-q = Kwa nini Common Voice ni sehemu ya misheni ya Mozilla?
 faq-what-cv-and-deepspeech-q = Je! Ni tofauti gani kati ya Common Voice na Deep Speech?
 faq-is-goal-assistant-q = Je! Lengo la Common Voice ni kuunda msaidizi wa sauti?
