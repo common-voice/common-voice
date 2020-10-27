@@ -774,7 +774,14 @@ receiving-emails-info =
 not-receiving-emails-info =
     Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } hljóðupptaka
+       *[other] { $count } hljóðupptökur
+    }
+help-share-goal = Hjálpið okkur að finna fleiri raddir, deilið markmiðum ykkar
 confirm-goal = Staðfesta markmið
+goal-interval-weekly = Vikulega
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Deildu hinu daglega markmiði þínu, { $count } raddsýni af { $type }
 # $type is one of share-goal-type-*
