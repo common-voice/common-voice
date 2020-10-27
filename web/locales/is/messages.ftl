@@ -747,6 +747,7 @@ validated-clips = Staðfestar upptökur
 total-approved = Samtals samþykkt
 overall-accuracy = Almenn nákvæmni
 set-visibility = Stilla sýnanleika minn
+visibility-overlay-note = Athugið: stillingunni ‚sýnilegt‘ má breyta á <profileLink>prófílsíðunni</profileLink>
 
 ## Custom Goals
 
@@ -757,6 +758,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
+share-goal-type-speak = Talandi
+share-goal-type-listen = Hlustandi
+share-goal-type-both = Talandi og hlustandi
+# LINK will be replaced with the current URL
+goal-share-text = Ég var að setja mér það persónulega markmið að gefa #CommonVoice raddsýni mitt -- Sláist í för með mér og hjálpið að kenna vélum, hvernig hin almenna manneskja talar { $link }
 weekly-goal-created = Markmið viku hefur verið sett
 daily-goal-created = Markmið dags hefur verið sett
 track-progress = Rekja árangur sinn hér og á tölfræðisíðu sinni.
