@@ -774,6 +774,13 @@ help-reach-hours-pluralized =
         [one] { $hours } tíma
        *[other] { $hours } tímum
     }á { $language } með persónulegu markmiði
+help-reach-hours-general-pluralized =
+    Hjálpa Samrómi ná{ NUMBER($hours) ->
+        [one] { $hours } tíma
+       *[other] { $hours } tímum
+    }á tungumáli með persónulegu markmiði
+set-a-goal = Setja sér markmið
+cant-decide = Getur þú ekki ákveðið þig?
 receiving-emails-info =
     Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
     uppfærslur um árangur minn og fréttabréf um Samróm
