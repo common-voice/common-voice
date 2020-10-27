@@ -565,6 +565,8 @@ contribute-more =
        *[other] Uko tayari kufanya { $count } zaidi?
     }
 record-cta = anza kurekodi
+record-platform-not-supported-desktop = Kwenye vifaa vya tarakilishi unaweza kuchangia kwa kupakua…
+record-platform-not-supported-ios-non-safari = Kwenye iOS tafadhali endelea na jukwaa la Safari ili kuwezesha kurekodi…
 record-must-allow-microphone = Lazima uruhusu kinasa sauti kutumiwa
 record-no-mic-found = Hakuna kinasa sauti kilichopatikana
 record-error-too-short = Rekodi ilikua ya mda mfupi sana.
@@ -609,15 +611,21 @@ target-segment-learn-more = Jifunze zaidi
 report = Ripoti
 report-title = Wasilisha ripoti
 report-ask = Unakutana na shida gani kwenye hii sentensi?
+report-offensive-language = Lugha ya makuruhi
+report-offensive-language-detail = Sentensi hiyo ina dharau au lugha ya makuruhi.
 report-grammar-or-spelling = Kosa la kisarufi / tahajia
 report-grammar-or-spelling-detail = Sentensi hiyo ina kosa la kisarufi au tahajia.
 report-different-language = Lugha tofauti
 report-different-language-detail = Imeandikwa kwa lugha ambayo ni tofauti na ninayoongea.
 report-difficult-pronounce = Vigumu kutamka
 report-difficult-pronounce-detail = Inayo maneno au misemo ambayo ni magumu kusoma au kutamka.
+report-offensive-speech = Lugha ya makuruhi
+report-offensive-speech-detail = Sehemu ya sauti ina lugha ya dharau au ya makuruhi
 report-other-comment =
     .placeholder = Toa maoni
+success = Imefanikiwa
 continue = Endelea
+report-success = Ripoti ilipitishwa kwa mafanikio
 
 ## Goals
 
