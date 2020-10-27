@@ -795,6 +795,8 @@ activity-needed-calculation-plural =
         [one] { $clipsPerDay } hreyfimynd
        *[other] { $clipsPerDay } hreyfimyndir
     }á dag.
+how-many-per-day = Frábært! Hversu margar upptökur á dag?
+how-many-a-week = Frábært! Hversu margar upptökur á viku?
 which-goal-type = Viltu tala, hlusta eða hvort tveggja?
 receiving-emails-info =
     Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
