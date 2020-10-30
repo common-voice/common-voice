@@ -683,6 +683,7 @@ share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
 keep-track-profile = Kövesse nyomon az előrehaladását egy profil segítségével
 login-to-get-started = A kezdéshez jelentkezzen be vagy regisztráljon
 target-segment-first-card = Közreműködik az első célszegmensünkben
+target-segment-generic-card = Közreműködik egy célszegmensben
 target-segment-first-banner = Segítsen a Common Voice első { $locale } célszegmensének létrehozásában
 target-segment-add-voice = Adja a hangját
 target-segment-learn-more = További tudnivalók
