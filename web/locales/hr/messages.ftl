@@ -83,7 +83,6 @@ kbd = Kabardinski
 kk = Kazački
 ko = Korejski
 kpv = Komi-Zyrian
-ku = Kurdski
 kw = Kornski
 ky = Kirgiski
 lg = Lugandski
@@ -162,7 +161,7 @@ terms = Uvjeti
 cookies = Kolačići
 faq = Često postavljena pitanja
 content-license-text = Sadržaj dostupan pod licencom <licenseLink> Creative Commons </licenseLink>
-share-title = Pomozi nam pronaći donatore glasa.
+share-title = Pomogni nam pronaći donatore glasa.
 share-text = Pomogni učiti strojeve govoriti ljudskim jezikom, doniraj svoj glas na { $link }
 link-copied = Poveznica je kopirana
 back-top = Povratak na vrh
@@ -200,14 +199,14 @@ toggle-play-tooltip = Pritisni { shortcut-play-toggle } za prelazak u modus repr
 speak-subtitle = Doniraj svoj glas
 speak-paragraph = Snimanje govornih isječaka sastavni je dio izgradnje našeg otvorenog skupa podataka; neki bi rekli da je to i zabavni dio.
 speak-goal-text = Snimljeno isječaka
-listen-subtitle = Pomozi nam potvrditi glasove
-listen-paragraph = Provjeravanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušajte i pomozite nam stvoriti kvalitetne govorne podatke otvorenog koda.
+listen-subtitle = Pomogni nam potvrditi glasove
+listen-paragraph = Provjeravanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušaj i pomogni stvoriti kvalitetne govorne podatke otvorenog koda.
 listen-goal-text = Potvrđeno isječaka
 hours-recorded = Snimljenih sati
 hours-validated = Potvrđenih sati
 voices-online = Trenutačni glasovi
 todays-progress = Današnji napredak
-help-reach-goal = Pomozite nam doći do { $goal }
+help-reach-goal = Pomogni nam doseći cilj od { $goal }
 read-terms-q = Jeste li pročitali naše Uvjete?
 ready-to-record = Jeste li spremni donirati svoj glas?
 all-locales = Sve
@@ -251,7 +250,6 @@ whats-public = Što je javno?
 email-not-public = Tvoju e-mail adresu nećemo javno objavljivati.
 recordings-and-locale-public = Broj snimaka i jezika kojima doprinosiš, bit će javni.
 username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime ili ne.
-demographic-deidentified-clarity = Opcionalno poslani demografski podaci (kao što su dob, spol, jezik i naglasak) nikada neće biti objavljeni na tvom profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedine audio snimke bit će povezane s demografskim podacima radi točnije analize – na primjer, istraživač će možda željeti usmjeriti model treninga na određeni demografski segment.
 username-email-not-demographic = Tvoje korisničko ime i e-mail adresa neće biti povezani s objavljenim podacima.
 
 ## Speak & Listen Shortcuts
@@ -310,8 +308,6 @@ profile-form-accent =
     .label = Narječje/Naglasak
 profile-form-age =
     .label = Dob
-profile-form-gender =
-    .label = Spol
 leaderboard-visibility =
     .label = Vidljivost na ljestvici
 hidden = Skriveno
@@ -337,7 +333,6 @@ profile-close = Zatvori
 profile-explanation = Prati svoj napredak pomoću profila i pomogni ispravljati naše glasovne podatke.
 thanks-for-account = Zahvaljujemo što ste potvrdili svoj račun, a sada kreirajmo vaš profil.
 why-demographic = Zašto je to važno?
-why-demographic-explanation = Anonimni podaci korisnika poput dobi, spola i narječja, pomažu poboljšati audio podatke koji se koriste za točnost učenja programa za prepoznavanje govora. Tvoje korisničko ime i e-mail adresa nikada neće biti povezani s tvojim poslanim podacima. Uz to možeš odabrati, želiš li objaviti svoje korisničko ime ili ne.
 accept-privacy = Slažem se s načinom upotrebe ovih podataka kao što je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>
 accept-privacy-title = Politika privatnosti
 login-identity = Identitet prijave
@@ -594,7 +589,7 @@ dataset-version = Verzija
 ## Download Modal
 
 download-title = Preuzimanje je započelo.
-download-helpus = Pomozi nam izgraditi zajednicu za glasovne tehnologije, ostani u kontaktu putem e-maila.
+download-helpus = Pomogni nam izgraditi zajednicu za glasovne tehnologije, ostani u kontaktu putem e-maila.
 download-form-email =
     .label = Upiši svoju e-adresu
     .value = Hvala, javit ćemo se.
@@ -694,7 +689,7 @@ listen-empty-state = Ponestalo nam je isječaka za potvrdu na ovom jeziku...
 speak-empty-state = Ponestalo nam je rečenica za snimanje na ovom jeziku...
 speak-empty-state-cta = Predložite rečenice
 record-button-label = Snimite svoj glas
-share-title-new = <bold>Pomozite nam</bold> pronaći više glasova
+share-title-new = <bold>Pomogni nam</bold> pronaći još glasova
 keep-track-profile = Prati svoj napredak pomoću profila
 login-to-get-started = Za početak se prijavi ili registriraj
 target-segment-first-card = Doprinosiš našem prvom segmentu cilja
@@ -833,7 +828,7 @@ n-clips-pluralized =
         [few] { $count } isječka
        *[other] { $count } isječaka
     }
-help-share-goal = Pomozi nam pronaći više glasova, podijeli svoj cilj
+help-share-goal = Pomogni nam pronaći još glasova, podijeli svoj cilj
 confirm-goal = Potvrdi cilj
 goal-interval-weekly = Tjedno
 # $type is one of share-goal-type-*
