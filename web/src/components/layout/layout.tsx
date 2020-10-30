@@ -285,13 +285,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {featureStorageKey &&
-          localStorage.getItem(featureStorageKey) !== 'true' && (
-            <SegmentBanner
-              locale={locale}
-              featureStorageKey={featureStorageKey}
-            />
-          )}
         <header className={hasScrolled ? 'active' : ''}>
           <div>
             <Logo />

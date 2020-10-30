@@ -5244,6 +5244,7 @@ Ce n'est pas le mien.
 Ce n'est pas mon truc.
 Ce n'est pas plus mal, puisque nous pouvons faire ce que nous voulons.
 Ce n'est pas possible !
+Ce n'est pas possible d'être aussi borné.
 Ce n'est pas que je n'aime pas le style de son intérieur.
 Ce n'est pas que notre plan n'a pas marché.
 Ce n'est pas sérieux, n'est-ce pas ?
@@ -13205,6 +13206,7 @@ Dis-moi sur ta médaille, si oui ou non
 Dis-moi ton programme.
 Dis-moi tout de suite que je ne fais pas mon devoir.
 Dis-moi, c'est quoi ta pointure ?
+Dis-moi, tu en penses quoi ?
 Dis-toi que c'est un conte.
 Dis-toi que c’est un conte.
 Dis-toi tout cela pour te calmer.
@@ -29442,6 +29444,7 @@ Je l’ouvris et je redescendis au salon.
 Je m'absente deux minutes, je reviens.
 Je m'amuse comme une autre au théâtre.
 Je m'amuse à déplacer ces pensées en moi.
+Je m'appelle
 Je m'appelle Félicie, et vous ?
 Je m'en charge
 Je m'en félicite, vous ne deviez pas nous quitter.
@@ -34060,6 +34063,7 @@ L'innocent ! Il a attendu son dernier jour pour se déclarer.
 L'installation du logiciel est planifiée pour quatorze heures.
 L'instinct du peuple soupçonne la vanité de tels efforts.
 L'intendance ne trouve pas mes pots-de-vin assez forts.
+L'intrication quantique est un phénomène observé en physique quantique.
 L'ivrogne époussetait la chenille cramoisie de son casque étincelant.
 L'obéissance était due au chef de famille, au père, non à la mère.
 L'occasion ne s'en est pas présentée jusqu'ici.
@@ -34102,6 +34106,7 @@ L'émotion poignait le cœur d'Omer.
 L'épouvantable miracle affola les paysans.
 L'épouvante entrechoquait ses genoux.
 L'équipage partit au grand trot des alezans nerveux.
+L'équivalent en anglais d'intrication quantique est quantum entanglement.
 L'éruption a commencé à baisser de manière significative
 L'éruption en cours et visible depuis la ville
 L'éruption est imminente
@@ -56255,6 +56260,7 @@ Qu'est-ce qu'il y a ?
 Qu'est-ce qu'il y a encore ?
 Qu'est-ce qu'il y a sur ce fauteuil ?
 Qu'est-ce qu'ils font ?
+Qu'est-ce qu'ils veulent donc, à la fin ?
 Qu'est-ce qu'on aurait pensé ?
 Qu'est-ce que c'est ?
 Qu'est-ce que c'est encore que ça ?

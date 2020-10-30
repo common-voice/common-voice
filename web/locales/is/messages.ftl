@@ -683,9 +683,30 @@ share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
 keep-track-profile = Rekja framfarir sínar með prófíl
 login-to-get-started = Innskráning eða nýskráning
 target-segment-first-card = Þú leggur af mörkum til okkar fyrstu markmiða
+target-segment-first-banner = Hjálpa til við að klára fyrsta markhluta Samróms í { $locale }
+target-segment-add-voice = Bæta rödd sinni
+target-segment-learn-more = Læra meira
 
 ## Reporting
 
+report = Tilkynna
+report-title = Setja inn skýrslu
+report-ask = Á hvaða vandamál er rekist í þessari setningu?
+report-offensive-language = Móðgandi málfar
+report-offensive-language-detail = Í setningunni er ókurteisislegt eða móðgandi málfar.
+report-grammar-or-spelling = Málfræðileg / stafsetningarvilla
+report-grammar-or-spelling-detail = Í setningunni er málfræði- eða stafsetningarvilla.
+report-different-language = Annað tungumál
+report-different-language-detail = Það er ritað á öðru tungumáli en ég er að tala.
+report-difficult-pronounce = Erfitt að bera fram
+report-difficult-pronounce-detail = Það inniheldur orð eða frasa sem er erfitt að lesa að bera fram.
+report-offensive-speech = Móðgandi málfar
+report-offensive-speech-detail = Hljóðbútur inniheldur ókurteisislegt eða móðgandi málfar.
+report-other-comment =
+    .placeholder = Athugasemd
+success = Árangur
+continue = Halda áfram
+report-success = Skýrsla samþykkt með góðum árangri
 
 ## Goals
 
@@ -710,11 +731,13 @@ validations =
 
 your-languages = Þín tungumál
 toward-next-goal = Að næsta markmiði
+goal-reached = Markmiði náð
 clips-you-recorded = Upptökur sem þú hefur skráð
 clips-you-validated = Upptökur sem þú hefur samþykkt
 todays-recorded-progress = Framför dagsins í að skrá gögn í Samróm
 todays-validated-progress = Framför dagsins í að samþykkja gögn í Samróm
 stats = Tölfræði
+awards = Verðlaun
 you = Þú
 everyone = Allir
 contribution-activity = Virkni þátttakenda
@@ -723,9 +746,86 @@ recorded-clips = Skráðar upptökur
 validated-clips = Staðfestar upptökur
 total-approved = Samtals samþykkt
 overall-accuracy = Almenn nákvæmni
+set-visibility = Stilla sýnanleika minn
+visibility-explainer = Með þessari stillingu er sýnileika topplistans stjórnað. Þegar valið er að fela hann, þá birtist árangur manni einum. Það veldur að mynd, notandanafn og árangur birtast ekki topplista. Athugið að endurhlaðning topplistans tekur ~{ $minutes } mín, á meðan breytingarnar öðlast gildi.
+visibility-overlay-note = Athugið: stillingunni ‚sýnilegt‘ má breyta á <profileLink>prófílsíðunni</profileLink>
+show-ranking = Birta í hvaða sæti ég er
 
 ## Custom Goals
 
+get-started-goals = Hefjast handa við markmið
+create-custom-goal = Setja sérsniðið markmið
+goal-type = Hvers konar markmið viltu byggja upp?
+both-speak-and-listen = Hvort tveggja
+both-speak-and-listen-long = Hvort tveggja (tala og hlusta)
+daily-goal = Dagleg markmið
+weekly-goal = Vikuleg markmið
+easy-difficulty = Einfalt
+average-difficulty = Miðlungs
+difficult-difficulty = Erffitt
+pro-difficulty = Að atvinnu
+lose-goal-progress-warning = Með því að breyta markmiði, geturðu tapað þeim árangri sem þú hefur þá náð.
+want-to-continue = Viltu halda áfram?
+finish-editing = Ljúka ritvinnslu áður?
+lose-changes-warning = Ef hætt er að svo stöddu, þá glatast allar breytingar þínar til þessa
+build-custom-goal = Setja sér einstaklingsmiðað markmið
+help-reach-hours-pluralized =
+    Hjálpa að ná{ NUMBER($hours) ->
+        [one] { $hours } tíma
+       *[other] { $hours } tímum
+    }á { $language } með persónulegu markmiði
+help-reach-hours-general-pluralized =
+    Hjálpa Samrómi ná{ NUMBER($hours) ->
+        [one] { $hours } tíma
+       *[other] { $hours } tímum
+    }á tungumáli með persónulegu markmiði
+set-a-goal = Setja sér markmið
+cant-decide = Getur þú ekki ákveðið þig?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } klukkutími
+       *[other] { $totalHours } klukkutímar
+    }eru í{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mánuði
+       *[other] { $periodMonths } mánuðum
+    }innan seilingar, þegar{ NUMBER($people) ->
+        [one] { $people } manneskja
+       *[other] { $people } manneskjur
+    }taka upp{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } upptöku
+       *[other] { $clipsPerDay } upptökur
+    }dag hvern.
+how-many-per-day = Frábært! Hversu margar upptökur á dag?
+how-many-a-week = Frábært! Hversu margar upptökur á viku?
+which-goal-type = Viltu tala, hlusta eða hvort tveggja?
+receiving-emails-info =
+    Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
+    uppfærslur um árangur minn og fréttabréf um Samróm
+not-receiving-emails-info =
+    Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
+    uppfærslur um árangur minn og fréttabréf um Samróm
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } hljóðupptaka
+       *[other] { $count } hljóðupptökur
+    }
+help-share-goal = Hjálpið okkur að finna fleiri raddir, deilið markmiðum ykkar með
+confirm-goal = Staðfesta markmið
+goal-interval-weekly = Vikulega
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Deildu hinu daglega markmiði þínu, { $count } raddsýni af { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Deildu hinu vikulega markmiði þínu, { $count } raddsýni af { $type }
+share-goal-type-speak = Talandi
+share-goal-type-listen = Hlustandi
+share-goal-type-both = Talandi og hlustandi
+# LINK will be replaced with the current URL
+goal-share-text = Ég var að setja mér það persónulega markmið að gefa #CommonVoice raddsýni mitt -- Sláist í för með mér og hjálpið að kenna vélum, hvernig hin almenna manneskja talar { $link }
+weekly-goal-created = Markmið viku hefur verið sett
+daily-goal-created = Markmið dags hefur verið sett
+track-progress = Rekja árangur sinn hér og á tölfræðisíðu sinni.
+return-to-edit-goal = Hér má breyta markmiði sínu hvenær sem er.
+share-goal = Deila markmiði sínu
 
 ## Profile Delete
 
