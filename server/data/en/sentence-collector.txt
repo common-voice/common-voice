@@ -30751,6 +30751,7 @@ The algorithm ate my homework.
 The alien was a rather fetching aquamarine colour.
 The alleged perpetrator refuted the claims as false.
 The alpha version has been released, the beta version is expected next year.
+The amateur radio operator learned Morse Code.
 The ambulance is on its way.
 The amortization report runs daily.
 The amount of rain has decreased this year.
@@ -31387,6 +31388,7 @@ The delay won't hurt now.
 The delusion did not last long.
 The democratization of artificial intelligence.
 The demonstration turned violent, and ended in a huge punch-up
+The deodorant fell into the toilet.
 The deputy stepped in on behalf of his principal.
 The desiccated loaf remained swathed up in the scullery.
 The design of this map is awful.
@@ -32079,6 +32081,7 @@ The kitchen was very small and irregular.
 The kitten was a mischievous little thing.
 The kitten was lonely after being separated from its mother.
 The kittens have grown up into very good rat-catchers.
+The kitty is deeply asleep.
 The kiwi is a flightless bird of New Zealand.
 The knife crumpled up and hurt him; he put his finger in his mouth.
 The knots had been cunningly tied.
@@ -36453,6 +36456,7 @@ To beard a magistrate in his stronghold, and on the Sabbath, too!
 To become a Guppy is the object of his ambition.
 To become better at what you know.
 To begin with the rule will be easy.
+To calculate the eigenvalue of the matrix, find the determinate of the matrix.
 To change gears you need to use the gear-lever
 To come to the point: let's talk money.
 To come up to it!
