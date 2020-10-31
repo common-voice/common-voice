@@ -74,11 +74,8 @@
 
             @media (--md-up) {
                 flex-direction: column;
-                margin: 0 auto;
+                margin: 0;
                 width: auto;
-                max-width: var(--wide-desktop-width);
-                position: absolute;
-                right: 0;
             }
 
             svg {
