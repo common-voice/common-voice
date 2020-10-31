@@ -684,6 +684,7 @@ share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περ�
 keep-track-profile = Παρακολουθήστε την πρόοδό σας με ένα προφίλ
 login-to-get-started = Συνδεθείτε ή εγγραφείτε για να ξεκινήσετε
 target-segment-first-card = Συνεισφέρετε στο πρώτο τμήμα του στόχου μας
+target-segment-generic-card = Συνεισφέρετε σε τμήμα στόχου
 target-segment-first-banner = Βοηθήστε στη δημιουργία του πρώτου τμήματος του στόχου του Common Voice στα { $locale }
 target-segment-add-voice = Προσθέστε τη φωνή σας
 target-segment-learn-more = Μάθετε περισσότερα
