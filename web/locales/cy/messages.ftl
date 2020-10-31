@@ -701,6 +701,7 @@ share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil
 login-to-get-started = Mewngofnodiwch neu gofrestru i ddechrau arni
 target-segment-first-card = Rydych yn cyfrannu tuag at ein segment targed cyntaf
+target-segment-generic-card = Rydych yn cyfrannu at segment targed
 target-segment-first-banner = Helpwch i greu segment targed cyntaf Common Voice yn { $locale }
 target-segment-add-voice = Ychwanegwch Eich Llais
 target-segment-learn-more = Dysgu Rhagor
