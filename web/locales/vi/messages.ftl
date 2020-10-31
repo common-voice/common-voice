@@ -678,6 +678,7 @@ share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
 keep-track-profile = Theo dõi tiến trình của bạn với một hồ sơ
 login-to-get-started = Đăng nhập hoặc đăng ký để bắt đầu
 target-segment-first-card = Bạn đang đóng góp cho phân đoạn mục tiêu đầu tiên của chúng tôi
+target-segment-generic-card = Bạn đang đóng góp cho một phân đoạn mục tiêu
 target-segment-first-banner = Giúp tạo phân đoạn mục tiêu đầu tiên của Common Voice trong { $locale }
 target-segment-add-voice = Thêm giọng nói của bạn
 target-segment-learn-more = Tìm hiểu thêm
