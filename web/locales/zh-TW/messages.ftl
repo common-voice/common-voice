@@ -676,6 +676,7 @@ share-title-new = <bold>請幫助我們</bold>找到更多聲音
 keep-track-profile = 註冊帳號來追蹤個人貢獻進度
 login-to-get-started = 請登入或註冊，即可開始使用
 target-segment-first-card = 您正在朝我們的第一組目標段落數貢獻錄音
+target-segment-generic-card = 您正在朝目標段落數貢獻錄音
 target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一組目標段落數
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
