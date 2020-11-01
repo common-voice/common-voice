@@ -149,6 +149,45 @@ en =
 eo =
     Espéranto
     Esperanto
+es =
+    Paña
+    Pànya
+et =
+    Estonia
+    Estonia
+eu =
+    Baskia
+    Baskia
+fa =
+    Persia
+    Persia
+ff =
+    Fulbé
+    Fulbe
+fi =
+    Finland
+    Finland
+fo =
+    Farosia
+    Farosia
+fr =
+    Pulasi
+    Pùlàsi
+fy-NL =
+    Frisia
+    Frisia
+ga-IE =
+    Irland
+    Irland
+gl =
+    Galicia
+    Galicia
+gn =
+    Gwarinia
+    Gwarinia
+ha =
+    Hausa
+    Hausa
 
 # [/]
 
