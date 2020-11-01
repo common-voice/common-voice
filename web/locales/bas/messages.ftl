@@ -188,6 +188,18 @@ gn =
 ha =
     Hausa
     Hausa
+he =
+    Hebreu
+    Hebreu
+hi =
+    India
+    India
+hr =
+    Croatia
+    Croatia
+hsb =
+    Sorbia i Ño Mbok
+    Sorbia ì Ŋɔ Mbɔk
 
 # [/]
 
