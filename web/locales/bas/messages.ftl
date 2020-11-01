@@ -200,6 +200,9 @@ hr =
 hsb =
     Sorbia i Ño Mbok
     Sorbia ì Ŋɔ Mbɔk
+hu =
+    Hongaria
+    Hɔngaria
 
 # [/]
 
