@@ -140,6 +140,15 @@ dsb =
 dv =
     Divehia
     Divehia
+el =
+    Grekia
+    Grekia
+en =
+    Nginsi
+    Ŋgìsì
+eo =
+    Espéranto
+    Esperanto
 
 # [/]
 
