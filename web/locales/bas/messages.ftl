@@ -31,6 +31,15 @@ email-opt-in-info-title =
 email-opt-in-info-sub-with-challenge =
     Kôhna bimél kiki bo pémsan ni mbigda makak ma nson, mahol ma nson, ni manwin ikolbaha ni Common Voice.
     Kòhna bìmêl kìkǐ ɓɔ̀ pèmsan nì mbìgdà màkàk ma ńsɔn, màhɔ̂l ma ńsɔn, nì màŋwìn ìkɔ̀lɓàhà nì Common Voice.
+email-opt-in-privacy-v2 =
+    Intel u ngéda u nneebe kôs bimél, wee u nneebe le Mozilla a bôñôl unu nwin kiki ka ngéda biniigana bi <privacyLink>nkok u matédés</privacyLink> u Mozilla.
+    Intɛ̄l u ŋgedà ù ǹnɛɛbɛ kôs bimêl, wɛ̀ɛ ù ǹnɛɛbɛ lɛ Mozilla a ɓōŋol unu ŋwin kikǐ kà ŋgèdà bìniigana bi <privacyLink>ŋ́kɔ̀k u matedês</privacyLink> u Mozilla.
+indicates-required =
+    Nit mapoga ma mbéda.
+    Nǐt māpɔga ma ḿɓèdà.
+not-available-abbreviation =
+    Yemel
+    Yɛ̀mɛl
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -38,6 +47,99 @@ email-opt-in-info-sub-with-challenge =
 
 ## Languages
 
+ab =
+    Abkazia
+    Abkazia
+ace =
+    Acehnesia
+    Acehnesia
+ady =
+    Adyghia
+    Adyghia
+af =
+    Afrikaans
+    Afrikaans
+am =
+    Amharic
+    Amharic
+an =
+    Aragonesia
+    Aragonesia
+ar =
+    Arabia
+    Arabia
+arn =
+    Mapudungun
+    Mapudungun
+as =
+    Assamesia
+    Assamesia
+ast =
+    Asturia
+    Asturia
+az =
+    Azerbajania
+    Azerbajania
+ba =
+    Bashikiria
+    Bashikiria
+bas =
+    Basaa
+    Ɓàsàa
+be =
+    Belarusia
+    Belarusia
+bg =
+    Bulgaria
+    Bulgaria
+bm =
+    Bambara
+    Bambara
+bn =
+    Bengalia
+    Bengalia
+br =
+    Bretonia
+    Bretonia
+bxr =
+    Buryati
+    Buryati
+ca =
+    Catalania
+    Catalania
+cak =
+    Kaqchikelia
+    Kaqchikelia
+ckb =
+    Kurdishia i Nnem Mbok
+    Kurdishia ì Ǹnɛm Mbɔk
+cnh =
+    Hakka Chinia
+    Hakka Chinia
+co =
+    Corsia
+    Corsia
+cs =
+    Tjekia
+    Tjekia
+cv =
+    Tjuvasia
+    Tjuvasia
+cy =
+    Seltia
+    Seltia
+da =
+    Danisia
+    Danisia
+de =
+    Jaman
+    Jaman
+dsb =
+    Sorbia i Kéndi Mbok
+    Sorbia ì Kéndî Mbɔ̄k
+dv =
+    Divehia
+    Divehia
 
 # [/]
 
