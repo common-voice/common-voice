@@ -9,6 +9,7 @@ email-input =
 submit-form-action = שליחה
 loading = בטעינה…
 email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
+email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common Voice
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא זמין
 
