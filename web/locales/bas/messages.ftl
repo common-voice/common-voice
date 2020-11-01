@@ -25,6 +25,12 @@ loading =
 email-opt-in-info =
     Me yé le me bana ngôñ i kôhna bimél bi mbigda me makak ma nson, mahol ma nson ni manwin ikolbaha ni Common Voice.
     Mɛ̀ ye lɛ mɛ̀ ɓanā ŋgôŋ i kòhnà bìmêl bi ḿɓìgda mɛ̂ màkàk ma ńsɔn, màhɔ̂l ma ńsɔn nì màŋwìn ìkɔ̀lɓàhà nì Common Voice.
+email-opt-in-info-title =
+    Jôp i yuyut i manwin i Common Voice
+    Jǒp i jùjût i maŋwìn i Common Voice.
+email-opt-in-info-sub-with-challenge =
+    Kôhna bimél kiki bo pémsan ni mbigda makak ma nson, mahol ma nson, ni manwin ikolbaha ni Common Voice.
+    Kòhna bìmêl kìkǐ ɓɔ̀ pèmsan nì mbìgdà màkàk ma ńsɔn, màhɔ̂l ma ńsɔn, nì màŋwìn ìkɔ̀lɓàhà nì Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
