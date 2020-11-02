@@ -233,6 +233,30 @@ ka =
 kaa =
     Karakalpakia
     Karakalpakia
+kab =
+    Kabilia
+    Kabilia
+kbd =
+    Kabardia
+    Kabardia
+kk =
+    Kazakia
+    Kazakia
+kmr =
+    Kurdia i Kurmanjia
+    Kurdia ì Kurmandia
+ko =
+    Korea
+    Korea
+kpv =
+    Komi-Zyria
+    Komi-Zyria
+kw =
+    Cornisia
+    Cornisia
+ky =
+    Kirgizia
+    Kirgizia
 
 # [/]
 
