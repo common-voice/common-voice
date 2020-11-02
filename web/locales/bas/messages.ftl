@@ -206,6 +206,33 @@ hu =
 hy-AM =
     Arménia
     Armenia
+hyw =
+    Arménia i Kendi Mbok
+    Amernia i Kēndi i Mbɔk
+ia =
+    Mbôrokhop
+    Mborokhɔ̄p
+id =
+    Indonesia
+    Indonesia
+is =
+    Islandia
+    Islandia
+it =
+    Italia
+    Italia
+izh =
+    Izora
+    Izoria
+ja =
+    Japoñ
+    Jàpɔ̂ŋ
+ka =
+    Georgia
+    Georgia
+kaa =
+    Karakalpakia
+    Karakalpakia
 
 # [/]
 
