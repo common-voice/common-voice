@@ -257,6 +257,24 @@ kw =
 ky =
     Kirgizia
     Kirgizia
+lg =
+    Luganda
+    Luganda
+lij =
+    Liguria
+    Liguria
+lt =
+    Lituania
+    Lituania
+lv =
+    Latvia
+    Latvia
+mdf =
+    Moksa
+    Moksa
+mg =
+    Malagasia
+    Malagasia
 
 # [/]
 
