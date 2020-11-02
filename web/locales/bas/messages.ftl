@@ -203,6 +203,9 @@ hsb =
 hu =
     Hongaria
     Hɔngaria
+hy-AM =
+    Arménia
+    Armenia
 
 # [/]
 
