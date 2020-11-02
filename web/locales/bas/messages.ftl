@@ -275,6 +275,12 @@ mdf =
 mg =
     Malagasia
     Malagasia
+mhr =
+    Mari nu ñoñ
+    Mari nú Ŋɔ̀ŋ
+mk =
+    Macédonia
+    Macedonia
 
 # [/]
 
