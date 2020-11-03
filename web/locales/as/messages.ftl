@@ -12,7 +12,7 @@ email-opt-in-info = মই লক্ষ্যৰ ৰিমাইণ্ডাৰ,
 email-opt-in-info-title = Common Voice মেইলিং তালিকাত যোগদান কৰক
 email-opt-in-info-sub-with-challenge = চেলেঞ্জ আৰু লক্ষ্যৰ ৰিমাইণ্ডাৰ, প্ৰগতিৰ আপডেট আৰু Common Voice-ৰ বিষয়ে সংবাদপত্ৰ আদিৰ ইমেইল লাভ কৰক।
 email-opt-in-privacy-v2 = ইমেইল পোৱাটো বাছি লৈ আপুনি এইটো কৈছে যে Mozilla-ৰ <privacyLink>গোপনীয়তা নীতি</privacyLink>ত বুজোৱা হিচাপে Mozilla-এ এই তথ্য পৰিচালনা কৰাক লৈ আপোনাৰ কোনো আপত্তি নাই।
-indicates-required = * প্ৰয়োজনীয় ক্ষেত্ৰৰ সংকেত দিয়ে
+indicates-required = * প্ৰয়োজনীয় ক্ষেত্ৰ বুজায়
 not-available-abbreviation = প্ৰ/ন
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
