@@ -420,12 +420,30 @@ vot =
 zh-CN =
     China
     China
+zh-HK =
+    China i Hong Kong
+    China ì Hong Kong
+zh-TW =
+    China i Taiwan
+    Chaina ì Taiwan
 
 # [/]
 
 
 ## Layout
 
+speak =
+    Pot
+    Pɔt
+speak-now =
+    Nano podok
+    Nânɔ pɔdɔk
+datasets =
+    Jomb li minje
+    Jɔ̀mb li minjɛ
+languages =
+    Mahop
+    Màhɔp
 
 ## Home Page
 
