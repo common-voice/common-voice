@@ -677,6 +677,7 @@ share-title-new = <bold>დაგვეხმარეთ</bold> ხმები
 keep-track-profile = თვალი მიადევნეთ თქვენს წინსვლას პროფილის მეშვეობით
 login-to-get-started = შედით ან შექმენით ანგარიში დასაწყებად
 target-segment-first-card = თქვენ წვლილი შეგაქვთ ჩვენს პირველ მიზნობრივ კრებულში
+target-segment-generic-card = თქვენ წვლილი შეგაქვთ მიზნობრივი კრებულისთვის
 target-segment-first-banner = დაგვეხმარეთ შევქმნათ Common Voice-ის პირველი მიზნობრივი კრებული { $locale } ენისთვის.
 target-segment-add-voice = დაამატეთ საკუთარი ხმა
 target-segment-learn-more = ვრცლად
