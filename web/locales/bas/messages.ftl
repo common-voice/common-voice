@@ -281,6 +281,81 @@ mhr =
 mk =
     Macédonia
     Macedonia
+ml =
+    Malayalam
+    Malayalam
+mn =
+    Mongolia
+    Mongolia
+mrj =
+    Hill Mari
+    Hill Mari
+mt =
+    Malta
+    Malta
+my =
+    Birmania
+    Birmania
+myv =
+    Erzya
+    Erzya
+nb-NO =
+    Bokmal i Norvégia
+    Bokmal ì Norvegia
+ne-NP =
+    Nepalia
+    Nepalia
+nl =
+    Hollandia
+    Hollandia
+nn-NO =
+    Nynorska i Norvégia
+    Nynorska ì Norvegia
+oc =
+    Occitania
+    Occitania
+or =
+    Odia
+    Odia
+pa-IN =
+    Punjabia
+    Punjabia
+pl =
+    Poland
+    Poland
+pt =
+    Portugal
+    Portugal
+rm-sursilv =
+    Sursilvania i Rumania
+    Sursilvania ì Rumania
+rm-vallader =
+    Valladeria i Rumania
+    Valladeria ì Rumania
+ro =
+    Rumania
+    Rumania
+ru =
+    Russia
+    Russia
+rw =
+    Kinyarwanda
+    Kinyarwanda
+sah =
+    Sakha
+    Sakha
+sc =
+    Sardinia
+    Sardinia
+scn =
+    Sisilia
+    Sisilia
+si =
+    Singalia
+    Singalia
+sk =
+    Slovakia
+    Slovakia
 
 # [/]
 
