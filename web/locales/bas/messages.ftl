@@ -447,6 +447,27 @@ languages =
 about =
     Bés bo nje?
     Ɓěs ɓɔ̀ njɛɛ
+profile =
+    Mayimbne
+    Màyìmbnɛ
+help =
+    Mahôla
+    Màholâ
+contact =
+    Likoodene
+    Lìkɔ̀ɔ̀dɛnɛ
+privacy =
+    Matédél
+    Màtedel
+terms =
+    Mayegna
+    Màyɛ̀gna
+cookies =
+    Bicookies
+    Bìcookies
+faq =
+    FAQ
+    FAQ
 
 ## Home Page
 
