@@ -444,6 +444,9 @@ datasets =
 languages =
     Mahop
     Màhɔp
+about =
+    Bés bo nje?
+    Ɓěs ɓɔ̀ njɛɛ
 
 ## Home Page
 
