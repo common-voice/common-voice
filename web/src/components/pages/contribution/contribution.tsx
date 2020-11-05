@@ -457,7 +457,7 @@ class ContributionPage extends React.Component<Props, State> {
                           {sentence?.text}
                           {sentence?.taxonomy ? (
                             <div className="sentence-taxonomy">
-                              <Localized id="target-segment-generic-card">
+                              <Localized id="target-segment-first-card">
                                 <span className="taxonomy-message" />
                               </Localized>
                               <StyledLink
