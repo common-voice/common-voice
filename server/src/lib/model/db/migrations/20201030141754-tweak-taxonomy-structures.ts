@@ -8,7 +8,7 @@ export const up = async function (db: any): Promise<any> {
   	UPDATE taxonomy_terms SET term_sentence_source = "singleword-benchmark" WHERE term_name = "Benchmark";
 
   	INSERT INTO taxonomy_terms (taxonomy_id, term_name, term_sentence_source, user_selectable)
-      VALUES ((SELECT id FROM taxonomies WHERE tax_name = 'Content'), 'Covid-19 Keyword Spotter', 'du-covid-keywords' TRUE);
+      VALUES ((SELECT id FROM taxonomies WHERE tax_name = 'Content'), 'Covid-19 Keyword Spotter', 'du-covid-keywords', TRUE);
   `);
 };
 
