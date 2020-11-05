@@ -258,6 +258,8 @@ profile-form-accent =
     .label = Lafudhi
 profile-form-age =
     .label = Umri
+profile-form-gender-2 =
+    .label = Jinsia
 leaderboard-visibility =
     .label = Mwonekano wa Ubao wa wanaoongoza
 hidden = Imefichwa
@@ -330,6 +332,7 @@ faq-why-important-q = kwanini hii ni ya umuhimu?
 faq-how-get-q = Ninawezaje kupata data ya Common Voice?
 faq-how-get-a = Daftari la Common Voice linapatikana kwa kupakuliwa chini ya leseni ya <licenseLink> CC0 </licenseLink> kwenye <datasetLink> ukurasa wetu wa Takwimu</datasetLink>. Unaweza pia kupakua daftari kadhaa zinazopatikana kwa umma kutoka ukurasa huo huo.
 faq-when-release2-q = Ni lini data ya Common Voice itatolewa katika lugha zingine?
+faq-when-release2-a = Toleo la lugha nyingi tofauti la daftari la Common Voice kwa sasa linaendelea kukusanywa na kusafishwa na jamii inayoisaidia. Ikiwa ungetaka kutusaidia kuleta Common Voice kwa lugha mpya, nenda uangalie <sentenceCollectorLink> Zana ya Kukusanya Sentensi </sentenceCollectorLink> kwa kuongeza sentensi mpya kwenye daftari, na Mozilla <pontoonLink> Pontoon </pontoonLink> kwa kutafsiri tovuti yenyewe. Lugha mpya zinaongezwa kwa Common Voice kwa mchango wa sauti wakati sentensi 5000 zilizoidhinishwa zimekusanywa.
 faq-why-mission-q = Kwa nini Common Voice ni sehemu ya misheni ya Mozilla?
 faq-what-cv-and-deepspeech-q = Je! Ni tofauti gani kati ya Common Voice na Deep Speech?
 faq-is-goal-assistant-q = Je! Lengo la Common Voice ni kuunda msaidizi wa sauti?
@@ -364,6 +367,7 @@ faq-search-for-answers =
 about-title = kwanini common voice
 about-subtitle = Common Voice ni hatua ya Mozilla ya kusaidia kufunza mashine jinsi watu wanavyozungumza. Mbali na daftari la Common Voice, pia tunaunda injini ya utambuzi wa sauti ya chanzo wazi inayoitwa Deep Speech.
 how-does-it-work-title = inafanyaje kazi
+how-does-it-work-text = Tunachangisha chanzo wazi la daftari la sauti. Toa sauti yako, halalisha usahihi wa vipande vya sauti vya watu wengine, fanya daftari liwe bora kwa kila mtu.
 about-speak = Zungumza
 about-speak-text = Wachangiaji hurekodi vipande vya sauti kwa kusoma kutoka kwa benki ya sentensi zilizotolewa.
 about-listen-queue = Foleni ya kusikiliza
@@ -455,6 +459,7 @@ review-delete-recordings = Futa rekodi zangu
 
 ## Datasets Page
 
+datasets-headline = Tunaunda chanzo wazi la hifadhidata ya sauti yenye lugha nyingi tofauti ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
 language = lugha
 # File size in gigabytes
 size = Ukubwa
@@ -479,6 +484,12 @@ subscribe = Jiandikishe
 get-started-speech = Pata kuanza na utambulizi wa sauti
 other-datasets = Daftari zingine za sauti
 feedback-q = Una Maoni?
+common-voice-info-new = Je! Una maswali kuhusu Common Voice? Mawazo ya maboresho au maoni juu ya lugha maalum? Jiunge nasi kwenye idhaa yetu ya <discourseLink> Discourse </discourseLink> na utujulishe.
+data-other-librispeech-description = LibriSpeech ni daftari la takriban saa 1000 za 16Khz za sauti ya Kiingereza ziliyosomwa kutoka vitabu vya sauti vya mradi wa LibriVox.
+data-other-ted-name = Daftari la TED-LIUM
+data-other-ted-description = Daftari la TED-LIUM liliundawa kutoka kwa mazungumzo ya sauti na nakala zao zinapatikana kwenye wavuti wa TED.
+data-other-voxforge-description = VoxForge ilianzishwa ili kukusanya sauti zilizonukuliwa kwa matumizi ya Injini za Utambuzi wa sauti zilizo bure na wazi kwa umma.
+your-feedback = Je! Una maoni juu ya jinsi tunaweza kuboresha dafari la Common Voice? Tujulishe kwenye Discourse
 go-discourse = Nenda kwenye Discourse
 missing-language = Je! Huoni lugha yako ikijitokeza kwenye daftari? Kuomba lugha, elekea kwenye ukurasa wetu wa Lugha.
 go-languages-page = Nenda kwenye kurasa za lugha
@@ -520,6 +531,7 @@ other-language = Lugha Nyingine
 ## Languages Overview
 
 language-section-in-progress = Inaendelea
+language-section-in-progress-new-description = Lugha hizi kwa sasa ziko chini ya maendeleo ya jamii. Chati za maendeleo zinaonyesha umbali gani kila lugha iko katika mchakato wa <localizationGlossaryLink> ujanibishaji wa wavuti </localizationGlossaryLink> na <sentenceCollectionGlossaryLink> ukusanyaji wa sentensi </sentenceCollectionGlossaryLink>.
 language-section-launched = Imeanzishwa
 languages-show-more = Tazama Yaliyofichika
 languages-show-less = Punguza Yanayoonekana
@@ -553,6 +565,8 @@ contribute-more =
        *[other] Uko tayari kufanya { $count } zaidi?
     }
 record-cta = anza kurekodi
+record-platform-not-supported-desktop = Kwenye vifaa vya tarakilishi unaweza kuchangia kwa kupakua…
+record-platform-not-supported-ios-non-safari = Kwenye iOS tafadhali endelea na jukwaa la Safari ili kuwezesha kurekodi…
 record-must-allow-microphone = Lazima uruhusu kinasa sauti kutumiwa
 record-no-mic-found = Hakuna kinasa sauti kilichopatikana
 record-error-too-short = Rekodi ilikua ya mda mfupi sana.
@@ -597,15 +611,21 @@ target-segment-learn-more = Jifunze zaidi
 report = Ripoti
 report-title = Wasilisha ripoti
 report-ask = Unakutana na shida gani kwenye hii sentensi?
+report-offensive-language = Lugha ya makuruhi
+report-offensive-language-detail = Sentensi hiyo ina dharau au lugha ya makuruhi.
 report-grammar-or-spelling = Kosa la kisarufi / tahajia
 report-grammar-or-spelling-detail = Sentensi hiyo ina kosa la kisarufi au tahajia.
 report-different-language = Lugha tofauti
 report-different-language-detail = Imeandikwa kwa lugha ambayo ni tofauti na ninayoongea.
 report-difficult-pronounce = Vigumu kutamka
 report-difficult-pronounce-detail = Inayo maneno au misemo ambayo ni magumu kusoma au kutamka.
+report-offensive-speech = Lugha ya makuruhi
+report-offensive-speech-detail = Sehemu ya sauti ina lugha ya dharau au ya makuruhi
 report-other-comment =
     .placeholder = Toa maoni
+success = Imefanikiwa
 continue = Endelea
+report-success = Ripoti ilipitishwa kwa mafanikio
 
 ## Goals
 
@@ -619,11 +639,17 @@ recordings =
         [one] Rekodi
        *[other] Rekodi
     }
+validations =
+    { $count ->
+        [one] Uthibitishaji
+       *[other] Uthibitishaji
+    }
 
 ## Dashboard
 
 your-languages = Lugha zako
 toward-next-goal = Kuelekea lengo linalofuata
+goal-reached = Lengo limefikiwa
 clips-you-recorded = Vipande vya sauti ulivyo rekodi
 clips-you-validated = Vipande vya sauti ulivyohalalisha
 todays-recorded-progress = Maendeleo ya Common Voice kwenye vipande vya sauti vilivyorekodiwa leo
@@ -644,6 +670,7 @@ weekly-goal = Lengo la kila wiki
 easy-difficulty = Rahisi
 average-difficulty = Wastani
 difficult-difficulty = Ngumu
+pro-difficulty = Pro
 want-to-continue = Unataka kuendelea?
 finish-editing = Maaliza kuhariri kwanza?
 set-a-goal = Weka lengo
@@ -662,6 +689,7 @@ goal-interval-weekly = Kila wiki
 share-goal-type-speak = Kuongea
 share-goal-type-listen = Kusikiliza
 share-goal-type-both = Kuongea na kusikiliza
+share-goal = Sambaza lengo langu
 
 ## Profile Delete
 

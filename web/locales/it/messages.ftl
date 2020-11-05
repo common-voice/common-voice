@@ -33,6 +33,7 @@ as = Assamese
 ast = Asturiano
 az = Azerbaigiano
 ba = Baschiro
+bas = Basaa
 be = Bielorusso
 bg = Bulgaro
 bm = Bambara
@@ -513,7 +514,7 @@ review-delete-recordings = Cancella le mie registrazioni
 
 ## Datasets Page
 
-datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite riconoscimento vocale.
+datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite di riconoscimento vocale.
 datasets-positioning =
     Crediamo che mettere in circolazione dataset di voci pubblici di grandi dimensioni possa promuovere innovazione e sana concorrenza commerciale tra le tecnologie di apprendimento automatico basate sul riconoscimento vocale.
     
@@ -665,6 +666,7 @@ share-title-new = <bold>Aiutaci</bold> a trovare altre voci
 keep-track-profile = Tieni traccia dei progressi con un profilo
 login-to-get-started = Accedi o registrati per iniziare
 target-segment-first-card = Stai contribuendo al primo segmento obiettivo
+target-segment-generic-card = Stai contribuendo a un segmento obiettivo
 target-segment-first-banner = Aiuta a creare il primo segmento obiettivo di Common Voice in { $locale }
 target-segment-add-voice = Aggiungi la tua voce
 target-segment-learn-more = Scopri di più

@@ -146,6 +146,7 @@ Aber die Bestimmungswebsites helfen mir nicht.
 Aber die Dielen knarzen verräterisch.
 Aber die Freibeuter waren schlechter organisiert und bewaffnet.
 Aber die Laborbefunde stimmen ja gar nicht überein.
+Aber die Lampe leuchtet doch noch!
 Aber die Liebe währte nicht lang.
 Aber die Rechnungen, die mit der Post zugestellt werden, muss man nicht sofort bezahlen.
 Aber die Sicherheit steht und fällt damit, dass der Schlüssel geheim gehalten wird.
@@ -223,6 +224,7 @@ Aber ja, mein Kind.
 Aber jetzt ist deine Mitarbeit gefordert.
 Aber jetzt ist’s wieder getrocknet.
 Aber jetzt muss ich meiner kleinen Tochter eine Gute-Nacht-Geschichte vorlesen.
+Aber jetzt will Stefan sich das am Wochenende mal angucken.
 Aber kaufen werde ich garantiert nichts.
 Aber kaum jemand ist bereit, dafür auch nur einen Finger zu krümmen.
 Aber leider darf ich dir nicht zu nahe kommen.
@@ -377,6 +379,7 @@ Ach nein?
 Ach so das.
 Ach so geht das.
 Ach so nennt man das heutzutage.
+Ach so, ich dachte, das wäre taktisch klug.
 Ach so, ich dachte, ihr esst noch etwas beim Fernsehen wie sonst auch.
 Ach so.
 Ach was, Pilz ist Pilz.
@@ -3954,6 +3957,7 @@ Das automatische Ausschalten ist allerdings oft schwieriger.
 Das baut halt alles aufeinander auf.
 Das bedeutet Alarmstufe Rot.
 Das bedeutet, noch billigere Nahrungsmittel.
+Das bedeutet, wir haben ein Leck.
 Das befiehlt der Mode-Papst.
 Das behaupten alle.
 Das bekannte Lied handelt von einem Apfel.
@@ -5883,6 +5887,7 @@ Der viele Blütenstaub in der Luft setzt sich an allen Oberflächen ab.
 Der vorgebliche Interessent versteckt sich hinter einem Pseudonym.
 Der wacklige Turm wurde von Raimond immer wieder neu aufgebaut.
 Der war nicht leicht zu nehmen.
+Der wievielte Ex-Freund ist das jetzt?
 Der will mich hier traumatisieren.
 Der wird nicht einmal festgestellt.
 Der wohl bekannteste Löwe heißt Simba.
@@ -8112,6 +8117,7 @@ Eigentlich mag Verona keine Sprachnachrichten.
 Eigentlich mag ich sie, aber sie muss ihre Nase immer überall reinstecken.
 Eigentlich muss es Gruppendruck und nicht Gruppenzwang heißen.
 Eigentlich müssen solche Dinge ganz klar aus der Bedienungsanleitung hervorgehen.
+Eigentlich müsste der Akku längst voll sein.
 Eigentlich müsste durch die Folie alles abgedichtet sein.
 Eigentlich müsste ich für die nächsten drei Tage gesättigt sein.
 Eigentlich müsste man sich nach und nach daran gewöhnen.
@@ -9952,6 +9958,7 @@ Experten gehen von einer weitaus höheren Dunkelziffer aus.
 Experten halten das Video für einen Fake.
 Experten sind sich einig, dass es etwas mit dem Tod zu tun haben könnte.
 Experten vermuten einen russischen Hackerangriff.
+Expressbusse sind ja ganz schön, aber ich hätte lieber eine Bahnlinie.
 Exzessiv ist noch untertrieben.
 Ey Mann, wo ist mein Auto?
 Ey steht am Bahnhof und verkauft Pommes.
@@ -11068,6 +11075,7 @@ Gut möglich, dass die beiden unter einer Decke stecken.
 Gut so! Aber jetzt noch ein bisschen kräftiger!
 Gut verschlüsselter Text sieht aus wie zufälliges Rauschen.
 Gut, aber wer legt das fest.
+Gut, da kann man dem Schiedsrichter jetzt keinen Vorwurf machen, denke ich mal.
 Gut, dann muss ich mich nicht darum kümmern.
 Gut, dann müssen wir ausloten, welche Varianten dann noch in Frage kämen.
 Gut, dann schieb es halt wieder nach rechts.
@@ -12254,6 +12262,7 @@ Ich denke was ich will und was mich beglücket.
 Ich denke, Sie werden mir zustimmen, dass Björn Schlemmer sich sehr verdient gemacht hat.
 Ich denke, Weimar ist jedermann bekannt.
 Ich denke, also bin ich.
+Ich denke, damit kommen wir klar.
 Ich denke, das Bild spricht für sich selbst.
 Ich denke, das Interview ist getürkt.
 Ich denke, das Prinzip sollte klar geworden sein.
@@ -12538,6 +12547,7 @@ Ich habe noch nie in meinem Leben eine Bewerbung schreiben müssen.
 Ich habe noch nie so eine hässliche Stadt gesehen.
 Ich habe nur eine Niere, die zweite wurde mir entfernt.
 Ich habe nur einen Hunderter und einen Zwanziger.
+Ich habe nämlich vergessen, meinen Schlüssel aus der Hosentasche zu nehmen.
 Ich habe schon wieder vergessen wer eigentlich Benedikt war.
 Ich habe sehr gerne mit ihm zusammen gearbeitet. Schade, dass das vorbei ist.
 Ich habe sehr viel Unterhaltungselektronik zu Hause.
@@ -13127,6 +13137,7 @@ Ich würde gerne mal mit Delfinen schwimmen.
 Ich würde gerne mal mit Gott über die Welt sprechen.
 Ich würde gerne mehr Geld verdienen.
 Ich würde gerne wissen, warum die sich solche Beschränkungen auferlegen.
+Ich würde mal einen Batterietausch probieren.
 Ich würde mir das Spielchen noch kurz ankucken.
 Ich würde mir diesbezüglich keine allzu großen Hoffnungen machen.
 Ich würde mir ja auch lieber einen Dialog wünschen.
@@ -14829,6 +14840,7 @@ Jetzt wärmen wir uns erst mal auf.
 Jetzt wärmen wir uns erstmal auf.
 Jetzt zieh dir bitte die Hose an.
 Jetzt übertreibt der aber!
+Jetzt, wo die Autos Internet haben, warte ich auf das erste Modell mit Flugmodus.
 Jogginghosen haben Stil, nur halt keinen, der dir gefällt.
 Joghurt konnte man früher auch mit Y schreiben.
 Joghurt, Quark und Topfen sind Milchprodukte.
@@ -14909,6 +14921,7 @@ Kann der Zeitverlust stimmen?
 Kann dies nicht automatisiert erfolgen?
 Kann ein Liveticker auch in Videoform sein?
 Kann er dann immer noch nicht, muss er noch mal ziehen.
+Kann es sein, dass der Metalldetektor gar nicht funktioniert?
 Kann es sein, dass die Heizung ausgefallen ist?
 Kann es sein, dass du deine eigenen Quellen nicht gelesen hast?
 Kann es sein, dass du ein bisschen heiser bist?
@@ -14934,6 +14947,7 @@ Kann ich nicht irgendeiner sinnvollen Beschäftigung nachgehen?
 Kann ich seine Nummer sperren lassen?
 Kann ich so gehen?
 Kann ich stattdessen auch Sojamilch verwenden?
+Kann ja eigentlich nicht sein.
 Kann mal bitte jemand wieder das Licht am Ende des Tunnels anschalten?
 Kann man Bayern noch als sicheren Herkunftsstaat bezeichnen?
 Kann man Bestechungsgelder von der Steuer absetzen?
@@ -15375,6 +15389,7 @@ Kollegin Berger möchte endlich einen Schlussstrich ziehen.
 Komfort hat dabei keinen hohen Stellenwert.
 Komisch, bei der Hinfahrt funktionierte das ohne Probleme!
 Komisch, die Kamera scheint kaputt zu sein.
+Komisch, eigentlich hatte ich die Datei doch gelöscht!
 Komische Tastatur!
 Komm Du 'mal hier her!
 Komm da sofort runter!
@@ -15560,6 +15575,7 @@ Können Sie mir das garantieren?
 Können Sie mir meine Trinkflasche auffüllen?
 Können Sie mir sagen, wie Ihre Arbeitszeiten letzte Woche mit Beginn und Endzeiten waren?
 Können Sie mir versichern, dass dieses Fleisch halal ist?
+Können Sie mir wenigstens einen Cappuccino anbieten?
 Können Sie sich ausweisen?
 Können Sie sich nicht entschuldigen?
 Können Sie uns ein Taxi bestellen?
@@ -18100,6 +18116,7 @@ Nicht mit Straßenschuhen die Halle betreten!
 Nicht mit dem Fuß!
 Nicht mit dem Hammer aufs Gewinde hauen!
 Nicht mit mir!
+Nicht nennenswert.
 Nicht nur Mechaniker, sondern auch Softwareentwickler.
 Nicht nur Schafe heißen Sven.
 Nicht nur Schallplatten, auch optische Medien können einen Sprung haben.
@@ -18373,6 +18390,7 @@ Normalerweise endet das Rohr mit einem T-Stück.
 Normalerweise hat man kein Stroh vor dem Stromkasten liegen.
 Normalerweise ist er kein Angsthase, aber ein Kerl dieser Gestalt flößte ihm Respekt ein.
 Normalerweise näht die Maschine mit zwei Fäden.
+Normalerweise sind Mückenstiche harmlos.
 Normalerweise wird das Fleisch in Zwiebeln angebraten.
 Normalerweise wäre ihm das viel zu ungesund.
 Normales Holz kann das ja nicht sein.
@@ -18996,6 +19014,7 @@ Pass auf, die blitzen hier an jeder Ecke!
 Pass auf, hinter dir!
 Pass auf, ich kann Karate!
 Pass auf, was du sagst!
+Pass auf, was du sagst.
 Pass auf, wohin du schießt!
 Pass besser auf dich auf!
 Pass bitte auf, die Küchenmesser sind mega scharf.
@@ -19231,6 +19250,7 @@ Rechts stehen, links gehen.
 Rechtzeitig daran denken, dass die Feiertage vor der Tür stehen.
 Rede keinen Unsinn!
 Reden ist Silber, Schweigen ist Gold.
+Reden wir hier von den ganz dicken Fischen?
 Redet der immer so geschwollen?
 Redet ihr nicht miteinander?
 Redet mir doch nicht immer dazwischen!
@@ -19249,6 +19269,7 @@ Regionale Dialekte sterben aus.
 Regnet es draußen?
 Regnet es heute eigentlich noch?
 Regnet es in England wirklich fast jeden Tag?
+Regnet es überhaupt?
 Reich mir den mal rüber.
 Reich sind immer die Anderen.
 Reiche Banker verschwenden all ihr Geld für Loks und Schuppen.
@@ -20192,6 +20213,7 @@ Sie hat sich Fett absaugen und die Haut straffen lassen oder so.
 Sie hat sich bloß verklickt.
 Sie hat sich gestern getraut, zu einer Veranstaltung im Hackspace ihrer Träume zu gehen.
 Sie hat sich schon wieder Ihre Grippe genommen.
+Sie hat sich sehr über deine Hilfe gefreut.
 Sie hat sich total in Angela verknallt.
 Sie hat unerschütterlich daran festgehalten.
 Sie hatte alle Läden in der näheren Umgebung abgegrast und dennoch nichts gefunden.
@@ -20976,6 +20998,7 @@ Soll das Programm jetzt geschlossen werden?
 Soll das ein Scherz sein?
 Soll das ein Witz sein?
 Soll das so eine Art Gegendarstellung sein?
+Soll der Flugmodus erneut aktiviert werden?
 Soll der Käse überbacken werden?
 Soll er doch versuchen, mir die Vorfahrt zu nehmen!
 Soll es jodiertes Speisesalz sein?
@@ -22922,6 +22945,7 @@ Wahrscheinlich ist er bereits der berühmteste Dirigent der Welt.
 Wahrscheinlich kennen wir alle dieses eine Bild von Albert Einstein.
 Wahrscheinlich liegt es daran, dass vor allem technikbezogene News-Seiten über das Projekt berichten.
 Wahrscheinlich sind die Wissenschaftler an ihm verzweifelt und haben aufgegeben.
+Wahrscheinlich sogar noch weniger.
 Wahrscheinlich steckt die Mafia dahinter.
 Wahrscheinlich tritt er dann wieder diesem Kegelclub bei oder so.
 Wahrscheinlich war der Kunststoff in der Maschine an ihr festgeschmolzen.
@@ -22971,6 +22995,7 @@ Wann lassen wir die Katze aus Sack?
 Wann lassen wir die Katze aus dem Sack?
 Wann legt das Schiff an?
 Wann lief diese Sendung?
+Wann nutzt man endlich die Dachflächen der deutschen Städte zur Erzeugung von Solarstrom?
 Wann rechnet man im Bogenmaß, wann stellt man den Taschenrechner auf Grad?
 Wann schwimmt ein Schiff?
 Wann sind Nudeln al dente?
@@ -22985,6 +23010,7 @@ Wann war Marius das letzte Mal online?
 Wann war noch mal die Bewerbungsfrist?
 Wann werde ich endlich als charakterlich ungeeignet eingestuft?
 Wann werden die Wartungsarbeiten abgeschlossen sein?
+Wann werden endlich mehr Power-to-Gas-Anlagen errichtet?
 Wann werden wir uns wiedersehen?
 Wann wird der endlich mal erwachsen?
 Wann wird der erste Radfahrer mit seinem Fahrrad die Schallmauer durchbrechen?
@@ -24370,6 +24396,7 @@ Wer hat den längsten Bart?
 Wer hat denn heutzutage noch eine Briefmarkensammlung?
 Wer hat die Hosen an?
 Wer hat die Musik ausgemacht?
+Wer hat die Studie bezahlt?
 Wer hat diese alten Geräte angeschleppt?
 Wer hat eigentlich all die Straßennamen bestimmt?
 Wer hat eigentlich das Michelin-Männchen in Toilettenpapier eingewickelt?
@@ -25198,6 +25225,7 @@ Wieso ist es hier so dunkel?
 Wieso ist es so schwierig, Zahlwörter korrekt auszuschreiben?
 Wieso ist schon wieder keiner anspielbar?
 Wieso ist sie nicht in ihrem Zimmer?
+Wieso ist sie trotzdem noch da?
 Wieso kann der so schnell nachladen?
 Wieso kann eine einzelne Person dies im Alleingang durchboxen?
 Wieso kann ich den Fahrradcomputer nicht mit Strom vom Dynamo versorgen?
@@ -25771,6 +25799,7 @@ Wo ist sie denn?
 Wo kann das gewesen sein?
 Wo kann ich Vietnamesisch lernen?
 Wo kann ich das kaufen?
+Wo kann man es sich runterladen?
 Wo kann man hier ein neues Schlüsselpaar generieren?
 Wo kann man hier in der Nähe Lasertag spielen?
 Wo kann man hier in der Nähe unverpackt einkaufen?
@@ -25989,6 +26018,7 @@ Worte, deren Inhalt sie nicht verstand.
 Worttrennung wird leider zu selten durchgeführt, um ausreichend geübt werden zu können.
 Worum geht es bei Freizügigkeit im Sinne von Artikel elf des Grundgesetzes?
 Worum geht es überhaupt?
+Worüber unterhalten wir uns hier?
 Wovon träumst du nachts?
 Wovor hast du Angst?
 Wovor hat der Staatsanwalt am meisten Angst?
@@ -26563,6 +26593,7 @@ x und y heben sich gegenseitig weg.
 Überhaupt könntest du dir einiges von Heidelinde abkupfern.
 Überhaupt nicht eingebildet!
 Überlasst die Aufgaben nicht diesem Taugenichts von der Urlaubsvertretung.
+Überleg mal, allein das erste Video dauert schon über fünf Minuten.
 Überlege dir gut, ob du das Streufahrzeug wirklich überholen willst.
 Überlege einmal, bevor du gibst, zweimal, bevor du annimmst, und tausendmal, bevor du verlangst.
 Überlegt euch einen Plan, wenn ihr ihnen nicht ins offene Messer laufen wollt.

@@ -505,14 +505,14 @@ data-download-singleword-callout = This is a use case driven segment containing 
 review-terms = Bw'okozesa Common Voice, okiriza <termsLink>Enkolagana</termsLink> ne <privacyLink>Eby'ekyama</privacyLink>
 terms-agree = Nzikiriza
 terms-disagree = Si kkiriza
-review-aborted = Upload esaziddwamu. Oyagala ku deletinga likodingi yo?
+review-aborted = Okuwanikibwa kusaziddwamu. Oyagala kusangula maloboozi go?
 review-submit-title = Wetegereze Osindike
 review-submit-msg = Webale okulikodinga!<lineBreak></lineBreak>Kati byetegereze osindike obuloboozi bwo wansi.
 review-recording = Wetegereze
 review-rerecord = Likodinga buto
 review-cancel = Sazaamu Okusindika
-review-keep-recordings = Teleka ebilikodinge
-review-delete-recordings = Sazaamu ebilikodinge byange
+review-keep-recordings = Tereka amaloboozi
+review-delete-recordings = Sangula amaloboozi gange
 
 ## Datasets Page
 
@@ -629,8 +629,8 @@ goal-help-recording = Oyambyeko common voice okutuuka ku <goalPercentage></goalP
 goal-help-validation = Oyambyeko common voice okutuuka ku <goalPercentage></goalPercentage> eya goolo { $goalValue } ez'okusunsula buli lunaku.
 contribute-more =
     { $count ->
-        [one] Wetegese okukola ekilara { $count }?
-       *[other] Wetegese okukola ebilara { $count }?
+        [one] Weetegese okukola ekirala { $count }?
+       *[other] Weetegese okukola ebirala { $count }?
     }
 record-cta = Tandika okulikodinga
 record-platform-not-supported = Platform yo tenaba k'olebwa mu kaseera kano, tusonyiwe.
@@ -653,7 +653,7 @@ share-clip = Ggaba akaloboozi ko
 share-common-voice = Sheyaringa Common Voice
 review-instruction = Weetegereze  & oddemu okwate clips bwe kiba kyetaagisa.
 record-submit-tooltip = { $actionType } sindika nga wetegese
-clips-uploaded = Clips eziwanikiddwa
+clips-uploaded = Clips ziwanikiddwa
 record-abort-title = Sooka omale okulekodinga?
 record-abort-text = Okuvaawo kati kitegeeza ojja kufiirwa by'okozeeko.
 record-abort-submit = Waayo clips
@@ -706,8 +706,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] Ekilikodinge
-       *[other] Ebilikodinge
+        [one] eddoboozi
+       *[other] Amaloboozi
     }
 validations =
     { $count ->
@@ -743,7 +743,7 @@ show-ranking = Ndaga wendi
 
 get-started-goals = Tandika n'ebiruubirirwa
 create-custom-goal = Teekawo ekiruubirirwa ekikyo
-goal-type = Kiruubirirwa ki ky'oyagala okuzimba?
+goal-type = Kiruubirirwa ki ky'oyagala okuteekawo?
 both-speak-and-listen = By'ombi
 both-speak-and-listen-long = Byombi (Yogera ate owulirize)
 daily-goal = Ekigobero Kya buli lunaku
@@ -756,7 +756,7 @@ lose-goal-progress-warning = Bw'okyusa ekigobero kyo, oyinza okufirwa w'otuuse.
 want-to-continue = Oyagala okweyongerayo?
 finish-editing = Sooka omale by'okyuusa?
 lose-changes-warning = Okugenda kati kitegeeza nti ojja kufiirwa by'okyuusiza
-build-custom-goal = Zzimba eby'okukola
+build-custom-goal = Teekawo ky'oluubirira
 help-reach-hours-pluralized =
     Yamba okuweza{ NUMBER($hours) ->
         [one] { $hours } essaawa
@@ -764,10 +764,10 @@ help-reach-hours-pluralized =
     } mu { $language }  n'ekiruubirirwa ekikyo
 help-reach-hours-general-pluralized =
     Yamba Common Voice okuweza{ NUMBER($hours) ->
-        [one] { $hours } essaawa
-       *[other] { $hours } ssaawa
-    }  mu lulimi n'ekiruubirirwa ekikyo.
-set-a-goal = Tereeza ekigobero
+        [one] essaawa { $hours }
+       *[other] essaawa { $hours }
+    }mu lulimi n'ekiruubirirwa ekikyo.
+set-a-goal = Teekawo ekiruubirirwa
 cant-decide = Tosobola kusalawo?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
