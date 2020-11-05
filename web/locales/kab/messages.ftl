@@ -33,6 +33,7 @@ as = Tasamizt
 ast = Tasturit
 az = Tazerbiǧanit
 ba = Tabackirit
+bas = Basaa
 be = Tabilarusit
 bg = Tabulgarit
 bm = Tabumbrit
