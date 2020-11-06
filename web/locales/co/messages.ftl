@@ -268,12 +268,19 @@ mycroft-subtitle = Intelligenza artificiale
 ## Glossary
 
 glossary = Glussariu
+localization-explanation = Questu hè u nostru prucessu pà traduce è adattà u nostru cuntinutu à mori di lingue.
+sentence-collection = Racolta d'infrasate
 
 ## Error pages
 
+error-title-404 = Ùn pudemu micca truvà questa pagina per voi
+error-code = Errore { $code }
 
 ## Data
 
+data-download-button = Scaricà i dati di Common Voice
+data-download-yes = Iè
+data-download-deny = Innò
 review-cancel = Annuddà l'inviu
 
 ## Datasets Page
