@@ -139,6 +139,11 @@ x-weeks-short =
         [one] Settimana
        *[other] { $count } sett
     }
+x-years-short =
+    { $count ->
+        [one] annu
+       *[other] anni
+    }
 help-make-dataset = Aiutateci à custruisce una banca di dati d'alta qualità, aperta à u publicu
 sign-up-account = Creà u so contu
 email-subscription-title = Arrighjistrassi pà riceve infurmazioni (o nutizie) da messaghju eletronicu
