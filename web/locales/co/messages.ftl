@@ -173,9 +173,21 @@ username-email-not-demographic = U vostru nome d'utilizatore è indirizzu electr
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Riproduce/Firmà
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = i
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = a
+shortcut-record-toggle-label = Arrighjistrà/Firmà
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rifà l’arrighjistramentu
 request-language-text = Ùn viditi micca a vostra lingua in Common Voice ?
 request-language-button = Richiede una lingua
