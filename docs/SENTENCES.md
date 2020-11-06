@@ -21,7 +21,7 @@ The Sentence Extractor is a tool that can scrape public domain data sources for 
 
 If you know of a public domain corpus of sentences with more than 100k sentences, you can manually submit a pull request to add this as a bulk dataset. However, you will need to manually perform QA (quality assurance) to make sure the sentences are valid and high-quality.
 
-[This Discourse post] has a more detailed guide for how to do manual QA, but in brief:
+[This Discourse post](https://discourse.mozilla.org/t/using-the-europarl-dataset-with-sentences-from-speeches-from-the-european-parliament/50184) has a more detailed guide for how to do manual QA, but in brief:
 
 - You need 2-3 native speakers to review a random sample of sentences to verify their correctness
 - The sentences should be spelled correctly.
