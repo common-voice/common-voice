@@ -154,7 +154,7 @@ zh-TW = 中文 (臺灣)
 
 ## Layout
 
-speak = 講話
+speak = 講
 speak-now = 而家開始講話
 datasets = 數據集
 languages = 所有語言
