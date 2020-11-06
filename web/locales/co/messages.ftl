@@ -225,13 +225,22 @@ edit-profile = Mudificà u prufilu
 profile-create-success = Eccu, prufilu creatu !
 profile-close = Sarrà
 profile-explanation = Tinite una traccia di i vostri prugressi è migliurate à pricisione di i vostri dati vucale cù un prufilu.
+thanks-for-account = Grazie pè avè cunfirmatu u vostru contu, avà criemu u vostru prufilu.
 why-demographic = Parchì hè impurtante ?
+accept-privacy = Accunsentu à u trattementu di i dati comu spiecatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink> di Mozilla
+accept-privacy-title = Pulitica di Cunfidenzialità
+login-identity = Identità di sessione
+login-signup = Identificassi / Arrighjistrassi
+edit = Mudificà
+download-profile = Scaricà i mio dati
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 
 ## FAQ
 
+faq-why-important-q = Parchì hè impurtante ?
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
+faq-what-cv-and-deepspeech-q = Chì gjhè a differenza trà Common Voice è Deep Speech ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-search-for-answers =
     .label = Circà risposte
@@ -245,9 +254,16 @@ about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da
 about-listen-queue-text = L'arrighjistramenti vucali sò mandati in una fila d'attesa induve sarani approntati pè l'ascolta.
 about-listen-text = L'utilizatori cunvalidanu l'esatezza di i campiunarii dunati, verifichendu chì l'uratori ani lettu a frasa currittamente.
 about-dataset-new = Basa di dati Common Voice
+about-clip-graveyard-text = U campu santu di i campiunarii hè custituitu di tutti i campiunarii chì ùn sò micca stati cunvalidati pà fà parte di a banca di dati Common Voice. Cum'è edda, u campu santu di i campiuanarii pò esse scaricatu libaramente.
 about-partners = Partinarii
 about-become-a-partner = Diventà un partinariu
 about-get-involved = Impegnassi
+about-nav-why-common-voice = Parchì ?
+about-nav-how-it-works = Comu ?
+about-nav-partners = Partinarii
+about-nav-get-involved = Impegnassi
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelligenza artificiale
 
 ## Glossary
 
