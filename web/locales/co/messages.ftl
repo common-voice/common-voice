@@ -267,6 +267,7 @@ mycroft-subtitle = Intelligenza artificiale
 
 ## Glossary
 
+glossary = Glussariu
 
 ## Error pages
 
