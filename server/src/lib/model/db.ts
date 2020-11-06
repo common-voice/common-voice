@@ -605,7 +605,7 @@ export default class DB {
     const localeId = locale ? await getLocaleId(locale) : null;
 
     const intervals = [
-      '15 MONTH',
+      '100 YEAR',
       '12 MONTH',
       '9 MONTH',
       '6 MONTH',
