@@ -224,6 +224,7 @@ settings = Prifirenze
 edit-profile = Mudificà u prufilu
 profile-create-success = Eccu, prufilu creatu !
 profile-close = Sarrà
+profile-explanation = Tinite una traccia di i vostri prugressi è migliurate à pricisione di i vostri dati vucale cù un prufilu.
 why-demographic = Parchì hè impurtante ?
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 
