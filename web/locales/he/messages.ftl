@@ -360,6 +360,7 @@ hours-validated-explanation = ספירת שעות ההקלטה הקולית שא
 sst = דיבור לטקסט
 sst-explanation = טכנולוגיות דיבור לטקסט ממירות נתוני קול לטקסט כתוב.
 de-identified = ניתוק זיהוי
+de-identified-explanation = התהליך שבו מידע הפרופיל של תורם מוסתר מקטעי הקול שנתרמו על ידם כאשר הם נארזים להורדה כחלק במאגר הנתונים.
 
 ## Error pages
 
@@ -550,6 +551,8 @@ your-languages = השפות שלך
 toward-next-goal = לקראת המטרה הבאה
 clips-you-recorded = מקטעים שהקלטת
 clips-you-validated = מקטעים שאימתת
+todays-recorded-progress = ההתקדמות היומית של קטעים מוקלטים ב־Common Voice
+todays-validated-progress = ההתקדמות היומית של קטעים מאומתים ב־Common Voice
 stats = סטטיסטיקה
 awards = פרסים
 you = אני
@@ -566,11 +569,13 @@ overall-accuracy = דיוק כללי
 
 ## Profile Delete
 
+delete-q = האם ברצונך לבקש להסיר גם את ההקלטות הקוליות שלך, או שנשמור אותן במאגר הנתונים של Common Voice?
 keep = להשאיר
 remove = להסיר
+remove-info = אנו נבדוק את בקשתך להסרת ההקלטות הקוליות שלך ממאגר הנתונים. אם בקשתך תאושר, אנו ניצור קשר עם כל מי שהוריד את מאגר הנתונים ונבקש מהם להסיר את ההקלטות הקוליות שלך גם כן.
 profile-form-delete = מחיקת פרופיל
 
 ## Landing
 
-profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב
+profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב, ניתן לראות מדוע להלן.
 read-more-about = מידע נוסף בעמוד על אודותינו
