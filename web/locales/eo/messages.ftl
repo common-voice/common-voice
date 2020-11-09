@@ -240,6 +240,7 @@ whats-public = Kiuj informoj estas publikaj?
 email-not-public = Ni ne publikigos vian retpoŝtadreson.
 recordings-and-locale-public = La nombro de voĉregistroj kaj la lingvoj, kun kiuj vi kunlaboras, estos publikaj.
 username-optin-public = Vi povas elekti ĉu publikigi aŭ anonimigi vian nomon de uzanto.
+demographic-deidentified-clarity-2 = Laŭvole senditaj demografiaj informoj (ekzemple aĝo, genro, lingvo kaj akĉento) neniam estos publikaj en via profilo, kaj ili ne estos ligitaj al via konto en la datumaro. Unuopaj voĉregistroj estos asociitaj kun demografiaj datumoj, por analizi pri precize. Ezkemplo: esploristo povus voli alĝustigi sian trejnmodelon al specifa demografia segmento.
 username-email-not-demographic = Via nomo de uzanto kaj retpoŝta adreso ne esos asociitaj kun la publikigitaj datumoj.
 
 ## Speak & Listen Shortcuts
@@ -298,7 +299,7 @@ profile-form-accent =
 profile-form-age =
     .label = Aĝo
 profile-form-gender-2 =
-    .label = Socia sekso
+    .label = Genro
 leaderboard-visibility =
     .label = Publika montro
 hidden = Kaŝita
@@ -324,6 +325,7 @@ profile-close = Fermi
 profile-explanation = Sekvu vian progreson per profilo, kaj helpu niajn voĉajn datumojn iĝi pli precizaj.
 thanks-for-account = Dankon pro la konfirmo de via konto, nun kreu ni vian profilon.
 why-demographic = Kial tio ĉi gravas?
+why-demographic-explanation-2 = Anonimigitaj datumoj de uzanto kiel aĝo, genro kaj akĉento helpas plibonigi la voĉajn datumojn, kiujn oni uzas por trejni la akuratecon de la voĉrekoniloj. Vi nomo de uzanto kaj via retpoŝto neniam estos asociitaj kun la datumoj, kiujn vi sendas, kaj vi povas elekti ĉu igi vian nomon de uzanto publika aŭ anonima.
 accept-privacy = Mi konsentas kun via pritrakto de tiu ĉi informo, laŭ via priskribo en la <privacyLink>privateca politiko</privacyLink> de Mozilla
 accept-privacy-title = Politiko pri privateco
 login-identity = Idento de seanco
