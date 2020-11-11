@@ -33,6 +33,7 @@ as = Asameg
 ast = Asturieg
 az = Azerbaidjaneg
 ba = Bachkireg
+bas = Basaaeg
 be = Belaruseg
 bg = Bulgareg
 bm = Bambara
