@@ -31,222 +31,78 @@ ar = Arabia
 arn = Mapudungun
 as = Assamesia
 ast = Asturia
-az =
-    Azerbajania
-    Azerbajania
-ba =
-    Bashikiria
-    Bashikiria
-bas =
-    Basaa
-    Ɓàsàa
-be =
-    Belarusia
-    Belarusia
-bg =
-    Bulgaria
-    Bulgaria
-bm =
-    Bambara
-    Bambara
-bn =
-    Bengalia
-    Bengalia
-br =
-    Bretonia
-    Bretonia
-bxr =
-    Buryati
-    Buryati
-ca =
-    Catalania
-    Catalania
-cak =
-    Kaqchikelia
-    Kaqchikelia
-ckb =
-    Kurdishia i Nnem Mbok
-    Kurdishia ì Ǹnɛm Mbɔk
-cnh =
-    Hakka Chinia
-    Hakka Chinia
-co =
-    Corsia
-    Corsia
-cs =
-    Tjekia
-    Tjekia
-cv =
-    Tjuvasia
-    Tjuvasia
-cy =
-    Seltia
-    Seltia
-da =
-    Danisia
-    Danisia
-de =
-    Jaman
-    Jaman
-dsb =
-    Sorbia i Kéndi Mbok
-    Sorbia ì Kéndî Mbɔ̄k
-dv =
-    Divehia
-    Divehia
-el =
-    Grekia
-    Grekia
-en =
-    Nginsi
-    Ŋgìsì
-eo =
-    Espéranto
-    Esperanto
-es =
-    Paña
-    Pànya
-et =
-    Estonia
-    Estonia
-eu =
-    Baskia
-    Baskia
-fa =
-    Persia
-    Persia
-ff =
-    Fulbé
-    Fulbe
-fi =
-    Finland
-    Finland
-fo =
-    Farosia
-    Farosia
-fr =
-    Pulasi
-    Pùlàsi
-fy-NL =
-    Frisia
-    Frisia
-ga-IE =
-    Irland
-    Irland
-gl =
-    Galicia
-    Galicia
-gn =
-    Gwarinia
-    Gwarinia
-ha =
-    Hausa
-    Hausa
-he =
-    Hebreu
-    Hebreu
-hi =
-    India
-    India
-hr =
-    Croatia
-    Croatia
-hsb =
-    Sorbia i Ño Mbok
-    Sorbia ì Ŋɔ Mbɔk
-hu =
-    Hongaria
-    Hɔngaria
-hy-AM =
-    Arménia
-    Armenia
-hyw =
-    Arménia i Kendi Mbok
-    Amernia i Kēndi i Mbɔk
-ia =
-    Mbôrokhop
-    Mborokhɔ̄p
-id =
-    Indonesia
-    Indonesia
-is =
-    Islandia
-    Islandia
-it =
-    Italia
-    Italia
-izh =
-    Izora
-    Izoria
-ja =
-    Japoñ
-    Jàpɔ̂ŋ
-ka =
-    Georgia
-    Georgia
-kaa =
-    Karakalpakia
-    Karakalpakia
-kab =
-    Kabilia
-    Kabilia
-kbd =
-    Kabardia
-    Kabardia
-kk =
-    Kazakia
-    Kazakia
-kmr =
-    Kurdia i Kurmanjia
-    Kurdia ì Kurmandia
-ko =
-    Korea
-    Korea
-kpv =
-    Komi-Zyria
-    Komi-Zyria
-kw =
-    Cornisia
-    Cornisia
-ky =
-    Kirgizia
-    Kirgizia
-lg =
-    Luganda
-    Luganda
-lij =
-    Liguria
-    Liguria
-lt =
-    Lituania
-    Lituania
-lv =
-    Latvia
-    Latvia
-mdf =
-    Moksa
-    Moksa
-mg =
-    Malagasia
-    Malagasia
-mhr =
-    Mari nu ñoñ
-    Mari nú Ŋɔ̀ŋ
-mk =
-    Macédonia
-    Macedonia
-ml =
-    Malayalam
-    Malayalam
-mn =
-    Mongolia
-    Mongolia
-mrj =
-    Hill Mari
-    Hill Mari
-mt =
-    Malta
-    Malta
+az = Azerbajania
+ba = Bachikiria
+bas = Basaa
+be = Belarusia
+bg = Bulgaria
+bm = Bambara
+bn = Bengalia
+br = Bretonia
+bxr = Buryati
+ca = Katalania
+cak = Kaqchikelia
+ckb = Kurdishia i Ñem Mbok
+cnh = Hakka Chinia
+co = Korsia
+cs = Tjekia
+cv = Tjuvasia
+cy = Seltia
+da = Danisia
+de = Jaman
+dsb = Sorbia i Kéndi Mbok
+dv = Divehia
+el = Grekia
+en = Nginsi
+eo = Espéranto
+es = Paña
+et = Estonia
+eu = Baskia
+fa = Persia
+ff = Fulbé
+fi = Finland
+fo = Farosia
+fr = Pulasi
+fy-NL = Frisia
+ga-IE = Irland
+gl = Galisia
+gn = Gwarinia
+ha = Hausa
+he = Hébréu
+hi = India
+hr = Kroasia
+hsb = Sorbia i Ño Mbokk
+hu = Hongaria
+hy-AM = Arménia
+hyw = Arménia i Kendi Mbok
+ia = Mbôrokhop
+id = Indonésia
+is = Island
+it = Italia
+izh = Izora
+ja = Japan
+ka = Georgia
+kaa = Karakalpakia
+kab = Kabilia
+kbd = Kabardia
+kk = Kazakia
+kmr = Kurdia i Kurmanjia
+ko = Koréa
+kpv = Komi-Zyria
+kw = Kornisia
+ky = Kirgizia
+lg = Luganda
+lij = Liguria
+lt = Lituania
+lv = Latvia
+mdf = Moksa
+mg = Malagasia
+mhr = Mari nu ñoñ
+mk = Masédonia
+ml = Malayalam
+mn = Mongolia
+mrj = Hill Mari
+mt = Malta
 my =
     Birmania
     Birmania
