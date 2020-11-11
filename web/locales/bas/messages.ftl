@@ -103,181 +103,69 @@ ml = Malayalam
 mn = Mongolia
 mrj = Hill Mari
 mt = Malta
-my =
-    Birmania
-    Birmania
-myv =
-    Erzya
-    Erzya
-nb-NO =
-    Bokmal i Norvégia
-    Bokmal ì Norvegia
-ne-NP =
-    Nepalia
-    Nepalia
-nl =
-    Hollandia
-    Hollandia
-nn-NO =
-    Nynorska i Norvégia
-    Nynorska ì Norvegia
-oc =
-    Occitania
-    Occitania
-or =
-    Odia
-    Odia
-pa-IN =
-    Punjabia
-    Punjabia
-pl =
-    Poland
-    Poland
-pt =
-    Portugal
-    Portugal
-rm-sursilv =
-    Sursilvania i Rumania
-    Sursilvania ì Rumania
-rm-vallader =
-    Valladeria i Rumania
-    Valladeria ì Rumania
-ro =
-    Rumania
-    Rumania
-ru =
-    Russia
-    Russia
-rw =
-    Kinyarwanda
-    Kinyarwanda
-sah =
-    Sakha
-    Sakha
-sc =
-    Sardinia
-    Sardinia
-scn =
-    Sisilia
-    Sisilia
-si =
-    Singalia
-    Singalia
-sk =
-    Slovakia
-    Slovakia
-sl =
-    Slovénia
-    Slovenia
-sq =
-    Albania
-    Albania
-sr =
-    Serbia
-    Serbia
-sv-SE =
-    Swidland
-    Swidland
+my = Birmania
+myv = Ersya
+nb-NO = Bokmal i Norvégia
+ne-NP = Nepalia
+nl = Holland
+nn-NO = Nynorska i Norvégia
+oc = Oksitania
+or = Odia
+pa-IN = Punjabia
+pl = Poland
+pt = Portugal
+rm-sursilv = Sursilvania i Rumania
+rm-vallader = Valladeria i Rumania
+ro = Rumania
+ru = Russia
+rw = Kinyarwanda
+sah = Sakha
+sc = Sardinia
+scn = Sisilia
+si = Singalia
+sk = Slovakia
+sl = Slovénia
+sq = Albania
+sr = Serbia
+sv-SE = Swidland
 sw = Swahili
-syr =
-    Syriaca
-    Syriaca
-ta =
-    Tamil
-    Tamil
-te =
-    Telugu
-    Telugu
-tg =
-    Tajikia
-    Tajikia
-th =
-    Thai
-    Thai
-tl =
-    Tagalog
-    Tagalog
-tr =
-    Turkia
-    Turkia
-tt =
-    Tatar
-    Tatar
-uby =
-    Ubik
-    Ubik
-udm =
-    Udmurt
-    Udmurt
-uk =
-    Ukrainia
-    Ukrainia
-ur =
-    Urdu
-    Urdu
-uz =
-    Uzbek
-    Uzbek
-vec =
-    Venetia
-    Venetia
-vi =
-    Vietnamia
-    Vietnamia
-vot =
-    Votik
-    Votik
-zh-CN =
-    China
-    China
-zh-HK =
-    China i Hong Kong
-    China ì Hong Kong
-zh-TW =
-    China i Taiwan
-    Chaina ì Taiwan
+syr = Syriaka
+ta = Tamil
+te = Telugu
+tg = Tajikia
+th = Thai
+tl = Tagalog
+tr = Turkia
+tt = Tatar
+uby = Ubik
+udm = Udmurt
+uk = Ukrainia
+ur = Urdu
+uz = Usbekia
+vec = Vénésia
+vi = Vietnamia
+vot = Votik
+zh-CN = Tjaina
+zh-HK = Tjaina i Hong Kong
+zh-TW = Tjaina i Taiwan
 
 # [/]
 
 
 ## Layout
 
-speak =
-    Pot
-    Pɔt
-speak-now =
-    Nano podok
-    Nânɔ pɔdɔk
-datasets =
-    Jomb li minje
-    Jɔ̀mb li minjɛ
-languages =
-    Mahop
-    Màhɔp
-about =
-    Bés bo nje?
-    Ɓěs ɓɔ̀ njɛɛ
-profile =
-    Mayimbne
-    Màyìmbnɛ
-help =
-    Mahôla
-    Màholâ
-contact =
-    Likoodene
-    Lìkɔ̀ɔ̀dɛnɛ
-privacy =
-    Matédél
-    Màtedel
-terms =
-    Mayegna
-    Màyɛ̀gna
-cookies =
-    Bicookies
-    Bìcookies
-faq =
-    FAQ
-    FAQ
+speak = Pot
+speak-now = Nano podok
+datasets = Jomb li minje
+languages = Mahop
+about = Bés bo nje?
+profile = Mayimbne
+help = Mahôla
+contact = Likoodene
+privacy = Matédél
+terms = Mayegna
+cookies = Bikookies
+faq = Bakom ba mambadga
 
 ## Home Page
 
