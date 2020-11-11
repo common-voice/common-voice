@@ -183,6 +183,13 @@ wall-of-text-more-desktop = I bitéé li lôñ, u nla sañge kiñ yoñ inyu 
 wall-of-text-first = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge ni njel i bikey gwés, ma nla hôla i kek kiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
 wall-of-text-second = Jôga li mayaa ma makiñ ma mbom i mandam ma kégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñnge li isolol makiñ, to nje a la gwélél jo.
 show-wall-of-text = Kônde añ
+help-us-title = Hôla bés i kémhe le ntôñ u bibuk u héli.
+help-us-explain = Nwot play, emble ni kal bés : ba u ntôñ bibuk u yé ha isi, u ñéña loñge?
+no-clips-to-validate = I nnene u yik we makiñ ma nsot inyu liemble munu unu hôp. Soho hôla bés le dikônde nôbe ndék i makiñ munu.
+vote-yes = Nn!
+vote-no = To
+toggle-play-tooltip = Nwot { shortcut-play-toggle } inyu liheñla i ka-play
+speak-subtitle = Pôôs kiñ yoñ.
 
 ## Account Benefits
 
