@@ -256,6 +256,7 @@ whats-public = Što je javno?
 email-not-public = Tvoju e-mail adresu nećemo javno objavljivati.
 recordings-and-locale-public = Broj snimaka i jezika kojima doprinosiš, bit će javni.
 username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime ili ne.
+demographic-deidentified-clarity-2 = Opcionalno podneseni demografski podatci (npr. dob, rod, jezik i naglasak) nikada neće biti javni na tvojem profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedini audio-isječci bit će povezani s demografskim podatcima radi točnije analize - npr. istraživač možda želi ciljani neki model uvježbavanja na određeni demografski segment.
 username-email-not-demographic = Tvoje korisničko ime i e-mail adresa neće biti povezani s objavljenim podacima.
 
 ## Speak & Listen Shortcuts
@@ -341,6 +342,7 @@ profile-close = Zatvori
 profile-explanation = Prati svoj napredak pomoću profila i pomogni ispravljati naše glasovne podatke.
 thanks-for-account = Zahvaljujemo što ste potvrdili svoj račun, a sada kreirajmo vaš profil.
 why-demographic = Zašto je to važno?
+why-demographic-explanation-2 = Anonimizirani korisnički podatci, kao što su dob, rod i naglasak, pomažu u poboljšanju audio-podataka koji se koriste za uvježbavanje točnosti pogona za prepoznavanje govora. Tvoje korisničko ime i e-pošta nikada neće biti povezani s podnesenim podatcima i možeš birati hoće li tvoje korisničko ime biti javno ili anonimno.
 accept-privacy = Slažem se s načinom upotrebe ovih podataka kao što je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>
 accept-privacy-title = Politika privatnosti
 login-identity = Identitet prijave
