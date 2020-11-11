@@ -177,7 +177,7 @@ logout = Pam
 
 home-title = Mozilla nyen a bibot Common Voice, ni ini njel le bikey bila nigil kiki bôt ba binam ba mpot i ntiik u lipodok
 home-cta = Podok, sañge kiñ yoñ hana!
-wall-of-text-start = Kiñ iyé bôk-ni-nyuu, kiñ i yé jô i nyuu. Inyu hala nyen lôôha yéñe a yé bés i kôhle kiñ i nla gwélna.
+wall-of-text-start = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge ni njel i bikey gwés, ma nla hôla i kek kiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
 
 ## Account Benefits
 
