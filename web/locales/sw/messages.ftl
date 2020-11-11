@@ -654,12 +654,19 @@ goal-reached = Lengo limefikiwa
 clips-you-recorded = Vipande vya sauti ulivyo rekodi
 clips-you-validated = Vipande vya sauti ulivyohalalisha
 todays-recorded-progress = Maendeleo ya Common Voice kwenye vipande vya sauti vilivyorekodiwa leo
+todays-validated-progress = Maendeleo ya leo ya Common Voice ya vipande vya sauti vilivyohalishwa
+stats = Takwimu
 awards = Tuzo
 you = Wewe
 everyone = Kila mtu
+contribution-activity = Shughuli ya uchangiaji
 top-contributors = Wachangiaji wakuu
 recorded-clips = Vipande vya sauti zilizorekodiwa
 validated-clips = Vipande vya sauti vilivyohalalishwa
+total-approved = Jumla ya zilizoidhinishwa
+overall-accuracy = Usahihi kwa ujumla
+set-visibility = Weka kuonekana kwangu
+visibility-overlay-note = Kumbuka: Ikiwa wasifu umewekwa kuwa 'unaonekana', mpangilio huu unaweza kubadilishwa kutoka kwenye ukurasa wa <profileLink> Wasifu</profileLink>
 
 ## Custom Goals
 
