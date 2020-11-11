@@ -565,6 +565,7 @@ contribute-more =
        *[other] Uko tayari kufanya { $count } zaidi?
     }
 record-cta = anza kurekodi
+record-platform-not-supported = Samahani, jukwaa la programu yako halitumiki kwa sasa.
 record-platform-not-supported-desktop = Kwenye vifaa vya tarakilishi unaweza kuchangia kwa kupakua…
 record-platform-not-supported-ios-non-safari = Kwenye iOS tafadhali endelea na jukwaa la Safari ili kuwezesha kurekodi…
 record-must-allow-microphone = Lazima uruhusu kinasa sauti kutumiwa
@@ -707,4 +708,7 @@ profile-form-delete = Futa wasifu
 ## Landing
 
 welcome-staff = Karibu wafanyikazi wa { $company }!
+help-contribute = Unaweza kusaidia kujenga daftari anuwai la chanzo wazi kwa kuunda wasifu wa Common Voice na kuchangia sauti yako.
 login-company = Ingia / Jisajili na barua pepe ya { $company }
+profile-not-required = Kuwa na wasifu hauhitajiki kuchangia ingawa inasaidia, tazama kwa nini hapa chini.
+read-more-about = Soma zaidi kwenye ukurasa wa kutuhusu
