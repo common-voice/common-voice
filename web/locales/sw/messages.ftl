@@ -730,6 +730,10 @@ n-clips-pluralized =
 help-share-goal = Tusaidie kupata sauti zaidi, sambaza lengo lako
 confirm-goal = Thibitisha lengo
 goal-interval-weekly = Kila wiki
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Sambaza vipande { $count } vya sauti kwa lengo lako la { $type } la kila siku
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Sambaza vipande { $count } vya sauti kwa lengo lako la { $type } la kila wiki
 share-goal-type-speak = Kuongea
 share-goal-type-listen = Kusikiliza
 share-goal-type-both = Kuongea na kusikiliza
