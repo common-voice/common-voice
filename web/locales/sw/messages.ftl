@@ -672,6 +672,8 @@ show-ranking = Onesha nafasi yangu
 ## Custom Goals
 
 get-started-goals = Anza na malengo
+create-custom-goal = Unda lengo linaloweza kubadilishwa
+goal-type = Unataka kujenga lengo la aina gani?
 both-speak-and-listen = Zote mbili
 both-speak-and-listen-long = Zote mbili (kuongea na kusikiliza)
 daily-goal = Lengo la kila siku.
@@ -680,13 +682,46 @@ easy-difficulty = Rahisi
 average-difficulty = Wastani
 difficult-difficulty = Ngumu
 pro-difficulty = Pro
+lose-goal-progress-warning = Kwa kuhariri lengo lako, unaweza kupoteza maendeleo yako yaliyopo.
 want-to-continue = Unataka kuendelea?
 finish-editing = Maaliza kuhariri kwanza?
+lose-changes-warning = Kuondoka sasa inamaanisha utapoteza mabadiliko yako
+build-custom-goal = Jenga lengo linaloweza kubadilika
+help-reach-hours-pluralized =
+    Saidia kufikia{ NUMBER($hours) ->
+        [one] saa { $hours }
+       *[other] saa { $hours }
+    }katika { $language } na lengo binafsi
+help-reach-hours-general-pluralized =
+    Saidia Common Voice kufikia{ NUMBER($hours) ->
+        [one] saa { $hours }
+       *[other] saa { $hours }
+    }katika lugha yenye lengo binafsi
 set-a-goal = Weka lengo
 cant-decide = Huwezi kuamua?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] saa { $totalHours }
+       *[other] saa { $totalHours }
+    }inafanikiwa kwa muda wa{ NUMBER($periodMonths) ->
+        [one] mwezi { $periodMonths }
+       *[other] miezi { $periodMonths }
+    }ikiwa{ NUMBER($people) ->
+        [one] mtu { $people }
+       *[other] watu { $people }
+    }wamerokodi{ NUMBER($clipsPerDay) ->
+        [one] kipande { $clipsPerDay } cha sauti
+       *[other] vipande { $clipsPerDay } vya sauti
+    }kwa siku.
 how-many-per-day = Vizuri! Vipande vingapi vya sauti kwa siku?
 how-many-a-week = Vizuri! Vipande vingapi vya sauti kwa wiki?
 which-goal-type = Unataka kuongea, usikiliza au zote mbili?
+receiving-emails-info =
+    Kwa sasa umepangwa kupokea ujumbe wa barua pepe kama vile ukumbusho wa lengo, sasisho zangu za maendeleo
+    na majarida kuhusu Common Voice
+not-receiving-emails-info =
+    Kwa sasa umepangwa <bold>KUTOPOKEA</bold> ujumbe wa barua pepe kama vile ukumbusho wa lengo, sasisho zangu za maendeleo
+    na majarida kuhusu Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] Kipande { $count } cha sauti
