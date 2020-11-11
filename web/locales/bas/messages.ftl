@@ -168,10 +168,16 @@ cookies = Bikookies
 faq = Bakom ba mambadga
 content-license-text = Bini bitilna bi ntjéma isi bitédél bi <licenseLink>Licence Creative Commons</licenseLink>
 share-title = H́ôla bés i léba bôt bape ba nla ti kiñ yap.
-share-text = Hôla bikey le bila nigil kiki bôt ba binam ba mpot i ntiik lipodok, pôôs kiñ yon yak { $link }
+share-text = Hôla bikey le bila nigil kiki bôt ba binam ba mpot i ntiik u lipodok, pôôs kiñ yon yak { $link }
+link-copied = Njañ i ñodlana
+back-top = Témp i ño u lipep
+logout = Pam
 
 ## Home Page
 
+home-title = Mozilla nyen a bibot Common Voice, ni ini njel le bikey bila nigil kiki bôt ba binam ba mpot i ntiik u lipodok
+home-cta = Podok, sañge kiñ yoñ hana!
+wall-of-text-start = Kiñ iyé bôk-ni-nyuu, kiñ i yé jô i nyuu. Inyu hala nyen lôôha yéñe a yé bés i kôhle kiñ i nla gwélna.
 
 ## Account Benefits
 
