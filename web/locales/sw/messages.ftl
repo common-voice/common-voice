@@ -693,8 +693,10 @@ share-goal = Sambaza lengo langu
 
 ## Profile Delete
 
+delete-q = Je! Ungependa kuomba rekodi zako za sauti zifutwe pia, ama unangependelea kuzihifadhi kwenye daftari la Common Voice?
 keep = Hifadhi
 remove = Ondoa
+keep-info = Rekodi zako za sauti zisizojulikana zitabaki katika daftari la Common Voice. Mara tu utakapofuta wasifu wako, hautaweza tena kutuma ombi la kuondoa rekodi zako kwenye daftari.
 
 ## Landing
 
