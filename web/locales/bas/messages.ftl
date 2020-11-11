@@ -166,6 +166,9 @@ privacy = Matédél
 terms = Mayegna
 cookies = Bikookies
 faq = Bakom ba mambadga
+content-license-text = Bini bitilna bi ntjéma isi bitédél bi <licenseLink>Licence Creative Commons</licenseLink>
+share-title = H́ôla bés i léba bôt bape ba nla ti kiñ yap.
+share-text = Hôla bikey le bila nigil kiki bôt ba binam ba mpot i ntiik lipodok, pôôs kiñ yon yak { $link }
 
 ## Home Page
 
