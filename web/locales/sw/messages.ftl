@@ -667,6 +667,7 @@ total-approved = Jumla ya zilizoidhinishwa
 overall-accuracy = Usahihi kwa ujumla
 set-visibility = Weka kuonekana kwangu
 visibility-overlay-note = Kumbuka: Ikiwa wasifu umewekwa kuwa 'unaonekana', mpangilio huu unaweza kubadilishwa kutoka kwenye ukurasa wa <profileLink> Wasifu</profileLink>
+show-ranking = Onesha nafasi yangu
 
 ## Custom Goals
 
