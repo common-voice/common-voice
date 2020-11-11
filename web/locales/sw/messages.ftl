@@ -737,6 +737,12 @@ share-n-weekly-contribution-goal = Sambaza vipande { $count } vya sauti kwa leng
 share-goal-type-speak = Kuongea
 share-goal-type-listen = Kusikiliza
 share-goal-type-both = Kuongea na kusikiliza
+# LINK will be replaced with the current URL
+goal-share-text = Nimeunda lengo binafsi la mchango wa sauti kwa #CommonVoice -- ungana nami kusaidia kufundisha mashine jinsi watu wanavyoongea { $link }
+weekly-goal-created = Lengo lako la kila wiki limeundwa
+daily-goal-created = Lengo lako la kila siku limeundwa
+track-progress = Fuatilia maendeleo hapa na kwenye ukurasa wako wa takwimu.
+return-to-edit-goal = Rudi hapa kuhariri lengo lako wakati wowote.
 share-goal = Sambaza lengo langu
 
 ## Profile Delete
