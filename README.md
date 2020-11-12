@@ -22,7 +22,7 @@ There are many ways to get involved with Common Voice - you don't have to know h
 
 - To add or correct the translation of the web interface, please use the [Mozilla localization platform Pontoon](https://pontoon.mozilla.org/projects/common-voice/). Please note, we do **not** accept any direct pull requests for changing localization content.
 - For information on how to add or edit sentences to Common Voice, see [SENTENCES.md](./docs/SENTENCES.md)
-- For instructions on setting up a local development environment, see [DEVELOPMENT.md](<(./docs/DEVELOPMENT.md)>)
+- For instructions on setting up a local development environment, see [DEVELOPMENT.md](./docs/DEVELOPMENT.md)
 - For information on how to add a new language to Common Voice, see [LANGUAGE.md](./docs/LANGUAGE.md)
 
 For more general guidance on building your own language community using Mozilla voice tools, please refer to the [Mozilla Voice Community Playbook](https://common-voice.github.io/community-playbook/).
