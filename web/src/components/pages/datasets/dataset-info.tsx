@@ -113,6 +113,7 @@ function renderStats(stats: any, bundleState: BundleState) {
   const localeStats = stats.locales[bundleState.bundleLocale];
 
   return Object.entries({
+    'dataset-date': stats.date,
     size: bundleState.size,
     'dataset-version': (
       <div className="version">
@@ -183,58 +184,99 @@ const DatasetCorpusDownload = ({
   api,
   releaseName,
 }: CorpusProps) => {
-  const stats = releases[releaseName];
-  const [locale, _] = useLocale();
-  let bundleLocale = (stats.locales as any)[locale] ? locale : 'en';
-  let localeStats = stats.locales[bundleLocale as keyof typeof stats.locales];
+  const generateBundleState = (
+    bundleLocale: string,
+    version: string,
+    localeStats: any
+  ) => {
+    return {
+      bundleLocale,
+      checksum: localeStats?.checksum || null,
+      rawSize: localeStats.size,
+      size: byteToSize(localeStats.size, getString),
+      language: getString(bundleLocale),
+      totalHours: formatHrs(localeStats.totalHrs),
+      validHours: formatHrs(localeStats.validHrs),
+      datasetVersion: version,
+    };
+  };
 
-  const [bundleState, setBundleState] = React.useState({
-    bundleLocale,
-    checksum: localeStats.checksum,
-    rawSize: localeStats.size,
-    size: byteToSize(localeStats.size, getString),
-    language: getString(bundleLocale),
-    totalHours: formatHrs(localeStats.totalHrs),
-    validHours: formatHrs(localeStats.validHrs),
-  });
+  const [locale, _] = useLocale();
+  const [releaseStats, setReleaseStats] = React.useState(releases[releaseName]);
+
+  let bundleLocale = releaseStats.locales[locale] ? locale : 'en';
+  let localeStats = releaseStats.locales[bundleLocale];
+
+  const [bundleState, setBundleState] = React.useState(
+    generateBundleState(bundleLocale, CURRENT_RELEASE, localeStats)
+  );
 
   const handleLangChange = ({ target }: any) => {
     const newLocale = target.value;
-    const newLocaleStats =
-      stats.locales[newLocale as keyof typeof stats.locales];
 
-    setBundleState({
-      bundleLocale: newLocale,
-      checksum: newLocaleStats.checksum,
-      rawSize: newLocaleStats.size,
-      size: byteToSize(newLocaleStats.size, getString),
-      language: getString(newLocale),
-      totalHours: formatHrs(newLocaleStats.totalHrs),
-      validHours: formatHrs(newLocaleStats.validHrs),
-    });
+    setBundleState(
+      generateBundleState(
+        newLocale,
+        bundleState.datasetVersion,
+        releaseStats.locales[newLocale]
+      )
+    );
+  };
+
+  const handleVersionChange = ({ target }: any) => {
+    const newDatasetVersion = target.value;
+    const newReleaseStats = releases[newDatasetVersion];
+    const locale = newReleaseStats.locales[bundleState.bundleLocale]
+      ? bundleState.bundleLocale
+      : 'en';
+
+    setReleaseStats(newReleaseStats);
+    setBundleState(
+      generateBundleState(
+        locale,
+        newDatasetVersion,
+        newReleaseStats.locales[locale]
+      )
+    );
   };
 
   return (
     <div className="info" id="demo-info">
       <div className="inner">
         <LabeledSelect
+          label={getString('release-version')}
+          name="datasetVersion"
+          value={bundleState.datasetVersion}
+          onChange={handleVersionChange}>
+          {Object.keys(releases).map(
+            releaseName =>
+              releases[releaseName].multilingual && (
+                <option key={releaseName} value={releaseName}>
+                  {releases[releaseName].name}
+                </option>
+              )
+          )}
+        </LabeledSelect>
+
+        <LabeledSelect
           label={getString('language')}
           name="bundleLocale"
           value={bundleState.bundleLocale}
           onChange={handleLangChange}>
-          {Object.keys(stats.locales).map(locale => (
+          {Object.keys(releaseStats.locales).map(locale => (
             <Localized key={locale} id={locale}>
               <option value={locale} />
             </Localized>
           ))}
         </LabeledSelect>
-        <ul className="facts">{renderStats(stats, bundleState)}</ul>
+
+        <ul className="facts">{renderStats(releaseStats, bundleState)}</ul>
         <DownloadEmailPrompt
           {...{
             api,
-            urlPattern: stats.bundleURLTemplate
-              ? stats.bundleURLTemplate
-              : stats.bundleUrl,
+            urlPattern: releaseStats.bundleURLTemplate
+              ? releaseStats.bundleURLTemplate
+              : releaseStats.bundleUrl,
             release: releaseName,
             bundleState,
           }}
@@ -259,6 +301,7 @@ const DownloadEmailPrompt = ({
     downloadLink: null,
     hideEmailForm: true,
     locale: bundleState.bundleLocale,
+    datasetVersion: bundleState.datasetVersion,
   });
 
   const {
@@ -268,22 +311,20 @@ const DownloadEmailPrompt = ({
     downloadLink,
     hideEmailForm,
     locale,
+    datasetVersion,
   } = formState;
 
-  const updateLink = (
-    locale: string,
-    confirmNoIdentify: boolean,
-    confirmSize: boolean,
-    bundleSize: number
-  ) => {
+  const updateLink = (bundleState: any, formState: any) => {
     // AWS CDN only supports files up to 20GB
     const urlRoot =
-      bundleSize >= 20 * 1024 * 1024 * 1024 ? URLS.S3_BUCKET : URLS.S3_CDN;
+      bundleState.rawSize >= 20 * 1024 * 1024 * 1024
+        ? URLS.S3_BUCKET
+        : URLS.S3_CDN;
 
     return emailInputRef.current?.checkValidity() &&
-      confirmNoIdentify &&
-      confirmSize
-      ? `${urlRoot}/${urlPattern.replace('{locale}', locale)}`
+      formState.confirmNoIdentify &&
+      formState.confirmSize
+      ? `${urlRoot}/${urlPattern.replace('{locale}', bundleState.bundleLocale)}`
       : null;
   };
 
@@ -302,29 +343,21 @@ const DownloadEmailPrompt = ({
       [target.name]: target.type !== 'checkbox' ? target.value : target.checked,
     };
 
-    let downloadLink = updateLink(
-      bundleState.bundleLocale,
-      newState.confirmNoIdentify,
-      newState.confirmSize,
-      bundleState.rawSize
-    );
-
     setFormState({
       ...newState,
-      downloadLink,
+      downloadLink: updateLink(bundleState, newState),
     });
   };
 
-  if (bundleState.bundleLocale != formState.locale) {
+  if (
+    bundleState.bundleLocale != formState.locale ||
+    bundleState.datasetVersion != formState.datasetVersion
+  ) {
     setFormState({
       ...formState,
-      downloadLink: updateLink(
-        bundleState.bundleLocale,
-        confirmNoIdentify,
-        confirmSize,
-        bundleState.rawSize
-      ),
+      downloadLink: updateLink(bundleState, formState),
       locale: bundleState.bundleLocale,
+      datasetVersion: bundleState.datasetVersion,
     });
   }
 
@@ -392,9 +425,11 @@ const DownloadEmailPrompt = ({
             </Localized>
             <CloudIcon />
           </LinkButton>
-          <div className="checksum">
-            <strong>sha256 checksum</strong>: {bundleState.checksum}
-          </div>
+          {bundleState.checksum && (
+            <div className="checksum">
+              <strong>sha256 checksum</strong>: {bundleState.checksum}
+            </div>
+          )}
         </>
       )}
     </>
@@ -452,6 +487,7 @@ const DatasetSegmentDownload = ({
     totalHours: formatHrs(stats.totalHrs),
     validHours: formatHrs(stats.totalValidHrs),
     rawSize: stats.overall.size,
+    datasetVersion: CURRENT_RELEASE,
   };
 
   const dotSettings = {
