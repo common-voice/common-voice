@@ -438,4 +438,10 @@ export default class API {
       method: 'GET',
     });
   }
+
+  getPublicUrl(path: string, bucketName: string): Promise<{ url: string }> {
+    return this.fetch(`${API_PATH}/bucket/${bucketName}/${path}`, {
+      method: 'GET',
+    });
+  }
 }

@@ -4,6 +4,7 @@ import { config, S3 } from 'aws-sdk';
 const awsDefaults = {
   signatureVersion: 'v4',
   useDualstack: true,
+  region: getConfig().BUCKET_LOCATION,
 };
 
 if (process.env.HTTP_PROXY) {

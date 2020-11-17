@@ -1,3 +1,5 @@
+// Note: When you release a new dataset, please make sure to
+// add it to the datasets table as well
 const releases = [
   'cv-corpus-1',
   'cv-corpus-2',
