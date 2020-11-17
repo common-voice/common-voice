@@ -173,6 +173,9 @@ username-email-not-demographic = U vostru nome d'utilizatore è indirizzu electr
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
 shortcut-play-toggle-label = Riproduce/Firmà
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -196,6 +199,14 @@ request-language-button = Richiede una lingua
 
 status-title = Statu generale di u prughjettu : fighjuleti comu simu ghjunti luntanu !
 status-contribute = Cuntribuisce cù a vostra voce
+status-hours =
+    { $hours ->
+        [one] un’ora cunvalidata per avà !
+       *[other] { $hours } ore cunvalidate per avà !
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Prossimu scopu : { $goal }
 english = Inglese
 
 ## ProfileForm
@@ -208,6 +219,8 @@ profile-form-accent =
     .label = Accentu
 profile-form-age =
     .label = Età
+profile-form-gender-2 =
+    .label = Generu
 hidden = Piattatu
 visible = Visìbile
 profile-form-submit-save = Arrighjistrà
@@ -217,6 +230,7 @@ female = Femina
 # Gender
 other = Altru
 why-profile-title = Parchì creà un prufilu ?
+why-profile-text = Pruvidendu infurmazione appuntu à voi, i dati vucale chì voi inviati à Common Voice sarani più ghjuvevule à i mutori di ricunniscenza vucale chì impiigani issi dati pà migliurà à so pricisione.
 build-profile = Creà u vostru prufilu
 avatar = Avatar
 goals = Ubbiettivi
@@ -227,13 +241,18 @@ profile-close = Sarrà
 profile-explanation = Tinite una traccia di i vostri prugressi è migliurate à pricisione di i vostri dati vucale cù un prufilu.
 thanks-for-account = Grazie pè avè cunfirmatu u vostru contu, avà criemu u vostru prufilu.
 why-demographic = Parchì hè impurtante ?
+why-demographic-explanation-2 = Dati anonimizzati cum’è l’età, u generu è l’accentu aiutani à migliurà i dati vucale impiigati pà addestrà i mutori di ricunniscenza vucale. U vostru nome d'utilizatore è indirizzu electronicu ùn sarani mai assuciati à i dati inviati, è pudeti sceglie di publicà o micca u vostru nome d'utilizatore.
 accept-privacy = Accunsentu à u trattementu di i dati comu spiecatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink> di Mozilla
 accept-privacy-title = Pulitica di Cunfidenzialità
 login-identity = Identità di sessione
 login-signup = Identificassi / Arrighjistrassi
 edit = Mudificà
 download-profile = Scaricà i mio dati
+contribution-experience = Spirienza di cuntribuzione
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
+avatar-clip-title = Deti una voce à u vostru avatar
+change-your-avatar-clip = Vuleti cambià u vostru campiunariu di voce ?
+avatar-clip-recorded = Avà, u vostru avatar cuntene un campiunariu vucale !
 
 ## FAQ
 
