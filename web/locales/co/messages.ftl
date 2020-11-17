@@ -253,6 +253,10 @@ skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà pe
 avatar-clip-title = Deti una voce à u vostru avatar
 change-your-avatar-clip = Vuleti cambià u vostru campiunariu di voce ?
 avatar-clip-recorded = Avà, u vostru avatar cuntene un campiunariu vucale !
+record-voice-wave = ARRIGISTRÀ L’ONDA VUCALE
+retry-voice-wave-recording = RIPRUVÀ
+ready-to-upload = CARICÀ
+recreate-voice = Ricreà l’onda vucale
 
 ## FAQ
 
