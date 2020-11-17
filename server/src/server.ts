@@ -6,6 +6,7 @@ import * as Sentry from '@sentry/node';
 import { NextFunction, Request, Response } from 'express';
 import { importLocales } from './lib/model/db/import-locales';
 import { importTargetSegments } from './lib/model/db/import-target-segments';
+import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
 import Model from './lib/model';
 import {
   getFullClipLeaderboard,
@@ -285,10 +286,13 @@ export default class Server {
     try {
       await this.model.performMaintenance();
       await importLocales();
+
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }
+
       await importTargetSegments();
+      await scrubUserActivity();
       this.print('Maintenance complete');
     } catch (err) {
       this.print('Maintenance error', err);
