@@ -257,9 +257,15 @@ record-voice-wave = ARRIGISTRÀ L’ONDA VUCALE
 retry-voice-wave-recording = RIPRUVÀ
 ready-to-upload = CARICÀ
 recreate-voice = Ricreà l’onda vucale
+browse-file-title = Caricà una figura
+browse-file = Trascineti è linteti o <browseWrap>Navigheti</browseWrap>
+file_too_large = U ducumentu sceltu hè troppu maiò
+email-already-used = ’Ss’indirizzu elettronicu hè dighjà utilizatu pà un altru contu
+add-language = Aghjunghje una lingua
 
 ## FAQ
 
+faq-what-cv-q = Chì hè Common Voice ?
 faq-why-important-q = Parchì hè impurtante ?
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
