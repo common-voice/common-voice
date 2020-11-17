@@ -4,16 +4,6 @@ yes-receive-emails = Já, sendið mér tölvupóst. Ég vil fylgjast með Samró
 stayintouch = Við hjá Mozilla erum að setja á laggirnar raddtæknisamfélag. Við viljum vera í sambandi varðandi uppfærslur, nýjar gagnaveitur og til að fá að heyra meira um hvernig þessi gögn eru nýtt.
 privacy-info = Við heitum því að meðhöndla upplýsingarnar þínar af varkárni. Nánar í <privacyLink>Tilkynningu um persónuvernd</privacyLink>.
 return-to-cv = Til baka í Samróm
-email-input =
-    .label = Tölvupóstur
-submit-form-action = Senda inn
-loading = Hleður...
-email-opt-in-info = Ég vil gjarnan fá tölvupóst um markmiðsáminningar, framvindu mína og fréttabréf Samróms.
-email-opt-in-info-title = Skrá sig á póstlista Samróms.
-email-opt-in-info-sub-with-challenge = Fá tölvupóst á borð við áskoranir og áminningar um markmið, framvindu og fréttabréf Samróms.
-email-opt-in-privacy-v2 = Með því að kjósa að fá tölvupóst frá okkur er samþykkt að Mozilla meðhöndli upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu Mozilla</privacyLink>.
-indicates-required = * táknar nauðsynlegan reit
-not-available-abbreviation = Á ekki við
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -21,16 +11,7 @@ not-available-abbreviation = Á ekki við
 
 ## Languages
 
-ab = Abkhasíska
-ace = Aseníska
-ady = Adygeyska
-af = Afríkanska
-am = Amharíska
-an = Aragónska
-ar = Arabíska
-arn = Mapudungun
 as = Assamíska
-ast = Astúríska
 az = Aserska
 ba = Baskírska
 bas = Bassa
@@ -759,89 +740,12 @@ create-custom-goal = Setja sérsniðið markmið
 goal-type = Hvers konar markmið viltu byggja upp?
 both-speak-and-listen = Hvort tveggja
 both-speak-and-listen-long = Hvort tveggja (tala og hlusta)
-daily-goal = Dagleg markmið
 weekly-goal = Vikuleg markmið
-easy-difficulty = Einfalt
-average-difficulty = Miðlungs
-difficult-difficulty = Erffitt
-pro-difficulty = Að atvinnu
-lose-goal-progress-warning = Með því að breyta markmiði, geturðu tapað þeim árangri sem þú hefur þá náð.
-want-to-continue = Viltu halda áfram?
-finish-editing = Ljúka ritvinnslu áður?
-lose-changes-warning = Ef hætt er að svo stöddu, þá glatast allar breytingar þínar til þessa
-build-custom-goal = Setja sér einstaklingsmiðað markmið
-help-reach-hours-pluralized =
-    Hjálpa að ná{ NUMBER($hours) ->
-        [one] { $hours } tíma
-       *[other] { $hours } tímum
-    }á { $language } með persónulegu markmiði
-help-reach-hours-general-pluralized =
-    Hjálpa Samrómi ná{ NUMBER($hours) ->
-        [one] { $hours } tíma
-       *[other] { $hours } tímum
-    }á tungumáli með persónulegu markmiði
-set-a-goal = Setja sér markmið
-cant-decide = Getur þú ekki ákveðið þig?
-activity-needed-calculation-plural =
-    { NUMBER($totalHours) ->
-        [one] { $totalHours } klukkutími
-       *[other] { $totalHours } klukkutímar
-    }eru í{ NUMBER($periodMonths) ->
-        [one] { $periodMonths } mánuði
-       *[other] { $periodMonths } mánuðum
-    }innan seilingar, þegar{ NUMBER($people) ->
-        [one] { $people } manneskja
-       *[other] { $people } manneskjur
-    }taka upp{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } upptöku
-       *[other] { $clipsPerDay } upptökur
-    }dag hvern.
 how-many-per-day = Frábært! Hversu margar upptökur á dag?
-how-many-a-week = Frábært! Hversu margar upptökur á viku?
-which-goal-type = Viltu tala, hlusta eða hvort tveggja?
-receiving-emails-info =
-    Þú ert skráður til að fá tölvupósta á borð við áminningar um markmið,¶
-    uppfærslur um árangur minn og fréttabréf um Samróm
-not-receiving-emails-info =
-    Þú ert sem stendur <bold>EKKI</bold> skráður til að tölvupósta á borð við áminningar um markmið,¶
-    uppfærslur um árangur minn og fréttabréf um Samróm
-n-clips-pluralized =
-    { NUMBER($count) ->
-        [one] { $count } hljóðupptaka
-       *[other] { $count } hljóðupptökur
-    }
 help-share-goal = Hjálpið okkur að finna fleiri raddir, deilið markmiðum ykkar með
-confirm-goal = Staðfesta markmið
-goal-interval-weekly = Vikulega
-# $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Deildu hinu daglega markmiði þínu, { $count } raddsýni af { $type }
-# $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Deildu hinu vikulega markmiði þínu, { $count } raddsýni af { $type }
-share-goal-type-speak = Talandi
-share-goal-type-listen = Hlustandi
-share-goal-type-both = Talandi og hlustandi
-# LINK will be replaced with the current URL
-goal-share-text = Ég var að setja mér það persónulega markmið að gefa #CommonVoice raddsýni mitt -- Sláist í för með mér og hjálpið að kenna vélum, hvernig hin almenna manneskja talar { $link }
-weekly-goal-created = Markmið viku hefur verið sett
-daily-goal-created = Markmið dags hefur verið sett
-track-progress = Rekja árangur sinn hér og á tölfræðisíðu sinni.
-return-to-edit-goal = Hér má breyta markmiði sínu hvenær sem er.
-share-goal = Deila markmiði sínu
 
 ## Profile Delete
 
-delete-q = Vilt þú fara fram á að þínum raddgögnum verði líka eytt, eða viltu frekar halda þeim í gagnasafni Samróms?
-keep = Halda
-remove = Fjarlægja
-keep-info = Nafnlausu raddgögnin þín verða áfram í gagnasafni Samróms. Þegar prófíl hefur verið eytt þá er ekki lengur hægt að biðja um að raddgögn honum tengd verði fjarlægð úr gagnasafninu.
-remove-info = Við munum skoða beiðni þína um að eyða raddgögnum úr gagnasafninu. Ef beiðnin er samþykkt, þá verður haft samband við þá sem hafa halað niður gagnasafninu og þeir líka beðnir um að eyða út raddgögnunum þínum.
-why-delete-recordings = Upptökusafn Samróms er ætlað handa fræðafólki, litlum fyrirtækjum og áhugafólki um raddgreiningu, í því skyni að þjálfa verkfæri á borð við raddlíkön, aðgengileg og opin almenningi.
-profile-form-delete = Eyða prófíl
 
 ## Landing
 
-welcome-staff = Velkomin/n { $company }!
-help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins gagnasafns með því að búa til Samróms aðgang og gefa raddsýni.
-login-company = Innskrá / nýskrá með netfangi hjá { $company }
-profile-not-required = Prófíls er ekki krafist til að taka þátt en hann er gagnlegur þó
-read-more-about = Lestu meira á um síðuna okkar
