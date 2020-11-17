@@ -706,7 +706,7 @@ report-offensive-speech = Urážky
 report-offensive-speech-detail = Věta obsahuje urážlivé nebo sprosté výrazy.
 report-other-comment =
     .placeholder = Komentář
-success = Úspěch
+success = Hotovo
 continue = Pokračovat
 report-success = Hlášení bylo odesláno
 
