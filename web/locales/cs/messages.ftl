@@ -685,6 +685,7 @@ share-title-new = <bold>Pomozte nám</bold> najít další hlasy
 keep-track-profile = Sledujte svůj pokrok pomocí profilu
 login-to-get-started = Přihlaste se či zaregistrujte a můžete začít
 target-segment-first-card = Přispíváte do prvního cílového segmentu
+target-segment-generic-card = Přispíváte do cílového segmentu
 target-segment-first-banner = Pomozte dosáhnout prvního cílového segmentu Common Voice v jazyce { $locale }
 target-segment-add-voice = Přidejte svůj hlas
 target-segment-learn-more = Zjistit více
@@ -706,7 +707,7 @@ report-offensive-speech = Urážky
 report-offensive-speech-detail = Věta obsahuje urážlivé nebo sprosté výrazy.
 report-other-comment =
     .placeholder = Komentář
-success = Úspěch
+success = Hotovo
 continue = Pokračovat
 report-success = Hlášení bylo odesláno
 

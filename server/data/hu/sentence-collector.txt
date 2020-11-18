@@ -478,7 +478,6 @@ A mi hóhérunk nagy emberbarát, és nem tudja nézni az elkeseredett arcokat.
 A mi kutyánk kölyke.
 A mi öreg fánkon egyetlenegy szem termett az ősszel.
 A mikróba tettem a félbevágott krumplikat.
-A miniszterelnök a megválasztásával hivatalba lép.
 A miniszterelnök megválasztásához az országgyűlési képviselők több mint a felének szavazata szükséges.
 A miniszterelnök rendeletben a miniszterek közül egy vagy több miniszterelnök-helyettest jelöl ki.
 A miniszterelnököt az Országgyűlés a köztársasági elnök javaslatára választja meg.
@@ -649,7 +648,6 @@ A szőke lány rémült mozdulattal kapott a fejéhez.
 A szőnyeg alá söpri a kérdést.
 A sánta és kancsal dietetikus csaj a kajáldában?
 A síremléket címerpajzs díszítette kék alapon tűzpirosan izzó létra.
-A sók vizes oldatait elektrolitoknak nevezzük.
 A sólyommadárnak nem lesz galamb fia.
 A sötét folyosón a foglyokra egy kalóz vigyázott, törökülésben kuporgott és cigarettázott.
 A súlyod valahogy kötődik az önértékelésedhez?
@@ -704,7 +702,6 @@ A többiek utánanéztek, és esküdni mertek volna rá, hogy nem normális.
 A többieknek is más gondjuk volt.
 A többit bízd rám!
 A töltött padlizsánom után megnyalod a tíz ujjad!
-A törvény tiltja a joggal való visszaélést.
 A török isten elröpült a ládájában az erdő fölé, s ott leereszkedett, hogy megpihenjen.
 A török isten így hát nem tudott többé repülni, s nem térhetett vissza mátkájához.
 A tündérlányok mindenkivel fordultak hármat, nehogy gőgösnek tartsák őket; különben a legszívesebben egymással táncoltak.
@@ -2232,7 +2229,6 @@ De nem akar ám bocsánatot kérni!
 De nem illetlenek soha, legföljebb, ha elrontják a gyomrukat, olyankor nyűgösködnek.
 De nem kell okvetlenül eltávolítania.
 De nem látom!
-De nem megy.
 De nem segíthetett rajta, még vigasztalni se tudta.
 De nem te vagy az egyetlen, aki mindenkinél okosabb a teremben.
 De nem tehetek róla!
@@ -2725,7 +2721,6 @@ Elég különös dolog volt, mert napok óta egy csepp eső sem esett.
 Elég régen.
 Elég sok számot ismerek innen, azokból az időkből, amikor bezárt a világítótorony.
 Elég szomorú dolog kismadárnak lenni, különösen haszontalan gyerekek kezében.
-Elég volt!
 Elégedetlenül.
 Elégedetten bólintott, és meresztette szemét az üres szövőszékre, nehogy megtudják, hogy semmit se lát.
 Elégedjék meg azzal, hogy megütöttem magam!
@@ -3876,7 +3871,6 @@ Hát nincs egyedül?
 Hát nyomára akadtam!
 Hát nézze!
 Hát olyan szép az a kályha?
-Hát persze.
 Hát személyesen vezet el bennünket, kedves egérkisasszony?
 Hát te leszel a tizenkettedik!
 Hát te miféle szerzet vagy?
@@ -4395,7 +4389,6 @@ Ki lehet, mi lehet?
 Ki minek nem mestere, hóhéra az annak.
 Ki mint vet, úgy arat.
 Ki mondta, hogy hozzányúlhatsz a táblámhoz?
-Ki nevet a végén?
 Ki sokba kap, keveset végez.
 Ki szaladt össze?
 Ki telefonált?
@@ -4560,7 +4553,6 @@ Kérnénk egy adag gombócot, de csak háromdarabosat!
 Kész is van.
 Készen volt már Kay szabadságlevele, ott állt kirakva fényes jégbetűkkel.
 Készen állnak, uraim?
-Készen álltok?
 Késő sütve.
 Késő van, nem vagyok túl jól attól a sok pillecukortól.
 Később a japán dzsiudzsicu birkózás fogásait mutatta be a matrózoknak.
@@ -5194,7 +5186,6 @@ Mi az, főnök?
 Mi az, hogy ez az?
 Mi az, hogy légyvadász?
 Mi az, talán nő a baj?
-Mi az?
 Mi baja?
 Mi bajod?
 Mi bizony a legkisebb uszonyunkat se mozdítjuk, hogy a végére járjunk!
@@ -5226,11 +5217,9 @@ Mi sokkal boldogabban élünk, mint odafönn a földi emberek.
 Mi sustorog a kemence mellett?
 Mi tehát itt a teendő?
 Mi tudjuk!
-Mi történik itt?
 Mi történik velünk?
 Mi történt azután?
 Mi történt körülöttem?
-Mi történt?
 Mi van itt, kérem?
 Mi van vele?
 Mi van, ha balesetet okozok?
@@ -6052,7 +6041,6 @@ Nem akart a fertelmes békánál lakni, sem rút fiához feleségül menni.
 Nem akart tőle elfogadni senki, valóságos csapás voltam neki.
 Nem az a legény, aki üti, hanem aki állja.
 Nem az, amit mondott.
-Nem az?
 Nem azért élünk, hogy együnk, hanem azért eszünk, hogy éljünk.
 Nem baj, fogódzófarkam van.
 Nem baj, ha itt maradok ma éjjel?
@@ -6251,14 +6239,12 @@ Nem tudok lőni, álcázom magam.
 Nem tudok semmiféle csempészésről!
 Nem tudom biztosra.
 Nem tudom elhinni, hogy kirúgott.
-Nem tudom!
 Nem tudom, hogy a Common Voice mintamondatokba betűvel kiírt számokat szabad-e tenni?
 Nem tudom, hogy a többi weboldal miért nem ilyen.
 Nem tudom, mennyire előnyös tulajdonneveket beletenni a mintamondatokba.
 Nem tudom, mi a jó.
 Nem tudom, mi ilyenkor a teendő.
 Nem tudom, mi lett a sorsa.
-Nem tudom.
 Nem tudott rá válaszolni se magának, se Gergelynek.
 Nem tudsz gyorsabban menni, Dávid?
 Nem tudsz olyat, ami faggyúról meg szalonnáról szól?
@@ -6311,7 +6297,6 @@ Nem ácsoroghatnak itt szegények tovább.
 Nem állhatok meg itt, ha már idáig eljutottam!
 Nem árulunk el a világért sem!
 Nem élhetek nélküle!
-Nem én.
 Nem éppen remetéhez méltóak.
 Nem érdekel, hogy mit hiszel.
 Nem érdekes, tartsd meg!

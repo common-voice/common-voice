@@ -489,6 +489,7 @@ data-other-librispeech-description = LibriSpeech ni daftari la takriban saa 1000
 data-other-ted-name = Daftari la TED-LIUM
 data-other-ted-description = Daftari la TED-LIUM liliundawa kutoka kwa mazungumzo ya sauti na nakala zao zinapatikana kwenye wavuti wa TED.
 data-other-voxforge-description = VoxForge ilianzishwa ili kukusanya sauti zilizonukuliwa kwa matumizi ya Injini za Utambuzi wa sauti zilizo bure na wazi kwa umma.
+data-other-tatoeba-description = Tatoeba ni hifadhidata kubwa ya sentensi, tafsiri, na sauti iliyotamkwa kwa matumizi ya ujifunzaji wa lugha. Upakuaji huu una mazungumzo ya Kiingereza yaliyorekodiwa na jamii yao.
 your-feedback = Je! Una maoni juu ya jinsi tunaweza kuboresha dafari la Common Voice? Tujulishe kwenye Discourse
 go-discourse = Nenda kwenye Discourse
 missing-language = Je! Huoni lugha yako ikijitokeza kwenye daftari? Kuomba lugha, elekea kwenye ukurasa wetu wa Lugha.
@@ -533,6 +534,7 @@ other-language = Lugha Nyingine
 language-section-in-progress = Inaendelea
 language-section-in-progress-new-description = Lugha hizi kwa sasa ziko chini ya maendeleo ya jamii. Chati za maendeleo zinaonyesha umbali gani kila lugha iko katika mchakato wa <localizationGlossaryLink> ujanibishaji wa wavuti </localizationGlossaryLink> na <sentenceCollectionGlossaryLink> ukusanyaji wa sentensi </sentenceCollectionGlossaryLink>.
 language-section-launched = Imeanzishwa
+language-section-launched-description = Kwa lugha hizi zilizozinduliwa, wavuti umefanikiwa <localizationGlossaryLink>kujabinishwa</localizationGlossaryLink>, na ina <sentenceCollectionGlossaryLink>sentensi za kutosha zilizokusanywa</sentenceCollectionGlossaryLink> ili kuruhusu michango ya <speakLink>kuongea</speakLink> na <listenLink>kusikiliza</listenLink> iendelee
 languages-show-more = Tazama Yaliyofichika
 languages-show-less = Punguza Yanayoonekana
 language-meter-in-progress = Maendeleo
@@ -565,6 +567,7 @@ contribute-more =
        *[other] Uko tayari kufanya { $count } zaidi?
     }
 record-cta = anza kurekodi
+record-platform-not-supported = Samahani, jukwaa la programu yako halitumiki kwa sasa.
 record-platform-not-supported-desktop = Kwenye vifaa vya tarakilishi unaweza kuchangia kwa kupakua…
 record-platform-not-supported-ios-non-safari = Kwenye iOS tafadhali endelea na jukwaa la Safari ili kuwezesha kurekodi…
 record-must-allow-microphone = Lazima uruhusu kinasa sauti kutumiwa
@@ -653,16 +656,26 @@ goal-reached = Lengo limefikiwa
 clips-you-recorded = Vipande vya sauti ulivyo rekodi
 clips-you-validated = Vipande vya sauti ulivyohalalisha
 todays-recorded-progress = Maendeleo ya Common Voice kwenye vipande vya sauti vilivyorekodiwa leo
+todays-validated-progress = Maendeleo ya leo ya Common Voice ya vipande vya sauti vilivyohalishwa
+stats = Takwimu
 awards = Tuzo
 you = Wewe
 everyone = Kila mtu
+contribution-activity = Shughuli ya uchangiaji
 top-contributors = Wachangiaji wakuu
 recorded-clips = Vipande vya sauti zilizorekodiwa
 validated-clips = Vipande vya sauti vilivyohalalishwa
+total-approved = Jumla ya zilizoidhinishwa
+overall-accuracy = Usahihi kwa ujumla
+set-visibility = Weka kuonekana kwangu
+visibility-overlay-note = Kumbuka: Ikiwa wasifu umewekwa kuwa 'unaonekana', mpangilio huu unaweza kubadilishwa kutoka kwenye ukurasa wa <profileLink> Wasifu</profileLink>
+show-ranking = Onesha nafasi yangu
 
 ## Custom Goals
 
 get-started-goals = Anza na malengo
+create-custom-goal = Unda lengo linaloweza kubadilishwa
+goal-type = Unataka kujenga lengo la aina gani?
 both-speak-and-listen = Zote mbili
 both-speak-and-listen-long = Zote mbili (kuongea na kusikiliza)
 daily-goal = Lengo la kila siku.
@@ -671,13 +684,46 @@ easy-difficulty = Rahisi
 average-difficulty = Wastani
 difficult-difficulty = Ngumu
 pro-difficulty = Pro
+lose-goal-progress-warning = Kwa kuhariri lengo lako, unaweza kupoteza maendeleo yako yaliyopo.
 want-to-continue = Unataka kuendelea?
 finish-editing = Maaliza kuhariri kwanza?
+lose-changes-warning = Kuondoka sasa inamaanisha utapoteza mabadiliko yako
+build-custom-goal = Jenga lengo linaloweza kubadilika
+help-reach-hours-pluralized =
+    Saidia kufikia{ NUMBER($hours) ->
+        [one] saa { $hours }
+       *[other] saa { $hours }
+    }katika { $language } na lengo binafsi
+help-reach-hours-general-pluralized =
+    Saidia Common Voice kufikia{ NUMBER($hours) ->
+        [one] saa { $hours }
+       *[other] saa { $hours }
+    }katika lugha yenye lengo binafsi
 set-a-goal = Weka lengo
 cant-decide = Huwezi kuamua?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] saa { $totalHours }
+       *[other] saa { $totalHours }
+    }inafanikiwa kwa muda wa{ NUMBER($periodMonths) ->
+        [one] mwezi { $periodMonths }
+       *[other] miezi { $periodMonths }
+    }ikiwa{ NUMBER($people) ->
+        [one] mtu { $people }
+       *[other] watu { $people }
+    }wamerokodi{ NUMBER($clipsPerDay) ->
+        [one] kipande { $clipsPerDay } cha sauti
+       *[other] vipande { $clipsPerDay } vya sauti
+    }kwa siku.
 how-many-per-day = Vizuri! Vipande vingapi vya sauti kwa siku?
 how-many-a-week = Vizuri! Vipande vingapi vya sauti kwa wiki?
 which-goal-type = Unataka kuongea, usikiliza au zote mbili?
+receiving-emails-info =
+    Kwa sasa umepangwa kupokea ujumbe wa barua pepe kama vile ukumbusho wa lengo, sasisho zangu za maendeleo
+    na majarida kuhusu Common Voice
+not-receiving-emails-info =
+    Kwa sasa umepangwa <bold>KUTOPOKEA</bold> ujumbe wa barua pepe kama vile ukumbusho wa lengo, sasisho zangu za maendeleo
+    na majarida kuhusu Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] Kipande { $count } cha sauti
@@ -686,16 +732,38 @@ n-clips-pluralized =
 help-share-goal = Tusaidie kupata sauti zaidi, sambaza lengo lako
 confirm-goal = Thibitisha lengo
 goal-interval-weekly = Kila wiki
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Sambaza vipande { $count } vya sauti kwa lengo lako la { $type } la kila siku
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Sambaza vipande { $count } vya sauti kwa lengo lako la { $type } la kila wiki
 share-goal-type-speak = Kuongea
 share-goal-type-listen = Kusikiliza
 share-goal-type-both = Kuongea na kusikiliza
+# LINK will be replaced with the current URL
+goal-share-text = Nimeunda lengo binafsi la mchango wa sauti kwa #CommonVoice -- ungana nami kusaidia kufundisha mashine jinsi watu wanavyoongea { $link }
+weekly-goal-created = Lengo lako la kila wiki limeundwa
+daily-goal-created = Lengo lako la kila siku limeundwa
+track-progress = Fuatilia maendeleo hapa na kwenye ukurasa wako wa takwimu.
+return-to-edit-goal = Rudi hapa kuhariri lengo lako wakati wowote.
 share-goal = Sambaza lengo langu
 
 ## Profile Delete
 
+delete-q = Je! Ungependa kuomba rekodi zako za sauti zifutwe pia, ama unangependelea kuzihifadhi kwenye daftari la Common Voice?
 keep = Hifadhi
 remove = Ondoa
+keep-info = Rekodi zako za sauti zisizojulikana zitabaki katika daftari la Common Voice. Mara tu utakapofuta wasifu wako, hautaweza tena kutuma ombi la kuondoa rekodi zako kwenye daftari.
+remove-info = Tutakagua ombi lako la kuondoa rekodi zako za sauti kutoka kwenye daftari. Ikiwa ombi lako limeidhinishwa, tutawasiliana na wale ambao walishapakua daftari na tutaomba waondoe rekodi zako za sauti pia.
+why-delete-recordings =
+    Rekodi za Common Voice hutumiwa na wasomi, biashara ndogo ndogo, na wapenda utambuzi wa sauti kusaidia kufundisha na kukuza rasilimali zinazopatikana hadharani kama mifano ya sauti.
+    
+    Je! Unaweza kutujulisha kwa nini ungependa rekodi zako zifutwe?
+profile-form-delete = Futa wasifu
 
 ## Landing
 
+welcome-staff = Karibu wafanyikazi wa { $company }!
+help-contribute = Unaweza kusaidia kujenga daftari anuwai la chanzo wazi kwa kuunda wasifu wa Common Voice na kuchangia sauti yako.
 login-company = Ingia / Jisajili na barua pepe ya { $company }
+profile-not-required = Kuwa na wasifu hauhitajiki kuchangia ingawa inasaidia, tazama kwa nini hapa chini.
+read-more-about = Soma zaidi kwenye ukurasa wa kutuhusu

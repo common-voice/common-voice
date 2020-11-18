@@ -4,6 +4,7 @@ import Schema from './db/schema';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 import { ChallengeToken, Sentence } from 'common';
+import { features } from 'common';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -125,6 +126,16 @@ export default class DB {
   }
 
   /**
+   * Check whether target segment is live for this language
+   */
+  private inBenchmark(locale: string): boolean {
+    return (
+      getConfig().BENCHMARK_LIVE &&
+      features.singleword_benchmark.locales.includes(locale)
+    );
+  }
+
+  /**
    * Ensure the database is setup.
    */
   async ensureSetup(): Promise<void> {
@@ -197,7 +208,7 @@ export default class DB {
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
 
-    if (getConfig().BENCHMARK_LIVE) {
+    if (this.inBenchmark(locale)) {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
         client_id,
         locale_id,
@@ -309,7 +320,7 @@ export default class DB {
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
 
-    if (getConfig().BENCHMARK_LIVE) {
+    if (this.inBenchmark(locale)) {
       taxonomySentences = await this.findClipsMatchingTaxonomy(
         client_id,
         locale_id,

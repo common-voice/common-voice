@@ -23,7 +23,7 @@ export default class Bucket {
     return this.s3.getSignedUrl('getObject', {
       Bucket: getConfig().BUCKET_NAME,
       Key: key,
-      Expires: 24 * 60 * 30,
+      Expires: 60 * 60 * 12,
     });
   }
 
@@ -35,32 +35,44 @@ export default class Bucket {
     locale: string,
     count: number
   ): Promise<Clip[]> {
-    const clips = await this.model.findEligibleClips(client_id, locale, count);
-    try {
-      return await Promise.all(
-        clips.map(
-          async ({ id, path, sentence, original_sentence_id, taxonomy }) => {
-            // We get a 400 from the signed URL without this request
-            await this.s3
-              .headObject({
-                Bucket: getConfig().BUCKET_NAME,
-                Key: path,
-              })
-              .promise();
+    // Get more clip IDs than are required in case some are broken links or clips
+    const clips = await this.model.findEligibleClips(
+      client_id,
+      locale,
+      Math.ceil(count * 1.5)
+    );
+    const clipPromises: Clip[] = [];
 
-            return {
-              id: id.toString(),
-              glob: path.replace('.mp3', ''),
-              sentence: { id: original_sentence_id, text: sentence, taxonomy },
-              audioSrc: this.getPublicUrl(path),
-            };
-          }
-        )
-      );
-    } catch (e) {
-      console.log('aws error', e, e.stack);
-      return [];
+    // Use for instead of .map so that it can break once enough clips are assembled
+    for (let i = 0; i < clips.length; i++) {
+      const { id, path, sentence, original_sentence_id, taxonomy } = clips[i];
+
+      try {
+        const metadata = await this.s3
+          .headObject({
+            Bucket: getConfig().BUCKET_NAME,
+            Key: path,
+          })
+          .promise();
+
+        if (metadata.ContentLength >= 256) {
+          clipPromises.push({
+            id: id.toString(),
+            glob: path.replace('.mp3', ''),
+            sentence: { id: original_sentence_id, text: sentence, taxonomy },
+            audioSrc: this.getPublicUrl(path),
+          });
+        } else {
+          console.log(`Clip id ${id} was smaller than 256 bytes`);
+        }
+
+        if (clipPromises.length == count) break;
+      } catch (e) {
+        console.log(`aws error retrieving clipID ${id}`);
+      }
     }
+
+    return Promise.all(clipPromises);
   }
 
   getAvatarClipsUrl(path: string) {
