@@ -39,7 +39,7 @@ export default class Bucket {
     const clips = await this.model.findEligibleClips(
       client_id,
       locale,
-      count * 1.5
+      Math.ceil(count * 1.5)
     );
     const clipPromises: Clip[] = [];
 
