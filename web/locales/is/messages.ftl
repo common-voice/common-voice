@@ -682,8 +682,9 @@ record-button-label = Raddupptaka
 share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
 keep-track-profile = Rekja framfarir sínar með prófíl
 login-to-get-started = Innskráning eða nýskráning
-target-segment-first-card = Þú leggur af mörkum til okkar fyrstu markmiða
-target-segment-first-banner = Hjálpa til við að klára fyrsta markhluta Samróms í { $locale }
+target-segment-first-card = Þú leggur af mörkum til okkar fyrsta hlutamarkmiðs
+target-segment-generic-card = Þú leggur af mörkum til hlutamarkmiðs
+target-segment-first-banner = Hjálpa til við að klára fyrsta hlutamarkmið Samróms í { $locale }
 target-segment-add-voice = Bæta rödd sinni
 target-segment-learn-more = Læra meira
 
@@ -773,12 +774,12 @@ help-reach-hours-pluralized =
     Hjálpa að ná{ NUMBER($hours) ->
         [one] { $hours } tíma
        *[other] { $hours } tímum
-    }á { $language } með persónulegu markmiði
+    }á { $language } með persónulegu markmiði.
 help-reach-hours-general-pluralized =
     Hjálpa Samrómi ná{ NUMBER($hours) ->
         [one] { $hours } tíma
        *[other] { $hours } tímum
-    }á tungumáli með persónulegu markmiði
+    }á tungumáli með persónulegu markmiði.
 set-a-goal = Setja sér markmið
 cant-decide = Getur þú ekki ákveðið þig?
 activity-needed-calculation-plural =

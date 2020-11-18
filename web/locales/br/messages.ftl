@@ -33,6 +33,7 @@ as = Asameg
 ast = Asturieg
 az = Azerbaidjaneg
 ba = Bachkireg
+bas = Basaaeg
 be = Belaruseg
 bg = Bulgareg
 bm = Bambara
@@ -248,6 +249,7 @@ whats-public = Petra a zo foran?
 email-not-public = Ne lakaimp ket foran ho chomlec'h postel.
 recordings-and-locale-public = An niver a enrolladennoù hag ar yezhoù a gemerit perzh eno a vo foran.
 username-optin-public = Gellout a raer lakaat foran pe dizanv hoc'h anv-implijer.
+demographic-deidentified-clarity-2 = Ar roadennoù poblañsouriezh diret roet (sk. oad, jener, yezh ha pouez-mouezh) na vezint morse lakaet da foran war ho frofil, ha ne vo ket liammet d'ho kont er spletad roadennoù. Ar c'hlipoù aodio a vo liammet gant ar roadennoù poblañsouriezh evit ma vefe resisoc'h an dielfennadenn - da skouer, un enklasker a c'hallfe kaout c'hoant da vukañ ur patrom gourdonañ evit ul lodenn resis eus ar boblañs.
 username-email-not-demographic = Hoc'h anv implijer hag ho chomlec'h postel na vezo ket liammet gant ar roadennoù embannet.
 
 ## Speak & Listen Shortcuts
@@ -335,6 +337,7 @@ profile-close = Serriñ
 profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
 thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profil bremañ.
 why-demographic = Perak e vez pouezus?
+why-demographic-explanation-2 = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc'h anv-implijer hag ho chomlec'h postel d'ar roadennoù a vez kaset ganeoc'h, ha gellout a rit dibab etre lakaat publik hoc'h anv-implijer pe chom dizanv.
 accept-privacy = Asantiñ a ran ec'h implijfec'h ar pezh titour-mañ evel ma vez lavaret e <privacyLink>politikerezh a-fet buhez prevez</privacyLink> Mozilla
 accept-privacy-title = Reolenn a-fet buhez prevez
 login-identity = Identelezh kevreañ
@@ -687,6 +690,7 @@ share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
 keep-track-profile = Heuilhit hoc'h araokadennoù gant ur profil
 login-to-get-started = Kennaskit pe lakait hoc'h anv evit kregiñ ganti
 target-segment-first-card = Kendeurel a rit d'hor dazrann vukenn gentañ
+target-segment-generic-card = Kendeurel a rit d'un dazrann vukenn
 target-segment-first-banner = Skoazellit da grouiñ dazrann gentañ Common Voice e { $locale }
 target-segment-add-voice = Ouzhpennit ho mouezh
 target-segment-learn-more = Gouzout hiroc'h
@@ -782,6 +786,14 @@ want-to-continue = Fellout a ra deoc'h kenderc'hel ganti?
 finish-editing = Echuiñ gant an embann a-raok?
 lose-changes-warning = En ur guitaat bremañ e kollot ho kemmoù
 build-custom-goal = Sevel ur pal personelaet
+help-reach-hours-pluralized =
+    Skoazellit da dizhout{ NUMBER($hours) ->
+        [one] { $hours } eur
+        [two] { $hours } eur
+        [few] { $hours } eur
+        [many] { $hours } a eurvezhioù
+       *[other] { $hours } eur
+    }e { $language } gant ur pal personelaet
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
 how-many-per-day = Dispar! Pegement a glipoù bemdez?

@@ -121,8 +121,10 @@ vote-no = Innò
 toggle-play-tooltip = Appughjeti { shortcut-play-toggle } pà lancià ò piantà a lettura
 speak-subtitle = Deti a vostra voce
 speak-paragraph = L'arrighjistramentu di voce hè una parte fundamintale di a custruzzione di a nostra basa di dati ; sicondu à certi, ghjè ancu a parte à più divirtente.
+speak-goal-text = Campiunarii arrighjistrati
 listen-subtitle = Aiutateci à cunvalidà arrighjistramenti
 listen-paragraph = Validà l'arrighjistramenti dunati hè altrettantu impurtante pè a missione Common Voice. Ascultate è aiutateci à creà una basa di dati vucale di qualità.
+listen-goal-text = Campiunarii cunvalidati
 hours-recorded = Ore Arrighjistrate
 hours-validated = Ore Cunvalidate
 voices-online = Voce attualmente in linea
@@ -136,6 +138,11 @@ x-weeks-short =
     { $count ->
         [one] Settimana
        *[other] { $count } sett
+    }
+x-years-short =
+    { $count ->
+        [one] annu
+       *[other] anni
     }
 help-make-dataset = Aiutateci à custruisce una banca di dati d'alta qualità, aperta à u publicu
 sign-up-account = Creà u so contu
@@ -166,9 +173,24 @@ username-email-not-demographic = U vostru nome d'utilizatore è indirizzu electr
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+shortcut-play-toggle-label = Riproduce/Firmà
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = i
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = a
+shortcut-record-toggle-label = Arrighjistrà/Firmà
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rifà l’arrighjistramentu
 request-language-text = Ùn viditi micca a vostra lingua in Common Voice ?
 request-language-button = Richiede una lingua
@@ -177,16 +199,28 @@ request-language-button = Richiede una lingua
 
 status-title = Statu generale di u prughjettu : fighjuleti comu simu ghjunti luntanu !
 status-contribute = Cuntribuisce cù a vostra voce
+status-hours =
+    { $hours ->
+        [one] un’ora cunvalidata per avà !
+       *[other] { $hours } ore cunvalidate per avà !
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Prossimu scopu : { $goal }
 english = Inglese
 
 ## ProfileForm
 
 profile-form-username =
     .label = Nome d’utilizatore
+profile-form-additional-language =
+    .label = Lingua addizziunala
 profile-form-accent =
     .label = Accentu
 profile-form-age =
     .label = Età
+profile-form-gender-2 =
+    .label = Generu
 hidden = Piattatu
 visible = Visìbile
 profile-form-submit-save = Arrighjistrà
@@ -196,17 +230,46 @@ female = Femina
 # Gender
 other = Altru
 why-profile-title = Parchì creà un prufilu ?
+why-profile-text = Pruvidendu infurmazione appuntu à voi, i dati vucale chì voi inviati à Common Voice sarani più ghjuvevule à i mutori di ricunniscenza vucale chì impiigani issi dati pà migliurà à so pricisione.
 build-profile = Creà u vostru prufilu
 avatar = Avatar
 goals = Ubbiettivi
+settings = Prifirenze
+edit-profile = Mudificà u prufilu
+profile-create-success = Eccu, prufilu creatu !
 profile-close = Sarrà
+profile-explanation = Tinite una traccia di i vostri prugressi è migliurate à pricisione di i vostri dati vucale cù un prufilu.
+thanks-for-account = Grazie pè avè cunfirmatu u vostru contu, avà criemu u vostru prufilu.
 why-demographic = Parchì hè impurtante ?
+why-demographic-explanation-2 = Dati anonimizzati cum’è l’età, u generu è l’accentu aiutani à migliurà i dati vucale impiigati pà addestrà i mutori di ricunniscenza vucale. U vostru nome d'utilizatore è indirizzu electronicu ùn sarani mai assuciati à i dati inviati, è pudeti sceglie di publicà o micca u vostru nome d'utilizatore.
+accept-privacy = Accunsentu à u trattementu di i dati comu spiecatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink> di Mozilla
+accept-privacy-title = Pulitica di Cunfidenzialità
+login-identity = Identità di sessione
+login-signup = Identificassi / Arrighjistrassi
+edit = Mudificà
+download-profile = Scaricà i mio dati
+contribution-experience = Spirienza di cuntribuzione
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
+avatar-clip-title = Deti una voce à u vostru avatar
+change-your-avatar-clip = Vuleti cambià u vostru campiunariu di voce ?
+avatar-clip-recorded = Avà, u vostru avatar cuntene un campiunariu vucale !
+record-voice-wave = ARRIGISTRÀ L’ONDA VUCALE
+retry-voice-wave-recording = RIPRUVÀ
+ready-to-upload = CARICÀ
+recreate-voice = Ricreà l’onda vucale
+browse-file-title = Caricà una figura
+browse-file = Trascineti è linteti o <browseWrap>Navigheti</browseWrap>
+file_too_large = U ducumentu sceltu hè troppu maiò
+email-already-used = ’Ss’indirizzu elettronicu hè dighjà utilizatu pà un altru contu
+add-language = Aghjunghje una lingua
 
 ## FAQ
 
+faq-what-cv-q = Chì hè Common Voice ?
+faq-why-important-q = Parchì hè impurtante ?
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
+faq-what-cv-and-deepspeech-q = Chì gjhè a differenza trà Common Voice è Deep Speech ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-search-for-answers =
     .label = Circà risposte
@@ -220,18 +283,33 @@ about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da
 about-listen-queue-text = L'arrighjistramenti vucali sò mandati in una fila d'attesa induve sarani approntati pè l'ascolta.
 about-listen-text = L'utilizatori cunvalidanu l'esatezza di i campiunarii dunati, verifichendu chì l'uratori ani lettu a frasa currittamente.
 about-dataset-new = Basa di dati Common Voice
+about-clip-graveyard-text = U campu santu di i campiunarii hè custituitu di tutti i campiunarii chì ùn sò micca stati cunvalidati pà fà parte di a banca di dati Common Voice. Cum'è edda, u campu santu di i campiuanarii pò esse scaricatu libaramente.
 about-partners = Partinarii
 about-become-a-partner = Diventà un partinariu
 about-get-involved = Impegnassi
+about-nav-why-common-voice = Parchì ?
+about-nav-how-it-works = Comu ?
+about-nav-partners = Partinarii
+about-nav-get-involved = Impegnassi
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Intelligenza artificiale
 
 ## Glossary
 
+glossary = Glussariu
+localization-explanation = Questu hè u nostru prucessu pà traduce è adattà u nostru cuntinutu à mori di lingue.
+sentence-collection = Racolta d'infrasate
 
 ## Error pages
 
+error-title-404 = Ùn pudemu micca truvà questa pagina per voi
+error-code = Errore { $code }
 
 ## Data
 
+data-download-button = Scaricà i dati di Common Voice
+data-download-yes = Iè
+data-download-deny = Innò
 review-cancel = Annuddà l'inviu
 
 ## Datasets Page

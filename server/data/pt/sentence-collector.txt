@@ -250,12 +250,14 @@ A Arábia Saudita é um país do Oriente Médio.
 A Camila morou em João Pessoa por seis anos.
 A Catalunha viveu uma miragem em relação às tecnologias de informação e comunicação.
 A Clara sabia que tinha que morar em Natal.
+A Clara se separou do Alexandre.
 A Cristiane não saiu do Facebook
 A Dinamarca é pioneira da energia eólica renovável.
 A Elisa não convidou Eliane pro seu chá de bebê.
 A Espanha está produzindo lotes de alface? páprica e tomates.
 A Europa é um pouco menor que o Brasil.
 A Fine Manufacturing Company foi contadora por catorze anos.
+A Globo vai transmitir a partida.
 A Guarda Civil chegou ao local
 A Guerra Japonês-Russa
 A Inglaterra tinha corrido para esse novo curso com uma espécie de raiva.
@@ -265,6 +267,7 @@ A Internet era uma janela de oportunidade para idiomas minoritários.
 A Internet é construída sobre muitos protocolos que se complementam perfeitamente.
 A Kim Kardashian é linda.
 A Kylie Jenner é muito famosa.
+A Latam fez uma promoção ontem.
 A Letônia e a Estônia estão entre o Mar Báltico e a Rússia.
 A Literatura é a técnica de compor e expor textos escritos.
 A Luísa procurou um emprego na Schincariol.
@@ -293,6 +296,7 @@ A Vanessa convidou o Fernando pro seu aniversário.
 A Wikipedia é uma organização sem fins lucrativos.
 A aba do chapéu era larga e muito caída.
 A abordagem proposta fornece resultados de última geração a um custo computacional muito baixo.
+A aeromoça serviu a refeição.
 A agricultura foi uma conquista muito importante na história da humanidade.
 A alegria de toda criança é o estaleiro.
 A alegria suaviza o caminho da vida.
@@ -319,6 +323,7 @@ A atmosfera estava impregnada com o doce aroma de fumaça.
 A atração é usada para pegar truta e linguado.
 A avaliação deve ser estendida para outros conjuntos de dados.
 A avaliação será a média aritmética das três questões escolhidas pelo oponente.
+A aviação é um mercado disputado.
 A ação ainda é suave
 A baleia azul é um animal enorme.
 A banda está se preparando para o seu desempenho
@@ -409,6 +414,8 @@ A comunicação não verbal é, por vezes, mais significativa do que as palavras
 A condenação é menos temível e mais segura.
 A condição está piorando
 A constituição de seu apartamento não era ideal.
+A conta dela foi hackeada.
+A conta dele foi hackeada.
 A conta foi encerrada.
 A contribuição média anual nessa localidade é setenta hectómetros cúbicos.
 A conversa de um homem bêbado é um pensamento de homem sóbrio.
@@ -670,7 +677,12 @@ A mesa redonda será realizada na Escola Universitária Politécnica de Mataró.
 A mesma mão que brandira a espada agora continha um chicote.
 A mesma voz que eu
 A metade conquistada do mundo nas costas de seu cavalo.
+A milícia atua naquela comunidade.
+A milícia dominou a favela.
+A milícia e os traficantes estão em conflito.
+A milícia entrou na favela.
 A milícia está infiltrada.
+A milícia extorque os comerciantes e moradores da região.
 A milícia tem apoio de um segmento da sociedade.
 A mina de cobalto foi abandonada há décadas.
 A mineração de Bitcoin pode ser feita com placas gráficas ou com hardware especializado.
@@ -771,8 +783,12 @@ A perda de uma pessoa é o lucro de outra pessoa.
 A perda do cruzador foi um golpe para a frota.
 A perda do segundo navio foi difícil de suportar.
 A perdiz cansada é mais delicada.
+A perícia ainda não liberou o local.
+A perícia apontou o responsável pelo crime.
 A perícia concluiu que ele não estava no local do crime
 A perícia estadual será acionada para investigar o caso
+A perícia examinou o local.
+A perícia indicou o suspeito pelo crime.
 A pesquisa estava em progresso.
 A pessoa de capuz vermelho salta da pilha de pedras.
 A pessoa está construindo o trabalho.
@@ -828,6 +844,7 @@ A produção do conhecimento.
 A professora liberou os alunos.
 A programação requer cérebros.
 A proposta comercial não foi entregue a tempo
+A prova ainda vai ser periciada.
 A próxima coisa que a droga quer é um quarto.
 A qualquer momento, poderíamos ser assassinados!
 A quem Deus não dá seus filhos, o diabo lhe dá sobrinhos.
@@ -970,6 +987,7 @@ A única certeza é a morte.
 A única luz no quarto escuro
 A única sombra era a dos poucos pinheiros espalhados.
 Abacaxi não é bom
+Abaetetuba
 Abaixe o volume do quarto.
 Abaixo está o vale
 Abaixo está uma carta que chegou à minha mesa esta manhã.
@@ -1021,6 +1039,8 @@ Acabou sendo um amigo que é bom em cavar buracos.
 Acabou sendo um chá amargo.
 Academia de Belas Artes de Kyoto Kansai, Departamento de Arte Estrangeira
 Acalme-se temporariamente
+Acaraú
+Acará
 Aceito, também, essa condição.
 Acelerando a engenharia de instituições médicas
 Acelerar a transformação industrial e modernização
@@ -1054,6 +1074,7 @@ Acontece que há um monte de pessoas comendo no restaurante no andar de baixo.
 Acontece que isso é mais fácil do que você poderia esperar.
 Acontece também com a vara de São José, que é a flor mais levítica.
 Acontecerá na primeira quarta-feira após a data final do prazo de envio.
+Acopiara
 Acorde depois de acordar
 Acre
 Acredita-se que os quatro homens vêm da Inglaterra.
@@ -1124,9 +1145,12 @@ Afinal? ele tinha todo o seu dinheiro.
 Afirmado pelos meios de comunicação nacionais e estrangeiros
 Afirmando os resultados da reabilitação ecológica
 Afirmativa? uma taxa de violação está disponível.
+Afonso, Moisés, Marcelo e André
 Africanos de todas as idades cantando seus corações cercados pela mãe natureza.
+Agatha e Enrico
 Agite a mão antes de arar o campo.
 Agite as mãos com esta criança amigável.
+Agleilson Melo de Freitas
 Agong é analfabeto
 Agora a lua está fora.
 Agora dessa vez
@@ -1245,18 +1269,60 @@ Ajuste o alarme para as sete horas.
 Ajustes fiscais serão feitos nos próximos anos
 Alabama, Montgomery.
 Alagoas
+Alagoinhas
+Alailton Menezes Tome
+Alainy Jardi dos Santos
+Alair Muniz de Oliveira
+Alairton Ferreira de Lima
 Alana, Nathalia, Pietro, Pamela e Wanderson
 Albert Einstein foi um físico alemão que desenvolveu a Teoria da Relatividade.
 Albert Einstein.
 Alcançar o contexto histórico da situação social atual
 Alces bêbados são muito perigosos.
+Alderir de Souza Lima
+Aldiney Cruz Soares
+Aldo Rodrigues dos Santos
+Aldo da Silva Maciel
+Alecio Barreto da Silva
+Alecsander Henrique Garcia da Silva
+Alecsandro de Sousa Nascimento
+Alef Donnavan Coriolano Monteiro
+Alegario Martins Nogueira
+Alegrete
 Alegria compartilhada é alegria dupla O sofrimento compartilhado é apenas meio pesar.
 Aleluia, aleluia, que não mata um porco não come vela nenhuma.
 Alenquer
+Aleph de Souza Vale
+Alesandro Miranda Saldanha
 Alesandro, Calebe, Iago, Emanuele e Kevin
+Alessandra Bezerra Gomes
+Alessandra Cesar de Assis
+Alessandra Sousa da Silva
+Alessandra de Oliveira Lima
+Alessandra do Socorro de Oliveira Costa
+Alessandro Gomes de Lima
+Alessandro Gomes de Oliveira
+Alessandro Lima Rodrigues
+Alex Barreto da Silva
+Alex Freitas de Oliveira
+Alex Gomes Nogueira da Silva
+Alex Sandro Cesar de Sousa
+Alex Xavier Rodrigues Jaminawa
+Alex da Rocha Silva
+Alexander da Silva Pereira
 Alexander não sabia por que ela fez isso.
+Alexandra Soares de Souza
+Alexandre Feitosa de Almeida
+Alexandre de Oliveira Cardoso
 Alexandro, Caren, Daiane, Adriane e Fagner
+Alexsandro Costa da Silva
+Alexsandro Gomes de Lima
+Alexsandro Ramos Marques
+Alexsandro dos Santos
 Alexsandro, Jordana, Janderson, Jeovana e Higor
+Alfenas
+Alfredo Barbosa dos Santos
+Alfredo Bezerra da Silva
 Algo dentro do cilindro estava desenroscando o topo.
 Algo deu errado com o alto-falante.
 Algo mais velho que a humanidade é mais antigo que o deserto.
@@ -1325,15 +1391,19 @@ Alguém pode atender o telefone?
 Alguém pode me dizer o que está acontecendo?
 Alguém que monta uma bicicleta azul da sujeira em um curso da sujeira.
 Alguém vai pegar transporte público?
+Alice e Arthur
 Alice viu seu tio do outro lado da rua.
 Alison não pôde deixar de sentir orgulho por sua criação.
 Aliviar as emoções nervosas
 Alivie a pressão econômica de deixar uma pessoa sem emprego
 Aliás
 Almada é um concelho que possui mais de uma centena de associações.
+Almir Rosa da Silva
 Almirante Tamandaré
+Aloizio Gomes de Souza
 Alpinistas rápidos de repente esperaram.
 Alta voltagem!
+Altamira
 Altere o dispositivo de saída de áudio.
 Alternar aba
 Alto e magro
@@ -1352,6 +1422,7 @@ Além disso,? o eixo de recurso é configurável.
 Além disso? não serei necessário nos próximos dois dias.
 Além disso?, havia uma pilha de bicicletas.
 Além do mais, nós já estamos aqui mesmo
+Alícia e Vitor
 Amancio Ortega primeira empresa.
 Amanda e Luana tinham o mesmo gosto.
 Amanda, Tulio, Vanessa, Manoela e Juliano
@@ -1387,6 +1458,7 @@ Ambos.
 Ambulância destroçada está sendo rebocada por um caminhão grande.
 Ame todas as especiarias.
 Ameaçando quebrar seu pé
+Americana
 Americano típico que pode manter a boca fechada.
 Amigos como os queremos e parentes como Deus lhes dá.
 Amigos do outro lado
@@ -1400,30 +1472,56 @@ América do Norte.
 América do Sul.
 América?, a bela?, como sintetizada por esta cena de ilha de doces.
 Amêijoas são pequenas, redondas, macias e saborosas.
+Ana Clara e Enzo Gabriel
+Ana Júlia e João Pedro
+Ana Laura e João Lucas
+Ana Lucia Martins de Souza
+Ana Luiza e Felipe
+Ana Maria e José
+Ana Quesia Gomes Nascimento
+Ana trabalha com João.
 Ana, Júlio, Juliana e José foram ao evento na quinta.
 Analise maneiras de explorar a si mesmo
 Analise possíveis aplicações e oportunidades
 Ananda, Wender, Ágatha, Thalia e Patrik
+Ananindeua
 Andando sobre a corda bamba outra vez
 Ande na grama em meus pés descalços?
+Anderson de Souza Soares
+Andersson Pereira Carvalho
+Andradina
 Andrea, Diogo, Ramon, Vinícius e Nina
 Andrei, Jackeline, Gleidson, Karem, Weverton e Kely
+Andreia Laurinda de Lima
+Andreia Moraes da Silva
 Andreina, Anthony, Raíssa, Keli e Danielle
 Angela está grávida? ela me disse.
 Angela queria copiar tudo o que ele havia feito.
+Angelica da Silva Francisco
+Angelita Carneiro de Brito
 Angra Dos Reis
 Angélica, Hugo, Luciene, Natanael e Bernardo
+Anita, Inácio, Rute e Angelina
 Aniversário de uma pessoa
+Anizio Antônio de Souza
+Anizio Marques da Silva
 Ano Novo Lunar é o festival mais importante em ambos os lados do estreito
 Ano chuvoso, agricultor feliz.
 Ano de cogumelos, ano de resfriados.
 Ano dos cogumelos, ano das castanhas.
 Ano novo
 Ano terminado, porco engordado.
+Anorato Medeiros de Lima
 Anos recentes
 Anote mais no seu caderno: que fala impensadamente quem afirma
 Anotei também isso.
+Anselma Angelo dos Santos
 Ansioso para o nascimento da primeira neta pequena
+Antenor Angelo Batista
+Antenor Correia da Silva
+Antenor João
+Antenor de Oliveira Soares Neto
+Antero do Livramento Gomes
 Antes de abrir a boca, seus dentes já foram vistos.
 Antes de começarmos com o verdadeiro batismo?, vamos renovar nosso credo.
 Antes de conhecer o belo príncipe, você tem que beijar muitos sapos.
@@ -1438,6 +1536,269 @@ Antes que morresse, ele seria saciado.
 Anthony manteve-se ocupado contando pombos.
 Anti-frio na estrada de asfalto
 Antiderrapante em casa
+Antonella e Gustavo
+Antonieta de Carvalho Borges
+Antonina Barbosa Fraga
+Antonino Calixto da Silva
+Antony da Silva Matos
+Antônia Adilina Soares
+Antônia Alice Soares da Paes
+Antônia Alves Maciel
+Antônia Alves Silva
+Antônia Alves da Costa Menezes
+Antônia Alves de Almeida
+Antônia Amorim da Silva
+Antônia Araújo Nunes
+Antônia Barbosa Cavalcante
+Antônia Barbosa de Almeida
+Antônia Barbosa de Oliveira
+Antônia Barbosa dos Santos
+Antônia Benicio Araújo
+Antônia Bezerra da Silva
+Antônia Bueno de Freitas
+Antônia Carvalho da Silva
+Antônia Chagas de Lima
+Antônia Costa Lima Felix
+Antônia Costa Silva da Silva
+Antônia Costa de Abreu
+Antônia Gomes Guimaraes
+Antônia Gomes de Oliveira
+Antônia Maria de Araújo Ferreira
+Antônia Marinete Macedo Avelino
+Antônia Marisete Bandeira da Silva
+Antônia Mariza Bernardo da Silva
+Antônia Neceilda Vale da Silva
+Antônia Pereira Leoncio
+Antônia Pereira Lima
+Antônia Pereira Oliveira
+Antônia Pires Maciel
+Antônia Ribeiro de Paiva
+Antônia Ribeiro do Nascimento
+Antônia Rodrigues da Silva
+Antônia Rodrigues de Araújo
+Antônia Rodrigues do Nascimento
+Antônia Roseli Santos Souza
+Antônia Roseli da Silva Sousa
+Antônia Rosilete Silva Barreto
+Antônia Rosineide Barbosa da Silva
+Antônia Sabino de Oliveira
+Antônia Sales de Souza
+Antônia Saraiva de Moura
+Antônia Silva da Cunha
+Antônia Silva de Lima
+Antônia Silva de Meneses
+Antônia Taina Silva de Almeida
+Antônia Tairis Souza dos Santos
+Antônia Tereza Bento da Silva
+Antônia Texeira de Louredo
+Antônia Vieira de Sales
+Antônia Vieira de Souza
+Antônia Xavier de Lima
+Antônia da Conceicao
+Antônia da Silva Lima
+Antônia de Andrade Gomes
+Antônia, Geraldo e Aparecida
+Antônio e Vitória
+Antônio Abraão Parente Machado
+Antônio Nunes Pereira
+Antônio Nunes de Almeida
+Antônio Odenilson Oliveira Franca
+Antônio Olimpio de Almeida
+Antônio Oliveira Pereira
+Antônio Oliveira da Luz
+Antônio Oliveira da Silva
+Antônio Oliveira de Souza
+Antônio Orleir Lima da Silva
+Antônio Paiva da Silva
+Antônio Paiva do Nascimento
+Antônio Passos Sobrinho
+Antônio Paulino da Silva
+Antônio Paulo da Silva
+Antônio Paulo de Araújo
+Antônio Paulo do Nascimento
+Antônio Pereira Feitosa
+Antônio Pereira Lima
+Antônio Pereira Maciel
+Antônio Pereira Mota Castelo
+Antônio Pereira Pessoa
+Antônio Pereira da Luz
+Antônio Pereira da Silva
+Antônio Pereira de Franca
+Antônio Pereira de Freitas
+Antônio Pereira de Lima
+Antônio Pereira de Oliveira
+Antônio Pereira de Sousa
+Antônio Pereira de Souza
+Antônio Pereira do Carmo
+Antônio Pinheiro Nery
+Antônio Pinheiro da Silva
+Antônio Pinto Beserra
+Antônio Ponciano da Silva
+Antônio Pontes Franco
+Antônio Quaresma da Silva
+Antônio Queiroz dos Santos
+Antônio Rafael de Souza
+Antônio Raimundo Almeida da Silva
+Antônio Raimundo Celestino de Souza
+Antônio Raimundo Lopes Martins
+Antônio Raimundo Sampaio da Cruz Pinto
+Antônio Raimundo Santos Vercosa
+Antônio Raimundo da Silva
+Antônio Raimundo de Almeida
+Antônio Raimundo de Melo
+Antônio Raimundo dos Santos Dossimo
+Antônio Ramon Fonseca dos Santos
+Antônio Ramos
+Antônio Reboucas da Silva
+Antônio Reboucas dos Santos
+Antônio Reginaldo Nascimento dos Reis
+Antônio Reginaldo R de Araújo
+Antônio Reinaldo de Almeida
+Antônio Reis da Silva
+Antônio Rene Bezerra Monteiro
+Antônio Renilson de Souza
+Antônio Ribeiro
+Antônio Ribeiro da Silva
+Antônio Ribeiro de Figueiredo
+Antônio Ribeiro de Souza Silva
+Antônio Ribeiro do Amaral
+Antônio Rildo Teixeira de Souza
+Antônio Rilson Pereira da Silva
+Antônio Rivaldo Conceição da Silva
+Antônio Roberto Oliveira da Silva
+Antônio Roberto Veira dos Santos
+Antônio Roberto da Silva Oliveira
+Antônio Rocha de Amorim
+Antônio Rocha de Oliveira
+Antônio Rodrigues Batista
+Antônio Rodrigues Braz Machado
+Antônio Rodrigues Das Neves
+Antônio Rodrigues Filho
+Antônio Rodrigues Pontes
+Antônio Rodrigues da Silva
+Antônio Rodrigues de Lima
+Antônio Rodrigues de Oliveira
+Antônio Rodrigues de Souza
+Antônio Rodrigues do Nascimento
+Antônio Romao da Silva
+Antônio Romario Souza do Vale
+Antônio Roque da Silva
+Antônio Rozildo Nunes de Souza
+Antônio Rubemar Ferreira Cavalcante
+Antônio Rubemar Lima Ferreira
+Antônio Rufino Borges
+Antônio Rufino de Melo
+Antônio Rufino dos Santos
+Antônio Sales Contreiras
+Antônio Sales de Araújo
+Antônio Sampaio da Silva
+Antônio Sansao dos Santos Filho
+Antônio Santana da Silva
+Antônio Santos da Costa
+Antônio Santos da Silva
+Antônio Santos de Jesus
+Antônio Saturnino da Silva
+Antônio Se Souza Pimentel
+Antônio Sebastião Pires
+Antônio Segundo Barbosa
+Antônio Silva Barroso
+Antônio Silva Cruz
+Antônio Silva Nascimento
+Antônio Silva Quirino de Lima
+Antônio Silva da Gama
+Antônio Silva do Nascimento
+Antônio Silva dos Santos
+Antônio Soares Bibiano
+Antônio Souto da Silva
+Antônio Souza Chagas
+Antônio Souza Lima
+Antônio Souza da Silva
+Antônio Souza de Araújo
+Antônio Souza de Oliveira
+Antônio Targino da Silva
+Antônio Teixeira Leite
+Antônio Teixeira Lima
+Antônio Teixeira de Albuquerque
+Antônio Teixeira de Araújo
+Antônio Thomaz Goes
+Antônio Tiago Silva de Lima
+Antônio Torquato
+Antônio Torres da Rocha
+Antônio Torres da Silva
+Antônio Turibio Filho
+Antônio Ueder da Silva Souza
+Antônio Valdo Aires da Silva
+Antônio Valter Lopes de Oliveira
+Antônio Vanderley da Silva Santos
+Antônio Venancio de Souza
+Antônio Venilson Oliveira dos Anjos
+Antônio Veridiano de Souza
+Antônio Viana
+Antônio Viana de Oliveira
+Antônio Vicente Rodrigues
+Antônio Victor Sampaio da Silva
+Antônio Vidal
+Antônio Vidal Gomes
+Antônio Vidal de Sousa
+Antônio Vieira Barros
+Antônio Vieira da Costa
+Antônio Vieira de Lima
+Antônio Virginio de Castro Penedo
+Antônio Virgulino da Silva Nascimento
+Antônio Vitorino da Silva
+Antônio Wanderley de Paiva
+Antônio Wellisson de Oliveira Nunes
+Antônio Wilson de Souza
+Antônio Xavier Pernambuco
+Antônio Xavier da Silva
+Antônio Ximendes de Albuquerque
+Antônio Zume Saboia
+Antônio da Conceição Lima
+Antônio da Costa Assis
+Antônio da Costa Ferreira
+Antônio da Costa Lima
+Antônio da Costa Macedo
+Antônio da Costa Mariano
+Antônio da Costa Pereira
+Antônio da Costa Virginio
+Antônio da Silva
+Antônio da Silva Almeida
+Antônio da Silva E Silva
+Antônio da Silva Ferreira
+Antônio da Silva Goncalves
+Antônio da Silva Lima
+Antônio de Almeida Costa
+Antônio de Almeida Maia
+Antônio de Andrade Nunes
+Antônio de Araújo
+Antônio de Araújo Lima
+Antônio de Arribamar de Araújo Pereira
+Antônio de Franca Martins
+Antônio de Jesus Carneiro
+Antônio de Jesus Silva de Alencar
+Antônio de Lima Leao
+Antônio de Melo
+Antônio de Moraes Correa
+Antônio de Oliveira Alves
+Antônio de Oliveira Campos
+Antônio de Oliveira Lima
+Antônio de Oliveira Magalhaes
+Antônio de Oliveira Meireles
+Antônio de Oliveira do Nascimento
+Antônio de Sousa Pereira
+Antônio de Souza
+Antônio de Souza Amorim
+Antônio de Souza Braga
+Antônio de Souza Melo
+Antônio de Souza Ribeiro
+Antônio do Carmo Chagas
+Antônio do Espirito Santo
+Antônio do Espirito Santo Chaves
+Antônio do Livramento Campos
+Antônio do Rego Fortes
+Antônio, João e Francisco
+Anunciação Barreto de Oliveira Sena
+Anápolis
 Anéis de latão são vendidos por esses nativos.
 Anúncio
 Ao chamar o cachorro, enrole a bengala.
@@ -1460,6 +1821,22 @@ Apagar luzes.
 Apagou os logs do sistema.
 Apague a lanterna que nos dá luz.
 Apague as luzes.
+Aparecida Bonfanti
+Aparecida Ferreira Cardoso
+Aparecida Maria de Oliveira
+Aparecida Pinto de Melo
+Aparecida da Silva Goncalves
+Aparecida de Goiânia
+Aparecida de Oliveira Matias
+Aparecido Airis
+Aparecido Cerdeira da Silva
+Aparecido Dias Antunis
+Aparecido Fernando dos Santos
+Aparecido Ferreira de Paula
+Aparecido José Adelmo de Oliveira Santos
+Aparecido Soares Oliveira
+Aparecido Sodre
+Aparecido de Oliveira
 Aparentemente, a maioria das sentenças foi escrita por nerds e cientistas.
 Aparentemente, o recurso de preenchimento automático não está funcionando temporariamente.
 Aparentemente, pouca coisa.
@@ -1527,6 +1904,7 @@ Apicultores devem migrar de fontes de mel
 Aplica técnicas de reconhecimento inicial relacionadas à condição do paciente.
 Aplicação de aconselhamento para vários incentivos
 Aplique anualmente de acordo com os regulamentos
+Apolonio Ferreira Lima
 Aposentado reintegrado
 Aposto que você não precisa disso.
 Aposto que é um mandado para minha prisão.
@@ -1546,6 +1924,7 @@ Apresse-se e vamos sair.
 April abraçou seu cordeiro.
 Aproveitando do belo dia que está hoje, eu gostaria de lhes contar uma história.
 Aproveite a oportunidade
+Apucarana
 Após a audiência, o cliente ainda insiste na entrega.
 Após a renovação
 Após duas horas?, ele retornou ao quarto onde o homem sábio estava.
@@ -1582,22 +1961,135 @@ Aqui tem dois mil dólares.
 Aqui é meu filho.
 Aqui é onde eu posso aprender alguma coisa.
 Aqui?, deixe-me mostrar a você.
+Aquiles Batista de Oliveira Freitas
+Aquilino Messias
+Aquino Silva
+Aquiraz
 Ar congelado passou pelo casaco.
+Arabiana Moura da Costa
+Aracaju
+Aracati
+Aracele Falcão Cavalcante
+Araci
+Araci Felix de Oliveira Santos
+Araci Gomes da Silva
+Araci Oliveira de Souza
+Aracildo Amorim Braga
+Aracruz
+Aracy Alfon Pinheiro
+Aracy Maria Pereira
+Aragones Araújo da Silva
+Araguari
+Araguaína
+Arao Moura da Silva
+Arapiraca
+Arapongas
+Araranguá
+Araraquara
 Araras
+Araripina
+Araruama
 Araucária
+Araxá
+Araçatuba
 Arco-íris pela manhã, separação de água.
 Arco-íris são um fenômeno baseado na dispersão cromática.
 Arcoverde
+Arez Pinheiro dos Santos
+Argemiro de Moura D Avila
+Argentina Maciel Leite
 Argentina versus Brasil na final do mundial de basquete.
+Ari da Silva Lobo
+Ariadna de Lima Chaves Neta
+Arialdo Pereira da Silva
+Arialdo de Oliveira Saldanha
 Ariana Grande participou de Brilhante Victória.
+Ariberto da Silva Bruno
+Ariel Pullig dos Santos
 Ariel, Mariane, Helen, Lincon e Luana
+Arilau Ferreira do Valle
+Arinete da Silva Araújo
+Ariquemes
+Arison Alexandro de Araújo Paiva
+Arisson Diniz Barros
+Arisson Ferreira da Silva
+Aristides Quirino Machado
+Aristides Roberto de Sousa
+Aristides de Moura
+Aristoteles Bezerra de Almeida Neto
+Ariton da Silva Praxedes
+Arivan Bernardo Felix
+Arkley da Silva E Silva
+Arlan Ferreira Gomes
+Arleany Costa Lima
+Arleide Andrade da Silva
+Arlen Cleisson de Araújo Lima
+Arlene Ramalho dos Santos
+Arlene dos Santos Silva
+Arlete Nascimento da Silva
+Arlete Silva dos Santos
+Arlete Souza Negreiros
+Arlete Trindade Lustosa
+Arlete Valdez de Souza
+Arlete de Soouza Gois
+Arlete de Sousa Lima
+Arleudo Ferreira da Silva
+Arlinda Rocha de Souza
+Arlindo Ferreira da Rocha
+Arlindo Goncalves de Lima
+Arlindo Moreira Matos
+Arlindo Neves da Silva
+Arlindo Pereira Mendes
+Arlindo Rodrigues da Silva
+Arlindo Silvestre Lopes
+Arlindo Souza Tunes
+Arlindo Vitorino da Silva
+Arlindo da Silva de Oliveira
+Armando Alves de Souza
+Armando Das Chagas Pinheiro
+Armando Rodrigues de Vasconcellos Filho
+Armando Torres da Silva
+Armando Vieira da Silva Apurina
+Armando dos Santos
+Armando dos Santos Mesquita
+Armila Francisca de Paula
+Arminda Pereira dos Santos
+Arnaldinho Nepomuceno dos Santos
+Arnaldo Aladim da Silva
+Arnaldo Barbosa de Amorim
+Arnaldo Pessoa de Amaral
+Arnaldo Silva da Silva
+Arnaldo Soares do Carmo
+Arnoaldo Batista da Cruz
 Arnold apresentou um gráfico mostrando quantas cegonhas ele havia contado nos últimos dez anos.
+Arnou Camilo da Silva
+Arquelau Rodrigues Lopes
+Arquimedio Alves de Souza
 Arquivo, registro, cálculo, faturamento ou tarefas semelhantes que exigem algum grau de iniciativa.
 Arranha-céus altos? um caminhão verde e uma mulher de camisa amarela.
 Arranjos florais fazem essas tabelas parecerem divinas.
 Arremesse a palha pela porta do estábulo.
+Artemildo Saraiva de Araújo
+Arteniza Araújo Nunes de Assis
+Artenizia da Silva
+Arthur e Julia
+Arthur Bandeira Soares
 Arthur Bernardes era mineiro.
+Arthur Matos da Silva
+Arthur Pedro Marcolino Rafael
 Artista sênior
+Artivo Augusto da Fonseca
+Artur Alves da Rocha
+Artur Antunis Oliveira Freitas
+Artur Duarte de Oliveira
+Artur Francisco Saturnino de Figueiredo
+Artur Lustosa Leao
+Artur Mendes de Brito
+Artur Nonato Ferreira Lima
+Artur Santana de Almeida
+Artur da Silva de Abreu
+Arujá
+Aryane da Silva Gomes
 As atividades serão realizadas em toda a Catalunha, tanto pessoalmente como no hiperespaço.
 As autoridades de Bordeaux revistaram seu compartimento no trem.
 As ações da vovó são bastante suaves
@@ -1806,6 +2298,13 @@ Assim fica difícil!
 Assim não vale.
 Assim que ele me viu no meio da multidão? ele me chamou para descer.
 Assim, a relação entre custos de produção e produtos mudou.
+Assis
+Assis Braz
+Assis Fran Gifone
+Assis Oliveira da Silva
+Assis Pereira Soares
+Assis Raimundo de Souza
+Assis Vicente dos Santos
 Assistindo a expressão de sua filha triste
 Assistindo a paródia foi ótimo entretenimento.
 Assistindo o sorriso gentil da avó
@@ -1813,11 +2312,31 @@ Assistir à conferência de imprensa da abertura da Ximen Red House
 Associação de pesquisa de pintura oceânica de Taipei
 Assuma o controle da minha vida
 Assuntos administrativos apropriados
+Assunção Freitas Jara
+Assunção Leandro dos Santos
 Assustar um pássaro não é o jeito de pegá-lo.
+Asterio Francisco Pereira da Silva
+Astrogildo Mendes de Barrros
+Asuelo Alves Machado
+Ataide Faria da Silva
+Ataide Soares da Silva
+Ataide do Nascimento Marruch
+Atair Paulo Goncalves
+Atalicio Pereira de Sousa
+Atalio de Oliveira Sena
+Atanagildo Brito
 Ataque enquanto o ferro está quente Faça feno enquanto o sol brilha.
 Ataque ilegal
 Atenciosamente,? satan.
 Atenção!
+Atevaldo Souza de Lima
+Atibaia
+Atiele Fernandes Caetano
+Atila Maria Rodrigues Antrobos
+Atila da Costa Silva
+Atila da Silva Amorim
+Atila de Paula Nascimento
+Atilson Vale de Souza
 Atitude otimista
 Atitude própria
 Ativamente ligar o mercado global
@@ -1827,6 +2346,7 @@ Ativar o som
 Atividades de solicitação de verão realizadas este ano
 Atletas do nosso concelho.
 Atmosfera tranquila
+Atos Falcão de Souza
 Atrair jovens nacionais e estrangeiros para realizar seus sonhos
 Atrair talentos e reter talentos
 Através da visão única do curador
@@ -1859,6 +2379,38 @@ Até que a hipoteca não possa ser paga
 Até que minha asa ficou ruim.
 Até que você esteja infeliz, você não sabe o que é felicidade.
 Até um dia
+Auane de Brito Chaves
+Aucilene dos Santos Coelho da Silva
+Aucinete Pinheiro da Silva
+Aucioni Morais de Olanda
+Audalice Lopes de Campos
+Audecino Moreira Brasil
+Audenira Vicente de Lucena
+Audenora Acosta Firmo
+Audicelia Roque da Silva
+Audicelio Pires de Souza
+Audilina Figueiredo da Mota
+Audoria Silva de Souza
+Augostinho Coreia da Silva
+Augusta Letona Cardenas
+Augustinho Eduardo Moreira Jaminawa
+Augustinho Francisco da Silva
+Augusto Alves Cardoso
+Augusto Candido Ramos
+Augusto Canoa da Silva
+Augusto Carlos dos Santos
+Augusto Cesar de Freitas
+Augusto Cesar de Oliveira Fernandes
+Augusto Cezar Passos Marinho
+Augusto Custodio de Lima
+Augusto Gomes de Araújo
+Augusto Mauricio de Souza
+Augusto Morais Correia
+Augusto Pua
+Augusto Salatiel Nascimento Costa
+Augusto Silva de Franca
+Augusto Sobrinho de Souza
+Augusto de Lima Vasconcelos
 Aula perdida na semana passada
 Aumenta o volume.
 Aumentar a competitividade nacional
@@ -1870,37 +2422,111 @@ Aumentar volume
 Aumentar volume.
 Aumente o volume do sistema.
 Aumente o volume.
+Auranir Maria Ferreira de Farias
+Aurea Beraldo da Rosa
+Aurea Florentino da Silva
+Aurea Freire Barbosa
+Aurea Lopes do Nascimento
+Aurea Pereira Martins
+Aurea Pinho de Sousa
+Aurea Silva do Nascimento
+Aurea Soares de Oliveira
+Aurea Souza Soares
+Aurea de Holanda Sobrinho da Cunha
+Aureliana Maria dos Santos
+Aureliana Rodrigues de Castro
+Aurelina Araújo da Silva
+Aurelino Afonso da Silva
+Aurelino Rodrigues da Silva
+Aurelio Cosme de Assis
+Aurelio Ferreira Pedroso
+Aurelio da Costa Lima
+Aurenilda Freitas de Albuquerque
+Aurenilsa Paiva da Silva
+Aureo Pereira de Araújo
+Auri do Nascimento
+Auriberto Fernandes de Lima
+Auricelia Castro de Lima
+Auricelia Silva do Nascimento
+Auricelia da Silva de Carvalho
+Auricelio Alves da Silva
+Auricelio Costa de Lima
+Auricelio Pereira da Silva
+Auricelio Santos Silva
+Auricelio Soares da Silva
+Auricelio da Conceicao
+Auricelio da Silva
+Auridete Ferreira Lopes
+Aurilene Oliveira Ribeiro Silva
+Aurimar Silva da Costa
+Aurina Gomes da Silva Moreira
+Aurineide Silva do Carmo
+Aurinete Poligenia da Silva
+Aurinete do Nascimento Souza
+Aurino da Mata Silva
+Aurizelia Pinheiro Nunes
+Aurizete Sales Pereira
+Aurleinse Gonzaga Dantas
+Austro Ferreira de Souza
 Ausência faz o coração aumentar mais a afeição.
 Auto-contido
 Auto-culpa não pode dar às crianças algo melhor
 Auto-falantes de alta qualidade.
 Autoconfiança é a fonte de força para manter a imagem
 Auxiliando o autor do aluguel oral de terras agrícolas
+Auzenir Morais de Oliveira
+Auzirene da Silva de Souza
 Avaliar tudo o que resta a cinco
+Avanildo Jeronimo de Lima
 Avançando lentamente?, eles procuraram entre as pedras.
 Avaré
+Avelina Alves do Santos
+Avelino Venancio de Oliveira
+Avila Amaral de Souza
+Avila Teixeira Gregorio
 Avó e mãe
 Avós sentado em um banco com seu neto.
 Avô faleceu
+Ayder Lima da Silva
+Azevedo Gomes da Silva
+Aziza Kamel Manasfi
 Azul confia em suas ações, uma esperança tola.
+Açailândia
 Açu
 Ação rude
+Bacabal
 Bacon? panquecas e xarope de bordo é um início saudável para qualquer dia.
+Badrion Eliamen da Silva
+Bagé
 Bahia
 Baixe este arquivo para o meu disco rígido.
+Balbino Almeida dos Santos
+Balneário Camboriú
 Balsas
+Baltazar Fernandes de Oliveira
 Banco Comercial Cathay Pacific
 Banda mariachi mexicana com o guitarrista na frente.
 Banquete gourmet
 Barack Obama foi um presidente muito popular.
 Barba encharcada, meio raspada.
+Barbacena
+Barbalha
+Barbara Kelle Lopes Lima
+Barbara Kelle Silva de Alencar
+Barbara Luzia Araújo Caller
+Barcarena
 Barman fêmea de cabelos curtos que faz uma bebida.
 Barra Mansa
 Barra de gin artesanal? seriamente?!
+Barra do Corda
 Barra do Garças
+Barra do Piraí
 Barreiras
 Barreirinhas
 Barretos
+Bartolomeu Neves de Oliveira
+Bartolomeu dos Santos Gomes
+Barueri
 Baseado nos presságios do presente.
 Basta alinhar seu carro ortogonal ao estacionamento.
 Basta comprar algo melhor para o seu filho.
@@ -1911,16 +2537,36 @@ Basta prestar atenção ao noticiário
 Bata a poeira do tapete no gramado.
 Bata tudo até obter a consistência de um creme não muito grosso.
 Batatais
+Baubina Seixas Peres
+Bauru
+Bayeux
 Beatris, Andreia, Viviane, Fabiano e Eliel
+Beatriz e Benício
+Beatriz Amaro dos Santos
+Beatriz Araújo da Silva
+Beatriz Ferreira Rodrigues
+Beatriz Franca de Freitas
+Beatriz Guari Nabi
+Beatriz Henrique Monteiro
+Beatriz Lima de Arruda
+Beatriz Lima de Lara
+Beatriz Moura de Jesus
+Beatriz Ribeiro da Silva
+Beatriz Sabala Mendonca
+Beatriz de Paiva Santiago
 Beba café e coma chocolate
 Bebedouro
 Beber café no café da manhã
+Bebeto Gifone Ferreira
 Bebê
 Bebê amando sua primeira vez no balanço.
 Bebê de jaqueta marrom? chorando e caminhando até um menino? de carro laranja.
 Bebê em um banho de espuma, realizada por uma mulher em uma camisa azul
 Bebê tirando uma soneca no berço.
 Beije suavemente a magia mágica
+Belford Roxo
+Belino Ferreira Medeiros
+Belmira Alves de Menezes
 Belo Horizonte
 Belo Jardim
 Belém
@@ -1952,16 +2598,94 @@ Bem-vindo jovens amigos interessados
 Bem? Eu posso adivinhar como isso aconteceu.
 Bem? eu gosto disso!
 Bem? você não deveria ter nenhum problema então.
+Benedita Antônia de Freitas
+Benedita Aparecida Conceição Amaral
+Benedita Araújo de Sousa
+Benedita Capistana de Oliveira
+Benedita Iverinda do Carmo Barros
+Benedita Maria de Oliveira
+Benedita Martins de Abreu
+Benedita Sales de Lima
+Benedita da Silva Alves
+Benedita da Silva Braga
+Benedita da Silva Pimentel
+Benedita de Souza Vaz
+Benedito Acacio de Souza
+Benedito Aparecido Santana Ferreira
+Benedito Bonfim da Silva
+Benedito Borges da Silva
+Benedito Caetano dos Santos
+Benedito Correa Nepomuceno
+Benedito Dias da Silva
+Benedito Farias Tavares
+Benedito Ferreira da Cunha
+Benedito Francisco da Pascoa Neto
+Benedito Gomes da Silva
+Benedito Messias Oliveira da Silva
+Benedito Monteiro dos Santos
+Benedito Oliveira de Freitas
+Benedito Pereira da Silva
+Benedito Ribeiro Lima
+Benedito Ribeiro de Barros
+Benedito Rodrigues de Oliveira
+Benedito Rodrigues do Nascimento
+Benedito Tavares Macedo
+Benedito Valsir Pinto de Lima
+Benedito da Conceicao
+Benedito da Silva
+Benedito da Silva de Oliveira
+Benedito de Lima Cavalcante
+Benedito dos Anjos Silva
+Beneilton Santos de Oliveira
+Benevides
+Benicio Pinedo
+Benicio Vidal da Penha
+Benigna Ernestina de Oliveira
+Benigno Dias do Nascimento
+Benigno Mendes Ferreira
+Benjamim Soares Marinho
+Benjamin e Marina
+Benjamin do Nascimento Zegarra
 Benjamin estava comendo tiras de bacon.
 Bens com diferença excessiva entre preço de compra e preço de mercado
 Bens com preços são sempre os mais caros.
+Bento Batista da Silva
+Bento Bernardino dos Reis
 Bento Gonçalves
+Bento Silva de Souza
+Benvinda de Alcantara Fernandes
+Benvindo Candido de Oliveira
+Beralice Venancio Albuquerque
+Bergson Lima Ferreira
 Berlim pode ser tão linda nessa época do ano.
+Bernadete de Souza Rodrigues
+Bernardino Belchior da Silva
+Bernardino Ferreira da Silva
+Bernardino Rrodrigues de Oliveira
+Bernardo e Laura
+Bernardo Alexandre da Silva
+Bernardo Mendes da Silva
+Bernardo Pereira da Silva
+Bernardo Soares da Silva
+Bernardo da Conceicao
+Bernardo da Silva Barroso
+Bernardo de Souza Amorim
+Bertolino Selhorst
+Betim
 Betty ficou surpresa.
 Bezerros
+Bianca Lima
+Bianca Santos da Silva
+Biguaçu
 Bilhete contrário de Scoot
 Bill decidiu que a gerência deveria saber sobre esse incidente.
+Binui Lozano Onofre
+Birigui
+Bismania Calinka Edgley Keiros
+Bismarque Nunes Batista
+Bismarque de Oliveira Santos
 Bloqueie a resposta em seu coração
+Blumenau
 Boa Viagem
 Boa Vista
 Boa dia amigos!
@@ -1985,6 +2709,7 @@ Boas lembranças
 Boas vindas aos jovens para participar e participar
 Bob levantou o pergaminho empoeirado.
 Bolhas de sabão são sopradas em um quadrado onde as pessoas as perseguem
+Bolivar da Silva Oliveira Fo
 Bolo de vinhedo, porta de uva.
 Bolsonaro será o melhor presidente que o Brasil já teve!
 Bom Dia.
@@ -2008,33 +2733,70 @@ Boris, o leão, chorou como um burro.
 Botucatu
 Botões e botões se escondem nos cantos.
 Bragança
+Bragança Paulista
+Branca Rosa da Silva Braga
+Branca Tabu Nachipa
 Brasil
 Brasão? de armas.
 Brasília
 Brasília é a capital do Brasil.
+Braulino Garcias dos Santos
+Brenda Furtado Bastos
+Brenda Laleska Magalhaes da Silva
+Brenda Samila Tolentino dos Santos
+Brenda Vitoria Cunha Oliveira
 Brenda, Marcele, Glenda, Dominique e Alison
 Brendo, Wenderson, Nataly, Tailane e Geisiane
+Brener Alves de Araújo
+Breno da Silva Freitas
 Breu Branco
 Brevemente
+Breves
 Brian está saindo hoje.
 Brian, Karolina, Raine, Wendel e Suelem
+Brigida da Conceição Fortuna dos Santos
 Brincar sem magoar os colegas.
+Brodoque Teixeira de Lima
 Brumado
+Bruna Calixto dos Santos
+Bruna Camila da Silva Henrique
+Bruna Maria Soares Brambila
+Bruna Monteiro de Moura
 Bruna era professora de matemática.
+Bruno e Maria Fernanda
+Bruno Farias Araújo
+Bruno Fernando da Costa
+Bruno Freire da Silva
+Bruno Gomes da Silva
+Bruno Henrique Nere Passarinho
+Bruno Henrique Souza de Paiva
+Bruno Josias Lopes dos Reis
+Bruno Lacerda dos Santos
 Bruno Luiz Costa de Farias
 Bruno Mendes de Sousa
+Bruno Mesquita Feliciano
 Bruno Nascimento Pereira
+Bruno Novaque Assis de Amora
 Bruno Queiroz da Silva
+Bruno Silveira E Silva
+Bruno Teixeira de Souza
 Bruno de Oliveira Fernandes
 Bruno, Dalila, Gustavo, Felipe e Rodolfo
+Brusque
 Bryama de Souza Santos
+Bryan e Emanuelly
 Bryan, Emanueli, Alane, Raiana e Taíssa
+Buriticupu
 Bush liga principalmente.
 Buíque
 C Sharp é uma linguagem de programação.
+Cabedelo
 Cabelo pendurado entre os dedos
 Cabelos negros se transformam em cabelos brancos
+Cabo Frio
+Cabo de Santo Agostinho
 Cabral de Souza
+Cacemiro Bento de Souza Neto
 Cachoeira do Sul
 Cachoeiras de Macacu
 Cachoeirinha
@@ -2046,6 +2808,8 @@ Cachorro pula de água enquanto mulher se ajoelha na doca brincando com ele
 Cachorro terá seu dia
 Cachos apertados ficam moles em dias chuvosos.
 Cacilda Santos de Souza
+Cacio Rainerio Alexandre da Silva
+Cacoal
 Cada amigo envolvido
 Cada aplicativo requer um formulário de inscrição diferente.
 Cada arquivo tinha a letra "A" impressa na frente.
@@ -2065,33 +2829,53 @@ Caetano da Silva Costa
 Café da manhã no café da manhã de amanhã
 Café e lanche
 Café é bom, lanches são deliciosos.
+Caicó
 Caieiras
 Cailane Teixeira da Silva
 Cailane de Souza Carneiro
 Cailane, Rafaella, Micaeli, Kezia e Weslley
 Caindo no chão com uma bengala
+Caio e Ana Luiza
+Caio Cezar Guimaraes Soares
 Caio Costa da Silva
 Caio Felipe de Lima Viana
 Caio Lopes Augusto Kaxinawa
 Caio Macahuachi Lopes
+Caio Silva do Nascimento
 Caire Lima da Costa
+Cairo Ramon dos Anjos
+Cairo Roberto Pereira Junior
+Cairo de Oliveira Ribeiro
 Caiu à tarde.
 Caixa de dois homens.
+Cajamar
+Cajazeiras
 Calazam André de Sousa
 Calculado por posição relativa
 Calcule a proporção de transmissão nos casos, quando apropriado.
 Caldas Novas
+Calebe de Oliveira Lisboa
 Calerison Bezerra Mendonca
 Calibração completa.
 Caline Nascimento de Souza
 Calixto Alves da Silva
+Camaquã
+Camaragibe
 Camarão peônia
 Camas? praias? e gramados são bons para leitura.
+Camaçari
+Camboriú
+Cambé
 Camelos são traidores. Eles andam milhares de passos e nunca parecem se cansar.
+Cametá
 Camila Andrade Vieira
+Camila Costa de Oliveira
+Camila Figueiredo Ximenes
 Camila Gomes de Sales
 Camila Lima da Silva
+Camila Lima de Melo
 Camila Nascimento de Souza
+Camila dos Santos Dias
 Camila, Caio, Sandro, Naira e Edvan
 Camile Vitoria Pereira Bores
 Camile, Caíque, Cauan, Kaique e Gabrieli
@@ -2102,7 +2886,10 @@ Caminhei por cerca de seis minutos
 Caminho Primrose
 Caminhou três quilômetros até chegar
 Caminhávamos devagar, quando fomos surpreendidos por você
+Camocim
 Campeonatos mundiais de futebol.
+Campina Grande
+Campinas
 Campo Alegre
 Campo Belo
 Campo Bom
@@ -2113,15 +2900,20 @@ Campo Limpo Paulista
 Campo Mourão
 Campo de estudo de filosofia.
 Campo de melhoria agrícola
+Campos Dos Goytacazes
 Canadá, México e Uruguai.
 Canal e Armazém de Otaru
+Candeias
 Candidate-se a uma estadia de bebê e deixe a folha de pagamento
 Candido Ferreira de Souza
 Canguçu
+Canindé
 Canisio Berwanger
+Canoas
 Canoinhas
 Cantava como um anjo e dançava como um demônio
 Cantem juntos para cantar e beber
+Capanema
 Capaz de cruzar o termo
 Capelão eu agradeço
 Capitão Poço
@@ -2138,25 +2930,54 @@ Caracol
 Caraguatatuba
 Caramelo revestido de todas as superfícies? foi repugnantemente pegajoso.
 Caranguejo está cheio
+Carapicuíba
 Caras trabalhando do lado de fora do prédio
+Caratinga
+Carazinho
+Carcia Torres Barbosa
+Cariacica
 Carina Nogueira Martins
 Carina Silva de Souza
 Carina Vasconcelos Lima
 Carine Feliciana de Sousa
+Carine Nascimento da Silva
+Carine Silva dos Santos
+Carita Leite Dantas
+Carla Cristina Falcão Freire
+Carla Henriete Moreira Pereira
+Carla Mara Souza Hanan
 Carla Regina de Freitas Barbosa
+Carla Tawany Lopes de Oliveira
 Carla Thais Costa Diogenes
+Carla Vieira de Araújo
 Carles prepara o jantar que já é tempo.
+Carlinda Ferreira da Silva
 Carlinda Oliveira Cavalcante
+Carlisa Gomes de Oliveira
 Carlito Gomes da Silva
 Carlos Adriano de Almeida
 Carlos Afonso Ferreira Pereira
 Carlos Afonso Geraldino de Souza
+Carlos Afonso Nascimento Souza
 Carlos Afonso de Souza Lima
+Carlos Afonso dos Santos
+Carlos Ailto Borges Santana
+Carlos Alberto Afonso Lima
+Carlos Alberto Alves Rodrigues
 Carlos Alberto Brandao da Silva Junior
+Carlos Alberto Camelo
+Carlos Alberto Carneiro da Silva
+Carlos Alberto Cavalcante da Silva
+Carlos Alberto Ciriaco de Lima
+Carlos Alberto Costa de Oliveira
+Carlos Alberto Diniz Maciel
+Carlos Alberto Ferreira de Araújo
 Carlos Alberto Leles
 Carlos Alberto Lopes de Souza Junior
 Carlos Alberto Oliveira Idagua
 Carlos Alberto Pimentel da Costa
+Carlos Alberto Rodrigues da Silva
+Carlos Alberto da Silva Oliveira
 Carlos Alberto de Aguiar
 Carlos Alberto de Freitas Garbim
 Carlos Alberto de Oliveira Lima
@@ -2170,6 +2991,7 @@ Carlos Andir de Souza Braga
 Carlos André Barbosa da Silva
 Carlos André Lima de Sousa
 Carlos André Linhares de Freitas
+Carlos André Mendes Furtado
 Carlos André Nascimento da Costa
 Carlos André da Costa
 Carlos André do Nascimento
@@ -2187,11 +3009,13 @@ Carlos Costa de Freitas
 Carlos Daniel Souza Bezerra
 Carlos Delmiro Graca de Souza
 Carlos Dinis
+Carlos Doximo Manuaris
 Carlos Drummond de Andrade.
 Carlos Eduardo Pinto da Silva
 Carlos Eduardo Silva Melo
 Carlos Eduardo Silva Santos
 Carlos Eduardo Souza Lima
+Carlos Epifanio de Oliveira
 Carlos Ferreira Leite
 Carlos Ferreira da Silva
 Carlos Ferreira da Silva Apurina
@@ -2204,6 +3028,7 @@ Carlos Maciel Rodrigues de Souza
 Carlos Marinho do Nascimento
 Carlos Mendes da Silva
 Carlos Oliveira da Silva
+Carlos Orlenilson Felix da Silva
 Carlos Pereira da Silva
 Carlos Pinto
 Carlos Rito da Costa Monte
@@ -2216,11 +3041,55 @@ Carlos Teixeira Figueiredo Leite
 Carlos Torres Moura
 Carlos Trizoti
 Carlos da Conceição da Paixao Pantoja
+Carlos da Pascoa Souza
+Carlos da Silva
+Carlos da Silva E Silva
+Carlos da Silva Lima
+Carlos de Almeida Lopes
+Carlos de Lima Cordeiro Filho
+Carlos de Moura Ramos
+Carlos de Souza Cavalcante
+Carlos de Souza Lima
+Carlos foi à academia.
+Carlos veio com José, Gustavo e Guilherme.
+Carmelia Melo da Silva
+Carmelia Oliveira da Silva
+Carmelia de Brito Sales
+Carmelina Barros de Moura
+Carmelinda de Souza Magalhaes
+Carmelio Bezerra de Almeida
+Carmelio Braga Bandeira
+Carmelita Maria de Freitas Martins
+Carmelita da Silva
+Carmelito Fernandes dos Santos
+Carmelo Alves Libas
+Carmem Almeida de Miranda
+Carmem Amancio Lima
+Carmem Rios Padilha
+Carmem Soares Pires
+Carmem de Almeida Matos
+Carmen Almeida da Silva
+Carmen Souza Chupinagua
+Carmina Pacheco Pinto Souza
+Carminha Gomes do Nascimento
+Carmo Ferreira do Nascimento
+Carmone Felix do Nascimento
+Carmosina da Conceição F de Oliveira
+Carmoza Rocha Cardozo
 Carne bovina é mais exportada que a suína
 Carne de boi é rica em proteínas.
 Carol salvou a vida do irmão naquele dia.
 Carol, Thales, Eliton, Natali e Taísa
+Carolina Izabel de Matos
+Carolina Maria Soares
+Carolina Ribeiro Silva
 Carolina, Lorena, Elizeu, Bárbara e Cléber
+Caroline Andreatto Negrelli
+Caroline Brito da Silva
+Caroline Fortes Carrilho
+Caroline Maciel Messias
+Caroline da Silva Chicuta
+Carpina
 Carregando-a por três dias consecutivos
 Carregar a gosto não pesa.
 Carreira para explorar a aprendizagem no local de trabalho
@@ -2230,8 +3099,10 @@ Carro autonômo.
 Carros, Motos e etc.
 Carta de Sangue e Ferro
 Carta de Sangue e Ferro.
+Carteggane de Freitas de Moura
 Cartão corporativo é um privilégio para poucos
 Cartão pré-pago é uma opção em viagens
+Caruaru
 Carvalhos poderosos de pequenas bolotas crescem.
 Casa Nova
 Casa de Dee agora?
@@ -2243,33 +3114,94 @@ Casal gordinho gosta de escavar lixo fora de sua piscina
 Casal jovem em trajes formais de mãos dadas
 Casal na sombra se afasta de uma vitrine iluminada em direção à câmera
 Casar com pressa, arrependa-se no lazer.
+Cascavel
 Caso contrário, definitivamente fratura
 Caso contrário, não pode ser avaliado pelo tribunal.
 Caso contrário, você poderia se esconder em algum café ou outro por um tempo.
 Casper previu o resultado.
+Cassia Abreu da Silva
+Cassia Fonseca da Silva
+Cassia de Oliveira Castro
+Cassiane Araújo do Nascimento
 Cassiano, Regiane, Jeane, Elder e Geovani
 Cassie desmontou a bicicleta.
+Cassimiro Alexandre da Silva
+Cassimiro Gaspar da Silva
+Cassio Adriel de Souza Lima Freitas
+Cassio Justino de Alencar Tavares
+Cassio Pinheiro Dantas da Silva
 Castanhal
 Castigos serão aplicados
 Castro
+Cataguases
 Catalunha, não vamos descobrir agora, é uma terra de passagem.
 Catalão
 Catanduva
+Catarina e Bento
+Catarina Barroso de Souza
+Catarina Batista de Oliveira
+Catarina Guimaraes Sarah
+Catarina da Silva Rocha
 Catherine andou ao lado do canal.
+Catia Maria Pereira Furtado
+Catiuscia Nobrega dos Santos
+Catu
+Catulo Campos
 Cauam, Kaila, Kauam, Kaiky e Kemilly
 Cauane, Andrey, Natiele, Flaviane e Gabrielly
+Caucaia
 Cauda sem desempenho
 Caue, Carolaine, Cleidiane, Karoline e Kauane
 Causando mais dano de conflito
+Cauã e Ana Julia
 Cavaleiro da bicicleta pulando obstáculos.
 Cavalo dado não se olha os dentes.
 Cavar fundo na terra para o ouro dos piratas.
 Caxias
+Caxias do Sul
 Caça aos patos bravos
 Caçador
 Caçapava
 Ceará
+Ceará-mirim
+Cecilia Almeida da Silva
+Cecilia Angelo do Nascimento
+Cecilia Barros Rodrigues
+Cecilia Ferreira
+Cecilia Maciel da Silva
+Cecilia Virginia de Souza Araújo
+Cecilio Pereira da Silva
+Cecília e Joaquim
+Ceidmar Rodrigues
+Celciane de Souza Klippel
 Celebrações ecoaram pela terra.
+Celene Lima da Silva
+Celeste da Silva Braga
+Celestina Ribeiro de Lima
+Celi Ramos
+Celia Geracina Camilo
+Celia Maria Nogueira de Oliveira
+Celia Maria Pereira de Lima
+Celia Maria Rufino
+Celia Mendonca
+Celia Pereira da Silva
+Celia Ribeiro da Silva
+Celiene Mendes Souza
+Celildo Lau da Silva
+Celina Maria Costa do Nascimento
+Celina Souza da Silva
+Celina da Silva
+Celino Calixto de Souza
+Celio Pereira Passos
+Celio Ribeiro Pinto
+Celito Boaventura Pereira
+Celso Correa da Silva
+Celso Guedes de Negreiros
+Celso Lopes de Freitas
+Celso Luiz Braga de Vasconcelos
+Celso Porto da Silva
+Celso Soares Cavalcante
+Celso Vasconcelos da Silva
 Cem freiras invadiram o Vaticano.
 Cenas marcantes.
 Cenas noturnas são realmente difíceis de fotografar
@@ -2306,6 +3238,15 @@ Certifique-se de soletrar o nome corretamente.
 Certifique-se de ter os drivers mais recentes da Nvidia instalados.
 Certos aplicativos também incorporam melhorias específicas.
 Cerveja boa é cerveja boa, seja puro malto ou produzida com cereais não-maltados.
+Cesar Augusto Rocha Coelho
+Cesar Lancha Tangoa
+Cesar Manoel Pinheiro
+Cesario de Oliveira
+Ceucimar Bento da Silva
+Cezar Augusto Dias Montenegro
+Cezar Fábio Gurgel de Andrade
+Cezarinete do Vale Derze
+Cezarino Ferreira de Souza da Silva
 Chad acena para eles e continua do outro lado da rua.
 Chama-se o princípio da favorabilidade.
 Chamada de política
@@ -2318,8 +3259,25 @@ Chame a polícia agora!
 Chame o Vicente aqui!
 Chanceler do Tesouro
 Chanceler imperial
+Chapadinha
 Chapecó
+Charifa Santos da Silva
+Charle Ferreira de Lima
+Charle da Cunha Soares
+Charlene Rodrigues da Silva
+Charles Menezes de Moraes
+Charles Monte Nogueira
+Charles Pinheiro de Oliveira
+Charles Santos da Silva
+Charles Silva Pereira
+Charles Silva de Lima
+Charles da Costa Silva
+Charles da Silva Neris
+Charles dos Santos
+Charles não tem amigos?
 Charles, Welington, Manuela, Geovane e Mizael
+Chaslen Mesquita de Sousa
+Chazan Elder Sampaio Pessoa
 Cheerleaders fizeram pirâmides de três pessoas.
 Cheesecake para o café da manhã amanhã
 Chefe da empresa de biotecnologia
@@ -2334,22 +3292,41 @@ Chegou na estação
 Cheguei no aeroporto de Congonhas
 Cheia de amor e união
 Cheio de pensar nas possibilidades
+Chelton Mota Sampaio
 Cheque de autoridade empresarial de propósito central
+Cherliane Mendes da Costa
+Chico estava de férias.
 China tem liberdade e democracia
 Chineses em outras partes do mundo
 Chineses estão esperando pelo carro
+Chirlene de Melo Lima
 Chorando o fluxo dos olhos
 Chorou por quê?
 Chris disse que Lisa fez isso, mas eu não confio nele.
+Christian Antônio Pinedo Larrea
 Chupou suas duas bofetadas
 Chuva no final de setembro, em outubro de plantio de cogumelos.
 Chá preto muito inesperado
 Chá quente é super legal
+Cianorte
 Cicatrizes graves nas costas
+Cicero Almeida da Silva
+Cicero Antônio de Araújo
+Cicero Bezerra Nogueira
+Cicero Eugenio da Silva
+Cicero Idelfonso Xavier
+Cicero José da Silva
+Cicero da Silva
+Cicero da Silva Bezerra
 Ciclistas passeiam por uma floresta enquanto os espectadores torcem
 Cidade Ocidental
 Cidade de navegadores e viajantes que, ontem como hoje, deixaram tudo virado do avesso.
 Cidades como Amesterdão
+Cidalia Costa da Silva
+Cidiney Menezes Fiesca
+Cilas da Silva Cordeiro
+Cilea Geraldo da Silva
+Cilene dos Santos Costa
 Cinco adultos de terno e vestido tiram uma soneca em um pedaço de grama.
 Cinco crianças de origem indiana estão sorrindo e posando em um slide.
 Cinco crianças estão em frente a uma cabana de madeira.
@@ -2368,11 +3345,49 @@ Cinco senhoras vestidas em cores vibrantes se divertindo dançando.
 Cinco sujeitos que trabalham em bicicletas em uma loja com grafittis na parede traseira.
 Cinco trabalhadores da construção civil em capacetes e coletes amarelos estão ocupados no trabalho.
 Cinemática inversa é um desafio matemático para engenheiros de robô.
+Cineu Roque da Silva
 Cinquenta quilos de cimento nas costas.
+Cinthia de Araújo Correa
+Cintia Valdez Ribeiro
+Cipriano Sampa da Silva
 Circuito integrado
+Cirio Henrique de Andrade
+Cirlene Passos da Costa
+Cirlene Rocha Brasil
+Cirleudo Souza da Silva
+Cirnando Martins da Silva
 Ciência da informação
 Ciúme é o monstro de olhos verdes
+Claene da Silva
+Claiton Rocha Maia
+Claiton de Matos Cabral
+Claiton de Souza Nepomuceno
+Clara Elis Fernandes
+Clara Janayna Junqueira dos Santos
+Clara Meira dos Santos
+Clara Railene dos Santos de Oliveir
+Clara Veloso de Albuquerque Franco
+Clara e Noah
 Clara se mudou de Porto Alegre pra Florianópolis.
+Clarice Barbosa dos Santos
+Clarice Batista dos Santos
+Clarice Domingos
+Clarice Ferreira Lyra
+Clarice Ferreira da Silva
+Clarice Ferreira de Araújo
+Clarice Mota de Lima
+Clarice Nonato da Silva
+Clarice Oliveira dos Santos
+Clarice Veloso da Conceicao
+Clarice da Silva
+Clarice, Catarina, Mírian e Mara
+Claricia Oparie da Silva
+Claricia Paixao Rodrigues
+Clarindo Gomes da Silva
+Clarindo Rodrigues de Jesus
+Clarine da Silva Gomes
+Clarinha Castro de Matos
+Clarismundo Silva dos Santos
 Claro que ele está voltando aqui.
 Claro que ele fez.
 Claro que eu sou!
@@ -2385,6 +3400,7 @@ Claro que um dos nossos
 Claro que você nunca fez.
 Claro que você não saberia!
 Claro que você só pode comprar o mais barato
+Claro que é o lugar.
 Claro que é.
 Claro que? volto já.
 Claro, sempre há tudo.
@@ -2396,21 +3412,49 @@ Classifique o livro atual como zero
 Classifique o livro atual como zero.
 Classifique o livro atual em dois
 Classifique um zero ponto de conflito de visões
+Claude do Nascimento
+Claudeci Gomes da Costa
+Claudeci Menezes de Lima
+Claudemar Silva da Costa
+Claudemir de Sales Rosario
+Claudemiro Malaquias de Morais
+Claudenice Vieira da Silva
+Claudenir Lima dos Santos
+Claudenir da Silva Souza
+Claudenira Rozenda Feitosa
+Claudeone Azevedo de Araújo
+Claudeonor Paulino de Lima
+Claudeson Ferreira Rodrigues
+Claudete da Silva Ribeiro
 Claudiane, Géssica, Franciele e Michelle
 Cleison, Kaline, Taynara, Thayná e Grasiele
 Clementine é muito avistada.
 Clifton é incapaz de alcançar a prateleira.
 Clipes gravados.
 Cloreto de Sódio é apenas sal de mesa comum.
+Cláudia Braz da Silva
+Cláudia Cristina do Nascimento Morais
+Cláudia Emidio dos Santos
+Cláudia Rejanne Vale Pinheiro
+Cláudia Silva da Conceicao
+Cláudia Simone Sobral
+Cláudia Vieira do Nascimento
+Cláudia da Rocha
+Cláudia tinha uma conta corrente no Itaú e na Caixa.
+Cláudia, Alexandre, Edílson e Ângelo
+Cláudio tinha uma conta no Banco do Brasil e no Itaú.
+Coari
 Coberto com lona
 Coberto com palha
 Cobrança de dívidas de cassino é mais feroz e mais ruim
 Cobrança geral do povo
+Codó
 Coincidentemente a mãe sai da sonda
 Colaboradores são incentivados com benefícios
 Colaborar com os inspetores atuariais na avaliação de ativos urbanos e rurais.
 Colaborar na definição da estratégia e dos objetivos na programação de ações.
 Colar pode limpar o latão mais sujo.
+Colatina
 Colchetes encaracolados são difíceis de digitar.
 Coletando problemas após um semestre
 Coletar as ações realizadas pelas partes interessadas em relação a essas dívidas.
@@ -2418,6 +3462,7 @@ Colete informações e integre
 Colina de George e os bosques de Painshill.
 Colinas intocadas
 Colocar o carrinho antes do cavalo.
+Colombo
 Coloque Kurt Cobain no korean osts.
 Coloque a energia da sua vida no projeto de reconstrução
 Coloque de volta exatamente onde você achou neste instante.
@@ -2660,6 +3705,7 @@ Comunidade Taekwondo
 Comunique-se com os outros
 Comunique-se estritamente o que é necessário.
 Conceito e Significado de Comunidade.
+Conceição do Coité
 Conclua a cidade-irmã
 Concluído antes do pôr do sol
 Concordar com o pedido do membro
@@ -2690,6 +3736,7 @@ Conheça as tendências e aplicações futuras
 Conheça o seguinte
 Conscientização de todos os operadores para que eles utilizem primeiro produtos que expiram antes.
 Consciência faz covardes de todos nós
+Conselheiro Lafaiete
 Consequentemente, o regime de competência acima mencionado tem um caráter fortemente assimétrico.
 Conserte o casaco antes de sair.
 Considera a dimensão horizontal como tempo.
@@ -2707,6 +3754,7 @@ Construção para metade
 Construções de pedra não queimam.
 Construído janeiro décimo nono? dezenove dezessete? o monumento está celebrando agora o seu centenário.
 Consultar calendário para esta final de semana.
+Contagem
 Contando a nostalgia por décadas
 Contanto que a área seja grande o suficiente, você pode vir.
 Conte a eles sua própria história
@@ -2752,6 +3800,7 @@ Copo com água.
 Coração de ouro
 Cordeiro assado está cheio
 Coro da sociedade harmônica.
+Coroatá
 Coronel Fabriciano
 Corpo de bombeiros realizando um resgate.
 Corporação de Construção e Desenvolvimento
@@ -2775,11 +3824,15 @@ Corte a torta em grandes partes.
 Cortá-los e drená-los bem.
 Corumbá
 Coruripe
+Cosmópolis
 Costa Rica foi incrível no campo!
 Costumava caçar coelhos lá comigo.
 Costumava haver um hábito de jogar
+Cotia
 Cozinhado
 Craqueamento é uma palavra estranha.
+Crateús
+Crato
 Creio que não.
 Cresça com raiva lentamente? há bastante tempo.
 Criança brincando com peças de xadrez em um tabuleiro de xadrez.
@@ -2810,6 +3863,7 @@ Crianças pulando em poças.
 Criar um assentamento industrial estatal
 Criação frequentemente relacionada
 Criação moderna hoje
+Criciúma
 Crie produtos exclusivos com ferramentas digitais e plataformas de conhecimento
 Crie um ambiente vivo de qualidade
 Criminosos choram por isso.
@@ -2818,6 +3872,7 @@ Criptografia forte pode impedir que um homem no meio leia uma conversa.
 Crislaine, Jhonata, Kamila, Kailane e Jésica
 Cristiano, Núbia, William, Tomás e Anderson
 Cristina viajou de Macapá para Belém.
+Cristina, Gilmar, Izabel e Adílson
 Cristinao Ronaldo é um grander jogador de futebol.
 Critérios ou indicadores que permitem medir o grau de realização dos objetivos fixos.
 Cruz Alta
@@ -2829,6 +3884,7 @@ Cruzeiro do Sul
 Cubatão
 Cubra a vida com uma colher cheia.
 Cubra o vidro com uma tampa de latão.
+Cuiabá
 Cuidado com? este é um abismo sem fim!
 Cuidados infantis em casa
 Cuidadosamente coloque o dinheiro na gaveta
@@ -2842,10 +3898,12 @@ Culpa do dinheiro.
 Cultive a próxima geração de desenvolvimento adaptativo
 Cultura pop popular
 Cumprimente os novos convidados e saia rapidamente.
+Curitiba
 Curso de treinamento educacional
 Cursor branco na tela pisca brilho
 Cursos diferentes para diferentes pessoas.
 Cursos regulares de treinamento educacional
+Curvelo
 Cáceres
 Cássia, Léo, Jéferson, Anna e Estevão
 Câmeras de vigilância foram montadas para permitir que a polícia encontrasse atividades suspeitas.
@@ -2871,6 +3929,8 @@ Da próxima vez que chover, por favor me ligue.
 Da véspera de Ano Novo ao Festival das Lanternas
 Dado apenas a chave pública?, é muito difícil calcular a chave privada.
 Dado o grau de antropização, as espécies encontradas são geralmente de ampla distribuição cronológica.
+Daniel e Isadora
+Daniel chamou Eduardo pra festa de Matheus.
 Danieli, Jhonatan, Rayane, Taiane e Stefani
 Danielly, Manuele, Jamily, Lorrana e Wiliane
 Dano sofrido faz você saber, mas raramente rico.
@@ -2881,6 +3941,9 @@ Darren nunca viu uma garrafa até os seis meses de idade.
 Das dez questões meteorológicas, o número máximo de erros permitido será cinco.
 Das diferentes infraestruturas que fazem parte da ação e detalhe dos diferentes pontos singulares.
 Data Science é incrível!
+Davi e Alice
+Davi Lucas e Bianca
+Davi Luiz e Carolina
 Davi nunca tinha viajado pela Passaredo para Recife.
 De Inglês para Português.
 De São Miguel a São Miguel faz o mesmo mar e o mesmo céu.
@@ -3126,6 +4189,7 @@ Deve haver algum engano.
 Deve haver algum jeito.
 Deve haver apenas alguns fornecedores para fazer isso.
 Deve haver um novo modelo operacional
+Deve haver uma linguagem que não dependa de palavras, pensou o menino.
 Deve olhar para o conceito do círculo da vida capital
 Deve ser algum tipo de piada.
 Deve ser capaz de sair do problema
@@ -3157,7 +4221,9 @@ Dezessete minutos depois,? ela estava na água e quase se afogou.
 Dezoito de nós não puderam mover a van.
 Dia de ano novo a quinze
 Diabo!
+Diadema
 Diante dele havia um enorme cavalo branco que o cobria com um grito assustador.
+Dias D´ávila
 Dias em maio, dias amargos: pães curtos e dias longos.
 Dienifer, Chaiane, Camille, Wendell e Iure
 Dieta imperial
@@ -3208,6 +4274,7 @@ Disseram que ele é um corno.
 Distorcido na cama do hospital
 Distrito Federal
 Dividido em duas partes
+Divinópolis
 Divirta-se
 Divirta-se.
 Divisão do corpo legislativo em duas câmaras.
@@ -3454,6 +4521,7 @@ Donuts são melhores com granulado de morango e café.
 Dora tem um trampolim em seu jardim.
 Dotada de vários equipamentos para a prática de atividades.
 Doug é um bom amigo meu.
+Dourados
 Doutor Estranho.
 Droga!
 Duas almas solitárias podem acompanhar
@@ -3599,6 +4667,7 @@ Duas senhoras dançam em sua vestimenta tradicional.
 Duas senhoras e uma menina em seus pijamas abrindo presentes
 Duas serpentes venenosas foram encontradas no terreno
 Duas vezes.
+Duque de Caxias
 Durante a exposição, o tribunal pode fazer quaisquer perguntas ou esclarecimentos que considere apropriados.
 Durante a licença parental
 Durante a melhor parte de sua vida, a mesa ficou no porão.
@@ -3801,9 +4870,13 @@ Eder, Geisa, Everton, Cibele e Jean
 Edifício Taipé
 Edifício de entrada
 Edimburgo é um lugar de sonho para se visitar.
+Edson, Helena, Marcos e Isabel
+Eduardo e Yasmin
 Eduardo e Digo jogavam pelo time da cidade.
 Eduardo tinha cartão Elo, Visa e Mastercard.
+Eduardo, Tânia, Mauro e Valter
 Educar em um novo paradigma de gestão do conhecimento.
+Edvaldo, Valmir, Lídia e Flávio
 Efeito antioxidante
 Efeito lupa sob cobertura da mídia
 Efetivamente desintegrar ataques violentos em massa
@@ -3826,6 +4899,7 @@ Ela ainda pode estar viva.
 Ela ainda se divertiu em Taipei.
 Ela ainda se levantou com os dentes
 Ela ainda se recusou
+Ela anotou a senha do seu e-mail.
 Ela aparentemente não escutou.
 Ela apoia uma mãe e dois filhos.
 Ela aprendeu a tocar piano em uma escola de música.
@@ -3848,6 +4922,7 @@ Ela costurou o casaco rasgado perfeitamente.
 Ela cresceu com segurança
 Ela dançou como um cisne? alto e gracioso.
 Ela decidiu tirar algum dinheiro de sua mãe.
+Ela deixou o celular em casa.
 Ela deu a cada um deles metade para fazê-los trabalhar juntos.
 Ela deu à luz a filha mais nova
 Ela deu à luz um menino
@@ -3870,10 +4945,12 @@ Ela encheu novamente o recipiente e foi embora.
 Ela ensina geografia.
 Ela era a encarregada de tudo.
 Ela era gentil com velhos doentes.
+Ela era uma chefe legal.
 Ela ergueu a bandeira de pirata.
 Ela escreveu as coisas.
 Ela escreveu para mim todos os dias desde então.
 Ela espera que seu bolo de aniversário seja rosa, não roxo.
+Ela esqueceu a senha do banco.
 Ela esqueceu seu pijama em casa.
 Ela estará esperando por você em Albany.
 Ela estava aqui primeiro.
@@ -3911,6 +4988,7 @@ Ela ganhou a Medalha de Honra do Congresso!
 Ela garantiu esse lugar?
 Ela gosta da vida no país
 Ela gosta de você.
+Ela hackeou um banco de dados.
 Ela infelizmente tem um acidente vascular cerebral
 Ela já saiu de casa
 Ela já se casou com a menina?
@@ -3961,10 +5039,14 @@ Ela parece muito indiferente? quase apática.
 Ela parece que vai vir.
 Ela parece tão linda hoje.
 Ela parecia cética quando se encostou na parede, observando as celebridades.
+Ela parou para fazer uma selfie.
 Ela parou por um momento.
 Ela passou quase a noite toda terminando sua tese.
 Ela pedalou para casa? sorrindo todo o caminho? sabendo que ela havia vencido.
+Ela pediu a senha dele.
+Ela pegou a senha dele.
 Ela pegou o telefone na segunda.
+Ela pegou seu celular e fez uma selfie.
 Ela perdeu a visão em um acidente de infância.
 Ela permitiu que ele a guiasse pela calçada.
 Ela pode estar perdida.
@@ -4013,6 +5095,7 @@ Ela tem queimado a vela em ambas as extremidades tentando terminar este papel.
 Ela tem sessenta yuan
 Ela tem uma prima que é muito boa desde criança.
 Ela tentou parar o sangramento de suas coxas com um lenço de papel.
+Ela teve o perfil hackeado.
 Ela teve pneumonia uma vez.
 Ela tinha fibras de aço
 Ela tinha idade para ser sua mãe.
@@ -4073,6 +5156,7 @@ Ele beliscou sua bochecha.
 Ele caminhou
 Ele caminhou lentamente pelo mercado.
 Ele chamou o professor pelo primeiro nome.
+Ele chega quando?
 Ele chegou a entender suas esquivas e truques? e aceitá-lo como era.
 Ele chegou lá novamente três dias depois.
 Ele chorou
@@ -4103,6 +5187,7 @@ Ele decidiu ficar ali e aguardar seu retorno.
 Ele decidiu passar a noite lá.
 Ele decidiu retornar ao estábulo de seu amigo pela rota mais longa possível.
 Ele decidiu se concentrar em assuntos mais práticos.
+Ele defendeu os traficantes.
 Ele definitivamente vai comprar
 Ele deixou a casa e seus pensamentos atrás dele.
 Ele deixou muito claro
@@ -4151,6 +5236,8 @@ Ele escorria pela geladeira.
 Ele esperava que fosse alguém tão capaz quanto seu aprendiz anterior.
 Ele esperou pacientemente que o mercador despertasse e abrisse a loja.
 Ele esquece o escritório quando está comigo.
+Ele esqueceu a senha do banco.
+Ele esqueceu a senha do seu e-mail.
 Ele estará pronto a tempo.
 Ele estava a vinte minutos de sua tenda? e começou a ir até lá.
 Ele estava apostando nesse resultado.
@@ -4198,20 +5285,25 @@ Ele fez tanto ghostwriting que ele começa a se sentir como um fantasma? também
 Ele fez três conversas simultâneas!
 Ele fez um corte na lateral da embalagem
 Ele fez uma delação premiada
+Ele fez uma selfie.
 Ele ficou alarmado com o que aconteceu.
 Ele ficou em silêncio
 Ele ficou indeciso por um momento e depois saiu do fosso.
 Ele ficou sentado olhando o céu por um longo tempo.
 Ele finalmente concordou
 Ele foi abalado em vigília por alguém.
+Ele foi acusado de hackear o sistema de um banco.
+Ele foi acusado de hackear um sistema.
 Ele foi ao ginásio para fortalecer seus músculos.
 Ele foi ao grupo de apoio hoje pela manhã.
 Ele foi eleito pelos membros em novembro.
+Ele foi morto pelo tráfico.
 Ele gostava de disparar tiros e sentia prazer em pescar.
 Ele gostou da água em seu copo.
 Ele gravou tudo com sua filmadora para ter uma prova impermeável.
 Ele grita
 Ele habilmente destruiu o coelho.
+Ele hackeou o sistema do banco.
 Ele hackeou um banco de dados.
 Ele havia entendido a história que o velho rei lhe dissera.
 Ele havia tombado sobre a borda e caído no buraco.
@@ -4284,8 +5376,10 @@ Ele ouviu o vento e sentiu as pedras sob seus pés.
 Ele ouviu um som abafado e viu a marca preta avançar alguns centímetros.
 Ele pagou pela garantia extendida
 Ele pagou pela lã e pediu ao pastor que voltasse no ano seguinte.
+Ele parou pra fazer uma selfie.
 Ele parou sua orelha.
 Ele pausou? e seus olhos ainda eram hostis.
+Ele pediu a senha dela.
 Ele pediu torta de pêssego com sorvete.
 Ele pediu um táxi
 Ele pega no microfone!
@@ -4293,6 +5387,7 @@ Ele pegou a quarta parte e entregou ao monge.
 Ele pegou as duas pedras e as colocou de volta em sua bolsa.
 Ele pegou de volta seus livros e os guardou novamente em suas malas.
 Ele pegou o dinheiro da bolsa e mostrou para o jovem.
+Ele pegou seu celular e fez uma selfie.
 Ele pegou seu dinheiro e contou.
 Ele pegou um engarrafamento na estrutural.
 Ele pegou uma das pedras.
@@ -4307,6 +5402,7 @@ Ele precisa decidir onde ele quer ir.
 Ele precisava de alguém com quem conversar para evitar pensar na possibilidade de guerra.
 Ele preferia química a matemática
 Ele preparou um sanduíche e bebeu chá quente de um copo de cristal.
+Ele propôs uma solução.
 Ele provavelmente está tentando o portão!
 Ele psicografou quase quinhentos livros.
 Ele quase começou a falar sobre seu tesouro, mas decidiu não fazê-lo.
@@ -4365,12 +5461,14 @@ Ele tem apoio de uns milicianos.
 Ele tem e-mail no Hotmail
 Ele tem espaço para desenvolvimento
 Ele tem medo de morrer.
+Ele tem milhas da Gol.
 Ele tem o suficiente para quem está contente.
 Ele tem outras coisas para fazer primeiro.
 Ele tem um bom entendimento e equilíbrio
 Ele tem um milhão de seguidores
 Ele tentou com toda a força abrir a porta em pânico.
 Ele tentou em vão estabelecer um relacionamento com um alquimista.
+Ele teve o perfil hackeado.
 Ele teve que cuspir um pouco de tabaco da boca.
 Ele teve sniffles durante todo o dia.
 Ele tinha aproximadamente a mesma idade e altura que o menino.
@@ -4391,11 +5489,14 @@ Ele traz seu próprio almoço para o trabalho? e come sozinho em sua mesa.
 Ele trouxe seis ovelhas com ele.
 Ele tá com a boca machucada.
 Ele usa dois chips de operadoras diferentes
+Ele usou a senha dela.
 Ele vagou por um tempo, mantendo as palmeiras do oásis à vista.
 Ele vai apreciar sua honestidade.
 Ele vai para casa cedo todas as noites.
 Ele vai se transformar no vento apenas para demonstrar seus poderes.
 Ele vazou essa informação.
+Ele veio em um voo da Gol.
+Ele vem quando?
 Ele vestiu sua roupa árabe de linho branco? comprou especialmente para este dia.
 Ele viajou para Portugual eu acho.
 Ele viu o menino aparecer do outro lado das dunas.
@@ -4404,8 +5505,13 @@ Ele vive e morre no meio dos sonhos de seu orgulho.
 Ele vive um pouco além de Londres.
 Ele xingou inclusive o juiz
 Ele é a própria imagem de seu pai
+Ele é advogado do comando vermelho.
+Ele é advogado do tráfico.
+Ele é assessor do deputado.
 Ele é bem jovem para esse trabalho.
 Ele é considerado por ser muito inteligente.
+Ele é do tráfico.
+Ele é filiado ao tráfico.
 Ele é grato, rápido de fazer e gostar de todos.
 Ele é louco ou bêbado ou algo assim.
 Ele é meu pai
@@ -4417,6 +5523,7 @@ Ele é nosso filho
 Ele é o ator mais bem pago este ano.
 Ele é o homem que os anúncios são escritos para.
 Ele é o único marido que tenho.
+Ele é piloto da Gol.
 Ele é responsável pelo financiamento
 Ele é rico, porém não trabalha.
 Ele é seu amigo?
@@ -4427,7 +5534,9 @@ Ele é um grande fã de Beyoncé.
 Ele é um grande noma da poesia brasileira.
 Ele é um imigrante de Portugal.
 Ele é um ídolo?, mas ele não é um santo.
+Ele é uma pessoa bem legal.
 Ele é uma pessoa muito legal.
+Ele é vinculado ao tráfico.
 Eleito a Associação das Três Gargantas
 Elementos básicos da trilha sonora: voz, música, efeitos e silêncio.
 Elementos da química.
@@ -4614,10 +5723,12 @@ Eles vão me encontrar de qualquer maneira.
 Eles vão pedir ajuda, mas eles não fizeram.
 Elias tinha internet da Vivo, mas queria mudar pra Net ou pra Claro.
 Eliminaram as definições de "técnica", "campo de técnica", "contribuição técnica", "indústria", "invenção".
+Elisa e Vicente
 Elizabeth Charles está morta.
 Elizabeth reclinou-se graciosamente.
 Ellie ganhou o primeiro prêmio na competição de ortografia.
 Eloiza, Abraão, Wílian, Maísa e Kléber
+Eloá e Samuel
 Elsa tricotou furiosamente.
 Elvis, Larissa, Cristian, Enzo, Daniele e Nícolas
 Elásticos capilares tendem a se perder.
@@ -4697,7 +5808,9 @@ Em uma hora chegaremos
 Em uma mesa redonda não há disputa sobre o lugar.
 Em vez de fazer tudo no mundo
 Emanoel, Carla, Adaílton, Douglas e Rodrigo
+Emanuel e Fernanda
 Emanuela, Joise, Ilana, Cléberson e Nathan
+Emanuelly e João Miguel
 Emanuelly, Adrielly, Isabelli, Laryssa e Liandra
 Embalagem simples
 Embora a capacidade reduzida fosse justificável em sua opinião, eles mantiveram o rumo.
@@ -4715,6 +5828,7 @@ Embora seja legal na política de Taiwan
 Embora seja muito difícil
 Embora um pouco verde
 Emboscado por muitos dias
+Embu
 Embu-guaçu
 Emili, Micheli, Graciele, Kesia e Monalisa
 Emilly, Kauê, Yago, Raísa, Kelvin, Naiane
@@ -4923,6 +6037,8 @@ Envie as outras pessoas para dentro.
 Envie coisas em um saco de papel grosso.
 Envie este arquivo para o Google Drive.
 Envie-me suas dúvidas para o meu e-mail.
+Enzo e Helena
+Enzo Gabriel e Larissa
 Enzo saiu do time logo após Arthur deixar o time.
 Epitácio Pessoa era paraibano.
 Equipe de busca e resgate de vários municípios e cidades
@@ -4966,6 +6082,7 @@ Era uma senhora de meia idade.
 Era uma tenda como muitos no oásis.
 Era?, no entanto? ainda estava tão quente de seu voo pelo ar.
 Eram quase duas mil léguas submarinas
+Erechim
 Erick, Lorenzo, Jonathan e Miquéias
 Erik, Jamili, Dara, Gian, Talia e Luna
 Errado olhando para a porta aberta
@@ -5138,6 +6255,7 @@ Esse quebra-cabeça tem mais de quinhentas peças.
 Esse recital fez meu cérebro implodir.
 Esse robô é assustador!
 Esse tipo de temperamento
+Esse trabalho ainda está aberto?
 Esse tópico no Reddit era muito popular.
 Esse é o ponto em que a maioria das pessoas desiste.
 Esse é o problema.
@@ -5318,6 +6436,7 @@ Este é o exemplo mais brilhante, mas não o único, a seu critério.
 Este é o jovem vestido com uma jaqueta amarela e preta
 Este é o lugar?
 Este é o meu ponto mais insatisfeito.
+Este é o momento que eu tenho esperado.
 Este é o prefeito.
 Este é o segredo do nosso sucesso
 Este é o seu crédito
@@ -5340,6 +6459,7 @@ Estefane, Iuri, Larisa, Jakeline e Raiane
 Estefany, Mirele, Janiele, Camili e Taila
 Esteio
 Estela, Paulina, Levi, Sara e Vagner
+Ester, Edmílson, Lúcio e Josias
 Estes auscultadores tocam música muito claramente nos meus ouvidos.
 Estes serão alguns dos principais tópicos sobre como começamos.
 Estes sinos têm um som suave.
@@ -5347,6 +6467,7 @@ Estes são os pontos que o Conselho discutirá.
 Estes são os princípios gerais pelos quais nos regemos.
 Estes são ritmos que compõem um palíndromo.
 Esteve fechado em reuniões, ficou sem rede no telemóvel.
+Esther e Pietro
 Esther, Renan, Roseane, Max e Alícia
 Estimo muito saber...
 Estoque de riso
@@ -5422,6 +6543,7 @@ Está quente no local atual?
 Está rastejando com policiais lá fora.
 Está ventando.
 Estágio Universitário de Experiência de Trabalho Juvenil
+Estância
 Estúpido, também estou satisfeito com isso.
 Eu a ouvi dizer isso
 Eu a vi na loja de frutas
@@ -5678,6 +6800,7 @@ Eu gostaria de viver nisso.
 Eu gostaria de vê-la.
 Eu gostaria que algumas coisas fossem diferentes.
 Eu gostaria que eles fossem coelhos.
+Eu gostaria que eles fossem também.
 Eu gostaria que eles me levassem de volta e me enforcassem.
 Eu gostaria que eles parassem com essa prática.
 Eu gostaria que fizéssemos um brinde a este dia
@@ -5717,6 +6840,7 @@ Eu levantei
 Eu lhe disse que Baldwin estava com problemas.
 Eu lhe disse que não posso mais usar sua coluna.
 Eu li três anos de lixo escolar.
+Eu lidei com muitas grandes promoções no meu tempo.
 Eu liguei, mas ninguém respondeu.
 Eu mal posso suportar as coisas que escrevi há dez anos.
 Eu me casei depois.
@@ -5771,6 +6895,7 @@ Eu não acho que possa ser encontrado na Biblioteca Real.
 Eu não acho que seja o suficiente
 Eu não acho que seja um sistema ideal, porque ele registra na parte errada.
 Eu não acho que é muito ético ler as coisas de outras pessoas.
+Eu não acredito em vodu.
 Eu não acredito nisso.
 Eu não assisti Avatar, eu não sei porque.
 Eu não assisti a copa do mundo russo.
@@ -5831,6 +6956,7 @@ Eu não li o que está entre parênteses devido à preguiça.
 Eu não li o resumo do artigo ainda.
 Eu não me dirigi.
 Eu não me importo com o que você cobra!
+Eu não me importo com o que você diz.
 Eu não me importo com qual foto eles estão publicando.
 Eu não me importo se ela fez ou não.
 Eu não me importo se você está atrás disso há seis anos!
@@ -5860,6 +6986,7 @@ Eu não posso fazer mais.
 Eu não posso imaginar porque estou com medo
 Eu não posso mais ajudar.
 Eu não posso mais comer isso.
+Eu não posso mais pensar.
 Eu não posso me importar
 Eu não posso responder a este movimento repentino.
 Eu não posso ser uma boa filha.
@@ -5946,6 +7073,7 @@ Eu não vi a bagagem para estes dois dias.
 Eu não vi lá.
 Eu não vi nada.
 Eu não vi nenhum ponto.
+Eu não vou calar a boca!
 Eu não vou conseguir minhas asas com essa atitude.
 Eu não vou deixar você.
 Eu não vou falar sobre eles.
@@ -6410,6 +7538,7 @@ Eu vou me tornar amarga e desconfiada das pessoas porque uma pessoa me traiu.
 Eu vou mentir para o professor.
 Eu vou mostrar esses caras.
 Eu vou mostrar-lhe.
+Eu vou no baile funk mais tarde.
 Eu vou pará-lo frio.
 Eu vou pensar sobre o que comprar.
 Eu vou precisar disso.
@@ -6431,6 +7560,7 @@ Eu vou usar um colar para mim.
 Eu vou ver isso de novo.
 Eu vou viver uma vida normal e ter uma casa.
 Euclides da Cunha
+Eunápolis
 Europa e Ásia.
 Evellyn, Natieli, Mireli, Sthefany e Izabella
 Evidentemente, somos o show de chão.
@@ -6548,9 +7678,13 @@ Feche a porta quando sair
 Feche o Windows Explorer agora.
 Feche seus olhos
 Fede depois que o mercado se retira
+Feira de Santana
 Feito em Taiwan.
+Felipe e Nicole
 Felipe e Lorenzo, ambos eram chegados.
+Felipe esqueceu a senha que colocou no seu tablet.
 Felipe falou com Paulo pelo telefone.
+Felipe queria em seu time: Raimundo, Rodrigo, Jorge e Fábio
 Feliz Ano Novo a todos!
 Feliz Natal meus queridos.
 Feliz dia dos pais!
@@ -6565,6 +7699,7 @@ Felizmente, quando não estamos em casa, está dormindo.
 Feller corre nos meses de fevereiro.
 Fernanda postou uma foto dele no Insta
 Fernanda é jogadora de vôlei.
+Fernando tinha uma conta no Santander e no Bradesco.
 Fernandópolis
 Ferraz de Vasconcelos
 Ferrovia de longa distância
@@ -6592,6 +7727,7 @@ Figuras sombrias em uma varanda falando.
 Fila de cavalos de plástico que formam um passeio infantil com uma criança andando.
 Filho pequeno afligido
 Filial americana de taiwan
+Filipe faltou a aula.
 Filipe tinha uma conta no Itaú, mas usava seu cartão do Citi Bank.
 Filmes com Angelina Jolie.
 Filmes em que Keanu Reeves estava.
@@ -6631,6 +7767,7 @@ Fizeram contato de forma inesperada
 Flores da primavera estão ao virar da esquina
 Flores? Ou outra assinatura de revista?
 Floriano
+Florianópolis
 Flutuando no cosmos eternamente.
 Flutue o sabão em cima da água do banho.
 Fogão é mais quente do que eu pensava.
@@ -6650,6 +7787,7 @@ Foi apenas certo.
 Foi apenas palavras.
 Foi aprovado por cento e nove votos a favor e vinte e um contra.
 Foi atingido por uma crise aguda de nostalgia
+Foi bem legal!
 Foi completa idiotice.
 Foi depois que eles voltaram da pescaria.
 Foi ele
@@ -6667,6 +7805,7 @@ Foi meu incentivo moral para todos os esforços que fiz até agora.
 Foi minha culpa?
 Foi muito bom.
 Foi muito difícil para ela se concentrar.
+Foi muito legal.
 Foi na terça-feira.
 Foi o Borda quem gemeu, aterrorizado com a notícia.
 Foi o diabo!
@@ -6743,7 +7882,10 @@ Fortaleza, Ceará.
 Fortuna favorece os Bravos.
 Força mais forte
 Fotógrafo tirando fotos do pôr do sol.
+Foz do Iguaçu
 Fragrância inebriante
+Franca
+Francisco e Catarina
 Francisco Beltrão
 Francisco Morato
 Francisco não queria um celular da Samsung ou da Apple.
@@ -6751,6 +7893,7 @@ Franco da Rocha
 Franquias de zoológicos são uma desgraça para o movimento global de direitos dos animais.
 Fricção freqüente
 Frio
+Frutal
 Fui ao dentista essa semana
 Fui enviado aqui para limpar a casa.
 Fui esticando minhas pernas desajeitadamente e sentindo meu caminho no escuro.
@@ -6777,12 +7920,15 @@ Fãs entusiastas do esporte comemorando uma vitória.
 Fêmea como um volume
 Fêmea nova que examina um espécime em um microscópio.
 Fórum Anual
+Gabriel e Manuela
 Gabriel sabe dar uma boa festa.
+Gabriela e Vinícius
 Gabriela, Joélson, Bernado, Gislaine e Genílson
 Gabriely, Iury, Raiza, Welison e Marieli
 Galinha magra, muitas pulgas.
 Ganhar a vítima através da comunidade local
 Ganhar muito dinheiro
+Garanhuns
 Garantias de qualquer natureza?
 Garantido para dar juros
 Garantir a justiça de residência
@@ -6816,14 +7962,18 @@ Gerenciados de tarefas do Windows.
 Gerencie com cuidado as postagens na comunidade
 Gerente do Facebook
 Gestão de fundos e outras tecnologias
+Gilson, Ivan, Aílton e Márcio
 Gilvan, Eliseu, Noemi, Valquíria e Lílian
 Giovane, Geane, Alessandra, Elen e Jaine
+Giovanna e Henrique
 Giovanna, Ian, Fabricia, Adriel e Maiara
 Girafas são vegetarianas.
 Gisele, Emerson, Breno, Alex e Liliane
 Gleice, Bianca, Vinicios, Karen, Welton e Wellinton
+Glória, Jonas, Denise e Beatriz
 Goiaba sem sementes
 Goiana
+Goianésia
 Goiás
 Goiânia
 Goku possui apenas o poder do protagonismo.
@@ -6835,6 +7985,7 @@ Gosto de estudar física ao invés de história.
 Gosto de tomar suco de limão.
 Gosto disso
 Gosto é gosto.
+Governador Valadares
 Governo da cidade de Taipei
 Gradualmente
 Gradualmente inconveniente
@@ -6849,6 +8000,8 @@ Grandes balões multicoloridos.
 Grandes cidades do Brasil.
 Granja
 Gravando a vida no momento
+Gravataí
+Gravatá
 Gravação de voz.
 Grave as exibições de filmes para o cinema mais próximo, mostrando filmes internacionais
 Grazieli, Keliane, Izabele, Ketlen e Evilin
@@ -6875,14 +8028,20 @@ Grupo de pessoas que estão em um túnel do metrô.
 Grupo de pessoas, iluminado por luz de lanterna de óleo macio.
 Grátis é a palavra mágica que todos gostamos de ouvir.
 Guan Gong Nian é um bom homem
+Guanambi
 Guapimirim
+Guarabira
+Guarapari
 Guarapuava
 Guaratinguetá
 Guarda florestal Dave cita um carro por não ter uma placa no local adequado
 Guarda-chuvas e lixo sentado em um quarto bagunçado
 Guarde a jaqueta usada em seu corpo
 Guarde isso para o Tribune.
+Guarujá
+Guarulhos
 Guaxinins são mamíferos também.
+Guaíba
 Guerra ama sangue.
 Guerra dos Infinitos Vingadores estava fora deste mundo.
 Guerra, caça e amor trazem mil dores para um prazer.
@@ -6890,9 +8049,12 @@ Guerras trazem cicatrizes.
 Guia de instruções.
 Guiana Francesa, Ilhas Falkland e Suriname.
 Guilerme, Aila, Fabíola, Wallace e Pablo
+Guilherme e Beatriz
 Guilherme e Gabriel eram bons amigos.
 Guilherme, Eloísa, Mônica e Clara
 Guiou a exposição de desenho da escola de Taipei
+Gurupi
+Gustavo e Mariana
 Gustavo não tinha conta no Santander nem no Itaú.
 Gustavo tinha vinte mil pontos da Latam.
 Gustavo viajou pela Itapemirim para Belo Horizonte.
@@ -6917,11 +8079,15 @@ Havia um tubo de metal, mas foi perdido
 Havia uma luz verde cintilante emanando da estátua.
 Havia vozes levantadas e uma espécie de luta parecia estar acontecendo..
 Heehaw e Feliz Natal.
+Heitor e Maria Eduarda
 Heitor era o nome do prefessor.
+Helena e Miguel
 Helena era o nome da atriz.
+Heloísa e Gabriel
 Henderson entrou na estação de trem para telegrafar as notícias para Londres.
 Henderson estava aceitando.
 Henderson levantou-se com uma pá na mão.
+Henrique e Ana Clara
 Hey Lucy, você já se lembrou da letra do hino?
 Hiago, Ketlin, Brena, Natasha e Jeniffer
 Hipermercado ao lado da estação
@@ -6935,6 +8101,7 @@ Hoje estou tornando a Internet mais inclusiva.
 Hoje está frio
 Hoje eu estou tornando a Internet mais inclusiva.
 Hoje o dia está desagradável.
+Hoje tem jogo da Libertadores da América.
 Hoje vai ser um longo dia.
 Hoje vem que a nossa festa.
 Hoje à noite? eles descobririam a verdade.
@@ -7003,6 +8170,7 @@ Hong Kong é muito ventoso
 Honrar vem com sofrimento.
 Horas extras adicionadas à morte
 Horizonte
+Hortolândia
 Hospedagem de grandes estágios e feiras de emprego
 Hospital de Taipei
 Houve incêndios em dois mil anos.
@@ -7103,12 +8271,21 @@ Há uma árvore aqui
 Há água na chuva
 Há? o alquimista separou o disco em quatro partes.
 Hélio faz sua voz estridente.
+Ian e Alícia
+Ibirité
 Ibitinga
+Ibiúna
+Icó
 Ideias são a prova de balas.
 Identificação de organizações e instituições que fornecem informações.
 Identificação e assinatura em sistemas Linux.
 Identifique esse sujeito.
+Igarapé-miri
+Igarassu
 Igreja e Estado são separados por um motivo.
+Iguatu
+Ijuí
+Ilhéus
 Imagem de alta resolução.
 Imagem de um rapaz pequeno em um passeio que olha um pombo.
 Imagens estranhas passaram pela minha mente.
@@ -7118,6 +8295,7 @@ Imediatamente sentiu que o Sr. Ashby lhe fizera um grande desserviço.
 Imediatamente siga o conselho dela
 Imigração
 Imitando com sucesso o seu design
+Imperatriz
 Implementar comunicação com os moradores locais
 Impossível por causa da substituição
 Impossível ser eles
@@ -7133,6 +8311,7 @@ Inclui o café da manhã?
 Inconveniência, por favor, me perdoe
 Incorporar arte pública no plano
 Incrível!
+Indaial
 Indaiatuba
 Indo bêbado e certo, isso não pode ser.
 Indo duas vezes
@@ -7187,17 +8366,28 @@ Invadir o Yuan Legislativo
 Inventário abrangente de habitats de vaga-lumes
 Investigadores encontraram dois suspeitos
 Inútil como uma porta de tela em um submarino.
+Ipatinga
+Ipirá
 Ipixuna do Pará
+Ipojuca
 Ir ao Museu da Cerveja de Sapporo
 Ir para Mick Fleetwood no meu Vimeo
+Irati
+Irecê
+Isaac e Letícia
 Isabela sabia de tudo.
 Isabeli, Rayssa, Stefany, Gabrielle e Thainá
+Isabella e Lorenzo
 Isabelle, Gleiciane, Adrieli e Mikael
+Isabelly e Antônio
 Isabely, Rhuan, Laysa, Jamilly e Nicholas
+Isadora e Lucca
 Isadora e Manuela são boas colegas.
 Isaque, Antoni, Misael, Cássio e Lívia
+Isis e Caio
 Isis, Soraia, Thaís, Cíntia, Ronald e Cristiane
 Ismael, Kátia, Raul e Nádia
+Israel, Rafael, Edgar e Wagner
 Isso amplia o pensamento e aumenta a linguagem.
 Isso cobre o básico.
 Isso combina com você?
@@ -7348,45 +8538,81 @@ Isto é provavelmente porque os edifícios foram feitos de pedra.
 Isto é uma história.
 Isto é óbvio.
 Isto é, aprenda com eles.
+Itabaiana
+Itaberaba
+Itabira
+Itaboraí
+Itabuna
+Itacoatiara
+Itaguaí
+Itaituba
+Itajaí
+Itajubá
+Itamaraju
 Itanhaém
+Itapecerica da Serra
+Itapecuru Mirim
+Itaperuna
+Itapetinga
 Itapetininga
+Itapeva
 Itapevi
+Itapipoca
 Itapira
+Itaquaquecetuba
+Itatiba
+Itaúna
 Itu
+Ituiutaba
+Itumbiara
 Itupiranga
 Ivanka Trump é filha de Donald Trump.
+Ivo e Maria
 Izabela, Mirela, Andresa, Iana e Patrick
 Izabeli, Nicolle, Nata, Cauani e Lorrany
+Içara
+Jaboatão Dos Guararapes
 Jaboticabal
+Jacareí
 Jaciara, Jackson, Romário, Elton e Tiago
 Jack admitiu que os lagartos acrescentaram uma nova dimensão à sua experiência na sauna.
 Jackson estava feliz por ter usado Kevlar naquela manhã.
+Jacobina
 Jacundá
 Jade, Ícaro, Christian, Ingred, Tamires e Juliane
 Jaguaquara
 James Madison e James Monroe foram presidentes do Estados Unidos.
+Janaúba
 Jandira
 Jane falou enfaticamente.
 Janela fechada.
 Janet Roger morreu há três meses.
 Janko tem uma dama nos braços.
+Januária
+Japeri
 Jaraguá do Sul
 Jaru
 Jason abriu alguns baús velhos e empoeirados no sótão de sua casa.
+Jataí
 Jato voando baixo sobre um campo com uma mulher no campo.
 Java não é apenas uma ilha?, mas também uma linguagem de programação popular.
 Jaú
 Jeff Bezos tem filhos?
 Jefferson joga pelo Botafogo.
 Jennifer, Talis, Leidiane, Carine e Yan
+Jequié
 Jeremias, Alan, Analice, Magno e Jaílson
 Jerry não podia acreditar.
 Jesus de Nazaré.
+Ji-paraná
 Jim acha que é Morgan.
 Jim tornou-se chefe do conselho de projetos.
+Joana entregou a senha pro Pedro.
 Joana não desistiu.
 Joana postou uma foto do Paulo no Insta
 Joanne deveria estar de volta agora.
+Joaquim e Rebeca
+Joaquim veio aqui hoje.
 Joel é um cara legal.
 Joelma, Jefferson, Fabiana, Jonatas e Taís
 Jogador de futebol em azul está limpando a boca com a camisa
@@ -7405,12 +8631,15 @@ Joguei bola até os dezoito anos
 John e Thomas estavam na mesma sala de aula.
 Johnathan avaliou a situação com cuidado.
 Joice e Júlia estudam juntas.
+Joinville
+Jorge anotou a senha da Ana.
 Jorge lavou suas mãos
 Jorge não para de espalhar fake news
 Jornal diário desportivo que segue toda a atualidade desportiva com independência e rigor jornalístico.
 Josiel, Nívia, Edivan, Cleiton e Weliton
 José comprou um novo smartphone.
 José e João ficaram de fora da partida.
+José e Luiz
 José mora na Candangolândia e trabalha na Asa Sul.
 José tinha internet da Claro, mas queria mudar pra Vivo ou pra Oi.
 Jovem de blusa branca? shorts azuis compridos? jogando tênis.
@@ -7429,15 +8658,29 @@ Jovens músicos, velhos entusiastas.
 Jovens rapazes com mochilas andam pela rua passando por um grande busto de Buda
 Jovens saxofonistas esperam durante uma pausa em um desempenho
 Jovens são convocados pelas forças armadas aos dezessete anos
+João e Clara
+João Gabriel e Amanda
+João Miguel e Esther
+João Monlevade
+João Pedro e Heloísa
 João Pessoa
 João Sousa começou da melhor forma.
+João Vitor e Ana Beatriz
+João apagou a luz e foi dormir.
 João e Gustavo não passaram no teste.
+João e Marina
 João me mandou no WhatsApp
+João não sabia de nada.
+João pegou a senha do José.
 João se mudou de Brasília para São Paulo, depois de morar no Rio.
 João tinha internet da Oi, mas queria mudar pra Claro ou pra Vivo.
+Juazeiro
+Juazeiro do Norte
 Juiz Tully está em.
+Juiz de Fora
 Julho sem orvalho, chuva ameaçada.
 Julian é presumivelmente a favor da legalização da cannabis.
+Jundiaí
 Junho decidiu se aposentar.
 Junte-se ao clube.
 Juntos caminham e conversam
@@ -7464,11 +8707,14 @@ Já recebi vinte likes no meu post
 Já suando
 Já tentei isso algumas vezes e não deu certo
 Já tomou o café?
+Já viajou com a companhia Azul?
 Já é tarde demais.
 Já é tarde.
 Já?
 Jéssica, Safira, Caroline, Everson, Andreza e Joyce
+Júlia e Benjamin
 Júlia fala Português, Inglês e Espanhol.
+Júlio, Marina, Elizabete e Elias
 Kamile, Rana, Emely, Kimberly e Caike
 Kamilly, Lorran, Raysa, Millena e Nathaly
 Kana é difícil.
@@ -7476,16 +8722,20 @@ Karen não virá hoje.
 Karine, Estefani, Ingridi, Jhon e Any
 Katie gritou que eles iam perder.
 Katy Perry é uma famosa cantora americana.
+Kelly estava interessada em esclarecer a morte de seu irmão.
 Kelvin? Fahrenheit ou Celsius - qual é a melhor unidade de temperatura?
 Kessia, Erike, Nicoly, Brayan e Cristofer
 Kiara, Kayky, Thaissa, Davila e Emeli
 Lagarto
+Lages
 Lagoa Santa
 Laguna
 Laiane, Kaio, Francieli, Ryan e Maycon
 Laila, Jakson, Julha, Bruna, Igor e Adson
+Lajeado
 Lana, Welinton, Alexandra, Fabrício e Hudson
 Lapso de tempo
+Lara e Murilo
 Lara gosta de laranjas.
 Lara vem jantar.
 Laranja precoce, rara, azeda e mais cara, apareceu no mercado desafiador.
@@ -7494,12 +8744,14 @@ Largue essa cadeira!
 Larissa é muito inteligente.
 Lasanha feita para veganos
 Laser tag é um jogo bastante semelhante ao paintball.
+Laura e Heitor
 Laura ficou com raiva da Beatriz.
 Lauren, Jenifer, Adrian, Gleison e Ingride
 Lauro de Freitas
 Lave legumes e verduras todas as manhãs
 Lave todas as dúvidas
 Lavras
+Lavínia e Anthony
 Lawrence ficou perplexo com a quantidade de coisas que aprendera sobre a lógica difusa.
 Layane, Ketlyn, Mikaela, Maitê e Kauani
 Layla, Rafaeli, Gabrielli, Kauana e Laisla
@@ -7512,6 +8764,7 @@ Leia dois livros de grande interesse
 Leia na manhã seguinte e leia
 Leia verso em voz alta por prazer.
 Leia-o e depois responda.
+Leila, Augusto, Gerson e Rogério
 Leite é super rico
 Lembre-me de acordar amanhã às oito da manhã.
 Lembre-me de comprar alguns ovos na próxima vez que eu estiver na loja.
@@ -7526,6 +8779,7 @@ Lena está flertando comigo ou apenas cumprimentando?
 Lenha de barro, fogo casado.
 Lentamente vem um longo caminho, usa pressa só para coelhos.
 Lençóis Paulista
+Leonardo e Maria Clara
 Leonardo DiCaprio está encarando o novo filme.
 Leonardo foi um pintor famoso.
 Leopoldina
@@ -7574,6 +8828,7 @@ Ligue-o.
 Lily é tão míope quanto ele.
 Lima é a capital do Peru.
 Lima é a principal cidade do Peru.
+Limeira
 Limite de consultas superado.
 Limoeiro
 Limoeiro do Norte
@@ -7583,6 +8838,8 @@ Limpe os pés no tapete antes de entrar
 Limões e tomilho devem ir bem.
 Linda mulher caminhando com óculos de sol.
 Linguagem infantil da criança
+Linhares
+Lins
 Linus Torvalds criou o kernel do Linux.
 Linus é conhecido por sua linguagem clara e explícita.
 Lisa e eu somos bons amigos.
@@ -7598,6 +8855,7 @@ Livro de leitura do homem ao ar livre.
 Livro local em Fults nos Estados Federados da Micronésia
 Livros e vinhos, os mais antigos.
 Livros sobre medicina.
+Liz e Eduardo
 Liz colocou as flores em um vaso espelhado.
 Logo deu à luz sua filha
 Logo eles serão doados.
@@ -7605,7 +8863,9 @@ Loja de informática.
 Londrina
 Lorane, Laíssa, Tauana, Evelim e Tainar
 Lorena
+Lorena e Matheus
 Lorena e Cecília não sabem se comportar.
+Lorenzo e Lara
 Loreto era um arroz de camponês e um assado.
 Lua avermelhada e crescente, vento forte.
 Lua clara, mar calmo.
@@ -7616,14 +8876,25 @@ Lua vermelha, ventosa louca.
 Luan, Tainá, Isabella, Vanesa, Gabriele e Evely
 Luane, Cassiane, Ariele, Alef e Gabriella
 Luara, Anny, Rafaele, Mikaele, Braian e Jonatha
+Lucas e Luiza
 Lucas jogava bem.
+Lucas se encontrou com José e João.
+Lucca e Cecília
 Lucca é um grande cara? sempre lá para você quando você precisar dele.
+Lucia, Josefa e Rosa
+Luciano, Chico, Damião, Rosana e Isaías
 Lucy é uma jornalista.
+Luiz Fernando não estava em casa.
 Luiz mudou sua conta do Itaú para o Bradesco.
+Luiz pegou a senha do Marcos.
+Luiza e Pedro
 Luke? Eu sou sua irmã!
 Lula é deliciosa
 Lutando contra brinquedos elétricos ilegais
+Luziânia
 Luís Eduardo Magalhães
+Luís, Sebastião e Jorge
+Luíza, Hélio, Rosângela e Celso
 Lá embaixo, na escuridão, havia centenas de pessoas que dormiam em paz.
 Lá está ele no jardim municipal da grande capital do vinho.
 Lá vai outra moça esfoladora.
@@ -7631,18 +8902,26 @@ Lá você pode aprender muito a partir daí.
 Lágrimas infreqüentes
 Lápis abaixo do tempo de? acabou.
 Lápis para baixo, o tempo acabou.
+Léo mora no Cruzeiro e trabalha em Sobradinho.
 Líder sem história
 Lígia e Elisa
+Lívia e Lucas
 M avaliado para maduro.
+Macapá
+Macaé
+Macaíba
+Maceió
 Macho branco novo que prepara o alimento na parte superior do fogão.
 Macho com óculos de proteção sentado no chão com um panfleto.
 Macho descamisado que surfa uma onda.
 Mafra
+Magé
 Maikon, Talisson, Emanuelle, Andrieli e Natacha
 Maior e melhor
 Maior empresa
 Maior viabilidade
 Mairiporã
+Mais acessados
 Mais adiante, examinaremos essa relação que acabamos de mencionar aqui.
 Mais cedo ou mais tarde, eles descobrirão como ler esses hieróglifos.
 Mais cedo ou mais tarde, todos os barcos produzem água.
@@ -7676,13 +8955,16 @@ Mais tarde, voltei para o ponto de ônibus.
 Mais uma hora para escrever.
 Mais uma vez ele estava experimentando a linguagem sem palavras...
 Mais uma vez.
+Maitê e Daniel
 Maktub? pensou o menino.
 Malhar no ferro enquanto está quente.
 Mamãe realmente quer
 Mamãe, feliz dia das mães!
+Manacapuru
 Manaus
 Mandando um pistoleiro para me sequestrar!
 Mandra, com medo e frio, mais há apoio.
+Manhuaçu
 Manhã participando da conferência de imprensa do projeto
 Manipulando minha vida
 Mantenha a escotilha apertada e o relógio constante.
@@ -7694,10 +8976,14 @@ Manter a conservação ecológica
 Manter as despesas de vida não é fácil
 Manter lista de contatos atualizada.
 Mantém conversas em inglês, simples e rotineiras no setor, interpretando as informações iniciais.
+Manuela e Bernardo
 Manuella, Tauani, Tifani, Kemili e Kayke
 Manutenção e segurança eficazes
 Mapas de navios são diferentes daqueles para aviões.
 Mapeie os olhos piscando
+Marabá
+Maracanaú
+Maranguape
 Maranhão
 Maravilhosa é a força da alegria.
 Maravilhoso
@@ -7705,13 +8991,28 @@ Marc, você poderia me dar o mata-moscas?
 Marcelo não tinha conta na Caixa nem no Bradesco, só no Santander.
 Marcos tinha doze mil pontos da Avianca e vinte mil na Gol e Azul.
 Margem do rio à tarde
+Maria Alice e Davi Lucca
+Maria Cecília e Bryan
+Maria Clara e Rafael
+Maria Eduarda e Guilherme
+Maria Helena e Calebe
+Maria Júlia e Isaac
+Maria Luiza e Nicolas
 Maria acha que é Paulo.
 Maria e Júlia estavam na festa.
 Maria e Paula fazem a mesma atividade aos domingos.
+Maria se casou com José.
 Mariana
+Mariana e Enzo
+Mariana e Carlos
 Mariana tentou passar no vestibular.
+Maricá
 Mariele, Izadora, Hanna, Emile e Deivison
 Marilyn Monroe faleceu em mil novecentos e sessenta e dois.
+Marina e Cauã
+Maringá
+Marisa, Maurício, Alberto e Nilton
+Marituba
 Mark desatou o pacote com cuidado.
 Mark do Policial está mostrando no cinema mais próximo
 Marketing na Internet e big data
@@ -7719,6 +9020,8 @@ Marque o local com uma placa pintada de vermelho.
 Marte é quase inabitável.
 Marte, o Planeta Vermelho.
 Marty ajudou a capturar a ponte Remagen.
+Marília
+Marília, Ruth, Heloísa e Valéria
 Mas a barriga está gritando
 Mas a cada semana eu ficava mais e mais rápido.
 Mas achei difícil chegar ao trabalho por causa das investigações.
@@ -7918,13 +9221,16 @@ Mascote da cidade de Taipei
 Matenha aberto por cinco dias.
 Material de venda direta
 Mateus, Arthur, Heitor, Diana e Sofia
+Matheus e Valentina
 Matheus, Davi e Bruno eram colegas de turma.
 Matias, Wellington, Laís, Isac e Iran
 Mato Grosso
 Mato Grosso do Sul
 Matão
+Mauá
 Maués
 Maxuel, Alisson, Poliana, Laísa e Ludimila
+Me adiciona no WhatsApp
 Me ame ame meu cachorro.
 Me chamaram de viado.
 Me chame para checar o sangue
@@ -7943,6 +9249,8 @@ Me dê um pouco de atenção da próxima vez!
 Me fale sobre isso.
 Me lembre de ir ao mercado ás três da tarde.
 Me leve de volta para lá.
+Me manda no e-mail corporativo
+Me manda pelo Whatsapp
 Me manda por WhatsApp
 Me manda por WhatsApp mais tarde
 Me manda um WhatsApp mais tarde
@@ -7970,6 +9278,7 @@ Melhor se apressar e se barbear.
 Melhor ser rabo de pescada do que não sardinha.
 Melhor voltar do que dar errado.
 Melhorar a segurança do campus
+Melissa e Pedro Henrique
 Melissa, Railson, Weslei, Isabele e Sophia
 Membro de uma banda independente que assedia o inimigo por ataques irregulares.
 Membros da família ganhando dinheiro
@@ -8086,6 +9395,7 @@ Michael abriu um navegador e navegou para um mecanismo de pesquisa anônimo.
 Michel, Maíra, Janaina, Elis e Eduarda
 Microsoft PowerPoint.
 Microsoft Visual Studio.
+Miguel e Sophia
 Miguel gostava de brincar com os seus carrinhos.
 Milena, Joseane, Maíza, Keila e Sabrina
 Milene, Sâmia, Eloíse, Karina, Kelly e Elison
@@ -8147,6 +9457,9 @@ Modificar os ativos seria uma violação de direitos autorais.
 Modifique e altere o conteúdo e os detalhes das atividades relacionadas
 Moeda de noventa dias
 Mogi Guaçu
+Moji Das Cruzes
+Moji-mirim
+Moju
 Moldar a argila suavemente em forma de bloco.
 Molho de tomate foi ótimo.
 Molho para o ganso é molho para o ganso.
@@ -8155,10 +9468,13 @@ Monitore os arquivos de pagamento de subsídios e acordos e seus documentos de a
 Monopólio absoluto
 Monte Alegre
 Monte Santo
+Montenegro
+Montes Claros
 Montras em uma rua quase vazia? Uma pessoa empurrando um carrinho está à distância.
 Morada Nova
 Morango ouviu bem
 Moreno
+Mossoró
 Mostrando imediatamente raiva
 Mostrando um pequeno sorriso triste
 Mostrar os horários dos filmes animados no cinema mais próximo
@@ -8287,10 +9603,14 @@ Mulheres sendo salpicadas por tinta vermelha
 Mulheres vestidas com roupas exóticas em pé na rua
 Mundo perfeito.
 Municípios
+Muriaé
+Murilo e Gabriela
 Muro da Corte Legislativa
 Museu da cidade
 Máquina de lavar roupas.
 Máquinas de costura modernas podem reduzir sua velocidade.
+Márcia, Jair, Edna, Vicente e Marta
+Mário, Manuel. Sueli e Joaquim
 Mãe
 Mãe atravessando a rua com o filho dela.
 Mãe de Tim Cook.
@@ -8367,6 +9687,7 @@ Naquele momento, o telefone tocou.
 Naqueles dias?, muito poucas pessoas tinham alguma ideia sobre astronomia.
 Naqueles tempos, a obra-prima poderia ser escrita simplesmente em uma esmeralda.
 Nascido cedo demais
+Natal
 Natal com sol, Páscoa com fogo.
 Natural e vívido
 Naturalmente desce e sobe sempre com o elevador.
@@ -8434,8 +9755,10 @@ Neto
 Neutralize todos os inimigos atrás das barricadas com o seu taser.
 Nevando na estrada da montanha
 Neve caindo lá fora
+Nicolas e Maria Luiza
 Nicolas e Daniel.
 Nicoli, Franciane, Lorrane, Thamires e Kaíke
+Nilópolis
 Ninguém ataca um oásis.
 Ninguém atendeu, então fui até o lugar dela a caminho daqui.
 Ninguém contesta isto.
@@ -8458,6 +9781,7 @@ Ninguém sabia quem era Malcolm.
 Ninguém vai vir em seu socorro.
 Ninguém vai?
 Ninguém viajando de ônibus ficou ferido.
+Niterói
 No Domingo eu vou para a Igreja.
 No Emacs?, familiarize-se com o modo de sub-palavras.
 No Hotel Shoreland.
@@ -8569,6 +9893,7 @@ Notícia ruim chega rápido.
 Notícias diárias do povo de Taiwan
 Notícias estão sempre soprando
 Nova Friburgo
+Nova Iguaçu
 Nova Lima
 Nova Odessa
 Nova Serrana
@@ -8583,6 +9908,7 @@ Novembro e fevereiro são marido e mulher.
 Noventa e cinco linhas e não mais, é isso.
 Noventa e cinco linhas e não mais? é isso.
 Novo Gama
+Novo Hamburgo
 Novo Repartimento
 Novo conceito
 Novo laptop agora
@@ -8704,6 +10030,7 @@ Não havia necessidade de aprisioná-los. Os árabes simplesmente confiscaram se
 Não havia outra bagagem.
 Não havia quase ninguém lá.
 Não havia tempo a perder.
+Não havia voos diretos para Barcelona.
 Não houve festa na escola este ano.
 Não houve justificativa fornecida.
 Não houve resposta dos anciãos.
@@ -8836,6 +10163,7 @@ Não se preocupe
 Não se preocupe com ele? ele ficará bem.
 Não se preocupe com isso.
 Não se preocupe comigo.
+Não se preocupe então.
 Não se sinta com sorte, não se humilhe em um acidente!
 Não segure mais do que a tua mão vai segurar
 Não sei de nada.
@@ -8846,13 +10174,16 @@ Não sei se conseguirei encontrar a vida no deserto? o menino pensou.
 Não sei se precisava disso tudo
 Não sei se quero começar a filmar.
 Não sei.
+Não seja bobo.
 Não seja mais católico do que papa.
+Não seja padeiro se a sua cabeça for de manteiga.
 Não seja pessimista!
 Não seja um tolo!
 Não senhor, aplicou só o excedente.
 Não senhor; Eles ainda eram jovens e podiam esperar.
 Não sente aí como um robin congelado.
 Não ser encontrado
+Não seria legal se fôssemos assim?
 Não seria o primeiro.
 Não será martírio e não libertará água
 Não será muito caro.
@@ -8862,6 +10193,7 @@ Não são considerados aqueles que ainda são exigidos pelos regulamentos.
 Não só Taipei pode resolver
 Não só em Taipei
 Não tem explicação.
+Não tem qualquer problema.
 Não temos orçamento para produzir em qualidade de estúdio.
 Não tenha esse receio.
 Não tenha medo, apenas um super-homem.
@@ -8879,6 +10211,8 @@ Não tenho ideia do que é a ciência da complexidade.
 Não tenho informações sobre tropas ou sobre o movimento das tribos.
 Não tenho nada a dizer.
 Não tenho opinião sobre quem você quer dar.
+Não tenho tanta certeza de como me sinto sobre os códigos de vestimenta.
+Não tente chutar contra o vento.
 Não tente ensinar sua avó a sugar ovos.
 Não tente entrar na vida do oásis.
 Não tente lamber esse poste? sua língua ficará presa!
@@ -8980,6 +10314,7 @@ Não? eu vou dizer a ela mesmo.
 Não? não exclua as mensagens? Ainda não as li.
 Não? não para eles.
 Não? não, obrigado? apenas procurando.
+Nélson, Sandra, Ângela e Joana
 Nós a aconselhamos a sair e tomar banho de sol
 Nós a localizamos.
 Nós achamos
@@ -9035,6 +10370,7 @@ Nós nos vestimos para se adequar ao clima da maioria dos dias.
 Nós nunca perdemos uma partida contra eles.
 Nós não estamos autorizados a exportar nossos produtos para o Afeganistão? devido ao embargo.
 Nós não estamos recebendo nenhum aviso de tornado no rádio.
+Nós não podemos contar.
 Nós não podemos continuar assim.
 Nós não podemos respirar o ar de graça.
 Nós não podemos ver felicidade e arco-íris sobre o seu telhado.
@@ -9098,6 +10434,7 @@ Nós vamos carregar a mesa.
 Nós vamos descer com as malas em um minuto.
 Nós vamos dormir na pousada esta noite.
 Nós vamos encontrar um ex-amigo.
+Nós vamos fazer um mistério com ele.
 Nós vamos filmar as obras.
 Nós vamos hoje.
 Nós vamos lavar os lençóis hoje
@@ -9112,11 +10449,15 @@ Nós viemos das baterias.
 Nós viemos de Alfés.
 Nós viemos de Badalona.
 Nós viemos de Beuda.
+Nós viemos de Cabanes.
 Nós viemos de Gualta.
 Nós viemos de Ibiza.
 Nós viemos de Oliva.
+Nós viemos de Olot.
 Nós viemos de Paiporta.
 Nós viemos de Palanques.
+Nós viemos de Porrera.
+Nós viemos de Sineu.
 Nós viemos de Talamanca.
 Nós viemos de Vilada.
 Nós viemos de Xera.
@@ -9124,15 +10465,21 @@ Nós viemos de chinelos.
 Nós vivemos das nossas raízes e não dos nossos ramos.
 Nós vivemos e veremos as coisas.
 Nós vivemos em sociedade.
+O Alex Fabiano marcou dois gols.
+O Alex chegou sozinho.
 O Antônio chamou seus amigos para tomar chimarrão no no Parcão.
 O Antônio não sabia qual era o perfil da Clara no Facebook
+O Bernardo se casou com a Valentina.
 O Brasil fica América do Sul.
+O Bruno usou todas as suas milhas da Tap.
+O Carlos nunca foi no Varjão, nem no Lago Oeste.
 O Carlos tem um perfil secreto no Instagram
 O Celso nasceu em Campinas, mas mora em Santos.
 O Comitê Agrícola alterou a lei
 O Coral de Natal do Éden está se apresentando.
 O Cristiano não vai na festa do Alex.
 O Cristiano passa o dia no Facebook
+O Cássio defendeu um pênalti ontem.
 O Davi mandou a notícia pro Eduardo via WhatsApp
 O Debian é um sistema operacional que é livre como em liberdade.
 O Departamento de Serviços de Saúde depende da Gestão de Serviços de Saúde.
@@ -9141,6 +10488,7 @@ O Eduardo não tinha pontos da Latam, mas tinha da Gol.
 O Egito é um país que é frequentemente mencionado na Bíblia.
 O Elias queria comprar milhas da Tam ou da Gol.
 O Enzo nunca usou seus pontos da Avianca ou da Azul.
+O Enzo não veio à aula hoje.
 O Facebook tem muitos problemas de privacidade.
 O Facebook é muito popular no Brasil
 O Felipe abriu uma conta no Banco do Brasil.
@@ -9159,6 +10507,8 @@ O Instagram está superando o Facebook
 O Internet Explorer só servia para instalar o Google Chrome.
 O Irã está submetido a sanções econômicas
 O Jair me mandou isso pelo WhatsApp
+O Jardel jogou pelo Atlético.
+O Jorge Castro Alves é o pintor mais indicado pra esse trabalho.
 O Jorge Castro seguia o João Pereira no YouTube
 O Jorge mandou a foto pro Carlos pelo Telegram
 O Jorilson tem um cartão de crédito do Nubank.
@@ -9167,11 +10517,16 @@ O Juninho chamou o Vítor para jogar futebol.
 O Júnior ficou chateado com a Clarissa.
 O Leonardo mora no Vicente Pires.
 O Lionel joga pra caramba.
+O Luis não se deva bem com o Bruno.
 O Luiz Fernando só tem cartão de crédito do Banco do Brasil.
+O Luiz Guilherme fez estágio em a plataforma da Petrobrás.
 O Maranhão é um dos maiores estados da federação
 O Marcelo deixou privado no seu Instagram
 O Marcelo não tem conta mais no Santander, só na Caixa.
 O Marcos cancelou seu cartão de débito do Itaú e do Santander.
+O Marcus tinha trabalhado na Fiat antes de ir para a Volkswagen.
+O Mateus viu o Papa Francisco de longe.
+O Mercado de trabalho na cidade precisa se desenvolver mais
 O Ministério Público não aprovou o projeto de lei.
 O Natal é muito parecido com a Páscoa.
 O Neymar Jr é um famoso jogador de futebol brasileiro.
@@ -9179,6 +10534,7 @@ O Paraguai compartilha uma fronteira com a Bolívia?, enquanto o Uruguai não.
 O Paraguai e o Uruguai não participarão da Copa do Mundo este ano.
 O Patrick tinha que concluir seu estágio na Ambev.
 O Patrício sabia que não era fácil trabalhar no Hospital Sírio Libanês.
+O Paulo chegou cedo, mas depois do João.
 O Paulo não tinha ideia do Snapchat da Francisca
 O País Valenciano é um território relativamente subdesenvolvido que financia outras regiões mais ricas.
 O Pedro e a Betânia se conheceram no carnaval de Salvador.
@@ -9186,17 +10542,23 @@ O Pedro foi para Gramado no inverno.
 O Pedro tem um perfil falso no Instagram
 O Porto de Mariel fica em Cuba
 O Presidente acabou de decorá-lo.
+O Rafael é irmão do Bruno e do Gabriel.
 O Rodrigo tem um perfil fake no Facebook
 O Romário nunca jogou com o Pelé.
+O Ronaldinho jogou em Milão.
 O Ronaldo marcou muitos gols na sua carreira.
 O Ronei tem conta no Bradesco.
 O Sabiá já sabia.
+O Salvador já tinha trabalhado na Odebrecht.
 O Salvador só tinha conta na Caixa Econômica e no Banco do Brasil.
+O Sergei não viajou com as milhas da Azul nem da Avianca.
 O Sr. Lee não pode ser incomodado agora.
 O Tensorflow roda mais rápido com uma placa gráfica.
+O Théo queria viajar de avião com a Passaredo.
 O Universo tem treze ponto oito milhões de anos.
 O VirtualBox fornece seu próprio modo sem raiz.
 O Válter não tinha o número do Telegram do Manuel
+O Vítor Silva não apareceu hoje.
 O WhatsApp é uma ferramenta para isolar quem não tem.
 O WiFi da escola dela tem uma quantidade ridícula de sites bloqueados.
 O Wilson encerrou a conta da Caixa.
@@ -9273,7 +10635,9 @@ O avô testemunhou um movimento imóvel, sem ajudá-lo.
 O açougueiro me deu um quilo de presunto de graça!
 O bacalhau é o principal negócio da costa norte.
 O bacharelado começaria mais tarde.
+O banco pergunta a senha da conta.
 O banco pressionou pelo pagamento da dívida.
+O banco vai reabrir na próxima semana.
 O bando de flamingos aterrissou graciosamente em suas pernas desajeitadas.
 O banheiro precisava de limpeza.
 O barril é oleoso do óleo.
@@ -9380,6 +10744,8 @@ O clima era cinza.
 O clima na Finlândia é uma droga.
 O clima parece bom.
 O colaborador prolífico contribuiu com mais de mil commits até hoje.
+O comando vermelho atua na comunidade.
+O comando vermelho extorque os comerciantes.
 O comerciante ficou em silêncio por alguns instantes.
 O comerciante olhou ansiosamente para o menino.
 O comitê de revisão deve assinar um acordo de confidencialidade
@@ -9396,6 +10762,7 @@ O congresso fica em Brasília.
 O congresso nacional.
 O conhecimento é um bem valioso
 O conjunto de dados era muito grande para ser carregado na memória.
+O conluio entre os agentes públicos e privados preocupa a população
 O conteúdo da discussão também é muito rico, incluindo sete temas principais.
 O coração ainda é muito culpado
 O coração batia forte e com golpes firmes.
@@ -9674,9 +11041,11 @@ O inglês ficara profundamente impressionado com a história.
 O inglês ficou desapontado.
 O inglês não conseguiu dormir uma noite.
 O inglês não disse nada.
+O inglês não pôde conter sua excitação.
 O inglês não respondeu diretamente a ele.
 O inglês perguntou se estavam em perigo.
 O inglês tinha várias malas cheias de livros.
+O instagram está com milhões de novos usuários
 O instagram só permite fotos
 O interesse de conversão é profissional
 O inverno ainda pode ir
@@ -9693,6 +11062,7 @@ O jogador de beisebol dá um soco na bola.
 O jogador de futebol em vermelho está tentando bloquear o jogador em branco.
 O jogador foi xingado de viado.
 O jogo durou quase três horas
+O jornal anunciou sua morte
 O jornalista foi demitido.
 O jovem filho rega as plantas
 O jovem jogador de futebol gosta do jogo.
@@ -9746,6 +11116,8 @@ O mar viveu nesta casca? porque esse é o seu destino.
 O mar é azul.
 O mar, o amigo se coloca no esquecimento.
 O matador de leões.
+O material será mandado para a perícia.
+O material vai passar por uma perícia.
 O medo estará errado
 O medo mantém a vinha.
 O medo é frequentemente a causa da violência.
@@ -9904,6 +11276,8 @@ O ouro perderia seu valor.
 O outono está aqui agora? e estamos vendo um belo céu azul pela manhã.
 O outro filho era um poeta e deliciava toda Roma com seus belos versos.
 O outro sacudiu a cabeça.
+O oxigênio é apenas para ajudá-lo até que o médico chegue aqui.
+O oxigênio é essencial para a vida na terra, assim como a água.
 O oásis é neutro.
 O paciente sentiu dor durante a passagem da sonda
 O pacote de cuidados que você me enviou chegou bem a tempo.
@@ -9933,6 +11307,7 @@ O pequeno grupo de pessoas da cidade se dispersou.
 O perdão foi um alívio para os dois
 O perfil teve mais de mil seguidores novos
 O perito entregou seu laudo em uma semana.
+O perito fez os exames no local.
 O perito legista examinou a criança após a denúncia de estupro.
 O período da moda japonesa é a loja de moda mais elegante
 O período foi possibilitado por novas técnicas de trabalho em pedra.
@@ -10070,6 +11445,7 @@ O que eu tenho a ver com isso?
 O que eu vou dizer a ele?
 O que eu vou fazer?
 O que faremos senão esperar por isso?
+O que faz você pensar que eles estão interessados??
 O que fazer
 O que fazer em Holly Recreation Area às oito
 O que fazer ou não fazer
@@ -10238,6 +11614,7 @@ O simum explodiu naquele dia como nunca havia explodido antes.
 O sistema de seleção será a oposição da concorrência.
 O sistema para determinar o preço do contrato é o dos preços unitários.
 O site da empresa foi invadido
+O site pede uma senha pra entrar.
 O skatista está andando no trilho de prata, enquanto outros três jovens olham.
 O snowboarder fica com ar sério.
 O sofá estava destruído
@@ -10372,6 +11749,8 @@ O vioão era velho.
 O vitral oferecia uma atmosfera hipnótica.
 O vizinho do quarto é um caso como um repolho.
 O volume não aumentaria muito mais.
+O voo da Gol atrasou dez minutos.
+O voo da Latam chegou no horário.
 O voo sairá de São Paulo para Brasília às doze horas de amanhã
 O vértice estava fora de alinhamento.
 O vídeo foi tirado do YouTube
@@ -10473,6 +11852,7 @@ Olhos muito suaves
 Olhou a hora
 Olhou para o calendário
 Olhou para o relógio
+Olinda
 Olá
 Olá Benjamin.
 Olá pessoal
@@ -10545,6 +11925,7 @@ Originalmente existem dois edifícios
 Originalmente pensava que não seria um grande edifício
 Originalmente, eu queria contar ao presidente.
 Originalmente, minha família não acreditava nisso.
+Oriximiná
 Os Congressistas do Brasil.
 Os Filhos da Terra foram amados.
 Os Japoneses e Brasileiros.
@@ -10609,6 +11990,7 @@ Os estudantes assistem a uma aula de matemática na universidade.
 Os estudantes coloriram com seus lápis de cor.
 Os estudantes universitários também têm um voto
 Os estádio estava cheio de torcedores
+Os evangélicos lotaram seu templo
 Os exemplos mostram o contrário.
 Os faróis queimavam inexplicavelmente
 Os fiscais chegarão amanhã
@@ -10659,6 +12041,7 @@ Os meninos balançam em um balanço verde fora de uma estrutura de madeira velha
 Os meninos estão escalando postes de madeira em um rio sujo.
 Os meninos estão jogando futebol na rua do bairro.
 Os mesmos juízes, em alguns estados, são eleitos pela maioria.
+Os milicianos entraram em guerra contra os traficantes.
 Os muçulmanos são maioria na Arábia Saudita
 Os médicos estavam de plantão.
 Os móveis foram desenhados na Itália
@@ -10686,8 +12069,15 @@ Os pedestres e um ciclista passam tranquilamente por um prédio moderno.
 Os pedestres estavam em pé em uma calçada pavimentada com pedras.
 Os peixes devem nadar três vezes: na água, no azeite e no vinho.
 Os percussionistas do Oregon estão marchando com a banda.
+Os peritos apontaram o autor do ataque.
+Os peritos cometeram provas do crime.
 Os peritos concluiram que não foi suicídio.
 Os peritos concluiram que se tratou de um suicídio.
+Os peritos criminais atuaram nesse caso.
+Os peritos criminais não se manifestaram sobre o caso.
+Os peritos farão a reconstituição do assassinato.
+Os peritos farão a reconstituição do crime.
+Os peritos já identificaram o autor do crime.
 Os persas não navegaram pelo Atlântico
 Os personagens eram conhecidos.
 Os pescadores deixaram a escola.
@@ -10737,6 +12127,7 @@ Os tops são uma dádiva de Deus nos dias quentes de verão.
 Os trabalhadores estão na cozinha enquanto um homem se senta em uma mesa.
 Os trabalhadores, dentro da empresa, têm o direito de ingressar em qualquer centro sindical.
 Os trabalhos convocados são suscetíveis de prêmio direto.
+Os traficantes ameaçam os moradores.
 Os traços eram bem definidos.
 Os três ficaram em silêncio.
 Os três ultimos presidentes do Brasil são Jair Bolsonaro, Michel Temer e Dilma Rousseff.
@@ -10752,12 +12143,14 @@ Os árabes riram dele? e o alquimista riu junto.
 Os íons de metal precisam ser aquecidos primeiro na chama.
 Osasco
 Oscar está dançando foxtrot junto com Clara.
+Otávio e Gabrielly
 Ou amor próprio
 Ou chefe das instituições do Estado.
 Ou então vai para quinta-feira.
 Ou seja, converta o Valencia em uma referência para ter em mente.
 Ou talvez não?
 Ou você acha que isso iria estragar ele?
+Ouricuri
 Ourinhos
 Ouro Preto
 Outra corrida no banco?
@@ -10803,6 +12196,8 @@ Ouça os colegas da faculdade
 Ouça? não acredite no que ele diz.
 Ovelha que gosta de perder peso.
 Ovos? leite e farinha são os principais ingredientes das panquecas.
+Pacajus
+Pacatuba
 Paciente que recebeu radioterapia
 Paciência tem limite
 Pacote quente é super barato
@@ -10819,6 +12214,7 @@ Palestrantes em experiências de carreira compartilham estágio
 Palhaço colorido com balão de manipulação do assobio.
 Palhaços andando pela rua, aparentemente em um desfile com um Porta Potty no fundo
 Palhaços misteriosos foram colocados no labirinto.
+Palhoça
 Palmares
 Palmas
 Palmeira Dos Índios
@@ -10926,6 +12322,10 @@ Para um velho mal
 Para uma melhor compreensão física?, vamos primeiro recapitular onde está o ponto de articulação.
 Para você
 Para!
+Paracatu
+Paragominas
+Paranaguá
+Paranavaí
 Paraná
 Parauapebas
 Paraíba
@@ -10948,6 +12348,7 @@ Parece lógico.
 Parece menos que no ano passado
 Parece que ela pode manter Kathy na ponta dos pés.
 Parece que eu tenho que comprar um único painço.
+Parece que foi ontem que Teresa e Vicente se conheceram.
 Parece que nada para comer
 Parece que o desempenho não é muito pior.
 Parece que sempre? está sempre escuro aqui.
@@ -10962,8 +12363,11 @@ Parecia tão seguro e tranquilo.
 Parecia um flutuador de gás enferrujado.
 Parecia uma coisa tão pequena, tão brilhante, pequena e silenciosa.
 Parecia uma oração cigana.
+Parintins
 Paris parecer ser um bom destino.
+Parnamirim
 Parnaíba
+Parobé
 Parque Industrial Digital de Taipei inaugurado oficialmente no final de junho
 Parque da Indústria da Moda de Taipei
 Parte adicionada
@@ -10986,6 +12390,7 @@ Passando pela casa dos pais
 Passando pelo mercado de vegetais quando você vai para casa
 Passar por cima
 Passas são deliciosas.
+Passo Fundo
 Passo a passo, tenha um lar
 Passo até aqui.
 Passos
@@ -11006,24 +12411,36 @@ Paul se desculpou com Linda e abriu a porta.
 Paula e Maria eram irmãs.
 Paula fez vista grossa.
 Paulinho não dormiu bem essa noite
+Paulista
+Paulo Afonso
 Paulo e Joana estão trabalhando no projeto.
 Paulo e Pedro.
+Paulo esqueceu a senha da Maria.
 Paulo tinha um cartão Visa e um Mastercard.
+Paulo, Luiz e Carlos
 Paulínia
 Paus e pedras quebrarão meus ossos, mas o que não me mata me fortalece.
 Paz pacífica
+Paço do Lumiar
 Pedestres interagem com artistas de rua
 Pedido inicial para certificado de trabalho
 Pedimos mais uma oração pelo mundo
 Pedir dinheiro emprestado às pessoas da aldeia
 Pedra estranha
 Pedra que rola, não põe musgo.
+Pedro e Isabella
+Pedro Henrique e Isabelly
+Pedro Ivo
 Pedro Leopoldo
 Pedro abraçou seu ursinho o mais forte que pôde.
 Pedro e Bernardo.
 Pedro fechou sua conta do Bradesco.
 Pedro fez um meme e mandou no WhatsApp
+Pedro lembrou da senha do seu celular.
+Pedro não foi à escola hoje.
 Pedro tinha internet da Vivo, mas queria mudar pra Oi ou pra Claro.
+Pedro vai ser o primeiro de sua turma.
+Pedro, Raimundo, Manoel e Francisca
 Pegada do antecessor
 Pegando onde ele parou? ela terminou a lista.
 Pegou a mão dela
@@ -11057,8 +12474,10 @@ Pelo menos doze roteiros foram encontrados neste baú.
 Pelo menos há aquecimento no carro
 Pelo menos temos finalmente algo que podemos celebrar.
 Pelo trabalho de arte
+Pelotas
 Pendure o outono.
 Pendure os óculos nos dois braços.
+Penedo
 Pensando em como preparar o jantar
 Pensando nas perspectivas futuras da indústria de Taiwan
 Pensando que sou criança
@@ -11074,6 +12493,7 @@ Penso que são muito importantes para a nação
 Penso, logo existo.
 Pensou em todos os pastores casados ​​que conhecera.
 Pensou na filha do mercador? e tinha certeza de que ela provavelmente se casara.
+Penápolis
 Pep toma a pomada.
 Pequenas falhas permitiram entrar em maior.
 Pequenas gotas secam rapidamente.
@@ -11164,15 +12584,19 @@ Pessoas às compras em uma loja.
 Peter Piper pegou um bocado de pimentas em conserva.
 Peter se encolheu de volta, horrorizado.
 Peterson, Giulia, Micaela, Wanessa e Nayara
+Petrolina
+Petrópolis
 Peça a Liv que me ligue no restaurante daqui a vinte minutos.
 Peça ao advogado para deixar cair a causa perdida.
 Peça uma pizza.
 Peça à esposa para ser colocada no armazém
 Peça-lhes para pensar em publicidade e planos de marketing
 Peônia camarão mar ouriço
+Piauí
 Picos
 Piedade
 Pierre decidiu pesquisar a cultura gay.
+Pietro e Sarah
 Piloto de bicicleta no ar em uma rampa
 Piloto de rodeio na cobrança de touro.
 Pindamonhangaba
@@ -11182,8 +12606,11 @@ Pinheiro
 Pior a emenda que o soneto.
 Pior e pior.
 Pior é impossível.
+Piracicaba
 Pirapora
+Piraquara
 Pirassununga
+Piripiri
 Placas de vídeo da Nvidia.
 Planaltina
 Planejamento de atividades promocionais relacionadas
@@ -11198,6 +12625,7 @@ Pode ajudar
 Pode ajudar a melhorar o corpo ácido
 Pode ajudar com o processamento
 Pode colocar no meu cartão.
+Pode deixar então.
 Pode economizar uma quantia em dinheiro
 Pode escrever e sorrir
 Pode falar com papai
@@ -11255,6 +12683,7 @@ Policiais consideram a máfia responsável pelo massacre.
 Polvilhado no carro
 Política de inovação e empreendedorismo
 Pomares e moleiros, a colheita nunca desmoronou.
+Ponta Grossa
 Ponta Porã
 Ponte Nova
 Pontos de vista e instalações de segurança serão a única grande infraestrutura permitida.
@@ -11431,6 +12860,7 @@ Portanto, não houve pressão para demolir construções antigas para colocar no
 Portanto, o interesse do trabalho está sempre fora da causa.
 Portanto, é necessário estabelecer medidas corretivas que permitam mitigar esse possível impacto.
 Portel
+Porto Alegre
 Porto Ferreira
 Porto Seguro
 Porto Seguro é um belo destino de férias
@@ -11477,6 +12907,7 @@ Povos que fazem o alimento em uma frigideira gigante da plataforma giratória.
 Povos que sentam-se nas bordas que cercam etapas e uma parede telhada.
 Poá
 Poços de Caldas
+Praia Grande
 Prato da mamãe é super salgado
 Prazer em conhecê-lo.
 Precisa cercá-los
@@ -11667,9 +13098,15 @@ Qual idioma é falado na Alemanha?
 Qual jogo você quer jogar?
 Qual língua você deseja aprender este ano?
 Qual língua é falada em Angola?
+Qual município você procura?
 Qual método é usado para esclarecer a si mesmo?
 Qual música está tocando?
 Qual o Facebook dele?
+Qual o Instagram dele?
+Qual o Telegram dela?
+Qual o WhatsApp dele?
+Qual o YouTube dele?
+Qual o celular dele?
 Qual o clima no lugar atual?
 Qual o limite do seu humano?
 Qual o meio de prestar conta?
@@ -11678,12 +13115,18 @@ Qual o número dela?
 Qual o problema com ele.
 Qual o problema disto
 Qual o propósito disso?
+Qual o seu Facebook?
+Qual o seu Instagram?
+Qual o seu Telegram?
+Qual o seu WhatsApp?
 Qual o seu nome, mesmo?
 Qual seria o primeiro pagamento dela nessa política?
 Qual serviço de streaming você usa?
 Qual será o tempo aqui?
 Qual será o tempo em Ruanda?
 Qual será o tempo às seis horas nas Ilhas Virgens?
+Qual seu celular?
+Qual sua agência e conta?
 Qual sua música favorita?
 Qual visão você gostaria?
 Qual é a capital do Japão?
@@ -11969,10 +13412,13 @@ Que Tina achou engraçado!
 Que a força esteja com você!
 Que alegria há em viver?
 Que alegria ter um cachorro na vida?
+Que assalto!
 Que bacana essa revista.
+Que barato!
 Que bem isso fará?
 Que bem vai fazer?
 Que carga de lixo na televisão hoje.
+Que caro!
 Que carro!
 Que chatice!
 Que chique!
@@ -11990,6 +13436,7 @@ Que diabos você está divagando?
 Que diferença isso faz?
 Que dispositivo interessante é esse.
 Que dizer de tudo que vejo diante de mim?
+Que doideira!
 Que ele frequentou um seminário até os dezesseis anos.
 Que ele queria viajar.
 Que eles encorajam atitudes positivas em relação à língua catalã.
@@ -12006,10 +13453,16 @@ Que horas são
 Que horas são em Londres?
 Que horas vai escapar de Hong Kong estar mostrando?
 Que horas é a festa?
+Que horas é o baile funk.
+Que horas é o churrasco?
+Que legal!
+Que louco!
 Que maluquice!
+Que maneiro!
 Que música está tocando?
 Que o fruto do casamento não venha.
 Que passeios a loira faz!
+Que pechincha!
 Que piada engraçada
 Que preconceito ou insatisfação com ela
 Que recepção eles receberam.
@@ -12030,9 +13483,11 @@ Que tipo de melão é esse?
 Que tipo de papel é a melhor absorção de água?
 Que tipo de pesadelo legislativo é esse?
 Que tipo de prova é que?
+Que ótimo!
 Que, de maneira espiritual e científica, eu também sabia sobre essas questões.
 Quebre essa multidão!
 Queda de pedra não-herói
+Queimados
 Queime turfa depois que os troncos saem.
 Queixa no coração
 Quem ama é difícil fingir.
@@ -12078,6 +13533,7 @@ Quem são essas pessoas?
 Quem te disse isso?
 Quem te disse para fazer isso?
 Quem te enviou para mim?
+Quem te falou isso?
 Quem te fez vir?
 Quem te pediu para ficar preso com algum deles?
 Quem tem mais para calar mais conversa.
@@ -12141,13 +13597,19 @@ Questões sociais serão discutidas.
 Quieto, vai?
 Quinze anos
 Quinze prédios foram restauradas no último ano
+Quixadá
+Quixeramobim
 Quão estranha é a África? pensou o menino.
 Quão grande é a Europa?
 Quão triste é ouvir seus ouvidos.
 Rachid disse que gosta de abacaxi no café da manhã.
+Rafael e Giovanna
 Rafael abriu uma conta no Nubank.
 Rafael fala muito bem.
+Rafael não se dava bem com Luiz.
 Rafael tinha doze mil pontos da Gol pelo cartão Smiles.
+Rafaela e Emanuel
+Raimunda, Luzia, Roberto e Rita
 Rainara, Raila, Thaynara e Lauane
 Ramo verde esquerdo
 Ransomware é o tipo de malware que o chantageia depois de criptografar seus arquivos.
@@ -12155,6 +13617,7 @@ Rapaz comendo uma fatia de pizza
 Raphael, Jadson, Jonatan, Ludmila e Valesca
 Rapidamente ela percebeu o ocorrido
 Raquel não sabia de nada.
+Raquel, Jairo, Lázaro e Míriam
 Raqueli, Kamily, Naeli, Kaun e Kailaine
 Raramente vi uma coleção de métodos simples e pouco motivados.
 Rastreamento de rostos.
@@ -12177,6 +13640,7 @@ Realmente soprando bolhas no primeiro ano
 Realmente super quente
 Realmente um problema de bateria
 Realmente? o que diz?
+Rebeca e João
 Rebeca era filha do Antônio.
 Receba o básico
 Receba um pequeno benefício de sobrevivência
@@ -12188,6 +13652,7 @@ Receio que seja importante.
 Receita de bolo de abacaxi.
 Recentemente ouvi dizer que a fábrica tem que ser retirada.
 Recheio de feijão vermelho é doce, mas não gorduroso
+Recife
 Recife é a capital de Pernanbuco.
 Recite o horário do filme.
 Recolhidos na entrada
@@ -12214,6 +13679,7 @@ Regenere com um novo visual
 Registro
 Regras são feitas para serem quebradas.
 Regulando as fontes de poluição urbana
+Reinaldo, Cícera, Laura e Reginaldo
 Relacionamento deve ser tornado público
 Relacionamento interpessoal ainda razoável
 Relatório sobre a situação salarial e incidentes do Departamento.
@@ -12231,6 +13697,7 @@ Reproduzir música dos anos noventa.
 Reproduzir música número sete.
 Repórteres se reúnem para a prática de beisebol.
 Requisitos do site de fumaça de música
+Resende
 Reserva de livros para minhas sobrinhas e eu no Light Horse Tavern
 Reserve um hotel para amanhã, às nove da noite.
 Reserve uma reserva para oito pessoas em Dakota do Norte
@@ -12263,15 +13730,22 @@ Reviver com êxito vaga-lumes em vários locais
 Reúna e comunique-se
 Ria e o mundo ri com você. Chore e chore sozinho.
 Riam, Raquele, Kaiane, Emanuely e Riana
+Ribeirão Das Neves
 Ribeirão Pires
 Ribeirão Preto
 Ricardo tinha quinze mil pontos no Multiplus.
+Ricardo, Daniel, Renato e Orlando
 Richard foi acampar sozinho.
 Rico aqui, pobre daqui em diante.
 Rico aqui? pobre daqui em diante.
 Rindo e tentando usar seu próprio colar
 Rio Bonito
+Rio Branco
+Rio Branco no Acre
+Rio Claro
 Rio Das Ostras
+Rio Grande
+Rio Grande do Norte
 Rio Grande do Sul
 Rio Largo
 Rio Verde
@@ -12284,6 +13758,7 @@ Robert é o rei do recreio.
 Robert, Lucimara, Enrique, Izaque e Matheus
 Robson, Emanuel, Iris, Danilo e Tarcísio
 Roda gigante e cena noturna são os melhores
+Rodrigo e Agatha
 Rodrigo decidiu vender seu iPhone e comprar um celular da Motorola ou Samsung.
 Rodrigo sabia lutar.
 Roger?, a equipe de backup está a caminho.
@@ -12295,6 +13770,8 @@ Rollerbladers rolam em formação descendo uma colina.
 Rolândia
 Romeu e Julieta pode ser o ato mais famoso de William Shakespeare.
 Ron estava atrasado para a reunião.
+Ronaldo, Júlia, Marco e Jaime
+Rondonópolis
 Rondônia
 Ronnie assistiu com horror quando o espelho se transformou.
 Roraima
@@ -12309,6 +13786,7 @@ Roupas e hospedagem são gratuitas para novos homens.
 Roupas são costuradas pelo modelo
 Roxo e violeta.
 Ruam, Adriely, Genifer, Derick e Mikaeli
+Rubens, Joel, Cecília e Sílvio
 Rugas no rosto
 Rum perfumado!
 Russas
@@ -12318,6 +13796,7 @@ Ruth falou fora do turno.
 Ryan sabe nadar.
 Róger, Daniela, Josiane, Luciane e Maciel
 Rômulo, Marcus, Willian, Jessé e Edilene
+Sabará
 Sabedoria e inteligência são duas coisas muito separadas.
 Sabedoria é conhecimento usado para o bem.
 Sabemos que episódios de aparições angélicas não são um fato estranho na Bíblia.
@@ -12358,27 +13837,41 @@ Salve sua irmã uma peça? ou ela ficará brava.
 Salário trabalhista
 Sam está com você?
 Sam é louco por Mick.
+Samuel e Rafaela
 Samuel escreveu em seu testamento que seus netos deveriam herdar todo o seu dinheiro.
 San Juan chegou, a primavera passou.
 Santa Bárbara D´oeste
+Santa Catarina
 Santa Caterina, ou muito frio, ou muito úmido.
+Santa Cruz do Capibaribe
 Santa Cruz do Sul
 Santa Inês
 Santa Isabel
 Santa Isabel do Pará
+Santa Luzia
+Santa Maria
 Santa Rita
 Santa Rosa
 Santana
 Santana de Parnaíba
 Santana do Araguaia
+Santana do Livramento
+Santarém
 Santiago, Júnior, Richard, Silmara e Thiago
 Santo Amaro
+Santo André
 Santo Antônio de Jesus
 Santo Antônio do Descoberto
 Santo Ângelo
+Santos
+Sapiranga
+Sapucaia do Sul
 Sapé
+Saquarema
 Sara você pode me ler?
+Sarah e Leonardo
 Sarah, Natan, Alessandro, Átila e John
+Sarandi
 Saturno, Urano e Neturno.
 Satya Nadella é o presidente da Microsoft.
 Satã sabe disso.
@@ -12456,6 +13949,7 @@ Se você estiver disposto a vender
 Se você estiver interessado, precisa estar adiantado
 Se você está bem, continue assim.
 Se você está procurando por um quarto, não há vaga.
+Se você fechar suas portas antes das seis da tarde.
 Se você fizer uma tempestade novamente, tentarei voar mais alto e não nos alcançará.
 Se você for ao super, leve sabão para a máquina de lavar roupa.
 Se você não está disposto a pagar por isso
@@ -12514,6 +14008,7 @@ Selecione japonês como idioma principal.
 Seleção Nacional da Colômbia.
 Sem assentos extra
 Sem chance!
+Sem contar que ela veio depois da sua amiga.
 Sem dúvida, o impacto causou um clarão de fogo.
 Sem escolha
 Sem esse amor, os sonhos de alguém não teriam significado.
@@ -12529,6 +14024,7 @@ Sem problemas de rejeição
 Sem questionar, ele disse o que a tela de seu computador ditou para ele.
 Sem responder?, o guarda entrou na tenda?, onde permaneceu por algum tempo.
 Sem sombra de dúvida
+Sem sombra de dúvidas!
 Sem um único quiver.
 Semana passada
 Semear em novembro e trabalhar em dezembro.
@@ -12573,7 +14069,10 @@ Ser uma vaca
 Sergipe
 Seria ideal se o WiFi fosse grátis.
 Seria possível?
+Seropédica
+Serra
 Serra Talhada
+Serrinha
 Sertãozinho
 Serviço de Emprego da Cidade de Taipei
 Servos iam e vinham com bandejas de prata carregadas de especiarias e chá.
@@ -12593,6 +14092,7 @@ Será tratado com cautela
 Será útil superar esses obstáculos pelo caminho dos votos ou pela pressão direta.
 Sessão dos delegados
 Setas de construção de estrada estão apontando para a esquerda
+Sete Lagoas
 Sete anos atrás, tudo está chegando.
 Sete jogadores de futebol em um campo verde vestindo camisas vermelhas
 Sete marinheiros vestidos de azul num barco.
@@ -12693,6 +14193,7 @@ Simplesmente falando, não é tempo suficiente.
 Simplesmente não acredito mais
 Simões Filho
 Sinceramente, Satanás.
+Sinop
 Sinta que você pode viver por um dia
 Sinta uma espécie de força ascendente
 Sinta-se quente no meu coração
@@ -12709,6 +14210,7 @@ Soa muito agradável?
 Sob os limes.
 Sob seu pedido
 Sobra-te dinheiro para investimentos de cunho pessoal
+Sobral
 Sobre as questões, irei respondê-las em breve.
 Sobre o que?
 Sobre vida em Marte, eu não sei.
@@ -12737,7 +14239,9 @@ Sonhando em chorar a noite
 Sonhar sempre vale a pena
 Sons de bateria ecoaram pelos corredores do dormitório.
 Soou como se você dissesse que não cobrava nada.
+Sophia e Théo
 Sopra uma moeda de noventa dias
+Sorocaba
 Sorriso
 Sorte no jogo, infeliz no amor.
 Sorte sua
@@ -12797,6 +14301,7 @@ Sua visão e previsão me surpreenderam.
 Sua voz é tão feliz
 Suas desgraças eram antigas e pareciam irremediáveis.
 Suas mãos começaram a tremer? e a mulher sentiu isso.
+Suas mãos estavam desgastadas e esgotadas, mas ele ouviu seu coração.
 Suas paredes estavam cobertas de esboços escuros e assustadores.
 Suas pernas pareciam os pilares do Parthenon.
 Suas probabilidades de observação são calculadas como um produto de probabilidades de pixels.
@@ -12810,29 +14315,42 @@ Subscrito na plataforma de compras on-line pública
 Substitua-o mais e mais rápido
 Sugerir uma mudança de foto
 Sujeira e poeira em todos os lugares? me dê a vassoura!
+Sumaré
 Sumuel tinha o hábito de acordar cedo.
 Super delicioso e barato
 Super engarrafamento, realmente não pode andar
 Supervisiona e controla a implementação de procedimentos telemáticos.
 Suponho que a hora fosse quatro ou cinco horas.
 Suporta três estilos diferentes de sobreposições?, embora eu prefira os círculos.
+Surubim
 Susan envolveu cada presente individualmente.
 Sussurrando para minha mãe
 Suzana, Evandro, David, Vitória e Artur
+Suzano
 Sylvester precisava meditar para clarear sua mente.
 São Bento do Sul
 São Bento do Una
+São Bernardo do Campo
 São Borja
 São Caetano do Sul
+São Carlos
 São Cristóvão
 São Francisco
+São Félix do Xingu
 São Gabriel
 São Gonçalo
+São Gonçalo do Amarante
+São José
 São José Dos Campos
+São José Dos Pinhais
 São José de Ribamar
 São José do Rio Pardo
+São José do Rio Preto
+São João Del Rei
 São João a falta e o Menino Jesus a estende.
 São João da Boa Vista
+São João de Meriti
+São Leopoldo
 São Lourenço da Mata
 São Luís
 São Mateus
@@ -12846,6 +14364,7 @@ São Pedro da Aldeia
 São Roque
 São Sebastião
 São Sebastião do Paraíso
+São Vicente
 São a mesma coisa.
 São apenas alguns quarteirões para o norte.
 São cerca de cinco.
@@ -12856,6 +14375,7 @@ São nove horas.
 São precisos dois para dançar o tango.
 São questões administrativas.
 São um par de olhares vagarosos
+Sílvia, Eliane, Eliana e Alice
 Símbolos das pessoas pequenas.
 Só agora
 Só assim ele seria capaz de ler os presságios.
@@ -12863,12 +14383,15 @@ Só fala do que acha ruim?
 Só faltam duas mil.
 Só lembra de Santa Bárbara quando chove.
 Só mais uma coisa.
+Só me leve de volta para meu marido e filhos.
 Só o resultado da perícia poderá revelar o que aconteceu naquela tarde
 Só para comer carne de porco
 Só pode ser escrito neste caderno
 Só uma maneira você pode me ajudar.
 Só vai ser muito mais fácil com você.
 Tabatinga
+Taboão da Serra
+Tailândia
 Tainara, Cauã, Rian, Kauan, Adriele e Kauã
 Taipei City tem potencial ilimitado e vitalidade
 Taipei City é o centro político e econômico de tomada de decisões
@@ -12936,26 +14459,37 @@ Também trabalhe com você para trabalhar horas extras.
 Também é difícil encontrar
 Também, por que não?
 Tampe o frasco com uma tampa de latão apertada.
+Tangará da Serra
 Tantas pessoas no metrô estão vestindo roupas de treino pretas.
 Tanto o corpo como a tampa e o portão serão elásticos.
 Tanto tempo
 Taoyuan Hsinchu e Yilan Holidays são divertidos
 Tapioca não pode ser considerada uma iguaria.
+Taquara
+Taquaritinga
 Taran estava tão entediado que pegou a caneta e desenhou alguns glifos na mesa.
 Tartarugas são répteis? não anfíbios.
 Tatiana se mudou de Rio Branco para Manaus.
+Tatuí
+Taubaté
+Tauá
 Te encaminhei por e-mail
+Te mandei por WhatsApp
+Te mando por e-mail a proposta
 Teatro completo de Natália Correia vai ser editado pela Imprensa Nacional.
 Teclado, mouse e monitor.
 Tecnicamente? quebrando um espelho não é cinco anos? mas sete anos de azar.
 Tecnologia Open Source é essencial.
 Tecnologia de aplicação de conotação de núcleo
 Tecnologia, esse ano novos meios de conexão serão lançados.
+Tefé
+Teixeira de Freitas
 Tel Aviv é uma cidade muito gay friendly.
 Tela suspensa
 Telefone os jornais.
 Televisor de tela plana com cinquenta por cento de desconto.
 Televisão em cores.
+Telêmaco Borba
 Tem a certeza?
 Tem a porta bem ali.
 Tem amigos que participaram da palestra de hoje
@@ -13051,7 +14585,9 @@ Ter planos a longo prazo
 Ter um plano de longo prazo
 Ter é melhor que esperar e esperar.
 Teremos que correr se quisermos pegar o ônibus.
+Teresina
 Teresópolis
+Tereza, Fátima, Sérgio e Regina
 Teria sido visível para mim? se apenas olhasse para cima quando passasse.
 Termina a conversa antes do meio dia
 Terminou o processo
@@ -13061,10 +14597,13 @@ Terrivel.
 Teste de aptidão ocupacional e habilidades de busca de emprego, etc.
 Testemunhas relatam um assassino caucasiano violento equipado com coquetéis Molotov.
 Texto para fala.
+Teófilo Otoni
 Thainara, Karolaine, Ketelin, Ueslei e Camilly, Kaylane
 Thalita, Suellen, Alexia, Sandy e Luciele
+Theo e Lorena
 Theodore nos explicou o que é um filtro de convolução.
 Theresa não podia se sentir mais idiota agora.
+Thiago e Lavínia
 Thiago e José.
 Thomas foi para a guerra!
 Tia Agata ficou em silêncio.
@@ -13072,8 +14611,12 @@ Tia Stephanie vem ainda?
 Tia Tiffany e caixa de banco na janela.
 Tia, olá, felicidade.
 Tiago decidiu vender seu iPhone e comprar um celular da Samsung ou Motorola.
+Tianguá
 Tiffany nos disse, o banco é feito de madeira de faia.
 Tigres e leões são assustadores.
+Timbaúba
+Timon
+Timóteo
 Tinha dito a ele para cavar onde suas lágrimas caíram.
 Tinha um diâmetro de cerca de trinta jardas.
 Tinta cinza se estendia por quilômetros ao redor.
@@ -13211,6 +14754,7 @@ Todos riram
 Todos se lembram
 Todos são
 Todos? quando são jovens? sabem qual é o seu destino.
+Toledo
 Tolo, com o que você está preocupado?
 Tolos correm para lugares onde anjos temem pisar.
 Tom hanks lendo um livro na tomada de náufrago.
@@ -13228,6 +14772,7 @@ Tomei duas pílulas, mas não consegui dormir
 Tomo leite com café todos os dias
 Tomou o café da manhã?
 Tomou o café?
+Tomé-açu
 Toque Drake Nonstop.
 Toque Linkin Park Numb no Spotify.
 Toque Travis Scott Sicko Mode.
@@ -13283,6 +14828,7 @@ Traga seus problemas para o chefe sábio.
 Traga-me Sophia de volta.
 Traga-me o Walter Burns.
 Traga-me uma mulher reescrita.
+Trairi
 Tramuntana não tem abrigo; pobre homem não tem amigo
 Trancá-los
 Tranquilidade para a comunidade
@@ -13301,6 +14847,7 @@ Treinador ouviu tudo sobre você.
 Treze totens foram espalhados por esta ilha.
 Trezentos e quarenta e duas pessoas foram convidadas.
 Trigonometria sempre foi um desafio para ele.
+Trindade
 Tripulação de fotografia se preparar para uma sessão de fotos.
 Trocas através do Estreito devem ser contínuas
 Tropeçou no chão e não recuou
@@ -13431,11 +14978,13 @@ Três âncoras estão rindo enquanto no set.
 Tu comestes 'bem? se tu vieres sozinho disse dos infortúnios
 Tubarão
 Tucano
+Tucuruí
 Tudo acabou
 Tudo aconteceu de repente.
 Tudo bem
 Tudo bem comer fora.
 Tudo bem em breve.
+Tudo bem então.
 Tudo bem se você quiser fumar seu charuto agora.
 Tudo bem, eu concordo que este poderia ser o caso.
 Tudo bem, eu preciso fazer uma ligação antes de sairmos.
@@ -13476,12 +15025,14 @@ Tudo vai ficar bem.
 Tudo vai ser cuidado!
 Tudo é zero
 Tudo.
+Tupã
 Turistas curtindo a mãe natureza.
 Turistas em um templo islâmico em um dia ensolarado.
 Tutóia
 Tux não está sorrindo? ele só fica bem o tempo todo.
 Tá bom, você venceu.
 Tá no site da empresa
+Tá sabendo disso?
 Tânger não é como o resto da África.
 Tânia e Domingos se casaram em Recife, mas se conheceram em Fortaleza.
 Tão certo quanto eu estou vivo
@@ -13501,7 +15052,9 @@ Uau! O cowboy está debaixo dos cascos do cavalo marrom e está sendo pisado.
 Uau, esta é uma boa mesa!
 Uau, olha o quão profundo é esse canyon!
 Ubatuba
+Uberaba
 Uberlândia
+Ubá
 Um adolescente do sexo masculino monta seu skate em uma grande rocha.
 Um adolescente está andando de snowboard ao lado de um conjunto de escadas.
 Um adolescente faz truques em seu skate em uma área com muito grafite.
@@ -14784,6 +16337,7 @@ Um trinado? ou agitar tripleto.
 Um trono é apenas um banco coberto de veludo roxo.
 Um turista está lendo um mapa.
 Um ultimato de Edward e desta final!
+Um uísque é o final perfeito para o meu dia.
 Um valentão é sempre um covarde.
 Um valor fixo para cada estação de rádio que atenda às bases.
 Um veleiro na água ao nascer do sol.
@@ -15471,6 +17025,8 @@ Uma vida sem amor é uma morte viva.
 Uma visão desculpe
 Uma águia está chegando para um pouso na praia.
 Uma égua cinza caminhou diante do potro.
+Umuarama
+Unaí
 Unidade guia
 Unidade não vai cair
 Unidade que processa arquivo: secretária.
@@ -15486,11 +17042,13 @@ Use arte para contar a história da terra
 Use isso internamente para implementar um serviço.
 Use o padrão de fábrica e um iterador para percorrer a matriz.
 Use um capacete de vídeo
+Use um lápis para escrever o primeiro rascunho.
 Uso de ferramentas de computador e de escritório em geral, quando apropriado.
 Uso efetivo da terra
 Utilizamos cookies para melhorar a experiência do utilizador, personalizar conteúdo e anúncios.
 Utopias não são impossíveis.
 Vaca e carneiro, pote de senhor.
+Vacaria
 Vai chover amanhã?
 Vai chover hoje?
 Vai comprar sanduíches de sorvete
@@ -15505,15 +17063,21 @@ Vai haver muito vento no Novo México?
 Vai lidar com o problema da locomotiva
 Vai nevar em Granbury?
 Vai observar novamente
+Vai passar por Cofins
 Vai ter baile?
 Vai voltar e estudar como resolver
+Valdir, Cláudio, Eva e Fernando
 Vale a pena assistir
 Vale a pena considerar
 Vale a pena pelo menos tentar minimizar o delta.
+Vale uma vaga para a Libertadores.
+Valentina e Davi
+Valença
 Valgrind detectou vários vazamentos de memória.
 Valide esta sentença ou teu pé irá feder durante toda a quaresma
 Valinhos
 Valores taiwaneses sentidos pelo público
+Valparaíso de Goiás
 Vamos Betty, vamos tomar uma bebida e afundar alguns.
 Vamos Betty? vamos tomar uma bebida e afundar alguns.
 Vamos abordar esta questão?, espero.
@@ -15531,6 +17095,7 @@ Vamos começar tudo de novo? que tal?
 Vamos começar.
 Vamos compartilhar isso.
 Vamos contribuir com essa causa.
+Vamos dar uma olhada no desvio padrão.
 Vamos depois do jantar.
 Vamos dizer a ela como ela se parece?
 Vamos dizer que você não tem nenhum.
@@ -15541,6 +17106,8 @@ Vamos entrar nisso.
 Vamos esperar que o secretário de estado possa exercer influência sobre o chanceler.
 Vamos falar sobre isso amanhã.
 Vamos fazer uma noite.
+Vamos fazer uma selfie juntos?
+Vamos fazer uma selfie?
 Vamos gostar.
 Vamos indicar alguns filmes para você.
 Vamos ligar para ele!
@@ -15562,13 +17129,16 @@ Vamos ver quando você chegar no quarto.
 Vamos viajar na quarta e voltar na quinta
 Vamos viver e ver, vamos morrer velhos.
 Vamos à praia no domingo
+Vanderlei, César, Iara e Jussara
 Vanderson, Devid, Laine, Naiara, Suelen e Giseli
 Vanessa não pode desfazer seu erro.
 Vanessa se mudou de Curitiba para Londrina.
 Vantagens competitivas que podem ser usadas para reter e atrair talentos e capital humano.
 Varandas modernistas com três pessoas.
+Varginha
 Varrendo o chão, separando mercadorias, etc.
 Vasos vazios fazem mais barulho.
+Vazaram os logs do sistema.
 Vazou para pagamento de horas extras
 Veja a atitude da tia
 Veja a rua da primavera quente na estrada
@@ -15614,6 +17184,7 @@ Venha!
 Venha, vá!
 Venha? deixe-me abraçar você!
 Ventos do norte trazem resfriados e febres.
+Venâncio Aires
 Ver a Microsoft com desconfiança é uma tendência geral na indústria de computadores.
 Ver os comentários? comentários? e classificações no site.
 Verdade que o Nobel da Literatura ajudou
@@ -15632,12 +17203,16 @@ Verifique se há eventos na minha lista.
 Verifique se o site é financiado por anúncios, doações ou outros.
 Verifiquei o recorde
 Verme de rã
+Verônica, Luísa, Mariana e Samuel
+Vespasiano
 Vestido amarelo.
 Vestindo as sandálias novas, ele desceu as escadas em silêncio.
 Vi no grupo da família no WhatsApp
 Vi um vídeo no YouTube sobre isso
 Viagem perdida, em breve.
 Viajar sozinho é bom para conhecer novas pessoas.
+Viamão
+Viana
 Vibração tremulosa de uma nota
 Vice-presidente do Peru.
 Vicky queria não fazer um espetáculo de si mesma.
@@ -15645,11 +17220,13 @@ Victor e Victoria gostam de viajar pela Turquia.
 Victoria faz as coisas de uma maneira muito maior.
 Victoria nasceu no décimo nono anos setenta.
 Vida humana e condições sociais
+Vila Velha
 Vilhena
 Vindo aqui
 Vingadores Guerra Infinita.
 Vinhedo
 Vinho e ouro, quanto mais velho melhor.
+Vinicius e Melissa
 Vinte e cinco unidades, por favor.
 Vinte e uma bases industriais foram planejadas
 Vinte mil dólares por ano?
@@ -15660,6 +17237,7 @@ Vire a folha rapidamente
 Vire para a direita.
 Virou a noite estudando para a prova
 Virá em um dia, de um jeito ou de outro.
+Viseu
 Visita de experiência de trabalho
 Visitar o escritório durante o horário comercial
 Vista para a montanha central de Taiwan
@@ -15667,6 +17245,10 @@ Visto da estrada costeira do norte
 Visto melhores dias
 Visão curta
 Visão de futuro
+Vitor e Lívia
+Vitor e Felipe foram à casa de Marcos
+Vitória
+Vitória da Conquista
 Vitória de Santo Antão
 Vitória estava lá.
 Viu algum fantasma?
@@ -15682,6 +17264,7 @@ Vivendo sozinha? ela fez da solidão sua melhor amiga.
 Viver e morrer não são diferentes
 Viver juntos significa viver juntos, compartilhar objetivos e ter um bom relacionamento.
 Viçosa
+Viçosa do Ceará
 Você a conhece melhor, então você deveria fazer isso.
 Você a conhece melhor?, então você deveria fazer isso.
 Você acabou de dar um tapinha nele.
@@ -15901,6 +17484,7 @@ Você não gostaria de matar ninguém.
 Você não lembra da casa que eu te prometi?
 Você não leu isso?
 Você não me conhece?
+Você não me empurra assim!
 Você não me entende?
 Você não ouviu ele?
 Você não pegou?
@@ -15923,6 +17507,7 @@ Você não pode me enganar!
 Você não pode me ler?
 Você não pode me subornar.
 Você não pode nem ser honesto sobre ser desonesto.
+Você não pode parar por uma coisa agora!
 Você não pode pegá-la no telefone.
 Você não pode perder o que você nunca teve.
 Você não pode tirar essa mesa.
@@ -15943,6 +17528,7 @@ Você não sabe que a menina está muito doente?
 Você não sabe que existem nove empregos esperando por esse cara?
 Você não sabe que há uma guerra em?
 Você não sabe se sua casa ainda não foi preparada?
+Você não tem carro.
 Você não tem filhos.
 Você não tem idéia de quem poderia ter feito isso?
 Você não tem idéia do que aconteceu comigo.
@@ -16145,12 +17731,16 @@ Você só pode pegá-lo uma vez
 Você só precisa adicionar mais camadas como sempre.
 Você também é claro sobre si mesmo
 Você tem Facebook?
+Você tem Instagram?
+Você tem Telegram?
 Você tem WhatsApp?
+Você tem YouTube?
 Você tem a chave?
 Você tem algo em mente.
 Você tem algum esconderijo secreto aqui na casa?
 Você tem algum estoque?
 Você tem algum remédio para louses?
+Você tem alguma coisa para comer?
 Você tem alguma idéia do que essas coisas custam aqui?
 Você tem alguma suspeita sobre quem eles poderiam ser?
 Você tem alguém para lavar as fraldas.
@@ -16159,6 +17749,7 @@ Você tem certeza de que está confortável?
 Você tem certeza disso?
 Você tem certeza que Erik tem nosso número de telefone?
 Você tem cinquenta centavos?
+Você tem conta no Banco do Brasil ou Bradesco?
 Você tem conta no Twitter?
 Você tem dinheiro para colocar na gaveta?
 Você tem feito um ótimo trabalho ultimamente.
@@ -16191,6 +17782,7 @@ Você terá que acordá-lo.
 Você terá um mau tempo.
 Você teve algum problema em encontrar a casa?
 Você trouxe a guirlanda de Natal?
+Você trouxe o presente do José?
 Você trouxe um novo sentimento para a minha loja de cristais.
 Você usa a discórdia?
 Você usa o Reddit?
@@ -16230,6 +17822,7 @@ Você vai se juntar a nós no campus?
 Você vai tentar dormir um pouco?
 Você vale seu peso em ouro.
 Você vem amanhã?
+Você vem para o churrasco?
 Você verificou seu laser?
 Você viu Omar?
 Você viu a foto dele na capa do Tempo?
@@ -16270,6 +17863,7 @@ Vocês dois se sentam aqui.
 Vocês querem jogar mais um pouco de pôquer?
 Voe à noite e você perderá pouco tempo.
 Voleibol de praia do jogo de três mulheres.
+Volta Redonda
 Voltando ao campo fora do Ano Novo Chinês
 Voltando ao país para viver fora do país
 Voltando para casa? uma festa de turistas nos passou cantando e tocando música.
@@ -16290,6 +17884,7 @@ Volte para sentar à esquerda
 Voltei há três dias.
 Volume baixo.
 Votorantim
+Votuporanga
 Vou começar minha primeira colheita de pêssego ainda este ano.
 Vou contar a ela o que penso dela!
 Vou dar uma bebida.
@@ -16378,6 +17973,7 @@ Vários itens de vidro são exibidos em uma prateleira de vidro em uma janela.
 Vários jovens adultos posando dramaticamente em um vagão do metrô.
 Vários músicos estão posicionados ao redor do baterista e a escada em um palco
 Vários trabalhadores da construção civil estão ao lado enquanto algumas máquinas estão sendo operadas.
+Várzea Grande
 Várzea Paulista
 Véspera de Natal à meia noite?
 Vênus é muito quente para a exploração.
@@ -16385,24 +17981,83 @@ Vênus é um planeta muito quente.
 Vídeos Ariana Grande.
 Vídeos compilação de falhas.
 Vídeos react trailer de Os Vingadores.
+Vítor, Henrique, Josué
 Walace, Jardel, Allan, Marciel e Filipe
 Walison, Lorraine, Andriele, Tamiris e Micaele
+Walter Matos de Oliveira
+Walter Virginio de Almeida
+Wanderlei Gomes Paulino
+Wandernira da Silva Mesquita
 Washington, Murilo, Víctor e Flávia
+Weima Kedila da Silva
+Weliton da Silva Bandeira
+Wellington John Castro Deoliveira
+Wellington Lima de Souza
+Wellington Marcolino de Oliveira
+Wellington Silva Cordeiro
+Welliton Gregorio de Souza
+Wencelau Alves Batista
+Wendel Leonardo Oliveira Andrade
+Wendell Queiroz Rodrgues
+Wenderson da Silva Teodoro
+Werlison Oliveira Prado
+Weslen Lourenco Guimaraes
+Weslen Santos Silva
+Wesley Soares Pinheiro
+Wesley da Silva Oliveira
 Wesley, Ellen, Graziela, Hebert, Elisângela, Ane e Samoel
+Whendel Nogueira de Castro
 Wiliam, Marcela, Vivian, Samira e Jacson
+William do Carmo Oliveira
+Willian Leite de Oliveira
+Willian Lopes da Silva
+Willian Queiroz Lopes
+Willian Souza dos Santos
+Wilson Goncalves de Lima
+Wilson de Oliveira
+Wilson, Cícero, Gilberto e Miguel
 Windows dez.
 Windows sete, oito ou dez.
+Wisley da Silva Pereira
 Wrestling, boxe e karatê são exemplos bem conhecidos de artes marciais.
 Xiao Lu pensou que ele poderia estar atordoado e animado.
+Yago Mateus Campos de Souza
 Yan Changshou, presidente da plataforma de bem-estar público
 Yan Shuilong nasceu em Tainan
+Yasmin e Gael
 Yasmin e Sophia estavam muito elegantes.
 Ygor, Camilla, Kaik, Igo e Luma
 Yorkshire é meu condado.
 Youtube Pewdiepie.
 Youtube Rewind.
+Zacarias Rodrigues da Silva
+Zaidisson da Costa Oliveira
+Zelma Aparecida da Silva
+Zeneida Lindalva Alves da Silva
+Zeneide de Franca Luna
+Zenilra Pinto de Assis
 Zero a seis meses
 Zeus é o deus grego do trovão.
+Zico de Souza Perreira
+Zilanir Oliveira de Souza
+Zilda Lopes Dias
+Zildo Marques Anastacio
+Zilmar Ferreira da Silva
+Zilmar Saraiva dos Santos
+Zosenildo Souza do Nascimento
+Zuila Nunes da Silva
+Zuila Rodrigues Kaxinawa
+Zuleica Angelica do Nascimento
+Zuleica Marinho Rodrigues
+Zuleide Rosa da Silva
+Zuleide da Silva
+Zuleide da Silva Nogueira
+Zuleide de Oliveira Aprigio
+Zulenir Prudencio da Silva
+Zulima de Lima E Silva
+Zulmira Cordeiro Sampaio
+Zulmira Ribeiro da Silva
+Zulmira Silva de Oliveira
 Zumbis estavam desfilando nas ruas e bebendo cerveja em copos de papel.
 a luz refletiu sobre o lugar? como uma aura sobrenatural.
 a mulher de óculos está pintando o rosto da menina loira.
@@ -16747,7 +18402,9 @@ zé Doca
 Água mineral por favor!
 Água suja foi encontrada sob o tapete
 Água, pedra e fogo, fuja se puder.
+Águas Lindas de Goiás
 Águas do oceano.
+Álvaro, Davi, Otávio e Aírton
 Área comercial subterrânea de Sapporo
 Área de estar cheia de pessoas
 Área do Maresme: inclui os centros localizados na região de Maresme.

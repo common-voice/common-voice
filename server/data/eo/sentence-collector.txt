@@ -2519,6 +2519,7 @@ Do, por ili ne valoras la penon multe prizorgi la aspekton de la kabanoj.
 Do, rapide.
 Do, revidon!
 Do, saluton ĉiuj.
+Do, se Usono donacas, kiun grenaron ĝi povus sendi?
 Do, se mi ne forprenus ĝin, mi estus mem kulpa je la mortigo.
 Do, se mi serĉas ekzemple la finnan, mi vidos profilojn en la finna.
 Do, sekvis neeviteblaj rutinaĵoj – longaj paroladoj, seniluziiĝoj, doloroj, malesperoj...
@@ -6637,6 +6638,7 @@ Jes, mi ludis.
 Jes, mi ne povis plu dormi.
 Jes, mi ne vidas elekton.
 Jes, mi nepre volas restadi en tiu dometo kaj ĉe tiu knabo.
+Jes, mi opinias, ke la moderna Esperanto estas natura lingvo.
 Jes, mi pensis, ke marŝadi kostas nenion.
 Jes, mi povas.
 Jes, mi povus.
@@ -10239,6 +10241,7 @@ La celo kaj la rezulto tro gravas.
 La celo pri partoprenigo de afrikanoj estis multege pli frua ol la projekto mem.
 La cent naŭdek paĝoj de la libro estas dividitaj en dek du ĉapitrojn.
 La centjara datreveno de la forpaso de Zamenhof estas celebrata ĉie en la mondo.
+La ceremonion ebligis radiostacio, kiu lanĉis konkurson por glacia geedziĝo.
 La ceremonion ĉeestis pluraj membroj de la eŭropa nobelaro.
 La ceteraj anoj de la grupeto estis sinjorino kaj sinjoro Harding.
 La ceteraj dek kunveturantoj estis laboristoj de la haveno kaj servistinoj.
@@ -14926,6 +14929,7 @@ Mi forviŝis miajn larmojn kaj petege rigardis la ludinton.
 Mi frapas la ŝrankoklapojn, sed ŝi ne respondas.
 Mi frue ekkonis la komunumon kaj komencis partopreni neformale.
 Mi frumatene leviĝis kaj laboris ĝis tagmezo.
+Mi gajnis la unuan premion en du tre estimataj literaturkonkursoj.
 Mi gajnis!
 Mi garantias al vi, ke nenia malĉasta penso aperus en ŝia kapo...
 Mi gardeme premis ĝin.
@@ -15267,6 +15271,7 @@ Mi kuŝiĝos.
 Mi kvazaŭ smirgon glutis.
 Mi laboras en banko.
 Mi laboras pri kandidata disertaĵo.
+Mi laboris kiel gazetportisto, ĝardena kaj mueleja laboristo, purigisto kaj domzorgisto.
 Mi laboris kiel pentristo en fabriko por modaj vestoj.
 Mi laciĝis hodiaŭ.
 Mi lasas mian cerbon libere pensi.
@@ -20081,6 +20086,7 @@ Poste Petro fermis la latkurtenojn.
 Poste al plena enmergiĝo.
 Poste al Ĉinio alvenis budhismo.
 Poste aliaj aŭ plibonigas la frazon aŭ markas ĝin kiel jam bonan.
+Poste aliaj homoj transprenis tiun taskon, kaj mi specialistiĝis pri librotenado.
 Poste alvenis lia vico.
 Poste aperis marŝantaj trupoj.
 Poste estis scivolega silento.
@@ -23537,6 +23543,7 @@ Tial mi fartis malbone.
 Tial mi flanke iom studas ĝin kaj aŭskultas muzikon kaj legas tekstojn en Esperanto.
 Tial mi forlasos mian oficon.
 Tial mi jam havis surŝipe ok pli ol tiam, kiam mi ekveturis.
+Tial mi komencis efektivigi la revon de la panjo: ŝi plej admiris instruistojn.
 Tial mi komencis kolekti monon por infanoj.
 Tial mi laboris, ĝis tiu surfervoja malfeliĉaĵo kuŝigis min sur liton de suferado.
 Tial mi nun ne povas ion plian diri pri la temo.
@@ -26802,6 +26809,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉiuj estis treege kortuŝitaj.
 Ĉiuj estraranoj estas tre sindonemaj, serenaj kaj kuraĝaj.
 Ĉiuj faktoroj devus esti favoraj por la kurzo de la eŭro.
+Ĉiuj familianoj parolas Esperanton.
 Ĉiuj faris ĝin.
 Ĉiuj forkuris de ili krom tiu, kiu portas la lancon.
 Ĉiuj frostis.
@@ -27578,6 +27586,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu tiu ŝia klereco eble de ia grava flanko estas tute kripla?
 Ĉu tiuj formalaĵoj malhelpis?
 Ĉu tiuj reagoj igis vin repensi iujn erojn?
+Ĉu tiun, kiun ĝi ne havas?
 Ĉu tolereble?
 Ĉu toleremo?
 Ĉu trabori la monton?

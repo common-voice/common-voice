@@ -1,45 +1,19 @@
 ## General
 
-yes-receive-emails =
-    Nn, ni nla om me bimél inyu iyis me kiki mahol ma yum i nson i hop u basaa  ma nke i Common Voice
-    Ǹn̂, nì ńlà ɔm mɛ̂ bìmêl inyǔ ìyîs mɛ̂ kìkǐ màhɔ̂l ma yûm i ńsɔn i hɔp u ɓasàa ma ŋ́kɛ̀ i Common Voice
-stayintouch =
-    Ikede jut li bôlô le Mozilla, di ñkot bôt inyu lihôlôs minsélél mi mapôdôl. Di yé le di gwés kônde ba libaba ni we, ka i ye le u lak yis bés ibale manjel ma yondo ma libulus njañgi makiñ, ma nnene, ni inyu iyi lelaa u ñgwélél  mayaa ma makiñ ma nsaňgna.
-    Ikède jùt li ńsɔn li ɓōlo lɛ Mozilla, dì ŋ́kɔ̀t ɓôt inyǔ lìholôs mìnselèl mi mapodol. Dì yè lɛ dì gwes kondɛ̄ ɓa liɓàba ni wɛ̀, kà ì yè lɛ ù làk yis ɓes iɓālɛ mànjɛ̀l ma yɔndɔ ma liɓùlùs njàngi màkìŋ, ma ńnɛnɛ̂, nì inyǔ ìyi lɛlaa u ŋ́gwèlel mayaa ma makiŋ má ńsâŋnà.
-privacy-info =
-    Di mbôn we le, di gatédés libim u nla saňge. U yé le u kônde kôs ndoñol ikolbaha ni <privacyLink>ñkok u matédés</privacyLink> wés
-    Dì ḿɓōn wɛ̂ lɛ, dì gatēdes liɓim ì ǹla sāŋgɛ̀. Ù yè lɛ ù kōndɛ kôs ndɔŋɔ̀l ìkɔ̀lɓàhà nì <privacyLink>ŋ̀kɔ̀k u matédês</privacyLink> wes.
-return-to-cv =
-    Témb i Common Voice
-    Těmb i Common Voice
+yes-receive-emails = Nn, ni nla om me bimél inyu iyis me kiki mahol ma yum i nson i hop u basaa  ma nke i Common Voice
+stayintouch = Ikede jut li bôlô le Mozilla, di ñkot bôt inyu lihôlôs minsélél mi mapôdôl. Di yé le di gwés kônde ba libaba ni we, ka i ye le u lak yis bés ibale manjel ma yondo ma libulus njañgi makiñ, ma nnene, ni inyu iyi lelaa u ñgwélél  mayaa ma makiñ ma nsaňgna.
+privacy-info = Di mbôn we le, di gatédés libim u nla saňge. U yé le u kônde kôs ndoñol ikolbaha ni <privacyLink>ñkok u matédés</privacyLink> wés.
+return-to-cv = Témb i Common Voice
 email-input =
-    .label =
-        Mél
-        Mêl
-submit-form-action =
-    Om
-    Ɔm
-loading =
-    Yônôs u nyônôs...
-    Yonôs u ńyonôs...
-email-opt-in-info =
-    Me yé le me bana ngôñ i kôhna bimél bi mbigda me makak ma nson, mahol ma nson ni manwin ikolbaha ni Common Voice.
-    Mɛ̀ ye lɛ mɛ̀ ɓanā ŋgôŋ i kòhnà bìmêl bi ḿɓìgda mɛ̂ màkàk ma ńsɔn, màhɔ̂l ma ńsɔn nì màŋwìn ìkɔ̀lɓàhà nì Common Voice.
-email-opt-in-info-title =
-    Jôp i yuyut i manwin i Common Voice
-    Jǒp i jùjût i maŋwìn i Common Voice.
-email-opt-in-info-sub-with-challenge =
-    Kôhna bimél kiki bo pémsan ni mbigda makak ma nson, mahol ma nson, ni manwin ikolbaha ni Common Voice.
-    Kòhna bìmêl kìkǐ ɓɔ̀ pèmsan nì mbìgdà màkàk ma ńsɔn, màhɔ̂l ma ńsɔn, nì màŋwìn ìkɔ̀lɓàhà nì Common Voice.
-email-opt-in-privacy-v2 =
-    Intel u ngéda u nneebe kôs bimél, wee u nneebe le Mozilla a bôñôl unu nwin kiki ka ngéda biniigana bi <privacyLink>nkok u matédés</privacyLink> u Mozilla.
-    Intɛ̄l u ŋgedà ù ǹnɛɛbɛ kôs bimêl, wɛ̀ɛ ù ǹnɛɛbɛ lɛ Mozilla a ɓōŋol unu ŋwin kikǐ kà ŋgèdà bìniigana bi <privacyLink>ŋ́kɔ̀k u matedês</privacyLink> u Mozilla.
-indicates-required =
-    Nit mapoga ma mbéda.
-    Nǐt māpɔga ma ḿɓèdà.
-not-available-abbreviation =
-    Yemel
-    Yɛ̀mɛl
+    .label = Mél
+submit-form-action = Om
+loading = Yônôs u nyônôs...
+email-opt-in-info = Me yé le me bana ngôñ i kôhna bimél bi mbigda me makak ma nson, mahol ma nson ni manwin ikolbaha ni Common Voice.
+email-opt-in-info-title = Jôp i yuyut i manwin i Common Voice
+email-opt-in-info-sub-with-challenge = Kôhna bimél kiki bo pémsan ni mbigda makak ma nson, mahol ma nson, ni manwin ikolbaha ni Common Voice.
+email-opt-in-privacy-v2 = Intel u ngéda u nneebe kôs bimél, wee u nneebe le Mozilla a bôñôl unu nwin kiki ka ngéda biniigana bi <privacyLink>nkok u matédés</privacyLink> u Mozilla.
+indicates-required = Nit mapoga ma mbéda.
+not-available-abbreviation = Yemel
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -47,430 +21,175 @@ not-available-abbreviation =
 
 ## Languages
 
-ab =
-    Abkazia
-    Abkazia
-ace =
-    Acehnesia
-    Acehnesia
-ady =
-    Adyghia
-    Adyghia
-af =
-    Afrikaans
-    Afrikaans
-am =
-    Amharic
-    Amharic
-an =
-    Aragonesia
-    Aragonesia
-ar =
-    Arabia
-    Arabia
-arn =
-    Mapudungun
-    Mapudungun
-as =
-    Assamesia
-    Assamesia
-ast =
-    Asturia
-    Asturia
-az =
-    Azerbajania
-    Azerbajania
-ba =
-    Bashikiria
-    Bashikiria
-bas =
-    Basaa
-    Ɓàsàa
-be =
-    Belarusia
-    Belarusia
-bg =
-    Bulgaria
-    Bulgaria
-bm =
-    Bambara
-    Bambara
-bn =
-    Bengalia
-    Bengalia
-br =
-    Bretonia
-    Bretonia
-bxr =
-    Buryati
-    Buryati
-ca =
-    Catalania
-    Catalania
-cak =
-    Kaqchikelia
-    Kaqchikelia
-ckb =
-    Kurdishia i Nnem Mbok
-    Kurdishia ì Ǹnɛm Mbɔk
-cnh =
-    Hakka Chinia
-    Hakka Chinia
-co =
-    Corsia
-    Corsia
-cs =
-    Tjekia
-    Tjekia
-cv =
-    Tjuvasia
-    Tjuvasia
-cy =
-    Seltia
-    Seltia
-da =
-    Danisia
-    Danisia
-de =
-    Jaman
-    Jaman
-dsb =
-    Sorbia i Kéndi Mbok
-    Sorbia ì Kéndî Mbɔ̄k
-dv =
-    Divehia
-    Divehia
-el =
-    Grekia
-    Grekia
-en =
-    Nginsi
-    Ŋgìsì
-eo =
-    Espéranto
-    Esperanto
-es =
-    Paña
-    Pànya
-et =
-    Estonia
-    Estonia
-eu =
-    Baskia
-    Baskia
-fa =
-    Persia
-    Persia
-ff =
-    Fulbé
-    Fulbe
-fi =
-    Finland
-    Finland
-fo =
-    Farosia
-    Farosia
-fr =
-    Pulasi
-    Pùlàsi
-fy-NL =
-    Frisia
-    Frisia
-ga-IE =
-    Irland
-    Irland
-gl =
-    Galicia
-    Galicia
-gn =
-    Gwarinia
-    Gwarinia
-ha =
-    Hausa
-    Hausa
-he =
-    Hebreu
-    Hebreu
-hi =
-    India
-    India
-hr =
-    Croatia
-    Croatia
-hsb =
-    Sorbia i Ño Mbok
-    Sorbia ì Ŋɔ Mbɔk
-hu =
-    Hongaria
-    Hɔngaria
-hy-AM =
-    Arménia
-    Armenia
-hyw =
-    Arménia i Kendi Mbok
-    Amernia i Kēndi i Mbɔk
-ia =
-    Mbôrokhop
-    Mborokhɔ̄p
-id =
-    Indonesia
-    Indonesia
-is =
-    Islandia
-    Islandia
-it =
-    Italia
-    Italia
-izh =
-    Izora
-    Izoria
-ja =
-    Japoñ
-    Jàpɔ̂ŋ
-ka =
-    Georgia
-    Georgia
-kaa =
-    Karakalpakia
-    Karakalpakia
-kab =
-    Kabilia
-    Kabilia
-kbd =
-    Kabardia
-    Kabardia
-kk =
-    Kazakia
-    Kazakia
-kmr =
-    Kurdia i Kurmanjia
-    Kurdia ì Kurmandia
-ko =
-    Korea
-    Korea
-kpv =
-    Komi-Zyria
-    Komi-Zyria
-kw =
-    Cornisia
-    Cornisia
-ky =
-    Kirgizia
-    Kirgizia
-lg =
-    Luganda
-    Luganda
-lij =
-    Liguria
-    Liguria
-lt =
-    Lituania
-    Lituania
-lv =
-    Latvia
-    Latvia
-mdf =
-    Moksa
-    Moksa
-mg =
-    Malagasia
-    Malagasia
-mhr =
-    Mari nu ñoñ
-    Mari nú Ŋɔ̀ŋ
-mk =
-    Macédonia
-    Macedonia
-ml =
-    Malayalam
-    Malayalam
-mn =
-    Mongolia
-    Mongolia
-mrj =
-    Hill Mari
-    Hill Mari
-mt =
-    Malta
-    Malta
-my =
-    Birmania
-    Birmania
-myv =
-    Erzya
-    Erzya
-nb-NO =
-    Bokmal i Norvégia
-    Bokmal ì Norvegia
-ne-NP =
-    Nepalia
-    Nepalia
-nl =
-    Hollandia
-    Hollandia
-nn-NO =
-    Nynorska i Norvégia
-    Nynorska ì Norvegia
-oc =
-    Occitania
-    Occitania
-or =
-    Odia
-    Odia
-pa-IN =
-    Punjabia
-    Punjabia
-pl =
-    Poland
-    Poland
-pt =
-    Portugal
-    Portugal
-rm-sursilv =
-    Sursilvania i Rumania
-    Sursilvania ì Rumania
-rm-vallader =
-    Valladeria i Rumania
-    Valladeria ì Rumania
-ro =
-    Rumania
-    Rumania
-ru =
-    Russia
-    Russia
-rw =
-    Kinyarwanda
-    Kinyarwanda
-sah =
-    Sakha
-    Sakha
-sc =
-    Sardinia
-    Sardinia
-scn =
-    Sisilia
-    Sisilia
-si =
-    Singalia
-    Singalia
-sk =
-    Slovakia
-    Slovakia
-sl =
-    Slovénia
-    Slovenia
-sq =
-    Albania
-    Albania
-sr =
-    Serbia
-    Serbia
-sv-SE =
-    Swidland
-    Swidland
+ab = Abkasia
+ace = Acehnesia
+ady = Adyghia
+af = Afrikaans
+am = Amharik
+an = Aragonesia
+ar = Arabia
+arn = Mapudungun
+as = Assamesia
+ast = Asturia
+az = Azerbajania
+ba = Bachikiria
+bas = Basaa
+be = Belarusia
+bg = Bulgaria
+bm = Bambara
+bn = Bengalia
+br = Bretonia
+bxr = Buryati
+ca = Katalania
+cak = Kaqchikelia
+ckb = Kurdishia i Ñem Mbok
+cnh = Hakka Chinia
+co = Korsia
+cs = Tjekia
+cv = Tjuvasia
+cy = Seltia
+da = Danisia
+de = Jaman
+dsb = Sorbia i Kéndi Mbok
+dv = Divehia
+el = Grekia
+en = Nginsi
+eo = Espéranto
+es = Paña
+et = Estonia
+eu = Baskia
+fa = Persia
+ff = Fulbé
+fi = Finland
+fo = Farosia
+fr = Pulasi
+fy-NL = Frisia
+ga-IE = Irland
+gl = Galisia
+gn = Gwarinia
+ha = Hausa
+he = Hébréu
+hi = India
+hr = Kroasia
+hsb = Sorbia i Ño Mbokk
+hu = Hongaria
+hy-AM = Arménia
+hyw = Arménia i Kendi Mbok
+ia = Mbôrokhop
+id = Indonésia
+is = Island
+it = Italia
+izh = Izora
+ja = Japan
+ka = Georgia
+kaa = Karakalpakia
+kab = Kabilia
+kbd = Kabardia
+kk = Kazakia
+kmr = Kurdia i Kurmanjia
+ko = Koréa
+kpv = Komi-Zyria
+kw = Kornisia
+ky = Kirgizia
+lg = Luganda
+lij = Liguria
+lt = Lituania
+lv = Latvia
+mdf = Moksa
+mg = Malagasia
+mhr = Mari nu ñoñ
+mk = Masédonia
+ml = Malayalam
+mn = Mongolia
+mrj = Hill Mari
+mt = Malta
+my = Birmania
+myv = Ersya
+nb-NO = Bokmal i Norvégia
+ne-NP = Nepalia
+nl = Holland
+nn-NO = Nynorska i Norvégia
+oc = Oksitania
+or = Odia
+pa-IN = Punjabia
+pl = Poland
+pt = Portugal
+rm-sursilv = Sursilvania i Rumania
+rm-vallader = Valladeria i Rumania
+ro = Rumania
+ru = Russia
+rw = Kinyarwanda
+sah = Sakha
+sc = Sardinia
+scn = Sisilia
+si = Singalia
+sk = Slovakia
+sl = Slovénia
+sq = Albania
+sr = Serbia
+sv-SE = Swidland
 sw = Swahili
-syr =
-    Syriaca
-    Syriaca
-ta =
-    Tamil
-    Tamil
-te =
-    Telugu
-    Telugu
-tg =
-    Tajikia
-    Tajikia
-th =
-    Thai
-    Thai
-tl =
-    Tagalog
-    Tagalog
-tr =
-    Turkia
-    Turkia
-tt =
-    Tatar
-    Tatar
-uby =
-    Ubik
-    Ubik
-udm =
-    Udmurt
-    Udmurt
-uk =
-    Ukrainia
-    Ukrainia
-ur =
-    Urdu
-    Urdu
-uz =
-    Uzbek
-    Uzbek
-vec =
-    Venetia
-    Venetia
-vi =
-    Vietnamia
-    Vietnamia
-vot =
-    Votik
-    Votik
-zh-CN =
-    China
-    China
-zh-HK =
-    China i Hong Kong
-    China ì Hong Kong
-zh-TW =
-    China i Taiwan
-    Chaina ì Taiwan
+syr = Syriaka
+ta = Tamil
+te = Telugu
+tg = Tajikia
+th = Thai
+tl = Tagalog
+tr = Turkia
+tt = Tatar
+uby = Ubik
+udm = Udmurt
+uk = Ukrainia
+ur = Urdu
+uz = Usbekia
+vec = Vénésia
+vi = Vietnamia
+vot = Votik
+zh-CN = Tjaina
+zh-HK = Tjaina i Hong Kong
+zh-TW = Tjaina i Taiwan
 
 # [/]
 
 
 ## Layout
 
-speak =
-    Pot
-    Pɔt
-speak-now =
-    Nano podok
-    Nânɔ pɔdɔk
-datasets =
-    Jomb li minje
-    Jɔ̀mb li minjɛ
-languages =
-    Mahop
-    Màhɔp
-about =
-    Bés bo nje?
-    Ɓěs ɓɔ̀ njɛɛ
-profile =
-    Mayimbne
-    Màyìmbnɛ
-help =
-    Mahôla
-    Màholâ
-contact =
-    Likoodene
-    Lìkɔ̀ɔ̀dɛnɛ
-privacy =
-    Matédél
-    Màtedel
-terms =
-    Mayegna
-    Màyɛ̀gna
-cookies =
-    Bicookies
-    Bìcookies
-faq =
-    FAQ
-    FAQ
+speak = Pot
+speak-now = Nano podok
+datasets = Jomb li minje
+languages = Mahop
+about = Bés bo nje?
+profile = Mayimbne
+help = Mahôla
+contact = Likoodene
+privacy = Matédél
+terms = Mayegna
+cookies = Bikookies
+faq = Bakom ba mambadga
+content-license-text = Bini bitilna bi ntjéma isi bitédél bi <licenseLink>Licence Creative Commons</licenseLink>
+share-title = H́ôla bés i léba bôt bape ba nla ti kiñ yap.
+share-text = Hôla bikey le bila nigil kiki bôt ba binam ba mpot i ntiik u lipodok, pôôs kiñ yon yak { $link }
+link-copied = Njañ i ñodlana
+back-top = Témp i ño u lipep
+logout = Pam
 
 ## Home Page
 
+home-title = Mozilla nyen a bibot Common Voice, ni ini njel le bikey bila nigil kiki bôt ba binam ba mpot i ntiik u lipodok
+home-cta = Podok, sañge kiñ yoñ hana!
+wall-of-text-start = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge ni njel i bikey gwés, ma nla hôla i kek kiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
+wall-of-text-more-mobile = Jôga li mayaa ma makiñ ma mbom i mandam ma kégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñnge li isolol makiñ, to nje a la gwélél jo.
+wall-of-text-more-desktop = I bitéé li lôñ, u nla sañge kiñ yoñ inyu hôla lioñ tjañ-njoi toga i makiñ, nu himut a nla bôñôl, ni ôô bihélha bi bibañ binkiha ni nya-ndi-nya i bikey, to ni web. Añ nlôñ u matila inyu hôla bikey le binigil lela bôt ba binam ba mpot i ntiik u lipodok. Emble makiñ ma bôt bape ba mbôk ba sañge, ka yé le nson u yét. Hala a nlôô yaga bé let pak!
+wall-of-text-first = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge ni njel i bikey gwés, ma nla hôla i kek kiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
+wall-of-text-second = Jôga li mayaa ma makiñ ma mbom i mandam ma kégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñnge li isolol makiñ, to nje a la gwélél jo.
+show-wall-of-text = Kônde añ
+help-us-title = Hôla bés i kémhe le ntôñ u bibuk u héli.
+help-us-explain = Nwot play, emble ni kal bés : ba u ntôñ bibuk u yé ha isi, u ñéña loñge?
+no-clips-to-validate = I nnene u yik we makiñ ma nsot inyu liemble munu unu hôp. Soho hôla bés le dikônde nôbe ndék i makiñ munu.
+vote-yes = Nn!
+vote-no = To
+toggle-play-tooltip = Nwot { shortcut-play-toggle } inyu liheñla i ka-play
+speak-subtitle = Pôôs kiñ yoñ.
 
 ## Account Benefits
 
