@@ -786,6 +786,14 @@ want-to-continue = Fellout a ra deoc'h kenderc'hel ganti?
 finish-editing = Echuiñ gant an embann a-raok?
 lose-changes-warning = En ur guitaat bremañ e kollot ho kemmoù
 build-custom-goal = Sevel ur pal personelaet
+help-reach-hours-pluralized =
+    Skoazellit da dizhout{ NUMBER($hours) ->
+        [one] { $hours } eur
+        [two] { $hours } eur
+        [few] { $hours } eur
+        [many] { $hours } a eurvezhioù
+       *[other] { $hours } eur
+    }e { $language } gant ur pal personelaet
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
 how-many-per-day = Dispar! Pegement a glipoù bemdez?
