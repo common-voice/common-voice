@@ -1,5 +1,4 @@
 import * as crypto from 'crypto';
-import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
@@ -16,6 +15,12 @@ import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
 
 const Transcoder = require('stream-transcoder');
+
+// Occasionally a blank or corrupted clip sneaks through our front-end
+// volume checker. We can reduce the number of blank clips in our dataset by
+// disallowing files under a specified size. It’s not perfect, but it might be
+// better than nothing.
+const LOW_FILE_SIZE_THRESHOLD_BYTES = 300;
 
 /**
  * Clip - Responsibly for saving and serving clips.
@@ -128,7 +133,6 @@ export default class Clip {
 
   /**
    * Save the request body as an audio file.
-   * TODO: Check for empty or silent clips before uploading.
    */
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
@@ -162,40 +166,60 @@ export default class Clip {
         .putObject({ Bucket: getConfig().BUCKET_NAME, Key: folder })
         .promise();
 
-      // If upload was base64, make sure we decode it first.
-      let transcoder;
-      if ((headers['content-type'] as string).includes('base64')) {
-        // If we were given base64, we'll need to concat it all first
-        // So we can decode it in the next step.
-        console.log(`VOICE_AVATAR: base64 to saveClip(), ${clipFileName}`);
-        const chunks: Buffer[] = [];
-        await new Promise(resolve => {
-          request.on('data', (chunk: Buffer) => {
-            chunks.push(chunk);
-          });
-          request.on('end', resolve);
-        });
+      const transcoder = new Transcoder(request)
+        .audioCodec('mp3')
+        .format('mp3')
+        .channels(1)
+        .sampleRate(32000);
 
-        const passThrough = new PassThrough();
-        passThrough.end(
-          Buffer.from(Buffer.concat(chunks).toString(), 'base64')
-        );
-        transcoder = new Transcoder(passThrough);
-      } else {
-        // For non-base64 uploads, we can just stream data.
-        transcoder = new Transcoder(request);
-      }
-
+      // We optimistically upload the clip stream to AWS, then delete it later
+      // if it’s blank or corrupted.
+      let uploadSize = 0;
       await this.s3
         .upload({
           Bucket: getConfig().BUCKET_NAME,
           Key: clipFileName,
-          Body: transcoder.audioCodec('mp3').format('mp3').stream(),
+          Body: transcoder.stream(),
+        })
+        .on('httpUploadProgress', ({ total }) => {
+          if (typeof total === 'number') {
+            uploadSize = Math.max(uploadSize, total);
+          }
         })
         .promise();
 
       console.log('clip written to s3', clipFileName);
 
+      const clipValid = await new Promise(resolve => {
+        transcoder
+          .on('finish', () => {
+            const isFileBigEnough = uploadSize > LOW_FILE_SIZE_THRESHOLD_BYTES;
+            if (!isFileBigEnough) {
+              console.log(`ERR_TRANSCODING_FILE_TOO_SMALL: ${clipFileName}`);
+            }
+            resolve(isFileBigEnough);
+          })
+          .on('error', () => {
+            console.log(`ERR_TRANSCODING_AUDIO: ${clipFileName}`);
+            resolve(false);
+          });
+      });
+
+      if (!clipValid) {
+        response.statusCode = 422;
+        response.statusMessage = 'clip_invalid_error';
+        response.json('The received clip was silent.');
+
+        await this.s3.deleteObject({
+          Bucket: getConfig().BUCKET_NAME,
+          Key: clipFileName,
+        });
+
+        return;
+      }
+
+      // If we reach this point, the clip uploaded to S3 correctly and is
+      // valid. Proceed with updating our DB and processing the response.
       await this.model.saveClip({
         client_id: client_id,
         localeId: sentence.locale_id,
