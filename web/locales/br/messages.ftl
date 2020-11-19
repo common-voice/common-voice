@@ -794,6 +794,14 @@ help-reach-hours-pluralized =
         [many] { $hours } a eurvezhioù
        *[other] { $hours } eur
     }e { $language } gant ur pal personelaet
+help-reach-hours-general-pluralized =
+    Skoazellit Common Voice da dizhout{ NUMBER($hours) ->
+        [one] { $hours } eur
+        [two] { $hours } eur
+        [few] { $hours } eur
+        [many] { $hours } eur
+       *[other] { $hours } a eurvezhioù
+    }en ur yezh gant ur pal personelaet
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
 how-many-per-day = Dispar! Pegement a glipoù bemdez?
