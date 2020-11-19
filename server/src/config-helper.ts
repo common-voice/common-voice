@@ -47,6 +47,9 @@ export type CommonVoiceConfig = {
   SENTRY_DSN: string;
   MAINTENANCE_MODE: boolean;
   BENCHMARK_LIVE: boolean;
+  AWS_ROLE_ARN: string;
+  AWS_WEB_TOKEN: string;
+  AWS_REGION: string;
 };
 
 const castDefault = (value: string): any => value;
@@ -93,12 +96,25 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
   BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
+  AWS_ROLE_ARN: configEntry('AWS_ROLE_ARN', ''),
+  AWS_WEB_TOKEN: readTokenFile(),
+  AWS_REGION: configEntry('AWS_REGION', 'us-west-2'),
 };
 
 let injectedConfig: CommonVoiceConfig;
 let loadedConfig: CommonVoiceConfig;
 
 const ssm = new SSM(BASE_CONFIG.SSM_CONFIG);
+
+function readTokenFile() {
+  try {
+    const tokenPath = process.env.AWS_WEB_IDENTITY_TOKEN_FILE;
+    return fs.readFileSync(tokenPath, 'utf-8');
+  } catch (err) {
+    console.error('Could not read AWS token file', err.message);
+    return '';
+  }
+}
 
 async function getSecret(key: string) {
   const path = `/voice/${BASE_CONFIG.ENVIRONMENT}/${key}`;
