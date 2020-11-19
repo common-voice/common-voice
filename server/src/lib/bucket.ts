@@ -63,12 +63,12 @@ export default class Bucket {
             audioSrc: this.getPublicUrl(path),
           });
         } else {
-          console.log(`Clip id ${id} was smaller than 256 bytes`);
+          console.log(`clip_id ${id} was smaller than 256 bytes`);
         }
 
         if (clipPromises.length == count) break;
       } catch (e) {
-        console.log(`aws error retrieving clipID ${id}`);
+        console.log(`aws error retrieving clip_id ${id}`);
       }
     }
 
