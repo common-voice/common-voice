@@ -1,6 +1,5 @@
 exports.stats = {
-  bundleURL:
-    'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-5-singleword/cv-corpus-5-singleword.tar.gz',
+  bundleURL: 'cv-corpus-5-singleword/cv-corpus-5-singleword.tar.gz',
   locales: {
     es: {
       clips: 69284,

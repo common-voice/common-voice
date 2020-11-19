@@ -83,7 +83,6 @@ kbd = Kabardian
 kk = Kasakhisk
 ko = Koreansk
 kpv = Komi
-ku = Kurdisk
 kw = Cornisk
 ky = Kirgisisk
 lg = Ganda
@@ -235,7 +234,7 @@ whats-public = Hvad er offentligt?
 email-not-public = Vi offentliggør ikke din mailadresse.
 recordings-and-locale-public = Antallet af optagelser og hvilke sprog du bidrager til vil være offentligt.
 username-optin-public = Du kan vælge at gøre dit brugernavn offentligt eller anonymt.
-demographic-deidentified-clarity = Valgfrit indsendte demografiske data (fx alder, køn, sprog og accent) vil aldrig blive offentliggjort på din profil eller blive sammenkædet med din profil i datasættet. Enkelte stemmeklip bliver tilknyttet med demografiske data for at gøre mere nøjagtige analyser mulige - til eksempel, når en forsker ønsker at rette en træningsmodel mod et bestemt demografisk segment.
+demographic-deidentified-clarity-2 = Valgfrit indsendte demografiske data (fx alder, køn, sprog og accent) vil aldrig blive offentliggjort på din profil eller blive sammenkædet med din profil i datasættet. Enkelte stemmeklip bliver tilknyttet med demografiske data for at gøre mere nøjagtige analyser mulige - til eksempel, når en forsker ønsker at rette en træningsmodel mod et bestemt demografisk segment.
 username-email-not-demographic = Dit brugernavn og din mailadresse vil ikke blive forbundet med de offentliggjorte data.
 
 ## Speak & Listen Shortcuts
@@ -293,7 +292,7 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Alder
-profile-form-gender =
+profile-form-gender-2 =
     .label = Køn
 leaderboard-visibility =
     .label = Synlighed på leaderboard
@@ -320,7 +319,7 @@ profile-close = Luk
 profile-explanation = Hold styr på din fremgang med en profil, samtidig med at du gør vores stemme-data mere præcist.
 thanks-for-account = Tak fordi du bekræftede din konto, lad os nu udfylde din profil.
 why-demographic = Hvorfor er dette vigtigt?
-why-demographic-explanation = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
+why-demographic-explanation-2 = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
 accept-privacy = Det er helt fint, at I håndterer disse oplysninger som beskrevet i Mozillas <privacyLink>privatlivspolitik</privacyLink>
 accept-privacy-title = Privatlivspolitik
 login-identity = Login-identitet
@@ -366,12 +365,12 @@ faq-title = Ofte stillede spørgsmål
 faq-what-cv-q = Hvad er Common Voice?
 faq-what-cv-a =
     Stemmegenkendelsesteknologi revolutionerer måden, vi interagerer med computere på. Men de nuværende systemer er dyre og proprietære. Common Voice er en del af Mozillas initiativ til at gøre stemmegenkendelsesteknologier bedre og mere tilgængelige for alle. Common Voice er en stor, global database med donerede stemmer, der gør det muligt for alle hurtigt og nemt at træne stemmestyrede programmer på potentielt set set alle sprog.
-
+    
     Vi samler ikke kun donerede stemmer på de mest talte sprog, men også på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om. Udover datasættet bag Common Voice  opbygger vi også en open source-talegenkendelse kaldet Deep Speech.
 faq-why-important-q = Hvorfor er det vigtigt?
 faq-why-important-a =
     Tale er ofte den mest naturlige måde, vi kommunikerer med hinanden på. Og med stemmeteknologiens hjælp har vi nu mulighed for at få computere og telefoner til at forstå, hvad vi siger. Vi ønsker at give udviklere mulighed for at oprette fantastiske talegenkendelsesprogrammer som fx apps, der kan oversætte i realtid, og stemmeaktiverede digitale assistenter. Men lige nu er de fleste af de stemmedata, der kræves for at udvikle disse typer programmer både dyre og proprietære. Vi håber, at Common Voice-datasættet vil give udviklere dét, de har brug for til at forny og gøre teknologien tilgængelig på deres eget sprog.
-
+    
     For at gøre stemmegenkendelse endnu mere universel, indsamler vi stemmer på de mest talte sprog såvel som på mindre udbredte sprog. Adgangen til et alsidigt datasæt af stemmer vil give udviklere, iværksættere og samfund mulighed for at udvikle nye produkter, uanset hvor stort et sprog, det handler om.
 faq-how-get-q = Hvordan får jeg fat i data fra Common Voice?
 faq-how-get-a = Datasættet fra Common Voice kan hentes under <licenseLink>CC0</licenseLink>-licensen på vores <datasetLink>side med datasæt</datasetLink>. Du kan også hente flere andre offentligt tilgængelige datasæt fra samme side.
@@ -387,7 +386,7 @@ faq-do-want-native-q = Dansk er ikke mit modersmål, og jeg taler med accent. Vi
 faq-do-want-native-a = Ja, vi vil især gerne have din stemme! En del af formålet med Common Voice er at indsamle så mange forskellige accenter som muligt, så stemmegenkendelsen fungerer lige så godt for alle. Det betyder, at bidrag fra folk med andet- eller fremmedsprog er vigtige.
 faq-why-different-speakers-q = Hvorfor har I brug for så mange forskellige stemmer per sprog?
 faq-why-different-speakers-a =
-    De fleste databaser med stemmedata har en overrepræsentation af bestemte demografier, hvilket resulterer i en overvægt af data fra <articleLink>mænd og middelklassen</articleLink>. Underrepræsenterede accenter og dialekter er typisk forbundet med grupper af mennesker, der allerede er marginaliserede. Mange computere har svært ved at forstå kvindestemmer.
+    De fleste databaser med stemmedata har en overrepræsentation af bestemte demografier, hvilket resulterer i en overvægt af data fra <articleLink>mænd og middelklassen</articleLink>. Underrepræsenterede accenter og dialekter er typisk forbundet med grupper af mennesker, der allerede er marginaliserede. Mange computere har svært ved at forstå kvindestemmer. 
     Derfor vil vi have variation i vores stemme-database!
 faq-why-my-lang-q = Hvorfor er mit sprog her ikke?
 faq-why-my-lang-new-a = Mozilla udvælger ikke sprog og foretrækker ikke nogle sprog fremfor andre. Common Voice er drevet af fællesskabet. Det kræver en <multilangLink>række trin at tilføje et nyt sprog</multilangLink> og komme i gang med at indsamle stemmeoptagelser. For det første skal Common Voice-hjemmesiden oversættes, så medlemmer af fællesskabet kan anvende værktøjerne på deres eget sprog. Vi behøver desuden en stor samling af sætninger til at læse op, der ikke må være underlagt copyright. Når begge disse betingelser er opfyldt, så bliver sproget lanceret på Common Voice. Derefter kan folk gå i gang med at optage deres stemmer og godkende andres bidrag. Har du lyst til at hjælpe med at lancere et nyt sprog? Så besøg vores <sentenceCollectorLink>værktøj til indsamling af sætninger</sentenceCollectorLink> for at komme i gang.
@@ -400,7 +399,7 @@ faq-how-calc-hours-a = Vi beregner timerne ved at estimere den gennemsnitlige l�
 faq-where-src-from-2-q = Hvor kommer teksten fra?
 faq-where-src-from-2-a =
     Sætningerne består af originale sætninger fra vores frivillige bidragsydere, samt dialog fra gamle filmmanuskripter, der ikke er underlagt ophavsrettigheder. Fx filmen <italic>Det er herligt at leve</ italic>.
-
+    
     Du kan se vores sætninger i denne <githubLink> mappe på GitHub  </ githubLink>.
 faq-why-not-ask-read-q = Hvorfor beder I ikke folk om at læse op fra bøger eller Wikipedia-artikler på forskellige sprog?
 faq-why-not-ask-read-a = For at gøre datasættet fra Common Voice så nyttigt som muligt, har vi besluttet kun at tillade tekst, der er tilgængeligt under en Creative Commons (CC0) licens. Brugen af CC0-standarden betyder, at det er sværere at finde og indsamle tekst, men tillader at alle kan bruge datasættet uden brugsbegrænsninger eller tilladelse fra Mozilla. I sidste ende ønsker vi at gøre det flersprogede datasæt så nyttigt som muligt for alle, herunder forskere, universiteter, iværksættere, regeringer, sociale formål og hobbyfolk.
@@ -411,7 +410,7 @@ faq-how-privacy-a = Alle stemmeoptagelser i datasættet bliver renset for alle p
 faq-what-determine-identity-q = Hvad betyder det, at jeg ikke kan "fastlægge identiteten" på en taler i Common Voice-datasættet?
 faq-what-determine-identity-a =
     Common Voice-datasættet er en åben og offentligt tilgængelig ressource, der kan bruges til at træne et stort udvalg af programmer baseret på stemmegenkendelse. For at beskytte bidragydernes sikkerhed, beder vi alle om at respektere deres ret til et privatliv.
-
+    
     Alle stemmeoptagelser bliver renset for information, der kan identificere bidragsyderens identitet. Når du henter datasættet, så accepterer du samtidig, at du ikke må forsøge at fastlægge identiteten på nogen af bidragsyderne. Det betyder, at du ikke må forsøge at knytte oplysninger i datasættet til en bidragsyders personlige oplysninger. Til gengæld må du anvende datasættet til at træne software til stemmegenkendelse, genkendelse af personen, der taler, samt til andre formål - fx til at sammenkæde oplysninger i datasættet til andre oplysninger, der allerede eksisterer i datasættet.
 faq-what-is-cv = Hvad er Common Voice?
 faq-using-cv = Brug af Common Voice
@@ -448,7 +447,7 @@ about-partners = Partnere
 about-become-a-partner = Bliv partner
 about-partnership =
     Common Voice er et projekt baseret på samarbejde, og vi er afhængige af vores fællesskab af bidragsydere og partnere for at kunne bygge det mest omfattende open-source-datasæt af stemmer nogensinde.
-
+    
     Vi vil gerne takke følgende personer og organisationer for deres hjælp med projektet:
 about-get-involved = Bliv involveret
 about-get-involved-text-2 =
@@ -523,9 +522,9 @@ review-delete-recordings = Slet mine optagelser
 datasets-headline = Vi bygger et open source-datasæt af stemmer på mange forskellige sprog, som alle kan bruge til at træne taleaktiverede programmer.
 datasets-positioning =
     Vi mener, at store, offentligt tilgængelige stemme-datasæt vil give grobund for innovation og sund kommerciel konkurrence indenfor stemmeteknologier baseret på maskinlæring.
-
+    
     Common Voice-datasættet på flere sprog er allerede verdens største open source-samling af stemme-data af sin slags - men det er ikke det eneste.
-
+    
     På denne side finder du en oversigt over andre open source-samlinger af stemme-datasæt, og - i takt med at Common Voice vokser - en oversigt over vores udgivelser og opdateringer.
 language = Sprog
 # File size in gigabytes
@@ -548,7 +547,7 @@ recorded-hours = Indspillede timer
 whats-inside = Hvad består datasættet fra Common Voice af?
 dataset-description-hours =
     Hver post i datasættet består af en unik MP3-fil og en tilhørende tekstfil. Mange af de <b>{ $total }</b> optagede timer i datasættet inkluderer desuden demografisk metadata som alder, køn og accent, hvilket kan hjælpe til at gøre stemmegenkendelses-tjenester mere nøjagtige.
-
+    
     Data sættet består lige nu af <b>{ $valid }</b> validerede timer på <b>{ $languages }</b> sprog - og vi tilføjer hele tiden nye stemmer og nye sprog. Besøg <languagesLink>Oversigten over sprog</languagesLink> for at anmode om et nyt sprog eller at komme i gang med at bidrage til projektet.
 want-dataset-update = Vil du opdateres, når vi frigiver en ny version af datasættet fra Common Voice? Abonnér på vores nyhedsbrev.
 subscribe = Abonnér
@@ -826,7 +825,7 @@ keep-info = Dine anonyme stemmeoptagelser forbliver i Common Voice-datasættet. 
 remove-info = Vi vil gennemgå din anmodning om at fjerne dine stemmeoptagelser fra datasættet. Hvis din anmodning bliver godkendt, kontakter vi dem, der har downloadet datasættet, og beder om, at de også fjerner dine stemmeoptagelser.
 why-delete-recordings =
     Optagelser fra Common Voice bruges af akademikere, små virksomheder og andre, der interesserer sig for talegenkendelse til at træne og udvide offentligt tilgængelige ressourcer som fx talemodeller.
-
+    
     Kan du fortælle os, hvorfor du vil have dine optagelser slettet?
 profile-form-delete = Slet profil
 

@@ -4,6 +4,7 @@ import Schema from './db/schema';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 import { ChallengeToken, Sentence } from 'common';
+import { features } from 'common';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -16,7 +17,14 @@ const PRIORITY_TAXONOMY = 'Benchmark';
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
 // to benefit from single sentence constraints
-const SMALL_LANGUAGE_COMMUNITIES = ['ab', 'cnh', 'dv', 'rm-sursilv', 'sah', 'vot'];
+const SMALL_LANGUAGE_COMMUNITIES = [
+  'ab',
+  'cnh',
+  'dv',
+  'rm-sursilv',
+  'sah',
+  'vot',
+];
 
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
@@ -118,6 +126,16 @@ export default class DB {
   }
 
   /**
+   * Check whether target segment is live for this language
+   */
+  private inBenchmark(locale: string): boolean {
+    return (
+      getConfig().BENCHMARK_LIVE &&
+      features.singleword_benchmark.locales.includes(locale)
+    );
+  }
+
+  /**
    * Ensure the database is setup.
    */
   async ensureSetup(): Promise<void> {
@@ -190,7 +208,7 @@ export default class DB {
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
 
-    if (getConfig().BENCHMARK_LIVE) {
+    if (this.inBenchmark(locale)) {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
         client_id,
         locale_id,
@@ -302,7 +320,7 @@ export default class DB {
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
 
-    if (getConfig().BENCHMARK_LIVE) {
+    if (this.inBenchmark(locale)) {
       taxonomySentences = await this.findClipsMatchingTaxonomy(
         client_id,
         locale_id,
@@ -537,7 +555,7 @@ export default class DB {
     sentence: string;
   }): Promise<void> {
     try {
-      await this.mysql.query(
+      const [{ insertId }] = await this.mysql.query(
         `
           INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id)
           VALUES (?, ?, ?, ?, ?)
@@ -554,6 +572,18 @@ export default class DB {
           WHERE id = ?
         `,
         [original_sentence_id, original_sentence_id]
+      );
+      await this.mysql.query(
+        `
+          INSERT INTO clip_demographics (clip_id, demographic_id) (
+            SELECT ?, id
+            FROM demographics
+            WHERE client_id = ?
+            ORDER BY updated_at DESC
+            LIMIT 1
+          )
+        `,
+        [insertId, client_id]
       );
     } catch (e) {
       console.error('error saving clip', e);
@@ -586,11 +616,11 @@ export default class DB {
     const localeId = locale ? await getLocaleId(locale) : null;
 
     const intervals = [
-      '100 YEAR',
-      '1 YEAR',
+      '15 MONTH',
+      '12 MONTH',
+      '9 MONTH',
       '6 MONTH',
-      '1 MONTH',
-      '1 WEEK',
+      '3 MONTH',
       '0 HOUR',
     ];
     const ranges = intervals

@@ -33,14 +33,18 @@ as = Assamais
 ast = Asturien
 az = Azerbaïdjanais
 ba = Bashkir
+bas = Basaa
 be = Biélorusse
 bg = Bulgare
+bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Bouriate
 ca = Catalan
 cak = Cakchiquel
+ckb = Kurde central
 cnh = Hakha Chin
+co = Corse
 cs = Tchèque
 cv = Tchouvache
 cy = Gallois
@@ -62,6 +66,7 @@ fr = Français
 fy-NL = Frison
 ga-IE = Irlandais
 gl = Galicien
+gn = Guarani
 ha = Haoussa
 he = Hébreu
 hi = Hindi
@@ -81,9 +86,9 @@ kaa = Karakalpak
 kab = Kabyle
 kbd = Kabarde
 kk = Kazakh
+kmr = Kurmandji kurde
 ko = Coréen
 kpv = Komi-zyriène
-ku = Kurde
 kw = Cornique
 ky = Kirghize
 lg = Luganda
@@ -237,7 +242,7 @@ whats-public = Quelles informations sont publiques ?
 email-not-public = Nous ne rendrons pas publique votre adresse électronique.
 recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
 username-optin-public = Vous pouvez choisir de rendre votre nom d’utilisateur ou d’utilisatrice public ou anonyme
-demographic-deidentified-clarity = Les données démographiques éventuellement soumises (par exemple, l’âge, le sexe, la langue et l’accent) ne seront jamais rendues publiques sur votre profil et ne seront pas liées à votre compte dans l’ensemble de données. Des échantillons audio individuels seront associés à des données démographiques à des fins d’analyse plus précise ; par exemple, une chercheuse pourrait vouloir cibler un modèle d’entrainement sur un segment démographique spécifique.
+demographic-deidentified-clarity-2 = Les données démographiques éventuellement soumises (par exemple, l’âge, le genre, la langue et l’accent) ne seront jamais rendues publiques sur votre profil et ne seront pas liées à votre compte dans l’ensemble de données. Des échantillons audio individuels seront associés à des données démographiques à des fins d’analyse plus précise ; par exemple, une chercheuse pourrait vouloir cibler un modèle d’entrainement sur un segment démographique spécifique.
 username-email-not-demographic = Votre nom d’utilisateur ou d’utilisatrice et votre adresse électronique ne seront pas associés aux données publiées.
 
 ## Speak & Listen Shortcuts
@@ -295,7 +300,7 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Âge
-profile-form-gender =
+profile-form-gender-2 =
     .label = Genre
 leaderboard-visibility =
     .label = Affichage public
@@ -322,7 +327,7 @@ profile-close = Fermer
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
 thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
 why-demographic = Pourquoi est-ce important ?
-why-demographic-explanation = Les données utilisateur anonymes comme l’âge, le sexe, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur ou d’utilisatrice et garder l’anonymat.
+why-demographic-explanation-2 = Les données utilisateur anonymes comme l’âge, le genre, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur ou d’utilisatrice et garder l’anonymat.
 accept-privacy = J’accepte que vous utilisiez ces informations conformément à la <privacyLink>Politique de confidentialité</privacyLink> de Mozilla
 accept-privacy-title = Politique de confidentialité
 login-identity = Identité de connexion
@@ -677,6 +682,7 @@ share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 keep-track-profile = Mesurez votre progression en créant un profil
 login-to-get-started = Connectez-vous ou inscrivez-vous pour commencer
 target-segment-first-card = Vous contribuez à notre premier segment cible
+target-segment-generic-card = Vous contribuez à un segment cible
 target-segment-first-banner = Aidez à créer le premier segment cible de Common Voice en { $locale }
 target-segment-add-voice = Donner de votre voix
 target-segment-learn-more = En savoir plus
@@ -764,15 +770,15 @@ finish-editing = Terminer d’abord les modifications ?
 lose-changes-warning = Si vous quittez maintenant, vous perdrez vos modifications
 build-custom-goal = Définissez un objectif personnalisé
 help-reach-hours-pluralized =
-    Aidez à atteindre{ NUMBER($hours) ->
+    Aidez à atteindre { NUMBER($hours) ->
         [one] { $hours } heure
        *[other] { $hours } heures
-    }en { $language } avec un objectif personnel
+    } en { $language } avec un objectif personnel
 help-reach-hours-general-pluralized =
-    Aidez Common Voice à atteindre{ NUMBER($hours) ->
+    Aidez Common Voice à atteindre { NUMBER($hours) ->
         [one] { $hours } heure
        *[other] { $hours } heures
-    }dans une langue avec un objectif personnel
+    } dans une langue avec un objectif personnel
 set-a-goal = Fixer un objectif
 cant-decide = Vous ne pouvez pas décider ?
 activity-needed-calculation-plural =

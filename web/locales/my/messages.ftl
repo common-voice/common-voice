@@ -87,6 +87,7 @@ ku = ကာဒ်
 kw = ကောနီးရှ်
 ky = ခရူဂ
 lg = လူဂန္ဓာ
+lij = Ligurian
 lt = လစ်သူရေးနီးယား
 lv = လတ်ဗီးယား
 mdf = မိုချာ
@@ -330,24 +331,85 @@ avatar-clip-title = သင့် ကိုယ်ပွား လေး ကို
 change-your-avatar-clip = သင့် အသံ ကလစ် ကို ပြောင်း လိုသလား။
 avatar-clip-recorded = ယခုပဲ သင်၏ ကိုယ်စားပြု အသံကလစ်တစ်ခု ရသွားပါပြီ။
 retry-voice-wave-recording = ပြန်လုပ်ရန်
+cancel-avatar-clip-recording = ပယ်ဖျက်
+about-avatar-clip-recording = သင့် ကိုယ်စားပြု ပရိုဖိုင် ၏ တစိတ်တပိုင်း အဖြစ် အသံကလစ်တစ်ခု ဖန်တီးပါ။ အခြားသူများက မောက်စ်ကို တင်၍ သင်၏ ကလစ် ကိုနားထောင်နိုင်သည်။
+browse-file-title = ဓာတ်ပုံ ဖိုင် တင်ပါ
+browse-file = ဖိဆွဲကာဤနေရာတွင် ထားပါ သို့မဟုတ် <browseWrap>ဖိုင်ရွေးပါ</browseWrap>
+connect-gravatar = Gravatar နှင့် ချိတ်ဆက်ရန်
+gravatar_not_found = သင့် အီးမေးလ် အတွက် Gravatar ရှာမတွေ့ပါ။
+file_too_large = ရွေးချယ် ထားသော ဖိုင်သည် အလွန် ကြီးသည်
+manage-subscriptions = စာရင်းသွင်းခြင်းကို စီမံပါ
+manage-email-subscriptions = အီးမေး စာရင်းသွင်းခြင်းကို စီမံပါ
+email-already-used = အီးမေး သည် အခြား အကောင့် တွင် သုံးပြီးဖြစ်သည်။
+add-language = ဘာသာစကား ထည့်သွင်းရန်
 
 ## FAQ
 
+faq-title = မေးလေ့မေးထ ရှိသော မေးခွန်းများ
+faq-what-cv-q = Common Voice ဆိုတာက ဘာလဲ။
+faq-why-important-q = အဲဒါက ဘာကြောင့် အရေးကြီးတာလဲ။
+faq-how-get-q = ကျွန်တော် Common Voice ရဲ့ ဒေတာကို ဘယ်လိုရနိုင်မလဲ။
+faq-what-cv-and-deepspeech-q = Common Voice နှင့် Deep Speech တို့ ၏ ကွာခြားချက်က ဘာလဲ?
+faq-is-goal-assistant-q = Common Voice ရဲ့ ပန်းတိုင်က အသံ လက်ထောက် ကို တည်ဆောက်ဖို့လား?
+faq-what-is-cv = Common Voice ဆိုတာဘာလဲ။
+faq-using-cv = Common Voice ကိုအသုံးပြုခြင်း
+faq-description = Common Voice သည် လူသားများ မည်သို့ စကားပြောဆိုသည်ကို စက်ပစ္စည်းများ ကို သင်ကြားရာတွင် ကူညီရန် Mozilla ၏ ပဏာမခြေလှမ်းတစ်စိတ်တစ်ပိုင်းဖြစ်သည်။
+faq-search-for-answers =
+    .label = အဖြေများ ကို ရှာရန်
 
 ## ABOUT US
 
+about-title = Common Voice က ဘာအတွက်ကြောင့်လဲ။
+how-does-it-work-title = အဲ့ဒါက ဘယ်လို လုပ်ဆောင်တာလဲ။
+about-speak = ပြောပါ
+about-listen = နားထောင်
+about-is-it-valid = ဒီကလစ်က မှန်ရဲ့လား။
+about-yes-votes = ≥ 2 ထောက်ခံ မဲများ
+about-yes-votes-text = Common Voice ဒေတာအစု အဖြစ်ပြောင်းလဲရန် အသံ ကလစ် တစ်ခုသည် ထောက်ခံသူ နှစ်ဦး မှ အတည်ပြပေးရမည် ဖြစ်သည်။
+about-no-votes = ≥ 2 ဆန့်ကျင် မဲများ
+about-dataset-new = Common Voice ဒေတာအစု
+about-partners = မိတ်ဖက်များ
+about-become-a-partner = မိတ်ဖက် ဖြစ်လာရန်
+about-get-involved = ပါဝင်ဆောက်ရွက်မည်
+about-nav-why-common-voice = ဘာကြောင့်လဲ ?
+about-nav-how-it-works = ဘယ်လိုလဲ?
+about-nav-partners = မိတ်ဖက်များ
+about-nav-get-involved = ပါဝင်ဆောက်ရွက်ရန်
+mycroft-title = Mycroft Ai
+mycroft-subtitle = ဉာဏ်ရည်တု
 
 ## Glossary
 
+glossary = စာလုံးအသုံးအနှုန်းများ
+localization = ဒေသစကားပြန်ဆိုခြင်း
+sentence-collection = ဝါကျ စုဆောင်းခြင်း
+sst = စကားပြော−မှ−စာ(ပမစ)
+sst-explanation = စကားပြော−မှ−စာ (ပမစ) အသံ အချက်အလက်မှ စာသား အဖြစ်သို့ ပြောင်းလဲပေးသော နည်းပညာ။
+de-identified = အမျိုးအစားခွဲခြားမှုပြန်ဖျက်
 
 ## Error pages
 
+error-code = အမှား { $code }
 
 ## Data
 
+data-download-button = Common Voice ၏ အချက်အလက် ဒေါင်းလုပ် လုပ်ရန်
+data-download-yes = ဟုတ်
+data-download-deny = မဟုတ်
+data-download-license = လိုင်စင်: <licenseLink>CC-0</licenseLink>
+data-other-title = အခြားသော အသံအချက်အလက်အစု…
+data-other-goto = { $name } သို့သွား
+data-other-download = ဒေါင်းလုပ် အချက်အလက်
+license = လိုင်စင်:<licenseLink>{ $license }</licenseLink>
+terms-agree = ကျွန်တော် သဘောတူသည်
+terms-disagree = ကျွန်တော် သဘောမတူပါ
 
 ## Datasets Page
 
+language = ဘာသာစကား
+# File size in gigabytes
+size = အရွယ်အစား
+validated-hr-total = အတည်ပြုပြီး နာရီ စုစုပေါင်း
 
 ## Download Modal
 

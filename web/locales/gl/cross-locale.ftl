@@ -1,8 +1,8 @@
 ## Languages
 
 contribute = Colaborar
-get-involved-button = Involúcrese
-get-involved-title = Contribúa en { $lang }
+get-involved-button = Participe
+get-involved-title = Colabore en { $lang }
 get-involved-text = Grazas polo seu interese ao contribuír en { $lang }. Traballamos arreo para conseguir que cada idioma estea dispoñíbel e manter informados os equipos por correo. Se quere colaborar, facilítenos o seu correo a seguir.
 get-involved-form-title = Rexistrarse para as actualizacións en { $lang }:
 get-involved-email =

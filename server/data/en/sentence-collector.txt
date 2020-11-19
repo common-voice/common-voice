@@ -4463,6 +4463,7 @@ Arthur was just going to be married.
 Arthur was very touchy, and Billy was worse.
 Arthur went outside for some coal.
 Arthur, apprenticed as an electrician in Nottingham, was home for the holiday.
+Article Two of the Human Rights Act protects your right to life.
 Articled clerks go a good deal on the water.
 Artificial Intelligence can be designed to be beneficial for humanity.
 Artificial Intelligence can be used for social good.
@@ -8641,6 +8642,7 @@ Everybody's would, I expect.
 Everyone abroad seemed involved.
 Everyone began to move.
 Everyone has a desire to be liked, it's perfectly natural.
+Everyone has the right to freedom of opinion and expression.
 Everyone has their own unique quirks.
 Everyone here has watched at least one harry potter movie.
 Everyone here is paid a fixed wage.
@@ -14502,6 +14504,7 @@ I am most gratified to hear it, sir.
 I am much obliged to Mrs. Jellyby.
 I am much of the same mind myself.
 I am no robber.
+I am no way close to getting that trophy.
 I am not a lady.
 I am not a match for you, gentlemen.
 I am not a native english speaker.
@@ -30748,6 +30751,7 @@ The algorithm ate my homework.
 The alien was a rather fetching aquamarine colour.
 The alleged perpetrator refuted the claims as false.
 The alpha version has been released, the beta version is expected next year.
+The amateur radio operator learned Morse Code.
 The ambulance is on its way.
 The amortization report runs daily.
 The amount of rain has decreased this year.
@@ -31384,6 +31388,7 @@ The delay won't hurt now.
 The delusion did not last long.
 The democratization of artificial intelligence.
 The demonstration turned violent, and ended in a huge punch-up
+The deodorant fell into the toilet.
 The deputy stepped in on behalf of his principal.
 The desiccated loaf remained swathed up in the scullery.
 The design of this map is awful.
@@ -32076,6 +32081,7 @@ The kitchen was very small and irregular.
 The kitten was a mischievous little thing.
 The kitten was lonely after being separated from its mother.
 The kittens have grown up into very good rat-catchers.
+The kitty is deeply asleep.
 The kiwi is a flightless bird of New Zealand.
 The knife crumpled up and hurt him; he put his finger in his mouth.
 The knots had been cunningly tied.
@@ -36450,6 +36456,7 @@ To beard a magistrate in his stronghold, and on the Sabbath, too!
 To become a Guppy is the object of his ambition.
 To become better at what you know.
 To begin with the rule will be easy.
+To calculate the eigenvalue of the matrix, find the determinate of the matrix.
 To change gears you need to use the gear-lever
 To come to the point: let's talk money.
 To come up to it!
@@ -37682,6 +37689,7 @@ We want another lamp.
 We want keenness here.
 We want more painstaking and search-making into this murder.
 We want somebody outside to keep his eyes open.
+We want the american sketch show Mad tv back, now!
 We want to include all of our partners in this project.
 We want to reduce exclusion and promote inclusion.
 We want you to be part of this community.

@@ -1,0 +1,12 @@
+noll
+ett
+två
+tre
+fyra
+fem
+sex
+sju
+åtta
+nio
+ja
+nej

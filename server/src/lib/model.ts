@@ -9,7 +9,8 @@ const contributableLocales = require('locales/contributable.json') as string[];
 
 // based on the latest dataset
 const AVG_CLIP_SECONDS = 4.695;
-const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = { en: 4.875,
+const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = {
+  en: 4.875,
   de: 4.88,
   fr: 4.835,
   cy: 4.67,
@@ -62,7 +63,8 @@ const AVG_CLIP_SECONDS_PER_LOCALE: { [locale: string]: number } = { en: 4.875,
   ka: 5.727,
   'pa-IN': 4.778,
   or: 5.105,
-  vi: 4.18 };
+  vi: 4.18,
+};
 
 const getAvgSecondsPerClip = (locale: string) =>
   AVG_CLIP_SECONDS_PER_LOCALE[locale] || AVG_CLIP_SECONDS;

@@ -33,14 +33,18 @@ as = Assameesk
 ast = Asturysk
 az = Azerbeidzjaansk
 ba = Bashkyrsk
+bas = Basaa
 be = Wit-Russysk
 bg = Bulgaarsk
+bm = Bambara
 bn = Bingaalsk
 br = Bretonsk
 bxr = Burjatysk
 ca = Katalaansk
 cak = Kaqchikel
+ckb = Sintraal-Koerdysk
 cnh = Hakha Chin
+co = Korsikaansk
 cs = Tsjechysk
 cv = Tsjoevasjysk
 cy = Welsk
@@ -62,6 +66,7 @@ fr = Frânsk
 fy-NL = Frysk
 ga-IE = Iersk
 gl = Galisysk
+gn = Guaraní
 ha = Hausa
 he = Hebriuwsk
 hi = Hindy
@@ -81,9 +86,9 @@ kaa = Karakalpaksk
 kab = Kabylysk
 kbd = Kabardysk
 kk = Kazaksk
+kmr = Kurmanci
 ko = Koreaansk
 kpv = Kom-Zyrian
-ku = Koerdysk
 kw = Kornish
 ky = Kirgizysk
 lg = Luganda
@@ -204,7 +209,7 @@ hours-recorded = Opnommen oeren
 hours-validated = Falidearre oeren
 voices-online = Stimmen no online
 todays-progress = Foarútgong fan hjoed
-help-reach-goal = Help ús { $goal } te berikken
+help-reach-goal = Help ús { $goal } te berikjen
 read-terms-q = Hawwe jo ús Betingsten lêzen?
 ready-to-record = Klear om jo stim te donearjen?
 all-locales = Alle
@@ -245,7 +250,7 @@ whats-public = Wat is iepenbier?
 email-not-public = Wy meitsje jo e-mailadres net iepenbier.
 recordings-and-locale-public = It oantal opnamen en de talen wêroan jo bydrage binne iepenbier.
 username-optin-public = Jo kinne kieze oft jo brûkersnamme iepenbier of anonym is.
-demographic-deidentified-clarity = Opsjoneel yntsjinne demografyske gegevens (byg. leeftiid, geslacht, taal en aksint) wurde nea iepenbier makke op jo profyl en wurde net keppele oan jo account yn de gegevensset. Ofsûnderlike lûdsopnamen wurde keppele oan demografyske gegevens foar in sekuere analyze – in ûndersiker kin bygelyks in trainingsmodel op in spesifyk demografysk segmint rjochtsje.
+demographic-deidentified-clarity-2 = Opsjoneel yntsjinne demografyske gegevens (byg. leeftiid, gender, taal en aksint) wurde nea iepenbier makke op jo profyl en wurde net keppele oan jo account yn de gegevensset. Ofsûnderlike lûdsopnamen wurde keppele oan demografyske gegevens foar in sekuere analyze – in ûndersiker kin bygelyks in trainingsmodel op in spesifyk demografysk segmint rjochtsje.
 username-email-not-demographic = Jo brûkersnamme en e-mailadres sille net mei de publisearre gegevens keppele wurde.
 
 ## Speak & Listen Shortcuts
@@ -303,8 +308,8 @@ profile-form-accent =
     .label = Aksint
 profile-form-age =
     .label = Leeftiid
-profile-form-gender =
-    .label = Geslacht
+profile-form-gender-2 =
+    .label = Gender
 leaderboard-visibility =
     .label = Sichtberheid yn ranglist
 hidden = Ferstoppe
@@ -330,7 +335,7 @@ profile-close = Slute
 profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
 thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
 why-demographic = Wêrom is dit wichtich?
-why-demographic-explanation = Anonime brûkersgegevens lykas leeftyd, geslacht en aksint helpe de audiogegevens dy't foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
+why-demographic-explanation-2 = Anonime brûkersgegevens lykas leeftyd, gender en aksint helpe de audiogegevens dy't foar it trainen fan de sekuerens fan spraakwerkenningsmasinen brûkt wurde te ferbetterjen. Jo brûkersnamme en e-mailadres sille nea mei jo yntsjinne gegevens keppele wurde, en jo kinne derfoar kieze jo brûkersnamme iepenbier of anonym te meitsjen.
 accept-privacy = Ik gean akkoart mei hoe't jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 accept-privacy-title = Privacybelied
 login-identity = Oanmeldingsidentiteit
@@ -380,7 +385,7 @@ faq-what-cv-a =
     Wy sammelje net allinnich spraakfragminten yn faak sprutsen talen, mar ek yn dy mei in lytser tal sprekkers. Troch in diverske gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken. Neist de Common Voice-gegevensset bouwe wy ek in iepenboarne-spraakwerkenningsprogramma mei de namme Deep Speech.
 faq-why-important-q = Wêrom is it wichtich?
 faq-why-important-a =
-    Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy't nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hoopje dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
+    Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy't nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hope dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
     
     Om spraakwerkenning noch universeler te meitsjen, sammelje wy spraakfragminten yn faak sprutsen talen, krekt  sa as dy mei in lytsere populaasje fan sprekkers, dy't faak net stipe wurde troch kommersjele spraakwerkenningstsjinsten. Troch in ferskate gegevensset mei stimmen te publisearjen, kinne ûntwikkelers, ûndernimmers en folsleine spraakmienskippen sels dizze kleau oerbrêgje.
 faq-how-get-q = Hoe kin ik de gegevens fan Common Voice krije?
@@ -685,6 +690,7 @@ share-title-new = <bold>Help ús</bold> mear stimmen te finen
 keep-track-profile = Hâld jo fuortgong by mei in profyl
 login-to-get-started = Meld jo oan of registrearje om te begjinnen
 target-segment-first-card = Jo drage mei oan ús earste doelsegmint
+target-segment-generic-card = Jo drage by oan in doelsegmint
 target-segment-first-banner = Help by it meitsjen fan it earste doelsegmint yn it { $locale } fan Common Voice
 target-segment-add-voice = Jo stim tafoegje
 target-segment-learn-more = Mear ynfo
@@ -775,12 +781,12 @@ help-reach-hours-pluralized =
     Help mei{ NUMBER($hours) ->
         [one] { $hours } oer
        *[other] { $hours } oer
-    }yn it { $language } te berikken mei in persoanlike doelstelling
+    }yn it { $language } te berikjen mei in persoanlike doelstelling
 help-reach-hours-general-pluralized =
     Help Common Voice{ NUMBER($hours) ->
         [one] { $hours } oer
        *[other] { $hours } oer
-    }yn in taal te berikken mei in persoanlike doelstelling
+    }yn in taal te berikjen mei in persoanlike doelstelling
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
 activity-needed-calculation-plural =

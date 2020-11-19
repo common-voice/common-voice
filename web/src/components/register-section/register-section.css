@@ -3,7 +3,7 @@
 .register-section {
     overflow-x: hidden;
 
-    & .top {
+    .top {
         margin: 0 auto;
         display: flex;
         flex-direction: row;
@@ -23,7 +23,7 @@
             }
         }
 
-        & .images-container {
+        .images-container {
             position: relative;
             display: flex;
             flex-direction: column;
@@ -33,7 +33,7 @@
                 width: 100%;
             }
 
-            & .mars {
+            .mars {
                 width: 290px;
                 z-index: var(--middle-z-index);
             }
@@ -49,33 +49,34 @@
         }
     }
 
-    & h1,
-    & h2 {
+    h1,
+    h2 {
         max-width: 450px;
         width: 100%;
     }
 
-    & h1 {
+    h1 {
         margin-bottom: 10px;
         font-family: var(--strong-font-family);
         font-size: var(--font-size-xl);
         font-weight: normal;
     }
 
-    & h2 {
+    h2 {
         margin-bottom: 30px;
         font-family: var(--base-font-family);
         font-size: var(--font-size-lg);
         font-weight: 300;
     }
 
-    & .button {
+    .button {
         border: none;
         max-width: 270px;
         height: 57px;
         background: var(--blue);
         color: var(--white);
         text-transform: initial;
+        z-index: 1;
 
         &:hover {
             border: 1px solid var(--blue);
@@ -84,20 +85,26 @@
 
     @media (--md-up) {
         &.flipped {
-            & .top {
+            .top {
                 flex-direction: row-reverse;
             }
 
-            & .waves {
+            .waves {
                 transform: scaleX(-1) translateX(60%);
                 z-index: var(--bottom-z-index);
             }
 
-            & .bg {
+            .bg {
                 right: 0;
                 left: initial;
             }
         }
+    }
+}
+
+[dir='rtl'] {
+    .signup-info .tabs .waves {
+        transform: scaleX(-1);
     }
 }
 
@@ -108,7 +115,7 @@
         max-width: 550px;
     }
 
-    & .tabs {
+    .tabs {
         border-bottom: 2px solid var(--light-grey);
         position: relative;
         display: flex;
@@ -117,26 +124,26 @@
         font-weight: 600;
         letter-spacing: 0.4px;
 
-        & .waves {
+        .waves {
             position: absolute;
             bottom: -5px;
             width: 100vw;
             pointer-events: none;
         }
 
-        & label {
+        label {
             min-width: 120px;
             color: var(--warm-grey);
             cursor: pointer;
         }
 
-        & div {
+        div {
             padding-bottom: 14px;
             position: relative;
             top: 1px;
         }
 
-        & input {
+        input {
             display: none;
         }
 
@@ -146,11 +153,11 @@
         }
     }
 
-    & .list-and-bg {
+    .list-and-bg {
         position: relative;
     }
 
-    & .bg {
+    .bg {
         width: 100vw;
         height: 100%;
         position: absolute;
@@ -162,7 +169,7 @@
         );
     }
 
-    & ul {
+    ul {
         margin-top: 0;
         padding: 30px 20px;
         position: relative;
@@ -179,7 +186,7 @@
         }
     }
 
-    & li {
+    li {
         padding: 40px 80px 40px 30px;
         display: flex;
         flex-direction: row;
@@ -191,7 +198,7 @@
             background: var(--desert-storm);
         }
 
-        & :first-child {
+        :first-child {
             flex-shrink: 0;
             width: 30px;
         }

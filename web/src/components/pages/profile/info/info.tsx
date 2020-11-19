@@ -9,7 +9,7 @@ import { Redirect, RouteComponentProps, withRouter } from 'react-router';
 import { useAction, useAPI } from '../../../../hooks/store-hooks';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { trackProfile } from '../../../../services/tracker';
-import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
+import { ACCENTS, AGES, GENDERS } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
 import { useTypedSelector } from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -228,7 +228,7 @@ function ProfilePage({
 
           <DownIcon />
         </button>
-        <Localized id="why-demographic-explanation">
+        <Localized id="why-demographic-explanation-2">
           <div className="explanation" />
         </Localized>
       </div>
@@ -263,9 +263,9 @@ function ProfilePage({
           </LabeledSelect>
         </Localized>
 
-        <Localized id="profile-form-gender" attrs={{ label: true }}>
+        <Localized id="profile-form-gender-2" attrs={{ label: true }}>
           <LabeledSelect value={gender} onChange={handleChangeFor('gender')}>
-            <Options>{SEXES}</Options>
+            <Options>{GENDERS}</Options>
           </LabeledSelect>
         </Localized>
 

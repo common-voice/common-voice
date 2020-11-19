@@ -9,7 +9,9 @@ email-input =
 submit-form-action = Ninviar
 loading = Cargando...
 email-opt-in-info = Me faría goyo de recibir correus electronicos como recordatorios d'obchectivos, actualizacions d'o mío progreso y boletins de noticias sobre Common Voice.
-email-opt-in-privacy = Si acceptas recibir correus, correus entendemos que das permiso a Mozilla pa fer servir la información como s'explica en a <privacyLink>Politica de privacidat<privacyLink> de Mozilla.
+email-opt-in-info-title = Unir-tea  la lista de correu de Common Voice
+email-opt-in-info-sub-with-challenge = Recibe correus como retos y recordatorios d'obchectivos, actualizacion d'o tuyo progreso y boletins de noticias sobre Common Voice.
+email-opt-in-privacy-v2 = Si acceptas recibir correus, entendemos que das permiso a Mozilla para fer servir la información como s'explica en a <privacyLink>Politica de privacidat</privacyLink> de Mozilla.
 indicates-required = * Indica un campo obligatorio
 not-available-abbreviation = N/A
 
@@ -26,10 +28,12 @@ af = Afrikaans
 am = Amharico
 an = Aragonés
 ar = Arabe
+arn = Mapudungun
 as = Asamés
 ast = Asturiano
 az = Azerí
 ba = Baixkir
+be = Belorruso
 bg = Bulgaro
 bn = Bengalí
 br = Bretón
@@ -60,10 +64,12 @@ ga-IE = Irlandés
 gl = Gallego
 ha = Hausa
 he = Hebreu
-hi-IN = Hindi
+hi = Hindi
 hr = Croata
 hsb = Alto sorabo
 hu = Hongaro
+hy-AM = Armenio
+hyw = Armenio occidental
 ia = Ingerlingua
 id = Indonesio
 is = Islandés
@@ -71,22 +77,28 @@ it = Italiano
 izh = Izhoriano
 ja = Chaponés
 ka = Cheorchiano
+kaa = Karakalpak
 kab = Cabilés
+kbd = Kabardiano
 kk = Casaco
 ko = Coreano
 kpv = Komi-Zyrian
 ku = Kurdo
 kw = Cornico
 ky = Kirguís
+lg = Luganda
 lij = Ligur
 lt = Lituano
 lv = Letón
 mdf = Mokxa
+mg = Malgache
 mhr = Mari oriental
 mk = Macedonio
 ml = Malayalam
 mn = Mongol
 mrj = Mari occidental
+mt = Maltés
+my = Birmano
 myv = Erzya
 nb-NO = Noruego Bokmål
 ne-NP = Nepalés
@@ -94,8 +106,9 @@ nl = Neerlandés
 nn-NO = Noruego Nynorsk
 oc = Occitano
 or = Odia
+pa-IN = Punjabi
 pl = Polaco
-pt-BR = Portugués (Brasil)
+pt = Portugués
 rm-sursilv = Romanche Sursilvano
 rm-vallader = Romanche vallader
 ro = Rumano
@@ -103,17 +116,20 @@ ru = Ruso
 rw = Kinyarwanda
 sah = Yacuto
 sc = Sardo
+scn = Siciliano
 si = Singalés
 sk = Eslovaco
 sl = Esloveno
 sq = Albanés
 sr = Serbo
 sv-SE = Sueco
+sw = Swahili
 syr = Siriaco
 ta = Tamil
 te = Telugu
 tg = Tayiko
 th = Tai
+tl = Tagalo
 tr = Turco
 tt = Tartre
 uby = Ubikho
@@ -121,6 +137,7 @@ udm = Udmurto
 uk = Ucrainiano
 ur = Urdú
 uz = Uzbeco
+vec = Veneciano
 vi = Vietnamés
 vot = Votico
 zh-CN = Chino (China)
@@ -217,7 +234,6 @@ whats-public = Qué se fa publico?
 email-not-public = No faremos lo tuyo correu publico.
 recordings-and-locale-public = Lo numero de gravacions y en qué idiomas colaboras sí que serán publicos.
 username-optin-public = Puetz triar si fas publico u anonimo lo tuyo nombre d'usuario.
-demographic-deidentified = Los datos demograficos ninviaus opcionalment (per eixemplo: edat, sexo, idioma y accento) son desvinculaus d'os tuyos datos de voz y nunca no se farán publicos en o tuyo perfil.
 username-email-not-demographic = Lo tuyo nombre d'usuario y correu no serán asociaus con os datos publicaus.
 
 ## Speak & Listen Shortcuts
@@ -299,6 +315,7 @@ settings = Achustes
 edit-profile = Editar perfil
 profile-create-success = Feito, perfil creau!
 profile-close = Zarrar
+edit = Editar
 
 ## FAQ
 
@@ -342,7 +359,7 @@ faq-search-for-answers =
 ## Glossary
 
 
-## NotFound
+## Error pages
 
 
 ## Data
@@ -363,7 +380,7 @@ faq-search-for-answers =
 ## Languages Overview
 
 
-## New Contribution
+## Contribution
 
 
 ## Reporting
@@ -373,6 +390,9 @@ faq-search-for-answers =
 
 
 ## Dashboard
+
+
+## Custom Goals
 
 
 ## Profile Delete

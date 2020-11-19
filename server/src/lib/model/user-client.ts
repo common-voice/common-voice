@@ -65,23 +65,85 @@ async function updateLocales(
   }
 }
 
+async function updateDemographics(
+  clientId: string,
+  age: string,
+  gender: string
+) {
+  // Null (unset) values are sent up as blank strings. Here we cast blank
+  // strings to null so they're unambiguously unset and map to the expected
+  // NULL id in our database.
+  age = age || null;
+  gender = gender || null;
+
+  const ageId =
+    age &&
+    (
+      await db.query(
+        `
+          SELECT id
+            FROM ages
+            WHERE age = ?
+        `,
+        [age]
+      )
+    )?.[0]?.[0]?.id;
+
+  const genderId =
+    gender &&
+    (
+      await db.query(
+        `
+          SELECT id
+            FROM genders
+            WHERE gender = ?
+        `,
+        [gender]
+      )
+    )?.[0]?.[0]?.id;
+
+  await db.query(
+    `
+    INSERT INTO demographics (client_id, age_id, gender_id) VALUES (?, ?, ?)
+      ON DUPLICATE KEY UPDATE
+      updated_at = now()
+  `,
+    [clientId, ageId ?? null, genderId ?? null]
+  );
+}
+
 const UserClient = {
   async findAllWithLocales({
-    client_id,
-    email,
+    client_id = null,
+    email = null,
   }: {
     client_id: string;
     email: string;
   }) {
     const [rows] = await db.query(
       `
-        SELECT u.*, accents.accent, locales.name AS locale
+        SELECT u.*, accents.accent, locales.name AS locale, ages.age, genders.gender
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
+        -- TODO: This subquery is VERY awkward, but safer until we simplify
+        --       accent grouping.
+        CROSS JOIN
+          (SELECT demographics.age_id, demographics.gender_id
+            FROM user_clients
+            LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
+            WHERE user_clients.${
+              client_id ? `client_id = "${client_id}"` : `email = "${email}"`
+            }
+              AND user_clients.has_login
+            ORDER BY updated_at DESC
+            LIMIT 1
+          ) AS d
+        LEFT JOIN ages on d.age_id = ages.id
+        LEFT JOIN genders on d.gender_id = genders.id
         WHERE (u.client_id = ? OR email = ?) AND !has_login
       `,
-      [client_id || null, email || null]
+      [client_id, email]
     );
     return Object.values(
       rows.reduce((obj: { [client_id: string]: any }, row: any) => {
@@ -104,6 +166,8 @@ const UserClient = {
           u.*,
           accents.accent,
           locales.name AS locale,
+          ages.age,
+          genders.gender,
           (SELECT COUNT(*) FROM clips WHERE u.client_id = clips.client_id) AS clips_count,
           (SELECT COUNT(*) FROM votes WHERE u.client_id = votes.client_id) AS votes_count,
           t.team,
@@ -114,6 +178,20 @@ const UserClient = {
         LEFT JOIN user_client_newsletter_prefs n ON u.client_id = n.client_id
         LEFT JOIN user_client_accents accents ON u.client_id = accents.client_id
         LEFT JOIN locales ON accents.locale_id = locales.id
+
+        -- TODO: This subquery is awkward, but safer until we simplify accent
+        --       grouping.
+        CROSS JOIN
+          (SELECT demographics.age_id, demographics.gender_id
+            FROM user_clients
+            LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
+            WHERE user_clients.email = ?
+              AND user_clients.has_login
+            ORDER BY updated_at DESC
+            LIMIT 1
+          ) AS d
+        LEFT JOIN ages ON d.age_id = ages.id
+        LEFT JOIN genders ON d.gender_id = genders.id
         LEFT JOIN (
           SELECT enroll.client_id, enroll.url_token as invite, teams.url_token AS team, challenges.url_token AS challenge
           FROM enroll
@@ -124,7 +202,7 @@ const UserClient = {
         GROUP BY u.client_id, accents.id
         ORDER BY accents.id ASC
       `,
-      [email]
+      [email, email]
     );
 
     const clientId = rows[0] ? rows[0].client_id : null;
@@ -190,14 +268,7 @@ const UserClient = {
       Object.entries({
         has_login: true,
         email,
-        ...pick(
-          data,
-          'age',
-          'gender',
-          'username',
-          'skip_submission_feedback',
-          'visible'
-        ),
+        ...pick(data, 'username', 'skip_submission_feedback', 'visible'),
       }).map(async ([key, value]) => key + ' = ' + (await db.escape(value)))
     );
     await db.query(
@@ -208,6 +279,9 @@ const UserClient = {
       `,
       [accountClientId]
     );
+
+    updateDemographics(accountClientId, data.age, data.gender);
+
     await Promise.all([
       this.claimContributions(accountClientId, clientIds),
       locales && updateLocales(accountClientId, locales),
@@ -235,33 +309,6 @@ const UserClient = {
       ]);
     }
     return UserClient.findAccount(email);
-  },
-
-  async save({ client_id, email, age, gender }: any): Promise<boolean> {
-    const [
-      [row],
-    ] = await db.query(
-      'SELECT has_login FROM user_clients WHERE client_id = ?',
-      [client_id]
-    );
-
-    if (row?.has_login) return false;
-
-    if (row) {
-      await db.query(
-        `
-        UPDATE user_clients SET email  = ?, age  = ?, gender = ? WHERE client_id = ?
-      `,
-        [email, age, gender, client_id]
-      );
-    } else {
-      await db.query(
-        `
-        INSERT INTO user_clients (client_id, email, age, gender) VALUES (?, ?, ?, ?)
-      `,
-        [client_id, email, age, gender]
-      );
-    }
   },
 
   async updateBasketToken(email: string, basketToken: string) {

@@ -82,7 +82,6 @@ kbd = Cabardianu
 kk = Kazaxu
 ko = Coreanu
 kpv = Komi
-ku = Kurdu
 kw = Córnicu
 ky = Kirguís
 lg = Luganda
@@ -305,8 +304,6 @@ profile-form-accent =
     .label = Acentu
 profile-form-age =
     .label = Edá
-profile-form-gender =
-    .label = Xéneru
 leaderboard-visibility =
     .label = Visibilidá na clasificación
 hidden = Invisible
@@ -334,7 +331,6 @@ profile-close = Zarrar
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 why-demographic = ¿Por qué importa?
-why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase colos datos unviaos y vas poder escoyer si facelos públicos o anónimos.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 accept-privacy-title = Política de privacidá
 login-identity = Identidá del aniciu de sesión
@@ -401,7 +397,7 @@ faq-why-different-speakers-a =
     La mayoría de bases de datos de voz tán entrenaes con una representación escesiva de d'algún rasgu demográficu que xenera resultaos sesgaos a lo <articleLink>masculino y de clas media</articleLink>. Los acentos y dialeutos que tienden a ser infrarrepresentaos nos conxuntos de datos d'entrenamientu asóciense davezu con grupos de xente que yá tán marxinaos. Munches maquines tienen problemes pa entender les voces femenines.
     ¡Ye por eso polo que na nuesa base de datos queremos variedá!
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
-faq-why-my-lang-new-a = Mozilla nun favorez a una llingua u otra, en cuentes d'eso, Common Voice ye una iniciativa dirixida dafechu pola comunidá. Pero p'amestar una llingua <multilangLink>hai que facer facer unes coses enantes</multilangLink> y apenzar a recoyer voces donaes. Lo primero, el sitiu web de Common Voice precisar tar traducíu pa que los miembros de la comunidá puean collaborar usando la so llingua. Darréu, precisamos tener una coleición grande de frases ensin copyright pa que la xente les llea n'alto. Nel momentu qu'esos requirimientos se cumplen, esa llingua «llánzase» en Common Voice pa que la xente grabe la so voz y valide les collaboraciones d'otros. Si quies ayudar a llanzar una llingua nueva, visita la nuesa <sentenceCollectorLink>ferramienta de recoyida de frases</sentenceCollectorLink> pa entamar.
+faq-why-my-lang-new-a = Mozilla nun favorez a una llingua u otra, en cuentes d'eso, Common Voice ye una iniciativa dirixida dafechu pola comunidá. Pero p'amestar una llingua <multilangLink>hai que facer unes coses enantes</multilangLink> y comenzar a recoyer voces donaes. Lo primero, el sitiu web de Common Voice precisar tar traducíu pa que los miembros de la comunidá puean collaborar usando la so llingua. Darréu, precisamos tener una coleición grande de frases ensin copyright pa que la xente les llea n'alto. Nel momentu qu'esos requirimientos se cumplen, esa llingua «llánzase» en Common Voice pa que la xente grabe la so voz y valide les collaboraciones d'otros. Si quies ayudar a llanzar una llingua nueva, visita la nuesa <sentenceCollectorLink>ferramienta de recoyida de frases</sentenceCollectorLink> pa entamar.
 faq-what-quality-q = ¿Qué nivel de calidá d'audiu se rique pa qu'un clip s'use nel conxuntu de datos?
 faq-what-quality-a = Queremos que'l conxuntu de datos de Common Voice reflexe la calidá del audiu qu'un motor de fala a testu va sentir nun entornu real, polo que pidimos variedá. Amás d'una comunidá de falantes diversa, un conxuntu de datos con calidá d'audiu variable va permitir deprender a esi motor a remanar situaciones estremaes del mundu real, dende voces de fondu hasta'l ruíu de coches. Mentanto que'l to clip de voz seya intelixible, debería ser abondo pal conxuntu de datos.
 faq-why-10k-hours-q = ¿Por qué ta la meta en 10.000 hores d'audiu validaes?
@@ -557,7 +553,7 @@ whats-inside = ¿Qué hai dientro del conxuntu de datos de Common Voice?
 dataset-description-hours =
     Cada entrada del conxuntu de datos consiste en dos ficheros, unu de testu y otru d'audiu. Munches de les <b>{ $total }</b> hores grabaes tamién inclúin metadatos demográficos como edá, sexu y acentu que puen ayudar a entrenar la precisión de los motores de reconocencia de voz.
     
-    Anguaño, el conxuntu de datos inclúi <b>{ $valid }</b> hores validaes en <b>{ $languages }</b> llingües, pero siempres tamos amestando más voces y llingües. Écha-y un gueyu a la nuesa <languagesLink>páxina de llingües</languagesLink> pa solicitar una llingua o apenzar a collaborar.
+    Anguaño, el conxuntu de datos inclúi <b>{ $valid }</b> hores validaes en <b>{ $languages }</b> llingües, pero siempres tamos amestando más voces y llingües. Écha-y un gueyu a la nuesa <languagesLink>páxina de llingües</languagesLink> pa solicitar una llingua o comenzar a collaborar.
 want-dataset-update = ¿Quies recibir anovamientos cuando llancemos una versión nueva del conxuntu de datos de Common Voice? Soscríbite al boletín.
 subscribe = Soscribise
 get-started-speech = Introducción a la reconocencia de voz
