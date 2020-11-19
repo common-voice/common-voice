@@ -251,19 +251,19 @@ export default class Server {
     this.app.get(
       '/privacy/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('Privacy_Notice', locale));
+        response.send(await fetchLegalDocument('privacy_notice', locale));
       }
     );
     this.app.get(
       '/terms/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('Terms', locale));
+        response.send(await fetchLegalDocument('terms', locale));
       }
     );
     this.app.get(
       '/challenge-terms/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('Challenge_Terms', 'en'));
+        response.send(await fetchLegalDocument('challenge_terms', 'en'));
       }
     );
   }
