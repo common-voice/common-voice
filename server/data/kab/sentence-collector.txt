@@ -28511,6 +28511,7 @@ D ccḍeḥ kan i bɣiɣ ad ceḍḥeɣ.
 D ccṛab waki?
 D ccṛab wina?
 D cfaya i d-ifegḍen.
+D ciṭuḥ-nni iwumi tɛelmeḍ kan iwumi ɛelmeɣ ula d nekk.
 D d tibettit i nerra d ṭṭabla.
 D ddeqqa-nni n tidet.
 D ddexla-k ta?
@@ -55020,6 +55021,7 @@ Mi ara yetqelleq Yuba itett.
 Mi ara yezweǧ, d taɛezrit ara d-yawi.
 Mi ara yeččar yiẓdi-nni, ad t-id-nekkes d afus.
 Mi ara yi-d-yini umɛellem-iw xdem aya neɣ aya.
+Mi ara yili deg London, ad yerzu ɣef yelli-s n ɛemmti-s.
 Mi ara yili yid-s, akud ur as-yettaki.
 Mi ara yuɣal, ad t-yaf d ilem, zeddig yerna yecbeḥ.
 Mi ara ɣaben, kullec irewwi.
@@ -56233,6 +56235,7 @@ Nebɣa ad kem-nɛawen.
 Nebɣa ad ken-nissin.
 Nebɣa ad kent-nissin.
 Nebɣa ad naɣ axxam g At Leɛzib.
+Nebɣa ad neddu ass n Lḥedd ɣer teftist, s tkeṛṛust-nnes.
 Nebɣa ad nefru ugur-a.
 Nebɣa ad nelmed kra n tuɣac s tsepenyult.
 Nebɣa ad nemciweṛ.
@@ -56563,6 +56566,7 @@ Nekk ad d-beddeɣ zdat-k ɣef weẓru, di Sidi Udris.
 Nekk ad d-ɣreɣ, kemm ad tarud.
 Nekk ad d-ɣreɣ, kenwi ad tarum.
 Nekk ad d-ɣreɣ, kečč ad tarud.
+Nekk ad dduɣ ɣer din. Yiwen ur yezmir ad iyi-yekkes aya.
 Nekk ad ferneɣ ad iliɣ feṛḥeɣ.
 Nekk ad ferneɣ ad iliɣ umareɣ.
 Nekk ad kemmleɣ ad dehleɣ Sami.
