@@ -852,3 +852,23 @@ help-contribute = Du kan hjälpa till att bygga en mångsidig, öppen datamängd
 login-company = Logga in / registrera dig med { $company } e-post
 profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
 read-more-about = Läs mer på vår om sida
+
+## DemoLayout
+
+demo-get-started = Låt oss börja
+demo-welcome = Välkommen till Common Voice
+demo-welcome-subheader = Intresserad av att lära dig mer och bidra till projektet?
+
+## Demo Datasets
+
+card-button-next = Nästa
+card-button-back = Tillbaka
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
