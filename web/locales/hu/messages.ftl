@@ -848,3 +848,22 @@ help-contribute = Az Ön segítségével sokoldalú, nyílt forráskódú adatk�
 login-company = Jelentkezzen be / regisztráljon a { $company } e-mail címével
 profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
 read-more-about = További információk a Névjegy oldalon
+
+## DemoLayout
+
+demo-get-started = Kezdjünk hozzá
+demo-welcome = Üdvözli a Common Voice
+demo-welcome-subheader = Szeretne többet megtudni és közreműködni a projektben?
+
+## Demo Datasets
+
+demo-language-select-card-header = A Common Voice a világ legnagyobb nyilvánosan elérhető, többnyelvű hangadatkészlete.
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
