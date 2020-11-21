@@ -858,12 +858,26 @@ demo-welcome-subheader = Szeretne többet megtudni és közreműködni a projekt
 ## Demo Datasets
 
 demo-language-select-card-header = A Common Voice a világ legnagyobb nyilvánosan elérhető, többnyelvű hangadatkészlete.
+demo-language-select-card-body = Köszönhetően 259 ezer ember közreműködésének több mint 50 nyelven, az adatokat arra használják, hogy beszédalapú alkalmazásokat tanítsanak be, hogy jobban válaszoljanak az emberi hangra.
+card-button-next = Tovább
+card-button-back = Vissza
+demo-language-select-label = Nyelvek tallózása
+demo-eofy-header = 2019-es év végi kiadás
+demo-eofy-sub_header = Hangadatkészlet, letöltésre kész
+demo-account = Fiók
 
 ## Demo Account
 
+demo-account-card-header = Bár fiók nem szükséges a közreműködéshez, de hasznos ha van.
+demo-account-enter-email =
+    .label = Adjon meg egy e-mail-címet a regisztrációs hivatkozás elküldéséhez
+demo-account-sign-up = Regisztrációs hivatkozás engedélyezése
 
 ## Demo Contribute
 
+demo-contribute-card-header = Készen áll, hogy kölcsönadja a hangját vagy a fülét?
+demo-listen-subtitle = Készen áll a közreműködésre?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = A személyes irányítópultok naprakészen tartják az egyéni és közösségi előrehaladást.
