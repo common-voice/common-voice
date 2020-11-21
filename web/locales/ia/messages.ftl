@@ -844,11 +844,17 @@ read-more-about = Lege plus in nostre pagina: A proposito
 
 demo-get-started = Que nos comencia
 demo-welcome = Benvenite a Common Voice
+demo-welcome-subheader = Vole saper plus e contribuer al projecto?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice es le base de datos vocal multilingue e publicamente disponibile le plus grande del mundo.
+demo-language-select-card-body = Gratias al contributiones de plus de 259000 personas in plus de 50 linguas, iste datos es usate pro trainar applicationes con recognition vocal a melio responder al voce human.
 card-button-next = Sequente
 card-button-back = Retro
+demo-language-select-label = Percurrer linguas
+demo-eofy-header = Edition del fin del anno 2019
+demo-eofy-sub_header = Collection de datos vocal, preste a discargar
 demo-account = Conto
 
 ## Demo Account
