@@ -865,12 +865,19 @@ card-button-next = War-lerc'h
 card-button-back = Kent
 demo-language-select-label = Merdeiñ ar yezhoù
 demo-eofy-header = Ermaeziadenn fin-bloavezh 2019
+demo-account = Kont
 
 ## Demo Account
 
+demo-account-card-header = Kaout ur profil n'eo ket un dra ret met evit kemer perzh met talvoudus eo memestra.
+demo-account-enter-email =
+    .label = Ebarzhit ur postel da gas ul liamm-enskrivañ
+demo-account-sign-up = Kas ul liamm-enskrivañ
 
 ## Demo Contribute
 
+demo-contribute-card-header = Prest oc'h da reiñ ho mouezh pe da selaou gant ur skouarn aketus?
+demo-listen-subtitle = Prest da gemer-perzh?
 
 ## Demo Dashboard
 
