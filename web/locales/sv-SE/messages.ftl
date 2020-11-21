@@ -861,14 +861,29 @@ demo-welcome-subheader = Intresserad av att lära dig mer och bidra till projekt
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice är världens största allmänt tillgängliga, flerspråkiga röstdatamängd.
+demo-language-select-card-body = Tack vare bidrag från över 259 000 personer på över 50 språk används dessa data för att träna talaktiverade applikationer för att bättre svara på den mänskliga rösten.
 card-button-next = Nästa
 card-button-back = Tillbaka
+demo-language-select-label = Bläddra bland språk
+demo-eofy-header = 2019 End-of-Year Release
+demo-eofy-sub_header = Röstdatamängd, redo för nedladdning
+demo-account = Konto
 
 ## Demo Account
 
+demo-account-card-header = Att ha ett konto krävs inte för att bidra, men det är till hjälp.
+demo-account-card-body = Till höger beskriver vi fördelarna och klargör vilken information vi offentliggör. Använd länkarna nedan för att komma igång med ett Common Voice-konto på din egen enhet.
+demo-account-enter-email =
+    .label = Ange e-post för att skicka en registreringslänk
+demo-account-sign-up = Skicka registreringslänk
 
 ## Demo Contribute
 
+demo-contribute-card-header = Är du redo att lägga till din röst eller använda örat?
+demo-contribute-card-body = Nu när du vet lite mer om Common Voice, varför inte prova det? Klicka på mikrofonikonen för att börja läsa meningar högt. <br/><br/>Om du föredrar att granska andras röstbidrag, klicka på uppspelningsikonen. Om röstinspelningen du hör matchar de ord som skrivs på skärmen.
+demo-listen-subtitle = Redo att bidra?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Personliga översikten håller dig uppdaterad om individuella och gemensamma framsteg.
