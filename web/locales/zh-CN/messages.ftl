@@ -848,6 +848,7 @@ demo-account-sign-up = 发送注册链接
 
 ## Demo Contribute
 
+demo-contribute-card-body = 现在您对 Common Voice 有了更多的了解，为什么不来试一试呢？点击麦克风图标，开始大声朗读句子。<br/><br/>若您想复查其他人的语音贡献，请点击播放图标，以确认您听到的录音是否与屏幕上的文字相符。
 demo-listen-subtitle = 准备好作出贡献了吗？
 
 ## Demo Dashboard
