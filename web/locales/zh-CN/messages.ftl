@@ -836,13 +836,19 @@ demo-language-select-card-header = Common Voice 是世界上最大的多语言�
 card-button-next = 下一步
 card-button-back = 上一步
 demo-language-select-label = 浏览器语言
+demo-eofy-sub_header = 语音数据集，可供下载
+demo-account = 账户
 
 ## Demo Account
 
+demo-account-card-header = 不需创建账户即可贡献，但如果有的话会更有帮助
+demo-account-enter-email =
+    .label = 输入电子邮件地址以发送注册链接
 demo-account-sign-up = 发送注册链接
 
 ## Demo Contribute
 
+demo-listen-subtitle = 准备好作出贡献了吗？
 
 ## Demo Dashboard
 
