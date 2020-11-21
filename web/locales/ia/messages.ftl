@@ -624,7 +624,7 @@ total-hours = Numero total de horas
 
 ## Contribution
 
-action-click = Clic
+action-click = Clicca sur
 action-tap = Tocca
 contribute = Contribuer
 listen = Ascolta
@@ -669,10 +669,10 @@ record-abort-text = Lassar ora significa que tu perde tu progresso
 record-abort-submit = Inviar le retalios
 record-abort-continue = Finir de registrar
 record-abort-delete = Exir e deler le retalios
-listen-instruction = { $actionType }<playIcon></playIcon> – Es iste pronunciation correcte?
-listen-again-instruction = Grande labor!<playIcon></playIcon> Ascolta ancora quando tu es preste
-listen-3rd-time-instruction = 2 minus, retene lo alte!<playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon>Ultimo!
+listen-instruction = { $actionType }<playIcon></playIcon> – es iste pronunciation correcte?
+listen-again-instruction = Optime labor!<playIcon></playIcon> Ascolta de novo quando tu es preste
+listen-3rd-time-instruction = Duo facite, continua assi!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Le ultime!
 listen-empty-state = Nos non ha plus registrationes a validar pro iste lingua...
 speak-empty-state = Nos non ha plus phrases a registrar pro iste lingua...
 speak-empty-state-cta = Contribue con altere phrases
