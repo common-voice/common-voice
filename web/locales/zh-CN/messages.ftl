@@ -827,9 +827,14 @@ read-more-about = 阅读我们的“关于”页面了解更多
 ## DemoLayout
 
 demo-get-started = 让我们开始吧
+demo-welcome = 欢迎来到 Common Voice
+demo-welcome-subheader = 有兴趣了解更多信息，并为该项目作出贡献吗？
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice 是世界上最大的多语言公开语音数据集。
+card-button-next = 下一步
+card-button-back = 上一步
 demo-language-select-label = 浏览器语言
 
 ## Demo Account
