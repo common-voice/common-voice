@@ -839,3 +839,24 @@ help-contribute = Tu pote adjutar a producer un collection de datos open-source,
 login-company = Accede / Inscribe te con le<t0/> email de { $company }
 profile-not-required = Haber un profilo non es necessari pro contribuer, ma es utile; lege proque hic infra.
 read-more-about = Lege plus in nostre pagina: A proposito
+
+## DemoLayout
+
+demo-get-started = Que nos comencia
+demo-welcome = Benvenite a Common Voice
+
+## Demo Datasets
+
+card-button-next = Sequente
+card-button-back = Retro
+demo-account = Conto
+
+## Demo Account
+
+demo-account-card-header = Haber un conto non es obligatori pro collaborar ben que illo sia utile
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
