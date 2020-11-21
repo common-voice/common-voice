@@ -36,8 +36,9 @@ import {
 import './dataset-info.css';
 import URLS from '../../../urls';
 
-const CURRENT_RELEASE = 'cv-corpus-5.1-2020-06-22';
+export const CURRENT_RELEASE = 'cv-corpus-5.1-2020-06-22';
 const SEGMENT_RELEASE = 'cv-corpus-5.1-singleword';
+
 const DEFAULT_CATEGORY_COUNT = 2;
 
 const Splits = ({
