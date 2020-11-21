@@ -889,9 +889,15 @@ demo-account = Konto
 
 ## Demo Account
 
+demo-account-card-header = Za sobuźěło konto njejo trjebne, lěcrownož jo wužytny
+demo-account-enter-email =
+    .label = Zapódajśo e-mailowu adresu, aby registrěrowański wótkaz pósłał
+demo-account-sign-up = Registrěrowański wótkaz pósłaś
 
 ## Demo Contribute
 
+demo-contribute-card-header = Sćo gótowy swój głos pśidaś abo słuchaś?
+demo-listen-subtitle = Cośo sobu cyniś?
 
 ## Demo Dashboard
 
