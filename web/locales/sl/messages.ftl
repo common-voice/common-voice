@@ -838,12 +838,15 @@ read-more-about = Preberite več na naši strani O nas
 
 ## DemoLayout
 
+demo-welcome = Dobrodošli v Common Voice
 
 ## Demo Datasets
 
+demo-account = Račun
 
 ## Demo Account
 
+demo-account-card-header = Račun za sodelovanje ni obvezen, je pa priporočljiv.
 
 ## Demo Contribute
 
