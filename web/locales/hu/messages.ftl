@@ -167,7 +167,7 @@ terms = Jogi feltételek
 cookies = Sütik
 faq = GYIK
 content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseLink> alatt érhető el.
-share-title = Segítsen olyanokat találni, akik a hangjukat adják.
+share-title = Segítsen megtalálni azokat, akik a hangjukat adják.
 share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
@@ -869,6 +869,7 @@ demo-account = Fiók
 ## Demo Account
 
 demo-account-card-header = Bár fiók nem szükséges a közreműködéshez, de hasznos ha van.
+demo-account-card-body = A jobb oldalon felvázoljuk az előnyöket és tisztázzuk a nyilvánosságra hozott információkat. A lenti hivatkozásokkal nekikezdhet egy Common Voice-fiókkal a saját eszközén.
 demo-account-enter-email =
     .label = Adjon meg egy e-mail-címet a regisztrációs hivatkozás elküldéséhez
 demo-account-sign-up = Regisztrációs hivatkozás engedélyezése
