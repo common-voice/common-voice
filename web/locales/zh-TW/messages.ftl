@@ -828,3 +828,31 @@ help-contribute = 您可以透過註冊 Common Voice 資料並貢獻語音，來
 login-company = 登入 / 使用 { $company } 註冊
 profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
 read-more-about = 到我們的「關於」頁面了解更多資訊
+
+## DemoLayout
+
+demo-get-started = 開始入門
+demo-welcome = 歡迎來到 Common Voice
+
+## Demo Datasets
+
+card-button-next = 下一步
+card-button-back = 上一步
+demo-language-select-label = 瀏覽語言
+demo-eofy-header = 2019 年末發佈版
+demo-eofy-sub_header = 語音資料集，已可下載
+demo-account = 帳號
+
+## Demo Account
+
+demo-account-card-header = 不需要註冊帳號即可貢獻，但如果有的話會更有幫助。
+demo-account-enter-email =
+    .label = 請輸入電子郵件地址來發送註冊鏈結
+demo-account-sign-up = 寄註冊鏈結給我
+
+## Demo Contribute
+
+demo-listen-subtitle = 準備好參與貢獻了嗎？
+
+## Demo Dashboard
+
