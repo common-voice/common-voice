@@ -809,3 +809,29 @@ help-contribute = Common Voice profili oluşturarak ve sesinizle katkıda buluna
 login-company = { $company } e-postasıyla giriş / kayıt
 profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
 read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
+
+## DemoLayout
+
+demo-get-started = Hadi başlayalım
+demo-welcome = Common Voice’a hoş geldiniz
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice, dünyanın halka açık en büyük, çok dilli ses veri kümesidir.
+card-button-next = İleri
+card-button-back = Geri
+demo-account = Hesap
+
+## Demo Account
+
+demo-account-card-header = Katkıda bulunmak için hesap açmak zorunda değilsiniz ama açmanın bazı faydaları var.
+demo-account-enter-email =
+    .label = Kayıt bağlantısı almak için e-postanızı yazın
+demo-account-sign-up = Kayıt bağlantısını gönder
+
+## Demo Contribute
+
+demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
+
+## Demo Dashboard
+
