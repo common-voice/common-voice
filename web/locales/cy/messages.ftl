@@ -902,3 +902,34 @@ help-contribute = Gallwch helpu i adeiladu set ddata cod agored amrywiol trwy gr
 login-company = Mewngofnodi/Ymuno gydag e-bost { $company }
 profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
+
+## DemoLayout
+
+demo-get-started = Gadewch i ni Gychwyn Arni
+demo-welcome = Croeso i Common Voice
+demo-welcome-subheader = Oes gennych chi ddiddordeb mewn dysgu rhagor a chyfrannu at y project?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice yw'r set ddata llais aml-iaith fwyaf sydd ar gael i'r cyhoedd.
+demo-language-select-card-body = Diolch i gyfraniadau gan dros 259k o bobl mewn dros 50 o ieithoedd, mae'r data hwn yn cael ei ddefnyddio i hyfforddi rhaglenni lleferydd i ymateb yn well i'r llais dynol.
+card-button-next = Nesaf
+card-button-back = Nôl
+demo-language-select-label = Pori Ieithoedd
+demo-eofy-header = Rhyddhad Diwedd Blwyddyn 2019
+demo-eofy-sub_header = Set Ddata Llais, Yn Barod i'w Lwytho i Lawr
+demo-account = Cyfrif
+
+## Demo Account
+
+demo-account-card-header = Nid oes angen cael cyfrif i gyfrannu ond gall fod yn ddefnyddiol.
+demo-account-card-body = I'r dde rydym yn amlinellu'r buddion ac yn egluro pa wybodaeth rydym yn ei gyhoeddi. Defnyddiwch y dolenni isod i ddechrau gyda chyfrif Common Voice ar eich dyfais eich hun.
+demo-account-enter-email =
+    .label = Rhowch e-bost i anfon dolen ymuno
+demo-account-sign-up = Anfon dolen ymuno
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
