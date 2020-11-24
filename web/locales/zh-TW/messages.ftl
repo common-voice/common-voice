@@ -833,9 +833,12 @@ read-more-about = 到我們的「關於」頁面了解更多資訊
 
 demo-get-started = 開始入門
 demo-welcome = 歡迎來到 Common Voice
+demo-welcome-subheader = 有興趣了解更多資訊，並且參與貢獻此專案嗎？
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice 是全球最大規模的可公開使用、多語言語音資料集。
+demo-language-select-card-body = 感謝來自全球超過 25 萬 9 千人貢獻了超過 50 種語言，此資料可用來訓練有語音功能的應用程式，使其更能理解人類的聲音。
 card-button-next = 下一步
 card-button-back = 上一步
 demo-language-select-label = 瀏覽語言
@@ -852,6 +855,7 @@ demo-account-sign-up = 寄註冊鏈結給我
 
 ## Demo Contribute
 
+demo-contribute-card-header = 準備好來參與錄音，或是把耳朵借給我們一用嗎？
 demo-listen-subtitle = 準備好參與貢獻了嗎？
 
 ## Demo Dashboard
