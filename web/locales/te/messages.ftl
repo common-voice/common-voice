@@ -407,6 +407,7 @@ review-delete-recordings = నా రికార్డింగులను త
 language = భాష
 # File size in gigabytes
 size = పరిమాణం
+validated-hr-total = సరిచూసిన గంటల మొత్తం
 overall-hr-total = మొత్తం గంటలు
 cv-license = లైసెన్సు
 audio-format = ఆడియో ఫార్మాటు
