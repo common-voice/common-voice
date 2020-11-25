@@ -855,3 +855,35 @@ help-contribute = Jo kinne in ferskate, iepen boarne gegevensset helpe bouwe tro
 login-company = Oanmelde / ynskriuwe mei { $company }-e-mailadres
 profile-not-required = In profyl is net nedich om by te dragen, mar it kin wol nuttich wêze
 read-more-about = Mear ynfo op ús side Oer
+
+## DemoLayout
+
+demo-get-started = Litte wy begjinne
+demo-welcome = Wolkom by Common Voice
+demo-welcome-subheader = Ynteresse om mear te learen en by te dragen oan it projekt?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice is de grutste iepenbiere, meartalige spraakgegevensset yn de wrâld.
+demo-language-select-card-body = Mei tank oan bydragen fan mear as 259.000 minsken yn mear as 50 talen wurde dizze gegevens brûkt om spraakstjoerde tapassingen te trainen om better te reagearjen op de minsklike stim.
+card-button-next = Folgjende
+card-button-back = Tebek
+demo-language-select-label = Troch talen blêdzje
+demo-eofy-header = Eindejiersútjefte 2019
+demo-eofy-sub_header = Spraakgegevensset, klear om te downloaden
+demo-account = Account
+
+## Demo Account
+
+demo-account-card-header = In account is net nedich om by te dragen, hoewol it wol nuttich is.
+demo-account-card-body = Rjochts sketse wy de foardielen en ferdúdlikje wy hokker ynformaasje wy iepenbier meitsje. Brûk de ûndersteande keppelingen om op jo eigen apparaat oan de slach te gean mei in Common Voice-account.
+demo-account-enter-email =
+    .label = Fier in e-mailadres yn om in ynskriuwkeppeling te ferstjoeren
+demo-account-sign-up = Ynskriuwkeppeling ferstjoere
+
+## Demo Contribute
+
+demo-contribute-card-header = Klear om jo stim heare te litten of jo ear te lúster te lizzen?
+
+## Demo Dashboard
+
