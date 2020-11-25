@@ -843,3 +843,24 @@ help-contribute = Vous pouvez aider à créer un jeu de données open source et 
 login-company = Connexion / Inscription avec l’adresse électronique de { $company }
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 read-more-about = Pour en savoir plus lisez notre page À propos
+
+## DemoLayout
+
+demo-welcome = Bienvenue sur Common Voice
+
+## Demo Datasets
+
+card-button-next = Suivant
+card-button-back = Précédent
+demo-language-select-label = Parcourir les langues
+demo-account = Compte
+
+## Demo Account
+
+demo-account-card-header = Il n’est pas nécessaire de disposer d’un compte pour contribuer, mais c’est utile.
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
