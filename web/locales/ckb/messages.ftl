@@ -775,8 +775,8 @@ activity-needed-calculation-plural =
     } تۆمار بکەن.
 how-many-per-day = بژی! چەند کلیپ لە ڕۆژێکدا؟
 how-many-a-week = بژی! چەند کلیپ لە هەفتەیەکدا؟
-which-goal-type = دەتهەوێ قسە بکەی، ببیستی یان هەردووکیان؟
-receiving-emails-info = تۆ ئێستا تۆمار کراوی بۆ وەگرتنی پۆستی ئەلیکترۆنیهای سەبارەت بە وەبیرهێنەرەوەی ئامانجەکان، پێشکەوتنت و هەروەها هەواڵنامەی دەنگی گشتی.
+which-goal-type = دەتەوێ قسە بکەی، ببیستی یان هەردووکیان؟
+receiving-emails-info = تۆ ئێستا تۆمار کراوی بۆ وەگرتنی پۆستی ئەلیکترۆنی سەبارەت بە وەبیرهێنەرەوەی ئامانجەکان، پێشکەوتنت و هەروەها هەواڵنامەی دەنگی گشتی.
 not-receiving-emails-info = ئێستا تۆ دیاریت کردووە کە پۆستی ئەلیکترۆنیەکانی وەبیرخستەنەوەی ئامامنجەکان، پێشکەوتنت و هەواڵنامەکانی پڕۆژەی دەنگی گشتی <bold>وەرنەگری</bold>.
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -785,19 +785,19 @@ n-clips-pluralized =
     }
 help-share-goal = یارمەتیمان بدە دەنگی زیاتر کۆ بکەینەوە، ئامانجی خۆت هاوبەش کە
 confirm-goal = ئامانجەکە بسەلمێنە
-goal-interval-weekly = حەفتانە
+goal-interval-weekly = هەفتانە
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = ئامانجی { $count }کلیپی ڕۆژانەت هاوبەش بکە بۆ { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = ئامانجی { $count } کلیپی حەفتانەی خۆت بۆ { $type } هاوبەش کە.
-share-goal-type-speak = وتن
+share-goal-type-speak = قسەکردن
 share-goal-type-listen = بیستن
-share-goal-type-both = وتن و بیستن
+share-goal-type-both = قسەکردن و بیستن
 # LINK will be replaced with the current URL
-goal-share-text = من هەر ئیستا ئامانجێکی کەسیم درووست کرد بۆ بەخشینی دەنگی خۆم بە #CommonVoice -- وەک من بەشداری بکەن کە فێری ئامێرەکان بکەین فێر بن کە کەسانی حەقیقی چۆن قسە دەکەن { $link }
+goal-share-text = من هەر ئیستا ئامانجێکی کەسیم درووست کرد بۆ بەخشینی دەنگی خۆم بە #CommonVoice -- وەک من بەشداری بکەن کە فێری ئامێرەکان بکەین فێر بن کە کەسانی ڕاستی چۆن قسە دەکەن { $link }
 weekly-goal-created = ئامانجی حەفتانەی تۆ ساز کرا
 daily-goal-created = ئامانجی ڕۆژانەی تۆ ساز کرا
-track-progress = پێشچوونی خۆت لێرە و لە بەرگەی ئامار سەیر کە
+track-progress = پێشچوونی خۆت لێرە و لە بەرگەی ئامار سەیر بکە
 return-to-edit-goal = سەردانی ئێرە بکەوە بۆ گۆڕینی ئامانجەکەت
 share-goal = ئامانجە من هاوبەش کە
 
@@ -839,6 +839,7 @@ demo-account = هەژمار
 ## Demo Account
 
 demo-account-card-header = پێویستە هەژمارت هەبێت بۆ بەشداریکردن، هەروەها بە سوودیشە.
+demo-account-card-body = بۆ ڕاستی ئێمە سوودەکان وەدەردەخەین  لەگەڵ ڕوونکردنەوەی ئەوەی کە چ زانیاریەک ئێمە بە گشتی دەکەین. بەستەری خوارەوە بەکاربێنە بۆ دەستپێکردن لەگەڵ هەژماری دەنگی گشتی بۆ ئامێرەکەی خۆت.
 demo-account-enter-email =
     .label = پۆستی ئەلکترۆنی بنووسە بۆ ئەوەی بەستەری خۆتۆمارکردنت پێبگات
 demo-account-sign-up = بەستەری خۆتۆمارکردن بنێرە
