@@ -16,12 +16,6 @@ import { ChallengeToken, challengeTokens } from 'common';
 
 const Transcoder = require('stream-transcoder');
 
-// Occasionally a blank or corrupted clip sneaks through our front-end
-// volume checker. We can reduce the number of blank clips in our dataset by
-// disallowing files under a specified size. It’s not perfect, but it might be
-// better than nothing.
-const LOW_FILE_SIZE_THRESHOLD_BYTES = 300;
-
 /**
  * Clip - Responsibly for saving and serving clips.
  */
@@ -133,6 +127,7 @@ export default class Clip {
 
   /**
    * Save the request body as an audio file.
+   * TODO: Check for empty or silent clips before uploading.
    */
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
@@ -172,54 +167,16 @@ export default class Clip {
         .channels(1)
         .sampleRate(32000);
 
-      // We optimistically upload the clip stream to AWS, then delete it later
-      // if it’s blank or corrupted.
-      let uploadSize = 0;
       await this.s3
         .upload({
           Bucket: getConfig().BUCKET_NAME,
           Key: clipFileName,
           Body: transcoder.stream(),
         })
-        .on('httpUploadProgress', ({ total }) => {
-          if (typeof total === 'number') {
-            uploadSize = Math.max(uploadSize, total);
-          }
-        })
         .promise();
 
       console.log('clip written to s3', clipFileName);
 
-      const clipValid = await new Promise(resolve => {
-        transcoder
-          .on('finish', () => {
-            const isFileBigEnough = uploadSize > LOW_FILE_SIZE_THRESHOLD_BYTES;
-            if (!isFileBigEnough) {
-              console.log(`ERR_TRANSCODING_FILE_TOO_SMALL: ${clipFileName}`);
-            }
-            resolve(isFileBigEnough);
-          })
-          .on('error', () => {
-            console.log(`ERR_TRANSCODING_AUDIO: ${clipFileName}`);
-            resolve(false);
-          });
-      });
-
-      if (!clipValid) {
-        response.statusCode = 422;
-        response.statusMessage = 'clip_invalid_error';
-        response.json('The received clip was silent.');
-
-        await this.s3.deleteObject({
-          Bucket: getConfig().BUCKET_NAME,
-          Key: clipFileName,
-        });
-
-        return;
-      }
-
-      // If we reach this point, the clip uploaded to S3 correctly and is
-      // valid. Proceed with updating our DB and processing the response.
       await this.model.saveClip({
         client_id: client_id,
         localeId: sentence.locale_id,
