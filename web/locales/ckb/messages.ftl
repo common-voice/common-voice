@@ -404,11 +404,11 @@ faq-why-not-ask-read-a = بۆ ئەوەی کە ئەم پڕۆژەیە نەهایە
 faq-why-account-q = بۆچی دەبێ ناونووسی بکەم بۆ هەژماری خۆم؟
 faq-is-account-public-q = ئایا زانیارییەکانی هەژماری من گشتییە؟
 faq-how-privacy-q = چون دڵنیا دەبن لە نەناسراو بوونی ئەو کەسانە کە دەنگی خۆیان دەبەخشن؟
-faq-how-privacy-a = تەواوی زانیارییە شەخسیەکان لە زانیاریسێتەکە لادابرێت. کاتێک بەشدارێک زانیاری دێمۆگڕافیک لە ڕێگەی پڕۆفایلی خۆی زیاد دەکات، ئێمە ئەو زانیارییە پێش ئامادە کردنی زانیاریسێت بۆ دانڵۆد دەسڕینەوە بۆیە ئەوانە هیچ کات بڵاو ناکرێنەوە.
+faq-how-privacy-a = تەواوی زانیارییە کەسییەکان لە زانیاریسێتەکە لادابرێت. کاتێک بەشدارێک زانیاری دێمۆگڕافیک لە ڕێگەی پڕۆفایلی خۆی زیاد دەکات، ئێمە ئەو زانیارییە پێش ئامادە کردنی زانیاریسێت بۆ دانڵۆد دەسڕینەوە بۆیە ئەوانە هیچ کات بڵاو ناکرێنەوە.
 faq-what-determine-identity-q = ئەوەی کە ناتوانم ناسنامەی بێژەرەکانی دەنگی گشتی دیاری بکەم یانی چی؟
 faq-what-determine-identity-a =
-    زانیاریسێت دەنگی گشتی سەرچاوەیێکی کراوە و گشتییە کە دەتوانین بەکاری بێنین بۆ کۆمەڵێک لە ئەپڵیکەیشنەکان کە لە تەکنۆلۆژی وتار بەهرە وەر دەگرن. بۆ پاراستنی ئاسایشی بەشداران، داوا دەکەین لە هەرکەسێک کە ئەم زانیاریسێتە دانڵۆد دەکات کە سرنج بدات بە سیاسەتی پاراستنی نهێنی.
-    هەمووجۆرە زانیارییە شەخسییەکان لەم زانیاریسێتە پاک دەکرێتەوە. کاتێک زانیاریسێتەکە دانڵۆد دەکەی، ئەوە رەزامەندی خۆت دەردەبڕی کە هەوڵ نەدەی دیاری بکەی بەشدارەکان کێ بوون، نابێ زانیارییەکانی ئەم زانیاریسێتە لینک بکەی بە زانیارییە شەخسییەکانی خۆبەشەکان. بەڵام دەتوانی زانیاریسێتەکە بەکار بێنی بۆ درووست کردنی سیستمی ناسینەوەی وتار یا بێژەر یان کارەکانی دەکی وەک لینک کردنی زانیاریەەکانی زانیاریسێتەکە بە هەرجۆرە زانیاریێکی دیکە کە لە زانیاریسێتەکە هەیە.
+    زانیاریسێت دەنگی گشتی سەرچاوەیێکی کراوە و گشتییە کە دەتوانین بەکاری بێنین بۆ کۆمەڵێک لە ئەپڵیکەیشنەکان کە لە تەکنۆلۆژی وتار بەهرە وەر دەگرن. بۆ پاراستنی ئاسایشی بەشداران، داوا دەکەین لە هەرکەسێک کە ئەم زانیاریسێتە دابگرێت کە سرنج بدات بە سیاسەتی پاراستنی نهێنی.
+    هەمووجۆرە زانیارییە کەسییەکان لەم زانیاریسێتە پاک دەکرێتەوە. کاتێک زانیاریسێتەکە دادەگریت، ئەوە رەزامەندی خۆت دەردەبڕی کە هەوڵ نەدەی دیاری بکەی بەشدارەکان کێ بوون، نابێ زانیارییەکانی ئەم زانیاریسێتە  بلکێنیت بە زانیارییە کەسییەکانی خۆبەشەکان. بەڵام دەتوانی زانیاریسێتەکە بەکار بێنی بۆ درووست کردنی سیستمی ناسینەوەی وتار یا بێژەر یان کارەکانی دەکی وەک لینک کردنی زانیاریەەکانی زانیاریسێتەکە بە هەرجۆرە زانیاریێکی دیکە کە لە زانیاریسێتەکە هەیە.
 faq-what-is-cv = دەنگی گشتی چیەە؟
 faq-using-cv = بەکارهێنانی دەنگی گشتی
 faq-description = پڕۆژەی "دەنگی گشتی" بەشێکە لە هەوڵی مووزیلا بۆ ئەوەی کە چۆنییەتی قسەکردنی مرۆڤ فێری ئامێرەکان بکات.
@@ -586,10 +586,10 @@ other-language = زمانی تر
 
 ## Languages Overview
 
-language-section-in-progress = خەریکی پێشکەوتن
-language-section-in-progress-new-description = ئەم زمانانە خەریکی گەشە پێدرانن لە کۆمەلگە. نەوارەکانی پێشکەوتن پێشکەوتنی هەر زمان نیشان دەدەن لە پڕۆسەی <localizationGlossaryLink>خۆماڵی کردنی ماڵپەر</localizationGlossaryLink> و <sentenceCollectionGlossaryLink>کۆ کردنی ڕەستە</sentenceCollectionGlossaryLink>.
+language-section-in-progress = کاری تێدا دەکرێت
+language-section-in-progress-new-description = ئەم زمانانە کاریان تێدا دەکرێت لە کۆمەلگە. پێشکەوتنی هەر زمانێک نیشان دەدرێت لە پڕۆسەی <localizationGlossaryLink>خۆماڵی کردنی ماڵپەر</localizationGlossaryLink> و <sentenceCollectionGlossaryLink>کۆکردنەوەی ڕستە</sentenceCollectionGlossaryLink>.
 language-section-launched = دەست پێکراو
-language-section-launched-description = بۆ ئەم زمانانە، سایتەکەمان <localizationGlossaryLink>خۆماڵی کراوە</localizationGlossaryLink> و <sentenceCollectionGlossaryLink>ژمارەی ڕەستەی پێویستی</sentenceCollectionGlossaryLink> هەیە کە بەشداران بتوانن <speakLink>قسە بکەن</speakLink> و <listenLink>گوێ دبەن</listenLink>.
+language-section-launched-description = بۆ ئەم زمانانە، ماڵپەڕەکەمان <localizationGlossaryLink>خۆماڵی کراوە</localizationGlossaryLink> و <sentenceCollectionGlossaryLink>ژمارەی ڕستەی پێویستی</sentenceCollectionGlossaryLink> هەیە کە بەشداران بتوانن <speakLink>قسە بکەن</speakLink> و <listenLink>گوێ بدەین</listenLink>.
 languages-show-more = بینینی زیاتر
 languages-show-less = بینینی کەمتر
 language-meter-in-progress = گەشە
@@ -598,7 +598,7 @@ language-search-input =
     .placeholder = گەڕان
 language-speakers = بێژەران
 localized = خۆماڵی کراو
-sentences = ڕەستەکان
+sentences = ڕستەکان
 total-hours = کاژ. سەلماندراو
 
 ## Contribution
@@ -631,7 +631,7 @@ record-error-too-short = زەبتەکە زۆر کوورت بوو
 record-error-too-long = زەبتەکە زۆر درێژ بوو
 record-error-too-quiet = زەبتەکە زۆر کەم دەنگ بوو
 record-cancel = بێخیاڵی زەبتی دووبارە
-record-instruction = { $actionType }<recordIcon></recordIcon> ئەمجار ڕەستەکە بە دەنگی بەرز بخوێنەوە
+record-instruction = { $actionType }<recordIcon></recordIcon> ئەمجار ڕستەکە بە دەنگی بەرز بخوێنەوە
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> کاتێک تەواو بووی
 record-three-more-instruction = سێ دانە ماوە
 record-again-instruction = بژی!<recordIcon></recordIcon>کلیپی داهاتوو زەبت کە
@@ -648,7 +648,7 @@ record-abort-text = ئەگەر ئێستا بڕۆی ئەوە پێشکەوتنی �
 record-abort-submit = ناردنی دەنگەکان
 record-abort-continue = تەواوکردنی زەبت
 record-abort-delete = دەرچوون و سڕینەوەی کلیپەکان
-listen-instruction = { $actionType }<playIcon></playIcon> ئایا بە درووستی ڕەستەکانیان خوێندەوە؟
+listen-instruction = { $actionType }<playIcon></playIcon> ئایا بە درووستی ڕستەکانیان خوێندەوە؟
 listen-again-instruction = بژی! <playIcon></playIcon> هەر کاتێک ئامدە بووی دیسان گوێ بدە
 listen-3rd-time-instruction = ٢ دانە ماوە، بەردەوام بە! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>دواهەمین دانە
@@ -669,11 +669,11 @@ target-segment-learn-more = زیاتر بزانە
 
 report = ڕاپۆرت
 report-title = ناردنی ڕاپۆرت
-report-ask = لەگەڵ ئەم ڕەستەیە توشی چ دژوارییەک بوی؟
+report-ask = لەگەڵ ئەم ڕستەیە توشی چ دژوارییەک بووی؟
 report-offensive-language = زمانی ناشایست
-report-offensive-language-detail = ئەم ڕەستەیە زمانێکی ناشایست یان بێ ئەدەبانەی هەیە
+report-offensive-language-detail = ئەم ڕستەیە زمانێکی ناشایست یان بێ ئەدەبیانەی هەیە
 report-grammar-or-spelling = هەڵەی دەستووری/نووسینی
-report-grammar-or-spelling-detail = ئەم ڕەستەیە هەڵەی نووسین یان دەستووری هەیە
+report-grammar-or-spelling-detail = ئەم ڕستەیە هەڵەی نووسین یان دەستووری هەیە
 report-different-language = زمانی دیکە
 report-different-language-detail = ئەمە بە زمانێکی جیاواز لەوەی من قسەی پێ دەکەم نووسراوە
 report-difficult-pronounce = وتنی ئەمە دژوارە
@@ -732,7 +732,7 @@ show-ranking = پلەی نم نیشان بدە
 ## Custom Goals
 
 get-started-goals = ئامانجەکان دەست پێ بکە
-create-custom-goal = درووست کردنی ئامانجی شەخسی
+create-custom-goal = درووست کردنی ئامانجی تاکەکەسی
 goal-type = دەتەوێت چ جۆرە ئامانجێک دروست بکەیت؟
 both-speak-and-listen = هەردووکیان
 both-speak-and-listen-long = هەردووکیان (وتن و بیستن)
@@ -746,7 +746,7 @@ lose-goal-progress-warning = ئەگەر ئەم ئامانجەت بگۆڕی لە�
 want-to-continue = دەتهەوێ بەردەوام بی؟
 finish-editing = پێشتر زەبت کردن تەواو بکەین؟
 lose-changes-warning = ئەگەر ئێستا بڕۆی گۆڕانکارییەکانت لە دەست دەچن
-build-custom-goal = ئامانجێکی شەخسی درووست کە
+build-custom-goal = ئامانجێکی تاکەکەسی درووست بکە
 help-reach-hours-pluralized =
     یارمەتیمان بە بگەین{ NUMBER($hours) ->
         [one] { $hours } کاتژمێر
