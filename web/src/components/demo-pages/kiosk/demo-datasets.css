@@ -82,7 +82,6 @@
 }
 
 .demo-datasets--download__sub {
-    max-width: 21rem;
     padding: 0 0 4.5rem var(--right-section-align-padding);
     padding-inline-start: var(--right-section-align-padding);
     padding-inline-end: 0;
