@@ -981,4 +981,10 @@ export default class DB {
     }
     return challengeEnded;
   }
+
+  async deleteClip(id: string) {
+    await this.mysql.query(`DELETE FROM votes WHERE clip_id = ?;`, [id]);
+    await this.mysql.query(`DELETE FROM clips WHERE id = ? LIMIT 1;`, [id]);
+    console.log(`Deleted clip and votes for clip ID ${id}`);
+  }
 }
