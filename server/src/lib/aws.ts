@@ -4,7 +4,7 @@ import { config, S3 } from 'aws-sdk';
 const awsDefaults = {
   signatureVersion: 'v4',
   useDualstack: true,
-  region: 'us-west-2',
+  region: getConfig().BUCKET_LOCATION,
 };
 
 export namespace AWS {

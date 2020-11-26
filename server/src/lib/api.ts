@@ -118,6 +118,7 @@ export default class API {
     router.use('/challenge', this.challenge.getRouter());
 
     router.get('/feature/:locale/:feature', this.getFeatureFlag);
+    router.get('/bucket/:bucket_name/:path', this.getPublicUrl);
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
@@ -435,5 +436,16 @@ export default class API {
   createReport = async ({ client_id, body }: Request, response: Response) => {
     await this.model.db.createReport(client_id, body);
     response.json({});
+  };
+
+  getPublicUrl = async (
+    { params: { bucket_name, path } }: Request,
+    response: Response
+  ) => {
+    const url = await this.bucket.getPublicUrl(
+      decodeURIComponent(path),
+      bucket_name
+    );
+    response.json({ url });
   };
 }
