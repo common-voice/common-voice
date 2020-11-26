@@ -22,6 +22,7 @@ not-available-abbreviation = نیە
 ## Languages
 
 ab = ئابخاز
+ace = ئاسێنیز
 ady = ئەدیگە
 af = ئەفریقی
 am = ئەمهەری
@@ -797,3 +798,18 @@ help-contribute = تۆ دەتوانی یارمەتی بدەی بۆ سازکرد�
 login-company = خۆت تۆمار کە یان ڵاگین بکە بە پۆستی ئەلیکترۆنیی { $company }
 profile-not-required = پێویست نییە پڕۆفایلت ببێت بەڵام ئەگە پڕۆفایل ساز کەی زیاتر یارمەتیمان دەدات.
 read-more-about = لە بەرگەی دەربارەی ئێمە زیاتر بخوێنەوە
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
