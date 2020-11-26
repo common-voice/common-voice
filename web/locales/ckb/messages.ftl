@@ -658,6 +658,7 @@ share-title-new = <bold>یارمەتیمان بدە</bold> دەنگی زیاتر
 keep-track-profile = پێشکەوتنی خۆت بە ساز کردنی پڕۆفایلێک ببینە
 login-to-get-started = ڵۆگین بکە یان هەژمار ساز کە بۆ دەست پێکردن
 target-segment-first-card = تۆ خەریکی لە ئەکەمین بەشی ئامانجمان بەشداری دەکەی
+target-segment-generic-card = تۆ بەشداری دەکەیت لە بەشی بەئامانجکراو
 target-segment-first-banner = یارمەتی بدە کە یەکەمین بەشی ئامانجی دەنگی گشتی بۆ { $locale } درووست بکەین
 target-segment-add-voice = دەنگی خۆت زیاد کە
 target-segment-learn-more = زیاتر بزانە
@@ -824,12 +825,26 @@ demo-welcome-subheader = ئارازوو دەکەیت زیاتر بزانیت و 
 
 ## Demo Datasets
 
+demo-language-select-card-header = دەنگی گشتی بریتییە لە گەورەترین بنکە زانیاری دەنگی چەند-زمانی کە بەردەستە بۆ هەموو کەس.
+card-button-next = دوواتر
+card-button-back = دواوە
+demo-language-select-label = بگەڕێ لە زمانەکان
+demo-eofy-header = 2019 وەشانی کۆتایی ساڵە
+demo-eofy-sub_header = بنکەی زانیاری دەنگی، ئامادەیە بۆ داگرتن
+demo-account = هەژمار
 
 ## Demo Account
 
+demo-account-card-header = پێویستە هەژمارت هەبێت بۆ بەشداریکردن، هەروەها بە سوودیشە.
+demo-account-enter-email =
+    .label = پۆستی ئەلکترۆنی بنووسە بۆ ئەوەی بەستەری خۆتۆمارکردنت پێبگات
+demo-account-sign-up = بەستەری خۆتۆمارکردن بنێرە
 
 ## Demo Contribute
 
+demo-contribute-card-header = ئامادەی دەنگی خۆت بنێری یان گوێ بگریت؟
+demo-listen-subtitle = ئامادەی بۆ بەشداری؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = بۆردی تاکەکسی هەمیشە ئاگادارت دەکات لە دوواترین بەشداریە کەسییەکان وچالاکی کۆمەڵەکە.
