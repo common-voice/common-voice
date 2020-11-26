@@ -441,8 +441,12 @@ export default class API {
     });
   }
 
-  getPublicUrl(path: string, bucketName: string): Promise<{ url: string }> {
-    return this.fetch(`${API_PATH}/bucket/${bucketName}/${path}`, {
+  getPublicUrl(
+    path: string,
+    bucketType: string,
+    useCDN: boolean
+  ): Promise<{ url: string }> {
+    return this.fetch(`${API_PATH}/bucket/${bucketType}/${path}/${useCDN}`, {
       method: 'GET',
     });
   }

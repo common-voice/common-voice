@@ -23,7 +23,8 @@ export type CommonVoiceConfig = {
   MYSQLREPLICAHOST?: string;
   MYSQLPORT: number;
   MYSQLREPLICAPORT?: number;
-  BUCKET_NAME: string;
+  CLIP_BUCKET_NAME: string;
+  DATASET_BUCKET_NAME: string;
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
   RELEASE_VERSION?: string;
@@ -70,8 +71,12 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MYSQLPORT: configEntry('CV_MYSQLPORT', 3306, castInt),
   MYSQLREPLICAHOST: configEntry('CV_MYSQLREPLICAHOST', ''),
   MYSQLREPLICAPORT: configEntry('CV_MYSQLREPLICAPORT', 3306, castInt),
-  BUCKET_NAME: configEntry('CV_BUCKET_NAME', 'common-voice-corpus'),
-  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', 'us-west-2'),
+  CLIP_BUCKET_NAME: configEntry('CV_CLIP_BUCKET_NAME', 'common-voice-clips'),
+  DATASET_BUCKET_NAME: configEntry(
+    'CV_DATASET_BUCKET_NAME',
+    'common-voice-datasets'
+  ),
+  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', ''),
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
