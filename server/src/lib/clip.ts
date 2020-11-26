@@ -158,7 +158,7 @@ export default class Clip {
     try {
       // If the folder does not exist, we create it.
       await this.s3
-        .putObject({ Bucket: getConfig().BUCKET_NAME, Key: folder })
+        .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
         .promise();
 
       const transcoder = new Transcoder(request)
@@ -169,7 +169,7 @@ export default class Clip {
 
       await this.s3
         .upload({
-          Bucket: getConfig().BUCKET_NAME,
+          Bucket: getConfig().CLIP_BUCKET_NAME,
           Key: clipFileName,
           Body: transcoder.stream(),
         })
