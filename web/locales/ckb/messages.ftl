@@ -523,23 +523,23 @@ audio-format = جۆری دەنگ
 number-of-voices = ژمارەی دەنگەکان
 splits = لەتەکان
 email-to-download = پۆستی ئەلیکترۆنیی خۆت بنووسە بۆ داگرتن
-why-email = <b>بۆچی پۆستی ئەلیکترۆنی؟</b> شایەد پێویست بێت لە داهاتوو دا سەبارەت بە گۆڕانکارییەکانی زانیاریسێت لە ڕێگای پۆستی ئەلیکترۆنی پەیوەندیت پێ بکەین.
-confirm-size = تۆ ئامادەی بۆ دەست پێکردنی دانڵۆدی <b>{ $size }</b>
+why-email = <b>بۆچی پۆستی ئەلیکترۆنی؟</b> لەوانەیە پێویستمان بێت بۆ ئەوەی ئاگادرت بکەین لەهەر گۆڕانکارییەک لە سێتی زانیاری، پۆستی ئەلکترۆنی خاڵیکمان پی دەدات بۆ ئەوەی بزانین چۆن پەیوەندیت پێوە بکەین.
+confirm-size = تۆ ئامادەی بۆ دەست پێکردنی داگرتنی <b>{ $size }</b>
 size-gigabyte = گ.ب
 size-megabyte = م.ب
 confirm-no-identify = <b>تۆ ڕەزامەندی</b> کە هەوڵ نەدەی ناسنامەی بێژەرەکانی ئەم زانیاریسێتە دیارە بکەی.
 download-language = داگرتنی { $language }
-validated-hours = کاژێری سەلماندراو
+validated-hours = کاژێری سەلمێندراو
 recorded-hours = کاژێری ئامادەکراو
 whats-inside = نێو زانیاریسێتی دەنگی گشتی چی تێدایە؟
 dataset-description-hours = هەر دەنگێک لەم زانیاریسێتە بریتییە لە فایلێکی MP3 و تێکستی تایبەتی خۆی. زۆربەی <b>{ $total }</b> کاژێرە زەبت کراوەکان لەم زانیاریسێتە مێتازانیاریی دێمۆگڕافیک وەک ڕەگەز، تەمەن و شێوەزاریش لە خۆ دەگرن بۆ ئەوەی کە دیقەتی فێرکاری مۆتۆڕەکانی ناسینەوەی وتار باشتر بکەن. ئەم زانیاریسێتە ئێستا بریتییە لە <b>{ $valid }</b> کاژێر دەنگی سەلماندراو بە <b>{ $languages }</b> زمان، بەڵام ئێمە بەردەوام زمان و دەنگی نوێ زیاد دەکەین. سەردانی <languagesLink> زمانەکانمان بکە.
 want-dataset-update = پێت خۆشە هەواڵی بۆ بنێرین لە کاتی بڵاوکردنەوەی وەشانی نوێی زانیاریسێتی دەنگی گشتی؟ خۆت ئابوونە کە بۆ هەواڵ نامەکەمان.
-subscribe = ئابوونەکردن
+subscribe = بەشداریکردن
 get-started-speech = دەست پێ بکە بۆ ناسینەوە وتار
 other-datasets = زانیاریسێتەکانی تری دەنگ
 feedback-q = ڕەخنەوپێشنیارت هەیە؟
-deepspeech-info = ئەم زانیاریسێتە پرۆژەی ناسینەوەی وتاری DeepSpeechی مووزیلا تەکمیل دەکات کە دەتوانی بەکاری بهێنی بۆ سازکردنی نەرمەکالای ناسینەوەی وتار. <githubLink> لێرە</githubLink> زیاتر بخوێنەوە یان سەردانی <discourseLink>DeepSpeech Discourse</discourseLink> بکە بۆ ئەوەی زیاتر بزانی.
-common-voice-info-new = پرسیارت هەیە سەبارەت بە دەنگی گشتی؟ ڕات هەیە بۆ باشتر کردن یان فیدبەک؟ لەگەڵمان بە لە <discourseLink>مەکۆی Discourse</discourseLink> و هەواڵمان پێ دبە.
+deepspeech-info = ئەم زانیاریسێتە پرۆژەی ناسینەوەی وتاری DeepSpeechی مۆزیلا تەواو دەکات کە دەتوانی بەکاری بهێنی بۆ درووستکردنی نەرمەکالای ناسینەوەی وتار. <githubLink> لێرە</githubLink> زیاتر بخوێنەوە یان سەردانی <discourseLink>DeepSpeech Discourse</discourseLink> بکە بۆ ئەوەی زیاتر بزانی.
+common-voice-info-new = پرسیارت هەیە سەبارەت بە دەنگی گشتی؟ ڕات هەیە بۆ باشتر کردن یان پێشنیار؟ لەگەڵمان بە لە <discourseLink>مەکۆی Discourse</discourseLink> و هەواڵمان پێ بدە.
 data-other-librispeech-description = LibriSpeech زانیاریسێتێکە لە ١٠،٠٠٠ کاژێر دەنگی 16khz لە وتاری ئینگلیزی کە لە کتێبە دەنگییەکانی پڕۆژەی LibroVox کۆ کراوەتەوە.
 data-other-ted-name = زانیاریسێتی TED-LIUM
 data-other-ted-description = زانیاریسێتی TED-LIUM لە وتارەکانی دەنگی و تێکستەکانی ماڵپەڕی TED ساز کرا.
@@ -548,17 +548,17 @@ data-other-tatoeba-description = تاتۆبێئا زانیاریسێتێکی گ�
 your-feedback = پێت وایە ڕات هەیە بۆ باشتر کردنی دەنگی گشتی؟ لە Discourse پێمان بڵێ
 go-discourse = بچۆ بۆ Discourse
 missing-language = زمانی خۆت نابینی لە لیستی زمانەکان؟ بۆ داواکردنی زمان سەردانی بەرگی زمانەکان بکە.
-go-languages-page = بچۆ بۆ بەرگەی زمانەکان
+go-languages-page = بچۆ بۆ پەڕەی زمانەکان
 ready-to-validate = ئامادەی بۆ یارمەتی سەلماندنی ڕستەکان؟
 more = زیاتر
-close = بەستن
+close = داخستن
 download = داگرتن
 dataset-version = وەشان
 
 ## Download Modal
 
-download-title = دانڵۆدی تۆ دەستی پێکرد
-download-helpus = یارمەتیمان بدە کۆمەڵگەیێک بۆ تەکنۆلۆژیای وتار ساز کەین، لە ڕێگای پۆستی ئەلیکترۆنی لەگەڵمان بە.
+download-title = داگرتنەکەت دەستیپێکرد
+download-helpus = یارمەتیمان بدە کۆمەڵگەیێک بۆ تەکنۆلۆژیای وتار ئامادە بکەین، لە ڕێگای پۆستی ئەلیکترۆنی لەگەڵمان بە.
 download-form-email =
     .label = پۆستی ئەلیکترۆنیی خۆت بنووسە
     .value = سوپاس، پەیوەندیت پێ دەکەین
@@ -592,23 +592,23 @@ language-section-launched = دەست پێکراو
 language-section-launched-description = بۆ ئەم زمانانە، ماڵپەڕەکەمان <localizationGlossaryLink>خۆماڵی کراوە</localizationGlossaryLink> و <sentenceCollectionGlossaryLink>ژمارەی ڕستەی پێویستی</sentenceCollectionGlossaryLink> هەیە کە بەشداران بتوانن <speakLink>قسە بکەن</speakLink> و <listenLink>گوێ بدەین</listenLink>.
 languages-show-more = بینینی زیاتر
 languages-show-less = بینینی کەمتر
-language-meter-in-progress = گەشە
-language-total-progress = کۆ
+language-meter-in-progress = بەرەوپێشچوون
+language-total-progress = کۆی گشتی
 language-search-input =
     .placeholder = گەڕان
 language-speakers = بێژەران
-localized = خۆماڵی کراو
+localized = وەرگێڕدراو
 sentences = ڕستەکان
-total-hours = کاژ. سەلماندراو
+total-hours = کاژ. سەلمێندراو
 
 ## Contribution
 
-action-click = کلیک
+action-click = کرتە
 action-tap = لێدان
 contribute = بەشداری
 listen = ببیستە
-skip = باز دان
-shortcuts = شۆرتکات
+skip = تێپەڕاندن
+shortcuts = قەدبڕ
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> کلدپ
@@ -621,10 +621,10 @@ contribute-more =
         [one] ئامادەی کە { $count }دانەی دەکەش ئەنجام بدەی؟
        *[other] ئامادەی کە { $count }دانەی دەکەش ئەنجام بدەی؟
     }
-record-cta = دەست پێ کردنی زەبت
+record-cta = دەست پێ کردنی تۆمارکردن
 record-platform-not-supported = ببوورە بەڵام پلاتفۆڕمی تۆ ئێستا پشتیوانی ناکرێت.
-record-platform-not-supported-desktop = لە سیستەمی دێسکتاپ دەتوانت نەوتری داگری:
-record-platform-not-supported-ios-non-safari = ئەگەر iOS تکایە بە سافاری بەردەوام بە بۆ زەبت کردنی دەنگ…
+record-platform-not-supported-desktop = لە ئامیری ڕوومێزی دەتوانیت دایبگریت:
+record-platform-not-supported-ios-non-safari = ئەگەر iOS تکایە بە سافاری بەردەوام بە بۆ تۆمارکردنی دەنگ…
 record-must-allow-microphone = پێویستە ئیزنی مایکڕۆفۆن بدەیت
 record-no-mic-found = میکڕۆفۆن پەیدا نەبوو
 record-error-too-short = زەبتەکە زۆر کوورت بوو
