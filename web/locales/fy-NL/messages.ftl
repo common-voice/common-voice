@@ -890,3 +890,4 @@ demo-listen-subtitle = Klear om by te dragen?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Persoanlike dashboarden hâlde jo op de hichte fan jo yndividuele foarútgong en fan dy fan de mienskip.
+demo-dashboard-card-body = Foar elk donearre spraakfragmint en elk falidearre audiofragmint wurde jo accountdashboarden bywurke om jo lêste foarderingen wer te jaan yn elke taal wêroan jo bydrage. Ja, jo kinne oan mear as ien bydrage!<br/><br/>Brûk dashboarden om jo statistiken by te hâlden, te besjen hoe't jo it dogge neist oaren yn de mienskip en deistige of wyklikse bydragedoelen fêst te stellen.
