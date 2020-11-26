@@ -314,38 +314,46 @@ const DownloadEmailPrompt = ({
     datasetVersion,
   } = formState;
 
-  const updateLink = (bundleState: any, formState: any) => {
+  const updateLink = async (bundleState: any, formState: any) => {
     // AWS CDN only supports files up to 20GB
     const urlRoot =
       bundleState.rawSize >= 20 * 1024 * 1024 * 1024
         ? URLS.S3_BUCKET
         : URLS.S3_CDN;
 
+    const key = urlPattern.replace('{locale}', bundleState.bundleLocale);
+    const { url } = await api.getPublicUrl(
+      encodeURIComponent(key),
+      'common-voice-corpus'
+    );
+
     return emailInputRef.current?.checkValidity() &&
       formState.confirmNoIdentify &&
       formState.confirmSize
-      ? `${urlRoot}/${urlPattern.replace('{locale}', bundleState.bundleLocale)}`
+      ? url.replace(URLS.S3_BUCKET, urlRoot)
       : null;
   };
 
   const saveHasDownloaded = async () => {
     await api
       .forLocale(bundleState.bundleLocale)
-      .saveHasDownloaded(email, release);
+      .saveHasDownloaded(email, bundleState.datasetVersion);
   };
 
   const showEmailForm = () =>
     setFormState(prev => ({ ...prev, hideEmailForm: false }));
 
-  const handleInputChange = ({ target }: any) => {
+  const handleInputChange = async ({ target }: any) => {
     let newState = {
       ...formState,
       [target.name]: target.type !== 'checkbox' ? target.value : target.checked,
     };
 
-    setFormState({
-      ...newState,
-      downloadLink: updateLink(bundleState, newState),
+    updateLink(bundleState, newState).then(downloadLink => {
+      setFormState({
+        ...newState,
+        downloadLink,
+      });
     });
   };
 
@@ -353,11 +361,13 @@ const DownloadEmailPrompt = ({
     bundleState.bundleLocale != formState.locale ||
     bundleState.datasetVersion != formState.datasetVersion
   ) {
-    setFormState({
-      ...formState,
-      downloadLink: updateLink(bundleState, formState),
-      locale: bundleState.bundleLocale,
-      datasetVersion: bundleState.datasetVersion,
+    updateLink(bundleState, formState).then(downloadLink => {
+      setFormState({
+        ...formState,
+        downloadLink,
+        locale: bundleState.bundleLocale,
+        datasetVersion: bundleState.datasetVersion,
+      });
     });
   }
 
