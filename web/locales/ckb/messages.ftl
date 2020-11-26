@@ -723,11 +723,11 @@ top-contributors = باشترین بەشداریکەران
 recorded-clips = کلیپی تۆمارکراو
 validated-clips = کلیپی سەلمێندراو
 total-approved = کۆی سەلمێندراو
-overall-accuracy = دیقەتی گشتی
-set-visibility = دیاری بوونی من تەنزیم بکە
+overall-accuracy = وردی گشتی
+set-visibility = دیاری بوونی من رێکبخە
 visibility-explainer = ئەم تەنزیمە دیار بوونی Leaderboardی تۆ دیاری دەکات. کاتێک ئەمە لەسەر <شاراوە> بێت ئاستی پێشکەوتنی تۆ کەسایەتی دەبێت، بە مانای ئەوە کە وێنە، ناوی بەکارهێنەر و ئاستی پێشکەوتنی تۆ لەسەر لیدێربۆرد پیشان نادرێت. سرنج بدەن کە نەو بوونەوەی لیدێربۆرد لەوانەیە تا { $minutes } خۆلەک بخایێنێت.
 visibility-overlay-note = تێبینی: کاتێک ئەمە بکەی بە 'دیار'، ئەم تەنزیمە دەتوانی لە <profileLink>پەڕەی پڕۆفایل</profileLink>ت بگۆڕی.
-show-ranking = پلەی نم نیشان بدە
+show-ranking = پلەبەندیم پیشان بدە
 
 ## Custom Goals
 
@@ -743,8 +743,8 @@ average-difficulty = مامناوەند
 difficult-difficulty = دژوار
 pro-difficulty = پێشکەوتوو
 lose-goal-progress-warning = ئەگەر ئەم ئامانجەت بگۆڕی لەوانەیە پێشکەوتنی ئێستات لەدەست بچێت.
-want-to-continue = دەتهەوێ بەردەوام بی؟
-finish-editing = پێشتر زەبت کردن تەواو بکەین؟
+want-to-continue = دەتەوێ بەردەوام بی؟
+finish-editing = سەرەتا دەستکاریکردن تەواو بکەین؟
 lose-changes-warning = ئەگەر ئێستا بڕۆی گۆڕانکارییەکانت لە دەست دەچن
 build-custom-goal = ئامانجێکی تاکەکەسی درووست بکە
 help-reach-hours-pluralized =
@@ -766,13 +766,13 @@ activity-needed-calculation-plural =
     }لە ماوەی{ NUMBER($periodMonths) ->
         [one] { $periodMonths } مانگ
        *[other] { $periodMonths } مانگ
-    }کۆ دەبێتەوە ئەگەر{ NUMBER($people) ->
+    } کۆ دەبێتەوە ئەگەر{ NUMBER($people) ->
         [one] { $people } کەس
        *[other] { $people } کەس
-    }رۆژانە{ NUMBER($clipsPerDay) ->
+    } ڕۆژانە{ NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } کلیپ
        *[other] { $clipsPerDay } کلیپ
-    }زەبت بکەن.
+    } تۆمار بکەن.
 how-many-per-day = بژی! چەند کلیپ لە ڕۆژدا؟
 how-many-a-week = بژی! چەند کلیپ لە حەفتە دا؟
 which-goal-type = دەتهەوێ قسە بکەی، ببیستی یان هەردووکیان؟
