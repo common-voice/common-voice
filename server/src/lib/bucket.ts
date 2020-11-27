@@ -19,9 +19,13 @@ export default class Bucket {
   /**
    * Fetch a public url for the resource.
    */
-  private getPublicUrl(key: string) {
+  getPublicUrl(key: string, bucketType?: string, cdn?: boolean) {
+    // @TODO: add CDN handling back in
     return this.s3.getSignedUrl('getObject', {
-      Bucket: getConfig().BUCKET_NAME,
+      Bucket:
+        bucketType === 'dataset'
+          ? getConfig().DATASET_BUCKET_NAME
+          : getConfig().CLIP_BUCKET_NAME,
       Key: key,
       Expires: 60 * 60 * 12,
     });
@@ -50,7 +54,7 @@ export default class Bucket {
       try {
         const metadata = await this.s3
           .headObject({
-            Bucket: getConfig().BUCKET_NAME,
+            Bucket: getConfig().CLIP_BUCKET_NAME,
             Key: path,
           })
           .promise();
