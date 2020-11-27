@@ -675,6 +675,7 @@ share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 keep-track-profile = S profilom spremljajte svoj napredek
 login-to-get-started = Za začetek se prijavite ali registrirajte
 target-segment-first-card = Prispevate v naš prvi ciljni segment
+target-segment-generic-card = Prispevate v ciljni segment
 target-segment-first-banner = Pomagajte ustvariti prvi ciljni segment Common Voice v jeziku { $locale }
 target-segment-add-voice = Dodajte svoj glas
 target-segment-learn-more = Več o tem
@@ -834,3 +835,21 @@ help-contribute = Pomagate lahko ustvariti raznolik, odprtokodni nabor podatkov,
 login-company = Prijava / Registracija z e-poštnim naslovom { $company }
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 read-more-about = Preberite več na naši strani O nas
+
+## DemoLayout
+
+demo-welcome = Dobrodošli v Common Voice
+
+## Demo Datasets
+
+demo-account = Račun
+
+## Demo Account
+
+demo-account-card-header = Račun za sodelovanje ni obvezen, je pa priporočljiv.
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

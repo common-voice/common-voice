@@ -32,6 +32,7 @@ as = アッサム語
 ast = アストゥリアス語
 az = アゼルバイジャン語
 ba = バシキール語
+bas = バサ語
 be = ベラルーシ語
 bg = ブルガリア語
 bm = バンバラ語
@@ -799,3 +800,18 @@ help-contribute = Common Voice プロファイルを作成し、音声を提供�
 login-company = ログイン / { $company } メールでアカウント登録
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
 read-more-about = 詳しくは Common Voice の概要ページをご覧ください
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

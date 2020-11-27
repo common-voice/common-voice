@@ -266,6 +266,7 @@ Erê, kalê hecî, çima nabe.
 Esil ne por û cênik e.
 Esilî ne dengê bilind e.
 Esê li mala me gotiye
+Ev Gotinên Pêşiyan tev li devera gund hatine berhevkirin
 Ev Nûner heta Hukumeta Iraqê hat avakirin li Duhokê ma.
 Ev alav di mal û kargehan de dihatin bikaranîn.
 Ev dar yek ji darên herî nas ên Efrîqaya tropîk e.
@@ -438,6 +439,7 @@ Heta lîseyê jî xwendina xwe li wê derê kiriye.
 Heta me dewar komê serhev dikirin wext ber nîvro dibû
 Heta niha ji bo peydakirina wê gelek hewl dane
 Heta niha we li ku derê melatî kirîye?
+Hewcê Xwedênenasa nîne
 Heya dewê xelkê hat nan qediya.
 Heya gotin gur û rovî, îşîn xwe bîrîn nîvî
 Heya hejmarek din bimînin di nav xêr û xweşîyê de.
@@ -790,6 +792,7 @@ Mirov, pez û dewar tev birçî dibûn.
 Mirovekî oldar û dinyadîtî bû.
 Mirovê ku bi nîşan dibe, êleka xwe darda dike.
 Mirovê ku bi nîşanî dibe êleka xwe darda dike
+Mirovê li ser qebrê ne
 Mirovê xerab weka qîra Şamê ye ji meriv zû jê nabe
 Mistentiq gihaşte çi qerar û netîcê?
 Musa di dema xwe ya dibistana amadehiyê de muzîk nas kiriye.
@@ -947,6 +950,7 @@ Tu dibî
 Tu esîlî, bi muxtarê gund be.
 Tu ji xwe ra ereba wî nastînî?
 Tu kar dikî
+Tu lez bike bilezîne
 Tu li hespê siwar dibî?
 Tu mela yî?
 Tu nabî şofêrê teyaran
@@ -1035,6 +1039,7 @@ Xweha min li ber sêlûna derî bû.
 Xwendekar li ku ne?
 Xwendevanên delal û bi rûmet!
 Xwendina van wek stranî
+Xwendina wan wekî wan e
 Xweseriya xwe nîşan kiriye
 Xêr e kalo
 Xêr e, xêr.

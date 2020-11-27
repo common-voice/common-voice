@@ -872,3 +872,32 @@ help-contribute = Załožćo profil Common Voice a pśinosujśo swój głos, aby
 login-company = Z e-mailoweju adresu { $company } pśizjawiść / registrěrowaś
 profile-not-required = Za sobuźěło profil trěbny njejo, lěcrownož jo wužytny
 read-more-about = Cytajśo wěcej wó boku Wó Common Voice
+
+## DemoLayout
+
+demo-get-started = Zachopmy
+demo-welcome = Witajśo ku Common Voice
+
+## Demo Datasets
+
+card-button-next = Dalej
+card-button-back = Slědk
+demo-language-select-label = Rěcy pśepytowaś
+demo-eofy-header = Wózjawjenje kóńc lěta 2019
+demo-eofy-sub_header = Głosowa datowa sajźba, gótowy za ześěgnjenje
+demo-account = Konto
+
+## Demo Account
+
+demo-account-card-header = Za sobuźěło konto njejo trjebne, lěcrownož jo wužytny
+demo-account-enter-email =
+    .label = Zapódajśo e-mailowu adresu, aby registrěrowański wótkaz pósłał
+demo-account-sign-up = Registrěrowański wótkaz pósłaś
+
+## Demo Contribute
+
+demo-contribute-card-header = Sćo gótowy swój głos pśidaś abo słuchaś?
+demo-listen-subtitle = Cośo sobu cyniś?
+
+## Demo Dashboard
+

@@ -1,6 +1,9 @@
 exports.stats = {
   bundleURLTemplate: 'cv-corpus-5-2020-06-22/{locale}.tar.gz',
   date: '2020-06-22',
+  name: 'Common Voice Corpus 5',
+  multilingual: true,
+  exclude: true,
   locales: {
     en: {
       clips: 1429041,

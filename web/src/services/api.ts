@@ -111,7 +111,8 @@ export default class API {
 
   uploadClip(
     blob: Blob,
-    sentenceId: string
+    sentenceId: string,
+    fromDemo?: boolean
   ): Promise<{
     showFirstContributionToast?: boolean;
     hasEarnedSessionToast?: boolean;
@@ -125,6 +126,7 @@ export default class API {
         'Content-Type': blob.type,
         sentence_id: sentenceId,
         challenge: getChallenge(this.user),
+        from_demo: fromDemo ? 'true' : 'false',
       },
       body: blob,
     });
@@ -435,6 +437,16 @@ export default class API {
 
   getFeatureFlag(feature: string, locale: string): Promise<FeatureType> {
     return this.fetch(`${API_PATH}/feature/${locale}/${feature}`, {
+      method: 'GET',
+    });
+  }
+
+  getPublicUrl(
+    path: string,
+    bucketType: string,
+    useCDN: boolean
+  ): Promise<{ url: string }> {
+    return this.fetch(`${API_PATH}/bucket/${bucketType}/${path}/${useCDN}`, {
       method: 'GET',
     });
   }

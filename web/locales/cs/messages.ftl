@@ -855,3 +855,23 @@ help-contribute = Pomozte vybudovat různorodý otevřený dataset. Vytvořte si
 login-company = Přihlásit / Zaregistrovat se e-mailem { $company }
 profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
 read-more-about = Přečtěte si více na stránce O nás
+
+## DemoLayout
+
+
+## Demo Datasets
+
+card-button-next = Další
+card-button-back = Zpět
+demo-language-select-label = Procházet jazyky
+demo-eofy-header = Vydání z konce roku 2019
+demo-account = Účet
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

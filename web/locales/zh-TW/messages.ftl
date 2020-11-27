@@ -371,7 +371,7 @@ faq-what-cv-a =
     語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Common Voice 是 Mozilla 打算讓語音識別技術變得更好、讓任何人都更能使用的計畫的一部分。Common Voice 也是一套收集了世界各地人們所捐贈的語音的資料庫，希望讓任何人都可以快速而簡單地訓練出可識別任何語音功能的應用程式。
     
     我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套廣泛的語音資料集，可幫助開發者、創業家，以及各個社群來縮小彼此之間的鴻溝。除了 Common Voice 的資料集外，我們也在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
-faq-why-important-q = 這有什麼重要？
+faq-why-important-q = 這有什麼重要的？
 faq-why-important-a =
     說話通常是我們與其他人最自然的溝通方式，語音技術也讓電腦和行動裝置更方便使用。我們希望讓開發者們建置令人驚嘆的語音識別應用程式，例如即時翻譯機、有語音功能的數位助理等等。但現在用來建置這些軟體所需的語音資料，大部分都是昂貴且專有的，因而我們希望能提供 Common Voice 資料集給開發者進行創新，也讓他們能使用自己的語言來打造語音技術。
     
@@ -828,3 +828,39 @@ help-contribute = 您可以透過註冊 Common Voice 資料並貢獻語音，來
 login-company = 登入 / 使用 { $company } 註冊
 profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
 read-more-about = 到我們的「關於」頁面了解更多資訊
+
+## DemoLayout
+
+demo-get-started = 開始入門
+demo-welcome = 歡迎來到 Common Voice
+demo-welcome-subheader = 有興趣了解更多資訊，並且參與貢獻此專案嗎？
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice 是全球最大規模的可公開使用、多語言語音資料集。
+demo-language-select-card-body = 感謝來自全球超過 25 萬 9 千人貢獻了超過 50 種語言，此資料可用來訓練有語音功能的應用程式，使其更能理解人類的聲音。
+card-button-next = 下一步
+card-button-back = 上一步
+demo-language-select-label = 瀏覽語言
+demo-eofy-header = 2019 年末發佈版
+demo-eofy-sub_header = 語音資料集，已可下載
+demo-account = 帳號
+
+## Demo Account
+
+demo-account-card-header = 不需要註冊帳號即可貢獻，但如果有的話會更有幫助。
+demo-account-card-body = 我們在右邊簡單列出了有哪些益處，並說明會公開哪些資訊。請使用下方的鏈結來在您的裝置上註冊 Common Voice 帳號，開始參與我們。
+demo-account-enter-email =
+    .label = 請輸入電子郵件地址來發送註冊鏈結
+demo-account-sign-up = 寄註冊鏈結給我
+
+## Demo Contribute
+
+demo-contribute-card-header = 準備好來參與錄音，或是把耳朵借給我們一用嗎？
+demo-contribute-card-body = 現在您知道更多 Common Voice 的資訊了，不來試試看嗎？請點擊麥克風圖示來大聲朗讀句子。<br/><br/>若您想要來審核其他人錄下的片段，請點擊播放圖示來確認聽到的錄音是否與畫面上的文字相符。
+demo-listen-subtitle = 準備好參與貢獻了嗎？
+
+## Demo Dashboard
+
+demo-dashboard-card-header = 可讓您掌控個人與社群進度的個人儀錶板。
+demo-dashboard-card-body = 每當您錄下或驗證了一段語音，就會更新您的帳號儀錶板，來反映您在參與貢獻的各種語言當中的最新進度。沒錯，您可以參與不只一種語言！<br/><br/>您可以使用儀錶板來追蹤目前狀態、看看自己跟社群當中的其他人目前差距多少，並且設定每日或每週貢獻目標。

@@ -28,6 +28,7 @@ import Pill from '../pill';
 
 import './listen.css';
 import { User } from '@sentry/types';
+import { RouteComponentProps, withRouter } from 'react-router';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -66,7 +67,10 @@ interface PropsFromDispatch {
   addAchievement: typeof Notifications.actions.addAchievement;
 }
 
-interface Props extends PropsFromState, PropsFromDispatch {}
+interface Props
+  extends PropsFromState,
+    PropsFromDispatch,
+    RouteComponentProps {}
 
 interface State {
   clips: (ClipType & { isValid?: boolean })[];
@@ -89,6 +93,7 @@ class ListenPage extends React.Component<Props, State> {
   playedSomeInterval: any;
 
   state: State = initialState;
+  demoMode = this.props.location.pathname.includes(URLS.DEMO);
 
   static getDerivedStateFromProps(props: Props, state: State) {
     if (state.clips.length > 0) return null;
@@ -247,130 +252,133 @@ class ListenPage extends React.Component<Props, State> {
     const activeClip = clips[clipIndex];
     return (
       <>
-        <audio
-          {...(activeClip && { src: activeClip.audioSrc })}
-          preload="auto"
-          onEnded={this.hasPlayed}
-          ref={this.audioRef}
-        />
-        <ContributionPage
-          activeIndex={clipIndex}
-          errorContent={
-            !this.props.isLoading &&
-            (clips.length === 0 || !activeClip) && (
-              <div className="empty-container">
-                <div className="error-card card-dimensions">
-                  <Localized id="listen-empty-state">
-                    <span />
-                  </Localized>
-                  <LinkButton
-                    rounded
-                    to={URLS.SPEAK}
-                    className="record-instead">
-                    <MicIcon />{' '}
-                    <Localized id="record-button-label">
+        <div id="listen-page">
+          <audio
+            {...(activeClip && { src: activeClip.audioSrc })}
+            preload="auto"
+            onEnded={this.hasPlayed}
+            ref={this.audioRef}
+          />
+          <ContributionPage
+            activeIndex={clipIndex}
+            demoMode={this.demoMode}
+            errorContent={
+              !this.props.isLoading &&
+              (clips.length === 0 || !activeClip) && (
+                <div className="empty-container">
+                  <div className="error-card card-dimensions">
+                    <Localized id="listen-empty-state">
                       <span />
                     </Localized>
-                  </LinkButton>
+                    <LinkButton
+                      rounded
+                      to={this.demoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
+                      className="record-instead">
+                      <MicIcon />{' '}
+                      <Localized id="record-button-label">
+                        <span />
+                      </Localized>
+                    </LinkButton>
+                  </div>
                 </div>
-              </div>
-            )
-          }
-          instruction={props =>
-            activeClip &&
-            !isPlaying &&
-            !hasPlayedSome &&
-            !hasPlayed && (
-              <Localized
-                id={
-                  clipIndex === SET_COUNT - 1
-                    ? 'listen-last-time-instruction'
-                    : [
-                        'listen-instruction',
-                        'listen-again-instruction',
-                        'listen-3rd-time-instruction',
-                      ][clipIndex] || 'listen-again-instruction'
-                }
-                elems={{ playIcon: <OldPlayIcon /> }}
-                {...props}
-              />
-            )
-          }
-          isPlaying={isPlaying}
-          isSubmitted={isSubmitted}
-          onReset={this.reset}
-          onSkip={this.handleSkip}
-          primaryButtons={
-            <>
-              <VoteButton
-                kind="yes"
-                onClick={this.voteYes}
-                disabled={!hasPlayed}
-              />
-              <PlayButton
-                isPlaying={isPlaying}
-                onClick={this.play}
-                trackClass="play-clip"
-              />
-              <VoteButton
-                kind="no"
-                onClick={this.voteNo}
-                disabled={!hasPlayed && !hasPlayedSome}
-              />
-            </>
-          }
-          pills={clips.map(
-            ({ isValid }, i) => (props: ContributionPillProps) => {
-              const isVoted = isValid !== null;
-              const isActive = clipIndex === i;
-              return (
-                <Pill
-                  className={isVoted ? (isValid ? 'valid' : 'invalid') : ''}
-                  onClick={null}
-                  status={isActive ? 'active' : isVoted ? 'done' : 'pending'}
-                  {...props}>
-                  {isActive ? (
-                    <VolumeIcon />
-                  ) : isVoted ? (
-                    isValid ? (
-                      <CheckIcon />
-                    ) : (
-                      <CrossIcon />
-                    )
-                  ) : null}
-                </Pill>
-              );
+              )
             }
-          )}
-          reportModalProps={{
-            reasons: [
-              'offensive-speech',
-              'grammar-or-spelling',
-              'different-language',
-            ],
-            kind: 'clip',
-            id: activeClip ? activeClip.id : null,
-          }}
-          sentences={clips.map(clip => clip.sentence)}
-          shortcuts={[
-            {
-              key: 'shortcut-play-toggle',
-              label: 'shortcut-play-toggle-label',
-              action: this.play,
-            },
-            {
-              key: 'shortcut-vote-yes',
-              label: 'vote-yes',
-              action: this.voteYes,
-            },
-            {
-              key: 'shortcut-vote-no',
-              label: 'vote-no',
-              action: this.voteNo,
-            },
-          ]}
-          type="listen"
-        />
+            instruction={props =>
+              activeClip &&
+              !isPlaying &&
+              !hasPlayedSome &&
+              !hasPlayed && (
+                <Localized
+                  id={
+                    clipIndex === SET_COUNT - 1
+                      ? 'listen-last-time-instruction'
+                      : [
+                          'listen-instruction',
+                          'listen-again-instruction',
+                          'listen-3rd-time-instruction',
+                        ][clipIndex] || 'listen-again-instruction'
+                  }
+                  elems={{ playIcon: <OldPlayIcon /> }}
+                  {...props}
+                />
+              )
+            }
+            isPlaying={isPlaying}
+            isSubmitted={isSubmitted}
+            onReset={this.reset}
+            onSkip={this.handleSkip}
+            primaryButtons={
+              <>
+                <VoteButton
+                  kind="yes"
+                  onClick={this.voteYes}
+                  disabled={!hasPlayed}
+                />
+                <PlayButton
+                  isPlaying={isPlaying}
+                  onClick={this.play}
+                  trackClass="play-clip"
+                />
+                <VoteButton
+                  kind="no"
+                  onClick={this.voteNo}
+                  disabled={!hasPlayed && !hasPlayedSome}
+                />
+              </>
+            }
+            pills={clips.map(
+              ({ isValid }, i) => (props: ContributionPillProps) => {
+                const isVoted = isValid !== null;
+                const isActive = clipIndex === i;
+                return (
+                  <Pill
+                    className={isVoted ? (isValid ? 'valid' : 'invalid') : ''}
+                    onClick={null}
+                    status={isActive ? 'active' : isVoted ? 'done' : 'pending'}
+                    {...props}>
+                    {isActive ? (
+                      <VolumeIcon />
+                    ) : isVoted ? (
+                      isValid ? (
+                        <CheckIcon />
+                      ) : (
+                        <CrossIcon />
+                      )
+                    ) : null}
+                  </Pill>
+                );
+              }
+            )}
+            reportModalProps={{
+              reasons: [
+                'offensive-speech',
+                'grammar-or-spelling',
+                'different-language',
+              ],
+              kind: 'clip',
+              id: activeClip ? activeClip.id : null,
+            }}
+            sentences={clips.map(clip => clip.sentence)}
+            shortcuts={[
+              {
+                key: 'shortcut-play-toggle',
+                label: 'shortcut-play-toggle-label',
+                action: this.play,
+              },
+              {
+                key: 'shortcut-vote-yes',
+                label: 'vote-yes',
+                action: this.voteYes,
+              },
+              {
+                key: 'shortcut-vote-no',
+                label: 'vote-no',
+                action: this.voteNo,
+              },
+            ]}
+            type="listen"
+          />
+        </div>
       </>
     );
   }
@@ -407,4 +415,4 @@ const mapDispatchToProps = {
 export default connect<PropsFromState, any>(
   mapStateToProps,
   mapDispatchToProps
-)(ListenPage);
+)(withRouter(ListenPage));

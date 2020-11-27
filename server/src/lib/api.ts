@@ -118,6 +118,7 @@ export default class API {
     router.use('/challenge', this.challenge.getRouter());
 
     router.get('/feature/:locale/:feature', this.getFeatureFlag);
+    router.get('/bucket/:bucket_type/:path/:cdn', this.getPublicUrl);
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
@@ -337,7 +338,7 @@ export default class API {
       await Promise.all([
         this.s3
           .upload({
-            Bucket: getConfig().BUCKET_NAME,
+            Bucket: getConfig().CLIP_BUCKET_NAME,
             Key: clipFileName,
             Body: transcoder.audioCodec('mp3').format('mp3').stream(),
           })
@@ -435,5 +436,17 @@ export default class API {
   createReport = async ({ client_id, body }: Request, response: Response) => {
     await this.model.db.createReport(client_id, body);
     response.json({});
+  };
+
+  getPublicUrl = async (
+    { params: { bucket_type, path, cdn } }: Request,
+    response: Response
+  ) => {
+    const url = await this.bucket.getPublicUrl(
+      decodeURIComponent(path),
+      bucket_type,
+      cdn == 'true'
+    );
+    response.json({ url });
   };
 }

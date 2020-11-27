@@ -1,5 +1,4 @@
 import * as crypto from 'crypto';
-import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
@@ -159,38 +158,20 @@ export default class Clip {
     try {
       // If the folder does not exist, we create it.
       await this.s3
-        .putObject({ Bucket: getConfig().BUCKET_NAME, Key: folder })
+        .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
         .promise();
 
-      // If upload was base64, make sure we decode it first.
-      let transcoder;
-      if ((headers['content-type'] as string).includes('base64')) {
-        // If we were given base64, we'll need to concat it all first
-        // So we can decode it in the next step.
-        console.log(`VOICE_AVATAR: base64 to saveClip(), ${clipFileName}`);
-        const chunks: Buffer[] = [];
-        await new Promise(resolve => {
-          request.on('data', (chunk: Buffer) => {
-            chunks.push(chunk);
-          });
-          request.on('end', resolve);
-        });
-
-        const passThrough = new PassThrough();
-        passThrough.end(
-          Buffer.from(Buffer.concat(chunks).toString(), 'base64')
-        );
-        transcoder = new Transcoder(passThrough);
-      } else {
-        // For non-base64 uploads, we can just stream data.
-        transcoder = new Transcoder(request);
-      }
+      const transcoder = new Transcoder(request)
+        .audioCodec('mp3')
+        .format('mp3')
+        .channels(1)
+        .sampleRate(32000);
 
       await this.s3
         .upload({
-          Bucket: getConfig().BUCKET_NAME,
+          Bucket: getConfig().CLIP_BUCKET_NAME,
           Key: clipFileName,
-          Body: transcoder.audioCodec('mp3').format('mp3').stream(),
+          Body: transcoder.stream(),
         })
         .promise();
 
