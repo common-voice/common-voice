@@ -35,6 +35,7 @@ az = azerbajdžančina
 ba = baškirčina
 be = bieloruština
 bg = bulharčina
+bm = bambarčina
 bn = bengálčina
 br = bretónčina
 bxr = buriatčina
@@ -756,3 +757,18 @@ help-contribute = Vytvorením profilu v Common Voice a prispením svojho hlasu, 
 login-company = Prihláste sa / zaregistrujte sa pomocou e-mailu { $company }
 profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 read-more-about = Prečítajte si viac na stránke O nás
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
