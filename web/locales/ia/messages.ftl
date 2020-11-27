@@ -211,13 +211,13 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] mense
-       *[other] menses
+        [one] { $count } mense
+       *[other] { $count } menses
     }
 x-years-short =
     { $count ->
-        [one] anno
-       *[other] annos
+        [one] { $count } anno
+       *[other] { $count } annos
     }
 help-make-dataset = Adjuta nos a crear un collection de datos de alte qualitate, publicamente aperte
 sign-up-account = Inscribe te pro un conto
