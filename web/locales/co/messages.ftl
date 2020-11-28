@@ -289,8 +289,10 @@ faq-why-important-q = Parchì hè impurtante ?
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 faq-what-cv-and-deepspeech-q = Chì gjhè a differenza trà Common Voice è Deep Speech ?
+faq-do-want-native-a = Iè, vulemu in particulari a vostra voce! Una parte di l'ughjettivu di Common Voice hè di riunisce u mori accenti sfarenti pussibule pà fà funziunà i servizii di ricunniscenza vucale ugualmente bè per tutti. Questu vole dì chì e cuntribuzione da lucutori non nativi sò particularmente impurtanti.
 faq-why-different-speakers-q = Parchì avete bisognu di tanti lucutori differente per ogni lingua ?
 faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
+faq-how-calc-hours-q = Di chì manera Common Voice calculeghja l'ore ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-search-for-answers =
     .label = Circà risposte
@@ -304,16 +306,23 @@ about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da
 about-listen-queue-text = L'arrighjistramenti vucali sò mandati in una fila d'attesa induve sarani approntati pè l'ascolta.
 about-listen-text = L'utilizatori cunvalidanu l'esatezza di i campiunarii dunati, verifichendu chì l'uratori ani lettu a frasa currittamente.
 about-dataset-new = Basa di dati Common Voice
+about-clip-graveyard = Campu santu di i campiunarii
 about-clip-graveyard-text = U campu santu di i campiunarii hè custituitu di tutti i campiunarii chì ùn sò micca stati cunvalidati pà fà parte di a banca di dati Common Voice. Cum'è edda, u campu santu di i campiuanarii pò esse scaricatu libaramente.
 about-partners = Partinarii
 about-become-a-partner = Diventà un partinariu
 about-get-involved = Impegnassi
+about-get-involved-text-2 =
+    Vuleti aiutà à migliurà ancu di più Common Voice ?
+    Tremendu ! Cuntattateci via email o e piazze publiche <discourseLink>Discourse</discourseLink>, indittati i prublemi di u situ via <githubLink>GitHub</githubLink>, o raghjunghjeti a chjachjerata di a cummunità <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Parchì ?
 about-nav-how-it-works = Comu ?
 about-nav-partners = Partinarii
 about-nav-get-involved = Impegnassi
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligenza artificiale
+mycroft-description =
+    Mycroft hè u primu assistente di fonte aperta di u mondu.
+    Mycroft viaghja in ogni apparechji - in un urdinatore di tavulinu, in una vittura, o in un Raspberry Pi.
 
 ## Glossary
 
@@ -331,6 +340,7 @@ error-code = Errore { $code }
 data-download-button = Scaricà i dati di Common Voice
 data-download-yes = Iè
 data-download-deny = Innò
+data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
 review-cancel = Annuddà l'inviu
 
 ## Datasets Page
