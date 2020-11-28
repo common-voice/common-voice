@@ -506,6 +506,8 @@ data-other-goto = 前往 { $name }
 data-other-download = 下載數據
 data-bundle-button = 下載數據組合
 data-bundle-description = Common Voice 數據，以及上面列出的所有其他語音數據集。
+release-version = 版本
+dataset-date = 日期
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 data-download-singleword-title = 下載單字目標群體分項
@@ -830,3 +832,21 @@ help-contribute = 你可以透過創立一個 Common Voice 帳戶並貢獻錄音
 login-company = 以 { $company } 電郵登入 / 註冊
 profile-not-required = 唔需要成立個人檔案即可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
 read-more-about = 去關於我哋嘅頁面瞭解更多
+
+## DemoLayout
+
+demo-welcome = 歡迎使用 Common Voice
+
+## Demo Datasets
+
+demo-account = 帳戶
+
+## Demo Account
+
+demo-account-card-header = 唔建立帳戶亦可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
