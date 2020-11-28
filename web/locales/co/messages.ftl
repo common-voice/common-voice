@@ -257,6 +257,8 @@ record-voice-wave = ARRIGISTRÀ L’ONDA VUCALE
 retry-voice-wave-recording = RIPRUVÀ
 ready-to-upload = CARICÀ
 recreate-voice = Ricreà l’onda vucale
+cancel-avatar-clip-recording = ANNULLÀ
+about-avatar-clip-recording = Arrighjistrà un campiunariu vucale cumè parte di u vostru avatar. L’altri pudarani ascultallu passendu u so cursore nant’à a vostra icona.
 browse-file-title = Caricà una figura
 browse-file = Trascineti è linteti o <browseWrap>Navigheti</browseWrap>
 file_too_large = U ducumentu sceltu hè troppu maiò
@@ -347,4 +349,19 @@ missing-language = Ùn vidite micca à vostra lingua in a basa di dati ? Pà dum
 
 
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
 
