@@ -139,6 +139,11 @@ x-weeks-short =
         [one] Settimana
        *[other] { $count } sett
     }
+x-months-short =
+    { $count ->
+        [one] { $count } mese
+       *[other] { $count } mesi
+    }
 x-years-short =
     { $count ->
         [one] annu
@@ -170,6 +175,8 @@ username-email-not-demographic = U vostru nome d'utilizatore è indirizzu electr
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -213,6 +220,8 @@ english = Inglese
 
 profile-form-username =
     .label = Nome d’utilizatore
+profile-form-native-language =
+    .label = Lingua Materna
 profile-form-additional-language =
     .label = Lingua addizziunala
 profile-form-accent =
@@ -223,6 +232,8 @@ profile-form-gender-2 =
     .label = Generu
 hidden = Piattatu
 visible = Visìbile
+native-language =
+    .label = Lingua Materna
 profile-form-submit-save = Arrighjistrà
 profile-form-submit-saved = Arrighjistratu
 male = Masciu
@@ -252,15 +263,21 @@ contribution-experience = Spirienza di cuntribuzione
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 avatar-clip-title = Deti una voce à u vostru avatar
 change-your-avatar-clip = Vuleti cambià u vostru campiunariu di voce ?
+recording-in-progress = Arrighjistramentu di u campiunariu in corsu…
 avatar-clip-recorded = Avà, u vostru avatar cuntene un campiunariu vucale !
 record-voice-wave = ARRIGISTRÀ L’ONDA VUCALE
 retry-voice-wave-recording = RIPRUVÀ
+re-record = ARRIGHJISTRÀ TORNA
+delete-voice = SGUASSÀ
+recording-voice-wave = Arrighjistramentu
+delete-voice-clip = o  Sguassà u campiunariu
 ready-to-upload = CARICÀ
 recreate-voice = Ricreà l’onda vucale
 cancel-avatar-clip-recording = ANNULLÀ
 about-avatar-clip-recording = Arrighjistrà un campiunariu vucale cumè parte di u vostru avatar. L’altri pudarani ascultallu passendu u so cursore nant’à a vostra icona.
 browse-file-title = Caricà una figura
 browse-file = Trascineti è linteti o <browseWrap>Navigheti</browseWrap>
+connect-gravatar = Cunnettatevi cù Gravatar
 file_too_large = U ducumentu sceltu hè troppu maiò
 email-already-used = ’Ss’indirizzu elettronicu hè dighjà utilizatu pà un altru contu
 add-language = Aghjunghje una lingua
@@ -272,6 +289,8 @@ faq-why-important-q = Parchì hè impurtante ?
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 faq-what-cv-and-deepspeech-q = Chì gjhè a differenza trà Common Voice è Deep Speech ?
+faq-why-different-speakers-q = Parchì avete bisognu di tanti lucutori differente per ogni lingua ?
+faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-search-for-answers =
     .label = Circà risposte
