@@ -583,8 +583,8 @@ dataset-version = 版本
 download-title = 您的下載開始了。
 download-helpus = 請幫助我們打造一個使用語音技術的社群，並透過電郵保持聯繫。
 download-form-email =
-    .label = 留下您的電郵
-    .value = 多謝，我們會保持聯繫。
+    .label = 留低你嘅電郵
+    .value = 多謝，我哋會保持聯繫。
 download-back = 返回 Common Voice 數據集
 download-no = 唔洗喇，多謝
 
@@ -844,9 +844,13 @@ demo-account = 帳戶
 ## Demo Account
 
 demo-account-card-header = 唔建立帳戶亦可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
+demo-account-enter-email =
+    .label = 打入你嘅電郵地址嚟轉送註冊鏈結
+demo-account-sign-up = 轉送註冊鏈結
 
 ## Demo Contribute
 
+demo-listen-subtitle = 準備好幫手貢獻未？
 
 ## Demo Dashboard
 
