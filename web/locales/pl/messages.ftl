@@ -513,6 +513,8 @@ data-other-goto = Przejdź do { $name }
 data-other-download = Pobierz dane
 data-bundle-button = Pobierz zbiór danych
 data-bundle-description = Dane Common Voice ze wszystkimi innymi zbiorami danych powyżej.
+release-version = Wersja
+dataset-date = Data
 license = Licencja: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mieszana
 data-download-singleword-title = Pobierz segment docelowy dla pojedynczego słowa
@@ -860,3 +862,18 @@ help-contribute = Możesz pomóc zbudować różnorodny zbiór danych open sourc
 login-company = Zaloguj/zarejestruj się za pomocą adresu e-mail firmy { $company }
 profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
 read-more-about = Przeczytaj więcej na stronie informacji o nas
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
