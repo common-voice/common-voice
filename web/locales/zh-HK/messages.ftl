@@ -835,10 +835,14 @@ read-more-about = 去關於我哋嘅頁面瞭解更多
 
 ## DemoLayout
 
+demo-get-started = 一齊開始啦！
 demo-welcome = 歡迎使用 Common Voice
 
 ## Demo Datasets
 
+demo-language-select-label = 睇下所有語言
+demo-eofy-header = 2019 年尾版
+demo-eofy-sub_header = 語音數據集，可以下載
 demo-account = 帳戶
 
 ## Demo Account
