@@ -515,6 +515,8 @@ data-other-goto = Иди на { $name }
 data-other-download = Преузми податке
 data-bundle-button = Преузми запакован скуп података
 data-bundle-description = Common Voice подаци плус сви остали, горе наведени, скупови података
+release-version = Издање
+dataset-date = Датум
 license = Лиценца: <licenseLink>{ $license }</licenseLink>
 license-mixed = Помешано
 data-download-singleword-title = Преузмите циљни сегмент за једну реч
@@ -864,3 +866,22 @@ help-contribute = Можете помоћи у изградњи разнолик
 login-company = Пријавите се или направите налог { $company } е-поштом
 profile-not-required = Иако је од помоћи, није обавезно да имате профил да би допринели. Погледајте зашто доле.
 read-more-about = Прочитајте више на нашој страници
+
+## DemoLayout
+
+demo-get-started = Започнимо
+demo-welcome = Добродошли у Common Voice
+demo-welcome-subheader = Интересује вас како да сазнате више и допринесете пројекту?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice је највећи светски, јавно доступан, вишејезични говорни скуп података.
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
