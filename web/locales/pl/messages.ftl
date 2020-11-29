@@ -883,9 +883,14 @@ demo-account = Konto
 ## Demo Account
 
 demo-account-card-header = Konto nie jest wymagane do wzięcia udziału, ale się przydaje.
+demo-account-card-body = Po prawej przedstawiamy korzyści i wyjaśniamy, jakie informacje są publiczne. Skorzystaj z poniższych odnośników, aby zacząć używać konta Common Voice na swoim urządzeniu.
+demo-account-enter-email =
+    .label = Wpisz adres e-mail, aby wysłać odnośnik rejestracji
+demo-account-sign-up = Wyślij odnośnik rejestracji
 
 ## Demo Contribute
 
+demo-contribute-card-header = Chcesz dodać swój głos lub użyczyć ucha?
 
 ## Demo Dashboard
 
