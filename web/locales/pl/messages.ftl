@@ -891,6 +891,10 @@ demo-account-sign-up = Wyślij odnośnik rejestracji
 ## Demo Contribute
 
 demo-contribute-card-header = Chcesz dodać swój głos lub użyczyć ucha?
+demo-contribute-card-body = Skoro już trochę wiesz o projekcie Common Voice, dlaczego by go nie wypróbować? Kliknij ikonę mikrofonu, aby zacząć czytać zdania na głos. <br/><br/>Jeśli wolisz weryfikować nagrania innych osób, kliknij ikonę odtwarzania. Jeśli nagranie, które słyszysz, zgadza się ze słowami na ekranie.
+demo-listen-subtitle = Chcesz wziąć udział?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Osobisty panel informuje Cię na bieżąco o postępach indywidualnych i całej społeczności.
+demo-dashboard-card-body = Twój panel konta jest aktualizowany po każdym nagraniu i każdym zweryfikowaniu nagrania, aby odzwierciedlać Twoje najnowsze postępy w każdym języku, w jakim bierzesz udział. Tak, możesz nagrywać w więcej niż jednym!<br/><br/> Korzystaj z panelu, aby śledzić swoje statystyki, sprawdzić, jak radzisz sobie razem z innymi członkami społeczności oraz ustalać dzienne lub tygodniowe cele.
