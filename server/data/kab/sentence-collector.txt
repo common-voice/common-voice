@@ -10006,6 +10006,7 @@ Aksum-is mellul am wedfel.
 Aksum-iw yettciriw.
 Aksum-nni merra yettwaɣ.
 Aktar yekka-d sennig lkanun
+Aktay n tmettant yewcem deg wallaɣ.
 Aktayen n yimawlan-is.
 Akubri iṛeqq s tmes tazegzawt.
 Akud amiran d akud yelhan.
@@ -20482,6 +20483,7 @@ Ayen texdem deg yal amkan.
 Ayen tezwit teffeɣ s taqqet.
 Ayen teɣriḍ deg yedlisen d tidet yella.
 Ayen teṛwiḍ, ad t-tectiqeḍ.
+Ayen tsumaḍ ak-id-yesserɣ.
 Ayen tufiḍ i nekK, ddem-it.
 Ayen tugadeḍ, ad yes-s temmteḍ.
 Ayen tuḥwaǧeḍ steqsi-d ḥaca aseɣti.
@@ -30034,6 +30036,7 @@ D taqejjiṛt ugujil, i yesɣeṛṣen taṛakna.
 D taqenduṛt icebḥen.
 D taqerruyt n tɛekkwazt i yeɛewjen.
 D taqerɛet n jjaj.
+D taqeṭṭiḍt seg tmeṭṭut-is amzun d nettat s timmad-is d ṛṛuḥ-is.
 D taqsiṭ yessedhawen mliḥ.
 D tarbaɛt n uxxam n yilemẓiyen Cellaḥ n Buzgan, i d-yufraren s warraz amezwaru, deg temsizzelt n ccna atrar.
 D tarbaɛt n yinselmen imeṭṭurfa, ineqqen s yisem n ddin.
@@ -47482,6 +47485,7 @@ Leḥmala am ubeḥri, mi d-iwwet ldi turin-im, akken tayri heyyi-as ul-im.
 Leḥmala i yefkan iẓuran.
 Leḥmala n tyaziḍt ur nesɛi tibbucin.
 Leḥmala tettfeggiḍ.
+Leḥmala yuḍnen i as-igan ccamma ur n ḥellu.
 Leḥmala-inu mačči am wakken i tt-ssnen wiyaḍ.
 Leḥmala-nsen werǧin tenqis.
 Leḥmala-w tekka-d nnig leḥmala n wiyaḍ.
@@ -59327,6 +59331,7 @@ Nexṣer timlilit-nni.
 Nexṣer.
 Nexṣeṛ.
 Neya di tazzla n yidammen.
+Neytat tɣab akken ad yili.
 Neyya n tzimert d tixsi, lxuf n uwtul.
 Nezdem-d.
 Nezder.
@@ -70726,6 +70731,7 @@ Tafawet ur tufi tiɣersi.
 Tafekka n Sami ufan-tt.
 Tafekka n Yuba werǧin ttufan.
 Tafekka n werǧeǧǧi yeǧǧan tameddurt tenteḍ ɣer ufurek n tzemmurt.
+Tafekka n win d-turew.
 Tafekka tmmug s idamen d yeɣsan.
 Tafekka-a ur teddir.
 Tafekka-ik teḥwaǧ asteɛfu.
@@ -82412,6 +82418,7 @@ Teɣli-d tektabt seg igenni, tḥuza lehẓuz.
 Teɣli-d tsusmi deg lemsaq-nni.
 Teɣli-d tsusmi meqqren iḍ-nni.
 Teɣli-d tsusmi ɣef uxxam-nni.
+Teɣli-d tudert-is ɣer tfekka-nniḍen.
 Teɣli-d yiwet n trigla makken tekkat Ḍrifa s yimceḍ.
 Teɣli-yak tmacwart.
 Teɣli-yak tseqfelt.
@@ -93406,6 +93413,7 @@ Umayna.
 Umbeɛd ad tt-ddmen, ad tt-ssefsun akkit.
 Umbeɛd?
 Umbɛed ad k-d-iniƔ.
+Umeẓyan, iḥemmel-it yiwet n leḥmala yurfen qerriḥen.
 Umeẓyan, yexleɛ.
 Umi ay la ixeddem Si Ḥmed Waɛli?
 Umi d-tesɣiḍ takeṛṛust-a?
@@ -115306,6 +115314,7 @@ Yetti yiwen n uɣerrabu.
 Yettidir am netta am wiyiḍ.
 Yettidir d twacult-is tameqqrant.
 Yettidir deg yiwet n ddunit d taberkant.
+Yettidir kan s wayen i as-d-teǧǧa Werdiya.
 Yettidir s teqbaylit.
 Yettidir s wakal-is.
 Yettidir wudad deg yidurar.
