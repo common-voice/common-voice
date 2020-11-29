@@ -865,12 +865,24 @@ read-more-about = Przeczytaj więcej na stronie informacji o nas
 
 ## DemoLayout
 
+demo-get-started = Pierwsze kroki
+demo-welcome = Witamy w Common Voice
+demo-welcome-subheader = Chcesz dowiedzieć się więcej i wziąć udział w projekcie?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice to największy na świecie publicznie dostępny zbiór danych z mową w wielu językach.
+demo-language-select-card-body = Dzięki wkładowi ponad 259 tysięcy osób w ponad 50 językach te dane są używane do trenowania aplikacji obsługujących mowę, aby lepiej reagowały na ludzki głos.
+card-button-next = Dalej
+card-button-back = Wstecz
+demo-language-select-label = Przeglądaj języki
+demo-eofy-header = Wydanie na koniec 2019 roku
+demo-eofy-sub_header = Zbiór danych z mową, gotowy do pobrania
+demo-account = Konto
 
 ## Demo Account
 
+demo-account-card-header = Konto nie jest wymagane do wzięcia udziału, ale się przydaje.
 
 ## Demo Contribute
 
