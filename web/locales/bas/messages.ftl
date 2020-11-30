@@ -240,18 +240,42 @@ whats-public = Kinje i yé ntjangén ?
 email-not-public = Di gatôô bé mél yon ni ntangén.
 recordings-and-locale-public = Nsongi u makiñ u nsange ni umbe hop u nsangne mo, biga tjéma ntjangén.
 username-optin-public = Unla tep i yilis ngédi yoñ ntjangén, tole nsolbe.
+demographic-deidentified-clarity-2 = Biyimbne gwon bi unti kikii ka gwés yoñ (hihéga : nwii, libak  li muda tole mulôm, hop, lipôdôl), biga yila bé ntjagén kelkikel i liyimbne joñ, ndi to le bi ba ñañnaga ni libôñ joñ i liyaa li makiñ. Dipeles di dikékét di makiñ di gaéna ni biyimbne gwoñ, he ndigi inyu liti maap inyu longe i ndoñol - kikii hihéga, nwan man a yé le agwés nigne ngim likénge li lisolol makiñ i ngim yimbne tôbôtôbô
+username-email-not-demographic = Ngédi yoñ ndi to njañ yoñ mél, biga ngwaña bé ni bitjéma bi mayaa ma makiñ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = b
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = t
+shortcut-play-toggle-label = tuk/téé
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = t
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = s
+shortcut-record-toggle-label = Yoñ/téé
+shortcut-rerecord-toggle = [1 -5]
+shortcut-rerecord-toggle-label = Timba yoñ kiñ
+request-language-text = Hop woñ u nnene bé i Common Voice e ?
+request-language-button = Legle ngim hop
 
 ## ProjectStatus
 
+status-title = Ntel u gwém i nson yosô : tehe ibol hee di tééne!
+status-contribute = Sange kiñ yoñ
 
 ## ProfileForm
 
