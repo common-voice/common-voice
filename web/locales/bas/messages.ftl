@@ -190,6 +190,7 @@ vote-yes = Nn!
 vote-no = To
 toggle-play-tooltip = Nwot { shortcut-play-toggle } inyu liheñla i ka-play
 speak-subtitle = Pôôs kiñ yoñ.
+speak-paragraph = Lisañge makiñ liyé hipa hyada ikédé dipa dipe di ngwélél inyu ligwo mayaa ma minje, mabak kunde ibônôl: bebek uyé le uhoñol kikii ngandak ibot ipe i nhoñol le, inya nson i, iyé minyaô.
 
 ## Account Benefits
 
@@ -261,4 +262,19 @@ speak-subtitle = Pôôs kiñ yoñ.
 
 
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
 
