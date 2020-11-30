@@ -190,7 +190,17 @@ vote-yes = Nn!
 vote-no = To
 toggle-play-tooltip = Nwot { shortcut-play-toggle } inyu liheñla i ka-play
 speak-subtitle = Pôôs kiñ yoñ.
-speak-paragraph = Lisañge makiñ liyé hipa hyada ikédé dipa dipe di ngwélél inyu ligwo mayaa ma minje, mabak kunde ibônôl: bebek uyé le uhoñol kikii ngandak ibot ipe i nhoñol le, inya nson i, iyé minyaô.
+speak-paragraph = Lisange makiñ liyé hipa hyada ikédé dipa dipe di ngwélél inyu ligwo mayaa ma minje, mabak kunde ibônôl: bebek uyé le uhoñol kikii ngandak ibot ipe i nhoñol le, inya nson i, iyé minyaô.
+speak-goal-text = Minsangge mi makiñ
+listen-subtitle = Hôla bés i kémhe le kiñ i héli.
+listen-paragraph = Likémhe le kiñ i héli liyé nseñ ngandak inyu nson u digwéé i sal i Common Voice. Yoñ ndék ngéda i emble, ka iyé le, hala a laa hôla bés i ôô mayaa ma minje mii makiñ, ma ma gwéé nseñ
+listen-goal-text = Minyigyege mi makiñ
+hours-recorded = Nsongi u mangeñ u minsangge mi makiñ
+hours-validated = Nsongi u mangeñ u minyigyege mi makiñ
+voices-online = Makiñ ma mayé i mpee, hanano
+todays-progress = Libim li nson u nséla len
+help-reach-goal = Hôla bés le di yônôs { $goal }
+read-terms-q = Hôla bés le mabéhna més ma éña
 
 ## Account Benefits
 
