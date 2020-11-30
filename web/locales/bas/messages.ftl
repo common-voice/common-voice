@@ -227,6 +227,11 @@ email-subscription-title-new = Tila jôl inyu ikôhna manwin ma Common Voice, mb
 ## Account Benefits
 
 benefits = Minseñ
+rich-data = Ḱonde mahoñ munu ikédé mayaa ma minje u nsange, inya u yé le u la, ni inôbe bikadbana gwoñ, iba bé iyelel jol joñ. To ibale jôl linnene we mu i bikadbana bi, di nhô jo, nwaa di ntjam bikadbana gwoñ.
+improve-audio = Biyimbne gwoñ unti, binhôla i yidis nguy i mayaa ma makiñ u nsange, ka iyé le hala a nhôñôs likenge li lisolol makiñ.
+keep-track = Béna hes mahol ma nson woñ ni mahol ma bôlô i mahop mape.
+compare-progress = Bénge ihet mahol ma nson woñ matééne, inoñnaga ni mahol ma bansange makiñ bape ni nkoñ isi wonsô.
+view-goals = Bénge mahol ma nson woñ inoñnaga ni makak moñ wemede.
 
 ## What's public
 
