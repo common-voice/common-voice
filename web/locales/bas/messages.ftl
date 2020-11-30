@@ -232,9 +232,14 @@ improve-audio = Biyimbne gwoñ unti, binhôla i yidis nguy i mayaa ma makiñ u
 keep-track = Béna hes mahol ma nson woñ ni mahol ma bôlô i mahop mape.
 compare-progress = Bénge ihet mahol ma nson woñ matééne, inoñnaga ni mahol ma bansange makiñ bape ni nkoñ isi wonsô.
 view-goals = Bénge mahol ma nson woñ inoñnaga ni makak moñ wemede.
+join-newsletter = Kikii ka gwés yoñ, u nla tilba i yuyut yés i mél inyu ikôhna manoñ ma minuyne ni manwin ma yondo ikolbaha ni nson wés.
 
 ## What's public
 
+whats-public = Kinje i yé ntjangén ?
+email-not-public = Di gatôô bé mél yon ni ntangén.
+recordings-and-locale-public = Nsongi u makiñ u nsange ni umbe hop u nsangne mo, biga tjéma ntjangén.
+username-optin-public = Unla tep i yilis ngédi yoñ ntjangén, tole nsolbe.
 
 ## Speak & Listen Shortcuts
 
