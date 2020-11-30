@@ -858,6 +858,8 @@ read-more-about = Lenn muioc'h war ar bajenn A-zivout
 
 ## DemoLayout
 
+demo-get-started = Krogomp ganti
+demo-welcome = Degemer mat e Common Voice
 
 ## Demo Datasets
 
