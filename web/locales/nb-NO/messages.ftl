@@ -503,6 +503,8 @@ data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-bundle-button = Last ned datasettene
 data-bundle-description = Common Voice-datasettet pluss alle andre stemmedatasett over.
+release-version = Versjon
+dataset-date = Dato
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 data-download-singleword-title = Last ned målsegmentet for ett ord
@@ -853,8 +855,10 @@ demo-welcome-subheader = Interessert i å lære mer og bidra til prosjektet?
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice er verdens største offentlig tilgjengelige, flerspråklige tale-datasett.
+demo-language-select-card-body = Takket være bidrag fra over 259&thinsp;000 mennesker på over 50 språk blir disse dataene brukt til å trene taleaktiverte applikasjoner for bedre å svare på den menneskelige stemmen.
 card-button-next = Neste
 card-button-back = Tilbake
+demo-language-select-label = Bla gjennom språk
 demo-account = Konto
 
 ## Demo Account
