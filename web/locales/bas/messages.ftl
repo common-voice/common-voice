@@ -313,6 +313,9 @@ female = Muda
 # Gender
 other = To muda to mulôm
 why-profile-title = Liyimbne li nhôla kii ?
+why-profile-text = Hiki ngéda u gayelel yimbne yada i libak joñ, u gahôla le, mayaa ma makiñ u nsange i Common Voice ma kônde bana mahee inyu lihôlôs bikey bi nsolol makiñ, bi bi mbôñôl mana mayaa inyu ndip i lisoolak li makiñ
+dashboard = Kumba
+build-profile = Ôô liyimbne joñ
 
 ## FAQ
 
