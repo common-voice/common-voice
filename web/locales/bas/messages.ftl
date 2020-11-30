@@ -276,9 +276,36 @@ request-language-button = Legle ngim hop
 
 status-title = Ntel u gwém i nson yosô : tehe ibol hee di tééne!
 status-contribute = Sange kiñ yoñ
+status-hours =
+    { $hours ->
+        [one] Ngim ngeñ i ma kémhana, ntel ngéda
+       *[other] { $hours } i ma kémhana, ntel ngéda
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Likak li nnoñ : { $goal }
+english = Ŋgìsì
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Ngédi
+profile-form-native-language =
+    .label = Hop u lingwélés
+profile-form-additional-language =
+    .label = Hop mpe
+profile-form-accent =
+    .label = Lipodok
+profile-form-age =
+    .label = Bimañ
+profile-form-gender-2 =
+    .label = Muda tole mulôm ?
+leaderboard-visibility =
+    .label = Bitéé bi kumba
+hidden = Nsolbe
+visible = Mbamba
+native-language =
+    .label = Hop u lingwélés
 
 ## FAQ
 
