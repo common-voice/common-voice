@@ -201,6 +201,25 @@ voices-online = Makiñ ma mayé i mpee, hanano
 todays-progress = Libim li nson u nséla len
 help-reach-goal = Hôla bés le di yônôs { $goal }
 read-terms-q = Hôla bés le mabéhna més ma éña
+ready-to-record = Ba u yé nkôôbaga hanano i sange kiñ yoñ e ?
+all-locales = Gwobisô
+today = Len
+x-weeks-short =
+    { $count ->
+        [one] Wondi
+       *[other] { $count }Sondi
+    }
+x-months-short =
+    { $count ->
+        [one] sôñ
+       *[other] sôñ
+    }
+x-years-short =
+    { $count ->
+        [one] nwii
+       *[other] { $count }nwii
+    }
+help-make-dataset = Hôla bés le bi ôô mayaa ma minje ma nseñ inyu bôt bobasô
 
 ## Account Benefits
 
