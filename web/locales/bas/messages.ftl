@@ -316,6 +316,15 @@ why-profile-title = Liyimbne li nhôla kii ?
 why-profile-text = Hiki ngéda u gayelel yimbne yada i libak joñ, u gahôla le, mayaa ma makiñ u nsange i Common Voice ma kônde bana mahee inyu lihôlôs bikey bi nsolol makiñ, bi bi mbôñôl mana mayaa inyu ndip i lisoolak li makiñ
 dashboard = Kumba
 build-profile = Ôô liyimbne joñ
+avatar = ́Ôngba i binjénjé
+goals = Makak
+settings = Libônglak
+edit-profile = Nuye liyimbne joñ
+profile-create-success = Jéé ! liyimbne joñ li mbôda
+profile-close = Yip
+profile-explanation = Hes mahol ma nson woñ kikii ka ngéda liyimbne joñ,  ni ihôla la mayaa ma makiñ més ma yét.
+thanks-for-account = Mayéga le u nkémhe likot joñ, naano, di bôdôl ni ôñ liyimbne joñ
+why-demographic = Inyu kii hala a yé nseñ ?
 
 ## FAQ
 
