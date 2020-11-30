@@ -220,9 +220,13 @@ x-years-short =
        *[other] { $count }nwii
     }
 help-make-dataset = Hôla bés le bi ôô mayaa ma minje ma nseñ inyu bôt bobasô
+sign-up-account = Tilba inyu ibana ijoň liboñ
+email-subscription-title = Tilba inyu ikôhna minuyne mi mél
+email-subscription-title-new = Tila jôl inyu ikôhna manwin ma Common Voice, mbigda iyônôs ndak bôlô, ni likenek li minuyne
 
 ## Account Benefits
 
+benefits = Minseñ
 
 ## What's public
 
