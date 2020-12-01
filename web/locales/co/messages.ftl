@@ -230,6 +230,8 @@ profile-form-age =
     .label = Età
 profile-form-gender-2 =
     .label = Generu
+leaderboard-visibility =
+    .label = Visibilità in a classificazione
 hidden = Piattatu
 visible = Visìbile
 native-language =
@@ -281,6 +283,7 @@ browse-file = Trascineti è linteti o <browseWrap>Navigheti</browseWrap>
 connect-gravatar = Cunnettatevi cù Gravatar
 gravatar_not_found = Ùn avemu trovu di prufilu Gravatar cù u vostru indirizzu elettronicu
 file_too_large = U ducumentu sceltu hè troppu maiò
+manage-subscriptions = Ghjistione di l’abbunamenti
 email-already-used = ’Ss’indirizzu elettronicu hè dighjà utilizatu pà un altru contu
 add-language = Aghjunghje una lingua
 
