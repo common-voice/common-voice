@@ -36,7 +36,7 @@ ba = Bachkireg
 bas = Basaaeg
 be = Belaruseg
 bg = Bulgareg
-bm = Bambara
+bm = Bambareg
 bn = Bengaleg
 br = Brezhoneg
 bxr = Bouriat
@@ -54,7 +54,7 @@ dsb = Izel-Sorabeg
 dv = Divehi
 el = Gresianeg
 en = Saozneg
-eo = Esperanto
+eo = Esperanteg
 es = Spagnoleg
 et = Estoneg
 eu = Euskareg
@@ -85,7 +85,7 @@ ka = Jorjieg
 kaa = Karakalpak
 kab = Kabileg
 kbd = Kabardeg
-kk = Kazakh
+kk = Kazakheg
 kmr = Kurdeg Kurmanji
 ko = Koreaneg
 kpv = Komi-Zyrian
@@ -111,7 +111,7 @@ nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
 oc = Okitaneg
 or = Oriya
-pa-IN = Punjabi
+pa-IN = Pandjabeg
 pl = Poloneg
 pt = Portugaleg
 rm-sursilv = Romanch sursilvan
@@ -132,7 +132,7 @@ sw = Swahili
 syr = Syirieg
 ta = Tamileg
 te = Telougoueg
-tg = Tajik
+tg = Tadjikeg
 th = Thailandeg
 tl = Tagalog
 tr = Turkeg
@@ -516,6 +516,8 @@ data-other-goto = Mont da { $name }
 data-other-download = Pellgargañ roadennoù
 data-bundle-button = Pellgargañ ur spletad roadennoù
 data-bundle-description = Spletad roadennoù Common Voice mui an holl spletadoù roadennoù mouezh all a-us.
+release-version = Handelv
+dataset-date = Deiziad
 license = Lañvaz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
 data-download-singleword-title = Pellgargañ skejenn vukenn ar ger
@@ -523,7 +525,7 @@ data-download-singleword-callout = Kement se a zo un teskad buket war an implij 
 review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
-review-aborted = Nullet eo bet ar pellgas. Dilemel hoc'h enrolladennoù a fell deoc'h ober ?
+review-aborted = Nullet eo bet ar pellgas. Dilemel hoc'h enrolladennoù a fell deoc'h ober?
 review-submit-title = Adwelet & Kas
 review-submit-msg = Trugarez evit an enrolladenn!<lineBreak></lineBreak>Bremañ, gwiriit ho klipoù ha kasit anezho.
 review-recording = Gwiriañ
@@ -653,7 +655,7 @@ goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage>
 contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Enrollañ
 record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
-record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ:
+record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ...
 record-platform-not-supported-ios-non-safari = Evit iOS, kendalc'hit war Safari evit gweredekaat an enrollañ...
 record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
 record-no-mic-found = Mikrofon ebet kavet.
@@ -804,6 +806,32 @@ help-reach-hours-general-pluralized =
     }en ur yezh gant ur pal personelaet
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } eur
+        [two] { $totalHours } eur
+        [few] { $totalHours } eur
+        [many] { $totalHours } a eurioù
+       *[other] { $totalHours } eur
+    } a zo posupl e { NUMBER($periodMonths) ->
+        [one] { $periodMonths } miz
+        [two] { $periodMonths } viz
+        [few] { $periodMonths } miz
+        [many] { $periodMonths } a vizoù
+       *[other] { $periodMonths } miz
+    } ma vez { NUMBER($people) ->
+        [one] { $people } den
+        [two] { $people } zen
+        [few] { $people } den
+        [many] { $people } a dud
+       *[other] { $people } den
+    } oc’h enrollañ { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } c’hlip
+        [two] { $clipsPerDay } glip
+        [few] { $clipsPerDay } c’hlip
+        [many] { $clipsPerDay } a glipoù
+       *[other] { $clipsPerDay } klip
+    } bemdez.
 how-many-per-day = Dispar! Pegement a glipoù bemdez?
 how-many-a-week = Dispar! Pegement a glipoù bep sizhun?
 which-goal-type = Fellout a ra deoc'h komz, selaou pe ober an daou?
