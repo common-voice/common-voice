@@ -497,6 +497,8 @@ data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
 data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
+release-version = Različica
+dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešana
 data-download-singleword-title = Prenesite enobesedni ciljni segment
@@ -838,6 +840,7 @@ read-more-about = Preberite več na naši strani O nas
 
 ## DemoLayout
 
+demo-get-started = Pa začnimo
 demo-welcome = Dobrodošli v Common Voice
 
 ## Demo Datasets

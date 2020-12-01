@@ -87,6 +87,7 @@ vec = Venizianu
 
 speak = Parlà
 speak-now = Parlà avà
+datasets = Banche di dati
 languages = Lingue
 about = Apprupositu
 profile = Prufilu
@@ -139,6 +140,11 @@ x-weeks-short =
         [one] Settimana
        *[other] { $count } sett
     }
+x-months-short =
+    { $count ->
+        [one] { $count } mese
+       *[other] { $count } mesi
+    }
 x-years-short =
     { $count ->
         [one] annu
@@ -170,6 +176,8 @@ username-email-not-demographic = U vostru nome d'utilizatore è indirizzu electr
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -213,6 +221,8 @@ english = Inglese
 
 profile-form-username =
     .label = Nome d’utilizatore
+profile-form-native-language =
+    .label = Lingua Materna
 profile-form-additional-language =
     .label = Lingua addizziunala
 profile-form-accent =
@@ -221,8 +231,12 @@ profile-form-age =
     .label = Età
 profile-form-gender-2 =
     .label = Generu
+leaderboard-visibility =
+    .label = Visibilità in a classificazione
 hidden = Piattatu
 visible = Visìbile
+native-language =
+    .label = Lingua Materna
 profile-form-submit-save = Arrighjistrà
 profile-form-submit-saved = Arrighjistratu
 male = Masciu
@@ -231,6 +245,7 @@ female = Femina
 other = Altru
 why-profile-title = Parchì creà un prufilu ?
 why-profile-text = Pruvidendu infurmazione appuntu à voi, i dati vucale chì voi inviati à Common Voice sarani più ghjuvevule à i mutori di ricunniscenza vucale chì impiigani issi dati pà migliurà à so pricisione.
+dashboard = Tavulone di cumande
 build-profile = Creà u vostru prufilu
 avatar = Avatar
 goals = Ubbiettivi
@@ -249,17 +264,29 @@ login-signup = Identificassi / Arrighjistrassi
 edit = Mudificà
 download-profile = Scaricà i mio dati
 contribution-experience = Spirienza di cuntribuzione
+skip-submission-feedback = Saltà l’inviu di cummenti
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 avatar-clip-title = Deti una voce à u vostru avatar
 change-your-avatar-clip = Vuleti cambià u vostru campiunariu di voce ?
+recording-in-progress = Arrighjistramentu di u campiunariu in corsu…
 avatar-clip-recorded = Avà, u vostru avatar cuntene un campiunariu vucale !
 record-voice-wave = ARRIGISTRÀ L’ONDA VUCALE
 retry-voice-wave-recording = RIPRUVÀ
+re-record = ARRIGHJISTRÀ TORNA
+delete-voice = SGUASSÀ
+recording-voice-wave = Arrighjistramentu
+delete-voice-clip = o  Sguassà u campiunariu
 ready-to-upload = CARICÀ
 recreate-voice = Ricreà l’onda vucale
+cancel-avatar-clip-recording = ANNULLÀ
+about-avatar-clip-recording = Arrighjistrà un campiunariu vucale cumè parte di u vostru avatar. L’altri pudarani ascultallu passendu u so cursore nant’à a vostra icona.
 browse-file-title = Caricà una figura
 browse-file = Trascineti è linteti o <browseWrap>Navigheti</browseWrap>
+connect-gravatar = Cunnettatevi cù Gravatar
+gravatar_not_found = Ùn avemu trovu di prufilu Gravatar cù u vostru indirizzu elettronicu
 file_too_large = U ducumentu sceltu hè troppu maiò
+manage-subscriptions = Ghjistione di l’abbunamenti
+manage-email-subscriptions = Ghjistione di l’abbunamenti per indirizzu elettronicu
 email-already-used = ’Ss’indirizzu elettronicu hè dighjà utilizatu pà un altru contu
 add-language = Aghjunghje una lingua
 
@@ -268,8 +295,16 @@ add-language = Aghjunghje una lingua
 faq-what-cv-q = Chì hè Common Voice ?
 faq-why-important-q = Parchì hè impurtante ?
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
+faq-how-get-a = A banca di dati Common Voice hè dispunibile à u scaricamentu sottu à a licenza <licenseLink>CC0</licenseLink> à a paghjina di <datasetLink>e nostre banche di dati</datasetLink>. Pudeti ancu scaricà parechje altre banche di dati publiche da issa paghjina.
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 faq-what-cv-and-deepspeech-q = Chì gjhè a differenza trà Common Voice è Deep Speech ?
+faq-is-goal-assistant-q = U scopu di Common Voice saria di custruisce un assistente vucale ?
+faq-do-want-native-q = Issa lingua ùn hè micca a mè lingua materna è aghju un accentu, vuleti quantunque a mè voce ?
+faq-do-want-native-a = Iè, vulemu in particulari a vostra voce! Una parte di l'ughjettivu di Common Voice hè di riunisce u mori accenti sfarenti pussibule pà fà funziunà i servizii di ricunniscenza vucale ugualmente bè per tutti. Questu vole dì chì e cuntribuzione da lucutori non nativi sò particularmente impurtanti.
+faq-why-different-speakers-q = Parchì avete bisognu di tanti lucutori differente per ogni lingua ?
+faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
+faq-why-10k-hours-a = Hè più o menu a quantità d'ore necessarii pà addestrà un sistemu di pruduzzione di voce-à-u-testu.
+faq-how-calc-hours-q = Di chì manera Common Voice calculeghja l'ore ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-search-for-answers =
     .label = Circà risposte
@@ -283,16 +318,24 @@ about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da
 about-listen-queue-text = L'arrighjistramenti vucali sò mandati in una fila d'attesa induve sarani approntati pè l'ascolta.
 about-listen-text = L'utilizatori cunvalidanu l'esatezza di i campiunarii dunati, verifichendu chì l'uratori ani lettu a frasa currittamente.
 about-dataset-new = Basa di dati Common Voice
+about-clip-graveyard = Campu santu di i campiunarii
 about-clip-graveyard-text = U campu santu di i campiunarii hè custituitu di tutti i campiunarii chì ùn sò micca stati cunvalidati pà fà parte di a banca di dati Common Voice. Cum'è edda, u campu santu di i campiuanarii pò esse scaricatu libaramente.
 about-partners = Partinarii
 about-become-a-partner = Diventà un partinariu
 about-get-involved = Impegnassi
+about-get-involved-text-2 =
+    Vuleti aiutà à migliurà ancu di più Common Voice ?
+    Tremendu ! Cuntattateci via email o e piazze publiche <discourseLink>Discourse</discourseLink>, indittati i prublemi di u situ via <githubLink>GitHub</githubLink>, o raghjunghjeti a chjachjerata di a cummunità <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Parchì ?
 about-nav-how-it-works = Comu ?
 about-nav-partners = Partinarii
 about-nav-get-involved = Impegnassi
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligenza artificiale
+mycroft-description =
+    Mycroft hè u primu assistente di fonte aperta di u mondu.
+    Mycroft viaghja in ogni apparechji - in un urdinatore di tavulinu, in una vittura, o in un Raspberry Pi.
+mycroft-secondary-description = Questu hè un prugramma di fonte aperta chì pò esse mudificatu liberamente, allargatu è migliuratu. Mycroft pò esse adupratu dapertuttu, da un prughjettu di scienza à una applicazione d'impresa.
 
 ## Glossary
 
@@ -310,6 +353,8 @@ error-code = Errore { $code }
 data-download-button = Scaricà i dati di Common Voice
 data-download-yes = Iè
 data-download-deny = Innò
+data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
+data-download-modal = Seti à u puntu di principià un scaricamentu di <size>{ $size } Go</size>, vulete cuntinuà ?
 review-cancel = Annuddà l'inviu
 
 ## Datasets Page
@@ -347,4 +392,19 @@ missing-language = Ùn vidite micca à vostra lingua in a basa di dati ? Pà dum
 
 
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
 
