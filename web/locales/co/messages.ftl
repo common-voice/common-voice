@@ -242,6 +242,7 @@ female = Femina
 other = Altru
 why-profile-title = Parchì creà un prufilu ?
 why-profile-text = Pruvidendu infurmazione appuntu à voi, i dati vucale chì voi inviati à Common Voice sarani più ghjuvevule à i mutori di ricunniscenza vucale chì impiigani issi dati pà migliurà à so pricisione.
+dashboard = Tavulone di cumande
 build-profile = Creà u vostru prufilu
 avatar = Avatar
 goals = Ubbiettivi
@@ -345,6 +346,7 @@ data-download-button = Scaricà i dati di Common Voice
 data-download-yes = Iè
 data-download-deny = Innò
 data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
+data-download-modal = Seti à u puntu di principià un scaricamentu di <size>{ $size } Go</size>, vulete cuntinuà ?
 review-cancel = Annuddà l'inviu
 
 ## Datasets Page
