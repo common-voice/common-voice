@@ -167,7 +167,7 @@ terms = Jogi feltételek
 cookies = Sütik
 faq = GYIK
 content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseLink> alatt érhető el.
-share-title = Segítsen olyanokat találni, akik a hangjukat adják.
+share-title = Segítsen megtalálni azokat, akik a hangjukat adják.
 share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
@@ -848,3 +848,39 @@ help-contribute = Az Ön segítségével sokoldalú, nyílt forráskódú adatk�
 login-company = Jelentkezzen be / regisztráljon a { $company } e-mail címével
 profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
 read-more-about = További információk a Névjegy oldalon
+
+## DemoLayout
+
+demo-get-started = Kezdjünk hozzá
+demo-welcome = Üdvözli a Common Voice
+demo-welcome-subheader = Szeretne többet megtudni és közreműködni a projektben?
+
+## Demo Datasets
+
+demo-language-select-card-header = A Common Voice a világ legnagyobb nyilvánosan elérhető, többnyelvű hangadatkészlete.
+demo-language-select-card-body = Köszönhetően 259 ezer ember közreműködésének több mint 50 nyelven, az adatokat arra használják, hogy beszédalapú alkalmazásokat tanítsanak be, hogy jobban válaszoljanak az emberi hangra.
+card-button-next = Tovább
+card-button-back = Vissza
+demo-language-select-label = Nyelvek tallózása
+demo-eofy-header = 2019-es év végi kiadás
+demo-eofy-sub_header = Hangadatkészlet, letöltésre kész
+demo-account = Fiók
+
+## Demo Account
+
+demo-account-card-header = Bár fiók nem szükséges a közreműködéshez, de hasznos ha van.
+demo-account-card-body = A jobb oldalon felvázoljuk az előnyöket és tisztázzuk a nyilvánosságra hozott információkat. A lenti hivatkozásokkal nekikezdhet egy Common Voice-fiókkal a saját eszközén.
+demo-account-enter-email =
+    .label = Adjon meg egy e-mail-címet a regisztrációs hivatkozás elküldéséhez
+demo-account-sign-up = Regisztrációs hivatkozás engedélyezése
+
+## Demo Contribute
+
+demo-contribute-card-header = Készen áll, hogy kölcsönadja a hangját vagy a fülét?
+demo-contribute-card-body = Most, hogy egy kicsit többet tud a Common Voice-ról, miért ne próbálná ki? Kattintson a mikrofon ikonra a mondatok hangos olvasásának megkezdéséhez.<br/><br/>Ha inkább átnézné mások hanghozzájárulásait, kattintson a lejátszás ikonra. Ha a hallott hangfelvétel megegyezik a képernyőre írt szavakkal.
+demo-listen-subtitle = Készen áll a közreműködésre?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = A személyes irányítópultok naprakészen tartják az egyéni és közösségi előrehaladást.
+demo-dashboard-card-body = Minden felajánlott vagy ellenőrzött hangklip esetén frissülnek a fiókhoz tartozó vezérlőpultok, hogy jelezzék a legfrissebb előrehaladását a közreműködött nyelvekben. Igen, egynél többen is közreműködhet!<br/><br/> A vezérlőpultjainkkal követheti a saját statisztikáit, megnézheti hogyan áll a közösség más tagjaihoz képest, és napi vagy heti közreműködési célokat állíthat be.

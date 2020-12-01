@@ -2148,10 +2148,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-audio-recorder-polyfill@^0.3.6:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/audio-recorder-polyfill/-/audio-recorder-polyfill-0.3.6.tgz#8d866541efe41d65d56e1093ee0240f571f427be"
-  integrity sha512-yPFXIQMKfIsHTCiNt8Vm4e0UQbnJxeOaVUStEEkV1satYcxaG02ZNite8lpVMCAXJoNnxF2GHVGfIgukPXvtAw==
+audio-recorder-polyfill@^0.3.8:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/audio-recorder-polyfill/-/audio-recorder-polyfill-0.3.8.tgz#ce2352e9e72f820f4e2aca94ae604caa1dafa09d"
+  integrity sha512-vPBQIIf9AZtvjDbcD216KONL98nIqSffHJ4k11JoxKUuuDTQ+jGuX21Q+5ri7dSMb+qNeilOaPyhlAhCJlaexQ==
 
 autoprefixer@^9.6.1:
   version "9.7.4"

@@ -251,19 +251,19 @@ export default class Server {
     this.app.get(
       '/privacy/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('Privacy_Notice', locale));
+        response.send(await fetchLegalDocument('privacy_notice', locale));
       }
     );
     this.app.get(
       '/terms/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('Terms', locale));
+        response.send(await fetchLegalDocument('terms', locale));
       }
     );
     this.app.get(
       '/challenge-terms/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('Challenge_Terms', 'en'));
+        response.send(await fetchLegalDocument('challenge_terms', 'en'));
       }
     );
   }
@@ -285,6 +285,7 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
+      await scrubUserActivity();
       await importLocales();
 
       if (doImport) {
@@ -292,7 +293,6 @@ export default class Server {
       }
 
       await importTargetSegments();
-      await scrubUserActivity();
       this.print('Maintenance complete');
     } catch (err) {
       this.print('Maintenance error', err);

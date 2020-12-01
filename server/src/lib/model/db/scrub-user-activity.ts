@@ -7,4 +7,6 @@ export async function scrubUserActivity() {
     DELETE FROM user_client_activities
     WHERE created_at <
       (CURDATE() - INTERVAL 7 DAY)`);
+
+  console.log('Scrubbed user_client_activities table');
 }

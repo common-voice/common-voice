@@ -843,3 +843,26 @@ help-contribute = Du kan bidra til å bygge et mangfoldig, åpen kilde datasett 
 login-company = Logg inn / Registrer deg med { $company } e-post
 profile-not-required = Å ha en profil er ikke påkrevet for å bidra, men det hjelper. Se hvorfor under.
 read-more-about = Les mer på vår "Om" side
+
+## DemoLayout
+
+demo-get-started = La oss komme i gang
+demo-welcome = Velkommen til Common Voice
+demo-welcome-subheader = Interessert i å lære mer og bidra til prosjektet?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice er verdens største offentlig tilgjengelige, flerspråklige tale-datasett.
+card-button-next = Neste
+card-button-back = Tilbake
+demo-account = Konto
+
+## Demo Account
+
+
+## Demo Contribute
+
+demo-listen-subtitle = Klar til å bidra?
+
+## Demo Dashboard
+

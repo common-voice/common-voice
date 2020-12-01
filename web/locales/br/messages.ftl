@@ -794,6 +794,14 @@ help-reach-hours-pluralized =
         [many] { $hours } a eurvezhioù
        *[other] { $hours } eur
     }e { $language } gant ur pal personelaet
+help-reach-hours-general-pluralized =
+    Skoazellit Common Voice da dizhout{ NUMBER($hours) ->
+        [one] { $hours } eur
+        [two] { $hours } eur
+        [few] { $hours } eur
+        [many] { $hours } eur
+       *[other] { $hours } a eurvezhioù
+    }en ur yezh gant ur pal personelaet
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
 how-many-per-day = Dispar! Pegement a glipoù bemdez?
@@ -801,6 +809,14 @@ how-many-a-week = Dispar! Pegement a glipoù bep sizhun?
 which-goal-type = Fellout a ra deoc'h komz, selaou pe ober an daou?
 receiving-emails-info = Dibabet ho peus degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
 not-receiving-emails-info = Dibabet ho peus CHOM HEP degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } standilhon
+        [two] { $count } standilhon
+        [few] { $count } standilhon
+        [many] { $count } a standilhonoù
+       *[other] { $count } standilhon
+    }
 help-share-goal = Skoazellit ac'hanomp da gaout muioc'h a vouezhioù, rannit ho pal
 confirm-goal = Kadarnaat ar pal
 goal-interval-weekly = Sizhuniek
@@ -839,3 +855,29 @@ help-contribute = Gallout a rit sikour da grouiñ ur spletad roadennoù liesseur
 login-company = Kevreit / Emezelit gant ho chomlec'h { $company }
 profile-not-required = Kaout ur profil n'eo ket un dra ret evit kemer perzh met talvoudus eo memestra
 read-more-about = Lenn muioc'h war ar bajenn A-zivout
+
+## DemoLayout
+
+
+## Demo Datasets
+
+card-button-next = War-lerc'h
+card-button-back = Kent
+demo-language-select-label = Merdeiñ ar yezhoù
+demo-eofy-header = Ermaeziadenn fin-bloavezh 2019
+demo-account = Kont
+
+## Demo Account
+
+demo-account-card-header = Kaout ur profil n'eo ket un dra ret met evit kemer perzh met talvoudus eo memestra.
+demo-account-enter-email =
+    .label = Ebarzhit ur postel da gas ul liamm-enskrivañ
+demo-account-sign-up = Kas ul liamm-enskrivañ
+
+## Demo Contribute
+
+demo-contribute-card-header = Prest oc'h da reiñ ho mouezh pe da selaou gant ur skouarn aketus?
+demo-listen-subtitle = Prest da gemer-perzh?
+
+## Demo Dashboard
+

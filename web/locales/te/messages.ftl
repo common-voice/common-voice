@@ -29,14 +29,18 @@ as = అస్సామీ
 ast = అస్తూరియన్
 az = అజర్బైజానీ
 ba = బష్కిర్
+bas = బసా
 be = బెలారుసియన్
 bg = బల్గేరియన్
+bm = బంబారా
 bn = బెంగాలి
 br = బ్రెటోన్
 bxr = బుర్యాత్
 ca = కాటలాన్
 cak = కాక్చికెల్
+ckb = మధ్య కుర్దిష్
 cnh = హఖా చిన్
+co = కార్సికన్
 cs = జెక్
 cv = ఛువాష్
 cy = వెల్ష్
@@ -58,6 +62,7 @@ fr = ఫ్రెంచ్
 fy-NL = ఫ్రిసియన్
 ga-IE = ఐరిష్
 gl = గెలీసియన్
+gn = గ్వారనీ
 ha = హౌసా
 he = హీబ్రూ
 hi = హిందీ
@@ -70,10 +75,14 @@ ia = ఇంటర్‌లింగువా
 id = ఇండోనేషియన్
 is = ఐస్‌లాండిక్
 it = ఇటాలియన్
+izh = ఇజోరియన్
 ja = జపనీ
 ka = జోర్జియన్
+kaa = కరకల్పాక్
 kab = కాబిల్
+kbd = కబార్డియన్
 kk = కజక్
+kmr = కుర్మంజీ కుర్దిష్
 ko = కొరియన్
 kpv = కొమి-జిరియన్
 kw = కార్నిష్
@@ -123,10 +132,12 @@ tg = తజిక్
 th = థాయ్
 tr = టర్కిష్
 tt = తతార్
+uby = ఉబిఖ్
 udm = ఉడ్మర్ట్
 uk = యుక్రేనియన్
 ur = ఉర్దూ
 uz = ఉజ్బెక్
+vec = వెనీషియన్
 vi = వియెత్నామీ
 vot = వోటిక్
 zh-CN = చైనీస్ (చైనా)
@@ -301,8 +312,11 @@ delete-voice = తొలగించు
 ready-to-upload = ఎక్కించు
 cancel-avatar-clip-recording = రద్దుచేయి
 browse-file-title = ఒక బొమ్మ ఫైలును ఎక్కించండి
+connect-gravatar = Gravatarతో అనుసంధానించండి
+gravatar_not_found = మీ ఈమెయిలుకి గ్రావతార్ ఏమీ దొరకలేదు
 file_too_large = ఎంచుకున్న ఫైలు చాలా పెద్దగా ఉంది
 manage-subscriptions = చందాల నిర్వహణ
+manage-email-subscriptions = ఈమెయిలు చందాల నిర్వహణ
 email-already-used = వేరొక ఖాతా కోసం ఈమెయిలు ఇప్పటికే వాడుతున్నారు
 add-language = భాషను చేర్చు
 
@@ -393,6 +407,8 @@ review-delete-recordings = నా రికార్డింగులను త
 language = భాష
 # File size in gigabytes
 size = పరిమాణం
+validated-hr-total = సరిచూసిన గంటల మొత్తం
+overall-hr-total = మొత్తం గంటలు
 cv-license = లైసెన్సు
 audio-format = ఆడియో ఫార్మాటు
 number-of-voices = గొంతుల సంఖ్య
@@ -539,3 +555,18 @@ profile-form-delete = ప్రొఫైలును తొలగించు
 ## Landing
 
 read-more-about = మా గురించి పేజీలో మరింత చదవండి
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

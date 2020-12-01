@@ -845,3 +845,23 @@ help-contribute = Μπορείτε να βοηθήσετε στη δημιουρ
 login-company = Σύνδεση/Εγγραφή με { $company } email
 profile-not-required = Δεν απαιτείται να έχετε προφίλ για να συνεισφέρετε, αν και είναι χρήσιμο
 read-more-about = Διαβάστε περισσότερα στη σελίδα «Σχετικά»
+
+## DemoLayout
+
+demo-get-started = Ας ξεκινήσουμε
+demo-welcome = Καλώς ήρθατε στο Common Voice
+
+## Demo Datasets
+
+card-button-next = Επόμενο
+card-button-back = Πίσω
+demo-account = Λογαριασμός
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
