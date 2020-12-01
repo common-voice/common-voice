@@ -87,6 +87,7 @@ vec = Venizianu
 
 speak = Parlà
 speak-now = Parlà avà
+datasets = Banche di dati
 languages = Lingue
 about = Apprupositu
 profile = Prufilu
@@ -263,6 +264,7 @@ login-signup = Identificassi / Arrighjistrassi
 edit = Mudificà
 download-profile = Scaricà i mio dati
 contribution-experience = Spirienza di cuntribuzione
+skip-submission-feedback = Saltà l’inviu di cummenti
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 avatar-clip-title = Deti una voce à u vostru avatar
 change-your-avatar-clip = Vuleti cambià u vostru campiunariu di voce ?
@@ -284,6 +286,7 @@ connect-gravatar = Cunnettatevi cù Gravatar
 gravatar_not_found = Ùn avemu trovu di prufilu Gravatar cù u vostru indirizzu elettronicu
 file_too_large = U ducumentu sceltu hè troppu maiò
 manage-subscriptions = Ghjistione di l’abbunamenti
+manage-email-subscriptions = Ghjistione di l’abbunamenti per indirizzu elettronicu
 email-already-used = ’Ss’indirizzu elettronicu hè dighjà utilizatu pà un altru contu
 add-language = Aghjunghje una lingua
 
@@ -300,6 +303,7 @@ faq-do-want-native-q = Issa lingua ùn hè micca a mè lingua materna è aghju u
 faq-do-want-native-a = Iè, vulemu in particulari a vostra voce! Una parte di l'ughjettivu di Common Voice hè di riunisce u mori accenti sfarenti pussibule pà fà funziunà i servizii di ricunniscenza vucale ugualmente bè per tutti. Questu vole dì chì e cuntribuzione da lucutori non nativi sò particularmente impurtanti.
 faq-why-different-speakers-q = Parchì avete bisognu di tanti lucutori differente per ogni lingua ?
 faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
+faq-why-10k-hours-a = Hè più o menu a quantità d'ore necessarii pà addestrà un sistemu di pruduzzione di voce-à-u-testu.
 faq-how-calc-hours-q = Di chì manera Common Voice calculeghja l'ore ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-search-for-answers =
@@ -331,6 +335,7 @@ mycroft-subtitle = Intelligenza artificiale
 mycroft-description =
     Mycroft hè u primu assistente di fonte aperta di u mondu.
     Mycroft viaghja in ogni apparechji - in un urdinatore di tavulinu, in una vittura, o in un Raspberry Pi.
+mycroft-secondary-description = Questu hè un prugramma di fonte aperta chì pò esse mudificatu liberamente, allargatu è migliuratu. Mycroft pò esse adupratu dapertuttu, da un prughjettu di scienza à una applicazione d'impresa.
 
 ## Glossary
 
