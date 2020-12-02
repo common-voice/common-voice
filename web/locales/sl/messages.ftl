@@ -842,9 +842,11 @@ read-more-about = Preberite več na naši strani O nas
 
 demo-get-started = Pa začnimo
 demo-welcome = Dobrodošli v Common Voice
+demo-welcome-subheader = Želite izvedeti več o projektu in prispevati?
 
 ## Demo Datasets
 
+demo-language-select-card-body = Zahvaljujoč prispevkom več kot 259 tisoč ljudi v več kot 50 jezikih se ti podatki uporabljajo za usposabljanje aplikacij za prepoznavanje govora, da bi se bolje odzivale na človeški glas.
 demo-account = Račun
 
 ## Demo Account
