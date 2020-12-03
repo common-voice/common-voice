@@ -508,6 +508,8 @@ data-other-goto = Iri al { $name }
 data-other-download = Elŝuti datumojn
 data-bundle-button = Elŝuti kolekto da datumaroj
 data-bundle-description = Datumoj de Common Voice kaj ĉiuj aliaj supraj voĉaj datumaroj.
+release-version = Versio
+dataset-date = Date
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
 license-mixed = Miksita
 data-download-singleword-title = Elŝuti la celan segmenton de unikaj vortoj
@@ -848,3 +850,30 @@ help-contribute = Vi povas helpi konstrui diversan, malfermitkodan datumaron per
 login-company = Komencu seancon / registriĝu per retpoŝta adreso de { $company }
 profile-not-required = Por kontribui, vi ne bezonas profilon, sed ĝi povas esti utila
 read-more-about = Pli da informo en la paĝo: Pri Common Voice
+
+## DemoLayout
+
+demo-get-started = Komencu ni
+demo-welcome = Bonvenon al Common Voice
+demo-welcome-subheader = Ĉu vi ŝatus scii pli kaj kontribui kun tiu ĉi projekto?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice estas la plej granda, publike disponebla, plurlingva voĉa datumaro.
+demo-language-select-card-body = Danke al la kontribuoj de pli ol 259.000 personoj en pli ol 50 lingvoj, tiu ĉi datumaro estas uzata por trejni voĉakceptajn programoj, tiel ke ili pli bone respondas al homaj voĉoj.
+card-button-next = Antaŭen
+card-button-back = Malantaŭen
+demo-language-select-label = Serĉi lingvojn
+demo-eofy-header = Jarfina livero de 2019
+demo-eofy-sub_header = Voĉa datumaro, preta por elŝuto
+demo-account = Konto
+
+## Demo Account
+
+demo-account-card-header = Por kontribui, vi ne bezonas konton, sed ĝi povas esti utila.
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
