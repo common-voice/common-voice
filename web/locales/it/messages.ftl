@@ -496,6 +496,8 @@ data-other-goto = Vai a { $name }
 data-other-download = Scarica i dati
 data-bundle-button = Scarica bundle di dataset
 data-bundle-description = Dati di Common Voice più tutti i dataset precedenti.
+release-version = Versione
+dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
 data-download-singleword-title = Scarica il segmento specifico con parole singole
@@ -827,3 +829,22 @@ help-contribute = Crea un profilo Common Voice e dona la tua voce per aiutarci a
 login-company = Accedi / Registrati con l’email di { $company }
 profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
 read-more-about = Scopri di più sulla pagina Informazioni
+
+## DemoLayout
+
+demo-get-started = Iniziamo
+demo-welcome-subheader = Ti interessa saperne di più e contribuire al progetto?
+
+## Demo Datasets
+
+card-button-next = Avanti
+card-button-back = Indietro
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
