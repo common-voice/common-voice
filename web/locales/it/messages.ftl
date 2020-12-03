@@ -839,6 +839,7 @@ demo-welcome-subheader = Ti interessa saperne di più e contribuire al progetto?
 
 card-button-next = Avanti
 card-button-back = Indietro
+demo-account = Account
 
 ## Demo Account
 
