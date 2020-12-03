@@ -843,6 +843,7 @@ demo-account = Account
 
 ## Demo Account
 
+demo-account-card-header = Non è obbligatorio avere un account per collaborare ma è consigliato.
 
 ## Demo Contribute
 
