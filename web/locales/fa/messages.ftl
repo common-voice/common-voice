@@ -735,6 +735,7 @@ validations =
 
 your-languages = زبان‌های شما
 toward-next-goal = به سوی هدف بعدی
+goal-reached = به هدف رسیدید
 clips-you-recorded = کلیپ‌هایی که ضبط کرده‌اید
 clips-you-validated = کلیپ‌هایی که اعتبارسنجی کرده‌اید
 todays-recorded-progress = پیشرفت امروز آواهای مشترک در کلیپ‌های ضبط شده
@@ -834,6 +835,7 @@ read-more-about = در صفحه درباره ما بیشتر بخوانید
 
 ## DemoLayout
 
+demo-welcome = به آواهای مشترک خوش آمدید
 
 ## Demo Datasets
 
