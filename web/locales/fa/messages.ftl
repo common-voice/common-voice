@@ -33,14 +33,18 @@ as = آسامی
 ast = آستوری
 az = آذربایجانی
 ba = باشکیر
+bas = ‏‏باسا
 be = بلاروسی
 bg = بلغاری
+bm = بامبارایی
 bn = بنگالی
 br = برتانیایی
 bxr = بوریاتی
 ca = کاتالونیایی
 cak = کاقچیکل
+ckb = سورانی
 cnh = هاخا چین
+co = کرسی
 cs = چکی
 cv = چاوشی
 cy = ویلزی
@@ -296,6 +300,8 @@ profile-form-accent =
     .label = لهجه
 profile-form-age =
     .label = سن
+profile-form-gender-2 =
+    .label = جنسیت
 leaderboard-visibility =
     .label = نمایش در لیست برترین‌ها
 hidden = پنهان
@@ -503,6 +509,8 @@ data-other-goto = برو به { $name }
 data-other-download = دریافت داده‌ها
 data-bundle-button = دریافت بسته مجموعه‌ی داده‌ها
 data-bundle-description = اطلاعات آواهای مشترک به همراه تمام مجموعه داده‌های صوتی بالا.
+release-version = نسخه
+dataset-date = تاریخ
 license = مجوز: <licenseLink>{ $license }</licenseLink>
 license-mixed = ترکیبی
 data-download-singleword-title = دریافت بخش هدف تک کلمه‌ای.
@@ -678,6 +686,7 @@ share-title-new = برای یافتن صداهای بیشتر <bold>به ما ک
 keep-track-profile = پیشرفت‌ خود را با یک نمایه پیگیری کنید
 login-to-get-started = برای شروع وارد شوید یا ثبت‌ نام کنید
 target-segment-first-card = شما در حال مشارکت در اولین بخش هدف ما هستید
+target-segment-generic-card = شما در حال مشارکت در بخش هدف هستید
 target-segment-first-banner = به ایجاد اولین بخش هدف پروژه آواهای مشترک در { $locale } کمک کنید
 target-segment-add-voice = صدای خود را اضافه کنید
 target-segment-learn-more = اطلاعات بیشتر
@@ -828,12 +837,17 @@ read-more-about = در صفحه درباره ما بیشتر بخوانید
 
 ## Demo Datasets
 
+card-button-next = بعدی
+card-button-back = عقب
+demo-language-select-label = زبان‌های مرورگر
 
 ## Demo Account
 
+demo-account-sign-up = ارسال پیوند عضویت
 
 ## Demo Contribute
 
+demo-listen-subtitle = آماده مشارکت هستید؟
 
 ## Demo Dashboard
 
