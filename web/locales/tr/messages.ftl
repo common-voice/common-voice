@@ -487,6 +487,8 @@ data-other-goto = { $name } sitesine git
 data-other-download = Verileri indir
 data-bundle-button = Veri kümesi paketini indir
 data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
+release-version = Sürüm
+dataset-date = Tarih
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
 data-download-singleword-title = Tek kelimelik hedef segmentini indir
@@ -820,6 +822,9 @@ demo-welcome = Common Voice’a hoş geldiniz
 demo-language-select-card-header = Common Voice, dünyanın halka açık en büyük, çok dilli ses veri kümesidir.
 card-button-next = İleri
 card-button-back = Geri
+demo-language-select-label = Tarayıcı dilleri
+demo-eofy-header = 2019 Yıl Sonu Sürümü
+demo-eofy-sub_header = Ses veri kümesi, indirilmeye hazır
 demo-account = Hesap
 
 ## Demo Account
