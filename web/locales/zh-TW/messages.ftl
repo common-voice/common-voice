@@ -146,7 +146,7 @@ vec = 威尼斯語
 vi = 越南語
 vot = 沃特語
 zh-CN = 華語（中國）
-zh-HK = 華語（香港）
+zh-HK = 香港廣東話
 zh-TW = 華語（台灣）
 
 # [/]
@@ -505,6 +505,8 @@ data-other-goto = 前往 { $name }
 data-other-download = 下載資料
 data-bundle-button = 下載資料集總組合
 data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
+release-version = 版本
+dataset-date = 日期
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
 license-mixed = 混和
 data-download-singleword-title = 下載單字目標字串

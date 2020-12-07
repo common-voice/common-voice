@@ -190,27 +190,141 @@ vote-yes = Nn!
 vote-no = To
 toggle-play-tooltip = Nwot { shortcut-play-toggle } inyu liheñla i ka-play
 speak-subtitle = Pôôs kiñ yoñ.
+speak-paragraph = Lisange makiñ liyé hipa hyada ikédé dipa dipe di ngwélél inyu ligwo mayaa ma minje, mabak kunde ibônôl: bebek uyé le uhoñol kikii ngandak ibot ipe i nhoñol le, inya nson i, iyé minyaô.
+speak-goal-text = Minsangge mi makiñ
+listen-subtitle = Hôla bés i kémhe le kiñ i héli.
+listen-paragraph = Likémhe le kiñ i héli liyé nseñ ngandak inyu nson u digwéé i sal i Common Voice. Yoñ ndék ngéda i emble, ka iyé le, hala a laa hôla bés i ôô mayaa ma minje mii makiñ, ma ma gwéé nseñ
+listen-goal-text = Minyigyege mi makiñ
+hours-recorded = Nsongi u mangeñ u minsangge mi makiñ
+hours-validated = Nsongi u mangeñ u minyigyege mi makiñ
+voices-online = Makiñ ma mayé i mpee, hanano
+todays-progress = Libim li nson u nséla len
+help-reach-goal = Hôla bés le di yônôs { $goal }
+read-terms-q = Hôla bés le mabéhna més ma éña
+ready-to-record = Ba u yé nkôôbaga hanano i sange kiñ yoñ e ?
+all-locales = Gwobisô
+today = Len
+x-weeks-short =
+    { $count ->
+        [one] Wondi
+       *[other] { $count }Sondi
+    }
+x-months-short =
+    { $count ->
+        [one] sôñ
+       *[other] sôñ
+    }
+x-years-short =
+    { $count ->
+        [one] nwii
+       *[other] { $count }nwii
+    }
+help-make-dataset = Hôla bés le bi ôô mayaa ma minje ma nseñ inyu bôt bobasô
+sign-up-account = Tilba inyu ibana ijoň liboñ
+email-subscription-title = Tilba inyu ikôhna minuyne mi mél
+email-subscription-title-new = Tila jôl inyu ikôhna manwin ma Common Voice, mbigda iyônôs ndak bôlô, ni likenek li minuyne
 
 ## Account Benefits
 
+benefits = Minseñ
+rich-data = Ḱonde mahoñ munu ikédé mayaa ma minje u nsange, inya u yé le u la, ni inôbe bikadbana gwoñ, iba bé iyelel jol joñ. To ibale jôl linnene we mu i bikadbana bi, di nhô jo, nwaa di ntjam bikadbana gwoñ.
+improve-audio = Biyimbne gwoñ unti, binhôla i yidis nguy i mayaa ma makiñ u nsange, ka iyé le hala a nhôñôs likenge li lisolol makiñ.
+keep-track = Béna hes mahol ma nson woñ ni mahol ma bôlô i mahop mape.
+compare-progress = Bénge ihet mahol ma nson woñ matééne, inoñnaga ni mahol ma bansange makiñ bape ni nkoñ isi wonsô.
+view-goals = Bénge mahol ma nson woñ inoñnaga ni makak moñ wemede.
+join-newsletter = Kikii ka gwés yoñ, u nla tilba i yuyut yés i mél inyu ikôhna manoñ ma minuyne ni manwin ma yondo ikolbaha ni nson wés.
 
 ## What's public
 
+whats-public = Kinje i yé ntjangén ?
+email-not-public = Di gatôô bé mél yon ni ntangén.
+recordings-and-locale-public = Nsongi u makiñ u nsange ni umbe hop u nsangne mo, biga tjéma ntjangén.
+username-optin-public = Unla tep i yilis ngédi yoñ ntjangén, tole nsolbe.
+demographic-deidentified-clarity-2 = Biyimbne gwon bi unti kikii ka gwés yoñ (hihéga : bimañ, libak  li muda tole mulôm, hop, lipôdôl), biga yila bé ntjagén kelkikel i liyimbne joñ, ndi to le bi ba ñañnaga ni libôñ joñ i liyaa li makiñ. Dipeles di dikékét di makiñ di gaéna ni biyimbne gwoñ, he ndigi inyu liti maap inyu longe i ndoñol - kikii hihéga, nwan man a yé le agwés nigne ngim likénge li lisolol makiñ i ngim yimbne tôbôtôbô
+username-email-not-demographic = Ngédi yoñ ndi to njañ yoñ mél, biga ngwaña bé ni bitjéma bi mayaa ma makiñ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = b
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = t
+shortcut-play-toggle-label = tuk/téé
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = t
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = s
+shortcut-record-toggle-label = Yoñ/téé
+shortcut-rerecord-toggle = [1 -5]
+shortcut-rerecord-toggle-label = Timba yoñ kiñ
+request-language-text = Hop woñ u nnene bé i Common Voice e ?
+request-language-button = Legle ngim hop
 
 ## ProjectStatus
 
+status-title = Ntel u gwém i nson yosô : tehe ibol hee di tééne!
+status-contribute = Sange kiñ yoñ
+status-hours =
+    { $hours ->
+        [one] Ngim ngeñ i ma kémhana, ntel ngéda
+       *[other] { $hours } i ma kémhana, ntel ngéda
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Likak li nnoñ : { $goal }
+english = Ŋgìsì
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Ngédi
+profile-form-native-language =
+    .label = Hop u lingwélés
+profile-form-additional-language =
+    .label = Hop mpe
+profile-form-accent =
+    .label = Lipodok
+profile-form-age =
+    .label = Bimañ
+profile-form-gender-2 =
+    .label = Muda tole mulôm ?
+leaderboard-visibility =
+    .label = Bitéé bi kumba
+hidden = Nsolbe
+visible = Mbamba
+native-language =
+    .label = Hop u lingwélés
+profile-form-submit-save = Hék
+profile-form-submit-saved = Nhégék
+male = Mulôm
+female = Muda
+# Gender
+other = To muda to mulôm
+why-profile-title = Liyimbne li nhôla kii ?
+why-profile-text = Hiki ngéda u gayelel yimbne yada i libak joñ, u gahôla le, mayaa ma makiñ u nsange i Common Voice ma kônde bana mahee inyu lihôlôs bikey bi nsolol makiñ, bi bi mbôñôl mana mayaa inyu ndip i lisoolak li makiñ
+dashboard = Kumba
+build-profile = Ôô liyimbne joñ
+avatar = ́Ôngba i binjénjé
+goals = Makak
+settings = Libônglak
+edit-profile = Nuye liyimbne joñ
+profile-create-success = Jéé ! liyimbne joñ li mbôda
+profile-close = Yip
+profile-explanation = Hes mahol ma nson woñ kikii ka ngéda liyimbne joñ,  ni ihôla la mayaa ma makiñ més ma yét.
+thanks-for-account = Mayéga le u nkémhe likot joñ, naano, di bôdôl ni ôñ liyimbne joñ
+why-demographic = Inyu kii hala a yé nseñ ?
 
 ## FAQ
 
@@ -261,4 +375,19 @@ speak-subtitle = Pôôs kiñ yoñ.
 
 
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
 

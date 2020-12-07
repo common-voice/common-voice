@@ -34,8 +34,8 @@ ast = 阿斯圖里亞斯文
 az = 亞塞拜然文
 ba = 巴什基爾文
 bas = 巴薩文
-be = 白俄羅斯語
-bg = 保加利亞語
+be = 白俄羅斯文
+bg = 保加利亞文
 bm = 班巴拉文
 bn = 孟加拉文
 br = 布里多尼文
@@ -145,9 +145,9 @@ uz = 烏茲別克文
 vec = 威尼斯文
 vi = 越南文
 vot = 沃特文
-zh-CN = 中文 (大陸)
-zh-HK = 中文（香港）
-zh-TW = 中文 (臺灣)
+zh-CN = 中文（大陸）
+zh-HK = 廣東話（香港）
+zh-TW = 中文（臺灣）
 
 # [/]
 
@@ -186,7 +186,7 @@ wall-of-text-first = 語音係一種好自然、富有人性嘅事物。我哋�
 wall-of-text-second = 大部分現成嘅數據由大公司擁有，並未開放畀大眾使用。我哋覺得噉樣會阻礙創新，所以創立咗畀每個人都可以嚟自由建造語音識別嘅 Common Voice 計劃。
 show-wall-of-text = 瞭解更多
 help-us-title = 請幫我哋驗證句子！
-help-us-explain = 按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？
+help-us-explain = 撳下播放掣，聽一下，然後回覆：佢哋讀呢句讀得啱唔啱？
 no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一啲聲音。
 vote-yes = 啱
 vote-no = 錯
@@ -239,6 +239,7 @@ whats-public = 有邊啲資料會公開？
 email-not-public = 我哋唔會公開你嘅電郵地址。
 recordings-and-locale-public = 你貢獻嘅錄音數量，以及貢獻咗邊幾種語言，都會係公開嘅。
 username-optin-public = 你可以選擇公開你嘅賬戶名稱，或保持匿名。
+demographic-deidentified-clarity-2 = 所有可選性提供的人口統計資料（年齡、性別、語言、口音等等），絕不會在您的個人檔案上公開，也不會在數據集中有所關聯。每一片獨立的錄音才會和您提交的人口統計資料挂鈎，讓來提供更準確的分析 -- 例如學者可能想訓練一個針對某部分人口的機器訓練模型。
 username-email-not-demographic = 您的賬戶名稱和電郵地址不會跟公開發布的數據有掛鉤。
 
 ## Speak & Listen Shortcuts
@@ -322,6 +323,7 @@ profile-close = 關閉
 profile-explanation = 使用你嘅個人檔案可以保留你嘅進展，並幫助提高我哋語音數據嘅準確度。
 thanks-for-account = 多謝你確認你嘅帳戶，而家等我哋建立你嘅個人檔案。
 why-demographic = 點解咁重要？
+why-demographic-explanation-2 = 已匿名化的使用者資料，如年齡、性別、口音等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與電郵不會與您提交的數據相關，您也可以決定公開您的帳號或保持匿名。
 accept-privacy = 我同意你依照 Mozilla 嘅<privacyLink>私隱保護政策</privacyLink>中描述嘅方式嚟處理呢啲資料
 accept-privacy-title = 隱私權政策
 login-identity = 登入身份
@@ -506,6 +508,8 @@ data-other-goto = 前往 { $name }
 data-other-download = 下載數據
 data-bundle-button = 下載數據組合
 data-bundle-description = Common Voice 數據，以及上面列出的所有其他語音數據集。
+release-version = 版本
+dataset-date = 日期
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 data-download-singleword-title = 下載單字目標群體分項
@@ -540,7 +544,7 @@ cv-license = 授權條款
 audio-format = 音檔格式
 number-of-voices = 錄音人數
 splits = 分割
-email-to-download = 輸入電郵即可下載
+email-to-download = 輸入電郵地址即可下載
 why-email = <b>為什麼需要電郵地址?</b>我們可能會在未來聯絡您，提供與數據集相關的新資訊。電郵可作為我們聯絡您的方式。
 confirm-size = 您將開始一個<b>{ $size }</b>的下載項目
 size-gigabyte = GB
@@ -581,8 +585,8 @@ dataset-version = 版本
 download-title = 您的下載開始了。
 download-helpus = 請幫助我們打造一個使用語音技術的社群，並透過電郵保持聯繫。
 download-form-email =
-    .label = 留下您的電郵
-    .value = 多謝，我們會保持聯繫。
+    .label = 留低你嘅電郵
+    .value = 多謝，我哋會保持聯繫。
 download-back = 返回 Common Voice 數據集
 download-no = 唔洗喇，多謝
 
@@ -830,3 +834,29 @@ help-contribute = 你可以透過創立一個 Common Voice 帳戶並貢獻錄音
 login-company = 以 { $company } 電郵登入 / 註冊
 profile-not-required = 唔需要成立個人檔案即可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
 read-more-about = 去關於我哋嘅頁面瞭解更多
+
+## DemoLayout
+
+demo-get-started = 一齊開始啦！
+demo-welcome = 歡迎使用 Common Voice
+
+## Demo Datasets
+
+demo-language-select-label = 睇下所有語言
+demo-eofy-header = 2019 年尾版
+demo-eofy-sub_header = 語音數據集，可以下載
+demo-account = 帳戶
+
+## Demo Account
+
+demo-account-card-header = 唔建立帳戶亦可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
+demo-account-enter-email =
+    .label = 打入你嘅電郵地址嚟轉送註冊鏈結
+demo-account-sign-up = 轉送註冊鏈結
+
+## Demo Contribute
+
+demo-listen-subtitle = 準備好幫手貢獻未？
+
+## Demo Dashboard
+
