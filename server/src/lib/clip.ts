@@ -41,11 +41,11 @@ export default class Clip {
       ) => {
         const { locale } = params;
 
-        if (client_id && locale) {
-          this.model.db
-            .saveActivity(client_id, locale)
-            .catch((error: any) => console.error('activity save error', error));
-        }
+        // if (client_id && locale) {
+        //   this.model.db
+        //     .saveActivity(client_id, locale)
+        //     .catch((error: any) => console.error('activity save error', error));
+        // }
 
         next();
       }
