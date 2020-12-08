@@ -315,10 +315,14 @@ export default class API {
     );
   }
 
-  saveHasDownloaded(email: string, dataset: string): Promise<void> {
+  saveHasDownloaded(
+    email: string,
+    locale: string,
+    dataset: string
+  ): Promise<void> {
     return this.fetch(this.getLocalePath() + '/downloaders', {
       method: 'POST',
-      body: { email, dataset },
+      body: { email, locale, dataset },
     });
   }
 

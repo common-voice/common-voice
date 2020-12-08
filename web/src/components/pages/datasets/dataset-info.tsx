@@ -314,6 +314,14 @@ const DownloadEmailPrompt = ({
     datasetVersion,
   } = formState;
 
+  const validDownload = (formState: any) => {
+    return (
+      emailInputRef.current?.checkValidity() &&
+      formState.confirmNoIdentify &&
+      formState.confirmSize
+    );
+  };
+
   const updateLink = async (bundleState: any, formState: any) => {
     // AWS CDN only supports files up to 20GB
     const useCDN = bundleState.rawSize < 20 * 1024 * 1024 * 1024;
@@ -325,17 +333,17 @@ const DownloadEmailPrompt = ({
       useCDN
     );
 
-    return emailInputRef.current?.checkValidity() &&
-      formState.confirmNoIdentify &&
-      formState.confirmSize
-      ? url
-      : null;
+    return validDownload(formState) ? url : null;
   };
 
   const saveHasDownloaded = async () => {
-    await api
-      .forLocale(bundleState.bundleLocale)
-      .saveHasDownloaded(email, bundleState.datasetVersion);
+    if (validDownload(formState)) {
+      await api.saveHasDownloaded(
+        email,
+        bundleState.bundleLocale,
+        bundleState.datasetVersion
+      );
+    }
   };
 
   const showEmailForm = () =>
@@ -495,7 +503,7 @@ const DatasetSegmentDownload = ({
     totalHours: formatHrs(stats.totalHrs),
     validHours: formatHrs(stats.totalValidHrs),
     rawSize: stats.overall.size,
-    datasetVersion: CURRENT_RELEASE,
+    datasetVersion: SEGMENT_RELEASE,
   };
 
   const dotSettings = {
