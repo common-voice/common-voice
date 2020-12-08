@@ -507,6 +507,8 @@ data-other-goto = Vés a { $name }
 data-other-download = Baixa les dades
 data-bundle-button = Baixa el paquet del conjunt de dades
 data-bundle-description = Dades del Common Voice més tots els conjunts de dades de veu anteriors.
+release-version = Versió
+dataset-date = Data
 license = Llicència: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
 data-download-singleword-title = Baixeu el segment específic amb paraules individuals
@@ -879,3 +881,4 @@ demo-listen-subtitle = Preparat per a col·laborar?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Els taulers personals us informen sobre el progrés individual i de la comunitat.
+demo-dashboard-card-body = Per cada tall de veu donat i per cada tall d'àudio validat, els taulers del vostre compte s'actualitzen per a reflectir el vostre progrés més recent en cada llengua en què col·laboreu. Sí, podeu participar en més d'una! <br/><br/> Utilitzeu taulers per a fer un seguiment de les vostres estadístiques, veure el vostre rendiment en relació amb altres membres de la comunitat i definir objectius de col·laboració diaris o setmanals.
