@@ -865,6 +865,7 @@ demo-account-card-header = Il n’est pas nécessaire de disposer d’un compte 
 
 ## Demo Contribute
 
+demo-listen-subtitle = Prêt·e à contribuer ?
 
 ## Demo Dashboard
 
