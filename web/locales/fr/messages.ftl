@@ -856,6 +856,7 @@ demo-language-select-card-body = Grâce aux contributions de plus de 259 000 p
 card-button-next = Suivant
 card-button-back = Précédent
 demo-language-select-label = Parcourir les langues
+demo-eofy-header = Publication de fin d’année 2019
 demo-eofy-sub_header = Jeu de données vocales, prêt pour le téléchargement
 demo-account = Compte
 
@@ -869,4 +870,5 @@ demo-listen-subtitle = Prêt·e à contribuer ?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Les tableaux de bord personnels vous tiennent au courant des progrès individuels et communautaires.
 demo-dashboard-card-body = Pour chaque échantillon vocal donné et pour chaque échantillon audio validé, les tableaux de bord de votre compte sont mis à jour afin de refléter vos derniers progrès dans chacune des langues à laquelle vous avez contribué. Oui, vous pouvez contribuer à plusieurs langues !<br/><br/> Utilisez les tableaux de bord pour suivre vos statistiques, pour comparer vos progrès à ceux d’autres membres de la communauté et pour fixer des objectifs de contribution quotidiens ou hebdomadaires.
