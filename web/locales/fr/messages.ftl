@@ -869,3 +869,4 @@ demo-listen-subtitle = Prêt·e à contribuer ?
 
 ## Demo Dashboard
 
+demo-dashboard-card-body = Pour chaque échantillon vocal donné et pour chaque échantillon audio validé, les tableaux de bord de votre compte sont mis à jour afin de refléter vos derniers progrès dans chacune des langues à laquelle vous avez contribué. Oui, vous pouvez contribuer à plusieurs langues !<br/><br/> Utilisez les tableaux de bord pour suivre vos statistiques, pour comparer vos progrès à ceux d’autres membres de la communauté et pour fixer des objectifs de contribution quotidiens ou hebdomadaires.
