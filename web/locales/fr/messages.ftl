@@ -854,6 +854,7 @@ demo-welcome-subheader = Vous souhaitez en apprendre davantage et contribuer au 
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice est le plus grand jeu de données vocales multilingue et public au monde.
 demo-language-select-card-body = Grâce aux contributions de plus de 259 000 personnes dans plus de 50 langues, ces données sont utilisées pour entraîner des applications vocales à mieux répondre à la voix humaine.
 card-button-next = Suivant
 card-button-back = Précédent
@@ -865,9 +866,14 @@ demo-account = Compte
 ## Demo Account
 
 demo-account-card-header = Il n’est pas nécessaire de disposer d’un compte pour contribuer, mais c’est utile.
+demo-account-card-body = À droite, nous décrivons les avantages et précisons quelles informations nous rendons publiques. Utilisez les liens ci-dessous pour créer un compte Common Voice sur votre appareil.
+demo-account-enter-email =
+    .label = Saisissez un courriel pour envoyer un lien d’inscription
+demo-account-sign-up = Envoyer le lien d’inscription
 
 ## Demo Contribute
 
+demo-contribute-card-header = Prêt·e à donner de la voix ou à tendre votre oreille ?
 demo-contribute-card-body = Maintenant que vous en savez un peu plus sur Common Voice, pourquoi ne pas l’essayer ? Cliquez sur l’icône de microphone pour commencer à lire des phrases à haute voix. <br/><br/>Si vous préférez valider les contributions vocales d’autres personnes, cliquez sur l’icône de lecture. Vérifiez alors que l’enregistrement vocal que vous entendez correspond aux mots écrits à l’écran.
 demo-listen-subtitle = Prêt·e à contribuer ?
 
