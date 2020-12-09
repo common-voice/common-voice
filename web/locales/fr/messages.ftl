@@ -848,7 +848,9 @@ read-more-about = Pour en savoir plus lisez notre page À propos
 
 ## DemoLayout
 
+demo-get-started = Commencer
 demo-welcome = Bienvenue sur Common Voice
+demo-welcome-subheader = Vous souhaitez en apprendre davantage et contribuer au projet ?
 
 ## Demo Datasets
 
@@ -866,6 +868,7 @@ demo-account-card-header = Il n’est pas nécessaire de disposer d’un compte 
 
 ## Demo Contribute
 
+demo-contribute-card-body = Maintenant que vous en savez un peu plus sur Common Voice, pourquoi ne pas l’essayer ? Cliquez sur l’icône de microphone pour commencer à lire des phrases à haute voix. <br/><br/>Si vous préférez valider les contributions vocales d’autres personnes, cliquez sur l’icône de lecture. Vérifiez alors que l’enregistrement vocal que vous entendez correspond aux mots écrits à l’écran.
 demo-listen-subtitle = Prêt·e à contribuer ?
 
 ## Demo Dashboard
