@@ -206,7 +206,8 @@ export default class DB {
   ): Promise<Sentence[]> {
     let taxonomySentences: Sentence[] = [];
     const locale_id = await getLocaleId(locale);
-    const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
+    // const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
+    const exemptFromSSRL = true;
 
     if (this.inBenchmark(locale)) {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
@@ -318,7 +319,8 @@ export default class DB {
   ): Promise<DBClipWithVoters[]> {
     let taxonomySentences: DBClipWithVoters[] = [];
     const locale_id = await getLocaleId(locale);
-    const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
+    // const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
+    const exemptFromSSRL = true;
 
     if (this.inBenchmark(locale)) {
       taxonomySentences = await this.findClipsMatchingTaxonomy(
