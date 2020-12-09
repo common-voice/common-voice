@@ -852,9 +852,11 @@ demo-welcome = Bienvenue sur Common Voice
 
 ## Demo Datasets
 
+demo-language-select-card-body = Grâce aux contributions de plus de 259 000 personnes dans plus de 50 langues, ces données sont utilisées pour entraîner des applications vocales à mieux répondre à la voix humaine.
 card-button-next = Suivant
 card-button-back = Précédent
 demo-language-select-label = Parcourir les langues
+demo-eofy-sub_header = Jeu de données vocales, prêt pour le téléchargement
 demo-account = Compte
 
 ## Demo Account
