@@ -40,6 +40,7 @@ bxr = Buriatu
 ca = Catalán
 cak = Kaqchikel
 cnh = Hakha Chin
+co = Corsu
 cs = Checu
 cv = Chuvaxu
 cy = Galés
@@ -61,6 +62,7 @@ fr = Francés
 fy-NL = Frisiu
 ga-IE = Irlandés
 gl = Gallegu
+gn = Guaranín
 ha = Ḥausa
 he = Hebréu
 hi = Hindi
@@ -138,6 +140,7 @@ uz = Uzbecu
 vec = Venecianu
 vi = Vietnamita
 vot = Vóticu
+yue = Cantonés
 zh-CN = Chinu (China)
 zh-HK = Chinu (Ḥong Kong)
 zh-TW = Chinu (Taiwán)
@@ -799,3 +802,18 @@ welcome-staff = ¡Afayáivos, personal de { $company }!
 help-contribute = Pues ayudar a crear un conxuntu de datos diversu y abiertu creando un perfil en Common Voice y collaborando cola to voz.
 profile-not-required = Nun se rique tener un perfil pa collaborar, pero ayuda
 read-more-about = Llei más tocante a nós na nuesa páxina Tocante a
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
