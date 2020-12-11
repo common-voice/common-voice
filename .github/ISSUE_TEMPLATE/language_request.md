@@ -8,7 +8,7 @@ assignees: 'phirework'
 
 Use this template to request a new localizable language that is currently not available [on Pontoon](https://pontoon.mozilla.org/projects/common-voice/).
 
-Note: This issue only applies to the web interface language - in order to activate language contributions on Common Voice you will also need to ensure 5,000+ sentences are available to be read in that language. Please refer to the [full Language documentation](https://github.com/mozilla/voice-web/blob/master/README.md) for more details.
+Note: This issue only applies to the web interface language - in order to activate language contributions on Common Voice you will also need to ensure 5,000+ sentences are available to be read in that language. Please refer to the [full Language documentation](https://github.com/mozilla/common-voice/blob/master/README.md) for more details.
 
 **Language name**
 What language would you like to add?
