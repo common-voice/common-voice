@@ -153,7 +153,7 @@ at Class.exports.up (/Users/admin/Desktop/myprojects/mozilla/common-voice-master
 [BE]       '    '
 ```
 
-1. In the error log, locate and open the associated migrations file (localed in the `/migrations` directory). In this case, the file is named `20180910121256-user-sso-fields.ts`.
+1. In the error log, locate and open the associated migrations file (located in the `/migrations` directory). In this case, the file is named `20180910121256-user-sso-fields.ts`.
 1. Locate the affected column declaration - revealed by the “sqlMessage” string in the error log - and remove the default declaration value i.e In our case, the column username will have a new declaration `ADD COLUMN username TEXT NOT NULL` instead of `ADD COLUMN username TEXT NOT NULL DEFAULT ‘ ’`
 1. Fixing one migration error will uncover another error in another migration file. Repeat the same process until there are no more migration errors.
 1. Discard all changes made to the relevant migration files.
