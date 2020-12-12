@@ -278,9 +278,9 @@ add-language = Magdagdag ng Wika
 
 ## FAQ
 
-faq-title = Frequently Asked Questions
+faq-title = Mga kadalasang tinatanong
 faq-what-cv-q = Ano ang Common Voice?
-faq-why-important-q = Bakit it mahalaga?
+faq-why-important-q = Bakit ito mahalaga?
 faq-why-mission-q = Bakit kasama sa misyong ng Mozilla ang Common Voice?
 faq-what-cv-and-deepspeech-q = Ano ang pinagkaiba ng Common Voice at Deep Speech?
 faq-why-my-lang-q = Bakit hindi kasama ang aking wika?
