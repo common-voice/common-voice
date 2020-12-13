@@ -462,9 +462,51 @@ awards = Къэхь
 you = Уэ/Фэ
 everyone = Елэжь псори
 contribution-activity = Iэпыкъу и тхыгъэ
+top-contributors = Iэпыкъу щхьэпэ
+recorded-clips = Макъыу тха / гъэӀуа
+validated-clips = Хэплъау щыт
+total-approved = Зыхэплъэжа псор
+overall-accuracy = Зыу гъэпса
+set-visibility = Сызылъагъ теухуэ
+show-ranking = Си рейтингыр гъэлъагъуэ
 
 ## Custom Goals
 
+get-started-goals = Гъэпс/ теухуэ
+create-custom-goal = Си гъэпс щIэдзэ
+both-speak-and-listen = ТIури
+both-speak-and-listen-long = ТIури (тхыи хэплъэж)
+daily-goal = Махуэ гъэпс
+weekly-goal = Тхьэмахуэ гъэпс
+easy-difficulty = Тыншщ
+average-difficulty = Курыт
+difficult-difficulty = Гугъу
+pro-difficulty = Iэзэ
+want-to-continue = Адэк1э птхыну?
+build-custom-goal = Си гъэпс щIэдзэ
+set-a-goal = Гъэпс, Теухуэ
+cant-decide = Иомыкурэ?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] Сыхьэт
+       *[other] Сыхьэту
+    }нэсыф{ NUMBER($periodMonths) ->
+        [one] мазэ
+       *[other] мазэу
+    }е{ NUMBER($people) ->
+        [one] цIыху
+       *[other] цIыхуу
+    }тхы{ NUMBER($clipsPerDay) ->
+        [one] кIэщI
+       *[other] кIэщIу
+    }зы махуэм.
+how-many-per-day = Лъэщ! Махуэм тхыгъэ дапщэ?
+how-many-a-week = Лъэщ! Тхьэмахуэм тхыгъэ дапщэ?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] тхыгъэ
+       *[other] тхыгъэу
+    }
 
 ## Profile Delete
 
