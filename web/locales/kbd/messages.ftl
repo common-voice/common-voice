@@ -453,7 +453,8 @@ validations =
 
 your-languages = Фи бзэ
 toward-next-goal = Пэщыт псыгъэ/Iуэху
-clips-you-recorded = Фыхэплъащ
+clips-you-recorded = Евгъэтхащ
+clips-you-validated = Фыхэплъащ
 
 ## Custom Goals
 
