@@ -378,6 +378,8 @@ faq-why-important-a =
 faq-how-get-q = Ni imbe njel mut a yé le a kôs mayaa ma makiñ ma Common Voice ?
 faq-how-get-a = Mayaa ma makiñ ma Common Voice ma ñodlana i si bitédél  bi <licenseLink>CC0</licenseLink> mabéhna i <datasetLink>Libap jés li mayaa</datasetLink>. U nla ki odol batjañndjoi ba mayaa bape i nlélém u libap.
 faq-when-release2-q = Keeki u gatjam mayaa ma Common Voice ni mahop mape ?
+faq-when-release2-a = Toga i mayaa ma Common Voice i mbuu mahop i ntédhana ni libônglana i masañga mana, ni hôla i mbuu limut. Ibale u yé le u gwés hôla bés le Common Voice a toa ni mahop ma mondo mape, leñ le jis i <sentenceCollectorLink>Kohlene i ntôñ bibuk</sentenceCollectorLink> inyu ikônde mintôñ mi bibuk mimpe i toga i mayaa, ni i <pontoonLink>Pontoon</pontoonLink> nu Mozilla inyu lihyelel website yomede. Mahop ma mondo ma nla ndigi kôndba i Common Voice inyu njañgi ibale 5000 di mintôñ mi makiñ mi nkémhana.
+faq-why-mission-q = Inyu kii Common Voice ayé nson wada ikéde minson mi Mozilla ?
 
 ## ABOUT US
 
