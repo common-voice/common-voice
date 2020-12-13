@@ -36,6 +36,7 @@ ba = Бэшкыр \ Бэшчыр
 bas = Басэ
 be = Урысыху \ Белорус
 bg = Бэлгъэр
+bm = Бэмбэр / Бэмбарэ
 bn = Бэнгэл
 br = Брытэн \ Бретэн
 bxr = Бурэт
@@ -308,18 +309,36 @@ about-become-a-partner = Лэжьэгъу хъун
 about-get-involved = Хэхьэ
 about-nav-why-common-voice = Сытым щхьа?
 about-nav-how-it-works = Дау?
+about-nav-partners = Лэжьэгъу
+about-nav-get-involved = Хэхьэ
 
 ## Glossary
 
+glossary = Псалъэхэр
+localization = Зэдзэк1а
+sst = Iуатэр тхыгъэу
+de-identified = Мыунэхуа
 
 ## Error pages
 
 
 ## Data
 
+data-download-yes = НытӀэ/Нт1э \ Ары
+data-download-deny = Хьэуэ/Хьэу
+data-other-goto = { $name }-м кӀуэ
+license-mixed = Зэхэт
+terms-agree = Сы аразыщ
+terms-disagree = Сы мы аразы
+review-recording = Хэплъэ
+review-rerecord = Тетхэж
+review-cancel = Йомыгъэхь
+review-keep-recordings = Си тхыгъэ хъумэ
+review-delete-recordings = Си тхыгъэ игъэкI
 
 ## Datasets Page
 
+cv-license = Лицэнз \ Лэценз
 
 ## Download Modal
 
