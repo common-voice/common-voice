@@ -347,6 +347,11 @@ record-voice-wave = YOÑ MBEBI-KIÑ
 retry-voice-wave-recording = TIIMBA
 re-record = TIIMBA-YOÑ
 delete-voice = SAS
+recording-voice-wave = Mayôña
+ready-to-upload = NYUGE
+avatar-clip-fact = Imbéna le, ingéda mut a ñañ matila i ngim lipep ndi a béngege ki libônglak li lini lipep, a ntek bé añ  nhyômôk.
+recreate-voice = Tiimba bok mbebi-kiñ
+cancel-avatar-clip-recording = BÔK
 
 ## FAQ
 
