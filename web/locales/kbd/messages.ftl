@@ -427,10 +427,17 @@ report-offensive-speech = Хъуэн псалэ
 report-offensive-speech-detail = Тхам хъуэн, пщ1эм еуэ псалъэ хэтщ
 report-other-comment =
     .placeholder = Тетхэ \ ЩIэтхэ
+continue = АдэкӀэ
 report-success = Хьэзыр/хъащ/ухащ
 
 ## Goals
 
+streaks = Махуэ зэпыту
+days =
+    { $count ->
+        [one] Махуэ
+       *[other] Махуэу
+    }
 
 ## Dashboard
 
