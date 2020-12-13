@@ -348,10 +348,14 @@ retry-voice-wave-recording = TIIMBA
 re-record = TIIMBA-YOÑ
 delete-voice = SAS
 recording-voice-wave = Mayôña
-ready-to-upload = NYUGE
+ready-to-upload = NYOS
 avatar-clip-fact = Imbéna le, ingéda mut a ñañ matila i ngim lipep ndi a béngege ki libônglak li lini lipep, a ntek bé añ  nhyômôk.
-recreate-voice = Tiimba bok mbebi-kiñ
+recreate-voice = Tiimba sék mbebi-kiñ
 cancel-avatar-clip-recording = BÔK
+about-avatar-clip-recording = Sék hikékét hi kiñ inyu ipôda hyo ni liñgeliñge i libôñ joñ. Ni ha, bôt bape ba ba ba wan, ba la emble we kiñ yoñ.
+browse-file-title = Nyos ngim titii
+browse-file = Yambal u yumbe tole <browseWrap>Hôndôk</browseWrap>
+connect-gravatar = Bogbe ni Gravatar
 
 ## FAQ
 
