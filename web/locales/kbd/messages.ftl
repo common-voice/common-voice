@@ -455,6 +455,13 @@ your-languages = Фи бзэ
 toward-next-goal = Пэщыт псыгъэ/Iуэху
 clips-you-recorded = Евгъэтхащ
 clips-you-validated = Фыхэплъащ
+todays-recorded-progress = Common Voice-м нобэ тхыгъэу ит
+todays-validated-progress = Common Voice-м нобэ тхыгъэу хэплъэжа
+stats = ЩытыкӀэ
+awards = Къэхь
+you = Уэ/Фэ
+everyone = Елэжь псори
+contribution-activity = Iэпыкъу и тхыгъэ
 
 ## Custom Goals
 
