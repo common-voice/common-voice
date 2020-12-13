@@ -379,9 +379,21 @@ other-language = Нэгъуэщ1 бзэ
 
 language-section-in-progress = Хьэзыр йокIуэкI
 language-section-launched = ЩIэдза
+languages-show-more = Бзэу нэхъ бэ
+languages-show-less = Бзэу нэхъ мащ1э
+language-meter-in-progress = Iуэхур зэрыкIуэ
+language-total-progress = Псори
+language-search-input =
+    .placeholder = Лъыхъу
+language-speakers = БзэIуэ
+localized = ЗэдзэкIа
+sentences = Псалъэ уха
+total-hours = Сыхьэт псори
 
 ## Contribution
 
+action-click = Теуэ
+action-tap = Iусэ
 
 ## Reporting
 
