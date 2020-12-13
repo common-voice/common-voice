@@ -13,7 +13,7 @@ email-opt-in-info-title = Common Voice имейл листым гухьэ / Comm
 email-opt-in-info-sub-with-challenge = Имейл къегъэх, гугъухь, Iуэху гугъэкIхэм, си щытыкIэ щIэм, Common Voice-м и хъыбархэм теухуау. \ Common Voice и хъыбарыщ1эхэм щыгъуазэн, тхыгъэхэр къы1эрыхьэн, щапхъэу, нэщэнэ гукъэгъэк1ыжыу.
 email-opt-in-privacy-v2 = Тхыгъэхэр къыф1эрыхьэну арэзыныгъэ тевдзамэ, Mozilla фи т1асхъэм ягъэпсэуалъэну ди <privacyLink>т1асхъэхъумэ политикэ </privacyLink> Mozilla хуэфащэу.
 indicates-required = * Хуе губгъуэр гъэунэху
-not-available-abbreviation = Нэд
+not-available-abbreviation = Нэд \ Хэмыт
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -21,31 +21,34 @@ not-available-abbreviation = Нэд
 
 ## Languages
 
-ab = Азгъэ, Апсуэ
-ace = Ачынэ
-ady = Адыгэ
-af = Африк
-am = Амхьэр
-an = Арэгуэн
+ab = Азгъэ, Апсуэ \ Абхъазыбзэ/Азгъэ
+ace = Ачынэ \ Ачэх
+ady = Адыгэ \ Адыгэбзэ/Адыгэ
+af = Африк \ Афрык1
+am = Амхьэр \ Амхэр
+an = Арэгуэн \ Арагуэн
 ar = Хьэрып
-arn = Мэпыдынгун
-as = Ассэмэ
+arn = Мэпыдынгун \ Мапуч
+as = Ассэмэ \ Асам
 ast = Астурий
 az = Азэр
-ba = Бэшкыр
-be = Урысыху
+ba = Бэшкыр \ Бэшчыр
+bas = Басэ
+be = Урысыху \ Белорус
 bg = Бэлгъэр
 bn = Бэнгэл
-br = Брытэн
+br = Брытэн \ Бретэн
 bxr = Бурэт
-ca = Къэталэ
+ca = Кэтэлан
 cak = Кэкъшык
+ckb = Кэкшык
 cnh = Хьэхъэ Чын
-cs = Чэх
-cv = Чууэш
-cy = Уэлыш
-da = Дэн
-de = Алмэн
+co = КуэрсыкI
+cs = Чэх/Чех
+cv = Чыуэш
+cy = Уэлыш / Уэлий
+da = Дэн \ Дан
+de = Алмэн \ Нэмыцэбзэ/Нэмыц/
 dsb = Сэрбий, ЩIагъ
 dv = Тхьыуэхь
 el = Алыдж
