@@ -334,6 +334,13 @@ edit = Kogol bitilna
 email-subscriptions = Litila jôl i Yuyut i bimél
 download-profile = Kôdôl minje nwem
 contribution-experience = Ntel u ngéda u bôdôl sange
+skip-submission-feedback = Tagbe lipéé minsangne
+skip-submission-description = Ingéda lisule njangi yoñ, ibale u nwot i "Sañge" wee unhim lipéé
+skip-submission-note = Yimbe le : Y abéda we le utep iṕola Pot ni Emble inyu lihéñha nya lisañgge.
+off = Lém
+on = Kwiye
+avatar-clip-title = Ti liñgeliňge yoň ngim kĩn
+change-your-avatar-clip = U gwéé ngôñ i héñha kiñ  yoñ  e ?
 
 ## FAQ
 
