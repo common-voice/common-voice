@@ -270,7 +270,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registrar/stoppar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-registrar retalio
-request-language-text = An tu non vide ancora tu lingua sur Common Voice?
+request-language-text = Non se trova tu lingua sur Common Voice?
 request-language-button = Propone un lingua
 
 ## ProjectStatus
