@@ -376,6 +376,8 @@ faq-why-important-a =
     Hop iyé bôg-ni-nyuu njel i bés bôt ba binam di nnôglana bés ni bés. Likeñge li makiñ li nso boñ le inya hikôm hi manôglana hini hi jôp yak i biordinateur ni i magwel-moo bitôôene bi mahop ni manwin. Ndi gwéé yéñe le di ti bakek makeñge maap, inya i yé le balaa kek bisoolene bi makiñ kiki bo lihyelel mahop i bitéé-bi-lôñ ni bikémél bi makin bipe. Ndi indéé ini di téé, i mintén mi mayaa ma makiñ ma mbéda inyu ihôlôs mini mintén mi bibañ manlôôha di die ndi ma bak ki imañan. Bot ñem yés i yé le mayaa ma makiñ ma Common Voice ma gahôlâ bakek makeñe i yom ba nsômbôl inyu boñ le ba éba ndaaba yap ni lihôlôs makeñge ma makiñ i mahop map.
     Inyu boñ le makeñge ma lisolol makiñ matjama ni mbok yosô, ndi nkôhle dikékét di makiñ i mahop ma makeñi ndi yak i dikuyeñge di mahop di yé le ma bakwagnyam ba bahôlôs lisolol makiñ ba mbéna nyaage. Litjam nya ndi nya i mayaa ma makiñ li nti bakek makeñge, babônde minson, ni maloñ maap le bomede bahôlôs ini yi.
 faq-how-get-q = Ni imbe njel mut a yé le a kôs mayaa ma makiñ ma Common Voice ?
+faq-how-get-a = Mayaa ma makiñ ma Common Voice ma ñodlana i si bitédél  bi <licenseLink>CC0</licenseLink> mabéhna i <datasetLink>Libap jés li mayaa</datasetLink>. U nla ki odol batjañndjoi ba mayaa bape i nlélém u libap.
+faq-when-release2-q = Keeki u gatjam mayaa ma Common Voice ni mahop mape ?
 
 ## ABOUT US
 
