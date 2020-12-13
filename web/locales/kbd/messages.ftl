@@ -394,6 +394,16 @@ total-hours = Сыхьэт псори
 
 action-click = Теуэ
 action-tap = Iусэ
+contribute = Хэгъахъуэ
+listen = ДаIуэ
+skip = БлэгъэкI \ Блэк1
+shortcuts = Теуэ зэгуэт
+clips-with-count-pluralized =
+    { $count ->
+        [one] пычыгъуэ
+       *[other] пычыгъуэу
+    }
+record-cta = Тхын щIэдзэ
 
 ## Reporting
 
