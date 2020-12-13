@@ -368,6 +368,7 @@ change-email-setings = Hyeñel mél yoñ ni njel Makégél isi Jôl li lijubul
 
 faq-title = Kom Mambadga
 faq-what-cv-q = Ki i yé Common Voice?
+faq-what-cv-a = Likeñge li isolol makiñ li nlôôha hyéñha manjel bôt ba binam ni bikey ba nnôgla, he ndugi le imuu ma makeñge ma ntôl ba, manlôôha die, mabak i imañan. Common Voice a bi bôda ni Mozilla inyu boñ  le likenge li isolol makiñ li kônde hoñ ni le ngandak i bôt i laa bôñôl jo. Common Voice a yé nlume u toga i minje mi minsañgge mi makiñ  ni nkoñ  hisi wonsô, u unti to nje mut njel le a laa hôlôs bisoolene bi makin, ni to umbe hop.
 
 ## ABOUT US
 
