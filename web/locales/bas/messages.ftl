@@ -325,6 +325,15 @@ profile-close = Yip
 profile-explanation = Hes mahol ma nson woñ kikii ka ngéda liyimbne joñ,  ni ihôla la mayaa ma makiñ més ma yét.
 thanks-for-account = Mayéga le u nkémhe likot joñ, naano, di bôdôl ni ôñ liyimbne joñ
 why-demographic = Inyu kii hala a yé nseñ ?
+why-demographic-explanation-2 = minsôak mi biyimbne bi mut kiki bo biman̂, libak li muda to mulôm, lipôdôl, mi nhôla inyu itibil méyha likenge li solol makiñ. Ngédi yoñ ndi to mél woñ bi gangwan̂hana bé ni kiñ yoñ iyé le u gasange; iloo ki la, u nla tep i yelel ngédi yoň tole i tjél yelel yo.
+accept-privacy = Me nti kunde le ni gwélél bini biyihne kiki ni nkobol i <privacyLink>Nkok u Matédés</privacyLink>
+accept-privacy-title = Nkok u Matédés
+login-identity = Jôl li majubul
+login-signup = Jôp / Pam
+edit = Kogol bitilna
+email-subscriptions = Litila jôl i Yuyut i bimél
+download-profile = Kôdôl minje nwem
+contribution-experience = Ntel u ngéda u bôdôl sange
 
 ## FAQ
 
