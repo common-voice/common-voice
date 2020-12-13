@@ -403,10 +403,31 @@ clips-with-count-pluralized =
         [one] пычыгъуэ
        *[other] пычыгъуэу
     }
+contribute-more =
+    { $count ->
+        [one] Ухьэзыр иджыри птыну?
+       *[other] Ухьэзыр иджыри птыну?
+    }
 record-cta = Тхын щIэдзэ
+record-abort-submit = Егъэхь пычыгъуэр
+record-abort-continue = Тхын ух
+record-abort-delete = КъикIи тхыгъэхэр их.
+listen-again-instruction = Лэжьыгъэ лъэщ! <playIcon></playIcon> Зэ едэ1уэж, фы хьэзырым.
+record-button-label = Уи макъ егъэтх
 
 ## Reporting
 
+report = Мыхъу-мыщ1эр гъэунэху/Тхьэусыхэ
+report-title = Тхыгъэ-мыхъум хэгъаплъэ / Тхьэусыхэ егъэхь.
+report-offensive-language = Хъуэн псалэ
+report-grammar-or-spelling = Грамэр/ орфограф щыуагъэ
+report-different-language = Нэгъэщ бзэ
+report-difficult-pronounce = БгъэIуэну гугъущ
+report-offensive-speech = Хъуэн псалэ
+report-offensive-speech-detail = Тхам хъуэн, пщ1эм еуэ псалъэ хэтщ
+report-other-comment =
+    .placeholder = Тетхэ \ ЩIэтхэ
+report-success = Хьэзыр/хъащ/ухащ
 
 ## Goals
 
