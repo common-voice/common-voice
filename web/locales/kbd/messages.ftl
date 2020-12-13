@@ -290,9 +290,24 @@ why-profile-title = Сыт профил щӀыхуер?
 
 ## FAQ
 
+faq-what-cv-q = Common Voice-р зи1ысыр сыт?
+faq-description = Common Voice-р Mozillam и жэрдэмщ, машынэхэр ирагъэсэну ц1ыху къызэрыгуэк1хэр зэрыпсалъэр къагуры1уэу.
+faq-search-for-answers =
+    .label = Пэджэж лъыхъуэн
 
 ## ABOUT US
 
+how-does-it-work-title = Мыр дэпхуэдэу зэрылажьэр?
+about-speak = КъаIуэ
+about-listen = Еда1уэ
+about-is-it-valid = Итхар захуэ?
+about-is-it-valid-text = "Ныт1э" къыхэпхым итхар тэмэму къилъытэнущ.
+about-clip-graveyard = "Тхыгъэ хэдза"
+about-partners = Лэжьэгъу
+about-become-a-partner = Лэжьэгъу хъун
+about-get-involved = Хэхьэ
+about-nav-why-common-voice = Сытым щхьа?
+about-nav-how-it-works = Дау?
 
 ## Glossary
 
