@@ -214,31 +214,79 @@ read-terms-q = Уеджа ди 1эмэпсымэхэр къызэрагъэсэ�
 ready-to-record = Ухьэзыр уи макъыр тыгъэу ептыну?
 all-locales = Псори/Псоу
 today = Нобэ
+x-weeks-short =
+    { $count ->
+        [one] тхьэмахуэ
+       *[other] тхьэмахуэу
+    }
+x-months-short =
+    { $count ->
+        [one] мазэ
+       *[other] мазэу
+    }
+x-years-short =
+    { $count ->
+        [one] илъэс
+       *[other] илъэсу
+    }
+help-make-dataset = Зэпэщу къызэгъэпэща тхыгъэ дывгъэщ1
+sign-up-account = Аккаунт щ1ын
+email-subscription-title = Хьыбарегъащ1эм 1э тедзэн
+email-subscription-title-new = 1э тедзэ Common Voice и хьыбарыщ1э нэщэнэхэр, зызужь прогрессхэр къып1эрыхьэну ухуемэ
 
 ## Account Benefits
 
+benefits = Дызэреф1эк1хэр
 
 ## What's public
 
+whats-public = Сыт худэ тхыгъэ псоми ялъэгъуфыр?
 
 ## Speak & Listen Shortcuts
 
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Къегъэуэн/къэгъэувы1эн, Гъэ1у/Щыгъэт,
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Тхын/къэгъэувы1эн, Тхы/Щыгъэт
+shortcut-rerecord-toggle-label = Пычыгъуэр щӀэу тхыж
+request-language-text = Зэк1э уи бзэр Common Voice-м хэту плъагъукъэ?
+request-language-button = Бзэм щӀэупщӀ
 
 ## ProjectStatus
 
+status-title = ?Прэектым и щытыкӀэ псор: еплъ уздынэсам!
+status-contribute = Уи макъыр егъэтх
+english = Инджылызыбзэ/Анджыл
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Анэдэлъхубзэ/Анэбзэ
 profile-form-native-language =
     .label = Анэдэлъхубзэ
+profile-form-accent =
+    .label = Акцент/
 profile-form-age =
     .label = Ныбжь
+profile-form-gender-2 =
+    .label = цӀыхухъу-цӀыхубз/
+leaderboard-visibility =
+    .label = Ищхьэм сыщыгъэлагъуэ
+hidden = Гъэпщк1уау / Былъа
+visible = Нэрылъагъуу / Хэщ
+native-language =
+    .label = Анэдэлъхубзэ \ Анэбзэ
+profile-form-submit-save = Хъумэ
+profile-form-submit-saved = Хъума
+male = ЦIыхухъу
+female = ЦIыхубз
+# Gender
+other = Нэгъуэщ1 \ НэмыщI
+why-profile-title = Сыт профил щӀыхуер?
 
 ## FAQ
 
