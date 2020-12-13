@@ -341,6 +341,12 @@ off = Lém
 on = Kwiye
 avatar-clip-title = Ti liñgeliňge yoň ngim kĩn
 change-your-avatar-clip = U gwéé ngôñ i héñha kiñ  yoñ  e ?
+recording-in-progress = Kiñ  yoñ  i nya nyôña
+avatar-clip-recorded = Naano liñgeliñge yoñ igwéé tôbôtôbô kiñ.
+record-voice-wave = YOÑ MBEBI-KIÑ
+retry-voice-wave-recording = TIIMBA
+re-record = TIIMBA-YOÑ
+delete-voice = SAS
 
 ## FAQ
 
