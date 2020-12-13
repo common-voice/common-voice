@@ -356,9 +356,18 @@ about-avatar-clip-recording = Sék hikékét hi kiñ inyu ipôda hyo ni liñge
 browse-file-title = Nyos ngim titii
 browse-file = Yambal u yumbe tole <browseWrap>Hôndôk</browseWrap>
 connect-gravatar = Bogbe ni Gravatar
+gravatar_not_found = Gravatar i nlébna bé inyu mél yoñ
+file_too_large = I titii u ntep i nlôôha yét
+manage-subscriptions = Libok biyuyut
+manage-email-subscriptions = Libok biyuyut bi mél
+email-already-used = Mut numpe a mbônôl ini mél i jut lipe
+add-language = Kônde hop
+change-email-setings = Hyeñel mél yoñ ni njel Makégél isi Jôl li lijubul
 
 ## FAQ
 
+faq-title = Kom Mambadga
+faq-what-cv-q = Ki i yé Common Voice?
 
 ## ABOUT US
 
