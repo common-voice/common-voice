@@ -362,14 +362,23 @@ download-no = Хьэу, упсэу
 
 ## Contact Modal
 
+contact-form-name =
+    .label = ЦIэ
+contact-form-message =
+    .label = Хъыбар
 
 ## Request Language Modal
 
+request-language-title = Бзэ хэтхэ
 request-language-form-language =
     .label = Бзэ
+select-language = Бзэ къыхэх
+other-language = Нэгъуэщ1 бзэ
 
 ## Languages Overview
 
+language-section-in-progress = Хьэзыр йокIуэкI
+language-section-launched = ЩIэдза
 
 ## Contribution
 
