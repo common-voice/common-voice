@@ -372,6 +372,10 @@ faq-what-cv-a =
     Likeñge li isolol makiñ li nlôôha hyéñha manjel bôt ba binam ni bikey ba nnôgla, he ndugi le imuu ma makeñge ma ntôl ba, manlôôha die, mabak i imañan. Common Voice a bi bôda ni Mozilla inyu boñ  le likenge li isolol makiñ li kônde hoñ ni le ngandak i bôt i laa bôñôl jo. Common Voice a yé nlume u toga i minje mi minsañgge mi makiñ  ni nkoñ  hisi wonsô, u unti to nje mut njel le a laa hôlôs bisoolene bi makin, ni to umbe hop. 
     Di nkot mayaa ma makiñ he ndigi i mahop makeñi ma nkoñ hisi bé ndi yak i mahop ma ma mpôda ndigi ni ndék i bôt. Litjam nya ndi nya i mayaa ma makiñ li nti bakek makeñge, babônde minson, ni maloñ maap le bomede bahôlôs ini yi. He ndigi Common Voice nyetama bé, ndi nsal yak inyu ikek tjañjoi nyum u soolene makiñ ndi sébél le Deep Speech
 faq-why-important-q = Kinje i yé nseñ ?
+faq-why-important-a =
+    Hop iyé bôg-ni-nyuu njel i bés bôt ba binam di nnôglana bés ni bés. Likeñge li makiñ li nso boñ le inya hikôm hi manôglana hini hi jôp yak i biordinateur ni i magwel-moo bitôôene bi mahop ni manwin. Ndi gwéé yéñe le di ti bakek makeñge maap, inya i yé le balaa kek bisoolene bi makiñ kiki bo lihyelel mahop i bitéé-bi-lôñ ni bikémél bi makin bipe. Ndi indéé ini di téé, i mintén mi mayaa ma makiñ ma mbéda inyu ihôlôs mini mintén mi bibañ manlôôha di die ndi ma bak ki imañan. Bot ñem yés i yé le mayaa ma makiñ ma Common Voice ma gahôlâ bakek makeñe i yom ba nsômbôl inyu boñ le ba éba ndaaba yap ni lihôlôs makeñge ma makiñ i mahop map.
+    Inyu boñ le makeñge ma lisolol makiñ matjama ni mbok yosô, ndi nkôhle dikékét di makiñ i mahop ma makeñi ndi yak i dikuyeñge di mahop di yé le ma bakwagnyam ba bahôlôs lisolol makiñ ba mbéna nyaage. Litjam nya ndi nya i mayaa ma makiñ li nti bakek makeñge, babônde minson, ni maloñ maap le bomede bahôlôs ini yi.
+faq-how-get-q = Ni imbe njel mut a yé le a kôs mayaa ma makiñ ma Common Voice ?
 
 ## ABOUT US
 
