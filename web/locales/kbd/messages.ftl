@@ -288,6 +288,7 @@ female = ЦIыхубз
 # Gender
 other = Нэгъуэщ1 \ НэмыщI
 why-profile-title = Сыт профил щӀыхуер?
+profile-close = ХуэщI
 
 ## FAQ
 
@@ -338,16 +339,34 @@ review-delete-recordings = Си тхыгъэ игъэкI
 
 ## Datasets Page
 
+language = Бзэ
+# File size in gigabytes
+size = Инагъ
+validated-hr-total = Сыхьэту хэплъа
+overall-hr-total = Сыхьэт псори
 cv-license = Лицэнз \ Лэценз
+audio-format = Аудио фэрмат
+number-of-voices = Макъ  бжыгъэ
+splits = Гуэш
+size-gigabyte = Гб
+size-megabyte = Мб
+missing-language = Уи бзэр хэмыт? Бзэм я напэм щыщ1эупщ1э.
+go-languages-page = Бзэм я напэр зэIух
+more = Иджыри \ Нэхъ бэу
+close = ХуэщI
+download = Къитхык1
 
 ## Download Modal
 
+download-no = Хьэу, упсэу
 
 ## Contact Modal
 
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Бзэ
 
 ## Languages Overview
 
