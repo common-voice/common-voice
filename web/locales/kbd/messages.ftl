@@ -2,16 +2,16 @@
 
 yes-receive-emails = НтIэ, имейл къегъэхь. Сыхуэйщ хъыбар сывгъэщIэну, бзэм и Iуэхур Common Voice-м зэрекIуэкI.
 stayintouch = Дэ, Mozilla-м, макъ и Iэмэ-псымэ зыужь гуп щыдоухуэ. Дыхует, нэхъыбэ къэтщIэну, и хъыбархэм дыкIэлъыплъыну, мы щIэу къежьэ макъ Iэмэ-псымэ щхьэпэ зэрыфхуэхъу.
-privacy-info = Псалъэ удот, уи инфор, фIыкIэ зетхьэну. Нэхъыбэу <privacyLink>"Щэху Тхыгъэм"</privacyLink> фыщеджэфынущ.
-return-to-cv = Common Voice-м гъэзэж
+privacy-info = Фыкъыдогъэгугъуэ фи т1асхъэм дыхуэсакъу дгъэпсэуалъэну. Нэхъ кууэ ди <privacyLink>т1асхъэхъумэ политикэм </privacyLink>итщ
+return-to-cv = Common Voice-м гъэзэжын/гъазэж/гъазэ
 email-input =
     .label = Имейл
-submit-form-action = Гъэхь
-loading = Йохъуэ…
-email-opt-in-info = Сыхуэйт имейл къэкIуэну, Iуэху гугъэкIхэм, си щытыкIэ щIэм, Common Voice-м и хъыбархэм теухуау.
-email-opt-in-info-title = Common Voice имейл листым гухьэ
-email-opt-in-info-sub-with-challenge = Имейл къегъэх, гугъухь, Iуэху гугъэкIхэм, си щытыкIэ щIэм, Common Voice-м и хъыбархэм теухуау.
-email-opt-in-privacy = Имейл къэкIуэну тевухуам, аразыу къывощтэ, Mozilla-м а инфо зырихьэну, Mozilla-м и <privacyLink>"Щэху Тхыгъэм"<privacyLink> зэрыхэщыу.
+submit-form-action = Гъэхь/Егъэхьын/егъэхь/утӀыпщ
+loading = Йохъуэ…/Иргъэхь…/йохъуэ/из мэхъу/
+email-opt-in-info = Сыхуэйт имейл къэкIуэну, Iуэху гугъэкIхэм, си щытыкIэ щIэм, Common Voice-м и хъыбархэм теухуау. / Сэ сыхуейщ мыпхуэдэ тхыгъэхэр къыс1эрыхьэну, си гу къэгъэк1ыжыпхъэу си нэщэнэм щхьа, гу къэгъэк1ыжыу хэхъуэхэми хьыбарыщ1эхэми Common Voice  теухуауэ.
+email-opt-in-info-title = Common Voice имейл листым гухьэ / Common Voice зэбгырыгъэк1ыным хыхьэн
+email-opt-in-info-sub-with-challenge = Имейл къегъэх, гугъухь, Iуэху гугъэкIхэм, си щытыкIэ щIэм, Common Voice-м и хъыбархэм теухуау. \ Common Voice и хъыбарыщ1эхэм щыгъуазэн, тхыгъэхэр къы1эрыхьэн, щапхъэу, нэщэнэ гукъэгъэк1ыжыу.
+email-opt-in-privacy-v2 = Тхыгъэхэр къыф1эрыхьэну арэзыныгъэ тевдзамэ, Mozilla фи т1асхъэм ягъэпсэуалъэну ди <privacyLink>т1асхъэхъумэ политикэ </privacyLink> Mozilla хуэфащэу.
 indicates-required = * Хуе губгъуэр гъэунэху
 not-available-abbreviation = Нэд
 
@@ -64,7 +64,6 @@ ga-IE = Ир
 gl = Гэлый
 ha = Хьэусэ
 he = Журт
-hi-IN = Хьинды
 hr = Хэруэт
 hsb = Сэрбий, Щхьэ
 hu = Мэджэр
@@ -80,7 +79,6 @@ kbd = Адыгэбзэ (Къэбэрдей)
 kk = Къэзахъ
 ko = Кэрей
 kpv = Куэми-Зыр
-ku = Курд
 kw = Куэр
 ky = Къыргъыз
 lg = Лыгуэ
@@ -203,7 +201,7 @@ profile-form-age =
 ## Glossary
 
 
-## NotFound
+## Error pages
 
 
 ## Data
@@ -243,4 +241,19 @@ profile-form-age =
 
 
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
 
