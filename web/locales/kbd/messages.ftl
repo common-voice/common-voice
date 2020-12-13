@@ -438,9 +438,22 @@ days =
         [one] Махуэ
        *[other] Махуэу
     }
+recordings =
+    { $count ->
+        [one] Тхыгъэ
+       *[other] Тхыгъэу
+    }
+validations =
+    { $count ->
+        [one] Хэплъэж
+       *[other] Хэплъэжу
+    }
 
 ## Dashboard
 
+your-languages = Фи бзэ
+toward-next-goal = Пэщыт псыгъэ/Iуэху
+clips-you-recorded = Фыхэплъащ
 
 ## Custom Goals
 
