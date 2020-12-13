@@ -507,12 +507,23 @@ n-clips-pluralized =
         [one] тхыгъэ
        *[other] тхыгъэу
     }
+confirm-goal = Псам тегъэзэж
+goal-interval-weekly = Тхьэмахуэ къэс
+share-goal-type-speak = Тхы
+share-goal-type-listen = Хэплъэ \ ДаIуэ \ У дэIу
+share-goal-type-both = Тхыи хэплъэж \ е дэIуэж
 
 ## Profile Delete
 
+keep = Къэгъэнэн/Игъэт
+remove = Игъэк1ын/Игъэк1
+profile-form-delete = Профилыр игъэкI
 
 ## Landing
 
+welcome-staff = Къеблагъэ, { $company } лэжьэгъухэ!
+login-company = Ихьэн/e-mail-ымкIэ зыхэтхэн
+read-more-about = Ди напэ-к1уэц1ым ттеухуау нэхъыбэ къафщ1э "Дэ"
 
 ## DemoLayout
 
