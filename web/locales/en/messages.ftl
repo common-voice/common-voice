@@ -533,7 +533,7 @@ dataset-date = Date
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixed
 data-download-singleword-title = Download the Single Word Target Segment
-data-download-singleword-callout = This is a use case driven segment containing data to power spoken digit recognition, yes / no detection, and wakeword testing data for <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = This is a use case driven segment containing data to power spoken digit recognition and yes / no detection.
 
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = I agree
