@@ -304,6 +304,7 @@ faq-is-goal-assistant-q = U scopu di Common Voice saria di custruisce un assiste
 faq-do-want-native-q = Issa lingua ùn hè micca a mè lingua materna è aghju un accentu, vuleti quantunque a mè voce ?
 faq-do-want-native-a = Iè, vulemu in particulari a vostra voce! Una parte di l'ughjettivu di Common Voice hè di riunisce u mori accenti sfarenti pussibule pà fà funziunà i servizii di ricunniscenza vucale ugualmente bè per tutti. Questu vole dì chì e cuntribuzione da lucutori non nativi sò particularmente impurtanti.
 faq-why-different-speakers-q = Parchì avete bisognu di tanti lucutori differente per ogni lingua ?
+faq-why-my-lang-q = Parchì a mè lingua ùn hè micca ghjà achjusa ?
 faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
 faq-why-10k-hours-a = Hè più o menu a quantità d'ore necessarii pà addestrà un sistemu di pruduzzione di voce-à-u-testu.
 faq-how-calc-hours-q = Di chì manera Common Voice calculeghja l'ore ?
@@ -399,18 +400,22 @@ download = Scaricà
 
 ## Landing
 
+read-more-about = Lighjiti di più annantu à a nostra paghjina Apprupositu
 
 ## DemoLayout
 
+demo-get-started = Principiemu
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice hè a più maiò banca di dati vucale in parechje lingue, dispunibule publicamente di u mondu.
 
 ## Demo Account
 
 
 ## Demo Contribute
 
+demo-listen-subtitle = Seti pronti à cuntribuà ?
 
 ## Demo Dashboard
 
