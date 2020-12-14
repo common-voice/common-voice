@@ -852,6 +852,8 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 card-button-next = Ɣer zdat
 card-button-back = Ɣer deffir
+demo-language-select-label = Inig gar tutlayin
+demo-eofy-header = Lqem n taggara n useggas 2019
 demo-account = Amiḍan
 
 ## Demo Account
