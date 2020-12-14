@@ -847,6 +847,7 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## DemoLayout
 
+demo-welcome = Ansuf ɣer Common Voice
 
 ## Demo Datasets
 
@@ -858,6 +859,9 @@ demo-account = Amiḍan
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Sekcem imayl i tuzna n useɣwen n ujerred
+demo-account-sign-up = Azen aseɣwen n ujerred
 
 ## Demo Contribute
 
