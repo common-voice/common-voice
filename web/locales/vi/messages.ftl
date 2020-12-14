@@ -145,6 +145,7 @@ uz = Uzbek
 vec = Venetian
 vi = Việt
 vot = Votic
+yue = Quảng Đông
 zh-CN = Trung (Trung Quốc)
 zh-HK = Trung (Hồng Kông)
 zh-TW = Trung (Đài Loan)

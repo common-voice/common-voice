@@ -145,6 +145,7 @@ uz = Wsbeceg
 vec = Venetieg
 vi = Fietnameg
 vot = Votig
+yue = Cantonëeg
 zh-CN = Tsieinëeg (Tsiena)
 zh-HK = Tsieinëeg (Hong Kong)
 zh-TW = Tsieinëeg (Taiwan)

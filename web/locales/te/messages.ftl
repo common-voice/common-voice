@@ -336,6 +336,7 @@ faq-why-10k-hours-q = ఆడియో సంగ్రహించడానిక
 faq-why-10k-hours-a = ఉత్పాదనస్థాయి వాచ్యం-నుండి-పాఠ్యపు వ్యవస్థకు శిక్షణ ఇవ్వడానికి సుమారు అన్ని గంటలు అవసరం.
 faq-how-calc-hours-q = గంటలను కామన్ వాయిస్ ఎలా లెక్కిస్తుంది?
 faq-where-src-from-2-q = మూల పాఠ్యం ఎక్కడ నుండి వస్తుంది?
+faq-why-not-ask-read-q = మీరు వివిధ భాషల్లో పుస్తకాలు లేదా వికీపీడియా వ్యాసాల నుండి చదవడానికి ప్రజలను ఎందుకు అడగరు?
 faq-why-account-q = నేను ఖాతా కోసం ఎందుకు నమోదుచేసుకోవాలి?
 faq-is-account-public-q = నా ఖాతా సమాచారం బహిరంగమా?
 faq-what-is-cv = కామన్ వాయిస్ అంటే ఏమిటి?
@@ -511,6 +512,7 @@ record-abort-title = ముందుగా రికార్డింగు మ
 record-abort-text = ఇప్పుడు వదిలివెళ్ళడమంటే మీ పురోగతినంతా కోల్పోతారు
 record-abort-submit = క్లిప్స్ సమర్పించండి
 record-abort-continue = రికార్డింగ్ ముగించు
+listen-instruction = { $actionType }<playIcon></playIcon> వారు ఈ వాక్యాన్ని సరిగ్గానే మాట్లాడారా?
 listen-last-time-instruction = <playIcon></playIcon> చివరిది!
 login-to-get-started = మొదలుపెట్టడానికి ప్రవేశించండి లేదా నమోదవ్వండి
 

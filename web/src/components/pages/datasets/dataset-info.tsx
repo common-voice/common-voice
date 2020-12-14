@@ -36,8 +36,8 @@ import {
 import './dataset-info.css';
 import URLS from '../../../urls';
 
-export const CURRENT_RELEASE = 'cv-corpus-5.1-2020-06-22';
-const SEGMENT_RELEASE = 'cv-corpus-5.1-singleword';
+export const CURRENT_RELEASE = 'cv-corpus-6.0-2020-12-11';
+const SEGMENT_RELEASE = 'cv-corpus-6.0-singleword';
 
 const DEFAULT_CATEGORY_COUNT = 2;
 
@@ -103,10 +103,10 @@ const formatHrs = (hrs: number) => {
 const byteToSize = (bytes: number, getString: Function) => {
   const megabytes = bytes / 1024 / 1024;
   return megabytes < 1
-    ? Math.floor(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
+    ? Math.round(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
     : megabytes > 1024
-    ? Math.floor(megabytes / 1024) + ' ' + getString('size-gigabyte')
-    : Math.floor(megabytes) + ' ' + getString('size-megabyte');
+    ? Math.round(megabytes / 1024) + ' ' + getString('size-gigabyte')
+    : Math.round(megabytes) + ' ' + getString('size-megabyte');
 };
 
 function renderStats(stats: any, bundleState: BundleState) {
@@ -314,6 +314,14 @@ const DownloadEmailPrompt = ({
     datasetVersion,
   } = formState;
 
+  const validDownload = (formState: any) => {
+    return (
+      emailInputRef.current?.checkValidity() &&
+      formState.confirmNoIdentify &&
+      formState.confirmSize
+    );
+  };
+
   const updateLink = async (bundleState: any, formState: any) => {
     // AWS CDN only supports files up to 20GB
     const useCDN = bundleState.rawSize < 20 * 1024 * 1024 * 1024;
@@ -325,17 +333,17 @@ const DownloadEmailPrompt = ({
       useCDN
     );
 
-    return emailInputRef.current?.checkValidity() &&
-      formState.confirmNoIdentify &&
-      formState.confirmSize
-      ? url
-      : null;
+    return validDownload(formState) ? url : null;
   };
 
   const saveHasDownloaded = async () => {
-    await api
-      .forLocale(bundleState.bundleLocale)
-      .saveHasDownloaded(email, bundleState.datasetVersion);
+    if (validDownload(formState)) {
+      await api.saveHasDownloaded(
+        email,
+        bundleState.bundleLocale,
+        bundleState.datasetVersion
+      );
+    }
   };
 
   const showEmailForm = () =>
@@ -495,7 +503,7 @@ const DatasetSegmentDownload = ({
     totalHours: formatHrs(stats.totalHrs),
     validHours: formatHrs(stats.totalValidHrs),
     rawSize: stats.overall.size,
-    datasetVersion: CURRENT_RELEASE,
+    datasetVersion: SEGMENT_RELEASE,
   };
 
   const dotSettings = {
@@ -511,17 +519,7 @@ const DatasetSegmentDownload = ({
         <h2 className="dataset-segment-callout">
           <Localized id="data-download-singleword-title" />
         </h2>
-        <Localized
-          id="data-download-singleword-callout"
-          elems={{
-            fxLink: (
-              <a
-                href="https://voice.mozilla.org/firefox-voice"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="Firefox Voice"></a>
-            ),
-          }}>
+        <Localized id="data-download-singleword-callout-v2">
           <p id="description-hours" />
         </Localized>
       </div>

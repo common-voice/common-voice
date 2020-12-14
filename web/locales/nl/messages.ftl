@@ -145,6 +145,7 @@ uz = Oezbeeks
 vec = Venetiaans
 vi = Vietnamees
 vot = Wotisch
+yue = Kantonees
 zh-CN = Chinees (China)
 zh-HK = Chinees (Hongkong)
 zh-TW = Chinees (Taiwan)

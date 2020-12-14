@@ -504,6 +504,8 @@ data-other-goto = Ddu ɣer { $name }
 data-other-download = Sider isefka
 data-bundle-button = Sider-d aqettun n tagrumma n yisefka
 data-bundle-description = Isefka Common Voice akked tigrummiwin meṛṛa n yisefka-nniḍen ddaw-a.
+release-version = Lqem
+dataset-date = Azemz
 license = Turagt: <licenseLink>{ $license }</licenseLink>
 license-mixed = Uxliḍ
 data-download-singleword-title = Sider aḥric iswi Single Word
@@ -679,6 +681,7 @@ share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 keep-track-profile = rnu amaɣnu akken ad twaliḍ ayen txedmed
 login-to-get-started = Kcem neɣ jerred akken ad tebduḍ
 target-segment-first-card = Tettekkaḍ deg taggayt-nneɣ tasaḍast tamezwarut
+target-segment-generic-card = Tettekkaḍ deg teggayt tasaḍast
 target-segment-first-banner = Mudd tallalt i tmerna n taggayt tasaḍast tamezwarut n Common Voice deg { $locale }
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar
@@ -844,15 +847,21 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## DemoLayout
 
+demo-welcome = Ansuf ɣer Common Voice
 
 ## Demo Datasets
 
 card-button-next = Ɣer zdat
 card-button-back = Ɣer deffir
+demo-language-select-label = Inig gar tutlayin
+demo-eofy-header = Lqem n taggara n useggas 2019
 demo-account = Amiḍan
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Sekcem imayl i tuzna n useɣwen n ujerred
+demo-account-sign-up = Azen aseɣwen n ujerred
 
 ## Demo Contribute
 

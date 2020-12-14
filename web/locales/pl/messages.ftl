@@ -145,6 +145,7 @@ uz = uzbecki
 vec = wenecki
 vi = wietnamski
 vot = wotycki
+yue = kantoński
 zh-CN = chiński (Chiny)
 zh-HK = chiński (Hongkong)
 zh-TW = chiński (Tajwan)

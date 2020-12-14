@@ -145,6 +145,7 @@ uz = Uzbekišćina
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+yue = Kantonšćina
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
@@ -879,6 +880,7 @@ read-more-about = Cytajśo wěcej wó boku Wó Common Voice
 
 demo-get-started = Zachopmy
 demo-welcome = Witajśo ku Common Voice
+demo-welcome-subheader = Cośo wěcej zgóniś a k projektoju pśinosowaś?
 
 ## Demo Datasets
 

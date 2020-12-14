@@ -145,6 +145,7 @@ uz = Oezbeeksk
 vec = Fenetiaansk
 vi = Fjetnameesk
 vot = Wotysk
+yue = Kantoneesk
 zh-CN = Sineesk (Sina)
 zh-HK = Sineesk (Hong Kong)
 zh-TW = Sineesk (Taiwan)

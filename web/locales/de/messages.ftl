@@ -145,6 +145,7 @@ uz = Usbekisch
 vec = Venezianisch
 vi = Vietnamesisch
 vot = Wotisch
+yue = Kantonesisch
 zh-CN = Chinesisch (China)
 zh-HK = Chinesisch (Hong Kong)
 zh-TW = Chinesisch (Taiwan)

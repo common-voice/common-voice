@@ -145,6 +145,7 @@ uz = Uzbeka
 vec = Venecia
 vi = Vjetnama
 vot = Vota
+yue = Kantona
 zh-CN = Ĉina (Ĉinio)
 zh-HK = Ĉina (Honkongo)
 zh-TW = Ĉina (Tajvano)
