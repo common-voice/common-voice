@@ -145,6 +145,7 @@ uz = Üzbég
 vec = Velencei
 vi = Vietnámi
 vot = Vót
+yue = Kantoni
 zh-CN = Kínai (Kína)
 zh-HK = Kínai (Hong Kong)
 zh-TW = Kínai (Tajvan)
