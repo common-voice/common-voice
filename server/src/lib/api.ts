@@ -19,7 +19,8 @@ import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
 import Challenge from './challenge';
-import { FeatureToken, FeatureType, features } from 'common';
+import { FeatureType, features } from 'common';
+import { TaxonomyToken, taxonomies } from 'common';
 
 const Transcoder = require('stream-transcoder');
 
@@ -132,14 +133,15 @@ export default class API {
     response: Response
   ) => {
     let featureResult = null;
+    const featureObj = features[feature];
 
     try {
-      const featureToken = feature as FeatureToken;
-      const featureObj = features[featureToken];
-
       if (
         featureObj &&
-        (!featureObj.locales || featureObj.locales.includes(locale)) &&
+        ((featureObj.taxonomy &&
+          taxonomies[featureObj.taxonomy] &&
+          taxonomies[featureObj.taxonomy].locales.includes(locale)) ||
+          featureObj.taxonomy === undefined) &&
         getConfig()[featureObj.configFlag as keyof CommonVoiceConfig]
       ) {
         featureResult = featureObj;

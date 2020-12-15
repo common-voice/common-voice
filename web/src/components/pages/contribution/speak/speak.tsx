@@ -292,7 +292,7 @@ class SpeakPage extends React.Component<Props, State> {
     const length = this.recordingStopTime - this.recordingStartTime;
     const currentSentence = this.state.clips[this.getRecordingIndex()].sentence;
     const minClipLength =
-      currentSentence.taxonomy === 'Benchmark'
+      currentSentence.taxonomy.name === 'Benchmark'
         ? MIN_RECORDING_MS_BENCHMARK
         : MIN_RECORDING_MS;
 
