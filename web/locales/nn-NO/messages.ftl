@@ -502,7 +502,7 @@ data-bundle-description = Data frå Common Voice pluss alle andre stemmedatasett
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blanda
 data-download-singleword-title = Last ned målsegmentet for eitt ord
-data-download-singleword-callout = Dette er eit brukstilfelle-drive segment som inneheld data for å styrkje attkjenning av talte siffer, ja/nei-attkjenning og oppvakningsord-testdata for <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Dette er eit brukstilfelle-drive segment som inneheld data for å styrkje attkjenning av talte siffer og ja/nei-attkjenning.
 review-terms = Ved å bruke Common Voice, godkjenner du <termsLink>vilkåra</termsLink> og <privacyLink>personvernpraksisen</privacyLink> vår
 terms-agree = Eg er samd
 terms-disagree = Eg er ikkje samd
@@ -838,3 +838,18 @@ help-contribute = Du kan hjelpe til med å byggje eit mangfaldig, ope datasett v
 login-company = Logg inn/Registrer deg med { $company } e-post
 profile-not-required = Du treng ikkje ein konto for å bidra, men det hjelper. Sjå kvifor nedanfor.
 read-more-about = Les meir på Om oss-sida vår
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
