@@ -70,7 +70,7 @@ export default class Bucket {
           console.log(
             `clip_id ${id} by ${client_id} for sentence ${original_sentence_id} is smaller than 256 bytes`
           );
-          await this.model.db.deleteClip(id);
+          await this.model.db.deleteClip(id.toString());
           await this.s3.deleteObject(
             {
               Bucket: getConfig().CLIP_BUCKET_NAME,
