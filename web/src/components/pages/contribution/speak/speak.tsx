@@ -291,10 +291,9 @@ class SpeakPage extends React.Component<Props, State> {
   private getRecordingError = (): RecordingError => {
     const length = this.recordingStopTime - this.recordingStartTime;
     const currentSentence = this.state.clips[this.getRecordingIndex()].sentence;
-    const minClipLength =
-      currentSentence.taxonomy === 'Benchmark'
-        ? MIN_RECORDING_MS_BENCHMARK
-        : MIN_RECORDING_MS;
+    const minClipLength = currentSentence.taxonomy
+      ? MIN_RECORDING_MS_BENCHMARK
+      : MIN_RECORDING_MS;
 
     if (length < minClipLength) {
       return RecordingError.TOO_SHORT;

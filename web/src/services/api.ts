@@ -2,7 +2,7 @@ import { AllGoals, CustomGoalParams } from 'common';
 import { LanguageStats } from 'common';
 import { UserClient } from 'common';
 import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
-import { FeatureToken, FeatureType } from 'common';
+import { FeatureType } from 'common';
 import { Sentence, Clip } from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
@@ -439,7 +439,7 @@ export default class API {
     return null;
   }
 
-  getFeatureFlag(feature: string, locale: string): Promise<FeatureType> {
+  async getFeatureFlag(feature: string, locale: string): Promise<FeatureType> {
     return this.fetch(`${API_PATH}/feature/${locale}/${feature}`, {
       method: 'GET',
     });

@@ -465,13 +465,13 @@ class ContributionPage extends React.Component<Props, State> {
                           {sentence?.text}
                           {sentence?.taxonomy ? (
                             <div className="sentence-taxonomy">
-                              <Localized id="target-segment-first-card">
+                              <Localized id="target-segment-generic-card">
                                 <span className="taxonomy-message" />
                               </Localized>
                               <StyledLink
                                 className="taxonomy-link"
                                 blank
-                                href={URLS.TARGET_SEGMENT_INFO}>
+                                href={`${URLS.GITHUB_ROOT}/blob/main/docs/taxonomies/${sentence.taxonomy.source}.md`}>
                                 <ExternalLinkIcon />
                                 <Localized id="target-segment-learn-more">
                                   <span />

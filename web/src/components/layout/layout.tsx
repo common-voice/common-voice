@@ -35,7 +35,6 @@ import {
   ChallengeToken,
   challengeTokens,
   FeatureType,
-  FeatureToken,
   features,
 } from 'common';
 import API from '../../services/api';
