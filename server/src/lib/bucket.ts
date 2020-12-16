@@ -67,23 +67,23 @@ export default class Bucket {
             audioSrc: this.getPublicUrl(path),
           });
         } else {
-          console.log(
-            `clip_id ${id} by ${client_id} for sentence ${original_sentence_id} is smaller than 256 bytes`
-          );
+          console.log(`clip_id ${id} at ${path} is smaller than 256 bytes`);
           await this.model.db.deleteClip(id.toString());
           await this.s3.deleteObject(
             {
               Bucket: getConfig().CLIP_BUCKET_NAME,
               Key: path,
             },
-            () => {
-              console.log(`deleted clip_id ${id} at ${path} from S3`);
+            (err, data) => {
+              if (err) console.log(err.message);
+              else console.log(`deleted clip_id ${id} at ${path} from S3`);
             }
           );
         }
 
         if (clipPromises.length == count) break;
       } catch (e) {
+        console.log(e.message);
         console.log(`aws error retrieving clip_id ${id}`);
       }
     }

@@ -624,7 +624,7 @@ export default class DB {
     const localeId = locale ? await getLocaleId(locale) : null;
 
     const intervals = [
-      '15 MONTH',
+      '100 YEAR',
       '12 MONTH',
       '9 MONTH',
       '6 MONTH',
@@ -991,6 +991,9 @@ export default class DB {
   }
 
   async deleteClip(id: string) {
+    await this.mysql.query(`DELETE FROM clip_demographics WHERE clip_id = ?`, [
+      id,
+    ]);
     await this.mysql.query(`DELETE FROM votes WHERE clip_id = ?;`, [id]);
     await this.mysql.query(`DELETE FROM clips WHERE id = ? LIMIT 1;`, [id]);
     console.log(`Deleted clip and votes for clip ID ${id}`);

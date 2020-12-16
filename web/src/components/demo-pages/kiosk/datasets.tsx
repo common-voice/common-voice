@@ -35,12 +35,6 @@ const getDatasetsComponents = (): PageContentType => {
         <div className="white-bg">
           <div className="demo-datasets--eofyr">
             <hr id="hr-gradient-fill" />
-            <Localized id="demo-eofy-header">
-              <h1 id="demo-datasets--eofyr__header" />
-            </Localized>
-            <Localized id="demo-eofy-sub_header">
-              <p id="demo-datasets--eofyr__subheader" />
-            </Localized>
             <DatasetsDescription {...{ releaseName: CURRENT_RELEASE }} />
           </div>
         </div>

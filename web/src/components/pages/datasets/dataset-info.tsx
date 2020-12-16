@@ -586,11 +586,6 @@ class DatasetInfo extends React.Component<Props> {
 
     return (
       <div className="dataset-info">
-        <div className="dataset-segment-download">
-          <ConnectedSegmentDownload
-            {...{ releaseName: SEGMENT_RELEASE, getString }}
-          />
-        </div>
         <div className="top">
           <div className="cloud-circle">
             <CloudIcon />
@@ -602,6 +597,11 @@ class DatasetInfo extends React.Component<Props> {
         </div>
         <div className="description">
           <DatasetsDescription {...{ releaseName: CURRENT_RELEASE }} />
+        </div>
+        <div className="dataset-segment-download">
+          <ConnectedSegmentDownload
+            {...{ releaseName: SEGMENT_RELEASE, getString }}
+          />
         </div>
       </div>
     );
