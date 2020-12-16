@@ -181,9 +181,9 @@ wall-of-text-start = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala
 wall-of-text-more-mobile = Jôga li mayaa ma makiñ ma mbom i mandam ma kégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñnge li isolol makiñ, to nje a la gwélél jo.
 wall-of-text-more-desktop = I bitéé li lôñ, u nla sañge kiñ yoñ inyu hôla lioñ tjañ-njoi toga i makiñ, nu himut a nla bôñôl, ni ôô bihélha bi bibañ binkiha ni nya-ndi-nya i bikey, to ni web. Añ nlôñ u matila inyu hôla bikey le binigil lela bôt ba binam ba mpot i ntiik u lipodok. Emble makiñ ma bôt bape ba mbôk ba sañge, ka yé le nson u yét. Hala a nlôô yaga bé let pak!
 wall-of-text-first = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge ni njel i bikey gwés, ma nla hôla i kek kiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
-wall-of-text-second = Jôga li mayaa ma makiñ ma mbom i mandam ma kégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñnge li isolol makiñ, to nje a la gwélél jo.
+wall-of-text-second = Jôga li mayaa ma makiñ ma mbom i mandab ma likégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñnge li isolol makiñ, to nje a la gwélél jo.
 show-wall-of-text = Kônde añ
-help-us-title = Hôla bés i kémhe le ntôñ u bibuk u héli.
+help-us-title = Hôla bés i nneebe le ntôñ u bibuk u héli.
 help-us-explain = Nwot play, emble ni kal bés : ba u ntôñ bibuk u yé ha isi, u ñéña loñge?
 no-clips-to-validate = I nnene u yik we makiñ ma nsot inyu liemble munu unu hôp. Soho hôla bés le dikônde nôbe ndék i makiñ munu.
 vote-yes = Nn!
@@ -191,10 +191,10 @@ vote-no = To
 toggle-play-tooltip = Nwot { shortcut-play-toggle } inyu liheñla i ka-play
 speak-subtitle = Pôôs kiñ yoñ.
 speak-paragraph = Lisange makiñ liyé hipa hyada ikédé dipa dipe di ngwélél inyu ligwo mayaa ma minje, mabak kunde ibônôl: bebek uyé le uhoñol kikii ngandak ibot ipe i nhoñol le, inya nson i, iyé minyaô.
-speak-goal-text = Minsangge mi makiñ
+speak-goal-text = Minsangge mi dikékét di makiñ
 listen-subtitle = Hôla bés i kémhe le kiñ i héli.
 listen-paragraph = Likémhe le kiñ i héli liyé nseñ ngandak inyu nson u digwéé i sal i Common Voice. Yoñ ndék ngéda i emble, ka iyé le, hala a laa hôla bés i ôô mayaa ma minje mii makiñ, ma ma gwéé nseñ
-listen-goal-text = Minyigyege mi makiñ
+listen-goal-text = Minneebege mi dikékét di makiñ
 hours-recorded = Nsongi u mangeñ u minsangge mi makiñ
 hours-validated = Nsongi u mangeñ u minyigyege mi makiñ
 voices-online = Makiñ ma mayé i mpee, hanano
@@ -380,7 +380,9 @@ faq-how-get-a = Mayaa ma makiñ ma Common Voice ma ñodlana i si bitédél  bi
 faq-when-release2-q = Keeki u gatjam mayaa ma Common Voice ni mahop mape ?
 faq-when-release2-a = Toga i mayaa ma Common Voice i mbuu mahop i ntédhana ni libônglana i masañga mana, ni hôla i mbuu limut. Ibale u yé le u gwés hôla bés le Common Voice a toa ni mahop ma mondo mape, leñ le jis i <sentenceCollectorLink>Kohlene i ntôñ bibuk</sentenceCollectorLink> inyu ikônde mintôñ mi bibuk mimpe i toga i mayaa, ni i <pontoonLink>Pontoon</pontoonLink> nu Mozilla inyu lihyelel website yomede. Mahop ma mondo ma nla ndigi kôndba i Common Voice inyu njañgi ibale 5000 di mintôñ mi makiñ mi nkémhana.
 faq-why-mission-q = Inyu kii Common Voice ayé nson wada ikéde minson mi Mozilla ?
-faq-what-determine-identity-a = Liyaa li minje li Common Voice tjañdjoi ni kunde le himut a nla gwélél inyu ihôlôs nyandinya i makenge ma makiñ. Di gwéé nduña le basañge makiñ jam libe litômla bañ bo, inyu hala nyen di nyegsa himut a nkohol minje i mayaa ma Common Voice le a nôñôl matédél.
+faq-what-determine-identity-a =
+    Mayaa ma minje ma Common Voice ma yé tjañdjoi ni kunde le himut a nla gwélél mo inyu ihôlôs nyandinya i makenge ma makiñ. Di gwéé nduña le basañge makiñ jam libe litômla bañ bo, inyu hala nyen di nyegsa himut a nket minje i mayaa ma Common Voice le a nôñôl matédél.
+    Yimbe i jôl to libak li mut gwokigwo bi nnene bé i dikékét di makiñ diyé i mayaa ma minje. Hindéé mut a nket liyaa li minje, a nkum soñ le a gayéñ bé iyi njemut a bisañge nwo. Hala a nkobla le mut a tabé kunde i béé i biniigana bi nkiha ni mayaa inyu too njañ i basañge. Yom himut a yé kunde i boñ i yé libéé i mayaa ma minje inyu ihôlôs lisolol makiñ, tole isolol kiñ i ngim mut tôbôtôbô, ni minsélél mi makiñ mimpe ki. Inyu isal inya nson i, kunde i yé le mut a nla béé i biniigana bi nkiha ni mayaa, ni noñga gwo ni biniigana bipe biyé mu i minlélém mi mayaa.
 
 ## ABOUT US
 
