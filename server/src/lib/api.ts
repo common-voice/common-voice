@@ -414,14 +414,10 @@ export default class API {
   };
 
   insertDownloader = async (
-    { client_id, params, body }: Request,
+    { client_id, body }: Request,
     response: Response
   ) => {
-    await this.model.db.insertDownloader(
-      params.locale,
-      body.email,
-      body.dataset
-    );
+    await this.model.db.insertDownloader(body.locale, body.email, body.dataset);
     response.json({});
   };
 

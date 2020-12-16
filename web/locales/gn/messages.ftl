@@ -514,6 +514,8 @@ data-other-goto = Eho { $name }-pe
 data-other-download = Emboguejy Mba’ekuaarã
 data-bundle-button = Emboguejy Kuaapy'aty Apakuapy
 data-bundle-description = Common Voice kuaapy ha avei opaite ambue ñe’ẽryapu kuaapy’aty yvatepegua.
+release-version = Peteĩchagua
+dataset-date = Mba’ekuaarã
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
 data-download-singleword-title = Emboguejy Ñe’ẽryapu Pehẽ’i
@@ -854,3 +856,23 @@ help-contribute = Ndéniko reipytyvõkuaa rojapo hag̃ua ko tembiapo porãite, h
 login-company = Eike / Eñemboheraguapy ñe’ẽveve { $company } pegua reheve
 profile-not-required = Natekotevẽi rejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapóramo, ko guýpe romyesakãmive mba’érepa.
 read-more-about = Eikuaave kóva rehe ore Mba’e rehegua roguépe
+
+## DemoLayout
+
+
+## Demo Datasets
+
+card-button-next = Upeigua
+card-button-back = Tapykue
+demo-account = Mba’ete
+
+## Demo Account
+
+demo-account-sign-up = Emondo mboheraguapy juajuha
+
+## Demo Contribute
+
+demo-listen-subtitle = ¿Mba’éicha eipytyvõta?
+
+## Demo Dashboard
+

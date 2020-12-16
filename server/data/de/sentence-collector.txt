@@ -501,6 +501,7 @@ Alex ist die Abkürzung für Alexander, aber auch für den Alexanderplatz in Ber
 Alexa muss sich versprochen haben.
 Alexa, frag doch einmal Siri, was dieses Common Voice sein soll!
 Alexander bringt seiner Angebeteten einen stinkenden Fisch mit.
+Alexander hat seinen dritten Wagen in Folge durch einen Auffahrunfall beschädigt.
 Alfons blieb die Spucke weg.
 Alfred macht sich auf nach Oberhausen.
 Ali macht nur eine gute Miene zum bösen Spiel.
@@ -1051,11 +1052,13 @@ Am meisten wird der Schokokuchen verkauft.
 Am nächsten Morgen waren die Bedenken wie verflogen.
 Am nächsten Samstag wartet ein wahrer Angstgegner auf die Eintracht.
 Am schnellsten kommen die Freistil-Schwimmer voran.
+Am sechsten Dezember feierten wir gemeinsam den zweiten Advent.
 Am sechsten Tage wurden die Brüder zu den Waffen gerufen.
 Am sichersten geht es mit einem Certificate Signing Request.
 Am sichersten ist mein Geld unterm Kopfkissen.
 Am späten Nachmittag kamen wir in Hamburg an.
 Am späten Nachmittag wird dann wahrscheinlich noch die Preisverleihung stattfinden.
+Am vierundzwanzigsten Dezember ist Heiligabend.
 Am Äquator ist die Umfangsgeschwindigkeit der Erde jedoch höher.
 Amadeus war genervt, dass alle die seinen Namen hörten, anfingen dieses Lied zu summen.
 Amanda Hollis glaubte, im Kopf nicht ganz richtig zu sein.
@@ -1977,6 +1980,7 @@ Beehren Sie uns bald wieder!
 Beenden Sie den Disput schnellstmöglich und kümmern Sie sich um die wichtigen Fragen.
 Beenden Sie diesen Eiertanz!
 Beendet eure Aufnahmen bitte zeitig.
+Beerdigen Sie uns bald wieder!
 Beete haben nichts mit Beeten zu tun.
 Beethoven war taub.
 Befehl ist Befehl!
@@ -2531,6 +2535,7 @@ Bis wann geht das denn noch?
 Bis wohin kannst du zählen?
 Bis zu drei Karten kann man so in einer Runde aufnehmen.
 Bis zu seinem sechsten Lebenjahr hat er nicht geraucht, gesoffen und herumgevögelt.
+Bis zu seiner Heirat hatte Dieter vier Sexualpartnerinnen, eine davon war seine künftige Ehefrau.
 Bis zu welcher Geschwindigkeit bestehen Omnibusse den Elchtest?
 Bis zu welcher Tauchtiefe wurde dieses U-Boot geprüft?
 Bis zum Ende des Urlaubs will ich das gelernt haben.
@@ -5267,6 +5272,7 @@ Der Baum hinten links im Bild verliert ein Blatt.
 Der Baum verliert schon seine Rinde.
 Der Beamte ist jeden Pfennig seiner Besoldung wert.
 Der Bebauungsplan verpflichtet Eigentümer, mindestens einen heimischen Baum zu pflanzen.
+Der Begriff Eiszeit hat eine historische Entwicklung durchlaufen, die bis heute zu Verwirrungen führt.
 Der Begriff Yuppie ist ein Akronym und steht für das englische young urban professional.
 Der Behälter ist hermetisch abgeschlossen.
 Der Bergsteiger hat Vorfahrt.
@@ -7268,6 +7274,7 @@ Die gehäckselten Zweige und Äste kann man anschließend als Dünger auf die Be
 Die gelb-grüne Flüssigkeit kannte Mike irgendwo her.
 Die gelben Gummibärchen mag ich am liebsten.
 Die gelernte Einzelhandelskauffrau blieb skeptisch.
+Die gemessene Temperatur lag bei siebenunddreißig Grad und war somit leicht erhöht.
 Die genaue Höhe berechnet sich nach der Anzahl der Tage.
 Die gerade erst neu hinzugekommene legt ein beträchtliches Tempo vor.
 Die gesamte Fastenzeit nicht zu Lügen, als Verzicht sozusagen.
@@ -8415,6 +8422,7 @@ Ein Déjà-vu ist ein Anzeichen, dass die Matrix geändert wurde.
 Ein Eigenbau ist nicht immer die billigste Lösung.
 Ein Einkaufswagen voller Blaubeeren.
 Ein Eishockeyspieler checkt den anderen hart in die Bande, so dass es scheppert.
+Ein Eiszeitalter umfasst sowohl die Kaltzeiten als auch die dazwischenliegenden Warmzeiten.
 Ein Erdrutsch hat den Tunneleingang versperrt.
 Ein Fahrrad kostet nur einen Bruchteil davon.
 Ein Fahrrad sollte man dabei haben.
@@ -9505,6 +9513,7 @@ Er wünschte noch eine baldige Genesung.
 Er zieht eine Schleimspur hinter sich her.
 Er zieht sich irgendeine Dokumentation über den legalen Anbau von Cannabis rein.
 Er zog kräftig an seinem Joint und fing dann an lauthals zu lachen.
+Er zählte bis zwanzig und machte sich auf die Suche nach seinen versteckten Freunden.
 Erbost kehrte Frau Schimmel um.
 Erdbeere und Zitrone kommen auch recht häufig vor.
 Erdbeermarmelade kombiniert mit Eis und Waffeln.
@@ -10233,6 +10242,7 @@ Expressbusse sind ja ganz schön, aber ich hätte lieber eine Bahnlinie.
 Exzessiv ist noch untertrieben.
 Ey Mann, wo ist mein Auto?
 Ey steht am Bahnhof und verkauft Pommes.
+Ey, den kenne ich doch vom Fußball!
 Ey, du Opfer!
 Fabi hilft Herrn Brendel aus der Patsche.
 Fabi und Niko blieben bis in die frühen Morgenstunden wach.
@@ -11001,6 +11011,7 @@ Gema erlaubt ihren Kreativen nicht, ausgewählte Musikstücke unter Creative Com
 Gemeinsam gruben Sie die Leiche tief im Wald ein.
 Gemeinsam kriegen wir das schon gewuppt.
 Gemeinsam marschieren sie zum Protest vor dem Rathaus.
+Gemeinsam mit Oma habe ich zu Ostern dreißig Eier gefärbt.
 Gemeinsam sind wir dumm!
 Gemeinsam sind wir stark.
 Gemeinwohl hat Vorrang gegenüber Einzelinteressen.
@@ -12451,6 +12462,7 @@ Ich bedaure diesen armen Wurm.
 Ich beklage mich nicht, aber ich möchte genauere Informationen.
 Ich bekomm die Krise.
 Ich bekomme mich kaum ein vor lachen.
+Ich benutze übrigens Arch Linux.
 Ich berichte live aus der Quarantäne bei mir zu Hause.
 Ich besitze zehn schwarze T-Shirts für den Alltag.
 Ich bestell sie dir jetzt.
@@ -12889,6 +12901,7 @@ Ich habe noch nie geschmeckt, ob der Käsekuchen selbstgemacht war oder nicht.
 Ich habe noch nie in meinem Leben eine Bewerbung schreiben müssen.
 Ich habe noch nie so eine hässliche Stadt gesehen.
 Ich habe noch nie so viel Unsinn in einem einzigen Artikel gelesen.
+Ich habe noch zwei Äpfel über, bringst du bitte ein Kilo mit?
 Ich habe nur eine Niere, die zweite wurde mir entfernt.
 Ich habe nur einen Hunderter und einen Zwanziger.
 Ich habe nämlich vergessen, meinen Schlüssel aus der Hosentasche zu nehmen.
@@ -14068,6 +14081,7 @@ In dem Moment bekam ich weiche Knie.
 In dem Moment hatte sie noch nicht realisiert, wie desolat die Lage war.
 In dem Moment meldet sich der Pilot mit einer Durchsage.
 In dem Moment musste Mark wohl geistesabwesend gewesen sein.
+In dem Neubaugebiet sollen sechs Mehrfamilienhäuser mit jeweils drei Etagen entstehen.
 In dem Sachgebiet G ist die Vollstreckung mit den Vollziehern von Bundesforderungen zusammengefasst.
 In dem Schneckentempo werden wir morgen noch nicht angekommen sein.
 In dem Schneegestöber sah man seine Hand vor Augen nicht.
@@ -14183,6 +14197,7 @@ In der Spüle stapelte sich das Geschirr.
 In der Stadt gibt es ein Appartmentgebäude nur für reiche Menschen.
 In der Steppe leben Antilopen und Gazellen.
 In der Straßenbahn musst du dich gut anhalten.
+In der Streichholzschachtel waren noch sieben Streichhölzer.
 In der Talkshow geht es insbesondere um soziale Aspekte.
 In der Tat kann ein Rentier verdammt schnell rennen, wenn es will.
 In der Tiefe ist der Wasserdruck höher.
@@ -14426,6 +14441,7 @@ Ingrid Zeller will sich ihr Muttermal chirurgisch entfernen lassen.
 Inmitten irrsinniger Idioten inhaliert Irmgard ihren Ingwertee.
 Innerhalb kürzester Zeit wird die Landebahn mit einem Schaumteppich bedeckt.
 Innerhalb weniger Minuten schlabberte der Vierbeiner restlos alles weg.
+Innovation kommt ja auch von Regelbruch.
 Insbesondere Entscheider in Wirtschaft und Politik sollten sich damit auskennen.
 Insbesondere da es ein Jugendwort ist, liegt die Vermutung doch irgendwie nahe.
 Insbesondere dann, wenn es sich bei dem Objekt um ein männliches handelt.
@@ -14560,6 +14576,7 @@ Ist Common Voice zusammengebrochen?
 Ist Glück erstrebenswert?
 Ist Herr Bethke so kamerascheu?
 Ist Ryanair nicht eine irische Airline?
+Ist Schwarzarbeit ein Kavaliersdelikt?
 Ist Scooter nicht eine Band?
 Ist Siegmund jetzt dein Vater oder dein Sohn?
 Ist Stagnation denn etwas Schlechtes?
@@ -14940,6 +14957,7 @@ Jede Münze hat zwei Seiten.
 Jede Münze hilft, das Leiden zu lindern.
 Jede Nacht wiederholt sich derselbe Traum.
 Jede Nutzung zählt somit als legitime Benutzung.
+Jede Packung enthält zehn Wurstscheiben.
 Jede Partei oder Religion darf von Satire durch den Kakao gezogen werden.
 Jede Repräsentation hat ihre Stärken und Schwächen in anderen Anwendungsfällen.
 Jede Reservierung kostet Aufpreis.
@@ -17152,6 +17170,7 @@ Mehrmals hast du den Bus verpasst.
 Mei, das scheint eine schwere Fehleinschätzung zu sein.
 Mei, hast du eine aufgesetzte Heiterkeit, das macht mich direkt aggressiv.
 Meier konnte sich auf eigene Faust befreien.
+Mein Akku gibt schon wieder den Geist auf?
 Mein Akku ist fast leer.
 Mein Alter war zu knauserig, um echtes Purpur zu bezahlen.
 Mein Arzt riet mir, mit dem Rauchen aufzuhören.
@@ -17227,6 +17246,7 @@ Mein Nachbar ist zwar rücksichtslos, hat aber wenigstens Musikgeschmack.
 Mein Nachname ist Sonderegger.
 Mein Name ist Anja und ich bereite für Sie die nächste Einbruchserie vor.
 Mein Name ist Eckel und ich arbeite für die Lügenpresse.
+Mein Name ist Hase und ich weiß von nichts.
 Mein Name ist Marlon und ich grüße alle, die mich kennen.
 Mein Name ist Sören und ich möchte mich empören.
 Mein Name ist unwichtig. Es geht hier um die Sache.
@@ -17644,6 +17664,7 @@ Mit Wonne sah Alexandra den Reitern zu.
 Mit Y oder mit I?
 Mit Zylinder und Spazierstock verlässt Herr Bergmann das Haus.
 Mit abgelaufenen Versicherungskarten kann man in Hotels das Licht einschalten.
+Mit achtzehn Grad war es für mich im Wohnzimmer von Günther viel zu kalt.
 Mit achtzehn ist man volljährig aber noch lange nicht vernünftig oder gar erwachsen.
 Mit achtzehn ist man volljährig, aber noch lange nicht vernünftig oder gar erwachsen.
 Mit allem, was mit Videoschnitt zu tun hat, kennt Oliver Fink sich bestens aus.
@@ -18227,6 +18248,7 @@ Nach der Organentnahme wird die Herz-Lungen-Maschine abgestellt.
 Nach der Renovierung erscheint die Dienststelle in neuem Gewand.
 Nach der Wahl wird er als Bauernopfer zurücktreten müssen.
 Nach der anstrengenden Krebstherapie musste sie erst mal eine rauchen.
+Nach der gemeinsam verbrachten Nacht machten sie die Beziehung in ihrem Kollegenkreis offiziell bekannt.
 Nach dieser Schlacht wird das Blutvergießen ein Ende haben!
 Nach drei Monaten Nichtbenutzung wird das Konto automatisch deaktiviert.
 Nach drei Stunden Suche entsteht eine gewisse Frustrationstoleranz.
@@ -18244,6 +18266,7 @@ Nach einer Niederlage ist man natürlich immer etwas geknickt, aber morgen geht 
 Nach einer Woche gespielter Empörung wird wieder zur Tagesordnung übergegangen.
 Nach einigen Stunden setzt die Totenstarre ein.
 Nach einigen Wochen Übung geht der Ablauf in Fleisch und Blut über.
+Nach einigen Wochen übernahm Dörte die Initiative und küsste ihn.
 Nach einiger Zeit bauen die Probanden eine emotionale Bindung zur Puppe auf.
 Nach einiger Zeit beginnt man, die Lügen selbst zu glauben.
 Nach einiger Zeit gewöhnt man sich dran.
@@ -18262,6 +18285,7 @@ Nach heutigem Stand der Technik sind davon vielleicht hundert Stunden verwertbar
 Nach hübschen Mädchen muss man hier nicht lange suchen.
 Nach ihrem Beutezug prahlen die Verbrecher mit ihren größten Untaten.
 Nach ihrem Heulkrampf hat sie erst mal alle Bezüge gewaschen.
+Nach ihrem vierten Date landeten beide im Bett.
 Nach insgesamt einunddreißig Verhandlungstagen wird nun das Urteil gesprochen.
 Nach jedem Bergauf kommt auch ein Bergab.
 Nach jedem Durchgang rutscht der äußere Ring einen Platz weiter.
@@ -20681,6 +20705,7 @@ Sie bekommen mehr Sonnenlicht ab als in anderen Breiten.
 Sie bekommt alles in den falschen Hals.
 Sie bekommt, was sie verdient.
 Sie bemühen sich stets um eine möglichst professionelle Sprache.
+Sie beschloss die restlichen sieben Zigaretten zu rauchen und danach mit dem Rauchen aufzuhören.
 Sie beschlossen, sich aus dem Geschäft zurückzuziehen.
 Sie beugte sich zu dem Kleinkind vor.
 Sie bevorzugt Salami.
@@ -23482,6 +23507,7 @@ Von wem ist die digitale Signatur?
 Von wem ist dieser Remix?
 Von wem willst du geliebt werden, wenn du dich selbst nicht liebst?
 Von wenigen Beschränkungen abgesehen kann man das Pseudonym frei wählen.
+Von zehn Schüssen gingen neun daneben.
 Von zu viel Sahne wirst du fett!
 Von zwölf bis mittag.
 Vor Ausrufe- und Fragezeichen bitte kein Leerzeichen setzen!
@@ -24570,6 +24596,7 @@ Welche Sorte soll es sein?
 Welche Speditionen wären davon betroffen?
 Welche Sprachen verstehst du?
 Welche Sprachen willst du noch lernen?
+Welche Staatsanwaltschaft ist zuständig?
 Welche Straftaten verjähren nie?
 Welche Suchmaschiene benutzt du? DuckDuckGo?
 Welche Sätze werden gestrichen?
@@ -24623,6 +24650,7 @@ Welches Meme meinst du?
 Welches Musical haben wir noch mal in der Neuen Flora gesehen?
 Welches Programm nutzt du, um deine Poster zu gestalten?
 Welches Rad?
+Welches Referat kümmert sich um mein Anliegen?
 Welches Stück führt ihr denn auf?
 Welches Wort passt nicht in die Reihe?
 Welches dieser Moleküle ist ein Dipolmolekül?
@@ -25199,6 +25227,7 @@ Wer kommt alles aus Remscheid?
 Wer kommt auf so geniale Umschreibungen?
 Wer kommt mit zum Streik?
 Wer kommt noch zur Hausparty?
+Wer kontrolliert dieses Delikt?
 Wer könnte denn so etwas machen?
 Wer kümmert sich um die zurückgelassenen Utensilien?
 Wer künstlich lacht, wirkt nicht authentisch.
@@ -25229,6 +25258,7 @@ Wer nicht kräftig rudert, muss nachher das Deck schrubben.
 Wer nicht kämpft, hat schon verloren.
 Wer nicht wagt, der nicht gewinnt!
 Wer nicht will, sucht Gründe.
+Wer nichts weiß, kann auch nichts verraten.
 Wer nur eines von beidem für richtig hält, wurde von Musiklehrern indoktriniert.
 Wer oder was steckt dahinter?
 Wer oft in Hotels übernachtet, sollte die Karten daher aufbewahren.
@@ -25992,6 +26022,7 @@ Wieso ist der Führerstand nicht besetzt?
 Wieso ist der Proxy nicht erreichbar?
 Wieso ist die Waschmaschine immer so laut?
 Wieso ist eigentlich vorher kein Allergiker darauf gekommen?
+Wieso ist es heute nur so kalt?
 Wieso ist es hier so dunkel?
 Wieso ist es so schwierig, Zahlwörter korrekt auszuschreiben?
 Wieso ist schon wieder keiner anspielbar?

@@ -40,6 +40,7 @@ bxr = Buriatu
 ca = Catalán
 cak = Kaqchikel
 cnh = Hakha Chin
+co = Corsu
 cs = Checu
 cv = Chuvaxu
 cy = Galés
@@ -61,6 +62,7 @@ fr = Francés
 fy-NL = Frisiu
 ga-IE = Irlandés
 gl = Gallegu
+gn = Guaranín
 ha = Ḥausa
 he = Hebréu
 hi = Hindi
@@ -138,6 +140,7 @@ uz = Uzbecu
 vec = Venecianu
 vi = Vietnamita
 vot = Vóticu
+yue = Cantonés
 zh-CN = Chinu (China)
 zh-HK = Chinu (Ḥong Kong)
 zh-TW = Chinu (Taiwán)
@@ -304,6 +307,8 @@ profile-form-accent =
     .label = Acentu
 profile-form-age =
     .label = Edá
+profile-form-gender-2 =
+    .label = Xéneru
 leaderboard-visibility =
     .label = Visibilidá na clasificación
 hidden = Invisible
@@ -508,6 +513,8 @@ data-other-goto = Dir a { $name }
 data-other-download = Baxar datos
 data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
+release-version = Versión
+dataset-date = Data
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y el nuesu <privacyLink>avisu de privacidá</privacyLink>
@@ -799,3 +806,18 @@ welcome-staff = ¡Afayáivos, personal de { $company }!
 help-contribute = Pues ayudar a crear un conxuntu de datos diversu y abiertu creando un perfil en Common Voice y collaborando cola to voz.
 profile-not-required = Nun se rique tener un perfil pa collaborar, pero ayuda
 read-more-about = Llei más tocante a nós na nuesa páxina Tocante a
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

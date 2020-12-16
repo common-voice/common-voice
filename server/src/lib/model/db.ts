@@ -17,14 +17,7 @@ const PRIORITY_TAXONOMY = 'Benchmark';
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
 // to benefit from single sentence constraints
-const SMALL_LANGUAGE_COMMUNITIES = [
-  'ab',
-  'cnh',
-  'dv',
-  'rm-sursilv',
-  'sah',
-  'vot',
-];
+const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'ca', 'es'];
 
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
@@ -206,7 +199,7 @@ export default class DB {
   ): Promise<Sentence[]> {
     let taxonomySentences: Sentence[] = [];
     const locale_id = await getLocaleId(locale);
-    const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
+    const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
 
     if (this.inBenchmark(locale)) {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
@@ -318,7 +311,7 @@ export default class DB {
   ): Promise<DBClipWithVoters[]> {
     let taxonomySentences: DBClipWithVoters[] = [];
     const locale_id = await getLocaleId(locale);
-    const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
+    const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
 
     if (this.inBenchmark(locale)) {
       taxonomySentences = await this.findClipsMatchingTaxonomy(
@@ -882,7 +875,7 @@ export default class DB {
   async insertDownloader(locale: string, email: string, dataset: string) {
     await this.mysql.query(
       `
-        INSERT IGNORE INTO downloaders (locale_id, email, dataset_id) VALUES (?, ?, (SELECT id FROM datasets WHERE release_dir = ?))
+        INSERT IGNORE INTO downloaders (locale_id, email, dataset_id) VALUES (?, ?, (SELECT id FROM datasets WHERE release_dir = ? LIMIT 1))
       `,
       [await getLocaleId(locale), email, dataset]
     );
@@ -980,5 +973,11 @@ export default class DB {
       challengeEnded = Date.now() > startDateUtc.valueOf() + THREE_WEEKS;
     }
     return challengeEnded;
+  }
+
+  async deleteClip(id: string) {
+    await this.mysql.query(`DELETE FROM votes WHERE clip_id = ?;`, [id]);
+    await this.mysql.query(`DELETE FROM clips WHERE id = ? LIMIT 1;`, [id]);
+    console.log(`Deleted clip and votes for clip ID ${id}`);
   }
 }

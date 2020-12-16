@@ -145,8 +145,9 @@ uz = 烏茲別克語
 vec = 威尼斯語
 vi = 越南語
 vot = 沃特語
+yue = 粵語
 zh-CN = 華語（中國）
-zh-HK = 香港廣東話
+zh-HK = 廣東話（香港）
 zh-TW = 華語（台灣）
 
 # [/]
@@ -510,7 +511,7 @@ dataset-date = 日期
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
 license-mixed = 混和
 data-download-singleword-title = 下載單字目標字串
-data-download-singleword-callout = 這是以使用情境為導向的字串集，當中包含用來提供 Firefox Voice 進行語音數字辨識、偵測是/否、喚醒詞等功能的測試資料。
+data-download-singleword-callout-v2 = 這是一個包含用來進行口述數字識別與是/否偵測的使用案例。
 review-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
