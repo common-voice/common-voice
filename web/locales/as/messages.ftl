@@ -862,6 +862,9 @@ demo-account = একাউণ্ট
 ## Demo Account
 
 demo-account-card-header = অৱদান দিবলৈ একাউণ্টৰ প্ৰয়োজন নহয় যদিও ই উপযোগী।
+demo-account-enter-email =
+    .label = এটা ছাইন আপ লিংক পঠিয়াবলৈ ইমেইল লিখক
+demo-account-sign-up = ছাইন আপ লিংক পঠিয়াওক
 
 ## Demo Contribute
 
