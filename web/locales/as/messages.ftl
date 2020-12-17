@@ -510,6 +510,7 @@ dataset-date = তাৰিখ
 license = লাইচেঞ্চ: <licenseLink>{ $license }</licenseLink>
 license-mixed = মিশ্ৰিত
 data-download-singleword-title = এটা শব্দৰ টাৰ্গেট ছেগমেণ্ট ডাউনল'ড কৰক
+data-download-singleword-callout-v2 = ই এক ব্যৱহাৰ ক্ষেত্ৰ চালিত ছেগমেণ্ট য'ত কথিত অংক আৰু হয় / নহয় চিনাক্তকৰণৰ বাবে ব্যৱহাৰ কৰিব পৰা ডেটা আছে।
 review-terms = কমন ভইচ ব্যৱহাৰ কৰি, আপুনি আমাৰ <termsLink>নীতি</termsLink> আৰু <privacyLink>গোপনীয়তা জাননী</privacyLink>ক সন্মতি জনাইছে
 terms-agree = মই সন্মত
 terms-disagree = মই সন্মত নহয়
