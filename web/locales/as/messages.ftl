@@ -337,7 +337,7 @@ download-profile = মোৰ ডেটা ডাউনল'ড কৰক
 contribution-experience = অৱদানৰ অভিজ্ঞতা
 skip-submission-feedback = সঁহাৰি দাখিল কৰা এৰক
 skip-submission-description = অৱদান দাখিল কৰাৰ সময়ত 'দাখিল কৰক'ত ক্লিক কৰাৰ পাছত সঁহাৰি এৰি দিয়া হ'ব। অৱদান প্ৰত্যক্ষভাৱে পৰৱৰ্তী 5টা ৰেকৰ্ডিং বা বৈধকৰণৰ সংহতিৰ সৈতে অব্যাহত থাকিব।
-skip-submission-note = মন কৰিব: আপুনি তথাপিও অৱদানৰ প্ৰকাৰ সলনি কৰিবলৈ কথা কোৱা বা শুনাৰ মাজৰ পৰা এটা চয়ন কৰিব লাগিব।
+skip-submission-note = মন কৰিব: আপুনি তথাপিও অৱদানৰ প্ৰকাৰ সলনি কৰিবলৈ কথা কোৱা বা শুনাৰ মাজৰ পৰা এটা বাছনি কৰিব লাগিব।
 off = বন্ধ
 on = চালু
 avatar-clip-title = আপোনাৰ অৱতাৰক এটা মাত দিয়ক
@@ -359,7 +359,7 @@ browse-file-title = ছবি ফাইল এখন আপল'ড কৰক
 browse-file = ধৰি টানি আনি এৰি দিয়ক বা <browseWrap>ব্ৰাউজ কৰক</browseWrap>
 connect-gravatar = Gravatar-ৰ সৈতে সংযোগ কৰক
 gravatar_not_found = আপোনাৰ ইমেইলৰ বাবে কোনো Gravatar পোৱা নাই
-file_too_large = চয়নিত ফাইলখন খুব ডাঙৰ
+file_too_large = বাছনি কৰা ফাইলটো খুব ডাঙৰ
 manage-subscriptions = ছাব‌স্ক্ৰিপশ্যন পৰিচালনা
 manage-email-subscriptions = ইমেইল ছাব‌স্ক্ৰিপশ্যন পৰিচালনা
 email-already-used = অন্য এটা একাউণ্টৰ বাবে ইমেইল ইতিমধ্যে ব্যৱহাৰ কৰা হৈছে
@@ -602,7 +602,7 @@ request-language-form-language =
     .label = ভাষা
 request-language-success-title = ভাষাৰ অনুৰোধ সফলভাৱে দাখিল কৰা হৈছে, ধন্যবাদ।
 request-language-success-content = আপোনাৰ ভাষা কমন ভইচত কেনেকৈ যোগ কৰিব সেই বিষয়ে অধিক তথ্যৰ সৈতে আমি আপোনাৰ সৈতে অতি সোনকালে যোগাযোগ কৰিম।
-select-language = এটা ভাষা চয়ন কৰক...
+select-language = এটা ভাষা বাছনি কৰক...
 other-language = অন্য ভাষাসমূহ
 
 ## Languages Overview
