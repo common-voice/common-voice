@@ -13,6 +13,8 @@ A binôla i ñgéda a biyoñ hop.
 A bisôga je noma.
 A bitumba yani.
 A biyoñ ndun i gwélél me nson.
+A biéñgha manyañ nuga yéé.
+A biéñél nyaañga ni bikék.
 A béndi nson.
 A béndi.
 A bééga kumnjok.
@@ -22,6 +24,7 @@ A gwéa i sal bôlô ba nti nye.
 A gwéé baa basamal.
 A gwéé bindôhi.
 A gwéé gwaa gwañen?
+A gwéé hibandband hi nyuu.
 A gwéé hihik i kiñ.
 A gwéé hiñgoñga hi ñgwo.
 A gwéé lem i kôô.
@@ -66,6 +69,7 @@ A mbida bé mahindi.
 A mbigda bé to jam.
 A mbiine man ñwaa.
 A mbinbe me.
+A mbinil kék ni makôô méé.
 A mbodba lañ.
 A mbogde ñgéñ hyéé.
 A mbom njék.
@@ -75,21 +79,26 @@ A mboñ mam méé ni ñgeñel yosô.
 A mbudbaha me i nañ.
 A mbudlaha me hibee hi mbak.
 A mbugde kwem.
+A mbugha me bisu bi ndéda.
 A mbugi béba libugak.
 A mbugul me ñkôgô.
 A mbuhul binjañmuha.
 A mbus bé libuhuk li so mut.
 A mbuuda me njel yem.
+A mbuugene me hés i pañ ô.
 A mbuumba ñgwéé.
+A mbuune dikala i tuñ yéé.
 A mbuune ñgwo ni kék.
 A mbuñgne me biboboñ bi nje hiônde.
 A mbéblaha me likondo yañga.
 A mbédhene nye mis.
 A mbédél me pil wéé moni hana nlôm njel.
 A mbédél mudaa Nyaônde.
+A mbéglaha boñge tuñ ndap.
 A mbéglaha man.
 A mbégél me lisege ni soble yé.
 A mbéhha me kwade.
+A mbéhlene sô i kédé ndap.
 A mbémdaha me hinoo.
 A mbémha me mut wem.
 A mbémés ñgwo.
@@ -265,8 +274,10 @@ A nnyii masoñ, a nnyii su.
 A nnyo biye ntum.
 A nnyogbe i boñ le a tehe nyono.
 A nnyos bikay i kédé mpék.
+A nnyoñg me le me pot bañ.
 A nnyue maok.
 A nnyuge matôwa.
+A nnyugut siba lôñni ñgok.
 A nnyéyha me boñge yañga; ba nnyéyha me bo ba.
 A nnédés ñgandak hiônde.
 A nnégél mbômbô makabô.
@@ -436,6 +447,7 @@ A ñable péé ni ntandaa kék.
 A ñañ kaat maua.
 A ñgeñel i bôlô ini.
 A ñgwande me hana libôk lini!.
+A ñgwinbene nye nlôm njel.
 A ñgwélél i njel dokta.
 A ñgwés a nnunba i léman.
 A ñgwés a nteehe pébéé.
@@ -496,6 +508,8 @@ A ñkémhe i jam me mpot.
 A ñkéne ni ñgén!
 A ñkéy libadô mboñgo.
 A ñkéñél me jomb li bisiñgli.
+A ñkôble makondo i kiisin.
+A ñkônha me hison i janda.
 A ñkônôl i gwélél.
 A ñkôs wom wéé.
 A ñkôyôp ni nson.
@@ -517,6 +531,7 @@ A ñéde me wip.
 A ñémbés miñkume bôô.
 A ññway nye libay.
 A ññébél malép inyuu jogop.
+A ññébés ñgim pôndi malép.
 A ññénél me i bôlô.
 A ñôbha me i yañan kaat.
 A ñôgôl manyañ tjobi.
@@ -572,6 +587,7 @@ Ba mpéhlaha miño.
 Ba mpéni mut manola.
 Ba mvane nye!
 Ba nandna dinoo.
+Ba nha lisébi nlamb tjobi.
 Ba nha nye bihañkop i moo.
 Ba nhabna bé bitamb i hôbin.
 Ba nhighe nye, jon a ñee.
@@ -580,9 +596,11 @@ Ba nhole mut wip kék.
 Ba nhoo man lañ.
 Ba nhuune matôa.
 Ba nhyuus nye ni maok ma lién.
+Ba nhéhha tjandi hi ñgéda.
 Ba nhôgôô hiônde hyosô sôya.
 Ba nhôô mut kodol.
 Ba nje bikeket.
+Ba nje bé minsogot mi koo.
 Ba nje bé njoy.
 Ba nje bé ñkéñgé tôdô, ndi ba mbel wo.
 Ba nje lijéla jada.
@@ -622,9 +640,11 @@ Ba ntibil mut kon maboñ.
 Ba ntibil njee lôñni libaba.
 Ba ntibil ñgônd lôñni ñgôñgônd.
 Ba ntimbhana bé loñge i kédé miñkwel ñwap.
+Ba ntip babaa hiloga hini.
 Ba ntiñlana miñkôô.
 Ba ntjôl baya dikuu.
 Ba ntok nye ñkus.
+Ba ntém mbôgsi unu ni moo.
 Ba nyadle nye mbegee.
 Ba nyaglana bo ni bo.
 Ba nyegna le ba gatibil liñgen.
@@ -679,6 +699,7 @@ Bada lipep li!
 Badna yem i bitôñ i mpédi.
 Bagat ñkôô.
 Bagba me ha!
+Bagwel likañ ba nti sadga.
 Baha likoa.
 Bahal i gwéé me liôm ñgim sonde.
 Bahba hibay.
@@ -691,12 +712,14 @@ Bajo sañ ba mbébna.
 Bakana ba bipam i sôñ.
 Bakana ba kôba ba bé haba bihelmet.
 Bakap bijek ba nnim bés nlamb.
+Bakokon ba jôbôk wadawada.
 Bakut a nje me bitôñ.
 Bakwede ba nne nsoot.
 Bakweñ a mmal me bobla môô i ndap.
 Bakéés ba mbihil.
 Bakéñ a nsulul me.
 Bakéña a nsulul me.
+Bakô ba ñke ñgwéé ñgandak.
 Bakô bon ba mbéna sañ masoñ map.
 Balal mis.
 Balala a yé loñge i hyobi.
@@ -705,8 +728,10 @@ Balop tjobi ba nha nsôñ i lom.
 Balét ba nnôyôs boñge.
 Balôm ba matéak ma mam.
 Bam i nlôl i e.
+Bambombok ba mbuugaha mél.
 Bana boñge ba mboñ mandaa le!
 Bana boñge ba nnyuñna mé.
+Bana bôdaa ba nnibna gwom.
 Bana bôt ba gwéé njômbi lam.
 Bana bôt ba nyuugana bé.
 Bana miñkoñ ni mandap.
@@ -726,9 +751,11 @@ Bapôdôl ba bé tehe ni pot bindéé.
 Bas i hyobi i ñadap nye ha i kôô.
 Bas i mbômb len i bôm.
 Bas i nsoo.
+Basaa ba binolna bo ni bo.
 Basaa ba nje bé hitatmbay.
 Basaa ba nyanna ñgandak.
 Basaa i mbéna bé bôñôl ley.
+Basak ndiñ ba ntôl ha béé.
 Basi i nnimil me i jombe.
 Baso we to.
 Basôgôl bon ba yigle bés matiñ ma niñ.
@@ -739,6 +766,7 @@ Batupék a yé ñgédi ba bileñ Nyambe.
 Batôle ba mbogna ñwii.
 Baudu ba mbok bikaat.
 Baudu ba suglu Libamba ba gwéé lijél.
+Baudu ba ñublana bo ni bo.
 Bayégla tôdô.
 Bañga bañga.
 Bañga légél le mboo likondo.
@@ -792,8 +820,10 @@ Bijek bi nyamb i ñgand.
 Bijek bi yé i téblé.
 Bijek bi yé ñgi bel.
 Bijek bi ñkôn.
+Bijek bigalôñlana mandugi.
 Bijek bilam bi ta bé to homa hana!
 Bijek bini gwon bi njéba len.
+Bijek gwoñ bi ñkuhlana bé.
 Bijek gwés bi mbélha.
 Bijô bibaa ikédé biaa.
 Bijôñ gwéé bi mpublaha nye.
@@ -817,6 +847,7 @@ Bikumul bi nyégle i wom mbus likôlôl.
 Bikwo bi ñkaa.
 Bikékén gwon bi gwéé nye.
 Bikélél gwéé a nlama témb len kôkôa.
+Bikôda bi yé munu lép unu.
 Bikôp gwon ba mbôñôl ñgom.
 Bilambe bi mbay juu.
 Bilem gwéé bibe bi ntjiha ñgim ñkoñ.
@@ -858,6 +889,7 @@ Bisônda bi nlona gwom bi mbuma.
 Bisônda bi nsék njel.
 Bisônda bi ntjama i kédé bikay.
 Bisônda bi ntôña bé.
+Bisônda bi ñkok ntôñ nloñ.
 Bisônda bi ñkép ñkoñ wosô.
 Bisônda bi ñkéña mbay mut mam mabe.
 Bisônda gwo bibaa bi mbibha nye.
@@ -878,6 +910,7 @@ Biun bi nyéndés nunu mut.
 Biyi bi nloona.
 Biyik bi bôdaa bi ñeena ñgoo.
 Biyéglé gwéé gwon binyéhlaha nye bôt.
+Biyéé bijok, bi gwaña pok!
 Biyééne biaa.
 Biédél bi mitin.
 Biñ i nnumb béba njiñ.
@@ -899,6 +932,7 @@ Boma i balét i mmal.
 Boma i nyubda.
 Bomba pia.
 Bombo i nne.
+Bon ba nlama nôgôl bagwal.
 Bon ba nlond i ligwélél.
 Bon ba ñgwo ba ñkahal ana.
 Bon bana ba bigwééha hilo hyada.
@@ -910,6 +944,7 @@ Bondokôy i mal me wom mbas.
 Bondop yaga hana ñwee.
 Bonge ba nyogi ba mpuhlaha i ñgii malép.
 Bonje ba nholbe?
+Bonje ba nhom mu ndap yoñ?
 Bonjee ba yé i ñgam yem?
 Bot i nhénd lañlañ.
 Bot i ñem yem yosô i yéne i weeni.
@@ -931,7 +966,9 @@ Boñge ba mbégha miñkônô ñwap.
 Boñge ba mbôblana miño.
 Boñge ba mpahe.
 Boñge ba nhem dikos.
+Boñge ba nhimha malét wap.
 Boñge ba nhyohna moo.
+Boñge ba nhôhlaha babobla.
 Boñge ba nhônda ni mbédgé.
 Boñge ba njôhna.
 Boñge ba nlama ap malép.
@@ -955,6 +992,7 @@ Boñge ba suglu ba mbumble malét wap ñgwéé.
 Boñge ba suglu ba mbéna je makala.
 Boñge ba wanda bana ba ntip biina.
 Boñge ba yé i ndeñgee.
+Boñge ba yé nyiña mañgôlô.
 Boñge ba ñañlana diñgana.
 Boñge ba ñañna miñkôô.
 Boñge ba ñeglana bikoga.
@@ -962,6 +1000,7 @@ Boñge ba ñgwés biôlô.
 Boñge ba ñgwés je mandondo.
 Boñge ba ñkal man le tetee.
 Boñge ba ñkwadna i ke mintuk i mbédgé.
+Boñge ba ñwablana ni ñgok.
 Boñge ba ñéblana malép.
 Boñge ba ñédbaha me ndey makondo.
 Boñge ba ñégana, to hee ba ñke.
@@ -987,9 +1026,11 @@ Bébél i ta bé lam!
 Bébél mbôñ yem ini.
 Bébél yoñ makondo i ñun.
 Bégha me mañge suglu nunu gwéé bijek.
+Béghana Nyambe ni diñgoma.
 Bégé ñgôy.
 Béhna nye di bédha yani masin.
 Béhna we di gakuhla mu len.
+Béhna we di nje homa wada.
 Bémbél yem kakaô i mmal tubi.
 Béni kék.
 Bép kembe i nnumb manañ.
@@ -1009,6 +1050,7 @@ Béñge kembe i mbuuna.
 Béñge kii a ntômde ni nloñ wonsô.
 Béñge kii ba mmémlaha mañge mudaa.
 Béñge me, u hyamba bañ!
+Béñge nye mamañ ma dipiga.
 Bôbôk i ñkak me!
 Bôbôl ñgi i nnene longe len.
 Bôdaa ba ba bigwélha yani i dokta!
@@ -1052,6 +1094,7 @@ Bôt ba mbégés Hilôlômb hii kel.
 Bôt ba mbéna nohop hyéé i ngéda hikañ.
 Bôt ba mindañ ba ñaglana bo ni bo.
 Bôt ba mok ba ntéda loñge.
+Bôt ba nhañ bé toñna i ti.
 Bôt ba nhim kii i ndap boma?
 Bôt ba nligna biliya.
 Bôt ba nlo i hiñil mbok.
@@ -1059,6 +1102,7 @@ Bôt ba nnondna mbôñ.
 Bôt ba ntjagna hop.
 Bôt ba nyañgbene me.
 Bôt ba wip ba njubul bé ñwemel.
+Bôt ba wip ba nsa nye juu.
 Bôt ba wip ba nyeelana.
 Bôt ba égi inyuu mahéhña ma bitel bi ane.
 Bôt ba ñak me yañga yañga.
@@ -1131,12 +1175,15 @@ Di nsôlbaha mitonba.
 Di nteeana mabal.
 Di ntiblana mapoo més.
 Di ntjégha i muu lom.
+Di ntjémha mapep i mbédgé.
 Di ntohlana.
 Di ntédbaha dinoo.
 Di ntégha bañgomén bés.
+Di ntéé we ñane lihaa jés.
 Di nyagal le mahôla ma lôl bés yak Ñwet.
 Di nyoñ ñgoa.
 Di nyéga bé.
+Di tôgôk, di tjadna dinoo.
 Di yé bayogga.
 Di yé hyay.
 Di ébha malép i Kaya i ñgéda libii joñ.
@@ -1155,6 +1202,7 @@ Di ñuubaha inyuu bada moni,.
 Di ñwablene e i ñkwade.
 Di ñébha bikaat gwés ni masin.
 Di ñéñha kaat liwanda jés.
+Di ñéñlana bikaat di ñkôs.
 Di ññwahbana.
 Di ññénlana bés ni bés.
 Di ôñne bé i ôn.
@@ -1165,6 +1213,7 @@ Dibaña di nnay mu njel yoñ!
 Dibee tjap di bijek di mpilha.
 Dibee tjés di mbéhlaha.
 Dibos di ntina kon mis, di ñkwéha ndim.
+Dibôda di ño i mbééga yés.
 Digwege di ntôl ha bé i bésni.
 Dihénd di ntôl munu ñkon wem.
 Dihéné di mpam me ñgandak munu i jot.
@@ -1223,10 +1272,12 @@ Gwom gwés.
 Gwéha i Nyambe inyuu yés i gwéé béé lisuk.
 Gwéé bi ñgwela.
 Gwômb bi nluñus mpék kôn.
+Ha me malép mu kuglu wem?
 Ha mut miñkôm, kena mut miñkôm.
 Ha mut moo.
 Ha ndamb lién.
 Ha ndugi le u ke.
+Haa me man nu a ñke malép!
 Haana a ta bé liboñok lilam.
 Hala a mboñ bé to jam.
 Halana nyen ba ñgwel kwade.
@@ -1252,6 +1303,7 @@ Hee kôp yoñ i nleglene.
 Hee kôy i ntôbna?
 Hee lipep li béndne?
 Hee lom a ñumul?
+Hee matôa ma nhégbene béé?
 Hee mañge a mbédne lipep?
 Hee mañge nunu a ñable péé?
 Hee me sehlene we?
@@ -1327,6 +1379,7 @@ Hikañ hi hyobi hi mbabaa nye.
 Hikii kel me nnogop.
 Hikoba hini, heni, kañ.
 Hikogdo hi ntamba nye gwom bi mbôô.
+Hikoglo hi nheema nol nye.
 Hikok hi bum hi nlet maé.
 Hikok hi nhéya ni kwade a nhoo.
 Hikowa hi ñandal.
@@ -1361,6 +1414,7 @@ Hilo hyoñ hi maké hi ñkahal boñbe.
 Hiloga hi nsos hiñgonda mamañ.
 Hiloga hini hi gwéé mahay i ño.
 Hiloga hyoñ hi biuus ñgandak bikey.
+Hiloga hyoñ hi yé hikôghe.
 Hiloga hyoñ hi yé mut liyé.
 Hiloloñ hini hi yé ni ñgandak liñgwañ.
 Hiléléba hi yé mu ñkoñ wem.
@@ -1368,6 +1422,7 @@ Hilémb hi nnol mut, hi niñhak ki nye.
 Hilôba hi nholbe.
 Hilôba hi nnyoñye i nlamb.
 Hilôba hi ñkana hi nsamhe i poo.
+Hilôlômb a mbémés mbambat.
 Hilôlômb nyen a yé ñane mbok.
 Hilônde hi ññwamle i tan.
 Himagaa hikebet hikôa.
@@ -1435,6 +1490,8 @@ Hiyoñ likondo.
 Hiyéñ hi yé nye hikeñi.
 Hiéé hi nyoo hi ñkoogana.
 Hiñgonda hi mboñ liñweñ.
+Hiñgonda hi nsebee makabô.
+Hiñgonda hi nsebel makabô.
 Hiñgonda hini hi mbôône liwanda jé.
 Hiñgugle hi mañge.
 Hiñgôn hi kôp hi gwéé soso nsôn.
@@ -1455,6 +1512,7 @@ Hon lép.
 Hoo kébél me.
 Hoomba mut.
 Hop u basaa u nlet.
+Hop u bayi jam u nnom béé.
 Hop u u nhyambaga haamm, nlôm a kwo ñkaa.
 Hop woñ u ñunbaha me.
 Hosi i ñke ñgwéé ñgandak.
@@ -1484,6 +1542,7 @@ Hyamami hi ntééñga me hana i key.
 Hyandal mut ni kék.
 Hyap njék.
 Hyas mut.
+Hyas? hyas? hyas? hi mbay.
 Hyay hi e.
 Hyay hi nleñel malép.
 Hyay hi nleñep malép.
@@ -1501,6 +1560,7 @@ Hyobi hyok hi nne.
 Hyobi hyomede hi.
 Hyobi yômi.
 Hyole i yé me bégél i bon ba gwom ba mahindi.
+Hyole yem i yé ni bañguña.
 Hyonon hi ñkon nye.
 Hyélél me mambot mem.
 Hyémbi hyés; i hyés hini.
@@ -1512,6 +1572,7 @@ Hyéé hi nloñ; ñway u nloñ.
 Hyéé hi nlék liklik.
 Hyéé hi nsiyne nye mbot i ndap.
 Hyéé hi ntjéda.
+Hyéé hini hi mpam njanjat.
 Hyôlôl yoñ i yé hee?
 Hégél me mpék kôn u jôm li kilô.
 Héhél me tjandi tjem.
@@ -1560,11 +1621,13 @@ I mut a mbada me mapep a yiha mo.
 I mut nunu a yé limuge.
 I mut nuu a mpot bé, a yé pii.
 I mut nuu a ñgi yii nsuda.
+I ndéé imbee ba néñél nye?
 I niñ ini i yé beñel.
 I nop nunu a yé ni matanga.
 I nsômbla le ba kébél we i gwoñ bijek.
 I nsômbla me balas munu i mbot ini.
 I su nyen a mbodbana môô.
+I su nyen a ntonbana libu.
 I ta bé loñge i bébe bôt mam.
 I ta bé loñge i pam bebee ni nyañ lom.
 I ñgéda kwañ ba bé son bon le ba séhba bañ.
@@ -1574,9 +1637,11 @@ I ñke laa?
 I ñkéla le u yé peles.
 Ibale a nyi jam a nyahla bañ.
 Ibale u nleñ pôs i hyéé i ntôm.
+Ibale u nset me nsedel we.
 Ibale u nsul bé nsoñ, u ñogba.
 Ibale u ñee manyuñ, u nhem bé jôl e?
 Ini a mbaa nsugi.
+Ini a mbégél me mem masôô.
 Ini a mmemle ñkéñéé man.
 Ini a ñkit ntja i wom.
 Ini sañgô i bijél yañan ñgond.
@@ -1628,6 +1693,7 @@ Jek li mpa mbôm litôa.
 Jep li njék.
 Jep li ntulul bikay.
 Jeñes li mañge.
+Jibe li ntjédha me ñgoñoo.
 Jiji i nlo.
 Jimb jé li ñkubi.
 Jimb li nan li yé li manola.
@@ -1660,6 +1726,7 @@ Jô gwale.
 Jôl joñ li nsiha i boma.
 Jôlôl li libé.
 Jômba jé li ñke.
+Jôp li ñkeñep nye ñgandak.
 Jôséph a ba a môgi i ndap mok.
 Jôy joñ le njee?
 Jôñ mut i mbéna abla mam.
@@ -1722,6 +1789,7 @@ Ke nuñul ni bijek gwoñ, u kôs nseñ.
 Ke nyôdôs man nuu a ñkwo.
 Ke tjo kabi.
 Kee sôgôô lituba i ndap jogop.
+Kee, loo, témb, huu ñgwéé.
 Kek bés kel di nlama bomna.
 Kel i biyél me yani i lom.
 Kel i mbep.
@@ -1768,6 +1836,7 @@ Kii i mbuuhaha nye?
 Kii i mpidbaha we bijek?
 Kii i môdbaha we?
 Kii i nnumbul me?
+Kii i nnyéñglaha we masoñ.
 Kii i nnyômôs nye.
 Kii i ntagbe?
 Kii i ntulus we suglu?
@@ -1836,6 +1905,7 @@ Kinje hipôha hi!
 Kinje huluk nu!.
 Kinje limala li!
 Kinje lioñ li!
+Kinje mañge a njañap hala!
 Kinje mañge a ñkee hop!
 Kinje mañge mudaa a nlogop!
 Kinje mut a nlañba!
@@ -1889,6 +1959,7 @@ Kon u nsoo mut inyuu a kahal pumb ni nyemb.
 Kon won ntéñglaha we!
 Kondop ni hop.
 Konison a yé me ni mbédgé yosô.
+Koo i ñadla i e i kwo isi.
 Koo i ñandal.
 Koo imbe; ñgôy imbe.
 Koo maleñ ma njéé i yé ndap yoñ.
@@ -1899,12 +1970,14 @@ Koo tôdô.
 Kos kômôl.
 Kot hyéé u pilis pôndi bitôñ; pilis matôa.
 Kot hyéé.
+Koñop ndi di gakola i nañ.
 Kristô ntohol a ñgwééne bés len!
 Kua sel.
 Kuble mut jam.
 Kudi lién?
 Kudle man.
 Kuduk libadô.
+Kuduk yoñ i ntééñga we!?
 Kudus mut ni njal.
 Kuhul liwo.
 Kuhul me bikai bini, soho!
@@ -1942,6 +2015,7 @@ Kwehkwes a mal mbee mañga.
 Kwekwe a téé lipan joñ.
 Kwem malép a mbébél jôga li bôt.
 Kwem milik i mpidbe.
+Kwem milik i mpidbene hee?
 Kwem ni mbabak mbôñ.
 Kwet mut pem ni su.
 Kwihil ndap.
@@ -1950,6 +2024,7 @@ Kwis ñkwee likondo.
 Kwiye tuñgeñ.
 Kwiyne me lambe.
 Kwiyne yem i juu i nnimil.
+Kwo lihoñgo?, kwo lihoñgo?
 Kwo limbot.
 Kwo limot.
 Kwo nyañya.
@@ -2070,7 +2145,9 @@ Libae li yé nye i nam.
 Libaga li téé nye i sumbédgé.
 Libak li mindañ.
 Libak li nuga lini li ta bé loñge.
+Libal jéé li njôp bé tamb.
 Libam li masay.
+Libam li mbôô bipes bibaa.
 Libam li nséhi.
 Libam lini li mbômla loñge.
 Libanak li makele; libanak li kôñ.
@@ -2122,6 +2199,7 @@ Libuga jon li nnyômha me.
 Libulbege jéé li mpôna sô le i ñke hilo.
 Libuuhaga jéé li nson li ntéñga bé nye.
 Libuñge ba mbuñge bi nyaga.
+Libuñge kôp, kembe, mañge.
 Libébék li boñge lini li ñkwés bo mimbomba.
 Libédés ndamba.
 Libéghak li Nyambe li lôk sañgô.
@@ -2157,14 +2235,17 @@ Lieglak malép masuni ma egel nye masoñ.
 Liend ño li yé ñgim bôlô.
 Ligis kugi ini!
 Ligwe li makondo.
+Ligwééne li Yésu le Yudéa.
 Liha jis li mbas.
 Liha mut mbanda.
+Lihaa jés li gwéé mbombok.
 Lihabga jéé li ta bé lilam.
 Lihaha li tôñ.
 Lihak li ñkôme i lép li ta bé lilam.
 Lihañ li nyik.
 Lihelek mut a nhel i ñgéda ndudu.
 Lihep jon li nnôhbaha me hyéé.
+Lihep li mpémés nye biibe.
 Lihep li yé me bôk ni nyuu.
 Liheyek joñ li baam.
 Lihimbil li ñwemel li yé ndigi jada.
@@ -2270,8 +2351,10 @@ Lindendem lihep.
 Lindôñ li bôt.
 Line li je.
 Lineebege joñ li nsébla li ñkônha bé maséé.
+Lini jam li bigwéla behee.
 Lini jam li ta bé le li téña.
 Lini jél li bééga ñkôô u ñguy linyuma.
+Lini libañga li yé ntolok.
 Lini lika li yé mbôñgô.
 Lini likabô li nnyaña.
 Lini lilok li gwéé makway.
@@ -2286,6 +2369,7 @@ Linjenje li ñgoo li nhénd.
 Linjéé li nne ñgandak.
 Linogok joñ li téé béé.
 Linolok jéé li binuga.
+Linoñ joñ lini i ke ñgwéé.
 Linoñ nuga bikay.
 Linuhle jés li gwéé gwom bi mintuk.
 Linuk li bibebela.
@@ -2344,6 +2428,7 @@ Litiimbaga joñ li jomol.
 Litila li yondo.
 Litilga jéé ni jem li ta bé nya yada.
 Litimhege li mut ñgôk.
+Litin li ñgaa yem li mbôô.
 Litinak li nloo i yom ba nti.
 Litine li bijek lini.
 Litiñ li mbot.
@@ -2413,6 +2498,7 @@ Liñguñ li mbéna yééne bie bi pañ lom.
 Liñgwañ jon li nyédbaha we.
 Liñgénd li ñkôyôp.
 Liñgô li kul.
+Liñgôndô li njôp me i sel.
 Liñwañwa li hinuni.
 Liñwee li nyôôs me!
 Liôm len, u lôlak i ñgeñ!
@@ -2444,6 +2530,7 @@ Lom a ñkit njel libahle li ta bé.
 Lombol mam.
 Lona bijek hana.
 Lona me bilas inyuu bakén.
+Lona me bôm me nlep binan.
 Lona me hela pan.
 Lona me hitidin me kuye juu jem.
 Lona me hitidiñ me kuye juu jem.
@@ -2457,6 +2544,7 @@ Lona me tede malép.
 Lona me tôk yem.
 Lona me yibne pôs.
 Lona ñño, me nik we gwél.
+Lona, ni kogla hana i nañ.
 Loo i lién i gwéé mbôa.
 Loo mpaba!
 Loo yaga tjañtjes.
@@ -2520,6 +2608,7 @@ Mahol ma loñ ma mbat hi mut.
 Mahus ma mpam ñkokon nunu i nyo.
 Mahélé ma bitôñ; nleem u yé lihélé.
 Maje ma njok.
+Maje ma yé nyono, loga ôô!
 Majo a ñgwés boñ mimbondo.
 Majô a bé tôp bikudsi.
 Majô a nlamb nsugi nyaga.
@@ -2535,17 +2624,20 @@ Makabô ma ntôl ha bé hisi basaa.
 Makabô ma umbi i ndap.
 Makabô mém ma mpam minto.
 Makak ma nyônha.
+Makele ma yé kon u boñge.
 Makon ni ndumbba gwon biunus nye.
 Makondo ma ñkii.
 Makondo més ma nhééha.
 Makuli mana, me nnom nson!
 Maké mana!
+Maké mem ma biséña behee.
 Malañ ma mpél i môô le tjaam.
 Maleñ maleñ.
 Maliga ma nyéba munu loñ yés.
 Malo mana.
 Malok ma kôôsi.
 Maloñ momasô ma ntehe libak joñ.
+Maloñge ma yondo ma mbôda.
 Malue ñgand.
 Malép ma gwéé ndondoga ma nhañ bé ni makon.
 Malép ma mbéna sa i ñgéda sép.
@@ -2556,17 +2648,21 @@ Malép ma nlék mbomboñ.
 Malép ma nsôbi.
 Malép ma nsôble.
 Malép ma ntoy kelekele.
+Malép ma ntoy nsene nsene.
 Malép ma ntôyôy i tun yem.
 Malép ma yé masunga.
 Malép ma yé ñgi sôba.
+Malép ma ñkandal me nyuu.
 Malép ma ññéba ñgandak.
 Malép ma ñôdba.
 Malép may.
 Malét a bike i noy.
 Malét a mbat mañge suglu mambadga.
 Malét a mbiba.
+Malét a mbibil man i ñoñ.
 Malét a mbiiñgaha miñkok ñwomisô.
 Malét a mbédi bikaat gwéé i ñgii téblé.
+Malét a mbéhlaha me tjéé.
 Malét a mbémbés ndap yéé.
 Malét a mbôgôs bikaat gwéé.
 Malét a mbôñha me nson yañga.
@@ -2578,8 +2674,12 @@ Malét a nniiga liloñge.
 Malét a nnit nye hinoo.
 Malét a nsélha boñge.
 Malét a ntéé ñudu, téé me kilok.
+Malét a nyébés boñge lép.
+Malét a ñada mañge a ntuk.
+Malét a ñagal ñudu yeñge.
 Malét a ñke béé i suglu yem.
 Malét a ñke môhôl me béé.
+Malét a ñkogse ñudu suglu.
 Malét a ñéñha boñge kaat.
 Malét bo ñwaa baa!
 Malét minsoñgi nunu.
@@ -2612,6 +2712,7 @@ Man a nnôlôs me.
 Man a nsiñgii mis.
 Man a nsôn inyuule a ntehe bé nyañ.
 Man a ntjaba liwo kii a ntehe ñkén mut.
+Man a ntjimbe ñgandak len.
 Man a ntjééba.
 Man a ntundul hiyindi.
 Man a yôgi nsañ i kegi.
@@ -2625,6 +2726,7 @@ Man a ñkon tut.
 Man a ñkwaae.
 Man a ñkôp me bilôô.
 Man a ñwéhél me yañan mbot.
+Man a ñôñgba i kédé libum.
 Man bakô a nhughe manyañ.
 Man bakô a nhôñ manyañ isi.
 Man bakô a nnyoy.
@@ -2648,6 +2750,7 @@ Man woñ a gwéé ñgañga ñño.
 Man woñ a yé gwégwé.
 Man woñ a yé hitégéé.
 Man wés a ñkon libimbe.
+Mana makala ma yé bihuga.
 Mana malép ma nnyéñha nyuu.
 Mandap maa.
 Manjel ma kôbôl njék ma yé ntabda.
@@ -2656,11 +2759,14 @@ Mankéé nu mudaa a ñugus me.
 Manoodana ma néda; a nnéda masiñ.
 Manoñ ma kaat.
 Manoñgo ma yé nuga i lilôm.
+Manyañ a mbat nye ñwéhél.
 Manyañ a ntjuk nye i hyeñ.
+Manyodi méé ma ta bé bun.
 Manyok ma mbumbla.
 Manyuñ a mbomb.
 Manyuñ a ntagbe hyaphyap hanano.
 Manyuñ ma kaô; manyuñ ma kôkmot.
+Manyuñ ma nnugus bibebela.
 Manyuñ nyen a nsiñha me.
 Manyuñ nyen a yé ntap hana i Nyaônde.
 Maok ma biléndha nye le a boñ bé jam.
@@ -2672,19 +2778,23 @@ Mapam ma suglu.
 Mapep ma béndi.
 Mapubi ma kel; ni bôt ba yé mapubi.
 Mapubi ma lambe ma mbéyéy me.
+Mapubi makeñi ma nsé mis.
 Mapuna ma ta bé jam li mut binam.
 Masa wem nu!
 Masay ma nnumb béba njiñ.
 Masee ma lién ma ndéñgél mbebi.
 Masek ma nje nyôl ndap wosô.
 Masin ma ntiñha lo.
+Masis ma ma ñkwéha loñge.
 Masiñ a ñoñ; njee a ñoñ hisésé?
 Maso ma mut mok ma nhôlôs mam mabe.
 Masuyne ma mbéñ.
+Masébi ma ntibil libimbe.
 Masôbhe u béé i ti yoñ.
 Masôk ma suglu ma kôli ni kogse.
 Masôs ma hikôa.
 Masôs ma tuye; matémb ma tuye.
+Mata ma sôñ ma nsuu lihep.
 Mata ma sôñ.
 Matam ma kak ma ntibla masuluk.
 Matam ma komboo ma njéba mbômôk.
@@ -2695,6 +2805,7 @@ Matanga ma ñkwo.
 Matibil ma ñañ.
 Matila moñ ma ta bé malam.
 Matila wem a nhoo nson.
+Matilas méé ma nyoo masay.
 Matjee ma kôp ma mpôbôs nye.
 Matjél ma mabna me i ño.
 Matjél ma mmaba.
@@ -2706,8 +2817,10 @@ Matôa a higi i kôô u mbus.
 Matôa a nsôôbe i liboo.
 Matôa a nsôôbe i ndobo.
 Matôa a ntee kembe.
+Matôa a ñkwo, a mpéba bé.
 Matôa ma ñkwo, ndi bôt ba mpam tjet.
 Matôa moñ ma nhôô me ñgandak.
+Matôl ma ntôl i ñkoñ woñ.
 Matôy ma nop hikañ ma ñkwo nsene nsene.
 Mau ni mus dilo dina to hilo me ke bé.
 Mawanda ma mbigdana.
@@ -2745,10 +2858,12 @@ Mañgal pa, mañgal kék.
 Mañge a mbahal séya i nyañ.
 Mañge a mbahal tjéé inyuu majô méé.
 Mañge a mbak majô mé ñño.
+Mañge a mband manyañ isi.
 Mañge a mbañ matôa ni bibubuñ.
 Mañge a mbelep i tan i béñge matôa.
 Mañge a mbol ntjiñe.
 Mañge a mbôlôl hana len ju mam ma ñgeñ ina.
+Mañge a mpombba me i moo.
 Mañge a mpoomba ñkok, a kwo!
 Mañge a nhemblene me mamañ.
 Mañge a nhemel ñwemel, lihep li kahal jôp.
@@ -2763,7 +2878,9 @@ Mañge a nnimil.
 Mañge a nnyañgap.
 Mañge a nnyiñgis liwanda jéé lisoñ.
 Mañge a nsos poños bihés bi kôp.
+Mañge a nsuñ i mbegee ini.
 Mañge a nsél me libam, makabô, hiomi.
+Mañge a ntjas me, me kwo!
 Mañge a ntônd ni ñkoñ.
 Mañge a nyañal nye.
 Mañge a nyelel maboñok manan.
@@ -2799,17 +2916,21 @@ Mañge nunu a yé dum.
 Mañge nunu a ñgwés nyegi.
 Mañge nunu a ñkolol me ni wip.
 Mañge nunu a ñkwés jem hana.
+Mañge nunu a ñkénd bé len!
 Mañge suglu a ñkon masu.
 Mañge wanda nunu a nnoga ñgandak.
 Mañgele a nnéñés bilolo.
 Mañgeñges ma yé ñkoñ woñ ñgandak.
 Mañgôlô ma nhôôlene ndéé sép.
+Mañgôlô ma nsémha momasô.
 Mañwemel ma.
+Mañwii ma batôlô ma nlôña.
 Maômaô a nyilis nye mis njoynjoy.
 Maôñg ma ta bé nye malam.
 Mbaa tuye i yé loñge i lihyumul.
 Mbaam tôdô.
 Mbaay tôdô.
+Mbabaga a hééba dileñgwo.
 Mbabi e yoñ i mpôha bé.
 Mbabi i bee i ñwébla.
 Mbabi sibñgañ.
@@ -2833,11 +2954,13 @@ Mbas i nhamba.
 Mbas ini i yé hôlô; hôlô ño.
 Mbay mbombok i yé libôk.
 Mbay yap i mbep yaga libebek jolisô.
+Mbay yap i yé mbay lihat.
 Mbañg tjéé i nsundi.
 Mbañg tjéé; mbañg bihés.
 Mbebi i nhôñ biim.
 Mbebi i nnudul bie isi; mbebi i nhôñ.
 Mbebi i nsék, mbebi i nsem.
+Mbebi i nséébaha likondo.
 Mbebi to hyañgaa bi nnumus mbot.
 Mbede mañga.
 Mbegee i mbay me i ñño.
@@ -2865,6 +2988,7 @@ Mbom hisoo hini a kôli ni bibom.
 Mbom i mbinbe sô.
 Mbom i mbéna yén i pañ lép ni jañga.
 Mbom i nnut nye.
+Mbom i ñômbôp i ndap yoso.
 Mbom ini!
 Mbom mbônji.
 Mbomba pia.
@@ -2872,8 +2996,11 @@ Mbombok a gwéé jamb.
 Mbombok nunu a mbo ñgambi.
 Mbon lahma.
 Mbon matôa.
+Mbondo njéé i ñkônha woñi.
+Mbondonjéé i ñkônha woñi.
 Mbot i bémbi i hyañgaa.
 Mbot i mbambla.
+Mbot i mpégél me i bôbôk.
 Mbot i mpôp pum!
 Mbot i nnumb nye lipuduk.
 Mbot i ñwéhne nye i sañ.
@@ -2886,7 +3013,9 @@ Mbot yoñ i mbôlôl i nop.
 Mbot yoñ i yé ñgi heñla.
 Mbot yéé i ñébés nye.
 Mboy u mpan.
+Mboñ nson a kôli ni nsaa.
 Mbu mpubi nyen a ñéga me!
+Mbuba i yé munu ndap ini!
 Mbuda bijek.
 Mbudi pô i ntagbe hana, me nyil yo i njiñ.
 Mbuga bobla?
@@ -2898,18 +3027,25 @@ Mbédés nyuñge a ñoñ bek.
 Mbégdé ñkoñ.
 Mbéhél i ta bé.
 Mbék nnañga a ñke lijo.
+Mbén i ñkal le u nnol bañ.
 Mbén u ñgañgô u mbugi.
 Mbéna je.
 Mbéy môñgô; mbéy soñ.
 Mbéñg libadô.
 Mbôda yem ini.
 Mbôgi ñkaa.
+Mbôgôl yada, mbôgôl jwem.
+Mbôl yon ba mbôñôl bakale.
+Mbôm mut i nsobop i yééne.
 Mbômbô a mpand ndap ni kidik i bende.
+Mbômbô a nlamb sup tjobi.
 Mbômbô a ntulus ñgandak mañ.
 Mbômbô a ñgwôl me jomb li tjobi.
 Mbômbôt i man i yé matadga.
+Mbômda i nhéya nye yalak.
 Mbônde pék le Hilôlômb.
 Mbôndô i nti môô malam.
+Mbônji i nnumb loñge njiñ.
 Mbôñ a nlôlôl me.
 Mbôñ a ñubla; sô i ñubla i libôk.
 Mbôñ to likabô bi nla ba biade.
@@ -2918,6 +3054,8 @@ Mbôñôl wem nunu.
 Mbôñôl woñ.
 Mbôô i sae i bédi ntjep u e.
 Mbôô matop.
+Me abla mpele yani kegla.
+Me bak i bii wom wem len.
 Me bak i lop, me nup ndigi mbôñ.
 Me bak i noy.
 Me bak i ogol liboo i njel mbay.
@@ -2926,6 +3064,8 @@ Me bak nson, me babaa nyoo ni kwade maé.
 Me bak ñgi tehe lini liteblak.
 Me bibagla ni bôt bem, me bibagla bôt bem.
 Me bigwal bon basambok.
+Me bikweeba me yii mañge.
+Me bikweebana i sôñ dipos.
 Me bikwo isi, me ôma i si.
 Me bikwo kégse yem i bisu.
 Me bikénés ñwaa wem i dokta li Métét.
@@ -2940,8 +3080,10 @@ Me bitehe nye bihumul gwéé.
 Me biyôña i suglu.
 Me biéñés ntet.
 Me bol hana yani.
+Me bé yani i béñge mintuk.
 Me bééga mbegee.
 Me béñi.
+Me gaañle bôt niñ i tada.
 Me gabep niñ yem inyuu yéé.
 Me galélél we man tjôs.
 Me ganyodi ane i béba hisi.
@@ -2955,10 +3097,12 @@ Me gwéé bihôlô bi bipôs.
 Me gwéé bihôôsen.
 Me gwéé biloñ bibaa.
 Me gwéé bitamb bisamal.
+Me gwéé buune i banjemnje.
 Me gwéé bôdôl ni Ñwet wem.
 Me gwéé libebi likeñi.
 Me gwéé mintômba miaa.
 Me gwéé mpombe litôa.
+Me gwéé ndigi badoladola.
 Me gwéé nhyômôk i pes ndôk Tindi i Mode.
 Me gwéé njébha ni bôt bem.
 Me gwéé nlañga tinti.
@@ -2969,17 +3113,22 @@ Me gwéébana ntjep u jañgôlô.
 Me hééba puba tamba.
 Me kee ñgwa wada i jogop i lom.
 Me kéhi i ñgii minaga.
+Me mbaa, we kenga ni bisu.
 Me mbaagene i ñgok.
 Me mbaagene inyule me kenek ñgwéé.
 Me mbabaa sô.
 Me mbabla.
+Me mbablene nye babi yada.
 Me mbada kômôl i wom.
 Me mbadna bitôñ i wom.
 Me mbadna bitôñ mbus nson.
+Me mbaene malép i kiisin.
 Me mbaene we nsugi.
 Me mbaga koba nye.
 Me mbagbana le kiñe a tagbe.
 Me mbahba i jam li.
+Me mbahla ni nson matila.
+Me mbahle tjéé ni ñkuleñ.
 Me mbak ñkôô kembe.
 Me mbamb biték bi ndap.
 Me mbamb moo.
@@ -2991,6 +3140,7 @@ Me mbas malét wem.
 Me mbat le u yé hee?
 Me mbañba béé, me timbhe nye.
 Me mbañba nop.
+Me mbañdana ndigi ni ntoñ.
 Me mbañle e.
 Me mbeegene nye lisege hi sôñ.
 Me mbeegene nye lisege.
@@ -2998,6 +3148,7 @@ Me mbeelene we tén sa len kegla.
 Me mbegee ñkuu bikaat.
 Me mbel hisola.
 Me mbel kôñba lilañ i mbaa ndap yem.
+Me mbel makondo ñkoñ wem.
 Me mbel mbônji i pôla mandap.
 Me mbem liwanda jem.
 Me mbemb ñgémhe yoñ.
@@ -3014,6 +3165,7 @@ Me mboñ ndugi hana ni ñkwel wem.
 Me mboñbene yak malét wem.
 Me mboñop i mbaa wom wem.
 Me mbude bijek ilole me pamak i ndap.
+Me mbudlene man wem bijek.
 Me mbugul inyuu pala noy.
 Me mbugus mbegee yem.
 Me mbumblene liwanda jem hiônde.
@@ -3027,6 +3179,7 @@ Me mbélél bon bem wom kakaô.
 Me mbélél mbônji i pañ soñ sôgôl wem.
 Me mbémblaha liwanda jem malép.
 Me mbéna nyo disañ i ñgéda mbéñ.
+Me mbéé nson i ññwel wom.
 Me mbéñge su wem i léman.
 Me mbéñél nye inyule a mpot mbale.
 Me mbôble piya le i ntomb.
@@ -3058,13 +3211,16 @@ Me mpot mbale.
 Me mpot mee.
 Me mpugba dikala.
 Me mpéñgi mbamba i matebel.
+Me mpôdba loñge nsôn nuga.
 Me mpôdôs liwanda jem.
 Me mpôdôs nye, ndi a ñkôble bé me.
+Me nha man mbot ni bitamb.
 Me nhabna mbot inyuu sôô nyuu.
 Me nhandle we bitamb le bikola we.
 Me nhañ mañwahge i tjandi.
 Me nhañal nyuu.
 Me nhebel kôy.
+Me nhigle ñwemel ni ntoñ.
 Me nhihe nye woo.
 Me nhimbil nyoo kék.
 Me nhit nye.
@@ -3081,6 +3237,7 @@ Me nhélél inyuu ñgi yi wem.
 Me nhôbna ñgañgô inyuu nop.
 Me nhôgôl ñwel lép.
 Me nhôla we ni jem libim li biôñôl.
+Me nhôya ap malép ma nyo.
 Me nhôyna mbegee matôa.
 Me ni bôt bem di nnuhul.
 Me ni liwanda jem di mbéhha dinoo.
@@ -3137,6 +3294,7 @@ Me nnol soa ni ndamb.
 Me nnoode nye ni mambadga;
 Me nnoñok nye me at.
 Me nnuñlene nye môô.
+Me nnuñul kôp dikôô diaa.
 Me nnyiimbene mut nyuñga môô.
 Me nnyo malép, môô ma nnyo i mintumba.
 Me nnyondbe i luk.
@@ -3150,15 +3308,18 @@ Me nsak masaô.
 Me nsal ñgandak, me nsômbôl hép ndék.
 Me nsayap we ñwii yondo nlam.
 Me nsee ñkok.
+Me nsegel matam ma kômôl.
 Me nseghe fufu
 Me nsem ñgandak moni.
 Me nsendi; njel i nsendi.
 Me nsendne i ñgii hikôa.
 Me nsiiba nyoo.
+Me nsind ni ñgandak makon.
 Me nsiya mbot.
 Me nsiñha nyuu.
 Me nsiñil we ndap.
 Me nsol gwôô i gwél i majô.
+Me nsomb bibogol bi nyaga.
 Me nsomb bilôlô i bôm.
 Me nsomb bitamb.
 Me nsomb yañyañ.
@@ -3200,11 +3361,14 @@ Me ntohlene we nye.
 Me ntol bitôdô.
 Me ntoo matam ma kakaô.
 Me ntooge balal boñ le ba kil me i lép.
+Me ntubsa we, njee a nlo?
 Me ntédés ñkokon.
+Me ntégi pan i ñgii judga.
 Me ntém luk.
 Me ntôl mañ.
 Me ntôlne malép i lém mbuluk.
 Me ntômôl bibende lipam hibut.
+Me ntôñôs kaat yem ligwéé.
 Me ntôôma mabam.
 Me ntôôs koo.
 Me nunu ba mbôye nyono bikay.
@@ -3214,11 +3378,13 @@ Me nyehel nson wem lipan.
 Me nyi bé i yom me ntjéélene nye.
 Me nyi bé too a ñke.
 Me nyi luk baskô.
+Me nyimbne nye lisaha jé.
 Me nyon; ñkuu u nyon.
 Me nyugye Hilôlômb mam mem momasô.
 Me nyék bo ba nleñna biya.
 Me nyék likwakwaa munu i mbôm wom wem.
 Me nyék ñkokon a ñgi héhlak.
+Me nyéñ homa le me boñop.
 Me nyéñba len i boma.
 Me nyônôs pôs ni malép.
 Me pégi ñgandak.
@@ -3233,6 +3399,7 @@ Me yé len i makét Makak.
 Me yé mboñ mabe.
 Me yé mbôô kwekwe.
 Me yé ni mbom lam.
+Me yé ñgi tehe bantunjok.
 Me yé ñwaak.
 Me yé, u yé, a yé, di yé, ni yé, ba yé.
 Me yéne hana len i ndap.
@@ -3249,6 +3416,7 @@ Me ñgwés bé njiñ siba.
 Me ñgwés béme bibodok ndigi bilia.
 Me ñgwés ke i mitin hi kel sonde.
 Me ñgwés likodok jéé li binan.
+Me ñgwés mañgôlô ñgandak.
 Me ñgwés nigil minsoñgi.
 Me ñis ñwom mi maén.
 Me ñkahal sel i yé ñgii nyôl.
@@ -3256,6 +3424,7 @@ Me ñkal le nigil hop u loñ yoñ.
 Me ñkal nye ñgala yada.
 Me ñkal we le kop!
 Me ñkambal ndey mabôblaga.
+Me ñkañ matos ma ñkônô u.
 Me ñke bikay.
 Me ñke béé hañwaa le u ti me moni.
 Me ñke i añgal ñumba ñkwaha.
@@ -3280,6 +3449,7 @@ Me ñket liyaa li bitôdô.
 Me ñkis baskô.
 Me ñkit end i bak hana i mbay, me nohop yo.
 Me ñkit nuga mbuga itan.
+Me ñkiye me we le jam li?
 Me ñkogol ñkoñ u key.
 Me ñkon i jak.
 Me ñkon i jôl.
@@ -3288,6 +3458,7 @@ Me ñkon kôhôl.
 Me ñkon we ñgoo.
 Me ñkon ññwes munu i kôô waalôm.
 Me ñkot binan ni bakmasoñ.
+Me ñkubul mbôñ i kédé tuñ.
 Me ñkwaambe nye, a tjél.
 Me ñkwak mabe mem.
 Me ñkwel ni bôt hana.
@@ -3303,14 +3474,17 @@ Me ñoñ bisuga ndi me lek miñkok.
 Me ñoñ ndap.
 Me ñuu we mudga.
 Me ñwaa bikay.
+Me ñwaa ni hañhañ woñ nu!
 Me ñwabal koo i e.
 Me ñwéés nye ni hyol.
+Me ñédél nyoo i kédé bôbô.
 Me ñédél ñwaa wem mbot.
 Me ñédés mbot i babiina.
 Me ñégés nye inyuu ñgôk wéé.
 Me ñémbél bé me ñkoñ woñ.
 Me ññwahba ñkôô bôt ba kwo.
 Me ññé wom makondo.
+Me ñôm tuk likas li ñkoñ.
 Me ñôt fôtô.
 Me ôñne bikay.
 Me ôñne i tison Duala.
@@ -3339,6 +3513,7 @@ Minla mi kembe mi yé bilonge bi bijek.
 Minlak mi tjibi.
 Minleem mi mpañgbana i kédé liaa.
 Minlop mi ñkoba.
+Minlop ñwés mi mpéñgbaha.
 Minlôñ mi nténda.
 Minsas mi nsaaba ni homa nyensô.
 Minsiñ mi nyoo mi mbéna hyôm ima.
@@ -3347,6 +3522,7 @@ Minsoñ mi nhombol me ni koñ me.
 Minsoñgi mini mi nlet.
 Mintjep likala li Mabôñ-loñ.
 Mintonba mi nnôñôl diloloñga.
+Mintonba mi nnôñôl mimpay.
 Mintonba mi ntumb nye i tison.
 Mintonba mi ñkéña me!̂.
 Mintumba mi bak hana a mbada ñwo.
@@ -3360,6 +3536,8 @@ Miñgé mi ñkahal ni kôñô!
 Miñkana mi mpot le suglu i nlama bôdôl yani.
 Miñkek mi ñkogok bobla.
 Miñkoñ mi ntjé bas bas.
+Miñkôt mi tjay mi ñwagha.
+Miñkôñ mi nhônda ni bikay.
 Miñkôñ ñwada mi bikwo isi.
 Mmaha ma hiluñ.
 Mmañ mudaa u nti nye ndu
@@ -3405,6 +3583,7 @@ Mudaa a mbôô ñkônô.
 Mudaa a mpén bibép bi nyo.
 Mudaa a nhambal libok li man.
 Mudaa a nhula.
+Mudaa a nhyôônda ni nson.
 Mudaa a nlegda ni hiun.
 Mudaa a nlel sôñ.
 Mudaa a nlémél me.
@@ -3415,6 +3594,7 @@ Mudaa a nsomb boli.
 Mudaa a nsôñ nlôm.
 Mudaa a ntehe sôñ.
 Mudaa a ntip gwal a mbébba malép malééga.
+Mudaa a ntjañya ni maéya.
 Mudaa a ntjôô man, a ke!
 Mudaa a ntonba libu.
 Mudaa a ntét kwem.
@@ -3423,6 +3603,7 @@ Mudaa a nyiñba munu i ndap ini!
 Mudaa a ék ndap libii.
 Mudaa a ñadbe nlôm!
 Mudaa a ñee man.
+Mudaa a ñgwal man munlôm.
 Mudaa a ñke kwade makabô i kôdôk.
 Mudaa a ñkes njaañgô.
 Mudaa a ñket kwem a kahal tét nye.
@@ -3441,6 +3622,7 @@ Mudaa nunu a mbabba yaa mbus gwal.
 Mudaa nunu a nlabde kiiyaga!
 Mudaa nunu a nyegba nyemede.
 Mudaa nunu a nyi téñ añgis yéé!
+Mudaa nunu a yé hikwehkey!
 Mudaa nunu a yé jém.
 Mudaa nunu a yé nlam.
 Mudaa nunu a ñgwés mboamboa.
@@ -3519,6 +3701,7 @@ Mut hibañal.
 Mut hisañla hi ñomb a ñwahba.
 Mut hiñg a mbéna tjiimbe.
 Mut ki la a bikidip!
+Mut kon a ñke teñge teñge.
 Mut kon a ñkimil me.
 Mut kon a ñkôt
 Mut libôla.
@@ -3527,9 +3710,12 @@ Mut linyandi.
 Mut liyep a nsamb.
 Mut makwela.
 Mut mamok a ñkônha ñgoo.
+Mut maok a ntiñg ni nloñ.
 Mut maoñ a mmal sôble miñkond mi simet!
+Mut matibla nu a nsehlana.
 Mut mban a mbéna ba mut a nhémle matiñ.
 Mut mbep a yé munu mbok ini.
+Mut mbu mbe a nhyôm hana!
 Mut mindañ nunu!
 Mut minsusua a ñgwés a ñkihle bôt.
 Mut mok a nnibba batat i mis.
@@ -3538,6 +3724,7 @@ Mut ndim a nsa ni ndap yosô.
 Mut nhindi.
 Mut ni bikidik bi moo wee a yemhege.
 Mut njék a nhyôô ni mbok yosô.
+Mut nsômbi a ntagbe hana.
 Mut nu a kôdi?
 Mut nu a nla kwaskwas.
 Mut nu a nlo a nsiige nyoy i mbus nloñ!
@@ -3549,6 +3736,7 @@ Mut nunu a bibus ñwaa liwanda jéé.
 Mut nunu a bikon mabaay.
 Mut nunu a bisame ñgomin yéé.
 Mut nunu a biyundi toy!
+Mut nunu a gwéé mbu nyega.
 Mut nunu a gwéé ñguy.
 Mut nunu a gwéé ñkoña ño.
 Mut nunu a mbala me.
@@ -3561,11 +3749,13 @@ Mut nunu a mbém ni ki!
 Mut nunu a mpidip.
 Mut nunu a nhem toñ.
 Mut nunu a nhuhul me.
+Mut nunu a nliya ñgandak.
 Mut nunu a nlogop hikwé.
 Mut nunu a nluk matôa bañga liluguk.
 Mut nunu a ntjo dibot.
 Mut nunu a ntumbup hana len!
 Mut nunu a nvañya hana isi.
+Mut nunu a nyi ma dimaña.
 Mut nunu a ta bé bun!
 Mut nunu a yé bitidigi bi kon.
 Mut nunu a yé hikuyeñge.
@@ -3593,9 +3783,12 @@ Mut wada hana a ñgi yii nsude.
 Mut wada.
 Mut wim, wim u nnay nye.
 Mut wip a mbôk ndap.
+Mut wip a mpémél me nyeeñ.
+Mut wip a njubul i winda.
 Mut wip a nlema i tun.
 Mut wip a ñgwélél mam bisôsôli.
 Mut woñ nu a yé kwelakwela.
+Mut woñ nunu a yé hiyéyé!
 Mut ñgudla.
 Mut ñgôk a mbéna ba mut diyana.
 Mut ñkwel a nnyandal moo.
@@ -3606,6 +3799,7 @@ Mésa mi njôp i ñgeñ isambok.
 Môgôô mut; mégéé mut.
 Môlôl ma ntoy libadô.
 Môm ma yé ñkoñ woñ ñgandak.
+Môy ma bilañ ma nlet i yi.
 Môñgô u biléña i lom.
 Môñgô u nhôla i yap lom.
 Môñgô u ntegep i malép.
@@ -3632,6 +3826,7 @@ Ndap i ñun i ñkwo buum!
 Ndap i ñôña.
 Ndap yem i mbôl.
 Ndap yem i yé mbôô len!
+Ndap yem i yé ni bibende.
 Ndap yem i ôñi haa.
 Ndap yoñ i yé mapubi.
 Ndap yoñ i yé nonoga ñgandak.
@@ -3642,6 +3837,8 @@ Ndapñgii i nla bana ñgandak madek.
 Ndee i makondo i ñôbôs mbot.
 Ndes libôbôl.
 Ndi kii u mboñde kwade nu.
+Ndi nye a mbooñga ki hana?
+Ndiba i yé nyono, loga ôô!
 Ndim pô.
 Ndok i wok bañ i tehge ndigi.
 Ndok yoñ i nyamb balét.
@@ -3649,9 +3846,11 @@ Ndomboo i nhôla oñ bibuñga.
 Ndondok yon i bilémés nye.
 Ndudu yem i kôli béé ni mut mpe.
 Ndugda i bak ma gwel man.
+Ndugi i yé téédana bijek.
 Ndék man ini i nyik bé kindba.
 Ndék mañge me yik hana a ñkogi.
 Ndék ñgét haana wee malét a nlo.
+Ndéé i mbee me bisôlôl we?
 Ndéé imbee bawoga ba ntugne?
 Ndééda miñkol.
 Ndôk Béa Mapubi.
@@ -3661,6 +3860,7 @@ Ndôn i gwéé nye.
 Ndôy i ñgwel me kôp.
 Ndôy i ñke i bedep ñgii e haa.
 Ndôy i ñkuybaha nyoo.
+Ndôñ hyanda ini i ntôl bé.
 Ndôñgi yem ini.
 Neembene me unu nlamb.
 Nhatôm a mpôdna miñkek mi tôm ni nlôha.
@@ -3696,12 +3896,14 @@ Nje nu a ñgwendep me i pañ ñwemel?
 Nje nu a ñkumul me?
 Njee a gwéé lipééyene munu hop unu?
 Njee a gwéé njom munu i hop unu?
+Njee a ma lamb njôñgô pô?
 Njee a mbabal me ntumba wem?
 Njee a mpémés ñgen u hiluñ u?
 Njee a nhuñbe?
 Njee a nléhés boma ini?
 Njee a nlélés we lom?
 Njee a nsane wiye?
+Njee a nsañglene we malép?
 Njee a nsiiba me?
 Njee a nteglene me hibee i juu?
 Njee a ntimis bibee?
@@ -3727,6 +3929,7 @@ Njip ii.
 Njiñ i e ini le lék i nlôha me.
 Njohok bôdaa.
 Njok i yé nuga keñi.
+Njok i ñkahal puuha tatam.
 Njok iaa.
 Njok likoge.
 Njok lipan.
@@ -3744,6 +3947,7 @@ Nla baskô u ntubi.
 Nlahop a mbéna pee mam.
 Nlaje a nhyolol séa mañga yosô.
 Nlal le nlal; ndandi le ndandi.
+Nlamb me nje u nsôôñgana.
 Nlamb u nséñél me.
 Nlamb u ñkôba isi.
 Nlañga u mbot.
@@ -3751,6 +3955,8 @@ Nledek mut u nnééga bé.
 Nlega liñgen a yé béba kona njel Nyaônde.
 Nleñ mpan a ñwañ ney.
 Nlondok woñ u nnôôga.
+Nloñ u ta bé homa mintuk.
+Nloñgo won u ñkek dinyet.
 Nluga matôa u nlet béé.
 Nléla a nnidil me man.
 Nléla a ñômle me miñkandô.
@@ -3765,6 +3971,7 @@ Nlôm ñgwo a nnep ñin.
 Nlôñ u hyémbi.
 Nlôñga a nyônôl i ndéda imbee?
 Nnol binyaga a ntôl ni bitoñ.
+Nnol tjobi a bééga ñgwas.
 Nnyoo i ñkogoo nye.
 Nnyéé u mbini me nkoñ ñgaa.
 Nok tila woñ a gwéé ñgandak mahôha.
@@ -3781,6 +3988,7 @@ Nop a ntjé unu mbôga.
 Nop a ntoy hana.
 Nop a ñkeede.
 Nop a ñkohi.
+Nop a ñôs bijek ni bikay.
 Noñna me mapep ma kaat.
 Nsas mandap a yé hee?
 Nsañ baskô; nsañ mayagal: nsañ diliba.
@@ -3812,6 +4020,7 @@ Nsélél ñkuu mahop nunu.
 Nsômbi mabila u yé me len.
 Nsôndô u mpôma.
 Nsôsôgô le jiibe li nyemb.
+Nsôñ hisi le Yésu Kristô.
 Nsôñ hyéé.
 Ntañ liemb u yé len.
 Ntel u kee len, u gwelek kii?
@@ -3820,6 +4029,7 @@ Ntet kôp; ntet ka.
 Ntida malép.
 Ntik mut.
 Ntiñga u mbot pada.
+Ntja u nya ni mbok yosôna.
 Ntjep e u nsémbés hikoñgo ñgaa.
 Ntjep u kasimañga u ñwéhi.
 Ntjep u ñkwo tiññ.
@@ -3828,10 +4038,12 @@ Ntohol wes a ñgwéé.
 Ntol u nhañ wada kii di ñômôk ñwo.
 Ntos u mudaa.
 Ntoñ wem bélél u mbugi.
+Ntoñ wem u mbiine hee wo?
 Ntoñ won u yé nye kikii gweebana.
 Ntuba wéé u nlémél me.
 Ntuhi u nligis me.
 Ntuk bol.
+Ntuk ndamb a ñkwo gwégwéé.
 Ntén kon u bihés.
 Ntén libodbaga li nhoop lini li mélés lañ.
 Ntén nuga.
@@ -3845,6 +4057,7 @@ Ntômba wada.
 Ntômba wés uu.
 Ntôô wéé man u yé hiñgonda.
 Nu mudaa a mbôli.
+Nublene me wom me nsaa we.
 Nuga i mbiñla i ndobo.
 Nuga i mpañgap me masoñ.
 Nuga i nnay le i ntuha béé.
@@ -3859,18 +4072,24 @@ Nunki kii a mbomol mis wee libem.
 Nunki liegak tômblô yoñ i ñégi!
 Nunu man a nnyédél me ñgandak.
 Nunu mañge a gwéé boña!
+Nunu mañge a nhol ñgandak.
 Nunu mañge a nje jôôle jam a ntehe.
 Nunu mañge a nnañna béba ñem.
 Nunu mañge a ntjôli nyo.
 Nunu mañge a nyama.
+Nunu mañge a yé man jaas.
 Nunu mañge a yé mut makénd.
+Nunu mañge a yé ni diyana.
+Nunu mañge a yé ni ñgeñel.
 Nunu mañge a ñee ndi to yiha i mpam bé.
+Nunu mañge a ñgwés nyumba.
 Nunu mañge a ñgwés zazu.
 Nunu mañge a ñkon tjôs.
 Nunu mañge a ñoñop.
 Nunu mañge a ñuñg.
 Nunu mañge mudaa a bikuna.
 Nunu mudaa a mpua bijek.
+Nunu mudaa a mpubul i su.
 Nunu mut a gwéé kogo.
 Nunu mut a gwéé maya.
 Nunu mut a gwéé ndeebe.
@@ -3878,6 +4097,7 @@ Nunu mut a gwéé nihbe.
 Nunu mut a gwéé ñgandak mahuu.
 Nunu mut a mbogla.
 Nunu mut a mbuma bé kel kii kel.
+Nunu mut a mbéñgna makeñi.
 Nunu mut a mpémbaha kiñ.
 Nunu mut a nhadap hilo hyada.
 Nunu mut a nhan le!
@@ -3889,9 +4109,11 @@ Nunu mut a nséép ni ñkus.
 Nunu mut a ntôñ; me ntôñ bôt bem.
 Nunu mut a nyeñgep.
 Nunu mut a nyi pot jaman.
+Nunu mut a nyina ñgandak.
 Nunu mut a nyuuba.
 Nunu mut a yé hilañlañ.
 Nunu mut a yé mpubi.
+Nunu mut a yé mut mindañ.
 Nunu mut a yé nsude.
 Nunu mut a yé ñgoo.
 Nunu mut a ñgwés bé bikay.
@@ -3922,6 +4144,7 @@ Nyandôm ini; nyandôm tata.
 Nyanyaña a yé i njel yem wom.
 Nyayak wéé u nloo u isañ.
 Nyañ Matip a jañ i Kélbé i pam ni bilen.
+Nyañ a nnyaambe man bijek.
 Nyañ a nsugle man bijek.
 Nyañ a yé malét.
 Nyañ man a nlo.
@@ -3930,6 +4153,7 @@ Nyañgô a mmal eñg man i pamna nye.
 Nyañgô a nlendlene me ñkônô ni ñgwende.
 Nyañgô a nnéyés dibee tjodisô.
 Nyañgô a ñwañ hiônde; ini a ñwañ kôp.
+Nyañgô a ñwéñél me minsôa.
 Nyañgô yem ini.
 Nye nunu a nlehbe i njel.
 Nye nunu a nlo héghék hana!
@@ -3953,6 +4177,7 @@ Nyono i ñkoñ je u gwéé bé ñgim ñgeñ.
 Nyoo i ñgooña ñgéda u mbép yo kék.
 Nyoo i ñke bambaa ñgwéé.
 Nyoo i ñkumbne i kédé tuñ.
+Nyook u ték u nnumb lihiñ.
 Nyoyo a nyén bé i loñ yéé.
 Nyoñ hinuni.
 Nyus mudaa a ntip gwal.
@@ -3969,7 +4194,9 @@ Nyuñga i ntôlôl me i bôm.
 Nyuñga yem i ntol, biñgond gwoñ bi ntôl.
 Nyuñge i ñkôyôp tjôôm.
 Nyéndés kon.
+Nyéé u ntundle me hiyindi.
 Nyéé u ñgwel mut gwis.
+Nyôba u nlona bibuk bibe.
 Nyôgôl u ñkwéyha kôp.
 Nyôgôl wem a bibéñha soso kobot.
 Nyôl u ndap yem u yé ni bakalô.
@@ -3979,6 +4206,7 @@ Nyôndne i man i mbugi.
 Nyôy i nhum.
 Nyôy ini.
 Néndés nye malép ma nyo.
+Néñha mut i hééba ñkanda.
 Néñha mut i ñkon hiñg, kohi i gwéé man.
 Nôbe mbot bijek bipe i sôya!
 Nôyha bés i ndap yoñ; di binôyha liké.
@@ -3989,7 +4217,9 @@ Ond i bôgôk, nop a noñok.
 Paa i gwéé linjek lilam i ñwel.
 Paa i ntôba i mintjep.
 Pabna me ini mbegee!
+Pada a gwéé ôñgba i Yésu.
 Pada a nlômbôl koga.
+Pada a nnyôl béé libôndô.
 Pada a nsoñgol mésa.
 Pada a nyagle ni nsañ mbasa.
 Pada a ñkwégés mabe.
@@ -4029,6 +4259,7 @@ Pugul dikala ni wédé.
 Puk me dikala.
 Puk mut libay.
 Pulne me i nyuñga.
+Pulus i mbép nye kasôñgô.
 Puma ñkoñ a nsamhana i jis.
 Puput bikay.
 Pupuy i nyon i ndap.
@@ -4100,6 +4331,7 @@ Sogo yoñ i mbôô.
 Soho bôñôl me nson unu.
 Soho lo hôla me! soho u ke bañ ñgwéé hala!
 Sol i ta bé nye inyuu to yada.
+Soman yoñ i nleegana béé.
 Somb hiloga hyoñ biniglene bi kapénda.
 Sombo i nhaba nten.
 Sop yem i gwéé malép.
@@ -4118,10 +4350,12 @@ Suga i nsañ.
 Suglu yéé i nsôdôs me.
 Sugul me pôs ni malép.
 Sugus nye i mbus nlôñ.
+Suha me, me nsuha mbegee.
 Suhe lipan.
 Suhus man i nañ.
 Suluk i bibôdha me njel ini.
 Suluk i nnyañgla homa nyensô.
+Suluk i ñkéda ni belesin.
 Sup yoñ i nsôi.
 Susuga hinoo nyen a nyoñ pos i ñwii.
 Suuene me nye, di joo.
@@ -4189,6 +4423,7 @@ Tehe le libudge jap li dibee.
 Tel bo kaa ba mbénna.
 Telel me hibee.
 Telep sim.
+Ti i yé masoda i loo yoñ.
 Ti likak.
 Ti mahoñol.
 Ti me baaene nsugi i ha.
@@ -4210,6 +4445,7 @@ Ti me nyôl i bee, tômblô i yé nyôl.
 Ti me tawédé.
 Ti me tjep i sô.
 Ti me tôk, me nsôôene sup.
+Ti me ñgobi me béñgba su.
 Ti me ñgôlô wem uu.
 Ti me ñkay u mbot.
 Ti mut bibégés.
@@ -4224,6 +4460,7 @@ Tigil yom.
 Tiihe tiihe ni bôt ba ndok.
 Tiimbana me hyémbi hi nan.
 Tik yom i nla ba hoñlene inyuu mut.
+Tik yôô i ntulul babimbi.
 Tik ñgok.
 Tilna i ñkal le.
 Timbis ñgwende hyoñ i sogoo.
@@ -4235,6 +4472,7 @@ Titin i likondo.
 Tiñde mañge hindina.
 Tiñil nuga i hyandi.
 Tja mbumbun.
+Tjaha di nyik di ññôm me.
 Tjandi tjem di ñôga bé kelkiikel.
 Tjas ni me libadô joñ.
 Tjay di bék di mmélés bikéy.
@@ -4281,6 +4519,7 @@ Tuye a nhôm.
 Téblé i siya.
 Téblé yem i gwéé bikônda bina.
 Ték lima.
+Téla i ñat mbot ni bôñgô.
 Téla nan i nyi mbañgô.
 Tém njunjum.
 Témbna liñwek joñ.
@@ -4587,9 +4826,11 @@ Yôñôl malép i pôs.
 Éé! abom, mañge nu a lôôs to kégse!
 Éña i kwade.
 Éñél yem i yé biléman.
+Ñem a ñgwés bé loñge jam.
 Ñem u mbôô me matjél.
 Ñem u nsôñgôl me.
 Ñem u nsôñgôô me.
+Ñemb a ññwéha i ndap mok.
 Ñgaa i mbam le balôlôlô.
 Ñgaa i mbép.
 Ñgaa i mpot tôôm.
@@ -4616,6 +4857,7 @@ Yôñôl malép i pôs.
 Ñgeñ i mpot ñgôññ, ñgôññ.
 Ñgeñ libédél li bijek ini.
 Ñgeñgeya a ñwek juu.
+Ñgeñgeya a ññwek tjebtjep.
 Ñgii i yé haa ni hisi.
 Ñgii i yé nonok ni hisi.
 Ñgii i ñkinde bindim.
@@ -4644,12 +4886,14 @@ Yôñôl malép i pôs.
 Ñgombo ño.
 Ñgomin a bibol lôk Hééga.
 Ñgomin a gabéma toy len!
+Ñgomin a gwéé méé mambén.
 Ñgomin a mbôgha bôt minloñ.
 Ñgomin a mbôk ñgand.
 Ñgomin a nlegel likalô.
 Ñgomin a nsane me mapep.
 Ñgomin a nsôñga nyôba u arki.
 Ñgomin i libôk; mut libôk; boñ libôk.
+Ñgomén a gwéé méé mambén.
 Ñgond i nnum minsumbuu mi matam.
 Ñgond yem i yé len nlamb.
 Ñgop i ñkwo.
@@ -4662,17 +4906,21 @@ Yôñôl malép i pôs.
 Ñguy linyuma.
 Ñgwa njañgumba.
 Ñgwa wé lem u!
+Ñgwa yem a nlélél me len.
+Ñgwaat i nha me unu ñwii.
 Ñgwas yem i nhôdôp.
 Ñgwo i mbuhul hee?
 Ñgwo i mbôs binyaga.
 Ñgwo i mpeghene me ñwel.
 Ñgwo i nheñ ni hés; me nheñ i tila kaat.
 Ñgwo i nla sôya.
+Ñgwo i nnyo malép laglak.
 Ñgwo i ntoli i kahal noñ bôt.
 Ñgwo yoñ i ñôdbene ki me kembe?
 Ñgwo yés i mbuhha.
 Ñgwo yés; yééne yés.
 Ñgwéha yon i nniñis bôt.
+Ñgwélél me bon a ta habéé.
 Ñgwén u ñgañgô u mbugi.
 Ñgé a ñkémbé.
 Ñgéda biôôm u mpam ha bé ñgi ñgaañgô.
@@ -4684,6 +4932,7 @@ Yôñôl malép i pôs.
 Ñgéñ hibi ini!
 Ñgéñ libadô.
 Ñgéñgéhi dikôa di ntôl i loñ jaman.
+Ñgôdô a mmek ñño hyañgaa.
 Ñgôdô a ñkwo isi le bup!
 Ñgôli yéé i yé koo nuga.
 Ñgôlô u yéñi nye i tuu.
@@ -4699,12 +4948,21 @@ Yôñôl malép i pôs.
 Ñgôñ i yé me i tehe we.
 Ñgôñôl yoñ i nnééga bé.
 Ñgôôba i boma i gwéé ñguy.
+Ñkaa kôdi u nhañ bé i loñ.
+Ñkoñgo u nhim, u hogok ki.
+Ñkuñge mut u gwéé bé maap.
 Ñkénd likabô, ñkénd u tôdô.
 Ñkénd siba.
+Ñkénd u saô yem u ñkôyôp.
+Ñkôde a nloa ni kul lipan.
 Ñkôm u nhuua.
+Ñkôme hipiya a gwéé ñguy.
 Ñkônô u ñkéba ñgaba ina.
 Ñkônô ñgond.
+Ñkôñ u yé omb bôt ba nje.
 Ñkôô u ñkidi.
+Ño mbok Afrika u gwéé ñoñ.
+Ño mbok u gwéé sut kiyaga.
 Ño mudaa u mbéna béga.
 Ño u nsii me.
 Ñwaa ni nlôm ba memlana.
@@ -4719,6 +4977,8 @@ Yôñôl malép i pôs.
 Ñwandi mi yé béya.
 Ñwas me boñge ñwee, u too bañ bo.
 Ñwayay mis u tehe gwom bi niñi we isi.
+Ñwañak nsôa u nne ñgandak.
+Ñwañga i om kaat u ntagbe.
 Ñwel mi nyik mi gwéé manjek.
 Ñwel u hyéé hi nyoo u léli ñgéda yoso.
 Ñwel u lép, ñwel u nyaga.
@@ -4741,6 +5001,7 @@ Yôñôl malép i pôs.
 Ôk mudaa.
 Ôm kim isi.
 Ôm mut kut; ôma bikut.
+Ôm mut mis hitat hi mbom.
 Ôm sitamb yoñ hana!
 Ômle me mpiñga, lihep li nnay.
 Ômle me sigalét ñgond yada!

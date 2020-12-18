@@ -62,6 +62,7 @@
 "Ale gdzie jedziesz?"
 "Ale gdzie ją znaleźć?"
 "Ale i górnik również nie liczył na opór i dlatego nie uniknął uderzenia."
+"Ale i taka żoneczka niewiele zostawiłaby mu chwil wolnych."
 "Ale i teraz zrobiliśmy już wielki krok naprzód."
 "Ale i tu był sznur."
 "Ale i wino, które tam pił, widocznie było nieszczególne."
@@ -84,6 +85,7 @@
 "Ale jego opis?"
 "Ale jego praktyczny, szkocki umysł nakazał mu wrócić do właściwej sprawy."
 "Ale jest w tem, jeżeli mi pan daruje, że tak powiem, trochę komizmu."
+"Ale jest... U nas tak zawsze."
 "Ale jeżeli to nie był pies, to któż to był?"
 "Ale jutro będzie nam już lepiej; jutro staniemy się innymi ludźmi, nieprawdaż kapralu?"
 "Ale już w czasie liczenia zauważyłem coś szczególnego; karty były jak z lodu."
@@ -1677,6 +1679,7 @@
 "I nazajutrz dawne życie się rozpoczynało."
 "I nazajutrz po noclegu w Płocku ruszyli do Spychowa."
 "I nie mylili się, jak skutek okazał."
+"I nie mylił się."
 "I nie ociągali się z wypełnieniem ślubu."
 "I niemasz nadziei na odzyskanie straconej pamięci."
 "I nigdy nie udało mi się wyjaśnić przyczyny."
@@ -3562,6 +3565,7 @@
 "Niski budynek był prawdopodobnie stajnią."
 "Niweczy to wszelkie podejrzenie samobójstwa."
 "Niższa część drzwi ustąpiła; drzewo dębowe zupełnie obróciło się w węgiel."
+"No i cóż!..."
 "No i na tem stanęło."
 "No to w takim razie możemy przystąpić do układów."
 "No, ale co oni robią na świecie i dla świata?..."
@@ -5356,6 +5360,7 @@
 "Szał ogarniał na ich widok."
 "Szczególnie ten Wisielec?"
 "Szczególnie, jeżeli chodziło o zniknięcie bez śladu córek w wieku ślubnym."
+"Szczególniej gdy się już zagnieździ."
 "Szczególny to był widok, któremu przypatrywały się tylko sępy!"
 "Szczególny zbieg okoliczności."
 "Szczegóły podam później."
@@ -7479,6 +7484,7 @@
 "bijesz więc medale?"
 "bo i do dziś dnia Stach ciągle tylko wydobywa się na wierzch."
 "bo mi się tak podoba."
+"bracie Katz, cóżeś ty zrobił najlepszego?..."
 "byłaby bardzo ładna, gdyby się mogła ubierać z elegancją."
 "byłam bardzo głupia!"
 "bądź więc zdrów bracie."
@@ -7580,6 +7586,7 @@
 "myślę, toście wy takie ptaszki?..."
 "mój Boże, mistrzu!"
 "mój synku, przepyszna!"
+"mówię, widząc, że jest zupełnie pijany."
 "mówiłem spokojnie, choć czułem, jak mi serce się zamraża."
 "na imię nieba, nie narażaj się!"
 "nawet z lóż..."
@@ -7681,6 +7688,7 @@
 "wyborny to był koncept, Elżbieto!"
 "wykrzyknąłem po dwukrotnym przeczytaniu tego niezwykłego anonsu."
 "z braciszkiem, z matką i z dużym, czarnym pudlem."
+"z pięćdziesiąt rubli."
 "zamiast być snycerzem, rzeźbiarzem, złotnikiem!"
 "zapewne jaki wielki magnat zagraniczny?"
 "zapomnij co do ciebie powiedziała, i każ jej zapomnieć co jej odrzekłeś."
@@ -7785,6 +7793,7 @@
 "Żądam zatem milczenia!"
 "Żądał, aby mi nie udzielać przytułku, nieprawdaż?"
 "Żądza sławy i panowania pożerała go całego."
+"że też my zawsze kogoś musimy posądzać o szelmostwa!"
 "żyj długo, sprawiedliwy panie!"
 "„Ach, że ten szlachetny człowiek opuścić musiał nasz padół ziemski!"
 "„Alboż pan biednym też nie daje?"
@@ -7800,6 +7809,7 @@
 "„Biedny?“ zawołałem przerażony."
 "„Bo w takim razie mam jeszcze szanse“."
 "„Będzie musiał pan podnosić rękę przed sądem, gdy rozchodzi się o flaki!"
+"„Błogosławieni którzy płaczą..."
 "„Chcesz powiedzieć: pan Pernat!"
 "„Chcę sam nosić ten zegarek."
 "„Co pan sądzi o tem?“ zapytałem „Zdaje się, że to nic ważnego."
@@ -8961,6 +8971,7 @@ Chyba poszli grać w piłkę.
 Chyba pozostaniesz z nami, dopóki nie przyjedzie twoja rodzina.
 Chyba przestanę jej słuchać.
 Chyba pół kilo zdołasz unieść.
+Chyba rozumiem o co ci chodziło.
 Chyba siedzieć całą noc z otwartymi oczami.
 Chyba ten niebieskooki.
 Chyba udajesz, moja kochana.
@@ -9201,6 +9212,7 @@ Czy będę pół bogiem, pół czarnoksiężniczkiem, aby mieszać, lepić i roz
 Czy chciałabyś być moją dziewczyną?
 Czy chciałabyś usłyszeć resztę?
 Czy jest możliwe, żeby po dwudziestu rzutach monetą za każdym razem wyszedł orzeł?
+Czy korzystałeś już z teleporady?
 Czy krytyk jest postacią niezwykłą i odmienną od wszystkich śmiertelników?
 Czy który z panów nie ma przy sobie prawdziwego tureckiego papierosa?
 Czy majster zauważył to wówczas?
@@ -9273,6 +9285,7 @@ Czy widziałeś kiedy prywatny wagon?
 Czy widziałeś kiedyś potem tych dwoje?
 Czy wiesz, czyje te paznokcie?
 Czy wiesz, gdzie jest postój taksówek?
+Czy wiesz, kim on jest?
 Czy wszelka „twórczość” nie pochodzi z tych źródeł?
 Czy wydarzyło się coś nowego od owej chwili?
 Czy wytrzymasz jeszcze bez snu tę chwilę?
@@ -9366,6 +9379,7 @@ Daremne byłoby usiłowanie spać w noc taką.
 Darowanemu koniowi nie zagląda się w zęby.
 Daszek pokrył sztuką białego perkalu, aby go uczynić podwójnym.
 Dawaj, Franka, gorące żelazko.
+Dawaj, dalej, bo nie mam czasu.
 Dawano byle jaką cenę.
 Dawniej było to wielkie i piękne.
 Dawniej my brali od kamizelki…
@@ -9415,6 +9429,7 @@ Dlaczego muszę rozumieć?
 Dlaczego nic nie mówisz?
 Dlaczego nie mam koleżanek?
 Dlaczego nie pojadą, gdzie cieplej?
+Dlaczego one latają tak nisko?
 Dlaczego pozbawił tamtych mieszkańców wolności?
 Dlaczego się śmiejesz?
 Dlaczego to Zuzia nie przychodzi?
@@ -9653,6 +9668,7 @@ Dziewka gotowa do samego cesarza lecieć po sprawiedliwość.
 Dzień dobry bardzo.
 Dzień dobry, czy zastałem Jolkę?
 Dzień dobry, kochany słoniu!
+Dzień dobry, przyszedłem odebrać zaświadczenie.
 Dzień dobry, wszyscy umrzemy.
 Dzień dobry.
 Dzień jej na horyzoncie pańskiego życia już zaświtał.
@@ -10228,6 +10244,7 @@ Incele z Wykopu i blachary z Wizażu.
 Indyk myślał o niedzieli, a w sobotę łeb mu ścieli.
 Informacje w urzędach wojskowych były jakieś mętne i niepewne.
 Informację o cięciach budżetowych ogłoszono w ostatniej chwili.
+Informujemy jednocześnie, iż uruchomiliśmy wszelkie niezbędne procedury mające na celu zapewnienie bezpieczeństwa.
 Inicjatorką nadania nazwy była Halina Skibniewska, przewodnicząca Towarzystwa Przyjaźni Polsko-Francuskiej.
 Inna rzecz, że to z Panem było całkiem na wariata.
 Inni chłopcy obchodzili wielkiego pana z dala, jak niebezpiecznego potwora.
@@ -10340,6 +10357,7 @@ Jak na męża przystało, legł dupą do żony.
 Jak najbliżej, jak najbliżej koło ust…
 Jak nie płakał, to beczał.
 Jak nie, to nie.
+Jak obiadek?
 Jak obojętny jest na pozór list Janka.
 Jak okiem sięgnąć, nie było widać nawet euforbii.
 Jak on się wykrzywia!
@@ -11758,6 +11776,7 @@ Na szczęście zabieg nie był mi obcy.
 Na szybowcu lata!
 Na takich projektach i rozmowach zeszedł uszczęśliwionym dzieciom obiad.
 Na ten dzień zapasy były skończone i zebrani rozeszli się.
+Na terenie obiektu obowiązkowe jest zasłanianie nosa i ust.
 Na to Staś przesunął usta do jej ucha i rzekł szepcząc.
 Na to nie było rady.
 Na to wchodzi mama.
@@ -11883,6 +11902,7 @@ Nareszcie stało się.
 Nareszcie wstał i nie spojrzawszy na mnie więcej, wyszedł.
 Nareszcie zaczęło świtać.
 Narysowałbym coś, ale weny brak.
+Nasi Handlowcy pozostają do Państwa dyspozycji.
 Nasi bracia sofiści, którzy byli daleko na Wschodzie.
 Nastało długie milczenie.
 Nastrojem będzie rodzaj miłości, który nie daje żadnych objawów somatycznych.
@@ -12721,6 +12741,7 @@ Ok, wyłączyłem to.
 Ok, włączam to.
 Okazało się, że był to dach namiotu, który uderzenie wichru przyniosło aż tutaj.
 Okazało się, że jej kombinacja jest o wiele bardziej elegancka niż suknia.
+Okazało się, że nikogo tam nie było.
 Okazało się, że padł jeden koń i kilkunastu pagazich zostało w drodze.
 Okej, jaka jest pogoda dzisiaj?
 Oko jej jakby z podziwem przebiegło po nagiej podłodze.
@@ -13548,7 +13569,9 @@ Proszę cię, odbierz telefon!
 Proszę cię, powiedz mi zaraz, co to ma znaczyć?…
 Proszę do kancelarii.
 Proszę leżeć cicho i nie wykonywać żadnych gwałtownych ruchów.
+Proszę na mnie nie kichać!
 Proszę na mnie spojrzeć.
+Proszę o potwierdzenie, czy dane są zgodne.
 Proszę o więcej optymizmu w trakcie czytania tych zdań.
 Proszę opowiedzieć, jak do tego doszło
 Proszę przysłać zdolnego detektywa.
@@ -13718,6 +13741,7 @@ Przyjemnie.
 Przyjemniej chodzić we dwoje.
 Przyjemność psychiczna.
 Przyjął mnie z chmurą na czole i wyrzutem w oczach.
+Przyjęcia dostaw oraz wysyłki zamówień realizowane są na bieżąco.
 Przyjść musisz po chleby!
 Przykazanie mówi: „Czcij ojca”, a nie każdego, że się wcześniej urodził.
 Przykra to była przygoda z pomylonym panem.
@@ -14106,6 +14130,7 @@ Spojrzenie Ani.
 Spojrzyj tylko, jak mnie urządziłeś! — dodała, spoglądając po sobie.
 Spokojnie błyszczała woda.
 Spokojnie w dalszym ciągu kończyła swą robotę.
+Spokojnie, mój kot nie jest agresywny.
 Spokój, spokój, przecież to tylko gra.
 Spostrzegłszy ją Sara podeszła ku niej i ujęła ją drżącymi rękoma.
 Sposób w jaki Ania opowiada o malowaniu zaintrygował nawet mnie.
@@ -15248,6 +15273,7 @@ W weekend majowy pojechałem w góry.
 W wolnym czasie uwielbiam chodzić z przyjaciółmi na spacery.
 W zaroślach rozległ się trzask gałęzi.
 W zeszłym roku Jarmark cieszył się olbrzymią popularnością.
+W związku z epidemią koronawirusa informujemy, iż nasza Firma funkcjonuje bez zmian.
 W łóżku pracować mi zbrzydło.
 W łóżku próbował sobie przypomnieć, jak wygląda.
 W ścisłym znaczeniu może być prawdziwe tylko zdanie, i to w sensie logistyki.
@@ -15286,6 +15312,7 @@ Wdrapała się na stół i wyjrzała przez okno.
 Według kalendarza świąt nietypowych, pierwszy stycznia to dzień kaca.
 Wejdzie do haremu jako małżonka monarchy.
 Wejdźmy z naszym problemem pomiędzy lud prymitywny
+Wejście do autobusu jest możliwe tylko środkowymi drzwiami.
 Wejść proszę! — odpowiedziano z wnętrza.
 Wepchnął mocniej i złamała się.
 Wesołość moja nie tylko wytrąciła go z równowagi, ale nawet dotknęła.
@@ -15474,6 +15501,7 @@ Wodę w kiblu się spuszcza...
 Wojna będzie wielka, a może i nie tak bardzo.
 Wojna na Morzu Południowochińskim to kwestia czasu.
 Wojna nie będzie trwała długo.
+Wojtek kupił nowy mikrofon.
 Wokoło chodzą uważnie strażniczki cienia — prostytutki.
 Wola wasza jest świętą.
 Woli grać sam albo z dziećmi, najgorzej z dorosłymi gwiazdami.
@@ -16419,6 +16447,7 @@ zwłaszcza, gdy się może kołdrę naciągnąć na głowę.
 Łatwo przyszło, łatwo poszło.
 Łatwo spytać, a trudno odpowiedzieć! — rzekł jednoręki i pokiwał głową bezradnie.
 Łażę wzdłuż bulwarów, ale nie pomaga.
+Łukasz nie miał pojęcia, co się właściwie stało.
 Łzy napełniły oczy słuchaczy, a mury budynku zadrżały od okrzyków zachwytu.
 Łzy potoczyły się szybciej po jego drgającej twarzy.
 Łódź leży stosunkowo niedaleko Warszawy.
