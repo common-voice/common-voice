@@ -314,6 +314,7 @@ faq-where-src-from-2-q = D’induve vene u testu urighjinali ?
 faq-why-not-ask-read-q = Parchì ùn dumandeti micca à la ghjenti di leghje libri o articuli di Wikipedia in parechje lingue ?
 faq-why-account-q = Parchì duvaria creami un contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
+faq-what-determine-identity-q = Chì vole dì chì ùn possu « diterminà l’identità » di i locutori in a banca di dati Common Voice ?
 faq-search-for-answers =
     .label = Circà risposte
 
@@ -330,6 +331,10 @@ about-clip-graveyard = Campu santu di i campiunarii
 about-clip-graveyard-text = U campu santu di i campiunarii hè custituitu di tutti i campiunarii chì ùn sò micca stati cunvalidati pà fà parte di a banca di dati Common Voice. Cum'è edda, u campu santu di i campiuanarii pò esse scaricatu libaramente.
 about-partners = Partinarii
 about-become-a-partner = Diventà un partinariu
+about-partnership =
+    Common Voice hè un prughjettu cullaburativu, è dipindimu di a nostra cummunità di partinarii è di cuntributori pà creà a più tamanta banca di dati vucale di sempre. 
+    
+    Vulariamu ringrazià pà u so aiutu à u prughjettu i parsone è urganizazioni siguante :
 about-get-involved = Impegnassi
 about-get-involved-text-2 =
     Vuleti aiutà à migliurà ancu di più Common Voice ?
@@ -399,9 +404,15 @@ download = Scaricà
 
 ## Profile Delete
 
+why-delete-recordings =
+    L’arrighjistramenti di Common Voice sò ghjuvati dà universitarii, imprese chjuche, è appassiunati di a ricunniscenza vucale pà aiutà à addestrà è fà cresce risorze publiche cum’è mudelli vucale.
+    
+    Pudeti spiegaci parchì vuleti sguassà i vostri arrighjistramenti ?
+profile-form-delete = Sguassà u prufilu
 
 ## Landing
 
+login-company = Identificassi / Arrighjistrassi cù l’indirizzu elettronicu di { $company }
 read-more-about = Lighjiti di più annantu à a nostra paghjina Apprupositu
 
 ## DemoLayout
@@ -411,6 +422,7 @@ demo-get-started = Principiemu
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice hè a più maiò banca di dati vucale in parechje lingue, dispunibule publicamente di u mondu.
+demo-language-select-label = Splurà e lingue
 
 ## Demo Account
 
