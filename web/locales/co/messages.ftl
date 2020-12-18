@@ -311,6 +311,7 @@ faq-why-10k-hours-a = Hè più o menu a quantità d'ore necessarii pà addestrà
 faq-how-calc-hours-q = Di chì manera Common Voice calculeghja l'ore ?
 faq-how-calc-hours-a = Calculemu l’ore stimendu a lunghezza media d’ogni arrighjistramenti, è poi multiplichemu issu numaru cù a tutalità d’arrighjistramenti in tutte e lingue.
 faq-where-src-from-2-q = D’induve vene u testu urighjinali ?
+faq-why-not-ask-read-q = Parchì ùn dumandeti micca à la ghjenti di leghje libri o articuli di Wikipedia in parechje lingue ?
 faq-why-account-q = Parchì duvaria creami un contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-search-for-answers =
