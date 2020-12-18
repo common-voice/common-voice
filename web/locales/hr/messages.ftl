@@ -145,6 +145,7 @@ uz = Uzbečki
 vec = Venecijanski
 vi = Vijetnamski
 vot = Votjački
+yue = Kantonski
 zh-CN = Kineski (Kina)
 zh-HK = Kineski (Hong Kong)
 zh-TW = Kineski (Tajvan)
@@ -526,10 +527,11 @@ data-other-goto = Prijeđi na { $name }
 data-other-download = Preuzimanje podataka
 data-bundle-button = Preuzmi paket skupova podataka
 data-bundle-description = Common Voice podaci, plus svi gore navedeni skupovi glasovnih podataka.
+release-version = Verzija
+dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kombinirana
 data-download-singleword-title = Preuzmi segment za ciljanje pojedinačnih riječi
-data-download-singleword-callout = Ovaj segment sadrži podatke za prepoznavanje izgovorenih brojki, za otkrivanje odgovora da/ne i za testiranje riječi buđenja uređaja u <fxLink>Firefox Voiceu</fxLink>.
 review-terms = Korištenjem Common Voicea, prihvaćaš naše <termsLink>uvjete</termsLink> i <privacyLink>napomene o privatnosti</privacyLink>
 terms-agree = slažem se
 terms-disagree = ne slažem se
@@ -878,3 +880,28 @@ help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaran
 login-company = Prijavi se / registriraj se s { $company } e-mail adresom
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
 read-more-about = Pročitaj više na našoj stranici Informacije
+
+## DemoLayout
+
+demo-get-started = Započnimo
+demo-welcome = Dobro došao, dobro došla u Common Voice
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice je najveći javno dostupan, višejezičan skup glasovnih podataka na svijetu.
+card-button-next = Dalje
+card-button-back = Natrag
+demo-language-select-label = Pregledaj jezike
+demo-account = Račun
+
+## Demo Account
+
+demo-account-enter-email =
+    .label = Upiši e-adresu za slanje poveznice za prijavu
+demo-account-sign-up = Pošalji poveznicu za prijavu
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
