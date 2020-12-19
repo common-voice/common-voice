@@ -411,6 +411,14 @@ about-is-it-valid = Ba hikékét hi kiñ hi hi héli ?
 about-is-it-valid-text = Hikékét hi kiñ hi ñkwéda le hi nneebana idéé ñemble a ñkwet jo le Ññ.
 about-yes-votes = Miñkwedek le Ññ
 about-yes-votes-text = Inyu boñ le kiñ i jôp ikédé mayaa ma Common Voice, baemble iba ba nla nneebe yo.
+about-no-votes = Bangimiñkwedek
+about-no-votes-text = Ingéda ñemble a ntjél nneebe hikékét i kiñ, hini hi ntémb i ntôn-maemble. Ibale ñemble numpe a ntémb a tjél nneebe hyo, hini hikékét hi kiñ hi nléba i Soñ i Dikékét di Makiñ.
+about-dataset-new = Mayaa ma Makiñ ma Common Voice
+about-dataset-new-text = Mayaa ma makiñ ma Common Voice ma gwéé didun ndi didun di dihéga di makiñ, di nhôla bahôlôs makeñge le ba hôlôs bikey bi nsolol makiñ.
+about-clip-graveyard = Soñ i Dikékét di Makiñ
+about-clip-graveyard-text = Soñ i Dikékét ti Makiñ i gwéé dikékét di makiñ diyé le di bijôp bé ikédé mayaa ma Common Voice. Nlélém kiki mayaa momede, Soñ i Dikékét di Makiñ iyé kunde le mut a ket yo.
+about-partners = Bijô bi Yum
+about-become-a-partner = Yila jô i Yum
 
 ## Glossary
 
