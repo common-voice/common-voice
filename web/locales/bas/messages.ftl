@@ -408,6 +408,9 @@ about-listen-queue-text = Dikékét di makiñ di yé nkoyok ntôñ ikéde ntô
 about-listen = Emble
 about-listen-text = Baemble ba ñemble ni ineebe tole itjél minkôlge mi dikékét di makiñ, ibale ba ntehe le inwet a nkôle kiñ a ntibil añ ntôñ u bibuk loñge.
 about-is-it-valid = Ba hikékét hi kiñ hi hi héli ?
+about-is-it-valid-text = Hikékét hi kiñ hi ñkwéda le hi nneebana idéé ñemble a ñkwet jo le Ññ.
+about-yes-votes = Miñkwedek le Ññ
+about-yes-votes-text = Inyu boñ le kiñ i jôp ikédé mayaa ma Common Voice, baemble iba ba nla nneebe yo.
 
 ## Glossary
 
