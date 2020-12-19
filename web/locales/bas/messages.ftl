@@ -419,6 +419,8 @@ about-clip-graveyard = Soñ i Dikékét di Makiñ
 about-clip-graveyard-text = Soñ i Dikékét ti Makiñ i gwéé dikékét di makiñ diyé le di bijôp bé ikédé mayaa ma Common Voice. Nlélém kiki mayaa momede, Soñ i Dikékét di Makiñ iyé kunde le mut a ket yo.
 about-partners = Bijô bi Yum
 about-become-a-partner = Yila jô i Yum
+about-partnership = Common Voice a nson u gwelna-gwelna ni ini njel le, ndi nnigne nson wés i ndôñ bijô bi yum ni basañge inyu libulus nya tjañ-ndjoi mayaa ma makiñ nu a bama bé ba.
+about-get-involved = Yoñ ngaba
 
 ## Glossary
 
