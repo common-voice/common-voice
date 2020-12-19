@@ -398,6 +398,7 @@ faq-what-determine-identity-a =
 
 ## ABOUT US
 
+about-subtitle = Common Voice a yé mpay u nson wada u Mozilla u nhôla i niiga bikey lela bôt ba binam ba mpot i ntiik. Ha ndigi mayaa ma makiñ ma Common Voice bé, ndi ndun i yé ki bés i pémés tjañ-njoi  nyum u lisoolene li makiñ di nsébél le Deep Speech.
 
 ## Glossary
 
