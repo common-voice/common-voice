@@ -399,6 +399,9 @@ faq-what-determine-identity-a =
 ## ABOUT US
 
 about-subtitle = Common Voice a yé mpay u nson wada u Mozilla u nhôla i niiga bikey lela bôt ba binam ba mpot i ntiik. Ha ndigi mayaa ma makiñ ma Common Voice bé, ndi ndun i yé ki bés i pémés tjañ-njoi  nyum u lisoolene li makiñ di nsébél le Deep Speech.
+about-header-description = Mimpay mi bôlô mini nwo ima ma ñéba yéñe i digwéé bi boñ le likeñge li isolol makiñ li tôa ndi mbôô i mahop. Makenge ma lisolol makiñ nhek jubus libak li mut-binam ikédé bikey gwés, ndi bahôlôs makeñge ba gwéé ngôñ ni didun ndi didun di dikékét di makiñ inyu ihôlôs mana makeñge. Ingeñ ini di téé, inya i minje mi makiñ mi, mi ntiba bé nyañga, yak lôôha die mi nhee. Njômbi yés iyé le di bulus minje mi makiñ ni ti mo bôt yañga, ndi di tôñôk le mini minje milôlâk ni mbôô i limut i mpot hiki hop kiki ka ngéda libôlôk li nnene hiki hop. Ibale di ngwelna i woo, di yé le di hôlôs lisolol makiñ inya i gwééne hiki wada wés nseñ.
+how-does-it-work-title = Lela mam ma nke ?
+how-does-it-work-text = Di nnaña nlume njañgi ikôhle tjañ-njoi mayaa ma makiñ. Kôle bés kiñ yoñ, u ke bisu ni neebe makiñ bôt bape ba nsañge, yoñ ngaba i boñ le mayaa ma makiñ ma nyila mintolok.
 
 ## Glossary
 
