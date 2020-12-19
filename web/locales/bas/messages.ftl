@@ -145,6 +145,7 @@ uz = Usbekia
 vec = Vénésia
 vi = Vietnamia
 vot = Votik
+yue = Cantonesia
 zh-CN = Tjaina
 zh-HK = Tjaina i Hong Kong
 zh-TW = Tjaina i Taiwan
@@ -388,7 +389,9 @@ faq-is-goal-assistant-a = Nseñ u mayaa ma makiñ ma Common Voice u yé le ton
 faq-do-want-native-q = Me ta bé me tistis mpôdôl u unu hop ; mempot wo ni ndék libot, hala a gatéénga bé ibale me nsañge kiñ yem e ?
 faq-do-want-native-a = U nkégél i hyes, nga kiñ yoñ yo i yé yaga lôôha nseñ ! Yéñe yada i Common Voice i yé le a nsañge nyandinya i mapôdôl ma hiki hop, ika i yé le minsoolene mi la solol to umbe ntén u kiñ. Hala a nkobla le bangipot-hop-tistis bayé yaga tôtôtôbô nseñ.
 faq-why-different-speakers-q = Inyu kii ni ntoñ ibana i nya libim li bôt i inyu hiki hop ?
-faq-why-different-speakers-a = Ikédé jôga li bitoga bi mayaa ma makiñ ndi mbéna ndigi koba le ngim i mintén mi mapôdôl mi ngim i nya i bôt nwon mi ntôl mu kiki bo <articleLink>bôlôm ni bôt ba bigwel moo</articleLink. Bi soolene bi makiñ bi nhôlhana ni unu ntén njel bi mbéna ndigi la solol makiñ ma inyaa bôt ba nhôlhene mo.
+faq-why-different-speakers-a =
+    Ikédé jôga li bitoga bi mayaa ma makiñ ndi mbéna ndigi koba le ngim i mintén mi mapôdôl mi ngim i nya i bôt nwon mi ntôl mu kiki bo <articleLink>bôlôm ni bôt ba bigwel moo</articleLink. Bi soolene bi makiñ bi nhôlhana ni unu ntén njel bi mbéna ndigi la solol makiñ ma inyaa bôt ba nhôlhene mo. Inya i makiñ i nt́ôl bé nene i mayaa ma makiñ ba gwélél inyu ihôlôs lisolol makiñ, iyé ma diyende di bôt tole diyende di maloñ. Ndun i yé le makeñge inyu liniiga bikel lisolol makiñ ma bôñlak yak makiñ ma bôda.
+    Inyu hala nyen ndôlôk i makiñ i yé nseñ ngandak muni iyés toga i mayaa.
 faq-what-determine-identity-a =
     Mayaa ma minje ma Common Voice ma yé tjañdjoi ni kunde le himut a nla gwélél mo inyu ihôlôs nyandinya i makenge ma makiñ. Di gwéé nduña le basañge makiñ jam libe litômla bañ bo, inyu hala nyen di nyegsa himut a nket minje i mayaa ma Common Voice le a nôñôl matédél.
     Yimbe i jôl to libak li mut gwokigwo bi nnene bé i dikékét di makiñ diyé i mayaa ma minje. Hindéé mut a nket liyaa li minje, a nkum soñ le a gayéñ bé iyi njemut a bisañge nwo. Hala a nkobla le mut a tabé kunde i béé i biniigana bi nkiha ni mayaa inyu too njañ i basañge. Yom himut a yé kunde i boñ i yé libéé i mayaa ma minje inyu ihôlôs lisolol makiñ, tole isolol kiñ i ngim mut tôbôtôbô, ni minsélél mi makiñ mimpe ki. Inyu isal inya nson i, kunde i yé le mut a nla béé i biniigana bi nkiha ni mayaa, ni noñga gwo ni biniigana bipe biyé mu i minlélém mi mayaa.
