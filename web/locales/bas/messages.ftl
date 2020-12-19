@@ -421,6 +421,15 @@ about-partners = Bijô bi Yum
 about-become-a-partner = Yila jô i Yum
 about-partnership = Common Voice a nson u gwelna-gwelna ni ini njel le, ndi nnigne nson wés i ndôñ bijô bi yum ni basañge inyu libulus nya tjañ-ndjoi mayaa ma makiñ nu a bama bé ba.
 about-get-involved = Yoñ ngaba
+about-get-involved-text-2 =
+    U yé le u gwés le Common Voice a kônde hôlôl e ?
+    Longe i jam ! Tilna ni bés ni njel mél tole i yuyut in <discourseLink>Nkwel</discourseLink>, yis bés ni njel <githubLink>GitHub</githubLink> imam ma ntéénga ikédé jumbul jés, tole lo koba bijô bi yuyut i knwel le <matrixLink>Matrix</matrixLink>.
+about-nav-why-common-voice = Inyu ki ?
+about-nav-how-it-works = Lela ?
+about-nav-partners = Bijô bi Yum
+about-nav-get-involved = Yoñ ñgaba
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Nsim u Yi
 
 ## Glossary
 
