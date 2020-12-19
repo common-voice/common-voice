@@ -430,6 +430,7 @@ about-nav-partners = Bijô bi Yum
 about-nav-get-involved = Yoñ ñgaba
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Nsim u Yi
+mycroft-description = Mycrosoft a yé ngama open source i nlel yosô. Mycrosoft a mbôñla to hee - kinyii-nkuu, ikédé matôa, tole i Raspberry Pi.
 
 ## Glossary
 
