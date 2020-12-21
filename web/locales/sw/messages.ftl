@@ -480,6 +480,8 @@ data-other-goto = Nenda kwa { $name }
 data-other-download = Pakua data
 data-bundle-button = Pakua kifurushi cha daftari
 data-bundle-description = Data ya Common Voice pamoja na hifadhisauti zingine hapo juu.
+release-version = Toleo
+dataset-date = Tarehe
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja
@@ -808,6 +810,9 @@ read-more-about = Soma zaidi kwenye ukurasa wa kutuhusu
 
 ## DemoLayout
 
+demo-get-started = Tuanze
+demo-welcome = Karibu Common Voice
+demo-welcome-subheader = Je! Umevutiwa na kujifunza zaidi na kuchangia kwenye mradi huu?
 
 ## Demo Datasets
 
