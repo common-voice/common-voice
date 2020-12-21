@@ -516,7 +516,6 @@ data-bundle-description = کامن وائس ڈیٹا اور اوپر موجود 
 license = لائیسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ملا جلا
 data-download-singleword-title = یک لفظ ہدف طبقہ ڈاؤن لوڈ کریں
-data-download-singleword-callout = یہ قابل استعمال مثال پر مبنی حصہ ہے جس میں </fxLink> فائر فاکس وائس <fxLink> کیلئے اعداد و شمار کی شناخت ، ہاں/نہیں کھوج ، اور ویک ورڈ ٹیسٹنگ ڈیٹا سے متعلق ڈیٹا شامل ہوتا ہے۔
 review-terms = Common Voice کے استعمال کے ساتھ آُپ ہماری <termsLink>شرائط</termsLink> اور <privacyLink>رازداری نوٹس</privacyLink> سے متفق ہیں
 terms-agree = میں متفق ہوں
 terms-disagree = میں متفق نہیں ہوں
@@ -852,3 +851,22 @@ help-contribute = کامن وائس پر پروفائل بنا کر اپنی آ�
 login-company = لاگ ان / { $company } ای میل کے ساتھ سائن اپ کریں۔
 profile-not-required = شراکتیں شامل کرنے کے لیے پروفائل ضروری نہیں گو مددگار ہے ، وجہ کے لیے نیچے دیکھیں۔
 read-more-about = مزید جاننے کے لیے تعارفی صفحہ دیکھیں۔
+
+## DemoLayout
+
+demo-get-started = چلیں شروع کریں
+demo-welcome = Common Voice میں خوش آمدید
+
+## Demo Datasets
+
+card-button-next = آگے
+card-button-back = پیچھے
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
