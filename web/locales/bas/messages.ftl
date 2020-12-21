@@ -220,15 +220,15 @@ x-years-short =
         [one] nwii
        *[other] { $count }nwii
     }
-help-make-dataset = Hôla bés le bi ôô mayaa ma minje ma nseñ inyu bôt bobasô
+help-make-dataset = Hôla bés le bi ôô mayaa ma minje ma ñguy inyu bôt bobasô
 sign-up-account = Tilba inyu ibana ijoň liboñ
-email-subscription-title = Tilba inyu ikôhna minuyne mi mél
-email-subscription-title-new = Tila jôl inyu ikôhna manwin ma Common Voice, mbigda iyônôs ndak bôlô, ni likenek li minuyne
+email-subscription-title = Tilba inyu ikôhna mél yôha ni kel
+email-subscription-title-new = Tila jôl inyu ikôhna manwin ma Common Voice, mbigda iyônôs ndak bôlô, ni yôha ni kel mañgan ma mahol ma nson
 
 ## Account Benefits
 
 benefits = Minseñ
-rich-data = Ḱonde mahoñ munu ikédé mayaa ma minje u nsange, inya u yé le u la, ni inôbe bikadbana gwoñ, iba bé iyelel jol joñ. To ibale jôl linnene we mu i bikadbana bi, di nhô jo, nwaa di ntjam bikadbana gwoñ.
+rich-data = Ḱonde mahoñ munu ikédé mayaa ma minje u nsañge, inya u yé le u la, ni inôbe bikadbana gwoñ, iba bé iyelel jol joñ. To ibale jôl linnene we mu i bikadbana bi, di nhô jo, nwaa di ntjam bikadbana gwoñ.
 improve-audio = Biyimbne gwoñ unti, binhôla i yidis nguy i mayaa ma makiñ u nsange, ka iyé le hala a nhôñôs likenge li lisolol makiñ.
 keep-track = Béna hes mahol ma nson woñ ni mahol ma bôlô i mahop mape.
 compare-progress = Bénge ihet mahol ma nson woñ matééne, inoñnaga ni mahol ma bansange makiñ bape ni nkoñ isi wonsô.
