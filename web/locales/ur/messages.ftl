@@ -864,6 +864,7 @@ demo-welcome = Common Voice میں خوش آمدید
 
 card-button-next = آگے
 card-button-back = پیچھے
+demo-eofy-header = 2019 سال آخری  ریلیز
 demo-account = ‏‏اکائونٹ
 
 ## Demo Account
