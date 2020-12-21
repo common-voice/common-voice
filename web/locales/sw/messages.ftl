@@ -816,9 +816,11 @@ demo-welcome-subheader = Je! Umevutiwa na kujifunza zaidi na kuchangia kwenye mr
 
 ## Demo Datasets
 
+demo-language-select-card-body = Shukrani kwa michango ya watu takribani laki mbili na elfu hamsini na tisa  katika lugha zaidi ya hamsini(50), data hii inatumika kusaidia kufundisha programu ambazo zinauweza wa kutambua sauti ili kuweza kujibu vizuri sauti ya mwanadamu
 card-button-next = Mbele
 card-button-back = Nyuma
 demo-language-select-label = Vinjari Lugha
+demo-eofy-header = Toleo la mwisho la mwaka wa 2019
 demo-eofy-sub_header = Hifadhidata ya sauti ipo tayari kupakuliwa
 demo-account = Akaunti
 
