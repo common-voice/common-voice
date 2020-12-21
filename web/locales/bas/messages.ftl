@@ -180,7 +180,7 @@ home-title = Mozilla nyen a bibot Common Voice, ni ini njel le bikey bila nigil 
 home-cta = Podok, sañge kiñ yoñ hana!
 wall-of-text-start = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge ni njel i bikey gwés, ma nla hôla i kek kiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
 wall-of-text-more-mobile = Jôga li mayaa ma makiñ ma mbom i mandam ma kégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñnge li isolol makiñ, to nje a la gwélél jo.
-wall-of-text-more-desktop = I bitéé li lôñ, u nla sañge kiñ yoñ inyu hôla lioñ tjañ-njoi toga i makiñ, nu himut a nla bôñôl, ni ôô bihélha bi bibañ binkiha ni nya-ndi-nya i bikey, to ni web. Añ nlôñ u matila inyu hôla bikey le binigil lela bôt ba binam ba mpot i ntiik u lipodok. Emble makiñ ma bôt bape ba mbôk ba sañge, ka yé le nson u yét. Hala a nlôô yaga bé let pak!
+wall-of-text-more-desktop = I bitéé li lôñ, u nla sañge kiñ yoñ inyu hôla lioñ sadaga  toga i makiñ, nu himut a nla bôñôl, ni ôô bihélha bi bibañ binkiha ni nya-ndi-nya i bikey, to ni web. Añ nlôñ u matila inyu hôla bikey le binigil lela bôt ba binam ba mpot i ntiik u lipodok. Emble makiñ ma bôt bape ba mbôk ba sañge, ka yé le nson u yét. Hala a nlôô yaga bé let pak!
 wall-of-text-first = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge ni njel i bikey gwés, ma nla hôla i kek kiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
 wall-of-text-second = Jôga li mayaa ma makiñ ma mbom i mandab ma likégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñnge li isolol makiñ, to nje a la gwélél jo.
 show-wall-of-text = Kônde añ
@@ -431,6 +431,7 @@ about-nav-get-involved = Yoñ ñgaba
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Nsim u Yi
 mycroft-description = Mycrosoft a yé ngama open source i nlel yosô. Mycrosoft a mbôñla to hee - kinyii-nkuu, ikédé matôa, tole i Raspberry Pi.
+mycroft-secondary-description = Ini i yé sadaga hikôm a yé le, to nje a nla tiimba hyelel hyo ijé lihyelhak, tole a nnôbe ijé linôbge, tole a hôlôs ijé lihôlhak. Mycroft a nla bôñla ingadak i manjel, ibôdôl i yum li nson ike pam i mandap ma bahôlôs dikôm di bipahge.
 
 ## Glossary
 
