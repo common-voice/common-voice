@@ -858,13 +858,18 @@ demo-welcome-subheader = Θέλετε να μάθετε περισσότερα �
 
 card-button-next = Επόμενο
 card-button-back = Πίσω
+demo-language-select-label = Περιήγηση στις γλώσσες
+demo-eofy-header = Κυκλοφορία στο τέλος του 2019
+demo-eofy-sub_header = Αρχείο δεδομένων φωνής, έτοιμο για λήψη
 demo-account = Λογαριασμός
 
 ## Demo Account
 
+demo-account-sign-up = Αποστολή συνδέσμου εγγραφής
 
 ## Demo Contribute
 
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Οι προσωπικοί πίνακες ελέγχου σάς ενημερώνουν σχετικά με την ατομική και συνολική πρόοδο της κοινότητας.
