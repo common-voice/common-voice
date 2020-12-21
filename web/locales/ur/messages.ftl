@@ -145,6 +145,7 @@ uz = ازبک
 vec = وینشین
 vi = ویتنامی
 vot = ووٹک
+yue = کینٹونی
 zh-CN = چینی (چین)
 zh-HK = چینی (ہانگ کانگ)
 zh-TW = چینی (تائیوان)
@@ -513,6 +514,8 @@ data-other-goto = { $name } پر جائیں
 data-other-download = ڈائونلوڈ شدہ کوائف
 data-bundle-button = ڈیٹا سیٹ بنڈل ڈاون لوڈ کریں
 data-bundle-description = کامن وائس ڈیٹا اور اوپر موجود دیگر وائس ڈیٹا سیٹس
+release-version = ورژن
+dataset-date = تاریخ
 license = لائیسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ملا جلا
 data-download-singleword-title = یک لفظ ہدف طبقہ ڈاؤن لوڈ کریں
@@ -861,12 +864,16 @@ demo-welcome = Common Voice میں خوش آمدید
 
 card-button-next = آگے
 card-button-back = پیچھے
+demo-account = ‏‏اکائونٹ
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = سائن اپ ربط ارسال کرنے کے لئے ای میل درج کریں
 
 ## Demo Contribute
 
+demo-listen-subtitle = شراکت کے لئے تیار ہیں؟
 
 ## Demo Dashboard
 
