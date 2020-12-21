@@ -816,6 +816,8 @@ demo-welcome-subheader = Je! Umevutiwa na kujifunza zaidi na kuchangia kwenye mr
 
 ## Demo Datasets
 
+card-button-next = Mbele
+card-button-back = Nyuma
 demo-language-select-label = Vinjari Lugha
 demo-eofy-sub_header = Hifadhidata ya sauti ipo tayari kupakuliwa
 demo-account = Akaunti
