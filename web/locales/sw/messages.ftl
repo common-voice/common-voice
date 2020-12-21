@@ -816,12 +816,19 @@ demo-welcome-subheader = Je! Umevutiwa na kujifunza zaidi na kuchangia kwenye mr
 
 ## Demo Datasets
 
+demo-language-select-label = Vinjari Lugha
+demo-eofy-sub_header = Hifadhidata ya sauti ipo tayari kupakuliwa
+demo-account = Akaunti
 
 ## Demo Account
 
+demo-account-card-header = Kuwa na akaunti haihitajiki kuchangia, ingawa inasaidia.
+demo-account-sign-up = Tuma kiunga cha kujisajili
 
 ## Demo Contribute
 
+demo-contribute-card-header = Uko tayari kuongeza sauti yako au kusikiliza?
+demo-listen-subtitle = Uko tayari kuchangia?
 
 ## Demo Dashboard
 
