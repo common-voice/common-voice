@@ -240,9 +240,9 @@ join-newsletter = Kikii ka gwés yoñ, u nla tilba i yuyut yés i mél inyu ik�
 whats-public = Kinje i mpam i mbamba ?
 email-not-public = Di gapémés be mél yoñ i mbamba.
 recordings-and-locale-public = Nsongi u dikékét dimakiñ u nsañge ni i hop u nsañgne mo, biga pam bé i bamba.
-username-optin-public = Unla tep i yilis ngédi yoñ ntjangén, tole nsolbe.
-demographic-deidentified-clarity-2 = Biyimbne gwon bi unti kikii ka gwés yoñ (hihéga : bimañ, libak  li muda tole mulôm, hop, lipôdôl), biga yila bé ntjagén kelkikel i liyimbne joñ, ndi to le bi ba ñañnaga ni libôñ joñ i liyaa li makiñ. Dipeles di dikékét di makiñ di gaéna ni biyimbne gwoñ, he ndigi inyu liti maap inyu longe i ndoñol - kikii hihéga, nwan man a yé le agwés nigne ngim likénge li lisolol makiñ i ngim yimbne tôbôtôbô
-username-email-not-demographic = Ngédi yoñ ndi to njañ yoñ mél, biga ngwaña bé ni bitjéma bi mayaa ma makiñ
+username-optin-public = Unla tep i pémés ngédi yoñ i mbamba, tole u nwas yo nsolbe.
+demographic-deidentified-clarity-2 = Biyimbne gwon bi unti kikii ka gwés yoñ (hihéga : bimañ, libak  li muda tole mulôm, hop, lipôdôl), biga pam bé i mbamba kelkikel i liyimbne joñ, ndi to le bi ba ñañnaga ni libôñ joñ i liyaa li makiñ. Dipeles di dikékét di makiñ di gaba ñgwañnaga ni biyimbne gwoñ, he ndigi inyu liti maap inyu longe i ndoñol - kikii hihéga, nwan mam a yé le agwés nigne ñgim likéñge li lisolol makiñ i ñgim yimbne tôbôtôbô.
+username-email-not-demographic = Ñgédi yoñ ndi to njañ yoñ mél, biga gwaña bé ni bitjéma bi mayaa ma makiñ.
 
 ## Speak & Listen Shortcuts
 
@@ -276,11 +276,11 @@ request-language-button = Legle ngim hop
 ## ProjectStatus
 
 status-title = Ntel u gwém i nson yosô : tehe ibol hee di tééne!
-status-contribute = Sange kiñ yoñ
+status-contribute = Sañge kiñ yoñ
 status-hours =
     { $hours ->
-        [one] Ngim ngeñ i ma kémhana, ntel ngéda
-       *[other] { $hours } i ma kémhana, ntel ngéda
+        [one] Ngim ngeñ i makiñ i maneebana ibol hana kiki di téé.
+       *[other] { $hours } ngeñ i makiñ i maneebana ibol hana kiki di téé.
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -292,7 +292,7 @@ english = Ŋgìsì
 profile-form-username =
     .label = Ngédi
 profile-form-native-language =
-    .label = Hop u lingwélés
+    .label = Hop u libéé
 profile-form-additional-language =
     .label = Hop mpe
 profile-form-accent =
