@@ -237,9 +237,9 @@ join-newsletter = Kikii ka gwés yoñ, u nla tilba i yuyut yés i mél inyu ik�
 
 ## What's public
 
-whats-public = Kinje i yé ntjangén ?
-email-not-public = Di gatôô bé mél yon ni ntangén.
-recordings-and-locale-public = Nsongi u makiñ u nsange ni umbe hop u nsangne mo, biga tjéma ntjangén.
+whats-public = Kinje i mpam i mbamba ?
+email-not-public = Di gapémés be mél yoñ i mbamba.
+recordings-and-locale-public = Nsongi u dikékét dimakiñ u nsañge ni i hop u nsañgne mo, biga pam bé i bamba.
 username-optin-public = Unla tep i yilis ngédi yoñ ntjangén, tole nsolbe.
 demographic-deidentified-clarity-2 = Biyimbne gwon bi unti kikii ka gwés yoñ (hihéga : bimañ, libak  li muda tole mulôm, hop, lipôdôl), biga yila bé ntjagén kelkikel i liyimbne joñ, ndi to le bi ba ñañnaga ni libôñ joñ i liyaa li makiñ. Dipeles di dikékét di makiñ di gaéna ni biyimbne gwoñ, he ndigi inyu liti maap inyu longe i ndoñol - kikii hihéga, nwan man a yé le agwés nigne ngim likénge li lisolol makiñ i ngim yimbne tôbôtôbô
 username-email-not-demographic = Ngédi yoñ ndi to njañ yoñ mél, biga ngwaña bé ni bitjéma bi mayaa ma makiñ
