@@ -872,7 +872,9 @@ demo-account-sign-up = Azen aseɣwen n ujerred
 
 ## Demo Contribute
 
+demo-contribute-card-body = Tura imi tessneḍ cwiṭ ɣef Common Voice, acimi ur tettaɛraḍeḍ ara? Senned ɣef tignit n usawaḍ akken ad tebduḍ taɣurin tefyar s taɣect.<br/><br/> Ma tebɣiḍ ad tesneqdeḍ taɣuri n wiyaḍ, tekki ɣef tignit n tɣuri. Senqed sakin asekles s taɣect ara tesleḍ, win yemṣadan d tefyirt i tettwaliḍ deg ugdil.
 demo-listen-subtitle = Twejdeḍ ad tettekkiḍ?
 
 ## Demo Dashboard
 
+demo-dashboard-card-body = Di yal tukkist n taɣect akked yal tukkist n umeslaw yettwaqeblen, tafelwit n usenqed n umiḍan-ik ad tattwalqem akken ad d-iban usfari-ik aneggaru deg yal tutlayt ideg i tettekkaḍ. Ih, tzemreḍ ad tettekkiḍ deg ddeqs n tutlayin!<br/><br/> Seqdec tafelwit n usenqed akken ad tefreḍ tiddadanin-ik, ad twaliḍ asfari-ik d wid n yimttekkiyen-nniḍen n temɣiwent daɣen ad tgeḍ iswi n uttekki n wass neɣ n yimalas.
