@@ -459,6 +459,7 @@ mycroft-secondary-description = Ini i yé sadaga hikôm a yé le, to nje a nla t
 
 ## Glossary
 
+glossary = Ñkobol-hihehela
 
 ## Error pages
 
