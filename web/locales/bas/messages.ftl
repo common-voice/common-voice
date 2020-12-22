@@ -460,6 +460,12 @@ mycroft-secondary-description = Ini i yé sadaga hikôm a yé le, to nje a nla t
 ## Glossary
 
 glossary = Ñkobol-hihehela
+localization = Mawas ma ntjep
+localization-explanation = Hana nyeñ di nnôñôl inyu ihyelel ni ikôlbaha biniigana gwés i mbuu i mahop ipe
+sentence-collection = Likôhle mintôñ mi bibuk
+sentence-collection-explanation = Likôhle mintôñ mi bibuk i basadaga ba mapigil, tole lijubus mintôñ mi mondo i sadaga mapigil.
+hours-recorded-explanation = Nsoñgi u mañgeñ ma makiñ ma di makôle ibol hana i ñgéda ini.
+hours-validated-explanation = Nsoñgi u mañgeñ ma makiñ ma di makôhle, ma yé le bôt 2 isi bôt 3 ba nneebe, ba kwet mo le "Ññ". Hala a ñéba libim li bôlô li maséla ikolbaha ni likak jés li 10 li dikôô li mañgeñ.
 
 ## Error pages
 
