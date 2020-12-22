@@ -474,6 +474,8 @@ de-identified-explanation = Maboñok ma mboñ le biyimbne bi nsañge-kiñ bi
 ## Error pages
 
 error-title-404 = Lipep u ntoñ di nla bé léba jo
+error-content-404 = Bebek <homepageLink>Kumba</homepageLink> i jumbul jés i yé le i hôla we ? Ibale u gwéé mbadga ibat, si nsoohe we le u jôp i <matrixLink>yuyut i ñkwel le Matrix</matrixLink>, hes mandoñ ma jumbul i<githubLink>GitHub</githubLink> tole léñél<discourseLink>biyuyut gwés bi miñkwel</discourseLink>.
+error-title-503 = Papama i jam i ñkéñ bés le jumbul jés li kôble ha bé ndugi
 
 ## Data
 
