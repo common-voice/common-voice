@@ -476,9 +476,16 @@ de-identified-explanation = Maboñok ma mboñ le biyimbne bi nsañge-kiñ bi
 error-title-404 = Lipep u ntoñ di nla bé léba jo
 error-content-404 = Bebek <homepageLink>Kumba</homepageLink> i jumbul jés i yé le i hôla we ? Ibale u gwéé mbadga ibat, si nsoohe we le u jôp i <matrixLink>yuyut i ñkwel le Matrix</matrixLink>, hes mandoñ ma jumbul i<githubLink>GitHub</githubLink> tole léñél<discourseLink>biyuyut gwés bi miñkwel</discourseLink>.
 error-title-503 = Papama i jam i ñkéñ bés le jumbul jés li kôble ha bé ndugi
+error-content-503 = Ndék ñgéda we jumbul li ntiimba ki bôdôl kôble. Inyu ikôs biniigana bilégék, ndi nsoohe we le u jôp i <matrixLink>yuyut i ñkwel le Matrix</matrixLink>, tole léñél <githubLink>GitHub</githubLink>, tole <discourseLink>biyuyut gwés bi miñkwel</discourseLink> inyu lisule ni hes mandoñ ma mpémél we i jumbul.
+error-code = Hihôha{ $code }
 
 ## Data
 
+data-download-button = Ket minje mi Common Voice
+data-download-yes = Ññ
+data-download-deny = To
+data-download-license = Matédél : <licenseLink>CC-0</licenseLink>
+data-download-modal = Ñkeda u minje mi nyét <size>{ $size }Go</size> u yé bebee ni bôdôl, u ñke ni bisu ?
 
 ## Datasets Page
 
