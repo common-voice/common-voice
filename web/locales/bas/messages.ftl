@@ -466,9 +466,14 @@ sentence-collection = Likôhle mintôñ mi bibuk
 sentence-collection-explanation = Likôhle mintôñ mi bibuk i basadaga ba mapigil, tole lijubus mintôñ mi mondo i sadaga mapigil.
 hours-recorded-explanation = Nsoñgi u mañgeñ ma makiñ ma di makôle ibol hana i ñgéda ini.
 hours-validated-explanation = Nsoñgi u mañgeñ ma makiñ ma di makôhle, ma yé le bôt 2 isi bôt 3 ba nneebe, ba kwet mo le "Ññ". Hala a ñéba libim li bôlô li maséla ikolbaha ni likak jés li 10 li dikôô li mañgeñ.
+sst = Hop-u-Yilga-Matila (HYM)
+sst-explanation = Mekeñge ma Hop-u-Yilga-Matila (HYM) ma nhyelel hop matila.
+de-identified = mĩhôk-bikadbana
+de-identified-explanation = Maboñok ma mboñ le biyimbne bi nsañge-kiñ bi kudlana ikédé dikékét di makiñ a ñkôle, indéé bi ñkéña njak le mut a nla ket gwo ikédé mayaa.
 
 ## Error pages
 
+error-title-404 = Lipep u ntoñ di nla bé léba jo
 
 ## Data
 
