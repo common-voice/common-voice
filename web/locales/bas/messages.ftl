@@ -401,7 +401,7 @@ faq-why-10k-hours-q = Ba likañ li yé ndigi le  nsoñgi u makiñ ma nneebana
 faq-why-10k-hours-a = Ññ, hala a yé bebee le libim li ñgeñ li mbéda iyu iniiga minyum mi nhyelel makiñ matila.
 faq-how-calc-hours-q = Ñgim ñgeñ yada i li ôdôk li Common Voice i yé umbe ntel ?
 faq-how-calc-hours-a = Inyu ôt mintel mi mañgeñ, si mbôk di ôt hihéga hi ntel u hiki kéket i kiñ, imbus bi bulus unu ntel ni nsoñgi u dikékét di makiñ tjodisô ma lôlak ni mahop momasô i Common Voice.
-faq-where-src-from-2-q = Makiñ ma nlôl limbe liñgen ?
+faq-where-src-from-2-q = Minje mi makiñ mi nlôl hee ?
 faq-what-determine-identity-a =
     Mayaa ma minje ma Common Voice ma yé tjañdjoi ni kunde le himut a nla gwélél mo inyu ihôlôs nyandinya i makenge ma makiñ. Di gwéé nduña le basañge makiñ jam libe litômla bañ bo, inyu hala nyen di nyegsa himut a nket minje i mayaa ma Common Voice le a nôñôl matédél.
     Yimbe i jôl to libak li mut gwokigwo bi nnene bé i dikékét di makiñ diyé i mayaa ma minje. Hindéé mut a nket liyaa li minje, a nkum soñ le a gayéñ bé iyi njemut a bisañge nwo. Hala a nkobla le mut a tabé kunde i béé i biniigana bi nkiha ni mayaa inyu too njañ i basañge. Yom himut a yé kunde i boñ i yé libéé i mayaa ma minje inyu ihôlôs lisolol makiñ, tole isolol kiñ i ngim mut tôbôtôbô, ni minsélél mi makiñ mimpe ki. Inyu isal inya nson i, kunde i yé le mut a nla béé i biniigana bi nkiha ni mayaa, ni noñga gwo ni biniigana bipe biyé mu i minlélém mi mayaa.
