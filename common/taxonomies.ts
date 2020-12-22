@@ -19,6 +19,7 @@ export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
       'kab',
       'ky',
       'or',
+      'rw',
       'sv',
       'zh-CN',
       'zh-HK',
