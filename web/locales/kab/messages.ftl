@@ -145,6 +145,7 @@ uz = Tuzbikt
 vec = Taviṭnamit
 vi = Tavyiṭnamit
 vot = Tavutikt
+yue = Takuntunit
 zh-CN = Tacinwat (Cinwa)
 zh-HK = Tacinwat (Hung Kung)
 zh-TW = Tacinwat (Taywan)
@@ -487,6 +488,8 @@ de-identified-explanation = D akala ara yeǧǧen asimgired gar telɣut tudmawant
 
 error-title-404 = Ur nezmir ara ad ak•am-d-naf asebter-nni
 error-content-404 = Ahat <homepageLink>asebter-nneɣ agejdan </homepageLink> ad iɛawen? I usteqsi, ttxil ddu ɣer <matrixLink> udiwenni n tmezdagnut n Matrix </matrixLink>, qareɛ uguren n usmel s  <githubLink>GitHub</githubLink> neɣ rzu ɣer  <discourseLink> yinmagaren-nneɣ n Discourse </discourseLink>.
+error-title-503 = Nettqabal tikkwal ugur n uḥbas
+error-content-503 = Anekcum ɣer usmel ad d-yuɣal akka deg kra n wakud. Akken ad tawiḍ isallen ineggura, ddu ɣer <matrixLink>usqerdec n temqiwent Matrix</matrixLink>, rzu ɣer <githubLink>GitHub</githubLink> neɣ <discourseLink>inmagaren-nneɣ Discourse</discourseLink> akken ad tazneḍ neɣ ad tɛasseḍ uguren i icudden ɣer useqdec n usmel.
 error-code = Tuccḍa { $code }
 
 ## Data
@@ -509,7 +512,6 @@ dataset-date = Azemz
 license = Turagt: <licenseLink>{ $license }</licenseLink>
 license-mixed = Uxliḍ
 data-download-singleword-title = Sider aḥric iswi Single Word
-data-download-singleword-callout = Wagi d aḥric i nettnadi ɣef kra n useqdec i igebren isefka i usečči n uɛqal n taɣect s yizwilen yettwanṭaqen, aɛqal n ih/uhu akked isefka n usekyed n wawalen n usaki i <fxLink>Firefox Voice</fxLink>.
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
@@ -847,14 +849,19 @@ read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
 
 ## DemoLayout
 
+demo-get-started = Bdu
 demo-welcome = Ansuf ɣer Common Voice
+demo-welcome-subheader = Tebɣiḍ ad tissineḍ ugar daɣen ad tettekkiḍ deg usenfaṛ?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice d tagrumma n yisefka s taɣect n nddeqs n tutlayin tazayazt deg umaḍal.
+demo-language-select-card-body = S uttekki n wugar n 259 000 n yiwiziwen deg wugar n 50 n tutlayin, isefka-a ad ttwasqedcen i usluɣmu n yisnasen s taɣect akken ad issinen taɣect n umdan.
 card-button-next = Ɣer zdat
 card-button-back = Ɣer deffir
 demo-language-select-label = Inig gar tutlayin
 demo-eofy-header = Lqem n taggara n useggas 2019
+demo-eofy-sub_header = Tagrumma n yisefka s taɣect, thegga i usader
 demo-account = Amiḍan
 
 ## Demo Account
