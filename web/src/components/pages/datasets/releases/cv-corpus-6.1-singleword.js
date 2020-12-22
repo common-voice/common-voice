@@ -1,5 +1,5 @@
 exports.stats = {
-  bundleURL: 'cv-corpus-6.0-singlword/cv-corpus-6.0-singlword.tar.gz',
+  bundleURL: 'cv-corpus-6.1-singlword/cv-corpus-6.1-singlword.tar.gz',
   multilingual: false,
   locales: {
     es: {
