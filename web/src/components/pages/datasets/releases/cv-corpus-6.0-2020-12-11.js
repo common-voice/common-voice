@@ -3,6 +3,7 @@ exports.stats = {
   date: '2020-12-11',
   name: 'Common Voice Corpus 6.0',
   multilingual: true,
+  exclude: true,
   locales: {
     en: {
       clips: 1582837,
