@@ -36,8 +36,8 @@ import {
 import './dataset-info.css';
 import URLS from '../../../urls';
 
-export const CURRENT_RELEASE = 'cv-corpus-6.0-2020-12-11';
-const SEGMENT_RELEASE = 'cv-corpus-6.0-singleword';
+export const CURRENT_RELEASE = 'cv-corpus-6.1-2020-12-11';
+const SEGMENT_RELEASE = 'cv-corpus-6.1-singleword';
 
 const DEFAULT_CATEGORY_COUNT = 2;
 
@@ -263,11 +263,13 @@ const DatasetCorpusDownload = ({
           name="bundleLocale"
           value={bundleState.bundleLocale}
           onChange={handleLangChange}>
-          {Object.keys(releaseStats.locales).map(locale => (
-            <Localized key={locale} id={locale}>
-              <option value={locale} />
-            </Localized>
-          ))}
+          {Object.keys(releaseStats.locales)
+            .sort()
+            .map(locale => (
+              <Localized key={locale} id={locale}>
+                <option value={locale} />
+              </Localized>
+            ))}
         </LabeledSelect>
 
         <ul className="facts">{renderStats(releaseStats, bundleState)}</ul>
