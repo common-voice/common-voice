@@ -71,7 +71,7 @@ ha = Hausa
 he = Hébréu
 hi = India
 hr = Kroasia
-hsb = Sorbia i Ño Mbokk
+hsb = Sorbia i Ño Mbok
 hu = Hongaria
 hy-AM = Arménia
 hyw = Arménia i Kendi Mbok
@@ -394,14 +394,36 @@ faq-why-different-speakers-a =
     Ikédé jôga li bitoga bi mayaa ma makiñ ndi mbéna ndigi koba le ñgim i mintén mi mapôdôl mi ñgim i nya i bôt ñwon mi ntôl mu kiki bo <articleLink>bôlôm ni bôt ba bigwel moo</articleLink. Bisoolene bi makiñ bi nhôlhana ni unu ntén njel bi mbéna ndigi la solol makiñ ma inyaa bôt ba mbôñôl nya yap i makiñ. Inya i makiñ i nt́ôl bé nene i mayaa ma makiñ ba ngwélél inyu ihôlôs lisolol makiñ, iyé ma diyende di bôt tole diyende di maloñ. Ndun i yé le makeñge inyu liniiga bikey lisolol makiñ ma bôñlak yak makiñ ma bôda.
     Inyu hala nyen ndôlôk i makiñ i yé nseñ ngandak munu iyés toga i mayaa.
 faq-why-my-lang-q = Inyu ki hop wem u njôbôk bé munu ?
+faq-why-my-lang-new-a = Mozilla a ntodol bé to hop wokiwo. Iloo ki hala, Common Voice a yé yum i nson i bet-hop bon ba ñkena i kena wap, to hala le </multilangLink>maben ma yé jôga inwaa ndi njubus hop</multilangLink>, ni nés njel le lisañge makiñ li bôdôl. Jam li bisu li yé le bet-hop ba nlama hyelel jumbul li web ni hop wap, ka i yé bapot-hop balak tibil kéés bôlô u basañgge makiñ. Imbus ha, di mbat ngandak i mintôñ mi bibuk mi basañge ba nla añ makeñi, mi bak kunde le to njee a nla bôñôl wo i bôñôl wé. Indé mana maben moma ma nyon, we unu hop u nyibla i Common Voice, ni le bôt ba nla bôdôl ti makiñ map to ineebe makiñ ma bôt bape ba mbôk ba ti. Ibale u yé le u gwés le hop u mondo u yibla, kenek ni bisu, ke pam i <sentenceCollectorLink>kôdôl i mintôñ mi bibuk</sentenceCollectorLink> ndi u gabôdle ha.
+faq-what-quality-q = Umbe ntén u lisañgak hikékét hi kiñ hi i nyôña hi nlama ba nsañglak inyu boñ le i jôp ikédé mayaa ?
+faq-what-quality-a = Di nsômbôl le mayaa ma Common Voice ma banga makiñ ma yé nsañglak to ngi-sañgal, ka i yé le nyum u u nhyelel kiñ matila u lak nok ndôñ i makiñ yosô kiki bôt ba mpémes mo yôha. Di yé di nyodi le basañge makiñ ba nlama ba nya yosô ikédé ngim loñ, di lela le, liyaa li makiñ li nlama bana mbuu makiñ, nya-ndi-nya, inyu ila niiga nyum u nhyelel makiñ matila le ma meya ndôñ i makiñ yosô to hehoma mut a mpôdôl yo, to i ba yaa le liyôgha li yé, tole matôa a ñoñ mut bebee. I ntel u ngéda nu kiñ yoñ i nnôôga, hala a kôli le i jôp i liyaa li makiñ.
+faq-why-10k-hours-q = Ba likañ li yé ndigi le  nsoñgi u makiñ ma nneebana u kola 10,000 li ñgeñ inyu iyônôs njômbi i basolol makiñ e ?
+faq-why-10k-hours-a = Ññ, hala a yé bebee le libim li ñgeñ li mbéda iyu iniiga minyum mi nhyelel makiñ matila.
+faq-how-calc-hours-q = Ñgim ñgeñ yada i li ôdôk li Common Voice i yé umbe ntel ?
+faq-how-calc-hours-a = Inyu ôt mintel mi mañgeñ, si mbôk di ôt hihéga hi ntel u hiki kéket i kiñ, imbus bi bulus unu ntel ni nsoñgi u dikékét di makiñ tjodisô ma lôlak ni mahop momasô i Common Voice.
+faq-where-src-from-2-q = Lipigil li minje mi makiñ mi nlôl hee ?
+faq-where-src-from-2-a = Minje ñwés mi makiñ mi nlôl ni likôlge basañge ba ñkôle makiñ, mi lôlak ki i miñkwel di nla koba ikédé mintilga mi bisilma miyii sadaga i bôñôl, kikii bo<italic>Kinje Niñ Ilam</italic>. U yé le u leñ jis i lipigil jés li minje mi mintôñ mi bibuk munu hini <githubLink>GitHub hibobot</githubLink>.
+faq-why-not-ask-read-q = Ndi inyu ki di nla bé kal bôt le ba éñél i bitilna bi yé ikédé bikaat, tole i bitilna bi mbañ-yi bi yé ikédé Wikipédia ?
+faq-why-not-ask-read-a = Inyu boñ le mayaa ma minje ma Common Voice ba ba nseñ inya i mbôk i sôk, di bikit le ndigi ibitilna bi lipigil jap li yé i si bitédél bi Creative Commons (CC0) gwon di nla nneebe. Libôñôl matiñ ma CC0 li ñkobla le iléba basadaga ba bitilna li nlet, ndi hala a nnés njel le to njee a nla bôñôl makiñ ma mpémél mu iba bé le jam li kéñ mut ndi to le a bat kunde yak Mozilla. Suk yéñe wés a yé le mayaa ma nlôl i mbuu-mahop ba bana mbôô limut yosô nseñ u mbôk u sôk, to ibale bana bôt ba yé batoñ-yi, mabôñ  ma bisuglu, bipapama bi muu ma nson, dikuu di ane, dikuu di nsal nson u Mbog, ni balôhbe-mam.
+faq-why-account-q = Inyu ki me nlama tila jôl inyu itek libôñ ?
+faq-is-account-public-q = Ba bitilna bi libôñ jem bi mpam i mbamba ?
+faq-how-privacy-q = Lela i mbôña le niñ tole jôl li ibet ba nkôle makiñ map, bi yiba bañ ?
+faq-how-privacy-a = Hiki hikékét hi kiñ hi njôp i liyaa, di yé di kudle jo inyu boñ le yimbe yokiyo i mut a ñkôle kiñ yé, i nnene bañ. Ibale nsañge kiñ a nti ñgim yé i ñgadba i liyimbne jé, bitilba bi ñéba ini ñgadba bi ñkudlana ni baglana ni dikéket di makiñ ñwaa dikékét ti ñkéña njak inyu ibemb maket ikédé mayaa, iba bé le ñgadba i pam i mbamba.
+faq-what-determine-identity-q = Ba nla bé "yelel su" i mut a mpot i Common Voice, hala a ñkobla lela ?
 faq-what-determine-identity-a =
-    Mayaa ma minje ma Common Voice ma yé tjañdjoi ni kunde le himut a nla gwélél mo inyu ihôlôs nyandinya i makenge ma makiñ. Di gwéé nduña le basañge makiñ jam libe litômla bañ bo, inyu hala nyen di nyegsa himut a nket minje i mayaa ma Common Voice le a nôñôl matédél.
-    Yimbe i jôl to libak li mut gwokigwo bi nnene bé i dikékét di makiñ diyé i mayaa ma minje. Hindéé mut a nket liyaa li minje, a nkum soñ le a gayéñ bé iyi njemut a bisañge nwo. Hala a nkobla le mut a tabé kunde i béé i biniigana bi nkiha ni mayaa inyu too njañ i basañge. Yom himut a yé kunde i boñ i yé libéé i mayaa ma minje inyu ihôlôs lisolol makiñ, tole isolol kiñ i ngim mut tôbôtôbô, ni minsélél mi makiñ mimpe ki. Inyu isal inya nson i, kunde i yé le mut a nla béé i biniigana bi nkiha ni mayaa, ni noñga gwo ni biniigana bipe biyé mu i minlélém mi mayaa.
+    Mayaa ma minje ma Common Voice ma yé i mbamba ni kunde le himut a nla gwélél mo inyu ihôlôs nyandinya i makeñge ma makiñ. Di gwéé nduña le basañge makiñ jam libe litômla bañ bo, inyu hala nyen di nyegsa himut nu a ñket minje i mayaa ma Common Voice le a nôñôl matédél.
+    Hiki hikékét hi kiñ hi nsañgna, di ñkudul ho bitilna bi ñéba ñgadba i inwet a nsañge hyo. Hindéé mut a ñket liyaa li minje, a ñkum soñ le a gayéñ bé iyi njemut a bisañge nwo. Hala a ñkoblba le mut a tabé kunde i béé i bitilna bi nkiha ni mayaa inyu too njañ i basañge. Yom himut a yé kunde i boñ i yé libéé i mayaa ma minje inyu ihôlôs lisolol makiñ, tole isolol kiñ i ñgim mut tôbôtôbô, ni minsélél mi makiñ mimpe ki. Inyu isal inya nson i, kunde i yé le mut a nla béé i biniigana bi ñkiha ni mayaa, ni noñga gwo ni biniigana bipe biyé mu i minlélém mi mayaa.
+faq-what-is-cv = Common Voice a yé ki ?
+faq-using-cv = Lela ba mbôñôl Common Voice ?
+faq-description = Common a yé yum i nson yada i Mozilla ii nhôla i niiga bikey lela bôt ba binam ba mpôt yôha.
+faq-search-for-answers =
+    .label = Yeñ madimbhe
 
 ## ABOUT US
 
-about-subtitle = Common Voice a yé mpay u nson wada u Mozilla u nhôla i niiga bikey lela bôt ba binam ba mpot i ntiik. Ha ndigi mayaa ma makiñ ma Common Voice bé, ndi ndun i yé ki bés i pémés tjañ-njoi  nyum u lisoolene li makiñ di nsébél le Deep Speech.
-about-header-description = Mimpay mi bôlô mini nwo ima ma ñéba yéñe i digwéé bi boñ le likeñge li isolol makiñ li tôa ndi mbôô i mahop. Makenge ma lisolol makiñ nhek jubus libak li mut-binam ikédé bikey gwés, ndi bahôlôs makeñge ba gwéé ngôñ ni didun ndi didun di dikékét di makiñ inyu ihôlôs mana makeñge. Ingeñ ini di téé, inya i minje mi makiñ mi, mi ntiba bé nyañga, yak lôôha die mi nhee. Njômbi yés iyé le di bulus minje mi makiñ ni ti mo bôt yañga, ndi di tôñôk le mini minje milôlâk ni mbôô i limut i mpot hiki hop kiki ka ngéda libôlôk li nnene hiki hop. Ibale di ngwelna i woo, di yé le di hôlôs lisolol makiñ inya i gwééne hiki wada wés nseñ.
+about-title = Inyu ki Common Voice ?
+about-subtitle = Common a yé yum i nson yada i Mozilla ii nhôla i niiga bikey lela bôt ba binam ba mpôt yôha. Ha ndigi mayaa ma makiñ ma Common Voice bé, ndi ndun i yé ki bés i pémés mbamba-nyum u lisoolene li makiñ di nsébél le Deep Speech.
+about-header-description = Mimpay mi bôlô mini nwo ima ma ñéba yéñe i digwéé bi boñ le likeñge li isolol makiñ li tôa ndi mbôô i mahop. Makeñge ma lisolol makiñ ma nhek jubus libak li mut-binam ikédé bikey gwés, ndi bahôlôs makeñge ba gwéé ñgôñ ni didun ndi didun di dikékét di makiñ inyu ihôlôs mana makeñge. Ingeñ ini di téé, inya i minje mi makiñ mi, mi ntiba bé nyañga, yak lôôha die mi nhee. Njômbi yés iyé le di bulus minje mi makiñ ni ti mo bôt sadaga, ndi di tôñôk le mini minje milôlâk ni mbôô i limut i mpot hiki hop kiki ka ñgéda libôlôk li nnene hiki hop. Ibale di ñgwelna i woo, di yé le di hôlôs lisolol makiñ inya i gwééne hiki wada wés nseñ.
 how-does-it-work-title = Lela mam ma nke ?
 how-does-it-work-text = Di nnaña nlume njañgi ikôhle tjañ-njoi mayaa ma makiñ. Kôle bés kiñ yoñ, u ke bisu ni neebe makiñ bôt bape ba nsañge, yoñ ngaba i boñ le mayaa ma makiñ ma nyila mintolok.
 about-speak-text = Inyu isañge kiñ yoñ, u ñan mintôñ mi bibuk mi nlôl i lingut li minkôlge mi mitôn mi bibuk
@@ -437,12 +459,33 @@ mycroft-secondary-description = Ini i yé sadaga hikôm a yé le, to nje a nla t
 
 ## Glossary
 
+glossary = Ñkobol-hihehela
+localization = Mawas ma ntjep
+localization-explanation = Hana nyeñ di nnôñôl inyu ihyelel ni ikôlbaha biniigana gwés i mbuu i mahop ipe
+sentence-collection = Likôhle mintôñ mi bibuk
+sentence-collection-explanation = Likôhle mintôñ mi bibuk i basadaga ba mapigil, tole lijubus mintôñ mi mondo i sadaga mapigil.
+hours-recorded-explanation = Nsoñgi u mañgeñ ma makiñ ma di makôle ibol hana i ñgéda ini.
+hours-validated-explanation = Nsoñgi u mañgeñ ma makiñ ma di makôhle, ma yé le bôt 2 isi bôt 3 ba nneebe, ba kwet mo le "Ññ". Hala a ñéba libim li bôlô li maséla ikolbaha ni likak jés li 10 li dikôô li mañgeñ.
+sst = Hop-u-Yilga-Matila (HYM)
+sst-explanation = Mekeñge ma Hop-u-Yilga-Matila (HYM) ma nhyelel hop matila.
+de-identified = mĩhôk-bikadbana
+de-identified-explanation = Maboñok ma mboñ le biyimbne bi nsañge-kiñ bi kudlana ikédé dikékét di makiñ a ñkôle, indéé bi ñkéña njak le mut a nla ket gwo ikédé mayaa.
 
 ## Error pages
 
+error-title-404 = Lipep u ntoñ di nla bé léba jo
+error-content-404 = Bebek <homepageLink>Kumba</homepageLink> i jumbul jés i yé le i hôla we ? Ibale u gwéé mbadga ibat, si nsoohe we le u jôp i <matrixLink>yuyut i ñkwel le Matrix</matrixLink>, hes mandoñ ma jumbul i<githubLink>GitHub</githubLink> tole léñél<discourseLink>biyuyut gwés bi miñkwel</discourseLink>.
+error-title-503 = Papama i jam i ñkéñ bés le jumbul jés li kôble ha bé ndugi
+error-content-503 = Ndék ñgéda we jumbul li ntiimba ki bôdôl kôble. Inyu ikôs biniigana bilégék, ndi nsoohe we le u jôp i <matrixLink>yuyut i ñkwel le Matrix</matrixLink>, tole léñél <githubLink>GitHub</githubLink>, tole <discourseLink>biyuyut gwés bi miñkwel</discourseLink> inyu lisule ni hes mandoñ ma mpémél we i jumbul.
+error-code = Hihôha{ $code }
 
 ## Data
 
+data-download-button = Ket minje mi Common Voice
+data-download-yes = Ññ
+data-download-deny = To
+data-download-license = Matédél : <licenseLink>CC-0</licenseLink>
+data-download-modal = Ñkeda u minje mi nyét <size>{ $size }Go</size> u yé bebee ni bôdôl, u ñke ni bisu ?
 
 ## Datasets Page
 
