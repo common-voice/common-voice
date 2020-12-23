@@ -168,9 +168,12 @@ export async function importSentences(pool: any) {
   await pool.query(
     `
       DELETE FROM sentences
-      WHERE id NOT IN (SELECT original_sentence_id FROM clips) AND
-            id NOT IN (SELECT sentence_id FROM skipped_sentences) AND
-            id NOT IN (SELECT sentence_id FROM taxonomy_entries) AND
+      WHERE id NOT IN (
+              SELECT original_sentence_id FROM clips
+              UNION ALL SELECT sentence_id FROM skipped_sentences
+              UNION ALL SELECT sentence_id FROM reported_sentences
+              UNION ALL SELECT sentence_id FROM taxonomy_entries
+            ) AND
             version <> ?
     `,
     [version]
