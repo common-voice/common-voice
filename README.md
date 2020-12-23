@@ -47,5 +47,17 @@ Any files that follow the pattern `europarl-VERSION-LANG.txt` (such as [europarl
 
 If you use the data in a published academic work we would appreciate if you cite the following article:
 
-* Ardila, R., Branson, M., Davis, K., Henretty, M., Kohler, M., Meyer, J., Morais, R., Saunders, L., Tyers, F. M. and Weber, G. (2020) "Common Voice: A Massively-Multilingual Speech Corpus". *Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020).* pp. 4211—4215
+* Ardila, R., Branson, M., Davis, K., Henretty, M., Kohler, M., Meyer, J., Morais, R., Saunders, L., Tyers, F. M. and Weber, G. (2020) "[Common Voice: A Massively-Multilingual Speech Corpus](https://arxiv.org/abs/1912.06670)". *Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020).* pp. 4211—4215
 
+The BiBTex is:
+
+```
+@inproceedings{commonvoice:2020,
+  author = {Ardila, R. and Branson, M. and Davis, K. and Henretty, M. and Kohler, M. and Meyer, J. and Morais, R. and Saunders, L. and Tyers, F. M. and Weber, G.},
+  title = {Common Voice: A Massively-Multilingual Speech Corpus},
+  booktitle = {Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020)},
+  pages = {4211--4215},
+  year = 2020
+}
+```
+```
