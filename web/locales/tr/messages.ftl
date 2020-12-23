@@ -842,7 +842,9 @@ demo-account-sign-up = Kayıt bağlantısını gönder
 ## Demo Contribute
 
 demo-contribute-card-header = Sesinizi eklemeye veya eklenenleri dinlemeye hazır mısınız?
+demo-contribute-card-body = Artık Common Voice hakkında biraz daha fazla şey bildiğinize göre, neden denemiyorsunuz? Cümleleri sesli okumaya başlamak için mikrofon simgesine tıklayın. <br/><br/>Başkalarının ses kayıtlarını incelemeyi tercih ederseniz oynat simgesine tıklayın. Ardından, duyduğunuz ses kaydının ekranda yazılı sözcüklerle eşleşip eşleşmediğini kontrol edin.
 demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Kişisel panolar, bireysel ilerlemeniz ve topluluk ilerlemesi konusunda sizi bilgilendirir.
