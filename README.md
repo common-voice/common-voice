@@ -42,3 +42,10 @@ This repository is released under [MPL (Mozilla Public License) 2.0](LICENSE).
 The majority of our sentence text in `/server/data` comes directly from user submissions in our [Sentence Collector](https://github.com/Common-Voice/sentence-collector/) or they are scraped from Wikipedia using our [extractor tool](https://github.com/Common-Voice/cv-sentence-extractor), and are released under a [CC0 public domain Creative Commons license](https://creativecommons.org/share-your-work/public-domain/cc0/).
 
 Any files that follow the pattern `europarl-VERSION-LANG.txt` (such as [europarl-v7-de.txt](https://github.com/mozilla/common-voice/blob/main/server/data/de/europarl-v7-de.txt)) were extracted with our thanks from the [Europarl Corpus](http://www.statmt.org/europarl/), which features transcripts from proceedings in the European parliament.
+
+## Citation
+
+If you use the data in a published academic work we would appreciate if you cite the following article:
+
+* Ardila, R., Branson, M., Davis, K., Henretty, M., Kohler, M., Meyer, J., Morais, R., Saunders, L., Tyers, F. M. and Weber, G. (2020) "Common Voice: A Massively-Multilingual Speech Corpus". *Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020).* pp. 4211—4215
+
