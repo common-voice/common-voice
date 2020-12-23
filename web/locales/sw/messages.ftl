@@ -24,20 +24,28 @@ not-available-abbreviation = haihitajiki
 ## Languages
 
 ab = Kiabkhazia
+ace = Kiaceh
+ady = Kiadyghe
 af = Kiafrikana
 am = Kiamhara
 an = Kiaragoni
 ar = Kiarabu
+arn = Kimapuche
 as = Kiasamisi
 ast = Kiasturia
 az = Kiazabajani
 ba = Kibashkiri
+bas = Kibasaa
 be = Kibelarusi
 bg = Kibulgeria
 bm = Kibambara
 bn = Kibengali
 br = Kibretoni
+bxr = Kiburyatia
 ca = Kikatalonia
+ckb = Kikurdi cha Kati
+cnh = Kichin-Haka
+co = Kikosika
 cs = Kicheki
 cv = Kichuvashia
 cy = Kiwelisi
@@ -59,34 +67,61 @@ fr = Kifaransa
 fy-NL = Kifrisia
 ga-IE = Kieire
 gl = Kigalisia
+gn = Kiguarani
 ha = Kihausa
 he = Kiebrania
 hi = Kihindi
 hr = Kikroatia
+hsb = Kisobia ya Juu
 hu = Kihangari
 hy-AM = Kiarmenia
 hyw = Kiarmenia ya Magharibi
+ia = Kiintalingua
 id = Kiindonesia
+is = Kiaislandi
 it = Kiitaliano
+izh = Kiizhorian
 ja = Kijapani
 ka = Kijojia
+kaa = Kikarakalpak
+kab = Kikabylia
+kbd = Kikabardia
+kk = Kikazaki
+kmr = Kurmanji Kikurdi
 ko = Kikorea
+kpv = Kikomi
+kw = Kikoni
+ky = Kirigizistani
 lg = Kiganda
+lij = Kiliguria
 lt = Kilithuania
 lv = Kilatvia
+mdf = Kimoksha
 mg = Kimalagasi
 mk = Kimasedonia
+ml = Kimalayalamu
 mn = Kimongoli
 mt = Kimalta
+my = Kiburma
+myv = Kierzya
+nb-NO = Kinorwe cha Bokmal
 ne-NP = Kinepali
 nl = Kiholanzi
+nn-NO = Kinorwe cha Nynorsk
+oc = Kiositani
 or = Kiodia
 pa-IN = Kipanjabi
 pl = Kipoli
 pt = Kireno
+rm-sursilv = Kirumi Sursilvan
+rm-vallader = Kirumi Vallader
 ro = Kiromania
 ru = Kirusi
 rw = Kinyarwanda
+sah = Kisakha
+sc = Kisadinia
+scn = Kisisilia
+si = Kisinhala
 sk = Kislovakia
 sl = Kislovenia
 sq = Kialbania
@@ -102,11 +137,14 @@ tl = Kitagalogi
 tr = Kituruki
 tt = Kitatari
 uby = Ubiki
+udm = Kiudmurti
 uk = Kiukreini
 ur = Kiurdu
 uz = Kiuzbeki
 vec = Kivenetia
 vi = Kivietnamu
+vot = Kivoti
+yue = Kikantonisi
 zh-CN = Kichina (Uchina)
 zh-HK = Kichina (Hong Kong)
 zh-TW = Kichina (Taiwan)
@@ -442,6 +480,8 @@ data-other-goto = Nenda kwa { $name }
 data-other-download = Pakua data
 data-bundle-button = Pakua kifurushi cha daftari
 data-bundle-description = Data ya Common Voice pamoja na hifadhisauti zingine hapo juu.
+release-version = Toleo
+dataset-date = Tarehe
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja
@@ -767,3 +807,32 @@ help-contribute = Unaweza kusaidia kujenga daftari anuwai la chanzo wazi kwa kuu
 login-company = Ingia / Jisajili na barua pepe ya { $company }
 profile-not-required = Kuwa na wasifu hauhitajiki kuchangia ingawa inasaidia, tazama kwa nini hapa chini.
 read-more-about = Soma zaidi kwenye ukurasa wa kutuhusu
+
+## DemoLayout
+
+demo-get-started = Tuanze
+demo-welcome = Karibu Common Voice
+demo-welcome-subheader = Je! Umevutiwa na kujifunza zaidi na kuchangia kwenye mradi huu?
+
+## Demo Datasets
+
+demo-language-select-card-body = Shukrani kwa michango ya watu takribani laki mbili na elfu hamsini na tisa  katika lugha zaidi ya hamsini(50), data hii inatumika kusaidia kufundisha programu ambazo zinauweza wa kutambua sauti ili kuweza kujibu vizuri sauti ya mwanadamu
+card-button-next = Mbele
+card-button-back = Nyuma
+demo-language-select-label = Vinjari Lugha
+demo-eofy-header = Toleo la mwisho la mwaka wa 2019
+demo-eofy-sub_header = Hifadhidata ya sauti ipo tayari kupakuliwa
+demo-account = Akaunti
+
+## Demo Account
+
+demo-account-card-header = Kuwa na akaunti haihitajiki kuchangia, ingawa inasaidia.
+demo-account-sign-up = Tuma kiunga cha kujisajili
+
+## Demo Contribute
+
+demo-contribute-card-header = Uko tayari kuongeza sauti yako au kusikiliza?
+demo-listen-subtitle = Uko tayari kuchangia?
+
+## Demo Dashboard
+

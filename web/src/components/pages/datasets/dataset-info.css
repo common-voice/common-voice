@@ -69,7 +69,6 @@
         }
 
         @media (--lg-up) {
-            margin-bottom: 70px;
             padding-top: 90px;
             padding-bottom: 135px;
             padding-inline-start: calc(
@@ -306,6 +305,7 @@
 
                     &:first-child {
                         margin-inline-end: 150px;
+                        margin-top: 50px;
                     }
                 }
             }
@@ -369,6 +369,10 @@
         margin-bottom: 1rem;
         white-space: nowrap;
     }
+}
+
+#demo-datasets-content-container .intro {
+    margin-bottom: 70px;
 }
 
 .dataset-segment-download {

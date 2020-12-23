@@ -36,8 +36,8 @@ import {
 import './dataset-info.css';
 import URLS from '../../../urls';
 
-export const CURRENT_RELEASE = 'cv-corpus-6.0-2020-12-11';
-const SEGMENT_RELEASE = 'cv-corpus-6.0-singleword';
+export const CURRENT_RELEASE = 'cv-corpus-6.1-2020-12-11';
+const SEGMENT_RELEASE = 'cv-corpus-6.1-singleword';
 
 const DEFAULT_CATEGORY_COUNT = 2;
 
@@ -263,11 +263,13 @@ const DatasetCorpusDownload = ({
           name="bundleLocale"
           value={bundleState.bundleLocale}
           onChange={handleLangChange}>
-          {Object.keys(releaseStats.locales).map(locale => (
-            <Localized key={locale} id={locale}>
-              <option value={locale} />
-            </Localized>
-          ))}
+          {Object.keys(releaseStats.locales)
+            .sort()
+            .map(locale => (
+              <Localized key={locale} id={locale}>
+                <option value={locale} />
+              </Localized>
+            ))}
         </LabeledSelect>
 
         <ul className="facts">{renderStats(releaseStats, bundleState)}</ul>
@@ -586,11 +588,6 @@ class DatasetInfo extends React.Component<Props> {
 
     return (
       <div className="dataset-info">
-        <div className="dataset-segment-download">
-          <ConnectedSegmentDownload
-            {...{ releaseName: SEGMENT_RELEASE, getString }}
-          />
-        </div>
         <div className="top">
           <div className="cloud-circle">
             <CloudIcon />
@@ -602,6 +599,11 @@ class DatasetInfo extends React.Component<Props> {
         </div>
         <div className="description">
           <DatasetsDescription {...{ releaseName: CURRENT_RELEASE }} />
+        </div>
+        <div className="dataset-segment-download">
+          <ConnectedSegmentDownload
+            {...{ releaseName: SEGMENT_RELEASE, getString }}
+          />
         </div>
       </div>
     );

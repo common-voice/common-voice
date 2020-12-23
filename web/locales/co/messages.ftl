@@ -268,19 +268,19 @@ contribution-experience = Spirienza di cuntribuzione
 skip-submission-feedback = Saltà l’inviu di cummenti
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 avatar-clip-title = Deti una voce à u vostru avatar
-change-your-avatar-clip = Vuleti cambià u vostru campiunariu di voce ?
-recording-in-progress = Arrighjistramentu di u campiunariu in corsu…
-avatar-clip-recorded = Avà, u vostru avatar cuntene un campiunariu vucale !
+change-your-avatar-clip = Vuleti cambià u vostru campione di voce ?
+recording-in-progress = Arrighjistramentu di u campione in corsu…
+avatar-clip-recorded = Avà, u vostru avatar cuntene un campione vucale !
 record-voice-wave = ARRIGISTRÀ L’ONDA VUCALE
 retry-voice-wave-recording = RIPRUVÀ
 re-record = ARRIGHJISTRÀ TORNA
 delete-voice = SGUASSÀ
 recording-voice-wave = Arrighjistramentu
-delete-voice-clip = o  Sguassà u campiunariu
+delete-voice-clip = o  Sguassà u campione
 ready-to-upload = CARICÀ
 recreate-voice = Ricreà l’onda vucale
 cancel-avatar-clip-recording = ANNULLÀ
-about-avatar-clip-recording = Arrighjistrà un campiunariu vucale cumè parte di u vostru avatar. L’altri pudarani ascultallu passendu u so cursore nant’à a vostra icona.
+about-avatar-clip-recording = Arrighjistrà un campione vucale cumè parte di u vostru avatar. L’altri pudarani ascultallu passendu u so cursore nant’à a vostra icona.
 browse-file-title = Caricà una figura
 browse-file = Trascineti è linteti o <browseWrap>Navigheti</browseWrap>
 connect-gravatar = Cunnettatevi cù Gravatar
@@ -305,13 +305,16 @@ faq-do-want-native-q = Issa lingua ùn hè micca a mè lingua materna è aghju u
 faq-do-want-native-a = Iè, vulemu in particulari a vostra voce! Una parte di l'ughjettivu di Common Voice hè di riunisce u mori accenti sfarenti pussibule pà fà funziunà i servizii di ricunniscenza vucale ugualmente bè per tutti. Questu vole dì chì e cuntribuzione da lucutori non nativi sò particularmente impurtanti.
 faq-why-different-speakers-q = Parchì avete bisognu di tanti lucutori differente per ogni lingua ?
 faq-why-my-lang-q = Parchì a mè lingua ùn hè micca ghjà achjusa ?
+faq-what-quality-q = Chì niveddu di qualità audio hè richiestu pà avè un campione di voce adupratu in a banca di dati ?
 faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
 faq-why-10k-hours-a = Hè più o menu a quantità d'ore necessarii pà addestrà un sistemu di pruduzzione di voce-à-u-testu.
 faq-how-calc-hours-q = Di chì manera Common Voice calculeghja l'ore ?
 faq-how-calc-hours-a = Calculemu l’ore stimendu a lunghezza media d’ogni arrighjistramenti, è poi multiplichemu issu numaru cù a tutalità d’arrighjistramenti in tutte e lingue.
 faq-where-src-from-2-q = D’induve vene u testu urighjinali ?
+faq-why-not-ask-read-q = Parchì ùn dumandeti micca à la ghjenti di leghje libri o articuli di Wikipedia in parechje lingue ?
 faq-why-account-q = Parchì duvaria creami un contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
+faq-what-determine-identity-q = Chì vole dì chì ùn possu « diterminà l’identità » di i locutori in a banca di dati Common Voice ?
 faq-search-for-answers =
     .label = Circà risposte
 
@@ -328,6 +331,10 @@ about-clip-graveyard = Campu santu di i campiunarii
 about-clip-graveyard-text = U campu santu di i campiunarii hè custituitu di tutti i campiunarii chì ùn sò micca stati cunvalidati pà fà parte di a banca di dati Common Voice. Cum'è edda, u campu santu di i campiuanarii pò esse scaricatu libaramente.
 about-partners = Partinarii
 about-become-a-partner = Diventà un partinariu
+about-partnership =
+    Common Voice hè un prughjettu cullaburativu, è dipindimu di a nostra cummunità di partinarii è di cuntributori pà creà a più tamanta banca di dati vucale di sempre. 
+    
+    Vulariamu ringrazià pà u so aiutu à u prughjettu i parsone è urganizazioni siguante :
 about-get-involved = Impegnassi
 about-get-involved-text-2 =
     Vuleti aiutà à migliurà ancu di più Common Voice ?
@@ -397,9 +404,15 @@ download = Scaricà
 
 ## Profile Delete
 
+why-delete-recordings =
+    L’arrighjistramenti di Common Voice sò ghjuvati dà universitarii, imprese chjuche, è appassiunati di a ricunniscenza vucale pà aiutà à addestrà è fà cresce risorze publiche cum’è mudelli vucale.
+    
+    Pudeti spiegaci parchì vuleti sguassà i vostri arrighjistramenti ?
+profile-form-delete = Sguassà u prufilu
 
 ## Landing
 
+login-company = Identificassi / Arrighjistrassi cù l’indirizzu elettronicu di { $company }
 read-more-about = Lighjiti di più annantu à a nostra paghjina Apprupositu
 
 ## DemoLayout
@@ -409,6 +422,7 @@ demo-get-started = Principiemu
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice hè a più maiò banca di dati vucale in parechje lingue, dispunibule publicamente di u mondu.
+demo-language-select-label = Splurà e lingue
 
 ## Demo Account
 

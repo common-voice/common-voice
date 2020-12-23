@@ -145,6 +145,7 @@ uz = 烏茲別克文
 vec = 威尼斯文
 vi = 越南文
 vot = 沃特文
+yue = 粵文
 zh-CN = 中文（大陸）
 zh-HK = 中文（香港）
 zh-TW = 中文（臺灣）
@@ -513,7 +514,6 @@ dataset-date = 日期
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 data-download-singleword-title = 下載單字目標群體分項
-data-download-singleword-callout = 呢個喺以使用情境為導向嘅目標群體分項，當中包含用黎提供 Firefox Voice 進行語音數據識別、偵測喺或者唔喺、喚醒詞句等功能嘅測試資料。
 review-terms = 使用 Common Voice，即代表您同意我們的<termsLink>條款</termsLink>和<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我唔同意
@@ -842,6 +842,8 @@ demo-welcome = 歡迎使用 Common Voice
 
 ## Demo Datasets
 
+card-button-next = 下一步
+card-button-back = 返回
 demo-language-select-label = 睇下所有語言
 demo-eofy-header = 2019 年尾版
 demo-eofy-sub_header = 語音數據集，可以下載

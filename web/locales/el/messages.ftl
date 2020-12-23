@@ -515,7 +515,6 @@ dataset-date = Ημερομηνία
 license = Άδεια χρήσης: <licenseLink>{ $license }</licenseLink>
 license-mixed = Μεικτό
 data-download-singleword-title = Λήψη τμήματος μεμονωμένης λέξης
-data-download-singleword-callout = Πρόκειται για ένα τμήμα ειδικών χρήσεων, που περιέχει δεδομένα για αναγνώριση ψηφίων στην ομιλία, ανίχνευση "ναι"/"όχι", καθώς και δεδομένα δοκιμής λέξης ενεργοποίησης για το <fxLink>Firefox Voice</fxLink>.
 review-terms = Εάν χρησιμοποιείτε το Common Voice, συμφωνείτε με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink>
 terms-agree = Συμφωνώ
 terms-disagree = Δεν συμφωνώ
@@ -853,18 +852,24 @@ read-more-about = Διαβάστε περισσότερα στη σελίδα «
 
 demo-get-started = Ας ξεκινήσουμε
 demo-welcome = Καλώς ήρθατε στο Common Voice
+demo-welcome-subheader = Θέλετε να μάθετε περισσότερα και να συνεισφέρετε στο έργο;
 
 ## Demo Datasets
 
 card-button-next = Επόμενο
 card-button-back = Πίσω
+demo-language-select-label = Περιήγηση στις γλώσσες
+demo-eofy-header = Κυκλοφορία στο τέλος του 2019
+demo-eofy-sub_header = Αρχείο δεδομένων φωνής, έτοιμο για λήψη
 demo-account = Λογαριασμός
 
 ## Demo Account
 
+demo-account-sign-up = Αποστολή συνδέσμου εγγραφής
 
 ## Demo Contribute
 
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Οι προσωπικοί πίνακες ελέγχου σάς ενημερώνουν σχετικά με την ατομική και συνολική πρόοδο της κοινότητας.

@@ -678,6 +678,7 @@ Ano, musel něco udělat.
 Ano, mám, a nejraději ty na měření rychlosti.
 Ano, nechtěl Lestreda zradit.
 Ano, opotřebují se.
+Ano, opravdu je to Willem Dafoe.
 Ano, prosím vás.
 Ano, přesně tak...
 Ano, přestala bych se hýbat.
@@ -798,6 +799,7 @@ Bezvýznamná věc!
 Bible se dělí na Nový a Starý zákon.
 Bitka, stmívačka.
 Blb v úprku brk u krbu.
+Blednulť již...
 Bledý tanečník s maskou.
 Bloumal jsem městem a všude jsem potkával lidi s monokly a odřeninami a obvazy.
 Blázním, v sanitce určitě bude dýchací přístroj.
@@ -1256,6 +1258,7 @@ Cukroví už máme napečeno.
 Curlingový kámen je z žulovitého kamene.
 Cílem bude i nalezení úspor v rozpočtu Policie České republiky.
 Cílem není vytvořit nějakou aplikaci pracující v reálném čase.
+Cílem tohoto projektu je postupně doplňovaná studnice vědomostí nejen z teoretické informatiky.
 Cílovému publiku je to úplně jedno.
 Cítil jsem neobyčejnou svěžest a sílu.
 Cítil ve svém nitru neklid.
@@ -1470,6 +1473,7 @@ Drbu vrbu.
 Druhotným cílem aktivity je vyzkoušení si zapalování ohně.
 Druhá dcera šla pak na její místo.
 Druhá vrstva je opice.
+Druhá část nás poté seznámí se základními postupy, jak řešit určité konkrétní problémy.
 Druhá část obsahuje soudní přelíčení.
 Druhé pravidlo Klubu rváčů je nemluvit o Klubu rváčů!
 Druhé pravidlo Klubu rváčů...
@@ -1656,6 +1660,7 @@ Furt mám problémy se spaním.
 Furt tam stojí a čumí.
 Fyziologie, slečno Gloryová, není mým řemeslem.
 Fáráte někdy?
+Garyho Graye potěšil.
 Generál je vyslán do války.
 Geniální hlava, slečno Gloryová.
 Gero umírá a Eragon utíká s Bromem a Safírou.
@@ -1700,6 +1705,7 @@ Hlavním městem České republiky je Praha.
 Hlavně pokud jste technicky zkušenější uživatel.
 Hle, přijde a pohladí mu čelo a ruce.
 Hledali dál.
+Hledání v textu.
 Hledáte někoho?
 Hledáš pořádně?
 Hleďte, kapička krve!
@@ -2378,6 +2384,7 @@ Jiná země a jiní lidé.
 Jiné možnosti mi připadají krajně nepravděpodobné.
 Jiné rozumné spojité příznaky teď nejsou.
 Jiní zase opěvali tvou chytrosť a tvůj humor.
+Jiný příklad použití řetězců a algoritmů s nimi pracujících najdeme v biologii.
 Jiný způsob nevděčnosti má zase původ svůj v nepravém studu.
 Jirka chvátá do školy.
 Jirka si bere pistoli od Lenky a strká si ji do úst.
@@ -2461,6 +2468,7 @@ Jsou ustanovena pravidla.
 Jsou uživatelské blogovací platformy.
 Jsou více diskriminativní a produkují rychlejší klasifikátory.
 Jsou vždy v příslušném adresáři nebo archívu.
+Jsou zde jednak menší studijní texty zabývající se vždy jedním tématem.
 Jsou úsečná v pohybech i výslovnosti, bezvýrazných tváří, upřeného pohledu.
 Jste mladší než my, slečno Gloryová.
 Jste sama doma.
@@ -2654,6 +2662,7 @@ Každá série obsahuje jeden rok.
 Každé léto.
 Každé rvačky se účastní pouze dva lidi!
 Každé zrychlení je pokrok, slečno.
+Každého napadne „vyhledávání v textu“ nebo „hledání jmen v telefonním seznamu“.
 Každý dle své povahy radost najevo dával.
 Každý druhý literární umělec měl problémy s otcem.
 Každý druhý monitér by ho zařadil do třetího stupně.
@@ -2784,6 +2793,7 @@ Když navrtával telefonní automat, aby do něj mohl napumpovat vanilkový pudi
 Když ne izolačka, tak špagát.
 Když ne, tak nestahujeme.
 Když někdo řekne stop, nebo zvadne, zápas končí!
+Když programátor dělá první krůčky, často netuší, co vlastně může a nesmí dělat.
 Když přednášel, obyčejně se zakoktal.
 Když při tomhle někdo spláchne záchod, tak se nádržka rozletí jak granát.
 Když se ale chce postavit, spadne zpět do židle.
@@ -2926,6 +2936,7 @@ Krásné jest být majitelem alespoň něčeho, a kdyby to byla ještěrka!
 Krásné věci kolem, čarovné.
 Krásný je to kraj.
 Krásu.
+Krátké streamované přednášky - záznam online přednášek během dubna až června.
 Která protíná svislou přímku procházející středem obrazu nejblíže od středu směrem nahoru?
 Která čára je láska?
 Které byly nakažené, museli se s nimi rozloučit.
@@ -2936,6 +2947,8 @@ Které?
 Kterému mužstvu fandíš?
 Který obor bude zlikvidován jako další?
 Který z vás to udělal?
+Kuchařka je určena hlavně pro začínající řešitele.
+Kuchařka pojednává také o uchovávání dat v počítači a základy rychlé manipulace s nimi.
 Kuchyňskou lžíci na zamíchání mýdlové hmoty.
 Kup mi čokoládovou zmrzlinu.
 Kupuješ si nábytek.
@@ -2983,6 +2996,7 @@ Lev to uslyší, naštve se a problémy budeme mít všichni!
 Lev za ním, ale zasekl se.
 Leč rci, kdo jsi?
 Leč v poslední sluj z desíti mne hnala.
+Leč v taký trud nač vracíš kroky svoje?
 Ležel ještě v posteli a hezky si hověl.
 Ležela tam na zemi kovová konvička.
 Ležte tiše!
@@ -3414,6 +3428,7 @@ Měla jste dobrou plavbu?
 Měla zapovězenou lásku?
 Měla.
 Měli bibli, měli kancionál.
+Měli bychom vědět, proč je námi zvolený postup rozumný.
 Měli bysme to trochu ujednotit.
 Měli i cestu Krištofa Haranta z Polžic do svaté země.
 Měli jsem spoustu času tohle všechno naplánovat!
@@ -3538,6 +3553,7 @@ Na počátku příběhu hrdina umírá.
 Na počátku příběhu neumím už rozvázati jeho konec.
 Na projekt devastace.
 Na předním voze seděl důstojník se svou paní.
+Na přípravu palačinek potřebujeme mléko, špetku soli, hladkou mouku, vejce.
 Na radaru se vám objeví červená tečka.
 Na shledanou, věrný čarostřelče!
 Na skřipec jsa brán, zanechá nám zlostí soptě hrubou svoji rukavici.
@@ -3637,6 +3653,7 @@ Napsal-li bych to, pověděl bych zase málo.
 Napíná oudy, škube nohama, trhá tělem, mrská ocasem a jiné křečovité posuňky provozuje.
 Napíšu, až budu vědět něco bližšího.
 Napřed musíš rozpustit tuk.
+Například celé číslo zakódované v binární soustavě.
 Například grafické znázornění postupu algoritmu, které by se dalo využít pro demonstrační účely.
 Například hudby jsem si všiml až při závěrečných titulcích.
 Například televizory a monitory s klasickou obrazovkou.
@@ -3651,6 +3668,7 @@ Nastavovat profil ostří.
 Natahují ruce ke kyslíkovým maskám.
 Naučil jsem se programovat.
 Naučí vás jak si ušetřit práci, co dělat a co nedělat.
+Naučíme se například, jak rychle vyhledávat v uspořádané posloupnosti hodnot.
 Navrhne proto vhodnou legislativní formu úpravy požadavků na energetickou náročnost budov.
 Navrhne zrušení ustanovení o nekolidujícím zaměstnání v zákoně o zaměstnanosti.
 Navrhněte simulaci vozidla s důrazem na realističnost chování motoru, podvozku a interakce s prostředím.
@@ -3742,6 +3760,7 @@ Ne; víte, že nesmím.
 Neal Asher je britský spisovatel sci-fi.
 Neb není Prokrusta!
 Neb vypadala, že dostala přes čenich.
+Neb — nové Theby!
 Nebaví mě centralizované systémy.
 Nebaví mě furt jen datlovat do klávesnice.
 Neber si to osobně.
@@ -3750,6 +3769,7 @@ Neberte si to osobně.
 Nebo bych měl říct britský?
 Nebo chuť?
 Nebo dokonce neurální implantát?
+Nebo jak si pomocí předpočítání usnadnit řešení těžké úlohy.
 Nebo jak to spočítat pomocí inegrálního obrazu?
 Nebo jak to časově přijde vhodné tobě?
 Nebo je dneska snad včera?
@@ -3786,6 +3806,7 @@ Nebo částku nahoru?
 Neboj se a plač.
 Neboj, hrudník se mi zvedá, ale tu ruku na něm klidně nech.
 Nebojte se, Sullo, já vás nedám!
+Neboli ucelenější a delší soubory textů zabývající se nějakou oblastí v širším kontextu.
 Nebolí.
 Nebolí?
 Neboť ji ostatní nakazili.
@@ -4179,6 +4200,7 @@ Nikdy to ani na okamžik nepustil z hlavy.
 Nikdy to nebude ideální - ten klasifikátor má k ideálu daleko.
 Nikdy to nedělala, když byla u někoho jiného.
 Nikdy váš robertek.
+Nikdy!...
 Nikomu na světě.
 Nilvínia se usmála.
 Nilvínie.
@@ -4482,6 +4504,7 @@ Odlet se mi nebezpečně blíží.
 Odměna.
 Odpoledne budu cestovat do Brna, tak bych to donesl asi až zítra do školy.
 Odpovídající fiskální úspora bude případně dosažena obdobným opatřením spočívajícím v účelnější diferenciaci prvého stupně.
+Odpověď: Že tam není docela klidno.
 Odstoupit lze i od změny smlouvy.
 Odstraňování celních bariér a dalších omezení mezinárodního obchodu považuje za nejefektivnější způsob rozvojové spolupráce.
 Odstrčila mě, div jsem neupadl.
@@ -4532,12 +4555,20 @@ On sám si o vraždě utvořil zcela konkrétní teorii.
 On vám rád poskládá i krychli.
 On čte, nevšímá si jí.
 On.
+On: Ani mne nenapadlo!
+On: Co ti napadá - já ani nehlesnul..
+On: Ján Vždyť to pravíš ty!!
+On: Mé nevěry?
 Ona byla na dotyk tak příjemná.
 Ona je jako čert se svatozáří, jako anděl s vidlemi.
 Ona seděla nejblíže u dosti prostorného krbu.
 Ona to asi není obyčejná nit.
 Ona to ví!
 Ona ví, jak to cítím, na rozdíl od tebe.
+Ona: Ba arci!
+Ona: Co mi napadá.
+Ona: Já přec ani slůvkem...
+Ona: Vždyť já ani nemukám — to mi vytýkáš ty!
 Oni nespolupracují, proč bych měla já?
 Ono to tak zlé nebude.
 Ono to vůbec nešlo.
@@ -4614,6 +4645,8 @@ Otevři knihu.
 Otevři kteroukoliv knihu, jakýkoliv čti časopis přírodnický.
 Otevři oči!
 Otto Lidenbrock nebyl zlý člověk, ale nepolepší-li se, zemře jako veliký podivín.
+Otázka: Cože?
+Otázka: Je to tak zlé?
 Otázka: Já bych se rád podíval do Irska.
 Otáčení turbín pak vyvozuje proudění vzduchu v mezeře.
 Otřes.
@@ -4674,6 +4707,7 @@ Pak vás odtud vyženu!
 Pak zamířila k velkému stanu.
 Pak zase, houpajíc, dala se do zpěvu.
 Pak že nezastupoval osud.
+Palačinky se výborně hodí jako dezert po obědě, přejeme dobrou chuť!
 Pamatuješ si, Světluško, kde jsi přestala?
 Pamatuji se dobře na pana vévodu.
 Pamatujte, prosím, že kouření není v tomto vlaku dovoleno.
@@ -4839,6 +4873,7 @@ Podpoří nárůst počtu školních psychologů a speciálních pedagogů na z�
 Podpoří rozvoj paliativní a hospicové péče.
 Podpoří rozvoj služeb s vysokou přidanou hodnotou lidské práce, turismus, ekoturistiku a agroturistiku.
 Podrobnosti stanoví zákon.
+Podrobný přehled kuchařek s krátkými anotacemi je na samostatné stránce o kuchařkách.
 Podržte mu hlavu, Fany.
 Podstatné je něco úplně jiného.
 Podsvícení displejů elektrospotřebičů.
@@ -4925,6 +4960,7 @@ Pokud něco budete mít, i když ne funkční, pár bodů asi dostanete.
 Pokud ovšem použijeme obyčejný brusný kámen
 Pokud plánujete projekt obhájit, doporučuji co nejdříve odevzdat práci.
 Pokud potřebujete klasifikátory k projektu nebo si nejste jisti, jak projekt řešit, napište mi.
+Pokud půjdeš do města, kup litr mléka, půlku chleba, deset deka šumky a kávu.
 Pokud ráno vidím z okna mlhu a mám čas, vyrážím fotit.
 Pokud se tak stane v lese, vcelku na tom není nic divného.
 Pokud se tedy rozmyslíte, dejte mi vědět.
@@ -5590,6 +5626,7 @@ Příliš mnoho estrogenu a máš kozy.
 Příliš se nepodařilo provést rituál s dostatečnou vážností.
 Příliš žluťoučký kůň úpěl ďábelské ódy.
 Případně kombinaci obou možností.
+Příprava jednoduchého pokrmu pomocí videonávodu.
 Příroda neměla ponětí o moderním tempu práce.
 Přírodní zákony platí pro všecky, chudé i bohaté.
 Příslušnost soudu i soudce stanoví zákon.
@@ -5634,6 +5671,8 @@ Rcete, je vám ot a syn ten znám?
 Reagují na zprávy.
 Reakční zplodiny určují chemickou reaktivitu plamene.
 Realizovat reformu systému terciárního vzdělávání.
+Recepty z programátorské kuchařky - základní algoritmy.
+Recepty z programátorské kuchařky.
 Registrovaní čtenáři mají k dispozici internet zdarma.
 Regulační poplatek za hospitalizaci se přiblíží reálným nákladům za takzvané hotelové služby.
 Reimplementace byla zcela dle očekávání docela sračka.
@@ -5813,6 +5852,7 @@ Setkáváme se s abundantními problémy.
 Severní Korea je nejvíce uzavřenou zemí na světě.
 Severokorejci mají velmi tvrdý pracovní den.
 Seznam balíků k nainstalování po reinstallu.
+Seznam kuchařek.
 Seznam produktů je důležitý ze dvou důvodů.
 Seď tiše, a já ti povím, proč se dobrmanům utínají ocásky.
 Seš moc mladej!
@@ -6325,6 +6365,7 @@ Takže jsem peníze ještě neposlal.
 Takže k tomu přistupuji flegmaticky.
 Takže kdo má chuť a odvahu - s chutí do toho!
 Takže když to shrnu.
+Takže letos Besson samozřejmě udělal co?
 Takže není moc důvodů se mu smát.
 Takže pomáhá a chrání.
 Takže proč čtete tak málo?
@@ -6367,6 +6408,7 @@ Tarif zpravidla obsahuje měsíční paušální poplatek.
 Tato daň bude příjmem státního rozpočtu.
 Tato formulace neurčuje, kam by měl být spolek zapsán.
 Tato jejich iniciativa mě mimořádně těší.
+Tato naše kuchařka je nejzákladnější ze základních.
 Tato organizace mi byla dobrou volbou.
 Tato soutěž je globálně pořádaná.
 Tato vyskočila z mísy na stůl zrovna před nevěstu.
@@ -6712,6 +6754,7 @@ To vám operátor poskytne ve chvíli, kdy dáte výpověď.
 To vám povídám.
 To vám umožní se měnit.
 To víš, stará banda, radši neříkat, co se dělo!
+To však neznamená, že zkušenější řešitelé do ní nahlédnout nemůžou.
 To vše díky magii technologie, kterou umíme využít.
 To vše jednoduchým a standardizovaným protokolem.
 To vše za cenu jednoho oběda.
@@ -6940,6 +6983,7 @@ Těží se na jižní Moravě v blízkosti Hodonína.
 Třeba by mě to přimnělo psát si deníček.
 Třeba deset.
 Třeba mu někdo v ceně poskytne telefonickou podporu...
+Třeba na nějakou konkrétní programátorskou techniku, kterou by si potřebovali osvěžit.
 Třeba něco zjistím i bez překladu.
 Třeba se informovat.
 Třeba to ráno nebude zase tak zlé.
@@ -7178,6 +7222,7 @@ V pozadí obrazu mával jakýsi muž vysoko roztaženýma rukama.
 V principu je ale možné postupovat stejným principem.
 V první fázi bude ještě možné doprodávat existující zásoby.
 V první zásuvce leží počárané lístky.
+V první části kuchařky se seznámíme hlavně se základními principy programování.
 V první části se hlavní hrdina zúčastní pohřbu své matky.
 V první řadě proto, že nemají klávesnici.
 V pátek cestujeme po tmě.
@@ -7319,6 +7364,7 @@ Veřejné zdravotní pojištění bude zachováno a modernizováno.
 Veškeré služby železniční hromadné osobní přepravy budou podléhat transparentním výběrovým řízením.
 Vida, pomyslel jsem si, spřízněná duše.
 Video lze nyní použít jako propagaci.
+Videozáznamy přednášek z našich jarních a podzimních soustředění.
 Vidí to na mně.
 Vidí-li básník perský ve slavičí písni obraz své milenky.
 Vidím zde mnoho nových tváří.
@@ -7647,6 +7693,7 @@ Víte, nebožtík mladý Rossum příliš omezil nervovou soustavu.
 Víte, někteří lidé odjedou na dlouhou cestu a nechají hořet svíčku.
 Víte, pomocí těch vodiček mohl dělat, co chtěl.
 Víte, že tohle se průvodcům nikdy nestává.
+Vítej v programátorské encyklopedii Korespondenčního semináře z programování.
 Vítejte do rodiny!
 Vítězem v drzosti je u mě ale úplně jiný pavouk.
 Víš, co je to drak?
@@ -7752,6 +7799,7 @@ Všechno potřebné je celkem blízko, takže si nemám na co stěžovat.
 Všechno to vede jeden člověk, ale o tom se taky nesmí mluvit.
 Všechno tohle prý chce jakési peníze.
 Všechno udělají živé stroje.
+Všechno, co tam píšu, platí zcela stejně pro film Kral.
 Všechno, na co jsi byl pyšný, stejně půjde do hajzlu!
 Všechny moje blogy, včetně tohohle, jsou tím ovlivněné.
 Všechny příznaky se dvěmi a se třemi oblastmi.
@@ -7991,6 +8039,7 @@ Zběhlý čtenář podobné řádky často okem pouze přeletí.
 Zběžně jsem na to kouknul.
 Zcela nezávisle, jen protože může.
 Zda ho uvidíš?
+Zde je jejich seznam.
 Zde má pravice!
 Zde právě přichází.
 Zde se náhle začne loď potápět.
@@ -8189,6 +8238,7 @@ hlavní, co má Dášeňka na práci, je běhat.
 Ó ví!
 Ó, slečno Gloryová, výrobek inženýra je technicky vytříbenější než výrobek přírody.
 Ó, té oběti já nepřijímám!
+Úhel broušení můžeme vypočítat ze vztahu?
 Úhel broušení se může měnit naklápěním nože vůči tyčinkám.
 Újezd u Brna
 Úkol byl jasný.
@@ -8312,6 +8362,7 @@ hlavní, co má Dášeňka na práci, je běhat.
 Řekněte!
 Řekněte, drahoušku, jsou k vám všichni tak suroví?
 Řekněte, není vám nikdy trapno, jak s vámi nakládají?
+Řetězce najdeme i na nižších úrovních informatiky.
 Řečeno méně odborně: Je to strašlivý maglajz.
 Řešením by mohl být katalog České fonty s náhledy.
 Řádkové tiskárny u dálnopisů.

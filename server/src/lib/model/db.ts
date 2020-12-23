@@ -5,6 +5,7 @@ import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 import { ChallengeToken, Sentence } from 'common';
 import { features } from 'common';
+import { TaxonomyToken, taxonomies } from 'common';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -76,21 +77,21 @@ export async function getLocaleId(locale: string): Promise<number> {
   return localeIds[locale];
 }
 
-export async function getTermId(term_name: string): Promise<number> {
+export async function getTermIds(term_names: string[]): Promise<number[]> {
   if (!termIds) {
     const [rows] = await getMySQLInstance().query(
-      `SELECT id, term_name FROM taxonomy_terms`
+      `SELECT id, term_sentence_source FROM taxonomy_terms`
     );
     termIds = rows.reduce(
-      (obj: any, { id, term_name }: any) => ({
+      (obj: any, { id, term_sentence_source }: any) => ({
         ...obj,
-        [term_name]: id,
+        [term_sentence_source]: id,
       }),
       {}
     );
   }
 
-  return termIds[term_name];
+  return term_names.map(name => termIds[name]);
 }
 
 export default class DB {
@@ -121,11 +122,12 @@ export default class DB {
   /**
    * Check whether target segment is live for this language
    */
-  private inBenchmark(locale: string): boolean {
-    return (
-      getConfig().BENCHMARK_LIVE &&
-      features.singleword_benchmark.locales.includes(locale)
-    );
+  private getPrioritySegments(locale: string): string[] {
+    return Object.keys(taxonomies)
+      .filter((taxonomyToken: TaxonomyToken) => {
+        return taxonomies[taxonomyToken].locales.includes(locale);
+      })
+      .map((taxonomyToken: TaxonomyToken) => taxonomies[taxonomyToken].source);
   }
 
   /**
@@ -201,12 +203,14 @@ export default class DB {
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
 
-    if (this.inBenchmark(locale)) {
+    const prioritySegments = this.getPrioritySegments(locale);
+
+    if (prioritySegments.length) {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
         client_id,
         locale_id,
         count,
-        PRIORITY_TAXONOMY
+        prioritySegments
       );
     }
 
@@ -261,16 +265,17 @@ export default class DB {
     client_id: string,
     locale_id: number,
     count: number,
-    term_name: string
+    segments: string[]
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
       `
         SELECT *
         FROM (
-          SELECT sentence_id AS id, text
+          SELECT sentence_id AS id, text, term_name, term_sentence_source
           FROM taxonomy_entries entries
+          LEFT JOIN taxonomy_terms terms ON terms.id = entries.term_id
           LEFT JOIN sentences ON entries.sentence_id = sentences.id
-          WHERE term_id = ?
+          WHERE term_id IN (?)
           AND is_used AND sentences.locale_id = ? AND NOT EXISTS (
             SELECT *
             FROM clips
@@ -288,7 +293,7 @@ export default class DB {
         LIMIT ?
       `,
       [
-        await getTermId(term_name),
+        await getTermIds(segments),
         locale_id,
         client_id,
         client_id,
@@ -297,11 +302,13 @@ export default class DB {
       ]
     );
 
-    return (rows || []).map(({ id, text }: any) => ({
-      id,
-      text,
-      taxonomy: term_name,
-    }));
+    return (rows || []).map(
+      ({ id, text, term_name, term_sentence_source }: any) => ({
+        id,
+        text,
+        taxonomy: { name: term_name, source: term_sentence_source },
+      })
+    );
   }
 
   async findClipsNeedingValidation(
@@ -313,12 +320,14 @@ export default class DB {
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
 
-    if (this.inBenchmark(locale)) {
+    const prioritySegments = this.getPrioritySegments(locale);
+
+    if (prioritySegments.length) {
       taxonomySentences = await this.findClipsMatchingTaxonomy(
         client_id,
         locale_id,
         count,
-        PRIORITY_TAXONOMY
+        prioritySegments
       );
     }
 
@@ -373,15 +382,17 @@ export default class DB {
     client_id: string,
     locale_id: number,
     count: number,
-    term_name: string
+    segments: string[]
   ): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.query(
       `
       SELECT *
       FROM (
-        SELECT * FROM clips WHERE original_sentence_id IN (
-          SELECT sentence_id FROM taxonomy_entries
-          LEFT JOIN sentences ON taxonomy_entries.sentence_id = sentences.id
+        SELECT * FROM clips INNER JOIN (
+          SELECT sentence_id, term_name, term_sentence_source
+          FROM taxonomy_entries entries
+          LEFT JOIN taxonomy_terms terms ON entries.term_id = terms.id
+          LEFT JOIN sentences ON entries.sentence_id = sentences.id
           WHERE locale_id = ?
           AND sentence_id NOT IN (
             SELECT original_sentence_id FROM (
@@ -397,7 +408,8 @@ export default class DB {
               HAVING vote_count >= 2
             ) vote_counts
           )
-        )
+        ) term_sentences
+          ON clips.original_sentence_id = term_sentences.sentence_id
         AND is_valid IS NULL
         AND clips.client_id <> ?
         AND NOT EXISTS(
@@ -414,7 +426,7 @@ export default class DB {
         locale_id,
         locale_id,
         client_id,
-        await getTermId(term_name),
+        await getTermIds(segments),
         client_id,
         client_id,
         SHUFFLE_SIZE,
@@ -423,7 +435,10 @@ export default class DB {
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
-      clip.taxonomy = term_name;
+      clip.taxonomy = {
+        name: clip.term_name,
+        source: clip.term_sentence_source,
+      };
     }
 
     return clips as DBClipWithVoters[];
@@ -609,7 +624,7 @@ export default class DB {
     const localeId = locale ? await getLocaleId(locale) : null;
 
     const intervals = [
-      '15 MONTH',
+      '100 YEAR',
       '12 MONTH',
       '9 MONTH',
       '6 MONTH',
@@ -976,6 +991,9 @@ export default class DB {
   }
 
   async deleteClip(id: string) {
+    await this.mysql.query(`DELETE FROM clip_demographics WHERE clip_id = ?`, [
+      id,
+    ]);
     await this.mysql.query(`DELETE FROM votes WHERE clip_id = ?;`, [id]);
     await this.mysql.query(`DELETE FROM clips WHERE id = ? LIMIT 1;`, [id]);
     console.log(`Deleted clip and votes for clip ID ${id}`);
