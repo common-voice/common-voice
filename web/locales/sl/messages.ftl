@@ -35,12 +35,14 @@ az = azerbajdžanščina
 ba = baškirščina
 be = beloruščina
 bg = bolgarščina
+bm = bambarščina
 bn = bengalščina
 br = bretonščina
 bxr = burijatščina
 ca = katalonščina
 cak = kaqchikel
 cnh = hakha chin
+co = korziščina
 cs = češčina
 cv = čuvaščina
 cy = valižanščina
@@ -62,6 +64,7 @@ fr = francoščina
 fy-NL = frizijščina
 ga-IE = irščina
 gl = galicijščina
+gn = gvaranijščina
 ha = havščina
 he = hebrejščina
 hi = hindujščina
@@ -83,7 +86,6 @@ kbd = kabardščina
 kk = kazaščina
 ko = korejščina
 kpv = komijščina
-ku = kurdščina
 kw = kornijščina
 ky = kirgiščina
 lg = lugandščina
@@ -305,7 +307,7 @@ profile-form-accent =
     .label = Naglas
 profile-form-age =
     .label = Starost
-profile-form-gender =
+profile-form-gender-2 =
     .label = Spol
 leaderboard-visibility =
     .label = Vidnost na lestvici
@@ -332,7 +334,7 @@ profile-close = Zapri
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
 thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja vašega profila.
 why-demographic = Zakaj je to pomembno?
-why-demographic-explanation = Anonimni uporabniški podatki, kot so starost, spol in naglas, izboljšajo glasovne podatke, ki se uporabljajo za zagotavljanje natančnosti sistemov za prepoznavanje govora. Vaše uporabniško ime in e-pošta ne bosta nikoli povezana z vašimi posredovanimi podatki, zato lahko izberete, ali bo vaše uporabniško ime javno ali anonimno.
+why-demographic-explanation-2 = Anonimni uporabniški podatki, kot so starost, spol in naglas, izboljšajo glasovne podatke, ki se uporabljajo za zagotavljanje natančnosti sistemov za prepoznavanje govora. Vaše uporabniško ime in e-pošta ne bosta nikoli povezana z vašimi posredovanimi podatki, zato lahko izberete, ali bo vaše uporabniško ime javno ali anonimno.
 accept-privacy = Strinjam se z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>
 accept-privacy-title = Politika zasebnosti
 login-identity = Identiteta prijave
@@ -495,6 +497,8 @@ data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
 data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
+release-version = Različica
+dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešana
 data-download-singleword-title = Prenesite enobesedni ciljni segment
@@ -673,6 +677,7 @@ share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 keep-track-profile = S profilom spremljajte svoj napredek
 login-to-get-started = Za začetek se prijavite ali registrirajte
 target-segment-first-card = Prispevate v naš prvi ciljni segment
+target-segment-generic-card = Prispevate v ciljni segment
 target-segment-first-banner = Pomagajte ustvariti prvi ciljni segment Common Voice v jeziku { $locale }
 target-segment-add-voice = Dodajte svoj glas
 target-segment-learn-more = Več o tem
@@ -832,3 +837,24 @@ help-contribute = Pomagate lahko ustvariti raznolik, odprtokodni nabor podatkov,
 login-company = Prijava / Registracija z e-poštnim naslovom { $company }
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 read-more-about = Preberite več na naši strani O nas
+
+## DemoLayout
+
+demo-get-started = Pa začnimo
+demo-welcome = Dobrodošli v Common Voice
+demo-welcome-subheader = Želite izvedeti več o projektu in prispevati?
+
+## Demo Datasets
+
+demo-language-select-card-body = Zahvaljujoč prispevkom več kot 259 tisoč ljudi v več kot 50 jezikih se ti podatki uporabljajo za usposabljanje aplikacij za prepoznavanje govora, da bi se bolje odzivale na človeški glas.
+demo-account = Račun
+
+## Demo Account
+
+demo-account-card-header = Račun za sodelovanje ni obvezen, je pa priporočljiv.
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

@@ -19,7 +19,8 @@ import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
 import Challenge from './challenge';
-import { FeatureToken, FeatureType, features } from 'common';
+import { FeatureType, features } from 'common';
+import { TaxonomyToken, taxonomies } from 'common';
 
 const Transcoder = require('stream-transcoder');
 
@@ -118,6 +119,7 @@ export default class API {
     router.use('/challenge', this.challenge.getRouter());
 
     router.get('/feature/:locale/:feature', this.getFeatureFlag);
+    router.get('/bucket/:bucket_type/:path/:cdn', this.getPublicUrl);
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
@@ -131,14 +133,15 @@ export default class API {
     response: Response
   ) => {
     let featureResult = null;
+    const featureObj = features[feature];
 
     try {
-      const featureToken = feature as FeatureToken;
-      const featureObj = features[featureToken];
-
       if (
         featureObj &&
-        (!featureObj.locales || featureObj.locales.includes(locale)) &&
+        ((featureObj.taxonomy &&
+          taxonomies[featureObj.taxonomy] &&
+          taxonomies[featureObj.taxonomy].locales.includes(locale)) ||
+          featureObj.taxonomy === undefined) &&
         getConfig()[featureObj.configFlag as keyof CommonVoiceConfig]
       ) {
         featureResult = featureObj;
@@ -337,7 +340,7 @@ export default class API {
       await Promise.all([
         this.s3
           .upload({
-            Bucket: getConfig().BUCKET_NAME,
+            Bucket: getConfig().CLIP_BUCKET_NAME,
             Key: clipFileName,
             Body: transcoder.audioCodec('mp3').format('mp3').stream(),
           })
@@ -413,14 +416,10 @@ export default class API {
   };
 
   insertDownloader = async (
-    { client_id, params, body }: Request,
+    { client_id, body }: Request,
     response: Response
   ) => {
-    await this.model.db.insertDownloader(
-      params.locale,
-      body.email,
-      body.dataset
-    );
+    await this.model.db.insertDownloader(body.locale, body.email, body.dataset);
     response.json({});
   };
 
@@ -435,5 +434,17 @@ export default class API {
   createReport = async ({ client_id, body }: Request, response: Response) => {
     await this.model.db.createReport(client_id, body);
     response.json({});
+  };
+
+  getPublicUrl = async (
+    { params: { bucket_type, path, cdn } }: Request,
+    response: Response
+  ) => {
+    const url = await this.bucket.getPublicUrl(
+      decodeURIComponent(path),
+      bucket_type,
+      cdn == 'true'
+    );
+    response.json({ url });
   };
 }

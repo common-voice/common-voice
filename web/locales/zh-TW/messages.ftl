@@ -33,14 +33,18 @@ as = 阿薩姆語
 ast = 阿斯圖里亞斯語
 az = 亞塞拜然語
 ba = 巴什噶爾語
+bas = 巴薩語
 be = 白俄羅斯語
 bg = 保加利亞語
+bm = 班巴拉語
 bn = 孟加拉語
 br = 布里多尼語
 bxr = 布里亞特語
 ca = 加泰隆語
 cak = 喀克奇可語
+ckb = 中庫德語
 cnh = 哈卡秦語
+co = 科西嘉語
 cs = 捷克語
 cv = 楚瓦什語
 cy = 威爾斯語
@@ -62,6 +66,7 @@ fr = 法語
 fy-NL = 弗利西亞語
 ga-IE = 愛爾蘭語
 gl = 加里西亞語
+gn = 瓜拉尼語
 ha = 豪薩語
 he = 希伯來語
 hi = 印地語
@@ -81,9 +86,9 @@ kaa = 卡拉卡爾帕克語
 kab = 卡拜爾語
 kbd = 卡巴達語
 kk = 哈薩克語
+kmr = 庫曼吉庫德語
 ko = 韓語
 kpv = 科米-齊良語
-ku = 庫德語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
 lg = 盧干達語
@@ -140,8 +145,9 @@ uz = 烏茲別克語
 vec = 威尼斯語
 vi = 越南語
 vot = 沃特語
+yue = 粵語
 zh-CN = 華語（中國）
-zh-HK = 華語（香港）
+zh-HK = 廣東話（香港）
 zh-TW = 華語（台灣）
 
 # [/]
@@ -234,7 +240,7 @@ whats-public = 有哪些資料會公開？
 email-not-public = 我們不會公開您的 E-Mail。
 recordings-and-locale-public = 您貢獻的錄音數量，以及貢獻的語言將會是公開的。
 username-optin-public = 您可以讓使用者名稱公開或保持匿名。
-demographic-deidentified-clarity = 選填的人口統計資料（例如年齡、性別、語言、腔調）不會在您的個人資料上公開，也不會在資料集中與您的帳號連結。每個錄音片段只會為了能做更準確的分析，而與您的人口統計資料連結。舉例來說，研究者可能想要對特定的人口分層做出更細的訓練模型。
+demographic-deidentified-clarity-2 = 選填的人口統計資料（例如年齡、性別、語言、腔調）不會在您的個人資料上公開，也不會在資料集中與您的帳號連結。每個錄音片段只會為了能做更準確的分析，而與您的人口統計資料連結。舉例來說，研究者可能想要對特定的人口分層做出更細的訓練模型。
 username-email-not-demographic = 您的使用者名稱與 E-Mail 不會跟公開發布的資料被關聯起來。
 
 ## Speak & Listen Shortcuts
@@ -291,7 +297,7 @@ profile-form-accent =
     .label = 腔調
 profile-form-age =
     .label = 年齡
-profile-form-gender =
+profile-form-gender-2 =
     .label = 性別
 leaderboard-visibility =
     .label = 是否顯示於排行榜
@@ -318,7 +324,7 @@ profile-close = 關閉
 profile-explanation = 保留您的專案紀錄，並幫助增加我們的語音資料準確度。
 thanks-for-account = 感謝您確認帳號資訊，接下來請提供您的基本資料。
 why-demographic = 這有什麼重要的？
-why-demographic-explanation = 匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與 E-Mail 不會與送出的資料相關聯，您也可以決定是否要公開您的帳號名稱或保持匿名。
+why-demographic-explanation-2 = 匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與 E-Mail 不會與送出的資料相關聯，您也可以決定是否要公開您的帳號名稱或保持匿名。
 accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊
 accept-privacy-title = 隱私權保護政策
 login-identity = 登入身分
@@ -366,7 +372,7 @@ faq-what-cv-a =
     語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Common Voice 是 Mozilla 打算讓語音識別技術變得更好、讓任何人都更能使用的計畫的一部分。Common Voice 也是一套收集了世界各地人們所捐贈的語音的資料庫，希望讓任何人都可以快速而簡單地訓練出可識別任何語音功能的應用程式。
     
     我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套廣泛的語音資料集，可幫助開發者、創業家，以及各個社群來縮小彼此之間的鴻溝。除了 Common Voice 的資料集外，我們也在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
-faq-why-important-q = 這有什麼重要？
+faq-why-important-q = 這有什麼重要的？
 faq-why-important-a =
     說話通常是我們與其他人最自然的溝通方式，語音技術也讓電腦和行動裝置更方便使用。我們希望讓開發者們建置令人驚嘆的語音識別應用程式，例如即時翻譯機、有語音功能的數位助理等等。但現在用來建置這些軟體所需的語音資料，大部分都是昂貴且專有的，因而我們希望能提供 Common Voice 資料集給開發者進行創新，也讓他們能使用自己的語言來打造語音技術。
     
@@ -500,10 +506,12 @@ data-other-goto = 前往 { $name }
 data-other-download = 下載資料
 data-bundle-button = 下載資料集總組合
 data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
+release-version = 版本
+dataset-date = 日期
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
 license-mixed = 混和
 data-download-singleword-title = 下載單字目標字串
-data-download-singleword-callout = 這是以使用情境為導向的字串集，當中包含用來提供 Firefox Voice 進行語音數字辨識、偵測是/否、喚醒詞等功能的測試資料。
+data-download-singleword-callout-v2 = 這是一個包含用來進行口述數字識別與是/否偵測的使用案例。
 review-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
@@ -671,6 +679,7 @@ share-title-new = <bold>請幫助我們</bold>找到更多聲音
 keep-track-profile = 註冊帳號來追蹤個人貢獻進度
 login-to-get-started = 請登入或註冊，即可開始使用
 target-segment-first-card = 您正在朝我們的第一組目標段落數貢獻錄音
+target-segment-generic-card = 您正在朝目標段落數貢獻錄音
 target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一組目標段落數
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
@@ -822,3 +831,39 @@ help-contribute = 您可以透過註冊 Common Voice 資料並貢獻語音，來
 login-company = 登入 / 使用 { $company } 註冊
 profile-not-required = 不需要註冊個人資料即可貢獻，但如果有的話會更有幫助
 read-more-about = 到我們的「關於」頁面了解更多資訊
+
+## DemoLayout
+
+demo-get-started = 開始入門
+demo-welcome = 歡迎來到 Common Voice
+demo-welcome-subheader = 有興趣了解更多資訊，並且參與貢獻此專案嗎？
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice 是全球最大規模的可公開使用、多語言語音資料集。
+demo-language-select-card-body = 感謝來自全球超過 25 萬 9 千人貢獻了超過 50 種語言，此資料可用來訓練有語音功能的應用程式，使其更能理解人類的聲音。
+card-button-next = 下一步
+card-button-back = 上一步
+demo-language-select-label = 瀏覽語言
+demo-eofy-header = 2019 年末發佈版
+demo-eofy-sub_header = 語音資料集，已可下載
+demo-account = 帳號
+
+## Demo Account
+
+demo-account-card-header = 不需要註冊帳號即可貢獻，但如果有的話會更有幫助。
+demo-account-card-body = 我們在右邊簡單列出了有哪些益處，並說明會公開哪些資訊。請使用下方的鏈結來在您的裝置上註冊 Common Voice 帳號，開始參與我們。
+demo-account-enter-email =
+    .label = 請輸入電子郵件地址來發送註冊鏈結
+demo-account-sign-up = 寄註冊鏈結給我
+
+## Demo Contribute
+
+demo-contribute-card-header = 準備好來參與錄音，或是把耳朵借給我們一用嗎？
+demo-contribute-card-body = 現在您知道更多 Common Voice 的資訊了，不來試試看嗎？請點擊麥克風圖示來大聲朗讀句子。<br/><br/>若您想要來審核其他人錄下的片段，請點擊播放圖示來確認聽到的錄音是否與畫面上的文字相符。
+demo-listen-subtitle = 準備好參與貢獻了嗎？
+
+## Demo Dashboard
+
+demo-dashboard-card-header = 可讓您掌控個人與社群進度的個人儀錶板。
+demo-dashboard-card-body = 每當您錄下或驗證了一段語音，就會更新您的帳號儀錶板，來反映您在參與貢獻的各種語言當中的最新進度。沒錯，您可以參與不只一種語言！<br/><br/>您可以使用儀錶板來追蹤目前狀態、看看自己跟社群當中的其他人目前差距多少，並且設定每日或每週貢獻目標。

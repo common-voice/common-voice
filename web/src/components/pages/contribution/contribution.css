@@ -569,7 +569,8 @@
     }
 
     .sentence-taxonomy {
-        border-top: 1px solid var(--lighter-grey);
+        border-top: 1px solid var(--grey);
+        background: var(--lighter-grey);
         position: absolute;
         bottom: 0;
         left: 0;

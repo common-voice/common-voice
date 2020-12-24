@@ -168,7 +168,7 @@
     & .other-dataset {
         position: relative;
 
-        & .banner {
+        & .dataset-banner {
             margin-bottom: 65px;
             height: 85px;
             opacity: 0.2;

@@ -35,12 +35,15 @@ az = Aserbajdsjansk
 ba = Basjkirisk
 be = Kviterussisk
 bg = Bulgarsk
+bm = Bambara
 bn = Bengali
 br = Bretonsk
 bxr = Burjatisk
 ca = Katalansk
 cak = Kakchikel
+ckb = Sentralkurdisk
 cnh = Hakha Chin
+co = Korsisk
 cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
@@ -62,6 +65,7 @@ fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
 gl = Galisisk
+gn = Guarani
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -81,9 +85,9 @@ kaa = Karakalpak
 kab = Kabylsk
 kbd = Kabardisk
 kk = Kasakhisk
+kmr = Nordkurdisk
 ko = Koreansk
 kpv = Komi (syriansk)
-ku = Kurdisk
 kw = Kornisk
 ky = Kirgisk
 lg = Luganda
@@ -235,7 +239,6 @@ whats-public = Kva er offentleg?
 email-not-public = Vi gjer ikkje e-postadressa di offentleg.
 recordings-and-locale-public = Talet på innspelingar og kva for språk du bidreg til er offentleg.
 username-optin-public = Du kan velje å gjere brukarnamnet ditt offentleg eller anonymt.
-demographic-deidentified-clarity = Valfritt innsende demografiske data (t.d. alder, kjønn, språk og aksent) vert aldri offentleggjorde på profilen din, og vert ikkje kopla til kontoen din i datasettet. Individuelle lydklipp vert assosierte med demografiske data for å oppnå meir nøyaktig analyse - til dømes vil ein forskar kunne rette ein treningsmodell mot eit spesifikt demografisk segment.
 username-email-not-demographic = Brukernamnet ditt og e-postadressa di vil ikkje bli assosierte med offentliggjorde data.
 
 ## Speak & Listen Shortcuts
@@ -293,7 +296,7 @@ profile-form-accent =
     .label = Dialekt
 profile-form-age =
     .label = Alder
-profile-form-gender =
+profile-form-gender-2 =
     .label = KJønn
 leaderboard-visibility =
     .label = Synlegheit på toppliste
@@ -320,7 +323,6 @@ profile-close = Lat att
 profile-explanation = Hald auge med framdrifta di med ein profil som òg gjer stemmedataa våre meir korrekte.
 thanks-for-account = Takk for at du stadfesta kontoen din, no byggjer vi profilen din.
 why-demographic = Kvifor er dette viktig?
-why-demographic-explanation = Anonymiserte brukardata, som alder, kjønn og dialekt berikar stemmedataa som vert brukte for å trene talegjenkjenningsmotorane. Brukarnamnet ditt og e-postadressa di vil aldri bli assosierte med dine bidrag, og du kan velje om du vil at brukarnamnet ditt skal vere offentleg eller anonymt.
 accept-privacy = Eg godtar at de handterer denne informasjonen som forklart i Mozillas <privacyLink>personvernpraksis</privacyLink>.
 accept-privacy-title = Personvernpraksis
 login-identity = Innloggingsidentitet
@@ -500,7 +502,7 @@ data-bundle-description = Data frå Common Voice pluss alle andre stemmedatasett
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blanda
 data-download-singleword-title = Last ned målsegmentet for eitt ord
-data-download-singleword-callout = Dette er eit brukstilfelle-drive segment som inneheld data for å styrkje attkjenning av talte siffer, ja/nei-attkjenning og oppvakningsord-testdata for <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Dette er eit brukstilfelle-drive segment som inneheld data for å styrkje attkjenning av talte siffer og ja/nei-attkjenning.
 review-terms = Ved å bruke Common Voice, godkjenner du <termsLink>vilkåra</termsLink> og <privacyLink>personvernpraksisen</privacyLink> vår
 terms-agree = Eg er samd
 terms-disagree = Eg er ikkje samd
@@ -836,3 +838,18 @@ help-contribute = Du kan hjelpe til med å byggje eit mangfaldig, ope datasett v
 login-company = Logg inn/Registrer deg med { $company } e-post
 profile-not-required = Du treng ikkje ein konto for å bidra, men det hjelper. Sjå kvifor nedanfor.
 read-more-about = Les meir på Om oss-sida vår
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

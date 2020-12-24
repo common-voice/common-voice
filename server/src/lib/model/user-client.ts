@@ -67,9 +67,15 @@ async function updateLocales(
 
 async function updateDemographics(
   clientId: string,
-  age?: string,
-  gender?: string
+  age: string,
+  gender: string
 ) {
+  // Null (unset) values are sent up as blank strings. Here we cast blank
+  // strings to null so they're unambiguously unset and map to the expected
+  // NULL id in our database.
+  age = age || null;
+  gender = gender || null;
+
   const ageId =
     age &&
     (
@@ -96,45 +102,20 @@ async function updateDemographics(
       )
     )?.[0]?.[0]?.id;
 
-  const ageFound = typeof ageId === 'number';
-  const genderFound = typeof genderId === 'number';
-
-  if (!ageFound && !genderFound) return;
-
-  // If we're missing an id for age or gender, we fall back to their existing
-  // values.
-  const { age_id: prevAgeId, gender_id: prevGenderId } =
-    ((!ageFound || !genderFound) &&
-      (
-        await db.query(
-          `
-            SELECT demographics.age_id, demographics.gender_id
-              FROM user_clients
-              LEFT JOIN demographics
-                ON user_clients.client_id = demographics.client_id
-              WHERE user_clients.client_id = ?
-              ORDER BY updated_at DESC
-              LIMIT 1
-          `,
-          [clientId]
-        )
-      )?.[0]?.[0]) ||
-    {};
-
   await db.query(
     `
     INSERT INTO demographics (client_id, age_id, gender_id) VALUES (?, ?, ?)
       ON DUPLICATE KEY UPDATE
       updated_at = now()
   `,
-    [clientId, ageId ?? prevAgeId ?? null, genderId ?? prevGenderId ?? null]
+    [clientId, ageId ?? null, genderId ?? null]
   );
 }
 
 const UserClient = {
   async findAllWithLocales({
-    client_id,
-    email,
+    client_id = null,
+    email = null,
   }: {
     client_id: string;
     email: string;
@@ -146,14 +127,15 @@ const UserClient = {
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
         -- TODO: This subquery is VERY awkward, but safer until we simplify
-                 accent grouping.
+        --       accent grouping.
         CROSS JOIN
           (SELECT demographics.age_id, demographics.gender_id
             FROM user_clients
             LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
             WHERE user_clients.${
-              client_id ? `client_id = ${client_id}` : `email = ${email}`
+              client_id ? `client_id = "${client_id}"` : `email = "${email}"`
             }
+              AND user_clients.has_login
             ORDER BY updated_at DESC
             LIMIT 1
           ) AS d
@@ -161,7 +143,7 @@ const UserClient = {
         LEFT JOIN genders on d.gender_id = genders.id
         WHERE (u.client_id = ? OR email = ?) AND !has_login
       `,
-      [client_id || null, email || null]
+      [client_id, email]
     );
     return Object.values(
       rows.reduce((obj: { [client_id: string]: any }, row: any) => {
@@ -204,6 +186,7 @@ const UserClient = {
             FROM user_clients
             LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
             WHERE user_clients.email = ?
+              AND user_clients.has_login
             ORDER BY updated_at DESC
             LIMIT 1
           ) AS d
@@ -297,7 +280,7 @@ const UserClient = {
       [accountClientId]
     );
 
-    updateDemographics(client_id, data.age, data.gender);
+    updateDemographics(accountClientId, data.age, data.gender);
 
     await Promise.all([
       this.claimContributions(accountClientId, clientIds),
@@ -326,38 +309,6 @@ const UserClient = {
       ]);
     }
     return UserClient.findAccount(email);
-  },
-
-  // TODO: Is this used anywhere? lib/model/db.ts@updateUser from 5f781aa0d05e
-  //       no-longer exists.
-  async save({ client_id, email, age, gender }: any): Promise<boolean> {
-    console.log(`TRACK_USER_CLIENT_SAVE: ${age}\t${gender}`);
-    const [
-      [row],
-    ] = await db.query(
-      'SELECT has_login FROM user_clients WHERE client_id = ?',
-      [client_id]
-    );
-
-    if (row?.has_login) return false;
-
-    if (row) {
-      await db.query(
-        `
-      UPDATE user_clients SET email = ? WHERE client_id = ?
-      `,
-        [email, client_id]
-      );
-    } else {
-      await db.query(
-        `
-        INSERT INTO user_clients (client_id, email) VALUES (?, ?)
-      `,
-        [client_id, email]
-      );
-    }
-
-    updateDemographics(client_id, age, gender);
   },
 
   async updateBasketToken(email: string, basketToken: string) {

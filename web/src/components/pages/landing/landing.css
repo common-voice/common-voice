@@ -1,13 +1,13 @@
 @import url('../../vars.css');
 
 .landing {
-    & header {
+    header {
         @media (--lg-up) {
             max-width: var(--wide-desktop-width);
         }
     }
 
-    & #content {
+    #content {
         padding: 0;
 
         & > div {

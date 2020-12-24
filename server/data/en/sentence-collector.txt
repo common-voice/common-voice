@@ -2353,6 +2353,7 @@ According to the timetable, the group leaders had programmed a very full day.
 Accountability must be baked into the design of automated systems.
 Accountancy is the name of the profession for accountants
 Achilles knew his business when he sat in his tent.
+Acid house was brought to England by Genesis P-Orridge.
 AcousticBrainz crowd sources acoustic information for all music in the world
 Across the meadow.
 Across the pond.
@@ -4409,6 +4410,7 @@ Are you ready, Comrades Carroll and Jackson?
 Are you really any good at cricket?
 Are you registered to vote?
 Are you selling those paintings?
+Are you sick of being stuck on this planet?
 Are you sick?
 Are you speaking the truth about him now?
 Are you starting or stopping?
@@ -4463,6 +4465,7 @@ Arthur was just going to be married.
 Arthur was very touchy, and Billy was worse.
 Arthur went outside for some coal.
 Arthur, apprenticed as an electrician in Nottingham, was home for the holiday.
+Article Two of the Human Rights Act protects your right to life.
 Articled clerks go a good deal on the water.
 Artificial Intelligence can be designed to be beneficial for humanity.
 Artificial Intelligence can be used for social good.
@@ -6910,6 +6913,7 @@ Children just want the attention of their parents.
 Children played in the bluish shadow of the pavilion.
 Chinese crispy beef stir fry.
 Chips, cheese and peas.
+Chiptunes are very small music files used mainly in crack intros.
 Chloe studied veterinary medicine at Vet School.
 Chocolate mousse; yummy!
 Chocolate with a caramel filling.
@@ -8373,6 +8377,7 @@ Easter Day falls late this year
 Easter falls either in late March or in April
 Easter is the celebration of Jesus's resurrection.
 Eat less meat.
+Eat me!
 Eating meat based products leaves a larger carbon foot print.
 Economists like predicting the Economy.
 Ed will not be joining us today.
@@ -8641,6 +8646,7 @@ Everybody's would, I expect.
 Everyone abroad seemed involved.
 Everyone began to move.
 Everyone has a desire to be liked, it's perfectly natural.
+Everyone has the right to freedom of opinion and expression.
 Everyone has their own unique quirks.
 Everyone here has watched at least one harry potter movie.
 Everyone here is paid a fixed wage.
@@ -8848,6 +8854,7 @@ First things first.
 First to the left, then to the right
 First we must have lots of hot water.
 First wish on the ruby cap.
+First world problems.
 First you boil the spuds, then you mash them.
 First you need to square x, and then take the cube root.
 First, and most important — pitch.
@@ -9103,6 +9110,7 @@ Frantic development of his world!
 Free is not in my vocabulary.
 Free samples are available at the Welcome Desk.
 Free, is not in this shop keepers lexicon.
+Freed from this hindrance, the Buster shot forward on its course.
 Frequently he hated Miriam.
 Fresh cases, still able to walk, they clustered about the spokesman.
 Fresh meat they failed to obtain.
@@ -19164,6 +19172,7 @@ Implacable resentment is a shade in a character.
 Importance may sometimes be purchased too dearly.
 Important expansion of naval programme.
 In April war was declared with Germany.
+In Berlin-Brandenburg, Grünheide, Tesla started to build the first Gigafactory for Europe.
 In Britain we say Anti-clockwise rather than Counterclockwise
 In Britain, A-levels are taken in the sixth form
 In Britain, a furnace is known as a central heating boiler
@@ -22786,6 +22795,7 @@ Many fans think they're in love, but unfortunately that's not canon.
 Many fears are born of fatigue and loneliness.
 Many holidaymakers who travel abroad save money by buying a package holiday
 Many househunters seem to love woodburning stoves.
+Many improved Tracker programs followed like Protracker and Fasttracker.
 Many libraries of knowledge have not survived the test of time.
 Many men passed into the Prince of Wales or into Ellen’s.
 Many nonreligious people are agnostic, although some are atheists
@@ -25801,6 +25811,7 @@ Our genes determine our physical characteristics.
 Our genetics define our appearances and traits. Our experiences define who we are.
 Our goals somehow became misaligned.
 Our grandmother loves us so much.
+Our hard-won freedoms need to be made accountable!
 Our home is rodent free.
 Our house is free of pests.
 Our house is on a dead end cul-de-sac.
@@ -26696,6 +26707,7 @@ Rest assured of that!
 Restaurant food makes my tummy grumpy
 Result, agony of spirit and no progress.
 Retry.
+Return to the source.
 Return to your books.
 Returning she would find his name, and smile.
 Revenue is expected to increase year over year.
@@ -28833,6 +28845,7 @@ Shut your eyes up tight.
 Shutting his eyes and rolling.
 Sid always turned up twenty minutes late to class.
 Side by side they started for the Plaza.
+Sidtunes were used on the Commodore sixty four computer.
 Sift the evidence.
 Silence all round, if you please!
 Silent Night.
@@ -29755,6 +29768,7 @@ Take it off, take it off!
 Take kindly the counsel of the years
 Take me as I am, and make the best of me.
 Take me as I am.
+Take me to your leader!
 Take my advice and accept the vacation.
 Take no notice of him.
 Take notes; this is important.
@@ -30679,6 +30693,7 @@ The Transport Department issued an advisory to expect severe weather conditions.
 The Trent was very full.
 The Tumour metastases were identified months after diagnosis of the primary tumour.
 The Tv presenter offered his commiserations to the losing party.
+The Ultimate Soundtracker was programmed by Karsten Obarski for the Amiga computer.
 The United Kingdom consists of England, Scotland, Wales and Northern Ireland.
 The University of Oxford and the University of Cambridge are both collegiate institutions
 The Victorian notion of empire.
@@ -30749,6 +30764,7 @@ The algorithm ate my homework.
 The alien was a rather fetching aquamarine colour.
 The alleged perpetrator refuted the claims as false.
 The alpha version has been released, the beta version is expected next year.
+The amateur radio operator learned Morse Code.
 The ambulance is on its way.
 The amortization report runs daily.
 The amount of rain has decreased this year.
@@ -31385,6 +31401,7 @@ The delay won't hurt now.
 The delusion did not last long.
 The democratization of artificial intelligence.
 The demonstration turned violent, and ended in a huge punch-up
+The deodorant fell into the toilet.
 The deputy stepped in on behalf of his principal.
 The desiccated loaf remained swathed up in the scullery.
 The design of this map is awful.
@@ -32077,6 +32094,7 @@ The kitchen was very small and irregular.
 The kitten was a mischievous little thing.
 The kitten was lonely after being separated from its mother.
 The kittens have grown up into very good rat-catchers.
+The kitty is deeply asleep.
 The kiwi is a flightless bird of New Zealand.
 The knife crumpled up and hurt him; he put his finger in his mouth.
 The knots had been cunningly tied.
@@ -36451,6 +36469,7 @@ To beard a magistrate in his stronghold, and on the Sabbath, too!
 To become a Guppy is the object of his ambition.
 To become better at what you know.
 To begin with the rule will be easy.
+To calculate the eigenvalue of the matrix, find the determinate of the matrix.
 To change gears you need to use the gear-lever
 To come to the point: let's talk money.
 To come up to it!
@@ -36551,6 +36570,7 @@ Today's expert talk is on the constitution.
 Today's weather forecast is chilly, but sunny.
 Today, I am within sight of my heaven.
 Today, however, they were not playing.
+Today, the goal of a Europe united in liberty is in grave danger.
 Together they ate the rabbit.
 Together they enjoyed the field of flowers.
 Together they seemed to sift the vital fact from an experience.
@@ -36652,6 +36672,7 @@ Try not to leave old emails in your inbox.
 Try some of this salad.
 Try some of this salmon.
 Try some popular short stories.
+Try the "High Voltage Sid Collection" for further information.
 Try, try, and try again.
 Trying to be romantically metropolitan.
 Tudor surveyed him with withering disgust.
@@ -36921,6 +36942,7 @@ Wardle — a friend of mine,’ said Mr. Pickwick.
 Warm Croissant tastes better.
 Warm! — red hot — scorching — glowing.
 Warning! Obstruction ahead.
+Warrior down, thank you for everything Keith!
 Warrior not worrier.
 Was I talking to myself?
 Was any one inside the car?
@@ -37161,6 +37183,7 @@ We can lower emissions by using less and wasting less.
 We can make rare things abundant by lowering the costs to produce them.
 We can make resource scarcity disappear using technology.
 We can market products relevant to customers.
+We can never forget the risk of losing basic rights to power-hungry governments.
 We can now predict if someone will get Cancer.
 We can only see what we think is possible.
 We can polish your car for ten pounds.
@@ -39336,6 +39359,7 @@ Where is my distinguished cousin Gloria?
 Where is my vanity bag?
 Where is she?
 Where is that annoying sound coming from?
+Where is the "Hardwax" record store located?
 Where is the Council?
 Where is the Emerald City? he enquired; "and who is Oz?"
 Where is the Nobel Prize awarded again?
@@ -39550,6 +39574,7 @@ Who on earth are you?
 Who put that into your head?
 Who reads the newspaper anymore?
 Who reads?
+Who said that?
 Who says that the aristocracy are proud?
 Who shall I say called?
 Who should suffer but myself?

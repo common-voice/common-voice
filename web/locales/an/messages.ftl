@@ -315,6 +315,7 @@ settings = Achustes
 edit-profile = Editar perfil
 profile-create-success = Feito, perfil creau!
 profile-close = Zarrar
+edit = Editar
 
 ## FAQ
 
