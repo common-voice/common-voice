@@ -8,6 +8,7 @@ email-input =
     .label = ఈమెయిలు
 submit-form-action = సమర్పించు
 loading = లోడవుతున్నది...
+email-opt-in-info-title = కామన్ వాయిస్ మెయిలింగ్ జాబితాలో చేరండి
 indicates-required = * ఖచ్చితంగా పూరించవలసిన ఖాళీ
 not-available-abbreviation = వర్తించదు
 
