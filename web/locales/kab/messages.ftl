@@ -867,6 +867,7 @@ demo-account = Amiḍan
 ## Demo Account
 
 demo-account-card-header = Amiḍan mačči d ayen i ilaqen akken ad tekkiḍ, maca d ayen ara iɛiwnen.
+demo-account-card-body = Ɣer tama tayeffust, neskanay-d abaɣur daɣen nemmal-d taɣlut arar d-nerr d tazayazt. Sqedcet iseɣwan n ddaw-a i tmerna n umiḍan Common Voice deg yibenk-ik.
 demo-account-enter-email =
     .label = Sekcem imayl i tuzna n useɣwen n ujerred
 demo-account-sign-up = Azen aseɣwen n ujerred
