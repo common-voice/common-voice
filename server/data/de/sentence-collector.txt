@@ -987,6 +987,7 @@ Am Mittwoch könnte Herr Gruber seine Drohung wahr werden lassen.
 Am Mittwochabend gibt er eine Autogrammstunde im Gemeindehaus.
 Am Monatsende ist die Schlange vor dem Geldautomaten immer besonders lang.
 Am Montag schien die Sonne dauerhaft.
+Am Montag war es neblig und es hat immer wieder kurz geregnet.
 Am Morgen ist die Wahrscheinlichkeit am größten, die scheuen Tiere zu Gesicht zu bekommen.
 Am Mozartplatz steigst du aus und gehst einfach die Wagnerstraße nach Süden runter.
 Am Nachmittag ist mit starken Sturmböen zu rechnen.
@@ -1257,6 +1258,7 @@ Anna-Lena hat sich als Klassenbuchführerin bewährt.
 Anne arbeitet jetzt bei der Feuerwehr.
 Anne fragte sich, wie sie aus dem Labyrinth an endlosen Fluren wieder herausfinden würde.
 Annegret eilte in den Garten, um die Hühner zu befreien.
+Annegret läuft durch den Wald.
 Anneliese deutet die Größe mit dem Abstand ihrer Finger an.
 Annemarie wäre fast vom Stuhl gefallen.
 Annette hob den Martini hoch und sprach einen Toast.
@@ -2420,6 +2422,7 @@ Betreutes wohnen klingt schlimmer als es ist, dachte sich Gottlieb.
 Betriebswirtschaft ist eines der langweiligsten Schulfächer.
 Betrunkene und Kinder schützt der liebe Gott.
 Betsy haut einen Schenkelklopfer nach dem anderen raus.
+Bettbezug, Bettlaken und Gardinen müssen gewaschen werden.
 Betteln und Hausieren verboten.
 Betteln und hausieren verboten.
 Bettina befindet sich schon wieder auf dem Weg der Besserung.
@@ -2604,6 +2607,7 @@ Bitte hier Ihren Text einfügen.
 Bitte hör dir deine eigene Aufnahme an, bevor du sie abschickst.
 Bitte keine derben Schimpfwörter.
 Bitte kommen!
+Bitte kämm deine Haare!
 Bitte lassen Sie ihre Gepäck nicht unbeaufsichtigt.
 Bitte lehnen Sie keine der Möglichkeiten schon von vornherein ab.
 Bitte mache die Musik etwas leiser.
@@ -2685,6 +2689,7 @@ Blöde Extra-Verifikation!
 Blühende Scheiße.
 Boah ey, dein Hund haart voll viel!
 Boah, die Quallen sind mir zu glibberig.
+Boah, wo nach riecht es hier?
 Bob Marley gilt als Erfinder des Reggae.
 Bob jongliert mit zwei Motorsägen und einem Bügeleisen.
 Bockwürste platzen immer an derselben Stelle auf.
@@ -2854,6 +2859,7 @@ Da fiel es mir wie Schuppen von den Augen.
 Da findet man echt dolle Dinger.
 Da fragt niemand die Angehörigen.
 Da freuen sich Körper und Seele gleichermaßen!
+Da fällt einem ja der Kitt aus dem Fenster!
 Da fällt mir ein, ich müsste eigentlich mal wieder nach dem Rechten schauen.
 Da fängt der Russe an zu lachen.
 Da gehe ich mit.
@@ -5111,6 +5117,7 @@ Den Tequila fand ich jetzt nicht so prickelnd.
 Den Termin hätte man sich ruhig mal merken können.
 Den Text halte ich für eine Übertreibung.
 Den Text muss ich bis Samstag gelernt haben.
+Den Traumfänger baute Theresia in der Kita.
 Den Trecker hat er volle Pulle gegen die Wand gefahren.
 Den Trick kannte sie schon.
 Den Umgang mit Word und Excel hatte er schon in der Schule gelernt.
@@ -5742,6 +5749,7 @@ Der Staatsanwalt erwartet einen genauen Schlussbericht zu der Akte.
 Der Staatsanwalt macht eine ausladende Geste.
 Der Stadtführer trug einen auffälligen Anorak, sodass er leicht wiederzuerkennen war.
 Der Standesbeamte war ein komischer Vogel.
+Der Staubsauger brummt ziemlich laut.
 Der Staubsauger ist batteriebetrieben.
 Der Staubsauger musste zur Inspektion in die Werkstatt.
 Der Staubsauger steht an exakt der Stelle wie vor einer Stunde.
@@ -6066,6 +6074,7 @@ Der wohl bekannteste Löwe heißt Simba.
 Der wohl bekannteste Song von Nirvana ist „Smells Like Teen Spirit“.
 Der wundert sich über nichts mehr.
 Der zivilisierte Mensch beschränkt sich daher auf das Leben im Grünen.
+Der zwanzigste Dezember war ein Sonntag.
 Der zweite war nicht mehr so chic.
 Der Ärger mit dem Kundensupport hat ihm bestimmt einige graue Haare beschert.
 Der Ätna auf Sizilien ist ein gegenwärtig aktiver Vulkan.
@@ -6221,6 +6230,7 @@ Die Ananas musste irgendwie auf den Meeresgrund gekommen sein.
 Die Angehörigen dieser Altersgruppe sind überdurchschnittlich mobil.
 Die Angriffe laufen immer nach dem gleichen Schema ab.
 Die Angst vor einem atomaren Erstschlag ist omnipräsent.
+Die Ankunft in Italien war herzlich.
 Die Anlage muss daher dringend repariert werden.
 Die Anlage rechnet sich hinten und vorne nicht.
 Die Anleger können aufatmen.
@@ -6987,6 +6997,7 @@ Die Staatsanwaltschaft bereitet die Anklage sehr gewissenhaft vor.
 Die Staatssicherheit in der D-D-R war ein Teil des Apparats zur Repression.
 Die Stacheln schützen vor Fressfeinden.
 Die Stadt Shenzhen wird auch als „Fabrik der Welt“ bezeichnet.
+Die Stadt Westerstede liegt im Ammerland.
 Die Stadt sucht einen Integrationsmanager in Vollzeit.
 Die Stadtrundfahrt wollte sich Bibi auf keinen Fall entgehen lassen.
 Die Standardeinstellung der Software ist Englisch.
@@ -7032,6 +7043,7 @@ Die Taten werden weiterhin verharmlost.
 Die Taxifahrer demonstrierten gegen Uber.
 Die Teilnahme sollte freiwillig sein.
 Die Teilnehmer der Demonstration achteten darauf, den Rasen nicht zu betreten.
+Die Telefonanlage streikte, daher war das Unternehmen für seine Kunden nicht erreichbar.
 Die Telefone spielen total verrückt.
 Die Telefonleitungen sind seit Dienstag unterbrochen.
 Die Telekom bietet jetzt spezielle Tarife für diese Geräte an.
@@ -7152,6 +7164,8 @@ Die Wäsche wird nicht gut trocknen.
 Die Wölfe waren einfach zielstrebiger, zumindest in der ersten Halbzeit.
 Die Würde des Menschen ist unantastbar. Auch nach siebzehn Uhr.
 Die Wüste Gobi ist keine Weibergeschichte!
+Die Zahlen basieren auf den von der Weltgesundheitsorganisation veröffentlichten Berichten.
+Die Zahlen gehen hoch!
 Die Zahnärztin träumt von einem großen, schmerzhaften Bohrer mit kreischendem Sound.
 Die Zecken haben auch Eier gelegt, aber kleine Zecken sind keine geschlüpft.
 Die Zeckenimpfung wird nur in Risikogebieten empfohlen.
@@ -7721,6 +7735,7 @@ Dieses Viertel ist voller Angsthasen.
 Dieses Wochenende wäre besser als nächstes.
 Dieses Wohnheim ist die reinste Irrenanstalt!
 Dieses Zitat stammt doch aus dem Film „ein Fisch names Wanda“.
+Dieses ekelhafte Krankenhausessen!
 Dieses neuronale Netz generalisiert nicht gut.
 Dieses strahlende Gesicht wird den Preisverleihern noch eine Weile im Gedächtnis bleiben.
 Dieses tägliche Geplärre würde ich nicht ertragen.
@@ -8227,6 +8242,7 @@ Dustin tut, was er kann.
 Dutzende Angestellte hat die junge Firma aus dem Urlaub zurückgerufen.
 Dutzende stehen Schlange vor der Ankleidekabine.
 Döner macht nicht nur schöner sondern auch Fettflecken.
+Dörte kam zehn Minuten zu spät zur Arbeit und wurde abgemahnt.
 Dörte sucht einen Fachmann, der den Herd an den Starkstrom anschließt.
 Dümmer geht's nicht mehr.
 Dümmste Ausrede ever!
@@ -9160,6 +9176,7 @@ Emotionale Aufladung kann zu verfälschten Ergebnissen führen.
 Emotionale Flashbacks sind charakteristisch für komplexe posttraumatische Belastungsstörungen.
 Emotionale Vernachlässigung im Kindesalter kann genauso traumatische Folgen wie andere Misshandlungen haben.
 Ende August kann man schon die ersten Äpfel ernten.
+Ende August und Anfang September war die Kurve hoch.
 Endgeil sage ich nur!
 Endlich eine gute Nachricht!
 Endlich fahren einem die anderen Kunden an der Supermarktkasse nicht mehr in die Hacken.
@@ -9248,6 +9265,7 @@ Er besuchte aber auch gern Flohmärkte.
 Er bewegt sich nah an der Grenze des Erlaubten.
 Er bewegt ständig seine Augenbrauen auf und ab.
 Er bewertet die Aufgaben nicht.
+Er blieb standhaft und brachte seinen Wunsch ihr immer wieder vor.
 Er bringt es nicht fertig, ein Gespräch mit ihr anzufangen, geschweige denn zu flirten.
 Er checkt nicht, dass er in der Friendzone steckt.
 Er drehte am Regler und stellte seine Waffe von tödlich auf Betäubung.
@@ -9611,6 +9629,7 @@ Erstmal mache ich gute Musik an.
 Erwachsen sein heißt Verantwortung für sein Handeln tragen und mit den Konsequenzen leben.
 Erwachsene haben so etwas meist schon verlernt.
 Erwarte keine Vorschusslorbeeren von ihm.
+Erwarten Sie die schlichte Einhaltung der Regeln?
 Erwartet mich bei dem Fest wieder so eine konservative Spießer-Gesellschaft?
 Erwartungsgemäß zeigt die Schulklasse wenig Verständnis für das Handyverbot.
 Erweise deinem Meister deine Gunst!
@@ -10231,6 +10250,7 @@ Eure Tröte nervt.
 Euro rechnen wir eins zu eins in Schweizer Franken um.
 Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet.
 Europa wieder groß machen.
+Eva erwischte Gerd mit Anke und beendete die Beziehung zu ihm.
 Evelyn ist seekrank.
 Eventuell fehlen ihr sogar die Enzyme, um die pflanzliche Nahrung zu verwerten.
 Eventuell wird es Zeit, dass ich mir mal wieder eine gute neue Bohrmaschine kaufe.
@@ -11469,6 +11489,7 @@ Haben Sie "Root Rechte" auf Ihrem derzeitigen Smartphone?
 Haben Sie Alkohol getrunken?
 Haben Sie Erfahrung mit der Durchsuchung von Mülleimern?
 Haben Sie Tabletten gegen Eisenmangel?
+Haben Sie auch Zeitschriften für Erwachsene?
 Haben Sie außer Ihren persönlichen Vorlieben noch andere Gründe?
 Haben Sie bitte Verständnis für meinen Mangel an Motivation.
 Haben Sie da einen Tipp?
@@ -12461,6 +12482,7 @@ Ich auch nicht.
 Ich bedanke mich recht herzlich für Ihre Aufmerksamkeit.
 Ich bedanke mich recht schmerzlich.
 Ich bedaure diesen armen Wurm.
+Ich befriedige mich täglich selbst.
 Ich beklage mich nicht, aber ich möchte genauere Informationen.
 Ich bekomm die Krise.
 Ich bekomme mich kaum ein vor lachen.
@@ -12473,6 +12495,7 @@ Ich bestimme selbst, was ich tue und was ich lasse.
 Ich bestätige, dass ich dazu berechtigt bin.
 Ich bewundere die Katalanen und die Algerier.
 Ich bezweifle, dass sie Schritt halten können wird.
+Ich bin Arzt, ich darf das.
 Ich bin Kinderärztin.
 Ich bin Mutter von zwei kleinen Kindern.
 Ich bin Möbelpacker.
@@ -13046,6 +13069,7 @@ Ich kann meinen Laptop nicht bedienen.
 Ich kann mich nicht in ihn hineinversetzen.
 Ich kann mich nicht zwischen einer PlayStation und einer Xbox entscheiden.
 Ich kann mich nur noch erinnern, dass die Nummer eigentlich leicht zu merken war.
+Ich kann mir das nicht vorstellen.
 Ich kann mir doch nicht alles aus den Fingern saugen.
 Ich kann mir nicht vorstellen, das Jan zu sowas in der Lage ist.
 Ich kann mir nicht vorstellen, dass der nackig baden geht.
@@ -13072,6 +13096,7 @@ Ich kenne weder die eine noch die andere Bezeichnung.
 Ich koche heute Spaghetti mit Garnelen und Spinat.
 Ich komm ja bei dir nicht rein.
 Ich komme auf dasselbe Ergebnis.
+Ich komme aus dem wunderschönen Mecklenburg Vorpommern.
 Ich komme ein bischen später, dafür gehe ich dann ein bischen eher.
 Ich komme früher mit Schlüssel.
 Ich komme gerade nicht auf den Namen.
@@ -13305,6 +13330,7 @@ Ich spekuliere auf fallende Ölpreise.
 Ich spiele euch jetzt ein Lied vor.
 Ich spreche heute zu Ihnen, weil ich mir den großen Zeh gestoßen habe.
 Ich spreche kaum Englisch.
+Ich stamme ursprünglich aus Bayern.
 Ich stecke fest.
 Ich stehe auf Menschen in Uniform.
 Ich stehe im wahrsten Sinne des Wortes hinter dir.
@@ -13360,6 +13386,7 @@ Ich verurteile niemanden dafür, dass er meine Meinung nicht teilt.
 Ich verwechsle immer Blumenkohl mit Brokkoli.
 Ich verwende die in der Software für meine Diplomarbeit.
 Ich verzweifle damit.
+Ich wandere aus.
 Ich war Abends noch spazieren.
 Ich war abends noch spazieren.
 Ich war auch mal einundzwanzig und Student.
@@ -13454,6 +13481,7 @@ Ich will mich aber nicht überreden lassen.
 Ich will mich auch nimmer mit Grillen mehr plagen.
 Ich will mich nicht beeilen müssen.
 Ich will mich nicht länger verstecken.
+Ich will mich nicht wiederholen müssen?
 Ich will nicht so laut schreien.
 Ich will nicht ständig nacharbeiten müssen.
 Ich will noch nicht ins Bett!
@@ -13721,6 +13749,7 @@ Im Abstand von je vierzehn Metern sind Laternen entlang der Mauer aufgestellt.
 Im Abstiegskampf geht es eng zu.
 Im Anschluss an die Nachrichten hören Sie eine Unwetterwarnung.
 Im Anschluss gibt es einen Sektempfang mit Stehcafè vor der Kirche.
+Im April gab es über Dreimillionen Infektionsfälle.
 Im Aquarium ist die Lampe ausgefallen.
 Im Atlas suchte er vergeblich nach dem Land.
 Im Auge des Sturms ist es windstill.
@@ -13747,6 +13776,7 @@ Im Fackelschein sind an der Felswand Teile von Hieroglyphen oder Runen zu erkenn
 Im Fall eines Mordes ist eine Obduktion zwingend erforderlich.
 Im Falle eines Scheiterns drohen ihm keine Konsequenzen.
 Im Falle von Ermittlungen sind Handylöschungen zu erwarten.
+Im Februar gab es über fünfundachtzig Infektionsfälle.
 Im Fernsehen nehmen die beiden sich immer gegenseitig auf die Schippe.
 Im Fernsehgarten wachsen keine Blumen.
 Im Flugzeug sitzen hunderte von Menschen.
@@ -13817,6 +13847,7 @@ Im Labor gezüchtete Steaks könnten in vielen Aspekten besser sein.
 Im Labor wird das Sekret auf seine genaue Zusammensetzung untersucht.
 Im Labor wird das Sekret genau untersucht.
 Im Land der aufgehenden Sonne ging die Sonne gerade unter.
+Im Landkreis Ammerland befinden sich einige der größten Fleischverarbeitungsbetriebe Deutschlands.
 Im Lastwagen wurden die Kisten bis zur Decke übereinander gestapelt.
 Im Laternenschein sah die Taschenlampe plötzlich sehr groß aus.
 Im Laufe der Badesaison bilden sich im See Unmengen von Algen.
@@ -13824,6 +13855,7 @@ Im Laufe des Spiels werde ich die Regeln so ändern, dass es spannend bleibt.
 Im Leben geht es oft um das richtige Timing.
 Im Linienbus schnallt man sich nicht an.
 Im Luftraum über dem städtischen Gymnasium stauten sich heute Mittag wieder die Helikopter-Eltern.
+Im Mai gab es fast Sechsmillionen Infektionsfälle.
 Im Mietvertrag steht, wir müssen die Wohnung ausmalen.
 Im Moment hat er damit aufgehört!
 Im Moment herrscht hier gerade Flaute.
@@ -13832,6 +13864,7 @@ Im Moment macht Karin keinen entscheidungsfähigen Eindruck.
 Im Moment werden nur alte Klassiker neu hochgeladen.
 Im Morgengrauen schleichen sich manchmal Rehe in die Gärten.
 Im Muckenbruch wurde damals Torf zum Heizen abgebaut.
+Im März gab es über siebenhundertfünfzigtausend Infektionsfälle.
 Im März hatten wir bereits eigene Radieschen in unserem Garten.
 Im Mühlenweg gibt es so gut wie keine Parkmöglichkeiten.
 Im Nachhinein erwies sich der nigerianische Prinz als unglaubwürdig.
@@ -13843,6 +13876,8 @@ Im Naturschutzgebiet ist das Verlassen der Wege verboten.
 Im Netz kursiert eine Falschmeldung.
 Im Norden ist sie nie zu sehen.
 Im Notfall muss man sich halt irgendwas aus den Fingern saugen.
+Im November kamen über Zweiundsechzigmillionen neue Infektionen hinzu.
+Im Oktober gab es über Fünfundvierzigmillionen neue Infektionen.
 Im Orakel von Delphi wurden große Mengen Rauschgift konsumiert.
 Im Osten geht die Sonne auf.
 Im Osten sagt man dazu Herrentag.
@@ -13871,6 +13906,7 @@ Im Schrank des Kommissars stehen Akten von hunderten noch ungelösten Fällen.
 Im Schreiben vom Kreiswehrersatzamt wird Kalle aufgefordert, zur Musterung zu kommen.
 Im Schuppen müssten noch ein paar davon liegen.
 Im Schwimmbad schmecken die Pommes am besten.
+Im September haben sich über Dreiunddreißigmillionen Menschen infiziert.
 Im Sommer gibt es viele tolle Plätze an der Donau.
 Im Sommer haben Eisdielen hochkonjunktur.
 Im Sommer ist es meistens sehr heiß.
@@ -13963,6 +13999,7 @@ Immer mittags fallen die Telefone aus.
 Immer müssen wir uns einen Mietwagen nehmen.
 Immer neue Bedrohungen aus dem All halten die Welt in Atem.
 Immer noch besser, als dem Staat auf der Tasche zu liegen.
+Immer schön den Browserverlauf löschen.
 Immer sind die Russen schuld.
 Immer verlegt sie ihren Schlüssel.
 Immer verwechselt er Pelikan und Kakadu.
@@ -15764,6 +15801,7 @@ Kindergärtnerin ist eine antiquerte Berufsbezeichnung.
 Kindergärtnerin ist eine antiquierte Berufsbezeichnung.
 Kindliche Neugier sollte man fördern.
 Kippeln trainiert den Gleichgewichtssinn.
+Kippen achtlos in die Natur zu werfen, ist ungeheuerlich.
 Kirche und Staat gehören sauber voneinander getrennt.
 Kirchenglocken sind laut, aber irgendwie auch romantisch.
 Kirchenrecht darf nicht über nationalem Recht stehen.
@@ -17089,6 +17127,7 @@ Marek will noch mal.
 Margarethe hat die Antenne abgeknickt.
 Margot hätte so gerne ihren Urlaub in Prag verbracht.
 Maria Färber und Berta Janowitz fanden den Film mega unlustig.
+Maria lebte in Angst davor, dass ihr Geheimnis rauskommt.
 Maria soll ohne Befruchtung schwanger geworden sein?
 Marian hat sich vorgenommen, Xaver und Merit bei der Gelegenheit zu verkuppeln.
 Marian schwebt im siebten Himmel.
@@ -17288,6 +17327,7 @@ Mein Trenchcoat ist jetzt ganz nass.
 Mein Vater erklärt mir jeden Sonntag unsere neun Planeten.
 Mein Vater hat eine Modelleisenbahn geerbt.
 Mein Vater hat mir den Rasentrimmer überlassen.
+Mein Vater ist Hans Anderson.
 Mein Vorgarten ist kein Hundeklo!
 Mein Wecker kugelt automatisch im Zimmer umher, wenn er klingelt.
 Mein Wunsch und Begehren kann niemand verwehren.
@@ -18228,6 +18268,7 @@ Nach dem Motto „aus der Praxis für die Praxis“.
 Nach dem Piepton können Sie eine Nachricht hinterlassen.
 Nach dem Rathaus ist man schlauer.
 Nach dem Röntgen meiner Hand wird mir eine Körperlänge von einem Meter fünfundsechzig prognostiziert.
+Nach dem Sex ging er unter die Dusche, während dessen hat sie sich selbstbefriedigt.
 Nach dem Sonnenbrand häutet sie sich wie eine Schlange.
 Nach dem Vulkanausbruch regnete es Asche.
 Nach dem Zirkeltraining war Klaas völlig erschöpft.
@@ -18333,6 +18374,7 @@ Nachbrenner hinzuschalten!
 Nachdem Birte das gesehen hatte, war sie kolossal enttäuscht.
 Nachdem das Schiff auf einer Sandbank aufgesetzt hat, wartet die Besatzung auf die Flut.
 Nachdem du deine Einheiten weiterentwickelt hast, werden sie viel effizienter für dich arbeiten.
+Nachdem er kam, bat sie ihn, sie zu lecken.
 Nachdem er sich eingestand, bisexuell zu sein, wurde er ein wenig entspannter.
 Nachdem ich gestern ordentlich zugelangt habe, verstehe ich meinen heutigen Hunger nicht.
 Nachdem monatelang nichts unternommen wurde, wird jetzt das Kind mit dem Bade ausgeschüttet.
@@ -19518,6 +19560,7 @@ Okay, und nun?
 Olaf sortierte den angebrannten Schinken und das versalzene Ei aus dem essen.
 Oldenburg gibt es sowohl in Holstein, als auch in Niedersachsen.
 Ole macht gerade seinen Tauchschein.
+Oleg geht in die Krippe.
 Olga steht lieber.
 Oliver wollte das offene Fenster schließen, wurde aber vom Schaffner daran gehindert.
 Olympia wurde schon immer für Propagandazwecke missbraucht.
@@ -20375,6 +20418,7 @@ Sehen Sie selbst!
 Sehen Sie sich die Anspielmöglichkeiten an.
 Sehen Sie sich vor, sie dürften mit unangenehmen Dingen konfrontiert werden.
 Sehen sie Dampf aus dem Kühlturm aufsteigen, können sie umweltfreundlich heizen.
+Sehen sie hier irgendwo Schwarzarbeiter?
 Sehen wir euch beim Tänzelfest in Kaufbeuren?
 Sehen wir uns in der Bib?
 Sehen, Hören, Riechen, Schmecken und Tasten fallen wohl jedem ein.
@@ -20549,6 +20593,7 @@ Seinen Gegenredner hat der Rhetorik-Guru nach allen Regeln der Kunst vorgeführt
 Seinen Kindern sollte man frühzeitig das Schwimmen beibringen.
 Seinen Namen haben sie mit Blut an die Felswand geschrieben.
 Seinen Prinzipien ist er treu geblieben, das muss man anerkennen.
+Seinen Wunsch nach Analverkehr hat sie angewidert abgelehnt.
 Seinen ersten Auslandseinsatz hat er in Lateinamerika.
 Seiner Meinung nach sind soziale Medien Brandbeschleuniger für Fake-News.
 Seinerzeit verehrte man Leute wie ihn als Märtyrer.
@@ -21038,6 +21083,7 @@ Sie sündigt genau so wie vorher.
 Sie sündigt genauso wie vorher.
 Sie traf eine Kollegin, die sie aus gemeinsamen Ferien kannte.
 Sie traut sich nicht, wenngleich sie keine Repressalien zu befürchten hätte.
+Sie traute sich nicht von ihren Schwierigkeiten zu erzählen.
 Sie treffen sich im Hofbräuhaus Traunstein, wo sie einen Stammtisch haben.
 Sie trug ein weißes Top.
 Sie trug keine Verletzung davon.
@@ -21094,6 +21140,7 @@ Sie wollte aufstehen, aber ihre Müdigkeit lähmte sie förmlich.
 Sie wollte eine Runde ratzen und hat sich zurückgezogen.
 Sie wollte es gerade weiter ausführen.
 Sie wollte ihr Profil auf Facebook wegen des Vorfalls löschen.
+Sie wollte ihre Jungfräulichkeit bis zur Hochzeitsnacht bewahren.
 Sie wollte nur ein wenig herumblödeln.
 Sie wollte schon immer Astronautin werden.
 Sie wollte schon immer mal an einem professionellen Fotoshooting teilnehmen.
@@ -21166,6 +21213,7 @@ Sind Menschen gute Subsummatoren?
 Sind Männer wirklich primitiver als Frauen, oder wäre so eine Behauptung schon Feminismus?
 Sind Möpse eigentlich Hunde?
 Sind Sie bitte so nett?
+Sind Sie die Fachfrau hier?
 Sind Sie es leid, dass Ihre Daten weitervertickt werden?
 Sind Sie gegen Hepatitis geimpft?
 Sind Sie gegen Tollwut geimpft?
@@ -23042,6 +23090,7 @@ Verschlüsselt zu kommunizieren sollte niemanden verdächtig machen.
 Verschlüsselung ist im Grunde kein Hexenwerk.
 Verschränkte Elektronen sind ein Phänomen der Quantenphysik.
 Verschwenden Sie nicht länger meine Lebenszeit!
+Verschwinden Sie von meinem Grund und Boden!
 Verschwörungstheoretiker sind oft auch Experten für Reptilien.
 Verschwörungstheorien sind auch ganz nett, weil sie eine neue Ordnung propagieren.
 Versehentlich wirft Frau Engelhart die Regentonne um.
@@ -23589,6 +23638,7 @@ Vorbeigehende Spaziergänger hielten das große Teleskop für ein Kanonenrohr.
 Vorbildlich geführt wird der Laden immer noch nicht.
 Vordenken ist besser als Nachdenken.
 Vordenker wie er sind ein Idol für mich.
+Vorehelicher Geschlechtsverkehr kam für Sie nicht in Frage.
 Voreinstellung ist die schnellste Variante.
 Vorerst würde ich auf Kresse und Thymian verzichten.
 Vorgestern kam ein neuer Verurteilter, dessen Straftat als ausländerfeindlich motiviert gilt.
@@ -23676,6 +23726,7 @@ Wann genau ereignete sich die Eruption?
 Wann gibt die Behörde endlich grünes Licht für die Tierversuche?
 Wann hab ich etwas anderes behauptet?
 Wann habe ich etwas anderes behauptet?
+Wann haben Sie das letzte Mal onaniert?
 Wann haben Sie sich immatrikuliert?
 Wann haben Sie zuletzt Ihr Handy desinfiziert?
 Wann haben wir noch mal geheiratet?
@@ -23794,6 +23845,7 @@ Warum brauchen Überweisungen immer so lange, bis sie ankommen?
 Warum das Frühwarnsystem ausgefallen ist, ist unergründlich.
 Warum das alles?
 Warum denkst du, dass es das nicht hätte?
+Warum dieses Gejammer?
 Warum drehen sich alle meine Texte um Döner?
 Warum eigentlich erst jetzt?
 Warum etwas komplett Neues erfinden?
@@ -24090,6 +24142,7 @@ Was hältst du von einer Übergangsgesellschaft?
 Was hätte die Raumfahrt nur ohne Brennstoffzellen gemacht?
 Was hätte er denn noch alles einpacken sollen?
 Was ich an München besonders mag, ist die Nähe zu den vielen Seen.
+Was ich beruflich mache, geht Sie gar nichts an!
 Was ihm fehlt, ist ein gesundes Selbstbewusstsein.
 Was im Bollerwagen passiert, das bleibt im Bollerwagen.
 Was im Frühjahr ein reißender Bach ist, ist nun lediglich ein kleines Rinnsal.
@@ -24137,9 +24190,11 @@ Was ist eigentlich überhaupt der Unterschied zwischen Kopfhörern und Ohrhörer
 Was ist eigentliche dieses Internet, von dem immer alle reden?
 Was ist ein Gutmensch? Wer definiert Gut und Böse?
 Was ist ein Keks unter einem Baum?
+Was ist ein Lockdown?
 Was ist ein Zugzielanzeiger?
 Was ist eine Kettenfrage?
 Was ist gefährlicher: Künstliche Intelligenz oder menschliche Dummheit?
+Was ist ihr Problem?
 Was ist infektiöser: Ein Niesen oder ein Husten?
 Was ist mit dem Co-Piloten?
 Was ist mit dem versprochenen Bonus?
@@ -24253,6 +24308,7 @@ Was sagst du da?
 Was sagst du zur aktuellen politischen Lage in Österreich?
 Was sagt dein Ergotherapeut dazu?
 Was sagt denn der Wetterbericht?
+Was sagt der Chefarzt dazu?
 Was sagt der Tacho?
 Was sagt eigentlich Johanna dazu?
 Was sagt er?
@@ -24382,6 +24438,7 @@ Was wird noch alles aus Zellstoff gefertigt?
 Was wird wie geschrieben?
 Was wirklich war, ist wirklich wahr.
 Was wohl Zukunfts-Ich dazu sagen würde?
+Was wollen Sie genau von mir?
 Was wollen die eigentlich?
 Was wollt ihr denn noch alles?
 Was wollt ihr von mir?
@@ -24567,6 +24624,7 @@ Welche Comics hab ihr euch denn angesehen?
 Welche Deskriptoren fallen Ihnen ein?
 Welche Eigenschaften haben Einfluss auf die Widerstandskraft?
 Welche Elina meinst du?
+Welche Energieeffizienzklasse hat ihr Kühlschrank?
 Welche Erfahrungen prägen den Musikgeschmack eines Menschen?
 Welche Fahrzeuge sind derzeit im Einsatz?
 Welche Farbe der olympischen Ringe steht für welchen Kontinent?
@@ -24598,10 +24656,12 @@ Welche Schuhgröße?
 Welche Seite nach innen und welche nach außen kommt, ist schnurzpiepegal.
 Welche Sorte soll es sein?
 Welche Speditionen wären davon betroffen?
+Welche Sprache spreche ich eigentlich mit dir?
 Welche Sprachen verstehst du?
 Welche Sprachen willst du noch lernen?
 Welche Staatsanwaltschaft ist zuständig?
 Welche Straftaten verjähren nie?
+Welche Stromstärke ist hier maximal zulässig?
 Welche Suchmaschiene benutzt du? DuckDuckGo?
 Welche Sätze werden gestrichen?
 Welche Termine stehen heute an?
@@ -25430,6 +25490,8 @@ Wessen Lebensinhalt aus dem Verfolgen von Aktienkursen besteht, der ist zu bedau
 Wessen Magen hat hier gerade so laut geknurrt?
 Wessen Papierflieger fliegt am weitesten?
 Westdeutsche kennen meistens nur Thomas Reiter und Alexander Gerst.
+Westerstede hat keine Anbindung an das Bahnnetz. Der nächste Bahnhof befindet sich in Ocholt.
+Westerstede liegt entlang der Autobahn zwischen den Städten Leer und Oldenburg.
 Westfalen sind bekannt für ihre Stur- und Dickköpfigkeit.
 Wetten, dass ich es schaffe, den Stecker mit nur einem Versuch einzustecken?
 Wetten, dass mir ein zweiter einfällt?
@@ -25804,6 +25866,7 @@ Wie soll ich nur beweisen, dass ich aus der Zukunft komme?
 Wie soll ich sagen?
 Wie soll man das ernst nehmen?
 Wie soll man sich für jedes Substantiv den Artikel merken?
+Wie soll morgen das Wetter in Berlin werden?
 Wie soll sich der Kleine sonst zur Wehr setzen?
 Wie sollen wir sonst die Mitarbeiter bei der Stange halten?
 Wie sollte er mich unterstützen?
@@ -25879,6 +25942,7 @@ Wie viele Kirschkerne kannst du im Mund sammeln?
 Wie viele Ladegeräte besitzen Sie?
 Wie viele Leben die Rauchmelder schon gerettet haben, lässt sich schwer beziffern.
 Wie viele Leute kennen das Geheimnis des Glaubens?
+Wie viele Leute sind heute verstorben?
 Wie viele Leute übernehmen die Meinung anderer und glauben dann, es sei ihre eigene?
 Wie viele Massaker braucht es, um ein restriktiveres Waffengesetz durchzusetzen?
 Wie viele Menschen sind prekär beschäftigt?
@@ -26626,6 +26690,7 @@ Wo kann man hier ein neues Schlüsselpaar generieren?
 Wo kann man hier in der Nähe Lasertag spielen?
 Wo kann man hier in der Nähe unverpackt einkaufen?
 Wo kann man sich ausloggen?
+Wo kaufe ich solche Fetzen?
 Wo kein Kläger, da kein Richter.
 Wo kommt das nur her?
 Wo kriegen wir so schnell einen Ersatzbus her?
@@ -27371,6 +27436,7 @@ x und y heben sich gegenseitig weg.
 Ätsch!
 Äußerst nützlich, so ein Klappspaten!
 Öffne den Webbrowser und rufe www.archlinux.org auf.
+Öffnen Sie bitte die Computerverwaltung.
 Öffnet das Tor!
 Öl ist ausgelaufen.
 Öl oder Butter zum Anbraten verwenden.

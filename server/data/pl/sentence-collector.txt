@@ -214,6 +214,7 @@
 "Ale w owych czasach byliśmy podróżnikami całą gębą!"
 "Ale w pańskiem opowiadaniu fakty pomieszane są z fantazją."
 "Ale w sercu zrobiłem zastrzeżenie."
+"Ale w tej chwili spuścił oczy."
 "Ale w tem właśnie tkwi tajemnica."
 "Ale w tym wypadku mam wrażenie, że zwrócimy się o pomoc do Londynu."
 "Ale widzisz, panie Stanisławie, gdybym tak potrzebował jakiejś części mego kapitału..."
@@ -7477,6 +7478,7 @@
 "Złożyła dłoń swoją w jego dłoń bez słowa."
 "Zły wiatr powiał nad naszą ziemią, wiatr, który nie wróży nic dobrego."
 "albo coś podobnego."
+"albo: chcesz mnie, czy nie chcesz?"
 "ale, żebyś dołączał do kapitału."
 "aleś ty więcej mężczyzną niż kobietą i za to ciebie lubię!"
 "bez wątpienia jest zakochany."
@@ -7684,6 +7686,7 @@
 "wołało coś we mnie; znajdą je, jeśli ja umrę tutaj."
 "wrzeszczał, chwytając się za głowę."
 "wstydź się tak żartować."
+"wszystko mi jedno w rezultacie, gdzie osiedli się ten młody człowiek."
 "wszystko więc stracone, zniszczone!"
 "wyborny to był koncept, Elżbieto!"
 "wykrzyknąłem po dwukrotnym przeczytaniu tego niezwykłego anonsu."
@@ -7861,6 +7864,7 @@
 "„Głupiec jestem, głupiec!"
 "„I srebrne zwierciadło, gdyby miało czucie, odczuwało by wielki ból w chwili polerowania."
 "„Inni pod wodzą swych naczelników przypuścili szturm do furgonów."
+"„Inny świat... inny świat!.."
 "„Jak dawno posiadł pan ten dar „podróżowania“?"
 "„Jak gdyby mogło być coś wspanialszego na ziemi, niż stracić grunt pod nogami!"
 "„Jak ja to mam rozumieć?"
@@ -10070,6 +10074,7 @@ I nic sobie wtedy z niego nie robiłam, ale byłam zadowolona.
 I nie koniec na tym.
 I nie sprawiało mu to przyjemności.
 I niedługo poczekamy na to.
+I od dzieciństwa mieszkał w Wilnie, wielkim mieście
 I od razu przypomniała sobie radę staruszka.
 I od tego czasu ludzie przestali się odradzać i zaczęli umierać.
 I on niewiele więcej wie o tobie, aniżeli ja.
@@ -10145,6 +10150,7 @@ I tym podobne.
 I uciekł twarzą, jakby przestraszony, i w ruchu tym była kokieteria.
 I ucztowały tak długo, że Stasia porwała w końcu złość.
 I uszczypnął go w udo.
+I w dawnej surowości prawidłach wychował.
 I w domu sierot różne były dzieci.
 I w drodze do leśniczówki cichutko się przemknąłeś?
 I w niedzielę, jak lunatyczka, poszła.
@@ -11350,6 +11356,7 @@ Miał szeroko otwarte oczy i usta.
 Miał uczucie niesmaku, niemal wstrętu.
 Miał w ręku bat i wywijał nim na wszystkie strony.
 Miał wszelako trochę nadziei, że zmyślny pies znajdzie bezpieczny przytułek wśród skał.
+Miał za dozorcę księdza, który go pilnował
 Miał zamknięte oczy, widziała długie, drgające rzęsy.
 Miała dużo koleżanek, nie miała przyjaciółek.
 Miała katar pęcherza, zmarzła na ławce w parku i chciało jej się bardzo siusiu.
@@ -14878,6 +14885,7 @@ Twierdzenie, że w Polsce rządzi burżuazja, nie jest prawdą.
 Twierdzi, że wraca za trzy miesiące.
 Twierdzą, że ze mną też.
 Twoje myśli niepotrzebnie się będą koło tego plątać.
+Twój brat ma nierówno pod sufitem.
 Twój i mój tatuś, którzy znali doskonale Smaina, nie mieli wcale do niego zaufania.
 Twój ojciec jednak pozostał nieubłagany.
 Twój ojciec zaprosił mnie na kolację.
@@ -15422,6 +15430,7 @@ Wiem, że ona teraz pójdzie do domu, jeśli ja czegoś nie zrobię.
 Wiem, że ścigałeś nieprzyjaciół jak Czarniecki.
 Wiem, żeś mądry nad swe lata: tedy posłuchaj moich słów.
 Wierny, mądry pies.
+Wiesz co tu się działo jak cię nie było?
 Wiesz co, chyba zostawiłam słuchawki w domu.
 Wiesz co?
 Wiesz o tym i wiesz też, że ona cię kocha.
