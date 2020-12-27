@@ -145,6 +145,7 @@ uz = Өзбек тілі
 vec = Венециан тілі
 vi = Вьетнам тілі
 vot = Вот тілі
+yue = Кантон
 zh-CN = Қытай тілі (Қытай)
 zh-HK = Қытай тілі (Гонконг)
 zh-TW = Қытай тілі (Тайвань)
@@ -499,10 +500,12 @@ data-other-goto = { $name } жобасына өту
 data-other-download = Деректерді жүктеу
 data-bundle-button = Деректер жиынының жиынтығын жүктеп алу
 data-bundle-description = Common Voice деректер және жоғарыдағы барлық дауыс деректер жиынтығы.
+release-version = Нұсқасы
+dataset-date = Күні
 license = Лицензиясы: <licenseLink>{ $license }</licenseLink>
 license-mixed = Аралас
 data-download-singleword-title = Бір сөзден тұратын мақсатты сегментті жүктеңіз
-data-download-singleword-callout = Бұл қолдану нұсқасы негізінде құрастырылған сегмент цифрларды тануға, иә/жоқ-ты табуға және Wakeword-ты <fxLink> Firefox дауысы </fxLink> үшін тестілеуге қажетті деректерді қамтиды.
+data-download-singleword-callout-v2 = Бұл сөйлеу цифрларын тану және иә / жоқ анықтауды күшейтуге арналған деректерді қамтитын қолдануға арналған сегмент.
 review-terms = Common Voice қолдану арқылы сіз <termsLink>Шарттар</termsLink> мен <privacyLink>Құпиялылық</privacyLink> туралы ескертумен келісесіз.
 terms-agree = Мен келісемін
 terms-disagree = Мен келісім бермеймін
@@ -672,6 +675,7 @@ share-title-new = Көбірек дауыс табуға <bold>бізге көм
 keep-track-profile = Үлгеріміңізді профиль арқылы қадағалаңыз
 login-to-get-started = Бастау үшін кіріңіз немесе тіркеліңіз
 target-segment-first-card = Сіз біздің бірінші мақсатты сегментімізге өз үлесіңізді қосып жатырсыз
+target-segment-generic-card = Сіз мақсатты сегментімізге өз үлесіңізді қосып жатырсыз
 target-segment-first-banner = Common Voice -тың { $localale } үшін бірінші мақсатты сегментті құруға көмектесіңіз
 target-segment-add-voice = Өз даусыңызды қосыңыз
 target-segment-learn-more = Көбірек білу
@@ -825,3 +829,18 @@ help-contribute = Сіз Common Voice профилін құру және өз д
 login-company = { $company } электрондық поштасымен кіріңіз / тіркеліңіз
 profile-not-required = Профайл болуы қажетті емес, бірақ пайдалы болуы мүмкін
 read-more-about = Толығырақ туралы Біздің парағымыздан оқыңыз
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
