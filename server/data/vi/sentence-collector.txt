@@ -466,6 +466,7 @@ Chính là nó
 Chính lúc này trong bộ váy ngủ màu trắng
 Chính mỉm cười rồi đáp lại
 Chính quên đóng lại
+Chính sách bảo mật
 Chính thở dài sau một màn chào hỏi chinh liền nói
 Chó gầy hổ mặt người nuôi: người trên để người dưới đói khổ
 Chó ngáp phải ruồi: thành công nhờ may mắn, chớ không vì tài giỏi
@@ -633,6 +634,7 @@ Con bé vẫn ăn uống học hành Bình thường
 Con bình tĩnh nghe người ta nói hết đi đã
 Con chịu khó cầm cái viên đá này cho mẹ yên tâm
 Con của tao Ngoan hiền lắm dễ thương biết nghe lời
+Con cứ thế lam chi cho hoang phí
 Con cứ yên tâm đi làm đi
 Con gái của chị tới số hết tuổi dương
 Con hát mẹ khen hay: vì chủ quan, thiên vị sinh ra bất công
@@ -655,6 +657,7 @@ Con sẽ thốt lên
 Con sợ lắm
 Con thanh nhà các bác lại thân với nó
 Con trai bất hiếu không phụng dưỡng được mẹ
+Con vẫn về cùng với gói quà to
 Con đi con ở
 Con đây
 Con đã thêm cao
@@ -694,6 +697,7 @@ Cách sửa lỗi camera trên Snapchat không hoạt động
 Cách thiết lập để có cuộc gọi chất lượng cao trong Google Hangouts
 Cách thì some trai đã bày chỉ cho Trinh
 Cách tạo nhóm và quản lý nhóm trong Microsoft Teams
+Cách tạo phòng học trên Zoom
 Cách đây tâm hai năm còm đi làm tật mặt ra ây chứ
 Cách đó vài tháng
 Cái Thảo nó bảo là nó giữ gìn Con muốn bảo vệ con
@@ -1129,6 +1133,7 @@ Em đã nhìn thấy Thảo đứng ở ngã ba
 Em đúng là một người bạn tốt của Nhi và anh
 Em đờ đẫn nhìn lại Thảo
 Em đứng lặng mắt nhìn ai không nói
+Facebook
 Ghen
 Ghé qua quán nước của Hà Ni và nói với cô
 Gia đình
@@ -1164,6 +1169,7 @@ Giọng của cô bé Thu Ngân đang trả lại Trinh tiền thừa
 Giọng nói của trẻ con lại vang lên trong đầu của Trinh
 Giống cái chỗ này thôi chứ không phải là đây
 Giống nhau lắm nhưng người đi sẽ biết
+Giới thiệu
 Giờ bạn bè thi có mỗi mình mày là khá nhất
 Giờ còn ma quỷ ám cái gì nữa
 Giờ mày đã tin tao chưa
@@ -1367,6 +1373,7 @@ Hơn nữa nó không xứng đáng để anh được yêu thương
 Hơn nữa thì bé kuman của tao biết phải làm gì
 Hơn nữa trong mấy ngày qua
 Hương thơm mát rượi
+Hướng dẫn cài đặt phần mềm
 Hạ Chết một cách thảm khốc
 Hạ Xem thì đúng là xe của Phương bị xì hơi
 Hạ cất tiếng làm cho Trinh giất mình
@@ -1519,6 +1526,7 @@ Không phải chuyện gì cũng có thể nhìn thấy
 Không phải cái gì tôi cũng biết
 Không phải là cái chuyện khác
 Không phải là do mày
+Không sao ạ chỉ mong người mạnh khoẻ
 Không thích chạy ra một giọt nước nào vào cốc cả
 Không thể chịu đựng nổi nữa
 Không thể có sự trùng hợp đến mức như vậy đâu
@@ -1579,6 +1587,7 @@ Kỳ lạ thay những gì càng bí hiểm càng mông lung
 Lau xong bỏ đi luôn cũng được
 Leo tận núi đồi
 Linh hồn ta còn u ẩn hơn đêm
+Liên hệ
 Liên kết ngoài
 Liệu rằng có một cuộc sống an Yên với các thiên thần nhỏ
 Liệu rằng em có thể có được anh không
@@ -1875,6 +1884,7 @@ Mẹ của Thảo dưng dưng nước mắt rồi nói
 Mẹ của Thảo gì nói
 Mẹ của Thảo nói
 Mẹ của phương khóc lóc gật đầu
+Mẹ cứ nghĩ chiều con sẽ về nhà
 Mẹ cứ sợ là con không còn tỉnh lại nữa
 Mẹ cực cở nào
 Mẹ dù kiệt sức
@@ -2343,10 +2353,14 @@ Nhờ vậy phong mới tỉnh táo
 Những Tưởng có khi do lúc đầu em bị ám ảnh về thảo
 Những Tưởng là nó đã đi rồi
 Những anh em dân tộc khác thì rất hiếu khách và cởi mở
+Những bài thơ chúc mừng sinh nhật bá đạo
 Những bài thơ chủ đề nghề nghiệp cho bé mầm non
 Những bài thơ cổ vũ đội tuyển Việt Nam hay nhất
+Những bài thơ hay nhất mọi thời đại
 Những bài thơ hay và lãng mạn nhất về tình yêu
 Những bài thơ hay về các loài cây cho bé mầm non
+Những bài thơ lục bát hay nhất
+Những bài thơ mừng năm mới hay nhất
 Những bài thơ thất tình hay nhất
 Những bài thơ tứ tuyệt hay nhất
 Những bài thơ về động vật cho bé mầm non
@@ -2364,6 +2378,7 @@ Những cánh mai gầy
 Những cánh tay! Hãy quấn riết đôi vai!
 Những câu chuyện hay những bức ảnh được chúng tôi khoe lại
 Những câu chuyện xung quanh về Kamen thông lên mạng tìm không thiếu
+Những câu thơ hay về cuộc sống
 Những cơn gió nhẹ khác thoáng qua từng đợt vào bên trong
 Những giấc mơ phù phiếm
 Những giọt mưa nặng hạt rơi tý tách
@@ -2414,9 +2429,12 @@ Nãy giờ hầu như không màng tới cuộc đôi co giữa hai người
 Nét Trinh sợ Phương dạy sẽ kể lại
 Nét ngoằn ngoèo một thứ tiếng xa xăm.
 Nên Nghiêm giọng hỏi
+Nên báo cho những người hàng xóm biết
+Nên bây giờ cô có thể nhìn rõ được mặt của anh chàng hơn
 Nên bị ngã ngửa lên giường
 Nên bị nó lấy mạng
 Nên bố em mới đặt lên xe
+Nên chiều muộn đã thịt gà chờ đợi
 Nên chúng mình yêu nhau
 Nên cô gật đầu
 Nên cô không dám nhìn
@@ -2449,6 +2467,7 @@ Nó kìa, nó kìa
 Nó là cây rớp đó
 Nó là muốn bắt con Thành đi
 Nó lại có hiệu quả tức thời
+Nó lại cười với nét mặt vui tươi
 Nó lại khỏe mạnh trở lại
 Nó lại lủi thủi đi về nhà
 Nó nghĩ mình đang nằm mơ rồi chìm lại vào trong giấc ngủ
@@ -3049,6 +3068,7 @@ Thực ra quỷ rất đáng sợ
 Thực sự thì chúng tôi có đi xem thầy rồi
 Tim nghẹt thở linh hồn như hóa đá
 Tim đập nhanh hơi thở mạnh Dần
+Tin Mới
 Tin ba cái chuyện đẩu đâu
 Tin tưởng người ta nói linh tinh
 Tinh thần rất dễ bị xúc động
@@ -3261,6 +3281,7 @@ Trời ơi người ấy có buồn không
 Trở lại Trung Quốc
 Trở lại nắn bóp rồi cảm ơn lấy lòng ông cụ
 Trở về Việt Nam
+Trợ giúp
 Tuy già nhưng mà chẳng phải lo nghĩ gì về tiền bạc
 Tuy nhi đã mất nhưng mà gặp cảnh này
 Tuy nhiên chính vẫn chờ đợi một điều gì đó
@@ -3271,6 +3292,7 @@ Tuy nhiên quân lại nói
 Tuy nhiên đó là những điều ai cũng biết
 Tuy nhiên đầu của trinh vẫn còn đang nhói
 Tuy đã thờ kumanthong trong khoảng một năm rưỡi trở lại đây
+Tuyển tập những bài thơ chế hay nhất
 Tuyển tập những bài thơ hay
 Tuyển tập những bài thơ hay, ý nghĩa nhất
 Tuyển tập thơ chủ đề thực vật cho bé mầm non
@@ -3317,6 +3339,7 @@ Tình hình cho đến ngày hôm nay
 Tình hình sức khỏe của Phương thế nào rôì bác
 Tình mẹ bao la
 Tình mẹ biển nước
+Tình mẹ con mẹ chỉ cần bình dị
 Tình sâu, nghĩa nặng.
 Tình ta như dòng sông
 Tình ta như hàng cây
@@ -3467,6 +3490,7 @@ Từ tra trên mạng đọc xuất thân của kuman là từ đâu
 Từ trên bước xuống một người lớn tuổi
 Từ tuổi còn thơ
 Từ Độc lập tới Toàn quốc kháng chiến
+Từ đó cho đến chiều anh chàng nằm yên như hôn mê
 Từ đấy thu rồi thu lại thu
 Từng bỏ nhà đi suốt mấy năm trời
 Từng chút từng chút một
@@ -3950,6 +3974,7 @@ cũng mang cành phan đi rước vong giờ cơ mà
 cũng như em dấu những điều quá thực...
 cũng như kể từ ngày nuôi
 cũng thực như là có sự sắp đặt từ trước
+cũng tiện đường tao về luôn
 cũng vừa mới ngồi thôi, nước còn chưa uống hết một nửa đây này
 cả hai chúng em ngã ập xuống đường
 cả nhà em hôm ấy vui lắm
@@ -4677,6 +4702,7 @@ xạ thủ
 Đi đi con
 Đi đâu thì đi
 Điều hôm nay ta nói, ngày mai
+Điều khoản sử dụng
 Điều kỳ lạ chính là sáng ngày hôm sau khi trinh tỉnh dậy
 Điều mà trinh quan tâm nhất lúc này
 Điều này càng làm cho Trinh cảm thấy khao khát hơn

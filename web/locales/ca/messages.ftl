@@ -33,14 +33,18 @@ as = assamès
 ast = asturià
 az = àzeri
 ba = baixkir
+bas = basaa
 be = bielorús
 bg = búlgar
+bm = bambara
 bn = bengalí
 br = bretó
 bxr = buriat
 ca = català
 cak = kaqtxikel
+ckb = kurd central
 cnh = hakha chin
+co = cors
 cs = txec
 cv = txuvaix
 cy = gal·lès
@@ -62,6 +66,7 @@ fr = francès
 fy-NL = frisó
 ga-IE = irlandès
 gl = gallec
+gn = guaraní
 ha = haussa
 he = hebreu
 hi = hindi
@@ -81,9 +86,9 @@ kaa = karakalpak
 kab = cabilenc
 kbd = kabardí
 kk = kazakh
+kmr = kurd del nord
 ko = coreà
 kpv = komi
-ku = kurd
 kw = còrnic
 ky = kirguís
 lg = ganda
@@ -235,7 +240,7 @@ whats-public = Què és públic?
 email-not-public = No farem pública la vostra adreça electrònica.
 recordings-and-locale-public = El nombre d'enregistraments i les llengües en què heu col·laborat seran públics.
 username-optin-public = Podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
-demographic-deidentified-clarity = Les dades demogràfiques enviades opcionalment (per exemple, edat, sexe, llengua i variant) no es faran mai públiques en el vostre perfil i no s’enllaçaran amb el vostre compte en el conjunt de dades. De forma individual, els talls de veu s’associaran a les dades demogràfiques amb la finalitat d’anàlisis més precises.  Per exemple, un investigador pot voler orientar un model d’entrenament a un segment demogràfic específic.
+demographic-deidentified-clarity-2 = Les dades demogràfiques enviades opcionalment (per exemple, edat, gènere, llengua i variant) no es faran mai públiques en el vostre perfil i no s’enllaçaran amb el vostre compte en el conjunt de dades. De forma individual, els talls de veu s’associaran a les dades demogràfiques amb la finalitat d’anàlisis més precises.  Per exemple, un investigador pot voler orientar un model d’entrenament a un segment demogràfic específic.
 username-email-not-demographic = El vostre nom d'usuari i adreça electrònica no estaran associats amb les dades publicades.
 
 ## Speak & Listen Shortcuts
@@ -293,8 +298,8 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Edat
-profile-form-gender =
-    .label = Sexe
+profile-form-gender-2 =
+    .label = Gènere
 leaderboard-visibility =
     .label = Visibilitat a la classificació
 hidden = Amagat
@@ -320,7 +325,7 @@ profile-close = Tanca
 profile-explanation = Un perfil permet fer el seguiment del vostre progrés i ajuda a fer que les dades de veu siguin més precises.
 thanks-for-account = Gràcies per confirmar el compte. Ara crearem el vostre perfil.
 why-demographic = Per què és important?
-why-demographic-explanation = Les dades d'usuari anònimes com l'edat, el sexe i l'accent ajuden a millorar les dades d'àudio utilitzades per entrenar la precisió dels motors de reconeixement de veu. Les dades que envieu no estaran mai associades amb cap nom d'usuari ni adreça electrònica, i podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
+why-demographic-explanation-2 = Les dades d'usuari anònimes com l'edat, el gènere i l'accent ajuden a millorar les dades d'àudio utilitzades per entrenar la precisió dels motors de reconeixement de veu. Les dades que envieu no estaran mai associades amb cap nom d'usuari ni adreça electrònica, i podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
 accept-privacy = Accepto que gestioneu aquesta informació en els termes descrits en la <privacyLink>política de privadesa</privacyLink> de Mozilla
 accept-privacy-title = Política de privadesa
 login-identity = Identitat d'inici de sessió
@@ -502,6 +507,8 @@ data-other-goto = Vés a { $name }
 data-other-download = Baixa les dades
 data-bundle-button = Baixa el paquet del conjunt de dades
 data-bundle-description = Dades del Common Voice més tots els conjunts de dades de veu anteriors.
+release-version = Versió
+dataset-date = Data
 license = Llicència: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
 data-download-singleword-title = Baixeu el segment específic amb paraules individuals
@@ -676,8 +683,9 @@ record-button-label = Enregistreu la vostra veu
 share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
 keep-track-profile = Feu seguiment del vostre progrés amb un perfil
 login-to-get-started = Inicieu sessió o creeu un compte per començar
-target-segment-first-card = Col·laboreu en assolir la primera part de l'objectiu
-target-segment-first-banner = Ajudeu a assolir la primera part de l'objectiu del Common Voice en { $locale }
+target-segment-first-card = Esteu col·laborant en el nostre primer segment objectiu
+target-segment-generic-card = Esteu col·laborant en un segment objectiu
+target-segment-first-banner = Ajudeu a assolir el primer segment objectiu del Common Voice en { $locale }
 target-segment-add-voice = Afegiu la vostra veu
 target-segment-learn-more = Més informació
 
@@ -838,3 +846,39 @@ help-contribute = Ajudeu a construir un conjunt de dades lliure i divers creant 
 login-company = Inici de sessió / Registre amb l'adreça electrònica de { $company }
 profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
 read-more-about = Vegeu més informació a la pàgina «Qui som»
+
+## DemoLayout
+
+demo-get-started = Comencem
+demo-welcome = Us donem la benvinguda al Common Voice
+demo-welcome-subheader = Teniu interès a aprendre més i col·laborar en el projecte?
+
+## Demo Datasets
+
+demo-language-select-card-header = El Common Voice és el conjunt de dades de veu multilingüe més gran disponible públicament.
+demo-language-select-card-body = Gràcies a la col·laboració de més de 259.000 persones en més de 50 llengües, aquestes dades s'usen per a entrenar aplicacions de veu per a respondre millor a la veu humana.
+card-button-next = Següent
+card-button-back = Enrere
+demo-language-select-label = Explora les llengües
+demo-eofy-header = Versió de final de 2019
+demo-eofy-sub_header = Conjunt de dades de veu, preparat per a baixar
+demo-account = Compte
+
+## Demo Account
+
+demo-account-card-header = No cal tenir cap compte per a col·laborar-hi, però és útil.
+demo-account-card-body = A la dreta exposem els avantatges i aclarim quina informació fem pública. Utilitzeu els enllaços següents per a començar a utilitzar un compte Common Voice en el vostre dispositiu.
+demo-account-enter-email =
+    .label = Introduïu una adreça electrònica on enviar un enllaç de registre
+demo-account-sign-up = Envia l'enllaç de registre
+
+## Demo Contribute
+
+demo-contribute-card-header = Esteu preparat per a afegir la veu o parar l'orella?
+demo-contribute-card-body = Ara que ja sabeu una mica més sobre el Common Voice, per què no ho proveu? Feu clic en la icona del micròfon per a començar a llegir frases en veu alta. <br/><br/>Si preferiu revisar les contribucions de veu d'altres persones, feu clic a la icona de reproducció. Si l'enregistrament de veu que sentiu coincideix amb les paraules escrites en la pantalla.
+demo-listen-subtitle = Preparat per a col·laborar?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Els taulers personals us informen sobre el progrés individual i de la comunitat.
+demo-dashboard-card-body = Per cada tall de veu donat i per cada tall d'àudio validat, els taulers del vostre compte s'actualitzen per a reflectir el vostre progrés més recent en cada llengua en què col·laboreu. Sí, podeu participar en més d'una! <br/><br/> Utilitzeu taulers per a fer un seguiment de les vostres estadístiques, veure el vostre rendiment en relació amb altres membres de la comunitat i definir objectius de col·laboració diaris o setmanals.

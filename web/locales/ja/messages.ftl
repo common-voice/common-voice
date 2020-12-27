@@ -32,14 +32,18 @@ as = アッサム語
 ast = アストゥリアス語
 az = アゼルバイジャン語
 ba = バシキール語
+bas = バサ語
 be = ベラルーシ語
 bg = ブルガリア語
+bm = バンバラ語
 bn = ベンガル語
 br = ブルトン語
 bxr = ブリヤート語
 ca = カタルーニャ語
 cak = カクチケル語
+ckb = 中央クルド語
 cnh = ハーカ・チン語
+co = コルシカ語
 cs = チェコ語
 cv = チュヴァシ語
 cy = ウェールズ語
@@ -61,6 +65,7 @@ fr = フランス語
 fy-NL = フリジア語
 ga-IE = アイルランド語
 gl = ガリシア語
+gn = グアラニー語
 ha = ハウサ語
 he = ヘブライ語
 hi = ヒンディー語
@@ -80,9 +85,9 @@ kaa = カラカルパク語
 kab = カビル語
 kbd = カバルド語
 kk = カザフ語
+kmr = クルマンジークルド語
 ko = 韓国語
 kpv = コミ・ジリエーン語
-ku = クルド語
 kw = コーンウォール語
 ky = キルギス語
 lg = ガンダ語
@@ -139,6 +144,7 @@ uz = ウズベク語
 vec = ベネチア語
 vi = ベトナム語
 vot = ヴォート語
+yue = 広東語
 zh-CN = 中国語 (中国)
 zh-HK = 中国語 (香港)
 zh-TW = 中国語 (台湾)
@@ -231,7 +237,7 @@ whats-public = 公開される情報
 email-not-public = あなたのメールアドレスは公開しません。
 recordings-and-locale-public = 録音数とあなたの貢献した言語が公開されます。
 username-optin-public = ユーザー名を公開するか匿名にするか選ぶことができます。
-demographic-deidentified-clarity = 任意で送信された統計データ (年齢、性別、言語、アクセントなど) がプロフィールで公開されることはなく、データセット内のアカウントにもリンクされません。個々の音声クリップは、より正確な分析を行う目的で統計データに関連付けられます。たとえば、研究者がトレーニングモデルを特定の統計セグメントに向けて利用する場合があります。
+demographic-deidentified-clarity-2 = 任意で送信された統計データ (年齢、性別、言語、アクセントなど) がプロフィールで公開されることはなく、データセット内のアカウントにもリンクされません。個々の音声クリップは、より正確な分析を行う目的で統計データに関連付けられます。たとえば、研究者がトレーニングモデルを特定の統計セグメントに向けて利用する場合があります。
 username-email-not-demographic = あなたのユーザー名とメールアドレスは、発行されたデータに関連付けられることはありません。
 
 ## Speak & Listen Shortcuts
@@ -288,7 +294,7 @@ profile-form-accent =
     .label = 方言
 profile-form-age =
     .label = 年齢
-profile-form-gender =
+profile-form-gender-2 =
     .label = 性別
 leaderboard-visibility =
     .label = リーダーボードへの表示
@@ -315,7 +321,7 @@ profile-close = 閉じる
 profile-explanation = プロファイルを登録すると進捗の把握や、音声データの品質向上に役立ちます。
 thanks-for-account = 登録ありがとうございます。次はプロフィールの入力をお願いします。
 why-demographic = どうしてこれが問題なのですか？
-why-demographic-explanation = 年齢や性別、アクセントといった音声に関わるより詳細なユーザーデータは、匿名化した上で音声認識エンジンの精度向上に利用されます。あなたのユーザー名およびメールアドレスが送信したデータと関連付けられることは決してありません。また、ユーザー名を公開するか匿名にしておくかも選択できます。
+why-demographic-explanation-2 = 年齢や性別、アクセントといった音声に関わるより詳細なユーザーデータは、匿名化した上で音声認識エンジンの精度向上に利用されます。あなたのユーザー名およびメールアドレスが送信したデータと関連付けられることは決してありません。また、ユーザー名を公開するか匿名にしておくかも選択できます。
 accept-privacy = Mozillaの<privacyLink>プライバシーポリシー</privacyLink>の下でこの情報が用いられることに同意します。
 accept-privacy-title = プライバシーポリシー
 login-identity = ログイン用アカウント
@@ -493,6 +499,8 @@ data-other-goto = { $name } へ行く
 data-other-download = データのダウンロード
 data-bundle-button = データセットをまとめてダウンロード
 data-bundle-description = Common Voice のデータと、上記のその他のデータセットをすべて含みます。
+release-version = バージョン
+dataset-date = 日付
 license = ライセンス：<licenseLink>{ $license }</licenseLink>
 license-mixed = 複合ライセンス
 review-terms = Common Voice を利用すると、「<termsLink>利用規約</termsLink>」と「<privacyLink>プライバシーについて</privacyLink>」に同意したものとみなします。
@@ -795,3 +803,18 @@ help-contribute = Common Voice プロファイルを作成し、音声を提供�
 login-company = ログイン / { $company } メールでアカウント登録
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
 read-more-about = 詳しくは Common Voice の概要ページをご覧ください
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

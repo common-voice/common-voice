@@ -33,14 +33,18 @@ as = Asamšćina
 ast = Asturišćina
 az = Azerbajdźanšćina
 ba = Baškiršćina
+bas = Basašćina
 be = Běłorušćina
 bg = Bołharšćina
+bm = Bambaršćina, Bambara
 bn = Bengalšćina
 br = Bretonšćina
 bxr = Burjatšćina
 ca = Katalanšćina
 cak = Kaqchikel
+ckb = Centralna kurdišćina
 cnh = Hakha Chin
+co = Korsišćina
 cs = Čěšćina
 cv = Čuwašćina
 cy = Walizišćina
@@ -62,6 +66,7 @@ fr = Francosćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 gl = Galicišćina
+gn = Guaranšćina, Guarani
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
@@ -81,9 +86,9 @@ kaa = Karakalpakšćina
 kab = Kabylšćina
 kbd = Kabardinšćina
 kk = Kazachšćina
+kmr = Kurmandźiska kurdišćina
 ko = Korejšćina
 kpv = Komi-syrjenšćina
-ku = Kurdišćina
 kw = Kornišćina
 ky = Kirgišćina
 lg = Luganda
@@ -140,6 +145,7 @@ uz = Uzbekšćina
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+yue = Kantonšćina
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
@@ -241,7 +247,7 @@ whats-public = Što je zjawne?
 email-not-public = Wašu e-mejlowu adresu njewozjewimy.
 recordings-and-locale-public = Ličba natočenjow a rěčow, ke kotrymž přinošujeće, budu zjawne.
 username-optin-public = Móžeće swoje wužiwarske mjeno wozjewić abo anonymizować.
-demographic-deidentified-clarity = Opcionelnje zapodate demografiske daty (na př. staroba, splah, rěč a akcent) so we wašim profilu ženje njewozjewja a z wašim kontom w datowej sadźbje njezwjazaja. Jednotliwe awdioklipy so z demografiskimi datami za dokładnišu analyzu zwjazaja - slědźer na přikład chce snano treningowy model na wěsty demografiski segment wusměrić.
+demographic-deidentified-clarity-2 = Opcionelnje zapodate demografiske daty (na př. staroba, splah, rěč a akcent) so we wašim profilu ženje njewozjewja a z wašim kontom w datowej sadźbje njezwjaza. Jednotliwe awdioklipy so z demografiskimi datami za dokładnišu analyzu zwjazaja - slědźer na přikład chce snano treningowy model na wěsty demografiski segment wusměrić.
 username-email-not-demographic = Waše wužiwarske mjeno a e-mejlowa adresa so z wozjewjenymi datami njezwjazujetej.
 
 ## Speak & Listen Shortcuts
@@ -301,7 +307,7 @@ profile-form-accent =
     .label = Akcent
 profile-form-age =
     .label = Staroba
-profile-form-gender =
+profile-form-gender-2 =
     .label = Splah
 leaderboard-visibility =
     .label = Widźomnosć lisćiny najlěpšich
@@ -328,7 +334,7 @@ profile-close = Začinić
 profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
 thanks-for-account = Dźakujemy so, zo sće swoje konto wobkrućił, chcemy nětko waš profil zarjadować.
 why-demographic = Čehodla je to wažne?
-why-demographic-explanation = Anonymizowane wužiwarske daty kaž staroba, splah a akcent pomhaja awdiodaty polěpšić, kotrež so wužiwaja, zo bychu dokładnosć softwary rěčenskeho spóznaća trenowali. Waše wužiwarske mjeno a e-mejlowa adresa so ženje z wašimi pósłanymi datami njezwjazujetej, a móžeće wubrać, hač ma waše wužiwarske mjeno zjawne abo anonymne być.
+why-demographic-explanation-2 = Anonymizowane wužiwarske daty kaž staroba, splah a akcent pomhaja awdiodaty polěpšić, kotrež so wužiwaja, zo bychu dokładnosć softwary rěčenskeho spóznaća trenowali. Waše wužiwarske mjeno a e-mejlowa adresa so ženje z wašimi pósłanymi datami njezwjazujetej, a móžeće wubrać, hač ma waše wužiwarske mjeno zjawne abo anonymne być.
 accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla wujasnja.
 accept-privacy-title = Prawidła priwatnosće
 login-identity = Přizjewjenska identita
@@ -487,7 +493,9 @@ de-identified-explanation = Proces, přez kotryž so profilowe informacije sobus
 ## Error pages
 
 error-title-404 = Njemóžachmy tu stronu za was namakać
+error-content-404 = Snano budźe naša <homepageLink>startowa strona</homepageLink> pomhać? Zo byšće prašenje stajił, wobdźělće so prošu na <matrixLink>chaće Matrix zhromadźenstwa</matrixLink>, wobkedźbujće sydłowe problemy přez <githubLink>GitHub</githubLink> abo wopytajće <discourseLink>naše forumy Discourse</discourseLink>.
 error-title-503 = Mamy njewočakowany čas staća
+error-content-503 = Sydło budźe tak bórze kaž móžno zaso k dispoziciji być. Najnowše informacije dóstanjeće w  <matrixLink>chaće Matrix zhromadźenstwa</matrixLink> abo wopytajće <githubLink>GitHub</githubLink> abo <discourseLink>naše forumy Discourse</discourseLink>, zo byšće problemy ze sydłom zdźělił abo wobkedźbował.
 error-code = Zmylk { $code }
 
 ## Data
@@ -505,6 +513,8 @@ data-other-goto = K { $name }
 data-other-download = Daty sćahnyć
 data-bundle-button = Paket datowych sadźbow sćahnyć
 data-bundle-description = Daty Common Voice plus wšě druhe hłosowe datowe sadźby horjeka.
+release-version = Wersija
+dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 data-download-singleword-title = Sćehńće cilowy segment jednotliweho słowa
@@ -684,6 +694,7 @@ share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
 keep-track-profile = Slědujće swojemu postupej z profilom
 login-to-get-started = Přizjewće so abo registrujće so, zo byšće započał
 target-segment-first-card = Přinošujeće k našemu prěnjemu cilowemu segmentej
+target-segment-generic-card = Přinošujeće k cilowemu segmentej
 target-segment-first-banner = Pomhajće prěni cilowy segment Common Voice w { $locale } wutworić
 target-segment-add-voice = Přidajće swój hłós
 target-segment-learn-more = Dalše informacije
@@ -864,3 +875,33 @@ help-contribute = Załožće profil Common Voice a přinošujće swój hłós, z
 login-company = Z e-mejlowej adresu { $company } přizjewić / registrować
 profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
 read-more-about = Čitajće wjace wo stronje Wo Common Voice
+
+## DemoLayout
+
+demo-get-started = Započńmy
+demo-welcome = Witajće k Common Voice
+demo-welcome-subheader = Chceće wjace zhonić a k projektej přinošować?
+
+## Demo Datasets
+
+card-button-next = Dale
+card-button-back = Wróćo
+demo-language-select-label = Rěče přepytać
+demo-eofy-header = Wozjewjenje kónc lěta 2019
+demo-eofy-sub_header = Hłosowa datowa sadźba, hotowy za sćehnjenje
+demo-account = Konto
+
+## Demo Account
+
+demo-account-card-header = Za sobudźěło konto trěbne njeje, hačrunjez je wužitne
+demo-account-enter-email =
+    .label = Zapodajće e-mejlowu adresu, zo byšće registrowanski wotkaz pósłał
+demo-account-sign-up = Registrowanski wotkaz pósłać
+
+## Demo Contribute
+
+demo-contribute-card-header = Sće hotowy swój hłós přidać abo słuchać?
+demo-listen-subtitle = Chceće sobu činić?
+
+## Demo Dashboard
+

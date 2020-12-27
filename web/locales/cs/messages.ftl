@@ -35,12 +35,14 @@ az = Ázerbájdžánština
 ba = Baškirština
 be = Běloruština
 bg = Bulharština
+bm = Bambarština
 bn = Bengálština
 br = Bretonština
 bxr = Burjatština
 ca = Katalánština
 cak = Kaqchikel
 cnh = Hakha Chin
+co = Korsičtina
 cs = Čeština
 cv = Čuvaština
 cy = Velština
@@ -62,6 +64,7 @@ fr = Francouzština
 fy-NL = Fríština
 ga-IE = Irština
 gl = Galicijština
+gn = Guaraní
 ha = Hauština
 he = Hebrejština
 hi = Hindština
@@ -83,7 +86,6 @@ kbd = Kabardština
 kk = Kazaština
 ko = Korejština
 kpv = Komi-zyrjanština
-ku = Kurdština
 kw = Kornština
 ky = Kyrgyzština
 lg = Lugandština
@@ -238,7 +240,7 @@ whats-public = Co vše zveřejňujeme?
 email-not-public = Vaši e-mailovou adresu nezveřejníme.
 recordings-and-locale-public = Zveřejníme, kolik příspěvků a do jakých jazyků jste učinili.
 username-optin-public = Můžete si zvolit, jestli zveřejníme vaše uživatelské jméno.
-demographic-deidentified-clarity = Volitelně nahraná demografická data (např. věk, pohlaví, jazyk nebo přízvuk) nebudou na vašem profilu zveřejněny a nebudou ani spojeny s vaším účtem v datasetu. Jednotlivé nahrávky budou s demografickými daty spojeny za účelem přesnější analýzy, např. aby mohl výzkumný pracovník soustředit učení modelu na konkrétní demografickou skupinu.
+demographic-deidentified-clarity-2 = Volitelně nahraná demografická data (např. věk, pohlaví/gender, jazyk nebo přízvuk) nebudou na vašem profilu zveřejněny a nebudou ani spojeny s vaším účtem v datasetu. Jednotlivé nahrávky budou s demografickými daty spojeny za účelem přesnější analýzy, např. aby mohl výzkumný pracovník soustředit učení modelu na konkrétní demografickou skupinu.
 username-email-not-demographic = Vaše uživatelské jméno a e-mail nebudou nijak propojovány s vámi poskytnutými hlasovými daty.
 
 ## Speak & Listen Shortcuts
@@ -297,8 +299,8 @@ profile-form-accent =
     .label = Přízvuk
 profile-form-age =
     .label = Věk
-profile-form-gender =
-    .label = Pohlaví
+profile-form-gender-2 =
+    .label = Pohlaví (gender)
 leaderboard-visibility =
     .label = Viditelnost v žebříčku
 hidden = Skrytý
@@ -324,7 +326,7 @@ profile-close = Zavřít
 profile-explanation = Sledujte svůj pokrok díky profilu a pomozte zpřesnit naše hlasová data.
 thanks-for-account = Děkujeme za potvrzení vašeho účtu, nyní si sestavte svůj profil.
 why-demographic = Proč na tomhle záleží?
-why-demographic-explanation = Anonymizovaná uživatelská data jako jsou věk, pohlaví a přízvuk pomáhají zlepšovat kvalitu audio dat pro trénování systémů rozpoznávání hlasu. Vaše uživatelské jméno a e-mail nebudou nikdy propojovány s vámi poskytnutými daty. Můžete také zvolit, jestli chcete zveřejnit vaše uživatelské jméno.
+why-demographic-explanation-2 = Anonymizovaná uživatelská data jako jsou věk, pohlaví (gender) a přízvuk pomáhají zlepšovat kvalitu audio dat pro trénování systémů rozpoznávání hlasu. Vaše uživatelské jméno a e-mail nebudou nikdy propojovány s vámi poskytnutými daty. Můžete také zvolit, jestli chcete zveřejnit vaše uživatelské jméno.
 accept-privacy = Souhlasím se zpracováním těchto informací jak je popsáno v zásadách Mozilly pro <privacyLink>ochranu osobních údajů</privacyLink>
 accept-privacy-title = Zásady ochrany osobních údajů
 login-identity = Identita pro přihlášení
@@ -508,6 +510,8 @@ data-other-goto = Přejít na { $name }
 data-other-download = Stáhnout data
 data-bundle-button = Stáhnout balík datasetů
 data-bundle-description = Data Common Voice a data všech ostatních datasetů výše.
+release-version = Verze
+dataset-date = Datum
 license = Licence: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kombinovaná
 review-terms = Používáním Common Voice souhlasíte s našimi <termsLink>Podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink>
@@ -683,6 +687,7 @@ share-title-new = <bold>Pomozte nám</bold> najít další hlasy
 keep-track-profile = Sledujte svůj pokrok pomocí profilu
 login-to-get-started = Přihlaste se či zaregistrujte a můžete začít
 target-segment-first-card = Přispíváte do prvního cílového segmentu
+target-segment-generic-card = Přispíváte do cílového segmentu
 target-segment-first-banner = Pomozte dosáhnout prvního cílového segmentu Common Voice v jazyce { $locale }
 target-segment-add-voice = Přidejte svůj hlas
 target-segment-learn-more = Zjistit více
@@ -704,7 +709,7 @@ report-offensive-speech = Urážky
 report-offensive-speech-detail = Věta obsahuje urážlivé nebo sprosté výrazy.
 report-other-comment =
     .placeholder = Komentář
-success = Úspěch
+success = Hotovo
 continue = Pokračovat
 report-success = Hlášení bylo odesláno
 
@@ -852,3 +857,28 @@ help-contribute = Pomozte vybudovat různorodý otevřený dataset. Vytvořte si
 login-company = Přihlásit / Zaregistrovat se e-mailem { $company }
 profile-not-required = Není nutné mít vytvořený profil, abyste mohli přispívat, ale může být užitečný
 read-more-about = Přečtěte si více na stránce O nás
+
+## DemoLayout
+
+demo-get-started = Jdeme na to!
+demo-welcome = Vítejte ve službě Common Voice
+
+## Demo Datasets
+
+card-button-next = Další
+card-button-back = Zpět
+demo-language-select-label = Procházet jazyky
+demo-eofy-header = Vydání z konce roku 2019
+demo-eofy-sub_header = Hlasová datová sada, připravena ke stažení
+demo-account = Účet
+
+## Demo Account
+
+demo-account-sign-up = Pošlete mi přihlaovací odkaz
+
+## Demo Contribute
+
+demo-listen-subtitle = Jste připraveni se zapojit?
+
+## Demo Dashboard
+

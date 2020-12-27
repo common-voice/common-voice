@@ -33,14 +33,18 @@ as = Assamese
 ast = Asturiano
 az = Azerbaijano
 ba = Bashkir
+bas = Basaa
 be = Bielorusso
 bg = Bulgaro
+bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Buriato
 ca = Catalano
 cak = Kaqchikel
+ckb = Kurdo central
 cnh = Hakha Chin
+co = Corso
 cs = Checo
 cv = Chuvasio
 cy = Gallese
@@ -62,6 +66,7 @@ fr = Francese
 fy-NL = Frison
 ga-IE = Irlandese
 gl = Galiciano
+gn = Guarani
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -81,9 +86,9 @@ kaa = Karakalpak
 kab = Cabilo
 kbd = Kabardo
 kk = Kazakh
+kmr = Kurdo Kurmanxhi
 ko = Coreano
 kpv = Komi-Zyriano
-ku = Kurdo
 kw = Cornico
 ky = Kirghiso
 lg = Luganda
@@ -140,6 +145,7 @@ uz = Uzbek
 vec = Venetian
 vi = Vietnamese
 vot = Votico
+yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
@@ -206,13 +212,13 @@ x-weeks-short =
     }
 x-months-short =
     { $count ->
-        [one] mense
-       *[other] menses
+        [one] { $count } mense
+       *[other] { $count } menses
     }
 x-years-short =
     { $count ->
-        [one] anno
-       *[other] annos
+        [one] { $count } anno
+       *[other] { $count } annos
     }
 help-make-dataset = Adjuta nos a crear un collection de datos de alte qualitate, publicamente aperte
 sign-up-account = Inscribe te pro un conto
@@ -235,7 +241,7 @@ whats-public = Que es Public?
 email-not-public = Nos non rendera public tu email.
 recordings-and-locale-public = Le numero de registrationes e le linguas que tu usa pro contribuer sera public.
 username-optin-public = Tu pote eliger de render public tu nomine de usator o anonyme.
-demographic-deidentified-clarity = Le datos demographic optional (p.ex. etate, sexo, lingua, accento) nunquam essera publicate sur tu profilo e non essera ligate a tu conto in le collection de datos. Le retalios audio individual essera associate al datos demographic pro permitter un analyse plus accurate; per exemplo, un recercator poterea concentrar un modello de training a un segmento demographic particular.
+demographic-deidentified-clarity-2 = Le datos demographic optional (p.ex. etate, genere, lingua, accento) nunquam essera publicate sur tu profilo e non essera ligate a tu conto in le collection de datos. Le retalios audio individual essera associate al datos demographic pro permitter un analyse plus accurate; per exemplo, un recercator poterea concentrar un modello de training a un segmento demographic particular.
 username-email-not-demographic = Tu nomine de usator e email non essera associate con le datos publicate.
 
 ## Speak & Listen Shortcuts
@@ -264,7 +270,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registrar/stoppar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-registrar retalio
-request-language-text = An tu non vide ancora tu lingua sur Common Voice?
+request-language-text = Non se trova tu lingua sur Common Voice?
 request-language-button = Propone un lingua
 
 ## ProjectStatus
@@ -293,7 +299,7 @@ profile-form-accent =
     .label = Accento
 profile-form-age =
     .label = Etate
-profile-form-gender =
+profile-form-gender-2 =
     .label = Genere
 leaderboard-visibility =
     .label = Visibilitate in le tabula de classification
@@ -320,7 +326,7 @@ profile-close = Clauder
 profile-explanation = Tracia tu progresso con un profilo e adjuta nostre datos de voce a devenir plus accurate.
 thanks-for-account = Gratias pro haber confirmate tu conto. Ora, que nos crea tu profilo.
 why-demographic = Proque es isto relevante?
-why-demographic-explanation = Le datos anonyme del usator como le etate, sexo e accento adjuta a meliorar le datos audio usate pro augmentar le precision del motores de recognition de voce. Tu nomine de usator e adresse de e-mail non essera jammais associate al datos que tu ha submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
+why-demographic-explanation-2 = Le datos anonyme del usator como su etate, genere, e accento adjuta a meliorar le datos audio usate pro maestrar le precision del motores de recognition de voce. Tu nomine de usator e email jammais essera associate con tu datos submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
 accept-privacy = Io concorda que vos tracta iste informationes como vos explica in le <privacyLink>Politica de confidentialitate</privacyLink> de Mozilla
 accept-privacy-title = Politica de confidentialitate
 login-identity = Identitate de connexion
@@ -501,6 +507,8 @@ data-other-goto = Ir a { $name }
 data-other-download = Discargar datos
 data-bundle-button = Discargar le pacco del collection de datos
 data-bundle-description = Le datos de Common Voice plus tote le altere collectiones de datos vocal precedente.
+release-version = Version
+dataset-date = Data
 license = Licentia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
 data-download-singleword-title = Discarga le segmento specific con parolas singule.
@@ -619,7 +627,7 @@ total-hours = Numero total de horas
 
 ## Contribution
 
-action-click = Clic
+action-click = Clicca sur
 action-tap = Tocca
 contribute = Contribuer
 listen = Ascolta
@@ -664,10 +672,10 @@ record-abort-text = Lassar ora significa que tu perde tu progresso
 record-abort-submit = Inviar le retalios
 record-abort-continue = Finir de registrar
 record-abort-delete = Exir e deler le retalios
-listen-instruction = { $actionType }<playIcon></playIcon> – Es iste pronunciation correcte?
-listen-again-instruction = Grande labor!<playIcon></playIcon> Ascolta ancora quando tu es preste
-listen-3rd-time-instruction = 2 minus, retene lo alte!<playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon>Ultimo!
+listen-instruction = { $actionType }<playIcon></playIcon> – es iste pronunciation correcte?
+listen-again-instruction = Optime labor!<playIcon></playIcon> Ascolta de novo quando tu es preste
+listen-3rd-time-instruction = Duo facite, continua assi!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Le ultime!
 listen-empty-state = Nos non ha plus registrationes a validar pro iste lingua...
 speak-empty-state = Nos non ha plus phrases a registrar pro iste lingua...
 speak-empty-state-cta = Contribue con altere phrases
@@ -676,6 +684,7 @@ share-title-new = <bold>Adjuta nos</bold> a trovar plus voces
 keep-track-profile = Tracia tu progresso con un profilo
 login-to-get-started = Aperi session o inscribe te pro comenciar
 target-segment-first-card = Tu ha contribuite a nostre prime segmento objectivo
+target-segment-generic-card = Tu contribue a un segmento objectivo
 target-segment-first-banner = Adjuta crear le prime segmento objectivo de Common Voice in { $locale }
 target-segment-add-voice = Adde tu voce
 target-segment-learn-more = Saper plus
@@ -833,3 +842,39 @@ help-contribute = Tu pote adjutar a producer un collection de datos open-source,
 login-company = Accede / Inscribe te con le<t0/> email de { $company }
 profile-not-required = Haber un profilo non es necessari pro contribuer, ma es utile; lege proque hic infra.
 read-more-about = Lege plus in nostre pagina: A proposito
+
+## DemoLayout
+
+demo-get-started = Que nos comencia
+demo-welcome = Benvenite a Common Voice
+demo-welcome-subheader = Vole saper plus e contribuer al projecto?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice es le base de datos vocal multilingue e publicamente disponibile le plus grande del mundo.
+demo-language-select-card-body = Gratias al contributiones de plus de 259000 personas in plus de 50 linguas, iste datos es usate pro trainar applicationes con recognition vocal a melio responder al voce human.
+card-button-next = Sequente
+card-button-back = Retro
+demo-language-select-label = Percurrer linguas
+demo-eofy-header = Edition del fin del anno 2019
+demo-eofy-sub_header = Collection de datos vocal, preste a discargar
+demo-account = Conto
+
+## Demo Account
+
+demo-account-card-header = Haber un conto non es obligatori pro collaborar ben que illo sia utile
+demo-account-card-body = Al dextra, nos enumera le beneficios e clarifica qual informationes nos rende public. Usa le ligamines infra pro comenciar con un conto Common Voice sur tu proprie apparato.
+demo-account-enter-email =
+    .label = Insere tu adresse de e-mail pro inviar un ligamine pro crear un conto
+demo-account-sign-up = Inviar ligamine de creation de conto
+
+## Demo Contribute
+
+demo-contribute-card-header = Preste a pronunciar o ascoltar?
+demo-contribute-card-body = Ora que tu sape un poco plus sur Common Voice, proque non tentar lo? Clicca sur le icone de microphono pro comenciar a leger phrases in alte voce.<br/><br/>Si tu prefere revider le contributiones vocal de altere personas, clicca sur le icone de reproducer. Evaluta si le registration vocal que tu audi corresponde ben al parolas scribite sur le schermo.
+demo-listen-subtitle = Preste a contribuer?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Le tabulieros personal te tene al currente con le progresso individual e communitari.
+demo-dashboard-card-body = Pro cata retalio de voce donate e cata retalio de audio validate, le tabulieros de tu conto se actualisa pro reflecter le ultime progresso in cata lingua in que tu contribue. Si, tu pote contribuer a plure linguas!<br/><br/>Usa le tabulieros pro traciar tu statisticas, comparar tu progresso con illo de alteres in le communitate, e definir objectivos de contribution quotidian o septimanal.

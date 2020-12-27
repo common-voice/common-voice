@@ -5,7 +5,8 @@ import * as express from 'express';
 import * as Sentry from '@sentry/node';
 import { NextFunction, Request, Response } from 'express';
 import { importLocales } from './lib/model/db/import-locales';
-import { importTaxonomies } from './lib/model/db/import-taxonomies';
+import { importTargetSegments } from './lib/model/db/import-target-segments';
+import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
 import Model from './lib/model';
 import {
   getFullClipLeaderboard,
@@ -38,7 +39,7 @@ const CSP_HEADER = [
   `default-src 'none'`,
   `child-src 'self' blob:`,
   `style-src 'self' https://fonts.googleapis.com https://optimize.google.com 'unsafe-inline'`,
-  `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com data:`,
+  `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com https://gravatar.com https://*.mozilla.org https://*.allizom.org data:`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
   // Note: we allow unsafe-eval locally for certain webpack functionality.
   `script-src 'self' 'unsafe-eval' 'sha256-DuorfhDEHHCiLVbhlN7ms52/01i7fGLsiLhiV9Veexs=' 'sha256-jfhv8tvvalNCnKthfpd8uT4imR5CXYkGdysNzQ5599Q=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com https://sentry.prod.mozaws.net https://fullstory.com https://edge.fullstory.com`,
@@ -250,19 +251,19 @@ export default class Server {
     this.app.get(
       '/privacy/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('Privacy_Notice', locale));
+        response.send(await fetchLegalDocument('privacy_notice', locale));
       }
     );
     this.app.get(
       '/terms/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('Terms', locale));
+        response.send(await fetchLegalDocument('terms', locale));
       }
     );
     this.app.get(
       '/challenge-terms/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await fetchLegalDocument('Challenge_Terms', 'en'));
+        response.send(await fetchLegalDocument('challenge_terms', 'en'));
       }
     );
   }
@@ -284,11 +285,14 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
+      await scrubUserActivity();
       await importLocales();
+
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }
-      await importTaxonomies();
+
+      await importTargetSegments();
       this.print('Maintenance complete');
     } catch (err) {
       this.print('Maintenance error', err);

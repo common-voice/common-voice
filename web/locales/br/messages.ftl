@@ -33,14 +33,18 @@ as = Asameg
 ast = Asturieg
 az = Azerbaidjaneg
 ba = Bachkireg
+bas = Basaaeg
 be = Belaruseg
 bg = Bulgareg
+bm = Bambareg
 bn = Bengaleg
 br = Brezhoneg
 bxr = Bouriat
 ca = Katalaneg
 cak = Kaqchikel
+ckb = Kurdeg ar c'hreiz
 cnh = Hakha Chin
+co = Korseg
 cs = Tchekeg
 cv = Tchouvacheg
 cy = Kembraeg
@@ -50,7 +54,7 @@ dsb = Izel-Sorabeg
 dv = Divehi
 el = Gresianeg
 en = Saozneg
-eo = Esperanto
+eo = Esperanteg
 es = Spagnoleg
 et = Estoneg
 eu = Euskareg
@@ -62,6 +66,7 @@ fr = Galleg
 fy-NL = Frizeg
 ga-IE = Iwerzhoneg
 gl = Galisian
+gn = Guarani
 ha = Hausa
 he = Hebraeg
 hi = HIndi
@@ -80,10 +85,10 @@ ka = Jorjieg
 kaa = Karakalpak
 kab = Kabileg
 kbd = Kabardeg
-kk = Kazakh
+kk = Kazakheg
+kmr = Kurdeg Kurmanji
 ko = Koreaneg
 kpv = Komi-Zyrian
-ku = Kurdish
 kw = Kerneveureg
 ky = Kirgizeg
 lg = Gandaeg
@@ -106,7 +111,7 @@ nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
 oc = Okitaneg
 or = Oriya
-pa-IN = Punjabi
+pa-IN = Pandjabeg
 pl = Poloneg
 pt = Portugaleg
 rm-sursilv = Romanch sursilvan
@@ -127,7 +132,7 @@ sw = Swahili
 syr = Syirieg
 ta = Tamileg
 te = Telougoueg
-tg = Tajik
+tg = Tadjikeg
 th = Thailandeg
 tl = Tagalog
 tr = Turkeg
@@ -165,7 +170,7 @@ content-license-text = Endalc'had hegerz dindan ul <licenseLink>lañvaz Creative
 share-title = Sikourit ac'hanomp da gavout tud all da reiñ o mouezh!
 share-text = Sikourit ar mekanikoù da gompren penaos e komz an dud wirion, roit ho mouezh da { $link }
 link-copied = Liamm eilet
-back-top = Distreiñ d'ar c'hrec'h
+back-top = Distreiñ d'al lein
 logout = Digevreañ
 
 ## Home Page
@@ -244,7 +249,7 @@ whats-public = Petra a zo foran?
 email-not-public = Ne lakaimp ket foran ho chomlec'h postel.
 recordings-and-locale-public = An niver a enrolladennoù hag ar yezhoù a gemerit perzh eno a vo foran.
 username-optin-public = Gellout a raer lakaat foran pe dizanv hoc'h anv-implijer.
-demographic-deidentified-clarity = Ar roadennoù poblañsouriezh diret roet (sk. oad, rev, yezh ha pouez-mouezh) na vezint morse lakaet da foran war ho frofil, ha ne vo ket liammet d'ho kont er spletad roadennoù. Ar c'hlipoù aodio a vo liammet gant ar roadennoù poblañsouriezh evit ma vefe resisoc'h an dielfennadenn - da skouer, un enklasker a c'hallfe kaout c'hoant da vukañ ur patrom gourdonañ evit ul lodenn resis eus ar boblañs.
+demographic-deidentified-clarity-2 = Ar roadennoù poblañsouriezh diret roet (sk. oad, jener, yezh ha pouez-mouezh) na vezint morse lakaet da foran war ho frofil, ha ne vo ket liammet d'ho kont er spletad roadennoù. Ar c'hlipoù aodio a vo liammet gant ar roadennoù poblañsouriezh evit ma vefe resisoc'h an dielfennadenn - da skouer, un enklasker a c'hallfe kaout c'hoant da vukañ ur patrom gourdonañ evit ul lodenn resis eus ar boblañs.
 username-email-not-demographic = Hoc'h anv implijer hag ho chomlec'h postel na vezo ket liammet gant ar roadennoù embannet.
 
 ## Speak & Listen Shortcuts
@@ -305,7 +310,7 @@ profile-form-accent =
     .label = Pouez-mouezh
 profile-form-age =
     .label = Oad
-profile-form-gender =
+profile-form-gender-2 =
     .label = Jener
 leaderboard-visibility =
     .label = Diskwel foran
@@ -332,7 +337,7 @@ profile-close = Serriñ
 profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
 thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profil bremañ.
 why-demographic = Perak e vez pouezus?
-why-demographic-explanation = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc'h anv-implijer hag ho chomlec'h postel d'ar roadennoù a vez kaset ganeoc'h, ha gellout a rit dibab etre lakaat publik hoc'h anv-implijer pe chom dizanv.
+why-demographic-explanation-2 = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc'h anv-implijer hag ho chomlec'h postel d'ar roadennoù a vez kaset ganeoc'h, ha gellout a rit dibab etre lakaat publik hoc'h anv-implijer pe chom dizanv.
 accept-privacy = Asantiñ a ran ec'h implijfec'h ar pezh titour-mañ evel ma vez lavaret e <privacyLink>politikerezh a-fet buhez prevez</privacyLink> Mozilla
 accept-privacy-title = Reolenn a-fet buhez prevez
 login-identity = Identelezh kevreañ
@@ -511,6 +516,8 @@ data-other-goto = Mont da { $name }
 data-other-download = Pellgargañ roadennoù
 data-bundle-button = Pellgargañ ur spletad roadennoù
 data-bundle-description = Spletad roadennoù Common Voice mui an holl spletadoù roadennoù mouezh all a-us.
+release-version = Handelv
+dataset-date = Deiziad
 license = Lañvaz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
 data-download-singleword-title = Pellgargañ skejenn vukenn ar ger
@@ -518,7 +525,7 @@ data-download-singleword-callout = Kement se a zo un teskad buket war an implij 
 review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
-review-aborted = Nullet eo bet ar pellgas. Dilemel hoc'h enrolladennoù a fell deoc'h ober ?
+review-aborted = Nullet eo bet ar pellgas. Dilemel hoc'h enrolladennoù a fell deoc'h ober?
 review-submit-title = Adwelet & Kas
 review-submit-msg = Trugarez evit an enrolladenn!<lineBreak></lineBreak>Bremañ, gwiriit ho klipoù ha kasit anezho.
 review-recording = Gwiriañ
@@ -648,7 +655,7 @@ goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage>
 contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Enrollañ
 record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
-record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ:
+record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ...
 record-platform-not-supported-ios-non-safari = Evit iOS, kendalc'hit war Safari evit gweredekaat an enrollañ...
 record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
 record-no-mic-found = Mikrofon ebet kavet.
@@ -685,6 +692,7 @@ share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
 keep-track-profile = Heuilhit hoc'h araokadennoù gant ur profil
 login-to-get-started = Kennaskit pe lakait hoc'h anv evit kregiñ ganti
 target-segment-first-card = Kendeurel a rit d'hor dazrann vukenn gentañ
+target-segment-generic-card = Kendeurel a rit d'un dazrann vukenn
 target-segment-first-banner = Skoazellit da grouiñ dazrann gentañ Common Voice e { $locale }
 target-segment-add-voice = Ouzhpennit ho mouezh
 target-segment-learn-more = Gouzout hiroc'h
@@ -780,13 +788,63 @@ want-to-continue = Fellout a ra deoc'h kenderc'hel ganti?
 finish-editing = Echuiñ gant an embann a-raok?
 lose-changes-warning = En ur guitaat bremañ e kollot ho kemmoù
 build-custom-goal = Sevel ur pal personelaet
+help-reach-hours-pluralized =
+    Skoazellit da dizhout{ NUMBER($hours) ->
+        [one] { $hours } eur
+        [two] { $hours } eur
+        [few] { $hours } eur
+        [many] { $hours } a eurvezhioù
+       *[other] { $hours } eur
+    }e { $language } gant ur pal personelaet
+help-reach-hours-general-pluralized =
+    Skoazellit Common Voice da dizhout{ NUMBER($hours) ->
+        [one] { $hours } eur
+        [two] { $hours } eur
+        [few] { $hours } eur
+        [many] { $hours } eur
+       *[other] { $hours } a eurvezhioù
+    }en ur yezh gant ur pal personelaet
 set-a-goal = Lakaat ur pal
 cant-decide = N'hallit ket divizout?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } eur
+        [two] { $totalHours } eur
+        [few] { $totalHours } eur
+        [many] { $totalHours } a eurioù
+       *[other] { $totalHours } eur
+    } a zo posupl e { NUMBER($periodMonths) ->
+        [one] { $periodMonths } miz
+        [two] { $periodMonths } viz
+        [few] { $periodMonths } miz
+        [many] { $periodMonths } a vizoù
+       *[other] { $periodMonths } miz
+    } ma vez { NUMBER($people) ->
+        [one] { $people } den
+        [two] { $people } zen
+        [few] { $people } den
+        [many] { $people } a dud
+       *[other] { $people } den
+    } oc’h enrollañ { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } c’hlip
+        [two] { $clipsPerDay } glip
+        [few] { $clipsPerDay } c’hlip
+        [many] { $clipsPerDay } a glipoù
+       *[other] { $clipsPerDay } klip
+    } bemdez.
 how-many-per-day = Dispar! Pegement a glipoù bemdez?
 how-many-a-week = Dispar! Pegement a glipoù bep sizhun?
 which-goal-type = Fellout a ra deoc'h komz, selaou pe ober an daou?
 receiving-emails-info = Dibabet ho peus degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
 not-receiving-emails-info = Dibabet ho peus CHOM HEP degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } standilhon
+        [two] { $count } standilhon
+        [few] { $count } standilhon
+        [many] { $count } a standilhonoù
+       *[other] { $count } standilhon
+    }
 help-share-goal = Skoazellit ac'hanomp da gaout muioc'h a vouezhioù, rannit ho pal
 confirm-goal = Kadarnaat ar pal
 goal-interval-weekly = Sizhuniek
@@ -825,3 +883,31 @@ help-contribute = Gallout a rit sikour da grouiñ ur spletad roadennoù liesseur
 login-company = Kevreit / Emezelit gant ho chomlec'h { $company }
 profile-not-required = Kaout ur profil n'eo ket un dra ret evit kemer perzh met talvoudus eo memestra
 read-more-about = Lenn muioc'h war ar bajenn A-zivout
+
+## DemoLayout
+
+demo-get-started = Krogomp ganti
+demo-welcome = Degemer mat e Common Voice
+
+## Demo Datasets
+
+card-button-next = War-lerc'h
+card-button-back = Kent
+demo-language-select-label = Merdeiñ ar yezhoù
+demo-eofy-header = Ermaeziadenn fin-bloavezh 2019
+demo-account = Kont
+
+## Demo Account
+
+demo-account-card-header = Kaout ur profil n'eo ket un dra ret met evit kemer perzh met talvoudus eo memestra.
+demo-account-enter-email =
+    .label = Ebarzhit ur postel da gas ul liamm-enskrivañ
+demo-account-sign-up = Kas ul liamm-enskrivañ
+
+## Demo Contribute
+
+demo-contribute-card-header = Prest oc'h da reiñ ho mouezh pe da selaou gant ur skouarn aketus?
+demo-listen-subtitle = Prest da gemer-perzh?
+
+## Demo Dashboard
+

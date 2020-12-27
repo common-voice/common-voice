@@ -11,7 +11,7 @@ loading = Bijja…
 email-opt-in-info = Nandiyagadde okufuna obubaka ng'obujjukiza, bye ntuseeko ate n'ebikwata ku Common Voice.
 email-opt-in-info-title = Weeyunge kw'abo be tusindikira email ku bifa ku Common Voice
 email-opt-in-info-sub-with-challenge = Ffuna email ng'ezikwata ku bisoomooza n'ebiruubirirwa, wetutuuse, n'ebikwata ku Common Voice.
-email-opt-in-privacy-v2 = Bw'okkiriza okufuna email kitegeeza nti tolina buzibu na Mozilla kubeera na information eno nga bwe bannyonnyola. <privacyLink>Privacy Policy</privacyLink>.
+email-opt-in-privacy-v2 = Bw'okkiriza okufuna email kitegeeza nti tolina buzibu na Mozilla kubeera na information eno nga bwe bannyonnyola. <privacyLink>Engeri gye Tukuumamu Ebikukwatako</privacyLink>.
 indicates-required = Kano * kalaga kyetaagisa
 not-available-abbreviation = N/A
 
@@ -35,15 +35,18 @@ az = Luzabayijani
 ba = Bashkir
 be = Luberaluusi
 bg = Lubulugaliya
+bm = Bambara
 bn = Lubengali
 br = Breton
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
+ckb = Central Kurdish
 cnh = Hakha Chin
+co = Corsican
 cs = Luceke
 cv = Chuvash
-cy = Luwelushi
+cy = Luwerushi
 da = Ludanishi
 de = Lugirimaani
 dsb = Sorbian, Wansi
@@ -62,6 +65,7 @@ fr = Lufalansa
 fy-NL = Frisian
 ga-IE = Lu'ayirishi
 gl = Galician
+gn = Guarani
 ha = Hausa
 he = Luyudaya
 hi = Luyindi
@@ -81,9 +85,9 @@ kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
 kk = Kazakh
+kmr = Kurmanji Kurdish
 ko = Lukoleya
 kpv = Komi-Zyrian
-ku = Lukaadi
 kw = Cornish
 ky = Kyrgyz
 lg = Luganda
@@ -156,54 +160,48 @@ languages = Ennimi
 about = Manya
 profile = Pulofayiro
 help = Yamba
-contact = Ennamba
-privacy = Ebyekyama
-terms = Enkolagana
+contact = Tubuulire
+privacy = Eby'ekyama
+terms = Obukwakkulizo
 cookies = Cookies
 faq = FAQ
-content-license-text = Bino webili mu <licenseLink>nkozesa ya Creative Commons</licenseLink>
-share-title = Tufunire abalala batuyambuse ku malaboozi!
-share-text = Yamba okusomesa masiini engeri abantu gye bogera, tuwe eddoboozi lyo ku { $link }
-link-copied = Linki ekopeddwa
-back-top = Ddayo engulu
+content-license-text = Bye tulina biri wansi wa <licenseLink>Creative Commons layisinsi</licenseLink>
+share-title = Tuyambe okufuna abalala baweeyo amaloboozi gaabwe!
+share-text = Yamba okusomesa masiini engeri abantu gye boogera, tuwe eddoboozi lyo ku { $link }
+link-copied = Linki Ekopeddwa
+back-top = Ddayo waggulu
 logout = Fuluma
 
 ## Home Page
 
-home-title = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye bogera.
-home-cta = Yogera, wayo kko wano!
-wall-of-text-start =
-    Voice eli natural, voice muntu. Ky'ova olaba twenyumigizamu nnyo okukola tekinologiya akozesebwa
-    ow'eddoboozi ku masiini zaffe. Naye okukola sisitimu zzino, twetaga data mungi
-    ow'amaloboozi.
-wall-of-text-more-mobile = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tu loncinze pulojekiti ya Common Voice, egenda okuyamba omuntu yenna okumanyisa n'okukozesa amaloboozi.
-wall-of-text-more-desktop = Kakati osobola okudonetinga eddoboozi lyo okutuyamba okuzimba database ey'amaloboozi eyabuli omu, omuntu yena gy'asobola okukozesa okukola appu n'omutimbagano. Soma sentensi okuyamba masini okuyiga engeri abantu gye bogera. Kebera ku waka w'abayambye abalala okusobola okulongoosa quality. Kyangu bwe kityo.
-wall-of-text-first =
-    Voice eli natural, voice muntu. Ky'ova olaba twenyumigizamu nnyo okukola tekinologiya akozesebwa
-    ow'eddoboozi ku masiini zaffe. Naye okukola sisitimu zzino, twetaga data mungi
-    ow'amaloboozi.
-wall-of-text-second = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tu loncinze pulojekiti ya Common Voice, egenda okuyamba omuntu yenna okumanyisa n'okukozesa amaloboozi.
+home-title = Mozilla yasaawo Common Voice okuyamba okusomesa masiini engeri abantu gye boogera.
+home-cta = Yogera, waayo wano!
+wall-of-text-start = Eddoboozi lya butonde, eddoboozi lya buntu. Ky'ova olaba twenyumiriza nnyo mu kukola tekinologiya akozesebwa ow'eddoboozi ku masiini zaffe. Naye okukola sisitiimu z'amaloboozi zino, twetaaga data mungi nnyo ow'amaloboozi.
+wall-of-text-more-mobile = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tulonkinga pulojekiti ya Common Voice, egenda okuyamba okufuula enkola y'okutegeera kw'eddoboozi okubeera nga ya buli omu.
+wall-of-text-more-desktop = Kaakati osobola okuwaayo eddoboozi lyo okutuyamba okuzimba database ey'amaloboozi eyaabuli omu, omuntu yenna gy'asobola okukozesa okukola apu n'omutimbagano. Soma sentensi okuyamba masiini okuyiga engeri abantu gye boogera. Kebera abawaayo abalala byebakoze okusobola okwongenza omutindo. Kyangu bwe kityo!
+wall-of-text-first = Eddoboozi lya butonde, eddoboozi lya buntu. Ky'ova olaba twenyumiriza nnyo okukola tekinologiya akozesebwa ow'eddoboozi ku masiini zaffe. Naye okukola sisitiimu zino, abazizimba beetaaga data mungi nnyo ow'amaloboozi.
+wall-of-text-second = Data asinga okukozesebwa kampuni enene tebamuwa bantu bonna. Tulowooza nti kino kikalubiriza obuyiiya. N'olwekyo tulonkinze pulojekiti ya Common Voice, egenda okuyamba okufuula enkola y'okutegeera kw'eddoboozi okubeera ng'efunika era nga ya buli omu.
 show-wall-of-text = Soma Ebisingawo
 help-us-title = Tuyambe okusunsula sentensi!
-help-us-explain = Nnyiga play, Wuliriza era otubuulire: Sentensi zino wamanga baazogedde bulungi?
-no-clips-to-validate = Kirabika nga tewali bu clip bwakuwuliriza mu lulimi luno. Tuyambe tuterekeyo nga olikodingayo obumu kati.
+help-us-explain = Nyiga play, wuliriza era otubuulire: sentensi zino wamanga baazoogedde bulungi?
+no-clips-to-validate = Kirabika tewali clip zaakuwuliriza mu lulimi luno. Tuyambe okujjuzaawo ng'olikoodingayo ezimu kati.
 vote-yes = Ye
 vote-no = Nedda
-toggle-play-tooltip = Nyiga { shortcut-play-toggle } okukyusa enzanya
+toggle-play-tooltip = Nyiga { shortcut-play-toggle } okukyusa enzannya
 speak-subtitle = Tuwe eddoboozi lyo
-speak-paragraph = Okulikoodinga bu clip bw'amaloboozi nsonga nkulu mu kuzimba dataset yaffe eya buli omu; Abamu bandigamba ky'ekitundu ekirimu okunyumirwa.
-speak-goal-text = Oboloboozi obulikodinge
+speak-paragraph = Okulikoodinga bu clip bw'amaloboozi nsonga nkulu mu kuzimba dataset yaffe eya buli omu; abamu bandigambye nti era kinyuvu.
+speak-goal-text = Clips ezirikodingiddwa
 listen-subtitle = Tuyambe okusunsula amaloboozi.
 listen-paragraph = Okusunsula bu clip obutuweereddwa kyamugaso nnyo mu kutuukiriza mission ya Common voice. Wuliriza era otuyambe okutondawo data w'amaloboozi owabuli omu ali ku mutindo.
-listen-goal-text = Bu clip obusunsuddwa.
-hours-recorded = Essawa Ezilekodingibwa
-hours-validated = Essawa Ezikakasiddwa
+listen-goal-text = Clips ezisunsuddwa.
+hours-recorded = Essaawa Ezirikodingiddwa
+hours-validated = Essaawa Ezikakasiddwa
 voices-online = Amaloboozi agali online kati
-todays-progress = Ebikolebwa leero
+todays-progress = Ebituukiddwako Leero
 help-reach-goal = Tuyambe okutuuka ku { $goal }
-read-terms-q = Osomye Enkolagana yaffe?
-ready-to-record = Wetegese okutuwa ku ddoboozi lyo?
-all-locales = Byona
+read-terms-q = Osomye obukwakkulizo bwaffe?
+ready-to-record = Weetegese okutuwa eddoboozi lyo?
+all-locales = Byonna
 today = Leero
 x-weeks-short =
     { $count ->
@@ -220,14 +218,14 @@ x-years-short =
         [one] mwaka { $count }
        *[other] myaka { $count }
     }
-help-make-dataset = Tuyambe tuzimbe omutindo ogwa wagulu, dataset akirizibwa abantu bonna
+help-make-dataset = Tuyambe okuzimba dataset ey'omutindo ogwa waggulu, ey'olukale nga ya bwereere.
 sign-up-account = Ggulawo akawunti
-email-subscription-title = Ffuna obubaka mu email
-email-subscription-title-new = Ffuna ebifa ku Common Voice, ebijjukizo n'ebwetutuuse.
+email-subscription-title = Funa obubaka mu email
+email-subscription-title-new = Funa ebifa ku Common Voice, okujjukiza ekiruubirirwa kyo ne w'otuuse
 
 ## Account Benefits
 
-benefits = W'ofuniramu
+benefits = Emigaso
 rich-data = Fuula data wo gwowaddeyo omujjuvu nga bw'osobola nga owaayo ebimu ku data w'obuzimbe bw'abantu atamanyikiddwa. Tugyako obulambe bwonna ku data w'obuzimbe bw'abantu nga tetunnamufuula wa lukale.
 improve-audio = Obubaka ku pulofayilo bulongoosa data omwogere akozesebwa mu ku tendeka obutufu bw'entegeera y'okwogera.
 keep-track = Manya ebikwata ku ntambulayo n'ebipimo mu nnimi ennyingi
@@ -241,7 +239,6 @@ whats-public = Olwatu kye ki?
 email-not-public = Tetujja kulaga balala email yo
 recordings-and-locale-public = Omuwendo gw'ebyo by'olikodinze n'ennimi zz'owadeyo bijja kulabika mu lwatu.
 username-optin-public = Osobola okulonda okulaga abalala erinnya ly'okozesa oba okulikweka.
-demographic-deidentified-clarity = Data ow'obuzimbe bw'abantu aw'ereddwayo kyegalalire (nga emyaka, sex, olulimi, ne enjogera) tebijja kulabibwa bantu ku pulofayilo yo, era tebijja kuyungibwa ku akawuntiyo mu dataset. Bu audio clip obwa ssekinnomu bujja kuwanyizibwa ne data w'obuzimbe bw'abantu ku nsonga y'okwongera okwekaliriza ebituufu- Okugeza, Omunoonyereza yandiyagadde okutagetinga enkola y'okusemesa ku segimenti y'obuzimbe bw'abantu.
 username-email-not-demographic = Erinnya lyokozesa ne email tebijakukolaganyizibwa ne bwiino efulumidwa.
 
 ## Speak & Listen Shortcuts
@@ -254,7 +251,7 @@ shortcut-skip = b
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = z
-shortcut-play-toggle-label = zanya/lekerawo
+shortcut-play-toggle-label = Zannya/Lekera awo
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -267,10 +264,10 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = l
-shortcut-record-toggle-label = lekodinga/lekerawo
+shortcut-record-toggle-label = Likodinga/Lekera awo
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ddamu olekodinge
-request-language-text = Tonnaba kulaba lulimi lwo ku Common Voice?
+request-language-text = Tolaba lulimi lwo ku Common Voice?
 request-language-button = Saba olulimu
 
 ## ProjectStatus
@@ -299,15 +296,13 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Myaka
-profile-form-gender =
-    .label = Sex
 leaderboard-visibility =
     .label = Okulabibwa kwa Leaderboard
-hidden = Bikwekweddwa
-visible = Bilabika
+hidden = Terabika
+visible = Erabike
 native-language =
     .label = Olulimi lwe wamwe
-profile-form-submit-save = Sevinga
+profile-form-submit-save = Seevinga
 profile-form-submit-saved = Bisevingiddwa
 male = Musajja
 female = Mukazi
@@ -320,39 +315,38 @@ why-profile-text =
 dashboard = Dashiboodi
 build-profile = Zzimba Profayilo
 avatar = Ka dolle
-goals = Ebitukilizibwa
+goals = Ebiruubirirwa
 settings = Setingi
 edit-profile = Kyusa Profayiro
 profile-create-success = Kulika, profayiro ekolebwa
 profile-close = Ggalawo
 profile-explanation = Kuuma ebikwata ku ntambulayo ne pulofayiro era oyambe data w'amaloboozi okubeera omutufu.
 thanks-for-account = Webale kukakasa akawunti yo, kati katuzimbe profayiro yo.
-why-demographic = Lwaaki kino ky'amakulu?
-why-demographic-explanation = Omukozesa wa data atamanyikiddwa bimwogerako nga emyaka, sex n'enjogera biyamba okulongosa data omwogere akozesebwa okutendeka obutuufu bwa yingini ezitegera okwogera. Username yo ne email tebiriyungibwa ku data gw'owaddeyo, era osobola okulondako okukyusa username yo okulabibwa buli omu oba obutalabibwa muntu yenna.
+why-demographic = Lwaki kino kigasa?
 accept-privacy = Nzikiriza mukozese ebinkwatako nga bwe mu nyonyodde mu <privacyLink>Nkola y'ekyama<privacyLink> ya Mozilla
 accept-privacy-title = Enkola Eyekyama
 login-identity = Login Identity
 login-signup = Yingira / Wewandise
 edit = Kyusa
 email-subscriptions = By'ofuna mu email
-download-profile = Dawunulodinga ebintu byo
+download-profile = Wanula Data Wo
 contribution-experience = Ebirala by'okozze
 skip-submission-feedback = Buuka Okutuwa Obubaka
 skip-submission-description = Bw'oba osindika by'oyambyeko, obubabaka bujja kubukibwa oluvannyuma lw'okunyiga 'Submit'. By'oyambyeko bijja kweyongerayo butereevu ne likoodingi 5 eziddako oba ebisunsuddwa.
 skip-submission-note = Manya: Ojja kwetaga okulonda wakati W'okwogera oba Okuwuliriza okukyusa ekika ky'okuyamba.
-off = Teliko
-on = Kweli
+off = Teriiko
+on = Kweri
 avatar-clip-title = Ka dolle ko kawe eddoboozi
 change-your-avatar-clip = Oyagala kukyusa eddoboozi lyo?
 recording-in-progress = Oli mu ku lekodinga ddoboozi
 avatar-clip-recorded = Ekifananyi kyo kati kijja n'kalaboozi!
 record-voice-wave = LIKODINGA AKALOBOOZI
 retry-voice-wave-recording = DDAMU
-re-record = Lekodinga butto
+re-record = Likodinga buto
 delete-voice = Sangula
-recording-voice-wave = Lekodinga
-delete-voice-clip = oba Sangula eddoboozi
-ready-to-upload = TEKAYO
+recording-voice-wave = Likodinga
+delete-voice-clip = oba Sangula clip y'eddoboozi
+ready-to-upload = TEEKAYO
 avatar-clip-fact = Mazima kuva dda nti omusomi abuzabuzibwa by'asoma ku pegi nga atunilidde enfanana y'ayo.
 recreate-voice = Ddamu Akaloboozi
 cancel-avatar-clip-recording = SAZAAMU
@@ -501,33 +495,31 @@ data-explanatory-text = Tukkiriza nti dataset enene ate nga za lukale az'amalobo
 data-get-started = <speechBlogLink>Tandika N'okutegera Amaloboozi</speechBlogLink>
 data-other-title = Dataset z'amaloboozi endala...
 data-other-goto = Genda mu { $name }
-data-other-download = Dawunulodinga Data
-data-bundle-button = Dawunulodinga Enkata ya Dataset
+data-other-download = Wanula Data
+data-bundle-button = Wanula Ekisaaganda kya Dataset
 data-bundle-description = Data wa Common Voice gattako dataset y'amaloboozi amalala waggulu.
 license = Layisinsi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Ntabule
-data-download-singleword-title = Dawunulodinga ekitundu kya tageti ya Single Word
+data-download-singleword-title = Wanula Single Word Target Segment
 data-download-singleword-callout = This is a use case driven segment containing data to power spoken digit recognition, yes / no detection, and wakeword testing data for <fxLink>Firefox Voice</fxLink>.
 review-terms = Bw'okozesa Common Voice, okiriza <termsLink>Enkolagana</termsLink> ne <privacyLink>Eby'ekyama</privacyLink>
 terms-agree = Nzikiriza
 terms-disagree = Si kkiriza
-review-aborted = Upload esaziddwamu. Oyagala ku deletinga likodingi yo?
+review-aborted = Okuwanikibwa kusaziddwamu. Oyagala kusangula maloboozi go?
 review-submit-title = Wetegereze Osindike
 review-submit-msg = Webale okulikodinga!<lineBreak></lineBreak>Kati byetegereze osindike obuloboozi bwo wansi.
 review-recording = Wetegereze
 review-rerecord = Likodinga buto
 review-cancel = Sazaamu Okusindika
-review-keep-recordings = Teleka ebilikodinge
-review-delete-recordings = Sazaamu ebilikodinge byange
+review-keep-recordings = Tereka amaloboozi
+review-delete-recordings = Sangula amaloboozi gange
 
 ## Datasets Page
 
 datasets-headline = Tuzimba dataset y'amaloboozi ey'obwereere ey'ennimi ennyingi  omuntu yenna gy'asobola okukozesa okuyigiriza tekinologiya  w'okwogera.
 datasets-positioning =
-    Tukkiriza nti dataset enene ate nga za lukale az'amaloboozi zireeta okuyiiya n'okuvuganya okulungi okw'ebyensimbi mu tekinologiya w'okwogera.¶
-    ¶
+    Tukkiriza nti dataset enene ate nga za lukale az'amaloboozi zireeta okuyiiya n'okuvuganya okulungi okw'ebyensimbi mu tekinologiya w'okwogera.
     Dataset ya Common Voice ey'ennimi ennyingi ye dataset ey'amaloboozi ey'olukale esinga obunene mu ngeri yaayo, naye si ye yokka.
-    ¶
     Tunuulira page eno nga ekyokulabirako kya dataset z'amaloboozi ez'olukale era, nga Common Voice bwe ye yongera okukula, ekibanja aw'okufulumiza ebipya ebyaffe.
 language = Olulimi
 # File size in gigabytes
@@ -538,12 +530,12 @@ cv-license = Lukusa
 audio-format = Format y'eddoboozi
 number-of-voices = Omuwendo gw'amaloboozi
 splits = Obutundu
-email-to-download = Saamu Email Okudawunulodinga
+email-to-download = Saamu Email Okuwanula
 why-email = <b>Lwaki email?</b> Bwetuba tuyagade okukutukirira nga waliwo ebicuse ku dataset, email etuyamba okukwatagana nawe.
 confirm-size = Wetegese okutandika oku downloadinga <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Okiriza</b>obutagendelera kuzuula bikwata ku bogezi mu dataset ya Common Voice
+confirm-no-identify = <b>Okkiriza</b> obutagezaako kuzuula bikwata ku boogezi mu dataset ya Common Voice
 download-language = Download { $language }
 validated-hours = Essaawa Ezisunsuddwa
 recorded-hours = Essaawa ezilikodingiddwa
@@ -637,8 +629,8 @@ goal-help-recording = Oyambyeko common voice okutuuka ku <goalPercentage></goalP
 goal-help-validation = Oyambyeko common voice okutuuka ku <goalPercentage></goalPercentage> eya goolo { $goalValue } ez'okusunsula buli lunaku.
 contribute-more =
     { $count ->
-        [one] Wetegese okukola ekilara { $count }?
-       *[other] Wetegese okukola ebilara { $count }?
+        [one] Weetegese okukola ekirala { $count }?
+       *[other] Weetegese okukola ebirala { $count }?
     }
 record-cta = Tandika okulikodinga
 record-platform-not-supported = Platform yo tenaba k'olebwa mu kaseera kano, tusonyiwe.
@@ -661,7 +653,7 @@ share-clip = Ggaba akaloboozi ko
 share-common-voice = Sheyaringa Common Voice
 review-instruction = Weetegereze  & oddemu okwate clips bwe kiba kyetaagisa.
 record-submit-tooltip = { $actionType } sindika nga wetegese
-clips-uploaded = Clips eziwanikiddwa
+clips-uploaded = Clips ziwanikiddwa
 record-abort-title = Sooka omale okulekodinga?
 record-abort-text = Okuvaawo kati kitegeeza ojja kufiirwa by'okozeeko.
 record-abort-submit = Waayo clips
@@ -714,8 +706,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] Ekilikodinge
-       *[other] Ebilikodinge
+        [one] eddoboozi
+       *[other] Amaloboozi
     }
 validations =
     { $count ->
@@ -733,7 +725,7 @@ clips-you-validated = Clips z'okakasizza
 todays-recorded-progress = Wetutuuse leero ku Common Voice ku clips ezirikodingiddwa.
 todays-validated-progress = Wetutuuse leero ku Common Voice ku clips ezikakasiddwa
 stats = Stats
-awards = Awards
+awards = Ebirabo
 you = Gwe
 everyone = Buli omu
 contribution-activity = Contribution Activity
@@ -749,9 +741,9 @@ show-ranking = Ndaga wendi
 
 ## Custom Goals
 
-get-started-goals = Tandika ku bigobero
+get-started-goals = Tandika n'ebiruubirirwa
 create-custom-goal = Teekawo ekiruubirirwa ekikyo
-goal-type = Kiruubirirwa ki ky'oyagala okuzimba?
+goal-type = Kiruubirirwa ki ky'oyagala okuteekawo?
 both-speak-and-listen = By'ombi
 both-speak-and-listen-long = Byombi (Yogera ate owulirize)
 daily-goal = Ekigobero Kya buli lunaku
@@ -764,7 +756,7 @@ lose-goal-progress-warning = Bw'okyusa ekigobero kyo, oyinza okufirwa w'otuuse.
 want-to-continue = Oyagala okweyongerayo?
 finish-editing = Sooka omale by'okyuusa?
 lose-changes-warning = Okugenda kati kitegeeza nti ojja kufiirwa by'okyuusiza
-build-custom-goal = Zzimba eby'okukola
+build-custom-goal = Teekawo ky'oluubirira
 help-reach-hours-pluralized =
     Yamba okuweza{ NUMBER($hours) ->
         [one] { $hours } essaawa
@@ -772,10 +764,10 @@ help-reach-hours-pluralized =
     } mu { $language }  n'ekiruubirirwa ekikyo
 help-reach-hours-general-pluralized =
     Yamba Common Voice okuweza{ NUMBER($hours) ->
-        [one] { $hours } essaawa
-       *[other] { $hours } ssaawa
-    }  mu lulimi n'ekiruubirirwa ekikyo.
-set-a-goal = Tereeza ekigobero
+        [one] essaawa { $hours }
+       *[other] essaawa { $hours }
+    }mu lulimi n'ekiruubirirwa ekikyo.
+set-a-goal = Teekawo ekiruubirirwa
 cant-decide = Tosobola kusalawo?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
@@ -814,9 +806,9 @@ share-goal-type-speak = Okwogera.
 share-goal-type-listen = Okuwliriza
 share-goal-type-both = Okwogera n'okuwuliriza.
 # LINK will be replaced with the current URL
-goal-share-text = Nateekawo ekiruubirwa kyange eky'okuwaayo eri #CommonVoice -- neegattaako oyambe okuyigiriza ebyuma  ngeri abantu abaddala bwe bayogera { $link }
-weekly-goal-created = Ekigobero kyo ekya buli wiiki kikolebbwa
-daily-goal-created = Ekigobero kyo ekya buli lunaku kikolebbwa
+goal-share-text = Ntadewo ekiruubirwa kyange eky'okuwaayo eri #CommonVoice -- neegattaako oyambe okuyigiriza ebyuma ngeri abantu abaddala bwe bayogera { $link }
+weekly-goal-created = Ekiruubirirwa kyo ekya buli wiiki kiteekeddwawo
+daily-goal-created = Ekiruubirirwa kyo ekya buli lunaku kiteekeddwawo
 track-progress = Manyira wano w'otuuse oba ku stats page yo.
 return-to-edit-goal = Komawo wano okyuse ekiruubirirwa kyo essaawa yonna.
 share-goal = Sheyaringa ekigobero kyange

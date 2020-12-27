@@ -42,6 +42,7 @@
         background: #f6f6f5;
 
         @media (--md-up) {
+            position: relative;
             margin-inline-end: 50px;
             padding-top: 50px;
             padding-inline-end: 30px;
@@ -73,12 +74,8 @@
 
             @media (--md-up) {
                 flex-direction: column;
-                margin: 0 auto;
-                width: 100%;
-                max-width: var(--wide-desktop-width);
-                position: absolute;
-                left: 0;
-                right: 0;
+                margin: 0;
+                width: auto;
             }
 
             svg {

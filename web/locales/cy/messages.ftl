@@ -33,14 +33,18 @@ as = Asameg
 ast = Asturieg
 az = Aserbaijaneg
 ba = Bashkirs
+bas = Basaa
 be = Belarusieg
 bg = Bwlgareg
+bm = Bambara
 bn = Bengaleg
 br = Llydaweg
 bxr = Buryat
 ca = Catalaneg
 cak = Kaqchikel
+ckb = Cwrdeg y Canoldir
 cnh = Hakha Chin
+co = Corseg
 cs = Tsiec
 cv = Chuvash
 cy = Cymraeg
@@ -62,6 +66,7 @@ fr = Ffrangeg
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
 gl = Galisieg
+gn = Guarani
 ha = Hausa
 he = Hebraeg
 hi = Hindi
@@ -81,9 +86,9 @@ kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardieg
 kk = Casac
+kmr = Cwrdeg Kurmanji
 ko = Corëeg
 kpv = Komi-Zyrian
-ku = Cwrdeg
 kw = Cernyweg
 ky = Kyrgyz
 lg = Luganda
@@ -140,6 +145,7 @@ uz = Wsbeceg
 vec = Venetieg
 vi = Fietnameg
 vot = Votig
+yue = Cantonëeg
 zh-CN = Tsieinëeg (Tsiena)
 zh-HK = Tsieinëeg (Hong Kong)
 zh-TW = Tsieinëeg (Taiwan)
@@ -249,7 +255,7 @@ whats-public = Beth sy'n Gyhoeddus?
 email-not-public = Fyddwn ni ddim yn gwneud eich e-bost yn gyhoeddus.
 recordings-and-locale-public = Bydd y nifer o recordiadau a pha ieithoedd rydych yn cyfrannu atyn nhw yn gyhoeddus.
 username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n anhysbys.
-demographic-deidentified-clarity = Fydd data demograffig sy'n cael ei gynnig o ran dewis (e.e. oedran, rhyw, iaith, ac acen) byth yn cael ei gyhoeddi ar eich proffil, a fyddan nhw ddim yn gysylltiedig â'ch cyfrif yn y set ddata. Bydd clipiau sain unigol yn gysylltiedig â data demograffig at ddibenion dadansoddiad mwy cywir - er enghraifft, efallai y bydd ymchwilydd eisiau targedu model hyfforddi at segment demograffig penodol.
+demographic-deidentified-clarity-2 = Fydd data demograffig sy'n cael ei gynnig o ran dewis (e.e. oedran, rhyw, iaith, ac acen) byth yn cael ei gyhoeddi ar eich proffil, a fyddan nhw ddim yn gysylltiedig â'ch cyfrif yn y set ddata. Bydd clipiau sain unigol yn gysylltiedig â data demograffig at ddibenion dadansoddiad mwy cywir - er enghraifft, efallai y bydd ymchwilydd eisiau targedu model hyfforddi at segment demograffig penodol.
 username-email-not-demographic = Ni fydd eich enw defnyddiwr na'ch e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
 
 ## Speak & Listen Shortcuts
@@ -311,7 +317,7 @@ profile-form-accent =
     .label = Acen
 profile-form-age =
     .label = Oed
-profile-form-gender =
+profile-form-gender-2 =
     .label = Rhyw
 leaderboard-visibility =
     .label = Gwelededd y Sgorfwrdd
@@ -338,7 +344,7 @@ profile-close = Cau
 profile-explanation = Cadw golwg o'ch cynnydd gyda phroffil a helpu'n data llais i fod yn fwy cywir.
 thanks-for-account = Diolch am gadarnhau eich cyfrif, nawr ymlaen i greu eich proffil.
 why-demographic = Pam fod hyn o bwys?
-why-demographic-explanation = Mae data defnyddwyr dienw fel oed, rhyw ac acen yn helpu i wella'r data sain sy'n cael ei ddefnyddio i hyfforddi cywirdeb peiriannau adnabod llais. Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data rydych wedi ei gyflwyno a gallwch ddewis os ydych am wneud eich enw defnyddiwr yn hysbys neu beidio.
+why-demographic-explanation-2 = Mae data defnyddwyr dienw fel oed, rhyw ac acen yn helpu i wella'r data sain sy'n cael ei ddefnyddio i hyfforddi cywirdeb peiriannau adnabod llais. Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data rydych wedi ei gyflwyno a gallwch ddewis os ydych am wneud eich enw defnyddiwr yn hysbys neu beidio.
 accept-privacy = Rwy'n hapus gyda chi'n defnyddio'r wybodaeth yma fel rydych yn ei esbonio ym <privacyLink>Mholisi Preifatrwydd Mozilla</privacyLink>
 accept-privacy-title = Polisi Preifatrwydd
 login-identity = Enw Mewngofnodi
@@ -390,7 +396,7 @@ faq-why-important-q = Pam mae hyn yn bwysig?
 faq-why-important-a =
     Yn aml, defnyddio ein llais yw'r ffordd fwyaf naturiol rydym yn ei ddefnyddio i gyfathrebu â'n gilydd ac mae technolegau llais yn dod â'r cyfleustra hwnnw i'n cyfrifiaduron a'n dyfeisiau symudol. Rydyn am roi grym i ddatblygwyr adeiladu apiau adnabod llais anhygoel fel cyfieithwyr amser real a chynorthwywyr digidol sy'n defnyddio llais. Ond ar hyn o bryd mae'r rhan fwyaf o'r data llais sydd ei angen i adeiladu'r mathau hyn o apiau yn ddrud ac yn berchnogol. Rydym yn gobeithio y bydd set ddata Common Voice yn rhoi i'r datblygwyr hyn yr hyn sydd ei angen arnyn nhw i arloesi a gwneud technoleg llais ar gael yn eu hiaith eu hunain.
     Er mwyn gwneud adnabod llais hyd yn oed yn fwy cyffredin, rydym yn casglu samplau llais mewn ieithoedd sydd â phoblogaethau mawr llafar yn ogystal â rhai sydd â llai o siaradwyr yn aml wedi'u tan-wasanaethu gan wasanaethau adnabod llais masnachol. Bydd cyhoeddi set ddata amrywiol o leisiau yn grymuso datblygwyr, entrepreneuriaid a chymunedau llais cyfan i fynd i'r afael â'r bwlch hwn eu hunain.
-faq-how-get-q = Sut mae cmodd i mi ael gafael ar ddata Common Voice?
+faq-how-get-q = Sut mae modd i mi gael gafael ar ddata Common Voice?
 faq-how-get-a = Mae set ddata Common Voice ar gael i'w lwytho i lawr o dan y drwydded <licenseLink> CC0 </licenseLink> ar <datasetLink> ein tudalen Setiau Data</datasetLink>. Gallwch hefyd lwytho i lawr nifer o setiau data eraill sydd ar gael i'r cyhoedd o'r un dudalen.
 faq-when-release2-q = Pryd fyddwch chi'n ryddhau data Common Voice mewn ieithoedd eraill?
 faq-when-release2-a = Mae fersiwn iaith lluosog set ddata Common Voice yn cael ei grynhoi a'i lanhau gan y gymuned ar hyn o bryd. Os hoffech ein helpu i ddod â Common Voice i ieithoedd newydd, ewch i edrych ar y <sentenceCollectorLink>Teclyn Casglu Brawddegau</sentenceCollectorLink> ar gyfer ychwanegu brawddegau newydd i'r set ddata, a Mozilla <pontoonLink> Pontoon </pontoonLink> ar gyfer cyfieithu'r wefan ei hun. Bydd ieithoedd newydd yn cael eu hychwanegu at Common Voice am gyfraniadau llais pan fydd 5000 o frawddegau cymeradwy wedi'u casglu.
@@ -521,10 +527,12 @@ data-other-goto = Mynd i { $name }
 data-other-download = Llwytho Data i Lawr
 data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
+release-version = Fersiwn
+dataset-date = Dyddiad
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
 data-download-singleword-title = Llwytho'r Segment Targed Un Gair i Lawr
-data-download-singleword-callout = Mae hwn yn segment sy'n cael ei yrru gan achos defnydd yn cynnwys data i bweru adnabod digidau sy'n cael eu llefaru, canfod ie/na, a data profi gair deffro ar gyfer <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Mae hon yn segment defnydd sy'n cael ei yrru gan achos sy'n cynnwys data i bweru cydnabyddiaeth digid llafar a chanfod iawn / na.
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
 terms-agree = Rwy'n cytuno
 terms-disagree = Nid wyf yn cytuno
@@ -696,6 +704,7 @@ share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil
 login-to-get-started = Mewngofnodiwch neu gofrestru i ddechrau arni
 target-segment-first-card = Rydych yn cyfrannu tuag at ein segment targed cyntaf
+target-segment-generic-card = Rydych yn cyfrannu at segment targed
 target-segment-first-banner = Helpwch i greu segment targed cyntaf Common Voice yn { $locale }
 target-segment-add-voice = Ychwanegwch Eich Llais
 target-segment-learn-more = Dysgu Rhagor
@@ -756,6 +765,7 @@ validations =
 
 your-languages = Eich Ieithoedd
 toward-next-goal = Ymlaen i'r targed nesaf
+goal-reached = Wedi cyrraedd y nod
 clips-you-recorded = Clipiau Rydych Wedi'u Recordio
 clips-you-validated = Clipiau Rydych Wedi'u Dilysu
 todays-recorded-progress = Cynnydd Common Voice heddiw ar glipiau wedi'u recordio
@@ -895,3 +905,39 @@ help-contribute = Gallwch helpu i adeiladu set ddata cod agored amrywiol trwy gr
 login-company = Mewngofnodi/Ymuno gydag e-bost { $company }
 profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
+
+## DemoLayout
+
+demo-get-started = Gadewch i ni Gychwyn Arni
+demo-welcome = Croeso i Common Voice
+demo-welcome-subheader = Oes gennych chi ddiddordeb mewn dysgu rhagor a chyfrannu at y project?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice yw'r set ddata llais aml-iaith fwyaf sydd ar gael i'r cyhoedd.
+demo-language-select-card-body = Diolch i gyfraniadau gan dros 259k o bobl mewn dros 50 o ieithoedd, mae'r data hwn yn cael ei ddefnyddio i hyfforddi rhaglenni lleferydd i ymateb yn well i'r llais dynol.
+card-button-next = Nesaf
+card-button-back = Nôl
+demo-language-select-label = Pori Ieithoedd
+demo-eofy-header = Rhyddhad Diwedd Blwyddyn 2019
+demo-eofy-sub_header = Set Ddata Llais, Yn Barod i'w Lwytho i Lawr
+demo-account = Cyfrif
+
+## Demo Account
+
+demo-account-card-header = Nid oes angen cael cyfrif i gyfrannu ond gall fod yn ddefnyddiol.
+demo-account-card-body = I'r dde rydym yn amlinellu'r buddion ac yn egluro pa wybodaeth rydym yn ei gyhoeddi. Defnyddiwch y dolenni isod i ddechrau gyda chyfrif Common Voice ar eich dyfais eich hun.
+demo-account-enter-email =
+    .label = Rhowch e-bost i anfon dolen ymuno
+demo-account-sign-up = Anfon dolen ymuno
+
+## Demo Contribute
+
+demo-contribute-card-header = Yn barod i ychwanegu eich llais neu'n barod i wrando?
+demo-contribute-card-body = Nawr eich bod yn gwybod ychydig mwy am Common Voice, beth am roi cynnig arni? Cliciwch ar eicon y meicroffon i ddechrau darllen brawddegau yn uchel. <br/> <br/> Os yw'n well gennych adolygu cyfraniadau llais pobl eraill, cliciwch ar yr eicon chwarae. Os yw'r recordiad llais rydych chi'n ei glywed yn cyfateb i'r geiriau sydd wedi'u hysgrifennu ar y sgrin.
+demo-listen-subtitle = Yn barod i gyfrannu?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Mae byrddau gwaith personol yn darparu'r wybodaeth ddiweddaraf am gynnydd unigolion a chymunedau.
+demo-dashboard-card-body = Ar gyfer pob clip llais sy'n cael ei gyfrannu, a phob clip sain sy'n cael ei ddilysu, mae bwrdd gwaith eich cyfrif yn cael eu diweddaru i adlewyrchu'ch cynnydd diweddaraf ym mhob iaith rydych chi'n cyfrannu ati. Ie, gallwch chi gyfrannu at fwy nag un! <br/> <br/> Defnyddiwch fwrdd gwaith i weld eich ystadegau, sut rydych chi'n gwneud o gymharu ac eraill yn y gymuned, a gosod nodau targedau dyddiol neu wythnosol.
