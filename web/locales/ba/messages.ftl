@@ -2,6 +2,9 @@
 
 yes-receive-emails = Эйе, миңә хаттар ебәрегеҙ. Мин Common Voice проекты яңылыҡтары менән танышып тораһым килә.
 stayintouch = Mozilla'ла беҙ һөйләм технологиялары тирәһендә бер йәмғиәт туплау менән мәшғүл. Беҙ һеҙҙе үҙебеҙҙең хәбәрҙәр, яңа мәғлүмәт сығанаҡтары менән таныштырғыбыҙ һәм Һеҙҙең был мәғлүмәтте нисек ҡулланыуығыҙ хаҡында белеп торғобоҙ килә.
+email-input =
+    .label = Эл. почта
+submit-form-action = Ебәреү
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
