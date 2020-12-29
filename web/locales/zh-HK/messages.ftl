@@ -839,9 +839,11 @@ read-more-about = 去關於我哋嘅頁面瞭解更多
 
 demo-get-started = 一齊開始啦！
 demo-welcome = 歡迎使用 Common Voice
+demo-welcome-subheader = 你有無興趣學更多嘢，為呢一個計劃貢獻？
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice係全球最大嘅公開、多語言語音數據集。
 card-button-next = 下一步
 card-button-back = 返回
 demo-language-select-label = 睇下所有語言
