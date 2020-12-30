@@ -157,6 +157,21 @@ hours-recorded = Яҙҙырылған сәғәттәр
 todays-progress = Бөгөнгө прогресс
 all-locales = Бөтәһе
 today = Бөгөн
+x-weeks-short =
+    { $count ->
+        [one] аҙна
+       *[other] аҙна
+    }
+x-months-short =
+    { $count ->
+        [one] ай
+       *[other] ай
+    }
+x-years-short =
+    { $count ->
+        [one] йыл
+       *[other] йыл
+    }
 
 ## Account Benefits
 
@@ -166,12 +181,23 @@ today = Бөгөн
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Уйнатыу/Туҡтатыу
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Яҙҙырыу/Туҡтатыу
+shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
