@@ -2,9 +2,14 @@
 
 yes-receive-emails = Эйе, миңә хаттар ебәрегеҙ. Мин Common Voice проекты яңылыҡтары менән танышып тораһым килә.
 stayintouch = Mozilla'ла беҙ һөйләм технологиялары тирәһендә бер йәмғиәт туплау менән мәшғүл. Беҙ һеҙҙе үҙебеҙҙең хәбәрҙәр, яңа мәғлүмәт сығанаҡтары менән таныштырғыбыҙ һәм Һеҙҙең был мәғлүмәтте нисек ҡулланыуығыҙ хаҡында белеп торғобоҙ килә.
+privacy-info = Беҙ Һеҙҙең мәғлүмәт менән нәзәкәтле эш итергә вәғәҙә бирәбеҙ. Был тураһында күберәк белер өсөн беҙҙең <privacyLink>Хосусилыҡ хагындағы аңлатмабыҙҙы</privacyLink> уҡығыҙ.
+return-to-cv = Common Voice-ҡа кире ҡайтырға
 email-input =
     .label = Эл. почта
 submit-form-action = Ебәреү
+loading = Тейәү...
+indicates-required = * мотлаҡ тултырырға
+not-available-abbreviation = Бирелмәгән
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -23,17 +28,25 @@ as = Ассамса
 ast = Астурийса
 az = Әзербайжанса
 ba = Башҡортса
+bas = Басаса
 be = Беларусса
 bg = Болгарса
+bm = Бамбараса
 bn = Бенгалса
 br = Бретонса
 bxr = Бүрәтсә
 ca = Каталанса
+cak = Какчикелсә
+ckb = Урта курдса
+cnh = Хаха-чинса
+co = Корсиканса
 cs = Чехса
 cv = Сыуашса
+cy = Валлийса
 da = Датса
 de = Немецса
 dsb = лужиса
+dv = Мальдивса
 el = Грекса
 en = Инглизсә
 eo = Эсперанто
@@ -119,6 +132,7 @@ zh-TW = Ҡытайса (Тайвань)
 ## Layout
 
 speak = Һөйләү
+speak-now = Яҙа башлау
 languages = Телдәр
 about = Беҙҙең турала
 profile = Сәхифә
@@ -134,6 +148,7 @@ logout = Сығыу
 
 ## Home Page
 
+show-wall-of-text = Дауамын уҡырға
 vote-yes = Эйе
 vote-no = Юҡ
 speak-subtitle = Тауышыңды бүләк ит
@@ -192,6 +207,7 @@ add-language = Телде өҫтәү
 
 ## ABOUT US
 
+about-listen = Тыңлау
 
 ## Glossary
 
