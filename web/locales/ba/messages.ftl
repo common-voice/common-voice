@@ -134,6 +134,14 @@ logout = Сығыу
 
 ## Home Page
 
+vote-yes = Эйе
+vote-no = Юҡ
+speak-subtitle = Тауышыңды бүләк ит
+speak-goal-text = Яҙылған клиптар
+hours-recorded = Яҙҙырылған сәғәттәр
+todays-progress = Бөгөнгө прогресс
+all-locales = Бөтәһе
+today = Бөгөн
 
 ## Account Benefits
 
@@ -152,9 +160,32 @@ logout = Сығыу
 
 ## ProjectStatus
 
+status-contribute = Тауышыңды өҫтә
+english = Инглисә
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Ҡатнашыусының исеме
+profile-form-native-language =
+    .label = Туған тел
+profile-form-age =
+    .label = Йәшегеҙ
+native-language =
+    .label = Туған тел
+profile-form-submit-save = Һаҡлау
+profile-form-submit-saved = Һаҡланды
+male = Ир-ат
+female = Ҡатын-ҡыҙ
+# Gender
+other = Башҡа
+avatar = Аватар
+settings = Көйләнмәләр
+edit-profile = Сәхифәне үҙгәртеү
+profile-close = Ябырға
+edit = Үҙгәртергә
+delete-voice = Юйыу
+add-language = Телде өҫтәү
 
 ## FAQ
 
