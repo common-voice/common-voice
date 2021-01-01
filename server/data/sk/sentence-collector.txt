@@ -23,6 +23,7 @@ Ako spolu obvykle komunikujete?
 Ako ďalej v najbližších mesiacoch?
 Aká je výhoda e-kníh v porovnaní s tlačenými?
 Akákoľvek údržba systému je v danom prípade náročná.
+Aký je cieľ tohto nariadenie?
 Aký je dnes deň?
 Aký je rozdiel medzi životom a smrťou?
 Alabama
@@ -137,6 +138,8 @@ Bahrajnčan
 Baleáry; Baleárske ostrovy
 Balkánsky poloostrov; Balkán
 Baltský štát; Baltská republika
+Balík opatrení týkajúci sa dodržiavania predpisov
+Balík opatrení týkajúci sa dodržiavania predpisov.
 Bangkok; Krung Thep
 Bangladéš; Ľudová republika Bangladéš; Východný Pakistán
 Bangor
@@ -267,6 +270,7 @@ Diaľnice sú vyhradené len pre motorové vozidlá s určenou povolenou rýchlo
 Dielo je možné použiť iba so súhlasom autora, ak tento zákon neustanovuje inak.
 Dielo je vydané v deň, keď sa oprávnene začalo s verejným rozširovaním rozmnoženiny diela.
 Dielo, ktoré sa stalo voľným, možno voľne použiť.
+Digitalizovaná administratíva.
 Digitálna gramotnosť a sociálne siete.
 Digitálna veda – východiská, problémy a princípy.
 Digitálne repozitáre - registre dát ako sociotechnické systémy na univerzitách sú čoraz aktuálnejšie.
@@ -348,7 +352,9 @@ Frízsko
 Fuego
 Fundský záliv
 Fungi; Huby; ríša húb
+Fungovanie brány bude podporované technickými nástrojmi vyvinutými Komisiou
 Funguje veľmi dobre.
+Fyzické osoby by mali mať kontrolu nad svojimi vlastnými osobnými údajmi.
 Fyzické osoby stále viac zverejňujú svoje osobné údaje, a to aj v globálnom meradle.
 Fínsko; Fínska republika; Suomi
 G; géčko
@@ -366,6 +372,7 @@ Gary
 Gaza; pásmo Gazy
 Generačná výmena hardvéru je preto pomerne náročná.
 Genesis; Kniha Genesis
+Genetické údaje by sa mali vymedziť ako osobné údaje
 Gentianales; rad Gentianales
 Georgia;
 Gettysburg malé mesto v južnej Pennsylvánii
@@ -507,6 +514,10 @@ Je zachovaná verná podoba knižnej predlohy.
 Je štvrť na päť.
 Jebel Musa, Abila, Abyla
 Jednostranná výživa je nesprávna.
+Jednotná digitálna brána nasmeruje občanov a spoločnosti k informáciám
+Jednotná digitálna brána uľahčí online prístup k informáciám.
+Jednotná digitálna brána.
+Jednotné online miesto prístupu k informáciám, postupom a asistenčným službám.
 Jemen; Jemenská republika
 Jenisej; rieka Jenisej
 Jeremiáš; Kniha proroka Jerenmiáša
@@ -608,6 +619,7 @@ Kongo; Konžská demokratická republika; bývalý Zair; Belgické Kongo
 Kongo; Konžská republika; Francúzske Kongo
 Kongres
 Konkrétne sa tieto fakty týkajú týchto sociálnych sietí.
+Kontrola uplatňovania nariadenia prebehne v decembri dvatisíc dvadsať dva
 Koralové more
 Kostaričan
 Kozorožec
@@ -623,6 +635,7 @@ Kurdistan
 Kursk
 Kuvajt; Kuvajtský štát
 Kvalita izolovania voči vetru je priam rozprávková.
+Kvalita, ústretovosť voči používateľom a primeranosť informácií poskytovaných Európskou komisiou
 Kvetná nedeľa
 Kvôli nedostatku vybavenia, sú prevádzkované menej kritické služby aj na starších serveroch.
 Kórea; Kórejský poloostrov
@@ -701,13 +714,16 @@ Majetkové práva vysielateľa sú prevoditeľné.
 Majetkové práva výkonného umelca sú predmetom dedičstva.
 Majetkové práva výrobcu audiovizuálneho záznamu sú prevoditeľné.
 Maďarsko; Maďarská republika
+Medzi príklady patria:
 Medzinárodná agentúra pre atómovú energiu
 Medzinárodná banka pre obnovu a rozvoj
 Medzinárodná námorná organizácia
 Medzinárodná organizácia práce
+Medzinárodné cestné ťahy sú pozemné komunikácie zaradené do niektorej z medzinárodných cestných sústav
 Medzinárodné združenie pre rozvoj; Medzinárodné rozvojové združenie
 Medzinárodný súdny dvor
 Mekong; rieka Mekong
+Meranie rozmerov a hmotností vozidla alebo jazdnej súpravy sa vykonáva určeným meradlom
 Merrimack; rieka Merrimack
 Mesiace v roku.
 Mestská knižnica v Bratislave je verejnou univerzálnou knižnicou mesta Bratislavy.
@@ -727,6 +743,7 @@ Ministerstvo zverejní rozhodnutie o odňatí oprávnenia v evidencii organizác
 Množstvo dát v rôznych formách obrazy, senzorické dáta, simulácie, monitorovanie online správania, meteorologické dáta.
 Modelovanie vedeckej komunikácie a digitálna veda.
 Mohli by ste mi rozmeniť päťdesiať eur?
+Mohlo by to zahŕňať označenie políčka pri návšteve internetového webového sídla
 Musí ich nahrádzať potravinami, obsahujúcimi tie isté látky.
 Musíte ísť doprava.
 Musíte ísť dopredu.
@@ -752,9 +769,11 @@ Na výrobcu audiovizuálneho záznamu sa primerane vzťahujú ustanovenia šiest
 Na výrobcu zvukového záznamu sa primerane vzťahujú ustanovenia šiestej hlavy druhej časti tohto zákona.
 Na základe adresy sa pokúsime lokalizovať človeka s možným malvérom v počítači.
 Nablus
+Nadmerná doprava a nadrozmerná doprava podlieha povoleniu na zvláštne užívanie
 Nadobúda si rozličné choroby a ukracuje si život.
 Nahum; Kniha proroka Nahuma
 Najdôležitejšími otázkami prieskumu boli.
+Najneskôr do dvanactého decembra dvatisíc dvadsať tri musí byť vo všetkých krajinách EÚ
 Najvyšší podiel využívania sociálnych sietí bol zistený v Bratislavskom kraji.
 Najčastejšie sa na „social networking“ využívajú klasické stolové počítače.
 Namiesto papiera používajú elektronický papier, ktorý sa čitateľnosťou od toho obyčajného takmer nelíši.
@@ -767,6 +786,8 @@ Naopak najnižší v kraji Trnavskom.
 Napriek tomu sa mi uši mierne dotýkali vnútornej steny.
 Napríklad prírodní vedci viac píšu články a technickí vedci viac čítajú, ale menej publikujú.
 Napájanie je zabezpečené primeranou jednotkou nepretržitého napájania, no bez záložného generátora.
+Nariadenie Tisíc sedemsto dvadsať šyri o zriadení jednotnej digitálnej brány
+Nariadenie, ktorým sa zriaďuje brána
 Nastav teplotu na dvadsať stupňov celsia.
 Naľčik
 Naša slovenská kuchyňa, ktorej slúžiť má táto kniha, je nie taká bohatá a ťažká.
@@ -823,6 +844,7 @@ Nová Guinea
 Nová Zem
 Nové Anglicko
 Nové Mexiko
+Nové kríženia pozemných komunikácií so železnicami sa zriaďujú zásadne mimo úrovne koľají
 Nové metódy analýzy textu - text miningu.
 Nový Zéland
 Nový Zéland; Novozélandské ostrovy
@@ -851,6 +873,7 @@ Obracaj sa gazdiná, kým sa máš pre koho!
 Obsahuje kompletné informácie o audioknihách.
 Oceánia
 Ochrana elektronických kníh.
+Ochrana fyzických osôb v súvislosti so spracúvaním osobných údajov patrí medzi základné práva.
 Odessa
 Odkiaľ si?
 Odkiaľ ste?
@@ -860,8 +883,10 @@ Odrež to pod uhlom tridsať stupňov!
 Odstúpenie od licenčnej zmluvy z dôvodu nevyužívania výhradnej licencie
 Ohio
 Ohio; rieka Ohio
+Ohlásenie špeciálnemu stavebnému úradu postačuje
 Ohromne návykové!
 Oklahoma
+Okrem toho budú môcť používatelia od decembra v záujme zlepšenia tvorby politík
 Okrem toho, že sociálne siete využíva každý druhý Slovák.
 Okresné úrady v sídle kraja
 Olea; rod Olea
@@ -886,6 +911,7 @@ Orkneje
 Osacký záliv
 Osage; rieka Osage
 Osobitné vzorce sa objavili v oblasti sociálnych a humanitných vied.
+Osobitnú ochranu osobných údajov si zasluhujú deti
 Otomanská ríša; Turecká ríša
 Ottumwa
 Otvorená konštrukcia neposkytuje takú izoláciu od okolitého prostredia ako plne uzavreté slúchadlá.
@@ -898,6 +924,7 @@ Ovis; rod Ovis; ovca; rod ovca
 Ovládanie hlasitosti je geniálne zabudované do pravej mušle.
 Ozeáš; Kniha proroka Ozeáša
 Palačinky sú perfektné ako dezert po obede, prajeme dobrú chuť!
+Pevné prekážky na diaľniciach, cestách a miestnych komunikáciách
 Piliere a zložky digitálnej vedy v kontexte spracovania informácií.
 Plánovanie, príprava a výstavba pozemných komunikácií
 Po pár hodinách nosenia mi to začalo prekážať.
@@ -916,7 +943,9 @@ Použitie diela na vyučovacie účely a pri výskume
 Použitie diela na účel archivovania
 Použitie diela verejným vystavením
 Použitie osirelého diela
+Použitie pseudonymizácie osobných údajov môže znížiť riziká
 Používateľ má umožnený priamy prístup.
+Používateľov hľadajúcich pomoc nasmeruje k službám pomoci a riešenia problémov.
 Používateľské rozhranie je závislé na archaickej verzii Javy.
 Pozemné komunikácie sa rozdeľujú podľa dopravného významu, určenia a technického vybavenia
 Pozemnú komunikáciu tvorí cestné teleso a jej súčasti
@@ -932,11 +961,14 @@ Pred odchodom z bytu aktivuj zabezpečovačku.
 Predmetom štúdie vychádzajúcej z výsledkov prieskumu je rozvíjajúci sa trend.
 Predstavuje ich zastúpenie vo vybraných sociodemografických kategóriách.
 Preferencie v súvislosti s koncovými zariadeniami na prístup k sociálnym sieťam.
+Premávku na pozemných komunikáciách upravujú osobitné predpisy
 Prerozdeľovanie systémových prostriedkov jednotlivým serverom si vyžaduje starostlivé plánovanie.
 Preto je potrebné, aby sa človek stravoval pestrou stravou.
 Preto sme za vás vyskúšali jeden z najlepších.
 Prevádzka jednej zo služieb ovplyvňuje aj ostatné služby bežiace v rovnakom operačnom systéme
+Prevádzkareň znamená efektívny a skutočný výkon činnosti prostredníctvom stálych dojednaní.
 Prevádzkovateľ by mal dotknutej osobe poskytnúť všetky ďalšie informácie
+Prevádzkovateľ by mal použiť všetky primerané opatrenia na overenie totožnosti dotknutej osoby
 Prevádzkové údaje sú uložene na sieťových úložiskách.
 Pri laptopoch, notebookoch a podobne už väčšina používateľov patrí medzi tých intenzívnych.
 Pri pohľade na regióny výskum ukázal dominanciu Bratislavského, Trenčianskeho, Žilinského a Košického kraja.
@@ -1000,6 +1032,8 @@ Sociálne siete a preferovaný hardvér.
 Spolieha sa len na prirodzené vetranie.
 Spoliehame sa len na prestup tepla cez otvorené dvere do vedľajšej miestnosti.
 Spomína sa predovšetkým rozmanitosť pri jeho všeobecnom definovaní.
+Spoplatnenie sa určí podľa typu motorového vozidla
+Spracúvanie osobných údajov by malo byť určené na to, aby slúžilo ľudstvu.
 Správcovia diaľnic, ciest a miestnych komunikácií vedú o týchto pozemných komunikáciách technickú evidenciu
 Staré diskové polia sú doslova produkty z minulého storočia.
 Stavebné povolenie, ani ohlásenie špeciálnemu stavebnému úradu sa nevyžaduje na udržiavacie práce
@@ -1016,10 +1050,13 @@ Tam je najvyššia intenzita využívania sociálnych sietí.
 Tatári vraj jedli mäso len pod sedlom počas dlhej jazdy umäkčené.
 Ten obchod je vzadu.
 Tento dokument má za cieľ zvážiť akým spôsobom by sme túto úlohu mohli plniť.
+Tento postup by sa mal uplatniť najmä pri spracovateľských operáciách veľkého rozsahu
 Tento projekt môžeme právom považovať za najstaršiu digitálnu knižnicu
 Terénny zber údajov bol zabezpečený agentúrou Focus formou face to face rozhovorov.
 Text môže byť načítaný hercom, autorom textu, alebo ho môže zdramatizovať celý kolektív.
 Tieto digitálne repozitáre sústreďujú veľké množstvá empirických dát z výskumov.
+Tieto môžu zanechávať stopy, ktoré sa najmä v kombinácii s jedinečnými identifikátormi
+Tieto postupy sa vzťahujú na situácie, ktoré sa týkajú podnikania, práce
 To je už horšia otázka, ale dobrý antivírus všetko porieši.
 To jest online hry, videá, animácie a tak ďalej.
 To môže viesť k novým výskumným otázkam, ako napr. biodiverzita či genetický výskum.
@@ -1031,6 +1068,7 @@ To znamená komunikácia s priateľmi, známymi, zdieľanie zážitkov a podobne
 Tomu zodpovedá aj ich cena.
 Toto je naša nová kuchyňa.
 Toto nariadenie rešpektuje všetky základné práva a dodržiava slobody a zásady uznané v Charte
+Toto nariadenie sa neuplatňuje na osobné údaje zosnulých osôb.
 Toto nariadenie sa nevzťahuje na spracúvanie osobných údajov fyzickou osobou
 Tradíciu má chemická informatika.
 Treba robiť správne rozhodnutia, ktoré môžu znamenať ekonomickú výhodu.
@@ -1044,6 +1082,7 @@ Táto možnosť predpokladá, že knižnica má vo svojom fonde tlačenú verziu
 Tí menej intenzívnejší zaostávajú i za celoslovenským priemerom.
 Tú by mohol zlomiť azda len grobian.
 Tým posledným sa budeme venovať v tomto príspevku.
+Týmto nariadením nie je dotknuté uplatňovanie smernice Európskeho parlamentu
 Týmto zákonom sa preberajú právne záväzné akty Európskej únie uvedené v prílohe
 U intenzívnych používateľov sa index digitálnej gramotnosti približuje k maximu.
 Udržuj zadanú úroveň teploty v rozmedzí plus mínus tri stupne celsia.
@@ -1060,7 +1099,9 @@ V oblasti medicíny, farmácie alebo v elektronickom zdravotníctve vzniká mno�
 V oblasti vzdelávania sa systémy e-learningu integrujú do webu Linked Open Educational Data.
 V osobnom živote, ale azda ešte viac v dynamickom kolektíve modernej organizácie.
 V porovnaní s nimi sa termín audiokniha objavil len nedávno.
+V praxi to znamená, že vyhľadávacia funkcia na portáli „Vaša Európa“ umožní prístup.
 V prípade geografického pohľadu je opäť dominujúcim Bratislavský kraj.
+V prípade týchto postupov dostanú používatelia možnosť požiadať o priamu výmenu
 V prípade vzdelania zasa platí, že najviac užívateľov sociálnych sietí nájdeme medzi vysokoškolsky vzdelanými.
 V rámci frekvencie využívania sociálnych sietí a úrovne digitálnej gramotnosti je vzájomná závislosť.
 V rámci ďalších možností je na druhom mieste zábava.
@@ -1077,6 +1118,8 @@ Vie zaznamenávať všetky spojenia jednotlivých používateľov a ma zároveň
 Viete o nejakej skupine?
 Vo mne zanechala pocit nesmiernej pevnosti.
 Vyhotovenie rozmnoženiny diela pre súkromnú potrebu
+Vykonávanie
+Vykonávanie nariadenia bude podporovať koordinačná skupina
 Vypni kotol.
 Vypni stroj tlačítkom Stop!
 Vysielanie diela, retransmisia diela a sprístupňovanie diela verejnosti je verejným prenosom diela.
@@ -1095,6 +1138,7 @@ V letných mesiacoch tu dochádza pravidelne k prehrievaniu.
 Väčšina vybavenia je umiestnená centrálne na jednom mieste v serverovni.
 Výhradná licencia a nevýhradná licencia
 Výkon kolektívnej správy práv je službou poskytovanou podľa tohto zákona.
+Výnimka zo zákazu spracúvania osobitných kategórií osobných údajov by sa taktiež mala povoliť
 Výnimku tvoria kraje príliš chudobné — a tam obyčajne pustoší alkohol.
 Výnimky a obmedzenia majetkových práv
 Výnimky a obmedzenia majetkových práv autora k počítačovému programu
@@ -1111,6 +1155,7 @@ Všeobecne sa zdôrazňuje potreba zmien v kultúre správania výskumníkov.
 Všeobecné závery výskumu.
 Všetko také pochúťky, ktoré sa zrovna protivia nášmu vkusu.
 Všetky naše pokrmy a ich súčiastky prešli už zkúšobnými laboratoriami.
+Všetky vnútroštátne online postupy sa musia plne sprístupniť pre cezhraničných používateľov.
 Vždy však je radno pridržiavať sa viac rastlinnej stravy, ako mäsitej.
 Z európskych projektov sa ako príklad uvádza HumanBrainProject.
 Z historického hľadiska môžeme hranicu e-knihy posunúť do čias projektu Gutenberg
@@ -1136,6 +1181,7 @@ Zdroj napájania je v prípade dlhších výpadkov napojený na dieselový gener
 Zhasni všetko osvetlenie domu po dvaciatej tretej hodine večer.
 Zhasni!
 Zhotoviteľ databázy je osoba, ktorá iniciovala a zabezpečila zhotovenie databázy.
+Zhrnutie k dokumentu.
 Zistil som, že mikrofón zachytáva zvuk.
 Zloženie látky nie je homogénne.
 Zmenou oprávnenia je akákoľvek zmena vo vymedzení odborov kolektívnej správy práv.
@@ -1147,14 +1193,22 @@ Zorientovať sa v ponuke nie je nič jednoduché.
 Zoznam diaľnic a rýchlostných ciest je uvedený v prílohe
 Zrakovo znevýhodnení používatelia by však boli dosť zaskočení, že im niekto siahol na knihy.
 Zručnosti a schopnosti pri využívaní sociálnych sietí, teda digitálna gramotnosť.
+Zvláštnym užívaním nie je vlastná činnosť správcov týchto pozemných komunikácií pri ich správe.
 Zvuk slúchadiel je mimoriadne vyvážený a reálny.
 Zvukové knihy a audioknihy v Mestkej knižnici v Bratislave.
 Zvukové knihy či audioknihy v Mestskej knižnici.
 Základom aj v digitálnom prostredí ostáva recenzovaný vedecký časopis.
 Zámerne používame termín klasická kniha, myslíme ňou tlačenú knihu.
 Zároveň výrazne zvyšujeme dostupnosť služieb minimalizovaním výpadkov, spojených s údržbou.
+Zásada „jedenkrát a dosť“
 Zásadnejšie sa mení aj informačné správanie vedcov pri využívaní informácií.
+a aké kroky musia dodržať
 a ekonomická aktivita.
+a fungovanie brány sa bude od roku dvetisíc dvadsať dva kontrolovať
+a o vnútroštátnych pravidlách, ktoré sa ich týkajú
+a orgánmi v krajinách EÚ sa budú monitorovať na základe používateľskej spätnej väzby.
+a registrácia zamestnancov v dôchodkovom a poistnom systéme.
+a riešenia problémov, na ktoré by sa občania a podniky mohli obrátiť
 abnormálny; nadmerný; priveľký
 absolútny; oprávnený; zákonný; zákonom ustanovený
 absolútny; zvrchovaný
@@ -1166,7 +1220,9 @@ africký
 agresívny; bojovný; divý
 agronomický; poľnohospodársky
 agrárny; roľnícky; poľnohospodársky
+aj cezhraničným používateľom.
 ak ide o koncesné cesty
+ak narazia na problémy pri uplatňovaní svojich práv na vnútornom trhu
 akademik
 akceptovaný; prípustný; prijímaný; prijatý
 akceptujúci; prijateľný
@@ -1210,6 +1266,8 @@ akútny; náhly; intenzívny; prudký; ostrý; prenikavý
 album
 albánsky
 ale
+alebo ak majú problémy s postupom
+alebo vnútroštátnu asistenčnú službu
 alergia; alergická reakcia
 alfa
 alfa; primárny
@@ -1820,6 +1878,7 @@ budleja; budleja dávidova; motýlí ker
 budova opery; opera
 budova; dom; sídlo
 budova; stavba; dom
+budú nasmerovaní na najvhodnejšiu asistenčnú službu EÚ
 budúcnosť
 bufet; kantína
 bujný; hojný; bohatý; prehnaný
@@ -1968,6 +2027,7 @@ cievny zväzok
 cievovka
 cieľ
 cieľ; cieľová plocha
+cieľom je spracúvať značný objem osobných údajov na regionálnej, vnútroštátnej alebo nadnárodnej úrovni
 cifra; číslica; číslo
 cigara
 cigareta
@@ -2188,6 +2248,7 @@ dojemný; dojímavý
 dokonalý; absolútny; úplný; perfektný
 dokončený; finálny
 dopredu, dozadu, doprava, doľava
+dotknutá osoba by mala mať právo namietať proti takému spracúvaniu vrátane profilovania
 dočasný; výpomocný; provizórny; núdzový
 druh; forma
 druhá strana; opak; rub
@@ -3442,6 +3503,10 @@ južná hemisféra
 južný
 júl
 jún
+k dispozícii online zoznam dvadsať jeden významných administratívnych postupov.
+k informáciám – občania budú môcť ľahko nájsť spoľahlivé, kvalitatívne informácie o pravidlách EÚ
+k pomoci – ak používatelia stále nerozumejú
+k postupom – občania nájdu informácie o tom, ako presne sa majú realizovať administratívne postupy
 kabaret; nočný podnik
 kabaretné predstavenie; zábavný program v nočnom podniku
 kabelka typu reticule
@@ -3904,6 +3969,7 @@ kontrolný systém
 kontrolovaná látka
 kontrolovaný
 kontrolovateľný; ovládateľný; prístupný
+kontrolovať každé dva roky.
 kontumačná prehra
 konunikačný satelit
 konvencia
@@ -4258,6 +4324,8 @@ krčná žila
 krčný stavec
 krčok maternice; cervix
 kto robí hluk; čo robí hluk
+ktorá ich problém vyrieši.
+ktoré pravidlá sa uplatňujú
 kubický meter; m³; kubík
 kuboidná kosť
 kuchynské náčinie
@@ -4458,6 +4526,7 @@ kľúčový
 kľúčový; dôležitý; podstatný
 kľúčový; najdôležitejší; najpodstatnejší
 kľúčový; ústredný; podstatný
+kľúčovým administratívnym postupom a službám pomoci
 kňaz
 kňaz vychovaný v seminári; seminarista; študent v seminári
 kňazský
@@ -4839,6 +4908,7 @@ medzera; miesto
 medzera; rozpätie; interval
 medzera; škára
 medzerník
+medzi orgánmi v odlišných krajinách EÚ.
 medzihviezdny prach; kozmický prach
 medzimozog; diencefalon
 medzinárodná spravodajská agentúra
@@ -4999,6 +5069,7 @@ modrá
 modrý; belasý
 mokrý
 mokrý; vlhký
+monitorovanie týchto spracovateľských operácií
 monotónny
 moravský
 morový; nákazlivý; zhubný
@@ -5054,6 +5125,9 @@ mýtny priestor
 mýtus; báj; povesť
 mŕtvolný; príšerný; strašidelný; mátožný; pohrebný; ponurý
 mŕtvy; zomretý; - bez života
+na ktorých môžu tieto postupy vykonávať online
+na poskytovanie prístupu k informáciám, postupom a asistenčným službám a službám riešenia problémov
+na požiadanie mu poskytnúť tieto záznamy
 naberačka; varecha
 nacionalista; vlastenec
 nacionalistický
@@ -5119,6 +5193,7 @@ naivný; neskúsený
 naivný; prostoduchý; jednoduchý; neskúsený
 naj; najlepší
 najmenší spoločný násobok
+najmä analýzy chromozómov, deoxyribonukleovej kyseliny, alebo ribonukleovej kyseliny
 najnižšie podanie; vyvolávacia cena
 najviac; väčšina
 najvyššia dovolená rýchlosť; najvyššia povolená rýchlosť; maximálna rýchlosť
@@ -5546,6 +5621,8 @@ núdzové letisko; pristávacia dráha
 núdzové pristátie
 núdzový signál; signál núdze; volanie o pomoc; núdzové volanie
 nútený; neúprimný
+o právach a postupoch, ako aj o webových lokalitách
+o vnútroštátnych pravidlách a pravidlách EÚ
 obal okolo spóry; sporangium
 obal; balenie
 obal; ochranný obal; obálka
@@ -6526,10 +6603,15 @@ pohodlný; nenáročný; ľahký; príjemný
 pohodlný; priestranný
 pohodlný; príjemný
 poháňaný; riadený; podnietený
+pokiaľ súvisí s takýmto priamym marketingom
 pondelok
+poskytnúť spätnú väzbu o problémoch, s ktorými sa mohli stretnúť na jednotnom trhu.
 posudzuje a schvaľuje operačné plány zimnej údržby diaľnic a ciest
 potravina na rýchle upravenie; potravina, čo sa dá rýchlo upraviť
+povaha a závažnosť porušenia ochrany osobných údajov
+počas pobytu alebo podnikania v inej krajine EÚ.
 početný
+pre bránu zložená z národných koordinátorov a Komisie.
 predvolebná porada lídrov; konferencia vedenia alebo voličov politickej strany
 prezident akciovej spoločnosti; riaditeľ akciovej spoločnosti
 promptné informovanie dozorného orgánu
@@ -6548,6 +6630,7 @@ realistický; každodenný; všedný; triezvy; prozaický; praktický
 realitný sprostredkovateľ; realitný agent; obchodník s realitami
 redaktorský; redakčný
 regionálny; oblastný; miestny
+registrácia vozidla
 regulačný
 regulovaný
 rekordný
@@ -6623,6 +6706,7 @@ rýchlonohý; rýchly
 rýchly
 rýchly; pohotový
 rýchly; svižný; bleskurýchly; rezký
+sa uplatní na cezhraničnú výmenu dôkazov pre určitý okruh postupov.
 samostatne zárobkový; pracujúci na voľnej nohe
 samostatný; samostatne stojaci
 samovoľný; spontánny
@@ -6651,12 +6735,16 @@ sivá
 sobota
 spitý; totálne ožratý; totálne sťatý; sfetovaný; nacenganý; naliaty
 spracúva a koordinuje štátnu koncepciu diaľnic a ciest
+spracúvanie je nevyhnutné na splnenie úlohy realizovanej vo verejnom záujme
 sprostredkovateľ by mal byť povinný spolupracovať s dozorným orgánom
 stanovenie hraníc; ohraničenie; vymedzenie; medza
 sto, jednosto
 streda
 strukovinami, zemiakmi a kapustou.
 strukoviny, zeleniny a ovocie.
+sú výsledkom analýzy biologických vzoriek danej fyzickej osoby
+t. j. používatelia nemusia orgánom predkladať dokumenty a údaje, ktoré už majú iné orgány
+tiež vyžaduje, aby boli kľúčové administratívne postupy dostupné online používateľom v ich vlastnej krajine
 tisíc
 tri, trojka, tretí, tretia, tretie
 tridsať
@@ -6669,6 +6757,7 @@ ultramoderný; hypermoderný
 univerzálny; všeobecný; celkový; svetový; celosvetový
 unáhlený; chvatný; rýchly
 upevnený; uchytený; zafixovaný
+uplatnenie nároku na dôchodkové dávky
 uplynulý
 uplynulý; minulý; bývalý; predchádzajúci; predošlý
 uprednostňovaný; preferovaný
@@ -6683,6 +6772,9 @@ užitočný; blahodarný; priaznivý
 v nezhode s; v rozpore s; odlišný
 v plnom znení; neskrátený; úplný; kompletný
 v poriadku; prijatý; Oukej; príma; fajn
+v prípade opravy porúch na podzemných vedeniach uložených v diaľnici
+v prípade, keď chcú uplatňovať svoje práva na vnútornom trhu
+v spolupráci s vnútroštátnymi správami.
 v činnosti; v prevádzke; funkčný; operačný; pracovný
 vakovitý
 varikózny; varixový; podobný kŕčovej žile; nadmerne zväčšený
@@ -6738,6 +6830,8 @@ zabezpečuje jednotný informačný systém zimnej spravodajskej služby
 zelená
 zodpovedaly svojej úlohe a aby nepresahovaly rozpočet, určený na stravu.
 západ
+závažné oprávnené záujmy prevažujú nad záujmami alebo základnými právami a slobodami dotknutej osoby
+získanie európskeho preukazu zdravotného poistenia
 Ámos; Kniha proroka Ámosa
 Ázia
 Ázijčan; Ázijec
@@ -6781,6 +6875,7 @@ západ
 Čile; Čilská republika
 Čiľan; Čiľanka; Chiľan; Chiľanka
 Člen orgánu riadenia nesmie byť členom orgánu kontroly.
+Členské štáty môžu stanoviť pravidlá týkajúce sa spracúvania osobných údajov zosnulých osôb.
 Človek živený prevažne mäsitými pokrmami otravuje sám seba.
 Čudoval som sa, prečo teda počujem svoj dych?
 Čukotské more
@@ -6804,6 +6899,7 @@ západ
 čeľaď Tropaeolaceae; čeľaď žeruchovitých bylín
 čeľaď vtákov
 či došlo k porušeniu ochrany osobných údajov
+či sa prijali všetky primerané technické ochranné a organizačné opatrenia
 čiapka
 čiara
 čiara notovej osnovy
@@ -6956,5 +7052,10 @@ západ
 štyri, štvorka, štvrtý, štvrtá, štvrté
 štyridsať
 štít prístrojov; rozvádzacia doska; kontrolná tabuľa; ovládacia doska; radiaca doska; radiaca skriňa
+štítky na rádiofrekvenčnú identifikáciu
+štúdia alebo sťahovania sa z jedného miesta na iné.
 Že volič nejde až do nuly hodnotím pozitívne.
+žiadosť o akademické uznanie diplomu
+žiadosť o doklad o pobyte
+žiadosť o štipendiá
 žltá
