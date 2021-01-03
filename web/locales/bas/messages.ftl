@@ -455,34 +455,34 @@ about-nav-get-involved = Yoñ ñgaba
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Nsim u Yi
 mycroft-description = Mycrosoft a yé ñgama sadaga i nlel yosô. Mycrosoft a mbôñla to hee - kinyi-nkuu, ikédé matôa, tole i Raspberry Pi.
-mycroft-secondary-description = Ini i yé sadaga hikôm a yé le, to nje a nla tiimba hyelel hyo ijé lihyelhak, tole a nnôbe ijé linôbge, tole a hôlôs ijé lihôlhak. Mycroft a nla bôñla ingadak i manjel, ibôdôl i yum li nson ike pam i mandap ma bahôlôs dikôm di bipahge.
+mycroft-secondary-description = Ini i yé sadaga hikôm a yé le, to nje a nla tiimba hyelel hyo ijé lihyelhak, tole a nnôbe ijé linôbge, tole a hôlôs ijé lihôlhak. Mycroft a nla bôñla iñgadak i manjel, ibôdôl i yum i nson ike pam i mandap ma bahôlôs dikôm di bibañ.
 
 ## Glossary
 
 glossary = Ñkobol-hihehela
 localization = Mawas ma ntjep
-localization-explanation = Hana nyeñ di nnôñôl inyu ihyelel ni ikôlbaha biniigana gwés i mbuu i mahop ipe
+localization-explanation = Hana nyen di nnôñôl inyu ihyelel ni ikôlbaha biniigana gwés ni mbuu i mahop ipe
 sentence-collection = Likôhle mintôñ mi bibuk
 sentence-collection-explanation = Likôhle mintôñ mi bibuk i basadaga ba mapigil, tole lijubus mintôñ mi mondo i sadaga mapigil.
 hours-recorded-explanation = Nsoñgi u mañgeñ ma makiñ ma di makôle ibol hana i ñgéda ini.
-hours-validated-explanation = Nsoñgi u mañgeñ ma makiñ ma di makôhle, ma yé le bôt 2 isi bôt 3 ba nneebe, ba kwet mo le "Ññ". Hala a ñéba libim li bôlô li maséla ikolbaha ni likak jés li 10 li dikôô li mañgeñ.
+hours-validated-explanation = Nsoñgi u mañgeñ ma makiñ ma di makôhle, ma yé le bôt 2 isi bôt 3 ba nneebe, ba kwet mo le "Nn". Hala a ñéba libim li bôlô li maséla ikolbaha ni likak jés li 10 li dikôô li mañgeñ.
 sst = Hop-u-Yilga-Matila (HYM)
 sst-explanation = Mekeñge ma Hop-u-Yilga-Matila (HYM) ma nhyelel hop matila.
-de-identified = mĩhôk-bikadbana
-de-identified-explanation = Maboñok ma mboñ le biyimbne bi nsañge-kiñ bi kudlana ikédé dikékét di makiñ a ñkôle, indéé bi ñkéña njak le mut a nla ket gwo ikédé mayaa.
+de-identified = Minhôk-mi-bikadbana
+de-identified-explanation = Maboñok ma mboñ le biyimbne bi nsañge-kiñ bi liibe ikédé dikékét di makiñ a ñkôle, indéé bi ñkéña njak le mut a nla ket gwo ikédé mayaa.
 
 ## Error pages
 
 error-title-404 = Lipep u ntoñ di nla bé léba jo
-error-content-404 = Bebek <homepageLink>Kumba</homepageLink> i jumbul jés i yé le i hôla we ? Ibale u gwéé mbadga ibat, si nsoohe we le u jôp i <matrixLink>yuyut i ñkwel le Matrix</matrixLink>, hes mandoñ ma jumbul i<githubLink>GitHub</githubLink> tole léñél<discourseLink>biyuyut gwés bi miñkwel</discourseLink>.
+error-content-404 = Bebek <homepageLink>Kumba</homepageLink> i jumbul jés li web i yé le i hôla we ? Ibale u gwéé mbadga ibat, di nsoohe we le u jôp i <matrixLink>yuyut i ñkwel le Matrix</matrixLink>, hes mandoñ ma jumbul i<githubLink>GitHub</githubLink> tole léñél<discourseLink>biyuyut gwés bi miñkwel</discourseLink>.
 error-title-503 = Papama i jam i ñkéñ bés le jumbul jés li kôble ha bé ndugi
-error-content-503 = Ndék ñgéda we jumbul li ntiimba ki bôdôl kôble. Inyu ikôs biniigana bilégék, ndi nsoohe we le u jôp i <matrixLink>yuyut i ñkwel le Matrix</matrixLink>, tole léñél <githubLink>GitHub</githubLink>, tole <discourseLink>biyuyut gwés bi miñkwel</discourseLink> inyu lisule ni hes mandoñ ma mpémél we i jumbul.
+error-content-503 = Ndék ñgéda we jumbul li ntiimba ki bôdôl kôble. Inyu ikôs biniigana bilégék, di nsoohe we le u jôp i <matrixLink>yuyut i ñkwel le Matrix</matrixLink>, tole léñél <githubLink>GitHub</githubLink>, tole <discourseLink>biyuyut gwés bi miñkwel</discourseLink> inyu lisule ni hes mandoñ ma mpémél we i jumbul.
 error-code = Hihôha{ $code }
 
 ## Data
 
 data-download-button = Ket minje mi Common Voice
-data-download-yes = Ññ
+data-download-yes = Nn
 data-download-deny = To
 data-download-license = Matédél : <licenseLink>CC-0</licenseLink>
 data-download-modal = Ñkeda u minje mi nyét <size>{ $size }Go</size> u yé bebee ni bôdôl, u ñke ni bisu ?
