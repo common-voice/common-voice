@@ -521,6 +521,13 @@ size = Pôk
 validated-hr-total = Nsôngi u mañgeñ ma mineebana
 overall-hr-total = Ñsongi u ñgeñ yosô.
 cv-license = Matédél
+audio-format = Kôgôp i hikôm hi kiñ
+number-of-voices = Nsoñgi u dikékét di makiñ
+splits = Mimbaglak
+email-to-download = Tila njañ i mél yoñ ndi u gaket minje
+why-email = Inyu kii di mbédél <b>njañ yoñ mél ?</b> Inyule di yé le di bana ñǵoñ i tilna we ibale mahéñha ma mba i mayaa ma minje.
+confirm-size = Ba mbômhaga i ket minje mi pôk yap i yé<b>{ $size }</b>
+size-gigabyte = GO
 
 ## Download Modal
 
