@@ -626,6 +626,22 @@ contribute-more =
 record-cta = Bôdôl odol
 record-platform-not-supported = Di mbat nwéhél, juu joñ li yé ngineebana.
 record-platform-not-supported-desktop = I bakiyi-minkuu ba Windows unla ket inyu liyoñ ñgaba.
+record-platform-not-supported-ios-non-safari = I iOS bibañ, yoñ ñgéda le u bôñôl nyum u bihônd le Safari inyu ila odol
+record-must-allow-microphone = U nlama ndugi hyohol biodlene
+record-no-mic-found = Odlene to yada i nlébna bé
+record-error-too-short = Liodol joñ li nlôôha bikidik
+record-error-too-long = Liodol joñ li nlôôha ap.
+record-error-too-quiet = Liodol joñ li nlôôha nôôga i si.
+record-cancel = Bôk ndiimba-odol
+record-instruction = { $actionType }<recordIcon></recordIcon> imbus u añ ntôñ u bibuk ni kiñ ngii.
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> Indéé u mmal
+record-three-more-instruction = A yii we biaa
+record-again-instruction = Jéé! <recordIcon></recordIcon> Odol hikékét hyoñ hi kiñ hi nnoñ
+record-again-instruction2 = Lédés, tiimba odol<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> hi nsôk!
+review-tooltip = Sie imbus u tiimba odol dikékét di makiñ hana njénjéba
+share-clip = Tôô hikékét hyon hi kiñ
+share-common-voice = Tôô Common Voice
 
 ## Reporting
 
