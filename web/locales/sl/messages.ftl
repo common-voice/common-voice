@@ -142,6 +142,7 @@ uz = uzbeščina
 vec = beneščina
 vi = vietnamščina
 vot = votščina
+yue = kantonščina
 zh-CN = kitajščina (Kitajska)
 zh-HK = kitajščina (Hong Kong)
 zh-TW = kitajščina (Tajvan)
