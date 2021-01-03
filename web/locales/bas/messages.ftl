@@ -181,33 +181,33 @@ home-cta = Podok, sañge kiñ yoñ hana!
 wall-of-text-start = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge inya i yé le bikey gwés bilak nigle to solol makiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
 wall-of-text-more-mobile = Jôga li mayaa ma makiñ ma mbom i mandap ma likégés makeñge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñge li isolol makiñ, to nje a la gwélél jo.
 wall-of-text-more-desktop = I bitéé bi lôñ, u nla sañge kiñ yoñ inyu hôla lioñ sadaga  toga i makiñ, nu himut a nla bôñôl, ni ôô bihélha bi bibañ binkiha ni nya-ndi-nya i bikey, to ni web. Añ nlôñ u bitilna inyu hôla bikey le binigil lela bôt ba binam ba mpot i ntiik u lipodok. Emble makiñ ma bôt bape ba mbôk ba sañge, ika iyé le nson u héba mahoñ. Hala a nlôô yaga bé let pak!
-wall-of-text-first = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge ni njel i bikey gwés, ma nla hôla i kek kiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
-wall-of-text-second = Jôga li mayaa ma makiñ ma mbom i mandab ma likégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñnge li isolol makiñ, to nje a la gwélél jo.
+wall-of-text-first = Kiñ iyé kom-ligwéé, kiñ i yé bôk-ni-nyu. Inyu hala nyen lôôha yéñe a yé bés i hôlôs makeñge ni ini njel le bikey gwés bilak nigle to isolol, to ikek makiñ. Ndi inyu boñ le di laa hôlôs mana makeñge, i mbéda didun ndi didun di makiñ.
+wall-of-text-second = Jôga li mayaa ma makiñ ma mbom i mandab ma likégés makenge ni nkus ma mbôñôl, ma néhi bé le to nje a nla bôñôl mo. I tehe wés, hala a nhôhôs mahol ma yi. Inyu hala nyen di bi bônde Common Voice, nu a yé juu li nson li nhôla le likeñge li isolol makiñ, to nje a la gwélél jo.
 show-wall-of-text = Kônde añ
-help-us-title = Hôla bés i nneebe le ntôñ u bibuk u héli.
-help-us-explain = Nwot play, emble ni kal bés : ba u ntôñ bibuk u yé ha isi, u ñéña loñge?
+help-us-title = Hôla bés i nneebe le ngim ntôñ u bibuk u héli.
+help-us-explain = Nwot play, emble ni kal bés : ba u ntôñ u bibuk u yé ha isi, u ñéña loñge?
 no-clips-to-validate = I nnene u yik we makiñ ma nsot inyu liemble munu unu hôp. Soho hôla bés le dikônde nôbe ndék i makiñ munu.
 vote-yes = Nn!
 vote-no = To
 toggle-play-tooltip = Nwot { shortcut-play-toggle } inyu liheñla i ka-play
 speak-subtitle = Pôôs kiñ yoñ.
-speak-paragraph = Lisange makiñ liyé hipa hyada ikédé dipa dipe di ngwélél inyu ligwo mayaa ma minje, mabak kunde ibônôl: bebek uyé le uhoñol kikii ngandak ibot ipe i nhoñol le, inya nson i, iyé minyaô.
-speak-goal-text = Minsangge mi dikékét di makiñ
-listen-subtitle = Hôla bés i kémhe le kiñ i héli.
-listen-paragraph = Likémhe le kiñ i héli liyé nseñ ngandak inyu nson u digwéé i sal i Common Voice. Yoñ ndék ngéda i emble, ka iyé le, hala a laa hôla bés i ôô mayaa ma minje mii makiñ, ma ma gwéé nseñ
+speak-paragraph = Lisañge makiñ liyé hipa hyada ikédé dipa dipe di ñgwélél inyu ligwo mayaa ma minje, mabak kunde le to nje a nla bônôl: bebek uyé le u hoñol kikii ñgandak ibot ipe i nhoñol le, inya nson i, iyé minyaô.
+speak-goal-text = Minsañgge mi dikékét di makiñ
+listen-subtitle = Hôla bés i nneebe le kiñ i héli.
+listen-paragraph = Lineebele kiñ i héli liyé nseñ ñgandak inyu nson u digwéé i sal i Common Voice. Yoñ ndék ñgéda i emble, ka iyé le, hala a laa hôla bés i ôô mayaa ma minje mii makiñ, ma ma gwéé mahoñ.
 listen-goal-text = Minneebege mi dikékét di makiñ
-hours-recorded = Nsongi u mangeñ u minsangge mi makiñ
-hours-validated = Nsongi u mangeñ u minyigyege mi makiñ
+hours-recorded = Nsoñgi u mañgeñ u minsañgge mi makiñ
+hours-validated = Nsoñgi u mañgeñ ma mineebege mi makiñ
 voices-online = Makiñ ma mayé i mpee, hanano
 todays-progress = Libim li nson u nséla len
 help-reach-goal = Hôla bés le di yônôs { $goal }
 read-terms-q = Hôla bés le mabéhna més ma éña
-ready-to-record = Ba u yé nkôôbaga hanano i sange kiñ yoñ e ?
+ready-to-record = Ba u yé ñkôôbaga hanano i sañge kiñ yoñ e ?
 all-locales = Gwobisô
 today = Len
 x-weeks-short =
     { $count ->
-        [one] Wondi
+        [one] Sondi
        *[other] { $count }Sondi
     }
 x-months-short =
