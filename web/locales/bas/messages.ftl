@@ -658,9 +658,22 @@ listen-empty-state = Dikékét di makiñ di ñhéñél bés inyu ineebe munu 
 speak-empty-state = Mintôñ mi bibuk mi ñhéñél bés inyu iodol munu unu hop.
 speak-empty-state-cta = Sañge ntôn u bibuk
 record-button-label = Odol kiñ yoñ
+share-title-new = <bold>Hôla bés</bold> le di kôhle makiñ mape
+keep-track-profile = Hes mahol ma bôlô yoñ i yimbne yoñ
+login-to-get-started = Jôp tole tila jôl inyu ibôdôl
+target-segment-first-card = When u yé mut bisu i sañge ndak suñ yés i bisu
+target-segment-generic-card = U nhôla i sañge ngim ndak suñ yada
+target-segment-first-banner = Hola i sañge ndak suñ i Common Voice i bisu, i { $locale }
+target-segment-add-voice = Nôbe kiñ yoñ
+target-segment-learn-more = Kônde añ bitilna
 
 ## Reporting
 
+report = Too ndoñ
+report-title = Sule ndoñ u ntoo
+report-ask = mimbe mintén mi minsidik u ntehe munu i ntôn u bibuk unu ?
+report-offensive-language = Bitilna bi nyumbi
+report-offensive-language-detail = I ntôñ u bibuk unu, u yé diyana tole nyumbi.
 
 ## Goals
 
