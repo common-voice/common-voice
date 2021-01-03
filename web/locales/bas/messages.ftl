@@ -534,6 +534,12 @@ download-language = Ket{ $language }
 validated-hours = Minneebege mi mañgeñ
 recorded-hours = Miñodlak mi mañgeñ
 whats-inside = Ki i yé i kédé Liyaa li makiñ li Common Voice ?
+dataset-description-hours = Hiki hibaba hi kiñ ikédé liyaa li gwéé pom MP3 ntôñ ni bôm i matila yé. Jôga li mañgeñ lipe ikédé nsoñgi u miñodlak mi mañgeñ <b>{ $total }</b> i mayaa, li yé ntôñ ni biyimbne bi basañge, kiki bo nwii, libak li muda tole munlôm, lipodok, bi bi nla hôla i niiga minyum mi nnigle ni isolol makiñ.
+want-dataset-update = U yé le u bana ngôñ le di bigda we ibale bitéé bipe bi mayaa ma Common Voice bi mpam e ? Tila jôl i jujut yés i manwin.
+subscribe = Tila jôl
+get-started-speech = Nyuge môñgô i lom ni likeñge li isolol to linigle makiñ
+other-datasets = Mayaa ma makiñ mape
+feedback-q = U mbat ndoñ e?
 
 ## Download Modal
 
