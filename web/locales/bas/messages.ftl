@@ -487,6 +487,16 @@ data-download-deny = To
 data-download-license = Matédél : <licenseLink>CC-0</licenseLink>
 data-download-modal = Ñkeda u minje mi nyét <size>{ $size }Go</size> u yé bebee ni bôdôl, u ñke ni bisu ?
 data-subtitle = Ndi nhôlôs sadaga mayaa ma makiñ ni ti me le to nje a nla bôñôl mo i niiga bikey lisolol to linigle makiñ.
+data-explanatory-text = Mahoñol més ma yé le basoso ba mayaa ma makiñ ba ba ntiba sadaga, ba nla hôla le pémsan i ndaaba i hôlôs makeñge ma makiñ i ba bañ nyugna-nyugna. Unu nson u yé nson u libut, u yé le himut a yé nséblaga i yoñ ñgaba. Iyés pes, ndun i yé le makeñge ma lisolol to linigle makiñ ma ba bañ ndigi ma néhi inyu ñgim i bôt, ndi mayibla yaga inyu nya-ndi-nya i mahop ni makiñ ma bôt bobasô ni ñkoñ hisi.
+data-get-started = Nyuge môngo ikédé Lisolol makiñ
+data-other-title = Mayaa ma makiñ ma mahop mape...
+data-other-goto = Lela i { $name }
+data-other-download = Ket minje
+data-bundle-button = Ket njak i mayaa ma minje
+data-bundle-description = Minje mi Common Voice ntôñ ni mayaa ma makiñ mape mu i ñgii.
+release-version = Bitéé bi lipémhak
+dataset-date = Kel
+license-mixed = Mbôda
 
 ## Datasets Page
 
