@@ -690,10 +690,32 @@ report-success = Ndoñ u ntoñ di nléés yo gwégwéé
 
 ## Goals
 
-streaks = Njañ
+streaks = Minyégla
+days =
+    { $count ->
+        [one] Hilo hyada
+       *[other] Dilo ditan
+    }
+recordings =
+    { $count ->
+        [one] liodol jada
+       *[other] maodol matan
+    }
+validations =
+    { $count ->
+        [one] Lineebe jada
+       *[other] Maneebe matan
+    }
 
 ## Dashboard
 
+your-languages = Mahop moñ
+toward-next-goal = Bééla i ndak i nnoñ
+goal-reached = Ndak i nyon.
+clips-you-recorded = Dikékét di makiñ u ñodol
+clips-you-validated = Dikékét di makiñ u nneebe
+todays-recorded-progress = Libim li nson u len u liodol dikékét di makiñ i Common Voice
+todays-validated-progress = Libim li nson u len u lineebe dikékét di makiñ i Common Voice
 
 ## Custom Goals
 
