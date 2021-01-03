@@ -486,6 +486,7 @@ data-download-yes = Nn
 data-download-deny = To
 data-download-license = Matédél : <licenseLink>CC-0</licenseLink>
 data-download-modal = Ñkeda u minje mi nyét <size>{ $size }Go</size> u yé bebee ni bôdôl, u ñke ni bisu ?
+data-subtitle = Ndi nhôlôs sadaga mayaa ma makiñ ni ti me le to nje a nla bôñôl mo i niiga bikey lisolol to linigle makiñ.
 
 ## Datasets Page
 
