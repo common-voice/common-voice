@@ -549,15 +549,38 @@ data-other-voxforge-description = VoxForge a bibôda inyu ikot miñkwedek mi ma
 data-other-tatoeba-description = Tatoeba a yé nlume u toga i mayaa ma mintôñ mi bibuk, minhyelaga, ni bipôdôl bi nyo bi mbôñla i yigil i mahop. Ini ngédek i gwéé bipôdôl bi nyo bi hop u ñgisi bi bet-loñ ba biodol bomede.
 your-feedback = Mahoñol ma yé we lela di nla kônde lémés mayaa ma makiñ ma Common Voice e ? U yis ni bés i Yuyut i Nkwel
 go-discourse = Kenek i Nkwel
+missing-language = Hop woñ u njôbôk bé i Mayaa e ? Ibale u ñgwés jubus hop woñ, leñ jis i kumba wés lipep.
+go-languages-page = Kenek i lipep jés li mahop
+ready-to-validate = U yé mbômhaga i hola lineebe mintôñ mi makiñ e ?
+more = Bipe
+close = Yip
+download = Ket
+dataset-version = Bitéé bi lipémhak
 
 ## Download Modal
 
+download-title = Ñkeda woñ u mbôdôl
+download-helpus = Hola bés le di kot bôt ikédé lihôlôs makeñge ma makiñ, u lok u leñek jis i mél ñwoñ.
+download-form-email =
+    .label = Tila njañ yoñ mél
+    .value = Di nyéga we, di gaba di ñkoode we
+download-back = Témb i Mayaa ma Common Voice
+download-no = To, ñwahga
 
 ## Contact Modal
 
+contact-title = Lipep li ñgoode
+contact-form-name =
+    .label = Jôl
+contact-form-message =
+    .label = Nwin
+contact-required = *Mahihna
 
 ## Request Language Modal
 
+request-language-title = Lilegle ñgim hop
+request-language-form-language =
+    .label = Hop
 
 ## Languages Overview
 
