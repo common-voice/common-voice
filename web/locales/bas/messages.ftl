@@ -716,6 +716,17 @@ clips-you-recorded = Dikékét di makiñ u ñodol
 clips-you-validated = Dikékét di makiñ u nneebe
 todays-recorded-progress = Libim li nson u len u liodol dikékét di makiñ i Common Voice
 todays-validated-progress = Libim li nson u len u lineebe dikékét di makiñ i Common Voice
+stats = Pôk i ñañga
+awards = Bibom
+you = We
+everyone = Himut
+contribution-activity = Minleña i ñjangi
+top-contributors = Babôk bisu i kédé basañge
+recorded-clips = Miñodlak mi dikékét di makiñ
+validated-clips = Mineebege mi dikékét di makiñ
+total-approved = Mineebege ñwominsô
+overall-accuracy = Makégél-i-hyés momasô
+set-visibility = Makégél inyu manene mem
 
 ## Custom Goals
 
