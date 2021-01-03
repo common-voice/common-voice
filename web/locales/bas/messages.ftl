@@ -591,9 +591,32 @@ other-language = Hop mpe
 language-section-in-progress = Lôm i nlôm
 language-section-in-progress-new-description = Mana mahop ma yé i si mahôlôs ba bet-hop i ñgeñ ini di téé. Kiki bôlô i nséla, hala nyen ntendee u ñéba inya libim li ntel <localizationGlossaryLink>mawas ma ntjep ma njumbul li web</localizationGlossaryLink> li hiki hop ma gwéé, nlélém ni <sentenceCollectionGlossaryLink>likot mintôn mi bibuk</sentenceCollectionGlossaryLink>.
 language-section-launched = Môngô u nyugna
+language-section-launched-description = Inyu mahop mayé banhugba môngô, jumbul jap li web li yé <localizationGlossaryLink>bawéha ntjep</localizationGlossaryLink>, ma gwéé ki libim li <sentenceCollectionGlossaryLink>miñkodok mi mintôñ mi bibuk</sentenceCollectionGlossaryLink> mi nti njel le bôt ba sañge to <speakLink>lipôdôl/speakLink> to <listenLink>liemble</listenLink>.
+languages-show-more = Kônde tehe bipe
+languages-show-less = Tehe ndék
+language-meter-in-progress = Ntel u bôlô
+language-total-progress = Ñwominsô
+language-search-input =
+    .placeholder = Yéñ
+language-speakers = Bapot
+localized = Miñwahak mi mintjep
+sentences = Mintôn mi bibuk
+total-hours = Mineebege mi mañgeñ
 
 ## Contribution
 
+action-click = Ñwot
+action-tap = Hihe
+contribute = Sañge
+listen = Emble
+skip = Him
+shortcuts = Basemkwep
+clips-with-count-pluralized =
+    { $count ->
+        [one] Hikékét hi kiñ
+       *[other] Dikékét di makiñ
+    }
+goal-help-recording = U nhôla le Common Voice a yônôs ndak i ñañga i<goalPercentage>kel</goalPercentage>!
 
 ## Reporting
 
