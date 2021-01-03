@@ -545,7 +545,10 @@ common-voice-info-new = Ugwéé mbadga le u yé le u gwés bat inoñnaga ni Com
 data-other-librispeech-description = LibriSpeech a yé lingund li gwéé yom kiki 1000 hi mañgeñ ma miñañga ni hop u Nginsi i nkôñ u 16Khz, mi nlôl i bikaat biéña bi mpémél i yum i nso le LibriVox
 data-other-ted-name = TED-LIUM Liñgund
 data-other-ted-description = TED-LIUM Liñgund a bi bôda ni miñañ mi nyo mi mi bi kwéda ni matila gwobisô bibak ntéédaga i Jumbul li TED.
-data-other-voxforge-description = VoxForge a bibôda inyu ikot miñkwedek mi mahop ma nyo
+data-other-voxforge-description = VoxForge a bibôda inyu ikot miñkwedek mi mahop ma nyo, ni njel le bi bôñla i Basadga ba Minyum mi nsolol ni linigle makiñ.
+data-other-tatoeba-description = Tatoeba a yé nlume u toga i mayaa ma mintôñ mi bibuk, minhyelaga, ni bipôdôl bi nyo bi mbôñla i yigil i mahop. Ini ngédek i gwéé bipôdôl bi nyo bi hop u ñgisi bi bet-loñ ba biodol bomede.
+your-feedback = Mahoñol ma yé we lela di nla kônde lémés mayaa ma makiñ ma Common Voice e ? U yis ni bés i Yuyut i Nkwel
+go-discourse = Kenek i Nkwel
 
 ## Download Modal
 
