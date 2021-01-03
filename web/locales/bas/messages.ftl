@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Nn, ni nla om me bimél inyu iyis me kiki mahol ma yum i nson i hop u basaa  ma nke i Common Voice
-stayintouch = Ikede jut li bôlô le Mozilla, di ñkot bôt inyu lihôlôs minsélél mi mapôdôl. Di yé le di gwés kônde ba libaba ni we, ka i ye le u lak yis bés ibale manjel ma yondo ma libulus njañgi makiñ, ma nnene, ni inyu iyi lelaa u ñgwélél  mayaa ma makiñ ma nsaňgna.
+yes-receive-emails = Nn, ni nla om me bimél inyu iyis me kiki mahol ma yum i nson u hop u basaa  ma ñke i Common Voice.
+stayintouch = Ikede jut li bôlô le Mozilla, di ñkot bôt inyu lihôlôs minsélél mi mapôdôl. Di yé le di gwés kônde ba libaba ni we, ka i ye le u lak yis bés ibale manjel ma yondo ma libulus njañgi makiñ ma nnene, ni inyu iyi lelaa u ñgwélél  mayaa ma makiñ ma nsaňgna.
 privacy-info = Di mbôn we le, di gatédés libim u nla saňge. U yé le u kônde kôs ndoñol ikolbaha ni <privacyLink>ñkok u matédés</privacyLink> wés.
 return-to-cv = Témb i Common Voice
 email-input =
