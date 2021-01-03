@@ -540,6 +540,8 @@ subscribe = Tila jôl
 get-started-speech = Nyuge môñgô i lom ni likeñge li isolol to linigle makiñ
 other-datasets = Mayaa ma makiñ mape
 feedback-q = U mbat ndoñ e?
+deepspeech-info = Mayaa ma makiñ ma Common Voice ma njéhne sadaga nyum u lisolol makiñ u yé jôl le Deep Speech, i mut a nla bôñôl inyu ihôlôs bibañ mi lisolol to linigle makiñ ma bôt. Añ <githubLink>Semkwep ndoñ i Github</githubLink> tole lo koba bés i <discourseLink>Juu li nkwel li DeepSpeech</discourseLink> inyu likôhna biniigana ihet u bôdle.
+common-voice-info-new = Ugwéé mbadga le u yé le u gwés bat inoñnaga ni Common Voice e ? Tole mahoñol inyu mahol tole ndogha i béngege ñgim hop tôbôtôbô ? Lo koba bés i<discourseLink>yuyut yés i knwel</discourseLink>, ndi u gayis bés bini.
 
 ## Download Modal
 
