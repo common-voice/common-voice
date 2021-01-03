@@ -314,10 +314,10 @@ female = Muda
 # Gender
 other = Muda bé ndi to mulôm bé
 why-profile-title = Liyimbne li nhôla kii ?
-why-profile-text = Hiki ngéda u gayelel yimbne yada i libak joñ, u gahôla le, mayaa ma makiñ u nsañge i Common Voice ma kônde bana mahee inyu lihôlôs minyum mi lisolol makiñ, bi bi mbôñôl mana mayaa inyu ndip i lisoolak li makiñ.
+why-profile-text = Hiki ñgéda u gayelel yimbne yada i libak joñ, u gahôla le, mayaa ma makiñ u nsañge i Common Voice ma kônde bana mahee inyu lihôlôs minyum mi lisolol makiñ, mi mi mbôñôl mana mayaa inyu ndip i lisoolak li makiñ.
 dashboard = Kumba
 build-profile = Ôô liyimbne joñ
-avatar = ́Ôngba i binjénjé
+avatar = Liñgeliñge i binjéjé
 goals = Makak
 settings = Makégél
 edit-profile = Juble liyimbne joñ
