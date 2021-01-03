@@ -220,8 +220,8 @@ x-years-short =
         [one] nwii
        *[other] { $count }nwii
     }
-help-make-dataset = Hôla bés le bi ôô mayaa ma minje ma ñguy inyu bôt bobasô
-sign-up-account = Tilba inyu ibana ijoň liboñ
+help-make-dataset = Hôla bés le di ôô mayaa ma minje ma mahoñ inyu bôt bobasô
+sign-up-account = Tilba inyu ibana ijoň libôñ
 email-subscription-title = Tilba inyu ikôhna mél yôha ni kel
 email-subscription-title-new = Tila jôl inyu ikôhna manwin ma Common Voice, mbigda iyônôs ndak bôlô, ni yôha ni kel mañgan ma mahol ma nson
 
@@ -229,19 +229,19 @@ email-subscription-title-new = Tila jôl inyu ikôhna manwin ma Common Voice, mb
 
 benefits = Minseñ
 rich-data = Ḱonde mahoñ munu ikédé mayaa ma minje u nsañge, inya u yé le u la, ni inôbe bikadbana gwoñ, iba bé iyelel jol joñ. To ibale jôl linnene we mu i bikadbana bi, di nhô jo, nwaa di ntjam bikadbana gwoñ.
-improve-audio = Biyimbne gwoñ unti, binhôla i yidis nguy i mayaa ma makiñ u nsange, ka iyé le hala a nhôñôs likenge li lisolol makiñ.
+improve-audio = Biyimbne gwoñ u nti, binhôla i kônde mahoñ i mayaa ma makiñ u nsañge, ka iyé le hala a nhôñôs likenge li lisolol ni linigle makiñ.
 keep-track = Béna hes mahol ma nson woñ ni mahol ma bôlô i mahop mape.
-compare-progress = Bénge ihet mahol ma nson woñ matééne, inoñnaga ni mahol ma bansange makiñ bape ni nkoñ isi wonsô.
-view-goals = Bénge mahol ma nson woñ inoñnaga ni makak moñ wemede.
+compare-progress = Béñge ihet mahol ma nson woñ matééne, inoñnaga ni mahol ma bansañge makiñ bape ni ñkoñ isi wonsô.
+view-goals = Béñge mahol ma nson woñ inoñnaga ni makak moñ wemede.
 join-newsletter = Kikii ka gwés yoñ, u nla tilba i yuyut yés i mél inyu ikôhna manoñ ma minuyne ni manwin ma yondo ikolbaha ni nson wés.
 
 ## What's public
 
 whats-public = Kinje i mpam i mbamba ?
 email-not-public = Di gapémés be mél yoñ i mbamba.
-recordings-and-locale-public = Nsongi u dikékét dimakiñ u nsañge ni i hop u nsañgne mo, biga pam bé i bamba.
-username-optin-public = Unla tep i pémés ngédi yoñ i mbamba, tole u nwas yo nsolbe.
-demographic-deidentified-clarity-2 = Biyimbne gwon bi unti kikii ka gwés yoñ (hihéga : bimañ, libak  li muda tole mulôm, hop, lipôdôl), biga pam bé i mbamba kelkikel i liyimbne joñ, ndi to le bi ba ñañnaga ni libôñ joñ i liyaa li makiñ. Dipeles di dikékét di makiñ di gaba ñgwañnaga ni biyimbne gwoñ, he ndigi inyu liti maap inyu longe i ndoñol - kikii hihéga, nwan mam a yé le agwés nigne ñgim likéñge li lisolol makiñ i ñgim yimbne tôbôtôbô.
+recordings-and-locale-public = Nsoñgi u dikékét dimakiñ u nsañge ni i hop u nsañgne mo, biga pam bé i bamba.
+username-optin-public = Unla tep i pémés ñgédi yoñ i mbamba, tole u nwas yo nsolbe.
+demographic-deidentified-clarity-2 = Biyimbne gwoñ bi unti kiki ka gwés yoñ (hihéga : bimañ, libak  li muda tole mulôm, hop, lipôdôl), bi gapam bé i mbamba kelkikel i liyimbne joñ, ndi to le bi ba ñañnaga ni libôñ joñ i liyaa li makiñ. Dipeles di dikékét di makiñ di gaba ñgwañnaga ni biyimbne gwoñ, he ndigi inyu liti maap inyu loñge i ndoñol - kikii hihéga, nwan mam a yé le agwés nigne ñgim likéñge li lisolol to linigle makiñ i ñgim yimbne tôbôtôbô.
 username-email-not-demographic = Ñgédi yoñ ndi to njañ yoñ mél, biga gwaña bé ni bitjéma bi mayaa ma makiñ.
 
 ## Speak & Listen Shortcuts
@@ -280,17 +280,17 @@ status-contribute = Sañge kiñ yoñ
 status-hours =
     { $hours ->
         [one] Ngim ngeñ i makiñ i maneebana ibol hana kiki di téé.
-       *[other] { $hours } ngeñ i makiñ i maneebana ibol hana kiki di téé.
+       *[other] { $hours } ñgeñ i makiñ i maneebana ibol hana kiki di téé.
     }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Likak li nnoñ : { $goal }
-english = Ŋgìsì
+english = Ñgìsì
 
 ## ProfileForm
 
 profile-form-username =
-    .label = Ngédi
+    .label = Ñgédi
 profile-form-native-language =
     .label = Hop u libéé
 profile-form-additional-language =
