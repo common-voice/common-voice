@@ -498,7 +498,10 @@ release-version = Bitéé bi lipémhak
 dataset-date = Kel
 license-mixed = Mbôda
 data-download-singleword-title = Ket Suñ-Likoñ Pom-Buk
-data-download-singleword-callout-v2 = Ini i yé ndémbél i suñ i gwéé minje mi nhuñge bañ i nsolol ñañga u pok-iba-iaa ni nn / to
+data-download-singleword-callout-v2 = Ini i yé ndémbél i suñ i gwéé minje mi nhuñge bañ i nsolol ñañga u pok-iba-iaa ni nn / to.
+review-terms = Intel u ñgéda u ntep le u mbôñôl Common Voice, wee u mbôn le u nneebe <termsLink>Mayegna</termsLink> ni <privacyLink>Libam li Matédés</privacyLink>
+terms-agree = Me nneebe
+terms-disagree = Me nneebe bé
 
 ## Datasets Page
 
