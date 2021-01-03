@@ -527,7 +527,13 @@ splits = Mimbaglak
 email-to-download = Tila njañ i mél yoñ ndi u gaket minje
 why-email = Inyu kii di mbédél <b>njañ yoñ mél ?</b> Inyule di yé le di bana ñǵoñ i tilna we ibale mahéñha ma mba i mayaa ma minje.
 confirm-size = Ba mbômhaga i ket minje mi pôk yap i yé<b>{ $size }</b>
-size-gigabyte = GO
+size-gigabyte = Go
+size-megabyte = Mo
+confirm-no-identify = <b>U nneebe</b> le u gayeñ bé iyi môl ma ibôt makiñ map mayé i mayaa ma Common Voice e ?
+download-language = Ket{ $language }
+validated-hours = Minneebege mi mañgeñ
+recorded-hours = Miñodlak mi mañgeñ
+whats-inside = Ki i yé i kédé Liyaa li makiñ li Common Voice ?
 
 ## Download Modal
 
