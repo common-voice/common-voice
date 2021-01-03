@@ -617,6 +617,15 @@ clips-with-count-pluralized =
        *[other] Dikékét di makiñ
     }
 goal-help-recording = U nhôla le Common Voice a yônôs ndak i ñañga i<goalPercentage>kel</goalPercentage>!
+goal-help-validation = U nhôla le Common Voice a yônôs ndak i lineebe makiñ i<goalPercentage>kel</goalPercentage>!
+contribute-more =
+    { $count ->
+        [one] U ngikôndge { $biba } bipe ?
+       *[other] U ngikôndge { $bitan } bipe ?
+    }
+record-cta = Bôdôl odol
+record-platform-not-supported = Di mbat nwéhél, juu joñ li yé ngineebana.
+record-platform-not-supported-desktop = I bakiyi-minkuu ba Windows unla ket inyu liyoñ ñgaba.
 
 ## Reporting
 
