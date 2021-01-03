@@ -502,9 +502,18 @@ data-download-singleword-callout-v2 = Ini i yé ndémbél i suñ i gwéé minje
 review-terms = Intel u ñgéda u ntep le u mbôñôl Common Voice, wee u mbôn le u nneebe <termsLink>Mayegna</termsLink> ni <privacyLink>Libam li Matédés</privacyLink>
 terms-agree = Me nneebe
 terms-disagree = Me nneebe bé
+review-aborted = Nyôha i nyôha bé. Ba u nsômbôl sas kiñ yoñ u ñôde?
+review-submit-title = Sie ndi wa sule
+review-submit-msg = Mayéga le u ñôde kiñ! <lineBreak></lineBreak> Nano, sie ndi wa sule dikékét tjoñ di makiñ.
+review-recording = Sie
+review-rerecord = Tiimba ôde
+review-cancel = Bôk lisule
+review-keep-recordings = Kee bisu ni liôde
+review-delete-recordings = Sas miñôdge nwem
 
 ## Datasets Page
 
+datasets-headline = Di nhôlôs sadaga mayaa ma makiñ ni mbuu i mahop, ka i yé le to nje a nla kek bibañ bi nsolol li linigle makiñ.
 
 ## Download Modal
 
