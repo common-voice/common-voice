@@ -674,9 +674,23 @@ report-title = Sule ndoñ u ntoo
 report-ask = mimbe mintén mi minsidik u ntehe munu i ntôn u bibuk unu ?
 report-offensive-language = Bitilna bi nyumbi
 report-offensive-language-detail = I ntôñ u bibuk unu, u yé diyana tole nyumbi.
+report-grammar-or-spelling = Dihôha di matila / di ñgobol hop
+report-grammar-or-spelling-detail = Ntôñ bibuk u gwéé hihôha hi ñgobol hop tole hi matila hop.
+report-different-language = Hop mpe
+report-different-language-detail = Bitilna bi ntilba ni hop mpe ndi he u me mpot bé
+report-difficult-pronounce = Lipahal bibuk li nlet
+report-difficult-pronounce-detail = U gwéé bibuk tole bitun bi bibuk bi nlet liañ tole lipahal.
+report-offensive-speech = Hop u nyumbi
+report-offensive-speech-detail = I ntôñ u bibuk unu, u yé diyana tole nyumbi.
+report-other-comment =
+    .placeholder = Péé jam
+success = Gwégwéé
+continue = Kee ni bisu
+report-success = Ndoñ u ntoñ di nléés yo gwégwéé
 
 ## Goals
 
+streaks = Njañ
 
 ## Dashboard
 
