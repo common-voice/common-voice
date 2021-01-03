@@ -542,6 +542,10 @@ other-datasets = Mayaa ma makiñ mape
 feedback-q = U mbat ndoñ e?
 deepspeech-info = Mayaa ma makiñ ma Common Voice ma njéhne sadaga nyum u lisolol makiñ u yé jôl le Deep Speech, i mut a nla bôñôl inyu ihôlôs bibañ mi lisolol to linigle makiñ ma bôt. Añ <githubLink>Semkwep ndoñ i Github</githubLink> tole lo koba bés i <discourseLink>Juu li nkwel li DeepSpeech</discourseLink> inyu likôhna biniigana ihet u bôdle.
 common-voice-info-new = Ugwéé mbadga le u yé le u gwés bat inoñnaga ni Common Voice e ? Tole mahoñol inyu mahol tole ndogha i béngege ñgim hop tôbôtôbô ? Lo koba bés i<discourseLink>yuyut yés i knwel</discourseLink>, ndi u gayis bés bini.
+data-other-librispeech-description = LibriSpeech a yé lingund li gwéé yom kiki 1000 hi mañgeñ ma miñañga ni hop u Nginsi i nkôñ u 16Khz, mi nlôl i bikaat biéña bi mpémél i yum i nso le LibriVox
+data-other-ted-name = TED-LIUM Liñgund
+data-other-ted-description = TED-LIUM Liñgund a bi bôda ni miñañ mi nyo mi mi bi kwéda ni matila gwobisô bibak ntéédaga i Jumbul li TED.
+data-other-voxforge-description = VoxForge a bibôda inyu ikot miñkwedek mi mahop ma nyo
 
 ## Download Modal
 
