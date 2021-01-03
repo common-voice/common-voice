@@ -514,6 +514,13 @@ review-delete-recordings = Sas miñôdge nwem
 ## Datasets Page
 
 datasets-headline = Di nhôlôs sadaga mayaa ma makiñ ni mbuu i mahop, ka i yé le to nje a nla kek bibañ bi nsolol li linigle makiñ.
+datasets-positioning = Mahoñol més ma yé le basoso ba mayaa ma makiñ ba ba ntiba sadaga, ba nla hôla le pémsan i ndaaba i hôlôs makeñge ma makiñ i ba bañ nyugna-nyugna. Common Voice ni mbuu yé i mayaa ma minje nyen a yé lôôha-bikeñi toga i mayaa ikédé bitoga gwobisô.
+language = Hop
+# File size in gigabytes
+size = Pôk
+validated-hr-total = Nsôngi u mañgeñ ma mineebana
+overall-hr-total = Ñsongi u ñgeñ yosô.
+cv-license = Matédél
 
 ## Download Modal
 
