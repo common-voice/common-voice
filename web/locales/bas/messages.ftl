@@ -354,12 +354,12 @@ ready-to-upload = NYOS
 avatar-clip-fact = Imbéna le, iñgéda mut a ñañ matila i gim lipep ndi a béñgege ki libôñglak li lini lipep, a ntek bé añ  nhyômôk.
 recreate-voice = Tiimba sék mbebi-kiñ
 cancel-avatar-clip-recording = BÔK
-about-avatar-clip-recording = Sék hikékét hi kiñ inyu ipôda hyo ni liñgeliñge i liyimbne joñ. Ni ha, bôt bape ba ba ba wan, ba la emble we kiñ yoñ.
-browse-file-title = Nyos ngim titii
+about-avatar-clip-recording = Sék hikékét hi kiñ inyu ipôda hyo ni liñgeliñge yoñ i binjénjé i liyimbne joñ. Ni ha, bôt bape ba ba ba wan, ba la emble we kiñ yoñ.
+browse-file-title = Nyos ñgim liñgeliñge yoñ
 browse-file = Yambal u yumbe tole <browseWrap>Hôndôk</browseWrap>
 connect-gravatar = Bogbe ni Gravatar
 gravatar_not_found = Gravatar i nlébna bé inyu mél yoñ
-file_too_large = I titii u ntep i nlôôha yét
+file_too_large = I liñgeliñge u ntep i nlôôha yét
 manage-subscriptions = Libok biyuyut
 manage-email-subscriptions = Libok biyuyut bi mél
 email-already-used = Mut numpe a mbôñôl ini mél i liboñ lipe
@@ -371,8 +371,8 @@ change-email-setings = Hyeñel mél yoñ ni njel i Makégél isi Jôl li majub
 faq-title = Kom Mambadga
 faq-what-cv-q = Ki i yé Common Voice?
 faq-what-cv-a =
-    Likeñge li isolol makiñ li nlôôha hyéñha manjel bôt ba binam ni bikey ba nnôgla, he ndugi le imuu ma makeñge ma ntôl ba, manlôôha die, mabak ki imañan. Common Voice a bi bôda ni Mozilla inyu boñ  le likeñge li isolol makiñ li kônde hoñ ni le ñgandak i bôt i laa bôñôl jo. Common Voice a yé nlume u toga i minje mi minsañgge mi makiñ  ni ñkoñ  hisi wonsô, u u nti to nje mut njel le a laa hôlôs bisoolene bi makin, ni to umbe hop. 
-    Di ñkot mayaa ma makiñ he ndigi i mahop makeñi ma ñkoñ hisi bé ndi yak i mahop ma ma mpôda ndigi ni ndék i bôt. Litjam nya ndi nya i mayaa ma makiñ li nti bakek makeñge, babônde minson, ni maloñ maap le bomede bahôlôs ini yi. He ndigi Common Voice nyetama bé, ndi nsal yak inyu ikek  sadaga nyum u soolene makiñ, u ndi sébél le Deep Speech.
+    Likeñge li isolol makiñ li nlôôha hyéñha manjel bôt ba binam ni bikey ba nnôgla, he ndugi le imuu ma makeñge ma ntôl ba, manlôôha die, mabak ki imañan. Common Voice a bibôda ni Mozilla inyu iboñ  le likeñge li linigle ni lisolol makiñ li kônde hoñ ni le ñgandak i bôt i laa bôñôl jo. Common Voice a yé nlume u toga i minje mi minsañgge mi makiñ  ni ñkoñ  hisi wonsô, u u nti to nje mut njel le a laa hôlôs bisoolene to biniglene bi makin, ni to umbe hop. 
+    Di ñkot mayaa ma makiñ he ndigi i mahop makeñi ma ñkoñ hisi bé ndi yak i mahop ma ma mpôda ndigi ni ndék i bôt. Litjam nya-ndi-nya i mayaa ma makiñ li nti bakek makeñge, babônde minson, ni maloñ maap le bomede bahôlôs ini yi. He ndigi Common Voice nyetama bé, di nsal yak inyu ikek  sadaga nyum u soolene ni linigle makiñ, u di nsébél le Deep Speech.
 faq-why-important-q = Kinje i yé nseñ ?
 faq-why-important-a =
     Hop iyé bôg-ni-nyuu njel i bés bôt ba binam di nnôglana bés ni bés. Likeñge li makiñ li so boñ le inya hikôm hi manôglana hini hi jôp yak i bakiyi-minkuu ni i magwel-moo bitôôene bi mahop ni manwin. Di gwéé yéñe le di ti bakek makeñge maap, inya i yé le balaa kek bisoolene bi makiñ kiki bo lihyelel mahop i bitéé-bi-lôñ ni bikémél bi makin bipe. Ndi indéé ini di téé, i mintén mi mayaa ma makiñ ma mbéda inyu ihôlôs mini mintén mi bibañ manlôôha hee die ndi ma bak ki imañan. Bot ñem yés i yé le mayaa ma makiñ ma Common Voice ma gati bakek makeñge i yom ba nsômbôl inyu boñ le ba éba ndaaba yap ni lihôlôs makeñge ma makiñ i mahop map.
