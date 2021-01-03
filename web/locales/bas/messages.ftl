@@ -642,6 +642,22 @@ record-last-instruction = <recordIcon></recordIcon> hi nsôk!
 review-tooltip = Sie imbus u tiimba odol dikékét di makiñ hana njénjéba
 share-clip = Tôô hikékét hyon hi kiñ
 share-common-voice = Tôô Common Voice
+review-instruction = Sie, u tiimba odol dikékét di makiñ ibale hada a yé nseñ.
+record-submit-tooltip = { $actionType } sule idéé u gamal
+clips-uploaded = Minyôha mi dikékét di makiñ
+record-abort-title = U nsômbôl ndugi mélés liodol e ?
+record-abort-text = Ibale u nyodi hanano, u nnimis libim li ntel woñ u bôlô
+record-abort-submit = Sule dikékét di makiñ
+record-abort-continue = Mélés liodol
+record-abort-delete = Pamak, u sas dikékét di makiñ
+listen-instruction = { $actionType }<playIcon></playIcon> ba ñañ a ñan ntôn u bibuk loñge ?
+listen-again-instruction = Yoñ me ntuk!<playIcon></playIcon> Tiimba emble ingéda u gaba mbômhaga.
+listen-3rd-time-instruction = Kenek ni bisu, u tomb bañ!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> hi nsôk!
+listen-empty-state = Dikékét di makiñ di ñhéñél bés inyu ineebe munu unu hop.
+speak-empty-state = Mintôñ mi bibuk mi ñhéñél bés inyu iodol munu unu hop.
+speak-empty-state-cta = Sañge ntôn u bibuk
+record-button-label = Odol kiñ yoñ
 
 ## Reporting
 
