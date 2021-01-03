@@ -589,6 +589,8 @@ other-language = Hop mpe
 ## Languages Overview
 
 language-section-in-progress = Lôm i nlôm
+language-section-in-progress-new-description = Mana mahop ma yé i si mahôlôs ba bet-hop i ñgeñ ini di téé. Kiki bôlô i nséla, hala nyen ntendee u ñéba inya libim li ntel <localizationGlossaryLink>mawas ma ntjep ma njumbul li web</localizationGlossaryLink> li hiki hop ma gwéé, nlélém ni <sentenceCollectionGlossaryLink>likot mintôn mi bibuk</sentenceCollectionGlossaryLink>.
+language-section-launched = Môngô u nyugna
 
 ## Contribution
 
