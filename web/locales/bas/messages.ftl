@@ -727,6 +727,7 @@ validated-clips = Mineebege mi dikékét di makiñ
 total-approved = Mineebege ñwominsô
 overall-accuracy = Makégél-i-hyés momasô
 set-visibility = Makégél inyu manene mem
+visibility-explainer = Lini likégél jon li nhôla i bok bitéé gwoñ bi kumba. Ibale li sôli, ntel u mahol ma bôlô yoñ u nyél ndidi. Hala a ñkobla le, liñgeliñge yoñ, ôha yoñ i jôl ni ntel u mahol ma bôlô bi ganene bé i bitéé bi kumba. Yimbe le, lisugde bitéé bi kumba li nyoñ yom ki manut { $minutes } nwaa le mahéñha ma nnene.
 
 ## Custom Goals
 
