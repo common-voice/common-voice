@@ -501,7 +501,6 @@ data-bundle-description = Data wa Common Voice gattako dataset y'amaloboozi amal
 license = Layisinsi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Ntabule
 data-download-singleword-title = Wanula Single Word Target Segment
-data-download-singleword-callout = This is a use case driven segment containing data to power spoken digit recognition, yes / no detection, and wakeword testing data for <fxLink>Firefox Voice</fxLink>.
 review-terms = Bw'okozesa Common Voice, okiriza <termsLink>Enkolagana</termsLink> ne <privacyLink>Eby'ekyama</privacyLink>
 terms-agree = Nzikiriza
 terms-disagree = Si kkiriza
@@ -664,7 +663,7 @@ listen-again-instruction = Mulimu mulungi<playIcon></playIcon>ddamu owulirize ng
 listen-3rd-time-instruction = 2 biwedde, kkola nga bw'otyo!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Ekisembayo!
 listen-empty-state = Clip ez'okusunsula ziweddewo mu lulimi luno...
-speak-empty-state = Emboozi ez'okulikodinga mulirimi luno zituweddeko...
+speak-empty-state = Emboozi ez'okulikodinga mululimi luno zituweddeko...
 speak-empty-state-cta = Waayo ku mboozi
 record-button-label = Likodinga eddoboozi lyo
 share-title-new = <bold>Help us</bold> okufuna amaloboozi amalala.
@@ -833,3 +832,18 @@ help-contribute = Osobola okuyamba okuzimba dataset erina amaloboozi ag'enjawulo
 login-company = Log in/ sign up ne { $company } email
 profile-not-required = Tekyetagisibwa kuba na profayilo okuyamba wadde kya mugaso, laba lwaki wansi awo.
 read-more-about = Soma ebisingawo ku page yaffe ey'Ebitukwatako.
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
