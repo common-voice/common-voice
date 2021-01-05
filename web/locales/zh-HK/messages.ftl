@@ -844,6 +844,7 @@ demo-welcome-subheader = 你有無興趣學更多嘢，為呢一個計劃貢獻�
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice係全球最大嘅公開、多語言語音數據集。
+demo-language-select-card-body = 受惠於全球超過25.9萬人為50幾種唔同語言嘅無私貢獻，我哋將會利用呢啲資料嚟訓練有語音功能嘅應用程式，令佢哋可以更準確咁理解人聲。
 card-button-next = 下一步
 card-button-back = 返回
 demo-language-select-label = 睇下所有語言
@@ -860,6 +861,7 @@ demo-account-sign-up = 轉送註冊鏈結
 
 ## Demo Contribute
 
+demo-contribute-card-header = 準備好參與錄音，或者...借一借對耳嚟用未？
 demo-listen-subtitle = 準備好幫手貢獻未？
 
 ## Demo Dashboard
