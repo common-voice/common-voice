@@ -272,6 +272,7 @@ off = Off
 on = On
 retry-voice-wave-recording = SUBUKAN MULI
 delete-voice = BURAHIN
+recording-voice-wave = Nagrerecord
 ready-to-upload = I-UPLOAD
 cancel-avatar-clip-recording = KANSELAHIN
 add-language = Magdagdag ng Wika
