@@ -26,6 +26,10 @@ an = 阿拉貢語
 ar = 阿拉伯語
 arn = 馬普切語
 as = 阿薩姆語
+ast = 阿斯圖里亞斯語
+az = 阿塞拜疆語
+ba = 巴什基爾語
+bas = 巴沙語
 cs = 捷克語
 cv = 楚華書語
 cy = 威爾斯語
@@ -86,9 +90,33 @@ about = 介紹
 
 ## ProjectStatus
 
+english = 英文
 
 ## ProfileForm
 
+profile-form-username =
+    .label = 用户名
+profile-form-native-language =
+    .label = 母語
+profile-form-additional-language =
+    .label = 其他語言
+profile-form-accent =
+    .label = 口音
+profile-form-age =
+    .label = 年齡
+profile-form-gender-2 =
+    .label = 性別
+hidden = 隱藏
+native-language =
+    .label = 母語
+profile-form-submit-save = 儲存
+profile-form-submit-saved = 已儲存
+male = 男
+female = 女
+# Gender
+other = 其他
+build-profile = 建立個人檔案
+goals = 目標
 settings = 設定
 edit-profile = 編輯個人檔案
 profile-create-success = 成功建立個人檔案！
