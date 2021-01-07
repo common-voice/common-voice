@@ -103,7 +103,9 @@ ml = Malayalam
 mn = Mongolia
 mrj = Hill Mari
 mt = Malta
-my = Birmania
+my =
+    Birmania
+    Birmania
 myv = Ersya
 nb-NO = Bokmal i Norvégia
 ne-NP = Nepalia
@@ -497,6 +499,7 @@ data-bundle-button = Ket njak i mayaa ma minje
 data-bundle-description = Minje mi Common Voice ntôñ ni mayaa ma makiñ mape mu i ñgii.
 release-version = Bitéé bi lipémhak
 dataset-date = Kel
+license = Matédél : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mbôda
 data-download-singleword-title = Ket Suñ-Likoñ Pom-Buk
 data-download-singleword-callout-v2 = Ini i yé ndémbél i suñ i gwéé minje mi nhuñge bañ i nsolol ñañga u pok-iba-iaa ni nn / to.
