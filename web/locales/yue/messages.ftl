@@ -89,9 +89,20 @@ about = 介紹
 
 ## ProfileForm
 
+settings = 設定
+edit-profile = 編輯個人檔案
+profile-create-success = 成功建立個人檔案！
+profile-close = 關閉
+accept-privacy-title = 私隱政策
+login-signup = 登入 / 註冊
+edit = 編輯
+email-subscriptions = 電郵訂閱
+download-profile = 下載我嘅數據
 retry-voice-wave-recording = 重試
+re-record = 再錄過
 delete-voice = 刪除
 cancel-avatar-clip-recording = 取消
+connect-gravatar = 連結 Gravatar
 
 ## FAQ
 
@@ -107,9 +118,14 @@ cancel-avatar-clip-recording = 取消
 
 ## Data
 
+release-version = 版本
 
 ## Datasets Page
 
+# File size in gigabytes
+size = 大細
+download = 下載
+dataset-version = 版本
 
 ## Download Modal
 
