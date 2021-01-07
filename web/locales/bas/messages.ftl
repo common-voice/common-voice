@@ -788,6 +788,18 @@ n-clips-pluralized =
 help-share-goal = Hôla bés le di kôhna makiñ mape, tôô likak joñ
 confirm-goal = Kémhe likak
 goal-interval-weekly = Hi Sondi
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Tôô likak joñ li dikékét di makiñ { $count } li kel inyu { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Tôô likak joñ li dikékét di makiñ { $count } li sondi inyu { $type }
+share-goal-type-speak = Hop
+share-goal-type-listen = Maemble
+share-goal-type-both = Hop ni Maemble
+# LINK will be replaced with the current URL
+goal-share-text = Mentip bok likak inyu yem ikolbaha ni njañgi makin i #CommonVoice -- bôk bés i hôla liniiga bikey lela bôt ba binam ba mpot i ntiik lipôdôl { $link }
+weekly-goal-created = Likak joñ li sondi li mbôga
+daily-goal-created = Likak joñ li kel li mbôga
+track-progress = Hes mahol ma bôlô yoñ hana ntôñ ni lipep li pôk-ñañga yoñ.
 
 ## Profile Delete
 
