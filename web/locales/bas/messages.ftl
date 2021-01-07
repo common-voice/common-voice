@@ -776,6 +776,18 @@ activity-needed-calculation-plural =
        *[other] sôñ { $periodMonths }
     }i nla yon ibol ngim
 how-many-per-day = Ntuk! Dikékét di makiñ tjañeñ i ngim kel ?
+how-many-a-week = Ntuk! Dikékét di makiñ tjañen i ngim sondi ?
+which-goal-type = U nsômbôl pot, emble, tole gwobiba ?
+receiving-emails-info = U héli nano i kôs bimél bibéñgege mam kiki bo mbigda i likak, ntel u mahol ma bôlô ni biyuyut bi mañwin ikolbaha ni Common Voice.
+not-receiving-emails-info = U héli <bold>BÉ</bold> i kôs bimél bibéñgege mam kiki bo mbigda i likak, ntel u mahol ma bôlô ni biyuyut bi mañwin ikolbaha ni Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] Hikékét { $count }
+       *[other] Dikékét { $count }
+    }
+help-share-goal = Hôla bés le di kôhna makiñ mape, tôô likak joñ
+confirm-goal = Kémhe likak
+goal-interval-weekly = Hi Sondi
 
 ## Profile Delete
 
