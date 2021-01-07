@@ -817,9 +817,14 @@ profile-form-delete = Sas Liyimbne
 
 welcome-staff = Malo malam a bagwel-nson ba { $company }
 help-contribute = Inyu yoñ ñgaba ikédé nduña i njañgi nya-ndi-nya i mayaa ma minje, ma ma ntiba sadaga, u nla kek liyimbne i Common Voice ni sañge kiñ yoñ mu ikédé.
+login-company = Jôp / Tila jôl ni mél i { $company }
+profile-not-required = Likañ li tabé le mut a bana liyimbne ñwaa a nsañge kiñ yé, to ibale hala a yé nseñ, béñge hana i si inyu nigil inyu ki.
+read-more-about = Kônde añ mam mape i Bés-bo-nje wés lipep
 
 ## DemoLayout
 
+demo-get-started = Di bôdlak
+demo-welcome = Malo malam i Common Voice
 
 ## Demo Datasets
 
