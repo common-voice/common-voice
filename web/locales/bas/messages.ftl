@@ -426,6 +426,7 @@ about-subtitle = Common a yé yum i nson yada i Mozilla ii nhôla i niiga bikey 
 about-header-description = Mimpay mi bôlô mini nwo ima ma ñéba yéñe i digwéé bi boñ le likeñge li isolol makiñ li tôa ndi mbôô i mahop. Makeñge ma lisolol makiñ ma nhek jubus libak li mut-binam ikédé bikey gwés, ndi bahôlôs makeñge ba gwéé ñgôñ ni didun ndi didun di dikékét di makiñ inyu ihôlôs mana makeñge. Ingeñ ini di téé, inya i minje mi makiñ mi, mi ntiba bé nyañga, yak lôôha die mi nhee. Njômbi yés iyé le di bulus minje mi makiñ ni ti mo bôt sadaga, ndi di tôñôk le mini minje milôlâk ni mbôô i limut i mpot hiki hop kiki ka ñgéda libôlôk li nnene hiki hop. Ibale di ñgwelna i woo, di yé le di hôlôs lisolol makiñ inya i gwééne hiki wada wés nseñ.
 how-does-it-work-title = Lela mam ma nke ?
 how-does-it-work-text = Di nnaña nlume njañgi ikôhle tjañ-njoi mayaa ma makiñ. Kôle bés kiñ yoñ, u ke bisu ni neebe makiñ bôt bape ba nsañge, yoñ ngaba i boñ le mayaa ma makiñ ma nyila mintolok.
+about-speak = Pot
 about-speak-text = Inyu isañge kiñ yoñ, u ñan mintôñ mi bibuk mi nlôl i lingut li minkôlge mi mitôn mi bibuk
 about-listen-queue = Nlôñ u maemble
 about-listen-queue-text = Dikékét di makiñ di yé ñkoyok ntôñ ikéde ntôn u njañgi, di bembek le di emblana.
