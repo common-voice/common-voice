@@ -749,6 +749,33 @@ want-to-continue = U nsômbôl ke ni bisu ?
 finish-editing = Mal ndugi lijuble
 lose-changes-warning = Ibale unyodi hanano, u yi le u ganimis minjuble ñwoñ.
 build-custom-goal = Sék likak li ñkôm-kel
+help-reach-hours-pluralized =
+    Mahôla inyu iyônôs{ NUMBER($hours) ->
+        [one] ñgeñ { $hours }
+       *[other] { $hours } itan
+    }i hop { $language } ikolbaha ni likak li ñgim mut
+help-reach-hours-general-pluralized =
+    Hôla Common Voice le a yônôs{ NUMBER($hours) ->
+        [one] ñgeñ { $hours }
+       *[other] ñgeñ { $hours }
+    }i ñgim hop ikolbaha ni makak ma ñgim mut
+set-a-goal = Sañ likak
+cant-decide = Me ta bé le me yoñ makidik
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] ñgeñ { $totalHours }
+       *[other] ñgeñ { $totalHours }
+    }i nla yon ibol ngim{ NUMBER($periodMonths) ->
+        [one] sôñ { $periodMonths }
+       *[other] sôn { $periodMonths }
+    }i nla yon ibol ngim{ NUMBER($people) ->
+        [one] sôñ { $periodMonths }
+       *[other] sôn { $periodMonths }
+    }i nla yon ibol ngim{ NUMBER($clipsPerDay) ->
+        [one] sôñ { $periodMonths }
+       *[other] sôñ { $periodMonths }
+    }i nla yon ibol ngim
+how-many-per-day = Ntuk! Dikékét di makiñ tjañeñ i ngim kel ?
 
 ## Profile Delete
 
