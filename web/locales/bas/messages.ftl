@@ -849,6 +849,9 @@ demo-account-sign-up = Om njañ i matilba
 ## Demo Contribute
 
 demo-contribute-card-header = U yé mbômhaga i nôbe kiñ yoñ tole i emble ?
+demo-contribute-card-body = Hanano kiki unyi libim li mam li tibhaga Common Voice, ba u bak bé le u noode ? Ñwot liñgeliñge i odlene ndi wa bôdôl añ ntôñ bibuk i ñgii. <br/><br/> Ndi ibale yom u yé le u gwés liemble ni lineebe to litjel makiñ bôt bape ba mbôk ba sañge, ñwot i liñgeliñge i ntuk. Ibale kiñ u ñemble i ñkiha ni bibuk bi yé ntilga i léman i bañ yoñ.
+demo-listen-subtitle = Di bôdlak njañgi ?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Kumba yoñ-yoñ i nnunda we i bitéé bi lôñ ntel u mahol ma minson mi bot bape tole mi matén ma bot mape.
