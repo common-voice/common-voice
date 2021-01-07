@@ -825,9 +825,11 @@ read-more-about = Kônde añ mam mape i Bés-bo-nje wés lipep
 
 demo-get-started = Di bôdlak
 demo-welcome = Malo malam i Common Voice
+demo-welcome-subheader = U yé le u gwés kônde nigil mam mape to liyoñ ñgaba i yum yés i nson e ?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice a yé ikédé ñkoñ i si, suk sadaga toga i minje mi makiñ milôlak ni mbuu i mahop.
 
 ## Demo Account
 
