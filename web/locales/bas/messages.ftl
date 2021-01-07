@@ -728,9 +728,25 @@ total-approved = Mineebege ñwominsô
 overall-accuracy = Makégél-i-hyés momasô
 set-visibility = Makégél inyu manene mem
 visibility-explainer = Lini likégél jon li nhôla i bok bitéé gwoñ bi kumba. Ibale li sôli, ntel u mahol ma bôlô yoñ u nyél ndidi. Hala a ñkobla le, liñgeliñge yoñ, ôha yoñ i jôl ni ntel u mahol ma bôlô bi ganene bé i bitéé bi kumba. Yimbe le, lisugde bitéé bi kumba li nyoñ yom ki manut { $minutes } nwaa le mahéñha ma nnene.
+visibility-overlay-note = Yimbe le : Indéé lini likégél li yé ñkéglak i ka i mbamba, u nla hyeñel likegek i <profileLink>lipep li liyimbne</profileLink>.
+show-ranking = Unda me ñkôñ wem
 
 ## Custom Goals
 
+get-started-goals = Bôdôl yônôs ndak yoñ
+create-custom-goal = Bok likak li ñkôm-kel
+goal-type = Umbe ntén u likak u yé le u gwés sañ ?
+both-speak-and-listen = Gwobiba
+both-speak-and-listen-long = Gwobiba (Hop ni Emble)
+daily-goal = Likal li kel
+weekly-goal = Likal li sondi
+easy-difficulty = Mbooyuge
+average-difficulty = Bômbôl
+difficult-difficulty = Nléda
+pro-difficulty = Ñkôñ ñkeñi
+lose-goal-progress-warning = Ibale u hyeñel likak joñ u yé le u nimis ntel u bôlô yoñ u gwéé hanano.
+want-to-continue = U nsômbôl ke ni bisu ?
+finish-editing = Mal ndugi lijuble
 
 ## Profile Delete
 
