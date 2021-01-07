@@ -855,3 +855,4 @@ demo-listen-subtitle = Di bôdlak njañgi ?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Kumba yoñ-yoñ i nnunda we i bitéé bi lôñ ntel u mahol ma minson mi bot bape tole mi matén ma bot mape.
+demo-dashboard-card-body = Hiki ñgéda u nsañge hikékét hi kiñ tole hiki ñgéda u nneebe hikékét hi kiñ hi mut mpe, kumba i libôñ joñ i nsugdana inyu éba we ntel u mahol  ma nson woñ ikédé hiki hop u ntine njañgi kiñ. Mbale i yé le mut a nla sañge kiñ yé iloo hop wada! <br/><br/> Lôô i bikumba inyu hes pôk-ñañga yoñ, to inyu tehe bolô u nsélha ñgem ni maloñ mape, ni hala uga tibil sañ makak moñ ma kel to ma sondi.
