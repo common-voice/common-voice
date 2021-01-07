@@ -53,6 +53,9 @@ ky = 吉爾吉斯語
 lg = 盧干達語
 lij = 利古里亞語
 lt = 立陶宛語
+zh-CN = 中文（中國大陸）
+zh-HK = 中文（香港）
+zh-TW = 中文（台灣）
 
 # [/]
 
@@ -86,6 +89,9 @@ about = 介紹
 
 ## ProfileForm
 
+retry-voice-wave-recording = 重試
+delete-voice = 刪除
+cancel-avatar-clip-recording = 取消
 
 ## FAQ
 
