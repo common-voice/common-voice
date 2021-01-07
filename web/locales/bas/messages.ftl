@@ -800,9 +800,15 @@ goal-share-text = Mentip bok likak inyu yem ikolbaha ni njañgi makin i #Common
 weekly-goal-created = Likak joñ li sondi li mbôga
 daily-goal-created = Likak joñ li kel li mbôga
 track-progress = Hes mahol ma bôlô yoñ hana ntôñ ni lipep li pôk-ñañga yoñ.
+return-to-edit-goal = Témb hana inyu lihyéñha likak joñ to imbe ñgéda.
+share-goal = Tôô likak jem
 
 ## Profile Delete
 
+delete-q = Uyé le u gwés bat le yak kiñ yoñ i ñodlana i séha, tole u nla gwéhék ñwas yo ikédé mayaa ma makiñ ma Common Voice ?
+keep = Me ñwahak
+remove = I séha
+keep-info = Kiñ yoñ i ñodlana ñgijôy i gakida i mayaa ma makiñ ma Common Voice. I ntel ñgéda u gasas liyimbne joñ, u yi le u gala habé sule njômbi inyu lisas miñodlana mi makiñ ikédé mayaa.
 
 ## Landing
 
