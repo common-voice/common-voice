@@ -744,9 +744,11 @@ easy-difficulty = Mbooyuge
 average-difficulty = Bômbôl
 difficult-difficulty = Nléda
 pro-difficulty = Ñkôñ ñkeñi
-lose-goal-progress-warning = Ibale u hyeñel likak joñ u yé le u nimis ntel u bôlô yoñ u gwéé hanano.
+lose-goal-progress-warning = Ibale u njuble likak joñ u yé le u nimis ntel u bôlô yoñ u gwéé hanano.
 want-to-continue = U nsômbôl ke ni bisu ?
 finish-editing = Mal ndugi lijuble
+lose-changes-warning = Ibale unyodi hanano, u yi le u ganimis minjuble ñwoñ.
+build-custom-goal = Sék likak li ñkôm-kel
 
 ## Profile Delete
 
