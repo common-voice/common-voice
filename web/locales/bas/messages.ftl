@@ -373,7 +373,7 @@ change-email-setings = Hyeñel mél yoñ ni njel i Makégél isi Jôl li majub
 faq-title = Kom Mambadga
 faq-what-cv-q = Ki i yé Common Voice?
 faq-what-cv-a =
-    Likeñge li isolol makiñ li nlôôha hyéñha manjel bôt ba binam ni bikey ba nnôgla, he ndugi le imuu ma makeñge ma ntôl ba, manlôôha die, mabak ki imañan. Common Voice a bibôda ni Mozilla inyu iboñ  le likeñge li linigle ni lisolol makiñ li kônde hoñ ni le ñgandak i bôt i laa bôñôl jo. Common Voice a yé nlume u toga i minje mi minsañgge mi makiñ  ni ñkoñ  hisi wonsô, u u nti to nje mut njel le a laa hôlôs bisoolene to biniglene bi makin, ni to umbe hop. 
+    Likeñge li isolol ni linigle makiñ li nlôôha hyéñha manjel bôt ba binam ni bikey ba nnôgla, he ndugi le imuu ma makeñge ma ntôl ba, manlôôha die, mabak ki imañan. Common Voice a bibôda ni Mozilla inyu iboñ  le likeñge li linigle ni lisolol makiñ li kônde hoñ ni le ñgandak i bôt i laa bôñôl jo. Common Voice a yé nlume u toga i minje mi minsañgge mi makiñ  ni ñkoñ  hisi wonsô, u u nti to nje mut njel le a laa hôlôs bisoolene to biniglene bi makin, ni to umbe hop. 
     Di ñkot mayaa ma makiñ he ndigi i mahop makeñi ma ñkoñ hisi bé ndi yak i mahop ma ma mpôda ndigi ni ndék i bôt. Litjam nya-ndi-nya i mayaa ma makiñ li nti bakek makeñge, babônde minson, ni maloñ maap le bomede bahôlôs ini yi. He ndigi Common Voice nyetama bé, di nsal yak inyu ikek  sadaga nyum u soolene ni linigle makiñ, u di nsébél le Deep Speech.
 faq-why-important-q = Kinje i yé nseñ ?
 faq-why-important-a =
