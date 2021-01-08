@@ -6339,6 +6339,7 @@ But when does the tramp come in?
 But when his pink cheek came close she leaned away.
 But when it came to breaking up his furniture, perhaps he could!
 But when she stood up to walk, the colour went.
+But when this guy is talking, there are almost only beep tones.
 But whenever there is danger my heart begins to beat fast.
 But where and how is Gloria?
 But where are yer?
@@ -6548,6 +6549,7 @@ By way of a start, I read the note again.
 By way of balance you should always consider the other side.
 By your account, he does seem to have had some scruples.
 By-and-by we came to packets of Miss Ward’s letters.
+Bye bye!
 Bye!
 Bye-bye, sucker!
 C Sharp is a programming language.
@@ -6604,6 +6606,7 @@ Can we arrange a meeting?
 Can we arrange the distribution by train?
 Can we assume that the program is moribund?
 Can we assume they had two private bathrooms?
+Can we bulk purchase these materials?
 Can we chat later when I'm feeling a bit more sparky?
 Can we discuss it like adults?
 Can we do nothing about fake news?
@@ -7190,6 +7193,7 @@ Correct.
 Correlation does not equals causation.
 Corruption can be tackled by changing the culture that facilitates it.
 Cost you a dollar.
+Costumes can cost about a thousand dollars per unit.
 Cotton wool can be used with make-up remover to remove eyeshadow
 Cotton wool is very good for removing make-up
 Could Aunt Dahlia have slept on it and changed her mind?
@@ -17845,6 +17849,7 @@ I want to know what I should do.
 I want to know your real thoughts, my dear.
 I want to learn Zoology.
 I want to learn.
+I want to let this flat.
 I want to look through everything you’ve ever sent, liked, watched, or posted online.
 I want to make you happy.
 I want to plug my lawnmower into mains power
@@ -22496,6 +22501,7 @@ Let's have a go at a tray bake.
 Let's have another look.
 Let's have fun and play charades.
 Let's have it.
+Let's have this as food for thought.
 Let's hear it straight from the horse's mouth.
 Let's hope it won't be stones in boxes.
 Let's leave the world a better place.
@@ -22679,6 +22685,7 @@ Look — he's going to bump that waiter.
 Look, I don't know, I just joined and I'm seeing what it's about.
 Look, Miriam; these are the white ones that came from your garden.
 Look, he is talking affably.
+Look, look, look the big house of my father.
 Look, mistress, this is the key of my wine-cellar.
 Look, mother, how big she is above the town!
 Look, the reinforcing ties have gone!
@@ -23914,6 +23921,7 @@ My poor mother is really ill, and keeps her room.
 My precious Lily!
 My pretty, tender-hearted girl!
 My printer seems to have packed up yet again.
+My programs are not meant for the niches.
 My prompt agility was not without its effect.
 My prudent Mother Hubbard, why not?
 My pursuers were patiently quartering the hillside and moving upwards.
@@ -24160,6 +24168,7 @@ No artist desires to prove anything.
 No artist has ethical sympathies.
 No artist is ever morbid.
 No attempts to hamper me, or capture me!
+No beer today?
 No boat could face the challenge of that loud portal.
 No boys allowed here.
 No business resulted, but the fact remains.
@@ -24902,6 +24911,7 @@ Now, if he wished, he might laugh.
 Now, is not that reasonable?
 Now, is there anything more?
 Now, isn't it a dreadful state of things?
+Now, it’s time to fight back.
 Now, let us have no petulance.
 Now, listen - I trust you.
 Now, mind you behave yourself properly.
@@ -25803,6 +25813,7 @@ Our analysts are conducting an analysis of the public survey data.
 Our ancestors worked hard and enabled us to be where we are today.
 Our application is a vertically integrated system.
 Our attention was called off to our neighbour.
+Our audiences will want to engage in that sort of thing.
 Our aunt is visiting this weekend.
 Our car insurance is renewable annually.
 Our children may, but what is that to us?
@@ -32537,6 +32548,7 @@ The odds were that he had forgotten about it already.
 The officer will be here at four o’clock'.
 The officers will find women better worth their notice.
 The official intimation was in that note you brought me.
+The official would like to have a stern word with you, sir.
 The offside wing of the car was seriously dented
 The oil and gunpowder were shoved out of sight in a minute.
 The old book looked fine but had a lingering musty smell.
@@ -35499,6 +35511,7 @@ They reversed the decision!
 They robbed me a few years later.
 They rose and curved about northward as it drew nearer.
 They rushed upward and by him.
+They said we're screwed because of a notorious past episode.
 They sat before the fire on a bench and looked sideways at one another.
 They sat down and untied their bundles.
 They sat in the little wood where bluebells were standing.
@@ -35532,6 +35545,7 @@ They shook hands gravely.
 They shook hands upon it laughingly, but in deep earnestness.
 They shook the flour off her and set her down on the kitchen floor.
 They should be ashamed of themselves!
+They should get the studio on blast for this one.
 They should have kept to the clever ones.
 They slipped away hand in hand across an untidy field to the road.
 They sneaked into the cinema.
@@ -37199,6 +37213,7 @@ We came to the chapel.
 We can all learn to coexist with each other.
 We can all plague and punish one another.
 We can amuse ourselves with your rigmaroles afterwards.
+We can arrange this into a Gaelic folk remix.
 We can avoid confirmation bias by broadening our perspectives.
 We can avoid the deterioration of health by looking after our bodies.
 We can certify that the system meets all the required standards.
@@ -37477,6 +37492,7 @@ We mean to give him a good home and schooling.
 We met a group of Glaswegians on holiday.
 We might as well be in a treadmill.
 We might live very comfortably together now, eh?
+We might not be able to cover the taxes they demanded.
 We must achieve our own salvation.
 We must act, Comrade Jackson!
 We must act.
@@ -38295,6 +38311,7 @@ What a piece of nonsense we have made!
 What a queer smell!
 What a ranter I am!
 What a refreshing spectacle you are, Ammie.
+What a regal performance!
 What a selfish beast I've been!
 What a slick fire!
 What a sly fellow Laurie is!
@@ -39138,9 +39155,11 @@ What, after all, could he have told them?
 What, all five out at once?
 What, has she frightened away some of your lovers?
 What, in your opinion, will the harvest be?
+What, what?
 What, you have not forgotten it yet!
 What, you know him, do you?
 What, you were thirsty, were you?
+What?
 Whatever he decides to do!
 Whatever he guessed he locked away in the taboo room of Naomi.
 Whatever he might say Dot was happy now.
@@ -41521,6 +41540,7 @@ You want a description of my cousin?
 You want me to accept half a guinea?
 You want setting down in your right place!
 You want them to refuse probate to the will?
+You want to go all in for this corner, aren't you?
 You want to go over and see his gang throw dirt.
 You want to know who's got 'em?
 You want to see it.

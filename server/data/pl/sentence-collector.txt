@@ -4895,6 +4895,7 @@
 "Radca skoczył ku niemu, jak tygrys."
 "Radość była wielka."
 "Radość mego serca dawała mi pewność."
+"Radziwiłł złożył mu obie ręce na głowie i znów nastała chwila milczenia..."
 "Radził sobie zuchwale bardzo."
 "Radzę wam, abyście poszli za moim przykładem."
 "Radźcie, bo ja głowę już tracę."
@@ -9221,6 +9222,7 @@ Czy krytyk jest postacią niezwykłą i odmienną od wszystkich śmiertelników?
 Czy który z panów nie ma przy sobie prawdziwego tureckiego papierosa?
 Czy majster zauważył to wówczas?
 Czy maślanka jest lepsza od kefiru?
+Czy mi się to wszystko przyśniło?
 Czy miałabyś ochotę na wyjście do teatru?
 Czy mogę coś dla pani zrobić?
 Czy mogę go zachować?
@@ -10231,6 +10233,7 @@ Ile lat miała najstarsza osoba na świecie?
 Ile masz pieniędzy?
 Ile minut dziennie powinienem trenować?
 Ile razy przychodziłem do niej, matka jej głaskała mnie po głowie.
+Ile wynosi zasiłek opiekuńczy w czasie epidemii?
 Ile wyszło?
 Ile — myślisz — mogłabym zarabiać jako prostytutka? Żeby zarobić na podróż dokądkolwiek.
 Ileś pisał, Hannibalu?
@@ -10353,6 +10356,7 @@ Jak ja nienawidzę tego bydlęcia!
 Jak ja się cieszę, że szczepienia na grypę nie są obowiązkowe.
 Jak jest zima i lato, dzień i noc, sen i czuwanie.
 Jak kamień w wodę.
+Jak mogłaś uwierzyć, że to ja jestem mordercą?
 Jak mogłem dopuścić do czegoś podobnego?
 Jak można zrobić siedem błędów ortograficznych w słowie, które ma cztery litery?
 Jak my się zawsze wszystkiego wstydzimy.
@@ -10370,6 +10374,7 @@ Jak on się wykrzywia!
 Jak on wygląda!
 Jak osioł usłyszał: „stój!”, to od razu ruszył z miejsca.
 Jak pod dotknięciem różdżki czarodziejskiej przeistoczyła się jej postać.
+Jak postawisz piwo, to możemy pogadać.
 Jak powiedział pewien milicjant – smutek jest jak pochód – przemija.
 Jak powinien wyglądać świat?
 Jak przewrócisz się to wstaniesz bo: jesteś zwycięzcą!
@@ -10421,6 +10426,7 @@ Jakie jest godło na tej chorągwi?
 Jakie masz plany na dziś?
 Jakie są warunki wykorzystania tych zdjęć satelitarnych?
 Jakie to wszystko wspaniałe i piękne!
+Jakie środki ochronne musi zapewnić pracodawca?
 Jakieś tam parę tygodni.
 Jakież to wzruszające widowisko!
 Jakież, u licha, mam prawo zajmować się kościołem świętego Barnaby?
@@ -12103,6 +12109,7 @@ Nie mam miejsca pośród żywych i nie mam miejsca pośród umarłych…
 Nie mam mowy!
 Nie mam nic przeciwko.
 Nie mam określonego tytułu.
+Nie mam pojęcia, co się z nim stało.
 Nie mam przy sobie gotówki.
 Nie mam teraz na to pomysłu.
 Nie mam tu co robić.
@@ -12529,6 +12536,7 @@ O matko, włącz klimę bo umrę!
 O mało nie upadł i był zły.
 O miłości się nie mówi. Miłość się wyraża.
 O mnie się nie troszcz.
+O niczym innym nie marzę, jak o powrocie do biura.
 O niczym innym nie mówiliśmy.
 O parę kroków przed nami zalśniła brylantowymi blaskami laguna.
 O piątej możecie wrócić do domu!
@@ -13108,6 +13116,7 @@ Po co ci kapusta?
 Po co ja się z nim w ogólę zadaję?
 Po co komu nowa technologia, jak stara już dobrze działa?
 Po co mi to było?
+Po co miałbym uciekać z więzienia?
 Po co myśleć, czy zdrowa, czy się co złego nie stało?
 Po co tam pojedzie z takimi nowinami?
 Po co ten tłum?
@@ -13695,6 +13704,7 @@ Przez cały dzień myśmy wydzwaniali na nich.
 Przez cały dzień nadjeżdżały jedne za drugimi wozy pełne mebli.
 Przez cały dzień przewalały się chmury, jakby gotując się do walnej rozprawy.
 Przez cały dzień siedział milczący, smutny, osowiały.
+Przez cały okres kwarantanny nie możesz opuszczać domu.
 Przez chwilę chciał jej to wytłumaczyć.
 Przez chwilę myślałem, że to twój kolega z pracy.
 Przez ciebie szumi mi w uszach.
@@ -14763,6 +14773,7 @@ To twoja Ania!
 To ty zapewne przystroiłaś stół tymi śmieciami.
 To tylko jedno, co śpiewał poeta, było prawdą czystą.
 To w co gramy?
+To w tej sytuacji kompletnie bez znaczenia.
 To wszystko brednie.
 To wszystko po to, aby nic nie słyszeć.
 To wszystko.
@@ -15763,6 +15774,7 @@ Wyrzucona ze zmierzchu wora na blask południa broniła się słońcu zmrużonym
 Wysiedliśmy i przekroczywszy bramę opactwa oo. Franciszkanów, weszliśmy w krużganek.
 Wyskoczymy razem na lunch?
 Wysnuł też cały szereg wniosków równie fałszywych, jak samo założenie.
+Wystarczy już tego dobrego.
 Wystarczy pójść na samotny spacer, aby mieć wszystkie atuty w ręku.
 Wystarczy zbudować drewniany barak dla Maciusia i straży.
 Wystawiła twarz do zachodzącego słońca.

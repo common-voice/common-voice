@@ -11141,7 +11141,11 @@ yo ya no puedo estar contigo.
 ¿hubiesen vivido ellos?
 ¿hubiesen vivido ustedes?
 ¿hubiesen vivido?
+¿hubieses tú vivido?
 ¿hubieses vivido tú?
+¿hubieses vivido vos?
+¿hubieses vivido?
+¿hubieses vos vivido?
 ¿hubiste partido?
 ¿hubisteis partido?
 ¿hubiésemos nosotras vivido?
@@ -11209,6 +11213,7 @@ yo ya no puedo estar contigo.
 ¿no hubiese vivido yo?
 ¿no hubiese vivido él?
 ¿no hubiese vivido?
+¿no hubiese yo vivido?
 ¿no hubieseis vivido vosotras?
 ¿no hubieseis vivido vosotros?
 ¿no hubieseis vivido?
@@ -11222,6 +11227,9 @@ yo ya no puedo estar contigo.
 ¿no hubiesen vivido ustedes?
 ¿no hubiesen vivido?
 ¿no hubieses vivido tú?
+¿no hubieses vivido vos?
+¿no hubieses vivido?
+¿no hubieses vos vivido?
 ¿no hubiésemos nosotras vivido?
 ¿no hubiésemos nosotros vivido?
 ¿no hubiésemos vivido nosotras?
@@ -11284,6 +11292,7 @@ yo ya no puedo estar contigo.
 ¿tú habías vivido?
 ¿tú has bebido?
 ¿tú has vivido?
+¿tú hubieses vivido?
 ¿tú no bebes?
 ¿tú no bebiste?
 ¿tú no comiste?
@@ -11365,6 +11374,7 @@ yo ya no puedo estar contigo.
 ¿vivíamos?
 ¿vivían?
 ¿vivís?
+¿vos no hubieses vivido?
 ¿vosotras habríais partido?
 ¿vosotras habéis bebido?
 ¿vosotras no habríais partido?
