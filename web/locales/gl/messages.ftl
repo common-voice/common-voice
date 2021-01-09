@@ -241,7 +241,7 @@ whats-public = Que é público?
 email-not-public = Non faremos público o seu enderezo de correo.
 recordings-and-locale-public = O número de gravacións e en que idiomas contribúe serán públicos.
 username-optin-public = Pode escoller facer o seu nome de usuario público ou anónimo.
-demographic-deidentified-clarity-2 = Os datos demográficos opcionais enviados (por exemplo, idade, sexo, idioma e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os clips de son individuais van ser asociados aos datos demográficos para fins de análise máis precisa - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
+demographic-deidentified-clarity-2 = Os datos demográficos opcionais enviados (por exemplo, idade, xénero, idioma e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os clips de son individuais van ser asociados aos datos demográficos para fins de análise máis precisa - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
 username-email-not-demographic = O seu nome de usuario e enderezo de correo non se asociará cos datos publicados.
 
 ## Speak & Listen Shortcuts
@@ -299,6 +299,8 @@ profile-form-accent =
     .label = Acento
 profile-form-age =
     .label = Idade
+profile-form-gender-2 =
+    .label = Xénero
 leaderboard-visibility =
     .label = Visibilidade da táboa de clasificación
 hidden = Agochada
@@ -324,6 +326,7 @@ profile-close = Pechar
 profile-explanation = Seguir o seu progreso cun perfil e axudar a que os datos de voz sexan máis precisos.
 thanks-for-account = Grazas por confirmar a súa conta, agora imos construír o seu perfil.
 why-demographic = Por que é importante?
+why-demographic-explanation-2 = Os datos anónimos como idade, xénero e acento axudan a mellorar os datos de son utilizados para adestrar a precisión dos motores de recoñecemento de voz. O seu nome de usuario e enderezo de correo nunca serán asociados cos datos enviados e vostede sempre pode escoller se facelos ou non públicos.
 accept-privacy = Estou de acordo con que xestionen esta info nos termos explicados na <privacyLink>Política de privacidade</privacyLink>
 accept-privacy-title = Política de privacidade
 login-identity = Identidade de inicio de sesión
@@ -504,9 +507,12 @@ data-other-goto = Ir a { $name }
 data-other-download = Descargar os datos
 data-bundle-button = Descargar o paquete do conxunto de datos
 data-bundle-description = O conxunto de datos Common Voice xunta todos os demais conxuntos de datos anteriores.
+release-version = Versión
+dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesturados
 data-download-singleword-title = Descarga o Segmento de Destino Único de Palabra
+data-download-singleword-callout-v2 = Este é un segmento baseado en casos de uso que contén datos para potenciar o recoñecemento de díxitos falados e a detección de si / non.
 review-terms = Ao utilizar Common Voice, está conforme cos nosos <termsLink>Termos</termsLink> e <privacyLink>Política de privacidade</privacyLink>
 terms-agree = Conforme
 terms-disagree = Non estou conforme
@@ -678,6 +684,7 @@ share-title-new = <bold>Axúdenos</bold> a atopar máis voces
 keep-track-profile = Faga o seguimento do seu avance cun perfil
 login-to-get-started = Inicie sesión ou rexístrese para comezar
 target-segment-first-card = Esta a colaborar no noso primeiro segmento obxectivo
+target-segment-generic-card = Está a contribuír a un segmento obxectivo
 target-segment-first-banner = Axude a crear o primeiro segmento obxectivo de Common Voice en { $locale }
 target-segment-add-voice = Engada a súa voz
 target-segment-learn-more = Saber máis
@@ -845,9 +852,20 @@ read-more-about = Máis información na páxina "Sobre Common Voice"
 
 ## DemoLayout
 
+demo-get-started = Primeiros pasos
+demo-welcome = Dámoslle a benvida a Common Voice
+demo-welcome-subheader = Interésalle aprender máis e contribuír ao proxecto?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice é o maior conxunto de datos de voz en varios idiomas publicamente dispoñíbel no mundo.
+demo-language-select-card-body = Grazas ás colaboracións de máis de 259.000 persoas en máis de 50 idiomas, estes datos empréganse para adestrar aplicacións con recoñecemento de voz para entender mellor á voz humana.
+card-button-next = Seguinte
+card-button-back = Anterior
+demo-language-select-label = Buscar Idiomas
+demo-eofy-header = Edición de fin de ano 2019
+demo-eofy-sub_header = Conxunto de datos de voz, lista para Descargar
+demo-account = Conta
 
 ## Demo Account
 
