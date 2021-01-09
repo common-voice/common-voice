@@ -869,9 +869,19 @@ demo-account = Conta
 
 ## Demo Account
 
+demo-account-card-header = Ter unha conta non é necesario para colaborar mais de axuda.
+demo-account-card-body = Á dereita esbozamos os beneficios e aclaramos que información facemos pública. Utilice as ligazóns seguintes para comezar cunha conta de Common Voice no seu propio dispositivo.
+demo-account-enter-email =
+    .label = Escriba o enderezo de correo para enviar unha ligazón de rexistro
+demo-account-sign-up = Enviar a ligazón de rexistro
 
 ## Demo Contribute
 
+demo-contribute-card-header = Preparado para engadir a súa voz ou prestar o seu oído?
+demo-contribute-card-body = Agora que xa sabe un pouco máis sobre Common Voice, por que non o probar? Prema na icona do micrófono para comezar a lectura de frases en voz alta. <br/> <br/> Se prefire revisar as colaboracións de voz doutras persoas, prema na icona de reprodución. Se a gravación de voz que escoita coincide coas palabras escritas na pantalla.
+demo-listen-subtitle = Preparado para colaborar?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Os paneis persoais mantéñeno ao día do progreso do individual e o da comunidade.
+demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de son validado, os paneis da túa conta actualízanse para reflectir o seu último progreso en cada idioma no que colabore. Si, pode colaborar a máis de un. <br/> <br/> Utilice os paneis para rastrexar as súas estatísticas, ver como o está facendo xunto con outras persoas da comunidade e establecer obxectivos de colaboración diaria ou semanal.
