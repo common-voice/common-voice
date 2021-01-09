@@ -33,14 +33,18 @@ as = Assamés
 ast = Asturiano
 az = Acerbaixano
 ba = Baskir
+bas = Basaa
 be = Belaruso
 bg = Búlgaro
+bm = Bambara
 bn = Bengalí
 br = Bretón
 bxr = Buriata
 ca = Catalán
 cak = Kaqchikel
+ckb = Kurdo central
 cnh = Lai
+co = Corso
 cs = Checo
 cv = Chuvaxo
 cy = Galés
@@ -62,6 +66,7 @@ fr = Francés
 fy-NL = Frisio
 ga-IE = Irlandés
 gl = Galego
+gn = Guaraní
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -81,9 +86,9 @@ kaa = Karakalpak
 kab = Cabilo
 kbd = Kabardino
 kk = Casaco
+kmr = Kurdo kurmanji
 ko = Coreano
 kpv = Komi Siriano
-ku = Kurdo
 kw = Córnico
 ky = Kirguiz
 lg = Luganda
@@ -140,6 +145,7 @@ uz = Uzbeko
 vec = Véneto
 vi = Vietnamita
 vot = Vótico
+yue = Chinés cantonés
 zh-CN = Chinés (China)
 zh-HK = Chinés (Hong Kong)
 zh-TW = Chinese (Taiwán)
@@ -235,7 +241,7 @@ whats-public = Que é público?
 email-not-public = Non faremos público o seu enderezo de correo.
 recordings-and-locale-public = O número de gravacións e en que idiomas contribúe serán públicos.
 username-optin-public = Pode escoller facer o seu nome de usuario público ou anónimo.
-demographic-deidentified-clarity = Os datos demográficos opcionais enviados (por exemplo, idade, sexo, lingua e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os clips de son individuais van ser asociados aos datos demográficos para fins de análise máis precisa - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
+demographic-deidentified-clarity-2 = Os datos demográficos opcionais enviados (por exemplo, idade, sexo, idioma e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os clips de son individuais van ser asociados aos datos demográficos para fins de análise máis precisa - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
 username-email-not-demographic = O seu nome de usuario e enderezo de correo non se asociará cos datos publicados.
 
 ## Speak & Listen Shortcuts
@@ -293,8 +299,6 @@ profile-form-accent =
     .label = Acento
 profile-form-age =
     .label = Idade
-profile-form-gender =
-    .label = Xénero
 leaderboard-visibility =
     .label = Visibilidade da táboa de clasificación
 hidden = Agochada
@@ -320,7 +324,6 @@ profile-close = Pechar
 profile-explanation = Seguir o seu progreso cun perfil e axudar a que os datos de voz sexan máis precisos.
 thanks-for-account = Grazas por confirmar a súa conta, agora imos construír o seu perfil.
 why-demographic = Por que é importante?
-why-demographic-explanation = Os datos anónimos como idade, xénero e acento axudan a mellorar os datos de son utilizados para adestrar a precisión dos motores de recoñecemento de voz. O seu nome de usuario e enderezo de correo nunca serán asociados cos datos enviados e vostede sempre pode escoller se facelos ou non públicos.
 accept-privacy = Estou de acordo con que xestionen esta info nos termos explicados na <privacyLink>Política de privacidade</privacyLink>
 accept-privacy-title = Política de privacidade
 login-identity = Identidade de inicio de sesión
@@ -504,7 +507,6 @@ data-bundle-description = O conxunto de datos Common Voice xunta todos os demais
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesturados
 data-download-singleword-title = Descarga o Segmento de Destino Único de Palabra
-data-download-singleword-callout = Este é un segmento baseado en casos de uso que contén datos para o recoñecemento de números de voz falada, detección de si / non e datos de proba de palabras clave para <fxLink>Firefox Voice</fxLink>.
 review-terms = Ao utilizar Common Voice, está conforme cos nosos <termsLink>Termos</termsLink> e <privacyLink>Política de privacidade</privacyLink>
 terms-agree = Conforme
 terms-disagree = Non estou conforme
@@ -840,3 +842,18 @@ help-contribute = Pode axudar a construír un conxunto de datos diverso e de có
 login-company = Iniciar sesión / Rexistrarse co correo electrónico de { $company }
 profile-not-required = Non é necesario ter un perfil para colaborar, malia que tamén axuda, e vexa por que a seguir.
 read-more-about = Máis información na páxina "Sobre Common Voice"
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
