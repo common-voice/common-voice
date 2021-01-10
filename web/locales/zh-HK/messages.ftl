@@ -867,3 +867,4 @@ demo-listen-subtitle = 準備好幫手貢獻未？
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = 個人儀表板可以令你了解個人同社群嘅最新消息。
