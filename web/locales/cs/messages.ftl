@@ -510,6 +510,8 @@ data-other-goto = Přejít na { $name }
 data-other-download = Stáhnout data
 data-bundle-button = Stáhnout balík datasetů
 data-bundle-description = Data Common Voice a data všech ostatních datasetů výše.
+release-version = Verze
+dataset-date = Datum
 license = Licence: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kombinovaná
 review-terms = Používáním Common Voice souhlasíte s našimi <termsLink>Podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink>
@@ -858,6 +860,8 @@ read-more-about = Přečtěte si více na stránce O nás
 
 ## DemoLayout
 
+demo-get-started = Jdeme na to!
+demo-welcome = Vítejte ve službě Common Voice
 
 ## Demo Datasets
 
@@ -865,13 +869,16 @@ card-button-next = Další
 card-button-back = Zpět
 demo-language-select-label = Procházet jazyky
 demo-eofy-header = Vydání z konce roku 2019
+demo-eofy-sub_header = Hlasová datová sada, připravena ke stažení
 demo-account = Účet
 
 ## Demo Account
 
+demo-account-sign-up = Pošlete mi přihlaovací odkaz
 
 ## Demo Contribute
 
+demo-listen-subtitle = Jste připraveni se zapojit?
 
 ## Demo Dashboard
 

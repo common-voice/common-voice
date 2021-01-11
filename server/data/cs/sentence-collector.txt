@@ -1,3 +1,11 @@
+"CyberSecurity", Jan Kolouch a kol.
+"Data, čipy, procesory", Martin Malý
+"Hradla, volty, jednočipy", Martin Malý
+"Jak na Internet - Bezpečně", Jiří Vaněk a kol.
+"Kryptografie okolo nás", Karel Burda
+"Porty, bajty, osmibity", Martin Malý
+"Tvorba open source softwaru", Karl Fogel
+... a malé opáčko
 A Barunka někdy učila babičku jedním prstem hrát.
 A Janko leží zabitý.
 A Kingová vyhrála!
@@ -8,6 +16,7 @@ A ani nemá žádné příliš významné projekty.
 A ani ostatní na tom nebyli v tomhle směru o moc lépe.
 A ani toho jsi se zajisté ještě nedopustil!
 A atmosféra nepolevuje.
+A ať se zbytečně nezdržujeme, tak rovnou začneme blikačem, ne?
 A bude se vám zase zdát – co vlastně?
 A bude?
 A byl to docela šok.
@@ -292,6 +301,7 @@ A to by se musel svlíknout a dát na postel.
 A to bylo, co všechny přítomné hrůzou naplňovalo.
 A to je asi tak všechno, čím si sem u tohoto filmu jistý.
 A to je co, pane?
+A to je všechno s polovodiči?
 A to ještě není zdaleka všechno...
 A to jsme byli skoro na konečné!
 A to mám pracovat na tom nejneobhospodařovávatelnějším pozemku?
@@ -359,6 +369,7 @@ A za třetí, můžeš v benzínu rozpouštět podrcený kočičí trus, dokud s
 A zajímavost výstupů je daná zajímavostí a počtem vstupů.
 A zatím se výrobky apretují.
 A zcela nepřekvapivě je to prokládáno písničkami.
+A základy elektroniky, říkáte?
 A zůstaňte u ní!
 A často píšu.
 A čeho si přejete v tak pozdní době?
@@ -632,6 +643,7 @@ Alžběta, to bylo první okouzlení.
 Amazonský deštný prales je taky nazývaný plícemi planety.
 Američtí vojáci natahují žiletkový drát u hranic s Mexikem.
 Amy Schumerová dokáže být velice vtipná.
+Analogová cesta
 Anarchie textového světa.
 Anarchie v byrokracii.
 Anarchie!
@@ -688,6 +700,9 @@ Ano, tohle je ten třetí typ sousedů.
 Ano, zastřelil jsem vlka samopalem.
 Ano, úředníci.
 Arboristou bys být nechtěl?
+Arduino a EduShield
+Aritmeticko-logická jednotka "alu"
+Arm
 Asi by to bylo fajn tetování.
 Asi chci, aby na webu byl post o registracích.
 Asi dobré.
@@ -716,7 +731,9 @@ Aspoň o jednu starost míň.
 Aspoň se vidí, jací jsou ke mně, a já si to budu pamatovat.
 Aspoň to tvrdí.
 Aspoň že v pondělí nemusím učit.
+Astabi-cože?
 Athéna byla řecká bohyně.
+Atmel Avr
 Atom je držen na místě elektrickými poli.
 Atom je osvětlen modrofialovým laserem.
 Austrálie totiž od příštího roku zakáže používání žárovek.
@@ -776,6 +793,7 @@ Barometr silně klesá, na sedm set pět.
 Baron je totiž hastrman.
 Barva larva.
 Barvu má tahle příze takovou neurčitě šedou.
+Baterie sériově – paralelně
 Baví ho to?
 Baví vás vymýšlet věty?
 Baví-li vás to, drahá slečno, dovedu vás do skladiště Robotů.
@@ -793,14 +811,23 @@ Bez vyjádření Rady nebude možné projednat žádný legislativní návrh.
 Bez vyšších citů lásky oddává se chtíčům přirozeným ve společnosti několika račic.
 Bez vášní.
 Bez zpomalení.
+Bezdrátový displej k naší meteostanici
+Bezdrátový přenos dat
+Bezdrátový teploměr s WiFi
 Bezmocně se vzdávám úmyslu podat ilustrovaného průvodce výstavou ve Wembley.
 Bezva, tak to asi dnes večer zůstáváš doma, že?
 Bezvýznamná věc!
 Bible se dělí na Nový a Starý zákon.
+Bistabilní klopný obvod er-es
 Bitka, stmívačka.
 Blb v úprku brk u krbu.
 Blednulť již...
 Bledý tanečník s maskou.
+Blikač
+Blikač můžeme postavit mnoha způsoby
+Blikač s Arduinem
+Blikání s Arduinem
+Blokovací kondenzátor
 Bloumal jsem městem a všude jsem potkával lidi s monokly a odřeninami a obvazy.
 Blázním, v sanitce určitě bude dýchací přístroj.
 Blíže brány košatá lípa, pod ní sedátko.
@@ -825,6 +852,7 @@ Bolí to?
 Bolševici všech zemí, vyližte si prdel!
 Bonifác nestíhá vlak.
 Bonus v podobě reklamy v microsoftích aplikacích.
+Booleova algebra, výroková logika
 Bouček v Praze.
 Bože jak po ní bláznil celý svět!
 Bože, byls to ty, že jo?
@@ -899,7 +927,10 @@ Budu se tento týden snažit vytvořit nějakou aktuální galerii fotek.
 Budu tam za chvíli.
 Budu tě čekat.
 Budu v kanceláři.
+Budu velkým elektronikem a budu stavět hrozně cool obvody!
 Budu vás čekat.
+Buzení displeje ze sedmisegmentovek
+Buzení z Arduina
 Buď tam budu já nebo Martin Kulhánek.
 Buďme mnohem ambicióznější.
 Buďte opatrní.
@@ -1101,6 +1132,7 @@ Chápu jeho ideály, ale nemohu pochopit jeho metodu.
 Cikánka lže.
 Cikánka nic neví.
 Civilizace skončí!
+Cloudový teploměr se Sigfoxem
 Co asi dělá za sport?
 Co budete dělat odpoledne?
 Co budeš dělat a k čemu to může sloužit.
@@ -1119,7 +1151,10 @@ Co furt s těma koťatama?
 Co je Common Voice?
 Co je tady k smíchu?
 Co je tam napsaný?
+Co je to Cmos?
+Co je to Sigfox?
 Co je to projekt devastace?
+Co je to smt a tht
 Co je to za člověka, kterého hledáme?
 Co je to?
 Co je v čítankách o spolupráci obou velikých Rossumů, je povídačka.
@@ -1129,6 +1164,7 @@ Co je?
 Co jim můžeme nabídnout?
 Co jsem chtěl říci?
 Co jsi tím chtěl dokázat?
+Co jsou vlastně ty diody zač?
 Co jste to mluvil, co jste si o mně umínil!
 Co jste to udělal?
 Co k tomu ještě říci?
@@ -1160,9 +1196,11 @@ Co povíš?
 Co požaduješ ještě?
 Co pravý zpátečník nemiluje rak též osvětu.
 Co přesně chceš vědět?
+Co s daty v Sigfoxu?
 Co s kloboukem!
 Co s nima děláte?
 Co s tím teď naděláme?
+Co s těmi ostatními?
 Co se jí stalo s rukama?
 Co se kurva děje?
 Co se na tohle dá říct?
@@ -1264,6 +1302,7 @@ Cítil jsem neobyčejnou svěžest a sílu.
 Cítil ve svém nitru neklid.
 Cítila, jak jí po těle zkušeně přejíždí něčí ruka.
 Cítím krev.
+Cívka
 Dal bych si pořádný pozor na to, s kým mluvím o tom papíru.
 Dal byste Sullu do pitevny?
 Dal jim šrotu, koně lehly a veterinář musel zasáhnout.
@@ -1277,21 +1316,27 @@ Dali si s tím práci a chtěli vytvořit něco hezkého.
 Dalo by se říct, že jen absolutní minimum.
 Další blok je zaklet k tomu, aby nesl samé železné balkóny.
 Další diskuze na stejné téma je plýtváním času.
+Další displeje
 Další dvě hučení byla spojena s mechanickým zdrojem.
 Další informace o ropě naleznete v kapitole Doprava.
+Další mikrokontroléry
 Další nepříjemnost spočívá v práci se složkami.
 Další předpoklady a postup stanoví zákon.
 Další rok za námi.
 Další trend je mít koně bez podkov.
 Další ulici je určen zádumčivý a neodvratný osud mít modré verandy.
 Další věc jsou rozměry.
+Další čítače
 Dalším faktorem je způsob, jakým studenti interagují se zbytkem komunity.
 Dalším zdravotním důvodem je u chlapečků teplota.
 Dana Kuchtová asi společnému sprchování neholduje.
 Daně a poplatky lze ukládat jen na základě zákona.
+Darlington, fet, Tyristor
+Datasheet
 Datem uskutečnění plnění je tedy poslední den v měsíci.
 Davem to zavlnilo.
 Dcera prezidenta Gloryho.
+De Morganův zákon
 Debaty naše bývaly živé, ba prudké a náruživé.
 Dej ji tam a třeba to začne fungovat.
 Dej mi prosím vizitku.
@@ -1307,6 +1352,9 @@ Dejte mi alespoň to děvče na vůz.
 Dejte si pozor!
 Dejte si číst z ruky, Mimi.
 Dejte to sem!
+Dekodér - demultiplexor "jeden-z-en“
+Dekodér hrací kostky
+Dekodéry
 Delší komentář už si to ani nezaslouží.
 Denně patnáct tisíc kusů, nepočítajíc stálé procento vadných, které se hodí do stoupy.
 Deset se píše jedna nula.
@@ -1316,11 +1364,16 @@ Destička se do držáku vsune a zajistí pomocí dvou šroubů.
 Destruktor musí být virtulální, jinak se nebude volat.
 Detekce prasklin
 Detektiv odchází
+Detektor pohybu
 Devatenáctka přede mnou.
 Devět je víc než nula.
 Digitální zrcadlovky jsou každým rokem levnější a výkonnější.
+Digitální, nebo analogové?
 Dinosaurus nořící se z temného tunelu.
 Dinosauří stín na zdi.
+Dioda
+Dip, Dil
+Displeje
 Div světa a století je tento Karlštejn, ale...
 Divadlo?
 Divná, tvrdá, jakoby předhistorická země.
@@ -1443,6 +1496,7 @@ Dostal jsem od vás email u kterého asi chybí příloha.
 Dostal jsem z ní, kde bydlí a naběhl jsem tam.
 Dostala jsi dva šicí stroje.
 Dotazovaní uvedli, že jsou pro ně důležitější jiná témata.
+Dotyk
 Dotyková grafická rozhraní.
 Doufejme, že nás nečekají žádná překvapení.
 Doufejme, že to pomůže.
@@ -1495,9 +1549,11 @@ Dva ze tří potenciálních otců také nemají čas přijet.
 Dvaadvacet čeho?
 Dvacet uzlů za hodinu.
 Dvanáct hodin.
+Dvojková soustava
 Dvě stě tisíc lidi stojí za vámi a nabízí vám svou pomoc.
 Dvě stě tisíc lidí, panečku, to už je slušné, to je docela krásné.
 Dvě!
+Dynamická ram
 Dystopie je nepravděpodobná.
 Dyť já nic.
 Dyť já sem slyšal ránu, ale myslel sem, to střílej na veverky.
@@ -1528,6 +1584,7 @@ Dává mu rum.
 Dává přednost dohodě před zaváděním nové regulace.
 Dášeňka nic, jen poulí oči a třese ocáskem.
 Dášeňka si sedne zdrceně uprostřed boudy a fňuká.
+Décé měnič
 Déšť a blesky utichly.
 Díky Loki, díky.
 Díky moc za ty anotace.
@@ -1537,6 +1594,7 @@ Díky té přednášce mám teď zásobu stáhnutých zajímavých videí.
 Díky!
 Díky, povedlo se mi to skrýt.
 Díl zrušen
+Dílna
 Dílo audiovizuální
 Díval jsem se na ty články a všude něco používají.
 Dívat se nepůjde ani nikdo od nás ze třídy.
@@ -1566,6 +1624,8 @@ Dělal jsem i testy na výřezech.
 Dělal jsem to minulý týden.
 Dělali jsme to někdy spolu?
 Dělej, jak myslíš.
+Dělení kmitočtů
+Dělič napětí
 Dělá to dojem horečného násobení.
 Dělá to dojem.
 Dělám si poznámky a používám vzorec.
@@ -1578,6 +1638,7 @@ Děti narozené v manželství i mimo ně mají stejná práva.
 Děti si hráli na pasece a na záspích.
 Dětská práce se zakazuje.
 Dřív nebo později se vám to povede.
+Dřív se používaly tranzistory
 Dříve nebo později dochází ke změnám a zvolnění režimu.
 Důchodová reforma je pro vládu prioritou.
 Důležitou součástí zahraniční politiky je prosazování a obhajoba ekonomických zájmů země.
@@ -1588,10 +1649,17 @@ Důstojník se usmál.
 Důvody k tomu jsou opravdu silné.
 E-shopy hlásí rekordy, kamenným obchodům rostou tržby o desítky procent.
 E-shopy se ještě zapotí v lednu.
+Edice cz.nic je jednou z osvětových aktivit správce české národní domény
 Editor nabízí jejich vyhledávač.
+Ediční program je zaměřen na vydávání odborných, ale i populárně naučných publikací
+EduShield
+EduShield a displej
 Ehm, teda, řidič.
 Ehmm.
 Ekonomky a elektrikáři to mají už zítra.
+Elektromagnetická indukce
+Elektromagnety
+Elektronika a svět kolem nás
 Elektřina se vyrábí v elektrárnách, teplo v teplárnách.
 Elektřina v každém stanu.
 Elektřina však také napájí.
@@ -1600,6 +1668,7 @@ Emanuel sprintuje na autobus.
 Energie je potřeba pro pohon všech strojů a přístrojů.
 Energie provází i sport.
 Eragon najde dračí vejce v dračích horách.
+Esp osmtisíc dvěstě šedesát šest WiFi
 Ester Ledecká vyhrála zlatou medaili v paralelním obřím slalomu.
 Ester však utíká, aby ochránila ostatní.
 Eva běží do obchodu.
@@ -1649,6 +1718,8 @@ Formy zábavy jsou v Pchjongjangu docela omezené.
 Fosilní paliva jsou neobnovitelné zdroje energie.
 Fotky nějaké mám a někdy je snad pošlu.
 Fotografové, filmaři...
+Fotorezistor
+Fotorezistor a Arduino
 Foukal silný protivítr.
 Fořt.
 Frodo se Samem pokračovali ve své cestě.
@@ -1664,10 +1735,13 @@ Garyho Graye potěšil.
 Generál je vyslán do války.
 Geniální hlava, slečno Gloryová.
 Gero umírá a Eragon utíká s Bromem a Safírou.
+Gps
 Grafické rozhraní.
 Grafické zobrazení a Umělá inteligence ve hře.
+Grafický displej stodvadsetosm šedesát čtyři
 Grafy potřebují doladit.
 Gratuluji, jsi o krok blíže ke dnu.
+Grayův kód
 Haha, slečno Gloryová, vy nevíte, co to je příliš drahý krajíc.
 Haha, to se rozumí!
 Hahaha, to je dobré!
@@ -1676,6 +1750,7 @@ Haló?
 Hanba ti věčná!
 Hanebná to satyra na tvou věrnosť!
 Harry, opovažte se!
+Harvard vs von Neumann
 Havárie.
 He?
 Hej Mimi!
@@ -1697,6 +1772,7 @@ Hlas je přirozený a lidský. Je to nejjednoduší a nejpřirozenější způso
 Hlas sedláka Květa zněl jako veliký zvon.
 Hlaste pozice.
 Hlaste, kdo už jede s devatenáctkou.
+Hlava, koleno, zem...
 Hlavní je umět správně promluvit.
 Hlavní nápor očekávají tento víkend, na zlatou neděli.
 Hlavní principem je výpočet očekávané hodnoty.
@@ -1727,11 +1803,14 @@ Hnědé oči mu zářily spokojeností.
 Hněte sebou!
 Hodila po nich kamenem.
 Hodila po ní kamenem.
+Hodiny
+Hodiny reálného času
 Hodiny ukazovaly devátou.
 Hodiny visely u samých dveří ve tmavomodrém pouzdru.
 Hodiny, staré dřevěnky, odbíjely desátou.
 Hodlám kupón na koupi trička použít.
 Hodí se pro obnovu lehce tupého ostří.
+Hold "dna"
 Holenku, dnes tu jsem já, můžete jít domů.
 Holka modrooká nesedávej u potoka.
 Holé minimum, které potřebuješ k přežití.
@@ -1760,6 +1839,7 @@ Hra na hraně není urážka diváka.
 Hra skončila!
 Hra v normálním tvaru, je určená třemi množinami.
 Hrabě z Vrtby sáhl mu na čelo.
+Hrací kostka
 Hrad v pozadí.
 Hrobkám, ve kterých nebožtíci již sta let dřímají.
 Hromadné vyhoštění je zakázáno.
@@ -1824,7 +1904,9 @@ Indiáni stopují bisony.
 Informací o skoro čemkoliv, co na světě existuje.
 Inspector je grafický pohled na interní stav objektu.
 Inspiruj se těmi příznaky, které tam už jsou.
+Instalace podpory Esp osmtisíc dvěstě šedesát šest do Arduino Ide
 Instalujeme a školíme software pro účetnictví a mzdy ve čtyřech firmách.
+Integrované obvody
 Interaktivita se bude zvětšovat.
 Interaktivita se zvyšuje.
 Internet jich nabízí miliony.
@@ -1862,6 +1944,7 @@ Jak moc mladej?
 Jak moc?
 Jak mám vylíčit tento roh komerciální hojnosti?
 Jak na to?
+Jak naučit kámen počítat
 Jak náruživě ostatně lidé tupívají, přesvědčíš se, přečteš-li sobě o něco dále.
 Jak odměřit deset mililitrů bez odměrky?
 Jak podle vás bude vypadat budoucnost?
@@ -1884,6 +1967,7 @@ Jak se ti vede?
 Jak se těšíš na budoucnost?
 Jak se vede?
 Jak se vrtaná studna staví a kolik vrtaná studna stojí?
+Jak se zapisuje do Eeprom či Flash?
 Jak se zdá, má pan vévoda velmi naspěch.
 Jak ses vyspal?
 Jak si s nimi hrál?
@@ -1911,6 +1995,7 @@ Jak velký div zde moje oči zřely!
 Jak vidíš, je to v lidské smečce správně zařízeno.
 Jak vlastně hodnotíte letošní rok?
 Jak vycházejí látkové pleny oproti jednorázovým finančně?
+Jak vypadá hradlo uvnitř
 Jak vypadám?
 Jak vzniká únavový lom?
 Jak vzít?
@@ -1938,6 +2023,7 @@ Jako když zvoní o božím hodě na velkou.
 Jako na ulicích velkých měst o druhé s půlnoci.
 Jako obvykle, je to určeno čistě k zamyšlení.
 Jako ona!
+Jako programátoři začínají známým „Hello world“
 Jako první bychom měli vybrat tiskárnu.
 Jako psa tě skolím!
 Jako slabé klasifikátory jsou použity histogramy.
@@ -1965,6 +2051,7 @@ Jaká to úžasná a hrůzná ve zbrani ostražitosť!
 Jaká to řeč?
 Jaké druhy látkových plen existují?
 Jaké díže?
+Jaké hodnoty rezistoru a kondenzátoru zvolit
 Jaké je tvoje telefonní číslo?
 Jaké jsou tvé motivace?
 Jaké jsou tvé nejoblíbenější písničky?
@@ -2191,6 +2278,7 @@ Jednou z nich je například testování kvality či hledání chyb.
 Jednou z podmínek je, že na hlavě nesmí být pokrývka.
 Jednou za pár týdnů si vždycky pustím epizodu a mám dost.
 Jednoznačná situace však není ani v zámoří.
+Jednočipový mikropočítač
 Jednu minutu, perfektní.
 Jedná se o první verzi téhle funkcionality.
 Jedná se o tu sázku o bábovku?
@@ -2346,6 +2434,8 @@ Ještě mám jednu prosbu.
 Ještě méně lidí to pak zvládne popsat.
 Ještě nevím, jak mi pojedou vlaky domů.
 Ještě nikdo to nenapsal výstižněji.
+Ještě nějaké čítače?
+Ještě pípat!
 Ještě slina z koutku.
 Ještě tři minuty.
 Ještě v chůzi odhodil hůl do kouta a klobouk proti srstí hlazený na stůl.
@@ -2410,9 +2500,11 @@ Jo, mimochodem.
 Jo, upír.
 Jo, člověče.
 Jo?
+Johnsonův kód
 Jojo, zabitej.
 Josef si myslí, že je vyléčen a vrací se z léčebny.
 Josef znovu propadne alkoholu a vrací se do léčebny.
+Joystick
 Jsem Helena Gloryová.
 Jsem hloupé děvče.
 Jsem hrdý na náš tým.
@@ -2615,6 +2707,7 @@ K tomu budou využity projekty hrazené z prostředků evropských strukturáln�
 K tomu dostane ještě mastnou pokutu a trestné body.
 K tomu je zapotřebí doložit úmrtní list.
 K tomu nemám pravomoc.
+K tomu připojíme rezistor, elektrolytický kondenzátor
 K tomuto skvělému jídlu by se nejlépe hodil kečup.
 K vůli vám se jí odříkám!
 K čemu je tato stránka?
@@ -2646,6 +2739,8 @@ Kapříci připluli?
 Karel jde domů.
 Karetkování je středověká technika tvorby tkaných ozdobných pásů.
 Karetkování je technika tkaní.
+Karl Fogel je velice aktivní vývojář a advokát svobodného softwaru.
+Karnaughova mapa
 Karolína odchází, přichází Rakvar.
 Karolína si bere pistoli od Jirky a prohlíží si ji.
 Karolína si sedá na židli.
@@ -2694,6 +2789,7 @@ Kde jsem přestal?
 Kde jste?
 Kde kdo byl v podezření, musil s nimi na faru.
 Kde ledy jsou?
+Kde nakoupit součástky?
 Kde nic není ani smrt nebere.
 Kde to vázne?
 Kde vzít zrcadlo, které by vám ukázalo vaše vědomí?
@@ -2804,6 +2900,7 @@ Když se rozsvěcí jen na krátko.
 Když se ti to podaří, máš u nás tejden pití zadarmo.
 Když se těmi slzami leskly, jako když spadne déšť.
 Když se člověk usmívá, nemusí to znamenat, že je šťastný.
+Když se řekne Arduino
 Když sem chodíš ty, tak nemůžu spát!
 Když tak mi napiš, co si o tom myslíš.
 Když to tak vezmu, lepší než autobus.
@@ -2819,6 +2916,7 @@ Ke konci doby ochutnejte, sůl a pepř budou nezbytností.
 Ke konci jsem ještě sesbíral a zpracoval materiály od ostatních.
 Ke snížení zatížení životního prostředí bude podporováno zavádění nejlepších dostupných technik.
 Kecám tady o úplných blbostech.
+Kirchhof dva
 Klam, v národech že láska vře!
 Klasická papírová média ztrácejí na významu.
 Klasifikátor i s krátkým popisem, jak funguje, dodám zítra.
@@ -2832,13 +2930,20 @@ Klid, holka, to zvládneš.
 Klidně můžeš.
 Klidně můžu poslat ještě nějaké, kdybys chtěl.
 Klidně piš komentáře přímo do toho dokumentu.
+Klient - server?
 Klimatizace je dražší a účinější než větrák.
 Klobouk.
+Klopný obvod jé-ká
+Klopný obvod s hradly nand
+Klopný obvod té
 Klub rváčů je spása!
 Klub rváčů?
 Klubovna se nacházela v restauraci U Pavlíčků.
+Klávesnice
 Klídek.
 Klíčem svých klíčních kostí všechno odemyká.
+Kniha CyberSecurity se primárně věnuje problematice kybernetické bezpečnosti.
+Kniha popisuje využití kryptografie v běžném životě.
 Kniha pořád ještě ležela na stole, protože ji tam zapomněl.
 Kniha se věnuje tomu, jak k tomu došel.
 Kniha spadla ze stolu na zem.
@@ -2868,6 +2973,7 @@ Kolik to váží?
 Kolik vás ten projekt dělá?
 Kolik?
 Kolikrát vás malá musela vidět!
+Kombinační logika
 Komentáře?
 Komické je počínání nalapaných klepetáčů v těsné nádobě.
 Komory zřizují jako své orgány výbory a komise.
@@ -2881,6 +2987,8 @@ Komu!
 Komu, pravím!
 Komunikuji s výše postavenými.
 Koncert pro klavír a orchestr.
+Kondenzátor
+Kondenzátory
 Kondom je skleněný střevíček naší generace.
 Koneckonců, už jsem s nimi měl nějaké zkušenosti.
 Konečník si rozdělíme.
@@ -2894,6 +3002,7 @@ Konečně se vlak dal do pohybu.
 Konečně se zabouchly dveře autobusu.
 Konečně si jej nasadí na hlavu.
 Konkrétní témata na počítačové hry nevypisuji.
+Konkrétně to bude obvod sedmtisíc čtyřistačtyři
 Konkurenční výrobci tak mohou zajásat.
 Kontrola je prováděná dobrovolníky z dané organizace.
 Konzervy se špatně recyklují.
@@ -2921,14 +3030,19 @@ Kozí Kuncka jí říkali.
 Kočár ujíždí krajinou.
 Kristepane!
 Krok ke zproletarizování všech vrstev.
+Krok zpět k drátům
+Krokový motor
 Krom poopravení byly i pečlivě začerněny.
 Krom toho můžete dělat i grafický návrh a design.
 Kromě obličejů jsme zatím dělali testy jen na již segmentovaných číslech.
+Kromě tištěných verzí vychází v této edici současně i elektronická podoba knih.
 Kromě toho tu ale noční život nijak nevzkvétá.
 Kromě toho, že zachraňuje životy?
+Kroužek, nebo ne?
 Kroužky si pro tentokrát vezme na triko učitel.
 Krvácím?
 Kryje ho rozmarýna.
+Krystalový oscilátor
 Královna Klára na klavír hrála.
 Království české bylo tehdá osiřelé.
 Krásnou látku jsem ti obětoval.
@@ -2946,6 +3060,7 @@ Které mají uplatnění v bezpečnostních aplikacích a získávání znalost�
 Které?
 Kterému mužstvu fandíš?
 Který obor bude zlikvidován jako další?
+Který rezistor je ten pravý?
 Který z vás to udělal?
 Kuchařka je určena hlavně pro začínající řešitele.
 Kuchařka pojednává také o uchovávání dat v počítači a základy rychlé manipulace s nimi.
@@ -2972,6 +3087,7 @@ Kůzlátko je samo doma.
 Kůň je citlivý na elektřinu.
 Lampa zde nevisela.
 Leckdy uklouzne i nejouhlavnějšímu nepříteli slovíčko plné uznání, a to pak tím více lichotí.
+Led podrobněji
 Leda byste mi násilím zavřel ústa.
 Leda na povidlový omáčce.
 Leda snad jen jako koncový zákazník?
@@ -2979,6 +3095,7 @@ Ledová kra se vynořila z černa noci.
 Lenka se odděluje z dvojce a Bob medvědím objetím drtí Jirku.
 Lenka si sedá na židli.
 Lenka střídá Jirku v medvědím objetí.
+Lepší řešení detektoru tmy
 Les mezi Lovčičkami a Dambořicemi.
 Les voní.
 Lestred se zapřel o kouli, aby jí dostal na provazovou síť.
@@ -3026,10 +3143,15 @@ Lineární kombinace vstupních dat.
 Litovat.
 Lituji velice, slečno Gloryová.
 Lituji, slečno Gloryová.
+Logické funkce
+Logické funkce dvou proměnných
+Logický analyzátor, logická sonda
+Logika v číslicové technice
 Loki.
 Loni jsem tuto soutěž teprv objevoval a poznával.
 Loupežník si sedne na lavičku.
 Loupežník zakolísá a spadne ze zdi.
+Low Power
 Lucie má malé kotě.
 Lucie odbíhá za scénu.
 Lucie zvedá sluchátko.
@@ -3048,6 +3170,7 @@ Léto, to já nerad.
 Líbí se ti, viď?
 Ma drahá dej mi víc své lásky.
 Magistrát města Brna mu občanský průkaz vydal.
+Magnetismus
 Magor, co snad bez lahváče nevystrčí patu z domu.
 Maják byl vybaven svítilnou a zvonem.
 Majáky nám připomínají dávnou a slavnou historii námořní plavby.
@@ -3087,10 +3210,12 @@ Marné jí strkat nosánek do mléka.
 Marta bezpochyby myslila, že se s obědem opozdila, nebo teprve nedávno zatopila.
 Mate to udělané zajímavě, ale našel jsem jen jeden závažný problém.
 Matematicky nadaní jedinci mají většinou dobré abstrakční schopnosti.
+Matice tlačítek
 Matka koza mu před chvílí odběhla.
 Matka vycházela sama na procházku, a dceruška zatím seděla v malé zahrádce a šila.
 Mechanicky poháněné nástroje způsobující hluk.
 Medově sladký byl, medově sladký, znával svou paní jak děťátko matku.
+Meteostanice
 Metro jezdí pravidelněji než tramvaje a i ty jsou spolehlivější než autobusy.
 Mezi dveřmi stál - přítel...
 Mezi fosilní paliva řadíme uhlí, ropu a zemní plyn.
@@ -3099,6 +3224,7 @@ Mezi nimi pěkný vejcovitý s držákem.
 Mezi těmi našimi předky museli být andělé.
 Meziroční rozdíl v tržbách však podle něj nebude tak markantní jako letos.
 Mezitím připravíme louh.
+Mikroprocesor osumdesát osumdesát á
 Milostnej trojúhelník, a navíc jen o dvou úhlech.
 Milostpán se zejtra vrátí.
 Miluji Tě, kočko!
@@ -3116,6 +3242,8 @@ Mimi, vy se tu nudíte.
 Mimo to byl strýc konservátorem mineralogického musea ruského vyslance Struveho, jež mělo pověsť evropskou.
 Mimochodem řečeno, věděla jste, že tam je ještě něco?
 Mimochodem, Aster není černoch.
+Mimochodem, když máme nand, co ty ostatní?
+Mimochodem...
 Mimozemšťani nezaútočí na lidi, ale na celý náš ekosystém.
 Ministerský předseda oznámil, že ze zdravotních důvodů podává demisi.
 Ministerstvo vnitra vyřadilo tři prezidentské kandidáty.
@@ -3182,6 +3310,7 @@ Modlil jsem se za nedotažené šroubky a za led na křídlech.
 Modlil jsem se, aby přišel prudký náraz větru.
 Modlil jsem se, aby turbíny vcucly pelikány.
 Modrý čtvereček na obrazovce je objekt.
+Moduly Esp osmtisíc dvěstě šedesát šest
 Moh bys prosím ještě šufánek?
 Mohl by ses někdy za mnou stavit.
 Mohl by ses stavit v pátek?
@@ -3203,11 +3332,15 @@ Moje sada poliček Klipsk.
 Moje zvíře je tučňák.
 Momentálně mě nejvíc fascinují asi shyby.
 Monitér, zhodnotil s temnou předtuchou Lestred.
+Monostabilní klopný obvod
+Montážní or
 Mor, hlad a zemětřesení stíhaly se tu o překot.
+Mosfet
 Motorka zrychluje.
 Motorku vidím.
 Motorkář kličkuje mezi jedoucími auty.
 Motorkářovi se ho zželí a opatrně ho odveze domů.
+Motory
 Moudrá, rozšafná a romantická dáma.
 Mozilla dělá výborné perníčky.
 Možná bude třeba dodat taky ještě trochu papriky.
@@ -3233,6 +3366,9 @@ Mrtvých spalování!
 Mráz nás štípe do tváří.
 Mráz, to je nejlepší malíř.
 Mstíš-li se, máš k tomu zajisté tisíceré příčiny a podstatné právo.
+Multimetr jako zkrat?
+Multiplexior - Demultiplexor
+Multiplexor
 Musel ho zjednodušit.
 Musel jsem se vrátit na hráz, kde na mě bylo vidět ze všech stran.
 Musel jsem si je vycvičit.
@@ -3443,6 +3579,8 @@ Městem projížděla auta, která měla ve vleku děla.
 Město bylo obsazeno povstalci.
 Měsíc listopad.
 Měsíc mrtev.
+Měření multimetrem
+Měření, měření!
 Měšťané u vedlejšího stolu zpívali oplzlé písničky.
 Můj blog čte leckdo.
 Můj domov byl byt v osobním vlastnictví ve čtrnáctém poschodí výškové budovy.
@@ -3598,6 +3736,7 @@ Nadarmo nezachází s člověkem.
 Nadávání vůbec je velkou částí zábav lidských.
 Naftový motor nemá mít třapce a ornamenty, slečno Gloryová.
 Nahlédni do svého srdce a poznáš, že je to pravda.
+Nahrání firmware do EduShieldu¨
 Nainstaluj si ho, ať vidíš nějaké pěkné čáry.
 Najednou se ozval varovný signál.
 Najednou se vám zvedly záclony jako křídla a chtěly uletět.
@@ -3652,6 +3791,7 @@ Napsal jsem si pár poznámek.
 Napsal-li bych to, pověděl bych zase málo.
 Napíná oudy, škube nohama, trhá tělem, mrská ocasem a jiné křečovité posuňky provozuje.
 Napíšu, až budu vědět něco bližšího.
+Napětí
 Napřed musíš rozpustit tuk.
 Například celé číslo zakódované v binární soustavě.
 Například grafické znázornění postupu algoritmu, které by se dalo využít pro demonstrační účely.
@@ -3667,6 +3807,7 @@ Nastane-li kdy vůbec.
 Nastavovat profil ostří.
 Natahují ruce ke kyslíkovým maskám.
 Naučil jsem se programovat.
+Naučit číslicovou techniku, říkáte?
 Naučí vás jak si ušetřit práci, co dělat a co nedělat.
 Naučíme se například, jak rychle vyhledávat v uspořádané posloupnosti hodnot.
 Navrhne proto vhodnou legislativní formu úpravy požadavků na energetickou náročnost budov.
@@ -3806,6 +3947,7 @@ Nebo částku nahoru?
 Neboj se a plač.
 Neboj, hrudník se mi zvedá, ale tu ruku na něm klidně nech.
 Nebojte se, Sullo, já vás nedám!
+Nebojte, hned za chvíli bude všechno jasnější!
 Neboli ucelenější a delší soubory textů zabývající se nějakou oblastí v širším kontextu.
 Nebolí.
 Nebolí?
@@ -3870,6 +4012,7 @@ Nedílnou součástí tohoto kroku bude i dokončení zemědělských restitucí
 Nedělej natvrdlýho!
 Nedělám si legraci.
 Nefunguje servisní podpora?
+Negované signály
 Nehezké jméno?
 Nehledáte náhodou něco?
 Nehostný nastal čas.
@@ -3897,6 +4040,7 @@ Nejlepší?
 Nejlépe dnes nebo v pondělí.
 Nejnovější poznatky lingvistiky praví, že bychom měli používat slovo klepnout namísto kliknout.
 Nejprve byl v dáli slyšet zvuk motorky.
+Nejprve jsou v knize vysvětleny vlastnosti vybraných kryptografických funkcí
 Nejprve padla sankce stopadesát tisíc korun za červencový blok.
 Nejprvnější na pasece byla žena s děckem.
 Nejraději si vzpomínám na Rudlu Hlavatého, šikovatele.
@@ -3937,6 +4081,7 @@ Nemají požitků.
 Nemají totiž čím.
 Nemají třeba děti problémy s mokrou pokožkou?
 Nemají zrovna na růžích ustláno.
+Nemaskovatelné přerušení
 Nemluv o mně za mými zády.
 Nemoc se charakterisuje stálou veselostí a radostí.
 Nemohl by ses na to mrknout?
@@ -3955,6 +4100,7 @@ Nemusíte.
 Nemysleme si však, že tím energii nespotřebováváme.
 Nemyslím si, že končí web jako soubor technologií.
 Nemyslím.
+Nemá to něco společného s atomy?
 Nemá zapnuté motory a nic do ní netlačí.
 Nemá zlomeniny.
 Nemám hlad, nemám žízeň.
@@ -4303,6 +4449,9 @@ Náboj do minometu, kámo!
 Nádherný kousek.
 Náhle sobě hraje na svatého!
 Náhle usedli, a cizí vrabec jim počal něco vypravovat.
+Náhoda? Nemyslím si...
+Nákupní seznam začínajícího hobby elektronika
+Nákupní seznam: Součástky pro blikač
 Nám by se to skácelo.
 Nám jsi vzal vrabečka, jenž byl tak krásný.
 Nám se daří celkem v pohodě, co taky jiného.
@@ -4316,7 +4465,10 @@ Následuje kód polského města, ten volíme bez nul.
 Následuje představení průběhu rituálu Akélou.
 Následující blok je navždy odsouzen k šedivým cihlám.
 Následujícího dne dal přítel bedny odvézti.
+Násobení kmitočtu?
+Násobky a podíly
 Nástroj pro přepis hlasu.
+Nástroje a weby
 Nástroje jsou, služby jsou, jen to skutečné nasazení chybí.
 Návrh jde naprosto jednoznačně na ruku penzijním fondům.
 Návrhy zákonů se podávají Poslanecké sněmovně.
@@ -4382,6 +4534,7 @@ Někdy se čas tak vleče.
 Někdy to jde opravit ručně, někdy ne.
 Někdy to jde, jindy ne.
 Několik okamžiků panovalo mrtvé ticho.
+Několik tipů k pamětem
 Někomu ale vadí horší barevné podání.
 Někomu se podařilo překonat přihlašovací obrazovku.
 Některou chvíli pak začala kráčeti rychle kupředu.
@@ -4453,10 +4606,13 @@ Obrannou politiku bude vláda realizovat v úzké meziresortní spolupráci.
 Obraťte se prosím na něj.
 Obraťte se, Sullo!
 Obrácen k lesu zapíská na píšťalku.
+Obrácená logika
 Obrátí se, dívá se, kde Loupežník ležel.
+Obsah
 Obsahují práva a povinnosti týkající se všech služeb.
 Obvaz, něco jako obvaz.
 Obviněný má právo odepřít výpověď.
+Obvod se skládá z šesti invertorů
 Obvykle detailní záběry.
 Obydlí je nedotknutelné.
 Obyčejná babka.
@@ -4503,6 +4659,7 @@ Odkud jste, slečno?
 Odlet se mi nebezpečně blíží.
 Odměna.
 Odpoledne budu cestovat do Brna, tak bych to donesl asi až zítra do školy.
+Odpor
 Odpovídající fiskální úspora bude případně dosažena obdobným opatřením spočívajícím v účelnější diferenciaci prvého stupně.
 Odpověď: Že tam není docela klidno.
 Odstoupit lze i od změny smlouvy.
@@ -4524,6 +4681,7 @@ Oh, přestaňte!
 Oh, vy se nebojíte smrti?
 Ohlédne se nazpět a běží za ní.
 Ohlížejí se po pánu.
+Ohmův zákon
 Oho!
 Okamžitý výjezd je výhodný z více důvodů.
 Okamžitě se nabízí otázka: Proč to Černý celé dělá?
@@ -4576,6 +4734,7 @@ Opakovaně je navrhován na Nobelovu cenu za literaturu.
 Opakuješ se.
 Opatrně miláčku, krvácíš!
 Opatrně, prosím vás.
+Operace s bity
 Operační systém je základním stavebním kamenem pro jakýkoliv počítač.
 Opečme si buřty, když už tam budem.
 Opice nemá žádné názory, ani pocity.
@@ -4604,6 +4763,7 @@ Osaměl jsem.
 Osciloskop by se mi zrovna hodil.
 Oslavy letošních abiturientů si v ničem nezadaly s loňskými.
 Osm je dva na třetí.
+Osm tlačítek na třech vodičích
 Osmnáct set sedmdesát.
 Osobní konzultaci je možné domluvit.
 Osobní svoboda je zaručena.
@@ -4640,6 +4800,7 @@ Otevřel okno a zhluboka se nadechl.
 Otevřel zadní dveře Bavoráku a říká, ať si nastoupím.
 Otevřela oči.
 Otevřeme první zásuvku a zamyslíme se poněkud.
+Otevřený kolektor, třetí stav
 Otevřený software je výborný.
 Otevři knihu.
 Otevři kteroukoliv knihu, jakýkoliv čti časopis přírodnický.
@@ -4649,8 +4810,10 @@ Otázka: Cože?
 Otázka: Je to tak zlé?
 Otázka: Já bych se rád podíval do Irska.
 Otáčení turbín pak vyvozuje proudění vzduchu v mezeře.
+Otáčení, posun
 Otřes.
 Oukej, rakovina varlat je tvoje.
+Ovládáme přírodu elektronikou
 Ovoce.
 Ovšem chyba lávky.
 Ovšem i tak, jediné, co lze, je vytrvat.
@@ -4713,6 +4876,8 @@ Pamatuji se dobře na pana vévodu.
 Pamatujte, prosím, že kouření není v tomto vlaku dovoleno.
 Pamatujte, že děti by neměly být u ohniště ponechány bez dozoru plnoleté osoby.
 Pamatuju si všechno...
+Paměti šedesát čtyři bitů Ram
+Paměťové karty
 Pan Lidenbrock je již zde?
 Pan arcibiskup je mi tu svědomitým a vzorným průvodčím.
 Pan centrální ředitel Domin?
@@ -4723,6 +4888,7 @@ Pane!
 Panebože, to je radost!
 Panebože, ve dne a za střízliva je to tady mnohem horší!
 Panečku, já poznal hezký kousek světa.
+Panna, nebo orel?
 Panovala tam dobrá nálada.
 Panoši a zbrojnoši.
 Paní ji tudíž více již nenutila.
@@ -4732,6 +4898,8 @@ Panímáma si leckdy utřela oči zástěrou.
 Papriky jsou letos drahé.
 Parafín mi absolutně nikdy nefungoval.
 Paragrafy zrušeny
+Paralelní a sériová rozhraní
+Paralelní zapojení
 Pardon, mluvila jste o lži.
 Pardon, nerušíme?
 Pardon, slečno Gloryová.
@@ -4747,12 +4915,14 @@ Patrně porucha organismu.
 Pavel seškrábal z chleba máslo a namazal mu šlapky.
 Pavouci bývají většinou považováni za užitečné živočichy.
 Peklo zamrzlo.
+Peltierův článek, topná spirála
 Peníze hýbou světem.
 Peníze nešustily a otisky prstů na nich nebyly.
 Peníze půjdou na ministerstvo zdravotnictví.
 Pepa je pro mě od té doby mrtvý.
 Pepa pospíchá do práce.
 Pepíček šel do politického boje vesele.
+Periferie
 Peru ob den třicet plen, třicet suším a třicet používám.
 Pes nepes, mládenče, a platím, jen když chci.
 Pes očichával první jarní květy.
@@ -4767,8 +4937,10 @@ Petra říkala, že už se dokonce i lyžuje.
 Petrolejky, olejové lampy, svíčky, louče...
 Petrovi spadla na zem karta.
 Pečení vánočního cukroví je zažitá tradice.
+Pic
 Pij hodně acidofilního mléka.
 Pirát zůstal nehybně stát.
+Piso a Spi
 Pistoli jsem si nenápadně schoval pod polštář.
 Pistolí míří do publika.
 Pište si poznámky.
@@ -4790,6 +4962,7 @@ Plivala na koně i na vojáky a než ji mohli udeřit, odešla.
 Plná bílá dlaň.
 Plně soucítím s Michalem.
 Plus několikahodinový slušný gangsterský film.
+Plyn
 Po Nejvyšší nabídce to asi budu muset co nejdřív napravit.
 Po bouři byla celá města bez světla.
 Po celou dobu konání soutěže jsem aktivně odpovídal na otázky.
@@ -4897,6 +5070,7 @@ Podívejte se, nespavost je jen symptom, ano?
 Podívejte se, slečno Gloryová, jakou děláme pleť.
 Podívám se na to.
 Poděkoval jsi někdy?
+Poděkování
 Podělte se v diskuzi.
 Poeto Světe!
 Pohlédl do Nilvíniích zářících očí a vztek ho přešel.
@@ -4926,7 +5100,9 @@ Pojď, pro Boha, vždyť přijdeme o život.
 Pojďme ale o kus dál.
 Pojďme ale zpět.
 Pojďme si o tom popovídat.
+Pojďme si to postavit, je to snadné.
 Pojďme uvařit knedlíky.
+Pojďme, budeme už fakt něco počítat!
 Pojďte sem k oknu.
 Pojďte sem, ať se na vás kouknu zblízka, jak jste přísná.
 Pojďte sem.
@@ -4954,6 +5130,7 @@ Pokud ne, musíte si jí najít sami.
 Pokud ne, nevadí.
 Pokud ne, proč ne?
 Pokud ne, čtěte dál.
+Pokud nechápete, o čem je v ní řeč, nevadí.
 Pokud neposkytuje dost informací, tak k čemu nám tedy je?
 Pokud nás bude dost, mohlo by se dílo podařit.
 Pokud něco budete mít, i když ne funkční, pár bodů asi dostanete.
@@ -4987,12 +5164,15 @@ Policie se ptá, jak se to stalo.
 Politické strany budou pobírat o pětinu nižší příspěvek na činnosti.
 Polituj svého ubohého přítele...
 Polkni ten acylpyrin.
+Poloha, zrychlení
+Polovodiče
 Položil ruku na srdce a s úžasem zjistil, že nebije.
 Polykrystalický diamat je samozřejmě mnohem levnější.
 Pomalu s tou flétnou!
 Pomalu se rozednívá.
 Pomalu to rozdýchám.
 Pomalu, ještě mám ruce v kapsách.
+Pomalé tlačítko
 Pomlouvači nevěděli, že zástěrou měřit je v pekařčině rodině zvykem.
 Pomlčka.
 Pomoc!
@@ -5033,6 +5213,8 @@ Postav mi vodu na čaj.
 Postav se k tomu čelem.
 Postava ženy té byla vysoká, kostnatá.
 Postavení tohoto útvaru bude upraveno v kompetenčním zákoně.
+Postavte si blikač – teď už to snad půjde lépe
+Postavte si třeba... kalkulačku?
 Postaví své hodinky na stůl.
 Postgraduální výuka bude svěřena vysokým školám se zdravotnickým zaměřením.
 Postoj uživatelů a internetových firem se totiž nemění.
@@ -5040,6 +5222,8 @@ Postup je stejný.
 Postupem času ho začne celá rodina i s Markétou nenávidět.
 Postupů je určitě velmi mnoho.
 Posunout termín by možná šlo, ale jen z dobrého důvodu.
+Posuvné registry
+Posuvný řadič Sipo sedmdesátčtyři hct pětsetdevadesát pět
 Posvátné krávy.
 Posílám lepší klasifikátor a ukázku výstupu.
 Posílám něco málo rozpoznávání výrazů obličeje.
@@ -5050,6 +5234,7 @@ Posílám ty slíbené obrázky a text.
 Posílám vám aspoň obrázek, jak takový anglický park vypadá.
 Posílám výsledky.
 Posílí dozor a kontrolu zdravotních pojišťoven, jejich hospodaření a zajišťování nároku pro pojištěnce.
+Potenciometr
 Potkal jsem cestou adamity.
 Potkali by se v půli cestě.
 Potom absolvoval podpůrnou hormonální léčbu.
@@ -5083,6 +5268,7 @@ Potřebuju od tebe něco vědět.
 Potřebuju prostě vymýšlet věty.
 Potřásl jsem mu rukou, která byla tvrdá a pevná.
 Poupě se začíná rozvíjeti.
+Pouzdra elektronických součástek
 Pouze oceli s vysokým obsahem uhlíku jsou snadno kalitelné.
 Pouze provádíme transakci pro vás jako plátce.
 Pouze se díky evoluci některé položky přesunuly jinam.
@@ -5135,6 +5321,7 @@ Počkejte!
 Počkejte, já hned vstanu.
 Počkejte, teď jste mi to přetrhla; už jsem to zapomněl.
 Počkejte.
+Počítadlo k autodráze
 Počítače nemají klávesnice a nemají obrazovky.
 Počítačové odvětví je velmi monopolizované.
 Počítačové programy
@@ -5150,6 +5337,8 @@ Pracovat jen o prázdninách možné není.
 Pracovní obry.
 Pracuji v noci a ve dne spím.
 Pracují, jako pracuje nový nábytek.
+Prakticky...
+Praktické tipy
 Pralinku prolezla prý plíseň.
 Prasata totiž vypadají jako lidé.
 Pravdaže to trochu bolí, ale musí se to provést šikovně.
@@ -5175,6 +5364,7 @@ Pro jistotu ještě opakuji několik informací ze zadání.
 Pro jistotu si to zkontrolujte, ale mělo by to být správně.
 Pro který odznáček jste?
 Pro kulturu a tak dále.
+Pro lepší představu
 Pro maticové hry platí důležitá věta.
 Pro mne ja vaše dneska nedohlédnutelnou budoucností.
 Pro mě osobně je to vysněná práce.
@@ -5208,12 +5398,15 @@ Probudíš se na letišti.
 Probudíš se na pláži.
 Probuď se!
 Probuďte se!
+Procesory, počítače, mikrořadiče
 Procházela se po rozlehlém ošuntělém nádraží.
 Procházím se po okolí a hledám něco fotogenického.
 Prodávala ovoce na náměstí pod deštníkem.
 Prodělají samozřejmě občané.
 Proexportní politika bude realizována s přihlédnutím k zahraničně – politickým a bezpečnostním zájmům česka.
 Profily zajímavých lidí.
+Programování Arduina
+Programování jednočipů
 Programátorů jsou ale na světě stovky tisíc.
 Prohledává jen místa, kde došlo ke změně.
 Prohlídnu všechny výpočty a zkontroluju chyby.
@@ -5233,6 +5426,7 @@ Promiňte, slečno, pak vás musím přesvědčit.
 Promrzelý je to kolohnát!
 Pronájem koncových zařízení či nákup na splátky.
 Proplétala se lidmi, kteří plakali, kteří svírali pěstě.
+Propojení Cms a Ttl
 Propána!
 Propána, slečno!
 Propánička, krásná dámo, vždyť my to děláme tak lacino!
@@ -5326,6 +5520,7 @@ Protože vánoce bez bramborového salátu nejdou.
 Protože vás všichni po řadě požádají.
 Protože z mé strany je i cílem takto připravit studenta na doktorské studium.
 Protože čtu.
+Proud
 Provede audit přípravy projektu maturit, včetně kontroly vynaložených prostředků.
 Provedení změny se má za schválení.
 Provést se prostě nesmí.
@@ -5370,6 +5565,7 @@ Proč se musí stát kvůli mně něco tak hroznýho?
 Proč se o něj nestaráš lip?
 Proč se straníš boje?
 Proč se trápíte?
+Proč slučujeme přes or?
 Proč ta lehčí?
 Proč tak nás v zhoubu řítí naše bludy?
 Proč tam ta zařízení byla?
@@ -5379,6 +5575,7 @@ Proč to všechno píšu?
 Proč to všechno?
 Proč to říkáte?
 Proč vyrábíte ženské Roboty, když u nich pohlaví nemá významu?
+Proč zapojovat blokovací kondenzátory k napájení
 Proč, vám nikdo nepoví.
 Pročpak nás honíte, rackové, křičící mořská chaso?
 Prošli evolucí.
@@ -5429,6 +5626,8 @@ Psy nesnáším, ale kočka s koťaty mi bohatě stačí ke štěstí.
 Ptali se hlavně ostatní soutěžící, co byli v soutěži prvně.
 Ptali se, kde je vzali a od koho.
 Ptát se proč teď není doba.
+Publikace Hradla, volty, jednočipy je určena pro zájemce o elektroniku
+Pull Up a Pull Down
 Pusťte!
 Pytel provázel každý krok řinčením.
 Pyšný tluče jen tenkráte na zavřená vrata, když se o něco velikého jedná!
@@ -5441,6 +5640,7 @@ Pár lidí taky smrdí.
 Párek.
 Páté pravidlo!
 Pávové pozornost poutají.
+Pé-en přechod
 Péče o děti a jejich výchova je právem rodičů.
 Pískal na nás.
 Píská mi v uších.
@@ -5482,6 +5682,8 @@ Především ty, kde jde o čirou atmosféru.
 Především škrabky na brambory, nože a prkénka.
 Předloží novelu horního zákona, která zajistí hospodárné využívání zásob nerostných surovin.
 Předloží ústavní zákon o rozpočtové kázni a odpovědnosti.
+Předmluva mentora
+Předmluva vydavatele
 Přednáška jeho byla subjektivně pro něj, a pro nikoho jiného.
 Předseda vlády podává demisi do rukou prezidenta republiky.
 Představovala si, jak měl šaty jako dítě žebrácké.
@@ -5517,6 +5719,7 @@ Přemýšlím nad tím.
 Přemýšlím, že bych jel zase do Chorvatska na dovolenou.
 Přeneseně i doslova.
 Přepošlu ti, co jsem lidem poslal.
+Přerušení
 Přes Sedlo se potom nedá projet a ani přes Hanušovice to není žádná sláva.
 Přes prsa pak červenou podušku.
 Přes tucet luxusních vozů pokáleno holuby!
@@ -5526,6 +5729,8 @@ Přestaňte už!
 Přesto obchodní centra a supermarkety na svou chvíli slávy zatím čekají.
 Přesto se toho dokázal vzdát jen málokdo.
 Přesto to stovky tisíc lidí takhle dělají.
+Převodník napěťových úrovní
+Převodník usb na sériové rozhraní
 Převzali jsem si svá zavazadla.
 Při dlouhé pohádce, kteráž stačila někdy i na dva večery.
 Při dělání jíšky pracujte na malý stupeň ohřevu plotýnky.
@@ -5587,6 +5792,7 @@ Přináším pár fotek pořízených během tohoto srazu.
 Přináším pár fotek.
 Připevnění je možno provést pomocí šroubů nebo nastřelením.
 Připoj to na stejnosměrný adaptér.
+Připojujeme klávesnici od PéCé
 Připojím se u vozovny.
 Připomíná ti to něco?
 Připomínám se ostatním.
@@ -5625,9 +5831,11 @@ Příkladem za všechny mohou být koně.
 Příliš mnoho estrogenu a máš kozy.
 Příliš se nepodařilo provést rituál s dostatečnou vážností.
 Příliš žluťoučký kůň úpěl ďábelské ódy.
+Přílohy
 Případně kombinaci obou možností.
 Příprava jednoduchého pokrmu pomocí videonávodu.
 Příroda neměla ponětí o moderním tempu práce.
+Příroda ovládá elektroniku
 Přírodní zákony platí pro všecky, chudé i bohaté.
 Příslušnost soudu i soudce stanoví zákon.
 Příslušníci policie či pořádkových služeb.
@@ -5668,6 +5876,7 @@ Račte usednout, prosím.
 Račte, paní.
 Račte.
 Rcete, je vám ot a syn ten znám?
+Ready - Wait
 Reagují na zprávy.
 Reakční zplodiny určují chemickou reaktivitu plamene.
 Realizovat reformu systému terciárního vzdělávání.
@@ -5677,9 +5886,17 @@ Registrovaní čtenáři mají k dispozici internet zdarma.
 Regulační poplatek za hospitalizaci se přiblíží reálným nákladům za takzvané hotelové služby.
 Reimplementace byla zcela dle očekávání docela sračka.
 Reklama údajně nejde žádným běžným způsobem vypnout.
+Relé
+Reproduktor
 Respondentům byly položeny připravené otázky.
 Revolverem provrtal leporelo.
+Rezistor
+Rezistory, termistor, tyristor, tranzistor, triak
+Reálná kostka
+Reálný klopný obvod
+Reálný latch
 Rick je geniální postava.
+Risc
 Rituál zahajují vlčata v podřepu s rukama na zemi.
 Rituály.
 Robertek zdržel jejich zavazadla na východním pobřeží!
@@ -5693,11 +5910,13 @@ Rodinný život Abrahámův nemohl být patriarchálnější než anglický week
 Rodiče, které pečují o děti, mají právo na pomoc státu.
 Rodičovství a rodina jsou pod ochranou zákona.
 Rohlíky došly.
+Rom, Prom a další
 Romeo je nešťastně zamilován do dívky jménem Rosalina.
 Romeo pozře jed u Juliina těla.
 Romeo se dozvídá o smrti Julie a chce se zabít.
 Ronja je bezva kočka.
 Ropa je kapalná směs uhlovodíků.
+Rotační enkodér
 Rotuje obraz.
 Rotuje se klasifikátor.
 Rotuje se obraz.
@@ -5727,12 +5946,14 @@ Rozmyslel sis to pořádně?
 Rozmyslel sis už svoji účast prosím pěkně?
 Rozpoutá se boj a Romeo zabijí Parise.
 Rozsudek se vyhlašuje vždy veřejně.
+Rozsvítíme prstem Led!
 Rozsáhlé statky v nich podobají se omšeným hrobkám.
 Rozumím.
 Rozumíte, musíme nechat drobet místa pro přirozený vývoj.
 Rozumíš tomu moc dobře!
 Rozumíš tomu?
 Rozzuřený na nejvyšší míru, honí zajíce.
+Rs - dvěstě třicet dva, Uart, Serial...
 Rty se tiše chvěly.
 Rty se usmály, ale jen zlehounka.
 Rtíky se pohnuly k úsměvu.
@@ -5811,6 +6032,7 @@ Sbohem, kostelníci, jedu se podívat do Yorku.
 Sbohem, pane nevímkdo, a podruhé řekněte, kdo jste, a vůbec sbohem!
 Sbohem, vznáším se vzhůru!
 Sbohem.
+Schmittův obvod
 Schází vám sok do vašeho lesního románu?
 Scházívali jsme se ve čtvrtek.
 Schůze komor jsou veřejné.
@@ -5828,6 +6050,7 @@ Sedlák Květ se přestal dívat své dceři v tvář.
 Sedlák Květ vstal ze židlice.
 Sedlák seděl opodál s očima upřenýma na čtenářku.
 Sedm je liché číslo.
+Sedmisegmentovky led
 Sedmé pravidlo!
 Sedne si.
 Sedí doma tedy v klidu.
@@ -5845,6 +6068,7 @@ Sem, Busmane.
 Sen.
 Senát volí a odvolává předsedu a místopředsedy Senátu.
 Sere tě, ne?
+Servo motor
 Seskočí a jde si sednout na lavičku.
 Seskočí ze stolu a usedne vedle Heleny.
 Sestavte pravdivostní tabulku.
@@ -5860,6 +6084,7 @@ Seš moc mladej, jasný?
 Seženu je, uvidíš.
 Sice jsme nevyhráli, ale jinak to ušlo.
 Sice nutná k přežití, ale nudná.
+Sigfox
 Signál je registrován a vyhodnocen.
 Silnice se, jak známo, solí.
 Silnice vedla příkře do vrchu.
@@ -5895,6 +6120,7 @@ Slečno, to se nedělá, takhle na ulici.
 Sloučeniny sodíku mají převážně iontový charakter.
 Slouží k zamyšlení se nad rozumností zákazu nejen žárovek.
 Slovo flaška, stejně jako láhev, pochází z němčiny.
+Složitější periferie
 Slunce zapadlo za obzor.
 Slunko bylo u samého západu a svatojanští broučci vstávali.
 Služba je zpoplatněna tarifem podle ceníku.
@@ -5966,6 +6192,7 @@ Sodík je přirozeně přítomen ve všech potravinách.
 Sodík je třetím nejvíce zastoupeným prvkem v těle člověka.
 Sodík ovlivňuje objem buněk.
 Sodík se vylučuje především močí, ale také potem a stolicí.
+Solární články
 Sopel na pstruhu, ušní maz na hovězích líčkách, moč ve vývaru.
 Sotva jsem se obrátil, a strýc již opět netrpělivě volal.
 Souběžně bude podporovat analogickou racionalizaci organizačních struktur Ministerstva obrany.
@@ -5986,6 +6213,7 @@ Spolehněte se na nás.
 Společnost by bez broušení nemohla prosperovat.
 Společnosti bez předem známé a průhledné vlastnické struktury se nebudou moci těchto soutěží účastnit.
 Společná výroba elektřiny a tepla se pak nazývá kogenerace.
+Společná zem
 Spolu s náma ho mají i strojaři.
 Spolu se základními čtyřmi druhy příznaků se dvěmi a třemi oblastmi.
 Spolupracovat se mi nakonec s nikým nepodařilo.
@@ -6004,6 +6232,7 @@ Sraz se všeobecně vydařil.
 Srbové se hned vztekají pro každou maličkost.
 Srdcovky.
 Srovnej si to v hlavě než začneš mluvit.
+Stabilizátor
 Stala se z toho součást mého myšlenkového procesu, mě sama.
 Stalo se to jednoho chladného zimního večera a ne náhodou na Štědrý den.
 Stalo se to mně, stalo se to ostatním.
@@ -6019,8 +6248,10 @@ Starý Rossum neměl trochy vkusu.
 Starý voják se ozval, hladě si dlouhé kníry.
 Stav se za mnou na začátku příštího týdne a koukneme na to.
 Stav se za mnou.
+Stavebnice
 Stavit se můžeš, jestli chceš.
 Stavím se kdykoliv jindy.
+Stavíme z polotovarů
 Stavět a vážit v hrsti.
 Stačila jedna policejní kulka.
 Stačí pár Voltů a buď jej to omráčí, nebo zabije.
@@ -6091,6 +6322,8 @@ Středem je stále náš Velký Pastýř.
 Středoškoláci se mohou zapojit taky.
 Střelka kompasu ukazuje sever.
 Střešní roviny mohou mít různý sklon.
+Střída pwm
+Střídavý proud
 Stůj!
 Stůjte!
 Suchaři bez špetky inspirace co by mohlo být.
@@ -6117,16 +6350,21 @@ Své funkce se ujímá složením slibu.
 Své o tom ví i náš student.
 Své postavení.
 Svého času zřejmě hodně cestoval.
+Svítilna s Ledkou
 Svítily hvězdy.
 Svět je pro vás matoucí.
 Svět je pro vás složitý, nepochopitelný a neovladatelný.
+Světlo
 Světlo mě vede tunelem!
+Světlo – fotorezistor, fotodioda, line tracking
 Světluška dočetla kapitolu.
 Světluška četla o bědách, které přišly na českou zemi.
 Světluška četla tak hezounce, až slza vhrkla.
 Světácký úsměv se zatetelil a odletěl.
+Symbol pro klopný obvod
 Symptom něčeho většího!
 Syn ještě chvíli pobyl a čekal.
+Synchronní - Asynchronní
 Systém nemocenského pojištění bude převeden na zdravotní pojišťovny.
 Systém zcela selhal.
 Sáhl tam po dveřích.
@@ -6136,6 +6374,12 @@ Sám jsem chtěl něco takového navrhnout, ale zatím jsem neměl čas.
 Sám jsem tam přidal svůj domeček.
 Sám jsem to udělal.
 Sám mladý hospodář to hleděl pátravě do světnice své matky.
+Sériová komunikace
+Sériová paměť prakticky
+Sériová sběrnice Spi
+Sériová sběrnice í dva Cé
+Sériové paměti
+Sériové zapojení
 Síť budoucnosti se bude od současného internetu lišit.
 Síť je naprosto samozřejmá a všudypřítomná.
 Síť je všudypřítomná.
@@ -6231,6 +6475,7 @@ Tak lepila se na ně však smůla.
 Tak milenec zaleze pod postel.
 Tak mocně hlasy mojí touhy znějí.
 Tak musíš použít to převzorkování.
+Tak málo nožiček...
 Tak měli?
 Tak na něj vem koště.
 Tak nechoď.
@@ -6497,9 +6742,12 @@ Tentokrát u maminky se dvěma syny.
 Tentononc spíchnul.
 Teoreticky může být průlezná nebo neprůlezná.
 Teplo je jednou ze základních potřeb člověka.
+Teplota, vlhkost
+Termistor
 Termín máš celkem brzy po Novém roce.
 Termín si domluvte předem emailem.
 Testované klasifikátory jsou nejlepší, které v současnosti umím vyrobit.
+Teteel a Cmos
 Text „Pravděpodobnost a matematická statistika“ již mám.
 Text, který čtete?
 Textově orientované terminály.
@@ -6551,6 +6799,10 @@ Tilion za ním zůstal bezradný.
 Tisíc vrabců se nevyrovná takovému lidskému vrabčáku!
 Tisíce střípků, které mají potenciál trošičku změnit svět.
 Tiše, někdo jde.
+Tištěné knihy z Edice cz.nic si můžete zakoupit u některého z knihkupců.
+Tlak
+Tlačítka a klávesy
+Tlačítko a přepínač
 Tleskám, ještě že jsme chudí a hodně pirátíme!
 Tma je jen nepřítomnost světla.
 Tma padla na krajinu.
@@ -6645,6 +6897,7 @@ To je příšerné!
 To je příšerně depresivní.
 To je skandální, to je nedůstojné, jak žijete!
 To je smrt, Marie.
+To je takový základ, který by každý měl znát
 To je tím, že se ustavičně hrabeme v hlíně.
 To je v pohodě.
 To je ve značném rozporu s vašimi odpověďmi na otázky u obhajoby.
@@ -6684,6 +6937,7 @@ To ne.
 To nebude medúza, spíš nějakej sáček, nebo tak něco.
 To nedává smysl, sněžný.
 To nejde, slečno Gloryová.
+To nejlepší z obou světů
 To nemože bejt a dost.
 To nemusíš číst.
 To neměl dělat, Dášeňko, ale takovou měl sílu v ocásku.
@@ -6848,6 +7102,9 @@ Toť ženuška!
 Tož sbohem, Mimi, a zavřete se.
 Tož tu budete vyšívat, a Fanka s vámi.
 Transformuje dědickou a darovací daň pod daň z příjmů.
+Transformátor
+Tranzistor
+Tranzistor řízený polem - fet
 Travička kolem je odolná vůči plamenometu...
 Trefili jsme do hotelu.
 Trenéra mi dělá Marek Sviridov.
@@ -6856,6 +7113,7 @@ Trestání nevinných je tak závažnou věcí, že to stojí za to.
 Trhanovský pán odešel tam, kam jej Kozina vyzval.
 Trhej si jiné třešně; však tě brzo poznají, co jsi.
 Trhne hlavou směrem k východu.
+Trimr, potenciometer
 Trocha rokování a debatování, trocha pohybu někde venku.
 Trochu jsem pozměnil to, co jsem napsal už dřív, aby navazoval text.
 Trochu jsem předělal tu svou původní.
@@ -6884,11 +7142,13 @@ Tu řím hlasem.
 Tu šelmu zříš, zpět nutí mne vztek její.
 Tudíž film rozhodně nefunguje jako hudební dokument.
 Tuhle jste tiskla nos k oknu, tady jste psala na podložce.
+Tuhle kapitolu můžete klidně vzít zlehka
 Tuhé mrazy zasáhly Česko i v noci na úterý.
 Tuk a olej pomalu zahříváme ve velkém hrnci.
 Tuk a olej se pořádně promíchají.
 Tunel!
 Turistka!
+Turris Omnia pro experimenty s elektronikou
 Tuto chvíli si Filip dlouho představoval ve svých snech.
 Tuto druhou cestu, po které se mohl brát vývoj života, jsem dnešního dne objevil.
 Tučnáci jsou nelétavým příkladem ptáků.
@@ -7026,6 +7286,7 @@ U sta hromů!
 U vás nikdo nehlídá pravou víru?
 U východu z lesa byla paseka.
 U čerta, nikdo ještě neviděl, že by se Robot usmál.
+U čtenáře předpokládá běžné zkušenosti s počítačovou technikou.
 Udělal jsem si tady z toho i takový ozdravný pobyt - celkem jsem to potřeboval.
 Udělal z něj dvojí prací necky, stolici, polici, a ještě bábě zbylo na čepici.
 Udělala jsem podobné testy jako ty - vzájemné porovnání detektorů.
@@ -7043,6 +7304,7 @@ Uklidněte se.
 Uklizený dům je úžasná věc.
 Ukrojit z peněz se má také lékárnám.
 Ukázalo se, že je tomu tak.
+Ukázka! U-káz-ka!
 Ukážu vám to v muzeu.
 Ukážu vám v muzeu, co spackal za deset let dohromady.
 Uličník!
@@ -7242,6 +7504,7 @@ V sobotu máme večer sraz se třídou ze střední školy.
 V sobotu večer se žádná schůzka neuskutečnila.
 V sobotu zavolám z Prahy.
 V současné chvíli není dostatek veřejných dat k tomu, aby mohli takové aplikace vytvářet.
+V současné době si veškeré knihy
 V takovém případě bych pak chtěl vidět zpracované výsledky.
 V tatínkově posteli!
 V temné noci, když vše v pevný spánek ponořeno, nastávají jeho rejdy a šmejdy.
@@ -7314,6 +7577,7 @@ Vedení školy následně uplatnilo své nejnovější poznatky.
 Vedle Dominova stolu psací stroj, na němž píše dívka Sulla.
 Vedle běží televize.
 Vedle nich dva biče, tykadel to tvar, všemu tvorstvu na postrach, se chvějí.
+Vedle sebe, za sebou
 Vedle vozu kráčela žena, nesouc na hřbetě malé děvče.
 Vedle zdravé disciplíny, buďte k sobě vlídní.
 Vedli jsme spoustu různých diskuzí na téma proč to tak je.
@@ -7489,7 +7753,9 @@ Vláda zpřísní podmínky v oblasti podpory v nezaměstnanosti, která bude v�
 Vláda zpřísní postoj k neplatičům nájemného a pořádkových pokut.
 Vláda zváží možnost podpory multimodálních logistických center umožňujících přenesení dálkové nákladní přepravy na železnici.
 Vládu, která bude pracovat pro lidi.
+Vnitřní uspořádání Atmega třista dvadcet osum
 Voda se bez soli v organismu neudrží.
+Vodič a nevodič
 Vojenské manévry byly pozastaveny v červnu...
 Vojta je pěkný darebák.
 Vojtěch Nosal, farář v Nechanicích.
@@ -7567,6 +7833,7 @@ Vyjde z lesa Cikánka.
 Vyjednání spravedlivých podmínek pro české zemědělce v evropě bude jednou z klíčových priorit vlády.
 Vyjekla na mě máma.
 Vyjmenujte a nakreslete základní typy tesařských spojů.
+Vyjádření logických výrazů
 Vykouknu škvírkou mezi dveřmi a v tom jsem ho uviděl...
 Vykřikla a mrštila vší silou vajíčko do auta.
 Vyloupil banku?
@@ -7610,6 +7877,7 @@ Vysvětlete, jakými způsoby je možno řešit detail u vnějšího okraje.
 Vysvětlete, které typy detailů plochých střech je třeba řešit.
 Vysvětli mi, co se doprdele děje?
 Vysílací rada potrestala teleshopping s doplňky stravy a šperky.
+Vysílání na čtyřista třidset tři mega hertz
 Vytisknutí papíru je poněkud méně technicky náročné.
 Vytvořil jsem zprávu a přiložil k tomuto mailu.
 Vytvořit grafy můžu teď už celkem lehce.
@@ -7621,6 +7889,7 @@ Vytírali jsme prach.
 Vytýkají tobě, že máš mnoho dětí!
 Vytřeštil na něj oči.
 Vyvinula nejhroznější moderní industrialism a přitom uchovala nejpůvodnější bukolický život.
+Vyvolená čísla
 Vyvolávání stejně nemělo moc smysl.
 Vyzkoušel jsem i pár místních červených vín.
 Vyzkoušení Velkého vytí jako uvítacího rituálu.
@@ -7633,6 +7902,7 @@ Vyšli jsme ze salonu.
 Vyšívat.
 Vzal jí knihu z ruky.
 Vzala nový kámen a znovu hodila.
+Vzdálenost
 Vzdálenost k mozku se bude snižovat.
 Vzdálenost od mozku se snižuje.
 Vzhledem k tomu jaké jsou okolnosti, musíme co nejrychleji jednat.
@@ -7665,9 +7935,14 @@ Víc jsem o jeho životě nemohl zjistit.
 Víc nemůžem dáti!
 Víc než to.
 Víc rozmařilí nejsou ve Francii.
+Víc sedmisegmentovek...
 Více experimentů tohoto druhu jsem neviděl.
+Více než sto krátkých videí přináší rady a tipy
 Více se můžete dočíst v kapitole Vyčerpatelnost zdrojů.
 Více slov za sebou se stejným významem se nazývá pleonasmus.
+Více světla!
+Vícebitové varianty
+Vícevstupová hradla
 Vím jistě, že lásku zpíváš.
 Vím o něčem lepším.
 Vím ovšem, že jsi se všem těmto necnostem od lidí naučil.
@@ -7702,6 +7977,7 @@ Víš, že se momentálně bavím líp, než ty?
 Výborně, zalez dovnitř.
 Výbuch bankomatu naplněného výkaly!
 Výběr je plně v režii každé jedné organizace.
+Výběr součástek
 Východiskem bude pečlivá analýza nákladů výkonu státní správy v obcích všech stupňů.
 Výdaje nad jeden milion korun budou zveřejňovány na internetu.
 Výdaje státu tak budou transparentní a pod kontrolou veřejnosti.
@@ -7710,7 +7986,10 @@ Výhodou naopak je vysoká odolnost proti korozi.
 Výhody i služby jsou určeny pouze vám.
 Výjimečně mohou být i delší.
 Výjimky ze základních povinností.
+Výklad pokrývá oblast od naprostých základů
+Výkon
 Výkřiky.
+Výmluvy místo předmluvy
 Výměna dat tedy už proběhla, ale pouze jedním směrem.
 Výplata pro žadatele bude striktně vázána na zajištění řádné docházky jeho dětí do školy.
 Výpověď.
@@ -7778,6 +8057,7 @@ Však ono se to jednou hodí.
 Však oči naše viděly zde dosti!
 Však přece!
 Však se s ním seznámíte a poznáte ho dostatek.
+Však to není žádná složitá věc, to zvládneme.
 Však toho štěstí nedošli jenom tak, bez boje.
 Však tělem zdánlivě dál v světě žije.
 Však za mnou dál, mé kroky dále spějí.
@@ -7869,8 +8149,10 @@ Vždyť se na mě podívejte!
 Vždyť se třesete jako list.
 Vždyť tě ani neznáme.
 Vždyť víš.
+WeMos Djedna Mini, NodeMcu
 Web je plný svobodného obsahu.
 Web se tedy konsoliduje a fragmentuje.
+WiFi Manager
 WiFi prostě nejede a ani se nedozvím proč.
 Z davu někdo vystřelil.
 Z domu bylo cítit smaženou cibulí.
@@ -7959,6 +8241,7 @@ Zajímavých je tam hodně věcí.
 Zajímá tě, co to je?
 Zaklepání.
 Zakryl si uši dlaněmi.
+Zakázané kombinace, zpětná vazba,...
 Zakázka samotná dá někomu dobře vydělat.
 Zaleží jak velké objekty chcete hledat.
 Založeno na vyplňování.
@@ -8055,6 +8338,7 @@ Zdravím, můžete mi napsat, proč nemáte stále odevzdaný projekt?
 Zdravím, na prezentaci se domluvíme.
 Zdravím, peníze na účet přišly.
 Zdravím.
+Zdroje napětí
 Zdržíte se déle, že ano?
 Zdržíte se u nás déle?
 Zdvíhnou trochu hlavu, tak.
@@ -8078,10 +8362,13 @@ Zeptejte se strejdy Googla.
 Zeptejte se svého zubního lékaře na naši novou bělicí zubní pastu.
 Zhodnoťte dosažené výsledky a diskutujte možnosti budoucího vývoje.
 Zima taková, že si dávám zmrzlinu.
+Zjednodušování logických výrazů
 Zjevně nějaká nezbytná úlitba autorským svazům...
 Zjistěte si, co to všechno obnáší.
 Zjišťuje, že Romeo je mrtvý a sama se zabíjí jeho dýkou.
 Zkontroluj, jestli tam ten soubor máš, jinak nevím.
+Zkrat
+Zkratky u značení
 Zkrátka byl lakomec.
 Zkrátka není nad pokrok a zjednodušování práce.
 Zkrátka výborný starý pán plný slabostí a zásad.
@@ -8094,6 +8381,7 @@ Zkuste ještě tohle opravit.
 Zkuste mi napsat, co kdo chcete na tom projektu dělat.
 Zkuste napsat ohledně těch dat.
 Zkuste se na to podívat z mého úhlu pohledu!
+Zkuste si ji i tak alespoň přečíst, jak se říká, nasucho...
 Zkuste to a pak mi přijdete říct.
 Zkuste tohle opravit a třeba to zázračně začne fungovat.
 Zkuste více cvičit a žvýkejte baldrián.
@@ -8122,8 +8410,11 @@ Změn je celá řada, ty nejvýznamnější jsou ale dvě.
 Změna ceny exportního zboží oproti minulému roku v chemickém průmyslu.
 Změnou financování vzdělávání bude zajištěna rovnost podpory při poskytování veřejné vzdělávací služby.
 Změnou závazných učebních dokumentů zajistí výuku anglického jazyka nejpozději od třetího ročníku.
+Znakový displej šestnáct nula dva
 Znali jsme v podstatě každý každého.
+Znalost programování není nutná
 Znamení!
+Značky pro schémata
 Zneklidňuje vás to?
 Znenadání se mi zdálo, že slyším z daleka hrčení kočáru.
 Zná ho vona?
@@ -8145,14 +8436,17 @@ Znázorněte principy ukončení hydroizolace u prostupů potrubí.
 Zní to zajímavě, že?
 Zněl jako zvon ve farním kostele.
 Zněl tu libý souzvuk rodinného štěstí.
+Zobrazovací obvod hrací kostky
 Zoufat.
 Zplodil jsem tohle
 Zpočátku jen lehce, každým dnem však víc a víc.
 Zpočátku mě to mátlo.
 Zpravidla jsou do něj zahrnovány faktory jako kvalita odevzdané práce.
 Zpupnost!
+Zpátky k technice
 Zpívá a směje se skoro ustavičně a vždy bez pochopitelné příčiny.
 Zpět k trestnímu oznámení.
+Zpětná vazba
 Zpěv běžně moc nemusím, ale tohle fakt sedne.
 Zrovna jsem dočetl knihu.
 Zrovna před dvěma dny jsem pil syrské pivo značky Barada.
@@ -8180,6 +8474,7 @@ Zvláštní ochrana dětí a mladistvých je zaručena.
 Zvláště nepředstírejte city.
 Zvolil jsem variantu se zapošitým okrajem.
 Zvonek netrpělivě zazvonil znovu a tentokrát dlouze.
+Zvuk
 Zvykají si na existenci.
 Zvykněte si se s ním bavit o systému a práci.
 Zvážím Zemi její vlastní vahou.
@@ -8190,7 +8485,9 @@ Zákaz reprodukčního klonování lidských bytostí.
 Zákaz žárovek je toho důkazem.
 Zákazníci se do e-shopů opět ve velkém vrací hned dvacátého pátého prosince.
 Základ polévky stejný.
+Základní elektronické součástky
 Základní práva a svobody jsou pod ochranou soudní moci.
+Základy elektrotechniky napětí, proud, odpor, Ohmův zákon
 Zákon může stanovit odchylnou úpravu pro cizince.
 Zákonné opatření může Senátu navrhnout jen vláda.
 Zákonodárná moc v České republice náleží Parlamentu.
@@ -8224,8 +8521,36 @@ Zůstane mnohdy několik minut nepohnutý a ztrnulý, aniž by jevil jaké znám
 Zůstanu, pokud bude třeba.
 Zůstaň jen náš!
 Zůstaňte na telefonu, abychom jej mohli zaměřit.
+a jako indikaci použijeme led diodu s rezistorem v sérii.
+a kterým se vždycky začíná.
+a použít k tomu nejrůznější součástky.
+ale pro začátek zvolíme složitější součástku
+and-or-invert
 ano, stal se zaměstnancem Civilizovaného průmyslu.
+až po specializované součástky, jako jsou čidla, polovodičové paměti a jednočipové počítače.
 hlavní, co má Dášeňka na práci, je běhat.
+i když ji v některých příkladech čtenář využije.
+jak obstát ve světě Internetu a technologií
+jako je šifrování, hešování a podobně.
+když vím jen to, že součin má být xyz?
+letem světem, a později se k ní vrátit.
+mos, cmos
+my použijeme libovolný z nich – tedy eles, hácé...
+my se k nim taky dostaneme
+na těchto stránkách můžete zdarma stáhnout v elektronickém formátu.
+od základů číslicové techniky přesuneme ke konstrukci složitějších obvodů - totiž vlastních počítačů
+one-Wire
+po úvodu do elektroniky a základech mikroprocesorových konstrukcí
+procesor osmdesát padesát jedna
+publikací spojených s Internetem a jeho technologiemi.
+pwm
+přes základní elektronické součástky a řadu číslicových obvodů ttl řady sedumtisíc čtyřista
+přináší úvod do práce s programovatelnými logickými poli.
+tak se v elektronice používá blikání světlem.
+totiž integrovaný obvod.
+vyrábí ho celá řada výrobců v nejrůznějších obměnách
+využijeme z nich polovinu, tedy tři.
+xor
 Á plus bé je menší než cé.
 Á, slečinka.
 Áá, tady má někdo písek.
@@ -8238,6 +8563,7 @@ hlavní, co má Dášeňka na práci, je běhat.
 Ó ví!
 Ó, slečno Gloryová, výrobek inženýra je technicky vytříbenější než výrobek přírody.
 Ó, té oběti já nepřijímám!
+Úbytek napětí na Led
 Úhel broušení můžeme vypočítat ze vztahu?
 Úhel broušení se může měnit naklápěním nože vůči tyčinkám.
 Újezd u Brna
@@ -8342,9 +8668,14 @@ hlavní, co má Dášeňka na práci, je běhat.
 Čísla účtů.
 Číslo dvě, maminka, zajímavá paní.
 Číslo pět: Mimi, miláček domu.
+Čítač s dekodérem jeden-z-deseti
+Čítač s nulováním
+Čítače
+Čítače v praxi
 Číňan si objedná prostitutku.
 Číšník byl velmi pomalý.
 Číšníky, úředníky, sekuriťáky, barmany, prodavače.
+číslicovou techniku a vlastní stavbu zařízení pro Internet věcí.
 Ředitel zpravodajství a šéfredaktor webu namítali, že v článku je video zachycující incident.
 Ředitel školy komentuje celou akci školnímu tisku.
 Ředitel školy objasňuje celou problematiku.
@@ -8391,7 +8722,9 @@ hlavní, co má Dášeňka na práci, je běhat.
 Šel pro Evu.
 Šest je sudé číslo.
 Šestiúhelníku se říká hexagon.
+Šestnáctková soustava
 Šesté pravidlo!
+Šetříme vývody
 Šine si to ke mně s nevlídným výrazem v obličeji.
 Škoda takový krásný utěrky!
 Škoda to nebude.
@@ -8409,7 +8742,9 @@ hlavní, co má Dášeňka na práci, je běhat.
 Šli cestou, necestou, skrz louky, lesy, pole.
 Šli.
 Šmarjá, zabitej!
+Šoupejte nožkou...
 Špatné znamení.
+Špinavej trik
 Šplhali opatrně ale rychle vzhůru.
 Šroub je s kleštinami spojený skrze čepy se závitem.
 Štípe to!
@@ -8419,6 +8754,7 @@ hlavní, co má Dášeňka na práci, je běhat.
 Šup s tím do wiki.
 Šéf byl nerozhodný, tak se mě ptal co si o tom myslím.
 Šéf nás pochválí a dostaneme prémie.
+Šťastnou cestu...
 Šťastná srdce, která uměla ztichnout se ctí.
 Šťastná to země!
 Šťastná zápalka, která shořela, ale zapálila plameny.
@@ -8473,3 +8809,5 @@ hlavní, co má Dášeňka na práci, je běhat.
 Žádné špatné zkušenosti s tím nemám.
 Žádný košile, žádný boty!
 Žádný poschodí tam není.
+„Dobré rady nad zlato“ na jednom místě
+„Plnou parou vzad!“ – „Ale jak daleko?“

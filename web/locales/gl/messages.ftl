@@ -33,14 +33,18 @@ as = Assamés
 ast = Asturiano
 az = Acerbaixano
 ba = Baskir
+bas = Basaa
 be = Belaruso
 bg = Búlgaro
+bm = Bambara
 bn = Bengalí
 br = Bretón
 bxr = Buriata
 ca = Catalán
 cak = Kaqchikel
+ckb = Kurdo central
 cnh = Lai
+co = Corso
 cs = Checo
 cv = Chuvaxo
 cy = Galés
@@ -62,6 +66,7 @@ fr = Francés
 fy-NL = Frisio
 ga-IE = Irlandés
 gl = Galego
+gn = Guaraní
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -81,9 +86,9 @@ kaa = Karakalpak
 kab = Cabilo
 kbd = Kabardino
 kk = Casaco
+kmr = Kurdo kurmanji
 ko = Coreano
 kpv = Komi Siriano
-ku = Kurdo
 kw = Córnico
 ky = Kirguiz
 lg = Luganda
@@ -140,6 +145,7 @@ uz = Uzbeko
 vec = Véneto
 vi = Vietnamita
 vot = Vótico
+yue = Chinés cantonés
 zh-CN = Chinés (China)
 zh-HK = Chinés (Hong Kong)
 zh-TW = Chinese (Taiwán)
@@ -235,7 +241,7 @@ whats-public = Que é público?
 email-not-public = Non faremos público o seu enderezo de correo.
 recordings-and-locale-public = O número de gravacións e en que idiomas contribúe serán públicos.
 username-optin-public = Pode escoller facer o seu nome de usuario público ou anónimo.
-demographic-deidentified-clarity = Os datos demográficos opcionais enviados (por exemplo, idade, sexo, lingua e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os clips de son individuais van ser asociados aos datos demográficos para fins de análise máis precisa - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
+demographic-deidentified-clarity-2 = Os datos demográficos opcionais enviados (por exemplo, idade, xénero, idioma e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os clips de son individuais van ser asociados aos datos demográficos para fins de análise máis precisa - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
 username-email-not-demographic = O seu nome de usuario e enderezo de correo non se asociará cos datos publicados.
 
 ## Speak & Listen Shortcuts
@@ -293,7 +299,7 @@ profile-form-accent =
     .label = Acento
 profile-form-age =
     .label = Idade
-profile-form-gender =
+profile-form-gender-2 =
     .label = Xénero
 leaderboard-visibility =
     .label = Visibilidade da táboa de clasificación
@@ -320,7 +326,7 @@ profile-close = Pechar
 profile-explanation = Seguir o seu progreso cun perfil e axudar a que os datos de voz sexan máis precisos.
 thanks-for-account = Grazas por confirmar a súa conta, agora imos construír o seu perfil.
 why-demographic = Por que é importante?
-why-demographic-explanation = Os datos anónimos como idade, xénero e acento axudan a mellorar os datos de son utilizados para adestrar a precisión dos motores de recoñecemento de voz. O seu nome de usuario e enderezo de correo nunca serán asociados cos datos enviados e vostede sempre pode escoller se facelos ou non públicos.
+why-demographic-explanation-2 = Os datos anónimos como idade, xénero e acento axudan a mellorar os datos de son utilizados para adestrar a precisión dos motores de recoñecemento de voz. O seu nome de usuario e enderezo de correo nunca serán asociados cos datos enviados e vostede sempre pode escoller se facelos ou non públicos.
 accept-privacy = Estou de acordo con que xestionen esta info nos termos explicados na <privacyLink>Política de privacidade</privacyLink>
 accept-privacy-title = Política de privacidade
 login-identity = Identidade de inicio de sesión
@@ -501,10 +507,12 @@ data-other-goto = Ir a { $name }
 data-other-download = Descargar os datos
 data-bundle-button = Descargar o paquete do conxunto de datos
 data-bundle-description = O conxunto de datos Common Voice xunta todos os demais conxuntos de datos anteriores.
+release-version = Versión
+dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesturados
 data-download-singleword-title = Descarga o Segmento de Destino Único de Palabra
-data-download-singleword-callout = Este é un segmento baseado en casos de uso que contén datos para o recoñecemento de números de voz falada, detección de si / non e datos de proba de palabras clave para <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Este é un segmento baseado en casos de uso que contén datos para potenciar o recoñecemento de díxitos falados e a detección de si / non.
 review-terms = Ao utilizar Common Voice, está conforme cos nosos <termsLink>Termos</termsLink> e <privacyLink>Política de privacidade</privacyLink>
 terms-agree = Conforme
 terms-disagree = Non estou conforme
@@ -676,6 +684,7 @@ share-title-new = <bold>Axúdenos</bold> a atopar máis voces
 keep-track-profile = Faga o seguimento do seu avance cun perfil
 login-to-get-started = Inicie sesión ou rexístrese para comezar
 target-segment-first-card = Esta a colaborar no noso primeiro segmento obxectivo
+target-segment-generic-card = Está a contribuír a un segmento obxectivo
 target-segment-first-banner = Axude a crear o primeiro segmento obxectivo de Common Voice en { $locale }
 target-segment-add-voice = Engada a súa voz
 target-segment-learn-more = Saber máis
@@ -840,3 +849,39 @@ help-contribute = Pode axudar a construír un conxunto de datos diverso e de có
 login-company = Iniciar sesión / Rexistrarse co correo electrónico de { $company }
 profile-not-required = Non é necesario ter un perfil para colaborar, malia que tamén axuda, e vexa por que a seguir.
 read-more-about = Máis información na páxina "Sobre Common Voice"
+
+## DemoLayout
+
+demo-get-started = Primeiros pasos
+demo-welcome = Dámoslle a benvida a Common Voice
+demo-welcome-subheader = Interésalle aprender máis e contribuír ao proxecto?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice é o maior conxunto de datos de voz en varios idiomas publicamente dispoñíbel no mundo.
+demo-language-select-card-body = Grazas ás colaboracións de máis de 259.000 persoas en máis de 50 idiomas, estes datos empréganse para adestrar aplicacións con recoñecemento de voz para entender mellor á voz humana.
+card-button-next = Seguinte
+card-button-back = Anterior
+demo-language-select-label = Buscar Idiomas
+demo-eofy-header = Edición de fin de ano 2019
+demo-eofy-sub_header = Conxunto de datos de voz, lista para Descargar
+demo-account = Conta
+
+## Demo Account
+
+demo-account-card-header = Ter unha conta non é necesario para colaborar mais de axuda.
+demo-account-card-body = Á dereita esbozamos os beneficios e aclaramos que información facemos pública. Utilice as ligazóns seguintes para comezar cunha conta de Common Voice no seu propio dispositivo.
+demo-account-enter-email =
+    .label = Escriba o enderezo de correo para enviar unha ligazón de rexistro
+demo-account-sign-up = Enviar a ligazón de rexistro
+
+## Demo Contribute
+
+demo-contribute-card-header = Preparado para engadir a súa voz ou prestar o seu oído?
+demo-contribute-card-body = Agora que xa sabe un pouco máis sobre Common Voice, por que non o probar? Prema na icona do micrófono para comezar a lectura de frases en voz alta. <br/> <br/> Se prefire revisar as colaboracións de voz doutras persoas, prema na icona de reprodución. Se a gravación de voz que escoita coincide coas palabras escritas na pantalla.
+demo-listen-subtitle = Preparado para colaborar?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Os paneis persoais mantéñeno ao día do progreso do individual e o da comunidade.
+demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de son validado, os paneis da túa conta actualízanse para reflectir o seu último progreso en cada idioma no que colabore. Si, pode colaborar a máis de un. <br/> <br/> Utilice os paneis para rastrexar as súas estatísticas, ver como o está facendo xunto con outras persoas da comunidade e establecer obxectivos de colaboración diaria ou semanal.

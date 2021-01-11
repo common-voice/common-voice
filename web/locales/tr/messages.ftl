@@ -145,6 +145,7 @@ uz = Özbekçe
 vec = Venedikçe
 vi = Vietnamca
 vot = Votic
+yue = Kantonca
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
@@ -405,9 +406,11 @@ faq-where-src-from-2-a =
     
     Kaynak cümlelerimizi bu <githubLink>GitHub klasöründe</githubLink> görüntüleyebilirsiniz.
 faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Wikipedia makalelerini okumalarını istemiyorsunuz?
+faq-why-not-ask-read-a = Common Voice veri kümesini olabildiğince yararlı hale getirmek için yalnızca Creative Commons (CC0) lisanslı kaynak metinlere izin vermeye karar verdik. CC0 standardını kullanmak, kaynak metin bulup derlemenin daha zor olduğu anlamına geliyor; ancak elde edilen ses verilerini kullanım kısıtlamaları olmadan ve Mozilla'dan izin almadan herkesin kullanmasına izin veriyor. Sonuç olarak, çok dilli veri kümesini araştırmacılar, üniversiteler, girişimler, devletler, sosyal amaçlı kuruluşlar ve bu işe meraklı kişiler dahil herkes için olabildiğince faydalı hale getirmek istiyoruz.
 faq-why-account-q = Neden hesap açayım?
 faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
 faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizliliğini nasıl sağlıyorsunuz?
+faq-how-privacy-a = Veri kümesindeki tüm ses kayıtları kişisel bilgilerden arındırılır. Katkıda bulunan kullanıcılar profilleri üzerinden demografik veriler sağlamışsa bu bilgiler indirilebilir veri kümesine anonim bir şekilde eklenir ve profil sayfasında asla görüntülenmez.
 faq-what-determine-identity-q = Common Voice veri kümesindeki konuşmacıların “kimliklerinin belirlenemez olması” ne anlama geliyor?
 faq-what-is-cv = Common Voice nedir?
 faq-using-cv = Common Voice Kullanımı
@@ -816,10 +819,12 @@ read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
 
 demo-get-started = Hadi başlayalım
 demo-welcome = Common Voice’a hoş geldiniz
+demo-welcome-subheader = Daha fazla bilgi almak ve projeye katkıda bulunmak ister misiniz?
 
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice, dünyanın halka açık en büyük, çok dilli ses veri kümesidir.
+demo-language-select-card-body = 50'den fazla dilde 259.000'den fazla kişinin katkıları sayesinde bu veriler, insan sesine daha iyi yanıt verebilecek konuşma özellikli uygulamaları eğitmek için kullanılıyor.
 card-button-next = İleri
 card-button-back = Geri
 demo-language-select-label = Tarayıcı dilleri
@@ -836,7 +841,10 @@ demo-account-sign-up = Kayıt bağlantısını gönder
 
 ## Demo Contribute
 
+demo-contribute-card-header = Sesinizi eklemeye veya eklenenleri dinlemeye hazır mısınız?
+demo-contribute-card-body = Artık Common Voice hakkında biraz daha fazla şey bildiğinize göre, neden denemiyorsunuz? Cümleleri sesli okumaya başlamak için mikrofon simgesine tıklayın. <br/><br/>Başkalarının ses kayıtlarını incelemeyi tercih ederseniz oynat simgesine tıklayın. Ardından, duyduğunuz ses kaydının ekranda yazılı sözcüklerle eşleşip eşleşmediğini kontrol edin.
 demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Kişisel panolar, bireysel ilerlemeniz ve topluluk ilerlemesi konusunda sizi bilgilendirir.

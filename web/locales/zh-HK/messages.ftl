@@ -518,9 +518,9 @@ review-terms = 使用 Common Voice，即代表您同意我們的<termsLink>條�
 terms-agree = 我同意
 terms-disagree = 我唔同意
 review-aborted = 上載中斷了，你想刪除你的錄音嗎？
-review-submit-title = 檢閱和提交
-review-submit-msg = 多謝你的錄音！<lineBreak></lineBreak>請在下面檢閱和提交你的錄音。
-review-recording = 檢閱
+review-submit-title = 審核和提交
+review-submit-msg = 多謝你的錄音！<lineBreak></lineBreak>請在下面審核和提交你的錄音。
+review-recording = 審核
 review-rerecord = 重新錄音
 review-cancel = 取消提交
 review-keep-recordings = 保存錄音
@@ -839,9 +839,12 @@ read-more-about = 去關於我哋嘅頁面瞭解更多
 
 demo-get-started = 一齊開始啦！
 demo-welcome = 歡迎使用 Common Voice
+demo-welcome-subheader = 你有無興趣學更多嘢，為呢一個計劃貢獻？
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice係全球最大嘅公開、多語言語音數據集。
+demo-language-select-card-body = 受惠於全球超過25.9萬人為50幾種唔同語言嘅無私貢獻，我哋將會利用呢啲資料嚟訓練有語音功能嘅應用程式，令佢哋可以更準確咁理解人聲。
 card-button-next = 下一步
 card-button-back = 返回
 demo-language-select-label = 睇下所有語言
@@ -858,7 +861,10 @@ demo-account-sign-up = 轉送註冊鏈結
 
 ## Demo Contribute
 
+demo-contribute-card-header = 準備好參與錄音，或者...借一借對耳嚟用未？
+demo-contribute-card-body = 而家你知咗更多關於 Common Voice 嘅資訊喇，有無興趣嚟試下？請你㩒一㩒個咪嚟大聲朗讀句子。<br/><br/>如果你想幫手審核其他人嘅錄音，請你㩒一㩒個播放圖示嚟確認錄音同段文字係咪相同。
 demo-listen-subtitle = 準備好幫手貢獻未？
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = 個人儀表板可以令你了解個人同社群嘅最新消息。

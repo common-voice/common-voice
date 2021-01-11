@@ -507,9 +507,10 @@ data-other-goto = Kalo te { $name }
 data-other-download = Shkarkoni Të dhëna
 data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
+release-version = Version
+dataset-date = Datë
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 license-mixed = Të përziera
-data-download-singleword-callout = Ky është një segment i bazuar në raste përdorimi, që përmban të dhëna për fuqizimin e të kuptuarit të shifrave të thëna, pikasjeje po-je / jo-je, dhe të dhëna testimi <em>wakeword</em> për <fxLink>Firefox Voice</fxLink>.
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
 terms-agree = Pajtohem
 terms-disagree = Nuk pajtohem
@@ -837,3 +838,22 @@ help-contribute = Mund të ndihmoni në ndërtimin e një grupi të dhënash të
 login-company = Bëni Hyrjen / Regjistrohuni me email { $company }
 profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama
 read-more-about = Lexoni më tepër te faqja jonë Mbi
+
+## DemoLayout
+
+demo-get-started = Le T’ia Fillojmë
+demo-welcome = Mirë se vini te Common Voice
+demo-welcome-subheader = Ju intereson të mësoni më tepër dhe të jepni ndihmesë te projekti?
+
+## Demo Datasets
+
+demo-account = Llogari
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
