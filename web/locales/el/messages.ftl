@@ -856,6 +856,7 @@ demo-welcome-subheader = Θέλετε να μάθετε περισσότερα �
 
 ## Demo Datasets
 
+demo-language-select-card-header = Το Common Voice παρέχει το μεγαλύτερο, δημοσίως διαθέσιμο, πολύγλωσσο φωνητικό σύνολο δεδομένων στον κόσμο.
 card-button-next = Επόμενο
 card-button-back = Πίσω
 demo-language-select-label = Περιήγηση στις γλώσσες
