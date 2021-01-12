@@ -847,6 +847,12 @@ demo-welcome-subheader = Ju intereson të mësoni më tepër dhe të jepni ndihm
 
 ## Demo Datasets
 
+demo-language-select-card-body = Falë kontributeve prej më shumë se 259 mijë vetë në mbi 50 gjuhë, këto të dhëna po përdoren për të stërvitur aplikacione që funksionojnë përmes të folurës, për t’iu përgjigjur më mirë zërit njerëzor.
+card-button-next = Pasuesja
+card-button-back = Mbrapsht
+demo-language-select-label = Shfletoni Gjuhë
+demo-eofy-header = Hedhja Në Qarkullim e Fundvitit 2019
+demo-eofy-sub_header = Grup të Dhënash Zanore, Gati për Shkarkim
 demo-account = Llogari
 
 ## Demo Account
