@@ -866,10 +866,15 @@ demo-account = Λογαριασμός
 
 ## Demo Account
 
+demo-account-card-header = Δεν απαιτείται λογαριασμός για να συνεισφέρετε, αν και θα ήταν χρήσιμο.
+demo-account-enter-email =
+    .label = Εισάγετε το email σας για να λάβετε έναν σύνδεσμο εγγραφής
 demo-account-sign-up = Αποστολή συνδέσμου εγγραφής
 
 ## Demo Contribute
 
+demo-contribute-card-header = Είστε έτοιμοι να προσθέσετε τη φωνή σας ή να δανείσετε την ακοή σας;
+demo-listen-subtitle = Είστε έτοιμοι να συνεισφέρετε;
 
 ## Demo Dashboard
 
