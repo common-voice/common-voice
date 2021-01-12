@@ -857,9 +857,19 @@ demo-account = Llogari
 
 ## Demo Account
 
+demo-account-card-header = Pasja e një llogarie s’është e domosdoshme për të kontribuar, por është e dobishme.
+demo-account-card-body = Djathtas skicojmë përfitimet dhe sqarojmë çfarë informacioni bëjmë publik. Përdorni lidhjet më poshtë, për t’ia filluar me një llogari Common Voice në pajisjen tuaj.
+demo-account-enter-email =
+    .label = Që të dërgohet një lidhje regjistrimi, jepni email
+demo-account-sign-up = Dërgo lidhje regjistrimi
 
 ## Demo Contribute
 
+demo-contribute-card-header = Gati për të shtuar zërin tuaj ose për të përdorur dëgjimin tuaj?
+demo-contribute-card-body = Tani që dini diçka më shumë mbi Common Voice, pse të mos e provonit? Klikoni mbi ikonën e mikrofonit që të filloni të lexoni togfjalësha. <br/><br/>Nëse parapëlqeni të shqyrtoni kontribute zanore nga persona të tjerë, klikoni mbi ikonën e luajtjes. Nëse incizimi zanor që dëgjoni përputhet me fjalët e shkruara në ekran.
+demo-listen-subtitle = Gati për të dhënë ndihmesë?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Pultet personale ju mbajnë të përditësuar me ecurinë individuale dhe të bashkësisë.
+demo-dashboard-card-body = Për çdo copëz zanore të incizuar, dhe çdo copëz zanore të vlerësuar, pultet e llogarive tuaja përditësohen për të pasqyruar ecurinë tuaj më të re në çdo gjuhë ku jepni ndihmesë. Po, mund të jepni ndihmesë në më shumë se një!<br/><br/> Përdorini pultet për të ndjekur statistikat tuaja, shihni se si po ecni, kundrejt të tjerëve në bashkësi, dhe caktoni objektiva ditore ose javore dhënieje ndihmese.
