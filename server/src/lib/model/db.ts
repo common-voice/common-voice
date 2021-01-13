@@ -403,7 +403,7 @@ export default class DB {
                 ON clips.original_sentence_id = entries.sentence_id
               WHERE clips.locale_id = ?
               AND (votes.client_id = ?)
-              AND entries.term_id = ?
+              AND entries.term_id IN (?)
               GROUP BY original_sentence_id
               HAVING vote_count >= 2
             ) vote_counts

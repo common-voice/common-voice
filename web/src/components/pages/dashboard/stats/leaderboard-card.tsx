@@ -36,7 +36,7 @@ const animationData = require('../../../layout/data.json');
 
 import './leaderboard.css';
 
-const FETCH_SIZE = 5;
+const FETCH_SIZE = 20;
 
 function formatNumber(n: number) {
   return n > 1000 ? Math.floor(n / 1000) + 'k' : n;
