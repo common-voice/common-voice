@@ -10,6 +10,10 @@ submit-form-action = Bişîne
 loading = Tê barkirin…
 email-opt-in-info = Ez dixwazim e-maîlên wekî bîranînên armancan, venûkirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirin.
 email-opt-in-info-title = Beşdarî lîsteya maîlan ya Comon Voiceê bibe
+email-opt-in-info-sub-with-challenge = E-maîlên wekî bîranînên armancan, venûkirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirin.
+email-opt-in-privacy-v2 = Bi vebijarka wergirtina e-maîlan tu diyar dikî ku tu razî yî Mozilla van agahiyan wekî ku di <privacyLink> Polîtîkaya Nepeniyê </privacyLink> ya Mozillayê de hatî vegotin bi kar bîne.
+indicates-required = * Qada pêwîst nîşan dide
+not-available-abbreviation = N/B
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -18,21 +22,28 @@ email-opt-in-info-title = Beşdarî lîsteya maîlan ya Comon Voiceê bibe
 ## Languages
 
 ab = Abxazî
+ace = Açenêzî
 ady = Adîgeyî
 af = Afrîkansî
 am = Amharî
 an = Aragonî
 ar = Erebî
+arn = Mapudungunî
 as = Asamî
 ast = Astûrî
 az = Azerî
 ba = Başkîrî
+bas = Basaayî
 be = Belarusî
 bg = Bulgarî
+bm = Bambarayî
 bn = Bengalî
 br = Bretonî
+bxr = Buryatî
 ca = Katalanî
+cak = Kaqçîkelî
 ckb = Soranî
+cnh = Haxa Çînî
 cs = Çekî
 cv = Çuvaşî
 cy = Welşî
