@@ -1,7 +1,6 @@
 ## Languages
 
-contribute = Beşdar bibin
-get-involved-button = Tev lê bibin
+contribute = Piştgiriyê bidin
 get-involved-title = Piştgiriya { $lang } bikin
 get-involved-text = Spas ji bo baldariya te ku te xwest piştgiriya { $lang } bikî. Ji bo em karibin piştgiriyê bidin hemû zimanan û tîmên xwe bi rêya emailê agahdar bikin, em pir dixebitin. Heke tu dixwazî beşdar bibî, ji kerema xwe re emaila xwe li jêrê binivîse.
 get-involved-form-title = Ji bo venûkirinên { $lang } xwe qeyd bike.
