@@ -204,8 +204,11 @@ wall-of-text-second =
 show-wall-of-text = Bêtir Bixwînin
 help-us-title = Ji bo pesendkirina hevokan alîkariya me bike!
 help-us-explain = Pêl bişkoka lêdanê bike û lê guhdarî bike: Gelo hevoka xwarê rast hatiye xwendin?
+no-clips-to-validate = Wisa xuya ye ji bo vî zimanî ti klîbek tune ye ku lê guhdarî bikî. Niha axaftinan qeyd bike ku lîste bê dagirtin.
 vote-yes = Erê
 vote-no = Na
+toggle-play-tooltip = Ji bo veguheztina moda lêdanê pêl { shortcut-play-toggle } bike
+speak-subtitle = Dengê xwe bibexşîne
 
 ## Account Benefits
 
