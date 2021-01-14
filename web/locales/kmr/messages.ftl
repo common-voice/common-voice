@@ -176,6 +176,34 @@ logout = Derkeve
 
 ## Home Page
 
+home-title = Common Voice hewldaneke Mozillayê ye ku alîkariya makîneyan dike ku fêr bibin ka mirovên rast çawa diaxivin.
+home-cta = Biaxive, piştgiriyê bide!
+wall-of-text-start =
+    Deng xwezayî ye, deng mirovî ye. Ji ber vê em bi hindê re eleqedar dibin ku ji bo makîneyên xwe teknolojiyên
+    dengî yên bikêrhatî biafirînin. Lê ji bo afirandina prgala dengî qedereke zêde
+    daneyên dengan
+    lazim in.
+wall-of-text-more-mobile =
+    Piraniya daneyan ji aliyê şirketên mezin ve tên bikaranîn ku ji bo piraniya mirovan ne berdest in. Em
+    difikirin ku ev rê li nûbûnê digire. Loma me Projeya Common Voice da destpêkirin ku pergalên naskirina dengan
+    ji bo her kesî berdest bin.
+wall-of-text-more-desktop =
+    Niha tu dikarî dengê xwe bibexşînî û alîkariya me bikî em danegeheke dengan ya çavkaniya vekirî ava bikin ku her kes dikaribe
+    bi kar bîne da ku ji bo alavan û webê bernameyên nûxwaz çêkin. Hevokekê bixwîne
+    û alîkariya makîneyan bike ka mirovên rastîn çawa diaxivin. Xebatên xwebexşên din
+    kontrol bikin ku kalîte bilind bibe. Ev çend hêsan e!
+wall-of-text-first =
+    Deng xwezayî ye, deng mirovî ye. Ji ber vê em bi hindê re eleqedar dibin ku ji bo makîneyên xwe teknolojiyên
+    dengî yên bikêrhatî biafirînin. Lê ji bo afirandina prgala dengî ji bo pêşvebiran qedereke zêde
+    daneyên dengan
+    lazim in.
+wall-of-text-second =
+    Piraniya daneyan ji aliyê şirketên mezin ve tên bikaranîn ku ji bo piraniya mirovan ne berdest in. Em
+    difikirin ku ev rê li nûbûnê digire. Loma me Common Voice da destpêkirin ku pergalên naskirina dengan
+    ji bo her kesî vekirî bin.
+show-wall-of-text = Bêtir Bixwînin
+help-us-title = Ji bo pesendkirina hevokan alîkariya me bike!
+help-us-explain = Pêl bişkoka lêdanê bike û lê guhdarî bike: Gelo hevoka xwarê rast hatiye xwendin?
 vote-yes = Erê
 vote-no = Na
 
