@@ -6,6 +6,9 @@ privacy-info = Em soz didin ku em ê agahiyên te bi baldarî li cem xwe bihêli
 return-to-cv = Vegere Common Voiceê
 email-input =
     .label = Emaîl
+submit-form-action = Bişîne
+loading = Tê barkirin…
+email-opt-in-info-title = Beşdarî lîsteya maîlan ya Comon Voiceê bibe
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -13,6 +16,39 @@ email-input =
 
 ## Languages
 
+an = Aragonî
+ar = Erebî
+as = Asamî
+ast = Astûrî
+az = Azerî
+ba = Başkîrî
+be = Belarusî
+bg = Bulgarî
+bn = Bengalî
+br = Bretonî
+ca = Katalanî
+ckb = Soranî
+cs = Çekî
+cv = Çuvaşî
+cy = Welşî
+da = Danîmarkî
+de = Almanî
+dsb = Sorbiya jêrîn
+dv = Divehî
+el = Yûnanî
+en = Înglîzî
+eo = Esperantoyî
+es = Îspanyolî
+et = Estonî
+eu = Baskî
+fa = Farisî
+ff = Fulahî
+fi = Fînî
+fo = Ferî
+fr = Fransizî
+fy-NL = Frîsî
+ga-IE = Îrlandî
+gl = Galîsî
 
 # [/]
 
