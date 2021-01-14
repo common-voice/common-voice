@@ -10,6 +10,7 @@ submit-form-action = Совавтомс
 loading = Таргамозо моли...
 email-opt-in-info = Паро мельсэ учан пельденк сёрмат, конатнесэ ёвтави «Common Voice» проектэнь норавкстнэде-цельтнеде, зяро ды кода монь путовкстнэ лэздыть ды конат пачтить проектэнь кулялопат.
 email-opt-in-info-title = Сёрмадстык прят «Common Voice» проектэнть сёрмалемрисьмес
+email-opt-in-privacy-v2 = Кочкиндерясак ёнсёрмань сёрмадстоманть, секеньсэ ёвтат арась проблемат тень марто, кода Mozilla нолды тевс содамочить, вант Mozilla-нь <privacyLink>Эсьтевень конёвтнэстэ</privacyLink>.
 indicates-required = *Невти эрявикс пакся
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
