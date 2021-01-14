@@ -79,20 +79,29 @@ ia = Interlingua
 id = Indonezî
 is = Îzlandî
 it = Îtalî
+izh = Îzhoriyanî
 ja = Japonî
 ka = Gurcî
+kaa = Karakalpakî
 kab = Kabîlî
+kbd = Kabardiyanî
 kk = Qazaxî
+kmr = Kurdiya Kurmancî
 ko = Koreyî
+kpv = Komî Ziryanî
 kw = Kornî
 ky = Kirgizî
 lg = Lugandayî
+lij = Liguriyanî
 lt = Lîtwanî
 lv = Latviyayî
+mdf = Mokşayî
 mg = Malagasî
+mhr = Meadow Marî
 mk = Makedonî
 ml = Malayalamî
 mn = Mongolî
+mrj = Mariya Çiyayî
 mt = Maltayî
 my = Burmayî
 myv = Erzayî
@@ -101,14 +110,19 @@ ne-NP = Nepalî
 nl = Holendî
 nn-NO = Norwecî (nynorsk)
 oc = Oksîtanî
+or = Odiayî
 pa-IN = Puncabî
 pl = Polonî
 pt = Portugalî
+rm-sursilv = Sursilvaniya Romanşî
+rm-vallader = Valadera Romanşî
 ro = Romanî
 ru = Rûsî
 rw = Kînyariwandayî
+sah = Saxayî
 sc = Sardînî
 scn = Sicîlî
+si = Sinhalayî
 sk = Slovakî
 sl = Slovenî
 sq = Albanî
@@ -120,19 +134,30 @@ ta = Tamîlî
 te = Telûgûyî
 tg = Tacikî
 th = Tayî
+tl = Tagalogî
 tr = Tirkî
 tt = Teterî
+uby = Ûbîxî
 udm = Udmurtî
 uk = Ukraynî
 ur = Urdûyî
 uz = Ozbekî
+vec = Venedîkî
 vi = Viyetnamî
+vot = Votîkî
+yue = Kantonî
+zh-CN = Çînî (Çîn)
+zh-HK = Çînî (Hong Kong)
+zh-TW = Çînî (Taywan)
 
 # [/]
 
 
 ## Layout
 
+speak = Biaxive
+speak-now = Niha biaxive
+datasets = Komên daneyan
 languages = Ziman
 about = Derbar
 profile = Profîl
@@ -142,6 +167,12 @@ privacy = Nihênî
 terms = Şert û Merc
 cookies = Kûkî
 faq = PPP
+content-license-text = Naverok di bin <licenseLink> lîsansa Creative Commons</licenseLink>ê de berdest e.
+share-title = Alîkariya me bikin ku em xwe bigihînin kesên din ji bo dengê xwe bibexşînin!
+share-text = Alîkariyê bikin ku makîne hîn bibin ka mirov çawa diaxivin, dengê xwe li { $link } bexşînin
+link-copied = Lînk hat kopîkirin
+back-top = Vegere serî
+logout = Derkeve
 
 ## Home Page
 
