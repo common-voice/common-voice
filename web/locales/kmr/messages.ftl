@@ -8,6 +8,7 @@ email-input =
     .label = Emaîl
 submit-form-action = Bişîne
 loading = Tê barkirin…
+email-opt-in-info = Ez dixwazim e-maîlên wekî bîranînên armancan, venûkirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirin.
 email-opt-in-info-title = Beşdarî lîsteya maîlan ya Comon Voiceê bibe
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -16,6 +17,10 @@ email-opt-in-info-title = Beşdarî lîsteya maîlan ya Comon Voiceê bibe
 
 ## Languages
 
+ab = Abxazî
+ady = Adîgeyî
+af = Afrîkansî
+am = Amharî
 an = Aragonî
 ar = Erebî
 as = Asamî
@@ -49,15 +54,85 @@ fr = Fransizî
 fy-NL = Frîsî
 ga-IE = Îrlandî
 gl = Galîsî
+ha = Hawsayî
+he = Îbranî
+hi = Hindî
+hr = Xirwatî
+hsb = Sorbiya jorîn
+hu = Macarî
+hy-AM = Ermenkî
+ia = Interlingua
+id = Indonezî
+is = Îzlandî
+it = Îtalî
+ja = Japonî
+ka = Gurcî
+kab = Kabîlî
+kk = Qazaxî
+ko = Koreyî
+kw = Kornî
+ky = Kirgizî
+lg = Lugandayî
+lt = Lîtwanî
+lv = Latviyayî
+mg = Malagasî
+mk = Makedonî
+ml = Malayalamî
+mn = Mongolî
+mt = Maltayî
+my = Burmayî
+myv = Erzayî
+nb-NO = Norwecî (bokmål)
+ne-NP = Nepalî
+nl = Holendî
+nn-NO = Norwecî (nynorsk)
+oc = Oksîtanî
+pa-IN = Puncabî
+pl = Polonî
+pt = Portugalî
+ro = Romanî
+ru = Rûsî
+rw = Kînyariwandayî
+sc = Sardînî
+scn = Sicîlî
+sk = Slovakî
+sl = Slovenî
+sq = Albanî
+sr = Sirbî
+sv-SE = Swêdî
+sw = Swahîlî
+syr = Suryanî
+ta = Tamîlî
+te = Telûgûyî
+tg = Tacikî
+th = Tayî
+tr = Tirkî
+tt = Teterî
+udm = Udmurtî
+uk = Ukraynî
+ur = Urdûyî
+uz = Ozbekî
+vi = Viyetnamî
 
 # [/]
 
 
 ## Layout
 
+languages = Ziman
+about = Derbar
+profile = Profîl
+help = Alîkarî
+contact = Têkilî
+privacy = Nihênî
+terms = Şert û Merc
+cookies = Kûkî
+faq = PPP
 
 ## Home Page
 
+vote-yes = Erê
+vote-no = Na
 
 ## Account Benefits
 
