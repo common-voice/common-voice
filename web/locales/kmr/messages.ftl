@@ -282,24 +282,40 @@ accept-privacy-title = Polîtîkaya Nihêniyê
 login-identity = Nasnameya têketinê
 login-signup = Têkeve / Tomar bibe
 edit = Sererast bike
+email-subscriptions = Abonetiyên emaîlê
+download-profile = Daneyên min daxîne
+off = Girtî
+on = Vekirî
 
 ## FAQ
 
 
 ## ABOUT US
 
+about-nav-why-common-voice = Çima ?
+about-nav-how-it-works = Çawa ?
+about-nav-partners = Hevkar
+about-nav-get-involved = Tev lê bibin
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
+glossary = Ferhengok
 
 ## Error pages
 
+error-code = Çewtî { $code }
 
 ## Data
 
+data-download-button = Daneyên Common Voiceê Daxîne
+data-download-yes = Erê
+data-download-deny = Na
+data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
 
 ## Datasets Page
 
+language = Ziman
 
 ## Download Modal
 
