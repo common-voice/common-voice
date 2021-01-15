@@ -217,6 +217,9 @@ hours-recorded = Saetên tomarkirî
 hours-validated = Saetên piştrastkirî
 voices-online = Dengên serhêl - Aniha
 todays-progress = Pêşveçûna îro
+help-reach-goal = Hedefa me ya îro: { $goal }
+read-terms-q = Te şert û mercên me xwendine?
+ready-to-record = Tu amade yî dengê xwe bibexşînî?
 all-locales = Hemû
 today = Îro
 x-weeks-short =
@@ -234,6 +237,8 @@ x-years-short =
         [one] salek
        *[other] { $count } sal
     }
+help-make-dataset = Alî me bike ku em bi kalîteyeke bilind komdaneya vekirî û gelerî ava bikin
+sign-up-account = Hesabekî veke
 
 ## Account Benefits
 
