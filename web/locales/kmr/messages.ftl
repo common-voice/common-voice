@@ -316,9 +316,22 @@ data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
 ## Datasets Page
 
 language = Ziman
+# File size in gigabytes
+size = Mezinahî
+cv-license = Lîsans
+audio-format = Formata dengî
+number-of-voices = Hejmara dengan
+size-gigabyte = GB
+size-megabyte = MB
+download-language = { $language } daxîne
+validated-hours = Saetên piştrastkirî
+recorded-hours = Saetên tomarkirî
 
 ## Download Modal
 
+download-form-email =
+    .label = Emaîla xwe bikevê
+    .value = Spas, Em ê di têkîliyê de bin.
 
 ## Contact Modal
 
