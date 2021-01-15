@@ -242,6 +242,7 @@ sign-up-account = Hesabekî veke
 
 ## Account Benefits
 
+benefits = Feydeyên wê
 
 ## What's public
 
@@ -292,6 +293,11 @@ email-subscriptions = Abonetiyên emaîlê
 download-profile = Daneyên min daxîne
 off = Girtî
 on = Vekirî
+record-voice-wave = DENGÊ XWE TOMAR BIKE
+retry-voice-wave-recording = DÎSA BICERIBÎNE
+re-record = DÎSA TOMAR BIKE
+delete-voice = JÊ BIBE
+recording-voice-wave = Tê tomarkirin
 
 ## FAQ
 
