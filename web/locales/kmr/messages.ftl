@@ -269,6 +269,19 @@ hidden = Veşartî
 profile-form-submit-save = Tomar bike
 profile-form-submit-saved = Hat tomarkirin
 male = Mêr
+female = Jin
+# Gender
+other = Yên din
+dashboard = Destgeh
+avatar = Wêne
+goals = Hedef
+settings = Sazkarî
+edit-profile = Profîlê sererast bike
+profile-close = Bigire
+accept-privacy-title = Polîtîkaya Nihêniyê
+login-identity = Nasnameya têketinê
+login-signup = Têkeve / Tomar bibe
+edit = Sererast bike
 
 ## FAQ
 
