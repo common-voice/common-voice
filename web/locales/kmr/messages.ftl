@@ -209,7 +209,12 @@ vote-yes = Erê
 vote-no = Na
 toggle-play-tooltip = Ji bo veguheztina moda lêdanê pêl { shortcut-play-toggle } bike
 speak-subtitle = Dengê xwe bibexşîne
+speak-goal-text = Dengên tomarkirî
+listen-subtitle = Ji bo piştrastkirina dengan, alî me bike
+listen-goal-text = Dengên piştrastkirî
+hours-recorded = Saetên tomarkirî
 hours-validated = Saetên piştrastkirî
+voices-online = Dengên serhêl - Aniha
 todays-progress = Pêşveçûna îro
 all-locales = Hemû
 today = Îro
@@ -246,9 +251,24 @@ x-years-short =
 
 ## ProjectStatus
 
+english = Înglîzî
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Navê bikarhêner
+profile-form-additional-language =
+    .label = Zimanê din
+profile-form-accent =
+    .label = Devok
+profile-form-age =
+    .label = Temen
+profile-form-gender-2 =
+    .label = Zayend
+hidden = Veşartî
+profile-form-submit-save = Tomar bike
+profile-form-submit-saved = Hat tomarkirin
+male = Mêr
 
 ## FAQ
 
