@@ -13,7 +13,7 @@ email-opt-in-info-title = Beşdarî lîsteya maîlan ya Comon Voiceê bibe
 email-opt-in-info-sub-with-challenge = E-maîlên wekî bîranînên armancan, venûkirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirin.
 email-opt-in-privacy-v2 = Bi vebijarka wergirtina e-maîlan tu diyar dikî ku tu razî yî Mozilla van agahiyan wekî ku di <privacyLink> Polîtîkaya Nepeniyê </privacyLink> ya Mozillayê de hatî vegotin bi kar bîne.
 indicates-required = * Qada pêwîst nîşan dide
-not-available-abbreviation = N/B
+not-available-abbreviation = Tune
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -32,7 +32,7 @@ arn = Mapudungunî
 as = Asamî
 ast = Astûrî
 az = Azerî
-ba = Başkîrî
+ba = Başkirî
 bas = Basaayî
 be = Belarusî
 bg = Bulgarî
@@ -42,7 +42,7 @@ br = Bretonî
 bxr = Buryatî
 ca = Katalanî
 cak = Kaqçîkelî
-ckb = Soranî
+ckb = Kurdî (Soranî)
 cnh = Haxa Çînî
 co = Korsîkayî
 cs = Çekî
@@ -86,7 +86,7 @@ kaa = Karakalpakî
 kab = Kabîlî
 kbd = Kabardiyanî
 kk = Qazaxî
-kmr = Kurdiya Kurmancî
+kmr = Kurdî (Kurmancî)
 ko = Koreyî
 kpv = Komî Ziryanî
 kw = Kornî
@@ -209,6 +209,23 @@ vote-yes = Erê
 vote-no = Na
 toggle-play-tooltip = Ji bo veguheztina moda lêdanê pêl { shortcut-play-toggle } bike
 speak-subtitle = Dengê xwe bibexşîne
+all-locales = Hemû
+today = Îro
+x-weeks-short =
+    { $count ->
+        [one] Hefte
+       *[other] { $count } hefte
+    }
+x-months-short =
+    { $count ->
+        [one] mehek
+       *[other] { $count } meh
+    }
+x-years-short =
+    { $count ->
+        [one] salek
+       *[other] { $count } sal
+    }
 
 ## Account Benefits
 
