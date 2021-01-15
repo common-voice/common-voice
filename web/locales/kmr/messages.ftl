@@ -326,6 +326,10 @@ size-megabyte = MB
 download-language = { $language } daxîne
 validated-hours = Saetên piştrastkirî
 recorded-hours = Saetên tomarkirî
+more = Zêdetir
+close = Bigire
+download = Daxîne
+dataset-version = Guherto
 
 ## Download Modal
 
