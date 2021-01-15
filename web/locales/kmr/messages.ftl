@@ -209,10 +209,10 @@ vote-yes = Erê
 vote-no = Na
 toggle-play-tooltip = Ji bo veguheztina moda lêdanê pêl { shortcut-play-toggle } bike
 speak-subtitle = Dengê xwe bibexşîne
-speak-paragraph = Tomarkirina dengan, beşeke girîng e ji bo avakirina komdaneya me ya vekirî. Li gorî hinekan beşa herî xweş jî ev e.
-speak-goal-text = Dengên tomarkirî
+speak-paragraph = Tomarkirina klîbên dengan, beşeke girîng e ji bo avakirina komdaneya me ya vekirî. Li gorî hinekan beşa herî xweş jî ev e.
+speak-goal-text = Klîbên tomarkirî
 listen-subtitle = Ji bo piştrastkirina dengan, alî me bike
-listen-goal-text = Dengên piştrastkirî
+listen-goal-text = Klîbên piştrastkirî
 hours-recorded = Saetên tomarkirî
 hours-validated = Saetên piştrastkirî
 voices-online = Dengên serhêl - Aniha
@@ -298,12 +298,19 @@ retry-voice-wave-recording = DÎSA BICERIBÎNE
 re-record = DÎSA TOMAR BIKE
 delete-voice = JÊ BIBE
 recording-voice-wave = Tê tomarkirin
+delete-voice-clip = an jî  klîba dengê jê bibe
 
 ## FAQ
 
+faq-why-important-q = Çima girîng e?
 
 ## ABOUT US
 
+about-speak = Bipeyive
+about-listen = Guhdarî bike
+about-is-it-valid = Klîb derbasdar e?
+about-yes-votes = Rayên erê ≥ 2
+about-no-votes = Rayên na ≥ 2
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
