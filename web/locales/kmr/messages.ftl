@@ -253,7 +253,8 @@ whats-public = Kesên din ew ê kîjan agahiyên te bibînin?
 email-not-public = Ew ê ti kes emaîla te nebîne.
 recordings-and-locale-public = Hejmara tomarkirinên te û zimanê ku tu lê beşdariyê dikî ew ê ji aliyê kesên din ve bên dîtin.
 username-optin-public = Nîşandana navê te yê bikarhêneriyê di destê te de ye, tu dikarî hem veşêrî hem jî nîşan bidî.
-demographic-deidentified-clarity-2 = Daneyên demografîk ên bi awayê vebijarkî tên şandin (mînak: temen, zayend, ziman û devok) ew ê ti carî li ser profîla te bi eşkereyî neyê nîşandan û ew ê bi hesabê te yê komdaneyê ve jî neyê girêdan. Lê Ji bo analîzên rasttir pêk bên, ew ê klîbên dengî tenê bi daneyên demografîk re bên têkildarkirin.
+demographic-deidentified-clarity-2 = Daneyên demografîk ên bi awayê vebijarkî tên şandin (mînak: temen, zayend, ziman û devok) ew ê ti carî li ser profîla te bi eşkereyî neyê nîşandan û ew ê bi hesabê te yê komdaneyê ve jî neyê girêdan. Lê Ji bo analîzên rasttir pêk bên, ew ê klîbên dengî tenê bi daneyên demografîk re bên têkildarkirin. Bo nimûne, belkî lêkolînerek bixwaze modeleke perwerdeyê ji bo beşeke demografîk a taybet, çêbike.
+username-email-not-demographic = Navê bikarhêner û emaîla te ew ê bi daneyên hatine weşandin re neyê têkildarkirin.
 
 ## Speak & Listen Shortcuts
 
@@ -265,6 +266,12 @@ shortcut-skip = d
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = e
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
