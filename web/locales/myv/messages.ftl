@@ -317,6 +317,16 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Мезекс «Common Voice»?
+about-speak = Кортак
+about-listen = Кунсолок
+about-yes-votes = ≥ 2 Вайгельть каязь тень кисэ
+about-no-votes = ≥ 2 Вайгельть каязь тень каршо
+about-clip-graveyard = Клипень калмазырь
+about-partners = Ялгат
+about-become-a-partner = Теевемс ялгакс
+about-nav-why-common-voice = Мезекс ?
+about-nav-how-it-works = Кода ?
+about-nav-partners = Ялгат
 
 ## Glossary
 
