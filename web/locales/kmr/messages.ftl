@@ -349,6 +349,8 @@ re-record = DÎSA TOMAR BIKE
 delete-voice = JÊ BIBE
 recording-voice-wave = Tê tomarkirin
 delete-voice-clip = an jî  klîba dengê jê bibe
+ready-to-upload = Lê bar bike
+cancel-avatar-clip-recording = Betal bike
 
 ## FAQ
 
