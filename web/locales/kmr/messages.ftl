@@ -495,12 +495,20 @@ weekly-goal = Hedefa heftane
 easy-difficulty = Hêsan
 want-to-continue = Tu dixwazî berdewam bikî?
 goal-interval-weekly = Heftane
+share-goal-type-speak = Axiftin
+share-goal-type-listen = Guhdarîkirin
+share-goal = Hedefa min parve bike
 
 ## Profile Delete
 
+keep = Bihêle
+remove = Rake
+profile-form-delete = Profîlê jê bibe
 
 ## Landing
 
+welcome-staff = Tîma { $company } hûn bi xêr hatin
+read-more-about = Li ser rûpela me ya "Derbar"ê zêdetir bixwîne
 
 ## DemoLayout
 
