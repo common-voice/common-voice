@@ -253,7 +253,7 @@ whats-public = Kesên din ew ê kîjan agahiyên te bibînin?
 email-not-public = Ew ê ti kes emaîla te nebîne.
 recordings-and-locale-public = Hejmara tomarkirinên te û zimanê ku tu lê beşdariyê dikî ew ê ji aliyê kesên din ve bên dîtin.
 username-optin-public = Nîşandana navê te yê bikarhêneriyê di destê te de ye, tu dikarî hem veşêrî hem jî nîşan bidî.
-demographic-deidentified-clarity-2 = Daneyên demografîk ên bi awayê vebijarkî tên şandin (mînak: temen, zayend, ziman û devok) ew ê ti carî li ser profîla te bi eşkereyî neyê nîşandan û ew ê bi hesabê te yê komdaneyê ve neyê girêdan.
+demographic-deidentified-clarity-2 = Daneyên demografîk ên bi awayê vebijarkî tên şandin (mînak: temen, zayend, ziman û devok) ew ê ti carî li ser profîla te bi eşkereyî neyê nîşandan û ew ê bi hesabê te yê komdaneyê ve jî neyê girêdan. Lê Ji bo analîzên rasttir pêk bên, ew ê klîbên dengî tenê bi daneyên demografîk re bên têkildarkirin.
 
 ## Speak & Listen Shortcuts
 
