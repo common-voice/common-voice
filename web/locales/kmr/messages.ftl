@@ -504,15 +504,24 @@ goal-interval-weekly = Heftane
 
 ## DemoLayout
 
+demo-get-started = Ka em dest pê bikin
+demo-welcome = Tu bi xêr hatî Common Voiceê
 
 ## Demo Datasets
 
+card-button-next = Pêşve
+card-button-back = Paşve
+demo-language-select-label = Zimanên gerokê
+demo-eofy-header = Guhertoya dawiya salê - 2019
+demo-eofy-sub_header = Komdaneya dengî, amade ye ji bo daxistinê
+demo-account = Hesab
 
 ## Demo Account
 
 
 ## Demo Contribute
 
+demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 
 ## Demo Dashboard
 
