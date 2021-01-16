@@ -287,6 +287,7 @@ request-language-button = Zimanekî bixwaze
 
 ## ProjectStatus
 
+status-title = Rewşa giştî ya projeyê: bibîne bê em çi qas bi pêş çûne!
 english = Înglîzî
 
 ## ProfileForm
