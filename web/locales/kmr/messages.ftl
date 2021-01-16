@@ -266,6 +266,7 @@ shortcut-skip = d
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Lêde/Rawestîne
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = e
@@ -275,6 +276,7 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Tomar bike/Rawestîne
 
 ## ProjectStatus
 
