@@ -241,6 +241,7 @@ x-years-short =
 help-make-dataset = Alî me bike ku em bi kalîteyeke bilind komdaneya vekirî û gelerî ava bikin
 sign-up-account = Hesabekî veke
 email-subscription-title = li nûçeyên emaîlê tomar bibe
+email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêveçûna projeyê tomar bibe
 
 ## Account Benefits
 
@@ -248,6 +249,7 @@ benefits = Feydeyên wê
 
 ## What's public
 
+email-not-public = Ew ê ti kes emaîla te nebîne.
 
 ## Speak & Listen Shortcuts
 
