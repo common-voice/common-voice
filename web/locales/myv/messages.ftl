@@ -342,6 +342,8 @@ de-identified = Идентификациязо нардазь
 
 ## Error pages
 
+error-title-404 = Лопась эзь муеве тонь туртов
+error-code = Ильведевкс { $code }
 
 ## Data
 
@@ -355,6 +357,8 @@ data-other-title = Вайгелень лия датапурнавкст...
 data-other-goto = Молемс «{ $name }» таркас
 data-other-download = Таргамс Датанть
 data-bundle-button = Таргамс датапурнавкс керьмаз
+release-version = Версия
+dataset-date = Ие-ков-чи
 license = Лицензиясь: <licenseLink>{ $license }</licenseLink>
 license-mixed = Човор
 terms-agree = Ве мельс пран
@@ -370,8 +374,21 @@ review-delete-recordings = Нардамс мезе лентас сёрмадын
 
 ## Datasets Page
 
+language = Кель
+# File size in gigabytes
+size = Покшолма
+cv-license = Лиценция
+audio-format = Аудионь формат
+number-of-voices = Зяро вайгельтнеде
+splits = Явомат
+email-to-download = Совавтык ёнсёрма адресэт таргамга
+validated-hours = Валидэкс ловозь част
+recorded-hours = Сёрмадозь част
+subscribe = Сёрмадстомс
 data-other-ted-name = «TED-LIUM» Корпус
 data-other-tatoeba-description = «Tatoeba» те валрисьмень, ютавксонь ды кортамо аудионь покш данбаза, конась арсезь келень тонавтнемс. Тень таргасак, муят кортамо англань кель, конань сёрмадызе англань келень ломанькурось.
+go-languages-page = Совамс келень лопас
+more = Седе тов
 
 ## Download Modal
 
