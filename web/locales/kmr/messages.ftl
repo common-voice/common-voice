@@ -481,6 +481,11 @@ validations =
 ## Dashboard
 
 your-languages = Zimanên te
+stats = Amar
+awards = Xelat
+you = Tu
+everyone = Her kes
+contribution-activity = Tabloya beşdariyan
 
 ## Custom Goals
 
