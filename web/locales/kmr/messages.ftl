@@ -357,11 +357,14 @@ recreate-voice = Dengê xwe dîsa tomar bike
 cancel-avatar-clip-recording = Betal bike
 browse-file-title = Dosyeya wêneyê bar bike
 browse-file = Biherikîne û bihêle an jî <browseWrap>Bibîne</browseWrap>
+add-language = Zimên tevlî bike
 
 ## FAQ
 
 faq-what-cv-q = Common Voice çi ye?
 faq-why-important-q = Çima girîng e?
+faq-what-is-cv = Common Voice çi ye?
+faq-using-cv = Bikaranîna Common Voiceê
 
 ## ABOUT US
 
@@ -423,6 +426,9 @@ download-form-email =
 
 ## Languages Overview
 
+languages-show-more = Zêdetir bibîne
+languages-show-less = Kêmtir bibîne
+language-meter-in-progress = Pêşveçûn
 
 ## Contribution
 
