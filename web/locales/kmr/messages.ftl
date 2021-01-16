@@ -210,9 +210,10 @@ vote-no = Na
 toggle-play-tooltip = Ji bo veguheztina moda lêdanê pêl { shortcut-play-toggle } bike
 speak-subtitle = Dengê xwe bibexşîne
 speak-paragraph = Tomarkirina klîbên dengan, beşeke girîng e ji bo avakirina komdaneya me ya vekirî. Li gorî hinekan beşa herî xweş jî ev e.
-speak-goal-text = Klîbên tomarkirî
+speak-goal-text = Dengên tomarkirî
 listen-subtitle = Ji bo piştrastkirina dengan, alî me bike
-listen-goal-text = Klîbên piştrastkirî
+listen-paragraph = Ji bo Common Voiceê pejirandina klîbên dengan jî bi heman şêweyê girîng e. Bi rêya guhdarîkirina klîbên dengan bi me re bibe alîkar ku em daneyên dengî yên çavkanî vekirî û bi kalîte ava bikin.
+listen-goal-text = Dengên piştrastkirî
 hours-recorded = Saetên tomarkirî
 hours-validated = Saetên piştrastkirî
 voices-online = Dengên serhêl - Aniha
@@ -239,6 +240,7 @@ x-years-short =
     }
 help-make-dataset = Alî me bike ku em bi kalîteyeke bilind komdaneya vekirî û gelerî ava bikin
 sign-up-account = Hesabekî veke
+email-subscription-title = li nûçeyên emaîlê tomar bibe
 
 ## Account Benefits
 
