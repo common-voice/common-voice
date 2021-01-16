@@ -429,18 +429,58 @@ download-form-email =
 languages-show-more = Zêdetir bibîne
 languages-show-less = Kêmtir bibîne
 language-meter-in-progress = Pêşveçûn
+language-total-progress = Tevahî
+language-search-input =
+    .placeholder = Lê bigere
+language-speakers = Axiver
+localized = Wergerandî
+sentences = Hevok
+total-hours = Saetên piştrastkirî:
 
 ## Contribution
 
+action-click = Bitikîne
+action-tap = Bitepîne
+contribute = Beşdarî bike
+listen = Guhdarî bike
+skip = Derbas bike
+shortcuts = Kurterê
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> tomara dengî
+       *[other] <bold>{ $count }</bold> tomarên dengî
+    }
 
 ## Reporting
 
+report-other-comment =
+    .placeholder = Şîrove
+success = Qediya!
+continue = Bidomîne
+report-success = Rapor bi serkeftî hat şandin
 
 ## Goals
 
+streaks = Rêze
+days =
+    { $count ->
+        [one] Roj
+       *[other] Roj
+    }
+recordings =
+    { $count ->
+        [one] Tomar
+       *[other] Tomar
+    }
+validations =
+    { $count ->
+        [one] Piştrastkirin
+       *[other] Piştrastkirin
+    }
 
 ## Dashboard
 
+your-languages = Zimanên te
 
 ## Custom Goals
 
