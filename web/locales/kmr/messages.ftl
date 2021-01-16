@@ -486,9 +486,15 @@ awards = Xelat
 you = Tu
 everyone = Her kes
 contribution-activity = Tabloya beşdariyan
+recorded-clips = Dengên tomarkirî
+validated-clips = Dengên piştrastkirî
 
 ## Custom Goals
 
+weekly-goal = Hedefa heftane
+easy-difficulty = Hêsan
+want-to-continue = Tu dixwazî berdewam bikî?
+goal-interval-weekly = Heftane
 
 ## Profile Delete
 
