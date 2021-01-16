@@ -343,6 +343,9 @@ download-profile = Daneyên min daxîne
 contribution-experience = Tecrubeya beşdariyê
 off = Girtî
 on = Vekirî
+avatar-clip-title = Avatarê xwe bipeyivîne
+change-your-avatar-clip = Tu dixwazî tomara dengê xwe biguherînî?
+recording-in-progress = Tomarkirina deng berdewam e
 record-voice-wave = DENGÊ XWE TOMAR BIKE
 retry-voice-wave-recording = DÎSA BICERIBÎNE
 re-record = DÎSA TOMAR BIKE
@@ -350,7 +353,10 @@ delete-voice = JÊ BIBE
 recording-voice-wave = Tê tomarkirin
 delete-voice-clip = an jî  klîba dengê jê bibe
 ready-to-upload = Lê bar bike
+recreate-voice = Dengê xwe dîsa tomar bike
 cancel-avatar-clip-recording = Betal bike
+browse-file-title = Dosyeya wêneyê bar bike
+browse-file = Biherikîne û bihêle an jî <browseWrap>Bibîne</browseWrap>
 
 ## FAQ
 
