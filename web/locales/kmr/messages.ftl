@@ -360,6 +360,7 @@ browse-file = Biherikîne û bihêle an jî <browseWrap>Bibîne</browseWrap>
 
 ## FAQ
 
+faq-what-cv-q = Common Voice çi ye?
 faq-why-important-q = Çima girîng e?
 
 ## ABOUT US
