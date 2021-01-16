@@ -288,12 +288,23 @@ request-language-button = Zimanekî bixwaze
 ## ProjectStatus
 
 status-title = Rewşa giştî ya projeyê: bibîne bê em çi qas bi pêş çûne!
+status-contribute = Bi dengê xwe beşdar bibe
+status-hours =
+    { $hours ->
+        [one] Heta niha saetek dane hat piştrastkirin!
+       *[other] Heta niha { $hours } saet dane hatine piştrastkirin!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Hedefa pêş: { $goal }
 english = Înglîzî
 
 ## ProfileForm
 
 profile-form-username =
     .label = Navê bikarhêner
+profile-form-native-language =
+    .label = Zimanê zikmakî
 profile-form-additional-language =
     .label = Zimanê din
 profile-form-accent =
@@ -303,24 +314,33 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Zayend
 hidden = Veşartî
+visible = Xuya
+native-language =
+    .label = Zimanê zikmakî
 profile-form-submit-save = Tomar bike
 profile-form-submit-saved = Hat tomarkirin
 male = Mêr
 female = Jin
 # Gender
 other = Yên din
+why-profile-title = Çima profîlekê çêbikim?
 dashboard = Destgeh
+build-profile = Profîlê çêbike
 avatar = Wêne
 goals = Hedef
 settings = Sazkarî
 edit-profile = Profîlê sererast bike
+profile-create-success = Bi serkeftî profîl hat afirandin!
 profile-close = Bigire
+thanks-for-account = Spas ji bo ku te hesabê xwe pejirand, îja ka em profîla te çêbikin.
+why-demographic = Ev çima girîng e?
 accept-privacy-title = Polîtîkaya Nihêniyê
 login-identity = Nasnameya têketinê
 login-signup = Têkeve / Tomar bibe
 edit = Sererast bike
 email-subscriptions = Abonetiyên emaîlê
 download-profile = Daneyên min daxîne
+contribution-experience = Tecrubeya beşdariyê
 off = Girtî
 on = Vekirî
 record-voice-wave = DENGÊ XWE TOMAR BIKE
