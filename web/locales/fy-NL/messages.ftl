@@ -210,7 +210,7 @@ hours-recorded = Opnommen oeren
 hours-validated = Falidearre oeren
 voices-online = Stimmen no online
 todays-progress = Foarútgong fan hjoed
-help-reach-goal = Help ús { $goal } te berikjen
+help-reach-goal = Help ús { $goal } te berikken
 read-terms-q = Hawwe jo ús Betingsten lêzen?
 ready-to-record = Klear om jo stim te donearjen?
 all-locales = Alle
@@ -784,12 +784,12 @@ help-reach-hours-pluralized =
     Help mei{ NUMBER($hours) ->
         [one] { $hours } oer
        *[other] { $hours } oer
-    }yn it { $language } te berikjen mei in persoanlike doelstelling
+    }yn it { $language } te berikken mei in persoanlike doelstelling
 help-reach-hours-general-pluralized =
     Help Common Voice{ NUMBER($hours) ->
         [one] { $hours } oer
        *[other] { $hours } oer
-    }yn in taal te berikjen mei in persoanlike doelstelling
+    }yn in taal te berikken mei in persoanlike doelstelling
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
 activity-needed-calculation-plural =
