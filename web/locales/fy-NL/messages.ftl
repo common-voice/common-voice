@@ -320,7 +320,7 @@ native-language =
 profile-form-submit-save = Bewarje
 profile-form-submit-saved = Bewarre
 male = Man
-female = Frau
+female = Frou
 # Gender
 other = Oars
 why-profile-title = Wêrom in profyl?
