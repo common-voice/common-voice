@@ -239,15 +239,20 @@ export default class DB {
           SELECT id, text
           FROM sentences
           WHERE is_used AND locale_id = ? AND NOT EXISTS (
-            SELECT *
+            SELECT original_sentence_id
             FROM clips
             WHERE clips.original_sentence_id = sentences.id AND
-                  clips.client_id = ?
-          ) AND NOT EXISTS (
-            SELECT *
+              clips.client_id = ?
+            UNION ALL
+            SELECT sentence_id
             FROM skipped_sentences skipped
             WHERE skipped.sentence_id = sentences.id AND
               skipped.client_id = ?
+            UNION ALL
+            SELECT sentence_id
+            FROM reported_sentences reported
+            WHERE reported.sentence_id = sentences.id AND
+              reported.client_id = ?
           )
           ${exemptFromSSRL ? '' : 'AND (clips_count = 0 OR has_valid_clip = 0)'}
           ORDER BY clips_count ASC
@@ -256,7 +261,7 @@ export default class DB {
         ORDER BY RAND()
         LIMIT ?
       `,
-      [locale_id, client_id, client_id, SHUFFLE_SIZE, count]
+      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }
@@ -277,15 +282,20 @@ export default class DB {
           LEFT JOIN sentences ON entries.sentence_id = sentences.id
           WHERE term_id IN (?)
           AND is_used AND sentences.locale_id = ? AND NOT EXISTS (
-            SELECT *
+            SELECT original_sentence_id
             FROM clips
             WHERE clips.original_sentence_id = sentences.id AND
-                  clips.client_id = ?
-          ) AND NOT EXISTS (
-            SELECT *
+              clips.client_id = ?
+            UNION ALL
+            SELECT sentence_id
             FROM skipped_sentences skipped
             WHERE skipped.sentence_id = sentences.id AND
               skipped.client_id = ?
+            UNION ALL
+            SELECT sentence_id
+            FROM reported_sentences reported
+            WHERE reported.sentence_id = sentences.id AND
+              reported.client_id = ?
           )
           LIMIT ?
         ) t
@@ -295,6 +305,7 @@ export default class DB {
       [
         await getTermIds(segments),
         locale_id,
+        client_id,
         client_id,
         client_id,
         SHUFFLE_SIZE,
@@ -359,10 +370,14 @@ export default class DB {
         LEFT JOIN sentences on clips.original_sentence_id = sentences.id
         WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ?
         AND NOT EXISTS(
-            SELECT *
-            FROM votes
-            WHERE votes.clip_id = clips.id AND client_id = ?
-          )
+          SELECT clip_id
+          FROM votes
+          WHERE votes.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM reported_clips reported
+          WHERE reported.clip_id = clips.id AND client_id = ?
+        )
         AND sentences.clips_count <= 15
         ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
@@ -370,7 +385,7 @@ export default class DB {
       ) t
       ORDER BY RAND()
       LIMIT ?`,
-      [locale_id, client_id, client_id, SHUFFLE_SIZE, count]
+      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
@@ -396,26 +411,31 @@ export default class DB {
           WHERE locale_id = ?
           AND sentence_id NOT IN (
             SELECT original_sentence_id FROM (
-              SELECT original_sentence_id, clips.is_valid, count(votes.id) as vote_count
+              SELECT original_sentence_id, count(votes.id) as vote_count
               FROM clips
               LEFT JOIN votes ON votes.clip_id = clips.id
               LEFT JOIN taxonomy_entries entries
                 ON clips.original_sentence_id = entries.sentence_id
               WHERE clips.locale_id = ?
-              AND (votes.client_id = ?)
+              AND votes.client_id = ?
               AND entries.term_id IN (?)
               GROUP BY original_sentence_id
               HAVING vote_count >= 2
             ) vote_counts
           )
+          AND entries.term_id IN (?)
         ) term_sentences
           ON clips.original_sentence_id = term_sentences.sentence_id
         AND is_valid IS NULL
         AND clips.client_id <> ?
         AND NOT EXISTS(
-          SELECT *
+          SELECT clip_id
           FROM votes
           WHERE votes.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM reported_clips reported
+          WHERE reported.clip_id = clips.id AND client_id = ?
         )
         GROUP BY original_sentence_id
         LIMIT ?
@@ -427,6 +447,8 @@ export default class DB {
         locale_id,
         client_id,
         await getTermIds(segments),
+        await getTermIds(segments),
+        client_id,
         client_id,
         client_id,
         SHUFFLE_SIZE,
