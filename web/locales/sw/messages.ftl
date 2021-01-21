@@ -821,6 +821,7 @@ demo-welcome-subheader = Je! Umevutiwa na kujifunza zaidi na kuchangia kwenye mr
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ni daftari kubwa zaidi la sauti ulimwenguni linayopatikana kwa umma, lenye lugha tofauti.
 demo-language-select-card-body = Shukrani kwa michango ya watu takribani laki mbili na elfu hamsini na tisa  katika lugha zaidi ya hamsini(50), data hii inatumika kusaidia kufundisha programu ambazo zinauweza wa kutambua sauti ili kuweza kujibu vizuri sauti ya mwanadamu
 card-button-next = Mbele
 card-button-back = Nyuma
