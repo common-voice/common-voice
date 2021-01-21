@@ -240,6 +240,7 @@ whats-public = Yapi yafikika na umma?
 email-not-public = Barua pepe yako haitakuwa wazi kwa umma.
 recordings-and-locale-public = Idadi ya rekodi na lugha ambazo unachangia itakuwa wazi kwa umma.
 username-optin-public = Unaweza chagua kulifanya jina lako la utumiaji liwe wazi au lisijulikane.
+demographic-deidentified-clarity-2 = Taarifa ya data inayokuhusu iliyowasilishwa kwa hiari (k.v. umri, jinsia, lugha, na lafudhi) hazitawekwa wazi kwa wasifu wako wa umma, na haitaunganishwa na akaunti yako kwenye hifadhidata. Sehemu za sauti za kibinafsi zitahusishwa na taarifa ya data inyokuhusu kwa kusudi la uchambuzi sahihi zaidi - kwa mfano, mtafiti anaweza taka kulenga mfano wa mafunzo kwa sehemu maalum ya data inayokuhusu.
 username-email-not-demographic = Jina lako la utumiaji na anwani ya baruapepe hazitahusishwa na data iliyochapishwa.
 
 ## Speak & Listen Shortcuts
@@ -324,6 +325,7 @@ profile-close = Funga
 profile-explanation = Tumia wasifu wako kufuatilia maendelo yako ili kusaidia data ya sauti kuwa sahihi zaidi.
 thanks-for-account = Asante kwa kudhibitisha akaunti yako, sasa kuza wasifu wako.
 why-demographic = kwanini ina umuhimu?
+why-demographic-explanation-2 = Data ya mtumiaji isiyojulikana kama umri, jinsia, na lafudhi husaidia kuboresha data ya sauti inayotumiwa kufunza usahihhi wa injini za utambuzi wa sauti. Jina lako la mtuaji na barua pepe havita ambatanishwa na data uliyowasilisha, na unaweza kuchagua jina lako lionekane kwa umma au lisijulikane.
 accept-privacy = Nakubaliana na maelekezo ya kushughulikia data hii kama mnavyoeleza kupitia <privacyLink> Sera ya faragha ya Mozilla </privacyLink>
 accept-privacy-title = Sera ya Faragha
 login-identity = Utambulisho wa Kuingia
