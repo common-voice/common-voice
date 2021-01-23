@@ -522,6 +522,7 @@ record-abort-title = ముందుగా రికార్డింగు మ
 record-abort-text = ఇప్పుడు వదిలివెళ్ళడమంటే మీ పురోగతినంతా కోల్పోతారు
 record-abort-submit = క్లిప్స్ సమర్పించండి
 record-abort-continue = రికార్డింగ్ ముగించు
+record-abort-delete = నిష్క్రమించి, క్లిప్పులను తొలగించు
 listen-instruction = { $actionType }<playIcon></playIcon> వారు ఈ వాక్యాన్ని సరిగ్గానే మాట్లాడారా?
 listen-last-time-instruction = <playIcon></playIcon> చివరిది!
 record-button-label = మీ గొంతును రికార్డు చేయండి
