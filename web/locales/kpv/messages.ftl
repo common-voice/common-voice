@@ -358,10 +358,10 @@ connect-gravatar = Йитны Gravatar-кӧд
 gravatar_not_found = Тіян email-кӧд йитӧм gravatar абу
 file_too_large = Бӧрйӧм файл вывті ыджыд
 manage-subscriptions = Вежлавны гижсьӧмъяс
-manage-email-subscriptions = Контроллируйт эмайль гижӧдъяс
-email-already-used = Тайӧ email вылӧ вӧчӧма нин мӧд аккаунт.
+manage-email-subscriptions = Контролируйт электрон поштаын гижӧдъяс
+email-already-used = Тайӧ электрон пошта вылӧ вӧчӧма нин мӧд аккаунт.
 add-language = Содтыны кыв
-change-email-setings = Вежӧй ассьыныд email Ладмӧдӧм пыр «Пыран индӧг» юкӧдын
+change-email-setings = Вежӧй ассьыныд электрон пошта Ладмӧдӧм пыр, «Пыран индӧг» юкӧдын
 
 ## FAQ
 
