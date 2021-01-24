@@ -227,6 +227,7 @@ email-subscription-title-new = Jisajili kwa jarida la Common Voice, ukumbusho wa
 ## Account Benefits
 
 benefits = Faida
+rich-data = Fanya data yako iliyowasilishwa kuwa na utajiri iwezekanavyo kwa kutoa taarifa ya data inayokuhusu bila kujulikana. Tunatoa ubainisho wowote wa taarifa ya data inayokuhusu kabla kuifanya iwe ya umma.
 improve-audio = Maelezo ya wasifu yanaboresha data ya sauti inayotumika katika mafunzo ya usahihi wa utambuzi wa sauti.
 keep-track = Fuatilia maendeleo na vipimo vyako kwa lugha nyingi tofauti.
 compare-progress = Linganisha maendeleo yako dhidi ya maendeleo ya wachangiaji wengine ulimwenguni kote.
@@ -239,6 +240,7 @@ whats-public = Yapi yafikika na umma?
 email-not-public = Barua pepe yako haitakuwa wazi kwa umma.
 recordings-and-locale-public = Idadi ya rekodi na lugha ambazo unachangia itakuwa wazi kwa umma.
 username-optin-public = Unaweza chagua kulifanya jina lako la utumiaji liwe wazi au lisijulikane.
+demographic-deidentified-clarity-2 = Taarifa ya data inayokuhusu iliyowasilishwa kwa hiari (k.v. umri, jinsia, lugha, na lafudhi) hazitawekwa wazi kwa wasifu wako wa umma, na haitaunganishwa na akaunti yako kwenye hifadhidata. Sehemu za sauti za kibinafsi zitahusishwa na taarifa ya data inyokuhusu kwa kusudi la uchambuzi sahihi zaidi - kwa mfano, mtafiti anaweza taka kulenga mfano wa mafunzo kwa sehemu maalum ya data inayokuhusu.
 username-email-not-demographic = Jina lako la utumiaji na anwani ya baruapepe hazitahusishwa na data iliyochapishwa.
 
 ## Speak & Listen Shortcuts
@@ -323,6 +325,7 @@ profile-close = Funga
 profile-explanation = Tumia wasifu wako kufuatilia maendelo yako ili kusaidia data ya sauti kuwa sahihi zaidi.
 thanks-for-account = Asante kwa kudhibitisha akaunti yako, sasa kuza wasifu wako.
 why-demographic = kwanini ina umuhimu?
+why-demographic-explanation-2 = Data ya mtumiaji isiyojulikana kama umri, jinsia, na lafudhi husaidia kuboresha data ya sauti inayotumiwa kufunza usahihhi wa injini za utambuzi wa sauti. Jina lako la mtuaji na barua pepe havita ambatanishwa na data uliyowasilisha, na unaweza kuchagua jina lako lionekane kwa umma au lisijulikane.
 accept-privacy = Nakubaliana na maelekezo ya kushughulikia data hii kama mnavyoeleza kupitia <privacyLink> Sera ya faragha ya Mozilla </privacyLink>
 accept-privacy-title = Sera ya Faragha
 login-identity = Utambulisho wa Kuingia
@@ -372,6 +375,7 @@ faq-how-get-a = Daftari la Common Voice linapatikana kwa kupakuliwa chini ya les
 faq-when-release2-q = Ni lini data ya Common Voice itatolewa katika lugha zingine?
 faq-when-release2-a = Toleo la lugha nyingi tofauti la daftari la Common Voice kwa sasa linaendelea kukusanywa na kusafishwa na jamii inayoisaidia. Ikiwa ungetaka kutusaidia kuleta Common Voice kwa lugha mpya, nenda uangalie <sentenceCollectorLink> Zana ya Kukusanya Sentensi </sentenceCollectorLink> kwa kuongeza sentensi mpya kwenye daftari, na Mozilla <pontoonLink> Pontoon </pontoonLink> kwa kutafsiri tovuti yenyewe. Lugha mpya zinaongezwa kwa Common Voice kwa mchango wa sauti wakati sentensi 5000 zilizoidhinishwa zimekusanywa.
 faq-why-mission-q = Kwa nini Common Voice ni sehemu ya misheni ya Mozilla?
+faq-why-mission-a = Mozilla imejitolea kuweka tovuti wazi na kupatikana kwa kila mtu. Ili kufanya hivyo tunahitaji kuwezesha waundaji wa mtandao kwa kupitia miradi kama Common Voice. Vile teknolojia za sauti zinavyozidi kuongezeka zaidi ya programu shubaka,tunaamini lazima watumikie watumiaji wote kwa usawa. Hivyo inamaanisha kuwekeza katika lugha zaidi na kuhifadhi lafudhi tofauti na taarifa ya data inayohusu watu wakati wa kujenga na kupima teknolojia za sauti. Common Voice ni rasilimali ya umma inayopatikana kwa kila mtu na timu za Mozilla na watengenezaji wa programu ulimwenguni kote tayari wanaitumia kwenye miradi yetu pia.
 faq-what-cv-and-deepspeech-q = Je! Ni tofauti gani kati ya Common Voice na Deep Speech?
 faq-is-goal-assistant-q = Je! Lengo la Common Voice ni kuunda msaidizi wa sauti?
 faq-is-goal-assistant-a = Lengo la daftari la Common Voice ni kuwezesha mtu yeyote duniani kutengeneza programu za utambuzi wa sauti, utambuzi wa msemaji, au aina nyingine yoyote ya programu ambayo inahitaji data ya sauti. Msaidizi wa sauti ni moja ya aina nyingi za programu unazoweza kujenga kwa kutumia daftari hilo.
@@ -645,6 +649,7 @@ share-title-new = <bold>Tusaidie</bold> kupata sauti zaidi
 keep-track-profile = Fuatilia maendeleo yako na wasifu
 login-to-get-started = Ingia au jisajili ili uanze
 target-segment-first-card = Unachangia sehemu yetu ya kwanza ya lengo
+target-segment-generic-card = Unachangia kwenye sehemu iliyolengwa
 target-segment-first-banner = Saidia kuunda sehemu ya kwanza ya lengo la Common Voice katika { $locale }
 target-segment-add-voice = Ongeza Sauti yako
 target-segment-learn-more = Jifunze zaidi
@@ -816,6 +821,7 @@ demo-welcome-subheader = Je! Umevutiwa na kujifunza zaidi na kuchangia kwenye mr
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ni daftari kubwa zaidi la sauti ulimwenguni linayopatikana kwa umma, lenye lugha tofauti.
 demo-language-select-card-body = Shukrani kwa michango ya watu takribani laki mbili na elfu hamsini na tisa  katika lugha zaidi ya hamsini(50), data hii inatumika kusaidia kufundisha programu ambazo zinauweza wa kutambua sauti ili kuweza kujibu vizuri sauti ya mwanadamu
 card-button-next = Mbele
 card-button-back = Nyuma

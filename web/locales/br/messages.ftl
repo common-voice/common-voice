@@ -284,7 +284,7 @@ request-language-button = Goulenn ouzhpennañ ur yezh
 
 ## ProjectStatus
 
-status-title = Statud hollek ar raktres : gwelet pelec'h emaomp degouezhet !
+status-title = Statud hollek ar raktres: gwelet pelec'h emaomp degouezhet!
 status-contribute = Embannit ho mouezh
 status-hours =
     { $hours ->
