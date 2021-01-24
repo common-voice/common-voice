@@ -229,7 +229,7 @@ email-subscription-title-new = Гижӧдчӧй тіян уджмогъяс йы
 
 benefits = Пӧльза
 rich-data = Демография юӧрсӧ сетӧмыс вӧчӧ мыччӧдъяссӧ ёна бурджыкӧн, паськыдджыкӧн. Йӧзӧдӧм водзын юӧрыс лоӧ нимпастӧмалӧма.
-improve-audio = Профиль тӧдӧг (информация)  бурмӧдӧ стӧчлунсӧ сёрни тӧдмалысьлысь.
+improve-audio = Профиль юӧрыс бурмӧдӧ стӧчлунсӧ сёрни тӧдмалігӧн да велӧдігӧн.
 keep-track = Кыйӧдӧй сӧвмӧм (прогресс) да петкӧдласнытӧ некымын кывйын.
 compare-progress = Орччӧдӧй ассьыныд сӧвмӧмнытӧ (прогресс) мукӧд отсасьысьяскӧд ставму гӧгӧрысь.
 view-goals = Видзӧдӧй сӧвмӧмнытӧ асланыд да проектлӧн могъяс босьтӧмын.
@@ -238,11 +238,11 @@ join-newsletter = Верманныд на пыртны ассьыныд email м
 ## What's public
 
 whats-public = Мый лоӧ йӧзводзса?
-email-not-public = Тіян email оз ло йӧзӧдӧма.
-recordings-and-locale-public = Горгижӧд лыд да кутшӧм кывкӧд ті уджаланныд лоӧ йӧзӧдӧма.
+email-not-public = Тіян электрон пошта оз ло йӧзӧдӧма.
+recordings-and-locale-public = Аудиогижӧд лыд да тіян уджалан кыв лоӧ йӧзӧдӧма.
 username-optin-public = Ті верманныд петкӧдлыны нимнытӧ либӧ дзебны.
 demographic-deidentified-clarity-2 = Опционал ногӧн ыстӧм демография мыччӧдъяс (шуам, арлыд, рӧд, кыв да акцент) некор оз лоны йӧзӧдӧмаӧсь тіян профильын и оз лоны йитӧмаӧсь тіян учёт мыччӧдъясӧн. Демография мыччӧдъясӧн лоасны йитӧмаӧсь сӧмын торъя аудиоклипъяс стӧчджык анализ вӧчӧм могысь - шуам, туялысь вермас окотитны туйдӧдны велӧдан модельсӧ демография кутшӧмкӧ торъя сегмент вылӧ.
-username-email-not-demographic = Тіян ним да email некор оз лоны йитӧмаӧсь йӧзӧдӧм тӧдӧгкӧд (информациякӧд).
+username-email-not-demographic = Тіян ним да электрон пошта некор оз лоны йитӧмаӧсь йӧзӧдӧм мыччӧдкӧд.
 
 ## Speak & Listen Shortcuts
 
@@ -270,7 +270,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Гижны/Дугдыны
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Выльысь гижӧй клипсӧ
-request-language-text = Онӧ на аддзӧй ас кывнытӧ Common Voice вылын?
+request-language-text = Онӧ на аддзӧй ассьыныд кывнытӧ Common Voice-ын?
 request-language-button = Корны содтыны
 
 ## ProjectStatus
@@ -285,7 +285,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Локтан мог: { $goal }
-english = Англискӧйӧн
+english = Англи кыв
 
 ## ProfileForm
 
