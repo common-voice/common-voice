@@ -904,7 +904,10 @@ demo-account-sign-up = Registrěrowański wótkaz pósłaś
 ## Demo Contribute
 
 demo-contribute-card-header = Sćo gótowy swój głos pśidaś abo słuchaś?
+demo-contribute-card-body = Něnto, źož tšochu wěcej wó Common Voice wěsćo, cogodla njewoytaś? Klikniso na mikrofonowy symbol, aby sady głosnje cytał. <br/><br/>Jolic cośo lubjej głosowe pśinoski drugich luźi pśeglědowaś, klikniśo na wótgrawański symbol. Jolic głosowe nagraśe, na kótarež słuchaśo, słowam wótpowědujo, kótarež se na wobrazowce pokazuju.
 demo-listen-subtitle = Cośo sobu cyniś?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Wósobinske pśeglědy was wó indiwiduelnem póstupje a wó póstupje zgromaźeństwa na běžnem źarže.
+demo-dashboard-card-body = Za kuždy pósćony głosowy klip a kuždy pśeglědany awdioklip se waše kontowe pśeglědy aktualizěruju, aby se waš nejnowšy póstup w kuždej rěcy, ku kótarejž pśinosujośo, wótbłyšćował. Jo, móžośo k wěcej ako jadnej rěcy pśinosowaś!<br/><br/> Wužywajśo pśeglědy, aby swóje statistiki slědował, aby wiźeł, kak w pśirownanju k drugim luźom w zgromaźeństwje wótrěznjośo a aby se wšedne abo tyźeńske pśinosowańske cele stajił.
