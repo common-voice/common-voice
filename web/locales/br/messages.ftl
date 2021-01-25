@@ -834,9 +834,9 @@ activity-needed-calculation-plural =
     } bemdez.
 how-many-per-day = Dispar! Pegement a glipoù bemdez?
 how-many-a-week = Dispar! Pegement a glipoù bep sizhun?
-which-goal-type = Fellout a ra deoc'h komz, selaou pe ober an daou?
-receiving-emails-info = Dibabet ho peus degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
-not-receiving-emails-info = Dibabet ho peus CHOM HEP degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc'h araokadennoù ha kaout keloù diwar-benn Common Voice
+which-goal-type = Fellout a ra deoc’h komz, selaou pe ober an daou?
+receiving-emails-info = Dibabet ho peus degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc’h araokadennoù ha kaout keloù diwar-benn Common Voice
+not-receiving-emails-info = Dibabet ho peus CHOM HEP degemer posteloù evit adlakaat ho palioù da soñj, diskouez hoc’h araokadennoù ha kaout keloù diwar-benn Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } standilhon
@@ -845,7 +845,7 @@ n-clips-pluralized =
         [many] { $count } a standilhonoù
        *[other] { $count } standilhon
     }
-help-share-goal = Skoazellit ac'hanomp da gaout muioc'h a vouezhioù, rannit ho pal
+help-share-goal = Skoazellit ac’hanomp da gaout muioc’h a vouezhioù, rannit ho pal
 confirm-goal = Kadarnaat ar pal
 goal-interval-weekly = Sizhuniek
 # $type is one of share-goal-type-*
@@ -859,30 +859,30 @@ share-goal-type-both = komz ha selaou
 goal-share-text = Emaon o paouez krouiñ ur pal personel evit reiñ ma mouezh da #CommonVoice -- deuit ganin da gelenn d'ar mekanikoù penaos e vez komzet gant an dud gwirion { $link }
 weekly-goal-created = Krouet eo bet ho pal sizhuniek
 daily-goal-created = Krouet eo bet ho pal pemdeziek
-track-progress = Heuilhit hoc'h araokadennoù amañ ha war bajenn ho stadegoù.
-return-to-edit-goal = Distroit amañ da embann ho pal pa fell deoc'h.
+track-progress = Heuilhit hoc’h araokadennoù amañ ha war bajenn ho stadegoù.
+return-to-edit-goal = Distroit amañ da embann ho pal pa fell deoc’h.
 share-goal = Rannañ ma fal
 
 ## Profile Delete
 
-delete-q = Fellout a ra deoc'h goulenn e vefe dilamet hoc'h enrolladennoù ivez, pe kavout a rit gwelloc'h e vefe miret e spletadoù roadennoù Common Voice?
+delete-q = Fellout a ra deoc’h goulenn e vefe dilamet hoc’h enrolladennoù ivez, pe kavout a rit gwelloc’h e vefe miret e spletadoù roadennoù Common Voice?
 keep = Mirout
 remove = Dilemel
-keep-info = Hoc'h enrolladenn dizanv a vo dalc'het e-barzh spletad roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc'h ne voc'h ket gouest da gas ur goulenn dilemel ken war hoc'h enrolladennoù diwar ar spletad roadennoù
-remove-info = Sellout a raimp a dostoc'h d'ho koulenn dilamadur enrolladennoù mouezh diwar ar spletad roadennoù. Ma vez aprouet ho koulenn ez aimp e darempred gant an dud o deus pellgarget ar spletad roadennoù hag e c'houlennimp diganto dilemel hoc'h enrolladennoù ivez.
+keep-info = Hoc’h enrolladenn dizanv a vo dalc’het e-barzh spletad roadennoù Common Voice. Ur wech ma vo dilamet ho kont ganeoc’h ne voc’h ket gouest da gas ur goulenn dilemel ken war hoc’h enrolladennoù diwar ar spletad roadennoù
+remove-info = Sellout a raimp a dostoc’h d’ho koulenn dilamadur enrolladennoù mouezh diwar ar spletad roadennoù. Ma vez aprouet ho koulenn ez aimp e darempred gant an dud o deus pellgarget ar spletad roadennoù hag e c’houlennimp diganto dilemel hoc’h enrolladennoù ivez.
 why-delete-recordings =
-    Enrolladennoù Common Voice a zo implijet gant imbourc'herien, stalioù bihan ha tud sot gant anaoudegezh ar vouezh evit skoazellañ ac'hanomp da wellaat loazioù hegerz d'ar foran evit patromoù mouezh.
+    Enrolladennoù Common Voice a zo implijet gant imbourc’herien, stalioù bihan ha tud sot gant anaoudegezh ar vouezh evit skoazellañ ac’hanomp da wellaat loazioù hegerz d'ar foran evit patromoù mouezh.
     
-    Ha gallout a rafec'h lavar deomp perak e fell deoc'h dilemel hoc'h enrolladennoù?
+    Ha gallout a rafec’h lavar deomp perak e fell deoc’h dilemel hoc’h enrolladennoù?
 profile-form-delete = Dilemel ar profil
 
 ## Landing
 
 welcome-staff = Donemat, implijad { $company }!
 help-contribute = Gallout a rit sikour da grouiñ ur spletad roadennoù liesseurt hag open-source en ur grouiñ ur profil Common Voice hag o kendeurel ho mouezh.
-login-company = Kevreit / Emezelit gant ho chomlec'h { $company }
+login-company = Kevreit / Emezelit gant ho chomlec’h { $company }
 profile-not-required = Kaout ur profil n'eo ket un dra ret evit kemer perzh met talvoudus eo memestra
-read-more-about = Lenn muioc'h war ar bajenn A-zivout
+read-more-about = Lenn muioc’h war ar bajenn A-zivout
 
 ## DemoLayout
 
@@ -891,7 +891,7 @@ demo-welcome = Degemer mat e Common Voice
 
 ## Demo Datasets
 
-card-button-next = War-lerc'h
+card-button-next = War-lerc’h
 card-button-back = Kent
 demo-language-select-label = Merdeiñ ar yezhoù
 demo-eofy-header = Ermaeziadenn fin-bloavezh 2019
@@ -906,7 +906,7 @@ demo-account-sign-up = Kas ul liamm-enskrivañ
 
 ## Demo Contribute
 
-demo-contribute-card-header = Prest oc'h da reiñ ho mouezh pe da selaou gant ur skouarn aketus?
+demo-contribute-card-header = Prest oc’h da reiñ ho mouezh pe da selaou gant ur skouarn aketus?
 demo-listen-subtitle = Prest da gemer-perzh?
 
 ## Demo Dashboard
