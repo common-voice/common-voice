@@ -457,7 +457,7 @@ about-no-votes-text = Pa ’z eo argaset ur c’hlip mouezh e zistro er roll gor
 about-dataset-new = Spletad roadennoù Common Voice
 about-dataset-new-text = Spletad roadennoù Common Voice a endalc’h kantadoù a viliadoù standilhonoù mouezh a skoazell an diorroerien da sevel ostilhoù adanaoudegezh ar vouezh.
 about-clip-graveyard = Bered ar c’hlipoù
-about-clip-graveyard-text = Bered ar c'hlipoù a zo ar c'hlipoù mouezh n'int ket bet asantet e spletad roadennoù Common Voice. Gallout a raer pellgargañ bered ar c'hlipoù evel ar spletad roadennoù.
+about-clip-graveyard-text = Bered ar c’hlipoù a zo ar c’hlipoù mouezh n’int ket bet asantet e spletad roadennoù Common Voice. Gallout a raer pellgargañ bered ar c’hlipoù evel ar spletad roadennoù.
 about-partners = Kevelerien
 about-become-a-partner = Dont da vezañ keveler
 about-partnership =
@@ -477,14 +477,14 @@ mycroft-title = Mycroft Ai
 mycroft-subtitle = Speredegezh kalvezadel
 mycroft-description =
     Kentañ skoazeller open-source ar bed eo Mycroft.
-    Mycroft a c'hall bezañ lañset e pep lec'h - war un urzhiataer burev, e-barzh ur c'harr pe war ur Raspberry Pi.
-mycroft-secondary-description = Ur meziant frank a c'hall bezañ admesket, astennet ha gwellaet an hini eo. Gallout a ra Mycroft bezañ implijet e raktresoù liesseurt, eus ur raktres skiantel betek un meziant evit an embregerezhioù.
+    Mycroft a c’hall bezañ lañset e pep lec’h - war un urzhiataer burev, e-barzh ur c’harr pe war ur Raspberry Pi.
+mycroft-secondary-description = Ur meziant frank a c’hall bezañ admesket, astennet ha gwellaet an hini eo. Gallout a ra Mycroft bezañ implijet e raktresoù liesseurt, eus ur raktres skiantel betek un meziant evit an embregerezhioù.
 
 ## Glossary
 
 glossary = Geriaoueg
-localization = Lec'hiadur
-localization-explanation = Hon hentenn evit evit treiñ hag azasaat hon endalc'had evit meur a yezh an hini eo.
+localization = Lec’hiadur
+localization-explanation = Hon hentenn evit evit treiñ hag azasaat hon endalc’had evit meur a yezh an hini eo.
 sentence-collection = Dastumadeg frazennoù
 sentence-collection-explanation = Dastum frazennoù en domani foran pe skrivañ reoù nevez evit an domani foran.
 hours-recorded-explanation = An niver a eurvezhioù enrollañ hag a zo bet dastumet ganeomp betek-hen.
@@ -492,7 +492,7 @@ hours-validated-explanation = Niver a eurvezhioù enrolladennoù mouezh gwirieka
 sst = Komz-da-destenn (KDD)
 sst-explanation = Teknologiezhioù komz-da-destenn (KDD) a amdroy roadennoù mouezh e testennoù.
 de-identified = Dizanvet
-de-identified-explanation = An doare m'eo kuzhet titouroù profil ur c'hendaoler eus e klipoù mouezh roet pa vez fardet ar pakad da bellgargañ evel lodenn eus ar spletad roadennoù.
+de-identified-explanation = An doare m’eo kuzhet titouroù profil ur c’hendaoler eus e klipoù mouezh roet pa vez fardet ar pakad da bellgargañ evel lodenn eus ar spletad roadennoù.
 
 ## Error pages
 
@@ -508,9 +508,9 @@ data-download-button = Pellgargañ roadennoù Common Voice
 data-download-yes = Ya
 data-download-deny = Ket
 data-download-license = Aotre-implijout : <licenseLink>CC-0</licenseLink>
-data-download-modal = Emaoc'h o vont da bellgargañ ur restr a <size>{ $size }GO</size>, stagañ ganti?
-data-subtitle = Emaomp o krouiñ ur spletad roadennoù mouezh digor hag hegerz a c'hallo bezañ adimplijet gant an holl evit sevel arloadoù a implij ar vouezh.
-data-explanatory-text = Soñjal a ra deomp e c'hall pikoloù spletadoù roadennoù foran degas krouüsted ha diazezañ ur gevezerezh yac'h evit teknologiezh ar mekanikoù emzeskiñ war ar vouezh. Ur striv bedel eo ha pediñ a reomp pep hini da gemer-perzh ennañ. Lakaat teknologiezh ar vouezh da gemer pep hini e kont eo hor pal. Evit se e fell deomp kaout un alberz eus liesseurted mouezhioù ar bed.
+data-download-modal = Emaoc’h o vont da bellgargañ ur restr a <size>{ $size }GO</size>, stagañ ganti?
+data-subtitle = Emaomp o krouiñ ur spletad roadennoù mouezh digor hag hegerz a c’hallo bezañ adimplijet gant an holl evit sevel arloadoù a implij ar vouezh.
+data-explanatory-text = Soñjal a ra deomp e c’hall pikoloù spletadoù roadennoù foran degas krouüsted ha diazezañ ur gevezerezh yac’h evit teknologiezh ar mekanikoù emzeskiñ war ar vouezh. Ur striv bedel eo ha pediñ a reomp pep hini da gemer-perzh ennañ. Lakaat teknologiezh ar vouezh da gemer pep hini e kont eo hor pal. Evit se e fell deomp kaout un alberz eus liesseurted mouezhioù ar bed.
 data-get-started = <speechBlogLink>Kregiñ da anaout ar vouezh</speechBlogLink>
 data-other-title = Spletadoù roadennoù gant mouezhioù all...
 data-other-goto = Mont da { $name }
@@ -525,7 +525,7 @@ data-download-singleword-title = Pellgargañ skejenn vukenn ar ger
 review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
-review-aborted = Nullet eo bet ar pellgas. Dilemel hoc'h enrolladennoù a fell deoc'h ober?
+review-aborted = Nullet eo bet ar pellgas. Dilemel hoc’h enrolladennoù a fell deoc’h ober?
 review-submit-title = Adwelet & Kas
 review-submit-msg = Trugarez evit an enrolladenn!<lineBreak></lineBreak>Bremañ, gwiriit ho klipoù ha kasit anezho.
 review-recording = Gwiriañ
@@ -536,11 +536,11 @@ review-delete-recordings = Dilemel ma enrolladennoù
 
 ## Datasets Page
 
-datasets-headline = Sevel a reomp spletadoù roadennoù mouezhioù digor o zarzh, lies-yezh hag a c'hall bezañ implijet gant forzh piv evit gourdonañ arloadoù anaoudegezh ar vouezh.
+datasets-headline = Sevel a reomp spletadoù roadennoù mouezhioù digor o zarzh, lies-yezh hag a c’hall bezañ implijet gant forzh piv evit gourdonañ arloadoù anaoudegezh ar vouezh.
 datasets-positioning =
-    Soñjal a ra deomp e c'hall spletadoù roadennoù bras hag hegerz d'ar foran degas nevezenti ha kevezerezh kenwerzhel yac'h e teknologiezhioù ar vouezh diazezet war an deskadurezh emgefreek.
+    Soñjal a ra deomp e c’hall spletadoù roadennoù bras hag hegerz d’ar foran degas nevezenti ha kevezerezh kenwerzhel yac’h e teknologiezhioù ar vouezh diazezet war an deskadurezh emgefreek.
     
-    Spletad roadennoù lies-yezh Common Voice a zo ar spletad roadennoù brasañ hegerz d'ar foran a c'haller kaout, met n'eo ket an hini nemetañ.
+    Spletad roadennoù lies-yezh Common Voice a zo ar spletad roadennoù brasañ hegerz d'ar foran a c’haller kaout, met n’eo ket an hini nemetañ.
     
     Sellit ouzh ar bajenn-mañ evel un dave d'ar spletadoù roadennoù digor all, ha dre ma kresko Common Voice, un degemer evit hon hizivadennoù da zont.
 language = Yezh
@@ -551,10 +551,10 @@ overall-hr-total = Hollad eurvezhioù en holl
 cv-license = Lañvaz
 audio-format = Stumm aodio
 number-of-voices = Niver a vouezhioù
-splits = Troc'hadennoù
-email-to-download = Enankit ur c'homlec'h postel evit pellgargañ
-why-email = <b>Perak ur chomlec'h postel?</b> Gallout a rafec'h kaout ezhomm kelaouiñ ac'hanoc'h eus kemmoù er spletad roadennoù, gant ur chomlec'h postel hon eus un doare da vont e darempred ganeoc'h.
-confirm-size = Emaoc'h o vont da lañsañ ur bellgagadenn <b>{ $size }</b>
+splits = Troc’hadennoù
+email-to-download = Enankit ur chomlec’h postel evit pellgargañ
+why-email = <b>Perak ur chomlec’h postel?</b> Gallout a rafec’h kaout ezhomm kelaouiñ ac’hanoc’h eus kemmoù er spletad roadennoù, gant ur chomlec’h postel hon eus un doare da vont e darempred ganeoc’h.
+confirm-size = Emaoc’h o vont da lañsañ ur bellgagadenn <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
 confirm-no-identify = <b>Asantiñ a rit</b> da chom hep klask despizañ pivelezh ar gomzerien e spletad roadennoù Common Voice
@@ -563,27 +563,27 @@ validated-hours = Eurvezhioù gwiriet
 recorded-hours = Eurvezhioù enrollet
 whats-inside = Petra zo e diabarzh spletad roadennoù Common Voice?
 dataset-description-hours =
-    Pep elfenn er spletad roadennoù a zo ur restr MP3 hag ur restr testenn a glot. Ul lodenn vras eus an <b>{ $total }</b> eur enrollet er spletad roadennoù a enkorf ivez metaroadennoù poblañsouriezh evel an oad, ar reizh  hag ar pouez-mouezh hag a c'hall sikour gourdonañ spister al luskerioù anaoudegezh ar vouezh.
+    Pep elfenn er spletad roadennoù a zo ur restr MP3 hag ur restr testenn a glot. Ul lodenn vras eus an <b>{ $total }</b> eur enrollet er spletad roadennoù a enkorf ivez metaroadennoù poblañsouriezh evel an oad, ar reizh  hag ar pouez-mouezh hag a c’hall sikour gourdonañ spister al luskerioù anaoudegezh ar vouezh.
     
     <b>{ $valid }</b> eur gwiriekaet e <b>{ $languages }</b> yezh a zo er spletad roadennoù evit ar mare, met ouzhpennañ a reomp mouezhioù ha yezhoù bepred. Taolit ur sell d'hor <languagesLink>pajenn Yezhoù</languagesLink> evit goulenn ur yezh pe kregiñ da gendeurel.
-want-dataset-update = Fellout a ra deoc'h kaout keleier pa ermaeziomp un handelv nevez eus spletad roadennoù Common Voice? Koumanantit d'al lizher kelaouiñ.
+want-dataset-update = Fellout a ra deoc’h kaout keleier pa ermaeziomp un handelv nevez eus spletad roadennoù Common Voice? Koumanantit d’al lizher kelaouiñ.
 subscribe = Koumanantiñ
 get-started-speech = Kregiñ gant anaoudegezh ar vouezh
 other-datasets = Spletadoù roadennoù all
 feedback-q = Evezhiadennoù ho peus?
 deepspeech-info = Spletad roadennoù Common Voice a gloka lusker anaoudegezh digor e darzh Mozilla, Deep Speech e anv. Gallout a rit e implij evit sevel arloadoù anaoudegezh ar vouezh. Lennit hon <githubLink>alberz war Github</githubLink> pe kejit gant an <discourseLink>Discourse DeepSpeech</discourseLink> evit gouzout penaos kregiñ ganit.
-common-voice-info-new = Goulennoù hoc'h eus a-zivout Common Voice? Mennozhioù evit gwellaat pe alioù a-zivout ur yezh resis? Deuit ganeomp war ar <discourseLink>forom Discourse</discourseLink> ha lârit deomp.
-data-other-librispeech-description = LibriSpeech a zo anezhañ ur c'horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
+common-voice-info-new = Goulennoù hoc’h eus a-zivout Common Voice? Mennozhioù evit gwellaat pe alioù a-zivout ur yezh resis? Deuit ganeomp war ar <discourseLink>forom Discourse</discourseLink> ha lârit deomp.
+data-other-librispeech-description = LibriSpeech a zo anezhañ ur c’horpus a 1000 eurvezh skrid bennak lennet e saozneg (16 kHz) hag a zeu diwar levrioù son ar raktres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
-data-other-ted-description = Savet eo bet ar c'horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c'haller kavout war lec'hienn TED.
+data-other-ted-description = Savet eo bet ar c’horpus TED-LIUM diwar divizoù komzet hag an treuzskrivadurioù anezho a c’haller kavout war lec’hienn TED.
 data-other-voxforge-description = VoxForge a zo bet savet evit dastum mouezhioù treuzskrivet da vezañ implijet e luskerioù anaout ar vouezh frank.
-data-other-tatoeba-description = Tatoeba a zo anezhañ ur pikol diaz-roadennoù frazennoù, troidigezhioù hag enrolladennoù komzet implijet en deskiñ yezhoù. Ar bellgargadenn-mañ a ya d'he ober saozneg komzet enrollet gant o c'humuniezh.
-your-feedback = Mennozhioù ho peus evit ma vefe gwelloc'h spletad roadennoù Common Voice? Lârit deomp war Discourse
+data-other-tatoeba-description = Tatoeba a zo anezhañ ur pikol diaz-roadennoù frazennoù, troidigezhioù hag enrolladennoù komzet implijet en deskiñ yezhoù. Ar bellgargadenn-mañ a ya d’he ober saozneg komzet enrollet gant o c’humuniezh.
+your-feedback = Mennozhioù ho peus evit ma vefe gwelloc’h spletad roadennoù Common Voice? Lârit deomp war Discourse
 go-discourse = Mont betek Discourse
 missing-language = Na welit ket ho yezh er spletad roadennoù? Kit war ar bajenn yezhoù evit goulenn ur yezh nevez.
 go-languages-page = Mont da bajenn ar yezh
 ready-to-validate = Prest da sikour gwiriañ frazennoù?
-more = Muioc'h
+more = Muioc’h
 close = Serriñ
 download = Pellgargañ
 dataset-version = Stumm
@@ -591,7 +591,7 @@ dataset-version = Stumm
 ## Download Modal
 
 download-title = Kroget eo ho pellgargadenn.
-download-helpus = Skoazellit ac'hanomp da sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Chomit e darempred ganeomp dre bostel.
+download-helpus = Skoazellit ac’hanomp da sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Chomit e darempred ganeomp dre bostel.
 download-form-email =
     .label = Lakait ho postel
     .value = Trugarez vras deoc'h, chom a raimp e darempred ganeoc'h.
@@ -612,25 +612,25 @@ contact-required = *rekis
 request-language-title = Goulenn ouzhpennañ ur yezh
 request-language-form-language =
     .label = Yezh
-request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras deoc'h.
-request-language-success-content = Mont a raimp e darempred ganeoc'h a-barzh nemeur gant muioc'h a ditouroù war ar mod da ouzhpennañ ho yezh da gCommon Voice.
+request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras deoc’h.
+request-language-success-content = Mont a raimp e darempred ganeoc’h a-barzh nemeur gant muioc’h a ditouroù war ar mod da ouzhpennañ ho yezh da gCommon Voice.
 select-language = Diuzañ ur yezh...
 other-language = Yezhoù all
 
 ## Languages Overview
 
 language-section-in-progress = War ober
-language-section-in-progress-new-description = Ar yezhoù-mañ a zo war ziorren gant ar gumuniezh evit ar mare. Ar barrennoù araokadur a ziskouez pegen pell eo aet pep yezh evit <localizationGlossaryLink>treiñ al lec'hienn</localizationGlossaryLink> ha <sentenceCollectionGlossaryLink>dastum frazennoù</sentenceCollectionGlossaryLink>.
-language-section-launched = Loc'het
-language-section-launched-description = Evit ar yezhoù lañset-mañ eo bet <localizationGlossaryLink>troet</localizationGlossaryLink> al lec'hienn ha dastumet et bet trawalc'h a <sentenceCollectionGlossaryLink>frazennoù</sentenceCollectionGlossaryLink> evit aotren kendaoladoù <speakLink>Komz</speakLink> ha <listenLink>Selaou</listenLink>.
-languages-show-more = Gouzout hiroc'h
-languages-show-less = Gwelet nebeutoc'h
+language-section-in-progress-new-description = Ar yezhoù-mañ a zo war ziorren gant ar gumuniezh evit ar mare. Ar barrennoù araokadur a ziskouez pegen pell eo aet pep yezh evit <localizationGlossaryLink>treiñ al lec’hienn</localizationGlossaryLink> ha <sentenceCollectionGlossaryLink>dastum frazennoù</sentenceCollectionGlossaryLink>.
+language-section-launched = Loc’het
+language-section-launched-description = Evit ar yezhoù lañset-mañ eo bet <localizationGlossaryLink>troet</localizationGlossaryLink> al lec’hienn ha dastumet eo bet trawalc’h a <sentenceCollectionGlossaryLink>frazennoù</sentenceCollectionGlossaryLink> evit aotren kendaoladoù <speakLink>Komz</speakLink> ha <listenLink>Selaou</listenLink>.
+languages-show-more = Gouzout hiroc’h
+languages-show-less = Gwelet nebeutoc’h
 language-meter-in-progress = War ober
 language-total-progress = Hollad
 language-search-input =
     .placeholder = Klask
 language-speakers = Komzerien
-localized = Lec'helaet
+localized = Lec’helaet
 sentences = Frazennoù
 total-hours = Hollad eurvezhioù
 
@@ -652,11 +652,11 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn enrollet bemdez!
 goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal a { $goalValue } frazenn gwiriet bemdez!
-contribute-more = Prest d'ober { $count } ouzhpenn?
+contribute-more = Prest d’ober { $count } ouzhpenn?
 record-cta = Enrollañ
-record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
-record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ…
-record-platform-not-supported-ios-non-safari = Evit iOS, kendalc'hit war Safari evit gweredekaat an enrollañ...
+record-platform-not-supported = Kerse eo deomp met n’eo ket skoret ho savenn evit poent.
+record-platform-not-supported-desktop = War urzhiataerioù burev e c’hallit pellgargañ ar stumm diwezhañ…
+record-platform-not-supported-ios-non-safari = Evit iOS, kendalc’hit war Safari evit gweredekaat an enrollañ...
 record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
 record-no-mic-found = Mikrofon ebet kavet.
 record-error-too-short = Re verr e oa an enrolladenn.
