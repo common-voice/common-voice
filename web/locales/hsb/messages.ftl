@@ -908,3 +908,4 @@ demo-listen-subtitle = Chceće sobu činić?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Wosobinske přehlady was wo indiwiduelnym postupje a wo postupje zhromadźenstwa na běžnym dźerža.
