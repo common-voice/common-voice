@@ -518,7 +518,7 @@ dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 data-download-singleword-title = Sćehńće cilowy segment jednotliweho słowa
-data-download-singleword-callout = To je segment, kotryž so přez nałožowanski pad wodźi, kotryž daty wobsahuje, zo by spóznawanje rěčanych cyfrow, haj/ně-wotkrywanje a testowanske daty wakeword za <fxLink>Firefox Voice</fxLink> podpěrał.
+data-download-singleword-callout-v2 = To je segment, kotryž přez nałožowanske pady doprědka ćěri a daty wobsahuje, zo by spóznaće rěčanych cyfrow a spóznaće haj/ně zmóžnił.
 review-terms = Hdyž Common Voice wužiwaće, zwoliće do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 terms-agree = Sym přezjedny
 terms-disagree = Njejsym přezjedny
@@ -884,6 +884,8 @@ demo-welcome-subheader = Chceće wjace zhonić a k projektej přinošować?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice je najwjetša zjawnje k dispoziciji stejaca, wjacerěčna datowa sadźba swěta.
+demo-language-select-card-body = Dźak přinoškam přez 259&thinsp;000 ludźi we wjace hač 50 rěčach, so tute daty wužiwaja, zo bychu so rěčenske nałoženja trenowali, zo bychu čłowjeskemu hłosej lěpje wotpowědowali.
 card-button-next = Dale
 card-button-back = Wróćo
 demo-language-select-label = Rěče přepytać
@@ -894,6 +896,7 @@ demo-account = Konto
 ## Demo Account
 
 demo-account-card-header = Za sobudźěło konto trěbne njeje, hačrunjez je wužitne
+demo-account-card-body = Naprawo skicěrujemy lěpšiny a wujasnjamy, kotre informacije wozjewjamy. Wužiwajće wotkazy deleka, zo byšće z kontom Common voice na swojom graće započał.
 demo-account-enter-email =
     .label = Zapodajće e-mejlowu adresu, zo byšće registrowanski wotkaz pósłał
 demo-account-sign-up = Registrowanski wotkaz pósłać
