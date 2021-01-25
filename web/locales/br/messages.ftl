@@ -193,16 +193,16 @@ toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du 
 speak-subtitle = Roit ho mouezh
 speak-paragraph = Enrollañ ar vouezh a zo ul lodenn bouezus evit sevel hon spletad roadennoù digor; lod a lavar eo al lodenn blijus ivez.
 speak-goal-text = Klipoù enrollet
-listen-subtitle = Skoazellit ac'hanomp da wiriañ mouezhioù
-listen-paragraph = Gwiriañ klipoù roet a zo ken pouezus all evit kefridi Common Voice. Selaouit ha skoazellit ac'hanomp da grouiñ roadennoù mouezh digor a galite.
+listen-subtitle = Skoazellit ac’hanomp da wiriañ mouezhioù
+listen-paragraph = Gwiriañ klipoù roet a zo ken pouezus all evit kefridi Common Voice. Selaouit ha skoazellit ac’hanomp da grouiñ roadennoù mouezh digor a galite.
 listen-goal-text = Klipoù gwiriet
 hours-recorded = Eurvezhioù enrollet
 hours-validated = Eurvezhioù gwiriet
 voices-online = Mouezhioù enlinenn bremañ
 todays-progress = Araokadur an deiz
-help-reach-goal = Sikourit ac'hanomp mont betek { $goal }
-read-terms-q = Ha lennet hoc'h eus on Termenoù?
-ready-to-record = Prest oc'h da reiñ ho mouezh?
+help-reach-goal = Sikourit ac’hanomp mont betek { $goal }
+read-terms-q = Ha lennet hoc’h eus hon Termenoù?
+ready-to-record = Prest oc’h da reiñ ho mouezh?
 all-locales = Pep tra
 today = Hiziv
 x-weeks-short =
@@ -229,29 +229,29 @@ x-years-short =
         [many] a vloazioù
        *[other] bloaz
     }
-help-make-dataset = Skoazellit ac'hanomp da sevel ur spletad roadennoù foran, digor hag a galite uhel
+help-make-dataset = Skoazellit ac’hanomp da sevel ur spletad roadennoù foran, digor hag a galite uhel
 sign-up-account = Krouit ur gont
 email-subscription-title = marilhit evit keleier dre bostel
-email-subscription-title-new = Lakait hoc'h anv evit postel kelaouiñ Common Voice, palioù hag araokadennoù.
+email-subscription-title-new = Lakait hoc’h anv evit postel kelaouiñ Common Voice, palioù hag araokadennoù.
 
 ## Account Benefits
 
 benefits = Spletoù
 rich-data = Grit e-seurt da binvidikaat ar muiañ posupl ar roadennoù a gasit en ur bourveziñ ivez un nebeud roadennoù poblañsouriezh. Dizenvel a reomp kement roadenn poblañsouriezh a-raok o lakaat foran.
 improve-audio = Titouroù ar profil a wella ar roadennoù son implijet evit spister anaoudegezh ar vouezh.
-keep-track = Mirit ur roud eus hoc'h araokadennoù evit meur a yezh.
-compare-progress = Keñverit hoc'h araokadennoù gant kendaolerien e pep lec'h er bed.
-view-goals = Keñverit hoc'h araokadennoù gant ho palioù personel ha reoù ar raktres.
+keep-track = Mirit ur roud eus hoc’h araokadennoù evit meur a yezh.
+compare-progress = Keñverit hoc’h araokadennoù gant kendaolerien e pep lec’h er bed.
+view-goals = Keñverit hoc’h araokadennoù gant ho palioù personel ha reoù ar raktres.
 join-newsletter = Enskrivit d'hor roll posteloù evit bezañ kelaouet a-zivout ar raktres.
 
 ## What's public
 
 whats-public = Petra a zo foran?
-email-not-public = Ne lakaimp ket foran ho chomlec'h postel.
+email-not-public = Ne lakaimp ket foran ho chomlec’h postel.
 recordings-and-locale-public = An niver a enrolladennoù hag ar yezhoù a gemerit perzh eno a vo foran.
-username-optin-public = Gellout a raer lakaat foran pe dizanv hoc'h anv-implijer.
-demographic-deidentified-clarity-2 = Ar roadennoù poblañsouriezh diret roet (sk. oad, jener, yezh ha pouez-mouezh) na vezint morse lakaet da foran war ho frofil, ha ne vo ket liammet d'ho kont er spletad roadennoù. Ar c'hlipoù aodio a vo liammet gant ar roadennoù poblañsouriezh evit ma vefe resisoc'h an dielfennadenn - da skouer, un enklasker a c'hallfe kaout c'hoant da vukañ ur patrom gourdonañ evit ul lodenn resis eus ar boblañs.
-username-email-not-demographic = Hoc'h anv implijer hag ho chomlec'h postel na vezo ket liammet gant ar roadennoù embannet.
+username-optin-public = Gellout a raer lakaat foran pe dizanv hoc’h anv-implijer.
+demographic-deidentified-clarity-2 = Ar roadennoù poblañsouriezh diret roet (sk. oad, jener, yezh ha pouez-mouezh) na vezint morse lakaet da foran war ho frofil, ha ne vo ket liammet d'ho kont er spletad roadennoù. Ar c’hlipoù aodio a vo liammet gant ar roadennoù poblañsouriezh evit ma vefe resisoc’h an dielfennadenn - da skouer, un enklasker a c’hallfe kaout c’hoant da vukañ ur patrom gourdonañ evit ul lodenn resis eus ar boblañs.
+username-email-not-demographic = Hoc’h anv implijer hag ho chomlec’h postel na vezo ket liammet gant ar roadennoù embannet.
 
 ## Speak & Listen Shortcuts
 
@@ -278,13 +278,13 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Enrollañ/Paouez
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Adenrollañ ar c'hlip
+shortcut-rerecord-toggle-label = Adenrollañ ar c’hlip
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
 request-language-button = Goulenn ouzhpennañ ur yezh
 
 ## ProjectStatus
 
-status-title = Statud hollek ar raktres: gwelet pelec'h emaomp degouezhet!
+status-title = Statud hollek ar raktres: gwelet pelec’h emaomp degouezhet!
 status-contribute = Embannit ho mouezh
 status-hours =
     { $hours ->
@@ -318,15 +318,15 @@ leaderboard-visibility =
 hidden = Kuzhet
 visible = Hewel
 native-language =
-    .label = Yezh c'henidik
+    .label = Yezh c’henidik
 profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
 male = Paotr
-female = Plac'h
+female = Plac’h
 # Gender
 other = All
 why-profile-title = Perak ur profil?
-why-profile-text = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
+why-profile-text = Seul dalvoudusoc’h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc’h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
 dashboard = Taolenn-stur
 build-profile = Sevel ar profil
 avatar = Avatar
@@ -335,11 +335,11 @@ settings = Arventennoù
 edit-profile = Aozañ ar profil
 profile-create-success = Berzh, ho profil a zo bet krouet!
 profile-close = Serriñ
-profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
+profile-explanation = Dalc’hit ur roud diouzh hoc’h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc’h.
 thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profil bremañ.
 why-demographic = Perak e vez pouezus?
-why-demographic-explanation-2 = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc'h anv-implijer hag ho chomlec'h postel d'ar roadennoù a vez kaset ganeoc'h, ha gellout a rit dibab etre lakaat publik hoc'h anv-implijer pe chom dizanv.
-accept-privacy = Asantiñ a ran ec'h implijfec'h ar pezh titour-mañ evel ma vez lavaret e <privacyLink>politikerezh a-fet buhez prevez</privacyLink> Mozilla
+why-demographic-explanation-2 = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc’h anv-implijer hag ho chomlec’h postel d'ar roadennoù a vez kaset ganeoc’h, ha gellout a rit dibab etre lakaat publik hoc’h anv-implijer pe chom dizanv.
+accept-privacy = Asantiñ a ran ec’h implijfec’h ar pezh titour-mañ evel ma vez lavaret e <privacyLink>politikerezh a-fet buhez prevez</privacyLink> Mozilla
 accept-privacy-title = Reolenn a-fet buhez prevez
 login-identity = Identelezh kevreañ
 login-signup = Kevreañ / Lakaat e anv
@@ -348,35 +348,35 @@ email-subscriptions = Koumanantoù postel
 download-profile = Pellgargañ ma roadennoù
 contribution-experience = Skiant-prenet kendeurel
 skip-submission-feedback = Tremen ar gasadenn mennozhioù
-skip-submission-description = Tremenet e vo ar gasadenn evezhiadennoù ur wech kliket war «Kas». Kenderc'hel a raio ar c'hendeurel war-eeun gant un heuliadenn a 5 enrolladenn pe wiriekadenn.
-skip-submission-note = Evezhiadenn: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe selaou evit cheñch ho toare kendeurel.
+skip-submission-description = Tremenet e vo ar gasadenn evezhiadennoù ur wech kliket war «Kas». Kenderc’hel a raio ar c’hendeurel war-eeun gant un heuliadenn a 5 enrolladenn pe wiriekadenn.
+skip-submission-note = Evezhiadenn: Ezhomm ho po da ziuzañ c’hoazh etre Komz pe selaou evit cheñch ho toare kendeurel.
 off = Diweredekaet
 on = Gweredekaet
 avatar-clip-title = Roit ur vouezh d'ho avatar
-change-your-avatar-clip = Fellout a ra deoc'h cheñch ho klip mouezh?
-recording-in-progress = Oc'h enrollañ ar vouezh
-avatar-clip-recorded = Ur c'hlip mouezh a zo war hoc'h avatar bremañ!
+change-your-avatar-clip = Fellout a ra deoc’h cheñch ho klip mouezh?
+recording-in-progress = Oc’h enrollañ ar vouezh
+avatar-clip-recorded = Ur c’hlip mouezh a zo war hoc’h avatar bremañ!
 record-voice-wave = ENROLLAÑ HO KINNIG
 retry-voice-wave-recording = ADKLASK
 re-record = AD-ENROLLAÑ
 delete-voice = DILEMEL
-recording-voice-wave = Oc'h enrollañ
+recording-voice-wave = Oc’h enrollañ...
 delete-voice-clip = pe  Dilemel an enrolladenn
 ready-to-upload = Pellgas
 avatar-clip-fact = Gouzout a raer mat e vezer trubuilhet gant elfennoù ur bajenn pa glasker lenn ur pennad.
 recreate-voice = Adkrouiñ ho kinnig
 cancel-avatar-clip-recording = Nullañ
-about-avatar-clip-recording = Krouit un enrolladenn vouezh evit ul lodenn eus hoc'h avatar. Gouest e vo an dud all da zreistnijal evit selaou ho klip.
+about-avatar-clip-recording = Krouit un enrolladenn vouezh evit ul lodenn eus hoc’h avatar. Gouest e vo an dud all da zreistnijal evit selaou ho klip.
 browse-file-title = Pellgasit ur restr skeudenn
 browse-file = Riklañ-leuskel pe <browseWrap>verdeit</browseWrap>
 connect-gravatar = Kevreañ gant Gravatar
 gravatar_not_found = Gravatar ebet kavet evit ho postel
 file_too_large = Re vras eo ar restr diuzet
-manage-subscriptions = Merañ ar c'houmanantoù
-manage-email-subscriptions = Merañ ar c'houmanantoù postel
+manage-subscriptions = Merañ ar c’houmanantoù
+manage-email-subscriptions = Merañ ar c’houmanantoù postel
 email-already-used = Ar postel a zo implijet evit ur gont all endeo
 add-language = Ouzhpennañ ur yezh
-change-email-setings = Kemmit ho chomlec'h postel dre an Arventennoù, el lodenn "Identelezhioù kevreañ"
+change-email-setings = Kemmit ho chomlec’h postel dre an Arventennoù, el lodenn "Identelezhioù kevreañ"
 
 ## FAQ
 
