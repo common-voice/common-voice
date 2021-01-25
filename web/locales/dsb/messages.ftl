@@ -896,6 +896,7 @@ demo-account = Konto
 ## Demo Account
 
 demo-account-card-header = Za sobuźěło konto njejo trjebne, lěcrownož jo wužytny
+demo-account-card-body = Napšawo skicěrujomy lěpšyny a wujasnjujomy, kótare informacije wózjawjamy. Wužywajśo wótkaze dołojce, aby z kontom Common Voice na swójom rěźe zachopił.
 demo-account-enter-email =
     .label = Zapódajśo e-mailowu adresu, aby registrěrowański wótkaz pósłał
 demo-account-sign-up = Registrěrowański wótkaz pósłaś
