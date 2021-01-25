@@ -333,7 +333,7 @@ avatar = Avatar
 goals = Palioù
 settings = Arventennoù
 edit-profile = Aozañ ar profil
-profile-create-success = Berzh, profil krouet!
+profile-create-success = Berzh, ho profil a zo bet krouet!
 profile-close = Serriñ
 profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
 thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profil bremañ.
@@ -344,7 +344,7 @@ accept-privacy-title = Reolenn a-fet buhez prevez
 login-identity = Identelezh kevreañ
 login-signup = Kevreañ / Lakaat e anv
 edit = Aozañ
-email-subscriptions = Koumanantoù d'ar roll-bosteloù
+email-subscriptions = Koumanantoù postel
 download-profile = Pellgargañ ma roadennoù
 contribution-experience = Skiant-prenet kendeurel
 skip-submission-feedback = Tremen ar gasadenn mennozhioù
@@ -466,9 +466,9 @@ about-partnership =
     Fellout a rafe deomp trugarekaat an dud hag an aozadurioù da-heul evit o sikour gant ar raktres:
 about-get-involved = Kemer perzh
 about-get-involved-text-2 =
-    C'hoant ho peus kemer perzh evit gwellaat Common Voice ?
-    Dreist ! Kit e darempred ganeomp dre vail pe war ar foromoù <discourseLink>Discourse</discourseLink>,
-    disklêriit kudennoù lec'hiennoù dre <githubLink>GitHub</githubLink>, pe kemerit perzh e flap ar gumuniezh war <matrixLink>Matrix</matrixLink>.
+    C’hoant ho peus sikour da wellaat Common Voice?
+    Dreist! Kit e darempred ganeomp dre bostel pe war ar foromoù <discourseLink>Discourse</discourseLink>,
+    disklêriit kudennoù lec’hiennoù dre <githubLink>GitHub</githubLink>, pe kemerit perzh e flap ar gumuniezh war <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Perak?
 about-nav-how-it-works = Penaos?
 about-nav-partners = Kevelerien
@@ -507,7 +507,7 @@ error-code = Fazi { $code }
 data-download-button = Pellgargañ roadennoù Common Voice
 data-download-yes = Ya
 data-download-deny = Ket
-data-download-license = Lañvaz: <licenseLink>CC-0</licenseLink>
+data-download-license = Aotre-implijout : <licenseLink>CC-0</licenseLink>
 data-download-modal = Emaoc'h o vont da bellgargañ ur restr a <size>{ $size }GO</size>, stagañ ganti?
 data-subtitle = Emaomp o krouiñ ur spletad roadennoù mouezh digor hag hegerz a c'hallo bezañ adimplijet gant an holl evit sevel arloadoù a implij ar vouezh.
 data-explanatory-text = Soñjal a ra deomp e c'hall pikoloù spletadoù roadennoù foran degas krouüsted ha diazezañ ur gevezerezh yac'h evit teknologiezh ar mekanikoù emzeskiñ war ar vouezh. Ur striv bedel eo ha pediñ a reomp pep hini da gemer-perzh ennañ. Lakaat teknologiezh ar vouezh da gemer pep hini e kont eo hor pal. Evit se e fell deomp kaout un alberz eus liesseurted mouezhioù ar bed.
@@ -655,7 +655,7 @@ goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage>
 contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Enrollañ
 record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
-record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ...
+record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ…
 record-platform-not-supported-ios-non-safari = Evit iOS, kendalc'hit war Safari evit gweredekaat an enrollañ...
 record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
 record-no-mic-found = Mikrofon ebet kavet.
