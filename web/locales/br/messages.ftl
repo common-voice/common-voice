@@ -1,8 +1,8 @@
 ## General
 
 yes-receive-emails = Ya, kasit posteloù din. Karout a rafen bezañ kelaouet eus ar raktres Common Voice.
-stayintouch = Ni, e Mozilla, zo o sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Karout a rafemp bezañ kelaouet ingal eus an hizivadurioù, ar mammennoù roadennoù nevez ha gouzout hiroc'h diwar-benn ar mod ma implijit ar roadennoù-mañ.
-privacy-info = Gouestlañ a reomp embreger ho titouroù gant evezh. Lennit pelloc'h diwar-benn se en hon <privacyLink>Evezhiadennoù a-fet buhez prevez </privacyLink>.
+stayintouch = Ni, e Mozilla, ’zo o sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Karout a rafemp bezañ kelaouet ingal eus an hizivadurioù, ar mammennoù roadennoù nevez ha gouzout hiroc’h diwar-benn ar mod ma implijit ar roadennoù-mañ.
+privacy-info = Gouestlañ a reomp embreger ho titouroù gant evezh. Lennit pelloc’h diwar-benn se en hon <privacyLink>Evezhiadennoù a-fet buhez prevez </privacyLink>.
 return-to-cv = Distreiñ da gCommon Voice
 email-input =
     .label = Postel
@@ -42,7 +42,7 @@ br = Brezhoneg
 bxr = Bouriateg
 ca = Katalaneg
 cak = Kakchikeleg
-ckb = Kurdeg ar c'hreiz
+ckb = Kurdeg ar c’hreiz
 cnh = Hakaeg
 co = Korseg
 cs = Tchekeg
@@ -167,26 +167,26 @@ privacy = Buhez prevez
 terms = Termenoù
 cookies = Toupinoù
 faq = FAG
-content-license-text = Endalc'had hegerz dindan ul <licenseLink>lañvaz Creative Commons</licenseLink>
+content-license-text = Endalc’had hegerz dindan ul <licenseLink>lañvaz Creative Commons</licenseLink>
 share-title = Sikourit ac’hanomp da gavout tud ouzhpenn da reiñ o mouezh!
 share-text = Sikourit ar mekanikoù da gompren penaos e komz an dud wirion, roit ho mouezh da { $link }
 link-copied = Liamm eilet
-back-top = Distreiñ d'al lein
+back-top = Distreiñ d’al lein
 logout = Digevreañ
 
 ## Home Page
 
 home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gompren penaos e komz an dud wirion.
 home-cta = Komzit, kemerit perzh amañ!
-wall-of-text-start = Naturel eo ar vouezh, denel eo ar vouezh. Setu aze perak e chomomp bamet pa grouomp un deknologiezh vouezh a c'hall bezañ implijet gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh e ranker kaout ur pezh sammad a roadennoù mouezh avat.
-wall-of-text-more-mobile = Ar pep brasañ eus ar roadennoù a ra ar c'hompagnunezhioù bras ganto ne c'hallont ket bezañ implijet gant lodenn vrasañ an dud. Soñjal a ra deomp e voug ar grouüsted. Setu perak hon eus lañset ar raktres Common Voice, ur raktres a laka anaoudegezh ar vouezh da vezañ digor d'an holl.
-wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz-roadennoù mouezh en open-source hag a c'hall bezañ implijet gant forzh piv evit sevel arloadoù evit trevnadoù hag ar web. <lineBreak></lineBreak> Lennit ur frazenn evit sikour ar mekanikoù da zeskiñ komz evel ma ra an dud wirion. Gwirit labour kendaolerien all evit gwellaat ar perzhded. Ken aes ha tra!
+wall-of-text-start = Naturel eo ar vouezh, denel eo ar vouezh. Setu aze perak e chomomp bamet pa grouomp un deknologiezh vouezh a c’hall bezañ implijet gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh e ranker kaout ur pezh sammad a roadennoù mouezh avat.
+wall-of-text-more-mobile = Ar pep brasañ eus ar roadennoù a ra ar c’hompagnunezhioù bras ganto ne c’hallont ket bezañ implijet gant lodenn vrasañ an dud. Soñjal a ra deomp e voug ar grouüsted. Setu perak hon eus lañset ar raktres Common Voice, ur raktres a laka anaoudegezh ar vouezh da vezañ digor d'an holl.
+wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz-roadennoù mouezh en open-source hag a c’hall bezañ implijet gant forzh piv evit sevel arloadoù evit trevnadoù hag ar web. <lineBreak></lineBreak> Lennit ur frazenn evit sikour ar mekanikoù da zeskiñ komz evel ma ra an dud wirion. Gwirit labour kendaolerien all evit gwellaat ar perzhded. Ken aes ha tra!
 wall-of-text-first = Naturel eo ar vouezh, denel eo ivez. Abalamour da-se eo ez eus pres warnomp krouiñ un deknologiezh mouezh evit hor mekanikoù. Met evit krouiñ reizhiadoù mouezh o devez ezhomm an diorroerien da gaout kalz a roadennoù mouezh.
-wall-of-text-second = Ar pep brasañ eus ar roadennoù hegerz gant ar c’hompagnunezhioù na vezont ket hegerz evit darn vuiañ an dud. Setu aze evit petra hon eus loc'het Common Voice, ur raktres hag a sikour ac'hanomp da lakaat an anaoudadur mouezh digor hag hegerz d'an holl.
-show-wall-of-text = Lenn muioc'h
-help-us-title = Skoazellit ac'hanomp da gadarnaat frazennoù!
+wall-of-text-second = Ar pep brasañ eus ar roadennoù hegerz gant ar c’hompagnunezhioù na vezont ket hegerz evit darn vuiañ an dud. Setu aze evit petra hon eus loc’het Common Voice, ur raktres hag a sikour ac’hanomp da lakaat an anaoudadur mouezh digor hag hegerz d'an holl.
+show-wall-of-text = Lenn muioc’h
+help-us-title = Skoazellit ac’hanomp da gadarnaat frazennoù!
 help-us-explain = Pouezit war lenn, selaou & lavarit deomp: distripet en/he deus mat ar frazenn dindan?
-no-clips-to-validate = War a seblant n'eus klip ebet da selaou evit ar yezh-mañ. Sikourit ac'hanomp da leuniañ ar steudad c'hortoz en ur enrollañ un nebeud bremañ.
+no-clips-to-validate = War a seblant n’eus klip ebet da selaou evit ar yezh-mañ. Sikourit ac’hanomp da leuniañ ar steudad c’hortoz en ur enrollañ un nebeud bremañ.
 vote-yes = Ya
 vote-no = Ket
 toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
