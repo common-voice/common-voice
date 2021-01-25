@@ -518,7 +518,7 @@ dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 data-download-singleword-title = Ześěgniśo celowy segment jadnotliwego słowa
-data-download-singleword-callout = To jo segment, kótaryž se pśez nałožowański pad wóźi, kótaryž daty wopśimujo, aby spóznawanje powědanych cyfrow, jo/ně-wótkrywanje a testowańske daty wakeword za <fxLink>Firefox Voice</fxLink> pódpěrał.
+data-download-singleword-callout-v2 = To jo segment, kótaryž se pśez nałožowańske pady pógónujo a daty wopśimujo, aby spóznaśe powědanych cyfrow a spóznaśe jo/ně zmóžnił.
 review-terms = Gaž Common Voice wužywaśo, zwolijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
@@ -884,6 +884,8 @@ demo-welcome-subheader = Cośo wěcej zgóniś a k projektoju pśinosowaś?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice jo nejwětša zjawnje k dispoziciji stojeca, wěcejrěcna datowa sajźba swěta.
+demo-language-select-card-body = Z pomocu pśinoskow wót 259&thinsp;000 luźi we wěcej ako 50 rěcach, se toś te daty wužywaju, aby se powědańske nałoženja treněrowali, aby cłowjeskemu głosoju lěpjej wótpowědowali.
 card-button-next = Dalej
 card-button-back = Slědk
 demo-language-select-label = Rěcy pśepytowaś
