@@ -896,7 +896,7 @@ demo-account = Konto
 ## Demo Account
 
 demo-account-card-header = Za sobudźěło konto trěbne njeje, hačrunjez je wužitne
-demo-account-card-body = Naprawo skicěrujemy lěpšiny a wujasnjamy, kotre informacije wozjewjamy. Wužiwajće wotkazy deleka, zo byšće z kontom Common voice na swojom graće započał.
+demo-account-card-body = Naprawo skicěrujemy lěpšiny a wujasnjamy, kotre informacije wozjewjamy. Wužiwajće wotkazy deleka, zo byšće z kontom Common Voice na swojim graće započał.
 demo-account-enter-email =
     .label = Zapodajće e-mejlowu adresu, zo byšće registrowanski wotkaz pósłał
 demo-account-sign-up = Registrowanski wotkaz pósłać
