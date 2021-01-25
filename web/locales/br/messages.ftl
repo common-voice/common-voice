@@ -398,37 +398,37 @@ faq-when-release2-a = Stumm liesyezh spletad roadennoù Common Voice a zo o veza
 faq-why-mission-q = Perak eo Common Voice ul lodenn eus kefridi Mozilla?
 faq-why-mission-a = Mennet eo Mozilla da virout ar Web digor ha tizhus d’an holl. Evit ober kement-mañ e rankomp galloudekat ar grouerien web dre raktresoù evel Common Voice. Teknologiezhioù ar vouezh a struj bremañ pelloc’h eget e tachennoùigoù ’zo evel a-raok. Kavout a ra deomp e rankont bezañ e gourc’hemenn pep hini hep diforc’hañ. Santout a reomp un ezhomm da ouzhpennañ muioc’h a yezhoù, a bouezioù-mouezh hag a rummoù oad evit krouiñ hag amprouiñ an teknologiezhioù mouezh. Common Voice a zo ur vammenn foran implijet gant skipailhoù Mozilla ha diorroerien e pep lec’h er bed endeo.
 faq-what-cv-and-deepspeech-q = Petra eo an diforc’h etre Common Voice ha Deep Speech?
-faq-what-cv-and-deepspeech-a = Spletad Roadennoù Common Voice a gloka lusker anaoudegezh ar vouezh digor e darzh Deep Speech krouet gant Mozilla. Handelv kentañ Deep Speech a zo bet ermaeziet e miz Du 2017 ha kendalc'het en deus da emdreiñ abaoe. Asambles gant spletad roadennoù Common Voice e soñj deomp e rankfe teknologiezhioù ar vouezh bezañ hegerz evit an holl. Spi hon eus e tegaso an teknologiezhioù-mañ dorrerien da sevel aozadoù ha servijoù nevezadus.
+faq-what-cv-and-deepspeech-a = Spletad Roadennoù Common Voice a gloka lusker anaoudegezh ar vouezh digor e darzh Deep Speech krouet gant Mozilla. Handelv kentañ Deep Speech a zo bet ermaeziet e miz Du 2017 ha kendalc’het en deus da emdreiñ abaoe. Asambles gant spletad roadennoù Common Voice e soñj deomp e rankfe teknologiezhioù ar vouezh bezañ hegerz evit an holl. Spi hon eus e tegaso an teknologiezhioù-mañ dorrerien da sevel aozadoù ha servijoù nevezadus.
 faq-is-goal-assistant-q = Pal Common Voice eo sevel ur skoazeller mouezh?
-faq-is-goal-assistant-a = Pal spletad roadennoù Common Voice eo reiñ an tu da forzh piv er bed da sevel un anaoudeger mouezhioù, an anaoudeger komzer, pe forzh pe arload all a goulenn roadennoù mouezh. Ur skoazeller dre vouezh n'eo nemet un doare arload a c'hallfe arverañ ar spletad roadennoù-mañ.
-faq-do-want-native-q = N'on ket ur c'homzer a vihanik ha komz a ran gant un taol-mouezh, ha fellout a ra deoc'h kaout ma mouezh ivez?
-faq-do-want-native-a = Ya, c'hoant hon eus ho mouezh! Ul lodenn eus pal Common Voice eo dastum ar muiañ posupl a daolioù-mouezh disheñvel evit ma vefe gouest an anaoudeger mouezhioù da vont en-dro evit an holl. Setu perak eo pouezus kaout roadennoù mouezh eus komzerien n'int ket a-vihanik.
+faq-is-goal-assistant-a = Pal spletad roadennoù Common Voice eo reiñ an tu da forzh piv er bed da sevel un anaoudeger mouezhioù, an anaoudeger komzer, pe forzh pe arload all a goulenn roadennoù mouezh. Ur skoazeller dre vouezh n’eo nemet un doare arload a c’hallfe arverañ ar spletad roadennoù-mañ.
+faq-do-want-native-q = N’on ket ur c’homzer a vihanik ha komz a ran gant un taol-mouezh, ha fellout a ra deoc’h kaout ma mouezh ivez?
+faq-do-want-native-a = Ya, c’hoant hon eus ho mouezh! Ul lodenn eus pal Common Voice eo dastum ar muiañ posupl a daolioù-mouezh disheñvel evit ma vefe gouest an anaoudeger mouezhioù da vont en-dro evit an holl. Setu perak eo pouezus kaout roadennoù mouezh eus komzerien n’int ket a-vihanik.
 faq-why-different-speakers-q = Perak ho peus ezhomm kement a gomzerien disheñvel dre yezh?
 faq-why-different-speakers-a = Lodenn vrasañ an diaz roadennoù mouezhioù a zo gourdonet gant un dreistdileuridigezh eus poblañsoù 'zo, dreist-holl ar <articleLink>gwazed a renkad etre</articleLink>. An taolioù-mouezh hag ar rannyezhoù a zo is-dileuriet er roadennoù gourdonañ a zo peurvuiañ liammet gant strolladoù a zo arlezekaet endeo. Meur a vekanik o deus diaesterioù evit adanavezout mouezhioù maouezed. Setu perak e fell deomp kaout liesseurted en hor diaz-roadennoù!
-faq-why-my-lang-q = Perak n'eo ket enkorfet ma yezh c'hoazh?
-faq-why-my-lang-new-a = Ne vez ket lakaet ur yezh a-us d'eben gant Mozilla. Un intrudu lusket gant ar gumuniezh eo, met <multilangLink>meur a bazenn a zo evit ouzhpennañ ur yezh nevez</multilangLink> ha kregiñ da zastum enrolladennoù. Da gentañ penn eo dav treiñ lec'hienn ar gumuniezh evit ma c'hallfe bezañ merdeet gant izili ar gumuniezh en o yezh. Da c'houde hon eus ezhomm eus un dastumadeg bras a frazennoù hep gwirioù aozer evit ma c'hallfent bezañ lennet a vouezh uhel gant an dud. Ur wech m'eo leuniet an daou dra-se e c'hall bezañ "lañset" ar yezh war Common Voice evit ma krogfe an dud da enrollañ o mouezh ha da wiriekaat ar roadoù all. Ma fell deoc'h skoazellañ evit lañsañ ur yezh nevez, kit da welet hon ostilh <sentenceCollectorLink>dastum frazennoù</sentenceCollectorLink> evit kregiñ.
-faq-what-quality-q = Peseurt perzhded son a zo goulennet evit implijout ur c'hlip mouezh er spletad roadennoù?
-faq-what-quality-a = Fellout a ra deomp e vefe spletad roadennoù Common Voice heverk eus perzhded ar son a vo enrollet gant un anaoudeger ar vouezh neuze e klaskomp kaout liesseurted. Asambles gant ur gumuniezh liesseurt e c'hallo ur spletad roadennoù gant perzhded son disheñvel deskiñ d'al lusker anaoudegezh ar vouezh merañ meur a zegouezhioù er bed gwirion, gant trouzioù ur c'harr pe gant tud o komz.en drekleur. Keit ha m'eo komprenus ho klip mouezh eo mat a-walc'h da vezañ enkorfet er spletad roadennoù.
+faq-why-my-lang-q = Perak n’eo ket enkorfet ma yezh c’hoazh?
+faq-why-my-lang-new-a = Ne vez ket lakaet ur yezh a-us d’eben gant Mozilla. Un intrudu lusket gant ar gumuniezh eo, met <multilangLink>meur a bazenn a zo evit ouzhpennañ ur yezh nevez</multilangLink> ha kregiñ da zastum enrolladennoù. Da gentañ penn eo dav treiñ lec’hienn ar gumuniezh evit ma c’hallfe bezañ merdeet gant izili ar gumuniezh en o yezh. Da c’houde hon eus ezhomm eus un dastumadeg bras a frazennoù hep gwirioù aozer evit ma c’hallfent bezañ lennet a vouezh uhel gant an dud. Ur wech m’eo leuniet an daou dra-se e c’hall bezañ "lañset" ar yezh war Common Voice evit ma krogfe an dud da enrollañ o mouezh ha da wiriekaat ar roadoù all. Ma fell deoc’h skoazellañ evit lañsañ ur yezh nevez, kit da welet hon ostilh <sentenceCollectorLink>dastum frazennoù</sentenceCollectorLink> evit kregiñ.
+faq-what-quality-q = Peseurt perzhded son a zo goulennet evit implijout ur c’hlip mouezh er spletad roadennoù?
+faq-what-quality-a = Fellout a ra deomp e vefe spletad roadennoù Common Voice heverk eus perzhded ar son a vo enrollet gant un anaoudeger ar vouezh neuze e klaskomp kaout liesseurted. Asambles gant ur gumuniezh liesseurt e c’hallo ur spletad roadennoù gant perzhded son disheñvel deskiñ d’al lusker anaoudegezh ar vouezh merañ meur a zegouezhioù er bed gwirion, gant trouzioù ur c’harr pe gant tud o komz en drekleur. Keit ha m’eo komprenus ho klip mouezh eo mat a-walc’h da vezañ enkorfet er spletad roadennoù.
 faq-why-10k-hours-q = Perak eo 10 000 eurvezh gwiriekaet ar pal dre yezh evit tapout ar son?
-faq-why-10k-hours-a = Ar c'hementad a eurioù dleet evit gourdonañ ur reizhiad anaoudegezh ar vouezh an hini eo, tamm pe damm.
+faq-why-10k-hours-a = Ar c’hementad a eurioù dleet evit gourdonañ ur reizhiad anaoudegezh ar vouezh an hini eo, tamm pe damm.
 faq-how-calc-hours-q = Penaos e vez jede an eurioù gant Common Voice?
 faq-how-calc-hours-a = Jediñ a reomp an eurioù en ur vrasjediñ hirder keidennel an enrolladennoù, ha lieskementet e vez an niver-mañ dre an niver hollek a enrolladennoù e-touez an holl yezhoù.
-faq-where-src-from-2-q = Eus pelec'h e teu an destenn vammenn?
+faq-where-src-from-2-q = Eus pelec’h e teu an destenn vammenn?
 faq-where-src-from-2-a =
     Hor mammennoù testenn a zo savet gant roadoù hiniennoù kement ha divizoù filmoù en domani foran evel <italic>It’s a Wonderful Life</italic>.
     
     Gallout a rit gwelout ar frazennoù mammenn en <githubLink>teuliad Github</githubLink>.
-faq-why-not-ask-read-q = Perak ne c'houlennit ket gant an dud lenn levrioù pe pennadoù Wikipedia e yezhoù disheñvel?
-faq-why-not-ask-read-a = Evit ma vefe spletad roadennoù Common Voice an talvoudusañ posupl hon eus divizet aotre testennoù mammenn a zo dindan ul lañvaz Creative Commons (CC0). Ober gant ar CC0 a dalv eo diaesoc'h kavout ha dastum testennoù mammenn, met aotren a ra an holl da implij ar roadennoù mouezh hep bevenn hag hep aotre da gaout eus perzh Mozilla. Da ziwezhañ e fell deomp sevel ar spletad roadennoù liesyezh ken an talvoudusañ posupl evit an holl, en o zouez: klaskerien, skolioù-meur, embregerezhioù, gouarnamantoù, aozadurioù gant palioù kevredadel ha n'eus forzh piv a vefe dedennet.
+faq-why-not-ask-read-q = Perak ne c’houlennit ket gant an dud lenn levrioù pe pennadoù Wikipedia e yezhoù disheñvel?
+faq-why-not-ask-read-a = Evit ma vefe spletad roadennoù Common Voice an talvoudusañ posupl hon eus divizet aotre testennoù mammenn a zo dindan ul lañvaz Creative Commons (CC0). Ober gant ar CC0 a dalv eo diaesoc’h kavout ha dastum testennoù mammenn, met aotren a ra an holl da implij ar roadennoù mouezh hep bevenn hag hep aotre da gaout eus perzh Mozilla. Da ziwezhañ e fell deomp sevel ar spletad roadennoù liesyezh ken an talvoudusañ posupl evit an holl, en o zouez: klaskerien, skolioù-meur, embregerezhioù, gouarnamantoù, aozadurioù gant palioù kevredadel ha n'eus forzh piv a vefe dedennet.
 faq-why-account-q = Perak e rankfen krouiñ ur gont?
-faq-is-account-public-q = Ha foran eo titouroù ma c'hont?
+faq-is-account-public-q = Ha foran eo titouroù ma c’hont?
 faq-how-privacy-q = Penaos e vezit sur e chom dizanv ha prevez titouroù an dud a ro o mouezh?
-faq-how-privacy-a = Skarzhet e vez an titouroù personel en holl glipoù er spletad roadennoù. Pa vez roet roadennoù poblañsouriezh gant ur c'hendaoler dre o frofil eo dizanvet an titour-mañ eus o klip mouezh a-raok bezañ paket evit bezañ pellgarget er spletad roadennoù ha n'eo morse diskouezet d'an holl war o fajenn brofil.
-faq-what-determine-identity-q = Petra dalv ne c'hallan ket "despizañ pivelezh" ar gomzerien e spletad roadennoù Common Voice?
+faq-how-privacy-a = Skarzhet e vez an titouroù personel en holl glipoù er spletad roadennoù. Pa vez roet roadennoù poblañsouriezh gant ur c’hendaoler dre o frofil eo dizanvet an titour-mañ eus o klip mouezh a-raok bezañ paket evit bezañ pellgarget er spletad roadennoù ha n'eo morse diskouezet d'an holl war o fajenn brofil.
+faq-what-determine-identity-q = Petra dalv ne c’hallan ket "despizañ pivelezh" ar gomzerien e spletad roadennoù Common Voice?
 faq-what-determine-identity-a =
-    Digor hag hegerz d'ar foran eo spletad roadennoù Common Voice ha gallout a ra bezañ implijet evit gourdonañ arloadoù a-bep seurt a implij anaoudegezh ar vouezh. Evit gwareziñ diogelroez hor c'hendaolerien e c'houlennomp gant an holl a bellgarg spletad roadennoù Common Voice da zoujañ ouzh buhez prevez ar gendaloerien.
+    Digor hag hegerz d'ar foran eo spletad roadennoù Common Voice ha gallout a ra bezañ implijet evit gourdonañ arloadoù a-bep seurt a implij anaoudegezh ar vouezh. Evit gwareziñ diogelroez hor c’hendaolerien e c’houlennomp gant an holl a bellgarg spletad roadennoù Common Voice da zoujañ ouzh buhez prevez ar gendaloerien.
     
-    Skarzhet e vez an titouroù a c'hallfe servijout da adanavezout ar c'homzer er c'hlipoù son. Pa pellgargit ar spletad roadennoù ec'h asantit da chom hep klask kavout pivelezh ar gendaolerien. Talvezout a ra ne c'hallit ket klask liammañ titouroù er spletad roadennoù da ditouroù personel ur c'hendaoler. Gallout a rit avat ober gant ar spletad roadennoù evit gourdonañ anaoudegezh ar vouezh, anaoudegezh ar c'homzer pe un arload all, da skouer evit liammañ titouroù er spletad roadennoù da ditouroù all er roadennoù.
+    Skarzhet e vez an titouroù a c’hallfe servijout da adanavezout ar c’homzer er c’hlipoù son. Pa pellgargit ar spletad roadennoù ec’h asantit da chom hep klask kavout pivelezh ar gendaolerien. Talvezout a ra ne c’hallit ket klask liammañ titouroù er spletad roadennoù da ditouroù personel ur c’hendaoler. Gallout a rit avat ober gant ar spletad roadennoù evit gourdonañ anaoudegezh ar vouezh, anaoudegezh ar c’homzer pe un arload all, da skouer evit liammañ titouroù er spletad roadennoù da ditouroù all er roadennoù.
 faq-what-is-cv = Petra eo Common Voice?
 faq-using-cv = Implij Common Voice
 faq-description = Ul lodenn eus intrudu Mozilla evit sikour da gelenn d'ar mekanikoù penaos e komz an dud wirion eo Common Voice.
@@ -439,24 +439,24 @@ faq-search-for-answers =
 
 about-title = Perak Common Voice?
 about-subtitle = Ul lodenn eus intrudu Mozilla evit sikour da gelenn d'ar mekanikoù penaos e komz an dud wirion eo Common Voice. E-kichen ar spletad roadennoù Common Voice e savomp ul lusker adanaoudegezh ar vouezh digor e darzh anvet Deep Speech.
-about-header-description = An daou raktres-se a zo ul lodenn eus hon strivoù evit gwellaat stad ar vouezh niverel. Teknologiezhioù adanaoudegezh ar vouezh a ro ur ment denel d'hon mekanikoù, met ezhomm a zo ur sammad bras-kenañ a roadennoù evit o sevel. Evit ar mare eo koustus ha perc'hennet ar roadennoù-se.
-how-does-it-work-title = Penaos ec'h a en-dro?
-how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriekait klipoù an dud all ha lakait ar spletad roadennoù da vezañ gwelloc'h evit an holl.
+about-header-description = An daou raktres-se a zo ul lodenn eus hon strivoù evit gwellaat stad ar vouezh niverel. Teknologiezhioù adanaoudegezh ar vouezh a ro ur ment denel d'hon mekanikoù, met ezhomm a zo ur sammad bras-kenañ a roadennoù evit o sevel. Evit ar mare eo koustus ha perc’hennet ar roadennoù-se.
+how-does-it-work-title = Penaos ec’h a en-dro?
+how-does-it-work-text = Sevel a reomp un teskad roadennoù mouezhioù a-stroll. Roit ho mouezh, gwiriekait klipoù an dud all ha lakait ar spletad roadennoù da vezañ gwelloc’h evit an holl.
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
-about-listen-queue-text = Ar c'hlipoù a zo kaset en ur roll gortoz evit ma vefent prest da vezañ selaouet.
+about-listen-queue-text = Ar c’hlipoù a zo kaset en ur roll gortoz evit ma vefent prest da vezañ selaouet.
 about-listen = Selaou
-about-listen-text = Gant an implijerien e vez kadarnaet ar c'hlipoù roet, evit gwiriekat ez eo bet lennet mat ar frazenn.
-about-is-it-valid = Reizh eo ar c'hlip?
-about-is-it-valid-text = Ur c'hlip mouezh a zo lakaet da "talvoudek" pa 'z eo bet lakaet "Ya" gant un implijer.
+about-listen-text = Gant an implijerien e vez kadarnaet ar c’hlipoù roet, evit gwiriekat ez eo bet lennet mat ar frazenn.
+about-is-it-valid = Reizh eo ar c’hlip?
+about-is-it-valid-text = Ur c’hlip mouezh a zo lakaet da "talvoudek" pa ’z eo bet lakaet "Ya" gant un implijer.
 about-yes-votes = ≥ 2 vouezh "Ya"
-about-yes-votes-text = Evit mont er spletad roadennoù Common Voice e rank ur c'hlip mouezh bezañ talvoudekaet gant daou implijer disheñvel.
+about-yes-votes-text = Evit mont er spletad roadennoù Common Voice e rank ur c’hlip mouezh bezañ talvoudekaet gant daou implijer disheñvel.
 about-no-votes = ≥ 2 vouezh "Ket"
-about-no-votes-text = Pa 'z eo argaset ur c'hlip mouezh e zistro er roll gortoz. Mard eo nac'het un eil wech eo kaset d'ar vered klipoù.
+about-no-votes-text = Pa ’z eo argaset ur c’hlip mouezh e zistro er roll gortoz. Mard eo nac’het un eil wech eo kaset d'ar vered klipoù.
 about-dataset-new = Spletad roadennoù Common Voice
-about-dataset-new-text = Spletad roadennoù Common Voice a endalc'h kantadoù a viliadoù standilhonoù mouezh a skoazell an diorroerien da sevel ostilhoù adanaoudegezh ar vouezh.
-about-clip-graveyard = Bered ar c'hlipoù
+about-dataset-new-text = Spletad roadennoù Common Voice a endalc’h kantadoù a viliadoù standilhonoù mouezh a skoazell an diorroerien da sevel ostilhoù adanaoudegezh ar vouezh.
+about-clip-graveyard = Bered ar c’hlipoù
 about-clip-graveyard-text = Bered ar c'hlipoù a zo ar c'hlipoù mouezh n'int ket bet asantet e spletad roadennoù Common Voice. Gallout a raer pellgargañ bered ar c'hlipoù evel ar spletad roadennoù.
 about-partners = Kevelerien
 about-become-a-partner = Dont da vezañ keveler
