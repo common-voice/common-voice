@@ -379,22 +379,37 @@ connect-gravatar = Bi Gravatarê ve girêde
 gravatar_not_found = Ti gravatarên bi emaîla te ve girêdayî nehate dîtin
 file_too_large = Dosyeya hatiye bijartin pir mezin e
 manage-subscriptions = Abonetiyan birêve bibe
+manage-email-subscriptions = Abonetiyên emaîlê birêve bibe
+email-already-used = Emaîl jixwe ji bo hesabeke din tê bikaranîn
 add-language = Zimên tevlî bike
+change-email-setings = Emaîla xwe ji "Sazkariyan > Nasnameya têketinê" biguherîne
 
 ## FAQ
 
+faq-title = Pirsên Pir Tên Pirsîn
 faq-what-cv-q = Common Voice çi ye?
 faq-why-important-q = Çima girîng e?
+faq-how-get-q = Ez çawa dikarin daneyên Common Voiceê daxînim?
+faq-when-release2-q = Hûn ê daneyên Common Voiceê yên zimanên din kengî belav bikin?
+faq-why-mission-q = Common Voice çima beşek ji mîsyona Mozillayê ye?
+faq-what-cv-and-deepspeech-q = Çi cudahî di navbera Common Voice û Deep Speechê heye?
+faq-is-goal-assistant-q = Armanca Common Voiceê avakirina asîstaneke dengî ye?
+faq-do-want-native-q = Ev ne zimanê min ê dayikê ye û ez bi devokî diaxivim, dîsa jî hûn dengê min dixwazin?
+faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
+faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
 faq-what-is-cv = Common Voice çi ye?
 faq-using-cv = Bikaranîna Common Voiceê
 
 ## ABOUT US
 
+how-does-it-work-title = Çawa dixebite?
 about-speak = Bipeyive
+about-listen-queue = Rêza Guhdarîkirinê
 about-listen = Guhdarî bike
 about-is-it-valid = Klîb derbasdar e?
 about-yes-votes = Rayên erê ≥ 2
 about-no-votes = Rayên na ≥ 2
+about-dataset-new = Komdaneya Common Voiceê
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
