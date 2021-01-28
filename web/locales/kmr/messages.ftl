@@ -246,6 +246,7 @@ email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistin
 ## Account Benefits
 
 benefits = Feydeyên wê
+rich-data = Bi rêya peydakirina hin daneyên anonîm ên demografîkî, daneyên ku te şandine dewlemendtir bike.
 
 ## What's public
 
@@ -337,6 +338,7 @@ settings = Sazkarî
 edit-profile = Profîlê sererast bike
 profile-create-success = Bi serkeftî profîl hat afirandin!
 profile-close = Bigire
+profile-explanation = Bi rêya çêkirina profîlê tu yê pêşveçûna xwe bibînî û ji bo rasttirbûna daneyên dengî jî ji me re bibî alîkar.
 thanks-for-account = Spas ji bo ku te hesabê xwe pejirand, îja ka em profîla te çêbikin.
 why-demographic = Ev çima girîng e?
 accept-privacy-title = Polîtîkaya Nihêniyê
