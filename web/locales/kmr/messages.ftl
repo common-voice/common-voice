@@ -457,20 +457,32 @@ review-submit-msg = Spas ji bo tomarkirinê!<lineBreak></lineBreak>Îja klîbên
 review-recording = Binirxîne
 review-rerecord = Ji nû ve tomar bike
 review-cancel = Şandinê betal bike
+review-keep-recordings = Dengan hilîne
+review-delete-recordings = Dengên min jê bibe
 
 ## Datasets Page
 
 language = Ziman
 # File size in gigabytes
 size = Mezinahî
+validated-hr-total = Tevahiya saetên piştrastkirî
+overall-hr-total = Bi giştî tevahiya saetan
 cv-license = Lîsans
 audio-format = Formata dengî
 number-of-voices = Hejmara dengan
+email-to-download = Ji bo daxistinê, emaîlê bikevê
 size-gigabyte = GB
 size-megabyte = MB
 download-language = { $language } daxîne
 validated-hours = Saetên piştrastkirî
 recorded-hours = Saetên tomarkirî
+subscribe = Bibe abone
+get-started-speech = Bi Nasîna Axaftinê Dest Pê Bike
+other-datasets = Komdaneyên din ên dengî
+feedback-q = Pêşniyara te heye?
+go-discourse = Here Discourseê
+go-languages-page = Here rûpela zimanan
+ready-to-validate = Tu amade yî hevokan piştrast bikî?
 more = Zêdetir
 close = Bigire
 download = Daxîne
@@ -478,9 +490,11 @@ dataset-version = Guherto
 
 ## Download Modal
 
+download-title = Daxistinê dest pê kir.
 download-form-email =
     .label = Emaîla xwe bikevê
     .value = Spas, Em ê di têkîliyê de bin.
+download-back = Vegere Komdaneyên Common Voiceê
 download-no = Na, Spas
 
 ## Contact Modal
@@ -529,6 +543,9 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> tomara dengî
        *[other] <bold>{ $count }</bold> tomarên dengî
     }
+record-cta = Dest bi tomarkirinê bike
+record-three-more-instruction = Sê heb man!
+record-again-instruction = Bijî!<recordIcon></recordIcon>Klîba xwe ya din tomar bike
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
 
