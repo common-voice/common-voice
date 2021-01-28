@@ -326,6 +326,9 @@ female = Jin
 # Gender
 other = Yên din
 why-profile-title = Çima profîlekê çêbikim?
+why-profile-text =
+    Bi peydakirina hin agahiyên derbarê xwe de, daneyên dengî yên ku te ji Common Voiceê re şandine ew ê rastbûna  Axaftinê kêrhatîtir bikin.
+    Motorên dengnasînê yên ku van daneyan bi kar tînin jî ew ê baştir bibin.
 dashboard = Destgeh
 build-profile = Profîlê çêbike
 avatar = Wêne
