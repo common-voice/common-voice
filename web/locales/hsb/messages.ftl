@@ -277,6 +277,7 @@ shortcut-record-toggle-label = Natočić/Zastajić
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klip znowa natočić
 request-language-text = Waša rěč hišće na Common Voice njeje?
+request-language-text-learn = Zhońće, kak móžeće to tu požadać!
 request-language-button = Rěč požadać
 
 ## ProjectStatus
