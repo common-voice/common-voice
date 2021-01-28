@@ -553,6 +553,7 @@ record-error-too-quiet = Tomar pir bêdeng bû.
 record-cancel = Dîsa-tomarkirinê betal bike
 record-three-more-instruction = Sê heb man!
 record-again-instruction = Bijî!<recordIcon></recordIcon>Klîba xwe ya din tomar bike
+record-last-instruction = <recordIcon></recordIcon> Ev a dawî ye!
 review-tooltip = Her ku tu pêşve çû van klîban binirxîne û dîsa tomar bike
 share-clip = Klîba xwe parve bike
 share-common-voice = Common Voiceê parve bike
@@ -570,6 +571,8 @@ listen-last-time-instruction = <playIcon></playIcon>Ma yek!
 speak-empty-state-cta = Beşdariyê li hevokan bike
 record-button-label = Dengê xwe tomar bike
 share-title-new = <bold>Alî me bike</bold> em dengên zêdetir bibînin
+keep-track-profile = Profîlekê çêbike û pê pêşveçûna xwe bişopîne
+login-to-get-started = Ji bo destpêkirinê, têkeve an jî tomar bibe
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
 
@@ -577,6 +580,9 @@ target-segment-learn-more = Zêdetir Bizane
 
 report = Rapor bike
 report-title = Raporekê bişîne
+report-offensive-language = Zimanê êrîşkar
+report-offensive-language-detail = Hevok xwedî zimanekî bêhurmet an jî êrîşkar e.
+report-grammar-or-spelling = Çewtiya rêzimanî / rastnivîsê
 report-other-comment =
     .placeholder = Şîrove
 success = Qediya!
@@ -612,10 +618,14 @@ everyone = Her kes
 contribution-activity = Tabloya beşdariyan
 recorded-clips = Dengên tomarkirî
 validated-clips = Dengên piştrastkirî
+overall-accuracy = Rastbûna Giştî
+set-visibility = Xuyabûna min saz bike
 show-ranking = Rêza min nîşan bide
 
 ## Custom Goals
 
+create-custom-goal = Hedefeke taybet çêbike
+goal-type = Tu dixwazî hedefeke çawa çêbikî?
 both-speak-and-listen = Her du jî
 both-speak-and-listen-long = Her du jî (peyivîn û guhdarîkirin)
 daily-goal = Hedefa rojane
@@ -624,6 +634,7 @@ easy-difficulty = Hêsan
 average-difficulty = Normal
 difficult-difficulty = Zor
 pro-difficulty = Profesyonel
+lose-goal-progress-warning = Heke tu hedefa xwe sererast bikî dibe ku tu pêşveçûna xwe ya heyî ji dest bidî.
 want-to-continue = Tu dixwazî berdewam bikî?
 finish-editing = Pêşî sererastkirinê biqedîne?
 lose-changes-warning = Heke tu aniha derkevî ew ê hemû guhertin wenda bibin
