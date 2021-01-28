@@ -427,6 +427,7 @@ glossary = Ferhengok
 localization = Wergerandin
 localization-explanation = Ev, pêvajoya wergerandin û adaptekirina naveroka me ji bo gelek zimanan e.
 sentence-collection = Berhevkirina Hevokan
+sentence-collection-explanation = Berhevkirina hevokên anonîmî an jî nivîsandina hevokên anonîm.
 
 ## Error pages
 
@@ -438,6 +439,21 @@ data-download-button = Daneyên Common Voiceê Daxîne
 data-download-yes = Erê
 data-download-deny = Na
 data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Bi nasîna axaftinê re dest pê bike</speechBlogLink>
+data-other-title = Komdaneyên din ên dengî…
+data-other-goto = Here malpera { $name }'ê
+data-other-download = Daneyan Daxîne
+data-bundle-button = Pakêta komdaneyê daxîne
+data-bundle-description = Daneyên Common Voiceê û hemû komdaneyên dengî yên li jorê.
+release-version = Guherto
+dataset-date = Tarîx
+license = Lîsans: <licenseLink>{ $license }</licenseLink>
+license-mixed = Tevlihev
+terms-agree = Qebûl dikim
+terms-disagree = Qebûl nakim
+review-aborted = Barkirin betal bû. Tu dixwazî tomarên xwe jê bibî?
+review-submit-title = Binirxîne û bişîne
+review-submit-msg = Spas ji bo tomarkirinê!<lineBreak></lineBreak>Îja klîbên li jêrê binirxîne û bişîne.
 
 ## Datasets Page
 
