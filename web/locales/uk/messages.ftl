@@ -284,6 +284,7 @@ shortcut-record-toggle-label = Записати/Зупинити
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перезаписати
 request-language-text = Не можете знайти свою мову в Common Voice?
+request-language-text-learn = Дізнайтеся, як додати її тут!
 request-language-button = Запит нової мови
 
 ## ProjectStatus
