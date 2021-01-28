@@ -632,10 +632,12 @@ cant-decide = Tu nikarî biryarê bidî?
 goal-interval-weekly = Heftane
 share-goal-type-speak = Axiftin
 share-goal-type-listen = Guhdarîkirin
+return-to-edit-goal = Çi dema ku te xwest hedefa xwe sererast bikî, vegere vir.
 share-goal = Hedefa min parve bike
 
 ## Profile Delete
 
+delete-q = Ma tu dixwazî tomarên te yên dengî jî bêne jêbirin, an jî bila ew li komdaneya Common Voiceê bimînin?
 keep = Bihêle
 remove = Rake
 profile-form-delete = Profîlê jê bibe
@@ -653,6 +655,7 @@ demo-welcome-subheader = Tu dixwazî zêdetir bizanî û beşdariyê di projeyê
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice, komdaneya dengî ya pir-zimanî û herî mezin a cîhanê ye her wiha ew ji her kesî re vekiriye.
 card-button-next = Pêşve
 card-button-back = Paşve
 demo-language-select-label = Zimanên gerokê
