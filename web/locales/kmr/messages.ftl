@@ -456,6 +456,7 @@ review-submit-title = Binirxîne û bişîne
 review-submit-msg = Spas ji bo tomarkirinê!<lineBreak></lineBreak>Îja klîbên li jêrê binirxîne û bişîne.
 review-recording = Binirxîne
 review-rerecord = Ji nû ve tomar bike
+review-cancel = Şandinê betal bike
 
 ## Datasets Page
 
@@ -496,9 +497,14 @@ contact-required = *hewce
 request-language-title = Daxwaza Zimên
 request-language-form-language =
     .label = Ziman
+request-language-success-title = Daxwaza zimên bi serkeftî hat şandin. Spas.
+select-language = Zimanekî hilbijêre...
+other-language = Zimanê din
 
 ## Languages Overview
 
+language-section-in-progress = Kar li ser tê kirin
+language-section-launched = Hatiye weşandin
 languages-show-more = Zêdetir bibîne
 languages-show-less = Kêmtir bibîne
 language-meter-in-progress = Pêşveçûn
@@ -523,9 +529,13 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> tomara dengî
        *[other] <bold>{ $count }</bold> tomarên dengî
     }
+target-segment-add-voice = Dengê xwe tevlî bike
+target-segment-learn-more = Zêdetir Bizane
 
 ## Reporting
 
+report = Rapor bike
+report-title = Raporekê bişîne
 report-other-comment =
     .placeholder = Şîrove
 success = Qediya!
@@ -564,9 +574,20 @@ validated-clips = Dengên piştrastkirî
 
 ## Custom Goals
 
+both-speak-and-listen = Her du jî
+both-speak-and-listen-long = Her du jî (peyivîn û guhdarîkirin)
+daily-goal = Hedefa rojane
 weekly-goal = Hedefa heftane
 easy-difficulty = Hêsan
+average-difficulty = Normal
+difficult-difficulty = Zor
+pro-difficulty = Profesyonel
 want-to-continue = Tu dixwazî berdewam bikî?
+finish-editing = Pêşî sererastkirinê biqedîne?
+lose-changes-warning = Heke tu aniha derkevî ew ê hemû guhertin wenda bibin
+build-custom-goal = Hedefeke nû diyar bike
+set-a-goal = Hedefekê diyar bike
+cant-decide = Tu nikarî biryarê bidî?
 goal-interval-weekly = Heftane
 share-goal-type-speak = Axiftin
 share-goal-type-listen = Guhdarîkirin
