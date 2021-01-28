@@ -480,12 +480,22 @@ dataset-version = Guherto
 download-form-email =
     .label = Emaîla xwe bikevê
     .value = Spas, Em ê di têkîliyê de bin.
+download-no = Na, Spas
 
 ## Contact Modal
 
+contact-title = Forma têkiliyê
+contact-form-name =
+    .label = Nav
+contact-form-message =
+    .label = Peyam
+contact-required = *hewce
 
 ## Request Language Modal
 
+request-language-title = Daxwaza Zimên
+request-language-form-language =
+    .label = Ziman
 
 ## Languages Overview
 
