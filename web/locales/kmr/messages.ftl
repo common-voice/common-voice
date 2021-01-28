@@ -424,6 +424,9 @@ mycroft-subtitle = Hişê Xwedestî (Artificial intelligence)
 ## Glossary
 
 glossary = Ferhengok
+localization = Wergerandin
+localization-explanation = Ev, pêvajoya wergerandin û adaptekirina naveroka me ji bo gelek zimanan e.
+sentence-collection = Berhevkirina Hevokan
 
 ## Error pages
 
