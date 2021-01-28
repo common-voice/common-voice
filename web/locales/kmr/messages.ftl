@@ -246,7 +246,9 @@ email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistin
 ## Account Benefits
 
 benefits = Feydeyên wê
-rich-data = Bi rêya peydakirina hin daneyên anonîm ên demografîkî, daneyên ku te şandine dewlemendtir bike.
+rich-data = Bi rêya peydakirina hin daneyên anonîm ên demografîkî, daneyên ku te şandine dewlemendtir bike. Berî ku dane bi kesên din re bên parvekirin, em hemû daneyên demografîkî dikin anonîm. (nasnameyên şexsî jê radikin)
+improve-audio = Agahahiyên profîlê, daneyên dengî yên di rahênana nasîna axaftinê de tên bi kar anîn, çêtir dike.
+keep-track = Pêşveçûn û amarên xwe yên ji zimanên din jî bişopîne.
 
 ## What's public
 
