@@ -612,6 +612,7 @@ everyone = Her kes
 contribution-activity = Tabloya beşdariyan
 recorded-clips = Dengên tomarkirî
 validated-clips = Dengên piştrastkirî
+show-ranking = Rêza min nîşan bide
 
 ## Custom Goals
 
@@ -629,9 +630,22 @@ lose-changes-warning = Heke tu aniha derkevî ew ê hemû guhertin wenda bibin
 build-custom-goal = Hedefeke nû diyar bike
 set-a-goal = Hedefekê diyar bike
 cant-decide = Tu nikarî biryarê bidî?
+how-many-per-day = Bijî! Rojane çend klîb?
+how-many-a-week = Bijî! Heftane çend klîb?
+which-goal-type = Tu dixwazî biaxivî, guhdarî bikî an her du jî?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } klîba dengî
+       *[other] { $count } klîbên dengî
+    }
+help-share-goal = Alî me bike em dengên zêdetir bibînin, hedefa xwe parve bike
+confirm-goal = Hedefê bipejirîne
 goal-interval-weekly = Heftane
 share-goal-type-speak = Axiftin
 share-goal-type-listen = Guhdarîkirin
+weekly-goal-created = Hedefa te ya heftane hate afirandin
+daily-goal-created = Hedefa te ya rojane hate afirandin
+track-progress = Pêşveçûnan li vir û li ser rûpela amaran bişopîne.
 return-to-edit-goal = Çi dema ku te xwest hedefa xwe sererast bikî, vegere vir.
 share-goal = Hedefa min parve bike
 
@@ -640,6 +654,7 @@ share-goal = Hedefa min parve bike
 delete-q = Ma tu dixwazî tomarên te yên dengî jî bêne jêbirin, an jî bila ew li komdaneya Common Voiceê bimînin?
 keep = Bihêle
 remove = Rake
+keep-info = Tomarên te yên dengî yên anonîm ew ê li komdaneya Common Voiceê bimînin. Piştî ku te profîla xwe jê bir, tu yê nikaribî daxwaza rakirina dengên xwe ji komdaneyê, bikî.
 profile-form-delete = Profîlê jê bibe
 
 ## Landing
