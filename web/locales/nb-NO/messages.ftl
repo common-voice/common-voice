@@ -275,6 +275,7 @@ shortcut-record-toggle-label = Ta opp/Stopp
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spill inn lydklipp om igjen
 request-language-text = Ser du ikke språket ditt på Common Voice ennå?
+request-language-text-learn = Les hvordan du kan be om det her!
 request-language-button = Send en forespørsel om et nytt språk
 
 ## ProjectStatus
