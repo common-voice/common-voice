@@ -277,6 +277,7 @@ shortcut-record-toggle-label = Nagraś/Zastajiś
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klip znowego nagraś
 request-language-text = Waša rěc hyšći njejo na Common Voice?
+request-language-text-learn = Zgóńśo, kak móžośo to how póžedaś!
 request-language-button = Rěc pominaś
 
 ## ProjectStatus
