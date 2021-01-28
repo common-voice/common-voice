@@ -410,11 +410,16 @@ about-is-it-valid = Klîb derbasdar e?
 about-yes-votes = Rayên erê ≥ 2
 about-no-votes = Rayên na ≥ 2
 about-dataset-new = Komdaneya Common Voiceê
+about-clip-graveyard = Goristana Klîban
+about-partners = Hevkar
+about-become-a-partner = Bibe hevkarê me
+about-get-involved = Tevlî me bibin
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
 about-nav-get-involved = Tev lê bibin
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Hişê Xwedestî (Artificial intelligence)
 
 ## Glossary
 
