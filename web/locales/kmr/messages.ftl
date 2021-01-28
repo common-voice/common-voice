@@ -454,6 +454,8 @@ terms-disagree = Qebûl nakim
 review-aborted = Barkirin betal bû. Tu dixwazî tomarên xwe jê bibî?
 review-submit-title = Binirxîne û bişîne
 review-submit-msg = Spas ji bo tomarkirinê!<lineBreak></lineBreak>Îja klîbên li jêrê binirxîne û bişîne.
+review-recording = Binirxîne
+review-rerecord = Ji nû ve tomar bike
 
 ## Datasets Page
 
