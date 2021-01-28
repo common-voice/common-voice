@@ -397,11 +397,16 @@ faq-is-goal-assistant-q = Armanca Common Voiceê avakirina asîstaneke dengî ye
 faq-do-want-native-q = Ev ne zimanê min ê dayikê ye û ez bi devokî diaxivim, dîsa jî hûn dengê min dixwazin?
 faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
 faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
+faq-why-account-q = Çima divê ez hesabekî vekim?
+faq-is-account-public-q = Ew ê agahiyên hesabê min ji her kesî re vekirîbin?
 faq-what-is-cv = Common Voice çi ye?
 faq-using-cv = Bikaranîna Common Voiceê
+faq-search-for-answers =
+    .label = Di bersivan de bigere
 
 ## ABOUT US
 
+about-title = Çima Common Voice?
 how-does-it-work-title = Çawa dixebite?
 about-speak = Bipeyive
 about-listen-queue = Rêza Guhdarîkirinê
@@ -583,6 +588,10 @@ report-title = Raporekê bişîne
 report-offensive-language = Zimanê êrîşkar
 report-offensive-language-detail = Hevok xwedî zimanekî bêhurmet an jî êrîşkar e.
 report-grammar-or-spelling = Çewtiya rêzimanî / rastnivîsê
+report-grammar-or-spelling-detail = Di hevokê de çewtiya rêzimanî an jî çewtiya rastnivîsê heye.
+report-different-language = Zimanê cuda
+report-difficult-pronounce = Bilêvkirina wê zehmet e
+report-offensive-speech = Axaftina êrîşkar
 report-other-comment =
     .placeholder = Şîrove
 success = Qediya!
