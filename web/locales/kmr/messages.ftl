@@ -557,6 +557,16 @@ review-tooltip = Her ku tu pêşve çû van klîban binirxîne û dîsa tomar bi
 share-clip = Klîba xwe parve bike
 share-common-voice = Common Voiceê parve bike
 review-instruction = Klîban binirxîne û heke hewce be ji nû ve tomar bike
+record-submit-tooltip = { $actionType } dema ku amade bû bişîne
+clips-uploaded = Klîbên Barkirî
+record-abort-title = Pêşî tomarkirinê biqedîne?
+record-abort-text = Heke tu aniha jê derkevî ew ê pêşveçûnên te neyên tomarkirin
+record-abort-submit = Klîban bişîne
+record-abort-continue = Tomarkirinê biqedîne
+record-abort-delete = Klîban jê bibe û derkeve
+listen-again-instruction = Karekî pir baş!<playIcon></playIcon> Dema tu amade bû dîsa guhdar bike
+listen-3rd-time-instruction = 2 jê temam, dewam bike!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Ma yek!
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
 
