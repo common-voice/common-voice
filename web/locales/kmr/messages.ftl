@@ -567,6 +567,9 @@ record-abort-delete = Klîban jê bibe û derkeve
 listen-again-instruction = Karekî pir baş!<playIcon></playIcon> Dema tu amade bû dîsa guhdar bike
 listen-3rd-time-instruction = 2 jê temam, dewam bike!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ma yek!
+speak-empty-state-cta = Beşdariyê li hevokan bike
+record-button-label = Dengê xwe tomar bike
+share-title-new = <bold>Alî me bike</bold> em dengên zêdetir bibînin
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
 
@@ -665,3 +668,4 @@ demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Destgehên şexsî derbarê pêşveçûna te û pêşveçûna civakê de te agahdar dike.
