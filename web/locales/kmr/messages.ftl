@@ -372,8 +372,13 @@ delete-voice-clip = an jî  klîba dengê jê bibe
 ready-to-upload = Lê bar bike
 recreate-voice = Dengê xwe dîsa tomar bike
 cancel-avatar-clip-recording = Betal bike
+about-avatar-clip-recording = Klîbeke dengî biafirîne û bike parçeyek ji profîla xwe. Dema ku hin kes bên profîla te ew ê karibin li vê klîbê guhdarî bikin.
 browse-file-title = Dosyeya wêneyê bar bike
 browse-file = Biherikîne û bihêle an jî <browseWrap>Bibîne</browseWrap>
+connect-gravatar = Bi Gravatarê ve girêde
+gravatar_not_found = Ti gravatarên bi emaîla te ve girêdayî nehate dîtin
+file_too_large = Dosyeya hatiye bijartin pir mezin e
+manage-subscriptions = Abonetiyan birêve bibe
 add-language = Zimên tevlî bike
 
 ## FAQ
