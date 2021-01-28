@@ -544,8 +544,19 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> tomarên dengî
     }
 record-cta = Dest bi tomarkirinê bike
+record-platform-not-supported = Mixabin, platforma te niha nayê destekkirin.
+record-must-allow-microphone = Divê tu destûra gihînê bidî mîkrofonê.
+record-no-mic-found = Mîkrofon nehate dîtin.
+record-error-too-short = Tomar pir kin e.
+record-error-too-long = Tomar pir dirêj e.
+record-error-too-quiet = Tomar pir bêdeng bû.
+record-cancel = Dîsa-tomarkirinê betal bike
 record-three-more-instruction = Sê heb man!
 record-again-instruction = Bijî!<recordIcon></recordIcon>Klîba xwe ya din tomar bike
+review-tooltip = Her ku tu pêşve çû van klîban binirxîne û dîsa tomar bike
+share-clip = Klîba xwe parve bike
+share-common-voice = Common Voiceê parve bike
+review-instruction = Klîban binirxîne û heke hewce be ji nû ve tomar bike
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
 
