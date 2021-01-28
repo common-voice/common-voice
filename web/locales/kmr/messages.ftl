@@ -649,6 +649,7 @@ read-more-about = Li ser rûpela me ya "Derbar"ê zêdetir bixwîne
 
 demo-get-started = Ka em dest pê bikin
 demo-welcome = Tu bi xêr hatî Common Voiceê
+demo-welcome-subheader = Tu dixwazî zêdetir bizanî û beşdariyê di projeyê de bikî?
 
 ## Demo Datasets
 
@@ -661,9 +662,14 @@ demo-account = Hesab
 
 ## Demo Account
 
+demo-account-card-header = Ji bo beşdarbûnê hewce nake tu hesabekî vekî lê vekirina hesêb baştir e.
+demo-account-enter-email =
+    .label = Ji bo stendina girêdana klîbê, emaîla xwe binivîse
+demo-account-sign-up = Girêdana klîbê bişîne
 
 ## Demo Contribute
 
+demo-contribute-card-header = Tu amade yî dengê xwe tevlî bikî an jî yên heyî guhdarî bikî?
 demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 
 ## Demo Dashboard
