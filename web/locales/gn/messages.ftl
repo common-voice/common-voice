@@ -865,6 +865,8 @@ demo-welcome = Eg̃uahẽporã Common Voice-pe
 
 card-button-next = Upeigua
 card-button-back = Tapykue
+demo-language-select-label = Eyvykói ñe’ẽnguéra
+demo-eofy-header = Ary paha 2019 ñeguenohẽ
 demo-account = Mba’ete
 
 ## Demo Account
