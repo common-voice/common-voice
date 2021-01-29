@@ -271,6 +271,7 @@ shortcut-record-toggle-label = Aufnahme/Abbruch
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Aufzeichnung wiederholen
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
+request-language-text-learn = So können Sie weitere Sprachen anfordern!
 request-language-button = Anfrage schicken
 
 ## ProjectStatus
