@@ -268,6 +268,7 @@ shortcut-record-toggle-label = 录音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新录制片段
 request-language-text = 没在 Common Voice 看到您的语言吗？
+request-language-text-learn = 在此处了解如何请求新语言
 request-language-button = 请求新语言
 
 ## ProjectStatus
