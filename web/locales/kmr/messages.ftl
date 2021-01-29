@@ -589,6 +589,7 @@ target-segment-learn-more = Zêdetir Bizane
 
 report = Rapor bike
 report-title = Raporekê bişîne
+report-ask = Çi pirsgirêkên vê hevokê hene?
 report-offensive-language = Zimanê êrîşkar
 report-offensive-language-detail = Hevok xwedî zimanekî bêhurmet an jî êrîşkar e.
 report-grammar-or-spelling = Çewtiya rêzimanî / rastnivîsê
