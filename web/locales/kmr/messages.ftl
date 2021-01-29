@@ -628,6 +628,9 @@ validations =
 ## Dashboard
 
 your-languages = Zimanên te
+toward-next-goal = Ji hedefa pêş re ma
+goal-reached = Gihîşte hedefê
+clips-you-recorded = Klîbên ku te tomar kirine
 stats = Amar
 awards = Xelat
 you = Tu
