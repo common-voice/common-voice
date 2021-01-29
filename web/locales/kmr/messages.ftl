@@ -723,6 +723,7 @@ demo-account = Hesab
 ## Demo Account
 
 demo-account-card-header = Ji bo beşdarbûnê hewce nake tu hesabekî vekî lê vekirina hesêb baştir e.
+demo-account-card-body = Em li hêla rastê, fêdeyan diyar û eşkere dikin ku kîjan agahiyan bi raya giştî re parve dikin. Ji bo ku li ser cîhaza xwe dest bi bikaranîna hesabekî Common Voiceê bikî, girêdanên jêrîn bi kar bîne.
 demo-account-enter-email =
     .label = Ji bo stendina girêdana klîbê, emaîla xwe binivîse
 demo-account-sign-up = Girêdana klîbê bişîne
