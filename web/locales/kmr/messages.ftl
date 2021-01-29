@@ -693,6 +693,7 @@ delete-q = Ma tu dixwazî tomarên te yên dengî jî bêne jêbirin, an jî bil
 keep = Bihêle
 remove = Rake
 keep-info = Tomarên te yên dengî yên anonîm ew ê li komdaneya Common Voiceê bimînin. Piştî ku te profîla xwe jê bir, tu yê nikaribî daxwaza rakirina dengên xwe ji komdaneyê, bikî.
+why-delete-recordings = Tomarên Common Voiceê ji hêla akademisyen, karsaziyên piçûk, û meraqdarên dengnasînê ve têne bikaranîn da ku alîkariya rahênan û mezinbûna çavkaniyên anonîm ên wekî modelên dengî, bikin.
 profile-form-delete = Profîlê jê bibe
 
 ## Landing
@@ -731,6 +732,7 @@ demo-account-sign-up = Girêdana klîbê bişîne
 ## Demo Contribute
 
 demo-contribute-card-header = Tu amade yî dengê xwe tevlî bikî an jî yên heyî guhdarî bikî?
+demo-contribute-card-body = Niha, tu der barê Common Voiceê de gelek tiştan dizanî, ka tu çima wê naceribînî? Ji bo xwendina hevokan bi dengekî bilind, li îkona mîkrofonê bitikîne. <br/><br/>Heke tu bixwazî dengên kesên din ên heyî binirxînî, li îkona lêde/playê bitikîne. Piştre kontrol bike bê ka ew hevokên tu guhdarî dikî û yên li ekranê nivîsandî li hev tên yan na.
 demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 
 ## Demo Dashboard
