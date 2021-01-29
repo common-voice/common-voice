@@ -630,20 +630,26 @@ validations =
 your-languages = Zimanên te
 toward-next-goal = Ji hedefa pêş re ma
 goal-reached = Gihîşte hedefê
-clips-you-recorded = Klîbên ku te tomar kirine
+clips-you-recorded = Dengên ku te tomar kirine
+clips-you-validated = Dengên ku te piştrast kirine
+todays-recorded-progress = Pêşveçûna îro ya dengên ku li Common Voiceê hatine tomarkirin
+todays-validated-progress = Pêşveçûna îro ya dengên ku di Common Voiceê de hatine piştrastkirin
 stats = Amar
 awards = Xelat
 you = Tu
 everyone = Her kes
 contribution-activity = Tabloya beşdariyan
+top-contributors = Beşdarên Sereke
 recorded-clips = Dengên tomarkirî
 validated-clips = Dengên piştrastkirî
+total-approved = Tevahiya dengên piştrastkirî
 overall-accuracy = Rastbûna Giştî
 set-visibility = Xuyabûna min saz bike
 show-ranking = Rêza min nîşan bide
 
 ## Custom Goals
 
+get-started-goals = Dest bi hedefa xwe bike
 create-custom-goal = Hedefeke taybet çêbike
 goal-type = Tu dixwazî hedefeke çawa çêbikî?
 both-speak-and-listen = Her du jî
@@ -674,6 +680,7 @@ confirm-goal = Hedefê bipejirîne
 goal-interval-weekly = Heftane
 share-goal-type-speak = Axiftin
 share-goal-type-listen = Guhdarîkirin
+share-goal-type-both = Peyivîn û Guhdarîkirin
 weekly-goal-created = Hedefa te ya heftane hate afirandin
 daily-goal-created = Hedefa te ya rojane hate afirandin
 track-progress = Pêşveçûnan li vir û li ser rûpela amaran bişopîne.
@@ -691,6 +698,7 @@ profile-form-delete = Profîlê jê bibe
 ## Landing
 
 welcome-staff = Tîma { $company } hûn bi xêr hatin
+login-company = Bi emaîla { $company } re têkeve / tomar bibe
 read-more-about = Li ser rûpela me ya "Derbar"ê zêdetir bixwîne
 
 ## DemoLayout
