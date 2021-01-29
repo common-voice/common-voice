@@ -1,7 +1,7 @@
 FROM node:10-stretch
 
 ARG MAINTAINER="Alberto del Barrio <alberto@mozilla.com>"
-ARG BRANCH="master"
+ARG BRANCH="main"
 ARG COMMIT="local-build"
 ARG TAG=""
 ARG REPO="local"
