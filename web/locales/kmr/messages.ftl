@@ -712,6 +712,7 @@ demo-welcome-subheader = Tu dixwazî zêdetir bizanî û beşdariyê di projeyê
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice, komdaneya dengî ya pir-zimanî û herî mezin a cîhanê ye her wiha ew ji her kesî re vekiriye.
+demo-language-select-card-body = Bi saya beşdariyên zêdetir ji 259 hezar kesan ên di 50 zimanî de, ev dane ew ê ji bo rahênana sepanên xwedî-axaftin bêne bikaranîn da ku ew baştir bersiva dengê mirovan bidin.
 card-button-next = Pêşve
 card-button-back = Paşve
 demo-language-select-label = Zimanên gerokê
