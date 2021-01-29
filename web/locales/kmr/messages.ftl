@@ -289,6 +289,7 @@ shortcut-record-toggle-label = Tomar bike/Rawestîne
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Dîsa tomar bike
 request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?
+request-language-text-learn = Bizane bê tu çawa dikarî li vir daxwaz bikî!
 request-language-button = Zimanekî bixwaze
 
 ## ProjectStatus
@@ -397,6 +398,8 @@ faq-is-goal-assistant-q = Armanca Common Voiceê avakirina asîstaneke dengî ye
 faq-do-want-native-q = Ev ne zimanê min ê dayikê ye û ez bi devokî diaxivim, dîsa jî hûn dengê min dixwazin?
 faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
 faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
+faq-how-calc-hours-q = Common Voice saetan çawa hesab dike?
+faq-where-src-from-2-q = Nivîsên çavkanî ji ku derê tên?
 faq-why-account-q = Çima divê ez hesabekî vekim?
 faq-is-account-public-q = Ew ê agahiyên hesabê min ji her kesî re vekirîbin?
 faq-what-is-cv = Common Voice çi ye?
@@ -436,6 +439,7 @@ sentence-collection-explanation = Berhevkirina hevokên anonîmî an jî nivîsa
 
 ## Error pages
 
+error-title-503 = Ji nişka ve pirsgirêkek teknîkî derket
 error-code = Çewtî { $code }
 
 ## Data
@@ -481,6 +485,7 @@ size-megabyte = MB
 download-language = { $language } daxîne
 validated-hours = Saetên piştrastkirî
 recorded-hours = Saetên tomarkirî
+whats-inside = Di komdaneya Common Voiceê de çi hene?
 subscribe = Bibe abone
 get-started-speech = Bi Nasîna Axaftinê Dest Pê Bike
 other-datasets = Komdaneyên din ên dengî
