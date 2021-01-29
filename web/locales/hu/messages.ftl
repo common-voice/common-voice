@@ -277,6 +277,7 @@ shortcut-record-toggle-label = Rözgzítés/leállítás
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klip újrarögzítése
 request-language-text = Nem látja az anyanyelvét a Common Voice-on?
+request-language-text-learn = Tudja meg, hogyan kérheti itt.
 request-language-button = Nyelv kérése
 
 ## ProjectStatus
