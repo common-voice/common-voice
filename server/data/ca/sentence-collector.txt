@@ -3202,7 +3202,6 @@ Quines tasques tinc pendents?
 Quines tasques tinc per fer?
 Quins contes saps?
 Quins grups t'agraden?
-Què cal fer?
 Què em demanes que faci?
 Què era, doncs?
 Què fa el gat?
@@ -3399,7 +3398,6 @@ Tan bon punt van seure.
 Tan caragolat anava d'espinada, tan arrugat de mans i rostre!
 Tan sols a les cases més pudients li donaven alguns centimets.
 Tanca el llum.
-Tanca els llums.
 Tanca la bombeta.
 Tanca les bombetes.
 Tancarem bé les puntes.

@@ -13786,6 +13786,7 @@ Hitherto I have gone on vague lines.
 Ho, you know you can't, so why make believe?
 Hoardings are panels used to display outdoor advertisements
 Hoist, in lieu of flags, left pennants.
+Hold my beer.
 Hold on for just a second.
 Hold on to me, Alex, dear!
 Hold that thought.
@@ -15451,6 +15452,7 @@ I don't suppose he has spoken to a girl for years.
 I don't suppose he'll ever take another wicket.
 I don't suppose she noticed it at all, the little fathead.
 I don't take to it.
+I don't talk too fast for my children!
 I don't think I can tell this one.
 I don't think I quite understand.
 I don't think I've ever met an older friend.
@@ -26483,6 +26485,7 @@ Pour coffee.
 Poutine is a dish consisting of fries, unripened cheese curds, and gravy.
 Practically I know no history.
 Practically not at all.
+Practice what you preach.
 Prams and pushchairs can be accepted on the bus only when folded
 Prawn cocktail used to be a very popular starter
 Pray God your police come soon.
@@ -34937,6 +34940,7 @@ There's a predicament for a man and an uncle!
 There's a present for you in the storm door
 There's a signpost where you turn off.
 There's a strong division between advice and influence.
+There's a time capsule she has put under her garden.
 There's a very bad sort of fever about him.
 There's an historic crime in your own country.
 There's an interesting event on at uni next week.
@@ -36729,6 +36733,8 @@ Tony cried out, looking up for an instant.
 Tony ends this with a groan.
 Tony shakes his head; I don't know.
 Too bad you're a married man.
+Too easy.
+Too easy?
 Too elaborate, Jeeves — that is what you are frequently prone to become.
 Too good not to print!
 Too many N and F Words, ha?
@@ -37171,6 +37177,7 @@ We all three went home together next day.
 We allowed unnecessary room.
 We already drove past the rural areas.
 We also called the government, but they won’t, out or they get discredited.
+We also know where you have been.
 We always encourage communication with your followers.
 We always hear of him at some watering-place or other.
 We always try to take our customers’ likes and dislikes into account.
@@ -37547,6 +37554,9 @@ We know it better than to trust to it.
 We know nothing of him.
 We know now how he did it.
 We know something now.
+We know what you are.
+We know where you are.
+We know who you are.
 We know you wanted this show, but we cannot do so for legal reasons.
 We laughed outright at the petted things; we did despise them!
 We learned but just in time.
@@ -40918,6 +40928,7 @@ You can't surely go back on all this.'
 You can't think how kind he is to Pa.
 You can't think what good companions they make.
 You can't; there is no cure.
+You cannot do this.
 You cannot explain to cabmen, sir.
 You cannot follow in time.
 You cannot help me.
