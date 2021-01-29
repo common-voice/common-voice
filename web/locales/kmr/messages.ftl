@@ -580,6 +580,8 @@ record-button-label = Dengê xwe tomar bike
 share-title-new = <bold>Alî me bike</bold> em dengên zêdetir bibînin
 keep-track-profile = Profîlekê çêbike û pê pêşveçûna xwe bişopîne
 login-to-get-started = Ji bo destpêkirinê, têkeve an jî tomar bibe
+target-segment-first-card = Tu beşdariyê di beşa hedefa me ya pêşî de dikî.
+target-segment-generic-card = Tu beşdariyê di beşa hedefekê de dikî.
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
 
