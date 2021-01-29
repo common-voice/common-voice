@@ -519,7 +519,6 @@ dataset-date = Mba’ekuaarã
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
 data-download-singleword-title = Emboguejy Ñe’ẽryapu Pehẽ’i
-data-download-singleword-callout = Kóvaniko ñe’ẽryapu pehẽ ojeporúva oñemombareteve hag̃ua mba’éichapa tembiporu oikũmbykuaa peteĩteĩ ñe’ẽ pehẽ michíva, héẽ/nahániri kuaapy ha mba’e oiporúva wakeword Firefox Voice-pe.
 review-terms = Reiporúramo Common Voice, remoneĩ ore <termsLink>Jeporu Mbojojaha</termsLink> ha avei ore <privacyLink>Kuaapyñemi rehegua Mbojojaha</privacyLink>
 terms-agree = Amoneĩ avei
 terms-disagree = Namoneĩri
@@ -859,6 +858,8 @@ read-more-about = Eikuaave kóva rehe ore Mba’e rehegua roguépe
 
 ## DemoLayout
 
+demo-get-started = Ñañepyrũkatu
+demo-welcome = Eg̃uahẽporã Common Voice-pe
 
 ## Demo Datasets
 
