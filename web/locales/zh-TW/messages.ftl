@@ -270,6 +270,7 @@ shortcut-record-toggle-label = 錄音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製片段
 request-language-text = 沒在 Common Voice 看到您的語言嗎？
+request-language-text-learn = 了解如何在此要求！
 request-language-button = 要求新語言
 
 ## ProjectStatus
