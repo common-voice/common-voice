@@ -274,6 +274,7 @@ shortcut-record-toggle-label = Nagraj/zatrzymaj
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nagraj ponownie
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
+request-language-text-learn = Dowiedz się, jak go zaproponować tutaj!
 request-language-button = Zaproponuj dodanie języka
 
 ## ProjectStatus
