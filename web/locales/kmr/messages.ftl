@@ -417,6 +417,7 @@ faq-search-for-answers =
 about-title = Çima Common Voice?
 about-subtitle = Common Voice beşek ji insiyatîva Mozillayê ye û ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin. Ji bilî komdaneya Common Voiceê em motoreke nasîna axaftinê ya çavkanî vekirî jî bi navê Deep Speech ava dikin.
 how-does-it-work-title = Çawa dixebite?
+how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin. Dengê xwe bibexşîne, klîbên dengî yên kesên din kontrol bike, komdaneyê ji bo her kesî çêtir bike.
 about-speak = Bipeyive
 about-listen-queue = Rêza Guhdarîkirinê
 about-listen = Guhdarî bike
