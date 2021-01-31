@@ -408,12 +408,14 @@ faq-how-privacy-q = Hûn çawa anonîmtî û nihêniya kesên ku dengên xwe bex
 faq-what-determine-identity-q = Nasnameya axiverên komdaneya Common Voiceê "nikare bê diyarkirin", ev tê çi wate yê?
 faq-what-is-cv = Common Voice çi ye?
 faq-using-cv = Bikaranîna Common Voiceê
+faq-description = Common Voice beşek ji insiyatîva Mozillayê ye û ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin.
 faq-search-for-answers =
     .label = Di bersivan de bigere
 
 ## ABOUT US
 
 about-title = Çima Common Voice?
+about-subtitle = Common Voice beşek ji insiyatîva Mozillayê ye û ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin. Ji bilî komdaneya Common Voiceê em motoreke nasîna axaftinê ya çavkanî vekirî jî bi navê Deep Speech ava dikin.
 how-does-it-work-title = Çawa dixebite?
 about-speak = Bipeyive
 about-listen-queue = Rêza Guhdarîkirinê
