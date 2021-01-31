@@ -398,6 +398,7 @@ faq-is-goal-assistant-q = Armanca Common Voiceê avakirina asîstaneke dengî ye
 faq-do-want-native-q = Ev ne zimanê min ê dayikê ye û ez bi devokî diaxivim, dîsa jî hûn dengê min dixwazin?
 faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
 faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
+faq-why-10k-hours-q = 10,000 saetên piştrastkirî yên klîbên dengî çima ji bo her zimanekî hedef e?
 faq-how-calc-hours-q = Common Voice saetan çawa hesab dike?
 faq-where-src-from-2-q = Nivîsên çavkanî ji ku derê tên?
 faq-why-account-q = Çima divê ez hesabekî vekim?
