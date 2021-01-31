@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Ee, aika min da saƙonnin yanar gizo. Ina son in kasance ina samun bayanai a kan aikin Common Voice
-stayintouch = Mu a Mozilla muna gina al'umma da suke da fasahar murya. Muna so mu ci gaba da tuntuba tare da sabunta sababbin bayanai kuma mu ji daga gareku kan yadda kuke amfani da  wannan bayanan.
+yes-receive-emails = Eh, aika min da saƙonnin yanar gizo. Ina son in kasance da samun bayanai a kan aikin Common Voice
+stayintouch = Mu a Mozilla muna gina al'umma da suke da fasahar murya. Muna so mu ci gaba da tuntuɓa tare da sabunta sababbin bayanai kuma mu ji daga gareku kan yadda kuke amfani da  wannan bayanan.
 privacy-info = Mun yi alkawari za mu kula da bayananku cikin kulawa. Karanta cikakken bayanai kan yadda muke <privacyLink>Kula da Sirrinku</privacyLink>
 return-to-cv = Koma zuwa ga Gama-garin Muryuka
 email-input =
@@ -9,7 +9,6 @@ email-input =
 submit-form-action = Tura
 loading = Yana budewa...
 email-opt-in-info = Ina son karɓar saƙonnin email kan tunatarwa akan abinda na ke son cimmawa, ko ci gabana ko kuma labarai a kan Common Voice
-email-opt-in-privacy = Ta hanyar shigar da kanka don samun saƙonnin yanar gizo ka yadda cewa Mozilla suna kula da bayanai kamar yada suka bayyana a <privacyLink> Tsarin Gudanar da sirrinsu <privacyLink>
 indicates-required = * Yana nuna cewa wajibi ne ka cike gurbin
 not-available-abbreviation = Babu Bayani
 
@@ -60,7 +59,6 @@ ga-IE = Yaren Irish
 gl = Yaran Galician
 ha = Hausa
 he = Ibrananci
-hi-IN = Indiyanci
 hr = Yaren Kuroshiya
 hsb = Yaren Sobiya, Na sama
 hu = Hungoriyanci
@@ -75,7 +73,6 @@ kab = Yaren Kabyle
 kk = Yaren Kazakh
 ko = Koriyanci
 kpv = Yaren Komi-Zyrian
-ku = Yaren Kurdish
 kw = Yaren Cornish
 ky = Yaren Kyrgyz
 lij = Yaren Liguriya
@@ -95,7 +92,6 @@ nn-NO = Yaren Norwegian Nynorsk
 oc = Yaren Occitan
 or = Yaran Odiya
 pl = Yaran Folish
-pt-BR = Yaren Portuguese (Mazauna Brazil)
 rm-sursilv = Yaren Romawa Sursilbaniya
 ro = Romaniyanci
 ru = Rashanci
@@ -196,7 +192,6 @@ x-years-short =
        *[other] Shekaru { $count }
     }
 help-make-dataset = Taimaka mana wajen gina dataset mai inganci, kuma kyauta ga jama'a.
-profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
 sign-up-account = Yi rajista.
 email-subscription-title = Yi rajista domin samin saƙonnin email.
 
@@ -267,8 +262,6 @@ profile-form-accent =
     .label = Karin harshe
 profile-form-age =
     .label = Shekaru
-profile-form-gender =
-    .label = Jinsi
 leaderboard-visibility =
     .label = Nuna allon jagora.
 hidden = An ɓoye
@@ -301,7 +294,6 @@ download-profile = Sakko da Bayanaina
 contribution-experience = Ƙwarewa kan Taimako
 off = Kashe
 on = Kunna
-add-avatar-title = Ɗora hoto akan profile ɗinka.
 browse-file-title = Ɗora hoto.
 browse-file = Jawo ka saka ko ka <browseWrap>Dakko</browseWrap>
 connect-gravatar = Haɗa tare da Gravatar
@@ -320,7 +312,6 @@ faq-what-cv-q = Me ne ne Common Voice?
 faq-what-cv-a = Fasahar Magana wani juyin-juya hali ne da zai sauya yadda muke ma'amala da na'ura, amma kimiyyar da muke da su yanzu suna da tsada kuma na neman kuɗi ne. Common voice na daga cikin Ayyukan sa kai na Mozilla don samar da fasahar murya mai inganci kuma sauƙaƙƙa ga kowa, Common Voice wani babban ma'ajiya ta tattara muryoyin da aka ba da gudun mowa kuma a ba ka damar horar da vurya ko sawa cikin manhajarka da kowanne yare
 faq-why-important-q = Me ya sa yake da muhimmanci?
 faq-how-get-q = Ta yaya zan iya samun bayanan Common Voice ?
-faq-when-release-q = Yaushe zaku saki bayanan Common Voice a sauran harsuna?
 faq-why-mission-q = Me yasa Common Voice yake cikin burikan Mozilla?
 faq-why-mission-a = Mozilla ta jajurce don tabbatar da yanar gizo buɗaɗɗiya kuma sassauƙa ga kowa da kowa. Don haka muna buƙatar ƙarfafar masu ƙirƙirar fasahar yanar gizo ta hanyar ayyuka irin Common Voice. Yayin da fasahar murya ta bunƙasa, akwai tabbacin zai hidimtawa masu amfani dashi. Wannan na nufin ƙarfafar harsuna da yawa da kuma shigar da karin harsuna mabambanta da juna yarin gini da kuma jarraba fasahohin murya. Common Voice abune na jama'a, ma'aikatan Mozilla da sauran masu fasahar na'ura mai ƙwaƙwalwa suna amfani dashi a ayyuka dabam dabam a faɗin duniya.
 faq-what-cv-and-deepspeech-q = Meye bambancin dake tsakanin Common Voice da Deep Speech?
@@ -366,10 +357,8 @@ sentence-collection = Haɗe-haɗen jimloli?
 hours-recorded-explanation = Ƙidayar sa'o'in da muka naɗa na sauti kawo yanzu.
 sst = Mangana-Zuwa-Rubutu(STT)
 
-## NotFound
+## Error pages
 
-notfound-title = Ba a samo shi ba
-notfound-content = Ina jin tsoro ban san abin da kake nema ba.
 
 ## Data
 
@@ -450,7 +439,6 @@ language-section-in-progress = Yana cigaba
 language-section-launched = An ƙaddamar
 languages-show-more = Duba Ƙari
 languages-show-less = Duba Kadan
-language-speakers = Masu Magana
 language-meter-in-progress = Cigaba
 language-total-progress = Jimilla
 language-search-input =
@@ -459,7 +447,7 @@ language-speakers = Masu Magana
 sentences = Jumloli
 total-hours = Awannin da aka tantance
 
-## New Contribution
+## Contribution
 
 action-click = Danna
 action-tap = Shafa
@@ -477,7 +465,6 @@ record-cancel = Katse naɗin
 record-three-more-instruction = Saura uku ka gama!
 record-again-instruction2 = Cigaba da ƙoƙari, ƙara naɗar <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </ recordIcon> Na karshe!
-unable-speak = Ba za ka iya magana ba a yanzu?
 record-submit-tooltip = { $actionType } aika in ka gama
 clips-uploaded = An ɗora Clips ɗin
 record-abort-title = Fara gama rikodin ɗin?
@@ -486,6 +473,9 @@ record-abort-continue = Kammala Ɗaukar Murya
 record-abort-delete = Fita & share clips
 listen-last-time-instruction = <playIcon> </ playIcon> Na karshe!
 record-button-label = Naɗi muryarka
+
+## Reporting
+
 
 ## Goals
 
@@ -515,6 +505,9 @@ recorded-clips = Sautikan da aka naɗa
 validated-clips = Naɗe-naɗen da aka tabbatar
 total-approved = Jimillar da aka amince
 
+## Custom Goals
+
+
 ## Profile Delete
 
 keep = Ajiye
@@ -529,3 +522,18 @@ profile-form-delete = Cire Bayananka
 ## Landing
 
 profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
