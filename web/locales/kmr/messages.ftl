@@ -445,9 +445,13 @@ localization = Wergerandin
 localization-explanation = Ev, pêvajoya wergerandin û adaptekirina naveroka me ji bo gelek zimanan e.
 sentence-collection = Berhevkirina Hevokan
 sentence-collection-explanation = Berhevkirina hevokên anonîmî an jî nivîsandina hevokên anonîm.
+sst = Speech-to-text (STT)
+sst-explanation = Teknolojiyên Speech-to-text (STT) daneyên dengî vediguherîne nivîsê.
+de-identified = Anonîmkirî
 
 ## Error pages
 
+error-title-404 = Rûpela ku tu lê digerî me nedît
 error-title-503 = Ji nişka ve pirsgirêkek teknîkî derket
 error-code = Çewtî { $code }
 
@@ -457,6 +461,7 @@ data-download-button = Daneyên Common Voiceê Daxîne
 data-download-yes = Erê
 data-download-deny = Na
 data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Tu dikî dest bi daxistina <size>{ $size } GB</size> bikî, bila dewam bike?
 data-get-started = <speechBlogLink>Bi nasîna axaftinê re dest pê bike</speechBlogLink>
 data-other-title = Komdaneyên din ên dengî…
 data-other-goto = Here malpera { $name }'ê
@@ -488,6 +493,7 @@ overall-hr-total = Bi giştî tevahiya saetan
 cv-license = Lîsans
 audio-format = Formata dengî
 number-of-voices = Hejmara dengan
+splits = Xalên veqetandinê
 email-to-download = Ji bo daxistinê, emaîlê bikevê
 size-gigabyte = GB
 size-megabyte = MB
