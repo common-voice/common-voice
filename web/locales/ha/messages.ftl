@@ -3,11 +3,11 @@
 yes-receive-emails = Eh, aika min da saƙonnin yanar gizo. Ina son in kasance da samun bayanai a kan aikin Common Voice
 stayintouch = Mu a Mozilla muna gina al'umma da suke da fasahar murya. Muna so mu ci gaba da tuntuɓa tare da sabunta sababbin bayanai kuma mu ji daga gareku kan yadda kuke amfani da  wannan bayanan.
 privacy-info = Mun yi alkawari za mu kula da bayananku cikin kulawa. Karanta cikakken bayanai kan yadda muke <privacyLink>Kula da Sirrinku</privacyLink>.
-return-to-cv = Koma zuwa ga Gama-garin Muryuka
+return-to-cv = Koma zuwa ga Muryar Gama-Gari
 email-input =
-    .label = Adreshin yanar gizo
-submit-form-action = Tura
-loading = Yana budewa...
+    .label = imel
+submit-form-action = Mika
+loading = Yana buɗewa...
 email-opt-in-info = Ina son karɓar saƙonnin email kan tunatarwa akan abinda na ke son cimmawa, ko ci gabana ko kuma labarai a kan Common Voice
 indicates-required = * Yana nuna cewa wajibi ne ka cike gurbin
 not-available-abbreviation = Babu Bayani
