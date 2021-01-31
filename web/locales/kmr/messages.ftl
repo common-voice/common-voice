@@ -519,6 +519,7 @@ dataset-version = Guherto
 ## Download Modal
 
 download-title = Daxistinê dest pê kir.
+download-helpus = Ji bo ku em civakeke têkildarî teknolojiya dengî ava bikin, alî me bikin, bi rêya emaîlê di têkîliyê de bimînin.
 download-form-email =
     .label = Emaîla xwe bikevê
     .value = Spas, Em ê di têkîliyê de bin.
@@ -571,8 +572,15 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> tomara dengî
        *[other] <bold>{ $count }</bold> tomarên dengî
     }
+contribute-more =
+    { $count ->
+        [one] Tu amade yî { $count } din jî bikî?
+       *[other] Tu amade yî { $count } hebên din jî bikî?
+    }
 record-cta = Dest bi tomarkirinê bike
 record-platform-not-supported = Mixabin, platforma te niha nayê destekkirin.
+record-platform-not-supported-desktop = Li ser kombersa xwe, tu dikarî guhertoyên dawîn ên van gerokan bi kar bînî:
+record-platform-not-supported-ios-non-safari = Ji bo çalakkirina tomarkirinê li ser iOS'ê, bi Safariyê re berdewam bike…
 record-must-allow-microphone = Divê tu destûra gihînê bidî mîkrofonê.
 record-no-mic-found = Mîkrofon nehate dîtin.
 record-error-too-short = Tomar pir kin e.
