@@ -11,8 +11,9 @@ loading = Yana buɗewa...
 email-opt-in-info = Ina son karɓar saƙonnin imel kan tunatarwa akan abinda na ke son cimmawa, ko ci gabana ko kuma labarai a kan Common Voice.
 email-opt-in-info-title = Shiga jerin sawun aika saƙon Muryar gama gari
 email-opt-in-info-sub-with-challenge = Karɓi imel kamar kalubale da masu tuni, burin sanarwa game da abin da an cimma, da wasiƙun labarai game da Muryar gama gari.
-indicates-required = * Yana nuna cewa wajibi ne ka cike gurbin
-not-available-abbreviation = Babu Bayani
+email-opt-in-privacy-v2 = Akan zaɓin ƙarban sakonnin imel ka shaida cewa ka amince da Mozilla su rike wannan labari kamar yadda aka bayyana a tsarin <privacyLink>sirrin tsaruka</privacyLink>.
+indicates-required = * Yana nuna cewa wajibi ne ka ciƙe gurbin
+not-available-abbreviation = Babu Wata Bayani
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -20,10 +21,10 @@ not-available-abbreviation = Babu Bayani
 
 ## Languages
 
-ab = Abkhazanci
-ace = Yaran Acehnese
-ady = Yaran Adyghe
-af = Afirkaanci
+ab = Abkhazian
+ace = Acehnese
+ady = Adyghe
+af = Afirkanci
 am = Yaran Amharik
 an = Yaran Aragonese
 ar = Larabci
