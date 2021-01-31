@@ -8,7 +8,9 @@ email-input =
     .label = imel
 submit-form-action = Mika
 loading = Yana buɗewa...
-email-opt-in-info = Ina son karɓar saƙonnin email kan tunatarwa akan abinda na ke son cimmawa, ko ci gabana ko kuma labarai a kan Common Voice
+email-opt-in-info = Ina son karɓar saƙonnin imel kan tunatarwa akan abinda na ke son cimmawa, ko ci gabana ko kuma labarai a kan Common Voice.
+email-opt-in-info-title = Shiga jerin sawun aika saƙon Muryar gama gari
+email-opt-in-info-sub-with-challenge = Karɓi imel kamar kalubale da masu tuni, burin sanarwa game da abin da an cimma, da wasiƙun labarai game da Muryar gama gari.
 indicates-required = * Yana nuna cewa wajibi ne ka cike gurbin
 not-available-abbreviation = Babu Bayani
 
