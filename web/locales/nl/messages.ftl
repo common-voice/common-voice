@@ -271,6 +271,7 @@ shortcut-record-toggle-label = Opnemen/Stoppen
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Fragment opnieuw opnemen
 request-language-text = Ziet u uw taal nog niet op Common Voice?
+request-language-text-learn = Lees hier hoe u het kunt aanvragen!
 request-language-button = Een taal aanvragen
 
 ## ProjectStatus
