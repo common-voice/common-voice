@@ -439,6 +439,9 @@ about-nav-partners = Hevkar
 about-nav-get-involved = Tev lê bibin
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Hişê Xwedestî (Artificial intelligence)
+mycroft-description =
+    Mycroft, yekem asîstana çavkanî vekirî ya cîhanê ye.¶
+    Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser Raspberry Pi'yê) bixebite.
 
 ## Glossary
 
