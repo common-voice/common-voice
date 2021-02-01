@@ -281,6 +281,7 @@ shortcut-record-toggle-label = Opnimme/Stopje
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Fragmint opnij opnimme
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
+request-language-text-learn = Lês hjir hoe't jo it oanfreegje kinne!
 request-language-button = In taal oanfreegje
 
 ## ProjectStatus
