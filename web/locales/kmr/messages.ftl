@@ -495,6 +495,7 @@ review-delete-recordings = Dengên min jê bibe
 
 ## Datasets Page
 
+datasets-headline = Em komdaneyeke dengan a çavkanî vekirî û pirzimanî ava dikin ji bo ku her kes karibe pê sepanên xwe yên xwedî-axaftin rahênan bike.
 language = Ziman
 # File size in gigabytes
 size = Mezinahî
@@ -519,6 +520,7 @@ get-started-speech = Bi Nasîna Axaftinê Dest Pê Bike
 other-datasets = Komdaneyên din ên dengî
 feedback-q = Pêşniyara te heye?
 data-other-ted-name = TED-LIUM Corpus
+data-other-tatoeba-description = Tatoeba, danegeheke mezin a hevok, werger û dengên axaftinê ye, ev danegeh ji bo fêrbûna zimanan tê  bikaranîn. Di vê dosyeyê de axaftinên Îngilîzî yên ji aliyê xwebeşên vê civakê hatine tomarkirin, hene.
 go-discourse = Here Discourseê
 missing-language = Tu zimanê xwe di Komdaneyê de nabînî?  Ji bo zimanekî daxwaz bikî, here rûpela me ya Zimanan.
 go-languages-page = Here rûpela zimanan
