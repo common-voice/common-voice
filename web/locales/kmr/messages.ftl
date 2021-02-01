@@ -521,6 +521,7 @@ other-datasets = Komdaneyên din ên dengî
 feedback-q = Pêşniyara te heye?
 data-other-ted-name = TED-LIUM Corpus
 data-other-tatoeba-description = Tatoeba, danegeheke mezin a hevok, werger û dengên axaftinê ye, ev danegeh ji bo fêrbûna zimanan tê  bikaranîn. Di vê dosyeyê de axaftinên Îngilîzî yên ji aliyê xwebeşên vê civakê hatine tomarkirin, hene.
+your-feedback = Fikrên te li ser pêşxistina komdaneya  Common Voiceê heye? Li ser Discourseê ji me re binivîse.
 go-discourse = Here Discourseê
 missing-language = Tu zimanê xwe di Komdaneyê de nabînî?  Ji bo zimanekî daxwaz bikî, here rûpela me ya Zimanan.
 go-languages-page = Here rûpela zimanan
