@@ -271,6 +271,7 @@ shortcut-record-toggle-label = Sekles/Seḥbes
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Sekles tukkist
 request-language-text = Ur tettwaliḍ ara tutlayt-ik di Common Voice yakan?
+request-language-text-learn = Lmed asuter-ines da!
 request-language-button = Suter tutlayt
 
 ## ProjectStatus
