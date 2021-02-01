@@ -442,6 +442,7 @@ mycroft-subtitle = Hişê Xwedestî (Artificial intelligence)
 mycroft-description =
     Mycroft, yekem asîstana çavkanî vekirî ya cîhanê ye.¶
     Mycroft dikare li her derê (li ser kombersê di otomobîlekê de, an jî li ser Raspberry Pi'yê) bixebite.
+mycroft-secondary-description = Ev, nermalava çavkanî vekirî ye ku dikare bi serbestî were sererastkirin, mezinkirin û baştirkirin.  Ji projeyek zanistî bigire heya sepaneke nermalava karsaziyê, Mycroft dikare di her sepanê de were bikaranîn.
 
 ## Glossary
 
@@ -450,6 +451,7 @@ localization = Wergerandin
 localization-explanation = Ev, pêvajoya wergerandin û adaptekirina naveroka me ji bo gelek zimanan e.
 sentence-collection = Berhevkirina Hevokan
 sentence-collection-explanation = Berhevkirina hevokên anonîmî an jî nivîsandina hevokên anonîm.
+hours-recorded-explanation = Hejmara saetên tomarkirina dengan ku me heta niha berhev kirine.
 sst = Speech-to-text (STT)
 sst-explanation = Teknolojiyên Speech-to-text (STT) daneyên dengî vediguherîne nivîsê.
 de-identified = Anonîmkirî
