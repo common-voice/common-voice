@@ -82,7 +82,7 @@ jobs:
           file: ./docker/Dockerfile
           tags: ${{ steps.tags.outputs.tags }}
           build-args: |
-            COMMIT=$GITHUB_SHA
+            COMMIT=${GITHUB_SHA}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
