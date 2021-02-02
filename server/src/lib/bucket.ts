@@ -59,6 +59,7 @@ export default class Bucket {
           })
           .promise();
 
+        // if the clip is smaller than 256 bytes it is most likely blank and should be skipped
         if (metadata.ContentLength >= 256) {
           clipPromises.push({
             id: id.toString(),
@@ -68,19 +69,12 @@ export default class Bucket {
           });
         } else {
           console.log(`clip_id ${id} at ${path} is smaller than 256 bytes`);
-          await this.model.db.deleteClip(id.toString());
-          await this.s3.deleteObject(
-            {
-              Bucket: getConfig().CLIP_BUCKET_NAME,
-              Key: path,
-            },
-            (err, data) => {
-              if (err) console.log(err.message);
-              else console.log(`deleted clip_id ${id} at ${path} from S3`);
-            }
-          );
+          await this.model.db.markInvalid(id.toString());
         }
 
+        // this will break either when 10 clips have been retrieved or when 15 have been tried
+        // as long as at least 1 clip is returned, the next time the cache refills it will try
+        // for another 15
         if (clipPromises.length == count) break;
       } catch (e) {
         console.log(e.message);

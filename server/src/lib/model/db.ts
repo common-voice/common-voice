@@ -998,4 +998,11 @@ export default class DB {
     await this.mysql.query(`DELETE FROM clips WHERE id = ? LIMIT 1;`, [id]);
     console.log(`Deleted clip and votes for clip ID ${id}`);
   }
+
+  async markInvalid(id: string) {
+    await this.mysql.query(
+      `UPDATE clips SET is_valid = 0 WHERE id = ? LIMIT 1;`,
+      [id]
+    );
+  }
 }
