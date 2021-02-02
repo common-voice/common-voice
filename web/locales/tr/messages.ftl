@@ -271,6 +271,7 @@ shortcut-record-toggle-label = Kaydet/Durdur
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Yeniden kaydedin
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
+request-language-text-learn = Nasıl talep edebileceğinizi öğrenin!
 request-language-button = Yeni dil iste
 
 ## ProjectStatus
@@ -763,7 +764,7 @@ help-reach-hours-general-pluralized =
     Kişisel bir hedefle Common Voice'un bir dilde { NUMBER($hours) ->
         [one] { $hours } saate
        *[other] { $hours } saate
-    }ulaşmasına yardımcı olun
+    } ulaşmasına yardımcı olun
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
 how-many-per-day = Harika! Günde kaç kayıt?

@@ -833,12 +833,15 @@ read-more-about = อ่านเพิ่มเติมในหน้าเ�
 
 ## DemoLayout
 
+demo-get-started = มาเริ่มกันเลย
+demo-welcome = ยินดีต้อนรับสู่ Common Voice
 
 ## Demo Datasets
 
 card-button-next = ถัดไป
 card-button-back = กลับ
 demo-language-select-label = เรียกดูภาษา
+demo-eofy-sub_header = ชุดข้อมูลเสียงพร้อมสำหรับการดาวน์โหลด
 demo-account = บัญชี
 
 ## Demo Account
@@ -846,6 +849,7 @@ demo-account = บัญชี
 
 ## Demo Contribute
 
+demo-listen-subtitle = พร้อมที่จะมีส่วนร่วม?
 
 ## Demo Dashboard
 

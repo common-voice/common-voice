@@ -10,6 +10,7 @@ submit-form-action = שליחה
 loading = בטעינה…
 email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
 email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common Voice
+email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא זמין
 
@@ -280,6 +281,7 @@ profile-explanation = ניתן לעקוב אחר התהליך שעברת בעז�
 thanks-for-account = תודה לך על אישור החשבון שלך, כעת הבה נבנה את הפרופיל שלך.
 why-demographic = למה  זה משנה?
 accept-privacy = מקובל עלי האופן בו המידע הזה מטופל כפי שמפורט ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla
+accept-privacy-title = מדיניות פרטיות
 login-identity = זהות כניסה
 login-signup = כניסה / הרשמה
 edit = עריכה
@@ -579,3 +581,18 @@ profile-form-delete = מחיקת פרופיל
 
 profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב, ניתן לראות מדוע להלן.
 read-more-about = מידע נוסף בעמוד על אודותינו
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

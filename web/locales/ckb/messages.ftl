@@ -271,6 +271,7 @@ shortcut-record-toggle-label = تۆمار/ڕاگرتن
 shortcut-rerecord-toggle = [٥-١]
 shortcut-rerecord-toggle-label = تۆماری دووبارە
 request-language-text = زمانی خۆت لە دەنگی گشتی نابینیت؟
+request-language-text-learn = بزانە چۆن دەتوانی لێرە داوای بکەی!
 request-language-button = داواکردنی زمان
 
 ## ProjectStatus

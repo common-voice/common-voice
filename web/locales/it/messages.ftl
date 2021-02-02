@@ -269,6 +269,7 @@ shortcut-record-toggle-label = Registra/Interrompi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ripeti la registrazione
 request-language-text = Non trovi la tua lingua su Common Voice?
+request-language-text-learn = Scopri qui come richiederla!
 request-language-button = Richiedi una lingua
 
 ## ProjectStatus

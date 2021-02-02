@@ -549,6 +549,8 @@ your-languages = మీ భాషలు
 toward-next-goal = తదుపరి లక్ష్యం వైపు
 clips-you-recorded = మీరు రికార్డ్ చేసిన క్లిప్పులు
 clips-you-validated = మీరు సరిచూసిన క్లిప్పులు
+todays-recorded-progress = రికార్డు చేసిన క్లిప్పులలో నేటి కామన్ వాయిస్ పురోగతి
+todays-validated-progress = సరిచూసిన క్లిప్పులలో నేటి కామన్ వాయిస్ పురోగతి
 stats = గణాంకాలు
 you = మీరు
 everyone = అందరూ
@@ -564,12 +566,14 @@ overall-accuracy = మొత్తం ఖచ్చితత్వం
 
 ## Profile Delete
 
+delete-q = మీ గొంతు రికార్డింగులను కూడా తొలగించాలని అభ్యర్థించాలనుకుంటున్నారా, లేదా వాటిని కామన్ వాయిస్ దత్తసమితిలో ఉంచాలనుకుంటున్నారా?
 keep = ఉంచు
 remove = తొలగించు
 profile-form-delete = ప్రొఫైలును తొలగించు
 
 ## Landing
 
+profile-not-required = తోడ్పడటానికి ప్రొఫైలు కలివుండటం తప్పనిసరి కాదు కానీ అది ఉపయోగపడుతుంది, ఎందుకో కింద చూడండి.
 read-more-about = మా గురించి పేజీలో మరింత చదవండి
 
 ## DemoLayout

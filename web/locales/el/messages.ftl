@@ -273,6 +273,7 @@ shortcut-record-toggle-label = Εγγραφή/Διακοπή
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Νέα εγγραφή κλιπ
 request-language-text = Δεν βλέπετε τη γλώσσα σας στο Common Voice;
+request-language-text-learn = Μάθετε πώς να το ζητήσετε εδώ!
 request-language-button = Αίτημα για γλώσσα
 
 ## ProjectStatus

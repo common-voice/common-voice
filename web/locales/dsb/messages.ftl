@@ -277,6 +277,7 @@ shortcut-record-toggle-label = Nagraś/Zastajiś
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klip znowego nagraś
 request-language-text = Waša rěc hyšći njejo na Common Voice?
+request-language-text-learn = Zgóńśo, kak móžośo to how póžedaś!
 request-language-button = Rěc pominaś
 
 ## ProjectStatus
@@ -518,7 +519,7 @@ dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 data-download-singleword-title = Ześěgniśo celowy segment jadnotliwego słowa
-data-download-singleword-callout = To jo segment, kótaryž se pśez nałožowański pad wóźi, kótaryž daty wopśimujo, aby spóznawanje powědanych cyfrow, jo/ně-wótkrywanje a testowańske daty wakeword za <fxLink>Firefox Voice</fxLink> pódpěrał.
+data-download-singleword-callout-v2 = To jo segment, kótaryž se pśez nałožowańske pady pógónujo a daty wopśimujo, aby spóznaśe powědanych cyfrow a spóznaśe jo/ně zmóžnił.
 review-terms = Gaž Common Voice wužywaśo, zwolijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
@@ -884,6 +885,8 @@ demo-welcome-subheader = Cośo wěcej zgóniś a k projektoju pśinosowaś?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice jo nejwětša zjawnje k dispoziciji stojeca, wěcejrěcna datowa sajźba swěta.
+demo-language-select-card-body = Z pomocu pśinoskow wót 259&thinsp;000 luźi we wěcej ako 50 rěcach, se toś te daty wužywaju, aby se powědańske nałoženja treněrowali, aby cłowjeskemu głosoju lěpjej wótpowědowali.
 card-button-next = Dalej
 card-button-back = Slědk
 demo-language-select-label = Rěcy pśepytowaś
@@ -894,6 +897,7 @@ demo-account = Konto
 ## Demo Account
 
 demo-account-card-header = Za sobuźěło konto njejo trjebne, lěcrownož jo wužytny
+demo-account-card-body = Napšawo skicěrujomy lěpšyny a wujasnjujomy, kótare informacije wózjawjamy. Wužywajśo wótkaze dołojce, aby z kontom Common Voice na swójom rěźe zachopił.
 demo-account-enter-email =
     .label = Zapódajśo e-mailowu adresu, aby registrěrowański wótkaz pósłał
 demo-account-sign-up = Registrěrowański wótkaz pósłaś
@@ -901,7 +905,10 @@ demo-account-sign-up = Registrěrowański wótkaz pósłaś
 ## Demo Contribute
 
 demo-contribute-card-header = Sćo gótowy swój głos pśidaś abo słuchaś?
+demo-contribute-card-body = Něnto, źož tšochu wěcej wó Common Voice wěsćo, cogodla njewoytaś? Klikniso na mikrofonowy symbol, aby sady głosnje cytał. <br/><br/>Jolic cośo lubjej głosowe pśinoski drugich luźi pśeglědowaś, klikniśo na wótgrawański symbol. Jolic głosowe nagraśe, na kótarež słuchaśo, słowam wótpowědujo, kótarež se na wobrazowce pokazuju.
 demo-listen-subtitle = Cośo sobu cyniś?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Wósobinske pśeglědy was wó indiwiduelnem póstupje a wó póstupje zgromaźeństwa na běžnem źarže.
+demo-dashboard-card-body = Za kuždy pósćony głosowy klip a kuždy pśeglědany awdioklip se waše kontowe pśeglědy aktualizěruju, aby se waš nejnowšy póstup w kuždej rěcy, ku kótarejž pśinosujośo, wótbłyšćował. Jo, móžośo k wěcej ako jadnej rěcy pśinosowaś!<br/><br/> Wužywajśo pśeglědy, aby swóje statistiki slědował, aby wiźeł, kak w pśirownanju k drugim luźom w zgromaźeństwje wótrěznjośo a aby se wšedne abo tyźeńske pśinosowańske cele stajił.

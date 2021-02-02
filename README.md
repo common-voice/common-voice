@@ -1,4 +1,4 @@
-# Common Voice [![Travis Status](https://travis-ci.org/mozilla/common-voice.svg?branch=main)](https://travis-ci.org/mozilla/common-voice)
+# Common Voice
 
 This is the web app for [Mozilla Common Voice](https://commonvoice.mozilla.org), a platform for collecting speech donations in order to create public domain datasets for training voice recognition-related tools.
 
@@ -47,7 +47,7 @@ Any files that follow the pattern `europarl-VERSION-LANG.txt` (such as [europarl
 
 If you use the data in a published academic work we would appreciate if you cite the following article:
 
-* Ardila, R., Branson, M., Davis, K., Henretty, M., Kohler, M., Meyer, J., Morais, R., Saunders, L., Tyers, F. M. and Weber, G. (2020) "[Common Voice: A Massively-Multilingual Speech Corpus](https://arxiv.org/abs/1912.06670)". *Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020).* pp. 4211—4215
+- Ardila, R., Branson, M., Davis, K., Henretty, M., Kohler, M., Meyer, J., Morais, R., Saunders, L., Tyers, F. M. and Weber, G. (2020) "[Common Voice: A Massively-Multilingual Speech Corpus](https://arxiv.org/abs/1912.06670)". _Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020)._ pp. 4211—4215
 
 The BiBTex is:
 
@@ -60,4 +60,7 @@ The BiBTex is:
   year = 2020
 }
 ```
+
+```
+
 ```
