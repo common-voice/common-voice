@@ -357,6 +357,7 @@ email-subscriptions = Abonetiyên emaîlê
 download-profile = Daneyên min daxîne
 contribution-experience = Tecrubeya beşdariyê
 skip-submission-feedback = Şandina paşragihandinê derbas bike
+skip-submission-description = Di dema şandina beşdariyê de piştî ku li 'Bişîne'yê hate tikandin ew ê paşragihandin bê derbaskirin. Beşdarî ew ê rasterast bi
 skip-submission-note = Not: Ji bo guhertina cureya beşdariyê divê tu Axaftinê an Jî Guhdarîkirinê hilbijêrî.
 off = Girtî
 on = Vekirî
