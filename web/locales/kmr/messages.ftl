@@ -734,9 +734,9 @@ help-share-goal = Alî me bike em dengên zêdetir bibînin, hedefa xwe parve bi
 confirm-goal = Hedefê bipejirîne
 goal-interval-weekly = Heftane
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Hedefa rojane ya { $type }ê parve bike: { $count } klîb
+share-n-daily-contribution-goal = Hedefa xwe ya rojane ya { $type }ê parve bike: { $count } klîb
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Hedefa heftane ya { $type }ê parve bike: { $count } klîb
+share-n-weekly-contribution-goal = Hedefa xwe ya heftane ya { $type }ê parve bike: { $count } klîb
 share-goal-type-speak = Axiftin
 share-goal-type-listen = Guhdarîkirin
 share-goal-type-both = Peyivîn û Guhdarîkirin
