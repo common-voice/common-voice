@@ -372,6 +372,7 @@ delete-voice = JÊ BIBE
 recording-voice-wave = Tê tomarkirin
 delete-voice-clip = an jî  klîba dengê jê bibe
 ready-to-upload = Lê bar bike
+avatar-clip-fact = Ev rastî ji berê ve tê zanîn ku gava xwînerek li raxistina rûpelekê dinêre, dê bal û dîqeta wî ji ber naveroka wê ya nivîskî ve bê pelişandin.
 recreate-voice = Dengê xwe dîsa tomar bike
 cancel-avatar-clip-recording = Betal bike
 about-avatar-clip-recording = Klîbeke dengî biafirîne û bike parçeyek ji profîla xwe. Dema ku hin kes bên profîla te ew ê karibin li vê klîbê guhdarî bikin.
@@ -700,6 +701,7 @@ validated-clips = Dengên piştrastkirî
 total-approved = Tevahiya dengên piştrastkirî
 overall-accuracy = Rastbûna Giştî
 set-visibility = Xuyabûna min saz bike
+visibility-overlay-note = Not: Dema ku wekî 'Xuya' hate sazkirin, ev sazkarî dikare ji <profileLink>Rûpela Profîlê</profileLink> were guhertin.
 show-ranking = Rêza min nîşan bide
 
 ## Custom Goals
