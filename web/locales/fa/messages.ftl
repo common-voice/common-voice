@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = بله، برایم ایمیل بفرست. علاقه‌مندم در خصوص پروژه آواهای مشترک اطلاعات کسب کنم.
+yes-receive-emails = بله ، برای من ایمیل ارسال کنید. من می خواهم در مورد پروژه صدای مشترک مطلع شوم.
 stayintouch = ما در موزیلا در حال ایجاد یک جامعه حول فن‌آوری صوتی هستیم. ما دوست داریم با به‌روزرسانی‌ها، منابع اطلاعات جدید در دسترس باشیم و بیشتر بدانیم که چگونه از این اطلاعات استفاده می‌کنید.
 privacy-info = ما قول می‌دهیم که اطلاعات شما را با دقت به کار ببریم. در <privacyLink>نکات حریم خصوصی</privacyLink> بیشتر مطالعه کنید.
 return-to-cv = بازگشت به آواهای مشترک
@@ -514,7 +514,6 @@ dataset-date = تاریخ
 license = مجوز: <licenseLink>{ $license }</licenseLink>
 license-mixed = ترکیبی
 data-download-singleword-title = دریافت بخش هدف تک کلمه‌ای.
-data-download-singleword-callout = این مورد از داده‌هایی تشکیل شده است که به تشخیص اعداد در گفت‌وگو کمک می‌کند، تشخیص بله/خیر و آزمایش داده‌های wakeword برای <fxLink>صدای Firefox</fxLink>.
 review-terms = با استفاده از آواهای مشترک، شما با <termsLink>شرایط</termsLink> و <privacyLink>خط مشی رازداری</privacyLink> ما موافقت می‌کنید
 terms-agree = موافقم
 terms-disagree = موافق نیستم
