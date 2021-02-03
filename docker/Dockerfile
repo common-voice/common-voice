@@ -1,15 +1,11 @@
 FROM node:10-stretch
 
 ARG MAINTAINER="Alberto del Barrio <alberto@mozilla.com>"
-ARG BRANCH="main"
 ARG COMMIT="local-build"
 ARG TAG=""
-ARG REPO="local"
 
-LABEL branch=${BRANCH}
 LABEL commit=${COMMIT}
 LABEL tag=$TAG
-LABEL repo=https://github.com/${REPO}
 LABEL maintainer=${MAINTAINER}
 
 MAINTAINER ${MAINTAINER}
@@ -35,8 +31,6 @@ RUN apt-get update && \
     apt-get install --no-install-recommends -y yarn ffmpeg
 
 ENV GIT_COMMIT_SHA=${COMMIT}
-ENV GIT_COMMIT_BRANCH=${BRANCH}
-ENV GIT_SLUG=${REPO}
 
 # Install yarn dependencies
 RUN yarn
