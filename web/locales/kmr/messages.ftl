@@ -727,6 +727,8 @@ cant-decide = Tu nikarî biryarê bidî?
 how-many-per-day = Bijî! Rojane çend klîb?
 how-many-a-week = Bijî! Heftane çend klîb?
 which-goal-type = Tu dixwazî biaxivî, guhdarî bikî an her du jî?
+receiving-emails-info = Tu niha emaîlên wekî bîrxistinên hedefê, nûvekirinên pêşveçûnê û nûçenameyên derbarê Common Voiceê de distînî.
+not-receiving-emails-info = Hûn ê êdî emaîlên wekî bîrxistinên hedefê, nûvekirinên pêşveçûnê û nûçenameyên derbarê Common Voiceê de <bold>NESTÎNIN</bold>.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } klîba dengî
@@ -742,6 +744,8 @@ share-n-weekly-contribution-goal = Hedefa xwe ya heftane ya { $type }ê parve bi
 share-goal-type-speak = Axiftin
 share-goal-type-listen = Guhdarîkirin
 share-goal-type-both = Peyivîn û Guhdarîkirin
+# LINK will be replaced with the current URL
+goal-share-text = Ji bo ku dengê xwe li #CommonVoice bibexşînim, min hedefek taybet ji xwe re çêkir. De ka were tu jî tevlî min bibe, em bi hev re axaftina mirovan a rastîn fêrî makîneyan bikin { $link }
 weekly-goal-created = Hedefa te ya heftane hate afirandin
 daily-goal-created = Hedefa te ya rojane hate afirandin
 track-progress = Pêşveçûnan li vir û li ser rûpela amaran bişopîne.
