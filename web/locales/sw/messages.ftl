@@ -715,6 +715,7 @@ validated-clips = Vipande vya sauti vilivyohalalishwa
 total-approved = Jumla ya zilizoidhinishwa
 overall-accuracy = Usahihi kwa ujumla
 set-visibility = Weka kuonekana kwangu
+visibility-explainer = Mpangilio huu unadhibiti mwonekano wako wa ubao wa wanaoongoza. Unapoficha, maendeleo yako yatakua ya kibinafsi. Hii inamaanisha picha yako, jina la mtumiaji na maendeleo havitaonekana kwenye ubao wa wanaoongoza. Kumbuka kuwa kuonyeshwa upya kwa ubao wa wanaoongoza huchukua dakika ~{ $minutes } ili kuonyesha mabadiliko.
 visibility-overlay-note = Kumbuka: Ikiwa wasifu umewekwa kuwa 'unaonekana', mpangilio huu unaweza kubadilishwa kutoka kwenye ukurasa wa <profileLink> Wasifu</profileLink>
 show-ranking = Onesha nafasi yangu
 
@@ -835,6 +836,9 @@ demo-account = Akaunti
 ## Demo Account
 
 demo-account-card-header = Kuwa na akaunti haihitajiki kuchangia, ingawa inasaidia.
+demo-account-card-body = Upande wa kulia tumeoredhesha faida na ufafanuzi wa habari gani tunaweka kwa umma. Tumia viunga hapa chini kuanza na akaunti ya Common Voice kwenye kifaa chako mwenyewe.
+demo-account-enter-email =
+    .label = Ingiza barua pepe kupata kiunga cha kujisajili
 demo-account-sign-up = Tuma kiunga cha kujisajili
 
 ## Demo Contribute
