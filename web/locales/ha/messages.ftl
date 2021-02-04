@@ -241,6 +241,7 @@ whats-public = Menene a bainan  Jama'a?
 email-not-public = Ba za mu bayyana adireshin yanar gizonka ba ga jama'a.
 recordings-and-locale-public = Adadin rikodin da wani yare da ka bayar zai kasance ga dukkan jama'a.
 username-optin-public = Zaka iya zaɓar bayyana username a fili ko a asurce.
+demographic-deidentified-clarity-2 = A zaɓinka bada alƙaluma na bayanai (misali. shekara, jinsi, yare, da kabila) baza'a taɓa bayyana shi wa jama'a ba a profayil ɗinka, kuma baza'a taɓa haɗa shi da wurin karin bayani akanka ba. Ko wani murya ta kowa-da-kowa za'a danganta shi da labaran alƙaluma domin dalilan samun tsareren bincike - misali, mai bincike yayu ya nufi wata hanyar horaswa domin alƙaluma ta musamman.
 username-email-not-demographic = Ba za a haɗa sunanka ba ko email ɗinka ba tare da bayanan da aka buga.
 
 ## Speak & Listen Shortcuts
@@ -270,6 +271,7 @@ shortcut-record-toggle-label = Yi Rekodin/ Tsaya
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Kara daukan shirin
 request-language-text = Ba kaga Yaren kaba a Common Voice ba har yanzu?
+request-language-text-learn = koyi yadda zaka nema anan!
 request-language-button = Nemi izinin wani yaren
 
 ## ProjectStatus
