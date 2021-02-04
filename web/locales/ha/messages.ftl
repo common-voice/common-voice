@@ -394,6 +394,11 @@ faq-why-different-speakers-a =
     Yawancin ɗakunan bayanan magana ana horar dasu tare da gabatar da ƙididdigar wasu alƙaluma wanda hakan ke haifar da son zuciya ga <articleLink> maza da masu matsakaitan matsayi </articleLink>. Takaddun lafazi da yarukan da basu da wakilci sosai a cikin bayanan bayanan horo galibi suna da alaƙa da rukunin mutane waɗanda aka riga aka ware su. Hakanan injina da yawa suna gwagwarmaya don fahimtar muryoyin mata.¶
     Wannan shine dalilin da ya sa a cikin bayanan muryarmu muke son iri-iri!
 faq-why-my-lang-q = Me ya sanya ba'a saka yarena ba har yanzu?
+faq-why-my-lang-new-a = Mozilla ba ta ɗauka ko fifita kowane yare akan wani. Madadin haka, Common Voice shiri ne kawai na al'umma, amma yana ɗaukar <multilangLink> matakai da yawa don ƙara sabon yare </multilangLink> kuma fara tattara gudummawar murya. Da farko, ana buƙatar fassara gidan yanar gizo na Voice Voice gama membobin al'umma zasu iya samun damar kwarewar mai bayarwa a cikin yarensu. Abu na gaba, muna buƙatar tarin jimloli mara izini don mutane su karanta a fili. Da zarar waɗannan abubuwan biyu sun gamsu an fara “harshe” a kan Muryar gama gari don mutane su fara yin rikodin muryar su da kuma inganta wasu gudummawar. Idan kanaso ka taimaka ka ƙaddamar da sabon yare, ka koma zuwa ga <sentenceCollectorLink> kayan aikin tattara jumla </sentenceCollectorLink> don farawa.
+faq-what-quality-q = Wane matakin ingancin sauti ake buƙata don shirin murya da za a yi amfani da shi a cikin bayanan bayanan?
+faq-what-quality-a = Muna son bayanan Common Voice don yin tunannin ingancin sauti injin injin magana-zuwa-rubutu zai ji a cikin daji, don haka muna neman iri-iri. Baya ga al'umma masu yawan magana, dataset mai yawan ingancin sauti za ta koyar da injin magana-zuwa-rubutu don ɗaukar yanayi daban-daban na duniya, daga magana zuwa hayaniyar mota. Duk lokacin da muryar muryarku ta kasance mai fahimta, ya kamata ya isa isa ga tsarin bayanai.
+faq-why-10k-hours-q = Me yasa sa'o'i 10,000 masu inganci suka zama kowace manufa ta yare don ɗaukar sauti?
+faq-why-10k-hours-a = Wannan kusan adadin awannin da ake buƙata don horar da tsarin kera magana-zuwa-rubutu.
 faq-how-calc-hours-q = Ta yaya Common Voice yake auna sa'o'i?
 faq-where-src-from-2-q = Daga ina aka samo rubutun?
 faq-why-account-q = Don me zan buɗe asusu?
