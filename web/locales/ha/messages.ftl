@@ -359,6 +359,7 @@ about-is-it-valid = Shin naɗin yana da kyau?
 about-is-it-valid-text = Ana alamta naɗin murya a matsayin mai kyau idan mai amfani ya bashi ƙuri'a ta ƙwarai.
 about-yes-votes = ƙuri'ar ƙwarai 2 ko fiye da haka
 about-no-votes = ƙuri'ar a'a 2 ko fiye da haka
+about-dataset-new = Bayanan bayanai na Common Common
 about-clip-graveyard = Clip Graveyard
 about-partners = Abokan hulɗa
 about-become-a-partner = Zamo abokin hulɗa
@@ -377,6 +378,7 @@ localization = Fassarawa
 sentence-collection = Haɗe-haɗen jimloli?
 hours-recorded-explanation = Ƙidayar sa'o'in da muka naɗa na sauti kawo yanzu.
 sst = Mangana-Zuwa-Rubutu(STT)
+de-identified = Sake ganowa
 
 ## Error pages
 
@@ -429,6 +431,7 @@ go-languages-page = Jeka zuwa shafin yaruka
 more = Ƙari
 close = Rufe
 download = Sauke
+dataset-version = Nau'i
 
 ## Download Modal
 
@@ -477,12 +480,14 @@ listen = Saurari
 skip = Wuce
 shortcuts = Gajerun hanyoyi
 record-cta = Fara Ɗaukar Murya
+record-platform-not-supported-desktop = A kan kwamfuta mai  kwakwalwa za ka iya sauƙe sabon abu...
 record-must-allow-microphone = Dole ne ka ƙyale samun damar microphone.
 record-no-mic-found = Ba'a samu makirfo ba
 record-error-too-short = Rikodin yayi kadan sosai.
 record-error-too-long = Naɗin yai tsawo da yawa
 record-error-too-quiet = Naɗin yai shiru da yawa.
 record-cancel = Katse naɗin
+record-stop-instruction = { $actionType } <stopIcon> </stopIcon> lokacin da aka aikata
 record-three-more-instruction = Saura uku ka gama!
 record-again-instruction2 = Cigaba da ƙoƙari, ƙara naɗar <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </ recordIcon> Na karshe!
