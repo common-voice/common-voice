@@ -64,6 +64,7 @@ export default React.memo(() => {
             </Localized>
           </p>
         </div>
+        <div className="bottom_divider" />
         <div className="links">
           <div>
             <LocalizedLocaleLink id="privacy" to={URLS.PRIVACY} />
@@ -76,6 +77,7 @@ export default React.memo(() => {
               />
             </Localized>
           </div>
+          <div className="ver_divider"/>
           <div>
             <LocalizedLocaleLink id="faq" to={URLS.FAQ} />
             <GitHubLink>GitHub</GitHubLink>
