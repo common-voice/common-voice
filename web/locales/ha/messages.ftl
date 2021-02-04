@@ -407,8 +407,11 @@ faq-where-src-from-2-a =
     
     Kuna iya duba jumlar tushen mu a cikin wannan <githubLink> GitHub babban fayil </githubLink>.
 faq-why-not-ask-read-q = Me ya sa ba ku tambayar mutane su karanta daga littattafai ko rubutun Wikipedia a cikin yare daban-daban?
+faq-why-not-ask-read-a = Don sanya kundin bayanan Common Voice ya zama mai amfani kamar yadda ya yiwu mun yanke shawarar kyale matanin tushe kawai wanda ke samuwa a karkashin lasisin Creative Commons (CC0). Amfani da mizanin CC0 yana nufin mafi wahalar samu da tattara rubutun tushe, amma yana bawa kowa damar amfani da bayanan muryar da aka samu ba tare da takurawar amfani ko izini daga Mozilla ba. Daga qarshe, muna son sanya kundin bayanan harsuna masu amfani yadda ya kamata ga kowa da kowa, gami da masu bincike, jami'oi, farawa, gwamnatoci, kungiyoyin manufar al'umma, da masu sha'awar sha'awa.
 faq-why-account-q = Don me zan buɗe asusu?
 faq-is-account-public-q = Shin bayanan asusuna a buɗe suke?
+faq-how-privacy-q = Ta yaya kake tabbatar da rashin suna da sirrin mutanen da suka ba da gudummawar muryoyinsu?
+faq-how-privacy-a = Duk shirye-shiryen muryoyi a cikin bayanan an goge bayanan ganowa da kaina. Lokacin da mai ba da gudummawa ya ba da bayanan alƙaluma ta hanyar bayanin su, ana bayyana bayanin daga shirye-shiryen muryar su kafin a haɗa su don zazzagewa a cikin bayanan kuma ba a taɓa sanar da su a shafin su na asali ba.
 faq-what-is-cv = Mene ne Common Voice?
 faq-using-cv = Amfani da Common Voice
 faq-description = Common Voice wani aiki ƙirƙira ne na Mozilla don taimakawa na'ura mai ƙwaƙwalwa gane yadda mutanen gaske suke magana.
