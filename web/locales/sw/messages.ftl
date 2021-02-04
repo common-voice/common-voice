@@ -377,6 +377,7 @@ faq-when-release2-a = Toleo la lugha nyingi tofauti la daftari la Common Voice k
 faq-why-mission-q = Kwa nini Common Voice ni sehemu ya misheni ya Mozilla?
 faq-why-mission-a = Mozilla imejitolea kuweka tovuti wazi na kupatikana kwa kila mtu. Ili kufanya hivyo tunahitaji kuwezesha waundaji wa mtandao kwa kupitia miradi kama Common Voice. Vile teknolojia za sauti zinavyozidi kuongezeka zaidi ya programu shubaka,tunaamini lazima watumikie watumiaji wote kwa usawa. Hivyo inamaanisha kuwekeza katika lugha zaidi na kuhifadhi lafudhi tofauti na taarifa ya data inayohusu watu wakati wa kujenga na kupima teknolojia za sauti. Common Voice ni rasilimali ya umma inayopatikana kwa kila mtu na timu za Mozilla na watengenezaji wa programu ulimwenguni kote tayari wanaitumia kwenye miradi yetu pia.
 faq-what-cv-and-deepspeech-q = Je! Ni tofauti gani kati ya Common Voice na Deep Speech?
+faq-what-cv-and-deepspeech-a = Daftari la Common Voice linakamilisha injini ya Deep Speech ya utambuzi wa sauti ya chanzo wazi ya Mozilla. Toleo la kwanza la Deep Speech lilitolewa mnamo Novemba mwaka 2017 na limeendelea kubadilika tangu wakati huo. Pamoja na daftari la Common Voice, tunaamini teknolojia hii ya utambuzi wa sauti ya chanzo wazi inapaswa kupatikana kwa kila mtu. Ni matumaini yetu teknolojia hizi zitawezesha watengenezaji wa programu kujenga wimbi la bidhaa na huduma za ubunifu.
 faq-is-goal-assistant-q = Je! Lengo la Common Voice ni kuunda msaidizi wa sauti?
 faq-is-goal-assistant-a = Lengo la daftari la Common Voice ni kuwezesha mtu yeyote duniani kutengeneza programu za utambuzi wa sauti, utambuzi wa msemaji, au aina nyingine yoyote ya programu ambayo inahitaji data ya sauti. Msaidizi wa sauti ni moja ya aina nyingi za programu unazoweza kujenga kwa kutumia daftari hilo.
 faq-do-want-native-q = Mimi si mzungumzaji asili na ninazungumza kwa lafudhi, bado mnataka sauti yangu?
@@ -677,6 +678,7 @@ report-success = Ripoti ilipitishwa kwa mafanikio
 
 ## Goals
 
+streaks = Mistari
 days =
     { $count ->
         [one] Siku
