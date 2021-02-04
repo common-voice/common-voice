@@ -571,6 +571,8 @@ share-goal-type-speak = Yin magana
 share-goal-type-listen = Sauraro
 share-goal-type-both = Yin magana da Sauraro
 weekly-goal-created = An kirkiro burin ka na mako-mako
+return-to-edit-goal = Koma nan don gyara burin ka kowane lokaci.
+share-goal = Raba burina
 
 ## Profile Delete
 
@@ -585,6 +587,7 @@ profile-form-delete = Cire Bayananka
 
 ## Landing
 
+welcome-staff = Barka da zuwa { $company } ma'aikaci!
 profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
 
 ## DemoLayout
