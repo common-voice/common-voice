@@ -30,17 +30,17 @@ an = Aragonese
 ar = Larabci
 arn = Mapudungun
 as = Yaren Assam
-ast = Yaran Asturian
+ast = Yan Asturian
 az = Yaren Azerbaijani
 ba = Yaren Bashkirs
 be = Yan Belarus
 bg = Yan Bulgaria
-bn = Yaren Bengali
+bn = Yaren Bengalinci
 br = Yaren Breton
 bxr = Yaren Buryat
-ca = Yaren Katoliya
+ca = Yaren Katalanci
 cak = Yaren Kaqchikel
-cnh = Yaren Hakha Cin
+cnh = Yan Hakha Cin
 cs = Yaren Cek
 cv = Yaren Chuvash
 cy = Yaren Welsh
@@ -589,6 +589,7 @@ profile-form-delete = Cire Bayananka
 
 welcome-staff = Barka da zuwa { $company } ma'aikaci!
 profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
+read-more-about = Kara karantawa game da Mu a shafinmu
 
 ## DemoLayout
 
