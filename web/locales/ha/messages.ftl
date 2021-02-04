@@ -390,6 +390,9 @@ faq-is-goal-assistant-a = Manufar kundin Common Voice shine don bawa kowa a duni
 faq-do-want-native-q = Ni ba dan asalin gida bane kuma ina magana da lafazi, har yanzu kuna son muryata?
 faq-do-want-native-a = Eh, muna son muryar ku musamman! Wani ɓangare na manufar Common Voice ita ce tattara lafazi daban-daban yadda ya yiwu don sabis ɗin gane murya suyi aiki daidai ga kowa. Wannan yana nufin gudummawa daga masu magana da ba 'yan ƙasa da suna da mahimmanci.
 faq-why-different-speakers-q = Me ya sa kuke bukatar masu magana da yawa a kowane harshe?
+faq-why-different-speakers-a =
+    Yawancin ɗakunan bayanan magana ana horar dasu tare da gabatar da ƙididdigar wasu alƙaluma wanda hakan ke haifar da son zuciya ga <articleLink> maza da masu matsakaitan matsayi </articleLink>. Takaddun lafazi da yarukan da basu da wakilci sosai a cikin bayanan bayanan horo galibi suna da alaƙa da rukunin mutane waɗanda aka riga aka ware su. Hakanan injina da yawa suna gwagwarmaya don fahimtar muryoyin mata.¶
+    Wannan shine dalilin da ya sa a cikin bayanan muryarmu muke son iri-iri!
 faq-why-my-lang-q = Me ya sanya ba'a saka yarena ba har yanzu?
 faq-how-calc-hours-q = Ta yaya Common Voice yake auna sa'o'i?
 faq-where-src-from-2-q = Daga ina aka samo rubutun?
