@@ -233,11 +233,13 @@ improve-audio = Bayanan da ka sa a Profile dinla suna taimakawa wajen horasta ki
 keep-track = Kula da cin gaban ka da ma'auninka a yaruka daban-daban
 compare-progress = Gwada yawan gudummawarka da ta sauran masu bada gudummawa a duk faɗin duniya.
 view-goals = Duba cigabanku kan burin naku da kanku da kuma na tsare-tsare
+join-newsletter = Da zaɓinka shiga cikin tsarin jarinmu na imel don sabin bayanai game da aikin.
 
 ## What's public
 
 whats-public = Menene a bainan  Jama'a?
 email-not-public = Ba za mu bayyana adireshin yanar gizonka ba ga jama'a.
+recordings-and-locale-public = Adadin rikodin da wani yare da ka bayar zai kasance ga dukkan jama'a.
 username-optin-public = Zaka iya zaɓar bayyana username a fili ko a asurce.
 username-email-not-demographic = Ba za a haɗa sunanka ba ko email ɗinka ba tare da bayanan da aka buga.
 
