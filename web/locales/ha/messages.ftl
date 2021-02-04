@@ -400,6 +400,7 @@ faq-what-quality-a = Muna son bayanan Common Voice don yin tunannin ingancin sau
 faq-why-10k-hours-q = Me yasa sa'o'i 10,000 masu inganci suka zama kowace manufa ta yare don ɗaukar sauti?
 faq-why-10k-hours-a = Wannan kusan adadin awannin da ake buƙata don horar da tsarin kera magana-zuwa-rubutu.
 faq-how-calc-hours-q = Ta yaya Common Voice yake auna sa'o'i?
+faq-how-calc-hours-a = Muna ƙididdige sa'o'i ta hanyar kimanta matsakaicin tsawon kowane rikodi, sa'annan mu ninka wannan lambar ta jimlar yawan rikodin a duk cikin yarukan.
 faq-where-src-from-2-q = Daga ina aka samo rubutun?
 faq-why-account-q = Don me zan buɗe asusu?
 faq-is-account-public-q = Shin bayanan asusuna a buɗe suke?
