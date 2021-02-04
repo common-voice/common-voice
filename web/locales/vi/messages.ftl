@@ -268,6 +268,7 @@ shortcut-record-toggle-label = Ghi/Dừng
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Clip ghi lại
 request-language-text = Chưa thấy ngôn ngữ của mình trên Common Voice?
+request-language-text-learn = Tìm hiểu cách yêu cầu nó ở đây!
 request-language-button = Yêu cầu ngôn ngữ
 
 ## ProjectStatus
