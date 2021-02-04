@@ -270,6 +270,7 @@ shortcut-record-toggle-label = Nasa sauti/ Acha
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = rekodi upya
 request-language-text = hujaona lugha yako kwenye common voice bado?
+request-language-text-learn = Jifunze jinsi ya kuiomba hapa!
 request-language-button = Agiza lugha
 
 ## ProjectStatus
@@ -848,3 +849,5 @@ demo-listen-subtitle = Uko tayari kuchangia?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Dashbodi za kibinafsi zinakupasha juu ya maendeleo ya kibinafsi na ya jamii.
+demo-dashboard-card-body = Kwa kila kipande cha sauti kilicho changiwa, na kwa kila kipande cha sauti kilichothibitishwa, dashbodi zako za akaunti zimesasishwa ili kuonesha maendeleo yako ya hivi karibuni katika kila lugha unayochangia. Ndio, unaweza kuchangia zaidi ya moja!<br/><br/> Tumia dashbodi kufuatilia takwimu zako, angalia jinsi unavyoendelea pamoja na wengine katika jamii, na weka lengo la mchango la kila siku au kila wiki.
