@@ -563,6 +563,14 @@ difficult-difficulty = Wuya
 pro-difficulty = Gwani
 want-to-continue = Shin kana son ci gaba?
 build-custom-goal = Gina burin al'ada
+set-a-goal = Saita manufa
+cant-decide = Ba za a iya yanke shawara ba?
+confirm-goal = Tabbatar da manufa
+goal-interval-weekly = Mako-mako
+share-goal-type-speak = Yin magana
+share-goal-type-listen = Sauraro
+share-goal-type-both = Yin magana da Sauraro
+weekly-goal-created = An kirkiro burin ka na mako-mako
 
 ## Profile Delete
 
