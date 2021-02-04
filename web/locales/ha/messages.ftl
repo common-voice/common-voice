@@ -494,17 +494,29 @@ record-last-instruction = <recordIcon> </ recordIcon> Na karshe!
 record-submit-tooltip = { $actionType } aika in ka gama
 clips-uploaded = An ɗora Clips ɗin
 record-abort-title = Fara gama rikodin ɗin?
+record-abort-text = Tafiya yanzu yana nufin za ku rasa cin gaban ku
 record-abort-submit = Shigar da Clips
 record-abort-continue = Kammala Ɗaukar Murya
 record-abort-delete = Fita & share clips
 listen-last-time-instruction = <playIcon> </ playIcon> Na karshe!
 record-button-label = Naɗi muryarka
+share-title-new = <m> Taimaka mana </ m> sami karin muryoyi
 
 ## Reporting
 
+report = Rahoto
+report-title = Mika rahoto
+report-different-language = Yare daban
+report-difficult-pronounce = Wuya wajen furtawa
+report-other-comment =
+    .placeholder = Sharhi
+success = Nasara
+continue = Ci gaba
+report-success = Rahoton ya wuce cikin nasara
 
 ## Goals
 
+streaks = Tafiya
 days =
     { $count ->
         [one] Kwana
@@ -524,6 +536,7 @@ validations =
 ## Dashboard
 
 your-languages = Yarenku
+toward-next-goal = Zuwa burin gaba
 you = Kai
 everyone = Kowane mutum
 top-contributors = Waɗanda suka fi bada gudummawa
