@@ -373,7 +373,13 @@ faq-title = Tambayoyin da aka fi tambaya
 faq-what-cv-q = Me ne ne Common Voice?
 faq-what-cv-a = Fasahar Magana wani juyin-juya hali ne da zai sauya yadda muke ma'amala da na'ura, amma kimiyyar da muke da su yanzu suna da tsada kuma na neman kuɗi ne. Common voice na daga cikin Ayyukan sa kai na Mozilla don samar da fasahar murya mai inganci kuma sauƙaƙƙa ga kowa, Common Voice wani babban ma'ajiya ta tattara muryoyin da aka ba da gudun mowa kuma a ba ka damar horar da vurya ko sawa cikin manhajarka da kowanne yare
 faq-why-important-q = Me ya sa yake da muhimmanci?
+faq-why-important-a =
+    Magana shine mafi akalar hanyar da muke sadarwa tare da juna kuma fasahar murya suna kawo wannan dacewar ga kwamfutocinmu da na'uran hannu. Muna so mu ƙarfafa masu haɓakawa don gina aikace-aikacen gane murya mai ban mamaki kamar masu fassara na ainihi da mataimakan masu amfani da dijital. Amma a yanzu yawancin bayanan muryar da ake buƙata don gina waɗannan nau'ikan aikace-aikacen suna da tsada da mallakar ta. Muna fatan kundin bayanan gama gari zai ba masu haɓaka abin da suke buƙata don ƙirƙirawa da kuma samar da fasahar magana a cikin yarensu.¶
+    ¶
+    Don ƙara fahimtar murya har ma ta game duniya, muna tattara samfuran murya a cikin yarukan da ake magana da su da kuma waɗanda ke da ƙaramin yawan masu magana waɗanda yawancin lokuta ba sa samun kula daga sabis na fahimtar magana. Buga ɗakunan bayanai daban-daban na muryoyi zai ƙarfafa masu haɓakawa, 'yan kasuwa, da dukkanin al'ummomin magana don magance wannan ratar da kansu.
 faq-how-get-q = Ta yaya zan iya samun bayanan Common Voice ?
+faq-how-get-a = Ana samun kundin bayanan Common Voice don zazzagewa a ƙarƙashin lasisin <licenseLink> CC0 </licenseLink> akan <datasetLink> shafin Bayanai na Datasets ɗinmu </datasetLink>. Hakanan zaka iya zazzage wasu tarin bayanan da ake samu a fili daga wannan shafin.
+faq-when-release2-q = Yaushe zaku sake bayanan Common Voice a sauran harsuna?
 faq-why-mission-q = Me yasa Common Voice yake cikin burikan Mozilla?
 faq-why-mission-a = Mozilla ta jajurce don tabbatar da yanar gizo buɗaɗɗiya kuma sassauƙa ga kowa da kowa. Don haka muna buƙatar ƙarfafar masu ƙirƙirar fasahar yanar gizo ta hanyar ayyuka irin Common Voice. Yayin da fasahar murya ta bunƙasa, akwai tabbacin zai hidimtawa masu amfani dashi. Wannan na nufin ƙarfafar harsuna da yawa da kuma shigar da karin harsuna mabambanta da juna yarin gini da kuma jarraba fasahohin murya. Common Voice abune na jama'a, ma'aikatan Mozilla da sauran masu fasahar na'ura mai ƙwaƙwalwa suna amfani dashi a ayyuka dabam dabam a faɗin duniya.
 faq-what-cv-and-deepspeech-q = Meye bambancin dake tsakanin Common Voice da Deep Speech?
