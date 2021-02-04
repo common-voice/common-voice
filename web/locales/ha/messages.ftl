@@ -402,6 +402,11 @@ faq-why-10k-hours-a = Wannan kusan adadin awannin da ake buƙata don horar da ts
 faq-how-calc-hours-q = Ta yaya Common Voice yake auna sa'o'i?
 faq-how-calc-hours-a = Muna ƙididdige sa'o'i ta hanyar kimanta matsakaicin tsawon kowane rikodi, sa'annan mu ninka wannan lambar ta jimlar yawan rikodin a duk cikin yarukan.
 faq-where-src-from-2-q = Daga ina aka samo rubutun?
+faq-where-src-from-2-a =
+    Rubutun asalinmu ya kasance ne da gudummawar masu ba da gudummawa ta asali da kuma tattaunawa daga rubuce-rubucen fim na yanki kamar jama'a
+    
+    Kuna iya duba jumlar tushen mu a cikin wannan <githubLink> GitHub babban fayil </githubLink>.
+faq-why-not-ask-read-q = Me ya sa ba ku tambayar mutane su karanta daga littattafai ko rubutun Wikipedia a cikin yare daban-daban?
 faq-why-account-q = Don me zan buɗe asusu?
 faq-is-account-public-q = Shin bayanan asusuna a buɗe suke?
 faq-what-is-cv = Mene ne Common Voice?
