@@ -537,15 +537,32 @@ validations =
 
 your-languages = Yarenku
 toward-next-goal = Zuwa burin gaba
+clips-you-recorded = Shirye-shiryen da Kukayi rikodi
+stats = Fara
+awards = Lambobin yabo
 you = Kai
 everyone = Kowane mutum
+contribution-activity = Ayyukan Gudummawa
 top-contributors = Waɗanda suka fi bada gudummawa
 recorded-clips = Sautikan da aka naɗa
 validated-clips = Naɗe-naɗen da aka tabbatar
 total-approved = Jimillar da aka amince
+overall-accuracy = Gaba ɗayar daidaito
+set-visibility = Sanya gani na
+show-ranking = Nuna mini daraja ta
 
 ## Custom Goals
 
+both-speak-and-listen = Duka biyu
+both-speak-and-listen-long = Dukansu (yi magana da Saurara)
+daily-goal = Burin yau da kullun
+weekly-goal = Burin makon-mako
+easy-difficulty = Sauƙi
+average-difficulty = Matsakaici
+difficult-difficulty = Wuya
+pro-difficulty = Gwani
+want-to-continue = Shin kana son ci gaba?
+build-custom-goal = Gina burin al'ada
 
 ## Profile Delete
 
