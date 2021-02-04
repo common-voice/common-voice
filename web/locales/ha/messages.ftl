@@ -232,6 +232,7 @@ rich-data = Tabbar da bayanan da ka zura suna cike da gamsassun bayanai da za ka
 improve-audio = Bayanan da ka sa a Profile dinla suna taimakawa wajen horasta kimiyyar gane murya.
 keep-track = Kula da cin gaban ka da ma'auninka a yaruka daban-daban
 compare-progress = Gwada yawan gudummawarka da ta sauran masu bada gudummawa a duk faɗin duniya.
+view-goals = Duba cigabanku kan burin naku da kanku da kuma na tsare-tsare
 
 ## What's public
 
