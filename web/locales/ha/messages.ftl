@@ -841,14 +841,27 @@ profile-form-delete = Cire Bayananka
 ## Landing
 
 welcome-staff = Barka da zuwa { $company } ma'aikaci!
+help-contribute = Kuna iya taimakawa ƙirƙirar ɗakunan bayanai daban-daban, masu buɗewa ta hanyar ƙirƙirar bayanan Murya na gama gari da bayar da gudummawar muryar ku.
+login-company = Shiga ciki/Yi rajista da { $company } imel
 profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
 read-more-about = Kara karantawa game da Mu a shafinmu
 
 ## DemoLayout
 
+demo-get-started = Bari Mu Fara
+demo-welcome = Barka da zuwa Common Voice
+demo-welcome-subheader = Kana sha'awar ƙarin koyo da bayar da gudummawa ga aikin?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Murya ta gama gari ita ce mafi girma a duniya wacce take a fili, dataset na murya da yare da yawa.
+demo-language-select-card-body = Godiya ga gudummawa daga mutane sama da 259k a cikin sama da harsuna 50, ana amfani da wannan bayanan don horar da aikace-aikacen da aka kunna don magana mafi kyau ga muryar ɗan adam.
+card-button-next = Na gaba
+card-button-back = Baya
+demo-language-select-label = Binciko Yaruka
+demo-eofy-header = Sakin-karshen Shekarar 2019
+demo-eofy-sub_header = Sashin murya, Shirya don Saukewa
+demo-account = Asusu
 
 ## Demo Account
 
