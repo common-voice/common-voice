@@ -612,7 +612,9 @@ other-language = Sauran Yare
 ## Languages Overview
 
 language-section-in-progress = Yana cigaba
+language-section-in-progress-new-description = Waɗannan harsunan a halin yanzu suna ƙarƙashin ci gaban al'umma. Sandunan ci gaba suna nuna yadda kowane harshe yake a cikin aiwatarwar <localizationGlossaryLink> rubutun yanar gizo </localizationGlossaryLink> da <sentenceCollectionGlossaryLink> tarin magana </sentenceCollectionGlossaryLink>.
 language-section-launched = An ƙaddamar
+language-section-launched-description = Don waɗannan harsunan da aka ƙaddamar shafin yanar gizon ya sami nasarar <localizationGlossaryLink> a bayyane </localizationGlossaryLink>, kuma yana da isassun kalmomi <sentenceCollectionGlossaryLink> don tattarawa don ci gaba <speakLink> Magana </speakLink> da <saurareLink> / / > gudummawa.
 languages-show-more = Duba Ƙari
 languages-show-less = Duba Kadan
 language-meter-in-progress = Cigaba
@@ -620,6 +622,7 @@ language-total-progress = Jimilla
 language-search-input =
     .placeholder = Nemo
 language-speakers = Masu Magana
+localized = Sarrafawa
 sentences = Jumloli
 total-hours = Awannin da aka tantance
 
@@ -631,6 +634,11 @@ contribute = Gudunmawa
 listen = Saurari
 skip = Wuce
 shortcuts = Gajerun hanyoyi
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> shirye-shiryen bidiyo
+       *[other] <bold>{ $count }</bold> shirye-shiryen bidiyo
+    }
 record-cta = Fara Ɗaukar Murya
 record-platform-not-supported-desktop = A kan kwamfuta mai  kwakwalwa za ka iya sauƙe sabon abu...
 record-must-allow-microphone = Dole ne ka ƙyale samun damar microphone.
