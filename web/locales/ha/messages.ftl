@@ -528,9 +528,17 @@ review-delete-recordings = Goge naɗe-naɗe na
 
 ## Datasets Page
 
+datasets-headline = Muna gina buɗaɗɗen tushe, tarin harsuna da yawa na muryoyin da kowa zai iya amfani da shi don horar da aikace-aikacen da suka dace da magana.
+datasets-positioning =
+    Mun yi imanin cewa babban, wadatattun bayanan bayanan murya za su haɓaka bidi'a da ingantacciyar gasa ta kasuwanci cikin fasahar magana ta hanyar ilmantarwa ta fasaha.¶
+    ¶
+    Bayanan Yaren Common voice ya riga ya kasance mafi girman tarin samfuran bayanan murya na fili a cikin nau'inta, amma ba shi kaɗai ba.¶
+    ¶
+    Duba zuwa wannan shafin azaman matattarar bayanai na sauran bayanan muryar buɗe tushen bayanai kuma, yayin da Muryar gama gari ke ci gaba da haɓaka, gida don sabuntawar fitowar mu.
 language = Yare
 # File size in gigabytes
 size = Girma
+validated-hr-total = Inganta Hr. Jimla
 overall-hr-total = Jumullar Awowin da aka ƙirga
 cv-license = Lasisi
 audio-format = Tsarin bidiyo
