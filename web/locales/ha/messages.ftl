@@ -801,19 +801,36 @@ how-many-per-day = Da kyau! Shirye-shiryen bidiyo guda nawa a rana?
 how-many-a-week = Da kyau! Shirye-shiryen bidiyo nawa a mako?
 which-goal-type = Ko kana bukatan yin magana, Saurara ko duka biyu?
 receiving-emails-info = Yanzu haka kana shirye don ƙarɓan sakonnin imel kamar su tunatarwar buri, bayani game da cigaba ta da wasikun bayanai game da Common Voice
+not-receiving-emails-info = Yanzu haka an saite kake domin <bold>KADA KA</bold> ƙarɓi sakonnin imel kamarsu tunatarwar buri, bayanai game da ci gaba ta da wasikan bayanai akan Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } Shashin bidiyo
+       *[other] { $count } Shashin bidiyoyi
+    }
+help-share-goal = Taimaka mana samun ƙarin muryoyi, raba burinku ku
 confirm-goal = Tabbatar da manufa
 goal-interval-weekly = Mako-mako
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Raba { $count } shashin bidiyo naka na yau da Kullum domin { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Raba { $count } burnika na shashin bidiyo na mako-mako { $type }
 share-goal-type-speak = Yin magana
 share-goal-type-listen = Sauraro
 share-goal-type-both = Yin magana da Sauraro
+# LINK will be replaced with the current URL
+goal-share-text = Kawai na ƙirƙiri wata manufa ta kashin kaina don ba da gudummawar murya ga #CommonVoice - ku kasance tare da ni ku taimaka koya wa injina yadda mutane na ainihi suke magana { $link }
 weekly-goal-created = An kirkiro burin ka na mako-mako
+daily-goal-created = An ƙirƙiri burin ku na yau da kullum
+track-progress = Bi sawun ci gaba a nan da kan shafin stats ɗinku.
 return-to-edit-goal = Koma nan don gyara burin ka kowane lokaci.
 share-goal = Raba burina
 
 ## Profile Delete
 
+delete-q = Kuna so ku nemi rikodin muryar ku a goge, ko kun fi so a ajiye su a cikin bayanan Common Voice?
 keep = Ajiye
 remove = Cire
+keep-info = Rikodin muryar ku da ba a sani ba zai kasance a cikin kundin bayanan Murya na gama gari. Da zarar ka share bayanan ka ba za ka iya sake gabatar da buƙata don cire rikodin ka daga bayanan ba
 remove-info = Za mu duba buƙatarka ta cire sautikan muryarka daga cikin bayanan (dataset). Idan an yarda da buƙatarka, za mu tuntuɓi waɗanda suka sauke bayanan (dataset) ɗin domin suma su cire sautikan muryarka.
 why-delete-recordings =
     Muryoyin da aka ɗauka a Common Voice za a iya amafani da su don Harkar ilimi, ko ƙananan sana'o'i da kuma masu shawa'awar fasahar murya don su taimaka wajen horaswa da kuma bunƙasa baynai na fili kamar manhajar murya.
