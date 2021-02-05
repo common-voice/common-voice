@@ -750,10 +750,14 @@ total-approved = Jimillar da aka amince
 overall-accuracy = Gaba ɗayar daidaito
 set-visibility = Sanya gani na
 visibility-explainer = Wannan saitin yana sarrafa ikon gani. Lokacin da aka ɓoye, ci gaban ku zai zama na sirri. Wannan yana nufin hotonku, sunan mai amfani da ci gaba ba zai bayyana akan jagorar ba. Lura cewa shayarwar jagora tana ɗaukar ~ { $mintuna } mintuna don yin canje-canje.
+visibility-overlay-note = Rubutu: Idan aka saita zuwa 'Gani', wannan saitin za a iya canza shi daga <abubuwan haɗin hoto> Shafin shafi </profileLink>
 show-ranking = Nuna mini daraja ta
 
 ## Custom Goals
 
+get-started-goals = Fara farawa da maƙasudai
+create-custom-goal = Ƙirƙiri Manufar Al'ada
+goal-type = Wace irin buri kake so ka gina?
 both-speak-and-listen = Duka biyu
 both-speak-and-listen-long = Dukansu (yi magana da Saurara)
 daily-goal = Burin yau da kullun
@@ -762,8 +766,21 @@ easy-difficulty = Sauƙi
 average-difficulty = Matsakaici
 difficult-difficulty = Wuya
 pro-difficulty = Gwani
+lose-goal-progress-warning = Ta hanyar gyara burinka, zaka iya rasa ci gaban da kuke ciki.
 want-to-continue = Shin kana son ci gaba?
+finish-editing = Kammala gyara da farko?
+lose-changes-warning = Tafiya yanzu yana nufin za ku rasa chanzin ku
 build-custom-goal = Gina burin al'ada
+help-reach-hours-pluralized =
+    Taimaka ya kai { NUMBER($hours) ->
+        [one] { $hours } awa
+       *[other] { $hours } awanni
+    } a cikin { $language } tare da burin kai
+help-reach-hours-general-pluralized =
+    Taimaka wa Common Voice kaiwa { NUMBER($hours) ->
+        [one] { $hours } awa
+       *[other] { $hours } awanni
+    }a cikin yaren dake da buri na kai
 set-a-goal = Saita manufa
 cant-decide = Ba za a iya yanke shawara ba?
 confirm-goal = Tabbatar da manufa
