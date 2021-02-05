@@ -413,6 +413,10 @@ faq-is-account-public-q = Shin bayanan asusuna a buɗe suke?
 faq-how-privacy-q = Ta yaya kake tabbatar da rashin suna da sirrin mutanen da suka ba da gudummawar muryoyinsu?
 faq-how-privacy-a = Duk shirye-shiryen muryoyi a cikin bayanan an goge bayanan ganowa da kaina. Lokacin da mai ba da gudummawa ya ba da bayanan alƙaluma ta hanyar bayanin su, ana bayyana bayanin daga shirye-shiryen muryar su kafin a haɗa su don zazzagewa a cikin bayanan kuma ba a taɓa sanar da su a shafin su na asali ba.
 faq-what-determine-identity-q = Me ake nufi da cewa ba zan iya “ƙayyade asalin” masu magana a cikin tsarin tattara bayanan Common Voice ba?
+faq-what-determine-identity-a =
+    Tasirin bayanan Common Voice a bayyane wuri ne kuma a bayyane wanda za'a iya amfani dashi don horar da nau'ikan aikace-aikacen da suka dace da magana. Don kare tsaron masu ba da gudummawarmu, muna tambayar duk wanda ya zazzage bayanan Common Voice don girmama sirrin masu bayar da gudummawa.¶
+    ¶
+    Duk shirye-shiryen bidiyo a cikin bayanan an goge bayanan ganowa da kaina. Lokacin da kuka zazzage bayanan, kun yarda da ba ƙoƙari don tantance asalin kowane mai ba da gudummawa ba. Wannan yana nufin ba za ku iya ƙoƙarin haɗa bayanin a cikin dataset ɗin ba ga keɓaɓɓen bayanan mai bayarwa. Duk da haka, kuna iya amfani da bayanan don horar da fitowar magana, fitowar mai magana, ko wasu aikace-aikace, ta misali, danganta bayanai a cikin bayanan zuwa wasu bayanan da suke a wurin.
 faq-what-is-cv = Mene ne Common Voice?
 faq-using-cv = Amfani da Common Voice
 faq-description = Common Voice wani aiki ƙirƙira ne na Mozilla don taimakawa na'ura mai ƙwaƙwalwa gane yadda mutanen gaske suke magana.
@@ -422,7 +426,12 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Me yasa muke Common Voice?
+about-subtitle = Common Voice na daga cikin ƙudirin Mozilla don taimakawa koyar da injuna yadda ainihin mutane ke magana. Baya ga kundin bayanan Common Voice, muna kuma gina wani injin buɗe magana wanda ake kira Deep Speech.
+about-header-description =
+    Duk waɗannan ayyukan ɗayan ɓangare ne na ƙoƙarinmu don haɓaka rabe-raben magana na dijital. Fasahar gane murya tana kawo girman mutum zuwa ga na'urorinmu, amma masu haɓaka suna buƙatar adadi mai yawa na bayanan murya don gina su. A halin yanzu, yawancin waɗannan bayanan suna da tsada da kuma mallakar mallaka.¶
+    Muna son samar da bayanan murya kyauta kuma a bayyane, kuma tabbatar da cewa bayanan suna wakiltar bambancin mutane na ainihi. Tare za mu iya fahimtar murya da kyau ga kowa.
 how-does-it-work-title = Yaya ya ke aiki?
+how-does-it-work-text = Muna tura tarin bayanai na muryoyi-buɗe-tushe. Ba da gudummawa ga muryarka, tabbatar da daidaitattun shirye-shiryen bidiyo na wasu mutane, sanya dataset ɗin ta zama mafi kyau ga kowa da kowa.
 about-speak = Yi magana
 about-listen-queue = Layin sauraro
 about-listen = Saurara
