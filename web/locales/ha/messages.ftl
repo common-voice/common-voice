@@ -479,11 +479,15 @@ localization-explanation = Wannan aikinmu ne don fassara da daidaita abubuwan da
 sentence-collection = Haɗe-haɗen jimloli?
 sentence-collection-explanation = Tattara jumloli daga yankin jama'a, ko rubuta sababbi don yankin jama'a.
 hours-recorded-explanation = Ƙidayar sa'o'in da muka naɗa na sauti kawo yanzu.
+hours-validated-explanation = Kididdigar awannin rikodin murya waɗanda masu amfani 2 cikin 3 suka inganta tare da ƙuri'ar “Ee”. Wadannan alamun ci gaba ne zuwa ga aikin gaba daya burin 10k.
 sst = Mangana-Zuwa-Rubutu(STT)
+sst-explanation = Fasahar magana-zuwa-rubutu (STT) suna sauya bayanan murya zuwa rubutu.
 de-identified = Sake ganowa
+de-identified-explanation = Tsarin da aka ɓoye bayanan bayanan mai bayarwa daga shirye-shiryen muryar da aka bayar lokacin da aka shirya su don zazzagewa a matsayin ɓangare na dataset.
 
 ## Error pages
 
+error-title-404 = Ba mu iya nemo muku wannan shafin ba
 
 ## Data
 
