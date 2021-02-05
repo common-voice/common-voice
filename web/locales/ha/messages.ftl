@@ -677,13 +677,27 @@ listen-again-instruction = Aiki mai kyau! <playIcon> </playIcon> sake saurara lo
 listen-3rd-time-instruction = 2 ƙasa, ci gaba da aiki mai kyau! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </ playIcon> Na karshe!
 listen-empty-state = Shirye-shiryen bidiyo sun ƙare don ingantawa a cikin wannan yaren ...
+speak-empty-state = Shirye-shiryen bidiyo sun ƙare don ingantawa a cikin wannan yaren ...
+speak-empty-state-cta = Ba da gudummawar jimloli
 record-button-label = Naɗi muryarka
 share-title-new = <m> Taimaka mana </ m> sami karin muryoyi
+keep-track-profile = Kula da ci gaban ka tare da bayanin martabar ka
+login-to-get-started = Shiga ciki ko yi rijista don farawa
+target-segment-first-card = Kana ba da gudummawa ga ɓangaren hadafinmu na farko
+target-segment-generic-card = Kana ba da gudummawa ga ɓangaren hadafinmu na farko
+target-segment-first-banner = Taimaka wajan ƙirƙirar ɓangaren farko na Common Voice a cikin { $locale }
+target-segment-add-voice = Ƙara Muryar ka
+target-segment-learn-more = Ci gaba da koyo
 
 ## Reporting
 
 report = Rahoto
 report-title = Mika rahoto
+report-ask = Waɗanne matsaloli kuke fuskanta game da wannan hukuncin?
+report-offensive-language = Yare mai ɓatanci
+report-offensive-language-detail = Jumlar tana da maganganu na rashin ladabi ko na cin mutunci.
+report-grammar-or-spelling = Na magana/ kuskuren furta kalma
+report-grammar-or-spelling-detail = Jumlar tana da lamuran nahawu ko kuskure.
 report-different-language = Yare daban
 report-difficult-pronounce = Wuya wajen furtawa
 report-other-comment =
