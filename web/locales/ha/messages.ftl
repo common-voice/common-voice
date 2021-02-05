@@ -699,7 +699,11 @@ report-offensive-language-detail = Jumlar tana da maganganu na rashin ladabi ko 
 report-grammar-or-spelling = Na magana/ kuskuren furta kalma
 report-grammar-or-spelling-detail = Jumlar tana da lamuran nahawu ko kuskure.
 report-different-language = Yare daban
+report-different-language-detail = An rubuta shi a cikin yare dabam da abin da nake magana.
 report-difficult-pronounce = Wuya wajen furtawa
+report-difficult-pronounce-detail = Ya ƙunshi kalmomi ko jimloli masu wuyar karantawa ko furtawa.
+report-offensive-speech = Kalaman ɓatanci
+report-offensive-speech-detail = Jumlar tana da maganganu na rashin ladabi ko na cin mutunci.
 report-other-comment =
     .placeholder = Sharhi
 success = Nasara
@@ -729,7 +733,11 @@ validations =
 
 your-languages = Yarenku
 toward-next-goal = Zuwa burin gaba
+goal-reached = An cimma Manufa
 clips-you-recorded = Shirye-shiryen da Kukayi rikodi
+clips-you-validated = Shashin bidiyon da ka inganta
+todays-recorded-progress = Ci gaban Common Voice a yau akan shirye-shiryen bidiyo da aka yi rikodin
+todays-validated-progress = Ci gaban Common Voice a yau akan shirye-shiryen bidiyo da aka sami ingancinsa
 stats = Fara
 awards = Lambobin yabo
 you = Kai
@@ -741,6 +749,7 @@ validated-clips = Naɗe-naɗen da aka tabbatar
 total-approved = Jimillar da aka amince
 overall-accuracy = Gaba ɗayar daidaito
 set-visibility = Sanya gani na
+visibility-explainer = Wannan saitin yana sarrafa ikon gani. Lokacin da aka ɓoye, ci gaban ku zai zama na sirri. Wannan yana nufin hotonku, sunan mai amfani da ci gaba ba zai bayyana akan jagorar ba. Lura cewa shayarwar jagora tana ɗaukar ~ { $mintuna } mintuna don yin canje-canje.
 show-ranking = Nuna mini daraja ta
 
 ## Custom Goals
