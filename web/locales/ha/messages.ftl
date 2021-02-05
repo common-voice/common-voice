@@ -865,9 +865,18 @@ demo-account = Asusu
 
 ## Demo Account
 
+demo-account-card-header = Kasancewa da asusu ba'a bukata domin bada gudumawa, ko da yake yana taimako.
+demo-account-card-body = A hannun dama muna bayyana fa'idodi kuma muna bayyana irin bayanan da muke gabatarwa ga jama'a. Yi amfani da hanyoyin da ke ƙasa don farawa tare da asusun Common Voice akan na'urarka.
+demo-account-enter-email =
+    .label = Shigar da imel don aika hanyar haɗin rajista
+demo-account-sign-up = Aika hanyar haɗin rajista
 
 ## Demo Contribute
 
+demo-contribute-card-header = Shirya don ƙara muryarka ko rancen kunnenka?
+demo-contribute-card-body = Yanzu da kun san ɗan ƙarin bayani game da Common Voice, me zai hana ku gwada shi? Latsa gunkin makirufo don fara karanta jimloli a bayyane. <br/> <br/> Idan ka fi so a duba gudummawar muryar wasu mutane, danna gunkin kunnawa. Idan rikodin muryar da kuka ji ya dace da kalmomin da aka rubuta akan fuska.
+demo-listen-subtitle = Shirya don ba da gudummawa?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Keɓaɓɓun maɓallan allo suna ba ku damar kasancewa tare da ci gaban mutum da al'umma.
