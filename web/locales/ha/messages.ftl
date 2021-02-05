@@ -469,6 +469,7 @@ mycroft-subtitle = Artificial intelligence
 mycroft-description =
     Mycroft shine mataimaki na farko na buɗe tushen talla a duniya.¶
     Mycroft yana gudana ko'ina - a kan kwamfutar tebur, a cikin mota, ko a kan Rasberi Pi.
+mycroft-secondary-description = Wannan kayan aiki ne na buɗewa wanda za'a iya haɗe su, a faɗaɗa su, kuma a inganta su. Ana iya amfani da Mycroft a cikin komai daga aikin kimiyya zuwa aikace-aikacen software na kamfani.
 
 ## Glossary
 
