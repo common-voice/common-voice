@@ -569,8 +569,12 @@ data-other-librispeech-description = LibriSpeech wata matattara ce ta kusan awan
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM corpus an yi shi ne daga tattaunawar sauti da rubuce rubucensu da ke kan shafin yanar gizon TED.
 data-other-voxforge-description = An kafa VoxForge don tattara maganganun da aka kwafa don amfani tare da Injin Ingantaccen Maganganun Bayani Mai Kyau.
+data-other-tatoeba-description = Tatoeba babban tarin bayanai ne na jimloli, fassarori, da sautin magana don amfani dashi a cikin koyon yare. Wannan zazzagewa yana ɗauke da Ingilishi da ake magana da shi wanda al'ummarsu suka rubuta.
+your-feedback = Shin kana da dabaru kan yadda zamu inganta bayanan dattijan Murya mafi kyau? Bari mu sani akan Magana
 go-discourse = Je zuwa Discourse
+missing-language = Shin, ba ku ga yarenku yana bayyana a cikin Dataset ba? Don neman shugaban harshe zuwa shafin Harsunanmu.
 go-languages-page = Jeka zuwa shafin yaruka
+ready-to-validate = Shirya don taimakawa inganta jumla?
 more = Ƙari
 close = Rufe
 download = Sauke
@@ -579,9 +583,11 @@ dataset-version = Nau'i
 ## Download Modal
 
 download-title = Abunda ka ke son saukewa ya fara saukuwa.
+download-helpus = Taimaka mana gina al'umma game da fasahar murya, kasance tare da mu ta imel.
 download-form-email =
     .label = Shigar da adreshinka na yanar gizo
     .value = Mungode, za mu ci gaba da tuntunbarka
+download-back = Komo zuwa ga tsarin bayani na Common Voice
 download-no = A'a Nagode
 
 ## Contact Modal
@@ -595,8 +601,11 @@ contact-required = * Ana buƙata
 
 ## Request Language Modal
 
+request-language-title = Neman Yare
 request-language-form-language =
     .label = Yare
+request-language-success-title = An gabatar da buƙatar yare cikin nasara, na gode.
+request-language-success-content = Za mu kasance tare da ƙarin bayani game da yadda ake ƙara harshenku zuwa Common Voice ba da daɗewa ba.
 select-language = Zaɓi yare...
 other-language = Sauran Yare
 
