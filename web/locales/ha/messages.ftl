@@ -445,16 +445,30 @@ about-yes-votes-text = Don sanya shi a cikin kundin tsarin Common Voice, dole ne
 about-no-votes = ƙuri'ar a'a 2 ko fiye da haka
 about-no-votes-text = Idan mai amfani ya ƙi shirin bidiyo sai ya koma layi. Idan aka ƙi shi a karo na biyu, za a matsar da muryar murya zuwa Makabartar Clip.
 about-dataset-new = Bayanan bayanai na Common Common
+about-dataset-new-text = Dataset naCommon Voice ya ƙunshi ɗaruruwan dubunnan samfuran murya waɗanda ke taimaka wa masu haɓakawa ƙirƙirar kayan aikin gane murya.
 about-clip-graveyard = Clip Graveyard
+about-clip-graveyard-text = Makabartar Clip ta ƙunshi shirye-shiryen bidiyo waɗanda ba su sanya su cikin tsarin tattara bayanai na Murya ba. Kamar dataset, akwai Makabartar Clip don zazzagewa.
 about-partners = Abokan hulɗa
 about-become-a-partner = Zamo abokin hulɗa
+about-partnership =
+    Common Voice aiki ne na haɗin gwiwa, kuma mun dogara ne da ƙungiyar abokanmu da masu ba da gudummawa don gina babbar hanyar buɗe muryar bayanai ta murya koyaushe.¶
+    ¶
+    Zamu so mu gode wa mutane da kungiyoyi masu zuwa don taimakon su da aikin:
 about-get-involved = Shiga a dama da kai
+about-get-involved-text-2 =
+    Muna son taimakawa don sanya Common Voice koda mafi kyau?¶
+    Da kyau! Samun tuntuɓar mu ta imel ko <discourseLink> Jawabi </discourseLink>¶
+    tattaunawa, gabatar da al'amuran yanar gizo ta <githubLink> GitHub </githubLink>, ko shiga cikin¶
+    <matrixLink> Matrix </matrixLink> tattaunawa ta gari.
 about-nav-why-common-voice = Me yasa?
 about-nav-how-it-works = Ta yaya?
 about-nav-partners = Abokan hulɗa
 about-nav-get-involved = Sami Shiga
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Artificial intelligence
+mycroft-description =
+    Mycroft shine mataimaki na farko na buɗe tushen talla a duniya.¶
+    Mycroft yana gudana ko'ina - a kan kwamfutar tebur, a cikin mota, ko a kan Rasberi Pi.
 
 ## Glossary
 
