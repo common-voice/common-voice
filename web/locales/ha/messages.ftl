@@ -639,6 +639,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> shirye-shiryen bidiyo
        *[other] <bold>{ $count }</bold> shirye-shiryen bidiyo
     }
+goal-help-validation = Ka taimaka wa Common Voice ta kai ga<goalPercentage></goalPercentage> burin mu na yau da kullum { $goalValue } da inganci!
 record-cta = Fara Ɗaukar Murya
 record-platform-not-supported-desktop = A kan kwamfuta mai  kwakwalwa za ka iya sauƙe sabon abu...
 record-must-allow-microphone = Dole ne ka ƙyale samun damar microphone.
