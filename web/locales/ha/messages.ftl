@@ -554,10 +554,16 @@ download-language = Ɗakko { $language }
 validated-hours = Sa'o'in da aka tantance
 recorded-hours = Sa'o'in da aka naɗa
 whats-inside = Meye a cikin bayanan Common Voice?
+dataset-description-hours =
+    Duk bayanan tsarreren da aka shigar na ɗauke da tsarin MP3 daban da sauran fayil. Yawa daga ciki <b>{ $total }</b> awannin naɗan murnya wanda ke cikin tsarin ya haɗar da shekara, Jinsi, da tushin mutum wanda zai taimaka horas da kwarewar magana ingi mai gano murya.
+    
+    The dataset currently consists of <b>{ $valid }</b> validated hours in <b>{ $languages }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
+want-dataset-update = Ana son ɗaukakawa lokacin da muka saki sabon sigar tsarin bayanan Murya? Biyan kuɗi zuwa wasikar labaranmu.
 subscribe = Saka kanka
 get-started-speech = Fara da gane Managana (Speech Recognition)
 other-datasets = Sauran Bayanai(Dataset) na Muryoyi
 feedback-q = Kana da wani shawari?
+deepspeech-info = Tasirin bayanan gama gari ya cika injin buɗe muryar buɗe ido na Mozilla Deep Speech, wanda zaku iya amfani dashi don gina aikace-aikacen gane magana. Karanta mu <githubLink> Github overview </githubLink> ko shiga cikin <discourseLink> Bayanin DeepSpeech </discourseLink> don koyon yadda ake farawa.
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Je zuwa Discourse
 go-languages-page = Jeka zuwa shafin yaruka
