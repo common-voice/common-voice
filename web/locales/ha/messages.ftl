@@ -783,6 +783,24 @@ help-reach-hours-general-pluralized =
     }a cikin yaren dake da buri na kai
 set-a-goal = Saita manufa
 cant-decide = Ba za a iya yanke shawara ba?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } awa
+       *[other] { $totalHours } awanni
+    } ana samun nasara cikin sama da watanni{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } wata
+       *[other] { $periodMonths } watanni
+    } idan { NUMBER($people) ->
+        [one] { $people } mutum
+       *[other] { $people } mutane
+    } rikodi { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } shashin vidiyo
+       *[other] { $clipsPerDay } shirye-shiryen bidiyo
+    } a rana.
+how-many-per-day = Da kyau! Shirye-shiryen bidiyo guda nawa a rana?
+how-many-a-week = Da kyau! Shirye-shiryen bidiyo nawa a mako?
+which-goal-type = Ko kana bukatan yin magana, Saurara ko duka biyu?
+receiving-emails-info = Yanzu haka kana shirye don ƙarɓan sakonnin imel kamar su tunatarwar buri, bayani game da cigaba ta da wasikun bayanai game da Common Voice
 confirm-goal = Tabbatar da manufa
 goal-interval-weekly = Mako-mako
 share-goal-type-speak = Yin magana
