@@ -412,6 +412,7 @@ faq-why-account-q = Don me zan buɗe asusu?
 faq-is-account-public-q = Shin bayanan asusuna a buɗe suke?
 faq-how-privacy-q = Ta yaya kake tabbatar da rashin suna da sirrin mutanen da suka ba da gudummawar muryoyinsu?
 faq-how-privacy-a = Duk shirye-shiryen muryoyi a cikin bayanan an goge bayanan ganowa da kaina. Lokacin da mai ba da gudummawa ya ba da bayanan alƙaluma ta hanyar bayanin su, ana bayyana bayanin daga shirye-shiryen muryar su kafin a haɗa su don zazzagewa a cikin bayanan kuma ba a taɓa sanar da su a shafin su na asali ba.
+faq-what-determine-identity-q = Me ake nufi da cewa ba zan iya “ƙayyade asalin” masu magana a cikin tsarin tattara bayanan Common Voice ba?
 faq-what-is-cv = Mene ne Common Voice?
 faq-using-cv = Amfani da Common Voice
 faq-description = Common Voice wani aiki ƙirƙira ne na Mozilla don taimakawa na'ura mai ƙwaƙwalwa gane yadda mutanen gaske suke magana.
