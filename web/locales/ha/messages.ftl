@@ -488,6 +488,10 @@ de-identified-explanation = Tsarin da aka ɓoye bayanan bayanan mai bayarwa daga
 ## Error pages
 
 error-title-404 = Ba mu iya nemo muku wannan shafin ba
+error-content-404 = Wataƙila shafin mu na 'homepageLink> </homepageLink> zai taimaka? Don yin tambaya, don Allah a shiga cikin <matrixLink> Matrix na tattaunawa ta gari </matrixLink>, saka idanu kan lamuran yanar gizo ta <githubLink> GitHub </githubLink> ko ziyarci <discourseLink> dandalin mu na Magana </discourseLink>.
+error-title-503 = Muna fuskantar saukar da lokacin aiki na bazata
+error-content-503 = Shafin zai dawo da wuri-wuri. Don sabon bayani, Don Allah shiga cikin <matrixLink> Matrix na tattaunawa ta gari </ matrixLink> ko ziyarci <githubLink> GitHub </githubLink> ko <discourseLink> tattaunawar mu na Tattaunawa </discourseLink> don ƙaddamarwa da lura da al'amuran ƙwarewar shafin.
+error-code = Kuskure { $code }
 
 ## Data
 
@@ -495,6 +499,9 @@ data-download-button = Sauke bayanan Common Voice
 data-download-yes = Ee
 data-download-deny = A'a
 data-download-license = Lasisi: <lasisiLink> CC-0 </ lasisi>
+data-download-modal = Kana gab da fara saukar da <size>{ $size }GB</size>, ci gaba?
+data-subtitle = Muna gina tarin bayanan muryoyin da kowa zai iya amfani dashi don horar da aikace-aikacen da suka dace da magana.
+data-explanatory-text = Mun yi imanin cewa babban bayanan bayanan murya da ke bayyane yana inganta bidi'a da gasa mai kyau na kasuwanci cikin fasahar magana ta hanyar ilmantarwa ta na'ura. Wannan ƙoƙari ne na duniya kuma muna gayyatar kowa da kowa ya shiga. Manufarmu ita ce taimaka wa fasahar magana ta zama mai haɗawa, don nuna bambancin muryoyi daga ko'ina cikin duniya.
 data-other-title = Sauran bayanai (datasets) na muryoyi
 data-other-goto = Je zuwa { $name }
 data-other-download = Sauke Bayanai
