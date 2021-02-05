@@ -475,7 +475,9 @@ mycroft-secondary-description = Wannan kayan aiki ne na buɗewa wanda za'a iya h
 
 glossary = Fihirisa
 localization = Fassarawa
+localization-explanation = Wannan aikinmu ne don fassara da daidaita abubuwan da muke ciki don yankuna da yawa (harsuna).
 sentence-collection = Haɗe-haɗen jimloli?
+sentence-collection-explanation = Tattara jumloli daga yankin jama'a, ko rubuta sababbi don yankin jama'a.
 hours-recorded-explanation = Ƙidayar sa'o'in da muka naɗa na sauti kawo yanzu.
 sst = Mangana-Zuwa-Rubutu(STT)
 de-identified = Sake ganowa
