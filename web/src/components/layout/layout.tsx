@@ -35,14 +35,13 @@ import {
   ChallengeToken,
   challengeTokens,
   FeatureType,
-  FeatureToken,
   features,
 } from 'common';
 import API from '../../services/api';
 import NotificationBanner from './../notification-banner/notification-banner';
 import { Notifications } from '../../stores/notifications';
 
-const LOCALES_WITH_NAMES = LOCALES.map(code => [
+export const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
   NATIVE_NAMES[code] || code,
 ]).sort((l1, l2) => l1[1].localeCompare(l2[1]));
@@ -285,13 +284,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {featureStorageKey &&
-          localStorage.getItem(featureStorageKey) !== 'true' && (
-            <SegmentBanner
-              locale={locale}
-              featureStorageKey={featureStorageKey}
-            />
-          )}
         <header className={hasScrolled ? 'active' : ''}>
           <div>
             <Logo />

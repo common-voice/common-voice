@@ -35,6 +35,8 @@ import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import { User } from '../stores/user';
 import Layout from './layout/layout';
+import DemoLayout from './layout/demo-layout';
+import NotificationBanner from './notification-banner/notification-banner';
 import NotificationPill from './notification-pill/notification-pill';
 import { Spinner } from './ui/ui';
 import {
@@ -45,8 +47,8 @@ import {
 import { Flags } from '../stores/flags';
 import { ReactLocalization, LocalizationProvider } from '@fluent/react';
 const rtlLocales = require('../../../locales/rtl.json');
-const ListenPage = React.lazy(
-  () => import('./pages/contribution/listen/listen')
+const ListenPage = React.lazy(() =>
+  import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 
@@ -202,7 +204,7 @@ let LocalizedPage: any = class extends React.Component<
   }
 
   render() {
-    const { locale, notifications, toLocaleRoute } = this.props;
+    const { locale, notifications, toLocaleRoute, location } = this.props;
     const { l10n, uploadPercentage } = this.state;
 
     if (!l10n) return null;
@@ -262,7 +264,11 @@ let LocalizedPage: any = class extends React.Component<
                   }
                 />
               ))}
-              <Layout />
+              {location.pathname.includes(URLS.DEMO) ? (
+                <DemoLayout />
+              ) : (
+                <Layout />
+              )}
             </Switch>
           </>
         </LocalizationProvider>

@@ -77,6 +77,7 @@
 @custom-media --md-only (width >= 768px) and (width < 992px);
 @custom-media --lg-only (width >= 992px) and (width < 1200px);
 @custom-media --xl-only (width >= 1200px);
+@custom-media --demo-only (width < 1040px);
 
 @custom-media --tall (height > 800px);
 

@@ -35,12 +35,15 @@ az = azerbajdžančina
 ba = baškirčina
 be = bieloruština
 bg = bulharčina
+bm = bambarčina
 bn = bengálčina
 br = bretónčina
 bxr = buriatčina
 ca = katalánčina
 cak = kaqchikel
+ckb = Stredná kurdčina
 cnh = hakha chin
+co = korzičtina
 cs = čeština
 cv = čuvaština
 cy = waleština
@@ -62,6 +65,7 @@ fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
 gl = galícijčina
+gn = guarančina
 ha = hauština
 he = hebrejčina
 hi = hindčina
@@ -83,7 +87,6 @@ kbd = kabardčina
 kk = kazaština
 ko = kórejčina
 kpv = komi-zyriančina
-ku = kurdčina
 kw = kornčina
 ky = kirgizština
 lg = gandčina
@@ -249,7 +252,6 @@ whats-public = Čo všetko zverejňujeme?
 email-not-public = Vašu e-mailovú adresu nezverejňujeme.
 recordings-and-locale-public = Počet nahrávok a jazyky, do ktorých prispievate, budú verejné.
 username-optin-public = Môžete si vybrať, či bude vaše používateľské meno verejné alebo anonymné.
-demographic-deidentified-clarity = Dobrovoľne nahrané demografické údaje (napr. vek, pohlavie, jazyk a prízvuk) nebudú na vašom profile nikdy zverejnené a nebudú spojené s vašim účtom v datasete. Jednotlivé nahrávky budú spojené s demografickými údajmi za účelom presnejšej analýzy, napríklad aby mohol výskumný pracovník sústrediť výučbu modelu na určitú demografickú skupinu.
 username-email-not-demographic = Vaše používateľské meno a e-mailová adresa nebudú nijakým spôsobom prepojené s uverejnenými údajmi.
 
 ## Speak & Listen Shortcuts
@@ -308,8 +310,6 @@ profile-form-accent =
     .label = Prízvuk
 profile-form-age =
     .label = Vek
-profile-form-gender =
-    .label = Pohlavie
 leaderboard-visibility =
     .label = Viditeľnosť v rebríčku
 hidden = Skrytý
@@ -335,7 +335,7 @@ profile-close = Zavrieť
 profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spresniť naše hlasové údaje.
 thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
 why-demographic = Prečo na tom záleží?
-why-demographic-explanation = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
+why-demographic-explanation-2 = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
 accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>
 accept-privacy-title = Zásady ochrany osobných údajov
 login-identity = Identita pre prihlásenie
@@ -474,6 +474,8 @@ data-other-goto = Prejsť na { $name }
 data-other-download = Prevziať údaje
 data-bundle-button = Prevziať balík datasetov
 data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
+release-version = Verzia
+dataset-date = Dátum
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Zmiešaná
 review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmienkami</termsLink> a <privacyLink>zásadami ochrany súkromia</privacyLink>
@@ -591,6 +593,7 @@ contribute-more =
 record-cta = Začnite s nahrávaním
 record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
 record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
+record-platform-not-supported-ios-non-safari = V systéme iOS použite pre nahrávanie prehliadač Safari…
 record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
 record-no-mic-found = Nenašiel sa žiadny mikrofón.
 record-error-too-short = Vaša nahrávka bola príliš krátka.
@@ -757,3 +760,18 @@ help-contribute = Vytvorením profilu v Common Voice a prispením svojho hlasu, 
 login-company = Prihláste sa / zaregistrujte sa pomocou e-mailu { $company }
 profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 read-more-about = Prečítajte si viac na stránke O nás
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

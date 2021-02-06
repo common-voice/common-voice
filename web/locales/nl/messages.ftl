@@ -33,14 +33,18 @@ as = Assamees
 ast = Asturisch
 az = Azeri
 ba = Basjkiers
+bas = Basaa
 be = Wit-Russisch
 bg = Bulgaars
+bm = Bambara
 bn = Bengaals
 br = Bretons
 bxr = Boerjatisch
 ca = Catalaans
 cak = Kaqchikel
+ckb = Centraal-Koerdisch
 cnh = Hakha Chin
+co = Corsicaans
 cs = Tsjechisch
 cv = Chuvash
 cy = Welsh
@@ -62,6 +66,7 @@ fr = Frans
 fy-NL = Fries
 ga-IE = Iers
 gl = Galicisch
+gn = Guaraní
 ha = Hausa
 he = Hebreeuws
 hi = Hindi
@@ -81,9 +86,9 @@ kaa = Karakalpaks
 kab = Kabylisch
 kbd = Kabardisch
 kk = Kazachs
+kmr = Kurmanci
 ko = Koreaans
 kpv = Zurjeens
-ku = Koerdisch
 kw = Cornish
 ky = Kirgizisch
 lg = Luganda
@@ -140,6 +145,7 @@ uz = Oezbeeks
 vec = Venetiaans
 vi = Vietnamees
 vot = Wotisch
+yue = Kantonees
 zh-CN = Chinees (China)
 zh-HK = Chinees (Hongkong)
 zh-TW = Chinees (Taiwan)
@@ -235,7 +241,7 @@ whats-public = Wat is openbaar?
 email-not-public = We maken uw e-mailadres niet openbaar.
 recordings-and-locale-public = Het aantal opnamen en de talen waaraan u bijdraagt zijn openbaar.
 username-optin-public = U kunt kiezen of uw gebruikersnaam openbaar of anoniem is.
-demographic-deidentified-clarity = Optioneel ingediende demografische gegevens (b.v. leeftijd, geslacht, taal en accent) worden nooit openbaar gemaakt op uw profiel en worden niet gekoppeld aan uw account in de gegevensset. Afzonderlijke geluidsopnamen worden gekoppeld aan demografische gegevens voor een nauwkeurigere analyse – een onderzoeker kan bijvoorbeeld een trainingsmodel op een specifiek demografisch segment richten.
+demographic-deidentified-clarity-2 = Optioneel ingediende demografische gegevens (b.v. leeftijd, gender, taal en accent) worden nooit openbaar gemaakt op uw profiel en worden niet gekoppeld aan uw account in de gegevensset. Afzonderlijke geluidsopnamen worden gekoppeld aan demografische gegevens voor een nauwkeurigere analyse – een onderzoeker kan bijvoorbeeld een trainingsmodel op een specifiek demografisch segment richten.
 username-email-not-demographic = Uw gebruikersnaam en e-mailadres zullen niet met de gepubliceerde gegevens worden gekoppeld.
 
 ## Speak & Listen Shortcuts
@@ -265,6 +271,7 @@ shortcut-record-toggle-label = Opnemen/Stoppen
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Fragment opnieuw opnemen
 request-language-text = Ziet u uw taal nog niet op Common Voice?
+request-language-text-learn = Lees hier hoe u het kunt aanvragen!
 request-language-button = Een taal aanvragen
 
 ## ProjectStatus
@@ -293,8 +300,8 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Leeftijd
-profile-form-gender =
-    .label = Geslacht
+profile-form-gender-2 =
+    .label = Gender
 leaderboard-visibility =
     .label = Zichtbaarheid in ranglijst
 hidden = Verborgen
@@ -320,7 +327,7 @@ profile-close = Sluiten
 profile-explanation = Houd uw voortgang bij met een profiel en help onze spraakgegevens nauwkeuriger te zijn.
 thanks-for-account = Bedankt voor het bevestigen van uw account, nu gaan we uw profiel opbouwen.
 why-demographic = Waarom is dit belangrijk?
-why-demographic-explanation = Anonieme gebruikersgegevens zoals leeftijd, geslacht en accent helpen de audiogegevens die voor het trainen van de nauwkeurigheid van spraakherkenningsengines worden gebruikt te verbeteren. Uw gebruikersnaam en e-mailadres zullen nooit met uw ingediende gegevens worden gekoppeld, en u kunt ervoor kiezen uw gebruikersnaam openbaar of anoniem te maken.
+why-demographic-explanation-2 = Anonieme gebruikersgegevens zoals leeftijd, gender en accent helpen de audiogegevens die voor het trainen van de nauwkeurigheid van spraakherkenningsengines worden gebruikt te verbeteren. Uw gebruikersnaam en e-mailadres zullen nooit met uw ingediende gegevens worden gekoppeld, en u kunt ervoor kiezen uw gebruikersnaam openbaar of anoniem te maken.
 accept-privacy = Ik ga akkoord met hoe u met deze gegevens omgaat, zoals uitgelegd in Mozilla’s <privacyLink>Privacybeleid</privacyLink>
 accept-privacy-title = Privacybeleid
 login-identity = Aanmeldingsidentiteit
@@ -504,10 +511,12 @@ data-other-goto = Naar { $name }
 data-other-download = Gegevens downloaden
 data-bundle-button = Gegevenssetbundel downloaden
 data-bundle-description = Common Voice-gegevens plus alle overige bovenstaande gegevenssets.
+release-version = Versie
+dataset-date = Datum
 license = Licentie: <licenseLink>{ $license }</licenseLink>
 license-mixed = Gemengd
 data-download-singleword-title = Het enkel-woord-doelsegment downloaden
-data-download-singleword-callout = Dit is een segment dat zich richt op een gebruikscasus, waarin gegevens zitten die herkenning van gesproken cijfers, detectie van ja/nee en wekwoord-testgegevens voor <fxLink>Firefox Voice</fxLink> ondersteunen.
+data-download-singleword-callout-v2 = Dit is een gebruiksgebaseerd segment dat gegevens bevat om herkenning van gesproken cijfers en detectie van ja/nee mogelijk te maken.
 review-terms = Door gebruik te maken van Common Voice, gaat u akkoord met onze <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink>
 terms-agree = Ik ga akkoord
 terms-disagree = Ik ga niet akkoord
@@ -675,6 +684,7 @@ share-title-new = <bold>Help ons</bold> meer stemmen te vinden
 keep-track-profile = Houd uw voortgang bij met een profiel
 login-to-get-started = Meld u aan of registreer om te beginnen
 target-segment-first-card = U draagt bij aan ons eerste doelsegment
+target-segment-generic-card = U draagt bij aan een doelsegment
 target-segment-first-banner = Help bij het maken van het eerste doelsegment in het { $locale } van Common Voice
 target-segment-add-voice = Uw stem toevoegen
 target-segment-learn-more = Meer info
@@ -839,3 +849,39 @@ help-contribute = U kunt een diverse, open-source gegevensset helpen bouwen door
 login-company = Aanmelden / inschrijven met { $company }-e-mailadres
 profile-not-required = Een profiel is niet nodig om bij te dragen, hoewel het wel nuttig is
 read-more-about = Meer info op onze pagina Over
+
+## DemoLayout
+
+demo-get-started = Laten we beginnen
+demo-welcome = Welkom bij Common Voice
+demo-welcome-subheader = Interesse om meer te leren en bij te dragen aan het project?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice is de grootste openbare meertalige spraakgegevensset ter wereld.
+demo-language-select-card-body = Dankzij bijdragen van meer dan 259.000 mensen in meer dan 50 talen, worden deze gegevens gebruikt om spraakgestuurde toepassingen te trainen om beter op de menselijke stem te reageren.
+card-button-next = Volgende
+card-button-back = Terug
+demo-language-select-label = Door talen bladeren
+demo-eofy-header = Eindejaarsuitgave 2019
+demo-eofy-sub_header = Spraakgegevensset, klaar om te downloaden
+demo-account = Account
+
+## Demo Account
+
+demo-account-card-header = Een account is niet nodig om bij te dragen, hoewel het wel nuttig is.
+demo-account-card-body = Rechts schetsen we de voordelen en verduidelijken we welke informatie we openbaar maken. Gebruik de onderstaande koppelingen om op uw eigen apparaat aan de slag te gaan met een Common Voice-account.
+demo-account-enter-email =
+    .label = Voer een e-mailadres in om een inschrijfkoppeling te verzenden
+demo-account-sign-up = Inschrijfkoppeling verzenden
+
+## Demo Contribute
+
+demo-contribute-card-header = Klaar om uw stem te laten horen of uw oor te luisteren te leggen?
+demo-contribute-card-body = Nu u wat meer weet over Common Voice, waarom zou u het niet uitproberen? Klik op het microfoonpictogram om zinnen hardop voor te lezen. <br/><br/>Als u liever de spraakbijdragen van anderen wilt beoordelen, klikt u op het afspeelpictogram. Als de spraakopname die u hoort overeenkomt met de woorden op het scherm.
+demo-listen-subtitle = Klaar om bij te dragen?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Persoonlijke dashboards houden u op de hoogte van uw individuele voortgang en van die van de gemeenschap.
+demo-dashboard-card-body = Voor elk gedoneerd spraakfragment en elk gevalideerd audiofragment worden uw accountdashboards bijgewerkt om uw laatste vorderingen weer te geven in elke taal waaraan u bijdraagt. Ja, u kunt aan meer dan één bijdragen!<br/><br/> Gebruik dashboards om uw statistieken bij te houden, te bekijken hoe u het doet naast anderen in de gemeenschap en dagelijkse of wekelijkse bijdragedoelen vast te stellen.

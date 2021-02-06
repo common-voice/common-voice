@@ -33,14 +33,18 @@ as = 阿萨姆语
 ast = 阿斯图里亚斯语
 az = 阿塞拜疆语
 ba = 巴什基尔语
+bas = 巴萨语
 be = 白俄罗斯语
 bg = 保加利亚语
+bm = 班巴拉语
 bn = 孟加拉语
 br = 布列塔尼语
 bxr = 布里亚特语
 ca = 加泰罗尼亚语
 cak = 喀克其奎语
+ckb = 中库尔德语
 cnh = 哈卡钦语
+co = 科西嘉语
 cs = 捷克语
 cv = 楚瓦什语
 cy = 威尔士语
@@ -62,6 +66,7 @@ fr = 法语
 fy-NL = 弗里西语
 ga-IE = 爱尔兰语
 gl = 加利西亚语
+gn = 瓜拉尼语
 ha = 豪萨语
 he = 希伯莱语
 hi = 印地语
@@ -81,9 +86,9 @@ kaa = 卡拉卡尔帕克语
 kab = 卡拜尔语
 kbd = 卡巴尔达语
 kk = 哈萨克语
+kmr = 库尔曼吉库尔德语
 ko = 韩语
 kpv = 科米-齐良语
-ku = 库尔德语
 kw = 康沃尔语
 ky = 吉尔吉斯语
 lg = 卢干达语
@@ -140,6 +145,7 @@ uz = 乌兹别克语
 vec = 威尼斯语
 vi = 越南语
 vot = 沃提克语
+yue = 粤语
 zh-CN = 汉语（中国大陆）
 zh-HK = 汉语（香港）
 zh-TW = 汉语（台湾）
@@ -162,8 +168,8 @@ terms = 使用条款
 cookies = Cookie
 faq = 常见问题
 content-license-text = 内容遵循<licenseLink>知识共享许可协议</licenseLink>进行授权
-share-title = 帮我们找人一起献声！
-share-text = 请到 { $link } 处贡献出您的声音，帮助我们教导机器人们是如何说话的。
+share-title = 帮我们找人一起捐出一段声音！
+share-text = 请到 { $link } 捐出一段您的声音，帮助我们教导机器人们是如何说话的。
 link-copied = 链接已复制
 back-top = 回到顶端
 logout = 退出登录
@@ -174,7 +180,7 @@ home-title = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会
 home-cta = 有话在此大声说！
 wall-of-text-start = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-more-mobile = 大部分由行业巨头持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放。
-wall-of-text-more-desktop = 现在，您可以贡献出您的声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 只要朗读一段文字，即可帮助机器了解人们如何说话。您也可以复查其他贡献者的工作以提高质量。就这么简单!
+wall-of-text-more-desktop = 现在，您可以捐出一段声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 只要朗读一段文字，即可帮助机器了解人们如何说话。您也可以复查其他贡献者的工作以提高质量。就这么简单!
 wall-of-text-first = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，开发者需要大量的语音数据。
 wall-of-text-second = 大部分由行业巨头持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放而无障碍。
 show-wall-of-text = 详细了解
@@ -184,7 +190,7 @@ no-clips-to-validate = 看来这个语言没有任何片段可听。请帮助我
 vote-yes = 是
 vote-no = 否
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切换播放模式
-speak-subtitle = 贡献出您的声音
+speak-subtitle = 捐出一段声音
 speak-paragraph = 录制语音片段是构建我们的开放数据集不可缺少的组成部分；有人说这蛮好玩。
 speak-goal-text = 已录制片段数
 listen-subtitle = 帮助我们验证其他人的录音
@@ -196,7 +202,7 @@ voices-online = 目前上线的语音种数
 todays-progress = 本日进度
 help-reach-goal = 帮助我们达成 { $goal }
 read-terms-q = 您阅读过我们的使用条款了吗？
-ready-to-record = 准备好捐出您的声音了吗？
+ready-to-record = 准备好捐出一段声音了吗？
 all-locales = 全部
 today = 今天
 x-weeks-short =
@@ -232,7 +238,7 @@ whats-public = 有哪些资料会公开？
 email-not-public = 我们不会公开您的邮件地址。
 recordings-and-locale-public = 您贡献的录音数量，以及贡献的语言将会是公开的。
 username-optin-public = 您可以选择公开用户名或保持匿名。
-demographic-deidentified-clarity = 可选提交的人口统计数据（例如年龄、性别、语言、口音）不会在您的个人资料上公开，也不会在数据集里与您的账户关联。每个音频片段只会为了能做更精准的分析，而与您的人口统计数据关联。比如，研究者可能想要针对特定人群而细分化训练模型。
+demographic-deidentified-clarity-2 = 可选提交的人口统计数据（例如年龄、性别、语言、口音）不会在您的个人资料上公开，也不会在数据集里与您的账户关联。每个音频片段只会为了能做更精准的分析，而与您的人口统计数据关联。比如，研究者可能希望定位到特定的人群，细分化训练模型。
 username-email-not-demographic = 您的用户名与邮件地址不会与发布的数据相关联。
 
 ## Speak & Listen Shortcuts
@@ -262,6 +268,7 @@ shortcut-record-toggle-label = 录音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新录制片段
 request-language-text = 没在 Common Voice 看到您的语言吗？
+request-language-text-learn = 在此处了解如何请求新语言！
 request-language-button = 请求新语言
 
 ## ProjectStatus
@@ -289,7 +296,7 @@ profile-form-accent =
     .label = 口音
 profile-form-age =
     .label = 年龄
-profile-form-gender =
+profile-form-gender-2 =
     .label = 性别
 leaderboard-visibility =
     .label = 是否显示于排行榜
@@ -316,7 +323,7 @@ profile-close = 关闭
 profile-explanation = 通过使用个人资料跟踪您的进度，以帮助我们的语音数据更准确。
 thanks-for-account = 感谢您确认账户信息，接下来请提供您的个人资料。
 why-demographic = 为什么这很重要？
-why-demographic-explanation = 匿名的用户数据，如年龄、性别、口音等，帮助改进用于训练语音识别引擎准确性的音频数据。您的用户名和电子邮件永远不会与您提交的数据相关联，并且您可以选择将您的用户名设为公开或匿名。
+why-demographic-explanation-2 = 匿名的用户数据，如年龄、性别、口音等，帮助改进用于训练语音识别引擎准确性的音频数据。您的用户名和电子邮件永远不会与您提交的数据相关联，并且您可以选择将您的用户名设为公开或匿名。
 accept-privacy = 我同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息
 accept-privacy-title = 隐私政策
 login-identity = 登录身份
@@ -361,9 +368,9 @@ change-email-setings = 请到“设置”的“登录身份”修改电子邮件
 faq-title = 常见问题
 faq-what-cv-q = Common Voice 是什么？
 faq-what-cv-a =
-    语音识别技术正在改变我们与机器交互的方式，但目前可用的系统都相当昂贵，且为专有技术。Common Voice 是 Mozilla 旨在让语音识别技术变得更好、让任何人都更能使用的倡议的一部分。Common Voice 也是一组庞大的全球捐赠语音数据库，可让任何人快速轻松地训练出识别任何语音的应用程序。
+    语音识别技术正在改变我们与机器交互的方式，但现今的识别系统不仅昂贵，而且技术封闭。Common Voice 是 Mozilla 发起的一项倡议，旨在推进语音识别技术，更广泛地为大众服务。Common Voice 也是一套庞大的数据库，收录了全球各地贡献的语音数据，让任何人都可以更快更轻松地训练支持所有语言的语音识别程序。
     
-    我们不只收集被广泛使用的语言的语音样本，也收集较少人使用的语言的语音样本。发布多种多样的语音数据集，可帮助开发者、创业者，以及各个社区来缩小彼此之间的鸿沟。除 Common Voice 数据集外，我们还在构建一个名为 Deep Speech 的开源语音识别引擎。
+    除了应用最广泛的语言，我们还收集了使用人数较少的语种语音样本。一套丰富而又公开的语音数据集能够帮助开发者、创业者以及各个社区缩小语言规模的鸿沟。除 Common Voice 数据集外，我们还在构建一套名为 Deep Speech 的开源语音识别引擎。
 faq-why-important-q = 为什么如此重要？
 faq-why-important-a = 说话是人类相互沟通最自然的方式。而语音技术把这种方便感带到了计算机与移动设备上。我们想让开发者能够打造效果极好的语音识别程序，比如实时翻译器和语音数字助手。但此刻，大多数打造这类应用所必需的语音数据都是私有且昂贵的。我们希望 Common Voice 提供的数据集能满足开发者所需，把语音技术带到他们所说的语言。
 faq-how-get-q = 我要如何获取 Common Voice 数据？
@@ -420,7 +427,7 @@ about-header-description =
     这两个项目都是我们努力弭平数字语音鸿沟的一部分。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
     我们希望能够自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
 how-does-it-work-title = 原理是什么？
-how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出您的声音、帮助验证录音片段是否正确，让数据集能够变得更好。
+how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
 about-speak = 说话
 about-speak-text = 贡献者通过朗读一系列由他人捐赠的语句，将语音片段录制下来。
 about-listen-queue = 聆听队列
@@ -495,10 +502,12 @@ data-other-goto = 前往 { $name }
 data-other-download = 下载数据
 data-bundle-button = 批量下载数据集
 data-bundle-description = Common Voice 数据加上所有其他的语音数据集。
+release-version = 版本
+dataset-date = 日期
 license = 许可协议：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 data-download-singleword-title = 下载单词目标句段
-data-download-singleword-callout = 这是一系列以用例为驱动的句段集，其中包含用于 Firefox Voice 进行语音数字识别、检测是/否、唤醒词等功能的测试数据。
+data-download-singleword-callout-v2 = 用例驱动的句段，包含用于增强数字语音识别与“是/否”检测的数据。
 review-terms = 使用 Common Voice 即代表您同意我们的<termsLink>条款</termsLink>和<privacyLink>隐私声明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
@@ -666,6 +675,7 @@ share-title-new = <bold>请帮助我们</bold>找到更多声音
 keep-track-profile = 创建账户跟踪个人贡献进度
 login-to-get-started = 请完成登录或注册，即可开始使用
 target-segment-first-card = 您为我们的第一段目标细分录音作出了贡献
+target-segment-generic-card = 您正朝着目标段落数贡献录音
 target-segment-first-banner = 帮助在 Common Voice 创建 { $locale } 的第一段目标细分语音
 target-segment-add-voice = 添加您的声音
 target-segment-learn-more = 详细了解
@@ -817,3 +827,39 @@ help-contribute = 您可以通过创建 Common Voice 用户资料并贡献您的
 login-company = 使用 { $company } 邮箱登录 / 注册
 profile-not-required = 不需注册个人资料即可贡献，但如果注册的话会更有帮助
 read-more-about = 阅读我们的“关于”页面了解更多
+
+## DemoLayout
+
+demo-get-started = 让我们开始吧
+demo-welcome = 欢迎来到 Common Voice
+demo-welcome-subheader = 有兴趣了解更多信息，并为该项目作出贡献吗？
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice 是世界上最大的多语言公开语音数据集。
+demo-language-select-card-body = 得益于超过 25.9 万人对 50 多种语言的贡献，这些数据正被用于训练语音功能应用程序，以便更好地响应人类的声音。
+card-button-next = 下一步
+card-button-back = 上一步
+demo-language-select-label = 浏览器语言
+demo-eofy-header = 2019 - 年末发布
+demo-eofy-sub_header = 语音数据集，可供下载
+demo-account = 账户
+
+## Demo Account
+
+demo-account-card-header = 不需创建账户即可贡献，但如果有的话会更有帮助
+demo-account-card-body = 在右侧，我们概述了益处并阐明了我们公开的信息。使用下面的链接来开始在自己的设备上使用 Common Voice 账户。
+demo-account-enter-email =
+    .label = 输入电子邮件地址以发送注册链接
+demo-account-sign-up = 发送注册链接
+
+## Demo Contribute
+
+demo-contribute-card-header = 准备好录入您的声音或伸出耳朵倾听了吗？
+demo-contribute-card-body = 现在您对 Common Voice 有了更多的了解，为什么不来试一试呢？点击麦克风图标，开始大声朗读句子。<br/><br/>若您想复查其他人的语音贡献，请点击播放图标，以确认您听到的录音是否与屏幕上的文字相符。
+demo-listen-subtitle = 准备好作出贡献了吗？
+
+## Demo Dashboard
+
+demo-dashboard-card-header = 个人面板可让您了解个人和社区的最新进展。
+demo-dashboard-card-body = 每录入一个语音片段，每验证一个音频片段，您的账户面板都会更新，以反映您在每种语言中贡献的最新进展。是的，您可以为多个语言做出贡献！通过面板来跟踪您的统计数据，了解您与社区中其他人的情况，并设定每日或每周的贡献目标。

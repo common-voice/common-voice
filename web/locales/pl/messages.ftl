@@ -33,14 +33,18 @@ as = asamski
 ast = asturyjski
 az = azerski
 ba = baszkirski
+bas = basaa
 be = białoruski
 bg = bułgarski
+bm = bambara
 bn = bengalski
 br = bretoński
 bxr = buriacki
 ca = kataloński
 cak = kakczikel
+ckb = sorani
 cnh = haka czin
+co = korsykański
 cs = czeski
 cv = czuwaski
 cy = walijski
@@ -62,6 +66,7 @@ fr = francuski
 fy-NL = fryzyjski
 ga-IE = irlandzki
 gl = galicyjski
+gn = guarani
 ha = hausa
 he = hebrajski
 hi = hindi
@@ -81,9 +86,9 @@ kaa = karakałpacki
 kab = kabylski
 kbd = kabardyjski
 kk = kazachski
+kmr = kurmandżi
 ko = koreański
 kpv = komi (zyriański)
-ku = kurdyjski
 kw = kornijski
 ky = kirgiski
 lg = luganda
@@ -140,6 +145,7 @@ uz = uzbecki
 vec = wenecki
 vi = wietnamski
 vot = wotycki
+yue = kantoński
 zh-CN = chiński (Chiny)
 zh-HK = chiński (Hongkong)
 zh-TW = chiński (Tajwan)
@@ -238,7 +244,7 @@ whats-public = Co jest publiczne?
 email-not-public = Twój adres e-mail nie będzie dostępny publicznie.
 recordings-and-locale-public = Liczba nagrań i języki, w których uczestniczysz, będą publiczne.
 username-optin-public = Możesz ustawić swoją nazwę użytkownika jako publiczną lub anonimową.
-demographic-deidentified-clarity = Opcjonalnie wysłane dane demograficzne (np. wiek, płeć, język i akcent) nigdy nie będą publiczne w profilu użytkownika i nie będą powiązane z kontem w zbiorze danych. Poszczególne nagrania dźwiękowe będą powiązane z danymi demograficznymi w celu dokładniejszej analizy — na przykład naukowiec może chcieć ukierunkować model szkoleniowy na konkretny segment demograficzny.
+demographic-deidentified-clarity-2 = Opcjonalnie wysłane dane demograficzne (np. wiek, płeć, język i akcent) nigdy nie będą publiczne w profilu użytkownika i nie będą powiązane z kontem w zbiorze danych. Poszczególne nagrania dźwiękowe będą powiązane z danymi demograficznymi w celu dokładniejszej analizy — na przykład naukowiec może chcieć ukierunkować model szkoleniowy na konkretny segment demograficzny.
 username-email-not-demographic = Twoja nazwa użytkownika i adres e-mail nie będą powiązane z opublikowanymi danymi.
 
 ## Speak & Listen Shortcuts
@@ -268,6 +274,7 @@ shortcut-record-toggle-label = Nagraj/zatrzymaj
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nagraj ponownie
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
+request-language-text-learn = Dowiedz się, jak go zaproponować tutaj!
 request-language-button = Zaproponuj dodanie języka
 
 ## ProjectStatus
@@ -297,7 +304,7 @@ profile-form-accent =
     .label = Akcent
 profile-form-age =
     .label = Wiek
-profile-form-gender =
+profile-form-gender-2 =
     .label = Płeć
 leaderboard-visibility =
     .label = Widoczność na rankingu
@@ -324,7 +331,7 @@ profile-close = Zamknij
 profile-explanation = Kontroluj swój postęp za pomocą profilu i pomóż zwiększyć dokładność naszych danych.
 thanks-for-account = Dziękujemy za potwierdzenie konta. Utworzymy teraz Twój profil.
 why-demographic = Dlaczego to ważne?
-why-demographic-explanation = Anonimowe dane o użytkowniku, takie jak wiek, płeć i akcent zwiększają jakość danych dźwiękowych używanych do trenowania dokładności mechanizmów rozpoznawania mowy. Twoja nazwa użytkownika i adres e-mail nigdy nie będą powiązane z przesyłanymi danymi, a także możesz ustawić, czy nazwa użytkownika ma być publiczna lub anonimowa.
+why-demographic-explanation-2 = Anonimowe dane o użytkowniku, takie jak wiek, płeć i akcent zwiększają jakość danych dźwiękowych używanych do trenowania dokładności mechanizmów rozpoznawania mowy. Twoja nazwa użytkownika i adres e-mail nigdy nie będą powiązane z przesyłanymi danymi, a także możesz ustawić, czy nazwa użytkownika ma być publiczna lub anonimowa.
 accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink> Mozilli
 accept-privacy-title = Zasady ochrony prywatności
 login-identity = Tożsamość logowania
@@ -508,10 +515,12 @@ data-other-goto = Przejdź do { $name }
 data-other-download = Pobierz dane
 data-bundle-button = Pobierz zbiór danych
 data-bundle-description = Dane Common Voice ze wszystkimi innymi zbiorami danych powyżej.
+release-version = Wersja
+dataset-date = Data
 license = Licencja: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mieszana
 data-download-singleword-title = Pobierz segment docelowy dla pojedynczego słowa
-data-download-singleword-callout = To segment zawierający dane do rozpoznawania wymawianych cyfr, wykrywania tak/nie i dane testowe słowa wybudzającego dla projektu <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = To segment przeznaczony do konkretnego użytku, zawierający dane wspomagające rozpoznawanie wymawianych cyfr i wykrywanie tak/nie.
 review-terms = Korzystając z Common Voice, zgadzasz się na <termsLink>warunki korzystania</termsLink> i <privacyLink>zasady ochrony prywatności</privacyLink>
 terms-agree = Zgadzam się
 terms-disagree = Nie zgadzam się
@@ -680,6 +689,7 @@ share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów
 keep-track-profile = Śledź swoje postępy za pomocą profilu
 login-to-get-started = Zaloguj się lub zarejestruj, aby zacząć
 target-segment-first-card = Przyczyniasz się do naszego pierwszego segmentu docelowego
+target-segment-generic-card = Przyczyniasz się do segmentu docelowego
 target-segment-first-banner = Pomóż utworzyć pierwszy segment docelowy projektu Common Voice w języku: { $locale }
 target-segment-add-voice = Dodaj swój głos
 target-segment-learn-more = Więcej informacji
@@ -854,3 +864,39 @@ help-contribute = Możesz pomóc zbudować różnorodny zbiór danych open sourc
 login-company = Zaloguj/zarejestruj się za pomocą adresu e-mail firmy { $company }
 profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
 read-more-about = Przeczytaj więcej na stronie informacji o nas
+
+## DemoLayout
+
+demo-get-started = Pierwsze kroki
+demo-welcome = Witamy w Common Voice
+demo-welcome-subheader = Chcesz dowiedzieć się więcej i wziąć udział w projekcie?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice to największy na świecie publicznie dostępny zbiór danych z mową w wielu językach.
+demo-language-select-card-body = Dzięki wkładowi ponad 259 tysięcy osób w ponad 50 językach te dane są używane do trenowania aplikacji obsługujących mowę, aby lepiej reagowały na ludzki głos.
+card-button-next = Dalej
+card-button-back = Wstecz
+demo-language-select-label = Przeglądaj języki
+demo-eofy-header = Wydanie na koniec 2019 roku
+demo-eofy-sub_header = Zbiór danych z mową, gotowy do pobrania
+demo-account = Konto
+
+## Demo Account
+
+demo-account-card-header = Konto nie jest wymagane do wzięcia udziału, ale się przydaje.
+demo-account-card-body = Po prawej przedstawiamy korzyści i wyjaśniamy, jakie informacje są publiczne. Skorzystaj z poniższych odnośników, aby zacząć używać konta Common Voice na swoim urządzeniu.
+demo-account-enter-email =
+    .label = Wpisz adres e-mail, aby wysłać odnośnik rejestracji
+demo-account-sign-up = Wyślij odnośnik rejestracji
+
+## Demo Contribute
+
+demo-contribute-card-header = Chcesz dodać swój głos lub użyczyć ucha?
+demo-contribute-card-body = Skoro już trochę wiesz o projekcie Common Voice, dlaczego by go nie wypróbować? Kliknij ikonę mikrofonu, aby zacząć czytać zdania na głos. <br/><br/>Jeśli wolisz weryfikować nagrania innych osób, kliknij ikonę odtwarzania. Jeśli nagranie, które słyszysz, zgadza się ze słowami na ekranie.
+demo-listen-subtitle = Chcesz wziąć udział?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Osobisty panel informuje Cię na bieżąco o postępach indywidualnych i całej społeczności.
+demo-dashboard-card-body = Twój panel konta jest aktualizowany po każdym nagraniu i każdym zweryfikowaniu nagrania, aby odzwierciedlać Twoje najnowsze postępy w każdym języku, w jakim bierzesz udział. Tak, możesz nagrywać w więcej niż jednym!<br/><br/> Korzystaj z panelu, aby śledzić swoje statystyki, sprawdzić, jak radzisz sobie razem z innymi członkami społeczności oraz ustalać dzienne lub tygodniowe cele.

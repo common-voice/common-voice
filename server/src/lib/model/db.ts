@@ -4,6 +4,8 @@ import Schema from './db/schema';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 import { ChallengeToken, Sentence } from 'common';
+import { features } from 'common';
+import { TaxonomyToken, taxonomies } from 'common';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -16,14 +18,7 @@ const PRIORITY_TAXONOMY = 'Benchmark';
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
 // to benefit from single sentence constraints
-const SMALL_LANGUAGE_COMMUNITIES = [
-  'ab',
-  'cnh',
-  'dv',
-  'rm-sursilv',
-  'sah',
-  'vot',
-];
+const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'ca', 'es'];
 
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
@@ -82,21 +77,21 @@ export async function getLocaleId(locale: string): Promise<number> {
   return localeIds[locale];
 }
 
-export async function getTermId(term_name: string): Promise<number> {
+export async function getTermIds(term_names: string[]): Promise<number[]> {
   if (!termIds) {
     const [rows] = await getMySQLInstance().query(
-      `SELECT id, term_name FROM taxonomy_terms`
+      `SELECT id, term_sentence_source FROM taxonomy_terms`
     );
     termIds = rows.reduce(
-      (obj: any, { id, term_name }: any) => ({
+      (obj: any, { id, term_sentence_source }: any) => ({
         ...obj,
-        [term_name]: id,
+        [term_sentence_source]: id,
       }),
       {}
     );
   }
 
-  return termIds[term_name];
+  return term_names.map(name => termIds[name]);
 }
 
 export default class DB {
@@ -122,6 +117,17 @@ export default class DB {
       return '';
     }
     return email.toLowerCase();
+  }
+
+  /**
+   * Check whether target segment is live for this language
+   */
+  private getPrioritySegments(locale: string): string[] {
+    return Object.keys(taxonomies)
+      .filter((taxonomyToken: TaxonomyToken) => {
+        return taxonomies[taxonomyToken].locales.includes(locale);
+      })
+      .map((taxonomyToken: TaxonomyToken) => taxonomies[taxonomyToken].source);
   }
 
   /**
@@ -195,14 +201,16 @@ export default class DB {
   ): Promise<Sentence[]> {
     let taxonomySentences: Sentence[] = [];
     const locale_id = await getLocaleId(locale);
-    const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
+    const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
 
-    if (getConfig().BENCHMARK_LIVE) {
+    const prioritySegments = this.getPrioritySegments(locale);
+
+    if (prioritySegments.length) {
       taxonomySentences = await this.findSentencesMatchingTaxonomy(
         client_id,
         locale_id,
         count,
-        PRIORITY_TAXONOMY
+        prioritySegments
       );
     }
 
@@ -231,15 +239,20 @@ export default class DB {
           SELECT id, text
           FROM sentences
           WHERE is_used AND locale_id = ? AND NOT EXISTS (
-            SELECT *
+            SELECT original_sentence_id
             FROM clips
             WHERE clips.original_sentence_id = sentences.id AND
-                  clips.client_id = ?
-          ) AND NOT EXISTS (
-            SELECT *
+              clips.client_id = ?
+            UNION ALL
+            SELECT sentence_id
             FROM skipped_sentences skipped
             WHERE skipped.sentence_id = sentences.id AND
               skipped.client_id = ?
+            UNION ALL
+            SELECT sentence_id
+            FROM reported_sentences reported
+            WHERE reported.sentence_id = sentences.id AND
+              reported.client_id = ?
           )
           ${exemptFromSSRL ? '' : 'AND (clips_count = 0 OR has_valid_clip = 0)'}
           ORDER BY clips_count ASC
@@ -248,7 +261,7 @@ export default class DB {
         ORDER BY RAND()
         LIMIT ?
       `,
-      [locale_id, client_id, client_id, SHUFFLE_SIZE, count]
+      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }
@@ -257,26 +270,32 @@ export default class DB {
     client_id: string,
     locale_id: number,
     count: number,
-    term_name: string
+    segments: string[]
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
       `
         SELECT *
         FROM (
-          SELECT sentence_id AS id, text
+          SELECT sentence_id AS id, text, term_name, term_sentence_source
           FROM taxonomy_entries entries
+          LEFT JOIN taxonomy_terms terms ON terms.id = entries.term_id
           LEFT JOIN sentences ON entries.sentence_id = sentences.id
-          WHERE term_id = ?
+          WHERE term_id IN (?)
           AND is_used AND sentences.locale_id = ? AND NOT EXISTS (
-            SELECT *
+            SELECT original_sentence_id
             FROM clips
             WHERE clips.original_sentence_id = sentences.id AND
-                  clips.client_id = ?
-          ) AND NOT EXISTS (
-            SELECT *
+              clips.client_id = ?
+            UNION ALL
+            SELECT sentence_id
             FROM skipped_sentences skipped
             WHERE skipped.sentence_id = sentences.id AND
               skipped.client_id = ?
+            UNION ALL
+            SELECT sentence_id
+            FROM reported_sentences reported
+            WHERE reported.sentence_id = sentences.id AND
+              reported.client_id = ?
           )
           LIMIT ?
         ) t
@@ -284,8 +303,9 @@ export default class DB {
         LIMIT ?
       `,
       [
-        await getTermId(term_name),
+        await getTermIds(segments),
         locale_id,
+        client_id,
         client_id,
         client_id,
         SHUFFLE_SIZE,
@@ -293,11 +313,13 @@ export default class DB {
       ]
     );
 
-    return (rows || []).map(({ id, text }: any) => ({
-      id,
-      text,
-      taxonomy: term_name,
-    }));
+    return (rows || []).map(
+      ({ id, text, term_name, term_sentence_source }: any) => ({
+        id,
+        text,
+        taxonomy: { name: term_name, source: term_sentence_source },
+      })
+    );
   }
 
   async findClipsNeedingValidation(
@@ -307,14 +329,16 @@ export default class DB {
   ): Promise<DBClipWithVoters[]> {
     let taxonomySentences: DBClipWithVoters[] = [];
     const locale_id = await getLocaleId(locale);
-    const exemptFromSSRL = SMALL_LANGUAGE_COMMUNITIES.includes(locale);
+    const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
 
-    if (getConfig().BENCHMARK_LIVE) {
+    const prioritySegments = this.getPrioritySegments(locale);
+
+    if (prioritySegments.length) {
       taxonomySentences = await this.findClipsMatchingTaxonomy(
         client_id,
         locale_id,
         count,
-        PRIORITY_TAXONOMY
+        prioritySegments
       );
     }
 
@@ -346,10 +370,14 @@ export default class DB {
         LEFT JOIN sentences on clips.original_sentence_id = sentences.id
         WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ?
         AND NOT EXISTS(
-            SELECT *
-            FROM votes
-            WHERE votes.clip_id = clips.id AND client_id = ?
-          )
+          SELECT clip_id
+          FROM votes
+          WHERE votes.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM reported_clips reported
+          WHERE reported.clip_id = clips.id AND client_id = ?
+        )
         AND sentences.clips_count <= 15
         ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
@@ -357,7 +385,7 @@ export default class DB {
       ) t
       ORDER BY RAND()
       LIMIT ?`,
-      [locale_id, client_id, client_id, SHUFFLE_SIZE, count]
+      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
@@ -369,37 +397,45 @@ export default class DB {
     client_id: string,
     locale_id: number,
     count: number,
-    term_name: string
+    segments: string[]
   ): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.query(
       `
       SELECT *
       FROM (
-        SELECT * FROM clips WHERE original_sentence_id IN (
-          SELECT sentence_id FROM taxonomy_entries
-          LEFT JOIN sentences ON taxonomy_entries.sentence_id = sentences.id
+        SELECT * FROM clips INNER JOIN (
+          SELECT sentence_id, term_name, term_sentence_source
+          FROM taxonomy_entries entries
+          LEFT JOIN taxonomy_terms terms ON entries.term_id = terms.id
+          LEFT JOIN sentences ON entries.sentence_id = sentences.id
           WHERE locale_id = ?
           AND sentence_id NOT IN (
             SELECT original_sentence_id FROM (
-              SELECT original_sentence_id, clips.is_valid, count(votes.id) as vote_count
+              SELECT original_sentence_id, count(votes.id) as vote_count
               FROM clips
               LEFT JOIN votes ON votes.clip_id = clips.id
               LEFT JOIN taxonomy_entries entries
                 ON clips.original_sentence_id = entries.sentence_id
               WHERE clips.locale_id = ?
-              AND (votes.client_id = ?)
-              AND entries.term_id = ?
+              AND votes.client_id = ?
+              AND entries.term_id IN (?)
               GROUP BY original_sentence_id
               HAVING vote_count >= 2
             ) vote_counts
           )
-        )
+          AND entries.term_id IN (?)
+        ) term_sentences
+          ON clips.original_sentence_id = term_sentences.sentence_id
         AND is_valid IS NULL
         AND clips.client_id <> ?
         AND NOT EXISTS(
-          SELECT *
+          SELECT clip_id
           FROM votes
           WHERE votes.clip_id = clips.id AND client_id = ?
+          UNION ALL
+          SELECT clip_id
+          FROM reported_clips reported
+          WHERE reported.clip_id = clips.id AND client_id = ?
         )
         GROUP BY original_sentence_id
         LIMIT ?
@@ -410,7 +446,9 @@ export default class DB {
         locale_id,
         locale_id,
         client_id,
-        await getTermId(term_name),
+        await getTermIds(segments),
+        await getTermIds(segments),
+        client_id,
         client_id,
         client_id,
         SHUFFLE_SIZE,
@@ -419,7 +457,10 @@ export default class DB {
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
-      clip.taxonomy = term_name;
+      clip.taxonomy = {
+        name: clip.term_name,
+        source: clip.term_sentence_source,
+      };
     }
 
     return clips as DBClipWithVoters[];
@@ -606,10 +647,10 @@ export default class DB {
 
     const intervals = [
       '100 YEAR',
-      '1 YEAR',
+      '12 MONTH',
+      '9 MONTH',
       '6 MONTH',
-      '1 MONTH',
-      '1 WEEK',
+      '3 MONTH',
       '0 HOUR',
     ];
     const ranges = intervals
@@ -871,7 +912,7 @@ export default class DB {
   async insertDownloader(locale: string, email: string, dataset: string) {
     await this.mysql.query(
       `
-        INSERT IGNORE INTO downloaders (locale_id, email, dataset_id) VALUES (?, ?, (SELECT id FROM datasets WHERE release_dir = ?))
+        INSERT IGNORE INTO downloaders (locale_id, email, dataset_id) VALUES (?, ?, (SELECT id FROM datasets WHERE release_dir = ? LIMIT 1))
       `,
       [await getLocaleId(locale), email, dataset]
     );
@@ -969,5 +1010,21 @@ export default class DB {
       challengeEnded = Date.now() > startDateUtc.valueOf() + THREE_WEEKS;
     }
     return challengeEnded;
+  }
+
+  async deleteClip(id: string) {
+    await this.mysql.query(`DELETE FROM clip_demographics WHERE clip_id = ?`, [
+      id,
+    ]);
+    await this.mysql.query(`DELETE FROM votes WHERE clip_id = ?;`, [id]);
+    await this.mysql.query(`DELETE FROM clips WHERE id = ? LIMIT 1;`, [id]);
+    console.log(`Deleted clip and votes for clip ID ${id}`);
+  }
+
+  async markInvalid(id: string) {
+    await this.mysql.query(
+      `UPDATE clips SET is_valid = 0 WHERE id = ? LIMIT 1;`,
+      [id]
+    );
   }
 }

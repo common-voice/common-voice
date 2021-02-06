@@ -23,7 +23,8 @@ export type CommonVoiceConfig = {
   MYSQLREPLICAHOST?: string;
   MYSQLPORT: number;
   MYSQLREPLICAPORT?: number;
-  BUCKET_NAME: string;
+  CLIP_BUCKET_NAME: string;
+  DATASET_BUCKET_NAME: string;
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
   RELEASE_VERSION?: string;
@@ -58,7 +59,7 @@ const configEntry = (key: string, defaultValue: any, cast = castDefault) =>
 
 const BASE_CONFIG: CommonVoiceConfig = {
   VERSION: configEntry('CV_VERSION', null), // Migration number (e.g. 20171205171637), null = most recent
-  RELEASE_VERSION: configEntry('GIT_COMMIT_SHA', null), // release version set by nubis,
+  RELEASE_VERSION: configEntry('GIT_COMMIT_SHA', null), // X-Release-Version header
   PROD: configEntry('CV_PROD', false, castBoolean), // Set to true for staging and production.
   SERVER_PORT: configEntry('CV_SERVER_PORT', 9000, castInt),
   DB_ROOT_USER: configEntry('CV_DB_ROOT_USER', 'root'), // For running schema migrations.
@@ -70,7 +71,11 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MYSQLPORT: configEntry('CV_MYSQLPORT', 3306, castInt),
   MYSQLREPLICAHOST: configEntry('CV_MYSQLREPLICAHOST', ''),
   MYSQLREPLICAPORT: configEntry('CV_MYSQLREPLICAPORT', 3306, castInt),
-  BUCKET_NAME: configEntry('CV_BUCKET_NAME', 'common-voice-corpus'),
+  CLIP_BUCKET_NAME: configEntry('CV_CLIP_BUCKET_NAME', 'common-voice-clips'),
+  DATASET_BUCKET_NAME: configEntry(
+    'CV_DATASET_BUCKET_NAME',
+    'common-voice-datasets'
+  ),
   BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', ''),
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),

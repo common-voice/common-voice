@@ -40,9 +40,9 @@ export default class Schema {
     const host = opts.host;
     const database = opts.database;
     await this.mysql.rootTransaction(
-      `GRANT SELECT, INSERT, UPDATE, DELETE
-       ON ${database}.* TO '${username}'@'${host}'
-       IDENTIFIED BY '${password}'; FLUSH PRIVILEGES;`
+      `CREATE USER IF NOT EXISTS '${username}' IDENTIFIED BY '${password}';
+       GRANT SELECT, INSERT, UPDATE, DELETE
+       ON ${database}.* TO '${username}'; FLUSH PRIVILEGES;`
     );
 
     // Have the new user use the database.

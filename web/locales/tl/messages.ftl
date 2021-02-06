@@ -1,12 +1,14 @@
 ## General
 
 yes-receive-emails = Oo, magpadala sa akin ng mga email. Gusto kong manatiling may kaalaman tungkol sa Common Voice Project.
+stayintouch = Kami sa Mozilla ay bumubuo ng komunidad ng teknolohiya sa boses. Gusto naming manatiling may-ugnayan sa mga kaganapan, bagong mapagkukunan ng data, at makarinig pa tungkol sa kung papaano mo ginagamit ang data na ito.
 privacy-info = Kami ay nangangako na pangalagaan ang iyong impormasyon. Magbasa pa sa aming <privacyLink> Abiso sa Pagkapribado </privacyLink>.
 return-to-cv = Bumalik sa Common Voice
 email-input =
     .label = Email
 submit-form-action = Ipadala
 loading = Loading…
+email-opt-in-info = Gusto kong makatanggap ng email katulad ng mga paalala sa layunin, aking kaganapang pag-unlad, at mga newsletter tungkol sa Common Voice.
 email-opt-in-info-title = Sumali sa mailing list ng Common Voice
 indicates-required = * Nangangahulugang kailangang patlang
 not-available-abbreviation = N/A
@@ -60,7 +62,6 @@ ga-IE = Irish
 gl = Galician
 ha = Hausa
 he = Hebreyo
-hi-IN = Hindi
 hr = Croatian
 hsb = Sorbian, Upper
 hu = Hungarian
@@ -77,7 +78,6 @@ kbd = Kabardian
 kk = Kazakh
 ko = Korean
 kpv = Komi-Zyrian
-ku = Kurdish
 kw = Cornish
 ky = Kyrgyz
 lg = Luganda
@@ -248,8 +248,6 @@ profile-form-accent =
     .label = Punto
 profile-form-age =
     .label = Edad
-profile-form-gender =
-    .label = Kasarian
 hidden = Nakatago
 visible = Makikita
 native-language =
@@ -274,15 +272,16 @@ off = Off
 on = On
 retry-voice-wave-recording = SUBUKAN MULI
 delete-voice = BURAHIN
+recording-voice-wave = Nagrerecord
 ready-to-upload = I-UPLOAD
 cancel-avatar-clip-recording = KANSELAHIN
 add-language = Magdagdag ng Wika
 
 ## FAQ
 
-faq-title = Frequently Asked Questions
+faq-title = Mga kadalasang tinatanong
 faq-what-cv-q = Ano ang Common Voice?
-faq-why-important-q = Bakit it mahalaga?
+faq-why-important-q = Bakit ito mahalaga?
 faq-why-mission-q = Bakit kasama sa misyong ng Mozilla ang Common Voice?
 faq-what-cv-and-deepspeech-q = Ano ang pinagkaiba ng Common Voice at Deep Speech?
 faq-why-my-lang-q = Bakit hindi kasama ang aking wika?
@@ -315,9 +314,8 @@ localization = Lokalisasyon
 sentence-collection = Pagkalap ng mga Pangungusap
 sst = Speech-to-text (STT)
 
-## NotFound
+## Error pages
 
-notfound-title = Hindi makita
 
 ## Data
 
@@ -412,7 +410,6 @@ easy-difficulty = Madali
 average-difficulty = Katamtaman
 difficult-difficulty = Mahirap
 pro-difficulty = Pro
-n-clips = { NUMBER($count) } mga clip
 help-share-goal = Tulungan kaming humanap ng mas marami pang mga tinig, ibahagi ang iyong mga layunin
 goal-interval-weekly = Linguhan
 share-goal-type-speak = Nagsasalita
@@ -426,3 +423,18 @@ profile-form-delete = Burahin ang Profile
 ## Landing
 
 welcome-staff = Mabuhay ang mga kawani ng { $company }!
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
