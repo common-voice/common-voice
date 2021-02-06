@@ -252,15 +252,34 @@ email-not-public = موږ به ستاسو بریښنالیک نه عاموو.
 recordings-and-locale-public = د ثبتونو شمیره او کومې ژبې چې تاسو پکې ونډه اخلئ عامه به وي.
 username-optin-public = تاسو کولی شئ خپل کارن نوم عام یا ګمنام کړئ.
 demographic-deidentified-clarity-2 = په اختیاري توګه سپارل شوې د نفوسو ډېټا (د بیلګې په توګه عمر ، جنس ، ژبه ، او تلفظ) به هیڅکله ستاسو په پېژنیال کې عام نه شي، او په ډېټاسیټ کې به ستاسو د ګڼون سره ونه نښلول شي. انفرادي غږیږ کلیپونه به د ډیرو دقیقو تحلیلونو موخې لپاره د نفوسو ډېټا سره تړاو ولري - د مثال په توګه، یو څیړونکی ممکن د یوې ځانګړي ډیموګرافیکي برخې ته د روزنې ماډل په نښه کول وغواړي.
+username-email-not-demographic = ستاسو کارن نوم او برېښنالیک به د خپاره شوي مالوماتو سره تړاو ونلري.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = ولوبوئ / ودروئ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = ثبتول/ودرول
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = کليپ له سره ثبت کړئ
 request-language-text = ایا خپله ژبه مو تراوسه په عام غږ کې نه وینئ؟
 request-language-text-learn = دلته يې د غوښتلو څرنګوالی زده کړئ!
 request-language-button = د يوې ژبې غوښتنه وکړئ
@@ -269,6 +288,11 @@ request-language-button = د يوې ژبې غوښتنه وکړئ
 
 status-title = د پروژې عمومي حالت: وګورئ چې موږ څومره لیرې راغلي یو!
 status-contribute = د خپل غږ مرسته وکړئ
+status-hours =
+    { $hours ->
+        [one] تر دې دمه یو تایید شوی ساعت!
+       *[other] تر دې دمه { $hours } تایید شوي ساعتونه!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = راتلونکي موخې: { $goal }
