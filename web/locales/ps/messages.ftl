@@ -515,9 +515,59 @@ awards = جایزې
 you = تاسو
 everyone = هرڅوک
 contribution-activity = د مرستې چارندتیا
+top-contributors = مخکښ مرسته کوونکي
+recorded-clips = ثبت شوي کليپونه
+validated-clips = تایید شوي کلیپونه
+total-approved = ټولټال منل شوي
+overall-accuracy = په ټولیز ډول کره‌توب
+set-visibility = زما لید تنظیم کړئ
+visibility-overlay-note = یادونه: کله چې 'څرګند' ته ټاکل شوې وي، نو دا امستنه د <profileLink>پېژنیال پاڼه</profileLink> څخه بدلیدلی شي
+show-ranking = زما درجه بندي وښایاست
 
 ## Custom Goals
 
+get-started-goals = په موخو باندې پیل وکړئ
+create-custom-goal = دودیز موخه رامینځته کړئ
+goal-type = تاسو کوم ډول موخې غواړئ جوړوي کړئ؟
+both-speak-and-listen = دواړه
+both-speak-and-listen-long = دواړه (خبرې وکړئ او واورئ)
+daily-goal = ورځنۍ موخه
+weekly-goal = د اونۍ موخه
+easy-difficulty = اسانه
+average-difficulty = اوسط
+difficult-difficulty = ستونزمن
+pro-difficulty = مسلکي
+lose-goal-progress-warning = د خپل موخې په سمون سره، تاسو ممکن خپل شته پرمختګ له لاسه ورکړئ.
+want-to-continue = ایا تاسو دوام ورکول غواړې؟
+finish-editing = لومړی سمون بشپړ کړئ؟
+lose-changes-warning = اوس پرېښودل پدې معنی چې تاسو به خپل بدلونونه له لاسه ورکوئ
+build-custom-goal = دودیز موخه جوړه کړئ
+help-reach-hours-pluralized =
+    مرسته وکړئ چې ورسیږو{ NUMBER($hours) ->
+        [one] { $hours } ساعت
+       *[other] { $hours } ساعتونه
+    }په { $language } کې د شخصي موخې سره
+help-reach-hours-general-pluralized =
+    رسیدو ته د عام ږغ سره مرسته وکړئ{ NUMBER($hours) ->
+        [one] { $hours } ساعت
+       *[other] { $hours } ساعتونه
+    }په یوې ژبې کې شخصي موخه ولري
+set-a-goal = یوه موخه وټاکئ
+cant-decide = پریکړه نشئ کولئ؟
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } ساعت
+       *[other] { $totalHours } ساعتونه
+    }د لاسته راوړلو وړ یوازي په { NUMBER($periodMonths) ->
+        [one] { $periodMonths } میاشت
+       *[other] { $periodMonths } میاشتې
+    }که چیرې{ NUMBER($people) ->
+        [one] { $people } کس
+       *[other] { $people } خلک
+    }ثبتونه{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } کلیپ
+       *[other] { $clipsPerDay } کلیپونه
+    } په یوه ورځ
 
 ## Profile Delete
 
