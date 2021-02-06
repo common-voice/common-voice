@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Erê, ji min re emaîlan bişîne. Ez dixwazim derbarê projeya Common Voiceê de bêm agahdarkirin.
-stayintouch = Em li ser Mozillayê civakake têkildarî teknolojiyên dengî ava dikin. Em dixwazin venûkirinên nû û çavkaniyên nû bigihînin te û her wiha em dixwazin bizanin ka tu daneyan çawa bi kar tînî.
+stayintouch = Em li ser Mozillayê civakake têkildarî teknolojiyên dengî ava dikin. Em dixwazin nûvekirinên nû û çavkaniyên nû bigihînin te û her wiha em dixwazin bizanin ka tu daneyan çawa bi kar tînî.
 privacy-info = Em soz didin ku em ê agahiyên te bi baldarî li cem xwe bihêlin. Ji bo agahiyên zêdetir, <privacyLink>Agahdariya Nihêniyê</privacyLink> bixwîne.
 return-to-cv = Vegere Common Voiceê
 email-input =
@@ -201,7 +201,7 @@ wall-of-text-second =
     Piraniya daneyan ji aliyê şirketên mezin ve tên bikaranîn ku ji bo piraniya mirovan ne berdest in. Em
     difikirin ku ev rê li nûbûnê digire. Loma me Common Voice da destpêkirin ku pergalên naskirina dengan
     ji bo her kesî vekirî bin.
-show-wall-of-text = Bêtir Bixwînin
+show-wall-of-text = Zêdetir Bixwîne
 help-us-title = Ji bo pesendkirina hevokan alîkariya me bike!
 help-us-explain = Pêl bişkoka lêdanê bike û lê guhdarî bike: Gelo hevoka xwarê rast hatiye xwendin?
 no-clips-to-validate = Wisa xuya ye ji bo vî zimanî ti klîbek tune ye ku lê guhdarî bikî. Niha axaftinan qeyd bike ku lîste bê dagirtin.
@@ -598,7 +598,7 @@ contribute-more =
         [one] Tu amade yî { $count } din jî bikî?
        *[other] Tu amade yî { $count } hebên din jî bikî?
     }
-record-cta = Dest bi tomarkirinê bike
+record-cta = Dest pê bike
 record-platform-not-supported = Mixabin, platforma te niha nayê destekkirin.
 record-platform-not-supported-desktop = Li ser kombersa xwe, tu dikarî guhertoyên dawîn ên van gerokan bi kar bînî:
 record-platform-not-supported-ios-non-safari = Ji bo çalakkirina tomarkirinê li ser iOS'ê, bi Safariyê re berdewam bike…
@@ -800,7 +800,6 @@ demo-account-sign-up = Girêdana klîbê bişîne
 ## Demo Contribute
 
 demo-contribute-card-header = Tu amade yî dengê xwe tevlî bikî an jî yên heyî guhdarî bikî?
-demo-contribute-card-body = Niha, tu der barê Common Voiceê de gelek tiştan dizanî, ka tu çima wê naceribînî? Ji bo xwendina hevokan bi dengekî bilind, li îkona mîkrofonê bitikîne. <br/><br/>Heke tu bixwazî dengên kesên din ên heyî binirxînî, li îkona lêde/playê bitikîne. Piştre kontrol bike bê ka ew hevokên tu guhdarî dikî û yên li ekranê nivîsandî li hev tên yan na.
 demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 
 ## Demo Dashboard
