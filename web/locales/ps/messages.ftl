@@ -359,7 +359,7 @@ record-voice-wave = VOICEWAVE ثبت کړئ
 retry-voice-wave-recording = بیا کوښښ وکړئ
 re-record = بیا-ثبت کړئ
 delete-voice = ړنګ کړئ
-recording-voice-wave = ریکاټ
+recording-voice-wave = ثبت
 delete-voice-clip = یا    غږ کلیپ ړنګ کړئ
 ready-to-upload = اپلوډ کړئ
 avatar-clip-fact = دا یو اوږد بنسټیز حقیقت دی چې د لوستونکې پام به د یوې پاڼې د لوستلو وړ مینځپانګې لخوا ګډوډیږي کله چې د هغې هډوانې ته ګوري.
@@ -420,6 +420,15 @@ about-listen = واورئ
 
 ## Data
 
+terms-agree = زه همغږی یم
+terms-disagree = زه همغږی نه یم
+review-aborted = اپلوډ رد شو. ایا تاسو غواړئ خپل ثبتونه ړنګ کړئ؟
+review-submit-title = بیاکتنه او سپارل
+review-submit-msg = د ثبتولو څخه مو مننه! <lineBreak></lineBreak> اوس خپل کليپونه لاندې وګورئ او واستوئ.
+review-recording = بیاکتنه
+review-rerecord = بیا ثبت کول
+review-cancel = سپارنه لغوه کړئ
+review-keep-recordings = ثبتونه وساتئ
 
 ## Datasets Page
 
@@ -480,7 +489,14 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> کلیپونه
     }
 goal-help-recording = تاسو زموږ د ورځني{ $goalValue } ثبتولو موخې څخه د عام غږ <goalPercentage></goalPercentage> ته رسولو کې مرسته کړې!
-record-abort-continue = ثبتول بشپړول
+record-cta = ثبتول پیل کړئ
+record-platform-not-supported-ios-non-safari = په iOS کې مهرباني وکړئ د ثبت فعالولو لپاره په سفاري کې دوام ورکړئ ...
+record-error-too-short = ثبت ډیر لنډ وو.
+record-error-too-long = ثبت ډیر اوږد وو.
+record-error-too-quiet = ثبت ډیر غلی وو
+record-cancel = د سره ثبت کول لغوه کړئ
+record-abort-title = لومړی ثبتول پای ته ورسوئ؟
+record-abort-continue = ثبت بشپړ کړئ
 record-abort-delete = ووځئ او کليپونه ړنګ کړئ
 
 ## Reporting
@@ -514,8 +530,8 @@ days =
     }
 recordings =
     { $count ->
-        [one] ثبتونه
-       *[other] ثبتونې
+        [one] ثبت
+       *[other] ثبتونه
     }
 validations =
     { $count ->
