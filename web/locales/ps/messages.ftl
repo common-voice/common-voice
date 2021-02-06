@@ -408,9 +408,21 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = ولې عام غږ
+how-does-it-work-title = دا څنګه کار کوي؟
 about-speak = وغږیږئ
+about-speak-text = مرسته کوونکي د بسپنه شوي جملو د بانک له لوستلو څخه غږیز کليپونه ثبتوي.
 about-listen-queue = واورئ - کتار
+about-listen-queue-text = غږیز کليپونه د سپارنې کتار ته دننه کیږي چې د اوریدلو لپاره یې چمتو کوي.
 about-listen = واورئ
+about-listen-text = کارونکي د مرسته شوي کلیپونو کره‌والی تاییدوي، دا ګوري چې ویناوال جمله په سمه توګه لولي.
+about-is-it-valid = ایا کلیپ باوري دی؟
+about-is-it-valid-text = یو غږیز کلیپ "باوري" په نښه کیږي کله چې یو کاروونکی ورته د هو رایه ورکړي.
+about-yes-votes = ≥ 2 هو رایې
+about-no-votes = ≥ 2 د نه رایې
+about-dataset-new = عام غږ ډېټاسیټ
+about-partners = شریکان
+about-become-a-partner = ملګری شئ
+about-nav-why-common-voice = ولې ؟
 
 ## Glossary
 
@@ -612,6 +624,7 @@ which-goal-type = ایا تاسو غواړئ چې وغږیږئ، واورئ یا
 
 ## Profile Delete
 
+delete-q = ایا تاسو غواړئ د خپل غږ ثبتونه هم ړنګ کړئ، یا تاسو غوره ګڼئ چې د عام غږ ډېټاسیټ کې يې وساتئ؟
 
 ## Landing
 
