@@ -145,6 +145,7 @@ uz = uzbek
 vec = vènet
 vi = vietnamita
 vot = vòtic
+yue = cantonès
 zh-CN = xinès (Xina)
 zh-HK = xinès (Hong Kong)
 zh-TW = xinès (Taiwan)
@@ -270,6 +271,7 @@ shortcut-record-toggle-label = Enregistra/atura
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Torna a enregistrar el tall
 request-language-text = No trobeu la vostra llengua al Common Voice?
+request-language-text-learn = Apreneu com sol·licitar-ho aquí!
 request-language-button = Sol·licita una llengua
 
 ## ProjectStatus
@@ -512,7 +514,7 @@ dataset-date = Data
 license = Llicència: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
 data-download-singleword-title = Baixeu el segment específic amb paraules individuals
-data-download-singleword-callout = Es tracta d'un segment basat en casos d'ús que conté dades per al reconeixement de dígits parlats, detecció de «sí/no» i dades de proves de paraules d'activació per al <fxLink> Firefox Voice </fxLink>.
+data-download-singleword-callout-v2 = Això és segmentació de casos d'ús que conté dades per a potenciar el reconeixement dels dígits i la detecció de les paraules «sí» i «no».
 review-terms = En usar Common Voice, accepteu les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink>
 terms-agree = D'acord
 terms-disagree = No hi estic d'acord
@@ -875,7 +877,6 @@ demo-account-sign-up = Envia l'enllaç de registre
 ## Demo Contribute
 
 demo-contribute-card-header = Esteu preparat per a afegir la veu o parar l'orella?
-demo-contribute-card-body = Ara que ja sabeu una mica més sobre el Common Voice, per què no ho proveu? Feu clic en la icona del micròfon per a començar a llegir frases en veu alta. <br/><br/>Si preferiu revisar les contribucions de veu d'altres persones, feu clic a la icona de reproducció. Si l'enregistrament de veu que sentiu coincideix amb les paraules escrites en la pantalla.
 demo-listen-subtitle = Preparat per a col·laborar?
 
 ## Demo Dashboard
