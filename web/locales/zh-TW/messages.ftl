@@ -861,7 +861,7 @@ demo-account-sign-up = 寄註冊鏈結給我
 ## Demo Contribute
 
 demo-contribute-card-header = 準備好來參與錄音，或是把耳朵借給我們一用嗎？
-demo-contribute-card-body = 現在您知道更多 Common Voice 的資訊了，不來試試看嗎？請點擊麥克風圖示來大聲朗讀句子。<br/><br/>若您想要來審核其他人錄下的片段，請點擊播放圖示來確認聽到的錄音是否與畫面上的文字相符。
+demo-contribute-card-body-v2 = 現在您知道更多 Common Voice 的資訊了，不來試試看嗎？請點擊麥克風圖示來大聲朗讀句子。<br/><br/>若您想要來審核其他人錄下的片段，請點擊播放圖示，即可幫助大家確認錄音內容是否與畫面上的文字相符。
 demo-listen-subtitle = 準備好參與貢獻了嗎？
 
 ## Demo Dashboard
