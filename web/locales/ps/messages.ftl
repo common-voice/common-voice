@@ -174,6 +174,7 @@ logout = وتل
 
 ## Home Page
 
+home-title = عام غږ د موزیلا نوښت دی چې مرسته کوي ماشینونو ته وښووي چې ریښتیني خلک څنګه خبرې کوي.
 home-cta = خبرې وکړئ، دلته ونډه واخلئ!
 all-locales = ټول
 today = نن
@@ -212,12 +213,29 @@ benefits = ګټې
 
 ## Speak Shortcuts
 
+request-language-text = ایا خپله ژبه مو تراوسه په عام غږ کې نه وینئ؟
+request-language-text-learn = دلته يې د غوښتلو څرنګوالی زده کړئ!
+request-language-button = د يوې ژبې غوښتنه وکړئ
 
 ## ProjectStatus
 
+status-title = د پروژې عمومي حالت: وګورئ چې موږ څومره لیرې راغلي یو!
+status-contribute = د خپل غږ مرسته وکړئ
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = راتلونکي موخې: { $goal }
+english = انګریزي
 
 ## ProfileForm
 
+profile-form-username =
+    .label = د کارونکي نوم
+profile-form-native-language =
+    .label = مورنۍ ژبه
+profile-form-additional-language =
+    .label = اضافي ژبه
+profile-form-accent =
+    .label = تلفظ
 profile-form-age =
     .label = عمر
 profile-form-gender-2 =
