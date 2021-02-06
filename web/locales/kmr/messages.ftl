@@ -176,7 +176,7 @@ logout = Derkeve
 
 ## Home Page
 
-home-title = Common Voice hewldaneke Mozillayê ye ku alîkariya makîneyan dike ku fêr bibin ka mirovên rast çawa diaxivin.
+home-title = Common Voice hewldaneke Mozillayê ye, ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin.
 home-cta = Biaxive, piştgiriyê bide!
 wall-of-text-start =
     Deng xwezayî ye, deng mirovî ye. Ji ber vê em bi hindê re eleqedar dibin ku ji bo makîneyên xwe teknolojiyên
@@ -202,7 +202,7 @@ wall-of-text-second =
     difikirin ku ev rê li nûbûnê digire. Loma me Common Voice da destpêkirin ku pergalên naskirina dengan
     ji bo her kesî vekirî bin.
 show-wall-of-text = Zêdetir Bixwîne
-help-us-title = Ji bo pesendkirina hevokan alîkariya me bike!
+help-us-title = Ji bo piştrastkirina hevokan, alîkariya me bike!
 help-us-explain = Pêl bişkoka lêdanê bike û lê guhdarî bike: Gelo hevoka xwarê rast hatiye xwendin?
 no-clips-to-validate = Wisa xuya ye ji bo vî zimanî ti klîbek tune ye ku lê guhdarî bikî. Niha axaftinan qeyd bike ku lîste bê dagirtin.
 vote-yes = Erê
@@ -241,7 +241,7 @@ x-years-short =
 help-make-dataset = Alî me bike ku em bi kalîteyeke bilind komdaneya vekirî û gelerî ava bikin
 sign-up-account = Hesabekî veke
 email-subscription-title = li nûçeyên emaîlê tomar bibe
-email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêveçûna projeyê tomar bibe
+email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêşveçûna projeyê lê tomar bibe
 
 ## Account Benefits
 
@@ -526,7 +526,7 @@ feedback-q = Pêşniyara te heye?
 common-voice-info-new = Hin pirsên te li ser Common Voiceê heye? Fikrên te ji bo baştirkirinê hene an jî tu dixwazî li ser zimanekî taybet paşragihandinê bişînî? Li ser <discourseLink>Forûma Discourseê</discourseLink> ya me tevlî me bibe û hayê me jê çêke.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Danegeha TED-LIUM'ê ji danûstandinên dengî û transkrîpsiyonên wan ên li ser malpera TED'ê hatiye çêkirin.
-data-other-tatoeba-description = Tatoeba, danegeheke mezin a hevok, werger û dengên axaftinê ye, ev danegeh ji bo fêrbûna zimanan tê  bikaranîn. Di vê dosyeyê de axaftinên Îngilîzî yên ji aliyê xwebeşên vê civakê hatine tomarkirin, hene.
+data-other-tatoeba-description = Tatoeba, danegeheke mezin a hevok, werger û dengên axaftinê ye, ev danegeh ji bo fêrbûna zimanan tê  bikaranîn. Di vê dosyeyê de axaftinên Îngilîzî yên ji aliyê xwebexşên vê civakê hatine tomarkirin, hene.
 your-feedback = Fikrên te li ser pêşxistina komdaneya  Common Voiceê heye? Li ser Discourseê ji me re binivîse.
 go-discourse = Here Discourseê
 missing-language = Tu zimanê xwe di Komdaneyê de nabînî?  Ji bo zimanekî daxwaz bikî, here rûpela me ya Zimanan.
