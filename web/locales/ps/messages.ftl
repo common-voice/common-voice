@@ -471,12 +471,50 @@ report-offensive-language-detail = جمله بې ادبه یا د سپکاوی �
 report-grammar-or-spelling = ګرامري / املايي تېروتنه
 report-grammar-or-spelling-detail = جمله ګرامري یا املايي تېروتنه لري.
 report-different-language = بېل ژبه
+report-different-language-detail = دا په یوه داسې ژبه کې لیکل شوی چې له هغه ژبې څخه چې زه يې وایم توپیر لري.
+report-difficult-pronounce = تلفظول يې ستونزمن دي
+report-difficult-pronounce-detail = دا ويي یا کلمې لري چې لوستل یا تلفظ یې سخت دی.
+report-offensive-speech = د سپکاوی وینا
+report-offensive-speech-detail = کلیپ بې ادبه یا د سپکاوی ژبه لري.
+report-other-comment =
+    .placeholder = څرګندونه
+success = بریا
+continue = دوام ورکړئ
+report-success = راپور په بریالیتوب سره تیر شو
 
 ## Goals
 
+streaks = سټرېکونه
+days =
+    { $count ->
+        [one] ورځ
+       *[other] ورځې
+    }
+recordings =
+    { $count ->
+        [one] ثبتونه
+       *[other] ثبتونې
+    }
+validations =
+    { $count ->
+        [one] تایید
+       *[other] تاییدونه
+    }
 
 ## Dashboard
 
+your-languages = ستاسو ژبې
+toward-next-goal = د راتلونکي موخې په لور
+goal-reached = موخې ته ورسید
+clips-you-recorded = کليپونه چې تاسو ثبت کړي
+clips-you-validated = کليپونه چې تاسو تایید کړي
+todays-recorded-progress = د ثبت کلیپونو د نن ورځې د عامه غږ پرمختګ
+todays-validated-progress = د تایید کلیپونو د نن ورځې د عامه غږ پرمختګ
+stats = ارقام
+awards = جایزې
+you = تاسو
+everyone = هرڅوک
+contribution-activity = د مرستې چارندتیا
 
 ## Custom Goals
 
