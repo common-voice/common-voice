@@ -365,6 +365,12 @@ ready-to-upload = اپلوډ کړئ
 avatar-clip-fact = دا یو اوږد بنسټیز حقیقت دی چې د لوستونکې پام به د یوې پاڼې د لوستلو وړ مینځپانګې لخوا ګډوډیږي کله چې د هغې هډوانې ته ګوري.
 recreate-voice = د غږ څپې بیارامینځته کړئ
 cancel-avatar-clip-recording = ړنګونه
+about-avatar-clip-recording = د خپل پېژنیال اویتار برخې په توګه غږیز کلیپ جوړ کړئ. نور به وتوانیږي چې د خپل کلیک له پاسه تېرولو سره يې واوري.
+browse-file-title = د انځوریزه دوتنه اپلوډ کړئ
+browse-file = راکش او خوشي کړئ یا <browseWrap> ولټوئ </browseWrap>
+connect-gravatar = د ګریویتار سره وصل شئ
+gravatar_not_found = ستاسو د برېښنالیک لپاره هیڅ ګریویتار ندی موندل شوی
+file_too_large = ټاکل شوې دوتنه خورا لویه ده
 
 ## FAQ
 
