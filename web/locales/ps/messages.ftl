@@ -336,6 +336,16 @@ settings = امستنې
 edit-profile = پېژنیال ایډیټ کړئ
 profile-create-success = بریالیتوب، پېژنیال رامینځته شو!
 profile-close = بندکړئ
+profile-explanation = د یوه پېژنیال سره خپل پرمختګ تعقیب کړئ او زموږ د غږ ډېټا سره مرسته وکړئ چې لا ډېره کره شي.
+thanks-for-account = ستاسو د ګڼون د تصدیقولو لپاره مننه، اوس راځئ چې ستاسو پېژنیال جوړ کړو.
+why-demographic = ولې دا مهمه ده؟
+accept-privacy-title = د پټتیا تګلاره
+login-identity = د ننوتنې پېژند
+login-signup = ننوتنه/ نوملیکنه
+edit = سمون
+email-subscriptions = د برېښنالیک ګډونونه
+download-profile = زما ډېټا ډاونلوډ کړئ
+contribution-experience = د مرستې تجربه
 
 ## FAQ
 
@@ -366,9 +376,28 @@ profile-close = بندکړئ
 
 ## Languages Overview
 
+language-total-progress = ټولټال
+language-search-input =
+    .placeholder = لټون
+language-speakers = ويناوال
+localized = سېمیزي ژبې ته ژباړل شوی
+sentences = جملې
+total-hours = تایید شوي ساعتونه
 
 ## Contribution
 
+action-click = کلیک
+action-tap = ټپ کړئ
+contribute = مرسته وکړئ
+listen = واورئ
+skip = پرېږدئ
+shortcuts = لنډلارې
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> کلیپ
+       *[other] <bold>{ $count }</bold> کلیپونه
+    }
+goal-help-recording = تاسو زموږ د ورځني{ $goalValue } ثبتولو موخې څخه د عام غږ <goalPercentage></goalPercentage> ته رسولو کې مرسته کړې!
 
 ## Reporting
 
