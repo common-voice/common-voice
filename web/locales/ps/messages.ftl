@@ -422,7 +422,12 @@ about-no-votes = ≥ 2 د نه رایې
 about-dataset-new = عام غږ ډېټاسیټ
 about-partners = شریکان
 about-become-a-partner = ملګری شئ
-about-nav-why-common-voice = ولې ؟
+about-nav-why-common-voice = ولې؟
+about-nav-how-it-works = څنګه؟
+about-nav-partners = شریکان
+about-nav-get-involved = ونډه واخلئ
+mycroft-title = مایکروفټ Ai
+mycroft-subtitle = مصنوعي ځېرمنتیا
 
 ## Glossary
 
