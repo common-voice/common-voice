@@ -371,9 +371,20 @@ browse-file = راکش او خوشي کړئ یا <browseWrap> ولټوئ </brows
 connect-gravatar = د ګریویتار سره وصل شئ
 gravatar_not_found = ستاسو د برېښنالیک لپاره هیڅ ګریویتار ندی موندل شوی
 file_too_large = ټاکل شوې دوتنه خورا لویه ده
+manage-subscriptions = ګډونونه سمبال کړئ
+manage-email-subscriptions = د برېښنالیک ګډونونه سمبال کړئ
+email-already-used = برېښنالیک لا دمخه د مختلف ګڼون لپاره کارول شوی
+add-language = ژبه اضافه کړئ
+change-email-setings = د امستنې له لارې تر ننوتنې پېژند لاندې خپل برېښنالیک بدل کړئ
 
 ## FAQ
 
+faq-title = بيابيا کېدونکې پوښتنې
+faq-what-cv-q = عام غږ څه شی دی؟
+faq-why-important-q = ولې دا مهم دی؟
+faq-how-get-q = زه څنګه کولی شم د عام غږ ډېټا ترلاسه کړم؟
+faq-when-release2-q = کله به تاسو په نورو ژبو کې د عام غږ ډېټا خپره کړئ؟
+faq-why-mission-q = ولې عام غږ د موزیلا ماموریت برخه ده؟
 
 ## ABOUT US
 
@@ -426,6 +437,14 @@ goal-help-recording = تاسو زموږ د ورځني{ $goalValue } ثبتولو
 
 ## Reporting
 
+report = راپور
+report-title = یو راپور وسپارئ
+report-ask = تاسو د دې جملې سره د کومو ستونزو سره مخ یاست؟
+report-offensive-language = سپکاوی ژبه
+report-offensive-language-detail = جمله بې ادبه یا د سپکاوی ژبه لري.
+report-grammar-or-spelling = ګرامري / املايي تېروتنه
+report-grammar-or-spelling-detail = جمله ګرامري یا املايي تېروتنه لري.
+report-different-language = بېله ژبه
 
 ## Goals
 
