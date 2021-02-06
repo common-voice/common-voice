@@ -155,7 +155,7 @@ zh-TW = چینایي (تایوان)
 
 ## Layout
 
-speak = خبرې وکړئ
+speak = وغږیږئ
 speak-now = اوس خبرې وکړئ
 datasets = ډېټاسیټونه
 languages = ژبې
@@ -386,6 +386,7 @@ faq-how-get-q = زه څنګه کولی شم د عام غږ ډېټا ترلاسه
 faq-when-release2-q = کله به تاسو په نورو ژبو کې د عام غږ ډېټا خپره کړئ؟
 faq-why-mission-q = ولې عام غږ د موزیلا ماموریت برخه ده؟
 faq-what-cv-and-deepspeech-q = د عام غږ او ژورې وینا ترمنځ څه توپیر دی؟
+faq-is-goal-assistant-q = ایا د غږیږ مرستیال رامینځته کول د عام غږ موخه ده؟
 
 ## ABOUT US
 
@@ -568,6 +569,9 @@ activity-needed-calculation-plural =
         [one] { $clipsPerDay } کلیپ
        *[other] { $clipsPerDay } کلیپونه
     } په یوه ورځ
+how-many-per-day = غوره! په ورځ کې څو کلیپونه؟
+how-many-a-week = غوره! په اونۍ کې څو کلیپونه؟
+which-goal-type = ایا تاسو غواړئ چې وغږیږئ، واورئ یا دواړه؟
 
 ## Profile Delete
 
