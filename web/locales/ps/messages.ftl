@@ -361,6 +361,10 @@ re-record = بیا-ثبت کړئ
 delete-voice = ړنګ کړئ
 recording-voice-wave = ریکاټ
 delete-voice-clip = یا    غږ کلیپ ړنګ کړئ
+ready-to-upload = اپلوډ کړئ
+avatar-clip-fact = دا یو اوږد بنسټیز حقیقت دی چې د لوستونکې پام به د یوې پاڼې د لوستلو وړ مینځپانګې لخوا ګډوډیږي کله چې د هغې هډوانې ته ګوري.
+recreate-voice = د غږ څپې بیارامینځته کړئ
+cancel-avatar-clip-recording = ړنګونه
 
 ## FAQ
 
