@@ -168,12 +168,38 @@ terms = شرطونه
 cookies = کوکیز
 faq = بيابيا کېدونکې پوښتنې
 share-title = له موږ سره مرسته وکړئ ترڅو نور وموندو چې خپل غږ ډالۍ کړئ!
+link-copied = تړونی کاپي شوی
+back-top = بېرته سر ته
+logout = وتل
 
 ## Home Page
 
+home-cta = خبرې وکړئ، دلته ونډه واخلئ!
+all-locales = ټول
+today = نن
+x-weeks-short =
+    { $count ->
+        [one] اونۍ
+       *[other] { $count } اونې
+    }
+x-months-short =
+    { $count ->
+        [one] میاشت
+       *[other] { $count } میاشتې
+    }
+x-years-short =
+    { $count ->
+        [one] کال
+       *[other] کلونه
+    }
+help-make-dataset = له موږ سره د لوړ کیفیت، عامه آزاد ډېټاسیټ جوړولو کې مرسته وکړئ
+sign-up-account = ګڼون لپاره نوملیکنه وکړئ
+email-subscription-title = د برېښنالیک تازه مالوماتو لپاره نوملیکنه وکړئ
+email-subscription-title-new = د عام غږ خبرلیکونو، موخو یادونو او پرمختګ تازه مالوماتو لپاره نوملیکنه وکړئ
 
 ## Account Benefits
 
+benefits = ګټې
 
 ## What's public
 
@@ -192,6 +218,23 @@ share-title = له موږ سره مرسته وکړئ ترڅو نور وموند�
 
 ## ProfileForm
 
+profile-form-age =
+    .label = عمر
+profile-form-gender-2 =
+    .label = جنس
+leaderboard-visibility =
+    .label = د لیډربورډ لید
+hidden = پټ
+visible = څرګند
+native-language =
+    .label = مورنۍ ژبه
+profile-form-submit-save = خوندي کړئ
+profile-form-submit-saved = خوندي شو
+male = نر
+female = ښځه
+# Gender
+other = نور
+why-profile-title = ولې پېژنیال؟
 
 ## FAQ
 
