@@ -905,7 +905,7 @@ demo-account-sign-up = Registrowanski wotkaz pósłać
 ## Demo Contribute
 
 demo-contribute-card-header = Sće hotowy swój hłós přidać abo słuchać?
-demo-contribute-card-body-v2 = Nětko, hdźež trochu wjace wo Common Voice wěsće, čehodla njewupytać? Klikńće na mikrofonowy symbol, zo byšće sady wótře čitał. <br/><br/>Jeli chceće radšo hłosowe přinoški druhich ludźi přepruwować, klikńće na wothrawanski symbol. Budźeće pomhać, zo natočenja sadam wotpowěduja, kotrež so na wobrazowce pokazuja.
+demo-contribute-card-body-v2 = Nětko, hdźež trochu wjace wo Common Voice wěsće, čehodla njewupytać? Klikńće na mikrofonowy symbol, zo byšće sady wótře čitał. <br/><br/>Jeli chceće radšo hłosowe přinoški druhich ludźi přepruwować, klikńće na wothrawanski symbol. Pomhaće wokrućić, zo natočenja sadam wotpowěduja, kotrež so na wobrazowce pokazuja.
 demo-listen-subtitle = Chceće sobu činić?
 
 ## Demo Dashboard
