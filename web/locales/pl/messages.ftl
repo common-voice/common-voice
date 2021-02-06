@@ -893,7 +893,7 @@ demo-account-sign-up = Wyślij odnośnik rejestracji
 ## Demo Contribute
 
 demo-contribute-card-header = Chcesz dodać swój głos lub użyczyć ucha?
-demo-contribute-card-body = Skoro już trochę wiesz o projekcie Common Voice, dlaczego by go nie wypróbować? Kliknij ikonę mikrofonu, aby zacząć czytać zdania na głos. <br/><br/>Jeśli wolisz weryfikować nagrania innych osób, kliknij ikonę odtwarzania. Jeśli nagranie, które słyszysz, zgadza się ze słowami na ekranie.
+demo-contribute-card-body-v2 = Skoro już trochę wiesz o projekcie Common Voice, dlaczego by go nie wypróbować? Kliknij ikonę mikrofonu, aby zacząć czytać zdania na głos. <br/><br/>Jeśli wolisz weryfikować nagrania innych osób, kliknij ikonę odtwarzania. Pomożesz potwierdzić, że nagrania zgadzają się ze zdaniami na ekranie.
 demo-listen-subtitle = Chcesz wziąć udział?
 
 ## Demo Dashboard
