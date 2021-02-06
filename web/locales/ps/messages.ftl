@@ -385,6 +385,7 @@ faq-why-important-q = ولې دا مهم دی؟
 faq-how-get-q = زه څنګه کولی شم د عام غږ ډېټا ترلاسه کړم؟
 faq-when-release2-q = کله به تاسو په نورو ژبو کې د عام غږ ډېټا خپره کړئ؟
 faq-why-mission-q = ولې عام غږ د موزیلا ماموریت برخه ده؟
+faq-what-cv-and-deepspeech-q = د عام غږ او ژورې وینا ترمنځ څه توپیر دی؟
 
 ## ABOUT US
 
@@ -403,15 +404,38 @@ faq-why-mission-q = ولې عام غږ د موزیلا ماموریت برخه �
 
 ## Download Modal
 
+download-form-email =
+    .label = خپل برېښنالیک دننه کړئ
+    .value = ستاسو څخه مننه، موږ به اړیکه کې یو.
+download-back = د عام غږ ډېټاسیټونو ته بیرته وګرځئ
+download-no = نه مننه
 
 ## Contact Modal
 
+contact-title = د اړیکې فورمه
+contact-form-name =
+    .label = نوم
+contact-form-message =
+    .label = استوزه
+contact-required = * اړین دی
 
 ## Request Language Modal
 
+request-language-title = د ژبې غوښتنه
+request-language-form-language =
+    .label = ژبه
+request-language-success-title = د ژبې غوښتنه په بریالیتوب سره وسپارل شوه، مننه.
+request-language-success-content = موږ به د نورو مالوماتو سره په اړیکه کې شو چې څنګه ډیر ژر عام غږ ته ستاسو ژبه اضافه کړو.
+select-language = یوه ژبه وټاکئ...
+other-language = بله ژبه
 
 ## Languages Overview
 
+language-section-in-progress = د پرمختګ په حال کې
+language-section-launched = په لاره اچول شوی
+languages-show-more = نور ووینئ
+languages-show-less = لږ ووینئ
+language-meter-in-progress = پرمختګ
 language-total-progress = ټولټال
 language-search-input =
     .placeholder = لټون
@@ -434,6 +458,8 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> کلیپونه
     }
 goal-help-recording = تاسو زموږ د ورځني{ $goalValue } ثبتولو موخې څخه د عام غږ <goalPercentage></goalPercentage> ته رسولو کې مرسته کړې!
+record-abort-continue = ثبتول بشپړول
+record-abort-delete = ووځئ او کليپونه ړنګ کړئ
 
 ## Reporting
 
@@ -444,7 +470,7 @@ report-offensive-language = سپکاوی ژبه
 report-offensive-language-detail = جمله بې ادبه یا د سپکاوی ژبه لري.
 report-grammar-or-spelling = ګرامري / املايي تېروتنه
 report-grammar-or-spelling-detail = جمله ګرامري یا املايي تېروتنه لري.
-report-different-language = بېله ژبه
+report-different-language = بېل ژبه
 
 ## Goals
 
