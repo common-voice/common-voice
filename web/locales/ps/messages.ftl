@@ -162,6 +162,11 @@ languages = ژبې
 about = په اړه
 profile = پېژنیال
 help = مرسته
+contact = اړيکلورى
+privacy = پټتيا
+terms = شرطونه
+cookies = کوکیز
+faq = بيابيا کېدونکې پوښتنې
 
 ## Home Page
 
