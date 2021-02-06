@@ -346,6 +346,21 @@ edit = سمون
 email-subscriptions = د برېښنالیک ګډونونه
 download-profile = زما ډېټا ډاونلوډ کړئ
 contribution-experience = د مرستې تجربه
+skip-submission-feedback = د سپارنې غبرګون څخه تېر شئ
+skip-submission-description = د مرستې سپارلو پرمهال به د 'وسپارئ' کلیک کولو وروسته غبرګون پریښودل شي. مرستې به مستقیم د 5 راتلونکي ثبتونو یا تاییدونو سیټ سره دوام ومومي.
+skip-submission-note = یادونه: تاسو به اړ یاست چې د مرستې ډول بدلولو لپاره د خبرو یا اوریدو تر مینځ غوره کړئ.
+off = بند
+on = چلاند
+avatar-clip-title = خپل اویتار ته غږ ورکړئ
+change-your-avatar-clip = ایا غواړئ خپل غږ کلیپ بدل کړئ؟
+recording-in-progress = د غږ ثبتول روان دي
+avatar-clip-recorded = ستاسو اویتار اوس د غږ کليپ لري!
+record-voice-wave = VOICEWAVE ثبت کړئ
+retry-voice-wave-recording = بیا کوښښ وکړئ
+re-record = بیا-ثبت کړئ
+delete-voice = ړنګ کړئ
+recording-voice-wave = ریکاټ
+delete-voice-clip = یا    غږ کلیپ ړنګ کړئ
 
 ## FAQ
 
