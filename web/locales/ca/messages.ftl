@@ -877,6 +877,7 @@ demo-account-sign-up = Envia l'enllaç de registre
 ## Demo Contribute
 
 demo-contribute-card-header = Esteu preparat per a afegir la veu o parar l'orella?
+demo-contribute-card-body-v2 = Ara que ja sabeu una mica més sobre el Common Voice, per què no ho proveu? Feu clic en la icona del micròfon per a començar a llegir frases en veu alta. <br/><br/>Si preferiu revisar les contribucions de veu d'altres persones, feu clic en la icona de reproducció. D'aquesta manera ajudareu a confirmar si els enregistraments coincideixen amb les frases escrites en la pantalla.
 demo-listen-subtitle = Preparat per a col·laborar?
 
 ## Demo Dashboard
