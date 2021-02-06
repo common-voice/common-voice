@@ -905,7 +905,7 @@ demo-account-sign-up = Registrěrowański wótkaz pósłaś
 ## Demo Contribute
 
 demo-contribute-card-header = Sćo gótowy swój głos pśidaś abo słuchaś?
-demo-contribute-card-body = Něnto, źož tšochu wěcej wó Common Voice wěsćo, cogodla njewoytaś? Klikniso na mikrofonowy symbol, aby sady głosnje cytał. <br/><br/>Jolic cośo lubjej głosowe pśinoski drugich luźi pśeglědowaś, klikniśo na wótgrawański symbol. Jolic głosowe nagraśe, na kótarež słuchaśo, słowam wótpowědujo, kótarež se na wobrazowce pokazuju.
+demo-contribute-card-body-v2 = Něnto, źož tšochu wěcej wó Common Voice wěsćo, cogodla njewoytaś? Klikniso na mikrofonowy symbol, aby sady głosnje cytał. <br/><br/>Jolic cośo lubjej głosowe pśinoski drugich luźi pśeglědowaś, klikniśo na wótgrawański symbol. Pomagaśo wokšuśiś, až nagraśa sadam wótpowěduju, kótarež se na wobrazowce pokazuju.
 demo-listen-subtitle = Cośo sobu cyniś?
 
 ## Demo Dashboard
