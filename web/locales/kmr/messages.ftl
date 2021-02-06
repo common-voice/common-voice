@@ -8,9 +8,9 @@ email-input =
     .label = Emaîl
 submit-form-action = Bişîne
 loading = Tê barkirin…
-email-opt-in-info = Ez dixwazim e-maîlên wekî bîranînên armancan, venûkirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirin.
-email-opt-in-info-title = Beşdarî lîsteya maîlan ya Comon Voiceê bibe
-email-opt-in-info-sub-with-challenge = E-maîlên wekî bîranînên armancan, venûkirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirin.
+email-opt-in-info = Ez dixwazim emaîlên wekî bibîrxistinên hedefê, nûvekirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirim.
+email-opt-in-info-title = Beşdarî lîsteya emaîlan a Comon Voiceê bibe
+email-opt-in-info-sub-with-challenge = Emaîlên wekî bibîrxistinên hedefê, nûvekirinên pêşveçûnê û nûçenameyên derbarê Common Voiceê de wergire.
 email-opt-in-privacy-v2 = Bi vebijarka wergirtina e-maîlan tu diyar dikî ku tu razî yî Mozilla van agahiyan wekî ku di <privacyLink> Polîtîkaya Nepeniyê </privacyLink> ya Mozillayê de hatî vegotin bi kar bîne.
 indicates-required = * Qada pêwîst nîşan dide
 not-available-abbreviation = Tune
@@ -156,8 +156,8 @@ zh-TW = Çînî (Taywan)
 ## Layout
 
 speak = Biaxive
-speak-now = Niha biaxive
-datasets = Komên daneyan
+speak-now = Aniha biaxive
+datasets = Komdane
 languages = Ziman
 about = Derbar
 profile = Profîl
