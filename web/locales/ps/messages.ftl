@@ -325,6 +325,17 @@ female = ښځه
 # Gender
 other = نور
 why-profile-title = ولې پېژنیال؟
+why-profile-text =
+    د خپل ځان په اړه د مالوماتو په ورکولو سره، هغه غږیږه ډېټا چې تاسو يې عام غږ ته استوئ به د وینا 
+    د پېژندلو اینجنونو لپاره چې دا مالومات د خپل کره‌والي د درستولو لپاره کاروي ډېره ګټوره وي.
+dashboard = ډاشبورډ
+build-profile = پېژنیال جوړ کړئ
+avatar = اویتار
+goals = موخې
+settings = امستنې
+edit-profile = پېژنیال ایډیټ کړئ
+profile-create-success = بریالیتوب، پېژنیال رامینځته شو!
+profile-close = بندکړئ
 
 ## FAQ
 
