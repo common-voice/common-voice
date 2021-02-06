@@ -203,11 +203,11 @@ wall-of-text-second =
     ji bo her kesî vekirî bin.
 show-wall-of-text = Zêdetir Bixwîne
 help-us-title = Ji bo piştrastkirina hevokan, alîkariya me bike!
-help-us-explain = Pêl bişkoka lêdanê bike û lê guhdarî bike: Gelo hevoka xwarê rast hatiye xwendin?
+help-us-explain = Li bişkoka lêdanê bitikîne û lê guhdarî bike: Gelo hevoka li jêr rast hatiye xwendin?
 no-clips-to-validate = Wisa xuya ye ji bo vî zimanî ti klîbek tune ye ku lê guhdarî bikî. Niha axaftinan qeyd bike ku lîste bê dagirtin.
 vote-yes = Erê
 vote-no = Na
-toggle-play-tooltip = Ji bo veguheztina moda lêdanê pêl { shortcut-play-toggle } bike
+toggle-play-tooltip = Ji bo girtina/vekirina moda lêdanê li { shortcut-play-toggle }’ê bitikîne
 speak-subtitle = Dengê xwe bibexşîne
 speak-paragraph = Tomarkirina klîbên dengan, beşeke girîng e ji bo avakirina komdaneya me ya vekirî. Li gorî hinekan beşa herî xweş jî ev e.
 speak-goal-text = Dengên tomarkirî
