@@ -8,6 +8,17 @@ not-available-abbreviation = N/A
 
 ## Languages
 
+ab = Bahasa Abkhaz
+ace = Bahasa Aceh
+af = Bahasa Afrikaans
+am = Bahasa Amhara
+an = Bahasa Aragon
+ar = Bahasa Arab
+arn = Bahasa Mapudungun
+as = Bahasa Assam
+ast = Bahasa Asturia
+az = Bahasa Azeri
+ba = Bahasa Baskhir
 
 # [/]
 
