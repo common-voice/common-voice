@@ -1,5 +1,9 @@
 ## General
 
+yes-receive-emails = Ya, hantarkan e-mel kepada saya. Saya ingin terus mengetahui tentang projek Common Voice.
+email-input =
+    .label = E-mel
+submit-form-action = Hantar
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -19,6 +23,15 @@ as = Bahasa Assam
 ast = Bahasa Asturia
 az = Bahasa Azeri
 ba = Bahasa Baskhir
+bas = Bahasa Basaa
+be = Bahasa Belarus
+bg = Bahasa Bulgaria
+bm = Bahasa Bambara
+bn = Bahasa Benggali
+br = Bahasa Breton
+bxr = Bahasa Buryat
+ca = Bahasa Catalonia
+cak = Bahasa Kaqchikel
 
 # [/]
 
