@@ -391,6 +391,7 @@ change-email-setings = Emaîla xwe ji "Sazkariyan > Nasnameya têketinê" biguhe
 
 faq-title = Pirsên Pir Tên Pirsîn
 faq-what-cv-q = Common Voice çi ye?
+faq-what-cv-a = Teknolojiya naskirina dengan, di awayê ku em bi makîneyan re têiliyê datînin de şoreşekê çêdike lê pergalên niha heyî buha ne û tescîlkirî ne. Common Voice parçeyeke hewldana Mozillayê ye ji bo teknolojiya naskirin a dengan ji bo her kesî çêtir û berdest be. Common Voice danegeheke global ya mezin ya dengên hatine bexşandin e ku dihêle her kes dikaribe bernamokên bi taybetiya deng  bi awayekî zû û hêsan perwerde bike.
 faq-why-important-q = Çima girîng e?
 faq-how-get-q = Ez çawa dikarin daneyên Common Voiceê daxînim?
 faq-when-release2-q = Hûn ê daneyên Common Voiceê yên zimanên din kengî belav bikin?
