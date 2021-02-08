@@ -413,6 +413,7 @@ faq-is-goal-assistant-a = Armanca koma daneyan ya Common Voiceê ev e ku li cîh
 faq-do-want-native-q = Ev ne zimanê min ê dayikê ye û ez bi devokî diaxivim, dîsa jî hûn dengê min dixwazin?
 faq-do-want-native-a = Erê, em bi taybet dengê te dixwazin! Armanca Common Voiceê ev e ku ji gelek devokên/aksanên cuda deng bên berhevkirin da ku xizmetên dengnasînê ji bo her kesî wekhev û baştir bixebitin. Heke em bi kurtasî bibêjin; dengê kesên ku bi zimanê xwe yê duyem, sêyem beşdar dibin ji yên bi zimanê xwe yê dayîkê beşdar dibin, girîngtir e.
 faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
+faq-why-different-speakers-a = Piraniya danegehên axaftinê bi wan zanyariyên demografîk têne perwerdekirin ku tê de<articleLink>çîna zilaman û ya navîn</articleLink> zêdetir tê temsîlkirin. Di wan komên daneyan yên de ku di perwerdehiyê de tên bikaranîn devok û zaravayên kêm tên temsîlkirin bi piranî têkildarî gel û civakên marjînal in. Gelek makîne dengê jinan jî bi zehmetî fêm dikin. Loma em di danegeha xwe ya dengan de pirrengiyê dixwazin.
 faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
 faq-why-10k-hours-q = Çima ji bo her zimanekî hedefeke bi qasî 10,000 saet klîbên dengî yên piştrastkirî heye?
