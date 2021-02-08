@@ -459,6 +459,11 @@ about-clip-graveyard-text = Goristana klîban (dengan), ji klîbên dengan ên k
 about-partners = Hevkar
 about-become-a-partner = Bibe hevkarê me
 about-get-involved = Tevlî me bibin
+about-get-involved-text-2 =
+    Tu dixwazî Common Voiceê çêtir bikî? Gelekî baş e!
+    Bi riya e-peyamê yan jî forumên <discourseLink>Discourse</discourseLink>ê peyywendiyê
+    çêke, pirsgirêkên têkildarî malperê bi riya  <githubLink>GitHub</githubLink>ê
+    bişîne yan jî beşdarî civaka <matrixLink>Matrix</matrixLink>ê bibe.
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
@@ -591,6 +596,10 @@ other-language = Zimanê din
 
 language-section-in-progress = Kar li ser tê kirin
 language-section-launched = Hatiye weşandin
+language-section-launched-description =
+    Ji bo van zimanên hatine destpêkirin malper bi serkeftî hatiye <localizationGlossaryLink>wergerandin</localizationGlossaryLink> û tê de têra xwe
+    <sentenceCollectionGlossaryLink>hevokên berhevkirî</sentenceCollectionGlossaryLink> hene ku piştgiriya
+    <speakLink>Axaftin</speakLink> û <listenLink>Guhdarîkirinê</listenLink> dest pê bike.
 languages-show-more = Zêdetir bibîne
 languages-show-less = Kêmtir bibîne
 language-meter-in-progress = Pêşveçûn
