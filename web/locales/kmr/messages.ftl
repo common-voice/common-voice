@@ -194,7 +194,7 @@ wall-of-text-more-desktop =
     kontrol bikin ku kalîte bilind bibe. Ev çend hêsan e!
 wall-of-text-first =
     Deng xwezayî ye, deng mirovî ye. Ji ber vê em bi hindê re eleqedar dibin ku ji bo makîneyên xwe teknolojiyên
-    dengî yên bikêrhatî biafirînin. Lê ji bo afirandina prgala dengî ji bo pêşvebiran qedereke zêde
+    dengî yên bikêrhatî biafirînin. Lê ji bo afirandina pergala dengî ji bo pêşvebiran qedereke zêde
     daneyên dengan
     lazim in.
 wall-of-text-second =
@@ -413,7 +413,7 @@ faq-is-goal-assistant-a = Armanca koma daneyan ya Common Voiceê ev e ku li cîh
 faq-do-want-native-q = Ev ne zimanê min ê dayikê ye û ez bi devokî diaxivim, dîsa jî hûn dengê min dixwazin?
 faq-do-want-native-a = Erê, em bi taybet dengê te dixwazin! Armanca Common Voiceê ev e ku ji gelek devokên/aksanên cuda deng bên berhevkirin da ku xizmetên dengnasînê ji bo her kesî wekhev û baştir bixebitin. Heke em bi kurtasî bibêjin; dengê kesên ku bi zimanê xwe yê duyem, sêyem beşdar dibin ji yên bi zimanê xwe yê dayîkê beşdar dibin, girîngtir e.
 faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
-faq-why-different-speakers-a = Piraniya danegehên axaftinê bi wan zanyariyên demografîk têne perwerdekirin ku tê de<articleLink>çîna zilaman û ya navîn</articleLink> zêdetir tê temsîlkirin. Di wan komên daneyan yên de ku di perwerdehiyê de tên bikaranîn devok û zaravayên kêm tên temsîlkirin bi piranî têkildarî gel û civakên marjînal in. Gelek makîne dengê jinan jî bi zehmetî fêm dikin. Loma em di danegeha xwe ya dengan de pirrengiyê dixwazin.
+faq-why-different-speakers-a = Piraniya danegehên axaftinê bi wan zanyariyên demografîk têne perwerdekirin ku tê de<articleLink>çîna zilaman û ya navîn</articleLink> zêdetir tê temsîlkirin. Di wan komên daneyan de ku ji bo perwerdehiyê tên bikaranîn devok û zaravayên kêm tên temsîlkirin bi piranî têkildarî gel û civakên marjînal in. Gelek makîne dengê jinan jî bi zehmetî fêm dikin. Loma em di danegeha xwe ya dengan de pirrengiyê dixwazin.
 faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
 faq-why-my-lang-new-a = Mozilla ti zimanî di ser yên din re nabîne. Common Voice bi temamî ji aliyê civatan ve tê meşandin, lê <multilangLink> çend gavên ji bo lêzêdekirina zimanên nû </multilangLink> û destpêkirina berhevkirina bexişandina dengan hene. Pêşî, divê malpera Common Voiceê bê wergerandin ku beşdar dikaribin bi zimanê xwe xwe bigihînin azmûnên hevkaran. Paşê, pêdiviya me berhevokeke mezin ya hevokên bêtelîf heye ku mirov wan bi deng bixwînin. Gava ev her du pêdivî hatin bicîanîn, Common Voice wî zimanî li zimanan zêde dike ku mirov dengê xwe qeyd bikin û rastiya dengên qeydkirî kontrol bikin. Ango heke hûn dixwazin alîkariyê bikin ku zimanek lê bê zêdekirin hûn dikarin ji bo destpêkirinê li <sentenceCollectorLink>amûra berhevkirina hevokan</sentenceCollectorLink> binêrin.
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
