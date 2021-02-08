@@ -860,7 +860,7 @@ demo-account-sign-up = Invia il link per l’iscrizione
 ## Demo Contribute
 
 demo-contribute-card-header = Sei pronto ad aggiungere la tua voce o prestarci le tue orecchie?
-demo-contribute-card-body = Adesso che conosci meglio Common Voice, perché non lo provi? Fai clic sull’icona del microfono per iniziare a leggere le frasi ad alta voce. <br/><br/> Se preferisci convalidare i contributi degli altri utenti, fai clic sull’icona Riproduci. Valuta se la voce registrata che ascolti corrisponde alle parole scritte sullo schermo.
+demo-contribute-card-body-v2 = Ora che ne sai un po’ di più su Common Voice, perché non lo provi? Fai clic sull’icona del microfono e leggi le frasi a voce alta per registrarle. <br/><br/> Se preferisci convalidare i contributi vocali di altre persone, fai clic sull’icona del tasto play e indica per ciascuna registrazione se corrisponde alla frase visualizzata sullo schermo.
 demo-listen-subtitle = Sei pronto a dare il tuo contributo?
 
 ## Demo Dashboard
