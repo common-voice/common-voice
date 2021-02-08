@@ -451,6 +451,7 @@ about-is-it-valid-text = Dema ku bikarhênerek raya Erê bide klîbeke dengî, e
 about-yes-votes = Rayên erê ≥ 2
 about-yes-votes-text = Ji bo ku ew têkeve nav komdaneya Common Voiceê , divê ji hêla du bikarhênerên cuda ve were piştrastkirin.
 about-no-votes = Rayên na ≥ 2
+about-no-votes-text = Gava bikarhênerek klîbeke dengî red bike, ew dîsa dikeve dorê. Heke klîbeke dengî cara duyemîn bê redkirin, ew dikeve Goristana Klîban.
 about-dataset-new = Komdaneya Common Voiceê
 about-dataset-new-text = Komdaneya Common Voiceê bi sed hezaran nimûneyên dengan di xwe de dihewîne ev jî rê li ber pêşvebiran vedike ku amûrên dengnasînê ava bikin.
 about-clip-graveyard = Goristana Klîban
