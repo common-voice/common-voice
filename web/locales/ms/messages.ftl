@@ -32,6 +32,7 @@ br = Bahasa Breton
 bxr = Bahasa Buryat
 ca = Bahasa Catalonia
 cak = Bahasa Kaqchikel
+ckb = Bahasa Kurdi Tengah
 
 # [/]
 
