@@ -403,6 +403,7 @@ faq-why-important-a =
 faq-how-get-q = Ez çawa dikarin daneyên Common Voiceê daxînim?
 faq-how-get-a = Koma daneyan ya Common Voiceê ji bo jêbarkirinê di bin lîsansa <licenseLink> CC0 </licenseLink> de li ser <datasetLink> rûpela me ya koma daneyan </datasetLink> berdest e. Her wisa hûn dikarin ji heman rûpelê gelek komên daneyan yên ji bo raya giştî vekirî jî jêbar bikin.
 faq-when-release2-q = Hûn ê daneyên Common Voiceê yên zimanên din kengî belav bikin?
+faq-when-release2-a = Guhertoya pirzimanî ya koma daneyan ya Common Voiceê niha di merheleya pakêtkirin û paqijkirina bi alîkariya civakê re derbas dibe. Heke tu dixwazî alîkariya me bikî ku em zimanên nû bînin Common Voiceê, ji bo hevokên nû li koma daneyan zêde bikî li  <sentenceCollectorLink>Alava Berhevkirina Hevokan</sentenceCollectorLink>  û ji bo wergerandina malpera wê li Mozilla  <pontoonLink>Pantoon</pontoonLink>ê binêre. Gava 5.000 hevokên pesendkirî civiyan, zimanê nû ji bo piştgiriya dengan li Common Voiceê tê zêdekirin.
 faq-why-mission-q = Common Voice çima beşek ji mîsyona Mozillayê ye?
 faq-what-cv-and-deepspeech-q = Çi cudahî di navbera Common Voice û Deep Speechê heye?
 faq-is-goal-assistant-q = Armanca Common Voiceê avakirina asîstaneke dengî ye?
