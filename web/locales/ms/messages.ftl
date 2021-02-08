@@ -46,6 +46,7 @@ ckb = Bahasa Kurdi Tengah
 co = Bahasa Corsica
 cs = Bahasa Czech
 cv = Bahasa Chuvash
+cy = Bahasa Wales
 
 # [/]
 
