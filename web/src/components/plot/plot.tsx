@@ -68,7 +68,6 @@ export default class Plot extends React.Component<
     const ticks = (tickCount - 1) * tickMultiplier;
 
     max = max + (ticks - (max % ticks));
-
     return (
       <svg
         width="100%"
