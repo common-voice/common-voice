@@ -270,6 +270,7 @@ shortcut-record-toggle-label = 錄音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製片段
 request-language-text = 沒在 Common Voice 見到您的語言嗎？
+request-language-text-learn = 喺呢度瞭解點樣申請增加語言！
 request-language-button = 申請增加一種語言
 
 ## ProjectStatus
@@ -862,7 +863,6 @@ demo-account-sign-up = 轉送註冊鏈結
 ## Demo Contribute
 
 demo-contribute-card-header = 準備好參與錄音，或者...借一借對耳嚟用未？
-demo-contribute-card-body = 而家你知咗更多關於 Common Voice 嘅資訊喇，有無興趣嚟試下？請你㩒一㩒個咪嚟大聲朗讀句子。<br/><br/>如果你想幫手審核其他人嘅錄音，請你㩒一㩒個播放圖示嚟確認錄音同段文字係咪相同。
 demo-listen-subtitle = 準備好幫手貢獻未？
 
 ## Demo Dashboard
