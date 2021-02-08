@@ -595,6 +595,7 @@ other-language = Zimanê din
 ## Languages Overview
 
 language-section-in-progress = Kar li ser tê kirin
+language-section-in-progress-new-description = Ev ziman niha ji aliyê civakê ve tên pêşvebirin. Nîşaneya pêşveçûnê nîşan dide ka pêşketina zimanan di <localizationGlossaryLink>wergerandina malperê </localizationGlossaryLink> û <sentenceCollectionGlossaryLink>berhevkirina hevokan</sentenceCollectionGlossaryLink> de di kîjan astê de ye.
 language-section-launched = Hatiye weşandin
 language-section-launched-description =
     Ji bo van zimanên hatine destpêkirin malper bi serkeftî hatiye <localizationGlossaryLink>wergerandin</localizationGlossaryLink> û tê de têra xwe
