@@ -1,9 +1,19 @@
 ## General
 
 yes-receive-emails = Ya, hantarkan e-mel kepada saya. Saya ingin terus mengetahui tentang projek Common Voice.
+stayintouch = Kami di Mozilla sedang membina komuniti di sekitar teknologi suara. Kami ingin terus berhubung dengan kemas kini, sumber data baru dan untuk mengetahui lebih lanjut mengenai bagaimana anda menggunakan data ini.
+privacy-info = Kami berjanji untuk mengendalikan maklumat anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Notis Privasi</privacyLink> kami.
+return-to-cv = Kembali ke Common Voice
 email-input =
     .label = E-mel
 submit-form-action = Hantar
+email-opt-in-info = Saya ingin menerima e-mel seperti peringatan matlamat, kemas kini kemajuan saya dan buletin mengenai Common Voice.
+email-opt-in-info-title = Sertai senarai mel Common Voice
+email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran dan matlamat, kemas kini kemajuan, dan buletin mengenai Common Voice.
+email-opt-in-privacy-v2 =
+    Dengan memilih untuk menerima e-mel, anda menyatakan bahawa anda baik-baik saja dengan Mozilla mengendalikan 
+     maklumat ini seperti yang dijelaskan dalam <privacyLink>Notis Privasi</privacyLink> Mozilla.
+indicates-required = * Menunjukkan maklumat yang perlu disi
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -33,6 +43,9 @@ bxr = Bahasa Buryat
 ca = Bahasa Catalonia
 cak = Bahasa Kaqchikel
 ckb = Bahasa Kurdi Tengah
+co = Bahasa Corsica
+cs = Bahasa Czech
+cv = Bahasa Chuvash
 
 # [/]
 
