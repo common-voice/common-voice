@@ -435,11 +435,17 @@ faq-search-for-answers =
 
 about-title = Çima Common Voice?
 about-subtitle = Common Voice beşek ji insiyatîva Mozillayê ye û ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin. Ji bilî komdaneya Common Voiceê em motoreke nasîna axaftinê ya çavkanî vekirî jî bi navê Deep Speech ava dikin.
+about-header-description =
+    Ev her du proje jî parçeyên hewldana me ya ji bo rakirina cudakariya axaftina dîjîtal in. Teknolojiyên naskirina dengan aliyekî mirovane tînin nav amûrên me lê ji bo pêkanîna vê pêdiviya pêşvebiran bi gelek daneyên dengî heye. Niha piraniya van daneyan tên firotin û buha ne.
+    Em dixwazin daneyên dengî belaş bin û ji bo her kesî bin, her wisa em dixwazin dane curbucurbûna mirovan temsîl bikin. Em dikarin naskirina dengan ji bo her kesî çêtir bikin.
 how-does-it-work-title = Çawa dixebite?
 how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin. Dengê xwe bibexşîne, klîbên dengî yên kesên din kontrol bike, komdaneyê ji bo her kesî çêtir bike.
 about-speak = Bipeyive
+about-speak-text = Beşdar hevokên ji danegeha hevokên hatine bexişandin dixwînin û dengê xwe tomar dikin.
 about-listen-queue = Rêza Guhdarîkirinê
+about-listen-queue-text = Klîbên dengan li gorî doreke teslîmkirinê ya ji bo guhdarîkirinê tên rêzkirin.
 about-listen = Guhdarî bike
+about-listen-text = Bikarhêner rastiya klîbên hatine bexişandin pesend dikin, kontrol dikin ka xwîner hevokan rast dixwînin yan na.
 about-is-it-valid = Klîb derbasdar e?
 about-is-it-valid-text = Dema ku bikarhênerek raya Erê bide klîbeke dengî, ew klîb "derbasdar" tê nîşankirin.
 about-yes-votes = Rayên erê ≥ 2
