@@ -620,9 +620,28 @@ record-cancel = د سره ثبت کول لغوه کړئ
 record-three-more-instruction = درې پاته دي!
 record-again-instruction2 = دوام ورکړئ، بیا یې <recordIcon></recordIcon> ثبت کړئ
 record-last-instruction = <recordIcon></recordIcon> وروستی یو!
+review-tooltip = دلته لکه څنګه چې تاسو مخته ځئ کلیپونه بیاکتنه او بیا-ثبت کړئ
+share-clip = خپل کلیپ شریک کړئ
+share-common-voice = عام غږ شریک کړئ
+review-instruction = که اړتیا وي نو کلیپونه بیاکتنه او له سره ثبت کړئ
+record-submit-tooltip = { $actionType } کله چې چمتو وي، وسپارئ
+clips-uploaded = کليپونه پورته شو
 record-abort-title = لومړی ثبتول پای ته ورسوئ؟
+record-abort-text = اوس پرېښودل پدې معنی چې تاسو خپل پرمختګ له لاسه ورکوئ
+record-abort-submit = کليپونه وسپارئ
 record-abort-continue = ثبت بشپړ کړئ
 record-abort-delete = ووځئ او کليپونه ړنګ کړئ
+listen-empty-state = موږ پدې ژبه کې د تاییدلو لپاره د کلیپونو څخه خلاص شو...
+speak-empty-state = موږ پدې ژبه کې د ثبتولو لپاره د جملو څخه خلاص شو...
+speak-empty-state-cta = د جملو مرسته وکړئ
+record-button-label = خپل غږ ثبت کړئ
+share-title-new = <bold> زموږ سره مرسته وکړئ </bold> چې نور غږونه ومومو
+keep-track-profile = د پېژنیال سره خپل پرمختګ تعقیب کړئ
+login-to-get-started = د پیل لپاره ننوځئ یا نوملیکنه وکړئ
+target-segment-first-card = تاسو زموږ په لومړۍ هدفي برخې کې ونډه اخلئ
+target-segment-generic-card = تاسو یوې په نښه شوي برخې کې ونډه اخلئ
+target-segment-add-voice = خپل غږ اضافه کړئ
+target-segment-learn-more = نور زده کړئ
 
 ## Reporting
 
