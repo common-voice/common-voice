@@ -658,6 +658,7 @@ record-abort-text = اوس پرېښودل پدې معنی چې تاسو خپل �
 record-abort-submit = کليپونه وسپارئ
 record-abort-continue = ثبت بشپړ کړئ
 record-abort-delete = ووځئ او کليپونه ړنګ کړئ
+listen-last-time-instruction = <playIcon></playIcon> وروستی یو!
 listen-empty-state = موږ پدې ژبه کې د تاییدلو لپاره د کلیپونو څخه خلاص شو...
 speak-empty-state = موږ پدې ژبه کې د ثبتولو لپاره د جملو څخه خلاص شو...
 speak-empty-state-cta = د جملو مرسته وکړئ
