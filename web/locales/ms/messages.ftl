@@ -45,11 +45,16 @@ ca = Bahasa Catalonia
 cak = Bahasa Kaqchikel
 ckb = Bahasa Kurdi Tengah
 co = Bahasa Corsica
-cs = Bahasa Czech
+cs = Czech
 cv = Bahasa Chuvash
 cy = Bahasa Wales
 da = Bahasa Denmark
 de = Bahasa Jerman
+dv = Divehi
+el = Bahasa Yunani
+en = Bahasa Inggeris
+es = Bahasa Sepanyol
+et = Bahasa Estonia
 
 # [/]
 
