@@ -476,9 +476,18 @@ de-identified-explanation = هغه پروسه چې په واسطه يې د مر�
 ## Error pages
 
 error-title-404 = موږ ستاسو لپاره دا پاڼه نشو موندلی
+error-content-404 = ښايي زموږ <homepageLink> کور پاڼه </homepageLink> به مرسته وکړي؟ د یوې پوښتنې کولو لپاره، مهرباني وکړئ <matrixLink>د میټریکس ټولنیز چټ </matrixLink> کې ګډون وکړئ، د <githubLink>GitHub</githubLink> له لارې د سایټ ستونزې وڅارئ یا <discourseLink> زموږ د خبرو اترو فورم </discourseLink> ته لاړشئ.
+error-title-503 = موږ د ناڅاپه توی مهال سره مخ یو
+error-content-503 = سایټ به ژر تر ژره بیرته راشي. د وروستي مالوماتو لپاره، مهرباني وکړئ د <matrixLink> میټریکس ټولنې چټ</matrixLink> کې ګډون وکړئ یا <githubLink>> ګیټ هب </ GithubLink> یا <discourseLink> زموږ د خبرو اترو فورم </discourseLink> ته مراجعه وکړئ ترڅو د سایټ تجربې ستونزې وسپارئ.
+error-code = تېروتنه { $code }
 
 ## Data
 
+data-download-button = د عام غږ ډېټا ډاونلوډ کړئ
+data-download-yes = هو
+data-download-deny = نه
+data-download-license = لایسنس: <licenseLink> CC-0 </licenseLink>
+data-download-modal = تاسو د <size>{ $size } جي بي </size> ډاونلوډ په درشل کې یاست، غواړئ مخته لاړ شئ؟
 terms-agree = زه همغږی یم
 terms-disagree = زه همغږی نه یم
 review-aborted = اپلوډ رد شو. ایا تاسو غواړئ خپل ثبتونه ړنګ کړئ؟
