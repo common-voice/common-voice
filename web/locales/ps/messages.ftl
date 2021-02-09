@@ -528,6 +528,8 @@ dataset-date = نیټه
 license = لایسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ګډ
 data-download-singleword-title = د واحد ويی موخې برخه ډاونلوډ کړئ
+data-download-singleword-callout-v2 = دا د استعمال ګرځولو  په موخه یوه برخه ده چې د شمیر او هو/نه پیژندلو پیاوړولو لپاره ډېټا لري.
+review-terms = د ګډ غږ په کارولو سره، تاسو زموږ د <termsLink> شرایطو </termsLink>او <privacyLink> د محرمیت خبرتیا <privacyLink> سره موافق یاست
 terms-agree = زه همغږی یم
 terms-disagree = زه همغږی نه یم
 review-aborted = اپلوډ رد شو. ایا تاسو غواړئ خپل ثبتونه ړنګ کړئ؟
@@ -541,6 +543,7 @@ review-delete-recordings = زما ثبتونه ړنګ کړئ
 
 ## Datasets Page
 
+datasets-headline = موږ د غږونو یو د آزاد کوډ، ګڼ ژبې ډېټاسیټ جوړ وو چې هرڅوک کولی شي د وینا-وړ کاریالونو روزلو لپاره ترې کار واخلي.
 language = ژبه
 # File size in gigabytes
 size = اندازه
