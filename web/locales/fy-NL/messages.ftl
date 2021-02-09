@@ -888,7 +888,7 @@ demo-account-sign-up = Ynskriuwkeppeling ferstjoere
 ## Demo Contribute
 
 demo-contribute-card-header = Klear om jo stim heare te litten of jo ear te lúster te lizzen?
-demo-contribute-card-body = No't jo wat mear witte oer Common Voice, wêrom soene jo it net útprobearje? Klik op it mikrofoanpiktogram om sinnen hurdop foar te lêzen. <br/><br/>As jo leaver de spraakbydragen fan oaren beoardiele wolle, klikke jo op it ôfspylpiktogram. As de spraakopname dy't jo heare oerienkomt mei de wurden op it skerm.
+demo-contribute-card-body-v2 = No't jo wat mear witte oer Common Voice, wêrom soene jo it net probearje? Klik op it mikrofoanpiktogram om sinnen hurdop foar te lêzen. <br/><br/>As jo leaver de stimbydragen fan oaren beoardiele wolle, klikke jo op it ôfspylpiktogram. Jo helpe dan befêstigjen dat spraakopnamen oerienkomme mei de op it skerm toande sinnen.
 demo-listen-subtitle = Klear om by te dragen?
 
 ## Demo Dashboard
