@@ -753,10 +753,32 @@ activity-needed-calculation-plural =
 how-many-per-day = غوره! په ورځ کې څو کلیپونه؟
 how-many-a-week = غوره! په اونۍ کې څو کلیپونه؟
 which-goal-type = ایا تاسو غواړئ چې وغږیږئ، واورئ یا دواړه؟
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] کلیپ
+       *[other] کلیپونه
+    }
+help-share-goal = موږ سره د نورو غږونو موندلو کې مرسته وکړئ، خپل موخه شریک کړئ
+confirm-goal = د موخې تصدیق وکړئ
+goal-interval-weekly = اونيز
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = د خپل { $count } کليپ ورځنۍ موخه د { $type } لپاره شریک کړئ
+share-goal-type-speak = غږیدل
+share-goal-type-listen = اوریدل
+share-goal-type-both = خبرې کول او اوریدل
+# LINK will be replaced with the current URL
+goal-share-text = ما دا اوس CommonVoice# ته د غږ بسپنه کولو لپاره شخصي موخه رامینځته کړه - ما سره یوځای شئ او ماشینونو ته چې څنګه ریښتیني خلک خبرې کوي ښوولو کې مرسته وکړئ { $link }
+weekly-goal-created = ستاسو اونېزه موخه رامینځته شوی
+daily-goal-created = ستاسو ورځنۍ موخه رامینځته شوی
+track-progress = دلته او ستاسو د شمیرو په پاڼه کې پرمختګ تعقیب کړئ.
+return-to-edit-goal = هر وخت د خپلې موخې سمولو لپاره دلته بیرته راشئ.
+share-goal = زما موخه شریک کړئ
 
 ## Profile Delete
 
 delete-q = ایا تاسو غواړئ د خپل غږ ثبتونه هم ړنګ کړئ، یا تاسو غوره ګڼئ چې د عام غږ ډېټاسیټ کې يې وساتئ؟
+keep = وساتئ
+remove = لیرې کړئ
 
 ## Landing
 
