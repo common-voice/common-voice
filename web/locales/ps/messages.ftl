@@ -488,6 +488,18 @@ data-download-yes = هو
 data-download-deny = نه
 data-download-license = لایسنس: <licenseLink> CC-0 </licenseLink>
 data-download-modal = تاسو د <size>{ $size } جي بي </size> ډاونلوډ په درشل کې یاست، غواړئ مخته لاړ شئ؟
+data-subtitle = موږ د غږونو آزاد او په عامه ډول شتون لرونکی ډېټاسیټ رامینځته کوو چې هرڅوک کولی شي د وینا-وړ کاریالونو روزلو لپاره ترې کار واخلي.
+data-get-started = <speechBlogLink> وینا پېژندنې باندې پیل وکړئ </ speechBlogLink>
+data-other-title = نور غږیز ډېټاسیټونه ...
+data-other-goto = { $name } ته ورشئ
+data-other-download = ډېټا ډاونلوډ کړئ
+data-bundle-button = د ډېټاسیټ بنډل ډاونلوډ کړئ
+data-bundle-description = د عام غږ ډېټا او ورسره پورتني نور ټول غږیز ډېټاسیټونه.
+release-version = نسخه
+dataset-date = نیټه
+license = لایسنس: <licenseLink>{ $license }</licenseLink>
+license-mixed = ګډ
+data-download-singleword-title = د واحد ويی موخې برخه ډاونلوډ کړئ
 terms-agree = زه همغږی یم
 terms-disagree = زه همغږی نه یم
 review-aborted = اپلوډ رد شو. ایا تاسو غواړئ خپل ثبتونه ړنګ کړئ؟
@@ -497,9 +509,16 @@ review-recording = بیاکتنه
 review-rerecord = بیا ثبت کول
 review-cancel = سپارنه لغوه کړئ
 review-keep-recordings = ثبتونه وساتئ
+review-delete-recordings = زما ثبتونه ړنګ کړئ
 
 ## Datasets Page
 
+language = ژبه
+# File size in gigabytes
+size = اندازه
+validated-hr-total = باوري شوي ساعت ټولټال
+overall-hr-total = په ټوله کې د ساعت ټولټال
+cv-license = لایسنس
 
 ## Download Modal
 
