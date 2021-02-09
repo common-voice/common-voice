@@ -463,6 +463,12 @@ mycroft-subtitle = مصنوعي ځېرمنتیا
 
 glossary = وييزېرمه
 localization = ځايي ژبې ته ژباړل
+localization-explanation = دا زموږ د مینځپانګې د ډیری ځاییزو (ژبو) لپاره د ژباړې او خپلولو پروسه ده.
+sentence-collection = د جملې ټولګه
+sentence-collection-explanation = د عامه ډومین څخه جملې راټولول، یا د عامه ډومین لپاره نوي لیکل.
+hours-recorded-explanation = د غږ ثبتولو ساعتونو شمیر چې موږ تراوسه راټول کړي.
+hours-validated-explanation = د غږ ثبتولو ساعتونو شمیر چې د "هو" په رایې سره د 3 کاروونکو  څخه د 2 لخوا تایید شوي. دا د 10k ساعتونو د پروژې ټولیزې موخې په لور پرمختګ په نښه کوي.
+sst = وینا-څخه-متن (SST)
 
 ## Error pages
 
