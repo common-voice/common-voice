@@ -25,6 +25,7 @@ not-available-abbreviation = N/A
 
 ab = Bahasa Abkhaz
 ace = Bahasa Aceh
+ady = Bahasa Adygea
 af = Bahasa Afrikaans
 am = Bahasa Amhara
 an = Bahasa Aragon
@@ -53,14 +54,19 @@ de = Bahasa Jerman
 dv = Divehi
 el = Bahasa Yunani
 en = Bahasa Inggeris
+eo = Bahasa Esperanto
 es = Bahasa Sepanyol
 et = Bahasa Estonia
+eu = Bahasa Basque
+fa = Bahasa Parsi
 
 # [/]
 
 
 ## Layout
 
+faq = Soalan Lazim
+logout = Log Keluar
 
 ## Home Page
 
