@@ -763,6 +763,8 @@ confirm-goal = د موخې تصدیق وکړئ
 goal-interval-weekly = اونيز
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = د خپل { $count } کليپ ورځنۍ موخه د { $type } لپاره شریک کړئ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = د خپل { $count } کليپ اونېزې موخې د { $type } لپاره شریک کړئ
 share-goal-type-speak = غږیدل
 share-goal-type-listen = اوریدل
 share-goal-type-both = خبرې کول او اوریدل
@@ -779,15 +781,27 @@ share-goal = زما موخه شریک کړئ
 delete-q = ایا تاسو غواړئ د خپل غږ ثبتونه هم ړنګ کړئ، یا تاسو غوره ګڼئ چې د عام غږ ډېټاسیټ کې يې وساتئ؟
 keep = وساتئ
 remove = لیرې کړئ
+profile-form-delete = پېژنیال ړنګ کړئ
 
 ## Landing
 
+welcome-staff = ښه راغلاست { $company } کارمنانو!
+read-more-about = نور زموږ په اړه پاڼې کې ولولئ
 
 ## DemoLayout
 
+demo-get-started = راځئ چې پیل يې کړو
+demo-welcome = ګډ غږ ته ښه راغلاست
+demo-welcome-subheader = د لا زیات پوهاوي او پروژې کې د ونډې اخیستو سره علاقه لرئ؟
 
 ## Demo Datasets
 
+card-button-next = بل
+card-button-back = شاته
+demo-language-select-label = ژبې ولټوئ
+demo-eofy-header = د 2019 د کال-پای خپرونه
+demo-eofy-sub_header = د غږ ډېټاسیټ، د ډاونلوډ لپاره چمتو دی
+demo-account = ګڼون
 
 ## Demo Account
 
