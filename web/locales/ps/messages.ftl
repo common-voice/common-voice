@@ -816,6 +816,9 @@ activity-needed-calculation-plural =
 how-many-per-day = غوره! په ورځ کې څو کلیپونه؟
 how-many-a-week = غوره! په اونۍ کې څو کلیپونه؟
 which-goal-type = ایا تاسو غواړئ چې وغږیږئ، واورئ یا دواړه؟
+receiving-emails-info =
+    تاسو دا مهال د برېښنالیکونو لکه د موخې یادونه، زما
+    د پرمختګ په اړه تازه مالومات او د ګډ غږ په اړه خبرلیکونو ترلاسه کولو لپاره ټاکل شوي یاست
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] کلیپ
