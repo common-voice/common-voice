@@ -427,6 +427,8 @@ faq-why-not-ask-read-a = د عام غږ ډېټاسیټ د امکان تر حده
 faq-why-account-q = ولې زه باید د ګڼون لپاره نوملیکنه وکړم؟
 faq-is-account-public-q = ایا زما د ګڼون مالومات عامه دي؟
 faq-how-privacy-q = تاسو څنګه د هغه خلکو هویت او محرمیت تضمین کوئ چې دوی خپل غږونه مرسته کړې؟
+faq-how-privacy-a = په ډېټاسیټ کې ټول غږیز کلیپونه د پېژندلو شخصي مالوماتو څخه پاک شوي. کله چې یوه مرسته کوونکې د خپل پېژنیال له لارې ډیموګرافیک مالومات راچمتو کوي، نو دا مالومات په ډېټاسیټ کې د غږ کلیپونو د ډاونلوډ لپاره د بنډلولو څخه مخکې ناپېژانده کیږي او هیڅکله د دوی پر پېژنیال نه عام کیږي.
+faq-what-determine-identity-q = دا څه مانا لري چې زه نشم کولی په عام غږ ډېټاسیټ کې د وینا کونکو "شناخت وکړم"؟
 faq-what-is-cv = عام غږ څه شی دی؟
 faq-using-cv = د ګډ غږ کارول
 faq-search-for-answers =
@@ -449,6 +451,7 @@ about-no-votes = ≥ 2 د نه رایې
 about-dataset-new = عام غږ ډېټاسیټ
 about-partners = شریکان
 about-become-a-partner = ملګری شئ
+about-get-involved = ونډه واخلئ
 about-nav-why-common-voice = ولې؟
 about-nav-how-it-works = څنګه؟
 about-nav-partners = شریکان
@@ -458,6 +461,8 @@ mycroft-subtitle = مصنوعي ځېرمنتیا
 
 ## Glossary
 
+glossary = وييزېرمه
+localization = ځايي ژبې ته ژباړل
 
 ## Error pages
 
