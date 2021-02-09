@@ -7,6 +7,7 @@ return-to-cv = Kembali ke Common Voice
 email-input =
     .label = E-mel
 submit-form-action = Hantar
+loading = Memuatkan…
 email-opt-in-info = Saya ingin menerima e-mel seperti peringatan matlamat, kemas kini kemajuan saya dan buletin mengenai Common Voice.
 email-opt-in-info-title = Sertai senarai mel Common Voice
 email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran dan matlamat, kemas kini kemajuan, dan buletin mengenai Common Voice.
@@ -47,6 +48,8 @@ co = Bahasa Corsica
 cs = Bahasa Czech
 cv = Bahasa Chuvash
 cy = Bahasa Wales
+da = Bahasa Denmark
+de = Bahasa Jerman
 
 # [/]
 
