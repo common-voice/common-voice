@@ -627,7 +627,9 @@ other-language = بله ژبه
 ## Languages Overview
 
 language-section-in-progress = د پرمختګ په حال کې
+language-section-in-progress-new-description = دا ژبې دا مهال د ټولنې لخوا تر پراختیا لاندې دي. د پرمختګ پټې په ګوته کوي چې هره ژبه څومره ليری د <localizationGlossaryLink> ویب سایټ ځایي ژبې ته ژباړلو </localizationGlossaryLink> او <sentenceCollectionGlossaryLink> د جملو ټولګه </sentenceCollectionGlossaryLink> په پروسه کې ده.
 language-section-launched = په لاره اچول شوی
+language-section-launched-description = د دې پیل شوي ژبو لپاره ویب پاڼه په بریالیتوب سره <localizationGlossaryLink> ځایي ژبې ته ژباړل </localizationGlossaryLink> شوې، او کافي <sentenceCollectionGlossaryLink> جملې راټولې شوې دي </sentenceCollectionGlossaryLink> ترڅو د <speakLink> غږیدلو </speakLink> او <listenLink> اوریدلو </listenLink> رواني ونډې لپاره اجازه ورکړل شي.
 languages-show-more = نور ووینئ
 languages-show-less = لږ ووینئ
 language-meter-in-progress = پرمختګ
@@ -653,6 +655,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> کلیپونه
     }
 goal-help-recording = تاسو زموږ د ورځني{ $goalValue } ثبتولو موخې څخه د عام غږ <goalPercentage></goalPercentage> ته رسولو کې مرسته کړې!
+goal-help-validation = تاسو زموږ د ورځني { $goalValue } تاییدولو موخې څخه د عام غږ <goalPercentage></goalPercentage> ته رسولو کې مرسته کړې!
 contribute-more =
     { $count ->
         [one] د بل { $count } کولو لپاره چمتو یاست؟
@@ -668,7 +671,10 @@ record-error-too-short = ثبت ډیر لنډ وو.
 record-error-too-long = ثبت ډیر اوږد وو.
 record-error-too-quiet = ثبت ډیر غلی وو
 record-cancel = د سره ثبت کول لغوه کړئ
+record-instruction = { $actionType }<recordIcon></recordIcon> بیا جمله په لوړ غږ ولولئ
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> کله چې سرته ورسي
 record-three-more-instruction = درې پاته دي!
+record-again-instruction = ډېرښه! <recordIcon></recordIcon> خپل بل کلیپ ثبت کړئ
 record-again-instruction2 = دوام ورکړئ، بیا یې <recordIcon></recordIcon> ثبت کړئ
 record-last-instruction = <recordIcon></recordIcon> وروستی یو!
 review-tooltip = دلته لکه څنګه چې تاسو مخته ځئ کلیپونه بیاکتنه او بیا-ثبت کړئ
@@ -682,6 +688,9 @@ record-abort-text = اوس پرېښودل پدې معنی چې تاسو خپل �
 record-abort-submit = کليپونه وسپارئ
 record-abort-continue = ثبت بشپړ کړئ
 record-abort-delete = ووځئ او کليپونه ړنګ کړئ
+listen-instruction = { $actionType }<playIcon></playIcon> ایا دوی په کره ډول جمله ویلې؟
+listen-again-instruction = ډېر ښه کار! <playIcon></playIcon> کله چې چمتو یاست نو بیا واورئ
+listen-3rd-time-instruction = 2 ترسره شوه، دوام ورکړئ! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> وروستی یو!
 listen-empty-state = موږ پدې ژبه کې د تاییدلو لپاره د کلیپونو څخه خلاص شو...
 speak-empty-state = موږ پدې ژبه کې د ثبتولو لپاره د جملو څخه خلاص شو...
@@ -756,6 +765,7 @@ validated-clips = تایید شوي کلیپونه
 total-approved = ټولټال منل شوي
 overall-accuracy = په ټولیز ډول کره‌توب
 set-visibility = زما لید تنظیم کړئ
+visibility-explainer = دا امستنه ستاسو د مخکښ-بورډ لید کنټرولوي. کله چې پټ وي، ستاسو پرمختګ به خصوصي وي. دا پدې مانا ده چې ستاسو عکس، د کارن نوم او پرمختګ به په مخکښ-بورډ کې څرګند نشي. په یاد ولرئ چې د لیډربورډ بیا سمسورول د بدلونونو د اغیز لپاره ~ { $minutes } دقیقې وخت نیسي.
 visibility-overlay-note = یادونه: کله چې 'څرګند' ته ټاکل شوې وي، نو دا امستنه د <profileLink>پېژنیال پاڼه</profileLink> څخه بدلیدلی شي
 show-ranking = زما درجه بندي وښایاست
 
