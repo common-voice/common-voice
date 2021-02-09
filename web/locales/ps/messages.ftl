@@ -875,6 +875,7 @@ demo-welcome-subheader = د لا زیات پوهاوي او پروژې کې د �
 ## Demo Datasets
 
 demo-language-select-card-header = عام غږ د نړۍ ترټولو ستر په عامه کچه موجود ، ګڼ ژبی غږیز ډېټاسیټ دی.
+demo-language-select-card-body = په 50 ژبو کې له 259k څخه زیاتو خلکو د مرستې څخه مننه، دا ډېټا د وینا-وړ کاریالونو روزلو لپاره کارول کیږي ترڅو انساني غږ ته ښه ځواب ووایي.
 card-button-next = بل
 card-button-back = شاته
 demo-language-select-label = ژبې ولټوئ
@@ -884,6 +885,8 @@ demo-account = ګڼون
 
 ## Demo Account
 
+demo-account-card-header = د مرستې لپاره د ګڼون درلودل اړین ندي، خو ګټور دي.
+demo-account-card-body = ښي خوا ته موږ د هغه مالوماتو چې موږ يې عاموو ګټې روښانه او تشریح کوو. په خپل اله کې د عام غږ ګڼون سره پیل کولو لپاره لاندې تړوني وکاروئ.
 demo-account-enter-email =
     .label = د نوملیکنې تړوني لیږلو لپاره برېښنالیک دننه کړئ
 demo-account-sign-up = د نوملیکنې تړونی ولیږئ
