@@ -519,9 +519,34 @@ size = اندازه
 validated-hr-total = باوري شوي ساعت ټولټال
 overall-hr-total = په ټوله کې د ساعت ټولټال
 cv-license = لایسنس
+audio-format = غږیز فارمټ
+number-of-voices = د غږونو شمیر
+splits = ټوټې ټوټې
+email-to-download = د ډاونلوډ کولو لپاره برېښنالیک دننه کړئ
+confirm-size = تاسو د <b>{ $size }</b> ډاونلوډ پیلولو لپاره چمتو یاست
+size-gigabyte = جي بي
+size-megabyte = ام بي
+download-language = { $language } ډاونلوډ کړئ
+validated-hours = تایید شوي ساعتونه
+recorded-hours = ثبت شوي ساعتونه
+whats-inside = د ګډ غږ په ډېټاسیټ کې څه شی دی؟
+want-dataset-update = تازه مالومات غواړئ کله چې موږ د عام غږ ډېټاسیټ نوې نسخه خپروو؟ زموږ خبرلیک کې ګډون وکړئ.
+subscribe = ګډون وکړئ
+get-started-speech = وینا پېژندنې باندې پیل وکړئ
+other-datasets = نور غږیز ډېټاسیټونه ...
+feedback-q = غبرګون لرئ؟
+go-discourse = بحث ته لاړشئ
+missing-language = ایا ستاسو ژبه په ډېټاسیټ کې منعکس شوې نه وینئ؟ زموږ د ژبو پاڼې ته د ژبې غوښتلو لپاره سر ورښکاره کړئ.
+go-languages-page = د ژبې پا ڼې ته لاړشئ
+ready-to-validate = د جملو تاییدولو کې مرستې ته چمتو یاست؟
+more = نور
+close = بندکړئ
+download = ډاونلوډ
+dataset-version = نسخه
 
 ## Download Modal
 
+download-title = ستاسو ډاونلوډ پیل شوی دی.
 download-form-email =
     .label = خپل برېښنالیک دننه کړئ
     .value = ستاسو څخه مننه، موږ به اړیکه کې یو.
