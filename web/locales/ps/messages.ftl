@@ -547,6 +547,7 @@ dataset-version = نسخه
 ## Download Modal
 
 download-title = ستاسو ډاونلوډ پیل شوی دی.
+download-helpus = زموږ سره د غږ ټیکنالوژۍ پر شاوخوا ټولنې جوړولو کې مرسته وکړئ، د بریښنالیک له لارې اړیکه کې اوسئ.
 download-form-email =
     .label = خپل برېښنالیک دننه کړئ
     .value = ستاسو څخه مننه، موږ به اړیکه کې یو.
@@ -601,12 +602,24 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> کلیپونه
     }
 goal-help-recording = تاسو زموږ د ورځني{ $goalValue } ثبتولو موخې څخه د عام غږ <goalPercentage></goalPercentage> ته رسولو کې مرسته کړې!
+contribute-more =
+    { $count ->
+        [one] د بل { $count } کولو لپاره چمتو یاست؟
+       *[other] د نورو { $count } کولو لپاره چمتو یاست؟
+    }
 record-cta = ثبتول پیل کړئ
+record-platform-not-supported = موږ بخښنه غواړو، ستاسو پل‌ سټه اوس مهال ملاتړ نه لري.
+record-platform-not-supported-desktop = په ډیسکټاپ الو کې تاسو کولی شئ ډاونلوډ کولو سره ونډه واخلئ ...
 record-platform-not-supported-ios-non-safari = په iOS کې مهرباني وکړئ د ثبت فعالولو لپاره په سفاري کې دوام ورکړئ ...
+record-must-allow-microphone = تاسو باید د مایکروفون لاسرسي ته اجازه ورکړئ.
+record-no-mic-found = مایکروفون ونه موندل شو.
 record-error-too-short = ثبت ډیر لنډ وو.
 record-error-too-long = ثبت ډیر اوږد وو.
 record-error-too-quiet = ثبت ډیر غلی وو
 record-cancel = د سره ثبت کول لغوه کړئ
+record-three-more-instruction = درې پاته دي!
+record-again-instruction2 = دوام ورکړئ، بیا یې <recordIcon></recordIcon> ثبت کړئ
+record-last-instruction = <recordIcon></recordIcon> وروستی یو!
 record-abort-title = لومړی ثبتول پای ته ورسوئ؟
 record-abort-continue = ثبت بشپړ کړئ
 record-abort-delete = ووځئ او کليپونه ړنګ کړئ
