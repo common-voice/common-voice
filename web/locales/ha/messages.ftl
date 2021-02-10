@@ -874,7 +874,7 @@ demo-account-sign-up = Aika hanyar haɗin rajista
 ## Demo Contribute
 
 demo-contribute-card-header = Shirya don ƙara muryarka ko rancen kunnenka?
-demo-contribute-card-body = Yanzu da kun san ɗan ƙarin bayani game da Common Voice, me zai hana ku gwada shi? Latsa gunkin makirufo don fara karanta jimloli a bayyane. <br/> <br/> Idan ka fi so a duba gudummawar muryar wasu mutane, danna gunkin kunnawa. Idan rikodin muryar da kuka ji ya dace da kalmomin da aka rubuta akan fuska.
+demo-contribute-card-body-v2 = Yanzun da ka sani ɗan ƙarin bayani game da Common Voice, me yasa bazaka jarraba shi ba? Latsa akan alaman ɗaukan murya domin fara karanta jimloli . <br/><br/>idan ka gwammaci duba gudumawar muryar wasu mutane, danna kan alamar farawa. Zaka taimaka tabbatar cewa ɗaukar muryar ta dace da jimloli da aka rubuta akan allo.
 demo-listen-subtitle = Shirya don ba da gudummawa?
 
 ## Demo Dashboard
