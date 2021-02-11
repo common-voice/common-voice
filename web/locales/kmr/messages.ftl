@@ -738,7 +738,7 @@ show-ranking = Rêza min nîşan bide
 ## Custom Goals
 
 get-started-goals = Dest bi hedefa xwe bike
-create-custom-goal = Hedefeke taybet çêbike
+create-custom-goal = Hedefeke taybet çêke
 goal-type = Tu dixwazî hedefeke çawa çêbikî?
 both-speak-and-listen = Her du jî
 both-speak-and-listen-long = Her du jî (peyivîn û guhdarîkirin)
