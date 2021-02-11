@@ -879,7 +879,7 @@ demo-account-sign-up = Enviar a ligazón de rexistro
 ## Demo Contribute
 
 demo-contribute-card-header = Preparado para engadir a súa voz ou prestar o seu oído?
-demo-contribute-card-body = Agora que xa sabe un pouco máis sobre Common Voice, por que non o probar? Prema na icona do micrófono para comezar a lectura de frases en voz alta. <br/> <br/> Se prefire revisar as colaboracións de voz doutras persoas, prema na icona de reprodución. Se a gravación de voz que escoita coincide coas palabras escritas na pantalla.
+demo-contribute-card-body-v2 = Agora que xa sabe un pouco máis sobre Common Voice, por que non o proba? Prema sobre a icona do micrófono para comezar a ler frases en voz alta. <br/> <br/> Se prefire revisar as achegas de voz doutras persoas, prema na na icona de reprodución. Axudará a confirmar que as gravacións coinciden coas frases escritas na pantalla.
 demo-listen-subtitle = Preparado para colaborar?
 
 ## Demo Dashboard
