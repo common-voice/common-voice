@@ -33,6 +33,7 @@ as = Assamés
 ast = Asturian
 az = Azèri
 ba = Bashquir
+bas = Basaa
 be = Bielorús
 bg = Bulgar
 bm = Bambara
@@ -144,6 +145,7 @@ uz = Uzbec
 vec = Venèt
 vi = Vietnamian
 vot = Vòt
+yue = Cantonés
 zh-CN = Mandarin (China)
 zh-HK = Mandarin (Hong Kong)
 zh-TW = Mandarin (Taiwan)
@@ -812,3 +814,18 @@ help-contribute = Podètz ajudar a crear un jòc de donadas liure e diversificat
 login-company = Connexion / Inscripcion amb l’adreça electronica de { $company }
 profile-not-required = Es pas necessari de crear un perfil per contribuir, mas es util.
 read-more-about = Per ne saber mai anatz a la pagina A prepaus
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

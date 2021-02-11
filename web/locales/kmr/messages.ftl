@@ -1,16 +1,16 @@
 ## General
 
 yes-receive-emails = Erê, ji min re emaîlan bişîne. Ez dixwazim derbarê projeya Common Voiceê de bêm agahdarkirin.
-stayintouch = Em li ser Mozillayê civakake têkildarî teknolojiyên dengî ava dikin. Em dixwazin venûkirinên nû û çavkaniyên nû bigihînin te û her wiha em dixwazin bizanin ka tu daneyan çawa bi kar tînî.
+stayintouch = Em li ser Mozillayê civakake têkildarî teknolojiyên dengî ava dikin. Em dixwazin nûvekirinên nû û çavkaniyên nû bigihînin te û her wiha em dixwazin bizanin ka tu daneyan çawa bi kar tînî.
 privacy-info = Em soz didin ku em ê agahiyên te bi baldarî li cem xwe bihêlin. Ji bo agahiyên zêdetir, <privacyLink>Agahdariya Nihêniyê</privacyLink> bixwîne.
 return-to-cv = Vegere Common Voiceê
 email-input =
     .label = Emaîl
 submit-form-action = Bişîne
 loading = Tê barkirin…
-email-opt-in-info = Ez dixwazim e-maîlên wekî bîranînên armancan, venûkirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirin.
-email-opt-in-info-title = Beşdarî lîsteya maîlan ya Comon Voiceê bibe
-email-opt-in-info-sub-with-challenge = E-maîlên wekî bîranînên armancan, venûkirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirin.
+email-opt-in-info = Ez dixwazim emaîlên wekî bibîrxistinên hedefê, nûvekirinên pêşveçûna xwe û nûçenameyên derbarê Common Voiceê de wergirim.
+email-opt-in-info-title = Beşdarî lîsteya emaîlan a Comon Voiceê bibe
+email-opt-in-info-sub-with-challenge = Emaîlên wekî bibîrxistinên hedefê, nûvekirinên pêşveçûnê û nûçenameyên derbarê Common Voiceê de wergire.
 email-opt-in-privacy-v2 = Bi vebijarka wergirtina e-maîlan tu diyar dikî ku tu razî yî Mozilla van agahiyan wekî ku di <privacyLink> Polîtîkaya Nepeniyê </privacyLink> ya Mozillayê de hatî vegotin bi kar bîne.
 indicates-required = * Qada pêwîst nîşan dide
 not-available-abbreviation = Tune
@@ -156,8 +156,8 @@ zh-TW = Çînî (Taywan)
 ## Layout
 
 speak = Biaxive
-speak-now = Niha biaxive
-datasets = Komên daneyan
+speak-now = Aniha biaxive
+datasets = Komdane
 languages = Ziman
 about = Derbar
 profile = Profîl
@@ -176,7 +176,7 @@ logout = Derkeve
 
 ## Home Page
 
-home-title = Common Voice hewldaneke Mozillayê ye ku alîkariya makîneyan dike ku fêr bibin ka mirovên rast çawa diaxivin.
+home-title = Common Voice hewldaneke Mozillayê ye, ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin.
 home-cta = Biaxive, piştgiriyê bide!
 wall-of-text-start =
     Deng xwezayî ye, deng mirovî ye. Ji ber vê em bi hindê re eleqedar dibin ku ji bo makîneyên xwe teknolojiyên
@@ -194,20 +194,20 @@ wall-of-text-more-desktop =
     kontrol bikin ku kalîte bilind bibe. Ev çend hêsan e!
 wall-of-text-first =
     Deng xwezayî ye, deng mirovî ye. Ji ber vê em bi hindê re eleqedar dibin ku ji bo makîneyên xwe teknolojiyên
-    dengî yên bikêrhatî biafirînin. Lê ji bo afirandina prgala dengî ji bo pêşvebiran qedereke zêde
+    dengî yên bikêrhatî biafirînin. Lê ji bo afirandina pergala dengî ji bo pêşvebiran qedereke zêde
     daneyên dengan
     lazim in.
 wall-of-text-second =
     Piraniya daneyan ji aliyê şirketên mezin ve tên bikaranîn ku ji bo piraniya mirovan ne berdest in. Em
     difikirin ku ev rê li nûbûnê digire. Loma me Common Voice da destpêkirin ku pergalên naskirina dengan
     ji bo her kesî vekirî bin.
-show-wall-of-text = Bêtir Bixwînin
-help-us-title = Ji bo pesendkirina hevokan alîkariya me bike!
-help-us-explain = Pêl bişkoka lêdanê bike û lê guhdarî bike: Gelo hevoka xwarê rast hatiye xwendin?
+show-wall-of-text = Zêdetir Bixwîne
+help-us-title = Ji bo piştrastkirina hevokan, alîkariya me bike!
+help-us-explain = Li bişkoka lêdanê bitikîne û lê guhdarî bike: Gelo hevoka li jêr rast hatiye xwendin?
 no-clips-to-validate = Wisa xuya ye ji bo vî zimanî ti klîbek tune ye ku lê guhdarî bikî. Niha axaftinan qeyd bike ku lîste bê dagirtin.
 vote-yes = Erê
 vote-no = Na
-toggle-play-tooltip = Ji bo veguheztina moda lêdanê pêl { shortcut-play-toggle } bike
+toggle-play-tooltip = Ji bo girtina/vekirina moda lêdanê li { shortcut-play-toggle }’ê bitikîne
 speak-subtitle = Dengê xwe bibexşîne
 speak-paragraph = Tomarkirina klîbên dengan, beşeke girîng e ji bo avakirina komdaneya me ya vekirî. Li gorî hinekan beşa herî xweş jî ev e.
 speak-goal-text = Dengên tomarkirî
@@ -241,7 +241,7 @@ x-years-short =
 help-make-dataset = Alî me bike ku em bi kalîteyeke bilind komdaneya vekirî û gelerî ava bikin
 sign-up-account = Hesabekî veke
 email-subscription-title = li nûçeyên emaîlê tomar bibe
-email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêveçûna projeyê tomar bibe
+email-subscription-title-new = Ji bo nûçenameyên Common Voiceê, bibîrxistinên hedefê û rewşa pêşveçûna projeyê lê tomar bibe
 
 ## Account Benefits
 
@@ -357,6 +357,7 @@ email-subscriptions = Abonetiyên emaîlê
 download-profile = Daneyên min daxîne
 contribution-experience = Tecrubeya beşdariyê
 skip-submission-feedback = Şandina paşragihandinê derbas bike
+skip-submission-description = Di dema şandina beşdariyê de piştî ku li 'Bişîne'yê hate tikandin ew ê paşragihandin bê derbaskirin. Beşdarî ew ê rasterast bi 5 setên din ên tomarkirinê an jî piştrastkirinê re berdewam bike.
 skip-submission-note = Not: Ji bo guhertina cureya beşdariyê divê tu Axaftinê an Jî Guhdarîkirinê hilbijêrî.
 off = Girtî
 on = Vekirî
@@ -371,6 +372,7 @@ delete-voice = JÊ BIBE
 recording-voice-wave = Tê tomarkirin
 delete-voice-clip = an jî  klîba dengê jê bibe
 ready-to-upload = Lê bar bike
+avatar-clip-fact = Ev rastî ji berê ve tê zanîn ku gava xwînerek li raxistina rûpelekê dinêre, dê bal û dîqeta wî ji ber naveroka wê ya nivîskî ve bê pelişandin.
 recreate-voice = Dengê xwe dîsa tomar bike
 cancel-avatar-clip-recording = Betal bike
 about-avatar-clip-recording = Klîbeke dengî biafirîne û bike parçeyek ji profîla xwe. Dema ku hin kes bên profîla te ew ê karibin li vê klîbê guhdarî bikin.
@@ -389,16 +391,30 @@ change-email-setings = Emaîla xwe ji "Sazkariyan > Nasnameya têketinê" biguhe
 
 faq-title = Pirsên Pir Tên Pirsîn
 faq-what-cv-q = Common Voice çi ye?
+faq-what-cv-a =
+    Teknolojiya naskirina dengan, di şêweya ku em bi makîneyan re têiliyê datînin de şoreşekê çêdike lê pergalên niha heyî buha ne û tescîlkirî ne. Common Voice parçeyeke hewldana Mozillayê ye ji bo teknolojiya naskirin a dengan ji bo her kesî çêtir û berdest be. Common Voice danegeheke global ya mezin ya dengên hatine bexşandin e ku dihêle her kes dikaribe bernamokên bi taybetiya deng  bi hemû zimanan bi awayekî zû û hêsan perwerde bike.
+    
+    Em mînakên dengan ne tenê ji zimanên pir tên axaftin berhev dikin lê ji wan zimanan jî berhev dikin ku hejmara axivêrên wan hindik e. Weşandina daneyên dengî yên cur bi cur dê pêşvebiran, muteşebisan û civakan han bide ku vê valahiyê dagirin. Em ji bilî koma daneyan ya Common Voiceê motoreke naskirina dengan ya bi çavkaniya vekirî ya bi navê Deep Speech jî ava dikin.
 faq-why-important-q = Çima girîng e?
+faq-why-important-a =
+    Axaftin bi gelemperî awayê herî xwezayî ye ku em pê bi hev re têkiliyê datînin û teknolojiyên dengî vê rehetiyê digihînin komputer û amûrên me yên mobîl. Em dixwazin pêşdebiran bi hêz bikin ku dikaribin sepanên newaze yên naskirina dengan yên wekî wergêrên hevdem û alîkarên dîjîtal yên xweydeng ava bikin. Lê niha piraniya daneyên dengî ku ji bo avakirina van celeb sepanan hewce dikin biha ne û taybet in. Em hêvîdar in ku koma daneyan ya Common Voiceê dê tişta pêwîst bide pêşdebiran ku tiştên nû çêkin û dikaribin teknolojiya naskirina dengan ji bo zimanên xwe pêşkêş bikin.
+    Ji bo ku naskirina dengan hê gerdûnîtir be, em nimûneyên dengan yên bi zimanên pir tên axaftin û her wisa yên bi zimanên pir nayên axaftin jî berhev dikin ku pêşkêşkarên bazirganî yên xizmetên naskirina dengan wan ji nedîtî ve tên. Weşandina daneyên dengî yên cur bi cur dê pêşvebiran, muteşebisan û civakan han bide ku vê valahiyê dagirin.
 faq-how-get-q = Ez çawa dikarin daneyên Common Voiceê daxînim?
+faq-how-get-a = Koma daneyan ya Common Voiceê ji bo jêbarkirinê di bin lîsansa <licenseLink> CC0 </licenseLink> de li ser <datasetLink> rûpela me ya koma daneyan </datasetLink> berdest e. Her wisa hûn dikarin ji heman rûpelê gelek komên daneyan yên ji bo raya giştî vekirî jî jêbar bikin.
 faq-when-release2-q = Hûn ê daneyên Common Voiceê yên zimanên din kengî belav bikin?
+faq-when-release2-a = Guhertoya pirzimanî ya koma daneyan ya Common Voiceê niha di merheleya pakêtkirin û paqijkirina bi alîkariya civakê re derbas dibe. Heke tu dixwazî alîkariya me bikî ku em zimanên nû bînin Common Voiceê, ji bo hevokên nû li koma daneyan zêde bikî li  <sentenceCollectorLink>Alava Berhevkirina Hevokan</sentenceCollectorLink>  û ji bo wergerandina malpera wê li Mozilla  <pontoonLink>Pantoon</pontoonLink>ê binêre. Gava 5.000 hevokên pesendkirî civiyan, zimanê nû ji bo piştgiriya dengan li Common Voiceê tê zêdekirin.
 faq-why-mission-q = Common Voice çima beşek ji mîsyona Mozillayê ye?
+faq-why-mission-a = Armanca Mozillayê ev e ku web ji bo her kesî vekirî û berdest be. Ji bo vê, divê em pêşdebirên webê bi projeyên wekî Common Voiceê xurt bikin. Her ku teknolojiyên dengî ji sepanên nîş wêdetir bi pêş dikevin, em wisa bawer dikin ku divê zixmetekî wekhev bidin hemû bikarhêneran. Wateya vê jî ev e ku razemenî ji bo zêdetir zimanan bê kirin û di avakirina teknoojiyên dengan de daneyên devokî û demografîk yên cuda jî di nav de hebin. Common Voice çavkaniyeke raya giştî ye ku her kes dikare wê bi kar bîne û jixwe pêşdebirên Mozillayê yên li çar aliyên cîhanê di projeyên xwe de wê bi kartînin.
 faq-what-cv-and-deepspeech-q = Çi cudahî di navbera Common Voice û Deep Speechê heye?
+faq-what-cv-and-deepspeech-a = Koma daneyan ya Common Voiceê, motora naskirina dengan ya Mozillayê ya bi çavkaniya vekirî Deep Speechê temam dike. Versiyona pêşî ya Deep Speechê mijdara 2017an hat weşandin û ji wê demê ve bi berdewamî bo pêş dikeve. Bi koma daneyan ya Common Voiceê em wisa bawer dikin ku divê telnolojiya naskirina dengan ya bi çavkaniya vekirî ji bo her kesî berdest be. Em hêvî dikin ku ev teknolojî pêşvebiran han bidin ku pêlên xizmet û berhemên nûxwaz biafirînin.
 faq-is-goal-assistant-q = Armanca Common Voiceê avakirina asîstaneke dengî ye?
+faq-is-goal-assistant-a = Armanca koma daneyan ya Common Voiceê ev e ku li cîhanê her kes dikaribe sepanên naskirina dengan, yên naskirina axêveran yan jî her seaneke jê re daneyên dengan divên çêke. Sepana asîstana dengî seoanek ji gelek sepanên din e ku mirov dikare bi alkariya koma daneyan ava bike.
 faq-do-want-native-q = Ev ne zimanê min ê dayikê ye û ez bi devokî diaxivim, dîsa jî hûn dengê min dixwazin?
 faq-do-want-native-a = Erê, em bi taybet dengê te dixwazin! Armanca Common Voiceê ev e ku ji gelek devokên/aksanên cuda deng bên berhevkirin da ku xizmetên dengnasînê ji bo her kesî wekhev û baştir bixebitin. Heke em bi kurtasî bibêjin; dengê kesên ku bi zimanê xwe yê duyem, sêyem beşdar dibin ji yên bi zimanê xwe yê dayîkê beşdar dibin, girîngtir e.
 faq-why-different-speakers-q = Çima ji bo her zimanî gelek axiverên cuda ji we re pêwîst in?
+faq-why-different-speakers-a = Piraniya danegehên axaftinê bi wan zanyariyên demografîk têne perwerdekirin ku tê de<articleLink>çîna zilaman û ya navîn</articleLink> zêdetir tê temsîlkirin. Di wan komên daneyan de ku ji bo perwerdehiyê tên bikaranîn devok û zaravayên kêm tên temsîlkirin bi piranî têkildarî gel û civakên marjînal in. Gelek makîne dengê jinan jî bi zehmetî fêm dikin. Loma em di danegeha xwe ya dengan de pirrengiyê dixwazin.
 faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
+faq-why-my-lang-new-a = Mozilla ti zimanî di ser yên din re nabîne. Common Voice bi temamî ji aliyê civatan ve tê meşandin, lê <multilangLink> çend gavên ji bo lêzêdekirina zimanên nû </multilangLink> û destpêkirina berhevkirina bexişandina dengan hene. Pêşî, divê malpera Common Voiceê bê wergerandin ku beşdar dikaribin bi zimanê xwe xwe bigihînin azmûnên hevkaran. Paşê, pêdiviya me berhevokeke mezin ya hevokên bêtelîf heye ku mirov wan bi deng bixwînin. Gava ev her du pêdivî hatin bicîanîn, Common Voice wî zimanî li zimanan zêde dike ku mirov dengê xwe qeyd bikin û rastiya dengên qeydkirî kontrol bikin. Ango heke hûn dixwazin alîkariyê bikin ku zimanek lê bê zêdekirin hûn dikarin ji bo destpêkirinê li <sentenceCollectorLink>amûra berhevkirina hevokan</sentenceCollectorLink> binêrin.
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
 faq-why-10k-hours-q = Çima ji bo her zimanekî hedefeke bi qasî 10,000 saet klîbên dengî yên piştrastkirî heye?
 faq-how-calc-hours-q = Common Voice saetan çawa hesab dike?
@@ -418,16 +434,23 @@ faq-search-for-answers =
 
 about-title = Çima Common Voice?
 about-subtitle = Common Voice beşek ji insiyatîva Mozillayê ye û ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin. Ji bilî komdaneya Common Voiceê em motoreke nasîna axaftinê ya çavkanî vekirî jî bi navê Deep Speech ava dikin.
+about-header-description =
+    Ev her du proje jî parçeyên hewldana me ya ji bo rakirina cudakariya axaftina dîjîtal in. Teknolojiyên naskirina dengan aliyekî mirovane tînin nav amûrên me lê ji bo pêkanîna vê pêdiviya pêşvebiran bi gelek daneyên dengî heye. Niha piraniya van daneyan tên firotin û buha ne.
+    Em dixwazin daneyên dengî belaş bin û ji bo her kesî bin, her wisa em dixwazin dane curbucurbûna mirovan temsîl bikin. Em dikarin naskirina dengan ji bo her kesî çêtir bikin.
 how-does-it-work-title = Çawa dixebite?
 how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin. Dengê xwe bibexşîne, klîbên dengî yên kesên din kontrol bike, komdaneyê ji bo her kesî çêtir bike.
 about-speak = Bipeyive
+about-speak-text = Beşdar hevokên ji danegeha hevokên hatine bexişandin dixwînin û dengê xwe tomar dikin.
 about-listen-queue = Rêza Guhdarîkirinê
+about-listen-queue-text = Klîbên dengan li gorî doreke teslîmkirinê ya ji bo guhdarîkirinê tên rêzkirin.
 about-listen = Guhdarî bike
+about-listen-text = Bikarhêner rastiya klîbên hatine bexişandin pesend dikin, kontrol dikin ka xwîner hevokan rast dixwînin yan na.
 about-is-it-valid = Klîb derbasdar e?
 about-is-it-valid-text = Dema ku bikarhênerek raya Erê bide klîbeke dengî, ew klîb "derbasdar" tê nîşankirin.
 about-yes-votes = Rayên erê ≥ 2
 about-yes-votes-text = Ji bo ku ew têkeve nav komdaneya Common Voiceê , divê ji hêla du bikarhênerên cuda ve were piştrastkirin.
 about-no-votes = Rayên na ≥ 2
+about-no-votes-text = Gava bikarhênerek klîbeke dengî red bike, ew dîsa dikeve dorê. Heke klîbeke dengî cara duyemîn bê redkirin, ew dikeve Goristana Klîban.
 about-dataset-new = Komdaneya Common Voiceê
 about-dataset-new-text = Komdaneya Common Voiceê bi sed hezaran nimûneyên dengan di xwe de dihewîne ev jî rê li ber pêşvebiran vedike ku amûrên dengnasînê ava bikin.
 about-clip-graveyard = Goristana Klîban
@@ -435,6 +458,11 @@ about-clip-graveyard-text = Goristana klîban (dengan), ji klîbên dengan ên k
 about-partners = Hevkar
 about-become-a-partner = Bibe hevkarê me
 about-get-involved = Tevlî me bibin
+about-get-involved-text-2 =
+    Tu dixwazî Common Voiceê çêtir bikî? Gelekî baş e!
+    Bi riya e-peyamê yan jî forumên <discourseLink>Discourse</discourseLink>ê peyywendiyê
+    çêke, pirsgirêkên têkildarî malperê bi riya  <githubLink>GitHub</githubLink>ê
+    bişîne yan jî beşdarî civaka <matrixLink>Matrix</matrixLink>ê bibe.
 about-nav-why-common-voice = Çima ?
 about-nav-how-it-works = Çawa ?
 about-nav-partners = Hevkar
@@ -507,7 +535,7 @@ cv-license = Lîsans
 audio-format = Formata dengî
 number-of-voices = Hejmara dengan
 splits = Xalên veqetandinê
-email-to-download = Ji bo daxistinê, emaîlê bikevê
+email-to-download = Ji bo daxistinê, emaîlê binivîse
 why-email = <b>Çima emaîl lazim e?</b> Dibe ku em di siberojê de derbarê guhertinên komdaneyê de bi te re têkevin têkiliyê, em ê vê emaîlê ji bo têkilîdanînê bi kar bînin.
 confirm-size = Tu amade yî ji bo daxistineke bi qasî <b>{ $size }</b> dakêşî.
 size-gigabyte = GB
@@ -521,8 +549,10 @@ subscribe = Bibe abone
 get-started-speech = Bi Nasîna Axaftinê Dest Pê Bike
 other-datasets = Komdaneyên din ên dengî
 feedback-q = Pêşniyara te heye?
+common-voice-info-new = Hin pirsên te li ser Common Voiceê heye? Fikrên te ji bo baştirkirinê hene an jî tu dixwazî li ser zimanekî taybet paşragihandinê bişînî? Li ser <discourseLink>Forûma Discourseê</discourseLink> ya me tevlî me bibe û hayê me jê çêke.
 data-other-ted-name = TED-LIUM Corpus
-data-other-tatoeba-description = Tatoeba, danegeheke mezin a hevok, werger û dengên axaftinê ye, ev danegeh ji bo fêrbûna zimanan tê  bikaranîn. Di vê dosyeyê de axaftinên Îngilîzî yên ji aliyê xwebeşên vê civakê hatine tomarkirin, hene.
+data-other-ted-description = Danegeha TED-LIUM'ê ji danûstandinên dengî û transkrîpsiyonên wan ên li ser malpera TED'ê hatiye çêkirin.
+data-other-tatoeba-description = Tatoeba, danegeheke mezin a hevok, werger û dengên axaftinê ye, ev danegeh ji bo fêrbûna zimanan tê  bikaranîn. Di vê dosyeyê de axaftinên Îngilîzî yên ji aliyê xwebexşên vê civakê hatine tomarkirin, hene.
 your-feedback = Fikrên te li ser pêşxistina komdaneya  Common Voiceê heye? Li ser Discourseê ji me re binivîse.
 go-discourse = Here Discourseê
 missing-language = Tu zimanê xwe di Komdaneyê de nabînî?  Ji bo zimanekî daxwaz bikî, here rûpela me ya Zimanan.
@@ -538,8 +568,8 @@ dataset-version = Guherto
 download-title = Daxistinê dest pê kir.
 download-helpus = Ji bo ku em civakeke têkildarî teknolojiya dengî ava bikin, alî me bikin, bi rêya emaîlê di têkîliyê de bimînin.
 download-form-email =
-    .label = Emaîla xwe bikevê
-    .value = Spas, Em ê di têkîliyê de bin.
+    .label = Emaîla xwe binivîse
+    .value = Spas, Em ê di têkiliyê de bin.
 download-back = Vegere Komdaneyên Common Voiceê
 download-no = Na, Spas
 
@@ -564,7 +594,12 @@ other-language = Zimanê din
 ## Languages Overview
 
 language-section-in-progress = Kar li ser tê kirin
+language-section-in-progress-new-description = Ev ziman niha ji aliyê civakê ve tên pêşvebirin. Nîşaneya pêşveçûnê nîşan dide ka pêşketina zimanan di <localizationGlossaryLink>wergerandina malperê </localizationGlossaryLink> û <sentenceCollectionGlossaryLink>berhevkirina hevokan</sentenceCollectionGlossaryLink> de di kîjan astê de ye.
 language-section-launched = Hatiye weşandin
+language-section-launched-description =
+    Ji bo van zimanên hatine destpêkirin malper bi serkeftî hatiye <localizationGlossaryLink>wergerandin</localizationGlossaryLink> û tê de têra xwe
+    <sentenceCollectionGlossaryLink>hevokên berhevkirî</sentenceCollectionGlossaryLink> hene ku piştgiriya
+    <speakLink>Axaftin</speakLink> û <listenLink>Guhdarîkirinê</listenLink> dest pê bike.
 languages-show-more = Zêdetir bibîne
 languages-show-less = Kêmtir bibîne
 language-meter-in-progress = Pêşveçûn
@@ -594,7 +629,7 @@ contribute-more =
         [one] Tu amade yî { $count } din jî bikî?
        *[other] Tu amade yî { $count } hebên din jî bikî?
     }
-record-cta = Dest bi tomarkirinê bike
+record-cta = Dest pê bike
 record-platform-not-supported = Mixabin, platforma te niha nayê destekkirin.
 record-platform-not-supported-desktop = Li ser kombersa xwe, tu dikarî guhertoyên dawîn ên van gerokan bi kar bînî:
 record-platform-not-supported-ios-non-safari = Ji bo çalakkirina tomarkirinê li ser iOS'ê, bi Safariyê re berdewam bike…
@@ -615,7 +650,7 @@ share-clip = Klîba xwe parve bike
 share-common-voice = Common Voiceê parve bike
 review-instruction = Klîban binirxîne û heke hewce be ji nû ve tomar bike
 record-submit-tooltip = { $actionType } dema ku amade bû bişîne
-clips-uploaded = Klîbên Barkirî
+clips-uploaded = Klîb hatin barkirin
 record-abort-title = Pêşî tomarkirinê biqedîne?
 record-abort-text = Heke tu aniha jê derkevî ew ê pêşveçûnên te neyên tomarkirin
 record-abort-submit = Klîban bişîne
@@ -697,6 +732,7 @@ validated-clips = Dengên piştrastkirî
 total-approved = Tevahiya dengên piştrastkirî
 overall-accuracy = Rastbûna Giştî
 set-visibility = Xuyabûna min saz bike
+visibility-overlay-note = Not: Dema ku wekî 'Xuya' hate sazkirin, ev sazkarî dikare ji <profileLink>Rûpela Profîlê</profileLink> were guhertin.
 show-ranking = Rêza min nîşan bide
 
 ## Custom Goals
@@ -722,6 +758,8 @@ cant-decide = Tu nikarî biryarê bidî?
 how-many-per-day = Bijî! Rojane çend klîb?
 how-many-a-week = Bijî! Heftane çend klîb?
 which-goal-type = Tu dixwazî biaxivî, guhdarî bikî an her du jî?
+receiving-emails-info = Tu niha emaîlên wekî bîrxistinên hedefê, nûvekirinên pêşveçûnê û nûçenameyên derbarê Common Voiceê de distînî.
+not-receiving-emails-info = Hûn ê êdî emaîlên wekî bîrxistinên hedefê, nûvekirinên pêşveçûnê û nûçenameyên derbarê Common Voiceê de <bold>NESTÎNIN</bold>.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } klîba dengî
@@ -730,9 +768,15 @@ n-clips-pluralized =
 help-share-goal = Alî me bike em dengên zêdetir bibînin, hedefa xwe parve bike
 confirm-goal = Hedefê bipejirîne
 goal-interval-weekly = Heftane
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Hedefa xwe ya rojane ya { $type }ê parve bike: { $count } klîb
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Hedefa xwe ya heftane ya { $type }ê parve bike: { $count } klîb
 share-goal-type-speak = Axiftin
 share-goal-type-listen = Guhdarîkirin
 share-goal-type-both = Peyivîn û Guhdarîkirin
+# LINK will be replaced with the current URL
+goal-share-text = Ji bo ku dengê xwe li #CommonVoice bibexşînim, min hedefek taybet ji xwe re çêkir. De ka were tu jî tevlî min bibe, em bi hev re axaftina mirovan a rastîn fêrî makîneyan bikin { $link }
 weekly-goal-created = Hedefa te ya heftane hate afirandin
 daily-goal-created = Hedefa te ya rojane hate afirandin
 track-progress = Pêşveçûnan li vir û li ser rûpela amaran bişopîne.
@@ -787,7 +831,6 @@ demo-account-sign-up = Girêdana klîbê bişîne
 ## Demo Contribute
 
 demo-contribute-card-header = Tu amade yî dengê xwe tevlî bikî an jî yên heyî guhdarî bikî?
-demo-contribute-card-body = Niha, tu der barê Common Voiceê de gelek tiştan dizanî, ka tu çima wê naceribînî? Ji bo xwendina hevokan bi dengekî bilind, li îkona mîkrofonê bitikîne. <br/><br/>Heke tu bixwazî dengên kesên din ên heyî binirxînî, li îkona lêde/playê bitikîne. Piştre kontrol bike bê ka ew hevokên tu guhdarî dikî û yên li ekranê nivîsandî li hev tên yan na.
 demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 
 ## Demo Dashboard

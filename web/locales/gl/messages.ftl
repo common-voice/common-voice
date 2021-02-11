@@ -271,6 +271,7 @@ shortcut-record-toggle-label = Gravar/Parar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regravar fragmento
 request-language-text = Non ve a súa lingua en Common Voice?
+request-language-text-learn = Aprenda como pedilo aquí!
 request-language-button = Solicitar un idioma
 
 ## ProjectStatus

@@ -935,7 +935,7 @@ demo-account-sign-up = Anfon dolen ymuno
 ## Demo Contribute
 
 demo-contribute-card-header = Yn barod i ychwanegu eich llais neu'n barod i wrando?
-demo-contribute-card-body = Nawr eich bod yn gwybod ychydig mwy am Common Voice, beth am roi cynnig arni? Cliciwch ar eicon y meicroffon i ddechrau darllen brawddegau yn uchel. <br/> <br/> Os yw'n well gennych adolygu cyfraniadau llais pobl eraill, cliciwch ar yr eicon chwarae. Os yw'r recordiad llais rydych chi'n ei glywed yn cyfateb i'r geiriau sydd wedi'u hysgrifennu ar y sgrin.
+demo-contribute-card-body-v2 = Nawr eich bod yn gwybod ychydig mwy am Common Voice, beth am roi cynnig arni? Cliciwch ar eicon y meicroffon i ddechrau darllen brawddegau yn uchel. <br/> <br/> Os yw'n well gennych adolygu cyfraniadau llais pobl eraill, cliciwch ar yr eicon chwarae. Byddwch yn helpu drwy gadarnhau fod y recordiad llais rydych chi'n ei glywed yn cyfateb i'r geiriau sydd wedi'u hysgrifennu ar y sgrin.
 demo-listen-subtitle = Yn barod i gyfrannu?
 
 ## Demo Dashboard

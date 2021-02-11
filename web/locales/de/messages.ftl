@@ -876,7 +876,7 @@ demo-account-sign-up = Anmeldelink senden
 ## Demo Contribute
 
 demo-contribute-card-header = Sind Sie bereit, Ihre Stimme hinzuzufügen oder Ihr Ohr zu leihen?
-demo-contribute-card-body = Jetzt, da Sie ein bisschen mehr über Common Voice wissen, können Sie es ausprobieren. Klicken Sie auf das Mikrofonsymbol, um Sätze vorzulesen.<br/><br/>Wenn Sie lieber die Sprachbeiträge anderer Personen überprüfen möchten, klicken Sie auf das Wiedergabesymbol. Wenn die Sprachaufzeichnung, die Sie hören, mit den auf dem Bildschirm geschriebenen Wörtern übereinstimmt.
+demo-contribute-card-body-v2 = Jetzt, da Sie ein bisschen mehr über Common Voice wissen, können Sie es ausprobieren. Klicken Sie auf das Mikrofonsymbol, um Sätze vorzulesen.<br/><br/>Wenn Sie lieber die Sprachbeiträge anderer Personen überprüfen möchten, klicken Sie auf das Wiedergabesymbol. Sie helfen dabei, zu bestätigen, dass die Aufzeichnung den geschriebenen Sätzen entspricht.
 demo-listen-subtitle = Sind Sie bereit, mitzumachen?
 
 ## Demo Dashboard

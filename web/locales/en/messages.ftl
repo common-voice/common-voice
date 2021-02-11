@@ -877,7 +877,7 @@ demo-account-sign-up = Send sign up link
 
 ## Demo Contribute
 demo-contribute-card-header = Ready to add your voice or lend your ear?
-demo-contribute-card-body = Now that you know a little bit more about Common Voice, why not try it out? Click on the microphone icon to start reading sentences aloud. <br/><br/>If you prefer to review other people's voice contributions, click on the play icon. If the voice recording you hear matches the words written onscreen.
+demo-contribute-card-body-v2 = Now that you know a little bit more about Common Voice, why not try it out? Click on the microphone icon to start reading sentences aloud. <br/><br/>If you prefer to review other people's voice contributions, click on the play icon. You’ll help confirm that recordings match the sentences written on screen.
 demo-listen-subtitle = Ready to contribute?
 
 ## Demo Dashboard

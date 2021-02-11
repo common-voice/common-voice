@@ -273,6 +273,7 @@ shortcut-record-toggle-label = Enregistrer/Arrêter
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Refaire l’enregistrement
 request-language-text = Votre langue n’est pas encore disponible ?
+request-language-text-learn = Découvrez comment demander à ce qu’elle soit ajoutée.
 request-language-button = Proposer une langue
 
 ## ProjectStatus
@@ -517,7 +518,6 @@ dataset-date = Date
 license = Licence : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
 data-download-singleword-title = Télécharger le segment cible de mot unique
-data-download-singleword-callout = Il s’agit d’un segment ciblé sur des cas d’utilisation contenant des données pour alimenter la reconnaissance des chiffres parlés, la détection oui/non et les données de test de mots de réveil pour <fxLink>Firefox Voice</fxLink>.
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>Conditions d’utilisation</termsLink> et notre <privacyLink>Politique de confidentialité</privacyLink>
 terms-agree = J’accepte
 terms-disagree = Je refuse
@@ -875,7 +875,6 @@ demo-account-sign-up = Envoyer le lien d’inscription
 ## Demo Contribute
 
 demo-contribute-card-header = Prêt·e à donner de la voix ou à tendre votre oreille ?
-demo-contribute-card-body = Maintenant que vous en savez un peu plus sur Common Voice, pourquoi ne pas l’essayer ? Cliquez sur l’icône de microphone pour commencer à lire des phrases à haute voix. <br/><br/>Si vous préférez valider les contributions vocales d’autres personnes, cliquez sur l’icône de lecture. Vérifiez alors que l’enregistrement vocal que vous entendez correspond aux mots écrits à l’écran.
 demo-listen-subtitle = Prêt·e à contribuer ?
 
 ## Demo Dashboard

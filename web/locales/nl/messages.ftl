@@ -878,7 +878,7 @@ demo-account-sign-up = Inschrijfkoppeling verzenden
 ## Demo Contribute
 
 demo-contribute-card-header = Klaar om uw stem te laten horen of uw oor te luisteren te leggen?
-demo-contribute-card-body = Nu u wat meer weet over Common Voice, waarom zou u het niet uitproberen? Klik op het microfoonpictogram om zinnen hardop voor te lezen. <br/><br/>Als u liever de spraakbijdragen van anderen wilt beoordelen, klikt u op het afspeelpictogram. Als de spraakopname die u hoort overeenkomt met de woorden op het scherm.
+demo-contribute-card-body-v2 = Nu u iets meer weet over Common Voice, kunt u het ook eens uitproberen! Klik op het microfoonpictogram om te beginnen met het hardop lezen van zinnen. <br/><br/>Als u liever de stembijdragen van anderen beoordeelt, klik dan op het afspeelpictogram. U helpt dan bevestigen dat opnames overeenkomen met de op het scherm getoonde zinnen.
 demo-listen-subtitle = Klaar om bij te dragen?
 
 ## Demo Dashboard

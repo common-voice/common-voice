@@ -35,6 +35,7 @@ az = Azerbajxhanisht
 ba = Bashkire
 be = Bjelloruse
 bg = Bullgarisht
+bm = Bambareze
 bn = Bengalisht
 br = Bretonisht
 bxr = Buriat
@@ -268,6 +269,7 @@ shortcut-record-toggle-label = Incizo/Ndale
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Riincizojeni copëzën
 request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
+request-language-text-learn = Mësoni se si ta kërkoni, këtu!
 request-language-button = Kërkoni një Gjuhë
 
 ## ProjectStatus
@@ -866,7 +868,7 @@ demo-account-sign-up = Dërgo lidhje regjistrimi
 ## Demo Contribute
 
 demo-contribute-card-header = Gati për të shtuar zërin tuaj ose për të përdorur dëgjimin tuaj?
-demo-contribute-card-body = Tani që dini diçka më shumë mbi Common Voice, pse të mos e provonit? Klikoni mbi ikonën e mikrofonit që të filloni të lexoni togfjalësha. <br/><br/>Nëse parapëlqeni të shqyrtoni kontribute zanore nga persona të tjerë, klikoni mbi ikonën e luajtjes. Nëse incizimi zanor që dëgjoni përputhet me fjalët e shkruara në ekran.
+demo-contribute-card-body-v2 = Tani që dini diçka më shumë mbi Common Voice, pse të mos e provonit? Klikoni mbi ikonën e mikrofonit që të filloni të lexoni togfjalësha. <br/><br/>Nëse parapëlqeni të shqyrtoni kontribute zanore nga persona të tjerë, klikoni mbi ikonën e luajtjes. Do të ndihmoni të ripohohet se incizimet përputhen me togfjalëshat e shkruar në ekran.
 demo-listen-subtitle = Gati për të dhënë ndihmesë?
 
 ## Demo Dashboard

@@ -270,6 +270,7 @@ shortcut-record-toggle-label = Nasa sauti/ Acha
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = rekodi upya
 request-language-text = hujaona lugha yako kwenye common voice bado?
+request-language-text-learn = Jifunze jinsi ya kuiomba hapa!
 request-language-button = Agiza lugha
 
 ## ProjectStatus
@@ -377,6 +378,7 @@ faq-when-release2-a = Toleo la lugha nyingi tofauti la daftari la Common Voice k
 faq-why-mission-q = Kwa nini Common Voice ni sehemu ya misheni ya Mozilla?
 faq-why-mission-a = Mozilla imejitolea kuweka tovuti wazi na kupatikana kwa kila mtu. Ili kufanya hivyo tunahitaji kuwezesha waundaji wa mtandao kwa kupitia miradi kama Common Voice. Vile teknolojia za sauti zinavyozidi kuongezeka zaidi ya programu shubaka,tunaamini lazima watumikie watumiaji wote kwa usawa. Hivyo inamaanisha kuwekeza katika lugha zaidi na kuhifadhi lafudhi tofauti na taarifa ya data inayohusu watu wakati wa kujenga na kupima teknolojia za sauti. Common Voice ni rasilimali ya umma inayopatikana kwa kila mtu na timu za Mozilla na watengenezaji wa programu ulimwenguni kote tayari wanaitumia kwenye miradi yetu pia.
 faq-what-cv-and-deepspeech-q = Je! Ni tofauti gani kati ya Common Voice na Deep Speech?
+faq-what-cv-and-deepspeech-a = Daftari la Common Voice linakamilisha injini ya Deep Speech ya utambuzi wa sauti ya chanzo wazi ya Mozilla. Toleo la kwanza la Deep Speech lilitolewa mnamo Novemba mwaka 2017 na limeendelea kubadilika tangu wakati huo. Pamoja na daftari la Common Voice, tunaamini teknolojia hii ya utambuzi wa sauti ya chanzo wazi inapaswa kupatikana kwa kila mtu. Ni matumaini yetu teknolojia hizi zitawezesha watengenezaji wa programu kujenga wimbi la bidhaa na huduma za ubunifu.
 faq-is-goal-assistant-q = Je! Lengo la Common Voice ni kuunda msaidizi wa sauti?
 faq-is-goal-assistant-a = Lengo la daftari la Common Voice ni kuwezesha mtu yeyote duniani kutengeneza programu za utambuzi wa sauti, utambuzi wa msemaji, au aina nyingine yoyote ya programu ambayo inahitaji data ya sauti. Msaidizi wa sauti ni moja ya aina nyingi za programu unazoweza kujenga kwa kutumia daftari hilo.
 faq-do-want-native-q = Mimi si mzungumzaji asili na ninazungumza kwa lafudhi, bado mnataka sauti yangu?
@@ -677,6 +679,7 @@ report-success = Ripoti ilipitishwa kwa mafanikio
 
 ## Goals
 
+streaks = Mistari
 days =
     { $count ->
         [one] Siku
@@ -713,6 +716,7 @@ validated-clips = Vipande vya sauti vilivyohalalishwa
 total-approved = Jumla ya zilizoidhinishwa
 overall-accuracy = Usahihi kwa ujumla
 set-visibility = Weka kuonekana kwangu
+visibility-explainer = Mpangilio huu unadhibiti mwonekano wako wa ubao wa wanaoongoza. Unapoficha, maendeleo yako yatakua ya kibinafsi. Hii inamaanisha picha yako, jina la mtumiaji na maendeleo havitaonekana kwenye ubao wa wanaoongoza. Kumbuka kuwa kuonyeshwa upya kwa ubao wa wanaoongoza huchukua dakika ~{ $minutes } ili kuonyesha mabadiliko.
 visibility-overlay-note = Kumbuka: Ikiwa wasifu umewekwa kuwa 'unaonekana', mpangilio huu unaweza kubadilishwa kutoka kwenye ukurasa wa <profileLink> Wasifu</profileLink>
 show-ranking = Onesha nafasi yangu
 
@@ -833,6 +837,9 @@ demo-account = Akaunti
 ## Demo Account
 
 demo-account-card-header = Kuwa na akaunti haihitajiki kuchangia, ingawa inasaidia.
+demo-account-card-body = Upande wa kulia tumeoredhesha faida na ufafanuzi wa habari gani tunaweka kwa umma. Tumia viunga hapa chini kuanza na akaunti ya Common Voice kwenye kifaa chako mwenyewe.
+demo-account-enter-email =
+    .label = Ingiza barua pepe kupata kiunga cha kujisajili
 demo-account-sign-up = Tuma kiunga cha kujisajili
 
 ## Demo Contribute
@@ -842,3 +849,5 @@ demo-listen-subtitle = Uko tayari kuchangia?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Dashbodi za kibinafsi zinakupasha juu ya maendeleo ya kibinafsi na ya jamii.
+demo-dashboard-card-body = Kwa kila kipande cha sauti kilicho changiwa, na kwa kila kipande cha sauti kilichothibitishwa, dashbodi zako za akaunti zimesasishwa ili kuonesha maendeleo yako ya hivi karibuni katika kila lugha unayochangia. Ndio, unaweza kuchangia zaidi ya moja!<br/><br/> Tumia dashbodi kufuatilia takwimu zako, angalia jinsi unavyoendelea pamoja na wengine katika jamii, na weka lengo la mchango la kila siku au kila wiki.

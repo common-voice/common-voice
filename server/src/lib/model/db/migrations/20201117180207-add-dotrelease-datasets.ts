@@ -1,5 +1,4 @@
 export const up = async function (db: any): Promise<any> {
-  // Note: Manual backfill to follow.
   return db.runSql(`
     INSERT INTO datasets(name, release_dir, multilingual, bundle_date, release_date)
     	VALUES

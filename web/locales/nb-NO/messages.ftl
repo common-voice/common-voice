@@ -876,7 +876,7 @@ demo-account-sign-up = Send registreringslenke
 ## Demo Contribute
 
 demo-contribute-card-header = Klar til å legge til stemmen din eller bruke øret ditt?
-demo-contribute-card-body = Nå som du vet litt mer om Common Voice, hvorfor ikke prøve det? Klikk på mikrofonikonet for å begynne å lese setninger høyt. <br/> <br/> Hvis du foretrekker å gjennomgå andres stemmebidrag, klikker du på avspill-ikonet. Hvis taleopptaket du hører samsvarer med ordene som er skrevet på skjermen.
+demo-contribute-card-body-v2 = Nå som du vet litt mer om Common Voice, hvorfor ikke prøve det? Klikk på mikrofonikonet for å begynne å lese setninger høyt. <br/><br/>Hvis du foretrekker å gjennomgå andres stemmebidrag, klikker du på avspill-ikonet. Du hjelper med å bekrefte at opptak samsvarer med setningene som er skrevet på skjermen.
 demo-listen-subtitle = Klar til å bidra?
 
 ## Demo Dashboard

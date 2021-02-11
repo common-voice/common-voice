@@ -81,6 +81,9 @@ jobs:
           push: true
           file: ./docker/Dockerfile
           tags: ${{ steps.tags.outputs.tags }}
+          build-args: |
+            COMMIT=${{ github.sha }}
+            TAG=${{ steps.tags.outputs.tags }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}

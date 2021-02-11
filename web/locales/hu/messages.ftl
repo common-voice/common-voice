@@ -881,7 +881,7 @@ demo-account-sign-up = Regisztrációs hivatkozás engedélyezése
 ## Demo Contribute
 
 demo-contribute-card-header = Készen áll, hogy kölcsönadja a hangját vagy a fülét?
-demo-contribute-card-body = Most, hogy egy kicsit többet tud a Common Voice-ról, miért ne próbálná ki? Kattintson a mikrofon ikonra a mondatok hangos olvasásának megkezdéséhez.<br/><br/>Ha inkább átnézné mások hanghozzájárulásait, kattintson a lejátszás ikonra. Ha a hallott hangfelvétel megegyezik a képernyőre írt szavakkal.
+demo-contribute-card-body-v2 = Most, hogy egy kicsit többet tud a Common Voice-ról, miért ne próbálná ki? Kattintson a mikrofon ikonra a mondatok hangos olvasásának megkezdéséhez.<br/><br/>Ha inkább átnézné mások hanghozzájárulásait, kattintson a lejátszás ikonra. Segíteni fog annak a megerősítésében, hogy a hangfelvételek megegyeznek a képernyőre írt mondatokkal.
 demo-listen-subtitle = Készen áll a közreműködésre?
 
 ## Demo Dashboard
