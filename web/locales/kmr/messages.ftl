@@ -259,7 +259,7 @@ whats-public = Kesên din ew ê kîjan agahiyên te bibînin?
 email-not-public = Ew ê ti kes emaîla te nebîne.
 recordings-and-locale-public = Hejmara tomarkirinên te û zimanê ku tu lê beşdariyê dikî ew ê ji aliyê kesên din ve bên dîtin.
 username-optin-public = Nîşandana navê te yê bikarhêneriyê di destê te de ye, tu dikarî hem veşêrî hem jî nîşan bidî.
-demographic-deidentified-clarity-2 = Daneyên demografîk ên bi awayê vebijarkî tên şandin (mînak: temen, zayend, ziman û devok) ew ê ti carî li ser profîla te bi eşkereyî neyê nîşandan û ew ê bi hesabê te yê komdaneyê ve jî neyê girêdan. Lê Ji bo analîzên rasttir pêk bên, ew ê klîbên dengî tenê bi daneyên demografîk re bên têkildarkirin. Bo nimûne, belkî lêkolînerek bixwaze modeleke perwerdeyê ji bo beşeke demografîk a taybet, çêbike.
+demographic-deidentified-clarity-2 = Daneyên demografîk ên bi awayê vebijarkî tên şandin (mînak: temen, zayend, ziman û devok) ew ê ti carî li ser profîla te bi eşkereyî neyê nîşandan û ew ê bi hesabê te yê komdaneyê ve jî neyê girêdan. Lê Ji bo analîzên rasttir pêk bên, ew ê klîbên dengî tenê bi daneyên demografîk re bên têkildarkirin. Bo nimûne, belkî lêkolînerek bixwaze modeleke perwerdeyê ji bo beşeke demografîk a taybet, çêke.
 username-email-not-demographic = Navê bikarhêner û emaîla te ew ê bi daneyên hatine weşandin re neyê têkildarkirin.
 
 ## Speak & Listen Shortcuts
@@ -337,7 +337,7 @@ why-profile-text =
     Bi peydakirina hin agahiyên derbarê xwe de, daneyên dengî yên ku te ji Common Voiceê re şandine ew ê rastbûna  Axaftinê kêrhatîtir bikin.
     Motorên dengnasînê yên ku van daneyan bi kar tînin jî ew ê baştir bibin.
 dashboard = Destgeh
-build-profile = Profîlê çêbike
+build-profile = Profîlê çêke
 avatar = Wêne
 goals = Hedef
 settings = Sazkarî
@@ -665,7 +665,7 @@ speak-empty-state = Ji bo tomarkirinê, di vî zimanî de hevok neman...
 speak-empty-state-cta = Beşdariyê li hevokan bike
 record-button-label = Dengê xwe tomar bike
 share-title-new = <bold>Alî me bike</bold> em dengên zêdetir bibînin
-keep-track-profile = Profîlekê çêbike û pê pêşveçûna xwe bişopîne
+keep-track-profile = Profîlekê çêke û pê pêşveçûna xwe bişopîne
 login-to-get-started = Ji bo destpêkirinê, têkeve an jî tomar bibe
 target-segment-first-card = Tu beşdariyê di beşa hedefa me ya pêşî de dikî.
 target-segment-generic-card = Tu beşdariyê di beşa hedefekê de dikî.
