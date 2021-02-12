@@ -72,6 +72,7 @@ he = Hebreo ñe’ẽ
 hi = Hindi ñe’ẽ
 hr = Croacia ñe’ẽ
 hsb = Serbia ñe’ẽ, Yvategua
+ht = Haiti-gua
 hu = Hungría ñe’ẽ
 hy-AM = Armenio ñe’ẽ
 hyw = Armenio ñe’ẽ Kuarahyreike gotyogua
