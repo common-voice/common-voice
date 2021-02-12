@@ -59,6 +59,10 @@ es = Bahasa Sepanyol
 et = Bahasa Estonia
 eu = Bahasa Basque
 fa = Bahasa Parsi
+ff = Bahasa Fula
+fi = Bahasa Finland
+fo = Faroe
+fr = Bahasa Perancis
 
 # [/]
 
