@@ -84,6 +84,7 @@ ja = Bahasa Jepun
 ka = Bahasa Georgia
 kaa = Bahasa Karakalpak
 kab = Bahasa Kabyle
+kbd = Bahasa Kabardia
 
 # [/]
 
