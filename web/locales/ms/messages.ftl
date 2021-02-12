@@ -74,6 +74,16 @@ hr = Bahasa Croatia
 hsb = Sorbian Atas
 hu = Bahasa Hungary
 hy-AM = Bahasa Armenia
+hyw = Armenia Barat
+ia = Interlingua
+id = Bahasa Indonesia
+is = Bahasa Iceland
+it = Bahasa Itali
+izh = Bahasa Izhoria
+ja = Bahasa Jepun
+ka = Bahasa Georgia
+kaa = Bahasa Karakalpak
+kab = Bahasa Kabyle
 
 # [/]
 
