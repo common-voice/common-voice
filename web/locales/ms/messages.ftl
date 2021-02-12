@@ -63,12 +63,25 @@ ff = Bahasa Fula
 fi = Bahasa Finland
 fo = Faroe
 fr = Bahasa Perancis
+fy-NL = Bahasa Frisia
+ga-IE = Bahasa Ireland
+gl = Bahasa Galicia
+gn = Bahasa Guaraní
+ha = Bahasa Hausa
+he = Ibrani
+hi = Bahasa Hindi
+hr = Bahasa Croatia
+hsb = Sorbian Atas
+hu = Bahasa Hungary
+hy-AM = Bahasa Armenia
 
 # [/]
 
 
 ## Layout
 
+privacy = Privasi
+terms = Terma
 faq = Soalan Lazim
 logout = Log Keluar
 
