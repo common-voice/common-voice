@@ -72,6 +72,7 @@ he = Hebreo
 hi = Hindi
 hr = Croata
 hsb = Sorbio, alte
+ht = Haitiano
 hu = Hungaro
 hy-AM = Armenio
 hyw = Armenian occidental
@@ -101,7 +102,9 @@ mhr = Mari oriental
 mk = Macedone
 ml = Malayalam
 mn = Mongol
+mos = Mossi
 mrj = Mari occidental
+ms = Malay
 mt = Maltese
 my = Birmano
 myv = Erzya
@@ -113,6 +116,7 @@ oc = Occitano
 or = Odia
 pa-IN = Punjabi
 pl = Polonese
+ps = Pashto
 pt = Portugese
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romancio vallader
@@ -872,7 +876,6 @@ demo-account-sign-up = Inviar ligamine de creation de conto
 ## Demo Contribute
 
 demo-contribute-card-header = Preste a pronunciar o ascoltar?
-demo-contribute-card-body = Ora que tu sape un poco plus sur Common Voice, proque non tentar lo? Clicca sur le icone de microphono pro comenciar a leger phrases in alte voce.<br/><br/>Si tu prefere revider le contributiones vocal de altere personas, clicca sur le icone de reproducer. Evaluta si le registration vocal que tu audi corresponde ben al parolas scribite sur le schermo.
 demo-listen-subtitle = Preste a contribuer?
 
 ## Demo Dashboard
