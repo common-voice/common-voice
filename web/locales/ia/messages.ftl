@@ -876,6 +876,7 @@ demo-account-sign-up = Inviar ligamine de creation de conto
 ## Demo Contribute
 
 demo-contribute-card-header = Preste a pronunciar o ascoltar?
+demo-contribute-card-body-v2 = Un vice que tu sape un pochetto plus re Common Voice, perque tu non lo prova? Clicca sur le microphono icone pro initiar le lectura de phrases in alte voce. <br/><br/>Si tu prefere revider contributiones vocal de alteres, clicca sur le icone Reproducer. Tu adjutara confirmar que le registrationes concorda con le phrases scribite sur schermo.
 demo-listen-subtitle = Preste a contribuer?
 
 ## Demo Dashboard
