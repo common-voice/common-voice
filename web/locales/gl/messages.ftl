@@ -72,6 +72,7 @@ he = Hebreo
 hi = Hindi
 hr = Croata
 hsb = Sorabo, alto
+ht = Haitiano
 hu = Húngaro
 hy-AM = Armenio
 hyw = Armenio occidental
@@ -101,7 +102,9 @@ mhr = Mari das Pradeiras
 mk = Macedonio
 ml = Malaialam
 mn = Mongol
+mos = Mossi
 mrj = Mari das Montañas
+ms = Malaio
 mt = Maltés
 my = Birmano
 myv = Erzya
@@ -113,6 +116,7 @@ oc = Occitano
 or = Oriá
 pa-IN = Punjabi
 pl = Polaco
+ps = Pastún
 pt = Portugués
 rm-sursilv = Romanche Surselvano
 rm-vallader = Romanche Vallader
@@ -429,7 +433,7 @@ faq-search-for-answers =
 about-title = Por que Common Voice?
 about-subtitle = Common Voice forma parte da iniciativa de Mozilla de ensinar ás máquinas como falan as persoas reais. Ademais do conxunto de datos de de Common Voice, tamén estamos construíndo un motor de recoñecemento de voz de código aberto chamado Deep Speech.
 about-header-description =
-    Ambos proxectos forman parte dos nosos esforzos para superar a fenda da fala dixital. As tecnoloxías de recoñecemento de voz achegan unha dimensión humana ao nosos dispositivos, mais os desenvolvedores precisan dunha enormidade de datos de voz para as elaborar. Na actualidade, a maioría dos datos non son de acceso libre e ademais son caros.¶
+    Ambos proxectos forman parte dos nosos esforzos para superar a fenda da fala dixital. As tecnoloxías de recoñecemento de voz achegan unha dimensión humana ao nosos dispositivos, mais os desenvolvedores precisan dunha enormidade de datos de voz para as elaborar. Na actualidade, a maioría dos datos non son de acceso libre e ademais son caros.
     Queremos producir datos de voz libres e dispoñíbeis publicamente, e asegurarnos de que os datos recollen a diversidade da xente común. Xuntos podemos mellorar o recoñecemento de voz para todo o mundo.
 how-does-it-work-title = Como funciona?
 how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte aberta. Ofreza a súa voz, valide a precisión dos clips doados por outras persoas, mellore o conxunto de datos para todo o mundo.
