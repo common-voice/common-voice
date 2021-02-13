@@ -868,6 +868,7 @@ demo-account-sign-up = Gửi liên kết đăng ký
 ## Demo Contribute
 
 demo-contribute-card-header = Sẵn sàng thêm giọng nói của bạn hoặc kiểm tra bản ghi âm?
+demo-contribute-card-body-v2 = Bây giờ bạn đã biết thêm một chút về Common Voice, tại sao không thử? Nhấp vào biểu tượng micrô để bắt đầu đọc to các câu. <br/><br/>Nếu bạn muốn xem lại các đóng góp bằng giọng nói của người khác, hãy nhấp vào biểu tượng phát. Bạn sẽ giúp xác nhận rằng bản ghi khớp với các câu được viết trên màn hình.
 demo-listen-subtitle = Sẵn sàng đóng góp?
 
 ## Demo Dashboard
