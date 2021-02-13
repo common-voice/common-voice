@@ -116,6 +116,7 @@ oc = oksytański
 or = orija
 pa-IN = pendżabski
 pl = polski
+ps = paszto
 pt = portugalski
 rm-sursilv = retoromański (sursilvan)
 rm-vallader = retoromański (vallader)
