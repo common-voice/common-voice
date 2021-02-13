@@ -72,6 +72,7 @@ he = Do Thái
 hi = Hindi
 hr = Croatia
 hsb = Thượng Sorb
+ht = Haiti
 hu = Hungary
 hy-AM = Armenia
 hyw = Armenia Tây
@@ -101,7 +102,9 @@ mhr = Mari Đông
 mk = Macedonia
 ml = Malayalam
 mn = Mông Cổ
+mos = Mossi
 mrj = Mari Tây
+ms = Mã Lai
 mt = Malta
 my = Miến Điện
 myv = Erzya
@@ -113,6 +116,7 @@ oc = Occitan
 or = Odia
 pa-IN = Punjabi
 pl = Ba Lan
+ps = Pashto
 pt = Bồ Đào Nha
 rm-sursilv = Romansh Sursilva
 rm-vallader = Romansh
@@ -864,7 +868,6 @@ demo-account-sign-up = Gửi liên kết đăng ký
 ## Demo Contribute
 
 demo-contribute-card-header = Sẵn sàng thêm giọng nói của bạn hoặc kiểm tra bản ghi âm?
-demo-contribute-card-body = Bây giờ bạn đã biết thêm một chút về Common Voice, tại sao không thử? Nhấp vào biểu tượng micrô để bắt đầu đọc to các câu. <br/><br/>Nếu bạn muốn xem lại các đóng góp bằng giọng nói của người khác, hãy nhấp vào biểu tượng phát. Nếu bản ghi âm giọng nói bạn nghe khớp với các từ được viết trên màn hình.
 demo-listen-subtitle = Sẵn sàng đóng góp?
 
 ## Demo Dashboard
