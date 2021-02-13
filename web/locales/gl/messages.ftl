@@ -245,7 +245,7 @@ whats-public = Que é público?
 email-not-public = Non faremos público o seu enderezo de correo.
 recordings-and-locale-public = O número de gravacións e en que idiomas contribúe serán públicos.
 username-optin-public = Pode escoller facer o seu nome de usuario público ou anónimo.
-demographic-deidentified-clarity-2 = Os datos demográficos opcionais enviados (por exemplo, idade, xénero, idioma e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os clips de son individuais van ser asociados aos datos demográficos para fins de análise máis precisa - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
+demographic-deidentified-clarity-2 = Os datos demográficos opcionais enviados (por exemplo, idade, xénero, idioma e acento) non van ser publicados no seu perfil e non estarán ligados á súa conta no conxunto de datos. Os fragmentos de son individuais van ser asociados aos datos demográficos para fins de análise máis precisa - por exemplo, un investigador pode querer orientar un modelo de adestramento para un segmento demográfico específico.
 username-email-not-demographic = O seu nome de usuario e enderezo de correo non se asociará cos datos publicados.
 
 ## Speak & Listen Shortcuts
@@ -346,20 +346,20 @@ skip-submission-note = Nota: Necesitará seleccionar entre Falar ou Escoitar par
 off = Apagado
 on = Aceso
 avatar-clip-title = Déalle unha voz ao seu avatar
-change-your-avatar-clip = Quere cambiar o seu clip de voz?
+change-your-avatar-clip = Quere cambiar o seu fragmento de voz?
 recording-in-progress = Gravación de voz en curso
-avatar-clip-recorded = Agora o seu avatar inclúe un clip de voz!
+avatar-clip-recorded = Agora o seu avatar inclúe un fragmento de voz!
 record-voice-wave = Grave a súa voz
 retry-voice-wave-recording = Ténteo de novo
 re-record = Volva gravar
 delete-voice = Eliminar
 recording-voice-wave = Gravando
-delete-voice-clip = ou · elimine o clip de voz
+delete-voice-clip = ou · elimine o fragmento de voz
 ready-to-upload = Cargar
 avatar-clip-fact = É ben sabido que un lector se vai distraer co contido lexíbel dunha páxina cando olla o deseño.
 recreate-voice = Recrear a voz
 cancel-avatar-clip-recording = Cancelar
-about-avatar-clip-recording = Crear un clip de voz como parte do perfil do seu avatar. Outras persoas poderán escoitar o seu clip ao sobrepoñer o punteiro do rato.
+about-avatar-clip-recording = Crear un fragmento de voz como parte do perfil do seu avatar. Outras persoas poderán escoitar o seu fragmento ao sobrepoñer o punteiro do rato.
 browse-file-title = Cargar un ficheiro de imaxe
 browse-file = Arrastrar e soltar ou <browseWrap>Navegar</browseWrap>
 connect-gravatar = Conectar con Gravatar
@@ -436,23 +436,23 @@ about-header-description =
     Ambos proxectos forman parte dos nosos esforzos para superar a fenda da fala dixital. As tecnoloxías de recoñecemento de voz achegan unha dimensión humana ao nosos dispositivos, mais os desenvolvedores precisan dunha enormidade de datos de voz para as elaborar. Na actualidade, a maioría dos datos non son de acceso libre e ademais son caros.
     Queremos producir datos de voz libres e dispoñíbeis publicamente, e asegurarnos de que os datos recollen a diversidade da xente común. Xuntos podemos mellorar o recoñecemento de voz para todo o mundo.
 how-does-it-work-title = Como funciona?
-how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte aberta. Ofreza a súa voz, valide a precisión dos clips doados por outras persoas, mellore o conxunto de datos para todo o mundo.
+how-does-it-work-text = Estamos a auspiciar un conxunto de datos de voz de fonte aberta. Ofreza a súa voz, valide a precisión dos fragmentos doados por outras persoas, mellore o conxunto de datos para todo o mundo.
 about-speak = Falar
-about-speak-text = Os colaboradores gravan clips de voz lendo dun banco de frases doadas.
+about-speak-text = Os colaboradores gravan fragmentos de voz lendo dun banco de frases doadas.
 about-listen-queue = Escoitar cola
 about-listen-queue-text = Os clips de voz introdúcense nunha cola de envío que os prepara para escoitar.
 about-listen = Escoitar
-about-listen-text = Os usuarios validan a precisión dos clips doados e comproban se o falante leu correctamente a frase.
-about-is-it-valid = O clip vale?
-about-is-it-valid-text = Un clip de voz está marcado como «correcto» cando un usuario lle dá un voto Si.
+about-listen-text = Os usuarios validan a precisión dos fragmentos doados e comproban se o falante leu correctamente a frase.
+about-is-it-valid = O fragmento vale?
+about-is-it-valid-text = Un fragmento de voz está marcado como «correcto» cando un usuario lle dá un voto Si.
 about-yes-votes = ≥ 2 votos Si
-about-yes-votes-text = Para incluílo no conxunto de datos de Common Voice, un clip de voz debe ser validado por dous usuarios diferentes.
+about-yes-votes-text = Para incluílo no conxunto de datos de Common Voice, un fragmento de voz debe ser validado por dous usuarios diferentes.
 about-no-votes = ≥ 2 votos Non
-about-no-votes-text = Cando un usuario rexeita un clip de voz, volve á cola. De se rexeitar unha segunda vez, o clip de voz vai para o cemiterio de clips.
+about-no-votes-text = Cando un usuario rexeita un fragmento de voz, volve á cola. De se rexeitar unha segunda vez, o fragmento de voz vai para o cemiterio de fragmentos.
 about-dataset-new = Conxunto de datos de Common Voice
 about-dataset-new-text = O conxunto de datos Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento de voz.
-about-clip-graveyard = Cemiterio de Clips
-about-clip-graveyard-text = O Cemiterio de Clips son clips de voz que non acadaron ser parte do conxunto de datos de Common Voice. Do mesmo xeito que o conxunto de datos, o Cemiterio de Clips está dispoñíbel para descarga.
+about-clip-graveyard = Cemiterio de fragmentos
+about-clip-graveyard-text = O Cemiterio de fragmentos son fragmentos de voz que non acadaron ser parte do conxunto de datos de Common Voice. Do mesmo xeito que o conxunto de datos, o Cemiterio de fragmentos está dispoñíbel para descarga.
 about-partners = Socios
 about-become-a-partner = Convírtase en socio
 about-partnership =
@@ -461,9 +461,9 @@ about-partnership =
     Grazas ás seguintes persoas e organizacións pola súa axuda ao proxecto:
 about-get-involved = Participe
 about-get-involved-text-2 =
-    Quere axudar a mellorar Common Voice?¶
-    Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>¶
-    remita incidencias do sitio vía <githubLink>GitHub</githubLink>,¶ ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
+    Quere axudar a mellorar Common Voice?
+    Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>
+    remita incidencias do sitio vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Por que?
 about-nav-how-it-works = Como?
 about-nav-partners = Socios
@@ -640,8 +640,8 @@ skip = Salte
 shortcuts = Atallos
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> Clip
-       *[other] <bold>{ $count }</bold> Clips
+        [one] <bold>{ $count }</bold> Fragmento
+       *[other] <bold>{ $count }</bold> Fragmentos
     }
 goal-help-recording = Axudou a que Common Voice acadase o <goalPercentage></goalPercentage> respecto do noso obxectivo do { $goalValue } de gravación diaria!
 goal-help-validation = Axudou a que Common Voice acadase o <goalPercentage></goalPercentage> respecto do noso obxectivo do { $goalValue } de aprobación diaria!
@@ -667,21 +667,21 @@ record-again-instruction = Excelente! <recordIcon></recordIcon> Gravar o seguint
 record-again-instruction2 = Así vai ben, gravar outra vez <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> A última!
 review-tooltip = Revisar e regravar fragmentos sobre a marcha
-share-clip = Comparta o seu clip
+share-clip = Comparta o seu fragmento
 share-common-voice = Compartir Common Voice
 review-instruction = Revisar e regravar fragmentos se fai falta
 record-submit-tooltip = { $actionType } enviar cando estea listo
-clips-uploaded = Clips cargados
+clips-uploaded = Fragmentos cargados
 record-abort-title = Rematar a gravación primeiro?
 record-abort-text = Abandonar agora significa que perderá o seu avance
 record-abort-submit = Enviar clips
 record-abort-continue = Rematar a gravación
-record-abort-delete = Saír e eliminar clips
+record-abort-delete = Saír e eliminar fragmentos
 listen-instruction = { $actionType }<playIcon></playIcon>pronuncian con precisión a frase?
 listen-again-instruction = Bo traballo!<playIcon></playIcon> Volva escoitar cando estea listo
 listen-3rd-time-instruction = 2 menos, sigamos!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Derradeira!
-listen-empty-state = Esgotamos os clips para aprobar neste idioma...
+listen-empty-state = Esgotamos os fragmentos para aprobar neste idioma...
 speak-empty-state = Esgotamos as frases para gravar neste idioma
 speak-empty-state-cta = Propor novas frases
 record-button-label = Grave a súa voz
@@ -708,7 +708,7 @@ report-different-language-detail = Está escrito nun idioma diferente do que est
 report-difficult-pronounce = Difícil de pronunciar
 report-difficult-pronounce-detail = Contén palabras ou frases que son difíciles de ler ou pronunciar.
 report-offensive-speech = Discurso ofensivo
-report-offensive-speech-detail = O clip ten unha linguaxe irrespectuosa ou ofensiva.
+report-offensive-speech-detail = O fragmento ten unha linguaxe irrespectuosa ou ofensiva.
 report-other-comment =
     .placeholder = Comentar
 success = Correcto
@@ -740,17 +740,17 @@ your-languages = Os seus idiomas
 toward-next-goal = Cara ao seguinte obxectivo
 goal-reached = Obxectivo acadado
 clips-you-recorded = Clips que gravou
-clips-you-validated = Clips que aprobou
-todays-recorded-progress = Avance de hoxe en clips gravados para Common Voice
-todays-validated-progress = Avance de hoxe en clips aprobados para Common Voice
+clips-you-validated = Fragmentos que aprobou
+todays-recorded-progress = Avance de hoxe en fragmentos gravados para Common Voice
+todays-validated-progress = Avance de hoxe en fragmentos aprobados para Common Voice
 stats = Estatísticas
 awards = Premios
 you = Vostede
 everyone = Todos
 contribution-activity = Actividade colaboradora
 top-contributors = Os máis colaboradores
-recorded-clips = Clips gravados
-validated-clips = Clips aprobados
+recorded-clips = Fragmentos gravados
+validated-clips = Fragmentos aprobados
 total-approved = Total de aprobados
 overall-accuracy = Precisión global
 set-visibility = Definir a súa visibilidade
@@ -799,11 +799,11 @@ activity-needed-calculation-plural =
         [one] { $people } a persoa
        *[other] { $people } a xente
     }rexistra{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } o clip
-       *[other] { $clipsPerDay } os clips
+        [one] { $clipsPerDay } o fragmento
+       *[other] { $clipsPerDay } os fragmentos
     }ao día
-how-many-per-day = Xenial! Cantos clips por día?
-how-many-a-week = Xenial! Cantos clips por semana?
+how-many-per-day = Xenial! Cantos fragmentos por día?
+how-many-a-week = Xenial! Cantos fragmentos por semana?
 which-goal-type = Quere falar, escoitar ou ambos?
 receiving-emails-info =
     Actualmente está a recibir correos electrónicos de recordatorios de obxectivos, actualizacións
@@ -813,16 +813,16 @@ not-receiving-emails-info =
     actualizacións de avance nin os boletíns sobre Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } clip
-       *[other] { $count } clips
+        [one] { $count } fragmento
+       *[other] { $count } fragmentos
     }
 help-share-goal = Axúdenos a atopar máis voces, comparte o teu obxectivo
 confirm-goal = Confirme o obxectivo
 goal-interval-weekly = Semanalmente
 # $type is one of share-goal-type-*
-share-n-daily-contribution-goal = Comparta o seu obxectivo diario de { $count } clips de { $type }
+share-n-daily-contribution-goal = Comparta o seu obxectivo diario de { $count } fragmentos de { $type }
 # $type is one of share-goal-type-*
-share-n-weekly-contribution-goal = Comparta o seu obxectivo semanal de { $count } clips de { $type }
+share-n-weekly-contribution-goal = Comparta o seu obxectivo semanal de { $count } fragmentos de { $type }
 share-goal-type-speak = Falando
 share-goal-type-listen = Escoitando
 share-goal-type-both = Falando e escoitando
