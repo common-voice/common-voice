@@ -72,6 +72,7 @@ he = Taɛebrit
 hi = Tahendit
 hr = Takarwasit
 hsb = Sorbyan, Tameqqrant
+ht = Tahaysit
 hu = Tahungaṛit
 hy-AM = Taṛminit
 hyw = Taṛminit tutrimt
@@ -101,7 +102,9 @@ mhr = Tamarit n uzaɣar
 mk = Tamasidunit
 ml = Tamalayalamit
 mn = Tamungult
+mos = Tamusit
 mrj = Tamarit n udrar
+ms = Tamalizit
 mt = Tamalṭit
 my = Taburmisit
 myv = Erzya
@@ -113,6 +116,7 @@ oc = Tuksitant
 or = Odia
 pa-IN = Tapenǧabit
 pl = Tapulunit
+ps = Tapactut
 pt = Tapuṛṭugit
 rm-sursilv = Rumanc Sursilvan
 rm-vallader = Taṛumancit n wadda
@@ -877,7 +881,6 @@ demo-account-sign-up = Azen aseɣwen n ujerred
 ## Demo Contribute
 
 demo-contribute-card-header = Theggaḍ i tikci n taɣect-ik neɣ ad tmuddeḍ tameẓẓuɣt?
-demo-contribute-card-body = Tura imi tessneḍ cwiṭ ɣef Common Voice, acimi ur tettaɛraḍeḍ ara? Senned ɣef tignit n usawaḍ akken ad tebduḍ taɣurin tefyar s taɣect.<br/><br/> Ma tebɣiḍ ad tesneqdeḍ taɣuri n wiyaḍ, tekki ɣef tignit n tɣuri. Senqed sakin asekles s taɣect ara tesleḍ, win yemṣadan d tefyirt i tettwaliḍ deg ugdil.
 demo-listen-subtitle = Twejdeḍ ad tettekkiḍ?
 
 ## Demo Dashboard
