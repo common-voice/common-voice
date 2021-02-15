@@ -95,6 +95,13 @@ ky = Bahasa Kyrgyz
 lg = Luganda
 lij = Bahasa Liguria
 lt = Bahasa Lithuania
+lv = Bahasa Latvia
+mdf = Bahasa Moksha
+mg = Bahasa Malagasi
+mhr = Meadow Mari
+ml = Bahasa Malayalam
+mn = Bahasa Mongolia
+mos = Bahasa Mossi
 ms = Bahasa Melayu
 
 # [/]
@@ -104,6 +111,7 @@ ms = Bahasa Melayu
 
 privacy = Privasi
 terms = Terma
+cookies = Kuki
 faq = Soalan Lazim
 logout = Log Keluar
 
