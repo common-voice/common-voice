@@ -72,6 +72,7 @@ he = Hebrea
 hi = Hinda
 hr = Kroata
 hsb = Suprasoraba
+ht = Haitia kreola
 hu = Hungara
 hy-AM = Armena
 hyw = Okcidenta armena
@@ -101,7 +102,9 @@ mhr = Orientmaria
 mk = Makedona
 ml = Malajalama
 mn = Mongola
+mos = Mosia
 mrj = Okcidentmaria
+ms = Malaja
 mt = Malta
 my = Birma
 myv = Erzja
@@ -113,6 +116,7 @@ oc = Okcitana
 or = Odia
 pa-IN = Panĝaba
 pl = Pola
+ps = Paŝtuna
 pt = Portugala
 rm-sursilv = Romanĉa surselva
 rm-vallader = Valadera romanĉa
@@ -271,6 +275,7 @@ shortcut-record-toggle-label = Registri / Haltigi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Refari voĉregistron
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
+request-language-text-learn = Jen pli da informo pri tiu peto!
 request-language-button = Peti lingvon
 
 ## ProjectStatus
@@ -514,7 +519,7 @@ dataset-date = Date
 license = Permesilo: <licenseLink>{ $license }</licenseLink>
 license-mixed = Miksita
 data-download-singleword-title = Elŝuti la celan segmenton de unikaj vortoj
-data-download-singleword-callout = Tiu ĉi estas cela segmento por aparta uzo. Ĝi enhavas datumojn, kiuj rilatas la rekonon de parolitaj ciferoj, detekton de jes kaj ne,  kaj  testajn datumojn por la vekvorto de <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Tiu ĉi estas segmento por aparta uzo; ĝu enhavas datumojn por povi rekoni parolitajn ciferojn kaj respondojn jes/ne.
 review-terms = Per la uzo de Common Voice vi akceptas niajn <termsLink>kondiĉojn</termsLink> kaj <privacyLink>privatecan rimarkon</privacyLink>
 terms-agree = Mi akceptas
 terms-disagree = Mi ne akceptas
@@ -880,7 +885,7 @@ demo-account-sign-up = Sendi enskriban ligilon
 ## Demo Contribute
 
 demo-contribute-card-header = Ĉu vi pretas aldoni vian voĉon aŭ aŭskulti?
-demo-contribute-card-body = Nun vi scias iom pli pri Common Voice. Ĉu vi volas provi ĝin? Alklaku la emblon de mikrofon por komenci laŭtlegi frazojn. <br/><br/>Se vi preferas revizii la voĉajn kontribuojn de aliaj personoj, alklaku la emblemon por ludi. Se la voĉregistro kongruas kun la vortoj skribitaj surekrane.
+demo-contribute-card-body-v2 = Nun vi scias iom pli pri Common Voice. Ĉu vi volas provi ĝin? Alklaku la emblon de mikrofon por komenci laŭtlegi frazojn. <br/><br/>Se vi preferas revizii la voĉajn kontribuojn de aliaj personoj, alklaku la emblemon por ludi. Vi helpos konfirmi ĉu la registrita voĉo, kiun vi aŭdas, kongruas kun la vortoj skribitaj surekrane.
 demo-listen-subtitle = Ĉu vi pretas kontribui?
 
 ## Demo Dashboard
