@@ -72,6 +72,7 @@ he = Ibrani
 hi = Bahasa Hindi
 hr = Bahasa Croatia
 hsb = Sorbian Atas
+ht = Bahasa Haiti
 hu = Bahasa Hungary
 hy-AM = Bahasa Armenia
 hyw = Armenia Barat
@@ -85,6 +86,16 @@ ka = Bahasa Georgia
 kaa = Bahasa Karakalpak
 kab = Bahasa Kabyle
 kbd = Bahasa Kabardia
+kk = Bahasa Kazakh
+kmr = Bahasa Kurdi Utara
+ko = Bahasa Korea
+kpv = Bahasa Komi
+kw = Bahasa Cornish
+ky = Bahasa Kyrgyz
+lg = Luganda
+lij = Bahasa Liguria
+lt = Bahasa Lithuania
+ms = Bahasa Melayu
 
 # [/]
 
