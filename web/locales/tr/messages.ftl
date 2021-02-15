@@ -72,6 +72,7 @@ he = İbranice
 hi = Hintçe
 hr = Hırvatça
 hsb = Yukarı Sorbca
+ht = Haiti dili
 hu = Macarca
 hy-AM = Ermenice
 hyw = Batı Ermenicesi
@@ -102,6 +103,7 @@ mk = Makedonca
 ml = Malayalam
 mn = Moğolca
 mrj = Dağlık Marice
+ms = Malayca
 mt = Maltaca
 my = Birmanca
 myv = Erzyanca
@@ -113,6 +115,7 @@ oc = Oksitanca
 or = Odia
 pa-IN = Pencapça
 pl = Lehçe
+ps = Peştuca
 pt = Portekizce
 rm-sursilv = Romanşça Sursilvan
 rm-vallader = Romanşça Vallader
@@ -843,7 +846,6 @@ demo-account-sign-up = Kayıt bağlantısını gönder
 ## Demo Contribute
 
 demo-contribute-card-header = Sesinizi eklemeye veya eklenenleri dinlemeye hazır mısınız?
-demo-contribute-card-body = Artık Common Voice hakkında biraz daha fazla şey bildiğinize göre, neden denemiyorsunuz? Cümleleri sesli okumaya başlamak için mikrofon simgesine tıklayın. <br/><br/>Başkalarının ses kayıtlarını incelemeyi tercih ederseniz oynat simgesine tıklayın. Ardından, duyduğunuz ses kaydının ekranda yazılı sözcüklerle eşleşip eşleşmediğini kontrol edin.
 demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
 
 ## Demo Dashboard
