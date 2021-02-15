@@ -116,6 +116,7 @@ oc = Occitano
 or = Oriya
 pa-IN = Punjabi
 pl = Polacco
+ps = Pashtu
 pt = Portoghese
 rm-sursilv = Romancio sottosilvano
 rm-vallader = Romancio Vallader
