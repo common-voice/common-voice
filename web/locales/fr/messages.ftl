@@ -518,6 +518,7 @@ dataset-date = Date
 license = Licence : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
 data-download-singleword-title = Télécharger le segment cible de mot unique
+data-download-singleword-callout-v2 = Il s’agit d’un segment basé sur des cas d’utilisation contenant des données pour la reconnaissance vocale des chiffres et la détection oui/non.
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>Conditions d’utilisation</termsLink> et notre <privacyLink>Politique de confidentialité</privacyLink>
 terms-agree = J’accepte
 terms-disagree = Je refuse
