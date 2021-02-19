@@ -99,6 +99,7 @@ mk = Macedonian
 ml = Malayalam
 mn = Mongolian
 mos = Mossi
+mr = Marathi
 mrj = Hill Mari
 ms = Malay
 mt = Maltese

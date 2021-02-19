@@ -5,6 +5,7 @@ Adijo, fantje.
 Ali bi ga hotel videti?
 Ali bi nama lahko dal nekaj zasebnosti?
 Ali je le vesela, ker misli, da sem jaz vesel?
+Ali lahko definiraš parametre poljuba?
 Ali lahko že enkrat vstopimo?
 Ali mi boš pustil, da pridem do besede?
 Ali mu boš dovolil, da z menoj govori na takšen način?
@@ -22,14 +23,17 @@ Bil sem ljubosumen, razumeta?
 Bila bi prav lep par.
 Bila bi prijaznejša smrt.
 Bodo že počakali.
+Bojevniki, izvlecite svoje orožje.
 Boste kar odšli?
 Boste naročili?
 Bova pa sama nesla.
 Brez heca.
 Brez hitrega dihanja, brez povečanega potenja.
+Brez panike.
 Da, ampak vsebuje stripovskega junaka in njegovo čarobno dvigalo.
 Da, dolgo sva se pogovarjala o tem.
 Daj mi primeren vzvod in premaknil bom Zemljo.
+Daj mi telefon.
 Daj mu hamburger.
 Dajva jima nekaj zasebnosti.
 Dal si mi le razlago.
@@ -46,9 +50,11 @@ Doživel je sramoten neuspeh.
 En dan za drugim.
 Enkrat jo je povabil ven.
 Enostavno ne vem, kaj naj.
+Fanta, saj sem zrasla na kmetiji.
 Glede na to kar sta mi povedala, nisem presenečena.
 Godalni kvartet fizikov potrebuje novega čelista.
 Govori z nižjim glasom.
+Grem iskat moje dleto.
 Grem pod tuš.
 Grem v lekarno po zdravila.
 Greva sedaj.
@@ -58,11 +64,14 @@ Hej, ne skrbi.
 Hodila sva, nehala sva hoditi in sedaj sva oba šla svojo pot.
 Hotela sem te vprašati, če bi mi lahko pomagal...
 Hotela sva počistiti.
+Hočeš videti nekaj dobrega?
 Hvala tebi.
 Hvala ti.
 Hvala za čudovito noč.
 Hvala še enkrat.
 Hvala, dobro sem.
+Hvala, ker si me poslušal. Zlat si.
+Hvala, ker si si vzela čas.
 Hvala, moja mama mi ga je naredila.
 Hvala, to pa je zelo pozorno.
 Imam diplomo in dva doktorata.
@@ -70,9 +79,12 @@ Imam video posnetek mojega včerajšnjega pevskega nastopa.
 Imaš idejo?
 Imaš prav, je čisto preprosto.
 Imaš prav, lahko počaka do jutra.
+Imaš rada lončarstvo?
 Imaš znak za sarkazem?
+Imel sem se lepo.
 Imela je srečo.
 Imeli smo predavanje o tem.
+In kaj je novega v svetu fizike?
 In kaj počnem jaz?
 In kako je bilo na zmenku?
 In smrčala. Verjetno imaš vnete sinuse.
@@ -83,6 +95,7 @@ Izzivam te, da ga vprašaš za robček.
 Izzivam te, da najdeš kakršno koli povezavo z energijskimi celicami.
 Ja, ampak zakaj sediš ravno tukaj?
 Ja, ampak zakaj to počneš na stopnicah?
+Ja, jaz tudi.
 Ja, pa naredimo to.
 Ja, pripravljena sem.
 Ja, seveda, zakaj pa ne?
@@ -96,12 +109,16 @@ Jaz bom spala na kavču.
 Jaz sem zraven.
 Jaz ti to omogočam.
 Je aktivni vrtinec neurejenosti.
+Je to njen parfum?
 Je to sploh pomembno?
 Je vesela, ker se z nekom videvam?
+Je že v redu.
 Jutri mi bodo pripeljali pohištvo, mene pa ne bo doma...
 Jutri se morava vrniti.
+Kaj bi želeli popiti?
 Kaj bova storila?
 Kaj je mislila s tem?
+Kaj je rekla? Je še jezna name?
 Kaj je smešno? To ni bil sarkazem?
 Kaj je z njo?
 Kaj je že spet?
@@ -109,6 +126,7 @@ Kaj mu daje moč, da leti ponoči?
 Kaj pa je bilo to?
 Kaj pa je svetla stran?
 Kaj pa naj bi po tvojem rekel?
+Kaj pa naj ji rečem?
 Kaj pa se je spremenilo?
 Kaj pa se ti je zgodilo?
 Kaj pa sedaj?
@@ -119,8 +137,10 @@ Kaj si počel v njegovi omari?
 Kaj si pričakovala?
 Kaj za vraga pa je to?
 Kaj, a se hecaš?
+Kaj, če zamenjamo stranice A, B, F in H z ojačanim aluminijem?
 Kako dolgo pa bo ostal tukaj?
 Kako gre?
+Kako izgledam?
 Kako je bilo na intervenciji?
 Kako je bilo?
 Kako je pa to prišlo na internet?
@@ -134,11 +154,13 @@ Kako ve, da sva bila midva?
 Kakorkoli že, to mi je dalo misliti.
 Kakorkoli, to je Leo.
 Kakšna je formula za ovinek?
+Kakšne vrste eksperiment?
 Kakšno resnico?
 Kapitan, dobivam čudne signale.
 Kar nadaljuj.
 Kateri del je to?
 Kateri zdravnik pa odstranjuje čevlje iz riti?
+Kdaj imaš zmenek?
 Kdo bi pa v tem primeru bil kontrolna skupina?
 Kdo bo izvršil Heimlichov prijem?
 Kdo ti je dovolil, da se dotikaš table?
@@ -157,14 +179,17 @@ Konec bo našega prijateljstva.
 Krasna gospa.
 Lahko bi ji povedal resnico.
 Lahko cel dan strmiš v to tablo, ampak še zmeraj bo imela prav.
+Lahko dodamo še pločevino za odvajanje toplote.
 Lahko izklopite luč?
 Lahko noč.
 Lahko postane malce čudaški.
 Lahko prideš sem?
+Lahko spravim tole olivo v kozarec brez, da se je dotaknem.
 Le kar dobro?
 Leo, ti si zares zelo ljubek, resnično prav smešen fant.
 Lepo te je bilo spoznati.
 Lepo, da ste se oglasili.
+Ljubezen ni šprint, ampak maraton.
 Lunin odsev in energijske kožne celice iz Kriptona.
 Me sploh poslušaš?
 Mi ne jemo tukaj.
@@ -172,17 +197,20 @@ Midva govoriva o nepreizkušenih hipotezah.
 Midva sva šla na sladoled in mi je povedala o svojem dnevu.
 Mislil sem, da nisi zainteresirana zame.
 Mislim reči, oba sta znanstvenika.
+Mislim, da imam manjši pretres.
 Mislim, da je bolje, če si predstavljaš moško vlogo.
 Mislim, da je hudičevo vroča.
 Mislim, da je izpustila en korak.
 Mislim, da je to šele naslednji teden v torek ob šestih.
 Mislim, da mi je obraz zatekel.
 Mislim, da nama to velikokrat koristi.
+Mislim, da nimaš šans.
 Mislim, da se je kar slikovito izrazil.
 Mislim, da sem narobe ocenil tole restavracijo.
 Mislim, da sva kar dobro začela.
 Misliš reči, pojdi nekam drugam in bodi nekje drugje?
 Misliš, da ve, da sva midva odgovorna?
+Mogoče imajo starši prav in bi mi bilo bolje z Indijko.
 Mogoče pa imaš motnjo dihanja.
 Mogoče poznata Sheldona Cooperja?!
 Mogoče se lahko, ko se pomiriš, še malo pogovorimo o tem.
@@ -190,6 +218,7 @@ Moj način je boljši, pa ga nočeta niti upoštevati.
 Moj oče jo je postavil.
 Moj zmenek prihaja na obisk.
 Moja železna srajca se mi je zapletla v moje spodnjice.
+Moral bi jo povabiti na zmenek.
 Morala sva poslati nekaj pisem.
 Moram reči, da sem spal čudovito.
 Morava od tukaj.
@@ -203,12 +232,15 @@ Naj dvignem znak za sarkazem vsakič, ko spregovorim?
 Naj začnem znova.
 Najbrž bova morala oditi.
 Najslabši Renesančni sejem, na katerem sem kdajkoli bil.
+Namišljena punca ga je pustila.
+Napadajo nas z boka!
 Natančna je na desetinko sekunde.
 Natančno za pol.
 Ne bi bilo to malo preveč?
 Ne bodi no smešen.
 Ne bodi smešen.
 Ne bom se vaju dotikal.
+Ne bom zmogel.
 Ne delaj tega.
 Ne dovolj dolgo, a sladko in globoko.
 Ne držim več.
@@ -224,10 +256,13 @@ Ne sme govoriti z ženskami.
 Ne sme z lepimi ženskami, ali v tvojem primeru, sirovo boginjo.
 Ne smeš ju prijaviti.
 Ne smeš prevoziti dvojne črte.
+Ne strinjam se.
 Ne tako hitro.
 Ne vem kaj naj rečem.
 Ne vem, rjave?
+Ne vem, če razumem.
 Ne vem, če sta vidva dobra.
+Ne vem. Povej ji, da sem bolan.
 Ne, bil je neke vrste znanstvenik.
 Ne, hotel sem se opravičiti za včeraj.
 Ne, izmislil sem si ga.
@@ -240,18 +275,24 @@ Ne, takšen odziv je zame nedopusten.
 Ne, to me še najmanj skrbi.
 Ne, zelene.
 Ne, čakaj rjave.
+Nehaj že z vsemi temi vprašanji.
 Nekaj te moram vprašati.
 Nekako sem za danes imel drugačne načrte.
 Nekdo je skazil mojo tablo.
 Ni bilo zabavno.
 Ni mi bilo treba.
 Ni mi mar.
+Ni pomembno.
+Ni še vklesano v kamen.
 Nihče mi ni enak.
 Nikogar ni na ulici.
 Nikoli ne uganeš, kaj se je pravkar zgodilo.
 Nimamo dovoljenja.
+Nisem je povabil na zmenek.
+Nisem ljubosumen.
 Nisem rekel, da mi je mar.
 Nisem tega rekel.
+Nisem v redu.
 Nisem vedela, da igraš čelo.
 Nisi prebral življenjepisa, ali pač?
 Nič se mi ni zgodilo.
@@ -283,6 +324,7 @@ Ona podcenjuje moje raziskave.
 Opiši mi sistem, kjer odobravajo pladnje na kavču.
 Oprosti, moram iti.
 Oprosti, to mi res ne gre najbolje od rok.
+Ostanite v formaciji!
 Otroka, zabavajta se.
 Pa naj bo.
 Pa res.
@@ -297,6 +339,7 @@ Poglej moje prste.
 Poglej s svetle strani.
 Poglej, mama je dodala še spominsko kartico.
 Pojdi ven.
+Pokliči jo in odpovej.
 Pokliči me.
 Pol dneva sva bila na občini in nič uredila.
 Poleg tega, kaj pa je to takšnega?
@@ -315,6 +358,7 @@ Počutim se tako dobro, da bom izbral tiste z nizko vrednostjo vlaknin.
 Prav, prepričal si me.
 Praviš, da si se do zdaj držal nazaj?
 Pravkar sem ti povedal.
+Pravkar sem zgradil virtualni bazen.
 Pravkar sva prinesla pohištvo.
 Praženi rezanci po tajsko, brez arašidov.
 Predam se.
@@ -325,18 +369,25 @@ Prekleta piflarska kretena!
 Preostalo prepuščam tebi.
 Prepozno, jaz sem zmagal.
 Prepričana sem, da obstaja nekje punca ravno pravšnja zate.
+Prepričana sem, da se bo stanje izboljšalo.
 Preveč si pikolovski.
 Pri prejšnjem sosedu te to ni motilo.
+Pride še kdo?
 Pridem nazaj.
 Pridi z mano.
+Pripravi se in streljaj.
+Priznam, da prostor izgleda lepo.
 Pričakoval sem odgovor.
 Prišlo bo torej pohištvo?
 Ptičica nam je povedala.
 Pusti me na miru.
 Pustil sem načrt za ureditev omare v njeni spalnici.
+Rad bi predlagal eksperiment.
 Rad bi ti povedal, da ti ni treba živeti v tem.
+Rada bi nekaj popila.
 Ravno nasprotno.
 Razen, če Superman izenači njeno hitrost in potem zavira.
+Razmišljal sem o imenih.
 Reci temu kakor hočeš.
 Rekel sem, da lahko sledim.
 Res? Na naju si bil ljubosumen?
@@ -355,8 +406,10 @@ Saj veš kako je v restavraciji.
 Saj veš, da sem ti morala povedati.
 Saj, kdo pa ne bi?
 Samo da veš, vse to temelji na raznih raziskavah.
+Samo rahlo me skrbi zanjo.
 Samo sedeti na kavču in gledati televizijo z žensko, to je naravnost krasno.
 Samo, da razčistimo, ko boš odšla, bo stekel pogovor o tebi.
+Se dobimo čez eno uro?
 Se hecaš?
 Se kaj dogaja med vama?
 Se mi samo zdi, ali že dolgo nikogar ni bilo?
@@ -376,8 +429,12 @@ Seveda, zakaj pa ne?
 Sheldon, kaj pa počneš?
 Sheldon, rotim te.
 Si kdaj pomislil, da nimajo vsi take potrebe po urejenosti?
+Si lahko bolj natančen?
+Si polila kečap?
+Si prepričan, da nočeš na urgenco?
 Si prepričan?
 Si prišla iz službe?
+Si v redu?
 Si za?
 Sliši se dobro.
 Sliši se zabavno.
@@ -409,12 +466,14 @@ Tega mi ni potrebno delati.
 Tega pa ne morem reči.
 Tega pa nisem vedel.
 Tega pa res ne razumem.
+Tega sem se bal.
 Ti hočeš, da zapustim stanovanje?
 Ti je všeč?
 Ti nosiš moderne spodnjice?
 Ti si tisti, ki nosi hlače.
 Ti si to naredila?
 Ti še niso povedali kako lepa si, v tekoči ruščini?
+Tisti tip mi ni všeč.
 To bo dovolj.
 To bo še hudo.
 To delam, ker bi rad bil dober sosed.
@@ -455,6 +514,7 @@ Torej, sva zmenjena.
 Torej, zakaj pa bi moral oditi jaz?
 Točno to sem enkrat sanjal.
 Tudi jaz poznam šalo.
+Tudi jaz tako mislim.
 Tudi to je ena možnost.
 Tudi vas je bilo lepo spoznati.
 Tukaj imaš rezervni ključ, hvala.
@@ -482,6 +542,7 @@ Vem, ljudje ne morejo leteti.
 Verjetno se ne bom.
 Več kot nas bo, bolj bo veselo.
 Večerne obleke, obleke za zabave in policijske uniforme.
+Veš kaj, mogoče to ni najboljša ideja.
 Veš kaj?
 Veš, kaj naredimo s takimi?
 Videla sem, da so se ti zenice razširile, ko si jo gledal.
@@ -511,8 +572,10 @@ Zapeljujem te.
 Zato, ker ljubezen premaga sovraštvo.
 Zdravo, fantje.
 Zdravo, kam pa odhajata?
+Zgleda, da je vajina soseda doma.
 Znak je bil spremenjen.
 Znano zdravilo za nespečnost je, vdiranje v sosedovo stanovanje.
+Čakaj, a me vabiš na zmenek?
 Če bi bila, bi bila hrana veliko boljša.
 Če bi jo zares ljubil, bi pustil, da prileti na tla.
 Če jo nočeš zbuditi, govori z nižjim glasom.
@@ -523,6 +586,7 @@ Znano zdravilo za nespečnost je, vdiranje v sosedovo stanovanje.
 Čeprav čudovita, je vseeno brezčutna prasica.
 Čestitam, kakšno srečno naključje.
 Čisto vse se vidi.
+Šališ se.
 Še dobro, da sem naletela nate.
 Še enkrat, to je tvoja odločitev.
 Še naprej podcenjuješ moje sposobnosti, gospa.
