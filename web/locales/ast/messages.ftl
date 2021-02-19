@@ -852,8 +852,11 @@ demo-account-sign-up = Unviar l'enllaz de rexistru
 
 ## Demo Contribute
 
+demo-contribute-card-header = ¿Tas preparáu pa poner voz o poner la oreya?
 demo-contribute-card-body-v2 = Agora que yá sabes un pocoñín más tocante a Common Voice, ¿por qué nun pruebes? Calca nel iconu del micrófonu pa comenzar a lleer les frases n'alto.<br/><br/>Si prefieres revisar les collaboraciones d'otra xente, calca nel iconu de reproducción. Vas ayudar a confirmar que les grabaciones concasen coles frases escrites na pantalla.
+demo-listen-subtitle = ¿Tas preparáu pa collaborar?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Los paneles personales tiénente informáu tocante al progresu individual y de la comunidá.
+demo-dashboard-card-body = Pa cada clip de voz donáu y validáu, los paneles de la to cuenta van anovase pa reflexar el progresu más recién en cada lingua na que collabores. ¡Sí, pues collaborar en más d'una!<br/><br/>Usa los paneles pa siguir les tos estadístiques, ver cómo rindes en rellación a los demás miembros de la comunidá y afitar oxetivos de collaboración diarios o selmanales.
