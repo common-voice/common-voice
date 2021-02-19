@@ -345,6 +345,7 @@ profile-close = Zarrar
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 why-demographic = ¿Por qué importa?
+why-demographic-explanation-2 = Los datos anonimizaos como edá, xéneru y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun van asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 accept-privacy-title = Política de privacidá
 login-identity = Identidá del aniciu de sesión
@@ -503,6 +504,7 @@ de-identified-explanation = El procesu pol que la información del perfil d'un c
 ## Error pages
 
 error-title-404 = Nun pudimos alcontrar esa páxina
+error-content-404 = ¿Quiciabes la nuesa <homepageLink>páxina d'aniciu</homepageLink> t'ayude. Pa entrugar, xúnite a la <matrixLink>charra de la comunidá en Matrix</matrixLink>, supervisa los problemes del sitiu per <githubLink>GitHub</githubLink> o visita los nuesos <discourseLink>los nuesos de </discourseLink>.
 error-title-503 = Tamos esperimentando una cayida temporal
 error-content-503 = El sitiu va volver tar disponible cuando seya posible. Pa les últimes noticies, xúnite a la <matrixLink>charra de la comunidá en Matrix</matrixLink> o visita <githubLink>GitHub</githubLink> o <discourseLink>los nuesos foros en Discourse</discourseLink> pa unviar y supervisar problemes sufríos nel sitiu.
 error-code = Fallu { $code }
@@ -835,6 +837,9 @@ demo-account = Cuenta
 
 demo-account-card-header = Nun se rique tener una cuenta pa collaborar, mas ayuda.
 demo-account-card-body = Na derecha esponemos les ventayes y esclariamos la información qu'espublizamos. Usa los enllaces d'embaxo pa entamar con una cuenta de Common Voice nel to preséu.
+demo-account-enter-email =
+    .label = Introduz un correu pa unviar un enllaz de rexistru
+demo-account-sign-up = Unviar l'enllaz de rexistru
 
 ## Demo Contribute
 
