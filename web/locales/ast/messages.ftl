@@ -781,8 +781,33 @@ want-to-continue = ¿Quies siguir?
 finish-editing = ¿Nun acabes primero d'editar?
 lose-changes-warning = El colar agora va facer que pierdas los cambeos
 build-custom-goal = Creación d'una meta personalizada
+help-reach-hours-pluralized =
+    Ayuda a algamar { NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } hores
+    }en { $language } con una meta personal
+help-reach-hours-general-pluralized =
+    Ayuda a Common Voice algamar { NUMBER($hours) ->
+        [one] { $hours } hora
+       *[other] { $hours } hores
+    } nuna llingua con un meta personal
 set-a-goal = Afitar una meta
 cant-decide = ¿Nun te decides?
+activity-needed-calculation-plural =
+    Si { NUMBER($people) ->
+        [one] { $people } persona rexistra
+       *[other] { $people } persones rexistren
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } clip
+       *[other] { $clipsPerDay } clips
+    } per día, pue algamase { NUMBER($totalHours) ->
+        [one] { $totalHours } hora
+       *[other] { $totalHours } hores
+    } en poco mas { NUMBER($periodMonths) ->
+        [one] de { $periodMonths } mes
+        [11] de { $periodMonths } meses
+       *[other] de { $periodMonths } meses
+    }
 how-many-per-day = ¡Mui bien! ¿Cuántos clips per día?
 how-many-a-week = ¡Mui bien! ¿Cuántos clips per selmana?
 which-goal-type = ¿Quies Falar, Sentir o dambos?
