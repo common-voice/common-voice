@@ -111,6 +111,7 @@ oc = Oçitane
 or = Odia
 pa-IN = Panxhabe
 pl = Polonisht
+ps = Pashtune
 pt = Portugalisht
 rm-sursilv = Romansh Sursilvan
 ro = Rumanisht
@@ -142,6 +143,7 @@ uz = Uzbeke
 vec = Venetishte
 vi = Vietnamisht
 vot = Votik
+yue = Kantoneze
 zh-CN = Kineze (Kinë)
 zh-HK = Kineze (Hong Kong)
 zh-TW = Kineze (Tajvan)
@@ -849,6 +851,7 @@ demo-welcome-subheader = Ju intereson të mësoni më tepër dhe të jepni ndihm
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice është grupi i të dhënave zanore më i madh në botë që mund të kihet publikisht.
 demo-language-select-card-body = Falë kontributeve prej më shumë se 259 mijë vetë në mbi 50 gjuhë, këto të dhëna po përdoren për të stërvitur aplikacione që funksionojnë përmes të folurës, për t’iu përgjigjur më mirë zërit njerëzor.
 card-button-next = Pasuesja
 card-button-back = Mbrapsht
