@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Sí, unviáime correos. Prestaríame tar informáu tocante al proyeutu Common Voice.
-stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía de voz. Prestaríanos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
+stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía de voz. Quedriemos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
 privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más nel nuesu <privacyLink>avisu de privacidá</privacyLink>
 return-to-cv = Volver a Common Voice
 email-input =
@@ -86,6 +86,7 @@ kaa = Karakalpakia
 kab = Cabilu
 kbd = Cabardianu
 kk = Kazaxu
+kmr = Kurdu del Norte
 ko = Coreanu
 kpv = Komi
 kw = Córnicu
@@ -100,7 +101,10 @@ mhr = Mari de les Praderes
 mk = Macedoniu
 ml = Malayalam
 mn = Mongol
+mos = Mossi
+mr = Maratín
 mrj = Mari de les Llombes
+ms = Malayu
 mt = Maltés
 my = Birmanu
 myv = Erzya
@@ -393,7 +397,7 @@ faq-why-important-a =
 faq-how-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-how-get-a = El conxuntu de datos de Common Voice ta disponible pa baxar so la llicencia <licenseLink>CC 0</licenseLink> <datasetLink>na nuesa páxina de conxuntos de datos</datasetLink>. Dende esa mesma páxina, tamién pues baxar otros conxuntos de datos públicos.
 faq-when-release2-q = ¿Cuándo vais llanzar los datos de Common Voice n'otres llingües?
-faq-when-release2-a = Anguaño, la versión plurillingüe del conxuntu de datos de Common Voice ta llevada pola comunidá que la crea y caltién. Si te prestaría ayudanos a amestar más llingües a Common Voice, comprueba la <sentenceCollectorLink>ferramienta de recoyida de frases</sentenceCollectorLink> p'amestar frases nueves al conxuntu de datos, y <pontoonLink>Pontoon</pontoonLink> pa traducir el sitiu web. La collaboración oral de llingües nueves amiéstase a Common Voice cuando se recueyen 5000 frases recoyíes.
+faq-when-release2-a = Anguaño, la versión plurillingüe del conxuntu de datos de Common Voice ta llevada pola comunidá que la crea y caltién. Si quies ayudanos a amestar más llingües a Common Voice, comprueba la <sentenceCollectorLink>ferramienta de recoyida de frases</sentenceCollectorLink> p'amestar frases nueves al conxuntu de datos, y <pontoonLink>Pontoon</pontoonLink> pa traducir el sitiu web. La collaboración oral de llingües nueves amiéstase a Common Voice cuando se recueyen 5000 frases recoyíes.
 faq-why-mission-q = ¿Por qué Common Voice ye parte de la misión de Mozilla?
 faq-why-mission-a = Mozilla dedícase a caltener la web abierta y accesible pa tol mundu. Pa facelo, precisamos ufrir ferramientes a los creadores web pente proyeutos como Common Voice. A midida qu'apaecen teunoloxíes que van acullá de les aplicaciones especializaes, creyemos qu'estes han sirvir a tolos usuarios n'igualdá de condiciones. Esto significa incluyir más llingües, más diversidá d'acentos y datos demográficos al crear y probar estes teunoloxíes de voz. Common Voice ye un recursu públicu que ta disponible pa toos y tanto Mozilla, como los desendolcadores de tol mundu, yá tán usándolu nos sos proyeutos.
 faq-what-cv-and-deepspeech-q = ¿En qué s'estremen Common Voice y Deep Speech?
@@ -466,7 +470,7 @@ about-become-a-partner = Conversión a sociu
 about-partnership =
     Common Voice ye un proyeutu collaborativu que depende de la comunidá de socios y collaboradores pa crear el conxuntu de datas de voz abiertu más grande del momentu.
     
-    Prestaríanos agradecer a les persones y organizaciones de darréu pola so ayuda col proyeutu:
+    Queremos agradecer a les persones y organizaciones de darréu pola so ayuda col proyeutu:
 about-get-involved = Andecha
 about-get-involved-text-2 =
     ¿Quies ameyorar Common Voice entá más?
@@ -795,7 +799,7 @@ return-to-edit-goal = Volvi equí pa editar la meta cuando quieras.
 
 ## Profile Delete
 
-delete-q = ¿Prestaríate solicitar que tamién se desanicien les tos grabaciones o prefieres calteneles nel conxuntu de datos de Common Voice?
+delete-q = ¿Quies solicitar que tamién se desanicien les tos grabaciones o prefieres calteneles nel conxuntu de datos de Common Voice?
 keep = Caltener
 remove = Desaniciar
 keep-info = Les tos grabaciones de voz anónimes van siguir nel conxuntu de datos de Common Voice. Nel momentu que desanicies el perfil, yá nun vas ser a unviar una solicitú pa desaniciales del conxuntu de datos
@@ -803,7 +807,7 @@ remove-info = Vamos revisar la solicitú pa desaniciar les tos grabaciones del c
 why-delete-recordings =
     Les grabaciones de Common Voice van usales académicos, pymes y otra xente interesao na reconcencia de voz p'ayudar a entrenar y medrar los recursos disponibles públicamente, como los modelos de voz.
     
-    ¿Pues dicinos por qué quedríes desaniciar les tos grabaciones?
+    ¿Pues dicinos por qué quies desaniciar les tos grabaciones?
 profile-form-delete = Desaniciu del perfil
 
 ## Landing
@@ -830,6 +834,7 @@ demo-account = Cuenta
 ## Demo Account
 
 demo-account-card-header = Nun se rique tener una cuenta pa collaborar, mas ayuda.
+demo-account-card-body = Na derecha esponemos les ventayes y esclariamos la información qu'espublizamos. Usa los enllaces d'embaxo pa entamar con una cuenta de Common Voice nel to preséu.
 
 ## Demo Contribute
 
