@@ -71,6 +71,7 @@ he = Hebréu
 hi = Hindi
 hr = Croata
 hsb = Altu sórabu
+ht = Haitianu
 hu = Húngaru
 hy-AM = Armeniu
 hyw = Armeniu occidental
@@ -812,12 +813,20 @@ read-more-about = Llei más tocante a nós na nuesa páxina Tocante a
 
 ## DemoLayout
 
+demo-get-started = Vamos entamar
+demo-welcome = Afáyate en Common Voice
+demo-welcome-subheader = ¿Interésate saber más y collaborar nel proyeutu?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ye'l conxuntu de datos más grande, públicu y plurillingüe del mundu.
+card-button-next = Siguiente
+card-button-back = Atrás
+demo-account = Cuenta
 
 ## Demo Account
 
+demo-account-card-header = Nun se rique tener una cuenta pa collaborar, mas ayuda.
 
 ## Demo Contribute
 
