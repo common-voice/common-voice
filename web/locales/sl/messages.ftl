@@ -70,6 +70,7 @@ he = hebrejščina
 hi = hindujščina
 hr = hrvaščina
 hsb = gornja lužiška srbščina
+ht = haitščina
 hu = madžarščina
 hy-AM = armenščina
 hyw = zahodna armenščina
