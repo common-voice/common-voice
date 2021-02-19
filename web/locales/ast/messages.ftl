@@ -283,6 +283,7 @@ shortcut-record-toggle-label = Grabar/Parar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regrabar el clip
 request-language-text = ¿Entá nun ves la to llingua en Common Voice?
+request-language-text-learn = ¡Sabi cómo solicitala equí!
 request-language-button = Solicitar una llingua
 
 ## ProjectStatus
@@ -570,7 +571,7 @@ subscribe = Soscribise
 get-started-speech = Introducción a la reconocencia de voz
 other-datasets = Otros conxuntos de datos de voz
 feedback-q = ¿Tienes comentarios?
-deepspeech-info = El conxuntu de datos de Common Voice complementa al motor de reconocencia de voz de códigu abiertu Deep Speech que pues usar pa crear aplicaciones que reconozan la voz. Llei la nuesa <githubLink>descripción xeneral en Github</githubLink> o xúnite al <discourseLink>Discourse de DeepSpeech</discourseLink> pa deprender a cómo entamar.
+deepspeech-info = El conxuntu de datos de Common Voice complementa al motor de reconocencia de voz de códigu abiertu Deep Speech que pues usar pa crear aplicaciones que reconozan la voz. Llei la nuesa <githubLink>descripción xeneral en Github</githubLink> o xúnite al <discourseLink>Discourse de DeepSpeech</discourseLink> pa saber cómo entamar.
 common-voice-info-new = ¿Tienes entrugues tocante a Common Voice?¿idees, ameyores o comentarios tocante a una llingua n'especial? Xúnite al foru <discourseLink>Discourse</discourseLink> y fala con nós.
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
@@ -688,6 +689,7 @@ record-button-label = Grabar la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
 keep-track-profile = Sigui'l to progresu con un perfil
 login-to-get-started = Anicia sesión o rexístrate pa entamar
+target-segment-learn-more = Saber más
 
 ## Reporting
 
@@ -820,6 +822,7 @@ demo-welcome-subheader = ¿Interésate saber más y collaborar nel proyeutu?
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice ye'l conxuntu de datos más grande, públicu y plurillingüe del mundu.
+demo-language-select-card-body = Gracies a les collaboraciones de más de 259000 persones en más de 50 llingües, estos datos úsense pa entrenar aplicaciones de voz pa responder meyor a la voz humana
 card-button-next = Siguiente
 card-button-back = Atrás
 demo-account = Cuenta
@@ -830,6 +833,8 @@ demo-account-card-header = Nun se rique tener una cuenta pa collaborar, mas ayud
 
 ## Demo Contribute
 
+demo-contribute-card-body-v2 = Agora que yá sabes un pocoñín más tocante a Common Voice, ¿por qué nun pruebes? Calca nel iconu del micrófonu pa comenzar a lleer les frases n'alto.<br/><br/>Si prefieres revisar les collaboraciones d'otra xente, calca nel iconu de reproducción. Vas ayudar a confirmar que les grabaciones concasen coles frases escrites na pantalla.
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Los paneles personales tiénente informáu tocante al progresu individual y de la comunidá.
