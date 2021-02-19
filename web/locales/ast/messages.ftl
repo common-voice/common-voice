@@ -11,6 +11,7 @@ loading = Cargando...
 email-opt-in-info = Prestaríame recibir correos pa recordar los oxetivos, boletinos y anovamientos del mio progresu tocante a Common Voice.
 email-opt-in-info-title = Xunise a la llista de corréu de Common Voice
 email-opt-in-info-sub-with-challenge = Vas recibir correos con recordatorios, anovamientos de progresu, noticies y retos tocante a Common Voice
+email-opt-in-privacy-v2 = Al Optar a recibir correos, aceptes que Mozilla remane esta información como desplica na so <privacyLink>Política de Privacidá</privacyLink>.
 indicates-required = * indica que ye un campu riquíu
 not-available-abbreviation = N/D
 
@@ -116,6 +117,7 @@ oc = Occitanu
 or = Oriya
 pa-IN = Punxabi
 pl = Polacu
+ps = Paxtu
 pt = Portugués
 rm-sursilv = Romanche surselvu
 rm-vallader = Romansh engadinés
@@ -528,6 +530,7 @@ release-version = Versión
 dataset-date = Data
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
+data-download-singleword-callout-v2 = Esto ye una segmentación de casos que contién datos pa potenciar la reconocencia de díxitos y del «sí/non»
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y el nuesu <privacyLink>avisu de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Refugo
@@ -831,6 +834,8 @@ demo-language-select-card-header = Common Voice ye'l conxuntu de datos más gran
 demo-language-select-card-body = Gracies a les collaboraciones de más de 259000 persones en más de 50 llingües, estos datos úsense pa entrenar aplicaciones de voz pa responder meyor a la voz humana
 card-button-next = Siguiente
 card-button-back = Atrás
+demo-eofy-header = Llanzamientu de finales de 2019
+demo-eofy-sub_header = Conxuntu de datos de voz, preparáu pa baxar
 demo-account = Cuenta
 
 ## Demo Account
