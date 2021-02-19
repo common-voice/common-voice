@@ -260,6 +260,7 @@ whats-public = ¿Qué ye público?
 email-not-public = Nun vamos espublizar el to corréu.
 recordings-and-locale-public = Va espublizase'l númberu de grabaciones y les llingües nes que collaboresti.
 username-optin-public = Pues escoyer si'l nome d'usuariu va ser públicu o anónimu.
+demographic-deidentified-clarity-2 = Los datos demográficos unviaos opcionalmente (por exemplu, edá, xéneru, llingua y acentu) enxamás nun van espublizase nel to perfil y nun van enllaciase a la to cuenta nel conxuntu de datos. Los clips d'audiu individuales van asociase colos datos demográficos col motivu d'análisis más precisos. Por exemplu, un investigador quier orientar un modelu d'entrenamientu a un segmentu demográficu específicu.
 username-email-not-demographic = El to nome d'usuariu y corréu nun van asociase colos datos espublizaos.
 
 ## Speak & Listen Shortcuts
@@ -795,6 +796,9 @@ n-clips-pluralized =
 help-share-goal = Ayúdanos a alcontrar más voces. Comparti la meta
 confirm-goal = Confirmar la meta
 goal-interval-weekly = Selmanalmente
+share-goal-type-speak = Falar
+share-goal-type-listen = Sentir
+share-goal-type-both = Falar y sentir
 # LINK will be replaced with the current URL
 goal-share-text = Toi acabante de crear una meta personal pa donar la mio voz en #CommonVoice. Xúnite a min y ayúdame a deprende-yos a les máquines cómo falamos los humanos { $link }
 weekly-goal-created = Creóse'l to progresu selmanal
