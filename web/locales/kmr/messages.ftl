@@ -288,7 +288,7 @@ shortcut-record-toggle = t
 shortcut-record-toggle-label = Tomar bike/Rawestîne
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Dîsa tomar bike
-request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?
+request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?¶
 request-language-text-learn = Bizane bê tu çawa dikarî li vir daxwaz bikî!
 request-language-button = Zimanekî bixwaze
 
