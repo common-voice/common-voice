@@ -103,6 +103,7 @@ mk = Makedonska
 ml = Malayalam
 mn = Mongoliska
 mos = Mossi
+mr = Marathi
 mrj = Västmariska
 ms = Malajiska
 mt = Maltesiska
