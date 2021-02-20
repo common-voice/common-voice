@@ -422,16 +422,21 @@ audio-format = Аудионың форматы
 number-of-voices = Тауыштар һаны
 splits = Бүлеү
 size-gigabyte = ГБ
+size-megabyte = МБ
+download-language = { $language } телен йөкләү
 validated-hours = Тикшерелгән сәғәттәр
 recorded-hours = Яҙҙырылған сәғәттәр
 subscribe = Яҙылырға
 get-started-speech = Телмәрҙе таныу менән эш башлағыҙ
+other-datasets = Башҡа яҙма йыйынтығы
 feedback-q = Кире бәйләнеш бармы?
+data-other-ted-name = TED-LIUM йыйынтығы
 go-discourse = Дискурсҡа күсергә
 go-languages-page = Телдәр тигән биткә күсергә
 ready-to-validate = Һөйләмдәрҙең дөрөҫлөгөн тикшерергә ярҙам итергә әҙерһегеҙме?
 more = Күберәк
 close = Ябырға
+download = Йөкләү
 dataset-version = Версия
 
 ## Download Modal
@@ -460,12 +465,15 @@ other-language = Башҡа тел
 ## Languages Overview
 
 language-section-in-progress = Әҙерләү бара
+language-section-launched = Башланған
 languages-show-more = Күберәк ҡарарға
 languages-show-less = Әҙерәк
 language-meter-in-progress = Прогресс
 language-total-progress = Барлығы
 language-search-input =
     .placeholder = Эҙләү
+language-speakers = Вәкилдәр
+localized = Үҙләштерелгән
 sentences = Һөйләмдәр
 total-hours = Тикшерелгән сәғәттәр
 
@@ -473,8 +481,16 @@ total-hours = Тикшерелгән сәғәттәр
 
 action-click = Баҫ
 action-tap = Баҫығыҙ
+contribute = Ҡатнашыу
 listen = Тыңларға
 skip = Үткәреп ебәреү
+shortcuts = Уңайлы кнопкалар
+clips-with-count-pluralized =
+    { $count ->
+        [one] клип
+       *[other] клип
+    }
+record-cta = Яҙҙыра башлау
 record-must-allow-microphone = Микрофонды ҡулланыуға рөхсәт биреүегеҙ кәрәк
 record-no-mic-found = Микрофон табылманы
 record-error-too-short = Яҙма бигерәк ҡыҫҡа булды
