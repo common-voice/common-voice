@@ -402,30 +402,130 @@ review-delete-recordings = Яҙмаларымды юйырға
 language = Тел
 # File size in gigabytes
 size = Үлсәм
+cv-license = Лицензия
+audio-format = Аудионың форматы
+number-of-voices = Тауыштар һаны
+splits = Бүлеү
+validated-hours = Тикшерелгән сәғәттәр
+recorded-hours = Яҙҙырылған сәғәттәр
+subscribe = Яҙылырға
+get-started-speech = Телмәрҙе таныу менән эш башлағыҙ
+feedback-q = Кире бәйләнеш бармы?
+go-discourse = Дискурсҡа күсергә
+go-languages-page = Телдәр тигән биткә күсергә
+ready-to-validate = Һөйләмдәрҙең дөрөҫлөгөн тикшерергә ярҙам итергә әҙерһегеҙме?
+more = Күберәк
+close = Ябырға
+dataset-version = Версия
 
 ## Download Modal
 
+download-title = Һеҙҙең тейәүегеҙ башланды
+download-form-email =
+    .label = электрон адресығыҙҙы яҙығыҙ
+    .value = рәхмәт Һеҙгә, беҙ бәйләнештә булырбыҙ.
+download-no = Юҡ, рәхмәт
 
 ## Contact Modal
 
+contact-title = Бәйләнеш формаһы
+contact-form-name =
+    .label = Исем
+contact-form-message =
+    .label = Хәбәр
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Тел
+select-language = Телде һайлағыҙ...
+other-language = Башҡа тел
 
 ## Languages Overview
 
+language-section-in-progress = Әҙерләү бара
+languages-show-more = Күберәк ҡарарға
+languages-show-less = Әҙерәк
+language-meter-in-progress = Прогресс
+language-total-progress = Барлығы
+language-search-input =
+    .placeholder = Эҙләү
+sentences = Һөйләмдәр
+total-hours = Тикшерелгән сәғәттәр
 
 ## Contribution
 
+action-click = Баҫ
+action-tap = Баҫығыҙ
+listen = Тыңларға
+skip = Үткәреп ебәреү
+record-must-allow-microphone = Микрофонды ҡулланыуға рөхсәт биреүегеҙ кәрәк
+record-no-mic-found = Микрофон табылманы
+record-error-too-short = Яҙма бигерәк ҡыҫҡа булды
+record-error-too-long = Яҙма бигерәк оҙон
+record-error-too-quiet = Яҙмалағы тауыш бигерәк шым булды
+record-cancel = Ҡабатлап яҙҙырыуҙы туҡтатыу
+record-three-more-instruction = Өсәү ҡалды!
+share-common-voice = Common Voice менән бүлешегеҙ
+record-abort-title = Тәүҙә яҙҙырыуҙы тамамларғамы?
+record-abort-text = Хәҙер тамамлаһағыҙ, эшләгән эшегеҙҙе юғалтаһығыҙ
+record-abort-continue = Яҙыуҙы тамамларға
+speak-empty-state-cta = Тәҡдимдәр индерегеҙ
+record-button-label = Тауышығыҙҙы яҙҙырығыҙ
+keep-track-profile = Профилегеҙҙә үҙегеҙҙең алға китеште  күҙәтегеҙ
+login-to-get-started = Эш башлар өсөн, системаға инегеҙ һәм теркәлегеҙ
+target-segment-add-voice = Тауышығыҙҙы өҫтәгеҙ
+target-segment-learn-more = Тулыраҡ белергә
 
 ## Reporting
 
+report = Отчет
+report-title = Хисапламаны ебәрергә
+report-ask = Отчетты ебәрергә
+report-offensive-language = Тыйылған телмәр
+report-grammar-or-spelling = Грамматик/орфографик хаталар
+report-grammar-or-spelling-detail = Һөйләмдә грамматик һәм орфографик хата бар
+report-different-language = Икенсе тел
+report-different-language-detail = Мин һөйләгән телдән айырыла, икенсе телдә яҙылған
+report-difficult-pronounce = Әйтеүе ауыр
+report-difficult-pronounce-detail = Уҡыуға һәм әйтеүгә ауыр һүҙҙәр һәм фразалар бар
+report-offensive-speech = Хәтер ҡалдырырлыҡ һүҙҙәр
+report-other-comment =
+    .placeholder = Комментарий
+success = Уңышлы
+continue = Дауам итергә
 
 ## Goals
 
+streaks = Көн бер рәттән
+days =
+    { $count ->
+        [one] көн
+       *[other] көн
+    }
+recordings =
+    { $count ->
+        [one] яҙма
+       *[other] яҙма
+    }
+validations =
+    { $count ->
+        [one] тикшереү
+       *[other] тикшереү
+    }
 
 ## Dashboard
 
+your-languages = Һеҙҙең телдәр
+toward-next-goal = Артабанғы маҡсатҡа
+goal-reached = Маҡсат ирешелде
+clips-you-recorded = Һеҙ яҙҙырған клиптар
+clips-you-validated = Һеҙ тикшергән клиптар
+todays-recorded-progress = Бөгөн Common Voice-та яҙмалар эшләнелде
+todays-validated-progress = Бөгөн Common Voice-та яҙмалар тикшерелде
+stats = Статистика
+awards = Бүләктәр
+you = Һеҙ
 
 ## Custom Goals
 
