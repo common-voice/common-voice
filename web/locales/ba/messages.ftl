@@ -327,22 +327,81 @@ add-language = Телде өҫтәү
 
 ## FAQ
 
+faq-title = Йыш бирелгән һорауҙар
+faq-what-cv-q = Нимә ул Common Voice?
+faq-why-important-q = Ни өсөн был мөһим?
+faq-how-get-q = Common Voice мәғлүмәттәрен мин нисек ала алам?
+faq-when-release2-q = Common Voice мәғлүмәттәрен башҡа телдәрҙә ҡасан бирәһегеҙ?
+faq-why-mission-q = Ни өсөн Common Voice Mozilla миссияһының бер өлөшө булып тора?
+faq-what-cv-and-deepspeech-q = Common Voice һәм Deep Speech нимәһе менән айырыла?
+faq-is-goal-assistant-q = Common Voice-тың   маҡсаты  тауышлы ярҙамсы булдырыумы?
+faq-do-want-native-q = Мин был телдә һөйләшеүселәрҙең вәкиле түгелмен, акцент менән һөйләшәм, һеҙ һаман да минең  тауышымды теләйһегеҙме?
+faq-why-different-speakers-q = Ни өсөн һеҙгә бөтә телдә лә күп төрлө һөйләшеүселәр кәрәк?
+faq-why-my-lang-q = Ни өсөн минең телем һаман индерелмәгән?
+faq-why-10k-hours-q = Ни өсөн тикшерелгән 10,000 сәғәт бөтә телдәргә лә тауышты тотоп  алыу өсөн  маҡсат?
+faq-how-calc-hours-q = Common Voice нисек ваҡытты иҫәпләй?
+faq-where-src-from-2-q = Тәүге текст ҡайҙан алына?
+faq-why-account-q = Ни өсөн мин теркәлергә тейешмен?
+faq-is-account-public-q = Аккаунтым тураһындағы мәғлүмәт бөтә кешегә лә күренәме?
+faq-how-privacy-q = Тауыштарын иғәнә иткән кешеләрҙең  анонимлығын, конфиденциаллеген нисек тәьмин итәгеҙ?
+faq-what-is-cv = Нимә ул Common Voice?
+faq-using-cv = Common Voice-ты ҡулланыу
+faq-search-for-answers =
+    .label = Яуаптар эҙләү
 
 ## ABOUT US
 
+about-title = Ни өсөн Common Voice?
+how-does-it-work-title = Был нисек эшләй?
+about-speak = Һөйләү
+about-listen-queue = Тыңлау сираты
 about-listen = Тыңлау
+about-is-it-valid = Яҙма дөрөҫмө?
+about-yes-votes = ≥2 «эйе» тауышы
+about-no-votes = ≥ 2 тауыш "ҡаршы"
+about-partners = Партнерҙар
+about-become-a-partner = Партнер булыу
+about-get-involved = Ҡатнашыу
+about-nav-why-common-voice = Ни өсөн?
+about-nav-how-it-works = Нисек?
+about-nav-partners = Партнерҙар
+about-nav-get-involved = Ҡатнашыу
+mycroft-title = Mycroft Ai
+mycroft-subtitle = Яһалма интеллект
 
 ## Glossary
 
+glossary = Глоссарий
+localization = Локализация
+sentence-collection = Һөйләмдәр коллекцияһы
+sst = Телмәрҙе текстҡа (Speech-to-text, STT)
 
 ## Error pages
 
+error-code = Хата { $code }
 
 ## Data
 
+data-download-button = Common Voice-тан мәғлүмәттәрҙе сығарып алыу
+data-download-yes = Эйе
+data-download-deny = Юҡ
+data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-other-goto = { $name }-ға күсергә
+data-other-download = Мәғлүмәттәрҙе алырға
+release-version = Версия
+dataset-date = Дата
+terms-agree = Килешәм
+terms-disagree = Килешмәйем
+review-recording = Күҙәтеү
+review-cancel = Ебәреүҙе туҡтатыу
+review-keep-recordings = Яҙманы һаҡлағыҙ
+review-delete-recordings = Яҙмаларымды юйырға
 
 ## Datasets Page
 
+language = Тел
+# File size in gigabytes
+size = Үлсәм
 
 ## Download Modal
 
