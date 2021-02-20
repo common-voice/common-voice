@@ -105,6 +105,7 @@ mn = მონღოლური
 mos = მოსი
 mr = მარათული
 mrj = მთის მარიული
+ms = მალაიური
 mt = მალტური
 my = ბირმული
 myv = ერზიანული
@@ -116,6 +117,7 @@ oc = ოქსიტანური
 or = ორია
 pa-IN = პენჯაბი
 pl = პოლონური
+ps = პუშტუ
 pt = პორტუგალიური
 rm-sursilv = რეტორომანული სურსილვანი
 rm-vallader = რეტორომანული ვალადერი
@@ -276,6 +278,7 @@ shortcut-record-toggle-label = ჩაწერა/შეწყვეტა
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ახლიდან ჩაწერა
 request-language-text = ვერ იპოვეთ თქვენი ენა Common Voice-ში?
+request-language-text-learn = იხილეთ, როგორ უნდა მოითხოვოთ!
 request-language-button = მოითხოვეთ ენის დამატება
 
 ## ProjectStatus
@@ -875,6 +878,7 @@ demo-account-sign-up = ბმულის გაგზავნა
 ## Demo Contribute
 
 demo-contribute-card-header = მზად ხართ დაამატოთ თქვენი ხმა ან ყური დაუგდოთ?
+demo-contribute-card-body-v2 = ახლა უკვე, ვინაიდან უკეთ გაიცანით Common Voice, არ გსურთ თავადვე გამოცადოთ? დაწკაპეთ მიკროფონის ნიშანზე და ამოიკითხეთ წინადადებები ხმამაღლა. <br/><br/>თუ გირჩევნიათ სხვების ხმოვანი შემოწირულობების შემოწმება, დაწკაპეთ გაშვების ნიშანზე. ამით დაგვეხმარებით დავადასტუროთ, რომ ჩანაწერი ზუსტად ემთხვევა ეკრანზე გამოსახულ წინადადებას.
 demo-listen-subtitle = მზად ხართ წვლილის შეტანისთვის?
 
 ## Demo Dashboard
