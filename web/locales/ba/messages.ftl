@@ -526,9 +526,59 @@ todays-validated-progress = Бөгөн Common Voice-та яҙмалар тикш
 stats = Статистика
 awards = Бүләктәр
 you = Һеҙ
+everyone = Һәр кем
+top-contributors = Төп ярҙамсылар
+recorded-clips = Яҙҙырылған клиптар
+validated-clips = Тикшерелгән клиптар
+total-approved = Бөтәһе тикшерелде
+overall-accuracy = Дөйөм теүәллек
+show-ranking = Рейтингымды күрһәтергә
 
 ## Custom Goals
 
+get-started-goals = Маҡсатты билдәләү
+create-custom-goal = Ҡулланыусы маҡсатын билдәләү
+goal-type = Ниндәй маҡсатҡа ирешергә теләйһегеҙ?
+both-speak-and-listen = Икеһе лә
+both-speak-and-listen-long = Икеһе лә (Һөйләү һәм тыңлау)
+daily-goal = Көндәлек маҡсат
+weekly-goal = Аҙналыҡ маҡсат
+easy-difficulty = Еңел
+average-difficulty = Уртаса
+difficult-difficulty = Ауыр
+lose-goal-progress-warning = Маҡсатығыҙҙы үҙгәртеп, булған алға китешегеҙҙе юғалтыуығыҙ бар.
+want-to-continue = Дауам итәһегеҙме?
+finish-editing = Тәүҙә редакторлап бөтәһегеҙме?
+build-custom-goal = Ниндәй маҡсатҡа ирешергә теләйһегеҙ?
+set-a-goal = Маҡсат ҡуйығыҙ
+cant-decide = Хәл итә алмайһыңмы?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] сәғәт
+       *[other] сәғәт
+    }күберәк маҡсатҡа ирешерлек{ NUMBER($periodMonths) ->
+        [one] ай
+       *[other] ай
+    }әгәр{ NUMBER($people) ->
+        [one] кеше
+       *[other] кеше
+    }яҙыу{ NUMBER($clipsPerDay) ->
+        [one] клип
+       *[other] клип
+    }көн
+how-many-per-day = Бик яҡшы! Көнөнә нисә клип?
+how-many-a-week = Бик яҡшы! Аҙнаһына нисә клип?
+which-goal-type = Һеҙ яҙҙырырға йә тикшерергә теләйһегеҙме, әллә икеһен дә бергәме?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] клип
+       *[other] клип
+    }
+help-share-goal = Беҙгә күберәк тауыш табырға беҙгә ярҙам итегеҙ, маҡсатығыҙ менән бүлешегеҙ!
+confirm-goal = Маҡсатығыҙҙы раҫлағыҙ
+goal-interval-weekly = Аҙна һайын
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Көндә { $count } клип эшләйем тигән маҡсатығыҙҙы { $type } менән уртаҡлашығыҙ
 
 ## Profile Delete
 
