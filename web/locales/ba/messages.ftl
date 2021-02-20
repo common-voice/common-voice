@@ -71,6 +71,7 @@ he = Йәһүдсә
 hi = Һиндиса
 hr = Хорватса
 hsb = Лужиса
+ht = Гаитан
 hu = Мадьярса
 hy-AM = Әрмәнсә
 hyw = Көнбайыш әрмәнсә
@@ -100,7 +101,10 @@ mhr = Марийса(Көнсығыш)
 mk = Македонса
 ml = Малаялам
 mn = Монголса
+mos = Мосси
+mr = Маратин
 mrj = Марийса(таулы)
+ms = Малай
 mt = Мальтаса
 my = Бөрмисә
 myv = Эрзяса
@@ -112,6 +116,7 @@ oc = Оцитанса
 or = Одияса
 pa-IN = Пенджаб
 pl = Полякса
+ps = Пахту
 pt = Португалса
 rm-sursilv = Романш Сурсельвса
 rm-vallader = Романш Валладырса
@@ -247,9 +252,15 @@ shortcut-play-toggle-label = Уйнатыу/Туҡтатыу
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Яҙҙырыу/Туҡтатыу
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипты яңынан яҙҙырыу
@@ -389,9 +400,12 @@ data-other-goto = { $name }-ға күсергә
 data-other-download = Мәғлүмәттәрҙе алырға
 release-version = Версия
 dataset-date = Дата
+license-mixed = Буталған
 terms-agree = Килешәм
 terms-disagree = Килешмәйем
+review-submit-title = Тикшерергә һәм ебәрергә
 review-recording = Күҙәтеү
+review-rerecord = Кире яҙыу
 review-cancel = Ебәреүҙе туҡтатыу
 review-keep-recordings = Яҙманы һаҡлағыҙ
 review-delete-recordings = Яҙмаларымды юйырға
@@ -401,10 +415,13 @@ review-delete-recordings = Яҙмаларымды юйырға
 language = Тел
 # File size in gigabytes
 size = Үлсәм
+validated-hr-total = Тикшерелгән сәғәттәр
+overall-hr-total = Бөтә сәғәттәр
 cv-license = Лицензия
 audio-format = Аудионың форматы
 number-of-voices = Тауыштар һаны
 splits = Бүлеү
+size-gigabyte = ГБ
 validated-hours = Тикшерелгән сәғәттәр
 recorded-hours = Яҙҙырылған сәғәттәр
 subscribe = Яҙылырға
