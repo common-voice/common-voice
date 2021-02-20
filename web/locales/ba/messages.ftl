@@ -232,6 +232,7 @@ view-goals = Алға китешегеҙҙе үҙегеҙҙең һәм прое�
 whats-public = Асыҡлыҡ нимә ул?
 email-not-public = Һеҙҙең электрон почта адресын башҡаларға күрһәтмәйәсәкбеҙ
 recordings-and-locale-public = Һеҙ үҙ өлөшөгөҙҙө индергән яҙмалар һәм телдәр һаны һәр кемгә күренә
+username-optin-public = Ҡулланыусының исемен һеҙ һәр кемгә күренерлек йә йәшерен итә алаһығыҙ
 
 ## Speak & Listen Shortcuts
 
@@ -252,10 +253,15 @@ shortcut-vote-yes = y
 
 shortcut-record-toggle-label = Яҙҙырыу/Туҡтатыу
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Клипты яңынан яҙҙырыу
+request-language-button = Телде һорарға
 
 ## ProjectStatus
 
 status-contribute = Тауышыңды өҫтә
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Артабанғы маҡсат: { $goal }
 english = Инглисә
 
 ## ProfileForm
@@ -264,8 +270,18 @@ profile-form-username =
     .label = Ҡатнашыусының исеме
 profile-form-native-language =
     .label = Туған тел
+profile-form-additional-language =
+    .label = Өҫтәлмә тел
+profile-form-accent =
+    .label = Акцент
 profile-form-age =
     .label = Йәшегеҙ
+profile-form-gender-2 =
+    .label = Енес
+leaderboard-visibility =
+    .label = Лидерҙар таблицаһының күренеүе
+hidden = Йәшерен
+visible = Күренә
 native-language =
     .label = Туған тел
 profile-form-submit-save = Һаҡлау
@@ -274,12 +290,39 @@ male = Ир-ат
 female = Ҡатын-ҡыҙ
 # Gender
 other = Башҡа
+why-profile-title = Ни өсөн мотлаҡ профиль?
+dashboard = Идара панеле
+build-profile = Профиль булдырыу
 avatar = Аватар
+goals = Маҡсаттар
 settings = Көйләнмәләр
 edit-profile = Сәхифәне үҙгәртеү
+profile-create-success = Уңышлы үтте, профиль булдырылды!
 profile-close = Ябырға
+thanks-for-account = Иҫәп яҙмағыҙҙы раҫлағанға рәхмәт, хәҙер әйҙәгеҙ һеҙҙең профилде булдырайыҡ
+why-demographic = Был ни өсөн мөһим?
+accept-privacy-title = Хосусилек сәйәсәте
+login-signup = Инеү / Теркәлеү
 edit = Үҙгәртергә
+download-profile = Минең мәғлүмәттәрҙе сығарып алыу
+contribution-experience = Ҡатнашыу тәжрибәһе
+off = Һүнгән
+on = Тоҡанған
+avatar-clip-title = Үҙегеҙҙең аватарығыҙға тауыш бирегеҙ
+recording-in-progress = Тауыш яҙҙырыу бара
+avatar-clip-recorded = Аватарығыҙ хәҙер аудиотауышлы!
+record-voice-wave = Тауышты яҙҙырыу
+retry-voice-wave-recording = Ҡабатлау
+re-record = Яңынан яҙҙырырға
 delete-voice = Юйыу
+recording-voice-wave = Яҙыу
+ready-to-upload = Тейәргә
+recreate-voice = Сәләмләүҙе яңынан яҙҙырыу
+cancel-avatar-clip-recording = Улайтма
+browse-file-title = Һүрәттең файлын тейәргә
+connect-gravatar = Gravatarҙы бәйләргә
+gravatar_not_found = Һеҙҙең электрон почта gravatarҙа табылманы
+file_too_large = Һайланған файл үтә ҙур
 add-language = Телде өҫтәү
 
 ## FAQ
