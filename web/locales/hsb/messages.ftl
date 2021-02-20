@@ -103,6 +103,7 @@ mk = Makedonšćina
 ml = Malajalamšćina
 mn = Mongolšćina
 mos = Mossišćina
+mr = Maratišćina
 mrj = Hórska marišćina
 ms = Malajišćina
 mt = Maltašćina
