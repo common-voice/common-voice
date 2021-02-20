@@ -103,6 +103,7 @@ mk = Tamasidunit
 ml = Tamalayalamit
 mn = Tamungult
 mos = Tamusit
+mr = Tamaṛatit
 mrj = Tamarit n udrar
 ms = Tamalizit
 mt = Tamalṭit
