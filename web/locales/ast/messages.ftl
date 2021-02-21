@@ -242,6 +242,7 @@ x-years-short =
     }
 help-make-dataset = Ayúdanos a construyir un conxuntu de datos abiertu, públicu y calidable
 sign-up-account = Rexistrar una cuenta
+email-subscription-title = rexistrase pa recibir anovamientos per corréu
 email-subscription-title-new = Rexístrate pa recibir boletinos, recordatorios, retos y anovamientos de progresu
 
 ## Account Benefits
@@ -374,6 +375,7 @@ recording-voice-wave = Grabación
 delete-voice-clip = o desanicia'l clip de voz
 ready-to-upload = XUBIR
 avatar-clip-fact = Ye bien sabío qu'un llector va distrayese col conteníu lleíble d'una páxina que ta viendo al mirar el so diseñu.
+recreate-voice = Recrear la onda de voz
 cancel-avatar-clip-recording = ENCABOXAR
 about-avatar-clip-recording = Crea un clip de voz pa incluyilu y que la demás xente seya a sentilu cuando pase'l mur penriba del avatar del perfil.
 browse-file-title = Xuba d'un ficheru
@@ -684,6 +686,8 @@ record-again-instruction = ¡Perfeuto!<recordIcon></recordIcon> Graba'l clip sig
 record-again-instruction2 = ¡Sigui asina! Fai otra grabación <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ¡La última!
 review-tooltip = Revisa y volvi grabar los clips a midida que sigues
+share-clip = Compartir el to clip
+share-common-voice = Compartir Common Voice
 review-instruction = Revisa y volvi grabar los clips si lo precises
 record-submit-tooltip = { $actionType } unviar cuando termines
 clips-uploaded = Xubiéronse los clips
@@ -698,10 +702,13 @@ listen-3rd-time-instruction = 2 menos, ¡sigui asina!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>¡La última!
 listen-empty-state = Escosemos los clips a validar nesta llingua...
 speak-empty-state = Escosemos les frases a grabar nesta llingua...
+speak-empty-state-cta = Collaborar con frases
 record-button-label = Grabar la to voz
 share-title-new = <bold>Ayúdanos</bold> a atopar más voces
 keep-track-profile = Sigui'l to progresu con un perfil
 login-to-get-started = Anicia sesión o rexístrate pa entamar
+target-segment-first-card = Tas collaborando nel nuesu primer segmentu de voz oxetivu
+target-segment-generic-card = Tas collaborando nun segmentu de voz oxetivu
 target-segment-first-banner = Ayuda a crear el primer segmentu de voz de Common Voice en { $locale }
 target-segment-add-voice = Amiestu de la to voz
 target-segment-learn-more = Saber más
@@ -828,6 +835,10 @@ n-clips-pluralized =
 help-share-goal = Ayúdanos a atopar más voces. Comparti la meta
 confirm-goal = Confirmar la meta
 goal-interval-weekly = Selmanalmente
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Comparti la to meta diaria de { $count } clips de { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Comparti la to meta selmanal de { $count } clips de { $type }
 share-goal-type-speak = Falar
 share-goal-type-listen = Sentir
 share-goal-type-both = Falar y sentir
