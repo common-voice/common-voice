@@ -370,6 +370,7 @@ record-voice-wave = GRABAR LA VOZ
 retry-voice-wave-recording = RETENTAR
 re-record = REGRABAR
 delete-voice = DESANICIAR
+recording-voice-wave = Grabación
 delete-voice-clip = o desanicia'l clip de voz
 ready-to-upload = XUBIR
 avatar-clip-fact = Ye bien sabío qu'un llector va distrayese col conteníu lleíble d'una páxina que ta viendo al mirar el so diseñu.
@@ -381,6 +382,7 @@ connect-gravatar = Coneutar con Gravatar
 gravatar_not_found = Nun s'alcontró nengún gravatar del corréu
 file_too_large = El ficheru esbilláu ye pergrande
 manage-subscriptions = Xestión de les soscripciones
+manage-email-subscriptions = Xestión de les soscripciones per corréu
 email-already-used = El corréu yá s'usa nuna cuenta diferente
 add-language = Amestar una llingua
 change-email-setings = Camuda'l corréu n'Axustes, so Identidá del aniciu de sesión
@@ -531,6 +533,7 @@ release-version = Versión
 dataset-date = Data
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
+data-download-singleword-title = Baxa'l segmentu específicu coles pallabres individuales
 data-download-singleword-callout-v2 = Esto ye una segmentación de casos que contién datos pa potenciar la reconocencia de díxitos y del «sí/non»
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y el nuesu <privacyLink>avisu de privacidá</privacyLink>
 terms-agree = Aceuto
@@ -699,6 +702,8 @@ record-button-label = Grabar la to voz
 share-title-new = <bold>Ayúdanos</bold> a atopar más voces
 keep-track-profile = Sigui'l to progresu con un perfil
 login-to-get-started = Anicia sesión o rexístrate pa entamar
+target-segment-first-banner = Ayuda a crear el primer segmentu de voz de Common Voice en { $locale }
+target-segment-add-voice = Amiestu de la to voz
 target-segment-learn-more = Saber más
 
 ## Reporting
@@ -745,6 +750,7 @@ validations =
 
 your-languages = Les tos llingües
 toward-next-goal = Pa la meta siguiente
+goal-reached = Algamóse l'oxetivu
 clips-you-recorded = Clips que grabesti
 clips-you-validated = Clips que validesti
 todays-recorded-progress = El progresu de güei de los clips grabaos pa Common Voice
@@ -762,6 +768,7 @@ overall-accuracy = Precisión xeneral
 set-visibility = Afitar la mio visibilidá
 visibility-explainer = Esti axuste controla la to visibilidá na clasificación. Al tar invisible, va anubrise lo que progreses. Eso significa que'l to avatar, nome d'usuariu y progresu nun van apaecer nesta tabla. Decátate que la clasificación refréscase cada ~{ $minutes } minutos p'amosar los cambeos.
 visibility-overlay-note = Nota: Al aftiar «Visible», esti axuste pue modificase dende la <profileLink>páxina del perfil</profileLink>
+show-ranking = Amosar la mio clasificación
 
 ## Custom Goals
 
@@ -830,6 +837,7 @@ weekly-goal-created = Creóse'l to progresu selmanal
 daily-goal-created = Creóse'l to progresu diariu
 track-progress = Sigui esi progresu nesta páxina o na d'estadístiques.
 return-to-edit-goal = Volvi equí pa editar la meta cuando quieras.
+share-goal = Compartir la mio meta
 
 ## Profile Delete
 
@@ -864,6 +872,7 @@ demo-language-select-card-header = Common Voice ye'l conxuntu de datos más gran
 demo-language-select-card-body = Gracies a les collaboraciones de más de 259000 persones en más de 50 llingües, estos datos úsense pa entrenar aplicaciones de voz pa responder meyor a la voz humana
 card-button-next = Siguiente
 card-button-back = Atrás
+demo-language-select-label = Restolar les llingües
 demo-eofy-header = Llanzamientu de finales de 2019
 demo-eofy-sub_header = Conxuntu de datos de voz, preparáu pa baxar
 demo-account = Cuenta
