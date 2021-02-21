@@ -184,9 +184,9 @@ logout = Zarrar sesión
 home-title = El proyeutu Common Voice ye la iniciativa de Mozilla pa deprende-yos a les máquines cómo falen los humanos.
 home-cta = ¡Collabora equí!
 wall-of-text-start =
-    La voz ye natural, tamién humana. Poro, tamos entusiasmaos por crear teunoloxíes de
-    voz calidables pa les nueses máquines. Pero pa crear estos sistemes ríquese una cantidá
-    escomanada de datos de voz.
+    La voz ye natural, tamién humana. Poro, entusiásmanos crear teunoloxíes de voz calidables
+    pa les máquines. Pero pa crear estos sistemes ríquese una cantidá escomanada de datos de
+    voz.
 wall-of-text-more-mobile =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
     Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar
@@ -196,9 +196,9 @@ wall-of-text-more-desktop =
     pue usar pa facer aplicaciones informátiques innovadores. Llei una fras pa deprende-yos a les máquines cómo falen los humanos,
     comprueba'l trabayu d'otros collaboradores p'ameyorar la calidá... ¡Ye mui cenciello!
 wall-of-text-first =
-    La voz ye natural, tamién humana. Poro, tamos entusiasmaos por crear teunoloxíes de voz
-    calidables pa les nueses máquines. Pero pa crear estos sistemes, los desendolcadores riquen una
-    cantidá escomanada de datos de voz.
+    La voz ye natural, tamién humana. Poro, entusiásmanos crear teunoloxíes de voz calidables pa les
+    máquines. Pero pa crear estos sistemes, los desendolcadores riquen una cantidá escomanada de
+    datos de voz.
 wall-of-text-second =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
     Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar
@@ -449,7 +449,7 @@ faq-search-for-answers =
 about-title = ¿Por qué Common Voice?
 about-subtitle = Common Voice ye parte de la iniciativa de Mozilla p'ayudar a deprende-yos a máquines cómo falamos los humanos. Arriendes d'eso, tamién tamos creando Deep Speech que ye un motor de reconocencia de voz de códigu abiertu.
 about-header-description =
-    Dambos proyeutos son parte del nuesu esfuerciu d'amenorgar les desigualdaes nel mundu de la voz dixital. Les teunoloxíes de reconocencia de voz dan una dimensión humana a los nuesos preseos pero los desendolcadores precisen una cantidá escomanada de datos de voz pa creales. Anguaño, la mayoría d'esos datos son caros y privativos.
+    Dambos proyeutos son parte del nuesu esfuerciu d'amenorgar les desigualdaes nel mundu de la voz dixital. Les teunoloxíes de reconocencia de voz dan una dimensión humana a los preseos pero los desendolcadores precisen una cantidá escomanada de datos de voz pa creales. Anguaño, la mayoría d'esos datos son caros y privativos.
     Queremos facer que los datos de voz seyan abiertos y públicos, y aseguranos de que representen la diversidá de la xente real. Xuntos podemos facer que la reconocencia de voz ameyore pa tol mundu.
 how-does-it-work-title = ¿Cómo funciona?
 how-does-it-work-text = Tamos faciendo n'andecha un conxuntu de datos de voz abiertu. Dona la to voz, valida la precisión de los clips d'otres persones y fai que'l conxuntu de datos seya'l meyor pa tol mundu.
