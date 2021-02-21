@@ -99,10 +99,16 @@ lv = Bahasa Latvia
 mdf = Bahasa Moksha
 mg = Bahasa Malagasi
 mhr = Meadow Mari
+mk = Bahasa Macedonia
 ml = Bahasa Malayalam
 mn = Bahasa Mongolia
 mos = Bahasa Mossi
+mr = Marathi
+mrj = Hill Mari
 ms = Bahasa Melayu
+mt = Bahasa Malta
+my = Bahasa Burma
+myv = Erzya
 
 # [/]
 
