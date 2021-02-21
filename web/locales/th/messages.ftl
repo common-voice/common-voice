@@ -115,6 +115,7 @@ oc = อ็อกซิตัน
 or = โอเดีย
 pa-IN = ปัญจาบี
 pl = โปแลนด์
+ps = ปาทาน
 pt = โปรตุเกส
 rm-sursilv = โรมานช์เซอร์ซิลวาน
 rm-vallader = โรมานช์วัลลาเดอร์
@@ -519,6 +520,7 @@ data-other-goto = ไปยัง { $name }
 data-other-download = ดาวน์โหลดข้อมูล
 data-bundle-button = ดาวน์โหลดแพ็คเกจชุดข้อมูล
 data-bundle-description = ข้อมูล Common Voice รวมทั้งชุดข้อมูลเสียงอื่น ๆ ด้านบน
+release-version = รุ่น
 dataset-date = วันที่
 license = สัญญาอนุญาต: <licenseLink>{ $license }</licenseLink>
 license-mixed = ผสม
@@ -849,6 +851,7 @@ demo-account = บัญชี
 
 ## Demo Account
 
+demo-account-sign-up = ส่งลิงก์ลงทะเบียน
 
 ## Demo Contribute
 
