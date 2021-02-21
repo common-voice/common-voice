@@ -114,7 +114,7 @@ ne-NP = Nepalín
 nl = Neerlandés
 nn-NO = Nynorsk noruegu
 oc = Occitanu
-or = Oriya
+or = Odia
 pa-IN = Punxabi
 pl = Polacu
 ps = Paxtu
@@ -335,7 +335,7 @@ female = Femenín
 other = Otru
 why-profile-title = ¿Por qué un perfil?
 why-profile-text =
-    Apurrir dellos datos tocante a ti va ser perútil pa los motores de reconocencia de voz, darréu qu'usen esos datos
+    Apurrir dellos datos tocante a ti va ser perútil pa los motores de reconocencia de voz, darréu que s'usen
     p'ameyorar la so precisión.
 dashboard = Panel
 build-profile = Creación del perfil
