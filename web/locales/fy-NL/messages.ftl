@@ -103,6 +103,7 @@ mk = Masedoanysk
 ml = Malayalam
 mn = Mongoalsk
 mos = More
+mr = Marathy
 mrj = Berch-Mari
 ms = Maleizysk
 mt = Malteesk
