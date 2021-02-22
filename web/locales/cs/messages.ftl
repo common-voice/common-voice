@@ -71,6 +71,7 @@ he = Hebrejština
 hi = Hindština
 hr = Chorvatština
 hsb = Hornosrbština
+ht = Haitština
 hu = Maďarština
 hy-AM = Arménština
 hyw = Západní arménština
@@ -99,7 +100,9 @@ mhr = Lužní Marijština
 mk = Makedonština
 ml = Malajálamština
 mn = Mongolština
+mr = Maráthština
 mrj = Horská Marijština
+ms = Malajština
 mt = Maltština
 my = Barmština
 myv = Erzja
@@ -111,6 +114,7 @@ oc = Okcitánština
 or = Udijština
 pa-IN = Pandžábština
 pl = Polština
+ps = Paštština
 pt = Portugalština
 rm-sursilv = Rétorománština (sursilvan)
 rm-vallader = Rétorománština (vallader)
@@ -876,6 +880,7 @@ demo-account = Účet
 
 ## Demo Account
 
+demo-account-card-header = Není nutné mít vytvořený účet, abyste mohli přispívat, ale může být užitečný.
 demo-account-sign-up = Pošlete mi přihlaovací odkaz
 
 ## Demo Contribute
