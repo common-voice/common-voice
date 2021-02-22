@@ -788,7 +788,7 @@ activity-needed-calculation-plural =
     }registrerer{ NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } lydklipp
        *[other] { $clipsPerDay } lydklipp
-    }om dagen.
+    } om dagen.
 how-many-per-day = Flott! Kor mange lydklipp pr. dag?
 how-many-a-week = Flott! Kor mange lydklipp i veka?
 which-goal-type = Vil du snakke, lytte eller begge delar?
