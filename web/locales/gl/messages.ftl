@@ -103,6 +103,7 @@ mk = Macedonio
 ml = Malaialam
 mn = Mongol
 mos = Mossi
+mr = Marathi
 mrj = Mari das Montañas
 ms = Malaio
 mt = Maltés
