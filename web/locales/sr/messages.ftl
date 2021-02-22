@@ -279,6 +279,7 @@ shortcut-record-toggle-label = Снимај/заустави
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Сними поново
 request-language-text = Још не видите ваш језик у пројекту Common Voice?
+request-language-text-learn = Сазнајте овде како да затражите!
 request-language-button = Затражи језик
 
 ## ProjectStatus
@@ -901,6 +902,7 @@ demo-account-sign-up = Пошаљи везу за регистрацију
 ## Demo Contribute
 
 demo-contribute-card-header = Спремни да додате глас или позајмите слух?
+demo-contribute-card-body-v2 = Сад кад знате мало више о Common Voice-у, зашто не бисте пробали? Кликните на иконицу микрофона да бисте започели читање реченица наглас. <br/><br/>Ако бисте радије да проверавате туђе говорне доприносе, кликните на иконицу за репродукцију. Тада ћете помоћи да потврдите да се снимак гласа који чујете подудара са речима на екрану.
 demo-listen-subtitle = Спремни да дате допринос?
 
 ## Demo Dashboard
