@@ -103,6 +103,7 @@ mk = Macedoneg
 ml = Malayalam
 mn = Mongolieg
 mos = Mossi
+mr = Marathi
 mrj = Mari Gorllewinol
 ms = Maleieg
 mt = Malteg
