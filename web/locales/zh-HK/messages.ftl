@@ -72,6 +72,7 @@ he = 希伯來文
 hi = 印地文
 hr = 克羅地亞文
 hsb = 上索布文
+ht = 海地文
 hu = 匈牙利文
 hy-AM = 亞美尼亞文
 hyw = 西亞美尼亞文
@@ -101,7 +102,10 @@ mhr = 草原馬里文
 mk = 馬其頓文
 ml = 馬拉亞拉姆文
 mn = 蒙古文
+mos = 莫西文
+mr = 馬拉提文
 mrj = 山地馬里文
+ms = 馬來文
 mt = 馬爾他文
 my = 緬甸文
 myv = 厄爾茲亞文
@@ -113,6 +117,7 @@ oc = 奧克文
 or = 歐利亞文
 pa-IN = 旁遮普語
 pl = 波蘭文
+ps = 普什圖文
 pt = 葡萄牙文
 rm-sursilv = 羅曼蘇塞瓦語
 rm-vallader = 羅曼什瓦拉德文
@@ -314,7 +319,7 @@ female = 女性
 other = 其他
 why-profile-title = 點解要個人檔案？
 why-profile-text = 提供一啲關於你嘅資訊，可令你嘅 Common Voice 語音資料更有用，令語音識別引擎更加準確。
-dashboard = 控制台
+dashboard = 儀表板
 build-profile = 建立個人檔案
 avatar = 頭像
 goals = 目標
@@ -515,6 +520,7 @@ dataset-date = 日期
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 data-download-singleword-title = 下載單字目標群體分項
+data-download-singleword-callout-v2 = 呢個係一個用例驅動嘅群體分項，包含咗用於增強語音識別偵測我哋講出數字和是/否嘅數據。
 review-terms = 使用 Common Voice，即代表您同意我們的<termsLink>條款</termsLink>和<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我唔同意
@@ -864,8 +870,10 @@ demo-account-sign-up = 轉送註冊鏈結
 ## Demo Contribute
 
 demo-contribute-card-header = 準備好參與錄音，或者...借一借對耳嚟用未？
+demo-contribute-card-body-v2 = 而家你知道咗更多關於 Common Voice 嘅資訊喇，有無興趣嚟試下？請你㩒一㩒個咪嚟大聲朗讀句子。<br/><br/>如果你想幫手審核其他人嘅錄音，請你㩒一㩒個播放圖示嚟確認段錄音同段文字係咪相同。
 demo-listen-subtitle = 準備好幫手貢獻未？
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = 個人儀表板可以令你了解個人同社群嘅最新消息。
+demo-dashboard-card-body = 對於每段貢獻咗出嚟嘅錄音同埋經過驗證嘅錄音，您嘅帳戶儀表板都會更新，以反映您喺每種語言嘅最新進展。冇錯，您可以作出多項貢獻。<br/> <br/>你可以透過儀表板跟蹤統計數據，了解您同社群入面其他嘅交往狀況，並設定每日或者每個禮拜嘅貢獻目標。
