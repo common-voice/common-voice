@@ -103,6 +103,7 @@ mk = Macedón
 ml = Malajálam
 mn = Mongol
 mos = Moszi
+mr = Maráthi
 mrj = Hegyi mari
 ms = Maláj
 mt = Máltai
