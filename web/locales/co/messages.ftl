@@ -367,6 +367,7 @@ mycroft-secondary-description = Questu hè un prugramma di fonte aperta chì pò
 ## Glossary
 
 glossary = Glussariu
+localization = Lucalizazione
 localization-explanation = Questu hè u nostru prucessu pà traduce è adattà u nostru cuntinutu à mori di lingue.
 sentence-collection = Racolta d'infrasate
 
