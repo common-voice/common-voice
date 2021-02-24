@@ -435,6 +435,8 @@ sst = Телмәрҙе текстҡа (Speech-to-text, STT)
 
 ## Error pages
 
+error-title-404 = Был бит табылманы
+error-title-503 = Көтөлмәгән буш тороуға юлыҡтыҡ
 error-code = Хата { $code }
 
 ## Data
@@ -448,8 +450,10 @@ data-other-download = Мәғлүмәттәрҙе алырға
 release-version = Версия
 dataset-date = Дата
 license-mixed = Буталған
+data-download-singleword-title = «Бер һүҙ» маҡсатлы сегментты тейәгеҙ
 terms-agree = Килешәм
 terms-disagree = Килешмәйем
+review-aborted = Тейәү туҡтаны. Яҙмаларығыҙҙы юҡ итәһегеҙме?
 review-submit-title = Тикшерергә һәм ебәрергә
 review-recording = Күҙәтеү
 review-rerecord = Кире яҙыу
@@ -506,6 +510,7 @@ contact-form-message =
 
 request-language-form-language =
     .label = Тел
+request-language-success-title = Телде өҫләү буйынса һорау уңышлы ебәрелде, рәхмәт.
 select-language = Телде һайлағыҙ...
 other-language = Башҡа тел
 
@@ -538,6 +543,7 @@ clips-with-count-pluralized =
        *[other] клип
     }
 record-cta = Яҙҙыра башлау
+record-platform-not-supported = Үкенескә ҡаршы, әлегә һеҙҙең платформа эшләмәй
 record-must-allow-microphone = Микрофонды ҡулланыуға рөхсәт биреүегеҙ кәрәк
 record-no-mic-found = Микрофон табылманы
 record-error-too-short = Яҙма бигерәк ҡыҫҡа булды
