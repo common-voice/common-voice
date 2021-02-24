@@ -201,6 +201,7 @@ shortcut-record-toggle-label = Arrighjistrà/Firmà
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rifà l’arrighjistramentu
 request-language-text = Ùn viditi micca a vostra lingua in Common Voice ?
+request-language-text-learn = Scupriti quì comu dumandala !
 request-language-button = Richiede una lingua
 
 ## ProjectStatus
@@ -267,6 +268,8 @@ download-profile = Scaricà i mio dati
 contribution-experience = Spirienza di cuntribuzione
 skip-submission-feedback = Saltà l’inviu di cummenti
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
+off = Disattivatu
+on = Attivatu
 avatar-clip-title = Deti una voce à u vostru avatar
 change-your-avatar-clip = Vuleti cambià u vostru campione di voce ?
 recording-in-progress = Arrighjistramentu di u campione in corsu…
@@ -293,6 +296,7 @@ add-language = Aghjunghje una lingua
 
 ## FAQ
 
+faq-title = Dumande Frequenti
 faq-what-cv-q = Chì hè Common Voice ?
 faq-why-important-q = Parchì hè impurtante ?
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
@@ -315,6 +319,9 @@ faq-why-not-ask-read-q = Parchì ùn dumandeti micca à la ghjenti di leghje lib
 faq-why-account-q = Parchì duvaria creami un contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-what-determine-identity-q = Chì vole dì chì ùn possu « diterminà l’identità » di i locutori in a banca di dati Common Voice ?
+faq-what-is-cv = Chì hè Common Voice ?
+faq-using-cv = Adopru di Common Voice
+faq-description = Common Voice hè una parta di l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone.
 faq-search-for-answers =
     .label = Circà risposte
 
