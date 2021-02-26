@@ -144,6 +144,7 @@ tr = Turkowšćina
 tt = Tataršćina
 uby = Ubychišćina
 udm = Udmurtšćina
+ug = Ujguršćina
 uk = Ukrainšćina
 ur = Urdu
 uz = Uzbekšćina
