@@ -144,6 +144,7 @@ tr = Turco
 tt = Tataro
 uby = Ubykh
 udm = Udmurte
+ug = Uyghur
 uk = Ukrainiano
 ur = Urdu
 uz = Uzbek
