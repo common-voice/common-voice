@@ -51,6 +51,7 @@ cv = Bahasa Chuvash
 cy = Bahasa Wales
 da = Bahasa Denmark
 de = Bahasa Jerman
+dsb = Sorbian Bawah
 dv = Divehi
 el = Bahasa Yunani
 en = Bahasa Inggeris
@@ -109,6 +110,13 @@ ms = Bahasa Melayu
 mt = Bahasa Malta
 my = Bahasa Burma
 myv = Erzya
+ne-NP = Bahasa Nepal
+nl = Bahasa Belanda
+nn-NO = Nynorsk
+oc = Bahasa Occitan
+ta = Bahasa Tamil
+th = Bahasa Thai
+tr = Bahasa Turki
 
 # [/]
 
