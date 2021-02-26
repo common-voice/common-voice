@@ -5848,6 +5848,7 @@ ellas no han partido
 ellas no han vivido
 ellas no hubieran vivido
 ellas no hubieron comido
+ellas no hubiesen vivido
 ellas no parten
 ellas no partieron
 ellas no partirían
@@ -9358,6 +9359,7 @@ ustedes han bebido
 ustedes han partido
 ustedes han vivido
 ustedes hubieran vivido
+ustedes hubiesen vivido
 ustedes no bebían
 ustedes no comerán
 ustedes no habrían vivido
@@ -9365,6 +9367,7 @@ ustedes no han bebido
 ustedes no han partido
 ustedes no han vivido
 ustedes no hubieran vivido
+ustedes no hubiesen vivido
 ustedes no parten
 ustedes no partirían
 ustedes no viven
@@ -9519,7 +9522,9 @@ volvía a oírse el galope de un caballo.
 vos no vivís
 vos vivís
 vos habrías vivido
+vos hubieses vivido
 vos no habrías vivido
+vos no hubieses vivido
 vos no vivieres
 vos vivieres
 vos vivise

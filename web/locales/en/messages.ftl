@@ -140,6 +140,7 @@ tr = Turkish
 tt = Tatar
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek

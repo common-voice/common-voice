@@ -475,6 +475,7 @@ A distância de outras fazendas dedicadas à mesma atividade é de quinhentos me
 A divisão digital não termina quando as pessoas estão conectadas à Internet.
 A doce primavera no deserto também é consumida
 A documentação do Keras está disponível em japonês.
+A documentação não descreve se a iluminação externa será instalada.
 A doença que cura o sono, doença do vinho.
 A donzela do comum não paga ninguém.
 A dívida que podemos incorrer não merece nossa consideração se a tarefa for cumprida.
@@ -616,6 +617,7 @@ A instituição que é completamente inalterada em pessoal é o fóssil
 A integridade do gráfico reconstruído
 A interface era indecifrável.
 A internet está funcionando?
+A inveja quebra a bolsa.
 A janela se abriu para fora.
 A jaqueta estava pendurada na parte de trás da cadeira larga.
 A jaqueta tinha um propósito? e o menino também.
@@ -784,6 +786,7 @@ A nuvem se moveu de maneira majestosa e desapareceu.
 A obra foi interrompida quatro vezes no último ano
 A obra recebeu autorização para começar
 A omissão deste requisito resultará na consideração de um viajante sem bilhete.
+A oposição consistirá em dois exercícios obrigatórios e eliminatórios.
 A ordem de recurso dos candidatos começará com a letra B.
 A orla do estado se modificou nos últimos anos
 A orquestra tem sua estréia hoje.
@@ -2798,6 +2801,7 @@ As três baterias também estão acabando.
 As três crianças estão em uma gaiola.
 As três crianças estão segurando guarda-chuvas e assistindo a cerimônia na chuva.
 As três garotas estão sentadas no set.
+As uvas de novembro, nem os leitões, as querem.
 As vacinas podem fornecer alguma proteção durante a temporada de gripe.
 As visitas não poderiam imaginar a surpresa
 As vozes
@@ -3106,6 +3110,7 @@ Bem, eu acho que sim.
 Bem, eu deveria pensar que foi de repente!
 Bem, eu gosto disso!
 Bem, eu não sei bem o que dizer.
+Bem, eu não sei.
 Bem, eu sabia o que custam esses produtos de confeitaria rústica.
 Bem, isso acontece exatamente em uma velha história da Noruega.
 Bem, isso é um tiro muito longo, mas por que diabos não?
@@ -3245,6 +3250,7 @@ Bom Dia.
 Bom Jesus da Lapa
 Bom dia a todos.
 Bom dia para você? senhor.
+Bom dia é aquele em que há o que comer.
 Bom dia!
 Bom dia! Eu quero dois pães franceses, por favor.
 Bom em uma interpretação indutiva
@@ -3354,6 +3360,7 @@ Cada minuto dos últimos anos
 Cada momento mudei.
 Cada pasta continha uma foto.
 Cada personagem tem uma jogada
+Cada resposta errada irá deduzir zero como quinze pontos.
 Cada sentença não deveria estar nem por uma palavra.
 Cada um na sua.
 Cada um sabe melhor onde o sapato o aperta
@@ -4491,6 +4498,7 @@ Córeia do Sul.
 Da estação ferroviária, à distância, vinha o som dos trens tocando e roncando.
 Da mesma forma, haverá os depósitos de retenção correspondentes.
 Da mesma forma, municípios limítrofes têm abundantes terras industriais disponíveis para conter atividades.
+Da mesma forma, tem o relatório positivo da Área de Conservação de Espaços Naturais.
 Da mesma forma, uma patente pode impedir que concorrentes desenvolvam produtos similares.
 Da mesma maneira que você fez.
 Da onde você veio?
@@ -4769,6 +4777,7 @@ Deus abençoou Hualien
 Deus ajuda quem cedo madruga.
 Deus dá alfarrobas àqueles que não podem enferrujá-los.
 Deus sabe, porque o escreveu
+Deus tem mais a dar do que ele não deu.
 Deve alimentá-la.
 Deve considerar seriamente a questão da reconstrução
 Deve esconder no lugar onde as mercadorias são carregadas
@@ -6127,6 +6136,7 @@ Ele vai para casa cedo todas as noites.
 Ele vai se transformar no vento apenas para demonstrar seus poderes.
 Ele vazou essa informação.
 Ele veio em um voo da Gol.
+Ele veio, como a roda do tempo, o primeiro domingo da Quaresma.
 Ele vem quando?
 Ele vestiu sua roupa árabe de linho branco? comprou especialmente para este dia.
 Ele viajou para Portugual eu acho.
@@ -7356,6 +7366,7 @@ Eu devo a eles mais de um milhão
 Eu devo explicar para você
 Eu devo ser tocado
 Eu devo tudo a Corey Brown.
+Eu digo isso, o Senhor.
 Eu digo que não saímos mais.
 Eu digo que é benigno porque não vai além do prato que enfrentamos.
 Eu diria que Dead Wood era três estrelas
@@ -7900,6 +7911,7 @@ Eu queria ir ao McDonald's.
 Eu queria que eles fizessem parte de sua herança.
 Eu queria que fosse tão simples assim.
 Eu queria que você me deixasse te ajudar.
+Eu queria rever o plano estratégico esta tarde, mas ainda não consegui dizer.
 Eu queria subir.
 Eu queria ter uma luz para fumar.
 Eu quero adicionar Ottagathai Kattiko às mulheres da playlist clássica.
@@ -9561,6 +9573,7 @@ Levou um tempo para se acostumar com isso.
 Levá-la ao hospital todos os dias para fazer reabilitação
 Levá-la para o hospital.
 Li isso em algum blog
+Licitantes estrangeiros apresentarão sua documentação oficialmente traduzida para o catalão ou espanhol.
 Licorice é um alimento preto mastigável.
 Lidar com a velocidade mais rápida
 Lidar com isso com luvas de pelica.
@@ -10600,6 +10613,7 @@ No campo das ciências.
 No caso de usar fontes próprias, o título concessional deve ser certificado.
 No caso de você usar o serviço de sala de jantar.
 No caso do Android, é mais complicado.
+No caso em que este dia de feriado seria no primeiro dia útil seguinte.
 No cemitério o silêncio reinava
 No começo eu estava ganhando.
 No começo, estudar correlação em gráficos é difícil para mim.
@@ -11323,6 +11337,7 @@ Nós viemos de Senija.
 Nós viemos de Sineu.
 Nós viemos de Talamanca.
 Nós viemos de Vilada.
+Nós viemos de Vilafamés.
 Nós viemos de Xera.
 Nós viemos de chinelos.
 Nós vivemos das nossas raízes e não dos nossos ramos.
@@ -11689,6 +11704,7 @@ O dentista estava reclamando da minha higiene bucal medíocre.
 O deputado atuava em diferentes comissões
 O depósito de lixo tinha um cheiro de mofo.
 O desafio não vai parar
+O desempenho do revendedor que resulta na depreciação do domínio público ou das instalações.
 O deserto era todo de areia em alguns trechos? e rochoso em outros.
 O deserto não respondeu por alguns instantes.
 O desespero é algo que nos assombra à noite.
@@ -11918,6 +11934,7 @@ O homem senta-se entre bicicletas ao ajustar o pneu em um.
 O homem tem um bolo decorado com fogos de artifício indoor.
 O homem trabalha a grade no suporte do alimento do carnaval.
 O homem vestindo jeans azul está pescando
+O homem é feito para trabalhar, como o pássaro a voar.
 O horizonte estava tingido de vermelho? e de repente o sol apareceu.
 O horário escolar não terminará antes de dezesseis horas.
 O humor cômico.
@@ -12018,6 +12035,7 @@ O material vai passar por uma perícia.
 O medo estará errado
 O medo mantém a vinha.
 O medo é frequentemente a causa da violência.
+O mel não foi feito para a garganta do burro.
 O mel tem um aroma picante de tomilho e erva-doce.
 O melhor cavaleiro cai do cavalo.
 O melhor cozinheiro é o bom óleo.
@@ -12375,6 +12393,7 @@ O que mais poderia ser?
 O que mais você está?
 O que não pode ser curado deve ser suportado
 O que não pode ser, não pode ser, e além disso é impossível.
+O que nós sabíamos de um passado tão humilhante para o fruto mais pobre?
 O que o governo pode fazer é
 O que o surpreendeu foi que ela ainda estava viva.
 O que os usuários de computador estão pedindo?
@@ -12986,6 +13005,7 @@ Os narcisos eram como um tapete no jardim dos fundos.
 Os narcisos estão florescendo.
 Os narcóticos prejudicaram sua saúde
 Os narguilé foram extintos? e os guardas ficaram atentos.
+Os necessários para que a casa obtenha a adaptação de habitabilidade.
 Os negócios estão apenas começando
 Os negócios terão um aumento esse ano.
 Os netos também são bons filhos.
@@ -13668,6 +13688,7 @@ Por esse preço, você também pode obter a broca sem fio da marca.
 Por esta questão não estar resolvida.
 Por exemplo, o aeroporto de Songshan
 Por exemplo, previsão de texto ou reconhecimento de voz.
+Por exemplo, vinte e três por cento de melhoria nas operações na planilha.
 Por exemplo,?, duas das cinco pontes da cidade hoje foram construídas na época.
 Por favor carteiro
 Por favor cruze este campo de arroz
@@ -14294,6 +14315,7 @@ Quantas crianças existem em ambas as classes?
 Quantas crianças não gostam de hóquei e nadam?
 Quantas estrelas você pode ver?
 Quantas fatias você gostaria de Santiago?
+Quantas outras atividades tendem à efetividade prática da Convenção.
 Quantas pessoas estão fora?
 Quantas pessoas falam mandarim?
 Quantas pessoas ouvem música inglesa?
@@ -14686,6 +14708,7 @@ Redenção
 Reduza a dor da vítima
 Reduza o risco de câncer
 Reduzir as responsabilidades de cuidados familiares
+Reduzir, entretanto, significa reduzir a quantidade e a natureza prejudicial de uma origem residual.
 Redução no consumo de combustível e desgaste do veículo.
 Reembolsar a enorme dívida
 Reencha um copo de graça
@@ -15358,6 +15381,7 @@ Sua sorte não está com você agora.
 Sua vida e seu caminho sempre lhe proporcionaram presságios suficientes.
 Sua visão e previsão me surpreenderam.
 Sua visão é preenchida com outro espetáculo.
+Sua vontade resiste, mas muitas vezes a razão é baixa.
 Sua voz é tão feliz
 Suas desgraças eram antigas e pareciam irremediáveis.
 Suas diversões eram sempre as mesmas.
@@ -15534,6 +15558,7 @@ Tangará da Serra
 Tantas pessoas no metrô estão vestindo roupas de treino pretas.
 Tanto faz, tanto fez.
 Tanto faz.
+Tanto o conteúdo quanto a escrita da história serão valorizados.
 Tanto o corpo como a tampa e o portão serão elásticos.
 Tanto tempo
 Taoyuan Hsinchu e Yilan Holidays são divertidos
@@ -15578,6 +15603,7 @@ Tem certeza que esta é Claire.
 Tem certeza que não há erro?
 Tem certeza?
 Tem extensos regulamentos comunitários.
+Tem forte concorrência no espaço político da regeneração democrática.
 Tem havido muita conversa acontecendo neste mundo.
 Tem mais palavras para dizer
 Tem me visto em seus sonhos?
@@ -15733,6 +15759,7 @@ Toda a criatura vomitou e pulsou convulsivamente.
 Toda a exibição é uma bagunça.
 Toda a habilidade dos homens políticos é, então, formar partidos.
 Toda a história da Inglaterra desacredita isso.
+Toda a inovação atual de software é feita com base em software livre.
 Toda a região foi afetada pela calamidade da inundação.
 Toda a riqueza vem dos bolsos.
 Toda compra é um voto.
@@ -15931,6 +15958,7 @@ Transações privadas para comprar produtos de alta qualidade
 Transferir e depois retirá-lo
 Transfira sua atenção
 Transformar é agir.
+Transformação de conflitos, em particular através de soluções políticas e não violentas.
 Transporta e coloca os móveis do centro nos lugares destinados ao seu uso.
 Tratado existente
 Tratamento de aúdio.
@@ -19663,6 +19691,7 @@ zé Doca
 É doloroso.
 É engraçado, eles não entendem nada, mas não param de falar.
 É enviado para reparar
+É espanhol, feito à imagem e semelhança de uma das partes do todo.
 É esse caminho estratégico que o valencianismo faria bem em estar presente.
 É esse mesmo.
 É esse o contrato?

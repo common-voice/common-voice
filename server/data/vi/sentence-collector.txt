@@ -59,8 +59,12 @@ Anh chàng bật dậy
 Anh chàng bắt đầu hốt hoảng
 Anh chàng bị thương vẫn không lên một tiếng
 Anh chàng chính là người thành thị
+Anh chàng chạy xe đáp ngay
 Anh chàng cười trên đôi môi héo hắt
+Anh chàng kia phải rồ máy xe
 Anh chàng lái xe bảo
+Anh chàng lái xe do vậy không thể nói tiếp điều đang muốn nói
+Anh chàng lái xe giật mình
 Anh chàng lắc đầu
 Anh chàng nhìn vào và tỏ vẻ sợ hãi
 Anh chàng như muốn nhớ lại
@@ -70,6 +74,7 @@ Anh chị chào mào
 Anh chị cào cào
 Anh chị cũng đi xem thể nhiều nơi rồi có ai gọi được đâu
 Anh chị thông cảm cho trẻ con nó dại dột ăn nói linh tinh
+Anh có biết thôn e ri a không
 Anh có còn nhớ bé kuman
 Anh có thể dối em
 Anh cũng vô tình có hiểu nổi em đâu
@@ -96,6 +101,7 @@ Anh ngồi xuống cho tôi nhờ
 Anh nhặt về âu yếm những đêm mơ
 Anh này có phải bị bệnh đau đầu không
 Anh nên nhớ là tôi là gái chưa chồng anh làm như vậy
+Anh nói chưa hết câu
 Anh nói không sai không sai gì cả
 Anh nấy cũng khoe rằng ảnh của mình hơn
 Anh phải sống phải tiếp tục sống hạnh phúc
@@ -104,15 +110,19 @@ Anh sao vậy
 Anh song trai anh song trai
 Anh sắp giận, em mỉm cười vội vã
 Anh sắp lấy vợ mà còn đang đi với cô nào nữa
+Anh sẽ mang hạt hoa vàng đi rải
 Anh sợ tình ta cũng vỡ thôi
 Anh ta biết một thầy mo có thể giúp tao thỉnh ku man
 Anh ta bị trúng gió Chắc rồi
+Anh ta bỗng nhìn thấy Hà Ni với ánh mắt không bình thường
 Anh ta chưa kịp đáp thì do phải tránh Một xe đi ngược chiều
 Anh ta chẳng đi đâu xa cả
 Anh ta còn khá trẻ
 Anh ta cương quyết nói
 Anh ta cứ như thế sống đến bây giờ
+Anh ta gật đầu
 Anh ta là một người khác
+Anh ta lên tiếng
 Anh ta lại hỏi
 Anh ta ngủ say chả khác gì một đứa trẻ
 Anh ta nheo đôi mắt rồi gật đầu
@@ -138,12 +148,15 @@ Anh đang quay trở lại làm việc trinh cũng biết mà
 Anh đi đi, Em không là chiếc bóng
 Anh điện cũng chỉ được thắp sáng trong từng ngôi nhà
 Anh đã
+Anh đã biết tình kia là không thể
 Anh đã tìm chỗ đã đi rồi
 Anh đã tới cuối đường hoa tháng chín
 Anh đã xa và cũng sắp con bồng
 Anh đèn đỏ lờ mở nơi cầu thang hắt lên ma mị
+Anh đón chờ tháng mười một vừa trao
 Anh đưa tay chạm vào miền ký ức
 Anh đưa tay nắm lấy chút hơi sương còn vương lại nhưng không kịp
+Anh đưa tụi tôi tới đó ngay đi
 Anh ơi anh có biết
 Anh ơi có thấu tháng ngày tương tư
 Anh ở lại đây với em đi một đêm thôi cũng được
@@ -197,11 +210,14 @@ Bà chỉ thắp mấy nén hương rồi đọc lẩm bẩm những câu gì đ
 Bà chị em chết lúc nhỏ mà thiêng lắm
 Bà của Thảo nói
 Bà cứ như là thần chết vậy
+Bà dã Quỳ
 Bà dã quỳ hét lớn
 Bà dã quỳ hốt hoảng thấy rõ
 Bà dã quỳ ngẩn ngơ một lúc
 Bà dã quỳ phải lên tiếng
 Bà khóa chặt tay của cô gái và rít lên
+Bà len cách đây khoảng hơn một năm rồi
+Bà lăng len mà cô tìm bà ấy làm gì
 Bà nhìn con đôi mắt đậm lẻ
 Bà nói cho chúng tôi biết lý do được không
 Bà nói cách đây hơn một tháng
@@ -213,10 +229,13 @@ Bà tâm vừa ho vừa nhìn con thều thào nói
 Bà tâm đau khổ nhìn con rồi lắc đầu
 Bà vội chạy theo và Gọi lớn
 Bà đã tính bỏ đi
+Bà đi vắng Chừng nào mới về
 Bà đi đâu cả tháng rồi mà tôi tìm không có thấy
 Bà đưa tay lên như có ý muốn bỏ con rời khỏi
 Bà ấy
+Bà ấy cũng bị tai nạn xe ư
 Bà ấy đây
+Bài phát biểu khai mạc lễ kỉ niệm Nhà giáo Việt Nam
 Bài thơ chào ngày mới, chào buổi sáng vui vẻ ý nghĩa
 Bài thơ tình anh ngọng nghịu gởi trao!?
 Bài thơ đầu tiên anh viết tặng em
@@ -257,6 +276,7 @@ Bình thường sẽ về được
 Bóng mát sân trường
 Bóng tối thì cũng đã bao trùm tất cả
 Bóng đen đó đưa bàn tay về phía của em
+Bông cúc chi, thạch thảo tím giao hòa
 Bơi ra tới biển
 Bước chân em rộn rã...
 Bước chân nhẹ nhàng
@@ -273,16 +293,19 @@ Bạn bè thân thiết
 Bạn bè trang lứa
 Bạn cùng em ánh đèn đêm bàn máy
 Bạn của Trinh cháo bố mẹ Phương
+Bạn là một hồn ma giúp người chứ không hại người
 Bản tính khó mà thay đổi được
 Bản đồ chi cũng vậy
 Bảo Nghi tự tử chẳng ai tin
 Bảo rằng hoa dáng như tim vỡ
+Bấc tràn về vuốt ve nhành hoa sữa
 Bất chấp sinh mạng
 Bất chợt anh ta ngồi bật dậy và lên tiếng
 Bất cứ câu gì
 Bất giác nằm một mình
 Bất giác trình đưa tay lên bịt miệng lại
 Bất ngờ cánh cửa trên tầng đóng sập lại
+Bấy giờ cô gái mới đáp
 Bầu trời trong xanh sau trận mưa tầm tã vào tối qua
 Bầu trời ông trăng vẫn còn đang soi sáng
 Bầy chính giữa căn phòng có một chiếc bàn gỗ
@@ -298,6 +321,7 @@ Bằng không, tôi muốn cô đừng gặp
 Bằng mọi giá anh phải là của em
 Bề ngoài xem ra có vẻ chậm chạp
 Bị chiếc xe tải tông phải cho họ bỏ anh lên chở đi luôn
+Bị một chiếc xe tải đụng chết
 Bị quỷ nó chặn đường
 Bỏ nhà bỏ cửa
 Bố Thảo liền nói
@@ -346,6 +370,7 @@ Bỗng cười khúc khích
 Bỗng dưng chinh thấy người của mình lạnh toát
 Bỗng nhiên Trinh giật mình và có tiếng gọi của trẻ con
 Bỗng nhiên có một tiếng nói thì thầm vào tai của Trinh
+Bỗng nhiên dừng lại
 Bỗng nhiên người của em lạnh toát
 Bỗng tạnh mưa rào
 Bỗng vô cảm bỗng dại khờ đãng trí
@@ -363,6 +388,7 @@ Bởi nhà chỉ có một chiếc giường duy nhất
 Bởi phía dưới như có ai đó đang kích thích
 Bởi quý trước tượng Phật Bà thích mình Tội nghiệp quá nhiều
 Bởi suy cho cùng tất cả mọi thứ do Nhi lựa chọn
+Bởi sáng nay anh nghe lòng thổn thức
 Bởi trong phòng chỉ có hai người
 Bởi trong quán chỉ có một chiếc giường ngủ của cô
 Bởi tình yêu tha thiết
@@ -371,6 +397,7 @@ Bởi vì cô quá vội với suy nghĩ về quân
 Bởi vì họ cũng bị chẻ mắt
 Bởi vì khi còn thấy cái giỏ thủy tinh được kumanthông
 Bởi vì tao chính là minh chứng rõ ràng nhất về kumanthong
+Bởi vậy Mà từ đó bà thường hiện hồn về
 Bởi đối với cô
 Bữa nay cô có khách đặc biệt đó
 Bực thế chứ, xe để đây sao lại xịt lốp được
@@ -423,8 +450,10 @@ Chinh đứng Tìm máy tính cửa gỗ đang được kéo ra
 Chiêm bao đừng lẩn quất bên cô
 Chiếc xe chở hàng từ Đà Lạt về qua đây
 Chiếc xe của bộ em nó chạy bình thường
+Chiếc xe đạp ngày xưa ai đón rước
 Chiếu xuống dưới mặt đất
 Chiều hoàng hôn tím đỏ những chân mây
+Chiều lồng lộng mây mù giăng ngõ lối
 Chiều nay là quãng thời gian
 Chiều nay xa xứ
 Chiều thu hoa đỏ rụng chiều thu
@@ -451,6 +480,7 @@ Cho nên là rước một con bé về đi
 Cho nên trinh nghe thấy rất rõ
 Cho quên đi những tháng ngày còn lại
 Cho rất nhiều song nhận chẳng bao nhiêu
+Cho thêm rét mướt mảnh hồn đơn côi
 Cho thằng con thi
 Cho tôi tắm mát
 Cho tôi được lau khô dòng lệ chảy
@@ -473,6 +503,7 @@ Chàng trai bị thương có vẻ can đảm lắm
 Chào một đứa bé cao tầm đến đầu gối
 Cháu không uống được rượu nên mới cố cạn ly chất đắng này vậy
 Cháu là hà ni
+Cháy khát khao anh dâng tình sâu đậm
 Châm một điếu rồi liền đáp
 Chân cô in vết trên đường bụi
 Chân tay bủn rủn
@@ -520,7 +551,9 @@ Chúng tôi đang chở nhau đi sắm đồ cưới
 Chúng tôi đang cố gắng thu xếp
 Chúng tôi đều cúi đầu làm lễ chào tất cả mọi người ở đây
 Chúng tôi ở đây tầm khoảng một tuần
+Chút se lạnh cũng thấy lòng man mác
 Chút se lạnh đã luồn trong nắng mới
+Chút sắc vàng óng ả chẳng còn đâu!
 Chút xao lòng tản mạn nhớ chơi vơi
 Chăm sóc da tại những spa lớn
 Chăm sóc kuman Càng tốt càng hiệu quả
@@ -592,6 +625,7 @@ Chỉ cánh cửa phòng mở ra
 Chỉ còn anh và em
 Chỉ còn hàng cây
 Chỉ còn một là không còn gì hết
+Chỉ còn nghe tiếng ngoài hiên lá đổ
 Chỉ còn nồng hơi thở những vần thơ
 Chỉ còn ánh trăng mờ yếu dõi qua những kẽ lá
 Chỉ có học hành thi cử
@@ -666,6 +700,7 @@ Con bé sẽ mãi mãi không thể siêu thoát được
 Con bé vẫn ăn uống học hành Bình thường
 Con bình tĩnh nghe người ta nói hết đi đã
 Con chịu khó cầm cái viên đá này cho mẹ yên tâm
+Con cũng nói với cô ấy đôi lời
 Con của tao Ngoan hiền lắm dễ thương biết nghe lời
 Con cứ thế lam chi cho hoang phí
 Con cứ yên tâm đi làm đi
@@ -744,6 +779,7 @@ Cái chết của bà tâm khiến cho quân gần như sụp đổ
 Cái chết của nó thì không đơn giản là tự tử đâu
 Cái chết được phía công an kết luận
 Cái con dở hơi này
+Cái lạnh mùa thu làm anh thức giấc
 Cái miệng cười đỏ lòm đang nhìn Hà rồi vẫy tay chào
 Cái miệng nó đang nhe ra cười đỏ lòm
 Cái nhi yểu bệnh chết sớm
@@ -762,9 +798,11 @@ Cánh nhạn sa ngọn gió nào khẽ thổi
 Câu chuyện có tựa đề là Ma ở vùng núi Tây Bắc
 Câu chuyện có tựa đề là bán linh hồn cho quỷ
 Câu chú này được chính thầy phù thủy chuyền cho Trinh
+Câu hẹn thề rụng khẽ lá chơi vơi
 Câu hỏi bất ngờ của bà khiến cho hả ni cũng còn lúng túng
 Câu hỏi khiến cho Tuấn ngẩng mặt lên nhìn
 Câu nói của bố kéo em về hiện tại
+Cây chẳng còn xạc xào rơi rụng lá
 Cây cỏ tỉnh táo
 Cây cối khô khát
 Cây cối xanh tươi
@@ -814,6 +852,7 @@ Có ai biết cái gì đâu
 Có ai cứu giúp
 Có ba chiếc giường, bàn ghế tất cả đều rất đầy đủ
 Có biết bây giờ là mấy giờ rồi không
+Có bà dã quỳ ở nhà không cô
 Có bị cảm lạnh cả tay của cậu lạnh lắm này
 Có chuyện gì cô cứ hỏi để tôi xem
 Có chuyện gì cần đến em anh cứ hỏi đi
@@ -843,6 +882,7 @@ Có lẽ đây là giọng nói của Phương
 Có lửa mới có khói: việc gì cũng có nguyên nhân
 Có ma ghé thì có
 Có mạ, có ma
+Có một bó hoa dã quỳ còn tươi đang nằm ở đó
 Có một bận em ngồi xa anh quá
 Có một lần, người đã trót hẹn thề
 Có một nhân vật xuất hiện song song với Quân
@@ -897,6 +937,7 @@ Cô duyệt đi thử lại nhiều bộ mà vẫn không thể ưng bộ nào
 Cô dạy bao cách
 Cô ghen với tất cả mọi thứ xung quanh
 Cô gái lúc vừa rồi đâu phải là một con người bình thường
+Cô gái lắc đầu đáp
 Cô gái tháng mười một của tôi ơi!
 Cô gái đang ngồi đối diện của anh
 Cô hi vọng anh ta sẽ tỉnh lại
@@ -908,19 +949,23 @@ Cô là tất cả của riêng tôi.
 Cô mong muốn bạn của mình chết và nó lập tức được thực hiện
 Cô ngã Lên trên giường
 Cô ngượng ngùng nhìn phong
+Cô ngồi kèm phía sau và giục
 Cô ngừng lại không dám nói tiếp
 Cô nhân tình bé của tôi ơi!
 Cô nhìn thấy nó chứng tỏ là nó đang dần mạnh lên
 Cô nào
 Cô nên chú ý vấn đề này
+Cô nói sao bà dã Quỳ bà len đã chết
 Cô rên nhẹ
 Cô sắp gặp bạn rồi đó
 Cô sợ rằng chỉ cần Nghe thấy tiếng thở
 Cô ta
 Cô ta Nói như vậy là xong rồi
+Cô ta chỉ tay ra đường quốc lộ rồi nói
 Cô thu ngân lo lắng gọi
 Cô thấy mình đang nằm ở trên giường
 Cô toát cả mồ hôi vì sợ
+Cô tìm ai ở đó thì nói đi
 Cô tìm bà ấy có chuyện gì
 Cô tự hỏi
 Cô về đâu, chẳng biết?
@@ -945,6 +990,7 @@ Căn nhà của A Hội quay về phía bên mạn rừng
 Căn phòng cũng trở nên đột nhiên lạnh ngắt
 Căn phòng kín
 Căn phòng thờ Kumanthong đối diện với phòng ngủ của Chinh
+Căn phòng trống không một mình anh hoang lạnh
 Cũng chả lâu sau khi anh tạ độ trưởng thành
 Cũng chẳng hiểu tại sao tôi hoàn toàn không có nhớ gì hết
 Cũng chỉ theo chân bố mẹ làm những công việc lặt vặt
@@ -1043,6 +1089,7 @@ Dòng thơ mãi vẫn còn hoài dang dở
 Dòng tin nhắn...cám ơn tình dương thế...!
 Dòng tâm sự chênh vênh còn ở lại
 Dù chỉ là một bước vào bên trong
+Dù con có yêu với nhiều mạnh mẽ
 Dù có xăm xa
 Dù là đang thủ dâm
 Dù sao thì kumanthong cũng chỉ là bùa ngải ma quỷ
@@ -1065,12 +1112,15 @@ Dầu tin tưởng chung một đời, một mộng
 Dẫu biết đó là kumanthong và mình nuôi
 Dẫu bên cạnh đã có người thay thế
 Dẫu chỉ qua đường, khách lại qua.
+Dẫu cuộc đời dù có phải đổi thay
 Dẫu là biển lớn
 Dẫu là núi non
 Dẫu mỗi chiếc ở một bên phải trái
 Dẫu vinh nhục không đi cùng kẻ khác
 Dẫu đã được giải
 Dắt tay em, bước bên thềm hạnh phúc!
+Dặn anh ta chờ ở đó hà ni dìu phong leo cầu thang
+Dệt mộng ước bản hòa ca đến lớp..
 Dở dang hoài, dang dở, dở dang thôi
 Dục vọng khao khát của trình về Quân
 Dứt lời Hà mở cửa bước ra bên ngoài
@@ -1094,6 +1144,7 @@ Em còn chưa ngủ
 Em còn hẹn nữa không.
 Em còn xa mãi
 Em có bị bệnh gì không
+Em có nhớ màu hoa trong gió thổi
 Em có say đâu mà bác bảo em không biết
 Em công chuyện thì em cứ đi
 Em cùng bố mẹ em và người nhà của Thảo đều có mặt
@@ -1136,6 +1187,7 @@ Em lại thưa lại
 Em lấy hết can đảm hỏi lại
 Em lấy sách ra học bài
 Em lặng yên nghe bao điều nhắn nhủ
+Em mang mùa Thu giấu kỹ nơi nào
 Em muốn anh
 Em muốn có tình yêu của anh Quân ạ
 Em muốn khóc thì em cứ khóc đi!
@@ -1178,6 +1230,7 @@ Em vất vả vì chuyện của gia đình anh quá
 Em vẫn biết Thảo đã mất rồi nên mới ngập ngừng
 Em vẫn biết đấy là điều đã cũ
 Em vẫn còn sống giữa một trái tim.
+Em về rồi tháng mười một của anh
 Em với Thảo có đi ăn chè
 Em xin bà ấy
 Em xích gần thêm một chút, anh hờn
@@ -1218,16 +1271,23 @@ Giàu có sống một mình nhưng hơn nửa năm nay
 Giáo án lớp lá hoạt động văn học thơ
 Giáo án mầm non chủ đề Thơ Tình bạn
 Gió bên ngoài cửa sổ hành lang khẽ thổi vào bên trong
+Gió cồn cào se sắt đến rã rời
 Gió cứ thổi triền miên
+Gió heo may dường như không thổi nữa
+Gió heo may theo mùa Thu vội vã
 Gió hãi hùng giật rú từng cơn
 Gió khẽ rì rào
 Gió lành lạnh thổi làn mây cuối trời
+Gió lạnh về càng thêm nhớ người thương
 Gió ngoài hiên cũng tắt tự khi nào
 Gió ru giấc ngủ êm đềm say sưa
+Gió sương lạnh vòng tay thêm nồng ấm
 Gió thổi rì rào
 Gió thổi từng cơn làm tán lá khẽ đung đưa
 Gió thổi và lạnh nên mẹ đóng cửa lại
+Gió vi vu như ai đó dỗi hờn
 Gió về lạnh lẽo chân mây vắng
+Gió đông lạnh heo may về khắp lối.
 Gió đưa nhè nhẹ
 Giúp ích nước non
 Giảng bài thật hay
@@ -1236,6 +1296,8 @@ Giọng còn pha lẫn tiếng địa phương
 Giọng của Hạ liền đáp
 Giọng của cô bé Thu Ngân đang trả lại Trinh tiền thừa
 Giọng nói của trẻ con lại vang lên trong đầu của Trinh
+Giọt chờ tí tách âm như hồi chuông
+Giọt nhớ nỉ non tựa lời kinh buồn
 Giọt tuôn nghìn lá đong vừa nhớ thương
 Giống cái chỗ này thôi chứ không phải là đây
 Giống nhau lắm nhưng người đi sẽ biết
@@ -1270,6 +1332,7 @@ Gắn kết bè bạn
 Gắng đi học đều
 Gặp rồi thì không biết thế nào đâu nhỉ
 Gặp trường hợp em như thế em có bình tĩnh được không
+Gọi một chiếc xe thồ cô hỏi
 Gọi tôi là dã quỳ
 Gọi xe cấp cứu đi người này vẫn còn sống này
 Gọi điện hỏi thăm Quân lại là Trinh
@@ -1277,6 +1340,7 @@ Gớm nữa cô nói sợ quá
 Gợi dậy trong em
 Gửi các bạn trẻ
 Gửi lòng theo hạt mưa bay
+Gửi theo gió đến ai nơi xa ấy.
 Gửi vào cơn gió ngàn lời yêu em
 Hai chiếc dép kia gặp nhau tự bao giờ
 Hai chiếc này chẳng phải một đôi đâu
@@ -1323,6 +1387,7 @@ Hay thậm chí còn đọng trên những cây cọ, kéo thân xuống nặng 
 Hay tiểng gió em làm quà cũng được...
 Hay tính công lao
 Hay vô tình cơn gió sớm đùa trêu!?
+Hay vô tình như em đã quên tôi?
 Hay vô tình quên đi
 Hay đúng hơn là không muốn vùng vẫy nữa
 Hi sinh tuổi xuân
@@ -1347,6 +1412,7 @@ Hoặc là sẽ quanh quẩn bên xác
 Hoặc những trường hợp của cháu thảo
 Hà Ni Hốt Hoảng
 Hà Ni cười một cách thoải mái
+Hà Ni cảm thấy hơi bực
 Hà Ni hoang mang
 Hà Ni lắc đầu
 Hà Ni lặng người
@@ -1375,13 +1441,16 @@ Hà ni Lúc này mới hốt hoảng
 Hà ni Ngạc nhiên nói
 Hà ni bây giờ mới lên tiếng
 Hà ni chỉ ra bên ngoài
+Hà ni chợt nhớ ra cô hỏi lại
 Hà ni có vẻ không an tâm
 Hà ni cũng bình thản
 Hà ni cũng lẩm bẩm
+Hà ni giật bắn người
 Hà ni gật đầu
 Hà ni gọi với theo
 Hà ni hốt hoảng
 Hà ni không đành gỡ tay ra
+Hà ni lo lắng hỏi
 Hà ni mới hỏi
 Hà ni mới từ từ gỡ tay của anh ta
 Hà ni nghiêm giọng
@@ -1394,6 +1463,8 @@ Hà ni phấn khởi
 Hà ni thở dài
 Hà ni và anh chàng tên phong đâu
 Hà ni vốn sợ máu
+Hà ni vội hỏi
+Hà ni vội nói
 Hà ni vừa nhìn ra bên ngoài thì ngạc nhiên
 Hà ni đi pha một tách cà phê khá ngon đem lại mời khách
 Hà ni đánh bạo gọi khẽ
@@ -1463,10 +1534,13 @@ Hạ niềm nở một cách tự nhiên
 Hạn chế người nhà đến thăm
 Hạnh phúc bên thềm
 Hạnh phúc chan chứa tình này ấm êm.
+Hạt long lanh theo gió hát thì thầm
 Hạt mưa khuya hờ hững rắc quanh đời
+Hất bà ấy văng xuống vực sâu rồi bỏ chạy luôn
 Hắn xuất hiện ở gốc cây gọi a hồi
 Hắn đang đi lên đây
 Hẹn gặp nhau xong
+Hết u buồn cứ chảnh cứ làm duyên
 Họ bỏ anh ta ở lại đây
 Họ cùng cười nói vui vẻ
 Họ lạc lối giữa u sầu mù mịt
@@ -1500,11 +1574,13 @@ Khi cụ nghe xong liền gật đầu, trả lời với cái giọng ồm ồm
 Khi làn gió ngọt lành.
 Khi mà chinh vẫn đang thức
 Khi mà trinh vừa rời đi khỏi
+Khi mùa Đông thoai thoải phía lưng đồi
 Khi mặt trời đứng bóng bà dã quỳ đứng lên kiếu từ
 Khi mẹ em ốm
 Khi mọi người đi tìm thì lúc đó
 Khi nhắm mắt lại Trinh nói một mình
 Khi niềm nhớ tháng mười còn thao thức
+Khi nào mẹ con sống trên trái đất
 Khi nào rảnh tôi sẽ gặp anh để hậu tạ sau nhé
 Khi nào xảy ra chuyện đáng tiếc rồi hãy nói
 Khi nào đó anh sẽ gặp em sau Cảm ơn em
@@ -1560,6 +1636,7 @@ Không Anh chỉ tin nóng quá trình cả
 Không Không mẹ ơi
 Không Tao không muốn
 Không Tao xin mày Tao sợ
+Không Về
 Không ai có thể trả lời được điều đó
 Không ai khác đó chính là Trinh
 Không biết Sao con Thảo nó lại không có báo mộng cho chúng tôi
@@ -1569,8 +1646,10 @@ Không chỉ có như vậy
 Không chỉ cầu Tiền tài may mắn không đâu
 Không chỉ vậy nó còn cười nói một cách rất tự nhiên
 Không còn đi khắp nơi tung tin đồn nhảm
+Không có
 Không có chút cảm xúc nào đối với cô cả
 Không có cần
+Không có gì đáng kể cả mẹ yêu
 Không có gì đâu chị
 Không có hay là anh là ma
 Không có xảy ra chuyện gì cả
@@ -1632,6 +1711,7 @@ Không được theo trai
 Không được đó là tất cả những gì mình có không thể mất được
 Không đề
 Không ứa máu mà tái tê trong dạ
+Khúc giao mùa nghe đất trời khác lạ
 Khẽ cởi áo vest ở bên ngoài
 Khẽ thì thầm trao nụ hôn ngây dại
 Khẽ đung đưa theo nhịp mặc dù trong phòng không hề có gió
@@ -1670,10 +1750,12 @@ Kể ra thì A Hội cũng thật đáng thương
 Kể ra thì chắc là không ai tin đâu
 Kể từ lúc gặp quân khi đầu tối
 Kỉ niệm buồn vui
+Kịch bản văn nghệ chào mừng ngày Nhà giáo Việt Nam
 Kỳ lạ thay những gì càng bí hiểm càng mông lung
 Lau xong bỏ đi luôn cũng được
 Leo tận núi đồi
 Linh hồn ta còn u ẩn hơn đêm
+Liu riu róc rách giọt sầu mênh mông
 Liên hệ
 Liên kết ngoài
 Liệu rằng có một cuộc sống an Yên với các thiên thần nhỏ
@@ -1729,6 +1811,7 @@ Lên núi đặt lờ
 Lên thảm nhung, xuống cát bụi cùng nhau
 Lên xe đóng kín cửa lại
 Lên đến gần đây là mình thấy ngay ấy mà
+Lênh đênh mãi con đò trên bến vắng
 Lòng cứ quặn đau
 Lòng mẹ bao la
 Lòng mẹ cao ngất
@@ -1750,6 +1833,7 @@ Lúc này hà ni chợt nhớ ra cô bảo
 Lúc này thì A Hội cũng đã nhìn thấy
 Lúc nãy mẹ cô ấy nói
 Lúc nãy trinh còn nhìn rõ ràng cửa đã được đóng
+Lúc nãy tôi định Kể mà chưa có kịp
 Lúc nửa đêm tự nhiên cửa bị bật ra
 Lúc tuổi còn son
 Lúc xong chai dịch lại từng lời của ông ta
@@ -1758,6 +1842,7 @@ Lúc yếu đuối nhất thì trái tim con người cũng dễ cảm động
 Lúc đó sẽ giải quyết được cái cảnh chán chông của mày bây giờ
 Lúc đó tôi mới biết họ là dân tộc Thái
 Lúc ấy đột nhiên phong ngã sóng soài trên sàn nhà
+Lăng len là ai
 Lơ lửng nền trời
 Lưng trời thơm như dải lụa
 Lại còn chuyện gì nữa Mẹ nói cho con nghe đi
@@ -1785,6 +1870,7 @@ Lớn lên anh chị em lấy vợ lấy chồng hết cả
 Lời chưa được nói
 Lời cô ngọt ngào
 Lời dạy bảo của cô
+Lời dẫn chương trình ngày thương binh liệt sỹ
 Lời lẽ dịu dàng
 Lời mẹ khuyên lơn
 Lời nói yêu thương
@@ -1897,6 +1983,7 @@ Mái trường Thành Công
 Mái trường Thành Công.
 Mái tóc mượt mà
 Máy về công việc quá làm gì có ai
+Mãi bên nhau xua tan đông lạnh giá
 Mãi mãi không quên
 Mãi mãi không thể siêu sinh
 Mình không thể thua một đứa đã chết
@@ -1904,7 +1991,10 @@ Mình muốn có được anh ấy
 Mình phải đi tìm người đàn bà có tin Dã Quỳ nào ấy
 Mình thua gì cái nhi cơ chứ
 Mình về đi Cảm ơn cô hà ni
+Mình đi ngay cho kịp
 Mòn mỏi hao gầy
+Món quà này chỉ chút thôi tiền lẻ
+Môi vẫn thắm gọi thuyền quyên về bến.
 Mùa Thu về ngang phố
 Mùa giao mùa lặng thinh
 Mùa thu chết trong nỗi sầu tê tái
@@ -1921,11 +2011,15 @@ Mùa xuân đi rồi
 Mùa đi cùng tháng năm
 Mơ màng như thật mà không biết đâu mà lần cả
 Mưa lớn biết bao!
+Mưa rì rào thánh thót bên thềm vắng
 Mưa rơi lộp bộp
 Mưa rơi rào rào
 Mưa rơi trắng xóa
 Mưa rồi cũng tạnh
+Mưa thu nức nở dòng tuôn
+Mưa vẫn bay trên góc phố tình nhân
 Mưa về phố nhỏ
+Mưa đến muộn hay trời còn cất giấu
 Mảnh thơ tình khờ dại
 Mất chân
 Mấy anh ở đây lâu không
@@ -2011,6 +2105,7 @@ Mẹ em nói
 Mẹ em rất hiền
 Mẹ giục Em sớm chọn tấm chồng
 Mẹ gạt phần cơm
+Mẹ gặng hỏi với câu nói chê bai
 Mẹ gọi con sang gấp vì mấy người này đúng không ạ
 Mẹ hỏi thăm hết người này tới người khác
 Mẹ khuyên con học
@@ -2084,6 +2179,8 @@ Mỗi mình bà ấy cứ lục đục không có ngủ
 Mỗi ngày Trinh chỉ ghé qua một chút để kiểm tra
 Mỗi ngày trôi qua cảm xúc trong Trinh ngày càng mãnh liệt
 Mỗi người một công việc
+Mỗi sớm mai thướt tha áo nhuộm màu
+Mỗi thu sang, mỗi khắc nhớ em nhiều...
 Mộng uyên ương hồ điệp
 Một bé kuman thật sự là cần nhiều hơn vậy đấy
 Một chiếc thyền trôi
@@ -2098,6 +2195,7 @@ Một hôm khi đang ngủ
 Một khi đã liên kết với nó
 Một lúc sau tiếng gọi đó lại vang lên rất rõ
 Một lần nữa ngơ ngác nhìn xung quanh rồi lẩm bẩm
+Một mình mẹ thôi
 Một mùa thu trước rất xa xôi
 Một mùa thu trước, mỗi hoàng hôn
 Một ngày mưa to
@@ -2153,6 +2251,7 @@ Nghe hà ni nói như vậy
 Nghe thôi mà cũng đã thấy cả sợ rồi
 Nghe thấy tiếng gọi mà không thế nào phát ra để trả lời
 Nghe tiếng thở dài não ruột của cô vị khách cũng buồn theo
+Nghe trong gió một màu Đông bàng bạc
 Nghe truyện thật là thú vị xin chân thành cảm ơn
 Nghe vè nói ngược
 Nghe vẻ nghe ve
@@ -2160,6 +2259,7 @@ Nghe xong mày sẽ hiểu
 Nghe xong tất cả đều đứng lên gỡ trại
 Nghe yêu thương vang xốn xang lồng ngực
 Nghe đọc truyện hân hạnh giới thiệu
+Nghiêng bên nào cũng nhớ quá Thu ơi!
 Nghiêng xuống cuộc đời mình
 Nghiệp báo hài nhi
 Nghiệp của nó thì bản thân nó gánh
@@ -2182,6 +2282,7 @@ Nguy hiểm hơn cái chuyện đó nhiều
 Nguồn gốc của muôn ngàn khát vọng
 Ngày cũng như đêm
 Ngày em sinh, có gió lạnh mùa không
+Ngày em đi cất nhẹ gót quay về
 Ngày giỗ tao sẽ qua thắp hương cho mày
 Ngày hôm sau mọi người lại tập trung ở nhà bà nội thảo
 Ngày mai anh cũng sẽ đem tro cốt của mẹ lên chùa Bồ Đề
@@ -2197,6 +2298,7 @@ Ngày trôi qua ngày đêm trôi qua đêm
 Ngày trước lúc tao mới sinh ra
 Ngày trước đi học nó mạnh mẽ lắm cơ mà
 Ngày đó chinh đã cặp kè với một người đàn ông có vợ
+Ngày đầu tháng môi hồng ai lơ đễnh
 Ngày ấy vào mùa thu
 Ngóng dài không thôi
 Ngôi nhà hai tầng khá rộng với Hai Phòng ngủ
@@ -2243,6 +2345,7 @@ Ngập ngừng gọi khẽ mùa Đông trở về
 Ngắm tiếp vì sao
 Ngắm tỏ sao trời
 Ngọc Lan là vợ chưa cưới của anh phải không
+Ngồi cạnh hà ni phát hiện ra điều ấy nên hỏi nhanh
 Ngồi dưới gốc cây một cách mệt nhọc
 Ngồi lên xe cùng nhau
 Ngồi nghe thấy cao tăng đó nói chuyện một hồi lâu
@@ -2271,6 +2374,7 @@ Nhiều đến mức tưởng như chẳng có
 Nhuộm ánh nắng tà qua mái tóc
 Nhà anh ta cũng khá rộng
 Nhà chị đến tìm tôi có đúng không
+Nhà của bà len đó
 Nhà em khi ấy ở mặt đường
 Nhà em là nhà cuối cùng của xóm
 Nhà mới của em ở trong xóm
@@ -2299,6 +2403,7 @@ Như chú rất thích
 Như chị hoa đào
 Như có ai đó đang chơi đùa
 Như có giông như giữa đồi gió hú
+Như có một vật gì đó chặn ngang cổ họng
 Như cô đang xoa đầu một đứa trẻ nhỏ
 Như không khí, như màu xanh lá cỏ
 Như kể công cha
@@ -2333,6 +2438,7 @@ Nhưng bướng bỉnh giấu buồn nơi đáy mắt
 Nhưng chưa tin chắc lắm
 Nhưng chẳng hiểu làm sao
 Nhưng chẳng hiểu sao tất cả chỉ ghé qua shop của Chinh
+Nhưng chợt nhớ đấy là một cô gái người thiểu số
 Nhưng con chỉ khóc
 Nhưng con chỉ nhớ
 Nhưng cánh đàn ông chúng tôi thì đã quá quen với điều này
@@ -2438,6 +2544,7 @@ Nhưng tất cả chuyện này đối với trinh bày giờ không quan trọn
 Nhưng tất cả chỉ là màn đêm đen đặc
 Nhưng tất cả chỉ là sự vô thức
 Nhưng vẫn phải theo dõi để kiểm tra kỹ hơn
+Nhưng vẫn trồng loài hoa ấy si mê
 Nhưng xem chừng anh đã lả người
 Nhưng xen lẫn vào đó
 Nhưng đáng tiếc là thảo không hề xuất
@@ -2457,6 +2564,7 @@ Nhất là những điều liên quan đến quân
 Nhất là xe con
 Nhận bao khó nhọc
 Nhận gói ở trong nhà cũng thưa dần
+Nhận quà nhưng lòng lại nghĩ nhiều
 Nhận ra cái cuộc sống này vẫn còn nhiều thứ anh phải làm
 Nhắc lại trăng thề trên cửa si
 Nhắc đến nhi khiến cho Trinh cảm rùng mình
@@ -2488,6 +2596,7 @@ Những bài thơ hay về các loài cây cho bé mầm non
 Những bài thơ lục bát hay nhất
 Những bài thơ mừng năm mới hay nhất
 Những bài thơ thất tình hay nhất
+Những bài thơ tình hay nhất
 Những bài thơ tứ tuyệt hay nhất
 Những bài thơ về động vật cho bé mầm non
 Những bước chân xào xạc trên đống lá khô
@@ -2520,6 +2629,7 @@ Những ngang trái len vào trong mộng mị
 Những ngày bên mẹ
 Những ngày cuối Đông
 Những ngày nghỉ học
+Những ngày này con vẫn sẽ về thôi
 Những ngày qua Quân đã phải chịu đựng quá nhiều
 Những người như vậy không đánh đổi vận mạng của mình
 Những người si theo dõi dấu chân yêu
@@ -2551,6 +2661,7 @@ Này mày làm sao
 Này nhé tôi mấy hôm chứ
 Này này
 Này này trinh
+Này ông tướng cô đơn hoài mãi thế
 Nâng từng chiếc túi lên
 Nãy giờ Trinh cứ như đang nói chuyện với ai đó
 Nãy giờ hầu như không màng tới cuộc đôi co giữa hai người
@@ -2565,6 +2676,7 @@ Nên bố em mới đặt lên xe
 Nên chen vào rồi nói
 Nên chiều muộn đã thịt gà chờ đợi
 Nên chúng mình yêu nhau
+Nên cô dịu giọng hỏi lại
 Nên cô gật đầu
 Nên cô không dám nhìn
 Nên cả nhà không đi nữa mà quyết định ở lại
@@ -2627,6 +2739,7 @@ Năm nào cũng sai trĩu quả
 Năm phút dài hoang hoải đến điêu linh
 Năm tháng mỏi mòn
 Nơi bị bàn tay của anh chàng lúc nãy đặt lên
+Nơi còn đó một niềm tin từ mẹ
 Nơi có một chiếc vực sau nhà rồi hỏi
 Nơi cậu đã nằm đêm qua
 Nơi góc phố lần đầu anh thổn thức
@@ -2687,6 +2800,7 @@ Nỗi vui buồn đem chia sẻ cùng nhau
 Nỗi đau ấy biến thành lòng dũng cảm
 Nội dung tin nhắn và đọc được như sau
 Nợ trần ai hay mối duyên tiền kiếp
+Nụ hôn nồng hoang dại đến đê mê.
 Nụ hôn nồng tê tái lúc đắm say
 Nửa giờ sau
 Ok bận thì cứ việc đi
@@ -2703,6 +2817,7 @@ Phong tỉnh táo hẳn lại rồi nói
 Phong tự đứng dậy và nói như chưa có gì xảy ra
 Phong vẫn còn sống nên sau đó vài giây
 Phong vẫn cương quyết
+Phong đang trong tình trạng choáng váng
 Phong đáp
 Phân tích bài thơ Nhàn của Nguyễn Bỉnh Khiêm
 Phía bên ngoài cửa có ai đó đang đứng
@@ -2738,9 +2853,11 @@ Phải tìm anh ta để hỏi cho cặn kẽ mới được
 Phải tội chết
 Phải về quán nằm nghỉ lúc nào khỏe thì đi
 Phải Đóng cửa lại cho con nó ngủ
+Phấn... bảng đen hạt giống nẩy trên cành..
 Phụ nữ mà uống nhiều cà phê là không có tốt cho da
 Qua bao cái Tết
 Qua cầu rút ván
+Qua miền ký ức chơi vơi lạnh lùng
 Qua ngày bốn mươi chín tôi sợ là không giúp được nữa rồi
 Qua những cái cây cổ thụ
 Qua phần diễn đọc của Đình Soạn
@@ -2786,10 +2903,12 @@ Quần đax mất tất cả chán chường tuyệt vọng
 Quận vẫn không nhắn tin lại cho cô
 Quận đã khóc Cho Đến cạn nước mắt
 Quốc tế
+Quỳ lạy như là tế sao
 Quỳnh khóc thảm Thiết
 Quỷ con quỷ là sao
 Quỷ già thì đã có làm sao
 Ra khỏi nhà Trinh lái xe đến quán cà phê hương cúc
+Ra ngoài kia mà nhìn xuống hố sâu má tôi ở đó
 Ra đi trước nhất
 Ra đường bây giờ sợ lắm
 Ra đến chỗ để xe thì Phương chép miệng
@@ -2798,6 +2917,7 @@ Ru phím miên tình trong bóng mưa...
 Ru tôi lớn khôn
 Run rẩy nghĩ rằng mình gặp ma
 Rét đã ngọt vào da
+Rót vào hồn sầu cung thương trầm lắng
 Rạng rỡ cười, vẫn khát một bờ vai
 Rất có thể là gây ảo giác bởi thứ mình đã trải qua
 Rất nhanh sau đó công an và cảnh sát giao thông tới
@@ -2816,6 +2936,7 @@ Rồi bỏ trốn hết
 Rồi chút tọt xuống giường
 Rồi con đi lại
 Rồi cả Nhi nữa anh phải sống thay cả các phần của Nhi
+Rồi cả tài xế và lơ xe đều nhảy xuống giữa đường
 Rồi hơn một giờ đồng hồ trôi qua
 Rồi không đợi cho cô đáp
 Rồi mẹ lại khóc
@@ -2899,6 +3020,7 @@ Sau đó cả đoàn tiến ra ngoài xe
 Sau đó họ đốn chặt những cái cây to lớn
 Sau đó thì mới mở cửa ra
 Sau đó ông mới quay lại trả lời chú tiểu
+Say đắm lạ những chặng đường phía trước...
 Sinh cơ lập nghiệp
 Sinh li tử biệt
 Sinh lão bệnh tử
@@ -2917,6 +3039,7 @@ Song trái đăm chiêu suy nghĩ
 Suốt ngày bà ủ rũ bơ đi ra đi vào
 Suốt từ lúc trưa đến giờ
 Sáng dậy bước ra bàn cùng ngắm hoa thoải mái phết mày ạ
+Sáng hôm nay trở gió mùa Đông Bắc
 Sáng hôm sau
 Sáng hôm sau cả đoàn thức dậy
 Sáng nay cùng sau mỗi khi thức dậy đi sang phòng thờ
@@ -2939,6 +3062,7 @@ Sông sâu còn có kẻ dò, đố ai lấy thước mà đo lòng người
 Sông sâu sóng cả chớ ngã tay chèo
 Sùng bái cá nhân
 Sư trụ trì khẽ dừng tay niệm
+Sương giăng đọng đầy vơi từng giọt đắng
 Sưởi ấm lòng con
 Sạch sẽ hơn và sáng lạng hơn
 Sấm chớp rì rầm
@@ -2950,6 +3074,7 @@ Sắp có chuyện không hay rồi đấy
 Sắp tới bốn mươi chín ngày của con bé kia
 Sẽ dừng lại khi chỉ còn một chiếc
 Sẽ giữ được tình bạn như của em và Nhi vậy
+Sẽ tồn tại đến hết ngày đoạn tháng
 Số máy được lưu tên là anh quân
 Số phận chiếc này phụ thuộc ở chiếc kia
 Sống hay chết đều phải trả giá gấp ngàn lần
@@ -2959,6 +3084,8 @@ Sợ lắm, cảm giác vô cùng sợ hãi
 Sợ nếu bé không thoát được sẽ thành âm binh
 Sợ nỗi đau thầm
 Sợ vợ sống lâu
+Sụt sùi mưa suốt canh thâu
+Sửa lỗi không gõ được tiếng Việt trong Word, excel, firefox, chrome
 Sữa nhang nến thơm
 Sững sờ khi nhìn thấy Phong
 Sự giải thích Nhi tự tử là hoàn toàn có lý
@@ -2972,6 +3099,7 @@ Sự việc ban nãy khiến cho Trinh chưa hết bàng hoàng
 Sự với A Hội đi bê theo độ pha trà
 Sự đáp lại
 Sực nhớ lại lời ông thầy mo người thái nói
+Ta cầm tay ngơ ngác giữa phố chiều
 Ta hẹn nhau giữa hoàng hôn màu tím
 Ta luôn chia sẻ
 Ta nghĩ mọi chuyện không đơn giản như vậy đâu
@@ -3007,6 +3135,7 @@ Tao đang ở đây mà mày nghĩ đến trai à
 Tao đi cùng với nhé
 Tao đáng sợ thế à
 Tay của em cứ ôm chặt lấy Thảo
+Tay gối đầu anh nghĩ chuyện vẩn vơ
 Tay làm hàm nhai, tay quai miệng trễ.
 Tay vít cành hoa trắng chạnh lòng
 Tay ôm tay năm
@@ -3032,11 +3161,14 @@ Thoảng sắc hồng, làn mây lướt trên cao
 Thoảng thơ từng búi tóc dài
 Thu chưa phai vội bỡ ngỡ đông về
 Thu chở em qua hay đông đưa em đến?
+Thu dùng dằng nên hoa mãi ngẩn ngơ
 Thu dọn xong xuôi
+Thu qua rồi chiếc lá chẳng còn xanh
 Thu sắp tàn lá vẫn rơi mê mải
 Thu tiếp hồn tôi người hữu hiện
 Thu vấn vương lá còn rơi rụng
 Thu về cho cô không ít tiền bạc mối quan hệ tốt
+Thu vội vã nhặt gom từng hạt nắng
 Thua keo này bày keo khác
 Thua thầy một vạn không bằng kém bạn một li
 Thuyền to sóng cả.
@@ -3050,7 +3182,16 @@ Tháng hai trồng cà, tháng ba trồng đỗ.
 Tháng mười cong chiếc lá khô
 Tháng mười là tháng mười ơi
 Tháng mười lắm kẻ sang ngang
+Tháng mười một anh vẫn về lối cũ
+Tháng mười một chiếc khăn như bóng rợp
 Tháng mười một chạm thực lẫn trong mơ
+Tháng mười một lòng chợt thấy chênh chao
+Tháng mười một lũ sẻ rủ nhau đi
+Tháng mười một mà lòng sao trống vắng
+Tháng mười một về trong sớm chênh vênh
+Tháng mười một ôi nhớ em biết mấy
+Tháng mười một Đông sang rồi em đó
+Tháng mười một đã về rồi em nhỉ!?
 Tháng mười một đẹp lại duyên
 Tháng mười một,chờ mong duyên mới
 Tháng mười rồi mình cùng sánh bước chung
@@ -3081,6 +3222,8 @@ Tháng mười ơi cho ta phút êm đềm
 Tháng mười ơi gieo vui cơn gió lộng
 Tháng mười ơi yêu thương nặng ân tình
 Tháng năm vất vả
+Tháng nười một nghe gió vi vu thổi
+Tháng đầu đông cho đôi mắt đen huyền
 Thân hình thì toàn là những áo ngâm máu mà thôi
 Thân sâu hồn bướm
 Thì Nhi là một cô gái hoàn hảo
@@ -3142,6 +3285,7 @@ Thì vợ Em lấy gì mà bán
 Thì vợ hay là người yêu của anh cô Lan gì đó
 Thì đã bị bà dã quỳ Chụp tay bà đanh giọng
 Thì đúng là như vậy
+Thì đột nghiên ngưng bặt
 Thì đột nhiên nghe thấy tiếng động lạ ở dưới nhà
 Thích ơi là thích
 Thôi chắc quán cà phê nói chuyện với bạn bè cho khuây khoả
@@ -3150,11 +3294,13 @@ Thôi chết tao quên mất
 Thôi có lẽ là chúng ta nên đi về đi
 Thôi em thích là được
 Thôi em xin đấy
+Thôi em ơi chẳng thể nào mặc cả
 Thôi lần sau em không dám nghe anh Hiếu kể chuyện nữa đâu
 Thôi tao về nhé
 Thôi tất cả thu dọn, chuẩn bị lên đường
 Thôi ông ạ
 Thôn e ri a ở đâu
+Thôn ấy cách đây khoảng chục cây số
 Thông minh thế cũng mang tim xẻ nửa
 Thông thường linh hồn sau khi chết sẽ được siêu thoát
 Thông thường những người bị tai nạn chết
@@ -3163,6 +3309,7 @@ Thơ anh không thể dối
 Thơ tình cuối mùa thu
 Thơ tình ngày không anh
 Thơ về gia đình cho bé
+Thơ đăng facebook hay nhất
 Thơ, văn, tuyển tập
 Thương cho roi cho vọt, ghét cho ngọt cho bùi
 Thương chúc người giấc ngủ thật dịu êm
@@ -3172,6 +3319,7 @@ Thương nhớ cũ trôi theo ngày tháng mất
 Thương quãng đời sau lưng
 Thả hổ về rừng
 Thả lòng mình vào nhịp bước bình sinh
+Thảm lá vàng xao xác gót cuồng si
 Thảo biến mất ngay trước mắt của em làm em hoảng hốt
 Thảo cười rồi đáp lại
 Thảo cố hết sức đạp vào người của em để ra ngoài
@@ -3199,6 +3347,7 @@ Thấy Hà nhìn ngơ ngác Trinh liền hỏi
 Thấy ai cũng ví cánh hoa xưa
 Thấy anh ta không có cử động gì
 Thấy anh ta lảo đảo hà ni vội chụp lấy vai và kêu lên
+Thấy bên đời tháng mười một đến mau
 Thấy nhiệt độ vẫn bình thường thì an Tâm
 Thấy tin nhắn của Quân
 Thấy trước được cái chết của người khác trò chuyện được với ma quỷ
@@ -3211,6 +3360,7 @@ Thậm chí dùng cả cơ thể để mời gọi
 Thậm chí là còn dùng nhiều hơn ngày thường
 Thậm chí lại đôi chân bị liệt của nó hoạt động lại bình thường
 Thậm chí để trong bữa ăn Quân còn ít nói hơn bình thường
+Thật ra con cũng có người yêu rồi
 Thật sự thì xin lỗi vì đã làm phiền anh chị như vậy
 Thật thà là cha dại.
 Thật thà ăn cháo, láo nháo ăn cơm
@@ -3239,10 +3389,12 @@ Thế rồi cứ từ từ tắt hết
 Thế rồi sao những đêm yên bình là những chuyện kinh dị xảy ra
 Thế rồi được một lúc, cả hai đứa nhóc chìm vào trong giấc ngủ
 Thế được rồi đi sang đây tao cho mày xem
+Thềm mưa bong bóng phập phồng
 Thỉnh thoảng có mấy người bạn qua nhà
 Thổi thốc vào bên trong lạnh cả sống lưng
 Thổi về xao động cả:
 Thổn thức một người xa vắng...
+Thổn thức nhìn quanh, chẳng còn ai bên cạnh
 Thời gian bước triền miên
 Thời gian như là gió
 Thời gian này Thoải mái và tự do
@@ -3290,6 +3442,7 @@ Tiếng nói dịu hiền
 Tiếng nói lại vang lên rất khẽ chỉ đủ cho mình nghe
 Tiếng nói đó lại vang lên
 Tiếng nước chảy ra nhưng rồi tắt ngay sau đó
+Tiếng rơi quay quắt rã rời
 Tiếng thời gian chìm hút giữa hư vô
 Tiếng thở đêm khuya
 Tiếng tút dài còn khắc khoải người xa
@@ -3401,11 +3554,14 @@ Trong giấc mơ của a hội
 Trong khi người tốt với anh hết lòng,Yêu Anh
 Trong khói thuốc và giận hờn nức nở
 Trong lành biết bao!
+Trong lòng anh nghe một chút nao nao
 Trong lúc hà ni hốt hoảng
 Trong lúc luống cuống
 Trong lọ thủy tinh ấy
+Trong mơ màng anh thấy nhớ em hơn
 Trong một ngày vui pháo nhuộm đường
 Trong nhà của Trinh liên tiếp có những tiếng động
+Trong những bước một thời ta lạc mất
 Trong những kí ức
 Trong những thứ đổ nát
 Trong nước
@@ -3431,14 +3587,17 @@ Trên bầu trời cao
 Trên bầu trời xanh
 Trên chiếc bàn đó ngoài hoa tươi bát nhang và đến thơm
 Trên con đường đời
+Trên cành cây vẫn vương vài tia nắng.
 Trên cành, chim sáo
 Trên dốc nhớ chợt trời lên cơn bão
 Trên giường của cô vẫn còn những tấm ảnh chụp quân vương vãi
 Trên tay của Trinh đủ các loại bánh kẹo đồ chơi mới
+Trên thảm cỏ mấy hạt còn chưa nở
 Trên xe có tài xế và một cậu lơ xe và anh
 Trên xe ô tô lúc ấy mọi chuyện thật nguy hiểm
 Trên đó thì chả xuống ăn uống gì cả
 Trên đường về bạn bè bắt đầu bàn tán
+Trên đường đi Anh ta hỏi
 Trên đường đi có một cậu bạn nói
 Trình chỉ dừng lại khi bàn tay của cô ướt sũng nước nhờn
 Trình hơi sững lại khi quân vừa nhắc đến nhi
@@ -3488,6 +3647,7 @@ Trời thu mưa giữa buồn thinh
 Trời tháng mười e ấp những vì sao
 Trời tháng mườimây vờn bay bảng lãng
 Trời về khuya
+Trời Đông lạnh mây mưa buồn ủ rũ.
 Trời đã sáng lên hẳn
 Trời đã về khuya dần
 Trời ơi con gái của tôi, sao con lại khổ như vậy chứ
@@ -3506,6 +3666,7 @@ Tuy nhiên quân lại nói
 Tuy nhiên đó là những điều ai cũng biết
 Tuy nhiên đầu của trinh vẫn còn đang nhói
 Tuy đã thờ kumanthong trong khoảng một năm rưỡi trở lại đây
+Tuyển tập bài thơ hay về Tình Yêu
 Tuyển tập những bài thơ chế hay nhất
 Tuyển tập những bài thơ hay
 Tuyển tập những bài thơ hay, ý nghĩa nhất
@@ -3547,6 +3708,7 @@ Tìm em trong đôi mắt của mùa thu
 Tìm hiểu về bài thơ Tự Tình của Hồ Xuân Hương
 Tìm kiếm thầy giỏi nhất để đến xem
 Tìm thầy về
+Tìm về em để nhắn nhủ nhớ thương
 Tình anh còn mãi mãi.
 Tình anh đối với em là xứ sở
 Tình bạn chúng ta
@@ -3579,6 +3741,7 @@ Tôi còn mong nó về nhà gặp mà còn chẳng được
 Tôi còn nhớ là đầu của mình bị đập vào cửa ngất xỉu
 Tôi có cái ý như thế này
 Tôi có hẹn với một anh chàng đến tập vào sáng nay
+Tôi có việc cần kíp muốn gặp bà len xin cô giúp cho
 Tôi có xóa đâu
 Tôi cũng biết là chuyện này rất khó tin
 Tôi cũng không biết nữa
@@ -3597,6 +3760,7 @@ Tôi không hề biết gì
 Tôi khẽ đẩy cổng bước vào rào, rồi tiếng thẳng vào bên trong
 Tôi liền trả lời
 Tôi muốn cô đừng nghĩ đến ai
+Tôi muốn hỏi bà len
 Tôi muốn làn hơi cô thở nhẹ.
 Tôi muốn môi cô chỉ mỉm cười
 Tôi muốn mùi thơm của nước hoa
@@ -3612,6 +3776,7 @@ Tôi nào dám hỏi
 Tôi níu kéo nắng Thu ở lại
 Tôi nói rồi
 Tôi quay sang bảo cả đoàn nghỉ ngơi
+Tôi rành cái thôn đấy lắm vì tôi cũng là người ở đó mà
 Tôi sẽ bày cách cho cô
 Tôi sẽ cố gắng tìm hiểu xem con quỷ đó là ai
 Tôi sợ chiều thu phớt nắng mờ
@@ -3631,8 +3796,10 @@ Tôi với Sự sẽ ở lại nhà anh ta
 Tôi với Sự vác đồ đi theo A Hội
 Tôi xin lỗi rồi mà nếu cần tôi sẽ xin lỗi lần nữa
 Tôi xin phép rồi ngồi thưa chuyện với ông
+Tôi xui buồn khóc xuống tựa mùa Ngâu!
 Tôi đang ngồi với cả cái phương đây
 Tôi đang đi với cô ấy mà tôi đang
+Tôi đoán là
 Tôi đã gặp vong con bé
 Tôi đúc kết những thứ này từ sau một lần đi phượt
 Tôi đến mở cửa, lễ phép chào ông
@@ -3641,6 +3808,7 @@ Tôm đi chạng vạng, cá đi rạng đông.
 Tư tưởng Hồ Chí Minh
 Tươi sáng ngời ngời
 Tươi tốt cây đào
+Tương lai rạng, học trò ngoan lớp lớp..
 Tưới cây thì cần nước
 Tưởng niệm
 Tưởng trăng tàn, hoa tạ, với hồn tiêu
@@ -3695,7 +3863,9 @@ Tốt gỗ hơn tốt nước sơn, xấu người đẹp nết con hơn đẹp 
 Tổng hợp những bài thơ hay nhất
 Tội gót chân qua
 Tội nghiệp con Thảo đã chết mà còn khổ
+Tới khi mà họ đi rồi thì tôi mới nhìn thấy ở bên đường
 Từ bị giam ở Trung Quốc
+Từ dạo xa em cũng đã vừa mấy độ
 Từ giọng cô dịu hiền
 Từ khi con bé
 Từ khi đỏ hỏn
@@ -3746,6 +3916,7 @@ Vuốt bờ tóc mây
 Vuốt không thể xuống được
 Và anh còn ráng sức để thốt lên
 Và bị con hổ cho thẳng vào trong bụng
+Và chặn mấy cái xe chạy ẩu để cảnh báo
 Và câu thơ đâu còn mãi ngày sau
 Và cũng gặp nguy kịch nên phải đi viện cấp cứu
 Và cảnh đời là sa mạc vô liêu
@@ -3780,10 +3951,12 @@ Và Điều này khiến cho cô không còn truy hỏi nữa
 Và điều này trình thấy chính xác
 Và đêm nay, nến thắp sáng lên rồi
 Và đến một lúc ngã dài xuống sàn
+Và định nói gì đó nhưng không kịp
 Và đỏ như màu máu thắm pha
 Vài người nữa cũng đổ xô chạy đến
 Vàng lối về lặng sải bước nôn nao
 Vào một đêm trăng khuyết
+Vào đêm run rẩy sầu cơn mưa nhỏ
 Váy trời ban phước
 Vâng vậy Lúc nào rảnh mình đi ăn anh nhé
 Vì Trinh không còn nghe được gì nữa
@@ -3818,12 +3991,15 @@ Vẫn không thấy trở lại
 Vẫn là Trinh
 Vẫn là cái thảo đang đứng ở đó
 Vẫn nhìn được rõ chiếc xe tải tử thần màu xanh ấy
+Vẫn quay đều cùng mơ ước tuổi xanh..
 Vẫn thấy thật vui
+Vẫn tiếc nuối những ngày thu tràn nắng
 Vẫn vang lời tha thiết
 Vật đẹp biết bao!
 Vậy Bây giờ chúng ta cần phải làm sao
 Vậy Bây giờ chị muốn chúng tôi phải làm cái gì
 Vậy Ngọc Lan đâu
+Vậy anh có biết một bà tên là dã quỳ không
 Vậy bây giờ bà bảo chúng tôi phải làm gì
 Vậy bây giờ làm sao cô làm ơn giúp cho mẹ con tôi
 Vậy con có cần mang hòn đá này bên người nữa không hả mẹ
@@ -3841,6 +4017,7 @@ Vậy mà Sau khi thỉnh kumanthông về
 Vậy mà bạn chết chưa giỗ đầu mà la liếm với chồng của bạn
 Vậy mà có mới hay
 Vậy mà hôm nay Hà lại nhắc đến
+Vậy mà khi nghe câu nói đó anh đã liền hỏi
 Vậy mà khi ra tay thì bà dạ quỳ thật nhanh
 Vậy mà lạ lùng thay
 Vậy mà may mắn Nó sống được qua mười ba năm
@@ -3849,6 +4026,7 @@ Vậy mà quân vẫn lạnh lùng vô cảm
 Vậy mà từ sáng ngày hôm nay
 Vậy ngộ như con Thảo vẫn không thể về thì sao
 Vậy nhưng chẳng hiểu sao trước khi mở cửa phòng
+Vậy nên em đừng bao giờ giận nhé
 Vậy nó có liên quan gì đến con gái tôi chứ
 Vậy nói là giúp làm phúc cơ mà
 Vậy phải xem số trời thế nào
@@ -3895,14 +4073,17 @@ Với những cái móng dài ngoẵng
 Với quân chỉ trong khoảng một thời gian ngắn mà mọi thứ sụp đổ
 Với trình quân là một người đàn ông tốt
 Vời vợi Thái Sơn
+Vỡ trên chuỗi nhớ sợi đong đưa buồn
 Vợ của chú sửa xe lắc đầu nói
 Vợ của chú sửa xe mới nói chen vào
+Vợ tôi cũng bị một chiếc xe như vậy
 Vụng chèo khéo trống
 Vụng dại tấm bé
 Vừa chạm vào người cổ Quân
 Vừa cầu đã mưa!
 Vừa khấn xong thì điện thoại của Trinh đổ chuông
 Vừa lúc bác sĩ chạy vào bên trong
+Vừa lúc ấy anh chàng xe thồ cũng vừa bước lên
 Vừa muốn nói thì lại thừ người ra
 Vừa nghe thấy tên thì một anh chàng lực lưỡng bước ra
 Vừa ngọt ngào rực rỡ đóa hồng nhung?
@@ -3953,6 +4134,7 @@ Xong xuôi lại lên xe tiếp tục cuộc hành trình
 Xong xuôi phụ giúp anh ta
 Xoá ảnh trên Facebook, delete ảnh đã đăng trên Facebook
 Xuyên qua người của cô vậy
+Xuyến xao hoài đợi người đến cùng hoa.
 Xuân này biết có
 Xuất thân và quê quán
 Xuống nhà đi nào
@@ -4011,6 +4193,7 @@ bà đã gặp nó ở đâu ạ
 bà ấy buồn buồn và đáp lại
 bà ấy bỏ cái bao xuống sân nhìn thẳng vào em
 bà ấy chép miệng rồi móc trong túi ra một viên đá rồi nói
+bà ấy chết rồi thì đâu còn gặp được
 bà ấy cũng tin mấy cái chuyện tâm linh này
 bà ấy gật đầu để chấn an
 bà ấy kể chuyện rằng
@@ -4018,6 +4201,7 @@ bà ấy liền bảo
 bà ấy liền lẩm bẩm nói
 bà ấy liền nói
 bà ấy liền đáp
+bà ấy là một người cùng thôn với tôi mà
 bà ấy lắc đầu nói
 bà ấy lắc đầu rồi nói
 bà ấy nhìn em rất lâu rồi đáp lại
@@ -4689,6 +4873,7 @@ thảo xin bà đã giúp thảo và mọi người
 thảo Đứng sững lại không chạy trốn em nữa
 thảo đưa tay túm láy tay của em
 thấm đẫm cả hồn ta.
+thấy cách đáp cộc lốc của cô ta
 thấy gia đình nó bảo là mới tỉnh lại đêm qua
 thầy bảo có người che mắt thầy không có nhìn được
 thầy bảo là có cái chuyện gì đâu
@@ -4885,8 +5070,10 @@ xạ thủ
 Ôi trời xa, vầng trán của người yêu!
 Ôi tình yêu và kẻ đời viễn xứ
 Ôi, quạnh vắng vô cùng
+Ôm cổ gầy mắc cỡ đến mùa sau
 Ôm hũ đựng tro cốt của người mẹ khóc đến gục đi trên bàn
 Ôm làm gì hạnh phúc đã trôi xa.
+Ôm lòng đêm nỗi nhớ nhung
 Ông bà tao ngày ấy thì sợ lắm
 Ông cài lưng khố
 Ông có đồng tiền
@@ -4958,6 +5145,7 @@ xạ thủ
 Đoàn chúng tôi như đã biết
 Đoàn mình chỉ còn cách năm chục cây số nữa thôi
 Đoạn trường nào quay cận cảnh nỗi sầu bi
+Đoạn đường này hay xảy ra tai nạn như chuyện vừa rồi đó
 Đung đưa theo gió
 Đàn bà con gái ai cũng có lòng đố kỵ
 Đàn con thơ dại
@@ -4972,6 +5160,7 @@ xạ thủ
 Đánh trống lảng trình liền đáp
 Đáp đền ơn mẹ!
 Đâu biết lần đi một lỡ làng
+Đâu có còn khung trời nắng trong veo
 Đây là Tuấn người yêu của cháu lâu nay đi làm xa mới về
 Đây là căn cứ của bọn địch
 Đây là những người ở dưới xuôi lên để tham quan ngắm cảnh
@@ -4996,6 +5185,7 @@ xạ thủ
 Đèn nến và tất cả mọi thứ
 Đêm cô đơn gieo lòng bao điều ước
 Đêm dài thế khi nào thôi trăn trở
+Đêm gom sương tưới vỡ những xanh màu
 Đêm khuya sương xuống
 Đêm mở mắt nhìn trăng rơi xuống vực
 Đêm nay nghe thấy những tiếng động lạ
@@ -5016,15 +5206,18 @@ xạ thủ
 Đó là một hành động vô thức
 Đó là một phòng tập thể hình
 Đó là sự xuất hiện của chúng
+Đó là tên riêng của bà mà cô gọi là Dã Quỳ đó
 Đó là việc mà cô liên tục làm suốt một tuần vừa qua
 Đó là vào lúc nửa đêm trinh phải cho kuman ăn
 Đó là vì những ai đã từng đọc và nghe nghiệp báo hài nhi
 Đó nó đó
 Đó tình yêu em muốn nói cùng anh
 Đó vẫn là trinh
+Đón bình minh những tia nắng tinh khôi
 Đón em với hoa hồng.
 Đóng cửa nhà lại Trinh rời đi
 Đóng cửa sổ hành lang lại cẩn thận
+Đóng vội cửa quán hà ni thúc giục
 Đôi Bàn Tay của Cô khẽ vuốt cái bình thủy tinh thủy rồi nói
 Đôi bờ lấm tấm cánh vô vi
 Đôi chân của cô trùng xuống và khép lại
@@ -5039,7 +5232,11 @@ xạ thủ
 Đôi mắt ngây dại khuôn miệng nhoẻn miệng cười đầy đê mê
 Đôi mắt trắng ởn
 Đông chợt về để đêm lại dài thêm
+Đông sang rồi anh thấy nhớ trong anh
+Đông sang rồi màu nắng cũng nhạt hơn
+Đông đã về tháng mười một liêu xiêu...!
 Đông đã đến từng giờ sương phủ
+Đúng là bà ấy
 Đúng là bữa nay cô hà ni đầu óc sao vậy
 Đúng là chúng ta đã đi xem thầy rồi
 Đúng là giọng của bà Tâm
@@ -5054,6 +5251,7 @@ xạ thủ
 Đúng rồi mà chúng đánh bị trừng trị
 Đúng rồi mày à
 Đúng vậy
+Đăng ký Snapchat, tạo tài khoản Snapchat
 Đưa tay chỉ vào trong nhà
 Đưa tinh vào cõi không. ​​
 Đưa tình về cuối sông​
@@ -5110,6 +5308,7 @@ xạ thủ
 Đến lúc này thì hà ni mới chợt hiểu
 Đến lúc này thì quân liền biết
 Đến nắng hạn đất trời rồi thơ phú...
+Đến phiên hà ni ngạc nhiên
 Đến quá nửa đêm
 Đến rồi đấy mọi người
 Đến tối tất cả đều ngồi quây quần với nhau
@@ -5277,6 +5476,7 @@ xạ thủ
 Ở dưới đó
 Ở một mình có nhà thế này thì sướng quá rồi còn gì
 Ở một mình thì chả có cái gì
+Ở thôn người ta chỉ quen gọi bấy là bà len thôi Nhưng mà
 Ở đây cũng mới có điện lắp về
 Ở đây cơ mà
 Ở đây đáng sợ lắm
