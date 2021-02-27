@@ -144,6 +144,7 @@ tr = Török
 tt = Tatár
 uby = Ubih
 udm = Udmurt
+ug = Ujgur
 uk = Ukrán
 ur = Urdu
 uz = Üzbég
