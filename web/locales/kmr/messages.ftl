@@ -422,6 +422,7 @@ faq-why-my-lang-new-a = Mozilla ti zimanî di ser yên din re nabîne. Common Vo
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
 faq-why-10k-hours-q = Çima ji bo her zimanekî hedefeke bi qasî 10,000 saet klîbên dengî yên piştrastkirî heye?
 faq-how-calc-hours-q = Common Voice saetan çawa hesab dike?
+faq-how-calc-hours-a = Em saetan bi texmînkirina averaja dirêjahiya her qeydan hesab dikin, û piştre bi hejmara jimara yekûn ya qeydên bi hemû zimanan re dicarînin.
 faq-where-src-from-2-q = Nivîsên çavkanî ji ku derê tên?
 faq-why-not-ask-read-q = Çima hûn ji mirovan naxwazin ku pirtûkan an jî gotarên Wikipediayê bi zimanên cuda bixwînin?
 faq-why-account-q = Çima divê ez hesabekî vekim?
@@ -544,6 +545,7 @@ why-email = <b>Çima emaîl lazim e?</b> Dibe ku em di siberojê de derbarê guh
 confirm-size = Tu amade yî ji bo daxistineke bi qasî <b>{ $size }</b> dakêşî.
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Tu qebûl dikî</b> ku tu yê hewl nedî ji bo tesbîtkirina nasnameyan axiverên di danegeha Common Voice-ê de.
 download-language = { $language } daxîne
 validated-hours = Saetên piştrastkirî
 recorded-hours = Saetên tomarkirî
@@ -556,6 +558,7 @@ feedback-q = Pêşniyara te heye?
 common-voice-info-new = Hin pirsên te li ser Common Voiceê heye? Fikrên te ji bo baştirkirinê hene an jî tu dixwazî li ser zimanekî taybet paşragihandinê bişînî? Li ser <discourseLink>Forûma Discourseê</discourseLink> ya me tevlî me bibe û hayê me jê çêke.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Danegeha TED-LIUM'ê ji danûstandinên dengî û transkrîpsiyonên wan ên li ser malpera TED'ê hatiye çêkirin.
+data-other-voxforge-description = VoxForge ji bo berhevkirina transkrîpsiyona xeberdanan bi Motorên Naskirina Xeberdanan yê Belaş-ji-bo-bikaranînê û Çavkanî-azad hatiye avakirin.
 data-other-tatoeba-description = Tatoeba, danegeheke mezin a hevok, werger û dengên axaftinê ye, ev danegeh ji bo fêrbûna zimanan tê  bikaranîn. Di vê dosyeyê de axaftinên Îngilîzî yên ji aliyê xwebexşên vê civakê hatine tomarkirin, hene.
 your-feedback = Fikrên te li ser pêşxistina komdaneya  Common Voiceê heye? Li ser Discourseê ji me re binivîse.
 go-discourse = Here Discourseê
@@ -592,6 +595,7 @@ request-language-title = Daxwaza Zimên
 request-language-form-language =
     .label = Ziman
 request-language-success-title = Daxwaza zimên bi serkeftî hat şandin. Spas.
+request-language-success-content = Em ê di nêz de bi te re têkiliyê deynin tevî agahiyên derbarê mijara ka mirov zimanekî din çawa li Common Voiceyê zêde dike.
 select-language = Zimanekî hilbijêre...
 other-language = Zimanê din
 
@@ -673,6 +677,7 @@ keep-track-profile = Profîlekê çêke û pê pêşveçûna xwe bişopîne
 login-to-get-started = Ji bo destpêkirinê, têkeve an jî tomar bibe
 target-segment-first-card = Tu beşdariyê di beşa hedefa me ya pêşî de dikî.
 target-segment-generic-card = Tu beşdariyê di beşa hedefekê de dikî.
+target-segment-first-banner = Ji bo zimanê { $locale } alî çêkirina segmenta hedef a pêşîn yê Common Voice-ê bike.
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
 
@@ -757,6 +762,11 @@ want-to-continue = Tu dixwazî berdewam bikî?
 finish-editing = Pêşî sererastkirinê biqedîne?
 lose-changes-warning = Heke tu aniha derkevî ew ê hemû guhertin wenda bibin
 build-custom-goal = Hedefeke nû diyar bike
+help-reach-hours-pluralized =
+    Armanceke şexsî diyar bike ku em bi zimanê { language } bigihîjin{ NUMBER($hours) ->
+        [one] saetekê
+       *[other] { $hours } saetan
+    }.
 set-a-goal = Hedefekê diyar bike
 cant-decide = Tu nikarî biryarê bidî?
 how-many-per-day = Bijî! Rojane çend klîb?
