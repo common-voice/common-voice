@@ -255,7 +255,7 @@ username-email-not-demographic = თქვენი მომხმარებ�
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = ო
+shortcut-skip = ტ
 
 ## Listen Shortcuts
 
