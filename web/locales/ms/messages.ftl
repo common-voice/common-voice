@@ -119,13 +119,20 @@ pa-IN = Bahasa Punjabi
 pl = Bahasa Poland
 ps = Bahasa Pashto
 pt = Bahasa Portugis
+rm-sursilv = Bahasa Romansh Sursilvan
+rm-vallader = Bahasa Romansh Vallader
 ro = Bahasa Romania
 ru = Bahasa Rusia
+rw = Bahasa Rwanda
+sah = Bahasa Sakha
+sc = Bahasa Sardinia
 sr = Bahasa Serbia
 sv-SE = Bahasa Sweden
 ta = Bahasa Tamil
 th = Bahasa Thai
 tr = Bahasa Turki
+uk = Bahasa Ukraine
+vi = Bahasa Vietnam
 
 # [/]
 
