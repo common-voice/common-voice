@@ -144,6 +144,7 @@ tr = Turks
 tt = Tataars
 uby = Oebychs
 udm = Oedmoerts
+ug = Oeigoers
 uk = Oekraïens
 ur = Urdu
 uz = Oezbeeks
