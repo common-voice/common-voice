@@ -144,6 +144,7 @@ tr = Tyrkisk
 tt = Tatar
 uby = Ubykh
 udm = Udmurtisk
+ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
