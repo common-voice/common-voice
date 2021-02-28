@@ -8,6 +8,8 @@ email-input =
     .label = ईमेल
 submit-form-action = सबमिट करा
 loading = लोड होत आहे…
+email-opt-in-info-title = कॉमन व्हॉईस मेलिंग यादीमध्ये सामील व्हा
+not-available-abbreviation = लागू नाही
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -15,6 +17,50 @@ loading = लोड होत आहे…
 
 ## Languages
 
+ar = अरबी
+as = आसामी
+az = अझरबैजानी
+ba = बश्कीर
+bg = बल्गेरियन
+bn = बंगाली
+da = डॅनिश
+de = जर्मन
+el = ग्रीक
+en = इंग्रजी
+es = स्पॅनिश
+fa = पर्शियन
+fi = फिनिश
+fr = फ्रेंच
+ga-IE = आयरिश
+he = हिब्रू
+hi = हिंदी
+hr = क्रोएशियन
+hu = हंगेरियन
+id = इंडोनेशियन
+it = इटालियन
+ja = जपानी
+kk = कझाख
+ko = कोरियन
+lv = लॅटवीयन
+ml = मल्याळम
+mn = मंगोलियन
+ms = मलय
+ne-NP = नेपाळी
+nl = डच
+pa-IN = पंजाबी
+pl = पोलिश
+ps = पश्तो
+pt = पोर्तुगीज
+ro = रोमेनियन
+ru = रशियन
+si = सिंहली
+sr = सर्बियन
+sw = स्वाहिली
+tr = टर्किश
+uk = युक्रेनियन
+ur = उर्दु
+uz = उझबेक
+vi = व्हिएतनामीज
 
 # [/]
 
@@ -45,6 +91,7 @@ loading = लोड होत आहे…
 
 ## ProfileForm
 
+profile-form-submit-save = जतन करा
 
 ## FAQ
 
