@@ -137,12 +137,14 @@ tr = turečtina
 tt = tatárčina
 uby = ubychčina
 udm = udmurtčina
+ug = ujgurčina
 uk = ukrajinčina
 ur = urdčina
 uz = uzbečtina
 vec = benátčina
 vi = vietnamčina
 vot = vodčina
+yue = kantónčina
 zh-CN = čínština (Čína)
 zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
@@ -766,9 +768,11 @@ read-more-about = Prečítajte si viac na stránke O nás
 
 ## Demo Datasets
 
+demo-account = Účet
 
 ## Demo Account
 
+demo-account-card-header = Účet nie je nutnosťou, no môže byť užitočný
 
 ## Demo Contribute
 
