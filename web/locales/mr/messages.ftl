@@ -1,7 +1,9 @@
 ## General
 
+yes-receive-emails = होय, मला ईमेल पाठवा. मला कॉमन वॉइस प्रकल्पाबद्दल माहिती मिळवायला आवडेल.
 email-input =
     .label = ईमेल
+submit-form-action = सबमिट करा
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
