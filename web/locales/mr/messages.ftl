@@ -61,24 +61,67 @@ uk = युक्रेनियन
 ur = उर्दु
 uz = उझबेक
 vi = व्हिएतनामीज
+zh-CN = चीनी (चीन)
+zh-HK = चीनी (हाँगकाँग)
+zh-TW = चीनी (तैवान)
 
 # [/]
 
 
 ## Layout
 
+speak = बोला
+speak-now = आता बोला
+datasets = डेटासेट
+languages = भाषा
+profile = प्रोफाइल
+help = मदत
+privacy = गोपनीयता
+terms = अटी
+faq = नेहमी विचारले जाणारे प्रश्न
+link-copied = लिंक कॉपी केली आहे
+logout = लॉग आउट
 
 ## Home Page
 
+home-cta = बोला, येथे योगदान द्या!
+show-wall-of-text = पुढे वाचा
+vote-yes = होय
+vote-no = नाही
+hours-validated = प्रमाणित झालेले तास
+todays-progress = आजची प्रगती
+help-reach-goal = आम्हाला { $goal } पर्यंत पोहोचण्यात मदत करा
+read-terms-q = आपण आमच्या अटी वाचल्या आहेत का?
+x-weeks-short =
+    { $count ->
+        [one] { $count } आठवडा
+       *[other] { $count } आठवडे
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } महिना
+       *[other] { $count } महिने
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } वर्ष
+       *[other] { $count } वर्षे
+    }
+sign-up-account = खात्यासाठी साइन अप करा
+email-subscription-title = ईमेल अद्यतनांसाठी साइन अप करा
 
 ## Account Benefits
 
+benefits = फायदे
 
 ## What's public
 
+email-not-public = आम्ही आपले ईमेल सार्वजनिक करणार नाही.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
