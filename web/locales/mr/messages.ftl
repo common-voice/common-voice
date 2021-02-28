@@ -179,9 +179,27 @@ profile-close = बंद करा
 profile-explanation = प्रोफाइलसह आपल्या प्रगतीचा मागोवा ठेवा आणि आमच्या व्हॉइस डेटाला अधिक अचूक होण्यास मदत करा.
 thanks-for-account = आपल्या खात्याची पुष्टी केल्याबद्दल धन्यवाद, आता आपण आपले प्रोफाइल तयार करूया.
 accept-privacy-title = गोपनीयता धोरण
+login-identity = लॉगिन ओळख
+login-signup = लॉग इन / साइन अप
+download-profile = आपला डेटा डाउनलोड करा
+contribution-experience = योगदानाचा अनुभव
+change-your-avatar-clip = आपली व्हॉइस क्लिप बदलू इच्छिता?
+retry-voice-wave-recording = पुन्हा प्रयत्न करा
+re-record = पुन्हा रेकॉर्ड करा
+delete-voice = हटवा
+recording-voice-wave = रेकॉर्ड करत आहे
+ready-to-upload = अपलोड
+cancel-avatar-clip-recording = रद्द करा
+connect-gravatar = Gravatar सह कनेक्ट करा
+gravatar_not_found = आपल्या ईमेलसाठी gravatar सापडले नाही
+file_too_large = निवडलेली फाईल खूप मोठी आहे
+add-language = भाषा जोडा
 
 ## FAQ
 
+faq-title = नेहमीचे प्रश्न
+faq-what-cv-q = Common Voice काय आहे?
+faq-why-important-q = हे महत्वाचे का आहे?
 
 ## ABOUT US
 
@@ -221,6 +239,7 @@ accept-privacy-title = गोपनीयता धोरण
 
 ## Dashboard
 
+your-languages = आपल्या भाषा
 
 ## Custom Goals
 
@@ -233,15 +252,27 @@ accept-privacy-title = गोपनीयता धोरण
 
 ## DemoLayout
 
+demo-get-started = चला, सुरु करूया
+demo-welcome = कॉमन व्हॉईस मध्ये आपले स्वागत आहे
 
 ## Demo Datasets
 
+card-button-next = पुढे
+card-button-back = मागे
+demo-language-select-label = भाषा शोधा
+demo-eofy-header = २०१९ वर्षाखेरीजचे प्रदर्शन
+demo-account = खाते
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = साइन-अप लिंकसाठी ईमेल लिहा
+demo-account-sign-up = साइन-अप लिंक पाठवा
 
 ## Demo Contribute
 
+demo-contribute-card-header = आपला आवाज देण्यासाठी  किंवा दुसऱ्यांचे आवाज ऐकण्यासाठी तयार आहात?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = वैयक्तिक डॅशबोर्ड्स आपल्याला वैयक्तिक आणि समुदायाच्या प्रगतीसह अद्ययावत ठेवतात.
