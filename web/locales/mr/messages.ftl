@@ -8,7 +8,9 @@ email-input =
     .label = ईमेल
 submit-form-action = सबमिट करा
 loading = लोड होत आहे…
+email-opt-in-info = मला ध्येयांची आठवण करून देणारे, माझ्या प्रगतीचे अद्यतन देणारे व कॉमन व्हॉईसबद्दलची वृतपत्रे पाठविणारे ईमेल मिळवायला आवडतील.
 email-opt-in-info-title = कॉमन व्हॉईस मेलिंग यादीमध्ये सामील व्हा
+email-opt-in-info-sub-with-challenge = आव्हाने व ध्येयांची स्मरणे , प्रगतीचे अद्यतन व कॉमन व्हॉईसबद्दलची वृतपत्रे पाठविणारे ईमेलद्वारे मिळवा.
 not-available-abbreviation = लागू नाही
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
