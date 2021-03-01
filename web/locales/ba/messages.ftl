@@ -466,10 +466,12 @@ dataset-date = Дата
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Буталған
 data-download-singleword-title = «Бер һүҙ» маҡсатлы сегментты тейәгеҙ
+review-terms = Common Voice ҡулланыр өсөн һеҙ <termsLink>Ҡулланыу шарттары</termsLink> һәм <privacyLink>Хосуйсылыҡ сәйәсәте</privacyLink> менән килешергә тейешһегеҙ
 terms-agree = Килешәм
 terms-disagree = Килешмәйем
 review-aborted = Тейәү туҡтаны. Яҙмаларығыҙҙы юҡ итәһегеҙме?
 review-submit-title = Тикшерергә һәм ебәрергә
+review-submit-msg = Яҙмағыҙ өсөн рәхмәт!<lineBreak></lineBreak> Хәҙер тикшергәс яҙмаларығыҙҙы ебәрегеҙ.
 review-recording = Күҙәтеү
 review-rerecord = Кире яҙыу
 review-cancel = Ебәреүҙе туҡтатыу
@@ -487,11 +489,14 @@ cv-license = Лицензия
 audio-format = Аудионың форматы
 number-of-voices = Тауыштар һаны
 splits = Бүлеү
+email-to-download = Йөкләр өсөн электрон адресығыҙҙы яҙығыҙ.
+confirm-size = Һеҙ <b>{ $size }</b> йөкләргә тораһығыҙ
 size-gigabyte = ГБ
 size-megabyte = МБ
 download-language = { $language } телен йөкләү
 validated-hours = Тикшерелгән сәғәттәр
 recorded-hours = Яҙҙырылған сәғәттәр
+whats-inside = Common Voice йыйынтыҡтарының эсендә нимә бар?
 subscribe = Яҙылырға
 get-started-speech = Телмәрҙе таныу менән эш башлағыҙ
 other-datasets = Башҡа яҙма йыйынтығы
@@ -511,6 +516,7 @@ download-title = Һеҙҙең тейәүегеҙ башланды
 download-form-email =
     .label = электрон адресығыҙҙы яҙығыҙ
     .value = рәхмәт Һеҙгә, беҙ бәйләнештә булырбыҙ.
+download-back = Common Voice йыйынтыҡтарына кире ҡайтыу
 download-no = Юҡ, рәхмәт
 
 ## Contact Modal
@@ -520,9 +526,11 @@ contact-form-name =
     .label = Исем
 contact-form-message =
     .label = Хәбәр
+contact-required = *мотлаҡ
 
 ## Request Language Modal
 
+request-language-title = Телде һорау
 request-language-form-language =
     .label = Тел
 request-language-success-title = Телде өҫләү буйынса һорау уңышлы ебәрелде, рәхмәт.
@@ -557,6 +565,11 @@ clips-with-count-pluralized =
         [one] клип
        *[other] клип
     }
+contribute-more =
+    { $count ->
+        [one] Тағы { $count } тапҡыр эшләргә әҙерһегеҙмме?
+       *[other] Тағы { $count } тапҡыр эшләргә әҙерһегеҙмме?
+    }
 record-cta = Яҙҙыра башлау
 record-platform-not-supported = Үкенескә ҡаршы, әлегә һеҙҙең платформа эшләмәй
 record-must-allow-microphone = Микрофонды ҡулланыуға рөхсәт биреүегеҙ кәрәк
@@ -566,6 +579,7 @@ record-error-too-long = Яҙма бигерәк оҙон
 record-error-too-quiet = Яҙмалағы тауыш бигерәк шым булды
 record-cancel = Ҡабатлап яҙҙырыуҙы туҡтатыу
 record-three-more-instruction = Өсәү ҡалды!
+record-again-instruction = Афарин! Киләһе яҙманы яҙығыҙ
 share-clip = Үҙегеҙҙең яҙмалар менән бүлешергә
 share-common-voice = Common Voice менән бүлешегеҙ
 clips-uploaded = Яҙыу тейәлде
