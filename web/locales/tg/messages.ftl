@@ -444,3 +444,19 @@ remove = Тоза кардан
 
 welcome-staff = Кормандони { $company } хуш омадед!
 read-more-about = Дар саҳифаи «Дар бораи мо» бештар хонед
+
+## DemoLayout
+
+
+## Demo Datasets
+
+demo-account = Ҳисоб
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
