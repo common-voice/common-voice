@@ -92,6 +92,8 @@ hours-validated = प्रमाणित झालेले तास
 todays-progress = आजची प्रगती
 help-reach-goal = आम्हाला { $goal } पर्यंत पोहोचण्यात मदत करा
 read-terms-q = आपण आमच्या अटी वाचल्या आहेत का?
+all-locales = सर्व
+today = आज
 x-weeks-short =
     { $count ->
         [one] { $count } आठवडा
