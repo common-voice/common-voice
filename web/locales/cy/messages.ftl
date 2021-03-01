@@ -144,6 +144,7 @@ tr = Twrceg
 tt = Tartareg
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Wcraneg
 ur = Urdu
 uz = Wsbeceg
