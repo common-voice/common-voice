@@ -400,6 +400,7 @@ faq-how-privacy-q = Тауыштарын иғәнә иткән кешеләрҙ�
 faq-what-determine-identity-q = Common Voice мәғлүмәттәр йыйынтығында мин ораторҙың «шәхесен билдәләй» алмайым, был нимә аңлата?
 faq-what-is-cv = Нимә ул Common Voice?
 faq-using-cv = Common Voice-ты ҡулланыу
+faq-description = Common Voice - Mozillaның машиналарҙың кеше кеүек һөйләшеүенең бер инициативаһы.
 faq-search-for-answers =
     .label = Яуаптар эҙләү
 
@@ -435,8 +436,12 @@ mycroft-subtitle = Яһалма интеллект
 
 glossary = Глоссарий
 localization = Локализация
+localization-explanation = Был беҙҙең контенттың тәржемә һәм адаптация итеүенең процессы.
 sentence-collection = Һөйләмдәр коллекцияһы
+hours-recorded-explanation = Әлеге мәлгә яҙҙырылған тауыштар һанының сәғәте.
 sst = Телмәрҙе текстҡа (Speech-to-text, STT)
+sst-explanation = Speech-to-text (STT) технологияһы тауышты текстҡа әйләндерә.
+de-identified = Эйәһеҙләндерелгән
 
 ## Error pages
 
@@ -450,10 +455,15 @@ data-download-button = Common Voice-тан мәғлүмәттәрҙе сығар
 data-download-yes = Эйе
 data-download-deny = Юҡ
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-download-modal = Һеҙ <size>{ $size }GB</size> тейәргә тораһығыҙ, дауам итәбеҙме?
+data-get-started = <speechBlogLink>Телмәр таныуҙы башларға</speechBlogLink>
+data-other-title = Башҡа тауыш йыйылмалары...
 data-other-goto = { $name }-ға күсергә
 data-other-download = Мәғлүмәттәрҙе алырға
+data-bundle-button = Йыйынтыҡты йөкләргә
 release-version = Версия
 dataset-date = Дата
+license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Буталған
 data-download-singleword-title = «Бер һүҙ» маҡсатлы сегментты тейәгеҙ
 terms-agree = Килешәм
