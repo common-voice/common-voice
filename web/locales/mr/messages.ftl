@@ -242,6 +242,7 @@ about-listen = ऐका
 
 ## Glossary
 
+sst-explanation = स्पीच-टू-टेक्स्ट (एसटीटी) तंत्रज्ञान व्हॉईस डेटाला मजकूरामध्ये रूपांतरित करते.
 
 ## Error pages
 
