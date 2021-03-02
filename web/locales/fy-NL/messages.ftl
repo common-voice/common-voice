@@ -144,6 +144,7 @@ tr = Turksk
 tt = Tatarsk
 uby = Oebyksk
 udm = Oedmoertsk
+ug = Oeigoersk
 uk = Oekraynsk
 ur = Urdu
 uz = Oezbeeksk
