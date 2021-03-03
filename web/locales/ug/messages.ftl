@@ -5,6 +5,7 @@ email-input =
     .label = ئېلخەت
 submit-form-action = يوللاش
 loading = ئوقۇۋاتىدۇ...
+email-opt-in-info-title = Common Voice ئېلخەت تىزىملىكىگە قوشۇلۇڭ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
