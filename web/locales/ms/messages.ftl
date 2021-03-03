@@ -140,6 +140,7 @@ tl = Bahasa Tagalog
 tr = Bahasa Turki
 tt = Bahasa Tatar
 uby = Ubykh
+udm = Bahasa Udmurt
 uk = Bahasa Ukraine
 vi = Bahasa Vietnam
 
