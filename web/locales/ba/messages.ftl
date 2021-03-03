@@ -409,6 +409,7 @@ faq-search-for-answers =
 about-title = Ни өсөн Common Voice?
 about-subtitle = Common Voice - Mozilla-ның машиналарҙы кеше кеүек һөйләшергә өйрәтеүҙең бер өлөшө. Был йыйынтыҡтан тыш, беҙ  Deep Speech тигән асыҡ кодлы движок өҫтөндә эшләйбеҙ, ул кеше телмәрен аңларға өйрәнә.
 how-does-it-work-title = Был нисек эшләй?
+how-does-it-work-text = Беҙ асыҡ аудиояҙма йыйынтығын төҙөйбөҙ. Тауышығыҙ менән ярҙам итегеҙ, башҡаларҙыҡын тикшерегеҙ, был йыйнтыҡты бөтәһе өсөн дә яҡшыртығыҙ.
 about-speak = Һөйләү
 about-speak-text = Ҡатнашыусылар ярҙам йөҙөнән йыйылған һөйләмдәрҙе уҡып, тауыш яҙмалары яҙҙыралар.
 about-listen-queue = Тыңлау сираты
@@ -420,9 +421,11 @@ about-is-it-valid-text = Ҡулланыусы «Эйе» тигәнде һайл
 about-yes-votes = ≥2 «эйе» тауышы
 about-yes-votes-text = Common Voice йыйынтығына инер өсөн, яҙма айырым ике ҡулланыусы тарафынан тикшерелергә тейеш.
 about-no-votes = ≥ 2 тауыш "ҡаршы"
+about-no-votes-text = Әгәр кеше ЮҠ ты һайлаһа, аудияҙма кире сиратҡа тора. Икенсе тапҡыр ЮҠ тип һайланһа, уны "Аудиояҙмалар зыяратына" оҙатабыҙ.
 about-dataset-new = Common Voice йыйынтығы
 about-dataset-new-text = Common Voice йыйынтығында йөҙәр меңләгән тауыштар үрнәге бар, улар эште башҡарыусыларға тауышты таныу инструменттарын булдырырға ярҙам итә.
 about-clip-graveyard = «Яҙмалар зыяраты»
+about-clip-graveyard-text = "Аудиояҙмалар зыяраты" Common Voice йыйынтығына инмәгән аудиояҙмаларҙан тора. Төп яҙмалар кеүек, "Аудиояҙмалар зыяратын" да йөкләргә була.
 about-partners = Партнерҙар
 about-become-a-partner = Партнер булыу
 about-get-involved = Ҡатнашыу
@@ -432,6 +435,9 @@ about-nav-partners = Партнерҙар
 about-nav-get-involved = Ҡатнашыу
 mycroft-title = Mycroft Ai
 mycroft-subtitle = Яһалма интеллект
+mycroft-description =
+    Mycroft - донъялағы тәүге асыҡ кодло тауыш ярҙамсыһы.
+    Mycroft ты бөтә ерҙә лә асып була: компьютерҙа ла, автомобилдә лә, Raspberry Pi-ла ла.
 
 ## Glossary
 
