@@ -103,6 +103,7 @@ mk = Macedonia ñe’ẽ
 ml = Malayalam ñe’ẽ
 mn = Mongolia ñe’ẽ
 mrj = Hill Mari ñe’ẽ
+ms = Malasia ñe’ẽ
 mt = Malta ñe’ẽ
 my = Burma ñe’ẽ
 myv = Erzya ñe’ẽ
