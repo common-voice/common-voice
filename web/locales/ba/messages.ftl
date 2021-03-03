@@ -407,6 +407,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Ни өсөн Common Voice?
+about-subtitle = Common Voice - Mozilla-ның машиналарҙы кеше кеүек һөйләшергә өйрәтеүҙең бер өлөшө. Был йыйынтыҡтан тыш, беҙ  Deep Speech тигән асыҡ кодлы движок өҫтөндә эшләйбеҙ, ул кеше телмәрен аңларға өйрәнә.
 how-does-it-work-title = Был нисек эшләй?
 about-speak = Һөйләү
 about-speak-text = Ҡатнашыусылар ярҙам йөҙөнән йыйылған һөйләмдәрҙе уҡып, тауыш яҙмалары яҙҙыралар.
