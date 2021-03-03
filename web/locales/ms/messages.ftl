@@ -136,7 +136,10 @@ ta = Bahasa Tamil
 te = Bahasa Telugu
 tg = Bahasa Tajik
 th = Bahasa Thai
+tl = Bahasa Tagalog
 tr = Bahasa Turki
+tt = Bahasa Tatar
+uby = Ubykh
 uk = Bahasa Ukraine
 vi = Bahasa Vietnam
 
