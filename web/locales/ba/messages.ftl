@@ -455,6 +455,7 @@ localization-explanation = Был беҙҙең контенттың тәржем
 sentence-collection = Һөйләмдәр коллекцияһы
 sentence-collection-explanation = Һөйләмдәрҙе асыҡ сығанаҡтарҙан туплау йәки асыҡ сығанаҡ булараҡ һөйләмдәр яҙыу.
 hours-recorded-explanation = Әлеге мәлгә яҙҙырылған тауыштар һанының сәғәте.
+hours-validated-explanation = 3 кешенең икәүһе ЭЙЕ тип яуап биргән тауыш йыйынтыҡтарының сәғәт һаны. 10 мең сәғәт тәшкил иткән уртаҡ маҡсаттың прогресы
 sst = Телмәрҙе текстҡа (Speech-to-text, STT)
 sst-explanation = Speech-to-text (STT) технологияһы тауышты текстҡа әйләндерә.
 de-identified = Эйәһеҙләндерелгән
@@ -538,6 +539,7 @@ dataset-version = Версия
 ## Download Modal
 
 download-title = Һеҙҙең тейәүегеҙ башланды
+download-helpus = Беҙгә телдәр технология эргәһендә йәмғиәт төҙөргә ярҙам итегеҙ, беҙҙең менән электрон адрес ярҙамында бәйләнештә ҡалығыҙ.
 download-form-email =
     .label = электрон адресығыҙҙы яҙығыҙ
     .value = рәхмәт Һеҙгә, беҙ бәйләнештә булырбыҙ.
@@ -591,6 +593,7 @@ clips-with-count-pluralized =
         [one] клип
        *[other] клип
     }
+goal-help-recording = Һеҙ Common Voice көнлөк { $goalValue } маҡсаттың <goalPercentage></goalPercentage> үтәргә ярҙам иттегеҙ!
 contribute-more =
     { $count ->
         [one] Тағы { $count } тапҡыр эшләргә әҙерһегеҙмме?
@@ -717,6 +720,11 @@ want-to-continue = Дауам итәһегеҙме?
 finish-editing = Тәүҙә редакторлап бөтәһегеҙме?
 lose-changes-warning = Был биттән китһәгеҙ, индергән үҙгәрештәрегеҙ һаҡланмаясаҡ.
 build-custom-goal = Маҡсатығыҙҙы булдырығыҙ
+help-reach-hours-general-pluralized =
+    Common Voiceҡа был телдә{ NUMBER($hours) ->
+        [one] сәғәт
+       *[other] сәғәт
+    }йыйырға ярҙам итегеҙ
 set-a-goal = Маҡсат ҡуйығыҙ
 cant-decide = Хәл итә алмайһыңмы?
 activity-needed-calculation-plural =
