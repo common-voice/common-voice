@@ -720,11 +720,16 @@ want-to-continue = Дауам итәһегеҙме?
 finish-editing = Тәүҙә редакторлап бөтәһегеҙме?
 lose-changes-warning = Был биттән китһәгеҙ, индергән үҙгәрештәрегеҙ һаҡланмаясаҡ.
 build-custom-goal = Маҡсатығыҙҙы булдырығыҙ
+help-reach-hours-pluralized =
+    { $language } телендә, үҙегеҙҙең шәхси маҡсатығыҙ ярҙамында, { $hours } { NUMBER($hours) ->
+        [one] сәғәткә
+       *[other] сәғәткә
+    } ирешергә ярҙам итегеҙ
 help-reach-hours-general-pluralized =
-    Common Voiceҡа был телдә{ NUMBER($hours) ->
+    Common Voiceҡа был телдә { $hours }{ NUMBER($hours) ->
         [one] сәғәт
        *[other] сәғәт
-    }йыйырға ярҙам итегеҙ
+    } йыйырға ярҙам итегеҙ
 set-a-goal = Маҡсат ҡуйығыҙ
 cant-decide = Хәл итә алмайһыңмы?
 activity-needed-calculation-plural =
