@@ -144,6 +144,7 @@ tr = Turc
 tt = Tatar
 uby = Oubykh
 udm = Oudmourte
+ug = Ouïghour
 uk = Ukrainien
 ur = Ourdou
 uz = Ouzbek
