@@ -282,6 +282,7 @@ shortcut-record-toggle-label = Snemaj/Ustavi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Znova posnemi posnetek
 request-language-text = Vaš jezik še ni vključen v Common Voice?
+request-language-text-learn = Naučite se, kako to zahtevati!
 request-language-button = Predlagaj jezik
 
 ## ProjectStatus
