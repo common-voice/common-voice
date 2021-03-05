@@ -459,6 +459,7 @@ hours-validated-explanation = 3 кешенең икәүһе ЭЙЕ тип яуа
 sst = Телмәрҙе текстҡа (Speech-to-text, STT)
 sst-explanation = Speech-to-text (STT) технологияһы тауышты текстҡа әйләндерә.
 de-identified = Эйәһеҙләндерелгән
+de-identified-explanation = Ҡатнашыусының биргән тауышын йыйынтыҡҡа ҡушҡан саҡта, профилендәге мәғлүмәт юйылыу процессы.
 
 ## Error pages
 
