@@ -869,14 +869,18 @@ card-button-next = Upeigua
 card-button-back = Tapykue
 demo-language-select-label = Eyvykói ñe’ẽnguéra
 demo-eofy-header = Ary paha 2019 ñeguenohẽ
+demo-eofy-sub_header = Ñe’ẽ mba’ekuaarã aty, emboguejykuaáma
 demo-account = Mba’ete
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Ehai ñanduti veve emondo hag̃ua jehaipyre juajuha
 demo-account-sign-up = Emondo mboheraguapy juajuha
 
 ## Demo Contribute
 
+demo-contribute-card-header = ¿Ikatúma embojuaju ne ñe’ẽ térã ehendu?
 demo-listen-subtitle = ¿Mba’éicha eipytyvõta?
 
 ## Demo Dashboard
