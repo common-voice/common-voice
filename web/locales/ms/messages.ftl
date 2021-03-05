@@ -142,6 +142,7 @@ tt = Bahasa Tatar
 uby = Ubykh
 udm = Bahasa Udmurt
 uk = Bahasa Ukraine
+uz = Bahasa Uzbek
 vi = Bahasa Vietnam
 zh-CN = Bahasa Cina
 zh-HK = Bahasa Kantonis Hong Kong
@@ -151,6 +152,7 @@ zh-HK = Bahasa Kantonis Hong Kong
 
 ## Layout
 
+languages = Bahasa
 privacy = Privasi
 terms = Terma
 cookies = Kuki
