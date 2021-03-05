@@ -743,6 +743,7 @@ Alma fühlt sich geehrt.
 Alma hat zu allem eine Meinung, aber für nichts eine Begründung.
 Alois kann profunde Kenntnisse in der Zoologie vorweisen.
 Als Albert von der Arbeit zurück kam konnte er die Musik schon hören.
+Als Alternative schlug er mir den Kauf eines Neuwagens vor.
 Als Aperitif oder Digestif gibt es meistens alkoholische Getränke.
 Als Arzt muss man nicht nur in seinem Fach kompetent sein.
 Als Ausgleich nehme ich Sie in die Liste der Co-Autoren mit auf.
@@ -1659,6 +1660,7 @@ Auf dem höchsten Punkt der Strecke legten sie eine Pause ein.
 Auf dem iPhone nutzen viele stattdessen ChatSecure.
 Auf dem niedrigen Schreibtisch steht eine krumme Stehlampe.
 Auf dem schwarzen Teppich ist jeder Fussel sofort zu sehen.
+Auf dem zweiten Bildungsweg folgte das Abitur.
 Auf den Bauer macht die Rasse einen recht vitalen Eindruck.
 Auf den Herdentrieb ist Verlass.
 Auf den Scheiterhaufen mit diesem Ketzer!
@@ -2073,6 +2075,7 @@ Ballonfahrten in Grenznähe sind immer etwas heikel.
 Ballonstarts in der Einflugschneise sind ungefähr so sinnvoll wie ein Zebrastreifen auf der Autobahn.
 Bananenschalen und so weiter gehören hingegen in die Biotonne.
 Bananensoftware reift beim Kunden.
+Barbara Stolterfoht starb am zwanzigsten Februar zweitausendeinundzwanzig in Berlin.
 Barcode der Fahrkarte nicht erkannt.
 Barfuß betritt der Moslem seinen Gebetsteppich.
 Bargeld ist ein Stück Unabhängigkeit von Banken, das man anfassen kann.
@@ -5910,6 +5913,7 @@ Der Mann wurde bei dem Unfall schwer verletzt.
 Der Markt wird es wie immer richten.
 Der Marsch durch sumpfiges Gelände dauerte mehrere Stunden.
 Der Maulwurf gräbt unter dem Rasen seine Gänge.
+Der Mechaniker konnte den Fehler an meinem fünf Jahre alten Auto nicht finden.
 Der Medizinstudent war krachend durch das Physikum gefallen.
 Der Meisterkoch wird schon wissen, wie er die Reihenfolge der Gerichte arrangiert.
 Der Mensch braucht sieben Pfund Dreck im Jahr.
@@ -6560,6 +6564,7 @@ Dich kenne ich doch!
 Dich sollte man für deine Kantigkeit im Schacht knechten!
 Dick wird man nicht zwischen Weihnachten und Silvester, sondern zwischen Silvester und Weihnachten.
 Dicke Wolken stauten sich an der Bergkante und versperrten die Sicht.
+Die "Situation" wird weiter beobachtet.
 Die Abbildung ist knallbunt und zeigt überhaupt nichts Ortstypisches.
 Die Abbrecherquote ist zu hoch.
 Die Abfahrt ist seit sechs Minuten überfällig.
@@ -7967,6 +7972,7 @@ Die Überquerungshilfe aus dem Beamtendeutsch ist umgangssprachlich der Zebrastr
 Die Überschrift passt überhaupt nicht zum Text.
 Die ölgefeuerte Heizung ist eine alte Dreckschleuder, welche modernisiert werden muss.
 Die übertriebene, aber ehrliche Entschuldigung von Reinhard habe ich dann doch angenommen.
+Die übrig gebliebenen Dokumente waren ohne praktischen Wert.
 Die übrigen Weine sind bei uns in der Verkaufsstelle zum Abholen bereit.
 Die, die auch im Chor singt.
 Die, ähm, das Kapitel zwölf ist ja eine Hausaufgabe.
@@ -9890,6 +9896,7 @@ Er hat sich die App gleich auf seinem iPhone heruntergeladen.
 Er hat sich gestern schon während der Arbeit beklagt.
 Er hat sich sicher gut bedacht, als er die Kuh ins Dorf gebracht.
 Er hat sich tatsächlich hinreißen lassen, eine ganze Familienpackung zu kaufen.
+Er hat sie ohne Fehler wiederholen können.
 Er hat zwölf Uhr gesagt?
 Er hatte beim Abbiegen nicht geblinkt.
 Er hatte damals einen Bandscheibenvorfall oder sowas.
@@ -9991,6 +9998,7 @@ Er muss nach dem Einschlafen ganz eklig husten, aber er schläft weiter.
 Er muss sie sich unbedingt abgewöhnen, aber wie?
 Er muss, das bleibt auch ohne Fragen, für diesen Fall die Kosten tragen.
 Er möchte die Züchtigkeit im Lebensstil seiner Tochter zementieren.
+Er möchte möglichst bald darüber informiert werden.
 Er möchte nicht als Streber dastehen.
 Er nahm sich die Gitarre und spielte ein paar Akkorde.
 Er nahm sich eine Flasche Bacardi mit in die Ausnüchterungszelle.
@@ -10384,6 +10392,7 @@ Es heißt Mozilla Firefox und nicht Mozzarella Firefox.
 Es heißt nicht “Was“ sondern “Wie bitte“
 Es hilft ja alles nichts.
 Es hilft nichts, wir müssen weitermachen.
+Es hilft uns nicht, die alten Dokumente zu durchsuchen.
 Es hält nicht.
 Es hängt davon ab, welche essenziellen Aminosäuren sie enthalten.
 Es irritiert mich jedes Mal, wenn sie den Kopf als Kokosnuss bezeichnet.
@@ -10599,6 +10608,7 @@ Es kübelt schon den ganzen Tag.
 Es lebe der Wurm auf dem Kompost!
 Es liegen nicht mehr viele Schritte vor uns.
 Es liegt an den Herstellern, das Henne-Ei-Problem zu lösen.
+Es liegt ihnen daran, die erwähnten Vorfälle möglichst rasch zu untersuchen.
 Es liegt in der Natur der Sache.
 Es liegt wie immer am Lehrer.
 Es lohnt sich nicht, sich darüber den Kopf zu zerbrechen.
@@ -12284,6 +12294,7 @@ Hajrija ist ein Stück größer als ich.
 Halbe Fahrt voraus!
 Hallo Carsten, könntest du gelegentlich das System und den Domain-Eintrag löschen?
 Hallo Leute, ich bin der Herr aller Daten.
+Hallo meine Freunde, heute kein Bier?
 Hallo und willkommen im Forum!
 Hallo, Papa. Wie war die Arbeit?
 Hallo, all ihr schönen Menschen.
@@ -12344,6 +12355,7 @@ Hannah Gadsby geht sehr offen damit um, dass sie Autistin ist.
 Hannah findet das in Ordnung.
 Hannah ist quasi meine Chefin, sie ist sowas wie die Abteilungsleiterin.
 Hannes muss noch mal schnell zur Post.
+Hans Eichel ernannte sie zur hessischen Staatsministerin für Frauen, Arbeit und Sozialordnung.
 Hans hat einen Korb bekommen, Theo mag keine Körbe.
 Hans-Jochen Vogel war Ministerpräsident von Thüringen Ende der Neunziger.
 Hans-Jürgen hält das Lager für eine tickende Zeitbombe.
@@ -13739,6 +13751,7 @@ Ich habe mich so auf die erfrischend bunte Nacht gefreut.
 Ich habe mich zu der Materie ein wenig belesen.
 Ich habe mich über deinen Brief gefreut.
 Ich habe mich, glaube ich, überanstrengt.
+Ich habe mir die letzten drei Zahlenfolgen gemerkt.
 Ich habe mir ein neues Auto gekauft.
 Ich habe mir einen leuchtenden Globus gekauft.
 Ich habe mir mein Essen bereits vorgekocht.
@@ -14699,6 +14712,7 @@ Im Brennpunkt wird es so heiß, dass das Papier Feuer fängt.
 Im Brutkasten ist es mollige siebenunddreißig Grad warm.
 Im Carbonbeton, einem Verbundwerkstoff, umschließt besonders feinkörniger Beton Stäbe oder Matten aus Carbon.
 Im Computer gibt es Steckplätze für die Grafikkarte und die Netzwerkkarte.
+Im Dezember zweitausendvier wurde sie für vier Jahre wiedergewählt.
 Im Dunkeln ist die Entfernung von Motorrädern schwieriger einzuschätzen, als die von Autos.
 Im Dunkeln ist gut munkeln.
 Im Dunkeln traut sich Erna nicht mehr vor die Tür.
@@ -15224,6 +15238,7 @@ In der Zeit können wir noch einiges schaffen.
 In der Zeitschrift war eine Tüte mit Urzeitkrebsen.
 In der Zukunft braucht man nur einen Referenz-Satz aufzunehmen.
 In der Zwischenzeit klingeln wir bei den Nachbarn.
+In der Zwischenzeit sind in Deutschland über siebzigtausend Personen mit oder an Corona verstorben.
 In der ehemaligen Zone mussten die Schulkinder Russisch lernen.
 In der ersten Klasse genießen die Reisenden mehr Beinfreiheit.
 In der ersten Stunde stellen wir uns alle gegenseitig vor.
@@ -15419,6 +15434,7 @@ In welchem Körper werde ich mich in meinem nächsten Leben wiederfinden?
 In welchem Landkreis liegt Wiefelstede?
 In welchem Schrank stehen die Weingläser?
 In welchem Umfang darf man Zigaretten über die Grenze führen?
+In welchem Zahlenbereich liegen die Resultate?
 In welcher Ackerfurche lernt man denn so etwas?
 In welcher Einheit misst man technische Schulden?
 In welcher Fabel soll das bitte schön vorkommen?
@@ -17185,6 +17201,7 @@ Können Sie mir wenigstens einen Cappuccino anbieten?
 Können Sie sich ausweisen?
 Können Sie sich nicht entschuldigen?
 Können Sie uns ein Taxi bestellen?
+Können Sie uns weitere Informationen zu diesem Phänomen geben?
 Können Sie vielleicht mal den Kofferraum aufmachen?
 Können Tausendfüßler rückwärts laufen?
 Können Tiere eigentlich Kraftsport machen?
@@ -20040,6 +20057,7 @@ Nichts hält ewig.
 Nichts hält für die Ewigkeit.
 Nichts ist einfacher als das.
 Nichts ist gelber als gelb selber.
+Nichts ist mehr so, wie es früher war.
 Nichts ist so alt wie die Zeitung von gestern.
 Nichts ist so überzeugend wie ein Koffer voll Geld.
 Nichts kann so bleiben.
@@ -21921,6 +21939,7 @@ Seine Ernährung auf Erdgas umzustellen, wäre also echt kostensparend.
 Seine Exzellenz wünscht es so.
 Seine Fans machten sich schnell Sorgen.
 Seine Fans werfen faules Obst nach ihm.
+Seine Fragen waren einfach zu beantworten.
 Seine Freunde konnten sich nicht vorstellen, dass Stan der ganze Berg ganz gehören sollte.
 Seine Freundin ist halb nackt während einer Videokonferenz neben ihm aufgetaucht.
 Seine Freundin sollte umgehend ihr Passwort ändern.
@@ -22504,12 +22523,14 @@ Sie spricht in ein Mikrofon mit Wackelkontakt.
 Sie spürte, wie die Lehrerin an ihren Grundwerten zu rütteln versuchte.
 Sie stand auf der Empore und mampfte ein Brötchen.
 Sie standen dort, wie bestellt und nicht abgeholt.
+Sie starb im Alter von achtzig Jahren.
 Sie starrte ihrer Sitznachbarin auf die Brüste.
 Sie stecken wahnsinnig viel Energie in das Projekt.
 Sie stehen in der Garage.
 Sie stehen wohl sehr in deiner Gunst?
 Sie stinkt wie ein Räucherstäbchen.
 Sie studiert Jura.
+Sie studierte Wirtschafts-, Sozial- und Politikwissenschaften in Göttingen, Paris und Berlin.
 Sie stöckelt quer durch den Saal und setzt sich ans Nussbaumklavier.
 Sie suchte ein vertrauensvolles Gespräch mit ihr.
 Sie suchte nach der richtigen Ausstechform.
@@ -23385,6 +23406,7 @@ Spuren seines Erbguts kann man praktisch nicht vermeiden.
 Spät abends ist es schon ziemlich kalt draußen.
 Später eingereichte Fahrkostenbelege können ebenfalls nicht erstattet werden.
 Später mach ich den Deal freundlicher.
+Später war sie ehrenamtliche Vorsitzende des Beirats von Transparency International.
 Später weihte sie ihre Freundinnen ein.
 Später wird der Gewinner verkündet.
 Spätere Berühmtheiten haben mehr Konkurrenz und gehen irgendwann unter.
@@ -24415,6 +24437,7 @@ Unmotiviert und widerwillig gab Anette nur einsilbige Antworten.
 Unnachgiebig pochen die Naturschützer auf den Erhalt des Reservoirs.
 Uns allen könnte es besser gehen, wenn ihr den Worten des Propheten folgt!
 Uns geht es gut. Was ist mit euch?
+Uns ist das im Prinzip egal.
 Uns muss irgendein Kompromiss einfallen.
 Uns war klar, dass der Videodreh Aufsehen erregen würde.
 Uns wird nichts anderes übrig bleiben.
@@ -27694,6 +27717,7 @@ Wie viele Tonnen wiegt die Walze?
 Wie viele Vornamen trägst du?
 Wie viele Wochen seines Lebens verbringt der Durchschnittsmensch auf dem Klo?
 Wie viele Wörter für Schnee haben Eskimos?
+Wie viele bestätigte Neuinfektionen mit Corona wurden am vergangenen Sonntag registriert?
 Wie viele davon sind immer dann nicht auffindbar, wenn man sie gerade braucht?
 Wie viele dieser Container passen noch mal dort auf das Containerschiff?
 Wie viele indische Rupien sind zwanzig Euro?
@@ -28216,6 +28240,7 @@ Wir tauschen lediglich hier und da einige Wörter aus, sodass sie wie Lobeshymne
 Wir treffen uns an der Hinterpforte!
 Wir treffen uns an der Straßenbahnhaltestelle vor der Synagoge.
 Wir tun alle unser Bestes, aber es reicht kaum zum Überleben.
+Wir tun, was wir können in der kurzen Zeit.
 Wir töten keine Tiere.
 Wir unterschätzen das, was wir haben und überschätzen das, was wir sind.
 Wir unterstellen ihm keine böse Absicht, lediglich Unfähigkeit.
@@ -29210,10 +29235,12 @@ Zweifelsohne besteht Nachbesserungsbedarf.
 Zweihundertfünfundzwanzig Sätze sind etwa fünfzehn Minuten ehrenamtliche Arbeit.
 Zweimal übersprang der Überflieger eine Klasse und holte den Stoff binnen Wochen auf.
 Zweitakter machen viel Krach und haben Abgaswerte jenseits von Gut und Böse.
+Zweitausendfünf wurde sie mit dem Bundesverdienstkreuz am Bande geehrt.
 Zweitausendfünfzehn wurde er durch sein Engagement für Flüchtlinge deutschlandweit bekannt.
 Zweitausendfünfzig wird ein Team aus Robotern die menschlichen Fußballweltmeister schlagen.
 Zweitausendzwanzig läuft die letzte Schonfrist ab.
 Zweitausendzweiundzwanzig wird Frankreich leider schon in der Vorrunde ausscheiden.
+Zweitausendzwölf erhielt sie die Wilhelm-Leuschner-Medaille des Landes Hessen.
 Zweitens muss sie ein Gespräch mit einer anderen Frau führen, die einen Namen hat.
 Zweiundneunzig Prozent der Zuschauer bewerteten den Darsteller als primitiv aber geil.
 Zweiundsiebzig Prozent aller Bürger sind nicht in der Lage, Statistiken kritisch zu hinterfragen.
