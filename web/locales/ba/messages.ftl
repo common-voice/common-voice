@@ -463,7 +463,9 @@ de-identified = Эйәһеҙләндерелгән
 ## Error pages
 
 error-title-404 = Был бит табылманы
+error-content-404 = Бәлки беҙҙең <homepageLink>баш бит</homepageLink> ярҙам итер? Һорау бирер өсөн ҙинһар <matrixLink> Matrix чаттына</matrixLink> ҡушылығыҙ, һорауҙарҙы <githubLink>GitHub</githubLink> сайтында һәм <discourseLink>беҙҙең Discourse форумында</discourseLink> күҙәтә алаһығыҙ.
 error-title-503 = Көтөлмәгән буш тороуға юлыҡтыҡ
+error-content-503 = Сайт тиҙҙән кире эшләй башлаясаҡ. Һуңғы мәғлүмәттәрҙе белер өсөн  һәм килеп сыҡҡан ҡыйынлыҡтарҙы еткерер өсөн <matrixLink> Matrix чатына</matrixLink> ҡушылығыҙ йәки <githubLink>GitHub</githubLink> йә <discourseLink>беҙҙең Discourse форумында</discourseLink> ҡуллана алаһығыҙ.
 error-code = Хата { $code }
 
 ## Data
