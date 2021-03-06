@@ -606,6 +606,7 @@ clips-with-count-pluralized =
        *[other] клип
     }
 goal-help-recording = Һеҙ Common Voice көнлөк { $goalValue } маҡсаттың <goalPercentage></goalPercentage> үтәргә ярҙам иттегеҙ!
+goal-help-validation = Һеҙ Common Voice'ҡа көндәлек  тикшереү маҡсатының { $goalValue }  <goalPercentage></goalPercentage> күрһәткесен ирешергә ярҙам иттегеҙ!
 contribute-more =
     { $count ->
         [one] Тағы { $count } тапҡыр эшләргә әҙерһегеҙмме?
@@ -649,6 +650,9 @@ record-button-label = Тауышығыҙҙы яҙҙырығыҙ
 share-title-new = Күберәк тауыш табырға <bold>ярҙам итегеҙ</bold>
 keep-track-profile = Профилегеҙҙә үҙегеҙҙең алға китеште  күҙәтегеҙ
 login-to-get-started = Эш башлар өсөн, системаға инегеҙ һәм теркәлегеҙ
+target-segment-first-card = Беҙҙең беренсе маҡсатлы сегментҡа Һеҙ үҙ өлөшөгөҙҙө индерәһегеҙ.
+target-segment-generic-card = Һеҙ маҡсатлы сегментҡа өлөшөгөҙҙө индерәһегеҙ
+target-segment-first-banner = { $locale } Common Voice-тең беренсе маҡсатлы сегментын булдырырға ярҙам итегеҙ
 target-segment-add-voice = Тауышығыҙҙы өҫтәгеҙ
 target-segment-learn-more = Тулыраҡ белергә
 
@@ -712,6 +716,7 @@ validated-clips = Тикшерелгән клиптар
 total-approved = Бөтәһе тикшерелде
 overall-accuracy = Дөйөм теүәллек
 set-visibility = Минең күремлекте көйләү
+visibility-overlay-note = Иҫкәрмә: Әгәр «Күренә»тип бирелә икән, был парамтерҙы <profileLink> профиль битендә </profileLink> үҙгәртеп була.
 show-ranking = Рейтингымды күрһәтергә
 
 ## Custom Goals
@@ -761,6 +766,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Бик яҡшы! Көнөнә нисә клип?
 how-many-a-week = Бик яҡшы! Аҙнаһына нисә клип?
 which-goal-type = Һеҙ яҙҙырырға йә тикшерергә теләйһегеҙме, әллә икеһен дә бергәме?
+receiving-emails-info = Һеҙ әле маҡсаттар тураһында иҫкә төшөрөүҙәрҙе, алға китештәге үҙгәрештәрҙе, Common Voice тураһында мәғлүмәттәрҙе үҙ эсенә алған  электрон хаттар ала алаһығыҙ.
+not-receiving-emails-info = Һеҙ әле маҡсаттар тураһында иҫкә төшөрөүҙәрҙе, алға китештәге үҙгәрештәрҙе, Common Voice тураһында мәғлүмәттәрҙе үҙ эсенә алған  электрон хаттар  <bold>алмаҫҡа</bold>көйләнгәнһегеҙ  .
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
