@@ -144,6 +144,7 @@ tr = Taṭurkit
 tt = Taṭaṭarit
 uby = Tubyixt
 udm = Tudmurt
+ug = Tawigurt
 uk = Takrinit
 ur = Urdu
 uz = Tuzbikt
