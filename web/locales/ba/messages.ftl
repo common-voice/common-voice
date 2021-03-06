@@ -174,7 +174,7 @@ terms = Шарттар
 cookies = Кукилар
 faq = Йыш бирелгән һорауҙар
 content-license-text = Йөкмәткеһе Creative Commons</licenseLink>тың  лицензияһы <licenseLink>   менән  асыҡ
-share-title = Беҙгә тауыштарын яҙҙырырға әҙер булған кешеләр табырға ярҙам итегеҙ
+share-title = Тауыштарын яҙҙырырға теләгән кешеләр табырға ярҙам итегеҙ беҙгә!
 share-text = Машинаны ысын кешеләр кеүек һөйләшергә өйрәтергә ярҙам итәйек, тауышығыҙҙы иғәнә итегеҙ { $link }
 link-copied = Һылтанма күсереп алынды
 back-top = Иң башҡа
@@ -396,6 +396,10 @@ faq-why-10k-hours-a = Был эш системаһын телмәрҙе текс
 faq-how-calc-hours-q = Common Voice нисек ваҡытты иҫәпләй?
 faq-how-calc-hours-a = Һәр яҙманың уртаса ваҡытын билдәләп, артабан уны бөтә телдәрҙәге яҙмаларҙың дөйөм һанына ҡабатлап, беҙ сәғәттәр һанын иҫәпләп сығарабыҙ
 faq-where-src-from-2-q = Тәүге текст ҡайҙан алына?
+faq-where-src-from-2-a =
+    Беҙҙең тәүге  текст ҡатнашыусыларҙың яҙҙырған оригинал яҙмаларынан, шулай уҡ<italic>It’s a Wonderful Life</italic> кеүек асыҡ ҡулланышта булған фильмдар сценарийҙарының диалогынан тора. 
+    ¶
+    Һеҙ тәүге һөйләмдәрҙе ошо папкала ҡарай алаһығыҙ<githubLink>GitHub</githubLink>.
 faq-why-not-ask-read-q = Ә ниңә һеҙгә кешеләрҙән төрлө телдәрҙә Википедиянан китаптар йә мәҡәләләр уҡыуын һорамаҫҡа?
 faq-why-account-q = Ни өсөн мин теркәлергә тейешмен?
 faq-is-account-public-q = Аккаунтым тураһындағы мәғлүмәт бөтә кешегә лә күренәме?
@@ -476,6 +480,8 @@ data-download-yes = Эйе
 data-download-deny = Юҡ
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
 data-download-modal = Һеҙ <size>{ $size }GB</size> тейәргә тораһығыҙ, дауам итәбеҙме?
+data-subtitle = Асыҡ һәм һәр кем ҡуллана алырлыҡ  тауыштар йыйынтығы булдырабыҙ, уны һәр кем  телмәр менән эш иткән программаларҙы "уҡытыуҙа"   ҡуллана ала.
+data-explanatory-text = Ҙур, иркен ҡулланылған тауыштар йыйынтығы машиналарҙы өйрәтеүгә нигеҙләнгән телмәр технологиялары өлкәһендәге инновацияға һәм дөрөҫ сауҙа конкуренцияһына булышлыҡ итә, тип иҫәпләйбеҙ.  Был иҫ киткес әһәмиәткә эйә эш, бөтә кешеләрҙе лә ҡатнашырға саҡырабыҙ.  Маҡсатыбыҙ - ер шарындағы телдәр төрлөлөгөн сағылдырып, телмәр технологияларын ҡулланыу хоҡуғын берҙәй тигеҙ булырға ярҙам итергә.
 data-get-started = <speechBlogLink>Телмәр таныуҙы башларға</speechBlogLink>
 data-other-title = Башҡа тауыш йыйылмалары...
 data-other-goto = { $name }-ға күсергә
@@ -526,8 +532,10 @@ subscribe = Яҙылырға
 get-started-speech = Телмәрҙе таныу менән эш башлағыҙ
 other-datasets = Башҡа яҙма йыйынтығы
 feedback-q = Кире бәйләнеш бармы?
+data-other-librispeech-description = LibriSpeech -  LibriVox проектында уҡылған аудиокитаптарҙан алынған 16 кГц йышлығындағы яҡынса 1000 сәғәтлек инглиз телмәренән торған корпус.
 data-other-ted-name = TED-LIUM йыйынтығы
 data-other-ted-description = TED-LIUM йыйынтыҡтары TED сайтындағы аудио һәм уның транскрипциялары буйынса төҙөлдө.
+data-other-voxforge-description = VoxForge ирекле һәм асыҡ  телмәрҙе таныу системаларына транскрипцияланған телмәрҙе йыйыу өсөн булдырылды
 data-other-tatoeba-description = Tatoeba - тел өйрәнеүҙә ҡулланыу өсөн ҙур һөйләмдәр, тәржемәләр һәм һөйләү телмәре булған яҙмаларҙың ҙур йыйынтығы. Был тейәлгән файл инглиздәр яҙҙырған яҙмаларҙан тора.
 your-feedback = Common Voice-ты нисек яҡшыртырға идеяларығыҙ бармы? Беҙҙең Discourse форумында яҙығыҙ.
 go-discourse = Дискурсҡа күсергә
@@ -572,6 +580,7 @@ other-language = Башҡа тел
 
 language-section-in-progress = Әҙерләү бара
 language-section-launched = Башланған
+language-section-launched-description = Эшләй башлаған телдәрҙә һәр ваҡыт өлөш индереү өсөн  <speakLink>Тауыш йыйырға</speakLink> һәм  <listenLink>Тикшерергә</listenLink> веб-сайт уңышлы  <localizationGlossaryLink>локализацияланған</localizationGlossaryLink> һәм етәрлек кимәлдә  <sentenceCollectionGlossaryLink>һөйләмдәр  йыйылған </sentenceCollectionGlossaryLink>
 languages-show-more = Күберәк ҡарарға
 languages-show-less = Әҙерәк
 language-meter-in-progress = Прогресс
