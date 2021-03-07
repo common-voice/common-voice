@@ -579,6 +579,7 @@ other-language = Башҡа тел
 ## Languages Overview
 
 language-section-in-progress = Әҙерләү бара
+language-section-in-progress-new-description = Был телдәр әлеге ваҡытта берлекмәләр үҫешеү стадияһында. Прогрес индикаторҙары һәр телдә <localizationGlossaryLink>сайттың тәржемә ителеүен</localizationGlossaryLink> һәм <sentenceCollectionGlossaryLink>һөйләмдәр йыйыу</sentenceCollectionGlossaryLink> процесссын күрһәтә.
 language-section-launched = Башланған
 language-section-launched-description = Эшләй башлаған телдәрҙә һәр ваҡыт өлөш индереү өсөн  <speakLink>Тауыш йыйырға</speakLink> һәм  <listenLink>Тикшерергә</listenLink> веб-сайт уңышлы  <localizationGlossaryLink>локализацияланған</localizationGlossaryLink> һәм етәрлек кимәлдә  <sentenceCollectionGlossaryLink>һөйләмдәр  йыйылған </sentenceCollectionGlossaryLink>
 languages-show-more = Күберәк ҡарарға
