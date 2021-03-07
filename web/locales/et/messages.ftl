@@ -9,7 +9,6 @@ email-input =
 submit-form-action = Saada
 loading = Laadimine…
 email-opt-in-info = Soovin saada e-kirju eesmärkide meeldetuletuste ja edenemise uuendustega ning uudiskirju Common Voice'i kohta.
-email-opt-in-privacy = Lubades saata endale e-kirju, nõustud ühtlasi sellega, et Mozilla kasutab seda infot nii, nagu on kirjeldatud <privacyLink>Privaatsuspoliitikas<privacyLink>.
 indicates-required = * tähistab kohustuslikku välja
 not-available-abbreviation = N/A
 
@@ -60,7 +59,6 @@ ga-IE = iiri
 gl = galeegi
 ha = hausa
 he = heebrea
-hi-IN = hindi
 hr = horvaadi
 hsb = ülemsorbi
 hu = ungari
@@ -75,7 +73,6 @@ kab = kabiili
 kk = kasahhi
 ko = korea
 kpv = sürjakomi
-ku = kurdi
 kw = korni
 ky = kirgiisi
 lij = liguuri
@@ -95,7 +92,6 @@ nn-NO = norra (nynorsk)
 oc = oksitaani
 or = oria
 pl = poola
-pt-BR = portugali (brasiilia)
 rm-sursilv = romanši (surselva)
 ro = rumeenia
 ru = vene
@@ -196,7 +192,6 @@ x-years-short =
        *[other] { $count } aastat
     }
 help-make-dataset = Aita meil luua kvaliteetne ja kõigile avalik andmestik
-profile-not-required = Konto omamine ei ole vajalik, ent võimaldab rohkem
 sign-up-account = Loo konto
 email-subscription-title = telli endale uuendused e-postiga
 
@@ -216,7 +211,6 @@ whats-public = Mis on avalik?
 email-not-public = Me ei avalikusta sinu e-posti aadressi.
 recordings-and-locale-public = Salvestiste arv ja teave selle kohta, milliste keelte andmetesse panustamises oled osalenud, on avalik.
 username-optin-public = Saad valida, kas sinu kasutajanimi on avalik või anonüümne.
-demographic-deidentified = Vabatahtlikult lisatud demograafilised andmed (nt vanus, sugu, keel ja murdetaust) anonümiseeritakse ja neid ei avaldata sinu konto juures.
 username-email-not-demographic = Sinu kasutajanime ja e-posti aadressi ei seostata avaldatud andmetega.
 
 ## Speak & Listen Shortcuts
@@ -274,8 +268,6 @@ profile-form-accent =
     .label = Aktsent
 profile-form-age =
     .label = Vanus
-profile-form-gender =
-    .label = Sugu
 leaderboard-visibility =
     .label = Nähtavus pingereas
 hidden = Peidetud
@@ -301,7 +293,6 @@ profile-close = Sulge
 profile-explanation = Jälgi profiili abil oma edenemist ja ühtlasi aita ka meil saada täpsemaid hääleandmeid.
 thanks-for-account = Täname, et kinnitasid oma kasutajakonto, loome nüüd sulle profiili.
 why-demographic = Miks see oluline on?
-why-demographic-explanation = Anonüümsed kasutajate andmed (nt vanus, sugu, aktsent) aitavad täiustada neid hääleandmeid, mida kasutatakse kõnetuvastussüsteemide paremaks treenimiseks. Sinu kasutajanime ega e-posti aadressi ei ühendata kunagi sinu andmetega ja sa võid ise valida, kas sinu kasutajanimi on avalik või anonüümne.
 accept-privacy = Olen nõus selle info käsitsemiseks Mozilla <privacyLink>privaatsusreeglitest</privacyLink> lähtuvalt
 login-identity = Kasutajatunnus
 login-signup = Logi sisse / registreeru
@@ -314,8 +305,6 @@ skip-submission-description = Panuse ära saatmisel jäetakse tagasiside andmine
 skip-submission-note = Märkus: panustamise tüübi muutmiseks tuleb valida "räägi" või "kuula".
 off = Väljas
 on = Sees
-add-avatar-title = Lisa oma profiilile avatar
-add-avatar-clip = Lisa oma profiilile avatarsalvestis
 browse-file-title = Laadi üles pilt
 browse-file = Lohista siia või <browseWrap>sirvi faile</browseWrap>
 connect-gravatar = Ühenda Gravatariga
@@ -342,8 +331,6 @@ faq-why-important-a =
     Kogume kõneandmeid nii suure kõnelejaskonnaga kui ka väiksemates keeltes, viimaste jaoks puuduvad sageli kommertskõnetuvastussüsteemid. Mitmekesise ja mitmekeelse kõneandmestiku avaldamine annab arendajatele, ettevõtjatele ja keelekogukondadele võimaluse ise need kõnetuvastussüsteemid luua.
 faq-how-get-q = Kuidas ma saaksin endale Common Voice'i andmestikke?
 faq-how-get-a = Common Voice'i andmestik on allalaaditav <licenseLink>CC0</licenseLink> litsentsiga <datasetLink>meie andmestike lehelt</datasetLink>. Samalt lehelt saad alla laadida ka teisi avalikult kasutatavaid andmestikke.
-faq-when-release-q = Millal avaldate Common Voice'i teiste keelte andmestikud?
-faq-when-release-a = Common Voice'i andmekogumi mitmekeelset versiooni luuakse ja korrastatakse praegu kogukonna toel. Kui tahad rohkem teada selle kohta, kuidas saaks projekti toetada,  <contactLink>võta meiega ühendust</contactLink>. Meie eesmärgiks praegu on avaldada andmekogum jaanuaris 2019. Pärast seda täiendame perioodiliselt materjali uute keelte ja salvestistega.  Kui tihti uuendatud andmekogumit avaldama hakatakse, pole veel otsustatud.
 faq-why-mission-q = Miks on Common Voice osa Mozilla missioonist?
 faq-why-mission-a = Mozilla eesmärgiks on hoida Internet vaba ja üldkasutatavana. Selle jaoks on meil vaja toetada veebiarendajaid selliste projektidega nagu Common Voice. Kui kõnetehnoloogia muutub üldkasutatavaks, peaks ta meie arvates olema üldkasutatav kõigile. Seetõttu tuleb meil panustada kõnetehnoloogia arendamisel ja testimisel suurema hulga keelte ja keelevariantide kaasamisse. Common Voice on kõigile avatud ressurss ning Mozilla töörühmad ja arendajad üle maailma juba kasutavad seda ka oma projektide jaoks.
 faq-what-cv-and-deepspeech-q = Mis vahe on Common Voice'il ja Deep Speech'il?
@@ -397,10 +384,8 @@ sst-explanation = Kõnetuvastustehnoloogiad teisendavad hääleandmed tekstiks.
 de-identified = Anonümiseeritud
 de-identified-explanation = Protsess, mille abil panustaja profiiliandmed varjatakse nende salvestatud häälklippidest, kui need andmestiku allalaadimiseks kokku pakitakse.
 
-## NotFound
+## Error pages
 
-notfound-title = Ei leitud
-notfound-content = Kahjuks me ei tea, mida sa otsid.
 
 ## Data
 
@@ -470,7 +455,9 @@ data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus koosneb audio kõnedest ja nende transkriptsioonidest, mis on kättesaadavad TEDi veebilehel.
 data-other-voxforge-description = VoxForge käivitati, et koguda transkribeeritud kõnet kasutamaks tasuta ja avatud lähtekoodiga kõnetuvastuse mootorites.
 data-other-tatoeba-description = Tatoeba on suur lausete, nende tõlgete ja kõneldud heli andmebaas, mida kasutatakse keeleõppes. Käesolev allalaadimise komplekt sisaldab nende kogukonna poolt salvestatud inglise keelt.
+your-feedback = Kas sul on ideid Common Voice'i paremaks muutmiseks? Anna meile foorumis teada.
 go-discourse = Vaata foorumit
+missing-language = Kas sa ei näe enda keelt andmete kogumis? Keele taotlemiseks pöörduge meie keelte lehele.
 go-languages-page = Ava keelte leht
 ready-to-validate = Valmis lausete kontrollimiseks?
 
@@ -507,7 +494,6 @@ language-section-in-progress = Pooleli
 language-section-launched = Käivitatud
 languages-show-more = Vaata rohkem
 languages-show-less = Vaata vähem
-language-speakers = Kõnelejaid
 language-meter-in-progress = Edenemine
 language-total-progress = Kokku
 language-search-input =
@@ -517,7 +503,7 @@ localized = Lokaliseeritud
 sentences = Lauseid
 total-hours = Kontrollitud tunde
 
-## New Contribution
+## Contribution
 
 action-click = Klõpsa
 action-tap = Puuduta
@@ -525,7 +511,6 @@ contribute = Panusta
 listen = Kuula
 skip = Jäta vahele
 shortcuts = Otseteed
-clips-with-count = <bold>{ $count }</bold> salvestist
 goal-help-recording = Oled aidanud Common Voice'il saavutada <goalPercentage></ goalPercentage> meie igapäevasest salvestamise eesmärgist ({ $goalValue })!
 goal-help-validation = Oled aidanud Common Voice'il saavutada <goalPercentage></ goalPercentage> meie igapäevasest kontrollimise eesmärgist ({ $goalValue })!
 contribute-more =
@@ -536,7 +521,6 @@ contribute-more =
 record-cta = Alusta salvestamist
 record-platform-not-supported = Vabandust, kuid sinu platvormi hetkel ei toetata.
 record-platform-not-supported-desktop = Lauaarvutitel saad alla laadida uusimaid:
-record-platform-not-supported-ios = <bold>iOSi</bold> kasutajad saavad alla laadida meie tasuta rakenduse:
 record-must-allow-microphone = Pead lubama juurdepääsu mikrofonile.
 record-no-mic-found = Mikrofoni ei leitud.
 record-error-too-short = Salvestus oli liiga lühike.
@@ -562,7 +546,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> kas nad hääldasid la
 listen-again-instruction = Hea töö! <playIcon></playIcon> kuula uuesti, kui oled valmis
 listen-3rd-time-instruction = 2 tehtud, jätka samas vaimus! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Viimane!
-nothing-to-validate = Meil pole midagi kontrollida selles keeles, aita meil järjekorda täita.
 record-button-label = Salvesta oma hääl
 share-title-new = <bold>Aita meil</bold> leida rohkem hääli
 
@@ -594,6 +577,8 @@ your-languages = Sinu keeled
 toward-next-goal = Edasi järgmise eesmärgi poole
 clips-you-recorded = Sinu lindistatud heliklipid
 clips-you-validated = Sinu kontrollitud heliklipid
+todays-recorded-progress = Common Voice'i tänane edenemine lindistatud heliklippide lõikes
+todays-validated-progress = Common Voice'i tänane edenemine kontrollitud klippide lõikes
 stats = Statistika
 you = Sina
 everyone = Kõik
@@ -604,8 +589,12 @@ validated-clips = Kontrollitud salvestisi
 total-approved = Kinnitatud kokku
 overall-accuracy = Üldine korrektsus
 
+## Custom Goals
+
+
 ## Profile Delete
 
+delete-q = Kas soovid lasta ka oma salvestised kustutada või pigem säilitada need Common Voice'i andmekogumis?
 keep = Säilita
 remove = Kustuta
 profile-form-delete = Kustuta profiil
@@ -613,3 +602,18 @@ profile-form-delete = Kustuta profiil
 ## Landing
 
 profile-not-required = Konto omamine ei ole vajalik, ent võimaldab rohkem
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
