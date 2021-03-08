@@ -126,6 +126,9 @@ ru = Bahasa Rusia
 rw = Bahasa Rwanda
 sah = Bahasa Sakha
 sc = Bahasa Sardinia
+scn = Bahasa Sicilia
+si = Bahasa Sinhala
+sk = Bahasa Slovak
 sl = Bahasa Slovenia
 sq = Bahasa Albania
 sr = Bahasa Serbia
@@ -141,18 +144,26 @@ tr = Bahasa Turki
 tt = Bahasa Tatar
 uby = Ubykh
 udm = Bahasa Udmurt
+ug = Bahasa Uyghur
 uk = Bahasa Ukraine
+ur = Bahasa Urdu
 uz = Bahasa Uzbek
+vec = Bahasa Venesia
 vi = Bahasa Vietnam
 zh-CN = Bahasa Cina
 zh-HK = Bahasa Kantonis Hong Kong
+zh-TW = Bahasa Cina (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Bercakap
+datasets = Set data
 languages = Bahasa
+about = Mengenai
+profile = Profil
 privacy = Privasi
 terms = Terma
 cookies = Kuki
