@@ -405,7 +405,12 @@ faq-why-not-ask-read-a = Ili kufanya daftari la Common Voice liwe muhimu kadiri 
 faq-why-account-q = Kwa nini nijisajili kupata akaunti?
 faq-is-account-public-q = Je! Habari za akaunti yangu zinawekwa kwa umma?
 faq-how-privacy-q = Je! Unahakikishaje kutojulikana na faragha ya watu waliotoa sauti zao?
+faq-how-privacy-a = Vipande vyote vya sauti kwenye daftari zimeondolewa habari za kutambulisha watu. Wakati mchangiaji hutoa data inayomhusu kupitia wasifu wao, habari hizo huondolewa kutoka kwa sehemu za sauti zao kabla ya kuwekwa kwenye kifurushi cha kupakuliwa kwenye daftari na kamwe haitangazwi kwa umma kwenye ukurasa wa wasifu wao.
 faq-what-determine-identity-q = Inamaanisha nini kuwa siwezi "kutambua utambulisho" wa wasemaji kwenye daftari la Common Voice?
+faq-what-determine-identity-a =
+    Daftari la Common Voice ni rasilimali wazi na inayopatikana kwa umma ambayo inaweza kutumika kufundisha programu tofauti zenye uwezo wa kutambua sauti. Ili kulinda usalama wa wachangiaji wetu, tunaomba kila mtu anayepakua daftari la Common Voice kuheshimu faragha ya wachangiaji. 
+    
+    Vipande vyote vya sauti kwenye hifadhidata zinatolewa taarifa binafsi za utambuzi. Unapopakua daftari hili, unakubali kutojaribu kubaini kumtambua mchangiaji yeyote. Hivyo inamaanisha kuwa huwezi kujaribu kuunganisha taarifa kwenye daftari la Common Voice na maelezo binafsi ya mchangiaji. Hata hivyo, unaweza kutumia daftari hili kutoa mafunzo kwa programu za utambuzi wa sauti, utambuzi wa msemaji, au programu zingine, kwa mfano, kuunganisha taarifa kwenye daftari na habari zingine zilizo tayari kwenye daftari
 faq-what-is-cv = Common voice ni nini?
 faq-using-cv = kutumia common voice
 faq-description = Common Voice ni sehemu ya mpango wa Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza
