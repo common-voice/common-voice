@@ -401,6 +401,7 @@ faq-where-src-from-2-a =
     
     Unaweza kuona sentensi zetu katika hii <githubLink> Folda ya GitHub </githubLink>.
 faq-why-not-ask-read-q = Kwa nini usiombe watu wasome vitabu au nakala za Wikipedia katika lugha tofauti?
+faq-why-not-ask-read-a = Ili kufanya daftari la Common Voice liwe muhimu kadiri inavyowezekana tumeamua kuruhusu tu maandishi asili ambayo inapatikana chini ya leseni ya Creative Commons (CC0). Kutumia kiwango cha CC0 inamaanisha kuwa ni ngumu zaidi kupata na kukusanya maandishi ya asili, lakini inamruhusu mtu yeyote atumie data inayotokana na sauti bila vizuizi vya matumizi au idhini kutoka kwa Mozilla. Mwishowe, tunataka kuifanya daftari ya lugha tofauti iwe muhimu kwa kila mtu, pamoja na watafiti, vyuo vikuu, kampuni zinazoanza, serikali, mashirika ya kusudi za kijamii, na wapenda hobby.
 faq-why-account-q = Kwa nini nijisajili kupata akaunti?
 faq-is-account-public-q = Je! Habari za akaunti yangu zinawekwa kwa umma?
 faq-how-privacy-q = Je! Unahakikishaje kutojulikana na faragha ya watu waliotoa sauti zao?
