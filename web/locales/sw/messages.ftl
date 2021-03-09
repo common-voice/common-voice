@@ -494,6 +494,7 @@ data-download-deny = Hapana
 data-download-license = Leseni: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Unakaribia kuanzisha upakuaji wa <size>{ $size }GB</size> , endelea?
 data-subtitle = Tunaunda daftari la data ya sauti inayopatikana wazi na kwa umma ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
+data-explanatory-text = Tunaamini kuwa daftari kubwa la sauti na linalopatikana kwa umma linakuza uvumbuzi na ushindani mzuri wa kibiashara katika teknolojia ya sauti inayotegemea mafunzo ya mashine. Hii ni juhudi ya ulimwengu na tunakaribisha kila mtu kushiriki. Lengo letu ni kusaidia teknolojia ya sauti iwe kuunganisha zaidi, ikionyesha utofauti wa sauti kutoka kote ulimwenguni.
 data-get-started = <speechBlogLink> Anza na Utambuzi wa sauti </speechBlogLink>
 data-other-title = Daftari zingine za sauti
 data-other-goto = Nenda kwa { $name }
