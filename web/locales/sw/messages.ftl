@@ -384,6 +384,9 @@ faq-is-goal-assistant-a = Lengo la daftari la Common Voice ni kuwezesha mtu yeyo
 faq-do-want-native-q = Mimi si mzungumzaji asili na ninazungumza kwa lafudhi, bado mnataka sauti yangu?
 faq-do-want-native-a = Ndio, tunataka sauti yako! Sehemu ya madhumuni ya Common Voice ni kukusanya anuwai nyingi za lafudhi iwezekanavyo ili huduma za utambuzi wa sauti zifanye kazi sawa kwa kila mtu. Hii inamaanisha michango kutoka kwa wasemaji ambao sio asilia ni muhimu sana.
 faq-why-different-speakers-q = Kwa nini unahitaji wasemaji wengi tofauti kwa kila lugha?
+faq-why-different-speakers-a =
+    Hifadhidata nyingi za sauti zinafunzwa na uwasilishaji mkubwa wa data inayohusu watu ambayo husababisha upendeleo kuelekea <articleLink> daraja la kiume na la kati</articleLink>. Lafudhi na lahaja ambazo huwa zinawakilishwa chini ya uwasilishaji katika seti za data ya mafunzo kawaida zinahusishwa na vikundi vya watu ambao tayari wametengwa. Mashine nyingi pia zinapambana kuelewa sauti za kike.
+    Hii ndio sababu katika daftari letu tunataka sauti tofauti!
 faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
 faq-what-quality-q = Ni kiwango gani cha ubora wa sauti kinahitajika ili kipande cha sauti kitumiwe kwenye daftari?
 faq-why-10k-hours-q = Kwa nini saa 10,000 zilizothibitishwa ndio lengo la kila lugha la kurekodi sauti?
