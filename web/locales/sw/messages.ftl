@@ -521,6 +521,12 @@ review-delete-recordings = Futa rekodi zangu
 ## Datasets Page
 
 datasets-headline = Tunaunda chanzo wazi la hifadhidata ya sauti yenye lugha nyingi tofauti ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
+datasets-positioning =
+    Tunaamini kuwa hifadhidata kubwa ya sauti, inayopatikana kwa umma itakuza uvumbuzi na ushindani mzuri wa kibiashara katika kufunza mashine inayotegemea teknojia ya sauti.
+    
+    Common Voice ni hifadhidata ya lugha nyingi ya sauti inayopatikana kwa umma ambayo tayari ni hihafidata kubwa zaidi ya aina yake, lakini sio ya kipekee.
+    
+    Angalia ukurasa huu kama kitovu cha kumbukumbu la hifadhidata ya sauti vya vyanzo wazi, na Common Voice inavyoendelea kukua, ni sehemu yetu ya kutolea sasisho.
 language = lugha
 # File size in gigabytes
 size = Ukubwa
