@@ -546,11 +546,16 @@ download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
 whats-inside = Nini kipo ndani ya daftari la Common Voice?
+dataset-description-hours =
+    Kila ingizo kwenye hifadhidata ina MP3 ya kipekee sambamba na faili la maandishi. Saa nyingi za <b>{ $total }</b> zilizorekodiwa kwenye hifadhidata pia zinahusisha metadata ya data zinazohusu watu kama vile umri, jinsia, na lafudhi ambayo inaweza kusaidia kufundisha usahihi wa injini za utambuzi wa sauti.
+    
+    Kwa sasa hifadhidata ina masaa <b>{ $valid }</b> yaliyohalalishwa kwenye lugha <b>{ $languages }</b>, lakini kila wakati tunaongeza sauti na lugha zingine. Angalia ukurasa wetu wa <languagesLink>Lugha</languagesLink> ili kuomba lugha au kuanza kuchangia.
 want-dataset-update = Unahitaji visasisho pindi tunapotoa toleo jipya la hifadhi ya Common Voice? Jiandikishe kwa jarida letu.
 subscribe = Jiandikishe
 get-started-speech = Pata kuanza na utambulizi wa sauti
 other-datasets = Daftari zingine za sauti
 feedback-q = Una Maoni?
+deepspeech-info = Daftari la Common Voice linakamilisha chanzo wazi la utambuzi wa sauti ya injini ya Deep speech ya Mozilla, ambayo inaweza kutumika kutengeneza programu za utambuzi wa sauti. Soma <githubLink>muhtasari wetu wa Github</githubLink> au jiunge na <discourseLink>DeepSpeech Dicrourse</discourseLink> ili kujifunza jinsi ya kuanza.
 common-voice-info-new = Je! Una maswali kuhusu Common Voice? Mawazo ya maboresho au maoni juu ya lugha maalum? Jiunge nasi kwenye idhaa yetu ya <discourseLink> Discourse </discourseLink> na utujulishe.
 data-other-librispeech-description = LibriSpeech ni daftari la takriban saa 1000 za 16Khz za sauti ya Kiingereza ziliyosomwa kutoka vitabu vya sauti vya mradi wa LibriVox.
 data-other-ted-name = Daftari la TED-LIUM
