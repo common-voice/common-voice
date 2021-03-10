@@ -379,6 +379,10 @@ change-email-setings = Badilisha baruapepe yako kupitia Mipangilio chini ya utam
 
 faq-title = Maswali yanayoulizwa mara kwa mara
 faq-what-cv-q = common voice ni nini?
+faq-what-cv-a =
+    Teknolojia ya utambuzi wa sauti inabadilisha jinsi tunavyoingiliana na mashine, lakini mifumo inayopatikana sasa ni ghali na ya wamiliki. Common Voice ni sehemu ya mpango wa Mozilla wa kufanya teknolojia za utambuzi wa sauti kuwa bora na kupatikana kwa kila mtu. Common Voice ni hifadhidata kubwa ulimwenguni ya sauti zilizotolewa ambazo humruhusu mtu yeyote kwa haraka na urahisi kufundisha programu zinazowezeshwa na sauti kwa uwezekano wa kila lugha.
+    
+    Sio tu tunakusanya sampuli za sauti katika lugha zinazozungumzwa sana lakini pia kwa zile zilizo na idadi ndogo ya wasemaji. Kuchapisha daftari anuwai ya sauti kutawezesha watengenezaji programu, wajasiriamali, na jamii kushughulikia pengo hili wenyewe. Mbali na mkusanyiko wa daftari la Common Voice, tunaunda pia injini ya chanzo wazi ya utambuzi wa sauti inayoitwa Deep Speech.
 faq-why-important-q = kwanini hii ni ya umuhimu?
 faq-how-get-q = Ninawezaje kupata data ya Common Voice?
 faq-how-get-a = Daftari la Common Voice linapatikana kwa kupakuliwa chini ya leseni ya <licenseLink> CC0 </licenseLink> kwenye <datasetLink> ukurasa wetu wa Takwimu</datasetLink>. Unaweza pia kupakua daftari kadhaa zinazopatikana kwa umma kutoka ukurasa huo huo.
