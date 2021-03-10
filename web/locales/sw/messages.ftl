@@ -889,6 +889,7 @@ demo-account-sign-up = Tuma kiunga cha kujisajili
 ## Demo Contribute
 
 demo-contribute-card-header = Uko tayari kuongeza sauti yako au kusikiliza?
+demo-contribute-card-body-v2 = Sasa kwa kuwa unajua kidogo zaidi kuhusu Common Voice, kwa nini usijaribu? Bonyeza kitufe cha kipaza sauti ili kuanza kusoma sentensi kwa sauti. <br/><br/>Ikiwa unapendelea kuhakiki michango ya sauti ya watu wengine, bonyeza kitufe cha kucheza. Utasaidia kuthibitisha kuwa rekodi zinalingana na sentensi zilizoandikwa kwenye skrini.
 demo-listen-subtitle = Uko tayari kuchangia?
 
 ## Demo Dashboard
