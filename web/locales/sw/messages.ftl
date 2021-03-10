@@ -384,6 +384,10 @@ faq-what-cv-a =
     
     Sio tu tunakusanya sampuli za sauti katika lugha zinazozungumzwa sana lakini pia kwa zile zilizo na idadi ndogo ya wasemaji. Kuchapisha daftari anuwai ya sauti kutawezesha watengenezaji programu, wajasiriamali, na jamii kushughulikia pengo hili wenyewe. Mbali na mkusanyiko wa daftari la Common Voice, tunaunda pia injini ya chanzo wazi ya utambuzi wa sauti inayoitwa Deep Speech.
 faq-why-important-q = kwanini hii ni ya umuhimu?
+faq-why-important-a =
+    Sauti mara nyingi ni njia ya asili zaidi ya kuwasiliana na kila mmoja na teknolojia za sauti zinaleta urahisi huo kwa kompyuta zetu na vifaa vya rununu. Tunataka kuwawezesha watengenezaji programu na uwezo wa kujenga programu za kushangaza za utambuzi wa sauti kama vile watafsiri wa wakati halisi na wasaidizi wa kidijitali wenye kuwezeshwa na sauti. Lakini sasa hivi data nyingi za sauti zinazohitajika kuunda aina hizi za programu ni ghali na ya wamiliki. Tunatumahi kuwa hifadhidata ya Common Voice itawapa watengenezaji programu kile wanachohitaji ili kubuni na kufanya teknolojia ya sauti ipatikane katika lugha yao.
+    
+    Ili kufanya utambuzi wa sauti uwe wa ulimwengu wote, tunakusanya sampuli za sauti katika lugha zinazozungumzwa sana na zile zilizo na idadi ndogo ya wasemaji ambazo mara nyingi hazina huduma za kibiashara za utambuzi wa sauti. Kuchapisha mkusanyiko wa hifadhidata anuwai ya sauti kutawezesha watengenezaji programu, wajasiriamali, na jamii nzima ya sauti kushughulikia pengo hili wenyewe.
 faq-how-get-q = Ninawezaje kupata data ya Common Voice?
 faq-how-get-a = Daftari la Common Voice linapatikana kwa kupakuliwa chini ya leseni ya <licenseLink> CC0 </licenseLink> kwenye <datasetLink> ukurasa wetu wa Takwimu</datasetLink>. Unaweza pia kupakua daftari kadhaa zinazopatikana kwa umma kutoka ukurasa huo huo.
 faq-when-release2-q = Ni lini data ya Common Voice itatolewa katika lugha zingine?
@@ -519,6 +523,7 @@ dataset-date = Tarehe
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja
+data-download-singleword-callout-v2 = Hii ni sehemu ya kesi inayotumiwa na data iliyo na uwezo wa kutambua tarakimu ya sauti na ugunduzi wa ndio / hapana
 review-terms = Kwa kutumia Common Voice, unakubaliana na <termsLink>Masharti</termsLink> yetu na <privacyLink> Ilani ya Faragha</privacyLink>
 terms-agree = nakubali
 terms-disagree = Sikubali
