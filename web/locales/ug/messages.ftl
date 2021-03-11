@@ -186,6 +186,12 @@ other-language = باشقا تىل
 ## Languages Overview
 
 language-section-launched = قوزغىتىلدى
+languages-show-more = تەپسىلاتى
+language-total-progress = ئومۇمىي
+language-search-input =
+    .placeholder = ئىزدە
+language-speakers = سۆزلىگۈچىلەر
+localized = يەرلىكلەشتۈرۈلگەن
 
 ## Contribution
 
