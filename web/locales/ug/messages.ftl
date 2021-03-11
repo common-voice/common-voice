@@ -115,12 +115,24 @@ login-signup = تىزىمغا كىرىش / تىزىملىتىڭ
 edit = تەھرىرلەش
 retry-voice-wave-recording = قايتا سىناش
 re-record = قايتا ئۈنگە ئىلىش
+cancel-avatar-clip-recording = ئەمەلدىن قالدۇر
+add-language = تىل قوشۇڭ
 
 ## FAQ
 
+faq-title = دائىم سورىلىدىغان سوئاللار
+faq-what-cv-q = ئورتاق ئاۋاز دېگەن نېمە؟
+faq-how-get-q = ئورتاق ئاۋاز سانلىق مەلۇماتلىرىغا قانداق ئېرىشەلەيمەن؟
+faq-why-my-lang-q = مېنىڭ تىلىم نېمىشقا تېخى كىرگۈزۈلمەيدۇ؟
+faq-is-account-public-q = ھېسابات ئۇچۇرلىرىم ئاشكارىمۇ؟
+faq-what-is-cv = ئورتاق ئاۋاز دېگەن نېمە؟
 
 ## ABOUT US
 
+about-nav-why-common-voice = نېمىشقا؟
+about-nav-how-it-works = قانداق؟
+about-nav-partners = ھەمكارلاشقۇچىلار
+mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 
 ## Glossary
 
@@ -130,6 +142,13 @@ re-record = قايتا ئۈنگە ئىلىش
 
 ## Data
 
+data-download-yes = ھەئە
+data-download-deny = ياق
+release-version = نەشرى
+dataset-date = چېسلا
+terms-agree = قوشۇلىمەن
+terms-disagree = قوشۇلمايمەن
+review-submit-title = تەكشۈرۈش ۋە يوللاش
 
 ## Datasets Page
 
