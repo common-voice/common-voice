@@ -113,6 +113,7 @@ help-us-title = جۈملىلەرنى دەلىللەشكە ياردەملىشىڭ
 vote-yes = ھەئە
 vote-no = ياق
 speak-subtitle = ئاۋازىڭىزنى ئىئانە قىلىڭ
+listen-subtitle = ئاۋازنى دەلىللەشكە ياردەملىشىڭ
 ready-to-record = ئاۋازىڭىزنى ئىئانە قىلىشقا تەييارمۇ؟
 today = بۈگۈن
 sign-up-account = ھېساباتقا تىزىملىتىڭ
