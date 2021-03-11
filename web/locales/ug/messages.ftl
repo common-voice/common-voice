@@ -64,9 +64,12 @@ kk = قازاقچە
 ko = كورېيچە
 ky = قىرغىزچە
 mk = ماكېدونىيچە
+ml = مالايامچە
 mn = موڭغۇلچە
+mos = موسسىچە
 mr = ماراتىچە
 ms = مالايچە
+mt = مالتاچە
 my = بېرمىچە
 ne-NP = نېپالچە
 nl = گوللاندىيچە
@@ -80,13 +83,18 @@ sq = ئالبانچە
 ta = تامىلچە
 tg = تاجىكچە
 th = تايلاندچە
+tl = تاگالوگچە
 tr = تۈرۈكچە
 tt = تاتارچە
+udm = ئۇدمۇرتچە
 ug = ئۇيغۇرچە
 uk = ئۇكرائىيەچە
 ur = ئوردۇچە
 uz = ئۆزبەكچە
+vec = ۋېنداچە
 vi = ۋېيتنامچە
+vot = ۋوتېچە
+yue = گۇاڭدۇڭچە
 zh-CN = جۇڭگو (جۇڭگو)
 zh-HK = خەنزۇچە(شاڭگاڭ)
 zh-TW = خەنزۇچە(تەيۋەن)
@@ -98,6 +106,7 @@ zh-TW = خەنزۇچە(تەيۋەن)
 
 speak = سۆزلەي
 speak-now = سۆزلەڭ
+datasets = سانلىق-ئامبار توپلىمى
 languages = تىللار
 about = ھەققىدە
 profile = ئارخىپ
@@ -125,6 +134,7 @@ vote-no = ياق
 speak-subtitle = ئاۋازىڭىزنى ئىئانە قىلىڭ
 listen-subtitle = ئاۋازنى دەلىللەشكە ياردەملىشىڭ
 ready-to-record = ئاۋازىڭىزنى ئىئانە قىلىشقا تەييارمۇ؟
+all-locales = ھەممىسى
 today = بۈگۈن
 sign-up-account = ھېساباتقا تىزىملىتىڭ
 
@@ -203,6 +213,7 @@ ready-to-upload = يۈكلە
 cancel-avatar-clip-recording = ئەمەلدىن قالدۇر
 browse-file-title = رەسىم ھۆججىتىنى يۈكلە
 connect-gravatar = Gravatar بىلەن ئۇلاڭ
+file_too_large = تاللانغان ھۆججەت بەك چوڭ
 add-language = تىل قوشۇڭ
 
 ## FAQ
@@ -223,6 +234,8 @@ mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 
 ## Glossary
 
+localization = يەرلىكلەشتۈرۈش
+sentence-collection = جۈملە توپلىمى
 
 ## Error pages
 
@@ -231,6 +244,7 @@ mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 
 data-download-yes = ھەئە
 data-download-deny = ياق
+data-other-download = سانلىق مەلۇماتنى چۈشۈرۈش
 release-version = نەشرى
 dataset-date = چېسلا
 terms-agree = قوشۇلىمەن
@@ -282,9 +296,14 @@ localized = يەرلىكلەشتۈرۈلگەن
 
 ## Contribution
 
+target-segment-learn-more = تەپسىلاتى
 
 ## Reporting
 
+report = دوكلات
+report-title = دوكلات يوللاش
+report-different-language = ئوخشىمىغان تىل
+report-different-language-detail = مەن سۆزلەيدىغان تىلغا ئوخشىمايدىغان تىلدا يېزىلىپتۇ.
 
 ## Goals
 
