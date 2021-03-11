@@ -22,6 +22,7 @@ not-available-abbreviation = N / A.
 ## Languages
 
 ab = ئابخازچە
+ace = Acehnese
 ady = ئادىگېيچە
 af = جەنۇبىي ئافرىقا تىلى
 am = ئامخاراچە
@@ -36,6 +37,10 @@ be = بېلورۇسچە
 bg = بۇلغارچە
 bm = بامباراچە
 bn = بېنگال تىلى
+br = بىرېتونچە
+bxr = Buryat
+ca = كاتالانچە
+cak = Kaqchikel
 de = گېرمانچە
 el = گرېتسچە
 en = ئىنگىلىزچە
