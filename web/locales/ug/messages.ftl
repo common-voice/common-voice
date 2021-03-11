@@ -205,13 +205,32 @@ wall-of-text-second =
     ئېرىشەلىشى ئۈچۈن ياردەمدە بولماقچى.
 show-wall-of-text = تەپسىلاتى
 help-us-title = جۈملىلەرنى دەلىللەشكە ياردەملىشىڭ!
+help-us-explain = قويۇپ ئاڭلاپ بېقىڭ ۋە بىزگە ئۇلار تۆۋەندىكى جۈملىنى توغرا سۆزلىدىمۇ يوق ئېيتىپ بىرىڭ؟
 vote-yes = ھەئە
 vote-no = ياق
 speak-subtitle = ئاۋازىڭىزنى ئىئانە قىلىڭ
 listen-subtitle = ئاۋازنى دەلىللەشكە ياردەملىشىڭ
+help-reach-goal = { $goal }غا يېتىشىمىزغا ياردەم قېلىڭ
+read-terms-q = بىزنىڭ شەرتلىرىمىزنى ئوقۇدىڭىزمۇ؟
 ready-to-record = ئاۋازىڭىزنى ئىئانە قىلىشقا تەييارمۇ؟
 all-locales = ھەممىسى
 today = بۈگۈن
+x-weeks-short =
+    { $count ->
+        [one] بىر ھەپتە
+       *[other] ھەپتە
+    }
+x-months-short =
+    { $count ->
+        [one] بىر ئاي
+       *[other] ئاي
+    }
+x-years-short =
+    { $count ->
+        [one] بىر يىل
+       *[other] يىل
+    }
+help-make-dataset = يۇقىرى سۈپەتلىك ، ئوچۇق ئاشكارا سانلىق مەلۇمات ئامبىرى قۇرۇشىمىزغا ياردەم قىلىڭ
 sign-up-account = ھېساباتقا تىزىملىتىڭ
 
 ## Account Benefits
