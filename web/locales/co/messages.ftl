@@ -383,10 +383,13 @@ data-download-yes = Iè
 data-download-deny = Innò
 data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
 data-download-modal = Seti à u puntu di principià un scaricamentu di <size>{ $size } Go</size>, vulete cuntinuà ?
+terms-agree = Sò d'accunsentu
+terms-disagree = Ùn sò micca d'accunsentu
 review-cancel = Annuddà l'inviu
 
 ## Datasets Page
 
+language = Lingua
 missing-language = Ùn vidite micca à vostra lingua in a basa di dati ? Pà dumandà una lingua, andate annantu à nostra paghjina Lingue.
 download = Scaricà
 
@@ -410,12 +413,18 @@ download = Scaricà
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Ghjornu
+       *[other] Ghjorni
+    }
 
 ## Dashboard
 
 
 ## Custom Goals
 
+both-speak-and-listen = Tramindui
 
 ## Profile Delete
 
