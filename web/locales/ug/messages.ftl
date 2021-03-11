@@ -149,21 +149,43 @@ dataset-date = چېسلا
 terms-agree = قوشۇلىمەن
 terms-disagree = قوشۇلمايمەن
 review-submit-title = تەكشۈرۈش ۋە يوللاش
+review-recording = تەكشۈرۈش
+review-cancel = يوللاشنى ئەمەلدىن قالدۇر
 
 ## Datasets Page
 
+language = تىل
+# File size in gigabytes
+size = چوڭلۇقى
+cv-license = ئىجازەتنامە
+size-gigabyte = GB
+size-megabyte = MB
+subscribe = مۇشتەرى بولۇش
+go-languages-page = تىل بېتىگە كىرىڭ
+ready-to-validate = جۈملىلەرنى دەلىللەشكە ياردەم قىلىشقا تەييارمۇ؟
+more = تېخىمۇ كۆپ
+close = تاقا
+download = چۈشۈر
+dataset-version = نەشرى
 
 ## Download Modal
 
+download-no = ياق رەھمەت
 
 ## Contact Modal
 
+contact-form-name =
+    .label = ئىسمىڭىز
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = تىل
+other-language = باشقا تىل
 
 ## Languages Overview
 
+language-section-launched = قوزغىتىلدى
 
 ## Contribution
 
