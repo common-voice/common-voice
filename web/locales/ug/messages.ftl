@@ -49,13 +49,24 @@ zh-TW = خەنزۇچە(تەيۋەن)
 ## Layout
 
 languages = تىللار
-contact = ئالاقە
+profile = ئارخىپ
+help = ياردەم
+contact = ئالاقىلىشىڭ
+back-top = يۇقىرىغا قايتىش
 
 ## Home Page
 
+home-cta = سۆزلەڭ ، بۇ يەرگە تۆھپە قوشۇڭ!
+vote-yes = ھەئە
+vote-no = ياق
+speak-subtitle = ئاۋازىڭىزنى ئىئانە قىلىڭ
+ready-to-record = ئاۋازىڭىزنى ئىئانە قىلىشقا تەييارمۇ؟
+today = بۈگۈن
+sign-up-account = ھېساباتقا تىزىملىتىڭ
 
 ## Account Benefits
 
+benefits = پايدىسى
 
 ## What's public
 
@@ -71,10 +82,39 @@ contact = ئالاقە
 
 ## ProjectStatus
 
+english = ئىنگىلىزچە
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ئىشلەتكۈچى ئىسمى
+profile-form-native-language =
+    .label = ئانا تىل
+profile-form-additional-language =
+    .label = قوشۇمچە تىل
+profile-form-age =
+    .label = يېشى
+profile-form-gender-2 =
+    .label = جىنىس
+hidden = يۇشۇرۇن
+native-language =
+    .label = ئانا تىل
+profile-form-submit-save = ساقلا
+profile-form-submit-saved = ساقلاندى
+male = ئەر
+female = ئايال
+# Gender
+other = باشقىلىرى
+dashboard = باش تاختا
+goals = نىشان
+settings = تەڭشەك
 profile-close = تاقاش
+thanks-for-account = ھېساباتىڭىزنى جەزملەشتۈرگەنلىكىڭىزگە رەھمەت ، ئەمدى ئارخىپىڭىزنى قۇرايلى.
+why-demographic = بۇ نېمە ئۈچۈن مۇھىم؟
+login-signup = تىزىمغا كىرىش / تىزىملىتىڭ
+edit = تەھرىرلەش
+retry-voice-wave-recording = قايتا سىناش
+re-record = قايتا ئۈنگە ئىلىش
 
 ## FAQ
 
