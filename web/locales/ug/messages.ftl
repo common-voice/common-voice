@@ -22,7 +22,7 @@ not-available-abbreviation = N/A
 ## Languages
 
 ab = ئابخازچە
-ace = Acehnese
+ace = ئاچېھچە
 ady = ئادىگېيچە
 af = جەنۇبىي ئافرىقا تىلى
 am = ئامخاراچە
