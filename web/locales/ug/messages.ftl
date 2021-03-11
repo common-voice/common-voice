@@ -12,6 +12,7 @@ email-opt-in-info = نىشان ئەسكەرتىشلىرى ، ئىلگىرىلە�
 email-opt-in-info-title = Common Voice ئېلخەت تىزىملىكىگە قوشۇلۇڭ
 email-opt-in-info-sub-with-challenge = نىشان ئەسكەرتىشى ۋە كېيىنكى قەدەم ، ئىلگىرىلەش ئۇچۇرلىرى ۋە Common Voice توغرىسىدىكى خەۋەرلەرنى ئېلېكترونلۇق خەت ئارقىلىق تاپشۇرۇۋېلىشنى خالايمەن.
 email-opt-in-privacy-v2 = ئېلېكترونلۇق خەت تاپشۇرۇۋېلىشنى تاللاش ئارقىلىق Mozilla نىڭ <privacyLink> مەخپىيەتلىك تۈزۈمى </privacyLink> دا چۈشەندۈرۈلگەندەك ، Mozilla نىڭ بۇ ئۇچۇرلارنى بىر تەرەپ قىلىشىغا ماقۇل بولىسىز.
+indicates-required = * تولدۇرۇش تەلەپ قىلىنغان ئورۇننى كۆرسىتىدۇ
 not-available-abbreviation = N / A.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -21,13 +22,18 @@ not-available-abbreviation = N / A.
 ## Languages
 
 ab = ئابخازچە
+af = جەنۇبىي ئافرىقا تىلى
 ar = ئەرەبچە
 az = ئەزەربەيجانچە
+ba = بەشىر
 be = بېلورۇسچە
 bg = بۇلغارچە
+bn = بېنگال تىلى
 de = گېرمانچە
-el = ئىنگلىزچە
+el = گرېتسچە
+en = ئىنگىلىزچە
 es = ئىسپانچە
+et = ئېستونىيچە
 fa = پارىسچە
 fr = فىرانسۇزچە
 gn = گۇئارانچە
