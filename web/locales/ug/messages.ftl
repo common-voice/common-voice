@@ -151,6 +151,10 @@ shortcut-record-toggle = r
 
 ## ProjectStatus
 
+status-contribute = ئاۋازىڭىزنى ھەدىيە قىلىڭ
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = كېيىنكى نىشان: { $goal }
 english = ئىنگىلىزچە
 
 ## ProfileForm
@@ -184,7 +188,11 @@ login-signup = تىزىمغا كىرىش / تىزىملىتىڭ
 edit = تەھرىرلەش
 retry-voice-wave-recording = قايتا سىناش
 re-record = قايتا ئۈنگە ئىلىش
+delete-voice = ئۆچۈر
+ready-to-upload = يۈكلە
 cancel-avatar-clip-recording = ئەمەلدىن قالدۇر
+browse-file-title = رەسىم ھۆججىتىنى يۈكلە
+connect-gravatar = Gravatar بىلەن ئۇلاڭ
 add-language = تىل قوشۇڭ
 
 ## FAQ
