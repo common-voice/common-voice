@@ -130,6 +130,7 @@ scn = Szicíliai
 si = Szingaléz
 sk = Szlovák
 sl = Szlovén
+so = Szomáli
 sq = Albán
 sr = Szerb
 sv-SE = Svéd
