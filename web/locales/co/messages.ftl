@@ -2,7 +2,7 @@
 
 yes-receive-emails = Iè, mandatemi email. Mi piaceria à esse infurmatu appuntu à u prughjettu Common Voice.
 stayintouch = Ind’è Mozilla, custruimu una cumunità intornu à è tecnulugie vucale. Vulariamu stà in cuntattu cù voi cù messe à ghjornu, nove fonti di dati, è pà sente di più à nantu à a vostra utilisazione di sti dati.
-privacy-info = Vi prumittimu di trattà e vostre informazioni cun cura. Leghjite più in u nostru <privacyLink> Avvisu di cunfidenzialità</privacyLink>.
+privacy-info = Vi prumittimu di trattà e vostre infurmazioni cun primura. Da sapè ne di più, lighjite puru u nostru <privacyLink> Avvisu di cunfidenzialità</privacyLink>.
 return-to-cv = Vultà à Common Voice
 email-input =
     .label = Email
