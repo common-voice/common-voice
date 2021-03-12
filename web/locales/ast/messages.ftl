@@ -130,6 +130,7 @@ scn = Sicilianu
 si = Cingalés
 sk = Eslovacu
 sl = Eslovenu
+so = Somalín
 sq = Albanés
 sr = Serbiu
 sv-SE = Suecu
