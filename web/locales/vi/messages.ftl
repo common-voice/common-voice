@@ -130,6 +130,7 @@ scn = Sicilian
 si = Sinhala
 sk = Slovakia
 sl = Slovenia
+so = Somali
 sq = Albania
 sr = Serbia
 sv-SE = Thụy Điển
