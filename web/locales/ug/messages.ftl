@@ -209,6 +209,7 @@ help-us-explain = قويۇپ ئاڭلاپ بېقىڭ ۋە بىزگە ئۇلار 
 no-clips-to-validate = قارىماققا بۇ تىلدا ئاڭلايدىغان مەزمۇن يوقتەك. ئۈنگە ئىلىش ئارقىلىق بۇ بوشلۇقنى تولدۇرۇشقا ياردەملىشىڭ.
 vote-yes = ھەئە
 vote-no = ياق
+toggle-play-tooltip = { shortcut-play-toggle } نى بېسىش ئارقىلىق قويۇش ھالىتىگە ئالماشتۇرۇڭ
 speak-subtitle = ئاۋازىڭىزنى ئىئانە قىلىڭ
 listen-subtitle = ئاۋازنى دەلىللەشكە ياردەملىشىڭ
 help-reach-goal = { $goal }غا يېتىشىمىزغا ياردەم قېلىڭ
