@@ -126,6 +126,7 @@ scn = Sicilian
 si = Sinhala
 sk = Slovak
 sl = Slovenian
+so = Somali
 sq = Albanian
 sr = Serbian
 sv-SE = Swedish

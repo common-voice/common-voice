@@ -221,6 +221,7 @@ Aku masih belum belajar mengendarai mobil.
 Aku mau belajar bahasa Arab.
 Aku mau kamu mengambilnya.
 Aku mau lebih banyak.
+Aku mau makan enak.
 Aku mau makan padang.
 Aku mau mati bersama Getter Jaani.
 Aku mau memeriksa.
@@ -856,6 +857,7 @@ Bahasa gaul, bagi sebagian orang, dianggap merusak bahasa karena menjatuhkan int
 Bahasa jepang adalah bahasa ibu kita.
 Bahkan Tom sedikit terkejut.
 Bahkan Tom terkejut mendengarkan itu.
+Bahkan malaikatpun tak bisa menilai niat di hati seseorang.
 Bahkan orang terkuat pun tidak bisa menghentikan angin topan.
 Baik, aku akan terima tawaranmu.
 Baik, saya akan terima tawaran Anda.
@@ -1029,6 +1031,7 @@ Biarkan mereka mengurus diri sendiri.
 Biarkan rasa yang memilih.
 Biarkan saya mengucapkan selamat tinggal kepada Tom.
 Biarkan saya pergi ke toko.
+Biasanya ada banyak penjual kue di sana.
 Biasanya kami memanggil dia Toshi.
 Biasanya saya bangun pada pukul enam.
 Biayanya sedikit mahal karena dikirim melalui pos udara.
@@ -1101,6 +1104,7 @@ Bolpoin ini harganya berapa.
 Bosku dipaksa mengundurkan diri.
 Brazil adalah negara yang sepak bolanya sangat kuat.
 Buah segar baik untuk kesehatan.
+Buang lah sampah ke tong sampah di sebelah sana.
 Buang semua sampahmu dari kamar ini.
 Buat apa ribut-ribut?
 Buatlah sesuatu yang dapat bermanfaat bagi orang banyak.
@@ -1235,6 +1239,7 @@ Datanya sama sekali tidak akurat.
 Datanya sering tidak akurat.
 Dave adalah perenang tercepat dari semua teman sekelasku.
 Dengan apa Anda pergi ke perusahaan.
+Dengan berusaha semaksimal mungkin.
 Dengan hasil yang demikian.
 Dengan kata lain, anda membenci saya kan?
 Dengan kata lain, dia malas.
@@ -1737,11 +1742,13 @@ Dimana anda menangkap mereka?
 Dimana kursi saya?
 Dimanakah Rumah Sakit terdekat?
 Dimanakah rasa malumu hingga kamu berani berbuat sepert itu?
+Dimanakah sate paling enak di Jakarta Selatan?
 Dimengerti.
 Dinding kelas ini tebal.
 Dingin.
 Dinosaurus sekarang sudah punah.
 Ditujukan kepada siapa surat itu?
+Dokter dengan pasien nya.
 Dokter gigi yang murah hati itu memberikan sejumlah dua milyar yen untuk amal.
 Dokter hanya ada pada hari kerja.
 Dokter memperingatkan padanya bahaya merokok.
@@ -1824,6 +1831,7 @@ Gurunya galak.
 Habis ini kamu mau ke mana?
 Habis ke luar kota, aku capek.
 Habiskan apapun yang ada dari piringmu, atau kamu tidak akan mendapatkan hidangan cuci mulut.
+Hai kamu yang ada di sana.
 Hai, Pak Tanaka, selamat malam.
 Hai, baling-baling bambu.
 Hai, saya punya janji dengan manajer umum, ini surat pemberitahuan wawancaranya.
@@ -2131,8 +2139,10 @@ Itulah jawaban yang benar.
 Itulah kamus bahasa Jepang.
 Itulah kenapa pekerja menyukaimu.
 Itulah yang saya ingin tahu.
+Iya aku mengerti, tapi tidak demikian caranya.
 Iya karang gigi parah.
 Iya kemarin sudah mengobrol.
+Iya, tadi saya mau mampir kesana, tapi lupa.
 Jadi aku tetap menggunakan aplikasi ini.
 Jadi kamu dalang dibalik semua ini!
 Jadi kamu menyerah, benar?
@@ -2171,6 +2181,7 @@ Jalan-jalan saja lah!
 Jalanan sepi dari kendaraan.
 Jalanan terblokir oleh tanah longsor.
 Jalur Tokaido berhenti di Tokyo
+Jam berapa biasanya kamu bangun pagi..?
 Jam berapa rencana kedatangan pesawat?
 Jam ini harganya seribu lima ratus yen.
 Jam ini pasti mahal.
@@ -2350,6 +2361,7 @@ Kalau sudah dewasa, boleh minum arak.
 Kalau sudah pulang rumah, pertama-tama saya mengerjakan pekerjaan rumah.
 Kalau teh, bagaimana.
 Kalau tekan di sini, kopinya akan keluar.
+Kalau tidak ketemu, coba carilah di sekitar Galaxy Mall.
 Kalau tidak mau pergi, kamu tak usah pergi
 Kalau tidak suka, boleh berhenti.
 Kalau tombol ini ditekan, pintu akan terbuka.
@@ -2568,6 +2580,7 @@ Kapan kamu mulai?
 Kapan kamu pindah ke Berlin?
 Kapan kamu pulang ke rumah?
 Kapan proyek ini selesai?
+Kapan saya harus melapor pajak?
 Kapan taksi akan berangkat ke bandar udara?
 Kapan terakhir kali kamu menari?
 Kapan ulang tahunmu?
@@ -2785,6 +2798,7 @@ Keretanya di sini.
 Kerja bagus!
 Kertas terbuat dari kayu.
 Kerugiannya mencapai satu juta dolar.
+Kerupuknya enak nih.
 Kesabaran merupakan kebajikan yang sukar ditemukan belakangan ini.
 Kesadaran tidak terbatas dan merupakan kenyataan yang sesungguhnya.
 Kesehatan lebih penting dibanding emas.
@@ -2818,6 +2832,7 @@ Kita akan berjuang sampai akhir.
 Kita bahkan tidak tahu cara menghubungi Tom.
 Kita banyak membuang waktu.
 Kita belajar dari pengalaman bahwa kita tidak pernah belajar apapun dari pengalaman.
+Kita bisa berkembang.
 Kita bisa mencari jati diri kita sendiri.
 Kita bisa mendengarkan radio dan juga musik dengan radio kaset.
 Kita bisa pergi ke mana pun kalau kita membeli mobil.
@@ -2909,6 +2924,7 @@ Lakukan apapun yang diperlukan.
 Lakukan caramu sendiri kalau kamu tidak menyukai caraku.
 Lakukan, tapi sekarang!
 Lalu apa rencanamu setelah lulus kuliah?
+Lalu lintas Jakarta Selatan di hari senin pagi biasanya macet.
 Lalu-lintas dijalan itu sangat buruk.
 Lama-lama dia kehilangan kesabaran.
 Lamaran Tom tidak diterima.
@@ -2952,6 +2968,7 @@ Luar biasa!
 Luas ya!
 Lucuti senjatanya dan siksa dia sampai mati suamiku
 Lukanya yang dalam tampak dalam air matanya.
+Lurus sampai perempatan, kemudian belok kanan.
 Lusa ada pertandingan bisbol.
 Lusa saya akan pergi berenang ke laut.
 Maaf Pak, tadi saya sedang di jalan.
@@ -3414,6 +3431,7 @@ Pagi ini saya keluar rumah tanpa makan nasi.
 Pagi ini saya menonton acara berita di televisi.
 Pagi ini, aku melihat seorang malaikat.
 Pagi ini, temanku memakan buah yang dibeli adikku.
+Pagi-pagi sudah disuguhi pertengkaran.
 Pak Basri cinta kepada istrinya.
 Pak Basri mencintai istrinya.
 Pak Hayashi bekerja di luar negeri satu setengah tahun.
@@ -3700,6 +3718,7 @@ Rencana itu sedang didiskusikan.
 Rencana kita telah gagal.
 Rencana siapakah ini?
 Rencananya kita akan pergi ke Estonia bulan depan.
+Rendang merupakan salah satu makanan terenak di dunia yang berasal dari Indonesia.
 Restoran ini besar dan cantik.
 Restoran itu menyajikan makanan tidak enak.
 Restoran itu murah. Tetapi, tidak begitu enak.
@@ -4998,6 +5017,7 @@ Sudah jam tujuh.
 Sudah kukatakan bahwa toko itu libur setiap hari Rabu
 Sudah lama sejak saya mengunjungi nenek saya
 Sudah lima tahun berlalu, semenjak mereka datang ke Jepang.
+Sudah makan? sudah sholat...?
 Sudah minum obat?
 Sudah pasti karena disini tanpa disertai satu pun penerangan
 Sudah pesan tempat di pesawat?
@@ -5684,6 +5704,7 @@ bukan, namaku bukan Maria, Namaku Teresa
 cek dana masuk
 cek saldo
 cek saldo saya
+coba terus sampai berhasil
 contoh kata-kata kotor, kotor
 cuaca hari ini mendung berawan
 darimana saya mendapatkan barang itu?
@@ -5694,6 +5715,7 @@ dia nanya ke aku, aku udah ngapain aja
 dia tidak pernah ke dokter gigi selama hidupnya
 dunia akan melihat kita
 empat sehat lima sempurna
+enak banget keripik pangsit ini
 explore hal baru di usia muda
 gigi geraham atasnya sudah turun karena bawahnya kosong
 gigi seri bawah sampai agak goyang karena karang gigi.
@@ -5736,6 +5758,7 @@ kenapa dia selalu saja terlambat masuk ke kantor?
 kenapa kamu tidak datang malam minggu kemarin?
 kereta dalam kota kurang nyaman di bandingkan dengan kereta cepat
 kerjain aja pelan-pelan hahaha
+kuenya dimakan ya
 kulihat bahwa paham agnostik semakin banyak penganutnya di era modern ini.
 laki-laki yang menginginkan, wanita yang mengaturnya.
 langkahi dulu mayatku
@@ -5744,8 +5767,10 @@ makan makanan yang sehat
 malam demi malam saya lewati sendirian.
 malas pangkal bodoh
 mari kita jaga lingkungan kita sendiri.
+mau pergi kemana hari ini?
 membaca buku adalah hal yang menyenangkan
 membantu sesama manusia
+memikirkan kamu setiap hari
 mendengar ucapan semacam itu keluar dari bibir pemuda tujuh belas tahun ini
 mengapa dia suka makan soto kambing
 mengapa kamu menangis?
@@ -5769,9 +5794,13 @@ rumah adalah tempat kita pulang
 saya cuci piringnya nanti setelah saya kembali
 saya harus pulang
 saya ingin kamu datang malam ini
+saya ingin ke pasar di hari minggu pagi
 saya ingin membeli laptop baru dengan harga murah
+saya ingin mengerjakan pekerjaan kantor di kafe terdekat
 saya ingin tahu alasannya
+saya sedang sakit hari ini
 saya suka makan sambil nonton tv
+saya suka mengoleksi sepatu
 saya tidak mau melihat kamu lagi!
 saya tidak percaya yang dikatakannya
 saya tidak pernah ke luar negeri.
@@ -5785,6 +5814,7 @@ sehat itu penting
 semangat melakukan. aktivitas
 semangat untuk hari ini
 senyum adalah ibadah
+sepertinya saya terserang flu karena kemarin kehujanan.
 sepuluh menit lagi pukul lima.
 seseorang mahasiswa seharusnya belajar lebih giat lagi.
 setahun sekali saya pergi ke luar negeri.
@@ -5799,5 +5829,6 @@ tolong rumahnya di kunci kalau keluar
 tugas kuliah kali ini sangat berat.
 tugas saya belom kelar.
 tujuan aku ingin mempelajari bahasa mu
+udah keluar hasil testnya?
 wajah kamu tidak asing
 ya udah kamu kasih aja dia jadwal buat kapan harus datang

@@ -469,6 +469,7 @@ Cho em bước vào
 Cho em khôn lớn
 Cho hoa tươi thắm ngát hương
 Cho hạnh phúc thêm ngập tràn sôi động
+Cho khắc khoải thêm những tháng ngày vui
 Cho mùa thu rơi thoáng nhẹ qua thềm
 Cho nên Hà liền đáp
 Cho nên Trinh phải đỗ xe ở ngoài đường lớn rồi bước bộ vào
@@ -1256,6 +1257,7 @@ Gia đình
 Gia đình có thể làm lễ kiệu vong
 Gia đình và cuộc sống cá nhân
 Giai thoại
+Giai điệu tình xót xa chiều thu trắng
 Giai đoạn cuối đời
 Giai đoạn kháng chiến chống Pháp
 Giai đoạn lãnh đạo
@@ -1282,6 +1284,7 @@ Gió lạnh về càng thêm nhớ người thương
 Gió ngoài hiên cũng tắt tự khi nào
 Gió ru giấc ngủ êm đềm say sưa
 Gió sương lạnh vòng tay thêm nồng ấm
+Gió thổi nghiêng mưa qua miền ký ức
 Gió thổi rì rào
 Gió thổi từng cơn làm tán lá khẽ đung đưa
 Gió thổi và lạnh nên mẹ đóng cửa lại
@@ -1298,6 +1301,7 @@ Giọng của cô bé Thu Ngân đang trả lại Trinh tiền thừa
 Giọng nói của trẻ con lại vang lên trong đầu của Trinh
 Giọt chờ tí tách âm như hồi chuông
 Giọt nhớ nỉ non tựa lời kinh buồn
+Giọt thương giọt đợi đôi bờ thổn thức
 Giọt tuôn nghìn lá đong vừa nhớ thương
 Giống cái chỗ này thôi chứ không phải là đây
 Giống nhau lắm nhưng người đi sẽ biết
@@ -2010,7 +2014,9 @@ Mùa thu đẹp lắm em ơi
 Mùa xuân đi rồi
 Mùa đi cùng tháng năm
 Mơ màng như thật mà không biết đâu mà lần cả
+Mưa hay nước mắt rơi từng giọt đắng
 Mưa lớn biết bao!
+Mưa nhớ ai lịm chết bờ môi khô
 Mưa rì rào thánh thót bên thềm vắng
 Mưa rơi lộp bộp
 Mưa rơi rào rào
@@ -3448,6 +3454,7 @@ Tiếng thở đêm khuya
 Tiếng tút dài còn khắc khoải người xa
 Tiếng vòi nước như có người vừa mở van
 Tiếng xả nước nơi bồn rửa
+Tiếng đàn mưa nức nở khúc ngậm ngùi
 Tiếp theo cô dãy bày nỗi lòng của mình
 Tiếp tục theo bước chân của Hà đi sang phòng bên cạnh
 Tiếp tục đắm chìm trong Dục Vọng
