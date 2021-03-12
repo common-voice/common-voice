@@ -103,6 +103,7 @@ mk = Makedona
 ml = Malajalama
 mn = Mongola
 mos = Mosia
+mr = Marata
 mrj = Okcidentmaria
 ms = Malaja
 mt = Malta
@@ -143,6 +144,7 @@ tr = Turka
 tt = Tatara
 uby = Ubiĥa
 udm = Udmurta
+ug = Ujgura
 uk = Ukraina
 ur = Urdua
 uz = Uzbeka
@@ -232,9 +234,9 @@ email-subscription-title-new = Abonu la bultenojn de Common Voice, la memorigojn
 ## Account Benefits
 
 benefits = Avantaĝoj
-rich-data = Igu viajn senditajn datumon kiel eble plej informriĉaj  per provizo de anonimaj demografiaj informoj. Ni anonimigas ĉiujn demografiajn datumojn antaŭ ol publikigi ilin.
+rich-data = Igu viajn senditajn datumojn kiel eble plej informriĉaj  per provizo de anonimaj demografiaj informoj. Ni anonimigas ĉiujn demografiajn datumojn antaŭ ol publikigi ilin.
 improve-audio = La informoj de profilo plibonigas la aŭdajn datumojn, kiujn oni uzas por trejni parolrekonilojn kaj plibonigi ilian precizecon.
-keep-track = Sekvu vian progreson per mezurindikilojn por ĉiuj lingvoj.
+keep-track = Sekvu vian progreson per mezurindikiloj por ĉiuj lingvoj.
 compare-progress = Vidu vian progreson, komparita kun tiu de aliaj kontribuantoj en la tuta mondo.
 view-goals = Vidu vian progreson rilate al personaj kaj projektaj celoj.
 join-newsletter = Se vi volas, abonu nian repoŝtan liston por ricevi ĝisdatigojn kaj novaĵon de la projekto.
