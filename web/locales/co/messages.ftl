@@ -10,7 +10,7 @@ submit-form-action = Invià
 loading = Caricamentu…
 email-opt-in-info = Mi piaceria à riceve email cum’è ramintenze di scopi, raporti di u me prugressu, e nutizie appuntu à Common Voice.
 email-opt-in-info-title = Raghjunghje à a lista di distribuzione di Common Voice
-email-opt-in-info-sub-with-challenge = Riceve email cum’è sfide è ramintenze di scope, rapporti di u mè prugressu, è nutizie appuntu à Common Voice.
+email-opt-in-info-sub-with-challenge = Riceve email cum’è sfide è ramintenze di scopi, rapporti di u me prugressu, è nutizie appuntu à Common Voice.
 email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chi Mozilla ghjuva questi infurmazioni cum'è spiegatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink>.
 indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
@@ -453,7 +453,7 @@ demo-language-select-label = Splurà e lingue
 
 ## Demo Contribute
 
-demo-listen-subtitle = Seti pronti à cuntribuà ?
+demo-listen-subtitle = Seti pronti à cuntribuisce ?
 
 ## Demo Dashboard
 
