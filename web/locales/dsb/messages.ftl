@@ -130,6 +130,7 @@ scn = Sicilianišćina
 si = Singalezišćina
 sk = Słowakšćina
 sl = Słowjeńšćina
+so = Somališćina
 sq = Albanšćina
 sr = Serbišćina
 sv-SE = Šwedšćina
