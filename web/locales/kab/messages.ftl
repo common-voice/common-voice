@@ -130,6 +130,7 @@ scn = Tasisiliyant
 si = Tasinhalit
 sk = Tasluvakt
 sl = Tasluvinit
+so = Taṣumalit
 sq = Talbanit
 sr = Taṣirbit
 sv-SE = Taswidit
