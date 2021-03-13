@@ -130,6 +130,7 @@ scn = Sicilyaca
 si = Seylanca
 sk = Slovakça
 sl = Slovakça
+so = Somalice
 sq = Arnavutça
 sr = Sırpça
 sv-SE = İsveççe
@@ -850,6 +851,7 @@ demo-account-sign-up = Kayıt bağlantısını gönder
 ## Demo Contribute
 
 demo-contribute-card-header = Sesinizi eklemeye veya eklenenleri dinlemeye hazır mısınız?
+demo-contribute-card-body-v2 = Artık Common Voice'u daha iyi tanıdığınıza göre neden denemiyorsunuz? Cümleleri sesli okumaya başlamak için mikrofon simgesine tıklayın. <br/><br/>Başkalarının ses kayıtlarını incelemeyi tercih ederseniz oynat simgesine tıklayın. Ses kayıtlarının ekranda yazılan cümlelerle eşleştiğini doğrulamanızı isteyeceğiz.
 demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
 
 ## Demo Dashboard
