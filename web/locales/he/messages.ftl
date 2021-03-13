@@ -520,6 +520,7 @@ listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
+target-segment-add-voice = הוספת הקול שלך
 
 ## Reporting
 
@@ -572,6 +573,10 @@ overall-accuracy = דיוק כללי
 
 ## Custom Goals
 
+goal-type = איזה סוג של יעד ברצונך לבנות?
+lose-goal-progress-warning = ההתקדמות שלך עד כה עשויה להימחק בעת עריכת היעד שלך.
+finish-editing = לסיים את העריכה קודם לכן?
+lose-changes-warning = יציאה כעת תגרום לביטול השינויים שביצעת
 
 ## Profile Delete
 
