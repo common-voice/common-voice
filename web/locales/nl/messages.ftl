@@ -130,6 +130,7 @@ scn = Siciliaans
 si = Singalees
 sk = Slowaaks
 sl = Sloveens
+so = Somalisch
 sq = Albanees
 sr = Servisch
 sv-SE = Zweeds
