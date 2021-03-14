@@ -130,6 +130,7 @@ scn = سىتسىلىيەچە
 si = سىنگالچە
 sk = سىلوۋاكچە
 sl = سىلوۋېنىيەچە
+so = سومالىچە
 sq = ئالبانچە
 sr = سېربچە
 sv-SE = شۋېدچە
@@ -255,7 +256,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Play / Stop
+shortcut-play-toggle-label = قوي/توختات
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -304,6 +305,7 @@ settings = تەڭشەك
 profile-close = تاقاش
 thanks-for-account = ھېساباتىڭىزنى جەزملەشتۈرگەنلىكىڭىزگە رەھمەت ، ئەمدى ئارخىپىڭىزنى قۇرايلى.
 why-demographic = بۇ نېمە ئۈچۈن مۇھىم؟
+login-identity = كىرىش كىملىكى
 login-signup = تىزىمغا كىرىش / تىزىملىتىڭ
 edit = تەھرىرلەش
 retry-voice-wave-recording = قايتا سىناش
@@ -340,14 +342,17 @@ sentence-collection = جۈملە توپلىمى
 
 ## Error pages
 
+error-code = خاتالىق { $code }
 
 ## Data
 
+data-download-button = Common Voice سانلىق مەلۇماتلىرىنى چۈشۈرۈڭ
 data-download-yes = ھەئە
 data-download-deny = ياق
 data-other-download = سانلىق مەلۇماتنى چۈشۈرۈش
 release-version = نەشرى
 dataset-date = چېسلا
+license-mixed = ئارىلاش
 terms-agree = قوشۇلىمەن
 terms-disagree = قوشۇلمايمەن
 review-submit-title = تەكشۈرۈش ۋە يوللاش
@@ -360,6 +365,9 @@ language = تىل
 # File size in gigabytes
 size = چوڭلۇقى
 cv-license = ئىجازەتنامە
+audio-format = ئۈن پىچىمى
+number-of-voices = ئاۋاز سانى
+email-to-download = چۈشۈرۈش ئۈچۈن ئېلخەت ئادرېسىڭىزنى كىرگۈزۈڭ
 size-gigabyte = GB
 size-megabyte = MB
 subscribe = مۇشتەرى بولۇش
@@ -378,6 +386,8 @@ download-no = ياق رەھمەت
 
 contact-form-name =
     .label = ئىسمىڭىز
+contact-form-message =
+    .label = ئۇچۇر
 
 ## Request Language Modal
 
@@ -397,6 +407,8 @@ localized = يەرلىكلەشتۈرۈلگەن
 
 ## Contribution
 
+action-click = چېكىڭ
+shortcuts = تېزلەتمە
 target-segment-learn-more = تەپسىلاتى
 
 ## Reporting
