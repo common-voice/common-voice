@@ -409,6 +409,10 @@ localized = يەرلىكلەشتۈرۈلگەن
 
 action-click = چېكىڭ
 shortcuts = تېزلەتمە
+record-no-mic-found = مىكروفون تېپىلمىدى.
+record-error-too-short = خاتىرىلەش بەك قىسقا بولۇپ قالدى.
+record-error-too-long = خاتىرىلەش بەك ئۇزۇن بولۇپ قالدى.
+record-error-too-quiet = خاتىرىلەش بەك پەس بولۇپ قالدى.
 target-segment-learn-more = تەپسىلاتى
 
 ## Reporting
