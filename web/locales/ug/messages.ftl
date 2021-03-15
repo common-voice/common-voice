@@ -420,6 +420,7 @@ sst-explanation = Speech-to-text (STT) تېخنىكىسى ئاۋازنى تېك�
 
 ## Error pages
 
+error-title-404 = ئىزدىگەن بېتىڭىز تېپىلمىدى
 error-code = خاتالىق { $code }
 
 ## Data
@@ -427,15 +428,20 @@ error-code = خاتالىق { $code }
 data-download-button = Common Voice سانلىق مەلۇماتلىرىنى چۈشۈرۈڭ
 data-download-yes = ھەئە
 data-download-deny = ياق
+data-download-modal = سىز <size>{ $size }GB</size> نى چۈشۈرۈشنى باشلىماقچى بولۇۋاتىسىز؟
 data-other-download = سانلىق مەلۇماتنى چۈشۈرۈش
 release-version = نەشرى
 dataset-date = چېسلا
+license = ئىجازەتنامە: <licenseLink>{ $license }</licenseLink>
 license-mixed = ئارىلاش
 terms-agree = قوشۇلىمەن
 terms-disagree = قوشۇلمايمەن
 review-submit-title = تەكشۈرۈش ۋە يوللاش
 review-recording = تەكشۈرۈش
+review-rerecord = قايتا ئۈنگە ئىلىڭ
 review-cancel = يوللاشنى ئەمەلدىن قالدۇر
+review-keep-recordings = ئۈن خاتىرىسىنى ساقلاڭ
+review-delete-recordings = ئۈن خاتىرەمنى ئۆچۈر
 
 ## Datasets Page
 
@@ -459,23 +465,31 @@ dataset-version = نەشرى
 
 ## Download Modal
 
+download-form-email =
+    .label = ئېلخىتىڭىزنى كىرگۈزۈڭ
+    .value = رەھمەت، سىز بىلەن ئالاقىلىشىمىز.
 download-no = ياق رەھمەت
 
 ## Contact Modal
 
+contact-title = ئالاقە جەدۋىلى
 contact-form-name =
     .label = ئىسمىڭىز
 contact-form-message =
     .label = ئۇچۇر
+contact-required = *تەلەپ قىلىنىدۇ
 
 ## Request Language Modal
 
+request-language-title = تىل تەلىپى
 request-language-form-language =
     .label = تىل
+select-language = تىل تاللاڭ ...
 other-language = باشقا تىل
 
 ## Languages Overview
 
+language-section-in-progress = ئىلگىرىلەۋاتىدۇ
 language-section-launched = قوزغىتىلدى
 languages-show-more = تەپسىلاتى
 language-total-progress = ئومۇمىي
@@ -483,11 +497,14 @@ language-search-input =
     .placeholder = ئىزدە
 language-speakers = سۆزلىگۈچىلەر
 localized = يەرلىكلەشتۈرۈلگەن
+sentences = جۈملىلەر
 
 ## Contribution
 
 action-click = چېكىڭ
+skip = ئاتلا
 shortcuts = تېزلەتمە
+record-cta = ئۈنگە ئىلىشنى باشلا
 record-no-mic-found = مىكروفون تېپىلمىدى.
 record-error-too-short = خاتىرىلەش بەك قىسقا بولۇپ قالدى.
 record-error-too-long = خاتىرىلەش بەك ئۇزۇن بولۇپ قالدى.
