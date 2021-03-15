@@ -379,6 +379,7 @@ manage-subscriptions = مۇشتەرىلىكنى باشقۇرۇش
 manage-email-subscriptions = ئېلخەت مۇشتەرىلىكىنى باشقۇرۇش
 email-already-used = بۇ ئېلخەت باشقا ھېساباتقا ئىشلىتىلىپ بولۇنغان
 add-language = تىل قوشۇڭ
+change-email-setings = كىرىش كىملىكى ئاستىدىكى تەڭشەك ئېلخەت ئادرېسىڭىزنى ئۆزگەرتىڭ
 
 ## FAQ
 
@@ -387,20 +388,35 @@ faq-what-cv-q = ئورتاق ئاۋاز دېگەن نېمە؟
 faq-how-get-q = ئورتاق ئاۋاز سانلىق مەلۇماتلىرىغا قانداق ئېرىشەلەيمەن؟
 faq-why-my-lang-q = مېنىڭ تىلىم نېمىشقا تېخى كىرگۈزۈلمەيدۇ؟
 faq-where-src-from-2-q = ئەسلى تېكىست نەدىن كەلگەن؟
+faq-why-account-q = نېمىشقا ھېساباتقا تىزىملىتىشىم كېرەك؟
 faq-is-account-public-q = ھېسابات ئۇچۇرلىرىم ئاشكارىمۇ؟
 faq-what-is-cv = Common Voice دېگەن نېمە؟
+faq-search-for-answers =
+    .label = جاۋاب ئىزدەڭ
 
 ## ABOUT US
 
+about-title = نېمە ئۈچۈن Common Voice؟
+how-does-it-work-title = ئۇ قانداق ئىشلەيدۇ؟
+about-speak = سۆزلەڭ
+about-listen = ئاڭلاڭ
+about-partners = ھەمكارلاشقۇچىلار
+about-become-a-partner = ھەمكارلىشىڭ
+about-get-involved = قاتنىشىڭ
 about-nav-why-common-voice = نېمىشقا؟
 about-nav-how-it-works = قانداق؟
 about-nav-partners = ھەمكارلاشقۇچىلار
+about-nav-get-involved = قاتنىشىڭ
+mycroft-title = Mycroft Ai
 mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 
 ## Glossary
 
+glossary = ئاتالغۇلار
 localization = يەرلىكلەشتۈرۈش
 sentence-collection = جۈملە توپلىمى
+sst = Speech-to-text (STT) ئاۋازنى تېكىستقا
+sst-explanation = Speech-to-text (STT) تېخنىكىسى ئاۋازنى تېكىستكە ئايلاندۇرىدۇ.
 
 ## Error pages
 
