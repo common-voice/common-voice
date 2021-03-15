@@ -200,6 +200,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = रेकॉर्ड करा/ थांबा
+shortcut-rerecord-toggle = [१-५]
 shortcut-rerecord-toggle-label = क्लिप पुन्हा रेकॉर्ड करा
 request-language-text = Common Voice वर आपली भाषा अद्याप दिसत नाही?
 
