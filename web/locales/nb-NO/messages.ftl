@@ -130,6 +130,7 @@ scn = Siciliansk
 si = Singalesisk
 sk = Slovakisk
 sl = Slovensk
+so = Somali
 sq = Albansk
 sr = Serbisk
 sv-SE = Svensk
