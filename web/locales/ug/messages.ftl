@@ -502,6 +502,8 @@ sentences = جۈملىلەر
 ## Contribution
 
 action-click = چېكىڭ
+contribute = تۆھپە قوشاي
+listen = ئاڭلاي
 skip = ئاتلا
 shortcuts = تېزلەتمە
 record-cta = ئۈنگە ئىلىشنى باشلا
@@ -509,6 +511,11 @@ record-no-mic-found = مىكروفون تېپىلمىدى.
 record-error-too-short = خاتىرىلەش بەك قىسقا بولۇپ قالدى.
 record-error-too-long = خاتىرىلەش بەك ئۇزۇن بولۇپ قالدى.
 record-error-too-quiet = خاتىرىلەش بەك پەس بولۇپ قالدى.
+record-cancel = قايتا ئۈنگە ئىلىشنى بىكار قىل
+record-abort-submit = ئاۋازنى يوللاش
+record-abort-continue = ئۈنگە ئىلىش ئاخىرلاشسۇن
+speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
+record-button-label = ئاۋازىڭىزنى ئۈنگە ئىلىڭ
 target-segment-learn-more = تەپسىلاتى
 
 ## Reporting
