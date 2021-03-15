@@ -132,6 +132,7 @@ scn = Kisisilia
 si = Kisinhala
 sk = Kislovakia
 sl = Kislovenia
+so = Kisomali
 sq = Kialbania
 sr = Kisebia
 sv-SE = Kiswidi
