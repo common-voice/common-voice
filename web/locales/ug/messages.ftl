@@ -336,6 +336,9 @@ female = ئايال
 # Gender
 other = باشقىلىرى
 why-profile-title = نېمە ئۈچۈن ئارخىپ؟
+why-profile-text =
+    ئۆزىڭىز ھەققىدە بەزى ئۇچۇرلارنى تەمىنلەش ئارقىلىق ، Common Voice غا يوللىغان ئاۋازلىق سانلىق مەلۇماتىڭىزنىڭ ئىشلىتىشچانلىقى ئاشىدۇ.
+    تونۇش ئىقتىدارى بۇ سانلىق مەلۇماتلارنى ئىشلىتىپ توغرىلىقىنى ئۆستۈرىدۇ.
 dashboard = باش تاختا
 build-profile = ئارخىپ قۇرۇڭ
 avatar = Avatar
@@ -346,6 +349,7 @@ profile-create-success = ئارخىپ قۇرۇش مۇۋەپپەقىيەتلىك 
 profile-close = تاقاش
 thanks-for-account = ھېساباتىڭىزنى جەزملەشتۈرگەنلىكىڭىزگە رەھمەت ، ئەمدى ئارخىپىڭىزنى قۇرايلى.
 why-demographic = بۇ نېمە ئۈچۈن مۇھىم؟
+accept-privacy = مەن بۇ ئۇچۇرلارنىڭ Mozilla نىڭ  <privacyLink> مەخپىيەتلىك تۈزۈمى</privacyLink> دە چۈشەندۈرۈلگەن بويىچە بىر تەرەپ قىلىنىشىغا باشقا پىكىرىم يوق
 accept-privacy-title = مەخپىيەتلىك تۈزۈمى
 login-identity = كىرىش كىملىكى
 login-signup = تىزىمغا كىرىش / تىزىملىتىڭ
@@ -353,8 +357,10 @@ edit = تەھرىرلەش
 email-subscriptions = ئېلېكترونلۇق خەت مۇشتەرىلىكى
 download-profile = سانلىق مەلۇماتىمىنى چۈشۈرىمەن
 contribution-experience = تۆھپە تەجرىبىسى
+skip-submission-note = ئەسكەرتىش: سىز يەنىلا سۆزلەش ياكى ئاڭلاشنى تاللاپ تۆھپە قوشۇش ئۇسۇلىنى تاللىشىڭىز كېرەك.
 off = ئۆچۈر
 on = ياندۇر
+avatar-clip-title = avatar غا ئاۋاز بىرىڭ
 retry-voice-wave-recording = قايتا سىناش
 re-record = قايتا ئۈنگە ئىلىش
 delete-voice = ئۆچۈر
