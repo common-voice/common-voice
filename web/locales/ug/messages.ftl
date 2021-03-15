@@ -219,6 +219,7 @@ listen-paragraph = ئىئانە قىلىنغان ئاۋازلارنى دەلىل
 listen-goal-text = ئاۋاز دەلىللەندى
 hours-recorded = ئۈنگە ئىلىنغان سائەت
 hours-validated = دەلىللەنگەن سائەت
+voices-online = توردىكى ئاۋازلار
 todays-progress = بۈگۈنكى ئىلگىرىلەش
 help-reach-goal = { $goal }غا يېتىشىمىزغا ياردەم قېلىڭ
 read-terms-q = بىزنىڭ شەرتلىرىمىزنى ئوقۇدىڭىزمۇ؟
@@ -243,6 +244,7 @@ x-years-short =
 help-make-dataset = يۇقىرى سۈپەتلىك ، ئوچۇق ئاشكارا سانلىق مەلۇمات ئامبىرى قۇرۇشىمىزغا ياردەم قىلىڭ
 sign-up-account = ھېساباتقا تىزىملىتىڭ
 email-subscription-title = ئېلېكترونلۇق خەت يېڭىلاشقا تىزىملىتىڭ
+email-subscription-title-new = Common Voice نىڭ خەۋەرلىرىگە، نىشان ئەسكەرتىشىگە ۋە ئىلگىرىلەش يېڭىلانمىلىرىغا تىزىملىتىڭ
 
 ## Account Benefits
 
