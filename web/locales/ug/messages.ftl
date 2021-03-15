@@ -262,6 +262,7 @@ whats-public = ئاممىۋى دېگەن نېمە؟
 email-not-public = بىز ئېلېكترونلۇق خەتلىرىڭىزنى ئاشكارلىمايمىز.
 recordings-and-locale-public = ئۈن خاتىرىڭىز ۋە قايسى تىلغا تۆھپە قوشقانلىقىڭىز ئاشكارا ھالدا بولىدۇ.
 username-optin-public = ئىشلەتكۈچى ئىسمىڭىزنى ئاشكارىلاش ياكى نامسىز قىلىشنى تاللىسىڭىز بولىدۇ.
+username-email-not-demographic = ئىشلەتكۈچى ئىسمىڭىز ۋە ئېلېكترونلۇق خەتلىرىڭىز ئېلان قىلىنغان سانلىق مەلۇماتلار بىلەن باغلانغان بولمايدۇ.
 
 ## Speak & Listen Shortcuts
 
@@ -287,6 +288,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = خاتىرلە/توختات
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = قايتا ئۈنگە ئال
 request-language-text = Common Voice تا تېخى تىلىڭىزنى كۆرمىدىڭىزمۇ؟
 request-language-text-learn = بۇ يەردىن قانداق تەلەپ قىلىشنى ئۆگىنىۋېلىڭ!
@@ -294,6 +296,7 @@ request-language-button = تىل تەلەپ قىلىڭ
 
 ## ProjectStatus
 
+status-title = ئومۇمىي تۈر ئەھۋالى: بىزنىڭ قانچىلىك تاماملىغىنىمىزنى كۆرۈڭ!
 status-contribute = ئاۋازىڭىزنى ھەدىيە قىلىڭ
 status-hours =
     { $hours ->
@@ -319,7 +322,10 @@ profile-form-age =
     .label = يېشى
 profile-form-gender-2 =
     .label = جىنىس
+leaderboard-visibility =
+    .label = رەھبەر تاختىسىنىڭ كۆرۈنۈشچانلىقى
 hidden = يۇشۇرۇن
+visible = كۆرگىلى بولىدۇ
 native-language =
     .label = ئانا تىل
 profile-form-submit-save = ساقلا
@@ -331,6 +337,7 @@ other = باشقىلىرى
 why-profile-title = نېمە ئۈچۈن ئارخىپ؟
 dashboard = باش تاختا
 build-profile = ئارخىپ قۇرۇڭ
+avatar = Avatar
 goals = نىشان
 settings = تەڭشەك
 edit-profile = ئارخىپنى تەھرىرلەش
@@ -344,6 +351,7 @@ login-signup = تىزىمغا كىرىش / تىزىملىتىڭ
 edit = تەھرىرلەش
 email-subscriptions = ئېلېكترونلۇق خەت مۇشتەرىلىكى
 download-profile = سانلىق مەلۇماتىمىنى چۈشۈرىمەن
+contribution-experience = تۆھپە تەجرىبىسى
 off = ئۆچۈر
 on = ياندۇر
 retry-voice-wave-recording = قايتا سىناش
