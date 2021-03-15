@@ -361,14 +361,23 @@ skip-submission-note = ئەسكەرتىش: سىز يەنىلا سۆزلەش يا
 off = ئۆچۈر
 on = ياندۇر
 avatar-clip-title = avatar غا ئاۋاز بىرىڭ
+change-your-avatar-clip = ئاۋازىڭىزنى ئۆزگەرتمەكچىمۇ؟
+recording-in-progress = ئاۋاز ئۈنگە ئېلىنماقتا
 retry-voice-wave-recording = قايتا سىناش
 re-record = قايتا ئۈنگە ئىلىش
 delete-voice = ئۆچۈر
+recording-voice-wave = ئۈنگە ئېلىنىۋاتىدۇ
+delete-voice-clip = ياكى ئاۋازنى ئۆچۈرۈڭ
 ready-to-upload = يۈكلە
 cancel-avatar-clip-recording = ئەمەلدىن قالدۇر
 browse-file-title = رەسىم ھۆججىتىنى يۈكلە
+browse-file = سۆرەپ تاشلاڭ ياكى <browseWrap>كۆز يۈگۈرتىڭ </ browseWrap>
 connect-gravatar = Gravatar بىلەن ئۇلاڭ
+gravatar_not_found = سىزنىڭ ئېلخىتىڭىز ئۈچۈن gravatar تېپىلمىدى
 file_too_large = تاللانغان ھۆججەت بەك چوڭ
+manage-subscriptions = مۇشتەرىلىكنى باشقۇرۇش
+manage-email-subscriptions = ئېلخەت مۇشتەرىلىكىنى باشقۇرۇش
+email-already-used = بۇ ئېلخەت باشقا ھېساباتقا ئىشلىتىلىپ بولۇنغان
 add-language = تىل قوشۇڭ
 
 ## FAQ
