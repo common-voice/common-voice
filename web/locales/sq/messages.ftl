@@ -102,6 +102,7 @@ mk = Maqedonisht
 ml = Malajalame
 mn = Mongolisht
 mrj = Hill Mari
+ms = Malajziane
 mt = Malteze
 my = Birmanisht
 myv = Erzan
