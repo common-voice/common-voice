@@ -255,6 +255,7 @@ improve-audio = ئارخىپ ئۇچۇرىڭىز ئاۋاز تونۇش توغرى
 ## What's public
 
 whats-public = ئاممىۋى دېگەن نېمە؟
+email-not-public = بىز ئېلېكترونلۇق خەتلىرىڭىزنى ئاشكارلىمايمىز.
 
 ## Speak & Listen Shortcuts
 
@@ -279,10 +280,20 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = خاتىرلە/توختات
+shortcut-rerecord-toggle-label = قايتا ئۈنگە ئال
+request-language-text = Common Voice تا تېخى تىلىڭىزنى كۆرمىدىڭىزمۇ؟
+request-language-text-learn = بۇ يەردىن قانداق تەلەپ قىلىشنى ئۆگىنىۋېلىڭ!
+request-language-button = تىل تەلەپ قىلىڭ
 
 ## ProjectStatus
 
 status-contribute = ئاۋازىڭىزنى ھەدىيە قىلىڭ
+status-hours =
+    { $hours ->
+        [one] ھازىرغىچە بىر سائەت دەلىللەندى
+       *[other] ھازىرغىچە { $hours } دەلىللەندى
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = كېيىنكى نىشان: { $goal }
@@ -296,6 +307,8 @@ profile-form-native-language =
     .label = ئانا تىل
 profile-form-additional-language =
     .label = قوشۇمچە تىل
+profile-form-accent =
+    .label = ئاھاڭ
 profile-form-age =
     .label = يېشى
 profile-form-gender-2 =
@@ -309,15 +322,24 @@ male = ئەر
 female = ئايال
 # Gender
 other = باشقىلىرى
+why-profile-title = نېمە ئۈچۈن ئارخىپ؟
 dashboard = باش تاختا
+build-profile = ئارخىپ قۇرۇڭ
 goals = نىشان
 settings = تەڭشەك
+edit-profile = ئارخىپنى تەھرىرلەش
+profile-create-success = ئارخىپ قۇرۇش مۇۋەپپەقىيەتلىك بولدى!
 profile-close = تاقاش
 thanks-for-account = ھېساباتىڭىزنى جەزملەشتۈرگەنلىكىڭىزگە رەھمەت ، ئەمدى ئارخىپىڭىزنى قۇرايلى.
 why-demographic = بۇ نېمە ئۈچۈن مۇھىم؟
+accept-privacy-title = مەخپىيەتلىك تۈزۈمى
 login-identity = كىرىش كىملىكى
 login-signup = تىزىمغا كىرىش / تىزىملىتىڭ
 edit = تەھرىرلەش
+email-subscriptions = ئېلېكترونلۇق خەت مۇشتەرىلىكى
+download-profile = سانلىق مەلۇماتىمىنى چۈشۈرىمەن
+off = ئۆچۈر
+on = ياندۇر
 retry-voice-wave-recording = قايتا سىناش
 re-record = قايتا ئۈنگە ئىلىش
 delete-voice = ئۆچۈر
