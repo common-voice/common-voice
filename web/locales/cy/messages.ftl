@@ -130,6 +130,7 @@ scn = Sisilieg
 si = Sinhala
 sk = Slofaceg
 sl = Slofeneg
+so = Somali
 sq = Albaneg
 sr = Serbeg
 sv-SE = Swedeg
