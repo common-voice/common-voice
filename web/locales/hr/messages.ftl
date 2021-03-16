@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Da, šaljite mi e-mailove. Želim primati novosti o projektu Common Voice.
-stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i saznati kako koristiš te podatke.
+yes-receive-emails = Da, šaljite mi e-poštu. Želim primati novosti o projektu Common Voice.
+stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i voljeli bi saznati kako koristite podatke.
 privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Saznaj više u našim <privacyLink>napomenama o privatnosti</privacyLink>.
 return-to-cv = Povratak na Common Voice
 email-input =
@@ -72,6 +72,7 @@ he = Hebrejski
 hi = Hindski
 hr = Hrvatski
 hsb = Lužičkosrpski, gornji
+ht = Haićanski
 hu = Mađarski
 hy-AM = Armenski
 hyw = Armenski zapadni
@@ -101,7 +102,10 @@ mhr = Meadow Mari
 mk = Makedonski
 ml = Malajalamski
 mn = Mongolski
+mos = Mossi
+mr = Marathi
 mrj = Hill Mari
+ms = Malajski
 mt = Malteški
 my = Burmanski
 myv = Erzya
@@ -113,6 +117,7 @@ oc = Okcitanski
 or = Odia
 pa-IN = Pandžapski
 pl = Poljski
+ps = Paštunski
 pt = Portugalski
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
@@ -125,6 +130,7 @@ scn = Sicilijanski
 si = Sinhala
 sk = Slovački
 sl = Slovenski
+so = Somalski
 sq = Albanski
 sr = Srpski
 sv-SE = Švedski
@@ -139,6 +145,7 @@ tr = Turski
 tt = Tatarski
 uby = Ubykh
 udm = Udmurtski
+ug = Ujgurski
 uk = Ukrajinski
 ur = Urdski
 uz = Uzbečki
@@ -287,6 +294,7 @@ shortcut-record-toggle-label = Snimaj/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ponovo snimi isječak
 request-language-text = Tvoj jezik nedostaje u Common Voiceu?
+request-language-text-learn = Ovdje možete saznati kako to zatražiti!
 request-language-button = Zatražite jezik
 
 ## ProjectStatus
@@ -532,6 +540,7 @@ dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kombinirana
 data-download-singleword-title = Preuzmi segment za ciljanje pojedinačnih riječi
+data-download-singleword-callout-v2 = Ovo je segment usmjeren na slučajeve upotrebe koji sadrži podatke za prepoznavanje izgovorenih znamenki i otkrivanje da / ne.
 review-terms = Korištenjem Common Voicea, prihvaćaš naše <termsLink>uvjete</termsLink> i <privacyLink>napomene o privatnosti</privacyLink>
 terms-agree = slažem se
 terms-disagree = ne slažem se
@@ -885,23 +894,34 @@ read-more-about = Pročitaj više na našoj stranici Informacije
 
 demo-get-started = Započnimo
 demo-welcome = Dobro došao, dobro došla u Common Voice
+demo-welcome-subheader = Zainteresirani ste za naučiti više i doprinijeti projektu?
 
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice je najveći javno dostupan, višejezičan skup glasovnih podataka na svijetu.
+demo-language-select-card-body = Zahvaljujući doprinosima preko 259 000 ljudi na više od 50 jezika, ovi se podaci koriste za osposobljavanje aplikacija s omogućenim govorom da bolje reagiraju na ljudski glas.
 card-button-next = Dalje
 card-button-back = Natrag
 demo-language-select-label = Pregledaj jezike
+demo-eofy-header = Izdanje na kraju 2019
+demo-eofy-sub_header = Skup glasovnih podataka, spreman za preuzimanje
 demo-account = Račun
 
 ## Demo Account
 
+demo-account-card-header = Otvaranje računa nije potrebno za doprinos, iako je korisno.
+demo-account-card-body = S desne strane opisujemo prednosti i razjašnjavamo koje informacije objavljujemo. Upotrijebite donje poveznice kako biste započeli s računom Common Voice na vlastitom uređaju.
 demo-account-enter-email =
     .label = Upiši e-adresu za slanje poveznice za prijavu
 demo-account-sign-up = Pošalji poveznicu za prijavu
 
 ## Demo Contribute
 
+demo-contribute-card-header = Jeste li spremni dodati svoj glas ili posuditi uho?
+demo-contribute-card-body-v2 = Sad kada znate malo više o projektu Common Voice, zašto ga ne isprobati? Kliknite na ikonu mikrofona kako bi počeli čitati rečenice na glas. <br/><br/>Ako vam je draže provjeravanje glasovnih doprinosa drugih ljudi, klikni na ikonu za reprodukciju. Pomoći ćete potvrditi da se snimke slažu sa rečenicama na ekranu.
+demo-listen-subtitle = Jeste li spremni dati svoj doprinos?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Osobne nadzorne ploče održavaju vas u toku s napretkom pojedinca i zajednice.
+demo-dashboard-card-body = Za svaki donirani glasovni isječak i svaki potvrđeni audioisječak nadzorne ploče vašeg računa ažuriraju se tako da odražavaju vaš najnoviji napredak na svakom jeziku kojem doprinosite. Da, možete doprinijeti na više od jednom jeziku! <br/> <br/> Upotrijebite nadzorne ploče da biste pratili svoju statistiku, vidjeli kako radite s drugima u zajednici i postavili dnevne ili tjedne ciljeve doprinosa.
