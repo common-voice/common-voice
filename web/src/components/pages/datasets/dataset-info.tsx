@@ -36,8 +36,8 @@ import {
 import './dataset-info.css';
 import URLS from '../../../urls';
 
-export const CURRENT_RELEASE = 'cv-corpus-6.1-2020-12-11';
-const SEGMENT_RELEASE = 'cv-corpus-6.1-singleword';
+export const CURRENT_RELEASE = Object.keys(releases)[0];
+const SEGMENT_RELEASE = Object.keys(releases)[0];
 
 const DEFAULT_CATEGORY_COUNT = 2;
 
@@ -499,12 +499,12 @@ const DatasetSegmentDownload = ({
   const stats = releases[releaseName];
   const bundleState = {
     bundleLocale: 'overall',
-    checksum: stats.overall.checksum,
-    size: byteToSize(stats.overall.size, getString),
+    checksum: stats.checksum,
+    size: byteToSize(stats.size, getString),
     language: '',
     totalHours: formatHrs(stats.totalHrs),
     validHours: formatHrs(stats.totalValidHrs),
-    rawSize: stats.overall.size,
+    rawSize: stats.size,
     datasetVersion: SEGMENT_RELEASE,
   };
 
