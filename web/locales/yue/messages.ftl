@@ -223,18 +223,26 @@ dataset-version = 版本
 
 ## Contribution
 
+record-must-allow-microphone = 你必須容許咪高峰存取權。
+record-no-mic-found = 未發現咪高峰。
+share-common-voice = 分享Common Voice
 
 ## Reporting
 
+report = 報告
+report-title = 提交一個報告
+report-grammar-or-spelling-detail = 呢句有文法或串法錯誤。
 
 ## Goals
 
 
 ## Dashboard
 
+awards = 獎勵
 
 ## Custom Goals
 
+share-goal = 分享我嘅目標
 
 ## Profile Delete
 
