@@ -179,6 +179,8 @@ connect-gravatar = 連結 Gravatar
 
 ## FAQ
 
+faq-why-different-speakers-q = 點解每種語言需要咁多貢獻者呢？
+faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊“識別講者嘅身份”係咩解究呢?
 
 ## ABOUT US
 
