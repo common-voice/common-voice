@@ -792,13 +792,13 @@ activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } time
        *[other] { $totalHours } timer
-    }er oppnåelig på drøyt{ NUMBER($periodMonths) ->
+    } er oppnåelig på drøyt { NUMBER($periodMonths) ->
         [one] { $periodMonths } måned
        *[other] { $periodMonths } måneder
-    }hvis{ NUMBER($people) ->
+    } hvis { NUMBER($people) ->
         [one] { $people } person
        *[other] { $people } personer
-    }registrerer{ NUMBER($clipsPerDay) ->
+    } registrerer { NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } lydklipp
        *[other] { $clipsPerDay } lydklipp
     } om dagen.
