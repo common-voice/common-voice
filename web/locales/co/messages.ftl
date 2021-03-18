@@ -415,15 +415,26 @@ dataset-version = Versione
 
 ## Download Modal
 
+download-helpus = Aiutateci à custruisce una cumunità intornu à a tecnulugia vucale, state in cuntattu via email.
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Nome
+contact-form-message =
+    .label = Missaghju
 
 ## Request Language Modal
 
+request-language-title = Richiesta di lingua
+request-language-form-language =
+    .label = Lingua
 
 ## Languages Overview
 
+language-total-progress = Tutale
+language-search-input =
+    .placeholder = Ricercà
 
 ## Contribution
 
