@@ -305,18 +305,24 @@ faq-when-release2-q = Quandu publicareti i dati di Common Voice in altre lingue 
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 faq-what-cv-and-deepspeech-q = Chì gjhè a differenza trà Common Voice è Deep Speech ?
 faq-is-goal-assistant-q = U scopu di Common Voice saria di custruisce un assistente vucale ?
+faq-is-goal-assistant-a = U scopu di a banca di dati Common Voice hè di permette à tutt'ognunu in lu mondu sanu di sviluppà applicazioni di ricunniscenza vocale, di ricunniscenza di i lucutori, o qualsiasi tippu d'applicazioni chì richerghi dati vocali. Un assistente vucale hè solu unu di i numarosi tippi d'applicazioni chì si puderia fà aduprendu a banca di dati.
 faq-do-want-native-q = Issa lingua ùn hè micca a mè lingua materna è aghju un accentu, vuleti quantunque a mè voce ?
 faq-do-want-native-a = Iè, vulemu in particulari a vostra voce! Una parte di l'ughjettivu di Common Voice hè di riunisce u mori accenti sfarenti pussibule pà fà funziunà i servizii di ricunniscenza vucale ugualmente bè per tutti. Questu vole dì chì e cuntribuzione da lucutori non nativi sò particularmente impurtanti.
 faq-why-different-speakers-q = Parchì avete bisognu di tanti lucutori differente per ogni lingua ?
-faq-why-my-lang-q = Parchì a mè lingua ùn hè micca ghjà achjusa ?
+faq-why-my-lang-q = Parchì a me lingua ùn hè ancu inghjusa ?
 faq-what-quality-q = Chì niveddu di qualità audio hè richiestu pà avè un campione di voce adupratu in a banca di dati ?
 faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
 faq-why-10k-hours-a = Hè più o menu a quantità d'ore necessarii pà addestrà un sistemu di pruduzzione di voce-à-u-testu.
 faq-how-calc-hours-q = Di chì manera Common Voice calculeghja l'ore ?
 faq-how-calc-hours-a = Calculemu l’ore stimendu a lunghezza media d’ogni arrighjistramenti, è poi multiplichemu issu numaru cù a tutalità d’arrighjistramenti in tutte e lingue.
 faq-where-src-from-2-q = D’induve vene u testu urighjinali ?
+faq-where-src-from-2-a =
+    I nostri testi urighjinale sò dunazione di cuntributori è ancu dialughi di filmi di u duminiu publicu cum’è <italic>It’s a Wonderful Life</italic>.
+    
+    Pudeti truvà i testi urighjinali in stu <githubLink>cartulare GitHub</githubLink>.
 faq-why-not-ask-read-q = Parchì ùn dumandeti micca à la ghjenti di leghje libri o articuli di Wikipedia in parechje lingue ?
 faq-why-account-q = Parchì duvaria creami un contu ?
+faq-is-account-public-q = Sò publiche l'infurmazioni di u mio contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-what-determine-identity-q = Chì vole dì chì ùn possu « diterminà l’identità » di i locutori in a banca di dati Common Voice ?
 faq-what-is-cv = Chì hè Common Voice ?
