@@ -110,7 +110,7 @@ home-title = Common Voice hè l'iniziativa di Mozilla per aiutà à insegnà à 
 home-cta = Parlate puru, cuntribuite quì !
 wall-of-text-start = A voce hè naturale, a voce hè umana. Hè per quessa chì no simu affascinati da a criazione di una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, una quantità tamanta di dati vucale hè richiesta.
 wall-of-text-more-mobile = A maiò parte di i dati ghjuvati da l'imprese maiò ùn sò micca dispunibile à a maiurità di e parsone. Pinsemu chì suffuca l'innuvazione. Tandu avemu lanciatu u prughjettu Common Voice, pà aiutà à apre à tutti a ricunniscenza vucale.
-wall-of-text-more-desktop = Avà pudeti dà a vostra voce pà aiutaci à custruisce una basa di dati vucale di fonte aperta chì tuttu mondu pò aduprà pà creà applicazione innuvative pà apparechji è u web. Lighjite una frasa pà aiutà e macchine à amparà comu parlani in vere e parsone. Verificate u travaddu d'altri cuntributori pà migliurà à qualità. Hè cusì simplice !
+wall-of-text-more-desktop = Avà pudeti dà a vostra voce pà aiutaci à custruisce una basa di dati vucale di fonte aperta chì tuttu ognunu pò aduprà pà creà applicazione innuvative pà apparechji è u web. Lighjite una frasa pà aiutà e macchine à amparà comu parlani in veru e parsone. Verificate u travaddu d'altri cuntributori pà migliurà a qualità. Hè cusì simplice !
 wall-of-text-first = A voce hè naturale, a voce hè umana. Hè per quessa chì simu vugliosi di creà di una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, i sviluppadori ani bisognu d'una quantità strimamente grande di dati vucale.
 wall-of-text-second = A maiò parte di i dati ghjuvati da l'imprese maiò ùn sò micca dispunibile à a maiurità di e parsone. Pinsemu chì suffuca l'innuvazione. Tandu avemu lanciatu Common Voice, un prughjettu pà aiutà à rende aperta è accissibile à tutti a ricunniscenza vucale.
 show-wall-of-text = Leghje di più
@@ -403,6 +403,8 @@ review-cancel = Annuddà l'inviu
 ## Datasets Page
 
 language = Lingua
+# File size in gigabytes
+size = Dimensione
 cv-license = Licenza
 download-language = Scaricà { $language }
 validated-hours = Ore Cunvalidate
