@@ -391,6 +391,11 @@ data-download-deny = Innò
 data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
 data-download-modal = Seti à u puntu di principià un scaricamentu di <size>{ $size } Go</size>, vulete cuntinuà ?
 data-other-download = Scaricà i dati
+data-bundle-button = Scaricà u lottu di a banca di dati
+release-version = Versione
+dataset-date = Data
+license = Licenza : <licenseLink> { $license } </licenseLink>
+license-mixed = Mischiatu
 terms-agree = Sò d'accunsentu
 terms-disagree = Ùn sò micca d'accunsentu
 review-cancel = Annuddà l'inviu
@@ -398,8 +403,15 @@ review-cancel = Annuddà l'inviu
 ## Datasets Page
 
 language = Lingua
-missing-language = Ùn vidite micca à vostra lingua in a basa di dati ? Pà dumandà una lingua, andate annantu à nostra paghjina Lingue.
+cv-license = Licenza
+download-language = Scaricà { $language }
+validated-hours = Ore Cunvalidate
+recorded-hours = Ore Arrighjistrate
+missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dumandà una lingua, andate annantu à a nostra paghjina Lingue.
+more = Più
+close = Sarrà
 download = Scaricà
+dataset-version = Versione
 
 ## Download Modal
 
