@@ -861,6 +861,7 @@ demo-welcome = Velkomen til Common Voice
 card-button-next = Neste
 card-button-back = Tilbake
 demo-language-select-label = Bla gjennom språk
+demo-account = Konto
 
 ## Demo Account
 
