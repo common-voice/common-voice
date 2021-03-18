@@ -376,6 +376,7 @@ glossary = Glussariu
 localization = Lucalizazione
 localization-explanation = Questu hè u nostru prucessu pà traduce è adattà u nostru cuntinutu à mori di lingue.
 sentence-collection = Racolta d'infrasate
+sst = Discorsu-à-u-testu (Speech-to-text, STT)
 
 ## Error pages
 
@@ -389,6 +390,7 @@ data-download-yes = Iè
 data-download-deny = Innò
 data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
 data-download-modal = Seti à u puntu di principià un scaricamentu di <size>{ $size } Go</size>, vulete cuntinuà ?
+data-other-download = Scaricà i dati
 terms-agree = Sò d'accunsentu
 terms-disagree = Ùn sò micca d'accunsentu
 review-cancel = Annuddà l'inviu
