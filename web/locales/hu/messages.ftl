@@ -96,6 +96,7 @@ lg = Luganda
 lij = Ligur
 lt = Litván
 lv = Lett
+mai = Maithili
 mdf = Moksa
 mg = Malgas
 mhr = Mezei mari
