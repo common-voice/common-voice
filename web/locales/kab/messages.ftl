@@ -2,15 +2,15 @@
 
 yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad iyi-d-ttawḍen yisallen ɣef usenfaṛ n Commen Voice.
 stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt i ittezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsell ugar ɣef wamek ara ttwasqedcen isefka-agi.
-privacy-info = Ad neḍmen aḥraz n talɣut-nwen. Ɣer ugar n yisallen deg <privacyLink>tsertit-nneɣ tabaḍnit</privacyLink>.
+privacy-info = Ad neḍmen aḥraz n talɣut-nwen. Ɣaṛ ugar n yisallen deg <privacyLink>tsertit-nneɣ tabaḍnit</privacyLink>.
 return-to-cv = Uɣal ɣer Common Voice
 email-input =
-    .label = Tavrat tiliktronit
+    .label = Imayl
 submit-form-action = Azen
 loading = Asali…
-email-opt-in-info = Bɣiɣ ad d-ṭṭfeɣ imaylen am yismektiyen n yiswan, aswir-iw n umecwar n yileqman akked uɣmis ɣef Common Voice.
+email-opt-in-info = Bɣiɣ ad d-ṭṭfeɣ imaylen am yismektiyen n yiswiyen, anerni-iw deg yileqman akked talɣuyin yeεnan Common Voice.
 email-opt-in-info-title = Jerred deg tebdert n unermes Common Voice
-email-opt-in-info-sub-with-challenge = Ṭṭef imaylen am iznan n timzizliyin akked usmekti n iswiyen, tilḥin deg umahel akked isallen ɣef Common Voice.
+email-opt-in-info-sub-with-challenge = Ṭṭef imaylen am iznan n timzizliyin akked usmekti n iswiyen, anerni n ilqman akked isallen yeεnan Common Voice.
 email-opt-in-privacy-v2 = Ma tferneḍ armas n yimaylen, ad tqebleḍ ad tesseqdec Mozilla talɣut-a akken i d-tettwasegza deg <privacyLink>Tasertit n tbaḍnit n Mozilla</privacyLink>.
 indicates-required = * Yemmal-d urti ilaqen
 not-available-abbreviation = N/A
