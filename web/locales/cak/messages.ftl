@@ -72,6 +72,7 @@ he = Hebreo
 hi = Hindu
 hr = Croata
 hsb = Alto Sorabo
+ht = aj Haiti
 hu = Hungaro
 hy-AM = Armenyan
 hyw = Armenio (occidental )
@@ -95,6 +96,7 @@ lg = Uganda
 lij = Ligur
 lt = Lituano
 lv = Letón
+mai = Maithili
 mdf = Moksha
 mg = Madagascari
 mhr = Mari oriental
@@ -789,3 +791,18 @@ help-contribute = Yatikïr yato'on chi runuk'ik jalajöj rucholxe' tzij, ri jaq�
 login-company = Tatikirisaj Molojri'ïl / Tatz'ib'aj Ab'i' rik'in ri { $company } taqoya'l
 profile-not-required = Man k'atzinel ta jun ruwäch ab'i' richin yato'on, po rik'in jub'a' nik'atzin.
 read-more-about = Tisik'ïx ch'aqa' chik pa Chi rij pa ri ruxaq
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
