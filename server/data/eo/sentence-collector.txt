@@ -1315,7 +1315,11 @@ Aĥ jes, mi distriĝis.
 Aĥ, jes, la radioteknikisto.
 Aĥ, kia domaĝo, ke ne mi sed vi lin renkontis!
 Aĥ, se estus tiel!
+Aĥ, se mi kuraĝus!
+Aĥ, se ŝi kuraĝus!
+Aĥ, sed baldaŭ ŝi aspektos malsame, bonŝance!
 Aĥ, unu missendita balotilo.
+Aŭ Vin mem?
 Aŭ amika estro.
 Aŭ antaŭhieraŭ.
 Aŭ cent.
@@ -3749,6 +3753,7 @@ En tiuj tagoj, ne eblas libere atenti pri la ĉirkaŭo.
 En tiuj turoj loĝas sepcent eminentaj sinjoroj, kiuj defendas la urbon.
 En tiun sakon oni ŝovis la kobajon, kaj poste sidis sur la sako.
 En tradiciaj Lingvaj Festivaloj ne estas muziko, nek danco, nek komercaj aferoj.
+En tre multaj sangaj konfliktoj aktualaj religio estas enplektita.
 En unu frazo, la instruisto tute metis min en ĝenan situacion.
 En unu jaro la profito je tio atingas pli ol kvar milionojn da juanoj.
 En unu momento.
@@ -6705,6 +6710,8 @@ Jen vi ŝerculo, komikulo!
 Jen via eksterordinaraĵo.
 Jen via letero.
 Jen via partio.
+Jen viro!
+Jen viro, ŝi pensis denove.
 Jen ĉio, kion mi pensas.
 Jen ĉio, pri kio mi povas raporti.
 Jen ĉio, ĝis nun.
@@ -7174,6 +7181,7 @@ Kaj jam poste garantiojn.
 Kaj jam tio iros.
 Kaj je la femuro.
 Kaj je tioma distanco!
+Kaj jen Arnold fingromontras al reklamo, kaj la ekrano eksplodas je koloroj.
 Kaj jen ho, mia koro, estis terure.
 Kaj jen ili, esplorante...
 Kaj jen la surprizo!
@@ -7233,6 +7241,7 @@ Kaj kio estas bezonata?
 Kaj kio estas la eterna rekantaĵo en la recenzoj?
 Kaj kio malbone?
 Kaj kio okazis?
+Kaj kio pri la miaj?
 Kaj kio sekvas el ĉio ĉi tio?
 Kaj kiom ankoraŭ estas antaŭe!
 Kaj kiom da litoj.
@@ -7914,6 +7923,7 @@ Kelke da semajnoj post la edziĝa festo de Marta mortis ŝia patro.
 Kelkfoje ankaŭ geedzoj aŭ familioj kun infanoj ĝuas la saman hobion.
 Kelkfoje kun konfliktoj.
 Kelkfoje materialo tia aperas kontraŭvole kaj eniras la komputilan memoron.
+Kelkfoje mi revas, ke finfine mi kuraĝis fari la samon.
 Kelkfoje mi ridis kiel infano.
 Kelkfoje mi rigardis post min al "la Insulo", kiu pli kaj pli malproksimiĝis.
 Kelkmiloj da protestantoj manifestaciis, dirante, ke la novaj tarifoj prirabos malriĉulojn kaj batos entreprenistojn.
@@ -8206,6 +8216,7 @@ Kial ni proponas al vi tiun ĉi konkurson?
 Kial nomi ĝin miraklo?
 Kial nur dek?
 Kial nur nia fako?
+Kial oni devas nur revi pri aferoj?
 Kial oni donacu?
 Kial oni elektis Esperanton kiel la lingvon por la ludo?
 Kial oni forgesis la Unuan Libron?
@@ -8299,6 +8310,7 @@ Kial ŝanĝi ilin?
 Kial ŝi ekflamis per ofendita fiereco?
 Kial ŝi foriris tiel rapide?
 Kial ŝi ricevis la taskon?
+Kial ŝia edzo neniam pensis pri ŝanĝo, li mem?
 Kial!?
 Kial, do, vi sciigas ĝin al mi?
 Kial, ho ve!
@@ -9189,6 +9201,7 @@ Kioma estas la horo?
 Kioma horo estas?
 Kioman grandon havas la fenestra malfermaĵo en la pordego? demandis Leonardo.
 Kion Fari?
+Kion Vi atendas, kara leganto?
 Kion alian diri por ĝin rekomendi?
 Kion alian vi volas?
 Kion ankoraŭ?
@@ -9746,6 +9759,7 @@ Kompreneble havebla en iuj bibliotekoj.
 Kompreneble jes, tio estis antaŭvidebla.
 Kompreneble la konkretigo de ĉio planita malfruas.
 Kompreneble la opozicio laŭte protestis, argumentante, ke la situacio neniel rajtigas speciale urĝan traktadon.
+Kompreneble la unuaj, kiuj eltiros profiton de la afero, estos niaj klientoj.
 Kompreneble li rolludis kiel magiisto.
 Kompreneble mankis tiaj tradicioj, fabeloj, mitoj kaj legendoj, kiuj estas karakterizaĵoj de “naturaj lingvoj.
 Kompreneble mi apartenis al la unua.
@@ -10547,6 +10561,7 @@ La ceteraj dek kunveturantoj estis laboristoj de la haveno kaj servistinoj.
 La ceteraj forveturis remileble.
 La ceteraj landoj havas asociajn ligojn kun Nederlando, Usono kaj Nov-Zelando.
 La ceteraj ludis alie.
+La ceteraj moneroj kaj la monbiletoj restas ankoraŭ nealjuĝitaj.
 La ceteraj ne kreis konton.
 La ceteraj partoj de lia vivo estas menciataj nur skize aŭ tute ne.
 La cetero estas spekula.
@@ -11598,6 +11613,7 @@ La malseka motoro jam ne funkciis.
 La malspritulo fine ĵetas al la knabo ŝnuron kaj li salte ludas per ĝi.
 La maltrankvilo revenis.
 La malvarmo estis tro, kaj la kruroj estis ankoraŭ gluitaj al la planko.
+La manekeno rigardis la spektantojn per kataj okuloj, bluaj kaj flavaj, kaj kraĉis.
 La maniero de ŝia parolado montris bone edukitan knabinon, al kiu ne mankas spiritĉeesto.
 La manifestaciantoj atentigas, ke la Irlanda Respubliko estas laŭkonstitucie neŭtrala lando.
 La mankantan monon oni prenos el la kapitalo de la asocio.
@@ -13565,6 +13581,7 @@ Li jam mem ne scias, kiu el ili estas pli bela kaj pli alloga.
 Li jam ne parolis, sed rigardis ĉirkaŭe kvazaŭ ne sciante kio okazis.
 Li jam neniam revenos.
 Li jam parolis senbride.
+Li jam tenis ĝin inter la manoj, kaj rigardis ŝin.
 Li jam vidis pliantaŭe la tutan mondon.
 Li juna loĝis en Turku kaj studis en la Universitato de Helsinko.
 Li kantetas duonvoĉe kanteton el La Bela Heleno, kaj penetremajn rigardojn li ĵetas ĉirkaŭen.
@@ -17251,6 +17268,7 @@ Morgaŭ mi rakontos kelkajn al vi.
 Morgaŭ mi serĉkolektos ovojn, mi diris.
 Morgaŭ mi trovos ĉiujn, kaj vi neniujn, li diris ŝerce.
 Morgaŭ mi venos.
+Morgaŭ nia senatano prezentos la projekton pri komerca propagando sur monbiletoj kaj moneroj.
 Morgaŭtage mi sendis lin por elbati kaj kribri iom da greno.
 Morta kaj tute senvestigita junulino trovita sur la strato!
 Mortante, li pensis ankoraŭ pri mi kaj pri mia estonteco.
@@ -17720,6 +17738,7 @@ Ne tremu, kara onklino.
 Ne trinku alkoholaĵon, nek fumu.
 Ne tro afliktiĝu pro ŝi, nek pro mi, mia kara Anjo, li diris karese.
 Ne tro kredinda scenaro.
+Ne tro longe.
 Ne troigu.
 Ne troigu: kvar linioj devas sufiĉi.
 Ne trovinte ĝin, li stariĝis unugenue sur la planko.
@@ -18445,6 +18464,7 @@ Ni jam lanĉis en majo la provversion.
 Ni jam plurfoje faris tion.
 Ni jam preterveturis la golfeton.
 Ni jam prilaboras version por iPhone.
+Ni jam zorgis pri la merkatesploro.
 Ni kantis, ludis kaj ludis kune ĝis malfrua vespero.
 Ni klopodas, ke la navigado en niaj retejoj estu alloga, rapida kaj facila.
 Ni klopodis altiri iun savanton al nia planedo por forigi la homojn detrumemajn.
@@ -19028,6 +19048,7 @@ Nu, se tio estas, ĉio fariĝos bona.
 Nu, sinjoro Marston, ŝi diris, parolu malkaŝe.
 Nu, sinjoro, ĉu vi scias ĉion?
 Nu, spite al tio, ni lin trovos.
+Nu, temas nur pri iom da tamburado sur la klavaro.
 Nu, tia dirmaniero estas tute neebla en la franca lingvo.
 Nu, tiel estu.
 Nu, tio ankoraŭ ne okazis, sed kredeble estis la kaŭzo de la epilepsio.
@@ -20903,6 +20924,7 @@ Preskaŭ ĉiuj muroj estas kovritaj de librobretoj.
 Preskaŭ ĉiuj surdmutuloj havas la saman karakteron.
 Preskaŭ ĉiuj vizitintoj, tamen, estas kontentaj, eĉ entuziasmaj pri la ekspozicio.
 Preskaŭ ĉiujn laborojn Pijus faras mem, kelkfoje helpas najbaroj.
+Preskaŭ ĉiunokte tio okazis.
 Preskaŭ ĉiusemajne homoj vizitas ŝin kun malsanaj igvanoj, lacertoj, konstriktoroj, pitonoj kaj aliaj serpentoj.
 Preskaŭ ĝian morton.
 Preter la kafejo pasis multaj homoj.
@@ -22453,6 +22475,7 @@ Sed ne sufiĉas tio.
 Sed ne sufiĉis la sistemo de konsuloj kaj la revuo.
 Sed ne sukcesis.
 Sed ne taŭgas longtempe.
+Sed ne tro.
 Sed ne vintre.
 Sed ne ĉesis okazi ĉiaspecaj aktualaj movadaj okazaĵoj, kiujn necesas sobre prilumi.
 Sed ne ĉiam temas pri bonvenigoj.
@@ -23193,6 +23216,7 @@ Sindetenoj ankaŭ estas voĉdonoj.
 Singarde, irante sur bedobordo, li alproksimiĝis.
 Singardema komuniko.
 Sinjorina peto egalas al dekreto.
+Sinjorino Abel sidis pli komforte sur la fotelo.
 Sinjorino Bus estas enironta, sed restas staranta sur la sojlo.
 Sinjorino Harding diris:
 Sinjorino Harding estis sprita, bela, brila.
@@ -23214,6 +23238,7 @@ Sinjorinoj deziras ion striitan!
 Sinjorinoj kaj Sinjoro.
 Sinjorinoj kaj Sinjoroj!
 Sinjorinoj preferas folipuntojn kun randoj dentaj?
+Sinjoro Abel ridetis, kaj subite prenis decidon.
 Sinjoro Fruictier proponis al mi, ke li volus fariĝi redaktoro de "Lingvo Internacia".
 Sinjoro Garrat kunsenteme ankaŭ silentis.
 Sinjoro Gliddon, per iu kurioza metodo, sin malaperigis.
@@ -23565,6 +23590,7 @@ Sur la Insulo fumis nur mia patro.
 Sur la apud-kastela herbejo oni povas tendumi.
 Sur la batalejoj restis pli ol mil mortintoj; la laboristoj malvenkis.
 Sur la cirkloforma planko kuŝas dika tavolo da sablo bele rastita.
+Sur la ekrano la fortikulo prezentis invititojn al la programo.
 Sur la fenestra sojlo sidis nigra kato apud du kruĉetoj da vintraj verdaĵoj.
 Sur la fenestro staris boteleto kun inko, kuŝis papero kaj folio da papero.
 Sur la ferdeko trakreskis herbo; ĉe la pavezoj vento alblovis foliojn kaj branĉetojn.
@@ -24134,6 +24160,7 @@ Tia estas mia konkludo.
 Tia estas mia sorto!
 Tia estas nia urbo.
 Tia estis ilia unua konversacio.
+Tia hararo!
 Tia kaduka estaĵo!
 Tia klarigo funkcias, sed nur lame, en plej multaj frazoj.
 Tia komunikado estas principe sekura.
@@ -25557,6 +25584,7 @@ Tiuj kvar bildoj prezentis la vivon de Vilhelmo Tell.
 Tiuj laboristoj ricevis nur malaltajn salajrojn.
 Tiuj landoj asertas ke ili volas sekurigi siajn landlimojn.
 Tiuj lastaj estas garnitaj per kolumetoj el plisita rubando.
+Tiuj lastaj estos triangulaj.
 Tiuj lastaj forvendas sian tutan riĉaĵon, nur por liberigi siajn hejmulojn.
 Tiuj lastaj multe manĝas, rapide reproduktiĝas kaj estigas multe da altkvalita organika sterko.
 Tiuj lastaj ofte finiĝas aŭ komenciĝas en marĉoj.
@@ -27379,6 +27407,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉinio purigas riverojn per laboro, kiu postulas teknikajn, financajn kaj administrajn rimedojn.
 Ĉinio, mi amas vin.
 Ĉinoj, kiuj bone scipovas la anglan lingvon, plejparte ricevis altan edukadon.
+Ĉinokte Sinjorino Abel longe ploradis.
 Ĉio alia estis unu vasta kavego, nigra, silenta, mistera.
 Ĉio anima serĉas supren.
 Ĉio bone iras, kiel ni antaŭvidis.
@@ -27585,6 +27614,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉiuj aliaj povas ĝui ĝin.
 Ĉiuj aliaj ĉeestantoj ne komprenis min.
 Ĉiuj amasiĝis ĉirkaŭ la Dodo, spiregante kaj demandante: “Sed kiu venkis?”
+Ĉiuj aplaŭdis.
 Ĉiuj artikoloj estas kunlaboraĵoj.
 Ĉiuj atendis ion belan, ĉar Romeskaŭ estis amata kaj fame konata artisto.
 Ĉiuj devas ekscii pri nia amo.
@@ -27729,6 +27759,10 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ĉu Striganova intertempe jam ekkonsciis pri tio?
 Ĉu Vi estas vundita?
 Ĉu Vi havas demandojn?
+Ĉu Vi jam scias, kiaj estas miaj okuloj?
+Ĉu Vi kapablus rekoni min?
+Ĉu Vi kapablus rekoni ĝin?
+Ĉu Vi komprenas?
 Ĉu Vin vere tute ne interesas tiu ĉi afero? Aŭskultu min, ŝi volas societon!
 Ĉu aktorino?
 Ĉu al la malgranda Jadvinjo ekdoloris la pinto de la nazeto?
@@ -29779,6 +29813,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi havis teruran akcidenton.
 Ŝi havis tri infanojn, el kiuj nur unu, la plej juna filino, ankoraŭ vivas.
 Ŝi helpas nin, ŝi helpas multajn aliajn personojn.
+Ŝi helpis lin, tamen.
 Ŝi hezitis kun la finado de la demando, sed Marta divenis ŝian penson.
 Ŝi image vidis liajn olivverdajn okulojn, kiuj kvazaŭ narkotus ŝin.
 Ŝi indignis.
@@ -29899,6 +29934,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi nun boligas iom da lakto por doni al la knabeto, kiam li vekiĝos.
 Ŝi nun eniras kun Moseo, kaj nur pro li.
 Ŝi nun estis mortinta.
+Ŝi nur kapablis rigardi lin, intense.
 Ŝi nur provu nei tion!
 Ŝi nur rigardis min.
 Ŝi obeas al la farmistedzino volonte, ĉar ĉi tiu ĉiam estas amika.
@@ -29998,6 +30034,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝi tion divenis, kaj rigardis min moke kaj sovaĝe, rekte en la okulojn.
 Ŝi tion ne faris.
 Ŝi tradukas anglan, usonan kaj kanadan beletron.
+Ŝi tralarme rigardis lin: “Kiaj mensogoj?
 Ŝi tre amas, eble dorlotas, Malkomon.
 Ŝi tre malĝojiĝis, sed tuj ŝi levis la okulojn kaj diris:
 Ŝi tremis pro naŭziĝo.
@@ -30112,6 +30149,7 @@ sed ĉi tiun malĝojan ĉapitron sinjorino Harding pli bone al vi rakontos.
 Ŝiaj lipoj ion flustris.
 Ŝiaj lipoj similis al framboj, maturaj, sukoplenaj.
 Ŝiaj lipoj tremetis, kvazaŭ ŝi retenis la parolon, por ke ŝi ne ekploru.
+Ŝiaj maldikaj kruroj svingadis la ŝtofon de la ĵinzo.
 Ŝiaj manoj interplektiĝis kvazaŭ malgraŭvole.
 Ŝiaj manoj tremis kvazaŭ en febro, kiam ŝi disvolvis la tolon kaj enkudriligis fadenon.
 Ŝiaj nervoj estis rompiĝantaj.

@@ -4842,6 +4842,7 @@ At work so late, my dear?
 At your leisure.
 Atrophy can set in quickly.
 Attendance, forbearance, patience with Darcy, was injury to Wickham.
+Attention deficit hyperactivity disorder.
 Auditory processing helps us interpret speech.
 Augmenting technology like assistive mixed reality glasses can prompt wearers what to do.
 August has no such advantage.
@@ -7211,6 +7212,7 @@ Confidently anticipate him as Master of Revels on thirty-first.
 Confound and curse it!
 Confound the stuff, it won't blow off — smears like black fat!
 Confused and lost, Richard headed in the direction of platform K.
+Congratulations, you played yourself.
 Connecting the dots, is not as easy as it seems in machine learning.
 Conscience and cowardice are really the same things, Beau.
 Conscience is the trade-name of the firm.
@@ -7464,6 +7466,7 @@ Dementia is usually experienced by the elderly.
 Dennin's hands were released long enough for him to sign the document.
 Depending on your view, precocious youths almost never disappoint.
 Deploy all personnel to the site immediately.
+Depression is about being bad.
 Derisively, but also sadly.
 Dermatologists specialise in the conditions of the skin.
 Desalination of ocean water is a costly process, we need more efficient methods.
@@ -7707,11 +7710,13 @@ Do have fritters; Sadie will like 'em.
 Do her friends know my story also?
 Do it for me, there's a dear girl.
 Do it myself if I smash for it!
+Do it the fun way.
 Do it this minute, sir!
 Do let me carry that basket for you.
 Do let me hear the story!
 Do let me hear what she says.
 Do listen for a second.
+Do me!
 Do my ears show?
 Do not be angry with me for saying this.
 Do not be overpowered by such a little tribute of admiration.
@@ -7831,6 +7836,7 @@ Do you hear the snow against the window-panes, Kitty?
 Do you intend to disobey me, Booth?
 Do you intend to remain in the house?
 Do you know 'Truth'?
+Do you know Bipolar disorder?
 Do you know any Silicon Valley billionaires?
 Do you know any good land around here.
 Do you know anyone?
@@ -9933,6 +9939,7 @@ Have you ever thought that?
 Have you ever tried a Jam Donut?
 Have you ever tried ice skating?
 Have you ever tried racing on a Segway?
+Have you ever tried that, though?
 Have you ever used a dating app?
 Have you fed the unicorns today?
 Have you finished it?
@@ -15117,6 +15124,7 @@ I can't be arsed with this rubbish.
 I can't be bothered resisting things I want.
 I can't be bothered.
 I can't bear him.
+I can't believe that just happened.
 I can't believe they're both single and loving it.
 I can't believe this.
 I can't believe what they're saying.
@@ -18475,6 +18483,7 @@ I will let you know how it transpires.
 I will lock the door after you, Darcy.
 I will make a point of seeing Gussie tomorrow.
 I will mention the matter tomorrow morning when I take my seat.
+I will need to take a few personal days after this.
 I will never stop caring for my children.
 I will not be alarmed though your sister does play so well.
 I will not be working while I convalesce after my operation.
@@ -19257,6 +19266,7 @@ I've had a lot of fun out of it.
 I've had a speech impediment since childhood.
 I've had enough of your whinging.
 I've had it up to here with you.
+I've had more frequent headaches since last year.
 I've had significant success as a Varsity debater
 I've had to wash it separately, I can't get out the smell.
 I've heard Dave speak of her often.
@@ -19393,6 +19403,7 @@ If in doubt, check it out.
 If it ain't broke, don't fix it.
 If it be achieved, I have cause to return thanks.
 If it be not so, let Mr. Darcy contradict it.
+If it does not challenge you, it does not change you.
 If it does, don't mind me.
 If it doesn't look out for yourself.
 If it failed to interest him, it might send him to sleep.
@@ -21957,6 +21968,7 @@ It's not in the immediate vicinity.
 It's not legal for the government to make anyone stateless.
 It's not likely we're coming with you.
 It's not mine; it's yours.
+It's not my fault!
 It's not on the checklist so we will not do that today.
 It's not possible.
 It's not routine practice.
@@ -23248,6 +23260,7 @@ Make haste down, and come out.
 Make haste, here, whoever you are!
 Make haste. Come along, Sir.
 Make me more porridge, please!
+Make me!
 Make my coat look new, dear, sew it?
 Make no doubt of it, I am alive.
 Make some attention a little.
@@ -24643,6 +24656,7 @@ Next, we need to drill down to the detail.
 Nice animal for a pleasure party, wasn't it?
 Nice shoes, nice trousers, where is your wallet?
 Nice thing, isn't it?
+Nice to "weed" you!
 Nice words to be used to a young lady!
 Nice work, Gussie.
 Nice, Justus! That was one of mine.
@@ -27203,6 +27217,7 @@ Read the abstract before investing time in the rest of the paper.
 Read the endnote.
 Read the story those footprints write in the mould there.
 Reader, I married him.
+Reading disorder is also called dyslexia.
 Reading his poetry, a drowsy numbness came over me.
 Ready to start the day?
 Real cooked dinner was considered great extravagance.
@@ -30168,6 +30183,7 @@ Stop in the tea-room.
 Stop making an exhibition of yourself!
 Stop misbehaving or I'll call your mom.
 Stop pestering me!
+Stop wishing and start doing.
 Stop writing down everything!
 Stopped speaking only; her hand was still in motion.
 Stopped to get the license for to-morrow, ma'am.
@@ -33313,6 +33329,7 @@ The package tumbled out onto the track.
 The packaging is reusable and environmentally friendly.
 The pain from my hurt knee was agonizing.
 The pain had passed.
+The paint will fade to a rich butter color
 The painter considered for a few moments.
 The painter turned to his servant, who stood blinking in the sunlight.
 The paintings are in the first exhibit.
@@ -36768,6 +36785,7 @@ This is an ultralight case.
 This is an unsuitable typeset for a professional document.
 This is bad hearing.
 This is certainly a beautiful country!
+This is cheating.
 This is cutting edge stuff!.
 This is delightful indeed!
 This is devils' work!
@@ -39420,6 +39438,7 @@ What do you want to do?
 What do you want to talk to me about?
 What do you want with your bicycle?
 What do you want, sir?
+What do you want.
 What do you wish me not to have?
 What does Harriet call you?
 What does Quantum entanglement mean?
@@ -39666,6 +39685,7 @@ What is your name, please?
 What is your opinion?
 What is your opinion? 'That it ought not to be attempted'.
 What is your part code?
+What is your problem?
 What is your progress?
 What is your recipe?
 What is your relationship with my son?
@@ -41181,6 +41201,7 @@ Wouldn’t we have a perfectly elegant time?
 Wouldst thou have said 'Yes,' then, if I had spoken?
 Wow! Did you see that?
 Wow! That sounds fab!
+Wow, i wouldn't tale it that well.
 Wrap it up in a damp towel.
 Writing she did well and delicately — but spelling!
 Writing was his only solace
@@ -41489,6 +41510,7 @@ You are charmingly grouped, and appear to uncommon advantage.
 You are coming, then, to help us?
 You are familiar to me in these strange circumstances, very familiar.
 You are following what I say?
+You are gaming right now.
 You are going out into the great world.
 You are going to be great.
 You are going, then?
@@ -41557,6 +41579,7 @@ You are surely losing your reason.
 You are surprised.
 You are swindlers.
 You are the Bishop's secretary?
+You are the Gina here, and no one else.
 You are the Master of the Earth.
 You are the amateur, I am the professional — that is all.
 You are the gentleman of whom we have heard.
@@ -41627,6 +41650,7 @@ You can hear it — a sound like the sea.
 You can hear the gears grinding while driving.
 You can heat a cup of coffee by yelling at it for nine years.
 You can heat the rice pudding on the hob
+You can hover your cursor in a way that makes you select just one.
 You can imagine the state I was in.
 You can invent reasons.
 You can learn how to build parts for a prosthetic arm.
@@ -42236,6 +42260,7 @@ You never said a word to me.
 You never saw your father, more's the pity.
 You never see a fault in anybody.
 You never sent me any essay.
+You never spoke with me.
 You notice the grip I am getting on this case.
 You noticed he said nothing, but went through these papers again and again.
 You noticed nothing else?
@@ -42397,6 +42422,7 @@ You think he needs cheering up a bit, do you?
 You think her guilty — like this detestable newspaper, like the police.
 You think it funny, do you?
 You think it would do with these alterations, then?
+You think it's the best way
 You think so because I am a little rambling.
 You think so, sir?
 You think that this would clean everything up?
@@ -42898,6 +42924,7 @@ come to think of it, I don't know what snivel means.
 he asked me with a keen glance.
 he cried in amazement.
 he growled with an appearance of strong resentment.
+he passed his spread fingers comb-wise through his hair
 he said, rising and pushing back his chair.
 he says, with a plain appearance of exasperation.
 how has he got rich?
