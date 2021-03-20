@@ -46,12 +46,34 @@ demographic-deidentified-clarity-2 = Opcionalmente, informacion demografico (e.o
 ## Speak Shortcuts
 
 shortcut-rerecord-toggle-label = Bolbe graba nota di bos
+request-language-text = Bo no ta wak bo idioma riba Common Voice ainda?
+request-language-text-learn = Siña con pa pidie kinan!
+request-language-button = Peticiona un Idioma
 
 ## ProjectStatus
 
+status-title = Bista general di e proyecto: mira con leu nos a yega!
+status-contribute = Contribui Bo Bos
+english = Ingles
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nomber di Usuario
+profile-form-native-language =
+    .label = Lengua Materno
+profile-form-additional-language =
+    .label = Idioma Adicional
+profile-form-accent =
+    .label = Accento
+profile-form-age =
+    .label = Edad
+profile-form-gender-2 =
+    .label = Genero
+hidden = Scondi
+visible = Visibel
+native-language =
+    .label = Lengua Materno
 
 ## FAQ
 
@@ -115,7 +137,9 @@ shortcut-rerecord-toggle-label = Bolbe graba nota di bos
 
 ## Demo Contribute
 
+demo-listen-subtitle = Cla pa contribui?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = E dashboard personal ta mantene bo na altura di bo progreso individual y tambe esun di e comunidad.
 demo-dashboard-card-body = Pa cada nota di bos cu bo dona, y cada nota di bos cu keda acepta, e dashboard di bo profil lo refleha bo progreso den cada idioma cu bo ta contribui na dje.
