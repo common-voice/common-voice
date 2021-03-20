@@ -135,9 +135,12 @@ why-profile-title = Dicon un profiel?
 
 ## Demo Account
 
+demo-account-sign-up = Manda link di suscripcion
 
 ## Demo Contribute
 
+demo-contribute-card-header = Cla pa añadi bo bos of presta bo odio?
+demo-contribute-card-body-v2 = Awor cu bo sa un poco mas tocante Common Voice, dicon no purb'e? Primi ariba e icono di microfon pa cuminsa graba frasenan den bos halto.  <br/><br/> Si bo ta prefera di evalua e notanan di bos di otro contribuyente, primi ariba e icono di play.
 demo-listen-subtitle = Cla pa contribui?
 
 ## Demo Dashboard
