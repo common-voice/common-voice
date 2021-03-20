@@ -96,6 +96,7 @@ lg = Luganda
 lij = Ligurisch
 lt = Litouws
 lv = Lets
+mai = Maithili
 mdf = Moksja
 mg = Plateaumalagasi
 mhr = Weide-Mari
