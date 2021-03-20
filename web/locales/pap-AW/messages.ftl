@@ -135,6 +135,9 @@ why-profile-title = Dicon un profiel?
 
 ## Demo Account
 
+demo-account-card-body = Den e seccion na man drechi nos ta nombra e beneficionan y clarifica cua informacion nos lo haci publico. Uza e linknan akibou pa cuminsa bo propio cuenta di Common Voice ariba bo aparato di preferencia.
+demo-account-enter-email =
+    .label = Ingresa e-mail pa ricibi un link di suscripcion.
 demo-account-sign-up = Manda link di suscripcion
 
 ## Demo Contribute
