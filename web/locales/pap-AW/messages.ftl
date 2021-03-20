@@ -132,9 +132,17 @@ why-profile-title = Dicon un profiel?
 
 ## Demo Datasets
 
+demo-language-select-card-body = Danki na e contribucion di mas cu 259K persona den mas cu 50 lenguage, e data aki ta ser uza pa yuda aplicacionnan di bos reconoce y responde miho na e bos humano.
+card-button-next = Siguiente
+card-button-back = Bek
+demo-language-select-label = Busca Lenguahe
+demo-eofy-header = 2019 Lansamento di Fin di Aña
+demo-eofy-sub_header = Dataset di bos, Cla pa Download
+demo-account = Cuenta
 
 ## Demo Account
 
+demo-account-card-header = Un cuenta propio no ta necesario pa por contibui, pero si e ta util.
 demo-account-card-body = Den e seccion na man drechi nos ta nombra e beneficionan y clarifica cua informacion nos lo haci publico. Uza e linknan akibou pa cuminsa bo propio cuenta di Common Voice ariba bo aparato di preferencia.
 demo-account-enter-email =
     .label = Ingresa e-mail pa ricibi un link di suscripcion.
