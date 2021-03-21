@@ -440,6 +440,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Prečo Common Voice?
+about-subtitle = Common Voice je súčasťou iniciatívy Mozilly pomôcť učiť stroje, ako hovoria skutoční ľudia. Okrem datasetu Common Voice budujeme aj open source engine na rozpoznávanie reči s názvom Deep Speech.
 how-does-it-work-title = Ako to funguje?
 about-is-it-valid = Je nahrávka platná?
 about-is-it-valid-text = Nahrávka je označená ako platná po jej schválení iným používateľom
