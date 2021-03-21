@@ -71,6 +71,7 @@ he = ヘブライ語
 hi = ヒンディー語
 hr = クロアチア語
 hsb = 高地ソルブ語
+ht = ハイチ語
 hu = ハンガリー語
 hy-AM = アルメニア語
 hyw = 西アルメニア語
@@ -94,13 +95,17 @@ lg = ガンダ語
 lij = リグリア語
 lt = リトアニア語
 lv = ラトビア語
+mai = マイティリー語
 mdf = モクシャ語
 mg = マダガスカル語
 mhr = 牧地マリ語
 mk = マケドニア語
 ml = マラヤーラム語
 mn = モンゴル語
+mos = モシ語
+mr = マラーティー語
 mrj = 山地マリ語
+ms = マレー語
 mt = マルタ語
 my = ビルマ語
 myv = エルジャ語
@@ -112,6 +117,7 @@ oc = オック語
 or = オリヤー語
 pa-IN = パンジャブ語
 pl = ポーランド語
+ps = パシュトー語
 pt = ポルトガル語
 rm-sursilv = ロマンシュ語 (Sursilvan)
 rm-vallader = ロマンシュ語 (ヴァラデル方言)
@@ -121,9 +127,11 @@ rw = ルワンダ語
 sah = サハ語
 sc = サルデーニャ語
 scn = シチリア語
+shi = シルハ語
 si = シンハラ語
 sk = スロバキア語
 sl = スロベニア語
+so = ソマリ語
 sq = アルバニア語
 sr = セルビア語
 sv-SE = スウェーデン語
@@ -138,6 +146,7 @@ tr = トルコ語
 tt = タタール語
 uby = ウビフ語
 udm = ウドムルト語
+ug = ウイグル語
 uk = ウクライナ語
 ur = ウルドゥー語
 uz = ウズベク語
@@ -267,6 +276,7 @@ shortcut-record-toggle-label = 録音/停止
 shortcut-rerecord-toggle = [1〜5]
 shortcut-rerecord-toggle-label = 音声クリップを再録音
 request-language-text = あなたの使っている言語は Common Voice にありますか？
+request-language-text-learn = リクエストする方法をここで学びましょう！
 request-language-button = 言語の追加をリクエスト
 
 ## ProjectStatus
@@ -481,6 +491,7 @@ de-identified-explanation = データセットの一部としてダウンロー�
 ## Error pages
 
 error-title-404 = お探しのページを見つけられませんでした
+error-content-404 = 私たちの <homepageLink>ホームページ</homepageLink> が役に立ちますか？ 質問するには、<matrixLink>Matrix コミュニティチャット</matrixLink> に参加するか、<githubLink>GitHub</githubLink> でサイトの問題を監視するか、<discourseLink>Discourse フォーラム</discourseLink> にアクセスしてください。
 error-title-503 = 予期しないダウンタイムが発生しています
 error-code = エラー { $code }
 
@@ -806,9 +817,14 @@ read-more-about = 詳しくは Common Voice の概要ページをご覧くださ
 
 ## DemoLayout
 
+demo-welcome = Common Voice へようこそ
 
 ## Demo Datasets
 
+card-button-next = 次へ
+card-button-back = 戻る
+demo-eofy-header = 2019 年末リリース
+demo-account = アカウント
 
 ## Demo Account
 
