@@ -128,6 +128,7 @@ rw = Kinyarwanda
 sah = Iakoute
 sc = Sarde
 scn = Sicilien
+shi = Tachelhit/chleuh
 si = Sinhala
 sk = Slovaque
 sl = Slovène
