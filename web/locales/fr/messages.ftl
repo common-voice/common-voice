@@ -96,6 +96,7 @@ lg = Luganda
 lij = Ligure
 lt = Lituanien
 lv = Letton
+mai = Maïthili
 mdf = Mokcha
 mg = Malgache
 mhr = Mari des prairies
