@@ -34,7 +34,7 @@ services:
       - voice-web
     ports:
       - 9000:9000
-    command: bash -c "/code/docker/prepare_s3.sh && yarn && yarn start"
+    command: bash -c "/code/docker/wait-for-it.sh s3proxy:80 -- /code/docker/prepare_s3.sh && yarn && yarn start"
 
 networks:
   voice-web:
