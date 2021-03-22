@@ -128,6 +128,7 @@ rw = Ruandai
 sah = Szaha
 sc = Szárd
 scn = Szicíliai
+shi = Tachelhit
 si = Szingaléz
 sk = Szlovák
 sl = Szlovén
