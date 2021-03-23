@@ -121,7 +121,7 @@ footer {
         }
     }
 
-    & .bottom_divider {
+    & .divider-bottom {
         border-top: 1px solid hsl(0, 0%, 20%);
         width: 20rem;
         margin-top: 1em;
@@ -159,7 +159,7 @@ footer {
             flex-direction: column;
         }
 
-        & .ver_divider {
+        & .divider-vertical {
             border-right: 1px solid hsl(0, 0%, 20%);
             height: 4.1rem;
         }
