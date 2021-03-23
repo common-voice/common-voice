@@ -164,10 +164,13 @@ datasets = Set data
 languages = Bahasa
 about = Mengenai
 profile = Profil
+help = Bantuan
+contact = Hubungi
 privacy = Privasi
 terms = Terma
 cookies = Kuki
 faq = Soalan Lazim
+back-top = Kembali ke atas
 logout = Log Keluar
 
 ## Home Page
