@@ -96,6 +96,7 @@ lg = ganda
 lij = lígur
 lt = lituà
 lv = letó
+mai = maithili
 mdf = mokxa
 mg = malgaix
 mhr = mari oriental
