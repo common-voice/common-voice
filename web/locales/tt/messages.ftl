@@ -282,6 +282,7 @@ shortcut-record-toggle-label = Яздыру/Туктату
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипны янәдән яздыру
 request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
+request-language-text-learn = Өстәмә телләрне монда сорап була!
 request-language-button = Телнең өстәлүен сорау
 
 ## ProjectStatus
