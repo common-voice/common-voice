@@ -128,6 +128,7 @@ rw = Kinyarwanda
 sah = Jakoets
 sc = Sardijns
 scn = Siciliaans
+shi = Tashelhiyt (Shilha)
 si = Singalees
 sk = Slowaaks
 sl = Sloveens
