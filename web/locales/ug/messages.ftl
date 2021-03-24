@@ -433,6 +433,7 @@ about-is-it-valid = بۇ ئاۋاز ئىناۋەتلىكمۇ؟
 about-is-it-valid-text = ئىشلەتكۈچى «ھەئە» بېلىتى بەرگەندە ئاۋازغا «ئىناۋەتلىك» دەپ بەلگە قويۇلىدۇ.
 about-yes-votes = ≥ 2 ھەئە بېلەت
 about-no-votes = ≥ 2 ياق بېلەت
+about-dataset-new = Common Voice ساندانى
 about-partners = ھەمكارلاشقۇچىلار
 about-become-a-partner = ھەمكارلىشىڭ
 about-get-involved = قاتنىشىڭ
