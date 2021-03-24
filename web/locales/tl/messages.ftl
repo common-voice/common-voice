@@ -338,6 +338,8 @@ data-download-yes = Oo
 data-download-deny = Hindi
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-other-goto = Pumunta sa { $name }
+release-version = Bersyon
+dataset-date = Petsa
 license-mixed = Magkahalo
 terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon
@@ -443,6 +445,8 @@ welcome-staff = Mabuhay ang mga kawani ng { $company }!
 
 ## Demo Datasets
 
+card-button-next = Susunod
+card-button-back = Balik
 
 ## Demo Account
 
