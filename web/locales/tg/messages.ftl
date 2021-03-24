@@ -387,11 +387,13 @@ contribute = Иштирок доштан
 listen = Гӯш кунед
 skip = Нодида гузарондан
 shortcuts = Миёнбурҳо
+record-cta = Оғоз кардани сабт
 record-no-mic-found = Микрофон ёфт нашуд.
 record-error-too-short = Сабт хеле кӯтоҳ буд.
 record-error-too-long = Сабт хеле дароз буд.
 record-error-too-quiet = Сабт хеле ором буд.
 record-cancel = Бекор кардани сабти такрорӣ
+record-button-label = Овози худро сабт намоед
 target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
 
