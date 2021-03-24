@@ -13,7 +13,7 @@ email-opt-in-info-title = Pridruži se mailing listi Common Voicea
 email-opt-in-info-sub-with-challenge = Primaj e-mailove poput podsjetnika o izazovima i ciljevima, novostima o napretku i bilten Common Voicea.
 email-opt-in-privacy-v2 = Prihvaćanjem primanja e-mail poruka, pristaješ na obradu tvojih podataka, kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>.
 indicates-required = * obilježava obvezno polje
-not-available-abbreviation = N/A
+not-available-abbreviation = --
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
