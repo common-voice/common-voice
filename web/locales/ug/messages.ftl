@@ -413,16 +413,26 @@ faq-where-src-from-2-q = ئەسلى تېكىست نەدىن كەلگەن؟
 faq-why-not-ask-read-q = نېمىشقا كىشىلەردىن ئوخشىمىغان تىلدىكى كىتاب ياكى ۋىكىپېدىيە ماقالىلىرىنى ئوقۇشنى تەلەپ قىلمايسىز؟
 faq-why-account-q = نېمىشقا ھېساباتقا تىزىملىتىشىم كېرەك؟
 faq-is-account-public-q = ھېسابات ئۇچۇرلىرىم ئاشكارىمۇ؟
+faq-how-privacy-q = ئاۋازىنى ئىئانە قىلغان كىشىلەرنىڭ نامسىزلىقى ۋە شەخسىي مەخپىيەتلىكىگە قانداق كاپالەتلىك قىلىسىز؟
 faq-what-is-cv = Common Voice دېگەن نېمە؟
+faq-using-cv = Common Voice نى ئىشلىتىش
+faq-description = Common Voice موزىللانىڭ ماشىنىلارغا كىشىلەرنىڭ قانداق سۆزلەيدىغىنىنى ئۆگىتىشتىكى تەشەببۇسىنىڭ بىر قىسمى.
 faq-search-for-answers =
     .label = جاۋاب ئىزدەڭ
 
 ## ABOUT US
 
 about-title = نېمە ئۈچۈن Common Voice؟
+about-subtitle = Common Voice موزىللانىڭ ماشىنىلارغا كىشىلەرنىڭ قانداق سۆزلەيدىغىنىنى ئۆگىتىشتىكى تەشەببۇسىنىڭ بىر قىسمى. بۇنى ئىشلىتىپ بىز يەنە «Deep Speech» دەيدىغان ئوچۇق كودلۇق ئاۋاز تونۇش سىستېمىسى ياساۋاتىمىز.
 how-does-it-work-title = ئۇ قانداق ئىشلەيدۇ؟
 about-speak = سۆزلەڭ
+about-speak-text = تۆھپىكارلار ئىئانە قىلىنغان جۈملىلەرنى ئوقۇش ئارقىلىق ئاۋازلارنى خاتىرىلەيدۇ.
+about-listen-queue = ئاڭلاش-ئۆچرەت
 about-listen = ئاڭلاڭ
+about-is-it-valid = بۇ ئاۋاز ئىناۋەتلىكمۇ؟
+about-is-it-valid-text = ئىشلەتكۈچى «ھەئە» بېلىتى بەرگەندە ئاۋازغا «ئىناۋەتلىك» دەپ بەلگە قويۇلىدۇ.
+about-yes-votes = ≥ 2 ھەئە بېلەت
+about-no-votes = ≥ 2 ياق بېلەت
 about-partners = ھەمكارلاشقۇچىلار
 about-become-a-partner = ھەمكارلىشىڭ
 about-get-involved = قاتنىشىڭ
