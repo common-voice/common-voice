@@ -495,6 +495,8 @@ de-identified-explanation = Мәгълүмат базасының өлеше б�
 
 error-content-404 = Бәлки безнең <homepageLink>баш бит</homepageLink> ярдәм итәр? Сорау бирү өчен, зинһар <matrixLink> Matrix чатына</matrixLink> кушылыгыз. Сайт эшендәге җитешсезлекләрне <githubLink>GitHub</githubLink> сайтында күзәтә аласыз. Яисә <discourseLink>безнең Discourse форумнарына</discourseLink> күз салыгыз.
 error-title-503 = Көтелмәгән буш торуга юлыктык
+error-content-503 = Сайт мөмкин булганча тиз арада янәдән эшли башлаячак. Иң соңгы мәгълүмат алу өчен, зинһар <matrixLink>Matrix чатына</matrixLink> кушылыгыз, яисә, сайт эшендә булган җитешсезлекләр турында хәбәр итү я хәбәрдар булып тору өчен, <githubLink>GitHub</githubLink>'ка я <discourseLink>безнең Discourse форумнарыбызга</discourseLink> үтегез.
+error-code = Хата { $code }
 
 ## Data
 
@@ -614,6 +616,7 @@ other-language = Башка тел
 ## Languages Overview
 
 language-section-in-progress = Әзерләнә
+language-section-in-progress-new-description = Бу телләр әлеге вакытта җәмгыять тарафыннан үстерү стадиясендә. Прогрес индикаторлары һәр тел өчен сайтның никадәр <localizationGlossaryLink>тәрҗемә ителүен</localizationGlossaryLink> һәм <sentenceCollectionGlossaryLink>җөмләләрнең никадәр җыелуын</sentenceCollectionGlossaryLink> күрсәтә.
 language-section-launched = Эшли башлаганнар
 language-section-launched-description = Эшкә кушылган әлеге телләр өчен сайт уңышлы <localizationGlossaryLink>тәрҗемә ителеп</localizationGlossaryLink>, <speakLink>Сөйләү</speakLink> һәм <listenLink>Тыңлау</listenLink> өчен җитәрлек күләмдә <sentenceCollectionGlossaryLink>җөмләләр җыелды</sentenceCollectionGlossaryLink>.
 languages-show-more = Күбрәк
@@ -756,6 +759,7 @@ show-ranking = Минем рейтингымны күрсәт
 
 get-started-goals = Максат кую
 create-custom-goal = Шәхси бер максат кую
+goal-type = Нинди максатка ирешәсегез килә?
 both-speak-and-listen = Икесе дә
 both-speak-and-listen-long = Икесен дә (сөйләү һәм тыңлау)
 daily-goal = Көнлек максат
