@@ -291,6 +291,7 @@ about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
 about-nav-get-involved = Ҳамроҳ шудан
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
@@ -309,6 +310,7 @@ data-download-deny = Не
 data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
 data-download-modal = Шумо боргирии <size>{ $size } ГБ</size>-ро оғоз карданӣ ҳастед, идома медиҳед?
 data-other-goto = Ба { $name } гузаред
+dataset-date = Сана
 license = Иҷозатнома: <licenseLink>{ $license }</licenseLink>
 license-mixed = Омехта
 terms-agree = Ман розӣ
@@ -326,9 +328,11 @@ language = Забон
 # File size in gigabytes
 size = Андоза
 cv-license = Иҷозатнома
+audio-format = Формати аудио
 number-of-voices = Шумораи овозҳо
 size-gigabyte = ГБ
 size-megabyte = МБ
+download-language = Боргирӣ кардани { $language }
 validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда
 subscribe = Обуна шудан
