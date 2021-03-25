@@ -172,6 +172,13 @@ export const ACCENTS: any = {
     connachta: 'Gaeilge Chonnacht',
     ulaidh: 'Gaeilge Uladh',
   },
+  gl: {
+    atlantico: 'Atlántico (seseo e gheada)',
+    central: 'Central (gheada)',
+    oriental: 'Oriental (común en zona oriental)',
+    normativo: 'Normativo (estándar)',
+    neofalante: 'Neofalante',
+  },
   'zh-TW': {
     keelung_city: '出生地：基隆市',
     taipei_city: '出生地：臺北市',
