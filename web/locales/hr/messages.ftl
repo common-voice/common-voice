@@ -425,7 +425,7 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Zašto moj jezik još nije uključen?
 faq-why-my-lang-new-a = Mozilla ne daje prednost niti jednom jeziku. Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovnih doprinosa. Common Voice web-stranica se najprije mora prevesti, kako bi joj članovi zajednice mogli pristupiti na materinskom jeziku. Nadalje nam je potrebna velika količina rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se jezik „lansira”, kako bi ljudi započeli snimati svoj glas i potvrđivati druge doprinose. Ako želiš pomoći započeti novi jezik, prijeđi na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>.
 faq-what-quality-q = Koja je kvaliteta zvuka potrebna za korištenje glasovnog isječka?
-faq-what-quality-a = Želimo da podaci skupa Common Voice odražavaju kvalitetu zvuka koju će mehanizam za govor-u-tekst razumjeti, te stoga tražimo različitost. Pored raznolike zajednice govornika, skup podataka s različitom kvalitetom zvuka, podučit će mehanizam za govor-u-tekst, riješiti razne situacije u stvarnom svijetu, od razgovora u pozadini, do buke u automobilu. Sve dok je tvoj glasovni isječak razumljiv, trebao bi biti dovoljno dobar za skup podataka.
+faq-what-quality-a = Želimo da podaci skupa Common Voice odražavaju kvalitetu zvuka koju će mehanizam za pretvaranje govora u tekst razumjeti, te stoga tražimo različitost. Pored raznolike zajednice govornika, skup podataka s različitom kvalitetom zvuka, podučit će mehanizam za pretvaranje govora u tekst, riješiti razne situacije u stvarnom svijetu, od razgovora u pozadini do buke u automobilu. Sve dok je tvoj glasovni isječak razumljiv, trebao bi biti dovoljno dobar za skup podataka.
 faq-why-10k-hours-q = Zašto je postavljen cilj od 10.000 potvrđenih sati po jeziku?
 faq-why-10k-hours-a = Ovo je otprilike broj potrebnih sati za osposobljavanje proizvodnog sustava za pretvaranje govora u tekst.
 faq-how-calc-hours-q = Kako Common Voice izračunava sate?
@@ -511,7 +511,7 @@ hours-recorded-explanation = Broj do sada prikupljenih sati snimljenog glasa.
 hours-validated-explanation = Broj sati snimanja glasa koje su dva od tri korisnika potvrdili glasom „Da”. Označavaju napredak u odnosu na ukupni cilj projekta od 10.000 sati.
 sst = Govor u tekst (Speech-to-text STT)
 sst-explanation = Govor u tekst (STT) tehnologije pretvaraju govor u tekst.
-de-identified = De-identificirani
+de-identified = Anonimiziranje
 de-identified-explanation = Proces, kojim se informacije o profilu doprinositelja skrivaju iz njegovih darovanih glasovnih isječaka, kad se pakiraju za preuzimanje kao dio skupa podataka.
 
 ## Error pages
