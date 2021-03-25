@@ -218,8 +218,8 @@ speak-goal-text = Snimljeno isječaka
 listen-subtitle = Pomogni nam potvrditi glasove
 listen-paragraph = Provjeravanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušaj i pomogni stvoriti kvalitetne govorne podatke otvorenog koda.
 listen-goal-text = Potvrđeno isječaka
-hours-recorded = Snimljenih sati
-hours-validated = Potvrđenih sati
+hours-recorded = Snimljeni sati
+hours-validated = Potvrđeni sati
 voices-online = Trenutačni glasovi
 todays-progress = Današnji napredak
 help-reach-goal = Pomogni nam doseći cilj od { $goal }
@@ -567,7 +567,7 @@ datasets-positioning =
 language = Jezik
 # File size in gigabytes
 size = Veličina
-validated-hr-total = Potvrđenih sati ukupno
+validated-hr-total = Potvrđeni sati ukupno
 overall-hr-total = Broj sati ukupno
 cv-license = Licenca
 audio-format = Format zvuka
@@ -811,13 +811,13 @@ help-reach-hours-pluralized =
         [one] { $hours } sat
         [few] { $hours } sata
        *[other] { $hours } sati
-    }za { $language } s osobnim ciljem
+    } za { $language } s osobnim ciljem
 help-reach-hours-general-pluralized =
     Pomogni Common Voiceu dosegnuti{ NUMBER($hours) ->
         [one] { $hours } sat
         [few] { $hours } sata
        *[other] { $hours } sati
-    }za jezik s osobnim ciljem
+    } za jezik s osobnim ciljem
 set-a-goal = Postavi cilj
 cant-decide = Ne možeš se odlučiti?
 activity-needed-calculation-plural =
@@ -825,19 +825,19 @@ activity-needed-calculation-plural =
         [one] { $totalHours } sat
         [few] { $totalHours } sata
        *[other] { $totalHours } sati
-    }je ostvarivo u samo više od{ NUMBER($periodMonths) ->
+    } je ostvarivo u samo više od{ NUMBER($periodMonths) ->
         [one] { $periodMonths } mjesec
         [few] { $periodMonths } mjeseca
        *[other] { $periodMonths } mjeseci
-    }ako{ NUMBER($people) ->
+    } ako{ NUMBER($people) ->
         [one] { $people } osoba
         [few] { $people } osobe
        *[other] { $people } osoba
-    }snimi/snime{ NUMBER($clipsPerDay) ->
+    } snimi/snime{ NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } isječak
         [few] { $clipsPerDay } isječka
        *[other] { $clipsPerDay } isječaka
-    }na dan.
+    } na dan.
 how-many-per-day = Sjajno! Koliko isječaka dnevno?
 how-many-a-week = Sjajno! Koliko isječaka tjedno?
 which-goal-type = Želiš li govoriti, slušati ili oboje?
