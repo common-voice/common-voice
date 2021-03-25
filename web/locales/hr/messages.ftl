@@ -223,8 +223,8 @@ hours-validated = Potvrđenih sati
 voices-online = Trenutačni glasovi
 todays-progress = Današnji napredak
 help-reach-goal = Pomogni nam doseći cilj od { $goal }
-read-terms-q = Jeste li pročitali naše Uvjete?
-ready-to-record = Jeste li spremni donirati svoj glas?
+read-terms-q = Jesi li pročitao/la naše uvjete?
+ready-to-record = Želiš donirati svoj glas?
 all-locales = Sve
 today = Danas
 x-weeks-short =
@@ -246,7 +246,7 @@ x-years-short =
        *[other] { $count }god
     }
 help-make-dataset = Pomogni nam izgraditi kvalitetan i javno dostupan skup podataka
-sign-up-account = Otvorite račun
+sign-up-account = Otvori račun
 email-subscription-title = pretplati se na novosti putem e-maila
 email-subscription-title-new = Pretplati se na bilten Common Voicea, na podsjetnike o ciljevima i na novosti o napretku
 
@@ -255,7 +255,7 @@ email-subscription-title-new = Pretplati se na bilten Common Voicea, na podsjetn
 benefits = Prednosti
 rich-data = Podnesene podatke učini što bogatijima, pružanjem anonimnih demografskih podataka. Prije objavljivanja otklanjamo sve identificirajuće demografske podatke.
 improve-audio = Podaci profila poboljšavaju glasovne podatke koji se koriste za treniranje točnosti prepoznavanja govora.
-keep-track = Prati svoj napredak i mjerne podatke za jezike.
+keep-track = Prati svoj napredak i mjerne podatke ranih jezika.
 compare-progress = Usporedi svoj napredak s ostalim suradnicima u cijelom svijetu.
 view-goals = Usporedi napredak vlastitih ciljeva s ciljevima projekta.
 join-newsletter = Ako želiš, pridruži se na naš popis e-maila za dobivanje obavijesti o novim verzijama te novim informacijama o projektu.
@@ -327,7 +327,7 @@ profile-form-accent =
 profile-form-age =
     .label = Dob
 profile-form-gender-2 =
-    .label = Rod
+    .label = Spol
 leaderboard-visibility =
     .label = Vidljivost na ljestvici
 hidden = Skriveno
