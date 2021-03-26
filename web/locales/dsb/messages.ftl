@@ -117,6 +117,7 @@ nn-NO = Norwegski Nynorsk
 oc = Okcitańšćina
 or = Odiašćina
 pa-IN = Pundžabšćina
+pap-AW = Papiamento (Aruba)
 pl = Pólšćina
 ps = Paštošćina, Pašto
 pt = Portugišćina
