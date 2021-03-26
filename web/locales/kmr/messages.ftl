@@ -421,6 +421,7 @@ faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
 faq-why-my-lang-new-a = Mozilla ti zimanî di ser yên din re nabîne. Common Voice bi temamî ji aliyê civatan ve tê meşandin, lê <multilangLink> çend gavên ji bo lêzêdekirina zimanên nû </multilangLink> û destpêkirina berhevkirina bexişandina dengan hene. Pêşî, divê malpera Common Voiceê bê wergerandin ku beşdar dikaribin bi zimanê xwe xwe bigihînin azmûnên hevkaran. Paşê, pêdiviya me berhevokeke mezin ya hevokên bêtelîf heye ku mirov wan bi deng bixwînin. Gava ev her du pêdivî hatin bicîanîn, Common Voice wî zimanî li zimanan zêde dike ku mirov dengê xwe qeyd bikin û rastiya dengên qeydkirî kontrol bikin. Ango heke hûn dixwazin alîkariyê bikin ku zimanek lê bê zêdekirin hûn dikarin ji bo destpêkirinê li <sentenceCollectorLink>amûra berhevkirina hevokan</sentenceCollectorLink> binêrin.
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
 faq-why-10k-hours-q = Çima ji bo her zimanekî hedefeke bi qasî 10,000 saet klîbên dengî yên piştrastkirî heye?
+faq-why-10k-hours-a = Ev hejmara teqrîbî ya saetên pêwîst yê ji bo perwerdekirina sîstemeke ji-xeberdanê-kirin-nivîsê (speech-to-text) ye.
 faq-how-calc-hours-q = Common Voice saetan çawa hesab dike?
 faq-how-calc-hours-a = Em saetan bi texmînkirina averaja dirêjahiya her qeydan hesab dikin, û piştre bi hejmara jimara yekûn ya qeydên bi hemû zimanan re dicarînin.
 faq-where-src-from-2-q = Nivîsên çavkanî ji ku derê tên?
