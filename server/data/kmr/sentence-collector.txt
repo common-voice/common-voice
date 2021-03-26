@@ -156,6 +156,7 @@ Bawer bike, bawerî ser her tiştî ye.
 Bawer diçe dibistanê
 Bawer im ez biçim ê baş be.
 Bawer ji hevalan re dabaşa serdana mala xalê xwe dike.
+Bawer nakim ku were.
 Bawer refa duyem e.
 Bawerim ku li gor xwe sebebên wî hene.
 Baweriya wan bi wan xurtir dibû.
@@ -1846,6 +1847,7 @@ Ew westiyayî dixuye.
 Ew wiha ne ezîzê min e.
 Ew xwe dibîne.
 Ew xwe dibînin.
+Ew yekî derewker e.
 Ew zarokê wan ê pêşî bû.
 Ew zaîf in ji îmanê
 Ew zordest, bi van kirinan dixwazin çi bikin?
@@ -1993,6 +1995,7 @@ Ez dixwazim
 Ez dixwazim behsa çend pirtûkên bijarte bikim
 Ez dixwazim bi vê pirsê dest pê bikim.
 Ez dixwazim bibim mamoste.
+Ez dixwazim goşt bixwim.
 Ez dixwazim pere bikişînim.
 Ez dixwazim te nas bikim.
 Ez dixwazim veqetim.
@@ -3000,6 +3003,7 @@ Ji bilî van romanan, hin kurteçîrrokên wî jî bi kurdî derketine.
 Ji bilî xaka berhemdar, avên ku van xakan av didin jî hene.
 Ji bo agahîyê we ku daye me, ji we re pir spas dikim
 Ji bo avakirina civakek nûjen, tiştek din jî lazim e
+Ji bo berjewendiya xwe dev ji rûmeta xwe berdide.
 Ji bo danemezrandina Kurdistaneke serbixwe, misogerek tê xwestin
 Ji bo dest pê kirina şerî çekdarî derbazî Rojhilata Navîn dibe.
 Ji bo dilşadiyê, divê em zêde guh nedin mirovên din.
@@ -4480,6 +4484,7 @@ Pir balkêşe ku ji Natoyê qet deng derneket
 Pir ji mêrê xwe hez kiriye.
 Pir kêfa min ji wan re tê.
 Pir ne bi zarokan
+Pir qerebalix e.
 Pir sivik bûn çûne ban.
 Pir wextê min heye.
 Piraniya beşdarvanan, bi devkî ramanên xwe eşkere kirin

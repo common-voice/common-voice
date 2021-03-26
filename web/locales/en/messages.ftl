@@ -113,6 +113,7 @@ nn-NO = Norwegian Nynorsk
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polish
 ps = Pashto
 pt = Portuguese
