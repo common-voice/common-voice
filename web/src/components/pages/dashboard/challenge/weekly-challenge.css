@@ -76,7 +76,7 @@
     }
 
     .stats-card .filters {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .challenge-dropdown {
