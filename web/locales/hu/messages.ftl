@@ -117,6 +117,7 @@ nn-NO = Norvég nynorsk
 oc = Okcitán
 or = Orija
 pa-IN = Pandzsábi
+pap-AW = Papiamento (Aruba)
 pl = Lengyel
 ps = Pastu
 pt = Portugál
