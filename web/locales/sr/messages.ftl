@@ -571,15 +571,15 @@ confirm-no-identify = <b>Слажете се</b> да не покушавате 
 download-language = Преузми за { $language }
 validated-hours = Потврђених сати
 recorded-hours = Снимљених сати
-whats-inside = Шта се налази у Common Voice комплету података?
+whats-inside = Шта се налази у Common Voice бази података?
 dataset-description-hours =
     Сваки унос у базу података састоји се од јединственог MP3 и одговарајућег текстуалног фајла. Многи од <b>{ $total }</b> снимљенх сати у бази података укључују и демографске метаподатке као што су старост, пол и нагласак који могу помоћи у обуци тачности програма за препознавање говора.
     База података се тренутно састоји од <b>{ $valid }</b> потврђених сати у <b>{ $languages }</b> језицима, али увек додајемо више гласова и језика. Погледајте нашу страницу <languagesLink>Језици</languagesLink>  да бисте затражили језик или почели доприносити.
 want-dataset-update = Желите ли бити обавештени када објавимо нову верзију Common Voice скупа података? Претплатите се на наш билтен.
 subscribe = Пријавите се
 get-started-speech = Упознајте се са препознавањем говора
-other-datasets = Други скупови гласовних података
-feedback-q = Имате ли повратних података?
+other-datasets = Друге гласовне базе података
+feedback-q = Имате ли повратне информације?
 deepspeech-info = Common Voice скуп података надопуњује Mozilla-ин програм отвореног кода за препознавање гласа Deep Speech, који можете користити за изградњу апликација за препознавање говора. Прочитајте наш <githubLink>Github преглед</githubLink> или се придружите на<discourseLink>DeepSpeech Discourse</discourseLink>да бисте сазнали како започети.
 common-voice-info-new = Имате питања о Common Voice-у? Имате идеје за побољшање или повратне информације о одређеном језику? Придружите нам се на нашем <discourseLink>Discourse форуму</discourseLink> и реците нам.
 data-other-librispeech-description = LibriSpeech је збирка од отприлике 1000 сати енглеског читања на 16Khz, изведеног из аудио књига из LibriVox пројекта.
@@ -587,7 +587,7 @@ data-other-ted-name = TED-LIUM Збирка
 data-other-ted-description = TED-LIUM збирка је направљена од аудио разговора и њихових транскрипција, доступних на ТЕD веб страници.
 data-other-voxforge-description = VoxForge је постављен за прикупљање транскрибованог говора за употребу са програмима за препознавање говора отвореног кода.
 data-other-tatoeba-description = Tatoeba је велика база реченица, превода и аудио снимака за учење језика. Ово преузимање садржи говорни енглески језик који је снимила њихова заједница.
-your-feedback = Имате ли идеје о томе како можемо побољшати Common Voice комплет података? Јавите нам помоћу Discourse платформе
+your-feedback = Имате ли идеје о томе како можемо побољшати Common Voice базу података? Јавите нам на Discourse
 go-discourse = Иди на Discourse
 missing-language = Не видите свој језик у бази података? Да бисте затражили да се неки језик појави на нашој страници, идите на нашу страницу Језици.
 go-languages-page = Идите на страницу са језицима
@@ -604,7 +604,7 @@ download-helpus = Помозите нам да изградимо заједни
 download-form-email =
     .label = Унесите адресу е-поште
     .value = Хвала, бићемо у контакту.
-download-back = Вратите се на Common Voice скупове података
+download-back = Вратите се на Common Voice базе података
 download-no = Не хвала
 
 ## Contact Modal
@@ -623,7 +623,7 @@ request-language-form-language =
     .label = Језик
 request-language-success-title = Захтев за новим језиком предат, хвала вам.
 request-language-success-content = Остаћемо у контакту ради више информација о додавању вашег језика у Common Voice.
-select-language = Изаберите језик…
+select-language = Изаберите језик...
 other-language = Други језик
 
 ## Languages Overview
@@ -657,7 +657,7 @@ clips-with-count-pluralized =
         [few] <bold>{ $count }</bold> исечка
        *[other] <bold>{ $count }</bold> исечака
     }
-goal-help-recording = Помогли сте Common Voice пројекту да достигне <goalPercentage></goalPercentage> од нашег дневног { $goalValue } циља за снимање!
+goal-help-recording = Помогли сте Common Voice-у да достигне <goalPercentage></goalPercentage> од нашег дневног { $goalValue } циља за снимање!
 goal-help-validation = Помогли сте Common Voice-у да достигне <goalPercentage></goalPercentage> од нашег дневног { $goalValue } циља валидације!
 contribute-more =
     { $count ->
