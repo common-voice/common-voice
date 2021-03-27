@@ -93,12 +93,14 @@ lg = lugandščina
 lij = ligurščina
 lt = litovščina
 lv = latvijščina
+mai = maithilščina
 mdf = mokša
 mg = malagaščina
 mhr = vzhodna marijščina
 mk = makedonščina
 ml = malajalamščina
 mn = mongolščina
+mos = mosijščina
 mr = maratščina
 mrj = zahodna marijščina
 ms = malajščina
@@ -126,6 +128,7 @@ scn = sicilijanščina
 si = sinhalščina
 sk = slovaščina
 sl = slovenščina
+so = somalščina
 sq = albanščina
 sr = srbščina
 sv-SE = švedščina
@@ -140,6 +143,7 @@ tr = turščina
 tt = tatarščina
 uby = ubiščina
 udm = udmurtščina
+ug = ujgurščina
 uk = ukrajinščina
 ur = urdujščina
 uz = uzbeščina
@@ -738,6 +742,7 @@ validations =
 
 your-languages = Vaši jeziki
 toward-next-goal = Do naslednjega cilja
+goal-reached = Cilj dosežen
 clips-you-recorded = Posnetki, ki ste jih posneli
 clips-you-validated = Posnetki, ki ste jih preverili
 todays-recorded-progress = Današnji skupni napredek pri snemanju posnetkov
@@ -853,6 +858,9 @@ demo-welcome-subheader = Želite izvedeti več o projektu in prispevati?
 ## Demo Datasets
 
 demo-language-select-card-body = Zahvaljujoč prispevkom več kot 259 tisoč ljudi v več kot 50 jezikih se ti podatki uporabljajo za usposabljanje aplikacij za prepoznavanje govora, da bi se bolje odzivale na človeški glas.
+card-button-next = Naprej
+card-button-back = Nazaj
+demo-language-select-label = Brskanje po jezikih
 demo-account = Račun
 
 ## Demo Account
