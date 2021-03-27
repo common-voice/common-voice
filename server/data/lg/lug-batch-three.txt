@@ -1,4 +1,3 @@
-Sentence
 Tulina okubaga amateeka aganaayambako okulwanyisa ga ssedduvvuto.
 Kumpi abawala mutwalo baasobozebwako wakati wa Gatonnya ne Ssebaaseka.
 Olukungaana lw'okulwanisa amawulire amafu lutegekeddwa.
@@ -204,7 +203,7 @@ Omusolo ogw'ennyonereza gutera kuggyibwa ku byamaguzi.
 Avunaanibwa yakaabidde mu kkooti okugezaako okukakasa nti talina musango.
 Amateeka gateekeddwawo okwewala obufere n'emisango egiringa egyo.
 Tulina okwongeramu ebintu mu dduuka omwezi ogujja.
-Omusanga gwa kkooti guno guluddewo okusinziira ku bwe twali tulowooza.
+Omusango gwa kkooti guno guluddewo okusinziira ku bwe twali tulowooza.
 Okusalawo okukolebwa kulina okuba okutangaavu era nga kutegeerebwa buli muntu.
 Engambo zokka tezimala kusingisa muntu musango.
 Ekitongole ekiwooza omusolo kye kivunaanyizibwa ku kukungaanya omusolo mu Uganda.
@@ -283,7 +282,7 @@ Uganda yawera okuggya ebweru ebyamaguzi ebikolebwa kuno.
 Amazima gali kufuula ow'eddembe.
 Emisango gizzibwa bantu.
 Obubaka bw'ekisawo bulina okufunibwa buli omu
-Amagezi okuva mu basawo ga mugaso eri bulamu bwaffe.
+Amagezi okuva mu basawo ga mugaso eri obulamu bwaffe.
 Abasawo balondoola embeera y'abalwadde baabwe.
 Okwawula abalwaadde kiyamba okiziyiza endwadde.
 Ebika by'abantu ab'enjawulo bayingira mu Uganda.
@@ -3786,7 +3785,7 @@ Eby'obuwangwa ebimu binyigiriza.
 Okutulugunyizibwa mu kikula ky'abantu kiviirako abatulugunyiziddwa okunakuwala n'okuggwamu essuubi.
 Kiki ekikoleddwa okusobola okulwanyisa obutabanguko obw'ekikula ky'abantu.
 Obutabanguko tebukkirizibwa mu bitundu.
-Okwewaayo kutwala omumalirivu n'okwefiiriza.
+Okwewaayo kutwala obumalirivu n'okwefiiriza.
 Mugaso ki ogw'ekkanisa?
 Okunenyagana tekigonjoola kintu kyonna.
 Abakulembeze mu kkanisa bateekeddwa okukubiriza abantu okubeera mu ddembe.
