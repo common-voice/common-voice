@@ -117,6 +117,7 @@ nn-NO = 挪威語（Nynorsk）
 oc = 奧西坦語
 or = 奧里亞語
 pa-IN = 旁遮普語
+pap-AW = 帕皮亞門托語（阿魯巴）
 pl = 波蘭語
 ps = 普什圖語
 pt = 葡萄牙語
