@@ -117,6 +117,7 @@ nn-NO = norweski (nynorsk)
 oc = oksytański
 or = orija
 pa-IN = pendżabski
+pap-AW = papiamento (Aruba)
 pl = polski
 ps = paszto
 pt = portugalski
