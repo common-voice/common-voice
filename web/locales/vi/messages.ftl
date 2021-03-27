@@ -33,14 +33,18 @@ as = Assam
 ast = Asturias
 az = Azerbaijan
 ba = Bashkir
+bas = Basaa
 be = Belarut
 bg = Bulgaria
+bm = Bambara
 bn = Bengal
 br = Breton
 bxr = Buryat
 ca = Catalunya
 cak = Kaqchikel
+ckb = Tiếng Soran
 cnh = Hakha Chin
+co = Corsican
 cs = Séc
 cv = Chuvash
 cy = Wales
@@ -62,11 +66,13 @@ fr = Pháp
 fy-NL = Frisia
 ga-IE = Ireland
 gl = Galicia
+gn = Guarani
 ha = Hausa
 he = Do Thái
 hi = Hindi
 hr = Croatia
 hsb = Thượng Sorb
+ht = Haiti
 hu = Hungary
 hy-AM = Armenia
 hyw = Armenia Tây
@@ -81,22 +87,26 @@ kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
 kk = Kazakh
+kmr = Tiếng Kurmanji
 ko = Hàn
 kpv = Komi-Zyria
-ku = Kurd
 kw = Cornwall
 ky = Kyrgyz
 lg = Luganda
 lij = Ligurian
 lt = Litva
 lv = Latvia
+mai = Maithili
 mdf = Moksha
 mg = Malagasy
 mhr = Mari Đông
 mk = Macedonia
 ml = Malayalam
 mn = Mông Cổ
+mos = Mossi
+mr = Marathi
 mrj = Mari Tây
+ms = Mã Lai
 mt = Malta
 my = Miến Điện
 myv = Erzya
@@ -108,6 +118,7 @@ oc = Occitan
 or = Odia
 pa-IN = Punjabi
 pl = Ba Lan
+ps = Pashto
 pt = Bồ Đào Nha
 rm-sursilv = Romansh Sursilva
 rm-vallader = Romansh
@@ -117,9 +128,11 @@ rw = Kinyarwanda
 sah = Sakha
 sc = Sardinia
 scn = Sicilian
+shi = Shilha
 si = Sinhala
 sk = Slovakia
 sl = Slovenia
+so = Somali
 sq = Albania
 sr = Serbia
 sv-SE = Thụy Điển
@@ -134,12 +147,14 @@ tr = Thổ Nhĩ Kỳ
 tt = Tatar
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Ukraina
 ur = Urdu
 uz = Uzbek
 vec = Venetian
 vi = Việt
 vot = Votic
+yue = Quảng Đông
 zh-CN = Trung (Trung Quốc)
 zh-HK = Trung (Hồng Kông)
 zh-TW = Trung (Đài Loan)
@@ -232,7 +247,7 @@ whats-public = Có gì được công khai?
 email-not-public = Chúng tôi sẽ không công khai email của bạn.
 recordings-and-locale-public = Số lượng bản ghi và ngôn ngữ bạn đóng góp sẽ được công khai.
 username-optin-public = Bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
-demographic-deidentified-clarity = Dữ liệu nhân khẩu học được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) sẽ không bao giờ được công khai trên hồ sơ của bạn và sẽ không được liên kết với tài khoản của bạn trong bộ dữ liệu. Các clip âm thanh riêng lẻ sẽ được liên kết với dữ liệu nhân khẩu học nhằm mục đích phân tích chính xác hơn - ví dụ: nhà nghiên cứu có thể muốn nhắm mục tiêu mô hình đào tạo đến một phân khúc nhân khẩu học cụ thể.
+demographic-deidentified-clarity-2 = Dữ liệu nhân khẩu học được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) sẽ không bao giờ được công khai trên hồ sơ của bạn và sẽ không được liên kết với tài khoản của bạn trong bộ dữ liệu. Các clip âm thanh riêng lẻ sẽ được liên kết với dữ liệu nhân khẩu học nhằm mục đích phân tích chính xác hơn - ví dụ: nhà nghiên cứu có thể muốn nhắm mục tiêu mô hình đào tạo đến một phân khúc nhân khẩu học cụ thể.
 username-email-not-demographic = Tên người dùng và email của bạn sẽ không được liên kết với dữ liệu được công bố.
 
 ## Speak & Listen Shortcuts
@@ -262,6 +277,7 @@ shortcut-record-toggle-label = Ghi/Dừng
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Clip ghi lại
 request-language-text = Chưa thấy ngôn ngữ của mình trên Common Voice?
+request-language-text-learn = Tìm hiểu cách yêu cầu nó ở đây!
 request-language-button = Yêu cầu ngôn ngữ
 
 ## ProjectStatus
@@ -289,7 +305,7 @@ profile-form-accent =
     .label = Giọng vùng miền
 profile-form-age =
     .label = Tuổi
-profile-form-gender =
+profile-form-gender-2 =
     .label = Giới tính
 leaderboard-visibility =
     .label = Hiển thị bảng thành tích
@@ -316,7 +332,7 @@ profile-close = Đóng
 profile-explanation = Theo dõi tiến trình của bạn với một hồ sơ và giúp dữ liệu giọng nói của chúng tôi chính xác hơn.
 thanks-for-account = Cảm ơn bạn đã xác nhận tài khoản của mình, giờ hãy tạo hồ sơ của bạn.
 why-demographic = Vì sao điều này quan trọng?
-why-demographic-explanation = Dữ liệu người dùng ẩn danh như tuổi, giới tính và giọng vùng miền giúp cải thiện dữ liệu âm thanh được sử dụng để đào tạo sự chính xác của công cụ nhận dạng giọng nói. Tên người dùng và email của bạn sẽ không bao giờ được liên kết với dữ liệu đã gửi của bạn, và bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
+why-demographic-explanation-2 = Dữ liệu người dùng ẩn danh như tuổi, giới tính và giọng vùng miền giúp cải thiện dữ liệu âm thanh được sử dụng để đào tạo sự chính xác của công cụ nhận dạng giọng nói. Tên người dùng và email của bạn sẽ không bao giờ được liên kết với dữ liệu đã gửi của bạn, và bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
 accept-privacy = Tôi đồng ý với việc các bạn xử lý thông tin này khi các bạn giải thích trong <privacyLink>Chính sách bảo mật</privacyLink> của Mozilla
 accept-privacy-title = Chính sách riêng tư
 login-identity = Nhận dạng đăng nhập
@@ -481,6 +497,7 @@ de-identified-explanation = Quá trình mà một người đóng góp thông ti
 
 error-title-404 = Chúng tôi không thể tìm thấy trang đó cho bạn
 error-content-404 = Có lẽ <homepageLink>trang chủ</homepageLink> của chúng tôi sẽ giúp ích? Để đặt câu hỏi, vui lòng tham gia <matrixLink>cộng đồng trò chuyện trên Matrix</matrixLink>, theo dõi các sự cố trang qua <githubLink>GitHub</githubLink> hoặc truy cập <discourseLink>diễn đàn Discourse của chúng tôi</discourseLink>.
+error-title-503 = Trang web hiện không thể truy cập được
 error-content-503 = Các trang web sẽ quay lại càng sớm càng tốt. Để biết thông tin mới nhất, vui lòng tham gia <matrixLink>cộng đồng trò chuyện trên Matrix</matrixLink> hoặc truy cập <githubLink>GitHub</githubLink> hoặc <discourseLink>diễn đàn Discourse của chúng tôi</discourseLink> để gửi và theo dõi các vấn đề về trải nghiệm trang web.
 error-code = Lỗi { $code }
 
@@ -499,10 +516,12 @@ data-other-goto = Đi đến { $name }
 data-other-download = Tải dữ liệu
 data-bundle-button = Tải Gói dữ liệu xuống
 data-bundle-description = Dữ liệu Common Voice cộng với tất cả các bộ dữ liệu giọng nói khác ở trên.
+release-version = Phiên bản
+dataset-date = Ngày
 license = Giấy phép: <licenseLink>{ $license }</licenseLink>
 license-mixed = Xáo trộn
 data-download-singleword-title = Tải xuống phân đoạn mục tiêu từ đơn
-data-download-singleword-callout = Đây là phân đoạn theo trường hợp sử dụng có chứa dữ liệu để tăng khả năng nhận dạng chữ số nói, phát hiện có / không và kiểm tra dữ liệu cho <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Đây là một phân đoạn theo trường hợp sử dụng chứa dữ liệu để hỗ trợ nhận dạng chữ số bằng giọng nói và phát hiện có / không.
 review-terms = Bằng việc sử dụng Common Voice, bạn đồng ý với <termsLink>Điều khoản</termsLink> và <privacyLink>Thông báo bảo mật</privacyLink> của chúng tôi
 terms-agree = Tôi đồng ý
 terms-disagree = Tôi không đồng ý
@@ -672,6 +691,7 @@ share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
 keep-track-profile = Theo dõi tiến trình của bạn với một hồ sơ
 login-to-get-started = Đăng nhập hoặc đăng ký để bắt đầu
 target-segment-first-card = Bạn đang đóng góp cho phân đoạn mục tiêu đầu tiên của chúng tôi
+target-segment-generic-card = Bạn đang đóng góp cho một phân đoạn mục tiêu
 target-segment-first-banner = Giúp tạo phân đoạn mục tiêu đầu tiên của Common Voice trong { $locale }
 target-segment-add-voice = Thêm giọng nói của bạn
 target-segment-learn-more = Tìm hiểu thêm
@@ -824,3 +844,39 @@ help-contribute = Bạn có thể giúp xây dựng bộ dữ liệu nguồn m�
 login-company = Đăng nhập / Đăng ký bằng email { $company }
 profile-not-required = Có một hồ sơ là không cần thiết để đóng góp mặc dù nó rất hữu ích
 read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
+
+## DemoLayout
+
+demo-get-started = Bắt đầu nào
+demo-welcome = Chào mừng đến với Common Voice
+demo-welcome-subheader = Bạn muốn tìm hiểu thêm và đóng góp cho dự án?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice là tập dữ liệu giọng nói đa ngôn ngữ có sẵn công khai lớn nhất thế giới.
+demo-language-select-card-body = Nhờ sự đóng góp của hơn 259 nghìn người bằng hơn 50 ngôn ngữ, dữ liệu này đang được sử dụng để đào tạo các ứng dụng hỗ trợ giọng nói để phản hồi tốt hơn với giọng nói của con người.
+card-button-next = Tiếp
+card-button-back = Quay lại
+demo-language-select-label = Duyệt qua các ngôn ngữ
+demo-eofy-header = Bản phát hành cuối năm 2019
+demo-eofy-sub_header = Tập dữ liệu giọng nói, sẵn sàng để tải xuống
+demo-account = Tài khoản
+
+## Demo Account
+
+demo-account-card-header = Không cần có một tài khoản để đóng góp, mặc dù nó rất hữu ích.
+demo-account-card-body = Ở bên phải, chúng tôi phác thảo các lợi ích và làm rõ thông tin nào chúng tôi công khai. Sử dụng các liên kết bên dưới để bắt đầu với tài khoản Common Voice trên thiết bị của riêng bạn.
+demo-account-enter-email =
+    .label = Nhập email để gửi liên kết đăng ký
+demo-account-sign-up = Gửi liên kết đăng ký
+
+## Demo Contribute
+
+demo-contribute-card-header = Sẵn sàng thêm giọng nói của bạn hoặc kiểm tra bản ghi âm?
+demo-contribute-card-body-v2 = Bây giờ bạn đã biết thêm một chút về Common Voice, tại sao không thử? Nhấp vào biểu tượng micrô để bắt đầu đọc to các câu. <br/><br/>Nếu bạn muốn xem lại các đóng góp bằng giọng nói của người khác, hãy nhấp vào biểu tượng phát. Bạn sẽ giúp xác nhận rằng bản ghi khớp với các câu được viết trên màn hình.
+demo-listen-subtitle = Sẵn sàng đóng góp?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Trang tổng quan cá nhân giúp bạn cập nhật những tiến bộ của cá nhân và cộng đồng.
+demo-dashboard-card-body = Đối với mọi đoạn thoại được tặng và mọi đoạn âm thanh đã được xác thực, trang tổng quan tài khoản của bạn sẽ được cập nhật để phản ánh sự tiến bộ mới nhất của bạn ở mỗi ngôn ngữ mà bạn đóng góp. Có, bạn có thể đóng góp cho nhiều hơn một!<br/><br/>Sử dụng trang tổng quan để theo dõi số liệu thống kê của bạn, xem bạn đang hoạt động như thế nào cùng với những người khác trong cộng đồng và đặt mục tiêu đóng góp hàng ngày hoặc hàng tuần.

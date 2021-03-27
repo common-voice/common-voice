@@ -1,6 +1,7 @@
 " For der stod en levende stork oppe på taget, hvor den havde sin rede.
 " Og kammerherrerne gik og bar på slæbet, som der slet ikke var.
 "Ak ja!" sukkede lille Claus, "jeg er så ung og skal allerede til himmerig!"
+"Batty, sagde han, Du maa ikke sidde herinde hele Dagen."
 "Blomsterne har været på bal i nat, og derfor hænger de med hovedet!"
 "De bragte i det mindste ham, som sover her, et varigt gode!" svarede Glæden.
 "De er da også et lykkeligt, frit menneske.
@@ -20,6 +21,7 @@
 "Det havde jeg ikke gjort, når der var så nydeligt dernede!"
 "Det må være ganske lunt, at have et sådant par tingester på!" sagde han.
 "Det var dejligt!" sagde hun, og klappede med de små hænder.
+"Det var en fæl drøm!" sagde han, "men løjerlig nok var den.
 "Det var ikke så galt" sagde soldaten.
 "Det var morsomt!" sagde den lille Ida og lo.
 "Det var slemt!" sagde den lille dreng, tog den op og så på den.
@@ -31,10 +33,13 @@
 "Du min skaber, har jeg ligget her på gaden og drømt!" sagde han.
 "En skæppe penge for hver," sagde store Claus
 "Er der nogen der oppe?" spurgte bondemanden og kiggede op på lille Claus.
+"Er det Herr Dupont, sagde han til Charlot."
+"Er det Herr Pasdeloup, sagde Herr Hansen."
 "Er du gal?" sagde de alle sammen, "tror du, vi have penge i skæppevis?"
 "Farvel, farvel! du gode, nydelige pige!" sagde svalen og fløj ud i solskinnet.
 "For denne ene gang din lyst jeg stiller,"
 "Gid jeg var rig!"
+"Gid jeg var rig!" det bad jeg mangen gang
 "Gid jeg var rig!" er end min bøn til Gud
 "Gud bevare os!" sagde apotekeren.
 "Gud hvor de klæder godt! hvor de sidder dejligt!" sagde de alle sammen.
@@ -55,27 +60,37 @@
 "Hvad vil du med de ris?" spurgte Johannes nu sin rejsekammerat.
 "Hvad vil du nu med det fyrtøj," spurgte soldaten.
 "Hvem er det, og hvor har i fået det fra?" spurgte apotekeren.
+"Hverdagshistorier?" spurgte vor baccalaureus.
 "Hvilket mønster! hvilke farver! det er en kostbar dragt!"
 "Hvor danser de pæneste blomster," spurgte lille Ida.
 "Hvor kan man få hende at se?" spurgte soldaten.
 "Hvordan var det de så ud! de kom nok fra maskerade!"
 "Hvorfor ligger du der? kom hellere med ind i stuen!"
+"Hvorfor? -Du kan ikke taale det."
+"Ikke ilde — ikke ilde..."
+"Instrumentet er saa lille, sagde Charlot."
 "Ja det er en anden sag!" sagde lille Claus, og lukkede kisten op.
+"Ja er det ikke magnifik!" sagde begge de skikkelige embedsmænd.
 "Ja jeg er jo i stand!" sagde kejseren.
 "Ja man må lide noget for stadsen!" sagde den gamle.
 "Ja nok!" sagde Johannes, og så fulgtes de ad.
 "Ja ved du, hvad de fejler!" sagde studenten.
 "Ja vist!" sagde bondemanden, "men nu skal vi først have lidt at leve af!"
+"Ja — Gud velsigne hende — Gud være med hende for det."
+"Ja — Gud velsigne hende."
 "Ja, det er vor første bogtrykker!" sagde manden.
 "Ja, det må I, som en fornuftig mand, nok sige," sagde markmusen.
 "Ja, han vil vise sig ganske livagtig som en degn!"
 "Ja," sagde lille Claus, "min troldmand kan alt, hvad jeg vil forlange.
 "Jeg forstår ikke jeres bornholmsk!" sagde han til sidst vredt, og vendte dem ryggen.
+"Jeg har det bedst her, Jørgen."
+"Jeg har jo sagt, De maa ikke røre Dem, sagde Lægen."
 "Jeg vil det!" sagde den lille havfrue og var bleg, som en død.
 "Jeg vil også ud i den vide verden!" sagde den fremmede mand.
 "Jo, det skal vi nok komme ud af!" sagde heksen.
 "Jo, sagde Charlot, det er mig."
 "Jo," sagde studenten, "småbitte gåseurter og liljekonvaller!"
+"Jørgen, sagde Batty."
 "Kan der ingen børn komme med på det bal?"
 "Kan professoren da forstå pantomime?" spurgte Ida.
 "Kom ind!" sagde den gamle konge, da Johannes bankede på døren.
@@ -110,6 +125,7 @@
 "Oh nej! vær ikke så slem!" og så gik de hen til åen.
 "Oh, jeg er slet ikke bange, hvorledes kan han vel se ud?"
 "Om fire uger skal du have bryllup!" sagde markmusen til hende.
+"Om tre hundrede år svæver vi således ind i Guds rige!"
 "Pipi!" sukkede den, "det var et skrækkeligt snevejr!" og med dette suk tav den.
 "Se nu har vi dig fra hånden," sagde hendes bedstemoder, den gamle enkedronning.
 "Sig mig bare, hvor broen er!" sagde han.
@@ -117,6 +133,7 @@
 "Skal vi to gøre følgeskab!"
 "Skrålhans!" sagde fruen og kastede et hvidt lommetørklæde over buret.
 "Tak skal du have, din gamle heks!" sagde soldaten.
+"Til luftens døtre!" svarede de andre.
 "Tør jeg ikke spørge, hvem jeg har den fornøjelse at tale med?" spurgte justitsråden.
 "Ud i den vide verden!" sagde Johannes.
 "Vil du danse med mig?" sagde røgmanden.
@@ -128,8 +145,12 @@
 "og ser på mængden gennem mine briller
 - Nu snart et rigtigt overblik jeg har.
 Af de dybe sår, som krigen gav Europa.
+Affald skal placeres i egnede beholdere og beskyttet mod vejrlig
+Afgørelser om kørekort træffes af kommunalbestyrelsen, medmindre andet følger af denne bekendtgørelse
+Aflægges kursus ikke inden for fristen, kan politiet straks inddrage førerretten
 Afstandskravet gælder for enhver forurenende aktivitet og ethvert forurenende anlæg, der vedrører autolakering
 Aftalen skal underskrives af begge parter
+Aktindsigten skal gives i den form, som den, der har fremsat anmodningen, ønsker
 Aldrig har så mange haft så rige muligheder.
 Aldrig havde han fundet sin tidsalder elendigere, end denne aften.
 Aldrig havde hun set sådanne ildkunster.
@@ -139,34 +160,73 @@ Alle mennesker i byen talte om det prægtige tøj.
 Alle skomagere og garvere kom løbende, og spurgte, hvad han ville have for dem.
 Altid havde hun været stille og tankefuld, men nu blev hun det meget mere.
 Altså vægteren var igen vægter.
+Angivelse af hvilke kategorier kørekortet giver indehaveren ret til at føre
+Anmodning om sterilisation fremsættes over for en læge eller over for et regionsråd
+Anmodning om svangerskabsafbrydelse eller fosterreduktion skal fremsættes af den gravide selv
+Ansøgeren skal have kendskab til begreberne reaktionslængde, bremselængde og standselængde
+Ansøgeren skal hos kommunen udfylde underskriftsrubrikken i et stamkort
+Ansøgeren skal selv stille køretøj til rådighed ved aflæggelse af den praktiske prøve
+Ansøgning om internationalt kørekort indleveres til kommunen
+Ansøgning om kørekort indleveres til kommunen
+Ansøgning om midlertidigt erstatningskørekort indleveres til kommunen
+Ansøgningen kan indleveres til enhver kommune, uanset hvor ansøgeren har bopæl
+Ansøgningen kan indleveres til enhver kommune, uanset hvor i Danmark ansøgeren har bopæl
+Ansøgningen skal vedlægges et fotografi af ansøgeren
 Antallet på offentlig forsørgelse er det laveste i mere end tredive år.
+Autolakering skal foregå indendørs i rum eller sprøjtekabiner, hvorfra der er etableret udsugningsanlæg
 Avisen havde ingen gode nyheder, højest lidt sportsresultater fra sidste uge.
 Bag ved lå hendes hus midt inde i en sælsom skov.
 Bagsiden er de unge, som ikke må gifte sig med den, de elsker.
+Bedømmelsen af den praktiske prøve må ikke foretages af elevens egen underviser
 Begravelseshjælpens størrelse afhænger af afdødes og den efterlevende ægtefælles formue og formuerettigheder
+Behandling og rådgivning til alkoholmisbrugere skal ydes anonymt, hvis alkoholmisbrugeren ønsker det
 Behandling på alkoholambulatorium er vederlagsfri, uanset hvor patienten bor
 Beløbsgrænserne afrundes nedad til nærmeste hele kronebeløb, der kan deles med fem
+Beskadigede kørekort, der skal erstattes af duplikatkørekort, skal afleveres til kommunen
 Beskæftigelsen er højere end nogensinde.
 Bestemmelse om retslægelig obduktion træffes af politiet
+Bestemmelserne i dette kapitel finder ikke anvendelse for lille knallert
+Bestås køreprøven, udstedes kørekort til de tidligere erhvervede kategorier
+Betaling sker til kommunen efter kommunalbestyrelsens nærmere bestemmelse herom
+Bilaget indeholder endvidere bestemmelser om tilsynsførende ved teoriprøver
+Bilen eller motorcyklen samt radioanlægget stilles til rådighed af kommunen
+Billeder, hvor Mænd i Fløjl sidder til Bords med Kvinder i Silke og Drapperier.
 Bondemanden forærede ham endogså en stor trillebør til at køre pengene og kisten på.
+Bopælsregionen afholder udgifter til sterilisation
+Bopælsregionen afholder udgifter til svangerskabsafbrydelse og fosterreduktion
+Bopælsregionen afholder udgifter til tilskud til lægemidler efter afsnit X
 Bragene fra de faldende bomber, ruinerne, angsten. Det fulgte hende gennem hele livet.
 Bygget på ordentlighed.
 Både gamle og nye danskere.
+Bønnen afsluttes med at bukke, klappe to gange, og bukke igen
 Censor skal under prøven kunne tale til eleven via et radioanlæg
+Center for Cybersikkerhed orienteres i så fald straks
+Charlot gik op og spillede for Dirigenten.
+Charlot glemte alt.
 Citron- og appelsintræer voksede der i haven, og foran porten stod høje palmetræer.
+Da Batty kom, nikkede han kun til Goddag og laa ubevægelig.
 Da det mørknedes, tændtes brogede lamper og søfolkene dansede lystige danse på dækket.
 Da det nu blev efterår, havde Tommelise hele sit udstyr færdigt.
+Da han kom hjem til Paris, søgte han Plads i et Orkester.
 Da sukkede den lille havfrue og så bedrøvet på sin fiskehale.
 Da tog han hende ved hånden og førte hende ind i slottet.
 Danmark bliver tit fremhævet som et modsvar til den splittelse, man ser andre steder.
 Danmarks sikkerhed afhænger af internationalt samarbejde.
 Datoen for lektionens gennemførelse og den faktisk anvendte tid skal også bekræftes
 De blå klokker og de små hvide sommergækker klingede, ligesom de havde bjælder på.
+De dyrkede elskovskunsten under træerne
 De er fra politiet.
 De er også herhjemme hos os. Hvis for mange føler sig udenfor.
+De for kontrollerende køreprøver gældende retsvirkninger finder i disse tilfælde tilsvarende anvendelse
 De forstaar, Herr Dupont... vi maa have Folk, som kan arbejde.
+De færdselsregler, der har betydning for føringen af en traktor
 De kan flyve hvorhen De vil, vi andre har en lænke om benet!"
+De kan ikke både være kloge og have uendeligt liv
+De ligger lige ved porten!"
+De må ikke spise af det hellige æbletræ
+De nævnte retningslinjer indsendes til sundheds- og ældreministeren
 De problemer, der angår hele verden.
+De skal ikke paa Maskerade.
 De skal nok tage sig af dig. Okay?
 De skænkede og nejede; justitsråden løb det iskoldt ned af ryggen.
 De tendenser, der er ude i verden – hvor det store fællesskab slår revner.
@@ -175,21 +235,40 @@ De tror, det ende vil med ingenting
 De tror? Nej, hvad behager? Rundt omkring
 De øvrige medlemmer beskikkes efter indstilling fra Lægemiddelstyrelsen
 Dem må og skal vi løse sammen.
+Den danske folkekirke grundlægges
+Den eneste direkte efterfølger af Peter
+Den fornemste i toget var en gejstlig mand.
 Den fredelige verden, vi drømte om, er i opbrud.
 Den gamle konge stod op og tørrede sine øjne i et hvidt lommetørklæde.
 Den gravide alkoholmisbruger skal straks have meddelelse om ophøret af tilbageholdelsen
+Den kombinerede køreprøve bedømmes i henhold til Færdselsstyrelsen retningslinjer for køreprøver
+Den praktiske prøve gennemføres i tættere bebygget område
+Den praktiske prøve kan først berammes, når teoriprøven er bestået
+Den prøvesagkyndige kan dog bedømme kørslen som passager på ansøgerens motorcykel
+Den prøvesagkyndige skal bedømme, om ansøgeren kan udføre disse færdigheder i tilstrækkeligt omfang
 Den pågældende skal samtidig gøres bekendt med adgangen til domstolsprøvelse
 Den skal endvidere være forsynet med hastighedsmåler
+Den specifikke version er ubetydelig
 Den stakkels gamle konge!
+Den stråling du modtager ved at være i nærheden af bagværk
+Den tid dog kom, at jeg blev officer
 Den var et lille hul inde under kornstubbene.
 Den varmer måske i øjeblikket. Men den spærrer for selvindsigt.
+Den, der skal aflægge kontrollerende køreprøve, stiller selv køretøj til rådighed ved køreprøven
+Denne kørelærer skal forinden sikre sig, at undervisningsplanen er fulgt
+Denne prøve afholdes i overensstemmelse med Færdselsstyrelsens retningslinjer for køreprøver
+Der er dog mulighed for at fravige denne hovedregel i mindre omfang
 Der er en, der er mistænksom.
+Der er mødepligt til alle lektioner
+Der er sket et paradigmeskifte tidligere
 Der kan desuden monteres en ekstra speederpedal
 Der ligger mange penge her til huset
 Der må derfor ikke være ophold i køreuddannelsesperioden af længere varighed
 Der rejste Sophie sig op, og så ganske forundret rundt omkring.
 Der sad han.
+Der skal dog ikke gives erklæring om undervisning i kørsel på lukket øvelsesplads
 Der skal tilstræbes enighed i udvalget om den endelige udformning af praksisplanen
+Der skal vedlægges fuldstændige oplysninger om anlægget, herunder tegninger med angivelse af målestoksforhold
 Der stod han nu.
 Der var engang en gammel digter, sådan en rigtig god gammel digter.
 Derfor fører regeringen en stram udlændingepolitik.
@@ -198,11 +277,14 @@ Derude er rigtigt bal, kan du tro!"
 Det bedste galocherne bragte.
 Det budskab kan man tage ned på to måder. Man kan vælge magtesløsheden.
 Det buldrede og bragede.
+Det er Violin-Underet, Charlot Dupont.
 Det er den samme aftale, ikke?
 Det er det historiske bagtæppe.
 Det er dig, der går ind i mig.
+Det er en Koncert.
 Det er en af vores største udfordringer overhovedet – som samfund, som generation, som verden.
 Det er en løgn, men artigt nok kunne det være.
+Det er et lovende og realistisk alternativ
 Det er forsiden af medaljen.
 Det er ganske normal pot.
 Det er helt harmløst.
@@ -211,15 +293,23 @@ Det er ikke os, de er ude efter.
 Det er jeg sådan set godt i gang med.
 Det er jeg – desværre – ikke helt sikker på.
 Det er nu - det er nu - vi skal udvise samme handlekraft mod klimaforandringer.
+Det er vist en Misforstaaelse.
 Det er vores fælles ansvar at passe på Danmark.
+Det fremgår videre, om prøven er bestået eller ikke er bestået
 Det går godt i Danmark.
 Det gætter han ikke.
+Det ideele i tilværelsen
+Det internationale kørekort er gyldigt i et år fra udstedelsesdagen
 Det kan undtagelsesvist accepteres, at køreeleven er en eller flere teorilektioner foran
 Det kan virke fristende at lukke af for en besværlig omverden.
 Det kræver en del planlægning.
 Det kunne den salve gøre.
 Det kunne være godt med lidt ferie.
 Det køretekniske anlægs præcise mål bestemmes i øvrigt af de nedenfor omtalte manøvrer
+Det nye testamente skrives
+Det påhviler regionsråd og kommunalbestyrelser at give oplysninger til Styrelsen for Patientsikkerhed herom
+Det samlede tidsforbrug skal fremgå af rubrikken vedrørende faktisk anvendt tid
+Det samme gælder, hvis personen mundtligt har udtalt sig for et sådant indgreb
 Det samme gælder, hvis personen mundtligt har udtalt sig herom
 Det skal du slet ikke bekymre dig om.
 Det skal vi ikke gå og putte med.
@@ -245,33 +335,61 @@ Det ved jeg ikke.
 Detailforskrifter for Køretøjer om påbudte førerspejle
 Detailforskrifter for Køretøjer om påbudte spejle, til brug for kørelæreren og den prøvesagkyndige
 Dette areal skal have en fast belægning, der varigt giver den angivne højdeforskel
+Dette gælder dog ikke ansøgning om fornyelse af kørekort til lille knallert
+Dette gælder dog ikke ved navneændringer
+Dette gælder dog ikke, hvis underretningen viser sig umulig eller er uforholdsmæssigt vanskelig
 Dette gælder ikke for tilknytning til offentlige sygehuse
 Dette gælder også eventuelle lektioner, der gennemføres efter prøver, der ikke er bestået
+Dette gælder også til traktor
+Dette gælder tilsvarende efter et operativt indgreb til behandling af epilepsi
+Dette skal attesteres af egen læge eller speciallæge i neurologi
 Dette vil være nok, som indledning.
 Digtet blev ypperligt fremsagt og deklamatoren gjorde stor lykke.
 Digtet syntes han godt om.
+Din dyndtorsk, se så at få fingeren ud
+Diskuter nogle anvendelsesmuligheder for kvantecomputere
+Disse er anført på kørekortets bagside
 Disse personer er pligtige til at give de afkrævede oplysninger
 Dommeren så kvik ud, men dømte helt forkert.
 Du aner ikke, hvad der foregår.
+Du bliver syg.
 Du er bare en gammel kvaksalver.
 Du er så tarvelig.
+Du er vistnok en værre morgenbolle
+Du har vist brug for en opstrammer
 Du må fortælle ham de nydeligste historier, du ved!"
+Du må ikke bryde et ægteskab
 Du skal bare lave en enkelt fejl.
 Du skal så skrive under her.
 Du står bare og fylder hele gaden.
 Du stærke død, din tavshed vækker gru;
 Du, som jeg elsker, hvis du mig forstår
+Dualisme betyder at krop og sjæl er adskilt
 Dér skulle nu prinsessen ligge om natten.
 Efter midnat dansk tid stod jeg ude på vores lille altan.
+Efterhaanden som Jørgen blev bedre, begyndte han at tale meget utaalmodigt og gnavent.
+Efterlader afdøde sig ingen nærmeste pårørende, kan der ikke ske forskning på afdøde
+Efterlader afdøde sig ingen nærmeste, må indgrebet ikke foretages
 Eja! Dér sad hunden med øjne så store, som et møllehjul.
+Eleven skal dog altid have deltaget i øvelseskørsel på lukket øvelsesplads
+Elever, der ikke har bestået prøven, skal samtidig have udleveret et bedømmelsesskema
+Eleverne skal have hver sin computerskærm til rådighed
+Ellers indskrænkedes Fru Hansen til at blive skældt ud og tie stille.
+En Herre kom hen imod dem.
+En anmeldelse bortfalder, hvis den ikke udnyttes inden et år fra anmeldelsesdatoen
+En begrænsning, som allerede er påført ansøgerens kørekort, vil dog fortsat være gældende
 En højst usædvanlig rejse.
 En institution kan afvise at modtage en person, som har valgt institutionen
+En kørelærer eller en kørelæreraspirant må ikke fungere som tolk
+En underskrevet lektionsplan, i papirform eller digital form, skal medbringes ved køreprøven
 En verden i opbrud – hvor efterlader det Danmark?
 Endelig indtraf hun.
 Endelig kom hun da ud til bjerget og bankede på.
 Endelig kom hun da ud til bjerget.
 Er det listen med adresser, der skal ransages?
 Er du sød at gå?
+Er førerretten frakendt betinget, skal kørekortindehaveren aflægge en kontrollerende køreprøve
+Er prøven ikke bestået inden dette tidspunkt, skal eleven begynde forfra på knallertundervisningen
 Et deklamationsnummer.
 Et hovedmoment.
 Et par mennesker, i tidsalderens dragt, gik ham forbi.
@@ -280,12 +398,16 @@ Et stjerneskud spillede lige hen ad himlen.
 Et ægte fællesskab har plads til forskellighed.
 Far, hvem er det?
 Farligt affald skal tillige placeres på en oplagsplads med tæt belægning uden afløb
+Feltet anvendes ikke i Danmark
 Flasket op med de samme værdier.
 Flere syge overlever kræft.
+Folk der fægter
 Folk kunne se, de havde travlt med at få kejserens nye klæder færdige.
+For deltagelse i kurser betaler kursisten det af uddannelsescentret fastsatte beløb
 For der er noget andet, som er vigtigt at få sagt.
 For hver rapport fra eksperterne, bliver billedet malet sortere. Det er snart sidste udkald.
 For mange, der klumper sig sammen i parallelsamfund.
+For personer, der ikke har bopæl i landet, afholdes udgifterne af opholdsregionen
 For så længe vi taler åbent om vores bekymringer.
 For sådan er verden.
 For sådanne sygehusbehandlinger finder de hidtil gældende regler anvendelse
@@ -296,34 +418,62 @@ Formanden skal være dommer
 Fortæl om hans økonomiske forhold.
 Forud for og efter indgrebet skal den gravide tilbydes en støttesamtale
 Forud for regionsrådets behandling af forslag til sundhedsplan skal regionsrådet indhente Sundhedsstyrelsens rådgivning
+Foto af indehaveren
 Franz vaskede op i sin Krog.
 Frisind er ikke det samme som holdningsløshed.
+Fru Hansen græd og gav fortabt.
+Færdselsstyrelsen kan fastsætte særlige vilkår for godkendelsen
+Færdselsstyrelsens afgørelser efter denne bekendtgørelse kan ikke indbringes for anden administrativ myndighed
 Færre børn dør som små. Flere kommer i skole.
 Færre er på kontanthjælp og dagpenge.
+Førerretten inddrages endvidere, hvis kontrollerende køreprøve ikke bestås første gang
 Først herefter kan køreeleven fortsætte til næste øvelse
 Først slog klokken tolv i det lille ørige Samoa langt ude i Stillehavet.
 Gid bare pengene vil slå til
 Gid jeg allerede lå på den øverste hylde!"
 Gid jeg var rig på trøst og rolighed
+Gid jeg var rig! så blev jeg officer
 Godaften.
+Godkendte private leverandører skal endvidere tydeligt oplyse patienten om ejerforholdene for salgsstedet
 Godmorgen, alle sammen.
 Godt nytår!
+Gud fylder mennesket op med inspiration og kærlighed
+Gud har skabt en perfekt verden
+Gud har skabt verden
 Gud, hvilken dejlig kage han kunne se stå derinde! Jo, det var gilde!
 Halsen kunne han bekvemt bevæge, men det var også alt.
+Han elskede de Levninger, Moderen fik rundt i de "gode" Huse, hvor hun vaskede.
+Han fik den søde kløe
+Han forstod alt uden at blive undervist
+Han følte en skarp Smerte i Benet og faldt tilbage mod Hovedpuden.
+Han gav dig sjæl og beholdt dog sin egen.
+Han gav hende en undervognsbehandling, den drønnert
+Han gør buddhime til statsreligion
 Han har en stabil indtægt.
 Han hørte trommerne og så soldaterne marchere.
 Han kan tydeligvis ikke.
+Han kendte altså svaret
 Han kommer til København i morgen.
 Han lod hende sy en mandsdragt, for at hun til hest kunne følge ham.
 Han rejste.
 Han svævede mellem en blundende og en vågen tilstand.
+Han så efter Etager, hvor de tændte op til Fest.
 Han søgte efter gården, men den var ikke til at finde.
 Han var blomstens engel.
+Han var ikke utilfreds.
 Han vidste godt, han ikke var sikker mere.
 Hans bryllupsmorgen ville jo give hende døden og forvandle hende til skum på søen.
 Hele sommeren igennem levede den stakkels Tommelise ganske alene i den store skov.
+Her er mit foreløbige opvarmningsprogram til på lørdag
 Her er vi alle sammen på partiet.
+Herefter kan godkendelsen udvides til at omfatte øvrige kategorier
+Herr Charlot Dupont behagede, skrev "Le Figaro".
+Herr Emmanuelo bragte hende til Ro med Krøllejernet.
+Herr Emmanuelo fulgte ikke sin Søn tilbage.
+Herr Emmanuelo fulgte sin Søn.
+Herunder måling på kvantetilstande
 Ho, ho, ho!" lo Poppedreng og tilføjede sin vits: "Lad os nu være mennesker.
+Hun brændte ihjel og blev sendt til dødsriget
 Hun har ingen følehorn!" sagde den anden.
 Hun havde redet på hunden, og soldaten havde kysset hende.
 Hun kaldte: "Kom bare an!"
@@ -333,20 +483,29 @@ Hun så ham igennem persiennerne, med vilde øjne.
 Huset var propfuldt; mellem deklamationsnumrene blev givet et nyt digt.
 Hvad kan jeg hjælpe dig med?
 Hvad med det hus, han har købt?
+Hvad mon vel i det næste år vil ske?
 Hvad mærkeligt? Ja, jeg gad gerne se
 Hvad sker der?
 Hvad vil du bruge de oplysninger til?
+Hvem er vel lykkeligst af os herinde?
+Hvem får først bolden op på toppen
 Hvem gik over gaden i går.
 Hvem har gjort det?
 Hvem lever længst? Den dame der, den herre?
 Hver dag havde en fest.
 Hvilken kunde drejer det sig om?
 Hvis der havde været noget at komme efter, havde vi hørt fra dem.
+Hvis det ikke er tilfældet, skal påbuddet tilbagekaldes eller justeres uden unødigt ophold
+Hvis en anden læge udsteder lægeattesten, skal ansøgeren angive en fyldestgørende grund hertil
+Hvis gud er utilfreds med historiens gang så griber han ind
 Hvis hun mit hjertes eventyr forstod
+Hvor andet ikke er angivet, skal udtalelsen afgives af en speciallæge i neurologi
 Hvor få har for meget og færre for lidt.
 Hvor har du de informationer fra?
 Hvor har han fået pengene fra?
 Hvor her er grumme mange herreblade
+Hvordan kan man lede efter noget man ikke kender
+Hvordan man bliver gode venner igen
 Hvorfor er det så svært at finde på sætninger.
 Hvorfor lyver du for mig?
 Håbet om demokrati.
@@ -354,20 +513,33 @@ Hør bare, hvorledes det gik vægteren.
 I andre tilfælde skal ligsyn foretages af afdødes sædvanlige læge eller dennes stedfortræder
 I dag har vi taget fat på et nyt år, som umiddelbart tegner lyst.
 I de forunderligste skikkelser viste de sig og glimrede som diamanter.
+I de tilfælde, hvor kommunens ansøgningsprocedure understøtter digital indlevering, skal fotografiet indleveres digitalt
+I de tilfælde, hvor patienten er under værgemål, kan samtykke gives af værgen
 I det samme var han borte.
+I forsidens venstre midte findes et fotografi af indehaveren
 I kan ringe, hvis der er noget.
+I modsat fald skal lægen forelægge anmodningen med sin udtalelse for regionsrådet
 I må finde et sted til ham.
 I nat blev nytåret skudt ind over hele verden.
 I påtrængende tilfælde kan en af politidirektøren udpeget læge deltage
 I skal ikke være her.
+I særlige tilfælde kan fødestedet angives som et større geografisk område
 I viser jo netop, at der er en vej frem.
 Ikke for at brokke os. Men for at løse dem.
 Ikke kun blank og glat.
 Ikke sandt du?" spurgte han og trådte på posen, så det knirkede.
 Imponerende. I hører fra mig.
+Indberetning skal tillige ske til de centrale sundhedsmyndigheder
 Indbringelsen har ikke opsættende virkning, medmindre sundheds- og ældreministeren bestemmer andet
+Inddrages kørekortet på stedet, udfærdiger politiet så vidt muligt et midlertidigt kørekort
+Indehaverens efternavn
+Indehaverens fødselsdato og fødested
+Indehaverens personnummer
+Indgreb efter dette kapitel må ikke erstatte personlig pleje og omsorg
+Indholdet af denne graduering fremgår af Færdselsstyrelsen retningslinjer for køreprøver
 Indkørslen skal være forsynet med aflåselig kæde eller bom
 Ingen af kejserens klæder havde gjort sådan lykke.
+Ingen person må være indehaver af mere end ét kørekort
 Instituttet indgår i det operationelle beredskab mod smitsomme sygdomme og biologisk terrorisme
 Internationale fællesskaber, der forpligter og beskytter.
 Isolation og fiksering er ikke tilladt
@@ -378,6 +550,7 @@ Jeg bliver nødt til at gå nu.
 Jeg bliver nødt til at hjælpe hende.
 Jeg er barn af velfærdssamfundet. Blev student som den første i familien.
 Jeg er din ven.
+Jeg er ikke bedrøvet.
 Jeg er vokset op i et Danmark med en stærk samhørighed.
 Jeg fortryder, at jeg fik jobbet. Jeg var glad for at være kunderådgiver.
 Jeg gad nok vide, hvorledes dette løber af!"
@@ -385,7 +558,9 @@ Jeg har faktisk noget, jeg gerne lige vil vise dig.
 Jeg har ikke nogen appetit.
 Jeg har ikke sovet hele ugen.
 Jeg har kun betalt min gæld.
+Jeg har nogle ting i kan sige til jeres forældre
 Jeg har ringet og skrevet, men du svarer ikke rigtigt.
+Jeg har tid til at afprøve det tirsdag før træningen
 Jeg kan ikke finde på flere.
 Jeg kan ikke få luft.
 Jeg kan ikke høre, hvad du siger.
@@ -393,6 +568,7 @@ Jeg laver lidt mad, og det bliver med mand og barn.
 Jeg sagde tak og løb af sted og ville se
 Jeg sagde til ham, at du skulle hente noget i juicebaren.
 Jeg skal have alle mine penge nu.
+Jeg skriver kode, da jeg er programmør.
 Jeg smutter i skole nu.
 Jeg spår for Dem, for mig, for land og rige
 Jeg står her bare.
@@ -401,39 +577,87 @@ Jeg syntes, at jeg var løjtnant deroppe og det var slet ingen fornøjelse.
 Jeg så ikke, hvem det var.
 Jeg ved godt, at nogen synes, det er for stramt.
 Jeg ved godt, hvad du render rundt og laver.
+Jeg vil helst være her.
 Jeg vil ikke kun pudse medaljens forside. Jeg vil også se bagsiden.
+Jesus holder en central tale
 Jo længere han talte med bådsmændene, des uforståeligere blev de ham.
 Jo, det er rigtigt! nej, nu må jeg le!
 Jorden selv var det fineste sand, men blåt, som svovllue.
 Justitsråden anså kong Hans' tid for den dejligste og allerlykkeligste.
 Jørgen rørte sig ikke.
+Jørgen satte sig haardt op i Sengen.
 Kan du huske den døde mand, de onde mennesker ville gøre fortræd.
 Kan vi lige mødes herovre?
 Karlene så på ham.
+Kejseren fungerer stadig som religiøst overhoved
+Kejserens status bliver senere etableret
+Kendskab til faren for kulilteforgiftning
+Kendskab til færdselslovens regler om signaler og tegn
+Kendskab til traktorens stabilitet - herunder stejling og væltning
 Kernen i, om det kan lykkes, er selvfølgelig Danmarks dygtige, hårdtarbejdende sundhedspersonale.
+Knallerten kan stilles til rådighed af kommunen eller af eleven selv
+Koen var i brunst, så nu skulle der handles hurtigt
+Kom ind på hvordan man fysisk kan konstruere en kvantecomputer
+Kommunalbestyrelsen berammer køreprøver efter aftale med politiet
+Kommunalbestyrelsen berammer teoriprøven efter aftale med politiet
+Kommunalbestyrelsen etablerer forebyggende og sundhedsfremmende tilbud til borgerne
 Kommunalbestyrelsen kan bestemme, at anmeldelse skal ske på særlige skemaer
+Kommunalbestyrelsen kan dog ikke tillade opbevaring af farligt affald i nedgravede beholdere
+Kommunalbestyrelsen kan kræve, at ansøgeren fremviser sundhedskort
 Kommunalbestyrelsen tilbyder personer, som har et stofmisbrug, vederlagsfri lægelig behandling med afhængighedsskabende lægemidler
+Kommunalbestyrelsen tilbyder vederlagsfri behandling hos en fysioterapeut i praksissektoren efter lægehenvisning
+Kommunalbestyrelsen tilbyder vederlagsfri behandling til alkoholmisbrugere
+Kommunalbestyrelsens og politiets afgørelser efter denne bekendtgørelse kan påklages til Færdselsstyrelsen
+Kommunen afholder teoriprøve og praktisk prøve for elever, der har modtaget knallertundervisning
+Kommunen forsyner duplikatkørekort med en påtegning om det oprindelige udstedelsesland
+Kontrollerende køreprøve kan aflægges før frakendelsestidens udløb
+Korrektionen skal kunne tåles godt
 Kort før jul blev to unge kvinder brutalt myrdet under en ferie i Marokko.
+Kort indledning med afsæt i synopsen
 Kortet gælder som dokumentation for retten til ydelser efter loven
+Kurserne skal være forestået af instruktører registreret ved Dansk Førstehjælpsråd
+Kursister, der ikke følger disse regler, kan bortvises
 Kvinder, der regnes for mindre værd end mænd.
 Køreeleven kan afvises, hvis lektionsplanen ikke medbringes
+Køreeleven vil sædvanligvis have behov for at gennemgå flere lektioner
+Køreeleverne skal derfor være på samme undervisningsmæssige niveau i køreuddannelsen
+Kørekort udstedes af Rigspolitiet
+Kørekortets gyldighed fastsættes på grundlag af datoen for udstedelse
+Kørekortets nummer
+Kørekortets udløbsdato
+Kørekortets udstedelsesdato
+Kørelæreren skal opbevare lektionsplanen i mindst to år efter afslutningen af køreuddannelsesperioden
+Kørelæreren skal overvåge eleverne fra et efterfølgende køretøj
+Køreprøven består af en teoriprøve og en praktisk prøve
 Køreprøven består dog af en teoriprøve og en praktisk prøve
+Køreprøver, praktiske prøver og vejledende helbredsmæssige køretest afholdes af politiet
 Køretøjerne skal være ansvarsforsikrede
 Køretøjet skal ikke registreres, men anmeldes til Motorstyrelsen, inden det tages i brug
 Lad de små problemer blive løst hen ad vejen.
 Langsomt, men sikkert, nærmede katten sig den levnede mad.
+Lektionsplanen kan udfærdiges som en digital løsning
 Leverandørens anvisninger for sensoren skal følges
 Ligesom mange andre af min generation.
 Ligsyn foretages af en læge til afgørelse af, om dødsfald er indtrådt
 Livsglad og ung, jeg sad en aftenstund
+Lokal kamikult med ofringer i fokus
+Lægeattesten skal udstedes af ansøgerens sædvanlige læge eller anden speciallæge
+Lægeattesten skal være forsynet med lægens stempel og underskrift
 Lægemiddelstyrelsen afgørelse kan ikke indbringes for anden administrativ myndighed
 Lægemiddelstyrelsen har ikke hermed adgang til vaccinationsoplysninger om den enkelte borger
+Lægen udleverer en kopi af den underskrevne lægeattest til ansøgeren
 Man kan se hele København heroppefra.
+Man må ikke være vred
+Man skal beholde kristen etik og moral
+Man skal ikke bare gøre gode gerninger for at gøre dem
 Mange unge tager en uddannelse.
 Mangfoldighed betyder ikke, at vi skal glemme, hvem vi er.
 Maskinel slibning og andre støvfrembringende aktiviteter skal foregå indendørs og med etableret udsugning
 Med det ansvar, det giver for at se ud over egen næsetip.
+Med point for innovation
 Meddelelsen om udsættelse skal være begrundet
+Meddelte godkendelser bortfalder, hvis virksomheden foretager udvidelser eller ændringer, der medfører forøget forurening
+Men Herr Pasdeloup havde allerede vendt sig om.
 Men Tommelise græd og sagde, hun ville ikke have den kedelige muldvarp.
 Men Tommelise vidste, det ville bedrøve den gamle markmus, om hun således forlod hende.
 Men de fælles løsninger findes.
@@ -448,6 +672,7 @@ Men i teatret? det var ganske dejligt
 Men ingensinde var jeg rig, desværre!
 Men jeg tror også, at mange er enige med mig.
 Men lad mig stoppe her.
+Men nu tog hun Mod til sig.
 Men også foruroligende og mærket af historien.
 Men rejsekammeraten rystede på hovedet, og var ganske bedrøvet.
 Men selvros kan man ikke bruge til meget.
@@ -459,14 +684,19 @@ Menneskers frihed og ligeværd. Vi skal kæmpe for vores værdier.
 Mig hjalp Vorherre!
 Min bedstefars livssyn var præget af Første Verdenskrig.
 Min bedstemoders klogskab er bekendt
+Min egen fremtid? Ja, De ved, ens eget
+Min hund har fire ben.
 Mind mig om at tænde vaskemaskinen, når jeg kommer hjem.
 Ministeren fastsætter desuden regler om Statens Serum Instituts udsendelse af påmindelser
 Ministeren kan fastsætte nærmere vilkår for dispensation
+Modreaktion på statsbankerot
 Mosters briller.
 Muldvarpen stoppede nu hullet til, som dagen skinnede igennem, og fulgte så damerne hjem.
 Måned for måned kommer flere i job.
 Månen skinnede dejligt klart.
+Mødrene var rørte.
 Natten gik og den følgende dag med, der kom ingen bud efter galocherne.
+Navnet på den udstedende myndighed
 Nej, det skulle aldrig ske.
 Nej, hvor det var morsomt, hvad hun fik at se!
 Nej, jeg vil stå mig godt med direktionen.
@@ -478,15 +708,18 @@ Nu skulle Johannes til at gætte, hvad hun havde tænkt på.
 Nu steg solen frem af havet.
 Nu stødte han på en halvåben dør, hvor lyset faldt ud gennem sprækken.
 Nu trådte lille Claus på sin pose igen, så huden knirkede.
+Nu ville da kejseren selv se det, medens det endnu var på væven.
 Nu ville han rask tage hovedet tilbage, men det gik ikke.
 Når ligsyn er afsluttet, skal lægen udstede dødsattest
 Når vi vil bevare Danmark som et frit land.
 Når vi ønsker, at Danmark fortsat er et harmonisk land.
+Nærmere bestemmelser herom fastsættes i Færdselsstyrelsens retningslinjer for køreprøver
 Næste dag skulle der allerede gættes igen.
 Næste morgen sejlede skibet ind i havnen ved nabokongens prægtige stad.
 Obduktion må først foretages, når ligsyn er foretaget
 Obduktion må herefter foretages, såfremt afdødes nærmeste giver samtykke til indgrebet
 Obduktionen udføres af en sagkyndig læge, der udpeges af sundheds- og ældreministeren
+Og Jørgen laa og tænkte paa, hvad der vel var i Vejen med Batty.
 Og alle blomsterne kyssede hinanden, det var nydeligt at se!
 Og en dag som i dag med god blæst dækker vindmøller hele vores elforbrug.
 Og håbet om frihed blev tændt i hele Europa.
@@ -496,81 +729,131 @@ Og vi skal stille krav til alle, der er her.
 Oh, denne skuen gør mig halv beruset!
 Oh, det ville blive et skrækkeligt vejr! derfor tog matroserne sejlene ind.
 Oh, gid De kunne komme op at se!
+Om aftnen skulle gives en forestilling på det lille teater i Kannikestræde.
 Om morgnen spurgte de hende, hvorledes hun havde sovet.
 Om nødvendigt kan myndigheden anmode politiet om at yde bistand ved kontrollen
 Området skal kunne rumme indholdet af den største opbevaringsenhed i området
 Opdrager deres børn til demokratiske borgere. Til at tage en uddannelse.
+Opmanden kan tilkalde særligt sagkyndige til at bistå ved sagens behandling
+Opnå viden om et emne
+Optisk korrektion med briller må ikke overstige plus otte dioptrier
 Overdragelse af tandlægens tilgodehavende kan ikke finde sted
 Overlægen skal snarest muligt tage stilling til denne beslutning
 Overtrædelser, der begås af uagtsomhed, straffes ikke
+Patientens tilkendegivelser skal, i det omfang de er aktuelle og relevante, tillægges betydning
 Patientinddragelsesudvalget består af medlemmer, som er udpeget af patient- og pårørendeorganisationer
 Patientkontorerne udarbejder årsberetninger for deres virksomhed
+Personer, der bedømmer prøven, benævnes i det efterfølgende censor
 Peter var ikke nogen almindelig kanin.
 Planen skal vedtages af henholdsvis regionsrådet og kommunalbestyrelsen i et møde
 Politiet er over det hele.
+Politiet kan i ganske særlige tilfælde dispensere fra fristen
+Politiet kan i ganske særlige tilfælde dispensere fra tidsfristen
+Politiet kan i ganske særlige tilfælde give tilladelse til, at teoriprøven aflægges tidligere
+Politiet kan inddrage et beskadiget eller slidt kørekort
 Politiet kan inddrage meddelte godkendelser
+Politiet skal vejlede den pågældende om retten til prøvelse
 Politikeren viste ingen tegn på empati.
 Politikerne tror, at hash forsvinder, hvis man forbyder det.
 Portklokken kunne han ikke nå, hvorledes skulle han dog slippe løs.
 Praksisplanen skal revideres i valgperioden, hvis der sker væsentlige ændringer i dens forudsætninger
 Prinsessen nejede ganske dybt, og sagde, hun skulle ikke glemme øjnene.
+Prisen skal svare til kommunens faktiske udgifter ved at levere behandlingen
+Programmet varer cirka tre kvarter
 Præsterne svingede røgelseskar og brud og brudgom rakte hinanden hånden og fik biskoppens velsignelse.
 Prøv at ringe til hende.
 På alle altre brændte duftende olie i kostelige sølvlamper.
+På grund af problemets alvor må der udvises stor årvågenhed fra lægeside
 På tværs af politisk ståsted. Og på tværs af landegrænser.
+På øvelsespladsen skal forefindes mobilt eller stationært markeringsmateriel
 Raketter skød til vejrs.
+Redegør for de kvantemekaniske principper
+Regionsrådet har ansvaret for at varetage sygehusvæsenets opgaver
 Regionsrådet indsender planen og senere ændringer heri til Sundhedsstyrelsen
 Regionsrådet indsender sundhedsaftalen til Sundhedsstyrelsen
 Regionsrådet kan tilbyde en patient henvisning til behandling i udlandet
 Regionsrådet skal registrere regionens sygehusenheder hos centrale sundhedsmyndigheder
 Regionsrådet udarbejder en samlet plan for tilrettelæggelsen af regionens virksomhed på sundhedsområdet
 Regionsrådet varetager formandskabet og sekretariatsbetjener udvalget
+Regionsrådet yder forebyggende helbredsundersøgelser hos en jordemoder og jordemoderhjælp ved fødsel i hjemmet
+Regionsrådet yder tilskud til behandling hos fodterapeut efter lægehenvisning
+Regionsrådet yder tilskud til behandling hos fysioterapeut efter lægehenvisning
 Regionsrådet yder tilskud til behandling hos kiropraktor
 Regionsrådet yder tilskud til behandling hos psykolog efter lægehenvisning
 Regionsrådet yder vederlagsfri vaccination mod visse sygdomme
 Regnen skyllede ned, ikke et menneske var at se på gaden.
+Resultatet af teoriprøven skal straks efter prøvens bedømmelse meddeles ansøgeren
 Retslægeligt ligsyn foretages af politiet og Styrelsen for Patientsikkerhed i forening
+Retten kan ikke inddrages af politiet uden samtidig inddragelse af den almindelige førerret
 Rettens afgørelse træffes ved kendelse
 Ring til min kone.
+Romerbrevet, Galaterbrevet og de to korinterbreve
 Rundet af samme muld.
 Røgmanden dansede så ganske alene, og det var ikke så dårligt!
 Rør til overrisling af glatførebaner skal således være forsænket i banerne
 Sagen behandles efter strafferetsplejens regler
 Samme dag blev han udskrevet igen, men galocherne blev på hospitalet.
 Samrådets afgørelse kan af den gravide indbringes for ankenævnet
+Samrådets afgørelse kan indbringes for ankenævnet af ansøgeren, forældremyndighedens indehaver og værgen
+Samrådets afgørelse kan indbringes for ankenævnet af den gravide eller forældremyndighedens indehaver
+Samrådets afgørelse kan indbringes for ankenævnet af den gravide eller værgen
 Samtykket eller tilkendegivelsen skal indføres i patientjournalen
 Samtykket skal indføres i patientjournalen
 Se det var den samtale.
 Se, det var en rigtig historie!
 Set på den baggrund er Danmark et harmonisk land.
+Sikken et forsuttet bolsje
+Skal destruktion finde sted, er sundhedspersonen forpligtet til at sørge herfor
+Skal du have noget på den frække
+Skal gerne have den færdig til i aften
 Skal tankens jakobsstige gå itu?
+Skal udlevering finde sted, er sundhedspersonen forpligtet til at sørge herfor
 Skal vi så ikke bare komme i gang?
+Små sorte nisser, med en lygtemand på huen, dansede rundt i salen.
 Solnedgangen og den grå himmel gjorde ham døsig.
 Sophie lå i skuffen, hvor hun havde lagt hende, hun så meget søvnig ud.
 Sorgen forsvandt, men også galocherne; hun har vist betragtet dem som sin ejendom.
 Spardame ser jeg der med megen vægt
 Spildevand fra disse arealer skal passere egnet olieudskiller
+Stamkortet underskrives, når den praktiske prøve er bestået
+Staten afholder udgifter til kastration
 Stor, alvorlig og mørk var den hele natur rundt om.
+Styreapparatet skal kunne betjenes let, sikkert og hurtigt
+Styrelsen for Patientsikkerhed koordinerer patientkontorernes virksomhed vedrørende grænseoverskridende sundhedsydelser
 Styrelsen for Patientsikkerhed orienterer desuden offentligheden, når særlige sundhedsmæssige forhold gør det nødvendigt
 Styrelsen for Patientsikkerhed vejleder om udførelsen af sundhedsfaglige opgaver inden for styrelsens område
 Står jeg kun op, som græs i Dødens have?
 Sundheds- og ældreministeren fastsætter beløbets størrelse
+Sundheds- og ældreministeren fastsætter de nærmere regler herom
 Sundheds- og ældreministeren fastsætter forretningsordenen for samrådene og ankenævnet
 Sundheds- og ældreministeren fastsætter gebyrets størrelse
+Sundheds- og ældreministeren fastsætter nærmere regler herom
 Sundheds- og ældreministeren fastsætter nærmere regler om de indsatsområder, sundhedsaftalerne skal omfatte
+Sundheds- og ældreministeren fastsætter nærmere regler om informationens form og indhold
+Sundheds- og ældreministeren fastsætter nærmere regler om kodning og datafangst
 Sundheds- og ældreministeren fastsætter nærmere regler om modtagelse, beregning og udbetaling af begravelseshjælpen
+Sundheds- og ældreministeren fastsætter nærmere regler om samtykkets form og indhold
 Sundheds- og ældreministeren fastsætter nærmere regler om tilbageholdelse og om indberetning
+Sundheds- og ældreministeren fastsætter nærmere regler om tilbuddet om brystundersøgelse
+Sundheds- og ældreministeren fastsætter nærmere regler vedrørende koordinationen
+Sundheds- og ældreministeren fastsætter regler om gebyrer for registrering af livstestamenter
 Sundheds- og ældreministeren kan fastsætte en forretningsorden for Medicintilskudsnævnet
+Sundheds- og ældreministeren kan fastsætte nærmere regler herom
+Sundheds- og ældreministeren kan fastsætte nærmere regler om patientkontorernes opgaver og funktioner
+Sundheds- og ældreministeren kan fastsætte nærmere regler om regionernes benyttelse af sådanne institutioner
 Sundheds- og ældreministeren kan fastsætte nærmere regler om regionsrådenes oplysningspligt
 Sundheds- og ældreministeren kan fastsætte regler om krav til kvalitet i sundhedsvæsenet
+Sundheds-og Ældreministeriet yder sekretariatsbistand til voldgiftsnævnet
 Sundhedsstyrelsen godkender lands- og landsdelsfunktioner på regionale og private sygehuse
 Sundhedsstyrelsen nedsætter et rådgivende udvalg for specialeplanlægning
 Sundhedsstyrelsen orienterer offentligheden, når særlige sundhedsmæssige forhold gør det nødvendigt
 Sundhedsstyrelsen udpeger de øvrige medlemmer samt suppleanter herfor
 Sundhedsstyrelsens afgørelse kan indbringes for sundheds- og ældreministeren
+Supplerende oplysninger samt eventuelle vilkår og begrænsninger i kørekortet
 Så bliver nutiden bedre end fortiden. Og fremtiden – den bliver endnu bedre.
 Så gik de endnu et godt stykke.
 Så huggede soldaten hovedet af hende.
+Så jeg kan tage min beskyttelse med ind i salen
 Så kom de til de varme lande.
 Så kom hun til markmusens dør.
 Så kunne de da nok se, det kunne ikke hjælpe noget at de søgte.
@@ -584,6 +867,8 @@ Så ømskindet kunne der ingen være, uden en virkelig prinsesse.
 Sådan en nytårsnat kan man godt føle sig tæt forbundet med resten af verden.
 Sådan fordærvede han den gode Pølse.
 Sådan hænger det sammen for mig.
+Såfremt køreprøven ikke bestås, inddrages kørekortet
+Såfremt væsentlige driftsmæssige hensyn tilsiger det, kan ændringerne dog foretages uden forudgående aftale
 Således kom hun snart igennem skoven, mosen og de brusende malstrømme.
 Således varede det ved, lige til Solen stod op.
 Særregler for ghettoområder. Færre, der kommer hertil og søger asyl.
@@ -591,31 +876,62 @@ Tak du Gud for ham!"
 Taksten pris- og lønreguleres på samme måde som bloktilskuddet til regionerne
 Tandlægen skal samtidig informere patienterne herom
 Teatret da? - Hver nyhed? Smagen? Tonen?
+Teoriprøven afholdes af politiet
+Teoriprøven bedømmes dog strengere
 The Beatles bestod af fire fyre fra Liverpool, men alle kender deres sange nu.
+Tidligere meddelte påbud vedrørende autoværksteder omfattet af denne bekendtgørelse bevarer deres gyldighed
 Tidsfristen gælder separat for hvert høreapparat
 Til sidst var drikken færdig, den så ud som det klareste vand!
 Tilbageholdelse kan kun ske, hvis mindre indgribende foranstaltninger er utilstrækkelige
+Tilbageholdelse og tilbageførsel kan alene ske, såfremt patienten befinder sig på sygehusets område
+Tilkendegivelsen kan være mundtlig eller skriftlig og skal indføres i patientjournalen
+Tilkendegivelsen meddeles den sundhedsperson, der er ansvarlig for oplysningerne, eller behandlingsstedet
+Tilladelse kan blandt andet betinges af, at ansøgeren aflægger en kontrollerende køreprøve
 Tilladelse kan kun gives, hvis der er enighed herom i samrådet eller ankenævnet
+Tilladelse til kastration gives af Sundhedsstyrelsen
 Tilladelsen skal medbringes under kørslen
+Tilsvarende gælder for en digital lektionsplans log
 Tilsvarende krav gælder, hvis der anvendes et tagskilt
 Titlen var:
+To brød der sværmer om hinanden som sild i en tønde
+To personer der er fysisk tæt på hinanden
 To piger kom ind, den ene havde to kulører i huen.
+Tolken leveres af en af Rigspolitiet udvalgt leverandør
 Tommelise var så bedrøvet.
+Transistoren er grundbyggestenen for computeren
 Træder tilbage fra sine internationale forpligtelser og forlader klimaaftalen fra Paris.
 Tænk du på din ene sko.
 Tænk på din veninde.
+Tørfiltre skal være forsynet med differenstrykmåler til måling af trykfaldet over filtermaterialet
 Udbetaling Danmark behandler ansøgninger om begravelseshjælp
 Ude i verden sker der også fremskridt: Færre sulter.
+Udgifterne til fremskaffelse af oversættelsen afholdes af ansøgeren
+Udløbsdatoen for hver enkelt kategori
+Udstedelsesdatoen for hver enkelt kategori
 Udstødningsgas, rensemiddeldampe og svejserøg skal udsuges fra indendørs lokaliteter
 Udsugningsanlægget må ikke anvendes til udsugning af organiske opløsnings- eller fortyndingsmidler
+Udsugningsanlægget må ikke anvendes til udsugning af støv fra slibe- og svejseaktiviteter
+Udtalelsen kan indeholde en anbefaling om afholdelse af vejledende helbredsmæssig køretest
 Uglen slog på tromme, fårekyllingerne peb og de sorte græshopper blæste på mundharpe.
 Uh! Dér sad hunden med øjnene, så store som tekopper og gloede på ham.
+Under kørslen skal kørelæreren kunne overvåge eleverne forsvarligt
 Underkategorierne er anført i parentes efter kodens indhold i kolonnen »Betydning«
 Undersøgelsen skal så vidt muligt være afsluttet inden den følgende afregningsmåned
+Underviseren må ikke meddele den enkeltes resultat til andre
+Undervisningen i teori og praktik skal integreres og skal følge undervisningsplanens afsnitsopdeling
+Undervisningen skal følge undervisningsplanens afsnitsopdeling
+Ups, han er vist ikke helt appelsinfri
+Ved afholdelse af teoriprøven skal ansøgningsblanketten og eventuelt tidligere udstedt kørekort medbringes
+Ved aflæggelse af køreprøve til erhvervsmæssig personbefordring kan der ikke benyttes tolk
 Ved afregning er regionsrådets beregninger gældende
+Ved behandlingen af en voldgiftssag deltager opmanden samt de to voldgiftsmænd
 Ved beregning af tilskud anvendes lægemidlets tilskudspris
 Ved bopæl forstås tilmelding til Folkeregisteret
+Ved enhver senere fornyelse eller ombytning af kørekortet skal påtegningen gentages
+Ved køreuddannelsesperioden forstås den periode, hvori ansøgeren er under køreuddannelse
+Ved lakering skal farvepartikler i afkastluften frafiltreres
 Ved ligsynet skal dødstegn iagttages, og dødsmåde og dødsårsag så vidt muligt fastslås
+Ved undervisning af én elev kan kørelæreren overvåge kørslen fra motorcyklens bagsæde
 Ved undervognsbehandling skal olietåge frafiltreres
 Vejledning kan tilbydes og ydes til mindreårige uden samtykke fra forældremyndighedsindehaveren
 Vel vidende, at de nemme løsninger ikke holder.
@@ -629,10 +945,14 @@ Vi skal høre det.
 Vi skal også stå sammen om at løse klimaforandringerne.
 Vi skal stå sammen om vores frie samfund.
 Vi spiser tidligt. Hvis det er okay?
+Vi vil forsøge.
 Vi vil kalde dig Maja!"
 Videregivelse af oplysninger skal indføres i patientjournalen
+Vil De maaske være saa venlig at tage hjem og klæde Dem om.
+Vil du lide alt dette, så skal jeg hjælpe dig?"
 Vil du være med til at lege?
 Viljen til samarbejde.
+Voldgiftsnævnets afgørelse kan ikke indbringes for anden administrativ myndighed
 Vores bange anelser er blevet bekræftet.
 Vores udvikling næres af udsyn.
 Vores velstand kommer fra handel med andre lande.
@@ -650,16 +970,26 @@ afsnit: Særlige risikoforhold
 afsnit: Trafikantadfærd
 alene for at se - gå dog ej bort!
 begyndte hun og gav mig sine briller
+begået på lille knallert
+bekendtgørelse om kvalifikationskrav til visse førere af køretøjer i vejtransport
+da jeg endnu var knap en alen lang.
 da kom min sorg ej på papiret ned!
 da var jeg rig, men ej på guld desværre
 det ved Vorherre!
 dit spor er jo kun kirkegårdens grave.
 dog jer er fattig, derfor tavs desværre
+en syvårs pige kyssede min mund
 end jorden, som de kaster på din kiste!
 fik mig en sabel, uniform og fjer.
+finder kun anvendelse i forhold til kørsel i Danmark
 finder tilsvarende anvendelse på ambulancebehandlere, apotekere og apotekspersonale
+gear, kombineret med enten opbremsning eller svingning om hjørner
 har sine tanker vendt til ruder knægt.
+hej med dig
 hun er så smuk, så klog, så ejegod.
+hunden hedder fido
+hunden løber på fire ben
+hver især eller i forening indbringe tvisten for et voldgiftsnævn
 hvis nu jeg sladrer, skader jeg jo bladet
 i den efterfølgende måned
 i en måned
@@ -682,22 +1012,33 @@ men barnet brød sig kun om eventyr
 men hun vil aldrig rigtig ud med sproget.
 men, tænkte jeg, hvor mon de fleste kommer?
 min egen skæbne, kunstens, land og riges
+mor og far skal på arbejde
+nej — jeg turde ikke.
 nu er den syvårs pige vokset ud
 nu vil vi se, hvad kortene kan sige.
 og fremmede fra verdens anden side.
 og sådannes efterladte
 omfattet af tilsynet
+oplæser spørgsmålene eller hjælper med at afkrydse rubrikkerne efter ansøgerens tilkendegivelse
 smukke pige, vend dig om.
 som dataansvarlig
 som sundhedsmyndighed
+svangerskabsuge og fosterreduktion må kun foretages af læger på regionale sygehuse
 så vil Vorherre!
 thi jeg var rig på sagn og eventyr
 til Styrelsen for Patientsikkerhed
 tillader De, jeg bruger mosters briller
+udpeger en voldgiftsmand
 undgås ved rigtig betjening og vedligeholdelse af traktoren
 var man i "gammel tid," blev hun vist brændt.
 ved dødsfald til søs
 ved mindste praktiske belastning af udsugningsanlægget
+Årsagen til fraværet har ingen betydning
 Årsberetningerne indsendes til sundheds- og ældreministeren
+Ændrer kørelæreren i en allerede bekræftet lektion, skal ændringen godkendes af køreeleven
 Øjebliksbilledet er flimrende og porøst.
 Ønsket om fred.
+Øv, jeg har høfeber
+Øvelseskørsel til motorcykel må kun finde sted med højst tre elever ad gangen
+Øvelsespladsens manøvreafsnit skal omfatte en sammenhængende bane, som løber langs øvelsespladsens yderkanter
+Øverst i forsidens midte er ordet »kørekort« trykt i blåt med store bogstaver

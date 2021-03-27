@@ -1,12 +1,14 @@
 ## General
 
 yes-receive-emails = Oo, magpadala sa akin ng mga email. Gusto kong manatiling may kaalaman tungkol sa Common Voice Project.
+stayintouch = Kami sa Mozilla ay bumubuo ng komunidad ng teknolohiya sa boses. Gusto naming manatiling may-ugnayan sa mga kaganapan, bagong mapagkukunan ng data, at makarinig pa tungkol sa kung papaano mo ginagamit ang data na ito.
 privacy-info = Kami ay nangangako na pangalagaan ang iyong impormasyon. Magbasa pa sa aming <privacyLink> Abiso sa Pagkapribado </privacyLink>.
 return-to-cv = Bumalik sa Common Voice
 email-input =
     .label = Email
 submit-form-action = Ipadala
 loading = Loading…
+email-opt-in-info = Gusto kong makatanggap ng email katulad ng mga paalala sa layunin, aking kaganapang pag-unlad, at mga newsletter tungkol sa Common Voice.
 email-opt-in-info-title = Sumali sa mailing list ng Common Voice
 indicates-required = * Nangangahulugang kailangang patlang
 not-available-abbreviation = N/A
@@ -60,10 +62,11 @@ ga-IE = Irish
 gl = Galician
 ha = Hausa
 he = Hebreyo
-hi-IN = Hindi
+hi = Hindi
 hr = Croatian
 hsb = Sorbian, Upper
 hu = Hungarian
+hy-AM = Armenian
 ia = Interlingua
 id = Indonesian
 is = Icelandic
@@ -77,7 +80,6 @@ kbd = Kabardian
 kk = Kazakh
 ko = Korean
 kpv = Komi-Zyrian
-ku = Kurdish
 kw = Cornish
 ky = Kyrgyz
 lg = Luganda
@@ -91,6 +93,7 @@ mk = Macedonian
 ml = Malayalam
 mn = Mongolian
 mrj = Hill Mari
+ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
@@ -175,6 +178,7 @@ listen-goal-text = Mga clip na napagtibay na
 hours-recorded = Mga Naitalang Oras
 hours-validated = Bilang ng Oras na Napagtibay
 voices-online = Mga Tinig na Online Ngayon
+todays-progress = Nagawa ngayong araw
 help-reach-goal = Tulungan kaming makamit ang goal na { $goal }
 read-terms-q = Nabasa mo na ba ang mga Takda?
 ready-to-record = Handa ka na bang ipagkaloob ang iyong tinig?
@@ -193,6 +197,7 @@ x-years-short =
     { $count ->
        *[other] { $count }y
     }
+sign-up-account = Mag-sign up para sa account
 
 ## Account Benefits
 
@@ -234,6 +239,9 @@ request-language-button = Humiling ng Wika
 ## ProjectStatus
 
 status-contribute = Ibahagi ang Iyong Tinig
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Susunod na mga layunin: { $goal }
 english = English
 
 ## ProfileForm
@@ -248,7 +256,7 @@ profile-form-accent =
     .label = Punto
 profile-form-age =
     .label = Edad
-profile-form-gender =
+profile-form-gender-2 =
     .label = Kasarian
 hidden = Nakatago
 visible = Makikita
@@ -263,26 +271,31 @@ other = Ibang Kasarian
 why-profile-title = Bakit isang profile?
 dashboard = Dashboard
 avatar = Avatar
+goals = Mga layunin
 settings = Mga Setting
 profile-close = Isara
 profile-explanation = Subaybayan ang iyong pag-unlad gamit ang iyong profile at tulungan ang aming data ng mga boses na mas maging tama.
 thanks-for-account = Salamat sa pagkumpirma ng iyong account, ngayon gawin natin ang iyong profile.
 why-demographic = Bakit ito nararapat?
+accept-privacy-title = Patakarang Pangpribasiya
 login-signup = Log In / Sign Up
 edit = i-Edit
+email-subscriptions = Mga Subscription sa Email
 off = Off
 on = On
 retry-voice-wave-recording = SUBUKAN MULI
+re-record = I-RECORD ULIT
 delete-voice = BURAHIN
+recording-voice-wave = Nagrerecord
 ready-to-upload = I-UPLOAD
 cancel-avatar-clip-recording = KANSELAHIN
 add-language = Magdagdag ng Wika
 
 ## FAQ
 
-faq-title = Frequently Asked Questions
+faq-title = Mga kadalasang tinatanong
 faq-what-cv-q = Ano ang Common Voice?
-faq-why-important-q = Bakit it mahalaga?
+faq-why-important-q = Bakit ito mahalaga?
 faq-why-mission-q = Bakit kasama sa misyong ng Mozilla ang Common Voice?
 faq-what-cv-and-deepspeech-q = Ano ang pinagkaiba ng Common Voice at Deep Speech?
 faq-why-my-lang-q = Bakit hindi kasama ang aking wika?
@@ -315,9 +328,8 @@ localization = Lokalisasyon
 sentence-collection = Pagkalap ng mga Pangungusap
 sst = Speech-to-text (STT)
 
-## NotFound
+## Error pages
 
-notfound-title = Hindi makita
 
 ## Data
 
@@ -326,6 +338,8 @@ data-download-yes = Oo
 data-download-deny = Hindi
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-other-goto = Pumunta sa { $name }
+release-version = Bersyon
+dataset-date = Petsa
 license-mixed = Magkahalo
 terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon
@@ -412,7 +426,6 @@ easy-difficulty = Madali
 average-difficulty = Katamtaman
 difficult-difficulty = Mahirap
 pro-difficulty = Pro
-n-clips = { NUMBER($count) } mga clip
 help-share-goal = Tulungan kaming humanap ng mas marami pang mga tinig, ibahagi ang iyong mga layunin
 goal-interval-weekly = Linguhan
 share-goal-type-speak = Nagsasalita
@@ -426,3 +439,20 @@ profile-form-delete = Burahin ang Profile
 ## Landing
 
 welcome-staff = Mabuhay ang mga kawani ng { $company }!
+
+## DemoLayout
+
+
+## Demo Datasets
+
+card-button-next = Susunod
+card-button-back = Balik
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

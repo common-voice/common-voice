@@ -33,14 +33,18 @@ as = Assamesiska
 ast = Asturiska
 az = Azerbajdzjanska
 ba = Basjkiriska
+bas = Basaa
 be = Vitryska
 bg = Bulgariska
+bm = Bambara
 bn = Bengaliska
 br = Bretonska
 bxr = Buryat
 ca = Katalanska
 cak = Cakchiquel
+ckb = Centralkurdiska
 cnh = Burmesiska
+co = Korsikanska
 cs = Tjeckiska
 cv = Tjuvasjiska
 cy = Walesiska
@@ -62,11 +66,13 @@ fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
 gl = Galiciska
+gn = Guarani
 ha = Hausa
 he = Hebreiska
 hi = Hindi
 hr = Kroatiska
 hsb = Högsorbiska
+ht = Haitiska
 hu = Ungerska
 hy-AM = Armeniska
 hyw = Armenisk västerländska
@@ -81,22 +87,26 @@ kaa = Karakalpakiska
 kab = Kabyliska
 kbd = Kabardinska
 kk = Kazakstanska
+kmr = Kurmanji kurdiska
 ko = Koreanska
 kpv = Komi-syrjänska
-ku = Kurdiska
 kw = Korniska
 ky = Kirgiziska
 lg = Luganda
 lij = Liguriska
 lt = Litauiska
 lv = Lettiska
+mai = Maithili
 mdf = Moksha
 mg = Malagassiska
 mhr = Östmariska
 mk = Makedonska
 ml = Malayalam
 mn = Mongoliska
+mos = Mossi
+mr = Marathi
 mrj = Västmariska
+ms = Malajiska
 mt = Maltesiska
 my = Burmesiska
 myv = Erzya
@@ -107,7 +117,9 @@ nn-NO = Norska, nynorska
 oc = Occitanska
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polska
+ps = Pashto
 pt = Portugisiska
 rm-sursilv = Rätoromanska
 rm-vallader = Rätoromanska Vallader
@@ -117,9 +129,11 @@ rw = Kinyarwanda
 sah = Sakha
 sc = Sardiska
 scn = Sicilianska
+shi = Shilha
 si = Singalesiska
 sk = Slovakiska
 sl = Slovenska
+so = Somaliska
 sq = Albanska
 sr = Serbiska
 sv-SE = Svenska
@@ -134,12 +148,14 @@ tr = Turkiska
 tt = Tatariska
 uby = Ubychiska
 udm = Udmurtiska
+ug = Uiguriska
 uk = Ukrainska
 ur = Urdu
 uz = Uzbekistanska
 vec = Venetianska
 vi = Vietnamesiska
 vot = Votiska
+yue = Kantonesiska
 zh-CN = Kinesiska (Kina)
 zh-HK = Kinesiska (Hong Kong)
 zh-TW = Kinesiska (Taiwan)
@@ -238,7 +254,7 @@ whats-public = Vad är offentligt?
 email-not-public = Vi kommer inte göra din e-post offentlig.
 recordings-and-locale-public = Antalet inspelningar och vilka språk du bidrar till kommer att vara offentligt.
 username-optin-public = Du kan välja att göra ditt användarnamn offentligt eller anonymt.
-demographic-deidentified-clarity = Valfritt inskickade demografiska data (t.ex. ålder, kön, språk och accent) kommer aldrig att offentliggöras i din profil och kommer inte att länkas till ditt konto i datamängden. Enskilda ljudklipp kommer att associeras med demografiska data i syfte att göra en mer exakt analys - till exempel kan en forskare inrikta sig på en träningsmodell till ett specifikt demografiskt segment.
+demographic-deidentified-clarity-2 = Valfritt inskickade demografiska data (t.ex. ålder, kön, språk och accent) kommer aldrig att offentliggöras i din profil och kommer inte att länkas till ditt konto i datamängden. Enskilda ljudklipp kommer att associeras med demografiska data i syfte att göra en mer exakt analys - till exempel kan en forskare inrikta sig på en träningsmodell till ett specifikt demografiskt segment.
 username-email-not-demographic = Ditt användarnamn och e-post kommer inte att kopplas till den publicerade datan.
 
 ## Speak & Listen Shortcuts
@@ -268,6 +284,7 @@ shortcut-record-toggle-label = Spela in/Stoppa
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spela in klipp igen
 request-language-text = Kan du inte se ditt språk på Common Voice än?
+request-language-text-learn = Lär dig hur du kan begära det här!
 request-language-button = Skicka en förfrågan
 
 ## ProjectStatus
@@ -296,7 +313,7 @@ profile-form-accent =
     .label = Dialekt
 profile-form-age =
     .label = Ålder
-profile-form-gender =
+profile-form-gender-2 =
     .label = Kön
 leaderboard-visibility =
     .label = Synlighet på topplista
@@ -323,7 +340,7 @@ profile-close = Stäng
 profile-explanation = Håll reda på dina framsteg med en profil och hjälp vår röstdata att bli mer exakt.
 thanks-for-account = Tack för att du har bekräftat ditt konto, nu bygger vi din profil.
 why-demographic = Vad innebär det?
-why-demographic-explanation = Anonymiserade användardata som ålder, kön och accent hjälper till att förbättra ljuddata som används för att träna noggrannheten för taligenkänningsmotorer. Ditt användarnamn och e-post kommer aldrig att kopplas till dina inlämnade data, och du kan välja om du vill göra ditt användarnamn offentligt eller anonymt.
+why-demographic-explanation-2 = Anonyma användardata som ålder, kön och accent hjälper till att förbättra ljuddata som används för att träna noggrannheten hos taligenkänningsmotorer. Ditt användarnamn och e-post kommer aldrig att kopplas till dina inlämnade data och du kan välja om du vill göra ditt användarnamn offentligt eller anonymt.
 accept-privacy = Jag är okej med att du hanterar denna information som du förklarar i Mozillas <privacyLink>sekretesspolicy</privacyLink>
 accept-privacy-title = Sekretesspolicy
 login-identity = Inloggningsidentitet
@@ -507,10 +524,12 @@ data-other-goto = Gå till { $name }
 data-other-download = Ladda ner data
 data-bundle-button = Ladda ner Dataset-paket
 data-bundle-description = Common Voice data plus alla andra röstdatamängder ovan.
+release-version = Version
+dataset-date = Datum
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandat
 data-download-singleword-title = Ladda ner målsegmentet för ett ord
-data-download-singleword-callout = Detta är ett användningsfallsdrivet segment som innehåller data för att driva taligenkänning, ja/nej-upptäckt och wakeword-testdata för <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Detta är ett användningsfallsdrivet segment som innehåller data för att möjliggöra taligenkänning och ja/nej-detektering.
 review-terms = Genom att använda Common Voice godkänner du våra <termsLink>villkor</termsLink> och <privacyLink> sekretesspolicy</privacyLink>
 terms-agree = Jag håller med
 terms-disagree = Jag håller inte med
@@ -682,6 +701,7 @@ share-title-new = <bold>Hjälp oss</bold> hitta mer röster
 keep-track-profile = Håll koll på dina framsteg med en profil
 login-to-get-started = Logga in eller registrera dig för att komma igång
 target-segment-first-card = Du bidrar till vårt första målsegment
+target-segment-generic-card = Du bidrar till ett målsegment
 target-segment-first-banner = Hjälp till med att skapa Common Voice första målsegment i { $locale }
 target-segment-add-voice = Lägg till din röst
 target-segment-learn-more = Läs mer
@@ -846,3 +866,39 @@ help-contribute = Du kan hjälpa till att bygga en mångsidig, öppen datamängd
 login-company = Logga in / registrera dig med { $company } e-post
 profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
 read-more-about = Läs mer på vår om sida
+
+## DemoLayout
+
+demo-get-started = Låt oss börja
+demo-welcome = Välkommen till Common Voice
+demo-welcome-subheader = Intresserad av att lära dig mer och bidra till projektet?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice är världens största allmänt tillgängliga, flerspråkiga röstdatamängd.
+demo-language-select-card-body = Tack vare bidrag från över 259 000 personer på över 50 språk används dessa data för att träna talaktiverade applikationer för att bättre svara på den mänskliga rösten.
+card-button-next = Nästa
+card-button-back = Tillbaka
+demo-language-select-label = Bläddra bland språk
+demo-eofy-header = 2019 End-of-Year Release
+demo-eofy-sub_header = Röstdatamängd, redo för nedladdning
+demo-account = Konto
+
+## Demo Account
+
+demo-account-card-header = Att ha ett konto krävs inte för att bidra, men det är till hjälp.
+demo-account-card-body = Till höger beskriver vi fördelarna och klargör vilken information vi offentliggör. Använd länkarna nedan för att komma igång med ett Common Voice-konto på din egen enhet.
+demo-account-enter-email =
+    .label = Ange e-post för att skicka en registreringslänk
+demo-account-sign-up = Skicka registreringslänk
+
+## Demo Contribute
+
+demo-contribute-card-header = Är du redo att lägga till din röst eller använda örat?
+demo-contribute-card-body-v2 = Nu när du vet lite mer om Common Voice, varför inte prova det? Klicka på mikrofonikonen för att börja läsa in meningar högt. <br/><br/>Om du föredrar att granska andras röstbidrag, klicka på uppspelningsikonen. Du hjälper till att bekräfta att inspelningar matchar meningarna skrivna på skärmen.
+demo-listen-subtitle = Redo att bidra?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Personliga översikten håller dig uppdaterad om individuella och gemensamma framsteg.
+demo-dashboard-card-body = För varje donerat röstklipp och validerat ljudklipp uppdateras översikten för att återspegla dina senaste framsteg på varje språk du bidrar till. Ja, du kan bidra till mer än ett!<br/><br/> Använd översikten för att spåra din statistik, se hur du arbetar tillsammans med andra i gemenskapen och ställ in dagliga eller veckovisa bidragsmål.

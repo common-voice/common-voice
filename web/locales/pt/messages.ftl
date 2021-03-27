@@ -83,7 +83,6 @@ kbd = Kabardiano
 kk = Cazaque
 ko = Coreano
 kpv = Komi-Zyrian
-ku = Curdo
 kw = Córnico
 ky = Quirguiz
 lg = Luganda
@@ -97,6 +96,7 @@ mk = Macedônio
 ml = Malaiala
 mn = Mongol
 mrj = Hill Mari
+ms = Malaio
 mt = Maltês
 my = Birmanês
 myv = Erzya
@@ -140,6 +140,7 @@ uz = Usbeque
 vec = Veneziano
 vi = Vietnamita
 vot = Vótico
+yue = Cantonês
 zh-CN = Chinês (China)
 zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
@@ -235,7 +236,6 @@ whats-public = O que é público?
 email-not-public = Não deixaremos público seu endereço de e-mail.
 recordings-and-locale-public = O número de gravações e para quais idiomas você contribuir serão públicos.
 username-optin-public = Você pode escolher deixar seu nome de usuário público ou anônimo.
-demographic-deidentified-clarity = Dados demográficos enviados opcionalmente (como idade, sexo, idioma e sotaque) nunca serão publicados no seu perfil e nem associados à sua conta no conjunto de dados. Clipes de áudio individuais serão associados a dados demográficos para fins de análises mais precisas - por exemplo, um pesquisador pode querer direcionar um modelo de treino para um segmento demográfico específico.
 username-email-not-demographic = Seu nome de usuário e e-mail não serão associados com os dados publicados.
 
 ## Speak & Listen Shortcuts
@@ -293,7 +293,7 @@ profile-form-accent =
     .label = Sotaque
 profile-form-age =
     .label = Idade
-profile-form-gender =
+profile-form-gender-2 =
     .label = Gênero
 leaderboard-visibility =
     .label = Visibilidade no quadro de líderes
@@ -320,7 +320,6 @@ profile-close = Fechar
 profile-explanation = Acompanhe o seu progresso com um perfil e ajude que as gravações sejam cada vez mais precisas.
 thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir seu perfil.
 why-demographic = Por que isto é importante?
-why-demographic-explanation = Dados anônimos de usuários, como idade, sexo e sotaque, ajudam a aprimorar os dados de áudio usados para treinar a precisão dos mecanismos de reconhecimento de voz. Seu nome de usuário e e-mail nunca serão associados com os dados enviados, e você pode escolher se seu nome de usuário ficará público ou anônimo.
 accept-privacy = Concordo que estas informações sejam utilizadas conforme explicado na <privacyLink>Política de Privacidade</privacyLink> da Mozilla.
 accept-privacy-title = Política de privacidade
 login-identity = Identidade de acesso
@@ -504,10 +503,11 @@ data-other-goto = Ir para { $name }
 data-other-download = Baixar dados
 data-bundle-button = Baixar pacote do conjunto de dados
 data-bundle-description = Os dados do Common Voice mais todos os outros conjuntos de dados acima.
+release-version = Versão
+dataset-date = Data
 license = Licença: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
 data-download-singleword-title = Baixar o segmento de destino de palavras únicas
-data-download-singleword-callout = Este é um segmento orientado a casos de uso que contêm dados para capacitar reconhecimento de dígitos falados, detecção de sim / não e dados de teste de palavra de despertar atenção para o <fxLink>Firefox Voice</fxLink>.
 review-terms = Usando o Common Voice, você aceita nossos <termsLink>Termos</termsLink> e <privacyLink>Política de Privacidade</privacyLink>
 terms-agree = Estou de acordo
 terms-disagree = Não estou de acordo
@@ -835,3 +835,24 @@ help-contribute = Você pode ajudar a construir um conjunto de dados de código 
 login-company = Entrar / Cadastrar-se com e-mail de { $company }
 profile-not-required = Não é obrigatório ter um perfil para contribuir, apesar de ser útil
 read-more-about = Saiba mais sobre o Common Voice
+
+## DemoLayout
+
+demo-get-started = Vamos começar
+demo-welcome = Bem-vindo ao Common Voice
+demo-welcome-subheader = Interessado em aprender mais e contribuir com o projeto?
+
+## Demo Datasets
+
+demo-account = Conta
+
+## Demo Account
+
+demo-account-card-header = Não é obrigatório ter uma conta para contribuir, embora seja útil.
+
+## Demo Contribute
+
+demo-listen-subtitle = Pronto para contribuir?
+
+## Demo Dashboard
+

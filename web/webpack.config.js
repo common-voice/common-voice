@@ -103,8 +103,8 @@ module.exports = {
       this.plugin('done', () => console.log(chalk.green('Built!')));
     },
     new webpack.DefinePlugin({
-      'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA)
-    })
+      'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
+    }),
 
     // new require('webpack-bundle-analyzer').BundleAnalyzerPlugin({ analyzerMode: 'static' }),
   ],

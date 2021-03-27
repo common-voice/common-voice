@@ -83,7 +83,6 @@ kbd = Kabardian
 kk = Kasakhisk
 ko = Koreansk
 kpv = Komi
-ku = Kurdisk
 kw = Cornisk
 ky = Kirgisisk
 lg = Ganda
@@ -235,7 +234,7 @@ whats-public = Hvad er offentligt?
 email-not-public = Vi offentliggør ikke din mailadresse.
 recordings-and-locale-public = Antallet af optagelser og hvilke sprog du bidrager til vil være offentligt.
 username-optin-public = Du kan vælge at gøre dit brugernavn offentligt eller anonymt.
-demographic-deidentified-clarity = Valgfrit indsendte demografiske data (fx alder, køn, sprog og accent) vil aldrig blive offentliggjort på din profil eller blive sammenkædet med din profil i datasættet. Enkelte stemmeklip bliver tilknyttet med demografiske data for at gøre mere nøjagtige analyser mulige - til eksempel, når en forsker ønsker at rette en træningsmodel mod et bestemt demografisk segment.
+demographic-deidentified-clarity-2 = Valgfrit indsendte demografiske data (fx alder, køn, sprog og accent) vil aldrig blive offentliggjort på din profil eller blive sammenkædet med din profil i datasættet. Enkelte stemmeklip bliver tilknyttet med demografiske data for at gøre mere nøjagtige analyser mulige - til eksempel, når en forsker ønsker at rette en træningsmodel mod et bestemt demografisk segment.
 username-email-not-demographic = Dit brugernavn og din mailadresse vil ikke blive forbundet med de offentliggjorte data.
 
 ## Speak & Listen Shortcuts
@@ -293,7 +292,7 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Alder
-profile-form-gender =
+profile-form-gender-2 =
     .label = Køn
 leaderboard-visibility =
     .label = Synlighed på leaderboard
@@ -320,7 +319,7 @@ profile-close = Luk
 profile-explanation = Hold styr på din fremgang med en profil, samtidig med at du gør vores stemme-data mere præcist.
 thanks-for-account = Tak fordi du bekræftede din konto, lad os nu udfylde din profil.
 why-demographic = Hvorfor er dette vigtigt?
-why-demographic-explanation = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
+why-demographic-explanation-2 = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
 accept-privacy = Det er helt fint, at I håndterer disse oplysninger som beskrevet i Mozillas <privacyLink>privatlivspolitik</privacyLink>
 accept-privacy-title = Privatlivspolitik
 login-identity = Login-identitet
@@ -505,7 +504,6 @@ data-bundle-description = Data fra Common Voice samt alle andre stemme-datasæt 
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 data-download-singleword-title = Hent målsegmentet med enkelte ord
-data-download-singleword-callout = Dette er et segment, der indeholder data til at understøtte genkendelse af talte tal, detektering af ja/nej og aktiveringsords-testdata til <fxLink>Firefox Voice</fxLink>.
 review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
 terms-agree = Jeg accepterer
 terms-disagree = Jeg accepterer ikke
@@ -784,7 +782,7 @@ activity-needed-calculation-plural =
     }optager{ NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } klip
        *[other] { $clipsPerDay } klip
-    }om dagen.
+    } om dagen.
 how-many-per-day = Godt! Hvor mange optagelser pr. dag?
 how-many-a-week = Godt! Hvor mange optagelser pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?
@@ -837,3 +835,18 @@ help-contribute = Du kan hjælpe med at bygge et mangfoldigt open source-datasæ
 login-company = Log ind / Tilmeld dig med en mailadresse fra { $company }
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
 read-more-about = Læs mere på vores Om-side
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

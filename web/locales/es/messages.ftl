@@ -11,6 +11,7 @@ loading = Cargando…
 email-opt-in-info = Me gustaría recibir correos electrónicos como recordatorios de objetivos, actualizaciones de mi progreso y boletines de noticias sobre Common Voice.
 email-opt-in-info-title = Unirse a la lista de correo de Common Voice
 email-opt-in-info-sub-with-challenge = Recibe correos con recordatorios de objetivos, actualizaciones de progreso y nuestro boletín de noticias de Common Voice.
+email-opt-in-privacy-v2 = Al aceptar recibir correos entendemos que das permiso a Mozilla para utilizar la información tal y como se explica en la <privacyLink>Política de Privacidad</privacyLink> de Mozilla.
 indicates-required = * Indica un campo obligatorio
 not-available-abbreviation = N/A
 
@@ -82,7 +83,6 @@ kbd = Cabardiano
 kk = Kazajo
 ko = Coreano
 kpv = Komi-Zyrian
-ku = Kurdo
 kw = Córnico
 ky = Kirguís
 lg = Luganda
@@ -234,7 +234,6 @@ whats-public = ¿Qué se hace público?
 email-not-public = No publicaremos tu correo electrónico.
 recordings-and-locale-public = El número de grabaciones y los idiomas en los que colaboras sí será público.
 username-optin-public = Puedes elegir entre un nombre de usuario público o anónimo.
-demographic-deidentified-clarity = Los datos demográficos enviados opcionalmente (por ejemplo, edad, sexo, idioma y acento) nunca se harán públicos en tu perfil y no se vincularán a tu cuenta en el conjunto de datos. Los clips de audio individuales se asociarán con datos demográficos con el fin de un análisis más preciso; por ejemplo, un investigador puede querer orientar el apredizaje de un modelo a un segmento demográfico específico.
 username-email-not-demographic = Tu nombre de usuario y correo electrónico no se asociarán con los datos publicados.
 
 ## Speak & Listen Shortcuts
@@ -292,7 +291,7 @@ profile-form-accent =
     .label = Acento
 profile-form-age =
     .label = Edad
-profile-form-gender =
+profile-form-gender-2 =
     .label = Género
 leaderboard-visibility =
     .label = Visibilidad en la tabla de clasificación
@@ -319,7 +318,6 @@ profile-close = Cerrar
 profile-explanation = Ve tu progreso con un perfil y ayuda a nuestros datos de voz a ser más precisos.
 thanks-for-account = Gracias por confirmar tu cuenta, ahora vamos a crear tu perfil
 why-demographic = ¿Por qué es esto importante?
-why-demographic-explanation = Datos anónimos de usuarios tales como edad, sexo y acento ayudan a mejorar los datos de audio utilizados para entrenar la precisión de los motores de reconocimiento de voz. Tu nombre de usuario y email nunca se asociarán a tus datos enviados y puedes elegir si hacer tu nombre de usuario público o anónimo.
 accept-privacy = Estoy de acuerdo con que se utilice esta información tal y como se explica en la <privacyLink>política de privacidad</privacyLink> de Mozilla
 accept-privacy-title = Aviso de privacidad
 login-identity = Identidad de inicio de sesión
@@ -493,10 +491,11 @@ data-other-goto = Ir a { $name }
 data-other-download = Descargar datos
 data-bundle-button = Descargar paquete de archivo de datos
 data-bundle-description = Datos de Common Voice junto con todos los archivos de datos de voz anteriores.
+release-version = Versión
+dataset-date = Fecha
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
 data-download-singleword-title = Descarga el objetivo segmentado de una sola palabra
-data-download-singleword-callout = Este es un segmento basado en casos de uso que contiene datos para potenciar el reconocimiento de dígitos hablados, detección sí / no y datos de prueba de wakeword para <fxLink>Firefox Voice</fxLink>.
 review-terms = Al usar Common Voice, aceptas nuestros <termsLink>Términos de uso</termsLink> y la <privacyLink>Política de privacidad</privacyLink>
 terms-agree = Estoy de acuerdo
 terms-disagree = Estoy en desacuerdo
@@ -712,6 +711,7 @@ validations =
 
 your-languages = Tus idiomas
 toward-next-goal = Hacia el siguiente objetivo
+goal-reached = Objetivo alcanzado
 clips-you-recorded = Fragmentos que has grabado
 clips-you-validated = Fragmentos que has validado
 todays-recorded-progress = Progreso de hoy de los fragmentos grabados para Common Voice
@@ -823,3 +823,26 @@ help-contribute = Puedes ayudar a crear una amplia base de datos de código abie
 login-company = Inicia sesión / Regístrate con el correo de { $company }
 profile-not-required = No es necesario tener un perfil para colaborar, aunque puede resultar útil.
 read-more-about = Descubre más en nuestra página Sobre Common Voice
+
+## DemoLayout
+
+demo-get-started = Comencemos
+demo-welcome = Bienvenido a Common Voice
+demo-welcome-subheader = ¿Estás interesado en aprender más y contribuir en el proyecto?
+
+## Demo Datasets
+
+card-button-next = Siguiente
+card-button-back = Atrás
+demo-language-select-label = Explorar lenguajes
+demo-account = Cuenta
+
+## Demo Account
+
+
+## Demo Contribute
+
+demo-listen-subtitle = ¿Listo para contribuir?
+
+## Demo Dashboard
+

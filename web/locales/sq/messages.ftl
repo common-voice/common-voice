@@ -33,14 +33,18 @@ as = Asamezisht
 ast = Asturisht
 az = Azerbajxhanisht
 ba = Bashkire
+bas = Basa
 be = Bjelloruse
 bg = Bullgarisht
+bm = Bambareze
 bn = Bengalisht
 br = Bretonisht
 bxr = Buriat
 ca = Katalane
 cak = Kakshikel
+ckb = Kurde Qendrore
 cnh = Haka Çin
+co = Korse
 cs = Çekisht
 cv = Çuvashe
 cy = Uells
@@ -62,11 +66,13 @@ fr = Frëngjisht
 fy-NL = Frisiane
 ga-IE = Irlandisht
 gl = Galiciane
+gn = Guaraneze
 ha = Hausa
 he = Hebraisht
 hi = Indiane
 hr = Kroate
 hsb = Sorbiane, E sipërme
+ht = Haitiane
 hu = Hungarisht
 hy-AM = Armene
 hyw = Armene Perëndimore
@@ -81,9 +87,9 @@ kaa = Karakalpak
 kab = Kabile
 kbd = Kabardiane
 kk = Kazake
+kmr = Kurde Kurmanxhi
 ko = Koreane
 kpv = Komi-Zyrian
-ku = Kurde
 kw = Kornike
 ky = Kirgize
 lg = Luganda
@@ -96,6 +102,7 @@ mk = Maqedonisht
 ml = Malajalame
 mn = Mongolisht
 mrj = Hill Mari
+ms = Malajziane
 mt = Malteze
 my = Birmanisht
 myv = Erzan
@@ -107,6 +114,7 @@ oc = Oçitane
 or = Odia
 pa-IN = Panxhabe
 pl = Polonisht
+ps = Pashtune
 pt = Portugalisht
 rm-sursilv = Romansh Sursilvan
 ro = Rumanisht
@@ -138,6 +146,7 @@ uz = Uzbeke
 vec = Venetishte
 vi = Vietnamisht
 vot = Votik
+yue = Kantoneze
 zh-CN = Kineze (Kinë)
 zh-HK = Kineze (Hong Kong)
 zh-TW = Kineze (Tajvan)
@@ -235,7 +244,7 @@ whats-public = Ç’është Publike?
 email-not-public = S’do ta bëjëm publik email-in tuaj.
 recordings-and-locale-public = Numri i incizimeve dhe në cilat gjuhë kontribuoni do të bëhen publike.
 username-optin-public = Mund të zgjidhni për ta bërë emrin tuaj të përdoruesit publik ose anonim.
-demographic-deidentified-clarity = Të dhëna demografike të dhëna me dëshirë (p.sh., mosha, gjinia, gjuha dhe theksi) s’do të bëhen kurrë publike në profilin tuaj, dhe s’do të lidhen me llogarinë tuaj te masa e të dhënave.Copëzat individuale audio do të përshoqërohen me të dhëna demografike për qëllimin e një analize më të përpiktë - për shembull, një kërkues mund të dojë të fokusohet në një model stërvitjeje për një segment të caktuar demografik.
+demographic-deidentified-clarity-2 = Të dhëna demografike të dhëna me dëshirë (p.sh., mosha, gjinia, gjuha dhe theksi) s’do të bëhen kurrë publike në profilin tuaj, dhe s’do të lidhen me llogarinë tuaj te masa e të dhënave.Copëzat individuale audio do të përshoqërohen me të dhëna demografike për qëllimin e një analize më të përpiktë - për shembull, një kërkues mund të dojë të fokusohet në një model stërvitjeje për një segment të caktuar demografik.
 username-email-not-demographic = Emri juaj i përdoruesit dhe email-i nuk do t’u përshoqërohen të dhënave të publikuara.
 
 ## Speak & Listen Shortcuts
@@ -265,6 +274,7 @@ shortcut-record-toggle-label = Incizo/Ndale
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Riincizojeni copëzën
 request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
+request-language-text-learn = Mësoni se si ta kërkoni, këtu!
 request-language-button = Kërkoni një Gjuhë
 
 ## ProjectStatus
@@ -293,7 +303,7 @@ profile-form-accent =
     .label = Theks
 profile-form-age =
     .label = Moshë
-profile-form-gender =
+profile-form-gender-2 =
     .label = Gjini
 leaderboard-visibility =
     .label = Dukshmëri Tabele
@@ -320,7 +330,7 @@ profile-close = Mbylle
 profile-explanation = Ndiqni ecurinë tuaj, përmes një profili, dhe ndihmoni që të dhënat tona zanore të jenë më të sakta.
 thanks-for-account = Faleminderit që ripohuat llogarinë tuaj, tani le të krijojmë profilin tuaj.
 why-demographic = Pse ka rëndësi kjo?
-why-demographic-explanation = Të dhëna të anonimizuara përdoruesish, të tilla si mosha, gjinia dhe theksi ndihmojnë të përmirësohen të dhënat audio e përdorura për të stërvitur mekanizmat e kuptimit të të folurës në pikëpamje të saktësisë. Emri juaj i përdoruesit dhe email nuk do të përshoqërohen kurrë me të dhënat e parashtruara prej jush, dhe mund të zgjidhni bërjen publik të emrit tuaj të përdoruesit ose anonimitetin.
+why-demographic-explanation-2 = Të dhëna të anonimizuara përdoruesish, të tilla si mosha, gjinia dhe theksi ndihmojnë të përmirësohen të dhënat audio e përdorura për të stërvitur mekanizmat e kuptimit të të folurës në pikëpamje të saktësisë. Emri juaj i përdoruesit dhe email nuk do të përshoqërohen kurrë me të dhënat e parashtruara prej jush, dhe mund të zgjidhni bërjen publik të emrit tuaj të përdoruesit ose anonimitetin.
 accept-privacy = Pajtohem me trajtimin që u bëni këtyre të dhënave ashtu siç e shpjegoni <privacyLink>Rregulla Privatësie</privacyLink> të Mozilla-s
 accept-privacy-title = Rregulla Privatësie
 login-identity = Identitet Hyrjesh
@@ -504,9 +514,10 @@ data-other-goto = Kalo te { $name }
 data-other-download = Shkarkoni Të dhëna
 data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
+release-version = Version
+dataset-date = Datë
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 license-mixed = Të përziera
-data-download-singleword-callout = Ky është një segment i bazuar në raste përdorimi, që përmban të dhëna për fuqizimin e të kuptuarit të shifrave të thëna, pikasjeje po-je / jo-je, dhe të dhëna testimi <em>wakeword</em> për <fxLink>Firefox Voice</fxLink>.
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
 terms-agree = Pajtohem
 terms-disagree = Nuk pajtohem
@@ -760,8 +771,32 @@ want-to-continue = Doni të vazhdohet?
 finish-editing = Të përfundohet përpunimi së pari?
 lose-changes-warning = Largimi tani do të thotë se do të humbni ndryshimet tuaja
 build-custom-goal = krijoni një objektiv vetjak
+help-reach-hours-pluralized =
+    Ndihmonani të arrijmë{ NUMBER($hours) ->
+        [one] { $hours } orë
+       *[other] { $hours } orë
+    }në { $language }, përmes një objektivi personal
+help-reach-hours-general-pluralized =
+    Ndihmojeni Common Voice-in të arrijë{ NUMBER($hours) ->
+        [one] { $hours } orë
+       *[other] { $hours } orë
+    }për një gjuhë, përmes një objektivi personal.
 set-a-goal = Caktoni një objektiv
 cant-decide = S’vendosni dot?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } orë
+       *[other] { $totalHours } orë
+    }mund të plotësohen në thjesht{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } muaj
+       *[other] { $periodMonths } muaj
+    }nëse{ NUMBER($people) ->
+        [one] { $people } person
+       *[other] { $people } vetë
+    }incizojnë { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } copë
+       *[other] { $clipsPerDay } copa
+    }në ditë.
 how-many-per-day = Bukur! Sa copëza në ditë?
 how-many-a-week = Bukur! Sa copëza në javë?
 which-goal-type = Doni të Flisni, të Dëgjoni apo të dyja bashkë?
@@ -810,3 +845,39 @@ help-contribute = Mund të ndihmoni në ndërtimin e një grupi të dhënash të
 login-company = Bëni Hyrjen / Regjistrohuni me email { $company }
 profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama
 read-more-about = Lexoni më tepër te faqja jonë Mbi
+
+## DemoLayout
+
+demo-get-started = Le T’ia Fillojmë
+demo-welcome = Mirë se vini te Common Voice
+demo-welcome-subheader = Ju intereson të mësoni më tepër dhe të jepni ndihmesë te projekti?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice është grupi i të dhënave zanore më i madh në botë që mund të kihet publikisht.
+demo-language-select-card-body = Falë kontributeve prej më shumë se 259 mijë vetë në mbi 50 gjuhë, këto të dhëna po përdoren për të stërvitur aplikacione që funksionojnë përmes të folurës, për t’iu përgjigjur më mirë zërit njerëzor.
+card-button-next = Pasuesja
+card-button-back = Mbrapsht
+demo-language-select-label = Shfletoni Gjuhë
+demo-eofy-header = Hedhja Në Qarkullim e Fundvitit 2019
+demo-eofy-sub_header = Grup të Dhënash Zanore, Gati për Shkarkim
+demo-account = Llogari
+
+## Demo Account
+
+demo-account-card-header = Pasja e një llogarie s’është e domosdoshme për të kontribuar, por është e dobishme.
+demo-account-card-body = Djathtas skicojmë përfitimet dhe sqarojmë çfarë informacioni bëjmë publik. Përdorni lidhjet më poshtë, për t’ia filluar me një llogari Common Voice në pajisjen tuaj.
+demo-account-enter-email =
+    .label = Që të dërgohet një lidhje regjistrimi, jepni email
+demo-account-sign-up = Dërgo lidhje regjistrimi
+
+## Demo Contribute
+
+demo-contribute-card-header = Gati për të shtuar zërin tuaj ose për të përdorur dëgjimin tuaj?
+demo-contribute-card-body-v2 = Tani që dini diçka më shumë mbi Common Voice, pse të mos e provonit? Klikoni mbi ikonën e mikrofonit që të filloni të lexoni togfjalësha. <br/><br/>Nëse parapëlqeni të shqyrtoni kontribute zanore nga persona të tjerë, klikoni mbi ikonën e luajtjes. Do të ndihmoni të ripohohet se incizimet përputhen me togfjalëshat e shkruar në ekran.
+demo-listen-subtitle = Gati për të dhënë ndihmesë?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Pultet personale ju mbajnë të përditësuar me ecurinë individuale dhe të bashkësisë.
+demo-dashboard-card-body = Për çdo copëz zanore të incizuar, dhe çdo copëz zanore të vlerësuar, pultet e llogarive tuaja përditësohen për të pasqyruar ecurinë tuaj më të re në çdo gjuhë ku jepni ndihmesë. Po, mund të jepni ndihmesë në më shumë se një!<br/><br/> Përdorini pultet për të ndjekur statistikat tuaja, shihni se si po ecni, kundrejt të tjerëve në bashkësi, dhe caktoni objektiva ditore ose javore dhënieje ndihmese.

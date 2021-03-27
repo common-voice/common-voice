@@ -165,6 +165,7 @@ const initialState: State = {
 
 class SpeakPage extends React.Component<Props, State> {
   state: State = initialState;
+  demoMode = this.props.location.pathname.includes(URLS.DEMO);
 
   audio: AudioWeb;
   isUnsupportedPlatform = false;
@@ -290,10 +291,9 @@ class SpeakPage extends React.Component<Props, State> {
   private getRecordingError = (): RecordingError => {
     const length = this.recordingStopTime - this.recordingStartTime;
     const currentSentence = this.state.clips[this.getRecordingIndex()].sentence;
-    const minClipLength =
-      currentSentence.taxonomy === 'Benchmark'
-        ? MIN_RECORDING_MS_BENCHMARK
-        : MIN_RECORDING_MS;
+    const minClipLength = currentSentence.taxonomy
+      ? MIN_RECORDING_MS_BENCHMARK
+      : MIN_RECORDING_MS;
 
     if (length < minClipLength) {
       return RecordingError.TOO_SHORT;
@@ -442,7 +442,11 @@ class SpeakPage extends React.Component<Props, State> {
               hasEarnedSessionToast = false,
               showFirstStreakToast = false,
               challengeEnded = true,
-            } = await api.uploadClip(recording.blob, sentence.id);
+            } = await api.uploadClip(
+              recording.blob,
+              sentence.id,
+              this.demoMode
+            );
             URL.revokeObjectURL(recording.url);
             sessionStorage.setItem(
               'challengeEnded',
@@ -572,160 +576,166 @@ class SpeakPage extends React.Component<Props, State> {
 
     return (
       <>
-        <NavigationPrompt
-          when={clips.filter(clip => clip.recording).length > 0}>
-          {({ onConfirm, onCancel }: any) => (
-            <Modal innerClassName="record-abort" onRequestClose={onCancel}>
-              <Localized id="record-abort-title">
-                <h1 className="title" />
-              </Localized>
-              <Localized id="record-abort-text">
-                <p className="text" />
-              </Localized>
-              <ModalButtons>
-                <Localized id="record-abort-submit">
-                  <Button
-                    outline
-                    rounded
-                    className={getTrackClass('fs', 'exit-submit-clips')}
-                    onClick={() => {
-                      if (this.upload()) onConfirm();
-                    }}
+        <div id="speak-page">
+          <NavigationPrompt
+            when={clips.filter(clip => clip.recording).length > 0}>
+            {({ onConfirm, onCancel }: any) => (
+              <Modal innerClassName="record-abort" onRequestClose={onCancel}>
+                <Localized id="record-abort-title">
+                  <h1 className="title" />
+                </Localized>
+                <Localized id="record-abort-text">
+                  <p className="text" />
+                </Localized>
+                <ModalButtons>
+                  <Localized id="record-abort-submit">
+                    <Button
+                      outline
+                      rounded
+                      className={getTrackClass('fs', 'exit-submit-clips')}
+                      onClick={() => {
+                        if (this.upload()) onConfirm();
+                      }}
+                    />
+                  </Localized>
+                  <Localized id="record-abort-continue">
+                    <Button
+                      outline
+                      rounded
+                      className={getTrackClass('fs', 'exit-continue-recording')}
+                      onClick={onCancel}
+                    />
+                  </Localized>
+                </ModalButtons>
+                <Localized id="record-abort-delete">
+                  <TextButton
+                    className={getTrackClass('fs', 'exit-delete-clips')}
+                    onClick={onConfirm}
                   />
                 </Localized>
-                <Localized id="record-abort-continue">
-                  <Button
-                    outline
-                    rounded
-                    className={getTrackClass('fs', 'exit-continue-recording')}
-                    onClick={onCancel}
-                  />
-                </Localized>
-              </ModalButtons>
-              <Localized id="record-abort-delete">
-                <TextButton
-                  className={getTrackClass('fs', 'exit-delete-clips')}
-                  onClick={onConfirm}
-                />
-              </Localized>
-            </Modal>
-          )}
-        </NavigationPrompt>
-        {showPrivacyModal && (
-          <TermsModal
-            onAgree={this.agreeToTerms}
-            onDisagree={this.toggleDiscardModal}
-          />
-        )}
-        {showDiscardModal && (
-          <Localized id="review-aborted">
-            <Modal
-              buttons={{
-                [getString('review-keep-recordings')]: this.toggleDiscardModal,
-                [getString('review-delete-recordings')]: this.resetAndGoHome,
-              }}
+              </Modal>
+            )}
+          </NavigationPrompt>
+          {showPrivacyModal && (
+            <TermsModal
+              onAgree={this.agreeToTerms}
+              onDisagree={this.toggleDiscardModal}
             />
-          </Localized>
-        )}
-        <ContributionPage
-          activeIndex={recordingIndex}
-          errorContent={this.displayError() && this.returnSpeakError()}
-          instruction={props =>
-            error ? (
-              <div className="error">
+          )}
+          {showDiscardModal && (
+            <Localized id="review-aborted">
+              <Modal
+                buttons={{
+                  [getString('review-keep-recordings')]: this
+                    .toggleDiscardModal,
+                  [getString('review-delete-recordings')]: this.resetAndGoHome,
+                }}
+              />
+            </Localized>
+          )}
+          <ContributionPage
+            demoMode={this.demoMode}
+            activeIndex={recordingIndex}
+            errorContent={this.displayError() && this.returnSpeakError()}
+            instruction={props =>
+              error ? (
+                <div className="error">
+                  <Localized
+                    id={
+                      {
+                        [RecordingError.TOO_SHORT]: 'record-error-too-short',
+                        [RecordingError.TOO_LONG]: 'record-error-too-long',
+                        [RecordingError.TOO_QUIET]: 'record-error-too-quiet',
+                        [AudioError.NOT_ALLOWED]:
+                          'record-must-allow-microphone',
+                        [AudioError.NO_MIC]: 'record-no-mic-found',
+                        [AudioError.NO_SUPPORT]:
+                          'record-platform-not-supported',
+                      }[error]
+                    }
+                    {...props}
+                  />
+                </div>
+              ) : (
                 <Localized
                   id={
-                    {
-                      [RecordingError.TOO_SHORT]: 'record-error-too-short',
-                      [RecordingError.TOO_LONG]: 'record-error-too-long',
-                      [RecordingError.TOO_QUIET]: 'record-error-too-quiet',
-                      [AudioError.NOT_ALLOWED]: 'record-must-allow-microphone',
-                      [AudioError.NO_MIC]: 'record-no-mic-found',
-                      [AudioError.NO_SUPPORT]: 'record-platform-not-supported',
-                    }[error]
+                    this.isRecording
+                      ? 'record-stop-instruction'
+                      : recordingIndex === SET_COUNT - 1
+                      ? 'record-last-instruction'
+                      : ['record-instruction', 'record-again-instruction'][
+                          recordingIndex
+                        ] || 'record-again-instruction2'
                   }
+                  elems={{
+                    recordIcon: <MicIcon />,
+                    stopIcon: <StopIcon />,
+                  }}
                   {...props}
                 />
-              </div>
-            ) : (
-              <Localized
-                id={
-                  this.isRecording
-                    ? 'record-stop-instruction'
-                    : recordingIndex === SET_COUNT - 1
-                    ? 'record-last-instruction'
-                    : ['record-instruction', 'record-again-instruction'][
-                        recordingIndex
-                      ] || 'record-again-instruction2'
-                }
-                elems={{
-                  recordIcon: <MicIcon />,
-                  stopIcon: <StopIcon />,
-                }}
-                {...props}
+              )
+            }
+            isFirstSubmit={user.recordTally === 0}
+            isPlaying={this.isRecording}
+            isSubmitted={isSubmitted}
+            onReset={() => this.resetState()}
+            onSkip={this.handleSkip}
+            onSubmit={() => this.upload()}
+            primaryButtons={
+              <RecordButton
+                trackClass="speak-record"
+                status={recordingStatus}
+                onClick={this.handleRecordClick}
               />
-            )
-          }
-          isFirstSubmit={user.recordTally === 0}
-          isPlaying={this.isRecording}
-          isSubmitted={isSubmitted}
-          onReset={() => this.resetState()}
-          onSkip={this.handleSkip}
-          onSubmit={() => this.upload()}
-          primaryButtons={
-            <RecordButton
-              trackClass="speak-record"
-              status={recordingStatus}
-              onClick={this.handleRecordClick}
-            />
-          }
-          pills={clips.map((clip, i) => (props: ContributionPillProps) => (
-            <RecordingPill
-              {...props}
-              clip={clip}
-              status={
-                recordingIndex === i
-                  ? 'active'
-                  : clip.recording
-                  ? 'done'
-                  : 'pending'
-              }
-              onRerecord={() => this.rerecord(i)}>
-              {rerecordIndex === i && (
-                <Localized id="record-cancel">
-                  <TextButton onClick={this.cancelReRecord} />
-                </Localized>
-              )}
-            </RecordingPill>
-          ))}
-          reportModalProps={{
-            reasons: [
-              'offensive-language',
-              'grammar-or-spelling',
-              'different-language',
-              'difficult-pronounce',
-            ],
-            kind: 'sentence',
-            id:
-              recordingIndex == -1 || !clips[recordingIndex].sentence
-                ? null
-                : clips[recordingIndex].sentence.id,
-          }}
-          sentences={clips.map(({ sentence }) => sentence)}
-          shortcuts={[
-            {
-              key: 'shortcut-record-toggle',
-              label: 'shortcut-record-toggle-label',
-              action: this.handleRecordClick,
-            },
-            {
-              key: 'shortcut-rerecord-toggle',
-              label: 'shortcut-rerecord-toggle-label',
-              action: this.handleRecordClick,
-            },
-          ]}
-          type="speak"
-        />
+            }
+            pills={clips.map((clip, i) => (props: ContributionPillProps) => (
+              <RecordingPill
+                {...props}
+                clip={clip}
+                status={
+                  recordingIndex === i
+                    ? 'active'
+                    : clip.recording
+                    ? 'done'
+                    : 'pending'
+                }
+                onRerecord={() => this.rerecord(i)}>
+                {rerecordIndex === i && (
+                  <Localized id="record-cancel">
+                    <TextButton onClick={this.cancelReRecord} />
+                  </Localized>
+                )}
+              </RecordingPill>
+            ))}
+            reportModalProps={{
+              reasons: [
+                'offensive-language',
+                'grammar-or-spelling',
+                'different-language',
+                'difficult-pronounce',
+              ],
+              kind: 'sentence',
+              id:
+                recordingIndex == -1 || !clips[recordingIndex].sentence
+                  ? null
+                  : clips[recordingIndex].sentence.id,
+            }}
+            sentences={clips.map(({ sentence }) => sentence)}
+            shortcuts={[
+              {
+                key: 'shortcut-record-toggle',
+                label: 'shortcut-record-toggle-label',
+                action: this.handleRecordClick,
+              },
+              {
+                key: 'shortcut-rerecord-toggle',
+                label: 'shortcut-rerecord-toggle-label',
+                action: this.handleRecordClick,
+              },
+            ]}
+            type="speak"
+          />
+        </div>
       </>
     );
   }

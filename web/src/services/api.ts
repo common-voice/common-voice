@@ -2,7 +2,7 @@ import { AllGoals, CustomGoalParams } from 'common';
 import { LanguageStats } from 'common';
 import { UserClient } from 'common';
 import { WeeklyChallenge, Challenge, TeamChallenge } from 'common';
-import { FeatureToken, FeatureType } from 'common';
+import { FeatureType } from 'common';
 import { Sentence, Clip } from 'common';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
@@ -111,7 +111,8 @@ export default class API {
 
   uploadClip(
     blob: Blob,
-    sentenceId: string
+    sentenceId: string,
+    fromDemo?: boolean
   ): Promise<{
     showFirstContributionToast?: boolean;
     hasEarnedSessionToast?: boolean;
@@ -125,6 +126,7 @@ export default class API {
         'Content-Type': blob.type,
         sentence_id: sentenceId,
         challenge: getChallenge(this.user),
+        from_demo: fromDemo ? 'true' : 'false',
       },
       body: blob,
     });
@@ -313,10 +315,14 @@ export default class API {
     );
   }
 
-  saveHasDownloaded(email: string, dataset: string): Promise<void> {
+  saveHasDownloaded(
+    email: string,
+    locale: string,
+    dataset: string
+  ): Promise<void> {
     return this.fetch(this.getLocalePath() + '/downloaders', {
       method: 'POST',
-      body: { email, dataset },
+      body: { email, locale, dataset },
     });
   }
 
@@ -433,8 +439,18 @@ export default class API {
     return null;
   }
 
-  getFeatureFlag(feature: string, locale: string): Promise<FeatureType> {
+  async getFeatureFlag(feature: string, locale: string): Promise<FeatureType> {
     return this.fetch(`${API_PATH}/feature/${locale}/${feature}`, {
+      method: 'GET',
+    });
+  }
+
+  getPublicUrl(
+    path: string,
+    bucketType: string,
+    useCDN: boolean
+  ): Promise<{ url: string }> {
+    return this.fetch(`${API_PATH}/bucket/${bucketType}/${path}/${useCDN}`, {
       method: 'GET',
     });
   }

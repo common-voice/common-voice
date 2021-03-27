@@ -33,14 +33,18 @@ as = Assamese
 ast = Asturiano
 az = Azerbaigiano
 ba = Baschiro
+bas = Basaa
 be = Bielorusso
 bg = Bulgaro
+bm = Bambara
 bn = Bengalese
 br = Bretone
 bxr = Buriato
 ca = Catalano
 cak = Kaqchikel
+ckb = Curdo centrale
 cnh = Hakha Chin
+co = Còrso
 cs = Ceco
 cv = Ciuvascio
 cy = Gallese
@@ -62,11 +66,13 @@ fr = Francese
 fy-NL = Frisone
 ga-IE = Irlandese
 gl = Gallego
+gn = Guaraní
 ha = Hausa
 he = Ebraico
 hi = Hindi
 hr = Croato
 hsb = Alto sorabo
+ht = Creolo haitiano
 hu = Ungherese
 hy-AM = Armeno
 hyw = Armeno occidentale
@@ -81,22 +87,26 @@ kaa = Karakalpak
 kab = Cabilo
 kbd = Cabardo
 kk = Kazako
+kmr = Curdo Kurmanji
 ko = Coreano
 kpv = Komi-Zyrian
-ku = Curdo
 kw = Cornico
 ky = Kirghiso
 lg = Luganda
 lij = Ligure
 lt = Lituano
 lv = Lettone
+mai = Maithili
 mdf = Mokša
 mg = Malgascio
 mhr = Mari orientale
 mk = Macedone
 ml = Malayalam
 mn = Mongolo
+mos = More
+mr = Marathi
 mrj = Mari occidentale
+ms = Malese
 mt = Maltese
 my = Birmano
 myv = Erza
@@ -108,6 +118,7 @@ oc = Occitano
 or = Oriya
 pa-IN = Punjabi
 pl = Polacco
+ps = Pashtu
 pt = Portoghese
 rm-sursilv = Romancio sottosilvano
 rm-vallader = Romancio Vallader
@@ -117,9 +128,11 @@ rw = Kinyarwanda
 sah = Sacha
 sc = Sardo
 scn = Siciliano
+shi = Shilha
 si = Singalese
 sk = Slovacco
 sl = Sloveno
+so = Somalo
 sq = Albanese
 sr = Serbo
 sv-SE = Svedese
@@ -134,12 +147,14 @@ tr = Turco
 tt = Tataro
 uby = Ubykh
 udm = Udmurto
+ug = Uiguro
 uk = Ucraino
 ur = Urdu
 uz = Uzbeco
 vec = Veneto
 vi = Vietnamita
 vot = Votico
+yue = Cantonese
 zh-CN = Cinese (Cina)
 zh-HK = Cinese (Hong Kong)
 zh-TW = Cinese (Taiwan)
@@ -233,7 +248,7 @@ whats-public = Quali dati sono pubblici?
 email-not-public = Non renderemo il tuo indirizzo email pubblico.
 recordings-and-locale-public = Il numero di registrazioni e le lingue alle quali contribuisci saranno pubbliche.
 username-optin-public = Puoi scegliere di rendere il tuo nome utente pubblico o anonimo.
-demographic-deidentified-clarity = I dati demografici eventualmente forniti (ad es. età, sesso, lingua e accento) non saranno mai resi pubblici sul tuo profilo né collegati al tuo account nel dataset. Le singole registrazioni saranno associate ai dati demografici per un’analisi più accurata, per esempio nel caso in cui un ricercatore volesse concentrare il suo modello di apprendimento vocale su uno specifico segmento demografico.
+demographic-deidentified-clarity-2 = I dati demografici eventualmente forniti (ad es. età, genere, lingua e accento) non saranno mai resi pubblici sul tuo profilo né collegati al tuo account nel dataset. Le singole registrazioni saranno associate ai dati demografici per un’analisi più accurata, per esempio nel caso in cui un ricercatore volesse concentrare il suo modello di apprendimento vocale su uno specifico segmento demografico.
 username-email-not-demographic = Il tuo nome utente e il tuo indirizzo email non verranno associati ai dati pubblicati.
 
 ## Speak & Listen Shortcuts
@@ -263,6 +278,7 @@ shortcut-record-toggle-label = Registra/Interrompi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ripeti la registrazione
 request-language-text = Non trovi la tua lingua su Common Voice?
+request-language-text-learn = Scopri qui come richiederla!
 request-language-button = Richiedi una lingua
 
 ## ProjectStatus
@@ -291,8 +307,8 @@ profile-form-accent =
     .label = Accento
 profile-form-age =
     .label = Età
-profile-form-gender =
-    .label = Sesso
+profile-form-gender-2 =
+    .label = Genere
 leaderboard-visibility =
     .label = Visibilità nella classifica
 hidden = Nascosto
@@ -318,7 +334,7 @@ profile-close = Chiudi
 profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
 thanks-for-account = Grazie per aver confermato il tuo account, ora iniziamo a completare il tuo profilo.
 why-demographic = Perché è importante?
-why-demographic-explanation = Dati utente anonimi come età, sesso e accento aiutano a migliorare i dati audio utilizzati per addestrare l’accuratezza dei motori di riconoscimento vocale. Il tuo nome utente ed email non saranno mai associati ai dati inviati e potrai scegliere se rendere il tuo nome utente pubblico o privato.
+why-demographic-explanation-2 = Dati utente anonimi come età, genere e accento aiutano a migliorare i dati audio utilizzati per addestrare l’accuratezza dei motori di riconoscimento vocale. Il tuo nome utente ed email non saranno mai associati ai dati inviati e potrai scegliere se rendere il tuo nome utente pubblico o privato.
 accept-privacy = Acconsento al trattamento dei dati come indicato nell’<privacyLink>informativa sulla privacy</privacyLink> di Mozilla
 accept-privacy-title = Informativa sulla privacy
 login-identity = Identità di accesso
@@ -491,10 +507,12 @@ data-other-goto = Vai a { $name }
 data-other-download = Scarica i dati
 data-bundle-button = Scarica bundle di dataset
 data-bundle-description = Dati di Common Voice più tutti i dataset precedenti.
+release-version = Versione
+dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
 data-download-singleword-title = Scarica il segmento specifico con parole singole
-data-download-singleword-callout = Questo è un segmento dedicato a casi d’uso specifici, contenente dati per gestire il riconoscimento di singoli numeri, rilevamento di “sì”/“no” e parola di attivazione per <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Questo è un segmento basato su uno specifico caso di utilizzo e contiene dati per migliorare il riconoscimento vocale delle cifre e il rilevamento di sì/no.
 review-terms = Utilizzando Common Voice, accetti le nostre <termsLink>condizioni</termsLink> e l’<privacyLink>informativa sulla privacy</privacyLink>
 terms-agree = Accetto
 terms-disagree = Non accetto
@@ -509,7 +527,7 @@ review-delete-recordings = Cancella le mie registrazioni
 
 ## Datasets Page
 
-datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite riconoscimento vocale.
+datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite di riconoscimento vocale.
 datasets-positioning =
     Crediamo che mettere in circolazione dataset di voci pubblici di grandi dimensioni possa promuovere innovazione e sana concorrenza commerciale tra le tecnologie di apprendimento automatico basate sul riconoscimento vocale.
     
@@ -661,6 +679,7 @@ share-title-new = <bold>Aiutaci</bold> a trovare altre voci
 keep-track-profile = Tieni traccia dei progressi con un profilo
 login-to-get-started = Accedi o registrati per iniziare
 target-segment-first-card = Stai contribuendo al primo segmento obiettivo
+target-segment-generic-card = Stai contribuendo a un segmento obiettivo
 target-segment-first-banner = Aiuta a creare il primo segmento obiettivo di Common Voice in { $locale }
 target-segment-add-voice = Aggiungi la tua voce
 target-segment-learn-more = Scopri di più
@@ -821,3 +840,39 @@ help-contribute = Crea un profilo Common Voice e dona la tua voce per aiutarci a
 login-company = Accedi / Registrati con l’email di { $company }
 profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
 read-more-about = Scopri di più sulla pagina Informazioni
+
+## DemoLayout
+
+demo-get-started = Iniziamo
+demo-welcome = Benvenuto in Common Voice
+demo-welcome-subheader = Ti interessa saperne di più e contribuire al progetto?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice è il più grande set di dati vocali multilingua pubblicamente accessibile al mondo.
+demo-language-select-card-body = Grazie al contributo di oltre 259 mila persone in più di 50 lingue, questi dati saranno usati per l'addestramento di applicazioni con riconoscimento vocale per migliorare la loro risposta alla voce umana.
+card-button-next = Avanti
+card-button-back = Indietro
+demo-language-select-label = Scopri le lingue disponibili
+demo-eofy-header = Versione di fine anno 2019
+demo-eofy-sub_header = Dataset vocale, pronto per il download
+demo-account = Account
+
+## Demo Account
+
+demo-account-card-header = Non è obbligatorio avere un account per collaborare ma è consigliato.
+demo-account-card-body = Qui a destra sono descritti i vantaggi e le informazioni che rendiamo pubbliche. Usa i link qui di seguito per iniziare con un account Common voice sul tuo dispositivo.
+demo-account-enter-email =
+    .label = Inserisci un indirizzo email per inviare il link per l’iscrizione
+demo-account-sign-up = Invia il link per l’iscrizione
+
+## Demo Contribute
+
+demo-contribute-card-header = Sei pronto ad aggiungere la tua voce o prestarci le tue orecchie?
+demo-contribute-card-body-v2 = Ora che ne sai un po’ di più su Common Voice, perché non lo provi? Fai clic sull’icona del microfono e leggi le frasi a voce alta per registrarle. <br/><br/> Se preferisci convalidare i contributi vocali di altre persone, fai clic sull’icona del tasto play e indica per ciascuna registrazione se corrisponde alla frase visualizzata sullo schermo.
+demo-listen-subtitle = Sei pronto a dare il tuo contributo?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = La tua dashboard personale ti tiene aggiornato suoi tuoi progressi e su quelli della comunità.
+demo-dashboard-card-body = La dashboard del tuo account viene aggiornata per ogni registrazione vocale e per ogni registrazione audio validata, riportando i tuoi ultimi progressi in ogni lingua alla quale hai contribuito. Sì, puoi contribuire a più di una lingua!<br/><br/> Usa la dashboard per tenere traccia delle tue statistiche, vedere come stai andando rispetto ad altri della community e impostare obiettivi giornalieri o settimanali.
