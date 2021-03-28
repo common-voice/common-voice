@@ -96,6 +96,7 @@ lg = Luganda
 lij = Liguryanca
 lt = Litvanca
 lv = Letonca
+mai = Maithili
 mdf = Mokşa
 mg = Malgaşça
 mhr = Ova Marice
@@ -116,6 +117,7 @@ nn-NO = Norveççe (Nynorsk)
 oc = Oksitanca
 or = Odia
 pa-IN = Pencapça
+pap-AW = Papiamento (Aruba)
 pl = Lehçe
 ps = Peştuca
 pt = Portekizce
@@ -127,6 +129,7 @@ rw = Kinyarwanda
 sah = Yakutça
 sc = Sardinya dili
 scn = Sicilyaca
+shi = Şilha
 si = Seylanca
 sk = Slovakça
 sl = Slovakça
@@ -775,6 +778,20 @@ help-reach-hours-general-pluralized =
     } ulaşmasına yardımcı olun
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $people } kişi
+       *[other] { $people } kişi
+    } günde { NUMBER($periodMonths) ->
+        [one] { $clipsPerDay } ses
+       *[other] { $clipsPerDay } ses
+    } kaydederse { NUMBER($people) ->
+        [one] { $periodMonths } aydan
+       *[other] { $periodMonths } aydan
+    } biraz uzun bir sürede { NUMBER($clipsPerDay) ->
+        [one] { $totalHours } saatlik
+       *[other] { $totalHours } saatlik
+    } ses kaydına ulaşılabilir.
 how-many-per-day = Harika! Günde kaç kayıt?
 how-many-a-week = Harika! Haftada kaç kayıt?
 which-goal-type = Konuşmak mı, dinlemek mi yoksa ikisini birden mi yapmak istiyorsunuz?
