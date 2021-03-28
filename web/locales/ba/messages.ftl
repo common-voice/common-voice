@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Эйе, миңә электрон хаттар ебәрегеҙ. Common Voice проекты тураһында хәбәрҙар булғым килә
+yes-receive-emails = Эйе, миңә электрон хаттар ебәрегеҙ. Мин Common Voice проекты яңылыҡтары менән танышып тораһым килә.
 stayintouch = Mozilla'ла беҙ тауыш технологиялары буйынса  берләшмә туплайбыҙ. Һеҙҙе үҙебеҙҙең хәбәрҙәр, яңы мәғлүмәт сығанаҡтары менән таныштырғыбыҙ һәм был мәғлүмәттәрҙе нисек ҡулланыуығыҙ тураһында күберәк белгебеҙ килә.
 privacy-info = Һеҙҙең мәғлүмәттәр менән һаҡсыл эш итергә вәғәҙә итәбеҙ. Был турала беҙҙең  <privacyLink>Хосусилыҡ хаҡындағы аңлатмабыҙҙы </privacyLink> ентекле уҡығыҙ.
 return-to-cv = Common Voice-ға кире ҡайтырға
@@ -661,7 +661,7 @@ record-error-too-short = Яҙма бигерәк ҡыҫҡа булды
 record-error-too-long = Яҙма бигерәк оҙон
 record-error-too-quiet = Яҙмалағы тауыш бигерәк шым булды
 record-cancel = Ҡабатлап яҙҙырыуҙы туҡтатыу
-record-instruction = { $actionType }<recordIcon></recordIcon> аҙаҡ һөйләмде ҡысҡырып уҡығыҙ
+record-instruction = <recordIcon></recordIcon> кнопкаһына { $actionType },  аҙаҡ һөйләмде ҡысҡырып уҡығыҙ
 record-stop-instruction = Уҡып бөткәс { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = Өсәү ҡалды!
 record-again-instruction = Афарин! Киләһе яҙманы яҙығыҙ
@@ -678,7 +678,7 @@ record-abort-text = Хәҙер тамамлаһағыҙ, эшләгән эшег
 record-abort-submit = Яҙыуҙы ебәрергә
 record-abort-continue = Яҙыуҙы тамамларға
 record-abort-delete = Сығырға & яҙмаларҙы юйырға
-listen-instruction = { $actionType }<playIcon></playIcon> һөйләм дөрөҫ уҡылдымы?
+listen-instruction = <playIcon></playIcon> ға { $actionType } һәм һөйләм дөрөҫ уҡылдымы тикшер?
 listen-again-instruction = Бик шәп! <playIcon></playIcon> Әҙер булғас тағы тыңлағыҙ
 listen-3rd-time-instruction = 2 әҙер <playIcon></playIcon> дауам итегеҙ
 listen-last-time-instruction = <playIcon></playIcon> Һуңғыһы
