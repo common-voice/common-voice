@@ -177,7 +177,7 @@ privacy = Хосусилек
 terms = Шарттар
 cookies = Кукилар
 faq = Йыш бирелгән һорауҙар
-content-license-text = Йөкмәткеһе Creative Commons</licenseLink>тың  лицензияһы <licenseLink>   менән  асыҡ
+content-license-text = Йөкмәткеһе <licenseLink>Creative Commons</licenseLink>тың  лицензияһы    менән  асыҡ
 share-title = Тауыштарын яҙҙырырға теләгән кешеләр табырға ярҙам итегеҙ беҙгә!
 share-text = Машинаны ысын кешеләр кеүек һөйләшергә өйрәтергә ярҙам итәйек, тауышығыҙҙы иғәнә итегеҙ { $link }
 link-copied = Һылтанма күсереп алынды
@@ -218,17 +218,17 @@ today = Бөгөн
 x-weeks-short =
     { $count ->
         [one] аҙна
-       *[other] аҙна
+       *[other] { $count } аҙна
     }
 x-months-short =
     { $count ->
         [one] ай
-       *[other] ай
+       *[other] { $count } ай
     }
 x-years-short =
     { $count ->
         [one] йыл
-       *[other] йыл
+       *[other] { $count } йыл
     }
 help-make-dataset = Юғары сифатлы, һәр кемгә асыҡ мәғлүмәттәр йыйылмаһын булдырырға ярҙам итегеҙ
 sign-up-account = Аккаунт булдырыр өсөн теркәлегеҙ
@@ -290,8 +290,8 @@ status-title = Проекттың дөйөм торошо: ҡарағыҙ, ни 
 status-contribute = Тауышыңды өҫтә
 status-hours =
     { $hours ->
-        [one] тағы тикшерелгән { $hours } сәғәт
-       *[other] әлегә тиклем тикшерелгән { $hours } сәғәттәр
+        [one] әлегә бер сәғәт тикшерелгән
+       *[other] { $hours } сәғәт әлегә тикшерелгән
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -648,8 +648,8 @@ goal-help-recording = Һеҙ Common Voice көнлөк { $goalValue } маҡса
 goal-help-validation = Һеҙ Common Voice'ҡа көндәлек  тикшереү маҡсатының { $goalValue }  <goalPercentage></goalPercentage> күрһәткесен ирешергә ярҙам иттегеҙ!
 contribute-more =
     { $count ->
-        [one] Тағы { $count } тапҡыр эшләргә әҙерһегеҙмме?
-       *[other] Тағы { $count } тапҡыр эшләргә әҙерһегеҙмме?
+        [one] Тағы { $count } тапҡыр эшләргә әҙерһегеҙме?
+       *[other] Тағы { $count } тапҡыр эшләргә әҙерһегеҙме?
     }
 record-cta = Яҙҙыра башлау
 record-platform-not-supported = Үкенескә ҡаршы, әлегә һеҙҙең платформа эшләмәй
