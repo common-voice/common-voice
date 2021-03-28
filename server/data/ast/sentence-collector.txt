@@ -10,7 +10,6 @@ A vegaes, la brenga ye terrible.
 A vegaes, la llerza fai que la xente faiga coses desafortunaes.
 A vegaes, la roxura fai que la xente faiga coses desafortunaes.
 A ver qué pue facer.
-Accedi fácilmente a los sitios que más visites.
 Afalar y collaborar con campañes de normalización llingüística.
 Agora unviámos-yos otra señal a París.
 Agora vamos recuperar el botín.
@@ -78,7 +77,6 @@ El cuartu planeta yera'l más pequeñín.
 El códigu postal qu'apurriesti nun ye válidu.
 El desendolcador nun apurrió'l rexistru de cambeos.
 El dibuxu d'inxeniería produz dibuxos d'inxeniería.
-El fallu del xuráu daráse a conocer nel plazu d’un mes.
 El fueu y l'aire vienen del cielu.
 El gas natural trespórtase per gasoductos.
 El mieu a la muerte y a la enfermedá.
@@ -144,7 +142,6 @@ El secretu l'aceru siempres foi un misteriu.
 El segador de la paya, come más que trabaya.
 El señor honráu meyor rotu que remendáu.
 El so nome vien de la mitoloxía griega.
-El sol de marzu, fiere como un mazu.
 El sol de sierra engaña a la vieya.
 El sol que sal debaxo la nublina, saca'l güe debaxo la muḷḷida
 El sol sí que sal, neñín, y sal pa tou vecín.
@@ -208,7 +205,6 @@ Escueyi un marcador pa que seya la to páxina d'aniciu.
 Esi home ta vivu por ti.
 Esi mozu tovía, a vegaes, ablúcame.
 Esisten testimonios bien antiguos del poblamientu na zona.
-Esistió una llinia de fortificaciones de los milicianos en L’Altu Ventana y Agüeria.
 Esos momentos tan raros significaben muncho pa ellos.
 Espera hasta que carguen los datos.
 Espérate un restolador rediseñáu dafechu.
@@ -239,7 +235,6 @@ Hai perpoca vida d'animales vertebraos na islla, sacante dellos páxaros marinos
 Hai una descarga en cursu con esti nome.
 Hai una descarga pendiente con esti nome.
 Has permitir l'accesu al micrófonu.
-Hasta’l momentu asoleyamos los informes que van darréu.
 Hebo un fallu al aniciar la reproducción.
 Hebo un fallu al executar l'aición.
 Hebo un fallu al parar la reproducción.
@@ -268,9 +263,7 @@ La data de caducidá qu'introduxesti nun ye válida.
 La esistencia d'un oxetivu escontra'l que s'enfoca l'alministración.
 La fras contién pallabres o frases que son difíciles de lleer o pronunciar.
 La fras ta escrita nuna llingua distinta a la que falo.
-La llingua va camudar namás que se reanicie l'aplicación..
 La llingua ye comienzu d'equivocos.
-La presencia del asturianu n’internet ye clave pal futuru del idioma.
 La privacidá ye importante.
 La recuperación pol pueblu asturianu de la bayura del asturianu esixe actuaciones.
 La semeya que xubiesti ye pergrande.
@@ -333,7 +326,6 @@ Nun pasar: Faza curiada.
 Nun pue durar pa siempres.
 Nun quixo tomar determín p'abri-y un espediente.
 Nun respetar la llei vuélvela papel moyao.
-Nun roblaron la «Declaración de los Derechos del Home».
 Nun s'afitaron les condiciones amañoses pa llogralo.
 Nun s'atoparon aplicaciones compatibles.
 Nun s'atopó la llinia especificada.
@@ -375,8 +367,6 @@ Quesu ensin pan ye malo.
 Quéxase l'albarda, cánsase'l pollín.
 Quí­xivos siempre y tovía lo faigo.
 Rasgos más específicos del asturianu cultu o xeneral.
-Reclamar un estatus xurídicu d’oficialidá pal asturianu dientro de los organismos europeos.
-Representaba’l poder episcopal na zona la familia Bernaldo de Quirós.
 Rubién de cena bon día espera, si lloviendo nun se queda.
 Sabía que'l partíu tenía munchu interés nel tema.
 Sentí falar muncho de ti.
