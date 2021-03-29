@@ -117,6 +117,7 @@ nn-NO = Яңа норвегча
 oc = Окситанча
 or = Одия
 pa-IN = Пунжаб
+pap-AW = Папиаменто (Аруба)
 pl = Полякча
 ps = Пушту
 pt = Португалча
@@ -855,6 +856,7 @@ demo-account-sign-up = Теркәлү өчен сылтама җибәрү
 
 ## Demo Contribute
 
+demo-contribute-card-header = Тавышыгызны өстәргә йә башкаларны тыңларга әзерсезме?
 demo-listen-subtitle = Үз өлешеңне кертергә әзерсеңме?
 
 ## Demo Dashboard
