@@ -67,6 +67,7 @@ ro = रोमेनियन
 ru = रशियन
 si = सिंहली
 sk = स्लोवाक
+so = सोमाली
 sr = सर्बियन
 sv-SE = स्विडीश
 sw = स्वाहिली
@@ -322,6 +323,8 @@ download = डाउनलोड करा
 
 ## Contact Modal
 
+contact-form-name =
+    .label = नाव
 
 ## Request Language Modal
 
