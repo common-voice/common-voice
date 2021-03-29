@@ -517,9 +517,15 @@ confirm-goal = ध्येय निश्चित करा
 goal-interval-weekly = साप्ताहिक
 share-goal-type-speak = बोलणे
 share-goal-type-listen = ऐकणे
+share-goal-type-both = बोलणे आणि ऐकणे
+weekly-goal-created = आपले साप्ताहिक ध्येय तयार केले गेले आहे
+daily-goal-created = आपले दैनिक ध्येय तयार केले गेले आहे
+track-progress = येथे आपल्या आकडेवारी पृष्ठावरील प्रगतीचा मागोवा घ्या.
 
 ## Profile Delete
 
+keep = ठेवा
+remove = काढून टाका
 profile-form-delete = प्रोफाइल काढून टाका.
 
 ## Landing
