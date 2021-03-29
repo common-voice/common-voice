@@ -304,34 +304,57 @@ data-download-yes = हो
 data-download-deny = नाही
 data-other-title = अन्य व्हॉईस डेटासेट ...
 data-other-goto = { $hostname } वर जा
+release-version = आवृत्ती
 dataset-date = दिनांक
+license-mixed = संमिश्र
+terms-agree = मी सहमत आहे
+terms-disagree = मी सहमत नाही
+review-aborted = अपलोड रद्द केले. आपण आपले रेकॉर्डिंग हटवू इच्छिता?
 review-rerecord = पुन्हा रेकॉर्ड करा
+review-cancel = सबमिशन रद्द करा
 review-keep-recordings = रेकॉर्डिंग ठेवा
 review-delete-recordings = माझे रेकॉर्डिंग काढून टाका.
 
 ## Datasets Page
 
 language = भाषा
+validated-hr-total = प्रमाणित तास एकूण
+overall-hr-total = एकूण तास
 size-gigabyte = जीबी
 size-megabyte = एमबी
+download-language = { $language } डाउनलोड करा
+validated-hours = प्रमाणित तास
+recorded-hours = रेकॉर्ड केलेले तास
+subscribe = सबस्क्राइब करा
+other-datasets = इतर व्हॉइस डेटासेट
+feedback-q = अभिप्राय आहे?
+go-discourse = Discourse वर जा
 more = अधिक
 close = बंद करा
 download = डाउनलोड करा
+dataset-version = आवृत्ती
 
 ## Download Modal
 
+download-title = आपले डाउनलोड सुरु झाले आहे.
+download-back = कॉमन व्हॉईस डेटासेटवर परत जा
+download-no = नाही धन्यवाद
 
 ## Contact Modal
 
+contact-title = संपर्क फॉर्म
 contact-form-name =
     .label = नाव
 contact-form-message =
     .label = संदेश
+contact-required = * आवश्यक
 
 ## Request Language Modal
 
+request-language-title = भाषेची विनंती
 request-language-form-language =
     .label = भाषा
+request-language-success-title = भाषा विनंती यशस्वीरित्या सबमिट केली, धन्यवाद.
 select-language = एक भाषा निवडा ...
 other-language = इतर भाषा
 
