@@ -325,18 +325,49 @@ download = डाउनलोड करा
 
 contact-form-name =
     .label = नाव
+contact-form-message =
+    .label = संदेश
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = भाषा
+select-language = एक भाषा निवडा ...
+other-language = इतर भाषा
 
 ## Languages Overview
 
+language-meter-in-progress = प्रगती
+language-total-progress = एकूण
+language-search-input =
+    .placeholder = शोधा
+sentences = वाक्ये
+total-hours = प्रमाणित तास
 
 ## Contribution
 
+action-click = क्लिक करावे
+action-tap = टॅप करावे
+contribute = योगदान द्या
+listen = ऐका
+record-cta = रेकॉर्डिंग सुरु करा
+record-must-allow-microphone = आपण मायक्रोफोन वापरास अनुमती देणे आवश्यक आहे.
+record-no-mic-found = कोणताही मायक्रोफोन आढळला नाही.
+record-error-too-short = रेकॉर्डिंग खूपच लहान होते.
+record-error-too-long = रेकॉर्डिंग खूपच लांब होते.
+record-cancel = पुन्हा रेकॉर्डिंग रद्द करा
+record-three-more-instruction = अजून तीन बाकी
+record-again-instruction = उत्तम! <recordIcon> </recordIcon> आपली पुढील क्लिप रेकॉर्ड करा
+record-last-instruction = <recordIcon> </recordIcon> शेवटचे!
+speak-empty-state = या भाषेमध्ये रेकॉर्ड करण्यासाठी आमच्याकडे उपलब्ध वाक्ये संपली आहेत ...
+record-button-label = आपला आवाज रेकॉर्ड करा
+login-to-get-started = सुरु करण्यासाठी लॉग इन करा किंवा साइन अप करा
+target-segment-learn-more = अधिक जाणून घ्या
 
 ## Reporting
 
+report-ask = आपण या वाक्यात कोणत्या समस्या अनुभवत आहात?
+report-offensive-language = आक्षेपार्ह भाषा
 
 ## Goals
 
