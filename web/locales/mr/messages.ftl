@@ -255,7 +255,9 @@ email-subscriptions = ईमेल सदस्यता
 download-profile = आपला डेटा डाउनलोड करा
 contribution-experience = योगदानाचा अनुभव
 skip-submission-feedback = सबमिशन अभिप्राय वगळा
+avatar-clip-title = आपल्या अवतारला आवाज द्या
 change-your-avatar-clip = आपली व्हॉइस क्लिप बदलू इच्छिता?
+avatar-clip-recorded = आपल्या अवतारात आता व्हॉईस क्लिप समाविष्ट आहे!
 retry-voice-wave-recording = पुन्हा प्रयत्न करा
 re-record = पुन्हा रेकॉर्ड करा
 delete-voice = हटवा
@@ -273,18 +275,30 @@ add-language = भाषा जोडा
 faq-title = नेहमीचे प्रश्न
 faq-what-cv-q = Common Voice काय आहे?
 faq-why-important-q = हे महत्वाचे का आहे?
+faq-how-get-q = मी कॉमन व्हॉईस डेटा कसा मिळवू शकतो?
+faq-how-get-a = कॉमन व्हॉईस डेटासेट <licenseLink> CC0</licenseLink> परवान्या अंतर्गत<datasetLink> आमच्या डेटासेट पृष्ठावर </ datasetLink>डाउनलोड करण्यासाठी उपलब्ध आहे. आपण त्याच पृष्ठावरून सार्वजनिकपणे उपलब्ध इतर अनेक डेटासेट देखील डाउनलोड करू शकता.
+faq-when-release2-q = आपण इतर भाषांमध्ये कॉमन व्हॉईस डेटा कधी जाहीर कराल?
+faq-why-mission-q = कॉमन व्हॉईस मोझिला मिशनचा भाग का आहे?
+faq-is-goal-assistant-q = कॉमन व्हॉईसचे व्हॉईस सहाय्यक तयार करण्याचे उद्दीष्ट आहे का?
+faq-why-different-speakers-q = आपल्याला प्रत्येक भाषेत इतक्या वेगवेगळ्या स्पीकर्सची आवश्यकता का आहे?
 faq-why-my-lang-q = माझी भाषा अद्याप समाविष्ट का नाही?
+faq-how-calc-hours-q = कॉमन व्हॉईस तासांची गणना कशी करतात?
+faq-where-src-from-2-q = स्त्रोत मजकूर कोठून कुठून येतो?
 faq-why-account-q = मी खात्यासाठी साइन अप का करावे?
 faq-is-account-public-q = माझी खाते माहिती सार्वजनिक आहे?
+faq-how-privacy-q = ज्यांनी आवाज दिला त्या लोकांची अनामिकता आणि गोपनीयता आपण कशी सुनिश्चित करता?
 faq-what-is-cv = Common Voice काय आहे?
+faq-using-cv = कॉमन व्हॉईस वापरणे
 faq-search-for-answers =
     .label = उत्तरे शोधा
 
 ## ABOUT US
 
 how-does-it-work-title = हे कसे काम करते?
+about-speak-text = योगदानकर्ता दान केलेल्या वाक्यांमधून वाचून व्हॉइस क्लिप रेकॉर्ड करतात.
 about-listen = ऐका
 about-is-it-valid = क्लिप वैध आहे का?
+about-is-it-valid-text = वापरकर्त्याने हो मत दिले की व्हॉइस क्लिपला "वैध" चिन्हांकित केले जाते.
 about-yes-votes = २ किंवा त्यापेक्षा अधिक होय मते
 about-no-votes = २ किंवा त्यापेक्षा अधिक नाही मते
 about-dataset-new = कॉमन व्हॉईस डेटासेट
@@ -305,6 +319,7 @@ mycroft-subtitle = कृत्रिम बुद्धिमत्ता
 sentence-collection = वाक्य संग्रह
 sentence-collection-explanation = सार्वजनिक डोमेनमधून वाक्य गोळा करणे किंवा सार्वजनिक डोमेनसाठी नवीन लिहिणे.
 hours-recorded-explanation = आतापर्यंत आम्ही संकलित केलेल्या व्हॉईस रेकॉर्डिंग तासांची संख्या.
+sst = स्पीच टू टेक्स्ट (एसटीटी)
 sst-explanation = स्पीच-टू-टेक्स्ट (एसटीटी) तंत्रज्ञान व्हॉईस डेटाला मजकूरामध्ये रूपांतरित करते.
 
 ## Error pages
@@ -318,6 +333,7 @@ data-download-yes = हो
 data-download-deny = नाही
 data-other-title = अन्य व्हॉईस डेटासेट ...
 data-other-goto = { $hostname } वर जा
+data-other-download = डेटा डाउनलोड करा
 data-bundle-button = डेटासेट बंडल डाउनलोड करा
 release-version = आवृत्ती
 dataset-date = दिनांक
@@ -333,13 +349,19 @@ review-delete-recordings = माझे रेकॉर्डिंग काढ
 ## Datasets Page
 
 language = भाषा
+# File size in gigabytes
+size = आकार
 validated-hr-total = प्रमाणित तास एकूण
 overall-hr-total = एकूण तास
+number-of-voices = आवाजांची संख्या
+email-to-download = डाउनलोड करण्यासाठी ईमेल प्रविष्ट करा
+confirm-size = आपण <b> { $size } </ b> डाउनलोड करण्यास सज्ज आहात
 size-gigabyte = जीबी
 size-megabyte = एमबी
 download-language = { $language } डाउनलोड करा
 validated-hours = प्रमाणित तास
 recorded-hours = रेकॉर्ड केलेले तास
+whats-inside = कॉमन व्हॉईस डेटासेटमध्ये काय आहे?
 subscribe = सबस्क्राइब करा
 other-datasets = इतर व्हॉइस डेटासेट
 feedback-q = अभिप्राय आहे?
