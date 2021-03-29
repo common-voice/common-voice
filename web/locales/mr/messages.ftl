@@ -350,7 +350,9 @@ action-click = क्लिक करावे
 action-tap = टॅप करावे
 contribute = योगदान द्या
 listen = ऐका
+shortcuts = शॉर्टकट्स
 record-cta = रेकॉर्डिंग सुरु करा
+record-platform-not-supported-desktop = डेस्कटॉप डिव्हाइसवर आपण … डाउनलोड करुन योगदान देऊ शकता
 record-must-allow-microphone = आपण मायक्रोफोन वापरास अनुमती देणे आवश्यक आहे.
 record-no-mic-found = कोणताही मायक्रोफोन आढळला नाही.
 record-error-too-short = रेकॉर्डिंग खूपच लहान होते.
@@ -362,19 +364,51 @@ record-last-instruction = <recordIcon> </recordIcon> शेवटचे!
 speak-empty-state = या भाषेमध्ये रेकॉर्ड करण्यासाठी आमच्याकडे उपलब्ध वाक्ये संपली आहेत ...
 record-button-label = आपला आवाज रेकॉर्ड करा
 login-to-get-started = सुरु करण्यासाठी लॉग इन करा किंवा साइन अप करा
+target-segment-add-voice = आपला आवाज जोडा
 target-segment-learn-more = अधिक जाणून घ्या
 
 ## Reporting
 
+report = तक्रार
+report-title = तक्रार करा
 report-ask = आपण या वाक्यात कोणत्या समस्या अनुभवत आहात?
 report-offensive-language = आक्षेपार्ह भाषा
+report-offensive-language-detail = वाक्यात अनादरयुक्त किंवा आक्षेपार्ह भाषा आहे.
+report-grammar-or-spelling = व्याकरण / शब्दलेखन त्रुटी
+report-grammar-or-spelling-detail = वाक्यात व्याकरणात्मक किंवा शब्दलेखन त्रुटी आहे.
+report-different-language = वेगळी भाषा
+report-different-language-detail = हे मी बोलत असलेल्या भाषेपेक्षा वेगळ्या भाषेत लिहिले आहे.
+report-difficult-pronounce = उच्चारण्यास कठीण
+report-difficult-pronounce-detail = यामध्ये असे शब्द किंवा वाक्ये आहेत जे वाचणे किंवा उच्चार करणे कठीण आहे.
+report-offensive-speech = आक्षेपार्ह भाषा
+report-offensive-speech-detail = क्लिपमध्ये अनादरयुक्त किंवा आक्षेपार्ह भाषा आहे.
+report-other-comment =
+    .placeholder = टिप्पणी
+continue = सुरू ठेवा
 
 ## Goals
 
+days =
+    { $count ->
+        [one] दिवस
+       *[other] दिवस
+    }
+recordings =
+    { $count ->
+        [one] रेकॉर्डिंग
+       *[other] रेकॉर्डिंग
+    }
 
 ## Dashboard
 
 your-languages = आपल्या भाषा
+toward-next-goal = पुढील ध्येयाकडे
+goal-reached = ध्येय पूर्ण
+clips-you-recorded = आपण रेकॉर्ड केलेल्या क्लिप
+clips-you-validated = आपण प्रमाणित केलेल्या क्लिप
+stats = आकडेवारी
+awards = पुरस्कार
+you = आपण
 
 ## Custom Goals
 
