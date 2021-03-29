@@ -513,6 +513,11 @@ activity-needed-calculation-plural =
         [one] क्लिप
        *[other] क्लिप
     }दर दिवशी
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } क्लिप
+       *[other] { $count } क्लिप
+    }
 confirm-goal = ध्येय निश्चित करा
 goal-interval-weekly = साप्ताहिक
 share-goal-type-speak = बोलणे
