@@ -21,6 +21,10 @@ not-available-abbreviation = लागू नाही
 
 ## Languages
 
+ab = अबखास
+ady = अडिगे
+af = आफ्रिकान्स
+am = अम्हारिक
 ar = अरबी
 as = आसामी
 az = अझरबैजानी
