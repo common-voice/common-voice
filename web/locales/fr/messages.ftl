@@ -117,6 +117,7 @@ nn-NO = Norvégien nynorsk
 oc = Occitan
 or = Odia
 pa-IN = Pendjabi
+pap-AW = Papiamento (Aruba)
 pl = Polonais
 ps = Pachto
 pt = Portugais
