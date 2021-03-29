@@ -273,10 +273,19 @@ faq-what-cv-q = Common Voice काय आहे?
 faq-why-important-q = हे महत्वाचे का आहे?
 faq-why-my-lang-q = माझी भाषा अद्याप समाविष्ट का नाही?
 faq-why-account-q = मी खात्यासाठी साइन अप का करावे?
+faq-is-account-public-q = माझी खाते माहिती सार्वजनिक आहे?
+faq-what-is-cv = Common Voice काय आहे?
+faq-search-for-answers =
+    .label = उत्तरे शोधा
 
 ## ABOUT US
 
+how-does-it-work-title = हे कसे काम करते?
 about-listen = ऐका
+about-is-it-valid = क्लिप वैध आहे का?
+about-yes-votes = २ किंवा त्यापेक्षा अधिक होय मते
+about-no-votes = २ किंवा त्यापेक्षा अधिक नाही मते
+about-dataset-new = कॉमन व्हॉईस डेटासेट
 about-clip-graveyard = क्लिप ग्रेव्हयार्ड
 about-clip-graveyard-text = क्लिप ग्रेव्हयार्ड मध्ये अशा व्हॉइस क्लिप असतात ज्या कॉमन व्हॉईस डेटासेटमध्ये निवडल्या जात नाहीत. डेटासेट प्रमाणेच, क्लिप ग्रेव्हयार्डही डाउनलोड करण्यासाठी उपलब्ध आहे.
 about-partners = भागीदार
@@ -291,6 +300,9 @@ mycroft-subtitle = कृत्रिम बुद्धिमत्ता
 
 ## Glossary
 
+sentence-collection = वाक्य संग्रह
+sentence-collection-explanation = सार्वजनिक डोमेनमधून वाक्य गोळा करणे किंवा सार्वजनिक डोमेनसाठी नवीन लिहिणे.
+hours-recorded-explanation = आतापर्यंत आम्ही संकलित केलेल्या व्हॉईस रेकॉर्डिंग तासांची संख्या.
 sst-explanation = स्पीच-टू-टेक्स्ट (एसटीटी) तंत्रज्ञान व्हॉईस डेटाला मजकूरामध्ये रूपांतरित करते.
 
 ## Error pages
@@ -304,6 +316,7 @@ data-download-yes = हो
 data-download-deny = नाही
 data-other-title = अन्य व्हॉईस डेटासेट ...
 data-other-goto = { $hostname } वर जा
+data-bundle-button = डेटासेट बंडल डाउनलोड करा
 release-version = आवृत्ती
 dataset-date = दिनांक
 license-mixed = संमिश्र
