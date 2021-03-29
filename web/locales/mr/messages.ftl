@@ -101,6 +101,7 @@ help = मदत
 contact = संपर्क
 privacy = गोपनीयता
 terms = अटी
+cookies = कूकिज
 faq = नेहमी विचारले जाणारे प्रश्न
 content-license-text = <licenseLink>क्रिएटिव्ह कॉमन्स </licenseLink>परवान्या अंतर्गत उपलब्ध मजकूर
 share-title = आवाज दान करु इच्छिणाऱ्या इतरांना शोधण्यास आम्हाला मदत करा!
@@ -204,6 +205,7 @@ shortcut-record-toggle-label = रेकॉर्ड करा/ थांबा
 shortcut-rerecord-toggle = [१-५]
 shortcut-rerecord-toggle-label = क्लिप पुन्हा रेकॉर्ड करा
 request-language-text = Common Voice वर आपली भाषा अद्याप दिसत नाही?
+request-language-button = भाषेची विनंती करा
 
 ## ProjectStatus
 
