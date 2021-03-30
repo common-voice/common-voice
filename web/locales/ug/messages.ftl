@@ -462,7 +462,9 @@ error-code = خاتالىق { $code }
 data-download-button = Common Voice سانلىق مەلۇماتلىرىنى چۈشۈرۈڭ
 data-download-yes = ھەئە
 data-download-deny = ياق
+data-download-license = ئىجازەتنامە: <licenseLink> CC-0 </licenseLink>
 data-download-modal = سىز <size>{ $size }GB</size> نى چۈشۈرۈشنى باشلىماقچى بولۇۋاتىسىز؟
+data-other-title = باشقا ئاۋاز توپلىمى…
 data-other-download = سانلىق مەلۇماتنى چۈشۈرۈش
 release-version = نەشرى
 dataset-date = چېسلا
@@ -488,6 +490,7 @@ number-of-voices = ئاۋاز سانى
 email-to-download = چۈشۈرۈش ئۈچۈن ئېلخەت ئادرېسىڭىزنى كىرگۈزۈڭ
 size-gigabyte = GB
 size-megabyte = MB
+download-language = { $language }نى چۈشۈر
 subscribe = مۇشتەرى بولۇش
 feedback-q = تەكلىپ-پىكرىڭىز بارمۇ؟
 go-discourse = سۆزلەڭ
@@ -573,9 +576,15 @@ days =
 
 your-languages = سىزنىڭ تىلىڭىز
 awards = مۇكاپات
+everyone = ھەممەيلەن
 
 ## Custom Goals
 
+daily-goal = كۈندىلىك نىشان
+weekly-goal = ھەپتىلىك نىشان
+easy-difficulty = ئاسان
+average-difficulty = ئوتتۇرىچە
+difficult-difficulty = قىيىن
 confirm-goal = نىشاننى جەزملەشتۈرۈڭ
 goal-interval-weekly = ھەپتىلىك
 share-goal-type-speak = سۆزلەش
@@ -587,13 +596,17 @@ share-goal = نىشانىمنى ئورتاقلىشىڭ
 
 ## Profile Delete
 
+keep = ساقلا
+remove = چىقىرىۋەت
 profile-form-delete = ئارخىپنى ئۆچۈرۈڭ
 
 ## Landing
 
+welcome-staff = { $company } خىزمەتچىلىرىنى قارشى ئالىمىز!
 
 ## DemoLayout
 
+demo-welcome = Common Voice گە خۇش كەپسىز
 
 ## Demo Datasets
 
