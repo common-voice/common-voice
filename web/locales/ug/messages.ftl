@@ -600,12 +600,17 @@ profile-form-delete = ئارخىپنى ئۆچۈرۈڭ
 card-button-next = كېيىنكى
 card-button-back = قايتىش
 demo-language-select-label = تىللارنى كۆرۈڭ
+demo-account = ھېسابات
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = تىزىملىتىش ئ‍ۇلىنىشى ئۈچۈن ئېلخېتىڭىزنى كىرگۈزۈڭ
+demo-account-sign-up = تىزىملىتىش ئۇلانمىسىنى ئەۋەتىڭ
 
 ## Demo Contribute
 
+demo-listen-subtitle = تۆھپە قوشۇشقا تەييارمۇ سىز؟
 
 ## Demo Dashboard
 
