@@ -117,6 +117,7 @@ nn-NO = Nynorsk noruegu
 oc = Occitanu
 or = Odia
 pa-IN = Punxabi
+pap-AW = Papiamentu (Aruba)
 pl = Polacu
 ps = Paxtu
 pt = Portugués
