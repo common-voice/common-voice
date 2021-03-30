@@ -117,6 +117,7 @@ nn-NO = Na Uy Nynorsk
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Ba Lan
 ps = Pashto
 pt = Bồ Đào Nha
