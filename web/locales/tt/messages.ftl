@@ -520,6 +520,7 @@ dataset-date = Дата
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Кушма
 data-download-singleword-title = Берсүзле максат сегментны йөкләгез
+data-download-singleword-callout-v2 = Бу сегмент — махсус куллану очракларына тәгаенләнгән сегмент, ул үз эченә цифр исемнәрен һәм «әйе»/«юк»сүзләрен тануга кирәкле мәгълүмат ала.
 review-terms = Common Voice'ны куллануыгыз аша Сез безнең <termsLink>Шартлар</termsLink> һәм <privacyLink>Хосуйсыйлык сәясәте</privacyLink> белән килешәсез.
 terms-agree = Риза
 terms-disagree = Риза түгел
@@ -756,6 +757,7 @@ validated-clips = Тикшерелгән клиплар
 total-approved = Барлык исбатланганнар
 overall-accuracy = Гомуми төгәллек
 set-visibility = Күренүчәнлек дәрәҗәсен көйләү
+visibility-explainer = Бу параметр Сезнен лидерлар исемлегендә күренү-күренмәвегез өчен җавалы. Әгәр яшерен икәнсез, Сезнең алга китеш башкаларга күренми. Башкача әйткәндә, сүрәтегез, исемегез һәм ирешкән саннарыгыз лидерлар исемлегендә күрсәтелмәячәк. Лидерлар исемлеге якынча { $minutes } минут саен яңартылып тора икәнен искәртәбез.
 visibility-overlay-note = Искәрмә: «Күренсен» диелгән булса, бу параметрны <profileLink>профиль битендә</profileLink> үзгәртеп була.
 show-ranking = Минем рейтингымны күрсәт
 
@@ -789,6 +791,20 @@ help-reach-hours-general-pluralized =
     }аудиоязма җыярга ярдәм итегез
 set-a-goal = Максат кую
 cant-decide = Бер карарга килә алмыйсызмы?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } сәгать
+       *[other] { $totalHours } сәгать
+    }эчендә генә ирешеп була { NUMBER($periodMonths) ->
+        [one] { $periodMonths } ай
+       *[other] { $periodMonths } ай
+    }әгәр{ NUMBER($people) ->
+        [one] { $people } кеше
+       *[other] { $people } кеше
+    }яздырса{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } аудиоязма
+       *[other] { $clipsPerDay } аудиоязма
+    }көненә
 how-many-per-day = Шәп! Көнгә ничә аудиоязма?
 how-many-a-week = Шәп! Атнага ничә аудиоязма?
 which-goal-type = Сөйлисегез киләме, тыңлыйсыгызмы, әллә икесе дә?
@@ -853,6 +869,7 @@ demo-account = Аккаунт
 
 ## Demo Account
 
+demo-account-card-header = Үз өлешеңне кертү өчен хисап язмасының булуы мәҗбүри түгел, гәрчә ул файдалы булса да
 demo-account-enter-email =
     .label = Теркәлүгә сылтама алу өчен эл. почтагызны языгыз
 demo-account-sign-up = Теркәлү өчен сылтама җибәрү
