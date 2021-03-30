@@ -563,15 +563,31 @@ report-different-language-detail = مەن سۆزلەيدىغان تىلغا ئو
 
 ## Goals
 
+days =
+    { $count ->
+        [one] كۈن
+       *[other] كۈنلەر
+    }
 
 ## Dashboard
 
+your-languages = سىزنىڭ تىلىڭىز
+awards = مۇكاپات
 
 ## Custom Goals
 
+confirm-goal = نىشاننى جەزملەشتۈرۈڭ
+goal-interval-weekly = ھەپتىلىك
+share-goal-type-speak = سۆزلەش
+share-goal-type-listen = ئاڭلاش
+share-goal-type-both = سۆزلەش ۋە ئاڭلاش
+weekly-goal-created = ھەپتىلىك نىشانىڭىز بېكىتىلدى.
+daily-goal-created = كۈندىلىك نىشانىڭىز بېكىتىلدى.
+share-goal = نىشانىمنى ئورتاقلىشىڭ
 
 ## Profile Delete
 
+profile-form-delete = ئارخىپنى ئۆچۈرۈڭ
 
 ## Landing
 
@@ -581,6 +597,9 @@ report-different-language-detail = مەن سۆزلەيدىغان تىلغا ئو
 
 ## Demo Datasets
 
+card-button-next = كېيىنكى
+card-button-back = قايتىش
+demo-language-select-label = تىللارنى كۆرۈڭ
 
 ## Demo Account
 
