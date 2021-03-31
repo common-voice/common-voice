@@ -369,9 +369,14 @@ ready-to-upload = अपलोड
 avatar-clip-fact = पानाचा लेआउट पाहता, पानाच्या वाचनीयतेमुळे वाचक विचलित होईल हे एक प्रस्थापित सत्य आहे.
 recreate-voice = व्हॉईसवेव्ह पुन्हा तयार करा.
 cancel-avatar-clip-recording = रद्द करा
+about-avatar-clip-recording = आपल्या प्रोफाइल अवतारचा भाग म्हणून व्हॉइस क्लिप तयार करा. इतर आपली क्लिप फिरवण्यास आणि ऐकण्यास सक्षम असतील.
+browse-file-title = एक छायाचित्र अपलोड करा
+browse-file = ड्रॅग आणि ड्रॉप किंवा <ब्राऊज रॅप> ब्राउझ </ b> ब्राउझ </ b>
 connect-gravatar = Gravatar सह कनेक्ट करा
 gravatar_not_found = आपल्या ईमेलसाठी gravatar सापडले नाही
 file_too_large = निवडलेली फाईल खूप मोठी आहे
+manage-subscriptions = सदस्यत्वाचे व्यवस्थापन करा
+manage-email-subscriptions = इमेल सदस्यत्वाचे व्यवस्थापन करा
 add-language = भाषा जोडा
 
 ## FAQ
