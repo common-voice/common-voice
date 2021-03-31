@@ -22,6 +22,7 @@ module.exports = {
     publicPath: '/dist/',
     chunkFilename: '[name].js?id=[chunkhash]',
   },
+  stats: 'errors-only',
   devtool: 'source-map',
   resolve: {
     /**
@@ -100,7 +101,15 @@ module.exports = {
       filename: '../index.html',
       template: 'index_template.html',
     }),
-    new PreloadWebpackPlugin(),
+    new PreloadWebpackPlugin({
+      rel: 'preload',
+      include: 'initial',
+      as(entry) {
+        if (/\.css$/.test(entry)) return 'style';
+        if (/\.(png|svg|jpg|gif)$/.test(entry)) return 'image';
+        return 'script';
+      },
+    }),
     function () {
       this.hooks.watchRun.tap('Building', () =>
         console.log(chalk.yellow('Rebuilding…'))
