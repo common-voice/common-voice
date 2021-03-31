@@ -286,7 +286,7 @@ export default class API {
         await this.s3
           .upload({
             Key: fileName,
-            Bucket: getConfig().BUCKET_NAME,
+            Bucket: getConfig().CLIP_BUCKET_NAME,
             Body: body,
           })
           .promise();
