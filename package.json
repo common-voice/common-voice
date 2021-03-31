@@ -39,13 +39,15 @@
     "ssri": "^8.0.1"
   },
   "scripts": {
-    "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\" \"cd maintenance && yarn build\"",
+    "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\"",
     "build-common": "cd common && yarn build && cd ..",
+    "build-maint": "cd maintenance && yarn build && cd ..",
     "import-locales": "node scripts/import-locales",
     "lint": "prettier \"**/*.{ts,tsx}\"",
     "prettier": "yarn lint --write",
-    "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE,MT\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\" \"cd maintenance && yarn dev\"",
+    "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
     "start:prod": "yarn build-common && node server/js/main.js",
+    "start:maint": "cd maintenance && yarn dev",
     "test": "yarn build-common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && SERVER_CONFIG_PATH='../config.json' yarn test\""
   },
   "husky": {
