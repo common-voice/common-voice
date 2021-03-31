@@ -105,6 +105,7 @@ module.exports = {
       rel: 'preload',
       include: 'initial',
       as(entry) {
+        if (/\.css$/.test(entry)) return 'style';
         if (/\.(png|svg|jpg|gif)$/.test(entry)) return 'image';
         return 'script';
       },
