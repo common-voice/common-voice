@@ -504,7 +504,6 @@ data-bundle-description = Data fra Common Voice samt alle andre stemme-datasæt 
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 data-download-singleword-title = Hent målsegmentet med enkelte ord
-data-download-singleword-callout = Dette er et segment, der indeholder data til at understøtte genkendelse af talte tal, detektering af ja/nej og aktiveringsords-testdata til <fxLink>Firefox Voice</fxLink>.
 review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
 terms-agree = Jeg accepterer
 terms-disagree = Jeg accepterer ikke
@@ -783,7 +782,7 @@ activity-needed-calculation-plural =
     }optager{ NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } klip
        *[other] { $clipsPerDay } klip
-    }om dagen.
+    } om dagen.
 how-many-per-day = Godt! Hvor mange optagelser pr. dag?
 how-many-a-week = Godt! Hvor mange optagelser pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?
@@ -836,3 +835,18 @@ help-contribute = Du kan hjælpe med at bygge et mangfoldigt open source-datasæ
 login-company = Log ind / Tilmeld dig med en mailadresse fra { $company }
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
 read-more-about = Læs mere på vores Om-side
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

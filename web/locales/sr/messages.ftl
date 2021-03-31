@@ -72,6 +72,7 @@ he = Хебрејски
 hi = Хинди
 hr = Хрватски
 hsb = Горњолужичкосрпски
+ht = Хаићански
 hu = Мађарски
 hy-AM = Јерменски
 hyw = Западнојерменски
@@ -95,13 +96,17 @@ lg = Луганда
 lij = Лигурски
 lt = Литвански
 lv = Летонски
+mai = Маитхили
 mdf = Мокша
 mg = Малгашки
 mhr = Источни Мари
 mk = Македонски
 ml = Малајалам
 mn = Монголски
+mos = Моси
+mr = Маратхи
 mrj = Западни Мари
+ms = Малајски
 mt = Малтешки
 my = Бурмански
 myv = Ерзјански
@@ -112,7 +117,9 @@ nn-NO = Новонорвешки
 oc = Окситански
 or = Одија
 pa-IN = Панџаби
+pap-AW = Папијаменто (Аруба)
 pl = Пољски
+ps = Пашту
 pt = Португалски
 rm-sursilv = Романш
 rm-vallader = Романш Валадер
@@ -122,9 +129,11 @@ rw = Кињаруанди
 sah = Јакутски
 sc = Сардински
 scn = Сицилијански
+shi = Шилха
 si = Синхалески
 sk = Словачки
 sl = Словеначки
+so = Сомалски
 sq = Албански
 sr = Српски
 sv-SE = Шведски
@@ -139,6 +148,7 @@ tr = Турски
 tt = Татарски
 uby = Убишки
 udm = Удмуртски
+ug = Ујгурски
 uk = Украјински
 ur = Урду
 uz = Узбекистански
@@ -274,6 +284,7 @@ shortcut-record-toggle-label = Снимај/заустави
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Сними поново
 request-language-text = Још не видите ваш језик у пројекту Common Voice?
+request-language-text-learn = Сазнајте овде како да затражите!
 request-language-button = Затражи језик
 
 ## ProjectStatus
@@ -521,7 +532,7 @@ dataset-date = Датум
 license = Лиценца: <licenseLink>{ $license }</licenseLink>
 license-mixed = Помешано
 data-download-singleword-title = Преузмите циљни сегмент за једну реч
-data-download-singleword-callout = Ово је сегмент податка који је усмерен на случајеве употребе препознавања изговорених бројева, одговора да/не, те тестирање пробне речи за <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Ово је сегмент заснован на употреби који садржи податке који омогућавају препознавање изговорених цифара и да/не откривање.
 review-terms = Коришћењем Common Voice-а, слажете се са нашим  <termsLink>условима</termsLink> и  <privacyLink>политиком приватности</privacyLink>
 terms-agree = Слажем се
 terms-disagree = Не слажем се
@@ -561,15 +572,15 @@ confirm-no-identify = <b>Слажете се</b> да не покушавате 
 download-language = Преузми за { $language }
 validated-hours = Потврђених сати
 recorded-hours = Снимљених сати
-whats-inside = Шта се налази у Common Voice комплету података?
+whats-inside = Шта се налази у Common Voice бази података?
 dataset-description-hours =
     Сваки унос у базу података састоји се од јединственог MP3 и одговарајућег текстуалног фајла. Многи од <b>{ $total }</b> снимљенх сати у бази података укључују и демографске метаподатке као што су старост, пол и нагласак који могу помоћи у обуци тачности програма за препознавање говора.
     База података се тренутно састоји од <b>{ $valid }</b> потврђених сати у <b>{ $languages }</b> језицима, али увек додајемо више гласова и језика. Погледајте нашу страницу <languagesLink>Језици</languagesLink>  да бисте затражили језик или почели доприносити.
 want-dataset-update = Желите ли бити обавештени када објавимо нову верзију Common Voice скупа података? Претплатите се на наш билтен.
 subscribe = Пријавите се
 get-started-speech = Упознајте се са препознавањем говора
-other-datasets = Други скупови гласовних података
-feedback-q = Имате ли повратних података?
+other-datasets = Друге гласовне базе података
+feedback-q = Имате ли повратне информације?
 deepspeech-info = Common Voice скуп података надопуњује Mozilla-ин програм отвореног кода за препознавање гласа Deep Speech, који можете користити за изградњу апликација за препознавање говора. Прочитајте наш <githubLink>Github преглед</githubLink> или се придружите на<discourseLink>DeepSpeech Discourse</discourseLink>да бисте сазнали како започети.
 common-voice-info-new = Имате питања о Common Voice-у? Имате идеје за побољшање или повратне информације о одређеном језику? Придружите нам се на нашем <discourseLink>Discourse форуму</discourseLink> и реците нам.
 data-other-librispeech-description = LibriSpeech је збирка од отприлике 1000 сати енглеског читања на 16Khz, изведеног из аудио књига из LibriVox пројекта.
@@ -577,7 +588,7 @@ data-other-ted-name = TED-LIUM Збирка
 data-other-ted-description = TED-LIUM збирка је направљена од аудио разговора и њихових транскрипција, доступних на ТЕD веб страници.
 data-other-voxforge-description = VoxForge је постављен за прикупљање транскрибованог говора за употребу са програмима за препознавање говора отвореног кода.
 data-other-tatoeba-description = Tatoeba је велика база реченица, превода и аудио снимака за учење језика. Ово преузимање садржи говорни енглески језик који је снимила њихова заједница.
-your-feedback = Имате ли идеје о томе како можемо побољшати Common Voice комплет података? Јавите нам помоћу Discourse платформе
+your-feedback = Имате ли идеје о томе како можемо побољшати Common Voice базу података? Јавите нам на Discourse
 go-discourse = Иди на Discourse
 missing-language = Не видите свој језик у бази података? Да бисте затражили да се неки језик појави на нашој страници, идите на нашу страницу Језици.
 go-languages-page = Идите на страницу са језицима
@@ -594,7 +605,7 @@ download-helpus = Помозите нам да изградимо заједни
 download-form-email =
     .label = Унесите адресу е-поште
     .value = Хвала, бићемо у контакту.
-download-back = Вратите се на Common Voice скупове података
+download-back = Вратите се на Common Voice базе података
 download-no = Не хвала
 
 ## Contact Modal
@@ -613,7 +624,7 @@ request-language-form-language =
     .label = Језик
 request-language-success-title = Захтев за новим језиком предат, хвала вам.
 request-language-success-content = Остаћемо у контакту ради више информација о додавању вашег језика у Common Voice.
-select-language = Изаберите језик…
+select-language = Изаберите језик...
 other-language = Други језик
 
 ## Languages Overview
@@ -647,7 +658,7 @@ clips-with-count-pluralized =
         [few] <bold>{ $count }</bold> исечка
        *[other] <bold>{ $count }</bold> исечака
     }
-goal-help-recording = Помогли сте Common Voice пројекту да достигне <goalPercentage></goalPercentage> од нашег дневног { $goalValue } циља за снимање!
+goal-help-recording = Помогли сте Common Voice-у да достигне <goalPercentage></goalPercentage> од нашег дневног { $goalValue } циља за снимање!
 goal-help-validation = Помогли сте Common Voice-у да достигне <goalPercentage></goalPercentage> од нашег дневног { $goalValue } циља валидације!
 contribute-more =
     { $count ->
@@ -690,7 +701,7 @@ listen-empty-state = Понестало нам је исечака за потв
 speak-empty-state = Понестало нам је реченица за снимање на овом језику...
 speak-empty-state-cta = Предложите реченице
 record-button-label = Снимите свој глас
-share-title-new = <bold>Помозите нам</bold> да нађемо више гласова
+share-title-new = <bold>Помозите нам</bold> да пронађемо више гласова
 keep-track-profile = Пратите свој напредак преко профила
 login-to-get-started = Пријавите се или направите налог да бисте започели
 target-segment-first-card = Помажете у постизању нашег првог циљног сегмента
@@ -896,7 +907,7 @@ demo-account-sign-up = Пошаљи везу за регистрацију
 ## Demo Contribute
 
 demo-contribute-card-header = Спремни да додате глас или позајмите слух?
-demo-contribute-card-body = Сад кад знате мало више о Common Voice-у, зашто не бисте пробали? Кликните на иконицу микрофона да бисте прочитали реченице наглас. <br/><br/> Ако бисте радије проверили туђе говорне доприносе, кликните иконицу за репродукцију. Ако се снимак гласа који чујете подудара са речима на екрану.
+demo-contribute-card-body-v2 = Сад кад знате мало више о Common Voice-у, зашто не бисте пробали? Кликните на иконицу микрофона да бисте започели читање реченица наглас. <br/><br/>Ако бисте радије да проверавате туђе говорне доприносе, кликните на иконицу за репродукцију. Тада ћете помоћи да потврдите да се снимак гласа који чујете подудара са речима на екрану.
 demo-listen-subtitle = Спремни да дате допринос?
 
 ## Demo Dashboard

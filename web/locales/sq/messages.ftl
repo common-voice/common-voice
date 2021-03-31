@@ -33,8 +33,10 @@ as = Asamezisht
 ast = Asturisht
 az = Azerbajxhanisht
 ba = Bashkire
+bas = Basa
 be = Bjelloruse
 bg = Bullgarisht
+bm = Bambareze
 bn = Bengalisht
 br = Bretonisht
 bxr = Buriat
@@ -70,6 +72,7 @@ he = Hebraisht
 hi = Indiane
 hr = Kroate
 hsb = Sorbiane, E sipërme
+ht = Haitiane
 hu = Hungarisht
 hy-AM = Armene
 hyw = Armene Perëndimore
@@ -99,6 +102,7 @@ mk = Maqedonisht
 ml = Malajalame
 mn = Mongolisht
 mrj = Hill Mari
+ms = Malajziane
 mt = Malteze
 my = Birmanisht
 myv = Erzan
@@ -110,6 +114,7 @@ oc = Oçitane
 or = Odia
 pa-IN = Panxhabe
 pl = Polonisht
+ps = Pashtune
 pt = Portugalisht
 rm-sursilv = Romansh Sursilvan
 ro = Rumanisht
@@ -141,6 +146,7 @@ uz = Uzbeke
 vec = Venetishte
 vi = Vietnamisht
 vot = Votik
+yue = Kantoneze
 zh-CN = Kineze (Kinë)
 zh-HK = Kineze (Hong Kong)
 zh-TW = Kineze (Tajvan)
@@ -268,6 +274,7 @@ shortcut-record-toggle-label = Incizo/Ndale
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Riincizojeni copëzën
 request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
+request-language-text-learn = Mësoni se si ta kërkoni, këtu!
 request-language-button = Kërkoni një Gjuhë
 
 ## ProjectStatus
@@ -847,6 +854,7 @@ demo-welcome-subheader = Ju intereson të mësoni më tepër dhe të jepni ndihm
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice është grupi i të dhënave zanore më i madh në botë që mund të kihet publikisht.
 demo-language-select-card-body = Falë kontributeve prej më shumë se 259 mijë vetë në mbi 50 gjuhë, këto të dhëna po përdoren për të stërvitur aplikacione që funksionojnë përmes të folurës, për t’iu përgjigjur më mirë zërit njerëzor.
 card-button-next = Pasuesja
 card-button-back = Mbrapsht
@@ -866,7 +874,7 @@ demo-account-sign-up = Dërgo lidhje regjistrimi
 ## Demo Contribute
 
 demo-contribute-card-header = Gati për të shtuar zërin tuaj ose për të përdorur dëgjimin tuaj?
-demo-contribute-card-body = Tani që dini diçka më shumë mbi Common Voice, pse të mos e provonit? Klikoni mbi ikonën e mikrofonit që të filloni të lexoni togfjalësha. <br/><br/>Nëse parapëlqeni të shqyrtoni kontribute zanore nga persona të tjerë, klikoni mbi ikonën e luajtjes. Nëse incizimi zanor që dëgjoni përputhet me fjalët e shkruara në ekran.
+demo-contribute-card-body-v2 = Tani që dini diçka më shumë mbi Common Voice, pse të mos e provonit? Klikoni mbi ikonën e mikrofonit që të filloni të lexoni togfjalësha. <br/><br/>Nëse parapëlqeni të shqyrtoni kontribute zanore nga persona të tjerë, klikoni mbi ikonën e luajtjes. Do të ndihmoni të ripohohet se incizimet përputhen me togfjalëshat e shkruar në ekran.
 demo-listen-subtitle = Gati për të dhënë ndihmesë?
 
 ## Demo Dashboard

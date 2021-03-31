@@ -342,6 +342,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = למה Common Voice?
+about-header-description =
+    שני הפרוייקטים הללו הם חלק מהמאמצים שלנו לגשר על הפער בדיבור הדיגיטלי. טכנולוגיות זיהוי דיבור מספקות מימד אנושי למכשירים שלנו, אך מפתחים זקוקים לכמות עצומה של נתוני שמע על מנת לבנות אותם. נכון לעכשיו, רוב הנתונים הינם יקרים ובבעלות פרטית.
+    אנחנו מבקשים להפוך נתוני דיבור לזמינים באופן חופשי וציבורי, ולוודא כי הנתונים מייצגים את הגיוון האנושי האמיתי. יחד אנו יכולים להפוך את זיהוי הדיבור לטוב יותר עבור כולם.
 how-does-it-work-title = איך זה עובד?
 about-speak = דבר
 about-speak-text = מתנדבים מקליטים קטעי קול על ידי הקראה מתוך מאגר של משפטים שנתרמו.
@@ -366,6 +369,7 @@ de-identified-explanation = התהליך שבו מידע הפרופיל של ת�
 
 ## Error pages
 
+error-content-404 = אולי <homepageLink>דף הבית</homepageLink> שלנו יכול לעזור? כדי לשאול שאלה, נא להצטרף ל<matrixLink>צ’אט הקהילה ב־Matrix</matrixLink>, לעקוב אחר בעיות באתר באמצעות <githubLink>GitHub</githubLink> או לבקר <discourseLink>בפורומים שלנו ב־Discourse</discourseLink>.
 
 ## Data
 
@@ -516,6 +520,7 @@ listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
+target-segment-add-voice = הוספת הקול שלך
 
 ## Reporting
 
@@ -568,6 +573,10 @@ overall-accuracy = דיוק כללי
 
 ## Custom Goals
 
+goal-type = איזה סוג של יעד ברצונך לבנות?
+lose-goal-progress-warning = ההתקדמות שלך עד כה עשויה להימחק בעת עריכת היעד שלך.
+finish-editing = לסיים את העריכה קודם לכן?
+lose-changes-warning = יציאה כעת תגרום לביטול השינויים שביצעת
 
 ## Profile Delete
 

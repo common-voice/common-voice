@@ -72,6 +72,7 @@ he = Hebraisk
 hi = Hindi
 hr = Kroatisk
 hsb = Høysorbisk
+ht = Haitisk
 hu = Ungarsk
 hy-AM = Armensk
 hyw = Vestarmensk
@@ -95,13 +96,17 @@ lg = Luganda
 lij = Ligurisk
 lt = Litauisk
 lv = Latvisk
+mai = Maithili
 mdf = Moksja
 mg = Gassisk
 mhr = Østmarisk
 mk = Makedonsk
 ml = Malayalam
 mn = Mongolsk
+mos = Mossi
+mr = Marathi
 mrj = Vestmarisk
+ms = Malaysisk
 mt = Maltesisk
 my = Burmesisk
 myv = Erziamordvinsk
@@ -112,7 +117,9 @@ nn-NO = Norsk (nynorsk)
 oc = Oksitansk
 or = Oriya
 pa-IN = Panjabi
+pap-AW = Papiamento (Aruba)
 pl = Polsk
+ps = Pashto
 pt = Portugisisk
 rm-sursilv = Sursilvan Retoromansk
 rm-vallader = Vallader
@@ -122,9 +129,11 @@ rw = Kinyarwanda
 sah = Jakutisk
 sc = Sardisk
 scn = Siciliansk
+shi = Shilha
 si = Singalesisk
 sk = Slovakisk
 sl = Slovensk
+so = Somali
 sq = Albansk
 sr = Serbisk
 sv-SE = Svensk
@@ -139,6 +148,7 @@ tr = Tyrkisk
 tt = Tatar
 uby = Ubykh
 udm = Udmurtisk
+ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
@@ -785,16 +795,16 @@ activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } time
        *[other] { $totalHours } timer
-    }er oppnåelig på drøyt{ NUMBER($periodMonths) ->
+    } er oppnåelig på drøyt { NUMBER($periodMonths) ->
         [one] { $periodMonths } måned
        *[other] { $periodMonths } måneder
-    }hvis{ NUMBER($people) ->
+    } hvis { NUMBER($people) ->
         [one] { $people } person
        *[other] { $people } personer
-    }registrerer{ NUMBER($clipsPerDay) ->
+    } registrerer { NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } lydklipp
        *[other] { $clipsPerDay } lydklipp
-    }om dagen.
+    } om dagen.
 how-many-per-day = Flott! Hvor mange klipp per dag?
 how-many-a-week = Flott! Hvor mange klipp i uken?
 which-goal-type = Vil du snakke, lytte eller begge deler?
@@ -876,7 +886,7 @@ demo-account-sign-up = Send registreringslenke
 ## Demo Contribute
 
 demo-contribute-card-header = Klar til å legge til stemmen din eller bruke øret ditt?
-demo-contribute-card-body = Nå som du vet litt mer om Common Voice, hvorfor ikke prøve det? Klikk på mikrofonikonet for å begynne å lese setninger høyt. <br/> <br/> Hvis du foretrekker å gjennomgå andres stemmebidrag, klikker du på avspill-ikonet. Hvis taleopptaket du hører samsvarer med ordene som er skrevet på skjermen.
+demo-contribute-card-body-v2 = Nå som du vet litt mer om Common Voice, hvorfor ikke prøve det? Klikk på mikrofonikonet for å begynne å lese setninger høyt. <br/><br/>Hvis du foretrekker å gjennomgå andres stemmebidrag, klikker du på avspill-ikonet. Du hjelper med å bekrefte at opptak samsvarer med setningene som er skrevet på skjermen.
 demo-listen-subtitle = Klar til å bidra?
 
 ## Demo Dashboard

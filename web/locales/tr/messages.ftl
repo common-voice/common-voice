@@ -72,6 +72,7 @@ he = İbranice
 hi = Hintçe
 hr = Hırvatça
 hsb = Yukarı Sorbca
+ht = Haiti dili
 hu = Macarca
 hy-AM = Ermenice
 hyw = Batı Ermenicesi
@@ -95,13 +96,17 @@ lg = Luganda
 lij = Liguryanca
 lt = Litvanca
 lv = Letonca
+mai = Maithili
 mdf = Mokşa
 mg = Malgaşça
 mhr = Ova Marice
 mk = Makedonca
 ml = Malayalam
 mn = Moğolca
+mos = Mossi
+mr = Marathice
 mrj = Dağlık Marice
+ms = Malayca
 mt = Maltaca
 my = Birmanca
 myv = Erzyanca
@@ -112,7 +117,9 @@ nn-NO = Norveççe (Nynorsk)
 oc = Oksitanca
 or = Odia
 pa-IN = Pencapça
+pap-AW = Papiamento (Aruba)
 pl = Lehçe
+ps = Peştuca
 pt = Portekizce
 rm-sursilv = Romanşça Sursilvan
 rm-vallader = Romanşça Vallader
@@ -122,9 +129,11 @@ rw = Kinyarwanda
 sah = Yakutça
 sc = Sardinya dili
 scn = Sicilyaca
+shi = Şilha
 si = Seylanca
 sk = Slovakça
 sl = Slovakça
+so = Somalice
 sq = Arnavutça
 sr = Sırpça
 sv-SE = İsveççe
@@ -139,6 +148,7 @@ tr = Türkçe
 tt = Tatarca
 uby = Ubıhça
 udm = Udmurtça
+ug = Uygurca
 uk = Ukraynaca
 ur = Urduca
 uz = Özbekçe
@@ -431,6 +441,7 @@ how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesini
 about-speak = Konuş
 about-speak-text = Katkıda bulunanlar ses kayıtlarını bağışlanan cümle bankasından okuyarak kaydederler.
 about-listen-queue = Dinleme Kuyruğu
+about-listen-queue-text = Ses kayıtları, dinleyiciler tarafından dinlenmek üzere bir gönderim kuyruğuna eklenir.
 about-listen = Dinle
 about-listen-text = Kullanıcılar, konuşmacıların cümleyi doğru okuduğunu kontrol ederek bağışlanan kayıtların doğruluğunu onaylar.
 about-is-it-valid = Klip geçerli mi?
@@ -767,6 +778,20 @@ help-reach-hours-general-pluralized =
     } ulaşmasına yardımcı olun
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $people } kişi
+       *[other] { $people } kişi
+    } günde { NUMBER($periodMonths) ->
+        [one] { $clipsPerDay } ses
+       *[other] { $clipsPerDay } ses
+    } kaydederse { NUMBER($people) ->
+        [one] { $periodMonths } aydan
+       *[other] { $periodMonths } aydan
+    } biraz uzun bir sürede { NUMBER($clipsPerDay) ->
+        [one] { $totalHours } saatlik
+       *[other] { $totalHours } saatlik
+    } ses kaydına ulaşılabilir.
 how-many-per-day = Harika! Günde kaç kayıt?
 how-many-a-week = Harika! Haftada kaç kayıt?
 which-goal-type = Konuşmak mı, dinlemek mi yoksa ikisini birden mi yapmak istiyorsunuz?
@@ -843,7 +868,7 @@ demo-account-sign-up = Kayıt bağlantısını gönder
 ## Demo Contribute
 
 demo-contribute-card-header = Sesinizi eklemeye veya eklenenleri dinlemeye hazır mısınız?
-demo-contribute-card-body = Artık Common Voice hakkında biraz daha fazla şey bildiğinize göre, neden denemiyorsunuz? Cümleleri sesli okumaya başlamak için mikrofon simgesine tıklayın. <br/><br/>Başkalarının ses kayıtlarını incelemeyi tercih ederseniz oynat simgesine tıklayın. Ardından, duyduğunuz ses kaydının ekranda yazılı sözcüklerle eşleşip eşleşmediğini kontrol edin.
+demo-contribute-card-body-v2 = Artık Common Voice'u daha iyi tanıdığınıza göre neden denemiyorsunuz? Cümleleri sesli okumaya başlamak için mikrofon simgesine tıklayın. <br/><br/>Başkalarının ses kayıtlarını incelemeyi tercih ederseniz oynat simgesine tıklayın. Ses kayıtlarının ekranda yazılan cümlelerle eşleştiğini doğrulamanızı isteyeceğiz.
 demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
 
 ## Demo Dashboard

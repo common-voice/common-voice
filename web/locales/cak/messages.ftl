@@ -72,6 +72,7 @@ he = Hebreo
 hi = Hindu
 hr = Croata
 hsb = Alto Sorabo
+ht = aj Haiti
 hu = Hungaro
 hy-AM = Armenyan
 hyw = Armenio (occidental )
@@ -95,13 +96,16 @@ lg = Uganda
 lij = Ligur
 lt = Lituano
 lv = Letón
+mai = Maithili
 mdf = Moksha
 mg = Madagascari
 mhr = Mari oriental
 mk = Macedonio
 ml = Malabar
 mn = aj Mongolia
+mr = Marati
 mrj = Mari occidental
+ms = aj Malasia
 mt = Maltes
 my = Birmano
 myv = Erzya
@@ -113,6 +117,7 @@ oc = aj Occitania
 or = Odia
 pa-IN = Punjabi
 pl = Polaco
+ps = Pashto
 pt = Portugues
 rm-sursilv = Romanche Sursilvan
 rm-vallader = Romansh Vallader
@@ -122,9 +127,11 @@ rw = Kinyarwanda
 sah = Yakuto
 sc = Sardo
 scn = Sicilian
+shi = Shilha
 si = Sinhala
 sk = Eslovaco
 sl = Esloveno
+so = aj Somalia
 sq = Albanes
 sr = Serbio
 sv-SE = Sueco
@@ -139,6 +146,7 @@ tr = Turco
 tt = Tartaro
 uby = Ubije
 udm = Udmurto
+ug = Uighur
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
@@ -617,6 +625,11 @@ contribute = Kato'on
 listen = Tak'axäx
 skip = Tik'o'
 shortcuts = Chojmin Okem
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Perb'ab'
+       *[other] <bold>{ $count }</bold> taq Perb'ab'
+    }
 goal-help-recording = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al { $goalValue } q'ij q'ij!
 goal-help-validation = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al richin rujunamanem { $goalValue } q'ij q'ij!
 contribute-more =
@@ -789,3 +802,18 @@ help-contribute = Yatikïr yato'on chi runuk'ik jalajöj rucholxe' tzij, ri jaq�
 login-company = Tatikirisaj Molojri'ïl / Tatz'ib'aj Ab'i' rik'in ri { $company } taqoya'l
 profile-not-required = Man k'atzinel ta jun ruwäch ab'i' richin yato'on, po rik'in jub'a' nik'atzin.
 read-more-about = Tisik'ïx ch'aqa' chik pa Chi rij pa ri ruxaq
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

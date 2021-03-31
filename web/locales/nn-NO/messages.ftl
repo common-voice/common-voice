@@ -33,6 +33,7 @@ as = Assamesisk
 ast = Asturiansk
 az = Aserbajdsjansk
 ba = Basjkirisk
+bas = Basaa
 be = Kviterussisk
 bg = Bulgarsk
 bm = Bambara
@@ -71,6 +72,7 @@ he = Hebraisk
 hi = Hindi
 hr = Kroatisk
 hsb = Oversorbisk
+ht = Haitisk
 hu = Ungarsk
 hy-AM = Armensk
 hyw = Vestarmensk
@@ -94,13 +96,17 @@ lg = Luganda
 lij = Ligurisk
 lt = Litauisk
 lv = Latvisk
+mai = Maithili
 mdf = Moksja
 mg = Gassisk
 mhr = Austmarisk
 mk = Makedonsk
 ml = Malayalam
 mn = Mongolsk
+mos = Mossi
+mr = Marathi
 mrj = Vestmarisk
+ms = Malaysisk
 mt = Maltesisk
 my = Burmesisk
 myv = Erziamordvinsk
@@ -112,6 +118,7 @@ oc = Oksitansk
 or = Oriya
 pa-IN = Panjabi
 pl = Polsk
+ps = Pashto
 pt = Portugisisk
 rm-sursilv = Retoromansk surselva
 rm-vallader = Retoromansk (Vallader)
@@ -121,9 +128,11 @@ rw = Kinyarwanda
 sah = Sakha
 sc = Sardinsk
 scn = Siciliansk
+shi = Shilha
 si = Singalesisk
 sk = Slovakisk
 sl = Slovensk
+so = Somali
 sq = Albansk
 sr = Serbisk
 sv-SE = Svensk
@@ -138,12 +147,14 @@ tr = Tyrkisk
 tt = Tatarisk
 uby = Ubykhisk
 udm = Udmurtisk
+ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
@@ -499,6 +510,8 @@ data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-bundle-button = Last ned datasettpakken
 data-bundle-description = Data frå Common Voice pluss alle andre stemmedatasett ovanfor.
+release-version = Versjon
+dataset-date = Dato
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blanda
 data-download-singleword-title = Last ned målsegmentet for eitt ord
@@ -674,6 +687,7 @@ share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
 keep-track-profile = Hald oversikt over framgangen din med ein profil
 login-to-get-started = Logg inn eller registrer deg for å kome i gang
 target-segment-first-card = Du bidrar til det første målsegmentet vårt
+target-segment-generic-card = Du bidrar til eit målsegment
 target-segment-first-banner = Hjelp til med å lage Common Voice sitt første målsegment i { $locale }
 target-segment-add-voice = Legg til stemma din
 target-segment-learn-more = Les meir
@@ -785,7 +799,7 @@ activity-needed-calculation-plural =
     }registrerer{ NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } lydklipp
        *[other] { $clipsPerDay } lydklipp
-    }om dagen.
+    } om dagen.
 how-many-per-day = Flott! Kor mange lydklipp pr. dag?
 how-many-a-week = Flott! Kor mange lydklipp i veka?
 which-goal-type = Vil du snakke, lytte eller begge delar?
@@ -841,9 +855,15 @@ read-more-about = Les meir på Om oss-sida vår
 
 ## DemoLayout
 
+demo-get-started = La oss kome i gang
+demo-welcome = Velkomen til Common Voice
 
 ## Demo Datasets
 
+card-button-next = Neste
+card-button-back = Tilbake
+demo-language-select-label = Bla gjennom språk
+demo-account = Konto
 
 ## Demo Account
 

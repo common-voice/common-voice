@@ -72,6 +72,7 @@ he = Hebreo ñe’ẽ
 hi = Hindi ñe’ẽ
 hr = Croacia ñe’ẽ
 hsb = Serbia ñe’ẽ, Yvategua
+ht = Haiti-gua
 hu = Hungría ñe’ẽ
 hy-AM = Armenio ñe’ẽ
 hyw = Armenio ñe’ẽ Kuarahyreike gotyogua
@@ -102,6 +103,7 @@ mk = Macedonia ñe’ẽ
 ml = Malayalam ñe’ẽ
 mn = Mongolia ñe’ẽ
 mrj = Hill Mari ñe’ẽ
+ms = Malasia ñe’ẽ
 mt = Malta ñe’ẽ
 my = Burma ñe’ẽ
 myv = Erzya ñe’ẽ
@@ -125,6 +127,7 @@ scn = Sicilia ñe’ẽ
 si = Sinhala ñe’ẽ
 sk = Eslovaquia ñe’ẽ
 sl = Eslovenia ñe’ẽ
+so = Somalia ñe’ẽ
 sq = Albania ñe’ẽ
 sr = Serbia ñe’ẽ
 sv-SE = Suecia ñe’ẽ
@@ -145,6 +148,7 @@ uz = Uzbequistán ñe’ẽ
 vec = Venecia ñe’ẽ
 vi = Vietnam ñe’ẽ
 vot = Votic ñe’ẽ
+yue = China ñe’ẽ
 zh-CN = China ñe’ẽ (Chinapegua)
 zh-HK = China ñe’ẽ (Hong Kong-pegua)
 zh-TW = China ñe’ẽ (Taiwán-pegua)
@@ -277,6 +281,7 @@ shortcut-record-toggle-label = Ñongatu/Joko
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Embohyapupyahu
 request-language-text = Nderejuhúipiko ne ñe’ẽ'ypy Common Voice-pe?
+request-language-text-learn = ¡Eikuaa mba’éichapa ejeruréta ko’ápe!
 request-language-button = Ejererure toñembojoapy avei ambue ñe’ẽ
 
 ## ProjectStatus
@@ -867,14 +872,19 @@ card-button-next = Upeigua
 card-button-back = Tapykue
 demo-language-select-label = Eyvykói ñe’ẽnguéra
 demo-eofy-header = Ary paha 2019 ñeguenohẽ
+demo-eofy-sub_header = Ñe’ẽ mba’ekuaarã aty, emboguejykuaáma
 demo-account = Mba’ete
 
 ## Demo Account
 
+demo-account-card-header = Natekotevẽi ne mba’ete reporopytyvõ hag̃ua, iporãro jepe.
+demo-account-enter-email =
+    .label = Ehai ñanduti veve emondo hag̃ua jehaipyre juajuha
 demo-account-sign-up = Emondo mboheraguapy juajuha
 
 ## Demo Contribute
 
+demo-contribute-card-header = ¿Ikatúma embojuaju ne ñe’ẽ térã ehendu?
 demo-listen-subtitle = ¿Mba’éicha eipytyvõta?
 
 ## Demo Dashboard

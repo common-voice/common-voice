@@ -62,9 +62,11 @@ ga-IE = Irish
 gl = Galician
 ha = Hausa
 he = Hebreyo
+hi = Hindi
 hr = Croatian
 hsb = Sorbian, Upper
 hu = Hungarian
+hy-AM = Armenian
 ia = Interlingua
 id = Indonesian
 is = Icelandic
@@ -91,6 +93,7 @@ mk = Macedonian
 ml = Malayalam
 mn = Mongolian
 mrj = Hill Mari
+ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
@@ -175,6 +178,7 @@ listen-goal-text = Mga clip na napagtibay na
 hours-recorded = Mga Naitalang Oras
 hours-validated = Bilang ng Oras na Napagtibay
 voices-online = Mga Tinig na Online Ngayon
+todays-progress = Nagawa ngayong araw
 help-reach-goal = Tulungan kaming makamit ang goal na { $goal }
 read-terms-q = Nabasa mo na ba ang mga Takda?
 ready-to-record = Handa ka na bang ipagkaloob ang iyong tinig?
@@ -193,6 +197,7 @@ x-years-short =
     { $count ->
        *[other] { $count }y
     }
+sign-up-account = Mag-sign up para sa account
 
 ## Account Benefits
 
@@ -234,6 +239,9 @@ request-language-button = Humiling ng Wika
 ## ProjectStatus
 
 status-contribute = Ibahagi ang Iyong Tinig
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Susunod na mga layunin: { $goal }
 english = English
 
 ## ProfileForm
@@ -248,6 +256,8 @@ profile-form-accent =
     .label = Punto
 profile-form-age =
     .label = Edad
+profile-form-gender-2 =
+    .label = Kasarian
 hidden = Nakatago
 visible = Makikita
 native-language =
@@ -261,16 +271,20 @@ other = Ibang Kasarian
 why-profile-title = Bakit isang profile?
 dashboard = Dashboard
 avatar = Avatar
+goals = Mga layunin
 settings = Mga Setting
 profile-close = Isara
 profile-explanation = Subaybayan ang iyong pag-unlad gamit ang iyong profile at tulungan ang aming data ng mga boses na mas maging tama.
 thanks-for-account = Salamat sa pagkumpirma ng iyong account, ngayon gawin natin ang iyong profile.
 why-demographic = Bakit ito nararapat?
+accept-privacy-title = Patakarang Pangpribasiya
 login-signup = Log In / Sign Up
 edit = i-Edit
+email-subscriptions = Mga Subscription sa Email
 off = Off
 on = On
 retry-voice-wave-recording = SUBUKAN MULI
+re-record = I-RECORD ULIT
 delete-voice = BURAHIN
 recording-voice-wave = Nagrerecord
 ready-to-upload = I-UPLOAD
@@ -324,6 +338,8 @@ data-download-yes = Oo
 data-download-deny = Hindi
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-other-goto = Pumunta sa { $name }
+release-version = Bersyon
+dataset-date = Petsa
 license-mixed = Magkahalo
 terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon
@@ -429,6 +445,8 @@ welcome-staff = Mabuhay ang mga kawani ng { $company }!
 
 ## Demo Datasets
 
+card-button-next = Susunod
+card-button-back = Balik
 
 ## Demo Account
 

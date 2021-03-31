@@ -179,18 +179,27 @@ connect-gravatar = 連結 Gravatar
 
 ## FAQ
 
+faq-why-different-speakers-q = 點解每種語言需要咁多貢獻者呢？
+faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊“識別講者嘅身份”係咩解究呢?
 
 ## ABOUT US
 
+about-is-it-valid = 段錄音有冇效？
 
 ## Glossary
 
+glossary = 術語表
+sst = 語音轉文字
+sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
 
 ## Error pages
 
+error-title-404 = 我哋揾唔到你想去嘅頁面
 
 ## Data
 
+data-download-button = 下載Common Voice 語音數據
+data-other-goto = 往 { $name }
 release-version = 版本
 
 ## Datasets Page
@@ -214,18 +223,26 @@ dataset-version = 版本
 
 ## Contribution
 
+record-must-allow-microphone = 你必須容許咪高峰存取權。
+record-no-mic-found = 未發現咪高峰。
+share-common-voice = 分享Common Voice
 
 ## Reporting
 
+report = 報告
+report-title = 提交一個報告
+report-grammar-or-spelling-detail = 呢句有文法或串法錯誤。
 
 ## Goals
 
 
 ## Dashboard
 
+awards = 獎勵
 
 ## Custom Goals
 
+share-goal = 分享我嘅目標
 
 ## Profile Delete
 

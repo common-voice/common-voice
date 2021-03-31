@@ -1,17 +1,17 @@
 ## General
 
-yes-receive-emails = Iè, mandatemi email. Mi piaceria esse infurmatu appuntu à u prughjettu Common Voice.
+yes-receive-emails = Iè, mandatemi email. Mi piaceria à esse infurmatu appuntu à u prughjettu Common Voice.
 stayintouch = Ind’è Mozilla, custruimu una cumunità intornu à è tecnulugie vucale. Vulariamu stà in cuntattu cù voi cù messe à ghjornu, nove fonti di dati, è pà sente di più à nantu à a vostra utilisazione di sti dati.
-privacy-info = Vi prumittimu di trattà e vostre informazioni cun cura. Leghjite più in u nostru <privacyLink> Avvisu di cunfidenzialità</privacyLink>.
+privacy-info = Vi prumittimu di trattà e vostre infurmazioni cun primura. Da sapè ne di più, lighjite puru u nostru <privacyLink> Avvisu di cunfidenzialità</privacyLink>.
 return-to-cv = Vultà à Common Voice
 email-input =
     .label = Email
 submit-form-action = Invià
 loading = Caricamentu…
-email-opt-in-info = Mi piaceria riceve email cum’è ramintenze di scope, rapporti di u mè prugressu, è nutizie appuntu à Common Voice.
+email-opt-in-info = Mi piaceria à riceve email cum’è ramintenze di scopi, raporti di u me prugressu, e nutizie appuntu à Common Voice.
 email-opt-in-info-title = Raghjunghje à a lista di distribuzione di Common Voice
-email-opt-in-info-sub-with-challenge = Riceve email cum’è sfide è ramintenze di scope, rapporti di u mè prugressu, è nutizie appuntu à Common Voice.
-email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chi Mozilla ghjuva questi infurmazioni cum'è spiegatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink>.
+email-opt-in-info-sub-with-challenge = Riceve email cum’è sfide è ramintenze di scopi, rapporti di u me prugressu, è nutizie appuntu à Common Voice.
+email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chì Mozilla si ghjova di st'infurmazioni cum'è spiegatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink>.
 indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
 
@@ -108,20 +108,20 @@ logout = Scunnettassi
 
 home-title = Common Voice hè l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone.
 home-cta = Parlate puru, cuntribuite quì !
-wall-of-text-start = A voce hè naturale, a voce hè umana. Hè per quessa chì simu affascinati cù a creazione di una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, una quantità strimamente grande di dati vucale sò richiesti.
+wall-of-text-start = A voce hè naturale, a voce hè umana. Hè per quessa chì no simu affascinati da a criazione di una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, una quantità tamanta di dati vucale hè richiesta.
 wall-of-text-more-mobile = A maiò parte di i dati ghjuvati da l'imprese maiò ùn sò micca dispunibile à a maiurità di e parsone. Pinsemu chì suffuca l'innuvazione. Tandu avemu lanciatu u prughjettu Common Voice, pà aiutà à apre à tutti a ricunniscenza vucale.
-wall-of-text-more-desktop = Avà pudeti dà a vostra voce pà aiutaci à custruisce una basa di dati vucale di fonte aperta chì tuttu mondu pò aduprà pà creà applicazione innuvative pà apparechji è u web. Lighjite una frasa pà aiutà e macchine à amparà comu parlani in vere e parsone. Verificate u travaddu d'altri cuntributori pà migliurà à qualità. Hè cusì simplice !
+wall-of-text-more-desktop = Avà pudeti dà a vostra voce pà aiutaci à custruisce una basa di dati vucale di fonte aperta chì tuttu ognunu pò aduprà pà creà applicazione innuvative pà apparechji è u web. Lighjite una frasa pà aiutà e macchine à amparà comu parlani in veru e parsone. Verificate u travaddu d'altri cuntributori pà migliurà a qualità. Hè cusì simplice !
 wall-of-text-first = A voce hè naturale, a voce hè umana. Hè per quessa chì simu vugliosi di creà di una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, i sviluppadori ani bisognu d'una quantità strimamente grande di dati vucale.
 wall-of-text-second = A maiò parte di i dati ghjuvati da l'imprese maiò ùn sò micca dispunibile à a maiurità di e parsone. Pinsemu chì suffuca l'innuvazione. Tandu avemu lanciatu Common Voice, un prughjettu pà aiutà à rende aperta è accissibile à tutti a ricunniscenza vucale.
 show-wall-of-text = Leghje di più
 help-us-title = Aiutateci à cunvalidà e frase !
-help-us-explain = Appughjeti lettura, asculteti, è diteci : hè stata prununciata currettamente a frasa inghjò ?
+help-us-explain = Appughjeti lettura, asculteti, è diteci : hè stata prununciata cum'ella ci vole a frasa inghjò ?
 no-clips-to-validate = Pare ch'ùn ci sò micca arrighjistramenti da ascultà in sta lingua. Aiutateci à riempie a fila arrighjistrendu qualchì unu avà.
 vote-yes = Iè
 vote-no = Innò
-toggle-play-tooltip = Appughjeti { shortcut-play-toggle } pà lancià ò piantà a lettura
+toggle-play-tooltip = Appughjeti { shortcut-play-toggle } pà lancià o piantà a lettura
 speak-subtitle = Deti a vostra voce
-speak-paragraph = L'arrighjistramentu di voce hè una parte fundamintale di a custruzzione di a nostra basa di dati ; sicondu à certi, ghjè ancu a parte à più divirtente.
+speak-paragraph = L'arrighjistramentu di voce hè una parte fundamintale di a custruzzione di a nostra basa di dati ; sicondu à certi, ghjè ancu a parte più divirtente.
 speak-goal-text = Campiunarii arrighjistrati
 listen-subtitle = Aiutateci à cunvalidà arrighjistramenti
 listen-paragraph = Validà l'arrighjistramenti dunati hè altrettantu impurtante pè a missione Common Voice. Ascultate è aiutateci à creà una basa di dati vucale di qualità.
@@ -201,6 +201,7 @@ shortcut-record-toggle-label = Arrighjistrà/Firmà
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rifà l’arrighjistramentu
 request-language-text = Ùn viditi micca a vostra lingua in Common Voice ?
+request-language-text-learn = Scupriti quì comu dumandala !
 request-language-button = Richiede una lingua
 
 ## ProjectStatus
@@ -244,7 +245,7 @@ female = Femina
 # Gender
 other = Altru
 why-profile-title = Parchì creà un prufilu ?
-why-profile-text = Pruvidendu infurmazione appuntu à voi, i dati vucale chì voi inviati à Common Voice sarani più ghjuvevule à i mutori di ricunniscenza vucale chì impiigani issi dati pà migliurà à so pricisione.
+why-profile-text = Pruvidendu infurmazione appuntu à voi, i dati vucale chì vo inviati à Common Voice sarani più ghjuvevule à i mutori di ricunniscenza vucale chì adoprani issi dati da migliurà a so pricisione.
 dashboard = Tavulone di cumande
 build-profile = Creà u vostru prufilu
 avatar = Avatar
@@ -253,7 +254,7 @@ settings = Prifirenze
 edit-profile = Mudificà u prufilu
 profile-create-success = Eccu, prufilu creatu !
 profile-close = Sarrà
-profile-explanation = Tinite una traccia di i vostri prugressi è migliurate à pricisione di i vostri dati vucale cù un prufilu.
+profile-explanation = Tinite una traccia di i vostri prugressi è migliurate a pricisione di i vostri dati vucale cù un prufilu.
 thanks-for-account = Grazie pè avè cunfirmatu u vostru contu, avà criemu u vostru prufilu.
 why-demographic = Parchì hè impurtante ?
 why-demographic-explanation-2 = Dati anonimizzati cum’è l’età, u generu è l’accentu aiutani à migliurà i dati vucale impiigati pà addestrà i mutori di ricunniscenza vucale. U vostru nome d'utilizatore è indirizzu electronicu ùn sarani mai assuciati à i dati inviati, è pudeti sceglie di publicà o micca u vostru nome d'utilizatore.
@@ -267,6 +268,8 @@ download-profile = Scaricà i mio dati
 contribution-experience = Spirienza di cuntribuzione
 skip-submission-feedback = Saltà l’inviu di cummenti
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
+off = Disattivatu
+on = Attivatu
 avatar-clip-title = Deti una voce à u vostru avatar
 change-your-avatar-clip = Vuleti cambià u vostru campione di voce ?
 recording-in-progress = Arrighjistramentu di u campione in corsu…
@@ -293,6 +296,7 @@ add-language = Aghjunghje una lingua
 
 ## FAQ
 
+faq-title = Dumande Frequenti
 faq-what-cv-q = Chì hè Common Voice ?
 faq-why-important-q = Parchì hè impurtante ?
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
@@ -301,20 +305,29 @@ faq-when-release2-q = Quandu publicareti i dati di Common Voice in altre lingue 
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 faq-what-cv-and-deepspeech-q = Chì gjhè a differenza trà Common Voice è Deep Speech ?
 faq-is-goal-assistant-q = U scopu di Common Voice saria di custruisce un assistente vucale ?
+faq-is-goal-assistant-a = U scopu di a banca di dati Common Voice hè di permette à tutt'ognunu in lu mondu sanu di sviluppà applicazioni di ricunniscenza vocale, di ricunniscenza di i lucutori, o qualsiasi tippu d'applicazioni chì richerghi dati vocali. Un assistente vucale hè solu unu di i numarosi tippi d'applicazioni chì si puderia fà aduprendu a banca di dati.
 faq-do-want-native-q = Issa lingua ùn hè micca a mè lingua materna è aghju un accentu, vuleti quantunque a mè voce ?
 faq-do-want-native-a = Iè, vulemu in particulari a vostra voce! Una parte di l'ughjettivu di Common Voice hè di riunisce u mori accenti sfarenti pussibule pà fà funziunà i servizii di ricunniscenza vucale ugualmente bè per tutti. Questu vole dì chì e cuntribuzione da lucutori non nativi sò particularmente impurtanti.
 faq-why-different-speakers-q = Parchì avete bisognu di tanti lucutori differente per ogni lingua ?
-faq-why-my-lang-q = Parchì a mè lingua ùn hè micca ghjà achjusa ?
+faq-why-my-lang-q = Parchì a me lingua ùn hè ancu inghjusa ?
 faq-what-quality-q = Chì niveddu di qualità audio hè richiestu pà avè un campione di voce adupratu in a banca di dati ?
 faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
 faq-why-10k-hours-a = Hè più o menu a quantità d'ore necessarii pà addestrà un sistemu di pruduzzione di voce-à-u-testu.
 faq-how-calc-hours-q = Di chì manera Common Voice calculeghja l'ore ?
 faq-how-calc-hours-a = Calculemu l’ore stimendu a lunghezza media d’ogni arrighjistramenti, è poi multiplichemu issu numaru cù a tutalità d’arrighjistramenti in tutte e lingue.
 faq-where-src-from-2-q = D’induve vene u testu urighjinali ?
+faq-where-src-from-2-a =
+    I nostri testi urighjinale sò dunazione di cuntributori è ancu dialughi di filmi di u duminiu publicu cum’è <italic>It’s a Wonderful Life</italic>.
+    
+    Pudeti truvà i testi urighjinali in stu <githubLink>cartulare GitHub</githubLink>.
 faq-why-not-ask-read-q = Parchì ùn dumandeti micca à la ghjenti di leghje libri o articuli di Wikipedia in parechje lingue ?
 faq-why-account-q = Parchì duvaria creami un contu ?
+faq-is-account-public-q = Sò publiche l'infurmazioni di u mio contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-what-determine-identity-q = Chì vole dì chì ùn possu « diterminà l’identità » di i locutori in a banca di dati Common Voice ?
+faq-what-is-cv = Chì hè Common Voice ?
+faq-using-cv = Adopru di Common Voice
+faq-description = Common Voice hè una parta di l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone.
 faq-search-for-answers =
     .label = Circà risposte
 
@@ -324,8 +337,15 @@ about-title = Parchì Common Voice ?
 how-does-it-work-title = Comu funziona ?
 about-speak = Parlà
 about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da una banca di frasi dunati da a cumunità.
+about-listen-queue = Fila d’ascolta
 about-listen-queue-text = L'arrighjistramenti vucali sò mandati in una fila d'attesa induve sarani approntati pè l'ascolta.
+about-listen = Ascultà
 about-listen-text = L'utilizatori cunvalidanu l'esatezza di i campiunarii dunati, verifichendu chì l'uratori ani lettu a frasa currittamente.
+about-is-it-valid = Hè validu u campione ?
+about-is-it-valid-text = Un campione vucale hè marcatu cum’è «validu» quandu un utilizatore li dà un votu cù iè.
+about-yes-votes = ≥ 2 voti Iè
+about-yes-votes-text = Pà intrà in a banca di dati Common Voice, un campione vucale hà da esse cunvalidatu da dui utilizatori distinti.
+about-no-votes = ≥ 2 voti Innò
 about-dataset-new = Basa di dati Common Voice
 about-clip-graveyard = Campu santu di i campiunarii
 about-clip-graveyard-text = U campu santu di i campiunarii hè custituitu di tutti i campiunarii chì ùn sò micca stati cunvalidati pà fà parte di a banca di dati Common Voice. Cum'è edda, u campu santu di i campiuanarii pò esse scaricatu libaramente.
@@ -353,8 +373,10 @@ mycroft-secondary-description = Questu hè un prugramma di fonte aperta chì pò
 ## Glossary
 
 glossary = Glussariu
+localization = Lucalizazione
 localization-explanation = Questu hè u nostru prucessu pà traduce è adattà u nostru cuntinutu à mori di lingue.
 sentence-collection = Racolta d'infrasate
+sst = Discorsu-à-u-testu (Speech-to-text, STT)
 
 ## Error pages
 
@@ -368,24 +390,53 @@ data-download-yes = Iè
 data-download-deny = Innò
 data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
 data-download-modal = Seti à u puntu di principià un scaricamentu di <size>{ $size } Go</size>, vulete cuntinuà ?
+data-other-download = Scaricà i dati
+data-bundle-button = Scaricà u lottu di a banca di dati
+release-version = Versione
+dataset-date = Data
+license = Licenza : <licenseLink> { $license } </licenseLink>
+license-mixed = Mischiatu
+terms-agree = Sò d'accunsentu
+terms-disagree = Ùn sò micca d'accunsentu
 review-cancel = Annuddà l'inviu
 
 ## Datasets Page
 
-missing-language = Ùn vidite micca à vostra lingua in a basa di dati ? Pà dumandà una lingua, andate annantu à nostra paghjina Lingue.
+language = Lingua
+# File size in gigabytes
+size = Dimensione
+cv-license = Licenza
+download-language = Scaricà { $language }
+validated-hours = Ore Cunvalidate
+recorded-hours = Ore Arrighjistrate
+missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dumandà una lingua, andate annantu à a nostra paghjina Lingue.
+more = Più
+close = Sarrà
 download = Scaricà
+dataset-version = Versione
 
 ## Download Modal
 
+download-helpus = Aiutateci à custruisce una cumunità intornu à a tecnulugia vucale, state in cuntattu via email.
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Nome
+contact-form-message =
+    .label = Missaghju
 
 ## Request Language Modal
 
+request-language-title = Richiesta di lingua
+request-language-form-language =
+    .label = Lingua
 
 ## Languages Overview
 
+language-total-progress = Tutale
+language-search-input =
+    .placeholder = Ricercà
 
 ## Contribution
 
@@ -395,12 +446,18 @@ download = Scaricà
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Ghjornu
+       *[other] Ghjorni
+    }
 
 ## Dashboard
 
 
 ## Custom Goals
 
+both-speak-and-listen = Tramindui
 
 ## Profile Delete
 
@@ -429,7 +486,7 @@ demo-language-select-label = Splurà e lingue
 
 ## Demo Contribute
 
-demo-listen-subtitle = Seti pronti à cuntribuà ?
+demo-listen-subtitle = Seti pronti à cuntribuisce ?
 
 ## Demo Dashboard
 

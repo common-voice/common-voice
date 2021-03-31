@@ -72,6 +72,7 @@ he = ฮิบรู
 hi = ฮินดี
 hr = โครเอเชีย
 hsb = ซอร์เบียตอนบน
+ht = เฮติ
 hu = ฮังการี
 hy-AM = อาร์เมเนีย
 hyw = อาร์เมเนียตะวันตก
@@ -100,7 +101,9 @@ mhr = มารีสำเนียงทุ่งหญ้า
 mk = มาซิโดเนีย
 ml = มะละยาลัม
 mn = มองโกเลีย
+mos = มอสซี
 mrj = มารีสำเนียงเขา
+ms = มาเลย์
 mt = มอลตา
 my = พม่า
 myv = เอิร์สยา
@@ -112,6 +115,7 @@ oc = อ็อกซิตัน
 or = โอเดีย
 pa-IN = ปัญจาบี
 pl = โปแลนด์
+ps = ปาทาน
 pt = โปรตุเกส
 rm-sursilv = โรมานช์เซอร์ซิลวาน
 rm-vallader = โรมานช์วัลลาเดอร์
@@ -516,6 +520,7 @@ data-other-goto = ไปยัง { $name }
 data-other-download = ดาวน์โหลดข้อมูล
 data-bundle-button = ดาวน์โหลดแพ็คเกจชุดข้อมูล
 data-bundle-description = ข้อมูล Common Voice รวมทั้งชุดข้อมูลเสียงอื่น ๆ ด้านบน
+release-version = รุ่น
 dataset-date = วันที่
 license = สัญญาอนุญาต: <licenseLink>{ $license }</licenseLink>
 license-mixed = ผสม
@@ -846,6 +851,7 @@ demo-account = บัญชี
 
 ## Demo Account
 
+demo-account-sign-up = ส่งลิงก์ลงทะเบียน
 
 ## Demo Contribute
 
