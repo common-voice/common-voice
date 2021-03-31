@@ -99,8 +99,8 @@ module.exports = {
     }),
     new PreloadWebpackPlugin(),
     function () {
-      this.plugin('watchRun', () => console.log(chalk.yellow('Rebuilding…')));
-      this.plugin('done', () => console.log(chalk.green('Built!')));
+      this.hooks.watchRun.tap('Building', () => console.log(chalk.yellow('Rebuilding…')));
+      this.hooks.done.tap('Built', () => console.log(chalk.green('Built!')));
     },
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
