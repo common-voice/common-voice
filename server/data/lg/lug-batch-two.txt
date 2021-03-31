@@ -78,7 +78,7 @@ Obutakwaatagana mu mawanga buyina kumalibwawo na kuteesagana mu kifo ky'obutaban
 Waliwo enkwata y'ensimbi embi mu kakiiko ka disitulikiti ak'ebyensimbi.
 Abakulembeze ba gavumenti z'ebitundu bangi balabiddwa  mu kwenyigira mu buli bw'enguzi
 Gavumenti erina okunyweza ku ngeri gy'ekwatamu enguzi mu zi disitulikiti.
-Embalirira ya buli keseera erina okukolebwa ku disitulikiti okusobola okumalawo enguzi.
+Embalirira ya buli kaseera erina okukolebwa ku disitulikiti okusobola okumalawo enguzi.
 Bammemba b'akakiiko abasangibwa nga balya enguzi balina okusibibwa.
 Ensimbi z'ebyemizannyo zitera okukwatibwa obubi ekireeta okukosa eby'emizannyo
 Waliwo obufere obugambibwa obuli mu kitongole kya disitulikiti ekiguzi ky'ebintu.
@@ -121,7 +121,7 @@ Abantu bangi ku nzizi z'amazzi ekikendeeza obungi bw'amazzi bwe basobola okufuna
 Disitulikiti erina okuteekawo nayikondo empya mu kitundu.
 Amazzi si malungi kukozesa waka.
 Abanoonyi b'obubuddamu tebalina mazzi ga kukozesa waka.
-"Abantu, naddala abakyala, bavuganya okufuna amazzi."
+Abantu, naddala abakyala, bavuganya okufuna amazzi.
 Abantu bakozesa amazzi matono okubeezawo obulamu.
 Disitulikiti eri munteekateeka okuteerawo abantu enzizi z'amazzi empya.
 Disitulikiti yetaaga okuwa abantu amazzi amalungi era amayonjo.
@@ -179,7 +179,7 @@ Yafuuka omubaka wa paalamenti nga tavuganyiziddwa.
 Ayagala abantu be bafune obulamu obusingako bwe balina.
 Ategeera ebizibu by'abantu okusinga n'omuntu omulala yenna.
 Amanyi engeri y'okukolaganamu n'abantu n'ebibasomooza eby'enjawulo bye basanga.
-Agenderera nnyo okukkaatiriza okukyusa embeerabantu ng'ayunga abantu ku mikisa egy'enjawulo.
+Agenderera nnyo okukkaatiriza okukyusa embeera y'abantu ng'ayunga abantu ku mikisa egy'enjawulo.
 Ayagala abantu bafune eby'etaago byabwe.
 Omubaka wa paalamenti mufumbo era ayina amaka.
 Abantu mu kitundu beetabye mu mirimu gy'obulimirunzi.
@@ -213,7 +213,7 @@ Ekitongole kiri mu kusomesa ebitundu ku bubi bw'okufuna embuto amangu mu bawala.
 Abavubuka baanikiddwa ku ndwadde z'obukaba.
 Abavubuka balina okwewala okukunganira mu bifo ebirimu abantu abangi.
 Kyenkana omu ku bataano ku bawala abali mu myaka egy'ekitiini mu Africa bafuna embuto.
-"N'okufuna embuto nga tebannetuuka, abatiini basanga obuzibu bw'okulemererwa okuzaala."
+N'okufuna embuto nga tebannetuuka, abatiini basanga obuzibu bw'okulemererwa okuzaala.
 Omukyala omukugu yawadde abawala abato amagezi.
 Kisingako okufuna okutangirwa mu kifo ky'okwebwalabwala.
 Enkola y'ekizaala ggumba eyambye abawala okwewala embuto nga bakyaali.
@@ -362,7 +362,7 @@ Abakyala balina okuweebwa ekitiibwa n'emikisa gyegimu ng'abasajja.
 Ekitundu kirina okutegeezebwa ku bibi by'okufimbirwa amangu.
 Abakulembeze bonna balina okugenderera okulwanyisa abaana okufumbirwa.
 Okuwasa abakazi abangi weewo nga omusajja alina omukyala asukka mw'omu mu kaseera ke kamu.
-Omuzadde ow'obuvunaanyizibwa y'oyo alungamya omwana we ku nsoga ezikwata ku bulamu.
+Omuzadde ow'obuvunaanyizibwa y'oyo alungamya omwana we ku nsonga ezikwata ku bulamu.
 Enkola z'ekizaala ggumba ezimu zisobola okutangira embuto mu battiini.
 Ensimbi zikaka ebintu okukolebwa.
 Ani mutiini?
@@ -663,7 +663,7 @@ Ne mu masekati g'enkulaakulana, wabeerawo ebisomooza ebisangibwa.
 Eby'obuwangwa biyamba abavubuka okunywera ku mpisa.
 Abakulembeze tebalina kuba na kyekubiira.
 Abakulembeze balina okufuba okugatta abantu bonna.
-"Okuyita mu kulonda, Tuyinza okulonda abantu abalungi oba ababi mu bifo by'obuyinza."
+Okuyita mu kulonda, Tuyinza okulonda abantu abalungi oba ababi mu bifo by'obuyinza.
 Londa abakulembeze abaddala nga betegefu okukola n'okutumbula empeereza.
 Obukulembeze buva eri Katonda.
 Omukulembeze w'eggwanga yayogera ne bannamawulire ku nsonga ezikwata ku muggalo.
@@ -877,7 +877,7 @@ Abantu ebiseera ebisinga ensonga bazitwalira mu ngalo .
 Si buli akwagala nti akufaako.
 Abantu tebatera kufaayo.
 Kirungi okukola emikwano.
-"Mu buli kintu kyonna ky'okola, embalirira yetaagisa"
+Mu buli kintu kyonna ky'okola, embalirira yetaagisa
 Okuwaaba omusango ku poliisi tekikufuula muzzi wa misango.
 Abantu batera okufaayo mu biseera ebibi byokka.
 Mu biseera ebibi byokka mw'olabira abantu abakwagala.
@@ -936,7 +936,7 @@ Twetaaga ebibuga ebirala mu Uganda ebifaanana nga Kampala.
 Si bakulembeze bonna nti bajja kubeera n'ekigendererwa eky'awamu eky'ekitundu kyabwe.
 Wakyaliwo okweyongera mu bukenenuzi mu gavumenti.
 Gavumenti ekola ky'esobola okulwanyisa obukenenuzi.
-Okwongela ku mutindo gw'ebyobulimirunzi ky'ekimu ku bintu gavumenti by'etaddeko essira.
+Okwongera ku mutindo gw'ebyobulimirunzi ky'ekimu ku bintu gavumenti by'etaddeko essira.
 Abasawo b'amalwaliro ga gavumenti tebasasulwa bulungi.
 Gavumenti erwawo okusasula abasawo mu malwaliro gaayo.
 Ennaku zino abantu bawona okuva mu bulwadde bw'akawuka ka ssenyiga omukambwe.
@@ -1128,7 +1128,7 @@ Abantu bakyalina essuubi.
 Tebaalambulula mbalirira ya pulojekiti.
 Nabo baawaayo ku binaakozesebwa byeyambisibwe mu pulojekiti.
 Pulojekiti eruubirira kuwa mazzi mayonjo ku bisale ebisoboka.
-Abantu bangi abali bali mu bwavu obungi ennyo nnyini ddala.
+Abantu bangi abaali bali mu bwavu obungi ennyo nnyini ddala.
 Nafunamu ekyekango bwe nagambibwa nti taata wange yali afudde.
 Baafuna ebigendererwa bya pulojekiti byonna.
 Omwepisikoopi yatusaba tusabire buli mbeera.
@@ -1467,7 +1467,7 @@ Okuzimba kwetaaga ssente okukolebwa.
 Emirundi egisinga tufuna ebirowoozo by'abaafa.
 Ku myaka emeka abaserikale we bawummulira okuva mu magye?
 Osobola okwanguyizibwa okuwuliziganya n'abaagalwabo ku ssimu.
-"Gyetukoma okubeera n'amalwaliro amangi,empeereza y'ebyobulamu erongooka."
+Gyetukoma okubeera n'amalwaliro amangi,empeereza y'ebyobulamu erongooka.
 Ekifo awajjanjabirwa kisobola okusuumusibwa okutuuka ku ddwaliro?
 Abaserikale nabo beetaaga okujjanjabibwa
 Si kibi okuba n'endowooza ey'enjawulo ku kintu.
@@ -1523,7 +1523,7 @@ Okwozaayozebwa kuli eri abo abafunyeewo ekintu kyonna.
 Obukugu mu bulamu kye ki?
 Abattikirwa bangi tebalina mirimu mu Uganda.
 Ekitongole ekitwala ebyenjigiriza ebyawaggulu mu ggwanga kye kivunaanyizibwa ku matendekero aga waggulu.
-"Oluvannyuma lwa diguli yo esooka, osobola okwongerako ey'okubiri."
+Oluvannyuma lwa diguli yo esooka, osobola okwongerako ey'okubiri.
 Tusobola tutya okutumbula omutindo gw'ebyenjigiriza?
 Bw'osoma obubi oyinza obutawandiisibwa ku ssetendekero.
 Omuntu asobola kukola ki okuvuganya ku katale k'ensi yonna?
@@ -1585,7 +1585,7 @@ Ssente zajjira mu kaseera mwe baali bazaagalira .
 Balembeka amazzi okuva ku mabaati mu biseera by'enkuba.
 Abakyala n'abawala bakubirizibwa okutambulira mu bibiinja okwewala okutyobolebwa.
 Abanoonyi b'obubuddamu beetaaga okubeera mu maka gaabwe amagya.
-"Pulogulamu ziyamba abaana okuyiga, okukula n'okusoma okuva mu buto."
+Pulogulamu ziyamba abaana okuyiga, okukula n'okusoma okuva mu buto.
 Ebitongole bino bikuuma eddembe ly'abaana okusobola okusoma.
 Abazadde bakubirizibwa okukuuma abaana baabwe.
 Abantu abalina obulemu beetaaga obuweereza obw'enjawulo.
@@ -1922,7 +1922,7 @@ Nsobola ntya okuteekamu ekijjukizo mu ssimu yange?
 Omukutu gwa Kazinga guyunga ennyanja Edward n'ennyanja George.
 Yasangibwa ne puleesa ng'ali waggulu.
 Nsobola ntya okugonjoola ekizibu kino?
-"Sifuddeeyo kiki kye kiika mu kkubo lyange, ngenda kubasinga."
+Sifuddeeyo kiki kye kiika mu kkubo lyange, ngenda kubasinga.
 Ani yatandika akavuyo?
 Olina maapu ya Kampala?
 Tetulina ssente zimala ate nga bingi tebinnakolebwa ku pulojekiti eno.
@@ -2092,7 +2092,7 @@ Emigabo gitwalibwa ng'engeri y'okusiga ensimbi.
 Mwewale okutunda ebintu by'abagenzi.
 Kya magezi okutereka mu migabo
 Okuzimba enguudo kireetera okutumbula eby'entambula.
-Okusuubula ttabamawanga kutera kubeera kubeera wakati w'amawanga agaliraaniganye.
+Okusuubula ttabamawanga kutera kubeera  wakati w'amawanga agaliraanaganye.
 Ffenna tuli kimu newankubadde tulina enjawulo
 Abasawo bakola omulimu ogw'enkizo mu nkambi z'ababundabunda.
 Ab'ebyobulamu bawa abantu obujjanjabi.
@@ -2125,7 +2125,7 @@ Abaana abato mugondere bazadde bammwe.
 Bintu ki ebimu ku by'okozeewo mu kaseera kano?
 Okusonyiyibwa kukyusa abantu abasinga.
 Abantu abakulu balina eddembe lye limu n'eryabalala.
-Abantu abakulu balina obuwebwa okuba abalamu.
+Abantu abakulu balina okufuba okuba abalamu.
 Abakulu nabo mwebali mu nteeseganya wakati w'ebika ebibiri.
 Abakadde batera nnyo okufuna embeera z'endwadde ezitawona.
 Yambalanga masiki ng'oli mu bifo eby'olukale era okuume amabanga n'abalala.
@@ -2158,7 +2158,7 @@ Abakulembeze b'ekyalo abamu baabadde tebambadde masiki bwe twabadde mu lukiiko.
 Okwambala masiki kutangira okusaasaana kw'akawuka ka ssennyiga omukambwe?
 Bwoba toyagala kwambala masiki togenda mu bifo by'olukale.
 Abakulu b'ebyalo baagabira abantu abasinga obungi zi masiki.
-"""Yambala masiki"" kye kikwaniriza ku buli dduuka lw'oyingira  mu ."
+Yambala masiki kye kigambo ekikwaniriza ku buli dduuka lw'oyingira mu.
 Gavumenti ekomezza okugaba emmere mu bifo awawuliddwa abantu.
 Ba mmemba ba ttiimu bateekamu ssente zaabwe okusobola okutuukiriza emirimu gyabwe egya buli lunaku.
 Abantu abamu batera kubaawulira ku balala mu maka gaabwe.
@@ -2166,7 +2166,7 @@ Waliwo ebbula ly'emmere mu bitundu bino.
 Waliwo okukendeera mu nsaasaana y'akawuka ka ssenyiga omukambwe mu kitundu ekyo.
 Tewali alina kulumwa njala mu kiseera kya kirwadde.
 Kenya y'esinga okulinyisa omuwendo gw'abalwadde b'akawuka ka ssenyga omukambwe buli lunaku.
-"Bwe nkukubira essimu, kitegeeza nti nfunye obulwadde bw'akawuka ka ssenyiga omukambwe."
+Bwe nkukubira essimu, kitegeeza nti nfunye obulwadde bw'akawuka ka ssenyiga omukambwe.
 Germany ekendeezezza ennaku za kalantiini okutuuka ku kkumi.
 Kalantiini terina kufuulibwa nga kibonerezo.
 Si kyangu zi bizinensi kusobola kusasula ebisale bya kkooti.
@@ -2260,7 +2260,7 @@ Tusanga abatembeeyi abasinga mu butale.
 Ebiragiro bya pulezidenti birina okugonderwa.
 Kiki ekireetawo enjawukana mu ndowooza z'ebyobufuzi?
 Ekirangiriro ekikulu kirina okutwalibwa ng'ekikulu.
-Ababeera n'obubonero bwa kolona batera okuzuulibwamu balwadde.
+Ababeera n'obubonero bwa kolona batera okuzuulibwamu obulwadde.
 Abaweebwa ebitanda mu ddwaliro batera kuba bayi.
 Abantu abatambula okuva mu kifo ekimu okudda mu kirala balina emikisa mingi egy'okufuna endwadde.
 Okusaba ekifo kusobola okukkirizibwa oba okugaanibwa.
@@ -2270,8 +2270,8 @@ Enteekateeka y'omulimu n'embalirira bya mugaso ki?
 Kungaanya ebyetaagisa mu kaweefube w'okwetegekera ebibamba.
 Abanoonyiboobubudamu abamu bayingira mu nsi endala mu bumenyi bw'amateeka.
 Ensalosalo z'amawanga zikuumibwa butiribiri.
-Abasawo nabo bwe bataba tebeegenderezza basobola okusiigibwa endwadde.
-"Bw'awona, omulwadde asiibulwa okuva mu ddwaliro."
+Abasawo nabo bwe bataba beegenderezza basobola okusiigibwa endwadde.
+Bw'awona, omulwadde asiibulwa okuva mu ddwaliro.
 Obutazuulibwamu bulwadde kitegeeza omuntu talina bulwadde obubadde bunoonyezebwa.
 Kiki ekiviirako abanoonyiboobubudamu abayingira abangi mu ggwanga?
 Newankubadde akawuka ka kolona weekali, endwadde endala zikyaliwo.
@@ -2387,7 +2387,7 @@ Ekitongole bwe kirumbibwa kiba kisuubirwa okufiirizibwa.
 Embuga z'amateeka zeeyambisibwa okukola okusalawo okumu.
 Omuyaga ogw'amaanyi gwonoona ebintu by'abantu.
 Emiyaga giviirako abantu okubonaabona.
-Kibuyaga omungi naye ayonoona ebintu mu mbeerabantu.
+Kibuyaga omungi naye ayonoona ebintu bya bantu.
 Ebirime bikungulwa ne biterekebwa.
 Okusaanyaawo amaka kuviirako okusenguka kw'abantu.
 Amaka gafaanana gatya?
@@ -2428,7 +2428,7 @@ Abakungu ba disitulikiti beekobaana n'abasalamala okufuna ssente mu miti.
 Enguzi egundidde mu bakungu ba disitulikiti.
 Abakungu balemeddwa okussa mu nkola etteeka ly'ebibira.
 Abakungu bafuuse kitundu ku bamenyi b'amateeka.
-Abantu bajjikiziddwa nti amateeka agafuga emiti gakyaliwo.
+Abantu bajjukiziddwa nti amateeka agafuga emiti gakyaliwo.
 Amateeka n'emitendera birina okugobererwa.
 Okutunda ebintu kwakolebwa mu butuufu bwakwo.
 Ebibira ebisinga obungi mu ggwanga bisaanyiziddwawo.
@@ -2687,7 +2687,7 @@ Gavumenti z'ebitundu ezimu zaalangirira obwagazi mu nteekateeka.
 Ebitundu ebirimu abanoonyi b'obubuddamu byetaaga obuyambi mu kukwata ku bizibu ebyamangu.
 Gavumenti egabanya ensimbi okusinziira ku mateeka n'engeri gye gabagibwa n'okussibwa mu nkola.
 Disitulikiti erina abakugu n'abalondoozi abasobola okukwasaganya puloojekiti za gavumenti z'ebitundu.
-"Abakulu balina okufaayo ku bwerufu, obukozi n'obwangu."
+Abakulu balina okufaayo ku bwerufu, obukozi n'obwangu.
 Obwenkanya bulina okukkaatirizibwa mu banoonyi b'obubudamu.
 Disitulikiti ejja kugabanya ensimbi okusinziira ku byetaago by'ekitundu.
 Abakungu bakola nnyo okutumbula enkulaakulana ku ddaala lya disitulikiti.
@@ -2700,7 +2700,7 @@ Gavumenti egezezzaako okugabanya ensimbi kyenkanyi wakati wa gavumenti z'ebitund
 Omubaka wa pulezidenti ku disitulikiti ajja kulondoola n'okukwasaganya emirimu ku lwa pulezidenti.
 Abakungu balina okulwana ennyo okutuukiriza ebiruubirirwa n'ebigendererwa mu disitulikiti.
 Disitulikiti eyagala kutangira okubalukawo kw'endwadde mu kitundu.
-Abantu n'abakungu balina okubeera n'obuvunaanyizibwa obulambikiddwa obulungi mu mbeerabantu.
+Abakungu balina okubeera n'obuvunaanyizibwa obulambikiddwa obulungi.
 Amagombolola gaasomesebwa okuteekawo zi kaabuyonjo.
 Abantu balina okukolerera okukyusa  ebyalo.
 Abantu basindiikiriziddwa okwetaba mu kutuukiriza ebigendererwa n'ebiruubirirwa bya disitulikiti.
@@ -2811,8 +2811,8 @@ Ebikolwa ebimu biggya omuntu mu kkubo lya Katonda.
 Baffaaza balondebwa mu buweereza.
 Abakatoliki balina enzikiriza zaabwe ng'eddiini.
 Abantu bonna basobola okukemebwa.
-Baffaaza baweereza ba Katonda.
-Omuntu alina okutikkiri okusobola okufuuka omufaaza aweereza.
+Baffaaza baweereza Katonda.
+Omuntu alina okutikkirwa okusobola okufuuka omufaaza aweereza.
 Ekigo ly'ettendekero ly'abafaaza.
 Mu ngendo z'obulamu bwaffe ez'enjawulo tulina abantu abatulungamya.
 Beera n'endowooza ennungi eri okusoma.
@@ -2922,7 +2922,7 @@ Amasomero galina okubeera n'ensimbi eziddukanya emirimu gyago.
 Uganda ewagira bannassaayansi abakyala.
 Ssettendekero ya Makerere ekola bulungi ku ssemazinga wa Africa.
 Abayimbi bagaaniddwa olukusa lw'okuyimirizaawo ekivvulu mu Kampala.
-Ekivvulu ky'ensi yonna eky'amazina kijja kulagibwa butereevu ku misikira wala mu gwomwenda.
+Ekivvulu ky'ensi yonna eky'amazina kijja kulagibwa butereevu ku misikira wala mu gw'omwenda.
 Kiruubirirwa kyange okubeera omuzannyi wa ffirimu asinga.
 Tufiiriddwa bannabitone bangi emyaka egyetoolodde.
 Ekivvulu kya bakazanyiikirizi kyabadde kitya?
@@ -3294,7 +3294,7 @@ Ekitongole ekivunaanyizibwa mirimu kyawa abatuuze bangi emirimu nga bazimba.
 Obufumbo bw'abakulisitayo okukola. wateekwa okubeerawo okusonyiwagana wakati w'abaagalana.
 Abakulisitaayo bakubirizibwa okubuulira engiri eri abantu obudde bwonna.
 Ekkanisa yaffe etegese olukungaana lw'engiri mu kibangirizi ky'ekyalo wiiki ejja.
-Omukulembeze w'ekkanisa yakwatiddwa olw'okusendasenda omugoberezi we okukazi mu bikolwa eby'okwegatta.
+Omukulembeze w'ekkanisa yakwatiddwa olw'okusendasenda omugoberezi we mu bikolwa eby'okwegatta.
 Ekkanisa okwetooloola ensi yonna ejaguza ennaku enkulu  ezimu buli mwaka.
 Okufa kwe ku musaalaba kwaleeta obulokozi eri aboonoonyi bonna.
 Bwe weeyisa mu ngeri ey'obutuukirivu Katonda akuwa ekiwummulo eky'emirembe.
@@ -3775,8 +3775,8 @@ Emisaala gy'abakozi ba gavumenti gyongezeddwa mu mwaka gw'ebyensimbi guno.
 Akakiiko ka disitulikiti kasabye abasuubuzi okusasula ensimbi zaabwe eza layisinsi mu budde.
 Enkiiko z'akakiiko zonna zongezeddwayo olw'ekirwadde bbunansi.
 Ekirwadde bbunansi kikosezza nnyo obuweereza bwa disitulikiti omwaka guno.
-"Olw'ekirwadde bbunansi, minisitule ekkiriza abantu ebikumi bibiri bokka mu kkanisa."
-Bammemba b'akakiiko bonna balina okwamba obukookolo okutangira okusaasaana kw'akawuka.
+Olw'ekirwadde bbunansi, minisitule ekkiriza abantu ebikumi bibiri bokka mu kkanisa.
+Bammemba b'akakiiko bonna balina okwambala obukookolo okutangira okusaasaana kw'akawuka.
 Embalirira y'omwaka gw'ebyensimbi ejja kuba eweddw wiiki ejja.
 Embalirira ya disitulikiti esinga kuvujjirirwa basuubuzi.
 Disitulikiti eranze emirimu emipya mu mpapula z'amawulire.
@@ -4125,7 +4125,7 @@ Waliwo enkwatagana ennungi wakati w'eggwanga lyaffe ne baliraanwa baalyo.
 Amakampuni agagamu gaggalawo mu biseera by'okubalukawo kw'akawuka ka kolona.
 Omukulembeze yali tamanyi ku mulimu egikolebwa mu bumenyi bw'amateeka mu disitulikiti.
 Omusajja ku kyalo kyaffe yeetuga oluvannyuma lw'okufumita mukyala we.
-Omusawo muntu wa nkiko nnyo ku kyalo ekyo.
+Omusawo muntu wa nkizo nnyo ku kyalo ekyo.
 Abaagalana bonna balina okusoowagana n'obutakkaanya.
 Omwami we amukuba olutatadde.
 Abakyala b'omu byalo bakisanga nga kizibu okuloopa ebibanyigiriza eri aboobuyinza.
@@ -4151,7 +4151,7 @@ Omuwendo gw'abanoonyiboobubudamu abayingira eggwanga gweyongera buli lunaku.
 Gavumenti yaggalawo ensalo zonna okutangira abantu abatamanyiddwako mayitire okuyingira Uganda.
 Abantu abasinga okusaasaanya akawuka ka kolona bava mu nsi eziriraanyeewo.
 Abantu bonna bateekeddwa okwambala obukookolo okuwona ekirwadde bbunansi.
-Poliisi ekutte anatu abatamanyiddwako mayitire olw'okubba ebuntu by'abantu.
+Poliisi ekutte abantu abatamanyiddwako mayitire olw'okubba ebintu by'abantu.
 Gavumenti yaggalawo amasomero gonna ku ntandikwa y'omwaka guno olw'ekirwadde bbunansi.
 Abanoonyiboobubudamu mu bukiikakkono bwa Uganda baava South Sudan.
 Ekirwadde bbunansi kisse abantu bangi okwetooloola ensi yonna.
@@ -4652,7 +4652,7 @@ Abasomesa abasinze baakulangirirwa wiiki eno.
 Okuweereza mu kkooti ensukkulumu kyetaagisa obumanyirivu bungi.
 Bakozesa emmotoka mpya okuwamba abantu.
 Abantu abasinga tebagenda kukeberebwa okutuusa nga obudde buyise.
-Gavumenti eyagala kukendeeza ku mujjuzo kibuga wakati.
+Gavumenti eyagala kukendeeza ku mujjuzo mu kibuga wakati.
 Ensalo yaggalwa olw'obutategeeragana wakati w'amawanga gombi.
 Poliisi etunula mu alipoota z'okuwamba bantu okwetooloola Kampala
 Gavumenti esazeewo okuwandiika abantu bonna abalina emmundu ez'obwannannyini.
@@ -4753,7 +4753,7 @@ Kino kyetaagisa ttiimu okuteeba goal.
 Ye muddusi asinga mu ggwanga lyonna.
 Omuzannyi azannyira ku mabbali g'ekisaawe asobola okukola ensobi ez'enjawulo mu muzannyo n'atanenyezebwa.
 Yava mu kyalo gy'azaalibwa nga muto n'agenda okuzannya omupiira mu kibuga.
-Ekisaawe ky'e Namboole kirina akakiiko akafuzi akutegeka emizannyo.
+Ekisaawe ky'e Namboole kirina akakiiko akafuzi akategeka emizannyo.
 Ttiimu ya Express ewa essuubi okukola obulungi.
 Yawangula omudaali gwe ogwa zzaabu ogwasooka mu mpaka z'okudduka.
 Ebyemizannyo mu Uganda bisanga ebizibu bingi.
@@ -4785,7 +4785,7 @@ Bannayuganda balina okuyiga okukozesa kompyuta.
 Tulina okukolera mu budde.
 Bannayuganda bangi bamanyi okwongera Olungereza.
 Obukodyo bw'okuwuliziganya bulina okubeera ekitundu ku bisomebwa.
-Obavu bungi nnyo mu byalo
+Obwavu bungi nnyo mu byalo
 Gavumenti ya Uganda eri mu kukola  ku tteeka eppya mu bisomesebwa.
 Twetaaga ebitongole abyagala okuyamba bannayuganda tebibatulugunya.
 Balina okutegekebwa mu bibinja.
