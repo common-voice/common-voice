@@ -451,6 +451,7 @@ localization = يەرلىكلەشتۈرۈش
 sentence-collection = جۈملە توپلىمى
 sst = Speech-to-text (STT) ئاۋازنى تېكىستقا
 sst-explanation = Speech-to-text (STT) تېخنىكىسى ئاۋازنى تېكىستكە ئايلاندۇرىدۇ.
+de-identified = كىملىك يوشۇرۇلدى
 
 ## Error pages
 
@@ -465,6 +466,7 @@ data-download-deny = ياق
 data-download-license = ئىجازەتنامە: <licenseLink> CC-0 </licenseLink>
 data-download-modal = سىز <size>{ $size }GB</size> نى چۈشۈرۈشنى باشلىماقچى بولۇۋاتىسىز؟
 data-other-title = باشقا ئاۋاز توپلىمى…
+data-other-goto = { $name } نى ئېچىڭ
 data-other-download = سانلىق مەلۇماتنى چۈشۈرۈش
 release-version = نەشرى
 dataset-date = چېسلا
@@ -551,6 +553,7 @@ record-error-too-short = خاتىرىلەش بەك قىسقا بولۇپ قال�
 record-error-too-long = خاتىرىلەش بەك ئۇزۇن بولۇپ قالدى.
 record-error-too-quiet = خاتىرىلەش بەك پەس بولۇپ قالدى.
 record-cancel = قايتا ئۈنگە ئىلىشنى بىكار قىل
+share-common-voice = Common Voice نى ئورتاقلىشىڭ
 record-abort-submit = ئاۋازنى يوللاش
 record-abort-continue = ئۈنگە ئىلىش ئاخىرلاشسۇن
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
