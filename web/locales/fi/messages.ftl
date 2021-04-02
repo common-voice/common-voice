@@ -83,7 +83,6 @@ kbd = kabardi
 kk = kazakki
 ko = korea
 kpv = komisyrjääni
-ku = kurdi
 kw = korni
 ky = kirgiisi
 lg = ganda
@@ -160,7 +159,7 @@ contact = Yhteystiedot
 privacy = Yksityisyys
 terms = Ehdot
 cookies = Evästeet
-faq = Usein kysytyt kysymykset
+faq = UKK
 content-license-text = Sisältö on saatavilla <licenseLink>Creative Commons -lisenssillä</licenseLink>
 share-title = Auta meitä löytämään muita lahjoittamaan äänensä!
 share-text = Auta opettamaan koneita kuinka oikeat ihmiset puhuvat, lahjoita äänesi täällä: { $link }
@@ -235,7 +234,6 @@ whats-public = Mikä on julkista?
 email-not-public = Emme julkaise sähköpostiosoitettasi.
 recordings-and-locale-public = Tallenteiden määrä ja tieto siitä mihin kieliin olet osallistunut ovat julkisia.
 username-optin-public = Voit tehdä käyttäjätunnuksestasi joko julkisen tai nimettömän.
-demographic-deidentified-clarity = Vapaaehtoisesti ilmoitettuja henkilötietojasi (esim. ikä, sukupuoli, kieli ja aksentti) ei koskaan julkisteta profiilissasi, eikä niitä yhdistetä tilisi kanssa. Yksittäiset äänileikkeet yhdistetään henkillötietoihin tarkempaa analysointia varten - esimerkiksi tutkija voi haluta kohdistaa koulutusmallin tiettyyn väestöryhmään.
 username-email-not-demographic = Käyttäjätunnustasi ja sähköpostiosoitettasi ei liitetä julkaistuun aineistoon.
 
 ## Speak & Listen Shortcuts
@@ -293,7 +291,7 @@ profile-form-accent =
     .label = Murre
 profile-form-age =
     .label = Ikä
-profile-form-gender =
+profile-form-gender-2 =
     .label = Sukupuoli
 leaderboard-visibility =
     .label = Näkyvyys pistetilastossa
@@ -320,7 +318,6 @@ profile-close = Sulje
 profile-explanation = Pidä kirjaa edistymisestäsi profiilin avulla ja auta tarkentamaan ääniaineistoamme.
 thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
-why-demographic-explanation = Nimettömät käyttäjätiedot, kuten ikä, sukupuoli ja murre, auttavat parantamaan puheentunnistusmoottoreiden opettamiseen käytettävää ääniaineistoa. Käyttäjänimeäsi ja sähköpostiosoitettasi ei koskaan yhdistetä lähettämääsi aineistoon ja voit valita teetkö käyttäjätunnuksesi julkiseksi tai nimettömäksi.
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
 accept-privacy-title = Yksityisyyskäytäntö
 login-identity = Käyttäjätunnus
@@ -501,7 +498,6 @@ data-bundle-description = Common Voice -aineisto sekä kaikki ylläolevat aineis
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Useita
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
-data-download-singleword-callout = Tämä on käyttötapauskohtainen segmentti, joka sisältää tietoja puhutun numeron tunnistusta varten, kyllä / ei -tapausten tunnistusta varten ja herätyssanojen testeiksi <fxLink> Firefox Voicessa </fxLink>.
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy
@@ -830,3 +826,19 @@ help-contribute = Voit auttaa luomaan monipuolisen ja avoimen aineiston luomalla
 login-company = Kirjaudu sisään / Luo tunnukset yrityksen { $company } sähköpostilla
 profile-not-required = Profiili ei ole välttämätön osallistumiseen, mutta siitä on hyötyä
 read-more-about = Lue lisää Lisätietoja-sivulta
+
+## DemoLayout
+
+
+## Demo Datasets
+
+card-button-next = Seuraava
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
