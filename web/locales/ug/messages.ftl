@@ -554,6 +554,7 @@ record-error-too-long = خاتىرىلەش بەك ئۇزۇن بولۇپ قالد
 record-error-too-quiet = خاتىرىلەش بەك پەس بولۇپ قالدى.
 record-cancel = قايتا ئۈنگە ئىلىشنى بىكار قىل
 share-common-voice = Common Voice نى ئورتاقلىشىڭ
+record-abort-title = ئاۋۋال خاتىرىلەشنى تاماملامسىز؟
 record-abort-submit = ئاۋازنى يوللاش
 record-abort-continue = ئۈنگە ئىلىش ئاخىرلاشسۇن
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
