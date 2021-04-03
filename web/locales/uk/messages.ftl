@@ -334,8 +334,8 @@ native-language =
     .label = Рідна мова
 profile-form-submit-save = Зберегти
 profile-form-submit-saved = Збережено
-male = Чоловіча
-female = Жіноча
+male = Чоловічі
+female = Жіночі
 # Gender
 other = Інше
 why-profile-title = Нащо потрібен профіль?
