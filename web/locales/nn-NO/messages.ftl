@@ -117,6 +117,7 @@ nn-NO = Norsk (nynorsk)
 oc = Oksitansk
 or = Oriya
 pa-IN = Panjabi
+pap-AW = Papiamento (Aruba)
 pl = Polsk
 ps = Pashto
 pt = Portugisisk
@@ -279,6 +280,7 @@ shortcut-record-toggle-label = Spel inn/Stopp
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spel inn klippet ein gong til
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
+request-language-text-learn = Les korleis du kan be om det her!
 request-language-button = Send ein førespurnad om eit nytt språk
 
 ## ProjectStatus
@@ -857,19 +859,25 @@ read-more-about = Les meir på Om oss-sida vår
 
 demo-get-started = La oss kome i gang
 demo-welcome = Velkomen til Common Voice
+demo-welcome-subheader = Interessert i å lære meir og bidra til prosjektet?
 
 ## Demo Datasets
 
 card-button-next = Neste
 card-button-back = Tilbake
 demo-language-select-label = Bla gjennom språk
+demo-eofy-header = Publisering ved utgangen av 2019
+demo-eofy-sub_header = Stemmedatasett, klar for nedlasting
 demo-account = Konto
 
 ## Demo Account
 
+demo-account-card-header = Du treng ikkje ein konto for å bidra, men det hjelper.
+demo-account-sign-up = Send registreringslenke
 
 ## Demo Contribute
 
+demo-listen-subtitle = Klar til å bidra?
 
 ## Demo Dashboard
 
