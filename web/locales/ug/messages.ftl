@@ -510,6 +510,7 @@ download-language = { $language }نى چۈشۈر
 validated-hours = دەلىللەنگەن سائەت
 recorded-hours = ئۈنگە ئىلىنغان سائەت
 whats-inside = Common Voice مەلۇمات ئامبىرىدا نېمە بار؟
+want-dataset-update = Common Voice ئاۋاز ئامبىرىنىڭ يېڭى نەشرىدىن خەۋەردار بولۇشنى خالامسىز؟يېڭىلىنىشقا مۇشتەرى بولۇڭ.
 subscribe = مۇشتەرى بولۇش
 get-started-speech = ئاۋاز تونۇتۇشنى باشلاڭ
 other-datasets = باشقا ئاۋاز مەلۇمات توپى
@@ -552,12 +553,15 @@ other-language = باشقا تىل
 language-section-in-progress = ئىلگىرىلەۋاتىدۇ
 language-section-launched = قوزغىتىلدى
 languages-show-more = تەپسىلاتى
+languages-show-less = ئاز كۆرسەت
+language-meter-in-progress = ئىلگىرىلەش
 language-total-progress = ئومۇمىي
 language-search-input =
     .placeholder = ئىزدە
 language-speakers = سۆزلىگۈچىلەر
 localized = يەرلىكلەشتۈرۈلگەن
 sentences = جۈملىلەر
+total-hours = دەلىللەنگەن سائەت
 
 ## Contribution
 
@@ -566,26 +570,44 @@ contribute = تۆھپە قوشاي
 listen = ئاڭلاي
 skip = ئاتلا
 shortcuts = تېزلەتمە
+clips-with-count-pluralized =
+    { $count ->
+        [one] ئاۋاز
+       *[other] ئاۋاز
+    }
 record-cta = ئۈنگە ئىلىشنى باشلا
+record-must-allow-microphone = مىكروفوننى ئىشلىتىشكە رۇخسەت قىلىشىڭىز كېرەك.
 record-no-mic-found = مىكروفون تېپىلمىدى.
 record-error-too-short = خاتىرىلەش بەك قىسقا بولۇپ قالدى.
 record-error-too-long = خاتىرىلەش بەك ئۇزۇن بولۇپ قالدى.
 record-error-too-quiet = خاتىرىلەش بەك پەس بولۇپ قالدى.
 record-cancel = قايتا ئۈنگە ئىلىشنى بىكار قىل
+record-last-instruction = <recordIcon> </recordIcon> ئەڭ ئاخىرقىسى!
+share-clip = ئاۋازىڭىزنى ھەمبەھىرلەڭ
 share-common-voice = Common Voice نى ئورتاقلىشىڭ
+clips-uploaded = ئاۋاز يۈكلەندى
 record-abort-title = ئاۋۋال خاتىرىلەشنى تاماملامسىز؟
 record-abort-submit = ئاۋازنى يوللاش
 record-abort-continue = ئۈنگە ئىلىش ئاخىرلاشسۇن
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
 record-button-label = ئاۋازىڭىزنى ئۈنگە ئىلىڭ
+login-to-get-started = باشلاش ئۈچۈن كىرىڭ ياكى تىزىملىتىڭ
+target-segment-add-voice = ئاۋازىڭىزنى قوشۇڭ
 target-segment-learn-more = تەپسىلاتى
 
 ## Reporting
 
 report = دوكلات
 report-title = دوكلات يوللاش
+report-offensive-language = ھاقارەتلىك سۆز
+report-grammar-or-spelling = گرامماتىكىلىق / ئىملا خاتالىقى
 report-different-language = ئوخشىمىغان تىل
 report-different-language-detail = مەن سۆزلەيدىغان تىلغا ئوخشىمايدىغان تىلدا يېزىلىپتۇ.
+report-difficult-pronounce = تەلەپپۇز قىلىش قىيىن
+report-offensive-speech = ھاقارەت تىلى
+report-other-comment =
+    .placeholder = باھا
+continue = داۋاملاشتۇر
 
 ## Goals
 
@@ -598,16 +620,30 @@ days =
 ## Dashboard
 
 your-languages = سىزنىڭ تىلىڭىز
+clips-you-recorded = سىز ئۈنگە ئالغان ئاۋازلار
+clips-you-validated = سىز دەلىللىگەن ئاۋازلار
 awards = مۇكاپات
+you = سىز
 everyone = ھەممەيلەن
+recorded-clips = ئۈنگە ئىلىنغان ئاۋازلار
+validated-clips = دەلىللەنگەن ئاۋازلار
+total-approved = ئومۇمىي تەستىقلاندى
+overall-accuracy = ئومۇمىي ئېنىقلىق
+set-visibility = كۆرۈنۈشچانلىقىمنى تەڭشە
+show-ranking = رەت تەرتىپىمنى كۆرسەت
 
 ## Custom Goals
 
+both-speak-and-listen = ھەر ئىككىلىسى
+both-speak-and-listen-long = ھەر ئىككىسى (سۆزلەڭ ۋە ئاڭلاڭ)
 daily-goal = كۈندىلىك نىشان
 weekly-goal = ھەپتىلىك نىشان
 easy-difficulty = ئاسان
 average-difficulty = ئوتتۇرىچە
 difficult-difficulty = قىيىن
+set-a-goal = نىشان بەلگىلەڭ
+cant-decide = قارار قىلالمىدىڭىزمۇ؟
+which-goal-type = سۆزلەمسىز ياكى ئاڭلامسىز ۋە ياكى ھەر ئىككىلىسىمۇ؟
 confirm-goal = نىشاننى جەزملەشتۈرۈڭ
 goal-interval-weekly = ھەپتىلىك
 share-goal-type-speak = سۆزلەش
