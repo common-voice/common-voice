@@ -873,10 +873,13 @@ demo-account = Konto
 ## Demo Account
 
 demo-account-card-header = Du treng ikkje ein konto for å bidra, men det hjelper.
+demo-account-enter-email =
+    .label = Skriv inn e-postadresse for å få tilsendt registreringslenke
 demo-account-sign-up = Send registreringslenke
 
 ## Demo Contribute
 
+demo-contribute-card-header = Klar for å leggje til stemma di eller bruke øyret ditt?
 demo-listen-subtitle = Klar til å bidra?
 
 ## Demo Dashboard
