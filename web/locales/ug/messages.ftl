@@ -461,7 +461,9 @@ mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
 
 glossary = ئاتالغۇلار
 localization = يەرلىكلەشتۈرۈش
+localization-explanation = بۇ مەزمۇنلىرمىزنىڭ نۇرغۇن يەرلىك(تىللارغا) تەرجىمە قىلىش ۋە ماسلاشتۇرۇش ئەھۋالى.
 sentence-collection = جۈملە توپلىمى
+hours-recorded-explanation = بىز ھازىرغىچە ئۈنگە ئالغان ئاۋازىنىڭ ۋاقىت سانى.
 sst = Speech-to-text (STT) ئاۋازنى تېكىستقا
 sst-explanation = Speech-to-text (STT) تېخنىكىسى ئاۋازنى تېكىستكە ئايلاندۇرىدۇ.
 de-identified = كىملىك يوشۇرۇلدى
@@ -481,6 +483,7 @@ data-download-modal = سىز <size>{ $size }GB</size> نى چۈشۈرۈشنى ب
 data-other-title = باشقا ئاۋاز توپلىمى…
 data-other-goto = { $name } نى ئېچىڭ
 data-other-download = سانلىق مەلۇماتنى چۈشۈرۈش
+data-bundle-button = سانلىق مەلۇمات بوغچىسىنى چۈشۈرۈڭ
 release-version = نەشرى
 dataset-date = چېسلا
 license = ئىجازەتنامە: <licenseLink>{ $license }</licenseLink>
@@ -531,6 +534,7 @@ download-title = چۈشۈرۈشىڭىز باشلاندى.
 download-form-email =
     .label = ئېلخىتىڭىزنى كىرگۈزۈڭ
     .value = رەھمەت، سىز بىلەن ئالاقىلىشىمىز.
+download-back = Common Voice سانلىق مەلۇمات ئامبىرىغا قايت
 download-no = ياق رەھمەت
 
 ## Contact Modal
@@ -578,6 +582,9 @@ clips-with-count-pluralized =
        *[other] ئاۋاز
     }
 record-cta = ئۈنگە ئىلىشنى باشلا
+record-platform-not-supported = كەچۈرۈڭ ، سىزنىڭ سۇپىڭىزنى ھازىرچە قوللىمايدۇ.
+record-platform-not-supported-desktop = ئۈستەل يۈزى ئۈسكۈنىلىرىدە چۈشۈرۈش ئارقىلىق تۆھپە قوشالايسىز…
+record-platform-not-supported-ios-non-safari = iOS دا safari ئارقىلىق ئۈنگە ئىلىشنى قوزغىتىپ داۋاملاشتۇرۇڭ...
 record-must-allow-microphone = مىكروفوننى ئىشلىتىشكە رۇخسەت قىلىشىڭىز كېرەك.
 record-no-mic-found = مىكروفون تېپىلمىدى.
 record-error-too-short = خاتىرىلەش بەك قىسقا بولۇپ قالدى.
