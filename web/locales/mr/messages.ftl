@@ -461,9 +461,13 @@ dataset-date = दिनांक
 license = परवाना: <licenseLink>{ $license }</licenseLink>
 license-mixed = संमिश्र
 data-download-singleword-title = एक शब्द असणारे लक्ष्य विभाग डाउनलोड करा
+review-terms = कॉमन व्हॉईस वापरुन, आपण आमच्या <termsLink> अटी </termsLink> आणि </privacyLink>  गोपनीयता सूचनांना </privacyLink>  सहमती देता
 terms-agree = मी सहमत आहे
 terms-disagree = मी सहमत नाही
 review-aborted = अपलोड रद्द केले. आपण आपले रेकॉर्डिंग हटवू इच्छिता?
+review-submit-title = पुनरावलोकन करा व सबमिट करा
+review-submit-msg = रेकॉर्डिंग केल्याबद्दल धन्यवाद! <lineBreak> </lineBreak> आता आपल्या क्लिपचे पुनरावलोकन करा आणि सबमिट करा.
+review-recording = पुनरालोकन करा
 review-rerecord = पुन्हा रेकॉर्ड करा
 review-cancel = सबमिशन रद्द करा
 review-keep-recordings = रेकॉर्डिंग ठेवा
@@ -476,7 +480,10 @@ language = भाषा
 size = आकार
 validated-hr-total = प्रमाणित तास एकूण
 overall-hr-total = एकूण तास
+cv-license = परवाना
+audio-format = ऑडिओ स्वरूप
 number-of-voices = आवाजांची संख्या
+splits = विभाजन
 email-to-download = डाउनलोड करण्यासाठी ईमेल प्रविष्ट करा
 confirm-size = आपण <b> { $size } </ b> डाउनलोड करण्यास सज्ज आहात
 size-gigabyte = जीबी
@@ -487,6 +494,7 @@ validated-hours = प्रमाणित तास
 recorded-hours = रेकॉर्ड केलेले तास
 whats-inside = कॉमन व्हॉईस डेटासेटमध्ये काय आहे?
 subscribe = सबस्क्राइब करा
+get-started-speech = स्पीच रेकग्निशनला सुरुवात करा.
 other-datasets = इतर व्हॉइस डेटासेट
 feedback-q = अभिप्राय आहे?
 data-other-ted-name = टेड-लिम कॉर्पस
@@ -503,6 +511,9 @@ dataset-version = आवृत्ती
 
 download-title = आपले डाउनलोड सुरु झाले आहे.
 download-helpus = व्हॉईस तंत्रज्ञानाभोवती एक समुदाय तयार करण्यास, ईमेलद्वारे संपर्कात राहण्यास आम्हाला मदत करा.
+download-form-email =
+    .label = ईमेल प्रविष्ट करा
+    .value = धन्यवाद, आम्ही तुम्हाला संपर्क करु.
 download-back = कॉमन व्हॉईस डेटासेटवर परत जा
 download-no = नाही धन्यवाद
 
@@ -526,10 +537,15 @@ other-language = इतर भाषा
 
 ## Languages Overview
 
+language-section-in-progress = काम सुरु आहे
+language-section-launched = प्रसिद्ध झाले
+languages-show-more = अजून पहा
+languages-show-less = कमी पहा
 language-meter-in-progress = प्रगती
 language-total-progress = एकूण
 language-search-input =
     .placeholder = शोधा
+language-speakers = वक्ते
 sentences = वाक्ये
 total-hours = प्रमाणित तास
 
