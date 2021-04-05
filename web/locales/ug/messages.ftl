@@ -457,12 +457,21 @@ about-partnership =
     
     بۇ تۈرگە ياردەمدە بولغان تۆۋەندىكى كىشىلەر ۋە تەشكىلاتلارغا رەھمەت ئېيتىمىز:
 about-get-involved = قاتنىشىڭ
+about-get-involved-text-2 =
+    بۇ تۈرگە ياردەمدە بولغان تۆۋەندىكى كىشىلەر ۋە تەشكىلاتلارغا رەھمەت ئېيتىمىز:
+    Common Voice نى تېخىمۇ ياخشىلاشقا ياردەمدە بولۇشنى خالامسىز؟
+    ناھايىتى ياخشى، ئۇنداقتا ئېلخەت ياكى  <discourseLink>مۇنازىرە</discourseLink> 
+    مۇنبىرى ئارقىلىق ئالاقىلىشىڭ، تور بەتتىكى مەسىلىلەرنى <githubLink>GitHub</githubLink> ياكى
+     <matrixLink>Matrix</matrixLink> دىكى پاراڭغا قوشۇلۇڭ.
 about-nav-why-common-voice = نېمىشقا؟
 about-nav-how-it-works = قانداق؟
 about-nav-partners = ھەمكارلاشقۇچىلار
 about-nav-get-involved = قاتنىشىڭ
 mycroft-title = Mycroft Ai
 mycroft-subtitle = سۈنئىي ئەقلى ئىقتىدار
+mycroft-description =
+    Mycroft بولسا دۇنيادىكى تۇنجى ئوچۇق كود ياردەمچىسى.
+    Mycroftئى ئۈستەل كومپيۇتېرىدا، ماشىنىدا ياكى Raspberry Pi دا ئىجرا قىلغىلى بولىدۇ.
 
 ## Glossary
 
@@ -478,6 +487,7 @@ de-identified = كىملىك يوشۇرۇلدى
 ## Error pages
 
 error-title-404 = ئىزدىگەن بېتىڭىز تېپىلمىدى
+error-title-503 = كۈتۈلمىگەن مەسىلە كۆرۈلدى
 error-code = خاتالىق { $code }
 
 ## Data
@@ -495,6 +505,7 @@ release-version = نەشرى
 dataset-date = چېسلا
 license = ئىجازەتنامە: <licenseLink>{ $license }</licenseLink>
 license-mixed = ئارىلاش
+data-download-singleword-title = يەككە سۆز نىشان بۆلىكىنى چۈشۈرۈڭ
 terms-agree = قوشۇلىمەن
 terms-disagree = قوشۇلمايمەن
 review-submit-title = تەكشۈرۈش ۋە يوللاش
