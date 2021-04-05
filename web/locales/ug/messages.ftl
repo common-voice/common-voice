@@ -591,13 +591,20 @@ record-error-too-short = خاتىرىلەش بەك قىسقا بولۇپ قال�
 record-error-too-long = خاتىرىلەش بەك ئۇزۇن بولۇپ قالدى.
 record-error-too-quiet = خاتىرىلەش بەك پەس بولۇپ قالدى.
 record-cancel = قايتا ئۈنگە ئىلىشنى بىكار قىل
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>  تاماملانغاندىن كېيىن
+record-again-instruction = ناھايىتى ياخشى! <recordIcon></recordIcon> كېيىنكى ئاۋازنى ئۈنگە ئىلىڭ
 record-last-instruction = <recordIcon> </recordIcon> ئەڭ ئاخىرقىسى!
 share-clip = ئاۋازىڭىزنى ھەمبەھىرلەڭ
 share-common-voice = Common Voice نى ئورتاقلىشىڭ
+review-instruction = تەكشۈرۈڭ ۋە زۆرۈر بولسا قايتا ئۈنگە ئىلىڭ
+record-submit-tooltip = { $actionType }تەييار بولغاندا يوللاڭ
 clips-uploaded = ئاۋاز يۈكلەندى
 record-abort-title = ئاۋۋال خاتىرىلەشنى تاماملامسىز؟
+record-abort-text = ھازىر ئايرىلسىڭىز ئىلگىرىلىشىڭىزنى يوقىتىسىز
 record-abort-submit = ئاۋازنى يوللاش
 record-abort-continue = ئۈنگە ئىلىش ئاخىرلاشسۇن
+record-abort-delete = چېكىنىش ۋە ئاۋازنى ئۆچۈرۈش
+listen-last-time-instruction = <playIcon></playIcon> ئەڭ ئاخىرقىسى!
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
 record-button-label = ئاۋازىڭىزنى ئۈنگە ئىلىڭ
 login-to-get-started = باشلاش ئۈچۈن كىرىڭ ياكى تىزىملىتىڭ
