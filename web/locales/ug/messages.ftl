@@ -551,6 +551,7 @@ dataset-version = نەشرى
 ## Download Modal
 
 download-title = چۈشۈرۈشىڭىز باشلاندى.
+download-helpus = ئاۋاز تېخنىكىسىنى ئاساس قىلغان جامائەت توپىنى قۇرۇشىمىزغا ياردەمدە بولۇڭ، ئېلخەت ئارقىلىق ئالاقىنى ساقلاپ قىلىڭ.
 download-form-email =
     .label = ئېلخىتىڭىزنى كىرگۈزۈڭ
     .value = رەھمەت، سىز بىلەن ئالاقىلىشىمىز.
@@ -572,6 +573,7 @@ request-language-title = تىل تەلىپى
 request-language-form-language =
     .label = تىل
 request-language-success-title = تىل تەلىپى مۇۋەپپەقىيەتلىك يوللاندى ، رەھمەت.
+request-language-success-content = Common Voice قا تىلىڭىزنى قانداق قوشۇش توغرىسىدا پات يېقىندا سىزنى تېخىمۇ كۆپ ئۇچۇر بىلەن تەمىنلەيمىز.
 select-language = تىل تاللاڭ ...
 other-language = باشقا تىل
 
@@ -614,7 +616,9 @@ record-error-too-quiet = خاتىرىلەش بەك پەس بولۇپ قالدى.
 record-cancel = قايتا ئۈنگە ئىلىشنى بىكار قىل
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>  تاماملانغاندىن كېيىن
 record-again-instruction = ناھايىتى ياخشى! <recordIcon></recordIcon> كېيىنكى ئاۋازنى ئۈنگە ئىلىڭ
+record-again-instruction2 = داۋاملاشتۇرۇڭ، يەنە ئۈنگە ئېلىڭ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> ئەڭ ئاخىرقىسى!
+review-tooltip = تەكشۈرۈڭ شۇنداقلا بۇ يەرنىڭ ئۆزىدە قايتا ئۈنگە ئېلىڭ
 share-clip = ئاۋازىڭىزنى ھەمبەھىرلەڭ
 share-common-voice = Common Voice نى ئورتاقلىشىڭ
 review-instruction = تەكشۈرۈڭ ۋە زۆرۈر بولسا قايتا ئۈنگە ئىلىڭ
@@ -625,6 +629,7 @@ record-abort-text = ھازىر ئايرىلسىڭىز ئىلگىرىلىشىڭى
 record-abort-submit = ئاۋازنى يوللاش
 record-abort-continue = ئۈنگە ئىلىش ئاخىرلاشسۇن
 record-abort-delete = چېكىنىش ۋە ئاۋازنى ئۆچۈرۈش
+listen-again-instruction = يارايسىز! <playIcon></playIcon> تەييار بولغاندا قايتا ئاڭلاڭ
 listen-last-time-instruction = <playIcon></playIcon> ئەڭ ئاخىرقىسى!
 listen-empty-state = بۇ تىلدىكى دەلىللەيدىغان ئاۋازلار تۈگىدى...
 speak-empty-state = بۇ تىلدىكى ئۈنگە ئالدىغان جۈملىلەر تۈگىدى...
@@ -668,6 +673,7 @@ days =
 ## Dashboard
 
 your-languages = سىزنىڭ تىلىڭىز
+toward-next-goal = كېيىنكى نىشانغا
 clips-you-recorded = سىز ئۈنگە ئالغان ئاۋازلار
 clips-you-validated = سىز دەلىللىگەن ئاۋازلار
 awards = مۇكاپات
