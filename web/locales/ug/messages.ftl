@@ -720,6 +720,7 @@ share-goal-type-listen = ئاڭلاش
 share-goal-type-both = سۆزلەش ۋە ئاڭلاش
 weekly-goal-created = ھەپتىلىك نىشانىڭىز بېكىتىلدى.
 daily-goal-created = كۈندىلىك نىشانىڭىز بېكىتىلدى.
+return-to-edit-goal = بۇ يەرگە قايتىپ نىشانىڭىزنى خالىغان ۋاقىتتا تەھرىرلەڭ.
 share-goal = نىشانىمنى ئورتاقلىشىڭ
 
 ## Profile Delete
@@ -731,9 +732,13 @@ profile-form-delete = ئارخىپنى ئۆچۈرۈڭ
 ## Landing
 
 welcome-staff = { $company } خىزمەتچىلىرىنى قارشى ئالىمىز!
+login-company = { $company } ئېلخەت ئارقىلىق كىرىڭ / تىزىملىتىڭ
+profile-not-required = تۆھپە قوشۇش ئۈچۈن ئارخىپ ئۇچۇرى تەلەپ قىلىنمايدۇ شۇنداقتىمۇ بولغىنى پايدىلىق، تۆۋەندە سەۋەبىنى كۆرۈڭ.
+read-more-about = تەپسىلاتنى بىزنىڭ توغرىسىدا بېتىمىزدىن كۆرۈڭ
 
 ## DemoLayout
 
+demo-get-started = باشلايلى
 demo-welcome = Common Voice گە خۇش كەپسىز
 
 ## Demo Datasets
@@ -741,6 +746,7 @@ demo-welcome = Common Voice گە خۇش كەپسىز
 card-button-next = كېيىنكى
 card-button-back = قايتىش
 demo-language-select-label = تىللارنى كۆرۈڭ
+demo-eofy-header = 2019-يىل ئاخىرى ئېلان قىلىندى
 demo-account = ھېسابات
 
 ## Demo Account
