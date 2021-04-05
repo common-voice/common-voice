@@ -508,6 +508,7 @@ license-mixed = ئارىلاش
 data-download-singleword-title = يەككە سۆز نىشان بۆلىكىنى چۈشۈرۈڭ
 terms-agree = قوشۇلىمەن
 terms-disagree = قوشۇلمايمەن
+review-aborted = يۈكلەش ئەمەلدىن قالدۇرۇلدى. ئۈن خاتىرىسىنى ئۆچۈرەمسىز؟
 review-submit-title = تەكشۈرۈش ۋە يوللاش
 review-recording = تەكشۈرۈش
 review-rerecord = قايتا ئۈنگە ئىلىڭ
