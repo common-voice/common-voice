@@ -676,6 +676,8 @@ your-languages = سىزنىڭ تىلىڭىز
 toward-next-goal = كېيىنكى نىشانغا
 clips-you-recorded = سىز ئۈنگە ئالغان ئاۋازلار
 clips-you-validated = سىز دەلىللىگەن ئاۋازلار
+todays-recorded-progress = Common Voice نىڭ خاتىرىلەنگەن ئاۋازدىكى بۈگۈنكى ئىلگىرىلىشى
+todays-validated-progress = Common Voice نىڭ دەلىللەنگەن ئاۋازدىكى بۈگۈنكى ئىلگىرىلىشى
 awards = مۇكاپات
 you = سىز
 everyone = ھەممەيلەن
@@ -690,6 +692,9 @@ show-ranking = رەت تەرتىپىمنى كۆرسەت
 
 ## Custom Goals
 
+get-started-goals = نىشان بىلەن باشلاڭ
+create-custom-goal = ئىختىيارى نىشان تىكلەڭ
+goal-type = سىز قانداق نىشان تىكلىمەكچى؟
 both-speak-and-listen = ھەر ئىككىلىسى
 both-speak-and-listen-long = ھەر ئىككىسى (سۆزلەڭ ۋە ئاڭلاڭ)
 daily-goal = كۈندىلىك نىشان
@@ -697,8 +702,15 @@ weekly-goal = ھەپتىلىك نىشان
 easy-difficulty = ئاسان
 average-difficulty = ئوتتۇرىچە
 difficult-difficulty = قىيىن
+pro-difficulty = Pro
+lose-goal-progress-warning = نىشانىڭىزنى تەھرىرلىسىڭىز، ھازىرقى ئىلگىرىلىشىڭىزنى يوقىتىشىڭىز مۇمكىن.
+want-to-continue = داۋاملاشتۇرۇشنى خالامسىز؟
+lose-changes-warning = ھازىر ئايرىلسىڭىز ئۆزگىرىشلەر يوق بولۇپ كېتىدۇ
+build-custom-goal = ئىختىيارى نىشان تىكلەڭ
 set-a-goal = نىشان بەلگىلەڭ
 cant-decide = قارار قىلالمىدىڭىزمۇ؟
+how-many-per-day = ناھايىتى ياخشى! كۈندە قانچە ئاۋاز بۆلىكى؟
+how-many-a-week = ناھايىتى ياخشى! ھەپتىدە قانچە ئاۋاز بۆلىكى؟
 which-goal-type = سۆزلەمسىز ياكى ئاڭلامسىز ۋە ياكى ھەر ئىككىلىسىمۇ؟
 help-share-goal = تېخىمۇ كۆپ ئاۋاز تېپىشىمىزغا ياردەم قىلىڭ ، نىشانىڭىزنى ئورتاقلىشىڭ
 confirm-goal = نىشاننى جەزملەشتۈرۈڭ
