@@ -510,6 +510,7 @@ terms-agree = قوشۇلىمەن
 terms-disagree = قوشۇلمايمەن
 review-aborted = يۈكلەش ئەمەلدىن قالدۇرۇلدى. ئۈن خاتىرىسىنى ئۆچۈرەمسىز؟
 review-submit-title = تەكشۈرۈش ۋە يوللاش
+review-submit-msg = ئۈنگە ئالغىنىڭىزغا رەھمەت<lineBreak></lineBreak> ئەمدى تەكشۈرۈڭ شۇنداقلا ئاۋازىڭىزنى يوللاڭ.
 review-recording = تەكشۈرۈش
 review-rerecord = قايتا ئۈنگە ئىلىڭ
 review-cancel = يوللاشنى ئەمەلدىن قالدۇر
