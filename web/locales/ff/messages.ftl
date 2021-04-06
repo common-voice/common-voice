@@ -148,12 +148,14 @@ tr = Turkish
 tt = Tatar
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
@@ -165,6 +167,7 @@ zh-TW = Chinese (Taiwan)
 
 speak = Haal
 speak-now = Haal jooni
+datasets = Datasets
 languages = Ɗemɗe
 about = Baɗte
 profile = Heftinirde
@@ -173,6 +176,7 @@ contact = Jokkondiral
 privacy = Suturo
 terms = Sarɗiiji
 cookies = Kuukiije
+faq = Ko Ɓuri Naamneede
 content-license-text = Loowdi ina heɓoo les <licenseLink>Creative Commons license</licenseLink>
 share-title = Wallu min dañde woɗɓe ngam rokkirde daaɗe mum en!
 share-text = Wallu jannginde masiŋaaji no yimɓe woodɓe kaalirta, rokkir daande maa e { $link }
@@ -184,6 +188,10 @@ logout = Seŋto
 
 home-title = Common Voice ko feere Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
 home-cta = Ɓamtu daande, wallit ɗoo!
+wall-of-text-start =
+    Sawto ko tago, ko e neɗɗo jeyaa. Ɗuum waɗi amin cummbanoo sosde karalle sawto
+    kuutorteeɗe e masiŋaaji men. Kono ngam sosde juɓɓe sawto, jogaade keɓe sawto
+    keewɗe haa wooroo ena waɗɗii.
 wall-of-text-more-mobile =
     Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
     ɗum ina ñoƴƴa pental. Ɗuum noon min ummini eɓɓoore Common Voice, eɓɓoore walloore waɗde daande
