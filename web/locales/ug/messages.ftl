@@ -610,6 +610,11 @@ clips-with-count-pluralized =
         [one] ئاۋاز
        *[other] ئاۋاز
     }
+contribute-more =
+    { $count ->
+        [one] يەنە { $count } نى قىلىشقا تەييارمۇ؟
+       *[other] يەنە { $count } نى قىلىشقا تەييارمۇ؟
+    }
 record-cta = ئۈنگە ئىلىشنى باشلا
 record-platform-not-supported = كەچۈرۈڭ ، سىزنىڭ سۇپىڭىزنى ھازىرچە قوللىمايدۇ.
 record-platform-not-supported-desktop = ئۈستەل يۈزى ئۈسكۈنىلىرىدە چۈشۈرۈش ئارقىلىق تۆھپە قوشالايسىز…
@@ -620,6 +625,7 @@ record-error-too-short = خاتىرىلەش بەك قىسقا بولۇپ قال�
 record-error-too-long = خاتىرىلەش بەك ئۇزۇن بولۇپ قالدى.
 record-error-too-quiet = خاتىرىلەش بەك پەس بولۇپ قالدى.
 record-cancel = قايتا ئۈنگە ئىلىشنى بىكار قىل
+record-instruction = { $actionType }<recordIcon></recordIcon> ئاندىن جۈملىنى ئۈنلۈك ئوقۇڭ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>  تاماملانغاندىن كېيىن
 record-three-more-instruction = ئۈچى قالدى!
 record-again-instruction = ناھايىتى ياخشى! <recordIcon></recordIcon> كېيىنكى ئاۋازنى ئۈنگە ئىلىڭ
@@ -636,6 +642,7 @@ record-abort-text = ھازىر ئايرىلسىڭىز ئىلگىرىلىشىڭى
 record-abort-submit = ئاۋازنى يوللاش
 record-abort-continue = ئۈنگە ئىلىش ئاخىرلاشسۇن
 record-abort-delete = چېكىنىش ۋە ئاۋازنى ئۆچۈرۈش
+listen-instruction = { $actionType }<playIcon></playIcon>ئۇلار جۈملىنى توغرا سۆزلەپتىمۇ؟
 listen-again-instruction = يارايسىز! <playIcon></playIcon> تەييار بولغاندا قايتا ئاڭلاڭ
 listen-3rd-time-instruction = ئىككىسى تۈگىدى ، داۋاملاشتۇرۇڭ! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon></playIcon> ئەڭ ئاخىرقىسى!
@@ -644,6 +651,7 @@ speak-empty-state = بۇ تىلدىكى ئۈنگە ئالدىغان جۈملىل
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
 record-button-label = ئاۋازىڭىزنى ئۈنگە ئىلىڭ
 share-title-new = تېخىمۇ كۆپ ئاۋاز تېپىشىمىزغا <bold>ياردەم قىلىڭ</bold>
+keep-track-profile = ئارخىپى قۇرۇش ئارقىلىق ئىلگىرلىشىڭىزنى ئىز قوغلاپ تۇرۇڭ
 login-to-get-started = باشلاش ئۈچۈن كىرىڭ ياكى تىزىملىتىڭ
 target-segment-first-card = سىز تۇنجى نىشان بۆلىكىگە تۆھپە قوشىۋاتىسىز
 target-segment-generic-card = سىز بىر نىشان بۆلىكىگە تۆھپە قوشۇۋاتىسىز
@@ -677,11 +685,17 @@ days =
         [one] كۈن
        *[other] كۈنلەر
     }
+recordings =
+    { $count ->
+        [one] ئۈن خاتىرىسى
+       *[other] ئۈن خاتىرىسى
+    }
 
 ## Dashboard
 
 your-languages = سىزنىڭ تىلىڭىز
 toward-next-goal = كېيىنكى نىشانغا
+goal-reached = نىشانغا يەتتى
 clips-you-recorded = سىز ئۈنگە ئالغان ئاۋازلار
 clips-you-validated = سىز دەلىللىگەن ئاۋازلار
 todays-recorded-progress = Common Voice نىڭ خاتىرىلەنگەن ئاۋازدىكى بۈگۈنكى ئىلگىرىلىشى
