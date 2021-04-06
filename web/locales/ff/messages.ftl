@@ -179,7 +179,7 @@ cookies = Kuukiije
 faq = Naamne Lolluɗe
 content-license-text = Loowdi ina heɓoo les <licenseLink>Creative Commons license</licenseLink>
 share-title = Wallu min dañde woɗɓe ngam rokkirde daaɗe mum en!
-share-text = Wallu jannginde masiŋaaji no yimɓe woodɓe kaalirta, rokkir daande maa e { $link }
+share-text = Wallu jannginde masiŋaaji no yimɓe woodɓe kaalirta, rokkir sawto maa e { $link }
 link-copied = Jokkol nattaama
 back-top = Rutto Dow
 logout = Seŋto
@@ -194,8 +194,8 @@ wall-of-text-start =
     keewɗe haa wooroo ena waɗɗii.
 wall-of-text-more-mobile =
     Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
-    ɗum ina ñoƴƴa pental. Ɗuum noon min ummini eɓɓoore Common Voice, eɓɓoore walloore waɗde daande
-    heftinirde udditaniinde kala neɗɗo.
+    ɗum ina ñoƴƴa pental. Ɗuum noon min ummini eɓɓoore Common Voice, eɓɓoore walloore waɗde
+    heftinirde sawto udditaniinde kala neɗɗo.
 wall-of-text-more-desktop =
     Aɗa waawi hokkirde sawto maa ngam wallude-min tafde diiñorde keɓe nde sewnde-udditiinde nde mo woni kala waawi huutoraade
     ngam waɗde jaaɓde kesamkeseme kuutorteeɗe e kaɓirdi kam e geese. Tar konngol ngam wallude masiŋaaji ekkaade no neɗɗo e jaati haaldata. Ƴeewto golle wallitoode woɗɓe ngam ƴellitde moƴƴugol. Ko noon wayi weeɓde!
@@ -295,13 +295,13 @@ shortcut-record-toggle-label = Nanngito/Dartin
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nanngito kadi lefel
 request-language-text = A suwaa yiy ɗemngal maa e Common Voice tawo?
-request-language-text-learn = Ekko no ɗum ɗaɓɓirtee ɗoo!
-request-language-button = Naamno ɗemngal
+request-language-text-learn = Ƴeew ɗoo no ngal ɗaɓɓitirtee!
+request-language-button = Ɗaɓɓit Ɗemngal
 
 ## ProjectStatus
 
 status-title = Ngonka eɓɓoore ndee e kuuɓal: ƴeew ɗo njetti-ɗen!
-status-contribute = Wallitir daande maa
+status-contribute = Wallitir sawto maa
 status-hours =
     { $hours ->
         [one] Waktu gooto jaalɗinaa tawo!
@@ -557,6 +557,7 @@ data-other-librispeech-description = LibriSpeech ko ndoɓordi ngigiindi hakke wa
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Ndoɓordi TED-LIUM waɗiraa ko jeewte ojoo e binnditte mum keɓotooɗe to lowre TED toh.
 data-other-voxforge-description = VoxForge waɗiraa ko roɓindaade haala mbinnditaaka ngam huutoreede e Masiŋaaji Keftingol Haala de Sewnde-Udditigol
+data-other-tatoeba-description = Tatoeba ko diiñorde keɓe konnguɗi, firooji e ojoo gowlaaɗo mawnde ngam huutoraade e jaŋde ɗemɗe. Ngol gaawtol ena jogii Engleleere wowlaande nanngitaande renndo ngoo.
 go-languages-page = Yah to Hello Ɗemɗe
 ready-to-validate = Aɗa hebii wallude moƴƴinde koŋnguɗi?
 more = Goɗɗum
@@ -594,7 +595,8 @@ other-language = Ɗemngal goɗngal
 
 language-section-in-progress = Heen Wonaa
 language-section-launched = Fuɗɗaama
-languages-show-more = Yiy keewɗum
+language-section-launched-description = Ɗee ɗemɗe kurminaaɗe ko ɗemɗe <localizationGlossaryLink>nokkuɗinɗe</localizationGlossaryLink> lowre ndee haa timmi, kadi ena njogii <sentenceCollectionGlossaryLink>konnguɗi doɓindaaɗi</sentenceCollectionGlossaryLink> ngam aaɓnoo jokkeede e ballitte <speakLink>Haal</speakLink> e <listenLink>Heɗo</listenLink>.
+languages-show-more = Yiy goɗɗe
 languages-show-less = Yiy seeɗa
 language-total-progress = kuuɓal
 language-search-input =
@@ -607,7 +609,7 @@ total-hours = Waktuuji jaalɗinaaɗi
 ## Contribution
 
 action-click = Dobo
-contribute = Wallit
+contribute = Addu ballal Maa
 listen = Heɗo
 skip = Diw
 shortcuts = Codorɗe
