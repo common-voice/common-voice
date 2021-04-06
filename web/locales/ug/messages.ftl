@@ -742,6 +742,16 @@ want-to-continue = داۋاملاشتۇرۇشنى خالامسىز؟
 finish-editing = ئاۋۋال تەھرىرلەشنى تاماملامسىز؟
 lose-changes-warning = ھازىر ئايرىلسىڭىز ئۆزگىرىشلەر يوق بولۇپ كېتىدۇ
 build-custom-goal = ئىختىيارى نىشان تىكلەڭ
+help-reach-hours-pluralized =
+    يىتىشىمىزغا ياردەم قىلىڭ{ NUMBER($hours) ->
+        [one] { $hours } سائەت
+       *[other] { $hours } سائەت
+    }{ $language } دىكى شەخسى نىشانغا
+help-reach-hours-general-pluralized =
+    Common Voice نىڭ يېتىشىغا ياردەمدە بولۇڭ{ NUMBER($hours) ->
+        [one] { $hours } سائەت
+       *[other] { $hours } سائەت
+    } { $language } دىكى شەخسى نىشانغا
 set-a-goal = نىشان بەلگىلەڭ
 cant-decide = قارار قىلالمىدىڭىزمۇ؟
 how-many-per-day = ناھايىتى ياخشى! كۈندە قانچە ئاۋاز بۆلىكى؟
@@ -792,6 +802,7 @@ demo-account = ھېسابات
 
 ## Demo Account
 
+demo-account-card-header = تۆھپە قوشۇش ئۈچۈن ھېسابات تەلەپ قىلىنمايدۇ، شۇنداقتىمۇ بولغىنى پايدىلىق.
 demo-account-enter-email =
     .label = تىزىملىتىش ئ‍ۇلىنىشى ئۈچۈن ئېلخېتىڭىزنى كىرگۈزۈڭ
 demo-account-sign-up = تىزىملىتىش ئۇلانمىسىنى ئەۋەتىڭ
