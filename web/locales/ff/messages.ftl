@@ -265,6 +265,7 @@ whats-public = Hol ko woni peeñcu?
 email-not-public = Min mbaɗoytaa iimeel maa peeñcu.
 recordings-and-locale-public = Nanngitte ɗee no poti e ɗemɗe ɗe mballittaa maa ngon e peñcu.
 username-optin-public = Aɗa waawi suɓaade waɗde innde kuutoro maa e peñcu walla cuuɗiiɗo.
+demographic-deidentified-clarity-2 = Keɓe ɗe leƴrendiije mbaɗɗaaki naatneede (yeru: njogoram, ɗemngal, ngaddiin) mbaɗetaake e peñcu hay sahaa e heftinirde maa, kadi jokketaake e konte maa e leemre keɓe ndee. Lefon ojoo teelɗe maa njokkondire e keɓe leƴrendiije ngam moƴƴinde siko - yeru, biɗtoowo ena waawi toɓɓunde annorde eelto hucca e annde leƴrendiire heeriinde.
 username-email-not-demographic = Innde kuutoro maa e iimeel maa ndenndinoytaake e keɓe bayyinaaɗe ɗee.
 
 ## Speak & Listen Shortcuts
@@ -292,12 +293,20 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nanngito/Dartin
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Nanngito kadi lefel
 request-language-text = A suwaa yiy ɗemngal maa e Common Voice tawo?
+request-language-text-learn = Ekko no ɗum ɗaɓɓirtee ɗoo!
 request-language-button = Naamno ɗemngal
 
 ## ProjectStatus
 
+status-title = Ngonka eɓɓoore ndee e kuuɓal: ƴeew ɗo njetti-ɗen!
 status-contribute = Wallitir daande maa
+status-hours =
+    { $hours ->
+        [one] Waktu gooto jaalɗinaa tawo!
+       *[other] Waktuuji { $hours } njaalɗinaa tawo
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Paandaaje garooje: { $goal }
@@ -315,6 +324,10 @@ profile-form-accent =
     .label = Masal
 profile-form-age =
     .label = Duuɓi
+profile-form-gender-2 =
+    .label = Njogoram
+leaderboard-visibility =
+    .label = Jiyagol Doggol Ardiiɓe
 hidden = Cuuɗiiɗo
 visible = Peeñɗo
 native-language =
