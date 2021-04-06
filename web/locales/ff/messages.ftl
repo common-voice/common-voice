@@ -409,6 +409,8 @@ faq-what-cv-and-deepspeech-q = Hol ko seerndi Common Voice e Deep Speech?
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
 faq-why-different-speakers-q = Ko saabii aɗa sokli haalooɓe heewɓe woɗɓe e kala ɗemngal?
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
+faq-why-10k-hours-q = Ko waɗi waktuuji 10,000 jaalɗinaaɗi woni faandaare ɗemngal kala ngam heɓɓaade ojoo?
+faq-why-10k-hours-a = Ɗuum woni hakke limoore waktuuji baɗɗiiɗi ngam eeltude yuɓɓo faggininngo haala-to-binndol.
 faq-how-calc-hours-q = Hol no Common Voice hiisortoo waktuuji?
 faq-why-not-ask-read-q = Ko waɗi a wiyataa yimɓe yo tar e defte walla binndanɗe wikipedia e ɗemɗe goɗɗe?
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
@@ -423,6 +425,7 @@ faq-search-for-answers =
 
 about-title = Ko saabii Common Voice?
 how-does-it-work-title = Hol no ɗum gollortoo?
+how-does-it-work-text = Amin nodda ballondiral e leemre keɓe sawtooji.  Hokkir sawto maa, jaalɗin ceeɓndam lefon yimɓe woɗɓe, waɗ leemre keɓe ndee ɓeydoo moƴƴanɗe mo woni kala.
 about-speak = Haal
 about-listen = Heɗo
 about-partners = Gollidiiɓe
