@@ -480,6 +480,7 @@ glossary = ئاتالغۇلار
 localization = يەرلىكلەشتۈرۈش
 localization-explanation = بۇ مەزمۇنلىرمىزنىڭ نۇرغۇن يەرلىك(تىللارغا) تەرجىمە قىلىش ۋە ماسلاشتۇرۇش ئەھۋالى.
 sentence-collection = جۈملە توپلىمى
+sentence-collection-explanation = ئاممىۋى ساھەدىن جۈملىلەرنى توپلاش ياكى ئاممىۋى ساھەگە يېڭى جۈملىلەرنى يېزىپ قوشۇش.
 hours-recorded-explanation = بىز ھازىرغىچە ئۈنگە ئالغان ئاۋازىنىڭ ۋاقىت سانى.
 sst = Speech-to-text (STT) ئاۋازنى تېكىستقا
 sst-explanation = Speech-to-text (STT) تېخنىكىسى ئاۋازنى تېكىستكە ئايلاندۇرىدۇ.
