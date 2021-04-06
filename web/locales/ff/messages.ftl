@@ -392,6 +392,10 @@ change-email-setings = Waylir iimeel maa teelte les heftinirde seŋorde
 
 faq-title = Naamne Ɓurɗe Duumaade
 faq-what-cv-q = Ko woni Common Voice?
+faq-what-cv-a =
+    Karalle keftingol sawto nana wayla kesamhesamaagu jotondiral men e masiŋaaji, kono juɓɓe goodɗe oo sahaa ɗee ko jeyaaɗe. Common Voice jeyaa ko e miijo Mozilla ngam ɓeydude ƴellitaare karalle keftingol sawto kadi tawa mo woni kala ena haɓa heen. Common Voice ko diiñorde keɓe maamaare sawtooji dokkaaɗi ballooje mo woni kala e mbaadi njaawndi eeltude jaaɓɗe ɓeydaaɗe sawto e ɗemgal kala goodngal.
+    
+    Wonaa tan sawtooji tan min ndoɓindotoo e ɗemɗe ɓurɗe yaajde ɗee kono kadi e ɗemɗe ɓurɗe famɗude haalooɓe. Bayyinde leemre keɓe sawtooji limtindiinde maa doolnu topayɓe, yeñcinamgolle en e renndooji ngam ɓe ñawnde ndeen ŋakkere kamɓe e koye maɓɓe. Kadi takko leemre keɓe Common Voice ndee, amin mahora masiŋ keftinirɗo haala ena wiyee Deep Speech.
 faq-why-important-q = Ko saabii ɗum himmude?
 faq-how-get-q = Hol no keɓirat-mi keɓe Common Voice?
 faq-when-release2-q = Mande bayyinton keɓe Common Voice e ɗemɗe goɗɗe?
