@@ -397,7 +397,12 @@ faq-what-cv-a =
     
     Wonaa tan sawtooji tan min ndoɓindotoo e ɗemɗe ɓurɗe yaajde ɗee kono kadi e ɗemɗe ɓurɗe famɗude haalooɓe. Bayyinde leemre keɓe sawtooji limtindiinde maa doolnu topayɓe, yeñcinamgolle en e renndooji ngam ɓe ñawnde ndeen ŋakkere kamɓe e koye maɓɓe. Kadi takko leemre keɓe Common Voice ndee, amin mahora masiŋ keftinirɗo haala ena wiyee Deep Speech.
 faq-why-important-q = Ko saabii ɗum himmude?
+faq-why-important-a =
+    Haala woni ko ɓuri tagoɗinde e no jokkondirirten hakkunde men etee maa karalle sawto ɗee ngaddu ɗeen baawtine e ordinateeruuji men e kaɓirɗi cinnde men. Min njiɗi ko doolnude topayɓe yoo mah jaaɓnirɗe keftinirɗe sawto moolanaaɗe wono pirooje e saasi e keedooje ɓeydaaɗe sawto. Kono oo sahaa ko ɓuri heewde e keɓe coklaaɗe ngam mahde hono ɗeen jaaɓɗe ena tiiɗi kadi ko jeyaaɗe. Amin ɗaminii leemre keɓe Common Voice ndee maa hokku topayɓe ko ɓe cokli ngam kesamhesnude e waɗde karalle haala heɓaade e ɗemɗe maɓɓe keeriiɗe.
+    
+    Ngam waɗde keftingol sawto winnderewol, amin ndoɓindoo juɓɓanɗe e ɗemɗe ɓurɗe haaleede ɗee kam e ɓurɗe famɗude renndo haalooɓe  ɗe nganndu-ɗaa ena keewi ko ɗawaa e carwe keftingol haala julorteeɗe ɗee. Bayyinde leemre keɓe sawto limtoɗinnde maa doolnu topayɓe, yeñcinamgolle en, e renndooji haala kuuɓɗi ngam ñawndude ɗeen ŋakke kamɓe e koye maɓɓe.
 faq-how-get-q = Hol no keɓirat-mi keɓe Common Voice?
+faq-how-get-a = Leemre keɓe Common Voice ndee ena heɓoo e gaawtol fawaade e jamirol <licenseLink>CC</licenseLink> to <datasetLink>Hello amen Leemre Keɓe</datasetLink>. Aɗa waawi kadi aawtaade leeme keɓe goɗɗe gonɗe e peñcu e ngoon hello.
 faq-when-release2-q = Mande bayyinton keɓe Common Voice e ɗemɗe goɗɗe?
 faq-why-mission-q = Hol ko saabii Common Voice jeyeede e eɓɓoore Mozilla?
 faq-what-cv-and-deepspeech-q = Hol ko seerndi Common Voice e Deep Speech?
