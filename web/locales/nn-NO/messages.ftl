@@ -863,6 +863,7 @@ demo-welcome-subheader = Interessert i å lære meir og bidra til prosjektet?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice er verdas største allment tilgjengelege, fleirspråklege tale-datasett.
 card-button-next = Neste
 card-button-back = Tilbake
 demo-language-select-label = Bla gjennom språk
@@ -884,3 +885,4 @@ demo-listen-subtitle = Klar til å bidra?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Personleg oversikt held deg oppdatert med individuelle og samfunnsmessige framsteg.
