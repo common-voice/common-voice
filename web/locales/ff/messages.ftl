@@ -506,19 +506,37 @@ dataset-date = Ñalngu
 license = Jamirol <licenseLink>{ $license }</licenseLink>
 license-mixed = Ndenndinaaɗe
 data-download-singleword-title = Aawto Taƴannde Toɓɓaande Helmere Teelnde
+data-download-singleword-callout-v2 = Ɗum-ɗoo ko taƴannde toɗɗiinde fannu kuutoragol jogiinde keɓe ngam doolnude keftingol limooje gowlaaɗe kam e ejtagol eey / alaa.
+review-terms = Huutoraade Common Voice firti ko aɗa jaɓi ɗooftaade <termsLink>sarɗiiji</termsLink> e <privacyLink>Konngol Suturo</privacyLink> amen
 terms-agree = Mi jaɓii
 terms-disagree = Mi jaɓaani
 review-aborted = Jollugol dullii. Aɗa yiɗi momtude nanngitogol maa?
 review-submit-title = Ƴeewto & Neldu
+review-submit-msg = A jaaraama e nanngitagol!<lineBreak></lineBreak>Jooni ƴeewto kisa naatnaa lefon maa les ɗoo.
 review-recording = Ƴeewto
+review-rerecord = Nanngito kadi
 review-cancel = Haaytu neldugol
+review-keep-recordings = Mooftu nanngitte ɗee
 review-delete-recordings = Momtu nanngitte am
 
 ## Datasets Page
 
+datasets-headline = Min ngoni ko e mahde leemre keɓe sawto, limtiɗemɗiire, udditiinde e heɓotoonde e peñcu nde mo woni kala ena waawi huutoraade ngam eeltude jaaɓnirɗe ɓeydaade haala.
+datasets-positioning =
+    Amin ngoongɗini leeme keɓe sawto mawɗe keɓotooɗe e peñcu maa ƴellit kesamhesamaagu e pompondiral njulaaŋkaagal kisngal e jaŋde-masiŋaaji kam e karalle haala.
+    
+    Leemre keɓe limtiɗemɗiire Common Voice heɓii wonde jooni tan leemre keɓe heɓotoonde e peñcu ɓurnde mawnude e nanndo mum'en, kono wonaa kañum taw woodi.
+    
+    Ƴeew ngoo hello ngam ngarngal tugnorgal leeme keɓe sawto udditiiɗe, kam e nokkuure ɗo njaltinten kesɗitine e oo tuma mo Common Voice ɓeydotoo yaajde.
 language = Ɗemngal
 # File size in gigabytes
 size = Ɓetol
+validated-hr-total = Wk Jaalɗinaaɗi e Kuuɓal
+overall-hr-total = Waktuuji fof e kuuɓal
+cv-license = Jamirol
+audio-format = Mbayka Ojoo
+number-of-voices = Limoore Sawtooji
+splits = Keltine
 email-to-download = Naatnu iimeel ngam aawtaade
 size-gigabyte = GB
 size-megabyte = MB
