@@ -167,7 +167,7 @@ zh-TW = Chinese (Taiwan)
 
 speak = Haal
 speak-now = Haal jooni
-datasets = Datasets
+datasets = Leeme Keɓe
 languages = Ɗemɗe
 about = Baɗte
 profile = Heftinirde
@@ -176,7 +176,7 @@ contact = Jokkondiral
 privacy = Suturo
 terms = Sarɗiiji
 cookies = Kuukiije
-faq = Ko Ɓuri Naamneede
+faq = Naamne Lolluɗe
 content-license-text = Loowdi ina heɓoo les <licenseLink>Creative Commons license</licenseLink>
 share-title = Wallu min dañde woɗɓe ngam rokkirde daaɗe mum en!
 share-text = Wallu jannginde masiŋaaji no yimɓe woodɓe kaalirta, rokkir daande maa e { $link }
@@ -357,7 +357,7 @@ why-demographic-explanation-2 = Keɓe kuutoro ɗe innitaaka wona duuɓi, njogora
 accept-privacy = Mi jaɓii toppitoɗaa ngoo humpito hono no no paccirɗaa e <privacyLink>Dawrugol suturo</privacyLink>Mozilla
 accept-privacy-title = Dawrugol Suturo
 login-identity = Heftinirde seŋorde
-login-signup = Seŋaade/ Winnditaade
+login-signup = Seŋo/ Winndito
 edit = Taƴto
 email-subscriptions = Lulnagol iimeel
 download-profile = Aawtaade keɓe am
@@ -386,7 +386,7 @@ manage-subscriptions = Toppito Binnditagol
 manage-email-subscriptions = Toppito Binnditagol iimeel
 email-already-used = Iimeel oo ina huutoree e konte goɗɗe kisa
 add-language = Ɓeydu ɗemngal
-change-email-setings = Waylir iimeel maa teelte les heftinirde seŋorde
+change-email-setings = Waylu iimeel maa to Teelte gonɗe les Heftinirde Seŋorde
 
 ## FAQ
 
@@ -417,7 +417,7 @@ faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
 faq-is-account-public-q = Humpito konte am woni ko e peñcu?
 faq-what-is-cv = Ko woni Common Voice?
 faq-using-cv = Kuutorogol Common Voice?
-faq-description = Common Voice ko huunde e peeje Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
+faq-description = Common Voice ko huunde e eɓɓooje Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
 faq-search-for-answers =
     .label = Yiylo jaabawuuji
 
@@ -552,7 +552,11 @@ dataset-description-hours =
     
     Leemre keɓe ndee e oo sahaa ko waktuuji <b>{ $valid }</b> jaaɗinaaɗi e ɗemɗe <b>{ $languages }</b>, kono amin ɓeyda sawtooji e ɗemɗe goɗɗe e sahaa fof. Yillo <languagesLink>hello Ɗemɗe</languagesLink> amen ngam ɗaɓɓitde ɗemngal walla fuɗɗo wallitde.
 subscribe = Lulno
-feedback-q = A heɓii duttinal?
+feedback-q = Aɗa jogii duttinal?
+data-other-librispeech-description = LibriSpeech ko ndoɓordi ngigiindi hakke waktuuji 1000 haala Engeleere taraande itaande e defte hito to eɓɓoore LibriVox toh.
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = Ndoɓordi TED-LIUM waɗiraa ko jeewte ojoo e binnditte mum keɓotooɗe to lowre TED toh.
+data-other-voxforge-description = VoxForge waɗiraa ko roɓindaade haala mbinnditaaka ngam huutoreede e Masiŋaaji Keftingol Haala de Sewnde-Udditigol
 go-languages-page = Yah to Hello Ɗemɗe
 ready-to-validate = Aɗa hebii wallude moƴƴinde koŋnguɗi?
 more = Goɗɗum
