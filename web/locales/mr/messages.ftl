@@ -651,6 +651,7 @@ report-other-comment =
     .placeholder = टिप्पणी
 success = सफल!
 continue = सुरू ठेवा
+report-success = अहवाल यशस्वीरित्या पास झाला
 
 ## Goals
 
@@ -684,10 +685,12 @@ awards = पुरस्कार
 you = आपण
 everyone = सर्व
 contribution-activity = योगदान क्रिया
+top-contributors = तरबेज योगदानकर्ते
 recorded-clips = रेकॉर्ड केलेल्या क्लिप
 validated-clips = प्रमाणित क्लिप
 total-approved = एकूण मंजूर
 overall-accuracy = एकूण अचूकता
+show-ranking = माझी रँकिंग दाखवा
 
 ## Custom Goals
 
@@ -699,7 +702,9 @@ easy-difficulty = सुलभ
 average-difficulty = साधारण
 difficult-difficulty = कठीण
 want-to-continue = आपण सुरू ठेवू इच्छिता?
+finish-editing = प्रथम एडिटिंग संपवायचे?
 lose-changes-warning = आता सोडणे म्हणजे आपण आपले बदल गमावाल
+build-custom-goal = सानुकूल ध्येय तयार करा
 set-a-goal = एक ध्येय ठरवा
 cant-decide = ठरवू शकत नाही?
 activity-needed-calculation-plural =
@@ -716,6 +721,8 @@ activity-needed-calculation-plural =
         [one] क्लिप
        *[other] क्लिप
     }दर दिवशी
+how-many-per-day = ग्रेट! दररोज किती क्लिप्स आहेत?
+how-many-a-week = ग्रेट! आठवड्यातून किती क्लिप्स?
 which-goal-type = तुम्हाला बोलायचे आहे, ऐकायचे आहे की दोन्ही?
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -736,6 +743,7 @@ share-goal = माझे ध्येय शेअर करा
 
 ## Profile Delete
 
+delete-q = आपण आपल्या व्हॉईस रेकॉर्डिंगस हटविण्याची विनंती करू इच्छिता की आपण त्यांना कॉमन व्हॉईस डेटासेटमध्ये ठेवण्यास प्राधान्य देता?
 keep = ठेवा
 remove = काढून टाका
 profile-form-delete = प्रोफाइल काढून टाका.
@@ -743,14 +751,20 @@ profile-form-delete = प्रोफाइल काढून टाका.
 ## Landing
 
 welcome-staff = कंपनी कर्मचारी आपले स्वागत आहे!
+help-contribute = कॉमन व्हॉईस प्रोफाइल तयार करुन आणि व्हॉईसचे योगदान देऊन आपण वैविध्यपूर्ण, मुक्त-स्रोत डेटासेट तयार करण्यात मदत करू शकता.
+login-company = { $company } ईमेलसह लॉग इन / साइन अप करा
+profile-not-required = योगदान देण्यासाठी प्रोफाइल असण्याची आवश्यकता नाही, का ते खाली पहा.
+read-more-about = आमच्याबद्दल पृष्ठावर अधिक वाचा
 
 ## DemoLayout
 
 demo-get-started = चला, सुरु करूया
 demo-welcome = कॉमन व्हॉईस मध्ये आपले स्वागत आहे
+demo-welcome-subheader = अधिक जाणून घेण्यास आणि प्रकल्पात योगदान देण्यात स्वारस्य आहे?
 
 ## Demo Datasets
 
+demo-language-select-card-header = कॉमन व्हॉईस जगातील सर्वात मोठी सार्वजनिकरित्या उपलब्ध, बहु-भाषी व्हॉइस डेटासेट आहे.
 card-button-next = पुढे
 card-button-back = मागे
 demo-language-select-label = भाषा शोधा
