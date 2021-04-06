@@ -481,6 +481,7 @@ de-identified-explanation = Ko niɓɓiɗingol humpito heftinirde kuutoro waasa j
 ## Error pages
 
 error-title-404 = Min koriima yiytande ma hello ngo
+error-content-404 = Ma a taw jokkol <homepageLink>jaɓɓorgo</homepageLink> amen ena waawi wallude ma? Ngam weddaade naamnal, tiiɗno yantu e <matrixLink>jeewte renndo Matix</matrixLink> ɗee, ndewindo-ɗaa caɗe lowre to <githubLink>GitHub</githubLink> walla njillo-ɗaa <discourseLink>fom amen Discourse</discourseLink>.
 
 ## Data
 
