@@ -444,6 +444,9 @@ about-nav-partners = भागीदार
 about-nav-get-involved = सहभागी व्हा
 mycroft-title = मायक्रॉफ्ट ए आय
 mycroft-subtitle = कृत्रिम बुद्धिमत्ता
+mycroft-description =
+    मायक्रॉफ्ट हा जगातील पहिला मुक्त स्रोत सहाय्यक आहे.
+    मायक्रॉफ्ट कुठेही चालतो - डेस्कटॉप संगणकावर, ऑटोमोबाईलमध्ये किंवा रास्पबेरी पाईवर.
 mycroft-secondary-description = हे ओपन सोर्स सॉफ्टवेअर आहे जे मुक्तपणे रीमिक्स, विस्तारित आणि सुधारित केले जाऊ शकते. मायक्रॉफ्टचा उपयोग सायन्स प्रोजेक्टपासून एंटरप्राइझ सॉफ्टवेअर अ‍ॅप्लिकेशनपर्यंत कशासाठीही होऊ शकतो.
 
 ## Glossary
@@ -732,6 +735,8 @@ n-clips-pluralized =
 help-share-goal = आम्हाला अधिक आवाज शोधण्यात मदत करा, आपले ध्येय शेअर करा
 confirm-goal = ध्येय निश्चित करा
 goal-interval-weekly = साप्ताहिक
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } साठी दररोजच्या { $count } क्लिपचे लक्ष्य शेअर करा
 share-goal-type-speak = बोलणे
 share-goal-type-listen = ऐकणे
 share-goal-type-both = बोलणे आणि ऐकणे
@@ -774,6 +779,7 @@ demo-account = खाते
 
 ## Demo Account
 
+demo-account-card-header = योगदान देण्यासाठी प्रोफाइल असणे सहाय्यक असले तरी आवश्यक नाही,
 demo-account-enter-email =
     .label = साइन-अप लिंकसाठी ईमेल लिहा
 demo-account-sign-up = साइन-अप लिंक पाठवा
