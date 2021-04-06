@@ -449,11 +449,21 @@ about-partnership =
     
     Amin njiɗi jaarde ɓee-ɗoo yimɓe e pelle ngam ballal mum'en e eɓɓoore ndee:
 about-get-involved = Ar yantu e amen
+about-get-involved-text-2 =
+    Aɗa yiɗi wallude Common Voice ɓeydaade moƴƴude?
+    Eyyoo! Jokkondir e amen e iimeel walla forum <discourseLink>Discourse</discourseLink>,
+    naatnu caɗe lowre to <githubLink>GitHub</githubLink>, walla yantu e renndo jeewte
+    <matrixLink>Matrix</matrixLink>
 about-nav-why-common-voice = Hol sabaabu?
 about-nav-how-it-works = Hol noon?
 about-nav-partners = Gollidiiɓe
 about-nav-get-involved = Ar yantu e amen
 mycroft-title = Mycroft Ai
+mycroft-subtitle = Ƴoyre tafaande
+mycroft-description =
+    Mycroft ko heedirde udditiinde adiinde e winndere ndee.
+    Mycroft ena dogo nokku kala- e ñigal, nder oto, walla e Raspberry Pi.
+mycroft-secondary-description = Ɗum ko topateeri udditiinde mbaawndi irfiteede, timmineede e ƴelliteede e wellitaare. Mycroft ena waawi huutoreede e huunde fof e foti ko eɓɓoore ganndiwal walla jaaɓnirgal topateeri yeñcamgolliwal.
 
 ## Glossary
 
