@@ -337,6 +337,7 @@ profile-close = Lat att
 profile-explanation = Hald auge med framdrifta di med ein profil som òg gjer stemmedataa våre meir korrekte.
 thanks-for-account = Takk for at du stadfesta kontoen din, no byggjer vi profilen din.
 why-demographic = Kvifor er dette viktig?
+why-demographic-explanation-2 = Anonymiserte brukardata, som alder, kjønn og dialekt berikar stemmedataa som vert brukte for å trene talegjenkjenningsmotorane. Brukarnamnet ditt og e-postadressa di vil aldri bli assosierte med bidraga dine, og du kan velje om du vil at brukarnamnet ditt skal vere offentleg eller anonymt.
 accept-privacy = Eg godtar at de handterer denne informasjonen som forklart i Mozillas <privacyLink>personvernpraksis</privacyLink>.
 accept-privacy-title = Personvernpraksis
 login-identity = Innloggingsidentitet
@@ -865,6 +866,7 @@ demo-welcome-subheader = Interessert i å lære meir og bidra til prosjektet?
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice er verdas største allment tilgjengelege, fleirspråklege tale-datasett.
+demo-language-select-card-body = Takka vere bidrag frå over 259&thinsp;000 personar på over 50 språk vert desse dataa brukte til å trene taleaktiverte applikasjonar for betre å svare på den menneskelege stemma.
 card-button-next = Neste
 card-button-back = Tilbake
 demo-language-select-label = Bla gjennom språk
