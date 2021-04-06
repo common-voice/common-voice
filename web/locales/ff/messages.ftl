@@ -482,13 +482,21 @@ de-identified-explanation = Ko niɓɓiɗingol humpito heftinirde kuutoro waasa j
 
 error-title-404 = Min koriima yiytande ma hello ngo
 error-content-404 = Ma a taw jokkol <homepageLink>jaɓɓorgo</homepageLink> amen ena waawi wallude ma? Ngam weddaade naamnal, tiiɗno yantu e <matrixLink>jeewte renndo Matix</matrixLink> ɗee, ndewindo-ɗaa caɗe lowre to <githubLink>GitHub</githubLink> walla njillo-ɗaa <discourseLink>fom amen Discourse</discourseLink>.
+error-title-503 = Amin njogii caɗe dartagol ɗe tijjaaka
+error-content-503 = Lowre ndee maa danndito ɗo yaajtii. Ngam heɓde humpito sakkitiingo, tiiɗno yantu e <matrixLink>jeewte renndo Matrix</matrixLink> walla njillo-ɗaa <githubLink>GitHub</githubLink> walla <discourseLink>forum amen Discourse</discourseLink> ngam naatnude e rewindaade caɗe dawtol lowre.
+error-code = Juumre { $code }
 
 ## Data
 
 data-download-button = Aawto keɓe Common Voice
 data-download-yes = Eey
 data-download-deny = Alaa
+data-download-license = Jamirol <licenseLink>CC-0</licenseLink>
 data-download-modal = Ngonɗaa ko e fuɗɗaade aawtogol <size>{ $size }GB</size>, aɗa jokka?
+data-subtitle = Min ngoni ko e mahde leemre keɓe sawto udditiinde e heɓotoonde e peñcu nde mo woni kala ena waawi huutoraade ngam eeltude jaaɓnirɗe ɓeydaade haala.
+data-explanatory-text = Amin ngoongɗini leeme keɓe sawto mawɗe keɓotooɗe e peñcu maa ƴellit kesamhesamaagu e pompondiral njulaaŋkaagal kisngal e jaŋde-masiŋaaji kam e karalle haala. Ɗum ko darnde huuɓnde etee amin mbismii mo woni kala yoo jeye heen. Faandaare amen ko wallude mbete karalle haala ena nodda mokala, yahda e keewal daaɗe e nder winndere ndee.
+data-get-started = <speechBlogLink>Fuɗɗoro ɗoo Keftingol Haala</speechBlogLink>
+data-other-title = Leeme keɓe sawto goɗɗe…
 data-other-goto = Yah to { $name }
 data-other-download = Aawto keɓe
 terms-agree = Mi jaɓii
