@@ -220,8 +220,8 @@ speak-goal-text = Lefon nanngitakon
 listen-subtitle = Wallu min moƴƴinde daaɗe
 listen-paragraph = Jaalɗinde lefon ɗe woɗɓe ndokkii ena teeŋti sanne e golle Common Voice. Heɗo heen ngam wallude min sosde keɓe sawto udditiiɗe lobbe.
 listen-goal-text = Lefon jaalɗinakon
-hours-recorded = Waktuuji Nanngitaama
-hours-validated = Waktuuji moƴƴinaama
+hours-recorded = Waktuuji Nanngitaaɗi
+hours-validated = Waktuuji jaalɗinaaɗi
 voices-online = Daaɗe ɗee e ceŋol jooni
 todays-progress = Ɓeydagol hannde
 help-reach-goal = Wallu min yettaade { $goal }
@@ -339,6 +339,10 @@ female = Debbo
 # Gender
 other = Goɗɗo
 why-profile-title = Ko saabii heftinirde?
+why-profile-text =
+    So a hokkii humpito seeɗa baɗte maa, keɓe ojoo naatnataa e Common Voice maa ɓur kadi nafde masiŋaaji
+     Keftinooji Haala kuutortooɗi ɗeen keɓe ngam ɓamtude ceeɓndam mum'en.
+dashboard = Tiimtorde
 build-profile = Mah heftinirde
 avatar = Maantinol
 goals = Paandaaje
@@ -346,8 +350,10 @@ settings = Teelte
 edit-profile = Taƴto Heftinirde
 profile-create-success = Moƴƴii, heftinirde sosaama!
 profile-close = Uddu
+profile-explanation = Rewindo taaɓagol maa huutoraade heftinirde kadi maballaa keɓe amen sawto ɓeydaade seeɓde.
 thanks-for-account = A jaaraama e teeŋtingol konte maa, jooni noon mahen heftinirde maa.
 why-demographic = Hol ko saabii ɗum ina himmi?
+why-demographic-explanation-2 = Keɓe kuutoro ɗe innitaaka wona duuɓi, njogoram e ngaddiin ena walla ɓamtude keɓe ajoo kuutorɗeeɗe ngam eeltude ceeɓndam masiŋaaji keftinooji haala. Innde maa kuutoro e iimeel maa njokkondirtaake e keɓe maa naatnaaɗe hay sahaa, kadi aɗa waawi suɓaade yaltinde innde maa kuutoro e peñcu walla alaa.
 accept-privacy = Mi jaɓii toppitoɗaa ngoo humpito hono no no paccirɗaa e <privacyLink>Dawrugol suturo</privacyLink>Mozilla
 accept-privacy-title = Dawrugol Suturo
 login-identity = Heftinirde seŋorde
@@ -494,7 +500,7 @@ language-search-input =
 language-speakers = Haalooɓe
 localized = Nokkuɗinaama
 sentences = Koŋnguɗi
-total-hours = Waktuuji moƴƴinaaɗi
+total-hours = Waktuuji jaalɗinaaɗi
 
 ## Contribution
 
