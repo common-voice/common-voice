@@ -186,7 +186,7 @@ logout = Seŋto
 
 ## Home Page
 
-home-title = Common Voice ko feere Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
+home-title = Common Voice ko eɓɓoore Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
 home-cta = Ɓamtu daande, wallit ɗoo!
 wall-of-text-start =
     Sawto ko tago, ko e neɗɗo jeyaa. Ɗuum waɗi amin cummbanoo sosde karalle sawto
@@ -547,6 +547,10 @@ download-language = Aawto { $language }
 validated-hours = Waktuuji Jaalɗinaaɗi
 recorded-hours = Waktuuji nanngitaaɗi
 whats-inside = Ko woni nder leemre keɓe Common Voice ndee?
+dataset-description-hours =
+    Temre kala e leemre keɓe ndee jogii ko MP3 mum keeriiɗo jahdoowo e fiile binndol. Keewɗi e <b>{ $total }</b> waktuji nanngito gonɗe e leemre keɓe ndee ena njogii metaakeɓe leƴrenndiije wano duuɓi, njogoram e ngaddiin baawɗe wallude eeltude ceeɓndam masiŋaaji keftingol haala
+    
+    Leemre keɓe ndee e oo sahaa ko waktuuji <b>{ $valid }</b> jaaɗinaaɗi e ɗemɗe <b>{ $languages }</b>, kono amin ɓeyda sawtooji e ɗemɗe goɗɗe e sahaa fof. Yillo <languagesLink>hello Ɗemɗe</languagesLink> amen ngam ɗaɓɓitde ɗemngal walla fuɗɗo wallitde.
 subscribe = Lulno
 feedback-q = A heɓii duttinal?
 go-languages-page = Yah to Hello Ɗemɗe
@@ -584,7 +588,7 @@ other-language = Ɗemngal goɗngal
 
 ## Languages Overview
 
-language-section-in-progress = Nana yaha
+language-section-in-progress = Heen Wonaa
 language-section-launched = Fuɗɗaama
 languages-show-more = Yiy keewɗum
 languages-show-less = Yiy seeɗa
