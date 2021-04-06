@@ -435,8 +435,19 @@ about-listen-text = Huutorɓe jaalɗinat ceeɓndam lefon ndokkakon, ɓe ƴeewtoo
 about-is-it-valid = Ngel lefel ena jaalɗi ne?
 about-is-it-valid-text = Lefel sawto maantete "jaalɗii" so kuutoro wootanii ngel Eey.
 about-yes-votes = ≥ daaɗe Eey 2
+about-yes-votes-text = Ngam ɓenninoyeede to leemre keɓe toh, lefel sawto maa jaalɗinee yimɓe ɗiɗo seertuɓe.
+about-no-votes = ≥ daaɗe 2 Alaa
+about-no-votes-text = So kuutoro riiwtii lefel sawto, ngon ruttoto to Doggol Caɓɓiiɗe. So o riiwtii ngel ɗimmol, lefel hito ngel dirtinee to Genaale Lefon toh.
+about-dataset-new = Leemre Keɓe Common Voice
+about-dataset-new-text = Leemre Keɓe Common Voice ndee ena waɗi teemedde ujunnaaje jubbanɗe sawto ballooje topayɓe mahde kutorɗe keftinooje sawto.
+about-clip-graveyard = Genaale Lefon
+about-clip-graveyard-text = Genaale Lefon ɗee ko lefon sawto koriiɗe ɓennude to leemre keɓe Common Voice ndee. Hono leemre keɓe ndee nih, Genaale Lefon ɗee ena waawi aawteede.
 about-partners = Gollidiiɓe
 about-become-a-partner = Won gollidiiɗo
+about-partnership =
+    Common Voice ko eɓɓoore balwaltondiral, kadi min njowitii ko e renndo amen gollodiiɓe e wallitooɓe ngam mahde leemre keɓe sawto udditiinde ɓurnde yaajde e ko yiyaa tawo.
+    
+    Amin njiɗi jaarde ɓee-ɗoo yimɓe e pelle ngam ballal mum'en e eɓɓoore ndee:
 about-get-involved = Ar yantu e amen
 about-nav-why-common-voice = Hol sabaabu?
 about-nav-how-it-works = Hol noon?
