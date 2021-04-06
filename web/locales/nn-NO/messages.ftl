@@ -877,6 +877,7 @@ demo-account = Konto
 ## Demo Account
 
 demo-account-card-header = Du treng ikkje ein konto for å bidra, men det hjelper.
+demo-account-card-body = Til høgre skisserer vi fordelane og avklarer kva for informasjon vi offentleggjere. Bruk lenkene nedanfor for å kome i gang med ein Common Voice-konto på di eiga eining.
 demo-account-enter-email =
     .label = Skriv inn e-postadresse for å få tilsendt registreringslenke
 demo-account-sign-up = Send registreringslenke
@@ -884,6 +885,7 @@ demo-account-sign-up = Send registreringslenke
 ## Demo Contribute
 
 demo-contribute-card-header = Klar for å leggje til stemma di eller bruke øyret ditt?
+demo-contribute-card-body-v2 = No som du veit litt meir om Common Voice, kvifor ikkje prøve det? Klikk på mikrofonikonet for å begynne å lese setninger høgt. <br/><br/>Dersom du føretrekkjer å gå gjennom andre sine stemmebidrag, klikkar du på spel av-ikonet. Du hjelper til med å stadfeste at opptak samsvarar med setningane som er skrivne på skjermen.
 demo-listen-subtitle = Klar til å bidra?
 
 ## Demo Dashboard
