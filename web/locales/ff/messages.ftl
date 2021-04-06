@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Eey, neldee iimeeluuji. Miɗo hatojini e humpitaade baɗte Eɓɓoore Common Voice.
+yes-receive-emails = Eey, neldee kam iimeeluuji. Miɗo hatojini e humpitaade baɗte Eɓɓoore Common Voice.
 stayintouch = Min ga Mozilla gaa, amin cosa renndo toppitiingo karallagal daaɗe. Amin njiɗi njokkondiren ngam keɓaa kesɗitine, cewɗe keɓe kese kadi min keɓa e no kuutorto-ɗaa ɗee keɓe.
 privacy-info = Amin ngaadani maa huutoraade humpito maa e nuunɗal. Ɓeydu humpito to <privacyLink>Ciifol Suturo</privacyLink>.
 return-to-cv = Rutto to Common Voice
@@ -11,8 +11,8 @@ loading = Nana loowa…
 email-opt-in-info = Miɗo hatojini e heɓde iimeeluuji wano ciiftinooji, kesɗitine taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
 email-opt-in-info-title = Tawtu doggol cargol Common Voice ngol
 email-opt-in-info-sub-with-challenge = Heɓ iimeeluuji hono ciiftinooji ko fad-maa e faandaare maa, kesɗitine taaɓagol maa, e ɓatakeeji baɗte Common Voice.
-email-opt-in-privacy = So suɓaade heɓde iimeeluuji, a jaɓii no Mozilla huutortoo ngoo humpito hono no facciraa e <privacyLink>Dawirgol Suturo<privacyLink> Mozilla.
-indicates-required = Joofii ko gallol baɗɗingol
+email-opt-in-privacy-v2 = Suɓaade heɓde iimeeliiji firti ko aɗa yahdi e kuutoragol Mozilla ngoo humpito hono no facciraa e <privacyLink>Dawirgol Duturo</privacyLink> Mozilla.
+indicates-required = * Joofii ko gallol baɗɗingol
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -33,14 +33,18 @@ as = Assamese
 ast = Asturian
 az = Azerbaijani
 ba = Bashkirs
+bas = Basaa
 be = Belarusian
 bg = Bulgarian
+bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
+ckb = Central Kurdish
 cnh = Hakha Chin
+co = Corsican
 cs = Czech
 cv = Chuvash
 cy = Welsh
@@ -62,11 +66,13 @@ fr = French
 fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
+gn = Guarani
 ha = Hawsa
 he = Hebruŋkoore
 hi = Hinndi
 hr = Korowasiire
 hsb = Sorbian, Lower
+ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
 hyw = Armeniire baŋnge hirnaange
@@ -81,22 +87,26 @@ kaa = Karakalpak
 kab = Kabileere
 kbd = Kabardian
 kk = Kasakiire
+kmr = Kurmanji Kurdish
 ko = Koreere
 kpv = Komi-Siryaniire
-ku = Kurdiire
 kw = Korniseere
 ky = Kyrgyz
 lg = Luganda
 lij = Ligurian
 lt = Lithuanian
 lv = Latvian
+mai = Maithili
 mdf = Moksha
 mg = Malagasy
 mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongolian
+mos = Mossi
+mr = Marathi
 mrj = Hill Mari
+ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
@@ -107,7 +117,9 @@ nn-NO = Norwegian Nynorsk
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polish
+ps = Pashto
 pt = Portuguese
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
@@ -117,9 +129,11 @@ rw = Kinyarwanda
 sah = Sakha
 sc = Sardinian
 scn = Sicilian
+shi = Shilha
 si = Sinhala
 sk = Slovak
 sl = Slovenian
+so = Somali
 sq = Albanian
 sr = Serbian
 sv-SE = Swedish
@@ -367,10 +381,8 @@ mycroft-title = Mycroft Ai
 glossary = KELMEENDI
 localization = Nokkuɗinal
 
-## NotFound
+## Error pages
 
-notfound-title = Yiytaaka
-notfound-content = Mbiɗo faayi waasde anndude ko njiilotoɗaa.
 
 ## Data
 
@@ -524,3 +536,18 @@ profile-form-delete = Momtu Heftinirde
 
 login-company = Seŋo/ winndito e { $company } iimeel
 profile-not-required = Jogogol heftinirde wonaa ko waɗɗii ngam wallitde hay so haɗum nafa, yiy ko saabii ɗum les ɗoo.
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
