@@ -511,6 +511,7 @@ dataset-date = چېسلا
 license = ئىجازەتنامە: <licenseLink>{ $license }</licenseLink>
 license-mixed = ئارىلاش
 data-download-singleword-title = يەككە سۆز نىشان بۆلىكىنى چۈشۈرۈڭ
+review-terms = Common Voice نى ئىشلىتىش ئارقىلىق سىز بىزنىڭ <termsLink>شەرتنامە</termsLink> شۇنداقلا <privacyLink>مەخپىيەتلىك ئەسكەرتىشمىز</privacyLink> گە قوشۇلغان بولىسىز
 terms-agree = قوشۇلىمەن
 terms-disagree = قوشۇلمايمەن
 review-aborted = يۈكلەش ئەمەلدىن قالدۇرۇلدى. ئۈن خاتىرىسىنى ئۆچۈرەمسىز؟
@@ -524,6 +525,7 @@ review-delete-recordings = ئۈن خاتىرەمنى ئۆچۈر
 
 ## Datasets Page
 
+datasets-headline = بىز ئوچۇق كودلۇق بولغان، ھەر قانداق ئادەم ئاۋازلىق پروگراممىغا قارىتا مەشىق ئىلىپ بېرىش ئىمكانىيەتكە ئىگە قىلىدىغان كۆپ تىللىق ئاۋاز ئامبىرىنى قۇرۇپ چىقىۋاتىمىز.
 language = تىل
 # File size in gigabytes
 size = چوڭلۇقى
@@ -709,6 +711,7 @@ clips-you-recorded = سىز ئۈنگە ئالغان ئاۋازلار
 clips-you-validated = سىز دەلىللىگەن ئاۋازلار
 todays-recorded-progress = Common Voice نىڭ خاتىرىلەنگەن ئاۋازدىكى بۈگۈنكى ئىلگىرىلىشى
 todays-validated-progress = Common Voice نىڭ دەلىللەنگەن ئاۋازدىكى بۈگۈنكى ئىلگىرىلىشى
+stats = سىتاتىستىكا
 awards = مۇكاپات
 you = سىز
 everyone = ھەممەيلەن
@@ -744,6 +747,11 @@ cant-decide = قارار قىلالمىدىڭىزمۇ؟
 how-many-per-day = ناھايىتى ياخشى! كۈندە قانچە ئاۋاز بۆلىكى؟
 how-many-a-week = ناھايىتى ياخشى! ھەپتىدە قانچە ئاۋاز بۆلىكى؟
 which-goal-type = سۆزلەمسىز ياكى ئاڭلامسىز ۋە ياكى ھەر ئىككىلىسىمۇ؟
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] ئاۋاز بۆلىكى
+       *[other] ئاۋاز بۆلىكى
+    }
 help-share-goal = تېخىمۇ كۆپ ئاۋاز تېپىشىمىزغا ياردەم قىلىڭ ، نىشانىڭىزنى ئورتاقلىشىڭ
 confirm-goal = نىشاننى جەزملەشتۈرۈڭ
 goal-interval-weekly = ھەپتىلىك
@@ -779,6 +787,7 @@ card-button-next = كېيىنكى
 card-button-back = قايتىش
 demo-language-select-label = تىللارنى كۆرۈڭ
 demo-eofy-header = 2019-يىل ئاخىرى ئېلان قىلىندى
+demo-eofy-sub_header = ئاۋاز ئامبىرى چۈشۈرۈشكە تەييار بولدى
 demo-account = ھېسابات
 
 ## Demo Account
