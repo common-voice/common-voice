@@ -251,6 +251,7 @@ whats-public = Kva er offentleg?
 email-not-public = Vi gjer ikkje e-postadressa di offentleg.
 recordings-and-locale-public = Talet på innspelingar og kva for språk du bidreg til er offentleg.
 username-optin-public = Du kan velje å gjere brukarnamnet ditt offentleg eller anonymt.
+demographic-deidentified-clarity-2 = Valfritt innsende demografiske data (t.d. alder, kjønn, språk og dialekt) vil aldri bli offentleggjorde på profilen din, og vert ikkje kopla til kontoen din i datasettet. Individuelle lydklipp vil bli assosierte med demografiske data for å oppnå ei meir nøyaktig analyse - til dømes vil ein forskar kunne rette ein treningsmodell mot eit spesifikt demografisk segment.
 username-email-not-demographic = Brukernamnet ditt og e-postadressa di vil ikkje bli assosierte med offentliggjorde data.
 
 ## Speak & Listen Shortcuts
