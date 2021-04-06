@@ -469,6 +469,10 @@ mycroft-secondary-description = Ɗum ko topateeri udditiinde mbaawndi irfiteede,
 
 glossary = KELMEENDI
 localization = Nokkuɗinal
+localization-explanation = Ɗum woni laawol amen ngam firde e jaaɓtinde loowdi amen e caltirɗe keewɗe (ɗemɗe).
+sentence-collection = Doɓindagol Konngi
+sentence-collection-explanation = Roɓindaade konnguɗi e jeyi peñcu, walla winndude jeyi peñcu goɗɗi kesi.
+hours-recorded-explanation = Ɗum ɗoo ko limoore waktuuji sawtooji doɓindaaɗi tawo.
 
 ## Error pages
 
