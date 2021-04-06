@@ -501,6 +501,7 @@ data-download-deny = ياق
 data-download-license = ئىجازەتنامە: <licenseLink> CC-0 </licenseLink>
 data-download-modal = سىز <size>{ $size }GB</size> نى چۈشۈرۈشنى باشلىماقچى بولۇۋاتىسىز؟
 data-subtitle = بىز ئوچۇق ۋە ھەركىم قوللىنالايدىغان سانلىق مەلۇمات ئامبىرىنى قۇرۇپ چىقىۋاتىمىز ، بۇنىڭ بىلەن كۆپچىلىك ئاۋازلىق سۆزلىيەلەيدىغان قوللىنىشچان پروگراممىلارنى مەشىق قىلدۇرالايدۇ.
+data-get-started = <speechBlogLink>ئاۋاز تونۇتۇشنى باشلاڭ</speechBlogLink>
 data-other-title = باشقا ئاۋاز توپلىمى…
 data-other-goto = { $name } نى ئېچىڭ
 data-other-download = سانلىق مەلۇماتنى چۈشۈرۈش
@@ -610,6 +611,8 @@ clips-with-count-pluralized =
         [one] ئاۋاز
        *[other] ئاۋاز
     }
+goal-help-recording = Common Voice نىڭ بىزنىڭ كۈندىلىك { $goalValue } ئۈن خاتىرە نىشانىمىزنىڭ <goalPercentage></goalPercentage> غا يىتىشىگە ياردەم بەردىڭىز!
+goal-help-validation = Common Voice نىڭ بىزنىڭ كۈندىلىك { $goalValue } دەلىللەش نىشانىمىزنىڭ <goalPercentage></goalPercentage> غا يىتىشىگە ياردەم بەردىڭىز!
 contribute-more =
     { $count ->
         [one] يەنە { $count } نى قىلىشقا تەييارمۇ؟
@@ -662,6 +665,7 @@ target-segment-learn-more = تەپسىلاتى
 
 report = دوكلات
 report-title = دوكلات يوللاش
+report-ask = بۇ جۈملىدە قانداق مەسىلىلەرگە دۇچ كەلدىڭىز؟
 report-offensive-language = ھاقارەتلىك سۆز
 report-offensive-language-detail = بۇ جۈملىدە ھۆرمەتسىزلىك ياكى ھاقارەت تىلى بار.
 report-grammar-or-spelling = گرامماتىكىلىق / ئىملا خاتالىقى
@@ -689,6 +693,11 @@ recordings =
     { $count ->
         [one] ئۈن خاتىرىسى
        *[other] ئۈن خاتىرىسى
+    }
+validations =
+    { $count ->
+        [one] دەلىل
+       *[other] دەلىللەر
     }
 
 ## Dashboard
