@@ -374,6 +374,7 @@ retry-voice-wave-recording = Eto kadi
 re-record = NANNGITO KADI
 delete-voice = MOMTU
 recording-voice-wave = Nanngitogol
+delete-voice-clip = walla  Momtu lefel sawto
 ready-to-upload = YOLLU
 avatar-clip-fact = Ena goongɗinaa ko ɓooyi wonde loowdi hello ena telɓina taroowo so tawii omo ndaara lelngo maggo,
 cancel-avatar-clip-recording = HAAYTU
