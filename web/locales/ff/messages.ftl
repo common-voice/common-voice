@@ -196,6 +196,13 @@ wall-of-text-more-mobile =
     Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
     ɗum ina ñoƴƴa pental. Ɗuum noon min ummini eɓɓoore Common Voice, eɓɓoore walloore waɗde daande
     heftinirde udditaniinde kala neɗɗo.
+wall-of-text-more-desktop =
+    Aɗa waawi hokkirde sawto maa ngam wallude-min tafde diiñorde keɓe nde sewnde-udditiinde nde mo woni kala waawi huutoraade
+    ngam waɗde jaaɓde kesamkeseme kuutorteeɗe e kaɓirdi kam e geese. Tar konngol ngam wallude masiŋaaji ekkaade no neɗɗo e jaati haaldata. Ƴeewto golle wallitoode woɗɓe ngam ƴellitde moƴƴugol. Ko noon wayi weeɓde!
+wall-of-text-first =
+    Sawto ko tago, ko e neɗɗo jeyaa. Ɗuum waɗi amin keppani sosde karalle sawto
+    kuutorteeɗe e masiŋaaji men. Kono ngam sosde juɓɓe sawto, topayɓe ena cokli keɓe sawtooji
+    keewɗi haa wooroo.
 wall-of-text-second =
     Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
     ɗum ina ñoƴƴa pental. Ɗuum noon min ummini Common Voice, eɓɓoore walloore uddit-de heftinirde daande
@@ -203,8 +210,10 @@ wall-of-text-second =
 show-wall-of-text = Jokku taro
 help-us-title = Wallu min moƴƴinde koŋnguɗi!
 help-us-explain = Ɓoɗɗu tarde, heɗaade e haalan-min: Ɗe kaalii koŋngol les ɗoo haa feewi?
+no-clips-to-validate = Ena wayi no alaa lefon keɗeteeɗe e ngal ɗemngal. Wallu min hebbinde doggol ngol so nanngitaade heen seeɗa.
 vote-yes = Eey
 vote-no = Alaa
+toggle-play-tooltip = Ñoƴƴu{ shortcut-play-toggle } ngam tolƴaade mbayka taro
 speak-subtitle = Rokkir daande maa
 listen-subtitle = Wallu min moƴƴinde daaɗe
 hours-recorded = Waktuuji Nanngitaama
