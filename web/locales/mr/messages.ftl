@@ -440,6 +440,8 @@ mycroft-subtitle = कृत्रिम बुद्धिमत्ता
 
 ## Glossary
 
+glossary = शब्दकोष
+localization = स्थानिकीकरण
 sentence-collection = वाक्य संग्रह
 sentence-collection-explanation = सार्वजनिक डोमेनमधून वाक्य गोळा करणे किंवा सार्वजनिक डोमेनसाठी नवीन लिहिणे.
 hours-recorded-explanation = आतापर्यंत आम्ही संकलित केलेल्या व्हॉईस रेकॉर्डिंग तासांची संख्या.
