@@ -754,13 +754,27 @@ help-reach-hours-general-pluralized =
     } { $language } دىكى شەخسى نىشانغا
 set-a-goal = نىشان بەلگىلەڭ
 cant-decide = قارار قىلالمىدىڭىزمۇ؟
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] سائەت
+       *[other] سائەت
+    }يەتكىلى بولىدۇ{ NUMBER($periodMonths) ->
+        [one] ئاي
+       *[other] ئاي
+    }ئەگەر{ NUMBER($people) ->
+        [one] ئادەم
+       *[other] ئادەم
+    }ئۈنگە ئالسا{ NUMBER($clipsPerDay) ->
+        [one] ئاۋاز
+       *[other] ئاۋاز
+    }بىر كۈن
 how-many-per-day = ناھايىتى ياخشى! كۈندە قانچە ئاۋاز بۆلىكى؟
 how-many-a-week = ناھايىتى ياخشى! ھەپتىدە قانچە ئاۋاز بۆلىكى؟
 which-goal-type = سۆزلەمسىز ياكى ئاڭلامسىز ۋە ياكى ھەر ئىككىلىسىمۇ؟
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] ئاۋاز بۆلىكى
-       *[other] ئاۋاز بۆلىكى
+        [one] ئاۋاز
+       *[other] ئاۋاز
     }
 help-share-goal = تېخىمۇ كۆپ ئاۋاز تېپىشىمىزغا ياردەم قىلىڭ ، نىشانىڭىزنى ئورتاقلىشىڭ
 confirm-goal = نىشاننى جەزملەشتۈرۈڭ
