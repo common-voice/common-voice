@@ -254,7 +254,9 @@ email-subscription-title-new = Winndito e ɓatakeeji Common Voice , ciiftine faa
 benefits = Ɓure
 rich-data = Alɗin keɓe naatnuɗaa ɗo mbaawka maa haaɗi ndokkaa keɓe nguurndam aadee ɗe cuurtaaka. Min momtat heftinirde kala keɓe nguurndam aadee hade min waɗde ɗum e peñcu.
 improve-audio = Humpito heftinirde ina ƴellita keɓe ojoo kuutoraaɗe e peewgol heftinirde daande.
+keep-track = Rewindo taaɓagol maa e meetere maa e ɗemɗe keewɗe.
 compare-progress = Yiy hol no ɓeydagol maa yerondirta e ngol wallitooɓe e nder winndere ndee fof.
+view-goals = Yiy taaɓagol maa takko paandaale maa e nɗe eɓɓoore
 join-newsletter = So a welaama aɗa waawi yantude e doggol iimeeluuji amen ngam kesɗitine e kabaruuji kesi baɗte eɓɓoore ndee.
 
 ## What's public
