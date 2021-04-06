@@ -215,7 +215,11 @@ vote-yes = Eey
 vote-no = Alaa
 toggle-play-tooltip = Ñoƴƴu{ shortcut-play-toggle } ngam tolƴaade mbayka taro
 speak-subtitle = Rokkir daande maa
+speak-paragraph = Nanngitaade lefon sawto jeyaa tigi ko e mahde leemre keɓe amen udditiiɗe; won wiy-ɓe nih ko ɗoon ɓuri jirwude.
+speak-goal-text = Lefon nanngitakon
 listen-subtitle = Wallu min moƴƴinde daaɗe
+listen-paragraph = Jaalɗinde lefon ɗe woɗɓe ndokkii ena teeŋti sanne e golle Common Voice. Heɗo heen ngam wallude min sosde keɓe sawto udditiiɗe lobbe.
+listen-goal-text = Lefon jaalɗinakon
 hours-recorded = Waktuuji Nanngitaama
 hours-validated = Waktuuji moƴƴinaama
 voices-online = Daaɗe ɗee e ceŋol jooni
@@ -240,6 +244,7 @@ x-years-short =
         [one] { $count }hitaande
        *[other] { $count }hitaande
     }
+help-make-dataset = Wallu min mahde leemre keɓe lobbere, udditiinde
 sign-up-account = Winndito ngam dañde konte
 email-subscription-title = Winndito ngam heɓde kesɗitine iimeel
 email-subscription-title-new = Winndito e ɓatakeeji Common Voice , ciiftine faandaare e kesɗitine beydagol.
