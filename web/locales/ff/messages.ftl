@@ -419,6 +419,9 @@ faq-is-goal-assistant-a = Faandaare leemre keɓe Common Voice ndee ko wallude mo
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
 faq-do-want-native-a = Eey, amin cokli sawto maa e jaati! Ena jeyaa e paandaale Common Voice renndinde ngaddinaaji keewɗi  ɓurɗi seertude mbete carwe keftinirkon sawto moƴƴana gooto e men kala. Ɗuum firti ko sawtooji ɓe muynaani ɗemngal noon foti teeŋtude.
 faq-why-different-speakers-q = Ko saabii aɗa sokli haalooɓe heewɓe woɗɓe e kala ɗemngal?
+faq-why-different-speakers-a =
+    Keɓe keftinirkon haala ɓurɗe heewde ko eeltaaɗe tawa won leƴrenndooje ena ɓurtinaa, kisa ɗum wufta e wuuraare faade e <articleLink>worɓe e dañɓe</articleLink>. Ngaddinaaji e caltuɗe ŋakkooje e leeme keɓe eeltugol ena keewi yahdineede e dente yimɓe ɓurɓe joñeede e yeebeede. Kadi masiŋaaji keewi ena cugga e keftingol sawtooji rewɓe.
+    Ko ɗuum waɗi amin cokli limlimtam e diiñorde keɓe sawto amen.
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
 faq-why-10k-hours-q = Ko waɗi waktuuji 10,000 jaalɗinaaɗi woni faandaare ɗemngal kala ngam heɓɓaade ojoo?
 faq-why-10k-hours-a = Ɗuum woni hakke limoore waktuuji baɗɗiiɗi ngam eeltude yuɓɓo faggininngo haala-to-binndol.
