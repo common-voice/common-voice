@@ -409,6 +409,7 @@ faq-why-important-a =
 faq-how-get-q = Hol no keɓirat-mi keɓe Common Voice?
 faq-how-get-a = Leemre keɓe Common Voice ndee ena heɓoo e gaawtol fawaade e jamirol <licenseLink>CC</licenseLink> to <datasetLink>Hello amen Leemre Keɓe</datasetLink>. Aɗa waawi kadi aawtaade leeme keɓe goɗɗe gonɗe e peñcu e ngoon hello.
 faq-when-release2-q = Mande bayyinton keɓe Common Voice e ɗemɗe goɗɗe?
+faq-when-release2-a = Yamre limtiɗemɗiire leemre keɓe Common Voice woni oo sahaa ko e mahngo e suɓto. So aɗa yiɗi wallude min naatnude Common Voice e ɗemɗe kese, yah ƴeewoy kuutorgal <sentenceCollectorLink>Roɓindorde Konnguɗi</sentenceCollectorLink> ngam ɓeydude konnguɗi kesi e leemre keɓe ndee, e <pontoonLink>Pontoon</pontoonLink> mo Mozilla ngam firde lowre ndee e jaati. Ɗemɗe kese ɓeydete e Common Voice ngam wallitde so konnguɗi 5000 jaɓaaɗi keɓaama.
 faq-why-mission-q = Hol ko saabii Common Voice jeyeede e eɓɓoore Mozilla?
 faq-what-cv-and-deepspeech-q = Hol ko seerndi Common Voice e Deep Speech?
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
