@@ -574,48 +574,54 @@ class SpeakPage extends React.Component<Props, State> {
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
 
+    console.log(isSubmitted);
     return (
       <>
         <div id="speak-page">
-          <NavigationPrompt
-            when={clips.filter(clip => clip.recording).length > 0}>
-            {({ onConfirm, onCancel }: any) => (
-              <Modal innerClassName="record-abort" onRequestClose={onCancel}>
-                <Localized id="record-abort-title">
-                  <h1 className="title" />
-                </Localized>
-                <Localized id="record-abort-text">
-                  <p className="text" />
-                </Localized>
-                <ModalButtons>
-                  <Localized id="record-abort-submit">
-                    <Button
-                      outline
-                      rounded
-                      className={getTrackClass('fs', 'exit-submit-clips')}
-                      onClick={() => {
-                        if (this.upload()) onConfirm();
-                      }}
+          {!isSubmitted && (
+            <NavigationPrompt
+              when={clips.filter(clip => clip.recording).length > 0}>
+              {({ onConfirm, onCancel }: any) => (
+                <Modal innerClassName="record-abort" onRequestClose={onCancel}>
+                  <Localized id="record-abort-title">
+                    <h1 className="title" />
+                  </Localized>
+                  <Localized id="record-abort-text">
+                    <p className="text" />
+                  </Localized>
+                  <ModalButtons>
+                    <Localized id="record-abort-submit">
+                      <Button
+                        outline
+                        rounded
+                        className={getTrackClass('fs', 'exit-submit-clips')}
+                        onClick={() => {
+                          if (this.upload()) onConfirm();
+                        }}
+                      />
+                    </Localized>
+                    <Localized id="record-abort-continue">
+                      <Button
+                        outline
+                        rounded
+                        className={getTrackClass(
+                          'fs',
+                          'exit-continue-recording'
+                        )}
+                        onClick={onCancel}
+                      />
+                    </Localized>
+                  </ModalButtons>
+                  <Localized id="record-abort-delete">
+                    <TextButton
+                      className={getTrackClass('fs', 'exit-delete-clips')}
+                      onClick={onConfirm}
                     />
                   </Localized>
-                  <Localized id="record-abort-continue">
-                    <Button
-                      outline
-                      rounded
-                      className={getTrackClass('fs', 'exit-continue-recording')}
-                      onClick={onCancel}
-                    />
-                  </Localized>
-                </ModalButtons>
-                <Localized id="record-abort-delete">
-                  <TextButton
-                    className={getTrackClass('fs', 'exit-delete-clips')}
-                    onClick={onConfirm}
-                  />
-                </Localized>
-              </Modal>
-            )}
-          </NavigationPrompt>
+                </Modal>
+              )}
+            </NavigationPrompt>
+          )}
           {showPrivacyModal && (
             <TermsModal
               onAgree={this.agreeToTerms}

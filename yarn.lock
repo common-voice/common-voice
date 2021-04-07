@@ -8760,10 +8760,10 @@ react-router-dom@^5.1.2:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-router-navigation-prompt@^1.8.10:
-  version "1.8.10"
-  resolved "https://registry.yarnpkg.com/react-router-navigation-prompt/-/react-router-navigation-prompt-1.8.10.tgz#bbc017c2803b3c79654f4e4c61f1326cb9c08203"
-  integrity sha512-liJH2QN90jphCX9DZlC3XyrUa0xz6IIwUpPwAj5sGkzf1Hrzrv4QqubdwxJRyhf74hwWzdTXWcVMUH08/rpsRg==
+react-router-navigation-prompt@^1.8.13:
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/react-router-navigation-prompt/-/react-router-navigation-prompt-1.8.13.tgz#eb315f8d4c3a0b35103249f628d1045049b8b5f4"
+  integrity sha512-1aBJvNX1sGe5eeUQ+e9OKPk4BLG6UifP08RT8ihbUSerYMv/0YLH25Q9CxzAGYEDDL1BNWU0oEkOS/qg16cXWw==
 
 react-router@5.1.2, react-router@^5.1.2:
   version "5.1.2"
