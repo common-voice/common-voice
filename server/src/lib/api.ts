@@ -256,7 +256,7 @@ export default class API {
   };
 
   saveAvatar = async (
-    { body, headers, params, user }: Request,
+    { body, headers, params, user, client_id }: Request,
     response: Response
   ) => {
     let avatarURL;
@@ -282,15 +282,16 @@ export default class API {
         break;
 
       case 'file':
-        avatarURL =
-          'data:' +
-          headers['content-type'] +
-          ';base64,' +
-          body.toString('base64');
-        console.log(avatarURL.length);
-        if (avatarURL.length > 8000) {
-          error = 'too_large';
-        }
+        let fileName = `${client_id}/avatar.jpeg`;
+        await this.s3
+          .upload({
+            Key: fileName,
+            Bucket: getConfig().CLIP_BUCKET_NAME,
+            Body: body,
+          })
+          .promise();
+
+        avatarURL = this.bucket.getPublicUrl(fileName);
         break;
 
       default:

@@ -19,7 +19,7 @@ export default class Bucket {
   /**
    * Fetch a public url for the resource.
    */
-  getPublicUrl(key: string, bucketType?: string, cdn?: boolean) {
+  public getPublicUrl(key: string, bucketType?: string, cdn?: boolean) {
     // @TODO: add CDN handling back in
     return this.s3.getSignedUrl('getObject', {
       Bucket:
