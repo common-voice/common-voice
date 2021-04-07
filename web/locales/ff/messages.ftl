@@ -455,6 +455,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Ko saabii Common Voice?
+about-subtitle = Common Voice jeyaa ko e eɓɓooje Mozilla ballooje janngide masiŋaaji no yimɓe kaaldata e jaati. Takko Leemre keɓe Common Voice ndee, min ngoni kadi ko e mahde  masiŋ keftinirgol haala udditiiɗo ena wiyee Deep Speech.
 how-does-it-work-title = Hol no ɗum gollortoo?
 how-does-it-work-text = Amin nodda ballondiral e leemre keɓe sawtooji.  Hokkir sawto maa, jaalɗin ceeɓndam lefon yimɓe woɗɓe, waɗ leemre keɓe ndee ɓeydoo moƴƴanɗe mo woni kala.
 about-speak = Haal
