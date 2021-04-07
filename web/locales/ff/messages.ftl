@@ -827,13 +827,38 @@ activity-needed-calculation-plural =
        *[other] lefon { $clipsPerDay }
     }ñalawma
 how-many-per-day = Eyyoo! No foti lefon ñalawma?
+how-many-a-week = Eyyoo! No foti lefon yontere?
 which-goal-type = Aɗa yiɗi haalde, heɗaade walla ɗiɗi fof?
+receiving-emails-info = Oo sahaa ko a cuɓiiɗo heɓde iimeeluuji wano ciiftinooji, kesɗitine taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
+not-receiving-emails-info =
+    Oo sahaa ko a cuɓiiɗo <bold>WASDE</bold> heɓde iimeeluuji wano ciiftinooji, kesɗitine 
+    taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] lefol { $count }
+       *[other] lefon { $count }
+    }
+help-share-goal = Wallu min yiytude sawtooji goɗɗi, lollin faandaare maa
+confirm-goal = Teeŋtin Faandaare
+goal-interval-weekly = Yontere
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Lollin Faandaare maa Lefon Ñalngu { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Lollin Faandaare maa Lefon Yontere{ $type }
 share-goal-type-speak = Kaalgol
 share-goal-type-listen = keɗogol
 share-goal-type-both = Kaalgol e Keɗogol
+# LINK will be replaced with the current URL
+goal-share-text = Mi sosii jooni faandaare heeriinde dokkal sawto to #CommonVoice --  yantu e am mballaa mi jaŋginde masiŋaaji ɗo yimɓe e jaati kaaldata { $link }
+weekly-goal-created = Faandaare maa yontere sosaama
+daily-goal-created = Faandaare maa ñalngu sosaama
+track-progress = Rewindo taaɓagol maa ɗoo kam e hello maa limte.
+return-to-edit-goal = Ruɗɗo ɗoo ngam taƴtaade faandaare maa nde njiɗ-ɗaa kala
+share-goal = Lollin faandaare am
 
 ## Profile Delete
 
+delete-q = Aɗa yiɗi ɗaɓɓitde momtugol nanngitte sawto maa ne, walla ɓuran-maa ko mooftude ɗe e Leemre keɓe Common Voice ndee?
 keep = Mooftu
 remove = Momtu
 profile-form-delete = Momtu Heftinirde
