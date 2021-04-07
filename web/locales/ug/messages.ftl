@@ -804,9 +804,12 @@ read-more-about = تەپسىلاتنى بىزنىڭ توغرىسىدا بېتى�
 
 demo-get-started = باشلايلى
 demo-welcome = Common Voice گە خۇش كەپسىز
+demo-welcome-subheader = بۇ تۈرگە تۆھپە قوشۇش توغرىسىدا تېخىمۇ كۆپ مەزمۇنغا قىزىقامسىز؟
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice  دۇنيادىكى ئەڭ چوڭ، كۆپ تىللىق جامائەتكە ئېچىۋېتىلگەن ئاۋاز ئامبىرى.
+demo-language-select-card-body = 50 تىن ئارتۇق تىلدىكى 259k دىن ئارتۇق كىشىنىڭ تۆھپىسىگە رەھمەت بىلدۈرىمىز، بۇ سانلىق ئۇچۇرلار ئاۋازلىق پروگراممىلارنى مەشىقلەندۈرۈپ ئىنسانلارنىڭ ئاۋازىغا تېخىمۇ ياخشى بولغان ئىنكاس قايتۇرۇلاشى ئۈچۈن ئىشلىتىلىدۇ.
 card-button-next = كېيىنكى
 card-button-back = قايتىش
 demo-language-select-label = تىللارنى كۆرۈڭ
