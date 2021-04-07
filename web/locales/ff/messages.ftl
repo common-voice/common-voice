@@ -599,7 +599,9 @@ data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Ndoɓordi TED-LIUM waɗiraa ko jeewte ojoo e binnditte mum keɓotooɗe to lowre TED toh.
 data-other-voxforge-description = VoxForge waɗiraa ko roɓindaade haala mbinnditaaka ngam huutoreede e Masiŋaaji Keftingol Haala de Sewnde-Udditigol
 data-other-tatoeba-description = Tatoeba ko diiñorde keɓe konnguɗi, firooji e ojoo gowlaaɗo mawnde ngam huutoraade e jaŋde ɗemɗe. Ngol gaawtol ena jogii Engleleere wowlaande nanngitaande renndo ngoo.
+your-feedback = Aɗa jogii miijooji no min ɓamtirta Leemre keɓe Common Voice ndee? Haalan-min e DIscourse
 go-discourse = Yah to Discourse
+missing-language = A yiytaaki ɗemngal maa e Leemre keɓe ndee? Ngam ɗaɓɓitde ɗemngal, yaaɓ to hello ɗemɗe amen toh.
 go-languages-page = Yah to Hello Ɗemɗe
 ready-to-validate = Aɗa hebii wallude moƴƴinde koŋnguɗi?
 more = Goɗɗum
@@ -610,6 +612,7 @@ dataset-version = Yamre
 ## Download Modal
 
 download-title = Gaawtol maa fuɗɗiima
+download-helpus = Wallu min mahde renndo toppitiingo karalle sawto. Haal daande dow e iimeel.
 download-form-email =
     .label = Naatnu iimeel maa
     .value = A jaaraama, maa en njokkondir
@@ -618,6 +621,7 @@ download-no = Alaa, mi yaafiima
 
 ## Contact Modal
 
+contact-title = Jokkondiral
 contact-form-name =
     .label = Innde
 contact-form-message =
@@ -637,6 +641,7 @@ other-language = Ɗemngal goɗngal
 ## Languages Overview
 
 language-section-in-progress = Heen Wonaa
+language-section-in-progress-new-description = Ɗee-ɗoo ɗemɗe ngoni oo sahaa ko e topayru. Pale taaɓagol ɗee kollirta ko hol to ɗemngal kala yahrata e fannu <localizationGlossaryLink>nokkuɗinal lowre</localizationGlossaryLink> kam e <sentenceCollectionGlossaryLink>roɓindagol konnguɗi</sentenceCollectionGlossaryLink>.
 language-section-launched = Fuɗɗaama
 language-section-launched-description = Ɗee ɗemɗe kurminaaɗe ko ɗemɗe <localizationGlossaryLink>nokkuɗinɗe</localizationGlossaryLink> lowre ndee haa timmi, kadi ena njogii <sentenceCollectionGlossaryLink>konnguɗi doɓindaaɗi</sentenceCollectionGlossaryLink> ngam aaɓnoo jokkeede e ballitte <speakLink>Haal</speakLink> e <listenLink>Heɗo</listenLink>.
 languages-show-more = Yiy goɗɗe
