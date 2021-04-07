@@ -778,16 +778,55 @@ validated-clips = Lefon njaalɗinakon
 total-approved = Jaɓaaɗi e Kuuɓal
 overall-accuracy = Ceeɓndam Kuuɓal
 set-visibility = Taƴto jiyagol am
+visibility-explainer = Ngol teeltol kañum ɗowata jiyagol maa e doggol ardiiɓe. So suuɗaama, taaɓagol maa ko cuuringol. Ɗum firti ko natal maa, innde kuutoro e taaɓagol njaltataa e doggol ngol. Tesko wonde kesɗitingol doggol ngol ena ɓama ~{ $minutes } hojom ngam yaltinde bayle ɗee.
+visibility-overlay-note = Tesko: so waɗaama e 'Ena yiyoo', ngol teeltol ena waawi wayleede to <profileLink>Hello heftinirde</profileLink> toh
+show-ranking = Hollu darnde am
 
 ## Custom Goals
 
+get-started-goals = Fuɗɗoroo ɗoo paandaale
+create-custom-goal = Sos Faandaare Feŋtornde
+goal-type = Hol fannu faadaare njiɗ-ɗaa mahde?
 both-speak-and-listen = Ɗiɗi fof
 both-speak-and-listen-long = Ɗiɗi fof (Haalde e heɗaade)
+daily-goal = Faandaare Ñalngu
+weekly-goal = Faadaare Yontere
 easy-difficulty = Ina weeɓi
 average-difficulty = Ina hakindii
 difficult-difficulty = Ina tiiɗi
+pro-difficulty = Pro
+lose-goal-progress-warning = Taƴtaade faandaare maa ena gasa mbaasaa taaɓagol goodngol maa.
 want-to-continue = Aɗa yiɗi jokkude?
+finish-editing = Gaynu taƴtaade tawo?
 lose-changes-warning = Goppugol jooni firti ko a waasat bayle maa
+build-custom-goal = Mah faandaare feŋtornde
+help-reach-hours-pluralized =
+    Wallu heɓe{ NUMBER($hours) ->
+        [one] waktu { $hours }
+       *[other] waktuuji { $hours }
+    }e { $language } kam e faadaare heeriinde
+help-reach-hours-general-pluralized =
+    Wallu Common Voice heɓde{ NUMBER($hours) ->
+        [one] waktu { $hours }
+       *[other] waktuuji { $hours }
+    }e ɗemngal kem e faandaare heeriinde
+set-a-goal = Taƴ faandaare
+cant-decide = A horiima fellitde?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] waktu { $totalHours }
+       *[other] waktuuji { $totalHours }
+    }ena waawi timmude e ko seɓi{ NUMBER($periodMonths) ->
+        [one] lewru { $periodMonths }
+       *[other] lebbi { $periodMonths }
+    }so{ NUMBER($people) ->
+        [one] neɗɗo { $people }
+       *[other] yimɓe { $people }
+    }nanngitiima{ NUMBER($clipsPerDay) ->
+        [one] lefel { $clipsPerDay }
+       *[other] lefon { $clipsPerDay }
+    }ñalawma
+how-many-per-day = Eyyoo! No foti lefon ñalawma?
 which-goal-type = Aɗa yiɗi haalde, heɗaade walla ɗiɗi fof?
 share-goal-type-speak = Kaalgol
 share-goal-type-listen = keɗogol
