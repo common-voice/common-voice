@@ -634,14 +634,28 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> Lefel
        *[other] <bold>{ $count }</bold> Lefon
     }
-goal-help-recording = A wallii Common Voice yettaade <goalPercentage></goalPercentage> faandaare nanngito amen ñalɗiire { $goalValue } !
+goal-help-recording = A wallii Common Voice yettaade <goalPercentage></goalPercentage> faandaare nanngitagol amen ñalɗiire { $goalValue } !
+goal-help-validation = A wallii Common Voice yettaade <goalPercentage></goalPercentage> faandaare jaalɗingol amen ñalɗiire { $goalValue } !
+contribute-more =
+    { $count ->
+        [one] Aɗa hebii waɗde { $count } goɗngel?
+       *[other] Aɗa hebii waɗde { $count } goɗɗi?
+    }
 record-cta = Fuɗɗo nanngitogol
+record-platform-not-supported = Amin njahnoo, dinnderde maa tammbitaaka oo sahaa.
 record-platform-not-supported-desktop = E kaɓirɗe ordinateer aɗa waawi wallit-de ngaawtoɗaa…
 record-platform-not-supported-ios-non-safari = E iOS tiiɗno jokku e Safari ngam waawnude nanngitogol…
+record-must-allow-microphone = Maa njamiraa keɓagol mikkoroo.
+record-no-mic-found = Alaa mikoroo yiytaa.
 record-error-too-short = Nanngitogol ngol ina raɓɓiɗi no feewi.
 record-error-too-long = Nanngitogol ngol ina juuti no feewi.
 record-error-too-quiet = Nanngitogol ngol deeƴii no feewi.
+record-cancel = Haaytu ɗimmito nanngitagol.
+record-instruction = { $actionType }<recordIcon></recordIcon> kisa tara konngol ngol daande dow
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> so gasii
 record-three-more-instruction = Ina heddii tati!
+record-again-instruction = Eyyoo!<recordIcon></recordIcon> Nanngito lefel maa goɗngel
+record-again-instruction2 = Jokku tiiɗnaare, nanngito kadi <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> cakkitiiɗo oo!
 share-common-voice = Lollin Common Voice
 record-submit-tooltip = { $actionType } naatnu so a hebiima
