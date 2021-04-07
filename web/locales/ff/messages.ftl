@@ -436,8 +436,10 @@ faq-where-src-from-2-a =
     
     Aɗa waawi yiyde konnguɗi amen sewnde e ndee <githubLink>runngere</githubLink>.
 faq-why-not-ask-read-q = Ko waɗi a wiyataa yimɓe yo tar e defte walla binndanɗe wikipedia e ɗemɗe goɗɗe?
+faq-why-not-ask-read-a = Ngam Leemre keɓe Common Voice waɗa nafoore tigi min cuɓii ko yamirde so wonaa binndol sewnde tawa woni ko e jamirol  Creative Commons (CC0). Huutoraade nanondiral CC0 firti ko yiytude e roɓindaade binndi ɓurata saɗtude kono maa gooto kala waaw huutoraade keɓe sawto jaltuɗe e majji tawa alaa kaɗe kuutoragol walla jamirooje ummiiɗe e Mozilla. E ndaɓɓa, min njiɗi ko waɗde leemre keɓe limtiɗemɗiire ndee haa nafa mo woni kala, woni wiɗtooɓe, jaaɓikaaɗtirɗe, startup en, laamuuji, pelle faandaare renndo e hatohatolinɓe.
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
 faq-is-account-public-q = Humpito konte am woni ko e peñcu?
+faq-how-privacy-q = Oɗon ngaadii suuraare inɗe e sutoro yimɓe hokkuɓe sawto mum'en ɓee?
 faq-how-privacy-a = Lefon sawto ngonkon e leemre keɓe kon fof ko momtaaɗe kala humpito waawngo heftine neɗɗo. So ballitoowo hokkii keɓe leƴrenndiide e heftinirde mum, ngoon humpito ɗawtinte e lefon sawto joom mum hade makkon tiggeede ngam aawtagol e leemre keɓe ndee kadi waɗetaake e peñcu hay sahaa e hello heftnirde makko.
 faq-what-is-cv = Ko woni Common Voice?
 faq-using-cv = Kuutorogol Common Voice?
