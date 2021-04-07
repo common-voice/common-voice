@@ -395,7 +395,7 @@ change-email-setings = Waylu iimeel maa to Teelte gonɗe les Heftinirde Seŋorde
 
 ## FAQ
 
-faq-title = Naamne Ɓurɗe Duumaade
+faq-title = Naamne Ɓurɗe Lollude
 faq-what-cv-q = Ko woni Common Voice?
 faq-what-cv-a =
     Karalle keftingol sawto nana wayla kesamhesamaagu jotondiral men e masiŋaaji, kono juɓɓe goodɗe oo sahaa ɗee ko jeyaaɗe. Common Voice jeyaa ko e miijo Mozilla ngam ɓeydude ƴellitaare karalle keftingol sawto kadi tawa mo woni kala ena haɓa heen. Common Voice ko diiñorde keɓe maamaare sawtooji dokkaaɗi ballooje mo woni kala e mbaadi njaawndi eeltude jaaɓɗe ɓeydaaɗe sawto e ɗemgal kala goodngal.
