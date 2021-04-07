@@ -456,6 +456,9 @@ faq-search-for-answers =
 
 about-title = Ko saabii Common Voice?
 about-subtitle = Common Voice jeyaa ko e eɓɓooje Mozilla ballooje janngide masiŋaaji no yimɓe kaaldata e jaati. Takko Leemre keɓe Common Voice ndee, min ngoni kadi ko e mahde  masiŋ keftinirgol haala udditiiɗo ena wiyee Deep Speech.
+about-header-description =
+    Ɗee-ɗoo eɓɓoje ɗiɗi kala njeyaa ko e darnde amen ngam sukkude yolnde peecol karalle haala. Karalle keftingol sawto nganndtu kaɓirɗe men fannu neɗɗaŋke, kono topayɓe ena cokli keɓe sawto moolanaaɗe keewal ngam mahde ɗe. E oo sahaa, ko heewi e ɗeen keɓe ena tiiɗi njaru etee ko jeyi keeriiɗo.
+    Min njiɗi ko waɗde haa keɓe sawto heɓoo e wellitaare kam e peñcu, tawa amin ndaranii keɓe ɗee ena noddi limlimtam yimɓe e jaati. Eɗen fof mbaawi beydude moƴƴugol keftingol sawto.
 how-does-it-work-title = Hol no ɗum gollortoo?
 how-does-it-work-text = Amin nodda ballondiral e leemre keɓe sawtooji.  Hokkir sawto maa, jaalɗin ceeɓndam lefon yimɓe woɗɓe, waɗ leemre keɓe ndee ɓeydoo moƴƴanɗe mo woni kala.
 about-speak = Haal
@@ -584,10 +587,13 @@ dataset-description-hours =
     Temre kala e leemre keɓe ndee jogii ko MP3 mum keeriiɗo jahdoowo e fiile binndol. Keewɗi e <b>{ $total }</b> waktuji nanngito gonɗe e leemre keɓe ndee ena njogii metaakeɓe leƴrenndiije wano duuɓi, njogoram e ngaddiin baawɗe wallude eeltude ceeɓndam masiŋaaji keftingol haala
     
     Leemre keɓe ndee e oo sahaa ko waktuuji <b>{ $valid }</b> jaaɗinaaɗi e ɗemɗe <b>{ $languages }</b>, kono amin ɓeyda sawtooji e ɗemɗe goɗɗe e sahaa fof. Yillo <languagesLink>hello Ɗemɗe</languagesLink> amen ngam ɗaɓɓitde ɗemngal walla fuɗɗo wallitde.
+want-dataset-update = Aɗa yiɗi tintineede so yamre hesere Leemre keɓe Common Voice bayyinaama? Lulno e ɓataake habrirde amen.
 subscribe = Lulno
 get-started-speech = Fuɗɗoro ɗoo e Keftinirgol Haalaa
 other-datasets = Leeme Keɓe Sawto Goɗɗe
 feedback-q = Aɗa jogii duttinal?
+deepspeech-info = Leemre keɓe Common Voice ndee timminat masiŋ keftinirgol sawto udditiiɗo hono Deep Speech,  mo mbaaw-ɗaa huutoraade ngam mahde jaaɓnirɗe keftinirgol haala. Tar <githubLink>tonngol Github</githubLink> amen walla njantaa e <discourseLink>DeepSpeech Discourse</discourseLink> ngam ekkaade no fuɗɗortee.
+common-voice-info-new = Aɗa jogii naamne baɗte Common Voice? Mijjoji ƴellitgol walla duttine baɗte ɗemngal keeringal? Yantu e amen to <discourseLink>forum Discourse</discourseLink> amen toh kisa nganndinaa-min.
 data-other-librispeech-description = LibriSpeech ko ndoɓordi ngigiindi hakke waktuuji 1000 haala Engeleere taraande itaande e defte hito to eɓɓoore LibriVox toh.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Ndoɓordi TED-LIUM waɗiraa ko jeewte ojoo e binnditte mum keɓotooɗe to lowre TED toh.
