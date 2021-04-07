@@ -423,6 +423,8 @@ faq-why-different-speakers-a =
     Keɓe keftinirkon haala ɓurɗe heewde ko eeltaaɗe tawa won leƴrenndooje ena ɓurtinaa, kisa ɗum wufta e wuuraare faade e <articleLink>worɓe e dañɓe</articleLink>. Ngaddinaaji e caltuɗe ŋakkooje e leeme keɓe eeltugol ena keewi yahdineede e dente yimɓe ɓurɓe joñeede e yeebeede. Kadi masiŋaaji keewi ena cugga e keftingol sawtooji rewɓe.
     Ko ɗuum waɗi amin cokli limlimtam e diiñorde keɓe sawto amen.
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
+faq-why-my-lang-new-a = Mozilla suɓotaako, faltotaako ɗemngal fawa ɗum e goɗɗe. E jaati, Common Voice ko golle renndo, kono ena waɗi <multilangLink>daawe keewɗe ngam ɓeydude ɗemngal kesal</multilangLink> kisa fuɗɗee roɓindaade sawtooji dokkaaɗi. Ko adii, lowre Common Voice ndee maa firee ngam terɗe renndo ɗee mbaawa naatde e ballitgol tawa ko e ɗemngal mum'en. Rewa heen, amin cokli konngi keewɗi sanne tawa eɗi momtaa jojjanɗe jeyal ngam yimɓe mbaawa tarde ɗe daande dow. Tuma nde ɗee baɗɗiiɗe ɗiɗi keɓaa, ɗemngal ndeen ”hurmintee“ e Common Voice ngam yimɓe puɗɗoo nanngitaade sawtooji mum'en e jaalɗinde dokkaaɗe woɗɓe. So aɗa yiɗi wallude hurminde ɗemngal kesal, yaaɓ to <sentenceCollectorLink>kuutorgal roɓindo konnguɗi</sentenceCollectorLink> amen ngam fuɗɗaade toon.
+faq-what-quality-q = Hol ɗo keelɗugol ojoo foti tolnaade ngam lefel sawto huutoree e leemre keɓe ndee?
 faq-why-10k-hours-q = Ko waɗi waktuuji 10,000 jaalɗinaaɗi woni faandaare ɗemngal kala ngam heɓɓaade ojoo?
 faq-why-10k-hours-a = Ɗuum woni hakke limoore waktuuji baɗɗiiɗi ngam eeltude yuɓɓo faggininngo haala-to-binndol.
 faq-how-calc-hours-q = Hol no Common Voice hiisortoo waktuuji?
