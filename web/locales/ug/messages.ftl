@@ -551,6 +551,7 @@ other-datasets = باشقا ئاۋاز مەلۇمات توپى
 feedback-q = تەكلىپ-پىكرىڭىز بارمۇ؟
 data-other-ted-name = TED-LIUM  سۆزلۈكلەر توپلىمى
 data-other-ted-description = TED-LIUM سۆزلۈكلەر توپلىمى ئاۋازلىق سۆھبەتلەردىن ياسالغان بولۇپ ، ئۇلارنىڭ خاتىرىلىرى TED تور بېتىدە بار.
+your-feedback = Common Voice سانلىق مەلۇماتىنى قانداق قىلىپ تېخىمۇ ياخشىلاش توغرىسىدا ئوي-پىكىرلىرىڭىز بارمۇ؟ بولسا بىز بىلەن ئورتاقلىشىڭ
 go-discourse = مۇنازىرلىشىڭ
 go-languages-page = تىل بېتىگە كىرىڭ
 ready-to-validate = جۈملىلەرنى دەلىللەشكە ياردەم قىلىشقا تەييارمۇ؟
@@ -781,11 +782,16 @@ n-clips-pluralized =
 help-share-goal = تېخىمۇ كۆپ ئاۋاز تېپىشىمىزغا ياردەم قىلىڭ ، نىشانىڭىزنى ئورتاقلىشىڭ
 confirm-goal = نىشاننى جەزملەشتۈرۈڭ
 goal-interval-weekly = ھەپتىلىك
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } غا قارىتا كۈندىلىك ئاۋاز خاتىرە نىشانىڭىزنى { $count } نى ھەمبەھىرلەڭ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } غا قارىتا ھەپتىلىك ئاۋاز خاتىرە نىشانىڭىزنى { $count } نى ھەمبەھىرلەڭ
 share-goal-type-speak = سۆزلەش
 share-goal-type-listen = ئاڭلاش
 share-goal-type-both = سۆزلەش ۋە ئاڭلاش
 weekly-goal-created = ھەپتىلىك نىشانىڭىز بېكىتىلدى.
 daily-goal-created = كۈندىلىك نىشانىڭىز بېكىتىلدى.
+track-progress = ستاتىستىكا بېتىڭىز ياكى بۇ يەردىن ئىلگىرىلەشلەرنى ئىز قوغلاڭ.
 return-to-edit-goal = بۇ يەرگە قايتىپ نىشانىڭىزنى خالىغان ۋاقىتتا تەھرىرلەڭ.
 share-goal = نىشانىمنى ئورتاقلىشىڭ
 
