@@ -563,12 +563,14 @@ dataset-description-hours =
     Leemre keɓe ndee e oo sahaa ko waktuuji <b>{ $valid }</b> jaaɗinaaɗi e ɗemɗe <b>{ $languages }</b>, kono amin ɓeyda sawtooji e ɗemɗe goɗɗe e sahaa fof. Yillo <languagesLink>hello Ɗemɗe</languagesLink> amen ngam ɗaɓɓitde ɗemngal walla fuɗɗo wallitde.
 subscribe = Lulno
 get-started-speech = Fuɗɗoro ɗoo e Keftinirgol Haalaa
+other-datasets = Leeme Keɓe Sawto Goɗɗe
 feedback-q = Aɗa jogii duttinal?
 data-other-librispeech-description = LibriSpeech ko ndoɓordi ngigiindi hakke waktuuji 1000 haala Engeleere taraande itaande e defte hito to eɓɓoore LibriVox toh.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Ndoɓordi TED-LIUM waɗiraa ko jeewte ojoo e binnditte mum keɓotooɗe to lowre TED toh.
 data-other-voxforge-description = VoxForge waɗiraa ko roɓindaade haala mbinnditaaka ngam huutoreede e Masiŋaaji Keftingol Haala de Sewnde-Udditigol
 data-other-tatoeba-description = Tatoeba ko diiñorde keɓe konnguɗi, firooji e ojoo gowlaaɗo mawnde ngam huutoraade e jaŋde ɗemɗe. Ngol gaawtol ena jogii Engleleere wowlaande nanngitaande renndo ngoo.
+go-discourse = Yah to Discourse
 go-languages-page = Yah to Hello Ɗemɗe
 ready-to-validate = Aɗa hebii wallude moƴƴinde koŋnguɗi?
 more = Goɗɗum
@@ -582,6 +584,7 @@ download-title = Gaawtol maa fuɗɗiima
 download-form-email =
     .label = Naatnu iimeel maa
     .value = A jaaraama, maa en njokkondir
+download-back = Rutto to Leeme Keɓe Common Voice
 download-no = Alaa, mi yaafiima
 
 ## Contact Modal
@@ -609,6 +612,7 @@ language-section-launched = Fuɗɗaama
 language-section-launched-description = Ɗee ɗemɗe kurminaaɗe ko ɗemɗe <localizationGlossaryLink>nokkuɗinɗe</localizationGlossaryLink> lowre ndee haa timmi, kadi ena njogii <sentenceCollectionGlossaryLink>konnguɗi doɓindaaɗi</sentenceCollectionGlossaryLink> ngam aaɓnoo jokkeede e ballitte <speakLink>Haal</speakLink> e <listenLink>Heɗo</listenLink>.
 languages-show-more = Yiy goɗɗe
 languages-show-less = Yiy seeɗa
+language-meter-in-progress = Taaɓagol
 language-total-progress = kuuɓal
 language-search-input =
     .placeholder = Yiylo
@@ -620,10 +624,17 @@ total-hours = Waktuuji jaalɗinaaɗi
 ## Contribution
 
 action-click = Dobo
+action-tap = Tappu
 contribute = Addu ballal Maa
 listen = Heɗo
 skip = Diw
 shortcuts = Codorɗe
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Lefel
+       *[other] <bold>{ $count }</bold> Lefon
+    }
+goal-help-recording = A wallii Common Voice yettaade <goalPercentage></goalPercentage> faandaare nanngito amen ñalɗiire { $goalValue } !
 record-cta = Fuɗɗo nanngitogol
 record-platform-not-supported-desktop = E kaɓirɗe ordinateer aɗa waawi wallit-de ngaawtoɗaa…
 record-platform-not-supported-ios-non-safari = E iOS tiiɗno jokku e Safari ngam waawnude nanngitogol…
