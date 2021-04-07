@@ -414,6 +414,8 @@ faq-why-mission-q = Hol ko saabii Common Voice jeyeede e eɓɓoore Mozilla?
 faq-why-mission-a = Mozilla ena daranii ñiiɓnude geese ɗee e udditaanade mo woni kala. Ngam waɗde ɗuum, amin cokli doolnude sosiyaŋkooɓe geese rewde e eɓɓooje hono Common Voice. Sahaa mo karalle sawto ɓeydii heewde haa njalti jaaɓnirɗe dowrowe, amin ngongɗini eɗe poti nafde huutorɓe kala e mbaadi potal. Ɗuum firti ko waɗde doole e ɗemɗe kese kam e jaɓɓaade ngaddiinaaji kesi e leƴrenndooje tuma mahgol e ƴeewtagol karalle sawto. Common Voice ko jayaande peñcu heɓotoonde mo woni kala etee goomuuji e topayɓe Mozilla wonɓe e jookli winndere ndee nana kuutoroo nde kam'en ne e eɓɓooje amen keeriiɗe.
 faq-what-cv-and-deepspeech-q = Hol ko seerndi Common Voice e Deep Speech?
 faq-what-cv-and-deepspeech-a = Leemre keɓe Common Voice timminta musiŋ keftinirɗo sawto sewnde-udditiinde mo Mozilla hono Deep Speech. Yamre Deep Speech adannde bayyinanoo ko e Yarkomaa 2017 kadi nana jokki e ƴelliteede gila ndeen. Kañum e leemre keɓe Common Voice, amin ngoongɗiɗi ɗee karalle keftinirgol sawto udditiiɗe ena poti heɓaade e mo woni kala. Ko ɗaminaare amen wonde ɗee karalle maa mballu topayɓe mahde haralde jaaɓnirɗe e carwe kesamhesamiiɗe.
+faq-is-goal-assistant-q = Mbete faandaare Common Voice  ko mahde heedorde sawto?
+faq-is-goal-assistant-a = Faandaare leemre keɓe Common Voice ndee ko wallude mo woni kala e winndere ndee mahde keɓtinirgol haala, kaaloowo walla fannu jaaɓnirɗe kala naamniingu keɓe sawto. Heedorde sawto ko geɗel tan e fannuuji jaaɓnirɗe keewɗe baawɗe huutoraade leemre kece ndee.
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
 faq-why-different-speakers-q = Ko saabii aɗa sokli haalooɓe heewɓe woɗɓe e kala ɗemngal?
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
@@ -560,6 +562,7 @@ dataset-description-hours =
     
     Leemre keɓe ndee e oo sahaa ko waktuuji <b>{ $valid }</b> jaaɗinaaɗi e ɗemɗe <b>{ $languages }</b>, kono amin ɓeyda sawtooji e ɗemɗe goɗɗe e sahaa fof. Yillo <languagesLink>hello Ɗemɗe</languagesLink> amen ngam ɗaɓɓitde ɗemngal walla fuɗɗo wallitde.
 subscribe = Lulno
+get-started-speech = Fuɗɗoro ɗoo e Keftinirgol Haalaa
 feedback-q = Aɗa jogii duttinal?
 data-other-librispeech-description = LibriSpeech ko ndoɓordi ngigiindi hakke waktuuji 1000 haala Engeleere taraande itaande e defte hito to eɓɓoore LibriVox toh.
 data-other-ted-name = TED-LIUM Corpus
