@@ -430,6 +430,11 @@ faq-why-10k-hours-q = Ko waɗi waktuuji 10,000 jaalɗinaaɗi woni faandaare ɗem
 faq-why-10k-hours-a = Ɗuum woni hakke limoore waktuuji baɗɗiiɗi ngam eeltude yuɓɓo faggininngo haala-to-binndol.
 faq-how-calc-hours-q = Hol no Common Voice hiisortoo waktuuji?
 faq-how-calc-hours-a = Min kiisortoo waktuuji ko ɓetde pecindol njuuteendi nanngitol kala, kisa min cowondira ndeen limoore e limoore limoore nanngitte ɗemɗe ɗee fof.
+faq-where-src-from-2-q = Hol to binndol sewde ngol ummortoo?
+faq-where-src-from-2-a =
+    Binndol sewde amen waɗiraa ko dokkanɗe asliije wallitooɓe kam e jeewte ummiiɗe e ciimte leppi sinimaa jeyi peñcu hono <italic>It’s a Wonderful Life</italic>.
+    
+    Aɗa waawi yiyde konnguɗi amen sewnde e ndee <githubLink>runngere</githubLink>.
 faq-why-not-ask-read-q = Ko waɗi a wiyataa yimɓe yo tar e defte walla binndanɗe wikipedia e ɗemɗe goɗɗe?
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
 faq-is-account-public-q = Humpito konte am woni ko e peñcu?
