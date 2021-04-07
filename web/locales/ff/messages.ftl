@@ -417,6 +417,7 @@ faq-what-cv-and-deepspeech-a = Leemre keɓe Common Voice timminta musiŋ keftini
 faq-is-goal-assistant-q = Mbete faandaare Common Voice  ko mahde heedorde sawto?
 faq-is-goal-assistant-a = Faandaare leemre keɓe Common Voice ndee ko wallude mo woni kala e winndere ndee mahde keɓtinirgol haala, kaaloowo walla fannu jaaɓnirɗe kala naamniingu keɓe sawto. Heedorde sawto ko geɗel tan e fannuuji jaaɓnirɗe keewɗe baawɗe huutoraade leemre kece ndee.
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
+faq-do-want-native-a = Eey, amin cokli sawto maa e jaati! Ena jeyaa e paandaale Common Voice renndinde ngaddinaaji keewɗi  ɓurɗi seertude mbete carwe keftinirkon sawto moƴƴana gooto e men kala. Ɗuum firti ko sawtooji ɓe muynaani ɗemngal noon foti teeŋtude.
 faq-why-different-speakers-q = Ko saabii aɗa sokli haalooɓe heewɓe woɗɓe e kala ɗemngal?
 faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
 faq-why-10k-hours-q = Ko waɗi waktuuji 10,000 jaalɗinaaɗi woni faandaare ɗemngal kala ngam heɓɓaade ojoo?
@@ -425,6 +426,7 @@ faq-how-calc-hours-q = Hol no Common Voice hiisortoo waktuuji?
 faq-why-not-ask-read-q = Ko waɗi a wiyataa yimɓe yo tar e defte walla binndanɗe wikipedia e ɗemɗe goɗɗe?
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
 faq-is-account-public-q = Humpito konte am woni ko e peñcu?
+faq-how-privacy-a = Lefon sawto ngonkon e leemre keɓe kon fof ko momtaaɗe kala humpito waawngo heftine neɗɗo. So ballitoowo hokkii keɓe leƴrenndiide e heftinirde mum, ngoon humpito ɗawtinte e lefon sawto joom mum hade makkon tiggeede ngam aawtagol e leemre keɓe ndee kadi waɗetaake e peñcu hay sahaa e hello heftnirde makko.
 faq-what-is-cv = Ko woni Common Voice?
 faq-using-cv = Kuutorogol Common Voice?
 faq-description = Common Voice ko huunde e eɓɓooje Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
@@ -486,6 +488,7 @@ hours-recorded-explanation = Ɗum ɗoo ko limoore waktuuji sawtooji doɓindaaɗi
 hours-validated-explanation = Limoore waktuuji nanngitagol sawto jaalɗinangol huutorɓe 2 e nder 3 tawa ko daande “Eey”. Ɗii maantotoo taaɓal huccande happo waktuuji 10K eɓɓoore ndee e kuuɓal.
 sst = Haala-to-binndol (Speech to Text, STT)
 sst-explanation = Karalle haala-to-binndol (STT) ƴettat sawto waɗta ɗum binndol.
+de-identified = Ɗawtinaama
 de-identified-explanation = Ko niɓɓiɗingol humpito heftinirde kuutoro waasa jeyeede e lefon sawto ndokkakon so ɗe kaɓɓaama ngam aawtodeede e leemre keɓe ndee.
 
 ## Error pages
