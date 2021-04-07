@@ -429,6 +429,7 @@ faq-what-quality-a = Min njiɗi ko Leemre keɓe Common Voice nannda keelɗugol o
 faq-why-10k-hours-q = Ko waɗi waktuuji 10,000 jaalɗinaaɗi woni faandaare ɗemngal kala ngam heɓɓaade ojoo?
 faq-why-10k-hours-a = Ɗuum woni hakke limoore waktuuji baɗɗiiɗi ngam eeltude yuɓɓo faggininngo haala-to-binndol.
 faq-how-calc-hours-q = Hol no Common Voice hiisortoo waktuuji?
+faq-how-calc-hours-a = Min kiisortoo waktuuji ko ɓetde pecindol njuuteendi nanngitol kala, kisa min cowondira ndeen limoore e limoore limoore nanngitte ɗemɗe ɗee fof.
 faq-why-not-ask-read-q = Ko waɗi a wiyataa yimɓe yo tar e defte walla binndanɗe wikipedia e ɗemɗe goɗɗe?
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
 faq-is-account-public-q = Humpito konte am woni ko e peñcu?
