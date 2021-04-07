@@ -265,7 +265,7 @@ whats-public = Hol ko woni peeñcu?
 email-not-public = Min mbaɗoytaa iimeel maa peeñcu.
 recordings-and-locale-public = Nanngitte ɗee no poti e ɗemɗe ɗe mballittaa maa ngon e peñcu.
 username-optin-public = Aɗa waawi suɓaade waɗde innde kuutoro maa e peñcu walla cuuɗiiɗo.
-demographic-deidentified-clarity-2 = Keɓe ɗe leƴrendiije mbaɗɗaaki naatneede (yeru: njogoram, ɗemngal, ngaddiin) mbaɗetaake e peñcu hay sahaa e heftinirde maa, kadi jokketaake e konte maa e leemre keɓe ndee. Lefon ojoo teelɗe maa njokkondire e keɓe leƴrendiije ngam moƴƴinde siko - yeru, biɗtoowo ena waawi toɓɓunde annorde eelto hucca e annde leƴrendiire heeriinde.
+demographic-deidentified-clarity-2 = Keɓe ɗe leƴrendiije mbaɗɗaaki naatneede (yeru: njogoram, ɗemngal, ngaddiin) mbaɗetaake e peñcu hay sahaa e heftinirde maa, kadi jokketaake e konte maa e leemre keɓe ndee. Lefon ojoo teelɗe maa njokkondire e keɓe leƴrendiije ngam moƴƴinde siko - yeru, biɗtoowo ena waawi toɓɓunde annorde eelto hucca e taƴannde leƴrendiire heeriinde.
 username-email-not-demographic = Innde kuutoro maa e iimeel maa ndenndinoytaake e keɓe bayyinaaɗe ɗee.
 
 ## Speak & Listen Shortcuts
@@ -691,12 +691,31 @@ record-three-more-instruction = Ina heddii tati!
 record-again-instruction = Eyyoo!<recordIcon></recordIcon> Nanngito lefel maa goɗngel
 record-again-instruction2 = Jokku tiiɗnaare, nanngito kadi <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> cakkitiiɗo oo!
+review-tooltip = Ƴeewto & nanngito kadi lefon laawol gootol
+share-clip = Lollin lefel maa
 share-common-voice = Lollin Common Voice
+review-instruction = Ƴeewto & nanngito kadi lefon so a soklii
 record-submit-tooltip = { $actionType } naatnu so a hebiima
+clips-uploaded = Lefon Jollakon
+record-abort-title = Gaynu nanngitaade tawo?
+record-abort-text = Yaltude jooni firti ko maa waas taabagol maa
+record-abort-submit = Naatnu lefon
 record-abort-continue = Jokkit nanngitogol
+record-abort-delete = Tƴto & Momtu lefon
+listen-instruction = { $actionType }<playIcon></playIcon> Ɓe tarii konngol ngol taro yuɓɓungo?
+listen-again-instruction = Golle peewii!<playIcon></playIcon> Heɗto kadi so a hebiima
+listen-3rd-time-instruction = 2 keddii <playIcon></playIcon>, jokku tiiɗnaare!
 listen-last-time-instruction = <playIcon></playIcon>cakkitiiɗo oo!
+listen-empty-state = En ngaynii lefon njaalɗinteekon e ngal ɗemngal...
+speak-empty-state = En ngaynii konnguɗi jaalɗinteeɗi e ngal ɗemngal...
+speak-empty-state-cta = Wallit konnguɗi
 record-button-label = Nanngito daande maa
+share-title-new = <bold>Wallu min</bold> yiytude sawtooji goɗɗi
+keep-track-profile = Rewindo taaɓagol maa e heftinirde
 login-to-get-started = Seŋo walla winndito ngam fuɗɗaade
+target-segment-first-card = Aɗana wallita e taƴannde toɓɓaande amen adannde
+target-segment-generic-card = Aɗana wallita e taƴannde toɓɓaande adannde
+target-segment-first-banner = Wallu taƴannde toɓɓaande addannde Common Voice e { $locale }
 target-segment-learn-more = Ɓeydu humpito
 
 ## Reporting
