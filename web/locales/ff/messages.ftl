@@ -716,6 +716,7 @@ login-to-get-started = Seŋo walla winndito ngam fuɗɗaade
 target-segment-first-card = Aɗana wallita e taƴannde toɓɓaande amen adannde
 target-segment-generic-card = Aɗana wallita e taƴannde toɓɓaande adannde
 target-segment-first-banner = Wallu taƴannde toɓɓaande addannde Common Voice e { $locale }
+target-segment-add-voice = Ɓeydu Sawto Maa
 target-segment-learn-more = Ɓeydu humpito
 
 ## Reporting
@@ -724,8 +725,15 @@ report = Jaŋtol
 report-title = Naatnu Jaŋtol
 report-ask = Hol caɗeele ndañɗaa e ngol koŋngol?
 report-offensive-language = Ɗemngal nefningal
+report-offensive-language-detail = Konngol ngol ena waɗi haala coofka walla nehtorka.
+report-grammar-or-spelling = Juumre celluka / mbinndiin
+report-grammar-or-spelling-detail = Konngol ngol ena waɗi juumre celluka walla mbinndiin.
 report-different-language = Ɗemngal goɗngal
 report-different-language-detail = Winndaa ko e ɗemngal ngal jiidaa e ngal kaalat-mi ngal
+report-difficult-pronounce = Ena saɗi wowlude
+report-difficult-pronounce-detail = Ena waɗi kelme walla kaalanɗe mettuɗe tarde walla wowlude.
+report-offensive-speech = Haala mbonka
+report-offensive-speech-detail = Lefel ngell ena waɗi haala nehtorka walla mbonka.
 report-other-comment =
     .placeholder = Yowre
 success = Moƴƴii
