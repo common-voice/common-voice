@@ -747,14 +747,37 @@ days =
         [one] ñalawma
        *[other] ñalɗi
     }
+recordings =
+    { $count ->
+        [one] Nanngitol
+       *[other] Nanngitte
+    }
+validations =
+    { $count ->
+        [one] Jaalɗinol
+       *[other] Jaalɗine
+    }
 
 ## Dashboard
 
 your-languages = Ɗemngal maa
+toward-next-goal = Faade e faanaare aroore
+goal-reached = Faandaare timmii
+clips-you-recorded = Lefon Nanngiti-ɗaa
+clips-you-validated = Lefon Njaalɗin-ɗaa
+todays-recorded-progress = Taaɓagol Common Voice hannde e lefon nanngitakon
+todays-validated-progress = Taaɓagol Common Voice hannde e lefon njaalɗinakon
+stats = Limte
 awards = Njeenaari
 you = Aan
 everyone = Mo woni kala
+contribution-activity = Dille Ballitgol
 top-contributors = Gollooɓe Rowrowɓe
+recorded-clips = Lefon Nanngitakon
+validated-clips = Lefon njaalɗinakon
+total-approved = Jaɓaaɗi e Kuuɓal
+overall-accuracy = Ceeɓndam Kuuɓal
+set-visibility = Taƴto jiyagol am
 
 ## Custom Goals
 
