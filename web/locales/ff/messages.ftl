@@ -442,6 +442,10 @@ faq-is-account-public-q = Humpito konte am woni ko e peñcu?
 faq-how-privacy-q = Oɗon ngaadii suuraare inɗe e sutoro yimɓe hokkuɓe sawto mum'en ɓee?
 faq-how-privacy-a = Lefon sawto ngonkon e leemre keɓe kon fof ko momtaaɗe kala humpito waawngo heftine neɗɗo. So ballitoowo hokkii keɓe leƴrenndiide e heftinirde mum, ngoon humpito ɗawtinte e lefon sawto joom mum hade makkon tiggeede ngam aawtagol e leemre keɓe ndee kadi waɗetaake e peñcu hay sahaa e hello heftnirde makko.
 faq-what-determine-identity-q = Hol ko firti wonde mi waawaa “anndude holi haalooɓe” e leemre keɓe Common Voice ndee?
+faq-what-determine-identity-a =
+    Leemre keɓe Common Voice ndee ko jeyaande udditiinde heɓotoonde e peñcu waawnde huutoreede ngam eeltude jaaɓɗe ɓeydaaɗe haala ɗe fannuuji jaajɗe limtoɗinɗe. Ngam reende kisal wallitooɓe amen, min naamnoto mo woni kala gaawtotooɗo Leemre keɓe Common Voice ndee yoo hormo suturo wallitooɓe ɓee.
+    
+    Lefon sawto ngonkon e leemre keɓe kon fof ko momtaaɗe kala humpito waawngo heftine neɗɗo. So aɗa aawtoo Leemre keɓe ndee, a jaɓat waasde etaade anndude neɗɗo ballitoowo oo. Ɗuum firti ko a waawaa etaade jokkondirde humpito Leemre keɓe ndee e humpito heeraniingo ballitoowo oo. Aɗa waawi noon, huutoraade Leemre keɓe ndee ngam eeltude keftinirgol haala, keftingol kaaloowo, walla jaaɓnirɗe goɗɗe, so, yeru jokkondirde humpito wonngo e Leemre keɓe ndee e humpito woɗngo tawaango e Leemre keɓe ndee.
 faq-what-is-cv = Ko woni Common Voice?
 faq-using-cv = Kuutorogol Common Voice?
 faq-description = Common Voice ko huunde e eɓɓooje Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
