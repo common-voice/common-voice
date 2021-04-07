@@ -464,7 +464,7 @@ about-get-involved-text-2 =
     Common Voice نى تېخىمۇ ياخشىلاشقا ياردەمدە بولۇشنى خالامسىز؟
     ناھايىتى ياخشى، ئۇنداقتا ئېلخەت ياكى  <discourseLink>مۇنازىرە</discourseLink> 
     مۇنبىرى ئارقىلىق ئالاقىلىشىڭ، تور بەتتىكى مەسىلىلەرنى <githubLink>GitHub</githubLink> ياكى
-     <matrixLink>Matrix</matrixLink> دىكى پاراڭغا قوشۇلۇڭ.
+     <matrixLink>Matrix</matrixLink> گە يوللاڭ.
 about-nav-why-common-voice = نېمىشقا؟
 about-nav-how-it-works = قانداق؟
 about-nav-partners = ھەمكارلاشقۇچىلار
@@ -527,7 +527,7 @@ review-delete-recordings = ئۈن خاتىرەمنى ئۆچۈر
 
 ## Datasets Page
 
-datasets-headline = بىز ئوچۇق كودلۇق بولغان، ھەر قانداق ئادەم ئاۋازلىق پروگراممىغا قارىتا مەشىق ئىلىپ بېرىش ئىمكانىيەتكە ئىگە قىلىدىغان كۆپ تىللىق ئاۋاز ئامبىرىنى قۇرۇپ چىقىۋاتىمىز.
+datasets-headline = بىز ئوچۇق كودلۇق بولغان، ھەر قانداق ئادەمنى ئاۋازلىق پروگراممىغا قارىتا مەشىق ئىلىپ بېرىش ئىمكانىيەتكە ئىگە قىلىدىغان كۆپ تىللىق ئاۋاز ئامبىرىنى قۇرۇپ چىقىۋاتىمىز.
 language = تىل
 # File size in gigabytes
 size = چوڭلۇقى
