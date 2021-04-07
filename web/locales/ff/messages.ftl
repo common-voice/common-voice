@@ -411,6 +411,7 @@ faq-how-get-a = Leemre keɓe Common Voice ndee ena heɓoo e gaawtol fawaade e ja
 faq-when-release2-q = Mande bayyinton keɓe Common Voice e ɗemɗe goɗɗe?
 faq-when-release2-a = Yamre limtiɗemɗiire leemre keɓe Common Voice woni oo sahaa ko e mahngo e suɓto. So aɗa yiɗi wallude min naatnude Common Voice e ɗemɗe kese, yah ƴeewoy kuutorgal <sentenceCollectorLink>Roɓindorde Konnguɗi</sentenceCollectorLink> ngam ɓeydude konnguɗi kesi e leemre keɓe ndee, e <pontoonLink>Pontoon</pontoonLink> mo Mozilla ngam firde lowre ndee e jaati. Ɗemɗe kese ɓeydete e Common Voice ngam wallitde so konnguɗi 5000 jaɓaaɗi keɓaama.
 faq-why-mission-q = Hol ko saabii Common Voice jeyeede e eɓɓoore Mozilla?
+faq-why-mission-a = Mozilla ena daranii ñiiɓnude geese ɗee e udditaanade mo woni kala. Ngam waɗde ɗuum, amin cokli doolnude sosiyaŋkooɓe geese rewde e eɓɓooje hono Common Voice. Sahaa mo karalle sawto ɓeydii heewde haa njalti jaaɓnirɗe dowrowe, amin ngongɗini eɗe poti nafde huutorɓe kala e mbaadi potal. Ɗuum firti ko waɗde doole e ɗemɗe kese kam e jaɓɓaade ngaddiinaaji kesi e leƴrenndooje tuma mahgol e ƴeewtagol karalle sawto. Common Voice ko jayaande peñcu heɓotoonde mo woni kala etee goomuuji e topayɓe Mozilla wonɓe e jookli winndere ndee nana kuutoroo nde kam'en ne e eɓɓooje amen keeriiɗe.
 faq-what-cv-and-deepspeech-q = Hol ko seerndi Common Voice e Deep Speech?
 faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
 faq-why-different-speakers-q = Ko saabii aɗa sokli haalooɓe heewɓe woɗɓe e kala ɗemngal?
