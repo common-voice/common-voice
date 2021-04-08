@@ -871,11 +871,17 @@ profile-form-delete = Momtu Heftinirde
 
 ## Landing
 
+welcome-staff = On njaɓɓaama gollanooɓe { $company }!
+help-contribute = Aɗa waawi mahde leemre keɓe limtoɗinnde, udditiinde so sosde heftinirde Common Voice kisa mbaliitira sawto maa.
 login-company = Seŋo/ winndito e { $company } iimeel
 profile-not-required = Jogogol heftinirde wonaa ko waɗɗii ngam wallitde hay so haɗum nafa, yiy ko saabii ɗum les ɗoo.
+read-more-about = Jokku taro to hello amen Ɓaɗte
 
 ## DemoLayout
 
+demo-get-started = Puɗɗo-ɗen Ɗoo
+demo-welcome = A jaɓɓaama e Common Voice
+demo-welcome-subheader = Aɗa hatojini e ɓeydude anndude ɗ wallitde eɓɓoore ndee?
 
 ## Demo Datasets
 
