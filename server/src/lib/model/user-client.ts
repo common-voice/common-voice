@@ -418,11 +418,23 @@ const UserClient = {
     return false;
   },
 
+  /**
+   * Update avatar for user and return original value
+   */
+
   async updateAvatarURL(email: string, url: string) {
+    const [
+      [origAvatar],
+    ] = await db.query('SELECT avatar_url FROM user_clients WHERE email = ?', [
+      email,
+    ]);
+
     await db.query('UPDATE user_clients SET avatar_url = ? WHERE email = ?', [
       url,
       email,
     ]);
+
+    return origAvatar.avatar_url;
   },
 
   async updateAvatarClipURL(email: string, url: string) {

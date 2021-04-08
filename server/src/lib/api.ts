@@ -282,16 +282,26 @@ export default class API {
         break;
 
       case 'file':
-        let fileName = `${client_id}/avatar.jpeg`;
+        // Because avatar files are uploaded as public, this is a nominally
+        // unpredictable prefix to prevent easy guessing of avatar location
+        const prefix = (new Date().getUTCMilliseconds() * Math.random())
+          .toString(36)
+          .slice(-5);
+
+        let fileName = `${client_id}/${prefix}-avatar.jpeg`;
         await this.s3
           .upload({
             Key: fileName,
             Bucket: getConfig().CLIP_BUCKET_NAME,
             Body: body,
+            ACL: 'public-read',
           })
           .promise();
 
-        avatarURL = this.bucket.getPublicUrl(fileName);
+        avatarURL = this.bucket.getUnsignedUrl(
+          getConfig().CLIP_BUCKET_NAME,
+          fileName
+        );
         break;
 
       default:
@@ -300,7 +310,11 @@ export default class API {
     }
 
     if (!error) {
-      await UserClient.updateAvatarURL(user.emails[0].value, avatarURL);
+      const oldAvatar = await UserClient.updateAvatarURL(
+        user.emails[0].value,
+        avatarURL
+      );
+      if (oldAvatar) await this.bucket.deleteAvatar(client_id, oldAvatar);
     }
 
     response.json(error ? { error } : {});
