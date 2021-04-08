@@ -76,7 +76,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'CV_DATASET_BUCKET_NAME',
     'common-voice-datasets'
   ),
-  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', ''),
+  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', 'us-west-2'),
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),

@@ -2,6 +2,7 @@ import { S3 } from 'aws-sdk';
 import { getConfig } from '../config-helper';
 import Model from './model';
 import { Sentence, Clip } from 'common';
+
 /**
  * Bucket
  *   The bucket class is responsible for loading clip
@@ -29,6 +30,36 @@ export default class Bucket {
       Key: key,
       Expires: 60 * 60 * 12,
     });
+  }
+
+  /**
+   * Construct the public URL for a resource that needs no token
+   */
+  public getUnsignedUrl(bucket: string, key: string) {
+    return getConfig().ENVIRONMENT === 'local'
+      ? `${getConfig().S3_CONFIG.endpoint}/${
+          getConfig().CLIP_BUCKET_NAME
+        }/${key}`
+      : `https://${bucket}.s3.dualstack.${
+          getConfig().BUCKET_LOCATION
+        }.amazonaws.com/${key}`;
+  }
+
+  /**
+   * Delete function for S3 used for removing old avatars
+   */
+  public async deleteAvatar(client_id: string, url: string) {
+    let urlParts = url.split('/');
+    if (urlParts.length) {
+      const fileName = urlParts[urlParts.length - 1];
+
+      await this.s3
+        .deleteObject({
+          Bucket: getConfig().CLIP_BUCKET_NAME,
+          Key: `${client_id}/${fileName}`,
+        })
+        .promise();
+    }
   }
 
   /**

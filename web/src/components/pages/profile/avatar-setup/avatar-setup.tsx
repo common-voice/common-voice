@@ -160,9 +160,11 @@ class AvatarSetup extends React.Component<Props, State> {
     const { error } = await api.saveAvatar('file', image);
     if (['too_large'].includes(error)) {
       addNotification(getString('file' + error));
+    } else {
+      addNotification(getString('avatar-uploaded'));
     }
-    trackProfile('give-avatar', locale);
 
+    trackProfile('give-avatar', locale);
     refreshUser();
     this.setState({ isSaving: false });
   }
