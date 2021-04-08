@@ -367,6 +367,7 @@ browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
 connect-gravatar = Kết nối với Gravatar
 gravatar_not_found = Không tìm thấy gravatar cho email của bạn
 file_too_large = Tập tin đã chọn quá lớn
+avatar-uploaded = Đã tải lên hình đại diện
 manage-subscriptions = Quản lý các mục đăng kí
 manage-email-subscriptions = Quản lý đăng ký bản tin email
 email-already-used = Email đã được sử dụng cho tài khoản khác
