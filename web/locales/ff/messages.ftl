@@ -742,6 +742,7 @@ report-success = Jaŋtol neldiraama no haanirta!
 
 ## Goals
 
+streaks = Sahngaaji ittuɗi
 days =
     { $count ->
         [one] ñalawma
@@ -885,6 +886,7 @@ demo-welcome-subheader = Aɗa hatojini e ɓeydude anndude ɗ wallitde eɓɓoore 
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ko leemre keɓe limtiɗemɗiire heɓootoonde e peñcu ɓurnde mawnude e winndere ndee .
 
 ## Demo Account
 
