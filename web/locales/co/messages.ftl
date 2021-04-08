@@ -425,6 +425,7 @@ contact-form-name =
     .label = Nome
 contact-form-message =
     .label = Missaghju
+contact-required = *richiestu
 
 ## Request Language Modal
 
@@ -434,9 +435,12 @@ request-language-form-language =
 
 ## Languages Overview
 
+languages-show-less = Vede menu
+language-meter-in-progress = In corsu
 language-total-progress = Tutale
 language-search-input =
     .placeholder = Ricercà
+total-hours = Ore cunvalidate
 
 ## Contribution
 
