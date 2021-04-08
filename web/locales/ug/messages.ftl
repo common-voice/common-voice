@@ -495,6 +495,7 @@ de-identified-explanation = تۆھپىكارلارنىڭ ئارخىپ ئۇچۇر
 ## Error pages
 
 error-title-404 = ئىزدىگەن بېتىڭىز تېپىلمىدى
+error-content-404 = بەلكىم بىزنىڭ  <homepageLink>تور بېتىمىز</homepageLink> نىڭ ياردىمى بولۇشى مۇمكىن؟  <matrixLink>Matrix</matrixLink> قا كىرىپ سوئال سوراڭ، <githubLink>GitHub</githubLink> دىن تور بەتتىكى مەسىلىلەرنى كۆرۈڭ ياكى  <discourseLink>مۇنازىرە مۇنبىرى</discourseLink> نى زىيارەت قىلىڭ.
 error-title-503 = كۈتۈلمىگەن مەسىلە كۆرۈلدى
 error-code = خاتالىق { $code }
 
@@ -540,9 +541,11 @@ cv-license = ئىجازەتنامە
 audio-format = ئۈن پىچىمى
 number-of-voices = ئاۋاز سانى
 email-to-download = چۈشۈرۈش ئۈچۈن ئېلخەت ئادرېسىڭىزنى كىرگۈزۈڭ
+why-email = <b>نېمە ئۈچۈن ئېلخەت؟</b> بىز كەلگۈسىدە سانلىق مەلۇمات ئۆزگىرىشى توغرىسىدا سىز بىلەن ئېلخەت ئارقىلىق ئالاقە قىلىشىمىز مۇمكىن.
 confirm-size = <b>{ $size }</b> نى چۈشۈرۈشنى باشلاشقا بولىدۇ
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = Common Voice تىكى سۆزلىگۈچىنىڭ كىملىكىنى ئېنىقلاش ئۈچۈن ئۇرۇنماسلىققا <b>قوشۇلىسىز</b>
 download-language = { $language }نى چۈشۈر
 validated-hours = دەلىللەنگەن سائەت
 recorded-hours = ئۈنگە ئىلىنغان سائەت
