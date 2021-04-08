@@ -208,7 +208,7 @@ wall-of-text-second =
     ɗum ina ñoƴƴa pental. Ɗuum noon min ummini Common Voice, eɓɓoore walloore uddit-de heftinirde daande
     mo kala neɗɗo waawi heɓde.
 show-wall-of-text = Jokku taro
-help-us-title = Wallu min moƴƴinde koŋnguɗi!
+help-us-title = Wallu min moƴƴinde konnguɗi!
 help-us-explain = Ɓoɗɗu tarde, heɗaade e haalan-min: Ɗe kaalii koŋngol les ɗoo haa feewi?
 no-clips-to-validate = Ena wayi no alaa lefon keɗeteeɗe e ngal ɗemngal. Wallu min hebbinde doggol ngol so nanngitaade heen seeɗa.
 vote-yes = Eey
@@ -603,7 +603,7 @@ your-feedback = Aɗa jogii miijooji no min ɓamtirta Leemre keɓe Common Voice n
 go-discourse = Yah to Discourse
 missing-language = A yiytaaki ɗemngal maa e Leemre keɓe ndee? Ngam ɗaɓɓitde ɗemngal, yaaɓ to hello ɗemɗe amen toh.
 go-languages-page = Yah to Hello Ɗemɗe
-ready-to-validate = Aɗa hebii wallude moƴƴinde koŋnguɗi?
+ready-to-validate = Aɗa hebii wallude moƴƴinde konnguɗi?
 more = Goɗɗum
 close = Uddu
 download = Aawto
@@ -906,6 +906,10 @@ demo-account-sign-up = Neldu jokkorde winndito
 ## Demo Contribute
 
 demo-contribute-card-header = A hebiima ɓeydude sawto maa walla luɓde nofru?
+demo-contribute-card-body-v2 = Tawde haŋkadi e ɓeydiima andude baɗte  Common Voice, a etotaako jooni?  Dobo e maandel mikkoroo ngel ngam fuɗɗaade tarde konnguɗi daande dow.<br/><br/>So ɓur-ɗaa hatojinde ko reftaade ballitte yimɓe woɗɓe, dobo e maandel tato ngel. Maa wallu teeŋtinde wonde nanngite ɗee ena njahdi e konnguɗi jaltuɗi e yahnirde.
+demo-listen-subtitle = Aɗa hebii wallitde?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Tiimtorde heeriinde ena hollu maa ko ɓuri hesɗude e taabagol neɗɗo walla renndo fof.
+demo-dashboard-card-body = Kala lefel sawto dokkangel, e kala lefel ojoo jaalɗinangel, tiimtorde konte maa hesɗitinte ngam hollude taaɓagol maa cakkitiingol e ɗemɗe kala ngal mballittaa. Eey, aɗa waawi wallitde e ko ɓuri ɗemngal gootal!<br/><br/> Huutoro tiimtorde ngam rewindaade limte maa, njiyaa no golle maa mbaadi e woɗɓe e renndo ngoo, kisa taƴaa paandaale ballitte ñalngu walla yontere.
