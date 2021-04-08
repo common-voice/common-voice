@@ -611,7 +611,7 @@ export default class DB {
             WHERE client_id = ?
             ORDER BY updated_at DESC
             LIMIT 1
-          )
+          ) ON DUPLICATE KEY UPDATE clip_id = clip_id
         `,
         [insertId, client_id]
       );
