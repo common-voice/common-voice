@@ -375,6 +375,7 @@ browse-file = Dra og slipp eller <browseWrap>Browse</browseWrap>
 connect-gravatar = Link til Gravatar
 gravatar_not_found = Ingen gravatar funnet for din e-postadresse
 file_too_large = Den valgte filen er for stor
+avatar-uploaded = Avatar lastet opp
 manage-subscriptions = Endre Abonnement
 manage-email-subscriptions = Rediger e-post innstillinger
 email-already-used = E-postadressen er allerede tilknyttet en annen konto
