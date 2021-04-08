@@ -784,6 +784,9 @@ which-goal-type = سۆزلەمسىز ياكى ئاڭلامسىز ۋە ياكى �
 receiving-emails-info =
     سىز ھازىر نىشان ئەسكەرتىشلىرى ، ئىلگىرىلەش ئۇچۇرلىرى ۋە Common Voice
      توغرىسىدىكى خەۋەرلەرنى ئېلېكترونلۇق خەت ئارقىلىق تاپشۇرۇۋېلىش ھالىتىدە
+not-receiving-emails-info =
+    سىز ھازىر نىشان ئەسكەرتىشلىرى ، ئىلگىرىلەش ئۇچۇرلىرى ۋە Common Voice توغرىسىدىكى خەۋەرلەرنى
+     ئېلېكترونلۇق خەت ئارقىلىق تاپشۇرۇۋېلىش ھالىتىدە <bold>ئەمەس</bold>
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] ئاۋاز
@@ -799,6 +802,8 @@ share-n-weekly-contribution-goal = { $type } غا قارىتا ھەپتىلىك 
 share-goal-type-speak = سۆزلەش
 share-goal-type-listen = ئاڭلاش
 share-goal-type-both = سۆزلەش ۋە ئاڭلاش
+# LINK will be replaced with the current URL
+goal-share-text = مەن ھازىرنىڭ ئۆزىدە #CommonVoice غا ئاۋاز تەقدىم ئېتىش ئۈچۈن شەخسىي نىشان تىكلىدىم - مەن بىلەن بىرلىكتە ماشىنىلارغا ھەققى كىشىلەرنىڭ قانداق سۆزلەيدىغانلىقىنى ئۆگىتىڭ{ $link }
 weekly-goal-created = ھەپتىلىك نىشانىڭىز بېكىتىلدى.
 daily-goal-created = كۈندىلىك نىشانىڭىز بېكىتىلدى.
 track-progress = ستاتىستىكا بېتىڭىز ياكى بۇ يەردىن ئىلگىرىلەشلەرنى ئىز قوغلاڭ.
@@ -807,6 +812,7 @@ share-goal = نىشانىمنى ئورتاقلىشىڭ
 
 ## Profile Delete
 
+delete-q = ئۈن خاتىرىڭىزنىڭمۇ ئۆچۈرۋىتىلىشىنى تەلەپ قىلامسىز، ياكى ئاۋازلارنى Common Voice سانلىق مەلۇمات ئامبىرىدا ساقلاپ قىلىشنى خالامسىز؟
 keep = ساقلا
 remove = چىقىرىۋەت
 profile-form-delete = ئارخىپنى ئۆچۈرۈڭ
