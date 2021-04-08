@@ -731,6 +731,7 @@ validated-clips = دەلىللەنگەن ئاۋازلار
 total-approved = ئومۇمىي تەستىقلاندى
 overall-accuracy = ئومۇمىي ئېنىقلىق
 set-visibility = كۆرۈنۈشچانلىقىمنى تەڭشە
+visibility-overlay-note = ئەسكەرتىش: «كۆرۈنۈشچان» قىلىپ تەڭشەلگەندە ، بۇ تەڭشەكنى <profileLink> ئارخىپ بېتى </profileLink> دىن ئۆزگەرتكىلى بولىدۇ.
 show-ranking = رەت تەرتىپىمنى كۆرسەت
 
 ## Custom Goals
@@ -780,6 +781,9 @@ activity-needed-calculation-plural =
 how-many-per-day = ناھايىتى ياخشى! كۈندە قانچە ئاۋاز بۆلىكى؟
 how-many-a-week = ناھايىتى ياخشى! ھەپتىدە قانچە ئاۋاز بۆلىكى؟
 which-goal-type = سۆزلەمسىز ياكى ئاڭلامسىز ۋە ياكى ھەر ئىككىلىسىمۇ؟
+receiving-emails-info =
+    سىز ھازىر نىشان ئەسكەرتىشلىرى ، ئىلگىرىلەش ئۇچۇرلىرى ۋە Common Voice
+     توغرىسىدىكى خەۋەرلەرنى ئېلېكترونلۇق خەت ئارقىلىق تاپشۇرۇۋېلىش ھالىتىدە
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] ئاۋاز
