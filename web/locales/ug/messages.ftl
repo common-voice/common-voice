@@ -410,6 +410,7 @@ faq-when-release2-q = Common Voice سانلىق مەلۇماتلىرىنى با�
 faq-why-mission-q = Common Voice نېمە ئۈچۈن Mozilla نىڭ ۋەزىپىلىرىنىڭ بىر قىسمى؟
 faq-what-cv-and-deepspeech-q = Common Voice بىلەن Deep Speech نىڭ قانداق پەرقى بار؟
 faq-is-goal-assistant-q = Common Voice نىڭ نىشانى ئاۋاز ياردەمچىسىنى قۇرۇشمۇ؟
+faq-is-goal-assistant-a = Common Voice سانلىق مەلۇمات ئامبىرىنىڭ مەقسىتى دۇنيادىكى ھەر قانداق كىشىنىڭ ئاۋاز پەرقلەندۈرۈش ، سۆزلىگۈچىنى تونۇش ياكى ئاۋازلىق سانلىق مەلۇمات تەلەپ قىلىدىغان باشقا قوللىنىشچان پروگراممىلارنى بەرپا قىلىش. ئاۋازلىق ياردەمچى بولسا سانلىق مەلۇمات توپىنى ئىشلىتىپ قۇرۇشقا بولىدىغان باشقا نۇرغۇن پروگراممىلارنىڭ ئىچىدىكى بىرى.
 faq-do-want-native-q = بۇ مىنىڭ ئانا تېلىم ئەمەس شۇنداقلا سۆزلىگەندە ئۆزگىچە ئاھاڭ بار، شۇنداقتىمۇ مىنىڭ ئاۋازىمنى ئىشلىتشنى خالامسلەر؟
 faq-why-different-speakers-q = نېمە ئۈچۈن بىر تىل ئۈچۈن نۇرغۇن ئوخشىمىغان سۆزلىگۈچىلەرنى لازىم قىلسلەر؟
 faq-why-my-lang-q = مېنىڭ تىلىم نېمىشقا تېخى كىرگۈزۈلمەيدۇ؟
@@ -498,6 +499,7 @@ de-identified-explanation = تۆھپىكارلارنىڭ ئارخىپ ئۇچۇر
 error-title-404 = ئىزدىگەن بېتىڭىز تېپىلمىدى
 error-content-404 = بەلكىم بىزنىڭ  <homepageLink>تور بېتىمىز</homepageLink> نىڭ ياردىمى بولۇشى مۇمكىن؟  <matrixLink>Matrix</matrixLink> قا كىرىپ سوئال سوراڭ، <githubLink>GitHub</githubLink> دىن تور بەتتىكى مەسىلىلەرنى كۆرۈڭ ياكى  <discourseLink>مۇنازىرە مۇنبىرى</discourseLink> نى زىيارەت قىلىڭ.
 error-title-503 = كۈتۈلمىگەن مەسىلە كۆرۈلدى
+error-content-503 = بۇ تور بېكەت ئامالنىڭ بارىچە تېزلىكتە زاپاسلىنىدۇ. ئەڭ يېڭى ئۇچۇرغا ئېرىشمەكچى بولسىڭىز، <matrixLink>Matrix</matrixLink> گە قاتنىشىڭ ياكى <githubLink>GitHub</githubLink> زىيارەت قىلىڭ ۋە ياكى <discourseLink> مۇنازىرە مۇنبىرىمىز </discourseLink> گە ئۇچۇرغان مەسىلىلەرنى يوللاڭ.
 error-code = خاتالىق { $code }
 
 ## Data
