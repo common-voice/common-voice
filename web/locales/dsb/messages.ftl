@@ -379,6 +379,7 @@ browse-file = Śěgniśo a pušććo abo <browseWrap>pśeglědujśo</browseWrap>
 connect-gravatar = Z gravatarom zwězaś
 gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
 file_too_large = Wubrana dataja jo pśewjelika
+avatar-uploaded = Awatar jo se nagrał
 manage-subscriptions = Abonementy zastojaś
 manage-email-subscriptions = E-mailowe abonementy zastojaś
 email-already-used = E-mailowa adresa se južo za druge konto wužywa
