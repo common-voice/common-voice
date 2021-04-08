@@ -606,6 +606,7 @@ other-language = باشقا تىل
 
 language-section-in-progress = ئىلگىرىلەۋاتىدۇ
 language-section-launched = قوزغىتىلدى
+language-section-launched-description = قوزغىتىلغان تىللاردىكى تور بىتى مۇۋەپپەقىيەتلىك ھالدا <localizationGlossaryLink> يەرلىكلەشتۈرۈلگەن </localizationGlossaryLink>، شۇنداقلا يېتەرلىك  <sentenceCollectionGlossaryLink>توپلانغان جۈملىلىرى</sentenceCollectionGlossaryLink> بولسا <speakLink>سۆزلەپ</speakLink> ۋە <listenLink>ئاڭلاپ</listenLink> تۆھپە قوشۇش باسقۇچىغا ماڭالايدۇ.
 languages-show-more = تەپسىلاتى
 languages-show-less = ئاز كۆرسەت
 language-meter-in-progress = ئىلگىرىلەش
