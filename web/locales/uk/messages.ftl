@@ -385,6 +385,7 @@ browse-file = Перетягніть або <browseWrap>Огляд</browseWrap>
 connect-gravatar = З'єднатися з Gravatar
 gravatar_not_found = Для вашої електронної пошти не знайдено gravatar
 file_too_large = Обраний файл надто великий
+avatar-uploaded = Аватар вивантажено
 manage-subscriptions = Керувати підписками
 manage-email-subscriptions = Керувати підписками електронної пошти
 email-already-used = Електронна пошта уже використовується для іншого облікового запису
