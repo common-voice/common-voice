@@ -2,8 +2,6 @@
 
 This is the web app for [Mozilla Common Voice](https://commonvoice.mozilla.org), a platform for collecting speech donations in order to create public domain datasets for training voice recognition-related tools.
 
-**Please note**: Common Voice has been impacted by [Mozilla's 2020 restructuring efforts](https://discourse.mozilla.org/t/mozilla-org-wide-updates-impacts-on-common-voice/65612), and is currently in maintenance mode. This means that we are committed to ongoing bugfixes, localization and language updates, community support, and data releases, but will not be working on major features.
-
 ## Quick links
 
 1. [Code of conduct](./docs/CODE_OF_CONDUCT.md)
