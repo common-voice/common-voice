@@ -412,6 +412,7 @@ faq-why-important-a =
 faq-how-get-q = Common Voice سانلىق مەلۇماتلىرىغا قانداق ئېرىشەلەيمەن؟
 faq-how-get-a = Common Voice نى <datasetLink>سانلىق مەلۇمات بېتىمىز</datasetLink> تىكى <licenseLink>CC0</licenseLink> ئىجازەتنامىسىنىڭ دائىرىسىدە چۈشۈرۈشكە بولىدۇ. ئوخشاش ئورۇندىن باشقا ئىچىۋېتىلگەن سانلىق مەلۇماتلارنىمۇ چۈشۈرەلەيسىز.
 faq-when-release2-q = Common Voice سانلىق مەلۇماتلىرىنى باشقا تىللاردا قاچان ئېلان قىلىسىز؟
+faq-when-release2-a = Common Voice نىڭ كۆپ تىللىق نۇسخىسى ئىجتىمائىي رايوننىڭ قوللىشىدا باغلاش ۋە تازىلاش ئىلىپ بېرىلىۋاتىدۇ. ئەگەر سىز Common Voice نى يېڭى بىر تىلغا ئىلىپ كىرىشكە ياردەمدە بولماقچى بولسىڭىز، سانلىق مەلۇماتقا جۈملىلەرنى قوشۇش ئۈچۈن <sentenceCollectorLink>جۈملە يىغىش قورالى</sentenceCollectorLink> نى كۆرۈپ چىقىڭ، تور بەتنىڭ ئۆزىنى تەرجىمە قىلىش ئۈچۈن Mozilla <pontoonLink>Pontoon</pontoonLink> نى كۆرۈڭ، ئاۋاز قوشۇش ئۈچۈن 5000 تەستىقلانغان جۈملە توپلانغاندىن كىيىن Common Voice قا يېڭى تىل قوشۇلىدۇ.
 faq-why-mission-q = Common Voice نېمە ئۈچۈن Mozilla نىڭ ۋەزىپىلىرىنىڭ بىر قىسمى؟
 faq-what-cv-and-deepspeech-q = Common Voice بىلەن Deep Speech نىڭ قانداق پەرقى بار؟
 faq-is-goal-assistant-q = Common Voice نىڭ نىشانى ئاۋاز ياردەمچىسىنى قۇرۇشمۇ؟
