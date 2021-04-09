@@ -150,6 +150,7 @@ Allt vad den behöver rymma innefattas i de orden.
 Allt vad du kan.
 Allt var frid och fröjd.
 Allt var kaos på genrepet.
+Allt var tystnad och frid.
 Allt är borta.
 Allt är inte svart eller vitt.
 Allt är kött, sprit och pengar.
@@ -242,6 +243,7 @@ Använd hudkräm och drick vatten.
 Använd hushållssoporna!
 Använder du alltid så mycket salt?
 Använder du fortfarande marijuana?
+Apropå, skulle jag möjligen kunna få låna din båt ett slag.
 Arbetare blev skadade.
 Arbetare gick och lagade kanalbankarna och tjärbeströk de stora slussportarna.
 Arbetet innehåller ett rikt material till belysning av medicinens historia i forntiden.
@@ -256,6 +258,7 @@ Asch, det skall du inte fästa dig vid.
 Asken med klockan och fjädern tog han med sig.
 Aslak hade varit i skola och kunde tala svenska.
 Att använda mitt bolag till att bygga bomber?
+Att använda traktorer vore det verkligt rationella sättet på Sandön.
 Att applicera krämen utvändigt hjälpte föga till att motverka sjukdomen.
 Att bevisningen helt eller delvis är gemensam kan då vara tillräckligt.
 Att de tänt ljus för dig inför den heliga jungfrun.
@@ -865,6 +868,7 @@ De språkade om allt möjligt som gamla vänner.
 De stackarna ska jag väl komma till rätta med.
 De stackars äkta männen!
 De stannade utanför baracken.
+De stannade.
 De stirrade ett ögonblick på varandra, överraskade och nästan fientliga.
 De stirrade på varandra.
 De stod blick stilla, vågade knappt andas.
@@ -1175,6 +1179,7 @@ Den som väntar på något gott, tjejer.
 Den sortens metoder lockar helt fel människor att delta i aktiviteter i vårt förbund.
 Den speciella instansordningen och rättens sammansättning utgör principiella avsteg från vad som annars gäller.
 Den sprickan var många famnar djup och närapå en famn bred.
+Den stack fram under filtarna.
 Den steg mycket långsamt och liksom ovillig att skada sina vackra stränder.
 Den stiger och sjunker, stiger och sjunker, men alltjämt klingar och kvittrar den.
 Den stod där på hyllan och skrek mitt namn.
@@ -1374,6 +1379,7 @@ Det blev mörkt så fort, hela livet krympte med dagarna.
 Det blev natt.
 Det blev oro och uppståndelse bland fåglarna.
 Det blev samtal.
+Det blev sent.
 Det blev stopp i trafiken, en väldig människomassa samlades, ambulansen kom.
 Det blev svårt för dem att komma fram bland alla dessa män och prostituerade.
 Det blev så svårt att ta honom på allvar.
@@ -1456,6 +1462,7 @@ Det där sista uppfattade jag inte riktigt?
 Det där skall komma fram i en predikan.
 Det där tåget skulle passera förbi dem, endast några mil från deras hus.
 Det där var ett vackert armband.
+Det där var inte ett riktigt gryt.
 Det där vet jag inte.
 Det där är bara paranoia.
 Det där är bestämt ett sådant där örnnäste.
@@ -1524,7 +1531,9 @@ Det finns inget, inget för dig.
 Det finns inte många kvar, om ens någon.
 Det finns ju gravlax?
 Det finns kanske bevis där inne.
+Det finns något andligt som har kraft och föder kraft.
 Det finns något som heter bildning, och den befordras inte genom slagsmål.
+Det finns något som heter förnäm kultur, kunskap, bildning.
 Det finns planer på ett kallbadhus.
 Det finns saker som jag vet som inte du vet.
 Det finns skillnader mellan Uddevalla och andra städer enligt flera undersökningar.
@@ -1941,6 +1950,7 @@ Det ser bra ut.
 Det ser fint ut.
 Det ser inte bra ut, va?
 Det ser inte bra ut.
+Det ser man på de många friska åldringarna.
 Det ser ut som baracker.
 Det ser ut som någon annans hud.
 Det ser ut som om den formligen skulle suga till sig seglare.
@@ -2264,6 +2274,7 @@ Det var nog bäst att fröken talade med advokaten själv.
 Det var nog en lika stor händelse för dem som för mig.
 Det var nog en missbedömning från min sida.
 Det var nog inte värt att fråga Alice vad hon gjorde här.
+Det var nämligen under kristiden.
 Det var när de fick bonuslådan.
 Det var när jag kom från sjunde avdelningen.
 Det var nära att han brunnit inne.
@@ -2313,6 +2324,7 @@ Det verkar så.
 Det vet du väl?
 Det vet jag inget om.
 Det vet jag inte om jag kan lova, sade den samvetsgranna miss Brown.
+Det vet jag inte, svarade gumman.
 Det vet jag inte.
 Det vet jag som har nio barn.
 Det vet jag, men tar den på mask?
@@ -2472,6 +2484,7 @@ Det är ett ovanligt tillfälle.
 Det är ett problem med förra månadens handkassa.
 Det är ett reservsystem från när de fungerade som batterier.
 Det är ett riktigt nöje att titta på dem.
+Det är ett slags fisk.
 Det är ett sånt fyllebeslut.
 Det är ett test.
 Det är ett tjusigt jobb.
@@ -2583,6 +2596,7 @@ Det är ju inte så besynnerligt, eftersom jag aldrig förr skrivit något.
 Det är ju min gamla karta från världskriget.
 Det är ju nedan och mulet, så det passar bra.
 Det är ju något.
+Det är ju omänskligt att låta dem föra ett sådant liv!
 Det är ju viktigt!
 Det är just det som är grejen.
 Det är just därför.
@@ -3424,6 +3438,7 @@ Då går jag ensam.
 Då går jag någon annanstans.
 Då går vi utan hund!
 Då går vi.
+Då hade den unga herrn kommit med ett nytt förslag.
 Då halkade glorian lite på sned.
 Då han bad dig komma, var det ingenting annat än egennytta.
 Då han gått, såg hon förväntansfullt på kortet men blev nästan besviken.
@@ -3450,10 +3465,12 @@ Då kom Cesar, öppnade sitt stora gap och fattade om honom.
 Då kom Snöfrid tillbaka och såg mycket upprörd ut.
 Då kommer du lagom till att se den blomma.
 Då kommer ni för sent till middagen, är jag rädd.
+Då kände han, att katten drog in klorna och släppte taget om strupen.
 Då lufsade Janne in i ladugården.
 Då lägger jag den på posten på måndag.
 Då måste du jobba snabbt.
 Då måste du skruva loss antennen för att aktivera strömbrytaren.
+Då måste han bege sig tillbaka till östra stranden.
 Då ordning och sammanhang nått en viss höjd, faller allt i spillror igen.
 Då rann sinnet på Stina.
 Då reser jag i alla fall.
@@ -3467,9 +3484,12 @@ Då skall jag visa ädelmod.
 Då skulle han lyckas.
 Då skulle han älska mig.
 Då skulle jag rekommendera vår vegetariska lasagne!
+Då sköt Akka fram halsen, smällde hårt med vingarna och satte full fart.
+Då såg pojken under sig en bondgård, som han aldrig hade sett maken till.
 Då tar jag den.
 Då teg alltid Nini.
 Då teg fadern och försjönk i djupa tankar.
+Då tog gråråttornas anförare mod till sig och hoppade ner i den kolmörka källaren.
 Då turen kom till Emmy, drog hon sig undan och ville tänka på saken.
 Då tycker jag bärnsten är snyggare.
 Då vet jag inte.
@@ -3495,6 +3515,7 @@ Dörren öppnades.
 Editionsplikten är avgränsad till skriftliga handlingar som kan antas ha betydelse som bevis.
 Effektivitetsskäl talar därmed för en gemensam handläggning vid Patent- och marknadsdomstolen.
 Efter all skit som jag köper här.
+Efter arbetet med linet kom det stora knäckebrödsbaket, fårklippningen och pigflyttningen.
 Efter att ha funderat några sekunder fortsatte han.
 Efter att ha känt din bror förväntade jag mig något mer.
 Efter decennier vaknade debatten till liv och blev aktuell igen.
@@ -3503,6 +3524,7 @@ Efter en stund närmade de sig tveksamt staketet.
 Efter en trög start, tror jag att lyckan har vänt.
 Efter en veckas jakt hade Kalle anslagit en söndag till vilodag.
 Efter fem minuter blev hon trött och sade god natt till de andra.
+Efter fiskmåsen talade lärkan, som hade genomforskat landet innanför kusten.
 Efter middagen erinrade sig Rappe att en man måste bestraffas.
 Efter morgonkaffet avseglade målarn och jag.
 Efter några dagar kom villaägaren och frågade varför han slutat med arbetet.
@@ -3537,6 +3559,7 @@ Eller så är de alla det.
 Eller tycker inte nämnden detsamma?
 Eller tänk på de unga.
 Eller var det något annat människan sökte, vädrade, drogs hän mot?
+Eller vill du ha min gamla skeppskikare?
 Eller ännu hellre, tillade han hoppfullt, försöka med en stockholmstidning.
 Eller är det en grillfest?
 Eller är det en speciellt småländsk egenskap?
@@ -3549,11 +3572,13 @@ Emellertid ångrar jag inte mitt handlingssätt ändå.
 Emily fick sina fiska varma när hon påstod att Bofors låg i Kungsbacka.
 Emmy såsom den äldsta skulle väl inom Ligan representera Erfarenheten.
 En allians med dig.
+En annan gång kom de obarmhärtiga sälarna krypande upp på isen.
 En annan ö och en annan man.
 En anonym budgivare, per telefon.
 En applåd för dem!
 En av brytarna kan vara den superladdade idiotsäkra.
 En av eleverna följde uppmaningen och flyttade sig när läraren lade händerna på denne.
+En av flickorna gick i spetsen och lockade boskapen med vackert klingande rop.
 En av klasskamraterna översatte på motsvarande sätt texten till svenska och spred översättningen vidare.
 En av oss saknas.
 En av patienterna var kritisk till försöken.
@@ -3674,6 +3699,8 @@ En förfrågan till.
 En försenad ursäkt, för det som hände på körkonserten.
 En gammal ananas.
 En gammal gepard.
+En gammal kvinna, som jag träffade och frågade om honom, bara skakade på huvudet.
+En gammal, gråhårig kvinna låg utsträckt på golvet därinne.
 En genial idé med potential.
 En glänsande framtid skulle vänta er.
 En god vän kinesade hos honom ibland, en före detta överste i indisk tjänst.
@@ -3735,6 +3762,7 @@ En kort elefant.
 En kort räv.
 En kort råtta.
 En kort varg.
+En kvinna hade letat fram dörrnyckeln under tröskeln och släppt in barnen.
 En kväll hade Bengt och Eva varit ute i Vasaparken.
 En levande ande?
 En lila druva.
@@ -3869,6 +3897,7 @@ En stor tiger.
 En stor, röd fåtölj tronade i ett hörn på balkongen.
 En stuga här!
 En stund därefter var Karr på hemvägen.
+En stund efteråt kom hon åter upp till örnboet med en laxöring i näbben.
 En städerska ville ge mig en väska.
 En svart ananas.
 En svart björn.
@@ -3940,6 +3969,7 @@ En vädjan till landet, hette det.
 En väg in, en väg ut.
 En väldig kraft, säga vad man vill.
 En våldsam våg vällde upp inom honom, och han tryckte henne häftigt intill sig.
+En vårdag fick hon höra att den gamla herrn på Nääs var död.
 Ena byxbenet var borta och järnskenan glänste blank och våt i den tropiska natten.
 Ena vingen verkade skadad.
 Ena örat stod rakt upp.
@@ -3949,6 +3979,7 @@ Endast en fredlig revolution har utsikter att bli bestående.
 Endast en kvart hade gått, men Gisela hade sagt en halvtimme.
 Endast när byggnadsnämnden gjort skäliga ansträngningar i dessa hänseenden har nämnden fullgjort sin utredningsskyldighet.
 Endast stjärnorna tindrade på himmelen.
+Endast tio eller tolv sidor låg kvar på skrivbordet.
 Endast två linjeskepp och två fregatter undkom.
 Engelsmannen gick fram och presenterade sig.
 Engelsmannen släckte då till sist lampan och gick ut i korridoren.
@@ -3993,6 +4024,7 @@ Ett där vi alla kommer att vara fria.
 Ett dåligt och den börjar glöda.
 Ett flertal av skådespelarena i Stenungsund kallade konstnären för monsieur.
 Ett foto av mig i London!
+Ett fyrfaldigt leve för farbror Lars!
 Ett fåtal av de kungliga greps aldrig vid den franska revolutionen.
 Ett gammalt barndomslöfte.
 Ett gigantiskt föremål.
@@ -4041,6 +4073,7 @@ Fanns det anhöriga eller vittnen?
 Fantasin har visst sina begränsningar.
 Far betraktade honom uteslutande som sin.
 Far ville hellre ha den, svarade barnet.
+Faran är över för denna gången.
 Farbror Pettersson kallade dig så.
 Farbror, är jag en flicka av den moderna typen?
 Farfar lyckades fylla sin bostad med elva kartor över Portugal.
@@ -4108,12 +4141,14 @@ Finns företaget tack vare henne?
 Finska kriget är en viktig del av svensk historia.
 Fint, vi säger så!
 Fiskarna har kommit underfund med näten nu, sa han.
+Fiskebåtarna gjordes redo.
 Fiskmåsar är så skräniga.
 Fixar du en sallad också?
 Fjolårets musiker lyste med sin frånvaro efter att sångaren brutit med bandet.
 Fjäderdräkten glänste i solen.
 Fjäderdräkten var svart med gröna inslag.
 Fjädern var slut.
+Fjädrarna var styva, skuldrorna knotiga, och halsen var tunn.
 Fjällen är medelstora, med starkt tandad rand.
 Fler loggar in.
 Flera av de närvarande kvinnorna mumlade.
@@ -4121,8 +4156,10 @@ Flera av hans arbeten är översatta till danska, tyska, engelska, franska och r
 Flera av mina släktingar har valt forskningen framför att spekulera i lägenheter.
 Flickan hyste en utpräglad avsky för att skaffa sig bokliga kunskaper.
 Flickan satt orörlig och allvarlig med blicken riktad på sin tallrik.
+Flickan stannade hos gossen hela livet och längtade aldrig tillbaka till ådalarna.
 Flickan svarade naturligtvis ögonblickligen.
 Flickan teg en stund.
+Flickan tror själv att han lever men jag säger att han måste vara död.
 Flickan uppförde sig oklanderligt, avvaktande, kanske litet misstrogen.
 Flickan vände ett litet blekt och allvarsamt ansikte upp mot fadern.
 Flickans plötsliga fiendskap gjorde honom bedrövad och förargad.
@@ -4130,8 +4167,12 @@ Flickorna från kullarna bakar bästa bullarna.
 Flickorna kröp närmare varandra, rysande av köld och deltagande.
 Flickorna tror att man är en gammal käring som skall ut och lägga långrev.
 Flickorna ville bada i min badvik.
+Flocken saktade farten och for fram och tillbaka längs med kusten.
 Floden Tennessee flyter genom Alabamas norra del.
 Fly medan du kan, lita på mig.
+Fly, så fort ni kan!
+Flyg med mig upp i kyrktornet, så ska du få veta alltsammans!
+Flyg undan!
 Flyg ut ur fönstret!
 Flyg, Jarro!
 Flygplatsen till stan.
@@ -4144,6 +4185,7 @@ Folk grubblar för mycket.
 Folk håller tal och förstör allting.
 Folk i den här staden är jävla pack!
 Folk måste få veta vad som pågår.
+Folk och boskap hade redan kommit dit.
 Folk svälter ihjäl.
 Folk utan huvud, monster och nu det här.
 Folk är sådana får.
@@ -4156,6 +4198,7 @@ Fort till Norra kyrkogården för att avsluta det.
 Fort till saluhallen efter en bit mat åt kroppen.
 Fortsätta utan mig?
 Fotografen vevade flitigt.
+Framför allt var det en mängd tyska köpmän och hantverkare.
 Framför min far, min familj?
 Framför sig hade hon uppradade tre röda etuier.
 Framtiden låg ljus och öppen för mig.
@@ -4183,6 +4226,7 @@ Fruntimmer hade de inte med sig, märkvärdigt nog, utan lagade sin mat själva.
 Främsta ledet tittade in, nyfiket och sorgset undrande.
 Fråga bara snällt.
 Fråga de andra fjorton.
+Fråga dina gamla rospiggar i Grisslehamn, skall du få se!
 Fråga då Cesar!
 Fråga inte vad jag gjorde där, för du skulle inte gilla det.
 Fråga om de vill att vi ska kasta upp vatten?
@@ -4228,6 +4272,8 @@ Få inte panik.
 Få minnesmärken i Egypten är så storslagna som dessa.
 Få se om jag förstår.
 Få tag på ägarna.
+Fågeln betraktade honom noga, och därpå nickade han tre gånger med huvudet.
+Fågeln hörde honom, och med ett enda flaxande var han uppe på stenen.
 Fågeln klarade sig.
 Fågeln kom upp några meter från båtsidan och skottet gick.
 Får det vara en cigarr?
@@ -4251,6 +4297,7 @@ Får jag städa ditt rum?
 Får jag säga en sak?
 Får jag ta en selfie med dig.
 Får jag ta hennes plats en stund?
+Får jag tag i den räven! gnisslade uppsyningsmannen.
 Får jag vara med?
 Får jag visa dem för Stina?
 Får man betalt?
@@ -4303,6 +4350,7 @@ För dem upp och ner.
 För dem är slagsmålet huvudsaken.
 För den unge jägaren är en enkel harjakt en världshändelse.
 För dessa omständigheter hade Danielsson ingen känsla.
+För det första kommer vi att frysa ihjäl ute på isen.
 För det gör alla alltid, antingen de vill eller ej.
 För det nya hemmets skull, där pojken levde.
 För det ser ut som om du ska somna.
@@ -4348,10 +4396,12 @@ För resten romaner, tycker du om romaner?
 För resten var det Dagny som hindrade mig.
 För resten är prästen död, mumlade Bertil.
 För riksdagsman Andersson var detta slutet på hans långa verksamhet i länet.
+För sedan skogvaktaren hade räddat hans liv, älskade han honom över allt annat.
 För sina tjänster belönades hon med nio kronor om året jämte ett par kängor.
 För tulpaner är det kallt vatten som gäller.
 För tusan, ett sådant vackert par!
 För tusan, så mycket värre.
+För varje ögonblick blev det livligare på gårdsplanen.
 För vem ska jag göra det då?
 För vet ni vad?
 För vi har en bra idé.
@@ -4399,6 +4449,7 @@ Församlingen glodde på mig som på en dåre.
 Församlingen noterar att kyrkan behöver renoveras fullständigt.
 Förskräckt hade hon känt efter det dyrbara kuvertet, det var borta.
 Först alla telefonsamtal och sen.
+Först blev hon så häpen att hon inte kunde röra sig.
 Först blev hon överraskad, men så ruskade hon på huvudet.
 Först duggade det bara lite, men regnet tilltog snabbt.
 Först får de en vild helg.
@@ -4441,6 +4492,7 @@ Förutom de här.
 Förutom ryska antikviteter, har han två svagheter.
 Förutsättningarna för att era ord är sanna är nog större den här gången.
 Förvånad tystnad följde på hans ord.
+Föräldrarna var också mycket nöjda med henne.
 Gamla båtsman, vet jag.
 Gamle smeden med sina två pojkar började bli orolig så smått.
 Gammal bergsmansgård.
@@ -4574,6 +4626,7 @@ Gud, vad han kunde!
 Gud, vad han såg stark ut!
 Gudrun blev invald i kommittén efter sin tid i Vänsterpartiet.
 Gudskelov, så kom då töserna, och den heliga tystnaden var bruten.
+Gula landsvägar, blanka järnvägsskenor och blåa kanaler löpte fram mellan orterna som silkesydda slingor.
 Guld, silver och järn finns, även salt, stenkol och svavel.
 Guldet kan inte dölja det.
 Gulle dig!
@@ -4583,6 +4636,7 @@ Gumman dog kort efteråt, fast inte av det.
 Gumman hade sett hur det stod till med henne och lagt dit bomull.
 Gumman suckade.
 Gumman vaknade.
+Gumman vandrade rätt emot vargarna.
 Gumman var sträng men rättvis.
 Gunhild, Ligans förra medlem, som var hennes synnerliga hjärtevän, hade fått en till lysningspresent.
 Gunnel drev med vinden i sjön tills hon kom i land i Vänersborg.
@@ -4598,11 +4652,13 @@ Gwenda kunde i sin show avslöja sitt speciella recept på smoothie.
 Gärna för mig.
 Gärningen har därmed varit av särskilt farlig art.
 Gärningen har präglats av synnerligen påtaglig brutalitet och ett utdraget händelseförlopp.
+Gässen betade på de vida åkrarna, och pojken sökte efter föda inne i parken.
 Gästerna tillhör Finlands förnämaste människor.
 Gå då och köp en åt mig!
 Gå hem efter den genast!
 Gå hem och hämta pengar till avgiften om ni vill fortsätta studera.
 Gå in i växthuset.
+Gå in och se dig om, ifall du har lust!
 Gå inte och ställ till bråk här!
 Gå litegrann åt höger.
 Gå ner i källarn, Petter lille, och hämta det som behövs.
@@ -4628,6 +4684,7 @@ Går det bra om jag tar med min brorson också?
 Går det bra?
 Går det omkring isbjörnar på gatorna?
 Går du hit ofta?
+Går du in på detta, så nicka tre gånger med huvudet!
 Går du någonsin mot röd gubbe?
 Går färgen inte ur får jag väl ha mössa resten av terminen.
 Går inte urtavlan åt vänster?
@@ -4701,6 +4758,7 @@ Han arrangerade så, att hon fick det som var kvar.
 Han avreste i förrgår.
 Han bar en marinblå dräkt med en blekrosa kravatt.
 Han behövde inte länge gå ensam.
+Han behövde inte vänta länge, förrän nerifrån skogen ljöd en liten pinglande skälla.
 Han behöver bara lite tid att inse det.
 Han behöver gå i skolan.
 Han behöver inte tvångsinläggas.
@@ -4716,14 +4774,20 @@ Han bjöd henne med allvarlig min armen.
 Han bjöd på en konjak.
 Han bjöd på en underbart god dryck, glögg av sirap och brännvin.
 Han blandade gärna in franska i sitt tal.
+Han blev bitter till sinnes, när han påminde sig om detta.
+Han blev både glad och ängslig när han såg detta.
 Han blev förtjust att få återse henne och tryckte hjärtligt hennes hand.
 Han blev förtjust i typen.
 Han blev förvånad och var nära att brista i skratt.
 Han blev förvånad över att inte se till henne.
 Han blev förvånad.
+Han blev glad och undrade vad han skulle få se däruppe.
 Han blev högröd i ansiktet.
 Han blev i december villkorligt frigiven från det fängelsestraff som han ådömdes.
 Han blev min vän.
+Han blev nu helt förskräckt, lyfte foten, slog till med klöven och krossade ormhuvudet.
+Han blev stående helt rådlös med en unge i vardera handen.
+Han blev stående och stirrade på honom.
 Han blev vår gäst på grund av sitt goda humör.
 Han blev överraskad och ursinnig.
 Han blev överraskad.
@@ -4732,6 +4796,7 @@ Han blir tyvärr väldigt lätt sjösjuk.
 Han bluffade inte.
 Han bodde hos mig en månad.
 Han bor i min källare.
+Han borde ju ha känt igen det här stället.
 Han bosatte sig nära de följande offren.
 Han brast i skratt.
 Han brukade handdiska snapsglasen.
@@ -4744,6 +4809,7 @@ Han böjde på huvudet.
 Han böjde sig ner och kysste hennes mun.
 Han bölade som en bebis!
 Han började bråka med mig.
+Han började genast tala om skogen.
 Han började leta efter sin hustru.
 Han började längst ute i ena ändan.
 Han började läsa latin med mig då jag var sju år gammal.
@@ -4755,6 +4821,7 @@ Han drog in dess doft av äkta engelsk tobak.
 Han drog omkring på hennes gamla dockvagn.
 Han drömde mest om kvinnor och gick gärna för sig själv.
 Han dukade upp en rörande historia.
+Han dök helt hastigt och försvann under vattenytan.
 Han dök ögonblickligen ner.
 Han erbjöd tre miljoner.
 Han famlade i mörkret efter ficklampan.
@@ -4768,6 +4835,7 @@ Han fick den, men jag menade ingenting med den.
 Han fick dessa pengar för att måla dekorativa saker i Valands trappuppgång.
 Han fick det.
 Han fick ge namn åt en skola.
+Han fick inget svar, men han hörde på nytt, att någon kallade honom.
 Han fick min tolva och avlägsnade sig.
 Han fick ner fingret i en tom ledhåla.
 Han fick se Susanne, som höll sin syster under armen.
@@ -4792,25 +4860,32 @@ Han förmår inte vandra i Moskva en kall decembermorgon.
 Han försover sig alltid!
 Han förstod inte vad hon menade.
 Han förstod ju inte annat, än att allesammans hade avlägsnat sig, som vanligt.
+Han förstår inte oss, och vi förstår inte honom.
 Han försvann helt enkelt, fast vädret var vackert.
 Han försöker skriva något.
 Han försökte först att knäcka benen med sina guldtänder, men det lyckades inte.
 Han försökte göra affär med sitt vax, men ansåg sig alltid underbjuden.
 Han försökte inte ens kyssa mig.
+Han försökte känna sig nöjd nu när han var säker på att komma undan.
 Han försökte skratta.
+Han förtjänar sannerligen ett riktigt hårt straff.
 Han förvandlade hela dagens historia för Stina.
 Han gav akt på att hon höll handen krampaktigt om en liten, brun väska.
 Han gav fan i vaxet.
 Han gick bort och vred till kranen.
 Han gick fram för att se på kvinnan.
 Han gick fram till henne, småleende och med utsträckt hand.
+Han gick fram till ormen och lyfte framfoten.
 Han gick för långt några gånger.
+Han gick hastigt sin väg.
 Han gick hem till sitt hotell och talade med portieren.
 Han gick i min klass.
 Han gick i sjön och försvann.
+Han gick in efter nyckeln, stängde ladan och stoppade nyckeln i rockfickan.
 Han gick in för att vänta på fru Walter.
 Han gick in till gumman, huttrande i morgonkylan.
 Han gick med högburet huvud, men utan att se sig omkring.
+Han gick omkring så bedrövad, att hans reskamrater blev oroliga för honom.
 Han gick stirrande i gatan nedåt gamla Dramaten.
 Han gick upp.
 Han gick över gatan för att få se hennes profil.
@@ -4823,7 +4898,9 @@ Han gjorde det!
 Han gjorde det.
 Han gjorde en blixtsnabb kombination.
 Han gjorde sig omöjlig redan som volontär.
+Han gled genast fram under vingen och såg sig omkring helt förskräckt.
 Han glömde sin mascara på hotellet.
+Han glömde snart sina föräldrar, örnarna, och trodde, att Akka var hans riktiga mor.
 Han granskade proven, lät hämta ut andra och återgick till de första.
 Han grep henne i armen.
 Han grep tag i dörrvredet och tryckte långsamt axeln mot dörren.
@@ -4833,11 +4910,20 @@ Han grät.
 Han går inte längre på skolan, men vi har jobbat på olika experiment.
 Han går omkring och sprätter som en tupp.
 Han gör ett kast och går i sjön.
+Han hade aldrig förr sett människor klädda på detta sättet.
 Han hade aldrig förr visat hur litet respekt han hade för mig.
 Han hade aldrig haft tid därtill.
 Han hade aldrig paddlat förr, men det hankade sig snart fram hjälpligt.
 Han hade aldrig sett henne så blek och uppskakad.
+Han hade aldrig sett himlen så blå som i dag.
+Han hade aldrig sett något så märkvärdigt.
+Han hade aldrig sett vildsvan på nära håll förut.
+Han hade aldrig själv känt sig så liten och ömklig som den kvällen.
 Han hade alltid bråttom, dök upp oväntat och försvann plötsligt.
+Han hade bara tänkt på hur vackert allting var.
+Han hade blivit allt tystare och gick med djupt nersänkt huvud.
+Han hade blivit bortrövad av ett par kråkor.
+Han hade blivit gammal, utan att han hade märkt det.
 Han hade blivit ohyggligt blek och mager på en vecka och hostade oupphörligt.
 Han hade bråttom.
 Han hade emellertid hoppats på något bättre, när han kom tillbaka hem.
@@ -4847,28 +4933,48 @@ Han hade enligt egna uppgifter varit riktigt svår med sådant.
 Han hade ett akvarium med tre vandrande pinnar.
 Han hade ett blått och ett grönt öga.
 Han hade ett gammalt foto på dig.
+Han hade fallit ner på isen och blivit sittande yrvaken.
 Han hade festat några veckor med tre likasinnade och en natt tog groggvirket slut.
+Han hade fri utsikt åt alla håll.
 Han hade försovit sig igen.
+Han hade fört honom till det stolta universitetshuset och visat honom de präktiga föreläsningssalarna.
 Han hade ganska snart förvärvat sig en förmögenhet, om han fått leva.
 Han hade genast lagt bort engelska språket som hittills talats.
 Han hade glömt min existens.
+Han hade gått hemifrån därför att han hade trott något som inte var sant.
+Han hade gått vilse i dimman på samma sätt som förra dagen.
+Han hade haft det bra svårt de sista dagarna.
+Han hade ingenting emot att stanna hos dem hela sitt liv.
+Han hade ingenting ätit på hela dagen.
 Han hade inte dödat dig.
+Han hade inte hört fel.
 Han hade inte kunnat låta bli.
+Han hade inte märkt något, som var hemskt eller skrämmande.
+Han hade inte något annat än moln och himmel omkring sig.
+Han hade inte varit sådan, att någon kunde längta efter honom.
 Han hade inte ätit på tre dagar nu.
 Han hade intervjuat politiker ur alla partier om deras känslor inför denna upptäckt.
+Han hade ju inga andra att hålla sig till.
 Han hade kommit en halvtimme för tidigt.
 Han hade kul med polarna, inte grannarna.
 Han hade ljugit hela tiden.
 Han hade magrat ofantligt på en månad och hostade jämt och ständigt.
 Han hade misstagit sig och han andades åter lugnt.
+Han hade många gånger haft hundarna efter sig och hört kulorna vina om öronen.
+Han hade nästan tyckt att det var synd om honom.
 Han hade redan fått sin rundliga betalning plus två dunkar sprit.
 Han hade rodnat.
+Han hade sett Leksand, Rättvik, Mora, Sollerön.
 Han hade skickat honom pengar utan att berätta för mig.
 Han hade till och med inrättat ett rum till salong och bibliotek.
 Han hade upphört att andas.
 Han hade varit mycket sparsam, mycket ordentlig och arbetsam.
+Han hade velat ha en säl.
+Han hade velat hjälpa henne, men nu var hon ju död.
 Han hade verkligen inte tänkt på att hon hade en man.
+Han hade väl aldrig sluppit ifrån dem, om inte stugkatten hade kommit gående.
 Han hade väl fått sälja några teckningar till Strix eller någon annan tidning.
+Han hade väntat sig, att detta skulle vara något riktigt märkvärdigt.
 Han har alltid lyckats undvika det.
 Han har alltid velat dö som en hjälte.
 Han har bara doppat sig i en mjölbinge i en bondgård.
@@ -4876,6 +4982,7 @@ Han har beskrivit den i många böcker.
 Han har betalat.
 Han har dock rest en lång väg för hennes skull.
 Han har erhållit pris vid åtskilliga världsutställningar.
+Han har ett strävt ansikte med stora mustascher, vasst pipskägg och skarp näsa.
 Han har fantastiska fötter.
 Han har fattat sitt beslut.
 Han har flera gånger tidigare dömts för våldsbrott.
@@ -4909,10 +5016,13 @@ Han har under alla förhållanden yrkat att påföljden ska lindras.
 Han har varken familj eller papper.
 Han har väl tröttnat.
 Han har vågat säga att Vildanden verkar som ett smygande gift på samtiden.
+Han hoppade ner på golvet och började söka.
+Han hoppade runt omkring skogvaktaren, slickade hans händer och gnällde av belåtenhet.
 Han hoppar klumpigt över pölen.
 Han hämtade sig aldrig.
 Han håller på att aktivera planetomvandlaren.
 Han höll koll på henne tills han sköt henne i bussen.
+Han hörde hur stenar rullade undan och hur grenar bröts.
 Han hörde uppmärksamt på, i det han då och då gjorde några anteckningar.
 Han ilsknade till.
 Han inbjöd mig att beskåda sitt mästerverk.
@@ -4939,30 +5049,45 @@ Han kanske ville straffa dig för att du avböjde hans erbjudande.
 Han kanske är i stan, den där dryge, late, pretentiöse, obildade amerikanen.
 Han kanske är med om det.
 Han kastade en sista blick på den blonda och den svarta flickan.
+Han kastade sig huvudstupa utför trappan och rusade tillbaka till lagården.
 Han klappade Stina på axeln.
+Han kokade te och gick sedan och lade sig.
+Han kom bara ihåg, att pojken just nyss hade räddat livet på honom.
 Han kom hem, uppfylld av glädje.
 Han kom ihåg hon sagt, att hon rest hit bara för att hjälpa.
 Han kom ihåg hur det var då det beslut fattades som gav kvinnorna rösträtt.
 Han kom in, lugn och otvungen, som om han varit hemma hos sig.
 Han kom om hörnet, just som jag var vid din port.
 Han kom tillbaka en timme senare.
+Han kommer aldrig mer att säga, att han vill vara en sådan som du.
 Han kommer att dö.
 Han kommer att rädda tusentals liv.
 Han kommer att se till att det inte blir lika illa igen.
 Han kommer snart.
+Han kommer säkert att hålla sitt ord och följa er ända upp till Lappland.
+Han kommer så nära, som om han ville bitas.
 Han kommer tillbaka.
 Han kramade hennes händer.
 Han krossar min hand.
 Han krängde av påslakanet och svor eder över tyngdtäckets otymplighet.
+Han kunde inte få fram det rätta ljudet.
+Han kunde inte förstå att han inte hade tänkt ut det förut.
 Han kunde inte hålla tårarna tillbaka.
+Han kunde inte låta bli att tänka på Blekinge.
+Han kunde inte se toppen av den.
+Han kunde inte se över bordskivan utan att kliva upp på armstödet.
 Han kunde varken se eller höra något.
 Han kysste hennes hand, vilket förbryllade henne mycket.
 Han kysste hennes händer och viskade.
 Han kysste hennes händer.
 Han kämpade nog emot.
+Han kände ett ögonblicks hopp.
 Han kände god lust att skratta.
 Han kände god lust att springa, att dansa uppför den tredje trappan.
+Han kände igen dem på de stora fanorna med guldinskrifterna, som svajade över dem.
 Han kände igen henne.
+Han kände igen hästen redan på gången.
+Han kände riktig djup sorg över att staden var försvunnen.
 Han kände sig en smula generad, blyg och illa till mods.
 Han kände sig ganska upprörd, medan han väntade på henne.
 Han kände sig lugnad av den unga kvinnans älskvärda min.
@@ -4973,21 +5098,26 @@ Han kände sin bössa och kände sig själv.
 Han kände väl till trakten.
 Han kände, att han rodnade.
 Han känner Bin Ladin.
+Han känner mig.
 Han känner sig inte så ensam längre.
 Han kör och dricker gröna smoothies till frukost.
 Han lade sina rosor på trädäcket och lämnade hastigt rummet utan att säga farväl.
 Han lagar den åt dig om jag ber honom.
 Han letade efter dem när allt flög i luften.
 Han lever än.
+Han lindade tyglarna om armen och började vandringen.
 Han litade emellertid på sin goda tur.
 Han litade inte på mig.
 Han litade på verkningarna av den gamla uniformsmössa han händelsevis hade på sig.
 Han lovade att klå mig nästa gång vi träffades.
 Han lyckades rädda många.
+Han lyfte huvudet och lyssnade mycket noga.
 Han lämnade oss här.
 Han lär ha varit en mycket trevlig herre i sällskap med sina bekanta.
 Han läste om telegrammet.
+Han lät blickarna vandra från liggsoffan till slagbordet och från slagbordet till spisen.
 Han lät installera ett dyrt skåp.
+Han låg där i dvala och hjärtat slog allt svagare.
 Han låg som vanligt på mattan under bordet.
 Han lånade ut den till mig.
 Han låtsade som hade han besök att avlägga i rummen bortom Giselas.
@@ -4999,6 +5129,7 @@ Han måste gå länge.
 Han måste ha hjälpt henne.
 Han måste jubilera ibland och detta mattar honom.
 Han måste upp själv.
+Han måste väl vara död för länge sedan.
 Han mördar inte i affekt.
 Han mötte hennes blick.
 Han mötte två gånger sin motståndare, som också var ute och visade sig.
@@ -5010,6 +5141,7 @@ Han nådde henne till midjan.
 Han observerade ej Martins och min närvaro.
 Han och hans bror handmålar varje platta.
 Han och jag hade redan lämnat bunkern.
+Han ordnade undervisningen, övervakade arbetet och höll föreläsningar.
 Han orkade knappt ruska av sig vattnet.
 Han pekade på gästerna och sökte tydliggöra med sina åtbörder att de måste bort.
 Han pluggar till sjuksköterska.
@@ -5022,12 +5154,17 @@ Han reste sig upp, utan att säga ett ord.
 Han reste sig upp.
 Han reviderar sitt revir av fågelbon.
 Han ringer inte fortare om du sitter och stickar.
+Han ropade ut sin varning, så snart en fågel närmade sig.
 Han ryckte häftigt till och vände sig mot henne.
 Han ryckte på axlarna.
+Han räknade åtminstone till fyrtio men han trodde nog att de var ännu fler.
 Han räknades vid sistnämnda tidpunkt till oppositionen.
 Han rökte två cigaretter om dagen.
 Han sa att den skulle explodera.
 Han sa att jag skulle stå stilla och vara tyst.
+Han sade ingenting och började att slicka den ena framfoten.
+Han sade inte ett ord, utan vände sig bara bort och grät.
+Han sade inte nej, men han tog heller inte ett steg mot lagårdsdörren.
 Han saknade helt fingertoppskänsla och Leos desperata hintar gick honom helt förbi.
 Han saknade sina två år i öknen.
 Han saktade farten.
@@ -5036,8 +5173,10 @@ Han satt alldeles stilla.
 Han satt där nere.
 Han satt en stund försjunken i tankar, vilka utmynnade i följande yttrande.
 Han satt i ett hörn med hängande huvud.
+Han satt och såg på sitt hem.
 Han satte fast sig vid ratten med handbojor.
 Han satte munnen tätt intill hustruns öra.
+Han satte ner fötterna varsammare i snön.
 Han satte sig plötsligt bredvid henne.
 Han satte sig, grep pennan, lade ett ark papper framför sig och väntade.
 Han satte som sin förnämsta uppgift att förmå sina läsare att älska sina grönländare.
@@ -5051,23 +5190,32 @@ Han ska betala.
 Han ska därför dömas för olaga hot i enlighet med åtalet.
 Han ska gifta sig!
 Han ska just gå.
+Han ska väl inte alltid ligga skyddad under en trädrot.
 Han skakade på huvudet.
 Han skrattade ironiskt.
 Han skrattade, när han tänkte på detta möte.
+Han skrek på hjälp, allt vad han förmådde.
+Han skulle aldrig mer bli glad åt något.
 Han skulle avrättas i soluppgången.
 Han skulle bli förtjust att få träffa dig.
 Han skulle få sitt straff vid framkomsten till nattkvarteret.
 Han skulle genast rycka av dem, när han reste sig upp.
 Han skulle ha kunnat göra mig till brottsling.
+Han skulle hålla på vaxet i det längsta och inte låta lura sig.
 Han skulle hålla sig borta, men han kunde inte.
 Han skulle köpa presenter åt gumman.
 Han skulle plocka druvor för småpengar.
 Han skulle pudra näsan, bara.
 Han skyndade fram till henne.
+Han skyndade in mot staden igen, och nu kom han fram till Stortorget.
 Han skämdes helt plötsligt och mumlade.
+Han sköt upp stalldörren litet på glänt och såg ut.
 Han slutade faktiskt i källaren.
 Han slutade i femte klassen, greps av amerikafebern och reste.
+Han slängde på sig rocken och gick ut i ovädret.
 Han slöt ögonen en lång stund och kikade sedan försiktigt med det ena.
+Han smakade både på eklöv och aspbark.
+Han smekte och klappade henne.
 Han smet nog till fots och ville inte bära så mycket.
 Han smusslade till henne en lapp som hade lösningen på mordet.
 Han smällde igen dörren efter sig.
@@ -5079,6 +5227,7 @@ Han snodde ihop håret i en knut och drog på sig en skjorta.
 Han som får så grova pengar för jakten.
 Han som ville köpa vårt hus.
 Han spanar åt höger och vänster och bakom sig.
+Han spann och surrande av belåtenhet, innan han svarade.
 Han spelade dubbelspel hela tiden.
 Han spionerade på mig.
 Han spände ögonen i henne, och hon lät sin blick falla för hans.
@@ -5093,6 +5242,7 @@ Han stod inte ut med värken längre.
 Han stod och smålog medlidsamt.
 Han stod och sysslade med näten och talade för sig själv när jag kom.
 Han stryker sina skjortor själv.
+Han sträckte upp den åt gumman.
 Han strök eftertänksamt handen över stubben i nacken.
 Han studerade först teologi i Köpenhamn.
 Han studsade, såg skarpt på henne och mindes.
@@ -5119,17 +5269,24 @@ Han såg den.
 Han såg dyster ut.
 Han såg endast en liten fläck på sin horisont.
 Han såg fram emot kvällens pub-träff med ornitologerna.
+Han såg frågande på den andre.
 Han såg förvånad på henne.
+Han såg hur kullarna glesnade och slätten bredde ut sig.
 Han såg högst allvarlig ut.
 Han såg ingen.
 Han såg inte alldeles så bra ut som vanligt, men snällare och litet ledsen.
 Han såg inte vidare förtjust ut då du kom.
+Han såg och såg och ville inte tro sina ögon.
 Han såg på poststämpeln.
 Han såg på sin klocka.
+Han såg sig omkring för att fundera ut varför så många stannade.
 Han såg så snäll ut!
 Han såg upp i känsla av att någon betraktade honom.
 Han såg upp och vi höjde ytterst långsamt våra huvuden.
+Han såg upp.
 Han såg åtskilligt fantastisk ut.
+Han sökte på gatorna, på torgen och i planteringarna.
+Han sökte, ända tills det började mörkna.
 Han tackade mycket omständligt, och vet du, han är riktigt älskvärd och tillgänglig.
 Han talade brådskande och såg ytterst generad ut.
 Han talade länge och pompöst om troheten.
@@ -5138,11 +5295,14 @@ Han talade om rymden och vidden och ljuset där uppe i det nya bygget.
 Han tillbringade natten i fyllecell.
 Han tillbringar åtta av månadens dagar i Paris.
 Han tipsade polisen.
+Han tittade bakom stolar och skåp och under liggsoffan och i bakugnen.
 Han tittade i kulhålet.
 Han tittade åter på klockan.
 Han tog dem inte.
 Han tog emot det lilla paketet och stoppade det i fickan.
 Han tog en halvbränd tändsticka och höll den över lampan.
+Han tog ett häftigt tag i locket och ryckte av det.
+Han tog ett långt hopp ner från stenröset och sprang sin väg.
 Han tog ledigt från arbetet på obestämd tid och slutade medicinera mot depression.
 Han tog mig med storm.
 Han tog mig till Nya Zeeland.
@@ -5159,13 +5319,23 @@ Han tvekade.
 Han tvärstannade, helt bestört.
 Han tycker att jag är äcklig.
 Han tycks inte komma tillbaka.
+Han tyckte det var så vackert att han fick tårar i ögonen.
 Han tyckte han fyllt en plikt därmed.
 Han tyckte inte om den, den måste göras om.
+Han tyckte, att det var som om han hade dödat en människa.
+Han tyckte, att han krympte ihop inför dem.
+Han tyckte, att han kände regnet mindre, när han rörde sig.
 Han tycktes inte ha någon saliv kvar i munnen.
 Han tänker inte hålla de sex timmarna.
 Han tänker precis som Annie.
+Han tänkte bara på att följa honom och vaka över honom.
+Han tänkte inte mer på att vara rädd för henne.
+Han tänkte inte mer på pojken, utan flydde besinningslöst ur stugan.
+Han tänkte inte tanken till slut.
+Han tänkte på hur det hade varit när hans morfar dog.
 Han tänkte.
 Han tålde inga sensationer av det mera våldsamma slaget.
+Han undrade tydligen, hur mycket jag visste, eller om jag visste något.
 Han uppmanade eleverna att flytta på sig.
 Han upptäckte ibland hos henne något för sig fullkomligt ofattligt, nämligen tro.
 Han uthärdar inte vagnens skakningar.
@@ -5173,10 +5343,15 @@ Han vaknade sent.
 Han valde det senare.
 Han var Hallings fullkomliga motsats.
 Han var alldeles blåröd i ansiktet, torkade svetten ur pannan och andades tungt.
+Han var alldeles ensam.
+Han var alldeles förlamad av ängslan för att befriaren skulle bli upptäckt.
+Han var alldeles säker på att han skulle få svindel, om han försökte.
 Han var alldeles sönderslagen i ansiktet och grät.
 Han var alltid glad och arbetade med glädje.
 Han var amerikansk affärsman väldigt liten och allvarlig.
 Han var bara märklig.
+Han var blyg och försagd och såg sliten och fattig ut.
+Han var djupt inne i skogstrakten, och hästen strävade fram mot sydost.
 Han var emellertid nästan lika så utmärkt läkare som kirurg.
 Han var en av Finlands mera flitiga författare.
 Han var en av mina största desillusioner.
@@ -5186,17 +5361,23 @@ Han var en man.
 Han var en svag härskare och av ett melankoliskt lynne.
 Han var fascinerad av cyklar.
 Han var framme vid fyratiden följande dag på eftermiddagen.
+Han var framme!
+Han var från en ö långt ute i havet.
 Han var full och drunknade i en vattenpöl.
 Han var för elegant klädd.
 Han var hennes lärare.
 Han var här för att läsa sitt korrektur.
 Han var inte här efter elva.
+Han var inte i stånd att finna något ätbart.
 Han var inte precis skärgårdsbo fast han var född här utåt krokarna.
 Han var ju en bildad man och talade grönländska lika bra som danska.
 Han var ju på kaféet.
 Han var jävligt märklig.
 Han var lärare för Tomas från Aquino.
+Han var lång och ståtlig med ett vackert, men rätt dystert ansikte.
+Han var med och rospiggarnas båtar fylldes så småningom med de underbaraste ting.
 Han var med om min första hare och min första räv.
+Han var mycket fåordig denna morgon.
 Han var mycket ond, då han kom tillbaka.
 Han var nämligen luffare.
 Han var ond både på sig själv och henne.
@@ -5210,9 +5391,12 @@ Han var tillika målare, skald och musiker.
 Han var trasig, hungrig, full av längtan efter konst.
 Han var under en följd av riksdagar ombud för Lunds universitet.
 Han var utom sig av förtjusning.
+Han var verkligen så rädd, att hjärtat bultade i bröstet på honom.
 Han var väl omkring femtio år, då jag träffade honom.
 Han var yngre då, än jag är nu!
+Han vek av från gatan och kom in på kyrkogården.
 Han verkar ha betalt notan.
+Han vet inte hur järnet smältes ur malmen.
 Han vet skitmycket om en massa skit.
 Han vet vad han gjort.
 Han vet vad som menas med att vara still och tyst.
@@ -5239,6 +5423,9 @@ Han visslade lågt medan han snörde kängorna och drog mössan över öronen.
 Han visste att det var synd om honom, egentligen.
 Han visste att jag skulle svika honom.
 Han visste egentligen inte varför han tagit den med sig ut.
+Han visste inte själv vart.
+Han visste, att de hade varit som stora verkstäder, fulla av alla slags arbetare.
+Han visste, att detta var något, som måste göras.
 Han vred och vände på den, undrade, vilket underverk som fört den dit.
 Han vred sina mustascher och smålog förläget.
 Han vrålade uppemot taket.
@@ -5247,10 +5434,13 @@ Han vägrade milt.
 Han vägrar att äta.
 Han vände bort huvudet och kräktes.
 Han vände henne ryggen utan att svara.
+Han vände ryggen åt örnen och ville inte säga ett ord till honom.
+Han vände sig om och flydde.
 Han vände sig om, skyndade fram till henne, stammande.
 Han vände sig om.
 Han väntar på mig.
 Han växte, medan han talade.
+Han vågade inte röra sig, utan satt stilla och stirrade i spegeln.
 Han vågade inte vända sig om för att gå sin väg.
 Han är aldrig hemma.
 Han är andligen berikad.
@@ -5298,6 +5488,7 @@ Han är kock och hon är nog rektor, tror jag.
 Han är liten och jättesöt.
 Han är mera lik dig, samma spenslighet och din rödblonda hårfärg.
 Han är mycket egendomlig.
+Han är nog lika grå som de andra.
 Han är nog redan igång.
 Han är på kanten!
 Han är sjuk.
@@ -5342,6 +5533,7 @@ Hans folk hittade dig efter explosionen.
 Hans fru dog förra året.
 Hans fysik var inriktad på dem.
 Hans föräldrar var alkoholister.
+Hans gamla mamma var alltid det centrala i hans psyke.
 Hans hem skulle stå öppet.
 Hans historiska bibliotek tillhör numera Cambridges universitet.
 Hans hustru Johanna sitter i sängen bakom Johan.
@@ -5364,6 +5556,7 @@ Hans rika och utmärkt väl konserverade samlingar dels skänktes, dels såldes 
 Hans rykte på byn är inte det bästa...
 Hans röst lät trött, och i hans blick läste åtminstone jag besvikenhet och vemod.
 Hans röst verkade fullkomligt likgiltig.
+Hans semester skulle infalla i juni.
 Hans skisser från östra Finland är i detta avseende förträffliga.
 Hans svar kom så obehärskat och brutalt att hon ryckte till av häpnad.
 Hans tavla passade inte det minsta här, och det visste han säkert själv.
@@ -5414,6 +5607,7 @@ Har du hört om klocktorn?
 Har du hört på maken?
 Har du hört talas om fjärilseffekten?
 Har du inga kläder?
+Har du inte annat att klaga över?
 Har du inte fått upp det ännu?
 Har du inte hittat pengarna?
 Har du koll på hur många vi har på lager?
@@ -5438,10 +5632,13 @@ Har du provat att klättra förut?
 Har du receptet på Monas mockatårta?
 Har du sett Vincent?
 Har du sett din syster?
+Har du sett en skönare fågel?
+Har du sett en stad?
 Har du sett henne?
 Har du sett hur allt har gått till?
 Har du sett så blåa ögon de har?
 Har du sett vad som pågår?
+Har du sett vildgäss?
 Har du sett?
 Har du själv kommit ihåg cigaretterna? frågade den österländska prinsessan.
 Har du skött dig?
@@ -5454,6 +5651,7 @@ Har du tittat i garderoben?
 Har du träffat chefen?
 Har du tänkt mer på självmord?
 Har du upplevt det förr?
+Har du varit här länge?
 Har du verkligen byggt den här?
 Har en flaska gömd i tvättrummet också.
 Har en man bett dig stå här?
@@ -5467,6 +5665,7 @@ Har hon sagt till dig att hon bor här?
 Har hon tidning med sig? viskade han bedrövad till Rut.
 Har hört talas om den i staden.
 Har ingen smak och löser sig i alkohol.
+Har inte fattigvården tagit hand om er?
 Har inte kunnat förhöra honom ännu.
 Har inte redaktörn hört den?
 Har inte råd, sade hon med en hopplös suck.
@@ -5490,6 +5689,7 @@ Har ni flyttat, eller något sånt?
 Har ni förlåtit mig?
 Har ni förstått? viskade hon upprörd, hur förfärligt det här är?
 Har ni glömt vad vi talade om före kaffet?
+Har ni inte fått nog snart?
 Har ni kommit till Wien bara för att hjälpa oss?
 Har ni lakritsströssel?
 Har ni någon hemlängtan?
@@ -5507,6 +5707,8 @@ Har ni värk?
 Har någon pratat med dig?
 Har pastorn seglat?
 Har solen nu också ventiler och kan betjäningen inte behålla gasen?
+Har var mer missnöjd, än han kunde säga.
+Har var rädd för att en tjuv hade smugit sig in i stugan.
 Har vi mer än en kikare?
 Har vi några vegetarianer i sällskapet?
 Har vi råd med det?
@@ -5519,7 +5721,9 @@ Harry, kom ner hit!
 Harry, vars efternamn jag inte vet.
 Harry, älskar du mig?
 Hasse klev in och hundarna ylade.
+Havet låg framför dem, stort och obegränsat.
 Havet låg som en spegel och dunket från en innehållsrik motorbåt hördes långt utifrån.
+Havet var mjölkvitt.
 Heidenstam säger på ett ställe att den svenska aristokratins vardagsmat är palt.
 Hej store man.
 Hej så länge!
@@ -5605,6 +5809,7 @@ Herr Walter har bett mig komma hit klockan tre.
 Herr Walter omfamnade honom.
 Herrarna hade hoppat ur, det var en tredje med, en lång officer: Stefan.
 Herrarna har inte märkt att kvällsbrisen har kommit!
+Herrarna placerade sig med sina revolvrar och syntes svälla av säkerhet och sakkunskap.
 Herrarna är överens om att kärleken är ett fängelse.
 Herregud, den var bra!
 Herregud, det är farfar!
@@ -5724,9 +5929,12 @@ Hon hade lärt sina pojkar att läsa.
 Hon hade magrat.
 Hon hade planer att skapa nästa generations generatorer.
 Hon hade rest.
+Hon hade skrämt upp sig själv så att hon varken hörde eller såg.
+Hon hade stirrat på det där, som rörde sig på sandgångarna, tills ögonen glödde.
 Hon hade tydligen goda nerver, domaren gav upp henne för tillfället.
 Hon hade uppenbarligen blivit avbruten i sitt arbete genom den unge mannens ankomst.
 Hon hade varit nära döden, när man funnit henne.
+Hon hade varit rädd för att han skulle bli tokig.
 Hon hade väntat sig ett utbrott av förtjusning och blev förargad över denna kallsinnighet.
 Hon halkade in på ett bananskal.
 Hon har aldrig gjort så förr.
@@ -5796,6 +6004,7 @@ Hon menade väl för de små stackarnas skull där inne med sina tusenåriga ans
 Hon mumlade föraktfullt.
 Hon mumlade.
 Hon mår inte bra och hon är farlig.
+Hon måste göra det yttersta för lille Mats skull.
 Hon måste ha ändrat dem efter att ritningarna gjordes.
 Hon måste hastigt avgöra om hans idé var för grym och brutal.
 Hon mötte hans frågande blick.
@@ -5810,7 +6019,9 @@ Hon ryckte på axlarna.
 Hon räckte honom handen.
 Hon rörde sig först, då Hans sakta viskade.
 Hon sa något om att omrigga bomberna att kommunicera med varandra.
+Hon sade detta med en sådan värdighet, att pojken blev riktigt blyg.
 Hon sade ingenting om att gå ut och visade sig förtjusande på alla sätt.
+Hon satt kvar på stranden och grät.
 Hon satt och läste ett brev.
 Hon ska berätta om.
 Hon ska tala om mammor i karriären.
@@ -5857,6 +6068,7 @@ Hon svarade.
 Hon svarar inte.
 Hon såg dig på min Instagram.
 Hon såg flyktigt på honom och nickade.
+Hon såg inte alls förargad ut.
 Hon såg leende, häpna miner och ville sjunka i jorden.
 Hon såg stadigt på honom.
 Hon såg så bister ut på bilderna.
@@ -5878,15 +6090,19 @@ Hon travade envist på med Mozart i lurarna.
 Hon tror att jag är på.
 Hon trädde fram, litet blyg, litet orolig, och räckte honom handen.
 Hon tvekade aldrig.
+Hon tyckte snarare att allt var sig likt.
 Hon tyckte verkligen, att han var förståndig och praktisk.
 Hon tycktes förvånad över hans tystnad.
 Hon tycktes vara som gjuten i en helt enkel, mörk klänning.
 Hon tystnade och såg full av förväntan på kyrkoherden.
 Hon tänker svara.
 Hon tänkte ofta på tidningen.
+Hon tänkte på hans sista ord.
 Hon undrar om du kan stå modell.
 Hon uppskattade den inte.
+Hon vandrade bara framåt.
 Hon vann.
+Hon var alldeles för klok för sådant.
 Hon var alltför rik!
 Hon var alltså en olycklig människa på flykt från sin tillvaro!
 Hon var en exotisk orkidé som sökte rotfäste på Alvikens strand.
@@ -5990,13 +6206,17 @@ Hovrättens domslut ska därmed fastställas.
 Hovrättens domslut ska således fastställas.
 Hovrättens domslut står därmed fast.
 Hunden gjorde dem.
+Hunden reste på sig och spetsade öronen.
+Hunden stod som segrare, räven låg på marken och vågade inte röra sig.
 Hunden var inne i rummet, då jag gav befallningen.
+Hunden var liten och svart med gul bringa och gula framben.
 Hundra hemska hundar hovrar hotfullt.
 Hundvakten tar jag.
 Hur besegrade de dig?
 Hur blev det så här illa?
 Hur bromsar man?
 Hur coolt är det?
+Hur dags reser du?
 Hur djupt är döda havet?
 Hur fan kan du ge den där kläder?
 Hur fan kan du ge honom kläder, då du ser hur jag ser ut?
@@ -6012,6 +6232,7 @@ Hur gick konserten?
 Hur gjorde du det?
 Hur går det med bladen?
 Hur går det med evakueringen?
+Hur går det med husbonden?
 Hur går det på jobbet?
 Hur går det?
 Hur går spelet?
@@ -6021,9 +6242,13 @@ Hur hade du tänkt dig att det skulle gå till?
 Hur har Ligan det då?
 Hur har du det hemma?
 Hur har du fått fatt i den där?"
+Hur har du haft det i utlandet?
+Hur har du kommit in i stugan?
+Hur har hon kommit in bland sådant folk?
 Hur har ni så precisa siffror?
 Hur hittar vi hjärnan?
 Hur hittar vi honom?
+Hur i all världen skulle han bära sig åt för att bli människa?
 Hur jag kunde känna igen honom efter fyrtioett år.
 Hur kan du som är så klen vinna så ofta?
 Hur kan du veta att jag inte försöker göra det igen?
@@ -6074,14 +6299,17 @@ Hur mår du, egentligen?
 Hur mår du?
 Hur nära är det?
 Hur räknade de ut det?
+Hur ser det ut i utlandet?
 Hur ska du lösa det har du tänkt?
 Hur ska jag kunna styra en jätterobot?
 Hur ska jag kunna åka?
 Hur ska jag kunna övertala dig?
 Hur ska jag prata när det är barn här?
+Hur ska ni bära er åt?
 Hur ska ni komma in i det?
 Hur skall det gå med Sverige, gamle vän?
 Hur skulle Stina göra?
+Hur skulle de reda sig annars?
 Hur skulle detta kunna gå för sig?
 Hur skulle du översätta det då?
 Hur skulle en båt ta sig fram i vatten, om den inte hade sidor?
@@ -6093,6 +6321,8 @@ Hur som helst, vår korta men ärorika saga är snart all.
 Hur som helst.
 Hur stavar man till det?
 Hur ställer man ens frågan?
+Hur står det till med dig?
+Hur står det till med mor och far?
 Hur står det till?
 Hur säger man?
 Hur så?
@@ -6108,12 +6338,15 @@ Hur är det?
 Hur är läget med min lilla prinsessa?
 Hur är läget?
 Hursomhelst ska vi fånga honom.
+Husbonden blev på en gång alldeles tyst.
 Husen är antingen av lera eller av strå.
 Huset skulle rivas och byggas om.
 Huset var bjärt lila med ljusgula knutar.
+Husmodern hade varit glad och språksam.
 Hussein är tveksam om onsdagens arabiska firande kommer locka Dan.
 Hustrun märkte den och hon viskade.
 Huvudet kändes lätt och tungt på samma gång.
+Huvudet var större, benen var grövre och fötterna mer slitna än någon annans.
 Huvudförhandlingen intar en central plats i det processrättsliga systemet.
 Huvudregeln är att Patent- och marknadsöverdomstolens avgöranden i tvistemål och ärenden inte får överklagas.
 Huvudsaken är ändå att alla är friska.
@@ -6121,35 +6354,50 @@ Hyfsat mycket.
 Hädanefter skall det bli en ny ordning.
 Hädanefter utgjorde Charles hans ständiga samtalsämne.
 Hälsa din lekkamrat att jag inte skriver på.
+Hälsa och tacka!
 Hälsosam, där sa du ett sant ord för en gångs skull, avbröt Bernhard.
 Häng med nu.
 Hänger er åt äktenskapet.
+Här avbröt han sig och nickade och smålog åt sig själv.
+Här behöver ingen känna sig främmande och längta hem.
 Här bestämmer jag.
+Här blev det ett nytt avbrott i berättelsen.
 Här blir doften nästan bedövande i solskenet.
+Här bodde bönderna i riktiga herrgårdshus.
 Här dör jag av fruktan.
 Här fanns kött i havet, det var säkert.
 Här finns det fler kor än människor.
 Här finns ju ingen säng.
+Här får vi nog komma in.
+Här har du en till av de stora kvarnarna.
 Här har du handen!
+Här har du Åkerö.
+Här har jag nog den som skrämmer bort råttorna.
+Här har jag ridit med min Islandshäst över berg och utför berg.
 Här har ni haft fullt upp.
 Här har ni paketet från den långe officern.
 Här har vi den!
 Här har vi den.
 Här höll människan på att förinta sig själv med krig och förödelse.
+Här i Småland hade de ju bara fattigdom att vänta.
 Här i kyrkan!
 Här kan man bygga en veranda.
 Här kommer han.
 Här ligger två brev, varsågod!
 Här måste arbetas, men med vad?
 Här måste göras slag i saken.
+Här måste man krypa för att komma fram.
 Här presenterar jag trion.
 Här råder undervärldens kaos.
 Här sitter hon på marken med huvudet mot krubbans kant.
 Här ska inte borras.
+Här står något att läsa på ena sidan.
 Här syns man för mycket.
 Här trivdes Anders Zorn och tog gubbarnas hjärtan med storm.
+Här är annars inte så mycket att se.
 Här är den!
 Här är den.
+Här är det slut med deras herravälde.
 Här är detta landets medelpunkt, Klement.
 Här är en verkligt allvarsam attack mot försvaret.
 Här är ett täcke.
@@ -6158,6 +6406,8 @@ Här är hon på semester.
 Här är idyll, vaktad av skyhöga tallars allvarliga sus.
 Här är inga nya fakta, bara nya siffror.
 Här är jag, här stannar jag.
+Här är jag, var är du?
+Här är jag.
 Här är kommunismen genomförd i praktiken.
 Här är lä och stilla.
 Här är mitt kort.
@@ -6174,7 +6424,13 @@ Härligt att se dig hemfalla åt kriminellt språk, fader.
 Härligt, det ser jättefint ut!
 Häromdagen lämnade Bertil hamnen för att gråta.
 Härpå svarade Cesar ingenting.
+Häruppe började eken flytta sig framåt alltmer betänksamt.
+Härute var de utan skydd mot västanvinden.
+Hästen gick och ställde sig vid staketet.
+Hästen gick på ganska raskt i alla fall och visade ingen tvekan.
+Hästen hade aldrig gått vilse förut, och den gjorde det nog inte nu heller.
 Hästen sprang in längs viken.
+Hästen vållade honom emellertid nya bekymmer.
 Håkan Carlssons undervisning fick Lotta ut på arbetsmarknaden.
 Håll bössan i ordning!
 Håll det på din sida.
@@ -6182,10 +6438,13 @@ Håll ett öga på henne.
 Håll huvudet kallt, bara.
 Håll kvar foten där så händer inget.
 Håll käften, allihop!
+Håll nu på, så att jag får höra vart du vill komma!
 Håll oss inte i ovisshet.
+Håll stilla nu!
 Håll till godo och god jul, käre bror!
 Håll till godo!
 Håll ut, tidvattnet är snart här!
+Håret låg slätt och blänkte i solskenet.
 Högst underbar!
 Högst underbart!
 Högsta domstolen avvisar yrkandet om ersättning för kostnader i hovrätten.
@@ -6201,10 +6460,12 @@ Hör du ens vad jag säger?
 Hör du inte hemma nere bland vassruggarna?"
 Hör du inte vad jag säger?
 Hör du, Johanna, ropade han inåt köket.
+Hör hur de skramlar!
 Hör inte Engström en motor?
 Hör man på.
 Hör ni änglakören i bakgrunden?
 Hör ni, det där lät jättebra!
+Hör nu på vad jag säger dig!
 Hör nu, Danielsson, vad menade Danielsson egentligen med sex, sju och åtta?
 Hör nu, Marianne, tänker du gifta dig med honom?
 Hör på Stina, det har på något vis hakat upp sig i din hjärna.
@@ -6215,6 +6476,7 @@ Hör på, ingen måste dö.
 Hör på, ritningarna för batteriet borde finnas i labbet.
 Hör på, vi kan inte vänta.
 Hörde du det?
+Hörde du inte, att jag vill ha mat?
 Hörde du också det där?
 Hörde du vad jag sa?
 Hörni, ta det lugnt!
@@ -6253,9 +6515,11 @@ I dag, om du vill.
 I dalarna är växtligheten tropisk såväl till arternas mångfald som till individernas utveckling.
 I de skandinaviska länderna har titeln aldrig förekommit.
 I den finns en artikel av mig!
+I denna ordning for de fem fåglarna mot norr, så långt som landet räckte.
 I dessa böcker hade hon hittat namn på sina katter.
 I det här vädret kan båten inte stå så fast.
 I det ögonblicket såg han faktiskt döden.
+I detsamma gav vargarna upp ett vilt tjut.
 I detsamma passerade en oblygt halvklädd ung kvinna och nickade välbekant åt poliserna.
 I detta som i alla andra avseenden.
 I detta ögonblick tappade Stina tråden i debatten.
@@ -6296,6 +6560,8 @@ I morgon gräver vi vallar och börjar plantera.
 I morgon klockan två?
 I morgon kommer jag till stationen med dina saker och talar med dina föräldrar!
 I morgon låter det nog på annat sätt, då blir det tårar.
+I morgon, när hon känner sig hemmastadd, kommer hon både att äta och leka.
+I morgon, när jag vaknar, finns nog inte en enda gråråtta på Glimmingehus.
 I måndags fick jag äntligen min älskade video med brusig bild och svajigt ljud.
 I månskenet såg jag att den ene av dem hade ett igenmurat öga.
 I närheten av staden ligger ruiner av ett torn från romartiden.
@@ -6309,14 +6575,22 @@ I sig själv är köttet brunt och grått, när det legat.
 I sinom tid.
 I sista ögonblicket.
 I själva verket studerade hon ingenting alls.
+I sjöarna samlade sig stockarna i sådan mängd, att de täckte hela deras yta.
 I skärgården rustar man sig att möta det eventuella förbudet.
+I slutet av juli gick jag hem igen för att hjälpa till med skörden.
+I somliga byar är inte bara ett, utan två, tre stora risbål hopplockade.
 I staden finns fyra andra kyrkor och flera mindre kapell.
+I stället låg han stilla, som om hela saken inte hade angått honom.
+I stället ryckte han luvan av huvudet, svängde den i luften och hurrade.
 I stället är det penningtvättssyftet som är det centrala.
+I sydöstra Skåne inte långt från havet ligger en gammal borg, som kallas Glimmingehus.
 I synnerhet om du skriver själv om madonnan som greven ville.
 I så fall har jag, bara jag kan få in mamma!
 I så fall skulle jag som regel gjort dem vackrare.
 I så fall är jag skyldig dig pengarna.
+I södra delen fanns inte mycket, som kunde fängsla blickarna.
 I söndagens Aktuellt presenteras nya siffror om barns intag av socker.
+I taket fanns gapande hål, och dörrarna hängde snett på brustna gångjärn.
 I tanke att det var Putte, rusade jag gladeligen ut för att öppna.
 I tisdags fick svenskarna stryk för första gången sedan i somras.
 I traktens herrgårdar ställdes även till kalas, men maten spelade därvid den minsta rollen.
@@ -6326,17 +6600,20 @@ I två av dessa fakturor angavs att fakturering skett enligt avtal eller entrepr
 I varje fall känner ni till vår överenskommelse.
 I vart fall var brottet inte att anse som grovt.
 I vänstra handen höll han en revolver och i den högra en batong.
+I vänstra handen höll han en trätavla.
 I väntrummet fanns en klocka som med oändlig möda släpade sina visare runt.
 I vår nuvarande skala är det sjätte tonen.
 I vår tänker vi bli med podd!
 I våra texter kunde vi verkligen koka en soppa på en spik.
 I äktenskapsbalken finns det däremot inte någon regel om ogiltighet eller jämkning av bodelningsavtal.
 I äldre svensk poesi är sådana dikter vanliga.
+I år som i fjol.
 I år tänkte hon vara ute i god tid med julklapparna.
 I år är marken för våt.
 I övriga frågor är jag enig med majoriteten.
 I övrigt har ministern inget att tillägga.
 Ibland hördes hasande steg på övervåningen.
+Ibland kastade de blickarna över åt andra stranden.
 Ibland spöar hon mig.
 Ibland tror jag att grabben kan komma att göra slut på sig själv.
 Ibland tände jag för att se efter om några levde.
@@ -6355,6 +6632,8 @@ Inga brunnar syntes.
 Inga deltagare ville beskriva sina känslor innan premiär.
 Inga fler ursäkter.
 Ingen advent utan lussekatter!
+Ingen av dem blev förvånad att se den andra.
+Ingen av dem hade någon lust att pröva hans handslag.
 Ingen av dem hade någonsin sett något liknande förut.
 Ingen av dem har något lokalsinne.
 Ingen av dem kände något intresse för denna valrörelse.
@@ -6362,6 +6641,8 @@ Ingen av dem var klar ännu.
 Ingen av dem är någon värdig vinnare.
 Ingen av oss fastnar på bild längre.
 Ingen av oss visste vad vi skulle göra.
+Ingen behöver vara ängslig när jag är med.
+Ingen behöver vara ängslig så länge som jag är med.
 Ingen betvivlade, att han en dag skulle bli minister.
 Ingen bra start.
 Ingen bryr sig om det.
@@ -6371,12 +6652,16 @@ Ingen fick komma in.
 Ingen får bli skadad.
 Ingen hade någon plan B.
 Ingen har bott där på flera år.
+Ingen i hela världen var så olycklig som han.
 Ingen i skogen är så vacker som du, du, du.
 Ingen kan se in i framtiden.
 Ingen klok människa tror på djävulen längre.
 Ingen kommer att hjälpa oss.
 Ingen kunde vara mera mild och god än den lilla grågåsen Dunfin.
+Ingen människa rörde sig på gårdsplanen.
+Ingen människa syntes till.
 Ingen orsak alls, svarade jag lättad och gick mot dörren.
+Ingen på hela bruket kunde få en blund i ögonen.
 Ingen respekterar oss, för vi är stipendieungarna.
 Ingen ringer polisen, kompis.
 Ingen rör sig!
@@ -6390,15 +6675,22 @@ Ingen sviker!
 Ingen särskild anledning.
 Ingen trodde på honom från början.
 Ingen tvingar dig.
+Ingen tänkte nu mer på att strida.
+Ingen var rädd för honom.
 Ingen vet om vi har resurser att skydda lantbrukarna.
 Ingen vet vad som egentligen hände.
 Ingen vågade bråka med honom och hans vilda, starka, vackra pojkar.
 Ingen är ansvarig för den här mannens död.
 Ingenting fanns där heller att vila ögonen på utom en rad porträtt av landshövdingar.
+Ingenting fick lov att riktigt breda ut sig.
 Ingenting hade i själva verket förändrats.
+Ingenting hörde han heller.
 Ingenting kan växa.
 Ingenting kom.
 Ingenting mer?
+Ingenting var runt, och ingenting var krokigt.
+Ingenting var sådant som hon var van vid.
+Ingenting är så svårt som att vara skuldsatt.
 Inger Eklund är tillsammans med morfar de invånare som gjort störst framsteg.
 Inger föreslås bli ny chef för radions vetenskapliga redaktion.
 Inget du säger eller gör kan förhindra det.
@@ -6411,8 +6703,11 @@ Ingvar Kraft hävdade bestämt att Riksdagen borde besluta om mer pengar till fo
 Ingår det i din årskurs?
 Innan han hunnit ut ur rummet var fadern i dörren.
 Innan han talat ut låg Svenska Dagbladet på golvet.
+Innan mor hade gått bort hade hon försökt att ordna litet för sina barn.
 Innan var hon läkare på en kasern.
 Innan vi tillbringar resten av våra liv tillsammans.
+Innanför porten fann han en öppen plats, belagd med stora, jämna stenflisor.
+Inne i järnverket höll de på med bessemerblåsning.
 Inom det yrket ryms då hela världens idioter.
 Inom en halv minut var katastrofen dold av en myllrande hop.
 Inom parentes finns där inga ormar.
@@ -6425,12 +6720,14 @@ Inställd tävling på måndag tyder på ett svek från arrangörerna.
 Instämmer, sade Anna Nöjd och reste sig också.
 Instängd hos stinsen?
 Inte alla är som du.
+Inte behöver du svälta, när du har en örn till reskamrat.
 Inte behöver man pengar.
 Inte bra, min herre.
 Inte dem heller, men jag menade judarna.
 Inte du heller.
 Inte du igen!
 Inte du med.
+Inte därför att det skulle bli för dyrt.
 Inte en båt så långt man såg.
 Inte en vindfläkt kändes.
 Inte enligt utvärderingen.
@@ -6438,6 +6735,7 @@ Inte ens Märta visste hur tydligt Stinas inträde i riksdagen gjort sig kännba
 Inte ens fem säckar.
 Inte ett dugg!
 Inte ett dugg, sade flickan och satte näsan i vädret.
+Inte ett enda av de många vilddjuren fanns kvar där.
 Inte ett ord förrän efter min död!
 Inte ett ord!
 Inte ett steg närmare.
@@ -6445,11 +6743,16 @@ Inte för att ni skulle sätta på.
 Inte förstår jag vad vi gjort för att förtjäna straffet att leva.
 Inte heller är avtalslagens bestämmelser om ogiltighet och jämkning direkt tillämpliga på sådana avtal.
 Inte hemmafru.
+Inte i år.
 Inte illa.
 Inte jag heller.
 Inte just nu.
 Inte kan jag heller skriva sentimentalt om årens snö och den flyende ungdomen.
 Inte kan jag rå för att berättelsen slutade illa.
+Inte kommer ni till Öland på det där sättet.
+Inte kunde de stanna kvar på Öland för min skull.
+Inte kunde det ligga en stor bondgård undangömd i skogen heller?
+Inte kunde han förbjuda henne att begrava sin bror som hon ville.
 Inte med alla problem här.
 Inte med satmaran där hemma.
 Inte mitt problem.
@@ -6471,6 +6774,7 @@ Inte var den så värst mycket mångmiljonär.
 Inte var det därför Gud skapade världens sköna mångfald.
 Inte vet jag, du skulle kunna vara styckmördare?
 Inte vet jag.
+Inte vågade jag tro att du skulle komma före oss till mötesplatsen.
 Inte vår fest.
 Inte är det arbetarnas regering!
 Internet slutade fungera!
@@ -6479,6 +6783,7 @@ Intresset stegrades.
 Intresssanta händelser hon studerat kunde bli mindre sköna när de framställts i text.
 Investerade allt vi hade, och mer därtill.
 Invändningarna om att förhören är bristfälliga får inte stöd av utredningen.
+Inåt land är den stora muren bäst bibehållen.
 Irriterande liten man.
 Isaksson väntade en tid, men behövde sina pengar och återkom med sin begäran.
 Isen bryter upp!
@@ -6506,24 +6811,32 @@ Ja, Engström, om du visste hur trött jag är!
 Ja, Sara måste medge att så kunde läget vara.
 Ja, absolut.
 Ja, allting är.
+Ja, bara de blir vuxna.
 Ja, de också.
 Ja, de växer som ogräs men jag låter dem hållas.
 Ja, de är inte där.
 Ja, den mystiske ryssen.
+Ja, den som det visste bara!
+Ja, det arbetades överallt för att kunna ta väl emot våren, också i städerna.
 Ja, det borde du veta.
+Ja, det där var den första lotten.
 Ja, det där är inget att tänka på.
 Ja, det faller sig bra.
 Ja, det får du.
 Ja, det gjorde vi.
+Ja, det går an.
+Ja, det gör det.
 Ja, det gör jag nog.
 Ja, det har hon, direktörn!
 Ja, det kunde ju inte hjälpas då, men platsen var inte lämpligt vald.
 Ja, det lovar jag.
+Ja, det måste det säkert ha varit.
 Ja, det såg verkligen trevligt ut i gästrummet.
 Ja, det tycker jag bättre om.
 Ja, det var den käringen!
 Ja, det var det.
 Ja, det var en italienare, han kallades för doktor.
+Ja, det var för väl, att vi kom hit.
 Ja, det var inte så pjåkigt.
 Ja, det var just kolet som fattades.
 Ja, det var sant, hon, just hon, hade givit hans fiender vapen i händerna.
@@ -6555,6 +6868,7 @@ Ja, där var ett liv på den tiden!
 Ja, då går jag och lägger mig.
 Ja, då hade hon slutat att gråta, tagit honom på orden.
 Ja, då kanske vi har sett vad som är att se.
+Ja, då ska det få bli, som du vill.
 Ja, då tackar jag då, för du har väl ingen användning för den.
 Ja, en tax som heter Sune.
 Ja, fru Ek.
@@ -6578,6 +6892,7 @@ Ja, hon var en lycklig mor och en olycklig mor.
 Ja, hygglig har hon varit hela sitt liv och släpat och slitit.
 Ja, här ligger jag och frisknar till för var dag.
 Ja, här är ingenting att göra.
+Ja, håll dig nu stilla!
 Ja, hör du kära Otto, jag har verkligen inga pengar mera.
 Ja, i alla fall i min skola.
 Ja, i morgon klockan fem.
@@ -6637,6 +6952,7 @@ Ja, naturligtvis måste de ha barnmorska, ifall något skulle hända.
 Ja, naturligtvis, låt mig höra.
 Ja, naturligtvis.
 Ja, nog har Albert fått lära sig att inte stjäla.
+Ja, nog är här vackert.
 Ja, nu har jag till grisen och hönsen och far för hela vintern.
 Ja, nu väntar vi bara på tillstånd från länsstyrelsen.
 Ja, nu är en man borta, som har spelat en stor roll.
@@ -6651,6 +6967,7 @@ Ja, på Jannes ansvar får han väl fortsätta då!
 Ja, sade fadern, så är det jämt.
 Ja, sade han, ty nu är jag helt och hållet övervunnen.
 Ja, sade hon och blev olycklig över att ha rodnat.
+Ja, sade pojken, det kan jag väl göra.
 Ja, se på mig.
 Ja, sedan blir det ännu kinkigare.
 Ja, snart.
@@ -6660,6 +6977,7 @@ Ja, så fort jag kommer till Jamaica.
 Ja, så gick det till på den tiden!
 Ja, så här skulle jag kunna hålla på många dagar och berätta.
 Ja, så länge det inte sabbar våra planer.
+Ja, så måste det vara.
 Ja, så var det i morse!
 Ja, tack vare min energi.
 Ja, till slut.
@@ -6748,6 +7066,7 @@ Jag blev intresserad och hoppade i kläderna.
 Jag blev kuggad två gånger.
 Jag blev rädd, jag erkänner det, och hade helst velat vara hemma vid stationen.
 Jag blev till och med litet rädd för ensamheten.
+Jag blev visad in i hans lya.
 Jag blev överkörd, av brandbilen, som skulle dränka revolutionen.
 Jag blir bara trött.
 Jag blir hög!
@@ -6763,12 +7082,14 @@ Jag borde nog stanna här.
 Jag borde stanna och hjälpa er med marken.
 Jag borde vara van nu, men vissa dagar kan man knappast andas.
 Jag brukar börja med att ta fram alla ingredienser som behövs.
+Jag brukar inte vara så här svag.
 Jag brukar jobba ute på lagret.
 Jag brukar låta dem stå tills topparna börjar skifta i turkos.
 Jag brukar spela med högre insatser.
 Jag brukar ta med en termos kaffe.
 Jag brydde mig bara om mig själv.
 Jag bryr mig fan inte.
+Jag bryr mig inte om att bli människa.
 Jag bryr mig inte!
 Jag bryr mig inte, hon är huvudaktieägare.
 Jag bryr mig inte.
@@ -6836,7 +7157,9 @@ Jag frågar ju, eller hur?
 Jag funderar på att stämma honom.
 Jag får inte ens tag i en liten skit.
 Jag får inte loss den.
+Jag får lov att säga dem min mening rent ut.
 Jag får solen i ögonen!
+Jag får säga, att det här är riktigt karlgöra.
 Jag följer med.
 Jag föll pladask.
 Jag föredrar att inte göra det.
@@ -6849,9 +7172,11 @@ Jag förmodar att du blir kvar tills vi fått tag på honom.
 Jag förmodar att du gärna vill behålla ditt klipp.
 Jag förnekar det ej.
 Jag förolämpade hans vän.
+Jag förstod att han hade tråkiga minnen därifrån och slutade att forska.
 Jag förstod att lyckan skulle vara en dam.
 Jag förstod den ångest, som glödde bakom den lugna ytan.
 Jag förstod inte faran och detta oförstånd har följt mig ända till denna dag.
+Jag förstod vad hon sade, fast jag inte kunde svara henne.
 Jag förstår att du önskar avfolka första kammaren.
 Jag förstår det.
 Jag förstår inte hur baggen hann med att göra allt så fort!
@@ -6880,6 +7205,7 @@ Jag gick in på skogsvägen.
 Jag gick närmare.
 Jag gick rakt mot honom och smög mig av fri vilja i hans famn.
 Jag gick sakta ut i bara skjortan.
+Jag gick sedan jag tvättat av blodet i ån som jag nyss talade om.
 Jag gick.
 Jag gillade klocktornet.
 Jag gillar det inte.
@@ -6940,6 +7266,7 @@ Jag hade skapat mig en chimär och suggererat mig själv att tro på den.
 Jag hade trott att han skulle se mera ut som en hjälte.
 Jag hade verkligen dåligt samvete, och ett sådant är inte den bästa huvudkudden.
 Jag hann inte ta något kort på den.
+Jag har aldrig haft det så bra som här hos er.
 Jag har aldrig haft en sådan stund.
 Jag har aldrig hört talas om någon författare, som heter Bengtsson.
 Jag har aldrig känt det.
@@ -6949,6 +7276,7 @@ Jag har aldrig sett någon så upphetsad av att sitta vid ett skrivbord.
 Jag har aldrig sett någon vända om två gånger!
 Jag har aldrig sett så mycken nattlig och daglig trafik bland kobbar och skär.
 Jag har aldrig träffat någon man som gör det.
+Jag har aldrig tänkt mig, att ett djur kunde vara så ståtligt.
 Jag har aldrigt satsat någonting.
 Jag har alla fakta och siffror.
 Jag har allt.
@@ -6962,6 +7290,7 @@ Jag har bara döttrar.
 Jag har bara ett salongsgevär, suckade Edvin.
 Jag har bara motorcykelkort.
 Jag har bara roligare.
+Jag har bara tagit mig ett morgonbad.
 Jag har besökt otaliga planeter.
 Jag har betalat underhåll till honom samtidigt som jag tar hand om barnen.
 Jag har bett om att få askan från bilen till laboratoriet.
@@ -6996,6 +7325,7 @@ Jag har frågat mig det i elva år och vet det inte än.
 Jag har funderat på att skaffa hund.
 Jag har funderat på den här maskinen.
 Jag har funderat på saken ett tag och jag har skaffat ett jobb.
+Jag har fått hem en liter.
 Jag har fått klart för mig, att jag är en varelse med människovärde.
 Jag har fått nog av spelande för tillfället.
 Jag har fått nog!
@@ -7042,6 +7372,7 @@ Jag har inte kunnat.
 Jag har inte mått så bra på sistone.
 Jag har inte riktigt det på mig just nu.
 Jag har inte sagt nåt till Thomas.
+Jag har inte sett dig på hela veckan.
 Jag har inte sett henne på många år.
 Jag har inte sett honom på åtta dagar.
 Jag har inte sökt uppmärksamhet.
@@ -7051,8 +7382,10 @@ Jag har ju berättat.
 Jag har ju sagt att du har ett intressant ansikte.
 Jag har ju tiggt om ditt så kallade prat.
 Jag har just flera uppdrag åt dig.
+Jag har just hållit på att gräva upp ett par märgelgravar.
 Jag har kokt in hälften och stekt hälften.
 Jag har kollat, det är inte kondensatorn.
+Jag har kommit för att tala med dig om din bok.
 Jag har kommit hit
 Jag har kommit på andra tankar.
 Jag har kontrollerat information om området och inte funnit några problem.
@@ -7098,11 +7431,13 @@ Jag har sovit i fyra timmar.
 Jag har stånd.
 Jag har stått på den så länge.
 Jag har svarat på frågorna förr.
+Jag har sällan sett fåglar med så präktig hållning.
 Jag har så gott som bjudit herr Halling på middag.
 Jag har så mycket att tänka på.
 Jag har tagit med mig rosor åt dig!
 Jag har talat med hotellchefen.
 Jag har talat med min morbror, han är orolig över pappas magblödningar.
+Jag har talat om för dig hur jag har det.
 Jag har tre döttrar.
 Jag har träffat många som kunnat slåss både nyktra och berusade.
 Jag har tyvärr inget att bjuda på.
@@ -7115,6 +7450,7 @@ Jag har verkligen också hoppats på kvinnorna förr.
 Jag har väntat på en i tre år.
 Jag har växlat det lilla jag hade till pund och shillings.
 Jag har ytterligare krav.
+Jag har ännu inte flyttat över till Glimmingehus, utan jag bor kvar i Pommern.
 Jag har ättiksflaskorna i båten.
 Jag har åtminstone fått tillbaka halsbandet.
 Jag hatar den där bilen.
@@ -7217,6 +7553,8 @@ Jag klarar inte blommiga tapeter!
 Jag klarar inte det här längre.
 Jag klarar mig.
 Jag klarar tydligen inte ens att baka vanliga chokladbollar.
+Jag klädde mig originellt.
+Jag klädde mig under tiden för en eventuell rodd ut till havs.
 Jag knogar på, för jag förstår att bolaget har sina svårigheter.
 Jag kollar sovrummen på övervåningen.
 Jag kom in i ateljén, ett stort rum med röda väggar.
@@ -7241,6 +7579,7 @@ Jag kommer senare.
 Jag kommer snart att skriva krönikor sex fot under jorden.
 Jag kommer strax.
 Jag kommer säkerligen att dö den trettonde.
+Jag kommer till stationen.
 Jag kommer tillbaka.
 Jag kommer åt min laptop.
 Jag kommer.
@@ -7388,6 +7727,7 @@ Jag rasade, jag grät.
 Jag representerar ju ungdomen, även om jag på samma gång representerar en tidning.
 Jag respekterar ditt beslut.
 Jag reste dit med ett brev till greven från fröken.
+Jag reste mig upp och sköt lugnt.
 Jag reste till Paris ett år huvudsakligen för att ta reda på Otto.
 Jag ringde bruden som sköter bokningar.
 Jag ringde bruden.
@@ -7436,6 +7776,7 @@ Jag ser fram emot det!
 Jag ser för löjlig ut.
 Jag ser, att du ämnar att gå din väg, Handfaste.
 Jag simmade en halv kilometer igår.
+Jag sitter och drömmer, att jag svävar fri omkring högt uppe i luften.
 Jag ska bara höra med min kollega lite snabbt.
 Jag ska befria dig med kirurgisk precision.
 Jag ska berätta hemligheten för dig.
@@ -7457,6 +7798,7 @@ Jag ska hjälpa dig.
 Jag ska ingenstans.
 Jag ska inte börja snacka skit nu.
 Jag ska inte hjälpa dig hålla på.
+Jag ska inte kasta mig ner från kråkryggen, det lovar jag er.
 Jag ska inte ringa dig hela tiden.
 Jag ska inte skvallra.
 Jag ska kasta dig i poolen.
@@ -7473,6 +7815,8 @@ Jag ska se om jag hittar honom.
 Jag ska skaffa mer att dricka.
 Jag ska skapa en ny framtid.
 Jag ska skapa ett nytt land i min avbild.
+Jag ska säga dig varför de vill torrlägga sjön just nu.
+Jag ska sätta mig däruppe i den täta talltoppen och vänta på dig.
 Jag ska ta ett dopp.
 Jag ska tyvärr shoppa.
 Jag ska ut och skaffa lite fräknar!
@@ -7520,6 +7864,7 @@ Jag skulle aldrig lämna mina barn.
 Jag skulle aldrig ta på mig ett par rutiga byxor.
 Jag skulle behöva ta bort hjulen och ta isär ramen.
 Jag skulle berätta all information och du avbröt mig.
+Jag skulle bli glad att kunna göra nytta för mig.
 Jag skulle ge dig smärtstillande, men du spydde upp alla tabletter.
 Jag skulle gärna vilja gå dit ett tag.
 Jag skulle gärna vilja trycka hans hand.
@@ -7580,6 +7925,7 @@ Jag stör visst.
 Jag störtade upp och klädde mig så hastigt jag kunde.
 Jag stöttar dig så det blir inget sött trots att det är min dag.
 Jag sumpade det.
+Jag svarade inte.
 Jag svär att respektera er.
 Jag swishar dig sen!
 Jag säger det för att jag älskar dig.
@@ -7628,15 +7974,19 @@ Jag trodde aldrig att du skulle kunna agera av ren girighet.
 Jag trodde alldeles nyss, att hon skulle tilltala oss.
 Jag trodde att du skulle vilja vara vackrare.
 Jag trodde att hon aldrig skulle gå!
+Jag trodde att mor Akka hade skickat honom för att hämta mig.
 Jag trodde detta var över.
 Jag trodde inte att du lyssnade.
 Jag trodde inte att min hustru hade rätt och att faran var överhängande.
 Jag trodde inte mina öron.
+Jag trodde inte, att du brydde dig så mycket om min mening.
 Jag trodde ju att jag var vid vägs ände.
 Jag trodde ju det, men nu gör du mig osäker.
 Jag trodde mest att du undvek mig.
 Jag trodde verkligen inte, att du skulle vara så sjåpig.
 Jag trodde, att mitt giftermål var mera allmänt bekant.
+Jag trodde, att ni inte tänkte ge mig någon mat i kväll.
+Jag trodde, att vi var ovänner, du och jag.
 Jag tror att Heidenstam någonstans har sagt att den svenska aristokratins vardagsmat är paltbröd.
 Jag tror att den har gått i baklås.
 Jag tror att det var flera tusen.
@@ -7679,12 +8029,17 @@ Jag tror inte att någon såg mig.
 Jag tror inte han kan simma faktiskt.
 Jag tror inte han är riktigt frisk.
 Jag tror inte hon är så förtjust i glitter.
+Jag tror inte, att de vill göra något sådant.
+Jag tror inte, att jag har varit i värre fara på den här resan.
 Jag tror knappast.
 Jag tror knappt mina ögon.
 Jag tror på goda önskningars makt.
 Jag tror varken vi har nämnt skalbaggar eller gråsuggor ännu?
 Jag tror verkligen, att hon är svartsjuk.
 Jag tror, att få studenter ha varit så glada som jag.
+Jag tror, att hon för med sig den ende, som kan hjälpa mig.
+Jag tror, att hålet är tillräckligt stort redan.
+Jag tror, att människorna vill bli ensamma på jorden.
 Jag träffade telegrampojken utanför.
 Jag tvingade honom att ringa dig.
 Jag tvivlar på att diamanterna är äkta.
@@ -7722,6 +8077,7 @@ Jag tänker hämta dem nu.
 Jag tänker inte ge upp.
 Jag tänker inte ljuga.
 Jag tänker inte riskera livet för några jävla smycken och gamla bärbara datorer.
+Jag tänker inte stanna här på skäret.
 Jag tänker köpa honom en teflonpanna.
 Jag tänker mänskligheten tänker som en individ, sade Rut.
 Jag tänker segla folk till Östhammar eller vart de vill.
@@ -7736,12 +8092,16 @@ Jag tänkte baka en enkel tårta och kanske köpa nåt bubbel?
 Jag tänkte berätta det, men har inte fått tillfälle.
 Jag tänkte efter och svarade.
 Jag tänkte endast på ditt bästa och i någon mån på riksdagens.
+Jag tänkte förstås, att nu var det ute med mig.
 Jag tänkte ha den på nyårsfesten.
 Jag tänkte inte igenom det.
 Jag tänkte laga middag i kväll.
 Jag tänkte till och ut din dödsruna.
 Jag tänkte väl det.
 Jag tänkte, men så hade jag liksom inte mod.
+Jag undrar just var någonstans en människa skulle kunna ligga gömd härnere.
+Jag undrar just vart vi ska kunna flytta för att få vara i fred.
+Jag undrar om du ville hjälpa mig med att fånga en räv i natt.
 Jag undrar om jag inte i själva verket är oerhört moderlig.
 Jag undrar om jag kan få måla av dig?
 Jag undrar om mina föräldrars död gjorde mig lite galen.
@@ -7968,6 +8328,7 @@ Jag är färdig om en kvart.
 Jag är för fan din chef.
 Jag är för gammal, sånt får ni yngre ta itu med.
 Jag är för kall.
+Jag är för trött att göra något i kväll.
 Jag är försenad till min ridlektion, men jag kan ta hand om det också.
 Jag är förvirrad.
 Jag är gammal.
@@ -8105,11 +8466,13 @@ Jo, Franz hade ett dunkelt minne av att någon gång hört detta.
 Jo, av alla människor, med undantag för Stina.
 Jo, det berättade Fåröborna.
 Jo, det gör det, men det involverar inte mig.
+Jo, det har gått utför med koppartillverkningen sedan den tiden.
 Jo, det har jag, men jag är en förlorad son.
 Jo, det kan du vara lugn för!
 Jo, det måste jag.
 Jo, det ska ni.
 Jo, det skulle Dagny nu tala om till punkt och pricka.
+Jo, det var ju barnen glada att få göra förstås.
 Jo, det vet ni.
 Jo, det är följden av att ge er en ytlig, boklig uppfostran.
 Jo, det är nog riktigt!
@@ -8119,15 +8482,19 @@ Jo, friheten att säga vad jag vill.
 Jo, fru Sjöholm och hennes man kommer jag mycket väl ihåg.
 Jo, för all del.
 Jo, för vi startar vårt företag, det måste han.
+Jo, han var bra lycklig när det nu bar i väg söderut.
 Jo, herrn.
 Jo, hon är naturligtvis död.
 Jo, i morgon.
 Jo, jag försäkrar det.
+Jo, jag hör hur det knäpper.
 Jo, jag hörde!
 Jo, jag liknar en flicka som fått medlidande.
 Jo, jag märker att du är omöjlig.
 Jo, jag tackar, jag!
 Jo, jag tittar på den nu.
+Jo, jag tänkte, att du skulle sätta eld på de här byggnaderna.
+Jo, jag är just den rätte, jag, att hjälpa någon.
 Jo, just han.
 Jo, min käre vän.
 Jo, naturligtvis, en massa fruar får hushållspengar av sina män, som trälar för dem.
@@ -8164,6 +8531,7 @@ Ju mer händerna brände, ju mer ryggen och armarna värkte, dess bättre.
 Julia flydde vardagen och ägnade sig åt sina intressen varje eftermiddag.
 Just det svenska draget, svaghet för utlänningar.
 Just det, menar jag.
+Just det, som han berättar, ska jag skriva i min bok.
 Just där jag ligger är en springa mellan plankorna, så jag har utkik.
 Just då lokalen skulle stängas, kom mannen med träbenet igen.
 Just en skön logik.
@@ -8189,6 +8557,7 @@ Kalles porträtt blev bättre, observera händerna.
 Kampfiskmat eller mygglarver.
 Kamrater försökte narra honom, och det genomskådade han.
 Kamraterna säger, att hon är en riktigt fanatisk liten agitator.
+Kamraterna ville hissa gubben, men jag lyckades avstyra det.
 Kan det vara järnvägsräls?
 Kan det vara mera hädiskt och oanständigt än verkligheten?
 Kan du betala dem ett brudpris nu?
@@ -8318,12 +8687,15 @@ Karr är i närheten.
 Karr, det är jag som har gjort ogärningen.
 Karusellen var som hämtad ur en saga.
 Katherine blev rasande populär innan hon dömdes för obetalda avgifter.
+Katten öppnade litet på ögonen, så att den gröna elakheten började lysa fram.
 Kattungen föll ner i tuban och fastnade.
 Kedjan beslöt att löftet om cykel på köpet skulle hållas.
 Kenneth blev arbetslös efter att Vattenfall stängde verket.
 Kerstin strider för att hennes metod ska införas i allsvenskan i ishockey.
 Killen med gröna mössan är min kusin.
 Killen tror att han kommer bli lycklig med ett vikariat.
+Kistlocket var stängt, och flughåven hängde på sin vanliga plats i fönstret.
+Kittla honom under strupen, och dunka honom i ryggen!
 Kjell-Olof Feldt fick anpassa sitt språk i intervjun med Kamratposten.
 Klackar klär dig, Måns!
 Klara dagar kan man se till Madagaskar.
@@ -8350,6 +8722,7 @@ Klä av dig bara!
 Klä på dig.
 Klädde du på mig?
 Knackar du på först?
+Knappt hade hon sagt detta förrän hela duvflocken höjde sig och flög bort.
 Knuffa den jäveln!
 Knölvalarnas sång ljuder vemodigt genom djupet.
 Kokerskan stod i närheten, men missen själv syntes inte till.
@@ -8441,6 +8814,7 @@ Kom då aldrig mitt namn?
 Kom då ombord och ät middag med de vänner du själv vill utse.
 Kom då! Kom då!
 Kom för fan!
+Kom hit och sätt tappen i tunnan!
 Kom hit, ropade den unga flickan till de inträdande.
 Kom i min famn, du välsignade!
 Kom igen då!
@@ -8460,6 +8834,7 @@ Kom med.
 Kom ner igen.
 Kom nu, Albert, så går vi ner och tvättar av honom!
 Kom nu, Marita, det där får du ta på måndag!
+Kom nu, så går vi!
 Kom nu, så skyndar vi oss till Stina.
 Kom nu.
 Kom och hälsa på mig.
@@ -8505,6 +8880,12 @@ Konstgräs är också ett alternativ.
 Konstkritikerna förklarade i hänförda ordalag, att denna tavla var århundradets förnämsta konstverk.
 Kontorslivet är ett vällustigt, sakta dödande gift.
 Koppar och mässing går man inte och plockar var som helst på land.
+Korpen befann sig helt enkelt i ett fängelse.
+Korpen hade suttit bredvid pojken, och nu hade han börjat kraxa i hans öron.
+Korpen hörde inte på honom, utan satt med huvudet bortvänt och lyssnade.
+Kort därpå gick han förbi en handelsbod.
+Kort därpå hade hon dött och så hade olyckorna börjat.
+Kort därpå kommer de till det ansenligaste av de många dockhusen.
 Korta bitar ska det vara.
 Krafterna i världen orienterar sig i två stora grupper, den kapitalistiska och Sovjetunionen.
 Kragen var försvunnen.
@@ -8517,6 +8898,7 @@ Krispet smälte mot tungan och sötman blandade sig med det syrliga.
 Kristendomen går framåt själv nu utan fonder.
 Krister skulle bli generalsekreterare i kemiska samfundet.
 Kristna missionärer sänds från Norrköping.
+Kroppen var liten, halsen lång och smal, benen hängde ner, långa och tunna.
 Kroppsligen var han en stålfjäder, av en seghet och spänstighet av ovanliga mått.
 Krossa inte hans hjärta!
 Krya åldringar, hånade Lina.
@@ -8559,6 +8941,7 @@ Känner ni inte igen mig?
 Känner ni inte igen mig? frågade hon, plötsligt generad över att ha kommit.
 Känner ni till Algeriet, min herre?
 Känner ni varandra?
+Känner någon igen honom?
 Känns det inte bra behagligt för bror att ha fått lätta sitt hjärta?
 Känns det rättvist, tycker du?
 Känslan av orädsla är emellertid fortfarande resultatet.
@@ -8599,6 +8982,7 @@ Lee och jag har några grejer vi behöver lösa.
 Lee är förändrad.
 Leif Olsson hävdar att fri gränshandel kommer leda till ökad boom med norska turister.
 Leissner lovar att landskapet skulle vara bättre utan Varberg.
+Leve farbror Lars!
 Lever du själv? frågade han fräckt.
 Lever du, John? frågade jag Hammar.
 Lidköpings kommun har motsatt sig att hovrättens dom ändras.
@@ -8667,6 +9051,7 @@ Lyssna på signalerna!
 Lyssnar du, mamma?
 Lägg av, raring.
 Lägg det på hans säng.
+Lägg dig inte i det, som du inte begriper!
 Lägg dig nu.
 Lägg in årorna!
 Lägg inte på!
@@ -8680,13 +9065,19 @@ Lämna inte något alls.
 Lämnade Sara frivilligt sitt arbete?
 Lämningarna tyder på en fågel av gigantiska proportioner.
 Länge leve jag.
+Längre kom hon inte, förrän en annan tog ordet ifrån henne.
+Längre kunde han inte komma, för stugdörren var låst.
 Längs kajen kom vandrande ett träd direkt från skogen.
+Längs kusten löpte en lång rad av flygsandskullar med strandråg på topparna.
 Längs vägen växte gul ginst som fyllde hela bilen med sin doft.
+Längst nere i daldjupet, där älven gick fram, var en värld.
 Länsstyrelsen avslog ansökan om att bygga ut kärnkraften i Östersund.
 Lär att lida utan att klaga!
 Lärare intar i en inte obetydlig utsträckning ett slags garantställning i förhållande till elever.
 Lärarinnan förklarade djupt olycklig, att sådant översteg hennes förmåga.
+Lärarinnan och skolbarnen hade sjungit ett par sånger utanför direktörens fönster.
 Lärk blir för dyrt, tyvärr.
+Läs den, så fort du kan, och säg mig vad du tycker om den!
 Läs innantill!
 Läskigt med vildsvinen tycker jag!
 Lätt att gömma.
@@ -8698,8 +9089,11 @@ Låt dem inte ha sönder nåt.
 Låt dem veta att vi vet vad som pågår.
 Låt dig inte ryckas med.
 Låt henne göra det då!
+Låt honom förstå, innan han går ifrån oss, hur vi alla älskar honom!
+Låt honom inte dö utan att ha fått en hälsning från sin skola!
 Låt honom inte vinna.
 Låt honom köpa en timme till.
+Låt honom nu först höra vad vildgässen har att berätta honom!
 Låt honom vara.
 Låt höra, tack.
 Låt hövdingen tala.
@@ -8832,7 +9226,9 @@ Marcus kände att behovet av att äta på restaurang var under isen.
 Marianne stirrade sig blind på pokalen ännu ett dygn efter segern.
 Marie stod och skottade snö på sin gård.
 Mark- och miljödomstolen avvisade överklagandet eftersom samfundet inte ansågs ha klagorätt.
+Marken var inte upptrampad av alla boskapshjordarna, som hade gått över den.
 Marken var slät som en landsväg.
+Marken var svart vida omkring, och svarta vägar löpte ut åt alla håll.
 Marken är för hård.
 Marsch då!
 Martin Larsson var naturligtvis ständigt närvarande påpekar Tomas Eriksson.
@@ -8851,6 +9247,10 @@ Med Gustaf Adolf inleds den svenska adelns mest lysande tid.
 Med blandade känslor bar jag hem haren och berättade sanningen om den.
 Med darrande fingrar började jag bläddra i reliken.
 Med dem kan du se utomjordingar som förvandlat sig till människor.
+Med detsamma började eken växa så fort att alla kunde märka det.
+Med detsamma han sade detta, upphörde örnen att strida.
+Med detsamma kom en tanke över henne som hon knappt vågade tänka till slut.
+Med detsamma kände far igen den spetsiga pannluggen och pipskägget.
 Med detta for de tillbaka till Svavelkoket.
 Med el kan vi få upp vatten.
 Med elektricitet kan vi fixa pumpen.
@@ -8879,6 +9279,8 @@ Med trafik tar det en halvtimme.
 Med ungdomen står det bättre till nu.
 Medan de gick och åt, kom en bergand fram till Dunfin.
 Medan flygtronkar uteslutande lever i träd, förekommer fjälltronkar uteslutande på marken.
+Medan han arbetade som bäst, kom Sankte Per gående förbi.
+Medan han mumsade och åt tänkte han på hur han hade fått brödet.
 Medan han plockade fram kornen och åt började Bataki språka med honom.
 Medan han stod där som bedövad, öppnade hon dörren och flydde.
 Medan hon väntade sorterade hon nonstopen efter färg i små högar på bordet.
@@ -8887,6 +9289,7 @@ Medgång och rikedom gjorde honom övermodig.
 Media var närvarande när utställningen öppnades.
 Medlen härrörde enligt åklagaren från bedrägerier begångna mot målsäganden.
 Mej ropade de på och frågade vad abborrarna kostade.
+Mellan fötterna på honom kilade småörterna: smultronstånd, vitsippor, maskrosor, klöver och förgätmigej.
 Men Anna Nöjd då, vad ville hon och varför var hon här?
 Men Baby var vaken.
 Men Bengt Bengtsson, varför tar du mig så hårt i armen?
@@ -8918,24 +9321,34 @@ Men Vind-Ile var otålig, och han rusade fram och nöp pojken i benet.
 Men ack vad jag är dum!
 Men ack, vad skulle hon göra nu?
 Men aldrig hade jag förut träffat en bärsärk.
+Men aldrig har han trott, att han skulle få se så mycket vackert.
 Men alla barnen?
 Men alla säger att Martin är den värsta rackarungen i hela skolan.
 Men allra mest väldigt förutsägbar.
 Men allt det här kanske inte intresserar er?
+Men allt detta andra var stilla och tycktes sova.
+Men allt detta behöll hon för sig själv.
 Men allt han rörde vid blev konst.
+Men alltsammans såg fasligt fattigt och förfallet ut.
 Men antag att jag blivit överfallen!
 Men att få hästar i land på Sandön är svårare än att landsätta människor.
 Men av kärlek kan man göra många ting.
 Men bara en gång i er vänskap!
 Men barn behöver sötsaker och jag gjorde en uppfinning.
+Men barnen sade att de var tvungna att gå och söka upp far.
 Men berätta nu allt nytt.
+Men björnhannen vräkte undan björnhonan.
+Men blickade man åt norr, var det en helt annan sak.
 Men boken kunde lika gärna varit oskriven.
+Men bry dig inte om att sätta ihop historier för att spara mig!
 Men bäst är att skicka efter doktorn eller resa till sjukhuset i Norrtälje.
+Men de fick ju vara nöjda, bara de var fredade för rovdjur.
 Men de flesta har inte examen i kommersiell förvaltning.
 Men de här då?
 Men de kanske ändrar sig inför nya fakta?
 Men de krigförande måste först få trötta ut sig.
 Men de måste ha nån sorts relation.
+Men de smyger sig över oss om natten, när vi sover inne i grottorna.
 Men de åker till galaxen i stället.
 Men den byn får vi inget av.
 Men den har inte visat sig.
@@ -8953,10 +9366,17 @@ Men den store musikern ville gå ensam och fick göra det på egen risk.
 Men den stämningen är omöjlig att beskriva.
 Men den varade inte länge, sen började hon gråta tjocka, söta tårar och dog.
 Men den är ju där.
+Men den ångest som hon själv bar på, öppnade hennes hjärta.
+Men den, som kunde vara retsam med besked, det var hennes bror, lille Mats.
 Men denna vederstygglighet hade aldrig fallit honom in.
 Men deras bostad blev obeboelig.
+Men dess invånare kan inte dö, och inte heller förstörs deras stad.
+Men det allra nedersta trappsteget är ändå det bästa.
 Men det bekymrade mig ganska föga.
+Men det besynnerliga var, att ingen frågade efter det, som skedde.
+Men det blev ingen lång flykt, utan de vände om.
 Men det blir mitt sista.
+Men det bästa av allt var den gamla fiskaren, som bodde därute.
 Men det bör roa dig att vara med om förhöret.
 Men det där fick Vestergren ansvara för.
 Men det där med klockan var inte bra.
@@ -8972,6 +9392,8 @@ Men det gör detsamma!
 Men det gör inget!
 Men det gör inte saken ett dugg bättre!
 Men det hade blivit folk av dem alla.
+Men det hade det inte, utan han var och förblev lika liten.
+Men det hade inte gått så som mor hade trott.
 Men det här folket kan inte fan få bukt med.
 Men det hör väl till.
 Men det kan inte bära sig i längden förstås?
@@ -8980,6 +9402,7 @@ Men det kommer sig av att karlen har tre namn.
 Men det kunde inte gå utan blanka verktyg, en vass yxa.
 Men det känns skönt att lätta sitt samvete, även när det gäller preskriberade ting.
 Men det mesta av mänskligheten har blivit utplånad.
+Men det mesta, som fanns, var för stort och tungt.
 Men det misslyckades.
 Men det må bära eller brista.
 Men det måste laddas.
@@ -8988,20 +9411,28 @@ Men det ser ut som om flertalet ännu litade på att han finns till.
 Men det ska han.
 Men det skall bli slut med detta, tänkte Tora.
 Men det skulle han aldrig ha gjort.
+Men det skulle ingen ha kunnat se på honom.
 Men det skulle inte falla Jones in att ta emot.
 Men det som konstaplarna kallade hysteri var bara hennes korta stund av mänsklighet.
+Men det största av dessa fågelmoln är ändå det, som nu visar sig.
 Men det säger en hel del.
 Men det sägs mycket lögner i denna eländiga värld.
 Men det tar ju aldrig slut?
 Men det tar kanske tid att göra en sån där möbel.
+Men det var bra dumt att ni lät ugglan komma undan.
 Men det var egentligen för sent.
 Men det var en bok som inte gav sig.
 Men det var för sent på sommarn och inga kunder kom till hennes stuga.
 Men det var inte om den jag skulle berätta.
 Men det var just det han var.
 Men det var kul att höra när mor gav honom besked.
+Men det var märkvärdigt, att gässen tycktes känna samma avsky för råttorna som han.
 Men det var naturligtvis den där fördömda jäntan Sara som varskott henne.
+Men det var naturligtvis mest om eftermiddagarna han uppträdde som spelman.
+Men det var prasslet, när pojken hade sprungit in i ladan, som husbonden hörde.
+Men det var som om morgonsolen skulle ha väckt den till liv på nytt.
 Men det var som om något inom honom hade brustit.
+Men det var ännu inte tid för dem att börja njuta av sin seger.
 Men det ville inte bli riktigt sprätt på festen.
 Men det är bara hypotetiskt.
 Men det är bra.
@@ -9014,6 +9445,7 @@ Men det är min födelsedag så det är jag som bestämmer.
 Men det är också ditt hem.
 Men det är rätt, och landet kan inte undvara oss.
 Men det är snabbt fixat.
+Men det är synd om flickorna i alla fall.
 Men det är så bra att han är vattenansvarig.
 Men det är viktigare att folket lever än att det är civiliserat, eller hur?
 Men det är över nu.
@@ -9022,10 +9454,12 @@ Men detta är ju bara en tidsfråga.
 Men detta är ju en erövring!
 Men djupast inne är hon ändå yngre än förr och tio gånger mera högfärdig.
 Men djuren hade tagit vägen uppåt ett berg, beväxt med sparsam skog.
+Men djuren ställer ändå upp sig i särskilda flockar.
 Men doktorns törst behöver ju inte vara i evighet.
 Men du bryter mot lagen.
 Men du får ingen andra chans.
 Men du får inte ropa in dom som sist, hör du.
+Men du får ta i med alla krafter för kvarnen går just inte lätt.
 Men du får väl ändå medge att hon måste ha intressanta erfarenheter från Asien.
 Men du gjorde det verkligen!
 Men du kallade inte på mig för min bländande slagfärdighet.
@@ -9051,13 +9485,16 @@ Men då hon fick syn på kameran, gjorde hon blixtsnabbt helt om.
 Men då kom det riktigt mänskliga fram hos grisen.
 Men då kunde ju likaväl de här barnen vara kamouflage för främmande makt.
 Men då känner ni ju ändå min bror, sade målaren envist.
+Men då såg han, att parveln i spegeln gjorde detsamma.
 Men dörren öppnades sakta, och en lång herre kom in oanmäld.
+Men effekten blev en annan än den han väntat sig.
 Men efter bestraffningen serverades regelbundet kaffe med dopp.
 Men efter ditt giftermål kan man inte tala längre med henne om dig.
 Men efter några år blev jag den kanske ivrigaste dansören i socknen.
 Men egentligen var han specialist på musikinstrument av alla slag.
 Men en dag blev den motsatsen.
 Men en dag hände något hemma vid den lilla järnvägsstationen.
+Men en gång sopade den vilda stormen ner dem i vattnet.
 Men en har verkligen som gammal, darrande gubbe bett mig om förlåtelse.
 Men en morgon hörde jag ett väldigt liv utanför min dörr.
 Men en säl ligger inte och sover många minuter i stöten.
@@ -9071,6 +9508,8 @@ Men fasligt retsamt är det, att du skall bli så där påverkad.
 Men fast tanken var vass, kunde han inte känna smärta, inte nu åtminstone.
 Men festade gjorde han.
 Men flickan här hade vägrat att följa deras exempel.
+Men folket mötte alla svårigheter med klingande skratt och lustigt humör.
+Men fylkingen var jämn och välordnad och farten god, och vingslagen starka och kraftiga.
 Men färgen fastnar inte på honom, invände jag.
 Men färgen ville inte sitta kvar och jag hade inte tillräckligt med spott.
 Men får jag tag i Jansson!
@@ -9080,8 +9519,11 @@ Men för tusan, vad jag är törstig.
 Men först måste vi ha ett glas champagne!
 Men först måste vi ha öl.
 Men först ska du nöjaktigt besvara en fråga.
+Men föräldrarna hade inte gjort som hon hade bett dem.
 Men gamla ungkarlar finns det ingen bot för.
 Men gjort var gjort.
+Men gubben hör inte alls på honom, utan går bara rätt fram till porten.
+Men gå inte längre bort, än att du hittar tillbaka till mig!
 Men gårdagen var lika hemsk.
 Men gåskarlen gjorde inte en rörelse.
 Men gåskarlen var vid gott mod.
@@ -9089,6 +9531,7 @@ Men gör det snabbt.
 Men gör inte om det igen.
 Men han bestämmer.
 Men han blir inte lätt att få in i buren igen.
+Men han fann ingen där, och då började han skälva av skräck.
 Men han föll på knä så häftigt, att hon blev rädd.
 Men han gjorde aldrig något färdigt.
 Men han glömde fixera kolet.
@@ -9099,6 +9542,7 @@ Men han hade termosflaska med kask i.
 Men han kom inte.
 Men han lugnade sig, när träkarlen fortsatte.
 Men han sades vara far till en massa ungar i socknen.
+Men han slutade inte att forska efter vad jag ville ha ur honom.
 Men han smög sig inte in på skolan.
 Men han stannade ofrivilligt.
 Men han såg så fryntlig och obesvärad ut, att jag trodde han glömt alltsammans.
@@ -9120,6 +9564,7 @@ Men hon behövde inte smyga.
 Men hon påstod, att hon sköljt dem i två varma vatten.
 Men hon ryckte endast föraktfullt på axlarna och svarade.
 Men hon stannade i växten när hon var tre.
+Men hon ville inte heller säga nej till skolrådet utan sände in sin ansökan.
 Men hon vägrade alltjämt.
 Men hon är inte den du tror att hon är.
 Men hon önskade sig ha ägt vishet och erfarenhet att motsäga honom.
@@ -9132,9 +9577,13 @@ Men hur hittar vi det.
 Men hur kunde han skona henne på den pinade Giselas bekostnad?
 Men hur redde Pettersson sig med språket?
 Men hur skulle jag kunna få något bättre?
+Men hur skulle något sådant bli möjligt?
 Men hur var Stefan mot portvakten?
+Men här fraktades tunga stockar utför och uppför stupande branter.
 Men här måste de hejda sig.
 Men här skulle statueras ett exempel.
+Men här var det annorlunda.
+Men härmed gick det inte riktigt så, som man hade hoppats.
 Men hör du, Albert, skulle vi inte gå nu.
 Men hör du, Pegg, nog är det väl gränslöst underbart?
 Men hörde inte fröken, att fru Ek protesterade!
@@ -9171,6 +9620,7 @@ Men jag har ingen kassavana.
 Men jag har ju högre poäng än du.
 Men jag har nu bara mina principer och mitt stackars förstånd.
 Men jag har redan konfigurerat de biometriska uppgifterna.
+Men jag har redan lovat den store vite.
 Men jag har sagt till alla att de kommer till ceremonin.
 Men jag har varken färg eller duk eller penslar.
 Men jag har varken ställning eller pengar.
@@ -9190,6 +9640,7 @@ Men jag skall försöka berätta med lugn.
 Men jag skall gå ut efter vatten och tvätta morfar ren.
 Men jag skulle vilja gå till operan med dig för att visa dig.
 Men jag tror att ingen såg detta omanliga utbrott av svallande känslor.
+Men jag tror ändå att jag gör ett försök.
 Men jag tycker bättre om att slippa slåss.
 Men jag tycker verkligen att det är synd om bror din!
 Men jag tyckte att Isaksson länge nog varit portförbjuden i sitt eget hem.
@@ -9209,6 +9660,9 @@ Men jag visste ju, hade hela tiden vetat att det inte skulle komma!
 Men jag visste också, hur litet tullen förmår därute.
 Men jag vågade det ej.
 Men jag är glad att du hittade mina stövlar.
+Men jag är sådan, att jag hellre tackar med handling än med ord.
+Men ju längre den fick stå orörd, desto mäktigare blev den.
+Men just som hunden sade detta, kom en besynnerlig förändring över honom.
 Men kan du inte bättra dig?
 Men kan inte rösta för någon som blundar för en katastrof!
 Men kanske invärtes medicin hjälper.
@@ -9218,6 +9672,7 @@ Men kom ihåg!
 Men kommer du ihåg Nattens drottning?
 Men kommittén arbetar nu av alla krafter.
 Men kriget har vi ju bakom oss, sade Stina motvilligt och klentroget.
+Men kungsörnen och troligtvis även havsörnen häckar där.
 Men kvinnan?
 Men känns bra.
 Men käre Albert, jag börjar tycka att min expedition har misslyckats.
@@ -9236,11 +9691,13 @@ Men man måste ha ett öga på fruntimmerna.
 Men mannen lade sin hand på hennes axel och tryckte ner henne igen.
 Men mannen låg där alldeles orörlig, som om han varit död.
 Men med Högsta domstolen och läget i världen är det kört för alla.
+Men med detsamma började det svida och värka i bröstet på honom.
 Men mellan oss står nog din stolthet, ingenting annat.
 Men mer är hon inte.
 Men min himmel förmörkades av tunga tankar.
 Men mina muskler är starka.
 Men mitt fortplantningssystem är tydligen som en sextonårings.
+Men mor var en mycket stark och tålig människa.
 Men musik fick främlingen höra hela dagen, ända tills en bris skilde fartygen åt.
 Men nej!
 Men nej, hon slapp inte.
@@ -9248,27 +9705,41 @@ Men ni får väl behålla huset?
 Men ni uttrycker er en liten smula vulgärt.
 Men ni är tvungna.
 Men nog var väl fjädern ovanligt lång i alla fall?
+Men nu förenade de sig till ett enda stort leende.
+Men nu förstod disponenten vem han hade att göra med.
 Men nu går jag in till honom och lugnar honom för tillfället.
+Men nu hade bondhustrun lagt märke till örnen.
+Men nu hade de fått syn på honom i varenda bod hela gatan utefter.
 Men nu hade hon ätit upp alla kastanjerna.
 Men nu har det äntligen gått upp för mig hur underbart det är.
 Men nu har jag en gång sett henne, och det är det hon anar.
+Men nu hörde han en klo skrapa mot en sten.
 Men nu kom polisen störtande ur en gränd.
 Men nu kommer jag äntligen till målet för mina bohemiska funderingar, vännen Otto.
 Men nu ska han ha tack för supen, Danielsson!
 Men nu ska man motionera om kapitel fjorton.
 Men nu skulle han inte vara dum, när han kom till stan.
+Men nu skulle jag ta tag i penslarna igen.
 Men nu var han en statens tjänsteman med lön och semester på fjorton dagar.
 Men nu är du ju här.
 Men nu är luften ren och klar och jag väntar en härlig dag.
 Men nu är ögonblicket att handla.
 Men nu återstod min farligaste fiende, matematikläraren.
 Men när de kom på tre meters avstånd började de skrika och försökte dyka.
+Men när gröten var nästan färdig vände hon sig till gästen.
+Men när han kom in i snåren, upptäckte han något förfärligt.
+Men när hon skulle skriva om detta ville pennan inte röra sig.
 Men när hon stängt fönstret, kunde hon höra ljud och något buller därinifrån.
+Men när hon tänkte på sina barn, blev hon glad igen.
+Men när pojken ingenting sade, upprepade hon inte sin begäran.
+Men när strejken kom, fortsatte några bussiga pojkar sitt knog trots kamraternas hot.
 Men när vi vill stiga ännu högre, då kastar vi barlasten.
 Men någon vikt kunde de kanske ändå rimligen ha.
 Men något märkvärdigt var det med honom, för han gick aldrig på auktioner.
 Men något säger mig att vi borde kolla in det.
+Men något sådant kunde ju inte finnas därute på isvidderna.
 Men om de inte bryr sig ett dugg om er?
+Men om den inte duger, kan du bränna upp den.
 Men om detta skall jag berätta senare.
 Men om detta är en tragedi?
 Men om du misslyckas gör vi på mitt sätt.
@@ -9276,24 +9747,29 @@ Men om en vecka eller fjorton dar är det väl lugnt igen?
 Men om honom själv vill jag gärna använda min vänskap och beundran.
 Men ordföranden vinkade åt honom att sätta sig igen.
 Men ormen log.
+Men ormen vände och försökte hindra honom.
 Men orsaken vet du ju.
 Men plötsligen märkte Jarro hur det stod till med ekan.
 Men plötsligt flög ett leende över hennes vackra lilla ansikte och hon torkade tårarna.
 Men plötsligt stannade han och hans ansikte lystes upp av ett inre sken.
 Men plötsligt vände gåskarlen.
 Men polisen hade fullkomligt satt sig över hans bedyranden.
+Men på en gång blev vildgässen underligt stilla och drog sig bort från honom.
 Men på ett villkor.
 Men på oss väntade ingen Helena.
+Men på samma gång har det uppkommit en stor skillnad mellan de tre trappstegen.
 Men redaktörn som är gammal sjöman förstår ju det där bättre än jag.
 Men revolutionen ruinerade honom, och nu började han åter komponera.
 Men riksdagen ville inte, och Kunglig Majestät hade helt enkelt avskrivit ärendet från behandling.
 Men rolig är han när han sätter till.
+Men räven bara grinade åt honom och vek inte ur fläcken.
 Men rörd är jag!
 Men samtidigt en stor missaktning för den mänskliga dumheten.
 Men samtidigt levde jag intensivt!
 Men samtidigt var man nervös över att Jansson samlade på överlöpare.
 Men se nu gäller det att överraska dom.
 Men se upp.
+Men sedan hade den på något sätt blivit utplattad.
 Men ser du inte vad det här ansiktet uttrycker?
 Men sitt inte kedjade vid datorerna hela dagarna.
 Men skoldagarna är över.
@@ -9303,6 +9779,7 @@ Men skumt, för det ser ut.
 Men skutan rörde sig ej.
 Men skämtet ansågs lyckat och fullkomligt lojalt.
 Men skål!
+Men snart hörde han hur räven kom tassande.
 Men snälla Stina, gör strax den där såsen, så vi får äta.
 Men snälla du, det fattar väl alla?
 Men strunt samma.
@@ -9311,11 +9788,15 @@ Men säg då, varför!
 Men säg inte ett ord åt någon annan.
 Men säg till om mera öl!
 Men så började han känna stor längtan efter kärlek.
+Men så for han upp, som om han skulle ha blivit skrämd av något.
 Men så här dags kan jag väl inte infinna mig hos henne?
 Men så kom jag att tänka på brygden.
 Men så komiskt var det väl just som människor vanligen handlade.
+Men så skymtade han höga tornspiror och ett och annat hus med många fönsterrader.
 Men så småningom kom madam Söderlund på grön kvist.
 Men så småningom upphörde han att fixera dem.
+Men så småningom, när gråråttorna hade växt till i antal, blev de djärvare.
+Men så snart barnen var vuxna, kom en besynnerlig längtan över dem.
 Men så stod hon orörlig och väntade på honom.
 Men så är det.
 Men sådana dagar, då virvelstormarna for över slätten, hade Ysätters-Kajsa roligt.
@@ -9326,6 +9807,7 @@ Men tala nu om, hur allt gick till på mötesplatsen.
 Men till den extravagansen såg han ännu på några år ingen rimlig möjlighet.
 Men till dess skall du tiga.
 Men till fartygsmaster duger den inte.
+Men timme efter timme gick, utan att han fann honom.
 Men tror du Rupert förlåter dig att du haft en annan emellan?
 Men träskpojken håller sina fötter tre meter ifrån mig hela tiden.
 Men tycker ni den lille stackarn kan bära mitt evighetshopp?
@@ -9347,6 +9829,7 @@ Men vad är det med Stina, tänkte hon.
 Men vad är det?
 Men vad är pappas högsta önskan då?
 Men var har ni er kappsäck?
+Men var inte ledsen fördenskull!
 Men var skulle man finna den symbol som räckte?
 Men var var studenten?
 Men var är den nu, och hur ska Alice kunna få igen den?
@@ -9381,6 +9864,8 @@ Men vilken konstnär!
 Men vilken kvinna har inte blivit älskad på det sättet?
 Men vilken utpräglad individ gör det?
 Men vill man jobba med turism måste det vara hela inkomsten.
+Men vill ni inte först tala om vad det är, som plågar er?
+Men vinden var desto fullare.
 Men visa oss ett ordentligt gryt, skall du få se.
 Men visst är det enklare nu?
 Men värden var obeveklig.
@@ -9390,6 +9875,7 @@ Men ändå har de låtit totalt överrumpla sig.
 Men ännu berättar gammalt folk om hans liv här ute.
 Men ännu när gryningens ljus började bleka ut månens hade sömnen inte kommit.
 Men även där det lustiga och förvridna förekommer, har humorn en hjärtlig känsla.
+Men örnen ville i alla fall inte avstå från sina planer.
 Men, Lotte, vad skrattar du åt?
 Men, lades det där ut?
 Men, som sagt, det finns några av gamla stammen kvar.
@@ -9480,6 +9966,7 @@ Mina lyckönskningar.
 Mina syrror stannade i Skåne, tack och lov.
 Mina värdesaker är inlåsta.
 Mina äggledare mår jättebra.
+Mina ögon faller igen av sig själva så här dags.
 Mindre uselt är bra.
 Minna lyste upp, då hon erhöll sin post.
 Minnena av din far är den verkliga skatten.
@@ -9506,6 +9993,7 @@ Mitt emot över gatan stod ett rätt lågt hus med tak av svart tegel.
 Mitt ena örhänge är borta.
 Mitt hjärta stannade, jag ville rusa fram och ta honom i famn.
 Mitt hår är helt galet.
+Mitt i detta vita låg de mångfaldiga skärgårdsöarna alldeles kolsvarta.
 Mitt i natten kommer den store musikern hem till sitt hotell.
 Mitt kungarike för en insikt!
 Mitt mod svek mig.
@@ -9515,6 +10003,7 @@ Mitt rum duger inte längre för mig i min nuvarande ställning.
 Mitt rum har havsutsikt!
 Mitt yrke gör det nödvändigt för mig att umgås med alla slags människor.
 Mittemot i våningen brann en brasa.
+Mittpå gårdsplanen stod en liten parvel, som blåste på en pipa.
 Mjukglass är mycket godare.
 Moderaterna fick njuta av italiensk jazz efter kongressens slut.
 Modern betraktade barnet med en fullkomligt likgiltig blick.
@@ -9588,8 +10077,10 @@ Mår din man bra?
 Mår du bra?
 Mår du fortfarande uselt?
 Mår frun bra?
+Mården rusade emot honom med ryggen krökt och varje hår på ända.
 Mårten gåskarl skyndar nog genast och plockar upp mig.
 Mårten gåskarl var genast villig att hjälpa honom.
+Måsarna hade övergivit havet och gick och promenerade på land som riktiga kråkor.
 Måste jag bry mig?
 Måste jag fråga en sak.
 Måste jag säga något till Torkel innan han går till Ivar?
@@ -9634,6 +10125,7 @@ Nej, Stina, nu ska du vara ensam med dina barn.
 Nej, behåll dem.
 Nej, de träffas nog bara.
 Nej, den gubben går inte.
+Nej, den här uppgiften förefaller något överdriven.
 Nej, det angår mig inte.
 Nej, det där om att sälja hade jag alldeles glömt.
 Nej, det går inte.
@@ -9768,6 +10260,7 @@ Nej, min herre, det är omöjligt.
 Nej, min kära Torkel, den upptäckten måtte vara gjord sedan jag lämnade universitetet.
 Nej, min mors fru.
 Nej, min vän.
+Nej, mor är trött nu och måste gå och lägga sig.
 Nej, naturligtvis inte.
 Nej, nej, det är omöjligt.
 Nej, nej, jag vill det ej.
@@ -9796,6 +10289,9 @@ Nej, vi är inte tillsammans längre.
 Nej, visst inte.
 Nej, vänta!
 Neonljusen glimmade i den regnvåta asfalten.
+Nere på havet stötte drivisflaken mot varandra med ett starkt dånande.
+Nere vid hamnen putsades segelbåtar och ångfartyg.
+Nere vid åarna låg stora timmerhögar uppvräkta.
 New York som ligger på Neapels breddgrad mörknar hastigt vid solnedgången.
 Ni andra, gå till era klassrum.
 Ni behöver inte säga något, men det ni säger kan användas som bevis.
@@ -9806,8 +10302,11 @@ Ni borde nog hosta upp.
 Ni borde se min svärfar!
 Ni bygger en jätterobot, inte sant?
 Ni bär er bakvänt åt, min käre vän.
+Ni får allt stanna hemma hos mor och far.
 Ni får det trevligt ihop, ska du få se!
 Ni får extra betalt.
+Ni får lov att berätta om någon har sett den där lustgården.
+Ni får lov att ge mig betänketid.
 Ni får säga vad ni vill om kvinnorna, men bäddar, det gör de.
 Ni får väl ta hand om Eva.
 Ni förtjänade att huggas ner, till ett vittnesbörd att ingen trygghet finns i världen.
@@ -9866,6 +10365,7 @@ Ni ska jobba med underrättelser.
 Ni ska vara en glamourös arvtagerska.
 Ni ska veta.
 Ni skall segra med andra vapen.
+Ni skriker så det hörs över hela skogen.
 Ni skulle inte bli mottagen.
 Ni som har fått er mens räcker upp en hand.
 Ni stod för mina åsikter och förmådde göra dem hörda.
@@ -9916,26 +10416,31 @@ Nu begrep även han att hon hade något särskilt i tankarna.
 Nu begriper jag andra delen i mammas hälsning.
 Nu begärde jag ordet.
 Nu beställer vi efterrätt.
+Nu blev det stilla en stund under bokarna.
 Nu blev fjärilarna i magen helt oregerliga.
 Nu blev helgen lite bättre.
+Nu började prosten förstå vad det var han såg.
 Nu började skogen, full av farligheter och jag sprang, sprang!
 Nu börjar jag.
 Nu börjas det, tänkte jag och följde noggrant alla hans rörelser.
 Nu drack greven de där märkvärdiga vinerna ensam.
 Nu drar vi dem så stilla vid näsan, Georg och jag, fortfor Lotte, triumferande.
 Nu drar vi.
+Nu fanns det gott om potatis och gott om säd.
 Nu frossade måsarna på inkråmet.
 Nu får det vara slut med krigandet!
 Nu får du faktiskt skärpa dig, det där är inte okej!
 Nu får du ge dig, det är faktiskt helt irrelevant för sammanhanget.
 Nu får du sluta, Sam!
 Nu får vi fiskrätt åt prästen, sade Mirjam, som stod i köket.
+Nu först märktes det hur utmattad han var av plågor och blodförlust.
 Nu först vet han vad som menas med fantasi.
 Nu förstår jag inte hur du menar.
 Nu förstår jag.
 Nu försöker han återskapa staden till ett ställe där han känner sig tryggast.
 Nu gav hon det åt dottern som en överraskning och present.
 Nu gick Alice till den där adressen.
+Nu gick han utan fruktan fram mellan verkstäderna och klättrade upp på en slagghög.
 Nu greps han av stundens stämning.
 Nu går jag och klår skomakarn!
 Nu gör du det för lätt för dig.
@@ -9943,6 +10448,7 @@ Nu gör vi det bara.
 Nu gör vi läxorna.
 Nu ha vi vårt i fred, till dess Georg får praktik.
 Nu hade all spänning givit vika, hon gav en illusion av oändlig, behaglig vila.
+Nu hade han förstört mycket för sig själv, men det kunde han ju bära.
 Nu har de båda gått upp i rök.
 Nu har du blivit rar igen!
 Nu har hon lugnat sig.
@@ -9956,21 +10462,27 @@ Nu kan ge er av nu.
 Nu kan han bara låta klockan ticka vidare.
 Nu kan ingen följa efter dem.
 Nu kanske läsarinnan förstår orsaken till den egendomliga odören i Pelles backstuga.
+Nu kanske vi får behålla honom ett par år till.
 Nu kom det fruktade ögonblicket.
 Nu kommer du hit!
 Nu kommer ingen tjata mer.
 Nu kommer pojken från tryckeriet och jag måste sluta.
 Nu kunde de inte längre se land i något väderstreck.
+Nu kände hon riktningen, och nu skulle ingen i världen kunna locka henne vilse.
 Nu kör vi.
 Nu ligger jag i vågskålen.
 Nu linkar jag ut i det allra heligaste, följ med bara!
+Nu lyfte skogvaktaren upp kalven och började släpa honom mot land.
 Nu lämnar vi samtalsämnet, föreslog jag och blandar oss en grogg.
 Nu menar jag helt platoniskt, alltså.
 Nu måste Stina kasta ut mig också för rättvisans skull.
+Nu måste det väl vara varmt och vackert också uppe i Lappland.
 Nu måste du hjälpa mig emellertid.
 Nu måste jag hämta min son i skolan också.
 Nu måste jag åter försöka låna.
 Nu måste jag återgå till mina ungdomsminnen.
+Nu måste vi först och främst tänka på att få oss något till livs.
+Nu måste örnarna vara hemkomna för längesedan.
 Nu orkade jag inte mera.
 Nu pratar vi om dig.
 Nu på lördag?
@@ -9981,6 +10493,7 @@ Nu sjöng han åter, hela hennes varelse sög in tonerna.
 Nu ska du sova.
 Nu ska han bli lycklig, när han får se, att Hjälplös är död.
 Nu ska jag prata!
+Nu ska jag tala om något för dig, Erik.
 Nu ska jag vara ärlig.
 Nu ska vi bara packa ihop och flytta till det nya huset.
 Nu ska vi festa!
@@ -9989,18 +10502,22 @@ Nu ska vi skoja med gubben.
 Nu ska vi vara glada barn!
 Nu skall du göra mig en tjänst, Klement.
 Nu skrev fru Stina Ek en riksdagsmotion.
+Nu skulle han åtminstone vaka över hennes döda kropp denna natt.
 Nu skulle vi kunna skriva den.
 Nu skålar vi.
 Nu slog han ihop boken.
 Nu släcker jag din lampa och ställer den utom räckhåll.
+Nu släpper han bottnen och börjar simma.
 Nu sover vi ett slag, sade Petter.
 Nu sover vi.
 Nu sticker vi innan hon spränger oss i småbitar.
 Nu stod draken vid Köpmanbrinken och väntade henne.
 Nu sträcker han långsamt på sig och kisar mot solen.
+Nu sträckte Akka fram huvudet och gav örnungen ett duktigt nyp i nackskinnet.
 Nu står jag inför den stora uppfyllelsen.
 Nu syntes äntligen Stina.
 Nu sätter vi igång.
+Nu såg pojken i spegeln alldeles tydligt, att locket till kistan stod öppet.
 Nu talade man om jul och julmat.
 Nu tappade jag tråden helt.
 Nu tar jag ledigt.
@@ -10008,14 +10525,18 @@ Nu tar vi den sista groggen och sen går jag upp på mitt rum.
 Nu till arbetet!
 Nu trollar du bara, lägg av.
 Nu tycker jag att du överdriver.
+Nu tyckte hon, att målet nästan var uppnått, för syster Hilma var mycket mäktig.
 Nu uppstod ett åtta års inbördeskrig.
 Nu upptäcktes, att den femte deltagaren i prisnämnden var försvunnen.
 Nu var Liljegren herre på täppan och medgången gjorde honom ännu fräckare.
+Nu var det Akkas ord till räven, som hindrade honom från att sova.
+Nu var det väl redan en timme, som han hade legat orörlig.
 Nu var han inom skotthåll.
 Nu var hon uppe och det var tid att röra på sig.
 Nu var jag alldeles inpå honom.
 Nu var jag åter Wilhelm Tell.
 Nu var ju kontakten knuten mellan dem igen.
+Nu var rösten så bedrövlig, att den kunde smälta en sten.
 Nu vet jag inte vad jag ska välja.
 Nu ville han att jag skulle bo hos honom.
 Nu ville han hyra smedjan av gubben Johansson.
@@ -10025,6 +10546,7 @@ Nu visste jag inte ens om han var i livet.
 Nu är Bob alldeles vid hällen.
 Nu är arbetet kvinnans altare i stället.
 Nu är det dags att ta tag i detta.
+Nu är det en sak till som jag måste fråga er om.
 Nu är det höst i luften.
 Nu är det höst på riktigt, raggsockorna fram!
 Nu är det min tur!
@@ -10039,6 +10561,7 @@ Nu är ju susningen borta.
 Nu är konceptet inte bara att åka till Budapest.
 Nu är min kakelugn riktigt vacker.
 Nu är vi här.
+Nu är vi vid gästgivargården.
 Nu, får jag äran?
 Nu, när de hade räntor, måste de ha en titel, det var endast rättvist.
 Nu, när jag har Simon i stället?
@@ -10056,6 +10579,7 @@ Nytt arbete, ny luft, nya erfarenheter om människan.
 Nä, vi valde att ställa in den här gången.
 Nähä, min käre bror, det är egentligen till dem jag vänder mig.
 Nämen, titta vad katten släpat in.
+När Akka sade detta, lyfte storken huvudet och såg stort på henne.
 När Birger kom, rätade hon hastigt upp sig, men vände sig inte om.
 När Dagny kom in i den dödstysta matsalen blev hon isande rädd.
 När Gud har beslutat ska vi känna mannen genom det som finns kvar.
@@ -10065,8 +10589,10 @@ När allt kommer omkring, så är du dum.
 När allt kommer omkring, så är jag ju inte gift.
 När brukar ni klä granen?
 När byggnaderna är sprängda kollapsar de och skapar labyrinten från den färdiga ritningen.
+När de hörde vildgässen, stannade de ett ögonblick för att lyssna till dem.
 När de sedan slagit sig ned, kunde han inte hitta på något att säga.
 När det gled fram på eftermiddagen, satte hon sig vid fönstret.
+När det glittrande vattnet slog mot stränderna, tyckte fiskaren, att också dessa förändrades.
 När det inte lyckades, hotade hon med utpressning.
 När det slutar regna och skörden är säkrad ska vi betala.
 När det var slut, var jag på benen igen.
@@ -10080,13 +10606,17 @@ När exploderar den?
 När fick ni in den?
 När filmen visas söker ögat trygghet i telefonen.
 När flyttade sjukhuset in i nya lokaler?
+När fåglarna såg de första vita virvlarna, blev de ängsliga och ökade farten.
 När får du besked?
 När får jag hämta den?
 När får jag återse er?
 När går färjan?
 När han gick, lämnade han den kvar på bordet.
+När han hade slutat, satt pojken tyst en stund och såg framför sig.
+När han höll på med detta, hörde han en klocka slå.
 När han kom hem till sig, hörde han kvinnoröster inne i salongen.
 När han såg hennes tårar, grep han sin hatt.
+När han vaknade framåt kvällen, var han ganska bekymrad.
 När han vaknade var det mörkt.
 När han väntat en stund, hörde han frasandet av kjolar.
 När hans tillstånd förvärrades kände han att hon måste dö.
@@ -10108,12 +10638,15 @@ När jag var grabb hade byäldstarna ibland inte noterat allas exakta ålder.
 När jag var liten kände jag en flicka.
 När jag var liten sa ingen att kvinnor kunde jobba.
 När jag var liten, om jag var ledsen.
+När järnstycket kom fram under valsen, var det sammanpressat och utdraget.
 När kan man få se dig igen?
 När man svärmar, är man alltid blind.
 När man är så duktig som du så har man ett ansvar.
 När molnen började hopa sig mulnade även Knut.
 När morgonen gryr går tiden baklänges.
 När mörkret föll utanför tände de värmeljus och dukade fram ost och kex.
+När pojken bars omkring bland allt detta, blev han helt häpen.
+När pojken började tala lutade ugglan sig framåt och beskådade honom.
 När regnet upphör, och solen återvänder väntar en väldigt lång hungersäsong.
 När ska du föda?
 När ska vi sluta förlora saker?
@@ -10132,6 +10665,7 @@ När vi har sett vår regerings ansvar urarta i kaos över hela Afrika.
 När vi ska belysa kultur täcker vi vår gata med skivor.
 När vi slutar blöda lider vi ändå.
 När vinden vill, skall den få spela för mig.
+När våren kom, kröp små prickiga larver fram ur äggen och började äta granbarr.
 När är mötet?
 När är vi framme?
 När åkte ni?
@@ -10145,6 +10679,7 @@ Nästa gång.
 Nästa skott knallade.
 Nästa sommar fanns badgäster i mängd.
 Nästa, för torr.
+Nästan alla husen i Gällivare var nya och väl och ordentligt uppförda.
 Nästan alla kentaurer har mustasch.
 Nästan alla poserar med fiskar eller bilar.
 Nästan varje gång.
@@ -10152,6 +10687,7 @@ Nästan värre än vanligt.
 Nätt och jämnt tjugotusen i räntor.
 Nå det gick för sig.
 Nå det hade jag ju, men bara för invärtes och eget bruk.
+Nå, det gör detsamma, bara du har öl.
 Nå, det skulle intressera mig på det högsta att se ett sådant kraftprov.
 Nå, det var då för väl att vi äntligen fick något att bita i!
 Nå, det är kanske lite för brutalt behandlingssätt, sade jag.
@@ -10192,6 +10728,7 @@ Någonstans går ändå gränsen.
 Något du upplevt eller sett?
 Något hade han ändå lärt sig sedan förra haveriet.
 Något hände med henne.
+Något innertak fanns det inte, utan han kunde se ända upp till takåsen.
 Något om din mamma.
 Något rörde sig i det höga gräset.
 Något som minner om dig.
@@ -10199,6 +10736,7 @@ Något så löjligt hade han inte kunnat tänka sig.
 Något sådant skulle sannerligen inte hända mera.
 Något verkar skumt, ändå.
 Något väldigt ungerskt.
+Några av dem var rätt stora och på dessa skymtade pojken ett par bostäder.
 Några av era grannar är ganska stela.
 Några av mina vänner har fått sina.
 Några avtal eller specifikationer fanns vidare inte tillgängliga.
@@ -10207,6 +10745,7 @@ Några magra inackorderingar delade sin uppmärksamhet mellan kakan och pärlorn
 Några omständigheter som talar i en annan riktning föreligger inte.
 Några som vi.
 Några spanska stjärnor kunde Tumba inte riktigt räkna med.
+Några timmar efteråt vaknade han vid att kyrkklockorna i Rättvik ringde till gudstjänst.
 Nåja!
 Nåja, det kan medges!
 Nåja, en liten bit kunde han väl gå med dem.
@@ -10232,6 +10771,7 @@ Och Johan Emil hade stigit till fyrvaktare, så han var på den ljusa sidan.
 Och Johan Emil älskade henne med en kärlek som icke kände några gränser.
 Och Nathan övervakade att den verkligen blev målad.
 Och alla de här villorna du ser är det inte förskräckligt?
+Och allihop skrattade förstås åt henne och sade, att hon bara hade drömt.
 Och allt som gladde dig förr och studier och yrke och möjligheter?
 Och arbeta kunde de.
 Och att blanda in Hans Majestät och Vår Herre i sådant där!
@@ -10244,14 +10784,20 @@ Och bocken började äta igen.
 Och bredvid mig springer en hare upp som tryckt under en enbuske.
 Och cigarretter, fyllde den feta elakt i.
 Och dagen därpå uppenbarade sig Liljegren där.
+Och de båda äldsta kunde ju inte vara annat än nöjda och belåtna.
+Och de sträckte alla fram halsarna och fräste vredgat emot honom.
 Och delen där vi inte längre.
 Och den där fotografen?
+Och den där trädgården som han såg under sig just nu!
+Och den där urtappningen är en sak, som jag inte gillar.
 Och den förbehåller sig rätt att diktera villkoren, om barnen och så vidare.
 Och den gamle majoren vred stolt på sina små vita mustascher.
 Och den kände ju både Petter och jag.
 Och den nya ägaren kommer att drabbas av olycka.
 Och den ska vara journalist, tänkte hon.
+Och den stora skogsmattan, som låg under honom, var säkert Småland.
 Och den är god och salt.
+Och denna byggnad skulle uppföras på den invigda kyrkogården.
 Och denna nya längtan blev Klement övermäktig.
 Och denne kamrat, denne Petter Lagergren, träffade jag en kväll i New Jersey!
 Och det berodde på att hon trodde på krig under de närmaste åren.
@@ -10299,6 +10845,7 @@ Och då skulle ungdomen ha roligt.
 Och efter de orden blev jag glömd.
 Och en dag får jag bror mins studie av ditt huvud.
 Och en kyss för vår tomt?
+Och en mörk och kulen kväll var det med blåst och duggregn.
 Och en natt gick jag med smedens pojkar dit.
 Och en ny bössa hade han också och skröt förskräckligt över den.
 Och en sak till.
@@ -10321,6 +10868,8 @@ Och glöm inte.
 Och grönländarna älskade honom som en bror och välgörare.
 Och gubben lät sig ryckas med av stämningen.
 Och han berättade.
+Och han började begripa varför den såg så mångfärgad och rutig ut.
+Och han började springa inåt staden, gata upp och gata ner.
 Och han fick dem.
 Och han följde med.
 Och han försvann med ritningen.
@@ -10328,6 +10877,7 @@ Och han gick till dörren, öppnade den och ropade in de båda gröngölingarna.
 Och han glömde sätta frimärke på detta monstrum av paket.
 Och han kom aldrig tillbaka.
 Och han log på sitt särskilda sätt.
+Och han lyckades verkligen hindra dem från att komma inom skotthåll.
 Och han lyckades.
 Och han lägger sig ned igen och somnar.
 Och han satte nästa ölflaska för munnen.
@@ -10345,6 +10895,7 @@ Och här finns urskog, verklig sådan.
 Och här får du en tidning.
 Och här sitter din förre, jag menar här sitter greven över två spalter.
 Och i själva verket visste ännu ingen någonting med säkerhet.
+Och i år var det ändå särskilt kallt.
 Och idag ska jag bevisa det för dig.
 Och ingen blåst är det heller.
 Och ingen hade väl tänkt på att anfalla en sjuåring.
@@ -10353,6 +10904,7 @@ Och ingen människa hade tänkt på detta.
 Och inget annat får tas.
 Och inom några sekunder satt insidan av mina händer på rattens handtag.
 Och inte Eva utan mig heller.
+Och inte nog med det, utan det skulle bildas ny mylla under träden.
 Och jag använde alla lediga stunder att utveckla min ungdoms vildhet.
 Och jag bryr mig inte.
 Och jag fick den välförtjänta och ymnigt tilltagna skopa ovett jag verkligen förtjänat.
@@ -10367,6 +10919,7 @@ Och jag har varit dum!
 Och jag hatar dig.
 Och jag kom ihåg en historia om madam.
 Och jag känner att det är något du och jag bör diskutera.
+Och jag sprang som för livet.
 Och jag tror att jag sett något väldig speciellt inom dig också.
 Och jag tror han är skyldig till hela det här eländet med diamantgruvan.
 Och jag vill att alla letar efter dem.
@@ -10374,6 +10927,7 @@ Och jag vill att alla poliser håller utkik efter dem.
 Och jag är fortfarande här.
 Och jakten hade varit lyckad.
 Och ju längre han väntar, desto större blir besvikelsen vid framkomsten.
+Och ju längre neråt djupet de trängde, desto farligare blev brytningen.
 Och julen slutade så ljuvligt sakta, inte brutalt hastigt.
 Och just då.
 Och kapitel fjorton vet jag inte vad det är för något.
@@ -10387,6 +10941,7 @@ Och madam kunde inte heller döda.
 Och min vinst på stål räcker långt vid restaureringen av huset.
 Och mot svensken ska man skicka gamla, replikerade översten.
 Och mycket av allt.
+Och naturligtvis skulle han kinesa hos mig.
 Och naturligtvis ville man det.
 Och ni kan skratta!
 Och ni också, doktor, inföll Jones hastigt.
@@ -10421,6 +10976,7 @@ Och när han nu såg Tummetott och hörde vildgässens kackel, lyfte han vingarn
 Och när han såg henne på bron fick han en psykos.
 Och när inte Skansen ville ha den, så har den fått stå.
 Och när är auktionen?
+Och närmare än förut.
 Och om det är matbrist dit ni ska?
 Och om en stund gick motorbåten till sjöss igen.
 Och om frukten är god måste den.
@@ -10430,7 +10986,9 @@ Och om så vore, vad hade hon för hemlig avsikt därmed?
 Och om vår tidiga och gemensamma ungdom.
 Och orglar skulle han aldrig göra mer, överhuvudtaget inga musikinstrument.
 Och pojken gick kanske och grubblade ut en teknik för en oblodig revolution!
+Och på berget var inte lätt att spåra.
 Och på något vis lyckas din pappa se äldre ut än bägge två.
+Och på samma sätt vandrade all boskap oantastad förbi vilddjuren.
 Och se på dem!
 Och sedan försvann han i dunklet.
 Och sen enades vi alla om det.
@@ -10442,7 +11000,9 @@ Och sidan där det är intressant att höra vad du tycker.
 Och själv avskyr jag minnet av en lärare ännu efter femtio år.
 Och skapat ordentliga båtar och ordentligt folk ombord!
 Och skicka den.
+Och skomakarn kom ut.
 Och skurken är så här.
+Och snart gungade pojken uppe i molnen, frälst från varje fara.
 Och som det inte var nog hände en olycka.
 Och som jaktherre hade jag ju varit oklanderlig.
 Och som verkar än!
@@ -10450,6 +11010,7 @@ Och som ägare, var jag skyldig.
 Och sparsam var han, utom vid sådana tillfällen.
 Och stora gamla karlar bli sentimentala som gamla fröknar.
 Och strömming har inte saknats på den fattiges bord heller, för den delen!
+Och så bad hon systern hjälpa henne att skaffa lille Mats en hedersam begravning.
 Och så berättade jag alltsammans.
 Och så började hon springa mot den av alla krafter.
 Och så började jag svära.
@@ -10461,6 +11022,7 @@ Och så gröna byxor till det.
 Och så klev hon ned från stolen.
 Och så kysste han henne.
 Och så måste jag ju medge att vi har bra betalt.
+Och så satte han sig på isen och såg fruktansvärt enfaldig ut.
 Och så snart han gått blev jag mycket bättre.
 Och så stod hon mitt framför honom.
 Och så tog han emot Klements anbud.
@@ -10477,6 +11039,7 @@ Och under tiden fortsatte Liljegren helt ogenerat med sina trakasserier.
 Och underhållet upphör nästa år!
 Och vad får du ut av det?
 Och vad han kunde berätta!
+Och vad han levde på var inte så gott att säga.
 Och vad har hänt?
 Och vad skall jag då göra?
 Och vad skulle jag få för mitt avsevärda lidande?
@@ -10502,6 +11065,7 @@ Och Österlund bjöd på sexa, som det hette.
 Och ändå försöker hindra oss fattiga fiskare att förtjäna en slant.
 Och ändå talar ni om er tacksamhetsskuld?
 Och ändå var jag ganska stark, trots min ungdom.
+Och även på Södermalm, där berget reste sig tvärbrant från stranden, började man bygga.
 Och över hans ansikte låg ett lugn av hög kvalitet.
 Och, så lustigt, alldeles lik Evas!
 Ofrivilligt tog han tag i Rut som för att hindra henne att falla.
@@ -10549,6 +11113,7 @@ Om det blir för varmt kan vi ju bara gå ut i trädgården.
 Om det händer något med Ivar blir det en oerhörd sak för Torkel.
 Om det kommer andra som dem ska vi krossa dem också.
 Om det var en opportunist, varför då bara ta halsbandet?
+Om det vore jag, som ägde det här, skulle jag hugga bort alltihop.
 Om det vore upp till mig.
 Om det är det du vill gör jag det.
 Om det är sjukt för dig fortsätter jag, inga problem.
@@ -10562,6 +11127,7 @@ Om du inte gör som jag säger.
 Om du inte tar emot dem, kastar jag dem i kloaken.
 Om du inte vill följa med, så går jag ensam.
 Om du klantar dig mer, får du smaka blysås.
+Om du kunde ge mig tillbaka handskriften, skulle jag tro dig.
 Om du stänger dörren finns det ingen återvändo!
 Om du tagit kontakt med honom så kanske allt gått annorlunda.
 Om du vet att det fungerar, varför inte ta din fars cykel?
@@ -10635,6 +11201,7 @@ Osäker gick han vidare, skymtade spöklikt avmagrade gestalter i de andra rumme
 Otroligt vad tiden går.
 Otto bodde där och flyttade en våning längre ned allteftersom huset revs.
 Otto flyttade efter.
+Otto gick upp, men jag kände ju honom.
 Otto kom inte på tre dar.
 Otto rusade full av indignation hem till oss.
 Otto tog mycket snart avsked.
@@ -10668,6 +11235,7 @@ Pelle och Simone har känt varandra hela livet.
 Pelle uppmärksammade pressen på den inflation som drabbat souvenirförsäljarna i Bryssel.
 Peppa igång dem.
 Per Ola drev snart omkring på Tåkern och ropade på Jarro.
+Per Ola lydde honom, och han och parveln hjälptes åt att driva fram ekan.
 Perfekt timing!
 Pernilla liftade från Leksand till Holland.
 Personal från Linköping skulle iscensätta historiska händelser.
@@ -10688,6 +11256,7 @@ Peter, du krossade mitt hjärta.
 Peter, förlåt mig.
 Peterson menar att socialbidrag är detaljer som är nog så viktiga.
 Petter kokade kaffe under tystnad.
+Petter och jag rusade efter honom på de gungande isgolven.
 Petter tog itu med problemen på gården.
 Petter växte på bredden och hans axlar tangerade rummets väggar tycktes det mig.
 Pettersson vistades helst i den östra delen av Norden.
@@ -10720,8 +11289,20 @@ Poirot ägnade väl mycket tid åt att dra förhastade slutsatser om mördaren.
 Pojkar är så omogna i den åldern.
 Pojkarna lärde sig överleva efter att ha strandsatts på en ö i Göta kanal.
 Pojken blev alldeles otroligt glad över att herr Ermenrich hade sökt upp honom.
+Pojken blev orolig därför att turisterna stannade så länge i utsiktstornet.
 Pojken drog hastigt kniven tillbaka, men Vind-Ile bara slog ut med vingarna.
+Pojken hade inte blivit rädd, för han hade suttit väl gömd under kvarntrappan.
 Pojken hasade sig ned ur sin tall och båda började överlägga.
+Pojken kunde inte hjälpa, att han fick tårarna i ögonen.
+Pojken kunde inte låta bli att skratta, när han såg hur rutigt allting var.
+Pojken lydde rådet och det dröjde inte länge förrän han hittade ett ax.
+Pojken märkte snart, att de, som satt vid elden, talade om gamla tider.
+Pojken och korpen skrek och ropade men de fick inte något svar.
+Pojken reste sig, vacklade fram till krukan, kände på locket och lät armarna sjunka.
+Pojken stod en lång stund och funderade om han skulle läsa predikan eller inte.
+Pojken såg också de smala gatorna, som var nästan folktomma på helgdagseftermiddagen.
+Pojken tyckte, att örnen slog och slog med vingarna utan att komma ur fläcken.
+Pojken tänkte inte på om landet var rikt eller fattigt.
 Pojken är både husmor och familjeförsörjare.
 Polisongerna växer som ogräs!
 Portieren log.
@@ -10751,6 +11332,7 @@ Problemet ligger helt hos mig.
 Processen har utvecklats med.
 Professor förklarade för ledningen varför Stefan åter ska få sälja bilar i centrum.
 Propellern alstrar elektricitet, och det driver radion.
+Prosten böjde sig fram och förde undan grenarna, så att han fick fri utsikt.
 Prostitution är lagligt där.
 Prova att vända den nedåt istället?
 Prova du att döda en ko så får du se hur du mår.
@@ -10768,6 +11350,7 @@ På alla andra sätt.
 På alla knutar hon for förbi skriade löpsedlarna ut ett mord.
 På andra sidan viken börjar min privata urskog.
 På baksidan anlägger vi gräsmatta.
+På bergsluttningarna runtomkring själva storskogen växte det upp gårdar och socknar.
 På botten låg en gaffel och en rostig skiftnyckel.
 På bryggan stod pigan och tjöt och viftade med förklädet.
 På den där bruna saken.
@@ -10779,6 +11362,7 @@ På det viset blev det dager.
 På en båt.
 På en kaj i hamnen pågick en ordentlig strejk.
 På en stol invid Giselas kar satt Rut, lika stilla som hon.
+På ena sidan om den sumpiga ängsmarken, där gässen betade, låg en bred stengärdsgård.
 På ett av dessa förekommer en grip.
 På ett snart återseende, min herre!
 På ett villkor.
@@ -10793,6 +11377,7 @@ På hösten råkade hon ut för en olycka.
 På isen, förstås.
 På kvällar och helger.
 På kvällarna tar vi er till de hetaste ställena i Budapest.
+På kvällen drev Per Olas mor omkring på stranden.
 På kvällen när avtalet upprättades var parten nyss hemkommen från en utlandsresa.
 På kvällen var det fest i hans stuga.
 På med foliehatten!
@@ -10801,7 +11386,9 @@ På månen, för att träna mig på att styra den här.
 På nationell nivå spelades sammanlagt femtusen tävlingar.
 På naturvetenskapernas område efterlämnade han skrifter i botanik, zoologi, mineralogi och kemi.
 På nyttiga och värdefulla mineral är norra och centrala delarna av landet mycket fattigt.
+På samma gång flög både han och de andra upp ur gropen.
 På samma sätt behandlade han alla de trehundra dunkarna.
+På stalltaket satt vällingklockan under en huv, och det var därifrån, som ringningen kom.
 På så sätt skulle man tysta ned allt illvilligt prat.
 På uteserveringarna satt folk i filtar och lapade girigt den första vårsolen.
 På vilket sätt?
@@ -10812,6 +11399,7 @@ På äldre dar försörjde sig syskonen på sitt karamellkokeri.
 På återseende i morgon!
 På återseende, min vän.
 På återseende, mitt barn.
+På östra sidan fanns ett djupt portvalv, som ledde in på borggården.
 Påföljden bestämdes till fängelse i två år och tre månader.
 Rambo i bergen.
 Rasmus och Kevin är tvillingar.
@@ -10855,6 +11443,7 @@ Rullskidor verkar farligt!
 Rulltrapporna dånade obevekligt genom den öde köpgallerian.
 Rummet var fullt med vassa blickar och fientliga leenden.
 Rune Johnson hade inga förklaringar till varför hyresgästerna tänder lampan på natten.
+Runt omkring stod höga, präktiga hus, och mellan dem öppnade sig långa, smala gator.
 Rut anade vad hans tystnad betydde.
 Rut hade börjat gå framåt den smala stig, som slog en ögla om kullen.
 Rut iakttog med deltagande hur nervös mannen var.
@@ -10897,6 +11486,7 @@ Rörelsens ekonomiska resultat och ställning framkommer särskilt i årsbokslut
 Rösten säger en del om en människa.
 Rösten var gäll och genomträngande, men hon träffade varje ton perfekt.
 Rött har alltid varit min favoritfärg.
+Rövare var de, men de höll andra rövare på avstånd.
 Sa de inte det till honom?
 Sa du att det var fem killar?
 Sa du att du ska till Budapest?
@@ -10958,6 +11548,7 @@ Se hur han kramar bollen.
 Se hur jag ser ut!
 Se hur regnet har varit de senaste åren.
 Se här!
+Se här, håll i den här, medan jag låser upp grinden!
 Se in i mina ögon, Vad är det här för ett ställe?
 Se inte på mig så där.
 Se på Nils Holgersson Tummetott!
@@ -10980,6 +11571,7 @@ Se upp måste man i alla fall.
 Se vad vi har uppnåt.
 Se, hon ringde.
 Se, så bleka och trötta de ser ut.
+Sedan alla intagit sina platser, börjar de se sig om efter fåglarna.
 Sedan begav han sig till tidningen.
 Sedan brände de träden för att torka sina tobaksblad.
 Sedan den tiden drog Gorgo kring i landet, ensam och skydd som alla storrövare.
@@ -11007,6 +11599,7 @@ Sen garanterar vi er hemresa till Paris, på söndag kväll.
 Sen har vi de andra besluten.
 Sen har vi det här.
 Sen kan jag kanske lära mig vad som menas med en orgel.
+Sen kan ni lägga er i vrån vid spisen, så behöver ni inte frysa.
 Sen kollar vi in klubbarna.
 Sen kom den vanliga behandlingen för återupplivning.
 Sen kommer en katt.
@@ -11047,15 +11640,19 @@ Sextiotvå duger inte.
 Sfinxen mediterade.
 Sidorna fylldes.
 Siffrorna tycktes inte stämma när de lämnade trycket.
+Sillstimmen kom västerifrån och gick förbi Hamneskärs fyr in mot land.
 Sin innersta dyra hemlighet släppte han inte ut.
 Sin optimism bibehåller han.
 Siri har verkligen sina begränsningar, det måste man ändå säga.
+Sitt ned!
 Sitter det någonsin smala människor vid ett café?
 Situationen blev olidlig och Isaksson var inte mannen att sätta sig i respekt.
 Situationen var obehaglig, men kunde bli ändå värre för den, som arbetade under middagstiden.
 Sju gånger tackade han innan jag körde ut honom.
+Sju, sade Danielsson.
 Sjukt små pupiller du har, är du okej?
 Själar att rädda.
+Själv fick jag aldrig skjuta någon grävling därhemma.
 Själv for han aldrig till stan med fisken.
 Själv föredrar jag silver framför topaser.
 Själv skulle hon svälta, frysa, gråta blod och lära sig bli folk.
@@ -11307,6 +11904,7 @@ Staketet var nedruttnat, sanden och stormen tillsammans hade utplånat spåren e
 Stan till flygplatsen.
 Stan var full av lyftkranar.
 Stanna här med.
+Stanna här så länge!
 Stanna, eller så.
 Stannar vi så dör vi.
 Stark återhämtning med ökade inkomster i en värld efter oljan menar Jonas Andersson.
@@ -11579,6 +12177,7 @@ Så om vi kopplar ihop några.
 Så presenterade hon.
 Så skall du inte säga, förmanade Lotte.
 Så skönt, sade han tacksamt, i er lilla krets av värme.
+Så slut var han.
 Så sluta spela.
 Så slutade försvarsdebatten mellan Gustav Ek och hans första hustru.
 Så snart Dunfin kom till Mälaren, började hon känna igen landskapet.
@@ -11650,6 +12249,7 @@ Sågen gick, men med litet liv.
 Såklart vi ska, vad kul!
 Sålde du allting?
 Sån var min svensexa och den var fantastisk.
+Såna där blir vi alla här på öarna om vi sköter oss.
 Såna där skumbananer är min favorit!
 Såna gamla rackare!
 Såna gifter man sig inte med.
@@ -11720,6 +12320,7 @@ Tack ska han ha, Danielsson!
 Tack så mycket!
 Tack så mycket.
 Tack, Engström, för du har inte sagt ett ord.
+Tack, adjö!
 Tack, bra.
 Tack, galna möhippan!
 Tack, ingen orsak!
@@ -11754,6 +12355,7 @@ Tar ni med husvagnen?
 Tar ni swish?
 Tavlan syntes henne så blek plötsligt, så overklig.
 Taxen ser honom inte, utan tittar omväxlande utåt havet och på fyrmästarens ansikte.
+Taxen stannar också och ser frågande upp på sin herre.
 Teaterns föreställning kunde presentera upplevelser från tillvaron i stort och smått.
 Teckningen med parallella streck.
 Telia använde el i en mängd som motsvarar den hos hundratusen hushåll i Tjeckien.
@@ -11804,6 +12406,7 @@ Tillbaka till vad då?
 Tills vi ses igen.
 Tillsammans kan vi göra det.
 Tillställningar, födelsedagar.
+Tillåt mig svära!
 Tillåter du att jag tar fram ett block.
 Tingsrätten avgjorde målet efter huvudförhandling.
 Tingsrätten bedömde gärningen som grovt bokföringsbrott och påföljden bestämdes till fängelse i sex månader.
@@ -11822,6 +12425,7 @@ Titta på byxorna.
 Titta på dem.
 Titta på himlen.
 Titta på min arm.
+Titta på mina byxor till exempel!
 Titta på sömmarna.
 Titta vem som har väntat.
 Tja, det ser redan illa ut.
@@ -11935,6 +12539,7 @@ Tänk att dom vet det redan, sade Alice till sig själv.
 Tänk att du gjorde så.
 Tänk att ett liv kan få gömma så mycken njutning.
 Tänk att kärlek trivs i vårt kalla klimat.
+Tänk att lägga så nära strand!
 Tänk att vara tvungen att sälja sina kära ägodelar.
 Tänk dig en rysk vinter en dag.
 Tänk då i stället litet mer på Eva.
@@ -12827,6 +13432,7 @@ Vi måste köpa en ny.
 Vi måste köpa en till fläkt.
 Vi måste köpa nytt tärnljus till Esmeralda.
 Vi måste ordna med påskägg till ungarna också.
+Vi måste passa på medan havet ligger öppet.
 Vi måste se till att klienterna gifter sig.
 Vi måste skydda oss.
 Vi måste skynda oss innan det blir mörkt.
@@ -13023,6 +13629,7 @@ Vid samma tid?
 Vid sammanträdet kan enligt andra stycket sökanden och andra berörda utveckla sin inställning.
 Vid spisen stod huggkubben.
 Vid tillfällen som dessa hade irakiska regeringen en annan hållning gentemot Taiwan.
+Vid varje bord hölls tal för någon lycklig, som tenterat eller tagit examen.
 Vid vissa tillfällen var man på vår sida ytterligt bekymrad och ansåg utgången oviss.
 Vid åsynen av mottagningskommittén ombord fördubblades deras livlighet.
 Vidare har rätten en annan sammansättning i ett patentmål.
@@ -13047,6 +13654,7 @@ Vilken fantastisk kväll.
 Vilken feg stackare.
 Vilken flygplats landar du på?
 Vilken fånig kristallkrona!
+Vilken förstorar mest?
 Vilken idiot.
 Vilken jäkla dag!
 Vilken kväll för dig.
@@ -13256,6 +13864,7 @@ rappa på!
 Äntligen förstår vi varandra, svarade hon med armarna om hans hals.
 Äntligen hade Martin slutat sitt arbete.
 Äntligen har jag hittat er.
+Äntligen kom sista dagen av hans Stockholmshärjning.
 Är Petra också bjuden?
 Är allt okej?
 Är allt som det ska?

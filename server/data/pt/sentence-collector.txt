@@ -632,6 +632,7 @@ A escova é morna e perfeita
 A escrita Chinesa.
 A espada não caiu.
 A espada permaneceu onde estava.
+A espaçonave tem condições de sobrevoar
 A esperança tem um fundo profundo.
 A esta hora da manhã?
 A estação enfileirou um ingresso
@@ -769,6 +770,7 @@ A honestidade é a melhor política.
 A hora chegou.
 A hora do almoço?
 A hospitalidade era boa.
+A iara também é conhecida como mãe d'água
 A ideia ainda é boa.
 A ideia de que podemos nos ajudar independentemente do nível de conhecimento.
 A ideia o assustou.
@@ -1260,6 +1262,7 @@ A sociedade é uma ferramenta de fraude
 A solicitação não recebeu nenhuma associação.
 A solução para uma maior profissionalização do serviço
 A sombrancelha dela tinha sido raspada
+A sonda está em órbita polar
 A sopa está quente
 A sorte me persegue, e o azar foge de mim
 A sorte não é aquela que procura, mas quem a encontra.
@@ -8934,6 +8937,7 @@ Este é o Keith Miller.
 Este é o Sr. Zach Carter.
 Este é o direito de lucrar, o socialismo refinado ou de segundo grau.
 Este é o exemplo mais brilhante, mas não o único, a seu critério.
+Este é o idioma tupi-guarani
 Este é o jovem vestido com uma jaqueta amarela e preta
 Este é o lugar?
 Este é o meu ponto mais insatisfeito.
@@ -9080,6 +9084,7 @@ Estudantes do ensino médio têm uma grande saída
 Estudantes universitários em um kegger.
 Estudar e decidir quantas propostas as empresas realizam para evitar riscos.
 Estudar estas frases-chave irá ajudá-lo durante a viagem.
+Estudar o campo gravitacional e outras finalidades científicas
 Estudos clínicos da nova vacina ainda são excelentes.
 Estudos investigam a influência dos ciclos lunares no sono e no período menstrual
 Está aberto ao público?
@@ -9439,6 +9444,7 @@ Eu geralmente assisto à conteúdo na Netflix.
 Eu gostaria de adicionar o álbum à playlist Tropical Morning.
 Eu gostaria de agradecer pelo cartão de aniversário.
 Eu gostaria de avaliar o Natal de Cem Anos quatro estrelas.
+Eu gostaria de beber um copo de refrigerante.
 Eu gostaria de dar ao texto atual uma classificação de três de seis.
 Eu gostaria de fazer isso.
 Eu gostaria de me juntar, mas ninguém me perguntou.
@@ -11799,6 +11805,7 @@ Isto irá cancelar automaticamente os sacos das especialidades acima mencionadas
 Isto não impede a federação.
 Isto não é lugar para você.
 Isto não é tricô, sua tecelagem.
+Isto não é um chupa-cabra?
 Isto reforça minha verdade de que a coisa se dá em ciclo
 Isto significa considerar este subsolo como um bem público não sujeito à propriedade privada.
 Isto é garantido pela força de trabalho de cerca de cinquenta editores ativos.
@@ -12198,6 +12205,7 @@ Livros, mulheres e cachorros são uma boa companhia.
 Liz e Eduardo
 Liz colocou as flores em um vaso espelhado.
 Liza toca saxofone.
+Lobisomem ou mula sem cabeça?
 Logo a proporção entre as duas raças foi revertida.
 Logo deu à luz sua filha
 Logo eles foram forçados a mudar a lei e estabelecer duas câmaras.
@@ -12994,6 +13002,7 @@ Minimize possíveis danos
 Ministério da educação.
 Mirassol
 Miserável
+Missão chinesa Tianwen tira belas fotos dos polos de Marte
 Mister Kristen tem algo a nos dizer.
 Mister Robinson chegará a tempo.
 Mister Turner não ficará feliz com isso.
@@ -14769,6 +14778,7 @@ O bilhete foi preso no quadro
 O bloco de cimento já estava seco quando ele queria movê-lo.
 O blog do jornalista é um dos mais acessados
 O boi sumiu no pasto
+O boitatá é o protetor das florestas
 O boletim médico divulgado na tarde deste domingo.
 O bolo estará pronto em dezessete minutos.
 O bolo é uma mentira.
@@ -14783,6 +14793,7 @@ O bom tabaco produz boas cinzas.
 O bom vinho não precisa de um arbusto arauto.
 O bombeiro não conseguiu resgatar o rapaz.
 O bonde chegará em cinco minutos, a menos que este horário esteja errado.
+O boto-cor-de-rosa é representado por um homem belo e galanteador
 O branco ao lado do preto destaca mais.
 O brilho no topo tornava-o impróprio para ler.
 O cabelo da amiga dela era loiro.
@@ -15718,6 +15729,7 @@ O poder me faz feliz
 O poeta às vezes vive entre dois mundos
 O policial está tendo nota na mão.
 O policial foi acusado de vazar uma operação sigilosa.
+O polo norte de Marte é uma gigantesca espiral
 O polvo ficou preocupado com a lula.
 O ponteiro das horas vira trezentos e sessenta graus
 O ponteiro implacável do relógio está me perseguindo
@@ -16118,6 +16130,7 @@ O roteiro estava cheio de intrigas e mistérios.
 O rumo do páis é incerto.
 O sabor da manga traz um frescor para a receita
 O sabão pode lavar a maior parte da sujeira.
+O saci ronda as matas junto do curupira
 O saco de lixo se rasgou
 O sal era a melhor maneira de manter os alimentos fora de estoque.
 O saldo final era quase trezentos termos normalizados.
@@ -18142,6 +18155,7 @@ Pretendemos fazer mais edições de cursos.
 Pretendemos ir até Dubai nas próximas férias
 Preto e branco, é girado.
 Prevenção do delinquente juvenil
+Previstos para pousar em maio
 Prezada, você poderá entregar a prova online até o fim do prazo
 Primavera do Leste
 Primeira despedida
@@ -23314,6 +23328,7 @@ Va ser inútil.
 Vaca e carneiro, pote de senhor.
 Vacaria
 Vacas, porcos, patos e galinhas podem ser encontrados em fazendas
+Vacinas são um recurso valioso que salva vidas
 Vai assustar.
 Vai chover amanhã?
 Vai chover hoje?
