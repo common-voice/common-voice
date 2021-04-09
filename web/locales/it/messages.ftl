@@ -369,6 +369,7 @@ browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</browseWrap>
 connect-gravatar = Connetti Gravatar
 gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
+avatar-uploaded = Avatar caricato
 manage-subscriptions = Gestisci le sottoscrizioni
 manage-email-subscriptions = Gestisci iscrizioni email
 email-already-used = Questa email è già in uso per un altro account
