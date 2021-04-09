@@ -21,7 +21,7 @@
     }
 
     .about-heading {
-        padding-left: calc((100% - 76rem) / 2);
+        padding-inline-start: calc((100% - 76rem) / 2);
         max-width: inherit !important;
         border-top: 1px solid var(--light-grey);
     }
@@ -78,7 +78,11 @@
         & .line {
             width: 70px;
             height: 3px;
-            background: linear-gradient(to right, var(--gradient-pink), var(--gradient-purple));
+            background: linear-gradient(
+                to right,
+                var(--gradient-pink),
+                var(--gradient-purple)
+            );
 
             @media (--md-down) {
                 margin-bottom: 20px;
