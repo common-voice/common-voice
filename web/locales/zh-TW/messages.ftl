@@ -369,6 +369,7 @@ browse-file = 拖曳至此處，或<browseWrap>瀏覽</browseWrap>
 connect-gravatar = 連結 Gravatar
 gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
 file_too_large = 選擇的檔案太大
+avatar-uploaded = 已上傳大頭照
 manage-subscriptions = 管理訂閱
 manage-email-subscriptions = 管理電子報訂閱項目
 email-already-used = 電子郵件地址已用於其他帳號
