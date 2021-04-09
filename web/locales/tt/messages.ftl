@@ -373,6 +373,7 @@ browse-file = Өстерәп китерү яки <browseWrap>Карап чыгу
 connect-gravatar = Gravatar белән тоташтыру
 gravatar_not_found = Сезнең эл. хат белән бәйле gravatar табылмады
 file_too_large = Сайланган файл артык зур
+avatar-uploaded = Аватар өстәлде
 manage-subscriptions = Язылуларны көйләү
 manage-email-subscriptions = Эл. почта абунәләре белән идарә итү
 email-already-used = Әлеге эл. хат башка аккаунтта кулланыла инде
