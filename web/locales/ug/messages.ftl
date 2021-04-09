@@ -528,6 +528,7 @@ dataset-date = چېسلا
 license = ئىجازەتنامە: <licenseLink>{ $license }</licenseLink>
 license-mixed = ئارىلاش
 data-download-singleword-title = يەككە سۆز نىشان بۆلىكىنى چۈشۈرۈڭ
+data-download-singleword-callout-v2 = بۇ ئىشلىتىش مىسالى رەقەملىك ئاۋازدىكى ھەئە / ياق نى تونۇش ئىمكانىيىتىگە ئىگە قىلىدىغان سانلىق مەلۇماتنى ئۆز ئىچىگە ئالىدۇ.
 review-terms = Common Voice نى ئىشلىتىش ئارقىلىق سىز بىزنىڭ <termsLink>شەرتنامە</termsLink> شۇنداقلا <privacyLink>مەخپىيەتلىك ئەسكەرتىشمىز</privacyLink> گە قوشۇلغان بولىسىز
 terms-agree = قوشۇلىمەن
 terms-disagree = قوشۇلمايمەن
