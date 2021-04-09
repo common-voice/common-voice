@@ -1,5 +1,3 @@
-@import url('../../../vars.css');
-
 .contribution.speak {
     & .error .instruction {
         color: var(--red);
