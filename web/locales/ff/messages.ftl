@@ -193,7 +193,7 @@ wall-of-text-start =
     kuutorteeɗe e masiŋaaji men. Kono ngam sosde juɓɓe sawto, jogaade keɓe sawto
     keewɗe haa wooroo ena waɗɗii.
 wall-of-text-more-mobile =
-    Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
+    Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. Aamin cikki
     ɗum ina ñoƴƴa pental. Ɗuum noon min ummini eɓɓoore Common Voice, eɓɓoore walloore waɗde
     heftinirde sawto udditaniinde kala neɗɗo.
 wall-of-text-more-desktop =
