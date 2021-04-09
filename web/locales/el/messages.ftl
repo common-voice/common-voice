@@ -373,6 +373,7 @@ browse-file = Σύρετε και εναποθέστε ή <browseWrap>περιή
 connect-gravatar = Σύνδεση με Gravatar
 gravatar_not_found = Δεν βρέθηκε gravatar για το email σας
 file_too_large = Το επιλεγμένο αρχείο είναι πολύ μεγάλο
+avatar-uploaded = Μεταφορτώθηκε το avatar
 manage-subscriptions = Διαχείριση συνδρομών
 manage-email-subscriptions = Διαχείριση συνδρομών email
 email-already-used = Το email χρησιμοποιείται ήδη για διαφορετικό λογαριασμό
