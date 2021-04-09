@@ -524,6 +524,7 @@ record-error-too-long = రికార్డింగ్ చాలా పొడ
 record-error-too-quiet = రికార్డింగ్ చాలా నిశ్శబ్దంగా ఉంది.
 record-cancel = రీ-రికార్డింగ్‌ను రద్దుచేయి
 record-instruction = { $actionType }<recordIcon></recordIcon> తర్వాత వాక్యాన్ని పైకి చదవండి
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> పూర్తి చేసినప్పుడు
 record-three-more-instruction = ఇంకా మూడే ఉన్నాయి!
 record-last-instruction = <recordIcon></recordIcon> చివరిది!
 review-instruction = సమీక్షించి, అవసరమైతే క్లిప్పులు మళ్ళీ రికార్డుచేయండి
