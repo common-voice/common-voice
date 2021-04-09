@@ -17,6 +17,27 @@
     src: url('/font/icomoon.ttf');
 }
 
+/* Zilla Slab has a limited glyph support range so switch to
+   Noto in known cases */
+html[lang='cv'],
+html[lang='ky'],
+html[lang='ro'],
+html[lang='ff'] {
+    --strong-font-family: 'Noto Serif', serif;
+}
+
+/* Fonts that support arabic script generally don't support any other
+   extended alphabet, so fall back to sans-serif to avoid loading more fonts */
+html[lang='ckb'] {
+    --strong-font-family: 'Open Serif', sans-serif;
+}
+
+/* Fulah and Romanian are not supported by Open Sans */
+html[lang='ro'],
+html[lang='ff'] {
+    --base-font-family: 'Inter', sans-serif;
+}
+
 html {
     font-family: var(--base-font-family);
     font-size: var(--font-size);
