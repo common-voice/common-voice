@@ -377,6 +377,7 @@ browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
 connect-gravatar = Kapcsolódás a Gravatarral
 gravatar_not_found = Nem található gravatar az e-mail címéhez
 file_too_large = A kiválasztott fájl túl nagy
+avatar-uploaded = Profilkép feltöltése
 manage-subscriptions = Feliratkozások kezelése
 manage-email-subscriptions = E-mail feliratkozások kezelése
 email-already-used = Az e-mail már használatban van egy másik fiókban
