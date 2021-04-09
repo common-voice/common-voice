@@ -371,6 +371,7 @@ browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
 connect-gravatar = Mit Gravatar verbinden
 gravatar_not_found = Für Ihre E-Mail-Adresse wurde kein Gravatar gefunden
 file_too_large = Die ausgewählte Datei ist zu groß
+avatar-uploaded = Avatar hochgeladen
 manage-subscriptions = Abonnements verwalten
 manage-email-subscriptions = E-Mail-Abonnements verwalten
 email-already-used = E-Mail-Adresse wird bereits durch ein anderes Konto verwendet
