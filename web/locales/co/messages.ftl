@@ -412,6 +412,7 @@ download-language = Scaricà { $language }
 validated-hours = Ore Cunvalidate
 recorded-hours = Ore Arrighjistrate
 missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dumandà una lingua, andate annantu à a nostra paghjina Lingue.
+go-languages-page = Andà à a pagina di e lingue
 more = Più
 close = Sarrà
 download = Scaricà
@@ -420,6 +421,7 @@ dataset-version = Versione
 ## Download Modal
 
 download-helpus = Aiutateci à custruisce una cumunità intornu à a tecnulugia vucale, state in cuntattu via email.
+download-no = Innò, vi ringraziu
 
 ## Contact Modal
 
@@ -434,9 +436,11 @@ contact-required = *richiestu
 request-language-title = Richiesta di lingua
 request-language-form-language =
     .label = Lingua
+other-language = Altra lingua
 
 ## Languages Overview
 
+languages-show-more = Vede di più
 languages-show-less = Vede menu
 language-meter-in-progress = In corsu
 language-total-progress = Tutale
@@ -446,6 +450,7 @@ total-hours = Ore cunvalidate
 
 ## Contribution
 
+target-segment-learn-more = Sapene di più
 
 ## Reporting
 
@@ -460,10 +465,13 @@ days =
 
 ## Dashboard
 
+your-languages = E vostre lingue
+you = Tù
 
 ## Custom Goals
 
 both-speak-and-listen = Tramindui
+easy-difficulty = Faciule
 
 ## Profile Delete
 
