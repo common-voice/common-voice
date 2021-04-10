@@ -1,5 +1,3 @@
-@import url('../../vars.css');
-
 .error-page {
     display: flex;
     flex-direction: column;
