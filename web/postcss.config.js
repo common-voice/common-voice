@@ -10,6 +10,15 @@ module.exports = {
     'postcss-nested',
     'postcss-custom-media',
     'postcss-preset-env',
-    'cssnano',
+    ['cssnano', {
+
+      "preset": [
+        "default",
+        {
+          "calc": false
+        }
+      ]
+
+    }],
   ],
 };

@@ -1,6 +1,7 @@
 @import url('../../../node_modules/react-tippy/dist/tippy.css');
 
 @import url('vars.css');
+@import url('media.css');
 @import url('ui/ui.css');
 
 @import url('alert/alert.css');
