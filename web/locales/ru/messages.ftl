@@ -375,6 +375,7 @@ browse-file = Перетащите или <browseWrap>выберите файл<
 connect-gravatar = Присоединить Gravatar
 gravatar_not_found = Данный адрес эл. почты не зарегистрирован в gravatar
 file_too_large = Выбранный файл имеет слишком большой размер
+avatar-uploaded = Аватар загружен
 manage-subscriptions = Управление подписками
 manage-email-subscriptions = Управление подписками по эл. почте
 email-already-used = Электронная почта уже используется в другом аккаунте
