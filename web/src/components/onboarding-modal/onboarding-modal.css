@@ -1,3 +1,5 @@
+@import url('../vars.css');
+
 .ReactModal__Content .onboarding-modal {
     width: 774px;
     height: 733px;

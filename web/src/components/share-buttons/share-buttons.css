@@ -1,3 +1,5 @@
+@import url('../vars.css');
+
 .share-button [data-icon] {
     color: var(--white);
     font-size: var(--font-size-xs);

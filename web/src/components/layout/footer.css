@@ -1,3 +1,5 @@
+@import url('../vars.css');
+
 footer {
     margin-top: 2rem;
     background-color: var(--black);

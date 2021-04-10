@@ -1,3 +1,4 @@
+@import url('../../../vars.css');
 .weekly-container {
     max-height: 1060px;
     overflow-y: auto;

@@ -1,3 +1,5 @@
+@import url('../vars.css');
+
 header {
     position: sticky;
     top: 0;

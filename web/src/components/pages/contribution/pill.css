@@ -1,3 +1,5 @@
+@import url('../../vars.css');
+
 .pill {
     border-radius: 29px;
     box-sizing: border-box;

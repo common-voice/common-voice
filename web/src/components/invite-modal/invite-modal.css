@@ -1,3 +1,5 @@
+@import url('../vars.css');
+
 .invite-modal {
     max-height: 100vh;
     overflow: auto;

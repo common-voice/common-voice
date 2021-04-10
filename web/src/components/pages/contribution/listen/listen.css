@@ -1,3 +1,5 @@
+@import url('../../../vars.css');
+
 :root {
     --vote-button-box-shadow: 0 5px 10px;
 }

@@ -1,3 +1,5 @@
+@import url('../../../vars.css');
+
 .profile-info {
     color: var(--near-black);
 

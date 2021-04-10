@@ -1,3 +1,5 @@
+@import url('../vars.css');
+
 :root {
     --toggle-padding: 10px;
 }

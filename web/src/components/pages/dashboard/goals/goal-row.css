@@ -1,3 +1,5 @@
+@import url('../../../vars.css');
+
 .goal-row {
     flex-shrink: 1;
     overflow-x: auto;

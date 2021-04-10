@@ -1,3 +1,5 @@
+@import url('../../vars.css');
+
 .about {
     & #content {
         padding: 0;
@@ -32,11 +34,7 @@
         & .vertical-line {
             width: 3px;
             height: 100px;
-            background: linear-gradient(
-                to right,
-                var(--gradient-pink),
-                var(--gradient-purple)
-            );
+            background: linear-gradient(to right, var(--gradient-pink), var(--gradient-purple));
             margin: 0 auto;
 
             @media (--sm-down) {

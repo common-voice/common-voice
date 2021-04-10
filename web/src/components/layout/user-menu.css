@@ -1,3 +1,5 @@
+@import url('../vars.css');
+
 .animation {
     z-index: -1000;
     height: 0%;

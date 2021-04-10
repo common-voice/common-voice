@@ -1,3 +1,5 @@
+@import url('../../vars.css');
+
 @keyframes dash {
     from {
         stroke-dashoffset: 1000;
