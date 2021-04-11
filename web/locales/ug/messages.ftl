@@ -645,6 +645,7 @@ other-language = باشقا تىل
 ## Languages Overview
 
 language-section-in-progress = ئىلگىرىلەۋاتىدۇ
+language-section-in-progress-new-description = نۆۋەتتە بۇ تىللارغا ئىجتىمائىي توپ تەرىپىدىن خىزمەتلەر ئىلىنىپ بېرىلىۋاتىدۇ. بۇ ئىلگىرىلەش سىتونلىرى ھەر قايسى تىللارنىڭ <localizationGlossaryLink>تور بېتىنى يەرلىكلەشتۈرۈش</localizationGlossaryLink> شۇنداقلا <sentenceCollectionGlossaryLink>جۈملە يىغىش</sentenceCollectionGlossaryLink> ئەھۋالىنى كۆرسىتىپ بېرىدۇ.
 language-section-launched = قوزغىتىلدى
 language-section-launched-description = قوزغىتىلغان تىللاردىكى تور بىتى مۇۋەپپەقىيەتلىك ھالدا <localizationGlossaryLink> يەرلىكلەشتۈرۈلگەن </localizationGlossaryLink>، شۇنداقلا يېتەرلىك  <sentenceCollectionGlossaryLink>توپلانغان جۈملىلىرى</sentenceCollectionGlossaryLink> بولسا <speakLink>سۆزلەپ</speakLink> ۋە <listenLink>ئاڭلاپ</listenLink> تۆھپە قوشۇش باسقۇچىغا ماڭالايدۇ.
 languages-show-more = تەپسىلاتى
