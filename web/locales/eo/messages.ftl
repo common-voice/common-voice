@@ -371,6 +371,7 @@ browse-file = Trenu kaj delasu aŭ <browseWrap>esploru</browseWrap>
 connect-gravatar = Konekti Gravatar
 gravatar_not_found = Via retpoŝta adreso ne estas asociita al Gravatar
 file_too_large = La elektita dosiero estas tro granda
+avatar-uploaded = Avataro alŝutita
 manage-subscriptions = Administri abonojn
 manage-email-subscriptions = Administri retpoŝtajn abonojn
 email-already-used = La retpoŝta adreso jam estas uzata de alia konto
