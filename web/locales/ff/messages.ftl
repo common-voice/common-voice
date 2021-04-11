@@ -387,6 +387,7 @@ browse-file = Daas njollaa walla <browseWrap>Wanngo</browseWrap>
 connect-gravatar = Seŋoro Gravatar
 gravatar_not_found = Alaa gravatar yiytaanaa iimeel maa
 file_too_large = Fiilde suɓaande ndee ina mawni no feewi
+avatar-uploaded = Jimmirde yollaama
 manage-subscriptions = Toppito Binnditagol
 manage-email-subscriptions = Toppito Binnditagol iimeel
 email-already-used = Iimeel oo ina huutoree e konte goɗɗe kisa
