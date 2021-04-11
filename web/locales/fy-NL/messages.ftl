@@ -381,6 +381,7 @@ browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
 connect-gravatar = Mei Gravatar ferbine
 gravatar_not_found = Ggjin gravatar foar jo e-mailadres fûn
 file_too_large = It selektearre bestân is te grut
+avatar-uploaded = Avatar opladen
 manage-subscriptions = Abonneminten beheare
 manage-email-subscriptions = E-mailabonneminten beheare
 email-already-used = E-mailadres wurdt al foar in oar account brûkt
