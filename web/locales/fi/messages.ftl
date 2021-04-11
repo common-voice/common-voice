@@ -495,6 +495,7 @@ data-other-goto = Siirry sivustolle { $name }
 data-other-download = Lataa aineisto
 data-bundle-button = Lataa koottu aineistokokoelma
 data-bundle-description = Common Voice -aineisto sekä kaikki ylläolevat aineistot
+dataset-date = Päivämäärä
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Useita
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
@@ -829,16 +830,22 @@ read-more-about = Lue lisää Lisätietoja-sivulta
 
 ## DemoLayout
 
+demo-welcome = Tervetuloa Common Voiceen
 
 ## Demo Datasets
 
 card-button-next = Seuraava
+card-button-back = Takaisin
+demo-language-select-label = Selaa kieliä
+demo-eofy-sub_header = Ääniaineisto, valmiina ladattavaksi
+demo-account = Tili
 
 ## Demo Account
 
 
 ## Demo Contribute
 
+demo-listen-subtitle = Valmiina osallistumaan?
 
 ## Demo Dashboard
 
