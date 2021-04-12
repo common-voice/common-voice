@@ -1,13 +1,11 @@
-@import url('../vars.css');
-
 .plot {
     margin-top: 28px;
     height: 170px;
-    @media (--md-only){
+    @media (--md-only) {
         width: 175%;
     }
-    @media (--xs-only){
-        width:200%;
+    @media (--xs-only) {
+        width: 200%;
     }
 
     & .tick-label {
