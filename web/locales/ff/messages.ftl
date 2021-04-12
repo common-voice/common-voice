@@ -458,7 +458,7 @@ faq-search-for-answers =
 about-title = Ko saabii Common Voice?
 about-subtitle = Common Voice jeyaa ko e eɓɓooje Mozilla ballooje janngide masiŋaaji no yimɓe kaaldata e jaati. Takko Leemre keɓe Common Voice ndee, min ngoni kadi ko e mahde  masiŋ keftinirgol haala udditiiɗo ena wiyee Deep Speech.
 about-header-description =
-    Ɗee-ɗoo eɓɓoje ɗiɗi kala njeyaa ko e darnde amen ngam sukkude yolnde peecol karalle haala. Karalle keftingol sawto nganndtu kaɓirɗe men fannu neɗɗaŋke, kono topayɓe ena cokli keɓe sawto moolanaaɗe keewal ngam mahde ɗe. E oo sahaa, ko heewi e ɗeen keɓe ena tiiɗi njaru etee ko jeyi keeriiɗo.
+    Ɗee-ɗoo eɓɓoje ɗiɗi kala njeyaa ko e darnde amen ngam sukkude yolnde peecol karalle haala. Karalle keftingol sawto ɓeydat e kaɓirɗi men fannu neɗɗaŋke, kono topayɓe ena cokli keɓe sawto moolanaaɗe keewal ngam mahde ɗe. E oo sahaa, ko heewi e ɗeen keɓe ena tiiɗi njaru etee ko jeyi keeriiɗo.
     Min njiɗi ko waɗde haa keɓe sawto heɓoo e wellitaare kam e peñcu, tawa amin ndaranii keɓe ɗee ena noddi limlimtam yimɓe e jaati. Eɗen fof mbaawi beydude moƴƴugol keftingol sawto.
 how-does-it-work-title = Hol no ɗum gollortoo?
 how-does-it-work-text = Amin nodda ballondiral e leemre keɓe sawtooji.  Hokkir sawto maa, jaalɗin ceeɓndam lefon yimɓe woɗɓe, waɗ leemre keɓe ndee ɓeydoo moƴƴanɗe mo woni kala.
