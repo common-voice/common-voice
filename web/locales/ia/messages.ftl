@@ -371,6 +371,7 @@ browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
 connect-gravatar = Connecter con Gravatar
 gravatar_not_found = Nulle gravatar trovate pro tu adresse de e-mail
 file_too_large = Le file seligite es troppo grande
+avatar-uploaded = Avatar cargate
 manage-subscriptions = Gerer le subscriptiones
 manage-email-subscriptions = Gerer le abonamentos a email
 email-already-used = Iste email es jam utilisate pro un conto differente
