@@ -389,6 +389,7 @@ browse-file = Llusgo a gollwg neu <browseWrap>Bori</browseWrap>
 connect-gravatar = Cysylltu â Gravatar
 gravatar_not_found = Dim gravatar wedi ei ganfod o'ch e-bost
 file_too_large = Mae'r ffeil yma'n rhy fawr
+avatar-uploaded = Llwythwyd yr afatar
 manage-subscriptions = Rheoli Tanysgrifiadau
 manage-email-subscriptions = Rheoli Tanysgrifiadau E-bost
 email-already-used = Mae'r e-bost yn cael ei ddefnyddio yn barod ar gyfer cyfrif gwahanol
