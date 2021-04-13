@@ -8,7 +8,7 @@ import { useRef, useState } from 'react';
 import { connect } from 'react-redux';
 import { useAccount, useAction } from '../../../../hooks/store-hooks';
 import API from '../../../../services/api';
-import { trackDashboard, trackVoiceAvatar } from '../../../../services/tracker';
+import { trackDashboard } from '../../../../services/tracker';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -24,15 +24,11 @@ import {
   InfoIcon,
   MicIcon,
   OldPlayIcon,
-  PlayIcon,
   PlayOutlineIcon,
 } from '../../../ui/icons';
 import { Avatar, Toggle } from '../../../ui/ui';
 import StatsCard from './stats-card';
 import { isProduction } from '../../../../utility';
-import { Suspense, lazy } from 'react';
-const Lottie = lazy(() => import('react-lottie'));
-const animationData = require('../../../layout/data.json');
 
 import './leaderboard.css';
 
@@ -80,16 +76,13 @@ const RateColumn = withLocalization(
 interface State {
   rows: { position: number; [key: string]: any }[];
   isAtEnd: boolean;
-  playingClipIndex: number;
 }
 
 class UnconnectedLeaderboard extends React.Component<Props, State> {
   state: State = {
     rows: [],
     isAtEnd: false,
-    playingClipIndex: null,
   };
-  audioRef = React.createRef<HTMLAudioElement>();
 
   scroller: { current: HTMLUListElement | null } = React.createRef();
   youRow: { current: HTMLLIElement | null } = React.createRef();
@@ -128,23 +121,6 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
     );
   }
 
-  playAvatarClip = function (clipUrl: string, position: any, self: boolean) {
-    const { locale } = this.props;
-    trackVoiceAvatar(self ? 'self-listen' : 'listen', locale);
-
-    if (this.state.playingClipIndex === null) {
-      this.setState({ playingClipIndex: position });
-
-      this.audioRef.current.src = clipUrl;
-
-      this.audioRef.current.play();
-    } else {
-      this.audioRef.current.pause();
-      this.audioRef.current.currentTime = 0;
-      this.setState({ playingClipIndex: null });
-    }
-  };
-
   scrollToUser = () => {
     const row = this.youRow.current;
     if (!row) return;
@@ -168,15 +144,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
   };
 
   render() {
-    const { rows, isAtEnd, playingClipIndex } = this.state;
-    const defaultOptions = {
-      loop: true,
-      autoplay: true,
-      animationData: animationData,
-      rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice',
-      },
-    };
+    const { rows, isAtEnd } = this.state;
 
     // TODO: Render <Fetchrow>s outside of `items` to flatten the list.
     const items = rows.map((row, i) => {
@@ -204,53 +172,9 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
             {row.position + 1}
           </div>
 
-          {!isProduction() ? (
-            row.avatarClipUrl === null ? (
-              <div className="avatar-container">
-                <Avatar url={row.avatar_url} />
-              </div>
-            ) : (
-              <div>
-                <audio
-                  preload="auto"
-                  ref={this.audioRef}
-                  onEnded={() => this.setState({ playingClipIndex: null })}
-                  onError={() => this.setState({ playingClipIndex: null })}
-                />
-                <button
-                  className="avatar-container"
-                  onMouseEnter={() =>
-                    this.playAvatarClip(
-                      row.avatarClipUrl,
-                      row.position,
-                      row.you
-                    )
-                  }
-                  onMouseLeave={() =>
-                    this.playAvatarClip(
-                      row.avatarClipUrl,
-                      row.position,
-                      row.you
-                    )
-                  }
-                  onClick={() =>
-                    this.playAvatarClip(
-                      row.avatarClipUrl,
-                      row.position,
-                      row.you
-                    )
-                  }>
-                  <div>
-                    <Avatar url={row.avatar_url} />
-                  </div>
-                </button>
-              </div>
-            )
-          ) : (
-            <div className="avatar-container">
-              <Avatar url={row.avatar_url} />
-            </div>
-          )}
+          <div className="avatar-container">
+            <Avatar url={row.avatar_url} />
+          </div>
 
           <div className="username" title={row.username}>
             {row.username || '???'}
@@ -264,26 +188,8 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
               </>
             )}
           </div>
-          {playingClipIndex === row.position && (
-            <div className="lottie">
-              <Suspense fallback={<div />}>
-                <div className="animation">
-                  <Lottie
-                    options={defaultOptions}
-                    eventListeners={[]}
-                    height={80}
-                    width={250}
-                  />
-                </div>
-              </Suspense>{' '}
-            </div>
-          )}
           <div className="total" title={row.total}>
-            {this.props.type == 'clip' ? (
-              <MicIcon />
-            ) : (
-              <OldPlayIcon className="play" />
-            )}
+            <OldPlayIcon className="play" />
             {formatNumber(row.total)}
           </div>
         </li>,

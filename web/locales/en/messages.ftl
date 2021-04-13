@@ -355,27 +355,16 @@ skip-submission-description = During contribution submission feedback will be sk
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
-avatar-clip-title = Give your avatar a voice
-change-your-avatar-clip = Want to change your voice clip?
-recording-in-progress = Voice recording in progress
-avatar-clip-recorded = Your avatar now includes a voice clip!
-record-voice-wave = RECORD VOICEWAVE
-retry-voice-wave-recording = RETRY
-re-record = RE-RECORD
-delete-voice = DELETE
-recording-voice-wave = Recording
-delete-voice-clip = or  Delete voice clip
-ready-to-upload = UPLOAD
-avatar-clip-fact = It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-recreate-voice = Recreate Voicewave
-cancel-avatar-clip-recording = CANCEL
-about-avatar-clip-recording = Create a voice clip as part of your profile avatar. Others will be able to hover and listen to your clip.
+
+## Profile - Email
 browse-file-title = Upload an image file
 browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
 connect-gravatar = Connect with Gravatar
 gravatar_not_found = No gravatar found for your email
 file_too_large = The selected file is too large
 avatar-uploaded = Avatar uploaded
+
+## Profile - Email
 manage-subscriptions = Manage Subscriptions
 manage-email-subscriptions = Manage Email Subscriptions
 email-already-used = Email is already used for a different account

@@ -27,10 +27,6 @@
     display: flex;
     flex-direction: column;
 
-    @media (--md-only) {
-        margin-top: var(--header-height);
-    }
-
     @media (--md-up) {
         flex-direction: row;
     }
@@ -58,7 +54,6 @@
 
         @media (--lg-up) {
             max-width: 27%;
-            margin-inline-end: 100px;
         }
 
         .links {
@@ -138,7 +133,6 @@
         width: 100%;
         min-height: 500px;
         position: relative;
-        right: 3%;
         z-index: var(--middle-z-index);
         overflow: hidden;
 

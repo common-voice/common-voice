@@ -333,15 +333,6 @@
             }
         }
 
-        .lottie {
-            position: relative;
-            height: 32px;
-            width: 600px;
-            left: 15px;
-            bottom: 8px;
-            z-index: 1000;
-        }
-
         & .username {
             width: 100%;
             line-height: 1.5;
