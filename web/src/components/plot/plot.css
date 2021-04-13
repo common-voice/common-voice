@@ -1,25 +1,33 @@
 .plot {
     margin-top: 28px;
     height: 170px;
-    @media (--md-only) {
-        width: 175%;
-    }
-    @media (--xs-only) {
-        width: 200%;
-    }
 
-    & .tick-label {
+    .tick-label {
         font-size: var(--font-size-xs);
         fill: var(--warm-grey);
     }
 
-    & rect {
+    rect {
         &.bg {
             fill: var(--grey);
         }
 
         &.current {
             fill: var(--valid-green);
+        }
+    }
+}
+
+.scrollable {
+    overflow-x: scroll;
+
+    .plot {
+        @media (--md-only) {
+            width: 175%;
+        }
+
+        @media (--xs-only) {
+            width: 200%;
         }
     }
 }

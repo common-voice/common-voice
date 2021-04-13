@@ -37,14 +37,16 @@ function StatsCard({
   children,
   onLocaleChange,
   header,
+  scrollable,
 }: {
   children?: React.ReactNode;
   header: React.ReactNode;
   onLocaleChange: (locale: string) => any;
+  scrollable?: boolean;
 }) {
   const [locale, setLocale] = useState(ALL_LOCALES);
   return (
-    <div className="home-card">
+    <div className={`home-card ${scrollable ? 'scrollable' : ''}`}>
       <div className="head">
         {header}
         <LanguageSelect
@@ -342,6 +344,7 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
       const { data } = this.state;
       return (
         <StatsCard
+          scrollable
           header={
             <div>
               <Localized id="voices-online">
