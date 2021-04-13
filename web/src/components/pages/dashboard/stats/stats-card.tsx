@@ -22,6 +22,7 @@ export default function StatsCard({
   overlay?: React.ReactNode;
   tabs?: { [label: string]: (props: { locale?: string }) => any };
   challenge?: boolean;
+  scrollable?: boolean;
   currentLocale?: string;
 }) {
   const [locale, setLocale] = useState(ALL_LOCALES);
