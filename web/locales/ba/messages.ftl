@@ -351,26 +351,18 @@ skip-submission-description = «Ебәрергә» төймәһенә баҫҡа
 skip-submission-note = Иҫкәрмә: өлөшөгөҙҙө индереү төрөн үҙгәртер өсөн һеҙгә элеккесә йә яҙманы, йә тыңлауҙы һайлар кәрәк.
 off = Һүнгән
 on = Тоҡанған
-avatar-clip-title = Үҙегеҙҙең аватарығыҙға тауыш бирегеҙ
-change-your-avatar-clip = Үҙегеҙ яҙҙыртҡан тауышты үҙгәртергә теләйһегеҙме?
-recording-in-progress = Тауыш яҙҙырыу бара
-avatar-clip-recorded = Аватарығыҙ хәҙер аудиотауышлы!
-record-voice-wave = Тауышты яҙҙырыу
-retry-voice-wave-recording = Ҡабатлау
-re-record = Яңынан яҙҙырырға
-delete-voice = Юйыу
-recording-voice-wave = Яҙыу
-delete-voice-clip = йәки Тауыш яҙмаһын юйыу
-ready-to-upload = Тейәргә
-avatar-clip-fact = Электән билдәле: уҡыусы макетты ҡарағанда биттең уҡырға яйлы йөкмәткеһенә иғтибарын йүнәлтәсәк.
-recreate-voice = Сәләмләүҙе яңынан яҙҙырыу
-cancel-avatar-clip-recording = Улайтма
-about-avatar-clip-recording = Тауышлы яҙманы сәхифәгеҙҙәге һүрәттең бер өлөш итегеҙ. Башҡалар уны тыңлай аласаҡ.
+
+## Profile - Email
+
 browse-file-title = Һүрәттең файлын тейәргә
 browse-file = Күсерегеҙ йәки <browseWrap> файл файлағыҙ</browseWrap>
 connect-gravatar = Gravatarҙы бәйләргә
 gravatar_not_found = Һеҙҙең электрон почта gravatarҙа табылманы
 file_too_large = Һайланған файл үтә ҙур
+avatar-uploaded = Һүрәтегеҙ тейәлде.
+
+## Profile - Email
+
 manage-subscriptions = Яҙылыуҙар менән идара итеү
 manage-email-subscriptions = Эл. почта буйынса яҙылыуҙар менән идара итеү
 email-already-used = Электрон почта икенсе аккаунтта ҡулланыла бит
