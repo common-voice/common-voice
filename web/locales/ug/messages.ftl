@@ -358,7 +358,7 @@ why-demographic-explanation-2 = ياش ، جىنس ۋە تەلەپپۇزغا ئ�
 accept-privacy = مەن بۇ ئۇچۇرلارنىڭ Mozilla نىڭ  <privacyLink> مەخپىيەتلىك تۈزۈمى</privacyLink> دە چۈشەندۈرۈلگەن بويىچە بىر تەرەپ قىلىنىشىغا باشقا پىكىرىم يوق
 accept-privacy-title = مەخپىيەتلىك تۈزۈمى
 login-identity = كىرىش كىملىكى
-login-signup = تىزىمغا كىرىش / تىزىملىتىڭ
+login-signup = كىرىڭ / تىزىملىتىڭ
 edit = تەھرىرلەش
 email-subscriptions = ئېلېكترونلۇق خەت مۇشتەرىلىكى
 download-profile = سانلىق مەلۇماتىمىنى چۈشۈرىمەن
@@ -384,7 +384,7 @@ manage-subscriptions = مۇشتەرىلىكنى باشقۇرۇش
 manage-email-subscriptions = ئېلخەت مۇشتەرىلىكىنى باشقۇرۇش
 email-already-used = بۇ ئېلخەت باشقا ھېساباتقا ئىشلىتىلىپ بولۇنغان
 add-language = تىل قوشۇڭ
-change-email-setings = كىرىش كىملىكى ئاستىدىكى تەڭشەك ئېلخەت ئادرېسىڭىزنى ئۆزگەرتىڭ
+change-email-setings = كىرىش كىملىكى ئاستىدىكى تەڭشەكتىن ئېلخەت ئادرېسىڭىزنى ئۆزگەرتىڭ
 
 ## FAQ
 
@@ -871,7 +871,7 @@ profile-form-delete = ئارخىپنى ئۆچۈرۈڭ
 
 welcome-staff = { $company } خىزمەتچىلىرىنى قارشى ئالىمىز!
 help-contribute = Common Voice ئارخىپى قۇرۇش ۋە ئاۋازىڭىزغا تۆھپە قوشۇش ئارقىلىق كۆپ خىل ، ئوچۇق كودلۇق سانلىق مەلۇمات جەدۋىلى قۇرۇشقا ياردەم بېرەلەيسىز.
-login-company = { $company } ئېلخەت ئارقىلىق كىرىڭ / تىزىملىتىڭ
+login-company = { $company } نىڭ ئېلخېتى ئارقىلىق كىرىڭ / تىزىملىتىڭ
 profile-not-required = تۆھپە قوشۇش ئۈچۈن ئارخىپ ئۇچۇرى تەلەپ قىلىنمايدۇ شۇنداقتىمۇ بولغىنى پايدىلىق، تۆۋەندە سەۋەبىنى كۆرۈڭ.
 read-more-about = تەپسىلاتنى بىزنىڭ توغرىسىدا بېتىمىزدىن كۆرۈڭ
 
