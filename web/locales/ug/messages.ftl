@@ -92,7 +92,7 @@ ko = كورېيەچە
 kpv = Komi-Zyrian
 kw = كورنىشچە
 ky = قىرغىزچە
-lg = Luganda
+lg = گانداچە
 lij = Ligurian
 lt = لىتۋاچە
 lv = لاتۋىيەچە
@@ -115,7 +115,7 @@ ne-NP = نېپالچە
 nl = گوللاندىيەچە
 nn-NO = يېڭى نورۋېگچە
 oc = ئاۋكچە
-or = Odia
+or = ئورىياچە
 pa-IN = پەنجابچە
 pap-AW = پاپىيامەنتۇچە
 pl = پولەكچە
@@ -194,7 +194,7 @@ wall-of-text-start =
      ئىنتايىن كۆپ ئاۋاز مەنبەسى تەلەپ قىلىنىدۇ.
 wall-of-text-more-mobile =
     چوڭ شىركەتلەر ئىشلىتىدىغان سانلىق مەلۇماتلارنىڭ كۆپىنچىسىگە كۆپ ساندىكى كىشىلەر ئېرىشەلمەيدۇ. بۇ
-     يېڭىلىق يارىتىشنى بوغۇپ قويىدۇ. شۇڭا بىز Common Voice تۈرىنى ئوتتۇرىغا قويۇپ ئاۋاز تونۇتۇشنى ھەرقانداق بىر ئادەمنىڭ
+     يېڭىلىق يارىتىشنى بوغۇپ قويىدۇ. شۇڭا بىز Common Voice تۈرىنى ئېلان قىلىپ ئاۋاز تونۇتۇشنى ھەرقانداق بىر ئادەمنىڭ
     ئېرىشەلىشى ئۈچۈن ياردەمدە بولماقچى.
 wall-of-text-more-desktop =
     ھازىر ئاۋازىڭىزنى ئىئانە قىلسىڭىز ، ھەرقانداق بىر ئادەم ئىشلىتىپ ئۈسكۈنىلەر ۋە تورغا يېڭىلىققا تولغان ئەپلەرنى ياساش ئۈچۈن
@@ -637,8 +637,8 @@ other-language = باشقا تىل
 
 language-section-in-progress = ئىلگىرىلەۋاتىدۇ
 language-section-in-progress-new-description = نۆۋەتتە بۇ تىللارغا ئىجتىمائىي توپ تەرىپىدىن خىزمەتلەر ئىلىنىپ بېرىلىۋاتىدۇ. بۇ ئىلگىرىلەش سىتونلىرى ھەر قايسى تىللارنىڭ <localizationGlossaryLink>تور بېتىنى يەرلىكلەشتۈرۈش</localizationGlossaryLink> شۇنداقلا <sentenceCollectionGlossaryLink>جۈملە يىغىش</sentenceCollectionGlossaryLink> ئەھۋالىنى كۆرسىتىپ بېرىدۇ.
-language-section-launched = قوزغىتىلدى
-language-section-launched-description = قوزغىتىلغان تىللاردىكى تور بىتى مۇۋەپپەقىيەتلىك ھالدا <localizationGlossaryLink> يەرلىكلەشتۈرۈلگەن </localizationGlossaryLink>، شۇنداقلا يېتەرلىك  <sentenceCollectionGlossaryLink>توپلانغان جۈملىلىرى</sentenceCollectionGlossaryLink> بولسا <speakLink>سۆزلەپ</speakLink> ۋە <listenLink>ئاڭلاپ</listenLink> تۆھپە قوشۇش باسقۇچىغا ماڭالايدۇ.
+language-section-launched = ئېلان قىلىندى
+language-section-launched-description = ئېلان قىلىنغان تىللارنىڭ تور بىتى مۇۋەپپەقىيەتلىك ھالدا <localizationGlossaryLink> يەرلىكلەشتۈرۈلگەن </localizationGlossaryLink>، شۇنداقلا يېتەرلىك  <sentenceCollectionGlossaryLink>توپلانغان جۈملىلىرى</sentenceCollectionGlossaryLink> بولسا <speakLink>سۆزلەپ</speakLink> ۋە <listenLink>ئاڭلاپ</listenLink> تۆھپە قوشۇش باسقۇچىغا ماڭالايدۇ.
 languages-show-more = تەپسىلاتى
 languages-show-less = ئاز كۆرسەت
 language-meter-in-progress = ئىلگىرىلەش
