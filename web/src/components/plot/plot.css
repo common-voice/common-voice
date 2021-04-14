@@ -22,12 +22,8 @@
     overflow-x: scroll;
 
     .plot {
-        @media (--md-only) {
-            width: 175%;
-        }
-
-        @media (--xs-only) {
-            width: 200%;
+        @media (--md-down) {
+            width: 150%;
         }
     }
 }
