@@ -2,17 +2,17 @@
 
 yes-receive-emails = ھەئە ، ماڭا ئېلخەت ئەۋەتىڭ. مەن Common Voice تۈرى ھەققىدە داۋاملىق خەۋەردار بولۇشنى خالايمەن.
 stayintouch = بىز Mozilla دا ئاۋاز تېخنىكىسىنى چۆرىدىگەن ھالدا ئورتاق گەۋدە بەرپا قىلىۋاتىمىز. بىز يېڭىلانمىلار ، يېڭى سانلىق مەلۇمات مەنبەلىرى شۇنداقلا بۇ سانلىق مەلۇماتلارنى قانداق ئىشلىتىۋاتقانلىقىڭىزدىن خەۋەردار بولۇپ تۇرۇشنى خالايمىز.
-privacy-info = ئۇچۇرلىرىڭىزنى ئېھتىياتچانلىق بىلەن بىر تەرەپ قىلىشقا ۋەدە بېرىمىز. تېخىمۇ كۆپ مەزمۇنلارنى <privacyLink> مەخپىيەتلىك ئۇقتۇرۇشى</privacyLink> دىن ئوقۇڭ.
+privacy-info = ئۇچۇرلىرىڭىزنى ئېھتىياتچانلىق بىلەن بىر تەرەپ قىلىشقا ۋەدە بېرىمىز. تېخىمۇ كۆپ مەزمۇنلارنى <privacyLink> شەخسىيەت ئۇقتۇرۇشى</privacyLink> دىن ئوقۇڭ.
 return-to-cv = Common Voice گە قايت
 email-input =
     .label = ئېلخەت
-submit-form-action = يوللاش
-loading = ئوقۇۋاتىدۇ…
-email-opt-in-info = نىشان ئەسكەرتىشلىرى ، ئىلگىرىلەش ئۇچۇرلىرى ۋە Common Voice توغرىسىدىكى خەۋەرلەرنى ئېلېكترونلۇق خەت ئارقىلىق تاپشۇرۇۋېلىشنى خالايمەن.
-email-opt-in-info-title = Common Voice ئېلخەت تىزىملىكىگە قوشۇلۇڭ
-email-opt-in-info-sub-with-challenge = نىشان ئەسكەرتىشى ۋە كېيىنكى قەدەم ، ئىلگىرىلەش ئۇچۇرلىرى ۋە Common Voice توغرىسىدىكى خەۋەرلەرنى ئېلېكترونلۇق خەت ئارقىلىق تاپشۇرۇۋېلىشنى خالايمەن.
-email-opt-in-privacy-v2 = ئېلېكترونلۇق خەت تاپشۇرۇۋېلىشنى تاللاش ئارقىلىق Mozilla نىڭ <privacyLink> مەخپىيەتلىك تۈزۈمى </privacyLink> دا چۈشەندۈرۈلگەندەك ، Mozilla نىڭ بۇ ئۇچۇرلارنى بىر تەرەپ قىلىشىغا ماقۇل بولىسىز.
-indicates-required = * تولدۇرۇش تەلەپ قىلىنغان ئورۇننى كۆرسىتىدۇ
+submit-form-action = يوللا
+loading = يۈكلەۋاتىدۇ…
+email-opt-in-info = نىشان ئەسكەرتىشلىرى ، ئىلگىرىلەش ئۇچۇرلىرى ۋە Common Voice توغرىسىدىكى خەۋەرلەرنى ئېلخەت ئارقىلىق تاپشۇرۇۋېلىشنى خالايمەن.
+email-opt-in-info-title = Common Voice ئېلخەت تىزىمىغا قوشۇلۇڭ
+email-opt-in-info-sub-with-challenge = بەسلىشىش، نىشان ئەسكەرتىشى ۋە ئىلگىرىلەش ئۇچۇرلىرى ۋە Common Voice توغرىسىدىكى خەۋەرلەرنى ئېلخەت ئارقىلىق تاپشۇرۇۋېلىشنى خالايمەن.
+email-opt-in-privacy-v2 = ئېلخەت تاپشۇرۇۋېلىشنى تاللاش ئارقىلىق Mozilla نىڭ <privacyLink> شەخسىيەت تۈزۈمى </privacyLink> دە چۈشەندۈرۈلگەندەك، Mozilla نىڭ بۇ ئۇچۇرلارنى بىر تەرەپ قىلىشىغا قوشۇلىسىز.
+indicates-required = * تولدۇرۇش زۆرۈر بۆلەكلەرنى كۆرسىتىدۇ
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
