@@ -2,15 +2,22 @@
 
 This is the web app for [Mozilla Common Voice](https://commonvoice.mozilla.org), a platform for collecting speech donations in order to create public domain datasets for training voice recognition-related tools.
 
+## Upcoming releases
+
+| Type             | Expected date  | More info      |
+| :--------------- |:---------------|:---------------|
+| Code & sentences | April 21, 2021 | [Release notes](https://github.com/common-voice/common-voice/releases) |
+| Dataset          | June/July 2021 | [Dataset metadata](https://github.com/common-voice/cv-dataset/) |
+
 ## Quick links
 
-1. [Code of conduct](./docs/CODE_OF_CONDUCT.md)
-1. [Development setup](./docs/DEVELOPMENT.md)
-1. [Language workflow](./docs/LANGUAGE.md)
-1. [Sentences workflow](./docs/SENTENCES.md)
-1. [Discourse forum](https://discourse.mozilla-community.org/c/voice)
-1. [Matrix chat](https://chat.mozilla.org/#/room/#common-voice:mozilla.org)
-1. [License](./LICENSE)
+- [Code of conduct](./docs/CODE_OF_CONDUCT.md)
+- [Development setup](./docs/DEVELOPMENT.md)
+- [Language workflow](./docs/LANGUAGE.md)
+- [Sentences workflow](./docs/SENTENCES.md)
+- [Discourse forum](https://discourse.mozilla-community.org/c/voice)
+- [Matrix chat](https://chat.mozilla.org/#/room/#common-voice:mozilla.org)
+- [License](./LICENSE)
 
 ## How to contribute
 
