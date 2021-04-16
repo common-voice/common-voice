@@ -626,10 +626,12 @@ A equipe de segurança está a caminho.
 A escada do caminhão de bombeiros não era longa o suficiente.
 A escada do caminhão de bombeiros não foi longa o suficiente.
 A escadaria era composta por trezentos e oitenta e quatro degraus
+A escassez de chips tem afetado a oferta e a demanda
 A escola é uma aula especial
 A escolha é constrangedora.
 A escova é morna e perfeita
 A escrita Chinesa.
+A escrivaninha parece meio desbotada
 A espada não caiu.
 A espada permaneceu onde estava.
 A espaçonave tem condições de sobrevoar
@@ -642,6 +644,7 @@ A estrada larga brilhou sob o sol quente.
 A estrada para São Paulo foi duplicada.
 A estrada que leva até o castelo é cheia de perigos
 A estratégia e competitividade do espelho
+A estratégia é colocar mais pressão sobre os congressistas
 A estrutura de governança da Rússia já pode ser considerada como ditatorial?
 A estrutura tagarelou durante todo o terremoto.
 A evapotranspiração potencial atinge valores máximos nas áreas vulneráveis ​​da Comunidade Valenciana.
@@ -769,6 +772,7 @@ A história é meu assunto favorito.
 A honestidade é a melhor política.
 A hora chegou.
 A hora do almoço?
+A horda de zumbis está chegando
 A hospitalidade era boa.
 A iara também é conhecida como mãe d'água
 A ideia ainda é boa.
@@ -1142,6 +1146,7 @@ A produção de laranja fechou o ano em alta
 A produção de produtos.
 A produção do conhecimento.
 A professora liberou os alunos.
+A profissão é a prostituição mais antiga da história
 A programação requer cérebros.
 A proposta comercial não foi entregue a tempo
 A proposta de assistência técnica deverá conter pelo menos as seguintes especificações.
@@ -1179,6 +1184,7 @@ A rede consiste em sete estações, detalhadas nas especificações técnicas.
 A rede deve atuar como um fator de equilíbrio territorial.
 A rede elétrica não tinha aterramento
 A rede funcionou perfeitamente.
+A rede móvel poderá retransmitir energia elétrica
 A rede tem cargas no perímetro e é mantida no centro por uma corda.
 A rede, como você pode ver, fala coreano?
 A refeição foi excelente.
@@ -1469,6 +1475,7 @@ Aceitar doações, subsídios ou subvenções, sejam elas de entidades públicas
 Aceito, também, essa condição.
 Acelerando a engenharia de instituições médicas
 Acelerar a transformação industrial e modernização
+Aceleração de startups e fintechs
 Aceleração do tempo.
 Acelere o progresso das configurações de arte pública
 Acendemos a lanterna e fomos até a casa dele.
@@ -1543,6 +1550,7 @@ Adelziro Braz de Souza
 Adenílson, Denílson, Joice, Ítalo e Jaqueline
 Adeus por agora!
 Adeus seda chinesa!
+Adiantamento do décimo terceiro
 Adiciona Chér à lista de reprodução de Still Got the Blues
 Adicionado muito movimento à imagem
 Adicionando novos recursos foi construir meu futuro.
@@ -3062,6 +3070,7 @@ Arapiraca
 Arapongas
 Araranguá
 Araraquara
+Araraquara decretou lockdown
 Araras
 Araripina
 Araruama
@@ -3994,6 +4003,7 @@ Boa sorte para você.
 Boa sorte, não há cama dura.
 Boa tarde
 Boa tarde pessoal.
+Boa tarde, Brasil, boa noite, Itália
 Boa tarde, pessoal!
 Boa vontade, prata que soa bem.
 Boas lembranças
@@ -4270,6 +4280,7 @@ Caraca!
 Caraca! O que foi isso?
 Caracas! Por essa, eu não esperava!
 Caracol
+Caracteres no contexto informático
 Caracteriza as espécies florestais através da análise de caracteres culturais.
 Caracteriza as novas tendências do setor, analisando inovações cosméticas e cosméticos especiais.
 Caracteriza o protocolo oficial identificando os regulamentos associados.
@@ -4586,6 +4597,7 @@ Centenas.
 Cento e duzentos ienes para frente e para trás
 Cento e quinhentos
 Cento e sessenta pizzas
+Centrais sindicais solicitaram doação de vacinas
 Centralize, formalize e priorize as atividades do Centro de Liderança.
 Centro comercial da Ásia-Pacífico
 Centro de Inovação de Taipei
@@ -4593,6 +4605,7 @@ Centro de velocidade de Audi
 Centro de visitantes
 Centros de treinamento que ministram cursos devem ser órgãos oficiais ou centros reconhecidos.
 Centésimo nonagésimo oitavo
+Centímetros, metros e quilômetros
 Cerca de onze? Voltei para minha casa em Maybury porque nada parecia estar acontecendo.
 Cerca de setenta anos
 Cerca de trezentos mil.
@@ -4992,6 +5005,7 @@ Como aproximação, usamos uma distribuição gaussiana multivariada.
 Como as crianças e os professores aprenderão a usar esses computadores?
 Como as ondas do mar, as coisas no mundo vêm e vão.
 Como as plantas pareciam depois de uma semana?
+Como bloquear ligações de telemarketing
 Como calcular seqüências?
 Como chegamos ao outro lado?
 Como comer ou dormir? ou como procurar amor ou encontrar um emprego.
@@ -5228,6 +5242,7 @@ Comunique-se com os outros
 Comunique-se estritamente o que é necessário.
 Comédia, terror, aventura, romance, animação e documentário
 Conceito e Significado de Comunidade.
+Conceitos e definições transversais
 Conceição do Coité
 Conclua a cidade-irmã
 Concluído antes do pôr do sol
@@ -5278,6 +5293,7 @@ Considerará a viabilidade
 Considere apenas os conceitos referentes às principais inovações?
 Considere as diferentes situações colocadas pelos idiomas em contato.
 Considere as potencialidades existentes.
+Considerei e coloquei no ar suas falas
 Consiste em espaços abertos sem distribuição interna.
 Consiste em mostrar e armazenar corretamente.
 Consiste na realização dos exercícios físicos especificados no anexo dois desta Resolução.
@@ -5855,6 +5871,7 @@ Desde que recebi um cachorro?, as visitas regulares da raposa pararam.
 Desde que é uma cidade irmã
 Desdobramento astral é o mesmo que projeção astral
 Deseja encontrar o show chamado Hunters of the Dusk
+Deseja visualizar agora?
 Desejo comprar barbeador e aparador de pelos
 Desejo encontrar um romance chamado Holocausto Africano
 Desejo o melhor!
@@ -6673,6 +6690,7 @@ E o que tem isso?
 E o último?
 E olha quantas coisas o vento já sabia fazer!
 E os nomes das pessoas envolvidas eram muito difíceis de pronunciar.
+E os pedestres são os banhistas
 E outro.
 E para fazer isso? você precisa de dinheiro.
 E para o desespero do velho, ele pediu desculpas pela Bolsa de Valores.
@@ -7965,6 +7983,7 @@ Em cinco minutos.
 Em consonância com o estilo industrial da cidade de Taipei
 Em dezembro, verão frio e quente.
 Em duas horas haverá um debate.
+Em entrevista à Rádio Bandeirantes
 Em estilo siciliano
 Em fevereiro, reconstrua seu estabelecimento.
 Em fevereiro, um pouco ao sol e outro no cemitério.
@@ -8117,6 +8136,7 @@ Emprestar dinheiro dos vizinhos
 Empresário pega boas mercadorias
 Empresários e funcionários ainda discutem as metas para esse ano.
 Empréstimo sob o teto dos outros
+Empurre a porta
 Emulação de sistema.
 Encaminhar as atividades dos primeiros ex-alunos
 Encarando o questionamento do mundo exterior sobre o plano de visão
@@ -8436,6 +8456,7 @@ Escolha o idioma padrão.
 Escolha sua esposa com seus ouvidos, não com seus olhos.
 Escolha um mapa e coloque-o debaixo de um tapete.
 Escolha uma loja que seja certificada por um vendedor seguro
+Escolhe mais um integrante e define o primeiro escalão
 Escolhemos uma topologia de toro para nossa rede.
 Escolta.
 Esconder loja
@@ -9072,6 +9093,7 @@ Estou surpreso que você não tenha encontrado ela.
 Estou tentando explicar para minha mãe como tirar fotos do telefone dela.
 Estou tentando pensar em algo antes que os repórteres voltem.
 Estou tentando provar isso.
+Estou tremendo, Rosana
 Estou tão animada!
 Estou tão feliz em te ver.
 Estou tão ocupada que ela está com raiva.
@@ -10544,6 +10566,7 @@ Exportar este arquivo.
 Exportações e importações compõem a balança comercial dos países
 Expressar a opinião de que a área não está desenvolvida
 Expresso no momento do discurso
+Expressões coloquiais
 Expropriação de riqueza
 Extraia os dados relevantes e veja se ele corresponde às nossas estatísticas.
 Exército nacional totalmente mobilizado alívio de desastres
@@ -11251,6 +11274,7 @@ Homem e criança assistindo a um rodeio.
 Homem e criança que andam ao longo da praia na água.
 Homem em calças de ouro, olhando para a câmera.
 Homem executivo em um terno esperando.
+Homem faz refém no aeroporto de Guarulhos
 Homem idoso que senta-se em um sofá azul que lê um papel.
 Homem jovem
 Homem mais idoso que monta o transporte público ao ler um jornal.
@@ -11515,6 +11539,8 @@ Informação actualizada e em directo.
 Informação do trabalho
 Informação e treinamento são instrumentos básicos desse nível de intervenção.
 Informações que eles oferecem.
+Informou que divulgaria o áudio da conversa
+Ingeriu bebida alcoólica?
 Ingrid, Eloá, Valentina, Ezequias e Aline
 Inicialize mais rápido.
 Inicialmente o plano parecia ser bom.
@@ -11572,6 +11598,7 @@ Ir para Mick Fleetwood no meu Vimeo
 Irati
 Irecê
 Iremos à ópera nesta tarde
+Irineu, você não sabe e nem eu
 Isaac e Letícia
 Isabel Aparecida Leite
 Isabela sabia de tudo.
@@ -11988,6 +12015,7 @@ Jupiter tem um ótimo ponto vermelho.
 Juros simples e compostos
 Juventude precisa prestar atenção à procura de emprego
 Já acabei, murmurou ele.
+Já acabou, Jéssica?
 Já apresentou seus resultados?
 Já comeu o almoço?
 Já comeu o jantar?
@@ -12631,8 +12659,11 @@ Mas primeiro eles me matam para ficar.
 Mas qual o custo do software necessário para que essa fratura não ocorra?
 Mas qualquer teste precisa ser gerenciado de forma eficaz.
 Mas quando os viu caídos no chão, outra frase lhe veio à mente.
+Mas que bodega
+Mas que chatice esse mesmo reality show todo ano
 Mas que computador da Xuxa!
 Mas que fada sensata!
+Mas que podre que Bran Stark se tornou rei de Westeros
 Mas quem diz isso?
 Mas quem poderia imaginar que o homem se atreve tanto?
 Mas recebi um telefonema do meu pai.
@@ -13039,6 +13070,8 @@ Morango ouviu bem
 Moreno
 Morfologia, sintaxe e fonologia
 Morgan e Sara jogam escondidos.
+Morra, diabo!
+Morreu, mas passa bem
 Morte?
 Mosquitos sobrevoam a lagoa
 Mossoró
@@ -13617,6 +13650,7 @@ Nos mudamos para uma área mais arborizada e segura
 Nos partidos de massa, os militantes eram indispensáveis ​​para a sobrevivência da organização.
 Nos primeiros séculos da existência da cidade, foi uma ponte de madeira.
 Nos próximos anos, provavelmente iremos até Marte.
+Nos restará apenas o número Pi
 Nos reunimos de novo
 Nos salvou outro prédio.
 Nos tempos de igualdade, o espírito humano assume outro aspecto.
@@ -13691,6 +13725,7 @@ Novo Gama
 Novo Hamburgo
 Novo Repartimento
 Novo conceito
+Novo decreto entra em vigor na terça
 Novo laptop agora
 Novo pensamento
 Novo sistema de notificação.
@@ -14303,6 +14338,7 @@ Nós devemos ser bons.
 Nós deveríamos ir a Cambridge alguns dias atrás.
 Nós deveríamos nos encontrar um dia.
 Nós dois podemos ouvir.
+Nós dois somos do mesmo partido
 Nós entramos no ônibus
 Nós especialmente voltamos para o campo
 Nós esperamos pelo ônibus
@@ -14393,6 +14429,7 @@ Nós precisamos da sua ajuda!
 Nós precisamos de alguém como você.
 Nós precisamos de equipamentos do tipo.
 Nós primeiro rimos e depois damos as boas vindas.
+Nós que temos prótese sentimos, não é Nicole?
 Nós queremos que você saiba que somos todos para você.
 Nós queremos ter um rei.
 Nós recebemos a conta, por favor?
@@ -14536,6 +14573,7 @@ O Coral de Natal do Éden está se apresentando.
 O Cristiano não vai na festa do Alex.
 O Cristiano passa o dia no Facebook
 O Cássio defendeu um pênalti ontem.
+O Código de trânsito sofrerá mudanças
 O Davi mandou a notícia pro Eduardo via WhatsApp
 O Debian é um sistema operacional que é livre como em liberdade.
 O Departamento de Serviços de Saúde depende da Gestão de Serviços de Saúde.
@@ -14748,6 +14786,7 @@ O assistente virtual em catalão não está disponível em nenhuma plataforma.
 O ataque ao nosso servidor raiz sobrecarregou nosso administrador sênior.
 O ataque de abertura de Brent ao governador!
 O ataque é a melhor forma de defesa.
+O ato também foi feito em frente à embaixada
 O autor e o público estão, ao mesmo tempo, se corrompendo mutuamente.
 O autêntico açafrão é muito requintado
 O auxílio é traduzido em um grau superior a noventa e seis por cento.
@@ -15237,6 +15276,7 @@ O governo deve temer o povo, e não o contrário
 O governo e todos estão trabalhando juntos
 O governo que eles têm é tão bom quanto a escolha deles.
 O governo turco está com medo.
+O grafite desta parede é belíssimo
 O grande cachorro preto está correndo na areia perto da praia.
 O grande concurso de Charleston.
 O grande problema é que Londres é muito cara.
@@ -16412,6 +16452,7 @@ O ônus da responsabilidade é relativamente leve
 O último, que descasca a lâmina.
 O útero é um órgão que se expande durante a gestação
 Objetivo: contratos de seguro que cobrem as cem gangues.
+Objeto Voador Não Identificado
 Obrigado
 Obrigado Nicholas por me convidar.
 Obrigado a todos pela sua preocupação.
@@ -16530,6 +16571,7 @@ Olá!
 Olá, meu nome é Brenda.
 Olá, meu nome é Maria.
 Olímpia
+Omitiu o ataque ao senador da república
 Onde Charlotte deixou as chaves dela?
 Onde Charlotte deixou as chaves?
 Onde Maria foi?
@@ -17164,6 +17206,7 @@ Para começar, ambos sabemos que eu tenho.
 Para começar, eu lhe desejaria fazer uma pergunta
 Para começar, somos um país historicamente bilíngüe e multiétnico.
 Para conhecer os corações dos moradores
+Para contar sobre o requerimento feito
 Para continuar sua busca pelo tesouro, ele teve que abandonar Fátima.
 Para delitos graves e graves, a exclusão será final.
 Para descobrir o limite exato, precisamos repetir isso de maneira reproduzível.
@@ -17254,6 +17297,7 @@ Para prolongá-lo.
 Para prometer cumprir, há muito a ser dito.
 Para qual Sociedade do Conhecimento?
 Para qual sociedade de conhecimento.
+Para qualquer altura e largura
 Para qualquer um
 Para que serve isso?
 Para que serve leite de magnésia?
@@ -17448,6 +17492,7 @@ Pegue o caminho da pesquisa
 Pegue o controle remoto.
 Pegue o pen drive e exclua todos os documentos
 Pegue o quadro de avisos!
+Pegue o rodo e puxe a água
 Pegue o seu cartão e deixe-o com ele.
 Pegue o teleférico descendo a montanha
 Pegue um dos cravos em cada mexilhão e guarde-os.
@@ -17466,6 +17511,7 @@ Peixe é um alimento saudável.
 Peixe, arroz e melão voam vinho de linguado.
 Peixes do corte do homem em um mercado de peixes.
 Pelo amor de Deus
+Pelo amor de Thor, Odin e Shiva
 Pelo aplicativo o usuário faz a escolha dos produtos e o pagamento das mercadorias
 Pelo contrário, os gráficos vetoriais não permitem operações com os pixels.
 Pelo contrário. Faltavam dez minutos para as sete
@@ -17496,6 +17542,7 @@ Penso que são muito importantes para a nação
 Penso, logo existo.
 Pensou em todos os pastores casados ​​que conhecera.
 Pensou na filha do mercador? e tinha certeza de que ela provavelmente se casara.
+Pentágono confirma autenticidade de vídeo com óvnis
 Penápolis
 Pep toma a pomada.
 Pequena conspiração, pouca brisa.
@@ -17954,6 +18001,7 @@ Porque eu não amo ele.
 Porque eu não posso mais comer.
 Porque eu não vivo nem no meu passado nem no meu futuro.
 Porque eu vi a versão preview
+Porque fora um desabafo dela
 Porque morando em diferentes condados e cidades
 Porque nem ele nem você têm qualquer direito ou título de representação política.
 Porque nós somos muçulmanos.
@@ -18142,6 +18190,7 @@ Presidente Prudente
 Presidente da Habitação Xinyi
 Presidente: o Diretor Geral de Educação, que pode delegar ao Vice-Presidente.
 Presidentes do Brasil.
+Pressione a tecla
 Prestará assistência técnica aos beneficiários de seu território para a implantação de seus projetos.
 Preste atenção a este campo
 Preste atenção em quem você doa depois de doar
@@ -18237,6 +18286,7 @@ Proponha, então, o que quer estudar comigo.
 Propor e promover soluções adequadas para corrigir erros.
 Proposta para processamento em uma única leitura.
 Propostas de fórmulas para direções estratégicas.
+Propulsão utilizando matéria escura
 Propõe modificações na ferramenta para adaptá-la às novas necessidades.
 Propõe questões organizacionais ou melhoria interna.
 Protegendo os direitos dos agricultores de participar
@@ -18245,6 +18295,7 @@ Proteja-se
 Protesto contra isso!
 Protetor labial pode ser uma opção para dias muito gelados
 Proteínas têm muitas funções no corpo humano.
+Protocolou um pedido de aditamento da investigação
 Provavelmente apenas vá ao Museu Britânico novamente
 Provavelmente não irá exceder as suas expectativas
 Provavelmente tarde demais
@@ -18262,6 +18313,7 @@ Próximo?, você desejará enumerar as guias para poder saltar rapidamente entre
 Próximos anos
 Publicar as listas provisórias de admitidos e excluídos listados no anexo ou nesta resolução.
 Publicações não serão avaliadas quando o autor for o editor.
+Publicou o edital para ampliação do modal ferroviário
 Publique uma lista de bons fabricantes através do site
 Pudera que ele ainda estivesse cá.
 Puffs não são bons
@@ -18659,6 +18711,7 @@ Quando vai ser a cirurgia?
 Quando vamos ao trabalho
 Quando vimos que era apropriado nomear nossa iniciativa, consideramos várias possibilidades.
 Quando visitei a América do Sul, jantei com Aaron, Douglas, Nicole e Raymond.
+Quando visitou a periferia de Brasília
 Quando você aprendeu a esquiar?
 Quando você chegou aqui?
 Quando você chegou na cidade?
@@ -18900,6 +18953,7 @@ Que coisa de luxo na época
 Que coisa terrível a dizer.
 Que coisas
 Que coisas indecentes estavam lá!
+Que delícia, cara!
 Que desolador
 Que deu um caráter violento e apressado para a formação de leis.
 Que dia maravilhoso!
@@ -19166,6 +19220,7 @@ Queria o Cristiano Ronaldo jogando no meu time.
 Queria ter um milhão de dólares.
 Querida, você poderia me pegar um pouco de doce na farmácia local?
 Querida? Eu tenho um presente para você.
+Quero café!
 Quero dar uma bebida à minha flor.
 Quero dizer, foi o senhor Mohammed.
 Quero dizer? é sempre bom perguntar quando você não tem certeza? você sabe?
@@ -19247,6 +19302,7 @@ Recebi a mensagem de ontem
 Recebi uma ligação do meu pai
 Receio que este evento seja apenas por convite, senhor.
 Receio que seja importante.
+Receita adia entrega da declaração de Imposto de Renda
 Receita de bolo de abacaxi.
 Recentemente ouvi dizer que a fábrica tem que ser retirada.
 Recheio de feijão vermelho é doce, mas não gorduroso
@@ -19340,6 +19396,7 @@ Resolvendo a gordura localizada
 Resolver dúvidas que possam surgir na execução e justificativa do programa de treinamento.
 Respeite a experiência passada
 Respeite tudo o que está dentro e fora do ônibus.
+Responda a chamada
 Responda-me, então: esta insatisfação se manifesta como alegria, ou como tristeza?
 Ressonância harmônica
 Resta resolver a questão da Horta de Valência e da própria cidade.
@@ -19458,6 +19515,7 @@ Róger, Daniela, Josiane, Luciane e Maciel
 Rômulo, Marcus, Willian, Jessé e Edilene
 Sabará
 Sabe me dizer se o Gouveia está?
+Sabe quem sou? Natasha Caldeirão
 Sabedoria e inteligência são duas coisas muito separadas.
 Sabedoria é conhecimento usado para o bem.
 Sabemos que episódios de aparições angélicas não são um fato estranho na Bíblia.
@@ -19502,6 +19560,7 @@ Salvador da manufatura tradicional
 Salvaguardar a segurança dos cidadãos à noite
 Salve ele dessa vez.
 Salve sua irmã uma peça? ou ela ficará brava.
+Salve-se quem puder
 Salve-se quem quiser, perca-se quem puder!
 Salário trabalhista
 Sam está com você?
@@ -19908,6 +19967,7 @@ Será responsável pela conservação, limpeza e manutenção dos meios utilizad
 Será temperado no lugar atual?
 Será tratado com cautela
 Será um longo caminho de volta ao começo novamente.
+Será uma reunião social entre cônjuges
 Será valorizado que o padrão de qualidade construtiva seja médio ou superior à média.
 Será útil superar esses obstáculos pelo caminho dos votos ou pela pressão direta.
 Serão eleitos, para cada cargo, os candidatos que obtiverem a maioria.
@@ -20049,6 +20109,7 @@ Sim? é o que eu estava pensando também.
 Simplesmente falando, não é tempo suficiente.
 Simplesmente não acredito mais
 Simplesmente.
+Simulador de ciberataques
 Simões Filho
 Sinceramente, Satanás.
 Sinistro!
@@ -20183,6 +20244,7 @@ Sua população é basicamente dedicada ao turismo ecológico e à pesca.
 Sua prima ouviu sua disputa
 Sua proposta abarca a Classe Média e os miseráveis?
 Sua proposta não me agrada
+Sua proposta é conectar nossos cérebros aos smartphones
 Sua remuneração será a do acordo, aumentada em vinte e cinco por cento.
 Sua resposta a chocou
 Sua sobremesa cheirava a mofo, não doce.
@@ -20244,10 +20306,12 @@ Surpresa é uma vantagem.
 Surpreso por encontrar na mesma cidade uma moral tão relaxada e austera.
 Surubim
 Susan envolveu cada presente individualmente.
+Suspeita de infecção urinária
 Suspendemos a sessão, que retomaremos amanhã às dez da manhã.
 Sussurrando para minha mãe
 Suzana, Evandro, David, Vitória e Artur
 Suzano
+Suécia tem alta na ocupação dos leitos de tratamento intensivo
 Suécia, Suíça, Finlândia, Dinamarca, Alemanha e Reino Unido
 Sylvester precisava meditar para clarear sua mente.
 São Bento do Sul
@@ -20504,6 +20568,7 @@ Tem sido uma tarde.
 Tem um anel de ferro em relevo.
 Tem um coeficiente de setenta e cinco milésimos por cento.
 Tem um forte caráter local
+Tem um peso de setecentas toneladas
 Tem uma boa integração de sua educação com a atividade profissional.
 Tem uma população de quase meio milhão.
 Tem uma superfície construída de dez metros, sessenta e dois centímetros quadrados.
@@ -20721,6 +20786,7 @@ Todas as pesquisas espanholas fazem o contrário.
 Todas as pessoas começam sua participação no programa através desta ação.
 Todas as pessoas estavam com medo dela.
 Todas as que dependem de autorização do Poder Legislativo.
+Todas as regiões estão se sentindo prejudicadas
 Todas as vias públicas devem ser rotuladas, ou seja, devem ser identificadas.
 Todas essas funções são indispensáveis ​​durante a vida do projeto.
 Todo ano a mesma coisa aconteceu.
@@ -20954,6 +21020,7 @@ Trata-se de compartilhar, em última análise, uma revolução ética.
 Trata-se de um assentamento de ciganos e ciganas
 Trata-se de uma nova funcionalidade para a loja autônoma
 Tratado existente
+Tratam-se de estruturações arregimentadas
 Tratamento de aúdio.
 Trate eu e os outros
 Trate-os bem porque são pessoas boas e gentis.
@@ -21400,6 +21467,7 @@ Um cometa veio a poucos quilômetros da Terra, quase obliterou a lua.
 Um conceito assustador ocorreu a Jennifer.
 Um condutor de trem idoso? vestido em preto e branco? possui uma foto.
 Um cone custa cinco centavos às segundas-feiras.
+Um conluio entre governadores e prefeitos
 Um copo amoroso genuíno.
 Um cordão rígido serve para prender o sapato.
 Um coro praticando em uma igreja.
@@ -22727,6 +22795,7 @@ Uma empolgação pareceu atravessar a multidão, que então passou de sacada par
 Uma empregada de mesa em um tshirt branco que serve convidados em um restaurante.
 Uma empresa está melhorando
 Uma enfermeira simpática me disse seu nome.
+Uma entrevista para protegê-lo
 Uma equipe de ciclistas trabalhando duro no que parece ser uma moto muito veloz.
 Uma equipe de construção trabalhando em trilhos.
 Uma equipe de jogadores de futebol feminino em uniformes vermelhos corre para a bola.
@@ -23322,7 +23391,10 @@ Use um capacete de vídeo
 Use um lápis para escrever o primeiro rascunho.
 Uso de ferramentas de computador e de escritório em geral, quando apropriado.
 Uso efetivo da terra
+Usou a palavra sacana porque estava chateado
+Usuários relatam lentidão e bugs
 Utilizamos cookies para melhorar a experiência do utilizador, personalizar conteúdo e anúncios.
+Utilize a balança da farmácia
 Utopias não são impossíveis.
 Va ser inútil.
 Vaca e carneiro, pote de senhor.
@@ -25020,6 +25092,7 @@ zé Doca
 À noite, todos os gatos são negros.
 À primeira vista,? não foi muito emocionante.
 À procura de uma máquina de venda nas proximidades para beber bebidas quentes
+À rádio, disse ter avisado aos apoiadores
 Àquela altura, ninguém podia ver nada
 Às pragas, eu daria o nome de posseiros, invasores de terra.
 Às quatro da manhã, o alarme disparou.
@@ -25357,6 +25430,7 @@ zé Doca
 É um bom lugar para passear se você decidir ir até lá.
 É um bom petisco, não há dúvida, mas faz-me mal!
 É um bom rosto.
+É um casal homoafetivo
 É um caso ainda não totalmente esclarecido
 É um clube privado, apenas para as pessoas mais respeitáveis.
 É um clube privado? para apenas as pessoas mais respeitáveis.

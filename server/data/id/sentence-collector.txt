@@ -121,7 +121,6 @@ Aku akan menjemputnya malam ini
 Aku akan pergi ke kedai kopi
 Aku akan pergi.
 Aku akan segera kembali.
-Aku baik-baik saja.
 Aku bangga dengan pekerjaan, yang aku sendiri memilihnya.
 Aku baru kembali.
 Aku baru makan.
@@ -187,7 +186,6 @@ Aku ingin ke luar negeri.
 Aku ingin kembali ke desamu.
 Aku ingin kertas.
 Aku ingin mati bersama Getter Jaani.
-Aku ingin mati!
 Aku ingin memberikan tanaman untuk ibuku.
 Aku ingin membuat penawaran.
 Aku ingin mengadakan pembicaraan dengan ayahmu mengenai hal ini.
@@ -243,7 +241,6 @@ Aku meneleponnya.
 Aku mengantuk karena kelamaan menunggu.
 Aku mengatakan ini dari hati.
 Aku mengerti maksudmu.
-Aku mengerti!
 Aku mengerti.
 Aku menggenggam sebuah buku.
 Aku mengikuti ujian pada Januari.
@@ -255,7 +252,6 @@ Aku menunjukkan kamarku padanya.
 Aku menyuruh Tom untuk berhenti.
 Aku menyuruh adikku untuk membeli gula di warung.
 Aku merasa lelah.
-Aku merindukanmu.
 Aku minta maaf.
 Aku minum air.
 Aku mulai muak dan lelah dengan hal ini.
@@ -366,7 +362,6 @@ Aku tidak paham.
 Aku tidak percaya padamu.
 Aku tidak punya banyak uang seperti yang kau kira.
 Aku tidak suka ini.
-Aku tidak tahan lagi.
 Aku tidak tahu apakah besok akan hujan.
 Aku tidak tahu artinya kebencian.
 Aku tidak tahu harus bilang apa.
@@ -515,7 +510,6 @@ Apa pekerjaanmu?
 Apa saya masih mampu melakukannya?
 Apa tidak ada yang lebih baik?
 Apa warna ikan ini?
-Apa warna kesukaanmu?
 Apa yang Anda inginkan?
 Apa yang Anda ketahui tentang Brazil?
 Apa yang Anda ketahui tentang Israel?
@@ -524,7 +518,6 @@ Apa yang Anda tahu tentang saya?
 Apa yang Jack bilang tentang kamu adalah sebuah kebohongan. Aku tidak mempercayainya.
 Apa yang Tom rasakan tentang hal itu?
 Apa yang akan kamu berikan pada Mike di hari ulang tahunnya?
-Apa yang akan kamu lakukan?
 Apa yang akan kamu mainkan?
 Apa yang akan kulakukan tanpamu?
 Apa yang biasa kamu lakukan pada hari Minggu?
@@ -543,7 +536,6 @@ Apa yang harus saya lakukan jika ingin mengurus Paspor di Indonesia?
 Apa yang ingin kamu katakan?
 Apa yang ingin kamu lakukan hari ini?
 Apa yang ingin kamu lakukan selanjutnya?
-Apa yang kamu inginkan?
 Apa yang kamu lakukan dalam beberapa bulan ini?
 Apa yang kamu lakukan lebih penting daripada apa yang kamu katakan.
 Apa yang kamu lakukan saat luang?
@@ -683,7 +675,6 @@ Apakah kamu paham dengan apa yang kamu katakan?
 Apakah kamu percaya akan Tuhan?
 Apakah kamu pernah berenang telanjang?
 Apakah kamu pernah dengar lagu itu dinyanyikan dalam Bahasa Perancis?
-Apakah kamu pernah ke Jepang?
 Apakah kamu pernah ke Meksiko?
 Apakah kamu pernah mendaki Gunung Fuji?
 Apakah kamu pernah menonton film ini?
@@ -1194,7 +1185,6 @@ Cintai teman kelasmu! Cintai kedua orang tuamu! Cintai tanah airmu!
 Cintaku sudah pergi jauh.
 Cintamu adalah semua yang aku mau.
 Coba dulu aja sebelum nyerah!
-Coba lagi.
 Coba lakukan dengan cara berbeda.
 Coba lebih baik lagi lain kali.
 Coba saya lihat daftar itu.
@@ -1339,7 +1329,6 @@ Di mana kamu mendapatkan kunci ini?
 Di mana kita akan bertemu.
 Di mana koranku?
 Di mana kucing itu tidur?
-Di mana mereka?
 Di mana saya bisa beli tiket?
 Di mana saya bisa membeli sikat?
 Di mana supermarket terdekat?
@@ -2121,7 +2110,6 @@ Itu karena kamu tidak ingin sendiri.
 Itu kelinci yang jahat.
 Itu koran hari ini.
 Itu koran kapan.
-Itu luar biasa.
 Itu makanan yang bagaimana.
 Itu mengagumkan sekali, bukan?
 Itu merupakan wawancara yang dilakukan dengan rancangan lama.
@@ -2133,7 +2121,6 @@ Itu tadi menarik, ya?
 Itu tak 'kan terjadi.
 Itu tergantung pada konteks.
 Itu tidak adil.
-Itu tidak akan terjadi.
 Itu yang sedang kucari.
 Itulah jawaban yang benar.
 Itulah kamus bahasa Jepang.
@@ -2466,7 +2453,6 @@ Kamu boleh pilih buku mana saja yang kamu suka.
 Kamu dalang dibalik semua ini.
 Kamu dapat beristirahat sampai malam.
 Kamu dapat menghubunginya dengan menelpon nomor ini.
-Kamu di mana?
 Kamu dicari pada sambungan telepon. Ini dari Tom.
 Kamu harus belajar bahasa Jepang lebih giat.
 Kamu harus berhenti merokok.
@@ -2497,7 +2483,6 @@ Kamu masih muda.
 Kamu mau apa?
 Kamu mau minum apa?
 Kamu mau pergi ke mana duluan?
-Kamu mau pergi ke mana?
 Kamu mau pergi?
 Kamu memakai sweter terbalik.
 Kamu membuat kesalahan dengan sengaja, kan?
@@ -3361,7 +3346,6 @@ Nikmati pekerjaanmu!
 Obat ini tidak memiliki efek samping yang berbahaya.
 Oh, baiklah kalau begitu.
 Oh, begitu ya...
-Oh, benarkah?
 Oh, nama kebebasan yang indah.
 Oke.
 Olahraga yang paling saya sukai adalah bisbol.
@@ -3552,7 +3536,6 @@ Pekerjaan saya mencuci.
 Pekerjaan saya sibuk tetapi menarik.
 Pekerjaan sekarang sudah selesai.
 Pekerjaanku telah selesai.
-Pekerjaannya hampir selesai.
 Pelajaran akan dimulai.
 Pelajaran bahasa Jepang menyenangkan.
 Pelajaran guru itu menarik.
@@ -4059,7 +4042,6 @@ Saya ke sana sekarang.
 Saya kecenderungan melupakan nama-nama.
 Saya kecewa.
 Saya kehabisan uang.
-Saya kehilangan dompet saya.
 Saya kehilangan kepercayaan padanya.
 Saya kehilangan majalah yang saya pinjam dari Pak Matsui.
 Saya kehilangan paspor di stasiun.
@@ -4615,7 +4597,6 @@ Saya tidak mengerti bahasa Inggris.
 Saya tidak mengerti kata ini.
 Saya tidak mengerti kata itu.
 Saya tidak mengerti maksud perkataan pak guru.
-Saya tidak mengerti.
 Saya tidak mengetahui cara penggunaan komputer ini.
 Saya tidak mengira itu benar
 Saya tidak menyangka akan pergi lama.
@@ -4656,7 +4637,6 @@ Saya tidak tahu kapan dia akan muncul.
 Saya tidak tahu kenapa kamu tidak menyukainya.
 Saya tidak tahu pasti kapan dia akan kembali.
 Saya tidak tahu pasti kapan dia tiba.
-Saya tidak tahu.
 Saya tidak takut hantu.
 Saya tidak tau kemana seharusnya Saya pergi.
 Saya tidak terbiasa dengan perawatan seperti itu.
@@ -4774,7 +4754,6 @@ Selamat liburan!
 Selamat makan.
 Selamat malam, Bu.
 Selamat malam, Timmy.
-Selamat malam.
 Selamat siang
 Selamat siang.
 Selamat siang. Permisi, saya mencari Loretta.
@@ -4788,7 +4767,6 @@ Semangat!
 Semenjak dia tidak dapat menyelesaikan masalah dengan cara itu, dia mencoba dengan cara lain.
 Sementara itu aku akan berlibur ke pulau seribu.
 Semestinya tidak ada koma pada kalimat ini.
-Semoga cepat sembuh!
 Semoga hari anda menyenangkan!
 Semua anak laki-laki tidak menertawakannya.
 Semua anggota tidak menghadiri rapat kemarin.
@@ -4823,7 +4801,6 @@ Semuanya mahasiswa universitas ini.
 Semuanya menyanyikan lagu bersama-sama.
 Semuanya sedang menunggu guru di kelas.
 Semuanya seribu enam ratus yen.
-Senang bertemu denganmu.
 Senang bertemu denganmu. Saya tunggu kabar darimu.
 Senang bertemu kamu lagi.
 Senang bisa bertemu denganmu.
@@ -4939,7 +4916,6 @@ Siapa anak itu?
 Siapa anak perempuan yang sedang berdiri di pintu?
 Siapa anggota The Beatles?
 Siapa bersungguh sungguh, dia akan sukses
-Siapa nama Anda?
 Siapa nama anda, pak?
 Siapa nama belakangmu?
 Siapa nama panggilanmu?
@@ -5118,7 +5094,6 @@ Tempat lahir Pak Tanaka adalah Tokyo.
 Tempat penjualan kaus kaki ada di lantai satu.
 Tempat yang dekat laut ikannya enak.
 Tenaga nuklir belum dimanfaatkan sebaik mungkin.
-Tenanglah.
 Tentu saja tidur di tempat kami akan lebih murah bagi anda.
 Terbakar dengan cinta.
 Terberkatilah dirimu!
@@ -5130,7 +5105,6 @@ Terima kasih atas kedatangan anda pada interview.
 Terima kasih atas kedatangannya.
 Terima kasih atas kerja kerasmu.
 Terima kasih atas segalanya.
-Terima kasih banyak.
 Terima kasih untuk jawaban Anda.
 Terima kasih untuk pertolongan Anda.
 Terima kasih!
@@ -5185,7 +5159,6 @@ Tidak ada yang tahu kamu di sini.
 Tidak ada yang tahu ke mana Bill pergi.
 Tidak ada yang tahu mengapa dia menolak pertolonganku.
 Tidak ada yang tinggal di gedung.
-Tidak apa-apa.
 Tidak banyak kendaraan yang melintas.
 Tidak boleh ada diskriminasi.
 Tidak boleh berbicara dengan orang di sebelah saat pelajaran.
@@ -5595,7 +5568,6 @@ Tulis alamatmu di sini.
 Tulis namamu dengan pensil.
 Tulisannya sangat subjektif.
 Tunggu saya, tunggu sebentar!
-Tunggu sebentar!
 Tunggu sebentar, Tom.
 Turun dari kasur!
 Uang akan habis kalau membeli mobil.

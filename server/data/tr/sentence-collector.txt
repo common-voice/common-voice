@@ -85,7 +85,6 @@ Ama yüzü hep soluktu.
 Ama, işte netice meydanda.
 Ana noktalarda asla değişmem.
 Anahtarlar bende olduğu için arkasından gittim.
-Anahtarlar nerede?
 Ancak bu anda şaşkınlığımdan bir parça kurtuldum ve ayağa kalkmayı akıl ettim.
 Ancak herkesten yüksek şeyler yaratırsam beni seveceğini söylemişti.
 Ancak, yaratığın adı basit kalırken, itibarı kısa sürede oldukça karmaşık hale geldi.
@@ -93,7 +92,6 @@ Ankara kara iklimine sahiptir.
 Ankara'da ev derdi malum.
 Ankara'nın asfalt döşeli yollarına hiç benzemeyen bozuk kaldırımlı dar mahalleleri geçtim.
 Ankara'ya niçin geldiğinizi hâlâ söylemediniz!
-Anladım, anladım.
 Anlıyordu ki yazılacak şeyler, güzel ve hakiki şeyler yalnız orada var…
 Annem Almandır.
 Annem hiçbir şeyin farkında değildi.
@@ -206,7 +204,6 @@ Bakışları dumanlı ve manasızdı.
 Bakışlarımız karşılaşınca gözleriyle beni dostça selamladı.
 Bakışlarında garip bir tecessüs vardı.
 Baldızımın da çocukları var.
-Bana bak!
 Bana başıyla bir iskemle gösterdi ve işine bakmakta devam etti.
 Bana bir kere gül ve ondan sonra git!
 Bana biraz da kendinizden bahsetsenize!
@@ -385,8 +382,6 @@ Bilmem!
 Bilmem, bu akşam gelmedi!
 Bilmem.
 Bilmem?
-Bilmiyor musun?
-Bilmiyordum.
 Bilsen.
 Bir
 Bir adım önümde duran uzun burunlu iskarpinleri cevap bekler gibi yüzüme bakıyorlardı.
@@ -611,7 +606,6 @@ Bugün biraz iyiyim!
 Bugün gitmesen olmaz mı?
 Bugün hakikati anlıyorum; fakat nefesimi ebedi bir yalnızlığa mahkûm etmeye mecburum.
 Bugün iyice!
-Bugün nasılsın?
 Bugün nereleri gezdiniz?
 Bugün yanımdan ayrılmanı istemiyorum.
 Bugünü yaşama hakkı, en az temel insan hakları kadar önemlidir ve doğuştan gelir.
@@ -962,7 +956,6 @@ Evvelce geçirdiği hastalık da vücudunu sarsmış.
 Eyvah bana ki, meselenin çok geç farkına vardım.
 Eyvah!
 Eğer buna yaşamak demek caizse, yaşadım.
-Eğer isterseniz.
 Eğleniyorlardı.
 Eşyalarını yerleştirince kompartımanda kalmayarak benimle beraber perona inmekte ısrar etti.
 Fabrikaya her zamankinden daha erken gittim ve kapıcıyı pek candan selamladım.
@@ -1672,7 +1665,6 @@ Ne diye gidiyorsun sanki?
 Ne diye yoldan ayrılıp buraya saptığımın, niçin geri dönmediğimin farkında değildim.
 Ne diye şaşırdınız?
 Ne dolaşıyorsun buralarda?
-Ne düşünüyorsun?
 Ne geçmişi, ne geleceği düşünmüyor, ancak yaşamakta olduğum anları biliyordum.
 Ne gibi?
 Ne gözlerinin, ne saçlarının rengini hatta ne de ismini biliyordum.
@@ -1729,11 +1721,8 @@ Nereden biliyorsunuz?
 Nereden tanışıyorsunuz?
 Neredeyse korkumdan silkinip kaçacaktım.
 Neresi burası?
-Nereye gideceksin?
 Nereye gideceğimi o da bilmiyor.
 Nereye gideceğiz, diye sormaktan korkuyordum, ikimiz de konuşmuyorduk.
-Nereye gidiyorsun?
-Nereye gidiyoruz?
 Nereye girdin?
 Nereye gittiğimi bilmiyordum.
 Nereye gittiğimizi merak etmeye başladım.
@@ -2498,7 +2487,6 @@ Zaten sevecek kadar da zaman geçmedi, fakat siz de benim aradığım değilsini
 Zeytinlikler para etmiyordu.
 Zihnimden bin bir türlü şey geçiyordu.
 Zihnimden birdenbire, bu kadının buranın daimi müşterilerinden biri olması ihtimali geçti.
-Zili çaldım.
 Ziyaretinize teşekkür ederim oğlum! dedi.
 bir yandan mutlu olmak için ne kadar çok sebebim olduğunu düşünüyorum.
 kendimi kendimden çıkarsam sıfır kalmaz
@@ -2518,7 +2506,6 @@ kendimi kendimden çıkarsam sıfır kalmaz
 Çok acayip bir çocuksunuz!
 Çok beklediniz mi?
 Çok güzel bir resim.
-Çok iyiyim.
 Çok kere lügat aramaya bile tahammül edemez, cümlelere ipucu ile mana vererek geçerdim.
 Çok konuşmaz, konuştuğu zaman da içindekilerden bize bir şey sezdirmezdi.
 Çok uzakta bulunuyor!
@@ -2611,7 +2598,6 @@ kendimi kendimden çıkarsam sıfır kalmaz
 İyiyi kötüden ayırmak külfetini okuyucuya bıraktığım için özür dilerim.
 İyiyim!
 İyiyim, sen keyfine bak ve kışı orada geçir diye mektuplar yazıyordu.
-İyiyim.
 İzahat vermeye de asla mecbur değildim.
 İzle!
 İçerde kimseler yoktu.

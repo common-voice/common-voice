@@ -35,6 +35,20 @@ Akvaristika- Akváriová nádrž - akvárium
 Akvária bez substrátu alebo tzv. holé
 Akváriá s väčším množstvom rastlín potrebujú však svetla viac
 Akváriá so substrátom sú najrozšírenejším typom akvárií
+Aká je predpoveď na dnes?
+Aká je predpoveď na pozajtra?
+Aká je predpoveď na tento týždeň?
+Aká je predpoveď na zajtra?
+Aká je teplota na chodbe?
+Aká je teplota na záchode?
+Aká je teplota v detskej izbe?
+Aká je teplota v garáži?
+Aká je teplota v kuchyni?
+Aká je teplota v kúpeľni?
+Aká je teplota v obývačke?
+Aká je teplota v pivnici?
+Aká je teplota v spálni?
+Aká je teplota vonku?
 Aká je výhoda e-kníh v porovnaní s tlačenými?
 Akákoľvek údržba systému je v danom prípade náročná.
 Aký je cieľ tohto nariadenie?
@@ -676,6 +690,7 @@ Konštrukciu stojanov pre väčšie akvária je už vhodné vystužovať kovový
 Koralové more
 Kostaričan
 Kozorožec
+Koľko stupňov je vonku?
 Koľko to stojí?
 Koľkého je dnes?
 Krava sa mi otelila a v maštali už nieto miesta.
@@ -853,7 +868,35 @@ Napríklad prírodní vedci viac píšu články a technickí vedci viac čítaj
 Napájanie je zabezpečené primeranou jednotkou nepretržitého napájania, no bez záložného generátora.
 Nariadenie Tisíc sedemsto dvadsať šyri o zriadení jednotnej digitálnej brány
 Nariadenie, ktorým sa zriaďuje brána
+Nastav svetlo na chodbe na päťdeisat percent.
+Nastav svetlo na verande na osemdesiat percent.
+Nastav svetlo na záchode na sedemdesiat percent.
+Nastav svetlo v detskej izbe na dvadsať percent.
+Nastav svetlo v garáži na deväťdesiat percent.
+Nastav svetlo v kuchyni na štyridsať percent.
+Nastav svetlo v kúpeľni na šesťdesiat percent.
+Nastav svetlo v obývačke na tridsať percent.
+Nastav svetlo v pivnici na sto percent.
+Nastav svetlo v spálni na desať percent.
+Nastav teplotu na chodbe na dvadsať päť stupňov Celzia.
 Nastav teplotu na dvadsať stupňov celsia.
+Nastav teplotu na záchode na dvadsať šesť stupňov Celzia.
+Nastav teplotu v detskej na dvadsať jedna stupňov Celzia.
+Nastav teplotu v garáži na dvadsať sedem stupňov Celzia.
+Nastav teplotu v kuchyni na dvadsať tri stupňov Celzia.
+Nastav teplotu v kúpeľni na dvadsať štyri stupňov Celzia.
+Nastav teplotu v obývačke na dvadsať dva stupňov Celzia.
+Nastav teplotu v pivnici na dvadsať osem stupňov Celzia.
+Nastav teplotu v spálni na dvadsať stupňov Celzia.
+Nastav termostat na chodbe na tridsať štyri stupňov Celzia.
+Nastav termostat na záchode na tridsať päť stupňov Celzia.
+Nastav termostat v detskej na tridsať stupňov Celzia.
+Nastav termostat v garáži na tridsať šesť stupňov Celzia.
+Nastav termostat v kuchyni na tridsať dva stupňov Celzia.
+Nastav termostat v kúpeľni na tridsať tri stupňov Celzia.
+Nastav termostat v obývačke na tridsať jeden stupňov Celzia.
+Nastav termostat v pivnici na tridsať sedem stupňov Celzia.
+Nastav termostat v spálni na dvadsať deväť stupňov Celzia.
 Nastavenie expozície veľmi dôležitá vec pri fotení.
 Naľčik
 Naša slovenská kuchyňa, ktorej slúžiť má táto kniha, je nie taká bohatá a ťažká.
@@ -1267,6 +1310,15 @@ Vykonávanie
 Vykonávanie nariadenia bude podporovať koordinačná skupina
 Vypni kotol.
 Vypni stroj tlačítkom Stop!
+Vypni svetlo na chodbe.
+Vypni svetlo na verande.
+Vypni svetlo na záchode.
+Vypni svetlo v detskej izbe.
+Vypni svetlo v garáži.
+Vypni svetlo v kuchyni.
+Vypni svetlo v kúpeľni.
+Vypni svetlo v obývačke.
+Vypni svetlo v pivnici.
 Vypnutie blesku
 Vysielanie diela, retransmisia diela a sprístupňovanie diela verejnosti je verejným prenosom diela.
 Vysielanie je možné použiť iba so súhlasom vysielateľa, ak tento zákon neustanovuje inak.
@@ -1325,6 +1377,16 @@ Za ňu dostanete slúchadlá ktoré splnia vaše požiadavky na výbornú.
 Zamyslene sa pozeral do diaľky.
 Zaostrovanie
 Zapni hlavné svetlo v spálni o šiestej hodine ráno.
+Zapni svetlo na chodbe.
+Zapni svetlo na verande.
+Zapni svetlo na záchode.
+Zapni svetlo v detskej izbe.
+Zapni svetlo v garáži.
+Zapni svetlo v kuchyni.
+Zapni svetlo v kúpeľni.
+Zapni svetlo v obývačke.
+Zapni svetlo v pivnici.
+Zapni svetlo v spálni.
 Zapni svetlo!
 Zapni topenie.
 Zastav na okraji cesty!
