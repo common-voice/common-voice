@@ -248,7 +248,7 @@ join-newsletter = تۈر توغرىسىدىكى يېڭىلانمىلار ۋە ي
 ## What's public
 
 whats-public = ئاممىۋى دېگەن نېمە؟
-email-not-public = بىز ئېلخەتلىرىڭىزنى ئاشكارلىمايمىز.
+email-not-public = بىز ئېلخەتلىرىڭىزنى ئاشكارىلىمايمىز.
 recordings-and-locale-public = ئۈن خاتىرىڭىز ۋە قايسى تىلغا تۆھپە قوشقانلىقىڭىز ئاشكارا ھالدا بولىدۇ.
 username-optin-public = ئىشلەتكۈچى ئىسمىڭىزنى ئاشكارىلاش ياكى نامسىز قىلىشنى تاللىسىڭىز بولىدۇ.
 demographic-deidentified-clarity-2 = ئىختىيارىي يوللانغان تەرجىمىھالىڭىزدىكى نوپۇس ئۇچۇرىڭىز (مەسىلەن ياش، جىنس، تىل ۋە تەلەپپۇز)  ھەرگىز ئاشكارىلانمايدۇ ، شۇنداقلا سانلىق مەلۇمات جەدۋىلىدىكى ھېساباتىڭىزغا ئۇلانمايدۇ. بىر قەدەر توغرا بولغان ئانالىز مەقسىتى ئۈچۈنلا نوپۇس ئۇچۇرىڭىز ئىشلىتىدۇ - مەسىلەن، بىر تەتقىقاتچى مەلۇم ئۆگىتىش ئەندىزىسىنى مەلۇم بىر نوپۇس بۆلىكىگە نىشانلىماقچى بولغان بولسا دېگەندەك.
@@ -277,7 +277,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = خاتىرلە/توختات
+shortcut-record-toggle-label = خاتىرىلە/توختات
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = قايتا ئۈنگە ئال
 request-language-text = Common Voice تا تېخى تىلىڭىزنى كۆرمىدىڭىزمۇ؟
@@ -296,7 +296,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = كېيىنكى نىشان: { $goal }
-english = ئىنگىلىزچە
+english = ئىنگلىزچە
 
 ## ProfileForm
 
@@ -311,7 +311,7 @@ profile-form-accent =
 profile-form-age =
     .label = يېشى
 profile-form-gender-2 =
-    .label = جىنىس
+    .label = جىنسى
 leaderboard-visibility =
     .label = شەرەپ تاختىنىڭ كۆرۈنۈشچانلىقى
 hidden = يۇشۇرۇن
