@@ -96,6 +96,7 @@ lg = Luganda
 lij = Taliguriant
 lt = Talitwaynit
 lv = Talitunit
+mai = Maïthili
 mdf = Mukca
 mg = Tamalgact
 mhr = Tamarit n uzaɣar
@@ -348,26 +349,17 @@ skip-submission-description = Di lawan n utteki, tuzna n tmuɣli-inek ad tettwas
 skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad ferneḍ gar Mmeslay akked Timesliwt.
 off = Sens
 on = Rmed
-avatar-clip-title = Efk-as i uvatar-inek taɣect
-change-your-avatar-clip = Tebɣiḍ ad tbedleḍ tasffift n uklip?
-recording-in-progress = Asekles n taɣect iteddu
-avatar-clip-recorded = Iger uvaṭan-innek(m) aklip n taɣect!
-record-voice-wave = SEKLES TAMSEDWALT N TAƔECT
-retry-voice-wave-recording = ƐREḌ I TIKKELT-NNIḌEN
-re-record = ALES-ASEKLES
-delete-voice = KKES
-recording-voice-wave = Asekles
-delete-voice-clip = neɣ kkes aklip n taɣect
-ready-to-upload = Asali
-avatar-clip-fact = Seg zik yettwassen d akken imeɣri ilehhu deg ugbur n tɣuri n usebter ticki yettwali ɣer tneɣruft-is.
-recreate-voice = Ales timerna n temdeswalt n taɣect
-cancel-avatar-clip-recording = Sefsex
-about-avatar-clip-recording = Rnu deg uvataṛ n umaɣnu-ik akalas n taɣect. Wiyaḍ ad izmiren ad srifgen fell-as akken ad slen i usekles-ik.
+
+## Profile - Email
+
 browse-file-title = Sali afaylu n tugna
 browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
 connect-gravatar = Qqen s Gravatar
 gravatar_not_found = Ulac Gravatar ittwafen i imayl-inek
 file_too_large = Afaylu ittwafernen meqqer aṭas
+
+## Profile - Email
+
 manage-subscriptions = Sefrekajerred
 manage-email-subscriptions = Sefrek ijerriden ɣer yimaylen
 email-already-used = Imayl ittuseqdec yakan i umiḍan nniḍen
