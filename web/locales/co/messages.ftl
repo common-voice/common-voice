@@ -459,6 +459,13 @@ total-hours = Ore cunvalidate
 shortcuts = Scurtatoghji
 record-cta = Cummincià l'arrighjistramentu
 record-must-allow-microphone = Ci vole à auturizà l'accessu à u microfonu.
+record-error-too-short = L'arrighjistramentu era troppu chjucu.
+record-error-too-long = L'arrighjistramentu era troppu longu.
+record-error-too-quiet = L'arrighjistramentu era troppu silenziosu.
+share-common-voice = Sparte Common Voice
+listen-last-time-instruction = <playIcon></playIcon>L'ultimu !
+record-button-label = Arrighjistrà a vostra voce
+target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
 
 ## Reporting
@@ -480,6 +487,8 @@ you = Tù
 ## Custom Goals
 
 both-speak-and-listen = Tramindui
+daily-goal = Scopu di u ghjornu
+weekly-goal = Scopu di a settimana
 easy-difficulty = Faciule
 
 ## Profile Delete
@@ -502,6 +511,8 @@ demo-get-started = Principiemu
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice hè a più maiò banca di dati vucale in parechje lingue, dispunibule publicamente di u mondu.
+card-button-next = Seguita
+card-button-back = Nanzu
 demo-language-select-label = Splurà e lingue
 
 ## Demo Account
