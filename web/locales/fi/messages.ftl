@@ -42,6 +42,7 @@ br = bretoni
 bxr = burjaatti
 ca = katalaani
 cak = kaqchikel
+ckb = soranî
 cnh = hakha chin
 co = korsika
 cs = tšekki
@@ -346,26 +347,17 @@ skip-submission-description = Palautteen antaminen Lähetä-painikkeen painamise
 skip-submission-note = Huomaa: Sinun täytyy silti valita Puhu tai Kuuntele vaihtaaksesi osallistumisen tapaa.
 off = Pois päältä
 on = Päällä
-avatar-clip-title = Anna avatarillesi ääni
-change-your-avatar-clip = Haluatko vaihtaa äänen?
-recording-in-progress = Äänen tallennus käynnissä
-avatar-clip-recorded = Avatarillasi on nyt ääni!
-record-voice-wave = ÄÄNITÄ
-retry-voice-wave-recording = YRITÄ UUDELLEEN
-re-record = NAUHOITA UUDELLEEN
-delete-voice = POISTA
-recording-voice-wave = Nauhoitus
-delete-voice-clip = tai poista ääniklippi
-ready-to-upload = LATAA
-avatar-clip-fact = On vakiintunut tieto, että lukija häiriintyy sivun luettavasta sisällöstä tarkastellessaan sen asettelua.
-recreate-voice = Luo äänitys uudelleen
-cancel-avatar-clip-recording = PERUUTA
-about-avatar-clip-recording = Lisää ääninäyte profiilikuvaasi. Muut voivat kuunnella näytteen siirtämällä kursorin sen päälle.
+
+## Profile - Email
+
 browse-file-title = Lataa kuvatiedosto
 browse-file = Vedä ja pudota tai <browseWrap>Selaa</BrowseWrap>
 connect-gravatar = Yhdistä Gravatariin
 gravatar_not_found = Sähköpostiosoitteella ei löytynyt gravataria
 file_too_large = Valittu tiedosto on liian suuri
+
+## Profile - Email
+
 manage-subscriptions = Muokkaa tilauksia
 manage-email-subscriptions = Hallitse sähköpostitilauksia
 email-already-used = Sähköpostiosoite on jo käytössä toisessa tilissä
