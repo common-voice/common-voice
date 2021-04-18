@@ -401,6 +401,8 @@ license = Licenza : <licenseLink> { $license } </licenseLink>
 license-mixed = Mischiatu
 terms-agree = Sò d'accunsentu
 terms-disagree = Ùn sò micca d'accunsentu
+review-aborted = U caricamentu ùn s'hè fattu. Vulete squassà i vostri arrighjistramenti ?
+review-rerecord = Arrighjistrà torna
 review-cancel = Annuddà l'inviu
 
 ## Datasets Page
