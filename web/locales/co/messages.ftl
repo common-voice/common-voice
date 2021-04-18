@@ -439,6 +439,7 @@ contact-required = *richiestu
 request-language-title = Richiesta di lingua
 request-language-form-language =
     .label = Lingua
+request-language-success-title = A dumanda di lingua hè stata fatta, a ringraziavi.
 other-language = Altra lingua
 
 ## Languages Overview
@@ -449,10 +450,15 @@ language-meter-in-progress = In corsu
 language-total-progress = Tutale
 language-search-input =
     .placeholder = Ricercà
+language-speakers = Locutori
+sentences = Infrasate
 total-hours = Ore cunvalidate
 
 ## Contribution
 
+shortcuts = Scurtatoghji
+record-cta = Cummincià l'arrighjistramentu
+record-must-allow-microphone = Ci vole à auturizà l'accessu à u microfonu.
 target-segment-learn-more = Sapene di più
 
 ## Reporting
