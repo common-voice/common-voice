@@ -270,25 +270,17 @@ skip-submission-feedback = Saltà l’inviu di cummenti
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 off = Disattivatu
 on = Attivatu
-avatar-clip-title = Deti una voce à u vostru avatar
-change-your-avatar-clip = Vuleti cambià u vostru campione di voce ?
-recording-in-progress = Arrighjistramentu di u campione in corsu…
-avatar-clip-recorded = Avà, u vostru avatar cuntene un campione vucale !
-record-voice-wave = ARRIGISTRÀ L’ONDA VUCALE
-retry-voice-wave-recording = RIPRUVÀ
-re-record = ARRIGHJISTRÀ TORNA
-delete-voice = SGUASSÀ
-recording-voice-wave = Arrighjistramentu
-delete-voice-clip = o  Sguassà u campione
-ready-to-upload = CARICÀ
-recreate-voice = Ricreà l’onda vucale
-cancel-avatar-clip-recording = ANNULLÀ
-about-avatar-clip-recording = Arrighjistrà un campione vucale cumè parte di u vostru avatar. L’altri pudarani ascultallu passendu u so cursore nant’à a vostra icona.
+
+## Profile - Email
+
 browse-file-title = Caricà una figura
 browse-file = Trascineti è linteti o <browseWrap>Navigheti</browseWrap>
 connect-gravatar = Cunnettatevi cù Gravatar
 gravatar_not_found = Ùn avemu trovu di prufilu Gravatar cù u vostru indirizzu elettronicu
 file_too_large = U ducumentu sceltu hè troppu maiò
+
+## Profile - Email
+
 manage-subscriptions = Ghjistione di l’abbunamenti
 manage-email-subscriptions = Ghjistione di l’abbunamenti per indirizzu elettronicu
 email-already-used = ’Ss’indirizzu elettronicu hè dighjà utilizatu pà un altru contu
@@ -298,7 +290,15 @@ add-language = Aghjunghje una lingua
 
 faq-title = Dumande Frequenti
 faq-what-cv-q = Chì hè Common Voice ?
+faq-what-cv-a =
+    A tecnulugia di a ricunniscenza vucale hè in traccia di rivuluziunà a nostra manera d'interagisce cù e macchine, ma i sistemi ch'omu pò aduprà per avà sò cari è esclusivi. Common Voice fà parte di a mossa di Mozilla chì cerca da rende più bonu è più accessibile da tutti e tecnulugie di ricunniscenza vucale. Common Voice hè una banca di dati mundiale tamanta di voci date chì pirmette à tutt'ognunu di modu prestu è simplice d'addestrà applicazioni vucali in putenzialmente ogni lingua.
+    
+    Ùn femu micca ch'è racoglie ritagliuli di voci in le lingue più parlate di u mundu ma dinò in quelle parlate da menu ghjente. Publicà una banca di voci diversa hà da pirmette à i sviluppatori, l'impresarii è e cumunità di superà da per elli sta mancanza. In più di a banca di dati di Common Voice, sviluppemu ancu un mutore di ricunniscenza vocale open source chjamatu Deep Speech.
 faq-why-important-q = Parchì hè impurtante ?
+faq-why-important-a =
+    Parlà hè spessu a manera più naturale di cumunicà cù l'altri è e tecnulugie vucale sò in traccia d'arricà sta capacità à i nostri ordinatori è dispusitivi mobili. Vulemu dà arnesi à i sviluppatori ch'elli possanu crià applicazioni di ricunniscenza vucale cum'è traduttori in tempu reale è assistenti digitali vucali. Ma per avà, a maiò parte di i dati vucali richiesti da fà quelli tippi d'applicazioni sò cari è pruprietarii. Spiremu chì a banca di dati Common Voice darà à i sviluppatori e risorse necessarie per innuvà è rende a tecnulugia vucale dispunibile in le so propie lingue.
+    
+    Per rende a ricunniscenza vucale ancu più universale, raccuglimu ritagliuli vucali in le lingue più diffuse ma ancu in quelle parlate da menu ghjente chì sò appuntu spessu tralasciate da i servizii cummerciali di ricunniscenza vucale. Publichendu una banca di voci diversa, emu da arricà à i sviluppatori, l'impresarii, è à certe cumunità linguistiche sane l'arnesi per superà sta mancanza.
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
 faq-how-get-a = A banca di dati Common Voice hè dispunibile à u scaricamentu sottu à a licenza <licenseLink>CC0</licenseLink> à a paghjina di <datasetLink>e nostre banche di dati</datasetLink>. Pudeti ancu scaricà parechje altre banche di dati publiche da issa paghjina.
 faq-when-release2-q = Quandu publicareti i dati di Common Voice in altre lingue ?
@@ -321,6 +321,7 @@ faq-where-src-from-2-a =
     
     Pudeti truvà i testi urighjinali in stu <githubLink>cartulare GitHub</githubLink>.
 faq-why-not-ask-read-q = Parchì ùn dumandeti micca à la ghjenti di leghje libri o articuli di Wikipedia in parechje lingue ?
+faq-why-not-ask-read-a = Pà assicurassi chì a banca di dati di Common Voice sia a più ghjuvevule pussibule, avemu dicisu di permette solu e fonte di testu dispunibile sottu à una licenza Creative Commons (licenza CC0). Cù a licenza CC0 hè più difficiule di racoglie testi urighjinale, mà permette à tuttu u mondu di ghjuvà i dati vucale risultante senza nisune ristrizzione ò autorizazione di Mozilla. Insomma, vulemu creà una banca di dati in parechje lingue a più ghjuvevule pussibule pà tutti ugnunu, circadore, università, imprese, guvernamenti, urganizazione à scopu suciale, è appassiunnati.
 faq-why-account-q = Parchì duvaria creami un contu ?
 faq-is-account-public-q = Sò publiche l'infurmazioni di u mio contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
