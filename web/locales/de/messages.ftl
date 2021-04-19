@@ -351,27 +351,18 @@ skip-submission-description = Beim Mitarbeiten wird nach dem Klick auf »Übermi
 skip-submission-note = Hinweis: Sie müssen sich weiterhin zwischen »Sprechen« und »Anhören« entscheiden, je nachdem wie Sie mitarbeiten möchten.
 off = Aus
 on = An
-avatar-clip-title = Geben Sie Ihrem Avatar eine Stimme
-change-your-avatar-clip = Möchten Sie Ihren Sprachclip ändern?
-recording-in-progress = Sprachaufnahme läuft
-avatar-clip-recorded = Ihr Avatar enthält jetzt einen Sprachclip!
-record-voice-wave = VOICEWAVE AUFNEHMEN
-retry-voice-wave-recording = WIEDERHOLEN
-re-record = ERNEUT AUFNEHMEN
-delete-voice = LÖSCHEN
-recording-voice-wave = Aufzeichnung läuft…
-delete-voice-clip = oder Sprachclip löschen
-ready-to-upload = Hochladen
-avatar-clip-fact = Es ist seit langem bekannt, dass ein Leser beim Betrachten des Layouts vom lesbaren Inhalt einer Seite abgelenkt wird.
-recreate-voice = Voicewave neu erstellen
-cancel-avatar-clip-recording = Abbrechen
-about-avatar-clip-recording = Erstellen Sie einen Sprachclip als Teil Ihres Profil-Avatars. Andere können die Maus über Ihren Clip bewegen und ihn anhören.
+
+## Profile - Email
+
 browse-file-title = Grafikdatei hochladen
 browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
 connect-gravatar = Mit Gravatar verbinden
 gravatar_not_found = Für Ihre E-Mail-Adresse wurde kein Gravatar gefunden
 file_too_large = Die ausgewählte Datei ist zu groß
 avatar-uploaded = Avatar hochgeladen
+
+## Profile - Email
+
 manage-subscriptions = Abonnements verwalten
 manage-email-subscriptions = E-Mail-Abonnements verwalten
 email-already-used = E-Mail-Adresse wird bereits durch ein anderes Konto verwendet
@@ -578,7 +569,7 @@ get-started-speech = Erste Schritte mit der Spracherkennung
 other-datasets = Andere Sprachdatensätze
 feedback-q = Möchten Sie uns etwas mitteilen?
 deepspeech-info = Der Common-Voice-Datasatz ist eine Ergänzung zu Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, mit der Sie Spracherkennungsanwendungen entwickeln können. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen.
-common-voice-info-new = Haben Sie Fragen zu Common Voice? Verbesserungsvorschläge oder Feedback zu einer bestimmten Sprache? Besuchen Sie unser <discourseLink>Discourse-Forum</discourseLink>und teilen Sie uns dies mit.
+common-voice-info-new = Haben Sie Fragen zu Common Voice? Verbesserungsvorschläge oder Feedback zu einer bestimmten Sprache? Besuchen Sie unser <discourseLink>Discourse-Forum</discourseLink> und teilen Sie uns dies mit.
 data-other-librispeech-description = LibriSpeech ist ein Korpus aus ca. 1000 Stunden vorgelesener Texte in englischer Sprache (aufgenommen in 16kHz), welche ursprünglich aus Hörbüchern des LibriVox-Projektes entnommen wurden.
 data-other-ted-name = TED-LIUM-Korpus
 data-other-ted-description = Der TED-LIUM-Korpus wurde aus Audio-Vorträgen und deren Abschriften erstellt, die auf der TED-Webseite verfügbar sind.
