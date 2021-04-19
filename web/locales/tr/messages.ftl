@@ -351,26 +351,18 @@ skip-submission-description = Katkı gönderimi sırasında Gönder'e tıkladık
 skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya Dinleme arasında seçim yapmanız gerekecektir.
 off = Kapalı
 on = Açık
-avatar-clip-title = Avatarınızı seslendirin
-change-your-avatar-clip = Ses kaydınızı değiştirmek mi istiyorsunuz?
-recording-in-progress = Ses kaydı devam ediyor
-avatar-clip-recorded = Avatarınıza artık ses kaydı ekleyebilirsiniz!
-record-voice-wave = SESİNİZİ KAYDEDİN
-retry-voice-wave-recording = YENİDEN DENE
-re-record = YENİDEN KAYDET
-delete-voice = SİL
-recording-voice-wave = Kaydediliyor
-delete-voice-clip = veya  ses kaydını sil
-ready-to-upload = Yükle
-avatar-clip-fact = Okuyucular bir sayfanın yerleşimini incelerken okunabilir içerik dikkat dağıtabilir.
-recreate-voice = Sesinizi yeniden kaydedin
-cancel-avatar-clip-recording = İptal
-about-avatar-clip-recording = Profil resminizin bir parçası olarak ses kaydı oluşturun. Başkaları profilinizin üzerine gelerek kaydı dinleyebilir.
+
+## Profile - Email
+
 browse-file-title = Resim dosyası yükle
 browse-file = Sürükleyip bırak veya <browseWrap>göz at</browseWrap>
 connect-gravatar = Gravatar ile bağlan
 gravatar_not_found = E-postanıza ait gravatar bulunamadı
 file_too_large = Seçilen dosya çok büyük
+avatar-uploaded = Avatar yüklendi
+
+## Profile - Email
+
 manage-subscriptions = Abonelikleri yönet
 manage-email-subscriptions = E-posta aboneliklerini yönet
 email-already-used = Bu e-posta farklı bir hesapta zaten kullanılıyor
