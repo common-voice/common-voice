@@ -16,6 +16,8 @@ import { CheckIcon, LinkIcon } from '../../../ui/icons';
 
 import './avatar-setup.css';
 
+const MAX_FILE_SIZE_KB = 300; // Max file upload size 300kb
+
 function resizeImage(file: File, maxSize: number): Promise<Blob> {
   const reader = new FileReader();
   const image = new Image();
@@ -32,7 +34,7 @@ function resizeImage(file: File, maxSize: number): Promise<Blob> {
     return new Blob([ia], { type: mime });
   };
 
-  const resizeAndCrop = () => {
+  const resize = () => {
     const canvasResize = document.createElement('canvas');
 
     let width = image.width;
@@ -58,28 +60,8 @@ function resizeImage(file: File, maxSize: number): Promise<Blob> {
     canvasResize.width = width;
     canvasResize.height = height;
     canvasResize.getContext('2d').drawImage(image, 0, 0, width, height);
-    let imgResized = new Image();
-    imgResized.src = canvasResize.toDataURL('image/jpeg', 0.7);
 
-    // crop resized image to square
-    const canvasCrop = document.createElement('canvas');
-    canvasCrop.width = maxSize;
-    canvasCrop.height = maxSize;
-    canvasCrop
-      .getContext('2d')
-      .drawImage(
-        imgResized,
-        offsetX,
-        offsetY,
-        maxSize,
-        maxSize,
-        0,
-        0,
-        maxSize,
-        maxSize
-      );
-    const imgCropped = canvasCrop.toDataURL('image/jpeg');
-    return dataURItoBlob(imgCropped);
+    return dataURItoBlob(canvasResize.toDataURL('image/jpg', 0.7));
   };
 
   return new Promise((ok, no) => {
@@ -88,8 +70,13 @@ function resizeImage(file: File, maxSize: number): Promise<Blob> {
       return;
     }
 
+    if (file.size > MAX_FILE_SIZE_KB * 1024) {
+      no(new Error('too_large'));
+      return;
+    }
+
     reader.onload = (readerEvent: any) => {
-      image.onload = () => ok(resizeAndCrop());
+      image.onload = () => ok(resize());
       image.src = readerEvent.target.result;
     };
     reader.readAsDataURL(file);
@@ -125,16 +112,21 @@ class AvatarSetup extends React.Component<Props, State> {
   async saveFileAvatar(files: FileList) {
     const { addNotification, api, getString, locale, refreshUser } = this.props;
     this.setState({ isSaving: true });
-    const image = await resizeImage(files.item(0), 200);
-    const { error } = await api.saveAvatar('file', image);
-    if (['too_large'].includes(error)) {
-      addNotification(getString('file' + error));
-    } else {
+
+    try {
+      const image = await resizeImage(files.item(0), 200);
+      await api.saveAvatar('file', image);
       addNotification(getString('avatar-uploaded'));
+      trackProfile('give-avatar', locale);
+      refreshUser();
+    } catch (e) {
+      if (e.message.includes('too_large')) {
+        addNotification(getString('file_' + e.message));
+      } else {
+        addNotification(e.message);
+      }
     }
 
-    trackProfile('give-avatar', locale);
-    refreshUser();
     this.setState({ isSaving: false });
   }
 
@@ -172,16 +164,17 @@ class AvatarSetup extends React.Component<Props, State> {
                 this.saveFileAvatar(event.dataTransfer.files);
                 event.preventDefault();
               }}>
-              <Localized id="browse-file-title">
-                <span className="title" />
-              </Localized>
+              <span className="title">
+                <Localized id="browse-file-title" /> (
+                <Localized id="max-file-size" vars={{ kb: MAX_FILE_SIZE_KB }} />
+                )
+              </span>
               <Localized
                 id="browse-file"
                 elems={{ browseWrap: <span className="browse" /> }}>
                 <span className="upload-label" />
               </Localized>
               <input
-                // disabled={this.state.isSaving}
                 className="hide-input"
                 type="file"
                 accept="image/*"
@@ -193,7 +186,6 @@ class AvatarSetup extends React.Component<Props, State> {
           </div>
 
           <button
-            // disabled={this.state.isSaving}
             className="connect"
             type="button"
             onClick={async () => {
