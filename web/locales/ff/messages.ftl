@@ -367,27 +367,18 @@ skip-submission-description = Tuma naatnoygol ballitol maa, duttinal maa diwe ɓ
 skip-submission-note = Tesko: maa sokloy labaade hakkunde Haal walla Heɗo ngam waylude sifaa ballital.
 off = Ñifol
 on = Kuɓɓol
-avatar-clip-title = Jokku jimmirde sawto
-change-your-avatar-clip = Aɗa yiɗi waylude lefel sawto maa?
-recording-in-progress = Nanngitogol daande ina ɓeydoo
-avatar-clip-recorded = Jimmirde maa ena jogii jooni lefel sawto!
-record-voice-wave = NANNGITO CIFOL SAWTO
-retry-voice-wave-recording = Eto kadi
-re-record = NANNGITO KADI
-delete-voice = MOMTU
-recording-voice-wave = Nanngitogol
-delete-voice-clip = walla  Momtu lefel sawto
-ready-to-upload = YOLLU
-avatar-clip-fact = Ena goongɗinaa ko ɓooyi wonde loowdi hello ena telɓina taroowo so tawii omo ndaara lelngo maggo,
-recreate-voice = Waɗtu anndinirde maa
-cancel-avatar-clip-recording = HAAYTU
-about-avatar-clip-recording = Sos lefel sawto jahdowel e jimmirde heftinirde maa. Woɗɓe maa mbaaw weywude ngam heɗaade lefel maa.
+
+## Profile - Email
+
 browse-file-title = Yollu fiilde natal
 browse-file = Daas njollaa walla <browseWrap>Wanngo</browseWrap>
 connect-gravatar = Seŋoro Gravatar
 gravatar_not_found = Alaa gravatar yiytaanaa iimeel maa
 file_too_large = Fiilde suɓaande ndee ina mawni no feewi
 avatar-uploaded = Jimmirde yollaama
+
+## Profile - Email
+
 manage-subscriptions = Toppito Binnditagol
 manage-email-subscriptions = Toppito Binnditagol iimeel
 email-already-used = Iimeel oo ina huutoree e konte goɗɗe kisa
@@ -641,7 +632,7 @@ other-language = Ɗemngal goɗngal
 
 ## Languages Overview
 
-language-section-in-progress = Heen Wonaa
+language-section-in-progress = Ena e Laawol
 language-section-in-progress-new-description = Ɗee-ɗoo ɗemɗe ngoni oo sahaa ko e topayru. Pale taaɓagol ɗee kollirta ko hol to ɗemngal kala yahrata e fannu <localizationGlossaryLink>nokkuɗinal lowre</localizationGlossaryLink> kam e <sentenceCollectionGlossaryLink>roɓindagol konnguɗi</sentenceCollectionGlossaryLink>.
 language-section-launched = Fuɗɗaama
 language-section-launched-description = Ɗee ɗemɗe kurminaaɗe ko ɗemɗe <localizationGlossaryLink>nokkuɗinɗe</localizationGlossaryLink> lowre ndee haa timmi, kadi ena njogii <sentenceCollectionGlossaryLink>konnguɗi doɓindaaɗi</sentenceCollectionGlossaryLink> ngam aaɓnoo jokkeede e ballitte <speakLink>Haal</speakLink> e <listenLink>Heɗo</listenLink>.
