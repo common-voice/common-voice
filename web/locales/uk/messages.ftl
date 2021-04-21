@@ -365,27 +365,19 @@ skip-submission-description = Після натискання кнопки "На
 skip-submission-note = Примітка: Вам все одно необхідно буде обрати між записом і прослуховуванням для зміни типу допомоги.
 off = Вимкнено
 on = Увімкнено
-avatar-clip-title = Дайте голос своєму аватару
-change-your-avatar-clip = Хочете змінити свій запис?
-recording-in-progress = Триває запис
-avatar-clip-recorded = Тепер у вашого аватара є голос!
-record-voice-wave = Записати голос
-retry-voice-wave-recording = ПОВТОРИТИ
-re-record = ПЕРЕЗАПИСАТИ
-delete-voice = ВИДАЛИТИ
-recording-voice-wave = Запис
-delete-voice-clip = або видалити запис
-ready-to-upload = Завантажити
-avatar-clip-fact = Давно встановлений факт, що читач буде відволікатися на читабельний вміст сторінки, дивлячись на її макет.
-recreate-voice = Перезаписати голос
-cancel-avatar-clip-recording = Скасувати
-about-avatar-clip-recording = Створіть голосовий кліп як частину аватара вашого профілю. Інші зможуть навести курсор і прослухати ваш кліп.
+
+## Profile - Email
+
 browse-file-title = Завантажити файл зображення
 browse-file = Перетягніть або <browseWrap>Огляд</browseWrap>
 connect-gravatar = З'єднатися з Gravatar
 gravatar_not_found = Для вашої електронної пошти не знайдено gravatar
 file_too_large = Обраний файл надто великий
 avatar-uploaded = Аватар вивантажено
+max-file-size = До { $kb }кб
+
+## Profile - Email
+
 manage-subscriptions = Керувати підписками
 manage-email-subscriptions = Керувати підписками електронної пошти
 email-already-used = Електронна пошта уже використовується для іншого облікового запису
