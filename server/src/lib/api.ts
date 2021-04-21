@@ -79,7 +79,7 @@ export default class API {
     router.patch('/user_client', this.saveAccount);
     router.post(
       '/user_client/avatar/:type',
-      bodyParser.raw({ type: 'image/*' }),
+      bodyParser.raw({ type: 'image/*', limit: '300kb' }),
       this.saveAvatar
     );
     router.post('/user_client/avatar_clip', this.saveAvatarClip);
