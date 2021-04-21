@@ -359,27 +359,19 @@ skip-submission-description = Při sobuskutkowanju so zapodawanski komentar po k
 skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wubrać, zo byšće typ sobuskutkowanja změnił.
 off = Wupinjeny
 on = Zapinjeny
-avatar-clip-title = Dajće swojemu awatarej hłós
-change-your-avatar-clip = Chceće swój hłosowy klip změnić?
-recording-in-progress = Hłosowe natočenje běži
-avatar-clip-recorded = Waš awatar nětko hłosowy klip wobsahuje!
-record-voice-wave = VOICEWAVE NATOČIĆ
-retry-voice-wave-recording = ZNOWA SPYTAĆ
-re-record = ZNOWA NATOČIĆ
-delete-voice = ZHAŠEĆ
-recording-voice-wave = Natoča so
-delete-voice-clip = abo zhašejće hłosowy klip
-ready-to-upload = Nahrać
-avatar-clip-fact = Jo hižo dołho znaty fakt, zo so čitar wot čitajomneho wobsaha strony wotwjedźe, hdyž sej jeje wuhotowanje wobhladuje.
-recreate-voice = Hłosowu žołmu znowa wutworić
-cancel-avatar-clip-recording = Přetorhnyć
-about-avatar-clip-recording = Wutworće hłosowy klip jako dźěl swojeho profiloweho awatara. Druhe móža z myšku přez njón pohibować a na waš klip poskać.
+
+## Profile - Email
+
 browse-file-title = Wobrazowu dataju nahrać
 browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
 connect-gravatar = Z gravatarom zwjazać
 gravatar_not_found = Njeje so žadyn gravatar za wašu e-mejl namakał
 file_too_large = Wubrana dataja je přewulka
 avatar-uploaded = Awatar je so nahrał
+max-file-size = { $kb } kb maks.
+
+## Profile - Email
+
 manage-subscriptions = Abonementy rjadować
 manage-email-subscriptions = E-mejlowe abonementy rjadować
 email-already-used = E-mejlowa adresa so hižo za druhe konto wužiwa
