@@ -349,27 +349,19 @@ skip-submission-description = Dopo aver premuto Invia durante l’invio del cont
 skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascolta per modificare il tipo di contributo.
 off = Disattiva
 on = Attiva
-avatar-clip-title = Dai una voce al tuo avatar
-change-your-avatar-clip = Vuoi cambiare registrazione vocale?
-recording-in-progress = Registrazione in corso…
-avatar-clip-recorded = Ora il tuo avatar ha una registrazione vocale!
-record-voice-wave = Registra la tua voce
-retry-voice-wave-recording = RIPROVA
-re-record = REGISTRA DI NUOVO
-delete-voice = ELIMINA
-recording-voice-wave = In registrazione
-delete-voice-clip = oppure Elimina registrazione
-ready-to-upload = Carica
-avatar-clip-fact = È risaputo da tempo che mentre si legge qualcosa, si viene distratti dal layout di una pagina.
-recreate-voice = Ricrea un’onda sonora
-cancel-avatar-clip-recording = Annulla
-about-avatar-clip-recording = Crea una registrazione vocale come parte del profilo del tuo avatar. Altri utenti potranno ascoltare la tua registrazione muovendo il mouse sulla tua icona.
+
+## Profile - Email
+
 browse-file-title = Carica un’immagine
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</browseWrap>
 connect-gravatar = Connetti Gravatar
 gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
 avatar-uploaded = Avatar caricato
+max-file-size = max { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = Gestisci le sottoscrizioni
 manage-email-subscriptions = Gestisci iscrizioni email
 email-already-used = Questa email è già in uso per un altro account
