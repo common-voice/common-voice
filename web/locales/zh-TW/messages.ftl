@@ -349,27 +349,19 @@ skip-submission-description = 貢獻過程中，在點擊「送出」後將忽�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
-avatar-clip-title = 幫您的大頭照錄音
-change-your-avatar-clip = 想要更換錄音片段嗎？
-recording-in-progress = 錄音中
-avatar-clip-recorded = 您的大頭照現在也包含錄音片段了！
-record-voice-wave = 錄下 VOICEWAVE
-retry-voice-wave-recording = 重試
-re-record = 重新錄製
-delete-voice = 刪除
-recording-voice-wave = 錄音中
-delete-voice-clip = 或刪除錄音片段
-ready-to-upload = 上傳
-avatar-clip-fact = 有個我們知道已久的事實是，讀者看著網頁版面時，會被網頁上可閱讀的內容分散注意力。
-recreate-voice = 重新建立 Voicewave
-cancel-avatar-clip-recording = 取消
-about-avatar-clip-recording = 錄下一段語音，作為個人資料的一部分。其他人可以將滑鼠停留在您的顯示圖片上聆聽。
+
+## Profile - Email
+
 browse-file-title = 上傳圖片
 browse-file = 拖曳至此處，或<browseWrap>瀏覽</browseWrap>
 connect-gravatar = 連結 Gravatar
 gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
 file_too_large = 選擇的檔案太大
 avatar-uploaded = 已上傳大頭照
+max-file-size = 最大 { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = 管理訂閱
 manage-email-subscriptions = 管理電子報訂閱項目
 email-already-used = 電子郵件地址已用於其他帳號
