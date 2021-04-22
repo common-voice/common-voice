@@ -357,27 +357,19 @@ skip-submission-description = A közreműködések beküldésekor a visszajelzé
 skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszéljen vagy Figyeljen lehetőséget a közreműködés típusának módosításához.
 off = Ki
 on = Be
-avatar-clip-title = Adjon hangot az avatárjának
-change-your-avatar-clip = Meg akarja változtatni a hangklipjét?
-recording-in-progress = Hangfelvétel folyamatban
-avatar-clip-recorded = Az avatárja most már hangklipet tartalmaz!
-record-voice-wave = HANGHULLÁM RÖGZÍTÉSE
-retry-voice-wave-recording = ÚJRAPRÓBÁLKOZÁS
-re-record = ÚJRAFELVÉTEL
-delete-voice = TÖRLÉS
-recording-voice-wave = Felvétel
-delete-voice-clip = vagy törölje a hangklipet
-ready-to-upload = Feltöltés
-avatar-clip-fact = Régóta bebizonyosodott tény, hogy elvonja az olvasó figyelmét az oldal olvasható tartalma, ha az elrendezését figyeli.
-recreate-voice = Hozza létre újra a hanghullámot
-cancel-avatar-clip-recording = Mégse
-about-avatar-clip-recording = Hozzon létre egy hangklipet a profilja avatárjának részeként. Mások felé húzhatják az egeret, és meghallgathatják a klipet.
+
+## Profile - Email
+
 browse-file-title = Képfájl feltöltése
 browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
 connect-gravatar = Kapcsolódás a Gravatarral
 gravatar_not_found = Nem található gravatar az e-mail címéhez
 file_too_large = A kiválasztott fájl túl nagy
 avatar-uploaded = Profilkép feltöltése
+max-file-size = legfeljebb { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Feliratkozások kezelése
 manage-email-subscriptions = E-mail feliratkozások kezelése
 email-already-used = Az e-mail már használatban van egy másik fiókban
