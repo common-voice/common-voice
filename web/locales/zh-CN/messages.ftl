@@ -347,27 +347,19 @@ skip-submission-description = 贡献期间，点击“提交”将跳过反馈�
 skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献类型。
 off = 关
 on = 开
-avatar-clip-title = 让您的头像会说话
-change-your-avatar-clip = 想要更改您的语音片段？
-recording-in-progress = 正在录音
-avatar-clip-recorded = 您的头像现在有声音！
-record-voice-wave = 录制 VOICEWAVE
-retry-voice-wave-recording = 重试
-re-record = 重新录制
-delete-voice = 删除
-recording-voice-wave = 正在录制
-delete-voice-clip = 或删除语音片段
-ready-to-upload = 上传
-avatar-clip-fact = 有个由来已久的事实是，读者注视网页版面时，会被网页上的可读性内容分散注意力。
-recreate-voice = 重新创建 Voicewave
-cancel-avatar-clip-recording = 取消
-about-avatar-clip-recording = 创建语音片段作为个人资料的一部分，他人可将鼠标悬停在您的头像上进行聆听。
+
+## Profile - Email
+
 browse-file-title = 上传图片
 browse-file = 拖放至此，或者<browseWrap>浏览</browseWrap>
 connect-gravatar = 连接 Gravatar
 gravatar_not_found = 通过您的电子邮件地址未找到 Gravatar
 file_too_large = 所选文件太大
 avatar-uploaded = 头像已上传
+max-file-size = 最大 { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = 管理订阅
 manage-email-subscriptions = 管理邮件订阅
 email-already-used = 此电子邮件地址已被其他账户占用
