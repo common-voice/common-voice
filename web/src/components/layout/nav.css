@@ -89,6 +89,7 @@ header {
 
 .localization-select {
     position: relative;
+    font-family: 'Inter', sans-serif;
 
     &::before {
         content: '';
