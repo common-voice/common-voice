@@ -351,27 +351,19 @@ skip-submission-description = Le retroaction sur tu contributiones non essera mo
 skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pro cambiar typo de contribution.
 off = Inactive
 on = Active
-avatar-clip-title = Da un voce a tu avatar
-change-your-avatar-clip = Vole tu cambiar tu retalio vocal?
-recording-in-progress = Registration del voce in curso
-avatar-clip-recorded = Tu avatar ora include un retalio vocal!
-record-voice-wave = REGISTRAR VOICEWAVE
-retry-voice-wave-recording = RETENTAR
-re-record = RE-REGISTRAR
-delete-voice = DELER
-recording-voice-wave = Registration
-delete-voice-clip = o Deler retalio vocal
-ready-to-upload = INCARGAR
-avatar-clip-fact = Il es facto ben cognoscite que le contento legibile de un pagina distrahe un persona qui vole examinar su disposition graphic.
-recreate-voice = Recrear le presentation vocal
-cancel-avatar-clip-recording = Cancellar
-about-avatar-clip-recording = Crea un retalio vocal como parte de tu profilo avatar. Alteres potera lo audir al passar supra del mus.
+
+## Profile - Email
+
 browse-file-title = Incargar un file de imagine
 browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
 connect-gravatar = Connecter con Gravatar
 gravatar_not_found = Nulle gravatar trovate pro tu adresse de e-mail
 file_too_large = Le file seligite es troppo grande
 avatar-uploaded = Avatar cargate
+max-file-size = { $kb }kb max
+
+## Profile - Email
+
 manage-subscriptions = Gerer le subscriptiones
 manage-email-subscriptions = Gerer le abonamentos a email
 email-already-used = Iste email es jam utilisate pro un conto differente
