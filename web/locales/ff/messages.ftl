@@ -309,7 +309,7 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Paandaaje garooje: { $goal }
+status-goal = Paandaale garooje: { $goal }
 english = Engeleere
 
 ## ProfileForm
@@ -345,7 +345,7 @@ why-profile-text =
 dashboard = Tiimtorde
 build-profile = Mah heftinirde
 avatar = Jimmirde
-goals = Paandaaje
+goals = Paandaale
 settings = Teelte
 edit-profile = Taƴto Heftinirde
 profile-create-success = Moƴƴii, heftinirde sosaama!
