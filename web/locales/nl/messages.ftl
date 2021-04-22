@@ -351,27 +351,19 @@ skip-submission-description = Tijdens het bijdragen wordt feedback over inzendin
 skip-submission-note = Noot: u dient nog steeds een keuze tussen Spreken en Luisteren te maken om het type bijdragen te wijzigen.
 off = Uit
 on = Aan
-avatar-clip-title = Geef uw avatar een stem
-change-your-avatar-clip = Wilt u uw spraakfragment wijzigen?
-recording-in-progress = Spraak wordt opgenomen
-avatar-clip-recorded = Uw avatar bevat nu een spraakfragment!
-record-voice-wave = VOICEWAVE OPNEMEN
-retry-voice-wave-recording = OPNIEUW
-re-record = OPNIEUW OPNEMEN
-delete-voice = VERWIJDEREN
-recording-voice-wave = Opname loopt
-delete-voice-clip = of Spraakfragment verwijderen
-ready-to-upload = Uploaden
-avatar-clip-fact = Het is een bekend feit dat wanneer een lezer naar de lay-out kijkt, hij of zij door de leesbare inhoud van een pagina wordt afgeleid.
-recreate-voice = Voicewave opnieuw maken
-cancel-avatar-clip-recording = Annuleren
-about-avatar-clip-recording = Maak een spraakfragment als onderdeel van uw profielavatar. Anderen kunnen uw fragment aanwijzen en ernaar luisteren.
+
+## Profile - Email
+
 browse-file-title = Een afbeeldingsbestand uploaden
 browse-file = Verslepen of <browseWrap>Bladeren</browseWrap>
 connect-gravatar = Koppelen met Gravatar
 gravatar_not_found = Geen gravatar voor uw e-mailadres gevonden
 file_too_large = Het geselecteerde bestand is te groot
 avatar-uploaded = Avatar geüpload
+max-file-size = max. { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Abonnementen beheren
 manage-email-subscriptions = E-mailabonnementen beheren
 email-already-used = E-mailadres wordt al voor een andere account gebruikt
