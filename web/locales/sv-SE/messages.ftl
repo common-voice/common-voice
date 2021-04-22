@@ -354,27 +354,19 @@ skip-submission-description = Under inlämning av bidrag ignoreras återkoppling
 skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
-avatar-clip-title = Ge din avatar en röst
-change-your-avatar-clip = Vill du ändra ditt röstklipp?
-recording-in-progress = Röstinspelning pågår
-avatar-clip-recorded = Din avatar innehåller nu ett röstklipp!
-record-voice-wave = SPELA IN VOICEWAVE
-retry-voice-wave-recording = FÖRSÖK IGEN
-re-record = SPELA IN IGEN
-delete-voice = TA BORT
-recording-voice-wave = Inspelning
-delete-voice-clip = eller ta bort röstklipp
-ready-to-upload = Ladda upp
-avatar-clip-fact = Det är sedan länge känt att en läsare kommer att bli distraherad av det läsbara innehållet på en sida när man tittar på dess layout.
-recreate-voice = Återskapa Voicewave
-cancel-avatar-clip-recording = Avbryt
-about-avatar-clip-recording = Skapa ett röstklipp som en del av din profilavatar. Andra kan föra musen över den och lyssna på ditt klipp.
+
+## Profile - Email
+
 browse-file-title = Ladda upp en bildfil
 browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
 connect-gravatar = Anslut med Gravatar
 gravatar_not_found = Ingen gravatar hittades för din e-postadress
 file_too_large = Den valda filen är för stor
 avatar-uploaded = Avatar uppladdad
+max-file-size = max { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = Hantera prenumerationer
 manage-email-subscriptions = Hantera e-postprenumerationer
 email-already-used = E-postadress används redan för ett annat konto
