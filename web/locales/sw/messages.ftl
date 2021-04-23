@@ -350,26 +350,17 @@ skip-submission-description = Wakati wa mchango, uwasilishaji wa maoni utarukwa 
 skip-submission-note = Kumbuka: Bado utahitaji kuchagua kati ya kuzungumza au kusikiliza ili ubadilishe aina ya uchangiaji.
 off = zima
 on = washa
-avatar-clip-title = Ipe sauti taswira yako ya mtumiaji
-change-your-avatar-clip = unataka kubadilisha kipande cha sauti yako?
-recording-in-progress = Kurekodiwa kwa sauti kunaendelea
-avatar-clip-recorded = Taswira yako sasa inajumuisha kipande cha sauti!
-record-voice-wave = Rekodi mawimbi ya sauti
-retry-voice-wave-recording = jaribu tena
-re-record = Rekodi tena
-delete-voice = futa
-recording-voice-wave = Inarekodi
-delete-voice-clip = Au futa kipande cha sauti
-ready-to-upload = Pakia
-avatar-clip-fact = Ni ukweli uliojulikana kwa muda mrefu kwamba msomaji atavurugwa na maneno yanayosomeka kwa ukurasa wakati anapoangalia muundo wake.
-recreate-voice = Tengeneza upya mawimbi  ya sauti
-cancel-avatar-clip-recording = Ghairi
-about-avatar-clip-recording = Unda kipande cha sauti iwe sehemu ya taswira ya wasifu wako. Wengine wataweza kuielea na kusikiliza hicho kipande.
+
+## Profile - Email
+
 browse-file-title = Pakia faili la picha
 browse-file = Buruta na ushushe au <browseWrap> Vinjari </BrowseWrap>
 connect-gravatar = Ungana na Gravatar
 gravatar_not_found = Hakuna taswira inayotambuliwa ulimwenguni iliyopatikana kwa barua pepe yako
 file_too_large = Faili lililochaguliwa ni kubwa sana
+
+## Profile - Email
+
 manage-subscriptions = Dhibitisha Usajili
 manage-email-subscriptions = Dhibitisha Usajili wa Baruapepe
 email-already-used = Baruapepe tayari inatumika kwa akaunti tofauti
@@ -437,7 +428,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = kwanini common voice
+about-title = Kwanini Common Voice?
 about-subtitle = Common Voice ni hatua ya Mozilla ya kusaidia kufunza mashine jinsi watu wanavyozungumza. Mbali na daftari la Common Voice, pia tunaunda injini ya utambuzi wa sauti ya chanzo wazi inayoitwa Deep Speech.
 about-header-description =
     Miradi hii yote ni sehemu ya juhudi zetu za kupunguza mgawanyiko wa sauti ya kidigitali. Teknolojia za utambuzi wa sauti huleta mwelekeo wa kibinadamu kwenye vifaa vyetu, lakini watengenezaji programu wanahitaji idadi kubwa ya data ya sauti ili kuzijenga. Hivi sasa, data nyingi ni ghali na ya wamiliki.¶
@@ -471,7 +462,7 @@ about-get-involved-text-2 =
     Je! Unataka kusaidia kufanya Common Voice kuwa bora zaidi?
     Vizuri! Wasiliana kupitia barua pepe au idhaa ya <discourseLink> Discourse </discourseLink>
     ,wasilisha maswala ya tovuti kupitia <githubLink> GitHub </githubLink>, au ujiunge na mazungumzo ya jamii ya <matrixLink> Matrix </matrixLink>.
-about-nav-why-common-voice = kwanini?
+about-nav-why-common-voice = Kwanini?
 about-nav-how-it-works = kivipi?
 about-nav-partners = Washiriki
 about-nav-get-involved = Jihusishe
