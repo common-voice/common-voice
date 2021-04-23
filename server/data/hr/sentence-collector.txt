@@ -88,6 +88,7 @@ Dalje nisam shvatio.
 Dama je zbilja ovdje?
 Dan po dan.
 Danas imamo dva sjajna tima.
+Deset sekunda.
 Dečki, moram ići.
 Dobar dan i dobro došli na ovogodišnji Kviz fizike!
 Dobar si prijatelj.
@@ -146,6 +147,7 @@ Hoćeš malo?
 Htio sam to gledati na netu, ali tražili su karticu.
 Htjela sam vidjeti jesi li dobro.
 Hvala na pojašnjenju.
+Hvala na upozorenju.
 Hvala ti.
 Hvala vam što ste tako brzo došli.
 Hvala što si došao.
@@ -153,6 +155,7 @@ Hvala što si me pozvala.
 Hvala što ste išli i pokušali!
 Hvala, mama.
 I hvala vama, obična osobo.
+I još nešto.
 I meni je drago što čujem tebe.
 I meni je žao, ali nemam mjesta za vas u novčaniku.
 I meni tvoje prijateljstvo puno znači.
@@ -242,6 +245,7 @@ Kakav je plan?
 Kako da ih planiram?
 Kako je prošao?
 Kako je to bilo?
+Kako kvantno računalo faktorizira velike brojeve?
 Kako sam mu mogla vjerovati?
 Kako sam se nalila?
 Kako si?
@@ -322,6 +326,7 @@ Moram vježbati.
 Moramo li napraviti intervenciju?
 Moramo poslati neka pisma.
 Moraš još puno učiti o laganju.
+Moraš primiti udarac za tim.
 Možda dva.
 Možda ima.
 Možda je došao nepozvan i neželjen.
@@ -349,6 +354,7 @@ Naruči koktel.
 Naručiti ćemo tri glavna jela.
 Nas smo dvojica, a on je jedan.
 Nasljedio je temperament od svog tatice.
+Natjecat ćemo se na kvizu i trebamo četvrtog za tim.
 Nađi se s njom pa vidi.
 Naša će djeca biti pametna i lijepa.
 Našao sam rješenje svih naših problema.
@@ -365,12 +371,14 @@ Ne mogu sada.
 Ne mogu vjerovati da ga je pustila u moj stan.
 Ne mogu vjerovati da mi je dao otkaz.
 Ne moram ti govoriti kakva je to čast.
+Ne moraš ostati do kraja.
 Ne ostavljaš si dovoljno prostora među automobilima.
 Ne razumijem pitanje.
 Ne slažu se oko toga komu pripada televizor.
 Ne slušaj ih.
 Ne sramoti ga pred prijateljima.
 Ne treba, zadrži ga.
+Ne trebam tim.
 Ne upucavam joj se!
 Ne vidim pomoć.
 Ne zanimaju me pretpostavke.
@@ -575,12 +583,14 @@ Plaća i naknada plaće isplaćuju se u novcu
 Plaća se isplaćuje nakon obavljenog rada
 Plešeš svake srijede?
 Plus, izgleda kao ogromni insekt.
+Pobjeđuje li tim koji se najviše zabavlja?
 Pobjeđujem na kvizu.
 Pogledaj me.
 Pogledaj ovo, super je.
 Pogodi čiji su roditelji dobili brzi internet.
 Pokazao si puno hrabrosti danas.
 Pokušajmo samo otići.
+Pokušali smo.
 Pomoći ću tu.
 Ponavljanje je ključno za uspjeh u bilo čemu.
 Ponavljao je to i povjerovala sam mu.
@@ -809,6 +819,7 @@ Već imam zubara.
 Već se dugo žena nije skidala u našem stanu.
 Vi radite s njima na sveučilištu?
 Vi radite svoje pokuse, ja svoje.
+Vi ćete biti u pomoćnim crvenima, a ja u zapovjednom žutom.
 Vidiš li problem?
 Vilenjaci su besmrtni i visoki ratnici.
 Vjerojatno i ti jako fino mirišeš.
@@ -842,6 +853,7 @@ Zar to nije strašno?
 Zato sam htio dogovor.
 Zato sam i prekinula s njim.
 Zato što ljudi to ne vole!
+Zato što s tobom nije zabavno.
 Zato što zvučim kao lik iz Simpsona?
 Zatrebat ćeš pomoć s računalom!
 Zašto bi onda htio biti hobit?
