@@ -355,27 +355,19 @@ skip-submission-description = Оценка работы с Common Voice буде
 skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
 off = Выкл.
 on = Вкл.
-avatar-clip-title = Дайте голос своему аватару
-change-your-avatar-clip = Хотите изменить свою голосовую запись?
-recording-in-progress = Идёт запись голоса
-avatar-clip-recorded = У вашего аватара теперь есть голос!
-record-voice-wave = ЗАПИСАТЬ ПРИВЕТСТВИЕ
-retry-voice-wave-recording = ПОВТОРИТЬ
-re-record = ПЕРЕЗАПИСАТЬ
-delete-voice = УДАЛИТЬ
-recording-voice-wave = Запись
-delete-voice-clip = или удалить голосовую запись
-ready-to-upload = Выгрузить
-avatar-clip-fact = Существует давно установленный факт, что читатель будет отвлекаться на удобочитаемое содержимое страницы при просмотре её макета.
-recreate-voice = Перезаписать приветствие
-cancel-avatar-clip-recording = Отмена
-about-avatar-clip-recording = Сделайте голосовую запись частью аватара вашего профиля. Другие смогут прослушать её.
+
+## Profile - Email
+
 browse-file-title = Загрузить файл изображения
 browse-file = Перетащите или <browseWrap>выберите файл</browseWrap>
 connect-gravatar = Присоединить Gravatar
 gravatar_not_found = Данный адрес эл. почты не зарегистрирован в gravatar
 file_too_large = Выбранный файл имеет слишком большой размер
 avatar-uploaded = Аватар загружен
+max-file-size = { $kb } КБ максимум
+
+## Profile - Email
+
 manage-subscriptions = Управление подписками
 manage-email-subscriptions = Управление подписками по эл. почте
 email-already-used = Электронная почта уже используется в другом аккаунте
