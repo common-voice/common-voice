@@ -20,22 +20,24 @@
 
 /* Zilla Slab has a limited glyph support range so switch to
    Noto in known cases */
+html[lang='ab'],
 html[lang='cv'],
+html[lang='ff'],
 html[lang='ky'],
-html[lang='ro'],
-html[lang='ff'] {
+html[lang='ro'] {
     --strong-font-family: 'Noto Serif', serif;
 }
 
 /* Fonts that support arabic script generally don't support any other
    extended alphabet, so fall back to sans-serif to avoid loading more fonts */
 html[lang='ckb'] {
-    --strong-font-family: 'Open Serif', sans-serif;
+    --strong-font-family: 'Open Sans', sans-serif;
 }
 
 /* Fulah and Romanian are not supported by Open Sans */
 html[lang='ro'],
-html[lang='ff'] {
+html[lang='ff'],
+html[lang='az'] {
     --base-font-family: 'Inter', sans-serif;
 }
 
