@@ -786,6 +786,7 @@ read-more-about = Ավելին «Մեր մասին» էջում
 
 ## Demo Datasets
 
+demo-account = Հաշիվ
 
 ## Demo Account
 
