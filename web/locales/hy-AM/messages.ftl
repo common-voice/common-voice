@@ -624,12 +624,20 @@ action-tap = Հպել
 listen = Լսել
 skip = Բաց թողնել
 shortcuts = Դյուրանցումներ
+clips-with-count-pluralized =
+    { $count ->
+        [one] Ձայնագրութույն
+       *[other] Ձայնագրութույններ
+    }
 record-cta = Սկսել ձայնագրությունը
 record-again-instruction = Հոյակա՛պ է<recordIcon></recordIcon> Ձայնագրենք հաջորդ նախադասությունը
 record-again-instruction2 = Այո՛։ Ձայնագրենք հաջորդը <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Վերջի՜նը։
 review-tooltip = Աշխատելու ատեն վերանայեք եւ կրկին ձայնագրեք նախադասությունները
 review-instruction = Վերանայեք եւ կրկին ձայնագրեք նախադասությունները եթե պետք ա
+clips-uploaded = Ձայնագրութույններ Վերբեռնված
+record-abort-submit = հաստատել ձայնագրութույններերը
+record-abort-delete = Ելք և ջնջեք ձայնագրութույնները
 speak-empty-state = Այս լեզվով ձայնագրմանը պատրաստ նախադասությունները վերջացել են…
 speak-empty-state-cta = Նոր նախադասություն ավելացնել
 target-segment-learn-more = Իմանալ ավելին
