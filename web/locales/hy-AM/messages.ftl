@@ -737,6 +737,16 @@ days =
         [one] Օր
        *[other] Օր
     }
+recordings =
+    { $count ->
+        [one] Ձայնագրություն
+       *[other] Ձայնագրություններ
+    }
+validations =
+    { $count ->
+        [one] Վավերացում
+       *[other] Վավերացումներ
+    }
 
 ## Dashboard
 
@@ -750,8 +760,13 @@ stats = Վիճակագրություններ
 awards = Պարգևներ
 you = Դուք
 everyone = Բոլորը
+contribution-activity = նվիրատվություն գործողություններ
+top-contributors = Լավագույն մասնակիցներ
 recorded-clips = Արված Ձայնագրութույններ
 validated-clips = Վավերացված Ձայնագրութույններ
+total-approved = Ընդհանուրը հաստատված է
+overall-accuracy = Ընդհանուր ճշգրտություն
+set-visibility = հաստատել իմ տեսանելիությունը
 
 ## Custom Goals
 
