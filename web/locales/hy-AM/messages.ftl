@@ -33,6 +33,7 @@ as = Ասսամի
 ast = Աստուրիերեն
 az = Ադրբեջաներեն
 ba = Բաշկիրերեն
+bas = Բասաա
 be = Բելառուսերեն
 bg = Բուլղարերեն
 bm = Բամբարա
@@ -95,6 +96,7 @@ lg = Լուգանդա
 lij = Լիգուրերեն
 lt = Լիտվաներեն
 lv = Լատիշերեն
+mai = Մաիթիլի
 mdf = Մոկշա
 mg = Մալգաշերեն
 mhr = Մարգագետնային մարիերեն
@@ -127,6 +129,7 @@ rw = Կինյառուանդա
 sah = Յակուտերեն
 sc = Սարդիներեն
 scn = Սիցիլիերեն
+shi = Շիլհա
 si = Սինհալի
 sk = Սլովակերեն
 sl = Սլովեներեն
@@ -729,6 +732,11 @@ easy-difficulty = Հեշտ
 average-difficulty = Միջինը
 difficult-difficulty = Դժվար
 pro-difficulty = Pro
+help-reach-hours-general-pluralized =
+    Օգնեցեք Common Voice հասնել { NUMBER($hours) ->
+        [one] ժամ
+       *[other] Ժամեր
+    }անձնական նպատակով
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] Ժամ
