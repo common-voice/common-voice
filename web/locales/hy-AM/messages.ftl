@@ -634,6 +634,7 @@ other-language = Այլ լեզու
 
 language-section-in-progress = Նախապատրաստման փուլում
 language-section-launched = Հասանելի
+language-section-launched-description = Գործարկված այս լեզուների համար կայքը հաջողությամբ <localizationGlossaryLink> տեղայնացված </ localizationGlossaryLink> ունի և ունի բավարար քանակությամբ <sentenceCollectionGlossaryLink> նախադասություններ հավաքված </ sentenceCollectionGlossaryLink> ՝ շարունակելու համար <speakLink> Խոսել </speakLink> և <listenLink> Լսել </ listenLink > մասնակցումներուն
 languages-show-more = Տես ավելին
 languages-show-less = Պակաս մանրամասներ տեսնել
 language-meter-in-progress = Առաջընթաց
@@ -658,6 +659,8 @@ clips-with-count-pluralized =
         [one] Ձայնագրութույն
        *[other] Ձայնագրութույններ
     }
+goal-help-recording = Դուք օգնեցիք Common Voice- ին հասնել <goalPercentage> </goalPercentage> մեր ամենօրյա { $goalValue } ձայնագրման նպատակի:
+goal-help-validation = Դուք օգնեցիք, որ Common Voice- ը հասնի <goalPercentage> </goalPercentage> մեր ամենօրյա { $goalValue } վավերացման նպատակի:
 contribute-more =
     { $count ->
         [one] Պատրա՞ստ եք
@@ -711,6 +714,7 @@ days =
 ## Dashboard
 
 your-languages = Ձեր լեզուները
+goal-reached = Նպատակը հասավ
 clips-you-recorded = Ձայնագրություններ դուք էք արված
 clips-you-validated = Ձայնագրություններ դուք էք վավերացված
 todays-recorded-progress = Այսորվան Common Voice առաջընթաց ձայնագրութույններ է արված
@@ -735,6 +739,11 @@ pro-difficulty = Pro
 want-to-continue = Կուզե՞ք շարունակել:
 finish-editing = Նախ ավարտո՞ւմ եք խմբագրումը:
 build-custom-goal = Կառուցեք պատվերով նպատակ
+help-reach-hours-pluralized =
+    Օգնեցեք հասնել{ NUMBER($hours) ->
+        [one] ժամ
+       *[other] ժամեր
+    }{ $language } հատուկ նպատակով
 help-reach-hours-general-pluralized =
     Օգնեցեք Common Voice հասնել { NUMBER($hours) ->
         [one] ժամ
