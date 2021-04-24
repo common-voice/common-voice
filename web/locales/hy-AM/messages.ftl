@@ -65,6 +65,7 @@ fr = Ֆրանսերեն
 fy-NL = Ֆրիզերեն
 ga-IE = Իռլանդերեն
 gl = Գալիսերեն
+gn = Գուարանի
 ha = Հաուսա
 he = Եբրայերեն
 hi = Հինդի
@@ -114,7 +115,9 @@ nn-NO = Նոր նորվեգերեն
 oc = Ակվիտաներեն
 or = Օրիյա
 pa-IN = Փենջաբի
+pap-AW = Պապիամենտա (Արուբա)
 pl = Լեհերեն
+ps = Պաշտո
 pt = Պորտուգալերեն
 rm-sursilv = Ռետոռոմաներեն, Սուրսիլվանիայի
 rm-vallader = Ռետոռոմաներեն, Վալլադերի
@@ -142,6 +145,7 @@ tr = Թուրքերեն
 tt = Թաթարերեն
 uby = Ուբիխերեն
 udm = Ուդմուրտերեն
+ug = Ույղուրերեն
 uk = Ուկրաիներեն
 ur = Ուրդու
 uz = Ուզբեկերեն
@@ -556,6 +560,7 @@ validated-hr-total = Ստուգված ժամ
 overall-hr-total = Ընդամենը ժամ
 cv-license = Արտոնագիր
 audio-format = Ձայնագրության ձևաչափ
+number-of-voices = Ընթերցողների թիվը
 splits = Կազմը
 email-to-download = Ներբեռնելու համար նշեք էլ․ հասցեն
 why-email = <b>Ինչի՞ ենք էլ․ փոստի հասցե ուզում</b>։ Հետագայում տվյալակազմում փոփոխությունների դեպքում մենք կկարողանանք կապվել ձեր հետ։
@@ -576,7 +581,16 @@ subscribe = Բաժանորդագրվել
 get-started-speech = Խոսքի ճանաչման առաջին քայլեր
 other-datasets = Այլ ձայնային տվյալակազմեր
 feedback-q = Արձագանքել
+deepspeech-info = Common Voice-ի տվյալների շտեմարանն ամբողջացնում է Mozilla-ի ձայնի ճանաչման Deep Speech բաց կոդով շարժիչը, որը կարող եք օգտագործել խոսքի ճանաչման ծրագրային հավելվածներ ստեղծելու համար։ Կարդացեք մեր <githubLink>Github-ի ակնարկը</githubLink> կամ միացեք <discourseLink>DeepSpeech-ի քննարկումներին</discourseLink>՝ իմանալու համար, թե ինչպես սկսել։
+common-voice-info-new = Հարցեր ունեք Common Voice-ի վերաբերյալ, որևէ լեզվի առնչվող առաջարկ կամ կարծի՞ք։ Միացեք մեզ մեր <discourseLink>Discourse ֆորումում</discourseLink> և գրեք այդ մասին։
+data-other-librispeech-description = LibriSpeech-ը մոտ 1000 ժամ տևողությամբ անգլերեն տեքստերի կորպուս է (ձայնագրված 16 կՀց հաճախությամբ), որը վերցված է LibriVox նախագծի աուդիոգրքերից։
 data-other-ted-name = TED-LIUM կորպուս
+data-other-ted-description = TED-LIUM ընկերությունը կազմվել է աուդիո խոսակցություններից և դրանց արտագրումներից, որոնք հասանելի են TED կայքում:
+data-other-voxforge-description = VoxForge- ը ստեղծվել է ՝ արտատպված ելույթը հավաքելու համար ՝ Ազատ և բաց կոդով խոսքի ճանաչման շարժիչների օգտագործման համար:
+data-other-tatoeba-description = Tatoeba- ն նախադասությունների, թարգմանությունների և խոսակցական աուդիոյի մեծ շտեմարան է `լեզվի ուսուցման մեջ օգտագործելու համար: Այս ներբեռնումը պարունակում է խոսակցական անգլերեն ՝ ձայնագրված իրենց համայնքի կողմից:
+your-feedback = Դուք գաղափարներ ունեք այն մասին, թե ինչպես կարող ենք ավելի լավ դարձնել Common Voice տվյալների շտեմարանը: Տեղեկացրեք մեզ Դիսկուրսում
+go-discourse = Գնացեք դիսկուրս
+missing-language = Չե՞ք տեսնում ձեր լեզուն արտացոլված Տվյալների շտեմարանում: Լեզուն հայցելու համար դիմել մեր Լեզուների էջին:
 go-languages-page = Անցնել «Լեզուներ» էջ
 ready-to-validate = Օգնե՛ք մեզ ստուգել ձայնագրվածը
 more = Ավելին
@@ -587,6 +601,7 @@ dataset-version = Տարբերակ
 ## Download Modal
 
 download-title = Ձեր ներբեռնումը մեկնարկել է:
+download-helpus = Օգնեք մեզ համայնք կառուցել ձայնային տեխնոլոգիայի շուրջ, կապվել էլեկտրոնային փոստի միջոցով:
 download-form-email =
     .label = Նշեք ձեր էլ․ հասցեն
     .value = Շատ լավ։ Կապի մեջ կլինենք։
@@ -607,6 +622,7 @@ request-language-title = Լեզու հավելելու հարցում
 request-language-form-language =
     .label = Լեզու
 request-language-success-title = Լեզու հավելելու հարցումը հաջողությամբ ուղարկվեց, շնորհակալություն։
+request-language-success-content = Մենք կապվելու ենք տեղեկատվությանով, թե ինչպես ձեր լեզուն ավելացնել Common Voice-ին մեջ:
 select-language = Ընտրել լեզու...
 other-language = Այլ լեզու
 
@@ -616,14 +632,20 @@ language-section-in-progress = Նախապատրաստման փուլում
 language-section-launched = Հասանելի
 languages-show-more = Տես ավելին
 languages-show-less = Պակաս մանրամասներ տեսնել
+language-meter-in-progress = Առաջընթաց
+language-total-progress = Ընդամենը
 language-search-input =
     .placeholder = Որոնում
+language-speakers = Խոսողներ
 localized = Տեղայնացված
 sentences = Նախադասություն
+total-hours = Վավերացված ժամեր
 
 ## Contribution
 
+action-click = Սեղմել
 action-tap = Հպել
+contribute = Մասնակցել
 listen = Լսել
 skip = Բաց թողնել
 shortcuts = Դյուրանցումներ
@@ -632,7 +654,14 @@ clips-with-count-pluralized =
         [one] Ձայնագրութույն
        *[other] Ձայնագրութույններ
     }
+contribute-more =
+    { $count ->
+        [one] Պատրա՞ստ եք
+       *[other] ավելի անել:
+    }
 record-cta = Սկսել ձայնագրությունը
+record-cancel = Չեղարկել կրկին ձայնագրել նախադասությունը
+record-three-more-instruction = Երեք հատ մնացա՛վ։
 record-again-instruction = Հոյակա՛պ է<recordIcon></recordIcon> Ձայնագրենք հաջորդ նախադասությունը
 record-again-instruction2 = Այո՛։ Ձայնագրենք հաջորդը <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Վերջի՜նը։
