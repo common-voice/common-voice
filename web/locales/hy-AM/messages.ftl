@@ -779,8 +779,10 @@ easy-difficulty = Հեշտ
 average-difficulty = Միջինը
 difficult-difficulty = Դժվար
 pro-difficulty = Pro
+lose-goal-progress-warning = Խմբագրելով ձեր նպատակը՝ դուք կարող եք կորցնել ձեր առաջընթացը:
 want-to-continue = Կուզե՞ք շարունակել:
 finish-editing = Նախ ավարտո՞ւմ եք խմբագրումը:
+lose-changes-warning = Հեռանալը նշանակում է, որ կկորցնեք ձեր փոփոխությունները
 build-custom-goal = Կառուցեք պատվերով նպատակ
 help-reach-hours-pluralized =
     Օգնեցեք հասնել{ NUMBER($hours) ->
