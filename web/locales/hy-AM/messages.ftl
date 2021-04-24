@@ -663,6 +663,8 @@ days =
 ## Dashboard
 
 your-languages = Ձեր լեզուները
+clips-you-recorded = Ձայնագրություններ դուք էք արված
+clips-you-validated = Ձայնագրություններ դուք էք վավերացված
 awards = Պարգևներ
 you = Դուք
 everyone = Բոլորը
