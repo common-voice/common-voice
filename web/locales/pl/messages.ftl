@@ -355,27 +355,19 @@ skip-submission-description = Informacje zwrotne będą pomijane po kliknięciu 
 skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a słuchaniem, aby zmienić rodzaj pracy.
 off = Wyłączone
 on = Włączone
-avatar-clip-title = Dodaj głos do swojego awatara
-change-your-avatar-clip = Chcesz zmienić swoje nagranie?
-recording-in-progress = Trwa nagrywanie
-avatar-clip-recorded = Twój awatar ma teraz głos!
-record-voice-wave = Utwórz nagranie powitalne
-retry-voice-wave-recording = Ponów
-re-record = Nagraj ponownie
-delete-voice = Usuń
-recording-voice-wave = Nagrywanie
-delete-voice-clip = lub usuń nagranie
-ready-to-upload = Wyślij
-avatar-clip-fact = Od dawna wiadomo, że czytelnik będzie rozproszony tekstem strony, patrząc na jej układ.
-recreate-voice = Ponownie utwórz nagranie powitalne
-cancel-avatar-clip-recording = Anuluj
-about-avatar-clip-recording = Utwórz nagranie jako część swojego awatara. Inni będą mogli go najechać i je odsłuchać.
+
+## Profile - Email
+
 browse-file-title = Wyślij plik obrazu
 browse-file = Przeciągnij tutaj lub <browseWrap>przeglądaj</browseWrap>
 connect-gravatar = Połącz z serwisem Gravatar
 gravatar_not_found = Nie odnaleziono awatara Gravatar dla tego adresu e-mail
 file_too_large = Wybrany plik jest za duży
 avatar-uploaded = Wysłano awatar
+max-file-size = Maksymalnie { $kb } KB
+
+## Profile - Email
+
 manage-subscriptions = Zarządzaj subskrypcjami
 manage-email-subscriptions = Zarządzaj subskrypcjami wiadomości
 email-already-used = Adres e-mail jest już używany przez inne konto
