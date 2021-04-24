@@ -665,12 +665,28 @@ your-languages = Ձեր լեզուները
 awards = Պարգևներ
 you = Դուք
 everyone = Բոլորը
+recorded-clips = Արված Ձայնագրութույններ
+validated-clips = Վավերացված Ձայնագրութույններ
 
 ## Custom Goals
 
 average-difficulty = Միջինը
 difficult-difficulty = Դժվար
 pro-difficulty = Pro
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] Ժամ
+       *[other] Ժամեր
+    }կատարելի է ընդամենը { NUMBER($periodMonths) ->
+        [one] ամիս
+       *[other] ամիսներ
+    }եթե{ NUMBER($people) ->
+        [one] անձ
+       *[other] անձեր
+    }ձայնագրէ{ NUMBER($clipsPerDay) ->
+        [one] ձայնագրութույն
+       *[other] ձայնագրութույններ
+    }ամեն օր
 how-many-per-day = Հոյակա՛պ է։ Օրեկան քանի՞ ձայնագրություն։
 how-many-a-week = Հոյակա՛պ է։ Շաբաթական քանի՞ ձայնագրություն։
 
