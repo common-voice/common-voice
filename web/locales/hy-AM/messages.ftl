@@ -605,6 +605,7 @@ download-helpus = Օգնեք մեզ համայնք կառուցել ձայնայ
 download-form-email =
     .label = Նշեք ձեր էլ․ հասցեն
     .value = Շատ լավ։ Կապի մեջ կլինենք։
+download-back = Վերադառնալ Common Voice
 download-no = Ոչ, շնորհակալություն
 
 ## Contact Modal
@@ -660,7 +661,15 @@ contribute-more =
        *[other] ավելի անել:
     }
 record-cta = Սկսել ձայնագրությունը
+record-platform-not-supported = Կը ներեք, ձեր պլատֆորմը սովորաբար չի աջակցվում:
+record-must-allow-microphone = Դուք պետք է ընդունեք մուտքի խոսափողը:
+record-no-mic-found = Խոսափող չի գտնվել
+record-error-too-short = Ձայնագրությունը չափազանց կարճ էր:
+record-error-too-long = Ձայնագրությունը չափազանց երկար տեվեց:
+record-error-too-quiet = Ձայնագրությունը չափազանց ցածրաձայն էր:
 record-cancel = Չեղարկել կրկին ձայնագրել նախադասությունը
+record-instruction = { $actionType }<recordIcon></recordIcon> ապա բարձրաձայն կարդացեք նախադասությունը
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> երբ ավարտեք
 record-three-more-instruction = Երեք հատ մնացա՛վ։
 record-again-instruction = Հոյակա՛պ է<recordIcon></recordIcon> Ձայնագրենք հաջորդ նախադասությունը
 record-again-instruction2 = Այո՛։ Ձայնագրենք հաջորդը <recordIcon></recordIcon>
