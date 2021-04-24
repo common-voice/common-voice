@@ -643,6 +643,7 @@ record-abort-delete = Ելք և ջնջեք ձայնագրութույնները
 listen-empty-state = Այս լեզվով՝ ձայնագրությունները  լմննցան վավերացվելու համար…
 speak-empty-state = Այս լեզվով ձայնագրմանը պատրաստ նախադասությունները վերջացել են…
 speak-empty-state-cta = Նոր նախադասություն ավելացնել
+share-title-new = <bold>Օգնեք մեզ</bold> գտնել ձայնի այլ նվիրատուներին
 target-segment-learn-more = Իմանալ ավելին
 
 ## Reporting
@@ -675,6 +676,11 @@ validated-clips = Վավերացված Ձայնագրութույններ
 
 ## Custom Goals
 
+both-speak-and-listen = Երկուսն էլ
+both-speak-and-listen-long = Երկուսն էլ (խոսել եւ լսել)
+daily-goal = Ամենօրյա Նպատակ
+weekly-goal = Շաբաթական Նպատակ
+easy-difficulty = Հեշտ
 average-difficulty = Միջինը
 difficult-difficulty = Դժվար
 pro-difficulty = Pro
@@ -694,6 +700,7 @@ activity-needed-calculation-plural =
     }ամեն օր
 how-many-per-day = Հոյակա՛պ է։ Օրեկան քանի՞ ձայնագրություն։
 how-many-a-week = Հոյակա՛պ է։ Շաբաթական քանի՞ ձայնագրություն։
+help-share-goal = Օգնեք մեզ գտնել ձայնի այլ նվիրատուներին, Կիսվեք ձեր նպատակները
 
 ## Profile Delete
 
