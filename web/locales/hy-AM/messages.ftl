@@ -650,6 +650,7 @@ target-segment-learn-more = Իմանալ ավելին
 
 report = Զեկույց
 report-title = Ուղարկել զեկույց
+report-offensive-speech-detail = Ձայնագրութույնը վիրավորական բառեր ունի։
 report-other-comment =
     .placeholder = Մեկնաբանություն
 success = Հաջող էր
@@ -676,6 +677,7 @@ validated-clips = Վավերացված Ձայնագրութույններ
 
 ## Custom Goals
 
+goal-type = Ի՚նչ տեսակ նպատակ ուզում էք կազմել։
 both-speak-and-listen = Երկուսն էլ
 both-speak-and-listen-long = Երկուսն էլ (խոսել եւ լսել)
 daily-goal = Ամենօրյա Նպատակ
@@ -700,7 +702,16 @@ activity-needed-calculation-plural =
     }ամեն օր
 how-many-per-day = Հոյակա՛պ է։ Օրեկան քանի՞ ձայնագրություն։
 how-many-a-week = Հոյակա՛պ է։ Շաբաթական քանի՞ ձայնագրություն։
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] ձայնագրութույն
+       *[other] ձայնագրութույններ
+    }
 help-share-goal = Օգնեք մեզ գտնել ձայնի այլ նվիրատուներին, Կիսվեք ձեր նպատակները
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Կիսվեցեք ձեր { $count } Ամենորյա Ձայնագրելու Նպատակ { $type } համար
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Կիսվեցեք ձեր { $count } Շաբաթական Ձայնագրելու Նպատակ { $type }-ին համար
 
 ## Profile Delete
 
