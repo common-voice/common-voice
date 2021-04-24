@@ -732,11 +732,16 @@ easy-difficulty = Հեշտ
 average-difficulty = Միջինը
 difficult-difficulty = Դժվար
 pro-difficulty = Pro
+want-to-continue = Կուզե՞ք շարունակել:
+finish-editing = Նախ ավարտո՞ւմ եք խմբագրումը:
+build-custom-goal = Կառուցեք պատվերով նպատակ
 help-reach-hours-general-pluralized =
     Օգնեցեք Common Voice հասնել { NUMBER($hours) ->
         [one] ժամ
        *[other] Ժամեր
     }անձնական նպատակով
+set-a-goal = Նպատակ դնել
+cant-decide = Չե՞ք կարող որոշել։
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] Ժամ
@@ -753,16 +758,24 @@ activity-needed-calculation-plural =
     }ամեն օր
 how-many-per-day = Հոյակա՛պ է։ Օրեկան քանի՞ ձայնագրություն։
 how-many-a-week = Հոյակա՛պ է։ Շաբաթական քանի՞ ձայնագրություն։
+which-goal-type = Ուզու՞մ եք խոսել, լսել կամ երկուսն էլ:
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] ձայնագրութույն
        *[other] ձայնագրութույններ
     }
 help-share-goal = Օգնեք մեզ գտնել ձայնի այլ նվիրատուներին, Կիսվեք ձեր նպատակները
+confirm-goal = Հաստատեք Նպատակը
+goal-interval-weekly = Շաբաթական
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Կիսվեցեք ձեր { $count } Ամենորյա Ձայնագրելու Նպատակ { $type } համար
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Կիսվեցեք ձեր { $count } Շաբաթական Ձայնագրելու Նպատակ { $type }-ին համար
+share-goal-type-speak = Խոսել
+share-goal-type-listen = Լսել
+share-goal-type-both = Խոսել և լսել
+weekly-goal-created = Ձեր շաբաթական նպատակը ստեղծվել է
+daily-goal-created = Ձեր ամենօրյա նպատակը ստեղծվել է
 share-goal = Կիսվեք իմ նպատակը
 
 ## Profile Delete
