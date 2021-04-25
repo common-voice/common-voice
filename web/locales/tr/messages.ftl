@@ -360,6 +360,7 @@ connect-gravatar = Gravatar ile bağlan
 gravatar_not_found = E-postanıza ait gravatar bulunamadı
 file_too_large = Seçilen dosya çok büyük
 avatar-uploaded = Avatar yüklendi
+max-file-size = en fazla { $kb } kb
 
 ## Profile - Email
 
