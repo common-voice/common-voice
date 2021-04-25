@@ -347,27 +347,19 @@ skip-submission-description = Trong khi đóng góp, phản hồi của bài g�
 skip-submission-note = Lưu ý: Bạn vẫn cần chọn giữa Nói hoặc Nghe để thay đổi hình thức đóng góp.
 off = Tắt
 on = Bật
-avatar-clip-title = Hãy nói lên avatar của bạn
-change-your-avatar-clip = Bạn muốn thay đổi clip giọng nói của bạn?
-recording-in-progress = Đang ghi âm giọng nói
-avatar-clip-recorded = Ảnh đại diện của bạn bây giờ bao gồm một clip giọng nói!
-record-voice-wave = Ghi VOICEWAVE
-retry-voice-wave-recording = THỬ LẠI
-re-record = GHI ÂM LẠI
-delete-voice = XÓA
-recording-voice-wave = Đang ghi
-delete-voice-clip = hoặc  Xóa clip thoại
-ready-to-upload = Tải lên
-avatar-clip-fact = Một thực tế lâu nay là người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó.
-recreate-voice = Tái tạo Voicewave
-cancel-avatar-clip-recording = Hủy bỏ
-about-avatar-clip-recording = Tạo một clip bằng giọng nói như một phần của hình đại diện hồ sơ của bạn. Những người khác sẽ có thể di chuột và nghe clip của bạn.
+
+## Profile - Email
+
 browse-file-title = Tải lên hình ảnh
 browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
 connect-gravatar = Kết nối với Gravatar
 gravatar_not_found = Không tìm thấy gravatar cho email của bạn
 file_too_large = Tập tin đã chọn quá lớn
 avatar-uploaded = Đã tải lên hình đại diện
+max-file-size = Tối đa { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Quản lý các mục đăng kí
 manage-email-subscriptions = Quản lý đăng ký bản tin email
 email-already-used = Email đã được sử dụng cho tài khoản khác
