@@ -4,6 +4,8 @@ services:
     image: mysql:5.7.28
     networks:
       - voice-web
+    ports: 
+      - 3306:3306
     container_name: db
     restart: unless-stopped
     environment:
@@ -12,13 +14,13 @@ services:
       - MYSQL_PASSWORD=voicecommons
       - MYSQL_ROOT_PASSWORD=voicewebroot
     command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
-  s3proxy:
-    image: andrewgaul/s3proxy
-    container_name: s3proxy
-    networks:
-      - voice-web
-    environment:
-      - S3PROXY_AUTHORIZATION=none
+  # s3proxy:
+  #   image: andrewgaul/s3proxy
+  #   container_name: s3proxy
+  #   networks:
+  #     - voice-web
+  #   environment:
+  #     - S3PROXY_AUTHORIZATION=none
   web:
     build:
       context: .
