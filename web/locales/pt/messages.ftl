@@ -265,6 +265,7 @@ shortcut-record-toggle-label = Gravar/Parar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regravar clipe
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
+request-language-text-learn = Veja como fazer a solicitação aqui!
 request-language-button = Solicite um idioma
 
 ## ProjectStatus
@@ -333,26 +334,19 @@ skip-submission-description = Durante o envio de uma contribuição, o retorno s
 skip-submission-note = Nota: você ainda precisará escolher entre Falar ou Ouvir para alterar o tipo de contribuição.
 off = Desligar
 on = Ligar
-avatar-clip-title = Dê uma voz ao seu avatar
-change-your-avatar-clip = Deseja mudar seu clipe de voz?
-recording-in-progress = Gravação de voz em andamento
-avatar-clip-recorded = Seu avatar agora inclui um clipe de voz!
-record-voice-wave = GRAVE SUA VOZ
-retry-voice-wave-recording = TENTAR NOVAMENTE
-re-record = REGRAVAR
-delete-voice = EXCLUIR
-recording-voice-wave = Gravando
-delete-voice-clip = ou Excluir clipe de voz
-ready-to-upload = Enviar
-avatar-clip-fact = É um fato há muito estabelecido que um leitor se distrai com o conteúdo legível de uma página ao olhar seu layout.
-recreate-voice = Recriar sua voz
-cancel-avatar-clip-recording = CANCELAR
-about-avatar-clip-recording = Crie um clipe de voz associado ao avatar do seu perfil. Outras pessoas poderão passar o mouse sobre ele e ouvir seu clipe.
+
+## Profile - Email
+
 browse-file-title = Enviar um arquivo de imagem
 browse-file = Arraste e solte, ou <browseWrap>selecione</browseWrap>
 connect-gravatar = Conectar com Gravatar
 gravatar_not_found = Não foi encontrado um Gravatar para seu email
 file_too_large = O arquivo selecionado é grande demais
+avatar-uploaded = Avatar enviado
+max-file-size = Máximo { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Gerenciar inscrições
 manage-email-subscriptions = Gerenciar inscrições de e-mails
 email-already-used = Este e-mail já está sendo usado em uma conta diferente
