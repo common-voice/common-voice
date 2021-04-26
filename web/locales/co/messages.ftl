@@ -490,12 +490,15 @@ clips-uploaded = Campioni caricati
 record-abort-title = Compie d'arrighjistrà primu ?
 record-abort-continue = Compie l'arrighjistramentu
 listen-last-time-instruction = <playIcon></playIcon>L'ultimu !
+listen-empty-state = Ùn avemu più campioni dà cunvalidà in issa lingua...
+speak-empty-state = Ùn avemu più infrasate à arrighjistrà in issa lingua...
 record-button-label = Arrighjistrà a vostra voce
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
 
 ## Reporting
 
+report-offensive-language = Parlà inghjuriosu
 
 ## Goals
 
