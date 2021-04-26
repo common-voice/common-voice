@@ -351,27 +351,19 @@ skip-submission-description = I løpet av bidragsinnsening vil tilbakemelding bl
 skip-submission-note = Merk: Du må framleis velje mellom Tal eller Lytt for å endre bidragstype.
 off = Av
 on = På
-avatar-clip-title = Gje avataren din ei stemme
-change-your-avatar-clip = Ønskjer du å endre lydklippet ditt?
-recording-in-progress = Lydopptak i gang
-avatar-clip-recorded = Avataren din har no eit lydklipp!
-record-voice-wave = SPEL INN STEMME
-retry-voice-wave-recording = PRØV IGJEN
-re-record = SPEL INN PÅ NYTT
-delete-voice = SLETT
-recording-voice-wave = Innspeling
-delete-voice-clip = eller Slett stemmeklipp
-ready-to-upload = Last opp
-avatar-clip-fact = Det er eit etablert faktum at ein lesar vil bli distrahert av sideinnhaldet når vedkomande studerer oppsettet til sida.
-recreate-voice = Bygg oppatt Lydklipp
-cancel-avatar-clip-recording = Avbryt
-about-avatar-clip-recording = Lag eit lydklipp som del av profilavataren din. Andre kan halde musa over avataren og høyre på lydklippet ditt.
+
+## Profile - Email
+
 browse-file-title = Last opp ei bildefil
 browse-file = Dra og slepp, eller <browseWrap>bla</browseWrap>
 connect-gravatar = Kople til med Gravatar
 gravatar_not_found = Fann ingen gravatar for e-postadressa di
 file_too_large = Den valde fila er for stor
 avatar-uploaded = Avatar lasta opp
+max-file-size = maks { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = Handter abonnement
 manage-email-subscriptions = Handter e-postabonnement
 email-already-used = E-postadressa vert allereie brukt med ein annan konto
