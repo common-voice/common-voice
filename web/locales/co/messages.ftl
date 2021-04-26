@@ -278,6 +278,7 @@ browse-file = Trascineti è linteti o <browseWrap>Navigheti</browseWrap>
 connect-gravatar = Cunnettatevi cù Gravatar
 gravatar_not_found = Ùn avemu trovu di prufilu Gravatar cù u vostru indirizzu elettronicu
 file_too_large = U ducumentu sceltu hè troppu maiò
+avatar-uploaded = Avatar caricatu
 
 ## Profile - Email
 
@@ -325,6 +326,7 @@ faq-why-not-ask-read-a = Pà assicurassi chì a banca di dati di Common Voice si
 faq-why-account-q = Parchì duvaria creami un contu ?
 faq-is-account-public-q = Sò publiche l'infurmazioni di u mio contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
+faq-how-privacy-a = Tutti l’infurmazione chì permettani l’identificazione da e parsone sò sguassati di i campioni vucale. Quandu un cuntributore furnisce dati demugrafiche trà u so prufile, st’infurmazione hè anonimizzata da i so campioni vucale nanzu à esse impacchettata in a banca di dati è ùn maì pubblicata annantu à a so paghjina di prufile.
 faq-what-determine-identity-q = Chì vole dì chì ùn possu « diterminà l’identità » di i locutori in a banca di dati Common Voice ?
 faq-what-is-cv = Chì hè Common Voice ?
 faq-using-cv = Adopru di Common Voice
@@ -335,6 +337,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Parchì Common Voice ?
+about-subtitle = Common Voice hè una parte di l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone. In più di a banca di dati Common Voice, custruimu ancu un mutore cù e fonte aperte di ricunniscenza vucale chjamatu Deep Speech.
 how-does-it-work-title = Comu funziona ?
 about-speak = Parlà
 about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da una banca di frasi dunati da a cumunità.
@@ -377,6 +380,7 @@ glossary = Glussariu
 localization = Lucalizazione
 localization-explanation = Questu hè u nostru prucessu pà traduce è adattà u nostru cuntinutu à mori di lingue.
 sentence-collection = Racolta d'infrasate
+hours-recorded-explanation = U contu di l'ori arrighjistrati sin'à avà.
 sst = Discorsu-à-u-testu (Speech-to-text, STT)
 
 ## Error pages
