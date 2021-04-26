@@ -499,6 +499,8 @@ target-segment-learn-more = Sapene di più
 ## Reporting
 
 report-offensive-language = Parlà inghjuriosu
+report-difficult-pronounce = Difficiule à prununcià
+report-offensive-speech = Discorsu inghjuriosu
 
 ## Goals
 
