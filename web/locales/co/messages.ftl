@@ -501,6 +501,8 @@ target-segment-learn-more = Sapene di più
 report-offensive-language = Parlà inghjuriosu
 report-difficult-pronounce = Difficiule à prununcià
 report-offensive-speech = Discorsu inghjuriosu
+success = Successu
+continue = Cuntinuate
 
 ## Goals
 
