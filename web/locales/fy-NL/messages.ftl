@@ -361,27 +361,19 @@ skip-submission-description = Wylst it bydragen wurdt kommentaar oer ynstjoering
 skip-submission-note = Noat: jo moatte noch hieltyd in kar tusken Sprekke en Harkje meitsje om it type bydragen te wizigjen.
 off = Ut
 on = Oan
-avatar-clip-title = Jou jo avatar in stim
-change-your-avatar-clip = Wolle jo jo spraakfragmint wizigje?
-recording-in-progress = Spraak wurdt opnommen
-avatar-clip-recorded = Jo avatar befettet no in spraakfragmint!
-record-voice-wave = VOICEWAVE OPNIMME
-retry-voice-wave-recording = OPNIJ
-re-record = OPNIJ OPNIMME
-delete-voice = FUORTSMITE
-recording-voice-wave = Opname rint
-delete-voice-clip = of Spraakfragmint fuortsmite
-ready-to-upload = Oplade
-avatar-clip-fact = It is in bekend feit dat wannear in lêzer nei de lay-out sjocht, hy of sy troch de lêsbere ynhâld fan in side ôflaad wurdt.
-recreate-voice = Voicewave opnij meitsje
-cancel-avatar-clip-recording = Annulearje
-about-avatar-clip-recording = Meitsje in spraakfragmint as ûnderdiel fan jo profylavatar. Oaren kinne jo fragmint oanwize en dernei harkje.
+
+## Profile - Email
+
 browse-file-title = In ôfbyldingsbestân oplade
 browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
 connect-gravatar = Mei Gravatar ferbine
 gravatar_not_found = Ggjin gravatar foar jo e-mailadres fûn
 file_too_large = It selektearre bestân is te grut
 avatar-uploaded = Avatar opladen
+max-file-size = maks. { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Abonneminten beheare
 manage-email-subscriptions = E-mailabonneminten beheare
 email-already-used = E-mailadres wurdt al foar in oar account brûkt
