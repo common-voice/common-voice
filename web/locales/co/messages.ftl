@@ -436,11 +436,13 @@ dataset-version = Versione
 
 ## Download Modal
 
+download-title = U vostru caricamentu hà cumminciatu
 download-helpus = Aiutateci à custruisce una cumunità intornu à a tecnulugia vucale, state in cuntattu via email.
 download-no = Innò, vi ringraziu
 
 ## Contact Modal
 
+contact-title = Furmulariu di cuntattu
 contact-form-name =
     .label = Nome
 contact-form-message =
@@ -453,10 +455,14 @@ request-language-title = Richiesta di lingua
 request-language-form-language =
     .label = Lingua
 request-language-success-title = A dumanda di lingua hè stata fatta, a ringraziavi.
+request-language-success-content = Dà quì à pocu, vi daremu l'infurmazioni pà aghjustà a vostra lingua à nant'à Common Voice.
+select-language = Sciglite una lingua...
 other-language = Altra lingua
 
 ## Languages Overview
 
+language-section-in-progress = In prugressu
+language-section-launched = Cumminciatu
 languages-show-more = Vede di più
 languages-show-less = Vede menu
 language-meter-in-progress = In corsu
@@ -464,6 +470,7 @@ language-total-progress = Tutale
 language-search-input =
     .placeholder = Ricercà
 language-speakers = Locutori
+localized = Lucalizatu
 sentences = Infrasate
 total-hours = Ore cunvalidate
 
