@@ -515,7 +515,14 @@ days =
 ## Dashboard
 
 your-languages = E vostre lingue
+toward-next-goal = Versu u prussimu scopu
+goal-reached = Scopu realizatu
+clips-you-recorded = Campioni chè voi avete arrighjistrati
+clips-you-validated = Campioni chè voi avete cunvalidati
+stats = Statistiche
 you = Tù
+recorded-clips = Campioni arrighjistrati
+validated-clips = Campioni cunvalidati
 
 ## Custom Goals
 
