@@ -476,13 +476,19 @@ total-hours = Ore cunvalidate
 
 ## Contribution
 
+skip = Scappà
 shortcuts = Scurtatoghji
 record-cta = Cummincià l'arrighjistramentu
 record-must-allow-microphone = Ci vole à auturizà l'accessu à u microfonu.
+record-no-mic-found = Nissunu microfonu trovu.
 record-error-too-short = L'arrighjistramentu era troppu chjucu.
 record-error-too-long = L'arrighjistramentu era troppu longu.
 record-error-too-quiet = L'arrighjistramentu era troppu silenziosu.
+share-clip = Sparte u vostru campionu
 share-common-voice = Sparte Common Voice
+clips-uploaded = Campioni caricati
+record-abort-title = Compie d'arrighjistrà primu ?
+record-abort-continue = Compie l'arrighjistramentu
 listen-last-time-instruction = <playIcon></playIcon>L'ultimu !
 record-button-label = Arrighjistrà a vostra voce
 target-segment-add-voice = Aghjustà a vostra voce
