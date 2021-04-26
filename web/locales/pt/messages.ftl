@@ -838,6 +838,10 @@ demo-welcome-subheader = Interessado em aprender mais e contribuir com o projeto
 
 ## Demo Datasets
 
+card-button-next = Avançar
+card-button-back = Voltar
+demo-eofy-header = Lançamento de final de ano de 2019
+demo-eofy-sub_header = Conjunto de dados de voz, pronto para baixar
 demo-account = Conta
 
 ## Demo Account
