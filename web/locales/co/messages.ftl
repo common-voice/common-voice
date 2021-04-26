@@ -411,6 +411,7 @@ language = Lingua
 # File size in gigabytes
 size = Dimensione
 cv-license = Licenza
+confirm-no-identify = <b>Voi accitteti</b> d’ùn pruvà micca à identificà è voce in a banca di dati Common Voice.
 download-language = Scaricà { $language }
 validated-hours = Ore Cunvalidate
 recorded-hours = Ore Arrighjistrate
