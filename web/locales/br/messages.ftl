@@ -352,26 +352,19 @@ skip-submission-description = Tremenet e vo ar gasadenn evezhiadennoù ur wech k
 skip-submission-note = Evezhiadenn: Ezhomm ho po da ziuzañ c’hoazh etre Komz pe selaou evit cheñch ho toare kendeurel.
 off = Diweredekaet
 on = Gweredekaet
-avatar-clip-title = Roit ur vouezh d’ho avatar
-change-your-avatar-clip = Fellout a ra deoc’h cheñch ho klip mouezh?
-recording-in-progress = Oc’h enrollañ ar vouezh
-avatar-clip-recorded = Ur c’hlip mouezh a zo war hoc’h avatar bremañ!
-record-voice-wave = ENROLLAÑ HO KINNIG
-retry-voice-wave-recording = ADKLASK
-re-record = AD-ENROLLAÑ
-delete-voice = DILEMEL
-recording-voice-wave = Oc’h enrollañ...
-delete-voice-clip = pe  Dilemel an enrolladenn
-ready-to-upload = Pellgas
-avatar-clip-fact = Gouzout a raer mat e vezer trubuilhet gant elfennoù ur bajenn pa glasker lenn ur pennad.
-recreate-voice = Adkrouiñ ho kinnig
-cancel-avatar-clip-recording = Nullañ
-about-avatar-clip-recording = Krouit un enrolladenn vouezh evit ul lodenn eus hoc’h avatar. Gouest e vo an dud all da zreistnijal evit selaou ho klip.
+
+## Profile - Email
+
 browse-file-title = Pellgasit ur restr skeudenn
 browse-file = Riklañ-leuskel pe <browseWrap>verdeit</browseWrap>
 connect-gravatar = Kevreañ gant Gravatar
 gravatar_not_found = Gravatar ebet kavet evit ho postel
 file_too_large = Re vras eo ar restr diuzet
+avatar-uploaded = Avatar ezkarget
+max-file-size = { $kb }kb max
+
+## Profile - Email
+
 manage-subscriptions = Merañ ar c’houmanantoù
 manage-email-subscriptions = Merañ ar c’houmanantoù postel
 email-already-used = Ar postel a zo implijet evit ur gont all endeo
