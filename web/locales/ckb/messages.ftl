@@ -96,6 +96,7 @@ lg = لوگاندا
 lij = لیگوریی
 lt = لیتوانی
 lv = لاتیڤی
+mai = مایسیلی
 mdf = مۆکشا
 mg = مالاگاسی
 mhr = میادۆ ماری
@@ -346,26 +347,17 @@ skip-submission-description = لە کاتی بەشداریکردن بەشی پێ
 skip-submission-note = ئاگاداری: پێویستە لە نێوان قسەکردن یان گوێگرتن هەڵبژێری.
 off = ناکارا
 on = کارا
-avatar-clip-title = دەنگێک ببخشە بە وێنۆچکەی خۆت
-change-your-avatar-clip = دەتەوێ کلیپی دەنگی خۆت بگۆڕی؟
-recording-in-progress = ئامادەکردنی دەنگ لە ئەنجام دایە
-avatar-clip-recorded = ئێستا وێنۆچکەی تۆ کلیپی دەنگی هەیە!
-record-voice-wave = تۆمار کردنی شەپۆلی دەنگ
-retry-voice-wave-recording = هەوڵ بدەرەوە
-re-record = دووبارە تۆمارکردن
-delete-voice = سڕینەوە
-recording-voice-wave = تۆمارکردن
-delete-voice-clip = یان  کلیپی دەنگی بسڕەوە
-ready-to-upload = بارکردن
-avatar-clip-fact = لە راستیدا دەرکەوتووە کە خوێنەر کاتێک تێکستی ماڵپەڕێک دەخوێنێتەوە و سەیری دیزانەکەی دەکات تووشی سەرلێشێوان دەبێت.
-recreate-voice = شەپۆلی دەنگی دووبارە ئامادە بکەرەوە
-cancel-avatar-clip-recording = ڕەتكردنەوە
-about-avatar-clip-recording = کلیپێکی دەنگی بۆ وێنۆچکەی خۆت ساز کە، کەسانی تر دەتوانن مشکە ببەنە سەری و گوێ لە دەنگت بگرن
+
+## Profile - Email
+
 browse-file-title = فایلێکی وێنە باربکە بکە
 browse-file = ڕاکێشان و دانان بکە ئێرە یان <browseWrap>بگەڕێ بۆ پەڕگە</browseWrap>
 connect-gravatar = بەستنەوە لەگەڵ Gravatar
 gravatar_not_found = هیچ گراڤاتارێک پەیدا نەبوو بۆ پۆستی ئەلیکترۆنیی تۆ
 file_too_large = پەڕگەی هەڵبژێردراو زۆر گەورەیە
+
+## Profile - Email
+
 manage-subscriptions = کارگێڕی ئابوونەکان
 manage-email-subscriptions = ڕێکخستنی بەشداری پۆستی ئەلکترۆنی
 email-already-used = ئەم پۆستی ئەلیکترۆنیە بۆ هەژمارێکی تر بە کار هێنراوە
