@@ -526,13 +526,20 @@ validated-clips = Campioni cunvalidati
 
 ## Custom Goals
 
+create-custom-goal = Creà un scopu parsunale
 both-speak-and-listen = Tramindui
 daily-goal = Scopu di u ghjornu
 weekly-goal = Scopu di a settimana
 easy-difficulty = Faciule
+average-difficulty = Mediana
+difficult-difficulty = Difficiule
+want-to-continue = Vulete cuntinuà ?
+which-goal-type = Vulete parlà, ascultà o i duie ?
+weekly-goal-created = U vostru scopu sittimanale hè statu creatu
 
 ## Profile Delete
 
+keep = Mantene
 why-delete-recordings =
     L’arrighjistramenti di Common Voice sò ghjuvati dà universitarii, imprese chjuche, è appassiunati di a ricunniscenza vucale pà aiutà à addestrà è fà cresce risorze publiche cum’è mudelli vucale.
     
@@ -547,6 +554,7 @@ read-more-about = Lighjiti di più annantu à a nostra paghjina Apprupositu
 ## DemoLayout
 
 demo-get-started = Principiemu
+demo-welcome = Site benvinuti à nantu à Common Voice
 
 ## Demo Datasets
 
@@ -554,6 +562,7 @@ demo-language-select-card-header = Common Voice hè a più maiò banca di dati v
 card-button-next = Seguita
 card-button-back = Nanzu
 demo-language-select-label = Splurà e lingue
+demo-account = Contu
 
 ## Demo Account
 
