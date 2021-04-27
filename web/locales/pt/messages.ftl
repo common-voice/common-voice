@@ -251,6 +251,7 @@ whats-public = O que é público?
 email-not-public = Não deixaremos público seu endereço de e-mail.
 recordings-and-locale-public = O número de gravações e para quais idiomas você contribuir serão públicos.
 username-optin-public = Você pode escolher deixar seu nome de usuário público ou anônimo.
+demographic-deidentified-clarity-2 = Dados demográficos enviados opcionalmente (como idade, gênero, idioma e sotaque) nunca ficarão públicos em seu perfil e não serão associados à sua conta no conjunto de dados. Clipes de áudio individuais serão associados a dados demográficos para fins de análises mais precisas. Por exemplo, um pesquisador pode querer direcionar um modelo de treinamento a um segmento demográfico específico.
 username-email-not-demographic = Seu nome de usuário e e-mail não serão associados com os dados publicados.
 
 ## Speak & Listen Shortcuts
@@ -336,6 +337,7 @@ profile-close = Fechar
 profile-explanation = Acompanhe o seu progresso com um perfil e ajude que as gravações sejam cada vez mais precisas.
 thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir seu perfil.
 why-demographic = Por que isto é importante?
+why-demographic-explanation-2 = Dados de usuários tornados anônimos, como idade, gênero e sotaque ajudam a melhorar os dados de áudio usados para treinar a precisão de mecanismos de reconhecimento de voz. Seu nome de usuário e email nunca serão associados aos dados enviados e você pode escolher se quer deixar tornar seu nome de usuário público ou anônimo.
 accept-privacy = Concordo que estas informações sejam utilizadas conforme explicado na <privacyLink>Política de Privacidade</privacyLink> da Mozilla.
 accept-privacy-title = Política de privacidade
 login-identity = Identidade de acesso
