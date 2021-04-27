@@ -1,17 +1,17 @@
 ## General
 
-yes-receive-emails = Ja tak, send mig gerne mails, så jeg er opdateret om projektet Common Voice.
+yes-receive-emails = Ja tak, send mig gerne e-mails. Jeg ønsker at holde mig informeret om Common Voice Project.
 stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi vil gerne holde kontakten med opdateringer, nye datakilder og høre mere om, hvordan du bruger disse informationer.
 privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>Privatlivspolitik</privacyLink>.
 return-to-cv = Vend tilbage til Common Voice
 email-input =
-    .label = Mailadresse
+    .label = E-mail
 submit-form-action = Indsend
 loading = Indlæser…
-email-opt-in-info = Jeg vil gerne modtage mails såsom påmindelser om mål, opdateringer om mine fremskridt og nyhedsbreve om Common Voice.
+email-opt-in-info = Jeg vil gerne modtage e-mails såsom påmindelser om mål, opdateringer om mine fremskridt og nyhedsbreve om Common Voice.
 email-opt-in-info-title = Meld dig til mailinglisten for Common Voice
-email-opt-in-info-sub-with-challenge = Modtag mails med påmindelser om udfordringer og mål, opdateringer om fremskridt samt nyhedsbreve om Common Voice.
-email-opt-in-privacy-v2 = Ved at tilmelde dig nyhedsbreve accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
+email-opt-in-info-sub-with-challenge = Modtag e-mails med påmindelser om udfordringer og mål, opdateringer om fremskridt samt nyhedsbreve om Common Voice.
+email-opt-in-privacy-v2 = Ved at tilmelde dig e-mails accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
 not-available-abbreviation = Ikke tilgængelig
 
@@ -333,26 +333,17 @@ skip-submission-description = Ved indsendelse af bidrag ignoreres feedback efter
 skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for at ændre bidragstype.
 off = Fra
 on = Til
-avatar-clip-title = Giv din avatar en stemme
-change-your-avatar-clip = Vil du gerne ændre dit lydklip?
-recording-in-progress = Optagelse er i gang
-avatar-clip-recorded = Din avatar inkluderer nu et lydklip!
-record-voice-wave = OPTAG DIN STEMME
-retry-voice-wave-recording = PRØV IGEN
-re-record = OPTAG IGEN
-delete-voice = SLET
-recording-voice-wave = Optagelse
-delete-voice-clip = eller slet optagelse
-ready-to-upload = Upload
-avatar-clip-fact = Det er en kendsgerning, at læsere ofte bliver distraherede af en sides læsbare indhold, når de kigger på dens opsætning.
-recreate-voice = Gendan Voicewave
-cancel-avatar-clip-recording = Annuller
-about-avatar-clip-recording = Optag et stemmeklip som en del af din profil-avatar. Andre kan holde musen over avataren og lytte til din optagelse.
+
+## Profile - Email
+
 browse-file-title = Upload en billedfil
 browse-file = Træk og slip eller <browseWrap>gennemse</browseWrap>
 connect-gravatar = Forbind med Gravatar
 gravatar_not_found = Ingen gravatar fundet for din mailadresse
 file_too_large = Den valgte fil er for stor
+
+## Profile - Email
+
 manage-subscriptions = Håndter abonnementer
 manage-email-subscriptions = Administrer dine mail-abonnementer
 email-already-used = Mailadressen bruges allerede af en anden konto
