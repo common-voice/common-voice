@@ -43,6 +43,7 @@ bxr = Burjatisk
 ca = Catalansk
 cak = Kaqchikel
 cnh = Hakha Chin
+co = Korsikansk
 cs = Tjekkisk
 cv = Tjuvasjisk
 cy = Walisisk
@@ -64,6 +65,7 @@ fr = Fransk
 fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galicisk
+gn = Guarani
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -91,13 +93,17 @@ lg = Ganda
 lij = Ligurisk
 lt = Litauisk
 lv = Lettisk
+mai = Maithili
 mdf = Moksha
 mg = Malagassisk
 mhr = Meadow Mari
 mk = Makedonsk
 ml = Malayalam
 mn = Mongolsk
+mos = Moore
+mr = Marathi
 mrj = Hill Mari
+ms = Malajisk
 mt = Maltesisk
 my = Burmesisk
 myv = Erzya
@@ -271,6 +277,7 @@ shortcut-record-toggle-label = Optag/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Optag igen
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
+request-language-text-learn = Lær hvordan du anmoder om det her!
 request-language-button = Anmod om at få tilføjet et nyt sprog
 
 ## ProjectStatus
@@ -348,6 +355,7 @@ browse-file = Træk og slip eller <browseWrap>gennemse</browseWrap>
 connect-gravatar = Forbind med Gravatar
 gravatar_not_found = Ingen gravatar fundet for din mailadresse
 file_too_large = Den valgte fil er for stor
+max-file-size = { $kb }kb max
 
 ## Profile - Email
 
@@ -499,6 +507,8 @@ data-other-goto = Gå til { $name }
 data-other-download = Hent data
 data-bundle-button = Hent datasæt-samling
 data-bundle-description = Data fra Common Voice samt alle andre stemme-datasæt ovenfor.
+release-version = Version
+dataset-date = Dato
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 data-download-singleword-title = Hent målsegmentet med enkelte ord
@@ -669,6 +679,7 @@ share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
 keep-track-profile = Hold styr på dine fremskridt med en profil
 login-to-get-started = Log ind eller tilmeld dig for at komme i gang
 target-segment-first-card = Du bidrager til vores første målsegment
+target-segment-generic-card = Du bidrager til et målsegment
 target-segment-first-banner = Vær med til at lave det første målsegment til Common Voice på { $locale }
 target-segment-add-voice = Tilføj din stemme
 target-segment-learn-more = Læs mere
@@ -836,15 +847,33 @@ read-more-about = Læs mere på vores Om-side
 
 ## DemoLayout
 
+demo-get-started = Lad os komme i gang
+demo-welcome = Velkommen til Common Voice
+demo-welcome-subheader = Er du interesseret i at lære mere og bidrage til projektet?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice er verdens største offentligt tilgængelige, flersprogede stemme-datasæt.
+demo-language-select-card-body = Takket være bidrag fra over 259.000 mennesker på over 50 sprog bruges disse data til at træne taleaktiverede applikationer til bedre at reagere på den menneskelige stemme.
+card-button-next = Næste
+card-button-back = Tilbage
+demo-language-select-label = Gennemse sprog
+demo-eofy-header = Årsafslutnings-udgivelse
+demo-eofy-sub_header = Stemme-datasæt, klar til download
+demo-account = Konto
 
 ## Demo Account
 
+demo-account-card-header = Det er ikke påkrævet at have en konto for at bidrage, men det vil gøre det nemmere.
+demo-account-card-body = Til højre skitserer vi fordelene og præciserer, hvilke oplysninger vi offentliggør. Brug nedenstående links til at komme i gang med en Common Voice-konto på din egen enhed.
+demo-account-enter-email =
+    .label = Indtast e-mail for at sende et tilmeldingslink
+demo-account-sign-up = Send mig et tilmeldings-link
 
 ## Demo Contribute
 
+demo-contribute-card-header = Klar til at tilføje din stemme eller låne dit øre?
+demo-contribute-card-body-v2 = Nu hvor du ved lidt mere om Common Voice, hvorfor ikke prøve det? Klik på mikrofonikonet for at begynde at læse sætninger højt. <br/> <br/> Hvis du foretrækker at gennemgå andres stemmebidrag, skal du klikke på afspilningsikonet. Du hjælper med at bekræfte, at optagelser matcher sætningerne skrevet på skærmen.
 demo-listen-subtitle = Klar til at bidrage?
 
 ## Demo Dashboard
