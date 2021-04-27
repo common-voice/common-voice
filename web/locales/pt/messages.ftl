@@ -849,6 +849,7 @@ demo-account = Conta
 demo-account-card-header = Não é obrigatório ter uma conta para contribuir, embora seja útil.
 demo-account-enter-email =
     .label = Digite um email para onde enviar um link de criação de conta
+demo-account-sign-up = Enviar link de criação de conta
 
 ## Demo Contribute
 
