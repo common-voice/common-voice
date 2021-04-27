@@ -1,17 +1,17 @@
 ## General
 
-yes-receive-emails = Sim, envie e-mails. Quero manter-me informado sobre o Projeto Common Voice.
+yes-receive-emails = Sim, envie emails. Quero manter-me informado sobre o Projeto Common Voice.
 stayintouch = Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos nos manter em contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.
-privacy-info = Prometemos lidar com suas informações com cautela. Saiba mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
+privacy-info = Prometemos lidar com suas informações com cuidado. Saiba mais em nosso <privacyLink>Aviso de privacidade</privacyLink>.
 return-to-cv = Voltar para o Common Voice
 email-input =
-    .label = E-mail
+    .label = Email
 submit-form-action = Enviar
 loading = Carregando…
-email-opt-in-info = Quero receber e-mails, tais como lembretes de metas, atualizações sobre meu progresso e boletins informativos sobre o Common Voice.
+email-opt-in-info = Quero receber emails, tais como lembretes de metas, atualizações sobre meu progresso e boletins informativos sobre o Common Voice.
 email-opt-in-info-title = Participe da lista de discussão do Common Voice
-email-opt-in-info-sub-with-challenge = Receba e-mails, tais como lembretes de objetivos e desafios, atualizações de progresso e boletins informativos sobre o Common Voice.
-email-opt-in-privacy-v2 = Ao optar por receber e-mails, você declara que concorda com a Mozilla lidar com essas informações, conforme explicado na <privacyLink>Política de privacidade</privacyLink> da Mozilla.
+email-opt-in-info-sub-with-challenge = Receba emails, tais como lembretes de objetivos e desafios, atualizações de progresso e boletins informativos sobre o Common Voice.
+email-opt-in-privacy-v2 = Ao optar por receber emails, você declara que concorda com a Mozilla lidar com essas informações, conforme explicado na <privacyLink>Política de privacidade</privacyLink> da Mozilla.
 indicates-required = * Indica campo obrigatório
 not-available-abbreviation = Não disponível
 
@@ -232,7 +232,7 @@ x-years-short =
     }
 help-make-dataset = Ajude-nos a construir um conjunto de dados de alta qualidade, aberto publicamente
 sign-up-account = Cadastre uma conta
-email-subscription-title = cadastre-se para receber notícias por e-mail
+email-subscription-title = cadastre-se para receber novidades por email
 email-subscription-title-new = Cadastre-se para receber do Common Voice boletins, lembretes de metas e informações de progresso
 
 ## Account Benefits
@@ -243,16 +243,16 @@ improve-audio = Informações de perfil aprimoram os dados de áudio usados no t
 keep-track = Acompanhe seu progresso e métricas em diversos idiomas.
 compare-progress = Veja como seu progresso se compara com outros contribuidores do mundo todo.
 view-goals = Veja seu progresso em comparação com metas pessoais e do projeto.
-join-newsletter = Opcionalmente, inscreva-se na nossa lista de e-mails para receber novidades sobre o projeto.
+join-newsletter = Opcionalmente, inscreva-se na nossa lista de emails para receber novidades sobre o projeto.
 
 ## What's public
 
 whats-public = O que é público?
-email-not-public = Não deixaremos público seu endereço de e-mail.
+email-not-public = Não deixaremos público seu endereço de email.
 recordings-and-locale-public = O número de gravações e para quais idiomas você contribuir serão públicos.
 username-optin-public = Você pode escolher deixar seu nome de usuário público ou anônimo.
 demographic-deidentified-clarity-2 = Dados demográficos enviados opcionalmente (como idade, gênero, idioma e sotaque) nunca ficarão públicos em seu perfil e não serão associados à sua conta no conjunto de dados. Clipes de áudio individuais serão associados a dados demográficos para fins de análises mais precisas. Por exemplo, um pesquisador pode querer direcionar um modelo de treinamento a um segmento demográfico específico.
-username-email-not-demographic = Seu nome de usuário e e-mail não serão associados com os dados publicados.
+username-email-not-demographic = Seu nome de usuário e email não serão associados com os dados publicados.
 
 ## Speak & Listen Shortcuts
 
@@ -343,7 +343,7 @@ accept-privacy-title = Política de privacidade
 login-identity = Identidade de acesso
 login-signup = Entrar / Inscrever-se
 edit = Editar
-email-subscriptions = Inscrições de e-mails
+email-subscriptions = Inscrições de emails
 download-profile = Baixar meus dados
 contribution-experience = Experiência de colaboração
 skip-submission-feedback = Ignorar comentários de envio
@@ -365,10 +365,10 @@ max-file-size = Máximo { $kb }kb
 ## Profile - Email
 
 manage-subscriptions = Gerenciar inscrições
-manage-email-subscriptions = Gerenciar inscrições de e-mails
-email-already-used = Este e-mail já está sendo usado em uma conta diferente
+manage-email-subscriptions = Gerenciar inscrições de emails
+email-already-used = Este email já está sendo usado em outra conta
 add-language = Adicionar idioma
-change-email-setings = Altere seu e-mail usando as configurações em Identidade de acesso
+change-email-setings = Altere seu email usando as configurações em Identidade de acesso
 
 ## FAQ
 
@@ -463,9 +463,9 @@ about-partnership =
 about-get-involved = Envolva-se
 about-get-involved-text-2 =
     Quer ajudar a tornar o Common Voice ainda melhor?
-    Fantástico! Entre em contato via e-mail ou nos fóruns do <discourseLink>Discourse</discourseLink>,
+    Fantástico! Entre em contato via email ou nos fóruns do <discourseLink>Discourse</discourseLink>,
     relate problemas no site via <githubLink>GitHub</githubLink>,
-    ou participe de conversa da comunidade no <matrixLink>Matrix</matrixLink>.
+    ou participe de conversas da comunidade no <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
@@ -550,8 +550,8 @@ cv-license = Licença
 audio-format = Formato de áudio
 number-of-voices = Número de vozes
 splits = Divisões
-email-to-download = Informe um e-mail para baixar
-why-email = <b>Por que um e-mail?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados, um e-mail nos fornece um meio de contato.
+email-to-download = Informe um email para baixar
+why-email = <b>Por que um email?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados. Um email nos fornece um meio de contato.
 confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -869,6 +869,7 @@ demo-account = Conta
 ## Demo Account
 
 demo-account-card-header = Não é obrigatório ter uma conta para contribuir, embora seja útil.
+demo-account-card-body = À direita, destacamos os benefícios e esclarecemos quais informações tornamos públicas. Use os links abaixo para começar a usar uma conta do Common Voice em seu dispositivo.
 demo-account-enter-email =
     .label = Digite um email para onde enviar um link de criação de conta
 demo-account-sign-up = Enviar link de criação de conta
@@ -876,8 +877,10 @@ demo-account-sign-up = Enviar link de criação de conta
 ## Demo Contribute
 
 demo-contribute-card-header = Pronto para adicionar sua voz ou emprestar seu ouvido?
+demo-contribute-card-body-v2 = Agora que você já sabe um pouco mais sobre o Common Voice, que tal experimentar? Clique no ícone de microfone para começar a ler frases em voz alta. <br/><br/>Se preferir rever as contribuições de voz de outras pessoas, clique no ícone de reproduzir. Você ajudará a confirmar se as gravações correspondem às frases escritas na tela.
 demo-listen-subtitle = Pronto para contribuir?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Painéis pessoais mantêm você atualizado com o progresso individual e da comunidade.
+demo-dashboard-card-body = Para cada clipe de voz doado e cada clipe de áudio validado, os painéis da sua conta são atualizados para refletir seu progresso recente em cada idioma em que você contribui. Sim, você pode contribuir em mais de um!<br/><br/> Use painéis para acompanhar suas estatísticas, veja como você está se saindo ao lado de outras pessoas na comunidade e defina metas de contribuição diárias ou semanais.
