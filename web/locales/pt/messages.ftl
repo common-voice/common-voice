@@ -861,6 +861,7 @@ demo-language-select-card-header = Common Voice é o maior conjunto de dados de 
 demo-language-select-card-body = Graças a contribuições de mais de 259 mil pessoas em mais de 50 idiomas, esses dados estão sendo usados para treinar aplicativos com reconhecimento de fala para responder melhor à voz humana.
 card-button-next = Avançar
 card-button-back = Voltar
+demo-language-select-label = Procurar idiomas
 demo-eofy-header = Lançamento de final de ano de 2019
 demo-eofy-sub_header = Conjunto de dados de voz, pronto para baixar
 demo-account = Conta
