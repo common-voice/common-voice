@@ -589,9 +589,9 @@ dataset-version = Versão
 ## Download Modal
 
 download-title = Seu download começou.
-download-helpus = Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por e-mail.
+download-helpus = Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por email.
 download-form-email =
-    .label = Digite seu e-mail
+    .label = Digite seu email
     .value = Obrigado, entraremos em contato.
 download-back = Voltar ao conjunto de dados do Common Voice
 download-no = Não, obrigado
@@ -803,8 +803,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Ótimo! Quantos clipes por dia?
 how-many-a-week = Ótimo! Quantos clipes por semana?
 which-goal-type = Quer falar, ouvir ou ambos?
-receiving-emails-info = Sua conta está configurada para receber e-mails como lembretes de metas, informações de progresso e novidades sobre o Common Voice
-not-receiving-emails-info = No momento, sua conta está configurada para <bold>NÃO</bold> receber e-mails, como lembretes de metas, informações do seu progresso e boletins informativos sobre o Common Voice
+receiving-emails-info = Sua conta está configurada para receber emails, como lembretes de metas, informações de progresso e novidades sobre o Common Voice
+not-receiving-emails-info = No momento, sua conta está configurada para <bold>NÃO</bold> receber emails, como lembretes de metas, informações do seu progresso e boletins informativos sobre o Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } clipe
@@ -845,7 +845,7 @@ profile-form-delete = Excluir perfil
 
 welcome-staff = Boas-vindas, equipe do { $company }!
 help-contribute = Você pode ajudar a construir um conjunto de dados de código aberto diverso criando um perfil no Common Voice e contribuindo com sua voz.
-login-company = Entrar / Cadastrar-se com e-mail de { $company }
+login-company = Entrar / Cadastrar-se com email de { $company }
 profile-not-required = Não é obrigatório ter um perfil para contribuir, apesar de ser útil
 read-more-about = Saiba mais sobre o Common Voice
 
