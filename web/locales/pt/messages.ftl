@@ -87,6 +87,7 @@ kaa = Caracalpaque
 kab = Kabyle
 kbd = Kabardiano
 kk = Cazaque
+kmr = Curdo do norte
 ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
