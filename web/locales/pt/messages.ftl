@@ -517,6 +517,7 @@ dataset-date = Data
 license = Licença: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
 data-download-singleword-title = Baixar o segmento de destino de palavras únicas
+data-download-singleword-callout-v2 = Este é um segmento orientado a caso de uso que contém dados para capacitar reconhecimento de dígitos falados e detecção de sim/não.
 review-terms = Usando o Common Voice, você aceita nossos <termsLink>Termos</termsLink> e <privacyLink>Política de Privacidade</privacyLink>
 terms-agree = Estou de acordo
 terms-disagree = Não estou de acordo
@@ -684,6 +685,7 @@ share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
 keep-track-profile = Acompanhe seu progresso com um perfil
 login-to-get-started = Entre ou cadastre-se para começar
 target-segment-first-card = Você está contribuindo para nosso primeiro segmento alvo
+target-segment-generic-card = Você está contribuindo para um segmento-alvo
 target-segment-first-banner = Ajude a criar o primeiro segmento alvo do Common Voice em { $locale }
 target-segment-add-voice = Adicione sua voz
 target-segment-learn-more = Saiba mais
@@ -854,6 +856,7 @@ demo-welcome-subheader = Interessado em aprender mais e contribuir com o projeto
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice é o maior conjunto de dados de voz multilíngue do mundo disponível publicamente.
+demo-language-select-card-body = Graças a contribuições de mais de 259 mil pessoas em mais de 50 idiomas, esses dados estão sendo usados para treinar aplicativos com reconhecimento de fala para responder melhor à voz humana.
 card-button-next = Avançar
 card-button-back = Voltar
 demo-eofy-header = Lançamento de final de ano de 2019
