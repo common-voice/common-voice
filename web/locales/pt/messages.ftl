@@ -33,14 +33,18 @@ as = Assamês
 ast = Asturiano
 az = Azerbaidjano
 ba = Basquir
+bas = Basa
 be = Bielorrusso
 bg = Búlgaro
+bm = Bambara
 bn = Bengalês
 br = Bretão
 bxr = Buriato
 ca = Catalão
 cak = Caqchiquel
+ckb = Curdo central
 cnh = Hakha Chin
+co = Corso
 cs = Tcheco
 cv = Tchuvache
 cy = Galês
@@ -62,11 +66,13 @@ fr = Francês
 fy-NL = Frisão
 ga-IE = Irlandês
 gl = Galego
+gn = Guarani
 ha = Hauçá
 he = Hebraico
 hi = Hindi
 hr = Croata
 hsb = Alto Sorábio
+ht = Crioulo haitiano
 hu = Húngaro
 hy-AM = Armênio
 hyw = Armênio ocidental
@@ -853,7 +859,9 @@ demo-account-sign-up = Enviar link de criação de conta
 
 ## Demo Contribute
 
+demo-contribute-card-header = Pronto para adicionar sua voz ou emprestar seu ouvido?
 demo-listen-subtitle = Pronto para contribuir?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Painéis pessoais mantêm você atualizado com o progresso individual e da comunidade.
