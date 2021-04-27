@@ -114,6 +114,7 @@ nn-NO = Nynorsk
 oc = Occitansk
 or = Oriya
 pa-IN = Punjabisk
+pap-AW = Papiamento (Aruba)
 pl = Polsk
 ps = Pashto
 pt = Portugisisk
