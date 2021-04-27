@@ -353,27 +353,19 @@ skip-submission-description = 'Җибәрү'гә баскач,  мәгълүма
 skip-submission-note = Искәрмә: Ярдәм итү төрен үзгәртү өчен сезгә Сөйләү яки Тыңлауны сайларга кирәк булачак.
 off = Сүнгән
 on = Кабынган
-avatar-clip-title = Аватарыгызны тавышлы итегез
-change-your-avatar-clip = Аудиоязмагызны үзгәртәсегез киләме?
-recording-in-progress = Тавыш яздыру бара
-avatar-clip-recorded = Сезнең аватарыгызның хәзер аудиоязмасы да бар!
-record-voice-wave = VOICEWAVE ЯЗДЫРУ
-retry-voice-wave-recording = КАБАТЛАУ
-re-record = ЯНӘДӘН ЯЗДЫРУ
-delete-voice = БЕТЕРҮ
-recording-voice-wave = Яздыру
-delete-voice-clip = яки аудиоязманы бетерү
-ready-to-upload = Йөкләү
-avatar-clip-fact = Сәхифәнең макетына караганда, укучының игътибары аның эчтәлегеннән читкә юнәлүе күптән билгеле.
-recreate-voice = Сәламләү аудиосын яңадан ясау
-cancel-avatar-clip-recording = Баш тарту
-about-avatar-clip-recording = Профилегезнең аватарына аудиосәлам өстәгез. Башка кулланучылар, «тычкан»нарын аудиоязма өстенә китереп, аны тыңлый алачак.
+
+## Profile - Email
+
 browse-file-title = Рәсем йөкләү
 browse-file = Өстерәп китерү яки <browseWrap>Карап чыгу</browseWrap>
 connect-gravatar = Gravatar белән тоташтыру
 gravatar_not_found = Сезнең эл. хат белән бәйле gravatar табылмады
 file_too_large = Сайланган файл артык зур
 avatar-uploaded = Аватар өстәлде
+max-file-size = иң күбе { $kb } КБ
+
+## Profile - Email
+
 manage-subscriptions = Язылуларны көйләү
 manage-email-subscriptions = Эл. почта абунәләре белән идарә итү
 email-already-used = Әлеге эл. хат башка аккаунтта кулланыла инде
