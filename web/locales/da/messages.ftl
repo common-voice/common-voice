@@ -33,8 +33,10 @@ as = Assamesisk
 ast = Asturisk
 az = Aserbajdsjansk
 ba = Bashkirsk
+bas = Basa
 be = Hviderussisk
 bg = Bulgarsk
+bm = Bambara
 bn = Bengalsk
 br = Bretonsk
 bxr = Burjatisk
@@ -107,6 +109,7 @@ oc = Occitansk
 or = Oriya
 pa-IN = Punjabisk
 pl = Polsk
+ps = Pashto
 pt = Portugisisk
 rm-sursilv = Rætoromansk sursilvansk
 rm-vallader = Rætoromansk Lavengadinsk
@@ -116,9 +119,11 @@ rw = Kinyarwanda
 sah = Yakut
 sc = Sardisk
 scn = Siciliansk
+shi = Shilha
 si = Singalesisk
 sk = Slovakisk
 sl = Slovensk
+so = Somali
 sq = Albansk
 sr = Serbisk
 sv-SE = Svensk
@@ -133,12 +138,14 @@ tr = Tyrkisk
 tt = Tatarisk
 uby = Ubykh
 udm = Udmurt
+ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
@@ -838,6 +845,9 @@ read-more-about = Læs mere på vores Om-side
 
 ## Demo Contribute
 
+demo-listen-subtitle = Klar til at bidrage?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Personlige dashboards holder dig opdateret med din individuelle og fællesskabets fremskridt.
+demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der valideres, opdateres dine dashboards for at afspejle dine seneste fremskridt på hvert sprog, du bidrager til. Ja, du kan bidrage til mere end et! <br/> <br/> Brug dashboards til at spore din statistik, se hvordan du klarer dig sammen med andre i fællesskabet, og indstil daglige eller ugentlige bidragsmål.
