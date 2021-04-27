@@ -444,10 +444,10 @@ about-listen-queue = Lytte-kø
 about-listen-queue-text = Stemmeoptagelser bliver lagt i en kø, så de kan blive gjort klare til at blive hørt.
 about-listen = Lyt
 about-listen-text = Brugere validerer nøjagtigheden af de donerede optagelser ved at undersøge, om taleren læser sætningen op korrekt.
-about-is-it-valid = Er klippet gyldigt?
-about-is-it-valid-text = Et stemmeklip markeres som "gyldigt", når en bruger giver det en ja-stemme.
+about-is-it-valid = Er stemmeoptagelsen gyldig?
+about-is-it-valid-text = En stemmeoptagelse markeres som "gyldigt", når en bruger giver den en ja-stemme.
 about-yes-votes = ≥ 2 ja-stemmer
-about-yes-votes-text = For at blive optaget i Common Voice-datasættet skal et klip være valideret af to forskellige brugere.
+about-yes-votes-text = For at blive optaget i Common Voice-datasættet skal en stemmeoptagelse være valideret af to forskellige brugere.
 about-no-votes = ≥ 2 nej-stemmer
 about-no-votes-text = Når en bruger afviser en stemmeoptagelser, så kommer det tilbage i køen. Hvis det bliver afvist igen, så havner det på optagelses-kirkegården.
 about-dataset-new = Common Voice-datasæt
@@ -659,25 +659,25 @@ record-cancel = Afbryd genindspilningen
 record-instruction = { $actionType } <recordIcon></recordIcon> og læs så sætningen højt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er færdig
 record-three-more-instruction = Tre tilbage!
-record-again-instruction = Fremragende! <recordIcon></recordIcon> Optag dit næste klip
+record-again-instruction = Fremragende! <recordIcon></recordIcon> Optag din næste stemmeoptagelse
 record-again-instruction2 = Fortsæt det gode arbejde, optag igen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den sidste!
-review-tooltip = Godkend og optag klip her efterhånden
-share-clip = Del dit klip
+review-tooltip = Godkend og optag stemmeoptagelser her efterhånden
+share-clip = Del din stemmeoptagelse
 share-common-voice = Del Common Voice
-review-instruction = Godkend og optag klip igen hvis nødvendigt
+review-instruction = Godkend og optag stemmeoptagelser igen hvis nødvendigt
 record-submit-tooltip = { $actionType } indsend når du er klar
 clips-uploaded = Optagelser uploaded
 record-abort-title = Færdiggør optagelsen først?
 record-abort-text = Hvis du stopper nu, så mister du din fremgang
-record-abort-submit = Indsend klip
+record-abort-submit = Indsend stemmeoptagelser
 record-abort-continue = Afslut optagelse
 record-abort-delete = Afslut og slet optagelse
 listen-instruction = { $actionType } <playIcon></playIcon> udtalte de sætningen nøjagtigt?
 listen-again-instruction = Godt arbejde! <playIcon></playIcon> Lyt igen når du er klar
 listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det gode arbejde!
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
-listen-empty-state = Der er ikke flere klip at validere på dette sprog...
+listen-empty-state = Der er ikke flere stemmeoptagelser at validere på dette sprog...
 speak-empty-state = Der er ikke flere sætninger at optage på dette sprog...
 speak-empty-state-cta = Bidrag med sætninger
 record-button-label = Optag din stemme
@@ -704,7 +704,7 @@ report-different-language-detail = Det er skrevet på et andet sprog end det, je
 report-difficult-pronounce = Svær at udtale
 report-difficult-pronounce-detail = Det indeholder ord eller sætninger, der er svære at læse eller udtale.
 report-offensive-speech = Stødende sprog
-report-offensive-speech-detail = Klippet har respektløst eller stødende sprog.
+report-offensive-speech-detail = Stemmeoptagelsen har respektløst eller stødende sprog.
 report-other-comment =
     .placeholder = Kommentar
 success = Succes
@@ -778,7 +778,7 @@ help-reach-hours-pluralized =
        *[other] { $hours } timer
     }på { $language }
 help-reach-hours-general-pluralized =
-    Hjælp Common Voice med at opnå{ NUMBER($hours) ->
+    Hjælp Common Voice med at opnå { NUMBER($hours) ->
         [one] { $hours } time
        *[other] { $hours } timer
     }på et sprog med et personligt mål
