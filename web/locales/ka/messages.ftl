@@ -353,26 +353,19 @@ skip-submission-description = წვლილის შეტანისას 
 skip-submission-note = შენიშვნა: ჩაწერა ან მოსმენა მაინც უნდა აირჩიოთ, შესატანი წვლილის სახეობის შესაცვლელად.
 off = გამორთ.
 on = ჩართ.
-avatar-clip-title = გაახმოვანეთ თქვენი გამოსახულება
-change-your-avatar-clip = გსურთ, პროფილის ხმოვანი ჩანაწერის შესვლა?
-recording-in-progress = მიმდინარეობს ხმის ჩაწერა
-avatar-clip-recorded = თქვენს გამოსახულებაზე, ხმოვანი ჩანაწერი დართულია!
-record-voice-wave = ჩაწერეთ VOICEWAVE
-retry-voice-wave-recording = გამეორება
-re-record = ახლიდან ჩაწერა
-delete-voice = წაშლა
-recording-voice-wave = იწერება
-delete-voice-clip = ან წაშლა ხმოვანი ჩანაწერის
-ready-to-upload = ატვირთვა
-avatar-clip-fact = ცნობილია, რომ მკითხველს ყურადღებას უფანტავს გვერდზე მოცემული წასაკითხი შიგთავსი, როცა მის განლაგებას ხედავს.
-recreate-voice = ხელახლა შექმენით Voicewave
-cancel-avatar-clip-recording = გაუქმება
-about-avatar-clip-recording = შექმენით ხმოვანი ჩანაწერი პროფილის გამოსახულებისთვის. სხვები მის მოსმენას შეძლებენ მაჩვენებლის გადატარებისას.
+
+## Profile - Email
+
 browse-file-title = ატვირთეთ სურათის ფაილი
 browse-file = გადმოიტანეთ და მოათავსეთ ან <browseWrap>ამოარჩიეთ</browseWrap>
 connect-gravatar = Gravatar-თან დაკავშირება
 gravatar_not_found = თქვენი ელფოსტისთვის არ არის ნაპოვნი gravatar
 file_too_large = შერჩეული ფაილი ზედმეტად დიდია
+avatar-uploaded = სურათი ატვირთულია
+max-file-size = არაუმეტეს { $kb }კბაიტი
+
+## Profile - Email
+
 manage-subscriptions = გამოწერების მართვა
 manage-email-subscriptions = ელფოსტის გამოწერების მართვა
 email-already-used = ელფოსტა უკვე გამოყენებულია სხვა ანგარიშზე
@@ -751,8 +744,8 @@ you = თქვენ
 everyone = ყველა
 contribution-activity = შეტანილი წვლილი
 top-contributors = მხურვალე მოხალისეები
-recorded-clips = ჩანაწერები
-validated-clips = დამოწმებული ჩანაწერები
+recorded-clips = ჩაწერები
+validated-clips = დამოწმებები
 total-approved = სულ დამოწმებული
 overall-accuracy = საერთო სიზუსტე
 set-visibility = ხილვადობის დაყენება
