@@ -292,12 +292,17 @@ skip-submission-feedback = דילוג על משוב הגשה
 skip-submission-note = לתשומת לבך: עדיין יהיה עליך לבחור בין דיבור להאזנה כדי לשנות את סוג התרומה.
 off = כבוי
 on = פעיל
-delete-voice = מחיקה
+
+## Profile - Email
+
 browse-file-title = העלאת קובץ תמונה
 browse-file = ניתן לגרור ולהשליך לכאן או <browseWrap>לעיין</browseWrap>
 connect-gravatar = התחברות עם Gravatar
 gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל שלך
 file_too_large = הקובץ שנבחר גדול מדי
+
+## Profile - Email
+
 manage-subscriptions = ניהול מינויים
 manage-email-subscriptions = ניהול מינויי דוא״ל
 email-already-used = כתובת דוא״ל זו כבר בשימוש עבור חשבון אחר
@@ -577,6 +582,9 @@ goal-type = איזה סוג של יעד ברצונך לבנות?
 lose-goal-progress-warning = ההתקדמות שלך עד כה עשויה להימחק בעת עריכת היעד שלך.
 finish-editing = לסיים את העריכה קודם לכן?
 lose-changes-warning = יציאה כעת תגרום לביטול השינויים שביצעת
+share-goal-type-speak = דיבור
+share-goal-type-listen = האזנה
+share-goal-type-both = דיבור והאזנה
 
 ## Profile Delete
 
@@ -596,6 +604,7 @@ read-more-about = מידע נוסף בעמוד על אודותינו
 
 ## Demo Datasets
 
+demo-account = חשבון
 
 ## Demo Account
 
