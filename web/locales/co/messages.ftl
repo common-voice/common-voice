@@ -434,6 +434,7 @@ subscribe = Abbunassi
 get-started-speech = Cummincià incù a ricunniscenza vucale
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = U corpus TED-LIUM hè statu fattu incù i discorsi è e so trascrizzione dispunibile à nant'à u situ TED.
+go-discourse = Andà nant'à Discourse
 missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dumandà una lingua, andate annantu à a nostra paghjina Lingue.
 go-languages-page = Andà à a pagina di e lingue
 ready-to-validate = Prontu pà aiutacci à cunvalidà l'infrasate ?
