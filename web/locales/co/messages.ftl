@@ -410,6 +410,7 @@ review-aborted = U caricamentu ùn s'hè fattu. Vulete squassà i vostri arrighj
 review-recording = Verificà
 review-rerecord = Arrighjistrà torna
 review-cancel = Annuddà l'inviu
+review-keep-recordings = Mantene l'arrighjistramenti
 
 ## Datasets Page
 
@@ -537,6 +538,7 @@ want-to-continue = Vulete cuntinuà ?
 how-many-a-week = Bè! Quantu campioni à a settimana ?
 which-goal-type = Vulete parlà, ascultà o i duie ?
 weekly-goal-created = U vostru scopu sittimanale hè statu creatu
+daily-goal-created = U vostru scopu ghjurnalieru hè statu creatu
 
 ## Profile Delete
 
