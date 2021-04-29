@@ -397,6 +397,7 @@ about-get-involved = הצטרפות
 about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
+about-nav-get-involved = הצטרפות
 mycroft-subtitle = בינה מלאכותית
 
 ## Glossary
@@ -416,6 +417,7 @@ de-identified-explanation = התהליך שבו מידע הפרופיל של ת�
 ## Error pages
 
 error-content-404 = אולי <homepageLink>דף הבית</homepageLink> שלנו יכול לעזור? כדי לשאול שאלה, נא להצטרף ל<matrixLink>צ’אט הקהילה ב־Matrix</matrixLink>, לעקוב אחר בעיות באתר באמצעות <githubLink>GitHub</githubLink> או לבקר <discourseLink>בפורומים שלנו ב־Discourse</discourseLink>.
+error-code = שגיאה { $code }
 
 ## Data
 
@@ -432,6 +434,7 @@ data-other-goto = מעבר אל { $name }
 data-other-download = הורדת נתונים
 data-bundle-button = הורדת מאגד סדרת נתונים
 data-bundle-description = הנתונים של Common Voice יחד עם כל סדרות הנתונים האחרות שלהלן.
+dataset-date = תאריך
 license = רישיון: <licenseLink>{ $license }</licenseLink>
 license-mixed = מעורב
 review-terms = עצם השימוש ב־Common Voice מהווה הסכמה מצדך ל<termsLink>תנאים</termsLink> ול<privacyLink>הצהרת הפרטיות</privacyLink> שלנו
@@ -533,12 +536,18 @@ contribute = תרומה
 listen = האזנה
 skip = דילוג
 shortcuts = קיצורים
+clips-with-count-pluralized =
+    { $count ->
+        [one] מקטע <bold>אחד</bold>
+       *[other] <bold>{ $count }</bold> מקטעים
+    }
 goal-help-recording = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד ההקלטות היומי { $goalValue }!
 goal-help-validation = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד האימות היומי { $goalValue }!
 contribute-more = להגיש לך { $count } נוספים?
 record-cta = התחלת ההקלטה
 record-platform-not-supported = הפלטפורמה שלך אינה נתמכת בשלב זה, עמך הסליחה.
 record-platform-not-supported-desktop = במחשבים שולחניים, ניתן להוריד את העדכני ביותר:
+record-platform-not-supported-ios-non-safari = ב־iOS נא להמשיך עם Safari כדי לאפשר הקלטה…
 record-must-allow-microphone = עליך לאפשר גישה למיקרופון.
 record-no-mic-found = לא אותר מיקרופון.
 record-error-too-short = ההקלטה הייתה קצרה מדי.
@@ -552,6 +561,8 @@ record-again-instruction = מושלם! <recordIcon></recordIcon> הקלטת המ
 record-again-instruction2 = עבודה יפה, עכשיו להקליט שוב <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> אחרון חביב!
 review-tooltip = ניתן לסקור ולהקליט מקטעים מחדש דרך כאן תוך כדי תנועה
+share-clip = שיתוף המקטע שלך
+share-common-voice = שיתוף Common Voice
 review-instruction = ניתן לסקור ולהקליט מקטעים מחדש במקרה הצורך
 record-submit-tooltip = { $actionType } ניתן להגיש כשהמקטע מוכן
 clips-uploaded = מקטעים הועלו
@@ -564,9 +575,11 @@ listen-instruction = { $actionType } <playIcon></playIcon> האם המשפט ב�
 listen-again-instruction = עבודה טובה! <playIcon></playIcon> נא להאזין שוב בזמנך החופשי
 listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
+speak-empty-state-cta = תרומת משפטים
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
 target-segment-add-voice = הוספת הקול שלך
+target-segment-learn-more = מידע נוסף
 
 ## Reporting
 
@@ -577,6 +590,13 @@ report-offensive-language = שפה פוגענית
 report-offensive-language-detail = במשפט יש שפה מזלזלת או פוגענית.
 report-grammar-or-spelling = שגיאת דקדוק / איות
 report-grammar-or-spelling-detail = במשפט יש שגיאה בדקדוק או באיות.
+report-different-language = שפה שונה
+report-different-language-detail = נכתב בשפה שונה מזו שבחרתי לאמת.
+report-difficult-pronounce = קשה להגייה
+report-difficult-pronounce-detail = מכיל מילים או ביטויים שקשה לקרוא או להגות.
+report-other-comment =
+    .placeholder = תגובה
+success = הצלחה
 report-success = הדיווח הועבר בהצלחה
 
 ## Goals
@@ -602,6 +622,7 @@ validations =
 
 your-languages = השפות שלך
 toward-next-goal = לקראת המטרה הבאה
+goal-reached = היעד הושג
 clips-you-recorded = מקטעים שהקלטת
 clips-you-validated = מקטעים שאימתת
 todays-recorded-progress = ההתקדמות היומית של קטעים מוקלטים ב־Common Voice
@@ -620,9 +641,26 @@ overall-accuracy = דיוק כללי
 ## Custom Goals
 
 goal-type = איזה סוג של יעד ברצונך לבנות?
+daily-goal = יעד יומי
+weekly-goal = יעד שבועי
+easy-difficulty = קל
+average-difficulty = בינוני
+difficult-difficulty = קשה
+pro-difficulty = מקצוען
 lose-goal-progress-warning = ההתקדמות שלך עד כה עשויה להימחק בעת עריכת היעד שלך.
+want-to-continue = להמשיך?
 finish-editing = לסיים את העריכה קודם לכן?
 lose-changes-warning = יציאה כעת תגרום לביטול השינויים שביצעת
+set-a-goal = הגדרת יעד
+cant-decide = לא הצלחת להחליט?
+how-many-per-day = מצוין! כמה מקטעים ביום?
+how-many-a-week = נהדר! כמה מקטעים בשבוע?
+which-goal-type = מעניין אותך לדבר, להאזין או גם וגם?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] מקטע אחד
+       *[other] { $count } מקטעים
+    }
 share-goal-type-speak = דיבור
 share-goal-type-listen = האזנה
 share-goal-type-both = דיבור והאזנה
@@ -645,6 +683,9 @@ read-more-about = מידע נוסף בעמוד על אודותינו
 
 ## Demo Datasets
 
+card-button-next = הבא
+card-button-back = הקודם
+demo-language-select-label = עיון בשפות
 demo-account = חשבון
 
 ## Demo Account
