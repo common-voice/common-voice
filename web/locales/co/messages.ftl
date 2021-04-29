@@ -487,12 +487,24 @@ total-hours = Ore cunvalidate
 
 skip = Scappà
 shortcuts = Scurtatoghji
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold>Campionu
+       *[other] <bold>{ $count }</bold>Campioni
+    }
+contribute-more =
+    { $count ->
+        [one] Prontu pà fanne { $count } di più ?
+       *[other] Prontu pà fanne { $count } di più ?
+    }
 record-cta = Cummincià l'arrighjistramentu
+record-platform-not-supported-ios-non-safari = Sottu iOS cuntinuate incù Safari pà attivà l'arrighjistramentu…
 record-must-allow-microphone = Ci vole à auturizà l'accessu à u microfonu.
 record-no-mic-found = Nissunu microfonu trovu.
 record-error-too-short = L'arrighjistramentu era troppu chjucu.
 record-error-too-long = L'arrighjistramentu era troppu longu.
 record-error-too-quiet = L'arrighjistramentu era troppu silenziosu.
+record-cancel = Cancellà u novu arrighjistramentu
 share-clip = Sparte u vostru campionu
 share-common-voice = Sparte Common Voice
 clips-uploaded = Campioni caricati
