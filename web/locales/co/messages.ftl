@@ -547,6 +547,7 @@ clips-you-recorded = Campioni chè voi avete arrighjistrati
 clips-you-validated = Campioni chè voi avete cunvalidati
 stats = Statistiche
 you = Tù
+everyone = Ognunu
 recorded-clips = Campioni arrighjistrati
 validated-clips = Campioni cunvalidati
 
@@ -560,8 +561,14 @@ easy-difficulty = Faciule
 average-difficulty = Mediana
 difficult-difficulty = Difficiule
 want-to-continue = Vulete cuntinuà ?
+build-custom-goal = Definisce un scopu parsunale
 how-many-a-week = Bè! Quantu campioni à a settimana ?
 which-goal-type = Vulete parlà, ascultà o i duie ?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } campionu
+       *[other] { $count } campioni
+    }
 weekly-goal-created = U vostru scopu sittimanale hè statu creatu
 daily-goal-created = U vostru scopu ghjurnalieru hè statu creatu
 
@@ -594,6 +601,7 @@ demo-account = Contu
 
 ## Demo Account
 
+demo-account-sign-up = Mandà u ligame d'iscrizzione
 
 ## Demo Contribute
 
