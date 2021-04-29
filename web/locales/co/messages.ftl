@@ -534,6 +534,7 @@ easy-difficulty = Faciule
 average-difficulty = Mediana
 difficult-difficulty = Difficiule
 want-to-continue = Vulete cuntinuà ?
+how-many-a-week = Bè! Quantu campioni à a settimana ?
 which-goal-type = Vulete parlà, ascultà o i duie ?
 weekly-goal-created = U vostru scopu sittimanale hè statu creatu
 
