@@ -511,11 +511,14 @@ share-clip = Sparte u vostru campionu
 share-common-voice = Sparte Common Voice
 clips-uploaded = Campioni caricati
 record-abort-title = Compie d'arrighjistrà primu ?
+record-abort-text = I vostri prugressi seranu persi sè vi n'andate avà
+record-abort-submit = Invià campioni
 record-abort-continue = Compie l'arrighjistramentu
 listen-last-time-instruction = <playIcon></playIcon>L'ultimu !
 listen-empty-state = Ùn avemu più campioni dà cunvalidà in issa lingua...
 speak-empty-state = Ùn avemu più infrasate à arrighjistrà in issa lingua...
 record-button-label = Arrighjistrà a vostra voce
+keep-track-profile = Seguiteti i vostri prugressi creendu un prufilu
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
 
