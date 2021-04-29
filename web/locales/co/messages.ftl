@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Iè, mandatemi email. Mi piaceria à esse infurmatu appuntu à u prughjettu Common Voice.
-stayintouch = Ind’è Mozilla, custruimu una cumunità intornu à è tecnulugie vucale. Vulariamu stà in cuntattu cù voi cù messe à ghjornu, nove fonti di dati, è pà sente di più à nantu à a vostra utilisazione di sti dati.
+stayintouch = Ind’è Mozilla, custruimu una cumunità intornu à e tecnulugie vucale. Vulariamu stà in cuntattu cù voi cù messe à ghjornu, nove fonti di dati, è pà sapè ne di più à nantu à a vostra utilisazione di sti dati.
 privacy-info = Vi prumittimu di trattà e vostre infurmazioni cun primura. Da sapè ne di più, lighjite puru u nostru <privacyLink> Avvisu di cunfidenzialità</privacyLink>.
 return-to-cv = Vultà à Common Voice
 email-input =
@@ -111,7 +111,7 @@ home-cta = Parlate puru, cuntribuite quì !
 wall-of-text-start = A voce hè naturale, a voce hè umana. Hè per quessa chì no simu affascinati da a criazione di una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, una quantità tamanta di dati vucale hè richiesta.
 wall-of-text-more-mobile = A maiò parte di i dati ghjuvati da l'imprese maiò ùn sò micca dispunibile à a maiurità di e parsone. Pinsemu chì suffuca l'innuvazione. Tandu avemu lanciatu u prughjettu Common Voice, pà aiutà à apre à tutti a ricunniscenza vucale.
 wall-of-text-more-desktop = Avà pudeti dà a vostra voce pà aiutaci à custruisce una basa di dati vucale di fonte aperta chì tuttu ognunu pò aduprà pà creà applicazione innuvative pà apparechji è u web. Lighjite una frasa pà aiutà e macchine à amparà comu parlani in veru e parsone. Verificate u travaddu d'altri cuntributori pà migliurà a qualità. Hè cusì simplice !
-wall-of-text-first = A voce hè naturale, a voce hè umana. Hè per quessa chì simu vugliosi di creà di una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, i sviluppadori ani bisognu d'una quantità strimamente grande di dati vucale.
+wall-of-text-first = A voce hè naturale, a voce hè umana. Hè per quessa chì simu in brama di creà una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, i sviluppadori ani bisognu d'una quantità tamanta di dati vucale.
 wall-of-text-second = A maiò parte di i dati ghjuvati da l'imprese maiò ùn sò micca dispunibile à a maiurità di e parsone. Pinsemu chì suffuca l'innuvazione. Tandu avemu lanciatu Common Voice, un prughjettu pà aiutà à rende aperta è accissibile à tutti a ricunniscenza vucale.
 show-wall-of-text = Leghje di più
 help-us-title = Aiutateci à cunvalidà e frase !
@@ -386,6 +386,7 @@ sst = Discorsu-à-u-testu (Speech-to-text, STT)
 ## Error pages
 
 error-title-404 = Ùn pudemu micca truvà questa pagina per voi
+error-content-404 = Forse a nostra <homepageLink>paghjina d'accolta</homepageLink>v’aiutarà ? Pà fà una dumanda, raghjunghjisti a <matrixLink>chjachjerata di a cummunità Matrix</matrixLink>, tiniti l'ochji nant’à i prublemi di u situ via <githubLink>GitHub</githubLink> o visiteti <discourseLink>i nostri fori Discourse</discourseLink>.
 error-code = Errore { $code }
 
 ## Data
@@ -572,6 +573,7 @@ demo-account = Contu
 
 ## Demo Contribute
 
+demo-contribute-card-body-v2 = Avà chì cunnusciti un pocu di più Common Voice, parchì micca pruvà ? Appughjeti l’icona di u microfonu pà cumincià à leghje l’infrasate à voce alta. <br/><br/> S’è vo prifiriti cunvalidà e cuntribuzione di l’altri participenti, appughjeti u buttone lettura. Aiutareti à assicurà chì l’arrighjistramenti currispondani à ciò chì hè scrittu annantu à u screnu.
 demo-listen-subtitle = Seti pronti à cuntribuisce ?
 
 ## Demo Dashboard
