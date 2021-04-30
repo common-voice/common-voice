@@ -117,6 +117,7 @@ nn-NO = Tanuṛvijt Nynorsk
 oc = Tuksitant
 or = Odia
 pa-IN = Tapenǧabit
+pap-AW = Tapapiyamant (Aruba)
 pl = Tapulunit
 ps = Tapactut
 pt = Tapuṛṭugit
@@ -128,6 +129,7 @@ rw = Takinyaṛwandit
 sah = Tasaxit
 sc = Tasardinit
 scn = Tasisiliyant
+shi = Tacelḥit
 si = Tasinhalit
 sk = Tasluvakt
 sl = Tasluvinit
@@ -357,6 +359,8 @@ browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
 connect-gravatar = Qqen s Gravatar
 gravatar_not_found = Ulac Gravatar ittwafen i imayl-inek
 file_too_large = Afaylu ittwafernen meqqer aṭas
+avatar-uploaded = Avaṭar ittwazen
+max-file-size = { $kb }kaṭ afellay
 
 ## Profile - Email
 
