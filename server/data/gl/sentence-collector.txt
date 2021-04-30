@@ -4365,6 +4365,7 @@ Ela respondeulle con arrogancia que o asunto non podía esperar.
 Ela respondeunas todas de maneira franca e satisfactoria, para eliminar calquera asomo de dúbida.
 Ela sabía o que quería. E tamén o que non quería.
 Ela seguía sentada, quieta.
+Ela supuxera que a Madre acusaría en público a sor Mónica.
 Ela só puido responder cousas boas, claro.
 Ela tira para adiante, botándolle moito papo
 Ela tiña vontade propia, e o corazón de toda unha muller.
@@ -6611,6 +6612,7 @@ Mais se non recibes consolo desta forma», dixo el, «acabouse».
 Mais se puidese ser sempre nova, seguiría sempre solteira.
 Mais supón, supón que...
 Mais tampouco as cousas materiais tiñan poder sobre el.
+Mais tamén quen nos manifestamos a prol do non temos que tirar conclusións.
 Mais tes que crelo de verdade, arreo, mentres esteas a facelo, porque se non...
 Mais ti es ti, o mesmo que denantes de empezares.
 Mais ti segues a ser ti, o mesmo de sempre.
@@ -7207,6 +7209,7 @@ Ninguén podía dicir outro tanto
 Ninguén quere volver preto do mar.
 Ninguén se atreve a poñerme a man encima ou a ameazarme cunha arma.
 Ninguén sentou nunha pedra que falase ben dela
+Ninguén te lembra.
 Ninguén terá copas en propiedade.
 Ninguén vira nunca nada así
 Ninguén é profeta en terra propia
@@ -8003,6 +8006,7 @@ Non, van aforcarme porque me acusaron de asalto con agresión.
 Non, xa lle digo que me gusta divertirme con el.
 Non, xa teñen un.
 Non, xamais serei decano de ningunha Escola de Agricultura.
+Non, ¡como vai ter tan noviño!
 Non, é outra persoa.
 Non.
 Non. Alto.
@@ -8170,6 +8174,7 @@ O Río Sil é un afluente do Río Miño, que desemboca no Atlántico
 O Sol cando nace é para todos.
 O Sol nace para todos.
 O Tambre pasa pola parroquia de Castro
+O Uruguai súmase ao círculo de esquerdas en América do Sur
 O Xan é un Xanciño
 O Xurxo pescou unha troita.
 O abstemio por natureza ou por enfermidade será desterrado.
@@ -8406,6 +8411,7 @@ O fume vai pra onde os guapos
 O fundimento rompe a imaxe irracional de Hitler
 O futuro non foi moi bo contigo, non si?
 O gaiteiro sempre quere mollar a palleta
+O galego Vázquez promete 'educación e traballo' na súa investidura
 O galego non perde o rego.
 O galego é a lingua propia de Galicia.
 O galego é a nosa lingua.
@@ -8584,6 +8590,7 @@ O pan do país ten diferentes formas: o bolo, a bola, a barra.
 O panadeiro coceu unha empanada de xoubas no forno.
 O pano cae amodo.
 O parlamento aprobou medidas represivas e denegoulles o dereito de reunión
+O parlamento posibelmente faga unha declaración pública de recordo ás vítimas.
 O partido aprobou a lei coa que bonificará os casinos
 O parvo non ve a mesma árbore que ve o sabio.
 O paxaro, o niño; a araña, a arañeira; os humanos, a amizade.
@@ -12255,6 +12262,7 @@ Tráesme a conta?
 Tráiamo.
 Tráiote de volta en segundos.
 Trátannos coma animais domesticados, coma xoguetes.
+Trátase de que vostede nos diga algo, fale connosco coma un amigo;
 Trátase dun negocio innovador, que combina a alta rendibilidade coa protección do medio ambiente.
 Trátase dunha selección de obras coñecidas de autores clásicos ou case clásicos.
 Trátase dunha xuntanza para o intercambio de proxectos entre as dúas delegacións.
@@ -13243,6 +13251,7 @@ _Grazas _respondeu o aludido, molesto por aquela intromisión na súa intimidade
 _Home, ¿que quere que lle diga? _desconcertouse Xuvenal_.
 _Lévanse, mamá.
 _Madre, non me gustaría que a interesada soubese que fun eu quen...
+_Madre, sor Mónica xa está fóra agardando para falar con vostede.
 _Nando, Nandiño, ¿que che pasa?
 _Non faga caso do que lle di Norberto _interveu Noemí conciliadora_.
 _Non me decatara.
@@ -13781,6 +13790,7 @@ xogando decote con lume, tiña que queimarse
 ¡Non me fagas isto, carafio!
 ¡Non se mova, digo!
 ¡Non!, ¡que ninguén fale!
+¡Pero se con este moucho non hai quen charle!
 ¡Pobre iluso!
 ¡Por favor!
 ¡Por favor!".
@@ -13908,6 +13918,7 @@ xogando decote con lume, tiña que queimarse
 ¿Ven como río?
 ¿Vistes?
 ¿Vostede non os oe?
+¿Vostede non ten fillos?
 ¿Vou ser peor?
 ¿acaso non foran os cartos da tía avoa Lucía os que ergueran o negocio?
 ¿non os ve?
