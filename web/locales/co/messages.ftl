@@ -506,6 +506,7 @@ record-error-too-long = L'arrighjistramentu era troppu longu.
 record-error-too-quiet = L'arrighjistramentu era troppu silenziosu.
 record-cancel = Cancellà u novu arrighjistramentu
 record-three-more-instruction = Più chè trè !
+record-again-instruction = Bravu ! <recordIcon></recordIcon> Arrigistrà u vostru prossimu campionu
 record-again-instruction2 = Cuntinuate cusì, arrighjistrate vi torna <recordIcon></recordIcon>
 share-clip = Sparte u vostru campionu
 share-common-voice = Sparte Common Voice
@@ -525,10 +526,12 @@ target-segment-learn-more = Sapene di più
 ## Reporting
 
 report-offensive-language = Parlà inghjuriosu
+report-offensive-language-detail = L'infrasata cuntene parullacce
 report-difficult-pronounce = Difficiule à prununcià
 report-offensive-speech = Discorsu inghjuriosu
 success = Successu
 continue = Cuntinuate
+report-success = U raportu hè statu mandatu incù successu
 
 ## Goals
 
