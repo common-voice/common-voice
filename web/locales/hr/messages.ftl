@@ -367,26 +367,19 @@ skip-submission-description = Tijekom doprinošenja, povratne informacije preska
 skip-submission-note = Napomena: Morati ćete odabrati između opcije Govoriti ili Slušati za promjenu vrste vašeg doprinosa.
 off = Isklj.
 on = Uklj.
-avatar-clip-title = Daj glas svom avataru
-change-your-avatar-clip = Želiš promijeniti glasovni isječak?
-recording-in-progress = Snimanje glasa je u tijeku
-avatar-clip-recorded = Tvoj avatar sad uključuje glasovni isječak!
-record-voice-wave = SNIMI GLAS
-retry-voice-wave-recording = PONOVI
-re-record = SNIMI PONOVNO
-delete-voice = OBRIŠI
-recording-voice-wave = Snimanje
-delete-voice-clip = ili obriši glasovni isječak
-ready-to-upload = Prijenos podataka
-avatar-clip-fact = Davno utvrđena činjenica je, da će čitatelja ometati čitljiv sadržaj stranice, kad pogleda njezin izgled.
-recreate-voice = Ponovno stvorite radiovalove glasa
-cancel-avatar-clip-recording = Odustani
-about-avatar-clip-recording = Stvori glasovni isječak kao dio tvog avatar profila. Drugi korisnici će moći prijeći preko njega i poslušati tvoj isječak.
+
+## Profile - Email
+
 browse-file-title = Dodaj novu fotografiju
 browse-file = Povuci i ispusti ili <browseWrap>pregledaj</browseWrap>
 connect-gravatar = Poveži sa Gravatar
 gravatar_not_found = Za tvoju e-mail adresu ne postoji gravatar
 file_too_large = Odabrana datoteka je prevelika
+avatar-uploaded = Avatar je prenesen
+max-file-size = { $kb }kb max
+
+## Profile - Email
+
 manage-subscriptions = Upravljanje pretplatama
 manage-email-subscriptions = Upravljaj e-mail pretplatama
 email-already-used = E-mail adresa se već koristi za jedan drugi račun
