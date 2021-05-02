@@ -117,6 +117,7 @@ nn-NO = Novonorveški
 oc = Okcitanski
 or = Odia
 pa-IN = Pandžapski
+pap-AW = Papiamentu (Aruba)
 pl = Poljski
 ps = Paštunski
 pt = Portugalski
