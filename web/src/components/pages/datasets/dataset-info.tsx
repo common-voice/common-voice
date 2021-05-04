@@ -226,18 +226,21 @@ const DatasetCorpusDownload = ({
   const handleVersionChange = ({ target }: any) => {
     const newDatasetVersion = target.value;
     const newReleaseStats = releases[newDatasetVersion];
-    const locale = newReleaseStats.locales[bundleState.bundleLocale]
-      ? bundleState.bundleLocale
-      : 'en';
 
-    setReleaseStats(newReleaseStats);
-    setBundleState(
-      generateBundleState(
-        locale,
-        newDatasetVersion,
-        newReleaseStats.locales[locale]
-      )
-    );
+    if (newReleaseStats) {
+      const locale = newReleaseStats.locales[bundleState.bundleLocale]
+        ? bundleState.bundleLocale
+        : 'en';
+
+      setReleaseStats(newReleaseStats);
+      setBundleState(
+        generateBundleState(
+          locale,
+          newDatasetVersion,
+          newReleaseStats.locales[locale]
+        )
+      );
+    }
   };
 
   return (
