@@ -445,7 +445,8 @@ class SpeakPage extends React.Component<Props, State> {
             } = await api.uploadClip(
               recording.blob,
               sentence.id,
-              this.demoMode
+              this.demoMode,
+              recording.type
             );
             URL.revokeObjectURL(recording.url);
             sessionStorage.setItem(

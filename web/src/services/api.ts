@@ -112,7 +112,8 @@ export default class API {
   uploadClip(
     blob: Blob,
     sentenceId: string,
-    fromDemo?: boolean
+    fromDemo?: boolean,
+    format?: string
   ): Promise<{
     showFirstContributionToast?: boolean;
     hasEarnedSessionToast?: boolean;
@@ -126,7 +127,7 @@ export default class API {
         'Content-Type': blob.type,
         sentence_id: sentenceId,
         challenge: getChallenge(this.user),
-        from_demo: fromDemo ? 'true' : 'false',
+        format
       },
       body: blob,
     });
