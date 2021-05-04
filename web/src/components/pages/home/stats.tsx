@@ -222,14 +222,15 @@ export namespace ClipsStats {
       const path = this.pathRef.current;
       if (!path) {
         this.setState({ hoveredIndex: null });
+      } else {
+        const { left, width } = path.getBoundingClientRect();
+        const hoveredIndex =
+          Math.round((DATA_LENGTH * (event.clientX - left)) / width) - 1;
+        this.setState({
+          hoveredIndex:
+            hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH ? hoveredIndex : null,
+        });
       }
-      const { left, width } = path.getBoundingClientRect();
-      const hoveredIndex =
-        Math.round((DATA_LENGTH * (event.clientX - left)) / width) - 1;
-      this.setState({
-        hoveredIndex:
-          hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH ? hoveredIndex : null,
-      });
     };
 
     handleMouseOut = () => this.setState({ hoveredIndex: null });
