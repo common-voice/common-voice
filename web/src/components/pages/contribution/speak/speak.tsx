@@ -449,11 +449,16 @@ class SpeakPage extends React.Component<Props, State> {
               recording.type
             );
             URL.revokeObjectURL(recording.url);
-            sessionStorage.setItem(
-              'challengeEnded',
-              JSON.stringify(challengeEnded)
-            );
-            sessionStorage.setItem('hasContributed', 'true');
+            try {
+              sessionStorage.setItem(
+                'challengeEnded',
+                JSON.stringify(challengeEnded)
+              );
+              sessionStorage.setItem('hasContributed', 'true');
+            } catch(e) {
+              console.warn(`A sessionStorage error occurred ${e.message}`);
+            }
+
             if (showFirstContributionToast) {
               addAchievement(
                 50,
