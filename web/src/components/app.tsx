@@ -323,6 +323,9 @@ class App extends React.Component {
       dsn: SENTRY_FE_DSN,
       environment: isProduction() ? 'prod' : 'stage',
       release: process.env.GIT_COMMIT_SHA || null,
+      ignoreErrors: [
+        "ResizeObserver loop limit exceeded"
+      ],
     });
 
     if (isProduction() && !doNotTrack()) {
