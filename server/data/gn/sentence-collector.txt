@@ -93,6 +93,7 @@ Apytu'ũroky
 Apytuʼũ resãi tekove resãime.
 Apytáta ápe ko ka'arukue.
 Arahaku térã roʼýgui.
+Arai iñasãi
 Araka'e pevépa repytáta.
 Araka'épa aikuaáta.
 Araka'épa rejevýta.
@@ -116,6 +117,7 @@ Ary paha ha iñemano.
 Ary paha rupi.
 Ary pahávo.
 Ary pe Represa Jasyretãme.
+Asaje katu, jekaru mboyve, oĩ terere jopy.
 Asia ñe'ẽnguéra.
 Astudiahína guarani.
 Atopáma che vaka.
@@ -164,6 +166,7 @@ Berlín ha'e tavusu.
 Blas Marangatu niko pohãnohára ha avare.
 Boquerón omeʼẽkuri verapy Estigarribia rérape.
 Bueno.
+Campeonatos nacionales.
 Caracasniko itavaguasu.
 Castelví róga.
 Cervantes rembiapokue.
@@ -253,6 +256,7 @@ Chákope oĩ papoichagua eíra.
 Chéngo ndahaʼeivoi arupigua”.
 Chéverõ g̃uarã oĩ porã.
 Clari róga.
+Colonias habilitadas.
 Correa da Cámara osẽʼakue Concepcióngui ipiarikuéra.
 Correa ndive oike ombaʼapo ñohaʼãngápe guive.
 César Barrientos Yvykuʼi.
@@ -277,6 +281,7 @@ Eju Tupã raʼymi.
 Eju jakaru.
 Eju jakaru. Ho’ysãmbáta nde pizza.
 Eju, ñarambosátama.
+Ejúpy jaterere
 Ejútapio.
 El jeheʼa es el sinónimo de nuestra mediocridad.
 Emañami
@@ -359,6 +364,7 @@ Ha'e opurahéi vai ka'úre.
 Ha'e peteĩ mba'eporã.
 Ha'e peteĩ temiandu.
 Ha'e peteĩ ygarenda.
+Ha'e ñanembopuka
 Ha'ekuéra nahániri.
 Ha'ekuéra ohendúkuri chupe.
 Ha'ekuéraniko chokokue.
@@ -374,6 +380,7 @@ Hapykuere.
 Hasy peve Guarani ohupyty pe mbaʼe tuichaitéva.
 Hasy peve niko opytákuri oke koʼẽmbotávoma.
 Hasyeterei chupe.
+Hasynunga jajuhu hag̃ua peteĩmínte jepe ñane retãygua oikuaa'ỹva mba'épa terere.
 Hasýma chupe iveve.
 Haʼe imbarakapu ipajévape ore mbojuruheʼẽ.
 Haʼe ndojapói mbaʼeve ivaíva.
@@ -417,6 +424,7 @@ Ha’ekuéra oñe’ẽ vai hese.
 Ha’use pizza kesúre.
 Ha’use y ho’ysã porãva.
 He piko?
+He'uve pizza Júliogui.
 Hei avei oĩha ambueichagua ostomía.
 Heko rehegua.
 Heko tapiápe Pychãichi oho ndouvéi.
@@ -648,6 +656,7 @@ Ja'u ka'aguýpe hoguekue.
 Jaha.
 Jahayhúrõ Guarani jahayhu ñane retã.
 Jahána. Atererese.
+Jahápy ja'u terere
 Jaikuaava kuña iporãitéva.
 Jaipota peteĩ computadora ipya’evéva.
 Jaipotápa upéva chéverõ g̃uarã nahániri.
@@ -664,12 +673,14 @@ Jakarupáma.
 Jakavere ypykue káso ñemombeʼu.
 Japracticáma.
 Japyta upéicha.
+Japytu'umína ha jaterere
 Japáyke irũnguéra.
 Japón ñe'ẽ mbo'esyry
 Jastudiapáma.
 Jasypokõime.
 Jasypápe ndaiporiguasuvéima hiʼupyrã.
 Jatereréke.
+Jatererépy
 Jatereréta ko ka'aru.
 Jatevu ndahevíri.
 Jaʼe ha opa.
@@ -768,6 +779,7 @@ Koʼãva ikatupyryvéma.
 Koʼẽvo oke ha pyhare opuʼã.
 Koʼẽvo opuʼã ha pyhare oke.
 Ko’ẽro chemandu’áta.
+Kuarahy ojope
 Kuarahyresẽ gotyo.
 Kuatia rechapyrã.
 Kuatia ñemeʼẽ opavavépe.
@@ -810,6 +822,7 @@ Maitei.
 Maiteipaha tuichaháicha.
 Malvina Ñorairõ.
 Mandiʼo upe hoʼuvéva.
+Mangoguy térã óga pepoguýpe
 Mano ha Teʼõnguekuaaty Ayvureko rehe.
 Marandu ndahaʼéi jajerovu hag̃ua.
 Maravichu maravichu mbaʼémbotepa.
@@ -1092,6 +1105,7 @@ Nosẽivavoi upégui.
 Noñangarekói ijehe.
 Néi peʼúkatu pende kojói.
 Obama oúta Paraguáipe.
+Ogapy térã mba'apohápe oiko terere jere.
 Ogaraity reko.
 Ogaygua reko.
 Oguata karẽ.
@@ -1227,6 +1241,7 @@ Opa.
 Opaichagua ãngaipáre oñemona.
 Oparupirei oñepyrũ oñani ha isarambipa.
 Opavavéva omombaʼeguasúkuri umi mbaʼe ojejapómava.
+Opavavéva ñandeja oĩháme terere.
 Opirakutu ýpe.
 Oporombo'e.
 Opu'ã, oguata ha oñani.
@@ -1288,6 +1303,8 @@ Oñotỹ
 Oĩ ambue pohãnohára ndoipurúiva ñana.
 Oĩ avei heʼívaʼekue iporãitereiha ava guarani.
 Oĩ avei ojejurupetéva.
+Oĩ avei tembi'u ko'ẽngue
+Oĩ avei terere rupa
 Oĩ heta ojepyʼapýva hese.
 Oĩ hetaichagua.
 Oĩ hetaiterei tapicha ipochy ha ipochyvaíva nendive.
@@ -1311,13 +1328,16 @@ Oĩva guivénte okyhyje ha oñani henonderãgui.
 Oĩva ka'irãime.
 Oĩva moñáiko ombohypase orehegui.
 Oĩvo ijapytekuéra
+Oĩvoi oguerekóva hembiporu apytépe peteĩ angu'a'i
 Pa'iramoguare.
 Pakova roguépe omoʼã hembiʼukuéra.
+Paraguayo ha paraguaya oho jave ambue tetã rupi katuete ogueraha hendive itereremi.
 Paraguái guyraite.
 Paraguái retãme.
 Paraguái rymba'aty.
 Paraguáipe ipypore.
 Pastel mandiʼo.
+Patrimonio histórico.
 Pe mbo'ehára.
 Pe mitã iporã yvotýicha.
 Pe ogami Hosedolóre ojapovaʼekue mokõivépe g̃uarã.
@@ -1338,6 +1358,8 @@ Peteĩ tetã oiko opavave ñepytyvõ rupive.
 Peteĩ ára oñorairõmbaguasúkuri.
 Peteĩchante opavave.
 Peteĩteĩva reraguapy terarysýipe.
+Pevarã natekotevẽi jaha mbo'ehaópe
+Pevarã natekotevẽi ñamoñe'ẽ aranduka.
 Peẽ pe'usépiko pizza.
 Peẽ pesẽta.
 Pindorámaniko Brasil.
@@ -1362,10 +1384,12 @@ Pya'eterei ikãmba che aokuéra.
 Pyhare oújepi ojahu hoʼu hoʼúva ha oñeno oke.
 Pytuʼu.
 Pytã ha hovy.
+Pyvupyre ha piro'y.
 Péa ha'e.
 Péa he'ise heta mba'e.
 Péicha ha'e.
 Péicha oguatákuri ynoʼõ jerére táva Itápe.
+Péicha oiko ñehenói terererã
 Péicha omombeʼu chéve che jarýi.
 Péicha oñemohenda.
 Péicha oñepyrũkuri iñemoarandu puraheikuaápe.
@@ -1477,7 +1501,18 @@ Tenonderãite oñemomaiteíkuri poyvikuéra.
 Tereg̃uahẽporãite.
 Tereho ñanandýpe.
 Terehupyty vy'apavẽ.
+Terere je'úpe oĩ tekojoja.
+Terere jerépe ijapaite: pukarã, káso ñemombe'u, mbarakapu ha purahéi.
 Terere niko ñanembaʼe teete.
+Terere ombohasa pochy ha py'aro ñañomongetami rupi.
+Terere ombohasa tovasy ha tovapuku ñañomongetami rupi.
+Terere oñongatu ñane rembikuaa
+Tereréko ñande rekoha pytu
+Tereréniko ho'u tavaguasuygua ha okaraygua.
+Tereréniko ñane angirũ ijojaha'ỹva
+Tereréniko ñane angirũ ñanderayhurakate'ỹva.
+Tereréniko ñanembojoaju.
+Tereréniko ñanembyaty
 Tero ñemohenda.
 Teroja tekome'ẽva puru.
 Teroñe'ẽje'éva pypegua.
@@ -1532,6 +1567,7 @@ Umi ne irũniko ijapu.
 Umi tapỹime oĩ katuete oñemoarandúva avañeʼẽme.
 Umi tenda hi'ag̃uíva.
 Umi ñande ypykue niko koʼã yvy jarakue.
+Umíva katu iporãvéntema.
 Upe arýpe.
 Upe aty ojejapókuri Guarani ha España ñeʼẽme.
 Upe jave ohasa upérupi ambue okaʼúva.
@@ -1575,11 +1611,14 @@ Upéva ijarýipe g̃uarã.
 Upéva oĩ vai.
 Upéva oĩkuri umi hembiapo paha apytépe.
 Upéva tuichamba'e'akue.
+Upéva ñanembopytu'u.
+Upévaniko ñanembopy'arory
 Upévare osẽ ojeporeka tetã ambuére pe hendaguáre.
 Upévare tekotevẽ oñemboʼeve opárupi.
 Urdu ñe'ẽ reko.
 Uruguái táva.
 Vaicha ku jéta ojeʼeha oikovavoi hendivekuéra.
+Vaicha ku terere'ỹre noĩmbaivoi.
 Vaicháku ojoguerahaporãtavaʼekue.
 Vaicháku ore kũ oñeñapytĩmbáva.
 Vaivai.
@@ -1600,6 +1639,7 @@ Vúrro ha kate ndopiávai.
 Wuhan távape.
 Y ogueru y'akãgui.
 Y rehegua.
+Y ro'ysãmi ha ka'a jaguerekóma guive jaguerekóma avei terere.
 Yegros ñembyasy.
 Yga imbarete ha ituicháva.
 Ygarata jeporu.
@@ -1631,8 +1671,22 @@ Yvyty, ysyry ha yvy.
 Yvytykuéra rehegua.
 Yvága mba'e michĩve.
 Yvága rape gotyo.
+angu'a'i oipurúva ára ha ára ojoso hag̃ua pohã ro'ysã
+arahaku ha araro'ýpe
+arakue ha pyharekue terere omoirũ maymavaitépe.
+ha'éva tembi'umi terere mboyvegua.
+ha'éva Ñande Ru remimoĩngue
 heʼi upe oñeʼẽva nde reñemotenonde hese.
+ikatéva ha ichapĩva
+ipype oĩ y, ka'a ha opaichagua pohã ñana
+iñarandúva ha itavýva
+mitã, mitãrusu, kakuaa ha hi'aremivéva ho'ukuaa terere.
+omoheñói vy'a ñane ñe'ãme.
+peteĩ tapicha pukavýpe nemomaiteíva tereremíre.
+reg̃uahẽ reg̃uahẽhápe ko ñane retãme
+rejuhúta katuete peteĩ tapicha.
 térã katu oñemonge.
+upévare ipaje ha tuicha ipu'aka.
 ¡Aníkena!
 ¡Anína!
 ¡Chakorekuéra ñeʼẽme!
@@ -1658,7 +1712,9 @@ térã katu oñemonge.
 Ág̃a katu chupekuéra g̃uarã ndaipóri tekojoja.
 Ág̃akatu Maria noñemeʼẽi mavavépe.
 Ág̃akatu Pánfila nomombeʼuiete itúvape upe mbaʼe.
+Ára iporã
 Ára jasyapy jave ojegueromanduʼa Kuña Yvoragua Ára.
+Ára omimbi
 Ára pytuho.
 Ãngapy.
 Ãva oĩ hetavéva.
@@ -1679,6 +1735,7 @@ térã katu oñemonge.
 Ñandu ha Kaguare.
 Ñanduti.
 Ñane mbaʼerãʼỹ.
+Ñane ramói ha ñande jarýi oikuaauka terere ñande ru ha ñande sýpe
 Ñane retã oikotevẽ ñanderehe.
 Ñane retã ruvicha hesaraipa chuguikuéra.
 Ñane retãme ko jepokuaa ou ñandéve Colonia guive.

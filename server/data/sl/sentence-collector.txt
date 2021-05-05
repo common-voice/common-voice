@@ -40,6 +40,7 @@ Dal si mi le razlago.
 Danes si pa res tečen.
 Dejstvo je, da leti zaradi moči.
 Deluješ torej kot, prinašalka ogljikovih hidratov.
+Dobro jutro.
 Dobro zanj.
 Dobro, fantje. Veliko sreče.
 Dobro, potem pa razreši naslednjo uganko.
@@ -105,18 +106,22 @@ Ja, zakaj pa ne?
 Ja, že vem.
 Jaz bom ostal tukaj.
 Jaz bom spala na kavču.
+Jaz sem zraven.
 Jaz ti to omogočam.
 Je aktivni vrtinec neurejenosti.
 Je to njen parfum?
 Je to sploh pomembno?
 Je vesela, ker se z nekom videvam?
+Je že v redu.
 Jutri mi bodo pripeljali pohištvo, mene pa ne bo doma...
 Jutri se morava vrniti.
 Kaj bi želeli popiti?
 Kaj bova storila?
+Kaj je mislila s tem?
 Kaj je rekla? Je še jezna name?
 Kaj je smešno? To ni bil sarkazem?
 Kaj je z njo?
+Kaj je že spet?
 Kaj mu daje moč, da leti ponoči?
 Kaj pa je bilo to?
 Kaj pa je svetla stran?
@@ -182,6 +187,7 @@ Lahko prideš sem?
 Lahko spravim tole olivo v kozarec brez, da se je dotaknem.
 Le kar dobro?
 Leo, ti si zares zelo ljubek, resnično prav smešen fant.
+Lepo te je bilo spoznati.
 Lepo, da ste se oglasili.
 Ljubezen ni šprint, ampak maraton.
 Lunin odsev in energijske kožne celice iz Kriptona.
@@ -251,6 +257,7 @@ Ne sme z lepimi ženskami, ali v tvojem primeru, sirovo boginjo.
 Ne smeš ju prijaviti.
 Ne smeš prevoziti dvojne črte.
 Ne strinjam se.
+Ne tako hitro.
 Ne vem kaj naj rečem.
 Ne vem, rjave?
 Ne vem, če razumem.
@@ -342,6 +349,7 @@ Posadite nekaj dreves.
 Potem predlagam, da sprejmeš povabilo.
 Potrebujem astrofizika.
 Potrebujem tvoje mnenje glede semiologije.
+Počakaj malo.
 Počakaj tukaj.
 Počakaj, kaj si rekel?
 Počakaj, ljubica.
@@ -424,7 +432,9 @@ Si kdaj pomislil, da nimajo vsi take potrebe po urejenosti?
 Si lahko bolj natančen?
 Si polila kečap?
 Si prepričan, da nočeš na urgenco?
+Si prepričan?
 Si prišla iz službe?
+Si v redu?
 Si za?
 Sliši se dobro.
 Sliši se zabavno.
@@ -458,6 +468,7 @@ Tega pa nisem vedel.
 Tega pa res ne razumem.
 Tega sem se bal.
 Ti hočeš, da zapustim stanovanje?
+Ti je všeč?
 Ti nosiš moderne spodnjice?
 Ti si tisti, ki nosi hlače.
 Ti si to naredila?
