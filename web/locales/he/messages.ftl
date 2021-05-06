@@ -90,9 +90,14 @@ kpv = קומי־זיר
 kw = קורנית
 ky = קירגיזית
 lg = לוגנדה
+lt = ליטאית
+lv = לטבית
+mai = מאיטילי
 mdf = מוקשה
+mg = מלגשית
 mhr = מארי מישורית
 mk = מקדונית
+ml = מלאיאלאם
 mn = מונגולית
 mr = מראטהית
 mrj = מארי הררית
@@ -263,6 +268,7 @@ shortcut-record-toggle = ק
 shortcut-record-toggle-label = הקלטה/עצירה
 shortcut-rerecord-toggle-label = הקלטת קטע מחדש
 request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
+request-language-text-learn = כאן ניתן ללמוד כיצד לבקש את זה!
 request-language-button = בקשת שפה
 
 ## ProjectStatus
@@ -430,6 +436,7 @@ de-identified-explanation = התהליך שבו מידע הפרופיל של ת�
 
 ## Error pages
 
+error-title-404 = לא הצלחנו למצוא את הדף הזה עבורך
 error-content-404 = אולי <homepageLink>דף הבית</homepageLink> שלנו יכול לעזור? כדי לשאול שאלה, נא להצטרף ל<matrixLink>צ’אט הקהילה ב־Matrix</matrixLink>, לעקוב אחר בעיות באתר באמצעות <githubLink>GitHub</githubLink> או לבקר <discourseLink>בפורומים שלנו ב־Discourse</discourseLink>.
 error-code = שגיאה { $code }
 
