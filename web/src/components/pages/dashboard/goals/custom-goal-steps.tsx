@@ -110,6 +110,12 @@ export default [
     const { history } = useRouter();
     const [, toLocaleRoute] = useLocale();
     const [locale, setLocale] = useState('');
+
+    const selectedLocale = contributableLocales.includes(dashboardLocale) ? dashboardLocale : null;
+    // const dashboardLocale = contributableLocales.includes(routeLocale) ? routeLocale : null;
+    // console.log(routeLocale);
+    // console.log(contributableLocales);
+    // console.log(contributableLocales.includes(routeLocale) );
     return (
       <>
         <div className="text">
@@ -134,7 +140,7 @@ export default [
           <img className="mars" src="/img/mars.svg" alt="Mars Robot" />
         </div>
 
-        {!dashboardLocale && (
+        {!selectedLocale && (
           <div className="select-wrap">
             <Localized
               id="request-language-form-language"
@@ -158,9 +164,9 @@ export default [
             className="get-started-button"
             rounded
             {...nextButtonProps}
-            disabled={!dashboardLocale && !locale}
+            disabled={!selectedLocale && !locale}
             onClick={
-              dashboardLocale
+              selectedLocale
                 ? nextButtonProps.onClick
                 : () => {
                     history.push(

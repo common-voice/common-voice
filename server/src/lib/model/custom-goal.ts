@@ -19,6 +19,9 @@ const LISTEN_GOAL_QUERY = `
 
 export default {
   async create(client_id: string, locale: string, data: CustomGoalParams) {
+    const localeId = await getLocaleId(locale);
+    console.log(locale);
+    console.log(localeId);
     await db.query(
       `
       INSERT INTO custom_goals (client_id, locale_id, type, days_interval, amount)
@@ -26,7 +29,7 @@ export default {
     `,
       [
         client_id,
-        await getLocaleId(locale),
+        localeId,
         data.type,
         data.daysInterval,
         data.amount,

@@ -108,14 +108,16 @@ export function ReportModal({
           (!Object.values(selectedReasons).some(Boolean) && otherText == null)
         }
         onClick={() => {
-          api.report({
-            kind,
-            id,
-            reasons: Object.entries(selectedReasons)
-              .filter(([key, value]) => value)
-              .map(([key]) => key)
-              .concat(otherText || []),
-          });
+          if (id) {
+            api.report({
+              kind,
+              id,
+              reasons: Object.entries(selectedReasons)
+                .filter(([key, value]) => value)
+                .map(([key]) => key)
+                .concat(otherText || []),
+            });
+          }
           setSubmitStatus('submitted');
           onSubmitted();
         }}>
