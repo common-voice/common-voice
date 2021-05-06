@@ -275,10 +275,11 @@ const UserClient = {
       `
         UPDATE user_clients
         SET ${userData.join(', ')}
-        WHERE client_id = ?
-      `,
-      [accountClientId]
+        WHERE client_id = '${accountClientId}'
+      `
     );
+    // the accountClientId can't be a placeholder value otherwise it'll
+    // treat any ? in the username or email as a placeholder also and the query will break
 
     updateDemographics(accountClientId, data.age, data.gender);
 
