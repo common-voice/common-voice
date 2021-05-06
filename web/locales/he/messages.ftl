@@ -438,6 +438,7 @@ de-identified-explanation = התהליך שבו מידע הפרופיל של ת�
 
 error-title-404 = לא הצלחנו למצוא את הדף הזה עבורך
 error-content-404 = אולי <homepageLink>דף הבית</homepageLink> שלנו יכול לעזור? כדי לשאול שאלה, נא להצטרף ל<matrixLink>צ’אט הקהילה ב־Matrix</matrixLink>, לעקוב אחר בעיות באתר באמצעות <githubLink>GitHub</githubLink> או לבקר <discourseLink>בפורומים שלנו ב־Discourse</discourseLink>.
+error-title-503 = אנו חווים כרגע השבתה בלתי צפויה
 error-code = שגיאה { $code }
 
 ## Data
@@ -455,6 +456,7 @@ data-other-goto = מעבר אל { $name }
 data-other-download = הורדת נתונים
 data-bundle-button = הורדת מאגד סדרת נתונים
 data-bundle-description = הנתונים של Common Voice יחד עם כל סדרות הנתונים האחרות שלהלן.
+release-version = גרסה
 dataset-date = תאריך
 license = רישיון: <licenseLink>{ $license }</licenseLink>
 license-mixed = מעורב
@@ -496,6 +498,7 @@ data-other-ted-name = מאגר TED-LIUM
 data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
 data-other-voxforge-description = VoxForge הוקם לטובת איסוף של קול מתומלל לטובת שימוש במנועי זיהוי קולי בקוד פתוח.
 data-other-tatoeba-description = Tatoeba הוא מסד נתונים נרחב של משפטים, תרגומים ודיבור לשימוש לטובת לימודי שפה. הורדה זו מכילה את כל האנגלית המדוברת שהוקלטה על ידי הקהילה שלהם.
+your-feedback = יש לך רעיונות איך לשפר את מאגר Common Voice? נשמח לשמוע על כך ב־Discourse
 go-discourse = מעבר אל Discourse
 missing-language = אינך רואה את השפה שלך במאגר המידע? ניתן לבקש שפה בעמוד השפות שלנו.
 go-languages-page = מעבר לעמוד השפות
@@ -615,6 +618,8 @@ report-different-language = שפה שונה
 report-different-language-detail = נכתב בשפה שונה מזו שבחרתי לאמת.
 report-difficult-pronounce = קשה להגייה
 report-difficult-pronounce-detail = מכיל מילים או ביטויים שקשה לקרוא או להגות.
+report-offensive-speech = שפה פוגענית
+report-offensive-speech-detail = בהקלטה יש שפה מזלזלת או פוגענית.
 report-other-comment =
     .placeholder = תגובה
 success = הצלחה
@@ -658,10 +663,14 @@ recorded-clips = מקטעים שהוקלטו
 validated-clips = מקטעים שאומתו
 total-approved = סה״כ אושרו
 overall-accuracy = דיוק כללי
+show-ranking = הצגת הדירוג שלי
 
 ## Custom Goals
 
+create-custom-goal = יצירת יעד בהתאמה אישית
 goal-type = איזה סוג של יעד ברצונך לבנות?
+both-speak-and-listen = שניהם
+both-speak-and-listen-long = שניהם (דיבור והאזנה)
 daily-goal = יעד יומי
 weekly-goal = יעד שבועי
 easy-difficulty = קל
@@ -672,6 +681,7 @@ lose-goal-progress-warning = ההתקדמות שלך עד כה עשויה להי
 want-to-continue = להמשיך?
 finish-editing = לסיים את העריכה קודם לכן?
 lose-changes-warning = יציאה כעת תגרום לביטול השינויים שביצעת
+build-custom-goal = הרכבת יעד מותאם אישית
 set-a-goal = הגדרת יעד
 cant-decide = לא הצלחת להחליט?
 how-many-per-day = מצוין! כמה מקטעים ביום?
@@ -682,9 +692,15 @@ n-clips-pluralized =
         [one] מקטע אחד
        *[other] { $count } מקטעים
     }
+help-share-goal = שיתוף היעד שלך יסייע לנו לאתר קולות נוספות
+confirm-goal = אישור היעד
+goal-interval-weekly = שבועי
 share-goal-type-speak = דיבור
 share-goal-type-listen = האזנה
 share-goal-type-both = דיבור והאזנה
+weekly-goal-created = היעד השבועי שלך נוצר
+return-to-edit-goal = ניתן לחזור לכאן כדי לערוך את היעד שלך בכל עת.
+share-goal = שיתוף היעד שלי
 
 ## Profile Delete
 
@@ -696,14 +712,19 @@ profile-form-delete = מחיקת פרופיל
 
 ## Landing
 
+welcome-staff = ברוך בואך סגל { $company }!
+login-company = כניסה / הרשמה עם כתובת דוא״ל של { $company }
 profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב, ניתן לראות מדוע להלן.
 read-more-about = מידע נוסף בעמוד על אודותינו
 
 ## DemoLayout
 
+demo-welcome = ברוך בואך אל Common Voice
+demo-welcome-subheader = מעניין אותך ללמוד עוד ולתרום למיזם?
 
 ## Demo Datasets
 
+demo-language-select-card-body = הודות לתרומות של למעלה מ־259 אלף אנשים בלמעלה מ־50 שפות, נתונים אלה משמשים לאימון יישומים עם תמיכה בדיבור כדי להגיב טוב יותר לקול אנושי.
 card-button-next = הבא
 card-button-back = הקודם
 demo-language-select-label = עיון בשפות
@@ -711,9 +732,13 @@ demo-account = חשבון
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = נא למלא כתובת דוא״ל לשליחת קישור להרשמה
+demo-account-sign-up = שליחת קישור להרשמה
 
 ## Demo Contribute
 
+demo-listen-subtitle = מעניין אותך לתרום?
 
 ## Demo Dashboard
 
