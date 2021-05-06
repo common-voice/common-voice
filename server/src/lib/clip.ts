@@ -68,7 +68,12 @@ export default class Clip {
   }
 
   serveClip = async ({ params }: Request, response: Response) => {
-    response.redirect(await this.bucket.getClipUrl(params.clip_id));
+    const url = await this.bucket.getClipUrl(params.clip_id);
+    if (url) {
+      response.redirect(await this.bucket.getClipUrl(params.clip_id));
+    } else {
+      response.json({});
+    }
   };
 
   saveClipVote = async (
