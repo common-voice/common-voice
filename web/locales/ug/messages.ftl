@@ -649,7 +649,7 @@ clips-with-count-pluralized =
         [one] ئاۋاز
        *[other] ئاۋاز
     }
-goal-help-recording = Common Voice نىڭ بىزنىڭ كۈندىلىك { $goalValue } ئۈن خاتىرە نىشانىمىزنىڭ <goalPercentage></goalPercentage> غا يىتىشىگە ياردەم بەردىڭىز!
+goal-help-recording = Common Voice نىڭ كۈندىلىك { $goalValue } ئۈن خاتىرە نىشانىمىزنىڭ <goalPercentage></goalPercentage> غا يىتىشىگە ياردەم بەردىڭىز!
 goal-help-validation = Common Voice نىڭ بىزنىڭ كۈندىلىك { $goalValue } دەلىللەش نىشانىمىزنىڭ <goalPercentage></goalPercentage> غا يىتىشىگە ياردەم بەردىڭىز!
 contribute-more =
     { $count ->
