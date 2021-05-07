@@ -239,7 +239,7 @@ export default class API {
 
     const { email } = request.params;
     const basketResponse = await sendRequest({
-      uri: Basket.API_URL + '/news/subscribe/',
+      uri: Basket.BASKET_API_URL + '/news/subscribe/',
       method: 'POST',
       form: {
         'api-key': BASKET_API_KEY,
