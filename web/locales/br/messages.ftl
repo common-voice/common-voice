@@ -894,6 +894,7 @@ demo-welcome = Degemer mat e Common Voice
 
 ## Demo Datasets
 
+demo-language-select-card-header = Spletad roadennoù mouezh liesyezhek foran brasañ ar bed eo Common Voice.
 card-button-next = War-lerc’h
 card-button-back = Kent
 demo-language-select-label = Merdeiñ ar yezhoù
