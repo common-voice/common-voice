@@ -446,6 +446,11 @@ contribute = Максомс лезкс
 listen = Кунсоломс
 skip = Ютамс вакска
 shortcuts = Керязь кить
+clips-with-count-pluralized =
+    { $count ->
+        [one] Ролик
+       *[other] Роликт
+    }
 contribute-more =
     { $count ->
        *[other] Анокат седе тов { $count } теемс?
