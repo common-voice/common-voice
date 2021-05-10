@@ -172,6 +172,7 @@ home-cta = Сухан гӯед, саҳми худро гузоред!
 show-wall-of-text = Бештар хондан
 vote-yes = Ҳа
 vote-no = Не
+speak-subtitle = Овози худро пешкаш кунед
 hours-recorded = Соатҳои сабтшуда
 hours-validated = Соатҳои тасдиқшуда
 all-locales = Ҳама
@@ -258,15 +259,14 @@ download-profile = Боргирӣ кардани маълумоти ман
 contribution-experience = Таҷрибаи саҳмгузорӣ
 off = Ғайрифаъол
 on = Фаъол
-avatar-clip-title = Ба аватари худ овоз диҳед
-retry-voice-wave-recording = АЗ НАВ КӮШИШ КАРДАН
-re-record = АЗ НАВ САБТ КАРДАН
-delete-voice = НЕСТ КАРДАН
-recording-voice-wave = Сабт шуда истодааст
-ready-to-upload = БОР КАРДАН
-cancel-avatar-clip-recording = БЕКОР КАРДАН
+
+## Profile - Email
+
 browse-file-title = Бор кардани файли тасвирӣ
 connect-gravatar = Бо Gravatar пайваст шавед
+
+## Profile - Email
+
 add-language = Илова кардани забон
 
 ## FAQ
@@ -463,6 +463,7 @@ demo-account = Ҳисоб
 
 ## Demo Contribute
 
+demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## Demo Dashboard
 
