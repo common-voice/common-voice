@@ -360,26 +360,19 @@ skip-submission-description = Oñepytyvõ aja noñemondomo’ãi marandu’i oje
 skip-submission-note = Jesarekorã: Tekotevẽta gueteri eiporavo Eñe’ẽ térã Ehendu ere hag̃ua mba’éichapa reipytyvõse.
 off = Mboguepyre
 on = Hendypyre
-avatar-clip-title = Eme’ẽ ne ra’ãnga’ípe ijahy’orã
-change-your-avatar-clip = Emoambuesépa ne ñe’ẽryapu?
-recording-in-progress = Oñeñongatuhína ñe’ẽ
-avatar-clip-recorded = ¡Ne ra’ãnga’i ijahy’óma ko’ág̃a!
-record-voice-wave = EÑE’ẼÑONGATU
-retry-voice-wave-recording = EHA’ÃJEY
-re-record = EÑONGATUJEY
-delete-voice = MBOGUETE
-recording-voice-wave = Eñongatuhína
-delete-voice-clip = térã  Embogue ñe’ẽryapu
-ready-to-upload = HUPI
-avatar-clip-fact = Aréma ojekuaa hesahoreítaha omoñe’ẽva ohecháramo kóicha.
-recreate-voice = Ejapojey Ñe’ẽryapu
-cancel-avatar-clip-recording = HEJA
-about-avatar-clip-recording = Embojoapy ne ra’ãnga’ípe ñe’ẽryapu. Ambuéva ohendukuaáta he’íva ne ra’ãnga’i omoĩ vove hu’y hi’ári.
+
+## Profile - Email
+
 browse-file-title = Ehupi ta’ãnga
 browse-file = Etyryry ha Epoi ỹrõ <browseWrap>Eikundaha</browseWrap>
 connect-gravatar = Embojoaju Gravatar reheve
 gravatar_not_found = Ndojejuhúi Gravatar ne ñe’ẽveve pegua
 file_too_large = Tuichaitereíma marandurenda eiporavova’ekue
+avatar-uploaded = Avatar jehupi
+max-file-size = { $kb } kb max
+
+## Profile - Email
+
 manage-subscriptions = Eñangareko Ñemboheraguapykuéra rehe
 manage-email-subscriptions = Eñangareko Ñe’ẽveve Ñemboheraguapykuéra rehe
 email-already-used = Ko Ñe’ẽveve ojeporúma ambue cuénta reheve.
@@ -872,6 +865,7 @@ read-more-about = Eikuaave kóva rehe ore Mba’e rehegua roguépe
 
 demo-get-started = Ñañepyrũkatu
 demo-welcome = Eg̃uahẽporã Common Voice-pe
+demo-welcome-subheader = ¿Eikuaasevépa térã eipytyvõse ko apopyrãme?
 
 ## Demo Datasets
 
