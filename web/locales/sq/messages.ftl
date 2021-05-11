@@ -140,6 +140,7 @@ tr = Turqisht
 tt = Tatare
 uby = Ybyke
 udm = Udmurt
+ug = Ujgur
 uk = Ukrainase
 ur = Urdu
 uz = Uzbeke
@@ -344,26 +345,19 @@ skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e p�
 skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
 off = Off
 on = On
-avatar-clip-title = Jepini zë avatarit tuaj
-change-your-avatar-clip = Doni të ndryshoni copëzën zanore?
-recording-in-progress = Incizim zëri në ecuri e sipër
-avatar-clip-recorded = Avatari juaj tashmë përmban një copëz zanore!
-record-voice-wave = INCIZONI VALË ZANORE
-retry-voice-wave-recording = RIPROVONI
-re-record = RIINCIZOJENI
-delete-voice = FSHIJE
-recording-voice-wave = Po incizohet
-delete-voice-clip = ose Fshijeni copëzën zanore
-ready-to-upload = NAGRKOJE
-avatar-clip-fact = Është fakt i njohur prej kohësh që një lexuesi do t’i tërheqë vëmendjen lënda e lexueshme e një faqeje, teksa shihet skicimi grafik i saj.
-recreate-voice = INCIZONI VALË ZANORE
-cancel-avatar-clip-recording = ANULOJE
-about-avatar-clip-recording = Krijoni një copëz zanore si pjesë e avatarit të profilit tuaj. Të tjerët do të jenë në gjendje të dëgjojnë copëzën tuaj duke i kaluar kursorin përsipër.
+
+## Profile - Email
+
 browse-file-title = Ngarkoni kartelë figure
 browse-file = Merreni dhe vëreni ose <browseWrap>Shfletoni</browseWrap>
 connect-gravatar = Lidhuni përmes Gravatari
 gravatar_not_found = S’u gjet gravatar për email-in tuaj
 file_too_large = Kartela e përzgjedhur është shumë e madhe
+avatar-uploaded = Avatari u ngarkua
+max-file-size = Maksimumi { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Administroni Pajtime
 manage-email-subscriptions = Administroni Pajtime Me Email
 email-already-used = Email-i është tashmë i përdorur për një tjetër llogari
