@@ -550,10 +550,19 @@ target-segment-learn-more = Sapene di più
 
 ## Reporting
 
+report = Raportu
+report-title = Invià un raportu
+report-ask = Qualessu hè u prublemu chè voi incuntrate incù sta frasa ?
 report-offensive-language = Parlà inghjuriosu
 report-offensive-language-detail = L'infrasata cuntene parullacce
+report-different-language = Parlà sfarentu
+report-different-language-detail = Hè scrittu in un parlà sfarentu di quellu ch'o parlu.
 report-difficult-pronounce = Difficiule à prununcià
+report-difficult-pronounce-detail = Cuntene parolle o infrasate troppu difficiule à leghje o à prununcià.
 report-offensive-speech = Discorsu inghjuriosu
+report-offensive-speech-detail = U campionu cuntene parolle irrispettose o inghjuriose.
+report-other-comment =
+    .placeholder = Cummintà
 success = Successu
 continue = Cuntinuate
 report-success = U raportu hè statu mandatu incù successu
@@ -573,11 +582,16 @@ toward-next-goal = Versu u prussimu scopu
 goal-reached = Scopu realizatu
 clips-you-recorded = Campioni chè voi avete arrighjistrati
 clips-you-validated = Campioni chè voi avete cunvalidati
+todays-recorded-progress = I prugressi oghjinchi di Common Voice à nant'à i campioni arrighjistrati
+todays-validated-progress = I prugressi oghjinchi di Common Voice à nant'à i campioni cunvalidati
 stats = Statistiche
+awards = Ricumpense
 you = Tù
 everyone = Ognunu
 recorded-clips = Campioni arrighjistrati
 validated-clips = Campioni cunvalidati
+set-visibility = Definisce a mo visibilità
+show-ranking = Muscià a mo classifica
 
 ## Custom Goals
 
@@ -588,8 +602,12 @@ weekly-goal = Scopu di a settimana
 easy-difficulty = Faciule
 average-difficulty = Mediana
 difficult-difficulty = Difficiule
+pro-difficulty = Prufessiunale
 want-to-continue = Vulete cuntinuà ?
 build-custom-goal = Definisce un scopu parsunale
+set-a-goal = Definisce un scopu
+cant-decide = Ùn pudete decide ?
+how-many-per-day = Bè ! Quantu campioni à u ghjornu ?
 how-many-a-week = Bè! Quantu campioni à a settimana ?
 which-goal-type = Vulete parlà, ascultà o i duie ?
 n-clips-pluralized =
@@ -597,12 +615,15 @@ n-clips-pluralized =
         [one] { $count } campionu
        *[other] { $count } campioni
     }
+goal-interval-weekly = Settimanale
 weekly-goal-created = U vostru scopu sittimanale hè statu creatu
 daily-goal-created = U vostru scopu ghjurnalieru hè statu creatu
+share-goal = Sparte u mo scopu
 
 ## Profile Delete
 
 keep = Mantene
+remove = Caccià
 why-delete-recordings =
     L’arrighjistramenti di Common Voice sò ghjuvati dà universitarii, imprese chjuche, è appassiunati di a ricunniscenza vucale pà aiutà à addestrà è fà cresce risorze publiche cum’è mudelli vucale.
     
