@@ -412,6 +412,7 @@ about-speak-text = מתנדבים מקליטים קטעי קול על ידי ה�
 about-listen-queue = תור האזנה
 about-listen-queue-text = קטעי קול שהוגשו לתור שמכין אותם להאזנה.
 about-listen = האזנה
+about-listen-text = משתמשים מאמתים את דיוק המקטעים שנתרמו, כדי לבדוק שהדוברים מקריאים את המשפט נכון.
 about-is-it-valid = האם הקטע תקף?
 about-is-it-valid-text = קטע קולי נחשב „תקף” כאשר מתקבלת עבורו הצבעת „כן”.
 about-partners = שותפים
