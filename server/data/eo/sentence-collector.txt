@@ -2026,12 +2026,14 @@ Bonokaze ĝi ĉesas plori.
 Bonus se samkvalita servo ekzistus en Esperanto.
 Bonvenigon al ĉiuj.
 Bonvenon al la nova Esperanto-Plaĝo en Hispanio!
+Bonvenon al la spektaklo!
 Bonvenon al mia blogo.
 Bonvenon al nia asocio.
 Bonvenon al nia diskutejo!
 Bonvenon al nia paĝaro.
 Bonvenon babiladoj.
 Bonvenon denove, karaj.
+Bonvenon en la spektaklo!
 Bonvenon en ĝin!
 Bonvenon kontakti nin!
 Bonvenon ĉe nia elsendo.
@@ -5002,6 +5004,7 @@ Estas tempo por vespermanĝo.
 Estas terure!
 Estas tia hajla pluvego kaj ili ne havas ombrelon!
 Estas tiel mallonge ke indas iri piede.
+Estas tiel simple!
 Estas tiel, kaj nenio fareblas.
 Estas tiel.
 Estas tio nur la papo!
@@ -6219,7 +6222,15 @@ He, kiu havas tempon, por iri serĉi lakton kaj bulkojn!
 He, mastro!
 Hector proponis, ke estu sistemo de Esperantaj konsuloj.
 Hej Flo!
+Hej vi, ĉu vi povas aŭdi min?
+Hej!
+Hej, bonvenon.
+Hej, kial vi faris tion?
+Hej, kiel vi estas?
+Hej, kiu vi estas?
 Hej, li tuj respondas.
+Hej.
+Hej?
 Hejma lingvolernado.
 Hejma vortaro.
 Hejmaj malfacilaĵoj.
@@ -6396,6 +6407,8 @@ Ho, mi estis svenonta!
 Ho, mi havas alian demandon.
 Ho, mi komprenas, mi komprenas.
 Ho, mi konas la plej profundajn el la diversaj profundaj signifojn de tiu vorto!
+Ho, mi neniam diris tion.
+Ho, mi pensas ke li pravas.
 Ho, mi revus, ke tiel estu!
 Ho, mi tre miras kio okazis al mi.
 Ho, mi tre ĝojas.
@@ -8101,6 +8114,7 @@ Jen surprizo!
 Jen tabelo, publikigita en nia retejo.
 Jen tasko vere inda je lia direktisteco.
 Jen temo kiu meritas, anstataŭ diskutoj plenaj de pasio, studojn de profunda pripenso.
+Jen testo.
 Jen tiel!
 Jen tiel!..
 Jen tiel.
@@ -17787,6 +17801,7 @@ Maĥiac rigardis ĉirkaŭ li, sed ĉie estis malluma.
 Maĥiac turnis sin al la stelo denove, kaj ekparolis.
 Maĥiac, vi perdis la vojon.
 Maĥiac, ĉu pro timo aŭ malpacienco, komencis koleriĝi je la stelo ridanta.
+Maŝina lernado.
 Maŝinismo venigis la industrian revolucion, kiu perfektigis homekspluatadon kaj pravigis la aktualan kapitalismon.
 Maŝinoj supre elŝutis la mezuritan kvanton da ĵetonoj en la disdonujojn.
 Medicinaj malpermesoj kaj virtoreguloj promesas longan sed tamen enuan vivon.
@@ -19416,6 +19431,7 @@ Mi nun revenis al mia floso por elflosigi miajn provizaĵojn, kiu okupis min tag
 Mi nun rimarkis, ke la nebulo malaperis, kaj kun surprizo mi rigardis ĉirkaŭ mi.
 Mi nun scipovas danki kaj saluti la finnojn en ilia propra lingvo.
 Mi nun serĉis kaprojn, kaj ordigis kaptilojn por ili, kun rizo por allogaĵo.
+Mi nun testas la sistemon.
 Mi nun tre zorgas pri nia unua kovrilpaĝo.
 Mi nun ŝatas ĝui ambaŭ situaciojn.
 Mi nun ŝatus uzi tiujn spertojn por gvidi la organizon.
@@ -22283,6 +22299,7 @@ Ni parolu pri vi, ŝi diris.
 Ni parolu.
 Ni paŝadas plu.
 Ni pensas ke la germana sistemo estas pli bona ol la franca.
+Ni pensas ke tio sufokas novaĵkreemon.
 Ni pensas same.
 Ni pensis, ke ni kaŝos nin en niaj ĉambroj.
 Ni pensu pri tio dum momento.
@@ -22779,6 +22796,7 @@ Nu, liaj antaŭdiroj estis preskaŭ pravaj!
 Nu, mi ankoraŭ vivas, sed kiucele?
 Nu, mi anticipas la rakonton.
 Nu, mi diris, Kial ili permesis siajn malamikojn kapti vin?
+Nu, mi diru ke li pravas.
 Nu, mi donos al vi tiun leteron.
 Nu, mi iris al mia arbo kaj faris ian neston por dormejo.
 Nu, mi jam demandis min, ĉu vi bonvole helpos al mi?
@@ -22845,6 +22863,7 @@ Nu, tio estis nura misaĵo, kaŭzita de iuj strekoj, kiuj implikiĝis.
 Nu, tio evitigas al mi la doloran taskon, sciigi vin.
 Nu, tio ja eblas.
 Nu, tio ne gravas, ĉar por la improvizanta poeto la detaloj ne gravas.
+Nu, tio ne gravas.
 Nu, tio venigas min al mia dua sciigo.
 Nu, tre interesa konferenco ĝenerale.
 Nu, tute klare.
@@ -23907,6 +23926,8 @@ Paroli pri tia doloro samas mensogi.
 Paroli same.
 Paroli voĉe kun Esperantisto mankis al mi
 Paroli voĉe kun vi mankis al mi
+Parolrekonadilo.
+Parolrekonado.
 Parolu Esperante pro propagando.
 Parolu kuraĝe, mia fratino!
 Parolu malrapide kaj simple.
@@ -25971,6 +25992,7 @@ Saluton frato!
 Saluton kara Mielo!
 Saluton kara Mikelo!
 Saluton karaj!
+Saluton ĉiuj!
 Saluton!
 Saluton, Andreas!
 Saluton, amiko!
@@ -25980,6 +26002,9 @@ Saluton, diris la unukornulo, mi vidis ke vi bezonas helpon.
 Saluton, geamikoj!
 Saluton, kara leganto!
 Saluton, karaj amikoj!
+Saluton, mi estas Liza kaj tio estas mia jutuba kanalo.
+Saluton, mi nun testas la sistemon.
+Saluton, tio estas testo.
 Saluton, ĉiuj!
 Saluton.
 Saluton?
@@ -27167,6 +27192,7 @@ Sed por akiri la kapablon legi tiujn evidentaĵojn necesas la kono de multaj ekz
 Sed por kio fari elekton?
 Sed por kio konjako?
 Sed por kio?
+Sed por krei voĉajn sistemojn, programistoj bezonas tre grandan kvanton da voĉaj datumoj.
 Sed por mi "Esperanto" estas ne nur lingvo.
 Sed por mi la utopia esperantista idealismo estas alloga.
 Sed por mi religiaj stultaĵoj estas neelĉerpebla fonto de amuzo.
@@ -29078,6 +29104,7 @@ Terure emociigita ermito atendis.
 Terure lerte oni ĝin elŝtelis.
 Teruro kaj dolorego esprimiĝis per ĉiuj trajtoj de ŝia esprimoplena vizaĝo.
 Teruro tamburis en ŝia koro.
+Testo testo, unu, du, tri.
 Teĥnike tia komunikado estas jam principe nesekura.
 Tia agado de sendado de informoj en presita formo daŭris jarojn.
 Tia aserto, tamen, estas stulta kaj ridinda.
@@ -29258,6 +29285,7 @@ Tial ni scias ke vi jam suferis mildan koratakon.
 Tial ni sekvis la paŝojn de la pioniroj!
 Tial ni sentis nin feliĉaj kaj iel senpaciencaj.
 Tial ni volas akiri voĉojn de ĉiuj seksoj, akĉentoj kaj aĝoj en la datumbazo.
+Tial ni volegas krei uzeblajn voĉajn teknologiojn por niaj maŝinoj.
 Tial nia leporo ne mortis.
 Tial nia terminologio baziĝas sur la greka-latina fundamento.
 Tial nova evoluo devas esti ĉiuflanke ekvilibra kaj kontinuigebla.
@@ -29927,6 +29955,7 @@ Tio estas lia kompanio.
 Tio estas libro!
 Tio estas logiko.
 Tio estas longa kaj komplika devio.
+Tio estas malaĉa!
 Tio estas maljusteco de la viroj al virinoj.
 Tio estas malmulte alloga.
 Tio estas malpermesita!
@@ -30234,6 +30263,7 @@ Tio nun estas moda.
 Tio nun ne okazos.
 Tio nun ne plu necesas.
 Tio nuntempe ne eblas, sed estas planata.
+Tio nur estas testo.
 Tio nur pliigas mian malĝojon.
 Tio nur povas signifi, ke stabila rilato per Esperanto tute eblas.
 Tio ofte okazas dum degelo.
@@ -32537,9 +32567,12 @@ Vorto de singardeco.
 Vortoj en vortojn.
 Vortoj mankas al mi por priskribi la terurecon.
 Vorton de honoro!
+Voĉa sistemo.
 Voĉdonanto ricevis du balotilojn por indiki kandidaton kaj partion.
 Voĉo de persono, kiun mi ne vidis, respondis ŝin.
+Voĉo estas natura, voĉo estas homa.
 Voĉoj por pli moderaj partioj male ne montris grandan ŝanĝon.
+Voĉrekonado
 Vulgare, por esprimi, ke ĉiu ĉeestis, oni diras, ke eĉ kato venis.
 Vulkanoj el la eksplodema tipo troviĝas laŭlonge de zono ĉirkaŭ Pacifiko.
 Vulkanoj troviĝas ofte tie, kie la kontinentplatoj dislokiĝas.
