@@ -2,6 +2,7 @@ import * as sendRequest from 'request-promise-native';
 import { getConfig } from '../config-helper';
 import { getMySQLInstance } from './model/db/mysql';
 import { computeGoals } from './model/goals';
+import { AWS } from './aws';
 
 type UserEmailStats = {
   client_id: string;
@@ -20,14 +21,15 @@ type UserEmailStats = {
 
 const { BASKET_API_KEY, ENVIRONMENT } = getConfig();
 const db = getMySQLInstance();
+const sqs = AWS.getSqs();
 
-export const API_URL =
+export const BASKET_API_URL =
   ENVIRONMENT == 'prod' || ENVIRONMENT == 'stage'
     ? 'https://basket.mozilla.org'
     : 'https://basket-dev.allizom.org';
 
 const basketConfig = {
-  uri: API_URL + '/news/common-voice-goals/',
+  uri: BASKET_API_URL + '/news/common-voice-goals/',
   method: 'POST',
   headers: {
     'x-api-key': BASKET_API_KEY,
@@ -38,11 +40,39 @@ function toISO(date: string) {
   return date ? new Date(date).toISOString().slice(0, -5) + 'Z' : null;
 }
 
+/*
+ * Wrapper function to sync user activity to email provider
+ * - Basket = MoCo internal
+ * - SQS = used by MoFo agency Cinchy to talk to Acoustic
+ */
+async function syncToEmailProvider(data: any) {
+  if (getConfig().CINCHY_ENABLED) {
+    const cinchyParams = {
+      MessageBody: JSON.stringify(data),
+      QueueUrl: getConfig().CINCHY_CONFIG.endpoint
+    }
+
+    sqs.sendMessage(cinchyParams, (err, data) => {
+      if (err) {
+        console.log("Cinchy SQS error:", err);
+      }
+    });
+  } else {
+    sendRequest({
+      ...basketConfig,
+      form: data,
+    }).catch(err => console.error(err.message));
+  }
+}
+
+/*
+ * Fetch the most recent time the user was synced
+ */
 async function getCurrentStatus(client_id: string) {
   const [[row]] = await db.query(
     `SELECT u.*,
       NOW() AS new_last_active,
-      HOUR(TIMEDIFF(NOW(), u.last_active)) AS hours_elapsed
+      MINUTE(TIMEDIFF(NOW(), u.last_active)) AS mins_elapsed
     FROM user_client_newsletter_prefs AS u
     WHERE client_id = ?`,
     [client_id]
@@ -51,7 +81,10 @@ async function getCurrentStatus(client_id: string) {
   return row;
 }
 
-function updateLastActive(currentUserStats: UserEmailStats) {
+/*
+ * Only send the last time the user was active
+ */
+function syncLastActive(currentUserStats: UserEmailStats) {
   db.query(
     `UPDATE user_client_newsletter_prefs
       SET last_active = ?
@@ -64,13 +97,13 @@ function updateLastActive(currentUserStats: UserEmailStats) {
     last_active_date: toISO(currentUserStats.new_last_active),
   };
 
-  sendRequest({
-    ...basketConfig,
-    form: data,
-  }).catch(err => console.error(err.message));
+  syncToEmailProvider(data);
 }
 
-async function updateFullBasket(currentUserStats: UserEmailStats) {
+/*
+ * Send full account info to user
+ */
+async function syncFullAccount(currentUserStats: UserEmailStats) {
   const [[computed]] = await db.query(
     `
       SELECT
@@ -88,7 +121,7 @@ async function updateFullBasket(currentUserStats: UserEmailStats) {
             SELECT 1
             FROM reached_goals
             WHERE type = 'streak' AND client_id = newsletter.client_id
-              AND count = 3  
+              AND count = 3
           ) AND EXISTS(
             SELECT 1
             FROM streaks
@@ -114,11 +147,11 @@ async function updateFullBasket(currentUserStats: UserEmailStats) {
   db.query(
     `
       UPDATE user_client_newsletter_prefs
-      SET 
+      SET
         first_contrib = ?,
-        goal_created = ?, 
+        goal_created = ?,
         goal_reached = ?,
-        two_day_streak = ?, 
+        two_day_streak = ?,
         last_active = ?
       WHERE client_id = ?`,
     [
@@ -143,19 +176,23 @@ async function updateFullBasket(currentUserStats: UserEmailStats) {
     two_day_streak: Boolean(computed.two_day_streak),
   };
 
-  sendRequest({
-    ...basketConfig,
-    form: data,
-  }).catch(err => console.error(err.message));
+  syncToEmailProvider(data);
 }
 
+
+
+/*
+ * Sync current account info to email provider if
+ * there is updated data and it's been more than 5 minutes
+ */
 export async function sync(client_id: string) {
   await computeGoals(client_id);
   const currUserStats = await getCurrentStatus(client_id);
 
   // If no newsletter prefs exist, they don't get email triggers
-  // If last update was within the past hour, do not send another sync
-  if (!currUserStats || parseInt(currUserStats.hours_elapsed) === 0) {
+  // If last update was within the past 5 minutes, do not send another sync to
+  // prevent spamming endpoint
+  if (!currUserStats || parseInt(currUserStats.mins_elapsed) <= 5) {
     return;
   }
 
@@ -166,9 +203,9 @@ export async function sync(client_id: string) {
     currUserStats.goal_reached &&
     currUserStats.two_day_streak
   ) {
-    return updateLastActive(currUserStats);
+    return syncLastActive(currUserStats);
   }
 
   // otherwise, do a full calculation
-  return updateFullBasket(currUserStats);
+  return syncFullAccount(currUserStats);
 }
