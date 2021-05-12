@@ -443,6 +443,7 @@ get-started-speech = Cummincià incù a ricunniscenza vucale
 feedback-q = Avete sugestione ?
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = U corpus TED-LIUM hè statu fattu incù i discorsi è e so trascrizzione dispunibile à nant'à u situ TED.
+data-other-tatoeba-description = Tatoeba hè una banca maiò d'infrasate, traduzzione è ducumenti urali chì ghjovanu à l'imparera di e lingue. Issu scaricamentu cuntene ducumenti urali, in inglese, arrigistratu da a so cummunità.
 go-discourse = Andà nant'à Discourse
 missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dumandà una lingua, andate annantu à a nostra paghjina Lingue.
 go-languages-page = Andà à a pagina di e lingue
@@ -456,6 +457,10 @@ dataset-version = Versione
 
 download-title = U vostru caricamentu hà cumminciatu
 download-helpus = Aiutateci à custruisce una cumunità intornu à a tecnulugia vucale, state in cuntattu via email.
+download-form-email =
+    .label = Scrivite u vostru indirizzu elettronicu
+    .value = Vi ringraziemu, vi cuntattaremu.
+download-back = Vultà à e banche di dati di Common Voice
 download-no = Innò, vi ringraziu
 
 ## Contact Modal
@@ -494,6 +499,7 @@ total-hours = Ore cunvalidate
 
 ## Contribution
 
+contribute = Cuntribuisce
 skip = Scappà
 shortcuts = Scurtatoghji
 clips-with-count-pluralized =
@@ -507,6 +513,8 @@ contribute-more =
        *[other] Prontu pà fanne { $count } di più ?
     }
 record-cta = Cummincià l'arrighjistramentu
+record-platform-not-supported = Scusateci, a vostra piattaforma ùn hè micca attualmente pigliata in carica.
+record-platform-not-supported-desktop = A nant'à l'urdinatori pudete cuntribuisce scarichendu…
 record-platform-not-supported-ios-non-safari = Sottu iOS cuntinuate incù Safari pà attivà l'arrighjistramentu…
 record-must-allow-microphone = Ci vole à auturizà l'accessu à u microfonu.
 record-no-mic-found = Nissunu microfonu trovu.
@@ -514,6 +522,8 @@ record-error-too-short = L'arrighjistramentu era troppu chjucu.
 record-error-too-long = L'arrighjistramentu era troppu longu.
 record-error-too-quiet = L'arrighjistramentu era troppu silenziosu.
 record-cancel = Cancellà u novu arrighjistramentu
+record-instruction = { $actionType }<recordIcon></recordIcon> eppò lighjite l'infrasata ad alta voce
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> quandu vo l'avete compie
 record-three-more-instruction = Più chè trè !
 record-again-instruction = Bravu ! <recordIcon></recordIcon> Arrigistrà u vostru prossimu campionu
 record-again-instruction2 = Cuntinuate cusì, arrighjistrate vi torna <recordIcon></recordIcon>
