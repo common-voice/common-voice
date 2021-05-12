@@ -176,7 +176,6 @@ async function syncFullAccount(currentUserStats: UserEmailStats) {
     two_day_streak: Boolean(computed.two_day_streak),
   };
 
-  // @TODO: How does this handle Basket unsubscribes?
   syncToEmailProvider(data);
 }
 
@@ -184,7 +183,7 @@ async function syncFullAccount(currentUserStats: UserEmailStats) {
 
 /*
  * Sync current account info to email provider if
- * there is updated data and it's been more than 1 hour
+ * there is updated data and it's been more than 5 minutes
  */
 export async function sync(client_id: string) {
   await computeGoals(client_id);
