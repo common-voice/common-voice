@@ -632,6 +632,7 @@ profile-form-delete = Sguassà u prufilu
 
 ## Landing
 
+help-contribute = Pudeti aiutà à custruisce una banca vucala, diversificata è in accessu liberu creendu un prufilu è agghjustendu a vostra voce.
 login-company = Identificassi / Arrighjistrassi cù l’indirizzu elettronicu di { $company }
 read-more-about = Lighjiti di più annantu à a nostra paghjina Apprupositu
 
@@ -639,6 +640,7 @@ read-more-about = Lighjiti di più annantu à a nostra paghjina Apprupositu
 
 demo-get-started = Principiemu
 demo-welcome = Site benvinuti à nantu à Common Voice
+demo-welcome-subheader = Site interessati pà amparà ne di più è cuntribuisce à u prughjettu ?
 
 ## Demo Datasets
 
@@ -646,6 +648,7 @@ demo-language-select-card-header = Common Voice hè a più maiò banca di dati v
 card-button-next = Seguita
 card-button-back = Nanzu
 demo-language-select-label = Splurà e lingue
+demo-eofy-header = Publicazione di a fine d'annata 2019
 demo-account = Contu
 
 ## Demo Account
