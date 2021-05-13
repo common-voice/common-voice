@@ -634,6 +634,7 @@ profile-form-delete = Sguassà u prufilu
 
 help-contribute = Pudeti aiutà à custruisce una banca vucala, diversificata è in accessu liberu creendu un prufilu è agghjustendu a vostra voce.
 login-company = Identificassi / Arrighjistrassi cù l’indirizzu elettronicu di { $company }
+profile-not-required = Ùn c'hè bisognu di contu pà cuntribuisce ancu s'ellu hè ghjuvevule, vede perchè quì sottu.
 read-more-about = Lighjiti di più annantu à a nostra paghjina Apprupositu
 
 ## DemoLayout
@@ -653,10 +654,14 @@ demo-account = Contu
 
 ## Demo Account
 
+demo-account-card-header = Ùn c'hè bisognu di contu pà cuntribuisce, ancu s'ellu hè ghjuvevule.
+demo-account-enter-email =
+    .label = Scrivite u vostru indirizzu elettronicu pà riceve un ligame d'iscrizzione
 demo-account-sign-up = Mandà u ligame d'iscrizzione
 
 ## Demo Contribute
 
+demo-contribute-card-header = Site prontu pà aghjustà a vostra voce o appinzà l'arechja ?
 demo-contribute-card-body-v2 = Avà chì cunnusciti un pocu di più Common Voice, parchì micca pruvà ? Appughjeti l’icona di u microfonu pà cumincià à leghje l’infrasate à voce alta. <br/><br/> S’è vo prifiriti cunvalidà e cuntribuzione di l’altri participenti, appughjeti u buttone lettura. Aiutareti à assicurà chì l’arrighjistramenti currispondani à ciò chì hè scrittu annantu à u screnu.
 demo-listen-subtitle = Seti pronti à cuntribuisce ?
 
