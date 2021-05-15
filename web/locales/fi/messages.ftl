@@ -838,6 +838,7 @@ read-more-about = Lue lisää Lisätietoja-sivulta
 
 ## DemoLayout
 
+demo-get-started = Aloitetaan
 demo-welcome = Tervetuloa Common Voiceen
 
 ## Demo Datasets
@@ -850,6 +851,10 @@ demo-account = Tili
 
 ## Demo Account
 
+demo-account-card-header = Tili ei ole edellytys osallistumiselle, tosin se on hyödyllinen.
+demo-account-enter-email =
+    .label = Kirjoita sähköpostiosoite lähettääksesi rekisteröitymislinkin
+demo-account-sign-up = Lähetä rekisteröitymislinkki
 
 ## Demo Contribute
 
