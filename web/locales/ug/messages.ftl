@@ -783,15 +783,15 @@ finish-editing = ئاۋۋال تەھرىرلەشنى تاماملامسىز؟
 lose-changes-warning = ھازىر ئايرىلسىڭىز ئۆزگىرىشلەر يوق بولۇپ كېتىدۇ
 build-custom-goal = ئىختىيارى نىشان تىكلەڭ
 help-reach-hours-pluralized =
-    يىتىشىمىزغا ياردەم قىلىڭ{ NUMBER($hours) ->
+    { $language } دىكى{ NUMBER($hours) ->
         [one] { $hours } سائەت
        *[other] { $hours } سائەت
-    }{ $language } دىكى شەخسى نىشانغا
+    }شەخسى نىشانغا يېتىشىمىزگە ياردەم قىلىڭ
 help-reach-hours-general-pluralized =
-    Common Voice نىڭ يېتىشىغا ياردەمدە بولۇڭ{ NUMBER($hours) ->
+    Common Voice نىڭ  { $language } دىكى{ NUMBER($hours) ->
         [one] { $hours } سائەت
        *[other] { $hours } سائەت
-    } { $language } دىكى شەخسى نىشانغا
+    } شەخسى نىشانغا يېتىشىگە ياردەم قىلىڭ
 set-a-goal = نىشان بەلگىلەڭ
 cant-decide = قارار قىلالمىدىڭىزمۇ؟
 activity-needed-calculation-plural =
@@ -833,7 +833,7 @@ share-goal-type-speak = سۆزلەش
 share-goal-type-listen = ئاڭلاش
 share-goal-type-both = سۆزلەش ۋە ئاڭلاش
 # LINK will be replaced with the current URL
-goal-share-text = مەن ھازىرنىڭ ئۆزىدە #CommonVoice غا ئاۋاز تەقدىم ئېتىش ئۈچۈن شەخسىي نىشان تىكلىدىم - مەن بىلەن بىرلىكتە ماشىنىلارغا ھەققى كىشىلەرنىڭ قانداق سۆزلەيدىغانلىقىنى ئۆگىتىڭ{ $link }
+goal-share-text = مەن ھازىرنىڭ ئۆزىدە #CommonVoice غا ئاۋاز تەقدىم ئېتىش ئۈچۈن شەخسىي نىشان تىكلىدىم - مەن بىلەن بىرلىكتە ماشىنىلارغا ھەققىي كىشىلەرنىڭ قانداق سۆزلەيدىغانلىقىنى ئۆگىتىڭ{ $link }
 weekly-goal-created = ھەپتىلىك نىشانىڭىز بېكىتىلدى.
 daily-goal-created = كۈندىلىك نىشانىڭىز بېكىتىلدى.
 track-progress = ستاتىستىكا بېتىڭىز ياكى بۇ يەردىن ئىلگىرىلەشلەرنى ئىز قوغلاڭ.
