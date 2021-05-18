@@ -210,12 +210,10 @@ export default class AudioWeb {
       this.jsNode.onaudioprocess = undefined;
       this.recorder.removeEventListener('stop', this.recorderListeners.stop);
       this.recorderListeners.stop = (e: Event) => {
-        const type = getAudioFormat()
-        let blob = new Blob(this.chunks, { type });
+        let blob = new Blob(this.chunks, { type: getAudioFormat() });
         res({
           url: URL.createObjectURL(blob),
           blob: blob,
-          type
         });
       };
       this.recorder.addEventListener('stop', this.recorderListeners.stop);
