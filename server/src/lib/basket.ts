@@ -185,14 +185,14 @@ async function syncFullAccount(currentUserStats: UserEmailStats) {
  * Sync current account info to email provider if
  * there is updated data and it's been more than 5 minutes
  */
-export async function sync(client_id: string) {
+export async function sync(client_id: string, firstSubscribe: boolean) {
   await computeGoals(client_id);
   const currUserStats = await getCurrentStatus(client_id);
 
   // If no newsletter prefs exist, they don't get email triggers
   // If last update was within the past 5 minutes, do not send another sync to
   // prevent spamming endpoint
-  if (!currUserStats || parseInt(currUserStats.mins_elapsed) <= 5) {
+  if (!currUserStats || (parseInt(currUserStats.mins_elapsed) <= 5 && !firstSubscribe)) {
     return;
   }
 

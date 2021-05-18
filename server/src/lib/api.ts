@@ -251,7 +251,9 @@ export default class API {
         sync: 'Y',
       },
     });
-    await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
+    const clientId = await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
+    await Basket.sync(clientId, true);
+
     response.json({});
   };
 
