@@ -24,7 +24,8 @@ html[lang='ab'],
 html[lang='cv'],
 html[lang='ff'],
 html[lang='ky'],
-html[lang='ro'] {
+html[lang='ro'],
+html[lang='gn'] {
     --strong-font-family: 'Noto Serif', serif;
 }
 
