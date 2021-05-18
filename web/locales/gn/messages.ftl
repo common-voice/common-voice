@@ -524,6 +524,7 @@ dataset-date = Mba’ekuaarã
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
 data-download-singleword-title = Emboguejy Ñe’ẽryapu Pehẽ’i
+data-download-singleword-callout-v2 = Kóva peteĩ pehẽ oguerekóva mba'ekuaarã oipytyvõva oñeikũmbykuaa porãve hag̃ua jehaipy.
 review-terms = Reiporúramo Common Voice, remoneĩ ore <termsLink>Jeporu Mbojojaha</termsLink> ha avei ore <privacyLink>Kuaapyñemi rehegua Mbojojaha</privacyLink>
 terms-agree = Amoneĩ avei
 terms-disagree = Namoneĩri
@@ -869,6 +870,8 @@ demo-welcome-subheader = ¿Eikuaasevépa térã eipytyvõse ko apopyrãme?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice niko ñe'ẽryapu ñongatupyre tuichavéva oĩva yvy ape ári ha oiporukuaáva opavave. Orekóva avei heta ñe'ẽ.
+demo-language-select-card-body = Oipytyvõ rupi hetaite tapicha, hetave 259-gui oiporúva hetave 50 gui ñe'ẽ ikatu ojeporu kóva oñembokatupyry hag̃ua mohendaha oikũmby hag̃ua yvypóra ñe'ẽ.
 card-button-next = Upeigua
 card-button-back = Tapykue
 demo-language-select-label = Eyvykói ñe’ẽnguéra
