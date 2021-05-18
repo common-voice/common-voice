@@ -87,7 +87,7 @@
 
         @media (--md-up) {
             flex: 0;
-            min-width: 134px;
+            min-width: auto;
         }
 
         & svg {
