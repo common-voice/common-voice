@@ -137,6 +137,9 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
     const sentenceId = headers.sentence_id as string;
+    const format = headers['content-type'];
+    const size = headers['content-length'];
+
     if (!sentenceId || !client_id) {
       response.statusMessage = 'save_clip_missing_parameter';
       response
@@ -170,7 +173,10 @@ export default class Clip {
         .audioCodec('mp3')
         .format('mp3')
         .channels(1)
-        .sampleRate(32000);
+        .sampleRate(32000)
+        .on('error', () => {
+          console.error(`FFmpeg exited with an error for file ${clipFileName} (original size: ${size}, original format: ${format})`)
+        });
 
       await this.s3
         .upload({
@@ -180,7 +186,7 @@ export default class Clip {
         })
         .promise();
 
-      console.log('clip written to s3', clipFileName);
+      console.log(`clip written to s3 ${clipFileName} (original size: ${size}, original format: ${format})`);
 
       await this.model.saveClip({
         client_id: client_id,
