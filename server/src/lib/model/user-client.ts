@@ -322,6 +322,7 @@ const UserClient = {
             ON DUPLICATE KEY UPDATE basket_token = basket_token`,
         [client_id, email, basketToken]
       );
+      return client_id;
     }
   },
 
