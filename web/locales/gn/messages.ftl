@@ -890,7 +890,9 @@ demo-account-sign-up = Emondo mboheraguapy juajuha
 ## Demo Contribute
 
 demo-contribute-card-header = ¿Ikatúma embojuaju ne ñe’ẽ térã ehendu?
+demo-contribute-card-body-v2 = Ko'ág̃a reikuaamíma Common Voice rehegua. Mba'érepiko ndereikéi avei orepytyvõmi. Epokomi micrófono ra'ãnga'íre ha eñepyrũmi emoñe'ẽ hatã ñe'ẽjoaju ojehechaukáva ndéve. <br/><br/> Remoneĩsérõ ambuéva rembiapo eikutuva'erã votõ play, péicha erekuaa oréve ojojápa hyapu mba'ehaipyrépe.
 demo-listen-subtitle = ¿Mba’éicha eipytyvõta?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Ndekuéntaramo rerekoha moõpa rehechakuaa mboýmapa rejapóma,  ha avei mboýpa ojehupytýma.
