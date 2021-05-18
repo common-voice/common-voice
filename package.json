@@ -36,7 +36,9 @@
     "y18n": "^4.0.1",
     "netmask": "^2.0.1",
     "is-svg": "^4.2.2",
-    "ssri": "^8.0.1"
+    "ssri": "^8.0.1",
+    "merge": "^2.1.1",
+    "underscore": "^1.12.1"
   },
   "scripts": {
     "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\"",
