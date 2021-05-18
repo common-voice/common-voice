@@ -185,7 +185,7 @@ async function syncFullAccount(currentUserStats: UserEmailStats) {
  * Sync current account info to email provider if
  * there is updated data and it's been more than 5 minutes
  */
-export async function sync(client_id: string, firstSubscribe: boolean) {
+export async function sync(client_id: string, firstSubscribe?: boolean) {
   await computeGoals(client_id);
   const currUserStats = await getCurrentStatus(client_id);
 
