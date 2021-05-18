@@ -882,6 +882,7 @@ demo-account = Mba’ete
 ## Demo Account
 
 demo-account-card-header = Natekotevẽi ne mba’ete reporopytyvõ hag̃ua, iporãro jepe.
+demo-account-card-body = Ore romoĩ kuaapyrã opavave pópe. Eiporumi joajuha oĩva iguýpe eiporu ñepyrũ hag̃ua Common Voice peteĩ cuenta rupive.
 demo-account-enter-email =
     .label = Ehai ñanduti veve emondo hag̃ua jehaipyre juajuha
 demo-account-sign-up = Emondo mboheraguapy juajuha
