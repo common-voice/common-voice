@@ -170,10 +170,7 @@ export default class Clip {
         .audioCodec('mp3')
         .format('mp3')
         .channels(1)
-        .sampleRate(32000)
-        .on('error', () => {
-          console.error(`FFmpeg exited with an error for file ${clipFileName} format ${headers.format}`)
-        });
+        .sampleRate(32000);
 
       await this.s3
         .upload({
