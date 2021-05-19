@@ -270,9 +270,11 @@ female = Babae
 other = Ibang Kasarian
 why-profile-title = Bakit isang profile?
 dashboard = Dashboard
+build-profile = Gumawa ng Profile
 avatar = Avatar
 goals = Mga layunin
 settings = Mga Setting
+edit-profile = i-Edit ang Profile
 profile-close = Isara
 profile-explanation = Subaybayan ang iyong pag-unlad gamit ang iyong profile at tulungan ang aming data ng mga boses na mas maging tama.
 thanks-for-account = Salamat sa pagkumpirma ng iyong account, ngayon gawin natin ang iyong profile.
@@ -344,6 +346,7 @@ license-mixed = Magkahalo
 terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon
 review-recording = Suriin
+review-rerecord = i-Record Muli
 
 ## Datasets Page
 
