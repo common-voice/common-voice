@@ -1,8 +1,8 @@
 ## General
 
-yes-receive-emails = Oo, magpadala sa akin ng mga email. Gusto kong manatiling may kaalaman tungkol sa Common Voice Project.
+yes-receive-emails = Oo, magpadala sa akin ng mga email. Gusto kong manatiling may alam tungkol sa Common Voice Project.
 stayintouch = Kami sa Mozilla ay bumubuo ng komunidad ng teknolohiya sa boses. Gusto naming manatiling may-ugnayan sa mga kaganapan, bagong mapagkukunan ng data, at makarinig pa tungkol sa kung papaano mo ginagamit ang data na ito.
-privacy-info = Kami ay nangangako na pangalagaan ang iyong impormasyon. Magbasa pa sa aming <privacyLink> Abiso sa Pagkapribado </privacyLink>.
+privacy-info = Nangangako kaming hawakan ang iyong impormasyon nang may pag-iingat. Magbasa nang higit pa sa aming <privacyLink> Abiso sa Privacy </privacyLink>.
 return-to-cv = Bumalik sa Common Voice
 email-input =
     .label = Email
@@ -283,12 +283,12 @@ edit = i-Edit
 email-subscriptions = Mga Subscription sa Email
 off = Off
 on = On
-retry-voice-wave-recording = SUBUKAN MULI
-re-record = I-RECORD ULIT
-delete-voice = BURAHIN
-recording-voice-wave = Nagrerecord
-ready-to-upload = I-UPLOAD
-cancel-avatar-clip-recording = KANSELAHIN
+
+## Profile - Email
+
+
+## Profile - Email
+
 add-language = Magdagdag ng Wika
 
 ## FAQ
