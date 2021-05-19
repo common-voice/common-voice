@@ -286,6 +286,7 @@ manage-subscriptions = Ghjistione di l’abbunamenti
 manage-email-subscriptions = Ghjistione di l’abbunamenti per indirizzu elettronicu
 email-already-used = ’Ss’indirizzu elettronicu hè dighjà utilizatu pà un altru contu
 add-language = Aghjunghje una lingua
+change-email-setings = Cambiate u vostru indirizzu elettronicu pà via di i parametri di cunnessione
 
 ## FAQ
 
@@ -411,6 +412,7 @@ review-terms = Usendu Common Voice, site d'accunsentu incù i nostri <termsLink>
 terms-agree = Sò d'accunsentu
 terms-disagree = Ùn sò micca d'accunsentu
 review-aborted = U caricamentu ùn s'hè fattu. Vulete squassà i vostri arrighjistramenti ?
+review-submit-title = Verificà è sottumette
 review-submit-msg = Vi ringraziemu pà l'arrighjistramenti ! <lineBreak></lineBreak> Avà verificate è inviate i vostri campioni quì sottu.
 review-recording = Verificà
 review-rerecord = Arrighjistrà torna
@@ -605,6 +607,11 @@ difficult-difficulty = Difficiule
 pro-difficulty = Prufessiunale
 want-to-continue = Vulete cuntinuà ?
 build-custom-goal = Definisce un scopu parsunale
+help-reach-hours-general-pluralized =
+    Aiutate Common Voice à ghjunghje { NUMBER($hours) ->
+        [one] { $hours } ora
+       *[other] { $hours } ore
+    } in una lingua cù i scopi parsunali
 set-a-goal = Definisce un scopu
 cant-decide = Ùn pudete decide ?
 how-many-per-day = Bè ! Quantu campioni à u ghjornu ?
