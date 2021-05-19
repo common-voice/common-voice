@@ -233,11 +233,15 @@ email-subscription-title-new = Mag-sign up para sa mga balita, pagpapaalala ng m
 benefits = Benepisyo
 compare-progress = Tingnan kung paano maihahambing ang iyong progreso kumpara sa iba pang mga kontribyutor sa iba't ibang sulok ng mundo.
 view-goals = Ipakita ang iyong mga progreso patungkol sa personal at mga layunin ng proyekto.
+join-newsletter = Opsyunal na sumali sa aming listahan ng email para sa mga update at mga bagong impormasyon tungkol sa proyekto.
 
 ## What's public
 
 whats-public = Ano ang Pampubliko?
 email-not-public = Hindi namin isasapubliko ang iyong email.
+recordings-and-locale-public = Ang mga bilang ng mga recording at kung anong wika ang iyong inambag ay maisasapubliko.
+username-optin-public = Puwede kang mamili na gawing pampubliko o anonymous ang iyong username.
+username-email-not-demographic = Ang iyong username at email ay hindi maiuugnay sa mga inilabas na data.
 
 ## Speak & Listen Shortcuts
 
@@ -265,10 +269,13 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
+request-language-text = Hindi mo pa nakikita ang iyong wika sa Common Voice?
+request-language-text-learn = Alamin kung paano mag-request dito!
 request-language-button = Humiling ng Wika
 
 ## ProjectStatus
 
+status-title = Pangkalahatang katayuan ng proyekto: tignan ang aming narating!
 status-contribute = Ibahagi ang Iyong Tinig
 # Variables:
 # $goal - number of hours representing the next goal
@@ -289,6 +296,8 @@ profile-form-age =
     .label = Edad
 profile-form-gender-2 =
     .label = Kasarian
+leaderboard-visibility =
+    .label = Leaderboard Visibility
 hidden = Nakatago
 visible = Makikita
 native-language =
@@ -306,6 +315,7 @@ avatar = Avatar
 goals = Mga layunin
 settings = Mga Setting
 edit-profile = i-Edit ang Profile
+profile-create-success = Tagumpay, nagawa na ang profile!
 profile-close = Isara
 profile-explanation = Subaybayan ang iyong pag-unlad gamit ang iyong profile at tulungan ang aming data ng mga boses na mas maging tama.
 thanks-for-account = Salamat sa pagkumpirma ng iyong account, ngayon gawin natin ang iyong profile.
@@ -314,28 +324,50 @@ accept-privacy-title = Patakarang Pangpribasiya
 login-signup = Log In / Sign Up
 edit = i-Edit
 email-subscriptions = Mga Subscription sa Email
+download-profile = i-Download ang Aking Data
+skip-submission-feedback = Laktawan ang Pag-Submit ng Feedback
+skip-submission-note = Tandaan: Kailangan mo pa ring mamili sa pagitan ng Magsalita o Makinig para palitan ang uri ng kontribusyon
 off = Off
 on = On
 
 ## Profile - Email
 
+browse-file-title = Mag-upload ng file ng imahe
+connect-gravatar = I-ugnay ang Gravatar
+gravatar_not_found = Walang nahanap na gravatar para sa iyong email
+file_too_large = Ang piniling file ay masyadong malaki
+max-file-size = { $kb }kb max
 
 ## Profile - Email
 
+email-already-used = Nagamit na sa ibang account ang email
 add-language = Magdagdag ng Wika
+change-email-setings = Palitan ang iyong email sa Settings sa ilalim ng Login Identity
 
 ## FAQ
 
 faq-title = Mga kadalasang tinatanong
 faq-what-cv-q = Ano ang Common Voice?
 faq-why-important-q = Bakit ito mahalaga?
+faq-how-get-q = Paano ko makukuha ang Common Voice data?
+faq-how-get-a = Ang Common Voice dataset ay maaari nang i-download sa ilalim ng <licenseLink>CC0</licenseLink> sa <datasetLink> ang aming pahina ng mga Dataset</datasetLink>. Pwede mo ring i-download ang ilan sa mga dataset na bukas sa publiko sa mismong pahina.
+faq-when-release2-q = Kailan mo ilalabas ang Common Voice data sa ibang wika?
 faq-why-mission-q = Bakit kasama sa misyong ng Mozilla ang Common Voice?
 faq-what-cv-and-deepspeech-q = Ano ang pinagkaiba ng Common Voice at Deep Speech?
+faq-is-goal-assistant-q = Ang layunin ba ng Common Voice ay bumuo ng isang voice assistant?
+faq-do-want-native-q = Ako ay isang di-katutubong tagapagsalita at ako ay nagsasalita ng may accent, gusto mo pa ba ang aking boses?
+faq-why-different-speakers-q = Bakit mo kailangan ng napakaraming iba-ibang speaker kada lengguwahe?
 faq-why-my-lang-q = Bakit hindi kasama ang aking wika?
+faq-what-quality-q = Ano'ng audio quality ang kailangan para magamit ang voice clip sa dataset?
+faq-why-10k-hours-q = Bakit 10,000 na validated hours kada lengguwahe ang kailangan para sa pag-capture ng audio?
 faq-how-calc-hours-q = Paano binibilang ng Common Voice ang mga oras?
 faq-where-src-from-2-q = Saan nanggagaling ang mga pinagmulang teksto?
+faq-why-account-q = Bakit ko kailangan gumawa ng account?
+faq-is-account-public-q = Naisasapubliko ba ang impormasyon sa aking account?
+faq-how-privacy-q = Paano niyo nasisiguro ang anonymity at pagkapribado ng mga tao na nag-donate ng boses nila?
 faq-what-is-cv = Ano ang Common Voice?
 faq-using-cv = Paggamit ng Common Voice
+faq-description = Ang Common Voice ay parte ng sinimulan ng Mozilla para matulungang maturuan ang mga computer kung paano magsalita ang tunay na tao.
 faq-search-for-answers =
     .label = Maghanap ng mga kasagutan
 
@@ -344,7 +376,10 @@ faq-search-for-answers =
 about-title = Bakit Common Voice?
 how-does-it-work-title = Paano ito gumagana?
 about-speak = Magsalita
+about-listen-queue = Listen-Queue
 about-listen = Makinig
+about-yes-votes = ≥ 2 Yes votes
+about-no-votes = ≥ 2 No votes
 about-clip-graveyard = Libingan ng mga Clip
 about-get-involved = Makibahagi
 about-nav-why-common-voice = Bakit?
@@ -363,6 +398,8 @@ sst = Speech-to-text (STT)
 
 ## Error pages
 
+error-title-404 = Hindi namin mahanap ang page na 'yan para sa'yo
+error-code = Error { $code }
 
 ## Data
 
@@ -371,6 +408,8 @@ data-download-yes = Oo
 data-download-deny = Hindi
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-other-goto = Pumunta sa { $name }
+data-other-download = Download Data
+data-bundle-button = Download Dataset Bundle
 release-version = Bersyon
 dataset-date = Petsa
 license-mixed = Magkahalo
@@ -378,17 +417,20 @@ terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon
 review-recording = Suriin
 review-rerecord = i-Record Muli
+review-delete-recordings = Burahin ang mga recording ko
 
 ## Datasets Page
 
 language = Wika
 # File size in gigabytes
 size = Laki
+overall-hr-total = Overall Hr. Total
 cv-license = Lisensya
 audio-format = Audio Format
 number-of-voices = Bilang ng mga Tinig
 size-gigabyte = GB
 size-megabyte = MB
+recorded-hours = Mga Oras na Na-record
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Magpunta sa Discourse
 close = Isara
@@ -397,6 +439,7 @@ dataset-version = Bersyon
 
 ## Download Modal
 
+download-no = Salamat na lang
 
 ## Contact Modal
 
@@ -426,13 +469,19 @@ action-click = Click
 action-tap = Tap
 listen = Pakinggan
 skip = Laktawan
+record-cta = Magrecord na
+record-platform-not-supported = Paumanhin, hindi suportado ang platform mo.
 record-no-mic-found = Walang makitang mikropono.
 record-three-more-instruction = Tatlo na lang!
+record-abort-submit = Ipasa ang clips
+record-abort-continue = Tapusin ang pag-record
+record-button-label = I-record ang boses mo
 share-title-new = <bold>Tulungan kaming</bold> humanap ng marami pang mga tinig
 
 ## Reporting
 
 report-offensive-language = Bastos na salita
+report-different-language = Ibang lengguwahe
 report-difficult-pronounce = Mahirap bigkasin
 report-offensive-speech = Bastos na salita
 report-other-comment =
@@ -460,6 +509,11 @@ easy-difficulty = Madali
 average-difficulty = Katamtaman
 difficult-difficulty = Mahirap
 pro-difficulty = Pro
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } clip
+       *[other] { $count } clips
+    }
 help-share-goal = Tulungan kaming humanap ng mas marami pang mga tinig, ibahagi ang iyong mga layunin
 goal-interval-weekly = Linguhan
 share-goal-type-speak = Nagsasalita
@@ -474,9 +528,12 @@ profile-form-delete = Burahin ang Profile
 ## Landing
 
 welcome-staff = Mabuhay ang mga kawani ng { $company }!
+login-company = Log In / Sign Up with { $company } email
 
 ## DemoLayout
 
+demo-get-started = Simulan Natin
+demo-welcome = Maligayang Pagdating sa Common Voice
 
 ## Demo Datasets
 
