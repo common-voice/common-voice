@@ -10,7 +10,9 @@ submit-form-action = Ipadala
 loading = Loading…
 email-opt-in-info = Gusto kong makatanggap ng email katulad ng mga paalala sa layunin, aking kaganapang pag-unlad, at mga newsletter tungkol sa Common Voice.
 email-opt-in-info-title = Sumali sa mailing list ng Common Voice
-indicates-required = * Nangangahulugang kailangang patlang
+email-opt-in-info-sub-with-challenge = Tumanggap ng mga email tulad ng mga paalala sa hamon at layunin, mga kaganapang pag-unlad, at mga newsletter tungkol sa Common Voice.
+email-opt-in-privacy-v2 = Sa pamamagitan ng pagpiling pagtanggap ng mga email ikaw ay pumapayag na ibigay ang impormasyong ito sa Mozilla tulad ng nakalahad sa Mozilla's <privacyLink>Patakaran sa Pagkapribado</privacyLink/>.
+indicates-required = *Kailangang punuan
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -31,14 +33,18 @@ as = Assamese
 ast = Asturian
 az = Azerbaijani
 ba = Bashkirs
+bas = Basaa
 be = Belarusian
 bg = Bulgarian
+bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
+ckb = Central Kurdish
 cnh = Hakha Chin
+co = Corsican
 cs = Czech
 cv = Chuvash
 cy = Welsh
@@ -60,13 +66,16 @@ fr = French
 fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
+gn = Guarani
 ha = Hausa
 he = Hebreyo
 hi = Hindi
 hr = Croatian
 hsb = Sorbian, Upper
+ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
+hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
 is = Icelandic
@@ -78,6 +87,7 @@ kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
 kk = Kazakh
+kmr = Kurmanji Kurdish
 ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
@@ -86,12 +96,15 @@ lg = Luganda
 lij = Ligurian
 lt = Lithuanian
 lv = Latvian
+mai = Maithili
 mdf = Moksha
 mg = Malagasy
 mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongolian
+mos = Mossi
+mr = Marathi
 mrj = Hill Mari
 ms = Malay
 mt = Maltese
@@ -104,7 +117,9 @@ nn-NO = Norwegian Nynorsk
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polish
+ps = Pashto
 pt = Portuguese
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
@@ -114,9 +129,11 @@ rw = Kinyarwanda
 sah = Sakha
 sc = Sardinian
 scn = Sicilian
+shi = Shilha
 si = Sinhala
 sk = Slovak
 sl = Slovenian
+so = Somali
 sq = Albanian
 sr = Serbian
 sv-SE = Swedish
@@ -131,12 +148,14 @@ tr = Turkish
 tt = Tatar
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
@@ -158,20 +177,28 @@ privacy = Pribasiya
 terms = Terms
 cookies = Cookies
 faq = FAQ
+content-license-text = Ang mga nilalaman ay magagamit sa ilalim ng <licenseLink>lisensya ng Creative Commons</licenseLink>
 share-title = Tulungan kaming humanap ng ibang tao na nais magdonasyon ng kanilang mga tinig!
+share-text = Tulungang turuan ang mga machine kung papaano nagsasalita ang mga tunay na tao, magbigay ng iyong boses sa { $link }
 link-copied = Kinopya ang Link
 back-top = Bumalik sa Itaas
 logout = Log Out
 
 ## Home Page
 
+home-title = Ang Common Voice ay inisyatibo ng Mozilla para tulungang turuan ang mga machine kung paano magsalita ang mga totoong tao
 home-cta = Magsalita, mag-ambag dito!
+wall-of-text-start = Ang boses ay natural, ang boses ay tao. Kaya kami ay nabighani sa paglikha ng boses na pwedeng gamitin ¶ teknolohiya para sa ating mga makina. Pero upang makalikha ng sistema ng boses, napakaraming boses¶ ang kinakailangang data
+wall-of-text-more-desktop = Ngayon pwede mo nang ibigay ang iyong boses upang matulungan kaming bumuo ng open-source voice database na pwedeng gamitin nino man¶ upang makagawa ng panibagong apps para sa mga kagamitan at ng web. Basahin ang pangungusap para tulungang matuto ang mga makina kung pano magsalita ang totoong tao. Suriin ang gawa ng iba¶ pang mga kontribyutor para mapabuti ang kalidad nito. Ganoon lang kasimple!
 show-wall-of-text = Magbasa nang Higit Pa
 help-us-title = Tulungan kaming magpatibay ng mga pangungusap!
+help-us-explain = Pindutin ang play, makinig at sabihin sa amin: kanila bang nabigkas ng tama ang pangungusap sa ibaba?
+no-clips-to-validate = Mukhang wala nang iba pang clips na pwedeng pakinggan sa wikang ito. Tulungan kaming punan ang pila sa pamamagitan ng pagrecord ng ilan ngayon.
 vote-yes = Oo
 vote-no = Hindi
 toggle-play-tooltip = Pindutin ang { shortcut-play-toggle } para sa toggle play mode
 speak-subtitle = I-donate ang iyong boses
+speak-paragraph = Ang pagrecord ng clips ng boses ay isang mahalagang parte sa pagbuo ng aming open dataset; may mga ilang nagsasabing masaya rin ang parteng ito.
 speak-goal-text = Mga clip na naitala
 listen-subtitle = Tulungan kaming magpatibay ng mga tinig
 listen-goal-text = Mga clip na napagtibay na
@@ -197,11 +224,15 @@ x-years-short =
     { $count ->
        *[other] { $count }y
     }
+help-make-dataset = Tulungan kaming bumuo ng mataas na kalidad, bukas sa publikong dataset
 sign-up-account = Mag-sign up para sa account
+email-subscription-title-new = Mag-sign up para sa mga balita, pagpapaalala ng mga layunin at pag-update ng mga progreso ng Common Voice
 
 ## Account Benefits
 
 benefits = Benepisyo
+compare-progress = Tingnan kung paano maihahambing ang iyong progreso kumpara sa iba pang mga kontribyutor sa iba't ibang sulok ng mundo.
+view-goals = Ipakita ang iyong mga progreso patungkol sa personal at mga layunin ng proyekto.
 
 ## What's public
 
@@ -436,6 +467,7 @@ share-goal-type-listen = Nakikinig
 
 ## Profile Delete
 
+keep = Panatiliin
 remove = Alisin
 profile-form-delete = Burahin ang Profile
 
