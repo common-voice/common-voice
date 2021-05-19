@@ -84,7 +84,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
   S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
   CINCHY_CONFIG: configEntry('CV_CINCHY_CONFIG', {}, castJson),
-  CINCHY_ENABLED: configEntry('CV_CINCHY_ENABLED', {}, castBoolean),
+  CINCHY_ENABLED: configEntry('CV_CINCHY_ENABLED', false, castBoolean),
   SSM_ENABLED: configEntry('CV_SSM_ENABLED', false, castBoolean),
   SSM_CONFIG: configEntry('CV_SSM_CONFIG', {}, castJson),
   AUTH0: {
