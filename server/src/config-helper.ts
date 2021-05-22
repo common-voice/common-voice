@@ -50,6 +50,7 @@ export type CommonVoiceConfig = {
   SENTRY_DSN: string;
   MAINTENANCE_MODE: boolean;
   BENCHMARK_LIVE: boolean;
+  FLAG_BUFFER_STREAM_ENABLED: boolean;
 };
 
 const castDefault = (value: string): any => value;
@@ -102,6 +103,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
   BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
+  FLAG_BUFFER_STREAM_ENABLED: configEntry('CV_FLAG_BUFFER_STREAM_ENABLED', false, castBoolean),
 };
 
 let injectedConfig: CommonVoiceConfig;
