@@ -136,11 +136,11 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 
 1. Create an [Auth0](https://auth0.com/) account.
 2. Click "Applications" from the dashboard. Create a new one, or use the default application.
-3. Go to "Applications" and click on the Settings icon next to your application.
+3. On "Applications" still, next to your application, click the "three dots" icon, then Settings.
 4. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
-5. If you're using Docker, copy the following keys from the Auth0 application into your configuration file. These are found in the same Settings tab as the "Allowed Callback URLs".
+5. Copy the Auth0 application settings into your configuration file. These are found in the same Settings tab as the "Allowed Callback URLs".
 
-Docker:
+For Docker, in `.env-local-docker`:
 
 ```env
 CV_AUTH0_DOMAIN="<domain_here>"
@@ -148,7 +148,7 @@ CV_AUTH0_CLIENT_ID="<client_id_here>"
 CV_AUTH0_CLIENT_SECRET="<client_secret_here>"
 ```
 
-Local development:
+For local development, in `config.json`:
 
 ```json
 "AUTH0": {
