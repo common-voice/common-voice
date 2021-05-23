@@ -286,6 +286,25 @@ export default class API {
     return this.fetch(API_PATH + '/user_client/delete_avatar_clip');
   }
 
+  fetchTakeouts() {
+    return this.fetch(API_PATH + '/user_client/takeout');
+  }
+
+  requestTakeout() {
+    return this.fetch(API_PATH + '/user_client/takeout/request', {
+      method: 'POST',
+    });
+  }
+
+  fetchTakeoutLinks(id: number) {
+    return this.fetch(
+      [API_PATH, 'user_client', 'takeout', id, 'links'].join('/'),
+      {
+        method: 'POST',
+      }
+    );
+  }
+
   fetchLeaderboard(type: 'clip' | 'vote', cursor?: [number, number]) {
     return this.fetch(
       this.getClipPath() +

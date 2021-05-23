@@ -1,7 +1,9 @@
 import { S3 } from 'aws-sdk';
 import { getConfig } from '../config-helper';
 import Model from './model';
-import { Sentence, Clip } from 'common';
+import { Clip, TakeoutRequest } from 'common';
+
+const s3Zip = require('s3-zip');
 
 /**
  * Bucket
@@ -114,6 +116,58 @@ export default class Bucket {
     }
 
     return Promise.all(clipPromises);
+  }
+
+  async getClientClips(client_id: string): Promise<S3.Object[]> {
+    const s3 = this.s3;
+
+    async function allKeys(
+      params: S3.Types.ListObjectsV2Request
+    ): Promise<S3.Object[]> {
+      params = { ...params };
+      const items = [];
+      do {
+        const data = await s3.listObjectsV2(params).promise();
+        params.ContinuationToken = data.NextContinuationToken;
+        items.push(...data.Contents);
+      } while (params.ContinuationToken);
+      return items;
+    }
+
+    const bucket = getConfig().CLIP_BUCKET_NAME;
+    const prefix = `${client_id}/`;
+    return (await allKeys({ Bucket: bucket, Prefix: prefix })).filter(
+      item => item.Key.startsWith(prefix) && item.Key.endsWith('.mp3')
+    );
+  }
+
+  takeoutKey(takeout: TakeoutRequest, chunk_offset: number): string {
+    return `${takeout.client_id}/takeout/${takeout.id}/${chunk_offset}.zip`;
+  }
+
+  async zipTakeoutFilesToS3(
+    takeout: TakeoutRequest,
+    chunk_offset: number,
+    keys: string[]
+  ): Promise<S3.ManagedUpload.SendData> {
+    const folder = `${takeout.client_id}/`;
+    const destination = this.takeoutKey(takeout, chunk_offset);
+    const bucket = getConfig().CLIP_BUCKET_NAME;
+    const keysWithoutFolder = keys.map(x => x.substr(folder.length));
+    const body = s3Zip.archive(
+      { s3: this.s3, bucket },
+      folder,
+      keysWithoutFolder
+    );
+    return await this.s3
+      .upload({
+        Bucket: bucket,
+        Body: body,
+        Key: destination,
+        // TODO: enable this, currently bugs out s3proxy
+        // Tagging: 'Type=takeout'
+      })
+      .promise();
   }
 
   getAvatarClipsUrl(path: string) {

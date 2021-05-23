@@ -12,9 +12,17 @@ services:
       - MYSQL_PASSWORD=voicecommons
       - MYSQL_ROOT_PASSWORD=voicewebroot
     command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+  redis:
+    image: redis:alpine
+    container_name: redis
+    restart: unless-stopped
+    networks:
+      - voice-web
   s3proxy:
     image: andrewgaul/s3proxy
     container_name: s3proxy
+    ports:
+      - 9001:80
     networks:
       - voice-web
     environment:
@@ -26,6 +34,7 @@ services:
     container_name: web
     links:
       - db
+      - redis
     volumes:
       - .:/code
     environment:
