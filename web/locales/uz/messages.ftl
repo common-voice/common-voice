@@ -358,6 +358,7 @@ connect-gravatar = Gravatarni qoʻshish
 gravatar_not_found = Ushbu email gravatarda roʻyxatdan oʻtmagan
 file_too_large = Tanlangan fayl hajmi haddan ziyod katta
 avatar-uploaded = Avatar yuklandi
+max-file-size = Maksimal { $kb } kb
 
 ## Profile - Email
 
@@ -490,6 +491,10 @@ de-identified-explanation = Ma'lumotlar to'plamining bir qismi sifatida yuklab o
 
 ## Error pages
 
+error-title-404 = Siz uchun ushbu sahifani topa olmadik
+error-content-404 = Ehtimol, bizning <homepageLink>bosh sahifamiz</homepageLink> yordam berar? Savol berish uchun, iltimos, <matrixLink> Matrix hamjamiyati chatiga </matrixLink> qoʻshiling, <githubLink>GitHub</githubLink> orqali sayt muammolarini kuzatib boring yoki bizning <discourseLink>muhokama forumlarimizga</discourseLink> tashrif buyuring.
+error-title-503 = Kutilmagan uzilish yuz berdi.
+error-content-503 = Sayt imkon qadar tezda zaxira nusxasini yaratadi. Soʻnggi maʼlumotlar uchun <matrixLink>Matrix jamiyati suhbatxonasiga</matrixLink> qoʻshiling yoki <githubLink>GitHub</githubLink>ga yoki sayt tajribasi bilan bogʻliq muammolarni yuborish va nazorat qilish uchun <discourseLink>bizning nutq forumlarimizga </discourseLink> tashrif buyuring.
 error-code = Xato { $code }
 
 ## Data
@@ -507,6 +512,8 @@ data-other-goto = { $name }ga o‘tish
 data-other-download = Ma’lumotlarni yuklab olish
 data-bundle-button = Ma’lumotlar bazasi paketini yuklab olish
 data-bundle-description = Common Voice ma’lumotlari va yuqoridagi boshqa ovoz ma’lumotlar bazasi.
+release-version = Versiyasi
+dataset-date = Sana
 license = Litsenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Aralash
 data-download-singleword-title = Yagona soʻz maqsadli segmentini yuklab oling
