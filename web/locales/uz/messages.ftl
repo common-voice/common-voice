@@ -11,7 +11,6 @@ loading = Yuklanmoqda...
 email-opt-in-info = Men maqsad va yutuqlar haqida bildirishnomalarni hamda Common Voice haqidagi yangiliklarni qabul qilib turishni istayman.
 email-opt-in-info-title = Common Voice tarqatmalariga obuna boʻlish
 email-opt-in-info-sub-with-challenge = Men maqsad va yutuqlar haqida bildirishnomalarni hamda Common Voice haqidagi yangiliklarni qabul qilib turishni istayman.
-email-opt-in-privacy = Elektron pochta xabarlarini olishni rad etish bilan siz Mozilla-ning <maxfiylik siyosati> Maxfiylik siyosati <maxfiylik siyosati> da tushuntirilganidek, ushbu ma'lumotni Mozilla bilan ishlashga rozi ekanligingizni bildirasiz.
 indicates-required = * Toʻldirish majburiy boʻlgan maydon
 not-available-abbreviation = M/E
 
@@ -81,22 +80,25 @@ kaa = Qoraqalpoq
 kab = Kabili
 kbd = Kabardino
 kk = Qozoq
+kmr = Kurmanji Kurdish
 ko = Koreyscha
 kpv = Komi-zıryan
-ku = Kurd
 kw = Kornish
-ky = Qirg‘iz
+ky = Qirgʻiz
 lg = Luganda
 lij = Ligur
 lt = Litva
 lv = Latish
+mai = Maithili
 mdf = Moksha
 mg = Malagasi
 mhr = Lugo Mariy
 mk = Makedon
 ml = Malay
 mn = Mongol
+mr = Marathi
 mrj = Mari
+ms = Malay
 mt = Malta
 my = Birma
 myv = Erzyan
@@ -151,7 +153,7 @@ zh-TW = Xitoycha (Tayvan)
 
 speak = Yozib olish
 speak-now = Yozib olishni boshlash
-datasets = Ma’lumotlar to‘plamlari
+datasets = Maʼlumotlar toʻplamlari
 languages = Tillar
 about = Biz haqimizda
 profile = Profile
@@ -292,8 +294,6 @@ profile-form-accent =
     .label = Aksent
 profile-form-age =
     .label = Yosh
-profile-form-gender =
-    .label = Jins
 leaderboard-visibility =
     .label = Meni liderlar safida koʻrsatish
 hidden = Yashirin
@@ -319,7 +319,6 @@ profile-close = Yopish
 profile-explanation = Profilingiz yordamida jarayonni kuzatib boring va ovoz ma’lumotlarining aniqligiga yordam bering.
 thanks-for-account = Hisobingizni tasdiqlaganingiz uchun rahmat. Endi profil yarating.
 why-demographic = Bu nega kerak?
-why-demographic-explanation = Foydalanuvchilarning yoshi, jinsi va talaffuzi  kabi anonim maʼlumotlari nutqni tanish tizimlariga oʻrgatishda foydalaniladigan audio maʼlumotlari sifatini oshirishda yordam beradi. Taxallus va e-pochta manzilingiz siz yuborgan maʼlumotlariga qoʻshilmaydi va taxallusingizni hamma koʻradigan yoki maxfiy qilishni tanlashingiz mumkin.
 accept-privacy = Mozillaning <privacyLink>Maxfiylik siyosati</privacyLink>da koʻrsatilganidek maʼlumotlarimdan foydalanishlariga roziman.
 accept-privacy-title = Maxfiylik siyosati
 login-identity = Kirish uchun identifikator
@@ -333,26 +332,17 @@ skip-submission-description = Hisobni yuborish paytida fikr-mulohaza "Yuborish" 
 skip-submission-note = Diqqat: hissa qo‘shish turini o‘zgartirish uchun "Gapirish" yoki "Tinglash"dan birini tanlashingiz lozim.
 off = O‘chiq
 on = Yoniq
-avatar-clip-title = Oʻz avataringizga ovoz bering
-change-your-avatar-clip = Ovozli yozuvingizni oʻzgartirishni istaysizmi?
-recording-in-progress = Ovoz yozilmoqda
-avatar-clip-recorded = Endi sizning avataringizning ovozi bor!
-record-voice-wave = KIRISH SOʻZINI YOZISH
-retry-voice-wave-recording = Qaytarish
-re-record = Qayta yozish
-delete-voice = Oʻchirish
-recording-voice-wave = Yozish
-delete-voice-clip = yoki ovozli yozuvi oʻchirish
-ready-to-upload = Yuklash
-avatar-clip-fact = O'qiyotgan kishi sahifani ko'rib chiqayotganda, uni o'qish mumkin bo'lgan tarkib bilan chalg'itishi haqiqatdir.
-recreate-voice = Kirish soʻzini qayta yozish
-cancel-avatar-clip-recording = Bekor qilish
-about-avatar-clip-recording = Profil avataringizning bir qismi sifatida ovozli klip yarating. Boshqalar sizning ayting va klipingizni tinglashlari mumkin.
+
+## Profile - Email
+
 browse-file-title = Rasm yuklash
 browse-file = Sodir va tortib oling yoki <browseWrap> Browse </browseWrap>
 connect-gravatar = Gravatarni qoʻshish
 gravatar_not_found = Ushbu email gravatarda roʻyxatdan oʻtmagan
 file_too_large = Tanlangan fayl hajmi haddan ziyod katta
+
+## Profile - Email
+
 manage-subscriptions = Obunalarni boshqarish
 manage-email-subscriptions = Email obunalarini boshqarish
 email-already-used = Email allaqachon boshqa akkaunt uchun ishlatilgan
@@ -480,10 +470,8 @@ sst-explanation = Speech-to text (STT) texnologiyalari ovoz ma'lumotlarini matng
 de-identified = Aniqlangan
 de-identified-explanation = Ma'lumotlar to'plamining bir qismi sifatida yuklab olish uchun to'planganida, hissa qo'shganning shaxsiy ma'lumotlarini xayriya qilingan ovozli kliplaridan yashirish jarayoni.
 
-## NotFound
+## Error pages
 
-notfound-title = Topilmadi
-notfound-content = Nima izlayotganlingizni bilmaslikdan qo‘rqaman.
 
 ## Data
 
@@ -622,7 +610,6 @@ contribute = Hissa qo‘shish
 listen = Tinglash
 skip = Tashlab ketish
 shortcuts = Tugmalar birliklari
-clips-with-count = <bold>{ $count }</bold> ta klip
 goal-help-recording = Siz Common Voice loyihasini { $goalValue }dagi kunlik rejamizdan <goalPercentage></goalPercentage> natijaga erishishiga yordam berdingiz!
 goal-help-validation = Siz Common Voice loyihasini { $goalValue }dagi kunlik tekshiruv rejamizdan <goalPercentage></goalPercentage> tekshilishiga yordam berdingiz!
 contribute-more =
@@ -745,11 +732,8 @@ want-to-continue = Davom etishni istaysizmi?
 finish-editing = Aval yozishni tugating?
 lose-changes-warning = Hozir chiqsangiz, hech narsa saqlanmaydi
 build-custom-goal = Shaxsiy maqsadni yarating
-help-reach-hours = Shaxsiy maqsadga ega bo'lgan tilda umumiy ovozni soatga etkazishga yordam bering
-help-reach-hours-general = Shaxsiy maqsadga ega bo'lgan tilda umumiy ovozni soatga etkazishga yordam bering
 set-a-goal = Maqsad qo'ying
 cant-decide = Qaror berolmaysizmi?
-activity-needed-calculation = klip yozayotgan bo'lsa, oylar.
 how-many-per-day = Ajoyib! Kuniga nechta klip?
 how-many-a-week = Ajoyib! Kuniga nechta klip?
 which-goal-type = Gapirishni, tinglashni yoki ikkalasini ham xohlaysizmi?
@@ -759,7 +743,6 @@ receiving-emails-info =
 not-receiving-emails-info =
     Ayni paytda siz elektron pochta xabarlarini, masalan, maqsadli eslatmalarni, qabul qila olasiz
     Umumiy ovoz haqida yangiliklar va yangiliklar
-n-clips = kliplar
 help-share-goal = Ko'proq ovozlarni topishga yordam bering va maqsadingizni baham ko'ring
 confirm-goal = Ochishni tasdiqlash
 goal-interval-weekly = Haftalik
@@ -798,3 +781,18 @@ help-contribute = Umumiy ovozli profil yaratish va ovozingizga hissa qo'shish or
 login-company = { $company } elektron pochtasi bilan tizimga kirish / tizimga kirish
 profile-not-required = Profilga ega bo'lish foydali bo'lsa ham, uni qo'shish shart emas, nima uchun quyida ko'rib chiqing.
 read-more-about = Batafsil ma'lumotni bizning sahifamizda o'qing
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
