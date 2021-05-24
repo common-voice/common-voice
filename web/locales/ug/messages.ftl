@@ -783,12 +783,12 @@ finish-editing = ئاۋۋال تەھرىرلەشنى تاماملامسىز؟
 lose-changes-warning = ھازىر ئايرىلسىڭىز ئۆزگىرىشلەر يوق بولۇپ كېتىدۇ
 build-custom-goal = ئىختىيارى نىشان تىكلەڭ
 help-reach-hours-pluralized =
-    { $language } دىكى{ NUMBER($hours) ->
+    { $language } دىكى { NUMBER($hours) ->
         [one] { $hours } سائەت
        *[other] { $hours } سائەت
     }شەخسى نىشانغا يېتىشىمىزگە ياردەم قىلىڭ
 help-reach-hours-general-pluralized =
-    Common Voice نىڭ  { $language } دىكى{ NUMBER($hours) ->
+    Common Voice نىڭ  { $language } دىكى { NUMBER($hours) ->
         [one] { $hours } سائەت
        *[other] { $hours } سائەت
     } شەخسى نىشانغا يېتىشىگە ياردەم قىلىڭ
