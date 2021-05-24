@@ -351,27 +351,19 @@ skip-submission-description = Dum la sendo de kontribuoj, komentoj estos malakti
 skip-submission-note = Notu: vi ankoraŭ devos elekti inter Paroli aŭ Aŭskulti por ŝanĝi la tipon de kontribuo.
 off = Malŝaltita
 on = Ŝaltita
-avatar-clip-title = Donu voĉon al via avataro
-change-your-avatar-clip = Ĉu vi volas ŝanĝi vian voĉan registron?
-recording-in-progress = Voĉregistro plenumata
-avatar-clip-recorded = Via avataro nun inkluzivas voĉan registron!
-record-voice-wave = REGISTRI VOĈONDON
-retry-voice-wave-recording = REPROVI
-re-record = REREGISTRI
-delete-voice = FORIGI
-recording-voice-wave = Registro…
-delete-voice-clip = aŭ forigi voĉregistron
-ready-to-upload = ALŜUTI
-avatar-clip-fact = Oni de longe scias ke leganto estos distrita de la legeblaj enhavoj de la paĝo, dum la aranĝo estas rigardata.
-recreate-voice = Refari voĉondon
-cancel-avatar-clip-recording = NULIGI
-about-avatar-clip-recording = Kreu voĉan registron, kiu estos parto de via profila avataro.  Aliaj homoj povos aŭskulti vian registron per superpasigo de la musmontrilo.
+
+## Profile - Email
+
 browse-file-title = Alŝuti bildon
 browse-file = Trenu kaj delasu aŭ <browseWrap>esploru</browseWrap>
 connect-gravatar = Konekti Gravatar
 gravatar_not_found = Via retpoŝta adreso ne estas asociita al Gravatar
 file_too_large = La elektita dosiero estas tro granda
 avatar-uploaded = Avataro alŝutita
+max-file-size = Maksimume { $kb } ko
+
+## Profile - Email
+
 manage-subscriptions = Administri abonojn
 manage-email-subscriptions = Administri retpoŝtajn abonojn
 email-already-used = La retpoŝta adreso jam estas uzata de alia konto
