@@ -280,10 +280,9 @@ const UserClient = {
     );
     // the accountClientId can't be a placeholder value otherwise it'll
     // treat any ? in the username or email as a placeholder also and the query will break
-
-    updateDemographics(accountClientId, data.age, data.gender);
-
+    const updateDemographicsPromise = updateDemographics(accountClientId, data.age, data.gender);
     await Promise.all([
+      updateDemographicsPromise,
       this.claimContributions(accountClientId, clientIds),
       locales && updateLocales(accountClientId, locales),
     ]);
