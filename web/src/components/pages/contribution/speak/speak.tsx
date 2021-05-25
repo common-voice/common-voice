@@ -713,7 +713,7 @@ class SpeakPage extends React.Component<Props, State> {
                 onRerecord={() => this.rerecord(i)}>
                 {rerecordIndex === i && (
                   <Localized id="record-cancel">
-                    <TextButton onClick={this.cancelReRecord} />
+                    <TextButton onClick={this.cancelReRecord} className="text"/>
                   </Localized>
                 )}
               </RecordingPill>
