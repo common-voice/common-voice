@@ -3428,6 +3428,7 @@ Dadurch wirkt er auf andere oft unnahbar.
 Dafür bin ich nicht bereit, so viel Geld zu investieren.
 Dafür bin ich zu ungelenkig.
 Dafür brauche ich Waschbenzin.
+Dafür brauchte man aber Plakate, und keine kleinen Aufkleber.
 Dafür einen Sponsor zu finden, wäre natürlich auch toll.
 Dafür erntete sie viel Applaus.
 Dafür fühle ich mich zu alt.
@@ -3665,6 +3666,7 @@ Danke für den Vorschlag.
 Danke für die Blumen.
 Danke für die Einladung.
 Danke für die Hintergrundinformationen.
+Danke für die Info.
 Danke für die Information.
 Danke für die Warnung!
 Danke für nichts!
@@ -3912,6 +3914,7 @@ Darf ich Sie um ein Autogramm bitten?
 Darf ich an dem Preisausschreiben teilnehmen?
 Darf ich bei euch mitmachen?
 Darf ich bitte mal einen Satz zu Ende sprechen?
+Darf ich deine Tränen trocknen?
 Darf ich deinen Ex töten oder hättest du ein Problem damit?
 Darf ich deinen Spielstand überschreiben?
 Darf ich den mal kurz entführen?
@@ -5205,6 +5208,7 @@ Das wird ihm noch auf die Füße fallen, glaub mir!
 Das wird ihn garantiert irritieren.
 Das wird immer weniger.
 Das wird man erst sagen können, wenn alle Zeiten vorbei sind.
+Das wird mir jetzt aber zu blond hier!
 Das wird mir jetzt aber zu bunt hier.
 Das wird mir jetzt aber zu theoretisch.
 Das wird mir zu bunt!
@@ -5760,6 +5764,7 @@ Der Autor charakterisiert den dunklen Lord als Inbegriff des Bösen.
 Der Autor hat das Ende bewusst offen gelassen.
 Der Autoverleiher schickt seine Rechnungen aus Portugal nach Deutschland.
 Der Backofen muss auf einhundertachzig Grad Celsius vorgeheizt werden.
+Der Backstage Pass ist doch gefälscht.
 Der Bahnhof ist innerhalb von fünf Minuten fußläufig erreichbar.
 Der Bahnsteig ist mit Taubenkot beschmutzt.
 Der Ball treibt ab und der Junge schwimmt hinterher.
@@ -6339,6 +6344,7 @@ Der Test muss dokumentiert werden.
 Der Testartikel ist zwar nicht falsch, aber extrem unausgewogen.
 Der Tester moniert vor allem die mangelnde Wartbarkeit.
 Der Testsieger kann noch mit etwas anderem aufwarten.
+Der Teufel scheißt immer auf den größten Haufen.
 Der Teufel soll sie holen!
 Der Text lässt sich ja für unsere Zwecke adaptieren.
 Der Thronfolger wird uns nun seine Kampfkünste vorführen.
@@ -6403,6 +6409,7 @@ Der Verwaltungsrechtsweg müsste eröffnet sein.
 Der VfB konnte auch mal gewinnen.
 Der Vierbeiner freut sich bestimmt.
 Der Volksentscheid über den Flughafen diente nur als Feigenblatt in Sachen Bürgerbeteiligung.
+Der Volksmund wußte es schon immer.
 Der Vorfall bei Marktkauf stimmte Rudi nachdenklich.
 Der Vorfall wurde dem Sicherheitsbeauftragten gemeldet.
 Der Vorhang wehte durch das geöffnete Fenster.
@@ -6576,6 +6583,7 @@ Der junge Werther schrieb viele Briefe – dann brachte er sich um glaube ich.
 Der jüngste Sohn saß hinten im Sitz und hatte sichtlich Spaß.
 Der kleine Timmy hat so viel Pech im Leben!
 Der kleine Tümpel?
+Der kommt hier nicht herein!
 Der kommt morgen
 Der konkrete Nutzen erschließt sich mir nicht.
 Der konnte auch immer alles!
@@ -6615,6 +6623,7 @@ Der nächste Hotspot steht in Fürth.
 Der nächste Regen wird in fünfzehn Minuten erwartet.
 Der nächste Skandal bahnt sich bereits an.
 Der offene Kamin ist zwar schön anzuschauen, sorgt aber für Zugluft.
+Der offizielle Weg mit der Schulleitung wäre eine Möglichkeit.
 Der pH-Wert ist der negative dekadische Logarithmus der Protonenkonzentration.
 Der professionelle Sprecher kann nicht darüber hinwegtäuschen, dass er den Inhalt nicht versteht.
 Der rechte Rand des Touchpads lässt sich zum Scrollen verwenden.
@@ -8977,6 +8986,7 @@ Du zitterst ja!
 Du zuerst.
 Du überschreitest deinen Kompetenzbereich, wenn du mir das erlaubst.
 Du, ich zähle da nicht mehr mit.
+Dumm gelaufen für Scheisse Null Vier!
 Dumm gelaufen, würde ich sagen.
 Dumme Sprüche klopfen kann jeder.
 Dummerweise haben sich meine Kollegen schon alle Brückentage geschnappt.
@@ -9525,6 +9535,7 @@ Ein medizinisches Mittel gegen den natürlichen Tod wäre eine mittelfristige Ka
 Ein mit Hund in Mitten des Supermarkteingangs posierender Skinhead vermittelt ein mulmiges Gefühl.
 Ein mit Hund inmitten des Supermarkteingangs posierender Skinhead vermittelt ein mulmiges Gefühl.
 Ein moderates Wachstum wird angestrebt.
+Ein nasser Wachlappen hat mehr Selbstvertrauen.
 Ein neuer Blazer.
 Ein neuer grafischer Anstrich soll den Mangel an neuen Ideen übertünchen.
 Ein oder zwei Wochen machen keinen Unterschied.
@@ -10604,6 +10615,7 @@ Es beginnt mit wenig Rauch, der nach und nach zu dichtem Qualm wird.
 Es besteht Ausgangssperre.
 Es besteht Gefahr, dass der Ohnmächtige am eigenen Erbrochenen erstickt.
 Es besteht akuter Handlungsbedarf.
+Es besteht die Gefahr, das das vorgelesene auch akustisch verstanden wird!
 Es besteht kein Grund zur Beunruhigung.
 Es besteht zu zwanzig Prozent aus Baumwolle und zu achtzig Prozent aus Polyester.
 Es besteht überhaupt kein Zeitdruck.
@@ -11617,6 +11629,7 @@ Fräulein Schütz hatte reichlich Glück, jemanden zu haben, der sie an die Hand
 Frösche können sehr laut quaken.
 Frösche verfallen nicht in einen Winterschlaf, sondern in Winterstarre.
 Fröstelnd kroch sie aus dem Schlafsack.
+Früh arbeiten macht nur früh müde!
 Früh morgens, wenn es noch dunkel ist, verlässt Tess die Wohnung.
 Früh übt sich.
 Frühe Zucht bringt gute Frucht.
@@ -12196,6 +12209,7 @@ Gerda war selbst überrascht, wie schnell sich die Nachricht herumgesprochen hat
 Gerechtigkeit gibt es nur in der Hölle!
 Gerechtigkeit ist mein zweiter Vorname.
 Gerichtete Energieformen sind die wertvollsten.
+Gern geschehen mein Herr.
 Gerne stellt man sich dann als größten Retter der Menschheit dar.
 Gerne würde Theresa beruflich etwas kürzer treten.
 Gerne würde ich die Zeit zurückdrehen.
@@ -12243,6 +12257,7 @@ Gestern hat er endlich die Katze aus dem Sack gelassen.
 Gestern hat er plötzlich angefangen, sich wie wild zu kratzen.
 Gestern hatten wir das Konzert im Bürgerzentrum.
 Gestern in der Bücherei haben wir zehn Bücher verlängert.
+Gestern ist er in der "Very Important Person Lounge" über den Teppich gestolpert.
 Gestern ist es wieder spät geworden.
 Gestern ist unsere Waschmaschine kaputt gegangen.
 Gestern lief es echt gut.
@@ -13240,6 +13255,7 @@ Herrn Büchner wurde nahegelegt, seinen Posten aufzugeben.
 Herrschaftszeiten, wo ist nun wieder der Putzlumpen?
 Hersteller sollten verpflichtet werden, für Geräte, die am Internet hängen, jahrelang Sicherheitsupdates bereitzustellen.
 Hersteller von Headsets sollten mehr auf die Qualität der Kabel achten.
+Herzilein, du musst nicht traurig sein.
 Herzlichen Glückwunsch zum Geburtstag!
 Hetze richtet sich immer gegen Randgruppen und Minderheiten.
 Heute Abend gehe ich doch aufs Konzert.
@@ -13354,6 +13370,7 @@ Hey Junge, hier sollen Sätze vorgelesen, und nicht die Sätze vorgesäuselt wer
 Hey Junge, wie heißt du?
 Hey Mädchen, wohin willst Du?
 Hey Schatz, das Klopapier ist alle.
+Hey Spatzi alles wird gut werden.
 Hey du, hier spielt die Musik!
 Hey, Jimmy, was geht ab?
 Hey, das ist keine Spielzeugpistole!
@@ -15072,6 +15089,7 @@ Ich zähle schon lange nicht mehr mit.
 Ich überlege gerade, ob wir nicht doch einen Zeugen hinzuziehen sollten.
 Ich, Martin Müller, widerlege in meiner Bachelorarbeit Einsteins allgemeine Relativitätstheorie.
 Ida reicht eine Isomatte, auf die sie ihren Schlafsack legen kann.
+Ideal wären Dolmetscher, Synchron und Nachrichtensprecher.
 Idealerweise sollten Lehrer die Eltern ihrer Schüler nicht kennen.
 Idealerweise sollten die Verwaltungen freie Software einsetzen.
 Igitt, wie sieht denn der Duschvorleger schon wieder aus?
@@ -16443,6 +16461,7 @@ Ja ja, das steht da immer.
 Ja ja, ich gebe zu, es war eher eine Affäre als eine richtige Beziehung.
 Ja ja, ich weiß. Ich sollte sie mal gießen.
 Ja kann es denn nicht sein, dass hier immer nur vorgelesen wird?
+Ja leck mich frisch!
 Ja meine Damen und Herren, hier haben wir einen Ballkünstler vor dem Herrn!
 Ja müssen die Kinder dann in den Nachbarort zum Turnen?
 Ja nein ist klar, ne!
@@ -16554,6 +16573,7 @@ Ja, ich schaue es mir später an.
 Ja, ich schreibe euch noch eine E-Mail deswegen.
 Ja, ich schreibe zwei Bücher.
 Ja, ich übe schon mal für meine Zeit im Gefängnis.
+Ja, ins zweite Obergeschoss.
 Ja, ist denn heut' schon Ostern?
 Ja, ist sie.
 Ja, ja, deine Mutter...!
@@ -16628,6 +16648,7 @@ Je länger man wartet, desto teurer wird es.
 Je mehr Berufserfahrung Pädagogen sammeln, desto mehr verwandelt sich ihr Lehrerblick in einen Todesblick.
 Je mehr Gesetz, je weniger Recht.
 Je mehr Sport man treibt, desto mehr kann man essen.
+Je mehr er weiß, weiß er, daß er nichts weiß.
 Je mehr man ändern will, umso mehr Leute bringt man gegen sich auf.
 Je mehr Östrogen man zu sich nimmt, umso mehr verweiblicht der Körper.
 Je mehr, desto besser.
@@ -16863,6 +16884,7 @@ Jesses, wieviel Werkzeug wir dafür herausgegraben haben.
 Jessy findet es bedenklich, dass sie trotz Schlafmangels nicht müde ist.
 Jetzt aber Dalli!
 Jetzt aber zackig!
+Jetzt begriffen, oder kann man das auch noch schönreden?
 Jetzt bekomme ich auch noch Rückenschmerzen!
 Jetzt bin ich auf die Antwort gespannt.
 Jetzt bin ich schon wieder saumüde!
@@ -19502,6 +19524,7 @@ Mikrotransaktionen stehen stark in der Kritik.
 Milch aus der Glasflasche schmeckt deutlich besser als aus dem Tetrapack.
 Milch und Zucker?
 Millionen Fliegen können sich nicht irren.
+Mimimi.
 Minderheiten dieser Welt, ich kann euch nicht hören!
 Minderjährige brauchen die schriftliche Einverständniserklärung ihrer Eltern.
 Mindestens ein Viertel der Bevölkerung zeigt bereits Resistenzen gegen Werbung.
@@ -22200,6 +22223,7 @@ Ruhe da auf den billigen Plätzen!
 Ruhe da auf den billigen Plätzen.
 Ruhe da unten! Jetzt wird gerudert!
 Ruhe hier im Puff!
+Ruhe im Puff!
 Ruhe in Frieden.
 Ruhe! Der Hauptmann will etwas sagen.
 Ruhe, ich bin am Arbeiten!
@@ -22859,6 +22883,7 @@ Seine ganze Sippschaft trägt Zipfelmütze.
 Seine letzten Worte richtete er an seine Ersthelferin.
 Seine morgendliche Dusche empfand er als erfrischend kalt.
 Seine persönlichen Daten wollte er dann doch nicht angeben.
+Seine schwarz weiß Zeichnungen sahen aus wie Fotos.
 Seine tapsige Art wird euch noch so manches Mal zum Verhängnis werden.
 Seine unverfrorene Art lässt ihn schnell die Wände hochgehen.
 Seine öffentlichen Äußerungen sind ein Schlag ins Gesicht aller Betroffenen.
@@ -23321,6 +23346,7 @@ Sie lässt sich im Schlaf akustisch mit dem Stoff berieseln, den sie lernen will
 Sie lügt, ohne rot zu werden.
 Sie machen mich ganz nervös, wenn Sie mit der Kanone vor meiner Nase herumfuchteln.
 Sie macht es nicht des Geldes wegen.
+Sie macht ihm schöne Augen.
 Sie macht ihrem Namen alle Ehre.
 Sie macht mich wahnsinnig mit ihrem Hang zum Drama!
 Sie macht sich Vorwürfe.
@@ -24345,6 +24371,7 @@ Spätestens ab einhundertzweiundneunzig Kilobit pro Sekunde kann man das Ergebni
 Spätestens dann gehen hier die Lichter aus.
 Spätestens hier sollte einem auffallen, dass der Shop nicht ganz koscher ist.
 Spätestens um dreiundzwanzig Uhr muss ich in Sankt Augustin sein.
+Spätestens wenn Fahnen verbrannt werden, dürfte klar werden, daß einige Personengruppen nicht tolerant sind!
 Spätestens wenn einer am Boden liegt, hört man auf.
 Spätestens zwei Wochen nach der Wahl sollte nichts mehr von ihnen zu sehen sein.
 Spürst du auch ab und zu ein Phantomvibrieren in der Hosentasche?
@@ -24990,6 +25017,7 @@ Um ungewollte Klicks zu verhindern, kann man das Touchpad abschalten.
 Um viertel neun gehen wir los.
 Um viertel neun gehn wir los.
 Um vor Blitzern gewarnt zu sein, klemmt man sich an die Stoßstange eines anderen.
+Um weitere Sprecher für Common Voice zu gewinnen, könnte man an Schulen herantreten.
 Um welche Art von Schüttgut handelt es sich?
 Um wen geht es?
 Um weniger angreifbar zu sein, ist das asoziale Netzwerk dezentral organisiert.
@@ -26155,6 +26183,7 @@ Von zwölf bis mittag.
 Vor Ausrufe- und Fragezeichen bitte kein Leerzeichen setzen!
 Vor Bären fürchte ich mich nicht. Vor Wilderern schon eher.
 Vor Fragezeichen ist das Leerzeichen unnötig.
+Vor Freude hat sie sich eingenäßt.
 Vor Ihnen hat es noch kein Fahrschüler geschafft, einen Wagen mit Automatik abzuwürgen.
 Vor Nässe triefend betraten die kühnen Abenteurer die Höhle.
 Vor Panik schlotterten Klaus-Peter die Knie.
@@ -27019,6 +27048,7 @@ Was sagt er?
 Was sagt man dazu?
 Was sagt sie zu letzter Nacht?
 Was sagte sie noch mal?
+Was schaust du?
 Was schlagen Sie vor?
 Was schlägst du stattdessen vor, was ich kochen soll?
 Was schmeckt am besten?
@@ -27117,6 +27147,7 @@ Was versteht man unter Münchhausen Mütter?
 Was versucht die Dame eigentlich mit ihrer Schminke zu kaschieren?
 Was verzapft ihr da für einen Unsinn?
 Was war das denn jetzt?
+Was war das denn?
 Was war das für ein Geräusch?
 Was war das für ein Wagen?
 Was war das?
@@ -27245,6 +27276,7 @@ Weggenommen wird aber nie etwas.
 Wegwerfen wollte er sie aber auch nicht.
 Wehe, du bandelst mit meiner Stiefschwester an!
 Wehret den Anfängen.
+Weibliche Sprecher und Kinder werden so besser erreicht.
 Weiche Schatten oder indirektes Licht sind zum Beispiel nicht ohne Weiteres realisierbar.
 Weichen Sie auf Aufgang B aus.
 Weichen Sie dem Weltraummüll aus oder schießen Sie ihn ab!
@@ -28604,6 +28636,7 @@ Wie laufen die Verhandlungen?
 Wie laut vibriert dein Handy bitte?
 Wie lauten die zehn Gebote?
 Wie lautet der Hersteller der Kaffeemaschine?
+Wie lautet der Name ihres Rechtsverdrehers?
 Wie lautet der Zwischenstand?
 Wie lautet die Bankleitzahl?
 Wie lautet die Vorwahl von Bottrop?
@@ -28743,6 +28776,7 @@ Wie trainiert man effektiv seine Sprungkraft?
 Wie tut man das?
 Wie um alles in der Welt konnte er all das in einer Woche leisten?
 Wie uncool!
+Wie ungeschickt.
 Wie unschwer zu erkennen ist, wurde der Fremdkörper noch nicht entfernt.
 Wie unterscheiden sich Koma und Bewusstlosigkeit voneinander?
 Wie unterscheidet man Freund von Feind?
@@ -29039,6 +29073,7 @@ Wieso? Eigentlich war es doch ganz witzig.
 Wieso? Ich habe doch gerade erst angefangen.
 Wieviel kostet das Prickelwasser?
 Wieviel müsste es regnen, damit wir den Sommer gut überstehen?
+Wieviele Flocken bekommst du noch?
 Wieviele Gläser sind noch da?
 Wieviele Gänge hat der Wagen?
 Wieviele Häuserwände wurden mit dem dreidimensionalen Drucker schon erstellt?
@@ -29046,6 +29081,7 @@ Wieviele Sprachen sprechen Sie?
 Wieviele Sprachen und Dialekte beherrscht ihr Übersetzungsandroid?
 Wikipedias Texte sind vorrangig in der dritten Person geschrieben.
 Wild lebende Raubtiere sollte man nicht füttern.
+Wildes Plakatieren wäre kontraproduktiv.
 Wildpinkler hat man überall.
 Wildschweine zu stören ist eine dumme Idee.
 Wilfried wollte die schweren Kisten ganz allein in die Scheune tragen.
@@ -29461,6 +29497,7 @@ Wir züchten unsere eigenen Kürbispflanzen aus den Kernen der Früchte letzten 
 Wir übernachteten zweimal in einem Hotel in der Nähe von Hamburg.
 Wir überraschen ihn, nutzen seine Schrecksekunde und schnappen uns die Sprühdose.
 Wir, äh, haben ja eigentlich keine Zeit.
+Wird "Palästina" denn als Staat von der Bundesrepublik Deutschland anerkannt?
 Wird Artikel Dreizehn den Einsatz von Upload-Filtern de facto erfordern?
 Wird Corana sich in den Griff bekommen?
 Wird Zeit, dass die ersten Handys mit Geruchssensoren auf den Markt kommen!
@@ -29706,6 +29743,7 @@ Wo wollen wir das Zelt aufschlagen?
 Wo wollen wir unsere Flitterwochen verbringen?
 Wo wolltest du schon immer mal hin?
 Wo wurde der Leichnam gefunden?
+Wo ziehst du hin?
 Wo zu lange dieselbe Partei an der Macht ist, findet man immer Korruption.
 Woanders habe ich dieses Produkt schon günstiger gesehen.
 Woanders herrschen noch schlimmere Zustände.
@@ -30098,6 +30136,7 @@ Zieh dich an!
 Zieh dir mal ein gelbes Trikot an.
 Zieh dir mal eine saubere Büx an.
 Zieh eine Lederhose an, falls du eine hast!
+Ziehen Sie in diese Wohnung?
 Ziehen Sie sich einmal zurück!
 Zieht die Köpfe ein, wir steuern auf eine Brücke zu!
 Zieht euch eure Hausschuhe an.
