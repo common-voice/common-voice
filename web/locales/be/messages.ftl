@@ -96,6 +96,7 @@ lg = Луганда
 lij = Лігурыйская
 lt = Літоўская
 lv = Латышская
+mai = Майтхілі
 mdf = Макшанская
 mg = Малагасійская
 mhr = Лугавамарыйская
@@ -352,26 +353,17 @@ skip-submission-description = Пасля таго як вы націснеце "
 skip-submission-note = Заўвага: Вам усё яшчэ трэба будзе выбраць паміж "Агучыць" і "Слухаць", каб змяніць тып унёску.
 off = Пакінуць
 on = Прапусціць
-avatar-clip-title = Дайце голас свайму аватару
-change-your-avatar-clip = Хочаце змяніць свой галасавы кліп?
-recording-in-progress = Ідзе запіс голасу
-avatar-clip-recorded = Ваш аватар цяпер мае галасавы кліп!
-record-voice-wave = ЗАПІСАЦЬ ГОЛАС
-retry-voice-wave-recording = ПАЎТАРЫЦЬ
-re-record = ПЕРАЗАПІСАЦЬ
-delete-voice = ВЫДАЛІЦЬ
-recording-voice-wave = Запіс
-delete-voice-clip = або Выдаліць галасавы кліп
-ready-to-upload = ЗАПАМПАВАЦЬ
-avatar-clip-fact = Даўно вядома, што ўвага чытача будзе адцягвацца на змест старонкі пры поглядзе на яе макет.
-recreate-voice = Перазапісаць голас
-cancel-avatar-clip-recording = СКАСАВАЦЬ
-about-avatar-clip-recording = Стварыць галасавы кліп для аватара вашага профілю. Іншыя ўдзельнікі змогуць навесці курсор на аватар і паслухаць ваш кліп.
+
+## Profile - Email
+
 browse-file-title = Запампаваць відарыс
 browse-file = Перацягніце альбо <browseWrap>прагледзіце</browseWrap>
 connect-gravatar = Звязаць з Gravatar
 gravatar_not_found = Gravatar для вашай эл. пошты не знойдзены
 file_too_large = Выбраны файл занадта вялікі.
+
+## Profile - Email
+
 manage-subscriptions = Кіраваць падпіскамі
 manage-email-subscriptions = Кіраваць падпіскамі па эл. пошце
 email-already-used = Эл. пошта ўжо выкарыстоўваецца іншым акаўнтам
