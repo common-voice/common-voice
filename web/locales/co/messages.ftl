@@ -447,6 +447,7 @@ feedback-q = Avete sugestione ?
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = U corpus TED-LIUM hè statu fattu incù i discorsi è e so trascrizzione dispunibile à nant'à u situ TED.
 data-other-tatoeba-description = Tatoeba hè una banca maiò d'infrasate, traduzzione è ducumenti urali chì ghjovanu à l'imparera di e lingue. Issu scaricamentu cuntene ducumenti urali, in inglese, arrigistratu da a so cummunità.
+your-feedback = Avete idee di cumu fà pà megliurà a banca di dati di Common Voice ? Dateci u vostru parè nant'à Discourse
 go-discourse = Andà nant'à Discourse
 missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dumandà una lingua, andate annantu à a nostra paghjina Lingue.
 go-languages-page = Andà à a pagina di e lingue
@@ -548,6 +549,7 @@ listen-empty-state = Ùn avemu più campioni dà cunvalidà in issa lingua...
 speak-empty-state = Ùn avemu più infrasate à arrighjistrà in issa lingua...
 record-button-label = Arrighjistrà a vostra voce
 keep-track-profile = Seguiteti i vostri prugressi creendu un prufilu
+login-to-get-started = Cunnittiti vi o iscrivite vi pà cummincià
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
 
