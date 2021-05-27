@@ -117,6 +117,7 @@ nn-NO = Нованарвежская
 oc = Аксітанская
 or = Орыя
 pa-IN = Панджабі
+pap-AW = Пап'ямента (Аруба)
 pl = Польская
 ps = Пушту
 pt = Партугальская
@@ -128,6 +129,7 @@ rw = Руанда
 sah = Якуцкая
 sc = Сардзінская
 scn = Сіцылійская
+shi = Шыльхская
 si = Сінгальская
 sk = Славацкая
 sl = Славенская
@@ -361,6 +363,8 @@ browse-file = Перацягніце альбо <browseWrap>прагледзіц
 connect-gravatar = Звязаць з Gravatar
 gravatar_not_found = Gravatar для вашай эл. пошты не знойдзены
 file_too_large = Выбраны файл занадта вялікі.
+avatar-uploaded = Аватар запампаваны
+max-file-size = { $kb }кб максімум
 
 ## Profile - Email
 
