@@ -279,6 +279,7 @@ connect-gravatar = Cunnettatevi cù Gravatar
 gravatar_not_found = Ùn avemu trovu di prufilu Gravatar cù u vostru indirizzu elettronicu
 file_too_large = U ducumentu sceltu hè troppu maiò
 avatar-uploaded = Avatar caricatu
+max-file-size = { $kb } Ko à u più
 
 ## Profile - Email
 
