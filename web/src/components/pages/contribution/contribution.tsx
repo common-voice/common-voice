@@ -114,6 +114,7 @@ interface Props extends WithLocalizationProps, PropsFromState {
   shortcuts: {
     key: string;
     label: string;
+    icon?: React.ReactNode;
     action: () => any;
   }[];
   type: 'speak' | 'listen';
@@ -173,7 +174,10 @@ class ContributionPage extends React.Component<Props, State> {
       this.setState({ showAccountModal });
       if (showAccountModal) {
         try {
-          localStorage.setItem(HAS_SEEN_ACCOUNT_MODAL_KEY, JSON.stringify(true));
+          localStorage.setItem(
+            HAS_SEEN_ACCOUNT_MODAL_KEY,
+            JSON.stringify(true)
+          );
         } catch (e) {
           console.warn(`A sessionStorage error occurred ${e.message}`);
         }
@@ -323,9 +327,11 @@ class ContributionPage extends React.Component<Props, State> {
               <h1 />
             </Localized>
             <div className="shortcuts">
-              {this.shortcuts.map(({ key, label }) => (
+              {this.shortcuts.map(({ key, label, icon }) => (
                 <div key={key} className="shortcut">
-                  <kbd>{getString(key).toUpperCase()}</kbd>
+                  <kbd title={getString(key).toUpperCase()}>
+                    {icon ? icon : getString(key).toUpperCase()}
+                  </kbd>
                   <div className="label">{getString(label)}</div>
                 </div>
               ))}

@@ -29,6 +29,7 @@ import {
   FirefoxColor,
   ChromeColor,
   SafariColor,
+  ReturnKeyIcon,
 } from '../../../ui/icons';
 import { Button, TextButton, LinkButton } from '../../../ui/ui';
 import { isIOS, isMobileSafari } from '../../../../utility';
@@ -454,7 +455,7 @@ class SpeakPage extends React.Component<Props, State> {
                 JSON.stringify(challengeEnded)
               );
               sessionStorage.setItem('hasContributed', 'true');
-            } catch(e) {
+            } catch (e) {
               console.warn(`A sessionStorage error occurred ${e.message}`);
             }
 
@@ -742,6 +743,13 @@ class SpeakPage extends React.Component<Props, State> {
                 key: 'shortcut-rerecord-toggle',
                 label: 'shortcut-rerecord-toggle-label',
                 action: this.handleRecordClick,
+              },
+              {
+                key: 'shortcut-submit',
+                label: 'shortcut-submit-label',
+                icon: <ReturnKeyIcon />,
+                // This is handled in handleKeyDown, separately.
+                action: () => {},
               },
             ]}
             type="speak"
