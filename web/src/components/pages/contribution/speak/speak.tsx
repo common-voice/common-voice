@@ -579,7 +579,6 @@ class SpeakPage extends React.Component<Props, State> {
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
 
-    console.log(isSubmitted);
     return (
       <>
         <div id="speak-page">
