@@ -348,7 +348,7 @@ download-profile = 下載我的數據
 contribution-experience = 貢獻體驗
 skip-submission-feedback = 略過提供意見
 skip-submission-description = 在貢獻時，點擊「提交」會略過提供意見，直接去到下一組五段錄音或驗證。
-skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
+skip-submission-note = 註: 您仍須要選擇「聽」或「講」來切換貢獻類型。
 off = 關
 on = 開
 
