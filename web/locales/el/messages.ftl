@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ναι, επιθυμώ να λαμβάνω emails και να ενημερώνομαι για το έργο Common Voice.
+yes-receive-emails = Ναι, επιθυμώ να λαμβάνω email και να ενημερώνομαι για το έργο Common Voice.
 stayintouch = Στη Mozilla, χτίζουμε μια κοινότητα γύρω από τη φωνητική τεχνολογία. Θα θέλαμε να επικοινωνούμε μαζί σας για ενημερώσεις, νέες πηγές δεδομένων και για να μαθαίνουμε πώς χρησιμοποιείτε αυτά τα δεδομένα.
 privacy-info = Υποσχόμαστε να χειριστούμε τις πληροφορίες σας με προσοχή. Διαβάστε περισσότερα στη <privacyLink>σημείωση απορρήτου</privacyLink>.
 return-to-cv = Επιστροφή στο Common Voice
@@ -8,9 +8,9 @@ email-input =
     .label = Email
 submit-form-action = Υποβολή
 loading = Φόρτωση…
-email-opt-in-info = Θα ήθελα να λαμβάνω emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+email-opt-in-info = Θα ήθελα να λαμβάνω email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 email-opt-in-info-title = Εγγραφείτε στη λίστα αλληλογραφίας του Common Voice
-email-opt-in-info-sub-with-challenge = Λάβετε emails, όπως υπενθυμίσεις στόχων και προκλήσεων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+email-opt-in-info-sub-with-challenge = Λάβετε email, όπως υπενθυμίσεις στόχων και προκλήσεων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με το χειρισμό αυτών των πληροφοριών από τη Mozilla, όπως εξηγεί η <privacyLink>πολιτική απορρήτου</privacyLink>.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
@@ -809,8 +809,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Εξαιρετικά! Πόσα κλιπ την ημέρα;
 how-many-a-week = Εξαιρετικά! Πόσα κλιπ την εβδομάδα;
 which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή και τα δύο;
-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, θα λαμβάνετε emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
-not-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, <bold>ΔΕΝ</bold> θα λαμβάνετε emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+not-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, <bold>ΔΕΝ</bold> θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } κλιπ
