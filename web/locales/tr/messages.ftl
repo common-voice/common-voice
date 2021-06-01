@@ -280,6 +280,8 @@ shortcut-record-toggle = k
 shortcut-record-toggle-label = Kaydet/Durdur
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Yeniden kaydedin
+shortcut-submit = Enter
+shortcut-submit-label = Kayıtları gönder
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
 request-language-text-learn = Nasıl talep edebileceğinizi öğrenin!
 request-language-button = Yeni dil iste
@@ -760,10 +762,10 @@ finish-editing = Önce düzenleme bitirilsin mi?
 lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
 help-reach-hours-pluralized =
-    Kişisel bir hedef belirleyerek { $language } dilinde{ NUMBER($hours) ->
+    Kişisel bir hedef belirleyerek { $language } dilinde { NUMBER($hours) ->
         [one] { $hours } saate
        *[other] { $hours } saate
-    }ulaşmamıza yardımcı olun
+    } ulaşmamıza yardımcı olun
 help-reach-hours-general-pluralized =
     Kişisel bir hedefle Common Voice'un bir dilde { NUMBER($hours) ->
         [one] { $hours } saate
