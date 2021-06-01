@@ -282,6 +282,7 @@ shortcut-record-toggle = e
 shortcut-record-toggle-label = Enregistrer/Arrêter
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Refaire l’enregistrement
+shortcut-submit-label = Envoyer les enregistrements
 request-language-text = Votre langue n’est pas encore disponible ?
 request-language-text-learn = Découvrez comment demander à ce qu’elle soit ajoutée.
 request-language-button = Proposer une langue
