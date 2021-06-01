@@ -283,6 +283,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Spela in/Stoppa
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spela in klipp igen
+shortcut-submit = Återgå
 shortcut-submit-label = Skicka in klipp
 request-language-text = Kan du inte se ditt språk på Common Voice än?
 request-language-text-learn = Lär dig hur du kan begära det här!
