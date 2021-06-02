@@ -47,7 +47,7 @@ import { SentenceRecording } from './sentence-recording';
 
 import './speak.css';
 
-const MIN_RECORDING_MS = 1500;
+const MIN_RECORDING_MS = 1000;
 const MIN_RECORDING_MS_BENCHMARK = 500;
 const MAX_RECORDING_MS = 10000;
 const MIN_VOLUME = 8; // Range: [0, 255].
