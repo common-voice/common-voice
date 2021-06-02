@@ -939,6 +939,7 @@ Also hat Falk es einfach auf Verdacht bestellt.
 Also hat man aus der Not eine Tugend gemacht.
 Also hat sie sich den Oberschenkel und den Hals gebrochen?
 Also hör mal, das finde ich jetzt aber nicht in Ordnung, ok?
+Also ich bin dafür.
 Also ich bin schon erschöpft.
 Also ich finde meine Strategie nach wie vor gut.
 Also ich finde mich sehr vertrauenswürdig.
@@ -2028,6 +2029,7 @@ Autobahnklos sind unfassbar ekelhaft.
 Autocross ist ein Autorennen und ein Autoscooter ist meist auf dem Rummelplatz.
 Automatische Generation von Untertiteln ist ein Anwendungsgebiet.
 Autonome Navigation funktioniert hier ganz anders.
+Autopilot ausschalten.
 Autoradios sind möglicherweise der letzte Ort an dem man sich noch Kassetten anhören kann.
 Autos sind dann autonom, wenn sie sich untereinander zu illegalen Straßenrennen verabreden.
 Autos, die auf dem Dach landen, fangen nach kurzer Zeit zu brennen an.
@@ -2582,6 +2584,7 @@ Beruhigen Sie sich wieder.
 Beschreiben Sie Ihr Anliegen kurz und bündig.
 Beschreiben Sie uns, was passiert ist!
 Beschwerden von besorgten Bürgern sind an der Tagesordnung.
+Beschwichtigungen und Selbsthypnose sind kontraproduktiv.
 Beschämend für die Gesellschaft, wie auch für das Individuum.
 Beschämt schaut sie zum Boden.
 Beschütze unsere Kinder mit deinem Leben, wenn es sein muss!
@@ -2827,7 +2830,9 @@ Bitte begrüßen Sie unseren heutigen Stargast!
 Bitte behindern Sie nicht die Rettungsaktion!
 Bitte bewahren Sie absolutes Stillschweigen.
 Bitte den Müll "in" den Mülleimer werfen.
+Bitte den Sicherheitsgurt anlegen.
 Bitte den die Datei beinhaltenden Ordner anzeigen.
+Bitte die Handbremse lösen.
 Bitte die Rechner nicht herunterfahren, weil sonst keine Updates installiert werden können!
 Bitte die Rettungsgasse freihalten.
 Bitte drück rechtzeitig auf Stopp.
@@ -8144,6 +8149,7 @@ Die neue Regelung gilt ab sofort.
 Die neue Spielekonsole ist großartig!
 Die neue Technik ist Opa zu kompliziert.
 Die neuen Beiträge werden erst sichtbar, nachdem sie manuell importiert wurden.
+Die neuen Covid Mutanten sind teilweise als besorgniserregend eingestuft worden.
 Die neuen Enthüllungen über den Funktionär ändern alles.
 Die neuen Fenster schirmen den Straßenlärm deutlich besser ab.
 Die neugeborenen Löwen sind noch ganz handzahm.
@@ -9471,6 +9477,7 @@ Ein belegtes Brot mit Schinken und ein belegtes Brot mit Ei.
 Ein berauschter Pirat hat sie auf einer einsamen Insel geschrieben.
 Ein bestimmtes Lebensmittel aus dem Kühlschrank scheint euch alle besonders zu interessieren.
 Ein billiger Trick.
+Ein bischen nervös, wie?
 Ein bisschen Anonymität und Abstand finde ich nicht schlecht.
 Ein bisschen Babyspeck ist vollkommen normal.
 Ein bisschen Gewalt muss jede Tastatur ertragen.
@@ -10301,6 +10308,7 @@ Er ist ein sehr charmanter Kerl, aber er kann nicht richtig küssen.
 Er ist ein talentierter Bursche.
 Er ist ein umtriebiger Mann.
 Er ist eine wahre Kämpfernatur.
+Er ist enttäuscht.
 Er ist es nicht und war es auch nie.
 Er ist für den weiteren Spielverlauf nicht entscheidend.
 Er ist geschmeidig wie ein Aal.
@@ -10758,6 +10766,7 @@ Es gibt rote Grütze.
 Es gibt so schöne Kirchenlieder!
 Es gibt so viele davon, dass ich mich gar nicht entscheiden kann.
 Es gibt so viele klassische Stücke!
+Es gibt solche und solche.
 Es gibt vergleichsweise wenige Menschen mit Hass auf Katzenbabys.
 Es gibt verschiedene Modi.
 Es gibt viel zu tun, sitzen wir es aus!
@@ -11303,6 +11312,7 @@ Fachtermini sollten getrennt eingesprochen werden, finde ich.
 Fahr doch mit dem Rad, dann kann sie nebenher rennen.
 Fahr vorsichtig!
 Fahr weiter!
+Fahre zur nächsten funktionierenden Ladesäule.
 Fahren Sie bitte schneller.
 Fahren Sie bitte vor bis zur Kontaktschleife!
 Fahren Sie den Wagen mal auf die Hebebühne!
@@ -11674,6 +11684,7 @@ Frühling ist die schönste Zeit des Jahres.
 Frühlingsrollen waren das Lieblingsessen von Sibylle.
 Frühstückseier mochte Jürgen am liebsten mit Salz und Weißbrot.
 Funkmäuse sind eine gute Erfindung.
+Funktionieren bei dir alle Programme im Homeoffice?
 Funktioniert das denn?
 Funktioniert der Fahrkarten Scanner denn?
 Fußball ist unser Leben.
@@ -12304,6 +12315,7 @@ Gib dem Corona Virus eine Chance.
 Gib dem Corona Virus keine Chance.
 Gib dem Kind mal was Ordentliches zu essen!
 Gib dem Mann eine Säge!
+Gib der Schildkröte keine Chance!
 Gib die Flosse Genosse.
 Gib die Flosse, Genosse!
 Gib dir keine Mühe!
@@ -13047,6 +13059,7 @@ Hat die Partei immer Recht?
 Hat die Quasseltante auch eine Pausetaste?
 Hat die Reederei immer noch mit Piraterie zu kämpfen?
 Hat die Schulung etwas gebracht?
+Hat die aber eine süße Stimme.
 Hat die nicht eigentlich mit dem Rauchen aufgehört?
 Hat dies etwas mit Gabrieles Persönlichkeitsstörung zu tun?
 Hat diese Zulassungsstelle denn keine Telefonnummer?
@@ -13324,6 +13337,7 @@ Heute schon protestiert?
 Heute schon telefoniert?
 Heute sind wieder zwanzig Opfer gefallen.
 Heute verwenden wir nur noch Lithiumakkus.
+Heute war die Innenstadt so voll wie seit Anfang November nicht mehr.
 Heute war ich unterwegs und habe Brennesseln gesucht.
 Heute waren es auch wieder vier Stück.
 Heute waren wir im Klostercafe, da habe ich Leckeres erstanden.
@@ -13896,6 +13910,7 @@ Ich bin nicht betrunken, ich rede nur kursiv!
 Ich bin nicht dein Kuschelbär!
 Ich bin nicht der Götzenanbeter.
 Ich bin nicht dumm, ich habe nur oft Pech beim Denken.
+Ich bin nicht im Homeoffice, sondern im Büro.
 Ich bin noch ganz heiser von gestern Abend.
 Ich bin nur Mitläufer. Fragen Sie einen anderen!
 Ich bin nur auf Erdnüsse allergisch, nicht auf Haselnüsse.
@@ -14543,6 +14558,7 @@ Ich konnte nur ein paar Gesprächsfetzen auffangen.
 Ich krieg noch immer jedes Jahr einen selbstgemachten Adventkalender von meinem Vater.
 Ich kriege dich sowieso!
 Ich kriege wieder Kopfschmerzen.
+Ich kämpfe mit Internetabbrüchen im Homeoffice.
 Ich könnte Kotzen bei soviel Ignoranz.
 Ich könnte ausflippen!
 Ich könnte brechen bei dem Anblick.
@@ -14768,6 +14784,7 @@ Ich schreibe dir aber natürlich so oft es geht.
 Ich schreibe ein Email an die Verwaltung.
 Ich schreibe immer Geldbörse, weil ich mir nicht merken kann wie man Portemonnaie schreibt.
 Ich schwöre es beim Grab meiner Großmutter.
+Ich schwöre!
 Ich schätze den Aufwand auf drei Mannmonate.
 Ich schätze zwölf Euro und ein paar Zerquetschte.
 Ich schätze, mir fehlt einfach der Nostalgie-Faktor.
@@ -15992,6 +16009,7 @@ In natürlichem Gestein treten die Mineralien nur sporadisch auf.
 In nicht einmal einer Minute hatten sie die Blackstory schon gelöst.
 In nur zehn Tagen soll ein Krankenhaus aus dem Boden gestampft werden.
 In schwarzem Tee ist die Konzentration vergleichsweise hoch.
+In sechs Monaten wird eine Auffrischung der Covid neunzehn Impfung erforderlich sein.
 In seinem Statement bezieht der Tscheche klar Stellung.
 In seinem eigenen Fachgebiet merkt man schnell, wie wenig Kompetenz die Stiftung Warentest hat.
 In seinen Augen konnte man förmlich die Dollarzeichen aufblitzen sehen.
@@ -16557,6 +16575,7 @@ Ja, es gibt auch laktosefreie Sahne.
 Ja, es ist eine Funkuhr.
 Ja, es ist noch viel lustiger geworden.
 Ja, guten Tag!
+Ja, ich arbeite wieder aus dem Homeoffice.
 Ja, ich bin stolz auf meine Leistung.
 Ja, ich bin werbegeschädigt.
 Ja, ich fahre nur tanken, um ein wenig Kraftstoff zu schnüffeln.
@@ -17639,6 +17658,7 @@ Kleine Aufmerksamkeiten können der Schlüssel zum großen Glück sein.
 Kleine Jungen im Kindergarten haben großes Vergnügen daran, Papiertüten platzen zu lassen.
 Kleine Jungs können sich für Motorräder begeistern.
 Kleine Kinder - kleine Probleme, große Kinder - große Probleme.
+Kleine Kinder reden so!
 Kleine Sterne leben länger als große.
 Kleinere Erdbeben merkt man nur in den oberen Stockwerken.
 Kleinere Fehler sind verzeihlich.
@@ -17818,6 +17838,7 @@ Kopf hoch!
 Kopf oder Zahl?
 Kopfhörer mit Geräuschunterdruckung sind für das Fliegen besonders gut geeignet.
 Korallenriffe zählen zu den artenreichsten Lebensräumen der Welt.
+Korinthenkackermodus ausschalten.
 Korken oder Schraubverschluss?
 Korrekt, bestätigt er.
 Korrekturvorschläge und Kommentare sind nicht möglich.
@@ -19058,6 +19079,7 @@ Maria Färber und Berta Janowitz fanden den Film mega unlustig.
 Maria brachte ihr erstes Kind Anfang August zur Welt.
 Maria ist ungefähr einen Kopf kürzer als ich.
 Maria lebte in Angst davor, dass ihr Geheimnis rauskommt.
+Maria machte sich kurz nach zehn Uhr auf den Weg nach Karlsruhe.
 Maria soll ohne Befruchtung schwanger geworden sein?
 Marian hat sich vorgenommen, Xaver und Merit bei der Gelegenheit zu verkuppeln.
 Marian schwebt im siebten Himmel.
@@ -20520,6 +20542,7 @@ Natürlich wurden sie dazu gezwungen.
 Natürlich würde das etwas Organisation erfordern.
 Natürlich ändert der Ventilator nichts an der Temperatur.
 Natürlich, der Biervorrat ist zur Neige gegangen.
+Navigation beenden.
 Navigiere mich zum Rotkelchenring vierzehn!
 Ne, da hatte ich schon keins mehr.
 Ne, sieht nicht gut aus.
@@ -20782,6 +20805,7 @@ Nicht jeder Staplerfahrer heißt Klaus.
 Nicht jeder hat das Glück, direkt an der Nordsee zu leben.
 Nicht jeder hat sich das ausgesucht.
 Nicht jeder ist so hart im Nehmen wie Eleonore.
+Nicht jeder mit einem Hawaiihemd ist auch ein Partylöwe.
 Nicht jeder möchte die Hilfen vom Staat annehmen.
 Nicht jeder telefoniert gerne.
 Nicht jedes Badezimmer hat Fenster.
@@ -22149,6 +22173,7 @@ Rewe biete den Lieferservice jetzt auch hier an.
 Rex, immer bereit zu töten.
 Rhabarber schmeckt nur gut als Kuchenbelag.
 Rheinischer Zuckerrübensirup ist eine regionale Delikatesse.
+Rhetorik in Schwarz-Weiß.
 Rhetorisch geschickt reagierte Magnus mit einer Gegenfrage.
 Ri Ra Rutsch wir fahren mit der Kutsch
 Richard hatte zwar die Bananenschale liegen lassen, aber nicht damit Katja ausrutschte.
@@ -22216,6 +22241,7 @@ Ruf doch mal wieder Sabine an!
 Ruf mal die Pannenhilfe an.
 Ruf mich mal kurz an, damit ich auch deine Nummer habe.
 Ruf schnell die Polizei!
+Rufe Pannenhilfe an.
 Rufen Sie uns nicht an, wir melden uns bei Ihnen!
 Rugby ist meist ein Männersport.
 Ruhe Kinder, der Opa erzählt wieder Geschichten aus dem Krieg.
@@ -22337,6 +22363,7 @@ Sauberes Schalten schont das Getriebe.
 Saudi-Arabien hat der Offensive nichts entgegenzusetzen.
 Sauer macht lustig, sagt man.
 Sauerteig ist meistens im Einzelhandel erhältlich.
+Saufen ersetzt Yoga.
 Saure oder bittere Noten von Grapefruit und Mandeln.
 Scanne doch mal den Code.
 Schade eigentlich!
@@ -22448,6 +22475,7 @@ Schlechter Witz in drei, zwei, eins!
 Schlechtes Wetter ist kein Grund, seine Kinder mit dem Auto zur Schule zu kutschieren.
 Schleppt ihr die Gefriertruhe in den Keller?
 Schleswig-Holstein liegt an der dänischen Grenze ganz im Norden von Deutschland.
+Schleudersitz der Beifahrerseite aktivieren.
 Schließ bitte alle Fenster!
 Schließen Sie bitte die Luke.
 Schließen Sie die Augen und entspannen Sie sich!
@@ -22988,6 +23016,7 @@ Selbstverständlich erstatten wir Ihnen Ihre Fahrtkosten.
 Selbstverständlich ist der Einsatz von Werbeblockern rechtens.
 Selbstverständlich schreibt man Foto, Telefon, Mikrofon und Fantasie mit F.
 Selbstverständlich werden Ihre Daten nach Beendigung des Bewerbungsprozesses wieder gelöscht.
+Selbstzerstörungssequenz in zehn Sekunden ausführen.
 Selbstüberschätzung ist nach wie vor die häufigste Unfallursache im Hochgebirge.
 Selten beschäftigt man sich so intensiv mit Religion wie beim Kirchenaustritt.
 Selten finden die deutschen Wörter Hörstück oder Hördatei Anwendung.
@@ -23620,6 +23649,7 @@ Sind Sie gegen Hepatitis geimpft?
 Sind Sie gegen Tollwut geimpft?
 Sind Sie gesetzlich oder privat versichert?
 Sind Sie mit der Leistung des Reisebüros zufrieden?
+Sind Sie nächsten Montag wieder im Homeoffice?
 Sind Sie schon dahinter gekommen, wie Tamara in echt heißt?
 Sind Sie schon einmal mit Kinderwagen am Rhein entlang gejoggt?
 Sind Sie selbstständig oder sind Sie angestellt?
@@ -24335,6 +24365,7 @@ Spot-on hat nicht funktioniert, da gab es trotzdem laufend Zeckenalarm.
 Sprache ist der wohl wichtigste Schlüssel zur Integration.
 Spracherkennung starten.
 Sprachexperten geben ihre Einschätzung dazu ab, ob der Akzent echt ist.
+Sprachsteuerung ausschalten.
 Sprechen Sie Estnisch?
 Sprechen Sie auch in ganzen Sätzen?
 Sprechen Sie bitte so, dass die Spracherkennung schon auch den Bundestrainer verstehen wird.
@@ -25068,6 +25099,7 @@ Und bist du nicht willig, so wirst du eben nicht geimpft.
 Und bitte keine Fotos!
 Und bitte möglichst nicht mehr als ein Satz pro Zeile!
 Und bitte schön!
+Und bitte schön, Herr Zeremonienmeister.
 Und da fiel es Marleen wie Schuppen von den Augen.
 Und da kommen ganz schön ansehnliche Beträge zusammen.
 Und da ließ Mariechen Mariechen mal riechen.
@@ -26901,6 +26933,7 @@ Was ist eigentlich überhaupt der Unterschied zwischen Kopfhörern und Ohrhörer
 Was ist eigentliche dieses Internet, von dem immer alle reden?
 Was ist ein Gutmensch? Wer definiert Gut und Böse?
 Was ist ein Keks unter einem Baum?
+Was ist ein Kindskopf?
 Was ist ein Lockdown?
 Was ist ein Zugzielanzeiger?
 Was ist eine Kettenfrage?
@@ -27970,6 +28003,7 @@ Wer bin ich, das zu beurteilen?
 Wer bist du denn?
 Wer bist du?
 Wer bitte ist Felix?
+Wer braucht diese schwarz und weiß Malerei?
 Wer darf alles abstimmen?
 Wer das Lösegeld bezahlt, finanziert damit den Terrorismus.
 Wer das laut ausspricht ist doof.
@@ -28007,6 +28041,7 @@ Wer es selbst anbaut, kann das Gras zum Selbstkostenpreis beziehen.
 Wer es selbst anpackt, lernt mehr als der Käufer der Fertiglösung.
 Wer fertigt schon Sicherheitskopien an?
 Wer folgt dir?
+Wer fuchtelt da beim Vorlesen schon wieder mit einem Stöckchen herum?
 Wer fährt mit mir eine Runde Karussell?
 Wer gefundenes Geld nicht aufhebt, wirkt der Inflation entgegen.
 Wer geht heute noch in einen Plattenladen?
@@ -28594,6 +28629,7 @@ Wie lang ist die Aufmerksamkeitsspanne eines Goldfisches?
 Wie lang ist die Elbe?
 Wie lang kann man unter den Trümmern überleben?
 Wie lang liegt dein letzter Erste-Hilfe-Kurs zurück?
+Wie lange arbeitet er schon bei der Tarnfirma?
 Wie lange braucht die Fähre?
 Wie lange braucht man nach einem Umzug, um sich wieder zu Hause zu fühlen?
 Wie lange dauert das?
@@ -30116,6 +30152,7 @@ Zeig mir eine Zusammenfassung aller Ereignisse seit letzter Woche.
 Zeig mir mal eine Pirouette.
 Zeig mir seine Sekretärin und ich sage dir, was für ein Chef er ist.
 Zeig uns mal, wo der Hammer hängt!
+Zeige alle offenen Tankstellen bis zehn Kilometer Entfernung.
 Zeige dir das mal am Montag.
 Zeigen Sie Selbstbewusstsein.
 Zeigen Sie einmal!

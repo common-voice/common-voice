@@ -83,9 +83,11 @@ Alice och Maja har slutat feströka.
 Alice rev till sig tidningen och började läsa.
 Alice steg upp och lade första sidan av Dagens Nyheter framför domaren.
 All den glänsande prakten var borta.
+All halvledartillverkning flyttades till Danmark för att möta hotet från Kina
 All slöhet försvann.
 All ungdom i Dalarna var tvungen att resa bort för att skaffa pengar.
 Alla amerikanska kändisar kommer hit efter att de har filmat.
+Alla andra är så lugna.
 Alla barn hade randiga tröjor.
 Alla barnen åkte skridskor, utom Lisen.
 Alla bås i lagården och alla spiltor i stallet var redan upptagna.
@@ -363,6 +365,7 @@ Bara vid en och annan udde sprutade det upp i skum.
 Barbara Hulth ville inte kommentera riskerna med Sollentuna som ny residensstad.
 Barbro hade stora förväntningar på Huddinge som Sveriges Manchester.
 Barn, i dag hoppar jag in som naturkunskapslärare.
+Barnarbetare har dålig känsla för kvalitet
 Barnen fick det från henne.
 Barnen följde efter, jagade ner honom i ett dike och fångade honom där.
 Barnen gjorde så och de blev väl omhuldade också hos brodern.
@@ -583,6 +586,7 @@ Cesar, du förstår människornas språk mycket bättre än Klorina.
 Cesar, säg att Klorina inte har hört rätt!
 Charles Darwin betecknade själv sin religiösa ståndpunkt som agnostisk.
 Charles föreföll mycket klen.
+Chefen håller också med.
 Chefens vaktmästare, som var kvar för att vakta kontorslokalerna, kom in.
 Cheferna hade lika kul som klienterna!
 Chirac och söner till läkaren besökte Schweiz.
@@ -610,8 +614,14 @@ Dahl avgjorde i jakten på guld i årets allsvenska.
 Dalkarlen var den som började.
 Damen drar tillbaka anmälan.
 Danielssons ögon blixtrade dolskt under de röda brynen.
+Danmark kom att dominera utvecklingen av mobiltelefoner
 Dansa med mig.
+Dansk filosofi dominerar nu västvärldens tänkande
+Danskar har tagit över alla svenska militära anläggningar
+Danskarna tog först över universiteten
+Danskarna var vårt minsta problem just nu
 Darrande följde Norrlund sin förman.
+Dat är obegripligt hur mycket pengar man kan lägga på en skolplattform
 David kunde synas i de västra delarna av Polen.
 David sörjde bittert sin vanartige son.
 De andra kvinnorna fördrev tiden med att viskande samtala.
@@ -790,6 +800,7 @@ De kunde höra hamstrarna rumstera om i sin bur.
 De kunde inte ha det bättre.
 De kunde inte komma åt honom som låg därinne.
 De kunde se, att den var flera tum tjock invid land.
+De kämpade så gott de kunde men till slut besegrades de av Danmark
 De kände ingen vrede mot varandra, dock lyftes överallt vingar, nackfjädrar restes, klor vässades.
 De kände inte igen honom.
 De känner sig fortfarande lite skeptiska.
@@ -1688,6 +1699,7 @@ Det har jag er att tacka för.
 Det har jag faktiskt väldigt svårt att tro.
 Det har jag också tyckt.
 Det har jag sagt många gånger.
+Det har ju blivit så trendigt med trasiga jeans nu igen.
 Det har ju inte varit vinter.
 Det har ni nog märkt, med tanke på ert yrke.
 Det har ni sagt minst en gång förr och till en annan.
@@ -1883,6 +1895,7 @@ Det ljöd förunderligt vackert uppe i höjden.
 Det ljöd oupphörligen locktoner uppifrån luften.
 Det lovade han, och så bar det av med dem.
 Det lovar jag dig.
+Det luktar så gott!
 Det lyckades verkligen för korpen att tränga sig ut.
 Det lyste till i den gamles ögon.
 Det lämpar jag mig inte för, sa jag.
@@ -1897,6 +1910,7 @@ Det låter bra.
 Det låter faktiskt så!
 Det låter högst osannolikt!
 Det låter inte lika roligt.
+Det låter inte så ergonomiskt?
 Det låter inte vettigt.
 Det låter klyschigt, jag vet.
 Det låter konstigt.
@@ -1959,6 +1973,7 @@ Det sa du också till mig.
 Det sa jag inte!
 Det sa jag inte.
 Det sa jag.
+Det saknas incitiament för egen systemutveckling
 Det saknas också skäl att förklara avtalet ogiltigt.
 Det saknas skäl att meddela prövningstillstånd i målet i övrigt.
 Det saknas skäl att meddela prövningstillstånd rörande målet i övrigt.
@@ -2274,6 +2289,7 @@ Det var kort, men synkroniseringen är tillräcklig.
 Det var kul att se dig.
 Det var kväll och mörkt.
 Det var lite trångt men väldigt mysigt.
+Det var länge sedan användbarhet var ett aktuellt ämne
 Det var länge sedan någon tagit sig an henne, hennes stackars heder och ära.
 Det var länge sedan.
 Det var längesen!
@@ -2613,6 +2629,7 @@ Det är inte så det går till, riktigt.
 Det är inte så komplicerat som du tror.
 Det är inte tur, det är skicklighet.
 Det är inte upp till dig att förstå.
+Det är inte värdigt henne.
 Det är inte vår fest.
 Det är inte över än!
 Det är intressant att veta.
@@ -2644,6 +2661,7 @@ Det är kanske därför hon inte är med mig nu.
 Det är klart att jag når.
 Det är klart vi ska lägga av.
 Det är klart.
+Det är klimatsmart såklart.
 Det är klokast att ni går.
 Det är kolmörkt där hela vinterhalvåret.
 Det är kryddor, av alla slag, som en inte sett på två år!
@@ -3370,6 +3388,7 @@ Du är så snäll.
 Du är så tokig.
 Du är så vacker.
 Du är tokig.
+Du är tyvärr allergisk mot stenfrukter.
 Du är vidrig.
 Du är väl inte svartsjuk?
 Du är väl vaccinerad?
@@ -3577,6 +3596,7 @@ Då är det klappat och klart.
 Då är det kronan på vårt uppförande i dag, att vi dröjde så länge.
 Då är det kört.
 Då är du klar.
+Då är hennes bildkonst betydligt mer intressant, i mitt tycke.
 Då åkte jag på stryk igen.
 Då ålderdomen var farligt nära blev han kär och hans kärlek besvarades.
 Då öppnade Stina Ek äntligen munnen.
@@ -4097,6 +4117,7 @@ Ert nya arbetssätt är ett stort kliv i ingen specifik riktning alls.
 Ert rum står för resten färdigt.
 Ert värdegrundsarbete är meningslöst.
 Ertappade de dig på skolan?
+Etik är ett eftersatt område inom samhällets digitalisering
 Ett meddelande till.
 Ett armbandsur, en mobil och en flaska med vätska i.
 Ett brev från syster Cecilia.
@@ -4214,6 +4235,7 @@ Finns det giltig ursäkt?
 Finns det inga skepp med blommiga segel?
 Finns det mer än en bokhandel i stan?
 Finns det någon ras som inte fäller?
+Finns det någon större sked?
 Finns det något kassaskåp här?
 Finns det något som heter borgerlig skymning?
 Finns det några böcker om dynamor?
@@ -4289,10 +4311,12 @@ Framtiden låg ljus och öppen för mig.
 Frank kan fortfarande minnas Lindh för hennes kompetens.
 Frans brukade samla stenar som hans bror sedan fick analysera.
 Franssons bor inte där längre.
+Fredagar är den sämsta dagen för lönesamtal
 Fredrik fick bidrag på tiotusen kronor för att besöka Anders i Finland.
 Fredrik var en av vårt lands första, bästa och stundom dumdristigaste bilister.
 Frestande, men min gudmor kommer ner för ett parti i kväll.
 Frida strök Thage från listan med passagerare efter att planet lyft.
+Frihet under ansvar upphörde som begrepp år nittonhundranittiotre
 Frosten tog alltihop.
 Fru Ek frågar så mycket, sade Halling med en skymt av otålighet.
 Fru Ring har valt en god utsiktsplats!
@@ -4345,6 +4369,7 @@ Fundera på vad?
 Funkar lamporna?
 Fy fan, du har ju rätt.
 Fyra ögon ser mer än två, Rosenbom.
+Fyrahundra systemutvecklare kunde inte lösa problemet
 Fyrmästaren reser sig upp och rusar ned till vattnet
 Fyrmästaren tar Bob om nosen med ett fast grepp.
 Fyrtio tusen i räntor.
@@ -5134,6 +5159,7 @@ Han kan allt.
 Han kan behöva sin liter själv nu till midsommar.
 Han kan emellertid inte vänta sig något annat.
 Han kan få upp vatten.
+Han kan inte längre klippa tånaglarna själv.
 Han kan inte sova.
 Han kan inte äta det.
 Han kan ju inte ens stå på benen.
@@ -5569,6 +5595,7 @@ Han är för övrigt en av de bästa som skrivit på danskt tungomål.
 Han är försvunnen.
 Han är girigare än någonsin, och erbjöd sig finansiera hela projektet.
 Han är glad.
+Han är glutenintolerant.
 Han är helt bombad.
 Han är helt galen.
 Han är hemma!
@@ -5633,6 +5660,7 @@ Hans essäer om vänskapen läste hon som bibeln.
 Hans far hade varit omätligt rik, men spelat bort allt på en enda natt.
 Hans flickvän verkar inte snäll.
 Hans folk hittade dig efter explosionen.
+Hans frisör är inte riktigt klok.
 Hans fru dog förra året.
 Hans fysik var inriktad på dem.
 Hans föräldrar var alkoholister.
@@ -5664,6 +5692,7 @@ Hans semester skulle infalla i juni.
 Hans skisser från östra Finland är i detta avseende förträffliga.
 Hans svar kom så obehärskat och brutalt att hon ryckte till av häpnad.
 Hans tavla passade inte det minsta här, och det visste han säkert själv.
+Hans teknik är fantastisk.
 Hans tillstånd har försämrats.
 Hans vackraste hjältinna, det är ni när ni var tjugo år.
 Hans vackraste minne förblir hans nitiska och fruktbärande arbete i kulturens tjänst.
@@ -5818,6 +5847,7 @@ Har var rädd för att en tjuv hade smugit sig in i stugan.
 Har vi mer än en kikare?
 Har vi några vegetarianer i sällskapet?
 Har vi råd med det?
+Har vi tallrikar så att det räcker?
 Harald Jonsson ville vända blad och lade ned brandkåren som följd.
 Harklar du upp dina klienters spyor?
 Harriet tillhörde den generation i huvudstaden som inte hade något personligt minne av världskriget.
@@ -5857,6 +5887,7 @@ Hela hennes uppenbarelse andades framåtanda och entusiasm.
 Hela huset hade för övrigt med spänning inväntat hans ankomst.
 Hela kroppen var täckt av små, rödskimrande fjäll.
 Hela kungafamiljen ställde upp.
+Hela lärarkåren protesterar förstås.
 Hela mitt inre uppreste sig mot detta sjöröveri.
 Hela mitt liv har jag varit ensam, bortgömd.
 Hela skolgården var översållad med rockringar.
@@ -5882,6 +5913,7 @@ Helt rätt, en brandgul tegelbyggnad på höger sida.
 Helt yrvaken låter jag rullgardinen springa upp och solen strömmar in över mitt skrivbord.
 Helvete också!
 Hemligheten låg hos Svensson.
+Hen föddes sju veckor för tidigt.
 Hen letade upp en fickspegel ur djupet av sin portfölj.
 Hen odlade stjärnflocka och petunior.
 Hennes ansikte bestod av ett otal rynkor redan förut.
@@ -6419,6 +6451,7 @@ Hur många har du druckit, egentligen?
 Hur många hissar ser du?
 Hur många motböcker har kyrkoherden?
 Hur många människor bor här?
+Hur många soldater hade hon?
 Hur många tjejer här har fått er mens?
 Hur många år har ni hållit på?
 Hur många år är du?
@@ -6640,6 +6673,7 @@ Hörde du inte, att jag vill ha mat?
 Hörde du också det där?
 Hörde du vad jag sa?
 Hörni, ta det lugnt!
+Hörseln på ena örat är helt förlorad.
 Hösten hade kommit.
 Höstens mest framgångsrika lag håller jämna steg med varandra.
 Höstluften var krispig och klar.
@@ -6809,6 +6843,7 @@ Ingen av dem kände något intresse för denna valrörelse.
 Ingen av dem var klar ännu.
 Ingen av dem är någon värdig vinnare.
 Ingen av oss fastnar på bild längre.
+Ingen av oss gillar egentligen te.
 Ingen av oss visste vad vi skulle göra.
 Ingen behöver vara ängslig när jag är med.
 Ingen behöver vara ängslig så länge som jag är med.
@@ -6888,6 +6923,7 @@ Inom en halv minut var katastrofen dold av en myllrande hop.
 Inom parentes finns där inga ormar.
 Insatsen är tjugofem pund.
 Inser du att jag rånar dig?
+Insomnia är inte att leka med.
 Inspektören gick och var borta ganska länge.
 Inspektören, ljug inte för mig.
 Institutioner bekräftar att rykten om rymden är sanna.
@@ -7320,6 +7356,7 @@ Jag fattar inte hur du tänkte.
 Jag fattar inte.
 Jag fattar precis.
 Jag fattar, batteribomber från helvetet.
+Jag fattar, men kan inte hålla med tyvärr.
 Jag fick dem från hans kontor.
 Jag fick dina meddelanden.
 Jag fick dyka efter honom tre gånger innan jag fick tag i honom.
@@ -7407,6 +7444,7 @@ Jag gick sakta ut i bara skjortan.
 Jag gick sedan jag tvättat av blodet i ån som jag nyss talade om.
 Jag gick.
 Jag gillade klocktornet.
+Jag gillar att äta med pinnar.
 Jag gillar det inte.
 Jag gillar det.
 Jag gillar ändå min plan bättre.
@@ -7520,6 +7558,7 @@ Jag har ett nödlager som räcker i två veckor.
 Jag har ett rysligt skämt med mina gamla blinda hönor till fastrar.
 Jag har fattat mitt beslut.
 Jag har flera stycken hemma.
+Jag har fortfarande inte fått något kontrakt.
 Jag har fortfarande inte lust.
 Jag har fortfarande ägglossning och jag är fruktbar.
 Jag har frågat greven.
@@ -7678,6 +7717,7 @@ Jag hjälper dig bara för att jag är med Lee nu.
 Jag hjälpte dig att ta bort din piercing.
 Jag hoppades att du kunde hjälpa mig.
 Jag hoppas att du inte slutar.
+Jag hoppas att du ser allvaret nu.
 Jag hoppas att han blir efterbliven!
 Jag hoppas att ni förstår.
 Jag hoppas det.
@@ -7929,6 +7969,7 @@ Jag pallar inte byta gardiner.
 Jag pissar på dig.
 Jag pratade just med sök och räddningstjänsten, det som sprängde hennes bunker var katastrofalt.
 Jag pratar med min man.
+Jag pratar sällan i sömnen.
 Jag presenterade mig.
 Jag protesterade, svor, rasade, men möttes av absolut oförstående.
 Jag påpekade det för dem, och de var alldeles ense med mig.
@@ -8146,6 +8187,7 @@ Jag säger det för att jag älskar dig.
 Jag säger det snällt.
 Jag såg det i hans ögon.
 Jag såg det lyste!
+Jag såg en huggorm nära ån igår.
 Jag såg hemsidan.
 Jag såg honom för ett par dagar sen.
 Jag såg kläderna i garderoben.
@@ -8202,6 +8244,7 @@ Jag trodde, att mitt giftermål var mera allmänt bekant.
 Jag trodde, att ni inte tänkte ge mig någon mat i kväll.
 Jag trodde, att vi var ovänner, du och jag.
 Jag tror att Heidenstam någonstans har sagt att den svenska aristokratins vardagsmat är paltbröd.
+Jag tror att de är förlovade, båda två.
 Jag tror att den har gått i baklås.
 Jag tror att det var flera tusen.
 Jag tror att det är Lena som har hand om det.
@@ -8382,6 +8425,7 @@ Jag vet inte ens var han bor.
 Jag vet inte heller det.
 Jag vet inte hur jag ska förklara det.
 Jag vet inte hur jag ska rösta, än.
+Jag vet inte när du ska hinna tvätta håret.
 Jag vet inte om de trodde mig, men det är inte omöjligt.
 Jag vet inte om det var ett nesligt nederlag eller ett ärofullt?
 Jag vet inte om du insett att du börjar bli tunnhårig.
@@ -9092,6 +9136,7 @@ Kommer du hem på middag i morgon?
 Kommer du i tid den här gången?
 Kommer du ikväll?
 Kommer du till mormor på söndag?
+Kommer han någonsin bli helt frisk?
 Kommer jag att bli kidnappad?
 Kommer ni att göra det?
 Kommer ni ihåg, vad jag nyss sade till er?
@@ -10181,6 +10226,7 @@ Militär från Nato fick medverka i årets stora övning.
 Militära arbeten i Estland riskerar åstadkomma besvärliga situationer för Nato.
 Miljarder i extra stöd för utbildning av unga inom filmen.
 Miljöpartiet och Folkpartiet var osams om huruvida de kunde dela scenen.
+Mimmi glömde packa ombyte.
 Min Gud!
 Min Gud, om jag hade ett tungt, själsmördande arbete, vad jag skulle vara tacksam.
 Min aktuella inkomst avgör min framtida pension.
@@ -10715,6 +10761,7 @@ Nu blev fjärilarna i magen helt oregerliga.
 Nu blev helgen lite bättre.
 Nu började prosten förstå vad det var han såg.
 Nu började skogen, full av farligheter och jag sprang, sprang!
+Nu börjar det kurra lite i magen.
 Nu börjar jag.
 Nu börjas det, tänkte jag och följde noggrant alla hans rörelser.
 Nu drack greven de där märkvärdiga vinerna ensam.
@@ -10736,6 +10783,7 @@ Nu gav hon det åt dottern som en överraskning och present.
 Nu gick Alice till den där adressen.
 Nu gick han utan fruktan fram mellan verkstäderna och klättrade upp på en slagghög.
 Nu greps han av stundens stämning.
+Nu går det snart inte längre.
 Nu går jag och klår skomakarn!
 Nu gör du det för lätt för dig.
 Nu gör vi det bara.
@@ -11426,12 +11474,14 @@ Olle hade ett vackert resonemang om parlamentet i Dagens Nyheter.
 Olof och Gunnar är politik för mej efter nio år i Almedalen.
 Olusten har legat över landet.
 Om Amerika ville han inte yttra sig.
+Om alla bara kunde programmera skulle vi slippa ha diskussioner om användbarhet
 Om att pappa har dragit!
 Om den ene av dem blivit sårad, hade de tryckt varandras händer.
 Om den verkligen är fin, tar jag den.
 Om det behövs, kan myndigheten också hålla ett sammanträde för att utreda frågan.
 Om det blir för varmt kan vi ju bara gå ut i trädgården.
 Om det händer något med Ivar blir det en oerhörd sak för Torkel.
+Om det inte vore för Danmark skulle Sverige hamnat på ruinens brant
 Om det kommer andra som dem ska vi krossa dem också.
 Om det var en opportunist, varför då bara ta halsbandet?
 Om det vore jag, som ägde det här, skulle jag hugga bort alltihop.
@@ -11652,12 +11702,14 @@ Precis vad jag behöver.
 Predikstolen placerades alltid på skyddade ställen.
 Premiären bjöd på många berömda ansikten som besökte biografen.
 Premiärministern föreslog en annan lösning på ärendet.
+Presidenten har inte godkänt detta.
 Prins Eugen anmodade mig att försöka hitta på något i den stilen.
 Prinsen frestades av summan och antog erbjudandet.
 Problem med en grupp!
 Problemet ligger helt hos mig.
 Processen har utvecklats med.
 Professor förklarade för ledningen varför Stefan åter ska få sälja bilar i centrum.
+Projektet borde ha stoppats mycket tidigare
 Propellern alstrar elektricitet, och det driver radion.
 Prosten böjde sig fram och förde undan grenarna, så att han fick fri utsikt.
 Prostitution är lagligt där.
@@ -11719,6 +11771,7 @@ På stalltaket satt vällingklockan under en huv, och det var därifrån, som ri
 På så sätt skulle man tysta ned allt illvilligt prat.
 På uteserveringarna satt folk i filtar och lapade girigt den första vårsolen.
 På vilket sätt?
+På vinterbalen bar hon violett.
 På vägen diskuterade de ivrigt om de hade segrat eller inte.
 På väggen hängde en tjock gobeläng i dova, mättade färger.
 På vågorna dansar skum och glitter.
@@ -11832,6 +11885,7 @@ Salt får allting att smaka bättre.
 Salt sill med fluffig sockervadd, kan det vara något?
 Salt, massor av det.
 Saltet samlades i små öar på den solbruna huden.
+Sambandscentralens telefonnummer gick till den lokala pizzerian
 Sambolagen finns ju också.
 Samfundet Sankt Erik har motsatt sig att Mark- och miljööverdomstolens beslut ändras.
 Samfundet hävdade att beslutet innebar att tillräckliga hänsyn inte tagits till kulturmiljöintressen.
@@ -11841,6 +11895,7 @@ Samma hemliga krafter som driva mot blomning och fullkomning.
 Samma omöjlighet att få blomman och kärleken att bli stilla i sin absoluta skönhet.
 Sammansättningen av rätten enligt lagen om patent- och marknadsdomstolar är därför inte lämplig.
 Sammantaget är omständigheterna sådana att brottet bör bedömas som synnerligen grov misshandel.
+Samtalsklimatet i dansbandsorganisationen har försämrats
 Samtidigt beräknade han, att man från fyren observerat hans jaktutflykt.
 Samtidigt med mig låg lotsångaren Stockholm i Fårösund.
 Samtidigt såg hon att det lilla middagsbordet var dukat endast för två.
@@ -12110,6 +12165,7 @@ Sköt om dig.
 Sköterskan, som vaknat, kom fram till sängen.
 Slappna av, det finns inget att oroa sig för.
 Slippa behöva gömma dig för polisen.
+Slit den med hälsan!
 Slog de ihjäl henne? viskade Rut förfärad.
 Sluta då!
 Sluta följ efter mig.
@@ -12869,6 +12925,7 @@ Tyvärr hade den redan stulits innan jag kom dit.
 Tyvärr har områdets skönhet bleknat en del sedan ni reste.
 Tyvärr kommer ni och er fru att skilja er om två år.
 Tyvärr medför ju makt även ansvar.
+Tyvärr misstänker jag urinvägsinfektion.
 Tyvärr är det inte den stigande linjen utan våglinjen, som är världens rytm.
 Tyvärr, mamma varnade mig för att låta mig bjudas på drinkar av främlingar.
 Tänd alla lampor.
@@ -12940,6 +12997,7 @@ Under vardera armen höll han ett av Norges ben.
 Ungar som studerar vet sannerligen vad det är att inte få någon sol.
 Ungdomen har nu en gång privilegium på att vara oförskämd.
 Ungen räckte ut tungan!
+Universitetsanställda lever i en egen bubbla
 Upp med er!
 Upp med hakan.
 Uppenbarligen inte.
@@ -12965,6 +13023,7 @@ Utan din hjälp kommer vi att förlora allt.
 Utan ett ord vände båda sig om på klacken.
 Utan hjärta, utan förståelse.
 Utan konstnärlighet skulle han ha försvunnit som en av dessa som uppslukas av gatan.
+Utan nyfikenhet kommer man ingenstans
 Utan praktik så står en där.
 Utan vi tre.
 Utanför den katolska kyrkan är allt kaos.
@@ -13364,6 +13423,7 @@ Varför gjorde du så?
 Varför gör du så?
 Varför göra en stor grej av en sån bra idé?
 Varför har du gett mig den ringtonen?
+Varför har du packat så varma kläder?
 Varför har jag ens det här samtalet?
 Varför har jag levat, om inte ens mitt lidande kunnat bli barnet till nytta?
 Varför har ni kommit hit?
@@ -13572,6 +13632,7 @@ Vi behöver polisen.
 Vi behöver regler.
 Vi behöver varsin drink!
 Vi behöver veta att all matbrist kommer att kvävas i sin linda!
+Vi beställer hem varsin pizza.
 Vi betalar henne.
 Vi betalar inte en cent!
 Vi blev grundlurade, allihop.
@@ -13592,6 +13653,7 @@ Vi borde ta en fika tillsammans någon gång.
 Vi borde vänta på första samtalet.
 Vi brukade skratta åt honom, för vad duger en ärlig affärsman till?
 Vi brukar mata dem med daggmask och gurka.
+Vi brukar steka pannkakor som proviant.
 Vi bygger bastu i källaren.
 Vi bytte namn så han inte skulle hitta oss.
 Vi börjar bli lite oroliga för honom.
@@ -13693,6 +13755,7 @@ Vi har samlats här ikväll för att säga farväl till Uno.
 Vi har sjuttio förfrågningar!
 Vi har startat en skräckfilmsklubb nu.
 Vi har tjugofem procents rabatt på allt, veckan ut!
+Vi har tvätt-tid då.
 Vi har tänkt laga den.
 Vi har valt en rätt dramatisk tapet.
 Vi har valt koncentration framför småhem.
