@@ -6,7 +6,7 @@ This is the web app for [Mozilla Common Voice](https://commonvoice.mozilla.org),
 
 | Type             | Expected date  | More info      |
 | :--------------- |:---------------|:---------------|
-| Code & sentences | June 2, 2021 | [Release notes](https://github.com/common-voice/common-voice/releases) |
+| Code & sentences | June 16, 2021 | [Release notes](https://github.com/common-voice/common-voice/releases) |
 | Dataset          | July 2021 | [Dataset metadata](https://github.com/common-voice/cv-dataset/) |
 
 ## Quick links
