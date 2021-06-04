@@ -526,7 +526,7 @@ dataset-date = Mba’ekuaarã
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
 data-download-singleword-title = Emboguejy Ñe’ẽryapu Pehẽ’i
-data-download-singleword-callout-v2 = Kóva peteĩ pehẽ oguerekóva mba'ekuaarã oipytyvõva oñeikũmbykuaa porãve hag̃ua jehaipy.
+data-download-singleword-callout-v2 = Kóva peteĩ pehẽ oguerekóva mba’ekuaarã oipytyvõva oñeikũmbykuaa porãve hag̃ua jehaipy.
 review-terms = Reiporúramo Common Voice, remoneĩ ore <termsLink>Jeporu Mbojojaha</termsLink> ha avei ore <privacyLink>Kuaapyñemi rehegua Mbojojaha</privacyLink>
 terms-agree = Amoneĩ avei
 terms-disagree = Namoneĩri
@@ -872,8 +872,8 @@ demo-welcome-subheader = ¿Eikuaasevépa térã eipytyvõse ko apopyrãme?
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice niko ñe'ẽryapu ñongatupyre tuichavéva oĩva yvy ape ári ha oiporukuaáva opavave. Orekóva avei heta ñe'ẽ.
-demo-language-select-card-body = Oipytyvõ rupi hetaite tapicha, hetave 259-gui oiporúva hetave 50 gui ñe'ẽ ikatu ojeporu kóva oñembokatupyry hag̃ua mohendaha oikũmby hag̃ua yvypóra ñe'ẽ.
+demo-language-select-card-header = Common Voice niko ñe’ẽryapu ñongatupyre tuichavéva oĩva yvy ape ári ha oiporukuaáva opavave. Orekóva avei heta ñe’ẽ.
+demo-language-select-card-body = Oipytyvõ rupi hetaite tapicha, hetave 259-gui oiporúva hetave 50 gui ñe’ẽ ikatu ojeporu kóva oñembokatupyry hag̃ua mohendaha oikũmby hag̃ua yvypóra ñe’ẽ.
 card-button-next = Upeigua
 card-button-back = Tapykue
 demo-language-select-label = Eyvykói ñe’ẽnguéra
@@ -892,10 +892,10 @@ demo-account-sign-up = Emondo mboheraguapy juajuha
 ## Demo Contribute
 
 demo-contribute-card-header = ¿Ikatúma embojuaju ne ñe’ẽ térã ehendu?
-demo-contribute-card-body-v2 = Ko'ág̃a reikuaamíma Common Voice rehegua. Mba'érepiko ndereikéi avei orepytyvõmi. Epokomi micrófono ra'ãnga'íre ha eñepyrũmi emoñe'ẽ hatã ñe'ẽjoaju ojehechaukáva ndéve. <br/><br/> Remoneĩsérõ ambuéva rembiapo eikutuva'erã votõ hendu, péicha erekuaa oréve ojojápa hyapu mba'ehaipyrépe.
+demo-contribute-card-body-v2 = Ko'ág̃a reikuaamíma Common Voice rehegua. Mba’érepiko ndereikéi avei orepytyvõmi. Epokomi micrófono ra’ãnga’íre ha eñepyrũmi emoñe’ẽ hatã ñe’ẽjoaju ojehechaukáva ndéve. <br/><br/> Remoneĩsérõ ambuéva rembiapo eikutuva’erã votõ hendu, péicha erekuaa oréve ojojápa hyapu mba’ehaipyrépe.
 demo-listen-subtitle = ¿Mba’éicha eipytyvõta?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Ndekuéntaramo rerekoha moõpa rehechakuaa mboýmapa rejapóma,  ha avei mboýpa ojehupytýma.
-demo-dashboard-card-body = Mayma ñe'ẽjoaju ñembohyapupyre ha oñemoneĩmava rehechakuaa nde kuéntape. Reipytyvõkuaa peteĩ térã hetave ñe'ẽtépe. <br/><br/> Eiporu nde kuénta rehecha hag̃ua mboýpa rejapóma, mboýpa ojapóma ambue tapicha oporopytyvõva avei ha mboýpa ojehupytýma.
+demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmava rehechakuaa nde kuéntape. Reipytyvõkuaa peteĩ térã hetave ñe’ẽtépe. <br/><br/> Eiporu nde kuénta rehecha hag̃ua mboýpa rejapóma, mboýpa ojapóma ambue tapicha oporopytyvõva avei ha mboýpa ojehupytýma.
