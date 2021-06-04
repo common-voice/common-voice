@@ -287,6 +287,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Ñongatu/Joko
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Embohyapupyahu
+shortcut-submit = Jevy
 request-language-text = Nderejuhúipiko ne ñe’ẽ'ypy Common Voice-pe?
 request-language-text-learn = ¡Eikuaa mba’éichapa ejeruréta ko’ápe!
 request-language-button = Ejererure toñembojoapy avei ambue ñe’ẽ
