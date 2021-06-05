@@ -283,6 +283,7 @@ shortcut-record-toggle = и
 shortcut-record-toggle-label = Записать/остановить
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перезаписать клип
+shortcut-submit = Return
 shortcut-submit-label = Отправить клипы
 request-language-text = Пока не видите ваш язык в Common Voice?
 request-language-text-learn = Узнайте, как запросить его здесь!
