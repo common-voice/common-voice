@@ -296,7 +296,7 @@ shortcut-rerecord-toggle-label = Перезаписати
 shortcut-submit = Return
 shortcut-submit-label = Надіслати кліпи
 request-language-text = Не можете знайти свою мову в Common Voice?
-request-language-text-learn = Дізнайтеся, як додати її тут!
+request-language-text-learn = Дізнайтеся, як додати її сюди!
 request-language-button = Запит нової мови
 
 ## ProjectStatus
