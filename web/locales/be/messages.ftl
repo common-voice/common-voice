@@ -702,8 +702,8 @@ target-segment-learn-more = Даведацца больш
 
 ## Reporting
 
-report = Водгук
-report-title = Даслаць водгук
+report = Паскардзіцца
+report-title = Даслаць скаргу
 report-ask = Якія праблемы вы заўважылі ў гэтым сказе?
 report-offensive-language = Абразлівы тэкст
 report-offensive-language-detail = У гэтым сказе ёсць зняважлівыя ці абразлівыя выразы.
