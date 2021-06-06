@@ -278,6 +278,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrát/Zastavit
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nahrát klip znovu
+shortcut-submit-label = Odeslat nahrávky
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
 
@@ -349,26 +350,19 @@ skip-submission-description = Při přispívání bude po klepnutí na Odeslat p
 skip-submission-note = Poznámka: Pro změnu druhu vašich příspěvků budete stále muset zvolit mezi Mluvit a Poslouchat.
 off = Vypnuto
 on = Zapnuto
-avatar-clip-title = Dejte svému avataru hlas
-change-your-avatar-clip = Chcete změnit svoji hlasovou nahrávku?
-recording-in-progress = Probíhá hlasový záznam
-avatar-clip-recorded = Váš avatar nyní obsahuje hlasový záznam!
-record-voice-wave = NAHRÁT ZÁZNAM HLASU
-retry-voice-wave-recording = OPAKOVAT
-re-record = NAHRÁT ZNOVU
-delete-voice = ODSTRANIT
-recording-voice-wave = Nahrávání
-delete-voice-clip = nebo Smazat hlasový záznam
-ready-to-upload = NAHRÁT
-avatar-clip-fact = Je již dlouho známým faktem, že čtenář bude pouze rozptylován čitelným obsahem stránky při zkoumání jejího rozvržení.
-recreate-voice = Znovu vytvořit Voicewave
-cancel-avatar-clip-recording = ZRUŠIT
-about-avatar-clip-recording = Vytvořte hlasový záznam jako součást vašeho avatara. Ostatní si ho mohou poslechnout po najetí myší.
+
+## Profile - Email
+
 browse-file-title = Nahrát obrázek
 browse-file = Přetáhněte nebo <browseWrap>Procházejte</browseWrap>
 connect-gravatar = Propojit s Gravatarem
 gravatar_not_found = Pro váš e-mail nebyl nalezen žádný gravatar
 file_too_large = Zvolený soubor je příliš velký
+avatar-uploaded = Avatar nahrán
+max-file-size = max. { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = Spravovat odběr
 manage-email-subscriptions = Spravovat odběry e-mailů
 email-already-used = E-mail je již používán pro jiný účet
