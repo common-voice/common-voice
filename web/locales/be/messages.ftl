@@ -283,6 +283,7 @@ shortcut-record-toggle = з
 shortcut-record-toggle-label = Запісаць/Спыніць
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перазапісаць кліп
+shortcut-submit-label = Даслаць запісы
 request-language-text = Пакуль не знаходзіце сваю мову на Common Voice?
 request-language-text-learn = замовіць
 request-language-button = Запытаць мову
@@ -636,7 +637,7 @@ total-hours = Праверана гадзін
 
 ## Contribution
 
-action-click = Клікнуць
+action-click = Націснуць
 action-tap = Дакрануцца
 contribute = Прыняць удзел
 listen = Праслухаць
@@ -719,7 +720,7 @@ report-other-comment =
     .placeholder = Каментарый
 success = Паспяхова
 continue = Працягнуць
-report-success = Водгук паспяхова дасланы
+report-success = Скарга паспяхова дасланая
 
 ## Goals
 
