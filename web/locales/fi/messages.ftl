@@ -842,6 +842,7 @@ read-more-about = Lue lisää Lisätietoja-sivulta
 
 demo-get-started = Aloitetaan
 demo-welcome = Tervetuloa Common Voiceen
+demo-welcome-subheader = Haluatko oppia lisää ja osallistua projektiin?
 
 ## Demo Datasets
 
@@ -849,6 +850,7 @@ demo-language-select-card-header = Common Voice on maailman suurin julkisesti sa
 card-button-next = Seuraava
 card-button-back = Takaisin
 demo-language-select-label = Selaa kieliä
+demo-eofy-header = Loppuvuoden 2019 julkaisu
 demo-eofy-sub_header = Ääniaineisto, valmiina ladattavaksi
 demo-account = Tili
 
