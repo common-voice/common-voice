@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const PreloadWebpackPlugin = require('preload-webpack-plugin');
+const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
@@ -22,6 +22,7 @@ module.exports = {
     publicPath: '/dist/',
     chunkFilename: '[name].js?id=[chunkhash]',
   },
+  stats: 'errors-only',
   devtool: 'source-map',
   resolve: {
     /**
@@ -49,8 +50,9 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        include: /node_modules/,
+        include: /@fluent[\\/](bundle|sequence|react)[\\/]/,
         use: [babelLoader],
+        type: 'javascript/auto',
       },
       {
         /**
@@ -63,20 +65,7 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           { loader: 'css-loader', options: { importLoaders: 1 } },
-          {
-            loader: 'postcss-loader',
-            options: {
-              ident: 'postcss',
-              plugins: loader => [
-                require('postcss-import')(),
-                require('postcss-color-mod-function')(),
-                require('postcss-nested')(),
-                require('postcss-custom-media')(),
-                require('postcss-preset-env')(),
-                require('cssnano')(),
-              ],
-            },
-          },
+          'postcss-loader',
         ],
       },
       {
@@ -97,10 +86,20 @@ module.exports = {
       filename: '../index.html',
       template: 'index_template.html',
     }),
-    new PreloadWebpackPlugin(),
+    new PreloadWebpackPlugin({
+      rel: 'preload',
+      include: 'initial',
+      as(entry) {
+        if (/\.css$/.test(entry)) return 'style';
+        if (/\.(png|svg|jpg|gif)$/.test(entry)) return 'image';
+        return 'script';
+      },
+    }),
     function () {
-      this.plugin('watchRun', () => console.log(chalk.yellow('Rebuilding…')));
-      this.plugin('done', () => console.log(chalk.green('Built!')));
+      this.hooks.watchRun.tap('Building', () =>
+        console.log(chalk.yellow('Rebuilding…'))
+      );
+      this.hooks.done.tap('Built', () => console.log(chalk.green('Built!')));
     },
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),

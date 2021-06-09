@@ -1,4 +1,5 @@
 import * as React from 'react';
+import * as Modal from 'react-modal';
 import { Suspense } from 'react';
 import { connect, Provider } from 'react-redux';
 import {
@@ -47,8 +48,8 @@ import {
 import { Flags } from '../stores/flags';
 import { ReactLocalization, LocalizationProvider } from '@fluent/react';
 const rtlLocales = require('../../../locales/rtl.json');
-const ListenPage = React.lazy(() =>
-  import('./pages/contribution/listen/listen')
+const ListenPage = React.lazy(
+  () => import('./pages/contribution/listen/listen')
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 
@@ -99,6 +100,7 @@ let LocalizedPage: any = class extends React.Component<
   async componentDidMount() {
     await this.prepareBundleGenerator(this.props);
     this.props.refreshUser();
+    Modal.setAppElement('#root');
   }
 
   async UNSAFE_componentWillReceiveProps(nextProps: LocalizedPagesProps) {
@@ -321,6 +323,9 @@ class App extends React.Component {
       dsn: SENTRY_FE_DSN,
       environment: isProduction() ? 'prod' : 'stage',
       release: process.env.GIT_COMMIT_SHA || null,
+      ignoreErrors: [
+        "ResizeObserver loop limit exceeded"
+      ],
     });
 
     if (isProduction() && !doNotTrack()) {

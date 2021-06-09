@@ -130,45 +130,17 @@ This will:
 
 You can then access the website at [http://localhost:9000](http://localhost:9000).
 
-### Troubleshooting
-
-#### MySQL errors during startup
-
-During the **first** server start (after running ‘yarn start’), you might notice an error log similar to this:
-
-```
-at Class.exports.up (/Users/admin/Desktop/myprojects/mozilla/common-voice-master/server/src/lib/model/db/migrations/20180910121256-user-sso-fields.ts:2:13)
-....
-[BE]       at /Users/admin/Desktop/myprojects/mozilla/common-voice-master/node_modules/db-migrate/lib/migrator.js:237:31 {
-[BE]     code: 'ER_BLOB_CANT_HAVE_DEFAULT',
-[BE]     errno: 1101,
-[BE]     sqlMessage: "BLOB, TEXT, GEOMETRY or JSON column 'username' can't have a default value",
-[BE]     sqlState: '42000',
-[BE]     index: 0,
-[BE]     sql: '\n' +
-[BE]       '      ALTER TABLE user_clients\n' +
-[BE]       '        ADD COLUMN sso_id VARCHAR(255) UNIQUE,\n' +
-[BE]       "        ADD COLUMN username TEXT NOT NULL DEFAULT '',\n" +
-[BE]       '        ADD COLUMN basket_token TEXT;\n' +
-[BE]       '    '
-```
-
-1. In the error log, locate and open the associated migrations file (located in the `/migrations` directory). In this case, the file is named `20180910121256-user-sso-fields.ts`.
-1. Locate the affected column declaration - revealed by the “sqlMessage” string in the error log - and remove the default declaration value i.e In our case, the column username will have a new declaration `ADD COLUMN username TEXT NOT NULL` instead of `ADD COLUMN username TEXT NOT NULL DEFAULT ‘ ’`
-1. Fixing one migration error will uncover another error in another migration file. Repeat the same process until there are no more migration errors.
-1. Discard all changes made to the relevant migration files.
-
 ## Authentication
 
 If you want to work with login-related features (Profile, Dashboard, Goals, ...) you'll need to set up authentication:
 
 1. Create an [Auth0](https://auth0.com/) account.
 2. Click "Applications" from the dashboard. Create a new one, or use the default application.
-3. Go to "Applications" and click on the Settings icon next to your application.
+3. On "Applications" still, next to your application, click the "three dots" icon, then Settings.
 4. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
-5. If you're using Docker, copy the following keys from the Auth0 application into your configuration file. These are found in the same Settings tab as the "Allowed Callback URLs".
+5. Copy the Auth0 application settings into your configuration file. These are found in the same Settings tab as the "Allowed Callback URLs".
 
-Docker:
+For Docker, in `.env-local-docker`:
 
 ```env
 CV_AUTH0_DOMAIN="<domain_here>"
@@ -176,7 +148,7 @@ CV_AUTH0_CLIENT_ID="<client_id_here>"
 CV_AUTH0_CLIENT_SECRET="<client_secret_here>"
 ```
 
-Local development:
+For local development, in `config.json`:
 
 ```json
 "AUTH0": {

@@ -134,11 +134,13 @@ class ListenPage extends React.Component<Props, State> {
   };
 
   private stop = () => {
-    const audio = this.audioRef.current;
-    audio.pause();
-    audio.currentTime = 0;
-    clearInterval(this.playedSomeInterval);
-    this.setState({ isPlaying: false });
+    if (this.state.isPlaying) {
+      const audio = this.audioRef.current;
+      audio.pause();
+      audio.currentTime = 0;
+      clearInterval(this.playedSomeInterval);
+      this.setState({ isPlaying: false });
+    }
   };
 
   private hasPlayed = () => {
@@ -162,8 +164,13 @@ class ListenPage extends React.Component<Props, State> {
     this.stop();
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
 
-    sessionStorage.setItem('challengeEnded', JSON.stringify(challengeEnded));
-    sessionStorage.setItem('hasContributed', 'true');
+    try {
+      sessionStorage.setItem('challengeEnded', JSON.stringify(challengeEnded));
+      sessionStorage.setItem('hasContributed', 'true');
+    } catch (e) {
+      console.warn(`A sessionStorage error occurred ${e.message}`);
+    }
+
 
     if (showFirstContributionToast) {
       addAchievement(

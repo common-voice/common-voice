@@ -72,6 +72,7 @@ he = İbranice
 hi = Hintçe
 hr = Hırvatça
 hsb = Yukarı Sorbca
+ht = Haiti dili
 hu = Macarca
 hy-AM = Ermenice
 hyw = Batı Ermenicesi
@@ -95,13 +96,17 @@ lg = Luganda
 lij = Liguryanca
 lt = Litvanca
 lv = Letonca
+mai = Maithili
 mdf = Mokşa
 mg = Malgaşça
 mhr = Ova Marice
 mk = Makedonca
 ml = Malayalam
 mn = Moğolca
+mos = Mossi
+mr = Marathice
 mrj = Dağlık Marice
+ms = Malayca
 mt = Maltaca
 my = Birmanca
 myv = Erzyanca
@@ -112,7 +117,9 @@ nn-NO = Norveççe (Nynorsk)
 oc = Oksitanca
 or = Odia
 pa-IN = Pencapça
+pap-AW = Papiamento (Aruba)
 pl = Lehçe
+ps = Peştuca
 pt = Portekizce
 rm-sursilv = Romanşça Sursilvan
 rm-vallader = Romanşça Vallader
@@ -122,9 +129,11 @@ rw = Kinyarwanda
 sah = Yakutça
 sc = Sardinya dili
 scn = Sicilyaca
+shi = Şilha
 si = Seylanca
 sk = Slovakça
 sl = Slovakça
+so = Somalice
 sq = Arnavutça
 sr = Sırpça
 sv-SE = İsveççe
@@ -139,6 +148,7 @@ tr = Türkçe
 tt = Tatarca
 uby = Ubıhça
 udm = Udmurtça
+ug = Uygurca
 uk = Ukraynaca
 ur = Urduca
 uz = Özbekçe
@@ -270,6 +280,8 @@ shortcut-record-toggle = k
 shortcut-record-toggle-label = Kaydet/Durdur
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Yeniden kaydedin
+shortcut-submit = Enter
+shortcut-submit-label = Kayıtları gönder
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
 request-language-text-learn = Nasıl talep edebileceğinizi öğrenin!
 request-language-button = Yeni dil iste
@@ -341,26 +353,19 @@ skip-submission-description = Katkı gönderimi sırasında Gönder'e tıkladık
 skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya Dinleme arasında seçim yapmanız gerekecektir.
 off = Kapalı
 on = Açık
-avatar-clip-title = Avatarınızı seslendirin
-change-your-avatar-clip = Ses kaydınızı değiştirmek mi istiyorsunuz?
-recording-in-progress = Ses kaydı devam ediyor
-avatar-clip-recorded = Avatarınıza artık ses kaydı ekleyebilirsiniz!
-record-voice-wave = SESİNİZİ KAYDEDİN
-retry-voice-wave-recording = YENİDEN DENE
-re-record = YENİDEN KAYDET
-delete-voice = SİL
-recording-voice-wave = Kaydediliyor
-delete-voice-clip = veya  ses kaydını sil
-ready-to-upload = Yükle
-avatar-clip-fact = Okuyucular bir sayfanın yerleşimini incelerken okunabilir içerik dikkat dağıtabilir.
-recreate-voice = Sesinizi yeniden kaydedin
-cancel-avatar-clip-recording = İptal
-about-avatar-clip-recording = Profil resminizin bir parçası olarak ses kaydı oluşturun. Başkaları profilinizin üzerine gelerek kaydı dinleyebilir.
+
+## Profile - Email
+
 browse-file-title = Resim dosyası yükle
 browse-file = Sürükleyip bırak veya <browseWrap>göz at</browseWrap>
 connect-gravatar = Gravatar ile bağlan
 gravatar_not_found = E-postanıza ait gravatar bulunamadı
 file_too_large = Seçilen dosya çok büyük
+avatar-uploaded = Avatar yüklendi
+max-file-size = en fazla { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = Abonelikleri yönet
 manage-email-subscriptions = E-posta aboneliklerini yönet
 email-already-used = Bu e-posta farklı bir hesapta zaten kullanılıyor
@@ -431,6 +436,7 @@ how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesini
 about-speak = Konuş
 about-speak-text = Katkıda bulunanlar ses kayıtlarını bağışlanan cümle bankasından okuyarak kaydederler.
 about-listen-queue = Dinleme Kuyruğu
+about-listen-queue-text = Ses kayıtları, dinleyiciler tarafından dinlenmek üzere bir gönderim kuyruğuna eklenir.
 about-listen = Dinle
 about-listen-text = Kullanıcılar, konuşmacıların cümleyi doğru okuduğunu kontrol ederek bağışlanan kayıtların doğruluğunu onaylar.
 about-is-it-valid = Klip geçerli mi?
@@ -756,10 +762,10 @@ finish-editing = Önce düzenleme bitirilsin mi?
 lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
 help-reach-hours-pluralized =
-    Kişisel bir hedef belirleyerek { $language } dilinde{ NUMBER($hours) ->
+    Kişisel bir hedef belirleyerek { $language } dilinde { NUMBER($hours) ->
         [one] { $hours } saate
        *[other] { $hours } saate
-    }ulaşmamıza yardımcı olun
+    } ulaşmamıza yardımcı olun
 help-reach-hours-general-pluralized =
     Kişisel bir hedefle Common Voice'un bir dilde { NUMBER($hours) ->
         [one] { $hours } saate
@@ -767,6 +773,20 @@ help-reach-hours-general-pluralized =
     } ulaşmasına yardımcı olun
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $people } kişi
+       *[other] { $people } kişi
+    } günde { NUMBER($periodMonths) ->
+        [one] { $clipsPerDay } ses
+       *[other] { $clipsPerDay } ses
+    } kaydederse { NUMBER($people) ->
+        [one] { $periodMonths } aydan
+       *[other] { $periodMonths } aydan
+    } biraz uzun bir sürede { NUMBER($clipsPerDay) ->
+        [one] { $totalHours } saatlik
+       *[other] { $totalHours } saatlik
+    } ses kaydına ulaşılabilir.
 how-many-per-day = Harika! Günde kaç kayıt?
 how-many-a-week = Harika! Haftada kaç kayıt?
 which-goal-type = Konuşmak mı, dinlemek mi yoksa ikisini birden mi yapmak istiyorsunuz?
@@ -843,9 +863,10 @@ demo-account-sign-up = Kayıt bağlantısını gönder
 ## Demo Contribute
 
 demo-contribute-card-header = Sesinizi eklemeye veya eklenenleri dinlemeye hazır mısınız?
-demo-contribute-card-body = Artık Common Voice hakkında biraz daha fazla şey bildiğinize göre, neden denemiyorsunuz? Cümleleri sesli okumaya başlamak için mikrofon simgesine tıklayın. <br/><br/>Başkalarının ses kayıtlarını incelemeyi tercih ederseniz oynat simgesine tıklayın. Ardından, duyduğunuz ses kaydının ekranda yazılı sözcüklerle eşleşip eşleşmediğini kontrol edin.
+demo-contribute-card-body-v2 = Artık Common Voice'u daha iyi tanıdığınıza göre neden denemiyorsunuz? Cümleleri sesli okumaya başlamak için mikrofon simgesine tıklayın. <br/><br/>Başkalarının ses kayıtlarını incelemeyi tercih ederseniz oynat simgesine tıklayın. Ses kayıtlarının ekranda yazılan cümlelerle eşleştiğini doğrulamanızı isteyeceğiz.
 demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Kişisel panolar, bireysel ilerlemeniz ve topluluk ilerlemesi konusunda sizi bilgilendirir.
+demo-dashboard-card-body = Bağışlanan ve doğrulanan her ses kaydı için hesap panolarınız, katkıda bulunmuş olduğunuz her dildeki en son ilerlemenizi yansıtacak şekilde güncellenir.<br/><br/> Evet, birden fazla dilde katkıda bulunabilirsiniz! İstatistiklerinizi takip etmek, topluluktaki diğer kişilerle birlikte ne yaptığınızı görmek ve günlük veya haftalık katılım hedefleri belirlemek için panoları kullanabilirsiniz.

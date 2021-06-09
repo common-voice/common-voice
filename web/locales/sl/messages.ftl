@@ -70,6 +70,7 @@ he = hebrejščina
 hi = hindujščina
 hr = hrvaščina
 hsb = gornja lužiška srbščina
+ht = haitščina
 hu = madžarščina
 hy-AM = armenščina
 hyw = zahodna armenščina
@@ -92,13 +93,17 @@ lg = lugandščina
 lij = ligurščina
 lt = litovščina
 lv = latvijščina
+mai = maithilščina
 mdf = mokša
 mg = malagaščina
 mhr = vzhodna marijščina
 mk = makedonščina
 ml = malajalamščina
 mn = mongolščina
+mos = mosijščina
+mr = maratščina
 mrj = zahodna marijščina
+ms = malajščina
 mt = malteščina
 my = burmanščina
 myv = erzjanščina
@@ -110,6 +115,7 @@ oc = okcitanščina
 or = odijščina
 pa-IN = pandžabščina
 pl = poljščina
+ps = paštunščina
 pt = portugalščina
 rm-sursilv = retoromanščina (sursilvan)
 rm-vallader = retoromanščina (vallader)
@@ -122,6 +128,7 @@ scn = sicilijanščina
 si = sinhalščina
 sk = slovaščina
 sl = slovenščina
+so = somalščina
 sq = albanščina
 sr = srbščina
 sv-SE = švedščina
@@ -136,6 +143,7 @@ tr = turščina
 tt = tatarščina
 uby = ubiščina
 udm = udmurtščina
+ug = ujgurščina
 uk = ukrajinščina
 ur = urdujščina
 uz = uzbeščina
@@ -277,7 +285,9 @@ shortcut-record-toggle = s
 shortcut-record-toggle-label = Snemaj/Ustavi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Znova posnemi posnetek
+shortcut-submit-label = Pošlji posnetke
 request-language-text = Vaš jezik še ni vključen v Common Voice?
+request-language-text-learn = Naučite se, kako to zahtevati!
 request-language-button = Predlagaj jezik
 
 ## ProjectStatus
@@ -349,25 +359,19 @@ skip-submission-description = Med oddajo prispevka bodo povratne informacije pre
 skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno morali izbrati med Govori in Poslušaj.
 off = Izklopljeno
 on = Vklopljeno
-avatar-clip-title = Dodajte glas svojemu avatarju
-change-your-avatar-clip = Želite spremeniti glasovni posnetek?
-recording-in-progress = Glasovno snemanje v teku
-avatar-clip-recorded = Vaš avatar zdaj vključuje glasovni posnetek!
-record-voice-wave = POSNEMI SVOJ GLAS
-retry-voice-wave-recording = POSKUSI ZNOVA
-re-record = ZNOVA POSNEMI
-delete-voice = IZBRIŠI
-recording-voice-wave = Snemanje
-delete-voice-clip = ali izbriši posnetek
-ready-to-upload = Naloži
-recreate-voice = Ponovno ustvari posnetek
-cancel-avatar-clip-recording = Prekliči
-about-avatar-clip-recording = Ustvarite glasovni posnetek kot del avatarja svojega profila. Drugi se bodo lahko z miško pomaknili na vaš posnetek in ga poslušali.
+
+## Profile - Email
+
 browse-file-title = Naložite slikovno datoteko
 browse-file = Povlecite in spustite ali <browseWrap>prebrskajte</browseWrap>
 connect-gravatar = Poveži z Gravatarjem
 gravatar_not_found = Za vaš e-poštni naslov ne obstaja Gravatar
 file_too_large = Izbrana datoteka je prevelika
+avatar-uploaded = Slika naložena
+max-file-size = Največ { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = Upravljaj z naročninami
 manage-email-subscriptions = Upravljanje e-poštnih naročnin
 email-already-used = E-poštni naslov je že v uporabi za drug račun
@@ -733,6 +737,7 @@ validations =
 
 your-languages = Vaši jeziki
 toward-next-goal = Do naslednjega cilja
+goal-reached = Cilj dosežen
 clips-you-recorded = Posnetki, ki ste jih posneli
 clips-you-validated = Posnetki, ki ste jih preverili
 todays-recorded-progress = Današnji skupni napredek pri snemanju posnetkov
@@ -848,11 +853,15 @@ demo-welcome-subheader = Želite izvedeti več o projektu in prispevati?
 ## Demo Datasets
 
 demo-language-select-card-body = Zahvaljujoč prispevkom več kot 259 tisoč ljudi v več kot 50 jezikih se ti podatki uporabljajo za usposabljanje aplikacij za prepoznavanje govora, da bi se bolje odzivale na človeški glas.
+card-button-next = Naprej
+card-button-back = Nazaj
+demo-language-select-label = Brskanje po jezikih
 demo-account = Račun
 
 ## Demo Account
 
 demo-account-card-header = Račun za sodelovanje ni obvezen, je pa priporočljiv.
+demo-account-sign-up = Pošlji povezavo za registracijo
 
 ## Demo Contribute
 

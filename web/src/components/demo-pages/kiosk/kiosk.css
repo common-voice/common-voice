@@ -6,7 +6,6 @@ html {
   GENERAL KIOSK LAYOUT STYLES
  */
 
-@import '../../vars.css';
 #kiosk-container {
     display: flex;
     min-height: 100vh;

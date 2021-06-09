@@ -172,6 +172,7 @@ home-cta = Сухан гӯед, саҳми худро гузоред!
 show-wall-of-text = Бештар хондан
 vote-yes = Ҳа
 vote-no = Не
+speak-subtitle = Овози худро пешкаш кунед
 hours-recorded = Соатҳои сабтшуда
 hours-validated = Соатҳои тасдиқшуда
 all-locales = Ҳама
@@ -258,15 +259,14 @@ download-profile = Боргирӣ кардани маълумоти ман
 contribution-experience = Таҷрибаи саҳмгузорӣ
 off = Ғайрифаъол
 on = Фаъол
-avatar-clip-title = Ба аватари худ овоз диҳед
-retry-voice-wave-recording = АЗ НАВ КӮШИШ КАРДАН
-re-record = АЗ НАВ САБТ КАРДАН
-delete-voice = НЕСТ КАРДАН
-recording-voice-wave = Сабт шуда истодааст
-ready-to-upload = БОР КАРДАН
-cancel-avatar-clip-recording = БЕКОР КАРДАН
+
+## Profile - Email
+
 browse-file-title = Бор кардани файли тасвирӣ
 connect-gravatar = Бо Gravatar пайваст шавед
+
+## Profile - Email
+
 add-language = Илова кардани забон
 
 ## FAQ
@@ -291,6 +291,7 @@ about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
 about-nav-get-involved = Ҳамроҳ шудан
+mycroft-title = Mycroft Ai
 
 ## Glossary
 
@@ -309,6 +310,7 @@ data-download-deny = Не
 data-download-license = Иҷозатнома: <licenseLink>CC-0</licenseLink>
 data-download-modal = Шумо боргирии <size>{ $size } ГБ</size>-ро оғоз карданӣ ҳастед, идома медиҳед?
 data-other-goto = Ба { $name } гузаред
+dataset-date = Сана
 license = Иҷозатнома: <licenseLink>{ $license }</licenseLink>
 license-mixed = Омехта
 terms-agree = Ман розӣ
@@ -326,9 +328,11 @@ language = Забон
 # File size in gigabytes
 size = Андоза
 cv-license = Иҷозатнома
+audio-format = Формати аудио
 number-of-voices = Шумораи овозҳо
 size-gigabyte = ГБ
 size-megabyte = МБ
+download-language = Боргирӣ кардани { $language }
 validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда
 subscribe = Обуна шудан
@@ -383,11 +387,13 @@ contribute = Иштирок доштан
 listen = Гӯш кунед
 skip = Нодида гузарондан
 shortcuts = Миёнбурҳо
+record-cta = Оғоз кардани сабт
 record-no-mic-found = Микрофон ёфт нашуд.
 record-error-too-short = Сабт хеле кӯтоҳ буд.
 record-error-too-long = Сабт хеле дароз буд.
 record-error-too-quiet = Сабт хеле ором буд.
 record-cancel = Бекор кардани сабти такрорӣ
+record-button-label = Овози худро сабт намоед
 target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
 
@@ -444,3 +450,20 @@ remove = Тоза кардан
 
 welcome-staff = Кормандони { $company } хуш омадед!
 read-more-about = Дар саҳифаи «Дар бораи мо» бештар хонед
+
+## DemoLayout
+
+
+## Demo Datasets
+
+demo-account = Ҳисоб
+
+## Demo Account
+
+
+## Demo Contribute
+
+demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
+
+## Demo Dashboard
+

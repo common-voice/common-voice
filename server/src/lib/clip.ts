@@ -15,6 +15,8 @@ import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
 
 const Transcoder = require('stream-transcoder');
+const { Converter } = require("ffmpeg-stream")
+const { Readable } = require('stream');
 
 /**
  * Clip - Responsibly for saving and serving clips.
@@ -68,7 +70,12 @@ export default class Clip {
   }
 
   serveClip = async ({ params }: Request, response: Response) => {
-    response.redirect(await this.bucket.getClipUrl(params.clip_id));
+    const url = await this.bucket.getClipUrl(params.clip_id);
+    if (url) {
+      response.redirect(await this.bucket.getClipUrl(params.clip_id));
+    } else {
+      response.json({});
+    }
   };
 
   saveClipVote = async (
@@ -132,6 +139,9 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
     const sentenceId = headers.sentence_id as string;
+    const format = headers['content-type'];
+    const size = headers['content-length'];
+
     if (!sentenceId || !client_id) {
       response.statusMessage = 'save_clip_missing_parameter';
       response
@@ -161,21 +171,33 @@ export default class Clip {
         .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
         .promise();
 
-      const transcoder = new Transcoder(request)
+      let audioInput = request;
+
+      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && (format.includes('aac') || format.includes('opus'))) {
+        console.log(`loading ${folder}/${filePrefix} (${format}) as buffered stream`);
+        const converter = new Converter()
+        const audioStream = Readable.from(request);
+
+        audioInput = converter.createBufferedInputStream()
+        audioStream.pipe(audioInput);
+      }
+
+      const audioOutput = new Transcoder(audioInput)
         .audioCodec('mp3')
         .format('mp3')
         .channels(1)
-        .sampleRate(32000);
+        .sampleRate(32000)
+        .stream();
 
       await this.s3
         .upload({
           Bucket: getConfig().CLIP_BUCKET_NAME,
           Key: clipFileName,
-          Body: transcoder.stream(),
+          Body: audioOutput,
         })
         .promise();
 
-      console.log('clip written to s3', clipFileName);
+      console.log(`clip written to s3 ${clipFileName} (${size} bytes, ${format})`);
 
       await this.model.saveClip({
         client_id: client_id,

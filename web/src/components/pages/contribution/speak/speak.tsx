@@ -29,6 +29,7 @@ import {
   FirefoxColor,
   ChromeColor,
   SafariColor,
+  ReturnKeyIcon,
 } from '../../../ui/icons';
 import { Button, TextButton, LinkButton } from '../../../ui/ui';
 import { isIOS, isMobileSafari } from '../../../../utility';
@@ -46,7 +47,7 @@ import { SentenceRecording } from './sentence-recording';
 
 import './speak.css';
 
-const MIN_RECORDING_MS = 1500;
+const MIN_RECORDING_MS = 1000;
 const MIN_RECORDING_MS_BENCHMARK = 500;
 const MAX_RECORDING_MS = 10000;
 const MIN_VOLUME = 8; // Range: [0, 255].
@@ -448,11 +449,16 @@ class SpeakPage extends React.Component<Props, State> {
               this.demoMode
             );
             URL.revokeObjectURL(recording.url);
-            sessionStorage.setItem(
-              'challengeEnded',
-              JSON.stringify(challengeEnded)
-            );
-            sessionStorage.setItem('hasContributed', 'true');
+            try {
+              sessionStorage.setItem(
+                'challengeEnded',
+                JSON.stringify(challengeEnded)
+              );
+              sessionStorage.setItem('hasContributed', 'true');
+            } catch (e) {
+              console.warn(`A sessionStorage error occurred ${e.message}`);
+            }
+
             if (showFirstContributionToast) {
               addAchievement(
                 50,
@@ -577,45 +583,50 @@ class SpeakPage extends React.Component<Props, State> {
     return (
       <>
         <div id="speak-page">
-          <NavigationPrompt
-            when={clips.filter(clip => clip.recording).length > 0}>
-            {({ onConfirm, onCancel }: any) => (
-              <Modal innerClassName="record-abort" onRequestClose={onCancel}>
-                <Localized id="record-abort-title">
-                  <h1 className="title" />
-                </Localized>
-                <Localized id="record-abort-text">
-                  <p className="text" />
-                </Localized>
-                <ModalButtons>
-                  <Localized id="record-abort-submit">
-                    <Button
-                      outline
-                      rounded
-                      className={getTrackClass('fs', 'exit-submit-clips')}
-                      onClick={() => {
-                        if (this.upload()) onConfirm();
-                      }}
+          {!isSubmitted && (
+            <NavigationPrompt
+              when={clips.filter(clip => clip.recording).length > 0}>
+              {({ onConfirm, onCancel }: any) => (
+                <Modal innerClassName="record-abort" onRequestClose={onCancel}>
+                  <Localized id="record-abort-title">
+                    <h1 className="title" />
+                  </Localized>
+                  <Localized id="record-abort-text">
+                    <p className="text" />
+                  </Localized>
+                  <ModalButtons>
+                    <Localized id="record-abort-submit">
+                      <Button
+                        outline
+                        rounded
+                        className={getTrackClass('fs', 'exit-submit-clips')}
+                        onClick={() => {
+                          if (this.upload()) onConfirm();
+                        }}
+                      />
+                    </Localized>
+                    <Localized id="record-abort-continue">
+                      <Button
+                        outline
+                        rounded
+                        className={getTrackClass(
+                          'fs',
+                          'exit-continue-recording'
+                        )}
+                        onClick={onCancel}
+                      />
+                    </Localized>
+                  </ModalButtons>
+                  <Localized id="record-abort-delete">
+                    <TextButton
+                      className={getTrackClass('fs', 'exit-delete-clips')}
+                      onClick={onConfirm}
                     />
                   </Localized>
-                  <Localized id="record-abort-continue">
-                    <Button
-                      outline
-                      rounded
-                      className={getTrackClass('fs', 'exit-continue-recording')}
-                      onClick={onCancel}
-                    />
-                  </Localized>
-                </ModalButtons>
-                <Localized id="record-abort-delete">
-                  <TextButton
-                    className={getTrackClass('fs', 'exit-delete-clips')}
-                    onClick={onConfirm}
-                  />
-                </Localized>
-              </Modal>
-            )}
-          </NavigationPrompt>
+                </Modal>
+              )}
+            </NavigationPrompt>
+          )}
           {showPrivacyModal && (
             <TermsModal
               onAgree={this.agreeToTerms}
@@ -702,7 +713,7 @@ class SpeakPage extends React.Component<Props, State> {
                 onRerecord={() => this.rerecord(i)}>
                 {rerecordIndex === i && (
                   <Localized id="record-cancel">
-                    <TextButton onClick={this.cancelReRecord} />
+                    <TextButton onClick={this.cancelReRecord} className="text"/>
                   </Localized>
                 )}
               </RecordingPill>
@@ -731,6 +742,13 @@ class SpeakPage extends React.Component<Props, State> {
                 key: 'shortcut-rerecord-toggle',
                 label: 'shortcut-rerecord-toggle-label',
                 action: this.handleRecordClick,
+              },
+              {
+                key: 'shortcut-submit',
+                label: 'shortcut-submit-label',
+                icon: <ReturnKeyIcon />,
+                // This is handled in handleKeyDown, separately.
+                action: () => {},
               },
             ]}
             type="speak"

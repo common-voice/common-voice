@@ -43,6 +43,7 @@ bn = Kibengali
 br = Kibretoni
 bxr = Kiburyatia
 ca = Kikatalonia
+cak = Kikiiche
 ckb = Kikurdi cha Kati
 cnh = Kichin-Haka
 co = Kikosika
@@ -73,6 +74,7 @@ he = Kiebrania
 hi = Kihindi
 hr = Kikroatia
 hsb = Kisobia ya Juu
+ht = Kihaiti
 hu = Kihangari
 hy-AM = Kiarmenia
 hyw = Kiarmenia ya Magharibi
@@ -98,9 +100,14 @@ lt = Kilithuania
 lv = Kilatvia
 mdf = Kimoksha
 mg = Kimalagasi
+mhr = Kimari ya Mashariki
 mk = Kimasedonia
 ml = Kimalayalamu
 mn = Kimongoli
+mos = Kimosi
+mr = Kimarathi
+mrj = Kimari ya Magharibi
+ms = Kimalei
 mt = Kimalta
 my = Kiburma
 myv = Kierzya
@@ -112,6 +119,7 @@ oc = Kiositani
 or = Kiodia
 pa-IN = Kipanjabi
 pl = Kipoli
+ps = Kipashto
 pt = Kireno
 rm-sursilv = Kirumi Sursilvan
 rm-vallader = Kirumi Vallader
@@ -124,6 +132,7 @@ scn = Kisisilia
 si = Kisinhala
 sk = Kislovakia
 sl = Kislovenia
+so = Kisomali
 sq = Kialbania
 sr = Kisebia
 sv-SE = Kiswidi
@@ -138,6 +147,7 @@ tr = Kituruki
 tt = Kitatari
 uby = Ubiki
 udm = Kiudmurti
+ug = Kiuiguri
 uk = Kiukreini
 ur = Kiurdu
 uz = Kiuzbeki
@@ -340,26 +350,17 @@ skip-submission-description = Wakati wa mchango, uwasilishaji wa maoni utarukwa 
 skip-submission-note = Kumbuka: Bado utahitaji kuchagua kati ya kuzungumza au kusikiliza ili ubadilishe aina ya uchangiaji.
 off = zima
 on = washa
-avatar-clip-title = Ipe sauti taswira yako ya mtumiaji
-change-your-avatar-clip = unataka kubadilisha kipande cha sauti yako?
-recording-in-progress = Kurekodiwa kwa sauti kunaendelea
-avatar-clip-recorded = Taswira yako sasa inajumuisha kipande cha sauti!
-record-voice-wave = Rekodi mawimbi ya sauti
-retry-voice-wave-recording = jaribu tena
-re-record = Rekodi tena
-delete-voice = futa
-recording-voice-wave = Inarekodi
-delete-voice-clip = Au futa kipande cha sauti
-ready-to-upload = Pakia
-avatar-clip-fact = Ni ukweli uliojulikana kwa muda mrefu kwamba msomaji atavurugwa na maneno yanayosomeka kwa ukurasa wakati anapoangalia muundo wake.
-recreate-voice = Tengeneza upya mawimbi  ya sauti
-cancel-avatar-clip-recording = Ghairi
-about-avatar-clip-recording = Unda kipande cha sauti iwe sehemu ya taswira ya wasifu wako. Wengine wataweza kuielea na kusikiliza hicho kipande.
+
+## Profile - Email
+
 browse-file-title = Pakia faili la picha
 browse-file = Buruta na ushushe au <browseWrap> Vinjari </BrowseWrap>
 connect-gravatar = Ungana na Gravatar
 gravatar_not_found = Hakuna taswira inayotambuliwa ulimwenguni iliyopatikana kwa barua pepe yako
 file_too_large = Faili lililochaguliwa ni kubwa sana
+
+## Profile - Email
+
 manage-subscriptions = Dhibitisha Usajili
 manage-email-subscriptions = Dhibitisha Usajili wa Baruapepe
 email-already-used = Baruapepe tayari inatumika kwa akaunti tofauti
@@ -370,7 +371,15 @@ change-email-setings = Badilisha baruapepe yako kupitia Mipangilio chini ya utam
 
 faq-title = Maswali yanayoulizwa mara kwa mara
 faq-what-cv-q = common voice ni nini?
+faq-what-cv-a =
+    Teknolojia ya utambuzi wa sauti inabadilisha jinsi tunavyoingiliana na mashine, lakini mifumo inayopatikana sasa ni ghali na ya wamiliki. Common Voice ni sehemu ya mpango wa Mozilla wa kufanya teknolojia za utambuzi wa sauti kuwa bora na kupatikana kwa kila mtu. Common Voice ni hifadhidata kubwa ulimwenguni ya sauti zilizotolewa ambazo humruhusu mtu yeyote kwa haraka na urahisi kufundisha programu zinazowezeshwa na sauti kwa uwezekano wa kila lugha.
+    
+    Sio tu tunakusanya sampuli za sauti katika lugha zinazozungumzwa sana lakini pia kwa zile zilizo na idadi ndogo ya wasemaji. Kuchapisha daftari anuwai ya sauti kutawezesha watengenezaji programu, wajasiriamali, na jamii kushughulikia pengo hili wenyewe. Mbali na mkusanyiko wa daftari la Common Voice, tunaunda pia injini ya chanzo wazi ya utambuzi wa sauti inayoitwa Deep Speech.
 faq-why-important-q = kwanini hii ni ya umuhimu?
+faq-why-important-a =
+    Sauti mara nyingi ni njia ya asili zaidi ya kuwasiliana na kila mmoja na teknolojia za sauti zinaleta urahisi huo kwa kompyuta zetu na vifaa vya rununu. Tunataka kuwawezesha watengenezaji programu na uwezo wa kujenga programu za kushangaza za utambuzi wa sauti kama vile watafsiri wa wakati halisi na wasaidizi wa kidijitali wenye kuwezeshwa na sauti. Lakini sasa hivi data nyingi za sauti zinazohitajika kuunda aina hizi za programu ni ghali na ya wamiliki. Tunatumahi kuwa hifadhidata ya Common Voice itawapa watengenezaji programu kile wanachohitaji ili kubuni na kufanya teknolojia ya sauti ipatikane katika lugha yao.
+    
+    Ili kufanya utambuzi wa sauti uwe wa ulimwengu wote, tunakusanya sampuli za sauti katika lugha zinazozungumzwa sana na zile zilizo na idadi ndogo ya wasemaji ambazo mara nyingi hazina huduma za kibiashara za utambuzi wa sauti. Kuchapisha mkusanyiko wa hifadhidata anuwai ya sauti kutawezesha watengenezaji programu, wajasiriamali, na jamii nzima ya sauti kushughulikia pengo hili wenyewe.
 faq-how-get-q = Ninawezaje kupata data ya Common Voice?
 faq-how-get-a = Daftari la Common Voice linapatikana kwa kupakuliwa chini ya leseni ya <licenseLink> CC0 </licenseLink> kwenye <datasetLink> ukurasa wetu wa Takwimu</datasetLink>. Unaweza pia kupakua daftari kadhaa zinazopatikana kwa umma kutoka ukurasa huo huo.
 faq-when-release2-q = Ni lini data ya Common Voice itatolewa katika lugha zingine?
@@ -384,8 +393,13 @@ faq-is-goal-assistant-a = Lengo la daftari la Common Voice ni kuwezesha mtu yeyo
 faq-do-want-native-q = Mimi si mzungumzaji asili na ninazungumza kwa lafudhi, bado mnataka sauti yangu?
 faq-do-want-native-a = Ndio, tunataka sauti yako! Sehemu ya madhumuni ya Common Voice ni kukusanya anuwai nyingi za lafudhi iwezekanavyo ili huduma za utambuzi wa sauti zifanye kazi sawa kwa kila mtu. Hii inamaanisha michango kutoka kwa wasemaji ambao sio asilia ni muhimu sana.
 faq-why-different-speakers-q = Kwa nini unahitaji wasemaji wengi tofauti kwa kila lugha?
+faq-why-different-speakers-a =
+    Hifadhidata nyingi za sauti zinafunzwa na uwasilishaji mkubwa wa data inayohusu watu ambayo husababisha upendeleo kuelekea <articleLink> daraja la kiume na la kati</articleLink>. Lafudhi na lahaja ambazo huwa zinawakilishwa chini ya uwasilishaji katika seti za data ya mafunzo kawaida zinahusishwa na vikundi vya watu ambao tayari wametengwa. Mashine nyingi pia zinapambana kuelewa sauti za kike.
+    Hii ndio sababu katika daftari letu tunataka sauti tofauti!
 faq-why-my-lang-q = Kwa nini lugha yangu bado haijajumuishwa?
+faq-why-my-lang-new-a = Mozilla haichagui au kupendelea lugha yoyote kuliko nyingine. Badala yake, Common Voice ni mpango unaoendeshwa na jamii, lakini inachukua <multilangLink> hatua kadhaa kuongeza lugha mpya </multilangLink> na kuanza kukusanya michango ya sauti. Kwanza, wavuti wa Common Voice unahitaji kutafsiriwa ili wanajamii waweze kupata uzoefu wa wachangiaji katika lugha yao wenyewe. Kisha tunahitaji mkusanyiko mkubwa wa sentensi zisizo na hakimiliki kwa watu kusoma kwa sauti. Mara tu mahitaji hayo yote yanapokamilika lugha "huzinduliwa" kwa Common Voice kwa watu kuanza kurekodi sauti zao na kuhalalisha michango ya wengine. Ikiwa unataka kusaidia kuzindua lugha mpya, nenda kwenye <sentenceCollectorLink>kifaa chetu cha kukusanya sentensi </sentenceCollectorLink> ili uanze.
 faq-what-quality-q = Ni kiwango gani cha ubora wa sauti kinahitajika ili kipande cha sauti kitumiwe kwenye daftari?
+faq-what-quality-a = Tunataka daftari la data la Common Voice kuonesha ubora wa sauti ambayo injini ya sauti-kwa-maandishi itaelewa porini, kwa hivyo tunatafuta sauti nyingi tofauti. Mbali na jamii tofauti ya wasemaji, daftari lenye ubora wa sauti nyingi tofauti litafundisha injini ya sauti-kwa-maandishi kushughulikia hali tofauti za ulimwengu, kutoka kelele za kuongea za nyuma hadi kelele za magari. Ili mradi kipande chako cha sauti kinaeleweka, inapaswa kuwa ya kutosha kwa daftari.
 faq-why-10k-hours-q = Kwa nini saa 10,000 zilizothibitishwa ndio lengo la kila lugha la kurekodi sauti?
 faq-why-10k-hours-a = Hii ni takriban idadi ya saa zinazotakiwa kufundisha mfumo wa uzalishaji wa sauti kwa maandishi.
 faq-how-calc-hours-q = Common voice inahesabuje masaa?
@@ -396,10 +410,16 @@ faq-where-src-from-2-a =
     
     Unaweza kuona sentensi zetu katika hii <githubLink> Folda ya GitHub </githubLink>.
 faq-why-not-ask-read-q = Kwa nini usiombe watu wasome vitabu au nakala za Wikipedia katika lugha tofauti?
+faq-why-not-ask-read-a = Ili kufanya daftari la Common Voice liwe muhimu kadiri inavyowezekana tumeamua kuruhusu tu maandishi asili ambayo inapatikana chini ya leseni ya Creative Commons (CC0). Kutumia kiwango cha CC0 inamaanisha kuwa ni ngumu zaidi kupata na kukusanya maandishi ya asili, lakini inamruhusu mtu yeyote atumie data inayotokana na sauti bila vizuizi vya matumizi au idhini kutoka kwa Mozilla. Mwishowe, tunataka kuifanya daftari ya lugha tofauti iwe muhimu kwa kila mtu, pamoja na watafiti, vyuo vikuu, kampuni zinazoanza, serikali, mashirika ya kusudi za kijamii, na wapenda hobby.
 faq-why-account-q = Kwa nini nijisajili kupata akaunti?
 faq-is-account-public-q = Je! Habari za akaunti yangu zinawekwa kwa umma?
 faq-how-privacy-q = Je! Unahakikishaje kutojulikana na faragha ya watu waliotoa sauti zao?
+faq-how-privacy-a = Vipande vyote vya sauti kwenye daftari zimeondolewa habari za kutambulisha watu. Wakati mchangiaji hutoa data inayomhusu kupitia wasifu wao, habari hizo huondolewa kutoka kwa sehemu za sauti zao kabla ya kuwekwa kwenye kifurushi cha kupakuliwa kwenye daftari na kamwe haitangazwi kwa umma kwenye ukurasa wa wasifu wao.
 faq-what-determine-identity-q = Inamaanisha nini kuwa siwezi "kutambua utambulisho" wa wasemaji kwenye daftari la Common Voice?
+faq-what-determine-identity-a =
+    Daftari la Common Voice ni rasilimali wazi na inayopatikana kwa umma ambayo inaweza kutumika kufundisha programu tofauti zenye uwezo wa kutambua sauti. Ili kulinda usalama wa wachangiaji wetu, tunaomba kila mtu anayepakua daftari la Common Voice kuheshimu faragha ya wachangiaji. 
+    
+    Vipande vyote vya sauti kwenye hifadhidata zinatolewa taarifa binafsi za utambuzi. Unapopakua daftari hili, unakubali kutojaribu kubaini kumtambua mchangiaji yeyote. Hivyo inamaanisha kuwa huwezi kujaribu kuunganisha taarifa kwenye daftari la Common Voice na maelezo binafsi ya mchangiaji. Hata hivyo, unaweza kutumia daftari hili kutoa mafunzo kwa programu za utambuzi wa sauti, utambuzi wa msemaji, au programu zingine, kwa mfano, kuunganisha taarifa kwenye daftari na habari zingine zilizo tayari kwenye daftari
 faq-what-is-cv = Common voice ni nini?
 faq-using-cv = kutumia common voice
 faq-description = Common Voice ni sehemu ya mpango wa Mozilla kusaidia kufundisha mashine jinsi watu wanavyozungumza
@@ -408,8 +428,11 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = kwanini common voice
+about-title = Kwanini Common Voice?
 about-subtitle = Common Voice ni hatua ya Mozilla ya kusaidia kufunza mashine jinsi watu wanavyozungumza. Mbali na daftari la Common Voice, pia tunaunda injini ya utambuzi wa sauti ya chanzo wazi inayoitwa Deep Speech.
+about-header-description =
+    Miradi hii yote ni sehemu ya juhudi zetu za kupunguza mgawanyiko wa sauti ya kidigitali. Teknolojia za utambuzi wa sauti huleta mwelekeo wa kibinadamu kwenye vifaa vyetu, lakini watengenezaji programu wanahitaji idadi kubwa ya data ya sauti ili kuzijenga. Hivi sasa, data nyingi ni ghali na ya wamiliki.¶
+    Tunataka kufanya data ya sauti kupatikana kwa uhuru na kwa umma, na kuhakikisha data inawakilisha utofauti wa watu. Pamoja tunaweza kufanya utambuzi wa sauti kuwa bora kwa kila mtu.
 how-does-it-work-title = inafanyaje kazi
 how-does-it-work-text = Tunachangisha chanzo wazi la daftari la sauti. Toa sauti yako, halalisha usahihi wa vipande vya sauti vya watu wengine, fanya daftari liwe bora kwa kila mtu.
 about-speak = Zungumza
@@ -439,7 +462,7 @@ about-get-involved-text-2 =
     Je! Unataka kusaidia kufanya Common Voice kuwa bora zaidi?
     Vizuri! Wasiliana kupitia barua pepe au idhaa ya <discourseLink> Discourse </discourseLink>
     ,wasilisha maswala ya tovuti kupitia <githubLink> GitHub </githubLink>, au ujiunge na mazungumzo ya jamii ya <matrixLink> Matrix </matrixLink>.
-about-nav-why-common-voice = kwanini?
+about-nav-why-common-voice = Kwanini?
 about-nav-how-it-works = kivipi?
 about-nav-partners = Washiriki
 about-nav-get-involved = Jihusishe
@@ -480,6 +503,7 @@ data-download-deny = Hapana
 data-download-license = Leseni: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Unakaribia kuanzisha upakuaji wa <size>{ $size }GB</size> , endelea?
 data-subtitle = Tunaunda daftari la data ya sauti inayopatikana wazi na kwa umma ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
+data-explanatory-text = Tunaamini kuwa daftari kubwa la sauti na linalopatikana kwa umma linakuza uvumbuzi na ushindani mzuri wa kibiashara katika teknolojia ya sauti inayotegemea mafunzo ya mashine. Hii ni juhudi ya ulimwengu na tunakaribisha kila mtu kushiriki. Lengo letu ni kusaidia teknolojia ya sauti iwe kuunganisha zaidi, ikionyesha utofauti wa sauti kutoka kote ulimwenguni.
 data-get-started = <speechBlogLink> Anza na Utambuzi wa sauti </speechBlogLink>
 data-other-title = Daftari zingine za sauti
 data-other-goto = Nenda kwa { $name }
@@ -491,6 +515,7 @@ dataset-date = Tarehe
 license = Leseni: <licenseLink> { $leseni } </licenseLink>
 license-mixed = Mchanganyiko
 data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja
+data-download-singleword-callout-v2 = Hii ni sehemu ya kesi inayotumiwa na data iliyo na uwezo wa kutambua tarakimu ya sauti na ugunduzi wa ndio / hapana
 review-terms = Kwa kutumia Common Voice, unakubaliana na <termsLink>Masharti</termsLink> yetu na <privacyLink> Ilani ya Faragha</privacyLink>
 terms-agree = nakubali
 terms-disagree = Sikubali
@@ -506,6 +531,12 @@ review-delete-recordings = Futa rekodi zangu
 ## Datasets Page
 
 datasets-headline = Tunaunda chanzo wazi la hifadhidata ya sauti yenye lugha nyingi tofauti ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
+datasets-positioning =
+    Tunaamini kuwa hifadhidata kubwa ya sauti, inayopatikana kwa umma itakuza uvumbuzi na ushindani mzuri wa kibiashara katika kufunza mashine inayotegemea teknojia ya sauti.
+    
+    Common Voice ni hifadhidata ya lugha nyingi ya sauti inayopatikana kwa umma ambayo tayari ni hihafidata kubwa zaidi ya aina yake, lakini sio ya kipekee.
+    
+    Angalia ukurasa huu kama kitovu cha kumbukumbu la hifadhidata ya sauti vya vyanzo wazi, na Common Voice inavyoendelea kukua, ni sehemu yetu ya kutolea sasisho.
 language = lugha
 # File size in gigabytes
 size = Ukubwa
@@ -525,11 +556,16 @@ download-language = Pakua { $lugha }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
 whats-inside = Nini kipo ndani ya daftari la Common Voice?
+dataset-description-hours =
+    Kila ingizo kwenye hifadhidata ina MP3 ya kipekee sambamba na faili la maandishi. Saa nyingi za <b>{ $total }</b> zilizorekodiwa kwenye hifadhidata pia zinahusisha metadata ya data zinazohusu watu kama vile umri, jinsia, na lafudhi ambayo inaweza kusaidia kufundisha usahihi wa injini za utambuzi wa sauti.
+    
+    Kwa sasa hifadhidata ina masaa <b>{ $valid }</b> yaliyohalalishwa kwenye lugha <b>{ $languages }</b>, lakini kila wakati tunaongeza sauti na lugha zingine. Angalia ukurasa wetu wa <languagesLink>Lugha</languagesLink> ili kuomba lugha au kuanza kuchangia.
 want-dataset-update = Unahitaji visasisho pindi tunapotoa toleo jipya la hifadhi ya Common Voice? Jiandikishe kwa jarida letu.
 subscribe = Jiandikishe
 get-started-speech = Pata kuanza na utambulizi wa sauti
 other-datasets = Daftari zingine za sauti
 feedback-q = Una Maoni?
+deepspeech-info = Daftari la Common Voice linakamilisha chanzo wazi la utambuzi wa sauti ya injini ya Deep speech ya Mozilla, ambayo inaweza kutumika kutengeneza programu za utambuzi wa sauti. Soma <githubLink>muhtasari wetu wa Github</githubLink> au jiunge na <discourseLink>DeepSpeech Dicrourse</discourseLink> ili kujifunza jinsi ya kuanza.
 common-voice-info-new = Je! Una maswali kuhusu Common Voice? Mawazo ya maboresho au maoni juu ya lugha maalum? Jiunge nasi kwenye idhaa yetu ya <discourseLink> Discourse </discourseLink> na utujulishe.
 data-other-librispeech-description = LibriSpeech ni daftari la takriban saa 1000 za 16Khz za sauti ya Kiingereza ziliyosomwa kutoka vitabu vya sauti vya mradi wa LibriVox.
 data-other-ted-name = Daftari la TED-LIUM
@@ -845,6 +881,7 @@ demo-account-sign-up = Tuma kiunga cha kujisajili
 ## Demo Contribute
 
 demo-contribute-card-header = Uko tayari kuongeza sauti yako au kusikiliza?
+demo-contribute-card-body-v2 = Sasa kwa kuwa unajua kidogo zaidi kuhusu Common Voice, kwa nini usijaribu? Bonyeza kitufe cha kipaza sauti ili kuanza kusoma sentensi kwa sauti. <br/><br/>Ikiwa unapendelea kuhakiki michango ya sauti ya watu wengine, bonyeza kitufe cha kucheza. Utasaidia kuthibitisha kuwa rekodi zinalingana na sentensi zilizoandikwa kwenye skrini.
 demo-listen-subtitle = Uko tayari kuchangia?
 
 ## Demo Dashboard

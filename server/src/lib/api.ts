@@ -21,6 +21,7 @@ import { ClientParameterError } from './utility';
 import Challenge from './challenge';
 import { FeatureType, features } from 'common';
 import { TaxonomyToken, taxonomies } from 'common';
+import { getLocaleId } from './model/db';
 
 const Transcoder = require('stream-transcoder');
 
@@ -79,7 +80,7 @@ export default class API {
     router.patch('/user_client', this.saveAccount);
     router.post(
       '/user_client/avatar/:type',
-      bodyParser.raw({ type: 'image/*' }),
+      bodyParser.raw({ type: 'image/*', limit: '300kb' }),
       this.saveAvatar
     );
     router.post('/user_client/avatar_clip', this.saveAvatarClip);
@@ -91,6 +92,7 @@ export default class API {
     router.post('/user_client/awards/seen', this.seenAwards);
 
     router.get('/:locale/sentences', this.getRandomSentences);
+    router.get('/:locale/name', this.getLocaleName);
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
 
     router.use(
@@ -239,7 +241,7 @@ export default class API {
 
     const { email } = request.params;
     const basketResponse = await sendRequest({
-      uri: Basket.API_URL + '/news/subscribe/',
+      uri: Basket.BASKET_API_URL + '/news/subscribe/',
       method: 'POST',
       form: {
         'api-key': BASKET_API_KEY,
@@ -251,12 +253,14 @@ export default class API {
         sync: 'Y',
       },
     });
-    await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
+    const clientId = await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
+    await Basket.sync(clientId, true);
+
     response.json({});
   };
 
   saveAvatar = async (
-    { body, headers, params, user }: Request,
+    { body, headers, params, user, client_id }: Request,
     response: Response
   ) => {
     let avatarURL;
@@ -282,15 +286,26 @@ export default class API {
         break;
 
       case 'file':
-        avatarURL =
-          'data:' +
-          headers['content-type'] +
-          ';base64,' +
-          body.toString('base64');
-        console.log(avatarURL.length);
-        if (avatarURL.length > 8000) {
-          error = 'too_large';
-        }
+        // Because avatar files are uploaded as public, this is a nominally
+        // unpredictable prefix to prevent easy guessing of avatar location
+        const prefix = (new Date().getUTCMilliseconds() * Math.random())
+          .toString(36)
+          .slice(-5);
+
+        let fileName = `${client_id}/${prefix}-avatar.jpeg`;
+        await this.s3
+          .upload({
+            Key: fileName,
+            Bucket: getConfig().CLIP_BUCKET_NAME,
+            Body: body,
+            ACL: 'public-read',
+          })
+          .promise();
+
+        avatarURL = this.bucket.getUnsignedUrl(
+          getConfig().CLIP_BUCKET_NAME,
+          fileName
+        );
         break;
 
       default:
@@ -299,7 +314,11 @@ export default class API {
     }
 
     if (!error) {
-      await UserClient.updateAvatarURL(user.emails[0].value, avatarURL);
+      const oldAvatar = await UserClient.updateAvatarURL(
+        user.emails[0].value,
+        avatarURL
+      );
+      if (oldAvatar) await this.bucket.deleteAvatar(client_id, oldAvatar);
     }
 
     response.json(error ? { error } : {});
@@ -446,5 +465,10 @@ export default class API {
       cdn == 'true'
     );
     response.json({ url });
+  };
+
+  getLocaleName = async (request: Request, response: Response) => {
+    const { params } = request;
+    response.json({ [params.locale] : await getLocaleId(params.locale)});
   };
 }

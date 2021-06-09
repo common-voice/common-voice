@@ -171,6 +171,9 @@ Abans de creuar vaig fer un cop d'ull a banda i banda.
 Abans de tornar-se a allitar, encén una altra cigarreta.
 Abonats i concurrents a la primera llotja baixa del prosceni estaven, feia dies, intrigats.
 Acabaré aquesta feina a totes passades abans del cap de setmana, ja ho veuràs.
+Accions correctives de problemes.
+Accions preventives d'errades.
+Aconseguir un nou client costa més que la repetició d'un client satisfet.
 Acostumats com han estat durant els anys de la fam a menjar moniato cru.
 Activa el volum automàtic.
 Activa l'operació cinquanta-u.
@@ -246,6 +249,8 @@ Amb quin gust respiraven l'aire fi de la muntanya!
 Amb un mirallet rodó d'aquells que es pleguen ja en tinc prou.
 Amb una cullera de fusta.
 Ambdues amigues venien bo i tremolant de fred.
+Amenaça de l'entrada de nous competidors.
+Amenaça de l'entrada de nous productes substitutius.
 Anava cagalló per sèquia.
 Anava demanant caritat per les cases.
 Andreu s'embutxacà els saquets d'arròs.
@@ -1811,10 +1816,35 @@ Anit la tempestat fou tan horrenda que m'ha llevat el son.
 Anous, castanyes i bellotes.
 Antigament, quan venia Nadal, en les cases es feen rotllets d’aiguardent.
 Antoni també s’ha oferit a tindre cura de Llorenç algunes vesprades.
+Anàlisi de les activitats de formació del personal.
+Anàlisi de processos de servei i de fabricació.
+Anàlisi de productes defectuosos.
+Anàlisi periòdica de les dades.
 Anàvem molt justos.
+Apaga el forn.
+Apaga el llum de l'escala.
+Apaga el llum de l'habitació.
+Apaga el llum de la cuina.
+Apaga el llum de la terrassa.
+Apaga el llum del balcó.
+Apaga el llum del bany.
+Apaga el llum del garatge.
+Apaga el llum del lavabo.
+Apaga el llum del menjador.
+Apaga el llum del passadís.
+Apaga el llum del pàrquing.
+Apaga el llum del rebedor.
+Apaga el llum del terrat.
 Apaga el llum.
+Apaga el microones.
+Apaga el televisor.
 Apaga els llums.
+Apaga l'aire condicionat.
+Apaga l'ordinador.
 Apaga la bombeta.
+Apaga la calefacció.
+Apaga la ràdio.
+Apaga la televisió.
 Apaga les bombetes.
 Aprofite que Manel escura.
 Apuja el volum de la ràdio.
@@ -1889,6 +1919,7 @@ Arròs en fesols i naps.
 Assaltà un tràiler de dolços, posats a ser exactes.
 Augmenta el volum de la ràdio.
 Augmenta la il·luminació de l'habituació.
+Avaluació de tots els subministradors de productes i serveis.
 Avergonyit pel que havia fet, va abaixar els ulls esperant el càstig.
 Avisa'm si truca o envia algun missatge la meva dona.
 Avui ni se'n recordava.
@@ -1904,6 +1935,7 @@ Bullirem les pataques amb pell.
 Bulliu els peus amb la farigola, el llorer i un pessic de sal.
 Bé, però què en traurà?
 Bé. Molt rebé.
+Cada client insatisfet ho diu a deu persones.
 Cada dia hi acudeix més gent demanant una caritat.
 Cada dia sembla que arribis del poble.
 Cada plat, o cada conjunt de plats, porta aparellat un recipient específic.
@@ -1954,6 +1986,7 @@ Combatien els vents xisclant com feres.
 Comentàvem com d'inútils ens semblaven tant de dictamen.
 Compraré pastissets de moniato i rotllets, de vi i de cassalla.
 Comprà uns deliciosos pastissos de moniato i cabell d'àngel.
+Coneixements científics i tecnològics.
 Confia en tu a ultrança. Mai et demanarà cap justificació.
 Confio a a ulls clucs que allò és com ho expliques.
 Conflicte d'un numismata.
@@ -1962,11 +1995,16 @@ Conta'm el conte dels tres porquets.
 Continguts de qualitat units a un registre lingüístic que provoque adhesió.
 Contra el matí que la volta no troba l'aire, no gosa, la rosa.
 Contra les recomanacions dels lingüistes, batejava unilateralment programes.
+Control de productes i serveis no conformes.
 Conversaven, somreien, es feien signes…
 Copia aquest text al peu de la lletra, sense cap falta.
 Coquetes de sant Antoni.
+Corba d'aprenentatge.
+Cost de canvi de proveïdor.
+Costos de canvi de proveïdor.
 Crec que fa massa calor!
 Crec que la primera opció era més adequada.
+Creixement econòmic i barreres aranzelàries.
 Cultius d’aliments de primera necessitat orientats als mercats regional.
 D'acord, fem-ho així.
 D'acord, s'han afegit les tasques a la llista de coses per fer.
@@ -2041,6 +2079,7 @@ Destorba els seus propòsits d’arribar al càrrec.
 Desventuradament era tard per a salvar-lo.
 Deteste els mitjans d’informació.
 Dia sí, dia no, tinc classes d'anglès a l'acadèmia del poble.
+Diferenciació de producte.
 Digue'm la lectura actual.
 Digue'm la llista de tasques pendents.
 Digue-li a la Ramona que el dinar és a taula.
@@ -2073,6 +2112,7 @@ Durant un any havia tancat per sempre.
 Dèiem que eres formosa com Diana.
 Dóna més llum.
 D’aquesta època són les instal·lacions que permeteren el conreu de plantes.
+Economies d'escala.
 Efectivament, n'hem parlat, però, sincerament, no hi veig cap solució.
 Eixa parella era creació seua i se sentia ben orgullosa de la seua fita.
 El Govern central fa la puta i la Ramoneta amb el tema del finançament.
@@ -2105,6 +2145,7 @@ El déntol a la marinesca és deliciós.
 El foc allargarà ombres esvalotades.
 El gat li havia enxampat un canari que semblava un mussol.
 El general va indicar al secretari que ja no tenia necessitat dels seus serveis.
+El grau de coneixement de l'estructura de costos del venedor.
 El iaio Blai triava la soca de taronger que considerava especial.
 El judici davant l'alcalde de Roma.
 El mes que ve vaig a París.
@@ -2163,6 +2204,7 @@ El trimestre vinent no hi haurà exàmens.
 El valor de la variable és vint-i-tres ara mateix.
 El vell s’havia parat a la porta del Casino Gran per observar
 El vicari compareix amb un vas de llet glaçada.
+El xicot canta molt bé i el farol encés no se'l vol deixar.
 El xicot es migrava esperant el dia desitjat de fer servir les andròmines.
 El xicot es va fer… es va reviscolar… es va fer home…
 El xicot estudia anglés.
@@ -2198,6 +2240,7 @@ Els darrers canvis socials han anat a tota brida. Ara cal saber mantenir-los.
 Els dos ferits estàn ara mateix ingressats en aquest centre.
 Els dos germans sempre estan com gat i gos. Algun dia prendran mal.
 Els elements estan doncs preparats tot arreu.
+Els factors clau d'èxit són totes aquelles activitats claus per desenvolupar l'estratègia.
 Els fanals de les placetes ens encalcen.
 Els figatells valencians, són propis de les comarques centrals.
 Els fills han d’estar amb els pares.
@@ -2218,6 +2261,12 @@ Els pastissos de carn, els mantecats i els pastissets de moniato.
 Els peixos és mengen el Jaume Primer davant la Farola.
 Els plàtans són bons tot l'any.
 Els prendré tots dos.
+Els processos de suport recolzen als processos operatius.
+Els processos estratègics proporcionen directrius per a la resta dels processos.
+Els processos estratègics recolzen i despleguen les estratègies de l'organització.
+Els processos operatius constitueixen la seqüència de valor afegit.
+Els processos s'han de documentar en procediments.
+Els requisits per a la qualificació del personal.
 Els seus deures no eren particularment onerosos.
 Els seus ulls adorables vessaven llàgrimes calentes.
 Els telèfons, tant el seu com el del marit, continuen sense respondre.
@@ -2286,14 +2335,57 @@ En vol un o dos?
 Encara que compartírem els seus arguments, la sentència ens va ofendre.
 Encara sort que només t'has fet una rascada. Podies haver pres molt mal.
 Encisava els majors.
+Encén el forn.
+Encén el llum de l'escala.
+Encén el llum de l'habitació.
+Encén el llum de la cuina.
+Encén el llum de la terrassa.
+Encén el llum del balcó.
+Encén el llum del bany.
+Encén el llum del garatge.
+Encén el llum del lavabo.
+Encén el llum del menjador.
+Encén el llum del passadís.
+Encén el llum del pàrquing.
+Encén el llum del rebedor.
+Encén el llum del terrat.
 Encén el llum.
+Encén el microones.
+Encén el televisor.
 Encén els llums.
+Encén l'aire condicionat.
+Encén l'ordinador.
 Encén la bombeta.
+Encén la calefacció.
+Encén la ràdio.
+Encén la televisió.
 Encén les bombetes.
 Endevino la llum i la tonada del cel i el bosc que novament retrobo.
 Endus-te la xica, Joan!
+Engega el forn.
+Engega el llum de l'escala.
+Engega el llum de l'habitació.
+Engega el llum de la cuina.
+Engega el llum de la terrassa.
+Engega el llum del balcó.
+Engega el llum del bany.
+Engega el llum del garatge.
+Engega el llum del lavabo.
+Engega el llum del menjador.
+Engega el llum del passadís.
+Engega el llum del pàrquing.
+Engega el llum del rebedor.
+Engega el llum del terrat.
 Engega el llum.
+Engega el microones.
+Engega el televisor.
 Engega els llums.
+Engega l'aire condicionat.
+Engega l'ordinador.
+Engega la calefacció.
+Engega la ràdio.
+Engega la televisió.
+Enginyeria de producte i de procés.
 Ens han passat informació de la nova agència amb comptagotes.
 Ens passarà a tots.
 Ens preguntaves per tot i tot t’ho responíem.
@@ -2327,6 +2419,7 @@ Era, doncs, un estat deplorable
 Eren com els havia descrit el metge.
 Eren dos quarts de dues: s'havia anticipat un xic
 Eren els capítols que havien, amb el temps, de fer-me ric…
+Eres perdiueta que voles i piques.
 Es bull la polpa i es diposita dins un drap.
 Es col·locaven travessats en un forat practicat en terra a manera de graella.
 Es comportava ara com un col·legial.
@@ -2383,9 +2476,13 @@ Et prometo que faré que al General li cogui el seu comportament.
 Et puc dir de ciència certa que aquests bolets són comestibles. Són rovellons!
 Et quedaràs a casa la iaia fins que tornem, d’acord?
 Et salude com a campió del torneig.
+Et vull i et voldré, perquè eres bonica i amb tu em casaré.
+Ets la més bonica de totes les xiques.
 Evidentment no ho era.
 Exclama, finalment, Lluís Balaguer.
 Exercint de diaca ajudant el papa Sant Sixte.
+Existència de matèries primes substitutives.
+Existència de sectors substitutius.
 Explica'm la Ventafocs.
 Explica'm un conte de cavallers.
 Explica'm un conte de fades.
@@ -2399,6 +2496,8 @@ Fa moltes coses alhora.
 Fa olor a taverna: vi, tramussos i cacaus.
 Fa una setmana que dormo molt poc i ja començo a fer ulleres.
 Fabregat expulsava el valencià.
+Facilitat d'accés a les matèries primes.
+Facilitats d'accés a canals.
 Faig que sí amb el cap i observo com el Salvador escura el plat.
 Fan una parella ben estranya. Semblen sant Antoni amb el porquet.
 Farem tard si no t'afanyes.
@@ -2416,10 +2515,12 @@ Fills i germans de les víctimes quedaven encara per a sentir-ho.
 Finalment han trobat l'atracador i l'han pogut tancar a la garjola.
 Finalment nomenaren Mateu Vilanova lloctinent de sequier.
 Finalment, ocupà el tercer lloc a la graella.
+Fiscalitat i legislació sobre patents.
 Fomentaven la transformació de conreus.
 Fora de la capital.
 Fora d’açò, la terminació -at- abunda.
 Forasters vindran, que de casa ens trauran.
+Forces competitives del sector.
 Formarem unes boles.
 Fornegem les coques.
 Fos a vista dels amos, encara com aquell!…
@@ -2429,8 +2530,10 @@ Frescoreta, un mot sensacional que està caient en desús.
 Fuma d'amagat dels pares.
 Gelades o qualsevol altra desgràcia corrien per compte de l'arrendatari.
 Gest de complicitat amb l’espectador.
+Gestió de les reclamacions dels clients.
 Glòria no tenia prou força ni autoritat per oposar-se.
 Grapats de figues seques.
+Grau de concentració dels compradors.
 Gruaven l'hora d'allò que ells anomenaven «fer-se la justícia».
 Ha anat d'un pèl que no trenques aquell vidre d'una pilotada.
 Ha de quedar ben daurada.
@@ -2548,6 +2651,9 @@ Il·lumina l'habitació.
 Incrementa la il·luminació del menjador.
 Indiqueu quin nivell de temperatura voleu.
 Indiqueu quina temperatura voleu.
+Inflació i atur.
+Inflació i tipus d'interès.
+Infraestructura de l'empresa i administració dels recursos humans.
 Intentar-lo convèncer és com picar ferro fred. No te'n sortiràs!
 Intento ser amable amb la Maria, però és un corcó i sempre acabem barallats.
 Irene era qui les pastava i les portava al forn.
@@ -2557,6 +2663,7 @@ Ja estan morts!
 Ja estava cuita de passar-se d'esma l'escarpidor pels cabells.
 Ja estava cuita de pentinar-se a les palpentes.
 Ja estava decidit.
+Ja ha arribat al poble el dia de fira.
 Ja ha arribat l'hora de penetrar en el verger.
 Ja he fet a mans aquell certificat urgent a l'advocat de l'empresa.
 Ja he vist que no t'ha interessat gaire.
@@ -2599,6 +2706,7 @@ Jo vull parlar-te molt altrament.
 Jo, a la teva edat, ja anava a repartir la llet.
 Joan és un personatge prou confús.
 Joaquim Carbonell, l’insigne escriptor.
+Joe Biden resulta vencedor en les eleccions presidencials dels Estats Units.
 Jordi ficà cullerada en la conversa.
 Justa la fusta! Aquest era el llibre que volia pel meu aniversari.
 Júlia, perdona per no haver pogut acceptar la teua invitació.
@@ -2613,7 +2721,14 @@ L'alcalde ha promès que abans de no gaire estarà arreglada la pista esportiva.
 L'altra opció és fer-los al forn.
 L'altre dia el van veure disfressat amb uns bolquers i un xumet.
 L'altre, el de fer que disminueixi el vostre amor…
+L'amenaça és una situació de l'entorn que ens és desfavorable.
 L'any vinent faré un viatge a Tel Aviv.
+L'anàlisi de les fortaleses, oportunitats, debilitats i amenaces.
+L'anàlisi interna de l'aprenentatge col·lectiu.
+L'anàlisi interna de l'estructura organitzativa i recursos econòmics.
+L'anàlisi interna de la qualitat de les relacions internes.
+L'anàlisi interna de les capacitats i habilitats del personal.
+L'anàlisi interna del know-how i de la visió de futur.
 L'apartament que compartia amb Aitana.
 L'arròs queda més bé sense tomàquet al sofregit.
 L'assumpte va acabar als tribunals i Síndic i sequier van ser condemnats.
@@ -2637,6 +2752,7 @@ L'imaginaven folrat d'or, i corrien darrera seu.
 L'informe de comptes d'enguany es pot descarregar de l'àrea compartida.
 L'observació no pot ésser més justa!
 L'opció predeterminada s'ha activat.
+L'oportunitat és una situació favorable de l'entorn que ens és potencialment favorable.
 L'èxit d'aquest home és una injustícia!
 La Carmeta caigué en terra, de boca terrosa damunt la catifa.
 La Carmeta caminava ben assossegada.
@@ -2659,6 +2775,7 @@ La cara del pidolaire esdevingué resplandent com el sol.
 La carnisseria era un establiment molt important en el dia a dia del poble.
 La carrasca és l'alzina més habitual per aquests paratges.
 La caseta era tota de pedra, i el sostre s'havia esfondrat.
+La comunicació és de dalt a baix, de baix a dalt i lateral.
 La correspondència de Sir Thomas va caure en el més lamentable dels endarreriments.
 La cosina de Roger abandonà la pista.
 La culpa de tot la té el moniato de Francesc.
@@ -2677,6 +2794,8 @@ La gàbia abans que l'ocell, el test abans que la planta.
 La imatge cercada de tant temps se li apareixia quan menys s'ho creia.
 La larva de l'insecte perfora.
 La llegibilitat d'un text és un criteri cada vegada més important.
+La majoria dels clients insatisfets no es queixa.
+La majoria dels clients insatisfets no repeteix.
 La mala il·luminació feia il·legible la il·lustració.
 La malaltia havia fet massa de pressa la seva obra destructora…
 La mare la renya i l'amenaça amb la mà oberta.
@@ -2694,13 +2813,16 @@ La paraula sols era la musica.
 La pel·lícula és millor que la novel·la.
 La pluja va arribar a propòsit per a salvar la collita d'aquell any.
 La poca viabilitat de la nova graella d'horaris.
+La política marca les directrius bàsiques de l'empresa.
 La porta ja torna a grinyolar. Sant tornem-hi!
 La porta és groga.
 La posem a calfar amb una miqueta de sal.
 La princesa és de mena somniosa.
 La proximitat d’estes festes es notava.
+La rendibilitat i marge dels compradors.
 La repostería i els dolços mostren una gran varietat.
 La reunió es va allargar més del previst i vam sortir a les tantes.
+La satisfacció del client és el nivell de qualitat de l'empresa.
 La semblança entre els cosins era astoradora.
 La senyoreta Adelaida ordenà que els serviren les pastes.
 La setmana que ve me'n vaig a Nova York.
@@ -2724,9 +2846,12 @@ La vida a la casa del General li esqueia com un guant.
 La vida i l'obra.
 La xica el va poder reconèixer tan sols perquè portava una graella.
 La xica ho sabia per un quadre de Sant Llorenç.
+Legislació sobre prevenció de riscos laborals.
 Les ametles i les carabasses s’han presentat de temporada.
 Les dones majors de la Benicarló es dedicaven a fer els dolços típics.
 Les dues germanes es passaven les vesprades pastant bunyols.
+Les expectatives dels clients canvien contínuament.
+Les expectatives dels clients s'han d'intentar comprendre.
 Les flors de la perera riuen i riuen.
 Les generacions noves volien penetrar en la Casa pairal del Senyor.
 Les maduixes, quan són més dolces és a l'estiu.
@@ -2798,6 +2923,7 @@ Mala cara com aquells dies de penúria, no l'havia feta mai.
 Mandarines a l'hivern i cireres a l'estiu.
 Mani: què vol fer?
 Manuel s’escura els llavis amb la tovallola.
+Mare, no li ho diga al pare que demà aniré per elles.
 Maria pintava sense parar.
 Marieta cada vegada estava més neguitosa.
 Marta rep missatges contradictoris.
@@ -2813,11 +2939,13 @@ Mentre, la sent trafegar per sota sense parar.
 Mentre, seu parsimoniosament a la taula del menjador.
 Mentres la dida va contant rondalles, s'atura de filar de tan atenta.
 Mentrestant, en Rodon, animat per l'Eladi, s'engrescava cada dia més.
+Mercat de treball i clima social.
 Mes ningú li responia.
 Mes no amb el posat ferm d'altres vegades ni amb ses companyes.
 Mes sols com tu podem imaginar-la.
 Mes, aquells aires de beatitud duraven poc.
 Mes, aquí a la cuina… nós amb nós, ja és altra cosa…
+Mesura, anàlisi i millora.
 Me’n vaig tornar a casa amb la intenció de descansar.
 Millor estarà amb els avis.
 Minyones, és mitjanit i la cambra és buida.
@@ -2831,6 +2959,7 @@ Mirà altre cop el rellotge, sentí que l'aire del carrer era humit
 Molt bé, fem-ho com dius.
 Molt menut en comparació amb el de la televisió.
 Moltes promeses de boca i prou. Quan ho veurem enllestit, això?
+Molts processos flueixen horitzontalment.
 Moments més tard, els va pujar de nou perquè es refredara la cera.
 Moniato amb creïlla, moniato amb oli i sal, a l’olla, al bullit…
 Mossén Torregrossa estava explicant les seues propostes.
@@ -2847,6 +2976,7 @@ N'exposarem les dues que ens semblen més interessants.
 N'hi ha que s'hi dediquen professionalment.
 Naturalment, totes les històries eren tristes, o fúnebrement dramàtiques.
 Natàlia no pot deixar de pensar que l'home tracta de guanyar temps.
+Necessitats de capital.
 Ni amb el moniato calent la camisa se sent.
 Ni fred ni calor!
 Ningú no em pot ajudar com tu, que tens bons acudits i vèrbola sobrera.
@@ -3058,6 +3188,7 @@ Pintarem les farinoses amb ou batut.
 Pinteu les vores amb rovell d’ou i plegueu la massa per la meitat.
 Piqueu la mantega, els alls i el julivert amb el cava i el brou.
 Pixa sempre fora de la tassa.
+Planificar i definir el programa.
 Plantes hortícoles.
 Plegueu la roba.
 Plenava d’alegria i d’esperit festívol la nostra infància.
@@ -3066,6 +3197,7 @@ Poc abans de casar-se, Joaquim comprà una casa nova de trinca.
 Podem afegir unes anous trossejades a la pasta.
 Podem quedar després de dinar, a la tarda.
 Poden servir-nos de joguines eròtiques.
+Poder de negociació dels proveïdors.
 Poder saludar el meu ídol en carn i ossos em va emocionar.
 Podeu elaborar aquest plat amb gambes de mar, preferiblement xicotetes.
 Podien anar-hi a peu, sense que així ni el cotxer se n'assabentés.
@@ -3088,6 +3220,7 @@ Posa'm música per a anar a córrer.
 Posa'm música relaxant.
 Posa'm sépia en lloc de polp.
 Poseu els peus en una plata per anar al forn.
+Possibilitat d'integrar-se verticalment cap endavant.
 Pot ben dir-se que refila com l'ocell en el verger…
 Pots encendre els llums?
 Pots engegar els llums?
@@ -3107,8 +3240,11 @@ Procura no portar la moto.
 Procurarem remenar perquè no s'enganxe ni se'ns creme.
 Procuren tindre el seu micròfon el més prop possible del director.
 Producció total agrícola.
+Productivitat i globalització dels mercats.
+Propensió de l'usuari a substituir.
 Proveu d'apagar-lo abans.
 Proveu d'engegar-lo abans.
+Proveïment, logística i operacions.
 Puc escoltar un exèrcit de sorolls que s’escampa per sa casa.
 Qualsevol diccionari de la nostra llengua.
 Qualsevol diria que anem a fer-ne una de grossa!
@@ -3229,6 +3365,7 @@ Què tanta covardia!
 Què vols que et digui! fan tanta por les males llengües!
 Ramon abandona el got. S’alça del sofà.
 Ramon vacil·la amb el got en alt.
+Recomanacions per a la millora.
 Recorda't de l'anònim: ¿les ha fetes callar, la teva prudència?
 Recorda’t de comprar-ne més per a acabar el mes.
 Recordes quan el Lennon i el Gaspart es van intercanviar els pantalons?
@@ -3243,12 +3380,15 @@ Repeteix això que has dit.
 Repeteix-me això últim.
 Res més. Fica-t’ho al cap, això.
 Res nou sota el sol.
+Responsable dels objectius marcats per la direcció.
 Restava així una estona, mentres l'aigua li lliscava entre els dits.
 Retorna'm aquests papers signats com més aviat millor.
 Retorno a les festes llunyanes.
+Retroalimentació de clients i auditories.
 Retrobar-se novament va compensar a bastament els mesos de llunyania.
 Reverteix el canvi!
 Rics de capital, pobres d'empatia.
+Rivalitat entre les empreses del mateix sector.
 Roger s'havia fet el propòsit de proporcionar-li'l.
 S'acabava de fusionar amb una altra més gran.
 S'asseia al peu d'una soca, i rumia que rumiaràs.
@@ -3261,6 +3401,7 @@ S'ha activat el microones.
 S'ha activat el volum automàtic.
 S'ha activat l'opció predeterminada.
 S'ha atenuat la il·luminació.
+S'ha d'assegurar que es determinen les necessitats dels clients.
 S'ha definit el volum com a automàtic.
 S'ha encès el forn.
 S'ha engegat el forn.
@@ -3279,6 +3420,8 @@ Sabor i dolçor dels pastissets de Benicarló.
 Salutacions!
 Salvant la censura del moment.
 Sant Llorenç, el pobre santet que socarraren en una graella.
+Sanxis Pastor per a governador, que em farà sereno de vora mar.
+Sanxis pastor m'ha dit que em farà sereno de vora mar.
 Sap perfectament la resposta.
 Se li dóna un bany de mel.
 Se sentia la mar desespaerada rebolcar-se en son llit.
@@ -3312,6 +3455,7 @@ Senyor! Deixeu-me acabar els ous ferrats i de seguida vinc amb vós.
 Senyor! deixeu-me acabar els ous ferrats i de seguida vinc amb vós.
 Sepeli idíl·lic
 Seria ideal poder fer els engraellats sobre unes brases.
+Servei, màrqueting i vendes.
 Seré a les cinc davant del portal com un rellotge.
 Seré per aquí fins ben entrat el setembre.
 Se’n va anar tot decidit a una pastisseria.
@@ -3344,10 +3488,187 @@ Si pogués parlar-li!- pensava contínuament.
 Si tens gana, menja't una cama.
 Si tinguera forces, hui tornaria a pujar a la muntanya.
 Si tingués forces, avui tornaria a sortir d'excursió.
+Si us plau, apaga el forn.
+Si us plau, apaga el llum de l'escala.
+Si us plau, apaga el llum de l'habitació.
+Si us plau, apaga el llum de la cuina.
+Si us plau, apaga el llum de la terrassa.
+Si us plau, apaga el llum del balcó.
+Si us plau, apaga el llum del bany.
+Si us plau, apaga el llum del garatge.
+Si us plau, apaga el llum del lavabo.
+Si us plau, apaga el llum del menjador.
+Si us plau, apaga el llum del passadís.
+Si us plau, apaga el llum del pàrquing.
+Si us plau, apaga el llum del rebedor.
+Si us plau, apaga el llum del terrat.
+Si us plau, apaga el microones.
+Si us plau, apaga el televisor.
+Si us plau, apaga els llums.
+Si us plau, apaga l'aire condicionat.
+Si us plau, apaga l'ordinador.
+Si us plau, apaga la calefacció.
+Si us plau, apaga la ràdio.
+Si us plau, apaga la televisió.
 Si us plau, dóna'm un cop de mà o no acabaré a l'hora.
+Si us plau, encén el forn.
+Si us plau, encén el llum de l'escala.
+Si us plau, encén el llum de l'habitació.
+Si us plau, encén el llum de la cuina.
+Si us plau, encén el llum de la terrassa.
+Si us plau, encén el llum del balcó.
+Si us plau, encén el llum del bany.
+Si us plau, encén el llum del garatge.
+Si us plau, encén el llum del lavabo.
+Si us plau, encén el llum del menjador.
+Si us plau, encén el llum del passadís.
+Si us plau, encén el llum del pàrquing.
+Si us plau, encén el llum del rebedor.
+Si us plau, encén el llum del terrat.
+Si us plau, encén el microones.
+Si us plau, encén el televisor.
+Si us plau, encén els llums.
+Si us plau, encén l'aire condicionat.
+Si us plau, encén l'ordinador.
+Si us plau, encén la calefacció.
+Si us plau, encén la ràdio.
+Si us plau, encén la televisió.
+Si us plau, engega el forn.
+Si us plau, engega el llum de l'escala.
+Si us plau, engega el llum de l'habitació.
+Si us plau, engega el llum de la cuina.
+Si us plau, engega el llum de la terrassa.
+Si us plau, engega el llum del balcó.
+Si us plau, engega el llum del bany.
+Si us plau, engega el llum del garatge.
+Si us plau, engega el llum del lavabo.
+Si us plau, engega el llum del menjador.
+Si us plau, engega el llum del passadís.
+Si us plau, engega el llum del pàrquing.
+Si us plau, engega el llum del rebedor.
+Si us plau, engega el llum del terrat.
+Si us plau, engega el microones.
+Si us plau, engega el televisor.
+Si us plau, engega els llums.
+Si us plau, engega l'aire condicionat.
+Si us plau, engega l'ordinador.
+Si us plau, engega la calefacció.
+Si us plau, engega la ràdio.
+Si us plau, engega la televisió.
+Si us plau, tanca el forn.
+Si us plau, tanca el llum de l'escala.
+Si us plau, tanca el llum de l'habitació.
+Si us plau, tanca el llum de la cuina.
+Si us plau, tanca el llum de la terrassa.
+Si us plau, tanca el llum del balcó.
+Si us plau, tanca el llum del bany.
+Si us plau, tanca el llum del garatge.
+Si us plau, tanca el llum del lavabo.
+Si us plau, tanca el llum del menjador.
+Si us plau, tanca el llum del passadís.
+Si us plau, tanca el llum del pàrquing.
+Si us plau, tanca el llum del rebedor.
+Si us plau, tanca el llum del terrat.
+Si us plau, tanca el microones.
+Si us plau, tanca el televisor.
+Si us plau, tanca els llums.
+Si us plau, tanca l'aire condicionat.
+Si us plau, tanca l'ordinador.
+Si us plau, tanca la calefacció.
+Si us plau, tanca la ràdio.
+Si us plau, tanca la televisió.
 Si vaig ahí veuràs!
 Signant aquells papers sense llegir-los has caigut en el formatge.
 Sis o vuit mossos arrambaven a les parets gran munió de taules-escriptoris
+Sisplau, apaga el forn.
+Sisplau, apaga el llum de l'escala.
+Sisplau, apaga el llum de l'habitació.
+Sisplau, apaga el llum de la cuina.
+Sisplau, apaga el llum de la terrassa.
+Sisplau, apaga el llum del balcó.
+Sisplau, apaga el llum del bany.
+Sisplau, apaga el llum del garatge.
+Sisplau, apaga el llum del lavabo.
+Sisplau, apaga el llum del menjador.
+Sisplau, apaga el llum del passadís.
+Sisplau, apaga el llum del pàrquing.
+Sisplau, apaga el llum del rebedor.
+Sisplau, apaga el llum del terrat.
+Sisplau, apaga el microones.
+Sisplau, apaga el televisor.
+Sisplau, apaga els llums.
+Sisplau, apaga l'aire condicionat.
+Sisplau, apaga l'ordinador.
+Sisplau, apaga la calefacció.
+Sisplau, apaga la ràdio.
+Sisplau, apaga la televisió.
+Sisplau, encén el forn.
+Sisplau, encén el llum de l'escala.
+Sisplau, encén el llum de l'habitació.
+Sisplau, encén el llum de la cuina.
+Sisplau, encén el llum de la terrassa.
+Sisplau, encén el llum del balcó.
+Sisplau, encén el llum del bany.
+Sisplau, encén el llum del garatge.
+Sisplau, encén el llum del lavabo.
+Sisplau, encén el llum del menjador.
+Sisplau, encén el llum del passadís.
+Sisplau, encén el llum del pàrquing.
+Sisplau, encén el llum del rebedor.
+Sisplau, encén el llum del terrat.
+Sisplau, encén el microones.
+Sisplau, encén el televisor.
+Sisplau, encén els llums.
+Sisplau, encén l'aire condicionat.
+Sisplau, encén l'ordinador.
+Sisplau, encén la calefacció.
+Sisplau, encén la ràdio.
+Sisplau, encén la televisió.
+Sisplau, engega el forn.
+Sisplau, engega el llum de l'escala.
+Sisplau, engega el llum de l'habitació.
+Sisplau, engega el llum de la cuina.
+Sisplau, engega el llum de la terrassa.
+Sisplau, engega el llum del balcó.
+Sisplau, engega el llum del bany.
+Sisplau, engega el llum del garatge.
+Sisplau, engega el llum del lavabo.
+Sisplau, engega el llum del menjador.
+Sisplau, engega el llum del passadís.
+Sisplau, engega el llum del pàrquing.
+Sisplau, engega el llum del rebedor.
+Sisplau, engega el llum del terrat.
+Sisplau, engega el microones.
+Sisplau, engega el televisor.
+Sisplau, engega els llums.
+Sisplau, engega l'aire condicionat.
+Sisplau, engega l'ordinador.
+Sisplau, engega la calefacció.
+Sisplau, engega la ràdio.
+Sisplau, engega la televisió.
+Sisplau, tanca el forn.
+Sisplau, tanca el llum de l'escala.
+Sisplau, tanca el llum de l'habitació.
+Sisplau, tanca el llum de la cuina.
+Sisplau, tanca el llum de la terrassa.
+Sisplau, tanca el llum del balcó.
+Sisplau, tanca el llum del bany.
+Sisplau, tanca el llum del garatge.
+Sisplau, tanca el llum del lavabo.
+Sisplau, tanca el llum del menjador.
+Sisplau, tanca el llum del passadís.
+Sisplau, tanca el llum del pàrquing.
+Sisplau, tanca el llum del rebedor.
+Sisplau, tanca el llum del terrat.
+Sisplau, tanca el microones.
+Sisplau, tanca el televisor.
+Sisplau, tanca els llums.
+Sisplau, tanca l'aire condicionat.
+Sisplau, tanca l'ordinador.
+Sisplau, tanca la calefacció.
+Sisplau, tanca la ràdio.
+Sisplau, tanca la televisió.
+Sistemes d'informació i comunicació i lideratge.
 Situaren el perol davall de la graella.
 Sobre la taula només quedaven les postres pròpies d’eixa nit.
 Sobretot les lliçons orals, ah, les lliçons orals!, constituïen la seva gran preocupació.
@@ -3364,6 +3685,7 @@ Sort que màcules així aviat s'esborren.
 Sort, gran sort, que si la pinteu de tal manera, és per moda literària!
 Sou massa joves.
 Suavitza les vores i mostra la previsualització.
+Suport de les institucions a la investigació i el desenvolupament.
 Surt del mig del carrer, que t'atropellaran! Ets babau, o què!
 Sí… això… jo ho he llegit…
 Sóc avar de la llum que em resta dins els ulls.
@@ -3397,8 +3719,29 @@ També es pot substituir l’anís per mistela.
 Tan bon punt van seure.
 Tan caragolat anava d'espinada, tan arrugat de mans i rostre!
 Tan sols a les cases més pudients li donaven alguns centimets.
+Tanca el forn.
+Tanca el llum de l'escala.
+Tanca el llum de l'habitació.
+Tanca el llum de la cuina.
+Tanca el llum de la terrassa.
+Tanca el llum del balcó.
+Tanca el llum del bany.
+Tanca el llum del garatge.
+Tanca el llum del lavabo.
+Tanca el llum del menjador.
+Tanca el llum del passadís.
+Tanca el llum del pàrquing.
+Tanca el llum del rebedor.
+Tanca el llum del terrat.
 Tanca el llum.
+Tanca el microones.
+Tanca el televisor.
+Tanca l'aire condicionat.
+Tanca l'ordinador.
 Tanca la bombeta.
+Tanca la calefacció.
+Tanca la ràdio.
+Tanca la televisió.
 Tanca les bombetes.
 Tancarem bé les puntes.
 Tancarem la finestra i voltarem la flama.
@@ -3500,6 +3843,7 @@ Un cucurutxo de xufes, una poma confitada.
 Un d'aquells dies ens trobàvem a Ca Nadaleta tastant els pastissets.
 Un descans a propòsit per recuperar forces.
 Un dia de més vagar gaudiré aquesta delícia.
+Un dia de pasqua un xiquet plorava perquè el catxirulo no se li empinava.
 Un esforç més i arribes a la meta. Apa, ara no et desinflis!
 Un infeliç. Un dels que cauen.
 Un innocent. Un moniato, que havia d’estar el primer.
@@ -3515,7 +3859,9 @@ Una cabellera que se'l menjava de viu en viu
 Una coca de pasta d’ametla, sucre i ous, farcida de dolç de moniato.
 Una cosa tan senzilla!
 Una darrera cosa. Digues-li que tinc un munt d'eines al taller.
+Una debilitat és un element intern desfavorable pel nostre negoci.
 Una expectació funeral s'apoderà de la graella i dels seus voltants.
+Una fortalesa és un element intern favorable pel nostre negoci.
 Una gran pallola a mig cap
 Una injustícia que clama al cel!
 Una llesca de pa sucada en vi, i un grapadet de figues seques.
@@ -3529,6 +3875,7 @@ Una veïna va entrar a Ca Nadaleta amb un plat que contenia pastissos.
 Uns altres, aquells que poden desplaçar-se amb carro.
 Uns grans baixos, als quals s'arribava pujant només cinc esglaons.
 Us ho coneixia amb el posat i els ulls.
+Usar tècniques estadístiques en el casos que calgui.
 Va admetre els seus errors i va cantar la palinòdia al seu germà.
 Va anar remetent en el seu ímpetu de separar-se’n.
 Va besar la mare i cames ajudeu-me, va eixir de la cuina.
@@ -3552,6 +3899,8 @@ Vaig per refrescar-me una mica.
 Vaig prendre la decisió de canviar de feina sense pensar-m'hi gaire.
 Vaig protestar.
 Vaig tocar al mateix timbre.
+Validació del disseny abans de la fabricació.
+Validar el disseny i el desenvolupament.
 Vallès i Cassius Cloner hi aplegaren per separat.
 Vam anar al Matagalls i he tornat fet xixines.
 Varen tocar dos quarts… tampoc.
@@ -3566,6 +3915,7 @@ Venim tots de cara al vent de la costa.
 Veniu a fer com el músic que harmonitza la melodia salvatge.
 Vençuts en la mar i vençuts en la terra, som una desferra.
 Ves-te’n a jugar que ta mare i jo hem de parlar.
+Viabilitat de patentar el producte.
 Vindré l'any vinent a saludar-te.
 Vingau ací.
 Viu a Almoines, la Safor, a sa casa.

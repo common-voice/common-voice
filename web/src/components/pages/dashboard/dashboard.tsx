@@ -269,7 +269,12 @@ export default function Dashboard() {
 
   useEffect(() => {
     if (!account) {
-      sessionStorage.setItem('redirectURL', location.pathname);
+      try {
+        sessionStorage.setItem('redirectURL', location.pathname);
+      } catch(e) {
+        console.warn(`A sessionStorage error occurred ${e.message}`);
+      }
+
       window.location.href = '/login';
     }
   }, []);

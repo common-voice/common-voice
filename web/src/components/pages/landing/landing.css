@@ -1,5 +1,3 @@
-@import url('../../vars.css');
-
 .landing {
     header {
         @media (--lg-up) {

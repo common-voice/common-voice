@@ -6,9 +6,11 @@ on:
       - main
       - stage
       - production
+      - sandbox
     tags:
       - 'release-v*.*.*'
       - 'stage-v*.*.*'
+      - 'sandbox-v*.*.*'
 
 jobs:
   test-server:

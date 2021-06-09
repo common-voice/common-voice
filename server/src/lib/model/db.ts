@@ -483,8 +483,8 @@ export default class DB {
 
     await this.mysql.query(
       `
-        INSERT INTO user_clients (client_id, auth_token)
-        VALUES (?, ?)
+        INSERT INTO user_clients (client_id, auth_token, username)
+        VALUES (?, ?, '')
         ON DUPLICATE KEY UPDATE
           auth_token = IF(auth_token IS NULL, VALUES(auth_token), auth_token)
       `,
@@ -611,7 +611,7 @@ export default class DB {
             WHERE client_id = ?
             ORDER BY updated_at DESC
             LIMIT 1
-          )
+          ) ON DUPLICATE KEY UPDATE clip_id = clip_id
         `,
         [insertId, client_id]
       );

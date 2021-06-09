@@ -275,14 +275,14 @@ const UserClient = {
       `
         UPDATE user_clients
         SET ${userData.join(', ')}
-        WHERE client_id = ?
-      `,
-      [accountClientId]
+        WHERE client_id = '${accountClientId}'
+      `
     );
-
-    updateDemographics(accountClientId, data.age, data.gender);
-
+    // the accountClientId can't be a placeholder value otherwise it'll
+    // treat any ? in the username or email as a placeholder also and the query will break
+    const updateDemographicsPromise = updateDemographics(accountClientId, data.age, data.gender);
     await Promise.all([
+      updateDemographicsPromise,
       this.claimContributions(accountClientId, clientIds),
       locales && updateLocales(accountClientId, locales),
     ]);
@@ -321,6 +321,7 @@ const UserClient = {
             ON DUPLICATE KEY UPDATE basket_token = basket_token`,
         [client_id, email, basketToken]
       );
+      return client_id;
     }
   },
 
@@ -418,11 +419,23 @@ const UserClient = {
     return false;
   },
 
+  /**
+   * Update avatar for user and return original value
+   */
+
   async updateAvatarURL(email: string, url: string) {
+    const [
+      [origAvatar],
+    ] = await db.query('SELECT avatar_url FROM user_clients WHERE email = ?', [
+      email,
+    ]);
+
     await db.query('UPDATE user_clients SET avatar_url = ? WHERE email = ?', [
       url,
       email,
     ]);
+
+    return origAvatar.avatar_url;
   },
 
   async updateAvatarClipURL(email: string, url: string) {

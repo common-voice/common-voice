@@ -33,6 +33,7 @@ as = Асамская
 ast = Астурыйская
 az = Азербайджанская
 ba = Башкірская
+bas = Баса
 be = Беларуская
 bg = Балгарская
 bm = Бамбара
@@ -71,6 +72,7 @@ he = Іўрыт
 hi = Хіндзі
 hr = Харвацкая
 hsb = Верхнялужыцкая
+ht = Гаіцянская
 hu = Венгерская
 hy-AM = Армянская
 hyw = Заходнеармянская
@@ -94,13 +96,17 @@ lg = Луганда
 lij = Лігурыйская
 lt = Літоўская
 lv = Латышская
+mai = Майтхілі
 mdf = Макшанская
 mg = Малагасійская
 mhr = Лугавамарыйская
 mk = Македонская
 ml = Малаялам
 mn = Мангольская
+mos = Мосі
+mr = Маратхі
 mrj = Горнамарыйская
+ms = Малайская
 mt = Мальтыйская
 my = Бірманская
 myv = Эрзянская
@@ -111,7 +117,9 @@ nn-NO = Нованарвежская
 oc = Аксітанская
 or = Орыя
 pa-IN = Панджабі
+pap-AW = Пап'ямента (Аруба)
 pl = Польская
+ps = Пушту
 pt = Партугальская
 rm-sursilv = Рэтараманская сурсільванская
 rm-vallader = Рэтараманская валадэрская
@@ -121,9 +129,11 @@ rw = Руанда
 sah = Якуцкая
 sc = Сардзінская
 scn = Сіцылійская
+shi = Шыльхская
 si = Сінгальская
 sk = Славацкая
 sl = Славенская
+so = Самалійская
 sq = Албанская
 sr = Сербская
 sv-SE = Шведская
@@ -138,12 +148,14 @@ tr = Турэцкая
 tt = Татарская
 uby = Убыхская
 udm = Удмурцкая
+ug = Уйгурская
 uk = Украінская
 ur = Урду
 uz = Узбекская
 vec = Венецыянская
 vi = В'етнамская
 vot = Водская
+yue = Кантонская
 zh-CN = Кітайская (Кітай)
 zh-HK = Кітайская (Ганконг)
 zh-TW = Кітайская (Тайвань)
@@ -271,7 +283,9 @@ shortcut-record-toggle = з
 shortcut-record-toggle-label = Запісаць/Спыніць
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перазапісаць кліп
+shortcut-submit-label = Даслаць запісы
 request-language-text = Пакуль не знаходзіце сваю мову на Common Voice?
+request-language-text-learn = замовіць
 request-language-button = Запытаць мову
 
 ## ProjectStatus
@@ -342,26 +356,19 @@ skip-submission-description = Пасля таго як вы націснеце "
 skip-submission-note = Заўвага: Вам усё яшчэ трэба будзе выбраць паміж "Агучыць" і "Слухаць", каб змяніць тып унёску.
 off = Пакінуць
 on = Прапусціць
-avatar-clip-title = Дайце голас свайму аватару
-change-your-avatar-clip = Хочаце змяніць свой галасавы кліп?
-recording-in-progress = Ідзе запіс голасу
-avatar-clip-recorded = Ваш аватар цяпер мае галасавы кліп!
-record-voice-wave = ЗАПІСАЦЬ ГОЛАС
-retry-voice-wave-recording = ПАЎТАРЫЦЬ
-re-record = ПЕРАЗАПІСАЦЬ
-delete-voice = ВЫДАЛІЦЬ
-recording-voice-wave = Запіс
-delete-voice-clip = або Выдаліць галасавы кліп
-ready-to-upload = ЗАПАМПАВАЦЬ
-avatar-clip-fact = Даўно вядома, што ўвага чытача будзе адцягвацца на змест старонкі пры поглядзе на яе макет.
-recreate-voice = Перазапісаць голас
-cancel-avatar-clip-recording = СКАСАВАЦЬ
-about-avatar-clip-recording = Стварыць галасавы кліп для аватара вашага профілю. Іншыя ўдзельнікі змогуць навесці курсор на аватар і паслухаць ваш кліп.
+
+## Profile - Email
+
 browse-file-title = Запампаваць відарыс
 browse-file = Перацягніце альбо <browseWrap>прагледзіце</browseWrap>
 connect-gravatar = Звязаць з Gravatar
 gravatar_not_found = Gravatar для вашай эл. пошты не знойдзены
 file_too_large = Выбраны файл занадта вялікі.
+avatar-uploaded = Аватар запампаваны
+max-file-size = { $kb }кб максімум
+
+## Profile - Email
+
 manage-subscriptions = Кіраваць падпіскамі
 manage-email-subscriptions = Кіраваць падпіскамі па эл. пошце
 email-already-used = Эл. пошта ўжо выкарыстоўваецца іншым акаўнтам
@@ -510,10 +517,12 @@ data-other-goto = Перайсці да { $name }
 data-other-download = Спампаваць дадзеныя
 data-bundle-button = Спампаваць пакет набораў дадзеных
 data-bundle-description = Дадзеныя Common Voice разам з усімі астатнімі наборамі галасавых дадзеных, пералічанымі вышэй.
+release-version = Версія
+dataset-date = Дата
 license = Ліцэнзія: <licenseLink>{ $license }</licenseLink>
 license-mixed = Змешаная
 data-download-singleword-title = Спампуйце спецыялізаваны сегмент «Адно слова»
-data-download-singleword-callout = Гэты сегмент утрымлівае дадзеныя для трэніроўкі сістэм распазнавання лічэбнікаў, словаў "так" / "не", а таксама тэставыя дадзеныя для <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = База дадзеных для распазнавання маўленчых элементаў i вызначэння так / не.
 review-terms = Выкарыстоўваючы Common Voice, вы згаджаецеся з нашымі <termsLink>правіламі</termsLink> і <privacyLink>палітыкай прыватнасці</privacyLink>
 terms-agree = Я згаджаюся
 terms-disagree = Я не згаджаюся
@@ -628,7 +637,7 @@ total-hours = Праверана гадзін
 
 ## Contribution
 
-action-click = Клікнуць
+action-click = Націснуць
 action-tap = Дакрануцца
 contribute = Прыняць удзел
 listen = Праслухаць
@@ -687,14 +696,15 @@ share-title-new = <bold>Дапамажыце нам</bold> знайсці бол
 keep-track-profile = Сачыце за сваім прагрэсам у профілі
 login-to-get-started = Увайдзіце ці зарэгіструйцеся, каб пачаць
 target-segment-first-card = Вы робіце ўнёсак у наш першы спецыялізаваны сегмент
+target-segment-generic-card = Дапаўненне абранага сегмента
 target-segment-first-banner = Дапамажыце стварыць першы спецыялізаваны сегмент Common Voice на мове { $locale }
 target-segment-add-voice = Дадайце ваш голас
 target-segment-learn-more = Даведацца больш
 
 ## Reporting
 
-report = Водгук
-report-title = Даслаць водгук
+report = Паскардзіцца
+report-title = Даслаць скаргу
 report-ask = Якія праблемы вы заўважылі ў гэтым сказе?
 report-offensive-language = Абразлівы тэкст
 report-offensive-language-detail = У гэтым сказе ёсць зняважлівыя ці абразлівыя выразы.
@@ -710,7 +720,7 @@ report-other-comment =
     .placeholder = Каментарый
 success = Паспяхова
 continue = Працягнуць
-report-success = Водгук паспяхова дасланы
+report-success = Скарга паспяхова дасланая
 
 ## Goals
 
@@ -857,3 +867,39 @@ help-contribute = Вы можаце дапамагчы пабудаваць ра
 login-company = Зарэгістравацца / ўвайсці з эл. поштай { $company }
 profile-not-required = Каб удзельнічаць, не абавязкова мець профіль, хаця гэта можа быць карысна (падрабязнасці ніжэй).
 read-more-about = Падрабязней на старонцы «Пра нас»
+
+## DemoLayout
+
+demo-get-started = Давайце пачнём
+demo-welcome = Вітаем у Common Voice
+demo-welcome-subheader = Дадатковая інфармацыя і ўмовы ўдзелу ў праекце
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice прадстаўляе ў адкрытым доступе найбуйнейшую ў свеце шматмоўную базу галасавых дадзеных.
+demo-language-select-card-body = Дзякуючы ўдзелу больш за 259 тыс. чалавек, якія гавораць на больш чым 50 мовах, гэты дадатак дапамагае праграмам лепш распазнаваць маўленне.
+card-button-next = Далей
+card-button-back = Назад
+demo-language-select-label = Абраць мову
+demo-eofy-header = Выпуск канца 2019 года
+demo-eofy-sub_header = Набор галасавых дадзеных, гатовы да загрузкі
+demo-account = Уліковы запіс (акаўнт)
+
+## Demo Account
+
+demo-account-card-header = Стварэнне ўліковага запісу не абавязкова для ўдзелу, але гэта дае карыстальнікам дадатковыя магчымасці
+demo-account-card-body = Справа Вы знойдзеце інфармацыю аб магчымасцях і перавагах нашага дадатку. Націсніце на спасылку ніжэй, каб пачаць працу ў сваім уліковым запісе Common Voice на Вашай прыладзе.
+demo-account-enter-email =
+    .label = Дадайце адрас Вашай электроннай пошты, на якую будзе даслана спасылка для рэгістрацыі
+demo-account-sign-up = Дашліце спасылку для рэгістрацыі
+
+## Demo Contribute
+
+demo-contribute-card-header = Зараз Вы гатовыя прамовіць ці праслухаць прапанаваны тэкст
+demo-contribute-card-body-v2 = Цяпер, калі вы ведаеце крыху больш пра Common Voice, чаму б не паспрабаваць? Націсніце значок мікрафона, каб пачаць чытаць сказы ўголас. <br/> <br/> Калі вы хочаце перавяраць моўныя дапаўненні ад іншых людзей, націсніце значок прайгравання. Вам прапануецца пацвердзіць адпаведнасць запiсаў сказам, якія прадстаўлены на экране.
+demo-listen-subtitle = Ці гатовыя браць удзел?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Панэлі iнструментаў Вашага уліковага запісу даюць аператыўную інфармацыю аб зменах у дадатку (ваш асабісты і агульны ўнесак)
+demo-dashboard-card-body = Пасля кожнага моўнага клiпа, які быў ўнесены і перавераны, панэлi iнструментаў Вашага уліковага рахунку будуць абнаўляцца, каб адлюстраваць змены для кожнай мовы, якую вы дапаўняеце. Так, вы можаце дапаўніць некалькi! <br/> <br/> Панэлі iнструментаў паказваюць вашыя дасягненні, даюць магчымасць параўнаць іх з унескам іншых карыстальнікаў, а таксама планаваць далейшую працу па ўдасканаленні кантэнту.

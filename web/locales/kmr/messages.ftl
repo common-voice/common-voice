@@ -72,6 +72,7 @@ he = Îbranî
 hi = Hindî
 hr = Xirwatî
 hsb = Sorbiya jorîn
+ht = Haîtiyî
 hu = Macarî
 hy-AM = Ermenkî
 hyw = Ermenkiya Rojavayî
@@ -101,7 +102,9 @@ mhr = Meadow Marî
 mk = Makedonî
 ml = Malayalamî
 mn = Mongolî
+mos = Moreyî
 mrj = Mariya Çiyayî
+ms = Malezî
 mt = Maltayî
 my = Burmayî
 myv = Erzayî
@@ -113,6 +116,7 @@ oc = Oksîtanî
 or = Odiayî
 pa-IN = Puncabî
 pl = Polonî
+ps = Peştûyî
 pt = Portugalî
 rm-sursilv = Sursilvaniya Romanşî
 rm-vallader = Valadera Romanşî
@@ -259,7 +263,7 @@ whats-public = Kesên din ew ê kîjan agahiyên te bibînin?
 email-not-public = Ew ê ti kes emaîla te nebîne.
 recordings-and-locale-public = Hejmara tomarkirinên te û zimanê ku tu lê beşdariyê dikî ew ê ji aliyê kesên din ve bên dîtin.
 username-optin-public = Nîşandana navê te yê bikarhêneriyê di destê te de ye, tu dikarî hem veşêrî hem jî nîşan bidî.
-demographic-deidentified-clarity-2 = Daneyên demografîk ên bi awayê vebijarkî tên şandin (mînak: temen, zayend, ziman û devok) ew ê ti carî li ser profîla te bi eşkereyî neyê nîşandan û ew ê bi hesabê te yê komdaneyê ve jî neyê girêdan. Lê Ji bo analîzên rasttir pêk bên, ew ê klîbên dengî tenê bi daneyên demografîk re bên têkildarkirin. Bo nimûne, belkî lêkolînerek bixwaze modeleke perwerdeyê ji bo beşeke demografîk a taybet, çêbike.
+demographic-deidentified-clarity-2 = Daneyên demografîk ên bi awayê vebijarkî tên şandin (mînak: temen, zayend, ziman û devok) ew ê ti carî li ser profîla te bi eşkereyî neyê nîşandan û ew ê bi hesabê te yê komdaneyê ve jî neyê girêdan. Lê Ji bo analîzên rasttir pêk bên, ew ê klîbên dengî tenê bi daneyên demografîk re bên têkildarkirin. Bo nimûne, belkî lêkolînerek bixwaze modeleke perwerdeyê ji bo beşeke demografîk a taybet, çêke.
 username-email-not-demographic = Navê bikarhêner û emaîla te ew ê bi daneyên hatine weşandin re neyê têkildarkirin.
 
 ## Speak & Listen Shortcuts
@@ -288,7 +292,7 @@ shortcut-record-toggle = t
 shortcut-record-toggle-label = Tomar bike/Rawestîne
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Dîsa tomar bike
-request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?
+request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?¶
 request-language-text-learn = Bizane bê tu çawa dikarî li vir daxwaz bikî!
 request-language-button = Zimanekî bixwaze
 
@@ -337,7 +341,7 @@ why-profile-text =
     Bi peydakirina hin agahiyên derbarê xwe de, daneyên dengî yên ku te ji Common Voiceê re şandine ew ê rastbûna  Axaftinê kêrhatîtir bikin.
     Motorên dengnasînê yên ku van daneyan bi kar tînin jî ew ê baştir bibin.
 dashboard = Destgeh
-build-profile = Profîlê çêbike
+build-profile = Profîlê çêke
 avatar = Wêne
 goals = Hedef
 settings = Sazkarî
@@ -417,7 +421,9 @@ faq-why-my-lang-q = Çima zimanê min hîn nehatiye tevlîkirin?
 faq-why-my-lang-new-a = Mozilla ti zimanî di ser yên din re nabîne. Common Voice bi temamî ji aliyê civatan ve tê meşandin, lê <multilangLink> çend gavên ji bo lêzêdekirina zimanên nû </multilangLink> û destpêkirina berhevkirina bexişandina dengan hene. Pêşî, divê malpera Common Voiceê bê wergerandin ku beşdar dikaribin bi zimanê xwe xwe bigihînin azmûnên hevkaran. Paşê, pêdiviya me berhevokeke mezin ya hevokên bêtelîf heye ku mirov wan bi deng bixwînin. Gava ev her du pêdivî hatin bicîanîn, Common Voice wî zimanî li zimanan zêde dike ku mirov dengê xwe qeyd bikin û rastiya dengên qeydkirî kontrol bikin. Ango heke hûn dixwazin alîkariyê bikin ku zimanek lê bê zêdekirin hûn dikarin ji bo destpêkirinê li <sentenceCollectorLink>amûra berhevkirina hevokan</sentenceCollectorLink> binêrin.
 faq-what-quality-q = Ji bo klîbeke dengî di komdaneyê de were bikaranîn divê asta kalîîteya dengî çawa be?
 faq-why-10k-hours-q = Çima ji bo her zimanekî hedefeke bi qasî 10,000 saet klîbên dengî yên piştrastkirî heye?
+faq-why-10k-hours-a = Ev hejmara teqrîbî ya saetên pêwîst yê ji bo perwerdekirina sîstemeke ji-xeberdanê-kirin-nivîsê (speech-to-text) ye.
 faq-how-calc-hours-q = Common Voice saetan çawa hesab dike?
+faq-how-calc-hours-a = Em saetan bi texmînkirina averaja dirêjahiya her qeydan hesab dikin, û piştre bi hejmara jimara yekûn ya qeydên bi hemû zimanan re dicarînin.
 faq-where-src-from-2-q = Nivîsên çavkanî ji ku derê tên?
 faq-why-not-ask-read-q = Çima hûn ji mirovan naxwazin ku pirtûkan an jî gotarên Wikipediayê bi zimanên cuda bixwînin?
 faq-why-account-q = Çima divê ez hesabekî vekim?
@@ -540,6 +546,7 @@ why-email = <b>Çima emaîl lazim e?</b> Dibe ku em di siberojê de derbarê guh
 confirm-size = Tu amade yî ji bo daxistineke bi qasî <b>{ $size }</b> dakêşî.
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Tu qebûl dikî</b> ku tu yê hewl nedî ji bo tesbîtkirina nasnameyan axiverên di danegeha Common Voice-ê de.
 download-language = { $language } daxîne
 validated-hours = Saetên piştrastkirî
 recorded-hours = Saetên tomarkirî
@@ -552,6 +559,7 @@ feedback-q = Pêşniyara te heye?
 common-voice-info-new = Hin pirsên te li ser Common Voiceê heye? Fikrên te ji bo baştirkirinê hene an jî tu dixwazî li ser zimanekî taybet paşragihandinê bişînî? Li ser <discourseLink>Forûma Discourseê</discourseLink> ya me tevlî me bibe û hayê me jê çêke.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Danegeha TED-LIUM'ê ji danûstandinên dengî û transkrîpsiyonên wan ên li ser malpera TED'ê hatiye çêkirin.
+data-other-voxforge-description = VoxForge ji bo berhevkirina transkrîpsiyona xeberdanan bi Motorên Naskirina Xeberdanan yê Belaş-ji-bo-bikaranînê û Çavkanî-azad hatiye avakirin.
 data-other-tatoeba-description = Tatoeba, danegeheke mezin a hevok, werger û dengên axaftinê ye, ev danegeh ji bo fêrbûna zimanan tê  bikaranîn. Di vê dosyeyê de axaftinên Îngilîzî yên ji aliyê xwebexşên vê civakê hatine tomarkirin, hene.
 your-feedback = Fikrên te li ser pêşxistina komdaneya  Common Voiceê heye? Li ser Discourseê ji me re binivîse.
 go-discourse = Here Discourseê
@@ -588,6 +596,7 @@ request-language-title = Daxwaza Zimên
 request-language-form-language =
     .label = Ziman
 request-language-success-title = Daxwaza zimên bi serkeftî hat şandin. Spas.
+request-language-success-content = Em ê di nêz de bi te re têkiliyê deynin tevî agahiyên derbarê mijara ka mirov zimanekî din çawa li Common Voiceyê zêde dike.
 select-language = Zimanekî hilbijêre...
 other-language = Zimanê din
 
@@ -665,10 +674,11 @@ speak-empty-state = Ji bo tomarkirinê, di vî zimanî de hevok neman...
 speak-empty-state-cta = Beşdariyê li hevokan bike
 record-button-label = Dengê xwe tomar bike
 share-title-new = <bold>Alî me bike</bold> em dengên zêdetir bibînin
-keep-track-profile = Profîlekê çêbike û pê pêşveçûna xwe bişopîne
+keep-track-profile = Profîlekê çêke û pê pêşveçûna xwe bişopîne
 login-to-get-started = Ji bo destpêkirinê, têkeve an jî tomar bibe
 target-segment-first-card = Tu beşdariyê di beşa hedefa me ya pêşî de dikî.
 target-segment-generic-card = Tu beşdariyê di beşa hedefekê de dikî.
+target-segment-first-banner = Ji bo zimanê { $locale } alî çêkirina segmenta hedef a pêşîn yê Common Voice-ê bike.
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
 
@@ -738,7 +748,7 @@ show-ranking = Rêza min nîşan bide
 ## Custom Goals
 
 get-started-goals = Dest bi hedefa xwe bike
-create-custom-goal = Hedefeke taybet çêbike
+create-custom-goal = Hedefeke taybet çêke
 goal-type = Tu dixwazî hedefeke çawa çêbikî?
 both-speak-and-listen = Her du jî
 both-speak-and-listen-long = Her du jî (peyivîn û guhdarîkirin)
@@ -753,6 +763,11 @@ want-to-continue = Tu dixwazî berdewam bikî?
 finish-editing = Pêşî sererastkirinê biqedîne?
 lose-changes-warning = Heke tu aniha derkevî ew ê hemû guhertin wenda bibin
 build-custom-goal = Hedefeke nû diyar bike
+help-reach-hours-pluralized =
+    Armanceke şexsî diyar bike ku em bi zimanê { language } bigihîjin{ NUMBER($hours) ->
+        [one] saetekê
+       *[other] { $hours } saetan
+    }.
 set-a-goal = Hedefekê diyar bike
 cant-decide = Tu nikarî biryarê bidî?
 how-many-per-day = Bijî! Rojane çend klîb?

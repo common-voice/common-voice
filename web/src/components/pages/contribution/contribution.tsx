@@ -63,7 +63,11 @@ const AccountModal = (props: ModalProps) => {
           href="/login"
           className={getTrackClass('fs', `nudge-profile-modal`)}
           onClick={() => {
-            sessionStorage.setItem('redirectURL', location.pathname);
+            try {
+              sessionStorage.setItem('redirectURL', location.pathname);
+            } catch (e) {
+              console.warn(`A sessionStorage error occurred ${e.message}`);
+            }
             trackProfile('contribution-conversion-modal', locale);
           }}
         />
@@ -110,6 +114,7 @@ interface Props extends WithLocalizationProps, PropsFromState {
   shortcuts: {
     key: string;
     label: string;
+    icon?: React.ReactNode;
     action: () => any;
   }[];
   type: 'speak' | 'listen';
@@ -168,7 +173,14 @@ class ContributionPage extends React.Component<Props, State> {
       const showAccountModal = this.showAccountModalDefault;
       this.setState({ showAccountModal });
       if (showAccountModal) {
-        localStorage.setItem(HAS_SEEN_ACCOUNT_MODAL_KEY, JSON.stringify(true));
+        try {
+          localStorage.setItem(
+            HAS_SEEN_ACCOUNT_MODAL_KEY,
+            JSON.stringify(true)
+          );
+        } catch (e) {
+          console.warn(`A sessionStorage error occurred ${e.message}`);
+        }
       }
     }
 
@@ -315,9 +327,11 @@ class ContributionPage extends React.Component<Props, State> {
               <h1 />
             </Localized>
             <div className="shortcuts">
-              {this.shortcuts.map(({ key, label }) => (
+              {this.shortcuts.map(({ key, label, icon }) => (
                 <div key={key} className="shortcut">
-                  <kbd>{getString(key).toUpperCase()}</kbd>
+                  <kbd title={getString(key).toUpperCase()}>
+                    {icon ? icon : getString(key).toUpperCase()}
+                  </kbd>
                   <div className="label">{getString(label)}</div>
                 </div>
               ))}

@@ -33,6 +33,7 @@ as = Asamezisht
 ast = Asturisht
 az = Azerbajxhanisht
 ba = Bashkire
+bas = Basa
 be = Bjelloruse
 bg = Bullgarisht
 bm = Bambareze
@@ -71,6 +72,7 @@ he = Hebraisht
 hi = Indiane
 hr = Kroate
 hsb = Sorbiane, E sipërme
+ht = Haitiane
 hu = Hungarisht
 hy-AM = Armene
 hyw = Armene Perëndimore
@@ -100,6 +102,7 @@ mk = Maqedonisht
 ml = Malajalame
 mn = Mongolisht
 mrj = Hill Mari
+ms = Malajziane
 mt = Malteze
 my = Birmanisht
 myv = Erzan
@@ -111,6 +114,7 @@ oc = Oçitane
 or = Odia
 pa-IN = Panxhabe
 pl = Polonisht
+ps = Pashtune
 pt = Portugalisht
 rm-sursilv = Romansh Sursilvan
 ro = Rumanisht
@@ -136,12 +140,14 @@ tr = Turqisht
 tt = Tatare
 uby = Ybyke
 udm = Udmurt
+ug = Ujgur
 uk = Ukrainase
 ur = Urdu
 uz = Uzbeke
 vec = Venetishte
 vi = Vietnamisht
 vot = Votik
+yue = Kantoneze
 zh-CN = Kineze (Kinë)
 zh-HK = Kineze (Hong Kong)
 zh-TW = Kineze (Tajvan)
@@ -339,26 +345,19 @@ skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e p�
 skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
 off = Off
 on = On
-avatar-clip-title = Jepini zë avatarit tuaj
-change-your-avatar-clip = Doni të ndryshoni copëzën zanore?
-recording-in-progress = Incizim zëri në ecuri e sipër
-avatar-clip-recorded = Avatari juaj tashmë përmban një copëz zanore!
-record-voice-wave = INCIZONI VALË ZANORE
-retry-voice-wave-recording = RIPROVONI
-re-record = RIINCIZOJENI
-delete-voice = FSHIJE
-recording-voice-wave = Po incizohet
-delete-voice-clip = ose Fshijeni copëzën zanore
-ready-to-upload = NAGRKOJE
-avatar-clip-fact = Është fakt i njohur prej kohësh që një lexuesi do t’i tërheqë vëmendjen lënda e lexueshme e një faqeje, teksa shihet skicimi grafik i saj.
-recreate-voice = INCIZONI VALË ZANORE
-cancel-avatar-clip-recording = ANULOJE
-about-avatar-clip-recording = Krijoni një copëz zanore si pjesë e avatarit të profilit tuaj. Të tjerët do të jenë në gjendje të dëgjojnë copëzën tuaj duke i kaluar kursorin përsipër.
+
+## Profile - Email
+
 browse-file-title = Ngarkoni kartelë figure
 browse-file = Merreni dhe vëreni ose <browseWrap>Shfletoni</browseWrap>
 connect-gravatar = Lidhuni përmes Gravatari
 gravatar_not_found = S’u gjet gravatar për email-in tuaj
 file_too_large = Kartela e përzgjedhur është shumë e madhe
+avatar-uploaded = Avatari u ngarkua
+max-file-size = Maksimumi { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Administroni Pajtime
 manage-email-subscriptions = Administroni Pajtime Me Email
 email-already-used = Email-i është tashmë i përdorur për një tjetër llogari
@@ -849,6 +848,7 @@ demo-welcome-subheader = Ju intereson të mësoni më tepër dhe të jepni ndihm
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice është grupi i të dhënave zanore më i madh në botë që mund të kihet publikisht.
 demo-language-select-card-body = Falë kontributeve prej më shumë se 259 mijë vetë në mbi 50 gjuhë, këto të dhëna po përdoren për të stërvitur aplikacione që funksionojnë përmes të folurës, për t’iu përgjigjur më mirë zërit njerëzor.
 card-button-next = Pasuesja
 card-button-back = Mbrapsht

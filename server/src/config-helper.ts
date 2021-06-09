@@ -30,6 +30,8 @@ export type CommonVoiceConfig = {
   RELEASE_VERSION?: string;
   SECRET: string;
   S3_CONFIG: S3.Types.ClientConfiguration;
+  CINCHY_CONFIG: S3.Types.ClientConfiguration;
+  CINCHY_ENABLED: boolean;
   SSM_ENABLED: boolean;
   SSM_CONFIG: SSM.Types.ClientConfiguration;
   ADMIN_EMAILS: string;
@@ -48,6 +50,7 @@ export type CommonVoiceConfig = {
   SENTRY_DSN: string;
   MAINTENANCE_MODE: boolean;
   BENCHMARK_LIVE: boolean;
+  FLAG_BUFFER_STREAM_ENABLED: boolean;
 };
 
 const castDefault = (value: string): any => value;
@@ -76,11 +79,13 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'CV_DATASET_BUCKET_NAME',
     'common-voice-datasets'
   ),
-  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', ''),
+  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', 'us-west-2'),
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
   S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
+  CINCHY_CONFIG: configEntry('CV_CINCHY_CONFIG', {}, castJson),
+  CINCHY_ENABLED: configEntry('CV_CINCHY_ENABLED', false, castBoolean),
   SSM_ENABLED: configEntry('CV_SSM_ENABLED', false, castBoolean),
   SSM_CONFIG: configEntry('CV_SSM_CONFIG', {}, castJson),
   AUTH0: {
@@ -98,6 +103,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
   BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
+  FLAG_BUFFER_STREAM_ENABLED: configEntry('CV_FLAG_BUFFER_STREAM_ENABLED', false, castBoolean),
 };
 
 let injectedConfig: CommonVoiceConfig;

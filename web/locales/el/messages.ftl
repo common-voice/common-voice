@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ναι, επιθυμώ να λαμβάνω emails και να ενημερώνομαι για το έργο Common Voice.
+yes-receive-emails = Ναι, επιθυμώ να λαμβάνω email και να ενημερώνομαι για το έργο Common Voice.
 stayintouch = Στη Mozilla, χτίζουμε μια κοινότητα γύρω από τη φωνητική τεχνολογία. Θα θέλαμε να επικοινωνούμε μαζί σας για ενημερώσεις, νέες πηγές δεδομένων και για να μαθαίνουμε πώς χρησιμοποιείτε αυτά τα δεδομένα.
 privacy-info = Υποσχόμαστε να χειριστούμε τις πληροφορίες σας με προσοχή. Διαβάστε περισσότερα στη <privacyLink>σημείωση απορρήτου</privacyLink>.
 return-to-cv = Επιστροφή στο Common Voice
@@ -8,9 +8,9 @@ email-input =
     .label = Email
 submit-form-action = Υποβολή
 loading = Φόρτωση…
-email-opt-in-info = Θα ήθελα να λαμβάνω emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+email-opt-in-info = Θα ήθελα να λαμβάνω email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 email-opt-in-info-title = Εγγραφείτε στη λίστα αλληλογραφίας του Common Voice
-email-opt-in-info-sub-with-challenge = Λάβετε emails, όπως υπενθυμίσεις στόχων και προκλήσεων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+email-opt-in-info-sub-with-challenge = Λάβετε email, όπως υπενθυμίσεις στόχων και προκλήσεων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με το χειρισμό αυτών των πληροφοριών από τη Mozilla, όπως εξηγεί η <privacyLink>πολιτική απορρήτου</privacyLink>.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
@@ -72,6 +72,7 @@ he = Εβραϊκά
 hi = Χίντι
 hr = Κροατικά
 hsb = Άνω Σορβικά
+ht = Αϊτινά
 hu = Ουγγρικά
 hy-AM = Αρμενικά
 hyw = Αρμενικά Δυτικά
@@ -95,13 +96,17 @@ lg = Λουγκάντα
 lij = Λιγουριανά
 lt = Λιθουανικά
 lv = Λετονικά
+mai = Μαϊθίλι
 mdf = Μόκσα
 mg = Μαλαγασικά
 mhr = Ανατολική Μάρι
 mk = Σλαβομακεδονικά
 ml = Μαλαγιάλαμ
 mn = Μογγολικά
+mos = Μόσι
+mr = Μαράτι
 mrj = Δυτική Μάρι
+ms = Μαλαισιακά
 mt = Μαλτεζικά
 my = Βιρμανικά
 myv = Erzya
@@ -112,7 +117,9 @@ nn-NO = Νορβηγικά Nynorsk
 oc = Οξιτανικά
 or = Odia
 pa-IN = Παντζάμπι
+pap-AW = Παπιαμέντο (Αρούμπα)
 pl = Πολωνικά
+ps = Παστού
 pt = Πορτογαλικά
 rm-sursilv = Ρομανσικά (Sursilvan)
 rm-vallader = Ρομανσικά (Vallader)
@@ -122,9 +129,11 @@ rw = Κινιαρουάντα
 sah = Σαχά
 sc = Σαρδηνιακά
 scn = Σικελικά
+shi = Σίλα
 si = Σινχαλέζικα
 sk = Σλοβακικά
 sl = Σλοβενικά
+so = Σομαλικά
 sq = Αλβανικά
 sr = Σερβικά
 sv-SE = Σουηδικά
@@ -139,6 +148,7 @@ tr = Τουρκικά
 tt = Ταταρικά
 uby = Ουμπίχ
 udm = Ούντμουρτ
+ug = Ουιγκούρ
 uk = Ουκρανικά
 ur = Ούρντου
 uz = Ουζμπεκικά
@@ -272,6 +282,8 @@ shortcut-record-toggle = γ
 shortcut-record-toggle-label = Εγγραφή/Διακοπή
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Νέα εγγραφή κλιπ
+shortcut-submit = Επιστροφή
+shortcut-submit-label = Υποβολή κλιπ
 request-language-text = Δεν βλέπετε τη γλώσσα σας στο Common Voice;
 request-language-text-learn = Μάθετε πώς να το ζητήσετε εδώ!
 request-language-button = Αίτημα για γλώσσα
@@ -343,26 +355,19 @@ skip-submission-description = Κατά την υποβολή της συνεισ
 skip-submission-note = Σημείωση: Θα πρέπει ακόμα να επιλέξετε ανάμεσα σε Ομιλία ή Ακρόαση για να αλλάξετε τον τύπο συνεισφοράς.
 off = Ανενεργό
 on = Ενεργό
-avatar-clip-title = Δώστε στο avatar σας φωνή
-change-your-avatar-clip = Θέλετε να αλλάξετε το φωνητικό σας κλιπ;
-recording-in-progress = Η εγγραφή φωνής βρίσκεται σε εξέλιξη
-avatar-clip-recorded = Το avatar σας τώρα περιλαμβάνει ένα φωνητικό κλιπ!
-record-voice-wave = ΕΓΓΡΑΦΗ ΦΩΝΗΣ
-retry-voice-wave-recording = ΕΠΑΝΑΛΗΨΗ
-re-record = ΕΠΑΝΕΓΓΡΑΦΗ
-delete-voice = ΔΙΑΓΡΑΦΗ
-recording-voice-wave = Ηχογράφηση
-delete-voice-clip = ή Διαγραφή φωνητικού κλιπ
-ready-to-upload = Μεταφόρτωση
-avatar-clip-fact = Είναι ένα επιβεβαιωμένο γεγονός ότι ένας αναγνώστης θα αποσπάται από το κείμενο μιας σελίδας όταν εξετάζει τη διάταξη της.
-recreate-voice = Αναδημιουργία του Voicewave
-cancel-avatar-clip-recording = Ακύρωση
-about-avatar-clip-recording = Δημιουργήστε ένα κλιπ ομιλίας ως μέρος του avatar σας. Οι χρήστες θα μπορούν να ακούν το κλιπ σας περνώντας το ποντίκι από πάνω.
+
+## Profile - Email
+
 browse-file-title = Μεταφόρτωση αρχείου εικόνας
 browse-file = Σύρετε και εναποθέστε ή <browseWrap>περιήγηση</browseWrap>
 connect-gravatar = Σύνδεση με Gravatar
 gravatar_not_found = Δεν βρέθηκε gravatar για το email σας
 file_too_large = Το επιλεγμένο αρχείο είναι πολύ μεγάλο
+avatar-uploaded = Μεταφορτώθηκε το avatar
+max-file-size = { $kb }kb μέγιστο
+
+## Profile - Email
+
 manage-subscriptions = Διαχείριση συνδρομών
 manage-email-subscriptions = Διαχείριση συνδρομών email
 email-already-used = Το email χρησιμοποιείται ήδη για διαφορετικό λογαριασμό
@@ -804,8 +809,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Εξαιρετικά! Πόσα κλιπ την ημέρα;
 how-many-a-week = Εξαιρετικά! Πόσα κλιπ την εβδομάδα;
 which-goal-type = Θέλετε να μιλήσετε, να ακούσετε ή και τα δύο;
-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, θα λαμβάνετε emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
-not-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, <bold>ΔΕΝ</bold> θα λαμβάνετε emails, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
+not-receiving-emails-info = Σύμφωνα με τις ρυθμίσεις σας, <bold>ΔΕΝ</bold> θα λαμβάνετε email, όπως υπενθυμίσεις στόχων, ενημερώσεις προόδου και ενημερωτικά δελτία για το Common Voice.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } κλιπ
@@ -848,7 +853,7 @@ welcome-staff = Καλωσορίζουμε το προσωπικό της { $com
 help-contribute = Μπορείτε να βοηθήσετε στη δημιουργία ενός ποικίλου συνόλου δεδομένων ανοιχτού κώδικα, δημιουργώντας ένα προφίλ και συνεισφέροντας τη φωνή σας στο Common Voice.
 login-company = Σύνδεση/Εγγραφή με { $company } email
 profile-not-required = Δεν απαιτείται να έχετε προφίλ για να συνεισφέρετε, αν και είναι χρήσιμο
-read-more-about = Διαβάστε περισσότερα στη σελίδα «Σχετικά»
+read-more-about = Διαβάστε περισσότερα στη σελίδα "Σχετικά"
 
 ## DemoLayout
 
@@ -878,7 +883,7 @@ demo-account-sign-up = Αποστολή συνδέσμου εγγραφής
 ## Demo Contribute
 
 demo-contribute-card-header = Είστε έτοιμοι να προσθέσετε τη φωνή σας ή να δανείσετε την ακοή σας;
-demo-contribute-card-body = Τώρα που γνωρίζετε λίγο περισσότερα για το Common Voice, γιατί δεν το δοκιμάζετε; Κάντε κλικ στο εικονίδιο του μικροφώνου για να ξεκινήσετε να διαβάζετε προτάσεις δυνατά. <br/><br/>Εάν προτιμάτε να ασχοληθείτε με τον έλεγχο φωνητικών συνεισφορών άλλων ατόμων, κάντε κλικ στο εικονίδιο αναπαραγωγής. Ελέγξτε εάν η ηχογράφηση που ακούτε ταιριάζει με τις λέξεις που εμφανίζονται στην οθόνη.
+demo-contribute-card-body-v2 = Τώρα που γνωρίζετε λίγο περισσότερα για το Common Voice, γιατί δεν το δοκιμάζετε; Κάντε κλικ στο εικονίδιο του μικροφώνου για να ξεκινήσετε να διαβάζετε προτάσεις δυνατά. <br/><br/>Εάν προτιμάτε να ασχοληθείτε με τον έλεγχο φωνητικών συνεισφορών άλλων ατόμων, κάντε κλικ στο εικονίδιο αναπαραγωγής. Θα μάς βοηθήσετε να επιβεβαιώσουμε ότι οι ηχογραφήσεις αντιστοιχούν στις προτάσεις που εμφανίζονται στην οθόνη.
 demo-listen-subtitle = Είστε έτοιμοι να συνεισφέρετε;
 
 ## Demo Dashboard

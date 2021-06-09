@@ -72,6 +72,7 @@ he = Hebreo ñe’ẽ
 hi = Hindi ñe’ẽ
 hr = Croacia ñe’ẽ
 hsb = Serbia ñe’ẽ, Yvategua
+ht = Haiti-gua
 hu = Hungría ñe’ẽ
 hy-AM = Armenio ñe’ẽ
 hyw = Armenio ñe’ẽ Kuarahyreike gotyogua
@@ -95,13 +96,17 @@ lg = Luganda ñe’ẽ
 lij = Ligurian ñe’ẽ
 lt = Lituano ñe’ẽ
 lv = Latvia ñe’ẽ
+mai = Maithili
 mdf = Moksha ñe’ẽ
 mg = Malagasy ñe’ẽ
 mhr = Meadow Mari ñe’ẽ
 mk = Macedonia ñe’ẽ
 ml = Malayalam ñe’ẽ
 mn = Mongolia ñe’ẽ
+mos = Mossi
+mr = Marathi
 mrj = Hill Mari ñe’ẽ
+ms = Malasia ñe’ẽ
 mt = Malta ñe’ẽ
 my = Burma ñe’ẽ
 myv = Erzya ñe’ẽ
@@ -112,7 +117,9 @@ nn-NO = Noruega ñe’ẽ Nynorsk
 oc = Occitano ñe’ẽ
 or = Odia ñe’ẽ
 pa-IN = Punjabi ñe’ẽ
+pap-AW = Papiamento (Aruba)
 pl = Polonia ñe’ẽ
+ps = Pashto
 pt = Portugal ñe’ẽ
 rm-sursilv = Romanche Sursilvan ñe’ẽ
 rm-vallader = Romanche Vallader ñe’ẽ
@@ -122,9 +129,11 @@ rw = Kinyarwanda ñe’ẽ
 sah = Sakha ñe’ẽ
 sc = Sardinia ñe’ẽ
 scn = Sicilia ñe’ẽ
+shi = Shilha
 si = Sinhala ñe’ẽ
 sk = Eslovaquia ñe’ẽ
 sl = Eslovenia ñe’ẽ
+so = Somalia ñe’ẽ
 sq = Albania ñe’ẽ
 sr = Serbia ñe’ẽ
 sv-SE = Suecia ñe’ẽ
@@ -139,12 +148,14 @@ tr = Turquía ñe’ẽ
 tt = Tátaro ñe’ẽ
 uby = Ubykh ñe’ẽ
 udm = Udmurt ñe’ẽ
+ug = Uyghur
 uk = Ucrania ñe’ẽ
 ur = Urdu ñe’ẽ
 uz = Uzbequistán ñe’ẽ
 vec = Venecia ñe’ẽ
 vi = Vietnam ñe’ẽ
 vot = Votic ñe’ẽ
+yue = China ñe’ẽ
 zh-CN = China ñe’ẽ (Chinapegua)
 zh-HK = China ñe’ẽ (Hong Kong-pegua)
 zh-TW = China ñe’ẽ (Taiwán-pegua)
@@ -156,7 +167,7 @@ zh-TW = China ñe’ẽ (Taiwán-pegua)
 
 speak = Eñe’ẽ
 speak-now = Eñe’ẽ ko’ág̃a
-datasets = Kuaapy'aty
+datasets = Kuaapy’aty
 languages = Ñe’ẽnguéra
 about = Hesegua
 profile = Toguetee
@@ -167,7 +178,7 @@ terms = Mbojojaha
 cookies = Cookie-kuéra
 faq = Oñeporanduvéva
 content-license-text = Mba’ekuaa ojeporukuaa <licenseLink>Creative Commons license</licenseLink>rupive.
-share-title = Orepytyvõ rojuhúvo tapicha oipytyvõséva avei ijahy'o reheve.
+share-title = Orepytyvõ rojuhúvo tapicha oipytyvõséva avei ijahy’o reheve.
 share-text = Eipytyvõ embo’évo máquina toñe’ẽ hag̃ua oñe’ẽháicha yvypóra, eipytyvõ nde ahy’o reheve { $link }
 link-copied = Joajuha oĩma Oñembohasa hag̃uáicha
 back-top = Ehojey Yvatépe
@@ -276,7 +287,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Ñongatu/Joko
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Embohyapupyahu
-request-language-text = Nderejuhúipiko ne ñe’ẽ'ypy Common Voice-pe?
+shortcut-submit = Jevy
+shortcut-submit-label = Emondo clips
+request-language-text = Nderejuhúipiko ne ñe’ẽ’ypy Common Voice-pe?
+request-language-text-learn = ¡Eikuaa mba’éichapa ejeruréta ko’ápe!
 request-language-button = Ejererure toñembojoapy avei ambue ñe’ẽ
 
 ## ProjectStatus
@@ -348,26 +362,19 @@ skip-submission-description = Oñepytyvõ aja noñemondomo’ãi marandu’i oje
 skip-submission-note = Jesarekorã: Tekotevẽta gueteri eiporavo Eñe’ẽ térã Ehendu ere hag̃ua mba’éichapa reipytyvõse.
 off = Mboguepyre
 on = Hendypyre
-avatar-clip-title = Eme’ẽ ne ra’ãnga’ípe ijahy’orã
-change-your-avatar-clip = Emoambuesépa ne ñe’ẽryapu?
-recording-in-progress = Oñeñongatuhína ñe’ẽ
-avatar-clip-recorded = ¡Ne ra’ãnga’i ijahy’óma ko’ág̃a!
-record-voice-wave = EÑE’ẼÑONGATU
-retry-voice-wave-recording = EHA’ÃJEY
-re-record = EÑONGATUJEY
-delete-voice = MBOGUETE
-recording-voice-wave = Eñongatuhína
-delete-voice-clip = térã  Embogue ñe’ẽryapu
-ready-to-upload = HUPI
-avatar-clip-fact = Aréma ojekuaa hesahoreítaha omoñe’ẽva ohecháramo kóicha.
-recreate-voice = Ejapojey Ñe’ẽryapu
-cancel-avatar-clip-recording = HEJA
-about-avatar-clip-recording = Embojoapy ne ra’ãnga’ípe ñe’ẽryapu. Ambuéva ohendukuaáta he’íva ne ra’ãnga’i omoĩ vove hu’y hi’ári.
+
+## Profile - Email
+
 browse-file-title = Ehupi ta’ãnga
 browse-file = Etyryry ha Epoi ỹrõ <browseWrap>Eikundaha</browseWrap>
 connect-gravatar = Embojoaju Gravatar reheve
 gravatar_not_found = Ndojejuhúi Gravatar ne ñe’ẽveve pegua
 file_too_large = Tuichaitereíma marandurenda eiporavova’ekue
+avatar-uploaded = Avatar jehupi
+max-file-size = { $kb } kb max
+
+## Profile - Email
+
 manage-subscriptions = Eñangareko Ñemboheraguapykuéra rehe
 manage-email-subscriptions = Eñangareko Ñe’ẽveve Ñemboheraguapykuéra rehe
 email-already-used = Ko Ñe’ẽveve ojeporúma ambue cuénta reheve.
@@ -417,7 +424,7 @@ faq-why-not-ask-read-q = Mba’éguipa ndapejeruréi tapichakuérape tomoñe’�
 faq-why-not-ask-read-a = Ikatu hag̃uáicha Common Voice Kuaapy’aty ojeporukuaa, rog̃uahẽ peteĩ ñe’ẽme roiporu’añotaha ñe’ẽ oñemoherakuãva’ekue Ñemoneĩ Creative Commons (CC0) rupive. Péva he’ise ijetu’uveha oréve rojuhu hag̃ua ñe’ẽjoaju ikatúva roiporu, katu péicha rupi opavave oiporukuaa ñe’ẽjoaju ñambyatyva’ekue oikotevẽ’ỹre Mozilla ñemoneĩkuatia. Ipahápeniko rombyatyse ñe’ẽjoaju oiporukuaáva oimeraẽva, taha’e kuaarekahára, mbo’ehaovusu, mba’apoha, tekuái, ONG ha ambueve.
 faq-why-account-q = ¿Mba’ére añemboheraguapyva’erã?
 faq-is-account-public-q = ¿Marandu che mba’ete rehegua ojehechakuaa?
-faq-how-privacy-q = Mba’éichapa pemboajekatu ndojekuaaitaha mávapa ome’ẽ ijahy'o ko tembiapópe?
+faq-how-privacy-q = Mba’éichapa pemboajekatu ndojekuaaitaha mávapa ome’ẽ ijahy’o ko tembiapópe?
 faq-how-privacy-a = Opaite ñe’ẽryapu ñongatupyre oñeñongatu kuaapy’atýpe ndoguerekóiva pype kuaapyrã ome’ẽva’ekue ijahy’o rehegua. Ijahy’o ome’ẽva he’i avei moõgotyoguápa ha’e katu upéva noñeñongatúi héra ykére. Ojepe’a héra oñemboguapy mboyve kuaapy’atýpe ha araka’eve ndojehechaukái mavavépe.
 faq-what-determine-identity-q = Mba’épa he’ise “ndaikatuiha aikuaa mávapa ñe’ẽhára” Common Voice kuaapy’atýpe?
 faq-what-determine-identity-a =
@@ -452,7 +459,7 @@ about-yes-votes-text = Ikatu hag̃uáicha oñemoneĩ ñe’ẽjoaju ñembohyapup
 about-no-votes = ≥ 2 Voto oiko’ỹva
 about-no-votes-text = Oĩramo ombotovéva’ekue ñe’ẽjoaju ñongatupyre, ojevyjeýta upéva ñe’ẽjoaju rysýipe. Oñembotovejeýramo, ohasáma upe ñe’ẽjoaju Clip Graveyard, ha’evahína Ñe’ẽryapu ñongatupyre Tyvyty.
 about-dataset-new = Common Voice mba’ekuaarã rupa
-about-dataset-new-text = Common Voice kuaapy'aty oñongatu pype hetaite ñe’ẽryapu oipytyvõva tembiporu guerojerahárape ojapo hag̃ua tembiporu oikũmbýva ha ohaikuaáva ohendúva.
+about-dataset-new-text = Common Voice kuaapy’aty oñongatu pype hetaite ñe’ẽryapu oipytyvõva tembiporu guerojerahárape ojapo hag̃ua tembiporu oikũmbýva ha ohaikuaáva ohendúva.
 about-clip-graveyard = Ñongatuhakuéra mbyatyha
 about-clip-graveyard-text = Clip Graveyard, ñe’ẽryapu ñongatupyre tyvytýniko ombyaty umi ñe’ẽjoaju oñembohyapuva’ekue oñembotoveva’ekue, ikatúva avei oñemboguejy.
 about-partners = Irũnguéra
@@ -512,13 +519,14 @@ data-get-started = <speechBlogLink>Eikuaañepyrũ Ñe’ẽ Ñeikũmby rehegua</
 data-other-title = Ambue mba’ekuaarã marandurenda ijayvúva…
 data-other-goto = Eho { $name }-pe
 data-other-download = Emboguejy Mba’ekuaarã
-data-bundle-button = Emboguejy Kuaapy'aty Apakuapy
+data-bundle-button = Emboguejy Kuaapy’aty Apakuapy
 data-bundle-description = Common Voice kuaapy ha avei opaite ambue ñe’ẽryapu kuaapy’aty yvatepegua.
 release-version = Peteĩchagua
 dataset-date = Mba’ekuaarã
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>
 license-mixed = Jehe’a
 data-download-singleword-title = Emboguejy Ñe’ẽryapu Pehẽ’i
+data-download-singleword-callout-v2 = Kóva peteĩ pehẽ oguerekóva mba’ekuaarã oipytyvõva oñeikũmbykuaa porãve hag̃ua jehaipy.
 review-terms = Reiporúramo Common Voice, remoneĩ ore <termsLink>Jeporu Mbojojaha</termsLink> ha avei ore <privacyLink>Kuaapyñemi rehegua Mbojojaha</privacyLink>
 terms-agree = Amoneĩ avei
 terms-disagree = Namoneĩri
@@ -547,7 +555,7 @@ validated-hr-total = Aravo mboajepyre
 overall-hr-total = Aravo hasapyre
 cv-license = Ñemoneĩkuatia
 audio-format = Mba’epu Ysaja
-number-of-voices = Mboy Ahy'ópa
+number-of-voices = Mboy Ahy’ópa
 splits = Ñemboja’o
 email-to-download = Ehai ne Ñe’ẽveve emboguejy hag̃ua
 why-email = <b>Mba’érepa roikotevẽ ne ñe’ẽvevére?</b> Oiméne romog̃uahẽ ndéve marandu iñambuéva jave kuaapy’aty, péicha roikuaaukakuaa.
@@ -636,7 +644,7 @@ total-hours = Aravo Moneĩmbyre
 action-click = Eikutu
 action-tap = Jeporavo
 contribute = Ñepytyvõ
-listen = Tysýi
+listen = Ehendu
 skip = Jepo
 shortcuts = Mbopya’eha
 clips-with-count-pluralized =
@@ -685,7 +693,7 @@ listen-last-time-instruction = <playIcon></playIcon> Ipahapeguáma!
 listen-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽryapu ñongatupyre ko ñe’ẽme oñemoneĩ hag̃ua...
 speak-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽjoaju ko ñe’ẽme oñembohyapu hag̃ua...
 speak-empty-state-cta = Embojoapyve ñe’ẽjoaju
-record-button-label = Eñongatu nde ahy'o
+record-button-label = Eñongatu nde ahy’o
 share-title-new = <bold>Orepytyvõmína</bold> rojuhumíva tapicha ome’ẽséva ijahy’o
 keep-track-profile = Eikuaameme mboýpa rejapóma peteĩ togue nemba’éva rupive
 login-to-get-started = Eike térã eñemboheraguapy eñepyrũvo
@@ -860,22 +868,34 @@ read-more-about = Eikuaave kóva rehe ore Mba’e rehegua roguépe
 
 demo-get-started = Ñañepyrũkatu
 demo-welcome = Eg̃uahẽporã Common Voice-pe
+demo-welcome-subheader = ¿Eikuaasevépa térã eipytyvõse ko apopyrãme?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice niko ñe’ẽryapu ñongatupyre tuichavéva oĩva yvy ape ári ha oiporukuaáva opavave. Orekóva avei heta ñe’ẽ.
+demo-language-select-card-body = Oipytyvõ rupi hetaite tapicha, hetave 259-gui oiporúva hetave 50 gui ñe’ẽ ikatu ojeporu kóva oñembokatupyry hag̃ua mohendaha oikũmby hag̃ua yvypóra ñe’ẽ.
 card-button-next = Upeigua
 card-button-back = Tapykue
 demo-language-select-label = Eyvykói ñe’ẽnguéra
 demo-eofy-header = Ary paha 2019 ñeguenohẽ
+demo-eofy-sub_header = Ñe’ẽ mba’ekuaarã aty, emboguejykuaáma
 demo-account = Mba’ete
 
 ## Demo Account
 
+demo-account-card-header = Natekotevẽi ne mba’ete reporopytyvõ hag̃ua, iporãro jepe.
+demo-account-card-body = Ore romoĩ kuaapyrã opavave pópe. Eiporumi joajuha oĩva iguýpe eiporu ñepyrũ hag̃ua Common Voice peteĩ cuenta rupive.
+demo-account-enter-email =
+    .label = Ehai ñanduti veve emondo hag̃ua jehaipyre juajuha
 demo-account-sign-up = Emondo mboheraguapy juajuha
 
 ## Demo Contribute
 
+demo-contribute-card-header = ¿Ikatúma embojuaju ne ñe’ẽ térã ehendu?
+demo-contribute-card-body-v2 = Ko’ág̃a reikuaamíma Common Voice rehegua. Mba’érepiko ndereikéi avei orepytyvõmi. Epokomi micrófono ra’ãnga’íre ha eñepyrũmi emoñe’ẽ hatã ñe’ẽjoaju ojehechaukáva ndéve. <br/><br/> Remoneĩsérõ ambuéva rembiapo eikutuva’erã votõ hendu, péicha erekuaa oréve ojojápa hyapu mba’ehaipyrépe.
 demo-listen-subtitle = ¿Mba’éicha eipytyvõta?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Ndekuéntaramo rerekoha moõpa rehechakuaa mboýmapa rejapóma,  ha avei mboýpa ojehupytýma.
+demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmava rehechakuaa nde kuéntape. Reipytyvõkuaa peteĩ térã hetave ñe’ẽtépe. <br/><br/> Eiporu nde kuénta rehecha hag̃ua mboýpa rejapóma, mboýpa ojapóma ambue tapicha oporopytyvõva avei ha mboýpa ojehupytýma.

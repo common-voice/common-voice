@@ -5800,6 +5800,7 @@ ella no predica
 ella no vive
 ella no viviere
 ella no vivirá
+ella no viviría
 ella no vivió
 ella obedeció sonriendo.
 ella parte
@@ -5819,6 +5820,7 @@ ella todavía gimió:
 ella vive
 ella viviere
 ella vivirá
+ella viviría
 ella vivió
 ellas beben
 ellas bebían
@@ -5827,6 +5829,7 @@ ellas comerán
 ellas comían
 ellas dudan en decirlo
 ellas dudarían
+ellas habrán vivido
 ellas habrían partido
 ellas habrían vivido
 ellas han bebido
@@ -5848,6 +5851,7 @@ ellas no han partido
 ellas no han vivido
 ellas no hubieran vivido
 ellas no hubieron comido
+ellas no hubiesen vivido
 ellas no parten
 ellas no partieron
 ellas no partirían
@@ -5859,6 +5863,7 @@ ellas partieron
 ellas predican
 ellas predicarán
 ellas viven
+ellas vivieron
 ellas vivirán
 ello es dudoso
 ellos beben
@@ -5868,6 +5873,7 @@ ellos comerán
 ellos comían
 ellos dudan en decirlo
 ellos dudarían
+ellos habrán vivido
 ellos habrían vivido
 ellos habían comido
 ellos habían vivido
@@ -5881,6 +5887,7 @@ ellos no bebían
 ellos no comerán
 ellos no comieron
 ellos no comían
+ellos no habrán vivido
 ellos no habrían partido
 ellos no habrían vivido
 ellos no habían vivido
@@ -5896,6 +5903,7 @@ ellos no predican
 ellos no viven
 ellos no vivieron
 ellos no vivirán
+ellos no vivirían
 ellos parten
 ellos partieron
 ellos predican
@@ -5903,6 +5911,7 @@ ellos predicarán
 ellos viven
 ellos vivieron
 ellos vivirán
+ellos vivirían
 embarqué en Londres, donde vivía emigrado desde la traición de Vergara
 empecemos de cero, ¿ vale?
 empecé a ver que no se me trataba como a cualquier compañero
@@ -6471,10 +6480,13 @@ habrán bebido
 habrán vivido
 habrás afirmado
 habrás bebido
+habrás vivido
 habré afirmado
 habré bebido
+habré vivido
 habréis afirmado
 habréis bebido
+habréis vivido
 habría que fotografiar a los que compran en las mantas para
 habría que preguntarse cuánto les da si es que algo les da
 habría vivido
@@ -6502,6 +6514,7 @@ habían comenzado las ferias, aquellas famosas ferias de Grijalba
 habían comido
 habían vivido
 habías bebido
+habías vivido
 habíase puesto en pie, y se echaba el rebocillo apresuradamente:
 hace apenas unos minutos. no hay tiempo.
 hace bien.
@@ -7534,7 +7547,9 @@ no habrán bebido
 no habrán vivido
 no habrás bebido
 no habré bebido
+no habré vivido
 no habréis bebido
+no habréis vivido
 no habría partido
 no habría vivido
 no habríais vivido
@@ -7553,6 +7568,7 @@ no habíamos bebido
 no habíamos vivido
 no habían bebido
 no habían vivido
+no habías vivido
 no hace falta.
 no hace falta estar borracho para querer arrimarse
 no hace falta usar un decodificador
@@ -7751,7 +7767,9 @@ no vivirán
 no vivirás
 no viviré
 no viviréis
+no viviría
 no viviríais
+no viviríamos
 no vivirían
 no vivirías
 no viviste
@@ -7806,11 +7824,13 @@ nosotras no partimos
 nosotras no partiríamos
 nosotras no predicamos
 nosotras no vivimos
+nosotras no viviríamos
 nosotras partimos
 nosotras predicamos
 nosotras predicaremos
 nosotras publicamos un panfleto
 nosotras vivimos
+nosotras viviríamos
 nosotros, aún bastante lejos
 nosotros bajamos en tropel hasta la playa.
 nosotros bebemos
@@ -7847,6 +7867,7 @@ nosotros no los encontramos, fuimos a buscarlos.
 nosotros no partimos
 nosotros no partiríamos
 nosotros no vivimos
+nosotros no viviríamos
 nosotros nos predicamos
 nosotros partimos
 nosotros predicamos
@@ -7857,6 +7878,7 @@ nosotros respondimos en romance:
 nosotros seguíamos una senda roja y polvorienta.
 nosotros tenemos una amistad muy bonita
 nosotros vivimos
+nosotros viviríamos
 nota el movimiento del barco.
 nota las olas.
 nuestra primera escala en aguas de México, fué San Juan de Tuxtlan.
@@ -9239,11 +9261,13 @@ tú no partirías
 tú no partiste
 tú no vives
 tú no vivirás
+tú no vivirías
 tú no viviste
 tú partes
 tú partiste
 tú vives
 tú vivirás
+tú vivirías
 tú viviste
 tú vivías
 tú ya sabes si su concierto te va a gustar o no
@@ -9358,6 +9382,7 @@ ustedes han bebido
 ustedes han partido
 ustedes han vivido
 ustedes hubieran vivido
+ustedes hubiesen vivido
 ustedes no bebían
 ustedes no comerán
 ustedes no habrían vivido
@@ -9365,6 +9390,7 @@ ustedes no han bebido
 ustedes no han partido
 ustedes no han vivido
 ustedes no hubieran vivido
+ustedes no hubiesen vivido
 ustedes no parten
 ustedes no partirían
 ustedes no viven
@@ -9519,7 +9545,9 @@ volvía a oírse el galope de un caballo.
 vos no vivís
 vos vivís
 vos habrías vivido
+vos hubieses vivido
 vos no habrías vivido
+vos no hubieses vivido
 vos no vivieres
 vos vivieres
 vos vivise
@@ -9551,12 +9579,14 @@ vosotras no partís
 vosotras no predicáis
 vosotras no visitáis
 vosotras no viviréis
+vosotras no viviríais
 vosotras no vivís
 vosotras partisteis
 vosotras partís
 vosotras predicáis
 vosotras publicáis un panfleto
 vosotras viviréis
+vosotras viviríais
 vosotras vivís
 vosotros bebéis
 vosotros bebíais
@@ -9584,12 +9614,14 @@ vosotros no partisteis
 vosotros no partís
 vosotros no predicáis
 vosotros no viviréis
+vosotros no viviríais
 vosotros no vivís
 vosotros partisteis
 vosotros partís
 vosotros predicáis
 vosotros publicáis un panfleto
 vosotros viviréis
+vosotros viviríais
 vosotros vivís
 voy a los llanos de Tixul, que ignoro dónde están.
 voy a reventar la puerta.
@@ -9864,6 +9896,7 @@ yo no soy el portero. nadie me pide permiso para entrar o salir.
 yo no soy muy de contarlo todo, rubia.
 yo no visito
 yo no viviré
+yo no viviría
 yo no vivo
 yo no viví
 yo no voy a ser
@@ -9899,6 +9932,7 @@ yo tuve un momento de duda:
 yo vi este sitio primero, ¿ vale?
 yo visito
 yo viviré
+yo viviría
 yo vivo
 yo viví
 yo voy a Necoxtla.
@@ -11027,6 +11061,7 @@ yo ya no puedo estar contigo.
 ¿ella ha partido?
 ¿ella ha vivido?
 ¿ella habrá vivido?
+¿ella hubiera vivido?
 ¿ella hubiese vivido?
 ¿ella no bebe?
 ¿ella no bebió?
@@ -11043,6 +11078,7 @@ yo ya no puedo estar contigo.
 ¿ella viviría?
 ¿ella vivió?
 ¿ella vivía?
+¿ellas habrán vivido?
 ¿ellas habrían partido?
 ¿ellas han bebido?
 ¿ellas han partido?
@@ -11050,6 +11086,7 @@ yo ya no puedo estar contigo.
 ¿ellas hubieron comido?
 ¿ellas hubiesen vivido?
 ¿ellas no han bebido?
+¿ellas no hubieran vivido?
 ¿ellas no hubiesen vivido?
 ¿ellas no partirían?
 ¿ellas no viven?
@@ -11099,10 +11136,13 @@ yo ya no puedo estar contigo.
 ¿había bebido?
 ¿había vivido?
 ¿habíais bebido?
+¿habíais vivido?
 ¿habíamos bebido?
+¿habíamos vivido?
 ¿habían bebido?
 ¿habían comido ellas?
 ¿habían comido ellos?
+¿habían vivido?
 ¿habías bebido?
 ¿habías vivido tú?
 ¿habías vivido?
@@ -11119,9 +11159,21 @@ yo ya no puedo estar contigo.
 ¿he vivido?
 ¿hemos bebido?
 ¿hemos vivido?
+¿hubiera vivido ella?
+¿hubiera vivido yo?
+¿hubiera vivido él?
+¿hubiera vivido?
+¿hubierais vivido?
+¿hubieran ellas vivido?
+¿hubieran ellos vivido?
+¿hubieran ustedes vivido?
 ¿hubieran vivido ellas?
 ¿hubieran vivido ellos?
+¿hubieran vivido ustedes?
 ¿hubieran vivido?
+¿hubieras tú vivido?
+¿hubieras vivido tú?
+¿hubieras vivido?
 ¿hubieron partido?
 ¿hubiese ella vivido?
 ¿hubiese vivido ella?
@@ -11148,6 +11200,7 @@ yo ya no puedo estar contigo.
 ¿hubieses vos vivido?
 ¿hubiste partido?
 ¿hubisteis partido?
+¿hubiéramos vivido?
 ¿hubiésemos nosotras vivido?
 ¿hubiésemos nosotros vivido?
 ¿hubiésemos vivido nosotras?
@@ -11190,20 +11243,30 @@ yo ya no puedo estar contigo.
 ¿no habéis partido?
 ¿no habéis vivido?
 ¿no había bebido?
+¿no había vivido yo?
 ¿no había vivido él?
 ¿no había vivido?
 ¿no habíais bebido?
 ¿no habíais comido?
+¿no habíais vivido?
 ¿no habíamos bebido?
+¿no habíamos vivido?
 ¿no habían bebido?
+¿no habían vivido?
 ¿no habías bebido?
 ¿no habías vivido tú?
 ¿no han bebido?
 ¿no han partido?
+¿no han vivido?
 ¿no has partido?
 ¿no he bebido?
 ¿no he vivido?
+¿no hemos vivido?
+¿no hubiera vivido?
 ¿no hubierais vivido?
+¿no hubieran ellas vivido?
+¿no hubieran ellos vivido?
+¿no hubieran vivido ellas?
 ¿no hubieran vivido ellos?
 ¿no hubieran vivido?
 ¿no hubiese ella vivido?
@@ -11248,12 +11311,15 @@ yo ya no puedo estar contigo.
 ¿no vives tú?
 ¿no vives?
 ¿no vivimos?
+¿no viviremos?
 ¿no vivirá usted?
 ¿no vivirá él?
 ¿no vivirá?
+¿no vivirán?
 ¿no vivirás?
 ¿no viviré yo?
 ¿no viviré?
+¿no viviréis?
 ¿no viviría ella?
 ¿no viviríamos?
 ¿no vivirían ellos?
@@ -11264,11 +11330,13 @@ yo ya no puedo estar contigo.
 ¿no vivía él?
 ¿no vivía?
 ¿no vivíais?
+¿no vivíamos?
 ¿no vivían?
 ¿no vivís vosotros?
 ¿no vivís?
 ¿nosotras hubiésemos vivido?
 ¿nosotras no hubiésemos vivido?
+¿nosotros hubiéramos vivido?
 ¿nosotros hubiésemos vivido?
 ¿nosotros no hubiésemos vivido?
 ¿partieron?
@@ -11292,6 +11360,7 @@ yo ya no puedo estar contigo.
 ¿tú habías vivido?
 ¿tú has bebido?
 ¿tú has vivido?
+¿tú hubieras vivido?
 ¿tú hubieses vivido?
 ¿tú no bebes?
 ¿tú no bebiste?
@@ -11299,15 +11368,18 @@ yo ya no puedo estar contigo.
 ¿tú no habrías partido?
 ¿tú no habías vivido?
 ¿tú no has bebido?
+¿tú no hubieras vivido?
 ¿tú no hubieses vivido?
 ¿tú no partirías?
 ¿tú no vives?
 ¿tú no vivirás?
+¿tú no viviste?
 ¿tú partes?
 ¿tú partirías?
 ¿tú vives?
 ¿tú vivirás?
 ¿tú vivirías?
+¿tú viviste?
 ¿usted bebe?
 ¿usted ha bebido?
 ¿usted ha vivido?
@@ -11328,13 +11400,16 @@ yo ya no puedo estar contigo.
 ¿ustedes beberían?
 ¿ustedes habrían partido?
 ¿ustedes han bebido?
+¿ustedes hubieran vivido?
 ¿ustedes hubiesen vivido?
 ¿ustedes no han bebido?
+¿ustedes no hubieran vivido?
 ¿ustedes no hubiesen vivido?
 ¿ustedes partieron?
 ¿ustedes partirían?
 ¿visito?
 ¿viva yo?
+¿vivamos?
 ¿vive?
 ¿viven ellas?
 ¿viven ellos?
@@ -11359,10 +11434,13 @@ yo ya no puedo estar contigo.
 ¿viviría?
 ¿viviríais?
 ¿viviríamos?
+¿vivirían ellas?
 ¿vivirían ellos?
 ¿vivirían?
 ¿vivirías?
 ¿viviste?
+¿vivió ella?
+¿vivió él?
 ¿vivió?
 ¿vivo yo?
 ¿vivo?
@@ -11402,6 +11480,7 @@ yo ya no puedo estar contigo.
 ¿yo beberé?
 ¿yo he bebido?
 ¿yo he vivido?
+¿yo hubiera vivido?
 ¿yo hubiese vivido?
 ¿yo no beberé?
 ¿yo no bebo?
@@ -11421,10 +11500,12 @@ yo ya no puedo estar contigo.
 ¿él habrá vivido?
 ¿él habría partido?
 ¿él había vivido?
+¿él hubiera vivido?
 ¿él hubiese vivido?
 ¿él no bebe?
 ¿él no ha bebido?
 ¿él no habría partido?
+¿él no hubiera vivido?
 ¿él no hubiese vivido?
 ¿él no vive?
 ¿él no vivirá?
@@ -11490,6 +11571,7 @@ yo ya no puedo estar contigo.
 él no predica
 él no vive
 él no viviere
+él no viviría
 él no vivió
 él parte
 él partió
@@ -11498,6 +11580,7 @@ yo ya no puedo estar contigo.
 él publica un panfleto
 él viviere
 él vivirá
+él viviría
 él vivió
 éstas ya serán poco menos que una reliquia del pasado
 íbamos al paso de nuestros caballos, abandonadas las riendas y distraídos en plática galante.

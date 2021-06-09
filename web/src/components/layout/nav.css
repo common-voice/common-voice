@@ -1,4 +1,4 @@
-@import url('../vars.css');
+@import url('../media.css');
 
 header {
     position: sticky;
@@ -89,6 +89,7 @@ header {
 
 .localization-select {
     position: relative;
+    font-family: 'Inter', sans-serif;
 
     &::before {
         content: '';

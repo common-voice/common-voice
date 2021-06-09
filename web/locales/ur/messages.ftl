@@ -871,10 +871,12 @@ card-button-next = آگے
 card-button-back = پیچھے
 demo-language-select-label = زبانیں براؤز کریں
 demo-eofy-header = 2019 سال آخری  ریلیز
+demo-eofy-sub_header = وائس ڈیٹا سیٹ، ڈاؤن لوڈ کے لیے میسر
 demo-account = ‏‏اکائونٹ
 
 ## Demo Account
 
+demo-account-card-header = شراکتیں شامل کرنے کے لیے کھاتے کی ضروری نہیں، گو مددگار ہے۔
 demo-account-enter-email =
     .label = سائن اپ ربط ارسال کرنے کے لئے ای میل درج کریں
 demo-account-sign-up = سائن اپ ربط بھیجیں

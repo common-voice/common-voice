@@ -83,7 +83,6 @@ kbd = Kabardinų
 kk = Kazachų
 ko = Korėjiečių
 kpv = Komių-zyrų
-ku = Kurdų
 kw = Hakų činų
 ky = Kirgizų
 lg = Luganda
@@ -281,8 +280,6 @@ profile-form-accent =
     .label = Tarmė (akcentas)
 profile-form-age =
     .label = Amžius
-profile-form-gender =
-    .label = Lytis
 leaderboard-visibility =
     .label = Matomumas lyderių lentelėje
 hidden = Nerodyti
@@ -308,7 +305,6 @@ profile-close = Užverti
 profile-explanation = Profilis Tau padės sekti savo progresą, o mums – padaryti balso duomenų rinkinį tikslesniu.
 thanks-for-account = Ačiū kad patvirtinai savo paskyrą. Dabar sukurkime tavo profilį.
 why-demographic = Kodėl tai svarbu?
-why-demographic-explanation = Nuasmeninti naudotojo duomenys – kaip antai kaip amžius, lytis ir tarmė – padeda pagerinti balso duomenų, naudojamų balso atpažinimo varikliukams apmokyti, tikslumą. Tavo naudotojo vardas ar el. paštas niekada nebus susietas su Tavo garso įrašais. Be to, Tu gali priimti sprendimą, ar nori, jog Tavo naudotojo vardas būtų matomas svetainėje.
 accept-privacy = Sutinku, kad mano duomenys būtų tvarkomi kaip aprašyta „Mozillos“ <privacyLink>Privatumo nuostatuose</privacyLink>
 accept-privacy-title = Privatumo nuostatai
 login-identity = Prisijungimo tapatybė
@@ -492,7 +488,6 @@ data-bundle-button = Parsisiųsti duomenų rinkinius
 data-bundle-description = „Common Voice“ ir visi aukščiau nurodyti duomenų rinkiniai.
 license = Licencija: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mišri
-data-download-singleword-callout = Šiame duomenų segmente yra duomenys, skirti sakytinių skaitmenų atpažinimui, žodžių „taip“ ir „ne“ aptikimui ir pažadinančio žodžio atpažinimui naudojant <fxLink>„Firefox Voice“</fxLink>.
 review-terms = Naudodamasis „Common Voice“, sutinki su <termsLink>Sąlygomis</termsLink> ir <privacyLink>Privatumo pranešimu</privatacyLink>
 terms-agree = Sutinku
 terms-disagree = Nesutinku
@@ -655,6 +650,7 @@ record-again-instruction = Šaunu!<recordIcon></recordIcon> Dabar įrašyk kitą
 record-again-instruction2 = Puiku, įrašinėkime toliau <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Paskutinis!
 review-tooltip = Čia peržiūrėk ir, jei reikia, iš naujo atlik įrašus
+share-common-voice = Dalinkitės „Common Voice“
 review-instruction = Peržiūrėk ir, jei reikia, iš naujo atlik įrašus
 record-submit-tooltip = { $actionType }, kad pateiktum šį savo įnašą
 clips-uploaded = Įkelta įrašų
@@ -674,6 +670,8 @@ record-button-label = Įrašyk savo balsą
 share-title-new = <bold>Padėk mums</bold> rasti daugiau balsų
 keep-track-profile = Sek savo pažangą profilyje
 login-to-get-started = Jeigu nori įsitraukti, prisijunk arba prisiregistruok
+target-segment-first-card = Jūs prisidedate prie mūsų pirmojo tikslinio segmento
+target-segment-first-banner = Padėkite sukurti pirmąjį „Common Voice“ { $locale } tikslinį segmentą
 target-segment-add-voice = Pridėk savo balsą
 target-segment-learn-more = Išsamiau
 
@@ -796,7 +794,7 @@ activity-needed-calculation-plural =
     } per dieną.
 how-many-per-day = Puiku! Kiek įrašų per dieną?
 how-many-a-week = Puiku! Kiek įrašų per savaitę?
-which-goal-type = Nori šnekėti, kalbėti ar užsiimti abiem veiklomis?
+which-goal-type = Nori kalbėti, klausytis ar daryti abu?
 receiving-emails-info = Šiuo metu esi pasirinkęs (-usi) gauti tikslų priminimus, savo progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu
 not-receiving-emails-info = Šiuo metu esi pasirinkęs (-usi) <bold>NEGAUTI</bold> tikslų priminimų, savo progreso ataskaitų ir „Common Voice“ naujienlaiškių el. paštu
 help-share-goal = Padėk mums rasti daugiau balsų, pasidalink savo tikslu
@@ -847,3 +845,18 @@ help-contribute = Tu gali padėti kurti įvairialypį, atvirą duomenų rinkinį
 login-company = Prisijunk arba užsiregistruok su savo „{ $company }“ el. paštu
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
 read-more-about = Išsamesnė informacija – tinklalapyje „Apie mus“
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

@@ -1421,6 +1421,7 @@ Galvenais ir neapskādēt grīdu.
 Galīgi saostījies.
 Gan jau neatteiktu.
 Gan jau satiksi kādu citu.
+Gan jau viņa grib nokniebties.
 Gandrīz esam klāt!
 Garš laiks. Atskrien uz brītiņu.
 Garšo pēc pelniem.
@@ -5883,6 +5884,7 @@ Tur jau tas sāls. Tas ir jautri.
 Tur mēs būsim drošībā.
 Tur nav, ko darīt.
 Tur skaļruņus, paklājus, galdu glāžu spēlei un alus pongam.
+Tur smird kā dirsā.
 Tur varot darīt visu.
 Tur, kur lēti.
 Turi līmenī.
@@ -6337,6 +6339,7 @@ Vai nesaprotat?
 Vai nevaram parunāt?
 Vai nu cipars, vai ģērbonis.
 Vai nu jūs, vai es.
+Vai nu piekritīs, vai piespiedīsi.
 Vai nu velti tev desmito reizi dzīvību glābu.
 Vai numuriņu izvietojuma plāns ir?
 Vai palīdzēt aiznest somas, kundze?
@@ -6589,6 +6592,7 @@ Veci laiki, veci darbi, jauni laiki, jauni darbi.
 Veciem kokiem dziļas saknes.
 Vecs, bet ne novecojis.
 Vecā balss.
+Vecā labprāt uzsēstos tev uz ģīmja.
 Vecāki?
 Vecīt, vai neredzēji divus pajoliņus oranžos tērpos?
 Vecītis būs ievērojis, ka biji labs zēns.
