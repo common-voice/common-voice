@@ -387,8 +387,10 @@ glossary = Glussariu
 localization = Lucalizazione
 localization-explanation = Questu hè u nostru prucessu pà traduce è adattà u nostru cuntinutu à mori di lingue.
 sentence-collection = Racolta d'infrasate
+sentence-collection-explanation = Racoglie infrasate da u duminiu publicu, o scrive nove infrasate pà u duminiu publicu.
 hours-recorded-explanation = U contu di l'ori arrighjistrati sin'à avà.
 sst = Discorsu-à-u-testu (Speech-to-text, STT)
+de-identified = Anonimizatu
 
 ## Error pages
 
@@ -494,6 +496,7 @@ other-language = Altra lingua
 ## Languages Overview
 
 language-section-in-progress = In prugressu
+language-section-in-progress-new-description = Isse lingue sò pà avà in sviluppu da a cumunità. E barre di prugressu indicanu à chì ne sò di ﻿<localizationGlossaryLink>a lucalisazione di u situ web</localizationGlossaryLink> è di <sentenceCollectionGlossaryLink>a culletta di l'infrasate</sentenceCollectionGlossaryLink>.
 language-section-launched = Cumminciatu
 languages-show-more = Vede di più
 languages-show-less = Vede menu
@@ -508,6 +511,8 @@ total-hours = Ore cunvalidate
 
 ## Contribution
 
+action-click = Preme
+action-tap = Appughjà
 contribute = Cuntribuisce
 skip = Scappà
 shortcuts = Scurtatoghji
@@ -536,6 +541,7 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> quandu vo l'avete
 record-three-more-instruction = Più chè trè !
 record-again-instruction = Bravu ! <recordIcon></recordIcon> Arrigistrà u vostru prossimu campionu
 record-again-instruction2 = Cuntinuate cusì, arrighjistrate vi torna <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> L'ultimu !
 review-tooltip = Verificà è riarrighjistrà i campioni quì pocu à pocu
 share-clip = Sparte u vostru campionu
 share-common-voice = Sparte Common Voice
@@ -615,6 +621,11 @@ difficult-difficulty = Difficiule
 pro-difficulty = Prufessiunale
 want-to-continue = Vulete cuntinuà ?
 build-custom-goal = Definisce un scopu parsunale
+help-reach-hours-pluralized =
+    Aiutateci à ghjunghje { NUMBER($hours) ->
+        [one] { $hours } ora
+       *[other] { $hours } ore
+    } in { $language } cù un scopu parsunale
 help-reach-hours-general-pluralized =
     Aiutate Common Voice à ghjunghje { NUMBER($hours) ->
         [one] { $hours } ora
@@ -647,6 +658,7 @@ profile-form-delete = Sguassà u prufilu
 
 ## Landing
 
+welcome-staff = Benvenuta à l’impiegati di { $company } !
 help-contribute = Pudeti aiutà à custruisce una banca vucala, diversificata è in accessu liberu creendu un prufilu è agghjustendu a vostra voce.
 login-company = Identificassi / Arrighjistrassi cù l’indirizzu elettronicu di { $company }
 profile-not-required = Ùn c'hè bisognu di contu pà cuntribuisce ancu s'ellu hè ghjuvevule, vede perchè quì sottu.
