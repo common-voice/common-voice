@@ -43,6 +43,7 @@ el = Grecu
 en = Inglese
 eo = Esperanto
 es = Spagnolu
+eu = Bascu
 fa = Persianu
 fi = Finlandese
 fr = Francese
