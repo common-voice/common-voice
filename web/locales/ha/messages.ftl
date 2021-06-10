@@ -103,8 +103,8 @@ mhr = Yaren Meadow Mari
 mk = Yaren Macedonia
 ml = Yaren Malayalam
 mn = Yaren Mongolia
-mos = Mossi
-mr = Marathi
+mos = Mutanen Mossi
+mr = Mutanen Marathi
 mrj = Yaren Hill Mari
 ms = Malayawa
 mt = Yaren Maltese
@@ -281,6 +281,7 @@ shortcut-record-toggle-label = Yi Rekodin/ Tsaya
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Kara daukan shirin
 shortcut-submit = Komowa
+shortcut-submit-label = Shigar da sashin shirin
 request-language-text = Ba kaga Yaren kaba a Common Voice ba har yanzu?
 request-language-text-learn = koyi yadda zaka nema anan!
 request-language-button = Nemi izinin wani yaren
@@ -360,6 +361,8 @@ browse-file = Jawo ka saka ko ka <browseWrap>Dakko</browseWrap>
 connect-gravatar = Haɗa tare da Gravatar
 gravatar_not_found = Ba'a samu hoton gravatar na imel ɗinka ba
 file_too_large = Fayil ɗin da aka zaɓa ya yi girma sosai
+avatar-uploaded = Hawar da Avatar
+max-file-size = dola kb mafi yawa
 
 ## Profile - Email
 
