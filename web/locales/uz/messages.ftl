@@ -854,6 +854,11 @@ demo-welcome-subheader = Qoʻshimcha maʼlumot olish va loyihaga oʻz hissangizn
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice — bu dunyodagi eng yirik, koʻp tilli ovozli maʼlumotlar toʻplami.
+demo-language-select-card-body = 259 mingdan ortiq odam 50 dan ortiq tilga qoʻshga hissalari uchun tashakkur aytamiz. Ushbu toʻplangan maʼlumotlar inson ovoziga yana tezroq javob qaytarishi uchun nutqni aniqlash dasturlarini oʻrgatish uchun ishlatiladi.
+card-button-next = Keyingisi
+card-button-back = Ortga
+demo-language-select-label = Tillarni koʻrib chiqish
+demo-eofy-header = 2019-yilning soʻngi nashri
 
 ## Demo Account
 
