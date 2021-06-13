@@ -521,6 +521,7 @@ dataset-date = Sana
 license = Litsenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Aralash
 data-download-singleword-title = Yagona soʻz maqsadli segmentini yuklab oling
+data-download-singleword-callout-v2 = Bu ishlatilishiga koʻra tartiblangan qism — aytilgan raqam va ha/yoʻqni aniqlash sifatini kuchaytiruvchi maʼlumotlarni oʻzi ichiga olgan.
 review-terms = Common Voice loyihasidan foydalanish bilan siz bizning <termsLink>Shartlar</termsLink>imiz va <privacyLink>Maxfiylik siyosati</privacyLink>mizga rozilik bildirgan hisoblanasiz.
 terms-agree = Roziman
 terms-disagree = Noroziman
@@ -692,6 +693,7 @@ share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
 keep-track-profile = O'zingizning profilingizda profilingizni kuzatib boring
 login-to-get-started = Boshlash uchun tizimga kiring yoki ro'yxatdan o'ting
 target-segment-first-card = Siz bizning birinchi maqsad segmentimizga oʻz hissangizni qoʻshmoqdasiz
+target-segment-generic-card = Siz maqsadli qismga oʻz hissangizni qoʻshyapsiz
 target-segment-first-banner = { $locale }da Common Voice’ning birinchi maqsadli segmentini yaratishga yordam bering
 target-segment-add-voice = Ovozingizni qoʻshing
 target-segment-learn-more = Batafsil maʼlumot
@@ -783,6 +785,11 @@ help-reach-hours-pluralized =
         [one] bir soat
        *[other] ikki soat
     }
+help-reach-hours-general-pluralized =
+    Common Voiceʼga ushbu tilda{ NUMBER($hours) ->
+        [one] { $hours } soatli
+       *[other] { $hours } soatli
+    }maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
 set-a-goal = Maqsad qo'ying
 cant-decide = Qaror berolmaysizmi?
 how-many-per-day = Ajoyib! Kuniga nechta klip?
@@ -794,6 +801,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Ayni paytda siz elektron pochta xabarlarini, masalan, maqsadli eslatmalarni, qabul qila olasiz
     Umumiy ovoz haqida yangiliklar va yangiliklar
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ta ovoz
+       *[other] { $count } ta ovoz
+    }
 help-share-goal = Ko'proq ovozlarni topishga yordam bering va maqsadingizni baham ko'ring
 confirm-goal = Ochishni tasdiqlash
 goal-interval-weekly = Haftalik
