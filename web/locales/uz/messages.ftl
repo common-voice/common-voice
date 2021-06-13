@@ -859,9 +859,12 @@ card-button-next = Keyingisi
 card-button-back = Ortga
 demo-language-select-label = Tillarni koʻrib chiqish
 demo-eofy-header = 2019-yilning soʻngi nashri
+demo-eofy-sub_header = Audio maʼlumotlar toʻplami, Yuklab olishga tayyor
+demo-account = Akkaunt
 
 ## Demo Account
 
+demo-account-card-header = Hissa qoʻshish uchun akkaunt ochish shart emas, lekin foydali boʻlmasdan qolmaydi.
 
 ## Demo Contribute
 
