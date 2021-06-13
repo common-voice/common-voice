@@ -251,7 +251,8 @@ whats-public = Qaysi maʼlumotlar barcha uchun ochiq?
 email-not-public = Emailingizni sizdan boshqa hech kim koʻrmaydi.
 recordings-and-locale-public = Yozuvlar soni va qaysi tillarga qo'shganligingiz hammaga ma'lum bo'ladi.
 username-optin-public = Siz o'z foydalanuvchi nomingizni ochiq yoki anonim qilishni tanlashingiz mumkin.
-username-email-not-demographic = Foydalanuvchi nomingiz va elektron pochta manzilingiz e'lon qilingan ma'lumotlar bilan bog'lanmaydi.
+demographic-deidentified-clarity-2 = Ixtiyoriy tarzda taqdim etilgan demografik maʼlumotlar (masalan yosh, jins, til va sheva) hech qachon ochiq holda koʻrsatilmaydi va maʼlumotlar omborida sizning akkauntingizga biriktirilmaydi. Yakka holdagi audio yozuvlar demografik maʼlumotlar bilan aniqroq tahlil qilish uchun biriktiriladi. Masalan, tadqiqotchi oʻrgatayotgan modelini ayni bir demografik segmentga xoslashi mumkin.
+username-email-not-demographic = Foydalanuvchi nomingiz va elektron pochta manzilingiz eʼlon qilingan maʼlumotlar bilan bogʻlanmaydi.
 
 ## Speak & Listen Shortcuts
 
@@ -279,6 +280,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Yozib olish/To‘xtatish
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klipni qayta yozish
+shortcut-submit = Joʻnatish
+shortcut-submit-label = Ovozni yuborish
 request-language-text = Common Voice loyihasida ona tilingizni ko‘rmayapsizmi?
 request-language-text-learn = Qanday qilib soʻrashni bu yerda bilib oling!
 request-language-button = Til qo‘shishni so‘rang
@@ -336,6 +339,7 @@ profile-close = Yopish
 profile-explanation = Profilingiz yordamida jarayonni kuzatib boring va ovoz ma’lumotlarining aniqligiga yordam bering.
 thanks-for-account = Hisobingizni tasdiqlaganingiz uchun rahmat. Endi profil yarating.
 why-demographic = Bu nega kerak?
+why-demographic-explanation-2 = Yosh, jins yoki sheva kabi anonim holdagi foydalanuvchi maʼlumotlari nutqni aniqlash mashinalarining aniqligi ustida ishlashda qoʻllaniladigan audio maʼlumotlarning sifatini oshirishda yordam beradi.
 accept-privacy = Mozillaning <privacyLink>Maxfiylik siyosati</privacyLink>da koʻrsatilganidek maʼlumotlarimdan foydalanishlariga roziman.
 accept-privacy-title = Maxfiylik siyosati
 login-identity = Kirish uchun identifikator
