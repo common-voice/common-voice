@@ -891,3 +891,4 @@ demo-listen-subtitle = Hissa qoʻshishga tayyormisiz?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Shaxsiy boshqaruv panellari sizni individual va jamoaning oʻsishi toʻgʻrisida xabardor qilib turadi.
