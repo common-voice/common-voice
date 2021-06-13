@@ -847,9 +847,13 @@ read-more-about = Batafsil ma'lumotni bizning sahifamizda o'qing
 
 ## DemoLayout
 
+demo-get-started = Qani, boshladik
+demo-welcome = Common Voiceʼga xush kelibsiz
+demo-welcome-subheader = Qoʻshimcha maʼlumot olish va loyihaga oʻz hissangizni qoʻshishni xohlaysizmi?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice — bu dunyodagi eng yirik, koʻp tilli ovozli maʼlumotlar toʻplami.
 
 ## Demo Account
 
