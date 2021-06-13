@@ -792,6 +792,20 @@ help-reach-hours-general-pluralized =
     }maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
 set-a-goal = Maqsad qo'ying
 cant-decide = Qaror berolmaysizmi?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } soatli kontentni
+       *[other] { $totalHours } soatli kontentni
+    }taxminan,{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } oy muddatda yakunlasa boʻladi
+       *[other] { $periodMonths } oy muddatda yakunlasa boʻladi
+    }agar{ NUMBER($people) ->
+        [one] { $people } ta odam
+       *[other] { $people } ta odam
+    }kuniga{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } ta ovoz
+       *[other] { $clipsPerDay } ta ovoz
+    }yozsa.
 how-many-per-day = Ajoyib! Kuniga nechta klip?
 how-many-a-week = Ajoyib! Kuniga nechta klip?
 which-goal-type = Gapirishni, tinglashni yoki ikkalasini ham xohlaysizmi?
@@ -865,9 +879,15 @@ demo-account = Akkaunt
 ## Demo Account
 
 demo-account-card-header = Hissa qoʻshish uchun akkaunt ochish shart emas, lekin foydali boʻlmasdan qolmaydi.
+demo-account-card-body = Oʻng tomonda bu loyihadan qanday foydalar borligini va qanday maʼlumotlarni ommaga oshkor qilishimizni tushuntirib oʻtamiz. Oʻz qurilmangiz orqali Common Voice akkauntingizda ishlashni boshlash uchun quyidagi havolalardan foydalaning.
+demo-account-enter-email =
+    .label = Roʻyxatdan oʻtish havolasini yuborish uchun elektron pochtangizni kiriting
+demo-account-sign-up = Roʻyxatdan oʻtish havolasini yuborish
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ovozingizni qoʻshishga yoki qulogʻingizni ding qilishga tayyormisiz?
+demo-listen-subtitle = Hissa qoʻshishga tayyormisiz?
 
 ## Demo Dashboard
 
