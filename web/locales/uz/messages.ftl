@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ha, menga xat yuboring. Men Common Voice loyihasi haqida xabardor boʻlib turishni xohlayman.
+yes-receive-emails = Xabarlar yuborib turilishiga roziman. Men “Common Voice” loyihasi haqida koʻproq bilishni istayman.
 stayintouch = Mozilla ovoz texnologiyasi boʻyicha butun dunyo tillari jamoalarini tuzmoqda. Yangiliklar, yangi maʼlumot manbalari va bu maʼlumotlardan qanday foydalanish boʻyicha koʻrsatmalarni sizga yuborib turamiz.
 privacy-info = Biz maʼlumotlaringizni ehtiyot qilamiz. <privacyLink>Maxfiylik siyosati</privacyLink> haqidagi maʼlumotlarni oʻqib chiqing.
 return-to-cv = Common Voiceʼga qaytish
