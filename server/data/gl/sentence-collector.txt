@@ -169,6 +169,7 @@ A conciencia é verde e comeuna un burro.
 A "resaca" dos Azores
 A Asociación pola Defensa da Ría tampouco outorgou credibilidade a estas informacións.
 A Audiencia investiga se De Juana enalteceu o terrorismo
+A Axencia Española de Protección de Datos.
 A Bolsa acada o maior rendemento da década
 A Bolsa española anticipa a futura baixada dos tipos
 A Bolsa española rexistra as maiores caídas das prazas europeas
@@ -179,6 +180,7 @@ A Comisión de Enerxía aproba a fusión entre Endesa e Iberdrola
 A Consellería crea a súa páxina
 A Constitución de Estados Unidos non recoñece ningunha lingua como oficial.
 A Contrarreforma instaurou o Barroco como estilo oficial da Igrexa Católica
+A Coruña
 A Coruña era, certamente, un destino tan bo coma outro calquera.
 A Coruña seica ten praia
 A Coruña, Lugo, Ourense, Pontevedra
@@ -200,6 +202,10 @@ A Galiza global
 A Garda Civil búscate.
 A Grande Nai das orixes.
 A Leflet e Neyra tamén lles gustan os barcos
+A Lei do oito de novembro, de prevención de riscos laborais.
+A Lei, do catro de outubro, xeral de saúde pública.
+A Lei, do tres de xullo, de investigación biomédica.
+A Lei, do vinte e un de novembro, de ordenación das profesións sanitarias.
 A Marola é un illote que está diante do porto de Dexo.
 A María acabóuselle o paro e non sabe que vai facer agora.
 A Mauricio Nogueira entroulle unha alegría algo parva por non se ter trabucado.
@@ -211,6 +217,7 @@ A Nosa Terra prepara un libro que recollerá as súas colaboracións
 A Pedra dos Ladróns servía de acubillo aos perseguidos
 A Pepe dóelle un pé.
 A Policía detén catro romaneses por furtar material informático
+A Presidencia da Axencia Española de Protección de Datos.
 A Quenlla non entra, felizmente, nese canon de vivir temporalmente da música.
 A Rachatreboadas?
 A Relatividade Xeral é a descrición estándar da teoría gravitacional clásica
@@ -238,6 +245,7 @@ A acción para reclamar o recoñecemento da condición de comuneiro prescribe ao
 A administración local aínda anuncia agora un estudo para comprobar a canalización do río.
 A administración é a única que se libra".
 A adopción é irrevogable.
+A afectación aos dereitos dos menores.
 A agorafobia éche unha doenza terrible, creme.
 A agricultura era o meu.
 A aira e a cociña sempre é miña
@@ -344,6 +352,7 @@ A chanceler Angela Merkel ao recoller o seu doutoramento honorífico pola Univer
 A chegada da luz
 A choiva caía e interfería co son que facían os fogos artificiais.
 A choiva remitira e agora non era máis que un fino orballo.
+A chorar a Cangas
 A chuvia caeu todo o día.
 A chuvia de febreiro fai o palleiro.
 A cidade achábase en alerta vermella a causa dunha fenda na parede do encoro.
@@ -439,6 +448,7 @@ A diferenza é que hai máis vasos e menos pratos.
 A dilatación do tempo era igual de abraiante.
 A dinamita non existía.
 A directora di que o programa loita por "sobrevivir na xungla de multipantallas"
+A disposición adicional terceira dítase ao abeiro do artigo nove da Constitución.
 A distracción depende dunha gran paixón ou dunha gran sensibilidade.
 A domadora, ou razón, usurpa o seu lugar e goberna así o obstinado.
 A dor cando non se volve un verdugo, é un grande mestre
@@ -518,6 +528,7 @@ A filla do granxeiro acadou sona pola súa destreza como tecelá.
 A filosofía multipolar
 A fin de contas tan só é un rublo e medio...
 A fin do xogo
+A finalidade do tratamento.
 A firma láctea granadina non recorrerá á venda da súa parte de Clesa
 A fiscalía estuda acusar de escravitude a Josef Fritzl
 A flutuación cuántica
@@ -672,6 +683,7 @@ A min tamén me gustaría tomar un vodka contigo.
 A min, coma sempre, atopáronme en coma.
 A ministra de Educación e Ciencia, Mercedes Cabrera, onte, durante o Pleno do Congreso
 A miserenta chusma venérao igual ca os turcos a Mahoma.
+A miña amiga sempre fala moito comigo
 A miña andrómena causou impresión.
 A miña carne xacía alí, encerrada nunha cela.
 A miña cela está petada de funcionarios e altos cargos.
@@ -856,6 +868,7 @@ A pregunta é quen vai chascar os dedos?
 A pregunta, admito, desconcertoume.
 A preocupación do seu pai cambiara de repente de obxectivo.
 A presa é inimiga da perfección.
+A presente lei ten o carácter de lei orgánica.
 A presenza de hidróxeno pode estudarse tamén noutras galaxias
 A presenza romana pódese constatar nos traballos de extracción de ouro
 A presidenta de Nuevas Generaciones de Galicia, María Seoane, desménteo
@@ -1151,6 +1164,7 @@ A vida si que é a realidade e o misterio.
 A vida é a farsa que todos temos que levar.
 A vida é tirana, mais non unha abusona.
 A vide e a xesta co demo en testa
+A vinculación da actividade do infractor coa realización de tratamentos de datos persoais.
 A vinganza é un prato que se serve frío.
 A violencia do veleno tórceme os membros, faime deforme, derríbame.
 A vis cómica de Els Joglars está asegurada.
@@ -1162,6 +1176,7 @@ A vostede correspóndelle a responsabilidade.
 A voz de Alec Ounsworth atrasa posicións.
 A voz do demo
 A voz do inverno escóitase atrás da porta.
+A vulneración do deber de confidencialidade establecido no desta lei orgánica.
 A véspera do vintecinco de xullo, Día da Galiza
 A vía céltica.
 A xantar dado, non se olla o mollo
@@ -1248,6 +1263,7 @@ Acaso non teme as cousas peludas?
 Acaso non é ese o principio básico dos homes? Ah… nada ten sentido.
 Acaso os "Globos de Ouro" non os concede a Asociación de Xornalistas Estranxeiros?
 Accederase ós vídeos máis emblemáticos
+Acceso aos arquivos públicos e eclesiásticos.
 Accións relacionadas coa prevención de enfermidades evitables no medio escolar
 Acendo a pipa e sento no sofá.
 Acendo a pipa.
@@ -1279,18 +1295,21 @@ Aconteceu en Minnesota, na vella granxa.
 Aconteceu hai moito moito tempo.
 Acordamos que o obxectivo da vida era producir boas persoas e bos libros
 Acordamos que un bo home debía ser sempre honesto, pasional e pouco materialista.
+Acordo de inicio do procedemento para o exercicio da potestade sancionadora.
 Acordo galaico portugués sobre a venda de pedras ornamentais
 Acordábanse de un, dous, tres, catro, cinco e seis pero esqueceran os seguintes.
 Acordádesvos de cando houbo unha pastelaría en Rebordaos?
 Acouga —respondeu o terrible rei—.
 Acouga. Téñote, neno.
 Acouguei un retrinco pra respirar.
+Acreditación de institucións de certificación.
 Activa o protocolo.
 Activar a morte instantánea.
 Actividades sanitarias
 Actividades sanitarias en relación cos alumnos
 Actividades sanitarias en relación cos edificios escolares, instalacións e material
 Acto seguido fíxolle entrega dunha pequena caixa lacada e atada cun fío de seda.
+Actuacións previas de investigación.
 Actualizan os datos da area sanitaria tódolos días.
 Actualmente Martín Criado dirixe o Grupo Alime.
 Actualmente traballa na embaixada brasileira en Madrid.
@@ -1355,6 +1374,7 @@ Adiante, espernexa dunha vez! Pero non armes tanto escándalo, carallo!
 Adiará todo o posible o derrubamento de vivendas ilegais
 Administración
 Admira a Rivaldo e ten o corazón deportivista malia criarse na cidade olívica.
+Admisión a trámite das reclamacións.
 Admitimos que non, antes o mundo dixital estaba discriminado.
 Adoitaba facer referencias á súa masculinidade
 Adorando á miña nai por ter dez, e á miña avoa por ter quince.
@@ -1422,6 +1442,7 @@ Agora haberá máis leas, e máis revoltas, e máis profetas lapidados.
 Agora hai máis capacidade de diálogo coas outras administracións, por exemplo.
 Agora iremos ao palacio do meu pai, onde sempre impera o azul.
 Agora mesmo están a levar a cabo a execución.
+Agora mesmo non teño fame, igual como algo máis tarde.
 Agora mesmo teño ben delas para mirar.
 Agora nin el mesmo o sabe.
 Agora non lle tires o carrete á túa ex.
@@ -1566,6 +1587,7 @@ Albert Einstein foi un físico de relevancia
 Albárdase o burro á vontade do dono
 Alcaide, debería poñelo ó fronte dos teares, pois é un mestre da ineficacia.
 Alcaide: é vostede un burro −dei en dicir por fin, con fría claridade−.
+Alcance da actividade de investigación.
 Alcanzouse a ocupación máxima.
 Alegaba que esa lei lle daba demasiados poderes ao goberno
 Alegría, alegría.
@@ -1634,7 +1656,9 @@ Algúns tíñano por un profeta, mais a maioría coidaban que estaba tolo.
 Algúns uníronse a nós.
 Alicia no País das Marabillas
 Alleo á cultura do ha ha ha.
+Almorcei torradas con manteiga.
 Almorzo para cear?
+Almunia ataca a Aznar cos resultados do cumio de Berlín
 Aloitadores
 Alta tecnoloxía
 Alternativa contra a escasa rendibilidade da bolsa e do aforro
@@ -1656,6 +1680,7 @@ Alégrame dicir que non.
 Alégrame, polo menos, que o meu non sexa considerado un caso grave!
 Alégrome moitísimo que aparecese vostede!
 Alén das fronteiras
+Alí a vexetación estaba ben vizosa
 Alí acontecen novidades decontino:
 Alí as casas e vilas non se parecen en nada:
 Alí chovía moito.
@@ -1842,6 +1867,8 @@ Aos meus pés xacía un pequeno e rudo terrier.
 Aos poucos meses, Álvarez volvía a Galiza _comezara no Lugo_ nas fileiras do Dépor.
 Aos poucos, a chuvia foi amainando
 Aos seus habitantes non lles está permitido exportar nada relacionado, mesmo indirectamente, co padal.
+Aos tratamentos de datos de persoas falecidas, sen prexuízo do establecido no apartado ce
+Aos tratamentos sometidos á normativa sobre protección de materias clasificadas.
 Aos vellos non nos agrada que nos digan que somos vellos.
 Aparcaches ben?
 Aparece nunha vella fotografía en branco e negro
@@ -1999,6 +2026,7 @@ As Xemas do Infinito.
 As abas dos montes son pouco pendentes e as ribeiras son amplas
 As abellas parecen ser as primeiras vítimas do cambio de clima.
 As actitudes reflicten as diferenzas políticas entre as dúas comunidades
+As actividades divulgativas anteriormente referidas identificarán de modo destacado a súa natureza electoral.
 As acusacións non serven de nada se non hai probas
 As alucinacións son innumerables.
 As amizades e os amoríos que bonitos son
@@ -2008,6 +2036,7 @@ As arcas do Estado medrarán por mor dos novos impostos
 As artes visuais avanzaron porque están ao noso arredor.
 As asociacións constituídas polas administracións, organismos e entidades mencionados nas letras anteriores.
 As autodefinicións dun pensador e activista político
+As autoridades administrativas independentes.
 As axudas pola vaga:
 As bolsas reaccionaron á baixa fronte á crecente incerteza
 As bolsas terán en conta o nivel de renda do lugar
@@ -2023,6 +2052,7 @@ As ceas cos empregados son un antes e un despois para os novos empregados.
 As cinco en punto.
 As cinsas de Echevarría repousarán no mar vasco
 As cinzas vanse esparexer en Donosti, nas augas do Cantábrico.
+As circulares serán obrigatorias unha vez publicadas no «Boletín Oficial del Estado».
 As circunstancias que converten o artista nun creador que nunca perecerá.
 As clases suprímense.
 As claves teñen orixe afro-cubana
@@ -2042,6 +2072,7 @@ As cousas xestiónanse dun modo bastante distinto en Occidente.
 As cuestións que expoñíamos ían dirixidas a oito
 As células intégranse formando tecidos que, pola súa parte, forman órganos.
 As células nai son capaces de se autorrenovaren indefinidamente por división mitótica
+As decisións tomadas polo Consello Consultivo non terán en ningún caso carácter vinculante.
 As defensas italianas estiveron a punto de colapsarse
 As devolucións corresponden a tódolos importes solicitados.
 As diferenzas químicas son difíciles de establecer
@@ -2055,12 +2086,19 @@ As dúas faccións reivindicaron a súa lexitimidade
 As dúas primeiras semanas de setembro son as festas parroquiais
 As efedras traíanas de Melilla para tratar os enfermos de asma.
 As eleccións do día seguinte gañounas o de Perbes.
+As empresas de seguranza privada.
+As empresas de servizos de investimento, reguladas pola lexislación do mercado de valores.
 As empresas debían crear un posto de traballo para responder curriculos.
 As empresas deciden.
+As entidades acreditadas de supervisión dos códigos de conduta.
+As entidades aseguradoras e reaseguradoras.
+As entidades de certificación.
 As entidades xestoras e os servizos comúns da Seguridade Social.
 As escamas hanlles servir para algo, digo eu.
 As escolas desenvolven estes días actividades polo Día das Letras Galegas
+As especialidades do procedemento remítense ao desenvolvemento regulamentario.
 As especies máis comúns son o bidueiro, o abeto e o piñeiro
+As especies superiores, ás veces, están por baixo das inferiores
 As estradas son un fervedoiro de camionetas, todoterreos, coches e algún rickshaw perdido.
 As estreitas canellas que percorrín eran horriblemente insalubres, inmundas e lamacentas.
 As estrelas brillaban, estremecidas, e a escuridade cinguíaos.
@@ -2070,6 +2108,7 @@ As exportacións ata setembro achéganse o billón de pesetas
 As faces pensativas.
 As fadas teñen o poder de curar e mudaren de forma
 As familias non podían casar entre elas e
+As federacións deportivas cando traten datos de menores de idade.
 As feiras de gando xa non son o que eran.
 As femias deciden cal dos machos será o dominante
 As fiestras non están limpas.
@@ -2079,12 +2118,14 @@ As flores ficaban frescas, firmes na terra.
 As follas cobren mestas a senda das lembranzas.
 As follas verdes.
 As follas… xa nada suspiran cando o ano as toma na caída.
+As fontes de que procedan os datos.
 As fontes dos núcleos, urbanos enriquecen o espazo público
 As formas desintégranse na eterna nada da que non se torna.
 As formas desta especie varían segundo o hábitat
 As foulas levantaban a dorna en alto
 As frecuencias intermedias son vistas como azul
 As fundacións do sector público previstas na lexislación en materia de fundacións.
+As fundacións do sector público.
 As galiñas fan bo caldo.
 As gasolineiras deixarán de te-la exclusiva na venda de carburantes
 As grandes mentes pensan parecido. Os polos eran xusto o que tiña... na cabeza.
@@ -2153,6 +2194,7 @@ As patacas xa están escoadas
 As pedras voaban e saltaban faíscas ó seu paso.
 As penas extraen.
 As pensións son un dereito dos traballadores.
+As perolas de plásticos non che son boas
 As persoas afectadas non poden traballar
 As persoas afectadas non requiren coidados médicos
 As persoas estamos feitas de moitos pasados, moitas vivencias.
@@ -2213,10 +2255,12 @@ As toallas que mercamos en Portugal saíron moi boas.
 As tropas dedicábanse a sufocar rebelións dentro e fóra da illa
 As tropas marcharon e volveron dúas veces á procura dos fuxidos
 As tropas proclamaron de inmediato ao seu fillo como rei
+As universidades públicas.
 As vacacións de Mr Bean
 As vacacións do Breogán están pendentes dun fío
 As verduras e hortalizas teñen moitas vitaminas e minerais.
 As verzas en outono matan ao seu dono
+As vilas, as aldeas, as parroquias, os concellos, as cidades
 As violetas non?
 As vosas vaguedades cumprido fin terán;
 As xemas están no pasado.
@@ -2278,6 +2322,9 @@ Así mellor. Estás pensando na comida?
 Así mesmo pareceulles ben face-lo casamento ó xeito pastoril.
 Así mesmo recordou que por primeira vez na historia as devolucións comezarán en maio.
 Así mesmo, di que, coas impugnacións expostas, estase "menoscabando" a autonomía política da comunidade.
+Así mesmo, informarán os afectados da transferencia e dos intereses lexítimos imperiosos perseguidos.
+Así mesmo, non poderá ser removido, salvo nos supostos de dolo ou neglixencia grave.
+Así mesmo, poderán constituír grupos de traballo para tratar asuntos específicos de interese común.
 Así non hai quen traballe!
 Así nos ven.
 Así o anunciou a subdirectora xeral de Seguridade e Saúde Laboral, María Coutinho.
@@ -2352,6 +2399,7 @@ Así, aínda que che semelle unha contradición, estarías algo máis protexido.
 Así, coa levidade dunha sombra, foron saíndo unha tras outra.
 Así, eles navegaban brizados de remar, porque non había vento.
 Así, evitábase o control da maioría por parte dos nórdicos.
+Así, fóronse adoptando en distintas instancias internacionais propostas para a reforma do marco vixente.
 Así, insistiu en que o Executivo autonómico "non ten ningunha pretensión de dar indicacións".
 Así, libre da tortura, fun quen de vadiar polo tempo, a vontade.
 Así, nada de vellez, nin de perigos: o terror non é francés.
@@ -2438,7 +2486,9 @@ Aunar esforzos
 Autocoidado, coñecemento da saúde, estilo de vida, ambiente, hábitos
 Automóbil
 Autor: Luigi Lunari
+Autoridades autonómicas de protección de datos
 Autoridades cubanas visitan a Cámara de Comercio compostelá
+Autoridades de protección de datos.
 Autovía
 Avanzaba por unha estrada branca mentres contemplaba o litoral.
 Avanzan sen piedade.
@@ -2460,6 +2510,7 @@ Axudaranos, ¿verdade?
 Axudareiche a regresar ao meu carón se fas o que che digo.
 Axudou.
 Axudáchesme ti.
+Axuizamento civil.
 Axéitame a polainiña, axéitame a polainá, axéitama diste lado que destoutro xa che está.
 Axúdame a facer as camas, ho!
 Axúdame! Axúdame!
@@ -2665,6 +2716,7 @@ Bingo. Non funciona así.
 Biografía.
 Bitcoin é a criptomoeda de moda
 Blasfemo e herético alcaide de San Quintín! Moi pronto arderás no Inferno!
+Bloqueo dos datos.
 Bloqueáronme por unha semana
 Bo foi que non levaba comigo un revólver que se non, matábao alí mesmo.
 Bo traballo. Xúntate comigo na calella.
@@ -2683,6 +2735,7 @@ Boa travesía, meu amigo!
 Boa viaxe!
 Boa árbore, bos froitos.
 Boadella aproveita para incluír descarnadas caricaturas alusivas á actualidade:
+Boas avó, teño moitas ganiñas de verte
 Boas noites!
 Boas noites, vou para a cama; estou moi cansa
 Boas noites.
@@ -2790,6 +2843,7 @@ Cada unha das súas ventás e fendas parecía querer estalar polos tesouros que 
 Cada vez a política dos socialistas en Vigo semella máis enrevesada e difícil.
 Cada vez entraba antes na negrume.
 Cada vez que morría alguén, quitabámoslle a roupa.
+Cada vez que o penso...
 Cada vez que se atopan andan ás agarradas
 Cada vez que te vexo estás máis bonita
 Cada vez téñolle máis manía a esa xente.
@@ -2906,6 +2960,7 @@ Cando a luz medrou algo, padre xa estaba pronto para recibilos.
 Cando a primeira parte fai acto de presenza, o resto atrapállase na memoria.
 Cando aburran o xogo, desfaranse de nós.
 Cando acababan as leccións, con todo, xeralmente remataba tamén o seu mal humor.
+Cando baixes, leva contigo o libro
 Cando cadra Entroido este ano?
 Cando chegou ao destino, xa empardecera, e todo o mundo marchara para a cama.
 Cando chegou vostede a esta casa, crin recoñecer a súa cara.
@@ -2963,6 +3018,7 @@ Cando pasaba pola ponte.
 Cando pasamos xunto a eles, non puiden evitar fixarme na solemnidade das súas faces.
 Cando pecho os ollos só podo ver a súa cara.
 Cando penso en como empezou todo, sinto unha incomprensión absoluta.
+Cando poida, envíocho
 Cando poidas, non ten presa ningunha.
 Cando por morte, renuncia expresa ou incapacidade dos demais quedase como partidor único.
 Cando preguntei o seu nome e condición, obtiven esta resposta:
@@ -2974,12 +3030,14 @@ Cando recorreu a Zeus para recuperala, houbo que chegar a un compromiso
 Cando recuperou o siso, non puido aturar a vergoña e suicidouse.
 Cando remataba aquelas narracións, o noso pobre pai acoraba e suaba a mares
 Cando resolves o problema é todo máis doado.
+Cando saia un día bo, podiamos ir ao monte
 Cando sandes, dixéralle, volveremos falar.
 Cando se cansaba del, marchaba descansar a territorio seguro.
 Cando se ergue e as arañas teñen feitas redes, é tempo de sazón
 Cando se montou, o rexeitamento foi total.
 Cando sexa maior −dixen logo dun intre− vounos matar a tiros.
 Cando soubo que o arcebispo de Toulouse se envelenara, dixo:
+Cando te lembres, dimo
 Cando tes que poñer a vacina da gripe?
 Cando traballaba, falaba do seu gran plan.
 Cando un burro fala, os outros baixan as orellas
@@ -2997,6 +3055,8 @@ Cando xa perdiches toda a carne superflua, o que che queda é puro nervio.
 Cando é o aniversario da miña muller?
 Cansada de fuxir, agóchase nunhas canas e desaparece nun lagumeiro.
 Canseime de dicir que a literatura divirte, relaxa, estimula.
+Canta calor vai
+Canta emoción hai nestes intres
 Canta menos distancia hai entre dous homes máis son puntillosos para facela notar.
 Canta máis présa, máis devagar.
 Cantabria, indecisa contra as medidas fiscais bascas
@@ -3011,6 +3071,7 @@ Cantas veces diría xa que a forma perece...
 Canto aos lugares solitarios, agrádanme: son bos para a meditación.
 Canto dera por poder arrincar e mandarvos unha cereixeira!
 Canto falta para chegar?
+Canto frío vai
 Canto me dixeches que lles custara a ferramenta?
 Canto me rin.
 Canto mide esa fachada?
@@ -3061,6 +3122,12 @@ Capi, son Santiso. Escóitasme?
 Capi?
 Capitán
 Capitán. Pensaba que estaba
+Capítulo cuarto.
+Capítulo dous.
+Capítulo primeiro
+Capítulo segundo.
+Capítulo terceiro.
+Capítulo un.
 Cara a tardiña venme mellor, se non é moito pedir...
 Cara ó gran pacto
 Caracol, col, col, bota os teus cornos ao sol.
@@ -3086,6 +3153,7 @@ Casa de ferreiro, culler de pau.
 Casadas elas, pobres coitadas! —dixo—.
 Case a metade da poboación dedícase ao sector primario
 Case cen millóns dos orzamentos non serán gastados en Galicia
+Case coincidimos no taxi
 Case conseguen secarme o espírito.
 Case lle daban ganas de golpear a máquina e acabar con ela de vez.
 Case me dá un ataque cada vez que empeza.
@@ -3111,6 +3179,7 @@ Castro reaparece cun artigo no que critica a idea do etanol de Bush
 Castígueme cen días se quere, e seguirei sorrindo igual, cando rematen.
 Cata, meu, estiven semanas tentando recordalo.
 Catalunya á deriva
+Categorías especiais de datos.
 Catro cabezas fuxiron.
 Catro de cada dez dentistas recomendan facer a cama.
 Catro estaban mortos, e tres moribundos.
@@ -3122,6 +3191,7 @@ Catrocentos metros.
 Causa:
 Cautela e caldos de galiña nunca fixeron mal a ninguén
 Cazaban grilos lareteiros, pillaban chicharras barulleiras, apañaban flores, acaneaban árbores e comían froitas.
+Caéronme os pantalóns namentres baixaba os chanzos
 Caín e batín cun farol
 Ce
 Ce hache
@@ -3221,6 +3291,7 @@ Chegaron tan bébedos que non daban acertado coa súa porta.
 Chegará o verán e non resplandecerán; outro outono e non farán coroas para ninguén.
 Chegas tarde
 Chegou a mañá −a miña derradeira mañá.
+Chegou no barco das doce
 Chegou tarde… Gárdolle moito rencor.
 Cheguei a facer esvaecerse no meu espírito toda a esperanza humana.
 Cheguei en dez minutos co coche a máis non dar
@@ -3241,6 +3312,7 @@ Chorros de auga, pingas descendendo.
 Chove a chuzos
 Chove en Santiago na noite escura
 Chove en Santiago, meu doce amor
+Choveu a deus dar
 Choveu tanto que a auga rebordou a presa.
 Chovía tanto que nin as vacas podían saír da corte para pastar.
 Chufárono moito!
@@ -3274,11 +3346,13 @@ Cine
 Cine de Galicia e Brasil
 Cineuropa perde fondos
 Cinguiu a Dioniso cunha coroa e por un regueiro fixo chegar agua ás flores.
+Circulares da Axencia Española de Protección de Datos.
 Citroën-Zona Franca;
 Clap Your... fica no medio, porque cambia de rexistro.
 Clarisa, vaste sentir un pouco desconcertada polo desfase temporal.
 Claro que cho dixen, moitas veces
 Claro que no caso deste cabaleiro estes xestos non tiñan ningún sentido.
+Claro que o sei
 Claro que o sei!
 Claro que si.
 Claro que son do futuro!
@@ -3290,6 +3364,7 @@ Clorinda foi a primeira que volveu en si e dixo “É todo culpa nosa.
 Clímax de horror! Alí agardando pola súa institutriz!
 Co ben que comezara o día e velaquí xa temos o primeiro incidente.
 Co cal, pasouse a unha situación neocolonial.
+Co fin de que esta lle dea o curso oportuno.
 Co soño de facer horizontes onde non haxa lugar para máis tsunamis da desigualdade.
 Co teu soldo non nos apañariamos tan ben coma agora.
 Co theremin xa temos órganos e sintetizadores analóxicos e só falta un sampler
@@ -3300,6 +3375,7 @@ Coa escusa do cansazo, elixín tomalo alí.
 Coa máscara respírase moito mellor que coa respiración asistida
 Coa palma aberta, collendo impulso, zosqueille na meixela e no queixelo.
 Coa renovación integral da avenida, mellorarán as beirarrúas actuais, luminarias e o carril bici.
+Coa venia do correspondente órgano xudicial, poderán presentar tamén observacións verbais.
 Coa vocación dun xornal participativo
 Coa xeneralización das convocatorias internacionais a todos os deportes, este efecto hase multiplicar.
 Coas mans facemos xardíns, derrubamos muros, regalamos flores.
@@ -3377,6 +3453,7 @@ Comer e cozar todo é comezar
 Comer e cozar é só comezar.
 Comer verduras é moi san
 Comercio exterior
+Comerás xarda, non si?
 Comerémolas crúas.
 Comería sobre as dúas.
 Comeza unha obra que se demorou no tempo con diversos trámites administrativos
@@ -3530,7 +3607,9 @@ Compromiso de non acordar ren cos deputados de CiU
 Comprouno porque lle enchía o ollo!
 Compréndoo demasiado ben −retruquei−.
 Compréndoo. Estás pasando un mal momento. Eu tamén o pasei.
+Comunicación
 Comunicación corporativa
+Comunicacións de datos polos suxeitos enumerados no artigo un
 Comunidades
 Comunmente dise que «fan o crápula» os que se enchen de viño e comida;
 Comía coma un pisco
@@ -3616,6 +3695,7 @@ Conseguir que o Liceo monte unha hexemonía, como xa fixera hai anos.
 Conseguiron salvar a nave alixeirando a carga
 Conseguiuno contándolle detalles do pub que ela coñecía completos;
 Consello
+Consentimento dos menores de idade.
 Conserva os dous textos, o inicial, Adro e o final, Retrouso, ¿con que intención?
 Conservamos a súa Vida e doutrinas dos filósofos ilustres.
 Conservar o que acadei? Teño que facelo, a toda costa.
@@ -3646,6 +3726,7 @@ Contesta.
 Conteste brevemente ás seguintes preguntas.
 Contestei afirmativamente, como é natural.
 Contigo non hai fallo
+Contigo, a onde queiras, vou
 Contigo, pan e ovo
 Continúa a ser dos países de Europa occidental con máis incidencia.
 Conto co teu voto
@@ -3665,6 +3746,7 @@ Contraste
 Contrastes
 Contrataches unha empresa de mudanzas?
 Contrato ferroviario
+Contratos de encargado do tratamento.
 Control do crecemento e do estado nutricional.
 Control sanitario das actividades da Educación Física e do Deporte.
 Controla! Que non estamos na casa
@@ -3675,10 +3757,15 @@ Contén o riso, se es quen:
 Converteuse no dixomedixome de toda a cidade
 Converteuse nun referente da comarca
 Converteuse nun trasnoitador depresivo.
+Convertinme no rapaz que axuda dende a parte de atrás
 Convén botarlles unha man.
 Conxela a imaxe.
 Conxuntura económica negativa
+Cooperación institucional.
 Coordenadas, o que sexa?
+Coordinación en caso de emisión de ditame polo Comité Europeo de Protección de Datos.
+Coordinación en caso de resolución de conflitos polo Comité Europeo de Protección de Datos.
+Coordinación no marco dos procedementos establecidos no Regulamento
 Coordinación.
 Coordinando procura e rescate.
 Corra vostede.
@@ -3752,6 +3839,7 @@ Creo que o que miña muller pretende dicir é que vimos de...
 Creo que será o resultado máis probable
 Creo que todo sairá mellor facéndodes como di el.
 Creo que xa podo encargarme eu soa.
+Creo que é boa persoa
 Creo, señorita, que esas foron as súas palabras exactas, pois pensei nelas moitas veces.
 Crerías ver non unha vila, senón unha illa.
 Cres en Deus?
@@ -3768,6 +3856,7 @@ Cris lembra que o mexillón de Galiza ten especial calidade.
 Crispación máxima
 Cristiano Ronaldo non pensa ceder
 Cristóbal Montoro cualifica de brutal a débeda da Generalitat
+Criterios de seguranza.
 Critica que aínda queden zonas sen servizos básicos
 Critícanlle ás veces que hai máis campañas publicitarias que políticas de planificación.
 Criáronme bruxas, neno.
@@ -3785,6 +3874,7 @@ Crían ben no seu querer, pero non no seu valor.
 Crítica a Arenas por non negocia-la dotación do Plan de Emprego
 Crítica irónica e sincera sobre a colonización cultural.
 Críticas dos sindicatos de policía
+Cualificación do delegado de protección de datos.
 Cuarta
 Cuatro tamén lanza a súa propia canle en Youtube
 Cubro moito territorio.
@@ -3798,6 +3888,7 @@ Cumprín a orde de inmediato.
 Cun home. Un humano e alto.
 Cun mínimo de imparcialidade a ninguén se lle ocorrería tal cousa.
 Cunca de leite por cunca de aceite.
+Cunha ducia de ovos, chega
 Cunha misa e boa cebada, non se perde xornada
 Cunha política de asistencia social.
 Cura por información
@@ -3809,18 +3900,23 @@ Cáesme ben, igual có teu pai.
 Cámbialle o aceite e míralle a presión das rodas.
 Cándido Méndez sostén que co sistema actual non se acabará co problema do paro
 Céntimo, café e vivenda...
+Códigos de conduta e certificación.
+Códigos de conduta.
 Cóidate, vale?
 Cóllea pola esquina e dóbraa así, con coidadiño.
 Cólleo da man”.
 Cómese, pero non se dixire.
+Cómprame medio quilo
 Cómprame un, por favor
 Cómpre aproveitarse desta sombra e escribir unhas palabras sobre o facedor de milagres.
 Cómpre asentir e seguir falando.
 Cómpre correr onda as Ninfas buscando o seu auxilio.
 Cómpre ilas buscar porque son moitas as cousas que teñen que dicir.
 Cómpre mantermos a calma a calquera prezo, e aturarmos calquera porcallada que nos digan.
+Cómputo de prazos.
 Cóntache algo.
 Cóntame algo máis sobre as tribos bárbaras
+Cóntamo, estou coa orella posta
 Cónteme o que saiba sobre a Revolución Industrial
 Cóntenos algo, por favor;
 Cúspeo dunha vez, se sabes o que che convén.
@@ -3934,6 +4030,7 @@ Das persoas que poidan adoptar e ser adoptadas
 Das relacións de veciñanza
 Das serventías
 Dato do día:
+Datos das persoas falecidas.
 David Russell
 Days of glory
 De
@@ -4100,6 +4197,9 @@ Debe de estar morta de ganas de oílo, estou segura.
 Debe ir directamente á aula, señora, as señoritas están agardándoa!
 Debemos de partir axiña.
 Debemos ter dignidade, entendes? Dignidade.
+Deber de colaboración.
+Deber de confidencialidade.
+Deberas ler moitos máis libros
 Deberiades estar agradecidos.
 Deberiades pelexar entre vós
 Deberá cumprirse co demandado, por difícil que sexa.
@@ -4195,6 +4295,7 @@ Deixádeme tranquilo!
 Deixárona horrible.
 Deixémolo para mañá.
 Delatárona as súas palabras recoñecendo isto!
+Delegado de protección de datos.
 Deles aprendemos moitas cousas;
 Deles fala Epifanio.
 Deles, botei cinco na escuridade.
@@ -4296,9 +4397,33 @@ Depende.
 Dependendo da luz, a marca da parede parece sobresaír da parede.
 Dependendo do tamaño poden ir nun remolque ou no maleteiro cunha tea protectora.
 Depresión.
+Dereito ao esquecemento en servizos de redes sociais e servizos equivalentes.
+Dereito ao esquecemento nas buscas da internet.
+Dereito ao testamento dixital.
+Dereito de acceso universal á internet.
+Dereito de acceso.
+Dereito de oposición.
+Dereito de portabilidade en servizos de redes sociais e servizos equivalentes.
+Dereito de rectificación na internet.
+Dereito de rectificación.
+Dereito de supresión.
+Dereito á actualización de informacións nos medios de comunicación dixitais.
 Dereito á autodeterminación, cidadanía galega, presenza nas institucións internacionais e maior autogoberno.
+Dereito á desconexión dixital no ámbito laboral.
+Dereito á educación dixital.
+Dereito á intimidade ante a utilización de sistemas de xeolocalización no ámbito laboral.
+Dereito á intimidade e uso de dispositivos dixitais no ámbito laboral.
+Dereito á limitación do tratamento.
+Dereito á neutralidade da internet.
+Dereito á portabilidade.
+Dereito á seguranza dixital.
+Dereitos das persoas
+Dereitos dixitais na negociación colectiva.
+Dereitos dos menores ante a internet.
+Dereitos dos traballadores á intimidade en relación co contorno dixital e á desconexión.
 Dereitos humanos
 Deron as seis.
+Derrogación normativa.
 Derrubaríase sobre o lago e máis alá do lago.
 Derrótase el mesmo, se o país non consente en absoluto a servidume.
 Des que me cinchaban de novo, dedícame a inducirme a breve morte en vida.
@@ -4338,6 +4463,7 @@ Dese xeito, semellaría que os mormóns nos fixeran prisioneiros.
 Dese xeito, visitara a súa nai dúas veces e, as dúas, atopáraa durmida.
 Deseguida comeza unha muiñeira de campás, repenicada nas torres do Obradoiro
 Desengánate, rapaz, aquí contemplarás o teu destino así que se disipe a escuridade.
+Desenvolvemento normativo.
 Desenvolvemento regulamentario.
 Desexaba un neno e, claro, como era unha nena...
 Desexando marchar, coñecer novos lugares.
@@ -4347,6 +4473,7 @@ Desexos
 Desfruta da vida e fai que os demais desfruten da súa.
 Desfrutaremos de sol durante toda a xornada.
 Desgraciados rebeldes.
+Designación dun delegado de protección de datos.
 Desigualdade das mulleres
 Deslizámonos a través dun bosque, o tren voa.
 Desmaiarme así
@@ -4411,6 +4538,8 @@ Despropósito e vergoña para a humanidade.
 Despropósitos
 Desta aldea de labregos nada quedou.
 Desta forma, a inflación interanual na comunidade galega sitúase no catro por cento.
+Desta segunda vertente infírese a conseguinte obrigación de depurar o ordenamento xurídico.
+Desta si que non pasa, de mañá non pasa
 Desta volta era un libro de historia, non lembro o autor.
 Desta volta, ímolo facer ben
 Destaca a composición dos elementos da fachada oriental
@@ -4429,6 +4558,7 @@ Destino: a manifestación de Santiago.
 Destruídas.
 Desviaron os voos do aeroporto de Alvedro para Lavacolla polo forte vento.
 Detectan un aumento progresivo deste mal
+Determinación do alcance territorial.
 Determinadas palabras fan que se coloque diante do verbo
 Detido un home por causar un incendio forestal nas Nogais
 Detivéronse, e ese home está a dicir algo ós enfermos.
@@ -4503,6 +4633,7 @@ Dime con quen andas e direiche quen es.
 Dime o que queiras
 Dime que atopastes ese Cubo.
 Dime que é esta.
+Dime ti o que debo facer
 Dime unha cousa.
 Dime, Eleanor, pensas algunha vez no pasado?
 Dime, cantos mendigos enfermos hai?
@@ -4534,20 +4665,65 @@ Diso hai seis anos.
 Diso hai unha década ou máis
 Diso nada, o sol aínda non se puxo.
 Dispareille no corazón!
+Dispor, cando non for obrigatorio, dun delegado de protección de datos.
+Disposición adicional cuarta.
+Disposición adicional décima.
+Disposición adicional décimo cuarta.
+Disposición adicional décimo novena.
+Disposición adicional décimo oitava.
+Disposición adicional décimo primeira.
+Disposición adicional décimo quinta.
+Disposición adicional décimo segunda.
+Disposición adicional décimo sexta.
+Disposición adicional décimo sétima.
+Disposición adicional décimo terceira.
+Disposición adicional novena.
+Disposición adicional oitava.
 Disposición adicional primeira.
+Disposición adicional quinta.
 Disposición adicional segunda.
+Disposición adicional sexta.
+Disposición adicional sétima.
+Disposición adicional terceira.
+Disposición adicional vixésima.
+Disposición adicional vixésimo primeira.
+Disposición adicional vixésimo segunda.
 Disposición derradeira
+Disposición derradeira cuarta.
+Disposición derradeira décima.
+Disposición derradeira décimo cuarta.
+Disposición derradeira décimo primeira.
+Disposición derradeira décimo quinta.
+Disposición derradeira décimo segunda.
+Disposición derradeira décimo sexta.
+Disposición derradeira décimo terceira.
+Disposición derradeira novena.
+Disposición derradeira oitava.
 Disposición derradeira primeira
 Disposición derradeira primeira.
+Disposición derradeira quinta.
 Disposición derradeira segunda
 Disposición derradeira segunda.
+Disposición derradeira sexta.
+Disposición derradeira sétima.
 Disposición derradeira terceira.
 Disposición derrogatoria
+Disposición derrogatoria única.
+Disposición transitoria cuarta.
+Disposición transitoria primeira.
+Disposición transitoria quinta.
+Disposición transitoria segunda.
+Disposición transitoria sexta.
+Disposición transitoria terceira.
 Disposición transitoria única.
 Disposición xeral
 Disposicións adicionais
+Disposicións aplicables a tratamentos concretos.
+Disposicións específicas aplicables aos tratamentos dos rexistros de persoal do sector público.
 Disposicións transitorias
 Disposicións xerais
+Disposicións xerais sobre o exercicio dos dereitos.
+Disposicións xerais.
 Dispoña as cadeiras de maneira uniforme no recinto
 Dispoñer dos semoventes e bens mobles sociais.
 Dispuxemos todo o necesario para pasar unha semana alí.
@@ -4659,6 +4835,8 @@ Dous anos aturei aquela estúpida persecución.
 Dous anos de cogoberno téñenlle endurecido a pel.
 Dous caixeiros atacados
 Dous dos ataques básicos na esgrima.
+Dous expertos propostos polas organizacións empresariais.
+Dous expertos propostos polas organizacións sindicais máis representativas.
 Dous non regresaron.
 Dous ollos ven máis do que un só.
 Dous rapaciños pararon diante de min e empezaron a fitarme.
@@ -4766,6 +4944,7 @@ Dígoche que eu fun ese único ser humano ó que aludiu Pascal.
 Dígoche que non levas nin unha hora de suplicio.
 Dígocho eu.
 Díllelo ti.
+Dítase ao abeiro do artigo nove da Constitución.
 Díxenche a verdade, aínda que non o creas
 Díxenche que cortaras o lerio −refungou.
 Díxenlle que a deixase, pero non serviu de nada, por suposto.
@@ -5453,6 +5632,7 @@ Eduardo Goyoaga considera que "as tensións accionariais non conducen a nada".
 Eduardo Goyoaga nega que defenda os intereses dos noruegueses.
 Eduardo Maragoto entrevista a Joám Lopes.
 Educación Sanitaria dirixida ó persoal non docente e familias dos escolares.
+Educación dixital.
 Educación sanitaria e prevención de enfermidades evitables
 Educación sanitaria no medio escolar
 Educación sanitaria.
@@ -5503,6 +5683,7 @@ El respondeulle:
 El sabe que pouco importa quen sexa o capitalista.
 El tamén dixo que é feliz aquí.
 El tamén era quen de deducir con lóxica.
+El tamén era un bo peixe
 El tiraba por ela.
 El tiña toda a confianza en min
 El tocaba a sirinxe en porfía cos piñeiros, ela cantaba en retesía cos reiseñores.
@@ -5645,6 +5826,7 @@ En Nova York hai máis portorriqueños que no Estado Libre Asociado de Puerto Ri
 En Oleiros din que hai "politiqueo"
 En Razo hai feira todos os xoves e domingo
 En Samaria! –dixen decontado.
+En Saturno hai moito máis peixe do que cremos
 En Verín entrei e saín
 En Xapón metinme nunha escola de arte floral moderna.
 En abril augas mil
@@ -5766,6 +5948,7 @@ En todo caso hai dous volumes de referencia.
 En todo caso, a liberalidade deberá ser aceptada por ambos os cónxuxes.
 En todo caso, elixiuno polas súas reminiscencias esotéricas e máxicas.
 En todo caso, parece que se entende ben cos nacionalistas.
+En todo caso, realizaranse reunións semestrais de cooperación.
 En todo caso, unha cousa é común a ambos:
 En todo caso, é evidente que a sociedade galega é unha sociedade subsidiada.
 En todo o Estado trabállase con actores recoñecidos.
@@ -5781,6 +5964,7 @@ En xeral son palabras de uso técnico e científico.
 En xeral, toda muller ten un engado fundamental ós ollos dun home.
 Encantaríache. É moi práctica.
 Encantaríame facelo, e estou segura de que me sairía moi ben.
+Encargado do tratamento.
 Enche os recibidores de po de rubís ardente
 Enchede tódolos depósitos antes de nada.
 Enchinme a comer ensalada e xa non teño máis fame.
@@ -5815,6 +5999,7 @@ Endexamais tivera a sorte de ver morrer unha persoa xusto diante dos meus ollos.
 Endexamais xogaba coas outras moscas.
 Ene
 Ene hache
+Enerxía
 Enfrontarse a unha estrutura inaudita e mesmo escoller a versión a publicar.
 Enfróntate á túa cuñada, desconcerta a súa alma!
 Enfádame a impertinencia e a perpetuidade coa que me miran.
@@ -5828,6 +6013,12 @@ Enganeime e mandeiche o que non era.
 Englóbase dentro do que se chama poética vangardista
 Engruñei o cello, pero, aínda así, púxenme á cola.
 Enguirroume os cans
+Engádese un novo bis, coa seguinte redacción:
+Engádese un novo punto catro
+Engádese un novo punto cinco
+Engádese un novo punto sete
+Engádese un punto terceiro ao quinto, coa seguinte redacción:
+Engádese unha letra efe ao noveno, coa seguinte redacción:
 Engádeselle a fariña pouco a pouco ata que se vaia formando unha pasta
 Ensinei a miña nai esa estraña epístola e consulteille sobre o que debía facer.
 Ensínalles a todos o poder do amor e a verdade.
@@ -6188,6 +6379,7 @@ España é un dos países máis propicios para os minoristas
 España é xa o sexto doador mundial na guerra contra a sida
 Especial atención
 Especial da Real Academia Galega
+Especialidades do réxime xurídico da Axencia Española de Protección de Datos.
 Especialmente cando non hai coincidencia nas cores políticas imperantes nos seus órganos de Goberno.
 Espectáculo tal empuxaría á paixón mesmo a uns vellos que o contemplasen.
 Espera que cheguemos alí onde é máis chan.
@@ -6249,6 +6441,7 @@ Esta familia.
 Esta frase foi collendo forma de seu nalgún lugar dentro de min.
 Esta igrexa consta de tres naves e tres ábsidas semicirculares
 Esta indefinición afecta fatalmente á voz narradora:
+Esta información deberá facilitarse con carácter previo á realización da transferencia.
 Esta iniciativa permitirá situar a capital ourensá na vangarda das novas tecnoloxías.
 Esta inspiración proba que soñei!
 Esta invitada marcha da túa casa.
@@ -6307,6 +6500,7 @@ Estaba fóra de si, e non paraba de sacudir os brazos violentamente, pedindo aug
 Estaba guapísima co seu vestido de noiva.
 Estaba na aparencia tan derreada coma min; iso foi un consolo.
 Estaba nun sitio chamado o reino cuántico.
+Estaba o mar picado
 Estaba ocioso, presa dunha pesada febre:
 Estaba plenamente convencido de que estaba no camiño do éxito.
 Estaba pálida coma o luar e irradiaba un halo igualmente abrancazado.
@@ -6391,6 +6585,7 @@ Estaslle facendo competencia a teu pai.
 Estasme dicindo que isto podería funcionar?
 Estasnos traizoando?
 Estaste repetindo, sábelo?
+Estatuto da Axencia Española de Protección de Datos.
 Estavos ben bo este escabeche de xarda.
 Este Cuíña atópase nas Mariñas betanceiras, no concello de Oza dos Ríos.
 Este acontecemento tan misterioso provocou numerosas hipóteses na misa do domingo seguinte.
@@ -6402,6 +6597,7 @@ Este ano non vou ir esquiar
 Este ano os xenerais da Ulla non van botar os Vivas!
 Este ano tamén
 Este ano vindes vós á nosa casa.
+Este aviso deberá aparecer en lugar visible xunto coa información orixinal.
 Este cativo ten sede. Hai que darlle de beber.
 Este cativo...
 Este clima é morno de máis.
@@ -6427,6 +6623,7 @@ Este non dixo nada, senón que, arroibado, baixou a cabeza mentres ofrecía os r
 Este plan desbotámolo por non ter ningunha validez.
 Este quedou fermoso, ben decorado, agradable e limpo.
 Este rei e os seus mendigos aínda respectan a propiedade privada −explicou−.
+Este representante legal poderá coincidir co previsto no Regulamento da Unión
 Este sentimentalismo pailán polos billetes é cousa dos ricos.
 Este significa «Muro branco, papel de tarado».
 Este tipo está trallado de todo, dígollo eu.
@@ -6452,6 +6649,7 @@ Este, xa que logo, será o derradeiro texto que escriba.
 Estendendo os pastos coidarase mellor o terreo e evitarase o lume.
 Estes acordos exclusivos deberán ser transparentes e públicos.
 Estes beneficios débense ao valor histórico que posúen e a escaseza destes obxectos.
+Estes códigos poderán dotarse de mecanismos de resolución extraxudicial de conflitos.
 Estes datos, demostran que moitas organizacións criminais intentan camuflarse na legalidade adoptando formas empresariais.
 Estes descubrimentos permitiron importantes traballos ulteriores, especialmente en relatividade e en mecánica cuántica
 Estes días traballo desde a casa.
@@ -6487,9 +6685,11 @@ Estou afogando...!
 Estou agradecido.
 Estou aquí, podedes oírme?
 Estou ata o carallo.
+Estou ben contenta co resultado
 Estou ben.
 Estou ben. É que traballo moitas horas.
 Estou buscando unha libraría que hai na rúa do Home Santo.
+Estou canso de traballar
 Estou canso!
 Estou case seguro de que foi un dos meus alumnos.
 Estou certa de que non pode evitar sentirse algo culpable.
@@ -6509,7 +6709,9 @@ Estou deitado no sofá cos ollos abertos e non dou conciliado o sono.
 Estou ebria.
 Estou enganado? A caridade sería irmá da morte, para min?
 Estou esperando que deixe de xear para botar as plantas fóra.
+Estou farta a máis non poder
 Estou farta de escoitar sempre a mesma leria
+Estou farta de escoitar sempre o mesmo
 Estou farto de esperar, vou botar unha partida ó Candy Crush.
 Estou magoada e non me morreu ningunha das ovellas.
 Estou mal e paréceme que cada vez vou a peor.
@@ -6521,6 +6723,7 @@ Estou ocupado −dixen−.
 Estou perdida, Ninfas queridas.
 Estou perdida.
 Estou perdido para sempre!
+Estou por ir eu
 Estou preocupada e non esaxero nada.
 Estou preocupado polo ambiente
 Estou sometida a el.
@@ -6562,6 +6765,7 @@ Está anoxado.
 Está ardendo por achegarse a ver que cazamos.
 Está ben o novo invento.
 Está ben, muller, está ben así.
+Está ben, vale, de acordo, non mo repitas máis
 Está ben.
 Está ben: pensareino −dixen a rumbo, mentres o acompañaba ata a porta.
 Está borracho −retruquei−.
@@ -6599,6 +6803,7 @@ Está ventando moito aquí fóra
 Está visto que hoxe non estás de sorte.
 Está vivo, si, pero non é coma nós.
 Está zombi.
+Estábache bo o conto!
 Estáfanos.
 Estámosche ben lonxe de Budapest.
 Están aquí cumprindo ordes −expliquei−.
@@ -6874,10 +7079,12 @@ Europa olla cara á locomotora alemá con percepcións diversas.
 Europeizar o horario de traballo
 Europeo.
 Exactamente igual! —exclamou a súa esposa—.
+Exactitude dos datos.
 Exacto.
 Excelente plan. Onde está o amolecedor?
 Executa a diagnose.
 Exerce a función executiva
+Exercicio dos dereitos.
 Exercítate!
 Existe a posibilidade de edemas pulmonares
 Existe algunha previsión de aumento do salario mínimo diante desta inflación galopante?
@@ -6909,6 +7116,7 @@ Facendo un esforzo, volveu á realidade, mais só exteriormente.
 Facer un disco de música do Renacemento.
 Facerme con ese home.
 Facerse que? Non ten un coñecido, nunca traballará.
+Facilitar aos representantes das candidaturas os datos para realizar envíos postais de propaganda electoral.
 Factores clave
 Facédeo!
 Facía raíces cadradas e cúbicas de longas series de números.
@@ -7143,6 +7351,7 @@ Foi unha feble subdución
 Foi unha loita tremenda.
 Foi unha mágoa que non gravases un vídeo da obra; estivo xenial.
 Foi unha quenlla
+Foi unha sorte atopármonos
 Foi unha sorte!
 Foi unha viaxe moi pesada, Maruxa púxose a darme a roncha
 Foi veciño do Concello da Capela
@@ -7218,6 +7427,7 @@ Fondo Europeo de desenvolvemento rexional
 Fora quen for o que estaba a disparar, o seu branco estaba demasiado baixo.
 Fora unha vida de amables rutinas, libre de todas as complicacións.
 Forma de goberno e sistema electoral
+Forma de iniciación do procedemento e duración.
 Formatos dispoñibles para a reutilización.
 Formularios computacionais.
 Fornecía forzas inmensas para intentar vencer o mundo, para trocalo...
@@ -7240,6 +7450,7 @@ Foxos e corridas de lobos
 Fraga, quinto presidente rexional co soldo máis alto
 Fragmento Languidecía a tarde cando chegaron á aba da montaña.
 Fran, a que lle están disparando?
+Francia
 Francisco Canaval fora amigo seu.
 Francisco Iglesias
 Francisco Leiro desde as primeiras esculturas.
@@ -7273,6 +7484,7 @@ Fun á feira coa miña irmá máis vella.
 Funcionou.
 Funcionou?
 Función da oficina
+Funcións e potestades da Axencia Española de Protección de Datos.
 Funcións psicolóxicas:
 Funcións vitais críticas.
 Fundamento constitucional.
@@ -7351,7 +7563,9 @@ Galiza, o soño europeo
 Galiña vella fai bo caldo
 Gallaecian metal compilation
 Gallone admite se-lo 'home de palla' de Mario Conde en Suíza
+Garantirase un acceso universal, accesible, de calidade e non discriminatorio para toda a poboación.
 Garantirlle ao parceiro o gozo pacífico e útil do que achegase.
+Garantía dos dereitos dixitais
 García Teixeiro, entre o épico e o narrativo
 García ten un plan para a xubilación.
 Garda ben os teus cartiños no fondo da túa faixa.
@@ -7608,6 +7822,7 @@ Haxa paz no pazo!
 Hei de dicir que hai unha parte de min
 Hei de dicir que ás veces non o sinto
 Hei levarte á festa se te portas ben
+Heino de conseguir!
 Helena Irímia entrevista a António Llanos, portavoz da Plataforma en Defensa do Transporte.
 Helena! Vicente!
 Helena, son incapaz de esquecer.
@@ -7716,6 +7931,7 @@ Identificación das aptitudes e capacidades para a actividade deportiva e a educ
 Identificación de alteracións e deficiencias mentais, psico-emocionais, sociais, da aprendizaxe e pedagóxicas.
 Identificación de anomalías e defectos da visión e audición.
 Identificación de malformacións, defectos e anomalías corporais, detectables por unha exploración física convencional.
+Identificación dos interesados nas notificacións por medio de anuncios e publicacións de actos administrativos.
 Idioma
 Idiota! —exclamou, apoiándose violentamente no asento—.
 Idiota? Non.
@@ -7735,6 +7951,7 @@ Igual é que aquí os rapantes son moi caros
 Igualdade
 Igualdade pon en marcha a Unidade Muller e Ciencia
 Igualmente o sistema abre a posibilidade de solicitar e ampliar datos vía correo electrónico.
+Igualmente, darase traslado á Comisión Europea para os mesmos efectos.
 Igualmente, prometeu novos equipamentos deportivos no concello.
 Imaxe completa do vicio, fareille o retrato en dúas palabras:
 Imaxe da presentación de Fiatex na sede da Cámara de Comercio de Santiago
@@ -7768,6 +7985,7 @@ Imos seguir xogando
 Imos silandeiros, beiriña do ar, antes que ese río o leve para o mar
 Imos ver ese ascenso.
 Imos ver se podemos arranxala.
+Imos xunto vosa
 Imos á tenda e compro medio litro de vodka.
 Imos ó Espírito.
 Imos! A marcha, a carga, o deserto, o aburrimento e a cólera.
@@ -7787,6 +8005,7 @@ Inclusive arestora, non me decato da situación en que me atopaba.
 Incluso agora o pingar da auga estaría lubricando as fisuras cada vez máis anchas.
 Inclínome e espreito a cara da vella.
 Inconscientemente fixou a vista no cura
+Incorporación de débedas a sistemas de información crediticia.
 Incrementarase a produción de celulosa e madeira en Navia
 Increméntase en heterosexuais
 Incriblemente pequeno.
@@ -7802,6 +8021,10 @@ Infeliz no xogo, feliz no amor.
 Informe
 Informes secretos
 Infortunio que esgaza!
+Infraccións consideradas graves.
+Infraccións consideradas leves.
+Infraccións consideradas moi graves.
+Infraccións.
 Infraestruturas
 Ingrid, a liberada
 Inmediatamente colleu as flores e entregoumas.
@@ -7825,7 +8048,11 @@ Intentei inventar novas flores, novos astros, novas carnes, novas linguas.
 Intentemos reanimala.
 Intercambian ouro por chumbo e por pergameos e prenden cirios ao mediodía.
 Interese de Fenosa pola venezolana Enelven
+Interrupción da prescrición da infracción.
 Intervención de Xosé Luís Barreiro Rivas.
+Intervención en caso de tratamentos transfronteirizos.
+Intervención en procesos de defensa da competencia e de protección de datos.
+Introdúcese un novo, co seguinte teor:
 Inventiva artesanal en Cabo Verde
 Inventáchelo todo.
 Investigar e acadar novas partículas.
@@ -7994,6 +8221,7 @@ Isto pasará por causa dunha mellora do gozo sensorial.
 Isto queda moi ben.
 Isto reflectíase tamén no comportamento das sucursais do Banco.
 Isto sacounos da discusión.
+Isto semella incrible
 Isto vai saír ben, Steve.
 Isto vai ser divertidísimo!
 Isto é común entre países e persoas poderosas.
@@ -8014,6 +8242,7 @@ Isto é, duns seis pés cadrados de superficie.
 Isto, iso ou aquilo
 Isto, non obstante, non o salvou dun xuízo e unha condena ao exilio.
 Isto? A que te refires con isto?
+Italia
 Ivina foi para outro home, non para min.
 Jennifer Aniston, grega, o apelido recorda un parasito das pescadas: Annasstakis.
 José Barea Tejeiro, ex director da Oficina Presupostaria
@@ -8047,6 +8276,7 @@ Leas interminables
 Lei de Normalización.
 Lei de contratos do sector público.
 Lei do dezaseis de novembro, sobre reutilización da información do sector público.
+Lei orgánica de protección de datos persoais e garantía dos dereitos dixitais.
 Leis do lugar
 Lembra fregar o chan, varrer o salón e facer as camas
 Lembra, neniña, que a ti te criou unha ovella, mais con todo es fermosa".
@@ -8095,6 +8325,7 @@ Levaranme ó baño, para que tome, conforme as regras, a miña ducha semanal.
 Levaría a destrución a canto ser vivente había no val.
 Levas razón. Podo, Capitán América.
 Levas toda a estupidez contigo.
+Leveino ata a estación de autobuses
 Levo as bolsas da compra e, mentres tremo levemente, agardo fervorosamente por algo.
 Levo como unha virtude a disciplina da indolencia.
 Levo dous días que igual súo que morro de frío.
@@ -8271,6 +8502,7 @@ Madre botoume unha boa rifa por non obedecela.
 Madre meneou a cabeza.
 Madre non o saudou, nin el a ela.
 Madre non respondeu.
+Madrid, cinco de decembro de dous mil dezaoito.
 Madrid, dezaseis de novembro de dous mil sete.
 Madía leva.
 Mahatma Gandhi continúa a ser unha inspiración nas loitas polos dereitos civís
@@ -8499,6 +8731,7 @@ Mañá teño exame de matemáticas.
 Mañá teño que ir facer a última proba.
 Mañá teño que pasarlle a revisión ao coche.
 Mañá volve chover
+Mañá vou ir a Pontevedra
 Mañá á maña
 Mañá é festivo, non traballo
 Mañá é mércores.
@@ -8506,6 +8739,9 @@ Mañá −díxenlle−.
 Mañá, se Deus quere.
 Me cago na tos ferina
 Media leva!
+Medidas de responsabilidade activa.
+Medidas de seguranza no ámbito do sector público.
+Medidas provisionais e de garantía dos dereitos.
 Medio
 Medio Ambiente
 Medio Rural pretende mellorar a preparación ata agora "insuficiente e deficitaria" dos efectivos antiincendios.
@@ -8696,6 +8932,7 @@ Miña mai está ingresada
 Miña nai dicía que non quería un can, pero si
 Miña nai e miña irmá recibíronme no corredor, tristes, caladas, pálidas!
 Miña nai fai filloas coma ninguén. Pois claro que está enfadado, coma todos.
+Miña nai foise deitar que ten trinta e oito de febre.
 Miña nai nunca lle permitía reflexionar sobre iso se podía evitalo.
 Miña nai preparaba cocido todos os domingos, pero hai tempo que non o fai.
 Miña nai querida, que rápido!
@@ -8710,6 +8947,13 @@ Miñas donas, meus señores
 Miñas señoras, véxovos logo.
 Mocidade
 Modernizar a comunicación
+Modificación da Lei orgánica, do dezanove de xuño, do réxime electoral xeral.
+Modificación da Lei orgánica, do tres de maio, de educación.
+Modificación da Lei orgánica, do un de xullo, do poder xudicial.
+Modificación da Lei orgánica, do vinte e un de decembro, de universidades.
+Modificación da Lei, do sete de xaneiro, de axuizamento civil.
+Modificación da Lei, do trece de xullo, reguladora da xurisdición contencioso-administrativa.
+Modificación da Lei, do vinte e cinco de abril, xeral de sanidade.
 Modificárono antes da entrega coa intención de amañar os problemas
 Modérase o aumento do déficit comercial
 Moeda única
@@ -8892,6 +9136,8 @@ Na Asemblea escollerase tamén unha nova Dirección Nacional para os próximos d
 Na Gatiñeira hai un lavadoiro.
 Na Semente as crianzas teñen o dereito, antes de todo, de viviren experiencias pracenteiras
 Na adversidade é que se proba a amizade.
+Na auga móllaste
+Na beira do mar hai máis humidade
 Na botica e no ferreiro non collas nada coa man
 Na cabeceira da cama había dúas pías de auga bendita de prata cicelada
 Na cabeceira do leito tamén nós tiñamos unha pía de auga bendita
@@ -9139,6 +9385,7 @@ Ningún paxaro voa alto de máis, se voa coas propias ás.
 Ningún se librará.
 Nisto chegou Matilda sen alento, co corpo magoado da lebre na man.
 Nisto, paro de súpeto e miro diante de min con aire apampado.
+Nixeria
 No ferreiro non toques e na botica non probes
 No Golfo
 No Miño?
@@ -9201,6 +9448,7 @@ No rural, porén, os campos e os edificios, que están a cargo das mulleres
 No senso de prisioneiros escravizados.
 No seu momento o achado foi un grande acontecemento.
 No seu xogo conta cunhas capacidades defensivas boas
+No supermercado non había verzas
 No supermercado xa non venden leitugas
 No tempo que levo con vostedes aprendín moitas cousas e ningunha me gusta.
 No terceiro ano, principiei un esteo de pedra.
@@ -9227,6 +9475,7 @@ Non ande a cavilar parvadas!
 Non anunciaron definitivamente a súa separación
 Non apostar en eventos deportivos...
 Non as fagas e non as temas.
+Non as quero a esas, nin te quero a ti na miña casa, Auvinila.
 Non atopaba acougo en ningures
 Non atoparon máis explicación que a tópica falta de confianza ante o produto propio.
 Non atopei as lagostas
@@ -9267,6 +9516,7 @@ Non che é pouca cousa chegar a ter unha estrela!
 Non che é tan fácil como semella
 Non chegará a nós.
 Non chegou á final
+Non cho podo dicir máis veces
 Non comemos con bolxeviques.
 Non comprendo.
 Non comprendía onde estaba, nin como chegara até alí.
@@ -9443,6 +9693,7 @@ Non hai satélites, naves nin exército
 Non hai segundas oportunidades.
 Non hai tal proxecto.
 Non hai tempo que chegue.
+Non ho, esa rapaciña non ten dúbida ningunha, éche ben espabilada!
 Non houbo loita interior, nin espera, nin vacilación algunha denantes de estarmos certos.
 Non houbo queixa.
 Non houbo resposta, así que repetiu a pregunta cunha voz aínda máis nerviosa.
@@ -9487,6 +9738,7 @@ Non matines: quen será este cantor cuxa canción cae sobre o meu corazón?
 Non me acordo, non sei onde o lera.
 Non me amoles
 Non me amoles coas túas parvadas.
+Non me amoles que non teño humor para aturar tonterías hoxe.
 Non me cabe nin unha cereixa.
 Non me cantes as corenta en verso
 Non me chanceaba.
@@ -9518,6 +9770,7 @@ Non me gustara a súa decisión;
 Non me ides recoñecer.
 Non me importa moito.
 Non me importa, de verdade que non me importa
+Non me importan as saídas da xente cando vai frío
 Non me interesa nin o pasado nin o futuro.
 Non me mintas.
 Non me mollara nin tiña frío.
@@ -9551,6 +9804,7 @@ Non o esquezas!
 Non o farei máis.
 Non o movades.
 Non o oíches?
+Non o perdas de vista
 Non o podo crer!
 Non o podo facer
 Non o podo facer eu só
@@ -9575,6 +9829,7 @@ Non para de chover
 Non paraba de apertar os puños con toda a súa carraxe.
 Non paraba de pensar niso
 Non paraches de dar voltas e de laiarte na cama;
+Non paramos en todo o día
 Non paras, eh!
 Non pare até chegar á fábrica
 Non parece feble.
@@ -9649,6 +9904,7 @@ Non quedaba embutido de xamón na tenda e comprei unha libra de salchichas.
 Non quedes aí, fillo! —apremouno a voz do mestre—.
 Non quere vostede achegarse ao lume, señorita?
 Non quere, logo, que me decate da súa ausencia?
+Non queremos, non podemos, non valemos
 Non queren minorar a súa forza desuníndose.
 Non queres facelo.
 Non quero marchar desta casa aínda.
@@ -9766,6 +10022,7 @@ Non sei...
 Non semellaba contento.
 Non semellaban facerlle moito caso.
 Non sempre fun así.
+Non sempre o que está por riba é mellor
 Non sempre quedaba calada, con todo, nin estaba para nada relegada.
 Non sente nada. Está paralizado.
 Non serve de nada queixarse.
@@ -10707,6 +10964,7 @@ O meniño saiu igualiño ao pai
 O mensaxeiro trae boas novas
 O mes de febreiro é o mes dos namorados
 O mes de maio.
+O mes que vén creo que poderemos facelo
 O mesmo pasa coa campaña.
 O mesmo pasa coa innovación.
 O mesmo que na Venezuela de Chaves ou na Cuba castrista.
@@ -11244,6 +11502,7 @@ Ola, Pedro Sobreira. Tes algo para min?
 Ola, Pepe.
 Ola, benvido á conversa
 Ola, bos días. Hoxe vai un día chuviñento.
+Ola, como vai?
 Ola, que tal vos portastes?
 Ola, querida. Son Anxos, a túa veciña da dereita.
 Ola, rapaces! Ola, rapaces. Xa facía tempo.
@@ -11320,6 +11579,7 @@ Onte doumeu ben a cabeza
 Onte escoitei falar de ti tan ben que pensei que morreras!
 Onte foi luns, ben o sei.
 Onte fun revisar os audífonos
+Onte pasei o día aloulada
 Onte regresei a casa porque esquecera apagar o fornelo eléctrico.
 Onte roubaron na casa dos veciños. Cres que deberiamos instalar unha alarma?
 Onte á tarde comprei un bolso chulísimo.
@@ -11443,6 +11703,7 @@ Os estranxeiros con permiso de residencia en España non están distribuídos po
 Os estudantes «proletarios» apupáronos e chamáronos contrarrevolucionarios.
 Os esvaecidos
 Os etíopes son para el coma tordos, e nós coma paspallás.
+Os eventos naturais son perigosos, mais marabillosos ao tempo
 Os feitos son outros, aínda que non haxa comparanza entre ámbolos dous casos.
 Os fillos e os descendentes de fillos premortos, xustamente desherdados ou indignos.
 Os fillos á beira da casa son coma a cabra na horta
@@ -11816,6 +12077,7 @@ Para.
 Para. Coidado!
 Para. Sei que pensas que estou aquí nadando na miña autocompaixón
 Parabéns para os mañicos.
+Parabéns polos éxitos acadados
 Parabéns! Que cumpras moitos máis!
 Parabéns.
 Paralelamente, os médicos interinos secundan as súas protestas reivindicativas pero doutro xeito:
@@ -11962,6 +12224,7 @@ Perdelo para facer referencia a unha cuestión, ao meu xuízo, esencial.
 Perdemos todo o día coa historia esa.
 Perdeu a rixidez.
 Perdeu diñeiro a esgalla como xogador de bingo
+Perdiches o contacto coas amizades?
 Perdoa por non pasarme antes a darche a benvida ó quinteiro.
 Perdoa por non poder darcha antes.
 Perdoa. Sen ofender, pero es un ser moi terrestre. Vale?
@@ -11971,6 +12234,7 @@ Perdoade.
 Perdoádeme se me atrevo a dicirvos a verdade...
 Perdoádeme −dixen−.
 Perdoádenos xa e marchade.
+Perdémolo todo
 Perdín a conta
 Perdín moita memoria
 Perdín o concerto por completo.
@@ -12637,6 +12901,7 @@ Por iso, cando finalmente a vista desapareceu de entre eles, a raza seguiu vivin
 Por iso, vai ser necesario un certo grao de poliglotismo.
 Por isto, considerou que o prezo se manterá en cotas elevadas.
 Por min como se non volven nunha semana ou dez días.
+Por min que chova
 Por mor de tristes austeridades querería nese doce peito estar.
 Por non erguerme cedo, acabei perdendo o bus.
 Por o carro á fronte dos bois.
@@ -12797,6 +13062,7 @@ Poño cara de sorprendido, saco o reloxo e encollo os ombros.
 Poñédelle outra camisa! −ordenou−.
 Poñédevos aí, que vos fago unhas fotos
 Pra que? −dixo el engruñando os ombreiros−.
+Practicamente non choveu en toda a noite
 Practicábase un nacionalismo produtivo e de consumo.
 Prazas de garaxe
 Precipitacións febles no litoral norte
@@ -13030,6 +13296,7 @@ Que che gusta máis, as filloas ou as orellas?
 Que che parece se escribimos unhas frases?
 Que che parece se imos tomar algo?
 Que che pasa, Xei?
+Que che podo dicir eu
 Que che preste!
 Que che trouxera o corazón dun fulano.
 Que clase de ama de casa sería
@@ -13189,6 +13456,7 @@ Que se amen agora coma irmáns.
 Que se che queiman as patacas!
 Que se cite a fonte.
 Que se cumpra a legalidade, que busque outra localización non perniciosa.
+Que se lle vai facer!
 Que se mencione a data da última actualización.
 Que sensación tan estraña produce iso de espetar un aceiro no corazón dun home.
 Que sentido ten chancearse?
@@ -13270,6 +13538,7 @@ Quedou alguén na oficina?
 Quedou coma un pepe
 Quedou levado dos demos
 Quedou unha foto moi xeitosa, e iso que non a preparei.
+Quedoume cara de parva
 Quedáballe mellor a ela que á súa irmá.
 Queixo, empanada e polbo á feira.
 Quen sementa na culler apaña na garfeta.
@@ -13346,6 +13615,7 @@ Quen pasa baixo o sol por sendas que saben do paso livián?
 Quen pode o máis pode o menos.
 Quen porfía mata a caza.
 Quen precisa abreviar?
+Quen puidera namorala!
 Quen puxo a orde enriba da mesa?
 Quen queira comer, que colla o prato e se sirva.
 Quen quere a Beltrán, quere a seu can.
@@ -13432,6 +13702,7 @@ Queres saber como o fai?
 Queres saber o que che fai?
 Queres saber quen me axudou a saír del?
 Queres unha presa de castañas do meu castiñeiro?
+Queres uns cachelos con mollo?
 Queres ver unha película?
 Queres xantar aínda?
 Querida, escoita, é moi romántico o das candeas, a música
@@ -13475,6 +13746,7 @@ Quería salvalo.
 Quería salvar a Deus.
 Quería salvar a pel e a xestoría e sacrificábao a el, o auténtico dono;
 Quería ser máis que Deus.
+Quería ser un peixe a nadar polos mares
 Querían lograr o apoio do pleno, pero non teñen sorte.
 Querían superarse uns ós outros no seu repudio.
 Querías ir alí porque non había pandemia
@@ -13488,6 +13760,7 @@ Quitoume o pouquísimo espazo que eu roubara.
 Quitárono de alí, pero o fulano espichou dous días despois, no hospital.
 Quixera que non estiveras preocupada por min.
 Quixera un Maragall co mesmo peso que ten no Estado.
+Quixera unha sesta das boas
 Quixeron que eu cargase co peso da xustiza.
 Quizais a fermosa mazá ata estaba gardada para un pastor namorado.
 Quizais atopou servidoras mellores ca min onda súa nai.
@@ -13950,6 +14223,7 @@ Se queres podo facer churrasco
 Se queres velo, vai petar nas paleiras da cidade −riu Miriam con retranca−.
 Se queres, lévote á casa da túa avoa
 Se queres, podo ir contigo.
+Se quixer, ben pode
 Se responde un neno galego dirá que policía, futbolista ou actor.
 Se revelas o que che vou dicir, caerá sobre min unha gran desgraza.
 Se saía da súa cela, estaba ante a porta;
@@ -14051,6 +14325,7 @@ Seguín ao pé da letra as instrucións e comprobei que ela tiña razón:
 Sei de boa tinta que estaban aí.
 Sei máis do que te podes imaxinar.
 Sei o que me dixeches
+Sei que non foi boa idea
 Sei que o fixestes de corazón, porque me queredes.
 Sei que o mandil é un pouco demasiado, querido, pero fágoo por encaixar.
 Sei que sería un compañeiro agradable e xovial para min.
@@ -14076,6 +14351,7 @@ Seino por amarga experiencia:
 Seino porque eu estaba alí.
 Seino porque o vin.
 Seino todo.
+Seino, equivocámonos
 Seis peniques non son nada.
 Seis xemas, tres equipos
 Seleccionaron formas de adoración de entre contos poéticos.
@@ -14117,6 +14393,7 @@ Sempre me abandonaba o sentido común cando me tomaban por sorpresa.
 Sempre me foi moi ben, eu levaba e vendía calidade.
 Sempre me foron fieis.
 Sempre me opuxen a tal cousa.
+Sempre mo pregunto, non estou certa
 Sempre nos quedará París.
 Sempre o estará.
 Sempre o mesmo.
@@ -14172,6 +14449,7 @@ Sentiamos apatía, unha absoluta indiferenza.
 Sentiches o que tal dixo? A ese home chóvelle no tellado
 Sentidiño
 Sentinme aterrorizado diante daquel espazo inesperado.
+Sentino moito
 Sentino por el;
 Sentistes, non si? −dixo el−.
 Sentiu a muiñeira de auga mentres sete bois de lúa pacían na súa lembranza
@@ -14206,6 +14484,7 @@ Ser orfo e parente do adoptante en terceiro grao por consanguinidade ou afinidad
 Ser quen de esquecer é indicio de saúde mental.
 Ser un miñaxoia
 Serafín, ven comigo.
+Serbia
 Serei audaz: ora entrégote ao noso mundo, ora entrégoche o meu cadáver.
 Sermos coma animais para podermos sobrevivir.
 Serventa dunha casa de renome.
@@ -14234,6 +14513,7 @@ Sete meses botei en rematar tan só ese corredor cego.
 Setecentos e pico eran, non me puxen a contalos
 Setembro era un bo mes
 Setenta e seis proxectos en todo o Estado
+Setenta veces tiven que repetirllo
 Seu pai mirou para arriba e berrou que o subisen;
 Sevilla
 Sexa como for, eu xa cumprín advertindo desta circunstancia.
@@ -14691,6 +14971,7 @@ Sóubeno porque o rótulo era diferente.
 Ta, ta, ta.
 Tabaré Vázquez prometeu "pragmatismo e austeridade" para encarar as dificultades.
 Tadeu vendera a casa e mercara unha enorme caravana.
+Tailandia
 Tal foi cavilando consigo mesmo e soñando ata a eira.
 Tal noite como aquela, xuntábanse coa súa familia ao redor da lareira
 Tal pai, tal fillo.
@@ -14883,6 +15164,7 @@ Ten algunha alerxia, intolerancia á lactosa ou é simplemente unha repugnante?
 Ten algún problema que lle preocupe especialmente?
 Ten alucinacións e non sabe facer nada ó dereito”.
 Ten axuda.
+Ten conta, non te fíes!
 Ten convulsións. Déixenlle aire!
 Ten dúas vantaxes:
 Ten enerxía abondo para prender un continente
@@ -14965,6 +15247,7 @@ Terrícolas.
 Terán que consentir a adopción
 Terás que matinar algo mellor se queres que trague esa trola.
 Terían que ser alimentados artificialmente.
+Tes algo de faltas
 Tes algo que dicir? Algunha queixa que facer? −preguntoume.
 Tes algo que poida comer?
 Tes algunha máis?
@@ -15329,6 +15612,7 @@ Todos son peculiares até o abraio en cuestión de opinións e comportamento.
 Todos temos dereito a vivir respectando ós demais.
 Todos temos ideas coma todos temos cara
 Todos vostedes.
+Todos vós subistes a aquela ameixeira?
 Todos, en fin, atopan un motivo para inducir os demais a seguir trasfegando.
 Todos, en maior ou menor medida, foron cómplices.
 Todos, sen excepción, desexan encontrar unha oferta que colme as súas aspiracións.
@@ -15709,6 +15993,7 @@ Unha estación no inferno
 Unha fanfurriñada −respondeu o alcaide−.
 Unha fiestra ó que se coce nas vilas e cidades do país.
 Unha frase da filla é contundente:
+Unha fritidura mellor na tixola e cun chisco de aceite de mirasol
 Unha gadaña é un apeiro que se usa para cortar herba.
 Unha gran preparación física permítelles voar de papel en papel.
 Unha grúa recolle o coche accidentado en Meis, cuxos ocupantes tiveron que ser rescatados
@@ -15855,6 +16140,7 @@ Vai polas escaleiras!
 Vai polas escaleiras.
 Vai por aí!
 Vai rascar a cona
+Vai rañala
 Vai rañar a crica
 Vai responder ante nós.
 Vai ser todo un cambio
@@ -16227,6 +16513,7 @@ Vou baixar ao soto, arrincarche os brazos e logo meterchos polo cu!
 Vou baixar facer recoñecemento.
 Vou cara ó peirao.
 Vou chegar un pouco tarde
+Vou corta-las puntas
 Vou dentro túa. Agora.
 Vou descansar a vista.
 Vou encargar unhas empanadas para o domingo.
@@ -16530,6 +16817,7 @@ Xamais volvín ver os meus compañeiros.
 Xan botou a gorra para atrás.
 Xantaches ou fágoche algo?
 Xantando? Bebendo? Loitando?
+Xantaremos porco celta vexetariano
 Xaora −mentiu o meu bo compañeiro−.
 Xaora...
 Xaquín Fdez. Leiceaga
@@ -16585,6 +16873,7 @@ Xosé Neira Vilas foise pero deixounos a Balbino para sempre
 Xosé Ramón Barreiro
 Xosé Sánchez Bugallo, Alcalde de Santiago.
 Xosé, saíronche ben boas as filloas!
+Xoves seis de decembro de dous mil dezaoito.
 Xoán anda sempre por detrás, ás agochadas
 Xoán foi consciente de que el tamén tiña algo de culpa.
 Xoán percibiu un arreguizo intensísimo no corpo;
@@ -16596,6 +16885,7 @@ Xunta a nova dun xuízo explicade que é instrución, sumario ou o código penal
 Xunta de Galicia
 Xunta de Galicia. Información mantida e publicada na internet pola Xunta de Galicia
 Xuntanza fixo dúas edicións.
+Xuntei unha presa e continuei andando
 Xuntámonos na miña casa
 Xurado de luxo e presenza de directores
 Xurdían con demasiada frecuencia na miña propia mente sospeitas nese sentido.
@@ -16605,6 +16895,7 @@ Xuro que se non morrer aquí hei volver.
 Xuro...
 Xurxo González Gurriarán, profesor da Universidade de Vigo
 Xurxo Salgado
+Xurxo e máis eu estamos a organizar unha festa de aniversario para a avoa.
 Xusto como ten que saír.
 Xusto despois das celebracións anuais na honra do deus protector do lugar.
 Xusto en fronte da tenda, para un tranvía.
@@ -17540,6 +17831,8 @@ xogando decote con lume, tiña que queimarse
 Álvarez Blázquez arqueólogo
 Álzanse firmes arcos brancos plantados en columnas de mármore....
 Ámbito de aplicación da Lei e medidas xerais
+Ámbito de aplicación dos títulos primeiro a noveno.
+Ámbito e persoal competente.
 Ámbito obxectivo de aplicación.
 Ámbito subxectivo de aplicación.
 Ámbolos dous bótanse a un torrente de auga e morren afogados.
