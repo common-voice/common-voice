@@ -11,6 +11,8 @@ export const ACCENTS: any = {
     northwestern: 'nord-occidental',
     northern: 'septentrional',
     valencian: 'valencià',
+    learner_es: 'aprenent (recent, des del castellà)',
+    learner_other: 'aprenent (recent, des d\'altres llengües)',
   },
   cy: {
     united_kingdom: 'Y Deyrnas Unedig Cymraeg',
