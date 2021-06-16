@@ -509,6 +509,7 @@ dataset-date = Päivämäärä
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Useita
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
+data-download-singleword-callout-v2 = Tämä on käyttötapaukseen perustuva segmentti, joka sisältää tietoa puhuttujen lukujen tunnistamisen ja kyllä/ei -havaitsemisen tehostamiseksi.
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy
@@ -842,6 +843,7 @@ read-more-about = Lue lisää Lisätietoja-sivulta
 
 demo-get-started = Aloitetaan
 demo-welcome = Tervetuloa Common Voiceen
+demo-welcome-subheader = Haluatko oppia lisää ja osallistua projektiin?
 
 ## Demo Datasets
 
@@ -849,6 +851,7 @@ demo-language-select-card-header = Common Voice on maailman suurin julkisesti sa
 card-button-next = Seuraava
 card-button-back = Takaisin
 demo-language-select-label = Selaa kieliä
+demo-eofy-header = Loppuvuoden 2019 julkaisu
 demo-eofy-sub_header = Ääniaineisto, valmiina ladattavaksi
 demo-account = Tili
 

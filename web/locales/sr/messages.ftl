@@ -358,26 +358,19 @@ skip-submission-description = Током слања доприноса, повр
 skip-submission-note = Напомена: и даље ћете морати да бирате између говора и слушања за промену врсте доприноса.
 off = Искљ.
 on = Укљ.
-avatar-clip-title = Дајте глас вашем аватару
-change-your-avatar-clip = Желите ли да измените ваш гласовни запис?
-recording-in-progress = Снимање гласа је у току
-avatar-clip-recorded = Ваш аватар сада има гласовни запис!
-record-voice-wave = СНИМИ ГЛАС
-retry-voice-wave-recording = ПОКУШАЈ ПОНОВО
-re-record = СНИМИ ПОНОВО
-delete-voice = ИЗБРИШИ
-recording-voice-wave = Снимам
-delete-voice-clip = или  избришите гласовни запис
-ready-to-upload = Отпреми
-avatar-clip-fact = Већ дуже време је утврђена чињеница да се читаоцу смањује пажња са читљивог садржаја странице због изгледа странице.
-recreate-voice = Поново направите гласовни талас
-cancel-avatar-clip-recording = Откажи
-about-avatar-clip-recording = Направите гласовни запис као део свог аватар профила. Други ће моћи да пређу курсором миша преко њега и послушају ваш глас.
+
+## Profile - Email
+
 browse-file-title = Додајте слику
 browse-file = Превуци и пусти или <browseWrap>Прегледај</browseWrap>
 connect-gravatar = Повежите са Gravatar-ом
 gravatar_not_found = Не постоји Gravatar за вашу е-пошту
 file_too_large = Одабрана датотека је превелика
+avatar-uploaded = Аватар је отпремљен
+max-file-size = Максимално { $kb } KB
+
+## Profile - Email
+
 manage-subscriptions = Управљајте претплатама
 manage-email-subscriptions = Управљајте претплатама преко е-поште
 email-already-used = Е-пошта се већ користи за други налог

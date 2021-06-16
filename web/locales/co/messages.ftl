@@ -43,6 +43,7 @@ el = Grecu
 en = Inglese
 eo = Esperanto
 es = Spagnolu
+eu = Bascu
 fa = Persianu
 fi = Finlandese
 fr = Francese
@@ -59,6 +60,7 @@ kab = Cabile
 ko = Coreanu
 lij = Ligure
 mhr = Mari da e pratuline
+mk = Macedunianu
 mrj = Mari da e culline
 mt = Maltese
 my = Birmanu
@@ -341,6 +343,7 @@ faq-search-for-answers =
 about-title = Parchì Common Voice ?
 about-subtitle = Common Voice hè una parte di l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone. In più di a banca di dati Common Voice, custruimu ancu un mutore cù e fonte aperte di ricunniscenza vucale chjamatu Deep Speech.
 how-does-it-work-title = Comu funziona ?
+how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte cù l'aiutu di u publicu. Date a vostra voce, cunvalidate è campione di l'altri, migliurate a banca di dati pà tuttu u mondu.
 about-speak = Parlà
 about-speak-text = I cuntributori arrighjistrani campiunarii vucali lighjendu da una banca di frasi dunati da a cumunità.
 about-listen-queue = Fila d’ascolta
@@ -352,7 +355,9 @@ about-is-it-valid-text = Un campione vucale hè marcatu cum’è «validu» quan
 about-yes-votes = ≥ 2 voti Iè
 about-yes-votes-text = Pà intrà in a banca di dati Common Voice, un campione vucale hà da esse cunvalidatu da dui utilizatori distinti.
 about-no-votes = ≥ 2 voti Innò
+about-no-votes-text = Quandu un campione vucale hè rifiutatu da un utilizatore, hè rinviatu in a fila. Si hè rifiutatu una siconda volta, u campione hè spiazzatu à u campu santu di i campioni.
 about-dataset-new = Basa di dati Common Voice
+about-dataset-new-text = A banca di dati Common Voice cuntene cintinaia di millaghja di campioni vucale ch'aiutani sviluppatori à custruisce strumenti di ricunniscenza vucale.
 about-clip-graveyard = Campu santu di i campiunarii
 about-clip-graveyard-text = U campu santu di i campiunarii hè custituitu di tutti i campiunarii chì ùn sò micca stati cunvalidati pà fà parte di a banca di dati Common Voice. Cum'è edda, u campu santu di i campiuanarii pò esse scaricatu libaramente.
 about-partners = Partinarii
@@ -382,8 +387,10 @@ glossary = Glussariu
 localization = Lucalizazione
 localization-explanation = Questu hè u nostru prucessu pà traduce è adattà u nostru cuntinutu à mori di lingue.
 sentence-collection = Racolta d'infrasate
+sentence-collection-explanation = Racoglie infrasate da u duminiu publicu, o scrive nove infrasate pà u duminiu publicu.
 hours-recorded-explanation = U contu di l'ori arrighjistrati sin'à avà.
 sst = Discorsu-à-u-testu (Speech-to-text, STT)
+de-identified = Anonimizatu
 
 ## Error pages
 
@@ -489,6 +496,7 @@ other-language = Altra lingua
 ## Languages Overview
 
 language-section-in-progress = In prugressu
+language-section-in-progress-new-description = Isse lingue sò pà avà in sviluppu da a cumunità. E barre di prugressu indicanu à chì ne sò di ﻿<localizationGlossaryLink>a lucalisazione di u situ web</localizationGlossaryLink> è di <sentenceCollectionGlossaryLink>a culletta di l'infrasate</sentenceCollectionGlossaryLink>.
 language-section-launched = Cumminciatu
 languages-show-more = Vede di più
 languages-show-less = Vede menu
@@ -503,6 +511,8 @@ total-hours = Ore cunvalidate
 
 ## Contribution
 
+action-click = Preme
+action-tap = Appughjà
 contribute = Cuntribuisce
 skip = Scappà
 shortcuts = Scurtatoghji
@@ -531,6 +541,7 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> quandu vo l'avete
 record-three-more-instruction = Più chè trè !
 record-again-instruction = Bravu ! <recordIcon></recordIcon> Arrigistrà u vostru prossimu campionu
 record-again-instruction2 = Cuntinuate cusì, arrighjistrate vi torna <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> L'ultimu !
 review-tooltip = Verificà è riarrighjistrà i campioni quì pocu à pocu
 share-clip = Sparte u vostru campionu
 share-common-voice = Sparte Common Voice
@@ -610,6 +621,11 @@ difficult-difficulty = Difficiule
 pro-difficulty = Prufessiunale
 want-to-continue = Vulete cuntinuà ?
 build-custom-goal = Definisce un scopu parsunale
+help-reach-hours-pluralized =
+    Aiutateci à ghjunghje { NUMBER($hours) ->
+        [one] { $hours } ora
+       *[other] { $hours } ore
+    } in { $language } cù un scopu parsunale
 help-reach-hours-general-pluralized =
     Aiutate Common Voice à ghjunghje { NUMBER($hours) ->
         [one] { $hours } ora
@@ -642,6 +658,7 @@ profile-form-delete = Sguassà u prufilu
 
 ## Landing
 
+welcome-staff = Benvenuta à l’impiegati di { $company } !
 help-contribute = Pudeti aiutà à custruisce una banca vucala, diversificata è in accessu liberu creendu un prufilu è agghjustendu a vostra voce.
 login-company = Identificassi / Arrighjistrassi cù l’indirizzu elettronicu di { $company }
 profile-not-required = Ùn c'hè bisognu di contu pà cuntribuisce ancu s'ellu hè ghjuvevule, vede perchè quì sottu.

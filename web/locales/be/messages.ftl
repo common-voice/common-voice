@@ -283,6 +283,7 @@ shortcut-record-toggle = з
 shortcut-record-toggle-label = Запісаць/Спыніць
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перазапісаць кліп
+shortcut-submit-label = Даслаць запісы
 request-language-text = Пакуль не знаходзіце сваю мову на Common Voice?
 request-language-text-learn = замовіць
 request-language-button = Запытаць мову
@@ -636,7 +637,7 @@ total-hours = Праверана гадзін
 
 ## Contribution
 
-action-click = Клікнуць
+action-click = Націснуць
 action-tap = Дакрануцца
 contribute = Прыняць удзел
 listen = Праслухаць
@@ -702,8 +703,8 @@ target-segment-learn-more = Даведацца больш
 
 ## Reporting
 
-report = Водгук
-report-title = Даслаць водгук
+report = Паскардзіцца
+report-title = Даслаць скаргу
 report-ask = Якія праблемы вы заўважылі ў гэтым сказе?
 report-offensive-language = Абразлівы тэкст
 report-offensive-language-detail = У гэтым сказе ёсць зняважлівыя ці абразлівыя выразы.
@@ -719,7 +720,7 @@ report-other-comment =
     .placeholder = Каментарый
 success = Паспяхова
 continue = Працягнуць
-report-success = Водгук паспяхова дасланы
+report-success = Скарга паспяхова дасланая
 
 ## Goals
 
@@ -887,7 +888,7 @@ demo-account = Уліковы запіс (акаўнт)
 ## Demo Account
 
 demo-account-card-header = Стварэнне ўліковага запісу не абавязкова для ўдзелу, але гэта дае карыстальнікам дадатковыя магчымасці
-demo-account-card-body = Справа Вы знойдзеце інфармацыю аб магчымасцях і перавагах нашага дадатку. Клікніце на спасылку ніжэй, каб пачаць працу ў сваім уліковым запісе Common Voice на Вашай прыладзе.
+demo-account-card-body = Справа Вы знойдзеце інфармацыю аб магчымасцях і перавагах нашага дадатку. Націсніце на спасылку ніжэй, каб пачаць працу ў сваім уліковым запісе Common Voice на Вашай прыладзе.
 demo-account-enter-email =
     .label = Дадайце адрас Вашай электроннай пошты, на якую будзе даслана спасылка для рэгістрацыі
 demo-account-sign-up = Дашліце спасылку для рэгістрацыі

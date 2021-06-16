@@ -98,6 +98,7 @@ Anh mất con rồi mất luôn cả cô vợ hết lòng yêu thương
 Anh nghỉ ngơi sớm đi mai còn đi
 Anh ngỏ lời yêu em
 Anh ngồi xuống cho tôi nhờ
+Anh ngủ quên trong ngày tháng tiêu đìu
 Anh nhặt về âu yếm những đêm mơ
 Anh này có phải bị bệnh đau đầu không
 Anh nên nhớ là tôi là gái chưa chồng anh làm như vậy
@@ -488,6 +489,7 @@ Cho tôi được lau khô dòng lệ chảy
 Cho đến khi từ bên ngoài có một chiếc xe hơi cũ đậu lại
 Cho đến tác dụng của kuman là gì
 Chu choa hôm nay mặc bộ đồ xinh đẹp quá
+Chung nhà nên duyên.
 Chuyển bệnh nhân đến phòng theo dõi đặc biệt
 Chuyện bé xé ra to: chuyện nhỏ, bị thêu dệt ra nhiều chi tiết
 Chuyện của bà nói bao nhiêu phần trăm chúng tôi có thể tin được
@@ -542,6 +544,7 @@ Chú thích
 Chú thợ sửa xe bảo là chả hỏng hóc gì cả
 Chúc nhân gian ai cũng phước hơn mình
 Chúng em nhớ cô mãi
+Chúng mình nguyện ước....
 Chúng nó nói xấu mẹ đó
 Chúng ta cũng chả biết là nó có tồn tại hay không
 Chúng ta cần biết con quỷ đó là ai
@@ -897,6 +900,7 @@ Có nỗi đau nào khiến nước mắt cạn khô
 Có phải giống như cái này không
 Có phải hôm nay mày giữ không cho tao đi đúng không
 Có phải mẹ không ạ
+Có ta cầm trên tay một bó hoa dã quỳ khác
 Có thầm nghĩ đến loài...hoa vỡ
 Có thể lúc anh chở cô ấy đi đường
 Có thể nào qua Vạn lý trường thành
@@ -937,6 +941,7 @@ Cô cứ đưa cậu ấy về đi
 Cô duyệt đi thử lại nhiều bộ mà vẫn không thể ưng bộ nào
 Cô dạy bao cách
 Cô ghen với tất cả mọi thứ xung quanh
+Cô gái dương mắt nhìn khách như không hiểu
 Cô gái lúc vừa rồi đâu phải là một con người bình thường
 Cô gái lắc đầu đáp
 Cô gái tháng mười một của tôi ơi!
@@ -1543,6 +1548,7 @@ Hạt mưa khuya hờ hững rắc quanh đời
 Hất bà ấy văng xuống vực sâu rồi bỏ chạy luôn
 Hắn xuất hiện ở gốc cây gọi a hồi
 Hắn đang đi lên đây
+Hẳng phải mong tháng mười.
 Hẹn gặp nhau xong
 Hết u buồn cứ chảnh cứ làm duyên
 Họ bỏ anh ta ở lại đây
@@ -1566,6 +1572,7 @@ Hội gì vậy
 Hội họa
 Hội leo lên giường không ngủ được
 In bóng nhau vờn luân điệu vũ
+Khe khẽ
 Khi Trinh đến xác của Nhi vẫn được phủ kín
 Khi anh nghe thấy tiếng ai đang nói như tiếng của mẹ mình
 Khi ban đêm chỉ có một mình cô
@@ -2006,6 +2013,7 @@ Mùa thu cái lạnh dịu dàng
 Mùa thu quấn quýt gót hài
 Mùa thu ra biển cả
 Mùa thu trên khắp phố phường
+Mùa thu từng khóc tiễn một người đi
 Mùa thu và hoa cúc
 Mùa thu vàng úa vẫn tươi sắc màu
 Mùa thu vắng những cơn mưa
@@ -3208,6 +3216,7 @@ Tháng mười rồi, đêm sẽ bỗng dài hơn?
 Tháng mười tháng mười đấy.
 Tháng mười tưởng xa lắm.
 Tháng mười vương mùi hoa sữa
+Tháng mười về
 Tháng mười về anh chợt biết làm thơ
 Tháng mười về bên góc phố liêu xiêu
 Tháng mười về cho ta nhiều mơ ước
@@ -5222,6 +5231,7 @@ xạ thủ
 Đó vẫn là trinh
 Đón bình minh những tia nắng tinh khôi
 Đón em với hoa hồng.
+Đón những cơn gió lòng tê tái
 Đóng cửa nhà lại Trinh rời đi
 Đóng cửa sổ hành lang lại cẩn thận
 Đóng vội cửa quán hà ni thúc giục
@@ -5239,6 +5249,7 @@ xạ thủ
 Đôi mắt ngây dại khuôn miệng nhoẻn miệng cười đầy đê mê
 Đôi mắt trắng ởn
 Đông chợt về để đêm lại dài thêm
+Đông ngập ngừng qua
 Đông sang rồi anh thấy nhớ trong anh
 Đông sang rồi màu nắng cũng nhạt hơn
 Đông đã về tháng mười một liêu xiêu...!
