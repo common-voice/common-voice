@@ -92,7 +92,6 @@ export default class API {
     router.post('/user_client/awards/seen', this.seenAwards);
 
     router.get('/:locale/sentences', this.getRandomSentences);
-    router.get('/:locale/name', this.getLocaleName);
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
 
     router.use(
@@ -465,10 +464,5 @@ export default class API {
       cdn == 'true'
     );
     response.json({ url });
-  };
-
-  getLocaleName = async (request: Request, response: Response) => {
-    const { params } = request;
-    response.json({ [params.locale] : await getLocaleId(params.locale)});
   };
 }
