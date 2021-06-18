@@ -15,7 +15,7 @@ import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
 
 const Transcoder = require('stream-transcoder');
-const { Converter } = require("ffmpeg-stream")
+const { Converter } = require('ffmpeg-stream');
 const { Readable } = require('stream');
 
 /**
@@ -139,6 +139,7 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
     const sentenceId = headers.sentence_id as string;
+    const source = headers.source || 'unidentified';
     const format = headers['content-type'];
     const size = headers['content-length'];
 
@@ -173,12 +174,17 @@ export default class Clip {
 
       let audioInput = request;
 
-      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && (format.includes('aac') || format.includes('opus'))) {
-        console.log(`loading ${folder}/${filePrefix} (${format}) as buffered stream`);
-        const converter = new Converter()
+      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
+        // aac data comes wrapped in an mpeg container, which is incompatible with
+        // ffmpeg's piped stream functions because the moov bit comes at the end of
+        // the stream, at which point ffmpeg can no longer seek back to the beginning
+        // createBufferedInputStream will create a local file and pipe data in as
+        // a file, which doesn't lose the seek mechanism
+
+        const converter = new Converter();
         const audioStream = Readable.from(request);
 
-        audioInput = converter.createBufferedInputStream()
+        audioInput = converter.createBufferedInputStream();
         audioStream.pipe(audioInput);
       }
 
@@ -197,7 +203,9 @@ export default class Clip {
         })
         .promise();
 
-      console.log(`clip written to s3 ${clipFileName} (${size} bytes, ${format})`);
+      console.log(
+        `clip written to s3 ${clipFileName} (${size} bytes, ${format}) from ${source}`
+      );
 
       await this.model.saveClip({
         client_id: client_id,
