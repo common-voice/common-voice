@@ -283,6 +283,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrát/Zastavit
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nahrát klip znovu
+shortcut-submit = Enter
 shortcut-submit-label = Odeslat nahrávky
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-text-learn = Zde se dozvíte, jak o něj požádat!
@@ -523,6 +524,8 @@ release-version = Verze
 dataset-date = Datum
 license = Licence: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kombinovaná
+data-download-singleword-title = Stáhněte si jednoslovnou datovou sadu
+data-download-singleword-callout-v2 = Tato sada je určena pro speciální případ rozeznávání vyslovovaných číslic a slov ano / ne.
 review-terms = Používáním Common Voice souhlasíte s našimi <termsLink>Podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink>
 terms-agree = Souhlasím
 terms-disagree = Nesouhlasím
@@ -871,9 +874,12 @@ read-more-about = Přečtěte si více na stránce O nás
 
 demo-get-started = Jdeme na to!
 demo-welcome = Vítejte ve službě Common Voice
+demo-welcome-subheader = Chcete zjistit více o přispívání do tohoto projektu?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice je světově největší veřejně dostupný datová sada hlasových nahrávek ve více jazycích.
+demo-language-select-card-body = Díky zapojení více než 259 tisíc lidí ve více než 50 jazycích jsou tato data využívána pro učení aplikací lépe reagovat na lidský hlas.
 card-button-next = Další
 card-button-back = Zpět
 demo-language-select-label = Procházet jazyky
@@ -884,13 +890,18 @@ demo-account = Účet
 ## Demo Account
 
 demo-account-card-header = Není nutné mít vytvořený účet, abyste mohli přispívat, ale může být užitečný.
+demo-account-card-body = Vpravo vysvětlujeme výhody projektu a jaké informace zveřejňujeme. Níže najdete odkazy jak si založit účet Common Voice na vlastním zařízení.
 demo-account-enter-email =
     .label = Zadejte e-mail, na který zašleme přihlašovací odkaz
 demo-account-sign-up = Pošlete mi přihlaovací odkaz
 
 ## Demo Contribute
 
+demo-contribute-card-header = Jste připraveni přiložit svůj hlas a sluch k dílu?
+demo-contribute-card-body-v2 = Když už více, co je Common Voice, chcete ho zkusit? Klepněte na ikonu mikrofonu a začněte nahlas číst věty.<br/><br/>Pokud chcete raději kontrolovat nahrávky ostatních přispěvatelů, klepněte na ikonu přehrávání. Pomůžete nám ověřit, že obsah nahrávek odpovídá textu napsaných vět.
 demo-listen-subtitle = Jste připraveni se zapojit?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Na své osobní nástěnce uvidíte přehled svého osobního postupu i postupu celé komunity.
+demo-dashboard-card-body = Vaše nástěnka se aktualizuje s každou nově nahranou nebo ověřenou nahrávkou v každém jazyce, do kterého přispíváte. Můžete pomáhat i s několika jazyky zároveň.<br/><br/>Na nástěnce sledujte své statistiky, jak se vám daří v porovnání s ostatními, a můžete si nastavit osobní denní nebo týdenní cíle.
