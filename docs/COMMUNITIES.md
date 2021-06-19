@@ -18,11 +18,12 @@ Many language communities are self organising and have their contact channels on
 * Esperanto (`eo`):
    * [Matrix](https://chat.mozilla.org/#/room/#Esperanto:mozilla.org)
    * [GitHub](https://github.com/parolrekonado)
+   * [Website](https://parolrekonado.github.io/)
 * French (`fr`):
    * [Matrix](https://chat.mozilla.org/#/room/#common-voice-fr:mozilla.org)
 * German (`de`):
    * [Matrix](https://chat.mozilla.org/#/room/#common-voice-de:mozilla.org)
-   * [Discord](https://discourse.mozilla.org/c/voice/de/289)
+   * [Discourse](https://discourse.mozilla.org/c/voice/de/289)
 * Guaraní (`gn`):
   * [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
 * Italian (`it`):
