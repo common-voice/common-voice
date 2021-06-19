@@ -15,8 +15,14 @@ Many language communities are self organising and have their contact channels on
    * [Web](https://dhivehi.ai/)
    * [Discord](https://discord.com/invite/5ZdTHsN8Mn)
    * [Matrix](https://app.element.io/#/room/!WNiJFJTBpvYqMrDWir:matrix.org)
+* Esperanto 
+   * [Matrix](https://chat.mozilla.org/#/room/#Esperanto:mozilla.org)
+   * [GitHub](https://github.com/parolrekonado)
 * French (`fr`):
    * [Matrix](https://chat.mozilla.org/#/room/#common-voice-fr:mozilla.org)
+* German
+   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-de:mozilla.org)
+   * [Discord](https://discourse.mozilla.org/c/voice/de/289)
 * Guaraní (`gn`):
   * [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
 * Italian (`it`):
