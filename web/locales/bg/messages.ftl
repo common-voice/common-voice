@@ -33,14 +33,18 @@ as = Асамски
 ast = Астурски
 az = Азербайджански
 ba = Башкирски
+bas = Баса
 be = Беларуски
 bg = Български
+bm = Бамбарски
 bn = Бенгалски
 br = Бретонски
 bxr = Бурятски
 ca = Каталонски
 cak = Какчикелски
+ckb = Централен кюрдски
 cnh = Чински
+co = Корсикански
 cs = Чешки
 cv = Чувашки
 cy = Уелски
@@ -62,11 +66,13 @@ fr = Френски
 fy-NL = Фризийски
 ga-IE = Ирландски
 gl = Галисийски
+gn = Гуарани
 ha = Хауса
 he = Иврит
 hi = Хинди
 hr = Хърватски
 hsb = Горнолужишки
+ht = Хаитянски креолски
 hu = Унгарски
 hy-AM = Арменски
 ia = Интерлингва
@@ -86,13 +92,16 @@ ky = Киргизски
 lij = Лигурски
 lt = Литовски
 lv = Латвийски
+mai = Майтили
 mdf = Мокша
 mg = Малгашки
 mhr = Мари
 mk = Македонски
 ml = Малаялам
 mn = Монголски
+mr = Марати
 mrj = Уралски
+ms = Малайски
 mt = Малтийски
 my = Бирмански
 myv = Ерзянски
@@ -104,6 +113,7 @@ oc = Окситански
 or = Одийски
 pa-IN = Пенджабски
 pl = Полски
+ps = Пущу
 pt = Португалски
 rm-sursilv = Сурсливан
 rm-vallader = Романш валадер
@@ -116,6 +126,7 @@ scn = Сицилиански
 si = Синхалски
 sk = Словашки
 sl = Словенски
+so = Сомалийски
 sq = Албански
 sr = Сръбски
 sv-SE = Шведски
@@ -130,6 +141,7 @@ tr = Турски
 tt = Татарски
 uby = Убих
 udm = Удмуртски
+ug = Уйгурски
 uk = Украински
 ur = Урду
 uz = Узбекски
@@ -326,26 +338,17 @@ skip-submission-description = След натискането на „Изпра
 skip-submission-note = Забележка: Трябва да изберете между говорене и слушане, за да смените вида на принос.
 off = Изключено
 on = Включено
-avatar-clip-title = Задайте глас на аватара си
-change-your-avatar-clip = Искате да смените записа на вашия глас?
-recording-in-progress = Записването е в процес
-avatar-clip-recorded = Аватарът вече съдържа глас!
-record-voice-wave = ЗАПИС НА ГЛАСОВА ВЪЛНА
-retry-voice-wave-recording = НОВ ОПИТ
-re-record = ПРЕЗАПИСВАНЕ
-delete-voice = ИЗТРИВАНЕ
-recording-voice-wave = Записване
-delete-voice-clip = или Изтриване на глас
-ready-to-upload = КАЧВАНЕ
-avatar-clip-fact = Известен факт е, че вниманието на четящия се привлича повече от оформлението на страницата, от колкото от съдържанието ѝ.
-recreate-voice = Създайте гласовата вълна наново
-cancel-avatar-clip-recording = Отказ
-about-avatar-clip-recording = Запишете гласа в профила си. Другите ще могат да го чуят.
+
+## Profile - Email
+
 browse-file-title = Качване на изображение
 browse-file = Пуснете файл или <browseWrap>разгледайте</browseWrap>
 connect-gravatar = Свързване с Gravatar
 gravatar_not_found = Не е открит профил в gravatar с вашата електронна поща
 file_too_large = Избраният файл е прекалено голям
+
+## Profile - Email
+
 manage-subscriptions = Управление на абонаментите
 manage-email-subscriptions = Управление на абонаментите по имейл
 email-already-used = Имейл адресът вече се използва от друг профил
@@ -782,3 +785,18 @@ help-contribute = Можете да помогнете за изграждане
 login-company = Влезте / регистрирайте се с имейл от { $company }
 profile-not-required = За да допринасяте не е задължително да имате профил, но е полезно
 read-more-about = Прочетете повече на страницата Относно
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
