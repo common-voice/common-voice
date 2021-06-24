@@ -360,7 +360,7 @@ on = چالو
 
 ## Profile - Email
 
-browse-file-title = تصویر اپ لوڈ کریں
+browse-file-title = ایک تصویرکی فائل اپ لوڈ کریں
 browse-file = ڈریگ اور ڈراپ کریں یا </browseWrap> براؤز کریں<browseWrap>
 connect-gravatar = Gravatar کے ساتھ مربوط ہوں
 gravatar_not_found = آپ کے ای میل کے لئے کوئی Gravatar نہیں ملا
