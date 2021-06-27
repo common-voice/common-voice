@@ -72,6 +72,7 @@ he = عبرانى
 hi = ہندی
 hr = کروشیائی
 hsb = سوربیئن، بالائی
+ht = ہیٹیائی
 hu = ‏‏ہنگارین
 hy-AM = آرمينيائى
 hyw = آرمینیائی مغربی
@@ -116,6 +117,7 @@ nn-NO = نورویجیئن نینورسک
 oc = آكسيٹان
 or = اوڈیا
 pa-IN = پنجابی
+pap-AW = پاپانین (اروبا)
 pl = پولش
 ps = پشتو
 pt = پرتگالی
@@ -287,7 +289,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = ریکارڈ/روکیں
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = تراشہ دوبارہ ریکارڈ کریں
+shortcut-submit = واپس
+shortcut-submit-label = تراشے جمع کرائیں
 request-language-text = اب تک Common Voice پر اپنی زبان نہیں دیکھ رہے ہیں؟
+request-language-text-learn = یہاں درخواست کرنے کا طریقہ سیکھیں!
 request-language-button = ایک زبان کی درخواست کریں
 
 ## ProjectStatus
@@ -365,6 +370,7 @@ browse-file = ڈریگ اور ڈراپ کریں یا </browseWrap> براؤز ک
 connect-gravatar = Gravatar کے ساتھ مربوط ہوں
 gravatar_not_found = آپ کے ای میل کے لئے کوئی Gravatar نہیں ملا
 file_too_large = منتخب کی گئی فائل بہت بڑی ہے۔
+avatar-uploaded = اوتار اپ لوڈ ہوگیا
 
 ## Profile - Email
 
