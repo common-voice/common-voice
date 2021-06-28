@@ -226,6 +226,7 @@ x-years-short =
     }
 help-make-dataset = Tulungan kaming bumuo ng mataas na kalidad, bukas sa publikong dataset
 sign-up-account = Mag-sign up para sa account
+email-subscription-title = Mag-sign up para sa mga email updates
 email-subscription-title-new = Mag-sign up para sa mga balita, pagpapaalala ng mga layunin at pag-update ng mga progreso ng Common Voice
 
 ## Account Benefits
@@ -336,6 +337,7 @@ browse-file-title = Mag-upload ng file ng imahe
 connect-gravatar = I-ugnay ang Gravatar
 gravatar_not_found = Walang nahanap na gravatar para sa iyong email
 file_too_large = Ang piniling file ay masyadong malaki
+avatar-uploaded = Na-upload na ang Avatar
 max-file-size = { $kb }kb max
 
 ## Profile - Email
@@ -378,6 +380,7 @@ how-does-it-work-title = Paano ito gumagana?
 about-speak = Magsalita
 about-listen-queue = Listen-Queue
 about-listen = Makinig
+about-is-it-valid = Wasto ba ang clip?
 about-yes-votes = ≥ 2 Yes votes
 about-no-votes = ≥ 2 No votes
 about-clip-graveyard = Libingan ng mga Clip
@@ -417,6 +420,7 @@ terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon
 review-recording = Suriin
 review-rerecord = i-Record Muli
+review-cancel = Kanselahin ang Pagpasa
 review-delete-recordings = Burahin ang mga recording ko
 
 ## Datasets Page
@@ -430,7 +434,9 @@ audio-format = Audio Format
 number-of-voices = Bilang ng mga Tinig
 size-gigabyte = GB
 size-megabyte = MB
+download-language = i-Download ang { $language }
 recorded-hours = Mga Oras na Na-record
+subscribe = Mag-subscribe
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Magpunta sa Discourse
 close = Isara
@@ -439,6 +445,9 @@ dataset-version = Bersyon
 
 ## Download Modal
 
+download-form-email =
+    .label = Ilagay ang iyong email
+    .value = Salamat, kami ay makikipag-ugnayan.
 download-no = Salamat na lang
 
 ## Contact Modal
@@ -458,6 +467,7 @@ other-language = Iba pang Wika
 
 ## Languages Overview
 
+language-section-launched = Inilunsad na
 language-total-progress = Kabuuan
 language-search-input =
     .placeholder = Hanapin

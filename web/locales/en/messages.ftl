@@ -284,6 +284,9 @@ shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
 
+shortcut-submit = Return
+shortcut-submit-label = Submit clips
+
 request-language-text = Don't see your language on Common Voice yet?
 request-language-text-learn = Learn how to request it here!
 request-language-button = Request a Language

@@ -21,7 +21,7 @@ import { ClientParameterError } from './utility';
 import Challenge from './challenge';
 import { FeatureType, features } from 'common';
 import { TaxonomyToken, taxonomies } from 'common';
-import Takeout from './takeout';
+import { getLocaleId } from './model/db';
 
 const Transcoder = require('stream-transcoder');
 

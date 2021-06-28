@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ha, menga xat yuboring. Men Common Voice loyihasi haqida xabardor boʻlib turishni xohlayman.
+yes-receive-emails = Xabarlar yuborib turilishiga roziman. Men “Common Voice” loyihasi haqida koʻproq bilishni istayman.
 stayintouch = Mozilla ovoz texnologiyasi boʻyicha butun dunyo tillari jamoalarini tuzmoqda. Yangiliklar, yangi maʼlumot manbalari va bu maʼlumotlardan qanday foydalanish boʻyicha koʻrsatmalarni sizga yuborib turamiz.
 privacy-info = Biz maʼlumotlaringizni ehtiyot qilamiz. <privacyLink>Maxfiylik siyosati</privacyLink> haqidagi maʼlumotlarni oʻqib chiqing.
 return-to-cv = Common Voiceʼga qaytish
@@ -251,7 +251,8 @@ whats-public = Qaysi maʼlumotlar barcha uchun ochiq?
 email-not-public = Emailingizni sizdan boshqa hech kim koʻrmaydi.
 recordings-and-locale-public = Yozuvlar soni va qaysi tillarga qo'shganligingiz hammaga ma'lum bo'ladi.
 username-optin-public = Siz o'z foydalanuvchi nomingizni ochiq yoki anonim qilishni tanlashingiz mumkin.
-username-email-not-demographic = Foydalanuvchi nomingiz va elektron pochta manzilingiz e'lon qilingan ma'lumotlar bilan bog'lanmaydi.
+demographic-deidentified-clarity-2 = Ixtiyoriy tarzda taqdim etilgan demografik maʼlumotlar (masalan yosh, jins, til va sheva) hech qachon ochiq holda koʻrsatilmaydi va maʼlumotlar omborida sizning akkauntingizga biriktirilmaydi. Yakka holdagi audio yozuvlar demografik maʼlumotlar bilan aniqroq tahlil qilish uchun biriktiriladi. Masalan, tadqiqotchi oʻrgatayotgan modelini ayni bir demografik segmentga xoslashi mumkin.
+username-email-not-demographic = Foydalanuvchi nomingiz va elektron pochta manzilingiz eʼlon qilingan maʼlumotlar bilan bogʻlanmaydi.
 
 ## Speak & Listen Shortcuts
 
@@ -279,6 +280,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Yozib olish/To‘xtatish
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klipni qayta yozish
+shortcut-submit = Joʻnatish
+shortcut-submit-label = Ovozni yuborish
 request-language-text = Common Voice loyihasida ona tilingizni ko‘rmayapsizmi?
 request-language-text-learn = Qanday qilib soʻrashni bu yerda bilib oling!
 request-language-button = Til qo‘shishni so‘rang
@@ -336,7 +339,8 @@ profile-close = Yopish
 profile-explanation = Profilingiz yordamida jarayonni kuzatib boring va ovoz ma’lumotlarining aniqligiga yordam bering.
 thanks-for-account = Hisobingizni tasdiqlaganingiz uchun rahmat. Endi profil yarating.
 why-demographic = Bu nega kerak?
-accept-privacy = Mozillaning <privacyLink>Maxfiylik siyosati</privacyLink>da koʻrsatilganidek maʼlumotlarimdan foydalanishlariga roziman.
+why-demographic-explanation-2 = Yosh, jins yoki sheva kabi anonim holdagi foydalanuvchi maʼlumotlari nutqni aniqlash mashinalarining aniqligi ustida ishlashda qoʻllaniladigan audio maʼlumotlarning sifatini oshirishda yordam beradi.
+accept-privacy = Mozillaning <privacyLink>Maxfiylik siyosati</privacyLink>da tushuntirilgan holatlarda maʼlumotlarimdan foydalanishlariga roziman.
 accept-privacy-title = Maxfiylik siyosati
 login-identity = Kirish uchun identifikator
 login-signup = Kirish/Roʻyxatdan oʻtish
@@ -517,6 +521,7 @@ dataset-date = Sana
 license = Litsenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Aralash
 data-download-singleword-title = Yagona soʻz maqsadli segmentini yuklab oling
+data-download-singleword-callout-v2 = Bu ishlatilishiga koʻra tartiblangan qism — aytilgan raqam va ha/yoʻqni aniqlash sifatini kuchaytiruvchi maʼlumotlarni oʻzi ichiga olgan.
 review-terms = Common Voice loyihasidan foydalanish bilan siz bizning <termsLink>Shartlar</termsLink>imiz va <privacyLink>Maxfiylik siyosati</privacyLink>mizga rozilik bildirgan hisoblanasiz.
 terms-agree = Roziman
 terms-disagree = Noroziman
@@ -688,6 +693,7 @@ share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
 keep-track-profile = O'zingizning profilingizda profilingizni kuzatib boring
 login-to-get-started = Boshlash uchun tizimga kiring yoki ro'yxatdan o'ting
 target-segment-first-card = Siz bizning birinchi maqsad segmentimizga oʻz hissangizni qoʻshmoqdasiz
+target-segment-generic-card = Siz maqsadli qismga oʻz hissangizni qoʻshyapsiz
 target-segment-first-banner = { $locale }da Common Voice’ning birinchi maqsadli segmentini yaratishga yordam bering
 target-segment-add-voice = Ovozingizni qoʻshing
 target-segment-learn-more = Batafsil maʼlumot
@@ -779,8 +785,27 @@ help-reach-hours-pluralized =
         [one] bir soat
        *[other] ikki soat
     }
+help-reach-hours-general-pluralized =
+    Common Voiceʼga ushbu tilda{ NUMBER($hours) ->
+        [one] { $hours } soatli
+       *[other] { $hours } soatli
+    }maʼlumot yigʻishga shaxsiy maqsadlaringiz orqali yordam bering.
 set-a-goal = Maqsad qo'ying
 cant-decide = Qaror berolmaysizmi?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } soatli kontentni
+       *[other] { $totalHours } soatli kontentni
+    }taxminan,{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } oy muddatda yakunlasa boʻladi
+       *[other] { $periodMonths } oy muddatda yakunlasa boʻladi
+    }agar{ NUMBER($people) ->
+        [one] { $people } ta odam
+       *[other] { $people } ta odam
+    }kuniga{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } ta ovoz
+       *[other] { $clipsPerDay } ta ovoz
+    }yozsa.
 how-many-per-day = Ajoyib! Kuniga nechta klip?
 how-many-a-week = Ajoyib! Kuniga nechta klip?
 which-goal-type = Gapirishni, tinglashni yoki ikkalasini ham xohlaysizmi?
@@ -790,6 +815,11 @@ receiving-emails-info =
 not-receiving-emails-info =
     Ayni paytda siz elektron pochta xabarlarini, masalan, maqsadli eslatmalarni, qabul qila olasiz
     Umumiy ovoz haqida yangiliklar va yangiliklar
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ta ovoz
+       *[other] { $count } ta ovoz
+    }
 help-share-goal = Ko'proq ovozlarni topishga yordam bering va maqsadingizni baham ko'ring
 confirm-goal = Ochishni tasdiqlash
 goal-interval-weekly = Haftalik
@@ -831,15 +861,34 @@ read-more-about = Batafsil ma'lumotni bizning sahifamizda o'qing
 
 ## DemoLayout
 
+demo-get-started = Qani, boshladik
+demo-welcome = Common Voiceʼga xush kelibsiz
+demo-welcome-subheader = Qoʻshimcha maʼlumot olish va loyihaga oʻz hissangizni qoʻshishni xohlaysizmi?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice — bu dunyodagi eng yirik, koʻp tilli ovozli maʼlumotlar toʻplami.
+demo-language-select-card-body = 259 mingdan ortiq odam 50 dan ortiq tilga qoʻshga hissalari uchun tashakkur aytamiz. Ushbu toʻplangan maʼlumotlar inson ovoziga yana tezroq javob qaytarishi uchun nutqni aniqlash dasturlarini oʻrgatish uchun ishlatiladi.
+card-button-next = Keyingisi
+card-button-back = Ortga
+demo-language-select-label = Tillarni koʻrib chiqish
+demo-eofy-header = 2019-yilning soʻngi nashri
+demo-eofy-sub_header = Audio maʼlumotlar toʻplami, Yuklab olishga tayyor
+demo-account = Akkaunt
 
 ## Demo Account
 
+demo-account-card-header = Hissa qoʻshish uchun akkaunt ochish shart emas, lekin foydali boʻlmasdan qolmaydi.
+demo-account-card-body = Oʻng tomonda bu loyihadan qanday foydalar borligini va qanday maʼlumotlarni ommaga oshkor qilishimizni tushuntirib oʻtamiz. Oʻz qurilmangiz orqali Common Voice akkauntingizda ishlashni boshlash uchun quyidagi havolalardan foydalaning.
+demo-account-enter-email =
+    .label = Roʻyxatdan oʻtish havolasini yuborish uchun elektron pochtangizni kiriting
+demo-account-sign-up = Roʻyxatdan oʻtish havolasini yuborish
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ovozingizni qoʻshishga yoki qulogʻingizni ding qilishga tayyormisiz?
+demo-listen-subtitle = Hissa qoʻshishga tayyormisiz?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Shaxsiy boshqaruv panellari sizni individual va jamoaning oʻsishi toʻgʻrisida xabardor qilib turadi.

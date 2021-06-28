@@ -127,6 +127,7 @@ export default class API {
         sentence_id: sentenceId,
         challenge: getChallenge(this.user),
         from_demo: fromDemo ? 'true' : 'false',
+        source: 'web'
       },
       body: blob,
     });

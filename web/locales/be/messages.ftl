@@ -96,6 +96,7 @@ lg = Луганда
 lij = Лігурыйская
 lt = Літоўская
 lv = Латышская
+mai = Майтхілі
 mdf = Макшанская
 mg = Малагасійская
 mhr = Лугавамарыйская
@@ -116,6 +117,7 @@ nn-NO = Нованарвежская
 oc = Аксітанская
 or = Орыя
 pa-IN = Панджабі
+pap-AW = Пап'ямента (Аруба)
 pl = Польская
 ps = Пушту
 pt = Партугальская
@@ -127,6 +129,7 @@ rw = Руанда
 sah = Якуцкая
 sc = Сардзінская
 scn = Сіцылійская
+shi = Шыльхская
 si = Сінгальская
 sk = Славацкая
 sl = Славенская
@@ -280,6 +283,7 @@ shortcut-record-toggle = з
 shortcut-record-toggle-label = Запісаць/Спыніць
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Перазапісаць кліп
+shortcut-submit-label = Даслаць запісы
 request-language-text = Пакуль не знаходзіце сваю мову на Common Voice?
 request-language-text-learn = замовіць
 request-language-button = Запытаць мову
@@ -352,26 +356,19 @@ skip-submission-description = Пасля таго як вы націснеце "
 skip-submission-note = Заўвага: Вам усё яшчэ трэба будзе выбраць паміж "Агучыць" і "Слухаць", каб змяніць тып унёску.
 off = Пакінуць
 on = Прапусціць
-avatar-clip-title = Дайце голас свайму аватару
-change-your-avatar-clip = Хочаце змяніць свой галасавы кліп?
-recording-in-progress = Ідзе запіс голасу
-avatar-clip-recorded = Ваш аватар цяпер мае галасавы кліп!
-record-voice-wave = ЗАПІСАЦЬ ГОЛАС
-retry-voice-wave-recording = ПАЎТАРЫЦЬ
-re-record = ПЕРАЗАПІСАЦЬ
-delete-voice = ВЫДАЛІЦЬ
-recording-voice-wave = Запіс
-delete-voice-clip = або Выдаліць галасавы кліп
-ready-to-upload = ЗАПАМПАВАЦЬ
-avatar-clip-fact = Даўно вядома, што ўвага чытача будзе адцягвацца на змест старонкі пры поглядзе на яе макет.
-recreate-voice = Перазапісаць голас
-cancel-avatar-clip-recording = СКАСАВАЦЬ
-about-avatar-clip-recording = Стварыць галасавы кліп для аватара вашага профілю. Іншыя ўдзельнікі змогуць навесці курсор на аватар і паслухаць ваш кліп.
+
+## Profile - Email
+
 browse-file-title = Запампаваць відарыс
 browse-file = Перацягніце альбо <browseWrap>прагледзіце</browseWrap>
 connect-gravatar = Звязаць з Gravatar
 gravatar_not_found = Gravatar для вашай эл. пошты не знойдзены
 file_too_large = Выбраны файл занадта вялікі.
+avatar-uploaded = Аватар запампаваны
+max-file-size = { $kb }кб максімум
+
+## Profile - Email
+
 manage-subscriptions = Кіраваць падпіскамі
 manage-email-subscriptions = Кіраваць падпіскамі па эл. пошце
 email-already-used = Эл. пошта ўжо выкарыстоўваецца іншым акаўнтам
@@ -640,7 +637,7 @@ total-hours = Праверана гадзін
 
 ## Contribution
 
-action-click = Клікнуць
+action-click = Націснуць
 action-tap = Дакрануцца
 contribute = Прыняць удзел
 listen = Праслухаць
@@ -706,8 +703,8 @@ target-segment-learn-more = Даведацца больш
 
 ## Reporting
 
-report = Водгук
-report-title = Даслаць водгук
+report = Паскардзіцца
+report-title = Даслаць скаргу
 report-ask = Якія праблемы вы заўважылі ў гэтым сказе?
 report-offensive-language = Абразлівы тэкст
 report-offensive-language-detail = У гэтым сказе ёсць зняважлівыя ці абразлівыя выразы.
@@ -723,7 +720,7 @@ report-other-comment =
     .placeholder = Каментарый
 success = Паспяхова
 continue = Працягнуць
-report-success = Водгук паспяхова дасланы
+report-success = Скарга паспяхова дасланая
 
 ## Goals
 
@@ -891,7 +888,7 @@ demo-account = Уліковы запіс (акаўнт)
 ## Demo Account
 
 demo-account-card-header = Стварэнне ўліковага запісу не абавязкова для ўдзелу, але гэта дае карыстальнікам дадатковыя магчымасці
-demo-account-card-body = Справа Вы знойдзеце інфармацыю аб магчымасцях і перавагах нашага дадатку. Клікніце на спасылку ніжэй, каб пачаць працу ў сваім уліковым запісе Common Voice на Вашай прыладзе.
+demo-account-card-body = Справа Вы знойдзеце інфармацыю аб магчымасцях і перавагах нашага дадатку. Націсніце на спасылку ніжэй, каб пачаць працу ў сваім уліковым запісе Common Voice на Вашай прыладзе.
 demo-account-enter-email =
     .label = Дадайце адрас Вашай электроннай пошты, на якую будзе даслана спасылка для рэгістрацыі
 demo-account-sign-up = Дашліце спасылку для рэгістрацыі

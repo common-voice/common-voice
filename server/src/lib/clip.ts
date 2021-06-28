@@ -15,6 +15,8 @@ import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
 
 const Transcoder = require('stream-transcoder');
+const { Converter } = require('ffmpeg-stream');
+const { Readable } = require('stream');
 
 /**
  * Clip - Responsibly for saving and serving clips.
@@ -137,6 +139,7 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
     const sentenceId = headers.sentence_id as string;
+    const source = headers.source || 'unidentified';
     const format = headers['content-type'];
     const size = headers['content-length'];
 
@@ -169,24 +172,40 @@ export default class Clip {
         .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
         .promise();
 
-      const transcoder = new Transcoder(request)
+      let audioInput = request;
+
+      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
+        // aac data comes wrapped in an mpeg container, which is incompatible with
+        // ffmpeg's piped stream functions because the moov bit comes at the end of
+        // the stream, at which point ffmpeg can no longer seek back to the beginning
+        // createBufferedInputStream will create a local file and pipe data in as
+        // a file, which doesn't lose the seek mechanism
+
+        const converter = new Converter();
+        const audioStream = Readable.from(request);
+
+        audioInput = converter.createBufferedInputStream();
+        audioStream.pipe(audioInput);
+      }
+
+      const audioOutput = new Transcoder(audioInput)
         .audioCodec('mp3')
         .format('mp3')
         .channels(1)
         .sampleRate(32000)
-        .on('error', () => {
-          console.error(`FFmpeg exited with an error for file ${clipFileName} (original size: ${size}, original format: ${format})`)
-        });
+        .stream();
 
       await this.s3
         .upload({
           Bucket: getConfig().CLIP_BUCKET_NAME,
           Key: clipFileName,
-          Body: transcoder.stream(),
+          Body: audioOutput,
         })
         .promise();
 
-      console.log(`clip written to s3 ${clipFileName} (original size: ${size}, original format: ${format})`);
+      console.log(
+        `clip written to s3 ${clipFileName} (${size} bytes, ${format}) from ${source}`
+      );
 
       await this.model.saveClip({
         client_id: client_id,

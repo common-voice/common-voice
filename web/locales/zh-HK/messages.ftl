@@ -279,6 +279,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = 錄音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製片段
+shortcut-submit = 返回
+shortcut-submit-label = 提交錄音
 request-language-text = 喺 Common Voice 入邊搵唔到您的語言？
 request-language-text-learn = 喺呢度瞭解點樣申請增加語言！
 request-language-button = 申請增加一種語言
@@ -346,7 +348,7 @@ download-profile = 下載我的數據
 contribution-experience = 貢獻體驗
 skip-submission-feedback = 略過提供意見
 skip-submission-description = 在貢獻時，點擊「提交」會略過提供意見，直接去到下一組五段錄音或驗證。
-skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
+skip-submission-note = 註: 您仍須要選擇「聽」或「講」來切換貢獻類型。
 off = 關
 on = 開
 

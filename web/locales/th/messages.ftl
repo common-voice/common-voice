@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = ใช่ ส่งอีเมลให้ฉัน ฉันต้องการรับทราบข้อมูลเกี่ยวกับโครงการ Common Voice
+yes-receive-emails = ใช่ ส่งอีเมลให้ฉัน ฉันต้องการรับข่าวเกี่ยวกับโครงการ Common Voice
 stayintouch = Mozilla กำลังสร้างชุมชนเกี่ยวกับเทคโนโลยีด้านเสียง เราต้องการติดตามข้อมูลอัปเดตแหล่งข้อมูลใหม่และเพื่อทราบข้อมูลเพิ่มเติมว่าคุณใช้ข้อมูลนี้อย่างไร
 privacy-info = เราสัญญาว่าจะจัดการกับข้อมูลของคุณอย่างระมัดระวัง อ่านเพิ่มเติมใน <privacyLink>ประกาศเกี่ยวกับความเป็นส่วนตัว</privacyLink> ของเรา
 return-to-cv = กลับไปยัง Common Voice
@@ -292,6 +292,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = บันทึก/หยุด
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = บันทึกคลิปใหม่
+shortcut-submit = Return
+shortcut-submit-label = ส่งคลิป
 request-language-text = ยังไม่พบภาษาของคุณบน Common Voice งั้นหรือ?
 request-language-text-learn = เรียนรู้วิธีการขอได้ที่นี่!
 request-language-button = ขอภาษา

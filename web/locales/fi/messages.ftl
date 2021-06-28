@@ -250,6 +250,7 @@ whats-public = Mikä on julkista?
 email-not-public = Emme julkaise sähköpostiosoitettasi.
 recordings-and-locale-public = Tallenteiden määrä ja tieto siitä mihin kieliin olet osallistunut ovat julkisia.
 username-optin-public = Voit tehdä käyttäjätunnuksestasi joko julkisen tai nimettömän.
+demographic-deidentified-clarity-2 = Valinnaisesti lähetettyjä väestötietoja (esim. ikä, sukupuoli, kieli ja aksentti) ei koskaan julkaista profiilissasi, eikä niitä linkitetä tiliisi tietoaineistossa. Yksittäiset äänileikkeet liitetään väestötietoihin tarkemman analyysin vuoksi - tutkija saattaa esimerkiksi haluta kohdistaa koulutusmallin tiettyyn väestöryhmään.
 username-email-not-demographic = Käyttäjätunnustasi ja sähköpostiosoitettasi ei liitetä julkaistuun aineistoon.
 
 ## Speak & Listen Shortcuts
@@ -355,6 +356,7 @@ browse-file = Vedä ja pudota tai <browseWrap>Selaa</BrowseWrap>
 connect-gravatar = Yhdistä Gravatariin
 gravatar_not_found = Sähköpostiosoitteella ei löytynyt gravataria
 file_too_large = Valittu tiedosto on liian suuri
+avatar-uploaded = Profiilikuva lähetetty
 
 ## Profile - Email
 
@@ -507,6 +509,7 @@ dataset-date = Päivämäärä
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Useita
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
+data-download-singleword-callout-v2 = Tämä on käyttötapaukseen perustuva segmentti, joka sisältää tietoa puhuttujen lukujen tunnistamisen ja kyllä/ei -havaitsemisen tehostamiseksi.
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy
@@ -840,12 +843,15 @@ read-more-about = Lue lisää Lisätietoja-sivulta
 
 demo-get-started = Aloitetaan
 demo-welcome = Tervetuloa Common Voiceen
+demo-welcome-subheader = Haluatko oppia lisää ja osallistua projektiin?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice on maailman suurin julkisesti saatavilla oleva, useita kieliä sisältävä äänien tietoaineisto.
 card-button-next = Seuraava
 card-button-back = Takaisin
 demo-language-select-label = Selaa kieliä
+demo-eofy-header = Loppuvuoden 2019 julkaisu
 demo-eofy-sub_header = Ääniaineisto, valmiina ladattavaksi
 demo-account = Tili
 
@@ -858,6 +864,7 @@ demo-account-sign-up = Lähetä rekisteröitymislinkki
 
 ## Demo Contribute
 
+demo-contribute-card-header = Oletko valmis lisäämään äänesi tai lainaamaan kuuloaistiasi?
 demo-listen-subtitle = Valmiina osallistumaan?
 
 ## Demo Dashboard

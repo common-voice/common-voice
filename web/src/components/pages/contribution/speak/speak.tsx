@@ -29,6 +29,7 @@ import {
   FirefoxColor,
   ChromeColor,
   SafariColor,
+  ReturnKeyIcon,
 } from '../../../ui/icons';
 import { Button, TextButton, LinkButton } from '../../../ui/ui';
 import { isIOS, isMobileSafari } from '../../../../utility';
@@ -46,7 +47,7 @@ import { SentenceRecording } from './sentence-recording';
 
 import './speak.css';
 
-const MIN_RECORDING_MS = 1500;
+const MIN_RECORDING_MS = 1000;
 const MIN_RECORDING_MS_BENCHMARK = 500;
 const MAX_RECORDING_MS = 10000;
 const MIN_VOLUME = 8; // Range: [0, 255].
@@ -454,7 +455,7 @@ class SpeakPage extends React.Component<Props, State> {
                 JSON.stringify(challengeEnded)
               );
               sessionStorage.setItem('hasContributed', 'true');
-            } catch(e) {
+            } catch (e) {
               console.warn(`A sessionStorage error occurred ${e.message}`);
             }
 
@@ -579,7 +580,6 @@ class SpeakPage extends React.Component<Props, State> {
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
 
-    console.log(isSubmitted);
     return (
       <>
         <div id="speak-page">
@@ -713,7 +713,7 @@ class SpeakPage extends React.Component<Props, State> {
                 onRerecord={() => this.rerecord(i)}>
                 {rerecordIndex === i && (
                   <Localized id="record-cancel">
-                    <TextButton onClick={this.cancelReRecord} />
+                    <TextButton onClick={this.cancelReRecord} className="text"/>
                   </Localized>
                 )}
               </RecordingPill>
@@ -742,6 +742,13 @@ class SpeakPage extends React.Component<Props, State> {
                 key: 'shortcut-rerecord-toggle',
                 label: 'shortcut-rerecord-toggle-label',
                 action: this.handleRecordClick,
+              },
+              {
+                key: 'shortcut-submit',
+                label: 'shortcut-submit-label',
+                icon: <ReturnKeyIcon />,
+                // This is handled in handleKeyDown, separately.
+                action: () => {},
               },
             ]}
             type="speak"

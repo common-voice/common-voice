@@ -47,6 +47,17 @@
             }
         }
     }
+
+    & .text-button.text {
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        text-decoration: underline;
+
+        &:hover {
+            color: var(--blue);
+            text-decoration-color: var(--blue);
+        }
+    }
 }
 
 .speak-sc-icon {

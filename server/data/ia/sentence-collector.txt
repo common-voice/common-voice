@@ -851,6 +851,7 @@ Entra.
 Era ille un paracaditista?
 Era le prime vice que ille revideva Alice.
 Era tu billetes de theatro pro le parterre, le balcon o le galeria?
+Ergo illa faceva lo que ille la habeva dicite.
 Ergo, "aptitude" es solmente un altere nomine pro "superviventia".
 Ergo, le credibilitate del autores de iste libro depende del credibilitate de lor fontes.
 Errores occurre.
@@ -909,6 +910,7 @@ Es io va morir?
 Es io!
 Es iste le cammino directe al Prado?
 Es iste machina a scriber de vos?
+Es istes tote le filios que tu ha?
 Es isto francese?
 Es isto pro mangiar hic o pro prender con se?
 Es lacte salubre?
@@ -1427,6 +1429,7 @@ Hodie le committee decideva implicitemente de extender le arsenal.
 Hodie, multe gente time perder lor empleos.
 Hokkaido es situate in le nord de Japon.
 Homine in mar!
+Homines judica secundo apparentias exterior, ma le Senior respice al corde”.
 Honest Ahmed non convinceva le disveloppatores.
 Hong Kong es cognoscite como le Perla de Asia.
 Honora tu patre e tu matre.
@@ -1563,6 +1566,7 @@ Il face troppo calor hodie.
 Il faceva multo bon tempore hodie.
 Il faceva un sono cliccante quando le functionario stringeva le manillas.
 Il ha alcun libros in le sacco.
+Il ha ancora le plus juvene, ma ille es in le agros.
 Il ha bon pomos in le corbetta.
 Il ha convection in le camera magmatic.
 Il ha duo o tres pennas sur le scriptorio.
@@ -2152,6 +2156,7 @@ Ille es gentil verso me.
 Ille es gentil.
 Ille es hic!
 Ille es in Japon desde tres annos.
+Ille es in le agros pro pascer le grege
 Ille es in le decime classe.
 Ille es in le hospital.
 Ille es in problemas.
@@ -2347,6 +2352,7 @@ Ille me ha dupate.
 Ille me ha sculpite un pupa de ligno.
 Ille me lassa restar per un nocte.
 Ille me manca!
+Ille me occidera!
 Ille me place.
 Ille me provocava ultra mi resistentia.
 Ille me reguardava in le oculos.
@@ -2776,6 +2782,7 @@ Illo se revelava bon.
 Illo significava no.
 Illo tote ha senso.
 Illo va prender poc dies.
+Illos cadera prostrate, ma nos stara erecte firmemente.
 Illos destrueva tote le messes in le agros.
 Illos devorava tote le verdura del pais.
 Illos era mie.
@@ -3929,6 +3936,7 @@ Io scopara mi camera.
 Io scribeva un adresse erronee super le inveloppe.
 Io secava le arbores plus alte in le bosco pro fornir material de construction.
 Io securmente esserea triste si ille mori.
+Io seligeva un de su filios pro regnar super Israel.
 Io sempre ambula.
 Io sempre te crede.
 Io sempre voleva gerer un parve hotel in le montanias.
@@ -4024,6 +4032,7 @@ Io te lo apportara deman.
 Io te lo dicera.
 Io te lo diceva desde puero, contrabando ha essite persequite.
 Io te lo pagara.
+Io te monstrara lo que tu debera facer.
 Io te pagara.
 Io te prendeva.
 Io te rende forte, te adjuta e te supporta con le dextera victoriose.
@@ -4091,6 +4100,7 @@ Io venira con te.
 Io veniva a Japon le anno passate.
 Io veniva illac heri.
 Io veniva illac solo un vice.
+Io veniva pro offerer un dono.
 Io verificava illo duo vices.
 Io vermente non pote traducer isto; le texto es multo difficile.
 Io viagiara trans le integre terra!
@@ -5063,6 +5073,7 @@ Le motorcyclo faceva un alte rumor.
 Le mundo es plen de bellessas.
 Le mundo hodierne es plen de publicitates.
 Le musica folk non es mi genere favorite.
+Le nationes confide in lor carros de guerra.
 Le nave de canopo sulca le mar incognite.
 Le nave se affunda.
 Le nave se ha invertite in le medio del oceano.
@@ -5565,6 +5576,7 @@ Malgrado adversitate, le architecto deveniva famose in tote le mundo.
 Malgrado le pluvia, iste viage me placeva multo, in general.
 Malgrado tote mi effortios, io non succedeva a solver le problema.
 Mamma mie, mamma car.
+Manda a vocar le e adduce le hic.
 Mangia le pan, illo es bon e nutriente!
 Mangia tu verduras.
 Mangia usque a te place.
@@ -6442,6 +6454,7 @@ Nulle pellicula western sin un rixa in un taverna.
 Nulle preoccupation, io prendeva un taxi pro retornar a casa con securitate.
 Nulle problema, io comprende.
 Nulle, ille es sincer.
+Nunc imple tu corno de oleo de oliva e vade.
 Nunc io te recognosce!
 Nunquam la interessa mi sentimentos.
 Nunquam le etate de auro esseva illo actual.
@@ -6550,6 +6563,7 @@ Ora dice me lo.
 Ora e labora.
 Ora ecce un historia super un puera japonese nominate Haru-chan.
 Ora il debeva laborar plus que antea, ma il non se doleva de isto.
+Ora ille esseva rubicunde e de belle aspecto, con oculos attrahente.
 Ora illes es in le sud de Francia.
 Ora illes ha tres filios.
 Ora io ha certitude.
@@ -7260,6 +7274,8 @@ Quando illa ha appellate su amico pro adjutar la con su computator
 Quando illa probava a retirar qualque pecunia ex su conto bancari
 Quando illa videva su matre, le puera comenciava a plorar.
 Quando ille es triste, ille se retira.
+Quando ille perveniva, le ancianos del citate timeva de incontrar le.
+Quando illes arrivava, Jacobo jectava un reguardo illes.
 Quando illes clamava ad ille, ille les exaudiva.
 Quando illes offereva foco estranie ante le Senior in
 Quando io arrivava al schola, io trovava toto destruite e abandonate.
@@ -7273,6 +7289,7 @@ Quando io visita mi granfilio, io sempre le dona qualcosa.
 Quando joca, le pueros sovente reinterpreta solo illo que ha experite antea.
 Quando la eveniva iste accidente?
 Quando le chef proclamava le renta de un billion euros.
+Quando le imagination ultrapassa le limite del bon senso illo deveni un delirio.
 Quando le joco es ancora indecise post sexanta minutas, initia le tempore extraordinari.
 Quando le judice ha pronunciate le sententia de morte
 Quando le nova perveniva al rege, ille se levava de su throno.
@@ -7338,6 +7355,7 @@ Quanto ha costava illo?
 Quanto importante es pro te ganiar multe moneta?
 Quanto importante es pro te que nos compli isto hodie?
 Quanto io plus studia, tanto io plus ama.
+Quanto longemente ancora intende tu luger?
 Quanto mal es illo?
 Quanto mal esseva illo?
 Quanto mal pote illo ser?
@@ -7463,7 +7481,11 @@ Que ha tu?
 Que ha vos hodie pro le lunch?
 Que horror de tempore!
 Que il ha intra isto?
+Que ille compli tote tu planos!
 Que ille la amava esseva certe.
+Que ille remarca tote tu sacrificios!
+Que ille te concede tote lo que tu corde desira!
+Que ille te manda auxilio, ille te da supporto!
 Que illes le servi.
 Que illes reposa in pace.
 Que illes sia benedicite.
@@ -7471,6 +7493,7 @@ Que intende tu haber?
 Que intende tu per illo?
 Que joco excitante!
 Que le diabolo le excoria le naso.
+Que le nomine del Deo de Jacobo te protege!
 Que le sage ascolta e accrescera su sapientia, e le homine perspicace acquirera consilio.
 Que lege tu?
 Que leva le anima disincantate del humanitate al culmine del abnegation liberatori.
@@ -7663,6 +7686,7 @@ Qui vole va, qui non vole delega.
 Qui?
 Quia ille non ignorava ni dispreciava le affliction del pauperes.
 Quicunque dice le veritate debera ligar le asino.
+Quomodo io pote facer lo?
 Ramification e integration es duo operationes fundamental in le controlo de versiones.
 Ransomware es le sorta de malware que te extorque post haber cifrate tu files.
 Rar ave.
@@ -7913,6 +7937,7 @@ Sin corrector disgratia!
 Sin cura.
 Sin die.
 Sin dubita, le universo es infinite.
+Sin ille nos non pote proceder.
 Sin ira e studio.
 Sin questionar ille ha dicite que le schermo de su computator le dictava.
 Sin substantia, diceva Ecclesiastes, sin substantia!
@@ -8207,6 +8232,7 @@ Tres capitulos essera tractate.
 Troppo alimentos es perdite.
 Trova Tom.
 Trova le catto.
+Trova un homine que se appella Isai.
 Trovar labor es difficile.
 Trovava sempre le casa obscur e desolate como illo de un mendico.
 Trovava tu Peter?
@@ -8510,6 +8536,7 @@ Tu va mangiar hic?
 Tu veni tosto.
 Tu veritate non es necessarimente le veritate.
 Tu vide, in iste mundo existe solmente sceleratos e hypocritas.
+Tunc nos exultara propter tu victoria nos levara in alto nostre standardos.
 Tux non es surridente, ille simplemente pare bon tote le tempore.
 Ubi deberea Io poner illo?
 Ubi deberea nos incontrar?
@@ -8758,6 +8785,7 @@ Veni per favor.
 Veni quando tu ha un poco de tempore.
 Veni quandocunque te place.
 Veni tu con me?
+Veni tu in pace?
 Veni tu?
 Veni visitar nos alcun vice.
 Veni visitar nos le proxime vice que tu es in Tokyo!

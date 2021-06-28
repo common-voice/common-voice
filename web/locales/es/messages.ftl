@@ -40,7 +40,9 @@ br = Bretón
 bxr = Buriato
 ca = Catalán
 cak = Kaqchikel
+ckb = Kurdo central
 cnh = Hakha Chin
+co = Corso
 cs = Checo
 cv = Chuvasio
 cy = Galés
@@ -62,6 +64,7 @@ fr = Francés
 fy-NL = Frisón
 ga-IE = Irlandés
 gl = Gallego
+gn = Guaraní
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -234,6 +237,7 @@ whats-public = ¿Qué se hace público?
 email-not-public = No publicaremos tu correo electrónico.
 recordings-and-locale-public = El número de grabaciones y los idiomas en los que colaboras sí será público.
 username-optin-public = Puedes elegir entre un nombre de usuario público o anónimo.
+demographic-deidentified-clarity-2 = Los datos enviados opcionalmente (ej.: edad, género, lengua y acento) nunca se harán públicos en tu perfil, y no se vincularán a tu cuenta en el conjunto de datos. Los clips de sonido individuales serán asociados con los datos demográficos, con el propósito de un análisis más preciso —por ejemplo, un investigador podría querer enfocar un modelo de formación a un segmento demográfico específico—.
 username-email-not-demographic = Tu nombre de usuario y correo electrónico no se asociarán con los datos publicados.
 
 ## Speak & Listen Shortcuts
@@ -263,6 +267,7 @@ shortcut-record-toggle-label = Grabar/Detener
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Grabar de nuevo el clip
 request-language-text = ¿Aún no encuentras tu idioma en Common Voice?
+request-language-text-learn = ¡Aprende a solicitarlo aquí!
 request-language-button = Solicitar un idioma
 
 ## ProjectStatus
@@ -318,6 +323,7 @@ profile-close = Cerrar
 profile-explanation = Ve tu progreso con un perfil y ayuda a nuestros datos de voz a ser más precisos.
 thanks-for-account = Gracias por confirmar tu cuenta, ahora vamos a crear tu perfil
 why-demographic = ¿Por qué es esto importante?
+why-demographic-explanation-2 = Los datos anónimos de los usuarios, como edad, género y acento, ayudan a mejorar los datos de audio usados para entrenar la precisión de los motores de reconocimiento de voz. Tu nombre de usuario y correo electrónico nunca serán asociados con tus datos enviados, y puedes elegir si quieres que tu nombre de usuario sea público o anónimo.
 accept-privacy = Estoy de acuerdo con que se utilice esta información tal y como se explica en la <privacyLink>política de privacidad</privacyLink> de Mozilla
 accept-privacy-title = Aviso de privacidad
 login-identity = Identidad de inicio de sesión
@@ -331,26 +337,18 @@ skip-submission-description = El envío de comentarios se desactivará al hacer 
 skip-submission-note = Nota: Deberás seleccionar entre Hablar o Escuchar para cambiar el tipo de colaboración.
 off = Desactivado
 on = Activado
-avatar-clip-title = Dale voz a tu avatar
-change-your-avatar-clip = ¿Quieres cambiar tu grabación de voz?
-recording-in-progress = Grabación de voz en curso
-avatar-clip-recorded = ¡Ahora tu avatar incluye un grabación de voz!
-record-voice-wave = GRABAR ONDA DE VOZ
-retry-voice-wave-recording = INTENTAR DE NUEVO
-re-record = VOLVER A GRABAR
-delete-voice = ELIMINAR
-recording-voice-wave = Grabando
-delete-voice-clip = o Eliminar grabación de voz
-ready-to-upload = SUBIR
-avatar-clip-fact = Es de todos conocido que el lector se distraerá con el contenido legible de una página cuando mire su diseño.
-recreate-voice = Recrear onda de voz
-cancel-avatar-clip-recording = CANCELAR
-about-avatar-clip-recording = Crea una grabación de voz para que forme parte de tu avatar. Los otros usuarios podrán deslizarse por tu avatar y escuchar tu grabación.
+
+## Profile - Email
+
 browse-file-title = Subir un archivo de imagen
 browse-file = Arrastra y suelta o <browseWrap>navega</browseWrap>
 connect-gravatar = Conectar con Gravatar
 gravatar_not_found = No se ha encontrado ningún gravatar para tu correo electrónico
 file_too_large = El archivo seleccionado es demasiado grande
+max-file-size = { $kb }kb máx
+
+## Profile - Email
+
 manage-subscriptions = Manejar suscripciones
 manage-email-subscriptions = Administrar suscripciones de correo
 email-already-used = El email ya está siendo usado por otra cuenta
@@ -473,8 +471,10 @@ de-identified-explanation = El proceso por el que la información del perfil de 
 
 ## Error pages
 
+error-title-404 = No pudimos encontrar esa página para ti
 error-content-404 = ¿Quizás nuestra <homepageLink>página de inicio</homepageLink> te puede ayudar? Para hacer una pregunta, únete al <matrixLink>chat de la comunidad Matrix</matrixLink>, monitorea los problemas del sitio a través de <githubLink>GitHub</githubLink> o visita <discourseLink>nuestros foros de Discurse</discourseLink>.
 error-content-503 = El sitio volverá a su funcionamiento lo antes posible. Para obtener la información más reciente, únete al <matrixLink>chat de la comunidad Matrix</matrixLink> o visita <githubLink>GitHub</githubLink> o <discourseLink> nuestros foros de Discourse</discourseLink> para enviar y hacer un seguimiento de los problemas con la experiencia del sitio.
+error-code = Error { $code }
 
 ## Data
 
