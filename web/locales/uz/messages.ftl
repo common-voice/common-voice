@@ -198,13 +198,13 @@ help-us-title = Gaplarni tasdiqlashda yordam bering!
 help-us-explain = Ijro tugmasini bosing, tinglang va gaplar to‘g‘ri talaffuz qilinganligi haqida bizga xabar bering.
 no-clips-to-validate = Bu tilda eshitish uchun hech qanday yozuv yo‘qqa o‘xshaydi. Ovozingizni yozib, bizga yordam qiling.
 vote-yes = Ha
-vote-no = Yo‘q
-toggle-play-tooltip = Ijro rejimiga o‘tish uchun { shortcut-play-toggle } ustiga bosing
+vote-no = Yoʻq
+toggle-play-tooltip = Ijro rejimiga oʻtish uchun { shortcut-play-toggle } ustiga bosing
 speak-subtitle = Ovozingiz bilan yordam qiling
 speak-paragraph = Ovoz yozish bizning ma’lumot jamlanmalarimizning ajralmas qismidir. Hato ba’zilar bu jarayonni juda qiziq ham deyishadi.
 speak-goal-text = Yozilgan kliplar
 listen-subtitle = Ovozlarni tekshirishda yordam bering
-listen-paragraph = Qo‘shilgan ovozlarni tekshirish – Common Voice loyihasi uchun juda muhim. Ovozlarni tinglang va sifatli ochiq manbali ovoz ma’lumotlarini yaratishda yordam bering.
+listen-paragraph = Qoʻshilgan ovozlarni tekshirish – Common Voice loyihasi uchun juda muhim. Ovozlarni tinglang va sifatli ochiq manbali ovoz maʼlumotlarini yaratishda yordam bering.
 listen-goal-text = Kliplar tekshirildi
 hours-recorded = Yozib olingan soat
 hours-validated = Soat tekshirildi
@@ -232,7 +232,7 @@ x-years-short =
     }
 help-make-dataset = Bizga yuqori sifatli ommaviy maʼlumotlar bazasini yaratishga yordam bering
 sign-up-account = Akkauntni roʻyxatdan oʻtkazish
-email-subscription-title = Yangiliklardan xabardor bo‘lib turish uchun email orqali obuna bo‘ling
+email-subscription-title = Yangiliklardan xabardor boʻlib turish uchun e-pochta orqali obuna boʻling
 email-subscription-title-new = Common Voiceʼning maqsadlar va yangilishlar haqidagi bildirishnomalariga obuna boʻling
 
 ## Account Benefits
@@ -264,7 +264,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Boshlash/To‘xtatish
+shortcut-play-toggle-label = Boshlash/Toʻxtatish
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -277,14 +277,14 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = Yozib olish/To‘xtatish
+shortcut-record-toggle-label = Yozib olish/Toʻxtatish
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klipni qayta yozish
 shortcut-submit = Joʻnatish
 shortcut-submit-label = Ovozni yuborish
-request-language-text = Common Voice loyihasida ona tilingizni ko‘rmayapsizmi?
+request-language-text = Common Voice loyihasida ona tilingizni koʻrmayapsizmi?
 request-language-text-learn = Qanday qilib soʻrashni bu yerda bilib oling!
-request-language-button = Til qo‘shishni so‘rang
+request-language-button = Til qoʻshishga soʻrov yuborish
 
 ## ProjectStatus
 
