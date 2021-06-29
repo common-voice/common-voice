@@ -887,6 +887,7 @@ demo-account-sign-up = Roʻyxatdan oʻtish havolasini yuborish
 ## Demo Contribute
 
 demo-contribute-card-header = Ovozingizni qoʻshishga yoki qulogʻingizni ding qilishga tayyormisiz?
+demo-contribute-card-body-v2 = Siz Common Voice haqida biroz boʻlsada koʻproq maʼlumotga ega boʻldingiz, endi uni sinab koʻrishga nima deysiz? Gaplarni ovoz chiqarib oʻqishni boshlash uchun mikrofon belgisini bosing. <br/> <br/> Agar siz boshqalarning ovoz tasmalarini tekshirishni maʼqul koʻrsangiz, boshlash belgisini bosing. Siz ovoz tasmasidagi nutq ekranda yozilgan jumlalarga mos kelishini tasdiqlashga yordam berasiz.
 demo-listen-subtitle = Hissa qoʻshishga tayyormisiz?
 
 ## Demo Dashboard
