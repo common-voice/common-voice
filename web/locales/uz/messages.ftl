@@ -195,8 +195,8 @@ wall-of-text-first = Ovoz – tabiiy, ovoz – insonga xos, shuning uchun biz ma
 wall-of-text-second = Katta kompaniyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olishmaydi. Bizning fikrimizcha, bu innovatsiyalarni soʻndiradi. Shuning uchun biz hamma foydalana oladigan ovozni tanish – Common Voice loyihasini ishga tushirdik.
 show-wall-of-text = Batafsil
 help-us-title = Gaplarni tasdiqlashda yordam bering!
-help-us-explain = Ijro tugmasini bosing, tinglang va gaplar to‘g‘ri talaffuz qilinganligi haqida bizga xabar bering.
-no-clips-to-validate = Bu tilda eshitish uchun hech qanday yozuv yo‘qqa o‘xshaydi. Ovozingizni yozib, bizga yordam qiling.
+help-us-explain = Ijro tugmasini bosing, tinglang va gaplar toʻgʻri talaffuz qilinganligi haqida bizga xabar bering.
+no-clips-to-validate = Bu tilda eshitish uchun hech qanday yozuv yoʻqqa oʻxshaydi. Ovozingizni yozib, bizga yordam qiling.
 vote-yes = Ha
 vote-no = Yoʻq
 toggle-play-tooltip = Ijro rejimiga oʻtish uchun { shortcut-play-toggle } ustiga bosing
@@ -288,7 +288,7 @@ request-language-button = Til qoʻshishga soʻrov yuborish
 
 ## ProjectStatus
 
-status-title = Loyihaning umumiy holati: qancha ish qilganimizni ko‘ring!
+status-title = Loyihaning umumiy holati: qilngan ish koʻlamiga bir boqing!
 status-contribute = Ovozingiz bilan yordam qiling
 status-hours =
     { $hours ->
@@ -327,7 +327,7 @@ female = Ayol
 # Gender
 other = Boshqa
 why-profile-title = Nega profil?
-why-profile-text = O‘zingiz haqingizda ma’lumot kiritib, Common Voice loyihasiga audio ma’lumotlarni yuborsangiz, nutqni tanish tizimiga yordamlashgan bo‘lasiz. Bu ovozli yozuvlar ovozni tanish aniqligi va sifatini oshirishda yordam beradi.
+why-profile-text = Oʻzingiz haqingizda maʼlumot kiritib, Common Voice loyihasiga audio maʼlumotlarni yuborsangiz, nutqni tanish tizimiga yordamlashgan boʻlasiz. Bu ovozli yozuvlar ovozni tanish aniqligi va sifatini oshirishda yordam beradi.
 dashboard = Boshqaruv paneli
 build-profile = Profil yaratish
 avatar = Avatar
@@ -350,8 +350,8 @@ download-profile = Ma’lumotlarni yuklab olish
 contribution-experience = Hissangizga baho bering
 skip-submission-feedback = Ishga baho berishni tashlab ketish
 skip-submission-description = Hisobni yuborish paytida fikr-mulohaza "Yuborish" ni bosgandan so'ng o'tkazib yuboriladi. Hissa to'g'ridan-to'g'ri keyingi 5 ta yozuv to'plami yoki tasdiqlash bilan davom etadi.
-skip-submission-note = Diqqat: hissa qo‘shish turini o‘zgartirish uchun "Gapirish" yoki "Tinglash"dan birini tanlashingiz lozim.
-off = O‘chiq
+skip-submission-note = Diqqat: hissa qoʻshish turini oʻzgartirish uchun “Gapirish” yoki “Tinglash”dan birini tanlashingiz lozim.
+off = Oʻchiq
 on = Yoniq
 
 ## Profile - Email
