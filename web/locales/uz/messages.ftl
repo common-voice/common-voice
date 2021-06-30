@@ -768,7 +768,7 @@ get-started-goals = Sinxronlashni boshlang
 create-custom-goal = Shaxsiy maqsadni yarating
 goal-type = Qanday maqsadni amalga oshirishni xohlaysiz?
 both-speak-and-listen = Ikkala
-both-speak-and-listen-long = Ikkalasi (gapiring va tinglang)
+both-speak-and-listen-long = Ikkalasini ham (oʻqing va tinglang)
 daily-goal = Kundalik maqsad
 weekly-goal = Hafta maqsadi
 easy-difficulty = Oson
@@ -808,7 +808,7 @@ activity-needed-calculation-plural =
     }yozsa.
 how-many-per-day = Ajoyib! Kuniga nechta klip?
 how-many-a-week = Ajoyib! Kuniga nechta klip?
-which-goal-type = Gapirishni, tinglashni yoki ikkalasini ham xohlaysizmi?
+which-goal-type = Oʻqishni, tinglashni yoki ikkalasini ham xohlaysizmi?
 receiving-emails-info =
     Ayni paytda siz elektron pochta xabarlarini, masalan, maqsadli eslatmalarni, qabul qila olasiz
     Umumiy ovoz haqida yangiliklar va yangiliklar
@@ -827,9 +827,9 @@ goal-interval-weekly = Haftalik
 share-n-daily-contribution-goal = kunlik klipingizni baham ko'ring.
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = kunlik klipingizni baham ko'ring.
-share-goal-type-speak = Gapirayotgan
+share-goal-type-speak = Oʻqilyapti
 share-goal-type-listen = Tinglanmoqda
-share-goal-type-both = Gapirish va tinglash
+share-goal-type-both = Oʻqish va tinglash
 # LINK will be replaced with the current URL
 goal-share-text = Men shunchaki #CommonVoice-ga ovozli xayriya qilish uchun shaxsiy maqsadimni yaratdim - menga qo'shiling va mashinalarga haqiqiy odamlar qanday gapirishni o'rgatishlariga yordam bering
 weekly-goal-created = Taqvimingiz yaratildi.
