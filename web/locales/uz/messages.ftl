@@ -440,7 +440,7 @@ about-header-description =
     Biz ovozli ma'lumotlarni bemalol va hammaga taqdim qilishni istaymiz va ma'lumotlar haqiqiy odamlarning xilma-xilligini aks ettirishiga ishonch hosil qilamiz. Birgalikda biz hamma uchun ovozni yaxshiroq aniqlashimiz mumkin.
 how-does-it-work-title = Bu qanday ishlaydi?
 how-does-it-work-text = Ovozlarning ochiq manbali ma'lumotlar to'plamini jalb qilmoqdamiz. Ovozingizni bering, boshqalarning kliplari aniqligini tekshiring, ma'lumotlar bazasini hamma uchun yaxshilang.
-about-speak = Gapiring
+about-speak = Oʻqing
 about-speak-text = Ishtirokchilar ovozli roliklarni yozib olishadi va bankda berilgan jumlalarni o'qiydilar.
 about-listen-queue = Eshitish navbati
 about-listen-queue-text = Ovozli kliplar ularni tinglash uchun tayyor bo'ladigan navbatga kiritiladi.
@@ -622,7 +622,7 @@ other-language = Boshqa tillar
 language-section-in-progress = Tayyor bo‘lmagan tillar
 language-section-in-progress-new-description = Ushbu tillar hozirda hamjamiyat tomonidan ishlab chiqilmoqda. Jarayon qatorlari <localizationGlossaryLink> veb-saytni mahalliylashtirish </localizationGlossaryLink> va <sentenceCollectionGlossaryLink> jumlalar to'plami </sentenceCollectionGlossaryLink> jarayonida har bir tilning qay darajada ekanligini ko'rsatadi.
 language-section-launched = Ishga tushirilgan tillar
-language-section-launched-description = Ushbu ishga tushirilgan tillar uchun veb-sayt muvaffaqiyatli <localizationGlossaryLink> lokalizatsiya qilingan </localizationGlossaryLink> va etarli <sentenceCollectionGlossaryLink> jumlalarini to'plagan </sentenceCollectionGlossaryLink> davomiyligi <speakLink> gapirish </speakLink> va <listenLink> > hissa.
+language-section-launched-description = Ushbu ishga tushirilgan tillarda <speakLink>oʻqish</speakLink> va <listenLink>tinglash</listenLink>ga hissa qoʻshish uchun vebsayt muvaffaqiyatli <localizationGlossaryLink>mahalliylashtirilgan</localizationGlossaryLink> va yetarli miqdorda <sentenceCollectionGlossaryLink>gaplar toʻplangan</sentenceCollectionGlossaryLink>.
 languages-show-more = Ko‘proq
 languages-show-less = Kamroq
 language-meter-in-progress = Jarayon
