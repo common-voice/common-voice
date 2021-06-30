@@ -19,7 +19,9 @@
 }
 
 .scrollable {
-    overflow-x: scroll;
+    @media (--md-down) {
+        overflow-x: scroll;
+    }
 
     .plot {
         @media (--md-down) {
