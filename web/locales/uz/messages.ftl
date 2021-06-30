@@ -167,7 +167,7 @@ zh-TW = Xitoycha (Tayvan)
 
 speak = O'qing
 speak-now = O'qishni boshlash
-datasets = Maʼlumotlar toʻplamlari
+datasets = Maʼlumotlar toʻplami
 languages = Tillar
 about = Biz haqimizda
 profile = Profile
@@ -283,7 +283,7 @@ shortcut-rerecord-toggle-label = Klipni qayta yozish
 shortcut-submit = Joʻnatish
 shortcut-submit-label = Ovozni yuborish
 request-language-text = Common Voice loyihasida ona tilingizni koʻrmayapsizmi?
-request-language-text-learn = Qanday qilib soʻrashni bu yerda bilib oling!
+request-language-text-learn = Qanday qilib qoʻshishni bu yerda bilib oling!
 request-language-button = Til qoʻshishga soʻrov yuborish
 
 ## ProjectStatus
