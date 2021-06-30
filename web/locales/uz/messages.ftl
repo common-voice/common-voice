@@ -165,8 +165,8 @@ zh-TW = Xitoycha (Tayvan)
 
 ## Layout
 
-speak = Yozib olish
-speak-now = Yozib olishni boshlash
+speak = O'qing
+speak-now = O'qishni boshlash
 datasets = Maʼlumotlar toʻplamlari
 languages = Tillar
 about = Biz haqimizda
@@ -187,7 +187,7 @@ logout = Chiqish
 ## Home Page
 
 home-title = Common Voice – Mozillaga tegishli loyiha boʻlib, mashinalarga odam kabi gapirishni oʻrgatadi.
-home-cta = Bu yerga gapirib hissa qoʻshing
+home-cta = Oʻqing va hissa qoʻshing!
 wall-of-text-start = Ovoz - bu tabiiy, inson ovozi, shuning uchun ham biz kompyuterlarimiz uchun ovozli texnologiyani yaratmoqchimiz. Ovoz tizimini yaratish uchun juda koʻp ovoz kerak boʻladi.
 wall-of-text-more-mobile = Katta korporatsiyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olmaydi. Bizning fikrimizcha, bu innovatsion taraqqiyotni sekinlashtiradi. Shuning uchun biz Common Voice loyihasini ishga tushirdik.  Bu loyiha ovozni tanish xizmatini hamma uchun ochiq boʻlishini taʼminlaydi.
 wall-of-text-more-desktop = Endi ochiq manbali ovoz maʼlumotlar bazasi uchun ovozingiz bilan yordam qilishingiz mumkin. Bu bazadan har qanday kishi qurilmalar va internet uchun innovatsion dasturlar yaratish maqsadida foydalanishi mumkin. Mashina haqiqiy odamlarning gaplarini oʻrganishi uchun soʻzlarni oʻqib bering. Sifatini oshirish uchun boshqalarning ishlarini tekshiring. Bu juda oson!
