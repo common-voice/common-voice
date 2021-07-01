@@ -171,6 +171,7 @@ whats-public = 邊啲資料會公開？
 email-not-public = 我哋唔會公開你嘅電郵地址。
 recordings-and-locale-public = 你貢獻嘅錄音數量，同埋你貢獻咗邊幾種語言，都會係公開嘅。
 username-optin-public = 你可以選擇公開你嘅賬户名稱，或者保持匿名。
+username-email-not-demographic = 你嘅用户名同埋電郵地址，唔會連結落去公開發佈嘅數據。
 
 ## Speak & Listen Shortcuts
 
@@ -229,7 +230,10 @@ profile-form-age =
     .label = 年齡
 profile-form-gender-2 =
     .label = 性別
+leaderboard-visibility =
+    .label = 排行榜可見性
 hidden = 隱藏
+visible = 可見
 native-language =
     .label = 母語
 profile-form-submit-save = 儲存
@@ -238,7 +242,9 @@ male = 男
 female = 女
 # Gender
 other = 其他
+why-profile-title = 點解要建立個人檔案？
 build-profile = 建立個人檔案
+avatar = 個人資料照片
 goals = 目標
 settings = 設定
 edit-profile = 編輯個人檔案
@@ -248,10 +254,13 @@ profile-explanation = 使用你嘅個人檔案可以保留你嘅進展，仲可�
 thanks-for-account = 感謝你確認你嘅帳戶，而家我哋一齊建立你嘅個人資料啦
 why-demographic = 點解呢個好重要？
 accept-privacy-title = 私隱政策
+login-identity = 登入身分
 login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電郵訂閱
 download-profile = 下載我嘅數據
+contribution-experience = 參與經驗
+skip-submission-feedback = 跳過提交反饋
 
 ## Profile - Email
 
@@ -297,7 +306,7 @@ review-recording = 覆核
 ## Datasets Page
 
 # File size in gigabytes
-size = 大細
+size = 數據庫大細
 number-of-voices = 錄音人數
 email-to-download = 寫低電郵嚟下載
 size-gigabyte = 千兆字節
