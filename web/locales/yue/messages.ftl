@@ -30,13 +30,16 @@ ast = 阿斯圖里亞斯語
 az = 阿塞拜疆語
 ba = 巴什基爾語
 bas = 巴沙語
+be = 白羅斯語
 bg = 保加利亞語
 bm = 班巴拉語
 bn = 孟加拉語
 br = 不列塔尼語
 bxr = 布里亞特語
 ca = 加泰羅尼亞語
+cak = 吉志高語
 ckb = 中庫爾德語
+cnh = 喀哈阡語
 co = 科西嘉語
 cs = 捷克語
 cv = 楚瓦士語
@@ -56,15 +59,22 @@ ff = 富拉語
 fi = 芬蘭語
 fr = 法語
 ga-IE = 愛爾蘭語
+gl = 加利西亞語
+gn = 瓜拉尼語
+ha = 豪薩語
 he = 希伯來語
 hi = 印地語
 hr = 克羅地亞語
+hsb = 索布語（高地）
+ht = 海地語
 hu = 匈牙利語
 hy-AM = 亞美尼亞語
 hyw = 亞美尼亞語（西）
+ia = 國際語
 id = 印尼語
 is = 冰島語
 it = 意大利語
+izh = 伊喬里亞語
 ja = 日語
 ka = 格魯吉亞語
 kaa = 卡拉卡爾帕克語
@@ -86,7 +96,9 @@ mhr = 馬里語（東部）
 mk = 馬其頓語
 ml = 馬拉也藍語
 mn = 蒙古語
+mr = 馬拉地語
 mrj = 馬里語（山地）
+ms = 馬來語
 mt = 馬耳他語
 my = 緬甸語
 nb-NO = 書面挪威語
@@ -111,18 +123,33 @@ zh-TW = 中文（台灣）
 
 ## Layout
 
+speak = 講話
+speak-now = 而家講話
 datasets = 數據集
 languages = 所有語言
 about = 介紹
+terms = 條款
 
 ## Home Page
 
+show-wall-of-text = 了解更多
+help-us-title = 幫我哋手驗證句子啦！
+help-us-explain = 撳播放、聽完、再回覆：呢句話讀得啱唔啱？
+no-clips-to-validate = 睇來而家冇錄音可聽。不如幫我哋錄返啲？
+vote-yes = 係
+vote-no = 唔係
+toggle-play-tooltip = 撳 { shortcut-play-toggle } 即可切換播放模式
+speak-subtitle = 捐出你把聲
 
 ## Account Benefits
 
 
 ## What's public
 
+whats-public = 邊啲資料會公開？
+email-not-public = 我哋唔會公開你嘅電郵地址。
+recordings-and-locale-public = 你貢獻嘅錄音數量，同埋你貢獻咗邊幾種語言，都會係公開嘅。
+username-optin-public = 你可以選擇公開你嘅賬户名稱，或者保持匿名。
 
 ## Speak & Listen Shortcuts
 
@@ -171,11 +198,13 @@ login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電郵訂閱
 download-profile = 下載我嘅數據
-retry-voice-wave-recording = 重試
-re-record = 再錄過
-delete-voice = 刪除
-cancel-avatar-clip-recording = 取消
+
+## Profile - Email
+
 connect-gravatar = 連結 Gravatar
+
+## Profile - Email
+
 
 ## FAQ
 
