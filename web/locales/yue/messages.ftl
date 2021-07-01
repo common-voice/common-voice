@@ -290,6 +290,8 @@ release-version = 版本
 license-mixed = 混合
 terms-agree = 我同意
 terms-disagree = 我唔同意
+review-submit-title = 覆核並提交
+review-recording = 覆核
 
 ## Datasets Page
 
