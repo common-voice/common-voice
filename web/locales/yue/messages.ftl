@@ -140,9 +140,30 @@ vote-yes = 係
 vote-no = 唔係
 toggle-play-tooltip = 撳 { shortcut-play-toggle } 即可切換播放模式
 speak-subtitle = 捐出你把聲
+read-terms-q = 睇咗我哋嘅條款未？
+ready-to-record = 準備好貢獻你把聲未？
+all-locales = 全部
+today = 今日
+x-weeks-short =
+    { $count ->
+       *[other] { $count } 週
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } 月
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count } 年
+    }
+help-make-dataset = 幫我哋建立一個高質素又開放畀公眾使用嘅數據集
+sign-up-account = 註冊帳户
+email-subscription-title = 訂閲最新消息電子報
+email-subscription-title-new = 留低你嘅電郵地址，收取 Common Voice 電子報、目標提醒、同進度更新。
 
 ## Account Benefits
 
+benefits = 益處
 
 ## What's public
 
@@ -153,15 +174,45 @@ username-optin-public = 你可以選擇公開你嘅賬户名稱，或者保持�
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = 播放/停止
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = 錄音/停止
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = 重新錄音
+request-language-text = 喺 Common Voice 見唔到你嘅語言？
+request-language-text-learn = 喺呢度了解點樣請求佢！
+request-language-button = 申請增加一種語言
 
 ## ProjectStatus
 
+status-title = 總體項目狀態：睇下我哋已經行咗幾遠！
+status-contribute = 貢獻你把聲
+status-hours =
+    { $hours ->
+       *[one] 個鐘頭已經驗證！
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = 下一個目標：{ $goal }
 english = 英文
 
 ## ProfileForm
@@ -193,6 +244,9 @@ settings = 設定
 edit-profile = 編輯個人檔案
 profile-create-success = 成功建立個人檔案！
 profile-close = 關閉
+profile-explanation = 使用你嘅個人檔案可以保留你嘅進展，仲可以幫我哋提高語音數據嘅準確度。
+thanks-for-account = 感謝你確認你嘅帳戶，而家我哋一齊建立你嘅個人資料啦
+why-demographic = 點解呢個好重要？
 accept-privacy-title = 私隱政策
 login-signup = 登入 / 註冊
 edit = 編輯
@@ -218,6 +272,8 @@ about-is-it-valid = 段錄音有冇效？
 ## Glossary
 
 glossary = 術語表
+localization = 本地化
+sentence-collection = 收集句子
 sst = 語音轉文字
 sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
 
@@ -228,8 +284,12 @@ error-title-404 = 我哋揾唔到你想去嘅頁面
 ## Data
 
 data-download-button = 下載Common Voice 語音數據
+data-download-yes = 係
 data-other-goto = 往 { $name }
 release-version = 版本
+license-mixed = 混合
+terms-agree = 我同意
+terms-disagree = 我唔同意
 
 ## Datasets Page
 
