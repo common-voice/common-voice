@@ -165,7 +165,7 @@ zh-TW = Xitoycha (Tayvan)
 
 ## Layout
 
-speak = O'qing
+speak = Oʻqish
 speak-now = O'qishni boshlash
 datasets = Maʼlumotlar toʻplami
 languages = Tillar
@@ -194,16 +194,16 @@ wall-of-text-more-desktop = Endi ochiq manbali ovoz maʼlumotlar bazasi uchun ov
 wall-of-text-first = Ovoz – tabiiy, ovoz – insonga xos, shuning uchun biz mashinalar uchun foydalaniladigan ovoz texnologiyasini yaratyapmiz, lekin ovoz tizimlarini yaratish uchun dasturchilarga juda katta miqdoridagi ovoz maʼlumotlari kerak boʻladi.
 wall-of-text-second = Katta kompaniyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olishmaydi. Bizning fikrimizcha, bu innovatsiyalarni soʻndiradi. Shuning uchun biz hamma foydalana oladigan ovozni tanish – Common Voice loyihasini ishga tushirdik.
 show-wall-of-text = Batafsil
-help-us-title = Gaplarni tasdiqlashda yordam bering!
+help-us-title = Jumlalarni saralashga yordam bering!
 help-us-explain = Ijro tugmasini bosing, tinglang va gaplar toʻgʻri talaffuz qilinganligi haqida bizga xabar bering.
 no-clips-to-validate = Bu tilda eshitish uchun hech qanday yozuv yoʻqqa oʻxshaydi. Ovozingizni yozib, bizga yordam qiling.
 vote-yes = Ha
 vote-no = Yoʻq
 toggle-play-tooltip = Ijro rejimiga oʻtish uchun { shortcut-play-toggle } ustiga bosing
-speak-subtitle = Ovozingiz bilan yordam qiling
+speak-subtitle = Ovozingizni hadya qiling
 speak-paragraph = Ovoz yozish bizning ma’lumot jamlanmalarimizning ajralmas qismidir. Hato ba’zilar bu jarayonni juda qiziq ham deyishadi.
 speak-goal-text = Yozilgan kliplar
-listen-subtitle = Ovozlarni tekshirishda yordam bering
+listen-subtitle = Ovozlarni saralashga yordam bering
 listen-paragraph = Qoʻshilgan ovozlarni tekshirish – Common Voice loyihasi uchun juda muhim. Ovozlarni tinglang va sifatli ochiq manbali ovoz maʼlumotlarini yaratishda yordam bering.
 listen-goal-text = Kliplar tekshirildi
 hours-recorded = Yozib olingan soat
