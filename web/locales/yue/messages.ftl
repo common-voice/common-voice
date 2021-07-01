@@ -297,6 +297,7 @@ data-download-button = 下載 Common Voice 語音數據
 data-download-yes = 係
 data-other-goto = 往 { $name }
 release-version = 版本
+dataset-date = 數據庫日期
 license-mixed = 混合
 terms-agree = 我同意
 terms-disagree = 我唔同意
@@ -307,7 +308,12 @@ review-recording = 覆核
 
 # File size in gigabytes
 size = 數據庫大細
+validated-hr-total = 已驗證錄音（小時）
+overall-hr-total = 錄音時數 (小時）
+cv-license = 授權條款
+audio-format = 格式
 number-of-voices = 錄音人數
+splits = 語音特徵概況
 email-to-download = 寫低電郵嚟下載
 size-gigabyte = 千兆字節
 size-megabyte = 兆字節
@@ -315,7 +321,7 @@ whats-inside = Common Voice 數據庫入面有啲咩？
 more = 更多
 close = 關閉
 download = 下載
-dataset-version = 版本
+dataset-version = 數據庫版本
 
 ## Download Modal
 
