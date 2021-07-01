@@ -280,10 +280,11 @@ sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
 ## Error pages
 
 error-title-404 = 我哋揾唔到你想去嘅頁面
+error-code = 錯誤 { $code }
 
 ## Data
 
-data-download-button = 下載Common Voice 語音數據
+data-download-button = 下載 Common Voice 語音數據
 data-download-yes = 係
 data-other-goto = 往 { $name }
 release-version = 版本
@@ -297,11 +298,22 @@ review-recording = 覆核
 
 # File size in gigabytes
 size = 大細
+number-of-voices = 錄音人數
+email-to-download = 寫低電郵嚟下載
+size-gigabyte = 千兆字節
+size-megabyte = 兆字節
+whats-inside = Common Voice 數據庫入面有啲咩？
+more = 更多
+close = 關閉
 download = 下載
 dataset-version = 版本
 
 ## Download Modal
 
+download-title = 你嘅下載已經開始咗
+download-form-email =
+    .label = 輸入你嘅電郵
+    .value = 多謝，我地保持聯絡。
 
 ## Contact Modal
 
@@ -311,12 +323,20 @@ dataset-version = 版本
 
 ## Languages Overview
 
+sentences = 句子
 
 ## Contribution
 
 record-must-allow-microphone = 你必須容許咪高峰存取權。
 record-no-mic-found = 未發現咪高峰。
+record-error-too-short = 段錄音太短喇。
+record-error-too-long = 段錄音太長喇。
+record-error-too-quiet = 段錄音太靜喇。
+record-cancel = 取消重新錄音
+record-three-more-instruction = 仲有三個！
 share-common-voice = 分享Common Voice
+clips-uploaded = 已上載嘅錄音
+record-abort-title = 不如完成咗啲錄音先啦？
 
 ## Reporting
 
