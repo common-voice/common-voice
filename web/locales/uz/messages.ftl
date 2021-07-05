@@ -647,8 +647,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> Kliplar
        *[other] <bold>{ $count }</bold> Kliplar
     }
-goal-help-recording = Siz Common Voice loyihasini { $goalValue }dagi kunlik rejamizdan <goalPercentage></goalPercentage> natijaga erishishiga yordam berdingiz!
-goal-help-validation = Siz Common Voice loyihasini { $goalValue }dagi kunlik tekshiruv rejamizdan <goalPercentage></goalPercentage> tekshilishiga yordam berdingiz!
+goal-help-recording = Common Voice loyihasining kunlik { $goalValue } ta audio tasmadan iborat maqsadining <goalPercentage></goalPercentage> qismi yakunlanishiga yordam berding!
+goal-help-validation = Common Voice loyihasining kunlik { $goalValue } ta audio tasmadan iborat maqsadining <goalPercentage></goalPercentage> qismi tekshirilishiga yordam berdingiz.
 contribute-more =
     { $count ->
         [one] Yana { $count } ta bajarishga tayyormisiz?
