@@ -348,8 +348,9 @@ edit = Tahrirlash
 email-subscriptions = E-pochta orqali obuna
 download-profile = Ma’lumotlarni yuklab olish
 contribution-experience = Hissa qoʻshish tajribasi
-skip-submission-description = Hisobni yuborish paytida fikr-mulohaza "Yuborish" ni bosgandan so'ng o'tkazib yuboriladi. Hissa to'g'ridan-to'g'ri keyingi 5 ta yozuv to'plami yoki tasdiqlash bilan davom etadi.
-skip-submission-note = Diqqat: hissa qoʻshish turini oʻzgartirish uchun “Gapirish” yoki “Tinglash”dan birini tanlashingiz lozim.
+skip-submission-feedback = Yuborishdan oldingi statistik ma’lumotni oʻtkazib yuborish
+skip-submission-description = “Yuborish” tugmasini bosgan vaqtingizda qoʻshgan hissangiz boʻyicha statistik ma’lumotni oʻtkazib yuborib, toʻgʻridan-toʻgʻri keyingi 5 ta jumlani oʻqish yoki yoki saralash qismiga oʻtadi.
+skip-submission-note = Eslatma: Siz baribir “Oʻqish” yoki “Tinglash” boʻlimidan birini tanlashingizga toʻgʻri keladi.
 off = Oʻchiq
 on = Yoniq
 
