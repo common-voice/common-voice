@@ -488,8 +488,8 @@ sentence-collection = Gaplar to'plami
 sentence-collection-explanation = Jamoat mulki bo'lgan jumlalarni yig'ish yoki jamoat mulki uchun yangisini yozish.
 hours-recorded-explanation = Ovozni yozib olish soatlari hozirgacha to'plangan.
 hours-validated-explanation = Ovoz berish orqali 3 foydalanuvchidan 2 nafari "Ha" ovozi bilan ovozni yozib olish soatlarining soni. Bular loyihaning umumiy 10k soatlik maqsadiga erishishni anglatadi.
-sst = Matndan-matnga (STT)
-sst-explanation = Speech-to text (STT) texnologiyalari ovoz ma'lumotlarini matnga o'zgartiradi.
+sst = Nutqdan-matnga (STT)
+sst-explanation = Speech-to text (STT) texnologiyasi ovozli ma’lumotlarni matnga o‘tkazib beradi.
 de-identified = Aniqlangan
 de-identified-explanation = Ma'lumotlar to'plamining bir qismi sifatida yuklab olish uchun to'planganida, hissa qo'shganning shaxsiy ma'lumotlarini xayriya qilingan ovozli kliplaridan yashirish jarayoni.
 
