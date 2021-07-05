@@ -374,7 +374,7 @@ change-email-setings = Kirish identifikatori boʻlimi orqali emailingizni oʻzga
 
 ## FAQ
 
-faq-title = Savol-javob
+faq-title = Tez-tez soʻraladigan savollar
 faq-what-cv-q = Common Voice nima?
 faq-what-cv-a =
     Ovozni aniqlash texnologiyasi biz mashinalar bilan o'zaro munosabatimizni o'zgartiradi, ammo mavjud tizimlar qimmat va xususiydir. Common Voice - bu Mozilla kompaniyasining ovozni aniqlash texnologiyalarini yanada yaxshiroq va hammaga ochiq qilish uchun tashabbusining bir qismidir. Common Voice - bu har qanday odamga har qanday tilda ovozli dasturlarni tez va osongina o'rgatish imkoniyatini beradigan dono ovozlarning ulkan global ma'lumotlar bazasi.
