@@ -481,7 +481,7 @@ mycroft-secondary-description = Bu ochiq kodli dasturiy ta'minot bo'lib, uni erk
 
 ## Glossary
 
-glossary = Glossariy
+glossary = Lug‘at
 localization = Mahalliylashtirish
 localization-explanation = Bu ko'plab tillar (tillar) uchun tarkibimizni moslashtirish va moslashtirish bo'yicha bizning jarayonimiz.
 sentence-collection = Gaplar to'plami
