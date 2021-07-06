@@ -2,8 +2,8 @@
 name: New Language Localization Request
 about: Request a language for localization on Common Voice that is currently not available on Pontoon
 title: 'LOCALIZATION REQUEST: '
-labels: ''
-assignees: 'phirework'
+labels: 'Type: localization'
+assignees: 'Heyhillary'
 ---
 
 Use this template to request a new localizable language that is currently not available [on Pontoon](https://pontoon.mozilla.org/projects/common-voice/).
