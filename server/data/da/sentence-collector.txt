@@ -47,6 +47,7 @@
 "Er det Herr Dupont, sagde han til Charlot."
 "Er det Herr Pasdeloup, sagde Herr Hansen."
 "Er du gal?" sagde de alle sammen, "tror du, vi have penge i skæppevis?"
+"Er du gal?" sagde de alle sammen.
 "Farvel, Mr."
 "Farvel, farvel! du gode, nydelige pige!" sagde svalen og fløj ud i solskinnet.
 "For denne ene gang din lyst jeg stiller,"
@@ -63,6 +64,7 @@
 "Han siger Ting..."
 "Har du fyrtøjet med?" spurgte heksen!
 "Hele fortovet er væk og alle lygterne slukkede!"
+"Hente penge!" sagde heksen
 "Her er den!"
 "Her er den!" sagde heksen, "og her er mit blåternede forklæde.
 "Herregud, hvor er jeg!" sagde han og svimlede ved at betænke det.
@@ -71,6 +73,7 @@
 "Hm."
 "Huder! huder! hvem vil købe huder!" råbte han igennem gaderne.
 "Hun er slet ikke til at få at se!"
+"Hun er slet ikke til at få at se!" sagde de alle sammen.
 "Hvad er dog dette! hvad er dog dette?"
 "Hvad er klokken vægter?" spurgte en forbigående.
 "Hvad for noget!" sagde store Claus, "har jeg ikke druknet dig?"
@@ -104,6 +107,7 @@
 "Ja nok!" sagde Johannes, og så fulgtes de ad.
 "Ja ved du, hvad de fejler!" sagde studenten.
 "Ja vist!" sagde bondemanden, "men nu skal vi først have lidt at leve af!"
+"Ja vist!" sagde bondemanden.
 "Ja — Gud velsigne hende — Gud være med hende for det."
 "Ja — Gud velsigne hende."
 "Ja — for det er bare noget..."
@@ -161,6 +165,7 @@
 "Naturligvis."
 "Nej lad være!" råbte degnen inde i kisten, "lad mig bare komme ud!"
 "Nej! hvad har du i din pose?" spurgte bonden igen.
+"Nej" sagde heksen.
 "Nej, jeg kan ikke!" sagde Tommelise.
 "Nej," sagde heksen.
 "Nej," sagde rejsekammeraten, "det er ikke skyer, det er bjergene.
@@ -350,6 +355,7 @@ Da det mørknede, gik han ud.
 Da det mørknedes, tændtes brogede lamper og søfolkene dansede lystige danse på dækket.
 Da det nu blev efterår, havde Tommelise hele sit udstyr færdigt.
 Da han kom hjem til Paris, søgte han Plads i et Orkester.
+Da kom den til at tænke på den friske luft og solskinnet
 Da kom tjenestepigen og ville vende fjerdingen
 Da lægen kom, befandt han sig i en psykotisk tilstand.
 Da lød i det samme, tæt ved vinduet, den dejligste sang
@@ -398,6 +404,7 @@ De skiltes ellers aldrig dér.
 De skænkede og nejede; justitsråden løb det iskoldt ned af ryggen.
 De spillede videre.
 De stod fremmed, trykkede ind til hinanden.
+De så på hinanden og holdt hinanden i hænderne
 De taler meget godt for dem
 De talte om hvad de tjente.
 De tav igen.
@@ -485,6 +492,7 @@ Der var engang en dreng.
 Der var engang en gammel digter, sådan en rigtig god gammel digter.
 Der var ingen.
 Der var tomt og stille overalt.
+Der vil ikke gå hul på det
 Derfor anmoder min gruppe om, at dette punkt tages af dagsordenen.
 Derfor fører regeringen en stram udlændingepolitik.
 Derfor skal somatiske årsager til symptomerne udredes grundigt.
@@ -502,6 +510,7 @@ Det budskab kan man tage ned på to måder. Man kan vælge magtesløsheden.
 Det buldrede og bragede.
 Det ene ben er lidt længere end det andet.
 Det er Violin-Underet, Charlot Dupont.
+Det er bestemt et udmærket hoved, han har den dreng
 Det er de juveler, der gør et sangerhjerte godt
 Det er den samme aftale, ikke?
 Det er det historiske bagtæppe.
@@ -526,6 +535,8 @@ Det er på sin vis ærgerligt.
 Det er vist en Misforstaaelse.
 Det er vores fælles ansvar at passe på Danmark.
 Det fremgår videre, om prøven er bestået eller ikke er bestået
+Det gik just lystigt
+Det gik raskere og raskere lige ind i den næste gade
 Det giver dem en midlertidig konkurrencefordel.
 Det går godt i Danmark.
 Det gætter han ikke.
@@ -573,6 +584,7 @@ Det var "Radetzky-March".
 Det var afstøbninger af veninder, deres legemlige og åndelige fejl, som her opbevaredes.
 Det var beslutningen.
 Det var blevet ganske stille.
+Det var dejligt at se på
 Det var den lille, levende nattergal, der sad på grenen udenfor
 Det var der ingen af de andre der kunne.
 Det var en drøj gåtur, men vi nåede helt i mål til sidst.
@@ -590,12 +602,14 @@ Det var forbi.
 Det var fortræffeligt.
 Det var fuglens hjerte.
 Det var han også.
+Det var intet eventyr
 Det var jo et morsomt fyrtøj!
 Det var længe inden han begyndte at se underlig ud.
 Det var også en pragt, som man aldrig ser den på jorden.
 Det var rigtignok en have for en prinsesse
 Det var, som den ene ikke mere turde forlade den anden.
 Det var, som hendes hjerte skulle gå itu af sorg.
+Det varer så længe med det ene æg
 Det ved Gud.
 Det ved jeg ikke.
 Det ville nu kongen ikke sige nej til.
@@ -647,6 +661,7 @@ Du er bare en gammel kvaksalver.
 Du er så tarvelig.
 Du er vistnok en værre morgenbolle
 Du har drukket, sagde han.
+Du har ingen ting at bestille, derfor kommer de nykker over dig
 Du har vist brug for en opstrammer
 Du lille velsignede guldfugl
 Du må fortælle ham de nydeligste historier, du ved!"
@@ -777,8 +792,10 @@ Gud fylder mennesket op med inspiration og kærlighed
 Gud har skabt en perfekt verden
 Gud har skabt verden
 Gud, hvilken dejlig kage han kunne se stå derinde! Jo, det var gilde!
+Gud, hvor det dog var et vejr, og hvor gaden så ud
 Halsen kunne han bekvemt bevæge, men det var også alt.
 Ham.
+Han bad om han måtte blive natten over.
 Han begyndte igen at servere.
 Han blev glad, han lærte, han rettede.
 Han drømte om Ellinor uafladeligt.
@@ -807,6 +824,7 @@ Han hørte trommerne og så soldaterne marchere.
 Han kan tydeligvis ikke.
 Han kendte altså svaret
 Han kommer til København i morgen.
+Han kunne snart tale og gå efter alle mennesker i hele gaden
 Han lagde ikke mærke til, at drengen var vågnet.
 Han lod hende sy en mandsdragt, for at hun til hest kunne følge ham.
 Han lyttede.
@@ -845,6 +863,7 @@ Han ønskede at se, hvad han kunde byde den.
 Han, der spurgte, løb og sagde: Imorgen — hvor vi bor.
 Hans ansigt var gammelt og rynket og skægløst.
 Hans bryllupsmorgen ville jo give hende døden og forvandle hende til skum på søen.
+Hans lege blev nu ganske anderledes end før, de var så forstandige
 Har De hørt hende? -Ja.
 Har I plads til en til?
 Har der været demens i familien?
@@ -869,6 +888,7 @@ Herved bekendtgøres lov om anvendelse af tvang i psykiatrien.
 Hesten gjorde et spring og slog over i galop.
 Ho, ho, ho!" lo Poppedreng og tilføjede sin vits: "Lad os nu være mennesker.
 Hun brændte ihjel og blev sendt til dødsriget
+Hun dækkede et langt bord og gav dem et stort fad grød.
 Hun er lidt blind på det ene øje.
 Hun frygtede en skjult hensigt med denne fart.
 Hun frygtede for, at broderen skulde ride fra hende.
@@ -881,6 +901,7 @@ Hun havde redet på hunden, og soldaten havde kysset hende.
 Hun kaldte: "Kom bare an!"
 Hun kommer om et øjeblik.
 Hun kunne ikke lade være at græde derved.
+Hun nikkede til vinduet og vinkede med hånden
 Hun plejer at sparke bolden med venstre ben.
 Hun red for at bevæge sig frem i størst mulig fart.
 Hun rev rask alle tanker itu, søgte at døve sin ængstelse.
@@ -890,13 +911,16 @@ Hun satte sin hæl i hestens flanke.
 Hun slog også op i evangeliebogen og lagde den ved siden af.
 Hun så broderen fare forbi, foroverbøjet, huggende i sadlen som en jockey.
 Hun så ham igennem persiennerne, med vilde øjne.
+Hun tog de røde sko på, det kunne hun jo også nok
 Hun vilde se ham.
 Hun ængstedes alligevel.
+Hunden derinde havde virkeligt to øjne så store som Rundetårn!
 Huset var propfuldt; mellem deklamationsnumrene blev givet et nyt digt.
 Husker du det hviskede den ene efter den anden
 Hvad det havde at gøre med Spanien, vidste ingen.
 Hvad er klokken?
 Hvad forlanger man? Han kan vel ikke spille som Sarasate.
+Hvad går der af dig spurgte hun
 Hvad kan jeg hjælpe dig med?
 Hvad med det hus, han har købt?
 Hvad medfører dette?
@@ -978,6 +1002,7 @@ I sådanne tilfælde skal overlægen efterfølgende snarest tage stilling til be
 I særlige tilfælde kan fødestedet angives som et større geografisk område
 I viser jo netop, at der er en vej frem.
 Ida forstod, at broderen råbte til hende; men hun kunde ikke opfatte hans ord.
+Ikke en eneste skilling vil jeg have!
 Ikke for at brokke os. Men for at løse dem.
 Ikke kun blank og glat.
 Ikke sandt du?" spurgte han og trådte på posen, så det knirkede.
@@ -1003,9 +1028,12 @@ Institut for Menneskerettigheder afgør, om en klage giver tilstrækkelig anledn
 Instituttet indgår i det operationelle beredskab mod smitsomme sygdomme og biologisk terrorisme
 Internationale fællesskaber, der forpligter og beskytter.
 Isolation og fiksering er ikke tilladt
+Ja det er en stor fornøjelse
 Ja muligvis vil det bedrøve flere!
+Ja så skal du ikke have mening, når fornuftige folk taler
 Ja vil du give mig den prægtige guldsabel
 Ja vil du give mig den rige fane
+Ja, det må du forstå
 Ja, det skal stort hjælpe
 Ja, her er så smukt, som hjertet vil
 Ja, jeg er på vej.
@@ -1060,6 +1088,7 @@ Jeg vil gerne takke ham for hans fremragende betænkning.
 Jeg vil helst være her.
 Jeg vil ikke kun pudse medaljens forside. Jeg vil også se bagsiden.
 Jeg vil ikke pines — til jeg bliver gammel.
+Jeg vil ikke tale om mig
 Jeg vil kun komme med få bemærkninger.
 Jeg vil se dem, sagde han.
 Jesus holder en central tale
@@ -1085,6 +1114,7 @@ Kammertjenerne løb ud for at snakke om det, og slotspigerne havde stort kaffese
 Kan du huske den døde mand, de onde mennesker ville gøre fortræd.
 Kan du også spille med venstre hånd?
 Kan man købe billetter i kiosken?
+Kan snedronningen komme herind spurgte den lille pige
 Kan vi lige mødes herovre?
 Karlene så på ham.
 Kejseren fungerer stadig som religiøst overhoved
@@ -1113,6 +1143,7 @@ Kommunalbestyrelsens og politiets afgørelser efter denne bekendtgørelse kan p�
 Kommunen afholder teoriprøve og praktisk prøve for elever, der har modtaget knallertundervisning
 Kommunen forsyner duplikatkørekort med en påtegning om det oprindelige udstedelsesland
 Koncerten sluttede med "Kakadu der Schneider".
+Konen tog meget venlig imod dem begge to.
 Konkurrence er et instrument og fører ikke altid til optimale løsninger.
 Konsekvenser i forhold til natur­områder er ligeledes begrænset.
 Konsekvenserne begrænses blandt andet ved at der etableres erstatningsvandhuller.
@@ -1152,6 +1183,7 @@ Lavtrangerende tæver må ikke indhuses ved siden af dominerende tæver.
 Lektionsplanen kan udfærdiges som en digital løsning
 Leverandørens anvisninger for sensoren skal følges
 Levevilkårene for flagermus og markfirben vil ikke blive forringet.
+Lidt efter kom børn og børnebørn
 Lige med ét blev han blodrød og tav.
 Ligesom mange andre af min generation.
 Ligsyn foretages af en læge til afgørelse af, om dødsfald er indtrådt
@@ -1161,6 +1193,7 @@ Loven træder i kraft dagen efter bekendtgørelsen i Lovtidende.
 Lover du mig det?
 Lovforslaget medfører herudover ingen økonomiske eller administrative konsekvenser for erhvervslivet.
 Lykkeligere end vi to kunne ingen blive
+Læg æg eller spind, så går de over
 Lægeattesten skal udstedes af ansøgerens sædvanlige læge eller anden speciallæge
 Lægeattesten skal være forsynet med lægens stempel og underskrift
 Lægemiddelstyrelsen afgørelse kan ikke indbringes for anden administrativ myndighed
@@ -1186,14 +1219,18 @@ Medlemsstaterne skal også huske deres ansvar.
 Men Herr Pasdeloup havde allerede vendt sig om.
 Men Tommelise græd og sagde, hun ville ikke have den kedelige muldvarp.
 Men Tommelise vidste, det ville bedrøve den gamle markmus, om hun således forlod hende.
+Men bedstemoderen glattede hans hår og fortalte andre historier
 Men de fælles løsninger findes.
 Men den var heller ikke at få på apoteket.
 Men der har jeg aldrig været
 Men der var ingen, og da kom han til at ryste af angst.
 Men det brød oldenborren sig ikke noget om.
+Men det er så dejligt at flyde på vandet
 Men det kunne han jo slet ikke få lov til!
 Men det kunne jo også være det samme, de brugtes kun til stads.
+Men det skal du ikke bryde dig noget om!
 Men det var ikke det vi ville vide.
+Men det var jo intet eventyr
 Men det var just nydeligt, syntes han, kongen kunne ikke have det pænere.
 Men det var næsten, som om fader havde gættet drengens tanker.
 Men dette skyldes ikke konjunkturerne, der er strukturelle årsager hertil.
@@ -1210,6 +1247,7 @@ Men jeg tror også, at mange er enige med mig.
 Men kejseren var endnu ikke død
 Men lad mig stoppe her.
 Men mer og mer urolig blev han.
+Men nu skal vi først have lidt at leve af!
 Men nu tog hun Mod til sig.
 Men også foruroligende og mærket af historien.
 Men rejsekammeraten rystede på hovedet, og var ganske bedrøvet.
@@ -1254,7 +1292,9 @@ Nej, lad os nu være mennesker!"
 Nogle kolleger har allerede talt om arbejdsløshed, om faldet i befolkningstallet.
 Nogle sygdomme kan skyldes andre forhold end arbejdet.
 Nu begreb han, at nissen havde forhekset ham.
+Nu er jeg snart ked af det
 Nu er man kommet meget bagud i sagen.
+Nu gik han ind i det tredje kammer!
 Nu havde han penge!
 Nu kan jeg da tage faders bøsse ned og skyde lidt med den.
 Nu kom det an på, om Johannes kunne gætte den tredje gang.
@@ -1287,22 +1327,29 @@ Obduktionen udføres af en sagkyndig læge, der udpeges af sundheds- og ældremi
 Offentlige monopoler bliver ofte kun nødtvungent afviklet.
 Og Charlot sov ind.
 Og Jørgen laa og tænkte paa, hvad der vel var i Vejen med Batty.
+Og af sted var han
 Og alle blomsterne kyssede hinanden, det var nydeligt at se!
 Og da Jørgen ingenting sagde, føjede han stille til: -Hvis Du vil.
 Og da fløj nattergalen bort
 Og da hun rejste, kom en anden.
 Og de skiltes.
+Og deres børn igen, de har fået små
 Og det er jo i sidste instans målet.
 Og det var det, som interesserede Franz.
 Og drengen søgte og søgte, men borte var den
 Og en dag som i dag med god blæst dækker vindmøller hele vores elforbrug.
 Og han sov ind, hed og fortumlet.
+Og hun glemte at synge sin salme, hun glemte at læse sit fadervor
+Og hun sang den for den lille dreng, og han sang den med
 Og hvad det er for nogle prakkere jeg er kommet imellem
 Og håbet om frihed blev tændt i hele Europa.
 Og som jeg tror, mange af jer deler.
 Og så kom jeg vist alligevel tilbage til min hip-hip-hurratale.
+Og så lagde hun sig igen
+Og så rejste hun sig op, nej, jeg har ikke alle
 Og toppen var ikke ung mere
 Og vi skal stille krav til alle, der er her.
+Og ællingen sad i krogen og var i dårligt humør
 Oh, denne skuen gør mig halv beruset!
 Oh, det ville blive et skrækkeligt vejr! derfor tog matroserne sejlene ind.
 Oh, gid De kunne komme op at se!
@@ -1389,6 +1436,7 @@ Retten kan ikke inddrages af politiet uden samtidig inddragelse af den almindeli
 Rettens afgørelse træffes ved kendelse
 Ring til min kone.
 Romerbrevet, Galaterbrevet og de to korinterbreve
+Roserne blomstrede den sommer så mageløst
 Rundet af samme muld.
 Rutinemæssig brug af nakketang til indfangning af ræve er ikke tilladt.
 Ræve skal endvidere have mulighed for at se og lugte artsfæller.
@@ -1423,6 +1471,7 @@ Små sorte nisser, med en lygtemand på huen, dansede rundt i salen.
 Snedkeren var det vel næppe.
 Solen skinnede ind af vinduerne til ham, da han vågnede styrket og sund
 Solnedgangen og den grå himmel gjorde ham døsig.
+Som de bedst legede, kom der en stor slæde
 Som midler til tvangsfiksering må alene anvendes bælte, hånd- og fodremme samt handsker.
 Som nævnt tidligere er der tale om en meget ustabil situation.
 Somatiske tilstande er en hyppig årsag til akutte psykotiske symptomer hos ældre.
@@ -1476,6 +1525,7 @@ Sundhedsstyrelsen udpeger de øvrige medlemmer samt suppleanter herfor
 Sundhedsstyrelsens afgørelse kan indbringes for sundheds- og ældreministeren
 Supplerende oplysninger samt eventuelle vilkår og begrænsninger i kørekortet
 Syv naturlokaliteter vil blive berørt af baneudvidelsen.
+Så blev vi gift
 Så bliver nutiden bedre end fortiden. Og fremtiden – den bliver endnu bedre.
 Så fik vi langt om længe rystet hele familien sammen.
 Så gik de endnu et godt stykke.
@@ -1543,6 +1593,8 @@ Tolken leveres af en af Rigspolitiet udvalgt leverandør
 Tommelise var så bedrøvet.
 Totalspærringerne vil omfatte hele eller dele af strækningen Lejre-Vipperød.
 Transistoren er grundbyggestenen for computeren
+Tror du, hun har lyst til at flyde og få vand over hovedet
+Tror du, vi have penge i skæppevis?
 Tror i, det er hele verden
 Træder tilbage fra sine internationale forpligtelser og forlader klimaaftalen fra Paris.
 Tvang må aldrig erstatte omsorg, behandling og pleje.
