@@ -289,7 +289,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Enrollañ/Paouez
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Adenrollañ ar c’hlip
+shortcut-submit = Distreiñ
+shortcut-submit-label = Kas ar c’hlipoù
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
+request-language-text-learn = Deskit penaos goulenn anezhi amañ!
 request-language-button = Goulenn ouzhpennañ ur yezh
 
 ## ProjectStatus
