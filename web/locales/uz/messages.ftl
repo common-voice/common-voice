@@ -721,7 +721,7 @@ report-success = Hisobot muvaffaqiyatli qabul qilindi
 
 ## Goals
 
-streaks = Chiziqlar
+streaks = Uzluksiz
 days =
     { $count ->
         [one] kun
@@ -748,7 +748,7 @@ clips-you-validated = Siz tasdiqlagan kliplar
 todays-recorded-progress = Yozib olingan kliplardagi bugungi "Umumiy ovoz" muvaffaqiyati
 todays-validated-progress = Yozib olingan kliplardagi bugungi "Umumiy ovoz" muvaffaqiyati
 stats = Statistika
-awards = Mukofotlar
+awards = Yutuqlar
 you = Siz
 everyone = Barcha foydalanuvchilar
 contribution-activity = Hissa berish faoliyati
