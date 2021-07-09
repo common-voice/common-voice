@@ -172,7 +172,7 @@ languages = Tillar
 about = Biz haqimizda
 profile = Profile
 help = Yordam
-contact = Kontakt
+contact = Bogʻlanish
 privacy = Maxfiylik
 terms = Shartlar
 cookies = Kukilar
@@ -233,7 +233,7 @@ x-years-short =
 help-make-dataset = Bizga yuqori sifatli ommaviy maʼlumotlar bazasini yaratishga yordam bering
 sign-up-account = Akkauntni roʻyxatdan oʻtkazish
 email-subscription-title = Yangiliklardan xabardor boʻlib turish uchun e-pochta orqali obuna boʻling
-email-subscription-title-new = Common Voiceʼning maqsadlar va yangilishlar haqidagi bildirishnomalariga obuna boʻling
+email-subscription-title-new = Common Voice'ning imkoniyatlar va yangiliklar haqidagi xabarnomasiga obuna bo‘ling.
 
 ## Account Benefits
 
@@ -315,9 +315,9 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Jins
 leaderboard-visibility =
-    .label = Meni liderlar safida koʻrsatish
+    .label = Mening yetakchilar safidagi ko‘rinishim
 hidden = Yashirin
-visible = Koʻrinarli
+visible = Oshkor
 native-language =
     .label = Ona tili
 profile-form-submit-save = Saqlash
@@ -465,8 +465,8 @@ about-partnership =
 about-get-involved = Jamiyatga qo‘shiling
 about-get-involved-text-2 =
     Umumiy ovozni yanada yaxshilashga yordam bermoqchimisiz?
-    Ajoyib! Elektron pochta yoki <discourseLink> Diskurs </discourseLink> orqali bog'laning
-    forumlarda qatnashish, sayt muammolarini <githubLink> GitHub </githubLink> orqali yuborish yoki qo'shilish
+    Ajoyib! Elektron pochta yoki <discourseLink> Muhokama </discourseLink> orqali bogʻlaning
+    forumlarda qatnashish, sayt muammolarini <githubLink> GitHub </githubLink> orqali yuborish yoki qoʻshilish
     <matrixLink> Matrix </matrixLink> jamoaviy suhbat.
 about-nav-why-common-voice = Nega?
 about-nav-how-it-works = Qanday ?
@@ -579,7 +579,7 @@ data-other-ted-description = TED-LIUM to‘plami TED saytida mavjud bo‘lgan au
 data-other-voxforge-description = VoxForge – erkin va ochiq manbali nutqni tanish tizimlaridagi transkripsiya qilingan nutqlarni to‘plash uchun sozlangan.
 data-other-tatoeba-description = Tatoeba –  katta hajmdagi til o‘rganish uchun talaffuz qilingan audio fayllar, jumlalar va tarjima bazasidan iborat. Yuklanayotgan to‘plamda ingliz tilida talaffuz qilingan jumlalar mavjud.
 your-feedback = "Umumiy ovoz" ma'lumotlar bazasini qanday yaxshilashimiz mumkinligi haqida fikringiz bormi? Diskursda bizga xabar bering
-go-discourse = Diskursga o'ting
+go-discourse = Muhokamaga oʻting
 missing-language = Ma'lumotlar bazasida sizning tilingizni ko'rmayapsizmi? Bizning Tillar sahifamizga til boshini so'rash.
 go-languages-page = Tillar sahifasiga o'ting
 ready-to-validate = Jumlalarni tasdiqlashga yordam berishga tayyormisiz?
@@ -758,7 +758,7 @@ validated-clips = Tekshilgan soatlar miqdori
 total-approved = Hammasi ma'qullangan
 overall-accuracy = Umumiy aniqlik
 set-visibility = Ko'rinishni sozlang
-visibility-explainer = Ushbu sozlama etakchilar panelidagi ko'rinishni boshqaradi. Yashirin bo'lsa, muvaffaqiyatingiz shaxsiy bo'ladi. Bu sizning rasmingiz, foydalanuvchi ismingiz va taraqqiyotingiz peshqadam taxtasida ko'rinmasligini anglatadi. E'tibor bering, o'zgarishlarni to'ldirish uchun peshqadamlarni yangilash ~ daqiqada daqiqa davom etadi.
+visibility-explainer = Ushbu sozlama sizning nomingiz yetakchilar ro‘yxatida qanday ko‘rinishini belgilaydi. Yashirin bo‘lsa, qo‘shgan hissangiz maxfiy bo‘ladi. Buni tanlaganda rasmingiz, foydalanuvchi ismingiz va hissadorlar safidagi o‘rningiz yetakchilar jadvalida aks etmaydi. Diqqat qiling, o‘zgarishlarni ko‘rish uchun,  yetakchilar ro‘yxati yangilanishi ~{ $minutes } daqiqa ichida amalga oshadi.
 visibility-overlay-note = Eslatma: "Ko'rinadigan" qilib belgilansa, ushbu sozlamani <profileLink> profil sahifasi </profileLink> dan o'zgartirish mumkin.
 show-ranking = Mening reytingimni ko'rsating
 
