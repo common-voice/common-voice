@@ -308,7 +308,7 @@ profile-form-submit-saved = Bisevingiddwa
 male = Musajja
 female = Mukazi
 # Gender
-other = Ndi kirala
+other = Ensonga endala
 why-profile-title = Lwaki profayilo?
 why-profile-text =
     Mu kuwa ebimu ebikukwatako, data ow'amaloboozi gw'owa Common Voice ajja kuba wa mugaso nnyo ku Yingini
@@ -668,19 +668,19 @@ target-segment-learn-more = Manya Ebisingawo
 
 ## Reporting
 
-report = Lloopa
+report = Loopa
 report-title = Sindika alipoota
 report-ask = Buzibu ki bw'osanze ku sentensi eno?
 report-offensive-language = Kivvoola
-report-offensive-language-detail = Eno emboozi elimu enjogera embi oba ey'obuswevu.
-report-grammar-or-spelling = Ensobi mu njogera / empandiika
-report-grammar-or-spelling-detail = Emboozi elina ensobi mu njogera oba empandiika.
+report-offensive-language-detail = Sentensi erina olulimi olutaweesa kitiibwa oba oluvvoola.
+report-grammar-or-spelling = Ensobi mu mpandiika
+report-grammar-or-spelling-detail = Sentensi erina ensobi mu mpandiika.
 report-different-language = Olulimi olulala
 report-different-language-detail = Kiwandiikiddwa mu lulimi olulala ku lwe njogera.
 report-difficult-pronounce = Kizibu okwogera
 report-difficult-pronounce-detail = Mulimu ebigambo ebizibu okusoma oba okwogera.
 report-offensive-speech = Enjogera nswevu
-report-offensive-speech-detail = Kano akaloboozi kalimu ebigambo ebibi oba ebiluma.
+report-offensive-speech-detail = Kano akaloboozi kalimu enjogera etaweesa kitiibwa oba evvoola.
 report-other-comment =
     .placeholder = Comment
 success = Success
@@ -827,6 +827,7 @@ read-more-about = Soma ebisingawo ku page yaffe ey'Ebitukwatako.
 
 ## DemoLayout
 
+demo-welcome = Oyanirizibwa ku Common Voice
 
 ## Demo Datasets
 
