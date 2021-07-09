@@ -33,6 +33,7 @@ as = Assamese
 ast = Asturian
 az = Luzabayijani
 ba = Bashkir
+bas = Bassa
 be = Luberaluusi
 bg = Lubulugaliya
 bm = Bambara
@@ -336,26 +337,17 @@ skip-submission-description = Bw'oba osindika by'oyambyeko, obubabaka bujja kubu
 skip-submission-note = Manya: Ojja kwetaga okulonda wakati W'okwogera oba Okuwuliriza okukyusa ekika ky'okuyamba.
 off = Teriiko
 on = Kweri
-avatar-clip-title = Ka dolle ko kawe eddoboozi
-change-your-avatar-clip = Oyagala kukyusa eddoboozi lyo?
-recording-in-progress = Oli mu ku lekodinga ddoboozi
-avatar-clip-recorded = Ekifananyi kyo kati kijja n'kalaboozi!
-record-voice-wave = LIKODINGA AKALOBOOZI
-retry-voice-wave-recording = DDAMU
-re-record = Likodinga buto
-delete-voice = Sangula
-recording-voice-wave = Likodinga
-delete-voice-clip = oba Sangula clip y'eddoboozi
-ready-to-upload = TEEKAYO
-avatar-clip-fact = Mazima kuva dda nti omusomi abuzabuzibwa by'asoma ku pegi nga atunilidde enfanana y'ayo.
-recreate-voice = Ddamu Akaloboozi
-cancel-avatar-clip-recording = SAZAAMU
-about-avatar-clip-recording = Kkola clip y'eddoboozi enebeera ku kabonero ka pulofayiro yo. Abalala bajja kusobola okuyisako n'ebajiwuliriza.
+
+## Profile - Email
+
 browse-file-title = Tekaako akafananyi
 browse-file = Sika osuule oba <browseWrap>Nnonya</browseWrap>
 connect-gravatar = Conekitinga ne Gravatar
 gravatar_not_found = Tewali gravatar ya email yo esangidwa
 file_too_large = Fayiro gy'olonze nnene nnyo
+
+## Profile - Email
+
 manage-subscriptions = Ddunkanya Eby'okwewandiisa
 manage-email-subscriptions = By'ofuna mu email
 email-already-used = Email eno ekozesebwa ku akawunti endala
