@@ -288,7 +288,7 @@ english = Luzungu
 ## ProfileForm
 
 profile-form-username =
-    .label = Erinya ly'okozesa
+    .label = Erinnya ly'okozesa
 profile-form-native-language =
     .label = Olulimi lwe wamwe
 profile-form-additional-language =
@@ -296,7 +296,7 @@ profile-form-additional-language =
 profile-form-accent =
     .label = Accent
 profile-form-age =
-    .label = Myaka
+    .label = Emyaka
 leaderboard-visibility =
     .label = Okulabibwa kwa Leaderboard
 hidden = Terabika
