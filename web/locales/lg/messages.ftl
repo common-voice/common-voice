@@ -670,8 +670,8 @@ target-segment-learn-more = Manya Ebisingawo
 
 report = Lloopa
 report-title = Sindika alipoota
-report-ask = Bizibu ki by'oli okusanga ku mboozi eno?
-report-offensive-language = Obuswevu
+report-ask = Buzibu ki bw'osanze ku sentensi eno?
+report-offensive-language = Kivvoola
 report-offensive-language-detail = Eno emboozi elimu enjogera embi oba ey'obuswevu.
 report-grammar-or-spelling = Ensobi mu njogera / empandiika
 report-grammar-or-spelling-detail = Emboozi elina ensobi mu njogera oba empandiika.
