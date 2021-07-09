@@ -1,15 +1,7 @@
-@import url('../../vars.css');
-
 .stats,
 .goals,
 .awards,
 .challenge {
-    & header {
-        @media (--lg-up) {
-            max-width: var(--wide-desktop-width);
-        }
-    }
-
     & #scroller {
         background-image: linear-gradient(
             1deg,

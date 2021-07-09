@@ -1,9 +1,7 @@
-@import url('../../vars.css');
-
 .home #content {
     padding: 0;
 
-    & > div {
+    > div {
         max-width: none;
 
         @media (--lg-down) {
