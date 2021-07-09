@@ -830,9 +830,15 @@ read-more-about = Soma ebisingawo ku page yaffe ey'Ebitukwatako.
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ly'etterekero oly'olukale erisinga obunene munsi yonna ery'amaloboozi mu nnimi ez'enjawulo.
+card-button-next = ewaddako
+demo-language-select-label = Noonya olulimi
+demo-eofy-sub_header = kati osobola okuwanula dataset eno
+demo-account = Account
 
 ## Demo Account
 
+demo-account-card-header = Tekyetaagisa kuba na account okwennyigiramu wadde nga kya mugaso.
 
 ## Demo Contribute
 
