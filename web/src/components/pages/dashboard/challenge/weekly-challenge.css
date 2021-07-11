@@ -1,4 +1,3 @@
-@import url('../../../vars.css');
 .weekly-container {
     max-height: 1060px;
     overflow-y: auto;
@@ -76,7 +75,7 @@
     }
 
     .stats-card .filters {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .challenge-dropdown {

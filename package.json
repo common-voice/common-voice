@@ -27,22 +27,31 @@
     "node": ">=10.17.0"
   },
   "resolutions": {
-    "cryptiles": "4.1.2",
-    "event-stream": "3.3.4",
-    "@types/react": "16.9.19",
+    "event-stream": "^3.3.4",
+    "@types/react": "^16.9.19",
     "minimist": "^1.2.3",
     "serialize-javascript": "^3.1.0",
-    "dot-prop": "^4.2.1"
+    "dot-prop": "^4.2.1",
+    "node-notifier": "^8.0.1",
+    "y18n": "^4.0.1",
+    "netmask": "^2.0.1",
+    "is-svg": "^4.2.2",
+    "ssri": "^8.0.1",
+    "merge": "^2.1.1",
+    "underscore": "^1.12.1",
+    "browserslist": "^4.16.5"
   },
   "scripts": {
-    "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\" \"cd maintenance && yarn build\"",
+    "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\"",
     "build-common": "cd common && yarn build && cd ..",
+    "build-maint": "cd maintenance && yarn build && cd ..",
     "import-locales": "node scripts/import-locales",
     "lint": "prettier \"**/*.{ts,tsx}\"",
     "prettier": "yarn lint --write",
-    "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE,MT\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\" \"cd maintenance && yarn dev\"",
+    "start": "yarn build-common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
     "start:prod": "yarn build-common && node server/js/main.js",
-    "test": "yarn build-common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && yarn test\""
+    "start:maint": "cd maintenance && yarn dev",
+    "test": "yarn build-common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && SERVER_CONFIG_PATH='../config.json' yarn test\""
   },
   "husky": {
     "hooks": {

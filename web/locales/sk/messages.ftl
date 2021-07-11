@@ -33,14 +33,18 @@ as = asámčina
 ast = astúrčina
 az = azerbajdžančina
 ba = baškirčina
+bas = basaa
 be = bieloruština
 bg = bulharčina
+bm = bambarčina
 bn = bengálčina
 br = bretónčina
 bxr = buriatčina
 ca = katalánčina
 cak = kaqchikel
+ckb = Stredná kurdčina
 cnh = hakha chin
+co = korzičtina
 cs = čeština
 cv = čuvaština
 cy = waleština
@@ -62,11 +66,13 @@ fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
 gl = galícijčina
+gn = guarančina
 ha = hauština
 he = hebrejčina
 hi = hindčina
 hr = chorvátčina
 hsb = hornolužická srbčina
+ht = haitská kreolčina
 hu = maďarčina
 hy-AM = arménčina
 hyw = západná arménčina
@@ -81,22 +87,26 @@ kaa = karakalpačtina
 kab = kabylčina
 kbd = kabardčina
 kk = kazaština
+kmr = kurmanji kurdčina
 ko = kórejčina
 kpv = komi-zyriančina
-ku = kurdčina
 kw = kornčina
 ky = kirgizština
 lg = gandčina
 lij = ligúrčina
 lt = litovčina
 lv = lotyština
+mai = maithilčina
 mdf = mokša
 mg = malagaština
 mhr = lúčnovýchodná marijčina
 mk = macedónčina
 ml = malajálamčina
 mn = mongolčina
+mos = mossi
+mr = maráthčina
 mrj = hornomarijská marijčina
+ms = malajčina
 mt = maltčina
 my = barmčina
 myv = erzya
@@ -108,6 +118,7 @@ oc = okcitánčina
 or = urijčina
 pa-IN = pandžábčina
 pl = poľština
+ps = paštčina
 pt = portugalčina
 rm-sursilv = rétorománčina (sursilvan)
 rm-vallader = rétorománčina (vallader)
@@ -117,9 +128,11 @@ rw = rwandčina
 sah = jakutčina
 sc = sardínčina
 scn = sicílčina
+shi = shilha
 si = sinhalčina
 sk = slovenčina
 sl = slovinčina
+so = somálčina
 sq = albánčina
 sr = srbčina
 sv-SE = švédčina
@@ -134,12 +147,14 @@ tr = turečtina
 tt = tatárčina
 uby = ubychčina
 udm = udmurtčina
+ug = ujgurčina
 uk = ukrajinčina
 ur = urdčina
 uz = uzbečtina
 vec = benátčina
 vi = vietnamčina
 vot = vodčina
+yue = kantónčina
 zh-CN = čínština (Čína)
 zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
@@ -249,7 +264,7 @@ whats-public = Čo všetko zverejňujeme?
 email-not-public = Vašu e-mailovú adresu nezverejňujeme.
 recordings-and-locale-public = Počet nahrávok a jazyky, do ktorých prispievate, budú verejné.
 username-optin-public = Môžete si vybrať, či bude vaše používateľské meno verejné alebo anonymné.
-demographic-deidentified-clarity = Dobrovoľne nahrané demografické údaje (napr. vek, pohlavie, jazyk a prízvuk) nebudú na vašom profile nikdy zverejnené a nebudú spojené s vašim účtom v datasete. Jednotlivé nahrávky budú spojené s demografickými údajmi za účelom presnejšej analýzy, napríklad aby mohol výskumný pracovník sústrediť výučbu modelu na určitú demografickú skupinu.
+demographic-deidentified-clarity-2 = Dobrovoľne odosielané demografické dáta (napr. vek, pohlavie, jazyk a prízvuk) nebudú na vašom profile nikdy sprístupnené verejne, a v datasete nebudú spárované s vašim účtom. Individuálne zvukové nahrávky budú asociované s demografickými údajmi za účelom presnejšej analýzy - napríklad, výskumník môže chcieť cieliť trénovanie modelu na špecifickú demografickú skupinu.
 username-email-not-demographic = Vaše používateľské meno a e-mailová adresa nebudú nijakým spôsobom prepojené s uverejnenými údajmi.
 
 ## Speak & Listen Shortcuts
@@ -279,6 +294,7 @@ shortcut-record-toggle-label = Nahrať/zastaviť
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nahrať klip nanovo
 request-language-text = Nevidíte na Common Voice svoj jazyk?
+request-language-text-learn = Tu sa dozviete, ako o to požiadať.
 request-language-button = Požiadajte o jazyk
 
 ## ProjectStatus
@@ -308,7 +324,7 @@ profile-form-accent =
     .label = Prízvuk
 profile-form-age =
     .label = Vek
-profile-form-gender =
+profile-form-gender-2 =
     .label = Pohlavie
 leaderboard-visibility =
     .label = Viditeľnosť v rebríčku
@@ -335,7 +351,7 @@ profile-close = Zavrieť
 profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spresniť naše hlasové údaje.
 thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
 why-demographic = Prečo na tom záleží?
-why-demographic-explanation = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
+why-demographic-explanation-2 = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
 accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>
 accept-privacy-title = Zásady ochrany osobných údajov
 login-identity = Identita pre prihlásenie
@@ -424,6 +440,7 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Prečo Common Voice?
+about-subtitle = Common Voice je súčasťou iniciatívy Mozilly pomôcť učiť stroje, ako hovoria skutoční ľudia. Okrem datasetu Common Voice budujeme aj open source engine na rozpoznávanie reči s názvom Deep Speech.
 how-does-it-work-title = Ako to funguje?
 about-is-it-valid = Je nahrávka platná?
 about-is-it-valid-text = Nahrávka je označená ako platná po jej schválení iným používateľom
@@ -474,6 +491,8 @@ data-other-goto = Prejsť na { $name }
 data-other-download = Prevziať údaje
 data-bundle-button = Prevziať balík datasetov
 data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
+release-version = Verzia
+dataset-date = Dátum
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Zmiešaná
 review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmienkami</termsLink> a <privacyLink>zásadami ochrany súkromia</privacyLink>
@@ -591,6 +610,7 @@ contribute-more =
 record-cta = Začnite s nahrávaním
 record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
 record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
+record-platform-not-supported-ios-non-safari = V systéme iOS použite pre nahrávanie prehliadač Safari…
 record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
 record-no-mic-found = Nenašiel sa žiadny mikrofón.
 record-error-too-short = Vaša nahrávka bola príliš krátka.
@@ -626,18 +646,23 @@ target-segment-learn-more = Ďalšie informácie
 
 ## Reporting
 
+report-title = Odoslať správu
+report-ask = Aké máte problémy s touto vetou?
+report-offensive-language = Urážlivý jazyk
 report-offensive-language-detail = Veta obsahuje urážky alebo nadávky.
 report-grammar-or-spelling = Gramatická chyba
 report-grammar-or-spelling-detail = Vo vete sa nachádza gramatická chyba alebo preklep.
 report-different-language = Iný jazyk
 report-different-language-detail = Je napísaná v inom jazyku, než aký mám nastavený.
 report-difficult-pronounce = Zložitá výslovnosť
+report-difficult-pronounce-detail = Obsahuje slová alebo frázy, ktoré sú ťažko čitateľné alebo vysloviteľné.
 report-offensive-speech = Urážky
 report-offensive-speech-detail = Nahrávka obsahuje urážky alebo nadávky.
 report-other-comment =
     .placeholder = Komentár
 success = Hotovo
 continue = Pokračovať
+report-success = Správa bola úspešne odoslaná!
 
 ## Goals
 
@@ -757,3 +782,20 @@ help-contribute = Vytvorením profilu v Common Voice a prispením svojho hlasu, 
 login-company = Prihláste sa / zaregistrujte sa pomocou e-mailu { $company }
 profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 read-more-about = Prečítajte si viac na stránke O nás
+
+## DemoLayout
+
+
+## Demo Datasets
+
+demo-account = Účet
+
+## Demo Account
+
+demo-account-card-header = Účet nie je nutnosťou, no môže byť užitočný
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

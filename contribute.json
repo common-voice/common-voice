@@ -4,7 +4,7 @@
   "repository": {
     "url": "https://github.com/mozilla/common-voice",
     "license": "MPL2",
-    "tests": "https://travis-ci.org/mozilla/common-voice/"
+    "tests": "https://github.com/mozilla/common-voice/actions"
   },
   "participate": {
     "home": "https://commonvoice.mozilla.org",
