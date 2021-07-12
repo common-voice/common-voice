@@ -39,7 +39,9 @@
     "ssri": "^8.0.1",
     "merge": "^2.1.1",
     "underscore": "^1.12.1",
-    "browserslist": "^4.16.5"
+    "browserslist": "^4.16.5",
+    "glob-parent": "^5.1.2",
+    "ws": "^7.4.6"
   },
   "scripts": {
     "build": "yarn build-common && concurrently \"cd server && yarn build\" \"cd web && yarn build\"",
