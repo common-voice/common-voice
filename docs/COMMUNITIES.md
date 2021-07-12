@@ -27,7 +27,7 @@ Many language communities are self organising and have their contact channels on
 * Guaraní (`gn`):
   * [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
 * Italian (`it`):
-  * [Telegram](https://t.me/joinchat/QzLbqUl_P06IWojE) 
+  * [Telegram](https://t.me/mozitabot) 
 * Traditional Chinese (`zh-TW`):
   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-tw:mozilla.org)
   * [Telegram](https://t.me/moztwcv)
