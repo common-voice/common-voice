@@ -7,7 +7,6 @@ import { useTypedSelector } from '../../../stores/tree';
 import { ContributableLocaleLock } from '../../locale-helpers';
 import { RecordLink } from '../../primary-buttons/primary-buttons';
 import RegisterSection from '../../register-section/register-section';
-import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { LinkButton } from '../../ui/ui';
 import Hero from './hero';
 import { ClipsStats, VoiceStats } from './stats';
@@ -27,9 +26,6 @@ export default function HomePage() {
   );
 
   const [activeHero, setActiveHero] = useState<null | HeroType>(null);
-  const [showRequestLanguageModal, setShowRequestLanguageModal] = useState(
-    false
-  );
   const [showWallOfText, setShowWallOfText] = useState(false);
 
   const statsRef = useRef<HTMLDivElement>(null);
@@ -161,19 +157,13 @@ export default function HomePage() {
                     </Localized>
                     <div style={{ width: '100%' }} />
                     <Localized id="request-language-button">
-                      <button
+                      <LinkButton
                         type="button"
                         className="request-language"
-                        onClick={() => setShowRequestLanguageModal(true)}
+                        blank
+                        href="https://github.com/mozilla/common-voice/blob/main/docs/LANGUAGE.md"
                       />
                     </Localized>
-                    {showRequestLanguageModal && (
-                      <RequestLanguageModal
-                        onRequestClose={() =>
-                          setShowRequestLanguageModal(false)
-                        }
-                      />
-                    )}
                   </>
                 )
               }
