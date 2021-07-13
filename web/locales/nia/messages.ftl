@@ -172,9 +172,26 @@ languages = Li
 about = Sanandrösa
 profile = Profil
 help = Fanolo
+contact = Kontak
+privacy = Privasi
+terms = Goi-goi
+cookies = Kuki
+faq = Sasese musofu (FAQ)
+content-license-text = Ngawalö nösi so barö <licenseLink>Creative Commons license</licenseLink>
+share-title = Tologa wanöndra niha bö'ö same kontribusi li (voice)!
+share-text = Tolo fomaha mesin hewisa to'ölönia fahuhuo niha, be kontribusi limö ba { $link }
+link-copied = No mukopi khai-khainia
+back-top = Angawuli yaŵa
+logout = Ae baero
 
 ## Home Page
 
+home-title = Common Voice no nifa'anö Mozilla ba wanolo wamaha'ö mesin hewisa to'ölönia fahuhuo niha.
+home-cta = Wa'ö liu, be kontribusi ba da'a!
+wall-of-text-start =
+    Li andrö alamiah, li andrö no tefaböbö ba niha. Börö da'ö ohitö dödöma wamazökhi teknologi li si tola mu'oguna'ö ba mesin. Ba ena'ö tola tefazökhi sistem li, moguna oyaVoice is natural, voice is human. That’s why we’re fascinated with creating usable voice
+    technology for our machines. But to create voice systems, an extremely large amount of voice
+    data is required.
 
 ## Account Benefits
 
