@@ -41,4 +41,4 @@ I see rocks on the ground
 Please link to the Pontoon account of the person who should be listed as the community manager of this language
 
 *Language Script**
-What is the name of the langauge scripts used to write your langauge ? e.g latin, Devanagari
+What is the name of the langauge scripts used to write your language ? e.g latin, Devanagari
