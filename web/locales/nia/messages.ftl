@@ -107,12 +107,71 @@ mos = Mossi
 mr = Marathi
 mrj = Hill Mari
 ms = Li Melayu
+mt = Maltese
+my = Burmese
+myv = Erzya
+nb-NO = Norwegian Bokmål
+ne-NP = Nepali
+nl = Li Belanda
+nn-NO = Norwegian Nynorsk
+oc = Occitan
+or = Odia
+pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
+pl = Li Polandia
+ps = Pashto
+pt = Li Portugis
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
+ro = Romanian
+ru = Li Rusia
+rw = Kinyarwanda
+sah = Sakha
+sc = Li Sardinia
+scn = Li Sisilia
+shi = Shilha
+si = Sinhala
+sk = Slovak
+sl = Slovenian
+so = Somali
+sq = Albanian
+sr = Serbian
+sv-SE = Swedish
+sw = Swahili
+syr = Syriac
+ta = Tamil
+te = Telugu
+tg = Tajik
+th = Thai
+tl = Tagalog
+tr = Turkish
+tt = Tatar
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
+uk = Ukrainian
+ur = Urdu
+uz = Uzbek
+vec = Venetian
+vi = Li Vietnam
+vot = Votic
+yue = Cantonese
+zh-CN = Li China
+zh-HK = Li Hong Kong
+zh-TW = Li Taiwan
 
 # [/]
 
 
 ## Layout
 
+speak = Ŵa'ö
+speak-now = Ŵa'ö iada'a
+datasets = Ngafu data
+languages = Li
+about = Sanandrösa
+profile = Profil
+help = Fanolo
 
 ## Home Page
 
