@@ -6,6 +6,7 @@
 "Porty, bajty, osmibity", Martin Malý
 "Tvorba open source softwaru", Karl Fogel
 ... a malé opáčko
+A tady dole, vidíte něco?
 A Barunka někdy učila babičku jedním prstem hrát.
 A Janko leží zabitý.
 A Kingová vyhrála!
@@ -191,6 +192,7 @@ A pak během pár měsíců o všechno přijde.
 A pak je konec.
 A pak je tam rotunda.
 A pak je ticho.
+A pak ještě říkáš, že jsem krásná!
 A pak se mi, víte, nesnesitelně stýská.
 A pak se různě navzájem prokombinují.
 A pak se to všechno totálně podělá.
@@ -248,7 +250,6 @@ A sám se toho také ani slůvkem nedotkl.
 A ta noc - to hrob v svém rozšklebení!
 A ta normálnější, nepsychedelická, je ta lepší z nich.
 A ta částka taky nesouhlasí.
-A tady dole, vidíte něco?
 A tady jsou nějaké moje postřehy.
 A tady to začne být zajímavé...
 A tady tohle je třecí ložisko a převod.
@@ -411,6 +412,7 @@ Abys mohl pracovat na těch nesmyslech a neměl přitom hlad!
 Abyste na nás nečekali.
 Ach Fany, řeknete, jak mě píchlo u srdce!
 Ach Fany, řeknete, píchla jsem se, musím teď trochu ven.
+Ach Prime, proč se mi vyhýbáš?
 Ach Waltře, mě to štípe.
 Ach ach ach, to mě hlava rozbolela.
 Ach já nešťastná!
@@ -421,6 +423,7 @@ Ach ptáčkové, co mám s ním dělat?
 Ach pusťte!
 Ach ta noc!
 Ach to mne hlava rozbolela!
+Ach ty hrozné vlasy, kdybych si do nich mohla něco dát!
 Ach áno!
 Ach!
 Ach, Harry, byla nevím jaká ctnost v práci a únavě.
@@ -452,6 +455,7 @@ Akorát že teď byly prsty dlouhé jak u upíra Nosferatu a palec moc krátký.
 Aktivita nemá žádná významná rizika.
 Aktivitu hodnotím jako velmi rizikovou.
 Akumulátory nacházejí své využití i v dopravě.
+Ale pak přestane služebnictví člověka člověku a otročení člověka hmotě.
 Ale Fany!
 Ale Fany, tady ho nemůžeme nechat!
 Ale Harry!
@@ -564,7 +568,6 @@ Ale ono je najednou až mrtvo v domě.
 Ale ovšem.
 Ale pak jste zase svítily.
 Ale pak nebude už vůbec žádné práce.
-Ale pak přestane služebnictví člověka člověku a otročení člověka hmotě.
 Ale pak přišla ona!
 Ale podívejte se, pane Šefle, ještě tadyhle.
 Ale poslouchejte, k Jelenu do hospody nechci.
@@ -1158,6 +1161,7 @@ Co je to Sigfox?
 Co je to projekt devastace?
 Co je to smt a tht
 Co je to za člověka, kterého hledáme?
+Co je to, nač je to, být krásná?
 Co je to?
 Co je v čítankách o spolupráci obou velikých Rossumů, je povídačka.
 Co je večer a co už noc?
@@ -1386,6 +1390,7 @@ Dlouho jsem ji už nepoužil.
 Dlouho jsme se neviděli.
 Dlouhonohý domácí pán hnal se hřmotně po schodech do jídelny a odtud do pracovny.
 Dlouhé kolony a spěch jsou na denním pořádku.
+Dnes máme vlastní tkalcovny, a ještě expedujeme látečky pětkrát laciněji než jiné továrny.
 Dnes ale došlo opět k posunu.
 Dnes bude zataženo a bude zima.
 Dnes je krásný den.
@@ -2539,10 +2544,13 @@ Jsme prokleti, že o nebes štít bijem jen pláčem svým?
 Jsme připraveni k dialogu a nevyhýbáme se odpovědnosti.
 Jsme tam, kde děl jsem.
 Jsme v bezpečí.
+Jsou krásné vlasy, které tě jenom tíží?
+Jsou krásné oči, které zavíráš?
 Jsou blogy a weby.
 Jsou diskuzní fóra.
 Jsou hrozní!
 Jsou i další zajímavá čísla.
+Jsou krásné rty, do kterých se jen koušeš, aby to bolelo?
 Jsou látkové pleny pohodlné pro dítě?
 Jsou mechanicky dokonalejší než my, mají úžasnou rozumovou inteligenci, ale nemají duši.
 Jsou méně než tráva.
@@ -2690,6 +2698,7 @@ Já vím.
 Já vždycky žasnu, jak je ta příroda v tom zvířátku silná.
 Já zase běžím, pane Jindřichu, jen ho poněkud uchlacholte.
 Já znám jen člověka, co zná člověka, který prý viděl člověka, který ho zná.
+Já že jsem krásná?
 Já.
 Jídla byla hojná i výborná, rozmar vždy růžovější.
 Jídlo, pití, záchod, čistota, vyspalost.
@@ -3278,6 +3287,7 @@ Mnoho lidí považuje látkové pleny za překonané.
 Mnoho měst jsem navštívil.
 Mnoho obav se rodí z únavy a osamění.
 Mnoho otázek a žádné odpovědi.
+Mnoho v nich dokonce nově narůstá.
 Mnoho v nich dokonce nověnarůstá.
 Mnohá žabka pokojná, mnohá rybka ospalá za kořisť krvavou jim padne.
 Mnohé příležitosti zmizí a jiné naopak vzniknou.
@@ -3855,6 +3865,7 @@ Ne toho neznámého.
 Ne víc?
 Ne vždy se setkal s pochopením.
 Ne že by nešel, ale prostor působil divně a nepřirozeně.
+Ne, Marius a Sulla byli vojevůdci a bojovali proti sobě.
 Ne, Bobe, počkej.
 Ne, Dášo, ty kosti tam nejsou ke kousání, jenom k dívání.
 Ne, Marius a Sulla byli vojevůdci a bojovali proti sobě roku–roku–Nevím už.
@@ -5095,6 +5106,7 @@ Pojednejte o věšadlech.
 Pojednou byli z lesa ven.
 Pojednou se vzpřímil a naslouchal.
 Pojeď s náma někdy!
+Pojď sem, ať jsme tam vedle sebe!
 Pojď sem, malá, tady máš misku s mlíčkem.
 Pojď sem.
 Pojď si pro to kotě!
@@ -5358,6 +5370,7 @@ Prezident republiky je hlavou státu.
 Prezident republiky je volen v přímých volbách.
 Prezident republiky není z výkonu své funkce odpovědný.
 Prezident republiky se ujímá úřadu složením slibu.
+Prime, to jsi ty?
 Primární bude prevence vzniku odpadů, dále recyklace, materiálové a energetické využití odpadů.
 Priority České republiky musí být srozumitelné nejen našim občanům, ale i evropským partnerům.
 Pro dva by to mělo zvládat na vstupu obrázky, video i kameru.
@@ -5433,6 +5446,7 @@ Proplétala se lidmi, kteří plakali, kteří svírali pěstě.
 Propojení Cms a Ttl
 Propána!
 Propána, slečno!
+Propánička krásná dámo, vždyť my to děláme tak lacino!
 Propánička, krásná dámo, vždyť my to děláme tak lacino!
 Prorok Prokop prokop poklop.
 Prosimtě, nevím co s tebou je.
@@ -5528,6 +5542,7 @@ Proud
 Provede audit přípravy projektu maturit, včetně kontroly vynaložených prostředků.
 Provedení změny se má za schválení.
 Provést se prostě nesmí.
+Proč krásná?
 Proč Austrálie nepřistoupila ke Kjótskému protokolu?
 Proč by mezi tím měly být rozdíly?
 Proč bych si ho brala?
@@ -5551,6 +5566,7 @@ Proč mne neslyšíš?
 Proč mně nečetla víc?
 Proč mně neřekla víc?
 Proč mrháš tak?
+Proč musím za tebou běhat celý den?
 Proč myslíte?
 Proč myslíš, že ti připadá astronomie důležitá?
 Proč má ten pes tak velké uši?
@@ -5908,6 +5924,7 @@ Robin souhlasí a je naskenována.
 Robot se někdy poškodí sám, protože ho to nebolí.
 Roboti nemilují nic, ani sebe.
 Roboti si všechno pamatuji, ale nic víc.
+Roboti si všechno pamatují, ale nic víc.
 Roboti skoro necítí tělesné bolesti.
 Rodina požívá právní, hospodářské a sociální ochrany.
 Rodinný život Abrahámův nemohl být patriarchálnější než anglický weekend.
@@ -6812,6 +6829,7 @@ Tma je jen nepřítomnost světla.
 Tma padla na krajinu.
 Tma, ticho.
 Tmy se nebojím.
+To jsou Roboti.
 To abys věděl, že o nic nepřicházíš.
 To ale asi víš?
 To ale pravděpodobně většinu diváků vůbec nezajímá.
@@ -7078,9 +7096,9 @@ Tolik co u lidí škola.
 Tolik k příběhové stránce.
 Tolik tedy k politice.
 Tolik to bude stát, když nebudeme iniciovat stažení.
+Tomu se nedá prostě zabránit.
 Tomu bude v takovém případě samozřejmě konec.
 Tomu popisu se říká třída.
-Tomu se nedá prostě zabránit.
 Tomu se obecně říká architektura.
 Tomu se tedy říká láska k šachům.
 Tomu všemu se musí Dášeňka učit.
@@ -7161,6 +7179,7 @@ Tvarohovou bábovku já můžu.
 Tvoří jednu z hlavních konstrukcí budovy.
 Tvrdíš, že sis přiskřípl prsty mezi dvířka skříně.
 Tvář měla hrubých tahů, ale příjemnou.
+Ty že jsi krásná?
 Ty blázne.
 Ty budeš orat a já sít, budeme se spolu dobře mít.
 Ty byly ponejvíce jehličiny.
@@ -7975,6 +7994,7 @@ Víte, že tohle se průvodcům nikdy nestává.
 Vítej v programátorské encyklopedii Korespondenčního semináře z programování.
 Vítejte do rodiny!
 Vítězem v drzosti je u mě ale úplně jiný pavouk.
+Víš, tam v zahradě si vždycky dám do vlasů květiny.
 Víš, co je to drak?
 Víš, jak vypadal?
 Víš, že se momentálně bavím líp, než ty?
@@ -8100,6 +8120,7 @@ Všem chodidla dvě divým žárem plají.
 Všem lpěly na mysli hrozné noviny.
 Všem potom velí upír.
 Všem studentům byly smazány přístupové účty.
+Všichni naši dělníci jsou Roboti.
 Všichni byli pochopitelně zvědaví.
 Všichni drží noviny a čtou titulky.
 Všichni ho komentujeme rádoby vtipnými poznámkami.

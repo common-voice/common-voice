@@ -192,6 +192,7 @@ Aber eigentlich könnte sie auch hinüber in ihr eigenes Haus gehen.
 Aber ein Bruch ist aus mehreren Gründen gefährlicher.
 Aber eine Frage beschäftigt alle.
 Aber eine Seele habe auch ich.
+Aber einen alkoholfreien.
 Aber eines darfst du dabei nie vergessen.
 Aber einige Schneidereien halten sich weiterhin.
 Aber entspricht das der Realität?
@@ -571,6 +572,7 @@ Ali macht nur eine gute Miene zum bösen Spiel.
 Alice legt ihren Fuß auf seiner Schulter ab.
 Aliens greifen die Erde an, weil sie sich von unseren Antennen abgehört fühlen.
 Aliens leben längst mitten unter uns.
+Alkholfreies Bier wird immer belieber.
 Alkopops sind Zuckergetränke mit Umdrehung.
 All das ist heute schon technisch möglich.
 All das muss in der logistischen Planung berücksichtigt werden.
@@ -2353,6 +2355,7 @@ Bei der nächsten Möglichkeit bitte wenden.
 Bei der nächsten bemannten Mondlandung will ich einen Astronauten jonglieren sehen.
 Bei der wundere ich mich über gar nichts mehr.
 Bei der Öffentlichkeitsarbeit sollte sie sich besser heraushalten.
+Bei diesem Angriffszenario hätten ganze Gesundheitsämter lahm gelegt werden können.
 Bei diesem Drucker ist das nicht so.
 Bei diesem Regenwetter nahm Ludwig einen Regenschirm mit.
 Bei diesem Spiel sind Ältere eindeutig im Vorteil.
@@ -3109,6 +3112,7 @@ Claudia mochte gar keine Zucchini essen.
 Claudia wollte mal wieder eine richtig gute Torte essen.
 Clemens Lindner zeigte sich erbost.
 Code Switching ist genauso alltäglich wie faszinierend.
+Cola oder Fanta?
 Columbus hat gar nicht als erster Amerika entdeckt.
 Computer muss man lieben, haben sie uns doch elektronische Musik ermöglicht.
 Computer müssen nicht zwangsweise digital arbeiten.
@@ -3308,6 +3312,7 @@ Da muß er sich etwas einfallen lassen.
 Da möchte ich kurz einhaken.
 Da möchte man wirklich nicht schlafen.
 Da müssen wir noch Inventur machen.
+Da müssen wir noch ein bisschen nachhelfen.
 Da müssen wir sprengen, meinte der Zahnarzt.
 Da müssen wir wohl in den sauren Apfel beißen.
 Da nützt auch all dein Winseln nichts.
@@ -4755,6 +4760,7 @@ Das ist doch alles Schmarrn.
 Das ist doch alles sinnlos!
 Das ist doch alter Kaffee.
 Das ist doch der Typ, der bei der Gema die Lieder eintippt.
+Das ist doch die reinste Shitshow!
 Das ist doch egal, wenn der Joghurt schon abgelaufen ist.
 Das ist doch ein alter Hut.
 Das ist doch eine Kupferleitung.
@@ -5065,6 +5071,7 @@ Das muss ich kurz nachgucken.
 Das muss ich mir jetzt nicht bis zum Ende ansehen.
 Das muss ich mir nicht auch noch ans Bein binden.
 Das muss ich mir sowieso noch ansehen.
+Das muss im Jahre neunzehnhundertacht gewesen sein.
 Das muss man ausnutzen.
 Das muss man dann halt nachschlagen.
 Das muss man erst mal hinbekommen!
@@ -5147,6 +5154,7 @@ Das sind die tragenden Themen der diesjährigen Veranstaltung.
 Das sind doch immer nur alles Einzelfälle!
 Das sind einfach pure Kalorienbomben.
 Das sind einmal die Christlich Demokratische Union zusammen mit der Christlich sozialen Union.
+Das sind ja nur Gürkchen.
 Das sind jetzt weniger als fünf Millimeter.
 Das sind nur Plastikblumen.
 Das sind nämlich die Augen.
@@ -5232,6 +5240,7 @@ Das war tatsächlich nur nett gemeint.
 Das war vielleicht ein großes Fest.
 Das war vorbildlich.
 Das war vorher auch schon so.
+Das war wirklich lecker.
 Das war während einem meiner Einsätze in der Zone.
 Das war überhaupt nicht vorgetäuscht!
 Das waren die Nachrichten.
@@ -6028,6 +6037,7 @@ Der Glaube kann Berge versetzen.
 Der Gleichgewichtssinn sitzt im Innenohr.
 Der Gockel muss notgeschlachtet werden, denn ich habe Hunger.
 Der Grabstein war ziemlich verwittert.
+Der Grillkäse ist schon wieder kalt geworden.
 Der Grund für die Verspätung sind Verzögerungen im Betriebsablauf.
 Der Grundschulunterricht ist obligatorisch.
 Der Gründer des Startups kann den Hals nicht voll kriegen.
@@ -6253,6 +6263,7 @@ Der Patient wehrt sich gegen den Schlaf aus Angst vor den Träumen.
 Der Pein, die man ihr zugefügt, der werde nur durch Geld genügt.
 Der Personenkraftwagen ist eine etwas größere Einkaufstasche.
 Der Pfand ist schon im Preis inbegriffen.
+Der Pfeffer ist schon wieder leer.
 Der Pflasterstein soll verhindern, dass hier gerast wird.
 Der Pförtner war leicht aufs Kreuz zu legen.
 Der Phönix ersteht aus seiner eigenen Asche wieder auf.
@@ -6982,6 +6993,7 @@ Die Bahn steht wegen eines Verkehrsunfalls und einer macht Musik.
 Die Bahn stellt uns freundlicherweise einen Sonderzug zur Verfügung.
 Die Bahn war nicht leer.
 Die Bahnstrecke war vor euch da.
+Die Bananen müssten langsam mal gegessen werden.
 Die Bananen sind überreif.
 Die Band darf sich geehrt fühlen, dass sie überhaupt spielen darf.
 Die Band hat fünf Mitglieder.
@@ -7203,6 +7215,7 @@ Die Freiheitskämpfer im Internet haben leider nicht die Mittel wie die kommerzi
 Die Freude ist auf meiner Seite!
 Die Frisur hält.
 Die FritzBox ist gleichzeitig Modem und Router.
+Die Frucht oder der Vogel?
 Die Frühschicht erledigt Herr Wittgenstein.
 Die Funktion des Beines ist permanent wiederhergestellt.
 Die Funktion ist wahrscheinlich ein Einzeiler, maximal aber ein Dreizeiler.
@@ -8664,6 +8677,7 @@ Disziplin ist die Fähigkeit zu leiden.
 Diverse Liebeslieder bestärken mich in meinen Gefühlen.
 Diverse physikalische Größen treten in der Natur gequantelt auf.
 Doch Ariane stellt sich stur.
+Doch Christian Drosten hatte wirklich besseres zu tun.
 Doch Hilfe naht bereits.
 Doch Hochschulen können Opfer von Cyberattacken werden.
 Doch Schludrigkeit und Korruption verhinderten dies.
@@ -8697,6 +8711,7 @@ Doch kurze Zeit später fuhr sie die Straße auf und ab.
 Doch natürlich gibt es auch eine andere Seite der Medaille.
 Doch nicht alle Buhnen werden aus Gründen des Küstenschutzes installiert.
 Doch nicht diese!
+Doch niemand nahm diese Gefahr ernst.
 Doch ohne zweites Fahrrad werden sie keine Fahrradtour machen können.
 Doch so sehr Charlotte sich auch dagegen stemmte, der Schrank bewegte sich kein Stück.
 Doch tat ihm dieses gar nichts nützen, er bleibt jetzt auf dem Schaden sitzen.
@@ -8941,6 +8956,7 @@ Du hast immer irgendwas dagegen.
 Du hast immer kalte Hände.
 Du hast immer nur die eine im Kopf!
 Du hast ja Recht, mein Liebling.
+Du hast ja auch so eine dicke Gurke.
 Du hast ja recht, mein Liebling.
 Du hast kein Interesse an Mode, möchtest jedoch bei einem Mode-Magazin arbeiten?
 Du hast keine Beweise dafür!
@@ -9191,6 +9207,8 @@ Durch vorschriftsmäßige Müllsortierung vermeidet die Hausgemeinschaft Zusatzk
 Durch zu lange Nichtbenutzung sind die Düsen des Druckers vertrocknet.
 Durchs Fenster sieht man, wie sich die Tragflächen verbiegen.
 Durchs Küchenfenster beobachtete sie den Streit zwischen dem Gärtner und dem Postboten.
+Durian ist aber ewas anderes als Jackfruit.
+Durian ist auch als Stinkfrucht bekannt.
 Duschlampe?
 Dustin tut, was er kann.
 Dutzende Angestellte hat die junge Firma aus dem Urlaub zurückgerufen.
@@ -10025,6 +10043,7 @@ Einen schönen Tag wünsche ich Ihnen!
 Einen schönen Tag wünsche ich ihnen.
 Einen seiner Kollegen haben sie eingebuchtet.
 Einen tollen Blazer hast du da!
+Einen vergetarischen Döner mit Halumi bitte.
 Einen wunderschönen guten Abend, meine Damen!
 Einen wunderschönen guten Tag!
 Einer Bekannten ist einer davon schon vors Auto gerannt.
@@ -10149,6 +10168,7 @@ Einmal ist immer das erste Mal.
 Einmal ist keinmal, sagt meine Mutter.
 Einmal kräftig draufhauen, dann geht es wieder.
 Einmal kräftig pusten, bitte!
+Einmal mit Profis arbeiten – nicht immer nur mit Experten.
 Einmal sagt sie etwas ganz schlimmes, und kapiert das erst vier Monate später.
 Einmal täglich muss die Salbe aufgetragen werden.
 Einmal und nie wieder.
@@ -10835,6 +10855,7 @@ Es geschah tief im Wald an einem nebeligen Tag.
 Es gibt Berufe, da schlackerst du mit den Ohren!
 Es gibt Berufe, da schlackerste mit den Ohren!
 Es gibt Fälle, in denen vernünftig sein, feig sein heißt.
+Es gibt Kalbfleisch oder Hühnerfleisch zur Auswahl.
 Es gibt Menschen, die das erotisch finden.
 Es gibt Millionen Facebook-, Twitter- und Instagram-Nutzer.
 Es gibt Schweinshaxe und selbstgebrannten Schnaps.
@@ -11154,6 +11175,7 @@ Es könnte sogar kontraproduktiv sein.
 Es könnten ja zum Beispiel die Bremsen nicht funktionieren.
 Es kübelt schon den ganzen Tag.
 Es lebe der Wurm auf dem Kompost!
+Es liegen auch noch Kiwis im Kühlschrank.
 Es liegen nicht mehr viele Schritte vor uns.
 Es liegt an den Herstellern, das Henne-Ei-Problem zu lösen.
 Es liegt ihnen daran, die erwähnten Vorfälle möglichst rasch zu untersuchen.
@@ -12459,6 +12481,7 @@ Gewusst wie: So werden Sie vom Bürohengst zum gefeierten Star!
 Geöffnete Litschis sehen aus wie Augen, schmecken aber lecker.
 Geübte Nutzer verwenden die Tastaturkürzel.
 Geübte Unternehmer verbrennen nicht ihr eigenes Geld, sondern das der Aktionäre.
+Gib "Windows" keine Chance.
 Gib Acht darauf, ihn nicht zu triggern.
 Gib Bescheid, wenn du soweit bist.
 Gib Gas!
@@ -12496,6 +12519,7 @@ Gib zuerst den Kindern!
 Gibst du mir bitte mal die Schablone?
 Gibst du mir das Zugangspasswort?
 Gibst du mir deine Nummer?
+Gibst du mir mal bitte das Salz?
 Gibt dir das Leben Zitronen, nimm zwei Elektroden und bau dir eine Batterie.
 Gibt es Freiwillige, die die Tafel wischen wollen?
 Gibt es Lebewesen mit einer längeren Kindheit als beim Menschen?
@@ -13925,6 +13949,7 @@ Hör auf, alles zu verzögern, und komm endlich mit!
 Hör auf, mit der Schere zu spielen!
 Hör bitte auf sehr leise vorzulesen. Man kann dich kaum verstehen!
 Hör dir bitte deine eigenen Aufnahmen an.
+Hör doch mal auf!
 Hör einmal, so sind wir aber nicht.
 Hör gefälligst auf, Steine an mein Fenster zu werfen!
 Hör mir doch mal zu.
@@ -14130,6 +14155,7 @@ Ich brauche ein Taschentuch! Hat jemand ein Taschentuch für mich?
 Ich brauche ein neues Headset.
 Ich brauche eine größere Gefriertruhe.
 Ich brauche einen anderen Sattel.
+Ich brauche erst mal einen Schnaps.
 Ich brauche größere Lautsprecherboxen, um noch rücksichtsloser Musik hören zu können.
 Ich brauche jetzt etwas Härteres als Bier.
 Ich brauche kein Maßband, um zu sehen, dass das mehr als hundertzehn Zentimeter sind.
@@ -14418,6 +14444,7 @@ Ich habe der Wespe mehrere Chancen gegeben, abzuhauen.
 Ich habe dich gewarnt.
 Ich habe dich heimlich tanzen sehen.
 Ich habe dich noch nie gesehen.
+Ich habe die Cold Mirror Referenz wahrgenommen.
 Ich habe die Mitarbeiterin darauf angesprochen, sie bejahte es.
 Ich habe die Mondfinsternis verschlafen.
 Ich habe die Schnauze voll.
@@ -14622,7 +14649,9 @@ Ich hätte geantwortet, dass ich sogar stereoskopisch träume.
 Ich hätte gern die Kontrolle über alle Messdaten.
 Ich hätte gern ein Wasser und einmal die zweiundzwanzig ohne Zwiebeln.
 Ich hätte gern eine Briefmarke mit Himbeergeschmack.
+Ich hätte gern eine Pide mit Spinat.
 Ich hätte gern eine Sitzgelegenheit direkt in der Küche, so wie bei Martha.
+Ich hätte gern einen Chickenburger.
 Ich hätte gern einen großen Teller Nudeln mit Tomatensoße.
 Ich hätte gern noch ein Glas von dem wunderbaren Leitungswasser.
 Ich hätte gern reichlich Kaffee und Rührei mit Schinken.
@@ -14816,6 +14845,7 @@ Ich mag es lieber blutig und roh.
 Ich mag es nicht fotografiert zu werden.
 Ich mag es nicht, fotografiert zu werden.
 Ich mag es nicht, wenn im Fernsehen Falschwissen verbreitet wird.
+Ich mag es wenn du mich umarmst.
 Ich mag es, wenn Menschen sich selbstständig informieren und weiterbilden.
 Ich mag es, wenn Männer Hüte tragen.
 Ich mag keine Filme mit traurigem Ende.
@@ -14929,6 +14959,7 @@ Ich nehme diese Kritik gerne an.
 Ich nehme ein Bier und das Tagesgericht.
 Ich nehme ein leichteres Gewehr mit und ihr tragt den Bärentöter!
 Ich nehme ein leichteres Gewehr mit, und Ihr tragt den Bärentöter!
+Ich nehme einen Döner und sie einen Dürüm.
 Ich nehme einen O-Saft und dazu hätte ich gerne die Pizza Margherita.
 Ich nehme euch alle.
 Ich nehme ich mir vor, dieses Nicht-Verstehen ein paar Tage ruhen zu lassen.
@@ -15082,6 +15113,7 @@ Ich versuche, jedes Wochenende Beiträge zu leisten.
 Ich versuche, lexikalische Wiederholungen zu vermeiden.
 Ich vertrag Paprika schon, aber ich krieg sie einfach nicht runter.
 Ich vertrage keine Milchprodukte.
+Ich vertrage keine Sojamilch aber Hafermilch.
 Ich vertrete hier meine Meinung. Deine musst du dir selbst bilden.
 Ich verurteile niemanden dafür, dass er meine Meinung nicht teilt.
 Ich verwechsle immer Blumenkohl mit Brokkoli.
@@ -15115,6 +15147,7 @@ Ich weiß ja nicht.
 Ich weiß ja noch gar nicht, ob das überhaupt etwas für mich ist.
 Ich weiß ja, dass du es zeitnah erledigst.
 Ich weiß nicht ob Erwin genug Erfahrung hat.
+Ich weiß nicht ob ich so schnell wieder für ein Startup arbeiten will.
 Ich weiß nicht warum, ist mir aber auch egal.
 Ich weiß nicht wieso, aber ich finde Gänseblümchen doof.
 Ich weiß nicht woher, aber irgendwie habe ich einen steifen Nacken.
@@ -15266,10 +15299,12 @@ Ich würde auch lieber mit Freunden Essen gehen, statt hier im Büro herumzuhock
 Ich würde dich gerne in den Arm nehmen.
 Ich würde die Hähnchenschenkel gerne platzsparend verpacken.
 Ich würde ein Brett unterlegen.
+Ich würde eine Pommes mit Majo und Ketschup nehmen.
 Ich würde es mit Einwachsen probieren.
 Ich würde euch dann auf der Gitarre begleiten.
 Ich würde euch so gerne schreiben, weshalb ich euren Beiträgen einen Daumen runter gebe!
 Ich würde gern einen Tisch in Ihrem Restaurant reservieren.
+Ich würde gern einfach nur eine Pizza essen.
 Ich würde gerne Ihr Anliegen lösen, wenn ich darf.
 Ich würde gerne alles einfach per Sprachkommando an- und ausschalten können.
 Ich würde gerne den alten Trampelpfad kaufen.
@@ -16481,6 +16516,7 @@ Ist darin das Zeug, was er und sie vorhin geraucht hatten?
 Ist das Besteck in der oberen Schublade oder in der unteren?
 Ist das Biomilch?
 Ist das Buntwäsche?
+Ist das Butterchicken laktosefrei?
 Ist das Einatmen des Staubes eigentlich gesundheitsgefährdend?
 Ist das Kaffee von Tschibo?
 Ist das Kakao?
@@ -16558,6 +16594,7 @@ Ist die Gitarre ordentlich gestimmt?
 Ist die Hintertür zu?
 Ist die Hündin wieder läufig?
 Ist die Lieferung schon eingetroffen?
+Ist die Meinung der Experten überhaupt erwünscht?
 Ist die Musik zu laut, sind Sie zu alt.
 Ist die Quantelung ein Hinweis darauf, dass wir in einer Simulation leben?
 Ist die Salami mit Pferdefleisch?
@@ -17419,6 +17456,7 @@ Kann ich mir nicht vorstellen.
 Kann ich mit Rena sprechen?
 Kann ich nicht auch mal das Opfer spielen?
 Kann ich nicht irgendeiner sinnvollen Beschäftigung nachgehen?
+Kann ich noch eine Limo haben?
 Kann ich seine Nummer sperren lassen?
 Kann ich so gehen?
 Kann ich stattdessen auch Sojamilch verwenden?
@@ -17616,6 +17654,7 @@ Kannst du nicht auch mal den Müll rausbringen?
 Kannst du nicht aufpassen?
 Kannst du nicht wieder auf den Actionfilm zurückschalten?
 Kannst du noch Badesachen online bestellen?
+Kannst du noch ein paar von den kleinen Würstchen auf den Grill legen?
 Kannst du pritschen und baggern?
 Kannst du programmieren?
 Kannst du seinen Gedankengang nachvollziehen?
@@ -18190,6 +18229,7 @@ Können wir das nicht einfach wieder vergessen?
 Können wir das nicht in einem richtigen Lexikon nachschlagen?
 Können wir das zusammen machen?
 Können wir dazu Krokant oder Nougat nehmen?
+Können wir diese Aktie shorten?
 Können wir etwas Süße rausnehmen?
 Können wir gemeinsam zum Arbeitsamt gehen?
 Können wir im Keller die Eisenbahn aufbauen?
@@ -18197,6 +18237,7 @@ Können wir in der Zeit nicht irgendetwas Sinnvolles tun?
 Können wir mal wieder bei Italiener Lasagne oder Spagetti essen gehen?
 Können wir nicht lieber eine andere Route klettern?
 Können wir nicht trotzdem in Kontakt bleiben?
+Können wir noch eine Yufka und eine Pommes bestellen?
 Können wir noch schnell an der Tankstelle anhalten?
 Können wir nun endlich in den Weinkeller?
 Können wir sie nicht auf ein Bier einladen heute?
@@ -18822,6 +18863,7 @@ Magst du den Geruch an der Tankstelle?
 Magst du ein Getränk zum Menü dazu?
 Magst du ein Schlückchen Wein dazu?
 Magst du etwas mehr oder weniger Suppe?
+Magst du noch ein Radler trinken?
 Magst du sie oder liebst du sie?
 Mahlzeit
 Mahlzeit!
@@ -20418,6 +20460,7 @@ Möchten Sie noch etwas Kaffee?
 Möchten Sie sich nicht setzen?
 Möchten Sie sonst noch Ansprüche geltend machen?
 Möchten sie noch Milch zu ihrem Kaffee?
+Möchtest du Falaffel oder Köfte dazu?
 Möchtest du Taufpate unseres Sohnes werden?
 Möchtest du Toast oder Brötchen zum Frühstück?
 Möchtest du an diesem Wettbewerb teilnehmen und dein Projekt vorstellen?
@@ -20546,6 +20589,7 @@ Na, du weißt schon!
 Na, geht es gut?
 Na, genauso wie jeden anderen Stoff auch.
 Na, hast du einen Korb dabei?
+Na, hast du jetzt Hunger bekommen?
 Na, hat es Klick gemacht?
 Na, ihr zwei Turteltäubchen.
 Na, klingelt's langsam?
@@ -21020,6 +21064,7 @@ Neunundneunzig Grundschulkinder lassen rote und grüne Luftballons steigen.
 Neunzehnhundertachtzehn war die Kriegsbegeisterung längst verflogen.
 Neunzehnhundertfünf ist er dann verstorben.
 Neunzehnhundertvierundachtzig war nicht als Anleitung gedacht.
+Neunzehnhundertzehn war das entscheidende Jahr.
 Neutronen halten den Atomkern zusammen.
 Neymar schummelt immer.
 Nicht Ost-West, sondern Nord-Süd.
@@ -21246,6 +21291,7 @@ Niemand tut es ihr gleich.
 Niemand vermag es, ein handgeschriebenes Rezept vom Arzt zu entziffern.
 Niemand versteht dies so gut wie ich.
 Niemand wagt es, aufzubegehren.
+Niemand weiß was neunzehnhundertneun mit ihr passierte.
 Niemand weiß, was die Frau im Verborgenen für Strippen zieht.
 Niemand weiß, wie viel Lebenszeit ihm noch bleibt.
 Niemand weiß, wie viele Fußverletzungen auf dem Boden liegende Legosteine bereits verursacht haben.
@@ -23972,9 +24018,11 @@ Sind alle Türen breit genug, dass die Möbel hindurch passen?
 Sind alle elektrischen Geräte ausgeschaltet?
 Sind das Kaustiken von der Wasseroberfläche oder sehen wir hier einen Grafikfehler?
 Sind das Lampen speziell für diese Fassung?
+Sind das Wassermelonen oder Honigmelonen?
 Sind das alles deine Schnapsgläser?
 Sind das alles freiwillige Helfer an ihrer Seite?
 Sind das alles verkappte Kommunisten?
+Sind das vegetarische Würste?
 Sind die Blumen echt oder aus Plastik?
 Sind die Früchte schon reif?
 Sind die Herztöne noch da?
@@ -24511,6 +24559,7 @@ Soll ich mal einen Blick drauf werfen?
 Soll ich mir Zeit nehmen und den Orgasmus hinauszögern?
 Soll ich mir jetzt fünfzehn Euro Guthaben für eine drei Euro teure App kaufen?
 Soll ich mit dir das Zimmer teilen?
+Soll ich noch etwas Gemüse auf den Grill legen?
 Soll ich noch frisches Brot einkaufen?
 Soll ich pusten?
 Soll ich so tun?
@@ -27810,6 +27859,7 @@ Welche Schriftart benutzt du immer für deine Plakate?
 Welche Schuhgröße?
 Welche Seite nach innen und welche nach außen kommt, ist schnurzpiepegal.
 Welche Sorte soll es sein?
+Welche Soße willst du auf deinen Burger?
 Welche Speditionen wären davon betroffen?
 Welche Sprache spreche ich eigentlich mit dir?
 Welche Sprachen verstehst du?
@@ -28076,6 +28126,7 @@ Wenn du die Datei mit dem Texteditor öffnest, siehst du nur Buchstabensalat.
 Wenn du die Kohlensäure rausschüttelst, hast du stilles Wasser.
 Wenn du die Pfanne und die Töpfe noch mit abwaschen könntest?
 Wenn du die Wahl zwischen Heuschnupfen und Migräne hättest, wofür würdest du dich entscheiden?
+Wenn du dir ein kompetentes Team zusammen rekrutierst und dann deren Vorschläge ignorierst.
 Wenn du eine unverschlüsselte E-Mail falsch zustellst, hast du ein Problem.
 Wenn du es nicht erklären kannst, hast du es auch nicht richtig verstanden.
 Wenn du es nicht zu Ende hörst, verpasst du die Pointe.
@@ -28472,6 +28523,7 @@ Wer in die Öffentlichkeit tritt, hat keine Nachsicht zu erwarten und keine zu f
 Wer in dieser Gegend wohnt, muss richtig Schotter haben.
 Wer in seinem Leben nichts unternimmt, wird alt, ohne Lebenserfahrung zu sammeln.
 Wer ist "jeder"?
+Wer ist Armin Laschet?
 Wer ist Richard Stallman?
 Wer ist Sigmund Jähn?
 Wer ist aktuell Präsident von Kirgisistan?
@@ -29526,6 +29578,7 @@ Willkommen im Neuland!
 Willkommen im schönsten Bundesland der Welt!
 Willkommen in der Europäischen Union!
 Willkommen zur zweiten Aluhütchen-Bastelstunde!
+Willst du Gurken auf deinen Hotdog?
 Willst du Jule nicht mit nach Madrid nehmen?
 Willst du auch ein Spiegelei haben?
 Willst du auch mal lauschen?
@@ -30069,6 +30122,7 @@ Wo habe ich schon wieder meinen Schlüssel gelassen?
 Wo haben wir angelegt?
 Wo habt ihr Balthasar denn schon wieder gelassen?
 Wo habt ihr meine Pillen versteckt?
+Wo hasst du die Melonen hingelegt?
 Wo hast Du den Ludenmantel her?
 Wo hast du den kleinen Hammer hingelegt?
 Wo hast du die Kartusche gefunden?

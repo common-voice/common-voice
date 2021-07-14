@@ -108,6 +108,7 @@ my = Burmese
 myv = Erzya
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
+nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
 oc = Occitan
