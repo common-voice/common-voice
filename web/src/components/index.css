@@ -217,6 +217,7 @@ button {
 #content {
     position: relative;
     min-height: 80vh;
+    border-top: 1px solid var(--light-grey);
 
     @media (--md-up) {
         position: unset;

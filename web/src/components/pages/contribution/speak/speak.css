@@ -15,6 +15,11 @@
         }
     }
 
+    .instrunction {
+        svg {
+            margin:  0 2px 0 7px;
+        }
+    }
     .unsupported {
         min-height: 272px;
 
