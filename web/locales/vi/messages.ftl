@@ -112,6 +112,7 @@ my = Miến Điện
 myv = Erzya
 nb-NO = Na Uy Bokmål
 ne-NP = Nepal
+nia = Nias
 nl = Hà Lan
 nn-NO = Na Uy Nynorsk
 oc = Occitan
