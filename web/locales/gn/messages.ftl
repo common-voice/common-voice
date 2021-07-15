@@ -112,6 +112,7 @@ my = Burma ñe’ẽ
 myv = Erzya ñe’ẽ
 nb-NO = Noruega ñe’ẽ
 ne-NP = Nepali ñe’ẽ
+nia = Nias
 nl = Paises Bajos ñe’ẽ
 nn-NO = Noruega ñe’ẽ Nynorsk
 oc = Occitano ñe’ẽ
