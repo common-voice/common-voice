@@ -1765,6 +1765,7 @@ A Gypsy tart is a traditional Kentish dessert.
 A Man o’ War is an archaic ship of war.
 A Merry Christmas to all!
 A Neonatal Intensive Care Unit Incubator helps weak babies grow.
+A New York concern had a scheme for selling fountain pens.
 A New York merchant recently sent for a cargo of Maltese cats.
 A Pulmonary Embolism is dangerous.
 A Reign of Terror.
@@ -1787,6 +1788,7 @@ A before e must be accentuated with the acute accent, and pronounced accordingly
 A being must be intelligent, to replicate human intelligence.
 A bell rang fitfully, and then everything was still again.
 A bell rang in the distance.
+A bell struck in a vacuum emits no sound.
 A big Maltese cat came up and rubbed himself against the tub.
 A big boy, you say?
 A big canvas tent was the first thing to come within his vision.
@@ -1861,6 +1863,7 @@ A combine harvester is a dream come true for farmers.
 A commode is a movable toilet that is useful for the elderly.
 A company that spends more than it potentially earns faces diminishing returns.
 A compass or a pair of scissors is the simplest form of linkage.
+A competent business-man would perhaps have benefited himself.
 A complete change of life became desirable.
 A complicated struggle went on incessantly between them.
 A confidence and supply arrangement.
@@ -2110,6 +2113,7 @@ A man came running towards him.
 A man came up, took off his hat, and bowed to her.
 A man can't be in himself impresario, singer, and business agent.
 A man in black stepped forward, took his disengaged arm.
+A man might sink to sleep as he lay at work.
 A man must keep his head.
 A man of a very low character of mind.
 A marked coldness of the feet, was there not?
@@ -2224,6 +2228,7 @@ A rather unlucky circumstance occurred.
 A rattling noise at a little distance attracted their attention.
 A re-tweet does not equals endorsement.
 A real counterrevolution may have effected itself in their opinions.
+A recovery has taken place in wool.
 A red-faced, white-whiskered old man looked up.
 A reed does not need to be associated with a resonating column.
 A regular fence of them, with metal gate-posts in front.
@@ -2241,6 +2246,7 @@ A roar of applause that rent the air.
 A romantic girl is not to be won by such tactics.
 A room and a fire!
 A root has all its longitudinal Increase at the very end.
+A roundabout fireplace occupied one end of the chamber.
 A sailing boat is much more challenging than a rowing boat
 A scarlet loincloth completed his costume.
 A scene may be for one or more voices.
@@ -2363,6 +2369,7 @@ A traditional ‘Rose of Sharon’ survives from our great-grandmother's days.
 A train came — he was not there.
 A train, three miles away, roared across the valley.
 A tram was just arriving at the hill foot.
+A traveller is nowadays called a tourist.
 A tribe of animists maintained that the soul is the only cause of life.
 A trickle of fresh blood ran over his face.
 A trip down memory lane.
@@ -2886,7 +2893,9 @@ All art is at once surface and symbol.
 All art is quite useless.
 All bets are off folks.
 All bright with love of you, my boy.
+All cheap and especially all students' restaurants are most democratic places.
 All connection between us seemed now dissolved.
+All day long the black flies made our lives miserable.
 All day long, as she cleaned the house, she thought of him.
 All discharges in rarefied air are equally disruptive and discontinuous.
 All done in a couple of minutes.
@@ -2982,6 +2991,7 @@ All the chords of the great harp hummed, whistled, and shrieked.
 All the city was screaming about it.
 All the distinctions of this little life are quite cutaneous, foreign to the man.
 All the downstairs rooms — Hullo!
+All the emissions of their paper-currency are forged.
 All the enthusiasm of old surged up to answer this appeal.
 All the folks, young and old, knew him well by sight.
 All the girls do pretty well.
@@ -3178,6 +3188,7 @@ An aerofoil provides lift
 An aeroplane flew overhead whilst Lizzie sat in the garden.
 An aeroplane is a clumsy thing.
 An afterthought brought me back, when I had quitted the court.
+An agricultural tourist will faithfully detail the average crop per acre.
 An airy room, constructed on the soundest hygienic principles.
 An album cover.
 An alias is useful for maintaining privacy online.
@@ -4809,6 +4820,7 @@ As it was, she was hurt.
 As it was, they looked incuriously on.
 As long as she stays there, it is all very well.
 As many as twelve.
+As night approached the nippers took their place.
 As regards these two, everything was beyond a question absolutely in order.
 As she did so, I saw what happened and drew her back.
 As she did so, a most extraordinary thing happened.
@@ -5124,6 +5136,7 @@ Aurora or morning red is carmine red mixed with much lemon yellow.
 Australia has a diverse range of animals.
 Author of the danger trail, Philip Steels, etc.
 Authority was hateful to him, therefore he could only abuse the pit-managers.
+Authors and critics cannot help nagging at one another.
 Automation will disrupt the way we work as we know it today.
 Automation will disrupt the work as we know it.
 Autonomous brass coins of this island have been found.
@@ -5204,6 +5217,7 @@ Bayesian statistics will help you if you do any kind of data analytics.
 Bayesian theorem is worth learning if you're studying algorithms.
 Be a good lad; and I’ll do for you.
 Be a man, and reach up the chimney.
+Be a real sport for once and give me fair play.
 Be all right in a week.
 Be an animal-doctor.
 Be assured that he does not!
@@ -5611,6 +5625,7 @@ Brown, crisp loaves stood on the hearth.
 Brownies are quick and easy to make.
 Bugger that and bugger you.
 Building your house on sand is not recommended.
+Bunt-larks is rare, but mud-larks is vary common hereabouts.
 Bunting began to laugh.
 Burke himself had criticized it because of the smile.
 Burnish the brain a bit and endeavour to find the way out.
@@ -6840,6 +6855,7 @@ By Jove, Bertie, I don't know how to thank you.
 By Jove, yes.
 By a hundred instances she proclaimed herself a dupe.
 By all means, Ford.
+By analogy, the word nomadic has been applied to spreading ulcer.
 By and by I went to my old glass.
 By and by my strength began to be restored.
 By and by she tries again.
@@ -7511,6 +7527,7 @@ Compare him with either of them.
 Competent Officials
 Competent judges at Eton gave me to understand so.
 Competitiveness in the industry drives innovation and growth. The consumer wins.
+Complaints were emitted of the scarcity of money.
 Complete silence followed upon his words.
 Complexity in code should be avoided to enhance maintainability.
 Compliance of Ethics by the industry will build trust.
@@ -8869,12 +8886,14 @@ Each improvement makes the value of everything else pump up.
 Each insult added to the value of the claim.
 Each is responsible to the Czar, but they have no sort of solidarity.
 Each line must be provided with its own booster battery.
+Each nation is subdivided into a number of tribes or clans called totems.
 Each of its divisions must be let closely into others.
 Each of these departments has a force of copy-readers.
 Each option should be given individual consideration.
 Each pack of wolves has its own territory.
 Each time his mother’s heart was firm with pride and joy.
 Each tree when first planted was placed in a bricked-off partition.
+Each tribe is distinguished by certain animals or things.
 Eagerly I seized on it, for I fancied it would tell me something.
 Earl Stanhope also made important improvements in the process of stereotype printing.
 Early audiences were hungry for escapist entertainment.
@@ -9787,6 +9806,7 @@ Gang violence is on the rise.
 Gary fell ill and is on sick leave.
 Geez, why'd I pull you down so low?
 Gelatin is usually prepared from the skin of animals.
+Gelatinous broths answer the purpose both of food and medicine.
 Gender doesn’t care if you rebel against it.
 Gene analysis can be instrumental in predicting the likelihood of cancer and other diseases.
 Genealogy, otherwise known as family history, is an extremely popular hobby
@@ -9800,6 +9820,7 @@ Generous, good man, I am afraid he has distressed himself.
 Geneva is a good city to hide in.
 Gentle laughter led by Mrs. George.
 Gentle laughter led by Mrs. Gilbert.
+Gentlemen plunderers are far more pernicious than the lumpers or mudlarks.
 Gentlemen, I am a professional man.
 Gentlemen, I beg your pardon; this is my friend Mr. Trundle.
 Gentlemen, your hands and names.
@@ -9878,6 +9899,7 @@ Give him that card if you please.
 Give it a name.
 Give me a drink, Bertie.
 Give me a native born at least.
+Give me a run for my money.
 Give me a second to explain, can't you?
 Give me an example
 Give me five dollars.
@@ -10634,6 +10656,7 @@ He became interested, curious.
 He became more and more unsettled.
 He became the god-parent of the child.
 He became very sociable and funny.
+He became what is called a mud-lark
 He began striding rapidly up and down the room.
 He began to be rather late in coming home.
 He began to fall, fell swifter and swifter.
@@ -10921,6 +10944,7 @@ He did not believe in the burning of daylight for such a luxury.
 He did not call Bella again until six.
 He did not care a continental for the whole business.
 He did not care any longer what the family thought or felt.
+He did not consider them of so democratic a nature as is generally imagined.
 He did not contradict me; perhaps he had fallen into a doze.
 He did not drink nor gamble.
 He did not drink.
@@ -11040,6 +11064,7 @@ He embodies the spirit of the organisation.
 He emerged in the alcove again.
 He emptied his glass and picked up his cane.
 He engaged the captain in conversation on many occasions.
+He engulfs a whole shoal of them at once in his capacious jaws.
 He entered the church.
 He entered the house in silence.
 He entered the house silently.
@@ -11247,6 +11272,7 @@ He had a long comic face and blue eyes, very sad.
 He had a lot of odd biases, too.
 He had a moment of hesitation.
 He had a neatly shaped beard.
+He had a pair of bright, twinkling eyes.
 He had a passion for fortune-tellers and rogues of that kind.
 He had a phlegmatic composure.
 He had a pleasant way of whistling, lively and musical.
@@ -11482,6 +11508,7 @@ He has early onset fatigue.
 He has entirely dedicated himself to editorial criticism.
 He has fully appreciated the beneficent effects of this tonic wine.
 He has gone back to New York with a bed bug in his ear.
+He has gone up like a rocket and is coming down like the stick.
 He has got a power over me.
 He has had a long day in court.
 He has held the world's record in the pole vault for distance.
@@ -12272,6 +12299,7 @@ He realised that he was intensely hungry.
 He really belonged to her.
 He really is a bit of an anorak
 He really thought of getting some shooting-place in Scotland.
+He recalled the gardens of water which had flowered in foam for him.
 He received the communication with perfect calmness, and acquiesced in its propriety.
 He received us very affectionately, and we sat down.
 He receives personally his reward, and he delivers personally his intelligence.
@@ -12704,6 +12732,7 @@ He strained his ears in vain.
 He strolled round to the tennis lawn and was welcomed riotously by the players.
 He struck at it.
 He struck upward beneath the nearer wing.
+He strutted off as great as Lord.
 He studies her at his leisure, not speaking for a time.
 He studies too much for words of four syllables.
 He stuffed his sleeping bag into his rucksack, and headed along the canal towpath
@@ -12823,6 +12852,7 @@ He took no notice of the interruption.
 He took offence at the slightest show of initiative.
 He took one for the team.
 He took out his letter-case and found the telegram within it.
+He took out of it a square envelope.
 He took possession forthwith.
 He took quite a grave view of the case.
 He took some pictures of the event, and was paid on commission.
@@ -13015,6 +13045,7 @@ He was a purist in his Anglo-Saxon.
 He was a remarkably handy man — could make or mend anything.
 He was a reserve officer, nervous, energetic, and enthusiastic.
 He was a schoolmaster in his younger days.
+He was a strategist rather than a drill-sergeant in verse.
 He was a sublime emotional Englishman, who lived by atmosphere.
 He was a surly man and prone to violence.
 He was a tall, heavy-looking young man.
@@ -13111,6 +13142,7 @@ He was completely unapologetic.
 He was concentrated on the act.
 He was conscious only when stimulated.
 He was constantly informing her, but she was interested.
+He was constantly nagging at Richard's power and prosperity.
 He was contented, you will say.
 He was convicted of illegal harassment.
 He was convicted of presumption.
@@ -13625,6 +13657,7 @@ He wrote many philosophical treatises which have never been edited.
 He wrung Ricardo's hand.
 He yielded with ill grace.
 He'd find himself growing thin, if he didn't look sharp!
+He'd hold her nozzle against the bank.
 He'd read it.
 He'd say "Can't you try to concentrate?"
 He'll be an adult soon.
@@ -13757,6 +13790,7 @@ Hearing aids have a feature to amplify audio to the listener.
 Hearing footsteps, she rose and went to the door.
 Hearing the clack of the gate she stood in suspense.
 Heart disease can be prevented with a good diet and health guidance.
+Heartfree was too much flustered to examine the woman with sufficient art.
 Hearthrug, near the fender.
 Heathcliff advanced to the hearth.
 Heathcliff approached the fire, where my mistress and I stood silent.
@@ -15738,6 +15772,7 @@ I answered in all earnestness, "Quite."
 I answered, most assuredly he did not.
 I anticipate a great popular success for this jacket.
 I appeal to Mr. Darcy: — but let me not interrupt you, Sir.
+I appeal to those immediately concerned.
 I applied the key on hearing this and opened the door.
 I appreciate the point you raise.
 I appreciate your support.
@@ -16214,6 +16249,7 @@ I couldn't eat anything except porridge this morning.
 I couldn't fall asleep on my own.
 I couldn't find that in the documentation anywhere.
 I couldn't for the life of me!
+I couldn't get it out of my mind.
 I couldn't go back.
 I couldn't have lived.
 I couldn't help loving you if you were seventy!
@@ -17171,6 +17207,7 @@ I have been to Asia.
 I have been trouble enough to my relations in my day.
 I have been washing my hands.
 I have booked three full days of photography.
+I have brought fortune to your old ruinous doghouse.
 I have brought my granddaughter, Judy.
 I have brought one of them with me.
 I have but one; I can have but one.
@@ -17959,6 +17996,7 @@ I must seem a perfect fool to you onlookers sometimes.
 I must settle this before I sleep.
 I must shake hands over again with George's godson.
 I must sleep soon.
+I must tell them, as you do me, not to be bumptious!
 I must tell you.
 I must thank you for your generous donation, Simpson.
 I must thank you for your sympathy with my painting and drawing.
@@ -18242,6 +18280,7 @@ I promised my wife to leave it all to her.
 I promised them so faithfully!
 I promised to wait here till my friend came.
 I propose therefore to term the axis-cylinder or nerve-fibre processes neurons.
+I propose to restrict and redefine it.
 I pulled up a chair and sat down on it.
 I pulled, suddenly, with all my might.
 I pursed the lips.
@@ -18371,6 +18410,7 @@ I respect your bravery.
 I responded in the same affable key.
 I restrained my impatience with an effort.
 I resumed my song; not having forgotten her recent behaviour.
+I returned the translated play, and mine lay dormant several years.
 I returned to my work.
 I robbed the old man — robbed my father.
 I rode into the court.
@@ -19040,6 +19080,7 @@ I thought you'd be pleased.
 I thought you'd never come!
 I thought, boastfully, that they never could break my heart.
 I thought, that's a deformity!
+I threw his doghouse overboard.
 I threw the grapes away.
 I ticked him off properly, the poor fish.
 I told Mrs. Collins so before you came.
@@ -19229,6 +19270,7 @@ I want you to go there.
 I want you to read this description through again.
 I want you to save yourself.
 I want you to wake up and listen to me
+I wanted it all the time.
 I wanted so much to live.
 I wanted some time to myself, so I invented a job for him.
 I wanted something out of the common.
@@ -20900,6 +20942,7 @@ In soft-bodied insects they seem usually more firm and unbending.
 In some cases, the restriction and the integration may be bilateral.
 In some countries it is not legal to drink alcohol until twenty-one
 In some countries, parsnips aren't commonly eaten.
+In some of the backwaters are fine pike.
 In some places, American football is snarkily called hand-egg.
 In some places, the tanning process is slightly modified.
 In some respects, he treads in the footsteps of his sainted mother.
@@ -21013,10 +21056,12 @@ In the slasher the yarn runs through boiling size.
 In the soup, every time.
 In the spring, the former sowed his seeds.
 In the square itself was a crowd of aficionados or amateurs.
+In the summer I was much annoyed by the mosquitos and yellow nippers.
 In the systolic plateau two minor undulations of pressure are seen.
 In the town between the city was Ty
 In the video, a man stops to let a cat cross the street.
 In their common frays they gouge and commit other barbarities.
+In their nomadic habits they retain the formalities of the distant past.
 In these circumstances, conversation inevitably flagged a bit.
 In these romantic surroundings.
 In this case friction between parent and child is out of the question.
@@ -21476,6 +21521,7 @@ It definitely smells like cigarette smoke in here
 It depicted a flawed and failed utopia.
 It did better than that.
 It did make her look like a Pekingese.
+It did not emit any cry, such as the hare does.
 It did not matter how he kicked and struggled, he was fast.
 It did not matter to her that Miriam could not help it.
 It did not matter what went before.
@@ -21944,6 +21990,7 @@ It is the spectator, and not life, that art really mirrors.
 It is the third son of the county seat of the county seat.
 It is the very foundation of good citizenship.
 It is the way that change has always travelled.
+It is the work of a strategist.
 It is therefore from the head of our unknown woman.
 It is thoughtful, gloomy, concentrated.
 It is three degrees to the Fahrenheit.
@@ -22166,6 +22213,7 @@ It pleased him to see her take it and sip it.
 It pleased the men to see this battle between them.
 It pleases her brother to see us cordial, and that pleases me.
 It printed duplicated photos.
+It provoked the pencil of every passing tourist.
 It quite made me jump — the door opening like that.
 It racked me!
 It rained heavily last night.
@@ -22820,6 +22868,7 @@ It was sucked in immediately.
 It was sunny, and the white chrysanthemums frilled themselves in the warmth.
 It was supposed to be confidential.
 It was sweet to rush through the morning lanes on his bicycle.
+It was taken at the old harbor.
 It was taken from him.
 It was taken lately, here?
 It was taken with a shutter speed of around half a second.
@@ -23015,6 +23064,7 @@ It would be a grand performance.
 It would be a great deal better for us.
 It would be a terrible waste if good items end up in a landfill.
 It would be a thousand pities not to give you his verses.
+It would be all over with the man.
 It would be an easy little comedy to play.
 It would be bad news to get sacked.
 It would be best if you asked him to arrange it.
@@ -23886,6 +23936,7 @@ Joan looked triumphantly at Sheldon, who bowed.
 Joe was considered a liability within the parish.
 Joe, make room for one of these gentlemen on the box.
 Joe’s eyes fell to the way again.
+John Craig throws himself forward.
 John Dolittle was a strong man, though he wasn’t very tall.
 John Dolittle was the last to cross.
 John Fitzgerald was a nice boy.
@@ -24557,6 +24608,7 @@ Looks were exchanged between parent and parent.
 Lord Chatham was obliged to call in to its aid the mercenary troops.
 Lord Fitzhugh is the key to the whole situation.
 Lord Henry stretched himself out on the divan and laughed.
+Lord Sandwich came and dined at the book-club.
 Lord bless us, how they find people out!
 Lord bless you, how healthy you look!
 Lord, I might have thought of that.
@@ -24906,6 +24958,7 @@ Men ill with terror!
 Men in distress are apt to be a nuisance.
 Men like Joe Goose dated existence from drunk to drunk.
 Men looked steadfastly upon stark life.
+Men may maximize for me, provided they too keep from dogmatizing.
 Men of Selden's stamp don't stop at women and children.
 Men seem to live for sleep.
 Men seemed to be hauling this out of the way.
@@ -25017,6 +25070,7 @@ Mike's point of view was plain to him.
 Mike, always devoted to country life, ran a prosperous farm.
 Mike, skilled in omens, scented a row in the offing.
 Milady must know that I come from the table of the secretaire.
+Mildew's backers for the Handicap hoped to have a run for their money.
 Miley, Jake, and the other one.
 Milk is kept in leathern sacs.
 Millie has only one birthday in a year.
@@ -25190,6 +25244,7 @@ Most of the discoveries of humanity exist in cyberspace.
 Most of the plaintiff's bill was passed by the taxing master.
 Most of the postings on social media are disappointingly shallow.
 Most of the two were at the first season.
+Most of them longed for run for their money.
 Most of them, moreover, had spent their money.
 Most parents prefer to use disposable nappies nowadays, to save on washing
 Most peculiar looking teeth.
@@ -25525,6 +25580,7 @@ Much obliged to you, ma'am!
 Much thinking had made him irritable.
 Much time was spent planning, but nothing came to fruition.
 Much, replied Jeanne, as tersely.
+Mud-lark signified the same thing.
 Multiply these two numbers exponentially.
 Multitudes will not go back to work.
 Mum said we have to be home by dark.
@@ -25562,6 +25618,7 @@ My Lady, do you object to the twilight?
 My Lady, leaning forward, looks out of her window.
 My Lord Duke's entertainments were both seldom and shabby.
 My Lord knows nothing of it.
+My Lord seemed very much flustered.
 My Twitter post has gone viral.
 My accreditation demonstrates I am competent for this role.
 My advice is—give it up!
@@ -26445,6 +26502,7 @@ Nobody ever sees you at Montmartre - or anywhere.
 Nobody has it all his own way now, sir.
 Nobody has seen or heard her since she last rang her bell.
 Nobody heeded me, nobody was aware of me.
+Nobody hesitates to chat with his neighbor.
 Nobody is healthy in London, nobody can be.
 Nobody is to know.
 Nobody knew his history, they of the Junta least of all.
@@ -27108,6 +27166,7 @@ Of course, I’ll be there!
 Of course, Savage writing created a certain amount of confusion.
 Of course, and what would sir be looking for today?
 Of course, for the best.
+Of course, he can try to realise his costs against the seven gentlemen.
 Of course, he had insulted her terribly, but still —!
 Of course, he was stunned, amazed.
 Of course, it may have returned to the stables by another road.
@@ -27530,6 +27589,7 @@ On one side of the picture a near object may have to be represented.
 On one side of this frame is pasted a leaf of thin carbonated paper.
 On only one condition can I hope to forgive him.
 On retiring to bed, the father would come into the sickroom.
+On ringing the bell, the attorney first peered up through the letter-box.
 On that understanding then, I will carry on.
 On the Day of Judgment.
 On the English stage she was formidable.
@@ -27827,6 +27887,7 @@ Open the street door, Judy; put these blusterers out!
 Open the window again wide: fasten it open!
 Open up the pores on your skin.
 Opening of Part Two.
+Operatic singers of the other sex are to be engaged.
 Opinion was greatly divided about his occupation.
 Opposite to him — as far away as he could sit — was an enormous rat.
 Opposite, the wood heaped on the hill, green and still.
@@ -27965,6 +28026,7 @@ Our human form is the most advanced form of intelligence on this planet.
 Our interaction was brief.
 Our journey is nearly ended.
 Our little vessel pursued her way without drawback.
+Our march had a very nomadic appearance.
 Our marketing is designed to attract an affluent client base.
 Our national debt amounts to several trillion pounds
 Our next fixture is made already for Frampton Wood.
@@ -27984,6 +28046,7 @@ Our real form grows cold and pale. It flattens, it withers into wrinkles.
 Our records show that you never existed.
 Our relationship eventually petered out.
 Our scheme is a great shareholding company.
+Our smart setters live a sort of up-in-the-air life mentally.
 Our social order will probably seem very complex to you.
 Our spirits can commune.
 Our students are flourishing like never before.
@@ -28228,6 +28291,7 @@ People shouted conflicting information of the recent circumstances.
 People taking statins must keep away from grapefruit juices.
 People talked to him.
 People thought they had come fresh out of Lady Bountiful's goody-box.
+People wait till it comes to the library or the book-club.
 People want excitement every so often.
 People want to be amused, not preached at, you know.
 People who suffer from regular constipation should seek medical guidance.
@@ -28689,6 +28753,7 @@ Prime, isn't it?
 Prince Bismarck also observed that concession would encourage the Polish nationalists.
 Prince Charles isn't as bad as people make him out to be.
 Prince was teaching, of course.
+Princeton is unique in the mystery that enshrouds the origin of the name.
 Principal rivers—there are none.
 Principally because I received a letter from Scudder.
 Printed as a crossover, it darkens the indigo where it falls.
@@ -28831,6 +28896,7 @@ Rather a pretty name.
 Rather like glue flavoured with beef extract.
 Rather than eat and drink, he preferred to smoke incessantly
 Rather than remain rivals, they chose to collaborate.
+Raw prawns and nippers are the best baits.
 Ray and Don were left the farm when Thomas died.
 Rayan is convinced he could turn unrecyclable plastics into life-sized Lego blocks.
 Re-entering my room seemed like the recovery of reality.
@@ -29147,6 +29213,7 @@ Say you are sure before I go away, Ma.
 Say you forgive me, Hareton, do.
 Say you love me.
 Say you will, and let's be happy.
+Say, buddy, you ain't a pedlar, are you?
 Says the beadle, "no, sir, he is not here."
 Says the coroner, "go and fetch him then."
 Says the coroner, "is that boy here?"
@@ -31641,6 +31708,7 @@ Solitude crept upon him — his pace slackened.
 Solo tenor and soprano singers will exceed the altitude here specified.
 Some Car batteries require a top-up of deionized water.
 Some amiable gardener sells them.
+Some are stiff and gelatinous, others fleshy and muscular.
 Some areas are still closed after the incident.
 Some business models are dated and do not reflect the current generation.
 Some call this game Dutch-rubbers.
@@ -31656,6 +31724,7 @@ Some eat turkey for Thanksgiving, but I ate lasagna.
 Some employers think it easiest just to hire and fire.
 Some even began to edge toward the pavilion.
 Some fool I'd never seen fired at random.
+Some horses revel in mud.
 Some kinds of antisocial action are so unreasonable that we brand them as insane.
 Some leaped onto forms, others flung books, all shouted.
 Some lichens display concentric circles, and others exhibit nebulous images.
@@ -32025,6 +32094,7 @@ Strange and incredible meeting!
 Strangely enough, he was almost sober.
 Stranger does not rime with anger
 Strangles are peculiar to young horses.
+Strategy presupposes in the strategist a perfect knowledge of tactics.
 Stress in the French of today is independent of length and pitch.
 Strike home, sir, strike home!
 String is my foible.
@@ -32041,6 +32111,7 @@ Submerge the clothes in the diluted solution for ten minutes.
 Substance abuse harms lives.
 Substance over style.
 Such a bad example for Comrade Robinson, too.
+Such a boy looks down upon mudlarks very much.
 Such a countenance, such manners!
 Such a disappointment!
 Such a dog the wise driver kills, or turns loose.
@@ -32063,6 +32134,7 @@ Such are what are called the Oriental languages.
 Such as fellows going to college, hey?
 Such as they were, of course.
 Such books are called Etruscan, because many of the designs are of classical feeling.
+Such children are also described as backward.
 Such considerations apply with added force to children in grade and high schools.
 Such delightful times as we are having!
 Such doings discomposed Mr. Bennet exceedingly.
@@ -32391,6 +32463,7 @@ Termination of employment.
 Terrible, wasn't it?
 Terrified cats scamper across the road.
 Tessa wants to file taxes now.
+Testing Testing Testing
 Texas, baby, what are you doing?
 Text me when you're done.
 Text to Speech.
@@ -33024,6 +33097,7 @@ The Amazon River is the longest in the world.
 The Amazon rainforest is disappearing at an alarming rate.
 The American closed the other door.
 The American investigators call these exceptional combinations cross~overs.
+The American is nomadic in religion, in ideas, in morals.
 The Anglo-Saxon language is commonly known as Old English.
 The Arctic is cold.
 The Atlantic Monthly is staunchly Unionist, and more or less anti-slavery.
@@ -33096,6 +33170,7 @@ The Cowardly Lion was beginning to tremble.
 The Crocodile crawled into its swamp.
 The Daily Proteus sent Jack twenty dollars for two editorials.
 The Daily Telegraph is a right-wing British newspaper.
+The Dakotas would neither kill nor eat their totems.
 The Defence Spending Review has revealed a multi-million pound shortfall.
 The Defibrillator revived the patient who had suffered cardiac arrest.
 The Director was decisive and accurate.
@@ -33284,6 +33359,8 @@ The Resident Commissioner is away in Australia.
 The Revolution accomplishes itself all over the world.
 The Revolutionary Collectivists have just met with a misadventure.
 The River Thames flows through Oxford, Reading and London.
+The Roman Church may be said to maximise, the Anglican to minimise.
+The Roman turns pious opinions into necessary doctrines.
 The Roundabout, or more precisely the Cheshire-round, is danced by two only.
 The Russian music player, the Count, was her obedient slave.
 The Sahara is the largest desert in the world.
@@ -33708,12 +33785,14 @@ The breadth and depth of this document are applaudable.
 The breakers ran down the shore in long, hoarse strokes.
 The breaking off of flowers, etc., in dreams generally signifies masturbation
 The breath was struck out of her body.
+The bride shuts her fly trap; the stranger complies.
 The bright red flowers multiplied and covered the south bank.
 The bright-blazered youth walked up.
 The broad area of swaying wings seemed to jerk upward.
 The broadening waters flowed through a mob of wooded islands.
 The budget is probably more than we'd like to spend on a science project.
 The buds are of extraordinarily deep colour with a suggestion of flame.
+The buffalo is quite nomadic in its habits.
 The buffets, which were numerous, were abundantly supplied with refreshments of every kind.
 The builder is coming round tomorrow morning.
 The builder's quote was astronomical.
@@ -33726,6 +33805,7 @@ The building was largely built of breezeblocks
 The building was unsafe to enter.
 The building’s roof was reinforced with a steel frame.
 The bulk of the story is told in flashback.
+The bumptious sergeant struts before his men.
 The bungalow looked mean, neglected, and in need of work.
 The bureaucracy within the company was hindering its progress.
 The burglars made bold attempts to break in during daylight hours.
@@ -33975,6 +34055,7 @@ The colonies are willing to assent to a Continental Congress.
 The color was also used in broadcloth.
 The coloring matter may also be flattened or deprived of its luster.
 The colors sold under this name are prepared artificially from sulfate of iron.
+The colour gradually deepens by exposure to the air.
 The colour of his thoughts was a dark depression.
 The colours of the rainbow are red, orange, yellow, green, blue, indigo, and violet.
 The colours, when on the paper, are in a state of dry powder.
@@ -34093,6 +34174,7 @@ The cosmos is vast.
 The cost of Medical equipment is unfordable to developing countries.
 The costs are considerably higher when you buy an item on credit.
 The cottages of the peasants had again their own grounds attached to them.
+The cotton districts showed an earlier and more palpable evidence of recovery.
 The council gritted the roads today, so it will probably be Icy tomorrow.
 The council never seems to use statistics.
 The counter inside was a convenient height for rabbits.
@@ -34343,6 +34425,7 @@ The eager eyes of our pioneers will pry beyond.
 The eagle's eyes are focused to see small objects far beyond man's range.
 The earlier Judaism is quite anomalous in its mixture of morality and secularism.
 The earlier stages of the dinner had worn off.
+The early condition of the plant is pulpy and gelatinous.
 The earnings of agricultural laborers, if well thrifted, leave a surplus.
 The ears cease to ring.
 The earth loses its privilege as a framework of reference.
@@ -34371,6 +34454,7 @@ The effects produced by traction, or the rubbing of metallic tractors.
 The effigy was ritually torched.
 The egg seems to get further away the more I walk towards it.
 The eight little pigs had very fine appetites.
+The elder Pitt was a maritime strategist of the highest order.
 The elder brother was becoming quite swanky.
 The elderly man began to unlace his boots.
 The element sulfur can also be spelled sulphur
@@ -34408,6 +34492,7 @@ The ensemble of the piece will be hid from us and unintelligible.
 The entertainment which Susan got up last night ended in disaster.
 The enthusiasts revved their cars.
 The entire body consists of shapeless plasma, or protoplasm.
+The entire group were nothing but mudlarks!
 The entire organism usually consists of a single autonomous cell throughout life.
 The entire plain is triangulated with ice-barricades.
 The entity greeted us with "hello earthling".
@@ -34434,6 +34519,7 @@ The eunuch soon returned with a favorable oracle.
 The euro rose against the dollar this morning.
 The evening air was thick with gnats.
 The evening altogether passed off pleasantly to the whole family.
+The evening had deepened into struggling starlight.
 The evening lamps look yellower by contrast with the snow.
 The evening of their expected arrival came.
 The evening was deepening over the earth.
@@ -34609,6 +34695,7 @@ The flaxen-bearded man gave a cry of comprehension.
 The flesh about her mouth was trembling.
 The flight from Manchester is late.
 The flight to Australia was long.
+The floating gelatinous soul rises in the scale of being.
 The floes now shed off dusty wreaths of snow.
 The flooding caused billions of dollars in damage and the loss of several lives.
 The floods were out, he was forced to take such a roundabout of ways!
@@ -34724,6 +34811,7 @@ The genuine, heartfelt cry restored her confidence in Celia.
 The geopolitical landscape can be improved through an open dialogue.
 The german city of Bielefeld does not exist in the Bielefeld conspiracy!
 The gesticulation of two of the speakers became animated.
+The geyser gave a grunt and then threw up a little water.
 The gig economy can be a race to the bottom at times.
 The gig economy has its benefits.
 The gingerbread stalls were fine, from the Dutch gold on their ware.
@@ -34782,9 +34870,11 @@ The graphics card on this machine is not suitable for gaming.
 The graphics designer presented several versions of the logo.
 The grass is greener where you water it.
 The gratings are also half covered when it blows hard.
+The graver possibilities of war did not intrude themselves upon their minds.
 The gray eyes faltered; the flush deepened.
 The gray house was, at first, of sheerly pastoral intent.
 The grazing farms were disintegrated.
+The great advantages of low prices are very evident in this case.
 The great antagonist of intolerance is not humanity, but knowledge.
 The great art of riding, as I was saying, is to keep your balance.
 The great beast shifted round to her, ducking his head.
@@ -35022,6 +35112,7 @@ The innkeeper sensibly brightened.
 The innovative shading made it look almost three-dimensional.
 The innumerable cornice lights had been extinguished.
 The institute is looking for feedback from the public.
+The institution of the Totem has its counterpart among the nations of Australia.
 The instruments used are the cradle, rocker, scraper, burnisher, and roulettes.
 The insufferable monotony of the proposed recreation!
 The insurance firm has agreed to cover the damage.
@@ -35238,6 +35329,7 @@ The letters are often united in nexus or ligatures.
 The letters, too, bespeak the character of the man.
 The lettuces certainly were very fine.
 The lever which operates the breech-block passes through the rocker-sleeve.
+The libel was found in the letter-box of the newspaper.
 The libertarian doctrine is now taught by appealing to consciousness.
 The library contains vast amounts of knowledge.
 The library is deserted, and the fire is sinking low.
@@ -35314,6 +35406,7 @@ The machine learning development process is evolving much as software developmen
 The machine was broken, that much was obvious.
 The mackerel is a handsome fish.
 The madman’s cunning had overreached them all.
+The magazine contains articles from the most brilliant cultists and exponents.
 The magazine predicted that there would be nightmare shortages.
 The magic formula demanded nothing less than this.
 The magician pulled out his pocket handkerchief with a flourish.
@@ -35466,6 +35559,7 @@ The mill had been long out of use.
 The millennium bug was predicted to cause the mayhem. That did not happen.
 The mincemeat used in mince pies doesn't contain any meat
 The mind looks at actions to see what may be their ethical content.
+The mind of the East End nipper is equal to most emergencies.
 The miner hopes to reach bed-rock, where gold is found in quantities.
 The miner is generally obliged to blast the rock.
 The miner sat heavily in his chair.
@@ -35546,6 +35640,8 @@ The mouse lived in a small hole in the skirting board
 The movie spawned many franchises.
 The movie uses explicit language and is not suitable for children.
 The movie was bland and formulaic.
+The mud-larks collect whatever they happen to find.
+The mudlark contingent are generally horses with good loin power.
 The muffled cries grew more distinct.
 The muffler rusted and has a leak.
 The mules flapped their jackrabbit ears.
@@ -35649,6 +35745,7 @@ The note of appeal in his voice was loud.
 The note was immediately dispatched, and its contents as quickly complied with.
 The noticeboard had swung round overnight, and now hung askew.
 The novice actor was overly dramatic.
+The number of the bodyguard was not long confined to fifty.
 The number of these fancied erasures did not startle him.
 The nurse came down alone carrying Helene's bag.
 The nurse took her seat beside her; the man mounted on the box.
@@ -35857,6 +35954,7 @@ The patient shows idiopathic symptoms.
 The patients will be brought for treatment by air ambulances.
 The patina and chalice were taken from his hands.
 The patina was flat, and held soup.
+The patroon humored his boat nearer in than was perhaps wholly safe.
 The pause was to Elizabeth's feelings dreadful.
 The pavilion of the ear is seated behind the cheeks.
 The pavilions as we generally represent them are round at the top.
@@ -36035,6 +36133,7 @@ The probabilities in their favor are overwhelmingly great.
 The problem is not endemic.
 The problem was a faulty gasket.
 The problem was that the system had not worked for the past week
+The problem was to determine the minimum initial mass of an ideal rocket.
 The proceeding would be over about half an hour too soon.
 The proceedings terminated very shortly.
 The process of development goes on as at present.
@@ -36171,6 +36270,7 @@ The result of our conversation was this.
 The result would be an epoch of exceptional stability of species.
 The results may be guessed.
 The results of this I now proceeded to hand on to him.
+The results seem to point to a uniform rate of emission.
 The results—namely, the new church, vicarage, and schoolhouse—were now conspicuous.
 The retail sector faced a challenging quarter.
 The retort silenced Dave if it did not convince him.
@@ -36184,6 +36284,7 @@ The rhythms of this piece are quite hypnotic
 The richest young man in Bath at this moment.
 The rider seemed one with his frail craft, an amphibious realization of the centaur.
 The right cornea is slightly nebulous.
+The right of the Pope to depose princes is reaffirmed in the syllabus.
 The right wing, having deployed into line, began to advance.
 The rights in his patent he had mortgaged long ago.
 The ring was a splendid solitaire diamond.
@@ -36238,6 +36339,7 @@ The rosebud tea set!
 The rotor spun at incredible speeds.
 The rough way he bowled the dog over was really loving.
 The round game comprised the rest of the company.
+The roundabout fireside was universally in use in the kitchen.
 The rowing boat can't accommodate any more.
 The rube at me four aces flings.
 The rude coffin was borne slowly forward on men’s shoulders.
@@ -36249,14 +36351,17 @@ The sales agent didn't call me back.
 The sales were enormous, ten times as large as their competitor's.
 The salt dissolved in water immediately on contact.
 The same change follows the repeated tappings of the sacs.
+The same crowd of mudlarks and loafers would come rushing into the water
 The same observation applies to the other case.
 The same that I expect.
 The same words, indeed, were running through both women's minds.
 The same year, they were one of the Getup.
 The sample temperature in this experiment is far too high.
+The sand-martins, and mudlarks, too, were busy in their department.
 The sateen is for church and Sunday school.
 The sausage squirmed, spluttered, and sang as the lively flames leapt around it.
 The savage will use all sorts of roundabout phrases to avoid saying it.
+The savages supply it chiefly with the poncho.
 The saw leaped back and forth a few strokes more.
 The scale of the impact was devastating.
 The scales fell from my eyes.
@@ -36324,6 +36429,7 @@ The series represents an entirely new approach.
 The serious intention, hid in those mummy wrappings, is not inauthentic.
 The sermon was awfully long, too.
 The servant with the bandage was being soundly rated.
+The servant writes to know whether Mrs. Squaw nags.
 The servants affirmed they had not seen her.
 The server was decentralized.
 The session timed out because there was no response from the server.
@@ -36468,6 +36574,7 @@ The spell was broken.
 The spinster aunt appeared; she smiled, and beckoned them to walk quicker.
 The spinster aunt could hardly believe her eyes.
 The spinster aunt was knitting.
+The spirit of trades unionism is essentially monopolistic and prescriptive.
 The spiritual anguish induced by that tactless speech had become noticeably lessened.
 The spring sunshine lit up the grey towers.
 The sprinter must use different tactics to the middle-distance runner.
@@ -36783,6 +36890,7 @@ The tree has peculiarities not possessed by any other quinine-producing species.
 The tree was dark as a shadow.
 The tree was tall and straggling.
 The tricks are so easy.
+The trillionaire might turn patriot and pay the national debt without feeling it.
 The trooper beckons as he calls him.
 The trooper fails to fasten the brooch.
 The trooper falters and looks at him.
@@ -36833,6 +36941,7 @@ The two rats consulted together for a few minutes and then went away.
 The two shared lives.
 The two sisters did not talk much to each other.
 The two stood together gloating over the dish.
+The two stories were so much alike in thought and language.
 The two walked in silence.
 The two were about thirty yards from Mitchell's window.
 The two were sworn.
@@ -37131,6 +37240,7 @@ Their back surfaces must be covered in a thin coating of Brunswick black.
 Their basins are contained within the land.
 Their bedroom was over the stable.
 Their bodies were washed ashore soon afterwards.
+Their clubs were soon exchanged for sharper weapons.
 Their consent ought to have been obtained first.
 Their countless faces turned towards him, and they shouted.
 Their cry for help is heard in the sad tale of their miseries.
@@ -37180,6 +37290,7 @@ Their stock of these fundamentals was exhausted.
 Their supply of grub was gone.
 Their table was superlatively stupid.
 Their teacher told my boys to aim higher.
+Their totem was the turtle.
 Their train was late.
 Their union was the result of no direct policy of fusion.
 Their vapor is found to be more tonic.
@@ -37262,6 +37373,7 @@ Then Paul opened the door to the garden, and all was different.
 Then Paul ran anxiously into the kitchen.
 Then Rhea seemed to come to a decision.
 Then Sir Harry started.
+Then Tomlinson he gripped the bars and yammered.
 Then Tuppy has been chasing him for two hours and a half.
 Then Xander broke in and his voice was excited.
 Then a clock upon a church struck the half-hour musically, distantly.
@@ -38431,6 +38543,7 @@ There's a predicament for a man and an uncle!
 There's a present for you in the storm door
 There's a signpost where you turn off.
 There's a strong division between advice and influence.
+There's a tavern in the town where my true love sets him down.
 There's a time capsule she has put under her garden.
 There's a very bad sort of fever about him.
 There's an historic crime in your own country.
@@ -38740,6 +38853,7 @@ They are downstairs looking for things to steal.
 They are equally unfit for office
 They are for Miss March, the man said.
 They are found in an embryonic state.
+They are full of plagiarisms, inappropriately borrowed.
 They are funny, but not uncommon.
 They are given a notoriety, a public exhibition in the limelight.
 They are going out to supper now.
@@ -38818,6 +38932,7 @@ They attended a little service in the choir.
 They began by talking books: it was their unfailing topic.
 They began to burrow a yard or two lower down the bank.
 They began to laugh.
+They began to nag their brother.
 They begged him to spend a few days with them.
 They both fall asleep quite easily.
 They both heard a curious roly-poly noise under the attic floor.
@@ -39754,6 +39869,7 @@ This ink is to be evenly spread on leaves of thin paper.
 This instrument has not been long in use.
 This interested Ayaan, tired as he was.
 This invaluable friend was a very young woman, and very lately married.
+This inverted financial pyramid was not thought stable.
 This is Mcdonald's.
 This is Mr. Francis speaking.
 This is Mr. Patch speaking.
@@ -39812,6 +39928,7 @@ This is an aggregate score.
 This is an alternate website design you can choose from.
 This is an ancient film.
 This is an army and navy hotel.
+This is an echo rather than an imitation or a plagiarism.
 This is an emergency broadcast.
 This is an essential part of civilized society.
 This is an important historical site, and we need to preserve it.
@@ -40132,6 +40249,7 @@ This time there were two little shrieks, and more sounds of broken glass.
 This time they went through the door whence the girl had emerged.
 This time you shall not escape.
 This time you're going to do what I say.
+This totem they conceive assumes the shape of some beast or other.
 This touched the spot.
 This town was designed for a consumerist lifestyle.
 This train of indecision must surely be worked out now or never.
@@ -40461,6 +40579,7 @@ To my dearest and always appreciated friend, I submit myself.
 To my knowledge I never heard it.
 To my surprise he began to show actual enthusiasm in my favor.
 To offer you help if you need it.
+To outgun him would be still greater.
 To overcome procrastination, tackle one task at a time.
 To post a letter, look for a red postbox or pillar box
 To produce replicas of the design, the operator strikes this matrix into lead.
@@ -40677,6 +40796,7 @@ Turning towards the door, he now caught sight of us.
 Tutankhamen was an Egyptian pharaoh.
 Tweedledee began instantly.
 Tweedledum looked round him with a satisfied smile.
+Twelve of these placed their totems opposite my signature.
 Twenty ways with a kumquat.
 Twice I lost my way, and I had some nasty falls into peat-bogs.
 Twice I strangled a sneeze just in time.
@@ -41274,6 +41394,7 @@ We could not agree on the colour of our carpets.
 We could not view any interposition for the purpose of oppressing them.
 We could throw stones with our feet.
 We could've done if we wanted to.
+We cut them deep in the stones, and they are there now.
 We cut them off from the Council House there.
 We decided not to.
 We designed it to be fool-proof.
@@ -41293,6 +41414,7 @@ We do not charge a fee to transact on our platform.
 We do not forget!
 We do not forgive!
 We do not get a commission for sales, we're just here to help.
+We do not get the proper run for our money.
 We do not have any appointments listed under your name.
 We do not infringe on copyrights.
 We do not need to suffer depression alone, talk to someone.
@@ -41518,6 +41640,7 @@ We learnt all about it at school.
 We leave in two days.
 We leave the eventuality to time and law.
 We left him at a milestone.
+We left our totems or marks on the rocks.
 We left the Hotel Victoria this morning.
 We live in Evelyn.
 We live in a semi-detached house.
@@ -41760,6 +41883,7 @@ We shall be under the domination of a riotous mob.
 We shall catch them yet before they reach the next stage.
 We shall come to it presently.
 We shall do it in time.
+We shall find the shades gradually to deepen.
 We shall get on famously.
 We shall get underway in a jiffy, the pilot's coming on board.
 We shall have him yet!
@@ -43479,6 +43603,7 @@ When shall Ada come to see you, my love?
 When shall we begin?
 When shall we start? asked the Scarecrow.
 When she acquiesces, she is called a muffin.
+When she again goes home to Westwood Park she nags and frets Sir John.
 When she alighted he quite jumped.
 When she came to herself she was tired for sleep.
 When she felt the vegetables she became very, very angry.
@@ -43630,6 +43755,7 @@ Where is my distinguished cousin Gloria?
 Where is my vanity bag?
 Where is she?
 Where is that annoying sound coming from?
+Where is that hiatus between the premises and the conclusion?
 Where is the "Hardwax" record store located?
 Where is the Council?
 Where is the Emerald City? he enquired; "and who is Oz?"
@@ -43794,6 +43920,7 @@ Who could bear to drag out a life in such a spot?
 Who could have seen through such thick-headed nonsense?.
 Who could have thought it?
 Who could have thought of seeing you!
+Who could have thought so innocent a face could cover so much cuteness.
 Who could have told?
 Who cried most?
 Who did you hear it from?
@@ -43808,6 +43935,7 @@ Who ever heard the likes of that?
 Who ever loved that loved not at first sight?
 Who ever saw me with her?
 Who ever saw one that size?
+Who ever saw the flies and nippers so bad as they?
 Who fired a gun or pistol?
 Who for such dainties would not stoop?
 Who has been gnawing bones up here in the chimney?
@@ -44087,6 +44215,7 @@ Why should I not care for her?
 Why should I seek her so often if I did not care?
 Why should I?
 Why should Mr. Tulkinghorn, for such no reason, look out of window?
+Why should a dog's trial be protracted?
 Why should a fellow throw up the sponge after the first round.
 Why should he leave the room at all?
 Why should it be that I know nothing?
@@ -45285,6 +45414,7 @@ You have been ill, my friend?
 You have been in the wars!
 You have been mean and shabby.
 You have been running, Jo; how could you?
+You have been sentenced to death by hanging.
 You have been strangely importunate.
 You have been very ill, I know.
 You have been wounded.
@@ -45500,6 +45630,7 @@ You may imagine their astonishment to find the room empty.
 You may imagine what I felt and how I acted.
 You may laugh at me, but I do.
 You may look incredulous, if you please!
+You may maximize attendance, and you may minimize it.
 You may read it in the whole room.
 You may say so!
 You may say that.

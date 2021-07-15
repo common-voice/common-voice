@@ -8,7 +8,8 @@
     "replace-in-file": "^5.0.2"
   },
   "resolutions": {
-    "y18n": "^4.0.1"
+    "y18n": "^4.0.1",
+    "glob-parent": "^5.1.2"
   },
   "scripts": {
     "build": "gulp",

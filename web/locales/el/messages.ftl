@@ -112,6 +112,7 @@ my = Βιρμανικά
 myv = Erzya
 nb-NO = Νορβηγικά (Bokmål)
 ne-NP = Νεπαλικά
+nia = Νας
 nl = Ολλανδικά
 nn-NO = Νορβηγικά Nynorsk
 oc = Οξιτανικά

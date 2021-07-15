@@ -107,6 +107,7 @@
 
     .languages {
         display: flex;
+        top: 1px;
 
         @media (--xs-only) {
             margin-top: 10px;
@@ -116,10 +117,10 @@
 
         @media (--md-up) {
             position: relative;
-            top: 2.5px;
         }
 
         & * {
+            align-self:  end;
             margin-inline-end: 33px;
             padding-bottom: 13.5px;
             font-size: 14px;

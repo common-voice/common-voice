@@ -112,6 +112,7 @@ my = Birmanca
 myv = Erzyanca
 nb-NO = Norveç Bokmål
 ne-NP = Nepalce
+nia = Nias
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
 oc = Oksitanca

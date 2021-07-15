@@ -5,6 +5,9 @@ Many language communities are self organising and have their contact channels on
   * Common Voice on [Telegram](https://web.telegram.org/#/im?p=@mozilla_common_voice)
 * Bashqort (`ba`):
   *  [Telegram](https://t.me/bashkort_voice)
+* Belarusian (`be`):
+  * [Website](https://mova.pro)
+  * [Telegram](https://t.me/voice_by)
 * Bengali (`bn`): 
   * [Matrix](https://app.element.io/#/room/#bn-common-voice:mozilla.org)
 * Catalan (`ca`):
@@ -27,7 +30,7 @@ Many language communities are self organising and have their contact channels on
 * Guaraní (`gn`):
   * [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
 * Italian (`it`):
-  * [Telegram](https://t.me/joinchat/QzLbqUl_P06IWojE) 
+  * [Telegram](https://t.me/mozitabot) 
 * Traditional Chinese (`zh-TW`):
   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-tw:mozilla.org)
   * [Telegram](https://t.me/moztwcv)

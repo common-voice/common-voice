@@ -112,6 +112,7 @@ my = Taburmisit
 myv = Erzya
 nb-NO = Tanuṛvijt Bokmål
 ne-NP = Tanipalit
+nia = Nias
 nl = Tahulandit
 nn-NO = Tanuṛvijt Nynorsk
 oc = Tuksitant

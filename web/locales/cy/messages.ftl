@@ -112,6 +112,7 @@ my = Byrmaneg
 myv = Erzya
 nb-NO = Bokmål Norwyeg
 ne-NP = Nepaleg
+nia = Nias
 nl = Iseldireg
 nn-NO = Norwyeg Nynorsk
 oc = Occitaneg

@@ -33,6 +33,7 @@ as = Assamese
 ast = Asturian
 az = Luzabayijani
 ba = Bashkir
+bas = Bassa
 be = Luberaluusi
 bg = Lubulugaliya
 bm = Bambara
@@ -287,7 +288,7 @@ english = Luzungu
 ## ProfileForm
 
 profile-form-username =
-    .label = Erinya ly'okozesa
+    .label = Erinnya ly'okozesa
 profile-form-native-language =
     .label = Olulimi lwe wamwe
 profile-form-additional-language =
@@ -295,7 +296,7 @@ profile-form-additional-language =
 profile-form-accent =
     .label = Accent
 profile-form-age =
-    .label = Myaka
+    .label = Emyaka
 leaderboard-visibility =
     .label = Okulabibwa kwa Leaderboard
 hidden = Terabika
@@ -307,7 +308,7 @@ profile-form-submit-saved = Bisevingiddwa
 male = Musajja
 female = Mukazi
 # Gender
-other = Ndi kirala
+other = Ensonga endala
 why-profile-title = Lwaki profayilo?
 why-profile-text =
     Mu kuwa ebimu ebikukwatako, data ow'amaloboozi gw'owa Common Voice ajja kuba wa mugaso nnyo ku Yingini
@@ -336,26 +337,17 @@ skip-submission-description = Bw'oba osindika by'oyambyeko, obubabaka bujja kubu
 skip-submission-note = Manya: Ojja kwetaga okulonda wakati W'okwogera oba Okuwuliriza okukyusa ekika ky'okuyamba.
 off = Teriiko
 on = Kweri
-avatar-clip-title = Ka dolle ko kawe eddoboozi
-change-your-avatar-clip = Oyagala kukyusa eddoboozi lyo?
-recording-in-progress = Oli mu ku lekodinga ddoboozi
-avatar-clip-recorded = Ekifananyi kyo kati kijja n'kalaboozi!
-record-voice-wave = LIKODINGA AKALOBOOZI
-retry-voice-wave-recording = DDAMU
-re-record = Likodinga buto
-delete-voice = Sangula
-recording-voice-wave = Likodinga
-delete-voice-clip = oba Sangula clip y'eddoboozi
-ready-to-upload = TEEKAYO
-avatar-clip-fact = Mazima kuva dda nti omusomi abuzabuzibwa by'asoma ku pegi nga atunilidde enfanana y'ayo.
-recreate-voice = Ddamu Akaloboozi
-cancel-avatar-clip-recording = SAZAAMU
-about-avatar-clip-recording = Kkola clip y'eddoboozi enebeera ku kabonero ka pulofayiro yo. Abalala bajja kusobola okuyisako n'ebajiwuliriza.
+
+## Profile - Email
+
 browse-file-title = Tekaako akafananyi
 browse-file = Sika osuule oba <browseWrap>Nnonya</browseWrap>
 connect-gravatar = Conekitinga ne Gravatar
 gravatar_not_found = Tewali gravatar ya email yo esangidwa
 file_too_large = Fayiro gy'olonze nnene nnyo
+
+## Profile - Email
+
 manage-subscriptions = Ddunkanya Eby'okwewandiisa
 manage-email-subscriptions = By'ofuna mu email
 email-already-used = Email eno ekozesebwa ku akawunti endala
@@ -676,19 +668,19 @@ target-segment-learn-more = Manya Ebisingawo
 
 ## Reporting
 
-report = Lloopa
+report = Loopa
 report-title = Sindika alipoota
-report-ask = Bizibu ki by'oli okusanga ku mboozi eno?
-report-offensive-language = Obuswevu
-report-offensive-language-detail = Eno emboozi elimu enjogera embi oba ey'obuswevu.
-report-grammar-or-spelling = Ensobi mu njogera / empandiika
-report-grammar-or-spelling-detail = Emboozi elina ensobi mu njogera oba empandiika.
+report-ask = Buzibu ki bw'osanze ku sentensi eno?
+report-offensive-language = Kivvoola
+report-offensive-language-detail = Sentensi erina olulimi olutaweesa kitiibwa oba oluvvoola.
+report-grammar-or-spelling = Ensobi mu mpandiika
+report-grammar-or-spelling-detail = Sentensi erina ensobi mu mpandiika.
 report-different-language = Olulimi olulala
 report-different-language-detail = Kiwandiikiddwa mu lulimi olulala ku lwe njogera.
 report-difficult-pronounce = Kizibu okwogera
 report-difficult-pronounce-detail = Mulimu ebigambo ebizibu okusoma oba okwogera.
 report-offensive-speech = Enjogera nswevu
-report-offensive-speech-detail = Kano akaloboozi kalimu ebigambo ebibi oba ebiluma.
+report-offensive-speech-detail = Kano akaloboozi kalimu enjogera etaweesa kitiibwa oba evvoola.
 report-other-comment =
     .placeholder = Comment
 success = Success
@@ -835,12 +827,20 @@ read-more-about = Soma ebisingawo ku page yaffe ey'Ebitukwatako.
 
 ## DemoLayout
 
+demo-welcome = Oyanirizibwa ku Common Voice
+demo-welcome-subheader = Oyagala okuyiga ebisingawo n'okwennyigira mu pulojekiti?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ly'etterekero oly'olukale erisinga obunene munsi yonna ery'amaloboozi mu nnimi ez'enjawulo.
+card-button-next = ewaddako
+demo-language-select-label = Noonya olulimi
+demo-eofy-sub_header = Dataset y'Amaloboozi, osobola okugiwanula
+demo-account = Account
 
 ## Demo Account
 
+demo-account-card-header = Tekyetaagisa kuba na account okwennyigiramu wadde nga kya mugaso.
 
 ## Demo Contribute
 

@@ -112,6 +112,7 @@ my = Burmai
 myv = Erza
 nb-NO = Norvég bokmål
 ne-NP = Nepáli
+nia = Nias
 nl = Holland
 nn-NO = Norvég nynorsk
 oc = Okcitán

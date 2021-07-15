@@ -35,6 +35,7 @@
 "Creo que todos os feitos non saíron á luz.
 "Creouse o costume de territorializa-las contribucións.
 "Cumprimento do acordo de pensións"
+"Deixareina de novo na rúa!"
 "Devolveréille-la casa ós nosos fillos nun ano".
 "Diego estaba bastante mal animicamente por problemas familiares que non vou considerar;
 "Dun tirón" non equivale, de primeiras, a ningunha valoración da cualidade literaria.
@@ -5258,6 +5259,7 @@ Debería ter un neno.
 Debería ver as notiñas femininas que escribe mamá ás súas amizades.
 Deberíalles ser dado o que?
 Deberías escoitar algunha peza da charanga Os Tabernícolas do Leiradal
+Deberías escoller as túas palabras con máis coidado.
 Deberías levar o traxe, por se acaso.
 Deberías ser máis amable cos veciños.
 Deberías ter camisas no armario.
@@ -5312,6 +5314,7 @@ Defectos, que alma hai sen telos?
 Defende a versión estatal na "guerra de cifras"
 Defendendo a Natureza que aínda respira no mar, nos montes, nos campos.
 Defender, á súa custa, a posesión dos bens.
+Defendía as miñas ideas.
 Defendían a mestura dos xéneros literarios así como os sucesos lóxicos e ilóxicos.
 Defensa
 Defensa da Ría e concello consideran que é 'un globo sonda'
@@ -5321,28 +5324,47 @@ Defina morriña.
 Define comer ou serás desintegrado.
 Definitivamente, non creo fose por unha punta.
 Defíneme saudade.
+Deica logo, amigo.
+Deica logo, rapaz.
 Deica logo.
 Deica á noite, querida.
 Deicho porque quixen, non por facerche un favor
+Deilles unha boa.
 Deita á vítima boca arriba sobre unha superficie dura.
 Deitados cos ollos pechos soñando castelos no ar.
 Deiteime na lama.
+Deixa a friameira.
+Deixa conectada a baliza para atoparte.
 Deixa de dicilo.
 Deixa de facer trasnadas
+Deixa de mover o bate.
+Deixa en paz o teu irmán.
 Deixa en paz ós pobres rapaces.
+Deixa o neno.
 Deixa que a esperanza pereza, abandona no deserto a miña alegría, avancemos en coiros.
 Deixa que che bote un ollo ao outro lado do vagón.
 Deixa que descanse baixo un manto de pétalos de rosas caendo.
 Deixa que olle nela.
+Deixa que se preparen para a loita.
+Deixa que un deles o probe.
+Deixa unha mensaxe.
 Deixa xa de ladrar na miña porta.
 Deixaches a cociña acesa.
+Deixaches morrer un rapaz.
 Deixade as cortesías e falade claramente.
 Deixan claro que "Fadesa seguirá sendo unha empresa galega como ata agora".
 Deixarache o traballo sucio, e ti faralo.
+Deixarche fuxir non.
 Deixareina ao final da próxima rúa —dixo el.
+Deixareina de novo na rúa!"
+Deixaríanme baixar se el volvese?
+Deixas que el faga de ti o que quere.
 Deixastes todo amañado na casa?
+Deixe de dicir iso.
 Deixe vostede de correr.
+Deixei de escoitar cando dixeches
 Deixei o meu libro, Deixei a habitación, pois sentín que cantabas Entre tanto negror.
+Deixeilla a un garda.
 Deixemos que eses tolos soñadores sigan o camiño dos seus soños.
 Deixou escapar un longo suspiro e foi coma se espertase dun soño.
 Deixou que o teléfono soase impertinente;
@@ -5350,10 +5372,13 @@ Deixoume auténticas perlas.
 Deixoume pasmada.
 Deixounos para sempre a historia dos galegos no Golfo de México
 Deixouse arrastrar pola corrente
+Deixouse as súas flores.
+Deixouse matar para que estiveses aquí.
 Deixádeme en paz!”
 Deixádeme probarvos o que vexo.
 Deixádeme sitio.
 Deixádeme tranquilo!
+Deixádeo en paz!
 Deixárona horrible.
 Deixémolo para mañá.
 Delatárona as súas palabras recoñecendo isto!
@@ -5373,12 +5398,15 @@ Demostreille ó alcaide o parvo que era.
 Demóstramo –seica lle pediu o capitán.
 Denantes de levaren a Xesús, veu buscarme unha das serventas de Miriam.
 Denantes mortos que escravos
+Dende a guerra
 Dende antonte – respondeu.
 Dende aquela, esquecín moito.
+Dende cando o facedes?
 Dende entón considéroo o mellor profesor que tiven.
 Dende entón, morriches e naciches infinidade de veces, e tiveches moitos corpos fermosos.
 Dende ese instante, non deixou de pensar en vostede, día e noite.
 Dende facía un anaco, o abrasador sol da tarde caía implacable.
+Dende logo que fixo un grande traballo.
 Dende logo que si.
 Dende máis lonxe aínda, chegaban outros golpes aínda máis febles e apagados.
 Dende neno defendín a miña honra.
@@ -5399,6 +5427,7 @@ Dentro había diversas cousas: varios libros, un vello sombreiro de feltro e mud
 Denuncia que na escola estanse a impoñer as formas dixitais sobre as analóxicas.
 Denunciaron o Concello de Ferrol, a Autoridade Portuaria e Augas de Galicia.
 Departamento Parlamento de Galicia
+Depende de nós.
 Depende do Concello da Fonsagrada
 Depende do Concello da Mezquita
 Depende do Concello da Pastoriza
@@ -5485,6 +5514,7 @@ Dereitos dos menores ante a internet.
 Dereitos dos traballadores á intimidade en relación co contorno dixital e á desconexión.
 Dereitos humanos
 Deron as seis.
+Derradeira oportunidade, laretas.
 Derrogación normativa.
 Derrubaríase sobre o lago e máis alá do lago.
 Derrótase el mesmo, se o país non consente en absoluto a servidume.
@@ -5492,21 +5522,29 @@ Des que me cinchaban de novo, dedícame a inducirme a breve morte en vida.
 Des que o recoñecín, arrastreime ata a porta e berrei pola reixa:
 Des que saian, sígueos.
 Desa tan doce prisión a miña alma, querida, se aprace…
+Desacougada pola longa ausencia de seu pai...
+Desafialos é cortexar á morte.
 Desafíos de futuro
 Desaloxan un cruceiro
+Descanso para ir ao baño.
 Descende o paro nos Quince
 Desconcertados por este desastre, abandonaron a aventura pola tarde.
+Desconectaches as liñas de transmisión?
 Descubrindo os Robinson
 Descubríronse novos planetas
 Desculpa sempre, fíase sempre, espera sempre, atura sempre».
 Desculpa, podo facerche una pregunta?
+Desculpade a desorde.
+Desculpe, non hai gasolina preto.
 Desculpen. Perdón.
 Descúlpenme mentres vou buscar á muller da casa.
 Descúlpenme un intre.
 Desde Seixo Branco vese a torre de Hércules.
 Desde aí ves ben se ela vén?
 Desde ben cediño traballaba todo o día
+Desde cando es capaz de facelo?
 Desde cando levas audífonos?
+Desde cando un atallo é facer trampa?
 Desde logo que era un problema!
 Desde logo que lle fixeron a cama para pararlle os pés
 Desde o alto vense pequenas extensións de oliveira, vide e hortas
@@ -5516,6 +5554,7 @@ Desde que Tereixa chegou á Terra.
 Desde que a ciencia o respalde.
 Desde que el chegara á casa non gozaba dun minuto de paz;
 Desde que gabea xa non rouba.
+Desde que rompe as normas establecidas do xogo.
 Desde que te coñezo, non deixas de darme sorpresas
 Desde xa, non esperes a mañá
 Desdéixanse no mesmo que nós nos desdeixamos.
@@ -5533,24 +5572,31 @@ Desexando que morran.
 Desexei que quedase.
 Desexos
 Desfruta da vida e fai que os demais desfruten da súa.
+Desfruta do libro.
 Desfrutaremos de sol durante toda a xornada.
+Desfrútao, de todos os xeitos, é a túa derradeira oportunidade
 Desgraciados rebeldes.
+Desgraciados, mortos de fame.
 Designación dun delegado de protección de datos.
 Desigualdade das mulleres
 Deslizámonos a través dun bosque, o tren voa.
 Desmaiarme así
 Desobedecino e el enfadouse.
+Desornei todo e non reparei no que era glorioso.
 Despachouse a gusto na "Gazzeta dello Sport" sobre a última temporada no Barça
 Despechei a porta e comecei a abrila amodo.
 Despechei a porta e entrei no corredor.
 Despedida
 Despediron as mulleres, e todos empezamos a beber, grolo a grolo, cunca tras cunca.
+Despegando selado de baleiro de grande altitude.
 Desperta do teu sono fogar de Breogán!
 Despois acertaches cos dous á segunda.
 Despois anoa os zapatos.
 Despois atravesamos directamente o corpo do sol.
+Despois botaba unha soneca ata as tres ou as catro.
 Despois caeron os dous no medio dun turbillón entolecido de auga.
 Despois da parva xa falaremos.
+Despois da rolda de prensa
 Despois da sala viña o cuarto do meu pai
 Despois da tempestade vén a bonanza.
 Despois dalgún comentario fortuíto sobre o tempo, comentou:
@@ -5568,7 +5614,10 @@ Despois de devolver as xemas, pensei
 Despois de longo tempo, reinou o silencio.
 Despois de mostrarlle o lugar de honra, deixouno quedar só un intre.
 Despois de raptala, tardamos unha ducia de lúas en aprender as nosas respectivas falas.
+Despois de ti.
+Despois de todo iso, segues sen saber quen é a nai do teu fillo?
 Despois de todo, tamén estás parado na cola!
+Despois de varios meses, a policía suspendeu a busca.
 Despois de volta ás súas cadeiras, fitando entre bocado e bocado, en silencio.
 Despois decidín comezar a arrincar todo o empapelado que puiden estando de pé.
 Despois desta déixoo todo e marcho.
@@ -5576,12 +5625,14 @@ Despois dirixíronse ao pub cunha présa que Concha non comprendía.
 Despois diso, as xemas non tiñan un fin
 Despois diso, levou a conversa por camiños máis xerais.
 Despois diso, visitábanos a miúdo, varias veces ao longo da semana.
+Despois diso, é imposible detelo.
 Despois disto foi tamén onda o rabaño para ve-las cabras e mailo pastor.
 Despois disto, non podedes impedir que me bata con el.
 Despois do éxito acadado en tal traballo, coa caída da noite volta.
 Despois díxolle:
 Despois escoitamos pola súa respiración baixa e regular que durmía.
 Despois fentos, plumas brancas, sempre, sempre, sempre...
+Despois foise do pobo
 Despois fíxose o silencio.
 Despois houbo un grande silencio, coma se todos estiveran agardando que falara o oráculo.
 Despois pasean unhas vacas pola cidade de Lugo... para falar de baloncesto!
@@ -5595,11 +5646,14 @@ Despois, cunha calma nova apenas recuperada, o sorriso nos beizos, díxolle:
 Despois, esperamos e convencemos o garda para que nos deixe follear o xornal.
 Despois, iríanse recuperando aos poucos, pero meteríalles un segundo tétano e espicharían todos.
 Despois, o ancián dixo:
+Despois, o teu home;
 Despois, retomaba os seus xeitos de nai moza, de irmá amada.
+Despregade as gavias.
 Despropósito e vergoña para a humanidade.
 Despropósitos
 Desta aldea de labregos nada quedou.
 Desta forma, a inflación interanual na comunidade galega sitúase no catro por cento.
+Desta merda de mapamundi que che puxeron.
 Desta segunda vertente infírese a conseguinte obrigación de depurar o ordenamento xurídico.
 Desta si que non pasa, de mañá non pasa
 Desta volta era un libro de historia, non lembro o autor.
@@ -5618,8 +5672,11 @@ Deste xénero é característico o uso de guitarras
 Destes opostos nace o que as xentes relixiosas chaman o ben e o mal.
 Destino: a manifestación de Santiago.
 Destruídas.
+Destrúe a carta cando acabes, vale?
 Desviaron os voos do aeroporto de Alvedro para Lavacolla polo forte vento.
+Deséxovos unha boa viaxe e boa sorte, paspáns.
 Detectan un aumento progresivo deste mal
+Detecto tres individuos.
 Determinación do alcance territorial.
 Determinadas palabras fan que se coloque diante do verbo
 Detido un home por causar un incendio forestal nas Nogais
@@ -5633,10 +5690,14 @@ Deu positivo en covid.
 Deu un paso atrás ante o avance dos seus dedos estendidos.
 Deu voltas na cama pero non había xeito de durmir.
 Deuche algunha pista?
+Deuche unha oportunidade.
 Deulla a Toño.
+Deulle á súa carreira un final feliz.
 Deume a risa, non o puiden evitar
 Deume un couce coa man coa que escribe.
 Deume ánimo, ben que o necesitaba
+Deunos o seu zapato!
+Deunos un sinal.
 Deus axuda a quen cedo madruga.
 Deus do ceo!
 Deus dá codias a quen non ten dentes
@@ -5647,7 +5708,11 @@ Deus vive, e o seu reino está próximo.
 Deus!
 Deus! Daría a man dereita por... poder levalo ata esa... puta dinamita.
 Deus, abondaba con mirala ós ollos...
+Deus, esta é a cociña, eh?
+Deus, gafas para a ópera!
+Deus, hai moito que non falamos, non si?
 Deus, non importa canto o tente, non dou lembrado o que esquecín.
+Deus, parezo meu pai.
 Deus, que muller.
 Deus, que mundo.
 Deus, un simple lobo de mar...
@@ -5656,14 +5721,25 @@ Deus. E... córtaa!
 Deus. Se cadra está inventándoo.
 Deuvos moito que facer?
 Devezo por comer un bo cocido
+Dez por isto?
+Dez veces máis grande.
 Dez.
 Dezasete quilos.
+Di algo, por favor.
+Di o que pensas, fillo.
+Di que foi o seu guía nunha cacería.
+Di que houbo un pulso de enerxía aquí.
 Di que lle gusta estar soa cando ten un libro novo que ler.
 Di que non lle gustan os paxaros, pero ten un papagaio na casa.
+Di que non quere que ninguén máis enferme!
+Di que non se poñen os cotobelos na mesa.
+Di que os paxaros están mendigando.
+Di que ten un óso roto e necesita inmovilizalo.
 Diante de min vexo cadrados perfectamente trazados.
 Diante dos meus ollos os transeúntes continúan camiñando un tras outro.
 Diario dun escándalo
 Dicir que o actual goberno de Brasília é liberal é unha falacia.
+Dicirche que non ía volver a casa
 Dicía Jean Cocteau que a moda é o que pasa de moda.
 Dicía así:
 Dicía dun home moi de seu: "Queimaría a vosa casa para cociñar dous ovos."
@@ -5679,12 +5755,16 @@ Diga o seu código de acceso da maneira máis clara posible
 Diga o seu nome completo, apelidos e data de nacemento.
 Diga se son verdadeiras ou falsas as seguintes frases.
 Diga, foi xacando un samurai?
+Digamos que ben.
 Digamos que nacín nun rueiro de Minnesota.
 Digamos que o ben común
 Digamos que o outono é coma un tipo sospeitoso e persistente.
+Digamos que si.
 Digamos, que o peixe está xa case todo na cesta.
 Digan os expertos en linguas austrais se atinei.
 Digo eu que haberá que falar, procurar unha nova localización.
+Digo que a derradeira persoa que as viu con vida podería dicírnolo.
+Digo que as cousas cambian.
 Digo... "Non como comida".
 Dille á miña familia que lles quero.
 Dille ás rapazas que paren de brincar
@@ -6011,27 +6091,50 @@ Débolle o meu éxito a xulgar ben ás persoas.
 Débollo ó meu fillo.
 Décheslle un bo susto a unhas pombas, iso si.
 Déixaa ir, ho!
+Déixaas aquí enriba.
 Déixalle o mando a túa irmá, que ti levas todo o día con el.
 Déixalles contala.
+Déixame aliviar a túa carga, irmán.
+Déixame en paz!
+Déixame en paz.
 Déixame facelo, mamá!
 Déixame facelo. Déixame facer algo bo.
+Déixame facer algo bo.
 Déixame facerche unha pregunta.
+Déixame falar con ela.
 Déixame mirar ese vídeo no Youtube no que saían gatos na auga
 Déixame morrer no leito soñando con flores de ouro
 Déixame moverte.
 Déixame na Praza de Pontevedra, onda o semáforo.
+Déixame o teu zapato!
+Déixame probar outra vez.
 Déixame que che conte un incidente.
+Déixame sacar a pegada dactilar.
+Déixamo a min.
 Déixao todo, vamos!
 Déixasme as páxinas dos deportes?
 Déixasme sentar aquí?
 Déixate de chanzas, que os montes teñen oídos
+Déixate de códigos.
+Déixate de fotos no baño.
+Déixate de lerias.
 Déixeme axudarlle a erguerse.
+Déixeo en paz!
+Déixoo todo organizado.
 Démoslle as grazas á caixeira e saímos felices da tenda.
 Déralles unha palmadiña no lombo por última vez mentres se amoreaban no meu colo.
 Déronche o resultado da proba de antíxenos?
+Déronlle un tiro á túa irmá.
+Déronlle un tiro!
+Déronlle un tiro.
+Déronme a escoller.
 Déronnos coa porta nos fociños
+Déronnos iso, é certo.
+Déronnos un permiso
 Día de festa.
+Día de peche
 Día e noite, téñolle desexado o mal a ese empregado.
+Dígalles que poñan os espectrómetros no faiado e os calibren para raios gamma.
 Dígame o que é iso da ikebana.
 Dígame un actor imprescindíbel da Xeración Nós
 Dígoche
@@ -9130,8 +9233,16 @@ Iguais e diferentes, podemos vivir xuntos?
 Igual de longa é a súa espera.
 Igual debías.
 Igual isto díxoo o home vello con bigotes...
+Igual mellor se viramos.
+Igual non che alegra telo feito.
+Igual non o desfrutas.
+Igual non é cousa de armas.
 Igual o peón que o millonario.
+Igual o tiña merecido.
 Igual que os cabaleiros gobernan as copas, estes nobres coregos gobernan o canto.
+Igual que poden ver cousas que aínda non pasaron...
+Igual que ti e eu estamos a falar.
+Igual tes que escribilo.
 Igual é que aquí os rapantes son moi caros
 Igualdade
 Igualdade pon en marcha a Unidade Muller e Ciencia
@@ -9142,37 +9253,60 @@ Imaxe completa do vicio, fareille o retrato en dúas palabras:
 Imaxe da presentación de Fiatex na sede da Cámara de Comercio de Santiago
 Imaxe de Kung Fu Panda.
 Imaxe de arquivo dunha oficina do Banco Pastor
+Imaxina o decepcionada que quedaría ao verme a min.
 Imaxine esa muller intolerable…
 Imaxinemos máis ben un Anteo, de sesenta cóbados
+Imaxino que para ti é como respirar.
 Imaxínoo nunha cadeira, levando unha levita negra, non moi alto.
 Imita ata ó mesmo Pan tocando a sirinxe.
 Imitaba ao dos ríos que corren dos grises desertos do norte?
+Imos a Praga.
+Imos alí partilas.
 Imos aló!
 Imos aló.
 Imos aló?
 Imos bailar
+Imos cara ao Doutor
 Imos cara ao doutor malencarado.
+Imos cear fóra.
 Imos come-lo polbo á feira?
+Imos de camiño ó soto.
 Imos de voda este sábado.
 Imos disfrazarvos de nenas −proseguiu−, pois pode que así non vos disparen.
+Imos en camiño.
+Imos en prazo?
+Imos en tres, dous, un.
 Imos estar ben.
 Imos facelo.
 Imos falando!
 Imos fóra, que saíu unha raiola
+Imos golpealo cun ladrillo?
 Imos ir curtos de persoal, sabedes?
+Imos lanzala nun foguete!
 Imos levar un radiador da casa para quentar un pouco o primeiro andar.
+Imos levarte ao avión.
 Imos logo nós ata alí, que xa se nos fai tarde.
 Imos matalo ben esta vez.
 Imos morrer de fame.
+Imos morrer todos!
+Imos morrer todos.
 Imos ou non ao cine?
+Imos por el.
+Imos por este fillo de puta.
+Imos poñer unha nova norma
+Imos precisar un gran cerebro.
 Imos reunir a todo o equipo, si? Estamos traballando niso agora.
+Imos sacarte de aí.
 Imos seguir xogando
 Imos silandeiros, beiriña do ar, antes que ese río o leve para o mar
 Imos tomar unha tapiña de polbo? Veña, vamos, anda!
 Imos ver ese ascenso.
 Imos ver se podemos arranxala.
 Imos xunto vosa
+Imos á Torre Eiffel.
+Imos á casa.
 Imos á tenda e compro medio litro de vodka.
+Imos á ópera!
 Imos ó Espírito.
 Imos! A marcha, a carga, o deserto, o aburrimento e a cólera.
 Imos! finxamos, lacazaneemos, oh piedade!
@@ -18585,6 +18719,9 @@ de val en val e de coto en coto
 debería quedar na casa e non relacionarse coa xente...
 deberían tela botado ós porcos
 decidir sobre cal sería a mellor opción para corrixir esas presuntas anomalías
+declarou a alerta vermella
+deixe o seu pobo e a súa familia
+deixounos o nicho.
 deixábaos quedar na sala, a estancia máis suntuosa da casa.
 demasiadas aldraxes imposibles de compensar máis que coa morte.
 demorábase unha hora e seu pai rifaríalle.
@@ -18596,6 +18733,9 @@ desde o mesmo intre en que lle naceran as pernas enmudecera.
 designa o mundo dos homes, a rexión da existencia humana.
 despois do solsticio de verán xa non ían requirir os meus servizos.
 despois pecho con chave a porta e bótome no sofá.
+detido co obxectivo.
+dezaoito anos ata que el chegou.
+dicirlles que imos de camiño
 dicíndovos a verdade, aínda pensaba velas máis medradas
 dixo o misioneiro cun sorriso de satisfacción–.
 diálogo a través dos medios
@@ -18603,6 +18743,7 @@ doado incendiala cando lle peta, caso de que os cidadáns se rebelen.
 dous pioneiros da aviación.
 durante estes meses tamén soñamos, como levamos facendo desde o primeiro
 dábanme cromos para que lles ensinase o de abaixo.
+déixame que che explique algo.
 dúas horas máis tarde.
 dúas persoas conversan.
 dúas pías de porcelana en forma de anxo

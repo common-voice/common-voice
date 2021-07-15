@@ -112,6 +112,7 @@ my = 緬甸語
 myv = 厄茲亞語
 nb-NO = 挪威語（Bokmål）
 ne-NP = 尼泊爾語
+nia = 尼亞斯語
 nl = 荷蘭語
 nn-NO = 挪威語（Nynorsk）
 oc = 奧西坦語

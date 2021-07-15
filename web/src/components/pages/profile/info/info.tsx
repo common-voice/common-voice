@@ -365,9 +365,10 @@ function ProfilePage({
                 checked={sendEmails}
               />
 
-              {!user.account && !isSubmitted && (
-                <>
+
+
                   <LabeledCheckbox
+                    {...(user.account || isSubmitted) ? {disabled: true} : {}}
                     label={
                       <>
                         <Localized id="accept-privacy-title">
@@ -397,8 +398,8 @@ function ProfilePage({
                       blank
                     />
                   </Localized>
-                </>
-              )}
+
+
             </div>
           </div>
 

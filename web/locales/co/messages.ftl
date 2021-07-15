@@ -571,6 +571,8 @@ report-title = Invià un raportu
 report-ask = Qualessu hè u prublemu chè voi incuntrate incù sta frasa ?
 report-offensive-language = Parlà inghjuriosu
 report-offensive-language-detail = L'infrasata cuntene parullacce
+report-grammar-or-spelling = Sbagliu grammaticu/urtugrafiu
+report-grammar-or-spelling-detail = L'infrasata hà un sbagliu di grammatica o d'urtugrafia.
 report-different-language = Parlà sfarentu
 report-different-language-detail = Hè scrittu in un parlà sfarentu di quellu ch'o parlu.
 report-difficult-pronounce = Difficiule à prununcià
@@ -611,7 +613,9 @@ show-ranking = Muscià a mo classifica
 
 ## Custom Goals
 
+get-started-goals = Principià incù i scopi
 create-custom-goal = Creà un scopu parsunale
+goal-type = Chì sorte di scopu vulete custruì ?
 both-speak-and-listen = Tramindui
 daily-goal = Scopu di u ghjornu
 weekly-goal = Scopu di a settimana
@@ -620,6 +624,7 @@ average-difficulty = Mediana
 difficult-difficulty = Difficiule
 pro-difficulty = Prufessiunale
 want-to-continue = Vulete cuntinuà ?
+lose-changes-warning = Partendu avà, i vostri cambiamenti seranu persi
 build-custom-goal = Definisce un scopu parsunale
 help-reach-hours-pluralized =
     Aiutateci à ghjunghje { NUMBER($hours) ->
@@ -641,6 +646,8 @@ n-clips-pluralized =
         [one] { $count } campionu
        *[other] { $count } campioni
     }
+help-share-goal = Aiutate ci à truvà voci in più, spartite u vostru scopu
+confirm-goal = Cunfirmà u scopu
 goal-interval-weekly = Settimanale
 weekly-goal-created = U vostru scopu sittimanale hè statu creatu
 daily-goal-created = U vostru scopu ghjurnalieru hè statu creatu
@@ -677,6 +684,7 @@ card-button-next = Seguita
 card-button-back = Nanzu
 demo-language-select-label = Splurà e lingue
 demo-eofy-header = Publicazione di a fine d'annata 2019
+demo-eofy-sub_header = Banca di data pronta pà u scaricamentu
 demo-account = Contu
 
 ## Demo Account

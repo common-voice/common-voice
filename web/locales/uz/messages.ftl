@@ -165,14 +165,14 @@ zh-TW = Xitoycha (Tayvan)
 
 ## Layout
 
-speak = O'qing
+speak = Oʻqish
 speak-now = O'qishni boshlash
 datasets = Maʼlumotlar toʻplami
 languages = Tillar
 about = Biz haqimizda
 profile = Profile
 help = Yordam
-contact = Kontakt
+contact = Bogʻlanish
 privacy = Maxfiylik
 terms = Shartlar
 cookies = Kukilar
@@ -194,16 +194,16 @@ wall-of-text-more-desktop = Endi ochiq manbali ovoz maʼlumotlar bazasi uchun ov
 wall-of-text-first = Ovoz – tabiiy, ovoz – insonga xos, shuning uchun biz mashinalar uchun foydalaniladigan ovoz texnologiyasini yaratyapmiz, lekin ovoz tizimlarini yaratish uchun dasturchilarga juda katta miqdoridagi ovoz maʼlumotlari kerak boʻladi.
 wall-of-text-second = Katta kompaniyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olishmaydi. Bizning fikrimizcha, bu innovatsiyalarni soʻndiradi. Shuning uchun biz hamma foydalana oladigan ovozni tanish – Common Voice loyihasini ishga tushirdik.
 show-wall-of-text = Batafsil
-help-us-title = Gaplarni tasdiqlashda yordam bering!
+help-us-title = Jumlalarni saralashga yordam bering!
 help-us-explain = Ijro tugmasini bosing, tinglang va gaplar toʻgʻri talaffuz qilinganligi haqida bizga xabar bering.
 no-clips-to-validate = Bu tilda eshitish uchun hech qanday yozuv yoʻqqa oʻxshaydi. Ovozingizni yozib, bizga yordam qiling.
 vote-yes = Ha
 vote-no = Yoʻq
 toggle-play-tooltip = Ijro rejimiga oʻtish uchun { shortcut-play-toggle } ustiga bosing
-speak-subtitle = Ovozingiz bilan yordam qiling
+speak-subtitle = Ovozingizni hadya qiling
 speak-paragraph = Ovoz yozish bizning ma’lumot jamlanmalarimizning ajralmas qismidir. Hato ba’zilar bu jarayonni juda qiziq ham deyishadi.
 speak-goal-text = Yozilgan kliplar
-listen-subtitle = Ovozlarni tekshirishda yordam bering
+listen-subtitle = Ovozlarni saralashga yordam bering
 listen-paragraph = Qoʻshilgan ovozlarni tekshirish – Common Voice loyihasi uchun juda muhim. Ovozlarni tinglang va sifatli ochiq manbali ovoz maʼlumotlarini yaratishda yordam bering.
 listen-goal-text = Kliplar tekshirildi
 hours-recorded = Yozib olingan soat
@@ -233,7 +233,7 @@ x-years-short =
 help-make-dataset = Bizga yuqori sifatli ommaviy maʼlumotlar bazasini yaratishga yordam bering
 sign-up-account = Akkauntni roʻyxatdan oʻtkazish
 email-subscription-title = Yangiliklardan xabardor boʻlib turish uchun e-pochta orqali obuna boʻling
-email-subscription-title-new = Common Voiceʼning maqsadlar va yangilishlar haqidagi bildirishnomalariga obuna boʻling
+email-subscription-title-new = Common Voice'ning imkoniyatlar va yangiliklar haqidagi xabarnomasiga obuna bo‘ling.
 
 ## Account Benefits
 
@@ -309,15 +309,15 @@ profile-form-native-language =
 profile-form-additional-language =
     .label = Qoʻshimcha til
 profile-form-accent =
-    .label = Aksent
+    .label = Lahja
 profile-form-age =
     .label = Yosh
 profile-form-gender-2 =
     .label = Jins
 leaderboard-visibility =
-    .label = Meni liderlar safida koʻrsatish
+    .label = Mening yetakchilar safidagi ko‘rinishim
 hidden = Yashirin
-visible = Koʻrinarli
+visible = Oshkor
 native-language =
     .label = Ona tili
 profile-form-submit-save = Saqlash
@@ -347,10 +347,10 @@ login-signup = Kirish/Roʻyxatdan oʻtish
 edit = Tahrirlash
 email-subscriptions = E-pochta orqali obuna
 download-profile = Ma’lumotlarni yuklab olish
-contribution-experience = Hissangizga baho bering
-skip-submission-feedback = Ishga baho berishni tashlab ketish
-skip-submission-description = Hisobni yuborish paytida fikr-mulohaza "Yuborish" ni bosgandan so'ng o'tkazib yuboriladi. Hissa to'g'ridan-to'g'ri keyingi 5 ta yozuv to'plami yoki tasdiqlash bilan davom etadi.
-skip-submission-note = Diqqat: hissa qoʻshish turini oʻzgartirish uchun “Gapirish” yoki “Tinglash”dan birini tanlashingiz lozim.
+contribution-experience = Hissa qoʻshish tajribasi
+skip-submission-feedback = Yuborishdan oldingi statistik ma’lumotni oʻtkazib yuborish
+skip-submission-description = “Yuborish” tugmasini bosgan vaqtingizda qoʻshgan hissangiz haqidagi statistik ma’lumotni oʻtkazib yuborib, toʻgʻridan-toʻgʻri keyingi 5 ta jumlani oʻqish yoki yoki saralash qismiga oʻtadi.
+skip-submission-note = Eslatma: Siz baribir “Oʻqish” yoki “Tinglash” boʻlimidan birini tanlashingizga toʻgʻri keladi.
 off = Oʻchiq
 on = Yoniq
 
@@ -374,7 +374,7 @@ change-email-setings = Kirish identifikatori boʻlimi orqali emailingizni oʻzga
 
 ## FAQ
 
-faq-title = Savol-javob
+faq-title = Tez-tez soʻraladigan savollar
 faq-what-cv-q = Common Voice nima?
 faq-what-cv-a =
     Ovozni aniqlash texnologiyasi biz mashinalar bilan o'zaro munosabatimizni o'zgartiradi, ammo mavjud tizimlar qimmat va xususiydir. Common Voice - bu Mozilla kompaniyasining ovozni aniqlash texnologiyalarini yanada yaxshiroq va hammaga ochiq qilish uchun tashabbusining bir qismidir. Common Voice - bu har qanday odamga har qanday tilda ovozli dasturlarni tez va osongina o'rgatish imkoniyatini beradigan dono ovozlarning ulkan global ma'lumotlar bazasi.
@@ -395,7 +395,7 @@ faq-what-cv-and-deepspeech-q = Common Voice va Deep Speech orasida qanday farqla
 faq-what-cv-and-deepspeech-a = Common Voice ma'lumotlar bazasi Mozilla-ni ovoz manbaini aniqlash vositasi Deep Speech-ni to'ldiradi. Deep Speechning birinchi versiyasi 2017 yil noyabr oyida chiqarildi va shu paytdan beri rivojlanishda davom etmoqda. Common Voice ma'lumotlar bazasi bilan birgalikda ovozni aniqlash texnologiyasi hamma uchun mavjud bo'lishi kerak deb hisoblaymiz. Umid qilamizki, ushbu texnologiyalar ishlab chiquvchilarga innovatsion mahsulot va xizmatlarni yaratishga imkon beradi.
 faq-is-goal-assistant-q = Common Voiceʼning maqsadi ovozli yordamchi yaratishmi?
 faq-is-goal-assistant-a = Umumiy ovozli ma'lumotlar bazasining maqsadi dunyodagi har bir kishiga nutqni aniqlash, karnayni aniqlash yoki ovozli ma'lumotlarni talab qiladigan har qanday boshqa turdagi dasturlarni yaratishdir. Ovozli yordamchi - bu ma'lumotlar bazasini yaratishda foydalanishingiz mumkin bo'lgan ko'pgina ilovalardan biri.
-faq-do-want-native-q = Ushbu til mening ona tilim boʻlmaganligi uchun aksent bilan gapiraman. Mening ovozim sizlarga asqatadimi?
+faq-do-want-native-q = Ushbu til mening ona tilim boʻlmaganligi uchun lahja bilan gapiraman. Mening ovozim sizlarga asqatadimi?
 faq-do-want-native-a = Ha, biz ayniqsa sizning ovozingizni xohlaymiz! Umumiy ovozning maqsadlaridan biri, ovozni aniqlash xizmatlari hamma uchun bir xil darajada ishlashi uchun iloji boricha ko'proq turli xil aksanlarni to'plashdir. Bu shuni anglatadiki, ona tilida so'zlashmagan kishilarning xayriyalari ayniqsa muhimdir.
 faq-why-different-speakers-q = Bitta tilda gaplasha oladigan shuncha insonlar sizlarga nima uchun kerak?
 faq-why-different-speakers-a =
@@ -465,8 +465,8 @@ about-partnership =
 about-get-involved = Jamiyatga qo‘shiling
 about-get-involved-text-2 =
     Umumiy ovozni yanada yaxshilashga yordam bermoqchimisiz?
-    Ajoyib! Elektron pochta yoki <discourseLink> Diskurs </discourseLink> orqali bog'laning
-    forumlarda qatnashish, sayt muammolarini <githubLink> GitHub </githubLink> orqali yuborish yoki qo'shilish
+    Ajoyib! Elektron pochta yoki <discourseLink> Muhokama </discourseLink> orqali bogʻlaning
+    forumlarda qatnashish, sayt muammolarini <githubLink> GitHub </githubLink> orqali yuborish yoki qoʻshilish
     <matrixLink> Matrix </matrixLink> jamoaviy suhbat.
 about-nav-why-common-voice = Nega?
 about-nav-how-it-works = Qanday ?
@@ -481,15 +481,15 @@ mycroft-secondary-description = Bu ochiq kodli dasturiy ta'minot bo'lib, uni erk
 
 ## Glossary
 
-glossary = Glossariy
+glossary = Lug‘at
 localization = Mahalliylashtirish
 localization-explanation = Bu ko'plab tillar (tillar) uchun tarkibimizni moslashtirish va moslashtirish bo'yicha bizning jarayonimiz.
 sentence-collection = Gaplar to'plami
 sentence-collection-explanation = Jamoat mulki bo'lgan jumlalarni yig'ish yoki jamoat mulki uchun yangisini yozish.
 hours-recorded-explanation = Ovozni yozib olish soatlari hozirgacha to'plangan.
 hours-validated-explanation = Ovoz berish orqali 3 foydalanuvchidan 2 nafari "Ha" ovozi bilan ovozni yozib olish soatlarining soni. Bular loyihaning umumiy 10k soatlik maqsadiga erishishni anglatadi.
-sst = Matndan-matnga (STT)
-sst-explanation = Speech-to text (STT) texnologiyalari ovoz ma'lumotlarini matnga o'zgartiradi.
+sst = Nutqdan-matnga (STT)
+sst-explanation = Speech-to text (STT) texnologiyasi ovozli ma’lumotlarni matnga o‘tkazib beradi.
 de-identified = Aniqlangan
 de-identified-explanation = Ma'lumotlar to'plamining bir qismi sifatida yuklab olish uchun to'planganida, hissa qo'shganning shaxsiy ma'lumotlarini xayriya qilingan ovozli kliplaridan yashirish jarayoni.
 
@@ -579,7 +579,7 @@ data-other-ted-description = TED-LIUM to‘plami TED saytida mavjud bo‘lgan au
 data-other-voxforge-description = VoxForge – erkin va ochiq manbali nutqni tanish tizimlaridagi transkripsiya qilingan nutqlarni to‘plash uchun sozlangan.
 data-other-tatoeba-description = Tatoeba –  katta hajmdagi til o‘rganish uchun talaffuz qilingan audio fayllar, jumlalar va tarjima bazasidan iborat. Yuklanayotgan to‘plamda ingliz tilida talaffuz qilingan jumlalar mavjud.
 your-feedback = "Umumiy ovoz" ma'lumotlar bazasini qanday yaxshilashimiz mumkinligi haqida fikringiz bormi? Diskursda bizga xabar bering
-go-discourse = Diskursga o'ting
+go-discourse = Muhokamaga oʻting
 missing-language = Ma'lumotlar bazasida sizning tilingizni ko'rmayapsizmi? Bizning Tillar sahifamizga til boshini so'rash.
 go-languages-page = Tillar sahifasiga o'ting
 ready-to-validate = Jumlalarni tasdiqlashga yordam berishga tayyormisiz?
@@ -647,8 +647,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> Kliplar
        *[other] <bold>{ $count }</bold> Kliplar
     }
-goal-help-recording = Siz Common Voice loyihasini { $goalValue }dagi kunlik rejamizdan <goalPercentage></goalPercentage> natijaga erishishiga yordam berdingiz!
-goal-help-validation = Siz Common Voice loyihasini { $goalValue }dagi kunlik tekshiruv rejamizdan <goalPercentage></goalPercentage> tekshilishiga yordam berdingiz!
+goal-help-recording = Common Voice loyihasining kunlik { $goalValue } ta audio tasmadan iborat maqsadining <goalPercentage></goalPercentage> qismi yakunlanishiga yordam berding!
+goal-help-validation = Common Voice loyihasining kunlik { $goalValue } ta audio tasmadan iborat maqsadining <goalPercentage></goalPercentage> qismi tekshirilishiga yordam berdingiz.
 contribute-more =
     { $count ->
         [one] Yana { $count } ta bajarishga tayyormisiz?
@@ -721,7 +721,7 @@ report-success = Hisobot muvaffaqiyatli qabul qilindi
 
 ## Goals
 
-streaks = Chiziqlar
+streaks = Uzluksiz
 days =
     { $count ->
         [one] kun
@@ -748,7 +748,7 @@ clips-you-validated = Siz tasdiqlagan kliplar
 todays-recorded-progress = Yozib olingan kliplardagi bugungi "Umumiy ovoz" muvaffaqiyati
 todays-validated-progress = Yozib olingan kliplardagi bugungi "Umumiy ovoz" muvaffaqiyati
 stats = Statistika
-awards = Mukofotlar
+awards = Yutuqlar
 you = Siz
 everyone = Barcha foydalanuvchilar
 contribution-activity = Hissa berish faoliyati
@@ -758,7 +758,7 @@ validated-clips = Tekshilgan soatlar miqdori
 total-approved = Hammasi ma'qullangan
 overall-accuracy = Umumiy aniqlik
 set-visibility = Ko'rinishni sozlang
-visibility-explainer = Ushbu sozlama etakchilar panelidagi ko'rinishni boshqaradi. Yashirin bo'lsa, muvaffaqiyatingiz shaxsiy bo'ladi. Bu sizning rasmingiz, foydalanuvchi ismingiz va taraqqiyotingiz peshqadam taxtasida ko'rinmasligini anglatadi. E'tibor bering, o'zgarishlarni to'ldirish uchun peshqadamlarni yangilash ~ daqiqada daqiqa davom etadi.
+visibility-explainer = Ushbu sozlama sizning nomingiz yetakchilar ro‘yxatida qanday ko‘rinishini belgilaydi. Yashirin bo‘lsa, qo‘shgan hissangiz maxfiy bo‘ladi. Buni tanlaganda rasmingiz, foydalanuvchi ismingiz va hissadorlar safidagi o‘rningiz yetakchilar jadvalida aks etmaydi. Diqqat qiling, o‘zgarishlarni ko‘rish uchun,  yetakchilar ro‘yxati yangilanishi ~{ $minutes } daqiqa ichida amalga oshadi.
 visibility-overlay-note = Eslatma: "Ko'rinadigan" qilib belgilansa, ushbu sozlamani <profileLink> profil sahifasi </profileLink> dan o'zgartirish mumkin.
 show-ranking = Mening reytingimni ko'rsating
 
