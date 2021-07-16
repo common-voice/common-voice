@@ -193,8 +193,10 @@ export default class AudioWeb {
       // We want to be able to record up to 60s of audio in a single blob.
       // Without this argument to start(), Chrome will call dataavailable
       // very frequently.
+      // 250 was chosen to deal with a FF87.0 bug - see
+      // https://github.com/webcompat/web-bugs/issues/67243#issuecomment-809777124
       this.jsNode.onaudioprocess = this.analyze;
-      this.recorder.start(20000);
+      this.recorder.start(250);
     });
   }
 
