@@ -112,6 +112,7 @@ my = Burmašćina
 myv = Erzya
 nb-NO = Norwegski Bokmål
 ne-NP = Nepalšćina
+nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
 oc = Okcitańšćina
