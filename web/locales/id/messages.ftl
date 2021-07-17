@@ -11,7 +11,7 @@ loading = Memuat…
 email-opt-in-info = Saya bersedia menerima surel seperti pengingat sasaran, pembaruan progres, dan nawala tentang Common Voice.
 email-opt-in-info-title = Bergabunglah dengan milis Common Voice
 email-opt-in-info-sub-with-challenge = Terima email seperti pengingat tantangan dan sasaran, pembaruan kemajuan, dan buletin tentang Common Voice.
-email-opt-in-privacy = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
 indicates-required = * Wajib diisi
 not-available-abbreviation = N/A
 
@@ -33,14 +33,18 @@ as = Bahasa Assam
 ast = Bahasa Asturia
 az = Bahasa Azeri
 ba = Bahasa Bashkir
+bas = Bahasa Basaa
 be = Bahasa Belarusia
 bg = Bahasa Bulgaria
+bm = Bahasa Bambara
 bn = Bahasa Bengali
 br = Bahasa Breton
 bxr = Bahasa Buryat
 ca = Bahasa Katalan
 cak = Bahasa Kaqchikel
+ckb = Bahasa Kurdi Tengah
 cnh = Bahasa Hakha Chin
+co = Bahasa Korsika
 cs = Bahasa Ceko
 cv = Bahasa Chuvash
 cy = Bahasa Wales
@@ -62,11 +66,13 @@ fr = Bahasa Perancis
 fy-NL = Bahasa Frisia
 ga-IE = Bahasa Irlandia
 gl = Bahasa Galisia
+gn = Bahasa Guarani
 ha = Bahasa Hausa
 he = Bahasa Ibrani
 hi = Bahasa Hindi
 hr = Bahasa Kroasia
 hsb = Bahasa Sorbia Hulu
+ht = Bahasa Haiti
 hu = Bahasa Hongaria
 hy-AM = Bahasa Armenia
 hyw = Bahasa Armenia Barat
@@ -81,33 +87,40 @@ kaa = Bahasa Karakalpak
 kab = Bahasa Kabyle
 kbd = Bahasa Kabardian
 kk = Bahasa Kazak
+kmr = Bahasa Kurdi Kurmanji
 ko = Bahasa Korea
 kpv = Bahasa Komi-Zyrian
-ku = Bahasa Kurdi
 kw = Bahasa Kornish
 ky = Bahasa Kirgiz
 lg = Bahasa Luganda
 lij = Bahasa Liguria
 lt = Bahasa Lituania
 lv = Bahasa Latvia
+mai = Bahasa Maithili
 mdf = Bahasa Moksha
 mg = Bahasa Malagasi
 mhr = Meadow Mari
 mk = Bahasa Makedonia
 ml = Bahasa Malayalam
 mn = Bahasa Mongol
+mos = Bahasa Mossi
+mr = Bahasa Marathi
 mrj = Hill Mari
+ms = Bahasa Melayu
 mt = Bahasa Malta
 my = Bahasa Myanmar
 myv = Bahasa Erzya
 nb-NO = Bahasa Bokmal (Norwegia)
 ne-NP = Bahasa Nepal
+nia = Bahasa Nias
 nl = Bahasa Belanda
 nn-NO = Bahasa Nynorsk (Norwegia)
 oc = Bahasa Oksitan
 or = Bahasa Oriya
 pa-IN = Bahasa Punjabi
+pap-AW = Bahasa Papiamento (Aruba)
 pl = Bahasa Polandia
+ps = Bahasa Pashto
 pt = Bahasa Portugis
 rm-sursilv = Bahasa Romansh Sursilvan
 rm-vallader = Bahasa Romansh Vallader
@@ -117,9 +130,11 @@ rw = Bahasa Kinyarwanda
 sah = Bahasa Sakha
 sc = Bahasa Sardinia
 scn = Bahasa Sisilia
+shi = Bahasa Shilha
 si = Bahasa Sinhala
 sk = Bahasa Slowakia
 sl = Bahasa Slovenia
+so = Bahasa Somalia
 sq = Bahasa Albania
 sr = Bahasa Serbia
 sv-SE = Bahasa Swedia
@@ -134,12 +149,14 @@ tr = Bahasa Turki
 tt = Bahasa Tatar
 uby = Ubykh
 udm = Udmurt
+ug = Bahasa Uighur
 uk = Bahasa Ukraina
 ur = Bahasa Urdu
 uz = Bahasa Uzbek
 vec = Bahasa Venesia
 vi = Bahasa Vietnam
 vot = Votik
+yue = Bahasa Kanton
 zh-CN = Bahasa Tionghoa (Tiongkok)
 zh-HK = Bahasa Tiongkok (Hong Kong)
 zh-TW = Bahasa Tionghoa (Taiwan)
@@ -234,7 +251,7 @@ whats-public = Apa yang Terbuka?
 email-not-public = Kami tidak akan mempublikasikan surel Anda.
 recordings-and-locale-public = Informasi jumlah rekaman dan bahasa apa yang Anda kontribusi akan menjadi informasi terbuka.
 username-optin-public = Anda dapat memilih untuk menjadikan nama pengguna Anda publik atau anonim.
-demographic-deidentified-clarity = Data demografis yang dikirimkan secara opsional (mis. usia, jenis kelamin, bahasa, dan aksen) tidak akan pernah dipublikasikan di profil Anda, dan tidak akan ditautkan ke akun Anda di dataset. Klip suara individu akan dikaitkan dengan data demografis untuk tujuan analisis yang lebih akurat - misalnya, seorang peneliti mungkin ingin menargetkan model pelatihan ke segmen demografis tertentu.
+demographic-deidentified-clarity-2 = Data demografis yang dikirimkan secara opsional (mis. usia, jenis kelamin, bahasa, dan aksen) tidak akan pernah dipublikasikan di profil Anda, dan tidak akan ditautkan ke akun Anda di dataset. Klip suara individu akan dikaitkan dengan data demografis untuk tujuan analisis yang lebih akurat - misalnya, seorang peneliti mungkin ingin menargetkan model pelatihan ke segmen demografis tertentu.
 username-email-not-demographic = Nama pengguna dan surel Anda tidak akan dikaitkan dengan data yang dipublikasikan.
 
 ## Speak & Listen Shortcuts
@@ -263,7 +280,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Rekam/Berhenti
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rekam ulang klip
+shortcut-submit = Kembali
+shortcut-submit-label = Kirimkan klip
 request-language-text = Belum melihat bahasa Anda di Common Voice?
+request-language-text-learn = Pelajari cara mengajukannya di sini!
 request-language-button = Ajukan Bahasa
 
 ## ProjectStatus
@@ -291,7 +311,7 @@ profile-form-accent =
     .label = Logat
 profile-form-age =
     .label = Usia
-profile-form-gender =
+profile-form-gender-2 =
     .label = Jenis Kelamin
 leaderboard-visibility =
     .label = Visibilitas Papan Pimpinan
@@ -318,7 +338,7 @@ profile-close = Tutup
 profile-explanation = Pantau progres Anda dengan sebuah profil dan bantu data suara kami semakin akurat.
 thanks-for-account = Terima kasih telah mengkonfimasi akun, sekarang mari buat profil Anda.
 why-demographic = Mengapa ini berpengaruh?
-why-demographic-explanation = Data pengguna yang dianonimkan seperti usia, jenis kelamin, dan logat membantu memperbaiki data suara yang digunakan untuk melatih akurasi mesin pengenalan ucapan. Nama pengguna dan surel Anda tidak akan dikaitkan dengan data yang Anda kirimkan, dan Anda dapat memilih untuk mempublikkan nama pengguna Anda atau menjadikannya anonim.
+why-demographic-explanation-2 = Data pengguna yang dianonimkan seperti usia, jenis kelamin, dan logat membantu memperbaiki data suara yang digunakan untuk melatih akurasi mesin pengenalan ucapan. Nama pengguna dan surel Anda tidak akan dikaitkan dengan data yang Anda kirimkan, dan Anda dapat memilih untuk mempublikkan nama pengguna Anda atau menjadikannya anonim.
 accept-privacy = Saya setuju Mozilla mengelola infomasi saya sesuai yang tertera pada <privacyLink>Kebijakan Privasi</privacyLink>
 accept-privacy-title = Kebijakan Privasi
 login-identity = Identitas Masuk
@@ -332,26 +352,19 @@ skip-submission-description = Selama pengajuan kontribusi, saran akan dilewati s
 skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Dengarkan untuk mengubah jenis kontribusi.
 off = Nonaktif
 on = Aktif
-avatar-clip-title = Berikan avatar Anda suara
-change-your-avatar-clip = Ingin mengubah klip suara Anda?
-recording-in-progress = Perekaman suara sedang berlangsung
-avatar-clip-recorded = Avatar Anda sekarang termasuk klip suara!
-record-voice-wave = REKAM VOICEWAVE
-retry-voice-wave-recording = COBA LAGI
-re-record = REKAM ULANG
-delete-voice = HAPUS
-recording-voice-wave = Merekam
-delete-voice-clip = atau Hapus klip suara
-ready-to-upload = Unggah
-avatar-clip-fact = Merupakan fakta bahwa pembaca akan terganggu oleh konten yang bisa dibaca pada sebuah laman ketika melihat tata letaknya.
-recreate-voice = Buat ulang Voicewave
-cancel-avatar-clip-recording = Batal
-about-avatar-clip-recording = Buat klip suara sebagai bagian dari avatar profil Anda. Orang lain akan dapat melihat-lihat dan mendengarkan klip Anda.
+
+## Profile - Email
+
 browse-file-title = Unggah berkas gambar
 browse-file = Seret dan lepas atau <browseWrap>Telusuri</browseWrap>
 connect-gravatar = Sambungkan ke Gravatar
 gravatar_not_found = Tidak ditemukan gravatar untuk surel Anda
 file_too_large = Berkas yang dipilih terlalu besar
+avatar-uploaded = Avatar diunggah
+max-file-size = Maksimum { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Kelola Langganan
 manage-email-subscriptions = Kelola Langganan Surel
 email-already-used = Surel telah digunakan untuk akun yang berbeda
@@ -479,10 +492,11 @@ sst-explanation = Teknologi ucapan-ke-teks (STT) mengubah data suara menjadi tek
 de-identified = Diawanamakan
 de-identified-explanation = Proses dimana informasi profil kontributor dikaburkan dari klip suara yang disumbangkan ketika dikemas untuk diunduh sebagai bagian dari set data.
 
-## NotFound
+## Error pages
 
-notfound-title = Tidak ditemukan
-notfound-content = Maaf, kami tidak tahu apa yang Anda cari.
+error-title-404 = Kami tidak dapat menemukan laman itu untuk Anda
+error-content-404 = Mungkin <homepageLink>beranda</homepageLink> kami dapat membantu? Untuk bertanya, silakan bergabung di <matrixLink>grup komunitas di Matrix</matrixLink>, pantau masalah situs lewat <githubLink>GitHub</githubLink> atau kunjungi <discourseLink>forum Discourse kami</discourseLink>.
+error-title-503 = Kami mengalami waktu henti yang tidak terduga
 
 ## Data
 
@@ -622,7 +636,6 @@ contribute = Berkontribusi
 listen = Dengarkan
 skip = Lewati
 shortcuts = Pintasan
-clips-with-count = <bold>{ $count }</bold> Klip
 goal-help-recording = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari target rekaman harian kami { $goalValue }!
 goal-help-validation = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari target validasi harian kami { $goalValue }!
 contribute-more = Siap melanjutkan { $count } sisanya?
@@ -746,17 +759,13 @@ want-to-continue = Ingin melanjutkan?
 finish-editing = Selesai mengedit terlebih dahulu?
 lose-changes-warning = Pergi sekarang artinya kehilangan perubahan Anda.
 build-custom-goal = Bangun sasaran khas
-help-reach-hours = Bantu capai { NUMBER($hours) } jam dalam { $language } dengan sasaran pribadi
-help-reach-hours-general = Bantu Common Voice mencapai { NUMBER($hours) } jam dalam sebuah bahasa dengan sasaran pribadi
 set-a-goal = Tetapkan target
 cant-decide = Tak bisa memutuskan?
-activity-needed-calculation = { NUMBER($totalHours) } jam dapat dicapai hanya dalam waktu { NUMBER($periodMonths) } bulan jika { NUMBER($people) } orang merekam { NUMBER($clipsPerDay) } klip per hari.
 how-many-per-day = Hebat! Berapa banyak klip per hari?
 how-many-a-week = Hebat! Berapa banyak klip dalam seminggu?
 which-goal-type = Apakah Anda ingin Bicara, Mendengarkan, atau keduanya?
 receiving-emails-info = Saat ini Anda menetapkan untuk menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
 not-receiving-emails-info = Saat ini Anda menetapkan untuk <bold>TIDAK</bold> menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
-n-clips = { NUMBER($count) } klip
 help-share-goal = Bantu kami menemukan lebih banyak suara, bagikan sasaran Anda
 confirm-goal = Konfirmasi Target
 goal-interval-weekly = Mingguan
@@ -795,3 +804,18 @@ help-contribute = Anda dapat bantu membantu set data sumber-terbuka nan beragama
 login-company = Masuk/Daftar dengan surel { $company }
 profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
 read-more-about = Baca lebih lanjut pada laman Tentang Kami
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
