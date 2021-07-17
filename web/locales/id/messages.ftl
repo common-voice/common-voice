@@ -497,6 +497,8 @@ de-identified-explanation = Proses dimana informasi profil kontributor dikaburka
 error-title-404 = Kami tidak dapat menemukan laman itu untuk Anda
 error-content-404 = Mungkin <homepageLink>beranda</homepageLink> kami dapat membantu? Untuk bertanya, silakan bergabung di <matrixLink>grup komunitas di Matrix</matrixLink>, pantau masalah situs lewat <githubLink>GitHub</githubLink> atau kunjungi <discourseLink>forum Discourse kami</discourseLink>.
 error-title-503 = Kami mengalami waktu henti yang tidak terduga
+error-content-503 = Situs ini akan segera kembali. Untuk informasi terbaru, bergabunglah dengan <matriksLink>grup komunitas di Matrix</matrixLink> atau kunjungi <githubLink>GitHub</githubLink> atau <discourseLink>forum Discourse kami</discourseLink> untuk mengajukan dan memantau masalah pengalaman situs.
+error-code = Galat { $code }
 
 ## Data
 
@@ -513,9 +515,12 @@ data-other-goto = Kunjungi { $name }
 data-other-download = Unduh Data
 data-bundle-button = Unduh Bundel Himpunan Data
 data-bundle-description = Data Common Voice dan seluruh himpunan data suara lain di atas.
+release-version = Versi
+dataset-date = Tanggal
 license = Lisensi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Campuran
 data-download-singleword-title = Unduh Segmen Target Kata Tunggal
+data-download-singleword-callout-v2 = Ini adalah segmen berbasis kasus penggunaan yang berisi data untuk mengaktifkan pengenalan digit yang diucapkan dan pendeteksian ya / tidak.
 review-terms = Dengan menggunakan Common Voice, berarti Anda menyetujui <termsLink>Persyaratan</termsLink> dan <privacyLink>Pemberitahuan Privasi</privacyLink> kami
 terms-agree = Saya setuju
 terms-disagree = Saya tidak setuju
@@ -636,6 +641,10 @@ contribute = Berkontribusi
 listen = Dengarkan
 skip = Lewati
 shortcuts = Pintasan
+clips-with-count-pluralized =
+    { $count ->
+       *[other] <bold>{ $count }</bold> Klip
+    }
 goal-help-recording = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari target rekaman harian kami { $goalValue }!
 goal-help-validation = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari target validasi harian kami { $goalValue }!
 contribute-more = Siap melanjutkan { $count } sisanya?
@@ -678,6 +687,7 @@ share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
 keep-track-profile = Pantau kemajuan Anda dengan profil
 login-to-get-started = Masuk atau daftar untuk memulai
 target-segment-first-card = Anda berkontribusi ke segmen target pertama kami
+target-segment-generic-card = Anda berkontribusi pada sebuah segmen target
 target-segment-first-banner = Bantu buat segmen target pertama Common Voice dalam bahasa { $locale }
 target-segment-add-voice = Tambahkan Suara Anda
 target-segment-learn-more = Pelajari Lebih Lanjut
@@ -723,6 +733,7 @@ validations =
 
 your-languages = Bahasa Anda
 toward-next-goal = Menuju capaian selanjutnya
+goal-reached = Target tercapai
 clips-you-recorded = Klip yang sudah Anda rekam
 clips-you-validated = Klip yang telah Anda validasi
 todays-recorded-progress = Perkembangan Common Voice berdasarkan potongan rekaman
@@ -746,6 +757,7 @@ show-ranking = Tampilkan peringkat saya
 
 get-started-goals = Memulai dengan target
 create-custom-goal = Buat Sasaran Khas
+goal-type = Tujuan seperti apa yang ingin Anda bangun?
 both-speak-and-listen = Keduanya
 both-speak-and-listen-long = Keduanya (Berbicara dan Mendengarkan)
 daily-goal = Target Harian
@@ -759,13 +771,35 @@ want-to-continue = Ingin melanjutkan?
 finish-editing = Selesai mengedit terlebih dahulu?
 lose-changes-warning = Pergi sekarang artinya kehilangan perubahan Anda.
 build-custom-goal = Bangun sasaran khas
+help-reach-hours-pluralized =
+    Bantu capai{ NUMBER($hours) ->
+       *[other] { $hours } jam
+    }dalam { $language } dengan sasaran pribadi
+help-reach-hours-general-pluralized =
+    Bantu Common Voice mencapai{ NUMBER($hours) ->
+       *[other] { $hours } jam
+    }pada sebuah bahasa dengan sasaran pribadi
 set-a-goal = Tetapkan target
 cant-decide = Tak bisa memutuskan?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+       *[other] { $totalHours } jam
+    }tercapai hanya dalam{ NUMBER($periodMonths) ->
+       *[other] { $periodMonths } bulan
+    }jika{ NUMBER($people) ->
+       *[other] { $people } orang
+    }merekam{ NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } klip
+    }per hari.
 how-many-per-day = Hebat! Berapa banyak klip per hari?
 how-many-a-week = Hebat! Berapa banyak klip dalam seminggu?
 which-goal-type = Apakah Anda ingin Bicara, Mendengarkan, atau keduanya?
 receiving-emails-info = Saat ini Anda menetapkan untuk menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
 not-receiving-emails-info = Saat ini Anda menetapkan untuk <bold>TIDAK</bold> menerima surel seperti pengingat sasaran, pembaruan kemajuan, dan nawala tentang Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] { $count } klip
+    }
 help-share-goal = Bantu kami menemukan lebih banyak suara, bagikan sasaran Anda
 confirm-goal = Konfirmasi Target
 goal-interval-weekly = Mingguan
@@ -807,15 +841,35 @@ read-more-about = Baca lebih lanjut pada laman Tentang Kami
 
 ## DemoLayout
 
+demo-get-started = Ayo Mulai
+demo-welcome = Selamat datang di Common Voice
+demo-welcome-subheader = Tertarik untuk belajar lebih banyak dan berkontribusi pada proyek ini?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice adalah himpunan data suara multi bahasa terbesar dunia yang tersedia untuk umum.
+demo-language-select-card-body = Berkat kontribusi lebih dari 259 ribu orang dalam lebih dari 50 bahasa, data ini digunakan untuk melatih aplikasi yang berkemampuan bicara guna memberikan respon yang lebih baik terhadap suara manusia.
+card-button-next = Selanjutnya
+card-button-back = Kembali
+demo-language-select-label = Telusuri Bahasa
+demo-eofy-header = Rilis Akhir Tahun 2019
+demo-eofy-sub_header = Himpunan Data Suara, Siap Diunduh
+demo-account = Akun
 
 ## Demo Account
 
+demo-account-card-header = Anda tidak perlu memiliki sebuah akun untuk dapat berkontribusi. Jika punya, ini akan sangat membantu.
+demo-account-card-body = Di sebelah kanan kami menguraikan manfaat dan mengklarifikasi informasi apa yang kami publikasikan. Gunakan tautan di bawah untuk memulai akun Common Voice di perangkat Anda sendiri.
+demo-account-enter-email =
+    .label = Masukkan surel untuk mengirimkan tautan pendaftaran
+demo-account-sign-up = Kirim tautan pendaftaran
 
 ## Demo Contribute
 
+demo-contribute-card-header = Siap menambahkan suara atau meminjamkan telinga Anda?
+demo-contribute-card-body-v2 = Sekarang Anda tahu sedikit lebih banyak tentang Common Voice, mengapa tidak mencobanya? Klik pada ikon mikrofon untuk mulai membaca kalimat dengan lantang. <br/><br/>Jika Anda ingin meninjau kontribusi suara orang lain, klik ikon putar. Anda akan membantu mengonfirmasi bahwa rekaman sesuai dengan kalimat yang tertulis di layar.
+demo-listen-subtitle = Siap berkontribusi?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Dasbor pribadi membuat Anda tetap terinformasikan dengan perkembangan individu dan komunitas.
