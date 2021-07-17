@@ -33,14 +33,18 @@ as = Assamais
 ast = Asturien
 az = Azerbaïdjanais
 ba = Bashkir
+bas = Basaa
 be = Biélorusse
 bg = Bulgare
+bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Bouriate
 ca = Catalan
 cak = Cakchiquel
+ckb = Kurde central
 cnh = Hakha Chin
+co = Corse
 cs = Tchèque
 cv = Tchouvache
 cy = Gallois
@@ -62,11 +66,13 @@ fr = Français
 fy-NL = Frison
 ga-IE = Irlandais
 gl = Galicien
+gn = Guarani
 ha = Haoussa
 he = Hébreu
 hi = Hindi
 hr = Croate
 hsb = Haut-sorabe
+ht = Haïtien
 hu = Hongrois
 hy-AM = Arménien
 hyw = Arménien occidental
@@ -81,22 +87,26 @@ kaa = Karakalpak
 kab = Kabyle
 kbd = Kabarde
 kk = Kazakh
+kmr = Kurmandji kurde
 ko = Coréen
 kpv = Komi-zyriène
-ku = Kurde
 kw = Cornique
 ky = Kirghize
 lg = Luganda
 lij = Ligure
 lt = Lituanien
 lv = Letton
+mai = Maïthili
 mdf = Mokcha
 mg = Malgache
 mhr = Mari des prairies
 mk = Macédonien
 ml = Malayalam
 mn = Mongol
+mos = Moré
+mr = Marathe
 mrj = Mari des montagnes
+ms = Malais
 mt = Maltais
 my = Birman
 myv = Erzya
@@ -107,7 +117,9 @@ nn-NO = Norvégien nynorsk
 oc = Occitan
 or = Odia
 pa-IN = Pendjabi
+pap-AW = Papiamento (Aruba)
 pl = Polonais
+ps = Pachto
 pt = Portugais
 rm-sursilv = Romanche sursilvan
 rm-vallader = Bas-engadinois
@@ -117,9 +129,11 @@ rw = Kinyarwanda
 sah = Iakoute
 sc = Sarde
 scn = Sicilien
+shi = Tachelhit/chleuh
 si = Sinhala
 sk = Slovaque
 sl = Slovène
+so = Somali
 sq = Albanais
 sr = Serbe
 sv-SE = Suédois
@@ -134,12 +148,14 @@ tr = Turc
 tt = Tatar
 uby = Oubykh
 udm = Oudmourte
+ug = Ouïghour
 uk = Ukrainien
 ur = Ourdou
 uz = Ouzbek
 vec = Vénitien
 vi = Vietnamien
 vot = Vote
+yue = Cantonais
 zh-CN = Chinois (Chine)
 zh-HK = Chinois (Hong-Kong)
 zh-TW = Chinois (Taïwan)
@@ -237,7 +253,7 @@ whats-public = Quelles informations sont publiques ?
 email-not-public = Nous ne rendrons pas publique votre adresse électronique.
 recordings-and-locale-public = Le nombre d’enregistrements et les langues dans lesquelles vous contribuez seront publics.
 username-optin-public = Vous pouvez choisir de rendre votre nom d’utilisateur ou d’utilisatrice public ou anonyme
-demographic-deidentified-clarity = Les données démographiques éventuellement soumises (par exemple, l’âge, le sexe, la langue et l’accent) ne seront jamais rendues publiques sur votre profil et ne seront pas liées à votre compte dans l’ensemble de données. Des échantillons audio individuels seront associés à des données démographiques à des fins d’analyse plus précise ; par exemple, une chercheuse pourrait vouloir cibler un modèle d’entrainement sur un segment démographique spécifique.
+demographic-deidentified-clarity-2 = Les données démographiques éventuellement soumises (par exemple, l’âge, le genre, la langue et l’accent) ne seront jamais rendues publiques sur votre profil et ne seront pas liées à votre compte dans l’ensemble de données. Des échantillons audio individuels seront associés à des données démographiques à des fins d’analyse plus précise ; par exemple, une chercheuse pourrait vouloir cibler un modèle d’entrainement sur un segment démographique spécifique.
 username-email-not-demographic = Votre nom d’utilisateur ou d’utilisatrice et votre adresse électronique ne seront pas associés aux données publiées.
 
 ## Speak & Listen Shortcuts
@@ -266,7 +282,10 @@ shortcut-record-toggle = e
 shortcut-record-toggle-label = Enregistrer/Arrêter
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Refaire l’enregistrement
+shortcut-submit = Entrée
+shortcut-submit-label = Envoyer les enregistrements
 request-language-text = Votre langue n’est pas encore disponible ?
+request-language-text-learn = Découvrez comment demander à ce qu’elle soit ajoutée.
 request-language-button = Proposer une langue
 
 ## ProjectStatus
@@ -295,7 +314,7 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Âge
-profile-form-gender =
+profile-form-gender-2 =
     .label = Genre
 leaderboard-visibility =
     .label = Affichage public
@@ -322,7 +341,7 @@ profile-close = Fermer
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
 thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
 why-demographic = Pourquoi est-ce important ?
-why-demographic-explanation = Les données utilisateur anonymes comme l’âge, le sexe, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur ou d’utilisatrice et garder l’anonymat.
+why-demographic-explanation-2 = Les données utilisateur anonymes comme l’âge, le genre, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur ou d’utilisatrice et garder l’anonymat.
 accept-privacy = J’accepte que vous utilisiez ces informations conformément à la <privacyLink>Politique de confidentialité</privacyLink> de Mozilla
 accept-privacy-title = Politique de confidentialité
 login-identity = Identité de connexion
@@ -336,26 +355,19 @@ skip-submission-description = L’envoi de commentaires sera désactivé après 
 skip-submission-note = Remarque : vous devez encore choisir entre Parler et Écouter pour modifier votre type de contribution.
 off = Désactivé
 on = Activé
-avatar-clip-title = Donnez une voix à votre avatar
-change-your-avatar-clip = Voulez-vous changer votre échantillon de voix ?
-recording-in-progress = Enregistrement vocal en cours
-avatar-clip-recorded = Votre avatar comprend maintenant un échantillon de voix !
-record-voice-wave = ENREGISTRER VOTRE PRÉSENTATION
-retry-voice-wave-recording = RÉESSAYER
-re-record = RÉENREGISTRER
-delete-voice = SUPPRIMER
-recording-voice-wave = Enregistrement
-delete-voice-clip = ou Supprimer votre échantillon de voix
-ready-to-upload = ENVOYER
-avatar-clip-fact = C’est un fait établi de longue date qu’un lecteur sera distrait par le contenu lisible d’une page lorsqu’il examinera sa mise en page.
-recreate-voice = Refaire votre présentation
-cancel-avatar-clip-recording = ANNULER
-about-avatar-clip-recording = Enregistrez un extrait vocal pour votre avatar. Les autres personnes pourront écouter votre extrait en passant leur curseur dessus.
+
+## Profile - Email
+
 browse-file-title = Envoyer une image
 browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
 connect-gravatar = Connectez-vous avec Gravatar
 gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse électronique
 file_too_large = Le fichier sélectionné est trop volumineux
+avatar-uploaded = Avatar envoyé
+max-file-size = { $kb } ko max
+
+## Profile - Email
+
 manage-subscriptions = Gérer vos abonnements
 manage-email-subscriptions = Gérer les abonnements aux courriels
 email-already-used = Cette adresse électronique est déjà utilisée par un compte différent
@@ -506,10 +518,12 @@ data-other-goto = Voir { $name }
 data-other-download = Télécharger les données
 data-bundle-button = Télécharger un lot de jeux de données
 data-bundle-description = Données Common Voice ainsi que tous les autres jeux de données ci-dessus.
+release-version = Version
+dataset-date = Date
 license = Licence : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
 data-download-singleword-title = Télécharger le segment cible de mot unique
-data-download-singleword-callout = Il s’agit d’un segment ciblé sur des cas d’utilisation contenant des données pour alimenter la reconnaissance des chiffres parlés, la détection oui/non et les données de test de mots de réveil pour <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Il s’agit d’un segment basé sur des cas d’utilisation contenant des données pour la reconnaissance vocale des chiffres et la détection oui/non.
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>Conditions d’utilisation</termsLink> et notre <privacyLink>Politique de confidentialité</privacyLink>
 terms-agree = J’accepte
 terms-disagree = Je refuse
@@ -677,6 +691,7 @@ share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
 keep-track-profile = Mesurez votre progression en créant un profil
 login-to-get-started = Connectez-vous ou inscrivez-vous pour commencer
 target-segment-first-card = Vous contribuez à notre premier segment cible
+target-segment-generic-card = Vous contribuez à un segment cible
 target-segment-first-banner = Aidez à créer le premier segment cible de Common Voice en { $locale }
 target-segment-add-voice = Donner de votre voix
 target-segment-learn-more = En savoir plus
@@ -764,15 +779,15 @@ finish-editing = Terminer d’abord les modifications ?
 lose-changes-warning = Si vous quittez maintenant, vous perdrez vos modifications
 build-custom-goal = Définissez un objectif personnalisé
 help-reach-hours-pluralized =
-    Aidez à atteindre{ NUMBER($hours) ->
+    Aidez à atteindre { NUMBER($hours) ->
         [one] { $hours } heure
        *[other] { $hours } heures
-    }en { $language } avec un objectif personnel
+    } en { $language } avec un objectif personnel
 help-reach-hours-general-pluralized =
-    Aidez Common Voice à atteindre{ NUMBER($hours) ->
+    Aidez Common Voice à atteindre { NUMBER($hours) ->
         [one] { $hours } heure
        *[other] { $hours } heures
-    }dans une langue avec un objectif personnel
+    } dans une langue avec un objectif personnel
 set-a-goal = Fixer un objectif
 cant-decide = Vous ne pouvez pas décider ?
 activity-needed-calculation-plural =
@@ -837,3 +852,39 @@ help-contribute = Vous pouvez aider à créer un jeu de données open source et 
 login-company = Connexion / Inscription avec l’adresse électronique de { $company }
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 read-more-about = Pour en savoir plus lisez notre page À propos
+
+## DemoLayout
+
+demo-get-started = Commencer
+demo-welcome = Bienvenue sur Common Voice
+demo-welcome-subheader = Vous souhaitez en apprendre davantage et contribuer au projet ?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice est le plus grand jeu de données vocales multilingue et public au monde.
+demo-language-select-card-body = Grâce aux contributions de plus de 259 000 personnes dans plus de 50 langues, ces données sont utilisées pour entraîner des applications vocales à mieux répondre à la voix humaine.
+card-button-next = Suivant
+card-button-back = Précédent
+demo-language-select-label = Parcourir les langues
+demo-eofy-header = Publication de fin d’année 2019
+demo-eofy-sub_header = Jeu de données vocales, prêt pour le téléchargement
+demo-account = Compte
+
+## Demo Account
+
+demo-account-card-header = Il n’est pas nécessaire de disposer d’un compte pour contribuer, mais c’est utile.
+demo-account-card-body = À droite, nous décrivons les avantages et précisons quelles informations nous rendons publiques. Utilisez les liens ci-dessous pour créer un compte Common Voice sur votre appareil.
+demo-account-enter-email =
+    .label = Saisissez un courriel pour envoyer un lien d’inscription
+demo-account-sign-up = Envoyer le lien d’inscription
+
+## Demo Contribute
+
+demo-contribute-card-header = Prêt·e à donner de la voix ou à tendre votre oreille ?
+demo-contribute-card-body-v2 = Maintenant que vous en savez un peu plus sur Common Voice, pourquoi ne pas l’essayer ? Cliquez sur l’icône de microphone pour commencer à lire des phrases à haute voix. <br/><br/>Si vous préférez valider les contributions vocales d’autres personnes, cliquez sur l’icône de lecture. Vous aiderez alors a confirmer que l’enregistrement vocal que vous entendez correspond aux mots écrits à l’écran.
+demo-listen-subtitle = Prêt·e à contribuer ?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Les tableaux de bord personnels vous tiennent au courant des progrès individuels et communautaires.
+demo-dashboard-card-body = Pour chaque échantillon vocal donné et pour chaque échantillon audio validé, les tableaux de bord de votre compte sont mis à jour afin de refléter vos derniers progrès dans chacune des langues à laquelle vous avez contribué. Oui, vous pouvez contribuer à plusieurs langues !<br/><br/> Utilisez les tableaux de bord pour suivre vos statistiques, pour comparer vos progrès à ceux d’autres membres de la communauté et pour fixer des objectifs de contribution quotidiens ou hebdomadaires.

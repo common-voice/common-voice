@@ -1,5 +1,4 @@
 import * as crypto from 'crypto';
-import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
@@ -16,6 +15,8 @@ import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
 
 const Transcoder = require('stream-transcoder');
+const { Converter } = require('ffmpeg-stream');
+const { Readable } = require('stream');
 
 /**
  * Clip - Responsibly for saving and serving clips.
@@ -69,7 +70,12 @@ export default class Clip {
   }
 
   serveClip = async ({ params }: Request, response: Response) => {
-    response.redirect(await this.bucket.getClipUrl(params.clip_id));
+    const url = await this.bucket.getClipUrl(params.clip_id);
+    if (url) {
+      response.redirect(await this.bucket.getClipUrl(params.clip_id));
+    } else {
+      response.json({});
+    }
   };
 
   saveClipVote = async (
@@ -133,6 +139,10 @@ export default class Clip {
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
     const sentenceId = headers.sentence_id as string;
+    const source = headers.source || 'unidentified';
+    const format = headers['content-type'];
+    const size = headers['content-length'];
+
     if (!sentenceId || !client_id) {
       response.statusMessage = 'save_clip_missing_parameter';
       response
@@ -159,42 +169,43 @@ export default class Clip {
     try {
       // If the folder does not exist, we create it.
       await this.s3
-        .putObject({ Bucket: getConfig().BUCKET_NAME, Key: folder })
+        .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
         .promise();
 
-      // If upload was base64, make sure we decode it first.
-      let transcoder;
-      if ((headers['content-type'] as string).includes('base64')) {
-        // If we were given base64, we'll need to concat it all first
-        // So we can decode it in the next step.
-        console.log(`VOICE_AVATAR: base64 to saveClip(), ${clipFileName}`);
-        const chunks: Buffer[] = [];
-        await new Promise(resolve => {
-          request.on('data', (chunk: Buffer) => {
-            chunks.push(chunk);
-          });
-          request.on('end', resolve);
-        });
+      let audioInput = request;
 
-        const passThrough = new PassThrough();
-        passThrough.end(
-          Buffer.from(Buffer.concat(chunks).toString(), 'base64')
-        );
-        transcoder = new Transcoder(passThrough);
-      } else {
-        // For non-base64 uploads, we can just stream data.
-        transcoder = new Transcoder(request);
+      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
+        // aac data comes wrapped in an mpeg container, which is incompatible with
+        // ffmpeg's piped stream functions because the moov bit comes at the end of
+        // the stream, at which point ffmpeg can no longer seek back to the beginning
+        // createBufferedInputStream will create a local file and pipe data in as
+        // a file, which doesn't lose the seek mechanism
+
+        const converter = new Converter();
+        const audioStream = Readable.from(request);
+
+        audioInput = converter.createBufferedInputStream();
+        audioStream.pipe(audioInput);
       }
+
+      const audioOutput = new Transcoder(audioInput)
+        .audioCodec('mp3')
+        .format('mp3')
+        .channels(1)
+        .sampleRate(32000)
+        .stream();
 
       await this.s3
         .upload({
-          Bucket: getConfig().BUCKET_NAME,
+          Bucket: getConfig().CLIP_BUCKET_NAME,
           Key: clipFileName,
-          Body: transcoder.audioCodec('mp3').format('mp3').stream(),
+          Body: audioOutput,
         })
         .promise();
 
-      console.log('clip written to s3', clipFileName);
+      console.log(
+        `clip written to s3 ${clipFileName} (${size} bytes, ${format}) from ${source}`
+      );
 
       await this.model.saveClip({
         client_id: client_id,
