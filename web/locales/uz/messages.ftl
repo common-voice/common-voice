@@ -186,7 +186,7 @@ logout = Chiqish
 
 ## Home Page
 
-home-title = Common Voice – Mozillaga tegishli loyiha boʻlib, mashinalarga odam kabi gapirishni oʻrgatadi.
+home-title = Common Voice – Mozillaga tegishli loyiha boʻlib, sun’iy ongga insonlar qanday gapirishini o‘rgatadi.
 home-cta = Oʻqing va hissa qoʻshing!
 wall-of-text-start = Ovoz - bu tabiiy, inson ovozi, shuning uchun ham biz kompyuterlarimiz uchun ovozli texnologiyani yaratmoqchimiz. Ovoz tizimini yaratish uchun juda koʻp ovoz kerak boʻladi.
 wall-of-text-more-mobile = Katta korporatsiyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olmaydi. Bizning fikrimizcha, bu innovatsion taraqqiyotni sekinlashtiradi. Shuning uchun biz Common Voice loyihasini ishga tushirdik.  Bu loyiha ovozni tanish xizmatini hamma uchun ochiq boʻlishini taʼminlaydi.
@@ -289,7 +289,7 @@ request-language-button = Til qoʻshishga soʻrov yuborish
 ## ProjectStatus
 
 status-title = Loyihaning umumiy holati: qilngan ish koʻlamiga bir boqing!
-status-contribute = Ovozingiz bilan yordam qiling
+status-contribute = Ovozingizni hadya qiling
 status-hours =
     { $hours ->
         [one] Hozircha bir soat!
@@ -440,7 +440,7 @@ about-header-description =
     Biz ovozli ma'lumotlarni bemalol va hammaga taqdim qilishni istaymiz va ma'lumotlar haqiqiy odamlarning xilma-xilligini aks ettirishiga ishonch hosil qilamiz. Birgalikda biz hamma uchun ovozni yaxshiroq aniqlashimiz mumkin.
 how-does-it-work-title = Bu qanday ishlaydi?
 how-does-it-work-text = Ovozlarning ochiq manbali ma'lumotlar to'plamini jalb qilmoqdamiz. Ovozingizni bering, boshqalarning kliplari aniqligini tekshiring, ma'lumotlar bazasini hamma uchun yaxshilang.
-about-speak = Oʻqing
+about-speak = Oʻqish
 about-speak-text = Ishtirokchilar maʼlumotlar omboridagi jumlalarni oʻqib, ovozli tasmaga yozishadi.
 about-listen-queue = Eshitish navbati
 about-listen-queue-text = Ovozli kliplar ularni tinglash uchun tayyor bo'ladigan navbatga kiritiladi.
@@ -676,7 +676,7 @@ share-common-voice = Common Voiceʼni ishlatish
 review-instruction = Kerak bo‘lganda, cliplarni ko‘rib chiqing va qayta yozing
 record-submit-tooltip = { $actionType } tayyor bo‘lsa, yuboring
 clips-uploaded = Yuklangan kliplar
-record-abort-title = Aval yozishni tugating?
+record-abort-title = Dastlab, yozishni yakunlab olasizmi?
 record-abort-text = Hozir chiqsangiz, hech narsa saqlanmaydi
 record-abort-submit = Kliplarni yuborish
 record-abort-continue = Yozishni tugatish
@@ -777,7 +777,7 @@ difficult-difficulty = Qiyin
 pro-difficulty = Pro
 lose-goal-progress-warning = Maqsadingizni tahrirlash orqali mavjud yutuqni yo'qotishingiz mumkin.
 want-to-continue = Davom etishni istaysizmi?
-finish-editing = Aval yozishni tugating?
+finish-editing = Dastlab, tahrirni tugatib olasizmi?
 lose-changes-warning = Hozir chiqsangiz, hech narsa saqlanmaydi
 build-custom-goal = Shaxsiy maqsadni yarating
 help-reach-hours-pluralized =
