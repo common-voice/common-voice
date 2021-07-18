@@ -112,6 +112,7 @@ my = Birmaneg
 myv = Erzyeg
 nb-NO = Norvegeg bokmål
 ne-NP = Nepaleg
+nia = Niaseg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
 oc = Okitaneg
@@ -902,6 +903,7 @@ card-button-next = War-lerc’h
 card-button-back = Kent
 demo-language-select-label = Merdeiñ ar yezhoù
 demo-eofy-header = Ermaeziadenn fin-bloavezh 2019
+demo-eofy-sub_header = Dastumad roadennoù mouezh, prest da vezañ pellgarget
 demo-account = Kont
 
 ## Demo Account
