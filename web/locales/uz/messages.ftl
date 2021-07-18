@@ -177,8 +177,8 @@ privacy = Maxfiylik
 terms = Shartlar
 cookies = Kukilar
 faq = Savol-javob
-content-license-text = Sayt <licenseLink>Creative Commons litsenziyasi</licenseLink> ostida ishlaydi.
-share-title = Ovozi bilan yordam qiladigan insonlarni topishda yordam bering!
+content-license-text = Sayt <licenseLink>Creative Commons litsenziyasi</licenseLink> ostida.
+share-title = Ovozini hadya etadigan insonlarni topishda yordam bering!
 share-text = { $link } havolasi orqali ovozingiz bilan yordam qilib, mashinalarga haqiqiy insonlar qanday gapirishini oʻrgating
 link-copied = Havoladan nusxa olindi
 back-top = Yuqoriga qaytish
@@ -206,13 +206,13 @@ speak-goal-text = Yozilgan kliplar
 listen-subtitle = Ovozlarni saralashga yordam bering
 listen-paragraph = Qoʻshilgan ovozlarni tekshirish – Common Voice loyihasi uchun juda muhim. Ovozlarni tinglang va sifatli ochiq manbali ovoz maʼlumotlarini yaratishda yordam bering.
 listen-goal-text = Kliplar tekshirildi
-hours-recorded = Yozib olingan soat
-hours-validated = Soat tekshirildi
-voices-online = Ayni damdagi onlayn ovozlar
+hours-recorded = Yozilgan soatlar
+hours-validated = Tekshirilgan soatlar
+voices-online = Joriy qaydlar
 todays-progress = Bugungi o'zgarish
 help-reach-goal = { $goal } ga yetishga yordam bering
 read-terms-q = Shartlarimiz bilan tanishdingizmi?
-ready-to-record = Ovozingiz bilan yordam qilishga tayyormisiz?
+ready-to-record = Ovozingiz bilan hissa qo‘shishga tayyormisiz?
 all-locales = Barchasi
 today = Bugun
 x-weeks-short =
@@ -654,7 +654,7 @@ contribute-more =
         [one] Yana { $count } ta bajarishga tayyormisiz?
        *[other] Yana { $count } ta bajarishga tayyormisiz?
     }
-record-cta = Yozishni boshlash
+record-cta = Yozish
 record-platform-not-supported = Uzr, platformangiz hozirda ishlamaydi.
 record-platform-not-supported-desktop = Kompyuterlaringizga eng oxirgisini yuklab olishingiz mumkin:
 record-platform-not-supported-ios-non-safari = iOS qurilmasida yozib olishni yoqish uchun Safari bilan ishni davom ettiring…
