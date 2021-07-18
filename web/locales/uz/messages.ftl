@@ -21,7 +21,7 @@ not-available-abbreviation = M/E
 
 ## Languages
 
-ab = Abxazcha
+ab = Abxaz
 ace = Aceh
 ady = Adigey
 af = Afrika
@@ -153,12 +153,12 @@ uk = Ukrain
 ur = Urdu
 uz = O‘zbek
 vec = Venetsiya
-vi = Vetnam
+vi = Vyetnam
 vot = Vot
 yue = Kanton
-zh-CN = Xitoycha (Xitoy)
-zh-HK = Xitoycha (Gongkong)
-zh-TW = Xitoycha (Tayvan)
+zh-CN = Xitoy (Xitoy)
+zh-HK = Xitoy (Gongkong)
+zh-TW = Xitoy (Tayvan)
 
 # [/]
 
@@ -188,11 +188,11 @@ logout = Chiqish
 
 home-title = Common Voice – Mozillaga tegishli loyiha boʻlib, sun’iy ongga insonlar qanday gapirishini o‘rgatadi.
 home-cta = Oʻqing va hissa qoʻshing!
-wall-of-text-start = Ovoz - bu tabiiy, inson ovozi, shuning uchun ham biz kompyuterlarimiz uchun ovozli texnologiyani yaratmoqchimiz. Ovoz tizimini yaratish uchun juda koʻp ovoz kerak boʻladi.
+wall-of-text-start = Ovoz — tabiiy va insoniy. Sun’iy ongga mos ovoz texnologiyasini ishlab chiqish esa juda quvonarli. Lekin bunday tizimlarni tuzish uchun o‘ta katta hajmdagi ovozli ma’lumotlar kerak bo’ladi.
 wall-of-text-more-mobile = Katta korporatsiyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olmaydi. Bizning fikrimizcha, bu innovatsion taraqqiyotni sekinlashtiradi. Shuning uchun biz Common Voice loyihasini ishga tushirdik.  Bu loyiha ovozni tanish xizmatini hamma uchun ochiq boʻlishini taʼminlaydi.
-wall-of-text-more-desktop = Endi ochiq manbali ovoz maʼlumotlar bazasi uchun ovozingiz bilan yordam qilishingiz mumkin. Bu bazadan har qanday kishi qurilmalar va internet uchun innovatsion dasturlar yaratish maqsadida foydalanishi mumkin. Mashina haqiqiy odamlarning gaplarini oʻrganishi uchun soʻzlarni oʻqib bering. Sifatini oshirish uchun boshqalarning ishlarini tekshiring. Bu juda oson!
-wall-of-text-first = Ovoz – tabiiy, ovoz – insonga xos, shuning uchun biz mashinalar uchun foydalaniladigan ovoz texnologiyasini yaratyapmiz, lekin ovoz tizimlarini yaratish uchun dasturchilarga juda katta miqdoridagi ovoz maʼlumotlari kerak boʻladi.
-wall-of-text-second = Katta kompaniyalar foydalanadigan maʼlumotlardan koʻpchilik odamlar foydalana olishmaydi. Bizning fikrimizcha, bu innovatsiyalarni soʻndiradi. Shuning uchun biz hamma foydalana oladigan ovozni tanish – Common Voice loyihasini ishga tushirdik.
+wall-of-text-more-desktop = Endi ochiq ma’lumotlar bazasini shakllantirish uchun o‘z ovozingiz bilan hissa qo‘shishingiz mumkin. Bundan barcha innovatsion qurilma, ilova va veb dasturlarni yaratishda foydalana oladi. Mashina inson nutqini o‘rganishi uchun gaplarni o‘qib bering. Sifatni oshirish uchun esa o‘qilgan gaplarni tekshiring. Hammasi juda oddiy!
+wall-of-text-first = Ovoz — tabiiy va insoniy. Sun’iy ongga mos ovoz texnologiyasini ishlab chiqish esa juda quvonarli. Lekin bunday tizimlarni tuzish uchun o‘ta katta hajmdagi ovozli ma’lumotlar kerak bo’ladi.
+wall-of-text-second = Gigant kompaniyalar foydalanadigan ma’lumotlarning aksari hamma uchun ham ochiq emas. Fikrimizcha, bu porloq innovatsiyalar rivojini so‘ndiradi. Shu sababdan biz hamma uchun ochiq va bepul ovozni aniqlash loyihasi — Common Voice'ni ishga tushirdik.
 show-wall-of-text = Batafsil
 help-us-title = Jumlalarni saralashga yordam bering!
 help-us-explain = Ijro tugmasini bosing, tinglang va gaplar toʻgʻri talaffuz qilinganligi haqida bizga xabar bering.
@@ -233,7 +233,7 @@ x-years-short =
 help-make-dataset = Bizga yuqori sifatli ommaviy maʼlumotlar bazasini yaratishga yordam bering
 sign-up-account = Akkauntni roʻyxatdan oʻtkazish
 email-subscription-title = Yangiliklardan xabardor boʻlib turish uchun e-pochta orqali obuna boʻling
-email-subscription-title-new = Common Voice'ning imkoniyatlar va yangiliklar haqidagi xabarnomasiga obuna bo‘ling.
+email-subscription-title-new = Common Voice yangiliklari va shaxsiy yutuqlaringizni kuzatib boring
 
 ## Account Benefits
 
@@ -340,7 +340,7 @@ profile-explanation = Profilingiz yordamida jarayonni kuzatib boring va ovoz ma�
 thanks-for-account = Hisobingizni tasdiqlaganingiz uchun rahmat. Endi profil yarating.
 why-demographic = Bu nega kerak?
 why-demographic-explanation-2 = Yosh, jins yoki sheva kabi anonim holdagi foydalanuvchi maʼlumotlari nutqni aniqlash mashinalarining aniqligi ustida ishlashda qoʻllaniladigan audio maʼlumotlarning sifatini oshirishda yordam beradi.
-accept-privacy = Mozillaning <privacyLink>Maxfiylik siyosati</privacyLink>da tushuntirilgan holatlarda maʼlumotlarimdan foydalanishlariga roziman.
+accept-privacy = <privacyLink>Maxfiylik siyosati</privacyLink>da keltirilgan bandlarga roziman.
 accept-privacy-title = Maxfiylik siyosati
 login-identity = Kirish uchun identifikator
 login-signup = Kirish/Roʻyxatdan oʻtish
@@ -602,7 +602,7 @@ download-no = Kerak emas
 
 contact-title = Bog‘lanish shakli
 contact-form-name =
-    .label = Nomi
+    .label = Mavzu
 contact-form-message =
     .label = Xabar
 contact-required = *majburiy
