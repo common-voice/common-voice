@@ -164,7 +164,7 @@ content-license-text = Conținut disponibil sub o <licenseLink>licență Creativ
 share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
 share-text = Ajută mașinile să învețe cum vorbesc oamenii reali, donează-ți vocea la { $link }
 link-copied = Link copiat
-back-top = Sus
+back-top = Înapoi în partea de sus
 logout = Deconectare
 
 ## Home Page
@@ -333,26 +333,17 @@ skip-submission-description = În timpul colaborării, se va sări peste feedbac
 skip-submission-note = Obs: Tot va trebui să selectezi Vorbește sau Ascultă pentru a modifica tipul de colaborare.
 off = Dezactivat
 on = Activat
-avatar-clip-title = Dă o voce avatarului tău
-change-your-avatar-clip = Vrei să schimbi secvența vocală?
-recording-in-progress = Înregistrare vocală în curs
-avatar-clip-recorded = Acum avatarul tău include o secvență vocală!
-record-voice-wave = ÎNREGISTREAZĂ O UNDĂ VOCALĂ
-retry-voice-wave-recording = REÎNCEARCĂ
-re-record = ÎNREGISTREAZĂ DIN NOU
-delete-voice = ȘTERGE
-recording-voice-wave = Se înregistrează
-delete-voice-clip = sau   Șterge secvența vocală
-ready-to-upload = Încărcare
-avatar-clip-fact = Este un fapt binecunoscut că cititorilor le va atrage atenția conținutul scris de pe o pagină când se uită la dispunerea în pagină.
-recreate-voice = Recrează unda de voce
-cancel-avatar-clip-recording = Renunță
-about-avatar-clip-recording = Creează o secvență vocală ca parte a avatarului tău de profil. Ceilalți vor putea să gliseze cursorul și să îți asculte înregistrarea.
+
+## Profile - Email
+
 browse-file-title = Încarcă un fișier de imagine
 browse-file = Trage și plasează sau <browseWrap>Navighează</browseWrap>
 connect-gravatar = Conectează-te cu Gravatar
 gravatar_not_found = Nu s-a găsit niciun gravatar pentru e-mailul tău
 file_too_large = Fișierul selectat este prea mare
+
+## Profile - Email
+
 manage-subscriptions = Gestionează abonamentele
 manage-email-subscriptions = Gestionează abonamentele prin e-mail
 email-already-used = Adresa de e-mail este deja utilizată pentru alt cont
@@ -498,7 +489,6 @@ data-bundle-description = Datele Common Voice plus toate celelalte seturi de dat
 license = Licență: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixtă
 data-download-singleword-title = Descarcă segmentul-țintă de cuvinte unice
-data-download-singleword-callout = Este un segment pe bază de cazuri de utilizare, ce conține date pentru recunoașterea vocală a cifrelor, detecție „da/nu” și date de testare de cuvinte de activare pentru <fxLink>Firefox Voice</fxLink>.
 review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>
 terms-agree = De acord
 terms-disagree = Nu sunt de acord
@@ -842,3 +832,18 @@ help-contribute = Poți ajuta la clădirea unui set de date divers, cu cursă de
 login-company = Conectare/Înregistrare cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
 read-more-about = Află mai multe pe pagina Despre
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
