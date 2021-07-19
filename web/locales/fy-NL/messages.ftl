@@ -789,20 +789,20 @@ lose-changes-warning = Troch no ôf te sluten ferlieze jo jo wizigingen
 build-custom-goal = In oanpast doel bouwe
 help-reach-hours-pluralized =
     Help mei{ NUMBER($hours) ->
-        [one] { $hours } oer
-       *[other] { $hours } oer
+        [one] { $hours } oere
+       *[other] { $hours } oeren
     }yn it { $language } te berikken mei in persoanlike doelstelling
 help-reach-hours-general-pluralized =
     Help Common Voice{ NUMBER($hours) ->
-        [one] { $hours } oer
-       *[other] { $hours } oer
+        [one] { $hours } oere
+       *[other] { $hours } oeren
     }yn in taal te berikken mei in persoanlike doelstelling
 set-a-goal = In doel stelle
 cant-decide = Kinne jo gjin beslút nimme?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } oer
-       *[other] { $totalHours } oer
+        [one] { $totalHours } oere
+       *[other] { $totalHours } oeren
     }is berikber yn wat mear as{ NUMBER($periodMonths) ->
         [one] { $periodMonths } moanne
        *[other] { $periodMonths } moannen
