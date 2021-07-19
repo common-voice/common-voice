@@ -368,26 +368,17 @@ skip-submission-description = Nel unviu de les collaboraciones van saltase los c
 skip-submission-note = Nota: Entá vas tener d'esbillar ente Falar o Sentir pa camudar el tipu de collaboración.
 off = NON
 on = SÍ
-avatar-clip-title = Da-y voz al to avatar
-change-your-avatar-clip = ¿Quies camudar el clip de voz?
-recording-in-progress = Grabación en cursu
-avatar-clip-recorded = ¡Agora'l to avatar inclúi un clip de voz!
-record-voice-wave = GRABAR LA VOZ
-retry-voice-wave-recording = RETENTAR
-re-record = REGRABAR
-delete-voice = DESANICIAR
-recording-voice-wave = Grabación
-delete-voice-clip = o desanicia'l clip de voz
-ready-to-upload = XUBIR
-avatar-clip-fact = Ye bien sabío qu'un llector va distrayese col conteníu lleíble d'una páxina que ta viendo al mirar el so diseñu.
-recreate-voice = Recrear la onda de voz
-cancel-avatar-clip-recording = ENCABOXAR
-about-avatar-clip-recording = Crea un clip de voz pa incluyilu y que la demás xente seya a sentilu cuando pase'l mur penriba del avatar del perfil.
+
+## Profile - Email
+
 browse-file-title = Xuba d'un ficheru
 browse-file = Arrastra y suelta o <browseWrap>restola</browseWrap>
 connect-gravatar = Coneutar con Gravatar
-gravatar_not_found = Nun s'alcontró nengún gravatar del corréu
+gravatar_not_found = Nun s'atopó nengún gravatar pal corréu
 file_too_large = El ficheru esbilláu ye pergrande
+
+## Profile - Email
+
 manage-subscriptions = Xestión de les soscripciones
 manage-email-subscriptions = Xestión de les soscripciones per corréu
 email-already-used = El corréu yá s'usa nuna cuenta diferente
@@ -451,7 +442,7 @@ faq-what-is-cv = ¿Qué ye Common Voice?
 faq-using-cv = Usu de Common Voice
 faq-description = Common Voice ye parte de la iniciativa de Mozilla pa deprende-yos a les máquines cómo falamos los humanos.
 faq-search-for-answers =
-    .label = Guetar rempuestes
+    .label = Buscar rempuestes
 
 ## ABOUT US
 
@@ -486,8 +477,8 @@ about-partnership =
     Queremos agradecer a les persones y organizaciones de darréu pola so ayuda col proyeutu:
 about-get-involved = Andecha
 about-get-involved-text-2 =
-    ¿Quies ameyorar Common Voice entá más?
-    ¡Xenial! Contauta per corréu o foros de <discourseLink>Discourse</discourseLink>,
+    ¿Quies ameyorar Common Voice más?
+    ¡Xenial! Ponte en contautu per corréu o pente los foros de <discourseLink>Discourse</discourseLink>,
     unvia problemes per <githubLink>GitHub</githubLink> o xúnite a la sala de
     charra en <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = ¿Por qué?
@@ -648,7 +639,7 @@ languages-show-less = Ver menos
 language-meter-in-progress = Progresu
 language-total-progress = Total
 language-search-input =
-    .placeholder = Guetar
+    .placeholder = Buscar
 language-speakers = Falantes
 localized = Tradúxose
 sentences = Frases
