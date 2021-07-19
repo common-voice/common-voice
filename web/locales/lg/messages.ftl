@@ -624,7 +624,7 @@ contribute-more =
        *[other] Weetegese okukola ebirala { $count }?
     }
 record-cta = Tandika okulikodinga
-record-platform-not-supported = Platform yo tenaba k'olebwa mu kaseera kano, tusonyiwe.
+record-platform-not-supported = Tusonyiwe, platform yo tekirizibwa mu kaseera kano.
 record-platform-not-supported-desktop = Ku desktop divayisi osobola okuwaayo nga odawunilodinga
 record-platform-not-supported-ios-non-safari = Ku iOS tusaba weyongereyo ne Safari okusobola okulikodinga…
 record-must-allow-microphone = Olina okukkiriza okukozesa omuzindaalo.
