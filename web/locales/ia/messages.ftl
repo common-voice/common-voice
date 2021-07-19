@@ -112,6 +112,7 @@ my = Birmano
 myv = Erzya
 nb-NO = Norvegiano Bokmål
 ne-NP = Nepalese
+nia = Nias
 nl = Nederlandese
 nn-NO = Norvegiano Nynorsk
 oc = Occitano
