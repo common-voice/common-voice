@@ -652,7 +652,7 @@ report-offensive-speech-detail = Анҵамҭа ауаа еилызхо, ма р
 report-other-comment =
     .placeholder = Аҿыхәҿаа
 success = Қәҿиа­рала
-continue = Ацҵатәуп
+continue = Иацҵатәуп
 report-success = Уцҳамҭа қәҿиа­рала идәықәҵоуп
 
 ## Goals
