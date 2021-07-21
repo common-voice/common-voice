@@ -496,6 +496,7 @@ En kar med kniv tok vekk alt som Tommy kunne ha blitt
 En mann, en kvinne, og en jente.
 En marinejeger kan vi bruke
 En som går fort kan gå seks kilometer i timen.
+En som går på skole kalles elev.
 Endelig ble det hennes tur.
 Endring i ungdommens atferd
 Enhver løp som ligger rundt er besøkt av hyenaen.
@@ -815,6 +816,7 @@ Her kan du stille spørsmål
 Her legger vi til rette for en god start
 Hesten hopper.
 Hesten min er svart.
+Historie ble opprinnelig videreformidlet gjennom fortelling av myter.
 Historien likner vals: den følger evig de tre trinnene krig, fred og revolusjon.
 Hjelp!
 Hjem er bare ett trykk unna
@@ -2340,6 +2342,7 @@ Unnskyld at jeg kommer for sent.
 Unnskyld meg Jake
 Unnskyld, vekte jeg deg?
 Utdannelsen din er viktig.
+Uttrykket historiker brukes fra gammelt av om personer som skriver historie.
 Utvikling av organisasjon og tjenester
 Var det noe annet i rommet?
 Var det noen andre i rommet?

@@ -29,6 +29,7 @@
 "Det er morsomt!" sagde den lille Ida og klappede i hænderne.
 "Det er smukt, sagde hun."
 "Det er vistnok løjtnantens, som bor deroppe.
+"Det går nok!" sagde lille Claus.
 "Det gør så ondt!" sagde den lille havfrue.
 "Det havde jeg ikke gjort, når der var så nydeligt dernede!"
 "Det kan De jo."
@@ -146,6 +147,7 @@
 "Jeg vil det!" sagde den lille havfrue og var bleg, som en død.
 "Jeg vil ikke!"
 "Jeg vil også ud i den vide verden!" sagde den fremmede mand.
+"Jo!" sagde lille Claus.
 "Jo, det skal vi nok komme ud af!" sagde heksen.
 "Jo, sagde Charlot, det er mig."
 "Jo," sagde studenten, "småbitte gåseurter og liljekonvaller!"
@@ -275,6 +277,7 @@ Alt sammen til gavn for forbrugerne.
 Altid havde hun været stille og tankefuld, men nu blev hun det meget mere.
 Altid må du blive hos mig
 Altså vægteren var igen vægter.
+Anden så på ham
 Angelo kaldte ham for "Ilderen".
 Angelo spurgte: -Er den Gamle her? -De sagde, han kommer.
 Angivelse af hvilke kategorier kørekortet giver indehaveren ret til at føre
@@ -469,6 +472,7 @@ Den fornemste i toget var en gejstlig mand.
 Den fredelige verden, vi drømte om, er i opbrud.
 Den gamle konge stod op og tørrede sine øjne i et hvidt lommetørklæde.
 Den gravide alkoholmisbruger skal straks have meddelelse om ophøret af tilbageholdelsen
+Den havde ligget tværs over ryggen på en af tyrene.
 Den i dag fremlagte betænkning sætter politik i centrum igen.
 Den kombinerede køreprøve bedømmes i henhold til Færdselsstyrelsen retningslinjer for køreprøver
 Den lille fyr, som han så billedet af i spejlet, det var ham selv.
@@ -554,6 +558,7 @@ Det buldrede og bragede.
 Det ene ben er lidt længere end det andet.
 Det er Violin-Underet, Charlot Dupont.
 Det er bestemt et udmærket hoved, han har den dreng
+Det er da en forfærdelig stor ælling den
 Det er de juveler, der gør et sangerhjerte godt
 Det er den samme aftale, ikke?
 Det er det historiske bagtæppe.
@@ -565,6 +570,7 @@ Det er en løgn, men artigt nok kunne det være.
 Det er en rigtig hund, kan du tro!
 Det er et lovende og realistisk alternativ
 Det er forsiden af medaljen.
+Det er ganske hult inden i!
 Det er ganske normal pot.
 Det er helt harmløst.
 Det er ikke alene gjort med hård retspolitik, politi og grænsekontrol.
@@ -592,6 +598,7 @@ Det internationale kørekort er gyldigt i et år fra udstedelsesdagen
 Det kan der ikke laves om på.
 Det kan undtagelsesvist accepteres, at køreeleven er en eller flere teorilektioner foran
 Det kan virke fristende at lukke af for en besværlig omverden.
+Det kommer ikke dig ved!
 Det kostede dem at komme fra hinanden.
 Det kræver en del planlægning.
 Det kunne den salve gøre.
@@ -615,6 +622,7 @@ Det skal lille Claus få betalt, jeg vil slå ham ihjel for det!
 Det skal uden vanskelighed være muligt at tilse alle pelsdyr grundigt.
 Det skal vi ikke gå og putte med.
 Det sker dog meget sjældent, at sygdomme anerkendes efter denne bestemmelse.
+Det skulle dog vel aldrig være en kalkunkylling
 Det skulle du aldrig have gjort.
 Det skyldes indsættelse af nyere og støjsvage tog.
 Det skyldes især hensynet til den nødvendige sammenhæng mellem teoretisk og praktisk lærestof
@@ -650,6 +658,7 @@ Det var fortræffeligt.
 Det var fuglens hjerte.
 Det var fælt! I må vide, at jeg kan ikke tåle at se degne!
 Det var han også.
+Det var ikke så galt sagde soldaten.
 Det var intet eventyr
 Det var jo et morsomt fyrtøj!
 Det var længe inden han begyndte at se underlig ud.
@@ -709,6 +718,7 @@ Dronningen var nu en meget klog kone.
 Du aner ikke, hvad der foregår.
 Du bliver syg.
 Du er bare en gammel kvaksalver.
+Du er en net fyr!
 Du er så tarvelig.
 Du er tidlig kommet i stadsklæderne i dag!
 Du er vistnok en værre morgenbolle
@@ -716,6 +726,7 @@ Du har drukket, sagde han.
 Du har ingen ting at bestille, derfor kommer de nykker over dig
 Du har vist brug for en opstrammer
 Du kan tro, at det er et kalkunæg
+Du kastede mig jo ned i åen for en lille halv time siden!
 Du lille velsignede guldfugl
 Du må fortælle ham de nydeligste historier, du ved!"
 Du må ikke bryde et ægteskab
@@ -723,10 +734,13 @@ Du må nok sætte dig til at læse med det samme.
 Du skal bare lave en enkelt fejl.
 Du skal så skrive under her.
 Du skal være vor konge!
+Du skulle ikke se så meget på mig!
 Du står bare og fylder hele gaden.
 Du stærke død, din tavshed vækker gru;
 Du, som jeg elsker, hvis du mig forstår
 Dualisme betyder at krop og sjæl er adskilt
+Dér sad hunden med øjne så store, som et møllehjul.
+Dér sad hunden med øjnene, så store som tekopper og gloede på ham.
 Dér skulle nu prinsessen ligge om natten.
 Efter apopleksi har patienten haft svært ved at tale.
 Efter det holdt han mest af at gøre gale streger.
@@ -741,6 +755,7 @@ Eja! Dér sad hunden med øjne så store, som et møllehjul.
 Eleven skal dog altid have deltaget i øvelseskørsel på lukket øvelsesplads
 Elever, der ikke har bestået prøven, skal samtidig have udleveret et bedømmelsesskema
 Eleverne skal have hver sin computerskærm til rådighed
+Ellers får du prygl!
 Ellers havde han taget livet af hende!
 Ellers indskrænkedes Fru Hansen til at blive skældt ud og tie stille.
 En Formiddag gik det rent forkert.
@@ -760,6 +775,7 @@ Endelig knagede det ene æg efter det andet
 Endelig kom de.
 Endelig kom hun da ud til bjerget og bankede på.
 Endelig kom hun da ud til bjerget.
+Endelig revnede det store æg
 Endnu engang råbte han det samme og så nok engang.
 Endvidere findes en mindre arealfredning omkring Soderup Kirke.
 Er der en cykeludlejning her et sted?
@@ -838,6 +854,7 @@ Gid jeg aldrig få pisk om jeg lyver
 Gid jeg allerede lå på den øverste hylde!"
 Gid jeg var rig på trøst og rolighed
 Gid jeg var rig! så blev jeg officer
+Giv mig bare fyrtøjet!
 Godaften.
 Godkendte private leverandører skal endvidere tydeligt oplyse patienten om ejerforholdene for salgsstedet
 Godmorgen, alle sammen.
@@ -855,6 +872,7 @@ Ham.
 Han bad om han måtte blive natten over.
 Han begyndte igen at servere.
 Han blev glad, han lærte, han rettede.
+Han drev så hjem med hvad han havde.
 Han drømte om Ellinor uafladeligt.
 Han duede ikke til stort.
 Han elskede de Levninger, Moderen fik rundt i de "gode" Huse, hvor hun vaskede.
@@ -928,6 +946,7 @@ Han var ikke utilfreds.
 Han var meget fin og pyntelig med hvide kniplinger ved hals og håndled
 Han var også en meget god mand, men hidsig.
 Han var spag og sørgmodig vrøvlet.
+Han var så stor og styg
 Han var taget iforvejen.
 Han var urolig, som om noget forestod ham og noget skulde ske.
 Han var vel en fjorten år gammel, lang og ranglet og med hørgult hår.
@@ -945,12 +964,16 @@ Hans lege blev nu ganske anderledes end før, de var så forstandige
 Har De hørt hende? -Ja.
 Har I plads til en til?
 Har der været demens i familien?
+Har du fyrtøjet med? spurgte heksen!
 Har du igen fået en knæskade?
 Har du sprunget en side over, kan du tro, jeg skal lære dig.
 Har hun haft hukommelsesforstyrrelser tidligere?
 Har jeg ikke slået ham ihjel!
+Har jeg nu ligget så længe, så kan jeg ligge dyrehavstiden med
+Hejs mig nu op, du gamle heks!
 Hejsa, der er guldtoppen
 Hele sommeren igennem levede den stakkels Tommelise ganske alene i den store skov.
+Hende gad jeg nok se!
 Hende har jeg nu solgt og fået en skæppe penge for!
 Hendes hår er alt for langt og skal klippes.
 Her er et glas mjød fra hendes søn!
@@ -969,9 +992,11 @@ Herved bekendtgøres lov om anvendelse af tvang i psykiatrien.
 Hesten gjorde et spring og slog over i galop.
 Ho, ho, ho!" lo Poppedreng og tilføjede sin vits: "Lad os nu være mennesker.
 Huder! huder! hvem vil købe huder!
+Hun bandt båndet fast til, og stødte så til den.
 Hun brændte ihjel og blev sendt til dødsriget
 Hun dækkede et langt bord og gav dem et stort fad grød.
 Hun er lidt blind på det ene øje.
+Hun er slet ikke til at få at se!
 Hun frygtede en skjult hensigt med denne fart.
 Hun frygtede for, at broderen skulde ride fra hende.
 Hun gik lige hen til den og slog nu den døde bedstemoder for panden.
@@ -1028,9 +1053,11 @@ Hvad medfører dette?
 Hvad mon vel i det næste år vil ske?
 Hvad mærkeligt? Ja, jeg gad gerne se
 Hvad siger han?
+Hvad skal jeg så nede i træet? spurgte soldaten.
 Hvad sker der?
 Hvad synes du om kagerne?
 Hvad vil du bruge de oplysninger til?
+Hvad vil du nu med det fyrtøj, spurgte soldaten.
 Hvem er vel lykkeligst af os herinde?
 Hvem får først bolden op på toppen
 Hvem gik over gaden i går.
@@ -1057,6 +1084,7 @@ Hvor har du de informationer fra?
 Hvor har du fået alle de mange penge fra?
 Hvor har han fået pengene fra?
 Hvor her er grumme mange herreblade
+Hvor kan man få hende at se? spurgte soldaten.
 Hvor langt er der til tankstationen?
 Hvor længe siden er det, at hun gik bort
 Hvor længe skal det vare
@@ -1104,6 +1132,7 @@ I snakker over eder!
 I stedet anlægges en omfartsvej og vejunderføring ved Tadrevej.
 I sådanne tilfælde skal overlægen efterfølgende snarest tage stilling til beslutningen.
 I særlige tilfælde kan fødestedet angives som et større geografisk område
+I vandet skal han, om jeg så selv må sparke ham ud
 I viser jo netop, at der er en vej frem.
 Ida forstod, at broderen råbte til hende; men hun kunde ikke opfatte hans ord.
 Ikke en eneste skilling vil jeg have!
@@ -1122,6 +1151,7 @@ Indgreb efter dette kapitel må ikke erstatte personlig pleje og omsorg
 Indholdet af denne graduering fremgår af Færdselsstyrelsen retningslinjer for køreprøver
 Indkørslen skal være forsynet med aflåselig kæde eller bom
 Indtrængning af rotter, mus og fugle skal minimeres.
+Ingen af de andre ser sådan ud
 Ingen af dem sagde nogenting.
 Ingen af dem talte mer; de kom til Battys Dør.
 Ingen af kejserens klæder havde gjort sådan lykke.
@@ -1134,6 +1164,7 @@ Internationale fællesskaber, der forpligter og beskytter.
 Isolation og fiksering er ikke tilladt
 Ja det er en stor fornøjelse
 Ja det skal du få betalt, lille Claus!
+Ja hjælp nu først mig!
 Ja muligvis vil det bedrøve flere!
 Ja så skal du ikke have mening, når fornuftige folk taler
 Ja vi skal give dig en hud, der skal spytte røde grise!
@@ -1149,6 +1180,7 @@ Ja, men jeg er af mahognitræ
 Jeg bliver ganske træt af at køre den længere.
 Jeg bliver nødt til at gå nu.
 Jeg bliver nødt til at hjælpe hende.
+Jeg er bange, han ikke finder kvæget!
 Jeg er barn af velfærdssamfundet. Blev student som den første i familien.
 Jeg er din ven.
 Jeg er ikke bedrøvet.
@@ -1174,6 +1206,7 @@ Jeg kunne ikke få dem ud
 Jeg laver lidt mad, og det bliver med mand og barn.
 Jeg mener, at det modsatte er tilfældet.
 Jeg må indrømme, at det hele forekommer mig lidt forvirrende i øjeblikket.
+Jeg rappede og snappede, men det hjalp ikke
 Jeg sagde tak og løb af sted og ville se
 Jeg sagde til ham, at du skulle hente noget i juicebaren.
 Jeg ser en klar støtte til iværksætterpotentialet som en løsning.
@@ -1196,6 +1229,7 @@ Jeg ved godt, hvad du render rundt og laver.
 Jeg ved jo, det er fanden, så finder jeg mig vel bedre i det!
 Jeg ved nok, hvor den er
 Jeg vil derfor kaste den ud i åen.
+Jeg vil dog ligge på det lidt endnu
 Jeg vil gerne fokusere på væsentligheden af retningslinjerne.
 Jeg vil gerne forklare vores tankegang.
 Jeg vil gerne takke ham for hans fremragende betænkning.
@@ -1211,6 +1245,7 @@ Jo det var bestemt dejligt
 Jo længere han talte med bådsmændene, des uforståeligere blev de ham.
 Jo mere toppen tænkte derpå, des mere indtaget blev han i bolden
 Jo, der var rigtignok dejligt derude på landet
+Jo, det er et kalkunæg
 Jo, det er rigtigt! nej, nu må jeg le!
 Jo, det var noget
 Jo, nu så jeg ham, han så ganske ud, som vores degn!
@@ -1298,9 +1333,12 @@ Køreprøver, praktiske prøver og vejledende helbredsmæssige køretest afholde
 Køretøjerne skal være ansvarsforsikrede
 Køretøjet skal ikke registreres, men anmeldes til Motorstyrelsen, inden det tages i brug
 Lad de små problemer blive løst hen ad vejen.
+Lad du det ligge og lær de andre børn at svømme
 Lad mig bare komme ud!
+Lad mig få strikken om livet!
 Lad mig lige nævne et sidste punkt.
 Lad mig se det æg, der ikke vil revne
+Lad mig se ægget
 Langsomt, men sikkert, nærmede katten sig den levnede mad.
 Lavtrangerende tæver må ikke indhuses ved siden af dominerende tæver.
 Lektionsplanen kan udfærdiges som en digital løsning
@@ -1318,6 +1356,7 @@ Loven træder i kraft dagen efter bekendtgørelsen i Lovtidende.
 Lover du mig det?
 Lovforslaget medfører herudover ingen økonomiske eller administrative konsekvenser for erhvervslivet.
 Lykkeligere end vi to kunne ingen blive
+Læg en sten i, for ellers er jeg bange jeg ikke synker.
 Læg æg eller spind, så går de over
 Lægeattesten skal udstedes af ansøgerens sædvanlige læge eller anden speciallæge
 Lægeattesten skal være forsynet med lægens stempel og underskrift
@@ -1372,6 +1411,7 @@ Men ellers holdt han sig stadig fra hende.
 Men et rigtigt fællesskab har også grænser.
 Men fanden ser så fæl ud, det er ikke værd at se ham!
 Men han kunde sagtens ikke høre hendes råb.
+Men han lagde dog en stor sten i sækken.
 Men han trådte i det samme på den igen.
 Men han var dog ganske bedrøvet.
 Men hjemme hos den lille Claus var den gamle bedstemoder død.
@@ -1426,6 +1466,7 @@ Natten gik og den følgende dag med, der kom ingen bud efter galocherne.
 Navnet på den udstedende myndighed
 Nede i byen lød stemmer.
 Nede omkring torvet var der liv og lys endnu.
+Nej sagde heksen, ikke en eneste skilling vil jeg have!
 Nej, det skulle aldrig ske.
 Nej, det var forskrækkeligt!
 Nej, hvad skal jeg dog med den tossede kiste?
@@ -1449,6 +1490,7 @@ Nu lukkede han den første dør op.
 Nu måtte konen tage vinen frem, hun havde gemt.
 Nu sendte han en dreng hen til store Claus, for at låne et skæppemål.
 Nu sendte han en dreng hen til store Claus.
+Nu skal du få så mange penge, du vil eje!
 Nu skal du ikke narre mig mere!
 Nu skal jeg spørge min troldmand.
 Nu skulle Johannes til at gætte, hvad hun havde tænkt på.
@@ -1463,6 +1505,7 @@ Nu var soldaten blevet en fornem herre.
 Nu vil jeg gerne sige noget til selve sagen.
 Nu ville da kejseren selv se det, medens det endnu var på væven.
 Nu ville han rask tage hovedet tilbage, men det gik ikke.
+Nå, det skal vi snart komme efter
 Når forholdene tillader det, skal patienten have en passende betænkningstid.
 Når han får at vide, hvor rig jeg er blevet ved min ene hest.
 Når ligsyn er afsluttet, skal lægen udstede dødsattest
@@ -1472,6 +1515,7 @@ Når vi ønsker, at Danmark fortsat er et harmonisk land.
 Nærmere bestemmelser herom fastsættes i Færdselsstyrelsens retningslinjer for køreprøver
 Næste dag blev bolden taget frem
 Næste dag skulle der allerede gættes igen.
+Næste dag var det et velsignet, dejligt vejr
 Næste morgen sejlede skibet ind i havnen ved nabokongens prægtige stad.
 Nævnenes Hus træffer bestemmelse om, hvorvidt den af patienten foreslåede person kan beskikkes.
 Obduktion må først foretages, når ligsyn er foretaget
@@ -1540,6 +1584,7 @@ Personligt er jeg i hvert fald fuldstændig enig.
 Peter var ikke nogen almindelig kanin.
 Planen skal vedtages af henholdsvis regionsrådet og kommunalbestyrelsen i et møde
 Platformen sprogteknologi.dk udvides løbende med nye funktionaliteter og ressourcer.
+Plump! Der lå store Claus ude i åen og sank ned til bunds.
 Pokker vide egentlig, hvad han tog sig til.
 Politiet er over det hele.
 Politiet kan i ganske særlige tilfælde dispensere fra fristen
@@ -1701,11 +1746,13 @@ Så jeg kan tage min beskyttelse med ind i salen
 Så knirkede det meget højere end før.
 Så kom de til de varme lande.
 Så kom hun til markmusens dør.
+Så krøb han i den store sæk.
 Så kunne de da nok se, det kunne ikke hjælpe noget at de søgte.
 Så kyssede de hinanden, og Johannes gik ind til byen og op på slottet.
 Så kørte han med sine penge og den store kiste.
 Så må jeg gesvindt have den ud i åen, at han kan drukne!
 Så må vi sige klart fra over for dem, der begrænser andres frihed.
+Så mødte han en gammel heks på landevejen.
 Så mødte han en gammel heks.
 Så pryglet havde han aldrig været.
 Så rullede de af sted igennem skoven.
@@ -1736,6 +1783,7 @@ Således varede det ved, lige til Solen stod op.
 Særregler for ghettoområder. Færre, der kommer hertil og søger asyl.
 Tag den af.
 Tak du Gud for ham!"
+Tak skal du have, din gamle heks!
 Tak, sagde han.
 Taksten pris- og lønreguleres på samme måde som bloktilskuddet til regionerne
 Tale gjorde han sjældent.
@@ -1892,6 +1940,7 @@ gear, kombineret med enten opbremsning eller svingning om hjørner
 har sine tanker vendt til ruder knægt.
 hej med dig
 hun er så smuk, så klog, så ejegod.
+hun var så ækel, hendes underlæbe hang hende lige ned på brystet.
 hunden hedder fido
 hunden løber på fire ben
 hver især eller i forening indbringe tvisten for et voldgiftsnævn
@@ -1920,9 +1969,11 @@ men hun vil aldrig rigtig ud med sproget.
 men, tænkte jeg, hvor mon de fleste kommer?
 min egen skæbne, kunstens, land og riges
 mor og far skal på arbejde
+nej det var ækelt!
 nej — jeg turde ikke.
 nu er den syvårs pige vokset ud
 nu vil vi se, hvad kortene kan sige.
+næste dag fik han støvler at gå med, og klæder som var pæne!
 og fremmede fra verdens anden side.
 og sådannes efterladte
 omfattet af tilsynet
