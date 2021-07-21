@@ -1,4 +1,4 @@
-@import url('../vars.css');
+@import url('../media.css');
 
 .primary-button {
     position: relative;
@@ -8,7 +8,7 @@
 
     margin: 0 18px;
 
-    @media(--md-up) {
+    @media (--md-up) {
         margin: 0 40px;
     }
 
@@ -27,7 +27,8 @@
         }
     }
 
-    & button, & a {
+    & button,
+    & a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -65,14 +66,19 @@
         }
     }
 
-    &.record .background, &.play .background {
+    &.record .background,
+    &.play .background {
         opacity: 0.5;
         background: linear-gradient(to left, #88d1f1, #b1b5e5);
     }
 
     &.stop .background {
         opacity: 0.7;
-        background: linear-gradient(to right, var(--gradient-pink), var(--gradient-purple));
+        background: linear-gradient(
+            to right,
+            var(--gradient-pink),
+            var(--gradient-purple)
+        );
     }
 
     &:hover .background {

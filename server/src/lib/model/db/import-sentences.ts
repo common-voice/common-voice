@@ -170,6 +170,7 @@ export async function importSentences(pool: any) {
       DELETE FROM sentences
       WHERE id NOT IN (SELECT original_sentence_id FROM clips) AND
             id NOT IN (SELECT sentence_id FROM skipped_sentences) AND
+            id NOT IN (SELECT sentence_id FROM reported_sentences) AND
             id NOT IN (SELECT sentence_id FROM taxonomy_entries) AND
             version <> ?
     `,

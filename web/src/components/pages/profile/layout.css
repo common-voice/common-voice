@@ -1,4 +1,4 @@
-@import url('../../vars.css');
+@import url('../../media.css');
 
 .profile {
     &.info,
@@ -27,10 +27,6 @@
     display: flex;
     flex-direction: column;
 
-    @media (--md-only) {
-        margin-top: var(--header-height);
-    }
-
     @media (--md-up) {
         flex-direction: row;
     }
@@ -42,6 +38,7 @@
         background: #f6f6f5;
 
         @media (--md-up) {
+            position: relative;
             margin-inline-end: 50px;
             padding-top: 50px;
             padding-inline-end: 30px;
@@ -57,7 +54,6 @@
 
         @media (--lg-up) {
             max-width: 27%;
-            margin-inline-end: 100px;
         }
 
         .links {
@@ -73,12 +69,8 @@
 
             @media (--md-up) {
                 flex-direction: column;
-                margin: 0 auto;
-                width: 100%;
-                max-width: var(--wide-desktop-width);
-                position: absolute;
-                left: 0;
-                right: 0;
+                margin: 0;
+                width: auto;
             }
 
             svg {
@@ -141,7 +133,6 @@
         width: 100%;
         min-height: 500px;
         position: relative;
-        right: 3%;
         z-index: var(--middle-z-index);
         overflow: hidden;
 

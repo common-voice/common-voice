@@ -11,7 +11,7 @@ loading = Nisamajib'ëx...
 email-opt-in-info = Ninwajo' yenk'ül taq taqoya'l achi'el kinatab'al taq rayb'äl, taq ruk'exoj ri nib'anon chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
 email-opt-in-info-title = Tatunu' awi' pa ri rucholajem rutaqoya'l Common Voice
 email-opt-in-info-sub-with-challenge = Ke'ak'ulu' taq taqoya'l achi'el kinatab'al ri najowäx, taq rayb'äl, taq ruk'exoj ri nib'an chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
-email-opt-in-privacy = Toq naya' q'ij ye'ak'ül taq taqoya'l, niq'ax pan qawi' chi naya' q'ij chi re ri Mozilla nrokisaj ri awetamab'al achi'el nichol pa ri <privacyLink>Ichinan Runa'ojil <privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Toq naya' q'ij ye'ak'ül taq taqoya'l, niq'ax pan qawi' chi naya' q'ij chi re ri Mozilla nrokisaj ri awetamab'al achi'el nichol pa ri <privacyLink>Ichinan Runa'ojil </privacyLink> Mozilla.
 indicates-required = * Retal chi k'atzinel ri k'ojlib'äl
 not-available-abbreviation = M/O
 
@@ -33,14 +33,18 @@ as = Assames
 ast = Asturiano
 az = Azeri
 ba = Bashkirs
+bas = Basaa
 be = Bielorruso
 bg = Bulgaro
+bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Buriato
 ca = Catalan
 cak = Kaqchikel
+ckb = Central Kurdish
 cnh = Hakha Chin
+co = Corsican
 cs = Checo
 cv = Chuvasio
 cy = Gales
@@ -62,11 +66,13 @@ fr = Frances
 fy-NL = Frison
 ga-IE = Irlandes
 gl = Gallego
+gn = Guarani
 ha = Hausa
 he = Hebreo
 hi = Hindu
 hr = Croata
 hsb = Alto Sorabo
+ht = aj Haiti
 hu = Hungaro
 hy-AM = Armenyan
 hyw = Armenio (occidental )
@@ -81,22 +87,25 @@ kaa = Karakalpak
 kab = Cabilio
 kbd = Cabardiano
 kk = Kazajo
+kmr = Kurmanji Kurdish
 ko = Coreano
 kpv = Komi-Zyrian
-ku = Kurdo
 kw = Cornico
 ky = Kirguis
 lg = Uganda
 lij = Ligur
 lt = Lituano
 lv = Letón
+mai = Maithili
 mdf = Moksha
 mg = Madagascari
 mhr = Mari oriental
 mk = Macedonio
 ml = Malabar
 mn = aj Mongolia
+mr = Marati
 mrj = Mari occidental
+ms = aj Malasia
 mt = Maltes
 my = Birmano
 myv = Erzya
@@ -108,6 +117,7 @@ oc = aj Occitania
 or = Odia
 pa-IN = Punjabi
 pl = Polaco
+ps = Pashto
 pt = Portugues
 rm-sursilv = Romanche Sursilvan
 rm-vallader = Romansh Vallader
@@ -117,9 +127,11 @@ rw = Kinyarwanda
 sah = Yakuto
 sc = Sardo
 scn = Sicilian
+shi = Shilha
 si = Sinhala
 sk = Eslovaco
 sl = Esloveno
+so = aj Somalia
 sq = Albanes
 sr = Serbio
 sv-SE = Sueco
@@ -134,6 +146,7 @@ tr = Turco
 tt = Tartaro
 uby = Ubije
 udm = Udmurto
+ug = Uighur
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
@@ -292,7 +305,7 @@ profile-form-accent =
     .label = K'oxomal
 profile-form-age =
     .label = Ajuna'
-profile-form-gender =
+profile-form-gender-2 =
     .label = Ixöq/achi
 leaderboard-visibility =
     .label = Ruq'alajixik pa ri Kikajtz'ik Cha'onem
@@ -319,7 +332,6 @@ profile-close = Titz'apïx
 profile-explanation = Tatz'eta' ri asamaj pa jun ruwäch b'i'aj richin yato'on chi e ütz ri taq rutzij qach'ab'äl.
 thanks-for-account = Matyox xajikib'a' ri rub'i' ataqoya'l, wakami niqatz'ük qa ri ruwäch ab'i'.
 why-demographic = ¿Achike ruma k'atzinel re'?
-why-demographic-explanation = Ewäl rutzij okisanel achi'el rujuna', rub'anikil chuqa' ruk'oxom yeto'on richin ye'utziläx ri taq rutzij k'oxom e'okisan richin jeb'ël yetojtob'ëx ri taq rukanob'al ketamaxik taq ch'ab'äl. Ri rub'i' awokisanel chuqa' ataqoya'l majub'ey xkexim kik'in ri taq tzij xke'atäq chuqa' yatikïr nacha' we ri rub'i' awokisanel ewäl o nikitz'ët winaqi'.
 accept-privacy = Ütz ninwak'axaj rub'eyal nokisäx re etamab'äl re' achi'el nitzijöx pa <privacyLink>Richinanem Na'ojil</privacyLink> richin Mozilla
 accept-privacy-title = Ichinan Na'oj
 login-identity = Rub'anikil Rutikirisaxik Molojri'ïl
@@ -472,10 +484,9 @@ sst-explanation = Runa'ob'al tz'ib'anïk-pa-ch'ab'äl (STT) ri yekijäl ri taq r
 de-identified = Tewäch-ruwäch
 de-identified-explanation = Rub'eyal richin newäx ri retamab'al ruwäch rub'i' ri to'onel, newäx pa ri taq q'aptzij ch'ab'äl erusipan toq niqasäx ri rucholxetzij.
 
-## NotFound
+## Error pages
 
-notfound-title = Man xilitäj ta
-notfound-content = Kinakuyu', man wetaman ta achike nakanoj.
+error-code = Sachoj { $code }
 
 ## Data
 
@@ -614,7 +625,11 @@ contribute = Kato'on
 listen = Tak'axäx
 skip = Tik'o'
 shortcuts = Chojmin Okem
-clips-with-count = <bold>{ $count }</bold> Perb'ab'
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Perb'ab'
+       *[other] <bold>{ $count }</bold> taq Perb'ab'
+    }
 goal-help-recording = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al { $goalValue } q'ij q'ij!
 goal-help-validation = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al richin rujunamanem { $goalValue } q'ij q'ij!
 contribute-more =
@@ -638,6 +653,7 @@ record-again-instruction = ¡Jeb'ël!<recordIcon></recordIcon> Tayaka' jun chik
 record-again-instruction2 = Ütz ke ri', kayakon chik <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ¡Ri ruk'isib'äl!
 review-tooltip = Tanik'oj & tayaka'-chik wawe pan ab'anikil
+share-common-voice = Tikomonïx Common Voice
 review-instruction = Tanik'oj & tayaka'-chik we k'atzinel
 record-submit-tooltip = { $actionType } tataqa' toq xtak'ïs
 clips-uploaded = Taq Yakoj Ejotob'an
@@ -654,6 +670,7 @@ record-button-label = Tayaka' ach'ab'äl
 share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
 keep-track-profile = Tawojqaj ri nab'än rik'in jun ruwäch ab'i'
 login-to-get-started = Tatikirisaj molojriïl o tatz'ib'aj ab'i' richin natikirisaj
+target-segment-add-voice = Tatz'aqatisaj Ach'ab'äl
 target-segment-learn-more = Tetamäx ch'aqa' chik
 
 ## Reporting
@@ -736,13 +753,8 @@ want-to-continue = ¿La nawajo' nab'än qa?
 finish-editing = ¿La nawajo' nab'ey nak'ïs nanük'?
 lose-changes-warning = We yatel wakami, xtisach ronojel ri jaloj
 build-custom-goal = Tinuk' jun ichinan rayib'äl
-help-reach-hours = Kato'on richin niq'i' { NUMBER($hours) } taq ramaj pa { $language } rik'in jun ichinan rayib'äl
-help-reach-hours-general = Kato'on richin chi ri Common Voice nuq'i' { NUMBER($hours) } taq ramaj pa jun ch'ab'äl ruma ri ichinan rayib'äl
 set-a-goal = Tijikib'äx jun rayib'äl
 cant-decide = ¿La man at jikïl ta?
-activity-needed-calculation =
-    Yatikïr naq'i' { NUMBER($totalHours) } taq ramaj pa jub'ama { NUMBER($periodMonths) }
-    jujun taq ik' we { NUMBER($people) } ri winaqi' yekitz'uk { NUMBER($clipsPerDay) } taq yakoj pa jun q'ij.
 how-many-per-day = ¡Yalan ütz! ¿Jarupe' taq yakoj pa jun q'ij?
 how-many-a-week = ¡Yalan ütz! ¿Jarupe' taq yakoj pa jun ik'?
 which-goal-type = ¿La nawajo' Yach'o, Nawak'axaj o chi ka'i' ruwa?
@@ -752,7 +764,6 @@ receiving-emails-info =
 not-receiving-emails-info =
     Ri rub'anon anuk'ulem wakami nub'ij chi <bold>MAJUN</bold> ye'ak'ül taq taqoya'l achi'el kinatab'al taq rayb'äl, taq 
     ruk'exoj ri nib'anon chuqa' taq ruko'öl ruwuj rutzijol ri Common Voice.
-n-clips = { NUMBER($count) } taq yakoj
 help-share-goal = Kojato' yeqïl ch'aqa' chik taq ch'ab'äl, takomonij ri arayb'al
 confirm-goal = Tijikib'äx Rayb'äl
 goal-interval-weekly = Wuqq'ijil
@@ -791,3 +802,18 @@ help-contribute = Yatikïr yato'on chi runuk'ik jalajöj rucholxe' tzij, ri jaq�
 login-company = Tatikirisaj Molojri'ïl / Tatz'ib'aj Ab'i' rik'in ri { $company } taqoya'l
 profile-not-required = Man k'atzinel ta jun ruwäch ab'i' richin yato'on, po rik'in jub'a' nik'atzin.
 read-more-about = Tisik'ïx ch'aqa' chik pa Chi rij pa ri ruxaq
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
