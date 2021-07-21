@@ -11,7 +11,7 @@ loading = Se încarcă…
 email-opt-in-info = Doresc să primesc mesaje pe e-mail, cum ar fi mementouri de obiective, actualizări ale progresului propriu și buletine informative despre Common Voice.
 email-opt-in-info-title = Înscrie-te pe lista de corespondență Common Voice
 email-opt-in-info-sub-with-challenge = Primești mesaje pe e-mail, precum memento-uri de provocări și obiective, actualizări legate de progres și buletine de știri despre Common Voice.
-email-opt-in-privacy-v2 = Dacă optezi să primești mesaje pe e-mail înseamnă că accepți ca Mozilla să gestioneze aceste informații conform informațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Dacă optezi să primești mesaje pe e-mail înseamnă că accepți ca Mozilla să gestioneze aceste informații, conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla.
 indicates-required = * Indică un câmp obligatoriu
 not-available-abbreviation = Nu e cazul
 
@@ -83,7 +83,6 @@ kbd = Karbadiană
 kk = Kazahă
 ko = Coreeană
 kpv = Komi-ziriană
-ku = Kurdă
 kw = Cornică
 ky = Kirghiză
 lg = Luganda
@@ -165,7 +164,7 @@ content-license-text = Conținut disponibil sub o <licenseLink>licență Creativ
 share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
 share-text = Ajută mașinile să învețe cum vorbesc oamenii reali, donează-ți vocea la { $link }
 link-copied = Link copiat
-back-top = Sus
+back-top = Înapoi în partea de sus
 logout = Deconectare
 
 ## Home Page
@@ -238,7 +237,6 @@ whats-public = Ce este public?
 email-not-public = Nu îți vom face publică adresa de e-mail.
 recordings-and-locale-public = Numărul de înregistrări și limbile în care vei contribui vor fi publice.
 username-optin-public = Poți alege să îți faci numele de utilizator public sau anonim.
-demographic-deidentified-clarity = Datele demografice trimise opțional (de ex. vârsta, sexul, limba și accentul) nu vor fi făcute niciodată publice pe profilul tău și nu vor fi legate de contul tău în setul de date. Secvențele audio individuale vor fi asociate cu datele demografice în scopul unei analize mai precise - de exemplu, un cercetător ar putea dori să asocieze un model de instruire cu un anumit segment demografic.
 username-email-not-demographic = Numele de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
 
 ## Speak & Listen Shortcuts
@@ -264,9 +262,9 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = Înregistrare/Oprire
+shortcut-record-toggle-label = Înregistrează/Oprește
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Reînregistrează secvența audio
+shortcut-rerecord-toggle-label = Reînregistrează secvența vocală
 request-language-text = Încă nu îți vezi limba pe Common Voice?
 request-language-button = Solicită o limbă
 
@@ -297,8 +295,6 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Vârstă
-profile-form-gender =
-    .label = Sex
 leaderboard-visibility =
     .label = Vizibilitate clasament
 hidden = Ascuns
@@ -324,7 +320,6 @@ profile-close = Închidere
 profile-explanation = Urmărește-ți progresul cu ajutorul unui profil și ajută-ne să sporim acuratețea datelor noastre vocale.
 thanks-for-account = Îți mulțumim pentru confirmarea contului. Acum, să îți construim profilul.
 why-demographic = De ce contează?
-why-demographic-explanation = Datele de utilizator anonimizate, precum vârsta, sexul și accentul, ajută la îmbunătățirea datelor audio folosite la antrenarea și ridicarea gradului de acuratețe al motoarelor de recunoaștere vocală. Numele de utilizator și parola nu vor fi niciodată asociate cu datele trimise și poți opta dacă numele tău de utilizator să fie public sau anonim.
 accept-privacy = Sunt de acord să gestionați aceste informații conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla
 accept-privacy-title = Politică de confidențialitate
 login-identity = Identitate de autentificare
@@ -338,26 +333,17 @@ skip-submission-description = În timpul colaborării, se va sări peste feedbac
 skip-submission-note = Obs: Tot va trebui să selectezi Vorbește sau Ascultă pentru a modifica tipul de colaborare.
 off = Dezactivat
 on = Activat
-avatar-clip-title = Dă o voce avatarului tău
-change-your-avatar-clip = Vrei să schimbi secvența vocală?
-recording-in-progress = Înregistrare vocală în curs
-avatar-clip-recorded = Acum avatarul tău include o secvență vocală!
-record-voice-wave = ÎNREGISTREAZĂ O UNDĂ VOCALĂ
-retry-voice-wave-recording = REÎNCEARCĂ
-re-record = ÎNREGISTREAZĂ DIN NOU
-delete-voice = ȘTERGE
-recording-voice-wave = Se înregistrează
-delete-voice-clip = sau   Șterge secvența vocală
-ready-to-upload = Încărcare
-avatar-clip-fact = Este un fapt binecunoscut că cititorilor le va atrage atenția conținutul scris de pe o pagină când se uită la dispunerea în pagină.
-recreate-voice = Recrează unda de voce
-cancel-avatar-clip-recording = Renunță
-about-avatar-clip-recording = Creează o secvență vocală ca parte a avatarului tău de profil. Ceilalți vor putea să gliseze cursorul și să îți asculte înregistrarea.
+
+## Profile - Email
+
 browse-file-title = Încarcă un fișier de imagine
 browse-file = Trage și plasează sau <browseWrap>Navighează</browseWrap>
 connect-gravatar = Conectează-te cu Gravatar
 gravatar_not_found = Nu s-a găsit niciun gravatar pentru e-mailul tău
 file_too_large = Fișierul selectat este prea mare
+
+## Profile - Email
+
 manage-subscriptions = Gestionează abonamentele
 manage-email-subscriptions = Gestionează abonamentele prin e-mail
 email-already-used = Adresa de e-mail este deja utilizată pentru alt cont
@@ -503,7 +489,6 @@ data-bundle-description = Datele Common Voice plus toate celelalte seturi de dat
 license = Licență: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixtă
 data-download-singleword-title = Descarcă segmentul-țintă de cuvinte unice
-data-download-singleword-callout = Este un segment pe bază de cazuri de utilizare, ce conține date pentru recunoașterea vocală a cifrelor, detecție „da/nu” și date de testare de cuvinte de activare pentru <fxLink>Firefox Voice</fxLink>.
 review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>
 terms-agree = De acord
 terms-disagree = Nu sunt de acord
@@ -618,7 +603,7 @@ total-hours = Ore validate
 
 ## Contribution
 
-action-click = Clic
+action-click = Dă clic pe
 action-tap = Atinge
 contribute = Contribuie
 listen = Ascultă
@@ -695,7 +680,7 @@ report-different-language-detail = Este scrisă într-o limbă diferită față 
 report-difficult-pronounce = Dificilă de pronunțat
 report-difficult-pronounce-detail = Aceasta conține cuvinte sau sintagme care sunt dificil de citit sau de pronunțat.
 report-offensive-speech = Discurs ofensator
-report-offensive-speech-detail = Secvența conține limbaj disprețuitor sau ofensator.
+report-offensive-speech-detail = Secvența vocală conține limbaj disprețuitor sau ofensator.
 report-other-comment =
     .placeholder = Comentariu
 success = Succes
@@ -847,3 +832,18 @@ help-contribute = Poți ajuta la clădirea unui set de date divers, cu cursă de
 login-company = Conectare/Înregistrare cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
 read-more-about = Află mai multe pe pagina Despre
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

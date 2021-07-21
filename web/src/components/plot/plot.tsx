@@ -65,9 +65,19 @@ export default class Plot extends React.Component<
         .slice()
         .reverse()
         .find(m => max > m) || 1;
-    const ticks = (tickCount - 1) * tickMultiplier;
+    const ticksCeiling = (tickCount - 1) * tickMultiplier;
 
-    max = max + (ticks - (max % ticks));
+    // If max is larger than the natural ceiling based on biggest
+    // tickMultiplier and number of ticks, add padding equivalent
+    // to another full tickMultiplier
+    if (max >= ticksCeiling) {
+      max = max + (ticksCeiling - (max % ticksCeiling));
+    } else {
+      // if max is smaller than the natural ceiling based on biggest
+      // tickMultiplier and number of ticks, add padding that will bring
+      // max to the next step of multiplier
+      max = max + (tickMultiplier - (max % tickMultiplier));
+    }
 
     return (
       <svg

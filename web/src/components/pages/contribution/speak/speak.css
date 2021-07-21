@@ -1,5 +1,3 @@
-@import url('../../../vars.css');
-
 .contribution.speak {
     & .error .instruction {
         color: var(--red);
@@ -17,6 +15,11 @@
         }
     }
 
+    .instrunction {
+        svg {
+            margin:  0 2px 0 7px;
+        }
+    }
     .unsupported {
         min-height: 272px;
 
@@ -47,6 +50,17 @@
             @media (--md-up) {
                 margin-top: 8px;
             }
+        }
+    }
+
+    & .text-button.text {
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        text-decoration: underline;
+
+        &:hover {
+            color: var(--blue);
+            text-decoration-color: var(--blue);
         }
     }
 }

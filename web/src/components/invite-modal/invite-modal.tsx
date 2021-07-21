@@ -40,21 +40,31 @@ export default ({
             hasEarnedSessionToast = false,
             challengeEnded = true,
           }) => {
-            sessionStorage.setItem(
-              'showInviteSendToast',
-              JSON.stringify(showInviteSendToast)
-            );
-            sessionStorage.setItem(
-              'hasEarnedSessionToast',
-              JSON.stringify(hasEarnedSessionToast)
-            );
-            sessionStorage.setItem(
-              'challengeEnded',
-              JSON.stringify(challengeEnded)
-            );
+            try {
+              sessionStorage.setItem(
+                'showInviteSendToast',
+                JSON.stringify(showInviteSendToast)
+              );
+              sessionStorage.setItem(
+                'hasEarnedSessionToast',
+                JSON.stringify(hasEarnedSessionToast)
+              );
+              sessionStorage.setItem(
+                'challengeEnded',
+                JSON.stringify(challengeEnded)
+              );
+            } catch (e) {
+              console.warn(`A sessionStorage error occurred ${e.message}`);
+            }
+
           }
         );
-      sessionStorage.setItem('hasShared', 'true');
+
+      try {
+        sessionStorage.setItem('hasShared', 'true');
+      } catch (e) {
+        console.warn(`A sessionStorage error occurred ${e.message}`);
+      }
 
       return () => clearTimeout(timer);
     }

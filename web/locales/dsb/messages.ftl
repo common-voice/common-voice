@@ -33,14 +33,18 @@ as = Asamšćina
 ast = Asturšćina
 az = Azerbajdžanišćina
 ba = Baškiršćina
+bas = Basašćina
 be = Běłorušćina
 bg = Bułgaršćina
+bm = Bambaršćina, Bambara
 bn = Bengalšćina
 br = Bretońšćina
 bxr = Burjatšćina
 ca = Katalańšćina
 cak = Kaqchikel
+ckb = Centralna kurdišćina
 cnh = Hakha Chin
+co = Korsišćina
 cs = Češćina
 cv = Čuwašćina
 cy = Kymrišćina
@@ -62,11 +66,13 @@ fr = Francojšćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 gl = Galicišćina
+gn = Guaranšćina, Guarani
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
 hr = Chorwatšćina
 hsb = Górnoserbšćina
+ht = Haitiańšćina
 hu = Hungoršćina
 hy-AM = Armeńšćina
 hyw = Pódwjacornoarmeńšćina
@@ -81,33 +87,40 @@ kaa = Karakalpakšćina
 kab = Kabylšćina
 kbd = Kabardińšćina
 kk = Kazachšćina
+kmr = Kurmanźiska kurdišćina
 ko = Korejańšćina
 kpv = Komi-syrjeńšćina
-ku = Kurdišćina
 kw = Kornišćina
 ky = Kirgišćina
 lg = Luganda
 lij = Ligurišćina
 lt = Litawšćina
 lv = Letišćina
+mai = Majtilišćina
 mdf = Mokša
 mg = Malagasišćina
 mhr = Łucna marišćina
 mk = Makedońšćina
 ml = Malajalamšćina
 mn = Mongolšćina
+mos = Mossišćina
+mr = Maratišćina
 mrj = Górska marišćina
+ms = Malajišćina
 mt = Maltašćina
 my = Burmašćina
 myv = Erzya
 nb-NO = Norwegski Bokmål
 ne-NP = Nepalšćina
+nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
 oc = Okcitańšćina
 or = Odiašćina
 pa-IN = Pundžabšćina
+pap-AW = Papiamento (Aruba)
 pl = Pólšćina
+ps = Paštošćina, Pašto
 pt = Portugišćina
 rm-sursilv = Retoromanišćina (Sursilvan)
 rm-vallader = Retoromanšćina Vallader
@@ -117,9 +130,11 @@ rw = Kinjarwanda
 sah = Sachašćina
 sc = Sardinišćina
 scn = Sicilianišćina
+shi = Tašelhitšćina
 si = Singalezišćina
 sk = Słowakšćina
 sl = Słowjeńšćina
+so = Somališćina
 sq = Albanšćina
 sr = Serbišćina
 sv-SE = Šwedšćina
@@ -134,12 +149,14 @@ tr = Turkojšćina
 tt = Tataršćina
 uby = Ubychišćina
 udm = Udmurtšćina
+ug = Ujguršćina
 uk = Ukrainšćina
 ur = Urdu
 uz = Uzbekišćina
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+yue = Kantonšćina
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
@@ -241,7 +258,7 @@ whats-public = Co jo zjawne?
 email-not-public = Wašu e-mailowu adresu njewózjawijomy.
 recordings-and-locale-public = Licba nagraśow a rěcow, ku kótarymž pśinosujośo, budu zjawne.
 username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
-demographic-deidentified-clarity = Opcionelnje zapódane demografiske daty (na pś. starstwo, rod, rěc a akcent) se we wašom profilu nigda njewózjawiju a z wašym kontom w datowej sajźbje njezwězaju. Jadnotliwe awdioklipy se z demografiskimi datami za dokradnjejšu analyzu zwězaju - slěźaŕ na pśikład co snaź treningowy model na wěsty demografiski segment wusměriś.
+demographic-deidentified-clarity-2 = Opcionelnje zapódane demografiske daty (na pś. starstwo, rod, rěc a akcent) se we wašom profilu nigda njewózjawiju a z wašym kontom w datowej sajźbje njezwězaju. Jadnotliwe awdioklipy se z demografiskimi datami za dokradnjejšu analyzu zwězaju - slěźaŕ na pśikład co snaź treningowy model na wěsty demografiski segment wusměriś.
 username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
 ## Speak & Listen Shortcuts
@@ -270,7 +287,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Nagraś/Zastajiś
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klip znowego nagraś
+shortcut-submit = Zapódaśe
+shortcut-submit-label = Klipy wótpósłaś
 request-language-text = Waša rěc hyšći njejo na Common Voice?
+request-language-text-learn = Zgóńśo, kak móžośo to how póžedaś!
 request-language-button = Rěc pominaś
 
 ## ProjectStatus
@@ -301,7 +321,7 @@ profile-form-accent =
     .label = Akcent
 profile-form-age =
     .label = Starstwo
-profile-form-gender =
+profile-form-gender-2 =
     .label = Rod
 leaderboard-visibility =
     .label = Wiźobnosć lisćiny nejlěpšych
@@ -328,7 +348,7 @@ profile-close = Zacyniś
 profile-explanation = Z profilom móžośo swój póstup we wócyma wobchowaś a pomagaś, naše głosowe daty dokradnjejše cyniś.
 thanks-for-account = Źěkujomy se, až sćo wobkšuśił swójo konto, comy něnto waš profil zarědowaś.
 why-demographic = Cogodla jo to wažne?
-why-demographic-explanation = Anonymizěrowane wužywarske daty ako starstwo, rod a akcent pomagaju awdiodaty pólěpšyś, kótarež se wužywaju, aby dokradnosć softwary powědańskego spóznaśa treněrowali. Waše wužywarske mě a e-mailowa adresa se nigda z wašymi pósłanymi datami njezwězujotej, a móžośo wubraś, lěc dej wašo wužywarske mě zjawne abo anonymne byś.
+why-demographic-explanation-2 = Anonymizěrowane wužywarske daty ako starstwo, rod a akcent pomagaju awdiodaty pólěpšyś, kótarež se wužywaju, aby dokradnosć softwary powědańskego spóznaśa treněrowali. Waše wužywarske mě a e-mailowa adresa se nigda z wašymi pósłanymi datami njezwězujotej, a móžośo wubraś, lěc dej wašo wužywarske mě zjawne abo anonymne byś.
 accept-privacy = Som wobjadny, až se toś te informacije wužywaju, kak se w <privacyLink>pšawidłach priwatnosći</privacyLink> Mozilla wujasnjujo.
 accept-privacy-title = Pšawidła priwatnosći
 login-identity = Pśizjawjeńska identita
@@ -342,26 +362,19 @@ skip-submission-description = Pśi sobustatkowanju se zapódawański komentar p�
 skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś wubraś, aby typ sobustatkowanja změnił.
 off = Wušaltowany
 on = Zašaltowany
-avatar-clip-title = Dajśo swójomu awataroju głos
-change-your-avatar-clip = Cośo swój głosowy klip změniś?
-recording-in-progress = Głosowe nagraśe běžy
-avatar-clip-recorded = Waš awatar něnto głosowy klip wopśimujo!
-record-voice-wave = VOICEWAVE NAGRAŚ
-retry-voice-wave-recording = ZNOWEGO WOPYTAŚ
-re-record = ZNOWEGO NAGRAŚ
-delete-voice = WULAŠOWAŚ
-recording-voice-wave = Nagrawa se
-delete-voice-clip = abo wulašujśo głosowy klip
-ready-to-upload = Nagraś
-avatar-clip-fact = Jo južo dłujko znaty fakt, až se cytaŕ wót cytajobnego wopśimjeśa boka wótchyla, gaž se jogo wugótowanje woglědujo.
-recreate-voice = Głosowu žwału znowego napóraś
-cancel-avatar-clip-recording = Pśetergnuś
-about-avatar-clip-recording = Napórajśo głosowy klip ako źěl swójogo profilowego awatara. Druge mógu z myšku pśez njen gibaś a waš klip słuchaś.
+
+## Profile - Email
+
 browse-file-title = Wobrazowu dataju nagraś
 browse-file = Śěgniśo a pušććo abo <browseWrap>pśeglědujśo</browseWrap>
 connect-gravatar = Z gravatarom zwězaś
 gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
 file_too_large = Wubrana dataja jo pśewjelika
+avatar-uploaded = Awatar jo se nagrał
+max-file-size = { $kb } kb maks.
+
+## Profile - Email
+
 manage-subscriptions = Abonementy zastojaś
 manage-email-subscriptions = E-mailowe abonementy zastojaś
 email-already-used = E-mailowa adresa se južo za druge konto wužywa
@@ -487,7 +500,9 @@ de-identified-explanation = Proces, pśez kótaryž se profilowe informacije sob
 ## Error pages
 
 error-title-404 = Njejsmy mógli ten bok za was namakaś
+error-content-404 = Snaź buźo naš <homepageLink>startowy bok</homepageLink> pomagaś? Aby pšašanje stajił, wobdělśo se pšosym na <matrixLink>chaśe Matrix zgromaźeństwa</matrixLink>, wobglědujśo sedłowe problemy pśez <githubLink>GitHub</githubLink> abo woglědajśo se k <discourseLink>našym forumam Discourse</discourseLink>.
 error-title-503 = Nazgónijomy njewótcakany cas stojanja
+error-content-503 = Sedło buźo tak skóro ako móžno zasej k dispoziciji byś. Nejnowše informacije dostanjośo w  <matrixLink>chaśe Matrix zgromaźeństwa</matrixLink> abo woglědajśo se k <githubLink>GitHub</githubLink> abo <discourseLink>našym forumam Discourse</discourseLink>, aby problemy ze sedłom k wěsći dał abo wobglědował.
 error-code = Zmólka { $code }
 
 ## Data
@@ -505,10 +520,12 @@ data-other-goto = K { $name }
 data-other-download = Daty ześěgnuś
 data-bundle-button = Paket datowych sajźbow ześěgnuś
 data-bundle-description = Daty Common Voice plus wšykne druge głosowe datowe sajźby górjejce.
+release-version = Wersija
+dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 data-download-singleword-title = Ześěgniśo celowy segment jadnotliwego słowa
-data-download-singleword-callout = To jo segment, kótaryž se pśez nałožowański pad wóźi, kótaryž daty wopśimujo, aby spóznawanje powědanych cyfrow, jo/ně-wótkrywanje a testowańske daty wakeword za <fxLink>Firefox Voice</fxLink> pódpěrał.
+data-download-singleword-callout-v2 = To jo segment, kótaryž se pśez nałožowańske pady pógónujo a daty wopśimujo, aby spóznaśe powědanych cyfrow a spóznaśe jo/ně zmóžnił.
 review-terms = Gaž Common Voice wužywaśo, zwolijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
@@ -684,6 +701,7 @@ share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
 keep-track-profile = Slědujśo swójomu póstupoju z profilom
 login-to-get-started = Pśizjawśo se abo registrěrujśo se, aby zachopił
 target-segment-first-card = Pśinosujośo k našomu prědnemu celowemu segmentoju
+target-segment-generic-card = Pśinosujośo k celowemu segmentoju
 target-segment-first-banner = Pomagajśo prědny celowy segment Common Voice w { $locale } napóraś
 target-segment-add-voice = Pśidajśo swój głos
 target-segment-learn-more = Dalšne informacije
@@ -864,3 +882,39 @@ help-contribute = Załožćo profil Common Voice a pśinosujśo swój głos, aby
 login-company = Z e-mailoweju adresu { $company } pśizjawiść / registrěrowaś
 profile-not-required = Za sobuźěło profil trěbny njejo, lěcrownož jo wužytny
 read-more-about = Cytajśo wěcej wó boku Wó Common Voice
+
+## DemoLayout
+
+demo-get-started = Zachopmy
+demo-welcome = Witajśo ku Common Voice
+demo-welcome-subheader = Cośo wěcej zgóniś a k projektoju pśinosowaś?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice jo nejwětša zjawnje k dispoziciji stojeca, wěcejrěcna datowa sajźba swěta.
+demo-language-select-card-body = Z pomocu pśinoskow wót 259&thinsp;000 luźi we wěcej ako 50 rěcach, se toś te daty wužywaju, aby se powědańske nałoženja treněrowali, aby cłowjeskemu głosoju lěpjej wótpowědowali.
+card-button-next = Dalej
+card-button-back = Slědk
+demo-language-select-label = Rěcy pśepytowaś
+demo-eofy-header = Wózjawjenje kóńc lěta 2019
+demo-eofy-sub_header = Głosowa datowa sajźba, gótowy za ześěgnjenje
+demo-account = Konto
+
+## Demo Account
+
+demo-account-card-header = Za sobuźěło konto njejo trjebne, lěcrownož jo wužytny
+demo-account-card-body = Napšawo skicěrujomy lěpšyny a wujasnjujomy, kótare informacije wózjawjamy. Wužywajśo wótkaze dołojce, aby z kontom Common Voice na swójom rěźe zachopił.
+demo-account-enter-email =
+    .label = Zapódajśo e-mailowu adresu, aby registrěrowański wótkaz pósłał
+demo-account-sign-up = Registrěrowański wótkaz pósłaś
+
+## Demo Contribute
+
+demo-contribute-card-header = Sćo gótowy swój głos pśidaś abo słuchaś?
+demo-contribute-card-body-v2 = Něnto, źož tšochu wěcej wó Common Voice wěsćo, cogodla njewoytaś? Klikniso na mikrofonowy symbol, aby sady głosnje cytał. <br/><br/>Jolic cośo lubjej głosowe pśinoski drugich luźi pśeglědowaś, klikniśo na wótgrawański symbol. Pomagaśo wokšuśiś, až nagraśa sadam wótpowěduju, kótarež se na wobrazowce pokazuju.
+demo-listen-subtitle = Cośo sobu cyniś?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Wósobinske pśeglědy was wó indiwiduelnem póstupje a wó póstupje zgromaźeństwa na běžnem źarže.
+demo-dashboard-card-body = Za kuždy pósćony głosowy klip a kuždy pśeglědany awdioklip se waše kontowe pśeglědy aktualizěruju, aby se waš nejnowšy póstup w kuždej rěcy, ku kótarejž pśinosujośo, wótbłyšćował. Jo, móžośo k wěcej ako jadnej rěcy pśinosowaś!<br/><br/> Wužywajśo pśeglědy, aby swóje statistiki slědował, aby wiźeł, kak w pśirownanju k drugim luźom w zgromaźeństwje wótrěznjośo a aby se wšedne abo tyźeńske pśinosowańske cele stajił.
