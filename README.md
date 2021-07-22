@@ -6,8 +6,8 @@ This is the web app for [Mozilla Common Voice](https://commonvoice.mozilla.org),
 
 | Type             | Expected date  | More info      |
 | :--------------- |:---------------|:---------------|
-| Code & sentences | June 16, 2021 | [Release notes](https://github.com/common-voice/common-voice/releases) |
-| Dataset          | July 2021 | [Dataset metadata](https://github.com/common-voice/cv-dataset/) |
+| Code & sentences | July 28, 2021 | [Release notes](https://github.com/common-voice/common-voice/releases) |
+| Dataset          | end of July 2021 | [Dataset metadata](https://github.com/common-voice/cv-dataset/) |
 
 ## Quick links
 
@@ -29,6 +29,7 @@ There are many ways to get involved with Common Voice - you don't have to know h
 - For information on how to add or edit sentences to Common Voice, see [SENTENCES.md](./docs/SENTENCES.md)
 - For instructions on setting up a local development environment, see [DEVELOPMENT.md](./docs/DEVELOPMENT.md)
 - For information on how to add a new language to Common Voice, see [LANGUAGE.md](./docs/LANGUAGE.md)
+- For information on how to get in contact with existing language communities, see [COMMUNITIES.md](./docs/COMMUNITIES.md)
 
 For more general guidance on building your own language community using Mozilla voice tools, please refer to the [Mozilla Voice Community Playbook](https://common-voice.github.io/community-playbook/).
 

@@ -1,6 +1,6 @@
 # Setting up a local development environment
 
-[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer. You can either run the project using a Docker(#docker) container or by setting it up manually(#manual-installation).
+[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer. You can either run the project using a [Docker](#docker) container or by setting it up [Manually](#manual-installation).
 
 The project is organized into the following directories:
 

@@ -112,6 +112,7 @@ my = Birmaneg
 myv = Erzyeg
 nb-NO = Norvegeg bokmål
 ne-NP = Nepaleg
+nia = Niaseg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
 oc = Okitaneg
@@ -146,6 +147,7 @@ th = Thailandeg
 tl = Tagalogeg
 tr = Turkeg
 tt = Tatareg
+tw = Twieg
 uby = Oubic’heg
 udm = Oudmourteg
 ug = Ouigoureg
@@ -289,7 +291,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Enrollañ/Paouez
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Adenrollañ ar c’hlip
+shortcut-submit = Distreiñ
+shortcut-submit-label = Kas ar c’hlipoù
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
+request-language-text-learn = Deskit penaos goulenn anezhi amañ!
 request-language-button = Goulenn ouzhpennañ ur yezh
 
 ## ProjectStatus
@@ -891,14 +896,17 @@ read-more-about = Lenn muioc’h war ar bajenn A-zivout
 
 demo-get-started = Krogomp ganti
 demo-welcome = Degemer mat e Common Voice
+demo-welcome-subheader = C'hoant ho peus da c'houzout hiroc'h ha da gemer perzh er raktres?
 
 ## Demo Datasets
 
 demo-language-select-card-header = Spletad roadennoù mouezh liesyezhek foran brasañ ar bed eo Common Voice.
+demo-language-select-card-body = Trugarez d'an holl gendaoladurioù bet graet gant tremen 259K (259 000) a dud e tremen 50 yezh, ar roadennoù-mañ a vez implijet evit gellout gourdoniñ an arloadoù mouezhiel da respont da vouezh an dud.
 card-button-next = War-lerc’h
 card-button-back = Kent
 demo-language-select-label = Merdeiñ ar yezhoù
 demo-eofy-header = Ermaeziadenn fin-bloavezh 2019
+demo-eofy-sub_header = Dastumad roadennoù mouezh, prest da vezañ pellgarget
 demo-account = Kont
 
 ## Demo Account
@@ -915,3 +923,4 @@ demo-listen-subtitle = Prest da gemer-perzh?
 
 ## Demo Dashboard
 
+demo-dashboard-card-body = Evit pep klip mouezh pourvezet ganeoc'h ha pep klip aodio gwirikaet, ho taolenn gont a vez hizivaet evit diskouez hoc'h araokadennoù evit pep yezh a sikourit. Ya, gellout a rit sikour gant meur a yezh!<br/><br/>Implijit an taolennoù da heuliañ ho stadegoù, evit gellout keñveriañ gant izili all ar gumuniezh, ha termeniñ palioù devezhiek pe sizhuniek.

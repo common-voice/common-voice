@@ -92,6 +92,7 @@ Alla barn hade randiga tröjor.
 Alla barnen åkte skridskor, utom Lisen.
 Alla bås i lagården och alla spiltor i stallet var redan upptagna.
 Alla de övriga floderna går till Mexikanska viken.
+Alla dessa människor kan, i vart fall i teorin, nå varandra.
 Alla flaxade och kacklade.
 Alla gapade av förvåning och jag med.
 Alla gillar väl chokladpudding?
@@ -594,6 +595,7 @@ Chefen håller också med.
 Chefens vaktmästare, som var kvar för att vakta kontorslokalerna, kom in.
 Cheferna hade lika kul som klienterna!
 Chirac och söner till läkaren besökte Schweiz.
+Choklad är inte nyttigt för hundar
 Choklad är överskattat.
 Chokladglass är ju aldrig fel!
 Chris ska tydligen sluta.
@@ -622,12 +624,14 @@ Danmark kom att dominera utvecklingen av mobiltelefoner
 Dansa med mig.
 Dansk filosofi dominerar nu västvärldens tänkande
 Danskar har tagit över alla svenska militära anläggningar
+Danskarna landsteg i närheten av Stureplan
 Danskarna tog först över universiteten
 Danskarna var vårt minsta problem just nu
 Darrande följde Norrlund sin förman.
 Dat är obegripligt hur mycket pengar man kan lägga på en skolplattform
 David kunde synas i de västra delarna av Polen.
 David sörjde bittert sin vanartige son.
+Davids försprång var nu så stort att det inte var någon idé att försöka
 De andra kvinnorna fördrev tiden med att viskande samtala.
 De andra låg och vältrade över vatten och land.
 De anlände uppklädda till tänderna, med häst och vagn.
@@ -872,6 +876,7 @@ De skickade soldater till Irak.
 De skriver nog på när vi vill.
 De skulle försörja sig själva, det visste hon.
 De skulle hämtas av kvällens stockholmsbåt och transporteras in till huvudstaden.
+De skulle kunna göra det.
 De skulle på någon skrivkurs, tror jag.
 De skulle vägra.
 De skyndade fram mot elden utan tanke på någon fara.
@@ -969,6 +974,7 @@ De var så många, att hela skolgården fylldes av dem.
 De var varken trötta eller hungriga.
 De vek emellertid av från vägen, gick över åkern och närmade sig gåskarlen.
 De verkade som gjorda av gjutjärn.
+De verkar inte ha fattat vad som har hänt.
 De verkliga sorgerna är gallsten och brist i kassan!
 De vet att det har varit översvämning.
 De vet att du inte har ett möte.
@@ -1083,6 +1089,7 @@ Den finns inte i guideböckerna!
 Den frisyren klär honom inte.
 Den fräste och dånade som en brusande storm.
 Den fråga som ställs i prövningstillståndet ska besvaras i enlighet härmed.
+Den förbannar nätet.
 Den föreföll djuren lika dyster och meningslös som vinterstormens lek med snöflingorna.
 Den föreslagna lokalen skulle vi inte kunna äga med den ränta som banken erbjöd.
 Den första oktober börjar exercisen.
@@ -1267,6 +1274,7 @@ Den var till hälften full av vatten och var mycket nära att sjunka.
 Den var torr och lät sig avlägsnas.
 Den var vidrig och korkad.
 Den vill jag inte ha till ovän.
+Den vill övervaka, filtrera, kontrollera och stänga av.
 Den ville inte följa honom, utan satte hovarna i marken och spjärnade emot.
 Den vita gåskarlen hade den lyckan att få syn på en liten abborre.
 Den vite sprang rätt emot den stora klyftan.
@@ -2408,6 +2416,7 @@ Det vill säga det var det nog, men detta låg närmast till hands.
 Det ville jag berätta idag.
 Det ville jag berätta.
 Det visade sig att gruvan hade färre äkta diamanter än en ordinär pantlånare.
+Det visade sig omöjligt att komma ikapp David
 Det viskades att han en förmiddag givit Gisela en miljard.
 Det visste ingen människa, allra minst Jansson.
 Det visste rådmannen ändå.
@@ -2446,6 +2455,7 @@ Det är asgrymt.
 Det är av denna orsak man nyttjar räfflade kanoner och gevär.
 Det är av yttersta vikt att det kommer tillbaka.
 Det är bakom dessa vallar paradiset ligger.
+Det är bara att acceptera det, eller att stiga åt sidan.
 Det är bara att göra det.
 Det är bara att hojta när ni börjar bli hungriga!
 Det är bara att hoppas att det blåser upp imorgon.
@@ -2534,6 +2544,7 @@ Det är en märkligt tid för en tupplur.
 Det är en nischbransch.
 Det är en otrolig historia.
 Det är en personlig sak.
+Det är en populär form av underhållning och det är inget fel med det.
 Det är en riktigt kass film.
 Det är en sak jag inte kan räkna ut.
 Det är en soppa.
@@ -2636,6 +2647,7 @@ Det är inte möjligt.
 Det är inte nyttigt.
 Det är inte något bevis för Guds existens.
 Det är inte något skäl.
+Det är inte politikernas uppgift att skydda gamla affärsmodeller eller uppfinna nya.
 Det är inte problemet.
 Det är inte riktigt pappas stil.
 Det är inte rättvist!
@@ -3056,6 +3068,7 @@ Du duger inte för att styra den.
 Du erbjuder dig att laga mat åt mig.
 Du fattar inte vad det handlar om.
 Du fattar inte.
+Du fick en inbjudan till kalaset imorgon
 Du fick väl betalt?
 Du fick åtminstone godkänt.
 Du for hit till din älskare, de andra till sina, får vi hoppas.
@@ -3671,6 +3684,7 @@ Eller kanske det pågår något mer.
 Eller kanske han målat något åt någon i Göteborg eller Stockholm.
 Eller nej, det är bestämt bara en krigslist?
 Eller om hon på annat sätt utmärkt sig.
+Eller på en dator som tillhör en chilensk cykelreparatör.
 Eller ska jag säga "din bror"?
 Eller skall jag säga till om te åt dig?
 Eller sken den aldrig?
@@ -3758,6 +3772,7 @@ En brun panda.
 En brun persika.
 En brun spindel.
 En brun zebra.
+En bräcklig vapenvila råder nu mellan de båda länderna.
 En bukett vissna tulpaner slokade i en vas i köket.
 En burk kreatin var placerad intill tallriken med kokain.
 En bägare med två kulor, tack.
@@ -4412,6 +4427,7 @@ Fågeln betraktade honom noga, och därpå nickade han tre gånger med huvudet.
 Fågeln hörde honom, och med ett enda flaxande var han uppe på stenen.
 Fågeln klarade sig.
 Fågeln kom upp några meter från båtsidan och skottet gick.
+Fågelskådaren dömdes till dagsböter efter att ha ofredat en stork
 Får det vara en cigarr?
 Får jag använda biblioteket?
 Får jag den äran att betala er drink?
@@ -4502,6 +4518,7 @@ För du är en fara för dig själv.
 För en euro per person ska ni skapa vänskapsband som aldrig förr.
 För en knapp timme sen.
 För en månad sedan, fick jag en möjlighet att investera.
+För en tid sedan träffade vi en representant för bokbranschen.
 För er har jag aktivitet.
 För er, fader, är det gratis.
 För ett ögonblyck tyckte hon att hon skymtade en gestalt i ögonvrån.
@@ -4724,7 +4741,9 @@ Gokväll, Engström, och välkommen.
 Gorgo måste ha övergett honom.
 Gossen grät fortfarande och kastade en skygg blick på honom, som nu ryckte fram.
 Gott, vi börjar med detsamma!
+Grafikkortet ska monteras i någon av de lediga kortplatserna
 Grafikkortet är alldeles förstört.
+Granateld har idag hörts över de östra delarna av staden
 Grattis på födelsedagen!
 Grattis på födelsedagen.
 Grattis till din vän som ska gifta sig.
@@ -4747,6 +4766,7 @@ Grundläggande algebra.
 Grupperna med humor som instrument hoppades nå semifinal.
 Grädden hade tyvärr surnat.
 Gräset är aldrig grönare på andra sidan.
+Gräsklipparen kunde själv avgöra om en igelkott var ivägen
 Gräsmattan behöver klippas, helst förra veckan.
 Gräv upp mig.
 Gråbenen var alldeles inpå släden.
@@ -5554,6 +5574,7 @@ Han var verkligen så rädd, att hjärtat bultade i bröstet på honom.
 Han var vid så retligt lynne, att han skulle ha kunnat slå dem.
 Han var väl omkring femtio år, då jag träffade honom.
 Han var yngre då, än jag är nu!
+Han varken rörde sig eller jämrade sig, och hennes ansikte lyste besynnerligt vitt.
 Han vek av från gatan och kom in på kyrkogården.
 Han verkar ha betalt notan.
 Han vet inte hur järnet smältes ur malmen.
@@ -6679,6 +6700,7 @@ Hästen sprang in längs viken.
 Hästen vållade honom emellertid nya bekymmer.
 Håkan Carlssons undervisning fick Lotta ut på arbetsmarknaden.
 Håll bössan i ordning!
+Håll den här frisbeen medan jag tar hand om hunden
 Håll det på din sida.
 Håll ett öga på henne.
 Håll huvudet kallt, bara.
@@ -6875,6 +6897,7 @@ I år tänkte hon vara ute i god tid med julklapparna.
 I år är marken för våt.
 I övriga frågor är jag enig med majoriteten.
 I övrigt har ministern inget att tillägga.
+Ibland blir man rent paff.
 Ibland hördes hasande steg på övervåningen.
 Ibland kastade de blickarna över åt andra stranden.
 Ibland spöar hon mig.
@@ -6885,6 +6908,7 @@ Ibland är den vackrare än orgeln.
 Ibland är det drömmar och ibland är det bara lögner.
 Idag markerar gryningen för ett nytt paradigm.
 Idag ska vi surra en trefot.
+Idag vet vi bättre.
 Idag är det fredag den fjortonde mars
 Igår presenterades strategin för ett fossilfritt Sverige
 Imitationer av detta tyg importeras från Tyskland och Schweiz.
@@ -6924,6 +6948,7 @@ Ingen har bott där på flera år.
 Ingen i hela världen var så olycklig som han.
 Ingen i skogen är så vacker som du, du, du.
 Ingen kan se in i framtiden.
+Ingen kan veta hur morgondagens affärsmodeller, koncept och företag ser ut.
 Ingen klok människa tror på djävulen längre.
 Ingen kommer att hjälpa oss.
 Ingen kunde vara mera mild och god än den lilla grågåsen Dunfin.
@@ -7066,6 +7091,7 @@ Inte vågade jag tro att du skulle komma före oss till mötesplatsen.
 Inte vår fest.
 Inte är det arbetarnas regering!
 Internet slutade fungera!
+Internet är en revolutionerande teknologi som förändrar många av kulturindustrins förutsättningar.
 Internetfarbröderna trodde att allt handlade om nätverk
 Intervjuare avskydde han som pesten.
 Intresset stegrades.
@@ -8867,12 +8893,14 @@ Jordbruket bör byta till nya metoder för skörd av morötter.
 Jordbävningen drabbade inte husen i Jerusalem nämnvärt.
 Jorden var annorlunda.
 Josef har organiserat ett frivilligt luftförsvar bland herdarna.
+Journalföringen skedde i ett av de mer avskydda systemen
 Journalisten tyckte inte om att medge det.
 Journalisten var nu genast orienterad.
 Ju längre det led, desto värre blev regnandet.
 Ju mer händerna brände, ju mer ryggen och armarna värkte, dess bättre.
 Ju äldre jag blir desto mindre säker är jag på min sak.
 Julia flydde vardagen och ägnade sig åt sina intressen varje eftermiddag.
+Juntan träffades varje fredag för att sy och planera statskupper.
 Jurister kan hjälpa eller stjälpa projektet
 Just det svenska draget, svaghet för utlänningar.
 Just det, menar jag.
@@ -8887,6 +8915,7 @@ Jämtland bröt sig ur unionen och blev självständigt tjugo år senare
 Järnet måste ha vägt många kilo.
 Jättebra idé, verkligen!
 Jävlar, det är Bollywood!
+Jörgen saknade id-handlingar och deporterades därför omedelbart tillbaka till den röda zonen
 Jörgen var en av de hårdare killarna på tunnelbanan.
 Kaffe var inte min idé
 Kaffe vid bordet där borta.
@@ -9777,6 +9806,7 @@ Men det hade inte gått så som mor hade trott.
 Men det hade kommit en sådan ängslan över honom för pysslingens skull.
 Men det här folket kan inte fan få bukt med.
 Men det hör väl till.
+Men det innebär inte att den behöver miljarder i statliga subventioner.
 Men det kan inte bära sig i längden förstås?
 Men det kanske inte lämpar sig för konstnärlig framställning?
 Men det kom andra munkar, som nämndes Svartbröder.
@@ -10278,6 +10308,7 @@ Men visa oss ett ordentligt gryt, skall du få se.
 Men visst är det enklare nu?
 Men värden var obeveklig.
 Men Österlund hade tagit kursen och gick efter solen.
+Men än så länge verkar de märkligt oförmögna och ovilliga att tänka utanför boxen.
 Men ändå blev jag inte tomhänt.
 Men ändå har de låtit totalt överrumpla sig.
 Men ännu berättar gammalt folk om hans liv här ute.
@@ -10305,6 +10336,7 @@ Mike anslöt till Lidingö redan innan säsongen med sport börjat.
 Militär från Nato fick medverka i årets stora övning.
 Militära arbeten i Estland riskerar åstadkomma besvärliga situationer för Nato.
 Miljarder i extra stöd för utbildning av unga inom filmen.
+Miljarder människor är uppkopplade.
 Miljöpartiet och Folkpartiet var osams om huruvida de kunde dela scenen.
 Mimmi glömde packa ombyte.
 Min Gud!
@@ -10426,6 +10458,7 @@ Mohammad har tappat bort sina nycklar.
 Mohammed Khan och jag dansade hela natten.
 Molnen var mörka och i fjärran hördes muller.
 Mona höjde betygen i gymnasiet av oro om eleverna.
+Mongoliet är världsmästare i ishockey.
 Mor kan ju lugna sig lite, föreslog sonen.
 Mor var lika intresserad av böcker och poesi som far.
 Mor är sju år äldre än far.
@@ -10826,6 +10859,7 @@ Nja, det vet jag inte, precis!
 Nja, jag fick packa för ett kallare klimat.
 Nog har jag smakat starkt, men det var längesedan, fast aldrig om vårarna.
 Nog nu!
+Norra Sverige tillföll Finland och de övriga delarna delades upp mellan Kinesiska provinser
 Norrbottningar tycker att allt söder om Sundsvall är Stockholm.
 Norrkaitum är en tidigare benämning på Girjas sameby.
 Norrlund fick vänta en god stund innan fyrvaktaren ropade.
@@ -11013,6 +11047,7 @@ Nysågad ek doftar tydligen lite syrligt.
 Nytt arbete, ny luft, nya erfarenheter om människan.
 Nä, vi valde att ställa in den här gången.
 Nähä, min käre bror, det är egentligen till dem jag vänder mig.
+Nämen ser man på!
 Nämen, titta vad katten släpat in.
 När Akka sade detta, lyfte storken huvudet och såg stort på henne.
 När Birger kom, rätade hon hastigt upp sig, men vände sig inte om.
@@ -11237,6 +11272,7 @@ Och bredvid mig springer en hare upp som tryckt under en enbuske.
 Och cigarretter, fyllde den feta elakt i.
 Och dagen därpå uppenbarade sig Liljegren där.
 Och de båda äldsta kunde ju inte vara annat än nöjda och belåtna.
+Och de skulle kunna tjäna stora pengar på att göra det.
 Och de sträckte alla fram halsarna och fräste vredgat emot honom.
 Och delen där vi inte längre.
 Och den där fotografen?
@@ -11431,6 +11467,7 @@ Och när han såg henne på bron fick han en psykos.
 Och när inte Skansen ville ha den, så har den fått stå.
 Och när är auktionen?
 Och närmare än förut.
+Och om de vill, då är marknaden global.
 Och om det är matbrist dit ni ska?
 Och om en stund gick motorbåten till sjöss igen.
 Och om frukten är god måste den.
@@ -11571,6 +11608,7 @@ Om det kommer andra som dem ska vi krossa dem också.
 Om det var en opportunist, varför då bara ta halsbandet?
 Om det vore jag, som ägde det här, skulle jag hugga bort alltihop.
 Om det vore upp till mig.
+Om det är bra och intressant nog, vill säga.
 Om det är det du vill gör jag det.
 Om det är sjukt för dig fortsätter jag, inga problem.
 Om det är vad jag vill?
@@ -11754,21 +11792,31 @@ Pojkarna lärde sig överleva efter att ha strandsatts på en ö i Göta kanal.
 Pojken blev alldeles otroligt glad över att herr Ermenrich hade sökt upp honom.
 Pojken blev orolig därför att turisterna stannade så länge i utsiktstornet.
 Pojken drog hastigt kniven tillbaka, men Vind-Ile bara slog ut med vingarna.
+Pojken förstod nog, att han inte ville fara ifrån grågåsen.
+Pojken gjorde alltså färden upp till Kullaberg ridande på storkrygg.
 Pojken hade inte blivit rädd, för han hade suttit väl gömd under kvarntrappan.
+Pojken hade knappt velat hålla detta för troligt.
 Pojken hasade sig ned ur sin tall och båda började överlägga.
 Pojken kunde inte hjälpa, att han fick tårarna i ögonen.
 Pojken kunde inte låta bli att skratta, när han såg hur rutigt allting var.
 Pojken lydde rådet och det dröjde inte länge förrän han hittade ett ax.
 Pojken märkte snart, att de, som satt vid elden, talade om gamla tider.
 Pojken och korpen skrek och ropade men de fick inte något svar.
+Pojken och vildgässen hade den kvällen kommit till en holme i Hjälmaren.
 Pojken reste sig, vacklade fram till krukan, kände på locket och lät armarna sjunka.
+Pojken skrattade så gott åt deras iver, att han tappade pipan.
+Pojken skulle allt ha velat veta om de gick kvar här ännu.
 Pojken stod en lång stund och funderade om han skulle läsa predikan eller inte.
+Pojken såg gammaldags skepp med roddarbänkar mittöver och höga uppbyggnader i för och akter.
 Pojken såg också de smala gatorna, som var nästan folktomma på helgdagseftermiddagen.
 Pojken tyckte, att örnen slog och slog med vingarna utan att komma ur fläcken.
 Pojken tänkte inte på om landet var rikt eller fattigt.
 Pojken vände huvudet åt det håll, som ljudet kom ifrån.
 Pojken är både husmor och familjeförsörjare.
+Pojken är vaken i ögonblicket, gnuggar sömnen ur ögonen och ser sig omkring.
+Polisen ändrade sina rutiner efter att flera vapen blivit stulna
 Polisongerna växer som ogräs!
+Portarna var utan dörrar, väktare och krigsknektar var försvunna.
 Portieren log.
 Portvakten satt med sitt bleka barn.
 Potatis, svarade bonden med hjärtat i halsgropen.
@@ -11861,9 +11909,11 @@ På uteserveringarna satt folk i filtar och lapade girigt den första vårsolen.
 På vilket sätt?
 På vinterbalen bar hon violett.
 På vägen diskuterade de ivrigt om de hade segrat eller inte.
+På vägen mötte hon ett par arbetarhustrur och talade med dem om sina bekymmer.
 På väggen hängde en tjock gobeläng i dova, mättade färger.
 På vågorna dansar skum och glitter.
 På äldre dar försörjde sig syskonen på sitt karamellkokeri.
+På ångbåtsbryggan brann ingen eld, och sångarna kunde inte se långt omkring sig.
 På återseende i morgon!
 På återseende, min vän.
 På återseende, mitt barn.
@@ -11884,6 +11934,7 @@ Regeringen vill inte ha någon uppståndelse.
 Regeringsformens bestämmelser om grundläggande fri- och rättigheter innehåller ett skydd mot påtvingade kroppsliga ingrepp.
 Regeringskansliet saknar kompetens inom det området.
 Regionens digitaliseringsstrategi innebar ingenting i praktiken
+Regionerna avvecklades och landet indelades i fyra sjukvårdsområden
 Regissören hade rykte om sig att ha hög mental kapacitet.
 Regnbågen är överskattad.
 Regnet smattrade enträget mot fönstren.
@@ -12006,6 +12057,7 @@ Sara stirrade ut genom fönstret och sade inte ett ord.
 Sara tittade på Märta med en obeskrivlig min av stolthet och förväntan.
 Sara tryckte ringen i hennes hand.
 Satiriskt välvilliga skärgårdsbor placerade vidundret på isen.
+Satsningen på json var ett stort steg i ingen specifik riktning alls
 Satt du där hela tiden?
 Satt hon mer vid datorn?
 Satt och spelade i sjöboden.
@@ -12128,6 +12180,7 @@ Situationen blev olidlig och Isaksson var inte mannen att sätta sig i respekt.
 Situationen var obehaglig, men kunde bli ändå värre för den, som arbetade under middagstiden.
 Sju gånger tackade han innan jag körde ut honom.
 Sju, sade Danielsson.
+Sjuksköterskor från Danmark monterade ner den svenska välfärden
 Sjukt små pupiller du har, är du okej?
 Själar att rädda.
 Själv fick jag aldrig skjuta någon grävling därhemma.
@@ -12139,6 +12192,8 @@ Självklart förlåter hon dig.
 Sjätte gången i Australien kunde vi vara mer effektiva i vårt resande.
 Sjön befolkades av gäddor, abborrar, lommar och snabba skräddare.
 Sjön låg spegelblank och morgondimman låg i tunna sjok över ytan.
+Sjösjuka är inget att skratta åt
+Sjösjukepiller kan hjälpa mot de värsta symtomen
 Ska det vara profil, jag bara frågar, och såna tänder!
 Ska du dit?
 Ska du gå nu?
@@ -12342,6 +12397,7 @@ Som ni vill.
 Som om det vore något!
 Som om din hustru skulle bry sig om det!
 Som rap i Frankrike.
+Som regel är kostnaden försumbar.
 Som tur är vet jag var han bor.
 Som utan tvivel finner spelande helt naturligt.
 Somliga skickade efter sina gamla föräldrar sedan de förespeglat dem guld och gröna skogar.
@@ -12413,6 +12469,7 @@ Stig i varje fall upp.
 Stig in!
 Stig in, mina damer.
 Stig in, pojkar!
+Stig in, stig in! Jag kokar kaffe.
 Stilen är glänsande.
 Stina Ek tryckte Dagnys hand.
 Stina Ring kunde ha avundats rådman Stenberg hans klarhet över symtomens orsaker och botemedel.
@@ -12748,6 +12805,7 @@ Såna som Stina Ring behövs också.
 Såna som han isolerar sig och undviker andra.
 Såna som han lär sig snabbast så här.
 Såna som vi måste hålla ihop, eller hur?
+Sångarens identitet framgick av id-kortet
 Sånt folk glömmer alltid något.
 Sånt funkar inte för mig.
 Sånt skräp har en väl alltid!
@@ -12996,6 +13054,7 @@ Tunga moln rör sig över sydvästra delarna.
 Tur att jag inte är där, annars hade jag knuffat dig!
 Tur att vi hann träna dig.
 Tur det, sade Gisela med en svag antydan till ett leende.
+Turkiet var mycket nära att åka ut redan i gruppspelet.
 Tusen tack för vinet.
 Tvillingbror till vår tidigare partner.
 Tvivlar ni på mina ädla motiv?
@@ -13128,6 +13187,7 @@ Utan konstnärlighet skulle han ha försvunnit som en av dessa som uppslukas av 
 Utan morgonens dubbelnougat blev det ofta en dålig dag
 Utan nyfikenhet kommer man ingenstans
 Utan praktik så står en där.
+Utan tillgång till dialysmaskiner försvåras behandlingen kraftigt
 Utan vi tre.
 Utanför Piteå ligger världens största padelhall
 Utanför den katolska kyrkan är allt kaos.
@@ -14268,6 +14328,7 @@ Visa vad du har.
 Visarna flyttade sig normalt medsols, men urtavlan gick också, fast motsols.
 Vissa av er kommer kanske att hamna i samma sits.
 Vissa beslut kan förändra ens liv.
+Vissa företagare fattar detta.
 Visserligen hade han bjudit på en omgång, men drängarna vägrade.
 Visserligen hade hon företrätt en sunt kvinnlig syn, men i alla fall!
 Visst fan är dom bra!

@@ -2,7 +2,7 @@
 
 yes-receive-emails = Jes, bonvolu sendi retpoŝtajn mesaĝojn al mi. Mi ŝatus havi aktualajn informojn pri la projekto Common Voice
 stayintouch = Ĉe Mozilla ni konstruas komunumon pri voĉaj teknologioj. Ni ŝatus resti en kontakto kun vi pri ĝisdatigoj, novaj fontoj kaj ankaŭ por scii pli pri  via uzo de tiuj ĉi datumoj.
-privacy-info = Ni promesas zorge pritrakti  viajn informojn. Pli da informo troveblas en nia <privacyLink>politiko pri privateco</privacyLink>.
+privacy-info = Ni promesas zorge pritrakti viajn informojn. Pli da informo troveblas en nia <privacyLink>politiko pri privateco</privacyLink>.
 return-to-cv = Reiri al Common Voice
 email-input =
     .label = Retpoŝto
@@ -11,7 +11,7 @@ loading = Ŝargado…
 email-opt-in-info = Mi ŝatus ricevi retpoŝtajn mesaĝojn, ekzemple memorigojn pri celoj, raportojn pri mia progreso kaj bultenojn pri Common Voice.
 email-opt-in-info-title = Aliĝi al la dissendolisto de Common Voice
 email-opt-in-info-sub-with-challenge = Ricevi retpoŝtmesaĝojn, kiel ekzemple memorigilojn pri defioj kaj celoj, progresajn ĝisdatigojn, kaj informilojn pri Common Voice.
-email-opt-in-privacy-v2 = Si vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko</privacyLink> de Mozilla.
+email-opt-in-privacy-v2 = Se vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko</privacyLink> de Mozilla.
 indicates-required = * signas devigan kampon
 not-available-abbreviation = Nedisponebla
 
@@ -280,6 +280,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registri / Haltigi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Refari voĉregistron
+shortcut-submit = Enigi
+shortcut-submit-label = Sendi registraĵojn
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
 request-language-text-learn = Jen pli da informo pri tiu peto!
 request-language-button = Peti lingvon

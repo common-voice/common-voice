@@ -30,13 +30,16 @@ ast = 阿斯圖里亞斯語
 az = 阿塞拜疆語
 ba = 巴什基爾語
 bas = 巴沙語
+be = 白羅斯語
 bg = 保加利亞語
 bm = 班巴拉語
 bn = 孟加拉語
 br = 不列塔尼語
 bxr = 布里亞特語
 ca = 加泰羅尼亞語
+cak = 吉志高語
 ckb = 中庫爾德語
+cnh = 喀哈阡語
 co = 科西嘉語
 cs = 捷克語
 cv = 楚瓦士語
@@ -56,15 +59,22 @@ ff = 富拉語
 fi = 芬蘭語
 fr = 法語
 ga-IE = 愛爾蘭語
+gl = 加利西亞語
+gn = 瓜拉尼語
+ha = 豪薩語
 he = 希伯來語
 hi = 印地語
 hr = 克羅地亞語
+hsb = 索布語（高地）
+ht = 海地語
 hu = 匈牙利語
 hy-AM = 亞美尼亞語
 hyw = 亞美尼亞語（西）
+ia = 國際語
 id = 印尼語
 is = 冰島語
 it = 意大利語
+izh = 伊喬里亞語
 ja = 日語
 ka = 格魯吉亞語
 kaa = 卡拉卡爾帕克語
@@ -86,7 +96,9 @@ mhr = 馬里語（東部）
 mk = 馬其頓語
 ml = 馬拉也藍語
 mn = 蒙古語
+mr = 馬拉地語
 mrj = 馬里語（山地）
+ms = 馬來語
 mt = 馬耳他語
 my = 緬甸語
 nb-NO = 書面挪威語
@@ -111,30 +123,97 @@ zh-TW = 中文（台灣）
 
 ## Layout
 
+speak = 講話
+speak-now = 而家講話
 datasets = 數據集
 languages = 所有語言
 about = 介紹
+terms = 條款
 
 ## Home Page
 
+show-wall-of-text = 了解更多
+help-us-title = 幫我哋手驗證句子啦！
+help-us-explain = 撳播放、聽完、再回覆：呢句話讀得啱唔啱？
+no-clips-to-validate = 睇來而家冇錄音可聽。不如幫我哋錄返啲？
+vote-yes = 係
+vote-no = 唔係
+toggle-play-tooltip = 撳 { shortcut-play-toggle } 即可切換播放模式
+speak-subtitle = 捐出你把聲
+read-terms-q = 睇咗我哋嘅條款未？
+ready-to-record = 準備好貢獻你把聲未？
+all-locales = 全部
+today = 今日
+x-weeks-short =
+    { $count ->
+       *[other] { $count } 週
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } 月
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count } 年
+    }
+help-make-dataset = 幫我哋建立一個高質素又開放畀公眾使用嘅數據集
+sign-up-account = 註冊帳户
+email-subscription-title = 訂閲最新消息電子報
+email-subscription-title-new = 留低你嘅電郵地址，收取 Common Voice 電子報、目標提醒、同進度更新。
 
 ## Account Benefits
 
+benefits = 益處
 
 ## What's public
 
+whats-public = 邊啲資料會公開？
+email-not-public = 我哋唔會公開你嘅電郵地址。
+recordings-and-locale-public = 你貢獻嘅錄音數量，同埋你貢獻咗邊幾種語言，都會係公開嘅。
+username-optin-public = 你可以選擇公開你嘅賬户名稱，或者保持匿名。
+username-email-not-demographic = 你嘅用户名同埋電郵地址，唔會連結落去公開發佈嘅數據。
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = 播放/停止
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = 錄音/停止
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = 重新錄音
+request-language-text = 喺 Common Voice 見唔到你嘅語言？
+request-language-text-learn = 喺呢度了解點樣請求佢！
+request-language-button = 申請增加一種語言
 
 ## ProjectStatus
 
+status-title = 總體項目狀態：睇下我哋已經行咗幾遠！
+status-contribute = 貢獻你把聲
+status-hours =
+    { $hours ->
+       *[one] 個鐘頭已經驗證！
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = 下一個目標：{ $goal }
 english = 英文
 
 ## ProfileForm
@@ -151,7 +230,10 @@ profile-form-age =
     .label = 年齡
 profile-form-gender-2 =
     .label = 性別
+leaderboard-visibility =
+    .label = 排行榜可見性
 hidden = 隱藏
+visible = 可見
 native-language =
     .label = 母語
 profile-form-submit-save = 儲存
@@ -160,22 +242,32 @@ male = 男
 female = 女
 # Gender
 other = 其他
+why-profile-title = 點解要建立個人檔案？
 build-profile = 建立個人檔案
+avatar = 個人資料照片
 goals = 目標
 settings = 設定
 edit-profile = 編輯個人檔案
 profile-create-success = 成功建立個人檔案！
 profile-close = 關閉
+profile-explanation = 使用你嘅個人檔案可以保留你嘅進展，仲可以幫我哋提高語音數據嘅準確度。
+thanks-for-account = 感謝你確認你嘅帳戶，而家我哋一齊建立你嘅個人資料啦
+why-demographic = 點解呢個好重要？
 accept-privacy-title = 私隱政策
+login-identity = 登入身分
 login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電郵訂閱
 download-profile = 下載我嘅數據
-retry-voice-wave-recording = 重試
-re-record = 再錄過
-delete-voice = 刪除
-cancel-avatar-clip-recording = 取消
+contribution-experience = 參與經驗
+skip-submission-feedback = 跳過提交反饋
+
+## Profile - Email
+
 connect-gravatar = 連結 Gravatar
+
+## Profile - Email
+
 
 ## FAQ
 
@@ -189,28 +281,54 @@ about-is-it-valid = 段錄音有冇效？
 ## Glossary
 
 glossary = 術語表
+localization = 本地化
+sentence-collection = 收集句子
 sst = 語音轉文字
 sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
 
 ## Error pages
 
 error-title-404 = 我哋揾唔到你想去嘅頁面
+error-code = 錯誤 { $code }
 
 ## Data
 
-data-download-button = 下載Common Voice 語音數據
+data-download-button = 下載 Common Voice 語音數據
+data-download-yes = 係
 data-other-goto = 往 { $name }
 release-version = 版本
+dataset-date = 數據庫日期
+license-mixed = 混合
+terms-agree = 我同意
+terms-disagree = 我唔同意
+review-submit-title = 覆核並提交
+review-recording = 覆核
 
 ## Datasets Page
 
 # File size in gigabytes
-size = 大細
+size = 數據庫大細
+validated-hr-total = 已驗證錄音（小時）
+overall-hr-total = 錄音時數 (小時）
+cv-license = 授權條款
+audio-format = 格式
+number-of-voices = 錄音人數
+splits = 語音特徵概況
+email-to-download = 寫低電郵嚟下載
+size-gigabyte = 千兆字節
+size-megabyte = 兆字節
+whats-inside = Common Voice 數據庫入面有啲咩？
+more = 更多
+close = 關閉
 download = 下載
-dataset-version = 版本
+dataset-version = 數據庫版本
 
 ## Download Modal
 
+download-title = 你嘅下載已經開始咗
+download-form-email =
+    .label = 輸入你嘅電郵
+    .value = 多謝，我地保持聯絡。
 
 ## Contact Modal
 
@@ -220,12 +338,20 @@ dataset-version = 版本
 
 ## Languages Overview
 
+sentences = 句子
 
 ## Contribution
 
 record-must-allow-microphone = 你必須容許咪高峰存取權。
 record-no-mic-found = 未發現咪高峰。
+record-error-too-short = 段錄音太短喇。
+record-error-too-long = 段錄音太長喇。
+record-error-too-quiet = 段錄音太靜喇。
+record-cancel = 取消重新錄音
+record-three-more-instruction = 仲有三個！
 share-common-voice = 分享Common Voice
+clips-uploaded = 已上載嘅錄音
+record-abort-title = 不如完成咗啲錄音先啦？
 
 ## Reporting
 

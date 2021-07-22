@@ -2,8 +2,8 @@
 name: New Language Localization Request
 about: Request a language for localization on Common Voice that is currently not available on Pontoon
 title: 'LOCALIZATION REQUEST: '
-labels: ''
-assignees: 'phirework'
+labels: 'Type: localization'
+assignees: 'Heyhillary'
 ---
 
 Use this template to request a new localizable language that is currently not available [on Pontoon](https://pontoon.mozilla.org/projects/common-voice/).
@@ -39,3 +39,6 @@ I see rocks on the ground
 
 **Pontoon manager**
 Please link to the Pontoon account of the person who should be listed as the community manager of this language
+
+**Language Script**
+What is the name of the language scripts used to write your language ? e.g latin, Devanagari

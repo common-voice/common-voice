@@ -509,6 +509,7 @@ dataset-date = Päivämäärä
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Useita
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
+data-download-singleword-callout-v2 = Tämä on käyttötapaukseen perustuva segmentti, joka sisältää tietoa puhuttujen lukujen tunnistamisen ja kyllä/ei -havaitsemisen tehostamiseksi.
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy

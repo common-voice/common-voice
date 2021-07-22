@@ -12,6 +12,7 @@
 'Yan siyasa suna yin hakan ta hanyar kiyaye riƙe madafun iko.
 'Yan wasa! Na yi kuka, me ne kuke yi?
 'Yar mu bata fi kowacce 'ƴa ba saboda muna ba ta kulawa.
+'Yar uwa ta 'yar baiwa ce!
 'Ƴar uwata na da ʻyartsana da yawa.
 A Amurka sanannen abu ne mata su koyi tsalle da igiya.
 A Amurka ta Kudu, akwai birbishin al'adar Indiyawa.
@@ -231,6 +232,7 @@ Akwai abubuwa da yawa da za mu iya kiyaye muhallinmu.
 Akwai abubuwa guda biyar a kan tire, uku daga ciki sune maƙullan.
 Akwai abun da zan iya taimaka da shi?
 Akwai al'adar cin abinci na shinkafa don Sabuwar Shekara a Japan.
+Akwai babbar damar karuwar farashin mu a wata mai zuwa.
 Akwai balan-balan ɗin dake tallan shagon wadda ke kaɗawa a saman sa.
 Akwai bambance-bambance masu zurfi tsakanin abubuwan biyu.
 Akwai banbancin al'adu masu dama tsakanin gabaci da yammacin Jamus.
@@ -353,6 +355,7 @@ Aliyu ba ta yi tantamar samun mutane da yawa ba haka.
 Aliyu ba zai yi magana da kai ba.
 Aliyu bai faɗi lokacin da zai dawo ba.
 Aliyu baya mun magana.
+Aliyu bazai taba iya haka da kansa ba.
 Aliyu da Hauwa sun ce baza su saya maka wannan ba.
 Aliyu da Hauwa sun faɗa min ba su ji tsoro ba.
 Aliyu da Khalifat na son abincin Thailand.
@@ -1098,6 +1101,7 @@ Baza mu iya kula sosai idan muna aiki da injin nukuliya ba.
 Baza mu iya rabuwa ba. Ya kamata muyi wani abu.
 Bazan iya abonkantaka da Jauro ba.
 Bazan iya alkawarin komai ba, amma zan yi iya kokari na.
+Bazan iya bambance shi da Abdullahi'uwansa ba.
 Bazan iya jinkiri ba yau.
 Bazan ki yin hakan idan nine Kai.
 Bazan yi kasa a gwuiwa ba na in saku cikin abokan aikina ba.
@@ -1800,6 +1804,7 @@ Ibrahima na nishin wahala.
 Ibrahima ya aikata wasu manyan kurakurai.
 Ibrahima ya ce ba zai je makaranta ba gobe.
 Ibrahima ya ce yana fatan ya dawo ranar Litinin.
+Ibrahima ya sayi malafa. Baka ce. Habibu na son ta.
 Ibrahima ya yi mamakin abinda ya gani.
 Ibrahimu ya fara kururuwa cikin azaba.
 Ibrahimu ya gabatar da kunshin a gidan marayu.
@@ -2236,10 +2241,12 @@ Jami ta ji rauni sosai.
 Jami ta zama zombie sannan ya cije Lare.
 Jami tana da rauni a babban yatsun kafada na dama.
 Jami ya bani wasu shawarwari.
+Jami ya bawa Lamiam sandwich.
 Jami ya ce ba ya son yin gaddama.
 Jami ya ce baya son ya yi haka.
 Jami ya ce ya ɗauka shirin da na yi ba zai yi aiki ba.
 Jami ya dawo daga Boston saboda Kirsimeti.
+Jami ya duba gandun dajin.
 Jami ya fada min yana tsammanin har yanzu ya kamata Ladi ta yi wannan.
 Jami ya fada mini yana son na zo gobe da yamma.
 Jami ya faɗawa kowa yana jin sanyi.
@@ -3277,6 +3284,7 @@ Musa babban jami'in 'yan sanda ne.
 Musa bai san a ina aka haife shi ba.
 Musa bai yi amfani da haɗin kek ba. Ya faro tun daga farko.
 Musa baya zuwa Ostraliya kamar yadda ya saba.
+Musa bazai iya aiki gobe ba.
 Musa da Falmata abokai ne kawai. Ba wani abu tsakanin shi da ita.
 Musa da Falmata sun ce da sun biya sama da haka.
 Musa da Jummaiamu sun hori yaransu.
@@ -3285,6 +3293,7 @@ Musa na da katon gida.
 Musa na sauri kamar yadda zai iya.
 Musa na son kowa ya san baya farin ciki.
 Musa na son rubuta wakoki.
+Musa ya ce Jummaitu na ganin cewa watakila bata da bukatar sake yin haka.
 Musa ya ce akwai yuwuwar ya yi hakan.
 Musa ya ce bai kamata Rifkatu ta yi hakan ba.
 Musa ya ce bai sami damar yin haka ba.
@@ -3525,6 +3534,7 @@ Na san Hassana fiye da yadda na san Zulai.
 Na san Ibrahim bai san yaushe zan yi wannan ba.
 Na san Ibrahim ya kware kan haka.
 Na san Ishaku da Hamsatu sun sani.
+Na san Jalal kwararren mawaki ne.
 Na san Jami ba zai barki ki yi haka ba.
 Na san Jami mutum ne shi mai kirki.
 Na san Jami na nan don ganin Maimuna, ba ni ba.
@@ -4340,6 +4350,7 @@ Turo min hotunan.
 Turo min lambar mana don na bi sahu.
 Tushen don ƙarin bayani game da yaduwar coronavirus sun haɗa da:
 Um... za mu iya shiga kungiyarku?
+Unguwar tayi shiru.
 United State na da kyakkyawar alaƙa da Mexico.
 United State ƙasar ƴan ta'addace.
 United Stated ta shiga yanayi.
@@ -4776,6 +4787,7 @@ Yana gab da samun nasarar wasan.
 Yana gama aikinsa.
 Yana iya ganin yanayin daga saman dutsen.
 Yana jan ƙafarsa.
+Yana kasar waje.
 Yana magana cikin sauti mai daɗi cikin kwanciyar hankali.
 Yana magana da ni kullum.
 Yana nuna kamar shi jarumi ne, amma ba haka bane.
@@ -5020,6 +5032,7 @@ Za su bayyana wanda ya yi nasara gobe.
 Za su iya ceton kansu.
 Za su iya tafiya idan suna so.
 Za su taimaka muku ku ji dimi.
+Za ta dawo nan a kasa da mintuna goma.
 Za ta iya jin ciwo idan ta yi haka.
 Za ta iya magance matsalar.
 Za'a iya yin ruwan sama gobe.
@@ -5046,6 +5059,7 @@ Zainab ta ci bireda da kofi ɗaya ka koffi domin karin kumallo.
 Zainab ta rantse cewa ba za ta taba yin haka ga wani ba.
 Zainab za ta yi mamaki idan ta ga Jami yana yin haka.
 Zainabam ya iya yaren Japan sosai.
+Zainabtu da Ishaku na kaunar su yi wasan golf.
 Zaka iya kasancewa tare da mu idan kana so.
 Zaka iya ranta mini kudi?
 Zaka iya son zama a Mumbai?
@@ -5054,6 +5068,7 @@ Zaki shi ne sarkin namun dawa.
 Zakin yana ruri.
 Zaman lafiya ba shine ƙarshen rikici ba, sai da wanzuwar adalci.
 Zamu iya gyara wancan.
+Zamu roki gafararka.
 Zamu tafi gida.
 Zamu yi hayar sanannen mai yin kwalliya don yiwa jariminmu kwalliya.
 Zan amshi amintakar sa.

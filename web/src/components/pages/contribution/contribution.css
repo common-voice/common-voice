@@ -199,10 +199,11 @@
             margin-bottom: 20px;
         }
 
-        & svg {
+        svg {
             margin: 0 10px 0 16px;
             width: 23px;
             height: 23px;
+            vertical-align: text-top;
         }
     }
 
