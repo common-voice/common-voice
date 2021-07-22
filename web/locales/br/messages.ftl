@@ -147,6 +147,7 @@ th = Thailandeg
 tl = Tagalogeg
 tr = Turkeg
 tt = Tatareg
+tw = Twieg
 uby = Oubic’heg
 udm = Oudmourteg
 ug = Ouigoureg
