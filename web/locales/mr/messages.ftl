@@ -455,6 +455,7 @@ sentence-collection-explanation = सार्वजनिक डोमेनम
 hours-recorded-explanation = आतापर्यंत आम्ही संकलित केलेल्या व्हॉईस रेकॉर्डिंग तासांची संख्या.
 sst = स्पीच टू टेक्स्ट (एसटीटी)
 sst-explanation = स्पीच-टू-टेक्स्ट (एसटीटी) तंत्रज्ञान व्हॉईस डेटाला मजकूरामध्ये रूपांतरित करते.
+de-identified = ओळख मिटवलेली
 
 ## Error pages
 
