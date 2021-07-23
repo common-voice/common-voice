@@ -112,6 +112,7 @@ my = Barmština
 myv = Erzja
 nb-NO = Norština (Bokmål)
 ne-NP = Nepálština
+nia = Niaština
 nl = Nizozemština
 nn-NO = Nynorsk
 oc = Okcitánština
