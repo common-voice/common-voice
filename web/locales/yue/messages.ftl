@@ -361,6 +361,10 @@ record-three-more-instruction = 仲有三個！
 share-common-voice = 分享Common Voice
 clips-uploaded = 已上載嘅錄音
 record-abort-title = 不如完成咗啲錄音先啦？
+record-abort-delete = 退出並刪除錄音片段
+listen-instruction = { $actionType }<playIcon></playIcon>佢地講得準唔準？
+target-segment-add-voice = 加入你嘅聲音
+target-segment-learn-more = 了解更多
 
 ## Reporting
 
@@ -399,3 +403,4 @@ share-goal = 分享我嘅目標
 
 ## Demo Dashboard
 
+demo-dashboard-card-body = 每次你提供、核實語音，你嘅進度都會喺該語言嘅面板度展示出嚟。係啊，你可以貢獻多過一隻語言。用面板去睇實你嘅戰績，睇下自己同埋其他人做成點樣，再定返個每日或者每週嘅目標吖。
