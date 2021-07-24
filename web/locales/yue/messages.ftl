@@ -7,6 +7,7 @@ return-to-cv = 返回 Common Voice
 email-input =
     .label = 電郵地址
 submit-form-action = 遞交
+loading = 加載緊⋯⋯
 email-opt-in-info-title = 接收 Common Voice 電郵通知
 indicates-required = ＊表示必填
 not-available-abbreviation = 唔適用
@@ -114,6 +115,9 @@ ru = 俄語
 sah = 薩哈語
 sc = 薩丁尼亞語
 scn = 西西里語
+so = 索馬里語
+tw = 契維語
+yo = 約魯巴語
 zh-CN = 中文（中國大陸）
 zh-HK = 中文（香港）
 zh-TW = 中文（台灣）
@@ -171,6 +175,7 @@ whats-public = 邊啲資料會公開？
 email-not-public = 我哋唔會公開你嘅電郵地址。
 recordings-and-locale-public = 你貢獻嘅錄音數量，同埋你貢獻咗邊幾種語言，都會係公開嘅。
 username-optin-public = 你可以選擇公開你嘅賬户名稱，或者保持匿名。
+demographic-deidentified-clarity-2 = 可以自由提供嘅人口背景資料（例如年齡、性別、語言、口音）絕對唔會喺你嘅 profile 公開，都唔會同你嘅户口㨢埋一齊。獨立嘅錄音片段會同背景資料褦埋一齊，令到分析更加精準，因為有時研究人員會想訓練啲語音模型去專門處理某種人口背景嘅語音。
 username-email-not-demographic = 你嘅用户名同埋電郵地址，唔會連結落去公開發佈嘅數據。
 
 ## Speak & Listen Shortcuts
@@ -277,6 +282,10 @@ faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊�
 ## ABOUT US
 
 about-is-it-valid = 段錄音有冇效？
+about-partnership =
+    Common Voice 係一個合作計劃，目標係憑住一班合作伙伴同貢獻者嘅力量，建立一個史上最大嘅開源語音資料集。¶
+    ¶
+    以下嘅個人同組織喺計劃入面嘅貢獻良多，我哋想向佢哋表示感謝：
 
 ## Glossary
 
