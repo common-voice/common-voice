@@ -1,5 +1,7 @@
 exports.stats = {
   bundleURL: 'cv-corpus-5-singleword/cv-corpus-5-singleword.tar.gz',
+  multilingual: false,
+  exclude: true,
   locales: {
     es: {
       clips: 69284,

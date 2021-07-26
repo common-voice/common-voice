@@ -11,7 +11,7 @@ loading = Įkeliama…
 email-opt-in-info = Norėčiau gauti tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
 email-opt-in-info-title = Prenumeruoti „Common Voice“ naujienlaiškį
 email-opt-in-info-sub-with-challenge = Gauti iššūkių ir tikslų priminimus, progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu.
-email-opt-in-privacy = Pasirinkęs (-usi) gauti el. laiškus, Tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje <privacyLink>.
+email-opt-in-privacy-v2 = Pasirinkęs (-usi) gauti el. laiškus, Tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje</privacyLink>.
 indicates-required = * Nurodo privalomą lauką
 not-available-abbreviation = Nepasiekiama
 
@@ -64,10 +64,12 @@ ga-IE = Airių
 gl = Galisų
 ha = Hausų
 he = Hebrajų
-hi-IN = Hindi
+hi = Hindi
 hr = Kroatų
 hsb = Auštutinių sorbų
 hu = Vengrų
+hy-AM = Armėnų
+hyw = Armėnų (Vakarų)
 ia = Interlingua
 id = Indoneziečių
 is = Islandų
@@ -75,13 +77,15 @@ it = Italų
 izh = Ižorų
 ja = Japonų
 ka = Gruzinų
+kaa = Karakalpakų
 kab = Kabilų
+kbd = Kabardinų
 kk = Kazachų
 ko = Korėjiečių
 kpv = Komių-zyrų
-ku = Kurdų
 kw = Hakų činų
 ky = Kirgizų
+lg = Luganda
 lij = Ligūrų
 lt = Lietuvių
 lv = Latvių
@@ -93,6 +97,7 @@ ml = Malajų
 mn = Mongolų
 mrj = Aukštumų marių
 mt = Maltiečių
+my = Birmiečių
 myv = Erzių
 nb-NO = Norvegų (bukmolas)
 ne-NP = Nepalų
@@ -110,6 +115,7 @@ ru = Rusų
 rw = Kinjaruanda
 sah = Jakutų
 sc = Sardų
+scn = Siciliečių
 si = Sinhalų
 sk = Slovakų
 sl = Slovėnų
@@ -122,6 +128,7 @@ ta = Tamilų
 te = Telugų
 tg = Tadžikų
 th = Tajų
+tl = Tagalogų
 tr = Turkų
 tt = Totorių
 uby = Ubychų
@@ -129,6 +136,7 @@ udm = Udmurtų
 uk = Ukrainiečių
 ur = Urdu
 uz = Uzbekų
+vec = Venecijiečių
 vi = Vietnamiečių
 vot = Vodų
 zh-CN = Kinų (Kinija)
@@ -214,7 +222,6 @@ whats-public = Kas yra vieša?
 email-not-public = Mes neskelbsime Tavo el. pašto.
 recordings-and-locale-public = Įrašų skaičius ir kalbų, prie kurių prisidedi, sąrašas yra vieši.
 username-optin-public = Gali pasirinkti, ar Tavo naudotojo vardas bus matomas kitiems.
-demographic-deidentified = Jeigu pateiksi savo demografinius duomenis (tokius, kaip amžius, lytis, kalba ar tarmė), jie bus atsieti nuo Tavo pateiktų garso įrašų ir niekada nebus skelbiami tavo profilyje.
 username-email-not-demographic = Tavo naudotojo vardas ir el. paštas nebus susieti su paskelbtais duomenimis.
 
 ## Speak & Listen Shortcuts
@@ -273,8 +280,6 @@ profile-form-accent =
     .label = Tarmė (akcentas)
 profile-form-age =
     .label = Amžius
-profile-form-gender =
-    .label = Lytis
 leaderboard-visibility =
     .label = Matomumas lyderių lentelėje
 hidden = Nerodyti
@@ -300,7 +305,6 @@ profile-close = Užverti
 profile-explanation = Profilis Tau padės sekti savo progresą, o mums – padaryti balso duomenų rinkinį tikslesniu.
 thanks-for-account = Ačiū kad patvirtinai savo paskyrą. Dabar sukurkime tavo profilį.
 why-demographic = Kodėl tai svarbu?
-why-demographic-explanation = Nuasmeninti naudotojo duomenys – kaip antai kaip amžius, lytis ir tarmė – padeda pagerinti balso duomenų, naudojamų balso atpažinimo varikliukams apmokyti, tikslumą. Tavo naudotojo vardas ar el. paštas niekada nebus susietas su Tavo garso įrašais. Be to, Tu gali priimti sprendimą, ar nori, jog Tavo naudotojo vardas būtų matomas svetainėje.
 accept-privacy = Sutinku, kad mano duomenys būtų tvarkomi kaip aprašyta „Mozillos“ <privacyLink>Privatumo nuostatuose</privacyLink>
 accept-privacy-title = Privatumo nuostatai
 login-identity = Prisijungimo tapatybė
@@ -431,11 +435,11 @@ about-partnership =
     
     Norėtume padėkoti šiems asmenims ir organizacijoms už jų pagalbą įgyvendinant projektą:
 about-get-involved = Įsitrauk
-about-get-involved-text =
+about-get-involved-text-2 =
     Nori prisidėti tobulinant „Common Voice“?
     Puiku! Susisiek su mumis el. paštu arba <discourseLink>„Discourse“ serveryje</discourseLink>,
     pateik atsiliepimą <githubLink>„GitHub“ platformoje</githubLink>,
-    arba prisijunk prie <slackLink>„Slack“ diskusijos</slackLink>.
+    arba prisijunk prie <matrixLink>„Matrix“ diskusijos</matrixLink>.
 about-nav-why-common-voice = Kodėl?
 about-nav-how-it-works = Kaip?
 about-nav-partners = Partneriai
@@ -461,10 +465,11 @@ sst-explanation = Šnekos atpažinimo technologijos balso duomenis paverčia tek
 de-identified = Nuasmeninimas
 de-identified-explanation = Procesas, kurio metu talkininko ar talkininkės profilio duomenys yra atsiejami nuo jo ar jos atliktų balso įrašų prieš šiuos duomenis supakuojant ir pateikiant atsisiuntimui duomenų rinkinyje.
 
-## NotFound
+## Error pages
 
-notfound-title = Nerasta
-notfound-content = Deja, nežinome ko ieškai.
+error-title-404 = Nepavyko rasti šio tinklalapio
+error-title-503 = Šiuo metu patiriame nenumatytus nesklandumus
+error-code = { $code } klaida
 
 ## Data
 
@@ -615,7 +620,7 @@ contribute = Prisidėti
 listen = Klausyk
 skip = Praleisti
 shortcuts = Spartieji klavišai
-clips-with-count =
+clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> įrašas
         [few] <bold>{ $count }</bold> įrašai
@@ -632,7 +637,6 @@ contribute-more =
 record-cta = Pradėk įrašymą
 record-platform-not-supported = Atsiprašome, Tavo platforma kol kas nepalaikoma.
 record-platform-not-supported-desktop = Staliniam kompiuteriui gali parsisiųsti naujausią:
-record-platform-not-supported-ios = <bold>„iOS“</bold>naudotojai gali parsisiųsti nemokamą programėlę:
 record-must-allow-microphone = Turi suteikti prieigą prie mikrofono.
 record-no-mic-found = Mikrofonas neaptiktas.
 record-error-too-short = Įrašas per trumpas.
@@ -646,6 +650,7 @@ record-again-instruction = Šaunu!<recordIcon></recordIcon> Dabar įrašyk kitą
 record-again-instruction2 = Puiku, įrašinėkime toliau <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Paskutinis!
 review-tooltip = Čia peržiūrėk ir, jei reikia, iš naujo atlik įrašus
+share-common-voice = Dalinkitės „Common Voice“
 review-instruction = Peržiūrėk ir, jei reikia, iš naujo atlik įrašus
 record-submit-tooltip = { $actionType }, kad pateiktum šį savo įnašą
 clips-uploaded = Įkelta įrašų
@@ -658,11 +663,17 @@ listen-instruction = { $actionType }<playIcon></playIcon>. Ar kalbėtojas teisin
 listen-again-instruction = Šaunu!<playIcon></playIcon> Kai galėsi, klausyk vėl
 listen-3rd-time-instruction = Du įrašai išklausyti, taip ir toliau!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Paskutinis!
-nothing-to-validate = Neturime jokių frazių šia kalba, kurias galėtum patvirtinti – padėk tai pakeisti.
+listen-empty-state = Nebeliko šios kalbos įrašų, kuriuos reikėtų patvirtinti…
+speak-empty-state = Nebeliko šios kalbos sakinių, kuriuos reikėtų įrašyti…
+speak-empty-state-cta = Prisidėk sakiniais
 record-button-label = Įrašyk savo balsą
 share-title-new = <bold>Padėk mums</bold> rasti daugiau balsų
 keep-track-profile = Sek savo pažangą profilyje
 login-to-get-started = Jeigu nori įsitraukti, prisijunk arba prisiregistruok
+target-segment-first-card = Jūs prisidedate prie mūsų pirmojo tikslinio segmento
+target-segment-first-banner = Padėkite sukurti pirmąjį „Common Voice“ { $locale } tikslinį segmentą
+target-segment-add-voice = Pridėk savo balsą
+target-segment-learn-more = Išsamiau
 
 ## Reporting
 
@@ -711,6 +722,7 @@ validations =
 
 your-languages = Tavo kalbos
 toward-next-goal = Link kito tikslo
+goal-reached = Tikslas pasiektas
 clips-you-recorded = Tavo pateikti garso įrašai
 clips-you-validated = Tavo patvirtinti garso įrašai
 todays-recorded-progress = Šiandienos „Common Voice“ pateiktų įrašų progresas
@@ -734,6 +746,7 @@ show-ranking = Rodyti mano reitingą
 
 get-started-goals = Išsikelti tikslą
 create-custom-goal = Susikurk tikslą
+goal-type = Kokį tikslą nori pasiekti?
 both-speak-and-listen = Ir tai, ir tai
 both-speak-and-listen-long = Ir kalbėti, ir klausyti
 daily-goal = Dienos tikslas
@@ -747,49 +760,43 @@ want-to-continue = Ar nori tęsti?
 finish-editing = Pirma baigti redaguoti?
 lose-changes-warning = Jeigu išeisi dabar, prarasi ką tik įrašytas frazes
 build-custom-goal = Susikurk savo tikslą
-help-reach-hours =
-    { $hours ->
-        [one] Padėk pasiekti { NUMBER($hours) } valandos { $language } kalba – susikurk asmeninį tikslą
-        [few] Padėk pasiekti { NUMBER($hours) } valandų { $language } kalba – susikurk asmeninį tikslą
-       *[other] Padėk pasiekti { NUMBER($hours) } valandų { $language } kalba – susikurk asmeninį tikslą
-    }
-help-reach-hours-general =
-    { $hours ->
-        [one] Padėk „Common Voice“ pasiekti { NUMBER($hours) } valandos kuria nors kalba – susikurk asmeninį tikslą
-        [few] Padėk „Common Voice“ pasiekti { NUMBER($hours) } valandų kuria nors kalba – susikurk asmeninį tikslą
-       *[other] Padėk „Common Voice“ pasiekti { NUMBER($hours) } valandų kuria nors kalba – susikurk asmeninį tikslą
-    }
+help-reach-hours-pluralized =
+    Padėk pasiekti { NUMBER($hours) ->
+        [one] { $hours } valandą
+        [few] { $hours } valandas
+       *[other] { $hours } valandų
+    } įrašų { $language } kalba – susikurk asmeninį tikslą
+help-reach-hours-general-pluralized =
+    Padėk „Common Voice“ pasiekti { NUMBER($hours) ->
+        [one] { $hours } valandą
+        [few] { $hours } valandas
+       *[other] { $hours } valandų
+    } įrašų norima kalba – susikurk asmeninį tikslą
 set-a-goal = Užsibrėžti tikslą
 cant-decide = Negali apsispręsti?
-activity-needed-calculation =
-    { NUMBER($hours) } { $totalHours ->
-        [one] valandą
-        [few] valandas
-       *[other] valandų
-    } galima pasiekti per vos { NUMBER($periodMonths) } { $periodMonths ->
-        [one] mėnesį,
-        [few] mėnesius,
-       *[other] mėnesių,
-    } { NUMBER($people) } { $people ->
-        [one] asmeniui
-        [few] asmenims
-       *[other] asmenų
-    } padarant { NUMBER($clipsPerDay) } { $clipsPerDay ->
-        [one] įrašą
-        [few] įrašus
-       *[other] įrašų
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } valandą
+        [few] { $totalHours } valandas
+       *[other] { $totalHours } valandų
+    } galima pasiekti vos per { NUMBER($periodMonths) ->
+        [one] { $periodMonths } mėnesį
+        [few] { $periodMonths } menesius
+       *[other] { $periodMonths } menesių
+    }, { NUMBER($people) ->
+        [one] { $people } asmeniui
+        [few] { $people } asmenims
+       *[other] { $people } asmenų
+    } padarant po { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } įrašą
+        [few] { $clipsPerDay } įrašus
+       *[other] { $clipsPerDay } įrašų
     } per dieną.
 how-many-per-day = Puiku! Kiek įrašų per dieną?
 how-many-a-week = Puiku! Kiek įrašų per savaitę?
-which-goal-type = Nori šnekėti, kalbėti ar užsiimti abiem veiklomis?
+which-goal-type = Nori kalbėti, klausytis ar daryti abu?
 receiving-emails-info = Šiuo metu esi pasirinkęs (-usi) gauti tikslų priminimus, savo progreso ataskaitas ir „Common Voice“ naujienlaiškius el. paštu
 not-receiving-emails-info = Šiuo metu esi pasirinkęs (-usi) <bold>NEGAUTI</bold> tikslų priminimų, savo progreso ataskaitų ir „Common Voice“ naujienlaiškių el. paštu
-n-clips =
-    { $count ->
-        [one] { NUMBER($count) } įrašas
-        [few] { NUMBER($count) } įrašai
-       *[other] { NUMBER($count) } įrašų
-    }
 help-share-goal = Padėk mums rasti daugiau balsų, pasidalink savo tikslu
 confirm-goal = Patvirtink tikslą
 goal-interval-weekly = Kas savaitę
@@ -838,3 +845,18 @@ help-contribute = Tu gali padėti kurti įvairialypį, atvirą duomenų rinkinį
 login-company = Prisijunk arba užsiregistruok su savo „{ $company }“ el. paštu
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
 read-more-about = Išsamesnė informacija – tinklalapyje „Apie mus“
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
