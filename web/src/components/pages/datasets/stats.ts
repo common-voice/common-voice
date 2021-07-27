@@ -13,6 +13,8 @@ const releases = [
   'cv-corpus-6.0-singleword',
   'cv-corpus-6.1-2020-12-11',
   'cv-corpus-6.1-singleword',
+  'cv-corpus-7.0-2021-07-21',
+  'cv-corpus-7.0-singleword',
 ];
 
 export default releases
