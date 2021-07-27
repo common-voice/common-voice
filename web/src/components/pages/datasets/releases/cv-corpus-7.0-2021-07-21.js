@@ -1,5 +1,5 @@
 exports.stats = {
-  bundleURLTemplate: 'cv-corpus-7.0-2021-07-21/{locale}.tar.gz',
+  bundleURLTemplate: 'cv-corpus-7.0-2021-07-21/cv-corpus-7.0-2021-07-21-{locale}.tar.gz',
   date: '2021-07-21',
   name: 'Common Voice Corpus 7.0',
   multilingual: true,
