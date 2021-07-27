@@ -296,6 +296,7 @@ shortcut-record-toggle = s
 shortcut-record-toggle-label = Snimaj/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ponovo snimi isječak
+shortcut-submit = Potvrdi
 shortcut-submit-label = Pošalji isječke
 request-language-text = Tvoj jezik nedostaje u Common Voiceu?
 request-language-text-learn = Ovdje možete saznati kako to zatražiti!
