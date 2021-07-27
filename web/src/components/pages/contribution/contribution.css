@@ -112,6 +112,24 @@
             }
         }
 
+        .contribution-criteria {
+            display: block;
+            color: var(--black);
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: var(--font-size-sm);
+            margin-bottom: 1rem;
+
+            svg {
+                fill: var(--black);
+                margin-inline-end: 0.5rem;
+                vertical-align: text-bottom;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
         .links {
             font-family: var(--strong-font-family);
 
