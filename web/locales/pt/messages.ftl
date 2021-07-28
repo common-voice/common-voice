@@ -940,6 +940,7 @@ contribution-background-voices-example-1-explanation = Você está vindo? <stron
 contribution-volume-title = Volume
 contribution-volume-description = Há natural variação de volume entre os leitores. Rejeite somente se o volume estiver tão alto que a gravação falhe, ou (mais comum) se estiver tão baixo que você não possa ouvir o que está sendo dito sem referência ao texto escrito.
 contribution-reader-effects-title = Efeitos do leitor
+contribution-reader-effects-description = A maioria das gravações é de pessoas falando em sua voz natural. Você pode aceitar uma gravação ocasional fora do padrão que seja gritada, sussurrada ou obviamente feita com uma voz ‘dramática’. Rejeite gravações cantadas e aquelas que usam voz sintetizada por computador.
 contribution-just-unsure-title = Não tem certeza?
 contribution-just-unsure-description = Caso se depare com algo que essas diretrizes não abrangem, vote de acordo com seu bom senso. Se realmente não conseguir decidir, use o botão de pular e siga para a próxima gravação.
 see-more = <chevron></chevron>Ver mais
