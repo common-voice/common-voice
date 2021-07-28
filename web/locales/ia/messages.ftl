@@ -896,6 +896,6 @@ contribution-criteria-page-title = Criterios de contribution
 contribution-criteria-page-description = Comprender a que prestar attention al ascolta de registrationes vocal e adjutar render tu registrationes vocal ancora plus ric!
 contribution-for-example = per exemplo
 contribution-misreadings-title = Errores de lectura
-contribution-misreadings-description = Quando ascolta, controla multo accuratemente que lo que ha essite registrate es exactemente que ha essite scribite; rejecta si il ha mesmo errores minor. <br />Multo commun errores include:
+contribution-misreadings-description = Quando tu ascolta, controla multo accuratemente que lo que ha essite registrate es exactemente illo que ha essite scribite; rejecta lo si il ha mesmo errores minor. <br />Multo commun errores include:
 contribution-misreadings-description-extended-list-1 = Carentia de <strong>'Un'</strong> o <strong>'Le'</strong> al initio del registration.
 see-more = Criterios
