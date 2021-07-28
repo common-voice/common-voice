@@ -889,3 +889,9 @@ demo-listen-subtitle = Pronto para contribuir?
 
 demo-dashboard-card-header = Painéis pessoais mantêm você atualizado com o progresso individual e da comunidade.
 demo-dashboard-card-body = Para cada clipe de voz doado e cada clipe de áudio validado, os painéis da sua conta são atualizados para refletir seu progresso recente em cada idioma em que você contribui. Sim, você pode contribuir em mais de um!<br/><br/> Use painéis para acompanhar suas estatísticas, veja como você está se saindo ao lado de outras pessoas na comunidade e defina metas de contribuição diárias ou semanais.
+
+## Validation criteria
+
+contribution-criteria-nav = Critério
+contribution-criteria-link = Entenda os critérios de contribuição
+contribution-criteria-page-title = Critérios de contribuição
