@@ -924,4 +924,12 @@ demo-dashboard-card-body = Za kóždy darjeny hłosowy klip a kóždy přepruwow
 ## Validation criteria
 
 contribution-criteria-nav = Kriterije
+contribution-for-example = na přikład
 contribution-misreadings-title = Čitanske zmylki
+contribution-misreadings-description-extended-list-2 = Falowacy <strong>'s'</strong> na kóncu słowa.
+contribution-background-voices-title = Pozadkowe hłosy
+contribution-volume-title = Sylnosć zwuka
+contribution-reader-effects-title = Efekty čitarja
+contribution-just-unsure-title = Jenož njewěsty?
+see-more = <chevron></chevron>Wjace pokazać
+see-less = <chevron></chevron>Mjenje pokazać
