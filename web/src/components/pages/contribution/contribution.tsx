@@ -383,9 +383,10 @@ class ContributionPage extends React.Component<Props, State> {
                 />
               </Localized>
             </div>
+            <div className="mobile-break" />
 
-            {!errorContent && !isSubmitted &&(
-              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria">
+            {!errorContent && !isSubmitted &&  (
+              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria hidden-md-down">
                 <ExternalLinkIcon />
                 <Localized id="contribution-criteria-link"/>
               </LocaleLink>
@@ -527,6 +528,13 @@ class ContributionPage extends React.Component<Props, State> {
               <canvas ref={this.canvasRef} />
               {primaryButtons}
             </div>
+
+            {!errorContent && !isSubmitted &&  (
+              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria hidden-lg-up">
+                <ExternalLinkIcon />
+                <Localized id="contribution-criteria-link"/>
+              </LocaleLink>
+            )}
 
             <div className="buttons">
               <div>

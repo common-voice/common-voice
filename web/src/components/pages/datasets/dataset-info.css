@@ -238,11 +238,19 @@
     }
 
     .show-email-form {
+        width: auto;
+        height: auto;
         margin-bottom: 20px;
+
+        @media (--md-up) {
+            white-space: nowrap;
+            margin-bottom: 0;
+        }
 
         span {
             margin-inline-end: 20px;
         }
+
         &:hover {
             path {
                 fill: var(--black);
@@ -535,28 +543,29 @@
     height: 100%;
 
     .show-email-wrapper {
-        display: flex;
+        display: block;
         height: 100%;
         flex-direction: row;
         align-items: center;
+
+        @media (--md-up) {
+            display: flex;
+        }
     }
 
     .show-email-button,
     .why-email {
         width: auto;
-    }
 
-    .show-email-form {
-        margin-bottom: 0;
+        @media (--md-up) {
+            width: auto;
+        }
     }
 
     .why-email {
-        margin-inline-start: 2rem;
-    }
-
-    .show-email-form {
-        width: auto;
-        white-space: nowrap;
+        @media (--md-up) {
+            margin-inline-start: 2rem;
+        }
     }
 
     .checksum {
