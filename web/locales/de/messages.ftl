@@ -891,3 +891,9 @@ demo-listen-subtitle = Sind Sie bereit, mitzumachen?
 
 demo-dashboard-card-header = Persönliche Übersichten halten Sie über den individuellen und gemeinschaftlichen Fortschritt auf dem Laufenden.
 demo-dashboard-card-body = Für jeden gespendeten Sprachclip und jeden validierten Audioclip werden Ihre Konto-Übersichten aktualisiert, um Ihre neuesten Fortschritte in jeder Sprache widerzuspiegeln, zu der Sie beitragen. Ja, Sie können zu mehr als einer Sprache beitragen! <br/><br/> Verwenden Sie Übersichten, um Ihre Statistiken zu verfolgen, sich mit anderen Mitgliedern der Gemeinschaft zu vergleichen und um tägliche oder wöchentliche Beitragsziele festzulegen.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterien
+contribution-criteria-link = Kriterien zum Mitwirken verstehen
+contribution-criteria-page-title = Kriterien zum Mitwirken
