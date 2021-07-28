@@ -882,5 +882,6 @@ demo-dashboard-card-body = 每當您錄下或驗證了一段語音，就會更�
 contribution-criteria-nav = 準則
 contribution-criteria-link = 了解貢獻準則
 contribution-criteria-page-title = 貢獻準則
+contribution-criteria-page-description = 了解在聆聽語音片段時要注意什麼，並幫助您能錄下更多聲音！
 contribution-for-example = 舉例來說
 contribution-misreadings-title = 誤讀
