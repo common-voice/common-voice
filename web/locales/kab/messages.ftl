@@ -147,6 +147,7 @@ th = Taṭaylant
 tl = Tagalugt
 tr = Taṭurkit
 tt = Taṭaṭarit
+tw = Tatwit
 uby = Tubyixt
 udm = Tudmurt
 ug = Tawigurt
@@ -156,6 +157,7 @@ uz = Tuzbikt
 vec = Taviṭnamit
 vi = Tavyiṭnamit
 vot = Tavutikt
+yo = Tayurubit
 yue = Takuntunit
 zh-CN = Tacinwat (Cinwa)
 zh-HK = Tacinwat (Hung Kung)
@@ -890,3 +892,14 @@ demo-listen-subtitle = Twejdeḍ ad tettekkiḍ?
 
 demo-dashboard-card-header = Tifelwiyin n usenqed tudmawanin ad k-ǧǧent ad tḍefreḍ asfari udmawan neɣ amɣiwan.
 demo-dashboard-card-body = Di yal tukkist n taɣect akked yal tukkist n umeslaw yettwaqeblen, tafelwit n usenqed n umiḍan-ik ad tattwalqem akken ad d-iban usfari-ik aneggaru deg yal tutlayt ideg i tettekkaḍ. Ih, tzemreḍ ad tettekkiḍ deg ddeqs n tutlayin!<br/><br/> Seqdec tafelwit n usenqed akken ad tefreḍ tiddadanin-ik, ad twaliḍ asfari-ik d wid n yimttekkiyen-nniḍen n temɣiwent daɣen ad tgeḍ iswi n uttekki n wass neɣ n yimalas.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriteriya
+contribution-criteria-page-title = Attekki n Kriteriya
+contribution-for-example = amedya
+contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
+contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
+contribution-misreadings-example-3-explanation = [Asekles yettwagzem send ad yemmed wawal aneggaru]
+contribution-volume-title = Ableɣ
+see-more = <chevron></chevron>Wali ugar

@@ -112,6 +112,7 @@ my = Burmesisk
 myv = Erziamordvinsk
 nb-NO = Norsk (bokmål)
 ne-NP = Nepalsk
+nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
 oc = Oksitansk

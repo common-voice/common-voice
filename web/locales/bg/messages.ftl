@@ -275,6 +275,8 @@ shortcut-record-toggle = з
 shortcut-record-toggle-label = Записване/Спиране
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Направете записа отново
+shortcut-submit = Enter
+shortcut-submit-label = Изпращане на записите
 request-language-text = Не виждате своя език в Common Voice?
 request-language-text-learn = Научи се, как да го заявиш тук!
 request-language-button = Заявяване на език
@@ -353,6 +355,8 @@ browse-file = Пуснете файл или <browseWrap>разгледайте<
 connect-gravatar = Свързване с Gravatar
 gravatar_not_found = Не е открит профил в gravatar с вашата електронна поща
 file_too_large = Избраният файл е прекалено голям
+avatar-uploaded = Аватарът е качен
+max-file-size = Максимално { $kb } Кб
 
 ## Profile - Email
 

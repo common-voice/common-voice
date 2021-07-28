@@ -407,6 +407,7 @@ class SpeakPage extends React.Component<Props, State> {
         error: null,
       };
     });
+    api.skipSentence(id);
   };
 
   private upload = (hasAgreed: boolean = false) => {

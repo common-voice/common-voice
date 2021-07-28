@@ -222,6 +222,7 @@ BoP
 Bogota
 Boh; Najvyššia Bytosť
 Bohom zabudnutý; zastrčený; opustený; divoký
+Bojler
 Bol vystavaný nový Kráľovský dom.
 Boli druhým slobodným kráľovským mestom v hodnostnom poradí uhorských miest s mestskými výsadami.
 Boli im udelené mnohé hospodárske a právne výhody.
@@ -233,6 +234,7 @@ Bornejčanka
 Borneo; Kalimantan
 Bos; rod Bos
 Bospor
+Box
 Brahmaputra; rieka Brahmaputra
 Brassica; rod Brassica
 Brat
@@ -648,6 +650,7 @@ Kalifornský záliv; Cortésovo more
 Kaluga
 Kalvária; Golgotha
 Kambodža; Kambodžské kráľovstvo
+Kameru jedna otoč vľavo o desať stupňov!
 Kamerun; Kamerunská republika
 Kanada
 Kanadčan; Kanadčanka
@@ -690,6 +693,7 @@ Kirgizsko; Kirgizská republika
 Kissimmee; rieka Kissimmee
 Klamath; rieka Klamath
 Klasické žiarivky, alebo lineárne trubice sú najrozšírenejšie
+Kniha
 Kniha Ester
 Kniha Ezdrášova
 Kniha Jozue
@@ -700,6 +704,7 @@ Kniha múdrostí
 Kniha náreky
 Kniha proroka Aggea
 Knihy kroník; Knihy kronické; Knihy Paralipomenon; Paralipomenon
+Knižnica
 Kolektívna licenčná zmluva
 Kolektívna licenčná zmluva musí mať písomnú formu a možno ju uzatvoriť len ako nevýhradnú.
 Kolumbia; Kolumbijská republika
@@ -707,7 +712,9 @@ Kolumbijská univerzita
 Kolumbijčan
 Kombinované akváriá - čiže s časťou so substrátom a časťou bez neho:
 Komisia pre atómovú energiu
+Kompót
 Komunistická strana
+Kondenzátor
 Konektory sú pozlátené a na boku majú výrazný prelis.
 Konfederácia; Konfederácia amerických štátov
 Kongo; Konžská demokratická republika; bývalý Zair; Belgické Kongo
@@ -715,6 +722,7 @@ Kongo; Konžská republika; Francúzske Kongo
 Kongres
 Konkrétne sa tieto fakty týkajú týchto sociálnych sietí.
 Kontrola uplatňovania nariadenia prebehne v decembri dvatisíc dvadsať dva
+Konzerva
 Konštrukciu stojanov pre väčšie akvária je už vhodné vystužovať kovovými nosníkmi.
 Koralové more
 Kostaričan
@@ -847,6 +855,7 @@ Michigan
 Midland
 Midway Islands
 Mieru využívania sociálnych sietí ovplyvňujú predovšetkým sociodemografické faktory, akými sú vzdelanie, vek, ekonomická aktivita.
+Miesto
 Ministerstvo ako ústredný orgán štátnej správy pre pozemné komunikácie
 Ministerstvo udeľuje oprávnenie na dobu neurčitú.
 Ministerstvo zverejní rozhodnutie o odňatí oprávnenia v evidencii organizácií kolektívnej správy.
@@ -894,6 +903,7 @@ Nablus
 Nadmerná doprava a nadrozmerná doprava podlieha povoleniu na zvláštne užívanie
 Nadobúda si rozličné choroby a ukracuje si život.
 Nahum; Kniha proroka Nahuma
+Najdi
 Najdôležitejšími otázkami prieskumu boli.
 Najneskôr do dvanactého decembra dvatisíc dvadsať tri musí byť vo všetkých krajinách EÚ
 Najvyšší podiel využívania sociálnych sietí bol zistený v Bratislavskom kraji.
@@ -914,6 +924,7 @@ Napájanie je zabezpečené primeranou jednotkou nepretržitého napájania, no 
 Napíšte článok o strednej a východnej Európe a vyhrajte zaujímavé ceny!
 Nariadenie Tisíc sedemsto dvadsať šyri o zriadení jednotnej digitálnej brány
 Nariadenie, ktorým sa zriaďuje brána
+Nastav
 Nastav svetlo na chodbe na päťdeisat percent.
 Nastav svetlo na verande na osemdesiat percent.
 Nastav svetlo na záchode na sedemdesiat percent.
@@ -1106,6 +1117,7 @@ Pevné prekážky na diaľniciach, cestách a miestnych komunikáciách
 Piesok a jeho zrnitosť.
 Piesok do akvária volíme zrnitosti nie menej ako dva mm
 Piliere a zložky digitálnej vedy v kontexte spracovania informácií.
+Plynomer
 Plánovanie, príprava a výstavba pozemných komunikácií
 Po ich zlyhaní zvolil násilnú cestu.
 Po pár hodinách nosenia mi to začalo prekážať.
@@ -1118,6 +1130,8 @@ Podľa výskumu sociálne siete na tento účel využíva až tridsať päť per
 Pokec využíva tridsať dva percent populácie.
 Pokiaľ máte osvetľovaciu rampu akvária riešenú tak že svieti do fotoaparátu
 Pokiaľ sa dá, je dobre používať viacbodového zaostrovanie.
+Polica
+Polička
 Poskytovanie informácií verejnosti
 Posledná rada
 Posledná situácia by mohla byť najmä spracúvanie na účely archivácie vo verejnom záujme
@@ -1125,6 +1139,7 @@ Postačí nastavenie veľkosti obrázka tisíc dvesto osemdesiat krát deveťsto
 Postup a hlavné nastavenia fotoaparátu.
 Posunutie náhlavného oblúku dopredu bol vynikajúci nápad.
 Posúvanie Maďarov severnejšie do Košickej kotliny spadá do konca vlády Štefana prvého.
+Potenciometer
 Potraviny obsahujú bielkoviny, uhlohydráty, vápnik, železo, rozličné soli, fosfor, tuk, cukor a vodu.
 Použitie architektonického diela
 Použitie diela je možné pre potreby zdravotne postihnutých.
@@ -1139,6 +1154,7 @@ Používateľov hľadajúcich pomoc nasmeruje k službám pomoci a riešenia pro
 Používateľské rozhranie je závislé na archaickej verzii Javy.
 Pozemné komunikácie sa rozdeľujú podľa dopravného významu, určenia a technického vybavenia
 Pozemnú komunikáciu tvorí cestné teleso a jej súčasti
+Pozícia
 Počas polročnej noci majú nadostač tulenieho mäsa a tuku.
 Počas špičiek nebol výkon a dostupnosť služieb výrazne obmedzený.
 Početné košické sídliská obkolesili mesto zo všetkých svetových strán.
@@ -1227,9 +1243,12 @@ Pôsobnosť špeciálneho stavebného úradu pre diaľnice vykonáva ministerstv
 Rada znie jednoducho: Čím väčšia, tým lepšia!
 Rameno mikrofónu je presvedčivo robustné.
 Rašelina
+Regál
 Reprografia
 Respondenti boli vo veku viac ako štrnásť rokov.
+Rezistor je v druhej polici box ce tri.
 Rodové majetky Abovcov sa rozprestierali vo východnej časti kráľovstva v podhorí Matry.
+Rolety
 Rovnako je to aj so vzdelaním.
 Rozdelenie akvárii podľa použitia substrátu.
 Rozdelila však Uhorsko na dištrikty.
@@ -1285,6 +1304,7 @@ Tento dokument má za cieľ zvážiť akým spôsobom by sme túto úlohu mohli 
 Tento pomer je len orientačný
 Tento postup by sa mal uplatniť najmä pri spracovateľských operáciách veľkého rozsahu
 Tento projekt môžeme právom považovať za najstaršiu digitálnu knižnicu
+Termostat
 Terénny zber údajov bol zabezpečený agentúrou Focus formou face to face rozhovorov.
 Text môže byť načítaný hercom, autorom textu, alebo ho môže zdramatizovať celý kolektív.
 Tieto digitálne repozitáre sústreďujú veľké množstvá empirických dát z výskumov.
@@ -1332,12 +1352,15 @@ Týmto zákonom sa preberajú právne záväzné akty Európskej únie uvedené 
 U intenzívnych používateľov sa index digitálnej gramotnosti približuje k maximu.
 Udržuj zadanú úroveň teploty v rozmedzí plus mínus tri stupne celsia.
 Uhol fotografie pod ktorým budeme fotiť je na fantázii autora
+Ulož
 Umelý zdroj osvetlenia by mal obsahovať tie zložky
 Umožňuje flexibilitu pri presune služby medzi jednotlivými servermi v prípade údržby hardvéru.
 Unikátny Košický zlatý poklad z doby Tököliho povstania.
 Určité diferencie ukázali výsledky výskumu i v prípade geografického aspektu.
 Uvedené znamená, že stojan budeme riešiť podľa daného určenia použitia
 Uvedomte si, že do hlbokého akvária nedočiahnete rukou na dno
+Uzaver plynu
+Uzáver vody
 Už na prvý pohľad vyzerá inak ako sme zvyknutí.
 Už samotný názov predurčuje sociálne siete k vytváraniu a udržiavaniu sociálnej komunikácie.
 Už žiadne šmátranie po kábli s posuvným potenciometrom.
@@ -1393,6 +1416,7 @@ Viete o nejakej skupine?
 Villa Cassa bola najdôležitejšou osadou v regióne s veľkým farským kostolom.
 Vo mne zanechala pocit nesmiernej pevnosti.
 Vo väčšej nádrži: ľahšie udržíte správne životné prostredie rýb;
+Vodomer
 Vraví sa, že takto spodobnil majster Matejovej veže svoju ženu – alkoholičku.
 Vyhnaní však boli františkáni a jezuiti.
 Vyhotovenie rozmnoženiny diela pre súkromnú potrebu
@@ -1411,6 +1435,7 @@ Vypni svetlo v kuchyni.
 Vypni svetlo v kúpeľni.
 Vypni svetlo v obývačke.
 Vypni svetlo v pivnici.
+Vypni televizor!
 Vypnutie blesku
 Vyrástli aj na mieste zasanovaných predmestí.
 Vysielanie diela, retransmisia diela a sprístupňovanie diela verejnosti je verejným prenosom diela.
@@ -1485,7 +1510,9 @@ Zapni svetlo v obývačke.
 Zapni svetlo v pivnici.
 Zapni svetlo v spálni.
 Zapni svetlo!
+Zapni televizor!
 Zapni topenie.
+Zastav
 Zastav na okraji cesty!
 Zastupovanie organizácie kolektívnej správy
 Zatiahni žaluzie.
@@ -1501,6 +1528,7 @@ Zhrnutie k dokumentu.
 Zistil som, že mikrofón zachytáva zvuk.
 Zloženie látky nie je homogénne.
 Zmenou oprávnenia je akákoľvek zmena vo vymedzení odborov kolektívnej správy práv.
+Zmeň
 Zmäkčuje vodu.
 Znižovanie priestorových nárokov na serverovňu ako aj celkovú energetickú náročnosť dátového centra.
 Znižuje náklady na hardvérové vybavenie.
@@ -7502,6 +7530,7 @@ získanie európskeho preukazu zdravotného poistenia
 Štatistické demografické údaje možno využiť na mnohonásobné interpretácie podľa typu otázky a uhla pohľadu.
 Štátny odborný dozor nad pozemnými komunikáciami
 Štúdia je na webovom sídle Inštitútu pre verejné otázky na ich webovej stránke.
+Šuplík
 šalejúci; nadšený; búrlivý
 šedovlasý; sivovlasý; šedivý; sivý
 šedý; sivý; šedivý
@@ -7517,6 +7546,7 @@ získanie európskeho preukazu zdravotného poistenia
 štít prístrojov; rozvádzacia doska; kontrolná tabuľa; ovládacia doska; radiaca doska; radiaca skriňa
 štítky na rádiofrekvenčnú identifikáciu
 štúdia alebo sťahovania sa z jedného miesta na iné.
+Žaluzie
 Že volič nejde až do nuly hodnotím pozitívne.
 Žiarovky sú v súčasnosti dosť na ústupe, keďže sú ekonomicky neefektívne
 Živiny uložené v akadame dokážu využiť rastliny čerpajúce živiny koreňmi zo substrátu.

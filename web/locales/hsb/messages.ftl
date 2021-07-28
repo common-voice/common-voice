@@ -147,6 +147,7 @@ th = Thaišćina
 tl = Tagalog
 tr = Turkowšćina
 tt = Tataršćina
+tw = Twi
 uby = Ubychišćina
 udm = Udmurtšćina
 ug = Ujguršćina
@@ -156,6 +157,7 @@ uz = Uzbekšćina
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+yo = Joruba
 yue = Kantonšćina
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
@@ -918,3 +920,16 @@ demo-listen-subtitle = Chceće sobu činić?
 
 demo-dashboard-card-header = Wosobinske přehlady was wo indiwiduelnym postupje a wo postupje zhromadźenstwa na běžnym dźerža.
 demo-dashboard-card-body = Za kóždy darjeny hłosowy klip a kóždy přepruwowany awdioklip so waše kontowe přehlady aktualizuja, zo by so waš najnowši postup w kóždej rěči, ke kotrejž přinošujeće, wotbłyšćował. Haj, móžeće k wjace hač jednej rěči přinošować!<br/><br/> Wužiwajće přehlady, zo byšće swoje statistiki slědował, zo byšće widźał, kak porno druhim ludźom w zhromadźenstwje wotrězujeće a zo byšće so wšědne abo tydźenske přinošowanske cile stajił.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterije
+contribution-for-example = na přikład
+contribution-misreadings-title = Čitanske zmylki
+contribution-misreadings-description-extended-list-2 = Falowacy <strong>'s'</strong> na kóncu słowa.
+contribution-background-voices-title = Pozadkowe hłosy
+contribution-volume-title = Sylnosć zwuka
+contribution-reader-effects-title = Efekty čitarja
+contribution-just-unsure-title = Jenož njewěsty?
+see-more = <chevron></chevron>Wjace pokazać
+see-less = <chevron></chevron>Mjenje pokazać
