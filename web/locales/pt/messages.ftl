@@ -933,6 +933,7 @@ contribution-background-noise-example-2-explanation = [Parte do texto não pode 
 contribution-background-noise-example-3-title = <strong>{ Crackle }</strong> dinossauros gigantes do <strong>{ crackle }</strong> -riássico.
 contribution-background-noise-example-3-explanation = [Parte do texto não pode ser ouvido]
 contribution-background-voices-title = Vozes de fundo
+contribution-background-voices-description = Um burburinho de fundo está bem, mas não queremos vozes adicionais que podem fazer com que um algoritmo de máquina identifique palavras que não estão no texto escrito. Se você conseguir ouvir palavras distintas das do texto, o clipe deve ser rejeitado. Normalmente, isso acontece quando a TV foi deixada ligada ou onde há uma conversa acontecendo por perto.
 contribution-background-voices-description-extended = Se a gravação falhar ou apresentar estalos, rejeite, a menos que o texto ainda possa ser ouvido na íntegra.
 contribution-background-voices-example-1-title = Os dinossauros gigantes do Triássico. <strong>[lido por uma voz]</strong>
 contribution-background-voices-example-1-explanation = Você está vindo? <strong>[chamado por outra]</strong>
