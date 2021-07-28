@@ -34,17 +34,15 @@ exports.stats = {
         gender: { male: 0.17, '': 0.74, female: 0.09, other: 0 }
       },
       users: 9052,
-      duration: 202516646,
-      reportedSentences: 1422,
       buckets: {
         dev: 4,
         invalidated: 6542,
         other: 40514,
-        reported: 1431,
         test: 4,
         train: 6,
         validated: 22982
       },
+      duration: 202516646,
       avgDurationSecs: 2.892,
       validDurationSecs: 66453.033,
       totalHrs: 56.25,
@@ -65,17 +63,15 @@ exports.stats = {
         gender: { female: 0.13, male: 0.4, '': 0.47, other: 0.01 }
       },
       users: 112,
-      duration: 2713140,
-      reportedSentences: 492,
       buckets: {
         dev: 4,
         invalidated: 37,
         other: 3,
-        reported: 492,
         test: 4,
         train: 6,
         validated: 1142
       },
+      duration: 2713140,
       avgDurationSecs: 2.295,
       validDurationSecs: 2621.325,
       totalHrs: 0.75,
@@ -105,17 +101,15 @@ exports.stats = {
         gender: { male: 0.35, '': 0.53, female: 0.12, other: 0 }
       },
       users: 387,
-      duration: 10707094,
-      reportedSentences: 1629,
       buckets: {
         dev: 4,
         invalidated: 217,
         other: 297,
-        reported: 1639,
         test: 4,
         train: 6,
         validated: 3666
       },
+      duration: 10707094,
       avgDurationSecs: 2.562,
       validDurationSecs: 9390.48,
       totalHrs: 2.97,
@@ -135,17 +129,15 @@ exports.stats = {
         gender: { '': 0.5, male: 0.45, female: 0.05 }
       },
       users: 60,
-      duration: 1278637,
-      reportedSentences: 240,
       buckets: {
         dev: 4,
         invalidated: 46,
         other: 44,
-        reported: 239,
         test: 4,
         train: 6,
         validated: 447
       },
+      duration: 1278637,
       avgDurationSecs: 2.381,
       validDurationSecs: 1064.34,
       totalHrs: 0.35,
@@ -166,17 +158,15 @@ exports.stats = {
         gender: { '': 0.47, male: 0.46, female: 0.06, other: 0.01 }
       },
       users: 214,
-      duration: 4977118,
-      reportedSentences: 232,
       buckets: {
         dev: 4,
         invalidated: 104,
         other: 57,
-        reported: 238,
         test: 4,
         train: 6,
         validated: 2034
       },
+      duration: 4977118,
       avgDurationSecs: 2.267,
       validDurationSecs: 4612.054,
       totalHrs: 1.38,
@@ -198,17 +188,15 @@ exports.stats = {
         gender: { '': 0.4, male: 0.54, female: 0.05, other: 0.01 }
       },
       users: 140,
-      duration: 3449335,
-      reportedSentences: 2124,
       buckets: {
         dev: 4,
         invalidated: 87,
         other: 42,
-        reported: 2129,
         test: 4,
         train: 6,
         validated: 1178
       },
+      duration: 3449335,
       avgDurationSecs: 2.639,
       validDurationSecs: 3108.888,
       totalHrs: 0.95,
@@ -229,17 +217,15 @@ exports.stats = {
         gender: { male: 0.45, female: 0.06, '': 0.5 }
       },
       users: 67,
-      duration: 1531757,
-      reportedSentences: 295,
       buckets: {
         dev: 4,
         invalidated: 21,
         other: 7,
-        reported: 294,
         test: 4,
         train: 6,
         validated: 616
       },
+      duration: 1531757,
       avgDurationSecs: 2.379,
       validDurationSecs: 1465.159,
       totalHrs: 0.42,
@@ -274,17 +260,15 @@ exports.stats = {
         gender: { male: 0.31, female: 0.06, '': 0.63, other: 0 }
       },
       users: 1618,
-      duration: 39418281,
-      reportedSentences: 5862,
       buckets: {
         dev: 4,
         invalidated: 1386,
         other: 56,
-        reported: 5886,
         test: 4,
         train: 7,
         validated: 13648
       },
+      duration: 39418281,
       avgDurationSecs: 2.612,
       validDurationSecs: 35651.471,
       totalHrs: 10.94,
@@ -305,17 +289,15 @@ exports.stats = {
         gender: { '': 0.49, male: 0.35, female: 0.16 }
       },
       users: 39,
-      duration: 992550,
-      reportedSentences: 3100,
       buckets: {
         dev: 4,
         invalidated: 39,
         other: 50,
-        reported: 3100,
         test: 4,
         train: 6,
         validated: 252
       },
+      duration: 992550,
       avgDurationSecs: 2.911,
       validDurationSecs: 733.497,
       totalHrs: 0.27,
@@ -336,17 +318,15 @@ exports.stats = {
         gender: { '': 0.5, male: 0.42, female: 0.08 }
       },
       users: 67,
-      duration: 1530140,
-      reportedSentences: 1950,
       buckets: {
         dev: 4,
         invalidated: 45,
         other: 39,
-        reported: 1957,
         test: 4,
         train: 6,
         validated: 480
       },
+      duration: 1530140,
       avgDurationSecs: 2.713,
       validDurationSecs: 1302.247,
       totalHrs: 0.42,
@@ -387,17 +367,15 @@ exports.stats = {
         gender: { '': 0.62, female: 0.09, male: 0.29, other: 0.01 }
       },
       users: 5876,
-      duration: 132611224,
-      reportedSentences: 2686,
       buckets: {
         dev: 4,
         invalidated: 4071,
         other: 12573,
-        reported: 2737,
         test: 4,
         train: 6,
         validated: 32726
       },
+      duration: 132611224,
       avgDurationSecs: 2.686,
       validDurationSecs: 87904.292,
       totalHrs: 36.83,
@@ -439,17 +417,15 @@ exports.stats = {
         gender: { male: 0.24, '': 0.7, female: 0.06, other: 0.01 }
       },
       users: 2560,
-      duration: 59131896,
-      reportedSentences: 5021,
       buckets: {
         dev: 4,
         invalidated: 2345,
         other: 20,
-        reported: 5078,
         test: 4,
         train: 6,
         validated: 20017
       },
+      duration: 59131896,
       avgDurationSecs: 2.642,
       validDurationSecs: 52883.708,
       totalHrs: 16.42,
@@ -472,17 +448,15 @@ exports.stats = {
         gender: { female: 0.22, male: 0.24, '': 0.54 }
       },
       users: 64,
-      duration: 1512525,
-      reportedSentences: 149,
       buckets: {
         dev: 3,
         invalidated: 15,
         other: 62,
-        reported: 148,
         test: 3,
         train: 4,
         validated: 476
       },
+      duration: 1512525,
       avgDurationSecs: 2.735,
       validDurationSecs: 1301.92,
       totalHrs: 0.42,
@@ -505,17 +479,15 @@ exports.stats = {
         gender: { '': 0.46, male: 0.48, other: 0.01, female: 0.05 }
       },
       users: 91,
-      duration: 2260824,
-      reportedSentences: 1329,
       buckets: {
         dev: 3,
         invalidated: 41,
         other: 27,
-        reported: 1330,
         test: 3,
         train: 6,
         validated: 897
       },
+      duration: 2260824,
       avgDurationSecs: 2.343,
       validDurationSecs: 2101.512,
       totalHrs: 0.62,
@@ -536,17 +508,15 @@ exports.stats = {
         gender: { male: 0.43, female: 0.24, '': 0.31, other: 0.02 }
       },
       users: 74,
-      duration: 1454877,
-      reportedSentences: 98,
       buckets: {
         dev: 3,
         invalidated: 34,
         other: 18,
-        reported: 98,
         test: 3,
         train: 6,
         validated: 592
       },
+      duration: 1454877,
       avgDurationSecs: 2.259,
       validDurationSecs: 1337.402,
       totalHrs: 0.4,
@@ -560,17 +530,15 @@ exports.stats = {
         gender: { '': 0.37, male: 0.5, female: 0.07, other: 0.06 }
       },
       users: 20,
-      duration: 375907,
-      reportedSentences: 244,
       buckets: {
         dev: 3,
         invalidated: 11,
         other: 17,
-        reported: 243,
         test: 3,
         train: 6,
         validated: 143
       },
+      duration: 375907,
       avgDurationSecs: 2.198,
       validDurationSecs: 314.355,
       totalHrs: 0.1,
@@ -591,17 +559,15 @@ exports.stats = {
         gender: { '': 0.74, female: 0.09, male: 0.17 }
       },
       users: 80,
-      duration: 1577809,
-      reportedSentences: 42,
       buckets: {
         dev: 2,
         invalidated: 13,
         other: 406,
-        reported: 41,
         test: 3,
         train: 7,
         validated: 216
       },
+      duration: 1577809,
       avgDurationSecs: 2.485,
       validDurationSecs: 536.704,
       totalHrs: 0.43,
@@ -615,17 +581,15 @@ exports.stats = {
         gender: { male: 0.44, '': 0.55, female: 0.02 }
       },
       users: 8,
-      duration: 154248,
-      reportedSentences: 4,
       buckets: {
         dev: 4,
         invalidated: 2,
         other: 17,
-        reported: 3,
         test: 4,
         train: 6,
         validated: 36
       },
+      duration: 154248,
       avgDurationSecs: 2.805,
       validDurationSecs: 100.962,
       totalHrs: 0.04,
@@ -647,17 +611,15 @@ exports.stats = {
         gender: { male: 0.35, '': 0.6, female: 0.06 }
       },
       users: 168,
-      duration: 4224717,
-      reportedSentences: 4303,
       buckets: {
         dev: 3,
         invalidated: 150,
         other: 160,
-        reported: 4307,
         test: 3,
         train: 6,
         validated: 1219
       },
+      duration: 4224717,
       avgDurationSecs: 2.763,
       validDurationSecs: 3368.169,
       totalHrs: 1.17,
@@ -677,17 +639,15 @@ exports.stats = {
         gender: { male: 0.8, '': 0.2 }
       },
       users: 8,
-      duration: 113952,
-      reportedSentences: 183,
       buckets: {
         dev: 0,
         invalidated: 0,
         other: 42,
-        reported: 182,
         test: 0,
         train: 2,
         validated: 2
       },
+      duration: 113952,
       avgDurationSecs: 2.59,
       validDurationSecs: 5.18,
       totalHrs: 0.03,
@@ -736,17 +696,15 @@ exports.stats = {
         gender: { male: 0.27, '': 0.61, female: 0.1, other: 0.02 }
       },
       users: 338,
-      duration: 6478785,
-      reportedSentences: 383,
       buckets: {
         dev: 3,
         invalidated: 216,
         other: 0,
-        reported: 383,
         test: 3,
         train: 6,
         validated: 2515
       },
+      duration: 6478785,
       avgDurationSecs: 2.372,
       validDurationSecs: 5966.366,
       totalHrs: 1.79,
@@ -760,17 +718,15 @@ exports.stats = {
         gender: { '': 0.84, female: 0.1, male: 0.06 }
       },
       users: 22,
-      duration: 650279,
-      reportedSentences: 364,
       buckets: {
         dev: 3,
         invalidated: 13,
         other: 126,
-        reported: 366,
         test: 3,
         train: 6,
         validated: 77
       },
+      duration: 650279,
       avgDurationSecs: 3.011,
       validDurationSecs: 231.812,
       totalHrs: 0.18,
@@ -784,17 +740,15 @@ exports.stats = {
         gender: { '': 0.38, male: 0.62 }
       },
       users: 5,
-      duration: 66620,
-      reportedSentences: 82,
       buckets: {
         dev: 0,
         invalidated: 1,
         other: 0,
-        reported: 81,
         test: 2,
         train: 10,
         validated: 28
       },
+      duration: 66620,
       avgDurationSecs: 2.297,
       validDurationSecs: 64.323,
       totalHrs: 0.01,
@@ -816,17 +770,15 @@ exports.stats = {
         gender: { male: 0.29, '': 0.67, female: 0.04 }
       },
       users: 198,
-      duration: 4678287,
-      reportedSentences: 662,
       buckets: {
         dev: 3,
         invalidated: 34,
         other: 0,
-        reported: 665,
         test: 3,
         train: 6,
         validated: 1928
       },
+      duration: 4678287,
       avgDurationSecs: 2.384,
       validDurationSecs: 4597.216,
       totalHrs: 1.29,
@@ -848,17 +800,15 @@ exports.stats = {
         gender: { '': 0.71, male: 0.2, female: 0.1 }
       },
       users: 177,
-      duration: 4064590,
-      reportedSentences: 576,
       buckets: {
         dev: 3,
         invalidated: 93,
         other: 0,
-        reported: 587,
         test: 3,
         train: 6,
         validated: 1530
       },
+      duration: 4064590,
       avgDurationSecs: 2.504,
       validDurationSecs: 3831.684,
       totalHrs: 1.12,
@@ -872,17 +822,15 @@ exports.stats = {
         gender: { male: 0.19, '': 0.59, female: 0.22 }
       },
       users: 9,
-      duration: 168596,
-      reportedSentences: 1390,
       buckets: {
         dev: 3,
         invalidated: 3,
         other: 38,
-        reported: 1389,
         test: 3,
         train: 5,
         validated: 17
       },
+      duration: 168596,
       avgDurationSecs: 2.907,
       validDurationSecs: 49.416,
       totalHrs: 0.04,
@@ -902,17 +850,15 @@ exports.stats = {
         gender: { '': 0.71, male: 0.21, female: 0.08 }
       },
       users: 73,
-      duration: 1587372,
-      reportedSentences: 32,
       buckets: {
         dev: 3,
         invalidated: 31,
         other: 12,
-        reported: 31,
         test: 3,
         train: 6,
         validated: 613
       },
+      duration: 1587372,
       avgDurationSecs: 2.42,
       validDurationSecs: 1483.322,
       totalHrs: 0.44,
@@ -926,17 +872,15 @@ exports.stats = {
         gender: { female: 0.35, '': 0.47, male: 0.18 }
       },
       users: 6,
-      duration: 86892,
-      reportedSentences: 563,
       buckets: {
         dev: 0,
         invalidated: 0,
         other: 5,
-        reported: 562,
         test: 0,
         train: 12,
         validated: 29
       },
+      duration: 86892,
       avgDurationSecs: 2.556,
       validDurationSecs: 74.114,
       totalHrs: 0.02,
@@ -950,17 +894,15 @@ exports.stats = {
         gender: { female: 0.22, male: 0.42, '': 0.35 }
       },
       users: 13,
-      duration: 310861,
-      reportedSentences: 134,
       buckets: {
         dev: 3,
         invalidated: 2,
         other: 37,
-        reported: 138,
         test: 3,
         train: 6,
         validated: 86
       },
+      duration: 310861,
       avgDurationSecs: 2.487,
       validDurationSecs: 213.872,
       totalHrs: 0.08,
@@ -974,17 +916,15 @@ exports.stats = {
         gender: { '': 0.29, male: 0.51, female: 0.19 }
       },
       users: 96,
-      duration: 2327196,
-      reportedSentences: 33,
       buckets: {
         dev: 3,
         invalidated: 72,
         other: 88,
-        reported: 32,
         test: 3,
         train: 6,
         validated: 786
       },
+      duration: 2327196,
       avgDurationSecs: 2.46,
       validDurationSecs: 1933.59,
       totalHrs: 0.64,
@@ -1005,17 +945,15 @@ exports.stats = {
         gender: { male: 0.48, '': 0.15, female: 0.37 }
       },
       users: 609,
-      duration: 16715172,
-      reportedSentences: 619,
       buckets: {
         dev: 3,
         invalidated: 23,
         other: 6306,
-        reported: 618,
         test: 3,
         train: 6,
         validated: 592
       },
+      duration: 16715172,
       avgDurationSecs: 2.415,
       validDurationSecs: 1429.762,
       totalHrs: 4.64,
@@ -1029,17 +967,15 @@ exports.stats = {
         gender: { male: 0.61, '': 0.39 }
       },
       users: 9,
-      duration: 221652,
-      reportedSentences: 5,
       buckets: {
         dev: 3,
         invalidated: 3,
         other: 48,
-        reported: 4,
         test: 3,
         train: 6,
         validated: 29
       },
+      duration: 221652,
       avgDurationSecs: 2.771,
       validDurationSecs: 80.349,
       totalHrs: 0.06,
@@ -1061,17 +997,15 @@ exports.stats = {
         gender: { '': 0.17, male: 0.45, female: 0.38 }
       },
       users: 21,
-      duration: 553140,
-      reportedSentences: 122,
       buckets: {
         dev: 3,
         invalidated: 11,
         other: 37,
-        reported: 122,
         test: 3,
         train: 6,
         validated: 173
       },
+      duration: 553140,
       avgDurationSecs: 2.503,
       validDurationSecs: 433.001,
       totalHrs: 0.15,
@@ -1091,26 +1025,24 @@ exports.stats = {
         gender: { male: 0.58, '': 0.1, female: 0.32 }
       },
       users: 11,
-      duration: 73332,
-      reportedSentences: 2208,
       buckets: {
         dev: 3,
         invalidated: 0,
         other: 8,
-        reported: 2208,
         test: 3,
         train: 6,
         validated: 23
       },
+      duration: 73332,
       avgDurationSecs: 2.366,
       validDurationSecs: 54.408,
       totalHrs: 0.02,
       validHrs: 0.01
-    },
+    }
   },
   overall: {
-    checksum:"667876531d3f1dc00b73e6025c3987b3c228b86b70231353c404387efeb58659",
-    size:3766719079,
+    size:3766437719,
+    checksum:"f96d00524f8859a8bd154eb98822ec06a9d451e5902a419deb5e1472f1d2c3ff"
   },
   totalDuration: 510515451,
   totalValidDurationSecs: 296699,
