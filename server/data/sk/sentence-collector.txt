@@ -650,6 +650,7 @@ Kalifornský záliv; Cortésovo more
 Kaluga
 Kalvária; Golgotha
 Kambodža; Kambodžské kráľovstvo
+Kameru jedna otoč vľavo o desať stupňov!
 Kamerun; Kamerunská republika
 Kanada
 Kanadčan; Kanadčanka
@@ -1434,6 +1435,7 @@ Vypni svetlo v kuchyni.
 Vypni svetlo v kúpeľni.
 Vypni svetlo v obývačke.
 Vypni svetlo v pivnici.
+Vypni televizor!
 Vypnutie blesku
 Vyrástli aj na mieste zasanovaných predmestí.
 Vysielanie diela, retransmisia diela a sprístupňovanie diela verejnosti je verejným prenosom diela.
@@ -1508,6 +1510,7 @@ Zapni svetlo v obývačke.
 Zapni svetlo v pivnici.
 Zapni svetlo v spálni.
 Zapni svetlo!
+Zapni televizor!
 Zapni topenie.
 Zastav
 Zastav na okraji cesty!

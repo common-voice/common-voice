@@ -876,3 +876,17 @@ demo-listen-subtitle = 準備好參與貢獻了嗎？
 
 demo-dashboard-card-header = 可讓您掌控個人與社群進度的個人儀錶板。
 demo-dashboard-card-body = 每當您錄下或驗證了一段語音，就會更新您的帳號儀錶板，來反映您在參與貢獻的各種語言當中的最新進度。沒錯，您可以參與不只一種語言！<br/><br/>您可以使用儀錶板來追蹤目前狀態、看看自己跟社群當中的其他人目前差距多少，並且設定每日或每週貢獻目標。
+
+## Validation criteria
+
+contribution-criteria-nav = 準則
+contribution-criteria-link = 了解貢獻準則
+contribution-criteria-page-title = 貢獻準則
+contribution-criteria-page-description = 了解在聆聽語音片段時要注意什麼，並幫助您能錄下更多聲音！
+contribution-for-example = 舉例來說
+contribution-misreadings-title = 誤讀
+contribution-misreadings-description = 聆聽錄音時，仔細確認錄下的語音內容與畫面上顯示的文字完全相符，有任何一點錯誤就退回更正。<br />以下是常見的錯誤類型：
+contribution-misreadings-description-extended-list-1 = 錄音內容缺少了句首的<strong>「A」</strong>或<strong>「The」</strong>。
+contribution-misreadings-description-extended-list-2 = 缺少字尾的複數<strong>「s」</strong>。
+see-more = <chevron></chevron>看更多
+see-less = <chevron></chevron>看更少
