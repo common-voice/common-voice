@@ -871,3 +871,8 @@ demo-listen-subtitle = 准备好作出贡献了吗？
 
 demo-dashboard-card-header = 个人面板可让您了解个人和社区的最新进展。
 demo-dashboard-card-body = 每录入一个语音片段，每验证一个音频片段，您的账户面板都会更新，以反映您在每种语言中贡献的最新进展。是的，您可以为多个语言做出贡献！通过面板来跟踪您的统计数据，了解您与社区中其他人的情况，并设定每日或每周的贡献目标。
+
+## Validation criteria
+
+contribution-misreadings-description-extended-list-2 = 词尾缺少 <strong>'s'</strong>。
+contribution-volume-title = 音量
