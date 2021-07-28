@@ -914,6 +914,7 @@ contribution-misreadings-example-6-title = Vou beber um copo d'água.
 contribution-misreadings-example-6-explanation = [Deveria ser “de água”]
 contribution-misreadings-example-7-title = Vamos sair para tomar um café.
 contribution-misreadings-example-7-explanation = [Sem ‘um’ no texto original]
+contribution-varying-pronunciations-title = Pronúncias diferentes
 contribution-varying-pronunciations-example-2-title = Su-a mão levantou.
 contribution-varying-pronunciations-example-2-explanation = [‘Sua’ em português é sempre pronunciada como uma sílaba, não duas]
 contribution-background-noise-title = Barulho de fundo
