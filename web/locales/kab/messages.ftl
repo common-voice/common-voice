@@ -896,3 +896,5 @@ demo-dashboard-card-body = Di yal tukkist n taɣect akked yal tukkist n umeslaw 
 ## Validation criteria
 
 contribution-for-example = amedya
+contribution-volume-title = Ableɣ
+see-more = <chevron></chevron>Wali ugar
