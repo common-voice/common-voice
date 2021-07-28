@@ -1,17 +1,17 @@
 ## General
 
-yes-receive-emails = Ja tak, send mig gerne mails, så jeg er opdateret om projektet Common Voice.
+yes-receive-emails = Ja tak, send mig gerne e-mails. Jeg ønsker at holde mig informeret om Common Voice Project.
 stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi vil gerne holde kontakten med opdateringer, nye datakilder og høre mere om, hvordan du bruger disse informationer.
 privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>Privatlivspolitik</privacyLink>.
 return-to-cv = Vend tilbage til Common Voice
 email-input =
-    .label = Mailadresse
+    .label = E-mail
 submit-form-action = Indsend
 loading = Indlæser…
-email-opt-in-info = Jeg vil gerne modtage mails såsom påmindelser om mål, opdateringer om mine fremskridt og nyhedsbreve om Common Voice.
+email-opt-in-info = Jeg vil gerne modtage e-mails såsom påmindelser om mål, opdateringer om mine fremskridt og nyhedsbreve om Common Voice.
 email-opt-in-info-title = Meld dig til mailinglisten for Common Voice
-email-opt-in-info-sub-with-challenge = Modtag mails med påmindelser om udfordringer og mål, opdateringer om fremskridt samt nyhedsbreve om Common Voice.
-email-opt-in-privacy-v2 = Ved at tilmelde dig nyhedsbreve accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
+email-opt-in-info-sub-with-challenge = Modtag e-mails med påmindelser om udfordringer og mål, opdateringer om fremskridt samt nyhedsbreve om Common Voice.
+email-opt-in-privacy-v2 = Ved at tilmelde dig e-mails accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
 not-available-abbreviation = Ikke tilgængelig
 
@@ -33,14 +33,18 @@ as = Assamesisk
 ast = Asturisk
 az = Aserbajdsjansk
 ba = Bashkirsk
+bas = Basa
 be = Hviderussisk
 bg = Bulgarsk
+bm = Bambara
 bn = Bengalsk
 br = Bretonsk
 bxr = Burjatisk
 ca = Catalansk
 cak = Kaqchikel
+ckb = Sorani
 cnh = Hakha Chin
+co = Korsikansk
 cs = Tjekkisk
 cv = Tjuvasjisk
 cy = Walisisk
@@ -62,11 +66,13 @@ fr = Fransk
 fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galicisk
+gn = Guarani
 ha = Hausa
 he = Hebraisk
 hi = Hindi
 hr = Kroatisk
 hsb = Øvresorbisk
+ht = Haitisk kreol
 hu = Ungarnsk
 hy-AM = Armensk
 hyw = Vestarmensk
@@ -81,22 +87,26 @@ kaa = Karakalpakisk
 kab = Kabylisk
 kbd = Kabardian
 kk = Kasakhisk
+kmr = Kurmanji
 ko = Koreansk
 kpv = Komi
-ku = Kurdisk
 kw = Cornisk
 ky = Kirgisisk
 lg = Ganda
 lij = Ligurisk
 lt = Litauisk
 lv = Lettisk
+mai = Maithili
 mdf = Moksha
 mg = Malagassisk
 mhr = Meadow Mari
 mk = Makedonsk
 ml = Malayalam
 mn = Mongolsk
+mos = Moore
+mr = Marathi
 mrj = Hill Mari
+ms = Malajisk
 mt = Maltesisk
 my = Burmesisk
 myv = Erzya
@@ -107,7 +117,9 @@ nn-NO = Nynorsk
 oc = Occitansk
 or = Oriya
 pa-IN = Punjabisk
+pap-AW = Papiamento (Aruba)
 pl = Polsk
+ps = Pashto
 pt = Portugisisk
 rm-sursilv = Rætoromansk sursilvansk
 rm-vallader = Rætoromansk Lavengadinsk
@@ -117,9 +129,11 @@ rw = Kinyarwanda
 sah = Yakut
 sc = Sardisk
 scn = Siciliansk
+shi = Shilha
 si = Singalesisk
 sk = Slovakisk
 sl = Slovensk
+so = Somali
 sq = Albansk
 sr = Serbisk
 sv-SE = Svensk
@@ -134,12 +148,14 @@ tr = Tyrkisk
 tt = Tatarisk
 uby = Ubykh
 udm = Udmurt
+ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
@@ -235,7 +251,7 @@ whats-public = Hvad er offentligt?
 email-not-public = Vi offentliggør ikke din mailadresse.
 recordings-and-locale-public = Antallet af optagelser og hvilke sprog du bidrager til vil være offentligt.
 username-optin-public = Du kan vælge at gøre dit brugernavn offentligt eller anonymt.
-demographic-deidentified-clarity = Valgfrit indsendte demografiske data (fx alder, køn, sprog og accent) vil aldrig blive offentliggjort på din profil eller blive sammenkædet med din profil i datasættet. Enkelte stemmeklip bliver tilknyttet med demografiske data for at gøre mere nøjagtige analyser mulige - til eksempel, når en forsker ønsker at rette en træningsmodel mod et bestemt demografisk segment.
+demographic-deidentified-clarity-2 = Valgfrit indsendte demografiske data (fx alder, køn, sprog og accent) vil aldrig blive offentliggjort på din profil eller blive sammenkædet med din profil i datasættet. Enkelte stemmeklip bliver tilknyttet med demografiske data for at gøre mere nøjagtige analyser mulige - til eksempel, når en forsker ønsker at rette en træningsmodel mod et bestemt demografisk segment.
 username-email-not-demographic = Dit brugernavn og din mailadresse vil ikke blive forbundet med de offentliggjorte data.
 
 ## Speak & Listen Shortcuts
@@ -265,6 +281,7 @@ shortcut-record-toggle-label = Optag/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Optag igen
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
+request-language-text-learn = Lær hvordan du anmoder om det her!
 request-language-button = Anmod om at få tilføjet et nyt sprog
 
 ## ProjectStatus
@@ -293,7 +310,7 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Alder
-profile-form-gender =
+profile-form-gender-2 =
     .label = Køn
 leaderboard-visibility =
     .label = Synlighed på leaderboard
@@ -320,7 +337,7 @@ profile-close = Luk
 profile-explanation = Hold styr på din fremgang med en profil, samtidig med at du gør vores stemme-data mere præcist.
 thanks-for-account = Tak fordi du bekræftede din konto, lad os nu udfylde din profil.
 why-demographic = Hvorfor er dette vigtigt?
-why-demographic-explanation = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
+why-demographic-explanation-2 = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
 accept-privacy = Det er helt fint, at I håndterer disse oplysninger som beskrevet i Mozillas <privacyLink>privatlivspolitik</privacyLink>
 accept-privacy-title = Privatlivspolitik
 login-identity = Login-identitet
@@ -334,26 +351,19 @@ skip-submission-description = Ved indsendelse af bidrag ignoreres feedback efter
 skip-submission-note = Bemærk: Du skal stadig vælge mellem Tal eller Lyt for at ændre bidragstype.
 off = Fra
 on = Til
-avatar-clip-title = Giv din avatar en stemme
-change-your-avatar-clip = Vil du gerne ændre dit lydklip?
-recording-in-progress = Optagelse er i gang
-avatar-clip-recorded = Din avatar inkluderer nu et lydklip!
-record-voice-wave = OPTAG DIN STEMME
-retry-voice-wave-recording = PRØV IGEN
-re-record = OPTAG IGEN
-delete-voice = SLET
-recording-voice-wave = Optagelse
-delete-voice-clip = eller slet optagelse
-ready-to-upload = Upload
-avatar-clip-fact = Det er en kendsgerning, at læsere ofte bliver distraherede af en sides læsbare indhold, når de kigger på dens opsætning.
-recreate-voice = Gendan Voicewave
-cancel-avatar-clip-recording = Annuller
-about-avatar-clip-recording = Optag et stemmeklip som en del af din profil-avatar. Andre kan holde musen over avataren og lytte til din optagelse.
+
+## Profile - Email
+
 browse-file-title = Upload en billedfil
 browse-file = Træk og slip eller <browseWrap>gennemse</browseWrap>
 connect-gravatar = Forbind med Gravatar
 gravatar_not_found = Ingen gravatar fundet for din mailadresse
 file_too_large = Den valgte fil er for stor
+avatar-uploaded = Avatar uploadet
+max-file-size = { $kb }kb max
+
+## Profile - Email
+
 manage-subscriptions = Håndter abonnementer
 manage-email-subscriptions = Administrer dine mail-abonnementer
 email-already-used = Mailadressen bruges allerede af en anden konto
@@ -434,10 +444,10 @@ about-listen-queue = Lytte-kø
 about-listen-queue-text = Stemmeoptagelser bliver lagt i en kø, så de kan blive gjort klare til at blive hørt.
 about-listen = Lyt
 about-listen-text = Brugere validerer nøjagtigheden af de donerede optagelser ved at undersøge, om taleren læser sætningen op korrekt.
-about-is-it-valid = Er klippet gyldigt?
-about-is-it-valid-text = Et stemmeklip markeres som "gyldigt", når en bruger giver det en ja-stemme.
+about-is-it-valid = Er stemmeoptagelsen gyldig?
+about-is-it-valid-text = En stemmeoptagelse markeres som "gyldigt", når en bruger giver den en ja-stemme.
 about-yes-votes = ≥ 2 ja-stemmer
-about-yes-votes-text = For at blive optaget i Common Voice-datasættet skal et klip være valideret af to forskellige brugere.
+about-yes-votes-text = For at blive optaget i Common Voice-datasættet skal en stemmeoptagelse være valideret af to forskellige brugere.
 about-no-votes = ≥ 2 nej-stemmer
 about-no-votes-text = Når en bruger afviser en stemmeoptagelser, så kommer det tilbage i køen. Hvis det bliver afvist igen, så havner det på optagelses-kirkegården.
 about-dataset-new = Common Voice-datasæt
@@ -502,10 +512,12 @@ data-other-goto = Gå til { $name }
 data-other-download = Hent data
 data-bundle-button = Hent datasæt-samling
 data-bundle-description = Data fra Common Voice samt alle andre stemme-datasæt ovenfor.
+release-version = Version
+dataset-date = Dato
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 data-download-singleword-title = Hent målsegmentet med enkelte ord
-data-download-singleword-callout = Dette er et segment, der indeholder data til at understøtte genkendelse af talte tal, detektering af ja/nej og aktiveringsords-testdata til <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Dette er et brugsmønster-drevet segment, der indeholder data til understøttelse af stemmeudtalt tal og detektering af ja / nej.
 review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
 terms-agree = Jeg accepterer
 terms-disagree = Jeg accepterer ikke
@@ -647,25 +659,25 @@ record-cancel = Afbryd genindspilningen
 record-instruction = { $actionType } <recordIcon></recordIcon> og læs så sætningen højt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er færdig
 record-three-more-instruction = Tre tilbage!
-record-again-instruction = Fremragende! <recordIcon></recordIcon> Optag dit næste klip
+record-again-instruction = Fremragende! <recordIcon></recordIcon> Optag din næste stemmeoptagelse
 record-again-instruction2 = Fortsæt det gode arbejde, optag igen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den sidste!
-review-tooltip = Godkend og optag klip her efterhånden
-share-clip = Del dit klip
+review-tooltip = Godkend og optag stemmeoptagelser her efterhånden
+share-clip = Del din stemmeoptagelse
 share-common-voice = Del Common Voice
-review-instruction = Godkend og optag klip igen hvis nødvendigt
+review-instruction = Godkend og optag stemmeoptagelser igen hvis nødvendigt
 record-submit-tooltip = { $actionType } indsend når du er klar
 clips-uploaded = Optagelser uploaded
 record-abort-title = Færdiggør optagelsen først?
 record-abort-text = Hvis du stopper nu, så mister du din fremgang
-record-abort-submit = Indsend klip
+record-abort-submit = Indsend stemmeoptagelser
 record-abort-continue = Afslut optagelse
 record-abort-delete = Afslut og slet optagelse
 listen-instruction = { $actionType } <playIcon></playIcon> udtalte de sætningen nøjagtigt?
 listen-again-instruction = Godt arbejde! <playIcon></playIcon> Lyt igen når du er klar
 listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det gode arbejde!
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
-listen-empty-state = Der er ikke flere klip at validere på dette sprog...
+listen-empty-state = Der er ikke flere stemmeoptagelser at validere på dette sprog...
 speak-empty-state = Der er ikke flere sætninger at optage på dette sprog...
 speak-empty-state-cta = Bidrag med sætninger
 record-button-label = Optag din stemme
@@ -673,6 +685,7 @@ share-title-new = <bold>Hjælp os</bold> med at finde flere stemmer
 keep-track-profile = Hold styr på dine fremskridt med en profil
 login-to-get-started = Log ind eller tilmeld dig for at komme i gang
 target-segment-first-card = Du bidrager til vores første målsegment
+target-segment-generic-card = Du bidrager til et målsegment
 target-segment-first-banner = Vær med til at lave det første målsegment til Common Voice på { $locale }
 target-segment-add-voice = Tilføj din stemme
 target-segment-learn-more = Læs mere
@@ -691,7 +704,7 @@ report-different-language-detail = Det er skrevet på et andet sprog end det, je
 report-difficult-pronounce = Svær at udtale
 report-difficult-pronounce-detail = Det indeholder ord eller sætninger, der er svære at læse eller udtale.
 report-offensive-speech = Stødende sprog
-report-offensive-speech-detail = Klippet har respektløst eller stødende sprog.
+report-offensive-speech-detail = Stemmeoptagelsen har respektløst eller stødende sprog.
 report-other-comment =
     .placeholder = Kommentar
 success = Succes
@@ -765,7 +778,7 @@ help-reach-hours-pluralized =
        *[other] { $hours } timer
     }på { $language }
 help-reach-hours-general-pluralized =
-    Hjælp Common Voice med at opnå{ NUMBER($hours) ->
+    Hjælp Common Voice med at opnå { NUMBER($hours) ->
         [one] { $hours } time
        *[other] { $hours } timer
     }på et sprog med et personligt mål
@@ -784,7 +797,7 @@ activity-needed-calculation-plural =
     }optager{ NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } klip
        *[other] { $clipsPerDay } klip
-    }om dagen.
+    } om dagen.
 how-many-per-day = Godt! Hvor mange optagelser pr. dag?
 how-many-a-week = Godt! Hvor mange optagelser pr. uge?
 which-goal-type = Vil du tale, lytte eller begge dele?
@@ -837,3 +850,39 @@ help-contribute = Du kan hjælpe med at bygge et mangfoldigt open source-datasæ
 login-company = Log ind / Tilmeld dig med en mailadresse fra { $company }
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
 read-more-about = Læs mere på vores Om-side
+
+## DemoLayout
+
+demo-get-started = Lad os komme i gang
+demo-welcome = Velkommen til Common Voice
+demo-welcome-subheader = Er du interesseret i at lære mere og bidrage til projektet?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice er verdens største offentligt tilgængelige, flersprogede stemme-datasæt.
+demo-language-select-card-body = Takket være bidrag fra over 259.000 mennesker på over 50 sprog bruges disse data til at træne taleaktiverede applikationer til bedre at reagere på den menneskelige stemme.
+card-button-next = Næste
+card-button-back = Tilbage
+demo-language-select-label = Gennemse sprog
+demo-eofy-header = Årsafslutnings-udgivelse
+demo-eofy-sub_header = Stemme-datasæt, klar til download
+demo-account = Konto
+
+## Demo Account
+
+demo-account-card-header = Det er ikke påkrævet at have en konto for at bidrage, men det vil gøre det nemmere.
+demo-account-card-body = Til højre skitserer vi fordelene og præciserer, hvilke oplysninger vi offentliggør. Brug nedenstående links til at komme i gang med en Common Voice-konto på din egen enhed.
+demo-account-enter-email =
+    .label = Indtast e-mail for at sende et tilmeldingslink
+demo-account-sign-up = Send mig et tilmeldings-link
+
+## Demo Contribute
+
+demo-contribute-card-header = Klar til at tilføje din stemme eller låne dit øre?
+demo-contribute-card-body-v2 = Nu hvor du ved lidt mere om Common Voice, hvorfor ikke prøve det? Klik på mikrofonikonet for at begynde at læse sætninger højt. <br/> <br/> Hvis du foretrækker at gennemgå andres stemmebidrag, skal du klikke på afspilningsikonet. Du hjælper med at bekræfte, at optagelser matcher sætningerne skrevet på skærmen.
+demo-listen-subtitle = Klar til at bidrage?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Personlige dashboards holder dig opdateret med din individuelle og fællesskabets fremskridt.
+demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der valideres, opdateres dine dashboards for at afspejle dine seneste fremskridt på hvert sprog, du bidrager til. Ja, du kan bidrage til mere end et! <br/> <br/> Brug dashboards til at spore din statistik, se hvordan du klarer dig sammen med andre i fællesskabet, og indstil daglige eller ugentlige bidragsmål.

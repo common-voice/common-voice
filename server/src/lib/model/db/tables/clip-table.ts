@@ -1,5 +1,6 @@
 import Mysql from '../mysql';
 import { default as Table } from '../table';
+import { TaxonomyType } from 'common';
 
 export type DBClip = {
   id: number;
@@ -7,7 +8,7 @@ export type DBClip = {
   path: string;
   sentence: string;
   original_sentence_id: string;
-  taxonomy?: string;
+  taxonomy?: TaxonomyType;
 };
 
 export interface DBClipWithVoters extends DBClip {

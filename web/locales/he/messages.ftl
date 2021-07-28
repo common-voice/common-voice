@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = כן, נא לשלוח לי עדכונים בדוא״ל על המיזם Common Voice.
-stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. אנו רוצים להישאר אתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
+stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
 privacy-info = אנו מבטיחים לטפל במידע שלך בזהירות רבה. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 return-to-cv = חזרה אל Common Voice
 email-input =
@@ -9,7 +9,9 @@ email-input =
 submit-form-action = שליחה
 loading = בטעינה…
 email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
-email-opt-in-privacy = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות<privacyLink> של Mozilla.
+email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common Voice
+email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא״ל כגון תזכורות על אתגרים ויעדים, עדכונים על התקדמות ומבזקי חדשות על Common Voice.
+email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתך ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא זמין
 
@@ -26,16 +28,21 @@ af = אפריקאנס
 am = אמהרית
 an = אראגונית
 ar = ערבית
+arn = מפודונגון
 as = אסאמית
 ast = אסטורית
 az = אזרית
+ba = בשקירית
+be = בלארוסית
 bg = בולגרית
+bm = במברה
 bn = בנגלית
 br = ברטון
 bxr = בוריאטית
 ca = קטלאנית
 cak = קאקצ׳יקל
 cnh = הק׳הא צ׳ין
+co = קורסיקאית
 cs = צ׳כית
 cv = צ׳ובשית
 cy = ולשית
@@ -50,31 +57,54 @@ es = ספרדית
 et = אסטונית
 eu = בסקית
 fa = פרסית
+ff = פולה
 fi = פינית
 fo = פארואית
 fr = צרפתית
 fy-NL = פריזית
 ga-IE = אירית
+gl = גליסית
+gn = גוארני
+ha = האוסה
 he = עברית
+hi = הינדי
+hr = קרואטית
 hsb = סורבית עילית
+ht = האיטית
 hu = הונגרית
+hy-AM = ארמנית
+hyw = ארמנית מערבית
 ia = אינטרלינגואה
 id = אינדונזית
 is = איסלנדית
 it = איטלקית
+izh = איז׳ורית
 ja = יפנית
 ka = גאורגית
 kab = קבילית
+kbd = קברדינית
 kk = קזחית
+kmr = כורדית קורמנג׳ית
 ko = קוריאנית
 kpv = קומי־זיר
 kw = קורנית
 ky = קירגיזית
+lg = לוגנדה
+lij = ליגורית
+lt = ליטאית
+lv = לטבית
+mai = מאיטילי
 mdf = מוקשה
+mg = מלגשית
 mhr = מארי מישורית
 mk = מקדונית
+ml = מלאיאלאם
 mn = מונגולית
+mr = מראטהית
 mrj = מארי הררית
+ms = מלאית
+mt = מלטית
+my = בורמזית
 myv = ארזיה
 nb-NO = נורווגית ספרותית
 ne-NP = נפאלית
@@ -82,28 +112,43 @@ nl = הולנדית
 nn-NO = נורווגית חדשה
 oc = אוקסיטנית
 or = אורייה
+pa-IN = פנג׳אבי
+pap-AW = פפיאמנטו (ארובה)
 pl = פולנית
+ps = פשטו
+pt = פורטוגלית
 ro = רומנית
 ru = רוסית
 sah = סאחה
 sc = סרדינית
+scn = סיציליאנית
+shi = תשלחית
+si = סינהלית
 sk = סלובקית
 sl = סלובנית
+so = סומלית
 sq = אלבנית
 sr = סרבית
 sv-SE = שוודית
+sw = סווהילי
+syr = סורית
 ta = טמילית
 te = טלוגו
+tg = טג׳יקית
 th = תאילנדית
+tl = טאגאלוג
 tr = טורקית
 tt = טטארית
 uby = אוביחית
 udm = אודמורטית
+ug = אויגור
 uk = אוקראינית
 ur = אורדו
 uz = אוזבקית
+vec = ונטית
 vi = וייטנאמית
 vot = וודית
+yue = ‏‏קנטונזית
 zh-CN = סינית (סין)
 zh-HK = סינית (הונג קונג)
 zh-TW = סינית (טאיוואן)
@@ -134,7 +179,7 @@ logout = התנתקות
 
 ## Home Page
 
-home-title = מיזם Common Voice הוא יזמה של Mozilla לטובת סיוע ללימוד מכונות איך מדברים אנשים אמתיים.
+home-title = מיזם Common Voice הוא יזמה של Mozilla לטובת סיוע ללימוד מכונות איך מדברים אנשים אמיתיים.
 home-cta = דברו בקול רם, כאן ניתן לתרום!
 wall-of-text-start = קול זה טבעי, קול זה אנושי. לכן מרתק אותנו הרעיון של יצירת טכנולוגיית קול שמישה עבור המכונות שלנו. אך כדי ליצור מערכות קול, נדרשת כמות גדולה של נתוני קול.
 wall-of-text-more-mobile = רוב הנתונים בהם ארגונים גדולים משתמשים אינם זמינים לקהל הרחב. אנו חושבים שנדרשת כאן חשיבה מחדש. לכן, השקנו את מיזם Common Voice, מיזם שיסייע לפתוח את עולם הזיהוי הקולי לכולם.
@@ -181,6 +226,7 @@ x-years-short =
 help-make-dataset = מזמינים אותך לבנות מערך נתונים איכותי ופתוח לציבור
 sign-up-account = יצירת חשבון
 email-subscription-title = הרשמה לעדכונים בדוא״ל
+email-subscription-title-new = מומלץ להירשם לעלון המידע, לתזכורות ולעדכוני ההתקדמות של Common Voice
 
 ## Account Benefits
 
@@ -188,11 +234,16 @@ benefits = יתרונות
 rich-data = הנתונים ששלחת יכולים להיות עשירים במיוחד אם יצטרפו אליהם נתונים דמוגרפיים. אנו מסירים את כל הנתונים הדמוגרפיים בטרם ההפצה לציבור הרחב.
 improve-audio = פרטי הפרופיל משפרים את נתוני השמע בהם נעשה שימוש לאימון דיוק זיהוי קולי.
 keep-track = באפשרותך לעקוב אחר ההתקדמות והמדדים שלך בשפות שונות.
+compare-progress = באפשרותך לראות את ההתקדמות שלך ביחס לתורמים אחרים ברחבי העולם.
+view-goals = הצגת ההתקדמות שלך לעומת היעדים האישיים ויעדי המיזם.
+join-newsletter = אפשר להצטרף לרשימת הדיוור שלנו לקבלת עדכונים ומידע חדש על המיזם.
 
 ## What's public
 
 whats-public = מה ציבורי?
 email-not-public = לא נפרסם את כתובת הדוא״ל שלך.
+username-optin-public = באפשרותך לבחור להפוך את שם המשתמש שלך לציבורי או אלמוני.
+username-email-not-demographic = שם המשתמש והדוא״ל שלך לא ישויכו לנתונים שפורסמו.
 
 ## Speak & Listen Shortcuts
 
@@ -220,6 +271,7 @@ shortcut-record-toggle = ק
 shortcut-record-toggle-label = הקלטה/עצירה
 shortcut-rerecord-toggle-label = הקלטת קטע מחדש
 request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
+request-language-text-learn = כאן ניתן ללמוד כיצד לבקש את זה!
 request-language-button = בקשת שפה
 
 ## ProjectStatus
@@ -229,7 +281,7 @@ status-contribute = תרמו את הקול שלכם
 status-hours =
     { $hours ->
         [one] שעה אחת עברה אימות עד כה!
-        [2] שעתיים עברו אימות עד כה!
+        [two] שעתיים עברו אימות עד כה!
        *[other] { $hours } שעות עברו אימות עד כה!
     }
 # Variables:
@@ -249,7 +301,7 @@ profile-form-accent =
     .label = מבטא
 profile-form-age =
     .label = גיל
-profile-form-gender =
+profile-form-gender-2 =
     .label = מגדר
 leaderboard-visibility =
     .label = הופעה בטבלת המובילים
@@ -277,6 +329,7 @@ profile-explanation = ניתן לעקוב אחר התהליך שעברת בעז�
 thanks-for-account = תודה לך על אישור החשבון שלך, כעת הבה נבנה את הפרופיל שלך.
 why-demographic = למה  זה משנה?
 accept-privacy = מקובל עלי האופן בו המידע הזה מטופל כפי שמפורט ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla
+accept-privacy-title = מדיניות פרטיות
 login-identity = זהות כניסה
 login-signup = כניסה / הרשמה
 edit = עריכה
@@ -287,11 +340,19 @@ skip-submission-feedback = דילוג על משוב הגשה
 skip-submission-note = לתשומת לבך: עדיין יהיה עליך לבחור בין דיבור להאזנה כדי לשנות את סוג התרומה.
 off = כבוי
 on = פעיל
+
+## Profile - Email
+
 browse-file-title = העלאת קובץ תמונה
 browse-file = ניתן לגרור ולהשליך לכאן או <browseWrap>לעיין</browseWrap>
 connect-gravatar = התחברות עם Gravatar
 gravatar_not_found = לא נמצא gravatar עבור כתובת הדוא״ל שלך
 file_too_large = הקובץ שנבחר גדול מדי
+avatar-uploaded = נשלחה תמונה ייצוגית
+max-file-size = { $kb } ק״ב לכל היותר
+
+## Profile - Email
+
 manage-subscriptions = ניהול מינויים
 manage-email-subscriptions = ניהול מינויי דוא״ל
 email-already-used = כתובת דוא״ל זו כבר בשימוש עבור חשבון אחר
@@ -302,11 +363,37 @@ add-language = הוספת שפה
 faq-title = תשובות לשאלות נפוצות
 faq-what-cv-q = מה זה Common Voice?
 faq-why-important-q = מדוע זה חשוב?
+faq-why-important-a =
+    דיבור הוא לעתים קרובות הדרך הטבעית ביותר שבה אנו מתקשרים אחד עם השני, וטכנולוגיות קול מביאות את הנוחות הזאת למחשבים ולמכשירים הניידים שלנו. אנו רוצים לאפשר למפתחים לבנות יישומי זיהוי קולי מדהימים, כגון מתרגמים בזמן אמת ועוזרים דיגיטליים מותאמי קול. אבל כרגע רוב הנתונים הקוליים הנדרשים לבניית יישומים כאלה הם יקרים וקנייניים. אנו מקווים שמאגר הנתונים של Common Voice ייתן למפתחים את מה שהם צריכים כדי לחדש ולהפוך את טכנולוגיית הדיבור לזמינה בשפה שלהם.
+    
+    כדי להפוך את הזיהוי הקולי להיות אפילו יותר אוניברסלי, אנו אוספים דגימות קוליות בשפות המדוברות באופן נרחב, כמו גם אלה עם אוכלוסייה קטנה יותר של דוברים שאינם זוכים לטיפול לעתים קרובות על־ידי שירותי זיהוי דיבור מסחריים. פרסום מאגר נתונים מגוון של קולות יאפשר למפתחים, יזמים, ולכל קהילות הדיבור לטפל בפער הזה בעצמם.
+faq-how-get-q = איך ניתן לקבל את הנתונים מ־Common Voice?
+faq-how-get-a = מאגר הנתונים של Common Voice זמין להורדה תחת הרישיון <licenseLink>CC0</licenseLink> <datasetLink>בדף מאגרי הנתונים שלנו</datasetLink>. ניתן גם להוריד מספר מאגרי נתונים אחרים הזמינים לציבור מאותו הדף.
+faq-when-release2-q = מתי נתוני Common Voice בשפות אחרות ישוחררו לקהל הרחב?
+faq-what-cv-and-deepspeech-q = מה ההבדל בין Common Voice לבין Deep Speech?
+faq-what-cv-and-deepspeech-a = מאגר הנתונים של Common Voice משלים את Deep Speech, מנוע זיהוי הקול בקוד פתוח של Mozilla. הגרסה הראשונה של Deep Speech שוחררה בנובמבר 2017 והמשיכה להתפתח מאז. יחד עם מאגר הנתונים של Common Voice, אנו מאמינים שטכנולוגיית זיהוי קול בקוד פתוח זו צריכה להיות זמינה לכולם. אנו מקווים שטכנולוגיות אלה יאפשרו למפתחים לבנות גל של מוצרים ושירותים חדשניים.
+faq-is-goal-assistant-q = האם המטרה של Common Voice היא לבנות עוזר קולי?
+faq-do-want-native-q = אינני דובר השפה מלידה ויש לי מבטא בדיבור, האם אתם עדיין מעוניינים בקול שלי?
+faq-do-want-native-a = כן, אנחנו רוצים במיוחד את הקול שלך! חלק ממטרתו של Common Voice היא לאסוף מבטאים שונים ככל הניתן, כדי ששירותי זיהוי קולי ישרתו את כולם בצורה מיטבית ובאופן שווה. משמעות הדבר היא שתרומות דוברים שאינם דוברים מלידה חשובות במיוחד.
+faq-why-different-speakers-q = מדוע יש צורך בדוברים שונים רבים כל כך לכל שפה?
+faq-why-my-lang-q = מדוע השפה שלי עדיין לא נמצאת?
+faq-what-quality-q = מהי איכות הקול הנדרשת לקטע דיבור כדי להיות שימושי במאגר הנתונים?
+faq-what-quality-a = אנו רוצים שמאגר הנתונים של Common Voice ישקף את איכות השמע שמנוע דיבור לטקסט ישמע בחיים האמיתיים, לכן אנו מחפשים גיוון. בנוסף לקהילה מגוונת של דוברים, מאגר נתונים עם איכות שמע משתנה ילמד את מנוע הדיבור לטקסט להתמודד עם מצבים שונים בעולם האמיתי, מקולות רקע ועד לרעש מכוניות. כל עוד קטע הקול שלך הוא מובן, זה צריך להיות מספיק טוב עבור מאגר הנתונים.
+faq-why-10k-hours-q = מדוע 10,000 שעות מאומתות הוא היעד לכל שפה מבחינת הקלטת שמע?
+faq-why-10k-hours-a = זהו בקירוב מספר השעות הנדרש לאמן מערכת זיהוי דיבור לטקסט ברמה גבוהה.
 faq-how-calc-hours-q = איך מחושבות השעות ב־Common Voice?
+faq-how-calc-hours-a = אנו מחשבים שעות על־ידי הערכת האורך הממוצע של כל הקלטה, ולאחר מכן הכפלת מספר זה במספר הכולל של הקלטות בכל השפות.
 faq-where-src-from-2-q = מהיכן מגיע טקסט המקור?
+faq-where-src-from-2-a =
+    טקסט המקור מגיע מתורמים מקוריים וכן מדיאלוגים של תסריטים פתוחים לסרטים כגון <italic>חיים נפלאים</italic>.
+    
+    ניתן לראות את משפטי המקור שלנו <githubLink>בתיקיית GitHub</githubLink> זו.
+faq-why-not-ask-read-q = מדוע אינכם מבקשים מאנשים לקרוא מתוך ספרים או מאמרים מויקיפדיה בשפות שונות?
 faq-why-account-q = מדוע עלי ליצור חשבון?
 faq-is-account-public-q = האם פרטי החשבון שלי חשופים לציבור?
 faq-how-privacy-q = איך אתם מבטיחים לשמור על האלמוניות והפרטיות של אלו שתרמו את קולם?
+faq-how-privacy-a = אנו מסירים ממקטעי הקול כל מידע המאפשר זיהוי אישי. כאשר תורם מספק נתונים דמוגרפיים באמצעות הפרופיל שלהם, מידע זה אינו משוייך לקטעי הקול שלהם לפני שהוא נארז להורדה במאגר הנתונים והוא אף פעם אינו מוצג לציבור בדף הפרופיל שלהם.
+faq-what-determine-identity-q = מה זה אומר שאסור לי ״לזהות את הדוברים״ במאגר הנתונים של Common Voice?
 faq-what-is-cv = מה זה Common Voice?
 faq-using-cv = שימוש ב־Common Voice
 faq-description = Common Voice הוא חלק מיוזמה של Mozilla לסייע בלימוד מכונות להבין כיצד מדברים אנשים אמתיים.
@@ -316,12 +403,25 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = למה Common Voice?
+about-header-description =
+    שני הפרוייקטים הללו הם חלק מהמאמצים שלנו לגשר על הפער בדיבור הדיגיטלי. טכנולוגיות זיהוי דיבור מספקות מימד אנושי למכשירים שלנו, אך מפתחים זקוקים לכמות עצומה של נתוני שמע על מנת לבנות אותם. נכון לעכשיו, רוב הנתונים הינם יקרים ובבעלות פרטית.
+    אנחנו מבקשים להפוך נתוני דיבור לזמינים באופן חופשי וציבורי, ולוודא כי הנתונים מייצגים את הגיוון האנושי האמיתי. יחד אנו יכולים להפוך את זיהוי הדיבור לטוב יותר עבור כולם.
 how-does-it-work-title = איך זה עובד?
 about-speak = דבר
 about-speak-text = מתנדבים מקליטים קטעי קול על ידי הקראה מתוך מאגר של משפטים שנתרמו.
+about-listen-queue = תור האזנה
+about-listen-queue-text = קטעי קול שהוגשו לתור שמכין אותם להאזנה.
+about-listen = האזנה
+about-listen-text = משתמשים מאמתים את דיוק המקטעים שנתרמו, כדי לבדוק שהדוברים מקריאים את המשפט נכון.
+about-is-it-valid = האם הקטע תקף?
+about-is-it-valid-text = קטע קולי נחשב „תקף” כאשר מתקבלת עבורו הצבעת „כן”.
+about-partners = שותפים
+about-become-a-partner = יצירת שותפות
+about-get-involved = הצטרפות
 about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
+about-nav-get-involved = הצטרפות
 mycroft-subtitle = בינה מלאכותית
 
 ## Glossary
@@ -331,16 +431,19 @@ localization = לוקליזציה
 localization-explanation = זהו התהליך שלנו לתרגום והתאמה של התוכן שלנו לשפות ומקומות רבים.
 sentence-collection = אוסף משפטים
 sentence-collection-explanation = איסוף משפטים מן הציבור, או כתיבת חדשים עבור הציבור.
-hours-recorded-explanation = מספר שעות הדיבור שאספנו עד עתה.
-hours-validated-explanation = ספירת שעות ההקלטה הקולית שאומתו על ידי 2 מתוך 3 משתמשים עם הצבעה של "כן". זה סימן התקדמות הפרויקט אל היעד של 10,000 שעות.
-sst = דיבור־לטקסט
-sst-explanation = טכנולוגיות דיבור־לטקסט ממירות הקלטת דיבור לטקסט כתוב.
+hours-recorded-explanation = מספר שעות הדיבור המוקלט שאספנו עד עתה.
+hours-validated-explanation = ספירת שעות ההקלטה הקולית שאומתו על־ידי 2 מתוך 3 משתמשים עם הצבעה של ״כן״. אלו מסמנים את התקדמות הפרויקט אל היעד הכולל של 10,000 שעות.
+sst = דיבור לטקסט
+sst-explanation = טכנולוגיות דיבור לטקסט ממירות נתוני קול לטקסט כתוב.
 de-identified = ניתוק זיהוי
+de-identified-explanation = התהליך שבו מידע הפרופיל של תורם מוסתר מקטעי הקול שנתרמו על ידם כאשר הם נארזים להורדה כחלק במאגר הנתונים.
 
-## NotFound
+## Error pages
 
-notfound-title = לא נמצא
-notfound-content = לצערי לא ברור לי מה חיפשת.
+error-title-404 = לא הצלחנו למצוא את הדף הזה עבורך
+error-content-404 = אולי <homepageLink>דף הבית</homepageLink> שלנו יכול לעזור? כדי לשאול שאלה, נא להצטרף ל<matrixLink>צ’אט הקהילה ב־Matrix</matrixLink>, לעקוב אחר בעיות באתר באמצעות <githubLink>GitHub</githubLink> או לבקר <discourseLink>בפורומים שלנו ב־Discourse</discourseLink>.
+error-title-503 = אנו חווים כרגע השבתה בלתי צפויה
+error-code = שגיאה { $code }
 
 ## Data
 
@@ -357,6 +460,8 @@ data-other-goto = מעבר אל { $name }
 data-other-download = הורדת נתונים
 data-bundle-button = הורדת מאגד סדרת נתונים
 data-bundle-description = הנתונים של Common Voice יחד עם כל סדרות הנתונים האחרות שלהלן.
+release-version = גרסה
+dataset-date = תאריך
 license = רישיון: <licenseLink>{ $license }</licenseLink>
 license-mixed = מעורב
 review-terms = עצם השימוש ב־Common Voice מהווה הסכמה מצדך ל<termsLink>תנאים</termsLink> ול<privacyLink>הצהרת הפרטיות</privacyLink> שלנו
@@ -397,6 +502,7 @@ data-other-ted-name = מאגר TED-LIUM
 data-other-ted-description = המאגר TED-LIUM, נוצר משיחות קוליות והתמלול שלהן, זמין באתר של TED.
 data-other-voxforge-description = VoxForge הוקם לטובת איסוף של קול מתומלל לטובת שימוש במנועי זיהוי קולי בקוד פתוח.
 data-other-tatoeba-description = Tatoeba הוא מסד נתונים נרחב של משפטים, תרגומים ודיבור לשימוש לטובת לימודי שפה. הורדה זו מכילה את כל האנגלית המדוברת שהוקלטה על ידי הקהילה שלהם.
+your-feedback = יש לך רעיונות איך לשפר את מאגר Common Voice? נשמח לשמוע על כך ב־Discourse
 go-discourse = מעבר אל Discourse
 missing-language = אינך רואה את השפה שלך במאגר המידע? ניתן לבקש שפה בעמוד השפות שלנו.
 go-languages-page = מעבר לעמוד השפות
@@ -458,13 +564,18 @@ contribute = תרומה
 listen = האזנה
 skip = דילוג
 shortcuts = קיצורים
-clips-with-count = <bold>{ $count }</bold> מקטעים
+clips-with-count-pluralized =
+    { $count ->
+        [one] מקטע <bold>אחד</bold>
+       *[other] <bold>{ $count }</bold> מקטעים
+    }
 goal-help-recording = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד ההקלטות היומי { $goalValue }!
 goal-help-validation = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד האימות היומי { $goalValue }!
 contribute-more = להגיש לך { $count } נוספים?
 record-cta = התחלת ההקלטה
 record-platform-not-supported = הפלטפורמה שלך אינה נתמכת בשלב זה, עמך הסליחה.
 record-platform-not-supported-desktop = במחשבים שולחניים, ניתן להוריד את העדכני ביותר:
+record-platform-not-supported-ios-non-safari = ב־iOS נא להמשיך עם Safari כדי לאפשר הקלטה…
 record-must-allow-microphone = עליך לאפשר גישה למיקרופון.
 record-no-mic-found = לא אותר מיקרופון.
 record-error-too-short = ההקלטה הייתה קצרה מדי.
@@ -478,6 +589,8 @@ record-again-instruction = מושלם! <recordIcon></recordIcon> הקלטת המ
 record-again-instruction2 = עבודה יפה, עכשיו להקליט שוב <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> אחרון חביב!
 review-tooltip = ניתן לסקור ולהקליט מקטעים מחדש דרך כאן תוך כדי תנועה
+share-clip = שיתוף המקטע שלך
+share-common-voice = שיתוף Common Voice
 review-instruction = ניתן לסקור ולהקליט מקטעים מחדש במקרה הצורך
 record-submit-tooltip = { $actionType } ניתן להגיש כשהמקטע מוכן
 clips-uploaded = מקטעים הועלו
@@ -490,8 +603,11 @@ listen-instruction = { $actionType } <playIcon></playIcon> האם המשפט ב�
 listen-again-instruction = עבודה טובה! <playIcon></playIcon> נא להאזין שוב בזמנך החופשי
 listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
+speak-empty-state-cta = תרומת משפטים
 record-button-label = הקלטת הקול שלך
 share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים
+target-segment-add-voice = הוספת הקול שלך
+target-segment-learn-more = מידע נוסף
 
 ## Reporting
 
@@ -502,6 +618,15 @@ report-offensive-language = שפה פוגענית
 report-offensive-language-detail = במשפט יש שפה מזלזלת או פוגענית.
 report-grammar-or-spelling = שגיאת דקדוק / איות
 report-grammar-or-spelling-detail = במשפט יש שגיאה בדקדוק או באיות.
+report-different-language = שפה שונה
+report-different-language-detail = נכתב בשפה שונה מזו שבחרתי לאמת.
+report-difficult-pronounce = קשה להגייה
+report-difficult-pronounce-detail = מכיל מילים או ביטויים שקשה לקרוא או להגות.
+report-offensive-speech = שפה פוגענית
+report-offensive-speech-detail = בהקלטה יש שפה מזלזלת או פוגענית.
+report-other-comment =
+    .placeholder = תגובה
+success = הצלחה
 report-success = הדיווח הועבר בהצלחה
 
 ## Goals
@@ -527,8 +652,11 @@ validations =
 
 your-languages = השפות שלך
 toward-next-goal = לקראת המטרה הבאה
+goal-reached = היעד הושג
 clips-you-recorded = מקטעים שהקלטת
 clips-you-validated = מקטעים שאימתת
+todays-recorded-progress = ההתקדמות היומית של קטעים מוקלטים ב־Common Voice
+todays-validated-progress = ההתקדמות היומית של קטעים מאומתים ב־Common Voice
 stats = סטטיסטיקה
 awards = פרסים
 you = אני
@@ -539,17 +667,82 @@ recorded-clips = מקטעים שהוקלטו
 validated-clips = מקטעים שאומתו
 total-approved = סה״כ אושרו
 overall-accuracy = דיוק כללי
+show-ranking = הצגת הדירוג שלי
 
 ## Custom Goals
 
+create-custom-goal = יצירת יעד בהתאמה אישית
+goal-type = איזה סוג של יעד ברצונך לבנות?
+both-speak-and-listen = שניהם
+both-speak-and-listen-long = שניהם (דיבור והאזנה)
+daily-goal = יעד יומי
+weekly-goal = יעד שבועי
+easy-difficulty = קל
+average-difficulty = בינוני
+difficult-difficulty = קשה
+pro-difficulty = מקצוען
+lose-goal-progress-warning = ההתקדמות שלך עד כה עשויה להימחק בעת עריכת היעד שלך.
+want-to-continue = להמשיך?
+finish-editing = לסיים את העריכה קודם לכן?
+lose-changes-warning = יציאה כעת תגרום לביטול השינויים שביצעת
+build-custom-goal = הרכבת יעד מותאם אישית
+set-a-goal = הגדרת יעד
+cant-decide = לא הצלחת להחליט?
+how-many-per-day = מצוין! כמה מקטעים ביום?
+how-many-a-week = נהדר! כמה מקטעים בשבוע?
+which-goal-type = מעניין אותך לדבר, להאזין או גם וגם?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] מקטע אחד
+       *[other] { $count } מקטעים
+    }
+help-share-goal = שיתוף היעד שלך יסייע לנו לאתר קולות נוספות
+confirm-goal = אישור היעד
+goal-interval-weekly = שבועי
+share-goal-type-speak = דיבור
+share-goal-type-listen = האזנה
+share-goal-type-both = דיבור והאזנה
+weekly-goal-created = היעד השבועי שלך נוצר
+return-to-edit-goal = ניתן לחזור לכאן כדי לערוך את היעד שלך בכל עת.
+share-goal = שיתוף היעד שלי
 
 ## Profile Delete
 
+delete-q = האם ברצונך לבקש להסיר גם את ההקלטות הקוליות שלך, או שנשמור אותן במאגר הנתונים של Common Voice?
 keep = להשאיר
 remove = להסיר
+remove-info = אנו נבדוק את בקשתך להסרת ההקלטות הקוליות שלך ממאגר הנתונים. אם בקשתך תאושר, אנו ניצור קשר עם כל מי שהוריד את מאגר הנתונים ונבקש מהם להסיר את ההקלטות הקוליות שלך גם כן.
 profile-form-delete = מחיקת פרופיל
 
 ## Landing
 
-profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב
+welcome-staff = ברוך בואך סגל { $company }!
+login-company = כניסה / הרשמה עם כתובת דוא״ל של { $company }
+profile-not-required = אין חובה להקים פרופיל על אף שיש לו ערך רב, ניתן לראות מדוע להלן.
 read-more-about = מידע נוסף בעמוד על אודותינו
+
+## DemoLayout
+
+demo-welcome = ברוך בואך אל Common Voice
+demo-welcome-subheader = מעניין אותך ללמוד עוד ולתרום למיזם?
+
+## Demo Datasets
+
+demo-language-select-card-body = הודות לתרומות של למעלה מ־259 אלף אנשים בלמעלה מ־50 שפות, נתונים אלה משמשים לאימון יישומים עם תמיכה בדיבור כדי להגיב טוב יותר לקול אנושי.
+card-button-next = הבא
+card-button-back = הקודם
+demo-language-select-label = עיון בשפות
+demo-account = חשבון
+
+## Demo Account
+
+demo-account-enter-email =
+    .label = נא למלא כתובת דוא״ל לשליחת קישור להרשמה
+demo-account-sign-up = שליחת קישור להרשמה
+
+## Demo Contribute
+
+demo-listen-subtitle = מעניין אותך לתרום?
+
+## Demo Dashboard
+

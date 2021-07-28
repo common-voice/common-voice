@@ -63,7 +63,11 @@ const AccountModal = (props: ModalProps) => {
           href="/login"
           className={getTrackClass('fs', `nudge-profile-modal`)}
           onClick={() => {
-            sessionStorage.setItem('redirectURL', location.pathname);
+            try {
+              sessionStorage.setItem('redirectURL', location.pathname);
+            } catch (e) {
+              console.warn(`A sessionStorage error occurred ${e.message}`);
+            }
             trackProfile('contribution-conversion-modal', locale);
           }}
         />
@@ -90,6 +94,7 @@ interface PropsFromState {
 }
 
 interface Props extends WithLocalizationProps, PropsFromState {
+  demoMode: boolean;
   activeIndex: number;
   errorContent?: any;
   reportModalProps: Omit<ReportModalProps, 'onSubmitted'>;
@@ -109,6 +114,7 @@ interface Props extends WithLocalizationProps, PropsFromState {
   shortcuts: {
     key: string;
     label: string;
+    icon?: React.ReactNode;
     action: () => any;
   }[];
   type: 'speak' | 'listen';
@@ -167,7 +173,14 @@ class ContributionPage extends React.Component<Props, State> {
       const showAccountModal = this.showAccountModalDefault;
       this.setState({ showAccountModal });
       if (showAccountModal) {
-        localStorage.setItem(HAS_SEEN_ACCOUNT_MODAL_KEY, JSON.stringify(true));
+        try {
+          localStorage.setItem(
+            HAS_SEEN_ACCOUNT_MODAL_KEY,
+            JSON.stringify(true)
+          );
+        } catch (e) {
+          console.warn(`A sessionStorage error occurred ${e.message}`);
+        }
       }
     }
 
@@ -290,6 +303,7 @@ class ContributionPage extends React.Component<Props, State> {
       reportModalProps,
       type,
       user,
+      demoMode,
     } = this.props;
     const {
       showAccountModal,
@@ -313,9 +327,11 @@ class ContributionPage extends React.Component<Props, State> {
               <h1 />
             </Localized>
             <div className="shortcuts">
-              {this.shortcuts.map(({ key, label }) => (
+              {this.shortcuts.map(({ key, label, icon }) => (
                 <div key={key} className="shortcut">
-                  <kbd>{getString(key).toUpperCase()}</kbd>
+                  <kbd title={getString(key).toUpperCase()}>
+                    {icon ? icon : getString(key).toUpperCase()}
+                  </kbd>
                   <div className="label">{getString(label)}</div>
                 </div>
               ))}
@@ -342,7 +358,13 @@ class ContributionPage extends React.Component<Props, State> {
           ].join(' ')}>
           <div className="top">
             <LocaleLink
-              to={user.account ? URLS.DASHBOARD : URLS.ROOT}
+              to={
+                user.account && !demoMode
+                  ? URLS.DASHBOARD
+                  : demoMode
+                  ? URLS.DEMO_CONTRIBUTE
+                  : URLS.ROOT
+              }
               className="back">
               <ArrowLeft />
             </LocaleLink>
@@ -351,36 +373,22 @@ class ContributionPage extends React.Component<Props, State> {
               <Localized id="speak">
                 <LocaleNavLink
                   className={getTrackClass('fs', `toggle-speak`)}
-                  to={URLS.SPEAK}
+                  to={demoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
                 />
               </Localized>
               <Localized id="listen">
                 <LocaleNavLink
                   className={getTrackClass('fs', `toggle-listen`)}
-                  to={URLS.LISTEN}
+                  to={demoMode ? URLS.DEMO_LISTEN : URLS.LISTEN}
                 />
               </Localized>
             </div>
 
-            {this.isLoaded && !errorContent ? (
-              <div className={'counter ' + (isSubmitted ? 'done' : '')}>
-                {isSubmitted && <CheckIcon />}
-                <Localized
-                  id="clips-with-count-pluralized"
-                  elems={{ bold: <b /> }}
-                  vars={{ count: this.renderClipCount() }}>
-                  <span className="text" />
-                </Localized>
-              </div>
-            ) : (
-              <div />
-            )}
-            {isSubmitted && (
-              <Tooltip arrow title={getString('share-common-voice')}>
-                <button className="open-share" onClick={this.toggleShareModal}>
-                  <ShareIcon />
-                </button>
-              </Tooltip>
+            {!errorContent && !isSubmitted &&(
+              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria">
+                <ExternalLinkIcon />
+                <Localized id="contribution-criteria-link"/>
+              </LocaleLink>
             )}
           </div>
 
@@ -457,13 +465,13 @@ class ContributionPage extends React.Component<Props, State> {
                           {sentence?.text}
                           {sentence?.taxonomy ? (
                             <div className="sentence-taxonomy">
-                              <Localized id="target-segment-first-card">
+                              <Localized id="target-segment-generic-card">
                                 <span className="taxonomy-message" />
                               </Localized>
                               <StyledLink
                                 className="taxonomy-link"
                                 blank
-                                href={URLS.TARGET_SEGMENT_INFO}>
+                                href={`${URLS.GITHUB_ROOT}/blob/main/docs/taxonomies/${sentence.taxonomy.source}.md`}>
                                 <ExternalLinkIcon />
                                 <Localized id="target-segment-learn-more">
                                   <span />
@@ -480,16 +488,6 @@ class ContributionPage extends React.Component<Props, State> {
 
               <div className="pills">
                 <div className="inner">
-                  {!errorContent && (
-                    <div className="counter">
-                      <Localized
-                        id="clips-with-count-pluralized"
-                        elems={{ bold: <b /> }}
-                        vars={{ count: this.renderClipCount() }}>
-                        <span className="text" />
-                      </Localized>
-                    </div>
-                  )}
                   {this.isDone && (
                     <div className="review-instructions">
                       <Localized id="review-instruction">

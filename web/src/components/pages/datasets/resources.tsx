@@ -22,7 +22,7 @@ const Dataset = React.memo(
     return (
       <div className="other-dataset box">
         <img src={require(`./images/${nick}.jpg`)} alt="" />
-        <div className="banner" style={{ backgroundColor: color }} />
+        <div className="dataset-banner" style={{ backgroundColor: color }} />
         <div className="dots-and-content">
           <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
           <div className="content">

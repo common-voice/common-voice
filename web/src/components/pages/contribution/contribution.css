@@ -1,4 +1,4 @@
-@import url('../../vars.css');
+@import url('../../media.css');
 
 .contribution-wrapper {
     overflow: hidden;
@@ -112,6 +112,24 @@
             }
         }
 
+        .contribution-criteria {
+            display: block;
+            color: var(--black);
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: var(--font-size-sm);
+            margin-bottom: 1rem;
+
+            svg {
+                fill: var(--black);
+                margin-inline-end: 0.5rem;
+                vertical-align: text-bottom;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
         .links {
             font-family: var(--strong-font-family);
 
@@ -199,10 +217,11 @@
             margin-bottom: 20px;
         }
 
-        & svg {
+        svg {
             margin: 0 10px 0 16px;
             width: 23px;
             height: 23px;
+            vertical-align: text-top;
         }
     }
 
@@ -569,7 +588,8 @@
     }
 
     .sentence-taxonomy {
-        border-top: 1px solid var(--lighter-grey);
+        border-top: 1px solid var(--grey);
+        background: var(--lighter-grey);
         position: absolute;
         bottom: 0;
         left: 0;
