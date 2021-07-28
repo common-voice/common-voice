@@ -890,4 +890,5 @@ demo-dashboard-card-body = Pro cata retalio de voce donate e cata retalio de aud
 
 ## Validation criteria
 
+contribution-criteria-nav = Criterios
 see-more = Criterios
