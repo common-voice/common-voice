@@ -921,3 +921,30 @@ demo-dashboard-card-body = Для кожного подарованого гол
 
 ## Validation criteria
 
+contribution-criteria-nav = Критерії
+contribution-criteria-link = Пояснення критеріїв внеску
+contribution-criteria-page-title = Критерії внеску
+contribution-criteria-page-description = Дізнайтеся, на що слід звертати увагу під час прослуховування голосових кліпів і допоможіть зробити ваші голосові записи кориснішими!
+contribution-for-example = наприклад
+contribution-misreadings-title = Неправильне прочитання
+contribution-misreadings-description = Під час прослуховування дуже уважно перевіряйте, чи записано саме те, що було написано; відхиляйте внесок, якщо є навіть незначні помилки. <br />До найпоширеніших помилок належать:
+contribution-misreadings-description-extended-list-1 = На початку запису пропущено <strong>«A»</strong> або <strong>«The»</strong> (для англійської мови).
+contribution-misreadings-description-extended-list-2 = У кінці слова відсутній символ <strong>«s»</strong> (для англійської мови).
+contribution-misreadings-description-extended-list-3 = Читання скорочень, яких насправді не існує, таких як «Мо'» замість «Може», або навпаки.
+contribution-misreadings-description-extended-list-4 = Пропуск закінчення останнього слова через занадто швидке обривання запису.
+contribution-misreadings-description-extended-list-5 = Кілька спроб прочитати слово.
+contribution-misreadings-example-1-title = Любові не буває забагато.
+contribution-misreadings-example-2-title = Любови не буває забагато.
+contribution-misreadings-example-2-explanation = [Повинно бути ‘любові’]
+contribution-misreadings-example-3-title = Любові не буває забагат-.
+contribution-misreadings-example-3-explanation = [Запис обривається на кінці останнього слова]
+contribution-misreadings-example-4-title = Любові не буває забагато. Так.
+contribution-misreadings-example-4-explanation = [Записано зайві слова]
+contribution-misreadings-example-5-title = Може сходимо на каву?
+contribution-misreadings-example-5-explanation = [Невідповідний вміст]
+contribution-misreadings-example-6-explanation = [Повинно бути «Може»]
+contribution-misreadings-example-7-title = Може сходимо на цю каву?
+contribution-misreadings-example-7-explanation = [В оригінальному тексті немає «цю»]
+contribution-varying-pronunciations-title = Різна вимова
+contribution-varying-pronunciations-description = Будьте уважні, перш ніж відкидати кліп на тій підставі, що читач неправильно вимовив слово, поставив наголос у неправильному місці або, можливо, проігнорував знак питання. У всьому світі існує багато різних вимов, деякі з яких ви, можливо, не чули у своїй місцевості. Будь ласка, надайте свободу вимови тим, хто може балакати інакше, ніж ви.
+contribution-varying-pronunciations-description-extended = З іншого боку, якщо ви думаєте, що читач, мабуть, ніколи раніше не стикався з цим словом і просто робить неправильну здогадку щодо вимови, відхиліть кліп. Якщо ви не впевнені, скористайтеся кнопкою пропуску.
