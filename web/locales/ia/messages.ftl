@@ -906,4 +906,7 @@ contribution-misreadings-example-1-title = Le gigantesc dinosauros del triassico
 contribution-misreadings-example-2-title = Le gigantesc dinosauro del triassico.
 contribution-misreadings-example-2-explanation = [Debe esser ‘dinosauros’]
 contribution-misreadings-example-3-title = Le gigantesc dinosauros del triassi-.
+contribution-misreadings-example-3-explanation = [Truncamento de registration ante le fin del ultime parola]
+contribution-misreadings-example-4-title = Le gigantesc dinosauros del triassico. Si.
+contribution-misreadings-example-4-explanation = [Altero ha essite registrate que le texto necessari]
 contribution-volume-title = Volumine
