@@ -904,4 +904,6 @@ contribution-misreadings-description-extended-list-4 = Carentia del fin del ulti
 contribution-misreadings-description-extended-list-5 = Facer plure tentativas de leger un parola.
 contribution-misreadings-example-1-title = Le gigantesc dinosauros del triassico.
 contribution-misreadings-example-2-title = Le gigantesc dinosauro del triassico.
+contribution-misreadings-example-2-explanation = [Debe esser ‘dinosauros’]
+contribution-misreadings-example-3-title = Le gigantesc dinosauros del triassi-.
 contribution-volume-title = Volumine
