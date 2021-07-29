@@ -907,4 +907,5 @@ demo-dashboard-card-body = Foar elk donearre spraakfragmint en elk falidearre au
 ## Validation criteria
 
 contribution-criteria-nav = Kritearia
+contribution-criteria-page-title = Bydragekritearia
 contribution-for-example = bygelyks
