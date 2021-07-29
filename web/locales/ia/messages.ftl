@@ -915,4 +915,5 @@ contribution-misreadings-example-6-title = [Debe esser “We are”]
 contribution-misreadings-example-6-explanation = [Debe esser “We are”]
 contribution-misreadings-example-7-title = Nos exi pro obtener un caffe.
 contribution-misreadings-example-7-explanation = [Nulle ‘un’ in le texto original]
+contribution-varying-pronunciations-title = Pronunciationes variate
 contribution-volume-title = Volumine
