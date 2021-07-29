@@ -872,3 +872,8 @@ demo-dashboard-card-body = Para cada grabación de voz donada y cada grabación 
 ## Validation criteria
 
 contribution-for-example = por ejemplo
+contribution-background-noise-title = Ruido de fondo
+contribution-volume-title = Volumen
+contribution-reader-effects-title = Efectos del lector
+see-more = </chevron></chevron>Ver más
+see-less = <chevron></chevron>Ver menos
