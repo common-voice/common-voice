@@ -902,5 +902,6 @@ contribution-misreadings-description-extended-list-2 = Carente de un <strong>'s/
 contribution-misreadings-description-extended-list-3 = Lectura de contractiones que non es realmente illac.
 contribution-misreadings-description-extended-list-4 = Carentia del fin del ultime parola per secar le registration troppo rapidemente.
 contribution-misreadings-description-extended-list-5 = Facer plure tentativas de leger un parola.
-contribution-misreadings-example-1-title = Le gigantesc dinosauros del Triassic.
+contribution-misreadings-example-1-title = Le gigantesc dinosauros del triassico.
+contribution-misreadings-example-2-title = Le gigantesc dinosauro del triassico.
 contribution-volume-title = Volumine
