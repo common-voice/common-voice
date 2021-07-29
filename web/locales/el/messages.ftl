@@ -897,5 +897,10 @@ demo-dashboard-card-body = Για κάθε φωνητικό κλιπ που δω
 ## Validation criteria
 
 contribution-criteria-nav = Κριτήρια
+contribution-criteria-page-title = Κριτήρια συνεισφοράς
 contribution-for-example = για παράδειγμα
+contribution-misreadings-description-extended-list-1 = Λείπει ένα <strong>"A"</strong> ή <strong>"The"</strong> στην αρχή της ηχογράφησης.
+contribution-misreadings-description-extended-list-2 = Λείπει ένα <strong>"s"</strong> στο τέλος μιας λέξης.
 contribution-volume-title = Ένταση
+see-more = <chevron></chevron>Προβολή περισσότερων
+see-less = <chevron></chevron>Προβολή λιγότερων
