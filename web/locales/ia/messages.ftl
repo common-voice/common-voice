@@ -898,4 +898,6 @@ contribution-for-example = per exemplo
 contribution-misreadings-title = Errores de lectura
 contribution-misreadings-description = Quando tu ascolta, controla multo accuratemente que lo que ha essite registrate es exactemente illo que ha essite scribite; rejecta lo si il ha mesmo errores minor. <br />Multo commun errores include:
 contribution-misreadings-description-extended-list-1 = Carentia de <strong>'Un'</strong> o <strong>'Le'</strong> al initio del registration.
+contribution-misreadings-description-extended-list-2 = Carente de un <strong>'s' o 'es'</strong> al fin de un parola.
+contribution-misreadings-description-extended-list-3 = Lectura de contractiones que non es realmente illac.
 contribution-volume-title = Volumine
