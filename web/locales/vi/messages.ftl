@@ -879,3 +879,39 @@ demo-listen-subtitle = Sẵn sàng đóng góp?
 
 demo-dashboard-card-header = Trang tổng quan cá nhân giúp bạn cập nhật những tiến bộ của cá nhân và cộng đồng.
 demo-dashboard-card-body = Đối với mọi đoạn thoại được tặng và mọi đoạn âm thanh đã được xác thực, trang tổng quan tài khoản của bạn sẽ được cập nhật để phản ánh sự tiến bộ mới nhất của bạn ở mỗi ngôn ngữ mà bạn đóng góp. Có, bạn có thể đóng góp cho nhiều hơn một!<br/><br/>Sử dụng trang tổng quan để theo dõi số liệu thống kê của bạn, xem bạn đang hoạt động như thế nào cùng với những người khác trong cộng đồng và đặt mục tiêu đóng góp hàng ngày hoặc hàng tuần.
+
+## Validation criteria
+
+contribution-criteria-nav = Tiêu chuẩn
+contribution-criteria-link = Hiểu các tiêu chuẩn đóng góp
+contribution-criteria-page-title = Tiêu chuẩn đóng góp
+contribution-criteria-page-description = Hiểu những điều cần tìm khi nghe đoạn thoại và giúp bản ghi âm giọng nói của bạn phong phú hơn!
+contribution-for-example = ví dụ
+contribution-misreadings-title = Đọc sai
+contribution-misreadings-description = Khi nghe, hãy kiểm tra thật kỹ xem những gì đã ghi có chính xác là những gì đã được viết hay không; từ chối nếu có sai sót dù chỉ là nhỏ. Những sai lầm rất phổ biến <br /> bao gồm:
+contribution-misreadings-description-extended-list-1 = Thiếu <strong>'A'</strong> hoặc <strong>'The'</strong> ở đầu bản ghi.
+contribution-misreadings-description-extended-list-2 = Thiếu <strong>'s'</strong> ở cuối một từ.
+contribution-misreadings-description-extended-list-3 = Đọc các từ mà nó không thực sự ở đó, chẳng hạn như "Chúng tôi" thay vì "Chúng tôi là" hoặc ngược lại.
+contribution-misreadings-description-extended-list-4 = Bỏ lỡ phần cuối của từ cuối cùng do cắt đoạn ghi âm quá nhanh.
+contribution-misreadings-description-extended-list-5 = Mất nhiều lần để đọc một từ.
+contribution-misreadings-example-1-title = Những con khủng long khổng lồ của kỷ Trias.
+contribution-misreadings-example-2-title = Con khủng long khổng lồ của kỷ Trias.
+contribution-misreadings-example-2-explanation = [Nên là 'Những con khủng long']
+contribution-misreadings-example-3-title = Những con khủng long khổng lồ của Triassi-.
+contribution-misreadings-example-3-explanation = [Đoạn ghi âm bị cắt trước khi kết thúc từ cuối cùng]
+contribution-misreadings-example-4-title = Những con khủng long khổng lồ của kỷ Trias. Đúng.
+contribution-background-noise-example-2-explanation = [Không thể nghe thấy một phần của văn bản]
+contribution-background-noise-example-3-explanation = [Không thể nghe thấy một phần của văn bản]
+contribution-background-voices-title = Giọng nền
+contribution-background-voices-description = Tiếng huyên náo trong nền yên tĩnh là được, nhưng chúng tôi không muốn có thêm giọng nói có thể khiến thuật toán máy xác định các từ không có trong văn bản. Nếu bạn có thể nghe thấy những từ khác biệt với những từ trong văn bản, clip đó nên bị từ chối. Thông thường, điều này xảy ra khi TV đã được bật hoặc nơi có cuộc trò chuyện đang diễn ra gần đó.
+contribution-background-voices-description-extended = Nếu đoạn ghi âm bị vỡ hoặc có tiếng rè, hãy từ chối trừ khi vẫn có thể nghe được toàn bộ nội dung.
+contribution-background-voices-example-1-title = Những con khủng long khổng lồ của kỷ Trias. <strong>[đọc bằng một giọng nói]</strong>
+contribution-background-voices-example-1-explanation = Bạn có đến không? <strong>[được gọi bởi người khác]</strong>
+contribution-volume-title = Âm lượng
+contribution-volume-description = Sẽ có sự thay đổi tự nhiên về khối lượng giữa các độc giả. Chỉ từ chối nếu âm lượng quá cao khiến bản ghi âm bị vỡ hoặc (phổ biến hơn) nếu âm lượng quá nhỏ khiến bạn không thể nghe được những gì đang được nói nếu không tham chiếu đến văn bản đã viết.
+contribution-reader-effects-title = Hiệu ứng trình đọc
+contribution-reader-effects-description = Hầu hết các bản ghi âm là của những người nói chuyện bằng giọng nói tự nhiên của họ. Bạn có thể chấp nhận bản ghi âm không chuẩn thỉnh thoảng được hét lên, thì thầm hoặc rõ ràng là được phân phối bằng giọng ‘kịch tính’. Vui lòng từ chối các bản ghi âm đã hát và những bản ghi âm sử dụng giọng nói do máy tính tổng hợp.
+contribution-just-unsure-title = Không chắc chắn?
+contribution-just-unsure-description = Nếu bạn gặp điều gì đó mà các nguyên tắc này không đề cập đến, vui lòng bỏ phiếu theo đánh giá tốt nhất của bạn. Nếu bạn thực sự không thể quyết định, hãy sử dụng nút bỏ qua và chuyển sang bản ghi tiếp theo.
+see-more = <chevron></chevron>Xem thêm
+see-less = <chevron></chevron>Xem ít hơn
