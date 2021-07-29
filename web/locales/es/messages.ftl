@@ -112,6 +112,7 @@ my = Birmano
 myv = Erzya
 nb-NO = Noruego (Bokmål)
 ne-NP = Nepalí
+nia = Nias
 nl = Neerlandés
 nn-NO = Noruego Nynorsk
 oc = occitano
@@ -869,6 +870,7 @@ demo-account-sign-up = Enviar enlace de registro
 ## Demo Contribute
 
 demo-contribute-card-header = ¿Listo para agregar tu voz o prestar tu oído?
+demo-contribute-card-body-v2 = Ahora que sabes un poco más de Common Voice, ¿por qué no probarlo? Haz clic en el icono del micrófono para empezar a leer frases en voz alta. <br/><br/>Si prefieres revisar las contribuciones de voz de otras personas, haz clic en el icono de reproducción. Ayudarás a confirmar que las grabaciones coinciden con las oraciones escritas en pantalla.
 demo-listen-subtitle = ¿Listo para contribuir?
 
 ## Demo Dashboard
