@@ -907,5 +907,13 @@ demo-dashboard-card-body = Foar elk donearre spraakfragmint en elk falidearre au
 ## Validation criteria
 
 contribution-criteria-nav = Kritearia
+contribution-criteria-link = Bydragekritearia begripe
 contribution-criteria-page-title = Bydragekritearia
+contribution-criteria-page-description = Ynformearje jo oer wêrop't jo by it harkjen fan fragminten lette moatte en hoe't jo jo eigen stimopnamen ferbetterje kinne!
 contribution-for-example = bygelyks
+contribution-misreadings-title = Lêsflaters
+contribution-volume-title = Folume
+contribution-reader-effects-title = Lêzereffekten
+contribution-just-unsure-title = Gewoan ûnwis?
+see-more = <chevron></chevron>Mear toane
+see-less = <chevron></chevron>Minder toane
