@@ -931,6 +931,7 @@ contribution-misreadings-description-extended-list-2 = Falowacy <strong>'s'</str
 contribution-misreadings-example-5-title = Dźemy po kofej.
 contribution-misreadings-example-5-explanation = [Wobsah njewotpowěduje]
 contribution-misreadings-example-6-title = Dźemy po kofej.
+contribution-misreadings-example-6-explanation = [Dyrbjało „Dźemy“ rěkać]
 contribution-misreadings-example-7-title = Dźemy po jedyn kofej.
 contribution-misreadings-example-7-explanation = [‘a’ w originalnym teksće njeje]
 contribution-varying-pronunciations-title = Rozdźělne wurjekowanja
