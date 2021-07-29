@@ -257,6 +257,8 @@ Aethom ymlaen at y tŷ.
 Aethom yn ddistaw i fyny i’r llofft.
 Aethon nhw am dro lan yr hewl.
 Aethon nhw ar goll yn yr ogof.
+Aethon nhw i fyw y tu hwnt i’r afon.
+Aethon nhw nôl lawr ar hyd llwybr gwahanol.
 Aethon ni am baned i Starbucks tra oedden ni yn y dre.
 Aethon ni am dro i fyny at yr eglwys ar y mynydd.
 Aethon ni draw i'r Bala i gwrdd â chriw o ferched heini iawn.
@@ -775,6 +777,7 @@ Beth ydych chi’n ei feddwl pan rydych chi’n edrych dros y lluniau.
 Beth ydych yn sylwi arno wrth ddehongli'r graff llinell?
 Beth yn y byd mawr sy wedi digwydd iddi?
 Beth yw cyfanswm y darnau arian i gyd?
+Beth yw dy farn di am y datblygiadau diweddaraf?
 Beth yw eich polisi?
 Beth yw gwaith curadur mewn amgueddfa?
 Beth yw'r gwahaniaeth rhwng pynciau craidd a dewisol?
@@ -1148,6 +1151,7 @@ Bydd angen i chi fod yn gyfathrebwr hyderus a medrus
 Bydd angen i chi hefyd fod yn frwdfrydig
 Bydd angen i ni olchi’r ffenestri hefyd.
 Bydd angen iddynt ffilmio a rhoi'r ffilm at ei gilydd
+Bydd angen sgidiau cerdded synhwyrol arnoch chi yn y mwd.
 Bydd angen syniadau arloesol a dewrder i dorri tir newydd
 Bydd angen taflenni gwaith, pensiliau lliw, siswrn a glud.
 Bydd angen tystiolaeth ymarferol ac ysgrifenedig am yr uned yma
@@ -1256,6 +1260,7 @@ Bydd tystiolaeth ffotograffig yn helpu dangos y myfyriwr yn y gweithle
 Bydd ugain eiliad i bob person yn y grŵp
 Bydd un hectar o rostir yn talu am aelodaeth flynyddol
 Bydd un ohonynt, o leiaf, yn meddwl am emyn, os nad yn ei ganu.
+Bydd y bws gwennol yn gyfleus iawn i ni.
 Bydd y cerbydau hyn yn ymddangos ym maes parcio'r garej.
 Bydd y cloc yn taro ar yr awr bob awr.
 Bydd y clwb yma o fudd i'r holl gymuned
@@ -1266,10 +1271,12 @@ Bydd y digwyddiad hefyd yn gyfle i rwydweithio gyda busnesau eraill yr ardal
 Bydd y disgyblion yn eistedd ar y mat yn edrych ar yr athrawes
 Bydd y dysgwr yn gorfod cwblhau'r dasg yn hollol annibynnol.
 Bydd y dysgwyr yn mynd ati i ail ddrafftio disgrifiad o'u hoff dymor
+Bydd y grŵp dysgwyr yn mynd am dro gyda’i gilydd fore Sadwrn.
 Bydd y gweddill yn bwrw’r Sul heb fynd i unman.
 Bydd y gwregys yn mynd o gwmpas y wast.
 Bydd y gwynt yn gostegu hefyd gan achosi niwl mewn mannau
 Bydd y gêm yn fyw ar y teledu.
+Bydd y llanw uchel nesaf am bum munud wedi deg y nos.
 Bydd y llau yn farw o fewn diwrnod.
 Bydd y llyfrau ariannol yn cau ar ddiwedd y mis yma
 Bydd y pengwinod yn nofio yn y môr i osgoi gwres yr haul.
@@ -1292,6 +1299,7 @@ Bydd yn canolbwyntio ar dynnu, gwthio a throi
 Bydd yn llonydd am funud a phaid â chnoni.
 Bydd yn ofalus wrth ddringo i’r llwyfan.
 Bydd yn ofynnol i chi arwyddo ym mhresenoldeb tyst annibynnol
+Bydd yn rhaid ail gloddio sylfeini’r tŷ.
 Bydd yn rhaid codi’n gynnar bore fory i ddal y trên i Gaer.
 Bydd yn rhaid i bawb yn y grŵp gymryd eu tro.
 Bydd yn rhaid i mi fynd i’r gwaith yn gynnar bore fory.
@@ -1305,6 +1313,7 @@ Bydda i hanner awr yn hwyr i’r cyfarfod.
 Bydda i hefyd yn rhoi posteri mewn ysgolion cerddoriaeth a chlybiau ieuenctid
 Bydda i mewn cyfarfod bore 'ma, ond nôl yn y swyddfa erbyn hanner dydd.
 Bydda i nôl yn y gwaith ddydd Llun.
+Bydda i yma eto yr un amser bore fory.
 Bydda i’n dechrau rhedeg yn yr haf.
 Bydda i’n ganol oed cyn bo hir.
 Bydda i’n gwneud teisen sbwng i de.
@@ -1429,6 +1438,8 @@ Byddwn ni angen cysylltiad da gyda’r we i fynd ar Skype.
 Byddwn ni yn glyd iawn yn ein cartref newydd.
 Byddwn ni’n bwyta am un o’r gloch.
 Byddwn ni’n hwyr i’r cwrdd plant.
+Byddwn ni’n mynd am dro i Gastell y Penrhyn brynhawn Sul.
+Byddwn ni’n mynd am wythnos i gerdded llwybr yr arfordir yn Sir Benfro.
 Byddwn ni’n ymgeisio am warant llys i drefnu hyn.
 Byddwn yn cynnal nifer o ddigwyddiadau hyfforddi yn nhymor yr hydref
 Byddwn yn ddiolchgar am unrhyw rodd, boed fach neu fawr
@@ -2097,6 +2108,7 @@ Chawsom ni ddim ein gweld am yn hir.
 Chdi sydd bia’r ci bach?
 Chdi ydi honna o dan y fan yna
 Cheith neb siarad yn y cyfarfod.
+Chewch chi ddim eistedd wrth y bar i gael diod.
 Chewch chi mo’i glywed o.
 Chewch chi mo’i weld o chwaith nes bydd o mewn print.
 Chi fydd y darllenydd newyddion sydd yn y stiwdio
@@ -2215,6 +2227,7 @@ Cododd hi glicied y drws ffrynt yn araf ofalus.
 Cododd o’i gwely a tharo siôl o’i chmwpas.
 Cododd o’i wely yn y bore wedi penderfynu.
 Cododd y can cwrw a gadael y fynwent fechan
+Codwch eich llaw os ydych chi eisiau gofyn cwestiwn.
 Codwyd cofeb iddo ar y tŷ lle'i ganed gan y Sefydliad Ffiseg.
 Codwyd mwnt canoloesol ar ei ben.
 Codwyd o dywodfaen lleol, coch ond gwyngalchwyd drosto.
@@ -2222,6 +2235,7 @@ Codwyd y llawr chwe modfedd er mwyn gosod system gynhesu.
 Coed llwyfen ydy prif fwyd y siani flewog.
 Cof gennyf fod arnaf ofn myned adref wrth feddwl am brofedigaeth fy mam.
 Coffa da amdano.
+Coffi du, cryf i fi os gwelwch yn dda.
 Cofia bod rhaid i chdi ddechrau bob brawddeg gyda phrif lythyren
 Cofia olchi dy ddwylo pan ti’n cyrraedd adra.
 Cofia, nid oes angen alcohol i gael hwyl
@@ -2236,6 +2250,7 @@ Cofion i ti o’r pen yma hefyd.
 Cofir am Lewis yn bennaf am ei gyfraniad i lenyddiaeth Gristnogol.
 Cofiwch ddefnyddio berf orchmynnol ar ddechrau pob rheol.
 Cofiwch ddefnyddio'r hashnod.
+Cofiwch ddod â fflasg a dillad cynnes gyda chi.
 Cofiwch egluro pam ac i beth bob amser
 Cofiwch fod croeso i chi yma unrhyw bryd.
 Cofiwch gadw’ch teganau yn daclus cyn mynd i’r gwely.
@@ -3069,6 +3084,7 @@ Derbyniodd y gwahoddiad a chyhoeddodd anerchiad etholiadol.
 Derbynnir fel term daearegol drwy'r byd.
 Dere mla’n, ni’n hwyr.
 Dere ’da fi i siopa pnawn ’ma.
+Deth y postmon â pharsel mawr i mi bore ’ma.
 Dethlir y diwrnod mewn rhai mannau drwy wisgo rhuban porffor.
 Detholiad hyfryd o rai o sonedau ac ysgrifau un o gewri llenyddiaeth Cymru.
 Detholiad o dros ugain o hwiangerddi Cymru, wedi eu darlunio.
@@ -3190,6 +3206,7 @@ Dim ond cartonau plastig o lefrith oedd yno.
 Dim ond chwe oed yw hi.
 Dim ond dau ddiwrnod sydd ar ôl tan y gwyliau.
 Dim ond dau gymeriad sydd yn y bale, un dyn ac un fenyw.
+Dim ond dau oedd yn y ras, a dim ond un enillydd oedd yna.
 Dim ond dwy awr sydd ar ôl gyda ni.
 Dim ond dŵr fydda i’n yfed.
 Dim ond gwydraid o ddŵr gafodd hi.
@@ -3459,6 +3476,7 @@ Doedd yr ystafell aros ddim yn gyfforddus iawn.
 Doedd ’na ddim diheintydd ar ôl yn y siop.
 Doeddach chdi ddim yn licio’r lle bwyd Mecsicanaidd?
 Doeddan ni heb i weld o ers misoedd.
+Doedden nhw ddim yn cofio lle roedden nhw wedi gadael y car.
 Doedden nhw ddim yn fodlon cynnal y cyfweliad ym Mangor.
 Doedden nhw ddim yno yn hir cyn i’r goleuadau gael eu diffodd.
 Doedden nhw’n cofio am ddim ond amdanyn nhw eu hunain.
@@ -3486,6 +3504,7 @@ Does dim byd byth yn digwydd yn y lle diflas yma.
 Does dim byd da ar y teledu heno.
 Does dim byd fel bara lawr a cocs i frecwast.
 Does dim byd fel dŵr i dorri syched.
+Does dim byd gwell na thost a marmalêd i frecwast.
 Does dim byd mor fendigedig â robin yn dangos ei hun.
 Does dim byd yn tyfu ond grug ac eithin a banadl.
 Does dim cofnod o unrhyw bleidlais a fwriwyd ganddo ar faterion gerbron y Tŷ.
@@ -3509,14 +3528,17 @@ Does dim llawer o ganu o gwmpas y cae.
 Does dim lot o gystadleuaeth yn ardal y dacl.
 Does dim modd ei dal hi ym mhob man.
 Does dim modd ei gwblhau.
+Does dim mwy o le ar ôl yn yr atig.
 Does dim mynyddoedd yno i fod yn rhwystr naturiol.
 Does dim o olion y tŵr wedi goroesi.
+Does dim o’i le ar baned dda o de gyda llwyaid o siwgr.
 Does dim penderfyniad arall gen i
 Does dim pocedi ar y siorts sydd yn anfantais
 Does dim posib ei newid, oherwydd strwythur y rhan yna o'r cod.
 Does dim pwynt i ti ddisgwyl ei weld e.
 Does dim rhaid bachu'r ddau ben, dw i'n cymryd?
 Does dim rhaid cadw plant o'r ysgol os oes ganddynt lau.
+Does dim rhaid i chi ysgrifennu brawddegau llawn, mae pwyntiau bwled yn ddigon.
 Does dim rhyfedd iddo orfod cael triniaeth i wella mewn ysbyty.
 Does dim sail hanesyddol na ieithyddol i'r myth.
 Does dim tystiolaeth bod un llofruddiaeth o’r fath wedi digwydd yma.
@@ -3644,6 +3666,7 @@ Dw i angen rhoi lliw yn ’y ngwallt.
 Dw i byth wedi clywed am gystadleuaeth cân Intervision.
 Dw i byth yn medru deffro’n fuan.
 Dw i ddim am gael plentyn yn gwisgo du yn crwydro o gwmpas.
+Dw i ddim am roi gwaith cartref i chi yr wythnos hon.
 Dw i ddim eisiau athrawes bersonol.
 Dw i ddim eisiau bechgyn, dos i ffwrdd.
 Dw i ddim eisiau fe.
@@ -3923,6 +3946,7 @@ Dydi e ddim yn malio am neb.
 Dydi e ddim yn malio beth mae pobl yn ei feddwl.
 Dydi hi ddim isio lobsgows i swpar.
 Dydi hi ddim wedi dod adra heno.
+Dydi hi ddim wedi stopio bwrw glaw ers dyddiau.
 Dydi hi ddim yn byta cig.
 Dydi hi ddim yn cytuno hefo iwsio lledr achos bo’ hi’n figan.
 Dydi hi ddim yn gwybod lle mae gartre.
@@ -3939,9 +3963,11 @@ Dydi o ddim yn meindio’r galw.
 Dydi o ddim yn mynd i drwblu’i hun yn dy gylch.
 Dydi plant ddim yn gallu chwarae’n dawel.
 Dydi pobl byth yn fy hoffi i a dw i byth yn hoffi pobl.
+Dydi trên bach yr Wyddfa ddim yn mynd ar y funud.
 Dydi’i drafferthion o yn ddim busnes i’r gweision ddeudodd o.
 Dydi’r dôn yna ddim yn gyfarwydd i fi.
 Dydi’r golau ddim digon llachar.
+Dydi’r golau trydan ddim yn gweithio felly rwy’n eistedd yn y tywyllwch.
 Dydi’r printar ddim yn gweithio achos bod ’na rywbath yn styc ynddo fo.
 Dydi’r system awyru ddim yn gweithio.
 Dydi’r tatws ddim yn barod i’w hel.
@@ -4090,6 +4116,7 @@ Dyma gerdd fach i chi o'r diwedd.
 Dyma gipolwg ar rai o Gymry enwog drwy'r canrifoedd.
 Dyma glip fideo o'r dysgwr yn cymryd rhan mewn gwers addysg gorfforol
 Dyma gopa uchaf yr ynys.
+Dyma gopi o’r fwydlen i chi eto i chi gael dewis eich pwdin.
 Dyma gronicl y ddinas breifat.
 Dyma gychwyn dirwasgiad byd-eang.
 Dyma gyfarwyddiadau cryno i'ch cynorthwyo gyda'ch trefniadau teithio
@@ -4214,6 +4241,7 @@ Dyma’r cyfle i ddweud eich dweud.
 Dyma’r erthygl oedd dan sylw yn y seminar.
 Dyma’r ffotograffau a dynnwyd gan y plant ar eu helfeydd.
 Dyma’r gerddi lle roedd y ffrwythau a’r llysiau yn cael eu tyfu.
+Dyma’r gwaith nôl i ti wedi’i gywiro.
 Dyma’r gwaith papur i ti.
 Dyma’r lle cyntaf welsom yn Llydaw.
 Dyma’r lle delfrydol i ddod â’r daith i ben.
@@ -4248,6 +4276,7 @@ Dyna beth oedd siarad plaen.
 Dyna beth oedd y fath haerllugrwydd.
 Dyna biti iddi ddod i’r glaw.
 Dyna bynciau’r gystadleuaeth a dyma’r rheolau eto.
+Dyna ddiwrnod arall wedi dod i ben, nos da i chi gyd.
 Dyna ddylai fod yn nod yn y pen draw.
 Dyna drychineb, mae’r tin bisgedi yn wag.
 Dyna ffordd ddyfeisgar o dynnu sylw at Gymru, yr iaith, a diwylliant.
@@ -4264,6 +4293,7 @@ Dyna lle roedd y robin wrthi yn cwblhau ei gân.
 Dyna lle roedd yr aderyn gyda’r fron goch yn hedfan atyn nhw
 Dyna lle’r oedd y goeden yr ochr arall i’r wal.
 Dyna mae o’n ddeud ar flaen y siop.
+Dyna ni, dyna ddiwedd ar y drafodaeth am heddiw.
 Dyna oedd ei awgrym heddiw.
 Dyna oedd fy uchelgais ers pan oeddwn i’n ddeg oed.
 Dyna oedd y peth gorau y gallai hi fod wedi gwneud.
@@ -4931,6 +4961,7 @@ Fe wasgara hi y tywyllwch, fe ymlid ymaith nos anwybodaeth.
 Fe welai ferch ddewr a phrydferth ar gefn ceffyl gwyn.
 Fe welodd fod stafell mewn cornel i fyny’r grisiau yn dangos golau pŵl.
 Fe welodd y robin yn sboncian dros bentwr bach o pridd ffres.
+Fe welson ni haid o wyddau yn hedfan heibio.
 Fe welwch chi goeden fach hyfryd yn tyfu yng nghanol y llannerch yna.
 Fe welwn Gwynfor yn fynych yn y Pwyllgor Rhanbarth yn y Dolwar.
 Fe wna i weithio ar yr ochr ariannol y bore 'ma
@@ -5014,6 +5045,7 @@ Fedran nhw ddim fforddio ildio yn y fan hon.
 Fedran ni ddim mynd i heicio heddiw achos ma’ hi’n rhy oer.
 Fedrech chi wastad gerdded mewn i ardd.
 Fedri di argraffu pedwar copi o hwn i fi ar frys.
+Fedri di argymell llyfr arall i fi ddarllen?
 Fedri di ddarllen?
 Fedri di ddim aros gyda ni.
 Fedri di ddim dysgu’n ddigon buan.
@@ -5261,6 +5293,7 @@ Fydd canlyniadau Rhyl ddim yn cyfri, rwy'n tybio.
 Fydd dim awyrennau yn hedfan fory.
 Fydd dim yn gwneud cymaint o les iddi na rhaff sgipio.
 Fydd e bob amser yn dod pan fyddwch chi’n galw arno?
+Fydd hi ddim yn hir tan y Nadolig bellach.
 Fydd rhaid i fi fynd nol i'r ysgol.
 Fydd y mwnci'n ffeindio'i fam?
 Fydda i byth yn gwylio’r teledu bellach.
@@ -5418,6 +5451,7 @@ Gall y morter sy'n eu cadw at ei gilydd amrywio'n fawr.
 Gall y patrymau ar ei gorff amrywio cryn dipyn.
 Gall y pils hefyd achosi newidiadau tymer neu bersonoliaeth.
 Gall y plant ddewis yr adnoddau gwahanol a wneud cerdyn unigryw eu hun.
+Gall y plant fynd ar ei beics ar y prom yn Llandudno.
 Gall y plentyn fod yn ferch neu'n fachgen.
 Gall y prinder anadl gadw'r claf yn effro yn y nos.
 Gall y problemau sylfaenol hyn gynnwys trawma, heintiau, neu strôc ymhlith eraill.
@@ -5728,6 +5762,7 @@ Gobeithio na fydd hi ddim yn rhy boeth yr haf yma.
 Gobeithio wneith pobl bwysig Twitter wrando.
 Gobeithio y bydd modd gwneud y pwynt yn glir.
 Gobeithio y bydd y berthynas yn gwella rhwng y ddwy wlad.
+Gobeithio y bydd y toriad tân yn effeithiol i ostwng nifer yr achosion.
 Gobeithio y byddi di’n well yn fuan.
 Gobeithio y caf gyfle i drafod a threfnu arholwyr yn fuan iawn
 Gobeithio y cawn ni fodd i fyw yn onest, beth bynnag a ddaw.
@@ -6106,6 +6141,7 @@ Gwyddwn fod ganddi galon lawn.
 Gwyddwn fwy am ei helynt a’i thrafferth nag a ddychmygai hi.
 Gwyddwn mai wrth syllu ar ryw afonig neu fynydd y byddai'n dechrau canu.
 Gwyddys, bellach, fodd bynnag fod y dyddiad geni hwn yn anghywir.
+Gwyliwch rhag i’r gwylanod ddwyn eich hufen iâ chi.
 Gwyliwch y fideo a dewch ar siwrne gyda ni
 Gwyliwch, mae nadredd gwenwynig yma.
 Gwyn yw lliw eu hwyau.
@@ -6319,10 +6355,13 @@ Hoffwn i ddim newid lle â hi am bris yn y byd.
 Hoffwn i ddod i’ch gweld chi ar ôl gwaith.
 Hoffwn i fedru cymryd rhan yn The Great British Bake Off.
 Hoffwn i fod wedi mynd i’r Eidal ar fy ngwyliau haf.
+Hoffwn i fynd i weld y morloi ger Trwyn y Fuwch.
 Hoffwn i fynd i’r Eidal am ein gwyliau eleni.
 Hoffwn i gael blodfresych gyda saws caws.
+Hoffwn i gael dau bysgodyn a sglodion bach os gwelwch yn dda.
 Hoffwn i gael pizza i swper heno.
 Hoffwn i gario pum diwrnod o wyliau ymlaen at flwyddyn nesaf.
+Hoffwn i siarad ar bwnc sy’n agos iawn at fy nghalon i.
 Hoffwn i weld cyfres newydd yn y dyfodol
 Hoffwn i weld eich bwthyn chi.
 Hoffwn i weld y rheolwr os gwelwch yn dda.
@@ -6342,6 +6381,7 @@ Holl bwrpas cael llywodraeth yw iddynt reoli dadleuon megis hon
 Hollywood yw canolfan diwydiant ffilmiau America.
 Homilïau gyda chyflwyniad gan Ieuan Wyn a cherdd gan Dafydd Glyn Jones.
 Hon oedd eu buddugoliaeth ddiwethaf hyd yn hyn.
+Hon ydi’r ddarlith gyntaf mewn cyfres o dair.
 Hon ydi’r plentyn nad oedd byth neb yn ei gweld.
 Hon yw'r seremoni i agor y pumed Cynulliad ers i ddatganoli ddechrau
 Honno oedd yr allwedd i’r ardd gaeedig.
@@ -6471,6 +6511,7 @@ I’r Plas aeth i ddechrau, gan fod ei thad yn gweithio yno.
 Jac yw ei enw ar ôl ei dad fedydd
 Jest licio'r clawr dw i.
 Joben fach i rywun ei drwsio.
+Joe Biden fydd arlywydd nesaf yr Unol Daleithiau.
 John Bully, Ywain Taffi, a Daniel Paddy yw enwau llawn y tri penteulu.
 Joies i sgwennu'r llyfr.
 Joiwch, yr hipis.
@@ -6547,6 +6588,7 @@ Llongyfarchiada mawr i 'nghyfaill.
 Llongyfarchiadau ar eich priodas a phob dymuniad da am y dyfodol
 Llongyfarchiadau i bawb a gystadlodd.
 Llongyfarchiadau i'r holl awduron ar restrau byr Llyfr y Flwyddyn eleni.
+Llongyfarchiadau i’r Ffindir am guro Ffrainc mewn gêm gyfeillgar.
 Llongyfs i chi gyd.
 Llonnodd fy nghalon pan ddeallais fod popeth drosodd a fy mod yn orchfygwr.
 Llu o bwyntiau trafod yn fama.
@@ -7002,6 +7044,7 @@ Mae cytseinedd wedi cael ei ddefnyddio yn y llinell.
 Mae dad yn byta afal.
 Mae dad yn taflu crwyn banana wrth fôn y llwyni rhosod.
 Mae daearyddiaeth yn bwysig iawn.
+Mae dail yr hydref yn troi yn goch ac yn felyn ac yn frown.
 Mae dal lot i'w wneud.
 Mae damcaniaeth brasamcanu yn gangen o fathemateg.
 Mae damcaniaethau ffiseg clasurol yn disgrifio tri dimensiwn ffisegol.
@@ -7132,6 +7175,7 @@ Mae e’n cadw nadredd mewn tanc.
 Mae e’n dal i gysgu’n sownd.
 Mae e’n giciwr da iawn.
 Mae e’n gweithio yn Aberystwyth.
+Mae e’n gwneud bron y cyfan o’i siopa drwy’r post.
 Mae e’n methu siarad Cymraeg.
 Mae e’n mynd i Lundain yn y bore.
 Mae e’n teimlo’n well erbyn hyn.
@@ -7174,6 +7218,7 @@ Mae gan bob unigolyn farn wahanol am fywyd a marwolaeth.
 Mae gan ddadansoddi data sawl agwedd a thechnegau amrywiol.
 Mae gan ddisgyblion y cyfle i ddewis ei hunain a defnyddio ei sgiliau arlunio.
 Mae gan drychiadau conig y plân Ewclidaidd amryw o nodweddion.
+Mae gan ein cymdogion ni feranda gwydr newydd.
 Mae gan ferched yr un hawliau â dynion
 Mae gan ffrind Mali, Aled, gi bach newydd o'r enw Titw.
 Mae gan gwnstabl rif personol ar ei fathodyn.
@@ -7246,6 +7291,7 @@ Mae gen i deimlad eu bod nhw'n ymdrechu bod yn awdurdod eu hunain.
 Mae gen i deulu o Groeg.
 Mae gen i draethawd i’w sgwennu erbyn bore fory.
 Mae gen i flog os ’dach chi isio cymryd golwg.
+Mae gen i gopi o’r Cydymaith i Gerddoriaeth Cymru ar fy silff lyfrau.
 Mae gen i grys T pinc newydd ond mae’n rhy fach i fi.
 Mae gen i gynhadledd yng Nghernyw, ac rwy'n mynd yn syth yno.
 Mae gen i haen o fraster o dan fy ffwr
@@ -7265,6 +7311,7 @@ Mae gennym ni’r Cymry bob hawl i waradwyddo ein hunain.
 Mae gennym wythnos brysur wythnos yma, gyda'n holl ddigwyddiadau i fabis
 Mae geometreg algebraidd yn gangen o fathemateg, sy'n astudio seroau polynomialau aml cyfeiriol.
 Mae gerddi y plasdy yn hardd iawn.
+Mae gerddi’r Ymddiriedolaeth Genedlaethol ar agor, ond i chi fwcio ymlaen llaw.
 Mae germaniwm, fodd bynnag yn hynod brin.
 Mae gewynnau a chyhyr, felly'n gweithio gyda'i gilydd i dynnu.
 Mae glanio yng ngwlad Pwyl yn chwip o olygfa.
@@ -7341,6 +7388,7 @@ Mae hefyd yn medru cael ei gynhyrchu mewn chwarennau paill allanol.
 Mae hefyd yn mwynhau coginio yn enwedig bisgedi a chacennau
 Mae heigiadau llau pen yn gyffredin iawn, yn enwedig ymysg plant.
 Mae hen fenyw fach Cydweli yn gwerthu losin du.
+Mae hen oleuadau’r goeden wedi torri.
 Mae heolydd, ysgolion, rheilffyrdd a busnesau wedi cael eu difrodi
 Mae hi am goginio bwyd sbesial i swper.
 Mae hi am gwcio bwyd figan i swper.
@@ -7426,6 +7474,7 @@ Mae hi’n methu dweud yr amser.
 Mae hi’n pluo eira.
 Mae hi’n siarad rŵan am ei brofiad o addysg.
 Mae hi’n sâl iawn.
+Mae hi’n tywyllu’n gynnar fin nos erbyn hyn.
 Mae hi’n unig iawn weithiau.
 Mae hi’n werth cofio rhybudd arbenigwr am yr effaith bosib.
 Mae hi’n werth mynd.
@@ -7547,6 +7596,7 @@ Mae llawer iawn o'r cylchoedd hyn yn ymwneud â chladdu gweddillion dynol.
 Mae llawer o bwyslais ar frawddeg unigol.
 Mae llawer o flodau yn yr haf, ond does dim yn blodeuo rŵan.
 Mae llawer o gyrsiau golff yn yr Alban.
+Mae llawer o lefydd braf i gerdded ar lan y môr ym Mangor.
 Mae llawer o lygredd yno.
 Mae llawer o olew yn dal ar y traeth.
 Mae llawer o rannau o'r corff yn cael eu heffeithio gan y cyflwr.
@@ -7714,6 +7764,7 @@ Mae penodau am ddaeareg, hanes naturiol, hinsawdd a diwydiant.
 Mae perfformiad y dde eithafol yn lot cryfach yno nag yng ngweddil y wlad.
 Mae peryg i’r hufen iâ doddi.
 Mae perygl i’r crac ledu.
+Mae peswch a cholli’r synnwyr o flas yn ddau o arwyddion Covid.
 Mae peswch yn medru bod yn wirfoddol neu'n anwirfoddol.
 Mae peth dryswch parthed ei gyfnod fel myfyriwr.
 Mae pethau yn mynd o chwith.
@@ -7971,6 +8022,7 @@ Mae yna le i fathemateg ar y cwricwlwm am resymau amlwg
 Mae yna nifer o adrannau yna am bob math o salwch neu afiechyd
 Mae yna nifer o iPads yn tŷ ni.
 Mae yna olion o feddrodau o Oes yr Haearn.
+Mae yna rai misoedd cythryblus o’n blaenau ni, fe ymddengys.
 Mae yna reswm ac achos y tu ôl i bob profiad.
 Mae yna wefr negatif ar yr ocsigen a gwefr bositif ar yr hydrogen
 Mae ynddo hefyd asid tartarig ac asid sitrig ac eraill.
@@ -8647,6 +8699,7 @@ Maen nhw wedi bod yn defnyddio'r deunydd mewn amrywiaeth o ddillad a sgidiau
 Maen nhw wedi cael eu gorfodi i weithio.
 Maen nhw wedi cicio un ar bymtheg o weithiau yr un.
 Maen nhw wedi codi pris alcohol yng Nghymru.
+Maen nhw wedi dadbacio pob dim ond y lluniau ar gyfer y waliau.
 Maen nhw wedi darganfod y gloddfa gerrig wreiddiol.
 Maen nhw wedi dofi erbyn hyn.
 Maen nhw wedi dymchwel y sgrym eto.
@@ -8665,6 +8718,7 @@ Maen nhw'n pleidleisio ar y cynnig rŵan.
 Maen nhw'n sgipio hedfan, a hynny bron fel igian, hopian ar adegau.
 Maen nhw'n ymddangos i fod yn dilyn thema.
 Maen nhw, fodd bynnag, yn brin, ar wahân i garbon a silicon.
+Maen nhw’n ail gyfrif y pleidleisiau mewn ambell etholaeth.
 Maen nhw’n byw yn y gogledd ers blynyddoedd maith.
 Maen nhw’n cael brechdanau tiwna i ginio.
 Maen nhw’n casglu sbwriel bob yn ail ddydd Iau.
@@ -8731,6 +8785,7 @@ Mae’n anodd dianc o afael y siarcod.
 Mae’n arbenigwraig ym maes datblygiad plant ac wedi teithio ar draws y byd.
 Mae’n awyrgylch cynhwysol a charedig.
 Mae’n bosibl dweud bod pobl ddwyieithog yn fwy deallus a gwybyddol.
+Mae’n bryd i ni bacio teganau’r plant.
 Mae’n bryd i ti fynd â’r biniau allan.
 Mae’n bryd i’r gwalch ddychwelyd i’r Ddyfi.
 Mae’n bum milltir i’n bwthyn ni.
@@ -8755,6 +8810,7 @@ Mae’n dewis iaith estronol yn lle ei iaith ei hun.
 Mae’n dibynnu ar osodiadau'ch porwr.
 Mae’n dibynnu ar y driniaeth, unrhyw gymhlethdodau ac iechyd cyffredinol y claf.
 Mae’n dipyn o frwydr o ran y gêm gicio.
+Mae’n drueni mawr na chawsom ni gwrdd yn y Steddfod eleni.
 Mae’n dweud arni hi hefyd.
 Mae’n edrach yn dda, chwara teg.
 Mae’n edrych am y bwlch.
@@ -8826,6 +8882,7 @@ Mae’n syllu arna i mewn ffordd ryfedd.
 Mae’n trio’i orau i beidio mynd yn uchel.
 Mae’n un newydd pwrpasol o'i olwg.
 Mae’n wahanol yn India.
+Mae’n well gen i gorau meibion.
 Mae’n well gen i wisgo sanau cotwm pur.
 Mae’n well gen i y llywodraeth newydd na’r hen un.
 Mae’n werth ei wylio.
@@ -8835,8 +8892,10 @@ Mae’r adar wedi dechrau canu cyn iddi wawrio.
 Mae’r adar yn canu tu allan i’r ffenast.
 Mae’r adar yn canu tu fas i’r ffenest.
 Mae’r adroddiad yn beirniadu rheolaeth ariannol y ganolfan gelfyddydol.
+Mae’r afon wedi gorlifo yn dilyn y glaw diweddar.
 Mae’r amgueddfa mewn llecyn hyfryd yn y gerddi botanegol.
 Mae’r antipasti wedi’i wneud gyda reis.
+Mae’r argyfwng Covid yn gwaethygu.
 Mae’r argyfwng gyda gorgynhesu’r byd yn gwaethygu.
 Mae’r argyfwng yn effeithio ar bawb.
 Mae’r arweinydd wedi ei ddisodli.
@@ -8867,6 +8926,7 @@ Mae’r caws ar hyd y llawr.
 Mae’r ceffyl yn y cae.
 Mae’r ceffylau yn carlamu ar y bryn.
 Mae’r cefnforoedd yn elfen bwysig o’r system hinsawdd.
+Mae’r ceir Tesla newydd yn smart iawn ond yn ddrud i’w hyswirio.
 Mae’r cennin Pedr yn eu gogoniant ar hyn o bryd.
 Mae’r cesig gwynion yn amlwg ar y môr.
 Mae’r chwarae yn siomedig iawn.
@@ -8924,6 +8984,7 @@ Mae’r esgidiau yma’n rhy fach i mi.
 Mae’r esgidiau yna’n llawer rhy fach i ti.
 Mae’r etholiad diwethaf wedi dangos eu bod i gyd yn unfarn.
 Mae’r farchnad ar y sgwâr bob dydd Gwener.
+Mae’r feddygfa yn cau am bedwar o’r gloch.
 Mae’r fenyw yn gwisgo mwgwd.
 Mae’r fenyw yn llefen.
 Mae’r ferch fach yn chwythu swigod.
@@ -8953,6 +9014,7 @@ Mae’r gwenoliaid yn paratoi i adael.
 Mae’r gwenyn a’r ehedydd yn gwneud y fath sŵn hyfryd.
 Mae’r gwesty y drws nesaf i MacDonalds.
 Mae’r gwesty yn agos iawn i’r bwyty ’na ti’n licio.
+Mae’r gwres canolog newydd droi ei hun ymlaen, diolch byth.
 Mae’r gwynt ’di nocio petha’ drosodd tu allan.
 Mae’r gŵr wrthi yn clirio’r llestri.
 Mae’r hogan bach yn chwythu bybls.
@@ -8973,12 +9035,14 @@ Mae’r llifogydd wedi gadael llanast difrifol ar eu hôl.
 Mae’r llinell bron yn Lladin pur.
 Mae’r llong yn casglu cregyn gleision yn y bae.
 Mae’r llong ’na ’n anferth.
+Mae’r lluniau ysgol newydd yn barod.
 Mae’r llyfr yma wedi bod ar goll ers amser maith.
 Mae’r llyn yn bell iawn o adra.
 Mae’r llyswennod mawr yn hela’r crancod.
 Mae’r machlud mor hardd.
 Mae’r marchnadoedd stoc wedi disgyn yn ofnadwy.
 Mae’r marchnadoedd stoc yn disgyn yn gyflym.
+Mae’r melinau gwynt yn y môr yn cynhyrchu llawer o drydan erbyn hyn.
 Mae’r mochyn yn byta sgraps gegin.
 Mae’r mwyar duon a blodau’r grug yn ei nabod o.
 Mae’r môr yn beryg.
@@ -8993,6 +9057,7 @@ Mae’r peiriant golchi llestri wedi torri.
 Mae’r plant wedi cael ci bach newydd.
 Mae’r plant yn cyrraedd lefel dda yn barod.
 Mae’r plant yn gallu sgïo yn iawn.
+Mae’r plant yn hoffi’r llwybr beics yn Llanberis.
 Mae’r plant yn licio mynd ar y sleid.
 Mae’r plant yno fel arfer gyda’u rhieni.
 Mae’r plentyn i fod i ddod yma.
@@ -9022,6 +9087,7 @@ Mae’r saethiad yn parhau, cyn torri allan.
 Mae’r salad syml hwn yn gwneud pryd hynod flasus.
 Mae’r seremonïau’r orsedd yn digwydd yn ystod wythnos yr Eisteddfod.
 Mae’r storm drosodd am ychydig.
+Mae’r strydoedd yn dawel iawn ar hyn o bryd.
 Mae’r swyddfa’n oer er ’i bod hi’n boeth tu allan.
 Mae’r sêr môr yn bwyta’r llygaid meheryn.
 Mae’r tai yn eithaf mawr gyda gerddi blaen gweddol fach.
@@ -9030,6 +9096,7 @@ Mae’r te ’di mynd yn oer.
 Mae’r tegell wedi berwi.
 Mae’r theori ffeministiaeth yn cael ei dangos yma gan y ddwy awdures.
 Mae’r tonnau yn sgubo’r tywod i ffwrdd.
+Mae’r tonnau yn uchel iawn yn torri dros y morglawdd heno.
 Mae’r traethawd yn llawn dadansoddi treiddgar.
 Mae’r tylwyth i gyd wedi mynd ar ddisberod.
 Mae’r tywydd yn dal yn oer iawn.
@@ -9044,6 +9111,7 @@ Mae’r ymadrodd yn gwbl ddiamwys, ac yn arwyddocáu.
 Mae’r ymgynghoriad yn gyfle i bobl leisio eu barn ar y cynlluniau.
 Mae’r ymwybyddiaeth ei bod yn brifddinas yn treiddio yn araf i'r boblogaeth.
 Mae’r ynys yn bell o bob man.
+Mae’r ysbytai yn orlawn unwaith eto.
 Mae’r ysbyty agosaf yn bell i ffwrdd.
 Mae’u coctêls nhw’n rili neis.
 Magwyd Walter gan ei ewythr a'i hen ewythr.
@@ -10335,6 +10403,8 @@ Os byddaf yn newid y nifer bydd y cyfanswm llinell yn newid hefyd
 Os byddech chi’n ymweld â’r castell byddai’n tawelu eich meddwl.
 Os byddwn mewn grŵp, bydd costau'r gwersi yn mynd lawr
 Os chi'n meddwl teithio heddiw, cofiwch ddilyn y rheolau.
+Os cymysgwch chi goch a gwyn fe gewch chi binc.
+Os cymysgwch chi las a melyn fe gewch chi wyrdd.
 Os cânt eu dychryn, fodd bynnag, gallant hedfan ar gryn gyflymder.
 Os daw gwrthryfelwr i’ch tiriogaeth, caiff ei noddi a’i foethi gennych.
 Os daw’r eitem i glawr fe wnawn anfon e-bost atoch.
@@ -10342,6 +10412,7 @@ Os digwydd hyn byddwn yn cymryd camau priodol
 Os dydi o ddim yn cyrraedd mewn pryd fydda i mewn trwbl.
 Os edrych y teithiwr ar ei aswy, gwêl gofgolofn o wenithfaen.
 Os ei di rownd y ffordd yna fe ddei di at y gerddi.
+Os fedrwn ni orffen glanhau yn sydyn, gawn ni fynd allan am dro wedyn.
 Os felly, byddai'r un uchod yn dewis da.
 Os felly, gystal â bod yn farw, sbo.
 Os gall hyn aros tan fory Gwener gall Gwen wneud bryd hynny.
@@ -10350,6 +10421,7 @@ Os gwell gennyt ti, yr Undebwr, yw annibyniaeth, cymer dy annibyniaeth.
 Os gwelwch chi’n dda, fedrwch chi ddeud wrtha i lle mae Tyddyn Huwcyn?
 Os gwelwch yn dda, a gaf i aros yma gyda chi?
 Os gwelwch yn dda, dilynwch y prosiect cymunedol yma
+Os gwelwch yn dda, dychwelwch eich traethodau erbyn dydd Gwener.
 Os gwneir hyn am gyfnod hir, mae'r ysgarthion yn eithaf caled.
 Os gwyddom beth yw hafaliad y llinell, yna gellir cyfrifo'r graddiant.
 Os hoffech chi adleoli’n hawdd ac yn gyflym, rhowch alwad i ni.
@@ -10460,6 +10532,7 @@ Paciodd ei bag yn barod i’r daith.
 Pagan oedd Ffinn, wyddost, ac yr oedd yn gwrando’n astud.
 Paid a rhygnu a rhygnu fel yna o hyd, da thi.
 Paid agor drws y rhewgell.
+Paid becso, fydd e wedi anghofio am y cyfan erbyn heno.
 Paid bwyta gormod o hufen ia neu mi fydd dy fol di’n brifo.
 Paid defnyddio'r dacteg yna efo post wyt ti actiwali eisiau, wrth gwrs.
 Paid gwastraffu trydan, diffodd y golau.
@@ -10610,6 +10683,7 @@ Pecyn o hadau ymhob cyfrol.
 Pedair stori sydd yn cludo Morgan Wyn i fyd dychmygol.
 Pedwar cwmni technoleg rhyngwladol mawr yw Amazon, Apple, Google a Facebook.
 Peidiant â chyfrannu arian tuag at godi a chynnal yr eglwysi.
+Peidiwch anghofio rhoi dŵr i’r planhigion.
 Peidiwch cymryd mwy na dwy dabled Paracetamol ar y tro.
 Peidiwch ei daflu i ffwrdd, ail ddefnyddiwch e!
 Peidiwch fyth â chymryd dognau mwy neu fwy aml
@@ -10820,6 +10894,7 @@ Protest yn Whitehall.
 Pryd fu Dewi Emrys farw?
 Pryd fydd fy nhro i’n dod?
 Pryd fydd swper yn barod?
+Pryd fydd y siop fara yn agor yn y bore?
 Pryd fyddai'r amser mwyaf cyfleus i mi ddod i lawr?
 Pryd mae Dechrau Canu Dechrau Canmol?
 Pryd mae Sgorio ymlaen?
@@ -10937,10 +11012,12 @@ Rhaid i chi ei chymryd hi i’w stafell.
 Rhaid i chi fod yn garcus iawn yn y sgarmes.
 Rhaid i chi fynd i Lundain eich hun i’w chasglu hi.
 Rhaid i chi gael pigiad rhag y ffliw.
+Rhaid i chi gael pryd o fwyd gyda’ch diod.
 Rhaid i ffermwyr sefyll ar eu traed cyn bod y fferm deuluol ar ben.
 Rhaid i fi fynd â’r hen ddillad yma i’r siop elusen.
 Rhaid i mi ddweud gair neu ddau am fy ewythr.
 Rhaid i mi frysio adre.
+Rhaid i mi fynd i gadw’r car yn y garej gyntaf.
 Rhaid i mi fynd.
 Rhaid i mi gael sgidiau glaw newydd.
 Rhaid i mi geisio cofio’r rheswm yna.
@@ -10953,6 +11030,8 @@ Rhaid i ni fynd â’r gath at y ffariar.
 Rhaid i ni gael hyder ynon ni ein hunain.
 Rhaid i ni groesi’r afon er mwyn cario ’mlaen ar y llwybr.
 Rhaid i ni gwrdd am baned wedi i'r argyfwng yma basio.
+Rhaid i ni gyd gofio cadw pellter cymdeithasol y dyddiau hyn.
+Rhaid i ni hefyd wisgo mygydau mewn siopau a llefydd cyhoeddus.
 Rhaid i ni ofyn amdano.
 Rhaid i ni ofyn pam nad yw hi’n gerdyn melyn.
 Rhaid i ti beidio crio fel yna.
@@ -11458,6 +11537,7 @@ Roedd ganddo sosbenni a phedyll a phob math o ryw geriach.
 Roedd ganddo wraig a dwy ferch.
 Roedd ganddynt fab o'r enw Dafydd.
 Roedd ganddynt un gannwyll, i bara am bythefnos.
+Roedd golygfeydd braf i’w gweld o’r copa.
 Roedd golygfeydd hyfryd dros y penrhyn.
 Roedd grymoedd arbennig gan Myrddin.
 Roedd gwaith yr artist o gymorth i mi allu llunio gwaith dychmygus
@@ -11597,6 +11677,7 @@ Roedd hi’n teimlo dipyn yn flin drosti.
 Roedd hi’n teimlo fel petai wedi deall y robin goch.
 Roedd hi’n teimlo’n anghyffyrddus.
 Roedd hi’n welw gan ddicter.
+Roedd hi’n wyntog iawn ar y pier, ond roedd yr olygfa yn hardd.
 Roedd hi’r peth mwya digri yn y byd i weld yr hen ddyn.
 Roedd holl olau’r lloer a’r sêr wedi’i gronni’n dân gwenfflam.
 Roedd hwn yn gwybod ei fod o’n unig.
@@ -11785,6 +11866,7 @@ Roedd y crempog yna’n fendigedig.
 Roedd y cwmni yn datblygu gwefannau a gwasanaethau ar lein.
 Roedd y cwningod wedi bwyta’r letys yn yr ardd i gyd.
 Roedd y cwpan wedi torri’n deilchion ar lawr.
+Roedd y cychod yn y marina yn paratoi ar gyfer y gaeaf.
 Roedd y cyfeiliant braidd yn rhy dawel.
 Roedd y cyfieithiad o Gymraeg i Saesneg yn rhyfeddol o dda.
 Roedd y cyfweliadau yn llawn gwybodaeth ddefnyddiol ac yn ddiddorol iawn
@@ -11912,6 +11994,7 @@ Roedd y teulu'n Iddewon.
 Roedd y teulu'n fasnachwyr adnabyddus.
 Roedd y themâu'n cynnwys ei amheuon crefyddol, yr uchelwyr a magwraeth merched.
 Roedd y tonnau mân yn disgleirio yn yr haul.
+Roedd y traeth yn wag, ond roedd ambell i forlo yn y môr.
 Roedd y trefniant hwn yn caniatáu system weithredu fwy cymhleth.
 Roedd y trên wedi aros mewn gorsaf.
 Roedd y twll uwch y dŵr a dim peryg o suddo.
@@ -12147,6 +12230,7 @@ Roeddwn i'n hoff iawn o'r rhaglenni Steptoe and son.
 Roeddwn i'n siarad am eich rhagrith chi ar y mater.
 Roeddwn i’n gobeithio dy weld y tro nesaf y byddwn yn y de.
 Roeddwn i’n ifanc unwaith – wir-yr.
+Roeddwn i’n meddwl na fyddai’r cyfnod clo byth yn dod i ben.
 Roeddwn i’n sâl ar y cwch drosodd i Iwerddon.
 Roeddwn i’n teimlo'n freintiedig a deud y lleia.
 Roeddwn i’n ymarfer lot fawr.
@@ -12288,6 +12372,7 @@ Rwy’n awgrymu ein bod yn trosi’r ffeiliau i destun plaen.
 Rwy’n barod am baned arall erbyn hyn.
 Rwy’n byw ar Ffordd y Coleg.
 Rwy’n cael trafferth tynnu’r lluniau hyn i lawr o’r we.
+Rwy’n canu mewn côr cymysg.
 Rwy’n chwilio am garafán ail-law ar gyfer y Steddfod.
 Rwy’n copïo Siân o’r swyddfa i’r neges hon fel rhagrybudd iddi.
 Rwy’n credu mod i wedi cymryd y troad anghywir eto.
@@ -12297,11 +12382,14 @@ Rwy’n dyheu am i’r gwyliau haf gyrraedd.
 Rwy’n edmygu sut y gall gymryd newid mor fawr mor bositif.
 Rwy’n edrych ymlaen at glywed y gân yn cael ei chanu’n fyw.
 Rwy’n edrych ymlaen at y briodas ddydd Sadwrn.
+Rwy’n ei chael hi’n anodd dewis gwin i fynd gyda bwydydd figan.
 Rwy’n falch o weld y mymryn golau yna yn disgleirio.
+Rwy’n gobeithio mynd nôl i ardal Tregaron am wyliau eto flwyddyn nesaf.
 Rwy’n gwerthfawrogi hynny.
 Rwy’n gyfforddus iawn wrth weithio gydag unrhyw oedran yn yr ysgol gynradd.
 Rwy’n hoffi cerdded ar hyd y traeth hefyd.
 Rwy’n hoffi chwarae yn y cornel chwarae rôl ac yn y toes.
+Rwy’n hoffi corau cerdd dant.
 Rwy’n hoffi darllen hunangofiannau.
 Rwy’n hoffi dy glywed di’n siarad.
 Rwy’n hoffi ffuglen wyddonol.
@@ -12319,6 +12407,7 @@ Rwy’n mynd i liwio 'ngwallt yn goch tro nesa.
 Rwy’n mynd i wrando ar Cân i Gymru heno.
 Rwy’n ofni bydd fy het yn chwythu i ffwrdd yn y gwynt.
 Rwy’n ofni fod gwaeth i ddod.
+Rwy’n poeni’n ofnadwy am y canlyniadau.
 Rwy’n prynu fy nillad i gyd o siopau ail-law.
 Rydech chi yn sefyll tua’r fan lle’r oedd o gynt.
 Rydw i am wneud hyn oherwydd roeddwn arfer yn mynd i'r clwb
@@ -12373,6 +12462,8 @@ Rydym yn mynd i ddefnyddio geirfa i ddisgrifio ble mae cwningen.
 Rydym yn trin cleifion gydag urddas trwy gadw at reolau cyfrinachedd
 Rydym yn ymuno yn y frwydr i guro asthma
 Rydyn ni am fynd i sgïo i’r Alpau.
+Rydyn ni am gael coeden Nadolig go iawn eleni.
+Rydyn ni angen prynu bocsys newydd ar gyfer storio pethau.
 Rydyn ni ar y rhostir go iawn rŵan.
 Rydyn ni bron â chyrraedd ar ôl taith hwylus iawn.
 Rydyn ni mor gyffrous i helpu'r ysgolion a chreu cysylltiadau cryf gyda nhw
@@ -12385,7 +12476,9 @@ Rydyn ni'n croesawu ymwelwyr i'n hysgol
 Rydyn ni'n dweud wrthoch chi nawr.
 Rydyn ni'n gobeithio paratoi'r dosbarth cyfan cyn yr arholiad
 Rydyn ni’n cynghori pawb i aros yn y tŷ.
+Rydyn ni’n disgwyl ateb gan y peiriannydd strwythurau.
 Rydyn ni’n disgwyl rhagor o dywydd garw.
+Rydyn ni’n gobeithio ail beintio’r tŷ cyn dechrau’r gaeaf.
 Rydyn ni’n gwisgo cennin neu gennin Pedr ar Ddydd Gŵyl Dewi.
 Rydyn ni’n mynd ar ein gwyliau i Sbaen.
 Rydyn ni’n mynd i Gernyw ar ein gwyliau haf eleni.
@@ -12993,6 +13086,7 @@ Trois ar y dde hyd ffordd a'm denai i'w chysgodion.
 Troseddwyr a lladron oedd y rhan fwyaf o'r gwylliaid.
 Trosgais i Dan Biggar i orffen y gêm.
 Trosglwyddwyd y menywod i ofal parafeddygon cyn cael eu cludo i Ysbyty Gwynedd.
+Trowch i’r dudalen nesaf yn eich llyfrau gwaith.
 Trown ar y chwith ar hyd-ddi, a dyma ni wrth Hafod y Bibell.
 Trowyd hwy ymaith ac ychwanegwyd y tir at ffermydd eraill.
 Tro’r miwsig yn uwch.
@@ -13018,6 +13112,7 @@ Tua hanner awr wedi wyth, dyma hi adref.
 Tua'r adeg yma y rhoed yr enw Nantclwyd ar y lle.
 Tud draw pan ti'n rhydd.
 Tueddu yr oeddwn i chwerthin am ei ben.
+Twrci bach fydd gyda ni eleni, am mai dim ond dau fyddwn ni.
 Tybed a all Mali wneud hynny a chael mam-gu newydd yr un pryd?
 Tybed a fuasech mor garedig â'i gyfieithu?
 Tybed a fydd gan un ohonynt y priodoleddau sydd eu hangen?
@@ -13325,6 +13420,7 @@ Well gen i gig moch a dau wy.
 Welsoch chi erioed y fath gyfnewidiad.
 Welsoch chi’r fflôt yn y parêd?
 Welson ni ddim y lleuad oherwydd y cymylau.
+Welwn ni chi i gyd eto yr wythnos nesaf gobeithio.
 Wff, mae honna'n edrych yn delish.
 Wi angen glanhau’r llwch gyda dwster.
 Wi angen golchi dillad heddi.
@@ -13389,6 +13485,7 @@ Wnaethoch chi ddim dweud ei fod e wedi torri allan ymhlith eich gweision.
 Wnaethon ni ddim cyrraedd adre tan dri o’r gloch y bore.
 Wnaiff e ddim gweld pobl.
 Wnaiff o ddim gadael i neb siarad amdani.
+Wnaiff pawb yn y gynulleidfa ddiffodd eu meic os gwelwch yn dda.
 Wnaiff rhain ddim tyfu mewn noson.
 Wnaiff y dillad ddim sychu ar y lein heddiw, mae’n rhy wlyb.
 Wnawn ni ddod â’r anrhegion draw fory.
@@ -13781,6 +13878,7 @@ Y tro cyntaf y clywais sôn am Gwynfor oedd yng Nghaerdydd.
 Y tro hwn daeth pethau i ben.
 Y tro hwn, dewisais bwdin Japaneaidd, sef cacen gaws.
 Y tro hwnnw, bu’r Geg Fawr wrthi yn waeth nag arfer.
+Y tro nesaf y bydda i’n prynu car, car trydan fydd e.
 Y tro yma, dan ni wedi cyrraedd Saundersiana, chwedl D. Tecwyn Lloyd.
 Y tro yma, nofel am gariad a chasineb mewn un teulu yng nghefn gwlad.
 Y trydydd llyfr sy'n dilyn helyntion Maw, y gath fach sinsir.
@@ -13862,6 +13960,7 @@ Ydych chi wedi dal llawer o bysgod heddiw?
 Ydych chi wedi darllen Llyfr Glas Nebo eto?
 Ydych chi wedi dŵad yn ôl yn barod, ac wedi cysgu hefyd?
 Ydych chi wedi gweld neu synhwyro presenoldeb ysbryd?
+Ydych chi wedi ymuno â’r côr eto.
 Ydych chi yn y papur wythnos yma?
 Ydych chi'n barod am antur?
 Ydych chi'n caniatáu'r safon ofnadwy yma o newyddion?
@@ -14343,6 +14442,7 @@ Yng ngwledydd Prydain fe'i ceir yn yr Alban yn unig.
 Yng ngwledydd Prydain mae'n bryfyn eithaf prin.
 Yng ngwledydd Prydain, fe'i gwelir mewn iseldiroedd calchog sydd heb wrtaith arno.
 Yng ngwythiennau’r graig acw y mae aur.
+Ynni adnewyddol yw’r ffordd ymlaen os am osgoi cyflafan amgylcheddol.
 Yno ar ben y wal oedd y robin goch.
 Yno enillodd ei bywoliaeth fel labrwr amaethyddol.
 Yno fel welodd hi fwy o waliau a llysiau gaeaf a fframiau gwydr.

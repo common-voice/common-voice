@@ -228,7 +228,7 @@ function ProfilePage({
 
           <DownIcon />
         </button>
-        <Localized id="why-demographic-explanation">
+        <Localized id="why-demographic-explanation-2">
           <div className="explanation" />
         </Localized>
       </div>
@@ -263,7 +263,7 @@ function ProfilePage({
           </LabeledSelect>
         </Localized>
 
-        <Localized id="profile-form-gender" attrs={{ label: true }}>
+        <Localized id="profile-form-gender-2" attrs={{ label: true }}>
           <LabeledSelect value={gender} onChange={handleChangeFor('gender')}>
             <Options>{GENDERS}</Options>
           </LabeledSelect>
@@ -365,9 +365,10 @@ function ProfilePage({
                 checked={sendEmails}
               />
 
-              {!user.account && !isSubmitted && (
-                <>
+
+
                   <LabeledCheckbox
+                    {...(user.account || isSubmitted) ? {disabled: true} : {}}
                     label={
                       <>
                         <Localized id="accept-privacy-title">
@@ -397,8 +398,8 @@ function ProfilePage({
                       blank
                     />
                   </Localized>
-                </>
-              )}
+
+
             </div>
           </div>
 

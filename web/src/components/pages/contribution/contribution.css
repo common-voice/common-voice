@@ -1,4 +1,4 @@
-@import url('../../vars.css');
+@import url('../../media.css');
 
 .contribution-wrapper {
     overflow: hidden;
@@ -47,6 +47,31 @@
         @media (--md-up) {
             padding: 0 38px;
             height: 57px;
+        }
+    }
+
+    .contribution-criteria {
+        display: block;
+        color: var(--black);
+        text-transform: uppercase;
+        font-size: var(--font-size-sm);
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-top: 2rem;
+
+        @media (--lg-up) {
+            margin-top:  0;
+            font-weight: 600;
+        }
+
+        svg {
+            fill: var(--black);
+            margin-inline-end: 0.5rem;
+            vertical-align: text-bottom;
+        }
+
+        &:hover {
+            text-decoration: underline;
         }
     }
 
@@ -109,6 +134,15 @@
             @media (--md-up) {
                 width: 57px;
                 height: 57px;
+            }
+        }
+
+        .mobile-break {
+            display:  block;
+            width:  1px;
+            height: 1px;
+            @media (--md-up) {
+                display: none;
             }
         }
 
@@ -199,10 +233,11 @@
             margin-bottom: 20px;
         }
 
-        & svg {
+        svg {
             margin: 0 10px 0 16px;
             width: 23px;
             height: 23px;
+            vertical-align: text-top;
         }
     }
 
@@ -569,7 +604,8 @@
     }
 
     .sentence-taxonomy {
-        border-top: 1px solid var(--lighter-grey);
+        border-top: 1px solid var(--grey);
+        background: var(--lighter-grey);
         position: absolute;
         bottom: 0;
         left: 0;

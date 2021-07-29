@@ -1,5 +1,3 @@
-@import url('../vars.css');
-
 .welcome-modal {
     max-height: 100vh;
     overflow: auto;

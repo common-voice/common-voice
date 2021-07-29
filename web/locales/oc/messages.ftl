@@ -33,14 +33,18 @@ as = Assamés
 ast = Asturian
 az = Azèri
 ba = Bashquir
+bas = Basaa
 be = Bielorús
 bg = Bulgar
+bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Burma
 ca = Catalan
 cak = Kaqchikel
+ckb = Curd central
 cnh = Hakha Chin
+co = Còrs
 cs = Chèc
 cv = Chuvash
 cy = Gallés
@@ -62,11 +66,13 @@ fr = Francés
 fy-NL = Frison
 ga-IE = Irlandés
 gl = Galician
+gn = Guarani
 ha = Haussà
 he = Ebrieu
 hi = Indi
 hr = Croat
 hsb = Sèrbe naut
+ht = Haitian
 hu = Ongrés
 hy-AM = Armèni
 hyw = Armèni occidental
@@ -81,9 +87,9 @@ kaa = Karakalpak
 kab = Cabil
 kbd = Kabardian
 kk = Cazac
+kmr = Curd del nòrd
 ko = Corean
 kpv = Komi-Zyrian
-ku = Curd
 kw = Cornic
 ky = Quirguiz
 lg = Luganda
@@ -96,7 +102,9 @@ mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongòl
+mr = Marathi
 mrj = Hill Mari
+ms = Malés
 mt = Maltés
 my = Birman
 myv = Erzya
@@ -108,6 +116,7 @@ oc = Occitan
 or = Odia
 pa-IN = Punjabi
 pl = Polonés
+ps = Pashto
 pt = Portugués
 rm-sursilv = Romanch sobreselvan
 rm-vallader = Romanch vallader
@@ -140,6 +149,7 @@ uz = Uzbec
 vec = Venèt
 vi = Vietnamian
 vot = Vòt
+yue = Cantonés
 zh-CN = Mandarin (China)
 zh-HK = Mandarin (Hong Kong)
 zh-TW = Mandarin (Taiwan)
@@ -242,7 +252,6 @@ whats-public = Quina informacion es publica ?
 email-not-public = Farem pas venir vòstra adreça electronica publica.
 recordings-and-locale-public = Lo nombre d’enregistraments e las lengas dins las qualas contribuïssètz seràn publics.
 username-optin-public = Podètz cuasir se volètz que vòstre nom d’utilizaire siá public o anonim.
-demographic-deidentified-clarity = Las donadas demograficas eventualament somesas (per exemple, l’atge, lo sèxe, la lenga e l’accent) seràn pas jamai faches publiques sus vòstre compte e seràn pas ligats a vòstre compte dins l’ensemble de las donadas. De mòstras àudio individualas seràn ligadas a de donadas demograficas per de fins d’analisis mai precisas : per exemple, un cercaire o una cercaira poiriá voler trabalhar sus un modèl d’entraïnament de segment demografic precís.
 username-email-not-demographic = Vòstre nom d’utilizaire e adreça seràn pas associats a las donadas publicadas.
 
 ## Speak & Listen Shortcuts
@@ -300,8 +309,8 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Atge
-profile-form-gender =
-    .label = Sèxe
+profile-form-gender-2 =
+    .label = Genre
 leaderboard-visibility =
     .label = Visibilitat
 hidden = Amagat
@@ -329,7 +338,6 @@ profile-close = Tampar
 profile-explanation = Un perfil permet de seguir los progrèsses e ajuda a far venir nòstras donadas de votz mai precisas.
 thanks-for-account = Mercés d’aver confirmat lo compte. Ara creem vòstre perfil.
 why-demographic = Perqué es important ?
-why-demographic-explanation = Las donadas dels utilizaires coma l’atge, lo sexe e l’accent ajudan a melhorar las donadas àudios utilizadas per entrenar e va venir pertinent los motors de reconeissença vocalas. Vòstre nom d’utilizaire e corrièl seràn pas jamai associats amb las donadas enviadas, e podètz causir de far venir o anonim vòstre nom d’utilizaire.
 accept-privacy = Accepti qu’utilizetz aquestas informacions segon los tèrmes de la <privacyLink>Politica de confidencialitat</privacyLink> de Mozilla.
 accept-privacy-title = Politica de confidencialitat
 login-identity = Identitat de connexion
@@ -810,3 +818,18 @@ help-contribute = Podètz ajudar a crear un jòc de donadas liure e diversificat
 login-company = Connexion / Inscripcion amb l’adreça electronica de { $company }
 profile-not-required = Es pas necessari de crear un perfil per contribuir, mas es util.
 read-more-about = Per ne saber mai anatz a la pagina A prepaus
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
