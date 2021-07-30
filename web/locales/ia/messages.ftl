@@ -916,4 +916,6 @@ contribution-misreadings-example-6-explanation = [Debe esser “We are”]
 contribution-misreadings-example-7-title = Nos exi pro obtener un caffe.
 contribution-misreadings-example-7-explanation = [Nulle ‘un’ in le texto original]
 contribution-varying-pronunciations-title = Pronunciationes variate
+contribution-varying-pronunciations-description = Sia prudente ante rejectar un registration sur le base que le lector ha mal-pronunciate un parola, ha ponite le accento in le position errate o apparentemente ha ignorate un puncto de interrogation. Un large varietate de pronunciationes es usate in tote le mundo, parte del qual tu pote non haber audite in tu communitate local. Forni un margine de appreciation pro ille qui pote parlar differentemente de te.
+contribution-varying-pronunciations-description-extended = Del altere latere, si tu pensa que le lector antea ha probabilemente jammais incontrate le parola e que ille simplemente face un non correcte estimation del pronunciation, per favor rejecta lo. Si tu non es secur, usa le button saltar.
 contribution-volume-title = Volumine
