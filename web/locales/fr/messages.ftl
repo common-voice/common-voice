@@ -910,6 +910,7 @@ contribution-background-noise-title = Bruits de fond
 contribution-background-noise-example-1-title = <strong>{ Reniflement }</strong> Les dinosaures géants du <strong>{ toux }</strong> Trias.
 contribution-background-noise-example-2-title = Le dinosaure géant <strong>{ toux }</strong> le Trias.
 contribution-background-noise-example-2-explanation = [Une partie du texte ne peut pas être entendue]
+contribution-background-noise-example-3-title = <strong>{ Craquement }</strong> dinosaures géants du <strong>{ Craquement }</strong> -rias.
 contribution-background-noise-example-3-explanation = [Une partie du texte ne peut pas être entendue]
 contribution-background-voices-title = Voix en arrière-plan
 contribution-volume-title = Volume
