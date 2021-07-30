@@ -891,12 +891,16 @@ demo-dashboard-card-body = ყველა შემოწირული და
 
 ## Validation criteria
 
+contribution-criteria-nav = სისწორის საზომი
 contribution-criteria-link = წვლილის სწორად შეტანის შესახებ
 contribution-criteria-page-title = წვლილის შეტანა სწორად
 contribution-criteria-page-description = გაეცანით, თუ რას უნდა დააკვირდეთ ჩანაწერების მოსმენისას და გააუმჯობესეთ ხმის ჩაწერის სარგებლიანობაც!
 contribution-for-example = მაგალითები
 contribution-misreadings-title = შეცდომით ამოკითხვა
 contribution-misreadings-description = მოსმენისას, ყურადღებით გადაამოწმეთ, ჩანაწერში ზუსტად ისმის თუ არა, რაც წერია; უარყავით, თუ მცირე ხარვეზს მაინც შეამჩნევთ. <br />ხშირი შეცდომებია:
+contribution-misreadings-description-extended-list-4 = ბოლო სიტყვის ან ბგერის გამოტოვება, ჩაწერი დროზე ადრე შეწყვეტის გამო.
+contribution-misreadings-description-extended-list-5 = სიტყვის განმეორება ამოკითხვისას.
+contribution-varying-pronunciations-title = განსხვავებული გამოთქმა
 contribution-background-noise-title = ხმაური უკანა ფონზე
 contribution-background-noise-description = გვსურს, მანქანური სწავლების ალგორითმებს შეეძლოს მუშაობა სხვადასხვა ხმაურის ფონზე, დასაშვებია მეტად ხმამაღალი ხმაურიც, თუ ხელს არ უშლის წაკითხული ტექსტის გაგონებას. ხმადაბალი მუსიკა ფონზე, მისაღებია; ხოლო თუ მუსიკის მაღალი ხმოვანების გამო, სიტყვები აღარ გესმით, მაშინ - არა.
 contribution-background-noise-description-extended = როცა ჩანაწერი წყდება ან შრიალია, უარყავით თუ ტექსტის სრულად მოსმენა შეუძლებელია.
