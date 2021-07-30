@@ -901,6 +901,7 @@ contribution-criteria-link = Bijdragecriteria begrijpen
 contribution-criteria-page-title = Bijdragecriteria
 contribution-for-example = bijvoorbeeld
 contribution-misreadings-example-4-explanation = [Er is meer dan de benodigde tekst opgenomen]
+contribution-misreadings-example-7-title = Ik heb een koffie met haar gedronken.
 contribution-background-noise-title = Achtergrondgeluid
 contribution-background-voices-title = Achtergrondgeluiden
 contribution-volume-title = Volume
