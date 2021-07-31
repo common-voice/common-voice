@@ -881,6 +881,5 @@ contribution-criteria-page-description = 了解在聆听语音片段时需注意
 contribution-for-example = 例如
 contribution-misreadings-title = 误读
 contribution-misreadings-description-extended-list-2 = 词尾缺少 <strong>'s'</strong>。
-contribution-background-noise-title = 环境噪音
 contribution-volume-title = 音量
 contribution-just-unsure-title = 仍有不解之处？
