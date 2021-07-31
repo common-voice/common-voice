@@ -121,11 +121,14 @@ sc = 薩丁尼亞語
 scn = 西西里語
 so = 索馬里語
 tw = 契維語
+ug = 回鶻語
 uk = 烏克蘭語
 ur = 烏爾都語
 uz = 烏茲別克語
 vec = 威尼斯語
+vi = 越南語
 yo = 約魯巴語
+yue = 粵語
 zh-CN = 中文（中國大陸）
 zh-HK = 中文（香港）
 zh-TW = 中文（台灣）
@@ -140,10 +143,30 @@ speak-now = 而家講話
 datasets = 數據集
 languages = 所有語言
 about = 介紹
+profile = 個人檔案
+help = 幫助
+contact = 聯絡
+privacy = 私隱
 terms = 條款
+cookies = Cookies
+faq = 常見問題
+content-license-text = 內容依照 <licenseLink>Creative Commons 授權條款</licenseLink>授權大眾使用
+share-title = 幫我哋揾其他人一齊獻聲！
+share-text = 去 { $link } 貢獻你嘅聲線，等機器學識真人點樣講嘢
+link-copied = 連結已複製
+back-top = 返上最頂
+logout = 登出
 
 ## Home Page
 
+home-title = Common Voice 係 Mozilla 發起嘅一個教識機器好似真人噉發音嘅項目。
+home-cta = 喺度開聲貢獻！
+wall-of-text-start = 語音係自然、有人性嘅。所以我哋非常希望為機器建造可用嘅語音技術，但建造語音系統需要非常大量嘅語音數據。
+wall-of-text-more-mobile = 大部分現成嘅數據都係由大公司擁有，冇開放畀大眾使用。我哋覺得噉樣會阻礙創新，所以創立咗每個人都可以來自由建造語音識別嘅 Common Voice 計劃。
+wall-of-text-more-desktop =
+    而家你可以將自己嘅聲音捐畀我哋，以幫助建立開放嘅語音資料庫，等任何人都可以為裝置同互聯網發行嶄新嘅應用程式。<lineBreak></lineBreak>
+    只要朗讀一段文字，你就可以幫助機器了解我哋點樣講嘢。你亦都可以驗證其他貢獻者嘅錄音，協助改善品質。就係咁簡單！
+wall-of-text-first = 語音係自然、有人性嘅。所以我哋希望建立一套畀機器用到嘅語音技術。但建立呢一個語音系統嘅過程，需要超多嘅語音數據。
 show-wall-of-text = 了解更多
 help-us-title = 幫我哋手驗證句子啦！
 help-us-explain = 撳播放、聽完、再回覆：呢句話讀得啱唔啱？
