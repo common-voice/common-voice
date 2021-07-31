@@ -874,5 +874,13 @@ demo-dashboard-card-body = 每录入一个语音片段，每验证一个音频�
 
 ## Validation criteria
 
+contribution-criteria-nav = 准则
+contribution-criteria-link = 了解贡献准则
+contribution-criteria-page-title = 贡献准则
+contribution-criteria-page-description = 了解在聆听语音片段时应该注意些什么。相应地，也能使自己录制的语音片段更具价值。
+contribution-for-example = 例如
+contribution-misreadings-title = 误读
 contribution-misreadings-description-extended-list-2 = 词尾缺少 <strong>'s'</strong>。
+contribution-background-noise-title = 环境噪音
 contribution-volume-title = 音量
+contribution-just-unsure-title = 仍有不解之处？
