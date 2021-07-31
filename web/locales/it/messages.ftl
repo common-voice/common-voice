@@ -898,3 +898,4 @@ contribution-background-voices-example-1-title = I dinosauri giganti del Triassi
 contribution-background-voices-example-1-explanation = Vieni? <strong>[chiamata fatta da una seconda voce]</strong>
 contribution-volume-title = Volume
 contribution-just-unsure-title = Hai ancora dei dubbi?
+see-more = <chevron></chevron>Mostra di più
