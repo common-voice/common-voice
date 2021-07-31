@@ -248,7 +248,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Сыця норовамот: { $goal }
-english = Англакс
+english = Англань кель
 
 ## ProfileForm
 
