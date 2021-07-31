@@ -879,10 +879,15 @@ demo-dashboard-card-body = La dashboard del tuo account viene aggiornata per ogn
 ## Validation criteria
 
 contribution-criteria-nav = Criteri
+contribution-criteria-link = Leggi i criteri di contribuzione
 contribution-criteria-page-title = Criteri di contribuzione
 contribution-criteria-page-description = Scopri a cosa devi prestare attenzione mentre ascolti le registrazioni vocali e anche come poter rendere migliori le tue!
 contribution-for-example = per esempio
 contribution-misreadings-title = Errori di lettura
+contribution-misreadings-description = Durante l’ascolto, controlla attentamente che quanto registrato corrisponda esattamente a quanto scritto e rifiuta la registrazione se sono presenti anche solo errori minimi. <br />Errori molto comuni includono:
+contribution-misreadings-description-extended-list-1 = Mancanza di <strong>articoli indeterminativi</strong> (“Uno”, “Una”, ecc.) o <strong>determinativi</strong> (“Gli”, “Le”, ecc.) all’inizio della registrazione.
+contribution-misreadings-description-extended-list-2 = Mancanza della <strong>vocale finale</strong> in una parola.
+contribution-misreadings-description-extended-list-3 = Lettura di elisioni che non sono presenti nel testo originale, come “Non t’ho detto” al posto di “Non ti ho detto” o viceversa.
 contribution-misreadings-description-extended-list-5 = Numerosi tentativi di lettura di una parola.
 contribution-misreadings-example-1-title = I dinosauri giganti del Triassico.
 contribution-misreadings-example-2-title = I dinosauro giganti del Triassico.
@@ -892,6 +897,9 @@ contribution-misreadings-example-3-explanation = [La registrazione si interrompe
 contribution-misreadings-example-4-title = I dinosauri giganti del Triassico. Sì.
 contribution-misreadings-example-4-explanation = [È stato registrato più testo del necessario]
 contribution-misreadings-example-5-title = Usciamo a prendere un caffè.
+contribution-misreadings-example-5-explanation = [Il contenuto non corrisponde]
+contribution-varying-pronunciations-description-extended = Se però credi che il lettore non conoscesse quella parola e semplicemente la sua ipotesi sulla pronuncia non sia corretta, rifiuta la registrazione. Se non sei sicuro, utilizza il pulsante Salta.
+contribution-varying-pronunciations-example-1-explanation = [A seconda dello spostamento dell’accento da una sillaba all’altra, “ancora” può essere letto sia “àncora” (sostantivo) sia “ancóra” (avverbio)]
 contribution-background-noise-example-2-explanation = [Una parte del testo non si sente nella registrazione]
 contribution-background-noise-example-3-explanation = [Una parte del testo non si sente nella registrazione]
 contribution-background-voices-example-1-title = I dinosauri giganti del Triassico. <strong>[letto da una prima voce]</strong>
