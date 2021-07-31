@@ -503,6 +503,7 @@ record-error-too-long = 段錄音太長喇。
 record-error-too-quiet = 段錄音太靜喇。
 record-cancel = 取消重新錄音
 record-three-more-instruction = 仲有三個！
+share-clip = 分享你段錄音
 share-common-voice = 分享Common Voice
 clips-uploaded = 已上載嘅錄音
 record-abort-title = 不如完成咗啲錄音先啦？
@@ -511,6 +512,9 @@ record-abort-submit = 提交錄音
 record-abort-continue = 完成錄音
 record-abort-delete = 退出並刪除錄音片段
 listen-instruction = { $actionType }<playIcon></playIcon>佢地講得準唔準？
+speak-empty-state-cta = 貢獻句子
+record-button-label = 錄低你把聲
+login-to-get-started = 登入或注冊嚟開始
 target-segment-add-voice = 加入你嘅聲音
 target-segment-learn-more = 了解更多
 
@@ -530,6 +534,7 @@ report-offensive-speech = 冒犯性言論
 report-other-comment =
     .placeholder = 註解
 continue = 繼續
+report-success = 成功送出報告
 
 ## Goals
 
@@ -581,21 +586,32 @@ share-goal = 分享我嘅目標
 
 keep = 保留
 remove = 移除
+profile-form-delete = 刪除個人檔案
 
 ## Landing
 
+login-company = 登入 / 注冊  { $company } 電郵
+read-more-about = 去關於我哋嘅頁面瞭解更多
 
 ## DemoLayout
 
+demo-get-started = 我地開始啦
 
 ## Demo Datasets
 
+card-button-back = 返去
+demo-language-select-label = 瀏覽語言
+demo-eofy-header = 2019 年尾版
+demo-eofy-sub_header = 語音數據集，已準備好下載
+demo-account = 帳戶
 
 ## Demo Account
 
+demo-account-sign-up = 寄送註冊連結
 
 ## Demo Contribute
 
+demo-listen-subtitle = 準備好貢獻未？
 
 ## Demo Dashboard
 
@@ -603,3 +619,9 @@ demo-dashboard-card-body = 每次你提供、核實語音，你嘅進度都會�
 
 ## Validation criteria
 
+contribution-criteria-nav = 準則
+contribution-criteria-link = 了解貢獻準則
+contribution-criteria-page-title = 貢獻準則
+contribution-for-example = 譬如
+contribution-misreadings-title = 錯讀
+contribution-just-unsure-title = 單係唔確定？
