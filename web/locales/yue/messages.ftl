@@ -120,6 +120,10 @@ sah = 薩哈語
 sc = 薩丁尼亞語
 scn = 西西里語
 so = 索馬里語
+ta = 泰米爾語
+th = 泰語
+tr = 土耳其語
+tt = 韃靼語
 tw = 契維語
 ug = 回鶻語
 uk = 烏克蘭語
@@ -167,6 +171,7 @@ wall-of-text-more-desktop =
     而家你可以將自己嘅聲音捐畀我哋，以幫助建立開放嘅語音資料庫，等任何人都可以為裝置同互聯網發行嶄新嘅應用程式。<lineBreak></lineBreak>
     只要朗讀一段文字，你就可以幫助機器了解我哋點樣講嘢。你亦都可以驗證其他貢獻者嘅錄音，協助改善品質。就係咁簡單！
 wall-of-text-first = 語音係自然、有人性嘅。所以我哋希望建立一套畀機器用到嘅語音技術。但建立呢一個語音系統嘅過程，需要超多嘅語音數據。
+wall-of-text-second = 大部分現成嘅數據都係由大公司擁有，無開放畀大眾使用。我哋覺得噉樣會阻礙創新，所以創立咗 Common Voice 計劃，等大家都可以使用開放同易用嘅語音識別技術。
 show-wall-of-text = 了解更多
 help-us-title = 幫我哋手驗證句子啦！
 help-us-explain = 撳播放、聽完、再回覆：呢句話讀得啱唔啱？
@@ -175,6 +180,10 @@ vote-yes = 係
 vote-no = 唔係
 toggle-play-tooltip = 撳 { shortcut-play-toggle } 即可切換播放模式
 speak-subtitle = 捐出你把聲
+speak-paragraph = 錄音係我哋建立開放數據集不可或缺嘅一部份，亦都係好多人覺得最好玩嘅嗰部份！
+speak-goal-text = 段新錄音
+listen-subtitle = 幫我哋手驗證錄音啦
+listen-paragraph = 驗證人哋錄低嘅錄音片段，對 Common Voice 嘅使命都非常重要。聽下其他人貢獻嘅錄音，就可以幫我哋建立高質素嘅開放源碼語音數據集。
 read-terms-q = 睇咗我哋嘅條款未？
 ready-to-record = 準備好貢獻你把聲未？
 all-locales = 全部
@@ -279,6 +288,8 @@ female = 女
 # Gender
 other = 其他
 why-profile-title = 點解要建立個人檔案？
+why-profile-text = 語音引擎可以使用你提供嘅一啲資訊，令你嘅 Common Voice 語音資料被善用以提升語音識別引擎嘅精確度。
+dashboard = 儀表版
 build-profile = 建立個人檔案
 avatar = 個人資料照片
 goals = 目標
@@ -289,6 +300,8 @@ profile-close = 關閉
 profile-explanation = 使用你嘅個人檔案可以保留你嘅進展，仲可以幫我哋提高語音數據嘅準確度。
 thanks-for-account = 感謝你確認你嘅帳戶，而家我哋一齊建立你嘅個人資料啦
 why-demographic = 點解呢個好重要？
+why-demographic-explanation-2 = 匿名化嘅使用者資料，如年齡、性別、口音等，可以幫助我哋改善用嚟提升訓練語音識別精確性嘅語音資料。你嘅帳號同電郵唔會同你提交嘅數據相關聯，你亦都可以決定公開你嘅帳號或者保持匿名。
+accept-privacy = 我同意你依照 Mozilla 嘅<privacyLink>私隱保護政策</privacyLink>中描述嘅方式來處理呢啲資料
 accept-privacy-title = 私隱政策
 login-identity = 登入身分
 login-signup = 登入 / 註冊
@@ -297,6 +310,8 @@ email-subscriptions = 電郵訂閱
 download-profile = 下載我嘅數據
 contribution-experience = 參與經驗
 skip-submission-feedback = 跳過提交反饋
+off = 閂
+on = 開
 
 ## Profile - Email
 
@@ -312,6 +327,9 @@ faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊�
 
 ## ABOUT US
 
+about-speak = 講
+about-listen-queue = 聆聽隊列
+about-listen = 聽
 about-is-it-valid = 段錄音有冇效？
 about-partnership =
     Common Voice 係一個合作計劃，目標係憑住一班合作伙伴同貢獻者嘅力量，建立一個史上最大嘅開源語音資料集。¶
@@ -323,6 +341,7 @@ about-partnership =
 glossary = 術語表
 localization = 本地化
 sentence-collection = 收集句子
+sentence-collection-explanation = 收集公眾領域嘅語句，或用公眾領域授權撰寫新語句。
 sst = 語音轉文字
 sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
 
@@ -336,11 +355,15 @@ error-code = 錯誤 { $code }
 data-download-button = 下載 Common Voice 語音數據
 data-download-yes = 係
 data-other-goto = 往 { $name }
+data-other-download = 下載數據
+data-bundle-button = 下載打包數據集
 release-version = 版本
 dataset-date = 數據庫日期
+license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 terms-agree = 我同意
 terms-disagree = 我唔同意
+review-aborted = 上載中斷咗，你想唔想刪除你嘅錄音？
 review-submit-title = 覆核並提交
 review-recording = 覆核
 
@@ -358,6 +381,8 @@ email-to-download = 寫低電郵嚟下載
 size-gigabyte = 千兆字節
 size-megabyte = 兆字節
 whats-inside = Common Voice 數據庫入面有啲咩？
+subscribe = 訂閲
+ready-to-validate = 準備好驗證句子未？
 more = 更多
 close = 關閉
 download = 下載
@@ -369,9 +394,13 @@ download-title = 你嘅下載已經開始咗
 download-form-email =
     .label = 輸入你嘅電郵
     .value = 多謝，我地保持聯絡。
+download-back = 返回 Common Voice 數據庫
 
 ## Contact Modal
 
+contact-title = 聯絡人表格
+contact-form-message =
+    .label = 訊息
 
 ## Request Language Modal
 
