@@ -892,3 +892,5 @@ contribution-misreadings-example-3-explanation = [La registrazione si interrompe
 contribution-misreadings-example-4-title = I dinosauri giganti del Triassico. Sì.
 contribution-misreadings-example-4-explanation = [È stato registrato più testo del necessario]
 contribution-misreadings-example-5-title = Usciamo a prendere un caffè.
+contribution-background-noise-example-2-explanation = [Una parte del testo non si sente nella registrazione]
+contribution-background-noise-example-3-explanation = [Una parte del testo non si sente nella registrazione]
