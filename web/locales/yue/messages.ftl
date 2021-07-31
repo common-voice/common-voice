@@ -251,6 +251,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = 錄音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄音
+shortcut-submit = 返回
+shortcut-submit-label = 提交錄音
 request-language-text = 喺 Common Voice 見唔到你嘅語言？
 request-language-text-learn = 喺呢度了解點樣請求佢！
 request-language-button = 申請增加一種語言
@@ -317,20 +319,38 @@ email-subscriptions = 電郵訂閱
 download-profile = 下載我嘅數據
 contribution-experience = 參與經驗
 skip-submission-feedback = 跳過提交反饋
+skip-submission-description = 貢獻期間，單擊「提交」可略過提供意見，直接去到下一組5段錄音或驗證。
+skip-submission-note = 注意：你仲需要揀「講」或「聽」嚟轉換貢獻模式。
 off = 閂
 on = 開
 
 ## Profile - Email
 
+browse-file-title = 上載圖片
+browse-file = 拖落呢度，或<browseWrap>瀏覽</browseWrap>
 connect-gravatar = 連結 Gravatar
+file_too_large = 檔案過大
+avatar-uploaded = Avatar 已上載
+max-file-size = { $kb } kb 上限
 
 ## Profile - Email
 
+manage-subscriptions = 管理訂閱
+manage-email-subscriptions = 管理電郵訂閱
+email-already-used = 呢個電郵已經畀另一個帳戶用咗
+add-language = 新增語言
+change-email-setings = 要更改電郵，請先撳登入身份，然後再撳設定
 
 ## FAQ
 
+faq-title = 常見問題
+faq-what-cv-q = Common voice 係乜嘢？
+faq-why-important-q = 點解呢個好重要？
+faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
 faq-why-different-speakers-q = 點解每種語言需要咁多貢獻者呢？
 faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊“識別講者嘅身份”係咩解究呢?
+faq-what-is-cv = Common Voice 係乜嘢？
+faq-using-cv = 使用 Common Voice
 
 ## ABOUT US
 
@@ -338,10 +358,29 @@ about-speak = 講
 about-listen-queue = 聆聽隊列
 about-listen = 聽
 about-is-it-valid = 段錄音有冇效？
+about-yes-votes = ≥ 2 票 「啱」
+about-no-votes = ≥ 2 票 「錯」
+about-clip-graveyard = 錄音垃圾桶
+about-clip-graveyard-text = 垃圾桶度有無法進入 Common Voice 數據集嘅語音片段。同數據集一樣，垃圾桶嘅內容亦可下載。
+about-partners = 合作夥伴
+about-become-a-partner = 成爲合作夥伴
 about-partnership =
     Common Voice 係一個合作計劃，目標係憑住一班合作伙伴同貢獻者嘅力量，建立一個史上最大嘅開源語音資料集。¶
     ¶
     以下嘅個人同組織喺計劃入面嘅貢獻良多，我哋想向佢哋表示感謝：
+about-get-involved = 參與
+about-get-involved-text-2 =
+    想幫手令 Common Voice 計劃變得更好？
+    太好喇！請用電郵或<discourseLink>Discourse</discourseLink>論壇同我哋聯絡，
+    喺<githubLink>GitHub</githubLink>上面提交網站問題，或者加入
+    <matrixLink>Matrix</matrixLink>群組傾偈。
+about-nav-why-common-voice = 點解？
+about-nav-how-it-works = 點樣？
+about-nav-partners = 合作夥伴
+about-nav-get-involved = 參與
+mycroft-title = Mycroft Ai
+mycroft-subtitle = 人工智能
+mycroft-description = Mycroft 係全球第一套開放原始碼嘅語音助理，無論喺電腦、汽車、Raspberry Pi 定任何地方都用得到。
 
 ## Glossary
 
@@ -351,6 +390,7 @@ sentence-collection = 收集句子
 sentence-collection-explanation = 收集公眾領域嘅語句，或用公眾領域授權撰寫新語句。
 sst = 語音轉文字
 sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
+de-identified = 去識別化
 
 ## Error pages
 
@@ -389,6 +429,11 @@ size-gigabyte = 千兆字節
 size-megabyte = 兆字節
 whats-inside = Common Voice 數據庫入面有啲咩？
 subscribe = 訂閲
+get-started-speech = 語音識辨新手入門
+other-datasets = 其他語音數據集
+feedback-q = 有意見反饋？
+data-other-ted-name = TED-LIUM 語料庫
+go-discourse = 去 Discourse 討論區
 ready-to-validate = 準備好驗證句子未？
 more = 更多
 close = 關閉
