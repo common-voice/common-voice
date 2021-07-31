@@ -427,6 +427,9 @@ splits = 語音特徵概況
 email-to-download = 寫低電郵嚟下載
 size-gigabyte = 千兆字節
 size-megabyte = 兆字節
+download-language = 下載{ $language }
+validated-hours = 已驗證時數
+recorded-hours = 錄音時數
 whats-inside = Common Voice 數據庫入面有啲咩？
 subscribe = 訂閲
 get-started-speech = 語音識辨新手入門
@@ -434,7 +437,9 @@ other-datasets = 其他語音數據集
 feedback-q = 有意見反饋？
 data-other-ted-name = TED-LIUM 語料庫
 go-discourse = 去 Discourse 討論區
-ready-to-validate = 準備好驗證句子未？
+missing-language = 數據集入面冇你嘅語言？請去語言版要求增添語言。
+go-languages-page = 去語言版
+ready-to-validate = 準備好幫手驗證句子未？
 more = 更多
 close = 關閉
 download = 下載
@@ -443,26 +448,54 @@ dataset-version = 數據庫版本
 ## Download Modal
 
 download-title = 你嘅下載已經開始咗
+download-helpus = 幫我哋打造一個使用語音技術嘅社群，並透過電郵保持聯繫。
 download-form-email =
     .label = 輸入你嘅電郵
     .value = 多謝，我地保持聯絡。
 download-back = 返回 Common Voice 數據庫
+download-no = 唔使嘞
 
 ## Contact Modal
 
 contact-title = 聯絡人表格
+contact-form-name =
+    .label = 名稱
 contact-form-message =
     .label = 訊息
+contact-required = *必填欄位
 
 ## Request Language Modal
 
+request-language-title = 語言申請
+request-language-form-language =
+    .label = 語言
+select-language = 揀一種語言…
+other-language = 其他語言
 
 ## Languages Overview
 
+language-section-in-progress = 準備緊
+language-section-launched = 已啟動
+languages-show-more = 睇多啲
+languages-show-less = 睇少啲
+language-meter-in-progress = 進展
+language-total-progress = 總共
+language-search-input =
+    .placeholder = 揾
+language-speakers = 講者
+localized = 已被本地化
 sentences = 句子
+total-hours = 驗證時數
 
 ## Contribution
 
+action-click = 點擊
+action-tap = 敲
+contribute = 貢獻
+listen = 聽
+skip = 跳過
+goal-help-recording = 閣下已幫助 Common Voice 完成每日 { $goalValue } 錄音目標嘅<goalPercentage></goalPercentage>！
+record-cta = 開始錄音
 record-must-allow-microphone = 你必須容許咪高峰存取權。
 record-no-mic-found = 未發現咪高峰。
 record-error-too-short = 段錄音太短喇。
@@ -473,6 +506,9 @@ record-three-more-instruction = 仲有三個！
 share-common-voice = 分享Common Voice
 clips-uploaded = 已上載嘅錄音
 record-abort-title = 不如完成咗啲錄音先啦？
+record-abort-text = 如果而家離開，你會失去而家嘅進展
+record-abort-submit = 提交錄音
+record-abort-continue = 完成錄音
 record-abort-delete = 退出並刪除錄音片段
 listen-instruction = { $actionType }<playIcon></playIcon>佢地講得準唔準？
 target-segment-add-voice = 加入你嘅聲音
@@ -482,21 +518,69 @@ target-segment-learn-more = 了解更多
 
 report = 報告
 report-title = 提交一個報告
+report-ask = 呢句有咩問題？
+report-offensive-language = 冒犯性言語
+report-offensive-language-detail = 呢句唔尊重人或者語帶冒犯。
+report-grammar-or-spelling = 文法 / 串法錯誤
 report-grammar-or-spelling-detail = 呢句有文法或串法錯誤。
+report-different-language = 另一種語言
+report-different-language-detail = 呢句係另一種語言嘅句子。
+report-difficult-pronounce = 好難發音
+report-offensive-speech = 冒犯性言論
+report-other-comment =
+    .placeholder = 註解
+continue = 繼續
 
 ## Goals
 
+days =
+    { $count ->
+       *[one] 日
+    }
+recordings =
+    { $count ->
+       *[one] 錄音
+    }
+validations =
+    { $count ->
+       *[one] 驗證
+    }
 
 ## Dashboard
 
+your-languages = 你嘅語言
+toward-next-goal = 向住下一個目標
+goal-reached = 目標已經達到
+stats = 統計資料
 awards = 獎勵
+you = 閣下
+everyone = 所有人
+contribution-activity = 貢獻記錄
+top-contributors = 主要貢獻者
+recorded-clips = 已錄片段
+validated-clips = 已驗證片段
+overall-accuracy = 整體準確度
+show-ranking = 顯示我嘅排名
 
 ## Custom Goals
 
+daily-goal = 每日目標
+weekly-goal = 每周目標
+easy-difficulty = 容易
+average-difficulty = 一般
+difficult-difficulty = 難
+pro-difficulty = 專業
+want-to-continue = 你想唔想繼續？
+finish-editing = 編輯完先？
+set-a-goal = 訂立目標
+share-goal-type-speak = 講
+share-goal-type-listen = 聆聽
 share-goal = 分享我嘅目標
 
 ## Profile Delete
 
+keep = 保留
+remove = 移除
 
 ## Landing
 
