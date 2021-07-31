@@ -881,6 +881,7 @@ demo-dashboard-card-body = La dashboard del tuo account viene aggiornata per ogn
 contribution-criteria-nav = Criteri
 contribution-criteria-link = Leggi i criteri di contribuzione
 contribution-criteria-page-title = Criteri di contribuzione
+contribution-criteria-page-description = Scopri a che cosa devi prestare attenzione mentre ascolti le registrazioni e anche come poter rendere migliori le tue!
 contribution-for-example = per esempio
 contribution-misreadings-title = Errori di lettura
 contribution-misreadings-description = Durante l’ascolto, controlla attentamente che quanto registrato corrisponda esattamente a quanto scritto e rifiuta la registrazione se sono presenti anche solo errori minimi. <br />Errori molto comuni includono:
