@@ -8,7 +8,10 @@ email-input =
     .label = 電郵地址
 submit-form-action = 遞交
 loading = 加載緊⋯⋯
+email-opt-in-info = 我想收到有關目標提醒、個人進度同 Common Voice 新聞嘅電郵。
 email-opt-in-info-title = 接收 Common Voice 電郵通知
+email-opt-in-info-sub-with-challenge = 接收挑戰及目標提醒、進度更新同關於 Common Voice 嘅新聞簡報。
+email-opt-in-privacy-v2 = 選擇接收電郵意味住閣下同意 Mozilla 根據<privacyLink>私隱政策</privacyLink>嚟處理呢啲個人數據。
 indicates-required = ＊表示必填
 not-available-abbreviation = 唔適用
 
@@ -58,6 +61,7 @@ eu = 巴斯克語
 fa = 波斯語
 ff = 富拉語
 fi = 芬蘭語
+fo = 法羅語
 fr = 法語
 ga-IE = 愛爾蘭語
 gl = 加利西亞語
@@ -117,6 +121,10 @@ sc = 薩丁尼亞語
 scn = 西西里語
 so = 索馬里語
 tw = 契維語
+uk = 烏克蘭語
+ur = 烏爾都語
+uz = 烏茲別克語
+vec = 威尼斯語
 yo = 約魯巴語
 zh-CN = 中文（中國大陸）
 zh-HK = 中文（香港）
@@ -404,3 +412,6 @@ share-goal = 分享我嘅目標
 ## Demo Dashboard
 
 demo-dashboard-card-body = 每次你提供、核實語音，你嘅進度都會喺該語言嘅面板度展示出嚟。係啊，你可以貢獻多過一隻語言。用面板去睇實你嘅戰績，睇下自己同埋其他人做成點樣，再定返個每日或者每週嘅目標吖。
+
+## Validation criteria
+
