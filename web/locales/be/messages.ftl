@@ -912,5 +912,7 @@ contribution-criteria-page-title = Крытэрыi ўнёску
 contribution-criteria-page-description = Даведайцеся, на што варта звяртаць увагу падчас праслухоўвання галасавых клiпаў i што дапаможа зрабiць вашыя галасавыя запiсы больш карыснымi!
 contribution-for-example = напрыклад
 contribution-volume-title = Гучнасць
+contribution-volume-description = Гучнасць памiж чытачамi будзе натуральна адрознiвацца. Адхiляйце запiсы толькi калi гучнасць настолькi высокая, што запic перапыняецца, або (што часцей) калi яна настолькi нiзкая, што вы не можаце нiчога зразумець не паглядзеўшы на напiсаны тэкст.
+contribution-just-unsure-title = Проста не ўпэўненыя?
 see-more = <chevron></chevron>Больш
 see-less = <chevron></chevron>Менш
