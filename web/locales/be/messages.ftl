@@ -909,6 +909,8 @@ demo-dashboard-card-body = Пасля кожнага моўнага клiпа, �
 
 contribution-criteria-link = Тлумачэнне крытэрыяў ўнёску
 contribution-criteria-page-title = Крытэрыi ўнёску
+contribution-criteria-page-description = Даведайцеся, на што варта звяртаць увагу падчас праслухоўвання галасавых клiпаў i што дапаможа зрабiць вашыя галасавыя запiсы больш карыснымi!
 contribution-for-example = напрыклад
+contribution-volume-title = Гучнасць
 see-more = <chevron></chevron>Больш
 see-less = <chevron></chevron>Менш
