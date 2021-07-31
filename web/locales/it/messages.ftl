@@ -894,3 +894,7 @@ contribution-misreadings-example-4-explanation = [È stato registrato più testo
 contribution-misreadings-example-5-title = Usciamo a prendere un caffè.
 contribution-background-noise-example-2-explanation = [Una parte del testo non si sente nella registrazione]
 contribution-background-noise-example-3-explanation = [Una parte del testo non si sente nella registrazione]
+contribution-background-voices-example-1-title = I dinosauri giganti del Triassico. <strong>[letto da una prima voce]</strong>
+contribution-background-voices-example-1-explanation = Vieni? <strong>[chiamata fatta da una seconda voce]</strong>
+contribution-volume-title = Volume
+contribution-just-unsure-title = Hai ancora dei dubbi?
