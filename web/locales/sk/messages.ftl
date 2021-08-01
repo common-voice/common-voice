@@ -554,6 +554,12 @@ review-delete-recordings = Odstrániť moje nahrávky
 ## Datasets Page
 
 datasets-headline = Vytvárame otvorený viacjazyčný hlasový dataset, ktorý môže ktokoľvek použiť na trénovanie hlasových aplikácií.
+datasets-positioning =
+    Veríme, že veľké, verejne dostupné hlasové datasety podporia inováciu a zdravú obchodnú konkurenciu v technológii reči založenej na strojovom učení.
+    
+    Viacjazyčný dataset Common Voice je už najväčším verejne dostupným hlasovým súborom svojho druhu, ale nie je jediným.
+    
+    Na tejto stránke nájdete odkazy iné open-source datasety a, ako bude Common Voice naďalej rásť, aj domov pre naše aktualizácie.
 language = Jazyk
 # File size in gigabytes
 size = Veľkosť
@@ -573,6 +579,10 @@ download-language = Prevziať jazyk { $language }
 validated-hours = Počet Overených Hodín
 recorded-hours = Počet Nahraných Hodín
 whats-inside = Čo je vnútri datasetu Common Voice?
+dataset-description-hours =
+    Každá položka v datasete pozostáva z jedinečného súboru MP3 a prislúchajúceho textového súboru. Mnoho z <b>{ $total }</b> zaznamenaných hodín v datasete obsahuje aj demografické metaúdaje, ako je vek, pohlavie a prízvuk, ktoré môžu pomôcť s cvičením presnosti nástrojov rozpoznávania reči.
+    
+    Dataset v súčasnosti pozostáva z <b>{ $valid }</b> overených hodín v <b>{ $languages }</b> jazykoch, ale neustále pridávame ďalšie hlasy a jazyky. Navštívte našu stránku <languagesLink> Jazyky </languagesLink> a požiadajte o nový jazyk alebo začnite prispievať.
 want-dataset-update = Chcete aktualizácie, keď vydáme novú verziu datasetu Common Voice? Prihláste sa ku odberu noviniek.
 subscribe = Odoberať
 other-datasets = Ďalšie hlasové datasety
