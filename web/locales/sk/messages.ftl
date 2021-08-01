@@ -942,6 +942,7 @@ contribution-varying-pronunciations-description-extended = Na druhej strane, ak 
 contribution-background-noise-title = Hluk na pozadí
 contribution-background-noise-description = Chceme, aby algoritmy strojového učenia zvládali rôzne hluky v pozadí a aby boli akceptované aj relatívne hlasné zvuky, za predpokladu, že vám nebránia počuť celý text. Tichá hudba na pozadí je v poriadku; hudba dostatočne hlasná, aby ste zabránili počutiu každého slova v poriadku nie je.
 contribution-background-noise-description-extended = Ak je záznam prerušovaný alebo praská, a nie je počuť celý text, odmietnite ho.
+contribution-background-noise-example-1-title = <strong>{ Reniflement }</strong> Les dinosaures géants du <strong>{ toux }</strong> Trias.
 contribution-background-voices-title = Hluk na pozadí
 contribution-background-voices-description = Tichá vrava na pozadí je v poriadku, ale nechceme ďalšie hlasy, ktoré môžu spôsobiť, že algoritmus stroja identifikuje slová, ktoré nie sú v písanom texte. Ak počujete odlišné slová ako tie v texte, klip by mal byť odmietnutý. Obvykle sa to stane tam, kde bol televízor zapnutý, alebo v blízkosti prebieha konverzácia.
 contribution-background-voices-description-extended = Ak je záznam prerušovaný alebo praská, a nie je počuť celý text, odmietnite ho.
