@@ -585,8 +585,11 @@ dataset-description-hours =
     Dataset v súčasnosti pozostáva z <b>{ $valid }</b> overených hodín v <b>{ $languages }</b> jazykoch, ale neustále pridávame ďalšie hlasy a jazyky. Navštívte našu stránku <languagesLink> Jazyky </languagesLink> a požiadajte o nový jazyk alebo začnite prispievať.
 want-dataset-update = Chcete aktualizácie, keď vydáme novú verziu datasetu Common Voice? Prihláste sa ku odberu noviniek.
 subscribe = Odoberať
+get-started-speech = Začíname s rozpoznávaním reči
 other-datasets = Ďalšie hlasové datasety
 feedback-q = Máte spätnú väzbu?
+deepspeech-info = Dataset Common Voice dopĺňa open-source modul Mozilly na rozpoznávanie hlasu Deep Speech, ktorý je možné použiť na vytváranie aplikácií na rozpoznávanie reči. Prečítajte si náš <githubLink>prehľad na Githube</githubLink> alebo sa pripojte k <discourseLink>diskusnému fóru DeepSpeech</discourseLink>, kde sa dozviete, ako začať.
+common-voice-info-new = Máte otázky týkajúce sa služby Common Voice? Máte návrhy na zlepšenie alebo spätnú väzbu týkajúcu sa konkrétneho jazyka? Pripojte sa k nám na našom <discourseLink>diskusnom fóre</discourseLink> a dajte nám vedieť.
 data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je tvorený zvukovými nahrávkami prednášok a ich prepismi dostupnými na webovej stránke TED.
@@ -636,6 +639,7 @@ other-language = Ostatné jazyky
 language-section-in-progress = Jazyky, ktoré sa pripravujú
 language-section-in-progress-new-description = Tieto jazyky sa momentálne pripravujú. Pri každom jazyku je uvedené, v akom stave je <localizationGlossaryLink>preklad stránky</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zber viet</sentenceCollectionGlossaryLink>.
 language-section-launched = Spustené jazyky
+language-section-launched-description = Pre tieto spustené jazyky bola webová stránka úspešne <localizationGlossaryLink>lokalizovaná</localizationGlossaryLink> a má dostatok <sentenceCollectionGlossaryLink>zozbieraných viet</sentenceCollectionGlossaryLink>, aby bolo možné <speakLink>nahrávať</speakLink> a <listenLink>počúvať</ listenLink > hlasové príspevky.
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-meter-in-progress = Pokrok
@@ -706,6 +710,10 @@ speak-empty-state-cta = Pridajte ďalšie vety
 record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
 keep-track-profile = Sledujte svoj postup pomocou profilu
+login-to-get-started = Prihláste sa alebo sa zaregistrujte a môžete začať
+target-segment-first-card = Prispievate do nášho prvého cieľového segmentu
+target-segment-generic-card = Prispievate do cieľového segmentu
+target-segment-first-banner = Pomôžte vytvoriť prvý cieľový segment Common Voice v jazyku { $locale }
 target-segment-add-voice = Pridajte svoj hlas
 target-segment-learn-more = Ďalšie informácie
 
@@ -875,5 +883,7 @@ demo-listen-subtitle = Pripravený prispieť?
 
 ## Validation criteria
 
+contribution-just-unsure-title = Len si nie ste istí?
+contribution-just-unsure-description = Ak narazíte na niečo, na čo sa tieto pokyny nevzťahujú, hlasujte podľa svojho najlepšieho úsudku. Ak sa naozaj nemôžete rozhodnúť, použite tlačidlo preskočenia a pokračujte k ďalšiemu záznamu.
 see-more = <chevron></chevron> Zobraziť viac
 see-less = <chevron> </chevron> Zobraziť menej
