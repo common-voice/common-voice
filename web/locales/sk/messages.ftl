@@ -416,6 +416,7 @@ faq-do-want-native-q = Daný jazyk nie je môj materinský a hovorím s prízvuk
 faq-do-want-native-a = Áno, obzvlášť váš hlas chceme! Súčasťou cieľu projektu Common Voice je získať hlasové nahrávky s čo možno najviac prízvukmi, aby aplikácie využívajúce rozpoznávanie reči mohli fungovať rovnako dobre pre všetkých. Z tohto dôvodu sú pre nás podobné nahrávky obzvlášť dôležité.
 faq-why-different-speakers-q = Prečo potrebujete toľko rozdielnych ľudí pre každý jazyk?
 faq-why-my-lang-q = Prečo môj jazyk zatiaľ nie je zahrnutý?
+faq-why-my-lang-new-a = Mozilla nevyberá ani uprednostňuje žiadny jazyk pred iným. Namiesto toho je Common Voice čisto komunitnou iniciatívou, ale je potrebných <multilangLink>niekoľko krokov pre pridanie nového jazyka</multilangLink> a spustenie zberu hlasových darov. Najprv je potrebné preložiť webovú stránku Common Voice, aby členovia komunity mali prístup k skúsenostiam prispievateľov vo svojom vlastnom jazyku. Ďalej potrebujeme veľkú zbierku viet bez autorských práv, ktoré môžu ľudia čítať nahlas. Keď sú obidve tieto požiadavky splnené, jazyk je systéme Common Voice „spustený“ pre ľudí, ktorí môžu začať zaznamenávať svoj hlas a overovať nahrávky ostatných. Ak chcete pomôcť spustiť nový jazyk, prejdite na náš <sentenceCollectorLink> nástroj na zhromažďovanie viet </sentenceCollectorLink>, aby ste mohli začať.
 faq-what-quality-q = Aká kvalita zvuku je potrebná na použitie hlasového klipu v datasete?
 faq-what-quality-a = Chceme, aby dataset Common Voice odrážal kvalitu zvuku, ktorú bude systém prevodu reči na text počuť v teréne, takže hľadáme rozmanitosť. Okrem rôznorodej komunity hovoriacich, dataset s rôznou kvalitou zvuku naučí systém prevodu reči na text zvládať rôzne situácie v reálnom svete, od rozhovoru v pozadí až po hluk z auta. Pokiaľ je váš hlasový klip zrozumiteľný, mal by byť pre dataset dostatočne dobrý.
 faq-why-10k-hours-q = Prečo je cieľom pri nahrávkach práve 10 000 overených hodín?
@@ -445,6 +446,7 @@ about-header-description =
     Chceme sprístupniť hlasové údaje verejne a zadarmo a zabezpečiť, aby údaje reprezentovali rozmanitosť skutočných ľudí. Spoločne môžeme zlepšiť rozpoznávanie hlasu pre všetkých.
 how-does-it-work-title = Ako to funguje?
 how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkého otvoreného datasetu. Darujte svoj hlas, overte presnosť klipov iných ľudí a pomôžte tak vylepšiť súbor údajov.
+about-speak-text = Prispievatelia zaznamenávajú rečové nahrávky čítaním zo zásoby darovaných viet.
 about-is-it-valid = Je nahrávka platná?
 about-is-it-valid-text = Nahrávka je označená ako platná po jej schválení iným používateľom
 about-yes-votes = ≥ 2 hlasy pre Áno
@@ -459,6 +461,10 @@ about-partnership =
     
     Chceli by sme sa poďakovať nasledujúcim ľuďom a organizáciám za pomoc s týmto projektom:
 about-get-involved = Zapojte sa
+about-get-involved-text-2 =
+    Chcete pomôcť spraviť technológiu Common Voice ešte lepšou?
+    Skvelé! Spojte sa s nami pomocou e-mailu alebo <discourseLink>diskusného fóra</discourseLink>, nahlasujte problémy s webom prostredníctvom <githubLink>GitHubu</githubLink>, alebo sa pripojte ku komunitnému četu
+    na <matrixLink>Matrixe</matrixLink>.
 about-nav-why-common-voice = Prečo?
 about-nav-how-it-works = Ako?
 about-nav-partners = Partneri
@@ -540,6 +546,7 @@ download-language = Prevziať jazyk { $language }
 validated-hours = Počet Overených Hodín
 recorded-hours = Počet Nahraných Hodín
 whats-inside = Čo je vnútri datasetu Common Voice?
+want-dataset-update = Chcete aktualizácie, keď vydáme novú verziu datasetu Common Voice? Prihláste sa ku odberu noviniek.
 subscribe = Odoberať
 other-datasets = Ďalšie hlasové datasety
 feedback-q = Máte spätnú väzbu?
@@ -656,9 +663,12 @@ listen-instruction = { $actionType } na <playIcon></playIcon>. Bola veta v poria
 listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pripravení, spustite ďalšiu nahrávku
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
+listen-empty-state = Minuli sa nám klipy na overenie v tomto jazyku...
+speak-empty-state = Minuli sa nám vety na nahrávanie v tomto jazyku...
 speak-empty-state-cta = Pridajte ďalšie vety
 record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
+keep-track-profile = Sledujte svoj postup pomocou profilu
 target-segment-add-voice = Pridajte svoj hlas
 target-segment-learn-more = Ďalšie informácie
 
@@ -757,6 +767,8 @@ help-reach-hours-general-pluralized =
     }v jazyku s pomocou osobných cieľov
 set-a-goal = Vytvoriť cieľ
 cant-decide = Nemôžete sa rozhodnúť?
+how-many-per-day = Skvelé! Koľko nahrávok za deň?
+how-many-a-week = Skvelé! Koľko nahrávok za týždeň?
 which-goal-type = Chcete hovoriť, počúvať alebo oboje?
 receiving-emails-info = Momentálne máte nastavený príjem e-mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
 not-receiving-emails-info = Momentálne <bold>NEMÁTE</bold> nastavený príjem e-mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
@@ -768,6 +780,7 @@ n-clips-pluralized =
     }
 help-share-goal = Pomôžte nám nájsť viac hlasov, zdieľajte svoje ciele
 confirm-goal = Potvrdiť cieľ
+goal-interval-weekly = Týždenne
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Zdieľajte svoj denný cieľ { $count } nahrávok pre { $type }
 # $type is one of share-goal-type-*
@@ -806,14 +819,19 @@ read-more-about = Prečítajte si viac na stránke O nás
 
 ## Demo Datasets
 
+card-button-next = Ďalej
+card-button-back = Naspäť
+demo-language-select-label = Prechádzať jazyky
 demo-account = Účet
 
 ## Demo Account
 
 demo-account-card-header = Účet nie je nutnosťou, no môže byť užitočný
+demo-account-sign-up = Odoslať prihlasovací odkaz
 
 ## Demo Contribute
 
+demo-listen-subtitle = Pripravený prispieť?
 
 ## Demo Dashboard
 
