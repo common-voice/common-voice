@@ -406,6 +406,7 @@ faq-why-important-a =
 faq-how-get-q = Ako môžem získať údaje služby Common Voice?
 faq-how-get-a = Dataset služby Common Voice je dostupný na prevzatie v rámci licencie <licenseLink>CC0</licenseLink> na <datasetLink>stránke našich datasetov</datasetLink>. Z tej istej stránky si taktiež môžete prevziať niekoľko ďalších verejne dostupných datasetov.
 faq-when-release2-q = Kedy uverejníte údaje projektu Common Voice aj v ďalších jazykoch?
+faq-when-release2-a = Na viacjazyčnej verzii Common Voice datasetu momentálne prebieha spájanie a čistenie podporované komunitou. Ak nám chcete pomôcť s prinesením Common Voice do nových jazykov, použite nástroj na <sentenceCollectorLink>zber viet</sentenceCollectorLink>, pomocou ktorého pridáte nové vety do datasetu, a Mozilla <pontoonLink>Pontoon</pontoonLink> na preklad samotnej stránky. Nové jazyky sú pridávané do Common Voice v momente, keď sa dosiahne nazbieranie 5 000 schválených viet.
 faq-why-mission-q = Prečo je projekt Common Voice súčasťou misie Mozilly?
 faq-why-mission-a = Mozilla je odhodlaná udržať web otvorený a prístupný pre všetkých. Aby sme to mohli robiť, potrebujeme podporovať tvorcov webu pomocou projektov, ako napríklad Common Voice. Keďže sa technológie rozpoznávania reči dostávajú do čoraz viac aplikácií, veríme, že by mali slúžiť rovnako dobre všetkým používateľom. Vidíme potrebu zahrnúť pri tvorbe a testovaní technológii na rozpoznávanie reči ďalšie jazyky, prízvuky a skupiny ľudí. Common Voice je verejný zdroj, ktorý tímy Mozilly a vývojári po celom svete už aktívne využívajú.
 faq-what-cv-and-deepspeech-q = Aký je rozdiel medzi projektami Common Voice a Deep Speech?
@@ -415,6 +416,9 @@ faq-is-goal-assistant-a = Cieľom datasetu Common Voice je umožniť komukoľvek
 faq-do-want-native-q = Daný jazyk nie je môj materinský a hovorím s prízvukom, chcete môj hlas aj tak?
 faq-do-want-native-a = Áno, obzvlášť váš hlas chceme! Súčasťou cieľu projektu Common Voice je získať hlasové nahrávky s čo možno najviac prízvukmi, aby aplikácie využívajúce rozpoznávanie reči mohli fungovať rovnako dobre pre všetkých. Z tohto dôvodu sú pre nás podobné nahrávky obzvlášť dôležité.
 faq-why-different-speakers-q = Prečo potrebujete toľko rozdielnych ľudí pre každý jazyk?
+faq-why-different-speakers-a =
+    Väčšina rečových databáz je trénovaná s nadmerným zastúpením určitých demografických skupín, z čoho vyplýva zaujatosť voči <articleLink>mužom a strednej triede</articleLink>. Prízvuky a dialekty, ktoré sú často nedostatočne zastúpené v trénovacích datasetoch, sú typicky asociované s marginalizovanými skupinami obyvateľstva. Mnoho strojov má taktiež problém s rozpoznávaním ženských hlasov.
+    Kvôli tomuto chceme mať v našej databáze pestrosť!
 faq-why-my-lang-q = Prečo môj jazyk zatiaľ nie je zahrnutý?
 faq-why-my-lang-new-a = Mozilla nevyberá ani uprednostňuje žiadny jazyk pred iným. Namiesto toho je Common Voice čisto komunitnou iniciatívou, ale je potrebných <multilangLink>niekoľko krokov pre pridanie nového jazyka</multilangLink> a spustenie zberu hlasových darov. Najprv je potrebné preložiť webovú stránku Common Voice, aby členovia komunity mali prístup k skúsenostiam prispievateľov vo svojom vlastnom jazyku. Ďalej potrebujeme veľkú zbierku viet bez autorských práv, ktoré môžu ľudia čítať nahlas. Keď sú obidve tieto požiadavky splnené, jazyk je systéme Common Voice „spustený“ pre ľudí, ktorí môžu začať zaznamenávať svoj hlas a overovať nahrávky ostatných. Ak chcete pomôcť spustiť nový jazyk, prejdite na náš <sentenceCollectorLink> nástroj na zhromažďovanie viet </sentenceCollectorLink>, aby ste mohli začať.
 faq-what-quality-q = Aká kvalita zvuku je potrebná na použitie hlasového klipu v datasete?
@@ -424,6 +428,10 @@ faq-why-10k-hours-a = Je to približný počet hodín potrebných na natrénovan
 faq-how-calc-hours-q = Ako projekt Common Voice počíta nahrané hodiny?
 faq-how-calc-hours-a = Hodiny počítame odhadom priemernej dĺžky každého záznamu, ktorú potom vynásobíme celkovým počtom záznamov vo všetkých jazykoch.
 faq-where-src-from-2-q = Odkiaľ pochádza zdrojový text?
+faq-where-src-from-2-a =
+    Náš zdrojový text je tvorený originálnymi príspevkami prispievateľov, ale aj dialógmi zo scenárov verejne dostupných filmov, ako napríklad <italic>Život je krásny</italic>.
+    
+    Naše zdrojové vety môžete nájsť v tomto <githubLink>GitHub priečinku</githubLink>.
 faq-why-not-ask-read-q = Prečo nepožiadate ľudí, aby čítali z kníh alebo články na Wikipédii?
 faq-why-not-ask-read-a = Aby bol Common Voice dataset čo najužitočnejší, rozhodli sme sa prijímať len zdrojové texty dostupné pod licenciou Creative Commons (CC0). Použitie štandardu CC0 znamená, že je ťažšie nájsť a zozbierať zdrojový text, ale umožní komukoľvek použiť výsledné hlasové údaje bez obmedzení alebo povolení od Mozilly. V konečnom dôsledku chceme vytvoriť čo najužitočnejší mnohojazyčný dataset pre každého, vrátane vedcov, univerzít, startupov, vlád, sociálnych organizácii a hobbistov.
 faq-why-account-q = Prečo by som si mal(a) vytvoriť účet?
@@ -431,6 +439,10 @@ faq-is-account-public-q = Sú informácie o mojom účte verejne prístupné?
 faq-how-privacy-q = Ako zaisťujete anonymitu a súkromie jednotlivých prispievateľov do projektu Common Voice?
 faq-how-privacy-a = Všetky hlasové klipy v datasete sú očistené od osobne identifikujúcich údajov . Keď prispievateľ poskytne demografické údaje prostredníctvom svojho profilu, tieto informácie sa de-identifikujú od jeho hlasových klipov predtým, než sa pridajú do datasetu na stiahnutie a nikdy sa na profilovej stránke nezverejnia.
 faq-what-determine-identity-q = Čo to znamená, že nemôžem „určiť identitu“ rečníkov v datasete Common Voice?
+faq-what-determine-identity-a =
+    Common Voice dataset je otvoreným a verejne dostupným zdrojom, ktorý môže byť použitý na trénovanie širokej škály aplikácií s podporou reči. Na ochranu našich prispievateľov, žiadame každého, kto si stiahne set dát Common Voice, aby rešpektoval súkromie prispievateľov.
+    
+    Všetky hlasové nahrávky v datasete sú očistené od osobných identifikačných údajov. Stiahnutím datasetu súhlasíte, že sa nebudete pokúšať identifikovať identitu žiadneho z prispievateľov. To znamená, že nemôžete pokúšať spárovať informáciu v datasete s osobnými údajmi prispievateľa. Avšak, dataset môže byť použitý na trénovanie rozpoznávania reči, rozpoznávanie hovoriaceho, alebo iného použitia, ako napríklad spárovanám informácie v datasete s inými informáciami obsiahnutými v datasete.
 faq-what-is-cv = Čo je Common Voice?
 faq-using-cv = Používanie projektu Common Voice
 faq-description = Projekt Common Voice je súčasťou iniciatívy Mozilly, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
@@ -446,12 +458,20 @@ about-header-description =
     Chceme sprístupniť hlasové údaje verejne a zadarmo a zabezpečiť, aby údaje reprezentovali rozmanitosť skutočných ľudí. Spoločne môžeme zlepšiť rozpoznávanie hlasu pre všetkých.
 how-does-it-work-title = Ako to funguje?
 how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkého otvoreného datasetu. Darujte svoj hlas, overte presnosť klipov iných ľudí a pomôžte tak vylepšiť súbor údajov.
+about-speak = Čítanie
 about-speak-text = Prispievatelia zaznamenávajú rečové nahrávky čítaním zo zásoby darovaných viet.
+about-listen-queue = Fronta nahrávok
+about-listen-queue-text = Hlasové záznamy vstupujú do fronty, kde sú pripravené na počúvanie.
+about-listen = Počúvanie
+about-listen-text = Používatelia overujú presnosť darovaných nahrávok kontrolovaním, či hovoriaci čítajú vety správne.
 about-is-it-valid = Je nahrávka platná?
 about-is-it-valid-text = Nahrávka je označená ako platná po jej schválení iným používateľom
 about-yes-votes = ≥ 2 hlasy pre Áno
 about-yes-votes-text = Aby sa nahrávka dostala do databázy Common Voice, musí byť schválená dvoma rôznymi používateľmi.
 about-no-votes = ≥ 2 hlasy pre Nie
+about-no-votes-text = Keď používateľ odmietne hlasový klip, vráti sa do fronty. Ak bude odmietnutý druhýkrát, hlasový klip sa presunie na cintorín klipov.
+about-dataset-new = Dataset Common Voice
+about-dataset-new-text = Dataset Common Voice obsahuje stovky tisíc hlasových vzoriek, ktoré vývojárom pomáhajú vytvoriť nástroje na rozpoznávanie hlasu.
 about-clip-graveyard = Cintorín nahrávok
 about-clip-graveyard-text = Cintorín nahrávok obsahuje nahrávky, ktoré sa nedostali do hlavnej databázy Common Voice. Rovnako ako hlavná databáza, je aj cintorín k dispozícii na prevzatie.
 about-partners = Partneri
@@ -484,6 +504,7 @@ localization-explanation = Toto je náš proces prekladania a prispôsobovania n
 sentence-collection = Zber viet
 sentence-collection-explanation = Zhromažďovanie textov z verejnej domény alebo písanie nových textov pre verejnú doménu.
 hours-recorded-explanation = Počet hodín hlasových záznamov, ktoré sme doteraz zhromaždili.
+hours-validated-explanation = Počet hodín hlasových nahrávok, ktoré boli potvrdené 2 z 3 používateľov hlasovaním „Áno“. Tento počet určuje pokrok k naplneniu projektového cieľa 10k hodín.
 sst = Prevod reči na text (STT)
 sst-explanation = Technológia prevodu reči na text (STT) prevádza hlasové dáta na text.
 
