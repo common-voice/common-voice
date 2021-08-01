@@ -719,7 +719,7 @@ target-segment-learn-more = Ďalšie informácie
 
 ## Reporting
 
-report = Hlásenie
+report = Nahlásiť
 report-title = Odoslať správu
 report-ask = Aké máte problémy s touto vetou?
 report-offensive-language = Urážlivý jazyk
@@ -930,17 +930,27 @@ contribution-for-example = napríklad
 contribution-misreadings-title = Nesprávne prečítané
 contribution-misreadings-description = Pri počúvaní veľmi starostlivo skontrolujte, či to, čo bolo zaznamenané, je presne to, čo bolo napísané. Ak dôjde k čo i len malým chybám, odmietnite to.<br />Medzi veľmi časté chyby patria:
 contribution-misreadings-description-extended-list-1 = Na začiatku záznamu chýba <strong> „A“ </strong> alebo <strong> „The“ </strong>.
-contribution-misreadings-description-extended-list-2 = Na konci slova chýba <strong> „s“ </strong>.
+contribution-misreadings-description-extended-list-2 = Na konci slova chýba <strong> „y“ </strong>.
 contribution-misreadings-description-extended-list-3 = Čítanie krátených foriem, ktoré v skutočnosti neexistujú, napríklad „We're“ namiesto „We are“ alebo naopak.
 contribution-misreadings-description-extended-list-4 = Chýbajúci koniec posledného slova príliš rýchlym prerušením záznamu.
 contribution-misreadings-description-extended-list-5 = Niekoľko pokusov o prečítanie slova.
+contribution-misreadings-example-1-title = Obrie dinosaury z triasu.
+contribution-misreadings-example-3-explanation = [Záznam je prerušený pred koncom posledného slova]
 contribution-varying-pronunciations-title = Rôzne výslovnosti
 contribution-varying-pronunciations-description = Buďte opatrní, kým odmietnete klip z dôvodu, že čitateľ nesprávne vyslovil slovo, zdôraznil na zlom mieste alebo zjavne ignoroval otáznik. Po celom svete sa používa široká škála výslovností, z ktorých niektoré ste možno vo svojej miestnej komunite nepočuli. Poskytnite, prosím, priestor na uznanie tým, ktorí môžu hovoriť inak ako vy.
 contribution-varying-pronunciations-description-extended = Na druhej strane, ak si myslíte, že sa čitateľ s týmto slovom pravdepodobne nikdy predtým nestretol a iba nesprávne odhaduje výslovnosť, odmietnite. Ak si nie ste istí, použite tlačidlo preskočiť.
 contribution-background-noise-title = Hluk na pozadí
 contribution-background-noise-description = Chceme, aby algoritmy strojového učenia zvládali rôzne hluky v pozadí a aby boli akceptované aj relatívne hlasné zvuky, za predpokladu, že vám nebránia počuť celý text. Tichá hudba na pozadí je v poriadku; hudba dostatočne hlasná, aby ste zabránili počutiu každého slova v poriadku nie je.
 contribution-background-noise-description-extended = Ak je záznam prerušovaný alebo praská, a nie je počuť celý text, odmietnite ho.
+contribution-background-voices-title = Hluk na pozadí
+contribution-background-voices-description = Tichá vrava na pozadí je v poriadku, ale nechceme ďalšie hlasy, ktoré môžu spôsobiť, že algoritmus stroja identifikuje slová, ktoré nie sú v písanom texte. Ak počujete odlišné slová ako tie v texte, klip by mal byť odmietnutý. Obvykle sa to stane tam, kde bol televízor zapnutý, alebo v blízkosti prebieha konverzácia.
+contribution-background-voices-description-extended = Ak je záznam prerušovaný alebo praská, a nie je počuť celý text, odmietnite ho.
+contribution-background-voices-example-1-title = Obrie dinosaury z triasu. <strong>[prečítané jedným hlasom] /strong>
+contribution-background-voices-example-1-explanation = Ideš už? <strong>[volá iný hlas]</strong>
 contribution-volume-title = Hlasitosť
+contribution-volume-description = Medzi príspevkami budú prirodzené odchýlky v hlasitosti. Odmietnite iba vtedy, ak je hlasitosť taká vysoká, že sa záznam rozpadne, alebo (bežnejšie) ak je taká nízka, že nemôžete počuť, čo sa na zázname hovorí bez toho, aby ste si pozreli napísaný text.
+contribution-reader-effects-title = Efekty od čítajúceho
+contribution-reader-effects-description = Väčšina nahrávok je od ľudí, ktorí hovoria svojim prirodzeným hlasom. Môžete prijať príležitostný neštandardný záznam, ktorý je kričaný, šepkaný alebo očividne podaný „dramatickým“ hlasom. Odmietnite spievané nahrávky a nahrávky používajúce počítačovo syntetizovaný hlas.
 contribution-just-unsure-title = Len si nie ste istí?
 contribution-just-unsure-description = Ak narazíte na niečo, na čo sa tieto pokyny nevzťahujú, hlasujte podľa svojho najlepšieho úsudku. Ak sa naozaj nemôžete rozhodnúť, použite tlačidlo preskočenia a pokračujte k ďalšiemu záznamu.
 see-more = <chevron></chevron> Zobraziť viac
