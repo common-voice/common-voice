@@ -112,11 +112,13 @@ my = barmčina
 myv = erzya
 nb-NO = nórčina (bokmål)
 ne-NP = nepálčina
+nia = Nias
 nl = holandčina
 nn-NO = nórčina (nynorsk)
 oc = okcitánčina
 or = urijčina
 pa-IN = pandžábčina
+pap-AW = Papiamento (Aruba)
 pl = poľština
 ps = paštčina
 pt = portugalčina
@@ -145,6 +147,7 @@ th = thajčina
 tl = tagalčina
 tr = turečtina
 tt = tatárčina
+tw = Twi
 uby = ubychčina
 udm = udmurtčina
 ug = ujgurčina
@@ -154,6 +157,7 @@ uz = uzbečtina
 vec = benátčina
 vi = vietnamčina
 vot = vodčina
+yo = Jorubčina
 yue = kantónčina
 zh-CN = čínština (Čína)
 zh-HK = čínština (Hongkong)
@@ -293,6 +297,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrať/zastaviť
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nahrať klip nanovo
+shortcut-submit = Enter
+shortcut-submit-label = Odoslať nahrávky
 request-language-text = Nevidíte na Common Voice svoj jazyk?
 request-language-text-learn = Tu sa dozviete, ako o to požiadať.
 request-language-button = Požiadajte o jazyk
@@ -365,26 +371,19 @@ skip-submission-description = Pri prispievaní bude po kliknutí na „Odoslať�
 skip-submission-note = Poznámka: Pre zmenu druhu vašich príspevkov budete stále musieť vybrať medzi hovorením a počúvaním.
 off = Vypnutá
 on = Zapnutá
-avatar-clip-title = Dajte svojmu avatarovi hlas
-change-your-avatar-clip = Chcete zmeniť svoju nahrávku?
-recording-in-progress = Prebieha nahrávanie hlasu
-avatar-clip-recorded = Váš avatar odteraz obsahuje hlasovú stopu!
-record-voice-wave = NAHRAŤ ZÁZNAM HLASU
-retry-voice-wave-recording = SKÚSIŤ ZNOVA
-re-record = NAHRAŤ ZNOVA
-delete-voice = VYMAZAŤ
-recording-voice-wave = Nahrávanie
-delete-voice-clip = alebo zmazanie nahrávky
-ready-to-upload = Nahrať
-avatar-clip-fact = Je dlhodobo známym faktom, že čitateľ bude rozptyľovaný čitateľným obsahom stránky pri skúmaní jej rozloženia.
-recreate-voice = Znovu vytvoriť
-cancel-avatar-clip-recording = Zrušiť
-about-avatar-clip-recording = Vytvorte si nahrávku ako súčasť svojho avatara. Ostatní si ju budú môcť vypočuť po prejdení myšou.
+
+## Profile - Email
+
 browse-file-title = Nahrať obrázok
 browse-file = Presuňte alebo <browseWrap>Prehliadajte</browseWrap>
 connect-gravatar = Prepojiť so službou Gravatar
 gravatar_not_found = Pre vašu e-mailovú adresu nebol nájdený žiadny gravatar
 file_too_large = Vybraný súbor je príliš veľký
+avatar-uploaded = Avatar bol nahraný
+max-file-size = max. { $kb } kB
+
+## Profile - Email
+
 manage-subscriptions = Spravovať odbery
 manage-email-subscriptions = Spravovať odbery e-mailov
 email-already-used = E-mailová adresa sa už používa pre iný účet
@@ -441,7 +440,11 @@ faq-search-for-answers =
 
 about-title = Prečo Common Voice?
 about-subtitle = Common Voice je súčasťou iniciatívy Mozilly pomôcť učiť stroje, ako hovoria skutoční ľudia. Okrem datasetu Common Voice budujeme aj open source engine na rozpoznávanie reči s názvom Deep Speech.
+about-header-description =
+    Oba tieto projekty sú súčasťou nášho úsilia o prekonanie priepasti v digitálnej reči. Technológie rozpoznávania hlasu dodávajú našim zariadeniam ľudský rozmer, ale vývojári potrebujú obrovské množstvo hlasových údajov, aby ich mohli zostaviť. V súčasnosti je väčšina týchto údajov drahá a súkromná.
+    Chceme sprístupniť hlasové údaje verejne a zadarmo a zabezpečiť, aby údaje reprezentovali rozmanitosť skutočných ľudí. Spoločne môžeme zlepšiť rozpoznávanie hlasu pre všetkých.
 how-does-it-work-title = Ako to funguje?
+how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkého otvoreného datasetu. Darujte svoj hlas, overte presnosť klipov iných ľudí a pomôžte tak vylepšiť súbor údajov.
 about-is-it-valid = Je nahrávka platná?
 about-is-it-valid-text = Nahrávka je označená ako platná po jej schválení iným používateľom
 about-yes-votes = ≥ 2 hlasy pre Áno
@@ -451,6 +454,10 @@ about-clip-graveyard = Cintorín nahrávok
 about-clip-graveyard-text = Cintorín nahrávok obsahuje nahrávky, ktoré sa nedostali do hlavnej databázy Common Voice. Rovnako ako hlavná databáza, je aj cintorín k dispozícii na prevzatie.
 about-partners = Partneri
 about-become-a-partner = Staňte sa partnerom
+about-partnership =
+    Common Voice je projekt spolupráce, ktorý je závislý od našej komunity partnerov a prispievateľov pri zostavovaní najväčšieho open-source datasetu hlasov.
+    
+    Chceli by sme sa poďakovať nasledujúcim ľuďom a organizáciám za pomoc s týmto projektom:
 about-get-involved = Zapojte sa
 about-nav-why-common-voice = Prečo?
 about-nav-how-it-works = Ako?
@@ -467,13 +474,17 @@ mycroft-secondary-description = Ide o softvér s otvoreným zdrojovým kódom, k
 
 glossary = Slovník
 localization = Lokalizácia
+localization-explanation = Toto je náš proces prekladania a prispôsobovania nášho obsahu pre mnohé miestne nastavenia (jazyky).
 sentence-collection = Zber viet
+sentence-collection-explanation = Zhromažďovanie textov z verejnej domény alebo písanie nových textov pre verejnú doménu.
+hours-recorded-explanation = Počet hodín hlasových záznamov, ktoré sme doteraz zhromaždili.
 sst = Prevod reči na text (STT)
 sst-explanation = Technológia prevodu reči na text (STT) prevádza hlasové dáta na text.
 
 ## Error pages
 
 error-title-404 = Túto stránku sa nám nepodarilo nájsť
+error-title-503 = Zaznamenali sme neočakávaný výpadok
 error-code = Chyba { $code }
 
 ## Data
@@ -509,19 +520,26 @@ review-delete-recordings = Odstrániť moje nahrávky
 
 ## Datasets Page
 
+datasets-headline = Vytvárame otvorený viacjazyčný hlasový dataset, ktorý môže ktokoľvek použiť na trénovanie hlasových aplikácií.
 language = Jazyk
 # File size in gigabytes
 size = Veľkosť
+validated-hr-total = Overených Hod. Spolu
+overall-hr-total = Celkovo Hod. Spolu
 cv-license = Licencia
 audio-format = Formát zvuku
 number-of-voices = Počet hlasov
 splits = Rozdelenie
 email-to-download = Pre prevzatie zadajte svoju e-mailovú adresu
+why-email = <b>Prečo email?</b> Možno Vás budeme musieť v budúcnosti kontaktovať ohľadom zmien v datasete, a e-mail nám poskytuje spôsob kontaktu.
 confirm-size = Ste pripravení prevziať <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Súhlasíte</b>, že sa nebudete pokúšať zistiť identitu prispievateľov v datasete Common Voice.
 download-language = Prevziať jazyk { $language }
+validated-hours = Počet Overených Hodín
+recorded-hours = Počet Nahraných Hodín
+whats-inside = Čo je vnútri datasetu Common Voice?
 subscribe = Odoberať
 other-datasets = Ďalšie hlasové datasety
 feedback-q = Máte spätnú väzbu?
@@ -798,4 +816,7 @@ demo-account-card-header = Účet nie je nutnosťou, no môže byť užitočný
 
 
 ## Demo Dashboard
+
+
+## Validation criteria
 
