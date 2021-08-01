@@ -179,7 +179,7 @@ contact = Kontakt
 privacy = Súkromie
 terms = Podmienky
 cookies = Cookies
-faq = Často kladené otázky
+faq = FAQ
 content-license-text = Obsah je dostupný v rámci licencie <licenseLink>Creative Commons</licenseLink>
 share-title = Pomôžte nám nájsť ďalších, ktorí prispejú svojím hlasom!
 share-text = Pomôžte strojom pochopiť ľudskú reč. Prispejte svojím hlasom na { $link }
@@ -224,7 +224,7 @@ hours-recorded = Počet nahraných hodín
 hours-validated = Počet overených hodín
 voices-online = Aktívne hlasy
 todays-progress = Dnešný pokrok
-help-reach-goal = Pomôžte nám dostať sa na { $goal }
+help-reach-goal = Pomôžte nám dosiahnuť { $goal }
 read-terms-q = Čítali ste naše podmienky používania?
 ready-to-record = Ste pripravení darovať svoj hlas?
 all-locales = Všetky
@@ -719,6 +719,7 @@ target-segment-learn-more = Ďalšie informácie
 
 ## Reporting
 
+report = Hlásenie
 report-title = Odoslať správu
 report-ask = Aké máte problémy s touto vetou?
 report-offensive-language = Urážlivý jazyk
@@ -739,6 +740,7 @@ report-success = Správa bola úspešne odoslaná!
 
 ## Goals
 
+streaks = Série
 days =
     { $count ->
         [one] deň
@@ -778,6 +780,8 @@ validated-clips = Overené nahrávky
 total-approved = Celkom schválených
 overall-accuracy = Celková presnosť
 set-visibility = Nastaviť moju viditeľnosť
+visibility-explainer = Toto nastavenie riadi viditeľnosť výsledkovej tabuľky. Ak bude skrytá, váš pokrok bude súkromný. To znamená, že na výsledkovej tabuli sa nezobrazí váš obrázok, používateľské meno, ani pokrok. Upozorňujeme, že obnovenie zmien na výsledkovej tabuľky trvá ~ { $minutes } min.
+visibility-overlay-note = Poznámka: Ak nastavené na „Viditeľné“, toto nastavenie sa dá zmeniť na <profileLink> Profilovej stránke </profileLink>
 show-ranking = Ukázať moje hodnotenie
 
 ## Custom Goals
@@ -812,6 +816,24 @@ help-reach-hours-general-pluralized =
     }v jazyku s pomocou osobných cieľov
 set-a-goal = Vytvoriť cieľ
 cant-decide = Nemôžete sa rozhodnúť?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } hodina
+        [few] { $totalHours } hodiny
+       *[other] { $totalHours } hodín
+    }je dosiahnuteľných už o{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mesiac
+        [few] { $periodMonths } mesiace
+       *[other] { $periodMonths } mesiacov
+    }ak{ NUMBER($people) ->
+        [one] { $people } človek
+        [few] { $people } ľudia
+       *[other] { $people } ľudí
+    }nahrá{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } nahrávku
+        [few] { $clipsPerDay } nahrávky
+       *[other] { $clipsPerDay } nahrávok
+    }za deň.
 how-many-per-day = Skvelé! Koľko nahrávok za deň?
 how-many-a-week = Skvelé! Koľko nahrávok za týždeň?
 which-goal-type = Chcete hovoriť, počúvať alebo oboje?
@@ -830,6 +852,9 @@ goal-interval-weekly = Týždenne
 share-n-daily-contribution-goal = Zdieľajte svoj denný cieľ { $count } nahrávok pre { $type }
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Zdieľajte svoj týždenný cieľ { $count } nahrávok pre { $type }
+share-goal-type-speak = Rozprávanie
+share-goal-type-listen = Počúvanie
+share-goal-type-both = Rozprávanie a počúvanie
 # LINK will be replaced with the current URL
 goal-share-text = Práve som si vytvoril osobný cieľ pre darovanie hlasu pre #CommonVoice - pripoj sa ku mne a pomôž naučiť stroje, ako rozprávajú skutoční ľudia { $link }
 weekly-goal-created = Váš týždenný cieľ bol vytvorený
@@ -861,21 +886,32 @@ read-more-about = Prečítajte si viac na stránke O nás
 
 ## DemoLayout
 
+demo-get-started = Začíname
+demo-welcome = Vitajte v Common Voice
+demo-welcome-subheader = Máte záujem dozvedieť sa viac a prispieť k projektu?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice je najväčší verejne dostupný viacjazyčný súbor hlasových údajov na svete.
+demo-language-select-card-body = Vďaka príspevkom od viac ako 259 000 ľudí vo viac ako 50 jazykoch sa tieto údaje používajú na učenie aplikácií s podporou reči, aby lepšie reagovali na ľudský hlas.
 card-button-next = Ďalej
 card-button-back = Naspäť
 demo-language-select-label = Prechádzať jazyky
+demo-eofy-header = Vydanie na konci roka 2019
+demo-eofy-sub_header = Hlasová dátová sada, pripravená na stiahnutie
 demo-account = Účet
 
 ## Demo Account
 
 demo-account-card-header = Účet nie je nutnosťou, no môže byť užitočný
+demo-account-card-body = Vpravo uvádzame výhody a objasňujeme, ktoré informácie zverejňujeme. Pomocou nižšie uvedených odkazov môžete začať používať účet Common Voice vo svojom zariadení.
+demo-account-enter-email =
+    .label = Zadajte e -mail na odoslanie odkazu na registráciu
 demo-account-sign-up = Odoslať prihlasovací odkaz
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ste pripravení pridať svoj hlas alebo sluch k dielu?
 demo-listen-subtitle = Pripravený prispieť?
 
 ## Demo Dashboard
@@ -883,6 +919,7 @@ demo-listen-subtitle = Pripravený prispieť?
 
 ## Validation criteria
 
+contribution-criteria-nav = Kritériá
 contribution-just-unsure-title = Len si nie ste istí?
 contribution-just-unsure-description = Ak narazíte na niečo, na čo sa tieto pokyny nevzťahujú, hlasujte podľa svojho najlepšieho úsudku. Ak sa naozaj nemôžete rozhodnúť, použite tlačidlo preskočenia a pokračujte k ďalšiemu záznamu.
 see-more = <chevron></chevron> Zobraziť viac
