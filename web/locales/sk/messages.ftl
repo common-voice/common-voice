@@ -395,13 +395,13 @@ change-email-setings = Svoju e-mailovú adresu môžete zmeniť v nastaveniach v
 faq-title = Často kladené otázky
 faq-what-cv-q = Čo je Common Voice?
 faq-what-cv-a =
-    Technológia rozpoznávania hlasu je revolúciou v spôsobe, akým pracujeme so strojmi, ale v súčasnosti dostupné systémy sú drahé a proprietárne. Common Voice je súčasťou iniciatívy Mozilly, aby technológie rozpoznávania hlasu boli lepšie a dostupnejšie pre každého. Common Voice je masívna globálna databáza darovaných hlasov, ktorá umožňuje komukoľvek ľahko a rýchlo trénovať aplikácie podporujúce hlas, potenciálne v každom jazyku.¶
-    ¶
+    Technológia rozpoznávania hlasu je revolúciou v spôsobe, akým pracujeme so strojmi, ale v súčasnosti dostupné systémy sú drahé a proprietárne. Common Voice je súčasťou iniciatívy Mozilly, aby technológie rozpoznávania hlasu boli lepšie a dostupnejšie pre každého. Common Voice je masívna globálna databáza darovaných hlasov, ktorá umožňuje komukoľvek ľahko a rýchlo trénovať aplikácie podporujúce hlas, potenciálne v každom jazyku.
+    
     Zhromažďujeme hlasové vzorky nielen pre najpoužívanejšie jazyky, ale aj pre jazyky s menšou populáciou hovoriacich. Publikovanie rôznorodého súboru hlasov umožní vývojárom, podnikateľom a komunitám aby túto medzeru riešili sami. Popri dátovom súbore Common Voice taktiež budujeme aj open source nástroj na rozpoznávanie reči s názvom Deep Speech.
 faq-why-important-q = Prečo je to dôležité?
 faq-why-important-a =
-    Reč je často najprirodzenejším spôsobom, akým navzájom komunikujeme, a hlasové technológie prinášajú toto pohodlie do našich počítačov a mobilných zariadení. Chceme umožniť vývojárom vybudovať úžasné aplikácie na rozpoznávanie hlasu, ako sú prekladatelia v reálnom čase a hlasom ovládaní digitálni asistenti. Ale práve teraz je väčšina hlasových dát potrebných na vybudovanie takýchto aplikácií drahá a proprietárna. Dúfame, že dátový súbor Common Voice poskytne vývojárom to, čo potrebujú na inováciu a sprístupnenie technológie reči v ich vlastnom jazyku.¶
-    ¶
+    Reč je často najprirodzenejším spôsobom, akým navzájom komunikujeme, a hlasové technológie prinášajú toto pohodlie do našich počítačov a mobilných zariadení. Chceme umožniť vývojárom vybudovať úžasné aplikácie na rozpoznávanie hlasu, ako sú prekladatelia v reálnom čase a hlasom ovládaní digitálni asistenti. Ale práve teraz je väčšina hlasových dát potrebných na vybudovanie takýchto aplikácií drahá a proprietárna. Dúfame, že dátový súbor Common Voice poskytne vývojárom to, čo potrebujú na inováciu a sprístupnenie technológie reči v ich vlastnom jazyku.
+    
     Aby sa rozpoznávanie hlasu stalo ešte univerzálnejším, zhromažďujeme hlasové vzorky v často hovorených jazykoch, rovnako ako v jazykoch s menším počtom hovoriacich, ktorí sú často prehliadaní komerčnými službami rozpoznávania reči. Publikovanie rôznorodého súboru hlasov umožní vývojárom, podnikateľom a celým rečovým komunitám vyriešiť túto medzeru .
 faq-how-get-q = Ako môžem získať údaje služby Common Voice?
 faq-how-get-a = Dataset služby Common Voice je dostupný na prevzatie v rámci licencie <licenseLink>CC0</licenseLink> na <datasetLink>stránke našich datasetov</datasetLink>. Z tej istej stránky si taktiež môžete prevziať niekoľko ďalších verejne dostupných datasetov.
@@ -507,11 +507,15 @@ hours-recorded-explanation = Počet hodín hlasových záznamov, ktoré sme dote
 hours-validated-explanation = Počet hodín hlasových nahrávok, ktoré boli potvrdené 2 z 3 používateľov hlasovaním „Áno“. Tento počet určuje pokrok k naplneniu projektového cieľa 10k hodín.
 sst = Prevod reči na text (STT)
 sst-explanation = Technológia prevodu reči na text (STT) prevádza hlasové dáta na text.
+de-identified = Anonymizovanie
+de-identified-explanation = Proces, pri ktorom je v súboroch datasetu skrytá identita autorov hlasových záznamov.
 
 ## Error pages
 
 error-title-404 = Túto stránku sa nám nepodarilo nájsť
+error-content-404 = Možno pomôže naša <homepageLink>domovská stránka</homepageLink>? Ak chcete položiť otázku, pripojte sa k četu na <matrixLink>Matrixe</matrixLink>, monitorujte problémy prostredníctvom <githubLink>GitHubu</githubLink> alebo navštívte <discourseLink>naše diskusné fóra</discourseLink>.
 error-title-503 = Zaznamenali sme neočakávaný výpadok
+error-content-503 = Stránka bude čo najskôr obnovená. Ak chcete získať najnovšie informácie, pripojte sa k četu na <matrixLink>Matrixe</matrixLink>, navštívte stránku na <githubLink>GitHube</githubLink> alebo si pozrite <discourseLink>naše diskusné fóra</discourseLink>.
 error-code = Chyba { $code }
 
 ## Data
@@ -533,6 +537,8 @@ release-version = Verzia
 dataset-date = Dátum
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Zmiešaná
+data-download-singleword-title = Stiahnite si Jednoslovnú dátovú sadu
+data-download-singleword-callout-v2 = Toto je sada určená na podporu rozpoznávania hovorených číslic a slov áno / nie.
 review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmienkami</termsLink> a <privacyLink>zásadami ochrany súkromia</privacyLink>
 terms-agree = Súhlasím
 terms-disagree = Nesúhlasím
@@ -859,3 +865,5 @@ demo-listen-subtitle = Pripravený prispieť?
 
 ## Validation criteria
 
+see-more = <chevron></chevron> Zobraziť viac
+see-less = <chevron> </chevron> Zobraziť menej
