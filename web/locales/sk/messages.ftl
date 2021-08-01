@@ -912,14 +912,35 @@ demo-account-sign-up = Odoslať prihlasovací odkaz
 ## Demo Contribute
 
 demo-contribute-card-header = Ste pripravení pridať svoj hlas alebo sluch k dielu?
+demo-contribute-card-body-v2 = Teraz, keď už viete niečo viac o Common Voice, prečo to neskúsiť? Kliknutím na ikonu mikrofónu začnete čítať vety nahlas. <br/> <br/> Ak dávate prednosť kontrole hlasových príspevkov iných ľudí, kliknite na ikonu prehrávania. Pomôžete potvrdiť, že sa záznamy zhodujú s vetami napísanými na obrazovke.
 demo-listen-subtitle = Pripravený prispieť?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Osobné informačné panely vás informujú o pokroku jednotlivcov a komunity.
+demo-dashboard-card-body = Pre každý darovaný hlasový klip a každý overený zvukový klip sa informačné panely vášho účtu aktualizujú tak, aby odrážali váš najnovší pokrok v každom jazyku, do ktorého prispievate. Áno, môžete prispieť do viacerých! <br/> <br/> Pomocou informačných panelov môžete sledovať svoje štatistiky, zistiť, ako sa vám darí spolu s ostatnými v komunite, a nastaviť si denné alebo týždenné ciele v oblasti príspevkov.
 
 ## Validation criteria
 
 contribution-criteria-nav = Kritériá
+contribution-criteria-link = Pochopte kritériá príspevku
+contribution-criteria-page-title = Kritériá príspevku
+contribution-criteria-page-description = Pochopte, na čo sa zamerať pri počúvaní hlasových klipov, a pomôžte tiež obohatiť svoje hlasové nahrávky!
+contribution-for-example = napríklad
+contribution-misreadings-title = Nesprávne prečítané
+contribution-misreadings-description = Pri počúvaní veľmi starostlivo skontrolujte, či to, čo bolo zaznamenané, je presne to, čo bolo napísané. Ak dôjde k čo i len malým chybám, odmietnite to.<br />Medzi veľmi časté chyby patria:
+contribution-misreadings-description-extended-list-1 = Na začiatku záznamu chýba <strong> „A“ </strong> alebo <strong> „The“ </strong>.
+contribution-misreadings-description-extended-list-2 = Na konci slova chýba <strong> „s“ </strong>.
+contribution-misreadings-description-extended-list-3 = Čítanie krátených foriem, ktoré v skutočnosti neexistujú, napríklad „We're“ namiesto „We are“ alebo naopak.
+contribution-misreadings-description-extended-list-4 = Chýbajúci koniec posledného slova príliš rýchlym prerušením záznamu.
+contribution-misreadings-description-extended-list-5 = Niekoľko pokusov o prečítanie slova.
+contribution-varying-pronunciations-title = Rôzne výslovnosti
+contribution-varying-pronunciations-description = Buďte opatrní, kým odmietnete klip z dôvodu, že čitateľ nesprávne vyslovil slovo, zdôraznil na zlom mieste alebo zjavne ignoroval otáznik. Po celom svete sa používa široká škála výslovností, z ktorých niektoré ste možno vo svojej miestnej komunite nepočuli. Poskytnite, prosím, priestor na uznanie tým, ktorí môžu hovoriť inak ako vy.
+contribution-varying-pronunciations-description-extended = Na druhej strane, ak si myslíte, že sa čitateľ s týmto slovom pravdepodobne nikdy predtým nestretol a iba nesprávne odhaduje výslovnosť, odmietnite. Ak si nie ste istí, použite tlačidlo preskočiť.
+contribution-background-noise-title = Hluk na pozadí
+contribution-background-noise-description = Chceme, aby algoritmy strojového učenia zvládali rôzne hluky v pozadí a aby boli akceptované aj relatívne hlasné zvuky, za predpokladu, že vám nebránia počuť celý text. Tichá hudba na pozadí je v poriadku; hudba dostatočne hlasná, aby ste zabránili počutiu každého slova v poriadku nie je.
+contribution-background-noise-description-extended = Ak je záznam prerušovaný alebo praská, a nie je počuť celý text, odmietnite ho.
+contribution-volume-title = Hlasitosť
 contribution-just-unsure-title = Len si nie ste istí?
 contribution-just-unsure-description = Ak narazíte na niečo, na čo sa tieto pokyny nevzťahujú, hlasujte podľa svojho najlepšieho úsudku. Ak sa naozaj nemôžete rozhodnúť, použite tlačidlo preskočenia a pokračujte k ďalšiemu záznamu.
 see-more = <chevron></chevron> Zobraziť viac
