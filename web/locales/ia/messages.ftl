@@ -940,3 +940,6 @@ contribution-volume-description = Il sera natural variationes in volumine inter 
 contribution-reader-effects-title = Effectos del lector
 contribution-reader-effects-description = Le major parte del registrationes es de personas qui parla in lor natural voce. Tu pote acceptar le occasional registration non-standard que es critate, susurrate, o obviemente fornite in un voce ‘dramatic’. Per favor rejecta registrationes cantate e illos que usa un voce synthetisate per computator.
 contribution-just-unsure-title = Justo insecur?
+contribution-just-unsure-description = Si tu ha incontrate qualcosa que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
+see-more = <chevron></chevron>Vider plus
+see-less = <chevron></chevron>Vider minus
