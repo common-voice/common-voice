@@ -1,5 +1,5 @@
 .ReactModal__Overlay {
-    z-index: var(--top-z-index);
+    z-index: var(--override-z-index);
     width: 100%;
     height: 100%;
     animation: fade-in var(--transition-duration);

@@ -4,7 +4,7 @@ contribute = Yambako
 get-involved-button = Weyungeko
 get-involved-title = Ggata ku { $lang }
 get-involved-text =
-    Webale kwagala kugata ku { $lang }. Tusaamu amanyi okusobola okumaliriza buli lulimi nga twetegekera launch era tusindikira
+    Weebale kwagala kugata ku { $lang }. Tusaamu amanyi okusobola okumaliriza buli lulimi nga twetegekera launch era tusindikira
     tiimu obubaka mu email. Bw'oba oyagala okuyamba, tusaba oteeke email yo wansi awo.
 get-involved-form-title = Funa ebikwata ku { $lang }
 get-involved-email =

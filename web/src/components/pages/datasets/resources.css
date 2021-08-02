@@ -1,5 +1,3 @@
-@import url('../../vars.css');
-
 .dataset-resources {
     display: flex;
     background: var(--lighter-grey);
@@ -168,7 +166,7 @@
     & .other-dataset {
         position: relative;
 
-        & .banner {
+        & .dataset-banner {
             margin-bottom: 65px;
             height: 85px;
             opacity: 0.2;

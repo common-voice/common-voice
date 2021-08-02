@@ -1,7 +1,8 @@
 exports.stats = {
-  bundleURLTemplate:
-    'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com/cv-corpus-4-2019-12-10/{locale}.tar.gz',
+  bundleURLTemplate: 'cv-corpus-4-2019-12-10/{locale}.tar.gz',
   date: '2019-12-10',
+  name: 'Common Voice Corpus 4',
+  multilingual: true,
   locales: {
     en: {
       clips: 1137300,

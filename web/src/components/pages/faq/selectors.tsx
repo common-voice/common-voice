@@ -106,7 +106,7 @@ const SECTION_CONTENTS: any = {
           italic: <i />,
           githubLink: (
             <StyledLink
-              href={`${URLS.GITHUB_ROOT}/tree/master/server/data`}
+              href={`${URLS.GITHUB_ROOT}/tree/main/server/data`}
               blank
             />
           ),
