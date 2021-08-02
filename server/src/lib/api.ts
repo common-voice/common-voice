@@ -19,7 +19,9 @@ import Model from './model';
 import Prometheus from './prometheus';
 import { ClientParameterError } from './utility';
 import Challenge from './challenge';
-import { FeatureToken, FeatureType, features } from 'common';
+import { FeatureType, features } from 'common';
+import { TaxonomyToken, taxonomies } from 'common';
+import { getLocaleId } from './model/db';
 
 const Transcoder = require('stream-transcoder');
 
@@ -78,7 +80,7 @@ export default class API {
     router.patch('/user_client', this.saveAccount);
     router.post(
       '/user_client/avatar/:type',
-      bodyParser.raw({ type: 'image/*' }),
+      bodyParser.raw({ type: 'image/*', limit: '300kb' }),
       this.saveAvatar
     );
     router.post('/user_client/avatar_clip', this.saveAvatarClip);
@@ -118,6 +120,7 @@ export default class API {
     router.use('/challenge', this.challenge.getRouter());
 
     router.get('/feature/:locale/:feature', this.getFeatureFlag);
+    router.get('/bucket/:bucket_type/:path/:cdn', this.getPublicUrl);
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
@@ -131,14 +134,15 @@ export default class API {
     response: Response
   ) => {
     let featureResult = null;
+    const featureObj = features[feature];
 
     try {
-      const featureToken = feature as FeatureToken;
-      const featureObj = features[featureToken];
-
       if (
         featureObj &&
-        (!featureObj.locales || featureObj.locales.includes(locale)) &&
+        ((featureObj.taxonomy &&
+          taxonomies[featureObj.taxonomy] &&
+          taxonomies[featureObj.taxonomy].locales.includes(locale)) ||
+          featureObj.taxonomy === undefined) &&
         getConfig()[featureObj.configFlag as keyof CommonVoiceConfig]
       ) {
         featureResult = featureObj;
@@ -236,7 +240,7 @@ export default class API {
 
     const { email } = request.params;
     const basketResponse = await sendRequest({
-      uri: Basket.API_URL + '/news/subscribe/',
+      uri: Basket.BASKET_API_URL + '/news/subscribe/',
       method: 'POST',
       form: {
         'api-key': BASKET_API_KEY,
@@ -248,12 +252,14 @@ export default class API {
         sync: 'Y',
       },
     });
-    await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
+    const clientId = await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
+    await Basket.sync(clientId, true);
+
     response.json({});
   };
 
   saveAvatar = async (
-    { body, headers, params, user }: Request,
+    { body, headers, params, user, client_id }: Request,
     response: Response
   ) => {
     let avatarURL;
@@ -279,15 +285,26 @@ export default class API {
         break;
 
       case 'file':
-        avatarURL =
-          'data:' +
-          headers['content-type'] +
-          ';base64,' +
-          body.toString('base64');
-        console.log(avatarURL.length);
-        if (avatarURL.length > 8000) {
-          error = 'too_large';
-        }
+        // Because avatar files are uploaded as public, this is a nominally
+        // unpredictable prefix to prevent easy guessing of avatar location
+        const prefix = (new Date().getUTCMilliseconds() * Math.random())
+          .toString(36)
+          .slice(-5);
+
+        let fileName = `${client_id}/${prefix}-avatar.jpeg`;
+        await this.s3
+          .upload({
+            Key: fileName,
+            Bucket: getConfig().CLIP_BUCKET_NAME,
+            Body: body,
+            ACL: 'public-read',
+          })
+          .promise();
+
+        avatarURL = this.bucket.getUnsignedUrl(
+          getConfig().CLIP_BUCKET_NAME,
+          fileName
+        );
         break;
 
       default:
@@ -296,7 +313,11 @@ export default class API {
     }
 
     if (!error) {
-      await UserClient.updateAvatarURL(user.emails[0].value, avatarURL);
+      const oldAvatar = await UserClient.updateAvatarURL(
+        user.emails[0].value,
+        avatarURL
+      );
+      if (oldAvatar) await this.bucket.deleteAvatar(client_id, oldAvatar);
     }
 
     response.json(error ? { error } : {});
@@ -337,7 +358,7 @@ export default class API {
       await Promise.all([
         this.s3
           .upload({
-            Bucket: getConfig().BUCKET_NAME,
+            Bucket: getConfig().CLIP_BUCKET_NAME,
             Key: clipFileName,
             Body: transcoder.audioCodec('mp3').format('mp3').stream(),
           })
@@ -413,14 +434,10 @@ export default class API {
   };
 
   insertDownloader = async (
-    { client_id, params, body }: Request,
+    { client_id, body }: Request,
     response: Response
   ) => {
-    await this.model.db.insertDownloader(
-      params.locale,
-      body.email,
-      body.dataset
-    );
+    await this.model.db.insertDownloader(body.locale, body.email, body.dataset);
     response.json({});
   };
 
@@ -435,5 +452,17 @@ export default class API {
   createReport = async ({ client_id, body }: Request, response: Response) => {
     await this.model.db.createReport(client_id, body);
     response.json({});
+  };
+
+  getPublicUrl = async (
+    { params: { bucket_type, path, cdn } }: Request,
+    response: Response
+  ) => {
+    const url = await this.bucket.getPublicUrl(
+      decodeURIComponent(path),
+      bucket_type,
+      cdn == 'true'
+    );
+    response.json({ url });
   };
 }

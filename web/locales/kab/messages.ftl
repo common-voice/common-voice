@@ -1,16 +1,16 @@
 ## General
 
-yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad iyi-d-ttawḍen yisallen ɣef usenfar n Commen Voice.
-stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt i itezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsell ugar ɣef wamek ara ttwasqedcen isefka-agi.
-privacy-info = Ad neḍmen aḥraz n talɣut-nwen. Ɣer ugar n yisallen deg <privacyLink>tsertit-nneɣ tabaḍnit</privacyLink>.
+yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad iyi-d-ttawḍen yisallen ɣef usenfaṛ n Commen Voice.
+stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt i ittezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsell ugar ɣef wamek ara ttwasqedcen isefka-agi.
+privacy-info = Ad neḍmen aḥraz n talɣut-nwen. Ɣaṛ ugar n yisallen deg <privacyLink>tsertit-nneɣ tabaḍnit</privacyLink>.
 return-to-cv = Uɣal ɣer Common Voice
 email-input =
     .label = Imayl
 submit-form-action = Azen
 loading = Asali…
-email-opt-in-info = Bɣiɣ ad d-ṭṭfeɣ imaylen am yismektiyen n yiswan, aswir-iw n umecwar n yileqman akked uɣmis ɣef Common Voice.
+email-opt-in-info = Bɣiɣ ad d-ṭṭfeɣ imaylen am yismektiyen n yiswiyen, anerni-iw deg yileqman akked talɣuyin yeεnan Common Voice.
 email-opt-in-info-title = Jerred deg tebdert n unermes Common Voice
-email-opt-in-info-sub-with-challenge = Ṭṭef imaylen am iznan n timzizliyin akked usmekti n iswiyen, tilḥin deg umahel akked isallen ɣef Common Voice.
+email-opt-in-info-sub-with-challenge = Ṭṭef imaylen am iznan n timzizliyin akked usmekti n iswiyen, anerni n ilqman akked isallen yeεnan Common Voice.
 email-opt-in-privacy-v2 = Ma tferneḍ armas n yimaylen, ad tqebleḍ ad tesseqdec Mozilla talɣut-a akken i d-tettwasegza deg <privacyLink>Tasertit n tbaḍnit n Mozilla</privacyLink>.
 indicates-required = * Yemmal-d urti ilaqen
 not-available-abbreviation = N/A
@@ -33,14 +33,18 @@ as = Tasamizt
 ast = Tasturit
 az = Tazerbiǧanit
 ba = Tabackirit
+bas = Basaa
 be = Tabilarusit
 bg = Tabulgarit
+bm = Tabumbrit
 bn = Tabengalit
 br = Tabrutunt
 bxr = Taburyat
 ca = Takatalant
 cak = Kaqčikel
+ckb = Takurdit Talemmast
 cnh = Haxa Cin
+co = Takuṛsit
 cs = Tačikit
 cv = Tačuvacit
 cy = Tagalit
@@ -62,11 +66,13 @@ fr = Tafṛansist
 fy-NL = Tafrizunt
 ga-IE = Tirlandit
 gl = Tagalisit
+gn = Tagaranit
 ha = Tahawsit
 he = Taɛebrit
 hi = Tahendit
 hr = Takarwasit
 hsb = Sorbyan, Tameqqrant
+ht = Tahaysit
 hu = Tahungaṛit
 hy-AM = Taṛminit
 hyw = Taṛminit tutrimt
@@ -81,33 +87,40 @@ kaa = Karakalpak
 kab = Taqbaylit
 kbd = Takabardyant
 kk = Takazaxt
+kmr = Takurdit Takurmanjit
 ko = Takurit
 kpv = Takumt Zyrian
-ku = Takurdit
 kw = Takuṛnikt
 ky = Takirgizt
 lg = Luganda
 lij = Taliguriant
 lt = Talitwaynit
 lv = Talitunit
+mai = Maïthili
 mdf = Mukca
 mg = Tamalgact
 mhr = Tamarit n uzaɣar
 mk = Tamasidunit
 ml = Tamalayalamit
 mn = Tamungult
+mos = Tamusit
+mr = Tamaṛatit
 mrj = Tamarit n udrar
+ms = Tamalizit
 mt = Tamalṭit
 my = Taburmisit
 myv = Erzya
 nb-NO = Tanuṛvijt Bokmål
 ne-NP = Tanipalit
+nia = Nias
 nl = Tahulandit
 nn-NO = Tanuṛvijt Nynorsk
 oc = Tuksitant
 or = Odia
 pa-IN = Tapenǧabit
+pap-AW = Tapapiyamant (Aruba)
 pl = Tapulunit
+ps = Tapactut
 pt = Tapuṛṭugit
 rm-sursilv = Rumanc Sursilvan
 rm-vallader = Taṛumancit n wadda
@@ -117,9 +130,11 @@ rw = Takinyaṛwandit
 sah = Tasaxit
 sc = Tasardinit
 scn = Tasisiliyant
+shi = Tacelḥit
 si = Tasinhalit
 sk = Tasluvakt
 sl = Tasluvinit
+so = Taṣumalit
 sq = Talbanit
 sr = Taṣirbit
 sv-SE = Taswidit
@@ -132,14 +147,18 @@ th = Taṭaylant
 tl = Tagalugt
 tr = Taṭurkit
 tt = Taṭaṭarit
+tw = Tatwit
 uby = Tubyixt
 udm = Tudmurt
+ug = Tawigurt
 uk = Takrinit
 ur = Urdu
 uz = Tuzbikt
 vec = Taviṭnamit
 vi = Tavyiṭnamit
 vot = Tavutikt
+yo = Tayurubit
+yue = Takuntunit
 zh-CN = Tacinwat (Cinwa)
 zh-HK = Tacinwat (Hung Kung)
 zh-TW = Tacinwat (Taywan)
@@ -235,7 +254,7 @@ whats-public = D acu-tt telɣut tazayezt?
 email-not-public = Ur nettara ara imayl d azayez.
 recordings-and-locale-public = Amḍan n yikalasen akked tutlayin anida tettekkaḍ ad d-banen.
 username-optin-public = Tzemreḍ ad tferneḍ isem-ik n useqdac ma ad yili d azayez neɣ d abadni.
-demographic-deidentified-clarity = Isefka n tedimugrafit i d-yettwaznen s lxetyaṛ (md. awtay, tuzuft, tutlayt, akken ususru) ur ǧǧin ad ttwaseknen s wudem azayaz, daɣen ad ttwacudden ɣer umiḍan-ik deg tegrumma n yisefka. Ikalasen imeslawen i yiman-nsen ad ttwaqqnen d yisefka n tedimugrafit i wugar n tseddi n tesleḍt - amedya, amnadi izmer ad yebɣu taneɣruft n usluɣmu n kra n yimdanen kan.
+demographic-deidentified-clarity-2 = Isefka n tedimugrafit i d-yettwaznen s lxetyaṛ (md. awtay, tuzuft, tutlayt, akken ususru) ur ǧǧin ad ttwaseknen s wudem azayaz, daɣen ad ttwacudden ɣer umiḍan-ik deg tegrumma n yisefka. Ikalasen imeslawen i yiman-nsen ad ttwaqqnen d yisefka n tedimugrafit i wugar n tseddi n tesleḍt - amedya, amnadi izmer ad yebɣu taneɣruft n usluɣmu n kra n yimdanen kan.
 username-email-not-demographic = Isem-ik n useqdac akked tansa-ik imayl ur d-ttwaqqanen ara ɣer yisefka-ik izuyaz.
 
 ## Speak & Listen Shortcuts
@@ -264,7 +283,10 @@ shortcut-record-toggle = s
 shortcut-record-toggle-label = Sekles/Seḥbes
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Sekles tukkist
+shortcut-submit = Uɣal
+shortcut-submit-label = Azen tukkisin
 request-language-text = Ur tettwaliḍ ara tutlayt-ik di Common Voice yakan?
+request-language-text-learn = Lmed asuter-ines da!
 request-language-button = Suter tutlayt
 
 ## ProjectStatus
@@ -293,7 +315,7 @@ profile-form-accent =
     .label = Asusru
 profile-form-age =
     .label = Awtay
-profile-form-gender =
+profile-form-gender-2 =
     .label = Tuzuft
 leaderboard-visibility =
     .label = Tillin n tebdart n igeṛṛa
@@ -320,7 +342,7 @@ profile-close = Mdel
 profile-explanation = Sers allen-ik ɣef usfari s tmerna n umaɣnu sakin muddaɣ-d afus ad nerr isefka n taɣect d usdiden.
 thanks-for-account = Tanemmirt ɣimi tsentmeḍ amiḍan-ik, tura rnu kra n talɣut ɣer umaɣnu-inek.
 why-demographic = Ayɣer aya isεa azal?
-why-demographic-explanation = Talɣut tusligt am laεmer, tuzuft, akked tmeslayt ad aɣ-d-mudden afus akken senqed isefka n umesli deg imesdayen n uεqal aɣectan. Isem-ik n useqdac akked imayl-inek werǧin ad ddun akked isefka ad ittwaznen, tzemreḍ daɣen ad terreḍ isem-inek n useqdec d aziraz neɣ d uslig.
+why-demographic-explanation-2 = Talɣut tusligt am laεmer, tuzuft, akked tmeslayt ad aɣ-d-mudden afus akken senqed isefka n umesli deg imesdayen n uεqal aɣectan. Isem-ik n useqdac akked imayl-inek werǧin ad ddun akked isefka ad ittwaznen, tzemreḍ daɣen ad terreḍ isem-inek n useqdec d aziraz neɣ d uslig.
 accept-privacy = Qebleɣ akken ad tesqedcem talɣut inu am akken yella deg <privacyLink>tsertit n tbaḍnit</privacyLink> n Mozilla.
 accept-privacy-title = Tasertit n tbaḍnit
 login-identity = Tinekkit n tuqna
@@ -334,26 +356,19 @@ skip-submission-description = Di lawan n utteki, tuzna n tmuɣli-inek ad tettwas
 skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad ferneḍ gar Mmeslay akked Timesliwt.
 off = Sens
 on = Rmed
-avatar-clip-title = Efk-as i uvatar-inek taɣect
-change-your-avatar-clip = Tebɣiḍ ad tbedleḍ tasffift n uklip?
-recording-in-progress = Asekles n taɣect iteddu
-avatar-clip-recorded = Iger uvaṭan-innek(m) aklip n taɣect!
-record-voice-wave = SEKLES TAMSEDWALT N TAƔECT
-retry-voice-wave-recording = ƐREḌ I TIKKELT-NNIḌEN
-re-record = ALES-ASEKLES
-delete-voice = KKES
-recording-voice-wave = Asekles
-delete-voice-clip = neɣ kkes aklip n taɣect
-ready-to-upload = Asali
-avatar-clip-fact = Seg zik yettwassen d akken imeɣri ilehhu deg ugbur n tɣuri n usebter ticki yettwali ɣer tneɣruft-is.
-recreate-voice = Ales timerna n temdeswalt n taɣect
-cancel-avatar-clip-recording = Sefsex
-about-avatar-clip-recording = Rnu deg uvataṛ n umaɣnu-ik akalas n taɣect. Wiyaḍ ad izmiren ad srifgen fell-as akken ad slen i usekles-ik.
+
+## Profile - Email
+
 browse-file-title = Sali afaylu n tugna
 browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
 connect-gravatar = Qqen s Gravatar
 gravatar_not_found = Ulac Gravatar ittwafen i imayl-inek
 file_too_large = Afaylu ittwafernen meqqer aṭas
+avatar-uploaded = Avaṭar ittwazen
+max-file-size = { $kb }kaṭ afellay
+
+## Profile - Email
+
 manage-subscriptions = Sefrekajerred
 manage-email-subscriptions = Sefrek ijerriden ɣer yimaylen
 email-already-used = Imayl ittuseqdec yakan i umiḍan nniḍen
@@ -482,6 +497,8 @@ de-identified-explanation = D akala ara yeǧǧen asimgired gar telɣut tudmawant
 
 error-title-404 = Ur nezmir ara ad ak•am-d-naf asebter-nni
 error-content-404 = Ahat <homepageLink>asebter-nneɣ agejdan </homepageLink> ad iɛawen? I usteqsi, ttxil ddu ɣer <matrixLink> udiwenni n tmezdagnut n Matrix </matrixLink>, qareɛ uguren n usmel s  <githubLink>GitHub</githubLink> neɣ rzu ɣer  <discourseLink> yinmagaren-nneɣ n Discourse </discourseLink>.
+error-title-503 = Nettqabal tikkwal ugur n uḥbas
+error-content-503 = Anekcum ɣer usmel ad d-yuɣal akka deg kra n wakud. Akken ad tawiḍ isallen ineggura, ddu ɣer <matrixLink>usqerdec n temqiwent Matrix</matrixLink>, rzu ɣer <githubLink>GitHub</githubLink> neɣ <discourseLink>inmagaren-nneɣ Discourse</discourseLink> akken ad tazneḍ neɣ ad tɛasseḍ uguren i icudden ɣer useqdec n usmel.
 error-code = Tuccḍa { $code }
 
 ## Data
@@ -499,10 +516,12 @@ data-other-goto = Ddu ɣer { $name }
 data-other-download = Sider isefka
 data-bundle-button = Sider-d aqettun n tagrumma n yisefka
 data-bundle-description = Isefka Common Voice akked tigrummiwin meṛṛa n yisefka-nniḍen ddaw-a.
+release-version = Lqem
+dataset-date = Azemz
 license = Turagt: <licenseLink>{ $license }</licenseLink>
 license-mixed = Uxliḍ
 data-download-singleword-title = Sider aḥric iswi Single Word
-data-download-singleword-callout = Wagi d aḥric i nettnadi ɣef kra n useqdec i igebren isefka i usečči n uɛqal n taɣect s yizwilen yettwanṭaqen, aɛqal n ih/uhu akked isefka n usekyed n wawalen n usaki i <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Wagi d aḥric seg tegrumma n yisefka i useǧhed n uɛqal n yizwilen akked tifin n ih / uhu.
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
@@ -674,6 +693,7 @@ share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
 keep-track-profile = rnu amaɣnu akken ad twaliḍ ayen txedmed
 login-to-get-started = Kcem neɣ jerred akken ad tebduḍ
 target-segment-first-card = Tettekkaḍ deg taggayt-nneɣ tasaḍast tamezwarut
+target-segment-generic-card = Tettekkaḍ deg teggayt tasaḍast
 target-segment-first-banner = Mudd tallalt i tmerna n taggayt tasaḍast tamezwarut n Common Voice deg { $locale }
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar
@@ -836,3 +856,50 @@ help-contribute = Tzemreḍ ad aɣ-d-fkkeḍ tallelt ad nebnu tagruma n teɣbalu
 login-company = Kcem / Jerred s imayl { $company }
 profile-not-required = Amaɣnu mačči d ayen ilaqen akken ad tekkiḍ maca d ayen ara yeɛiwnen
 read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
+
+## DemoLayout
+
+demo-get-started = Bdu
+demo-welcome = Ansuf ɣer Common Voice
+demo-welcome-subheader = Tebɣiḍ ad tissineḍ ugar daɣen ad tettekkiḍ deg usenfaṛ?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice d tagrumma n yisefka s taɣect n nddeqs n tutlayin tazayazt deg umaḍal.
+demo-language-select-card-body = S uttekki n wugar n 259 000 n yiwiziwen deg wugar n 50 n tutlayin, isefka-a ad ttwasqedcen i usluɣmu n yisnasen s taɣect akken ad issinen taɣect n umdan.
+card-button-next = Ɣer zdat
+card-button-back = Ɣer deffir
+demo-language-select-label = Inig gar tutlayin
+demo-eofy-header = Lqem n taggara n useggas 2019
+demo-eofy-sub_header = Tagrumma n yisefka s taɣect, thegga i usader
+demo-account = Amiḍan
+
+## Demo Account
+
+demo-account-card-header = Amiḍan mačči d ayen i ilaqen akken ad tekkiḍ, maca d ayen ara iɛiwnen.
+demo-account-card-body = Ɣer tama tayeffust, neskanay-d abaɣur daɣen nemmal-d taɣlut arar d-nerr d tazayazt. Sqedcet iseɣwan n ddaw-a i tmerna n umiḍan Common Voice deg yibenk-ik.
+demo-account-enter-email =
+    .label = Sekcem imayl i tuzna n useɣwen n ujerred
+demo-account-sign-up = Azen aseɣwen n ujerred
+
+## Demo Contribute
+
+demo-contribute-card-header = Theggaḍ i tikci n taɣect-ik neɣ ad tmuddeḍ tameẓẓuɣt?
+demo-contribute-card-body-v2 = Tura imi tessneḍ cwiṭ ɣef Common Voice, acimi ur tettaɛraḍeḍ ara? Senned ɣef tignit n usawaḍ akken ad tebduḍ taɣurin tefyar s taɣect.<br/><br/> Ma tebɣiḍ ad tesneqdeḍ taɣuri n wiyaḍ, tekki ɣef tignit n tɣuri. Senqed sakin asekles s taɣect ara tesleḍ, win yemṣadan d tefyirt i tettwaliḍ deg ugdil.
+demo-listen-subtitle = Twejdeḍ ad tettekkiḍ?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Tifelwiyin n usenqed tudmawanin ad k-ǧǧent ad tḍefreḍ asfari udmawan neɣ amɣiwan.
+demo-dashboard-card-body = Di yal tukkist n taɣect akked yal tukkist n umeslaw yettwaqeblen, tafelwit n usenqed n umiḍan-ik ad tattwalqem akken ad d-iban usfari-ik aneggaru deg yal tutlayt ideg i tettekkaḍ. Ih, tzemreḍ ad tettekkiḍ deg ddeqs n tutlayin!<br/><br/> Seqdec tafelwit n usenqed akken ad tefreḍ tiddadanin-ik, ad twaliḍ asfari-ik d wid n yimttekkiyen-nniḍen n temɣiwent daɣen ad tgeḍ iswi n uttekki n wass neɣ n yimalas.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriteriya
+contribution-criteria-page-title = Attekki n Kriteriya
+contribution-for-example = amedya
+contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
+contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
+contribution-misreadings-example-3-explanation = [Asekles yettwagzem send ad yemmed wawal aneggaru]
+contribution-volume-title = Ableɣ
+see-more = <chevron></chevron>Wali ugar

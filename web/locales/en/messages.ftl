@@ -29,14 +29,18 @@ as = Assamese
 ast = Asturian
 az = Azerbaijani
 ba = Bashkir
+bas = Basaa
 be = Belarusian
 bg = Bulgarian
+bm = Bambara
 bn = Bengali
 br = Breton
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
+ckb = Central Kurdish
 cnh = Hakha Chin
+co = Corsican
 cs = Czech
 cv = Chuvash
 cy = Welsh
@@ -58,11 +62,13 @@ fr = French
 fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
+gn = Guarani
 ha = Hausa
 he = Hebrew
 hi = Hindi
 hr = Croatian
 hsb = Sorbian, Upper
+ht = Haitian
 hu = Hungarian
 hy-AM = Armenian
 hyw = Armenian Western
@@ -77,33 +83,40 @@ kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
 kk = Kazakh
+kmr = Kurmanji Kurdish
 ko = Korean
 kpv = Komi-Zyrian
-ku = Kurdish
 kw = Cornish
 ky = Kyrgyz
 lg = Luganda
 lij = Ligurian
 lt = Lithuanian
 lv = Latvian
+mai = Maithili
 mdf = Moksha
 mg = Malagasy
 mhr = Meadow Mari
 mk = Macedonian
 ml = Malayalam
 mn = Mongolian
+mos = Mossi
+mr = Marathi
 mrj = Hill Mari
+ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
+nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polish
+ps = Pashto
 pt = Portuguese
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
@@ -113,9 +126,11 @@ rw = Kinyarwanda
 sah = Sakha
 sc = Sardinian
 scn = Sicilian
+shi = Shilha
 si = Sinhala
 sk = Slovak
 sl = Slovenian
+so = Somali
 sq = Albanian
 sr = Serbian
 sv-SE = Swedish
@@ -128,14 +143,18 @@ th = Thai
 tl = Tagalog
 tr = Turkish
 tt = Tatar
+tw = Twi
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+yo = Yoruba
+yue = Cantonese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
@@ -239,7 +258,7 @@ whats-public = What's Public?
 email-not-public = We will not make your email public.
 recordings-and-locale-public = The number of recordings and which languages you contribute to will be public.
 username-optin-public = You can choose to make your username public or anonymous.
-demographic-deidentified-clarity = Optionally submitted demographic data (e.g. age, sex, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.
+demographic-deidentified-clarity-2 = Optionally submitted demographic data (e.g. age, gender, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.
 username-email-not-demographic = Your username and email will not be associated with the published data.
 
 
@@ -268,7 +287,11 @@ shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
 
+shortcut-submit = Return
+shortcut-submit-label = Submit clips
+
 request-language-text = Don't see your language on Common Voice yet?
+request-language-text-learn = Learn how to request it here!
 request-language-button = Request a Language
 
 ## ProjectStatus
@@ -295,8 +318,8 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Age
-profile-form-gender =
-    .label = Sex
+profile-form-gender-2 =
+    .label = Gender
 leaderboard-visibility =
     .label = Leaderboard Visibility
 hidden = Hidden
@@ -324,7 +347,7 @@ profile-close = Close
 profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
 thanks-for-account = Thanks for confirming your account, now let's build your profile.
 why-demographic = Why does this matter?
-why-demographic-explanation = Anonymized user data like age, sex, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
+why-demographic-explanation-2 = Anonymized user data like age, gender, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
 accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
 accept-privacy-title = Privacy Policy
 login-identity = Login Identity
@@ -338,26 +361,17 @@ skip-submission-description = During contribution submission feedback will be sk
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
-avatar-clip-title = Give your avatar a voice
-change-your-avatar-clip = Want to change your voice clip?
-recording-in-progress = Voice recording in progress
-avatar-clip-recorded = Your avatar now includes a voice clip!
-record-voice-wave = RECORD VOICEWAVE
-retry-voice-wave-recording = RETRY
-re-record = RE-RECORD
-delete-voice = DELETE
-recording-voice-wave = Recording
-delete-voice-clip = or  Delete voice clip
-ready-to-upload = UPLOAD
-avatar-clip-fact = It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-recreate-voice = Recreate Voicewave
-cancel-avatar-clip-recording = CANCEL
-about-avatar-clip-recording = Create a voice clip as part of your profile avatar. Others will be able to hover and listen to your clip.
+
+## Profile - Email
 browse-file-title = Upload an image file
 browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
 connect-gravatar = Connect with Gravatar
 gravatar_not_found = No gravatar found for your email
 file_too_large = The selected file is too large
+avatar-uploaded = Avatar uploaded
+max-file-size = { $kb }kb max
+
+## Profile - Email
 manage-subscriptions = Manage Subscriptions
 manage-email-subscriptions = Manage Email Subscriptions
 email-already-used = Email is already used for a different account
@@ -522,10 +536,12 @@ data-other-goto = Go to { $name }
 data-other-download = Download Data
 data-bundle-button = Download Dataset Bundle
 data-bundle-description = Common Voice data plus all other voice datasets above.
+release-version = Version
+dataset-date = Date
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixed
 data-download-singleword-title = Download the Single Word Target Segment
-data-download-singleword-callout = This is a use case driven segment containing data to power spoken digit recognition, yes / no detection, and wakeword testing data for <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = This is a use case driven segment containing data to power spoken digit recognition and yes / no detection.
 
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = I agree
@@ -641,7 +657,7 @@ contribute = Contribute
 listen = Listen
 skip = Skip
 shortcuts = Shortcuts
-clips-with-count-pluralized = { $count -> 
+clips-with-count-pluralized = { $count ->
                     [one] <bold>{ $count }</bold> Clip
                     *[other] <bold>{ $count }</bold> Clips
 }
@@ -690,6 +706,7 @@ share-title-new = <bold>Help us</bold> find more voices
 keep-track-profile = Keep track of your progress with a profile
 login-to-get-started = Log in or sign up to get started
 target-segment-first-card = You’re contributing to our first target segment
+target-segment-generic-card = You’re contributing to a target segment
 target-segment-first-banner = Help create Common Voice’s first target segment in { $locale }
 target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
@@ -775,24 +792,24 @@ help-reach-hours-pluralized = Help reach { NUMBER($hours) ->
 [one] {$hours} hour
 *[other] {$hours} hours
  } in { $language } with a personal goal
-help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) -> 
+help-reach-hours-general-pluralized = Help Common Voice reach { NUMBER($hours) ->
   [one] {$hours} hour
   *[other] {$hours} hours
  } in a language with a personal goal
 set-a-goal = Set a goal
 cant-decide = Can't decide?
-activity-needed-calculation-plural = { NUMBER($totalHours) -> 
+activity-needed-calculation-plural = { NUMBER($totalHours) ->
   [one] {$totalHours} hour
   *[other] {$totalHours} hours
- } is achievable in just over { NUMBER($periodMonths) -> 
+ } is achievable in just over { NUMBER($periodMonths) ->
   [one] {$periodMonths} month
   *[other] {$periodMonths} months
- } if { NUMBER($people) -> 
+ } if { NUMBER($people) ->
   [one] {$people} person
   *[other] {$people} people
-  } record { NUMBER($clipsPerDay) -> 
-  [one] {$clipsPerDay} clip 
-  *[other] {$clipsPerDay} clips 
+  } record { NUMBER($clipsPerDay) ->
+  [one] {$clipsPerDay} clip
+  *[other] {$clipsPerDay} clips
   } a day.
 how-many-per-day = Great! How many clips per day?
 how-many-a-week = Great! How many clips a week?
@@ -801,7 +818,7 @@ receiving-emails-info = You're currently set to receive emails such as goal remi
         progress updates and newsletters about Common Voice
 not-receiving-emails-info = You're currently set to <bold>NOT</bold> receive emails such as goal reminders, my
         progress updates and newsletters about Common Voice
-n-clips-pluralized = { NUMBER($count) -> 
+n-clips-pluralized = { NUMBER($count) ->
               [one] {$count} clip
               *[other] {$count} clips
               }
@@ -841,3 +858,102 @@ help-contribute = You can help build a diverse, open-source dataset by creating 
 login-company = Log In / Sign Up with { $company } email
 profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
 read-more-about = Read more on our About page
+
+
+## DemoLayout
+demo-get-started = Let's Get Started
+demo-welcome = Welcome to Common Voice
+demo-welcome-subheader = Interested in learning more and contributing to the project?
+
+## Demo Datasets
+demo-language-select-card-header = Common Voice is the world’s largest publicly available, multi-language voice dataset.
+demo-language-select-card-body = Thanks to contributions from over 259k people in over 50 languages, this data is being used to train speech-enabled applications to better respond to the human voice.
+card-button-next = Next
+card-button-back = Back
+demo-language-select-label = Browse Languages
+demo-eofy-header = 2019 End-of-Year Release
+demo-eofy-sub_header = Voice Dataset, Ready for Download
+demo-account = Account
+
+## Demo Account
+demo-account-card-header = Having an account is not required to contribute, though it is helpful.
+demo-account-card-body = To the right we outline the benefits and clarify what information we make public. Use the links below to get started with a Common Voice account on your own device.
+demo-account-enter-email =
+.label = Enter email to send a sign up link
+demo-account-sign-up = Send sign up link
+
+## Demo Contribute
+demo-contribute-card-header = Ready to add your voice or lend your ear?
+demo-contribute-card-body-v2 = Now that you know a little bit more about Common Voice, why not try it out? Click on the microphone icon to start reading sentences aloud. <br/><br/>If you prefer to review other people's voice contributions, click on the play icon. You’ll help confirm that recordings match the sentences written on screen.
+demo-listen-subtitle = Ready to contribute?
+
+## Demo Dashboard
+demo-dashboard-card-header = Personal dashboards keep you up-to-date with individual and community progress.
+demo-dashboard-card-body = For every voice clip donated, and every audio clip validated, your account dashboards are updated to reflect your latest progress in each language you contribute to. Yes, you can contribute to more than one!<br/><br/> Use dashboards to track your stats, see how you're doing alongside others in the community, and set daily or weekly contribution goals.
+
+
+
+## Validation criteria
+contribution-criteria-nav = Criteria
+contribution-criteria-link = Understand contribution criteria
+
+contribution-criteria-page-title = Contribution Criteria
+contribution-criteria-page-description = Understand what to look for when listening to voice clips and help make your voice recordings richer too!
+contribution-for-example = for example
+
+contribution-misreadings-title = Misreadings
+contribution-misreadings-description = When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. <br />Very common mistakes include:
+contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
+contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.
+contribution-misreadings-description-extended-list-3 = Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.
+contribution-misreadings-description-extended-list-4 = Missing the end of the last word by cutting off the recording too quickly.
+contribution-misreadings-description-extended-list-5 = Taking several attempts to read a word.
+
+contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
+contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
+contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
+contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
+contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.
+contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
+contribution-misreadings-example-5-title = We are going out to get coffee.
+contribution-misreadings-example-5-explanation = [Mismatched content]
+contribution-misreadings-example-6-title = We’re going out to get coffee.
+contribution-misreadings-example-6-explanation = [Should be “We are”]
+contribution-misreadings-example-7-title = We are going out to get a coffee.
+contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
+
+contribution-varying-pronunciations-title = Varying Pronunciations
+contribution-varying-pronunciations-description = Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.
+contribution-varying-pronunciations-description-extended = On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
+
+contribution-background-noise-title = Background Noise
+contribution-background-noise-description = We want the machine learning algorithms to able to handle a variety of background noise, and even relatively loud noises can be accepted provided that they don’t prevent you from hearing the entirety of the text. Quiet background music is OK; music loud enough to prevent you from hearing each and every word is not.
+contribution-background-noise-description-extended = If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.
+contribution-background-noise-example-1-title = <strong>{Sneeze}</strong> The giant dinosaurs of the <strong>{cough}</strong> Triassic.
+contribution-background-noise-example-2-title = The giant dino <strong>{cough}</strong> the Triassic.
+contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
+contribution-background-noise-example-3-title = <strong>{Crackle}</strong> giant dinosaurs of <strong>{crackle}</strong> -riassic.
+contribution-background-noise-example-3-explanation = [Part of the text can’t be heard]
+
+contribution-background-voices-title = Background Voices
+contribution-background-voices-description = A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.
+contribution-background-voices-description-extended = If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.
+contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic. <strong>[read by one voice]</strong>
+contribution-background-voices-example-1-explanation = Are you coming? <strong>[called by another]</strong>
+
+contribution-volume-title = Volume
+contribution-volume-description = There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.
+
+contribution-reader-effects-title = Reader Effects
+contribution-reader-effects-description = Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.
+
+contribution-just-unsure-title = Just Unsure?
+contribution-just-unsure-description = If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.
+
+see-more = <chevron></chevron>See more
+see-less = <chevron></chevron>See less

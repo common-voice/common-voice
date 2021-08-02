@@ -47,7 +47,12 @@ export function useStickyState(defaultValue: any, key: string) {
   });
 
   useEffect(() => {
-    window.localStorage.setItem(key, JSON.stringify(value));
+    try {
+      window.localStorage.setItem(key, JSON.stringify(value));
+    } catch(e) {
+      console.warn(`A sessionStorage error occurred ${e.message}`);
+    }
+
   }, [key, value]);
 
   return [value, setValue];

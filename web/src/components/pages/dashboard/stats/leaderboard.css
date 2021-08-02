@@ -1,5 +1,3 @@
-@import url('../../../vars.css');
-
 .leaderboard-card {
     position: relative;
 
@@ -333,15 +331,6 @@
                 width: 24px;
                 height: 24px;
             }
-        }
-
-        .lottie {
-            position: relative;
-            height: 32px;
-            width: 600px;
-            left: 15px;
-            bottom: 8px;
-            z-index: 1000;
         }
 
         & .username {

@@ -1,4 +1,4 @@
-@import url('../vars.css');
+@import url('../media.css');
 
 footer {
     margin-top: 2rem;
@@ -121,6 +121,17 @@ footer {
         }
     }
 
+    & .divider-bottom {
+        border-top: 1px solid hsl(0, 0%, 20%);
+        width: 20rem;
+        margin-top: 1em;
+        display: block;
+
+        @media (--md-up) {
+            display: none;
+        }
+    }
+
     & .links {
         margin-top: 2rem;
         padding: 0 1rem;
@@ -146,6 +157,11 @@ footer {
         & > div {
             display: flex;
             flex-direction: column;
+        }
+
+        & .divider-vertical {
+            border-right: 1px solid hsl(0, 0%, 20%);
+            height: 4.1rem;
         }
     }
 
