@@ -634,7 +634,7 @@ total-hours = বৈধকৃত ঘণ্টা
 ## Contribution
 
 action-click = ক্লিক কৰক
-action-tap = টেপ কৰক
+action-tap = স্পৰ্শ কৰক
 contribute = অৱদান দিয়ক
 listen = শুনক
 skip = এৰক
