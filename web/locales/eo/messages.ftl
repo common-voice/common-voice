@@ -112,6 +112,7 @@ my = Birma
 myv = Erzja
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
+nia = Niasa
 nl = Nederlanda
 nn-NO = Norvega ninorsk
 oc = Okcitana
@@ -146,6 +147,7 @@ th = Taja
 tl = Tagaloga
 tr = Turka
 tt = Tatara
+tw = Tivia
 uby = Ubiĥa
 udm = Udmurta
 ug = Ujgura
@@ -155,6 +157,7 @@ uz = Uzbeka
 vec = Venecia
 vi = Vjetnama
 vot = Vota
+yo = Joruba
 yue = Kantona
 zh-CN = Ĉina (Ĉinio)
 zh-HK = Ĉina (Honkongo)
@@ -201,7 +204,7 @@ vote-yes = Jes
 vote-no = Ne
 toggle-play-tooltip = Premu { shortcut-play-toggle } por ludi/haltigi
 speak-subtitle = Donacu vian voĉon
-speak-paragraph = Fari voĉregistroj estas kerna parto de la konstruo de nia malfermita datumaro; kelkaj dirus ke ĝi ankaŭ estas la amuza parto.
+speak-paragraph = Fari voĉregistrojn estas kerna parto de la konstruo de nia malfermita datumaro; kelkaj dirus ke ĝi ankaŭ estas la amuza parto.
 speak-goal-text = Nombro de voĉregistroj
 listen-subtitle = Helpu nin validigi voĉojn
 listen-paragraph = Validigi voĉregistrojn estas same grava por la misio de Common Voice. Aŭskultu do, kaj helpu nin krei altkvalitan malfermitkodan voĉan datumaron.
@@ -893,3 +896,13 @@ demo-listen-subtitle = Ĉu vi pretas kontribui?
 
 demo-dashboard-card-header = Persona panelo montras al vi la aktualan progreson propran kaj komunuman.
 demo-dashboard-card-body = Ĉiu nova voĉregistro kaj revizio ĝisdatigas viajn panelon por montri la aktualan progreson en ĉiu lingvo, kun kiu vi kontribuas. Jes, vi povas kontribui kun pli ol unu lingvo! <br/><br/>Uzu panelojn por sekvi viajn progreson kaj vidi kiel vi kaj aliaj en la komunumo kunlaboras. Vi ankaŭ povas tie difini viajn tagajn aŭ semajnajn celojn kontribuajn.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterio
+contribution-criteria-link = Kompreni la kriteriojn por kontribuoj
+contribution-criteria-page-title = Kriterioj pri kontribuoj
+contribution-criteria-page-description = Lernu pri tio, kion vi devus serĉi kiam vi aŭdas voĉregistrojn kaj plibonigu viajn proprajn registraĵojn!
+contribution-for-example = ekzemple
+contribution-misreadings-title = Mislegoj
+contribution-volume-title = Laŭteco
