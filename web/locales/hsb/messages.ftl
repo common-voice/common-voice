@@ -926,6 +926,7 @@ demo-dashboard-card-body = Za kóždy darjeny hłosowy klip a kóždy přepruwow
 contribution-criteria-nav = Kriterije
 contribution-criteria-link = Kriterije sobuskutkowanja rozumić
 contribution-criteria-page-title = Kriterije sobuskutkowanja
+contribution-criteria-page-description = Zhońće, na čož dwy dyrbjał dźiwać, hdyž na hłosowe klipy słuchaće, a pomhajće tež swoje hłosowe natočenja wobohaćić!
 contribution-for-example = na přikład
 contribution-misreadings-title = Čitanske zmylki
 contribution-misreadings-description-extended-list-1 = Falowacy <strong>'A'</strong> abo <strong>'The'</strong> na spočatku nahraća.
