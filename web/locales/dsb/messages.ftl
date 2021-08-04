@@ -920,3 +920,20 @@ demo-listen-subtitle = Cośo sobu cyniś?
 
 demo-dashboard-card-header = Wósobinske pśeglědy was wó indiwiduelnem póstupje a wó póstupje zgromaźeństwa na běžnem źarže.
 demo-dashboard-card-body = Za kuždy pósćony głosowy klip a kuždy pśeglědany awdioklip se waše kontowe pśeglědy aktualizěruju, aby se waš nejnowšy póstup w kuždej rěcy, ku kótarejž pśinosujośo, wótbłyšćował. Jo, móžośo k wěcej ako jadnej rěcy pśinosowaś!<br/><br/> Wužywajśo pśeglědy, aby swóje statistiki slědował, aby wiźeł, kak w pśirownanju k drugim luźom w zgromaźeństwje wótrěznjośo a aby se wšedne abo tyźeńske pśinosowańske cele stajił.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterije
+contribution-criteria-link = Kriterije sobustatkowanja rozměś
+contribution-criteria-page-title = Kriterije sobustatkowanja
+contribution-criteria-page-description = Zgóńśo, na což wy dejał źiwaś, gaž na głosowe klipy słuchaśo, a pomagajśo teke swóje głosowe nagraśa wobogaśiś!
+contribution-for-example = na pśikład
+contribution-misreadings-title = Cytańske zmólki
+contribution-misreadings-description-extended-list-1 = Felujucy <strong>'A'</strong> abo <strong>'The'</strong> na zachopjeńku nagraśa.
+contribution-misreadings-description-extended-list-2 = Felujucy <strong>'s'</strong> na kóńcu słowa.
+contribution-misreadings-description-extended-list-5 = Někotare wopyty słowo cytaś.
+contribution-misreadings-example-1-title = Wjelicke dinosawrijarje triasa.
+contribution-misreadings-example-2-title = Wjelicki dinosawrijaŕ triasa.
+contribution-misreadings-example-2-explanation = [Dejało ‚dinosawrijarje‘ groniś]
+contribution-misreadings-example-3-title = Wjelicke dinosawrijarje trias-.
+contribution-misreadings-example-3-explanation = [Nagraśe pśed kóńcom slědnego słowa wótrězane]
