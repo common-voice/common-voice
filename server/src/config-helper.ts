@@ -23,12 +23,15 @@ export type CommonVoiceConfig = {
   MYSQLREPLICAHOST?: string;
   MYSQLPORT: number;
   MYSQLREPLICAPORT?: number;
-  BUCKET_NAME: string;
+  CLIP_BUCKET_NAME: string;
+  DATASET_BUCKET_NAME: string;
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
   RELEASE_VERSION?: string;
   SECRET: string;
   S3_CONFIG: S3.Types.ClientConfiguration;
+  CINCHY_CONFIG: S3.Types.ClientConfiguration;
+  CINCHY_ENABLED: boolean;
   SSM_ENABLED: boolean;
   SSM_CONFIG: SSM.Types.ClientConfiguration;
   ADMIN_EMAILS: string;
@@ -47,6 +50,7 @@ export type CommonVoiceConfig = {
   SENTRY_DSN: string;
   MAINTENANCE_MODE: boolean;
   BENCHMARK_LIVE: boolean;
+  FLAG_BUFFER_STREAM_ENABLED: boolean;
 };
 
 const castDefault = (value: string): any => value;
@@ -58,7 +62,7 @@ const configEntry = (key: string, defaultValue: any, cast = castDefault) =>
 
 const BASE_CONFIG: CommonVoiceConfig = {
   VERSION: configEntry('CV_VERSION', null), // Migration number (e.g. 20171205171637), null = most recent
-  RELEASE_VERSION: configEntry('GIT_COMMIT_SHA', null), // release version set by nubis,
+  RELEASE_VERSION: configEntry('GIT_COMMIT_SHA', null), // X-Release-Version header
   PROD: configEntry('CV_PROD', false, castBoolean), // Set to true for staging and production.
   SERVER_PORT: configEntry('CV_SERVER_PORT', 9000, castInt),
   DB_ROOT_USER: configEntry('CV_DB_ROOT_USER', 'root'), // For running schema migrations.
@@ -70,12 +74,18 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MYSQLPORT: configEntry('CV_MYSQLPORT', 3306, castInt),
   MYSQLREPLICAHOST: configEntry('CV_MYSQLREPLICAHOST', ''),
   MYSQLREPLICAPORT: configEntry('CV_MYSQLREPLICAPORT', 3306, castInt),
-  BUCKET_NAME: configEntry('CV_BUCKET_NAME', 'common-voice-corpus'),
-  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', ''),
+  CLIP_BUCKET_NAME: configEntry('CV_CLIP_BUCKET_NAME', 'common-voice-clips'),
+  DATASET_BUCKET_NAME: configEntry(
+    'CV_DATASET_BUCKET_NAME',
+    'common-voice-datasets'
+  ),
+  BUCKET_LOCATION: configEntry('CV_BUCKET_LOCATION', 'us-west-2'),
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'default'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
   S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
+  CINCHY_CONFIG: configEntry('CV_CINCHY_CONFIG', {}, castJson),
+  CINCHY_ENABLED: configEntry('CV_CINCHY_ENABLED', false, castBoolean),
   SSM_ENABLED: configEntry('CV_SSM_ENABLED', false, castBoolean),
   SSM_CONFIG: configEntry('CV_SSM_CONFIG', {}, castJson),
   AUTH0: {
@@ -93,6 +103,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
   BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
+  FLAG_BUFFER_STREAM_ENABLED: configEntry('CV_FLAG_BUFFER_STREAM_ENABLED', false, castBoolean),
 };
 
 let injectedConfig: CommonVoiceConfig;

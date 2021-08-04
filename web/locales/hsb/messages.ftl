@@ -33,14 +33,18 @@ as = Asamšćina
 ast = Asturišćina
 az = Azerbajdźanšćina
 ba = Baškiršćina
+bas = Basašćina
 be = Běłorušćina
 bg = Bołharšćina
+bm = Bambaršćina, Bambara
 bn = Bengalšćina
 br = Bretonšćina
 bxr = Burjatšćina
 ca = Katalanšćina
 cak = Kaqchikel
+ckb = Centralna kurdišćina
 cnh = Hakha Chin
+co = Korsišćina
 cs = Čěšćina
 cv = Čuwašćina
 cy = Walizišćina
@@ -62,11 +66,13 @@ fr = Francosćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 gl = Galicišćina
+gn = Guaranšćina, Guarani
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
 hr = Chorwatšćina
 hsb = Hornjoserbšćina
+ht = Haitišćina
 hu = Madźaršćina
 hy-AM = Armenšćina
 hyw = Zapadoarmenšćina
@@ -81,33 +87,40 @@ kaa = Karakalpakšćina
 kab = Kabylšćina
 kbd = Kabardinšćina
 kk = Kazachšćina
+kmr = Kurmandźiska kurdišćina
 ko = Korejšćina
 kpv = Komi-syrjenšćina
-ku = Kurdišćina
 kw = Kornišćina
 ky = Kirgišćina
 lg = Luganda
 lij = Ligurišćina
 lt = Litawšćina
 lv = Letišćina
+mai = Majtilišćina
 mdf = Mokša
 mg = Malagasišćina
 mhr = Łučna marišćina
 mk = Makedonšćina
 ml = Malajalamšćina
 mn = Mongolšćina
+mos = Mossišćina
+mr = Maratišćina
 mrj = Hórska marišćina
+ms = Malajišćina
 mt = Maltašćina
 my = Burmašćina
 myv = Erzya
 nb-NO = Norwegski Bokmål
 ne-NP = Nepalšćina
+nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
 oc = Okcitanšćina
 or = Odiašćina
 pa-IN = Pundžabšćina
+pap-AW = Papiamento (Aruba)
 pl = Pólšćina
+ps = Paštošćina, Pašto
 pt = Portugalšćina
 rm-sursilv = Retoromanšćina Sursilvan
 rm-vallader = Retoromanšćina Vallader
@@ -117,9 +130,11 @@ rw = Kinjarwanda
 sah = Sachašćina
 sc = Sardinšćina
 scn = Sicilšćina
+shi = Tašelhitšćina
 si = Singalezišćina
 sk = Słowakšćina
 sl = Słowjenšćina
+so = Somalšćina
 sq = Albanšćina
 sr = Serbišćina
 sv-SE = Šwedšćina
@@ -132,14 +147,18 @@ th = Thaišćina
 tl = Tagalog
 tr = Turkowšćina
 tt = Tataršćina
+tw = Twi
 uby = Ubychišćina
 udm = Udmurtšćina
+ug = Ujguršćina
 uk = Ukrainšćina
 ur = Urdu
 uz = Uzbekšćina
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+yo = Joruba
+yue = Kantonšćina
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
@@ -241,7 +260,7 @@ whats-public = Što je zjawne?
 email-not-public = Wašu e-mejlowu adresu njewozjewimy.
 recordings-and-locale-public = Ličba natočenjow a rěčow, ke kotrymž přinošujeće, budu zjawne.
 username-optin-public = Móžeće swoje wužiwarske mjeno wozjewić abo anonymizować.
-demographic-deidentified-clarity = Opcionelnje zapodate demografiske daty (na př. staroba, splah, rěč a akcent) so we wašim profilu ženje njewozjewja a z wašim kontom w datowej sadźbje njezwjazaja. Jednotliwe awdioklipy so z demografiskimi datami za dokładnišu analyzu zwjazaja - slědźer na přikład chce snano treningowy model na wěsty demografiski segment wusměrić.
+demographic-deidentified-clarity-2 = Opcionelnje zapodate demografiske daty (na př. staroba, splah, rěč a akcent) so we wašim profilu ženje njewozjewja a z wašim kontom w datowej sadźbje njezwjaza. Jednotliwe awdioklipy so z demografiskimi datami za dokładnišu analyzu zwjazaja - slědźer na přikład chce snano treningowy model na wěsty demografiski segment wusměrić.
 username-email-not-demographic = Waše wužiwarske mjeno a e-mejlowa adresa so z wozjewjenymi datami njezwjazujetej.
 
 ## Speak & Listen Shortcuts
@@ -270,7 +289,10 @@ shortcut-record-toggle = o
 shortcut-record-toggle-label = Natočić/Zastajić
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klip znowa natočić
+shortcut-submit = Zapodaće
+shortcut-submit-label = Natočenja wotpósłać
 request-language-text = Waša rěč hišće na Common Voice njeje?
+request-language-text-learn = Zhońće, kak móžeće to tu požadać!
 request-language-button = Rěč požadać
 
 ## ProjectStatus
@@ -301,7 +323,7 @@ profile-form-accent =
     .label = Akcent
 profile-form-age =
     .label = Staroba
-profile-form-gender =
+profile-form-gender-2 =
     .label = Splah
 leaderboard-visibility =
     .label = Widźomnosć lisćiny najlěpšich
@@ -328,7 +350,7 @@ profile-close = Začinić
 profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
 thanks-for-account = Dźakujemy so, zo sće swoje konto wobkrućił, chcemy nětko waš profil zarjadować.
 why-demographic = Čehodla je to wažne?
-why-demographic-explanation = Anonymizowane wužiwarske daty kaž staroba, splah a akcent pomhaja awdiodaty polěpšić, kotrež so wužiwaja, zo bychu dokładnosć softwary rěčenskeho spóznaća trenowali. Waše wužiwarske mjeno a e-mejlowa adresa so ženje z wašimi pósłanymi datami njezwjazujetej, a móžeće wubrać, hač ma waše wužiwarske mjeno zjawne abo anonymne być.
+why-demographic-explanation-2 = Anonymizowane wužiwarske daty kaž staroba, splah a akcent pomhaja awdiodaty polěpšić, kotrež so wužiwaja, zo bychu dokładnosć softwary rěčenskeho spóznaća trenowali. Waše wužiwarske mjeno a e-mejlowa adresa so ženje z wašimi pósłanymi datami njezwjazujetej, a móžeće wubrać, hač ma waše wužiwarske mjeno zjawne abo anonymne być.
 accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla wujasnja.
 accept-privacy-title = Prawidła priwatnosće
 login-identity = Přizjewjenska identita
@@ -342,26 +364,19 @@ skip-submission-description = Při sobuskutkowanju so zapodawanski komentar po k
 skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wubrać, zo byšće typ sobuskutkowanja změnił.
 off = Wupinjeny
 on = Zapinjeny
-avatar-clip-title = Dajće swojemu awatarej hłós
-change-your-avatar-clip = Chceće swój hłosowy klip změnić?
-recording-in-progress = Hłosowe natočenje běži
-avatar-clip-recorded = Waš awatar nětko hłosowy klip wobsahuje!
-record-voice-wave = VOICEWAVE NATOČIĆ
-retry-voice-wave-recording = ZNOWA SPYTAĆ
-re-record = ZNOWA NATOČIĆ
-delete-voice = ZHAŠEĆ
-recording-voice-wave = Natoča so
-delete-voice-clip = abo zhašejće hłosowy klip
-ready-to-upload = Nahrać
-avatar-clip-fact = Jo hižo dołho znaty fakt, zo so čitar wot čitajomneho wobsaha strony wotwjedźe, hdyž sej jeje wuhotowanje wobhladuje.
-recreate-voice = Hłosowu žołmu znowa wutworić
-cancel-avatar-clip-recording = Přetorhnyć
-about-avatar-clip-recording = Wutworće hłosowy klip jako dźěl swojeho profiloweho awatara. Druhe móža z myšku přez njón pohibować a na waš klip poskać.
+
+## Profile - Email
+
 browse-file-title = Wobrazowu dataju nahrać
 browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
 connect-gravatar = Z gravatarom zwjazać
 gravatar_not_found = Njeje so žadyn gravatar za wašu e-mejl namakał
 file_too_large = Wubrana dataja je přewulka
+avatar-uploaded = Awatar je so nahrał
+max-file-size = { $kb } kb maks.
+
+## Profile - Email
+
 manage-subscriptions = Abonementy rjadować
 manage-email-subscriptions = E-mejlowe abonementy rjadować
 email-already-used = E-mejlowa adresa so hižo za druhe konto wužiwa
@@ -487,7 +502,9 @@ de-identified-explanation = Proces, přez kotryž so profilowe informacije sobus
 ## Error pages
 
 error-title-404 = Njemóžachmy tu stronu za was namakać
+error-content-404 = Snano budźe naša <homepageLink>startowa strona</homepageLink> pomhać? Zo byšće prašenje stajił, wobdźělće so prošu na <matrixLink>chaće Matrix zhromadźenstwa</matrixLink>, wobkedźbujće sydłowe problemy přez <githubLink>GitHub</githubLink> abo wopytajće <discourseLink>naše forumy Discourse</discourseLink>.
 error-title-503 = Mamy njewočakowany čas staća
+error-content-503 = Sydło budźe tak bórze kaž móžno zaso k dispoziciji być. Najnowše informacije dóstanjeće w  <matrixLink>chaće Matrix zhromadźenstwa</matrixLink> abo wopytajće <githubLink>GitHub</githubLink> abo <discourseLink>naše forumy Discourse</discourseLink>, zo byšće problemy ze sydłom zdźělił abo wobkedźbował.
 error-code = Zmylk { $code }
 
 ## Data
@@ -505,10 +522,12 @@ data-other-goto = K { $name }
 data-other-download = Daty sćahnyć
 data-bundle-button = Paket datowych sadźbow sćahnyć
 data-bundle-description = Daty Common Voice plus wšě druhe hłosowe datowe sadźby horjeka.
+release-version = Wersija
+dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 data-download-singleword-title = Sćehńće cilowy segment jednotliweho słowa
-data-download-singleword-callout = To je segment, kotryž so přez nałožowanski pad wodźi, kotryž daty wobsahuje, zo by spóznawanje rěčanych cyfrow, haj/ně-wotkrywanje a testowanske daty wakeword za <fxLink>Firefox Voice</fxLink> podpěrał.
+data-download-singleword-callout-v2 = To je segment, kotryž so přez nałožowanske pady doprědka ćěri a daty wobsahuje, zo by spóznaće rěčanych cyfrow a spóznaće haj/ně zmóžnił.
 review-terms = Hdyž Common Voice wužiwaće, zwoliće do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 terms-agree = Sym přezjedny
 terms-disagree = Njejsym přezjedny
@@ -684,6 +703,7 @@ share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
 keep-track-profile = Slědujće swojemu postupej z profilom
 login-to-get-started = Přizjewće so abo registrujće so, zo byšće započał
 target-segment-first-card = Přinošujeće k našemu prěnjemu cilowemu segmentej
+target-segment-generic-card = Přinošujeće k cilowemu segmentej
 target-segment-first-banner = Pomhajće prěni cilowy segment Common Voice w { $locale } wutworić
 target-segment-add-voice = Přidajće swój hłós
 target-segment-learn-more = Dalše informacije
@@ -864,3 +884,84 @@ help-contribute = Załožće profil Common Voice a přinošujće swój hłós, z
 login-company = Z e-mejlowej adresu { $company } přizjewić / registrować
 profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
 read-more-about = Čitajće wjace wo stronje Wo Common Voice
+
+## DemoLayout
+
+demo-get-started = Započńmy
+demo-welcome = Witajće k Common Voice
+demo-welcome-subheader = Chceće wjace zhonić a k projektej přinošować?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice je najwjetša zjawnje k dispoziciji stejaca, wjacerěčna datowa sadźba swěta.
+demo-language-select-card-body = Dźak přinoškam přez 259&thinsp;000 ludźi we wjace hač 50 rěčach, so tute daty wužiwaja, zo bychu so rěčenske nałoženja trenowali, zo bychu čłowjeskemu hłosej lěpje wotpowědowali.
+card-button-next = Dale
+card-button-back = Wróćo
+demo-language-select-label = Rěče přepytać
+demo-eofy-header = Wozjewjenje kónc lěta 2019
+demo-eofy-sub_header = Hłosowa datowa sadźba, hotowy za sćehnjenje
+demo-account = Konto
+
+## Demo Account
+
+demo-account-card-header = Za sobudźěło konto trěbne njeje, hačrunjez je wužitne
+demo-account-card-body = Naprawo skicěrujemy lěpšiny a wujasnjamy, kotre informacije wozjewjamy. Wužiwajće wotkazy deleka, zo byšće z kontom Common Voice na swojim graće započał.
+demo-account-enter-email =
+    .label = Zapodajće e-mejlowu adresu, zo byšće registrowanski wotkaz pósłał
+demo-account-sign-up = Registrowanski wotkaz pósłać
+
+## Demo Contribute
+
+demo-contribute-card-header = Sće hotowy swój hłós přidać abo słuchać?
+demo-contribute-card-body-v2 = Nětko, hdźež trochu wjace wo Common Voice wěsće, čehodla njewupytać? Klikńće na mikrofonowy symbol, zo byšće sady wótře čitał. <br/><br/>Jeli chceće radšo hłosowe přinoški druhich ludźi přepruwować, klikńće na wothrawanski symbol. Pomhaće wokrućić, zo natočenja sadam wotpowěduja, kotrež so na wobrazowce pokazuja.
+demo-listen-subtitle = Chceće sobu činić?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Wosobinske přehlady was wo indiwiduelnym postupje a wo postupje zhromadźenstwa na běžnym dźerža.
+demo-dashboard-card-body = Za kóždy darjeny hłosowy klip a kóždy přepruwowany awdioklip so waše kontowe přehlady aktualizuja, zo by so waš najnowši postup w kóždej rěči, ke kotrejž přinošujeće, wotbłyšćował. Haj, móžeće k wjace hač jednej rěči přinošować!<br/><br/> Wužiwajće přehlady, zo byšće swoje statistiki slědował, zo byšće widźał, kak porno druhim ludźom w zhromadźenstwje wotrězujeće a zo byšće so wšědne abo tydźenske přinošowanske cile stajił.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterije
+contribution-criteria-link = Kriterije sobuskutkowanja rozumić
+contribution-criteria-page-title = Kriterije sobuskutkowanja
+contribution-criteria-page-description = Zhońće, na čož dwy dyrbjał dźiwać, hdyž na hłosowe klipy słuchaće, a pomhajće tež swoje hłosowe natočenja wobohaćić!
+contribution-for-example = na přikład
+contribution-misreadings-title = Čitanske zmylki
+contribution-misreadings-description = Přepruwujće při słuchanju jara dokładnje, hač natočenje eksaktnje napisanemu tekstej wotpowěduje; wotpokazajće jo, samo hdyž jenož snadne zmylki su. <br />Jara huste zmylki su:
+contribution-misreadings-description-extended-list-1 = Falowacy <strong>'A'</strong> abo <strong>'The'</strong> na spočatku nahraća.
+contribution-misreadings-description-extended-list-2 = Falowacy <strong>'s'</strong> na kóncu słowa.
+contribution-misreadings-description-extended-list-3 = Kontrakcije při čitanju, na přikład „žno“ město „hižo“ abo nawopak.
+contribution-misreadings-description-extended-list-4 = Falowacy kónc poslednjeho słowa, dokelž natočenje je so přespěšnišo wotrězało.
+contribution-misreadings-description-extended-list-5 = Wjacore pospyty słowo čitać.
+contribution-misreadings-example-1-title = Hoberske dinosawriery triasa.
+contribution-misreadings-example-2-title = Hoberski dinosawrier triasa.
+contribution-misreadings-example-2-explanation = [Dyrbjało ‚dinosawriery‘ rěkać]
+contribution-misreadings-example-3-title = Hoberske dinosawriery trias-.
+contribution-misreadings-example-3-explanation = [Natočenje před kóncom poslednjeho słowa wotrězane]
+contribution-misreadings-example-4-title = Hoberske dinosawriery triasa. Haj.
+contribution-misreadings-example-4-explanation = [Je so wjace natočiło, hač trěbny tekst]
+contribution-misreadings-example-5-title = Dźemy po kofej.
+contribution-misreadings-example-5-explanation = [Wobsah njewotpowěduje]
+contribution-misreadings-example-6-title = Dźemy po kofej.
+contribution-misreadings-example-6-explanation = [Dyrbjało „Dźemy“ rěkać]
+contribution-misreadings-example-7-title = Dźemy po jedyn kofej.
+contribution-misreadings-example-7-explanation = [‘a’ w originalnym teksće njeje]
+contribution-varying-pronunciations-title = Rozdźělne wurjekowanja
+contribution-background-noise-title = Pozadkowe šumy
+contribution-background-noise-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
+contribution-background-noise-example-1-title = <strong>{ Sneeze }</strong> Hoberske dinosawriery <strong>{ cough }</strong> triasa.
+contribution-background-noise-example-2-title = Hoberski dino <strong>{ cough }</strong> triasa.
+contribution-background-noise-example-2-explanation = [Dźěl teksta słyšeć njeje]
+contribution-background-noise-example-3-title = <strong>{ Crackle }</strong> hoberske dinosawriery <strong>{ crackle }</strong> -riasa.
+contribution-background-noise-example-3-explanation = [Dźěl teksta słyšeć njeje]
+contribution-background-voices-title = Pozadkowe hłosy
+contribution-background-voices-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
+contribution-background-voices-example-1-title = Hoberske dinosawriery triasa. <strong>[čita so wot jednoho hłosa]</strong>
+contribution-background-voices-example-1-explanation = Přińdźeš? <strong>[hłós druheho]</strong>
+contribution-volume-title = Sylnosć zwuka
+contribution-reader-effects-title = Efekty čitarja
+contribution-just-unsure-title = Jenož njewěsty?
+see-more = <chevron></chevron>Wjace pokazać
+see-less = <chevron></chevron>Mjenje pokazać

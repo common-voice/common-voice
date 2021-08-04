@@ -33,14 +33,18 @@ as = Assamese
 ast = Asturiano
 az = Azerbaigiano
 ba = Baschiro
+bas = Basaa
 be = Bielorusso
 bg = Bulgaro
+bm = Bambara
 bn = Bengalese
 br = Bretone
 bxr = Buriato
 ca = Catalano
 cak = Kaqchikel
+ckb = Curdo centrale
 cnh = Hakha Chin
+co = Còrso
 cs = Ceco
 cv = Ciuvascio
 cy = Gallese
@@ -62,11 +66,13 @@ fr = Francese
 fy-NL = Frisone
 ga-IE = Irlandese
 gl = Gallego
+gn = Guaraní
 ha = Hausa
 he = Ebraico
 hi = Hindi
 hr = Croato
 hsb = Alto sorabo
+ht = Creolo haitiano
 hu = Ungherese
 hy-AM = Armeno
 hyw = Armeno occidentale
@@ -81,33 +87,40 @@ kaa = Karakalpak
 kab = Cabilo
 kbd = Cabardo
 kk = Kazako
+kmr = Curdo Kurmanji
 ko = Coreano
 kpv = Komi-Zyrian
-ku = Curdo
 kw = Cornico
 ky = Kirghiso
 lg = Luganda
 lij = Ligure
 lt = Lituano
 lv = Lettone
+mai = Maithili
 mdf = Mokša
 mg = Malgascio
 mhr = Mari orientale
 mk = Macedone
 ml = Malayalam
 mn = Mongolo
+mos = More
+mr = Marathi
 mrj = Mari occidentale
+ms = Malese
 mt = Maltese
 my = Birmano
 myv = Erza
 nb-NO = Bokmål (Norvegia)
 ne-NP = Nepalese
+nia = Nias
 nl = Olandese
 nn-NO = Norvegese Nynorsk
 oc = Occitano
 or = Oriya
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polacco
+ps = Pashtu
 pt = Portoghese
 rm-sursilv = Romancio sottosilvano
 rm-vallader = Romancio Vallader
@@ -117,9 +130,11 @@ rw = Kinyarwanda
 sah = Sacha
 sc = Sardo
 scn = Siciliano
+shi = Shilha
 si = Singalese
 sk = Slovacco
 sl = Sloveno
+so = Somalo
 sq = Albanese
 sr = Serbo
 sv-SE = Svedese
@@ -132,14 +147,18 @@ th = Tailandese
 tl = Tagalog
 tr = Turco
 tt = Tataro
+tw = Twi
 uby = Ubykh
 udm = Udmurto
+ug = Uiguro
 uk = Ucraino
 ur = Urdu
 uz = Uzbeco
 vec = Veneto
 vi = Vietnamita
 vot = Votico
+yo = Yoruba
+yue = Cantonese
 zh-CN = Cinese (Cina)
 zh-HK = Cinese (Hong Kong)
 zh-TW = Cinese (Taiwan)
@@ -233,7 +252,7 @@ whats-public = Quali dati sono pubblici?
 email-not-public = Non renderemo il tuo indirizzo email pubblico.
 recordings-and-locale-public = Il numero di registrazioni e le lingue alle quali contribuisci saranno pubbliche.
 username-optin-public = Puoi scegliere di rendere il tuo nome utente pubblico o anonimo.
-demographic-deidentified-clarity = I dati demografici eventualmente forniti (ad es. età, sesso, lingua e accento) non saranno mai resi pubblici sul tuo profilo né collegati al tuo account nel dataset. Le singole registrazioni saranno associate ai dati demografici per un’analisi più accurata, per esempio nel caso in cui un ricercatore volesse concentrare il suo modello di apprendimento vocale su uno specifico segmento demografico.
+demographic-deidentified-clarity-2 = I dati demografici eventualmente forniti (ad es. età, genere, lingua e accento) non saranno mai resi pubblici sul tuo profilo né collegati al tuo account nel dataset. Le singole registrazioni saranno associate ai dati demografici per un’analisi più accurata, per esempio nel caso in cui un ricercatore volesse concentrare il suo modello di apprendimento vocale su uno specifico segmento demografico.
 username-email-not-demographic = Il tuo nome utente e il tuo indirizzo email non verranno associati ai dati pubblicati.
 
 ## Speak & Listen Shortcuts
@@ -262,7 +281,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registra/Interrompi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ripeti la registrazione
+shortcut-submit = Invio
+shortcut-submit-label = Invia registrazioni
 request-language-text = Non trovi la tua lingua su Common Voice?
+request-language-text-learn = Scopri qui come richiederla!
 request-language-button = Richiedi una lingua
 
 ## ProjectStatus
@@ -291,8 +313,8 @@ profile-form-accent =
     .label = Accento
 profile-form-age =
     .label = Età
-profile-form-gender =
-    .label = Sesso
+profile-form-gender-2 =
+    .label = Genere
 leaderboard-visibility =
     .label = Visibilità nella classifica
 hidden = Nascosto
@@ -318,7 +340,7 @@ profile-close = Chiudi
 profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
 thanks-for-account = Grazie per aver confermato il tuo account, ora iniziamo a completare il tuo profilo.
 why-demographic = Perché è importante?
-why-demographic-explanation = Dati utente anonimi come età, sesso e accento aiutano a migliorare i dati audio utilizzati per addestrare l’accuratezza dei motori di riconoscimento vocale. Il tuo nome utente ed email non saranno mai associati ai dati inviati e potrai scegliere se rendere il tuo nome utente pubblico o privato.
+why-demographic-explanation-2 = Dati utente anonimi come età, genere e accento aiutano a migliorare i dati audio utilizzati per addestrare l’accuratezza dei motori di riconoscimento vocale. Il tuo nome utente ed email non saranno mai associati ai dati inviati e potrai scegliere se rendere il tuo nome utente pubblico o privato.
 accept-privacy = Acconsento al trattamento dei dati come indicato nell’<privacyLink>informativa sulla privacy</privacyLink> di Mozilla
 accept-privacy-title = Informativa sulla privacy
 login-identity = Identità di accesso
@@ -332,26 +354,19 @@ skip-submission-description = Dopo aver premuto Invia durante l’invio del cont
 skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascolta per modificare il tipo di contributo.
 off = Disattiva
 on = Attiva
-avatar-clip-title = Dai una voce al tuo avatar
-change-your-avatar-clip = Vuoi cambiare registrazione vocale?
-recording-in-progress = Registrazione in corso…
-avatar-clip-recorded = Ora il tuo avatar ha una registrazione vocale!
-record-voice-wave = Registra la tua voce
-retry-voice-wave-recording = RIPROVA
-re-record = REGISTRA DI NUOVO
-delete-voice = ELIMINA
-recording-voice-wave = In registrazione
-delete-voice-clip = oppure Elimina registrazione
-ready-to-upload = Carica
-avatar-clip-fact = È risaputo da tempo che mentre si legge qualcosa, si viene distratti dal layout di una pagina.
-recreate-voice = Ricrea un’onda sonora
-cancel-avatar-clip-recording = Annulla
-about-avatar-clip-recording = Crea una registrazione vocale come parte del profilo del tuo avatar. Altri utenti potranno ascoltare la tua registrazione muovendo il mouse sulla tua icona.
+
+## Profile - Email
+
 browse-file-title = Carica un’immagine
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</browseWrap>
 connect-gravatar = Connetti Gravatar
 gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
+avatar-uploaded = Avatar caricato
+max-file-size = max { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = Gestisci le sottoscrizioni
 manage-email-subscriptions = Gestisci iscrizioni email
 email-already-used = Questa email è già in uso per un altro account
@@ -433,7 +448,7 @@ about-is-it-valid-text = Una registrazione vocale è contrassegnata come “vali
 about-yes-votes = ≥ 2 voti Sì
 about-yes-votes-text = Per essere inclusa nel dataset di Common Voice, una registrazione vocale deve essere validata da due utenti diversi.
 about-no-votes = ≥ 2 voti No
-about-no-votes-text = Quando un utente boccia una registrazione, essa torna nella Coda. Se bocciata una seconda volta, viene trasferita nel Cimitero delle registrazioni.
+about-no-votes-text = Una registrazione rifiutata da un utente viene rimessa nella Coda. Se rifiutata una seconda volta, viene trasferita nel Cimitero delle registrazioni.
 about-dataset-new = Dataset di Common Voice
 about-dataset-new-text = Il dataset di Common Voice contiene centinaia di migliaia di tipi di voce che aiutano gli sviluppatori a realizzare strumenti di riconoscimento vocale.
 about-clip-graveyard = Cimitero delle registrazioni
@@ -491,10 +506,12 @@ data-other-goto = Vai a { $name }
 data-other-download = Scarica i dati
 data-bundle-button = Scarica bundle di dataset
 data-bundle-description = Dati di Common Voice più tutti i dataset precedenti.
+release-version = Versione
+dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
 data-download-singleword-title = Scarica il segmento specifico con parole singole
-data-download-singleword-callout = Questo è un segmento dedicato a casi d’uso specifici, contenente dati per gestire il riconoscimento di singoli numeri, rilevamento di “sì”/“no” e parola di attivazione per <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Questo è un segmento basato su uno specifico caso di utilizzo e contiene dati per migliorare il riconoscimento vocale delle cifre e il rilevamento di sì/no.
 review-terms = Utilizzando Common Voice, accetti le nostre <termsLink>condizioni</termsLink> e l’<privacyLink>informativa sulla privacy</privacyLink>
 terms-agree = Accetto
 terms-disagree = Non accetto
@@ -509,7 +526,7 @@ review-delete-recordings = Cancella le mie registrazioni
 
 ## Datasets Page
 
-datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite riconoscimento vocale.
+datasets-headline = Stiamo realizzando un dataset di voci multilingua e open source che chiunque può utilizzare per migliorare applicazioni munite di riconoscimento vocale.
 datasets-positioning =
     Crediamo che mettere in circolazione dataset di voci pubblici di grandi dimensioni possa promuovere innovazione e sana concorrenza commerciale tra le tecnologie di apprendimento automatico basate sul riconoscimento vocale.
     
@@ -661,6 +678,7 @@ share-title-new = <bold>Aiutaci</bold> a trovare altre voci
 keep-track-profile = Tieni traccia dei progressi con un profilo
 login-to-get-started = Accedi o registrati per iniziare
 target-segment-first-card = Stai contribuendo al primo segmento obiettivo
+target-segment-generic-card = Stai contribuendo a un segmento obiettivo
 target-segment-first-banner = Aiuta a creare il primo segmento obiettivo di Common Voice in { $locale }
 target-segment-add-voice = Aggiungi la tua voce
 target-segment-learn-more = Scopri di più
@@ -821,3 +839,85 @@ help-contribute = Crea un profilo Common Voice e dona la tua voce per aiutarci a
 login-company = Accedi / Registrati con l’email di { $company }
 profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
 read-more-about = Scopri di più sulla pagina Informazioni
+
+## DemoLayout
+
+demo-get-started = Iniziamo
+demo-welcome = Benvenuto in Common Voice
+demo-welcome-subheader = Ti interessa saperne di più e contribuire al progetto?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice è il più grande set di dati vocali multilingua pubblicamente accessibile al mondo.
+demo-language-select-card-body = Grazie al contributo di oltre 259 mila persone in più di 50 lingue, questi dati saranno usati per l'addestramento di applicazioni con riconoscimento vocale per migliorare la loro risposta alla voce umana.
+card-button-next = Avanti
+card-button-back = Indietro
+demo-language-select-label = Scopri le lingue disponibili
+demo-eofy-header = Versione di fine anno 2019
+demo-eofy-sub_header = Dataset vocale, pronto per il download
+demo-account = Account
+
+## Demo Account
+
+demo-account-card-header = Non è obbligatorio avere un account per collaborare ma è consigliato.
+demo-account-card-body = Qui a destra sono descritti i vantaggi e le informazioni che rendiamo pubbliche. Usa i link qui di seguito per iniziare con un account Common voice sul tuo dispositivo.
+demo-account-enter-email =
+    .label = Inserisci un indirizzo email per inviare il link per l’iscrizione
+demo-account-sign-up = Invia il link per l’iscrizione
+
+## Demo Contribute
+
+demo-contribute-card-header = Sei pronto ad aggiungere la tua voce o prestarci le tue orecchie?
+demo-contribute-card-body-v2 = Ora che ne sai un po’ di più su Common Voice, perché non lo provi? Fai clic sull’icona del microfono e leggi le frasi a voce alta per registrarle. <br/><br/> Se preferisci convalidare i contributi vocali di altre persone, fai clic sull’icona del tasto play e indica per ciascuna registrazione se corrisponde alla frase visualizzata sullo schermo.
+demo-listen-subtitle = Sei pronto a dare il tuo contributo?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = La tua dashboard personale ti tiene aggiornato suoi tuoi progressi e su quelli della comunità.
+demo-dashboard-card-body = La dashboard del tuo account viene aggiornata per ogni registrazione vocale e per ogni registrazione audio validata, riportando i tuoi ultimi progressi in ogni lingua alla quale hai contribuito. Sì, puoi contribuire a più di una lingua!<br/><br/> Usa la dashboard per tenere traccia delle tue statistiche, vedere come stai andando rispetto ad altri della community e impostare obiettivi giornalieri o settimanali.
+
+## Validation criteria
+
+contribution-criteria-nav = Criteri
+contribution-criteria-link = Leggi i criteri di contribuzione
+contribution-criteria-page-title = Criteri di contribuzione
+contribution-criteria-page-description = Scopri a che cosa devi prestare attenzione mentre ascolti le registrazioni e anche come poter rendere migliori le tue!
+contribution-for-example = per esempio
+contribution-misreadings-title = Errori di lettura
+contribution-misreadings-description = Durante l’ascolto, controlla attentamente che quanto registrato corrisponda esattamente a quanto scritto e rifiuta la registrazione se sono presenti anche solo errori minimi. <br />Errori molto comuni includono:
+contribution-misreadings-description-extended-list-1 = Mancanza di <strong>articoli indeterminativi</strong> (“Uno”, “Una”, ecc.) o <strong>determinativi</strong> (“Gli”, “Le”, ecc.) all’inizio della registrazione.
+contribution-misreadings-description-extended-list-2 = Mancanza della <strong>vocale finale</strong> in una parola.
+contribution-misreadings-description-extended-list-3 = Lettura di elisioni che non sono presenti nel testo originale, come “Non t’ho detto” al posto di “Non ti ho detto” o viceversa.
+contribution-misreadings-description-extended-list-4 = Mancanza della fine dell’ultima parola a causa dell’interruzione anticipata della registrazione.
+contribution-misreadings-description-extended-list-5 = Numerosi tentativi di lettura di una parola.
+contribution-misreadings-example-1-title = I dinosauri giganti del Triassico.
+contribution-misreadings-example-2-title = I dinosauro giganti del Triassico.
+contribution-misreadings-example-2-explanation = [Dovrebbe essere “dinosauri”]
+contribution-misreadings-example-3-title = I dinosauri giganti del Triassi-.
+contribution-misreadings-example-3-explanation = [La registrazione si interrompe prima della fine dell’ultima parola]
+contribution-misreadings-example-4-title = I dinosauri giganti del Triassico. Sì.
+contribution-misreadings-example-4-explanation = [È stato registrato più testo del necessario]
+contribution-misreadings-example-5-title = Usciamo a prendere un caffè.
+contribution-misreadings-example-5-explanation = [Il contenuto non corrisponde]
+contribution-varying-pronunciations-title = Variazioni della pronuncia
+contribution-varying-pronunciations-description = Procedi con cautela prima di rifiutare una registrazione in cui, a tuo avviso, il lettore ha sbagliato la pronuncia di una parola, ha posto male l’accento o ha apparentemente ignorato un punto interrogativo. Nel mondo, infatti, è in uso un’ampia varietà di pronunce e potresti non aver mai avuto l’occasione di ascoltarne alcune nella tua zona. Prevedi un certo margine di elasticità come segno di apprezzamento per le persone che parlano in modo diverso dal tuo.
+contribution-varying-pronunciations-description-extended = Se però credi che il lettore non conoscesse quella parola e semplicemente la sua ipotesi sulla pronuncia non sia corretta, rifiuta la registrazione. Se non sei sicuro, utilizza il pulsante Salta.
+contribution-varying-pronunciations-example-1-title = Stava gettando l’ancora in mare.
+contribution-varying-pronunciations-example-1-explanation = [A seconda dello spostamento dell’accento da una sillaba all’altra, “ancora” può essere letto sia “àncora” (sostantivo) sia “ancóra” (avverbio)]
+contribution-varying-pronunciations-example-2-title = Abiamo tanto tempo.
+contribution-varying-pronunciations-example-2-explanation = [Le doppie vanno sempre pronunciate in italiano, quindi dovrebbe essere “Abbiamo”]
+contribution-background-noise-title = Rumore di sottofondo
+contribution-background-noise-description = Vogliamo che l’algoritmo di machine learning sia in grado di gestire una vasta gamma di rumori di sottofondo. I rumori relativamente forti possono essere accettati a patto che non impediscano di ascoltare l’interezza del testo. Una musica di sottofondo tranquilla è accettabile mentre non lo è una musica con un volume così forte da impedire di sentire ogni singola parola.
+contribution-background-noise-example-2-explanation = [Una parte del testo non si sente nella registrazione]
+contribution-background-noise-example-3-explanation = [Una parte del testo non si sente nella registrazione]
+contribution-background-voices-title = Voci di sottofondo
+contribution-background-voices-description = Un normale rumore di sottofondo è accettabile, ma non vogliamo che la presenza di voci extra possa portare l’algoritmo a identificare parole che non sono scritte nel testo; solitamente questo capita quando una televisione è rimasta accesa o quando una conversazione è in corso nelle vicinanze. Se riesci a sentire nitidamente parole che non sono presenti nel testo, devi rifiutare la registrazione.
+contribution-background-voices-example-1-title = I dinosauri giganti del Triassico. <strong>[letto da una prima voce]</strong>
+contribution-background-voices-example-1-explanation = Vieni? <strong>[chiamata fatta da una seconda voce]</strong>
+contribution-volume-title = Volume
+contribution-volume-description = Le voci dei differenti lettori presentano delle variazioni naturali di volume. Rifiuta la registrazione solo se il volume è talmente alto da interromperla o, caso più frequente, quando è talmente basso da non poter sentire quello che viene detto senza prendere il testo scritto come riferimento.
+contribution-reader-effects-description = La maggior parte delle registrazioni contiene voci di persone che parlano con un tono naturale. Puoi accettare registrazioni, sporadiche e non consuete, che siano gridate, dette sottovoce o dal tono chiaramente “drammatico”. Rifiuta le registrazioni cantate e quelle in cui è stato usato un sintetizzatore vocale.
+contribution-just-unsure-title = Hai ancora dei dubbi?
+contribution-just-unsure-description = Se ti imbatti in qualcosa che queste linee guida non includono, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
+see-more = <chevron></chevron>Mostra di più
+see-less = <chevron></chevron>Mostra di meno
