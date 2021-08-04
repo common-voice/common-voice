@@ -929,6 +929,7 @@ contribution-criteria-page-title = Kriterije sobuskutkowanja
 contribution-criteria-page-description = Zhońće, na čož dwy dyrbjał dźiwać, hdyž na hłosowe klipy słuchaće, a pomhajće tež swoje hłosowe natočenja wobohaćić!
 contribution-for-example = na přikład
 contribution-misreadings-title = Čitanske zmylki
+contribution-misreadings-description = Přepruwujće při słuchanju jara dokładnje, hač natočenje eksaktnje napisanemu tekstej wotpowěduje; wotpokazajće jo, samo hdyž jenož snadne zmylki su. <br />Jara huste zmylki su:
 contribution-misreadings-description-extended-list-1 = Falowacy <strong>'A'</strong> abo <strong>'The'</strong> na spočatku nahraća.
 contribution-misreadings-description-extended-list-2 = Falowacy <strong>'s'</strong> na kóncu słowa.
 contribution-misreadings-description-extended-list-3 = Kontrakcije při čitanju, na přikład „žno“ město „hižo“ abo nawopak.
