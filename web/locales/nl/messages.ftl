@@ -190,6 +190,7 @@ logout = Afmelden
 ## Home Page
 
 home-title = Het Common Voice-project is een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken.
+default-tagline = Mozilla Common Voice is een initiatief om machines te helpen leren hoe echte mensen spreken.
 home-cta = Laat uw stem horen, draag hier bij!
 wall-of-text-start = Spraak is natuurlijk, spraak is menselijk. Daarom zijn we gefascineerd in het maken van een bruikbare spraaktechnologie voor onze machines. Maar voor het maken van spraaksystemen is een extreem grote hoeveelheid spraakgegevens nodig.
 wall-of-text-more-mobile = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Project Common Voice gestart, een project dat spraakherkenning voor iedereen beschikbaar helpt te maken.
@@ -383,6 +384,10 @@ faq-what-cv-a =
     Spraakherkenningstechnologie is een revolutie in de manier waarop we omgaan met machines, maar de momenteel beschikbare systemen zijn duur en afgeschermd. Common Voice is onderdeel van Mozilla’s initiatief om spraakherkenningstechnologieën beter en voor iedereen toegankelijker te maken. Common Voice is een enorme wereldwijde database van gedoneerde stemmen, waarmee iedereen snel en eenvoudig spraakgestuurde apps in potentieel elke taal kan trainen.
     
     We verzamelen niet alleen spraakfragmenten in veelgesproken talen, maar ook in die met een kleiner aantal sprekers. Door een diverse gegevensset met stemmen te publiceren, krijgen ontwikkelaars, ondernemers en gemeenschappen de mogelijkheid om deze kloof zelf aan te pakken. Naast de Common Voice-gegevensset bouwen we ook een opensource-spraakherkenningsprogramma met de naam Deep Speech.
+faq-what-cv-a-2 =
+    Spraakherkenningstechnologie is een revolutie in de manier waarop we omgaan met machines, maar de momenteel beschikbare systemen zijn duur en afgeschermd. Mozilla Common Voice is een initiatief om spraakherkenningstechnologieën beter en voor iedereen toegankelijker te maken. Common Voice is een enorme wereldwijde database van gedoneerde stemmen, waarmee iedereen snel en eenvoudig spraakgestuurde apps in potentieel elke taal kan trainen.
+    
+    We verzamelen niet alleen spraakfragmenten in veelgesproken talen, maar ook in die met een kleiner aantal sprekers. Door een diverse gegevensset met stemmen te publiceren, krijgen ontwikkelaars, ondernemers en gemeenschappen de mogelijkheid om zelf deze kloof te overbruggen.
 faq-why-important-q = Waarom is het belangrijk?
 faq-why-important-a =
     Spraak is vaak de meest natuurlijke manier om met elkaar te communiceren en spraaktechnologieën brengen dat gemak naar onze computers en mobiele apparaten. We willen ontwikkelaars de mogelijkheid geven geweldige spraakherkenningstoepassingen te bouwen, zoals realtime-vertalers en spraakgestuurde digitale assistenten. Maar op dit moment zijn de meeste spraakgegevens die nodig zijn om dit soort toepassingen te bouwen duur en afgeschermd. We hopen dat de Common Voice-gegevensset ontwikkelaars biedt wat ze nodig hebben om te innoveren en spraaktechnologie beschikbaar te stellen in hun eigen taal.
@@ -440,6 +445,9 @@ about-title = Waarom Common Voice?
 about-subtitle = Common Voice is onderdeel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken. In aanvulling op de Common Voice-gegevensset bouwen we ook een open source spraakherkenningsengine genaamd Deep Speech.
 about-header-description =
     Beide projecten maken deel uit van onze inspanningen om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
+    We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
+about-header-description-2 =
+    Dit project is een inspanning om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
     We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
 how-does-it-work-title = Hoe werkt het
 how-does-it-work-text = We crowdsourcen een open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
@@ -905,5 +913,6 @@ contribution-misreadings-example-7-title = Ik heb een koffie met haar gedronken.
 contribution-background-noise-title = Achtergrondgeluid
 contribution-background-voices-title = Achtergrondgeluiden
 contribution-volume-title = Volume
+contribution-just-unsure-description = Als u iets tegenkomt dat niet in deze richtlijnen wordt behandeld, stem dan naar uw beste oordeel. Als u echt niet kunt beslissen, gebruik dan de knop Overslaan en ga door naar de volgende opname.
 see-more = <chevron></chevron>Meer tonen
 see-less = <chevron></chevron>Minder tonen
