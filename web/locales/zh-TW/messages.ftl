@@ -190,6 +190,7 @@ logout = 登出
 ## Home Page
 
 home-title = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。
+default-tagline = Mozilla Common Voice 是一套想讓機器學會真人說話方式的專案。
 home-cta = 有話大聲說，在此獻聲！
 wall-of-text-start = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-more-mobile = 大部分由大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
@@ -381,6 +382,10 @@ faq-what-cv-a =
     語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Common Voice 是 Mozilla 打算讓語音識別技術變得更好、讓任何人都更能使用的計畫的一部分。Common Voice 也是一套收集了世界各地人們所捐贈的語音的資料庫，希望讓任何人都可以快速而簡單地訓練出可識別任何語音功能的應用程式。
     
     我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套廣泛的語音資料集，可幫助開發者、創業家，以及各個社群來縮小彼此之間的鴻溝。除了 Common Voice 的資料集外，我們也在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
+faq-what-cv-a-2 =
+    語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Mozilla Common Voice 是打算讓語音識別技術變得更好、讓任何人都更能使用的計畫。Common Voice 也是一套收集了世界各地人們所捐贈的語音的資料庫，希望讓任何人都可以快速而簡單地訓練出可識別任何語音功能的應用程式。
+    
+    我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套廣泛的語音資料集，可幫助開發者、創業家，以及各個社群來縮小彼此之間的鴻溝。
 faq-why-important-q = 這有什麼重要的？
 faq-why-important-a =
     說話通常是我們與其他人最自然的溝通方式，語音技術也讓電腦和行動裝置更方便使用。我們希望讓開發者們建置令人驚嘆的語音識別應用程式，例如即時翻譯機、有語音功能的數位助理等等。但現在用來建置這些軟體所需的語音資料，大部分都是昂貴且專有的，因而我們希望能提供 Common Voice 資料集給開發者進行創新，也讓他們能使用自己的語言來打造語音技術。
@@ -438,6 +443,9 @@ about-title = 為什麼會有 Common Voice？
 about-subtitle = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。除了 Common Voice 資料集外，我們也正在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
 about-header-description =
     這兩個專案都是我們努力弭平數位語音落差的一部份。語音識別技術可讓我們的裝置帶來人性，但開發者需要極為龐大數量的語音資料，才能打造出這樣的系統。目前大部分語音資料都相當昂貴，也是專有的資料。
+    我們希望讓語音資料能夠公開自由使用，並確保資料反映出人們實際的多樣性。讓我們一起為所有人把語音識別技術變得更好吧！
+about-header-description-2 =
+    此專案是我們為了努力弭平數位語音落差所做的努力。語音識別技術可讓我們的裝置帶來人性，但開發者需要極為龐大數量的語音資料，才能打造出這樣的系統。目前大部分語音資料都相當昂貴，也是專有的資料。
     我們希望讓語音資料能夠公開自由使用，並確保資料反映出人們實際的多樣性。讓我們一起為所有人把語音識別技術變得更好吧！
 how-does-it-work-title = 原理是什麼？
 how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是否正確，讓資料集能夠變得更好。
@@ -888,5 +896,7 @@ contribution-misreadings-title = 誤讀
 contribution-misreadings-description = 聆聽錄音時，仔細確認錄下的語音內容與畫面上顯示的文字完全相符，有任何一點錯誤就退回更正。<br />以下是常見的錯誤類型：
 contribution-misreadings-description-extended-list-1 = 錄音內容缺少了句首的<strong>「A」</strong>或<strong>「The」</strong>。
 contribution-misreadings-description-extended-list-2 = 缺少字尾的複數<strong>「s」</strong>。
+contribution-background-voices-title = 背景噪音
+contribution-volume-title = 音量大小
 see-more = <chevron></chevron>看更多
 see-less = <chevron></chevron>看更少
