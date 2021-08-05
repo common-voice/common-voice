@@ -190,6 +190,7 @@ logout = Allgofnodi
 ## Home Page
 
 home-title = Common Voice yw cynllun Mozilla i helpu dysgu peiriannau sut mae pobl go-iawn yn siarad.
+default-tagline = Mae Mozilla Common Voice yn gynllun i helpu dysgu peiriannau sut mae pobl go-iawn yn siarad.
 home-cta = Siarad a chyfrannu yma!
 wall-of-text-start = Mae llais yn beth naturiol ac yn perthyn i ni i gyd. Dyna pam mae gennym ddiddordeb mawr mewn creu technoleg llais ddefnyddiol ar gyfer ein peiriannau. Ond er mwyn creu systemau llais, mae angen data llais sylweddol iawn arnom.
 wall-of-text-more-mobile = Nid yw'r data sy'n cael ei ddefnyddio gan gwmnïau mawr ar gael i'r rhan fwyaf o bobl. I ni, mae hynny'n cyfyngu ar ddyfeisgarwch. Felly rydym wedi cychwyn Project Common Voice, fel bod adnabod llais ar gael i bawb.
