@@ -443,6 +443,9 @@ about-subtitle = Common Voice fait partie de l’initiative de Mozilla aidant le
 about-header-description =
     Ces deux projets font partie de nos efforts pour réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs et développeuses ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
     Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous et toutes.
+about-header-description-2 =
+    Ce projet vise à réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs et développeuses ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
+    Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous et toutes.
 how-does-it-work-title = Mode d’emploi
 how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
 about-speak = Parler
