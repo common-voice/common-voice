@@ -188,6 +188,7 @@ logout = 登出
 ## Home Page
 
 home-title = Common Voice 係 Mozilla 發起嘅一個教識機器好似真人噉發音嘅項目。
+default-tagline = Mozilla Common Voice 係一個教識機器「人類點樣講嘢」嘅倡議。
 home-cta = 喺度開聲貢獻！
 wall-of-text-start = 語音係自然、有人性嘅。所以我哋非常希望為機器建造可用嘅語音技術，但建造語音系統需要非常大量嘅語音數據。
 wall-of-text-more-mobile = 大部分現成嘅數據都係由大公司擁有，冇開放畀大眾使用。我哋覺得噉樣會阻礙創新，所以創立咗每個人都可以來自由建造語音識別嘅 Common Voice 計劃。
@@ -414,12 +415,14 @@ faq-how-privacy-a = 數據集中所有嘅錄音片段都唔會包含可識別個
 faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊“識別講者嘅身份”係咩解究呢?
 faq-what-is-cv = Common Voice 係乜嘢？
 faq-using-cv = 使用 Common Voice
+faq-description = Common Voice 係 Mozilla 幫助教機器「真人點樣講嘢」嘅倡議嘅一部分。
 faq-search-for-answers =
     .label = 揾答案
 
 ## ABOUT US
 
 about-title = 點解要揀 Common Voice?
+about-subtitle = Common Voice 係 Mozilla 幫助教機器真人點樣講嘢嘅倡議嘅一部分。除咗 Common Voice 數據集之外，我哋仲建構緊一個名為Deep Speech嘅開源語音識別引擎。
 how-does-it-work-title = 佢係點運作嘅？
 about-speak = 講
 about-listen-queue = 聆聽隊列
@@ -532,6 +535,7 @@ subscribe = 訂閲
 get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見反饋？
+deepspeech-info = Common Voice 數據集可同 Mozilla 嘅開放原始碼語音識別引擎 Deep Speech 互補，畀閣下用來製作語音識別應用程式。閣下可閱讀我哋嘅 <githubLink>Github 概觀</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解點樣入門。
 common-voice-info-new = 對 Common Voice 有問題？有針對某種語言嘅新諗法或者改善嘅意見？歡迎加入 <discourseLink>Discourse 討論區</discourseLink>留言畀我地知。
 data-other-librispeech-description = LibriSpeech 係一個從LibriVox計劃入面，攞到大概一千個鐘嘅16Khz 英語有聲書錄音嘅語料庫。
 data-other-ted-name = TED-LIUM 語料庫
@@ -614,6 +618,7 @@ contribute-more =
     }
 record-cta = 開始錄音
 record-platform-not-supported = 唔好意思，你嘅平台暫時尚未支援。
+record-platform-not-supported-desktop = 喺桌上型電腦，閣下可以下載：
 record-platform-not-supported-ios-non-safari = iOS 用戶，請使用 Safari瀏覽器以繼續錄製…
 record-must-allow-microphone = 你必須容許咪高峰存取權。
 record-no-mic-found = 未發現咪高峰。
@@ -848,4 +853,5 @@ contribution-misreadings-description = 聽緊錄音嘅时候，認真睇下啲�
 contribution-misreadings-description-extended-list-1 = 漏咗詞頭嘅量詞<strong>個</strong>或者<strong>啲</strong> 。
 contribution-misreadings-description-extended-list-2 = 漏咗詞尾嘅<strong>咗</strong>或者句尾嘅<strong>㗎、喇、咋、啊、喎</strong>。
 contribution-misreadings-description-extended-list-3 = 讀咗啲冇寫出嚟嘅縮略，例如寫住「唔係」但係讀咗做「咪」。
+contribution-background-noise-title = 背景嘈音
 contribution-just-unsure-title = 單係唔確定？
