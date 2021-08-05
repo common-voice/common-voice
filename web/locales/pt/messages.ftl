@@ -384,6 +384,10 @@ faq-what-cv-a =
     A tecnologia de reconhecimento de voz está revolucionando o modo como interagimos com máquinas, mas os sistemas disponíveis atualmente são caros e proprietários. O Common Voice faz parte da iniciativa da Mozilla para tornar as tecnologias de reconhecimento de voz melhores e mais acessíveis a todos. O Common Voice é um banco de dados massivo global de vozes doadas que permite a qualquer um treinar aplicativos habilitados para voz com facilidade e rapidez, em potencialmente qualquer idioma.
     
     Nós estamos coletando amostras de voz não apenas de idiomas falados amplamente, mas também daqueles com menor população de falantes. Publicar um conjunto de dados variado de vozes potencializará desenvolvedores, empreendedores e comunidades para abordar esta lacuna eles mesmos. Além do conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
+faq-what-cv-a-2 =
+    A tecnologia de reconhecimento de voz está revolucionando o modo como interagimos com máquinas, mas os sistemas disponíveis atualmente são caros e proprietários. O Mozilla Common Voice é uma iniciativa para tornar as tecnologias de reconhecimento de voz melhores e mais acessíveis a todos. O Common Voice é um banco de dados massivo global de vozes doadas que permite a qualquer um treinar aplicativos habilitados para voz com facilidade e rapidez, em potencialmente qualquer idioma.
+    
+    Nós estamos coletando amostras de voz não apenas de idiomas falados amplamente, mas também daqueles com menor população de falantes. Publicar um conjunto de dados variado de vozes potencializa desenvolvedores, empreendedores e comunidades para abordar esta lacuna eles mesmos.
 faq-why-important-q = Por que é importante?
 faq-why-important-a =
     A fala é geralmente a maneira mais natural de nos comunicar e as tecnologias de voz estão trazendo essa conveniência para nossos computadores e dispositivos móveis. Queremos capacitar os desenvolvedores a criar aplicativos de reconhecimento de voz incríveis, como tradutores em tempo real e assistentes digitais habilitados para voz. Mas, no momento, a maioria dos dados de voz necessários para criar esses tipos de aplicativos é cara e proprietária. Esperamos que o conjunto de dados do Common Voice forneça aos desenvolvedores o que eles precisam para inovar e disponibilizar tecnologia de voz em seus próprios idiomas.
@@ -441,6 +445,9 @@ about-title = Por que o Common Voice?
 about-subtitle = O Common Voice faz parte da iniciativa da Mozilla de ajudar a ensinar às máquinas como pessoas de verdade falam. Em paralelo ao conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
 about-header-description =
     Ambos os projetos fazem parte de nossos esforços de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
+    Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
+about-header-description-2 =
+    Este projeto é um esforço de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
     Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
 how-does-it-work-title = Como funciona
 how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código aberto através de colaboração pública. Doe sua voz, valide a correção dos clipes de outras pessoas, torne o conjunto de dados melhor para todos.
