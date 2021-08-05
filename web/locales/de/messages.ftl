@@ -190,6 +190,7 @@ logout = Abmelden
 ## Home Page
 
 home-title = Das Common-Voice-Projekt ist eine Initiative von Mozilla, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
+default-tagline = Mozilla Common Voice- ist eine Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
 home-cta = Mund aufmachen, Projekt unterstützen, mitarbeiten!
 wall-of-text-start = Sprache ist natürlich, Sprache ist menschlich. Deshalb sind wir davon fasziniert, brauchbare Technologien zur Spracherkennung für unsere Geräte zu erschaffen. Allerdings wird zur Entwicklung sprachbasierter Systeme eine sehr große Menge an Aufnahmen von gesprochener Sprache benötigt.
 wall-of-text-more-mobile = Der überwiegende Teil der von großen Unternehmen genutzten Daten ist für die Mehrheit der Menschen jedoch nicht zugänglich. Wir glauben, dass dadurch Innovation unterbunden wird. Aus diesem Grund haben wir das Projekt Common Voice ins Leben gerufen, ein Projekt, das dabei hilft, Spracherkennung für jeden zugänglich zu machen.
@@ -383,6 +384,10 @@ faq-what-cv-a =
     Die Spracherkennungstechnologie revolutioniert die Art und Weise, wie wir mit Geräten interagieren. Die derzeit verfügbaren Systeme sind jedoch teuer und proprietär. Common Voice ist Teil der Initiative von Mozilla, um Technologien zur Spracherkennung für alle besser und zugänglicher zu machen. Common Voice ist eine riesige globale Datenbank mit gespendeten Stimmen, mit der jeder schnell und einfach sprachgesteuerte Apps in jeder Sprache trainieren kann.
     
     Wir sammeln nicht nur Sprachproben in weit verbreiteten Sprachen, sondern auch in solchen mit einer geringeren Anzahl von Sprechern. Durch die Veröffentlichung eines umfangreichen Datensatzes von Stimmen können Entwickler, Unternehmer und Gemeinschaften diese Lücke selbst beheben. Neben dem Common-Voice-Datensatz erstellen wir auch eine Open-Source-Spracherkennungs-Engine namens Deep Speech.
+faq-what-cv-a-2 =
+    Die Spracherkennungstechnologie revolutioniert die Art und Weise, wie wir mit Geräten interagieren. Die derzeit verfügbaren Systeme sind jedoch teuer und proprietär. Mozilla Common Voice ist eine Initiative, um Technologien zur Spracherkennung für alle besser und zugänglicher zu machen. Common Voice ist eine riesige globale Datenbank mit gespendeten Stimmen, mit der jeder schnell und einfach sprachgesteuerte Apps in jeder Sprache trainieren kann.
+    
+    Wir sammeln nicht nur Sprachproben in weit verbreiteten Sprachen, sondern auch in solchen mit einer geringeren Anzahl von Sprechern. Durch die Veröffentlichung eines umfangreichen Datensatzes von Stimmen können Entwickler, Unternehmer und Gemeinschaften diese Lücke selbst beheben.
 faq-why-important-q = Warum ist das wichtig?
 faq-why-important-a =
     Sprache ist oft die natürlichste Art, wie wir miteinander kommunizieren, und Sprachtechnologien machen diesen Komfort auf unseren Computern und mobilen Geräten nutzbar. Wir möchten Entwickler in die Lage versetzen, erstaunliche Spracherkennungsanwendungen wie Echtzeitübersetzer und sprachgestützte digitale Assistenten zu entwickeln. Im Moment sind jedoch die meisten Sprachdaten, die zur Erstellung solcher Apps erforderlich sind, teuer und proprietär. Wir hoffen, dass der Common-Voice-Datensatz den Entwicklern das gibt, was sie benötigen, um die Sprachtechnologie in ihrer eigenen Sprache zur Verfügung zu stellen.
@@ -440,6 +445,9 @@ about-title = Warum Common Voice?
 about-subtitle = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen. Zusätzlich zum Common-Voice-Datensatz entwickeln wir auch eine quelloffene Spracherkennungs-Engine namens Deep Speech.
 about-header-description =
     Beide Projekte sind Teil unserer Bemühungen, die Lücke, die digitale Sprache bedeutet, zu überbrücken. Spracherkennungstechnologien verleihen unseren Geräten eine menschliche Dimension, aber Entwickler benötigen eine riesige Menge an Sprachdaten, um sie zu erstellen. Derzeit sind die meisten dieser Daten teuer und proprietär.
+    Wir möchten Sprachdaten frei und öffentlich verfügbar machen und sicherstellen, dass die Daten die Vielfalt echter Menschen darstellen. Gemeinsam können wir die Spracherkennung für alle verbessern.
+about-header-description-2 =
+    Dieses Projekt ist ein Versuch, die Lücke, die digitale Sprache bedeutet, zu überbrücken. Spracherkennungstechnologien verleihen unseren Geräten eine menschliche Dimension, aber Entwickler benötigen eine riesige Menge an Sprachdaten, um sie zu erstellen. Derzeit sind die meisten dieser Daten teuer und proprietär.
     Wir möchten Sprachdaten frei und öffentlich verfügbar machen und sicherstellen, dass die Daten die Vielfalt echter Menschen darstellen. Gemeinsam können wir die Spracherkennung für alle verbessern.
 how-does-it-work-title = Wie es funktioniert
 how-does-it-work-text = Wir crowdsourcen einen Open-Source-Datensatz von Stimmen. Spenden Sie Ihre Stimme, überprüfen Sie die Genauigkeit der Clips anderer Personen, und verbessern Sie den Datensatz für alle.
