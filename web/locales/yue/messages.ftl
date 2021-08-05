@@ -525,6 +525,12 @@ review-delete-recordings = 刪除我嘅錄音
 ## Datasets Page
 
 datasets-headline = 我地想建立一套開放原始碼、多重語言嘅語音數據集，令到任何人都可以用來開發同語音相關嘅應用。
+datasets-positioning =
+    我們相信若有一組大型、可公開使用的語音數據集，可奠定以機器學習為基礎嘅語音技術上嘅創新，同埋健康嘅商業競爭。
+    
+    Common Voice 的多語言數據集已經成為最大嘅公開語音數據集，但不是唯一一套。
+    
+    閣下可於該頁面揾到其他開放原始碼嘅語音數據集。隨住 Common Voice 持續成長，我哋也會喺呢處張貼更新資訊。
 language = 語言
 # File size in gigabytes
 size = 數據庫大細
@@ -731,6 +737,7 @@ total-approved = 總批准數
 overall-accuracy = 整體準確度
 set-visibility = 公開/隱藏個人檔案
 visibility-explainer = 用該選項喺排行榜上高公開/隱藏個人檔案。喺「隱藏」狀態時，閣下嘅進度得自己睇到，照片、用戶名稱、貢獻進度等均唔會出現喺排行榜上高。注意喺改變設定 { $minutes } 分鐘之後，排行榜設定先會生效。
+visibility-overlay-note = 注意：設定做「可見」之後，以後可以喺<profileLink>個人檔案</profileLink>修改
 show-ranking = 顯示我嘅排名
 
 ## Custom Goals
@@ -896,4 +903,9 @@ contribution-background-noise-example-3-title = <strong>{ Crackle }</strong>嗰�
 contribution-background-noise-example-3-explanation = [部份文字聽唔到]
 contribution-background-voices-title = 背景聲音
 contribution-background-voices-description-extended = 如果段錄音斷開咗，或者沙沙聲，除非啲字聽得清楚，否則唔好批。
+contribution-background-voices-example-1-title = 嗰啲三疊紀嘅巨型恐龍。<strong>[由一把聲音讀出]</strong>
+contribution-background-voices-example-1-explanation = 你嚟唔嚟㗎？<strong>[另一把聲嗌佢]</strong>
+contribution-volume-title = 聲量
 contribution-just-unsure-title = 單係唔確定？
+see-more = <chevron></chevron>睇多啲
+see-less = <chevron></chevron>睇少啲
