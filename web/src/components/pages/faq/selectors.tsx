@@ -22,10 +22,9 @@ const SECTION_NAMES: any = {
 
 const SECTION_CONTENTS: any = {
   [SECTIONS.whatIsCV]: [
-    'faq-what-cv',
+    ['faq-what-cv-q', 'faq-what-cv-a-2'],
     'faq-why-important',
     'faq-why-mission',
-    'faq-what-cv-and-deepspeech',
     'faq-is-goal-assistant',
   ],
   [SECTIONS.usingCV]: [

@@ -181,8 +181,8 @@ back-top = Back to Top
 logout = Log Out
 
 ## Home Page
-home-title =
-  Common Voice is Mozilla's initiative to help teach machines how real people speak.
+home-title = Common Voice is Mozilla's initiative to help teach machines how real people speak.
+default-tagline = Mozilla Common Voice is an initiative to help teach machines how real people speak.
 home-cta = Speak up, contribute here!
 wall-of-text-start =
   Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice
@@ -384,8 +384,10 @@ faq-title = Frequently Asked Questions
 faq-what-cv-q = What is Common Voice?
 faq-what-cv-a =
     Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
+faq-what-cv-a-2 =
+    Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Mozilla Common Voice is an initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
 
-    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves.
 
 faq-why-important-q = Why is it important?
 faq-why-important-a =
@@ -459,6 +461,7 @@ faq-search-for-answers =
 about-title = Why Common Voice?
 about-subtitle = Common Voice is part of Mozilla's initiative to help teach machines how real people speak. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
 about-header-description = Both of these projects are part of our efforts to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
+about-header-description-2 = This project is an effort to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
     We want to make voice data freely and publicly available, and make sure the data represents the diversity of real people. Together we can make voice recognition better for everyone.
 how-does-it-work-title = How does it work?
 how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
