@@ -402,6 +402,10 @@ faq-what-cv-a =
     Mae technoleg adnabod llais yn chwyldroi'r ffordd rydym yn rhyngweithio â pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud ac yn berchnogol. Mae Common Voice yn rhan o fenter Mozilla i wneud technolegau adnabod llais yn well ac yn fwy hygyrch i bawb. Mae Common Voice yn gronfa ddata fyd-eang enfawr o leisiau rhodd sy'n rhoi cyfle i unrhyw un apiau llais yn gyflym a rhwydd ym mhob iaith ac i bob pwrpas.
     
     Rydym nid yn unig yn casglu samplau llais mewn ieithoedd llafar eang ond hefyd yn y rheiny â phoblogaeth lai o siaradwyr. Bydd cyhoeddi set ddata amrywiol o leisiau yn rhoi grym i ddatblygwyr, entrepreneuriaid a chymunedau i fynd i'r afael â'r bwlch hwn eu hunain. Yn ogystal â set ddata Common Voice, rydym hefyd yn adeiladu peiriant adnabod lleferydd agored o'r enw Deep Speech.
+faq-what-cv-a-2 =
+    Mae technoleg adnabod llais yn chwyldroi'r ffordd rydym yn rhyngweithio â pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud ac yn berchnogol. Mae Common Voice yn rhan o fenter Mozilla i wneud technolegau adnabod llais yn well ac yn fwy hygyrch i bawb. Mae Common Voice yn gronfa ddata fyd-eang enfawr o leisiau wedi'u cyfrannu sy'n rhoi cyfle i unrhyw i hyfforddi apiau llais yn gyflym a rhwydd ym mhob iaith i bob pwrpas.
+    
+    Rydym nid yn unig yn casglu samplau llais mewn ieithoedd llafar eang ond hefyd yn y rheiny â phoblogaeth lai o siaradwyr. Bydd cyhoeddi set ddata amrywiol o leisiau yn rhoi grym i ddatblygwyr, entrepreneuriaid a chymunedau i fynd i'r afael â'r bwlch hwn eu hunain. Yn ogystal â set ddata Common Voice, rydym hefyd yn adeiladu peiriant adnabod lleferydd agored o'r enw Deep Speech.
 faq-why-important-q = Pam mae hyn yn bwysig?
 faq-why-important-a =
     Yn aml, defnyddio ein llais yw'r ffordd fwyaf naturiol rydym yn ei ddefnyddio i gyfathrebu â'n gilydd ac mae technolegau llais yn dod â'r cyfleustra hwnnw i'n cyfrifiaduron a'n dyfeisiau symudol. Rydyn am roi grym i ddatblygwyr adeiladu apiau adnabod llais anhygoel fel cyfieithwyr amser real a chynorthwywyr digidol sy'n defnyddio llais. Ond ar hyn o bryd mae'r rhan fwyaf o'r data llais sydd ei angen i adeiladu'r mathau hyn o apiau yn ddrud ac yn berchnogol. Rydym yn gobeithio y bydd set ddata Common Voice yn rhoi i'r datblygwyr hyn yr hyn sydd ei angen arnyn nhw i arloesi a gwneud technoleg llais ar gael yn eu hiaith eu hunain.
@@ -459,6 +463,9 @@ about-subtitle = Mae Common Voice yn rhan o fenter Mozilla i helpu i ddysgu peir
 about-header-description =
     Mae'r ddau brosiect hyn yn rhan o'n hymdrechion i bontio'r rhaniad lleferydd digidol. Mae technolegau adnabod llais yn dod â dimensiwn dynol i'n dyfeisiau, ond mae angen llawer iawn o ddata llais ar ddatblygwyr i'w hadeiladu. Ar hyn o bryd, mae'r rhan fwyaf o'r data hwnnw'n ddrud ac yn berchnogol.
     Rydym am sicrhau bod data llais ar gael yn rhwydd ac yn gyhoeddus, a sicrhau bod y data'n cynrychioli amrywiaeth pobl go iawn. Gyda'n gilydd gallwn wneud adnabod llais yn well i bawb.
+about-header-description-2 =
+    Mae'r project hwn yn ymdrech i bontio'r rhaniad lleferydd digidol. Mae technolegau adnabod llais yn dod â dimensiwn dynol i'n dyfeisiau, ond mae angen llawer iawn o ddata llais ar ddatblygwyr i'w hadeiladu. Ar hyn o bryd, mae'r rhan fwyaf o'r data hwnnw'n ddrud ac yn berchnogol.
+    Rydym am sicrhau bod data llais ar gael yn rhwydd ac yn gyhoeddus, a sicrhau bod y data'n cynrychioli amrywiaeth pobl go iawn. Gyda'n gilydd gallwn wneud adnabod llais yn well i bawb.
 how-does-it-work-title = Sut mae'n gweithio?
 how-does-it-work-text = Rydym yn torfoli set ddata cod agored o leisiau. Rhowch eich llais, dilyswch gywirdeb clipiau pobl eraill, gwnewch y set ddata yn well i bawb.
 about-speak = Siarad
@@ -485,7 +492,7 @@ about-partnership =
     Hoffem ddiolch i'r bobl a'r sefydliadau canlynol am eu cymorth gyda'r prosiect:
 about-get-involved = Ymunwch
 about-get-involved-text-2 =
-    Eisiau helpu i wneud Common Voice well fyth?
+    Eisiau helpu i wneud Common Voice yn well fyth?
     Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
     cyflwynwch adborth trwy <githubLink>GitHub</githubLink>, neu ymuno â ni
     ar lwyfan sgwrsio cymdeithasol <matrixLink>Matrix</matrixLink>
