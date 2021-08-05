@@ -911,3 +911,5 @@ contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
 contribution-varying-pronunciations-title = Varierande uttal
+see-more = <chevron></chevron>Se mer
+see-less = <chevron></chevron>Se mindre
