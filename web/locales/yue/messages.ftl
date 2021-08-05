@@ -224,6 +224,8 @@ email-subscription-title-new = 留低你嘅電郵地址，收取 Common Voice �
 ## Account Benefits
 
 benefits = 益處
+rich-data = 透過提供匿名嘅人口統計特徵，令你提交嘅數據更豐富。公開之前，我哋會先去除人口統計特徵資料入面嘅個人識別資料。
+keep-track = 追蹤你喺所有語言嘅進度同指標。
 
 ## What's public
 
