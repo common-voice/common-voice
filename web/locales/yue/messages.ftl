@@ -443,6 +443,7 @@ about-header-description-2 =
     呢個計劃係想縮短數碼語音嘅技術分歧。語音識別科技可以令我哋嘅設備更加人性化，但係開發者要靠大量嘅語音資料先至可以建立到。目前可用嘅資料價格昂貴，又係專有技術。
     我地想令語音數據可以公開自由畀人使用，並且確保呢啲數據反映出我地大衆嘅多樣性。合衆人之力，我地可以幫大家將語音識別技術變得更好！
 how-does-it-work-title = 佢係點運作嘅？
+how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫手，貢獻你嘅聲音，核實錄音嘅準確度，令資料集變得更加好。
 about-speak = 講
 about-speak-text = 貢獻者會錄低由句庫抽出嚟嘅句子。
 about-listen-queue = 聆聽隊列
@@ -522,6 +523,7 @@ dataset-date = 數據庫日期
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 data-download-singleword-title = 下載單字目標分段
+data-download-singleword-callout-v2 = 呢個係按照實際使用需要拆出嚟嘅部份，入面嘅資料可以用喺數字識別同埋是/否檢測。
 review-terms = 使用 Common Voice，即代表閣下同意我地嘅<termsLink>條款</termsLink>同埋<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我唔同意
@@ -562,6 +564,10 @@ download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 錄音時數
 whats-inside = Common Voice 數據庫入面有啲咩？
+dataset-description-hours =
+    數據集中的每筆資料包含一組獨特嘅 MP3 錄音檔同埋對應文字檔案。資料集中包含 <b>{ $total }</b> 小時嘅錄音片段，當中亦包含好多不同年齡層、性別、口音等，能夠幫助訓練語音識別引擎嘅人口統計資料。
+    
+    數據集中目前包含 <b>{ $valid }</b> 小時 <b>{ $languages }</b> 種語言嘅已驗證資料，但我哋希望能夠持續加入更多語音同埋語言。歡迎到我哋嘅<languagesLink>語言頁面</languagesLink>要求增添語言，或者隨時開始加入貢獻。
 want-dataset-update = 想喺新 Common Voice 數據集推出時收到通知？請訂閱我哋嘅電子報。
 subscribe = 訂閲
 get-started-speech = 語音識辨新手入門
@@ -910,6 +916,7 @@ contribution-varying-pronunciations-example-1-explanation = [「銀行」第二�
 contribution-varying-pronunciations-example-2-title = 我有一支「簽」筆。
 contribution-varying-pronunciations-example-2-explanation = [喺邊一度嘅粵語入面，「鉛」同「簽」都係唔同音]
 contribution-background-noise-title = 背景嘈音
+contribution-background-noise-description = 我哋想機器學習嘅演算法可以處理到唔同嘅背景雜音，甚至係大聲嘅嘈音都可以接受。前題係啲聲唔會阻住你聽清楚錄音嘅文字。靜靜哋嘅背景音樂都可以。但係音樂聲大到聽唔清啲字就唔得。
 contribution-background-noise-description-extended = 如果個錄音斷開咗或者有沙沙聲，除非啲文字可以完整聽得到，否則就唔好批。
 contribution-background-noise-example-1-title = <strong>{ Sneeze }</strong>嗰啲三疊紀嘅<strong>{ cough }</strong>巨型恐龍
 contribution-background-noise-example-2-title = 嗰啲三疊紀嘅<strong>{ cough }</strong>恐龍
@@ -917,6 +924,7 @@ contribution-background-noise-example-2-explanation = [部份文字聽唔到]
 contribution-background-noise-example-3-title = <strong>{ Crackle }</strong>嗰啲三疊紀嘅<strong>{ crackle }</strong>龍
 contribution-background-noise-example-3-explanation = [部份文字聽唔到]
 contribution-background-voices-title = 背景聲音
+contribution-background-voices-description = 背景有安靜嘅人聲雜音都可以接受，但係唔可以有一把聲太突出，令機器演算法認出一啲原文冇嘅字。如果你聽到原文冇嘅字句，嗰段錄音就要拒批。一般有呢個情況就係背景開住咗電視，或者附近有其他人喺度傾偈。
 contribution-background-voices-description-extended = 如果段錄音斷開咗，或者沙沙聲，除非啲字聽得清楚，否則唔好批。
 contribution-background-voices-example-1-title = 嗰啲三疊紀嘅巨型恐龍。<strong>[由一把聲音讀出]</strong>
 contribution-background-voices-example-1-explanation = 你嚟唔嚟㗎？<strong>[另一把聲嗌佢]</strong>
