@@ -937,6 +937,7 @@ contribution-criteria-page-title = Kriterije sobustatkowanja
 contribution-criteria-page-description = Zgóńśo, na což wy dejał źiwaś, gaž na głosowe klipy słuchaśo, a pomagajśo teke swóje głosowe nagraśa wobogaśiś!
 contribution-for-example = na pśikład
 contribution-misreadings-title = Cytańske zmólki
+contribution-misreadings-description = Pśeglědajśo pśi słuchanju wjelgin dokradnje, lěc nagraśe eksaktnje napisanemu tekstoju wótpowědujo; wótpokažćo jo, samo gaby byli jano snadne zmólki. <br />Wjelgin ceste zmólki su:
 contribution-misreadings-description-extended-list-1 = Felujucy <strong>'A'</strong> abo <strong>'The'</strong> na zachopjeńku nagraśa.
 contribution-misreadings-description-extended-list-2 = Felujucy <strong>'s'</strong> na kóńcu słowa.
 contribution-misreadings-description-extended-list-4 = Felujucy kóńc slědnego słowa, dokulaž nagraśe jo se pśemalsnjej wótrězało.
