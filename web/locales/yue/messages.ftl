@@ -356,12 +356,20 @@ faq-where-src-from-2-a =
     
     閣下可到呢個 <githubLink>GitHub 資料夾</githubLink>來檢視我哋嘅來源文本。
 faq-why-not-ask-read-q = 不如嗌多啲人來用各種語言朗讀啲書或者維基百科入面嘅文章？
+faq-why-not-ask-read-a = 為咗令 Common Voice 數據集發揮最大效益，我哋決定僅允許以 Creative Commons (CC0) 授權條款提供嘅源文本。用 CC0 條款標準會導致比較難揾到源文本，但係噉可以令所有人都用到出品嘅語音數據，亦唔會受到 Mozilla 嘅限制或要求授權。我哋嘅最終目標係令呢個多語言數據集對所有人都有幫助，包括研究者、大學、創業公司、政府、社團組織、興趣愛好者等等。
+faq-why-account-q = 我點解要注冊帳戶呢？
+faq-is-account-public-q = 我嘅賬戶資料係咪公開嘅？
+faq-how-privacy-q = 你係點同貢獻者保證佢哋貢獻嘅錄音片段都係匿名兼保密嘅呢？
 faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊“識別講者嘅身份”係咩解究呢?
 faq-what-is-cv = Common Voice 係乜嘢？
 faq-using-cv = 使用 Common Voice
+faq-search-for-answers =
+    .label = 揾答案
 
 ## ABOUT US
 
+about-title = 點解要揀 Common Voice?
+how-does-it-work-title = 佢係點運作嘅？
 about-speak = 講
 about-listen-queue = 聆聽隊列
 about-listen = 聽
