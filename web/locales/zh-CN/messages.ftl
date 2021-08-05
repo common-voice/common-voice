@@ -190,6 +190,7 @@ logout = 退出登录
 ## Home Page
 
 home-title = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。
+default-tagline = Mozilla Common Voice 项目，旨在帮助教会机器真人的说话方式。
 home-cta = 有话在此大声说！
 wall-of-text-start = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-more-mobile = 大部分由行业巨头持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放。
@@ -489,7 +490,7 @@ de-identified-explanation = 在打包下载数据集时，贡献者的个人信�
 
 ## Error pages
 
-error-title-404 = 我们找不到你要查看的页面
+error-title-404 = 我们找不到您要查看的页面
 error-content-404 = 也许回到我们的<homepageLink>主页</homepageLink>会有所帮助？若要询问问题，可以加入<matrixLink>Matrix 社区聊天频道</matrixLink>、关注 <githubLink>GitHub</githubLink> 上的网站问题反馈，或到<discourseLink>我们的 Discourse 论坛</discourseLink>让我们知道。
 error-title-503 = 发生了意外的宕机
 error-content-503 = 网站将尽快恢复正常。请到我们的 <matrixLink>Matrix 社区聊天频道</matrixLink>、<githubLink>GitHub</githubLink> 上的网站问题反馈，或到 <discourseLink>Discourse 论坛</discourseLink>向我们反馈，获取最新信息。
@@ -635,7 +636,7 @@ action-tap = 点按
 contribute = 参与贡献
 listen = 聆听
 skip = 跳过
-shortcuts = 快捷方式
+shortcuts = 快捷键
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> 个片段
