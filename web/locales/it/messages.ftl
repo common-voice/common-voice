@@ -190,6 +190,7 @@ logout = Disconnetti
 ## Home Page
 
 home-title = Il progetto Common Voice è un’iniziativa di Mozilla per insegnare alle macchine come parlano le persone nella vita reale.
+default-tagline = Mozilla Common Voice è un’iniziativa per insegnare alle macchine come parlano le persone nella vita reale.
 home-cta = Di’ qualcosa, fai clic qui per iniziare!
 wall-of-text-start = La voce è naturale, la voce è umanità. Per questo l’idea di creare una tecnologia vocale utilizzabile dalle nostre macchine ci affascina così tanto. Per creare sistemi basati sulla tecnologia vocale, però, è necessaria una altissima quantità di campioni.
 wall-of-text-more-mobile = Buona parte dei dati usati dalle grandi aziende non è accessibile alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
@@ -381,6 +382,10 @@ faq-what-cv-a =
     La tecnologia di riconoscimento vocale sta rivoluzionando il modo nel quale interagiamo con le macchine, ma al momento i sistemi disponibili sono costosi e proprietari. Common Voice fa parte dell’iniziativa di Mozilla per migliorare le tecnologie di riconoscimento vocale e renderle più accessibili a tutti. Common Voice è un gigantesco database di voci donate dagli utenti che permettono a chiunque di addestrare in maniera rapida e veloce le proprie applicazioni che utilizzano il riconoscimento vocale in potenzialmente qualsiasi lingua.
     
     Non soltanto memorizziamo campioni di voci delle lingue più diffuse al mondo ma anche quelle parlate da comunità minoritarie. La pubblicazione di un set di voci diverse consentirà a sviluppatori, imprenditori e comunità di affrontare da soli questa lacuna. Oltre al dataset di Common Voice, stiamo anche sviluppando un motore di riconoscimento vocale open source chiamato Deep Speech.
+faq-what-cv-a-2 =
+    La tecnologia di riconoscimento vocale sta rivoluzionando il modo nel quale interagiamo con le macchine, ma al momento i sistemi disponibili sono costosi e proprietari. Mozilla Common Voice è un’iniziativa per migliorare le tecnologie di riconoscimento vocale e renderle più accessibili a tutti. Common Voice è un gigantesco database di voci donate dagli utenti che permettono a chiunque di addestrare in maniera rapida e veloce le proprie applicazioni che utilizzano il riconoscimento vocale in potenzialmente qualsiasi lingua.
+    
+    Non soltanto memorizziamo campioni di voci delle lingue più diffuse al mondo ma anche quelle parlate da comunità minoritarie. La pubblicazione di un set di voci diverse consentirà a sviluppatori, imprenditori e comunità di affrontare da soli questa lacuna.
 faq-why-important-q = Perché è importante?
 faq-why-important-a =
     Parlare è spesso il modo più naturale di comunicare e le tecnologie vocali stanno introducendo questa facoltà anche nei nostri computer e dispositivi mobili. Vogliamo consentire agli sviluppatori di realizzare nuove applicazioni strabilianti basate sul riconoscimento vocale, come traduttori in tempo reale e assistenti digitali. Ma attualmente la maggior parte dei dati vocali richiesti per realizzare questo tipo di app sono costosi e proprietari. Con il dataset di Common Voice intendiamo fornire agli sviluppatori le risorse necessarie per innovare e rendere la tecnologia vocale disponibile nella propria lingua.
@@ -435,6 +440,7 @@ faq-search-for-answers =
 about-title = Perché Common Voice?
 about-subtitle = Common Voice è parte di un’iniziativa Mozilla per insegnare alle macchine come la gente parla nella vita reale. In aggiunta al dataset di Common Voice, stiamo costruendo un motore di riconoscimento vocale open source chiamato Deep Speech.
 about-header-description = Entrambi i progetti rientrano nella nostra missione di colmare il divario nel settore del riconoscimento vocale digitale. Le tecnologie di riconoscimento vocale conferiscono una dimensione umana ai nostri dispositivi, ma gli sviluppatori hanno bisogno di un’enorme quantità di dati vocali per crearle. Attualmente, la maggior parte di questi dati è costosa e proprietaria. Vogliamo rendere i dati vocali disponibili liberamente e pubblicamente e assicurarci che questi dati rispecchino la diversità delle persone reali. Insieme possiamo rendere il riconoscimento vocale migliore per tutti.
+about-header-description-2 = Questo progetto mira a colmare il divario nel settore del riconoscimento vocale digitale. Le tecnologie di riconoscimento vocale conferiscono una dimensione umana ai nostri dispositivi, ma gli sviluppatori hanno bisogno di un’enorme quantità di dati vocali per crearle. Attualmente, la maggior parte di questi dati è costosa e proprietaria. Vogliamo rendere i dati vocali disponibili liberamente e pubblicamente e assicurarci che questi dati rispecchino la diversità delle persone reali. Insieme possiamo rendere il riconoscimento vocale migliore per tutti.
 how-does-it-work-title = Come funziona
 how-does-it-work-text = Stiamo realizzando un dataset vocale open source attraverso il crowdsourcing. Dona la tua voce, convalida le registrazioni inviate da altre persone, rendi il dataset migliore per tutti.
 about-speak = Parla
