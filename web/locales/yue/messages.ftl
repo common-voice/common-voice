@@ -225,7 +225,10 @@ email-subscription-title-new = 留低你嘅電郵地址，收取 Common Voice �
 
 benefits = 益處
 rich-data = 透過提供匿名嘅人口統計特徵，令你提交嘅數據更豐富。公開之前，我哋會先去除人口統計特徵資料入面嘅個人識別資料。
+improve-audio = 個人檔案信息可以改良用於訓練語音識別準確度嘅音頻數據。
 keep-track = 追蹤你喺所有語言嘅進度同指標。
+view-goals = 喺個人同項目嘅目標下底，檢視你嘅進度。
+join-newsletter = 你可以選擇接收有關項目更新同新資訊嘅電子郵件。
 
 ## What's public
 
@@ -340,6 +343,7 @@ on = 開
 browse-file-title = 上載圖片
 browse-file = 拖落呢度，或<browseWrap>瀏覽</browseWrap>
 connect-gravatar = 連結 Gravatar
+gravatar_not_found = 揾唔到你電郵所屬嘅 Gravatar
 file_too_large = 檔案過大
 avatar-uploaded = Avatar 已上載
 max-file-size = { $kb } kb 上限
@@ -446,6 +450,9 @@ error-code = 錯誤 { $code }
 
 data-download-button = 下載 Common Voice 語音數據
 data-download-yes = 係
+data-download-deny = 非
+data-subtitle = 我哋整緊套公開而人人用得嘅語音數據集，人人都可以用佢來訓練認得到聲嘅應用程式。
+data-explanatory-text = 我地相信，大型而公開可用嘅語音數據集能夠促進語音機器學習科技嘅創新，以及健康嘅商業競爭。呢個係一個全球運動，我地邀請任何人士參與。我地嘅目標係令語音技術能夠更有包容性，反映出世界各地語音嘅多樣性。
 data-other-goto = 往 { $name }
 data-other-download = 下載數據
 data-bundle-button = 下載打包數據集
