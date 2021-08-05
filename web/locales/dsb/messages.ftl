@@ -190,6 +190,7 @@ logout = Wótzjawiś
 ## Home Page
 
 home-title = Projekt Common Voice jo iniciatiwa Mozilla, kótaraž ma pomagaś, mašinam wucyś, kak napšawdne luźe powědaju.
+default-tagline = Mozilla Common Voice jo iniciatiwa, kótaraž ma pomagaś, mašinam wucyś, kak napšawdne luźe powědaju.
 home-cta = Powědajśo a cyńśo how sobu!
 wall-of-text-start = Głos jp pśirodny, głos je cłowjeski. Togodla smy fasciněrowane, wužytnu głosowu technologiju za naše mašiny napóraś. Ale, za napóranje głosowych systemow jo wjelgin wjelika tšocha głosowych datow trěbne.
 wall-of-text-more-mobile = Nejwěcej datow wužywane wót wjelikich pśedewześow njejo pśitupne za wětšynu luźi. Myslimy, až to inowaciju znjemóžnja. Togodla smy startowali projekt Common Voice, projekt, kótaryž kuždemu spóznawanje głosow pśistupni.
