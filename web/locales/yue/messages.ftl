@@ -439,9 +439,12 @@ faq-search-for-answers =
 about-title = 點解要揀 Common Voice?
 about-subtitle = Common Voice 係 Mozilla 幫助教機器真人點樣講嘢嘅倡議嘅一部分。除咗 Common Voice 數據集之外，我哋仲建構緊一個名為Deep Speech嘅開源語音識別引擎。
 about-header-description = 呢兩個計劃都係我地努力糾正電子語音落差嘅一部份。語音識別技術可以令我地嘅電子裝置更加人性化，但係開發者需要十分大量嘅語音數據，先能夠打造出噉樣嘅系統。目前大部分語音數據都相當昂貴，而且受專有權限制。
-about-header-description-2 = 呢個計劃係我哋我地想令語音數據可以被公開自由地使用，並且確保呢啲數據反映出我地大衆嘅多樣性。合衆人之力，我地可以幫大家將語音識別技術變得更好！
+about-header-description-2 =
+    呢個計劃係想縮短數碼語音嘅技術分歧。語音識別科技可以令我哋嘅設備更加人性化，但係開發者要靠大量嘅語音資料先至可以建立到。目前可用嘅資料價格昂貴，又係專有技術。
+    我地想令語音數據可以公開自由畀人使用，並且確保呢啲數據反映出我地大衆嘅多樣性。合衆人之力，我地可以幫大家將語音識別技術變得更好！
 how-does-it-work-title = 佢係點運作嘅？
 about-speak = 講
+about-speak-text = 貢獻者會錄低由句庫抽出嚟嘅句子。
 about-listen-queue = 聆聽隊列
 about-listen = 聽
 about-is-it-valid = 段錄音有冇效？
