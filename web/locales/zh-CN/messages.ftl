@@ -380,6 +380,10 @@ faq-what-cv-a =
     语音识别技术正在改变我们与机器交互的方式，但现今的识别系统不仅昂贵，而且技术封闭。Common Voice 是 Mozilla 发起的一项倡议，旨在推进语音识别技术，更广泛地为大众服务。Common Voice 也是一套庞大的数据库，收录了全球各地贡献的语音数据，让任何人都可以更快更轻松地训练支持所有语言的语音识别程序。
     
     除了应用最广泛的语言，我们还收集了使用人数较少的语种语音样本。一套丰富而又公开的语音数据集能够帮助开发者、创业者以及各个社区缩小语言规模的鸿沟。除 Common Voice 数据集外，我们还在构建一套名为 Deep Speech 的开源语音识别引擎。
+faq-what-cv-a-2 =
+    语音识别技术正在改变我们与机器交互的方式，但现今的识别系统不仅昂贵，而且技术封闭。Mozilla Common Voice 项目，旨在推进语音识别技术，更广泛地为大众服务。Common Voice 也是一套庞大的数据库，收录了全球各地贡献的语音数据，让任何人都可以更快更轻松地训练支持所有语言的语音识别程序。
+    
+    除了应用最广泛的语言，我们还收集了使用人数较少的语种语音样本。一套丰富而又公开的语音数据集能够帮助开发者、创业者以及各个社区缩小语言规模的鸿沟。
 faq-why-important-q = 为什么如此重要？
 faq-why-important-a = 说话是人类相互沟通最自然的方式。而语音技术把这种方便感带到了计算机与移动设备上。我们想让开发者能够打造效果极好的语音识别程序，比如实时翻译器和语音数字助手。但此刻，大多数打造这类应用所必需的语音数据都是私有且昂贵的。我们希望 Common Voice 提供的数据集能满足开发者所需，把语音技术带到他们所说的语言。
 faq-how-get-q = 我要如何获取 Common Voice 数据？
@@ -435,6 +439,9 @@ about-subtitle = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助�
 about-header-description =
     这两个项目都是我们努力弭平数字语音鸿沟的一部分。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
     我们希望能够自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
+about-header-description-2 =
+    此项目是我们努力弭平数字语音鸿沟所做的努力。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
+    我们希望自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
 how-does-it-work-title = 原理是什么？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
 about-speak = 说话
@@ -881,6 +888,10 @@ contribution-criteria-page-title = 贡献准则
 contribution-criteria-page-description = 了解在聆听语音片段时需注意些什么，此举有助于您录制更多片段。
 contribution-for-example = 例如
 contribution-misreadings-title = 误读
+contribution-misreadings-description = 聆听语音片段时，请仔细核对语音片段中的内容是否与屏幕上显示的文字完全一致。哪怕只有微小的不一致，都请否决它。<br />下面列出了一些非常常见的错误：
 contribution-misreadings-description-extended-list-2 = 词尾缺少 <strong>'s'</strong>。
+contribution-background-noise-title = 背景噪音
 contribution-volume-title = 音量
 contribution-just-unsure-title = 仍有不解之处？
+see-more = <chevron></chevron>看更多
+see-less = <chevron></chevron>看更少
