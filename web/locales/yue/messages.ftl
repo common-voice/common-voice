@@ -378,11 +378,16 @@ change-email-setings = 要更改電郵，請先撳登入身份，然後再撳設
 
 faq-title = 常見問題
 faq-what-cv-q = Common voice 係乜嘢？
-faq-what-cv-a =
+faq-what-cv-a = 語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。
+faq-what-cv-a-2 =
     語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。¶
     ¶
-    我哋唔止想收集被廣泛使用嘅語言，亦都想收集少有人講嘅語音樣本。一套多元語音資料集，用來幫助開發者、創業家，以及唔同社群縮窄科技上個鴻溝。除咗Common Voice嘅數據集外，我地仲打造緊一套名為Deep Speech嘅開源語音識別引擎。
+    我哋唔止想收集被廣泛使用嘅語言，亦都想收集少有人講嘅語音樣本。一套多元語音資料集，用來幫助開發者、創業家，以及唔同社群縮窄科技上個鴻溝。
 faq-why-important-q = 點解呢個好重要？
+faq-why-important-a =
+    講嘢通常係我哋同其他人最自然嘅溝通方式，語音技術亦都令電腦同流動裝置更加方便。我哋希望開發者打造令人驚嘆嘅語音識別程式，例如即時翻譯機、有語音功能嘅數位助理等等。但係而家用嚟建設呢啲軟件要用嘅語音資料，大部分都係好貴嘅，所以我哋希望可以提供Common Voice數據集俾開發者進行創新，亦令我哋可以用自己嘅語言打造語音技術。
+    
+    為咗令語音識別技術可以更加普遍，我哋收集不論係有廣大使用者，定係較少使用者會講嘅語言（大部分商業語音識別技術對呢啲語言都冇乜支援）嘅語音片段，並發佈一組有多元語言同腔調嘅語音資料集，希望可以提供俾開發者、創業家、以及成個語音技術社群跨越呢道鴻溝。
 faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
 faq-how-get-a = 我哋嘅資料集可到<datasetLink>Common Voice 數據集頁面</datasetLink>下載，本數據集使用<licenseLink>CC0</licenseLink>授權。閣下仲可以喺該頁面中下載其它幾套嘅數據集。
 faq-when-release2-q = Common Voice 幾時會發放其他語言嘅數據？
@@ -433,6 +438,8 @@ faq-search-for-answers =
 
 about-title = 點解要揀 Common Voice?
 about-subtitle = Common Voice 係 Mozilla 幫助教機器真人點樣講嘢嘅倡議嘅一部分。除咗 Common Voice 數據集之外，我哋仲建構緊一個名為Deep Speech嘅開源語音識別引擎。
+about-header-description = 呢兩個計劃都係我地努力糾正電子語音落差嘅一部份。語音識別技術可以令我地嘅電子裝置更加人性化，但係開發者需要十分大量嘅語音數據，先能夠打造出噉樣嘅系統。目前大部分語音數據都相當昂貴，而且受專有權限制。
+about-header-description-2 = 呢個計劃係我哋我地想令語音數據可以被公開自由地使用，並且確保呢啲數據反映出我地大衆嘅多樣性。合衆人之力，我地可以幫大家將語音識別技術變得更好！
 how-does-it-work-title = 佢係點運作嘅？
 about-speak = 講
 about-listen-queue = 聆聽隊列
@@ -665,6 +672,7 @@ record-abort-continue = 完成錄音
 record-abort-delete = 退出並刪除錄音片段
 listen-instruction = { $actionType }<playIcon></playIcon>佢地講得準唔準？
 listen-again-instruction = 好嘢！<playIcon></playIcon> 準備好就可以再聽多次
+listen-3rd-time-instruction = 完成兩筆喇 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
 listen-empty-state = 呢個語言可以驗證嘅錄音已經驗晒啦⋯⋯
 speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
@@ -906,6 +914,7 @@ contribution-background-voices-description-extended = 如果段錄音斷開咗�
 contribution-background-voices-example-1-title = 嗰啲三疊紀嘅巨型恐龍。<strong>[由一把聲音讀出]</strong>
 contribution-background-voices-example-1-explanation = 你嚟唔嚟㗎？<strong>[另一把聲嗌佢]</strong>
 contribution-volume-title = 聲量
+contribution-volume-description = 唔同嘅朗讀者自然會有聲量嘅偏差。淨係聲量大到個錄音會斷開，或者（更常見）係聲量細到冇字幕就聽唔清嗰陣，先至好唔批
 contribution-just-unsure-title = 單係唔確定？
 see-more = <chevron></chevron>睇多啲
 see-less = <chevron></chevron>睇少啲
