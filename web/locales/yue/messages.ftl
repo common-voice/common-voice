@@ -96,6 +96,7 @@ lg = 盧干達語
 lij = 利古里亞語
 lt = 立陶宛語
 lv = 拉脱維亞語
+mai = 邁蒂利語
 mdf = 莫克沙語
 mg = 馬拉加斯語
 mhr = 馬里語（東部）
@@ -117,6 +118,7 @@ nn-NO = 新挪威語
 oc = 奧克語
 or = 奧里亞語
 pa-IN = 旁遮普語
+pap-AW = 帕皮阿門托語（阿魯巴）
 pl = 波蘭語
 ps = 普什圖語
 pt = 葡萄牙語
@@ -382,13 +384,17 @@ faq-what-cv-a =
     我哋唔止想收集被廣泛使用嘅語言，亦都想收集少有人講嘅語音樣本。一套多元語音資料集，用來幫助開發者、創業家，以及唔同社群縮窄科技上個鴻溝。除咗Common Voice嘅數據集外，我地仲打造緊一套名為Deep Speech嘅開源語音識別引擎。
 faq-why-important-q = 點解呢個好重要？
 faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
+faq-how-get-a = 我哋嘅資料集可到<datasetLink>Common Voice 數據集頁面</datasetLink>下載，本數據集使用<licenseLink>CC0</licenseLink>授權。閣下仲可以喺該頁面中下載其它幾套嘅數據集。
 faq-when-release2-q = Common Voice 幾時會發放其他語言嘅數據？
+faq-when-release2-a = 多語言版本嘅 Common Voice 數據集，目前正交由社群進行清理同埋打包。若閣下想幫我地新添語言到 Common Voice，請使用 <sentenceCollectorLink>語句收集工具</sentenceCollectorLink>來將語句加入到數據集，並到 <pontoonLink>Mozilla Pontoon</pontoonLink> 度將網站翻譯成該語言。當每種語言有超過 5000 條語句並獲審批後，就會正式加入 Common Voice。
 faq-why-mission-q = 點解Common Voice 係 Mozilla 嘅重點任務之一？
 faq-why-mission-a = Mozilla 致力於保持網路開放，令任何人都可使用。為咗達到呢個目標，我地要透過 Common Voice 噉樣嘅計劃嚟幫助網絡創作者。隨住採用語音技術嘅程式激增，我哋相信呢啲程式應該公平噉嚟服務所有使用者。噉樣意味住喺建設與測試語音科技時，需要滿足更多唔同腔調、年齡層等等嘅需求。Common Voice 將會成為一套人人可用嘅公眾資源，而且Mozilla 同埋全球開發者羣眾已將佢用喺專案開發當中。
 faq-what-cv-and-deepspeech-q = Common Voice 同 Deep Speech 有咩分別？
 faq-what-cv-and-deepspeech-a = Common Voice 能夠同 Mozilla 嘅開放原始碼語音識別引擎 Deep Speech 互補。初版嘅 Deep Speech 喺 2017 年 11 月發行，並持續發展。加埋 Common Voice 數據集，我地相信呢套開放原始碼語音辨識技術應該開放畀所有人使用，亦希望呢啲技術可以令開發者建設到新一輪嘅產品同埋服務。
 faq-is-goal-assistant-q = Common Voice 係咪志在建立一個語音助手？
 faq-is-goal-assistant-a = Common Voice 數據集嘅目標係令任何人都可以建造語音識別、説話者識別，或其他任何需要語音資料嘅應用程式。語音助理就是呢個數據集可以用嚟建造嘅應用之一。
+faq-do-want-native-q = 如果我唔係母語人士而且講野有口音，咁你地仲要唔要我把聲？
+faq-do-want-native-a = 當然，我哋特別想要閣下把聲音！Common Voice其中一個目標係盡可能收集各種口音，令到語音識別服務能夠適用到每個人。意味住非母語人士嘅貢獻尤其重要。
 faq-why-different-speakers-q = 點解每種語言需要咁多貢獻者呢？
 faq-why-different-speakers-a =
     大多數嘅語音數據庫嘅語音來源偏重某啲特定人口，令到結果偏向於<articleLink>男性以及中產階級</articleLink>。而喺呢啲訓練機械嘅數據之中，各種弱勢嘅口音以及方言往往同邊緣化嘅人群有關，同時好多機器亦好難理解女性嘅聲音。
@@ -413,6 +419,10 @@ faq-is-account-public-q = 我嘅賬戶資料係咪公開嘅？
 faq-how-privacy-q = 你係點同貢獻者保證佢哋貢獻嘅錄音片段都係匿名兼保密嘅呢？
 faq-how-privacy-a = 數據集中所有嘅錄音片段都唔會包含可識別個人嘅資訊。如果貢獻者喺個人檔案中提供咗相關資料，嗰啲資訊將會喺錄音片段合併成數據集並以供下載之前去識別化，而且唔會喺佢地嘅個人檔案首頁中公開。
 faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊“識別講者嘅身份”係咩解究呢?
+faq-what-determine-identity-a =
+    Common Voice 數據集係一份開放，可公開使用嘅資源。含有語音功能嘅應用程式可使用呢份資料嚟訓練程式。為咗保護貢獻者嘅安全，我哋要求所有下載 Common Voice 資料集嘅人確保貢獻者的隱私安全。
+    
+    所有語音片段中嘅個人識別資料已經被清除。當你下載數據集嗰陣，你須要同意唔會嘗試識別數據集當中嘅任何貢獻者。呢個代表你唔可以嘗試將數據集中嘅資訊，同貢獻者嘅個人資訊聯繫起嚟。但你可以將數據集中嘅唔同資訊互相連結埋，用嚟訓練語音識別、講話人識別等功能，或其他應用程式。
 faq-what-is-cv = Common Voice 係乜嘢？
 faq-using-cv = 使用 Common Voice
 faq-description = Common Voice 係 Mozilla 幫助教機器「真人點樣講嘢」嘅倡議嘅一部分。
@@ -428,6 +438,7 @@ about-speak = 講
 about-listen-queue = 聆聽隊列
 about-listen = 聽
 about-is-it-valid = 段錄音有冇效？
+about-is-it-valid-text = 當用户畀咗一票「啱」，段錄音會標做「有效」
 about-yes-votes = ≥ 2 票 「啱」
 about-yes-votes-text = 一個錄音片段必須先通過兩個唔同嘅用户驗證，先可以進入 Common Voice 數據集。
 about-no-votes = ≥ 2 票 「錯」
@@ -461,6 +472,7 @@ mycroft-secondary-description = 呢個係一套可以自由混搭、擴展、改
 
 glossary = 術語表
 localization = 本地化
+localization-explanation = 呢個係我地翻譯同套用去唔同嘅本地環境（語言）嘅過程。
 sentence-collection = 收集句子
 sentence-collection-explanation = 收集公眾領域嘅語句，或用公眾領域授權撰寫新語句。
 hours-recorded-explanation = 到目前為止我地收集到嘅錄音時數。
@@ -468,6 +480,7 @@ hours-validated-explanation = 每3位使用者當中，有2位使用者投下「
 sst = 語音轉文字
 sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
 de-identified = 去識別化
+de-identified-explanation = 喺打包做下載資料集時，貢獻者嘅個人資料會從其所貢獻嘅語音片段隱藏。
 
 ## Error pages
 
@@ -481,7 +494,7 @@ error-code = 錯誤 { $code }
 
 data-download-button = 下載 Common Voice 語音數據
 data-download-yes = 係
-data-download-deny = 非
+data-download-deny = 唔係
 data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
 data-download-modal = 閣下將會下載 <size>{ $size } GB</size> 嘅檔案，要下載嗎？
 data-subtitle = 我哋整緊套公開而人人用得嘅語音數據集，人人都可以用佢來訓練認得到聲嘅應用程式。
@@ -522,6 +535,7 @@ audio-format = 格式
 number-of-voices = 錄音人數
 splits = 語音特徵概況
 email-to-download = 寫低電郵嚟下載
+why-email = <b>點解需要電郵地址?</b>我哋可能會喺未來聯絡閣下，提供與數據集相關嘅新資訊。電郵可作為我哋聯絡閣下嘅方式。
 confirm-size = 閣下將開始一個<b>{ $size }</b>嘅下載項目
 size-gigabyte = 千兆字節
 size-megabyte = 兆字節
@@ -874,11 +888,12 @@ contribution-varying-pronunciations-example-1-explanation = [「銀行」第二�
 contribution-varying-pronunciations-example-2-title = 我有一支「簽」筆。
 contribution-varying-pronunciations-example-2-explanation = [喺邊一度嘅粵語入面，「鉛」同「簽」都係唔同音]
 contribution-background-noise-title = 背景嘈音
-contribution-background-noise-description-extended = 如果個錄音斷開咗或者有沙沙聲，除非啲文字可以完整聽得到，否則就要拒絕
+contribution-background-noise-description-extended = 如果個錄音斷開咗或者有沙沙聲，除非啲文字可以完整聽得到，否則就唔好批。
 contribution-background-noise-example-1-title = <strong>{ Sneeze }</strong>嗰啲三疊紀嘅<strong>{ cough }</strong>巨型恐龍
 contribution-background-noise-example-2-title = 嗰啲三疊紀嘅<strong>{ cough }</strong>恐龍
 contribution-background-noise-example-2-explanation = [部份文字聽唔到]
 contribution-background-noise-example-3-title = <strong>{ Crackle }</strong>嗰啲三疊紀嘅<strong>{ crackle }</strong>龍
 contribution-background-noise-example-3-explanation = [部份文字聽唔到]
 contribution-background-voices-title = 背景聲音
+contribution-background-voices-description-extended = 如果段錄音斷開咗，或者沙沙聲，除非啲字聽得清楚，否則唔好批。
 contribution-just-unsure-title = 單係唔確定？
