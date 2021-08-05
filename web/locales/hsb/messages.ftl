@@ -190,6 +190,7 @@ logout = Wotzjewić
 ## Home Page
 
 home-title = Projekt Common Voice je iniciatiwa Mozilla, kotraž ma pomhać, mašinam wučić, kak woprawdźići ludźo rěča.
+default-tagline = Mozilla Common Voice je iniciatiwa, kotraž ma pomhać, mašinam wučić, kak woprawdźići ludźo rěča.
 home-cta = Rěčće runjewon, dźěłajće tu sobu!
 wall-of-text-start = Hłós je přirodny, hłós je čłowjeski. Tohodla smy fascinowani, wužitnu hłosowu technologiju za naše mašiny wutworić. Ale, za wutworjenje hłosowych systemow je jara wulke mnóstwo hłosowych datow trěbne.
 wall-of-text-more-mobile = Najwjace datow wužiwane wot wulkich předewzaćow za wjetšinu ludźi přistupne njeje. Myslimy, zo to inowaciju znjemóžnja. Tohodla smy projekt Common Voice startowali, projekt, kotryž kóždemu spóznawanje hłosow spřistupnja.
