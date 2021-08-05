@@ -909,3 +909,5 @@ contribution-misreadings-title = Moñe’ẽ vai
 contribution-background-noise-title = Tyapu tapykuegua
 contribution-background-voices-title = Ñe’ẽ tapykuegua
 contribution-volume-title = Mbopuha
+see-more = <chevron></chevron>Ehechave
+see-less = <chevron></chevron>Ehecha’ive
