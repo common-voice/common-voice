@@ -190,6 +190,7 @@ logout = Odhlásiť sa
 ## Home Page
 
 home-title = Projekt Common Voice je iniciatíva Mozilly, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
+default-tagline = Mozilla Common Voice je iniciatíva, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
 home-cta = Hovorte a prispejte svojím hlasom tu!
 wall-of-text-start =
     Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči 
@@ -398,6 +399,10 @@ faq-what-cv-a =
     Technológia rozpoznávania hlasu je revolúciou v spôsobe, akým pracujeme so strojmi, ale v súčasnosti dostupné systémy sú drahé a proprietárne. Common Voice je súčasťou iniciatívy Mozilly, aby technológie rozpoznávania hlasu boli lepšie a dostupnejšie pre každého. Common Voice je masívna globálna databáza darovaných hlasov, ktorá umožňuje komukoľvek ľahko a rýchlo trénovať aplikácie podporujúce hlas, potenciálne v každom jazyku.
     
     Zhromažďujeme hlasové vzorky nielen pre najpoužívanejšie jazyky, ale aj pre jazyky s menšou populáciou hovoriacich. Publikovanie rôznorodého súboru hlasov umožní vývojárom, podnikateľom a komunitám aby túto medzeru riešili sami. Popri dátovom súbore Common Voice taktiež budujeme aj open source nástroj na rozpoznávanie reči s názvom Deep Speech.
+faq-what-cv-a-2 =
+    Technológia rozpoznávania hlasu prináša revolúciu v spôsobe interakcie so strojmi, ale v súčasnosti dostupné systémy sú drahé a proprietárne. Mozilla Common Voice je iniciatíva, ktorej cieľom je zlepšiť a sprístupniť technológie rozpoznávania hlasu pre každého. Common Voice je rozsiahla globálna databáza darovaných hlasov, ktorá umožňuje komukoľvek rýchlo a jednoducho trénovať aplikácie podporujúce hlas v potenciálne každom jazyku.
+    
+    Nezhromažďujeme len ukážky hlasu v široko hovorených jazykoch, ale aj v jazykoch s menšou populáciou rečníkov. Publikovanie rozmanitej množiny hlasov umožní vývojárom, podnikateľom a komunitám túto medzeru vyriešiť sami.
 faq-why-important-q = Prečo je to dôležité?
 faq-why-important-a =
     Reč je často najprirodzenejším spôsobom, akým navzájom komunikujeme, a hlasové technológie prinášajú toto pohodlie do našich počítačov a mobilných zariadení. Chceme umožniť vývojárom vybudovať úžasné aplikácie na rozpoznávanie hlasu, ako sú prekladatelia v reálnom čase a hlasom ovládaní digitálni asistenti. Ale práve teraz je väčšina hlasových dát potrebných na vybudovanie takýchto aplikácií drahá a proprietárna. Dúfame, že dátový súbor Common Voice poskytne vývojárom to, čo potrebujú na inováciu a sprístupnenie technológie reči v ich vlastnom jazyku.
@@ -456,6 +461,9 @@ about-subtitle = Common Voice je súčasťou iniciatívy Mozilly pomôcť učiť
 about-header-description =
     Oba tieto projekty sú súčasťou nášho úsilia o prekonanie priepasti v digitálnej reči. Technológie rozpoznávania hlasu dodávajú našim zariadeniam ľudský rozmer, ale vývojári potrebujú obrovské množstvo hlasových údajov, aby ich mohli zostaviť. V súčasnosti je väčšina týchto údajov drahá a súkromná.
     Chceme sprístupniť hlasové údaje verejne a zadarmo a zabezpečiť, aby údaje reprezentovali rozmanitosť skutočných ľudí. Spoločne môžeme zlepšiť rozpoznávanie hlasu pre všetkých.
+about-header-description-2 =
+    Tento projekt je snahou preklenúť priepasť v digitálnej reči. Technológie rozpoznávania hlasu prinášajú do našich zariadení ľudský rozmer, ale vývojári na ich vybudovanie potrebujú obrovské množstvo hlasových dát. V súčasnosti je väčšina týchto údajov drahá a proprietárna.
+    Chceme, aby boli hlasové údaje voľne a verejne dostupné, a takisto sa snažíme zaistiť, aby údaje reprezentovali rozmanitosť skutočných ľudí. Spolu dokážeme zlepšiť rozpoznávanie hlasu pre každého.
 how-does-it-work-title = Ako to funguje?
 how-does-it-work-text = Zhromažďujeme množstvo hlasov do veľkého otvoreného datasetu. Darujte svoj hlas, overte presnosť klipov iných ľudí a pomôžte tak vylepšiť súbor údajov.
 about-speak = Čítanie
