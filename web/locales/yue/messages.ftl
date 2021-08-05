@@ -362,7 +362,9 @@ faq-title = 常見問題
 faq-what-cv-q = Common voice 係乜嘢？
 faq-why-important-q = 點解呢個好重要？
 faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
+faq-why-mission-q = 點解Common Voice 係 Mozilla 嘅重點任務之一？
 faq-why-mission-a = Mozilla 致力於保持網路開放，令任何人都可使用。為咗達到呢個目標，我地要透過 Common Voice 噉樣嘅計劃嚟幫助網絡創作者。隨住採用語音技術嘅程式激增，我哋相信呢啲程式應該公平噉嚟服務所有使用者。噉樣意味住喺建設與測試語音科技時，需要滿足更多唔同腔調、年齡層等等嘅需求。Common Voice 將會成為一套人人可用嘅公眾資源，而且Mozilla 同埋全球開發者羣眾已將佢用喺專案開發當中。
+faq-what-cv-and-deepspeech-q = Common Voice 同 Deep Speech 有咩分別？
 faq-what-cv-and-deepspeech-a = Common Voice 能夠同 Mozilla 嘅開放原始碼語音識別引擎 Deep Speech 互補。初版嘅 Deep Speech 喺 2017 年 11 月發行，並持續發展。加埋 Common Voice 數據集，我地相信呢套開放原始碼語音辨識技術應該開放畀所有人使用，亦希望呢啲技術可以令開發者建設到新一輪嘅產品同埋服務。
 faq-is-goal-assistant-q = Common Voice 係咪志在建立一個語音助手？
 faq-is-goal-assistant-a = Common Voice 數據集嘅目標係令任何人都可以建造語音識別、説話者識別，或其他任何需要語音資料嘅應用程式。語音助理就是呢個數據集可以用嚟建造嘅應用之一。
@@ -487,6 +489,7 @@ audio-format = 格式
 number-of-voices = 錄音人數
 splits = 語音特徵概況
 email-to-download = 寫低電郵嚟下載
+confirm-size = 閣下將開始一個<b>{ $size }</b>嘅下載項目
 size-gigabyte = 千兆字節
 size-megabyte = 兆字節
 confirm-no-identify = <b>你同意</b>唔去嘗試識別 Common Voice 資料集内談話人士嘅個人身分
@@ -575,6 +578,7 @@ contribute-more =
     }
 record-cta = 開始錄音
 record-platform-not-supported = 唔好意思，你嘅平台暫時尚未支援。
+record-platform-not-supported-ios-non-safari = iOS 用戶，請使用 Safari瀏覽器以繼續錄製…
 record-must-allow-microphone = 你必須容許咪高峰存取權。
 record-no-mic-found = 未發現咪高峰。
 record-error-too-short = 段錄音太短喇。
@@ -582,9 +586,12 @@ record-error-too-long = 段錄音太長喇。
 record-error-too-quiet = 段錄音太靜喇。
 record-cancel = 取消重新錄音
 record-three-more-instruction = 仲有三個！
+record-last-instruction = <recordIcon></recordIcon>最後一個！
 review-tooltip = 喺度確認或者重錄片段
 share-clip = 分享你段錄音
 share-common-voice = 分享Common Voice
+review-instruction = 有需要時覆核並重新錄音
+record-submit-tooltip = { $actionType } 準備好就提交
 clips-uploaded = 已上載嘅錄音
 record-abort-title = 不如完成咗啲錄音先啦？
 record-abort-text = 如果而家離開，你會失去而家嘅進展
@@ -592,8 +599,13 @@ record-abort-submit = 提交錄音
 record-abort-continue = 完成錄音
 record-abort-delete = 退出並刪除錄音片段
 listen-instruction = { $actionType }<playIcon></playIcon>佢地講得準唔準？
+listen-again-instruction = 好嘢！<playIcon></playIcon> 準備好就可以再聽多次
+listen-last-time-instruction = <playIcon></playIcon> 最後一個！
+listen-empty-state = 呢個語言可以驗證嘅錄音已經驗晒啦⋯⋯
+speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
 speak-empty-state-cta = 貢獻句子
 record-button-label = 錄低你把聲
+share-title-new = <bold>幫我地</bold>揾多啲聲音
 keep-track-profile = 建立個人檔案，紀錄閣下嘅進度
 login-to-get-started = 登入或注冊嚟開始
 target-segment-first-card = 閣下正為我哋第一條目標細分群體貢獻錄音
@@ -756,6 +768,7 @@ demo-welcome-subheader = 你有冇興趣學多啲嘢，為呢一個計劃貢獻�
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice 係全球最大型嘅公共語音資料庫
 card-button-next = 下一個
 card-button-back = 返去
 demo-language-select-label = 瀏覽語言
@@ -765,14 +778,19 @@ demo-account = 帳戶
 
 ## Demo Account
 
+demo-account-card-header = 唔建立帳戶亦可貢獻，但如果有嘅話會更有幫助，下面話你知點解。
+demo-account-enter-email =
+    .label = 輸入你嘅電郵地址嚟轉送註冊鏈結
 demo-account-sign-up = 寄送註冊連結
 
 ## Demo Contribute
 
+demo-contribute-card-header = 準備好參與錄音，或者⋯⋯借一借對耳來用未？
 demo-listen-subtitle = 準備好貢獻未？
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = 個人儀表板會準時更新你同埋大衆嘅進度。
 demo-dashboard-card-body = 每次你提供、核實語音，你嘅進度都會喺該語言嘅面板度展示出嚟。係啊，你可以貢獻多過一隻語言。用面板去睇實你嘅戰績，睇下自己同埋其他人做成點樣，再定返個每日或者每週嘅目標吖。
 
 ## Validation criteria
@@ -782,4 +800,5 @@ contribution-criteria-link = 了解貢獻準則
 contribution-criteria-page-title = 貢獻準則
 contribution-for-example = 譬如
 contribution-misreadings-title = 錯讀
+contribution-misreadings-description = 聽緊錄音嘅时候，認真睇下啲字同錄音係咪完全一致；有少少錯就唔可以批准通過。<br />常見嘅錯誤包括：
 contribution-just-unsure-title = 單係唔確定？
