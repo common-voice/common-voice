@@ -120,6 +120,8 @@ pa-IN = 旁遮普語
 pl = 波蘭語
 ps = 普什圖語
 pt = 葡萄牙語
+rm-sursilv = 舒蕭凡羅馬什語
+rm-vallader = 羅曼什語
 ro = 羅馬尼亞語
 ru = 俄語
 rw = 盧旺達語
@@ -373,6 +375,10 @@ change-email-setings = 要更改電郵，請先撳登入身份，然後再撳設
 
 faq-title = 常見問題
 faq-what-cv-q = Common voice 係乜嘢？
+faq-what-cv-a =
+    語音識別技術喺度改變緊我地同機器互動嘅方法，但目前可用嘅系統唔單止貴，而且係專有技術。Mozilla 提出 Common Voice 作為改進語音識別技術，並將之普及到大眾嘅計畫嘅一部分。Common Voice 都係一套收集咗世界各地人所損贈語音嘅數據庫，希望有助所有人來又快又易噉訓練出可以識別任何語音功能嘅應用程式。¶
+    ¶
+    我哋唔止想收集被廣泛使用嘅語言，亦都想收集少有人講嘅語音樣本。一套多元語音資料集，用來幫助開發者、創業家，以及唔同社群縮窄科技上個鴻溝。除咗Common Voice嘅數據集外，我地仲打造緊一套名為Deep Speech嘅開源語音識別引擎。
 faq-why-important-q = 點解呢個好重要？
 faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
 faq-when-release2-q = Common Voice 幾時會發放其他語言嘅數據？
@@ -446,6 +452,7 @@ about-nav-get-involved = 參與
 mycroft-title = Mycroft Ai
 mycroft-subtitle = 人工智能
 mycroft-description = Mycroft 係全球第一套開放原始碼嘅語音助理，無論喺電腦、汽車、Raspberry Pi 定任何地方都用得到。
+mycroft-secondary-description = 呢個係一套可以自由混搭、擴展、改進嘅開放原始碼軟件。Mycroft可以用於各種情景，譬如科學專案、企業應用程式等。
 
 ## Glossary
 
@@ -453,6 +460,8 @@ glossary = 術語表
 localization = 本地化
 sentence-collection = 收集句子
 sentence-collection-explanation = 收集公眾領域嘅語句，或用公眾領域授權撰寫新語句。
+hours-recorded-explanation = 到目前為止我地收集到嘅錄音時數。
+hours-validated-explanation = 每3位使用者當中，有2位使用者投下「啱」嘅錄音時數。呢個就係成個計劃一萬小時目標嘅進度。
 sst = 語音轉文字
 sst-explanation = 語音轉文字技術係將聲音數據轉化成文字。
 de-identified = 去識別化
@@ -460,7 +469,9 @@ de-identified = 去識別化
 ## Error pages
 
 error-title-404 = 我哋揾唔到你想去嘅頁面
+error-content-404 = 我哋嘅<homepageLink>首頁</homepageLink>可能會幫到你？想問問題，請加入<matrixLink>Matrix 群組聊天室</matrixLink>，網站問題可以交畀<githubLink>GitHub</githubLink>，或去一去我地嘅<discourseLink>Discourse 論壇</discourseLink>話畀我地知。
 error-title-503 = 我哋遇上意外嘅系統停機時段
+error-content-503 = 網站將會盡快恢復作業。請到我地嘅 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上嘅網站報告問題，或到 <discourseLink>Discourse 討論區</discourseLink>報俾我地，或者瀏覽最新資訊。
 error-code = 錯誤 { $code }
 
 ## Data
@@ -569,6 +580,7 @@ other-language = 其他語言
 ## Languages Overview
 
 language-section-in-progress = 準備緊
+language-section-in-progress-new-description = 呢啲語言現在處於社群開發中，進度條展示緊每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>以及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的進度。
 language-section-launched = 已啟動
 language-section-launched-description = 以下「已上線」嘅語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且都已經<sentenceCollectionGlossaryLink>收集咗足夠多句子</sentenceCollectionGlossaryLink>令大家可以用<speakLink>講話</speakLink>及<listenLink>聆聽</listenLink>嘅方式貢獻。
 languages-show-more = 睇多啲
@@ -797,6 +809,7 @@ demo-welcome-subheader = 你有冇興趣學多啲嘢，為呢一個計劃貢獻�
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice 係全球最大型嘅公共語音資料庫
+demo-language-select-card-body = 受惠於全球超過25.9萬人為50幾種唔同語言嘅無私貢獻，我哋將會利用呢啲資料嚟訓練有語音功能嘅應用程式，令佢哋可以更準確噉理解人聲。
 card-button-next = 下一個
 card-button-back = 返去
 demo-language-select-label = 瀏覽語言
@@ -815,6 +828,7 @@ demo-account-sign-up = 寄送註冊連結
 ## Demo Contribute
 
 demo-contribute-card-header = 準備好參與錄音，或者⋯⋯借一借對耳來用未？
+demo-contribute-card-body-v2 = 而家你知多咗 Common Voice 嘅資訊喇，有冇興趣來試下？請你撳一撳個咪來大聲朗讀句子。<br/><br/>如果你想幫手審核其他人嘅錄音，請你撳一撳個播放圖示來確認段錄音同段文字係咪相同。
 demo-listen-subtitle = 準備好貢獻未？
 
 ## Demo Dashboard
