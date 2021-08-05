@@ -21,11 +21,11 @@ const WhyCommonVoice: React.ComponentType<{}> = () => {
               <h1 />
             </Localized>
 
-            <Localized id="about-subtitle">
+            <Localized id="default-tagline">
               <h2 />
             </Localized>
 
-            <Localized id="about-header-description">
+            <Localized id="about-header-description-2">
               <h2 className="header-description" />
             </Localized>
           </div>
