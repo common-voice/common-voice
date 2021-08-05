@@ -919,6 +919,7 @@ contribution-misreadings-example-2-explanation = [Devrait être « Les » dino
 contribution-misreadings-example-3-title = Les dinosaures géants du Tria-.
 contribution-misreadings-example-3-explanation = [Enregistrement coupé avant la fin du dernier mot]
 contribution-misreadings-example-4-title = Les dinosaures géants du Trias. Oui.
+contribution-misreadings-example-4-explanation = [Plus que le texte requis a été enregistré]
 contribution-misreadings-example-5-title = Surement, il fera beau.
 contribution-misreadings-example-5-explanation = [Contenu sans rapport]
 contribution-misreadings-example-6-title = Surment, il fera beau.
