@@ -348,6 +348,14 @@ faq-what-cv-q = Common voice 係乜嘢？
 faq-why-important-q = 點解呢個好重要？
 faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
 faq-why-different-speakers-q = 點解每種語言需要咁多貢獻者呢？
+faq-how-calc-hours-q = Common Voice 係點計啲鐘數嘅呢？
+faq-how-calc-hours-a = 我哋靠估計每段錄音嘅平均長度來計算時數，然後乘以所有語言嘅總錄音數量。
+faq-where-src-from-2-q = 呢段原始文本係邊度來嘅？
+faq-where-src-from-2-a =
+    我哋嘅源文本有來自貢獻者嘅原始貢獻，仲有公共領域嘅影片劇本，例如 <italic>莫負少年頭</italic> 嘅對白腳本。
+    
+    閣下可到呢個 <githubLink>GitHub 資料夾</githubLink>來檢視我哋嘅來源文本。
+faq-why-not-ask-read-q = 不如嗌多啲人來用各種語言朗讀啲書或者維基百科入面嘅文章？
 faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊“識別講者嘅身份”係咩解究呢?
 faq-what-is-cv = Common Voice 係乜嘢？
 faq-using-cv = 使用 Common Voice
