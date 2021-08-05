@@ -51,7 +51,7 @@ export default function Landing() {
 
       <section className="about-section">
         <div className="inner">
-          <Localized id="home-title">
+          <Localized id="default-tagline">
             <h1 />
           </Localized>
 
