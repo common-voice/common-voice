@@ -439,6 +439,9 @@ about-subtitle = Common Voice es parte del initiativa de Mozilla pro adjutar a i
 about-header-description =
     Ambe iste projectos face parte de nostre effortios pro construer un ponte super le division digital vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores require un enorme quantitate de datos vocal pro crear los. Actualmente, le major parte de ille datos es costose e proprietari.
     Nos vole render le datos vocal liberemente e publicamente disponibile e assecurar que le datos representa le diversitate del personas real. Insimul nos pote render le recognition vocal melior pro totes.
+about-header-description-2 =
+    Iste projecto es un effortio pro construer un ponte super le division digital vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores require un enorme quantitate de datos vocal pro crear los. Actualmente, le major parte de ille datos es costose e proprietari.
+    Nos vole render le datos vocal liberemente e publicamente disponibile e assecurar que le datos representa le diversitate del personas real. Insimul nos pote render le recognition vocal melior pro totes.
 how-does-it-work-title = Como functiona illo?
 how-does-it-work-text = Nos face un grande collecta open-source de voces donate. Dona tu voce, valida le precision del retalios vocal del alteres, rende melior le collection de datos pro totes!
 about-speak = Parlar
