@@ -347,7 +347,20 @@ faq-title = 常見問題
 faq-what-cv-q = Common voice 係乜嘢？
 faq-why-important-q = 點解呢個好重要？
 faq-how-get-q = 我可以點樣可以攞到 Common Voice 嘅數據？
+faq-why-mission-a = Mozilla 致力於保持網路開放，令任何人都可使用。為咗達到呢個目標，我地要透過 Common Voice 噉樣嘅計劃嚟幫助網絡創作者。隨住採用語音技術嘅程式激增，我哋相信呢啲程式應該公平噉嚟服務所有使用者。噉樣意味住喺建設與測試語音科技時，需要滿足更多唔同腔調、年齡層等等嘅需求。Common Voice 將會成為一套人人可用嘅公眾資源，而且Mozilla 同埋全球開發者羣眾已將佢用喺專案開發當中。
+faq-what-cv-and-deepspeech-a = Common Voice 能夠同 Mozilla 嘅開放原始碼語音識別引擎 Deep Speech 互補。初版嘅 Deep Speech 喺 2017 年 11 月發行，並持續發展。加埋 Common Voice 數據集，我地相信呢套開放原始碼語音辨識技術應該開放畀所有人使用，亦希望呢啲技術可以令開發者建設到新一輪嘅產品同埋服務。
+faq-is-goal-assistant-q = Common Voice 係咪志在建立一個語音助手？
+faq-is-goal-assistant-a = Common Voice 數據集嘅目標係令任何人都可以建造語音識別、説話者識別，或其他任何需要語音資料嘅應用程式。語音助理就是呢個數據集可以用嚟建造嘅應用之一。
 faq-why-different-speakers-q = 點解每種語言需要咁多貢獻者呢？
+faq-why-different-speakers-a =
+    大多數嘅語音數據庫嘅語音來源偏重某啲特定人口，令到結果偏向於<articleLink>男性以及中產階級</articleLink>。而喺呢啲訓練機械嘅數據之中，各種弱勢嘅口音以及方言往往同邊緣化嘅人群有關，同時好多機器亦好難理解女性嘅聲音。
+    呢個就係點解我哋嘅語音數據庫應該海納百川，收集各種聲音！
+faq-why-my-lang-q = 點解仲未有我嘅語言嘅？
+faq-why-my-lang-new-a = Mozilla 唔會特別偏好邊種語言。相反而然 Common Voice 係一個純社群發起嘅計劃，需要<multilangLink>幾個步驟先可以新增語言</multilangLink>並開始收集語音片段。首先，需要完成翻譯 Common Voice 網站，噉樣社群成員先得用自己嘅語言進行貢獻。次之，我地需要大量嘅無版權語句，畀大家可以朗讀出嚟。當兩個條件都滿足之後， Common Voice 即可「上線」，畀大家開始錄音，同埋驗證其他人所錄低嘅片段。如果你想協助準備畀新語言上線，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫手。
+faq-what-quality-q = 錄音品質要到咩等級，先用得喺數據集入面？
+faq-what-quality-a = 我哋希望 Common Voice 數據集能夠反映出語音轉文字引擎會喺現實環境入面聽到嘅聲音，所以我哋希望能夠收集各種環境下同埋唔同錄音品質嘅片段。除咗多元嘅講者群體，如果呢個數據集包含到各種語音品質嘅片段，就可以令語音轉文字引擎處理到各種現實環境下嘅狀況，例如背景中有人喺度講嘢，或者有車輛嘅噪音。只要閣下嘅片段可以足夠俾人聽得明，即可收錄到數據集入面。
+faq-why-10k-hours-q = 點解每個語言以收集10,000個驗證時數為目標？
+faq-why-10k-hours-a = 呢個大約係訓練一個語音轉文字系統嘅所需時數。
 faq-how-calc-hours-q = Common Voice 係點計啲鐘數嘅呢？
 faq-how-calc-hours-a = 我哋靠估計每段錄音嘅平均長度來計算時數，然後乘以所有語言嘅總錄音數量。
 faq-where-src-from-2-q = 呢段原始文本係邊度來嘅？
@@ -360,6 +373,7 @@ faq-why-not-ask-read-a = 為咗令 Common Voice 數據集發揮最大效益，�
 faq-why-account-q = 我點解要注冊帳戶呢？
 faq-is-account-public-q = 我嘅賬戶資料係咪公開嘅？
 faq-how-privacy-q = 你係點同貢獻者保證佢哋貢獻嘅錄音片段都係匿名兼保密嘅呢？
+faq-how-privacy-a = 數據集中所有嘅錄音片段都唔會包含可識別個人嘅資訊。如果貢獻者喺個人檔案中提供咗相關資料，嗰啲資訊將會喺錄音片段合併成數據集並以供下載之前去識別化，而且唔會喺佢地嘅個人檔案首頁中公開。
 faq-what-determine-identity-q = 佢話我無法喺Common Voice 數據集入邊“識別講者嘅身份”係咩解究呢?
 faq-what-is-cv = Common Voice 係乜嘢？
 faq-using-cv = 使用 Common Voice
@@ -375,7 +389,11 @@ about-listen-queue = 聆聽隊列
 about-listen = 聽
 about-is-it-valid = 段錄音有冇效？
 about-yes-votes = ≥ 2 票 「啱」
+about-yes-votes-text = 一個錄音片段必須先通過兩個唔同嘅用户驗證，先可以進入 Common Voice 數據集。
 about-no-votes = ≥ 2 票 「錯」
+about-no-votes-text = 如果個用户投咗「錯」票，錄音片段就會返到隊列再畀其他人驗證。如果第二次都係畀人打成錯嘅，個片段就會進入垃圾桶。
+about-dataset-new = Common Voice 數據集
+about-dataset-new-text = Common Voice 數據集有幾十萬條語音樣本，可以用嚟幫開發者建造語音識別工具。
 about-clip-graveyard = 錄音垃圾桶
 about-clip-graveyard-text = 垃圾桶度有無法進入 Common Voice 數據集嘅語音片段。同數據集一樣，垃圾桶嘅內容亦可下載。
 about-partners = 合作夥伴
@@ -429,9 +447,14 @@ terms-disagree = 我唔同意
 review-aborted = 上載中斷咗，你想唔想刪除你嘅錄音？
 review-submit-title = 覆核並提交
 review-recording = 覆核
+review-rerecord = 重新錄音
+review-cancel = 取消提交
+review-keep-recordings = 保存錄音
+review-delete-recordings = 刪除我嘅錄音
 
 ## Datasets Page
 
+language = 語言
 # File size in gigabytes
 size = 數據庫大細
 validated-hr-total = 已驗證錄音（小時）
@@ -510,7 +533,12 @@ action-tap = 敲
 contribute = 貢獻
 listen = 聽
 skip = 跳過
+clips-with-count-pluralized =
+    { $count ->
+       *[one] 片段
+    }
 goal-help-recording = 閣下已幫助 Common Voice 完成每日 { $goalValue } 錄音目標嘅<goalPercentage></goalPercentage>！
+goal-help-validation = 閣下已幫助 Common Voice 達到我哋每日 { $goalValue } 驗證目標嘅 <goalPercentage></goalPercentage>！
 record-cta = 開始錄音
 record-must-allow-microphone = 你必須容許咪高峰存取權。
 record-no-mic-found = 未發現咪高峰。
@@ -519,6 +547,7 @@ record-error-too-long = 段錄音太長喇。
 record-error-too-quiet = 段錄音太靜喇。
 record-cancel = 取消重新錄音
 record-three-more-instruction = 仲有三個！
+review-tooltip = 喺度確認或者重錄片段
 share-clip = 分享你段錄音
 share-common-voice = 分享Common Voice
 clips-uploaded = 已上載嘅錄音
@@ -530,7 +559,11 @@ record-abort-delete = 退出並刪除錄音片段
 listen-instruction = { $actionType }<playIcon></playIcon>佢地講得準唔準？
 speak-empty-state-cta = 貢獻句子
 record-button-label = 錄低你把聲
+keep-track-profile = 建立個人檔案，紀錄閣下嘅進度
 login-to-get-started = 登入或注冊嚟開始
+target-segment-first-card = 閣下正為我哋第一條目標細分群體貢獻錄音
+target-segment-generic-card = 你現正貢獻緊錄音畀一個目標細分群體
+target-segment-first-banner = 幫 Common Voice 創立 { $locale } 嘅第一個目標細分群體
 target-segment-add-voice = 加入你嘅聲音
 target-segment-learn-more = 了解更多
 
@@ -594,8 +627,32 @@ pro-difficulty = 專業
 want-to-continue = 你想唔想繼續？
 finish-editing = 編輯完先？
 set-a-goal = 訂立目標
+cant-decide = 決定唔到？
+activity-needed-calculation-plural =
+    假如有 { NUMBER($people) ->
+       *[other] { $people } 個人
+    }每日都錄到{ NUMBER($clipsPerDay) ->
+       *[other] { $clipsPerDay } 條片
+    }，就可以喺 { NUMBER($periodMonths) ->
+       *[other] { $periodMonths } 個月
+    }內達到{ NUMBER($totalHours) ->
+       *[other] { $totalHours } 個鐘嘅
+    }錄音目標。
+how-many-per-day = 好啊！每日錄幾多段音？
+how-many-a-week = 好啊！每個禮拜要錄幾多段音？
+which-goal-type = 閣下想淨係講嘢、聽嘢，定係想又聽又講？
+n-clips-pluralized =
+    { NUMBER($count) ->
+       *[other] { $count }錄音片段
+    }
+confirm-goal = 確認目標
+goal-interval-weekly = 每週
 share-goal-type-speak = 講
 share-goal-type-listen = 聆聽
+share-goal-type-both = 又聽又講
+weekly-goal-created = 成功訂立咗閣下嘅每週目標
+daily-goal-created = 成功訂立咗閣下嘅每日目標
+return-to-edit-goal = 你可以隨時返返嚟呢度編輯目標。
 share-goal = 分享我嘅目標
 
 ## Profile Delete
@@ -606,6 +663,7 @@ profile-form-delete = 刪除個人檔案
 
 ## Landing
 
+welcome-staff = 歡迎 { $company } 嘅員工！
 login-company = 登入 / 注冊  { $company } 電郵
 read-more-about = 去關於我哋嘅頁面瞭解更多
 
@@ -615,6 +673,7 @@ demo-get-started = 我地開始啦
 
 ## Demo Datasets
 
+card-button-next = 下一個
 card-button-back = 返去
 demo-language-select-label = 瀏覽語言
 demo-eofy-header = 2019 年尾版
