@@ -113,6 +113,7 @@ nn-NO = 新挪威語
 oc = 奧克語
 pa-IN = 旁遮普語
 pl = 波蘭語
+ps = 普什圖語
 pt = 葡萄牙語
 ro = 羅馬尼亞語
 ru = 俄語
@@ -121,6 +122,7 @@ sc = 薩丁尼亞語
 scn = 西西里語
 so = 索馬里語
 sv-SE = 瑞典語
+sw = 斯瓦希里語
 ta = 泰米爾語
 th = 泰語
 tr = 土耳其語
@@ -579,14 +581,18 @@ report-grammar-or-spelling-detail = 呢句有文法或串法錯誤。
 report-different-language = 另一種語言
 report-different-language-detail = 呢句係另一種語言嘅句子。
 report-difficult-pronounce = 好難發音
+report-difficult-pronounce-detail = 句野含有一啲好難閲讀同發音嘅字。
 report-offensive-speech = 冒犯性言論
+report-offensive-speech-detail = 呢個片段中有唔尊重人哋或冒犯性語言。
 report-other-comment =
     .placeholder = 註解
+success = 成功
 continue = 繼續
 report-success = 成功送出報告
 
 ## Goals
 
+streaks = Streaks
 days =
     { $count ->
        *[one] 日
@@ -605,6 +611,10 @@ validations =
 your-languages = 你嘅語言
 toward-next-goal = 向住下一個目標
 goal-reached = 目標已經達到
+clips-you-recorded = 閣下錄製嘅片段
+clips-you-validated = 閣下驗證咗嘅錄音
+todays-recorded-progress = 今日 Common Voice 錄音片段嘅進度
+todays-validated-progress = 今日 Common Voice 驗證片段嘅進度
 stats = 統計資料
 awards = 獎勵
 you = 閣下
@@ -613,19 +623,38 @@ contribution-activity = 貢獻記錄
 top-contributors = 主要貢獻者
 recorded-clips = 已錄片段
 validated-clips = 已驗證片段
+total-approved = 總批准數
 overall-accuracy = 整體準確度
+set-visibility = 公開/隱藏個人檔案
+visibility-explainer = 用該選項喺排行榜上高公開/隱藏個人檔案。喺「隱藏」狀態時，閣下嘅進度得自己睇到，照片、用戶名稱、貢獻進度等均唔會出現喺排行榜上高。注意喺改變設定 { $minutes } 分鐘之後，排行榜設定先會生效。
 show-ranking = 顯示我嘅排名
 
 ## Custom Goals
 
+get-started-goals = 訂立目標，開始貢獻
+create-custom-goal = 訂立個人目標
+goal-type = 閣下想要建立點樣嘅目標？
+both-speak-and-listen = 兩樣都做
+both-speak-and-listen-long = 兩樣都做 (又聽又講)
 daily-goal = 每日目標
 weekly-goal = 每周目標
 easy-difficulty = 容易
 average-difficulty = 一般
 difficult-difficulty = 難
 pro-difficulty = 專業
+lose-goal-progress-warning = 編輯目標後，可能會失去現有進度。
 want-to-continue = 你想唔想繼續？
 finish-editing = 編輯完先？
+lose-changes-warning = 而家離開將唔會儲存你嘅變更
+build-custom-goal = 度身訂做目標
+help-reach-hours-pluralized =
+    建立一個幫{ $language }達到{ NUMBER($hours) ->
+       *[other] { $hours } 小時
+    }嘅個人目標
+help-reach-hours-general-pluralized =
+    建立一個幫 Common Voice 嘅任何一種語言達到{ NUMBER($hours) ->
+       *[other] { $hours } 小時
+    }嘅個人目標
 set-a-goal = 訂立目標
 cant-decide = 決定唔到？
 activity-needed-calculation-plural =
@@ -641,35 +670,56 @@ activity-needed-calculation-plural =
 how-many-per-day = 好啊！每日錄幾多段音？
 how-many-a-week = 好啊！每個禮拜要錄幾多段音？
 which-goal-type = 閣下想淨係講嘢、聽嘢，定係想又聽又講？
+receiving-emails-info = 你目前選擇接收包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
+not-receiving-emails-info = 你目前選擇 <bold>唔接收</bold> 包括目標提醒、進度更新、及 Common Voice 電子報嘅電郵。
 n-clips-pluralized =
     { NUMBER($count) ->
        *[other] { $count }錄音片段
     }
+help-share-goal = 幫我哋揾更多人參與錄音，分享閣下嘅目標
 confirm-goal = 確認目標
 goal-interval-weekly = 每週
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = 分享閣下嘅每日 { $type } 目標: { $count } 片段
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = 分享閣下嘅每週 { $type } 目標: { $count } 片段
 share-goal-type-speak = 講
 share-goal-type-listen = 聆聽
 share-goal-type-both = 又聽又講
+# LINK will be replaced with the current URL
+goal-share-text = 我啱啱訂立咗貢獻廣東話錄音俾 #CommonVoice 嘅目標，你都一齊來加入，幫機器學講純正嘅廣東話啦。{ $link }
 weekly-goal-created = 成功訂立咗閣下嘅每週目標
 daily-goal-created = 成功訂立咗閣下嘅每日目標
+track-progress = 可以在此追蹤進度，或前往統計頁面。
 return-to-edit-goal = 你可以隨時返返嚟呢度編輯目標。
 share-goal = 分享我嘅目標
 
 ## Profile Delete
 
+delete-q = 你想刪除埋你嘅所有錄音，定係想將錄音保留喺 Common Voice 嘅數據集中？
 keep = 保留
 remove = 移除
+keep-info = 閣下嘅錄音會以匿名的形式保留喺 Common Voice 嘅數據集。當閣下刪除咗個人檔案後，就唔能夠再從數據集中刪除錄音。
+remove-info = 我哋將會審核你從數據集中刪除錄音嘅請求。如果你嘅請求獲得批准，我哋將會聯絡已下載數據集嘅使用者，並請佢哋都刪除你嘅錄音。
+why-delete-recordings =
+    學術界、小企業與語音識別愛好者會使用 Common Voice 嘅錄音片段嚟幫助訓練、發展語音模型等公共資源。
+    
+    可唔可以話畀我哋知你點解想刪除錄音片段？
 profile-form-delete = 刪除個人檔案
 
 ## Landing
 
 welcome-staff = 歡迎 { $company } 嘅員工！
+help-contribute = 你可以透過創立一個 Common Voice 帳户並貢獻錄音，來協助我哋建立一個多元、開放源碼嘅數據集。
 login-company = 登入 / 注冊  { $company } 電郵
+profile-not-required = 唔成立個人檔案都可以貢獻，但如果有嘅話會更有幫助，下面話你知點解。
 read-more-about = 去關於我哋嘅頁面瞭解更多
 
 ## DemoLayout
 
 demo-get-started = 我地開始啦
+demo-welcome = 歡迎使用 Common Voice
+demo-welcome-subheader = 你有冇興趣學多啲嘢，為呢一個計劃貢獻？
 
 ## Demo Datasets
 
