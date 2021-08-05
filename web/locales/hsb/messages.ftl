@@ -392,7 +392,7 @@ faq-what-cv-a = Technologija hłosoweho spóznaća wašnje rewolucionuje, na kot
 faq-what-cv-a-2 =
     Technologija hłosoweho spóznaća wašnje rewolucionuje, na kotrež z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Mozilla Common Voice je iniciatiwa, technologije hłosoweho spóznaće polěpšić a bóle přistupne činić. Common Voice je hoberska globalna datowa banka darjenych hłosow, kotraž kóždemu zmóžnja, přez hłosy wodźene nałoženja w kóždej rěči spěšnje a lochko trenować.
     
-    Njehromadźimy jenož hłosowe přikłady w daloko rozšěrjenych rěčach, ale tež w tajkich z mjenje rěčnikami. Wozjewjenje wšelakoreje datoweje sadźby wuwiwarjow, předewzaćelow a zhomadźenstwa wukmani, tutu dźěru sami wupjelnić.
+    Njehromadźimy jenož hłosowe přikłady w daloko rozšěrjenych rěčach, ale tež w tajkich z mjenje rěčnikami. Wozjewjenje wšelakoreje datoweje sadźby hłosow wuwiwarjow, předewzaćelow a zhomadźenstwa wukmani, tutu dźěru sami wupjelnić.
 faq-why-important-q = Čehodla je wažne?
 faq-why-important-a =
     Rěčenje je husto najpřirodniše wašnje, na kotrež jedyn z druhim komunikujemy a hłosowe technologije přinjesu tutu lěpšinu k našim ličakam a mobilnym gratam. Chcemy wuwiwarjow wukmanić, wulkotne nałoženja hłosoweho spóznaća  wuwiwać, na přikład přełožowaki, kotrež we woprawdźitym času přełožuja a přez hłós wodźene digitalne asistenty. Ale tuchwilu je najwjace hłosowych datow, kotrež su trěbne za wuwiwanje tajkich nałoženjow, su drohe a proprietarne. Nadźijamy so, zo datowa sadźba Common Voice wuwiwarjam da, štož trjebaja, zo bychu rěčensku technologiju w swojej rěči wobnowili a wutworili.
