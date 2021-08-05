@@ -444,6 +444,7 @@ de-identified = 去識別化
 ## Error pages
 
 error-title-404 = 我哋揾唔到你想去嘅頁面
+error-title-503 = 我哋遇上意外嘅系統停機時段
 error-code = 錯誤 { $code }
 
 ## Data
@@ -453,13 +454,17 @@ data-download-yes = 係
 data-download-deny = 非
 data-subtitle = 我哋整緊套公開而人人用得嘅語音數據集，人人都可以用佢來訓練認得到聲嘅應用程式。
 data-explanatory-text = 我地相信，大型而公開可用嘅語音數據集能夠促進語音機器學習科技嘅創新，以及健康嘅商業競爭。呢個係一個全球運動，我地邀請任何人士參與。我地嘅目標係令語音技術能夠更有包容性，反映出世界各地語音嘅多樣性。
+data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
+data-other-title = 其他語音數據集…
 data-other-goto = 往 { $name }
 data-other-download = 下載數據
 data-bundle-button = 下載打包數據集
+data-bundle-description = Common Voice 數據，以及上面列出嘅所有其他語音數據集。
 release-version = 版本
 dataset-date = 數據庫日期
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
+data-download-singleword-title = 下載單字目標分段
 terms-agree = 我同意
 terms-disagree = 我唔同意
 review-aborted = 上載中斷咗，你想唔想刪除你嘅錄音？
@@ -484,6 +489,7 @@ splits = 語音特徵概況
 email-to-download = 寫低電郵嚟下載
 size-gigabyte = 千兆字節
 size-megabyte = 兆字節
+confirm-no-identify = <b>你同意</b>唔去嘗試識別 Common Voice 資料集内談話人士嘅個人身分
 download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 錄音時數
@@ -493,6 +499,9 @@ get-started-speech = 語音識辨新手入門
 other-datasets = 其他語音數據集
 feedback-q = 有意見反饋？
 data-other-ted-name = TED-LIUM 語料庫
+data-other-voxforge-description = VoxForge 嘅成立，係用來收集被抄寫嘅對話內容，畀自由與開放源碼嘅語音辨識引擎使用。
+data-other-tatoeba-description = Tatoeba 係一套用於語言學習嘅大型數據庫，當中包含咗各種句子、翻譯、以及錄音。呢個下載項目包含咗其社群所錄低嘅英語語音。
+your-feedback = 閣下有冇任何可以令 Common Voice 資料集變得更好嘅諗法？歡迎到 Discourse 討論區話畀我哋知
 go-discourse = 去 Discourse 討論區
 missing-language = 數據集入面冇你嘅語言？請去語言版要求增添語言。
 go-languages-page = 去語言版
@@ -526,6 +535,8 @@ contact-required = *必填欄位
 request-language-title = 語言申請
 request-language-form-language =
     .label = 語言
+request-language-success-title = 已成功提交語言申請，多謝。
+request-language-success-content = 我哋會盡快同你聯絡，同你提供更多有關點樣增添語言到 Common Voice 入邊嘅資訊。
 select-language = 揀一種語言…
 other-language = 其他語言
 
@@ -551,13 +562,19 @@ action-tap = 敲
 contribute = 貢獻
 listen = 聽
 skip = 跳過
+shortcuts = 捷徑
 clips-with-count-pluralized =
     { $count ->
        *[one] 片段
     }
 goal-help-recording = 閣下已幫助 Common Voice 完成每日 { $goalValue } 錄音目標嘅<goalPercentage></goalPercentage>！
 goal-help-validation = 閣下已幫助 Common Voice 達到我哋每日 { $goalValue } 驗證目標嘅 <goalPercentage></goalPercentage>！
+contribute-more =
+    { $count ->
+       *[one] 準備好做多{ $count } 個未？
+    }
 record-cta = 開始錄音
+record-platform-not-supported = 唔好意思，你嘅平台暫時尚未支援。
 record-must-allow-microphone = 你必須容許咪高峰存取權。
 record-no-mic-found = 未發現咪高峰。
 record-error-too-short = 段錄音太短喇。
