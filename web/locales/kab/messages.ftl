@@ -896,8 +896,10 @@ demo-dashboard-card-body = Di yal tukkist n taɣect akked yal tukkist n umeslaw 
 ## Validation criteria
 
 contribution-criteria-nav = Kriteriya
+contribution-criteria-link = Gzu isefranen n uttekki
 contribution-criteria-page-title = Attekki n Kriteriya
 contribution-for-example = amedya
+contribution-misreadings-description-extended-list-2 = Ixuṣṣ
 contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
 contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
 contribution-misreadings-example-3-explanation = [Asekles yettwagzem send ad yemmed wawal aneggaru]
