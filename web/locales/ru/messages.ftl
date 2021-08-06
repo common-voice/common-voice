@@ -914,3 +914,10 @@ demo-dashboard-card-body = После каждой загрузки голосо
 ## Validation criteria
 
 contribution-criteria-nav = Критерии
+contribution-for-example = например
+contribution-background-noise-title = Фоновый шум
+contribution-background-voices-title = Фоновые голоса
+contribution-volume-title = Громкость
+contribution-just-unsure-title = Не уверены?
+see-more = <chevron></chevron>Более подробно
+see-less = <chevron></chevron>Менее подробно
