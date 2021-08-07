@@ -190,6 +190,7 @@ logout = Đăng xuất
 ## Home Page
 
 home-title = Common Voice là ý tưởng của Mozilla nhằm để dạy cho các phần mềm cách nói chuyện của con người.
+default-tagline = Mozilla Common Voice là một sáng kiến giúp đào tạo cho máy móc cách người thật nói.
 home-cta = Hãy lên tiếng, đóng góp giọng nói ở đây!
 wall-of-text-start = Giọng nói là tự nhiên, giọng nói là con người. Đó là lý do chúng tôi hứng thú với việc tạo ra công nghệ giọng nói có thể sử dụng được cho các phần mềm. Nhưng để tạo ra hệ thống này thì cần có một lượng lớn dữ liệu các giọng nói.
 wall-of-text-more-mobile = Phần lớn các dữ liệu được sử dụng bởi các công ty lớn thì không có sẵn cho đa số mọi người. Chúng tôi nghĩ rằng điều này làm cản trở sự sáng tạo. Vì vậy chúng tôi ra mắt dự án Common Voice, một dự án giúp mọi người tiếp cận được công nghệ nhận dạng giọng nói.
@@ -379,6 +380,10 @@ faq-what-cv-a =
     Công nghệ nhận dạng giọng nói đang cách mạng hóa cách chúng ta tương tác với máy móc, nhưng các hệ thống hiện có là đắt tiền và độc quyền. Common Voice là một phần của sáng kiến Mozilla, giúp mọi công nghệ nhận dạng giọng nói tốt hơn và dễ tiếp cận hơn cho mọi người. Common Voice là một cơ sở dữ liệu toàn cầu khổng lồ về các giọng nói được quyên tặng cho phép mọi người nhanh chóng và dễ dàng đào tạo các ứng dụng hỗ trợ giọng nói bằng mọi ngôn ngữ.
     
     Chúng tôi không chỉ thu thập các mẫu giọng nói bằng các ngôn ngữ được sử dụng rộng rãi mà còn ở những người có số lượng người nói nhỏ hơn. Xuất bản một tập dữ liệu đa dạng về tiếng nói sẽ trao quyền cho các nhà phát triển, doanh nhân và cộng đồng để tự giải quyết khoảng trống này. Ngoài bộ dữ liệu Common Voice, chúng tôi còn xây dựng một công cụ nhận dạng giọng nói mã nguồn mở có tên Deep Speech.
+faq-what-cv-a-2 =
+    Công nghệ nhận dạng giọng nói đang cách mạng hóa cách chúng ta tương tác với máy móc, nhưng các hệ thống hiện có rất đắt và độc quyền.  Mozilla Common Voice là một sáng kiến ​​nhằm làm cho công nghệ nhận dạng giọng nói tốt hơn và dễ tiếp cận hơn cho mọi người.  Common Voice là một cơ sở dữ liệu toàn cầu khổng lồ về các giọng nói được quyên góp cho phép mọi người nhanh chóng và dễ dàng đào tạo các ứng dụng hỗ trợ giọng nói ở mọi ngôn ngữ có khả năng.
+    
+    Chúng tôi không chỉ thu thập các mẫu giọng nói ở các ngôn ngữ được nói rộng rãi mà còn ở những ngôn ngữ có số lượng người nói ít hơn.  Việc xuất bản một tập dữ liệu đa dạng về tiếng nói sẽ trao quyền cho các nhà phát triển, doanh nhân và cộng đồng tự giải quyết khoảng cách này.
 faq-why-important-q = Tại sao nó lại quan trọng?
 faq-why-important-a =
     Lời nói thường là cách tự nhiên nhất mà chúng ta giao tiếp với nhau và công nghệ giọng nói đang mang lại sự thuận tiện cho máy tính và thiết bị di động của chúng ta. Chúng tôi muốn trao quyền cho các nhà phát triển để xây dựng các ứng dụng nhận dạng giọng nói tuyệt vời như dịch giả thời gian thực và trợ lý kỹ thuật số hỗ trợ giọng nói. Nhưng ngay bây giờ hầu hết dữ liệu giọng nói cần thiết để xây dựng các loại ứng dụng này là đắt tiền và độc quyền. Chúng tôi hy vọng bộ dữ liệu Common Voice sẽ cung cấp cho các nhà phát triển những gì họ cần để đổi mới và cung cấp công nghệ giọng nói bằng ngôn ngữ của họ.
@@ -436,6 +441,9 @@ about-title = Tại sao là Common Voice?
 about-subtitle = Common Voice là một phần trong sáng kiến của Mozilla nhằm giúp đào tạo cho máy móc cách người thật nói. Ngoài bộ dữ liệu Common Voice, chúng tôi còn xây dựng một công cụ nhận dạng giọng nói nguồn mở có tên Deep Speech.
 about-header-description =
     Cả hai dự án này là một phần trong những nỗ lực của chúng tôi để thu hẹp sự phân chia lời nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
+    Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
+about-header-description-2 =
+    Dự án này là một nỗ lực để thu hẹp khoảng cách giữa giọng nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
     Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
 how-does-it-work-title = Nó hoạt động như thế nào
 how-does-it-work-text = Chúng tôi có thể cung cấp một bộ dữ liệu nguồn mở của các giọng nói. Quyên góp giọng nói của bạn, xác thực tính chính xác clip của người khác, làm cho bộ dữ liệu tốt hơn cho mọi người.
