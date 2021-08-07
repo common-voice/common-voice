@@ -190,6 +190,7 @@ logout = Wyloguj się
 ## Home Page
 
 home-title = Common Voice to inicjatywa Mozilli pomagająca w uczeniu maszyn mowy prawdziwych ludzi.
+default-tagline = Mozilla Common Voice to inicjatywa pomagająca w uczeniu maszyn mowy prawdziwych ludzi.
 home-cta = Nagrywaj i pomagaj!
 wall-of-text-start = Mowa to dla nas coś naturalnego i ludzkiego. Dlatego tak bardzo fascynuje nas tworzenie systemu rozpoznawania mowy, który mogłyby wykorzystywać maszyny. Ale aby to osiągnąć, potrzeba niezwykle obszernej bazy danych z nagraniami ludzkiej mowy.
 wall-of-text-more-mobile = Dane wykorzystywane przez duże firmy są niedostępne dla większości. Uważamy, że to hamuje rozwój. Dlatego uruchomiliśmy projekt Common Voice, który ma sprawić, aby systemy rozpoznawania głosu były dostępne dla każdego.
@@ -387,6 +388,10 @@ faq-what-cv-a =
     Technologia rozpoznawania głosu rewolucjonizuje sposób używania maszyn, ale obecnie dostępne systemy są kosztowne i zastrzeżone. Common Voice jest częścią inicjatywy Mozilli mającej na celu uczynienie rozpoznawania głosu lepszym i dostępnym dla każdego. Common Voice to ogromna globalna baza nagrań głosu, która pozwala każdemu szybko i łatwo trenować aplikacje obsługujące głos w potencjalnie każdym języku.
     
     Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
+faq-what-cv-a-2 =
+    Technologia rozpoznawania głosu rewolucjonizuje sposób używania maszyn, ale obecnie dostępne systemy są kosztowne i zastrzeżone. Mozilla Common Voice to inicjatywa mająca na celu uczynienie rozpoznawania głosu lepszym i dostępnym dla każdego. Common Voice to ogromna globalna baza nagrań głosu, która pozwala każdemu szybko i łatwo trenować aplikacje obsługujące głos w potencjalnie każdym języku.
+    
+    Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści.
 faq-why-important-q = Dlaczego to jest ważne?
 faq-why-important-a =
     Mowa jest często najbardziej naturalnym sposobem komunikowania się ze sobą, a technologie głosowe zapewniają nam tę wygodę na komputerach i telefonach. Chcemy umożliwić deweloperom tworzenie niesamowitych aplikacji rozpoznających głos, takich jak tłumaczenie w czasie rzeczywistym i cyfrowi asystenci głosowi. Jednak obecnie większość danych głosowych wymaganych do tworzenia tego rodzaju aplikacji jest kosztowna i zastrzeżona. Mamy nadzieję, że zbiór danych Common Voice zapewni deweloperom to, czego potrzebują, aby wprowadzać innowacje i udostępniać technologię mowy w swoim języku.
@@ -444,6 +449,9 @@ about-title = Dlaczego Common Voice?
 about-subtitle = Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
 about-header-description =
     Oba te projekty są częścią naszych wysiłków na rzecz zniwelowania podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
+    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
+about-header-description-2 =
+    Ten projekt ma na celu zniwelowanie podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
     Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
 how-does-it-work-title = Jak to działa
 how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
@@ -908,3 +916,8 @@ demo-listen-subtitle = Chcesz wziąć udział?
 
 demo-dashboard-card-header = Osobisty panel informuje Cię na bieżąco o postępach indywidualnych i całej społeczności.
 demo-dashboard-card-body = Twój panel konta jest aktualizowany po każdym nagraniu i każdym zweryfikowaniu nagrania, aby odzwierciedlać Twoje najnowsze postępy w każdym języku, w jakim bierzesz udział. Tak, możesz nagrywać w więcej niż jednym!<br/><br/> Korzystaj z panelu, aby śledzić swoje statystyki, sprawdzić, jak radzisz sobie razem z innymi członkami społeczności oraz ustalać dzienne lub tygodniowe cele.
+
+## Validation criteria
+
+see-more = <chevron></chevron>Więcej
+see-less = <chevron></chevron>Mniej
