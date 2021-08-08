@@ -190,6 +190,7 @@ logout = Logga ut
 ## Home Page
 
 home-title = Projektet Common Voice är Mozillas initiativ att hjälpa till att lära maskiner hur riktiga människor talar.
+default-tagline = Mozilla Common Voice är ett initiativ för att lära maskiner hur riktiga människor talar.
 home-cta = Öppna din mun, stöd projekt och gör ett bidrag!
 wall-of-text-start = Språk är naturligt, språk är mänskligt. Därför fascineras vi av att skapa användbara taligenkänningsteknologier för våra enheter. Att utveckla röstbaserade system kräver emellertid en mycket stor mängd inspelningar i talat språk.
 wall-of-text-more-mobile = En större del av den data som används av stora företag är emellertid otillgänglig för de flesta människor. Vi tror att detta kommer att förhindra innovation. Därför lanserade vi projektet Common Voice, ett projekt som hjälper till att göra taligenkänning tillgänglig för alla.
