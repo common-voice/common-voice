@@ -10,7 +10,6 @@ submit-form-action = Saatõ
 loading = Lastamin…
 email-opt-in-info = Я хочу получать такие письма, как напоминания о целях, уведомления о достижениях и новости о Common Voice.
 email-opt-in-info-title = Сделайте голосовую запись частью аватара вашего профиля. Другие смогут прослушать её.
-email-opt-in-privacy = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
 
@@ -61,7 +60,6 @@ ga-IE = Ирландский
 gl = Галисийский
 ha = Хауса
 he = Иврит
-hi-IN = Хинди
 hr = Хорватский
 hsb = Верхнелужицкий
 hu = Венгерский
@@ -76,7 +74,6 @@ kab = Кабильский
 kk = Казахский
 ko = Корейский
 kpv = Коми-зырянский
-ku = Курдский
 kw = Корнский
 ky = Киргизский
 lij = Лигурский
@@ -221,7 +218,6 @@ whats-public = Какие данные доступны всем?
 email-not-public = Мы не будем публиковать вашу электронную почту.
 recordings-and-locale-public = Количество сделанных вами записей и их языки будут публично доступны.
 username-optin-public = Вы можете сделать свое имя пользователя публичным или анонимным.
-demographic-deidentified = Опционально предоставляемые демографические данные (такие как возраст, пол, язык и акцент) обезличиваются и никогда не будут сделаны публичными в вашем профиле.
 username-email-not-demographic = Ваше имя пользователя и адрес электронной почты не будут связаны с опубликованными данными.
 
 ## Speak & Listen Shortcuts
@@ -279,8 +275,6 @@ profile-form-accent =
     .label = Акцент
 profile-form-age =
     .label = Ičä
-profile-form-gender =
-    .label = Suku
 leaderboard-visibility =
     .label = Показывать меня в топе
 hidden = Скрытый
@@ -306,7 +300,6 @@ profile-close = Kuro
 profile-explanation = Наблюдайте за прогрессом, пользуясь профилем, и помогайте улучшать точность наших голосовых данных.
 thanks-for-account = Спасибо за подтверждение вашего аккаунта, теперь давайте заполним ваш профиль.
 why-demographic = Почему это важно?
-why-demographic-explanation = Анонимные пользовательские данные такие, как возраст, пол и акцент помогут улучшить аудио-данные, используемые для тренировки точности движков распознавания речи. Ваше имя пользователя и адрес электронной почты никогда не будут связаны с предоставляемыми вами данными, и вы можете выбрать сделать ли ваш логин публичным или анонимным.
 accept-privacy = Я согласен с тем, как вы обрабатываете эту информацию, согласно <privacyLink>Политики приватности</privacyLink> Mozilla
 accept-privacy-title = Политика приватности
 login-identity = Идентификатор для входа
@@ -437,11 +430,6 @@ about-partnership =
     
     Мы хотели бы поблагодарить следующих людей и организации за помощь в реализации проекта:
 about-get-involved = Принять участие
-about-get-involved-text =
-    Хотите помочь сделать Common Voice ещё лучше?
-    Отлично! Свяжитесь с нами по электронной почте или на <discourseLink>Discourse-форуме</discourseLink>,
-    оставьте отзыв на <githubLink>GitHub</githubLink>,
-    или присоединитесь к нам на <slackLink>Slack</slackLink>.
 about-nav-why-common-voice = Почему?
 about-nav-how-it-works = Как?
 about-nav-partners = Партнёры
@@ -467,10 +455,8 @@ sst-explanation = Технология Speech-to-text (STT) преобразов
 de-identified = Обезличенный
 de-identified-explanation = Процесс, с помощью которого информация профиля участника убирается из пожертвованных им голосовых записей, когда они упаковываются для загрузки, как часть набора данных.
 
-## NotFound
+## Error pages
 
-notfound-title = Страница не найдена
-notfound-content = Я боюсь, что не знаю, что вы ищете.
 
 ## Data
 
@@ -606,10 +592,9 @@ total-hours = Всего часов
 action-click = Щёлкнуть
 action-tap = Коснуться
 contribute = Принять участие
-listen = Прослушать
+listen = Kuulõ
 skip = Пропустить
 shortcuts = Сочетания клавиш
-clips-with-count = <bold>{ $count }</bold> Клипов
 goal-help-recording = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по записи в { $goalValue }!
 goal-help-validation = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по проверке в { $goalValue }!
 contribute-more =
@@ -620,7 +605,6 @@ contribute-more =
 record-cta = Начните запись
 record-platform-not-supported = Нам жаль, в настоящее время ваша платформа не поддерживается.
 record-platform-not-supported-desktop = На настольных компьютерах, вы можете загрузить последний:
-record-platform-not-supported-ios = Пользователи <bold>iOS</bold> могут загрузить наше бесплатное приложение:
 record-must-allow-microphone = Вы должны разрешить доступ к микрофону.
 record-no-mic-found = Микрофон не найден.
 record-error-too-short = Запись слишком короткая.
@@ -646,7 +630,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> точно ли про
 listen-again-instruction = Отличная работа! <playIcon></playIcon> Прослушайте снова, когда будете готовы
 listen-3rd-time-instruction = Два готовы <playIcon></playIcon> , продолжайте!
 listen-last-time-instruction = <playIcon></playIcon> Последний!
-nothing-to-validate = У нас нет ничего для проверки на этом языке, помогите нам заполнить очередь.
 record-button-label = Запишите свой голос
 share-title-new = <bold>Помогите нам</bold> найти больше голосов
 keep-track-profile = Отслеживайте свой прогресс с помощью профиля
@@ -732,13 +715,8 @@ want-to-continue = Tahatko jatkaa?
 finish-editing = Хотите сначала закончить редактирование?
 lose-changes-warning = Уход сейчас означает, что вы потеряете сделанные изменения
 build-custom-goal = Создать собственную цель
-help-reach-hours = Помогите достичь { NUMBER($hours) } часов на { $language } с помощью личной цели
-help-reach-hours-general = Помогите Common Voice достичь { NUMBER($hours) } часов на этом языке с помощью личной цели
 set-a-goal = Поставить цель
 cant-decide = Etkö saa valitsa?
-activity-needed-calculation =
-    { NUMBER($totalHours) } часов достижимо за { NUMBER($periodMonths) }
-    месяцев, если { NUMBER($people) } людей будут делать { NUMBER($clipsPerDay) } записей в день.
 how-many-per-day = Отлично! Сколько записей в день?
 how-many-a-week = Отлично! Сколько записей в неделю?
 which-goal-type = Вы хотите записывать, проверять или и то, и другое?
@@ -746,7 +724,6 @@ receiving-emails-info =
     Вы будете получать такие письма, как напоминания о целях, уведомления
     о своих достижениях и новости о Common Voice.
 not-receiving-emails-info = Вы <bold>НЕ</bold> будете получать такие письма, как напоминания о целях, уведомления о достижениях и новости о Common Voice.
-n-clips = { NUMBER($count) } записей
 help-share-goal = Помогите нам найти больше голосов, поделитесь своей целью
 confirm-goal = Подтвердить цель
 goal-interval-weekly = Nätälitta
