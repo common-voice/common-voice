@@ -907,4 +907,6 @@ contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal
 contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
 contribution-misreadings-example-3-explanation = [Asekles yettwagzem send ad yemmed wawal aneggaru]
 contribution-volume-title = Ableɣ
+contribution-just-unsure-title = Tkukraḍ?
 see-more = <chevron></chevron>Wali ugar
+see-less = <chevron></chevron>Wali drus
