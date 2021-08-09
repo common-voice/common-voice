@@ -190,6 +190,7 @@ logout = Ffeɣ
 ## Home Page
 
 home-title = Asenfaṛ n Common Voice yella-d s lmendad n Mozilla. Yella-d i uɛiwen n yiselkimen akken ad issinen amek i heddṛen yimdanen n tidet.
+default-tagline = Asenfaṛ n Common Voice yella-d i uɛiwen n yiselkimen akken ad issinen amek i ttmeslayen yimdanen.
 home-cta = Mmeslay, ttekki da!
 wall-of-text-start = Taɣect d tagamant, taɣect d ayla n umdan. Ɣef aya i nebɣa ad d-nexdem tatiknulujit n taɣect ara sseqdacent tmacinin-nneɣ. Acu kan, akken ad d-nesnulfu inagrawen n taɣect, yessefk ad d-nelqeḍ aṭas n yisefka s tuɣac n yimdanen.
 wall-of-text-more-mobile = Tuget n yisefka i seqdacent tkebbaniyin  ur llin ara i tuget n yimdanen. Nwala d akken ayagi yesseḥbas asnulfu. Ɣef aya, asenfaṛ Common Voice ilul-d. D asenfaṛ ara yessifsusen anekcum ɣer tmussni n taɣect, i yal yiwen.
@@ -898,7 +899,9 @@ demo-dashboard-card-body = Di yal tukkist n taɣect akked yal tukkist n umeslaw 
 contribution-criteria-nav = Kriteriya
 contribution-criteria-link = Gzu isefranen n uttekki
 contribution-criteria-page-title = Attekki n Kriteriya
+contribution-criteria-page-description = Gzu ayen i ilaqen ticki tselleḍ i tefyar, snerni daɣen si tama-k taɣuri-ik!
 contribution-for-example = amedya
+contribution-misreadings-title = Tuccḍa deg tɣuri
 contribution-misreadings-description-extended-list-2 = Ixuṣṣ
 contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
 contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
