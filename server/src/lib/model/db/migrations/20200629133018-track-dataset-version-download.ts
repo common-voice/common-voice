@@ -1,5 +1,4 @@
 export const up = async function (db: any): Promise<any> {
-  // Note: Manual backfill to follow.
   return db.runSql(`
   	CREATE TABLE datasets (
   		id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,

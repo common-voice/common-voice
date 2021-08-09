@@ -33,14 +33,17 @@ as = asamščina
 ast = asturijščina
 az = azerbajdžanščina
 ba = baškirščina
+bas = basa
 be = beloruščina
 bg = bolgarščina
+bm = bambarščina
 bn = bengalščina
 br = bretonščina
 bxr = burijatščina
 ca = katalonščina
 cak = kaqchikel
 cnh = hakha chin
+co = korziščina
 cs = češčina
 cv = čuvaščina
 cy = valižanščina
@@ -62,11 +65,13 @@ fr = francoščina
 fy-NL = frizijščina
 ga-IE = irščina
 gl = galicijščina
+gn = gvaranijščina
 ha = havščina
 he = hebrejščina
 hi = hindujščina
 hr = hrvaščina
 hsb = gornja lužiška srbščina
+ht = haitščina
 hu = madžarščina
 hy-AM = armenščina
 hyw = zahodna armenščina
@@ -83,20 +88,23 @@ kbd = kabardščina
 kk = kazaščina
 ko = korejščina
 kpv = komijščina
-ku = kurdščina
 kw = kornijščina
 ky = kirgiščina
 lg = lugandščina
 lij = ligurščina
 lt = litovščina
 lv = latvijščina
+mai = maithilščina
 mdf = mokša
 mg = malagaščina
 mhr = vzhodna marijščina
 mk = makedonščina
 ml = malajalamščina
 mn = mongolščina
+mos = mosijščina
+mr = maratščina
 mrj = zahodna marijščina
+ms = malajščina
 mt = malteščina
 my = burmanščina
 myv = erzjanščina
@@ -108,6 +116,7 @@ oc = okcitanščina
 or = odijščina
 pa-IN = pandžabščina
 pl = poljščina
+ps = paštunščina
 pt = portugalščina
 rm-sursilv = retoromanščina (sursilvan)
 rm-vallader = retoromanščina (vallader)
@@ -120,6 +129,7 @@ scn = sicilijanščina
 si = sinhalščina
 sk = slovaščina
 sl = slovenščina
+so = somalščina
 sq = albanščina
 sr = srbščina
 sv-SE = švedščina
@@ -132,14 +142,18 @@ th = tajščina
 tl = tagaloščina
 tr = turščina
 tt = tatarščina
+tw = tvijščina
 uby = ubiščina
 udm = udmurtščina
+ug = ujgurščina
 uk = ukrajinščina
 ur = urdujščina
 uz = uzbeščina
 vec = beneščina
 vi = vietnamščina
 vot = votščina
+yo = jorubščina
+yue = kantonščina
 zh-CN = kitajščina (Kitajska)
 zh-HK = kitajščina (Hong Kong)
 zh-TW = kitajščina (Tajvan)
@@ -274,7 +288,9 @@ shortcut-record-toggle = s
 shortcut-record-toggle-label = Snemaj/Ustavi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Znova posnemi posnetek
+shortcut-submit-label = Pošlji posnetke
 request-language-text = Vaš jezik še ni vključen v Common Voice?
+request-language-text-learn = Naučite se, kako to zahtevati!
 request-language-button = Predlagaj jezik
 
 ## ProjectStatus
@@ -305,7 +321,7 @@ profile-form-accent =
     .label = Naglas
 profile-form-age =
     .label = Starost
-profile-form-gender =
+profile-form-gender-2 =
     .label = Spol
 leaderboard-visibility =
     .label = Vidnost na lestvici
@@ -332,7 +348,7 @@ profile-close = Zapri
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
 thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja vašega profila.
 why-demographic = Zakaj je to pomembno?
-why-demographic-explanation = Anonimni uporabniški podatki, kot so starost, spol in naglas, izboljšajo glasovne podatke, ki se uporabljajo za zagotavljanje natančnosti sistemov za prepoznavanje govora. Vaše uporabniško ime in e-pošta ne bosta nikoli povezana z vašimi posredovanimi podatki, zato lahko izberete, ali bo vaše uporabniško ime javno ali anonimno.
+why-demographic-explanation-2 = Anonimni uporabniški podatki, kot so starost, spol in naglas, izboljšajo glasovne podatke, ki se uporabljajo za zagotavljanje natančnosti sistemov za prepoznavanje govora. Vaše uporabniško ime in e-pošta ne bosta nikoli povezana z vašimi posredovanimi podatki, zato lahko izberete, ali bo vaše uporabniško ime javno ali anonimno.
 accept-privacy = Strinjam se z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>
 accept-privacy-title = Politika zasebnosti
 login-identity = Identiteta prijave
@@ -346,25 +362,19 @@ skip-submission-description = Med oddajo prispevka bodo povratne informacije pre
 skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno morali izbrati med Govori in Poslušaj.
 off = Izklopljeno
 on = Vklopljeno
-avatar-clip-title = Dodajte glas svojemu avatarju
-change-your-avatar-clip = Želite spremeniti glasovni posnetek?
-recording-in-progress = Glasovno snemanje v teku
-avatar-clip-recorded = Vaš avatar zdaj vključuje glasovni posnetek!
-record-voice-wave = POSNEMI SVOJ GLAS
-retry-voice-wave-recording = POSKUSI ZNOVA
-re-record = ZNOVA POSNEMI
-delete-voice = IZBRIŠI
-recording-voice-wave = Snemanje
-delete-voice-clip = ali izbriši posnetek
-ready-to-upload = Naloži
-recreate-voice = Ponovno ustvari posnetek
-cancel-avatar-clip-recording = Prekliči
-about-avatar-clip-recording = Ustvarite glasovni posnetek kot del avatarja svojega profila. Drugi se bodo lahko z miško pomaknili na vaš posnetek in ga poslušali.
+
+## Profile - Email
+
 browse-file-title = Naložite slikovno datoteko
 browse-file = Povlecite in spustite ali <browseWrap>prebrskajte</browseWrap>
 connect-gravatar = Poveži z Gravatarjem
 gravatar_not_found = Za vaš e-poštni naslov ne obstaja Gravatar
 file_too_large = Izbrana datoteka je prevelika
+avatar-uploaded = Slika naložena
+max-file-size = Največ { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = Upravljaj z naročninami
 manage-email-subscriptions = Upravljanje e-poštnih naročnin
 email-already-used = E-poštni naslov je že v uporabi za drug račun
@@ -495,6 +505,8 @@ data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
 data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
+release-version = Različica
+dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešana
 data-download-singleword-title = Prenesite enobesedni ciljni segment
@@ -673,6 +685,7 @@ share-title-new = <bold>Pomagajte nam</bold> najti več glasov
 keep-track-profile = S profilom spremljajte svoj napredek
 login-to-get-started = Za začetek se prijavite ali registrirajte
 target-segment-first-card = Prispevate v naš prvi ciljni segment
+target-segment-generic-card = Prispevate v ciljni segment
 target-segment-first-banner = Pomagajte ustvariti prvi ciljni segment Common Voice v jeziku { $locale }
 target-segment-add-voice = Dodajte svoj glas
 target-segment-learn-more = Več o tem
@@ -727,6 +740,7 @@ validations =
 
 your-languages = Vaši jeziki
 toward-next-goal = Do naslednjega cilja
+goal-reached = Cilj dosežen
 clips-you-recorded = Posnetki, ki ste jih posneli
 clips-you-validated = Posnetki, ki ste jih preverili
 todays-recorded-progress = Današnji skupni napredek pri snemanju posnetkov
@@ -832,3 +846,34 @@ help-contribute = Pomagate lahko ustvariti raznolik, odprtokodni nabor podatkov,
 login-company = Prijava / Registracija z e-poštnim naslovom { $company }
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 read-more-about = Preberite več na naši strani O nas
+
+## DemoLayout
+
+demo-get-started = Pa začnimo
+demo-welcome = Dobrodošli v Common Voice
+demo-welcome-subheader = Želite izvedeti več o projektu in prispevati?
+
+## Demo Datasets
+
+demo-language-select-card-body = Zahvaljujoč prispevkom več kot 259 tisoč ljudi v več kot 50 jezikih se ti podatki uporabljajo za usposabljanje aplikacij za prepoznavanje govora, da bi se bolje odzivale na človeški glas.
+card-button-next = Naprej
+card-button-back = Nazaj
+demo-language-select-label = Brskanje po jezikih
+demo-account = Račun
+
+## Demo Account
+
+demo-account-card-header = Račun za sodelovanje ni obvezen, je pa priporočljiv.
+demo-account-sign-up = Pošlji povezavo za registracijo
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+contribution-for-example = na primer
+contribution-volume-title = Glasnost
+contribution-just-unsure-title = Samo niste prepričani?

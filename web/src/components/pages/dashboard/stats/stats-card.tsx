@@ -14,6 +14,7 @@ export default function StatsCard({
   overlay,
   tabs,
   challenge,
+  scrollable,
   currentLocale,
 }: {
   className?: string;
@@ -22,6 +23,7 @@ export default function StatsCard({
   overlay?: React.ReactNode;
   tabs?: { [label: string]: (props: { locale?: string }) => any };
   challenge?: boolean;
+  scrollable?: boolean;
   currentLocale?: string;
 }) {
   const [locale, setLocale] = useState(ALL_LOCALES);
@@ -31,7 +33,7 @@ export default function StatsCard({
   ]);
 
   return (
-    <div className={'stats-card ' + (className || '')}>
+    <div className={`stats-card ${className || ''} ${scrollable ? 'scrollable' : ''}`}>
       {overlay}
       <div className="stats-card__inner">
         <div className="title-and-icon">
