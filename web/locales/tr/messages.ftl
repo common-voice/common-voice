@@ -877,5 +877,11 @@ demo-dashboard-card-body = Bağışlanan ve doğrulanan her ses kaydı için hes
 ## Validation criteria
 
 contribution-criteria-nav = Kriter
+contribution-criteria-link = Katkıda bulunma kriterlerini anlayın
+contribution-criteria-page-title = Katkıda bulunma kriterleri
+contribution-for-example = örnek
+contribution-misreadings-title = Yanlış okumalar
 contribution-background-noise-title = Arka plan gürültüsü
 contribution-background-voices-title = Arka plan sesleri
+contribution-volume-title = Ses seviyesi
+contribution-reader-effects-title = Okuyucu efektleri
