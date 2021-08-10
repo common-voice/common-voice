@@ -147,6 +147,7 @@ th = Tayca
 tl = Tagalog
 tr = Türkçe
 tt = Tatarca
+tw = Twi
 uby = Ubıhça
 udm = Udmurtça
 ug = Uygurca
@@ -156,6 +157,7 @@ uz = Özbekçe
 vec = Venedikçe
 vi = Vietnamca
 vot = Votic
+yo = Yoruba
 yue = Kantonca
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
@@ -871,3 +873,9 @@ demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
 
 demo-dashboard-card-header = Kişisel panolar, bireysel ilerlemeniz ve topluluk ilerlemesi konusunda sizi bilgilendirir.
 demo-dashboard-card-body = Bağışlanan ve doğrulanan her ses kaydı için hesap panolarınız, katkıda bulunmuş olduğunuz her dildeki en son ilerlemenizi yansıtacak şekilde güncellenir.<br/><br/> Evet, birden fazla dilde katkıda bulunabilirsiniz! İstatistiklerinizi takip etmek, topluluktaki diğer kişilerle birlikte ne yaptığınızı görmek ve günlük veya haftalık katılım hedefleri belirlemek için panoları kullanabilirsiniz.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriter
+contribution-background-noise-title = Arka plan gürültüsü
+contribution-background-voices-title = Arka plan sesleri
