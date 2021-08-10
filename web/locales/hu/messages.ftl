@@ -190,6 +190,7 @@ logout = Kijelentkezés
 ## Home Page
 
 home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
+default-tagline = A Mozilla Common Voice egy kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
 home-cta = Szólaljon meg, működjön közre.
 wall-of-text-start = A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára van szükség.
 wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem érhetőek el. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
@@ -389,6 +390,10 @@ faq-what-cv-a =
     A hangfelismerési technológia forradalmasítja a gépekkel történő interakciót, de a jelenleg elérhető rendszerek drágák és tulajdonosi modellűek. A Common Voice a Mozilla kezdeményezésének része, amellyel a hangfelismerési technológia mindenki számára elérhetővé akarjuk tenni. A Common Voice felajánlott hangok hatalmas globális adatbázisa, amellyel bárki gyorsan és könnyen betaníthatja a hangfelismerést használó alkalmazását, akár tetszőleges nyelven.
     
     Nemcsak a széles körűen beszélt nyelveken gyűjtünk hangmintákat, de a kisebb beszélőszámú nyelveken is. A változatos hangadatkészlet közzététele lehetőséget ad a fejlesztőknek, vállalkozóknak és a közösségeknek, hogy leküzdjék ezt a különbséget. A Common Voice adatkészlete mellett egy nyílt forráskódú beszédfelismerő motort is készítünk, melyet Deep Speechnek hívunk.
+faq-what-cv-a-2 =
+    A hangfelismerési technológia forradalmasítja a gépekkel történő interakciót, de a jelenleg elérhető rendszerek drágák és tulajdonosi modellűek. A Mozilla Common Voice egy olyan kezdeményezés, amellyel a hangfelismerési technológiát mindenki számára elérhetővé akarjuk tenni. A Common Voice felajánlott hangok hatalmas globális adatbázisa, amellyel bárki gyorsan és könnyen betaníthatja a hangfelismerést használó alkalmazását, akár tetszőleges nyelven.
+    
+    Nemcsak a széles körűen beszélt nyelveken gyűjtünk hangmintákat, de a kisebb beszélőszámú nyelveken is. A változatos hangadatkészlet közzététele lehetőséget ad a fejlesztőknek, vállalkozóknak és a közösségeknek, hogy leküzdjék ezt a különbséget. A Common Voice adatkészlete mellett egy nyílt forráskódú beszédfelismerő motort is készítünk, melyet Deep Speechnek hívunk.
 faq-why-important-q = Ez miért fontos?
 faq-why-important-a =
     A beszéd gyakran a legtermészetesebb módja az egymással történő kommunikációnak, és a hangtechnológiák elhozzák ezt a kényelmet a számítógépeinkhez és mobileszközeinkhez. Szeretnénk lehetővé tenni, hogy a fejlesztők lenyűgöző hangfelismerő alkalmazásokat készítsenek, mint a szinkrontolmácsok és a hangfelismerést használó digitális asszisztensek. De jelenleg az ehhez szükséges hangadatok költségesek és tulajdonosi modellt használnak. Reméljük, hogy a Common Voice megadja a fejlesztőknek azt, amire szükségük van ahhoz, hogy elérhetővé tegyék a beszédfelismerést a saját nyelvükön.
@@ -443,6 +448,9 @@ about-title = Miért a Common Voice?
 about-subtitle = A Common Voice a Mozilla azon kezdeményezésének része, hogy megtanítsuk a gépeket arra, hogyan beszélnek az emberek. A Common Voice adatkészlet mellett egy nyílt forráskódú szövegfelismerési motort is fejlesztünk, melyet Deep Searchnek hívnak.
 about-header-description =
     Mindkét projekt azon erőfeszítésünk része, hogy áthidaljuk a digitális beszéd szakadékát. A hangfelismerési technológiák emberi dimenziót adnak az eszközeinknek, de a fejlesztőknek hatalmas mennyiségű hangadatra van szükségük az elkészítésükhöz. Jelenleg az ilyen adatok legnagyobb része drága és zárt.
+    A hangadatokat szabadon és nyilvánosan elérhetővé akarjuk tenni, és meg akarunk győződni arról, hogy az adatok a valódi emberek sokszínűségét tükrözik. Együtt mindenki számára jobbá tehetjük a hangfelismerést.
+about-header-description-2 =
+    A projekt a digitális beszéd szakadékának áthidalását célzó kezdeményezés. A hangfelismerési technológiák emberi dimenziót adnak az eszközeinknek, de a fejlesztőknek hatalmas mennyiségű hangadatra van szükségük az elkészítésükhöz. Jelenleg az ilyen adatok legnagyobb része drága és zárt.
     A hangadatokat szabadon és nyilvánosan elérhetővé akarjuk tenni, és meg akarunk győződni arról, hogy az adatok a valódi emberek sokszínűségét tükrözik. Együtt mindenki számára jobbá tehetjük a hangfelismerést.
 how-does-it-work-title = Hogyan működik
 how-does-it-work-text = Közösségi munkában gyűjtjük a hangok nyílt forráskódú készletét. Adja a hangját, ellenőrizze más emberek klipjeinek pontosságát, és tegye mindenki számára jobbá az adatkészletet.
