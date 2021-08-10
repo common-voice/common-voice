@@ -20,11 +20,15 @@
     justify-content: space-between;
     overflow-x: hidden;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px 20px;
     max-width: var(--wide-desktop-width);
-    height: 100%;
     width: 100%;
+    height:  100%;
     box-sizing: border-box;
+
+    @media (--md-up) {
+        padding: 20px;
+    }
 
     @media (--tall) {
         padding-top: 50px;
@@ -55,13 +59,13 @@
         color: var(--black);
         text-transform: uppercase;
         font-size: var(--font-size-sm);
-        margin-bottom: 1rem;
         text-align: center;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
+        font-weight: 600;
 
-        @media (--lg-up) {
+        @media (--md-up) {
             margin-top:  0;
-            font-weight: 600;
+            margin-bottom: 1rem;
         }
 
         svg {
@@ -278,7 +282,7 @@
         .cards {
             position: relative;
             max-width: 700px;
-            height: 275px;
+            height: 200px;
             width: 100%;
 
             @media (--md-up) {
@@ -377,7 +381,7 @@
     }
 
     .buttons {
-        margin-top: 30px;
+        margin-top: 1rem;
 
         display: flex;
         justify-content: space-between;
