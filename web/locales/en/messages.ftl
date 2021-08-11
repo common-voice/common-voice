@@ -111,6 +111,7 @@ ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nyn = Nyankole
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
