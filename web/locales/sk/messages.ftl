@@ -115,6 +115,7 @@ ne-NP = nepálčina
 nia = Nias
 nl = holandčina
 nn-NO = nórčina (nynorsk)
+nyn = Nyankole
 oc = okcitánčina
 or = urijčina
 pa-IN = pandžábčina
