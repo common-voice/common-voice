@@ -904,7 +904,6 @@ contribution-misreadings-example-3-title = I dinosauri giganti del Triassi-.
 contribution-misreadings-example-3-explanation = [La registrazione si interrompe prima della fine dell’ultima parola]
 contribution-misreadings-example-4-title = I dinosauri giganti del Triassico. Sì.
 contribution-misreadings-example-4-explanation = [È stato registrato più testo del necessario]
-contribution-misreadings-example-5-title = Usciamo a prendere un caffè.
 contribution-misreadings-example-5-explanation = [Il contenuto non corrisponde]
 contribution-varying-pronunciations-title = Variazioni della pronuncia
 contribution-varying-pronunciations-description = Procedi con cautela prima di rifiutare una registrazione in cui, a tuo avviso, il lettore ha sbagliato la pronuncia di una parola, ha posto male l’accento o ha apparentemente ignorato un punto interrogativo. Nel mondo, infatti, è in uso un’ampia varietà di pronunce e potresti non aver mai avuto l’occasione di ascoltarne alcune nella tua zona. Prevedi un certo margine di elasticità come segno di apprezzamento per le persone che parlano in modo diverso dal tuo.
