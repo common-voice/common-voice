@@ -115,6 +115,7 @@ ne-NP = Nepalšćina
 nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
+nyn = Nkorešćina
 oc = Okcitanšćina
 or = Odiašćina
 pa-IN = Pundžabšćina
