@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Da, šaljite mi e-mailove. Želim primati novosti o projektu Common Voice.
-stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i saznati kako koristiš te podatke.
+yes-receive-emails = Da, šaljite mi e-poštu. Želim primati novosti o projektu Common Voice.
+stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i voljeli bi saznati kako koristite podatke.
 privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Saznaj više u našim <privacyLink>napomenama o privatnosti</privacyLink>.
 return-to-cv = Povratak na Common Voice
 email-input =
@@ -13,7 +13,7 @@ email-opt-in-info-title = Pridruži se mailing listi Common Voicea
 email-opt-in-info-sub-with-challenge = Primaj e-mailove poput podsjetnika o izazovima i ciljevima, novostima o napretku i bilten Common Voicea.
 email-opt-in-privacy-v2 = Prihvaćanjem primanja e-mail poruka, pristaješ na obradu tvojih podataka, kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>.
 indicates-required = * obilježava obvezno polje
-not-available-abbreviation = N/A
+not-available-abbreviation = --
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -33,14 +33,18 @@ as = Asamski
 ast = Asturijski
 az = Azerbejdžanski
 ba = Baškirski
+bas = Basaa
 be = Bjeloruski
 bg = Bugarski
+bm = Bambara
 bn = Bengalski
 br = Bretonski
 bxr = Buryat
 ca = Katalonski
 cak = Kakčikelski
+ckb = Centralnokurdski
 cnh = Hakha Chin
+co = Korzički
 cs = Češki
 cv = Čuvaški
 cy = Velški
@@ -62,11 +66,13 @@ fr = Francuski
 fy-NL = Frizijski
 ga-IE = Irski
 gl = Galicijski
+gn = Guarani
 ha = Hausa
 he = Hebrejski
 hi = Hindski
 hr = Hrvatski
 hsb = Lužičkosrpski, gornji
+ht = Haićanski
 hu = Mađarski
 hy-AM = Armenski
 hyw = Armenski zapadni
@@ -81,33 +87,40 @@ kaa = Karakalpački
 kab = Kabilijski
 kbd = Kabardinski
 kk = Kazački
+kmr = sjevernokurdski
 ko = Korejski
 kpv = Komi-Zyrian
-ku = Kurdski
 kw = Kornski
 ky = Kirgiski
 lg = Lugandski
 lij = Ligurijski
 lt = Litavski
 lv = Latvijski
+mai = Maithili
 mdf = Moksha
 mg = Malgaški
 mhr = Meadow Mari
 mk = Makedonski
 ml = Malajalamski
 mn = Mongolski
+mos = Mossi
+mr = Marathi
 mrj = Hill Mari
+ms = Malajski
 mt = Malteški
 my = Burmanski
 myv = Erzya
 nb-NO = Norveški Bokmål
 ne-NP = Nepalski
+nia = Niaski
 nl = Nizozemski
 nn-NO = Novonorveški
 oc = Okcitanski
 or = Odia
 pa-IN = Pandžapski
+pap-AW = Papiamentu (Aruba)
 pl = Poljski
+ps = Paštunski
 pt = Portugalski
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
@@ -117,9 +130,11 @@ rw = Kinjarvandski
 sah = Sakha
 sc = Sardinijski
 scn = Sicilijanski
+shi = Shilha
 si = Sinhala
 sk = Slovački
 sl = Slovenski
+so = Somalski
 sq = Albanski
 sr = Srpski
 sv-SE = Švedski
@@ -132,14 +147,18 @@ th = Tajlandski
 tl = Tagalog
 tr = Turski
 tt = Tatarski
+tw = Twi
 uby = Ubykh
 udm = Udmurtski
+ug = Ujgurski
 uk = Ukrajinski
 ur = Urdski
 uz = Uzbečki
 vec = Venecijanski
 vi = Vijetnamski
 vot = Votjački
+yo = Yoruba
+yue = Kantonski
 zh-CN = Kineski (Kina)
 zh-HK = Kineski (Hong Kong)
 zh-TW = Kineski (Tajvan)
@@ -161,8 +180,8 @@ privacy = Privatnost
 terms = Uvjeti
 cookies = Kolačići
 faq = Često postavljena pitanja
-content-license-text = Sadržaj dostupan pod licencom <licenseLink> Creative Commons </licenseLink>
-share-title = Pomozi nam pronaći donatore glasa.
+content-license-text = Sadržaj je dostupan pod licencom <licenseLink>Creative Commons</licenseLink>
+share-title = Pomogni nam pronaći donatore glasa.
 share-text = Pomogni učiti strojeve govoriti ljudskim jezikom, doniraj svoj glas na { $link }
 link-copied = Poveznica je kopirana
 back-top = Povratak na vrh
@@ -200,16 +219,16 @@ toggle-play-tooltip = Pritisni { shortcut-play-toggle } za prelazak u modus repr
 speak-subtitle = Doniraj svoj glas
 speak-paragraph = Snimanje govornih isječaka sastavni je dio izgradnje našeg otvorenog skupa podataka; neki bi rekli da je to i zabavni dio.
 speak-goal-text = Snimljeno isječaka
-listen-subtitle = Pomozi nam potvrditi glasove
-listen-paragraph = Provjeravanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušajte i pomozite nam stvoriti kvalitetne govorne podatke otvorenog koda.
+listen-subtitle = Pomogni nam potvrditi glasove
+listen-paragraph = Provjeravanje doniranih isječaka jednako je važno za misiju Common Voicea. Poslušaj i pomogni stvoriti kvalitetne govorne podatke otvorenog koda.
 listen-goal-text = Potvrđeno isječaka
-hours-recorded = Snimljenih sati
-hours-validated = Potvrđenih sati
+hours-recorded = Snimljeni sati
+hours-validated = Potvrđeni sati
 voices-online = Trenutačni glasovi
 todays-progress = Današnji napredak
-help-reach-goal = Pomozite nam doći do { $goal }
-read-terms-q = Jeste li pročitali naše Uvjete?
-ready-to-record = Jeste li spremni donirati svoj glas?
+help-reach-goal = Pomogni nam doseći cilj od { $goal }
+read-terms-q = Jesi li pročitao/la naše uvjete?
+ready-to-record = Želiš donirati svoj glas?
 all-locales = Sve
 today = Danas
 x-weeks-short =
@@ -231,7 +250,7 @@ x-years-short =
        *[other] { $count }god
     }
 help-make-dataset = Pomogni nam izgraditi kvalitetan i javno dostupan skup podataka
-sign-up-account = Otvorite račun
+sign-up-account = Otvori račun
 email-subscription-title = pretplati se na novosti putem e-maila
 email-subscription-title-new = Pretplati se na bilten Common Voicea, na podsjetnike o ciljevima i na novosti o napretku
 
@@ -240,7 +259,7 @@ email-subscription-title-new = Pretplati se na bilten Common Voicea, na podsjetn
 benefits = Prednosti
 rich-data = Podnesene podatke učini što bogatijima, pružanjem anonimnih demografskih podataka. Prije objavljivanja otklanjamo sve identificirajuće demografske podatke.
 improve-audio = Podaci profila poboljšavaju glasovne podatke koji se koriste za treniranje točnosti prepoznavanja govora.
-keep-track = Prati svoj napredak i mjerne podatke za jezike.
+keep-track = Prati svoj napredak i mjerne podatke ranih jezika.
 compare-progress = Usporedi svoj napredak s ostalim suradnicima u cijelom svijetu.
 view-goals = Usporedi napredak vlastitih ciljeva s ciljevima projekta.
 join-newsletter = Ako želiš, pridruži se na naš popis e-maila za dobivanje obavijesti o novim verzijama te novim informacijama o projektu.
@@ -251,7 +270,7 @@ whats-public = Što je javno?
 email-not-public = Tvoju e-mail adresu nećemo javno objavljivati.
 recordings-and-locale-public = Broj snimaka i jezika kojima doprinosiš, bit će javni.
 username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime ili ne.
-demographic-deidentified-clarity = Opcionalno poslani demografski podaci (kao što su dob, spol, jezik i naglasak) nikada neće biti objavljeni na tvom profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedine audio snimke bit će povezane s demografskim podacima radi točnije analize – na primjer, istraživač će možda željeti usmjeriti model treninga na određeni demografski segment.
+demographic-deidentified-clarity-2 = Opcionalno podneseni demografski podatci (npr. dob, rod, jezik i naglasak) nikada neće biti javni na tvojem profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedini audio-isječci bit će povezani s demografskim podatcima radi točnije analize - npr. istraživač možda želi ciljani neki model uvježbavanja na određeni demografski segment.
 username-email-not-demographic = Tvoje korisničko ime i e-mail adresa neće biti povezani s objavljenim podacima.
 
 ## Speak & Listen Shortcuts
@@ -280,7 +299,10 @@ shortcut-record-toggle = s
 shortcut-record-toggle-label = Snimaj/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ponovo snimi isječak
+shortcut-submit = Potvrdi
+shortcut-submit-label = Pošalji isječke
 request-language-text = Tvoj jezik nedostaje u Common Voiceu?
+request-language-text-learn = Ovdje možete saznati kako to zatražiti!
 request-language-button = Zatražite jezik
 
 ## ProjectStatus
@@ -310,7 +332,7 @@ profile-form-accent =
     .label = Narječje/Naglasak
 profile-form-age =
     .label = Dob
-profile-form-gender =
+profile-form-gender-2 =
     .label = Spol
 leaderboard-visibility =
     .label = Vidljivost na ljestvici
@@ -337,7 +359,7 @@ profile-close = Zatvori
 profile-explanation = Prati svoj napredak pomoću profila i pomogni ispravljati naše glasovne podatke.
 thanks-for-account = Zahvaljujemo što ste potvrdili svoj račun, a sada kreirajmo vaš profil.
 why-demographic = Zašto je to važno?
-why-demographic-explanation = Anonimni podaci korisnika poput dobi, spola i narječja, pomažu poboljšati audio podatke koji se koriste za točnost učenja programa za prepoznavanje govora. Tvoje korisničko ime i e-mail adresa nikada neće biti povezani s tvojim poslanim podacima. Uz to možeš odabrati, želiš li objaviti svoje korisničko ime ili ne.
+why-demographic-explanation-2 = Anonimizirani korisnički podatci, kao što su dob, rod i naglasak, pomažu u poboljšanju audio-podataka koji se koriste za uvježbavanje točnosti pogona za prepoznavanje govora. Tvoje korisničko ime i e-pošta nikada neće biti povezani s podnesenim podatcima i možeš birati hoće li tvoje korisničko ime biti javno ili anonimno.
 accept-privacy = Slažem se s načinom upotrebe ovih podataka kao što je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>
 accept-privacy-title = Politika privatnosti
 login-identity = Identitet prijave
@@ -351,26 +373,19 @@ skip-submission-description = Tijekom doprinošenja, povratne informacije preska
 skip-submission-note = Napomena: Morati ćete odabrati između opcije Govoriti ili Slušati za promjenu vrste vašeg doprinosa.
 off = Isklj.
 on = Uklj.
-avatar-clip-title = Daj glas svom avataru
-change-your-avatar-clip = Želiš promijeniti glasovni isječak?
-recording-in-progress = Snimanje glasa je u tijeku
-avatar-clip-recorded = Tvoj avatar sad uključuje glasovni isječak!
-record-voice-wave = SNIMI GLAS
-retry-voice-wave-recording = PONOVI
-re-record = SNIMI PONOVNO
-delete-voice = OBRIŠI
-recording-voice-wave = Snimanje
-delete-voice-clip = ili obriši glasovni isječak
-ready-to-upload = Prijenos podataka
-avatar-clip-fact = Davno utvrđena činjenica je, da će čitatelja ometati čitljiv sadržaj stranice, kad pogleda njezin izgled.
-recreate-voice = Ponovno stvorite radiovalove glasa
-cancel-avatar-clip-recording = Odustani
-about-avatar-clip-recording = Stvori glasovni isječak kao dio tvog avatar profila. Drugi korisnici će moći prijeći preko njega i poslušati tvoj isječak.
+
+## Profile - Email
+
 browse-file-title = Dodaj novu fotografiju
 browse-file = Povuci i ispusti ili <browseWrap>pregledaj</browseWrap>
 connect-gravatar = Poveži sa Gravatar
 gravatar_not_found = Za tvoju e-mail adresu ne postoji gravatar
 file_too_large = Odabrana datoteka je prevelika
+avatar-uploaded = Avatar je prenesen
+max-file-size = { $kb }kb max
+
+## Profile - Email
+
 manage-subscriptions = Upravljanje pretplatama
 manage-email-subscriptions = Upravljaj e-mail pretplatama
 email-already-used = E-mail adresa se već koristi za jedan drugi račun
@@ -409,9 +424,9 @@ faq-why-different-speakers-a =
 faq-why-my-lang-q = Zašto moj jezik još nije uključen?
 faq-why-my-lang-new-a = Mozilla ne daje prednost niti jednom jeziku. Common Voice je inicijativa koju vodi isključivo zajednica, ali potrebno je <multilangLink>nekoliko koraka za dodavanje novog jezika</multilangLink> i za prikupljanje glasovnih doprinosa. Common Voice web-stranica se najprije mora prevesti, kako bi joj članovi zajednice mogli pristupiti na materinskom jeziku. Nadalje nam je potrebna velika količina rečenica bez autorskih prava, kako bi ih ljudi naglas čitali. Nakon što su oba zahtjeva zadovoljena, na Common Voiceu se jezik „lansira”, kako bi ljudi započeli snimati svoj glas i potvrđivati druge doprinose. Ako želiš pomoći započeti novi jezik, prijeđi na naš <sentenceCollectorLink>alat za prikupljanje rečenica</sentenceCollectorLink>.
 faq-what-quality-q = Koja je kvaliteta zvuka potrebna za korištenje glasovnog isječka?
-faq-what-quality-a = Želimo da podaci skupa Common Voice odražavaju kvalitetu zvuka koju će mehanizam za govor-u-tekst razumjeti, te stoga tražimo različitost. Pored raznolike zajednice govornika, skup podataka s različitom kvalitetom zvuka, podučit će mehanizam za govor-u-tekst, riješiti razne situacije u stvarnom svijetu, od razgovora u pozadini, do buke u automobilu. Sve dok je tvoj glasovni isječak razumljiv, trebao bi biti dovoljno dobar za skup podataka.
-faq-why-10k-hours-q = Zašto je postavljen cilj od 10 000 potvrđenih sati po jeziku?
-faq-why-10k-hours-a = Ovo je otprilike broj sati, potrebnih za obuku proizvodnog sustava za pretvaranje govora u tekst.
+faq-what-quality-a = Želimo da podaci skupa Common Voice odražavaju kvalitetu zvuka koju će mehanizam za pretvaranje govora u tekst razumjeti, te stoga tražimo različitost. Pored raznolike zajednice govornika, skup podataka s različitom kvalitetom zvuka, podučit će mehanizam za pretvaranje govora u tekst, riješiti razne situacije u stvarnom svijetu, od razgovora u pozadini do buke u automobilu. Sve dok je tvoj glasovni isječak razumljiv, trebao bi biti dovoljno dobar za skup podataka.
+faq-why-10k-hours-q = Zašto je postavljen cilj od 10.000 potvrđenih sati po jeziku?
+faq-why-10k-hours-a = Ovo je otprilike broj potrebnih sati za osposobljavanje proizvodnog sustava za pretvaranje govora u tekst.
 faq-how-calc-hours-q = Kako Common Voice izračunava sate?
 faq-how-calc-hours-a = Sate izračunavamo procjenjujući prosječnu duljinu svakog snimanja, a zatim taj broj množimo s ukupnim brojem snimaka na svim jezicima.
 faq-where-src-from-2-q = Od kuda dolazi izvorni tekst?
@@ -448,7 +463,7 @@ how-does-it-work-text = Stvaramo skup podataka glasova otvorenog koda. Daj svoj 
 about-speak = Govori
 about-speak-text = Sudionici snimaju glasovne zapise čitajući iz baze doniranih rečenica.
 about-listen-queue = Red čekanja za slušanje
-about-listen-queue-text = Glasovni isječci se unose se u red čekanja, koji ih priprema za slušanje.
+about-listen-queue-text = Glasovni isječci unose se u red čekanja koji ih priprema za slušanje.
 about-listen = Slušaj
 about-listen-text = Korisnici potvrđuju ispravnost doniranih isječaka, provjeravajući pri tome, je li govornik ispravno pročitao rečenicu.
 about-is-it-valid = Je li isječak ispravan?
@@ -470,9 +485,9 @@ about-partnership =
 about-get-involved = Uključi se
 about-get-involved-text-2 =
     Želiš pomoći poboljšati Common Voice?
-    Sjajno! Stupi u kontakt putem e-pošte ili putem <discourseLink>foruma za diskutiranje</discourseLink>,
+    Sjajno! Stupi u kontakt putem e-pošte ili putem <discourseLink>foruma za diskusije</discourseLink>,
     pošalji povratne informacije putem <githubLink>GitHub</githubLink> sustava,
-    ili nam se pridruži na društvenom chatu <matrixLink>Matrix</matrixLink>.
+    ili se pridruži razgovorima zajednice putem <matrixLink>Matrixa</matrixLink>.
 about-nav-why-common-voice = Zašto?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partneri
@@ -492,18 +507,18 @@ localization-explanation = Ovo je naš postupak prevođenja i prilagođavanja na
 sentence-collection = Prikupljanje rečenica
 sentence-collection-explanation = Prikupljanje rečenica iz javne domene ili pisanje novih za javnu domenu.
 hours-recorded-explanation = Broj do sada prikupljenih sati snimljenog glasa.
-hours-validated-explanation = Broj sati snimanja glasa koje su dva od tri korisnika potvrdili glasom „Da”. Označavaju napredak u odnosu na ukupni cilj projekta od 10 000 sati.
+hours-validated-explanation = Broj sati snimanja glasa koje su dva od tri korisnika potvrdili glasom „Da”. Označavaju napredak u odnosu na ukupni cilj projekta od 10.000 sati.
 sst = Govor u tekst (Speech-to-text STT)
 sst-explanation = Govor u tekst (STT) tehnologije pretvaraju govor u tekst.
-de-identified = De-identificirani
+de-identified = Anonimiziranje
 de-identified-explanation = Proces, kojim se informacije o profilu doprinositelja skrivaju iz njegovih darovanih glasovnih isječaka, kad se pakiraju za preuzimanje kao dio skupa podataka.
 
 ## Error pages
 
 error-title-404 = Nismo mogli pronaći tu stranicu
-error-content-404 = Možda će naša <homepageLink>početna stranica</homepageLink> biti od pomoći? Kako biste postavili pitanje, pridružite se <matrixLink>razgovorima Matrix zajednice</matrixLink>, pratite poteškoće na stranici putem <githubLink>GitHub</githubLink> ili posjetite <discourseLink>naše Discourse forume</discourseLink>.
+error-content-404 = Možda će naša <homepageLink>početna stranica</homepageLink> biti od pomoći? Za postavljanje pitanja, pridruži se razgovorima zajednice putem <matrixLink>Matrixa</matrixLink>, prati probleme web-stranica putem <githubLink>GitHuba</githubLink> ili posjeti <discourseLink>naše forume za diskusiju</discourseLink>.
 error-title-503 = Došlo je do neočekivanog prekida rada
-error-content-503 = Stranica će biti dostupna što je prije moguće. Za najnovije informacije, pridružite se <matrixLink>razgovorima Matrix zajednice</matrixLink> ili posjetite <githubLink>GitHub</githubLink> ili <discourseLink>naš Discourse forum</discourseLink> kako biste prijavili i pratili probleme sa stranicom.
+error-content-503 = Stranica će biti dostupna što je prije moguće. Za najnovije informacije, pridruži se razgovorima zajednice putem <matrixLink>Matrixa</matrixLink> posjeti <githubLink>GitHub</githubLink> ili <discourseLink>naše forume za diskusiju</discourseLink> za prijavljivanje i praćenje problema s web-stranicom.
 error-code = Greška { $code }
 
 ## Data
@@ -521,14 +536,16 @@ data-other-goto = Prijeđi na { $name }
 data-other-download = Preuzimanje podataka
 data-bundle-button = Preuzmi paket skupova podataka
 data-bundle-description = Common Voice podaci, plus svi gore navedeni skupovi glasovnih podataka.
+release-version = Verzija
+dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Kombinirana
 data-download-singleword-title = Preuzmi segment za ciljanje pojedinačnih riječi
-data-download-singleword-callout = Ovaj segment sadrži podatke za prepoznavanje izgovorenih brojki, za otkrivanje odgovora da/ne i za testiranje riječi buđenja uređaja u <fxLink>Firefox Voiceu</fxLink>.
+data-download-singleword-callout-v2 = Ovo je segment usmjeren na slučajeve upotrebe koji sadrži podatke za prepoznavanje izgovorenih znamenki i otkrivanje da / ne.
 review-terms = Korištenjem Common Voicea, prihvaćaš naše <termsLink>uvjete</termsLink> i <privacyLink>napomene o privatnosti</privacyLink>
 terms-agree = slažem se
 terms-disagree = ne slažem se
-review-aborted = Prijenos je prekinut. Želite li izbrisati svoje snimke?
+review-aborted = Prijenos je prekinut. Želiš li izbrisati svoje snimke?
 review-submit-title = Pregledaj i pošalji
 review-submit-msg = Hvala ti na snimci!<lineBreak></lineBreak>Sad preslušaj i pošalji svoje isječke.
 review-recording = Pregledaj
@@ -549,7 +566,7 @@ datasets-positioning =
 language = Jezik
 # File size in gigabytes
 size = Veličina
-validated-hr-total = Potvrđenih sati ukupno
+validated-hr-total = Potvrđeni sati ukupno
 overall-hr-total = Broj sati ukupno
 cv-license = Licenca
 audio-format = Format zvuka
@@ -594,7 +611,7 @@ dataset-version = Verzija
 ## Download Modal
 
 download-title = Preuzimanje je započelo.
-download-helpus = Pomozi nam izgraditi zajednicu za glasovne tehnologije, ostani u kontaktu putem e-maila.
+download-helpus = Pomogni nam izgraditi zajednicu za glasovne tehnologije, ostani u kontaktu putem e-maila.
 download-form-email =
     .label = Upiši svoju e-adresu
     .value = Hvala, javit ćemo se.
@@ -694,10 +711,11 @@ listen-empty-state = Ponestalo nam je isječaka za potvrdu na ovom jeziku...
 speak-empty-state = Ponestalo nam je rečenica za snimanje na ovom jeziku...
 speak-empty-state-cta = Predložite rečenice
 record-button-label = Snimite svoj glas
-share-title-new = <bold>Pomozite nam</bold> pronaći više glasova
+share-title-new = <bold>Pomogni nam</bold> pronaći još glasova
 keep-track-profile = Prati svoj napredak pomoću profila
 login-to-get-started = Za početak se prijavi ili registriraj
 target-segment-first-card = Doprinosiš našem prvom segmentu cilja
+target-segment-generic-card = Pridonosiš ciljanom segmentu
 target-segment-first-banner = Pomogni stvoriti prvi segment cilja Common Voicea za { $locale }
 target-segment-add-voice = Dodaj svoj glas
 target-segment-learn-more = Saznaj više
@@ -749,6 +767,7 @@ validations =
 
 your-languages = Vaši jezici
 toward-next-goal = Prema sljedećem cilju
+goal-reached = Cilj postignut
 clips-you-recorded = Isječci koje ste snimili
 clips-you-validated = Tvoji potvrđeni isječci
 todays-recorded-progress = Današnji napredak Common Voicea o snimljenim isječcima
@@ -791,13 +810,13 @@ help-reach-hours-pluralized =
         [one] { $hours } sat
         [few] { $hours } sata
        *[other] { $hours } sati
-    }za { $language } s osobnim ciljem
+    } za { $language } s osobnim ciljem
 help-reach-hours-general-pluralized =
     Pomogni Common Voiceu dosegnuti{ NUMBER($hours) ->
         [one] { $hours } sat
         [few] { $hours } sata
        *[other] { $hours } sati
-    }za jezik s osobnim ciljem
+    } za jezik s osobnim ciljem
 set-a-goal = Postavi cilj
 cant-decide = Ne možeš se odlučiti?
 activity-needed-calculation-plural =
@@ -805,19 +824,19 @@ activity-needed-calculation-plural =
         [one] { $totalHours } sat
         [few] { $totalHours } sata
        *[other] { $totalHours } sati
-    }je ostvarivo u samo više od{ NUMBER($periodMonths) ->
+    } je ostvarivo u samo više od{ NUMBER($periodMonths) ->
         [one] { $periodMonths } mjesec
         [few] { $periodMonths } mjeseca
        *[other] { $periodMonths } mjeseci
-    }ako{ NUMBER($people) ->
+    } ako{ NUMBER($people) ->
         [one] { $people } osoba
         [few] { $people } osobe
        *[other] { $people } osoba
-    }snimi/snime{ NUMBER($clipsPerDay) ->
+    } snimi/snime{ NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } isječak
         [few] { $clipsPerDay } isječka
        *[other] { $clipsPerDay } isječaka
-    }na dan.
+    } na dan.
 how-many-per-day = Sjajno! Koliko isječaka dnevno?
 how-many-a-week = Sjajno! Koliko isječaka tjedno?
 which-goal-type = Želiš li govoriti, slušati ili oboje?
@@ -833,7 +852,7 @@ n-clips-pluralized =
         [few] { $count } isječka
        *[other] { $count } isječaka
     }
-help-share-goal = Pomozi nam pronaći više glasova, podijeli svoj cilj
+help-share-goal = Pomogni nam pronaći još glasova, podijeli svoj cilj
 confirm-goal = Potvrdi cilj
 goal-interval-weekly = Tjedno
 # $type is one of share-goal-type-*
@@ -871,3 +890,39 @@ help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaran
 login-company = Prijavi se / registriraj se s { $company } e-mail adresom
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
 read-more-about = Pročitaj više na našoj stranici Informacije
+
+## DemoLayout
+
+demo-get-started = Započnimo
+demo-welcome = Dobro došao, dobro došla u Common Voice
+demo-welcome-subheader = Zainteresirani ste za naučiti više i doprinijeti projektu?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice je najveći javno dostupan, višejezičan skup glasovnih podataka na svijetu.
+demo-language-select-card-body = Zahvaljujući doprinosima preko 259 000 ljudi na više od 50 jezika, ovi se podaci koriste za osposobljavanje aplikacija s omogućenim govorom da bolje reagiraju na ljudski glas.
+card-button-next = Dalje
+card-button-back = Natrag
+demo-language-select-label = Pregledaj jezike
+demo-eofy-header = Izdanje na kraju 2019
+demo-eofy-sub_header = Skup glasovnih podataka, spreman za preuzimanje
+demo-account = Račun
+
+## Demo Account
+
+demo-account-card-header = Otvaranje računa nije potrebno za doprinos, iako je korisno.
+demo-account-card-body = S desne strane opisujemo prednosti i razjašnjavamo koje informacije objavljujemo. Upotrijebite donje poveznice kako biste započeli s računom Common Voice na vlastitom uređaju.
+demo-account-enter-email =
+    .label = Upiši e-adresu za slanje poveznice za prijavu
+demo-account-sign-up = Pošalji poveznicu za prijavu
+
+## Demo Contribute
+
+demo-contribute-card-header = Jeste li spremni dodati svoj glas ili posuditi uho?
+demo-contribute-card-body-v2 = Sad kada znate malo više o projektu Common Voice, zašto ga ne isprobati? Kliknite na ikonu mikrofona kako bi počeli čitati rečenice na glas. <br/><br/>Ako vam je draže provjeravanje glasovnih doprinosa drugih ljudi, klikni na ikonu za reprodukciju. Pomoći ćete potvrditi da se snimke slažu sa rečenicama na ekranu.
+demo-listen-subtitle = Jeste li spremni dati svoj doprinos?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Osobne nadzorne ploče održavaju vas u toku s napretkom pojedinca i zajednice.
+demo-dashboard-card-body = Za svaki donirani glasovni isječak i svaki potvrđeni audioisječak nadzorne ploče vašeg računa ažuriraju se tako da odražavaju vaš najnoviji napredak na svakom jeziku kojem doprinosite. Da, možete doprinijeti na više od jednom jeziku! <br/> <br/> Upotrijebite nadzorne ploče da biste pratili svoju statistiku, vidjeli kako radite s drugima u zajednici i postavili dnevne ili tjedne ciljeve doprinosa.

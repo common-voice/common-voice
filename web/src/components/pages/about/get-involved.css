@@ -1,5 +1,3 @@
-@import url('../../vars.css');
-
 .about {
     .get-involved {
         padding: 0;
@@ -107,7 +105,11 @@
         & .line {
             width: 70px;
             height: 3px;
-            background: linear-gradient(to right, var(--gradient-pink), var(--gradient-purple));
+            background: linear-gradient(
+                to right,
+                var(--gradient-pink),
+                var(--gradient-purple)
+            );
 
             @media (--md-down) {
                 margin-bottom: 20px;

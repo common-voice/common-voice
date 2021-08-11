@@ -22,10 +22,9 @@ const SECTION_NAMES: any = {
 
 const SECTION_CONTENTS: any = {
   [SECTIONS.whatIsCV]: [
-    'faq-what-cv',
+    ['faq-what-cv-q', 'faq-what-cv-a-2'],
     'faq-why-important',
     'faq-why-mission',
-    'faq-what-cv-and-deepspeech',
     'faq-is-goal-assistant',
   ],
   [SECTIONS.usingCV]: [
@@ -106,7 +105,7 @@ const SECTION_CONTENTS: any = {
           italic: <i />,
           githubLink: (
             <StyledLink
-              href={`${URLS.GITHUB_ROOT}/tree/master/server/data`}
+              href={`${URLS.GITHUB_ROOT}/tree/main/server/data`}
               blank
             />
           ),
