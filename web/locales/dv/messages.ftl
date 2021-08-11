@@ -8,7 +8,8 @@ email-input =
     .label = އީމެއިލް
 submit-form-action = ހުށަހަޅާ
 loading = ތައްޔާރުވަނީ...
-email-opt-in-privacy = އީމެއިލް ލިބިގަތުމައް ޚިޔާރު ކުރުމުގައި ތި އެއްބަސްވަނީ، މޮޒިލާ މި މަޢުލޫމާތުތައް ބޭނުން ކުރިއަށް މައްސަލައެއް ނެތް ކަމަށެވެ. އެއީ މޮޒިލާގެ <privacyLink>ޕްރައިވެސީ ޕޮލިސީ<privacyLink> ގައި ވާ ފަދައިންނެވެ.
+email-opt-in-info = ކޮމަން ވޮއިސް އާއި ގުޅޭ ޚަބަރާއި، އަޅުގަނޑުގެ ޕުރޮގްރެސްގެ އަޕްޑޭޓާއި، ގޯލް ހަނދާންކޮށްދިނުން ފަދަ ކަންކަމާއި ގުޅޭ އީމެއިލް ލިބެން އަޅުގަނޑު ބޭނުމެވެ.
+email-opt-in-info-title = ކޮމަން ވޮއިސް މެއިލް ލިސްޓާއި ގުޅެން
 indicates-required = * އަންގައިދެނީ ފުރަން މަޖުބޫރު ތަންތަނެވެ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -261,8 +262,6 @@ profile-form-accent =
     .label = ބަހުރުވަ
 profile-form-age =
     .label = އުމުރު
-profile-form-gender =
-    .label = ޖިންސް
 leaderboard-visibility =
     .label = ލީޑަރބޯރޑްގެ ފެނުން
 hidden = ފޮރުވިފަ
@@ -288,7 +287,6 @@ profile-close = ލައްޕާ
 profile-explanation = ތިދާ ހިސާބު ބެލުމަށްޓަކައި ވަނަވަރެއް ބޭނުން ކުރޭ، އަދި އަހަރުމެންގެ އަޑު ޑޭޓާ ބޮޑަށް ދިމާވާ ގޮތަށް ހަދަން އެހީވެދީ.
 thanks-for-account = އެކައުންޓް ޔަގީންކޮށްދިނީތީ ޝުކުރިއްޔާ. ދެން ހިނގާ ވަނަވަރު ފުރިހަމަކުރަން
 why-demographic = މިކަން މުހިންމުވަނީ ކީއްވެ؟
-why-demographic-explanation = އުމުރު، ޖިންސް، އެކްސެންޓް ފަދަ އެނޮނިމައިޒް ކުރެވިފައިވާ ޔޫޒާ ޑާޓާ އަކީ ސްޕީޗް ރިކޮގްނިށަން އެންޖިންސް ގެ އެކިއުރަސީ ތަމްރީނުކުރުމަށް ބޭނުންވާ އޯޑިއޯ ޑާޓާ ފުރިހަމަކުރުމަށް އެހީވެދޭ މަޢުލޫމާތެވެ. ތިޔަފަރާތުގެ ޔޫޒާ ނޭމް އާއި އީމެއިލް އެޑްރެސް، ތިޔަފަރާތުން ދެއްވާ ޑާޓާ އާ އެއްވެސް ހާލެއްގައި ނުގުޅުވޭނެއެވެ. އަދި ގެންގުޅުއްވާ ޔޫޒާ ނޭމް  އެންމެނަށް ހާމައަށް، ނުވަތަ ސިއްރުކޮށްފައި ބޭއްވުމުގެ އިޚްތިޔާރު ތިޔަ ފަރާތަށް ލިބިގެންވެއެވެ.
 accept-privacy = މޮޒިލާގެ ޝަޚުސީ ޕޮލިސީ <privacyLink></privacyLink> ކިޔާދޭއިރު، މި މަޢުލޫމާތު ބޭނުން ކުރިއަސް މައްސަލައެއް ނެތް.
 login-identity = ލޮގިން އައިޑީ
 login-signup = ވަދޭ/ރެޖިސްޓަރ ކުރޭ
@@ -301,11 +299,17 @@ skip-submission-description = ބައިވެރިވާ އިރު، 'ހުށަހަޅާ'
 skip-submission-note = ދަންނާށެވެ: ހުށަހަޅާ ބާވަތް ބަދަލުކުރާއިރު، ވާހަކަދައްކާ ނޫނީ އަޑުއަހާ، މިއިން ކޮންމެވެސް އެއް ގޮތެއް ޚިޔާރު ކުރަންޖެހޭނެ.
 off = ނިވާލާ
 on = ޖައްސާ
+
+## Profile - Email
+
 browse-file-title = ފޮޓޯ ހުށައަޅާ
 browse-file = ދަމާފަ ވައްޓާލާ ނޫނީ <browseWrap>ބްރައުސް</browseWrap>
 connect-gravatar = ގްރެވަޓާއާއި ގުޅާދީ
 gravatar_not_found = ތިޔަ އީލެއިލްއާއި ގުޅިވައިވާ ގްރެވަޓާއެއް ނުފެނުނު
 file_too_large = ތި ފައިލް މާ ބޮޑު
+
+## Profile - Email
+
 manage-subscriptions = އިސްތިރާކު ބެލެހެއްޓުން
 email-already-used = އެހެން އެކައުންޓެއްގައި ތި އީމެއިލް ވަނީ ބޭނުންކޮށްފައި
 add-language = ބަހެއް އިތުރުކުރޭ
@@ -367,10 +371,8 @@ sst-explanation = އިއްވިލިޔަނި ޓެކްނޮލޮޖީއިން އަޑު
 de-identified = އައިޑީ ކަނޑާލެވިފަ
 de-identified-explanation = މައުލޫމާތު ކޮށާރުގެ ބައެއްގެ ގޮތުގައި  ޑައުލޯޑު ކުރުމަށް ތައްޔާރު ކުރެވޭ އިރު ހިއްސާ ކުރާ ފަރާތުގެ ޕްރޮފައިލް މައުލޫމާތުތައް އެފަރާތުން ދީފައިވާ ރެކޯޑިން ތަކުން ވަކި ކުރަން ނޭނގޭ ގޮތައް ހެދެއެވެ.
 
-## NotFound
+## Error pages
 
-notfound-title = ނުފެނުނު
-notfound-content = ތިޔަ ހޯދަންއުޅޭ އެއްޗެއް ނޭނގުނު
 
 ## Data
 
@@ -494,7 +496,6 @@ contribute = ހުށަހަޅާ
 listen = އަޑުއަހާ
 skip = ދޫކޮށްލާ
 shortcuts = ކުރުމަގު
-clips-with-count = <bold>{ $count }</bold> ކްލިޕް
 goal-help-recording = އާންމުއަޑަށް ތި އެހީވެދިނީ <goalPercentage></goalPercentage> ކޮންމެ ދުވަހެއްގެ { $goalValue } ރެކޯޑުކުރުމުގެ ލަނޑުދަނޑި ހާސިލު ކުރުމަށެވެ!
 goal-help-validation = ކޮމަން ވޮއަސްއަށް މިހާސިލްވި<goalPercentage><goalPercentage> އަކީ ދުވަހުގެ { $goalValue } އަމާޒަށް ވާސިލް ވުމަ….؟
 contribute-more =
@@ -589,3 +590,21 @@ profile-form-delete = ވަނަވަރު ފޮހެލާ
 ## Landing
 
 profile-not-required = ބައިވެރިވުމަށް ޓަކައި، ވަނަވަރެއް ހަދާފައި ހުރުމަކީ ކޮންމެހެން ލާޒިމު ކަމެއް ނޫން. އެކަމަކު. އެއީ ފައިދާކުރާ ކަމެއް.
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+

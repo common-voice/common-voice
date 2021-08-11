@@ -129,7 +129,7 @@ export default withLocalization(({ getString }: WithLocalizationProps) => {
               <h1 />
             </Localized>
 
-            <Localized id="faq-description">
+            <Localized id="default-tagline">
               <h2 />
             </Localized>
           </div>

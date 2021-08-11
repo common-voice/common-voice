@@ -1,5 +1,4 @@
 export const up = async function (db: any): Promise<any> {
-  // Note: Manual backfill to follow.
   return db.runSql(`
     UPDATE clips
     INNER JOIN sentences

@@ -1,0 +1,12 @@
+nula
+jedna
+dva
+tři
+čtyři
+pět
+šest
+sedm
+osm
+devět
+ano
+ne

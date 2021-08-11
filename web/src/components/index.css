@@ -1,6 +1,7 @@
 @import url('../../../node_modules/react-tippy/dist/tippy.css');
 
 @import url('vars.css');
+@import url('media.css');
 @import url('ui/ui.css');
 
 @import url('alert/alert.css');
@@ -17,6 +18,30 @@
     src: url('/font/icomoon.ttf');
 }
 
+/* Zilla Slab has a limited glyph support range so switch to
+   Noto in known cases */
+html[lang='ab'],
+html[lang='cv'],
+html[lang='ff'],
+html[lang='ky'],
+html[lang='ro'],
+html[lang='gn'] {
+    --strong-font-family: 'Noto Serif', serif;
+}
+
+/* Fonts that support arabic script generally don't support any other
+   extended alphabet, so fall back to sans-serif to avoid loading more fonts */
+html[lang='ckb'] {
+    --strong-font-family: 'Open Sans', sans-serif;
+}
+
+/* Fulah and Romanian are not supported by Open Sans */
+html[lang='ro'],
+html[lang='ff'],
+html[lang='az'] {
+    --base-font-family: 'Inter', sans-serif;
+}
+
 html {
     font-family: var(--base-font-family);
     font-size: var(--font-size);
@@ -30,8 +55,9 @@ body,
 #main {
     padding: 0;
     margin: 0;
-    min-height: 100vh;
     width: 100%;
+    height: 100vh;
+    max-height:  100%;
 }
 
 h1,
@@ -192,7 +218,7 @@ button {
 #content {
     position: relative;
     min-height: 80vh;
-    overflow-x: hidden;
+    border-top: 1px solid var(--light-grey);
 
     @media (--md-up) {
         position: unset;
@@ -200,7 +226,7 @@ button {
         padding: 0 var(--page-margin);
     }
 
-    & > div {
+    > div {
         box-sizing: border-box;
         transition: opacity var(--transition-duration-slow) var(--easing);
         max-width: var(--desktop-width);
@@ -212,6 +238,10 @@ button {
         @media (--md-up) {
             min-height: auto;
             padding: 0;
+        }
+
+        @media (--xl-up) {
+            max-width: var(--wide-desktop-width);
         }
     }
 }

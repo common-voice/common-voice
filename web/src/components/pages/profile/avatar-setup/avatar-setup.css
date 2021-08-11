@@ -1,4 +1,3 @@
-@import url('../../../vars.css');
 .full-avatar-setup {
     display: flex;
     flex-direction: row;
@@ -6,285 +5,12 @@
     max-width: var(--wide-desktop-width);
 }
 
-.clip {
-    border-right: solid 1px;
-    border-color: whitesmoke;
-    padding-right: 20px;
-    @media only screen and (max-width: 414px) {
-        border-color: white;
-        padding-right: 0px;
-    }
+.avatar-current {
+    padding: 0 1rem 1rem 1rem;
 
-    & svg {
-        padding: 5px;
-    }
-
-    & h2 {
-        max-width: 334px;
-        height: 58px;
-        font-family: var(--strong-font-family);
-        font-size: 24px;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: center;
-        color: var(--black);
-    }
-
-    .clip-title {
-        position: relative;
-        left: 15%;
-        right: 15%;
-        padding-top: 10px;
-        @media only screen and (max-width: 414px) {
-            left: 6%;
-            right: 6%;
-        }
-    }
-
-    .group-1 {
-        max-width: 508px;
-        height: 169px;
-        object-fit: contain;
-        background-image: url('./images/group-1.svg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-
-    .lottiebg {
-        max-width: 508px;
-        height: 169px;
-        object-fit: contain;
-        background-image: url('./images/groupbg.svg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-
-    .lottie {
-        max-width: 506px;
-        height: 169px;
-    }
-
-    .but {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 320px;
-    }
-
-    .primary {
-        width: 30%;
-        height: 57px;
-        position: relative;
-        left: 24%;
-        right: 24%;
-        text-decoration: none;
-
-        & path {
-            fill: #ff4f5e;
-        }
-
-        &:hover {
-            border-color: rgba(0, 0, 0, 0.1) !important;
-            box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
-            & svg {
-                background: white;
-                opacity: 1;
-                & path {
-                    fill: #ff4f5e;
-                }
-            }
-        }
-        @media only screen and (max-width: 414px) {
-            left: 18%;
-            right: 18%;
-        }
-    }
-
-    .rerecord-but:hover svg {
-        opacity: 1;
-        & path {
-            fill: #ff4f5e;
-        }
-    }
-
-    .cancel-but {
-        width: 0%;
-        min-width: 10rem;
-        left: 32%;
-        right: 32%;
-        &:hover {
-            & svg {
-                & path {
-                    fill: grey;
-                }
-            }
-        }
-        @media only screen and (max-width: 414px) {
-            left: 25%;
-            right: 25%;
-        }
-    }
-
-    .recording-stop {
-        position: relative;
-        top: -78%;
-    }
-
-    .primary-2 {
-        width: 70%;
-        min-width: 10rem;
-        height: 57px;
-        background-color: #59cbb7;
-        position: relative;
-        left: 60%;
-        right: 60%;
-
-        &:hover {
-            border-color: rgba(0, 0, 0, 0.1) !important;
-            box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
-            & svg {
-                opacity: 1;
-                & path {
-                    fill: grey;
-                }
-            }
-        }
-        @media only screen and (max-width: 414px) {
-            left: 44%;
-            right: 44%;
-            min-width: 8rem;
-        }
-    }
-
-    .delete-but {
-        background-color: white;
-        font-size: 13.5px;
-    }
-
-    .primary-3 {
-        width: 70%;
-        min-width: 10rem;
-        height: 57px;
-        background-color: var(--white);
-        position: relative;
-        left: 43%;
-        right: 43%;
-        font-size: 13.5px;
-
-        &:hover {
-            border-color: rgba(0, 0, 0, 0.1) !important;
-            box-shadow: 0 5px 10px color-mod(var(--red) alpha(40%));
-            & svg {
-                opacity: 1;
-                & path {
-                    fill: #ff4f5e;
-                }
-            }
-        }
-
-        @media only screen and (max-width: 414px) {
-            left: 40%;
-            right: 40%;
-            min-width: 8rem;
-        }
-    }
-
-    .create-a-custom-voice {
-        max-width: 470px;
-        height: 58px;
-        text-align: center;
-        color: grey;
-        padding-top: 30px;
-        padding-left: 22px;
-    }
-
-    .delete-voice {
-        max-width: 470px;
-        height: 58px;
-        text-align: center;
-        color: #629ff4;
-        cursor: pointer;
-        padding-top: 36px;
-        padding-left: 10px;
-    }
-
-    .hide-recreate {
-        display: none;
-    }
-
-    .voice-paragraph-2 {
-        margin-bottom: 36px;
-    }
-
-    .counter {
-        position: relative;
-        top: 18%;
-    }
-
-    .fix {
-        padding-top: 40px;
-        height: 240px;
-        max-width: 520px;
-    }
-    .start-in {
-        position: relative;
-        top: 10px;
-        width: 39px;
-        height: 18px;
-        font-size: 12px;
-        font-weight: normal;
-        font-style: italic;
-        font-stretch: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
-        text-align: center;
-        color: grey;
-    }
-
-    .counter-digit {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        text-align: center;
-        color: var(--near-black);
-    }
-
-    .counter-animation {
-        border: 2px solid;
-        border-radius: 50%;
-        border-right-color: var(--gradient-pink);
-        border-left-color: white;
-        border-top-color: var(--gradient-pink);
-        border-bottom-color: var(--gradient-pink);
-        width: 95%;
-        height: 70px;
-        @media only screen and (max-width: 414px) {
-            height: 50px;
-        }
-    }
-    .counter-2 {
-        border-bottom-color: white;
-        border-left-color: white;
-    }
-
-    .counter-1 {
-        border-right-color: white;
-        border-bottom-color: white;
-        border-left-color: white;
-    }
-    .counter-0 {
-        border-right-color: white;
-        border-bottom-color: white;
-        border-left-color: white;
-        border-top-color: white;
-    }
-
-    .recorded-play {
-        position: relative;
-        top: 10%;
+    .avatar-wrap {
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -293,88 +19,87 @@
         padding-top: 36px;
     }
     width: 35%;
-    .avatar-setup {
-        border: none;
-        padding-left: 20px;
-        & h2 {
-            margin-bottom: 60px;
-            font-weight: 600;
+
+    border: none;
+    padding-left: 20px;
+    h2 {
+        margin-bottom: 60px;
+        font-weight: 600;
+    }
+
+    .hide-input {
+        display: none;
+    }
+
+    .file-upload,
+    .connect {
+        border-radius: 4px;
+        margin-bottom: 30px;
+
+        @media (--lg-up) {
+            width: 70%;
+        }
+    }
+
+    .file-upload {
+        position: relative;
+        border: 3px dotted var(--light-grey);
+        box-sizing: border-box;
+        width: 245px;
+        height: 130px;
+
+        .title {
+            position: absolute;
+            inset-inline-start: 15px;
+            top: -11px;
+            font-size: var(--font-size-xs);
+            letter-spacing: 0.5px;
+            background: var(--white);
         }
 
-        .hide-input {
-            display: none;
-        }
-
-        & .file-upload,
-        & .connect {
-            border-radius: 4px;
-            margin-bottom: 30px;
-
-            @media (--lg-up) {
-                width: 70%;
-            }
-        }
-
-        & .file-upload {
-            position: relative;
-            border: 3px dotted var(--light-grey);
-            box-sizing: border-box;
-            width: 245px;
-            height: 130px;
-
-            & .title {
-                position: absolute;
-                inset-inline-start: 15px;
-                top: -11px;
-                font-size: var(--font-size-xs);
-                letter-spacing: 0.5px;
-                background: var(--white);
-            }
-
-            & .upload-label {
-                padding: 20px 10px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                cursor: pointer;
-                color: var(--near-black);
-
-                & .browse {
-                    margin-top: 20px;
-                    font-size: var(--font-size-xs);
-                    font-weight: 600;
-                    text-transform: uppercase;
-                    color: var(--blue);
-                }
-            }
-
-            & input {
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: -1;
-            }
-        }
-
-        & .connect {
-            border: 1px solid rgba(0, 0, 0, 0.05);
-            padding: 16px 20px;
+        .upload-label {
+            padding: 20px 10px;
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            font-family: var(--base-font-family);
-            font-size: var(--font-size);
-            font-weight: 600;
-            width: 245px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: var(--near-black);
 
-            & .link path {
-                fill: var(--blue);
+            .browse {
+                margin-top: 20px;
+                font-size: var(--font-size-xs);
+                font-weight: 600;
+                text-transform: uppercase;
+                color: var(--blue);
             }
+        }
 
-            & .check path {
-                fill: var(--valid-green);
-            }
+        input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+
+    .connect {
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        padding: 16px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: var(--base-font-family);
+        font-size: var(--font-size);
+        font-weight: 600;
+        width: 245px;
+
+        .link path {
+            fill: var(--blue);
+        }
+
+        .check path {
+            fill: var(--valid-green);
         }
     }
 }
