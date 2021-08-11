@@ -115,6 +115,7 @@ ne-NP = Nepalês
 nia = Nias
 nl = Holandês
 nn-NO = Novo norueguês
+nyn = Ancolé
 oc = Occitânico
 or = Odia
 pa-IN = Punjabi
