@@ -386,7 +386,7 @@ class ContributionPage extends React.Component<Props, State> {
             <div className="mobile-break" />
 
             {!errorContent && !isSubmitted &&  (
-              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria hidden-md-down">
+              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria hidden-sm-down">
                 <ExternalLinkIcon />
                 <Localized id="contribution-criteria-link"/>
               </LocaleLink>
@@ -530,7 +530,7 @@ class ContributionPage extends React.Component<Props, State> {
             </div>
 
             {!errorContent && !isSubmitted &&  (
-              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria hidden-lg-up">
+              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria hidden-md-up">
                 <ExternalLinkIcon />
                 <Localized id="contribution-criteria-link"/>
               </LocaleLink>

@@ -190,6 +190,7 @@ logout = Đăng xuất
 ## Home Page
 
 home-title = Common Voice là ý tưởng của Mozilla nhằm để dạy cho các phần mềm cách nói chuyện của con người.
+default-tagline = Mozilla Common Voice là một sáng kiến giúp đào tạo cho máy móc cách người thật nói.
 home-cta = Hãy lên tiếng, đóng góp giọng nói ở đây!
 wall-of-text-start = Giọng nói là tự nhiên, giọng nói là con người. Đó là lý do chúng tôi hứng thú với việc tạo ra công nghệ giọng nói có thể sử dụng được cho các phần mềm. Nhưng để tạo ra hệ thống này thì cần có một lượng lớn dữ liệu các giọng nói.
 wall-of-text-more-mobile = Phần lớn các dữ liệu được sử dụng bởi các công ty lớn thì không có sẵn cho đa số mọi người. Chúng tôi nghĩ rằng điều này làm cản trở sự sáng tạo. Vì vậy chúng tôi ra mắt dự án Common Voice, một dự án giúp mọi người tiếp cận được công nghệ nhận dạng giọng nói.
@@ -379,6 +380,10 @@ faq-what-cv-a =
     Công nghệ nhận dạng giọng nói đang cách mạng hóa cách chúng ta tương tác với máy móc, nhưng các hệ thống hiện có là đắt tiền và độc quyền. Common Voice là một phần của sáng kiến Mozilla, giúp mọi công nghệ nhận dạng giọng nói tốt hơn và dễ tiếp cận hơn cho mọi người. Common Voice là một cơ sở dữ liệu toàn cầu khổng lồ về các giọng nói được quyên tặng cho phép mọi người nhanh chóng và dễ dàng đào tạo các ứng dụng hỗ trợ giọng nói bằng mọi ngôn ngữ.
     
     Chúng tôi không chỉ thu thập các mẫu giọng nói bằng các ngôn ngữ được sử dụng rộng rãi mà còn ở những người có số lượng người nói nhỏ hơn. Xuất bản một tập dữ liệu đa dạng về tiếng nói sẽ trao quyền cho các nhà phát triển, doanh nhân và cộng đồng để tự giải quyết khoảng trống này. Ngoài bộ dữ liệu Common Voice, chúng tôi còn xây dựng một công cụ nhận dạng giọng nói mã nguồn mở có tên Deep Speech.
+faq-what-cv-a-2 =
+    Công nghệ nhận dạng giọng nói đang cách mạng hóa cách chúng ta tương tác với máy móc, nhưng các hệ thống hiện có rất đắt và độc quyền.  Mozilla Common Voice là một sáng kiến ​​nhằm làm cho công nghệ nhận dạng giọng nói tốt hơn và dễ tiếp cận hơn cho mọi người.  Common Voice là một cơ sở dữ liệu toàn cầu khổng lồ về các giọng nói được quyên góp cho phép mọi người nhanh chóng và dễ dàng đào tạo các ứng dụng hỗ trợ giọng nói ở mọi ngôn ngữ có khả năng.
+    
+    Chúng tôi không chỉ thu thập các mẫu giọng nói ở các ngôn ngữ được nói rộng rãi mà còn ở những ngôn ngữ có số lượng người nói ít hơn.  Việc xuất bản một tập dữ liệu đa dạng về tiếng nói sẽ trao quyền cho các nhà phát triển, doanh nhân và cộng đồng tự giải quyết khoảng cách này.
 faq-why-important-q = Tại sao nó lại quan trọng?
 faq-why-important-a =
     Lời nói thường là cách tự nhiên nhất mà chúng ta giao tiếp với nhau và công nghệ giọng nói đang mang lại sự thuận tiện cho máy tính và thiết bị di động của chúng ta. Chúng tôi muốn trao quyền cho các nhà phát triển để xây dựng các ứng dụng nhận dạng giọng nói tuyệt vời như dịch giả thời gian thực và trợ lý kỹ thuật số hỗ trợ giọng nói. Nhưng ngay bây giờ hầu hết dữ liệu giọng nói cần thiết để xây dựng các loại ứng dụng này là đắt tiền và độc quyền. Chúng tôi hy vọng bộ dữ liệu Common Voice sẽ cung cấp cho các nhà phát triển những gì họ cần để đổi mới và cung cấp công nghệ giọng nói bằng ngôn ngữ của họ.
@@ -436,6 +441,9 @@ about-title = Tại sao là Common Voice?
 about-subtitle = Common Voice là một phần trong sáng kiến của Mozilla nhằm giúp đào tạo cho máy móc cách người thật nói. Ngoài bộ dữ liệu Common Voice, chúng tôi còn xây dựng một công cụ nhận dạng giọng nói nguồn mở có tên Deep Speech.
 about-header-description =
     Cả hai dự án này là một phần trong những nỗ lực của chúng tôi để thu hẹp sự phân chia lời nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
+    Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
+about-header-description-2 =
+    Dự án này là một nỗ lực để thu hẹp khoảng cách giữa giọng nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
     Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
 how-does-it-work-title = Nó hoạt động như thế nào
 how-does-it-work-text = Chúng tôi có thể cung cấp một bộ dữ liệu nguồn mở của các giọng nói. Quyên góp giọng nói của bạn, xác thực tính chính xác clip của người khác, làm cho bộ dữ liệu tốt hơn cho mọi người.
@@ -879,3 +887,59 @@ demo-listen-subtitle = Sẵn sàng đóng góp?
 
 demo-dashboard-card-header = Trang tổng quan cá nhân giúp bạn cập nhật những tiến bộ của cá nhân và cộng đồng.
 demo-dashboard-card-body = Đối với mọi đoạn thoại được tặng và mọi đoạn âm thanh đã được xác thực, trang tổng quan tài khoản của bạn sẽ được cập nhật để phản ánh sự tiến bộ mới nhất của bạn ở mỗi ngôn ngữ mà bạn đóng góp. Có, bạn có thể đóng góp cho nhiều hơn một!<br/><br/>Sử dụng trang tổng quan để theo dõi số liệu thống kê của bạn, xem bạn đang hoạt động như thế nào cùng với những người khác trong cộng đồng và đặt mục tiêu đóng góp hàng ngày hoặc hàng tuần.
+
+## Validation criteria
+
+contribution-criteria-nav = Tiêu chuẩn
+contribution-criteria-link = Hiểu các tiêu chuẩn đóng góp
+contribution-criteria-page-title = Tiêu chuẩn đóng góp
+contribution-criteria-page-description = Hiểu những điều cần tìm khi nghe đoạn thoại và giúp bản ghi âm giọng nói của bạn phong phú hơn!
+contribution-for-example = ví dụ
+contribution-misreadings-title = Đọc sai
+contribution-misreadings-description = Khi nghe, hãy kiểm tra thật kỹ xem những gì đã ghi có chính xác là những gì đã được viết hay không; từ chối nếu có sai sót dù chỉ là nhỏ. Những sai lầm rất phổ biến <br /> bao gồm:
+contribution-misreadings-description-extended-list-1 = Thiếu <strong>'A'</strong> hoặc <strong>'The'</strong> ở đầu bản ghi.
+contribution-misreadings-description-extended-list-2 = Thiếu <strong>'s'</strong> ở cuối một từ.
+contribution-misreadings-description-extended-list-3 = Đọc các từ mà nó không thực sự ở đó, chẳng hạn như "Chúng tôi" thay vì "Chúng tôi là" hoặc ngược lại.
+contribution-misreadings-description-extended-list-4 = Bỏ lỡ phần cuối của từ cuối cùng do cắt đoạn ghi âm quá nhanh.
+contribution-misreadings-description-extended-list-5 = Mất nhiều lần để đọc một từ.
+contribution-misreadings-example-1-title = Những con khủng long khổng lồ của kỷ Trias.
+contribution-misreadings-example-2-title = Con khủng long khổng lồ của kỷ Trias.
+contribution-misreadings-example-2-explanation = [Nên là 'Những con khủng long']
+contribution-misreadings-example-3-title = Những con khủng long khổng lồ của Triassi-.
+contribution-misreadings-example-3-explanation = [Đoạn ghi âm bị cắt trước khi kết thúc từ cuối cùng]
+contribution-misreadings-example-4-title = Những con khủng long khổng lồ của kỷ Trias. Đúng.
+contribution-misreadings-example-4-explanation = [Có nhiều từ thừa đã được ghi lại so với văn bản được yêu cầu]
+contribution-misreadings-example-5-title = Chúng tôi sẽ ra ngoài để uống cà phê.
+contribution-misreadings-example-5-explanation = [Nội dung không khớp]
+contribution-misreadings-example-6-title = Chúng ta sẽ ra ngoài uống cà phê.
+contribution-misreadings-example-6-explanation = [Nên là "Chúng tôi"]
+contribution-misreadings-example-7-title = Chúng tôi sẽ ra ngoài để uống một cà phê.
+contribution-misreadings-example-7-explanation = [Không có ‘một’ trong văn bản gốc]
+contribution-varying-pronunciations-title = Thay đổi cách phát âm
+contribution-varying-pronunciations-description = Hãy thận trọng trước khi từ chối một clip cho rằng người đọc đã phát âm sai một từ, đặt trọng âm không đúng chỗ hoặc rõ ràng đã bỏ qua một dấu chấm hỏi. Có rất nhiều cách phát âm được sử dụng trên khắp thế giới, một số cách phát âm có thể bạn chưa nghe thấy trong cộng đồng địa phương của mình. Vui lòng đánh giá cao những người có thể nói khác với bạn.
+contribution-varying-pronunciations-description-extended = Mặt khác, nếu bạn nghĩ rằng người đọc có thể chưa bao giờ gặp từ này trước đây và chỉ đơn giản là đoán sai cách phát âm, vui lòng từ chối. Nếu bạn không chắc chắn, hãy sử dụng nút bỏ qua.
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ đều được cho dù với trọng âm ở âm tiết đầu tiên (Anh) hay thứ hai (Mỹ)]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ trong tiếng Anh luôn được phát âm là một âm tiết, không phải hai]
+contribution-background-noise-title = Tiếng nền ồn
+contribution-background-noise-description = Chúng tôi muốn các thuật toán máy học có thể xử lý nhiều loại tiếng ồn xung quanh và thậm chí những tiếng ồn tương đối lớn cũng có thể được chấp nhận với điều kiện chúng không ngăn bạn nghe thấy toàn bộ văn bản. Nhạc nền yên tĩnh là được; âm nhạc đủ lớn để ngăn bạn nghe thấy từng từ một.
+contribution-background-noise-description-extended = Nếu đoạn ghi âm bị vỡ hoặc có tiếng rè, hãy từ chối trừ khi vẫn có thể nghe được toàn bộ nội dung.
+contribution-background-noise-example-1-title = <strong>{ Sneeze }</strong> Những con khủng long khổng lồ của kỷ <strong>{ cough }</strong> Trias.
+contribution-background-noise-example-2-title = Con khủng long khổng lồ <strong>{ cough }</strong> kỷ Trias.
+contribution-background-noise-example-2-explanation = [Không thể nghe thấy một phần của văn bản]
+contribution-background-noise-example-3-title = <strong>{ Crackle }</strong> khủng long khổng lồ của <strong>{ crackle }</strong> -rias.
+contribution-background-noise-example-3-explanation = [Không thể nghe thấy một phần của văn bản]
+contribution-background-voices-title = Giọng nền
+contribution-background-voices-description = Tiếng huyên náo trong nền yên tĩnh là được, nhưng chúng tôi không muốn có thêm giọng nói có thể khiến thuật toán máy xác định các từ không có trong văn bản. Nếu bạn có thể nghe thấy những từ khác biệt với những từ trong văn bản, clip đó nên bị từ chối. Thông thường, điều này xảy ra khi TV đã được bật hoặc nơi có cuộc trò chuyện đang diễn ra gần đó.
+contribution-background-voices-description-extended = Nếu đoạn ghi âm bị vỡ hoặc có tiếng rè, hãy từ chối trừ khi vẫn có thể nghe được toàn bộ nội dung.
+contribution-background-voices-example-1-title = Những con khủng long khổng lồ của kỷ Trias. <strong>[đọc bằng một giọng nói]</strong>
+contribution-background-voices-example-1-explanation = Bạn có đến không? <strong>[được gọi bởi người khác]</strong>
+contribution-volume-title = Âm lượng
+contribution-volume-description = Sẽ có sự thay đổi tự nhiên về khối lượng giữa các độc giả. Chỉ từ chối nếu âm lượng quá cao khiến bản ghi âm bị vỡ hoặc (phổ biến hơn) nếu âm lượng quá nhỏ khiến bạn không thể nghe được những gì đang được nói nếu không tham chiếu đến văn bản đã viết.
+contribution-reader-effects-title = Hiệu ứng trình đọc
+contribution-reader-effects-description = Hầu hết các bản ghi âm là của những người nói chuyện bằng giọng nói tự nhiên của họ. Bạn có thể chấp nhận bản ghi âm không chuẩn thỉnh thoảng được hét lên, thì thầm hoặc rõ ràng là được phân phối bằng giọng ‘kịch tính’. Vui lòng từ chối các bản ghi âm đã hát và những bản ghi âm sử dụng giọng nói do máy tính tổng hợp.
+contribution-just-unsure-title = Không chắc chắn?
+contribution-just-unsure-description = Nếu bạn gặp điều gì đó mà các nguyên tắc này không đề cập đến, vui lòng bỏ phiếu theo đánh giá tốt nhất của bạn. Nếu bạn thực sự không thể quyết định, hãy sử dụng nút bỏ qua và chuyển sang bản ghi tiếp theo.
+see-more = <chevron></chevron>Xem thêm
+see-less = <chevron></chevron>Xem ít hơn

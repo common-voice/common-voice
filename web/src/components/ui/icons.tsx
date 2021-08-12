@@ -207,7 +207,7 @@ export const ChevronLeft = () => (
 );
 
 export const ChevronDown = (props: any) => (
-  <svg width="13px" height="9px" viewBox="0 0 13 9">
+  <svg width="13px" height="9px" viewBox="0 0 13 9" className={props.className}>
     <title>icon / down-arrow-black</title>
     <g
       id="Symbols"

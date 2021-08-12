@@ -147,6 +147,7 @@ th = Thailändska
 tl = Tagalog
 tr = Turkiska
 tt = Tatariska
+tw = Twi
 uby = Ubychiska
 udm = Udmurtiska
 ug = Uiguriska
@@ -156,6 +157,7 @@ uz = Uzbekistanska
 vec = Venetianska
 vi = Vietnamesiska
 vot = Votiska
+yo = Yoruba
 yue = Kantonesiska
 zh-CN = Kinesiska (Kina)
 zh-HK = Kinesiska (Hong Kong)
@@ -188,6 +190,7 @@ logout = Logga ut
 ## Home Page
 
 home-title = Projektet Common Voice är Mozillas initiativ att hjälpa till att lära maskiner hur riktiga människor talar.
+default-tagline = Mozilla Common Voice är ett initiativ för att lära maskiner hur riktiga människor talar.
 home-cta = Öppna din mun, stöd projekt och gör ett bidrag!
 wall-of-text-start = Språk är naturligt, språk är mänskligt. Därför fascineras vi av att skapa användbara taligenkänningsteknologier för våra enheter. Att utveckla röstbaserade system kräver emellertid en mycket stor mängd inspelningar i talat språk.
 wall-of-text-more-mobile = En större del av den data som används av stora företag är emellertid otillgänglig för de flesta människor. Vi tror att detta kommer att förhindra innovation. Därför lanserade vi projektet Common Voice, ett projekt som hjälper till att göra taligenkänning tillgänglig för alla.
@@ -898,3 +901,16 @@ demo-listen-subtitle = Redo att bidra?
 
 demo-dashboard-card-header = Personliga översikten håller dig uppdaterad om individuella och gemensamma framsteg.
 demo-dashboard-card-body = För varje donerat röstklipp och validerat ljudklipp uppdateras översikten för att återspegla dina senaste framsteg på varje språk du bidrar till. Ja, du kan bidra till mer än ett!<br/><br/> Använd översikten för att spåra din statistik, se hur du arbetar tillsammans med andra i gemenskapen och ställ in dagliga eller veckovisa bidragsmål.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterier
+contribution-criteria-link = Förstå bidragskriterier
+contribution-criteria-page-title = Bidragskriterier
+contribution-criteria-page-description = Förstå vad du ska leta efter när du lyssnar på röstklipp och hjälp till att göra dina röstinspelningar bättre!
+contribution-for-example = till exempel
+contribution-misreadings-title = Felläsningar
+contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
+contribution-varying-pronunciations-title = Varierande uttal
+see-more = <chevron></chevron>Se mer
+see-less = <chevron></chevron>Se mindre

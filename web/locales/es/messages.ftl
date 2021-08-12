@@ -106,17 +106,21 @@ mn = mongol
 mos = Mossi
 mr = Maratí
 mrj = Mari occidental
+ms = Malayo
 mt = Maltés
 my = Birmano
 myv = Erzya
 nb-NO = Noruego (Bokmål)
 ne-NP = Nepalí
+nia = Nias
 nl = Neerlandés
 nn-NO = Noruego Nynorsk
 oc = occitano
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polaco
+ps = Pastún
 pt = Portugués
 rm-sursilv = romanche sursilvano
 rm-vallader = Romansh Vallader
@@ -126,6 +130,7 @@ rw = Kinyarwanda
 sah = Yakuto
 sc = sardo
 scn = Siciliano
+shi = Tashelhit
 si = Cingalés
 sk = Eslovaco
 sl = Esloveno
@@ -142,14 +147,17 @@ th = Tailandés
 tl = Tagalo
 tr = Turco
 tt = Tártaro
+tw = Twi
 uby = Ubijé
 udm = Udmurto
+ug = Uigur
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
 vec = Veneciano
 vi = vietnamita
 vot = Votic
+yo = Yoruba
 yue = Cantonés
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
@@ -862,9 +870,20 @@ demo-account-sign-up = Enviar enlace de registro
 ## Demo Contribute
 
 demo-contribute-card-header = ¿Listo para agregar tu voz o prestar tu oído?
+demo-contribute-card-body-v2 = Ahora que sabes un poco más de Common Voice, ¿por qué no probarlo? Haz clic en el icono del micrófono para empezar a leer frases en voz alta. <br/><br/>Si prefieres revisar las contribuciones de voz de otras personas, haz clic en el icono de reproducción. Ayudarás a confirmar que las grabaciones coinciden con las oraciones escritas en pantalla.
 demo-listen-subtitle = ¿Listo para contribuir?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Los paneles personales te mantienen al día de los progresos individuales y comunitarios.
 demo-dashboard-card-body = Para cada grabación de voz donada y cada grabación de audio validada, los paneles de control de tu cuenta se actualizan para reflejar el progreso más reciente en cada idioma en el que colaboras. Sí, ¡puedes contribuir a más de uno!<br/><br/> Usa paneles para rastrear tus estadísticas, ver cómo estás haciendo junto a otros en la comunidad, y establecer objetivos de colaboración diarios o semanales.
+
+## Validation criteria
+
+contribution-criteria-nav = Criterios
+contribution-for-example = por ejemplo
+contribution-background-noise-title = Ruido de fondo
+contribution-volume-title = Volumen
+contribution-reader-effects-title = Efectos del lector
+see-more = </chevron></chevron>Ver más
+see-less = <chevron></chevron>Ver menos

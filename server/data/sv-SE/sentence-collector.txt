@@ -712,7 +712,6 @@ De gjorde sig icke riktigt bra till uniformen.
 De globala målen fanns inte med någonstans i kommunens årsredovisning
 De glödde som stjärnor, som goda och vackra stjärnor.
 De glömde alldeles bort den gamla fiendskapen och ansåg skogen som sin bästa vän.
-De grannaste av alla fåglarna voro grav-änderna.
 De griper brudgummen.
 De grälar, och de förtalar dig alldeles förfärligt.
 De gräver en farled tvärsigenom, och då kommer Östergötlands lov åter på allas läppar.
@@ -8808,7 +8807,6 @@ Jajamän, jag kommer till stan.
 Jakten går inte att styra.
 James och Kjell menar att undervisningen kan göras djupare om lektionerna läggs på Mässan.
 Janne från Sundbyberg reser utomlands istället för att fasta.
-Janne från Sundyberg reser utomlands istället för att fasta.
 Japanska samhällets förändring efter andra världskriget är vida omskriven.
 Jarro höll sig också nästan orörlig.
 Jasmine och jag ska gå och handla godis.
@@ -11393,6 +11391,7 @@ Och ingen människa hade tänkt på detta.
 Och inget annat får tas.
 Och inom några sekunder satt insidan av mina händer på rattens handtag.
 Och inte Eva utan mig heller.
+Och inte kommer det att fattas honom åkermark heller, fastän landet ligger sönderslitet.
 Och inte nog med det, utan det skulle bildas ny mylla under träden.
 Och jag använde alla lediga stunder att utveckla min ungdoms vildhet.
 Och jag bryr mig inte.
@@ -11424,6 +11423,7 @@ Och kommer du tillbaka snart?
 Och leva gott.
 Och liksom inte riktigt mot oss heller.
 Och livet är lustigt, för vi jobbar ihop.
+Och lycka var det, att kvinnan inte hade börjat klippningen tidigare.
 Och lämna inte polisen ett ögonblick.
 Och låt oss samla oss kring högre ting.
 Och madam kunde inte heller döda.
@@ -11478,8 +11478,11 @@ Och om vår tidiga och gemensamma ungdom.
 Och orglar skulle han aldrig göra mer, överhuvudtaget inga musikinstrument.
 Och pojken gick kanske och grubblade ut en teknik för en oblodig revolution!
 Och på berget var inte lätt att spåra.
+Och på detta sättet hade det fortgått, ända tills det hade blivit kväll.
 Och på något vis lyckas din pappa se äldre ut än bägge två.
 Och på samma sätt vandrade all boskap oantastad förbi vilddjuren.
+Och på trappen slog han ut vingarna och for upp i luften.
+Och runt omkring holmen drog inbyggarna fram murar på det här sättet.
 Och se på dem!
 Och sedan försvann han i dunklet.
 Och sen enades vi alla om det.
@@ -11510,6 +11513,8 @@ Och så farmor och mormor.
 Och så försvann hon med sin blombukett, redan omstrålad av det efterlängtade mötets glans.
 Och så gick det undan för undan.
 Och så gröna byxor till det.
+Och så hade jag förtjänat säd på tröskningen, som far sen hämtade på vinterföret.
+Och så har sten och grus rasat ner från både östra och västra landborgen.
 Och så klev hon ned från stolen.
 Och så kysste han henne.
 Och så måste jag ju medge att vi har bra betalt.
@@ -11526,6 +11531,7 @@ Och till din familj.
 Och titta på min skjorta!
 Och träkarlen lyfte honom till sin hatt och stack in honom under den.
 Och tänderna lyser i mörkret!
+Och under allt detta måste räven ligga stilla och vågade inte röra sig.
 Och under tiden fortsatte Liljegren helt ogenerat med sina trakasserier.
 Och underhållet upphör nästa år!
 Och vad får du ut av det?
@@ -11538,6 +11544,7 @@ Och vad står du där och hänger för?
 Och vad tror du det beror på?
 Och var försiktiga i kväll.
 Och varje minut du tvekar innebär färre människor i säkerhet.
+Och vatten är vatten, var man än gör av det.
 Och vet du vad det värsta är?
 Och vi botar honom.
 Och vi har inte råd att låta dig dö än.
@@ -11559,6 +11566,7 @@ Och ändå var jag ganska stark, trots min ungdom.
 Och även på Södermalm, där berget reste sig tvärbrant från stranden, började man bygga.
 Och över hans ansikte låg ett lugn av hög kvalitet.
 Och, så lustigt, alldeles lik Evas!
+Också de tänkte bara på skogsbranden, som nu kom störtande mot dem.
 Ofrivilligt tog han tag i Rut som för att hindra henne att falla.
 Ofta har det varit en lek, en glädje, en njutning.
 Oftast blir jag inte så nervös.
@@ -11641,8 +11649,10 @@ Om gud finns vill jag inte ha något med hen att göra.
 Om halsen bar han en tjock guldkedja.
 Om han inte bor här, var är han då?
 Om han inte kan garantera en leverans är han inte till någon nytta.
+Om havsfåglarnas folk vill följa mitt råd, må det genast flytta mot norr.
 Om henne skrivs det inga sånger.
 Om herrarna tillåter, ska jag berätta en historia från min ungdom.
+Om insjöfåglarnas folk vill lyda mitt råd, bör det genast flytta mot norr.
 Om inte Iris kommer nu missar hon middagen.
 Om inte detta är den riktiga flugan, vet jag inte vad en fluga är.
 Om inte din kvinnliga instinkt sagt dig något, så har väl Bengt Bengtsson?
@@ -11681,6 +11691,7 @@ Om vi kan ses klockan tio imorgon kan vi ligga.
 Om vi lyckas norpa ens en procent är det två gånger hundra.
 Om vår skörd är okej ska vi betala för resten av hans skolgång.
 Omkring Mårten gåskarl blev trängseln allt större.
+Omkring honom rådde samma djupa tystnad, som det brukade vara om vintern i vildmarken.
 Området är väldigt isolerat.
 Omständigheterna har inte varit sådana att kränkningen ska anses som ringa.
 Omständigheterna är visserligen besvärande.
@@ -11710,6 +11721,7 @@ Otto vittjade västen.
 Otto, som borde ha bott i sitt hem, flyttade till oss.
 Ottos var absolut omedveten, hans naivitet större.
 Otåligheten på Vasagatan avlöstes endast av otåligheten på Kungsgatan och flyttades sen tillbaka igen.
+Oupphörligen slingrade sig nya röda trådar bort över golvet som fräsande ormar.
 Ovanpå trälocket låg en död, överhöljd av ett vitt lakan.
 Ove saknar sammanhanget som spelarnas gemenskap i världscupen gav.
 Oändligt enslig och dyster.
@@ -11728,6 +11740,7 @@ Parten har motsatt sig att hovrättens dom ändras.
 Parterna har yrkat ersättning för sina rättegångskostnader i Högsta domstolen.
 Partiet var under riksdagsspärren i den senaste mätningen
 Partiledare kommer med synpunkter i tron att det kan fälla regeringar.
+Parveln vågade inte springa neråt den öppna allén, utan vek av åt annat håll.
 Pasta funkar ändå för det mesta.
 Patrik har efterhand visat sig vara en fena på marknadsföring.
 Pegg, detta är livets verkliga sorger och allvar.
@@ -11796,9 +11809,11 @@ Pojken förstod nog, att han inte ville fara ifrån grågåsen.
 Pojken gjorde alltså färden upp till Kullaberg ridande på storkrygg.
 Pojken hade inte blivit rädd, för han hade suttit väl gömd under kvarntrappan.
 Pojken hade knappt velat hålla detta för troligt.
+Pojken hade övergivit hoppet, att örnen skulle kunna skaffa honom någon mat.
 Pojken hasade sig ned ur sin tall och båda började överlägga.
 Pojken kunde inte hjälpa, att han fick tårarna i ögonen.
 Pojken kunde inte låta bli att skratta, när han såg hur rutigt allting var.
+Pojken kunde inte sova för dropparna, som ständigt smattrade ner på honom.
 Pojken lydde rådet och det dröjde inte länge förrän han hittade ett ax.
 Pojken märkte snart, att de, som satt vid elden, talade om gamla tider.
 Pojken och korpen skrek och ropade men de fick inte något svar.

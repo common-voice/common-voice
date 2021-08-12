@@ -115,6 +115,7 @@ ne-NP = Nepalšćina
 nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
+nyn = Nkorešćina
 oc = Okcitanšćina
 or = Odiašćina
 pa-IN = Pundžabšćina
@@ -190,6 +191,7 @@ logout = Wotzjewić
 ## Home Page
 
 home-title = Projekt Common Voice je iniciatiwa Mozilla, kotraž ma pomhać, mašinam wučić, kak woprawdźići ludźo rěča.
+default-tagline = Mozilla Common Voice je iniciatiwa, kotraž ma pomhać, mašinam wučić, kak woprawdźići ludźo rěča.
 home-cta = Rěčće runjewon, dźěłajće tu sobu!
 wall-of-text-start = Hłós je přirodny, hłós je čłowjeski. Tohodla smy fascinowani, wužitnu hłosowu technologiju za naše mašiny wutworić. Ale, za wutworjenje hłosowych systemow je jara wulke mnóstwo hłosowych datow trěbne.
 wall-of-text-more-mobile = Najwjace datow wužiwane wot wulkich předewzaćow za wjetšinu ludźi přistupne njeje. Myslimy, zo to inowaciju znjemóžnja. Tohodla smy projekt Common Voice startowali, projekt, kotryž kóždemu spóznawanje hłosow spřistupnja.
@@ -388,6 +390,10 @@ change-email-setings = Emejlowu adresu w nastajenjach pod přizjewjenskej identi
 faq-title = Husto stajene prašenja
 faq-what-cv-q = Što Common Voice je?
 faq-what-cv-a = Technologija hłosoweho spóznaća wašnje rewolucionuje, na kotrež z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Common Voice je dźěl iniciatiwy Mozilla, technologije hłosoweho spóznaća polěpšić a bóle přistupne činić. Common Voice je hoberska globalna datowa banka darjenych hłosow, kotraž kóždemu zmóžnja, přez hłosy wodźene nałoženja w kóždej rěči spěšnje a lochko trenować.
+faq-what-cv-a-2 =
+    Technologija hłosoweho spóznaća wašnje rewolucionuje, na kotrež z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Mozilla Common Voice je iniciatiwa, technologije hłosoweho spóznaće polěpšić a bóle přistupne činić. Common Voice je hoberska globalna datowa banka darjenych hłosow, kotraž kóždemu zmóžnja, přez hłosy wodźene nałoženja w kóždej rěči spěšnje a lochko trenować.
+    
+    Njehromadźimy jenož hłosowe přikłady w daloko rozšěrjenych rěčach, ale tež w tajkich z mjenje rěčnikami. Wozjewjenje wšelakoreje datoweje sadźby hłosow wuwiwarjow, předewzaćelow a zhomadźenstwa wukmani, tutu dźěru sami wupjelnić.
 faq-why-important-q = Čehodla je wažne?
 faq-why-important-a =
     Rěčenje je husto najpřirodniše wašnje, na kotrež jedyn z druhim komunikujemy a hłosowe technologije přinjesu tutu lěpšinu k našim ličakam a mobilnym gratam. Chcemy wuwiwarjow wukmanić, wulkotne nałoženja hłosoweho spóznaća  wuwiwać, na přikład přełožowaki, kotrež we woprawdźitym času přełožuja a přez hłós wodźene digitalne asistenty. Ale tuchwilu je najwjace hłosowych datow, kotrež su trěbne za wuwiwanje tajkich nałoženjow, su drohe a proprietarne. Nadźijamy so, zo datowa sadźba Common Voice wuwiwarjam da, štož trjebaja, zo bychu rěčensku technologiju w swojej rěči wobnowili a wutworili.
@@ -445,6 +451,9 @@ about-title = Čehodla Common Voice?
 about-subtitle = Common Voice je dźěl iniciatiwy Mozilla, kotraž ma mašiny wučić, kak woprawdźići ludźo rěča. Nimo datoweje sadźby Common Voice, wuwiwamy program za rěčenske spóznaće wotewrjeneho žórła z mjenom Deep Speech.
 about-header-description =
     Wobaj projektaj stej dźěl našich napinanjow, zo byštej mjezotu digitalneho rěčenja přemosćiłoj. Technologije hłosoweho spóznaća čłowjesku dimensiju na naše graty přinjesu, ale wuwiwarjo trjebaja nimoměry wjele hłosowych datow, zo bychu so wutworili. Tuchwilu je najwjace z tutych datow drohe a proprietarne.
+    Chcemy hłosowe daty darmotnje a zjawnje k dispoziciji stajić a zawěsćić, zo daty wšelakorosć woprawdźitych ludźi wotbłyšćuja. Hromadźe móžemy hłosowe spóznaće za kóždeho polěpšić.
+about-header-description-2 =
+    Tutón projekt je napinanje, zo bychmy mjezotu digitalneho rěčenja přemosćiłoj. Technologije hłosoweho spóznaća čłowjesku dimensiju na naše graty přinjesu, ale wuwiwarjo trjebaja nimoměry wjele hłosowych datow, zo bychu so wutworili. Tuchwilu je najwjace z tutych datow drohe a proprietarne.
     Chcemy hłosowe daty darmotnje a zjawnje k dispoziciji stajić a zawěsćić, zo daty wšelakorosć woprawdźitych ludźi wotbłyšćuja. Hromadźe móžemy hłosowe spóznaće za kóždeho polěpšić.
 how-does-it-work-title = Kak to funguje
 how-does-it-work-text = Přeměsćamy datowu sadźbu hłosow wotewrjeneho žórła do dobrowólnikow. Darće swój hłós, přepruwujće dokładnosć klipy druhich wosobow, polěpšće datowu sadźbu za kóždeho.
@@ -924,10 +933,42 @@ demo-dashboard-card-body = Za kóždy darjeny hłosowy klip a kóždy přepruwow
 ## Validation criteria
 
 contribution-criteria-nav = Kriterije
+contribution-criteria-link = Kriterije sobuskutkowanja rozumić
+contribution-criteria-page-title = Kriterije sobuskutkowanja
+contribution-criteria-page-description = Zhońće, na čož dwy dyrbjał dźiwać, hdyž na hłosowe klipy słuchaće, a pomhajće tež swoje hłosowe natočenja wobohaćić!
 contribution-for-example = na přikład
 contribution-misreadings-title = Čitanske zmylki
+contribution-misreadings-description = Přepruwujće při słuchanju jara dokładnje, hač natočenje eksaktnje napisanemu tekstej wotpowěduje; wotpokazajće jo, samo hdyž jenož snadne zmylki su. <br />Jara huste zmylki su:
+contribution-misreadings-description-extended-list-1 = Falowacy <strong>'A'</strong> abo <strong>'The'</strong> na spočatku nahraća.
 contribution-misreadings-description-extended-list-2 = Falowacy <strong>'s'</strong> na kóncu słowa.
+contribution-misreadings-description-extended-list-3 = Kontrakcije při čitanju, na přikład „žno“ město „hižo“ abo nawopak.
+contribution-misreadings-description-extended-list-4 = Falowacy kónc poslednjeho słowa, dokelž natočenje je so přespěšnišo wotrězało.
+contribution-misreadings-description-extended-list-5 = Wjacore pospyty słowo čitać.
+contribution-misreadings-example-1-title = Hoberske dinosawriery triasa.
+contribution-misreadings-example-2-title = Hoberski dinosawrier triasa.
+contribution-misreadings-example-2-explanation = [Dyrbjało ‚dinosawriery‘ rěkać]
+contribution-misreadings-example-3-title = Hoberske dinosawriery trias-.
+contribution-misreadings-example-3-explanation = [Natočenje před kóncom poslednjeho słowa wotrězane]
+contribution-misreadings-example-4-title = Hoberske dinosawriery triasa. Haj.
+contribution-misreadings-example-4-explanation = [Je so wjace natočiło, hač trěbny tekst]
+contribution-misreadings-example-5-title = Dźemy po kofej.
+contribution-misreadings-example-5-explanation = [Wobsah njewotpowěduje]
+contribution-misreadings-example-6-title = Dźemy po kofej.
+contribution-misreadings-example-6-explanation = [Dyrbjało „Dźemy“ rěkać]
+contribution-misreadings-example-7-title = Dźemy po jedyn kofej.
+contribution-misreadings-example-7-explanation = [‘a’ w originalnym teksće njeje]
+contribution-varying-pronunciations-title = Rozdźělne wurjekowanja
+contribution-background-noise-title = Pozadkowe šumy
+contribution-background-noise-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
+contribution-background-noise-example-1-title = <strong>{ Sneeze }</strong> Hoberske dinosawriery <strong>{ cough }</strong> triasa.
+contribution-background-noise-example-2-title = Hoberski dino <strong>{ cough }</strong> triasa.
+contribution-background-noise-example-2-explanation = [Dźěl teksta słyšeć njeje]
+contribution-background-noise-example-3-title = <strong>{ Crackle }</strong> hoberske dinosawriery <strong>{ crackle }</strong> -riasa.
+contribution-background-noise-example-3-explanation = [Dźěl teksta słyšeć njeje]
 contribution-background-voices-title = Pozadkowe hłosy
+contribution-background-voices-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
+contribution-background-voices-example-1-title = Hoberske dinosawriery triasa. <strong>[čita so wot jednoho hłosa]</strong>
+contribution-background-voices-example-1-explanation = Přińdźeš? <strong>[hłós druheho]</strong>
 contribution-volume-title = Sylnosć zwuka
 contribution-reader-effects-title = Efekty čitarja
 contribution-just-unsure-title = Jenož njewěsty?

@@ -33,6 +33,7 @@ as = asamščina
 ast = asturijščina
 az = azerbajdžanščina
 ba = baškirščina
+bas = basa
 be = beloruščina
 bg = bolgarščina
 bm = bambarščina
@@ -141,6 +142,7 @@ th = tajščina
 tl = tagaloščina
 tr = turščina
 tt = tatarščina
+tw = tvijščina
 uby = ubiščina
 udm = udmurtščina
 ug = ujgurščina
@@ -150,6 +152,7 @@ uz = uzbeščina
 vec = beneščina
 vi = vietnamščina
 vot = votščina
+yo = jorubščina
 yue = kantonščina
 zh-CN = kitajščina (Kitajska)
 zh-HK = kitajščina (Hong Kong)
@@ -868,3 +871,9 @@ demo-account-sign-up = Pošlji povezavo za registracijo
 
 ## Demo Dashboard
 
+
+## Validation criteria
+
+contribution-for-example = na primer
+contribution-volume-title = Glasnost
+contribution-just-unsure-title = Samo niste prepričani?

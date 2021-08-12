@@ -147,6 +147,7 @@ th = Tailandia ñe’ẽ
 tl = Tagalo ñe’ẽ
 tr = Turquía ñe’ẽ
 tt = Tátaro ñe’ẽ
+tw = Twi
 uby = Ubykh ñe’ẽ
 udm = Udmurt ñe’ẽ
 ug = Uyghur
@@ -900,3 +901,13 @@ demo-listen-subtitle = ¿Mba’éicha eipytyvõta?
 
 demo-dashboard-card-header = Ndekuéntaramo rerekoha moõpa rehechakuaa mboýmapa rejapóma,  ha avei mboýpa ojehupytýma.
 demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmava rehechakuaa nde kuéntape. Reipytyvõkuaa peteĩ térã hetave ñe’ẽtépe. <br/><br/> Eiporu nde kuénta rehecha hag̃ua mboýpa rejapóma, mboýpa ojapóma ambue tapicha oporopytyvõva avei ha mboýpa ojehupytýma.
+
+## Validation criteria
+
+contribution-for-example = Techapyrãrõ
+contribution-misreadings-title = Moñe’ẽ vai
+contribution-background-noise-title = Tyapu tapykuegua
+contribution-background-voices-title = Ñe’ẽ tapykuegua
+contribution-volume-title = Mbopuha
+see-more = <chevron></chevron>Ehechave
+see-less = <chevron></chevron>Ehecha’ive

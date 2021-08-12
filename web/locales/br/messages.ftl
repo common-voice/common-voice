@@ -157,6 +157,7 @@ uz = Ouzbekeg
 vec = Veneteg
 vi = Vietnameg
 vot = Voteg
+yo = Yoroubeg
 yue = Kantoneg
 zh-CN = Sinaeg (Sina)
 zh-HK = Sinaeg (Hong Kong)
@@ -649,7 +650,7 @@ action-tap = Pouezit
 contribute = Kemer-perzh
 listen = Selaou
 skip = Mont hebioù
-shortcuts = Berradurioù
+shortcuts = Berradennoù
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> klip
@@ -924,3 +925,6 @@ demo-listen-subtitle = Prest da gemer-perzh?
 ## Demo Dashboard
 
 demo-dashboard-card-body = Evit pep klip mouezh pourvezet ganeoc'h ha pep klip aodio gwirikaet, ho taolenn gont a vez hizivaet evit diskouez hoc'h araokadennoù evit pep yezh a sikourit. Ya, gellout a rit sikour gant meur a yezh!<br/><br/>Implijit an taolennoù da heuliañ ho stadegoù, evit gellout keñveriañ gant izili all ar gumuniezh, ha termeniñ palioù devezhiek pe sizhuniek.
+
+## Validation criteria
+

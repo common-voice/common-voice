@@ -115,6 +115,7 @@ ne-NP = Nepalese
 nia = Nias
 nl = Olandese
 nn-NO = Norvegese Nynorsk
+nyn = Nyankole
 oc = Occitano
 or = Oriya
 pa-IN = Punjabi
@@ -190,6 +191,7 @@ logout = Disconnetti
 ## Home Page
 
 home-title = Il progetto Common Voice è un’iniziativa di Mozilla per insegnare alle macchine come parlano le persone nella vita reale.
+default-tagline = Mozilla Common Voice è un’iniziativa per insegnare alle macchine come parlano le persone nella vita reale.
 home-cta = Di’ qualcosa, fai clic qui per iniziare!
 wall-of-text-start = La voce è naturale, la voce è umanità. Per questo l’idea di creare una tecnologia vocale utilizzabile dalle nostre macchine ci affascina così tanto. Per creare sistemi basati sulla tecnologia vocale, però, è necessaria una altissima quantità di campioni.
 wall-of-text-more-mobile = Buona parte dei dati usati dalle grandi aziende non è accessibile alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
@@ -381,6 +383,10 @@ faq-what-cv-a =
     La tecnologia di riconoscimento vocale sta rivoluzionando il modo nel quale interagiamo con le macchine, ma al momento i sistemi disponibili sono costosi e proprietari. Common Voice fa parte dell’iniziativa di Mozilla per migliorare le tecnologie di riconoscimento vocale e renderle più accessibili a tutti. Common Voice è un gigantesco database di voci donate dagli utenti che permettono a chiunque di addestrare in maniera rapida e veloce le proprie applicazioni che utilizzano il riconoscimento vocale in potenzialmente qualsiasi lingua.
     
     Non soltanto memorizziamo campioni di voci delle lingue più diffuse al mondo ma anche quelle parlate da comunità minoritarie. La pubblicazione di un set di voci diverse consentirà a sviluppatori, imprenditori e comunità di affrontare da soli questa lacuna. Oltre al dataset di Common Voice, stiamo anche sviluppando un motore di riconoscimento vocale open source chiamato Deep Speech.
+faq-what-cv-a-2 =
+    La tecnologia di riconoscimento vocale sta rivoluzionando il modo nel quale interagiamo con le macchine, ma al momento i sistemi disponibili sono costosi e proprietari. Mozilla Common Voice è un’iniziativa per migliorare le tecnologie di riconoscimento vocale e renderle più accessibili a tutti. Common Voice è un gigantesco database di voci donate dagli utenti che permettono a chiunque di addestrare in maniera rapida e veloce le proprie applicazioni che utilizzano il riconoscimento vocale in potenzialmente qualsiasi lingua.
+    
+    Non soltanto memorizziamo campioni di voci delle lingue più diffuse al mondo ma anche quelle parlate da comunità minoritarie. La pubblicazione di un set di voci diverse consentirà a sviluppatori, imprenditori e comunità di affrontare da soli questa lacuna.
 faq-why-important-q = Perché è importante?
 faq-why-important-a =
     Parlare è spesso il modo più naturale di comunicare e le tecnologie vocali stanno introducendo questa facoltà anche nei nostri computer e dispositivi mobili. Vogliamo consentire agli sviluppatori di realizzare nuove applicazioni strabilianti basate sul riconoscimento vocale, come traduttori in tempo reale e assistenti digitali. Ma attualmente la maggior parte dei dati vocali richiesti per realizzare questo tipo di app sono costosi e proprietari. Con il dataset di Common Voice intendiamo fornire agli sviluppatori le risorse necessarie per innovare e rendere la tecnologia vocale disponibile nella propria lingua.
@@ -435,6 +441,7 @@ faq-search-for-answers =
 about-title = Perché Common Voice?
 about-subtitle = Common Voice è parte di un’iniziativa Mozilla per insegnare alle macchine come la gente parla nella vita reale. In aggiunta al dataset di Common Voice, stiamo costruendo un motore di riconoscimento vocale open source chiamato Deep Speech.
 about-header-description = Entrambi i progetti rientrano nella nostra missione di colmare il divario nel settore del riconoscimento vocale digitale. Le tecnologie di riconoscimento vocale conferiscono una dimensione umana ai nostri dispositivi, ma gli sviluppatori hanno bisogno di un’enorme quantità di dati vocali per crearle. Attualmente, la maggior parte di questi dati è costosa e proprietaria. Vogliamo rendere i dati vocali disponibili liberamente e pubblicamente e assicurarci che questi dati rispecchino la diversità delle persone reali. Insieme possiamo rendere il riconoscimento vocale migliore per tutti.
+about-header-description-2 = Questo progetto mira a colmare il divario nel settore del riconoscimento vocale digitale. Le tecnologie di riconoscimento vocale conferiscono una dimensione umana ai nostri dispositivi, ma gli sviluppatori hanno bisogno di un’enorme quantità di dati vocali per crearle. Attualmente, la maggior parte di questi dati è costosa e proprietaria. Vogliamo rendere i dati vocali disponibili liberamente e pubblicamente e assicurarci che questi dati rispecchino la diversità delle persone reali. Insieme possiamo rendere il riconoscimento vocale migliore per tutti.
 how-does-it-work-title = Come funziona
 how-does-it-work-text = Stiamo realizzando un dataset vocale open source attraverso il crowdsourcing. Dona la tua voce, convalida le registrazioni inviate da altre persone, rendi il dataset migliore per tutti.
 about-speak = Parla
@@ -448,7 +455,7 @@ about-is-it-valid-text = Una registrazione vocale è contrassegnata come “vali
 about-yes-votes = ≥ 2 voti Sì
 about-yes-votes-text = Per essere inclusa nel dataset di Common Voice, una registrazione vocale deve essere validata da due utenti diversi.
 about-no-votes = ≥ 2 voti No
-about-no-votes-text = Quando un utente boccia una registrazione, essa torna nella Coda. Se bocciata una seconda volta, viene trasferita nel Cimitero delle registrazioni.
+about-no-votes-text = Una registrazione rifiutata da un utente viene rimessa nella Coda. Se rifiutata una seconda volta, viene trasferita nel Cimitero delle registrazioni.
 about-dataset-new = Dataset di Common Voice
 about-dataset-new-text = Il dataset di Common Voice contiene centinaia di migliaia di tipi di voce che aiutano gli sviluppatori a realizzare strumenti di riconoscimento vocale.
 about-clip-graveyard = Cimitero delle registrazioni
@@ -875,3 +882,48 @@ demo-listen-subtitle = Sei pronto a dare il tuo contributo?
 
 demo-dashboard-card-header = La tua dashboard personale ti tiene aggiornato suoi tuoi progressi e su quelli della comunità.
 demo-dashboard-card-body = La dashboard del tuo account viene aggiornata per ogni registrazione vocale e per ogni registrazione audio validata, riportando i tuoi ultimi progressi in ogni lingua alla quale hai contribuito. Sì, puoi contribuire a più di una lingua!<br/><br/> Usa la dashboard per tenere traccia delle tue statistiche, vedere come stai andando rispetto ad altri della community e impostare obiettivi giornalieri o settimanali.
+
+## Validation criteria
+
+contribution-criteria-nav = Criteri
+contribution-criteria-link = Leggi i criteri di contribuzione
+contribution-criteria-page-title = Criteri di contribuzione
+contribution-criteria-page-description = Scopri a che cosa devi prestare attenzione mentre ascolti le registrazioni e anche come poter rendere migliori le tue!
+contribution-for-example = per esempio
+contribution-misreadings-title = Errori di lettura
+contribution-misreadings-description = Durante l’ascolto, controlla attentamente che quanto registrato corrisponda esattamente a quanto scritto e rifiuta la registrazione se sono presenti anche solo errori minimi. <br />Errori molto comuni includono:
+contribution-misreadings-description-extended-list-1 = Mancanza di <strong>articoli indeterminativi</strong> (“Uno”, “Una”, ecc.) o <strong>determinativi</strong> (“Gli”, “Le”, ecc.) all’inizio della registrazione.
+contribution-misreadings-description-extended-list-2 = Mancanza della <strong>vocale finale</strong> in una parola.
+contribution-misreadings-description-extended-list-3 = Lettura di elisioni che non sono presenti nel testo originale, come “Non t’ho detto” al posto di “Non ti ho detto” o viceversa.
+contribution-misreadings-description-extended-list-4 = Mancanza della fine dell’ultima parola a causa dell’interruzione anticipata della registrazione.
+contribution-misreadings-description-extended-list-5 = Numerosi tentativi di lettura di una parola.
+contribution-misreadings-example-1-title = I dinosauri giganti del Triassico.
+contribution-misreadings-example-2-title = I dinosauro giganti del Triassico.
+contribution-misreadings-example-2-explanation = [Dovrebbe essere “dinosauri”]
+contribution-misreadings-example-3-title = I dinosauri giganti del Triassi-.
+contribution-misreadings-example-3-explanation = [La registrazione si interrompe prima della fine dell’ultima parola]
+contribution-misreadings-example-4-title = I dinosauri giganti del Triassico. Sì.
+contribution-misreadings-example-4-explanation = [È stato registrato più testo del necessario]
+contribution-misreadings-example-5-explanation = [Il contenuto non corrisponde]
+contribution-varying-pronunciations-title = Variazioni della pronuncia
+contribution-varying-pronunciations-description = Procedi con cautela prima di rifiutare una registrazione in cui, a tuo avviso, il lettore ha sbagliato la pronuncia di una parola, ha posto male l’accento o ha apparentemente ignorato un punto interrogativo. Nel mondo, infatti, è in uso un’ampia varietà di pronunce e potresti non aver mai avuto l’occasione di ascoltarne alcune nella tua zona. Prevedi un certo margine di elasticità come segno di apprezzamento per le persone che parlano in modo diverso dal tuo.
+contribution-varying-pronunciations-description-extended = Se però credi che il lettore non conoscesse quella parola e semplicemente la sua ipotesi sulla pronuncia non sia corretta, rifiuta la registrazione. Se non sei sicuro, utilizza il pulsante Salta.
+contribution-varying-pronunciations-example-1-title = Stava gettando l’ancora in mare.
+contribution-varying-pronunciations-example-1-explanation = [A seconda dello spostamento dell’accento da una sillaba all’altra, “ancora” può essere letto sia “àncora” (sostantivo) sia “ancóra” (avverbio)]
+contribution-varying-pronunciations-example-2-title = Abiamo tanto tempo.
+contribution-varying-pronunciations-example-2-explanation = [Le doppie vanno sempre pronunciate in italiano, quindi dovrebbe essere “Abbiamo”]
+contribution-background-noise-title = Rumore di sottofondo
+contribution-background-noise-description = Vogliamo che l’algoritmo di machine learning sia in grado di gestire una vasta gamma di rumori di sottofondo. I rumori relativamente forti possono essere accettati a patto che non impediscano di ascoltare l’interezza del testo. Una musica di sottofondo tranquilla è accettabile mentre non lo è una musica con un volume così forte da impedire di sentire ogni singola parola.
+contribution-background-noise-example-2-explanation = [Una parte del testo non si sente nella registrazione]
+contribution-background-noise-example-3-explanation = [Una parte del testo non si sente nella registrazione]
+contribution-background-voices-title = Voci di sottofondo
+contribution-background-voices-description = Un normale rumore di sottofondo è accettabile, ma non vogliamo che la presenza di voci extra possa portare l’algoritmo a identificare parole che non sono scritte nel testo; solitamente questo capita quando una televisione è rimasta accesa o quando una conversazione è in corso nelle vicinanze. Se riesci a sentire nitidamente parole che non sono presenti nel testo, devi rifiutare la registrazione.
+contribution-background-voices-example-1-title = I dinosauri giganti del Triassico. <strong>[letto da una prima voce]</strong>
+contribution-background-voices-example-1-explanation = Vieni? <strong>[chiamata fatta da una seconda voce]</strong>
+contribution-volume-title = Volume
+contribution-volume-description = Le voci dei differenti lettori presentano delle variazioni naturali di volume. Rifiuta la registrazione solo se il volume è talmente alto da interromperla o, caso più frequente, quando è talmente basso da non poter sentire quello che viene detto senza prendere il testo scritto come riferimento.
+contribution-reader-effects-description = La maggior parte delle registrazioni contiene voci di persone che parlano con un tono naturale. Puoi accettare registrazioni, sporadiche e non consuete, che siano gridate, dette sottovoce o dal tono chiaramente “drammatico”. Rifiuta le registrazioni cantate e quelle in cui è stato usato un sintetizzatore vocale.
+contribution-just-unsure-title = Hai ancora dei dubbi?
+contribution-just-unsure-description = Se ti imbatti in qualcosa che queste linee guida non includono, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
+see-more = <chevron></chevron>Mostra di più
+see-less = <chevron></chevron>Mostra di meno

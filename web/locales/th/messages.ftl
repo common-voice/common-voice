@@ -878,3 +878,20 @@ demo-listen-subtitle = พร้อมที่จะมีส่วนร่ว
 
 demo-dashboard-card-header = หน้าปัดส่วนตัวช่วยให้คุณเห็นข้อมูลความคืบหน้าล่าสุดของตัวคุณเองและของชุมชน
 demo-dashboard-card-body = สำหรับทุกคลิปเสียงที่บริจาคและทุกเสียงที่ถูกตรวจยืนยันเข้ามา หน้าปัดบัญชีของคุณจะถูกปรับปรุงเพื่อให้เห็นความคืบหน้าในแต่ละภาษาที่คุณร่วมสมทบสนับสนุน ใช่ คุณสามารถมีส่วนร่วมได้มากกว่าหนึ่งภาษา!<br/><br/>ใช้หน้าปัดเพื่อติดตามสถิติของคุณ ดูว่าคุณและคนอื่น ๆ ในชุมชนทำไปได้ถึงไหนอย่างไรแล้ว และตั้งเป้าหมายประจำวันหรือประจำสัปดาห์
+
+## Validation criteria
+
+contribution-criteria-nav = เกณฑ์
+contribution-criteria-link = ทำความเข้าใจเกณฑ์การมีส่วนร่วม
+contribution-criteria-page-title = เกณฑ์การมีส่วนร่วม
+contribution-for-example = ตัวอย่างเช่น
+contribution-misreadings-title = การอ่านผิด
+contribution-misreadings-description = ขณะฟัง ให้ตรวจสอบอย่างระมัดระวังว่าเสียงที่บันทึกตรงกับข้อความที่ปรากฏทุกประการ หากมีข้อผิดพลาดแม้แต่เล็กน้อยให้ปฏิเสธทันที <br />ข้อผิดพลาดที่มักพบบ่อยได้แก่:
+contribution-misreadings-description-extended-list-4 = อัดคำสุดท้ายขาด เพราะกดหยุดอัดเร็วเกินไป
+contribution-misreadings-description-extended-list-5 = พยายามอ่านคำหนึ่งหลายครั้ง
+contribution-background-noise-title = เสียงรบกวนพื้นหลัง
+contribution-volume-title = ระดับเสียง
+contribution-just-unsure-title = แค่ไม่แน่ใจ?
+contribution-just-unsure-description = หากคุณพบสิ่งที่หลักเกณฑ์เหล่านี้ไม่ครอบคลุม โปรดโหวตตามวิจารณญาณที่ดีที่สุดของคุณ หากคุณตัดสินใจไม่ได้จริง ๆ ให้ใช้ปุ่ม ข้าม และตรวจสอบเสียงถัดไป
+see-more = <chevron></chevron>ดูเพิ่ม
+see-less = <chevron></chevron>ดูน้อยลง

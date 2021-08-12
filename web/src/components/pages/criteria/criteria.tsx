@@ -20,34 +20,32 @@ type Criteria = {
     type: 'error' | 'correct';
     skipExplanation?: boolean;
     elems?: any;
+    titleLabel?: string,
+    explanationLabel?: string,
   }[];
 };
 
-const createExamples = (
-  type: 'error' | 'correct',
-  num: number,
-  skipExplanation?: boolean,
-  elems?: any
-) => {
-  const arr = [];
-  for (let i = 0; i < num; i++) {
-    arr.push({ type, elems });
-  }
-  return arr;
-};
+const elemStrong = { strong: <strong /> }
+const elemEmphasis = { strong: <span className="emphasis" /> }
+const elemBr = { br: <br /> }
+
 const criteriaList: Criteria[] = [
   {
     title: 'misreadings',
     descriptionExtended: {
       type: 'list',
       numElems: 5,
-      elems: {
-        strong: <strong />,
-      },
+      elems: elemStrong,
     },
     examples: [
-      ...createExamples('correct', 1, true),
-      ...createExamples('error', 6),
+      { type: 'correct', skipExplanation: true },
+      { type: 'error' },
+      { type: 'error' },
+      { type: 'error' },
+      { type: 'correct', skipExplanation: true },
+      { type: 'error' },
+      { type: 'error' },
+      { type: 'error' }
     ],
   },
   {
@@ -55,7 +53,10 @@ const criteriaList: Criteria[] = [
     descriptionExtended: {
       type: 'text',
     },
-    examples: [...createExamples('correct', 1), ...createExamples('error', 1)],
+    examples: [
+      { type: 'correct' },
+      { type: 'error' }
+    ]
   },
   {
     title: 'background-noise',
@@ -63,20 +64,15 @@ const criteriaList: Criteria[] = [
       type: 'text',
     },
     examples: [
-      ...createExamples('correct', 1, true, {
-        strong: <span className="emphasis" />,
-      }),
-      ...createExamples('error', 2, false, {
-        strong: <span className="emphasis" />,
-      }),
+      { type: 'error', titleLabel: '1-fixed', explanationLabel: '1-fixed', skipExplanation: true, elems: elemEmphasis },
+      { type: 'error', titleLabel: '2-fixed', explanationLabel: '2', elems: elemEmphasis },
+      { type: 'error', titleLabel: '3-fixed', explanationLabel: '2', elems: elemEmphasis }
     ],
   },
   {
     title: 'background-voices',
     examples: [
-      ...createExamples('error', 1, false, {
-        strong: <span className="emphasis" />,
-      }),
+      { type: 'error', elems: elemEmphasis },
     ],
   },
   { title: 'volume' },
@@ -130,7 +126,7 @@ export default function Criteria() {
               <div className="criterion-explanation">
                 <Localized
                   id={`contribution-${criterion.title}-description`}
-                  elems={{ br: <br /> }}>
+                  elems={ elemBr }>
                   <p />
                 </Localized>
                 {criterion.descriptionExtended &&
@@ -155,30 +151,29 @@ export default function Criteria() {
                   <Localized id="contribution-for-example">
                     <span />
                   </Localized>
-                  {criterion.examples.map((example, i) => (
-                    <div key={i + 1} className="criterion-example">
+                  {criterion.examples.map((example, i) => {
+                    const title = example.titleLabel ? example.titleLabel : i + 1;
+                    const explanation = example.explanationLabel ? example.explanationLabel : title;
+
+                    return (<div key={i + 1} className="criterion-example">
                       {example.type == 'error' ? (
                         <AlertIcon />
                       ) : (
                         <CheckWithBoxIcon />
                       )}
                       <Localized
-                        id={`contribution-${criterion.title}-example-${
-                          i + 1
-                        }-title`}
+                        id={`contribution-${criterion.title}-example-${title}-title`}
                         elems={example.elems}>
                         <p className="example-headline" />
                       </Localized>
                       {!example.skipExplanation && (
                         <Localized
-                          id={`contribution-${criterion.title}-example-${
-                            i + 1
-                          }-explanation`}>
+                          id={`contribution-${criterion.title}-example-${explanation}-explanation`}>
                           <p />
                         </Localized>
                       )}
-                    </div>
-                  ))}
+                    </div>)}
+                  )}
                   {criterion.examples.length > EXAMPLE_LIMIT ? (
                     <div
                       className="show-more-button"

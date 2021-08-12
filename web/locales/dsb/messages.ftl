@@ -115,6 +115,7 @@ ne-NP = Nepalšćina
 nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
+nyn = Nkorešćina
 oc = Okcitańšćina
 or = Odiašćina
 pa-IN = Pundžabšćina
@@ -190,6 +191,7 @@ logout = Wótzjawiś
 ## Home Page
 
 home-title = Projekt Common Voice jo iniciatiwa Mozilla, kótaraž ma pomagaś, mašinam wucyś, kak napšawdne luźe powědaju.
+default-tagline = Mozilla Common Voice jo iniciatiwa, kótaraž ma pomagaś, mašinam wucyś, kak napšawdne luźe powědaju.
 home-cta = Powědajśo a cyńśo how sobu!
 wall-of-text-start = Głos jp pśirodny, głos je cłowjeski. Togodla smy fasciněrowane, wužytnu głosowu technologiju za naše mašiny napóraś. Ale, za napóranje głosowych systemow jo wjelgin wjelika tšocha głosowych datow trěbne.
 wall-of-text-more-mobile = Nejwěcej datow wužywane wót wjelikich pśedewześow njejo pśitupne za wětšynu luźi. Myslimy, až to inowaciju znjemóžnja. Togodla smy startowali projekt Common Voice, projekt, kótaryž kuždemu spóznawanje głosow pśistupni.
@@ -388,6 +390,10 @@ change-email-setings = E-mailowu adresu w nastajenjach pód pśizjawjeńskeju id
 faq-title = Cesto stajone pšašanja
 faq-what-cv-q = Co Common Voice jo?
 faq-what-cv-a = Technologija głosowego spóznaśa wašnju rewolucioněrujo, na kótaruž z mašinami interagěrujomy, ale tuchylu k dispoziciji stojece systemy su droge a proprietarne. Common Voice jo źěl iniciatiwy Mozilla, technologije głosowego spóznaśa pólěpšyś a wěcej pśistupne cyniś. Common Voice jo wjelicka globalna datowa banka pósćonych głosow, kótaraž kuždemu zmóžnja, pśez głose wóźone nałoženja w kuždej rěcy malsnje a lažko treněrowaś.
+faq-what-cv-a-2 =
+    Technologija głosowego spóznaśa wašnju rewolucioněrujo, na kótaruž z mašinami interagěrujomy, ale tuchylu k dispoziciji stojece systemy su droge a proprietarne. Mozilla Common Voice jo iniciatiwa, technologije głosowego spóznaśa pólěpšyś a wěcej pśistupne cyniś. Common Voice jo wjelicka globalna datowa banka pósćonych głosow, kótaraž kuždemu zmóžnja, pśez głose wóźone nałoženja w kuždej rěcy malsnje a lažko treněrowaś.
+    
+    Njegromaźimy jano głosowe pśikłady w daloko rozšyrjonych rěcach, ale teke w takich z mjenjej powědarjami. Wózjawjanje wjelerakeje datoweje sajźby głosow wuwijarje, pśedewześarje a zgromaźeństwa wukmanijo, toś tu źěru same wupołniś.
 faq-why-important-q = Cogodla jo wažne?
 faq-why-important-a =
     Powědanje jo cesto nejpśirodnjejša wašnja, na kótruž jaden z drugim komunicěrujomy a głosowe technologije pśinjasu toś tu lěpšynu k našym licadłam a mobilnym rědam. Comy wuwijarjow wuzamóžniś, wjelicne nałoženja głosowego spóznaśa  wuwijaś, na pśikład psełožowaki, kótarež w napšawdnem casu pśełožuju a pśez głos wóźone digitalne asistenty. Ale tuchylu jo nejwěcej głosowych datow, kótarež su trěbne za wuwijanje takich nałoženjow, su droge a proprietarne. Naźejamy se, až datowa sajźba Common Voice wuwijarjam dajo, což trjebaju, aby powědańsku technologiju w swójej rěcy wótnowili a napórali.
@@ -445,6 +451,9 @@ about-title = Cogodla Common Voice?
 about-subtitle = Common Voice jo źěl iniciatiwy Mozilla, kótaraž ma mašiny wucyś, kak napšawdne luźe powědaju. Mimo datoweje sajźby Common Voice, wuwijamy program za powědańske spóznaśe wótwórjonego žrědła z mjenim Deep Speech.
 about-header-description =
     Wobej projekta stej źěl našych procowanjow, aby prozny flak digitalnego powědanja pśemósćiłej. Technologije głosowego spóznaśa cłowjesku dimensiju na naše rědy pśinjasu, ale wuwijarje trjebaju wjelgickan wjele głosowych datow, aby se napórali. Tuchylu jo nejwěcej z toś tych datow droge a proprietarne.
+    Comy głosowe daty dermotnje a zjawnje k dispoziciji stajiś a zawěsćiś, až daty wšakorakosć napšawdnych luźi wótbłyšćuju. Gromaźe móžomy głosowe spóznaśe za kuždego pólěpšyś.
+about-header-description-2 =
+    Toś ten projekt jo procowanje, aby prozny flak digitalnego powědanja pśemósćiłej. Technologije głosowego spóznaśa cłowjesku dimensiju na naše rědy pśinjasu, ale wuwijarje trjebaju wjelgickan wjele głosowych datow, aby se napórali. Tuchylu jo nejwěcej z toś tych datow droge a proprietarne.
     Comy głosowe daty dermotnje a zjawnje k dispoziciji stajiś a zawěsćiś, až daty wšakorakosć napšawdnych luźi wótbłyšćuju. Gromaźe móžomy głosowe spóznaśe za kuždego pólěpšyś.
 how-does-it-work-title = Kak to funkcioněrujo
 how-does-it-work-text = Wuměstnjamy datowu sajźbu głosow wótwórjonego žrědła do dobrowólnikow. Pósććo swój głos, pśeglědujśo dokradnosć klipy drugich wósobow, pólěpšćo datowu sajźbu za kuždego.
@@ -920,3 +929,48 @@ demo-listen-subtitle = Cośo sobu cyniś?
 
 demo-dashboard-card-header = Wósobinske pśeglědy was wó indiwiduelnem póstupje a wó póstupje zgromaźeństwa na běžnem źarže.
 demo-dashboard-card-body = Za kuždy pósćony głosowy klip a kuždy pśeglědany awdioklip se waše kontowe pśeglědy aktualizěruju, aby se waš nejnowšy póstup w kuždej rěcy, ku kótarejž pśinosujośo, wótbłyšćował. Jo, móžośo k wěcej ako jadnej rěcy pśinosowaś!<br/><br/> Wužywajśo pśeglědy, aby swóje statistiki slědował, aby wiźeł, kak w pśirownanju k drugim luźom w zgromaźeństwje wótrěznjośo a aby se wšedne abo tyźeńske pśinosowańske cele stajił.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterije
+contribution-criteria-link = Kriterije sobustatkowanja rozměś
+contribution-criteria-page-title = Kriterije sobustatkowanja
+contribution-criteria-page-description = Zgóńśo, na což wy dejał źiwaś, gaž na głosowe klipy słuchaśo, a pomagajśo teke swóje głosowe nagraśa wobogaśiś!
+contribution-for-example = na pśikład
+contribution-misreadings-title = Cytańske zmólki
+contribution-misreadings-description = Pśeglědajśo pśi słuchanju wjelgin dokradnje, lěc nagraśe eksaktnje napisanemu tekstoju wótpowědujo; wótpokažćo jo, samo gaby byli jano snadne zmólki. <br />Wjelgin ceste zmólki su:
+contribution-misreadings-description-extended-list-1 = Felujucy <strong>'A'</strong> abo <strong>'The'</strong> na zachopjeńku nagraśa.
+contribution-misreadings-description-extended-list-2 = Felujucy <strong>'s'</strong> na kóńcu słowa.
+contribution-misreadings-description-extended-list-3 = Kontrakcije pśi cytanju, na pśikład „pón“ město „pótom“ abo nawopak.
+contribution-misreadings-description-extended-list-4 = Felujucy kóńc slědnego słowa, dokulaž nagraśe jo se pśemalsnjej wótrězało.
+contribution-misreadings-description-extended-list-5 = Někotare wopyty słowo cytaś.
+contribution-misreadings-example-1-title = Wjelicke dinosawrijarje triasa.
+contribution-misreadings-example-2-title = Wjelicki dinosawrijaŕ triasa.
+contribution-misreadings-example-2-explanation = [Dejało ‚dinosawrijarje‘ groniś]
+contribution-misreadings-example-3-title = Wjelicke dinosawrijarje trias-.
+contribution-misreadings-example-3-explanation = [Nagraśe pśed kóńcom slědnego słowa wótrězane]
+contribution-misreadings-example-4-title = Wjelicke dinosawriarje triasa. Jo.
+contribution-misreadings-example-4-explanation = [Jo se wěcej nagrało ako trjebny tekst]
+contribution-misreadings-example-5-title = Źomy pó kafej.
+contribution-misreadings-example-5-explanation = [Wopśimjeśe njewótpowědujo]
+contribution-misreadings-example-6-title = Źomy pó kafej.
+contribution-misreadings-example-6-explanation = [Dejało „Źomy“ groniś]
+contribution-misreadings-example-7-title = Źomy pó kafej.
+contribution-misreadings-example-7-explanation = [‘a’ njejo w originalnem teksće]
+contribution-varying-pronunciations-title = Rozdźělne wugronjenja
+contribution-background-noise-title = Slězynowe šumy
+contribution-background-noise-description-extended = Jolic nagraśe pśetergnjo abo knykoco, wótpokažćo jo, snaźkuli cełkowny tekst jo hyšći słyšaś.
+contribution-background-noise-example-1-title = <strong>{ Sneeze }</strong> Wjelicke dinosawrijarje <strong>{ cough }</strong> triasa.
+contribution-background-noise-example-2-title = Wjelicki dino <strong>{ cough }</strong> triasa.
+contribution-background-noise-example-2-explanation = [Źěl teksta njejo słyšaś]
+contribution-background-noise-example-3-title = <strong>{ Crackle }</strong> wjelicke dinosawrijarje <strong>{ crackle }</strong> -riasa.
+contribution-background-noise-example-3-explanation = [Źěl teksta njejo słyšaś]
+contribution-background-voices-title = Slězynowe głose
+contribution-background-voices-description-extended = Jolic nagraśe pśetergnjo abo knykoco, wótpokažćo jo, snaźkuli cełkowny tekst jo hyšći słyšaś.
+contribution-background-voices-example-1-title = Wjelicke dinosawrijarje triasa. <strong>[cyta se wót jadnogo głosa]</strong>
+contribution-background-voices-example-1-explanation = Pśiźoš? <strong>[głos drugego]</strong>
+contribution-volume-title = Głosnosć
+contribution-reader-effects-title = Efekty cytarja
+contribution-just-unsure-title = Jano njewěsty?
+see-more = <chevron></chevron>Wěcej pokazaś
+see-less = <chevron></chevron>Mjenjej pokazaś
