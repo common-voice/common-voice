@@ -925,6 +925,7 @@ contribution-misreadings-example-6-title = Surment, il fera beau.
 contribution-misreadings-example-6-explanation = [Devrait être « surement »]
 contribution-misreadings-example-8-explanation = [Contenu sans rapport]
 contribution-varying-pronunciations-title = Prononciations différentes
+contribution-varying-pronunciations-description-extended = En revanche, si vous pensez que le lecteur ou la lectrice n’a jamais rencontré le mot auparavant et qu’il ou elle tente simplement de deviner la bonne prononciation, veuillez rejeter l’enregistrement. Si vous n’êtes pas sûr·e, utilisez le bouton Passer.
 contribution-varying-pronunciations-example-1-title = Sur sa tête, il portait un béret.
 contribution-varying-pronunciations-example-2-title = Le sandwich jambon beurre
 contribution-varying-pronunciations-example-2-explanation = [« sandwich » en français se prononce comme un mot, pas deux]
