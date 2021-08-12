@@ -885,9 +885,9 @@ demo-dashboard-card-body = La dashboard del tuo account viene aggiornata per ogn
 
 ## Validation criteria
 
-contribution-criteria-nav = Criteri
-contribution-criteria-link = Leggi i criteri di contribuzione
-contribution-criteria-page-title = Criteri di contribuzione
+contribution-criteria-nav = Linee guida
+contribution-criteria-link = Leggi le linee guida di contribuzione
+contribution-criteria-page-title = Linee guida di contribuzione
 contribution-criteria-page-description = Scopri a che cosa devi prestare attenzione mentre ascolti le registrazioni e anche come poter rendere migliori le tue!
 contribution-for-example = per esempio
 contribution-misreadings-title = Errori di lettura
@@ -904,7 +904,6 @@ contribution-misreadings-example-3-title = I dinosauri giganti del Triassi-.
 contribution-misreadings-example-3-explanation = [La registrazione si interrompe prima della fine dell’ultima parola]
 contribution-misreadings-example-4-title = I dinosauri giganti del Triassico. Sì.
 contribution-misreadings-example-4-explanation = [È stato registrato più testo del necessario]
-contribution-misreadings-example-5-explanation = [Il contenuto non corrisponde]
 contribution-varying-pronunciations-title = Variazioni della pronuncia
 contribution-varying-pronunciations-description = Procedi con cautela prima di rifiutare una registrazione in cui, a tuo avviso, il lettore ha sbagliato la pronuncia di una parola, ha posto male l’accento o ha apparentemente ignorato un punto interrogativo. Nel mondo, infatti, è in uso un’ampia varietà di pronunce e potresti non aver mai avuto l’occasione di ascoltarne alcune nella tua zona. Prevedi un certo margine di elasticità come segno di apprezzamento per le persone che parlano in modo diverso dal tuo.
 contribution-varying-pronunciations-description-extended = Se però credi che il lettore non conoscesse quella parola e semplicemente la sua ipotesi sulla pronuncia non sia corretta, rifiuta la registrazione. Se non sei sicuro, utilizza il pulsante Salta.
@@ -915,14 +914,13 @@ contribution-varying-pronunciations-example-2-explanation = [Le doppie vanno sem
 contribution-background-noise-title = Rumore di sottofondo
 contribution-background-noise-description = Vogliamo che l’algoritmo di machine learning sia in grado di gestire una vasta gamma di rumori di sottofondo. I rumori relativamente forti possono essere accettati a patto che non impediscano di ascoltare l’interezza del testo. Una musica di sottofondo tranquilla è accettabile mentre non lo è una musica con un volume così forte da impedire di sentire ogni singola parola.
 contribution-background-noise-example-2-explanation = [Una parte del testo non si sente nella registrazione]
-contribution-background-noise-example-3-explanation = [Una parte del testo non si sente nella registrazione]
 contribution-background-voices-title = Voci di sottofondo
-contribution-background-voices-description = Un normale rumore di sottofondo è accettabile, ma non vogliamo che la presenza di voci extra possa portare l’algoritmo a identificare parole che non sono scritte nel testo; solitamente questo capita quando una televisione è rimasta accesa o quando una conversazione è in corso nelle vicinanze. Se riesci a sentire nitidamente parole che non sono presenti nel testo, devi rifiutare la registrazione.
+contribution-background-voices-description = Un normale rumore di sottofondo è accettabile, ma non vogliamo che la presenza di voci extra possa portare l’algoritmo a identificare parole che non sono scritte nel testo; solitamente questo capita quando una televisione è rimasta accesa o quando è in corso una conversazione nelle vicinanze. Se riesci a sentire nitidamente parole che non sono presenti nel testo, devi rifiutare la registrazione.
 contribution-background-voices-example-1-title = I dinosauri giganti del Triassico. <strong>[letto da una prima voce]</strong>
 contribution-background-voices-example-1-explanation = Vieni? <strong>[chiamata fatta da una seconda voce]</strong>
 contribution-volume-title = Volume
 contribution-volume-description = Le voci dei differenti lettori presentano delle variazioni naturali di volume. Rifiuta la registrazione solo se il volume è talmente alto da interromperla o, caso più frequente, quando è talmente basso da non poter sentire quello che viene detto senza prendere il testo scritto come riferimento.
-contribution-reader-effects-description = La maggior parte delle registrazioni contiene voci di persone che parlano con un tono naturale. Puoi accettare registrazioni, sporadiche e non consuete, che siano gridate, dette sottovoce o dal tono chiaramente “drammatico”. Rifiuta le registrazioni cantate e quelle in cui è stato usato un sintetizzatore vocale.
+contribution-reader-effects-description = La maggior parte delle registrazioni contiene voci di persone che parlano con un tono naturale. Puoi accettare registrazioni, sporadiche e non consuete, che siano gridate, dette sottovoce o dal tono chiaramente “drammatico”. Rifiuta le registrazioni cantate e quelle in cui è stato utilizzato un sintetizzatore vocale.
 contribution-just-unsure-title = Hai ancora dei dubbi?
 contribution-just-unsure-description = Se ti imbatti in qualcosa che queste linee guida non includono, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
 see-more = <chevron></chevron>Mostra di più
