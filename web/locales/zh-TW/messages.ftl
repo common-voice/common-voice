@@ -115,6 +115,7 @@ ne-NP = 尼泊爾語
 nia = 尼亞斯語
 nl = 荷蘭語
 nn-NO = 挪威語（Nynorsk）
+nyn = 尼安科萊語
 oc = 奧西坦語
 or = 奧里亞語
 pa-IN = 旁遮普語
