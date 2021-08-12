@@ -115,6 +115,7 @@ ne-NP = Nepalí
 nia = Nias
 nl = Neerlandés
 nn-NO = Noruego Nynorsk
+nyn = Nyankole
 oc = occitano
 or = Odia
 pa-IN = Punjabi
@@ -190,6 +191,7 @@ logout = Cerrar sesión
 ## Home Page
 
 home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a enseñarles a las máquinas cómo hablan las personas.
+default-tagline = Mozilla Common Voice es una iniciativa para ayudar a enseñar a las máquinas cómo hablan las personas.
 home-cta = Habla, ¡contribuye aquí!
 wall-of-text-start = La voz es natural, la voz es humana. Es por eso que estamos fascinados con crear una tecnología de voz para nuestras maquinas. Pero para crear un sistema de voz, una cantidad extremadamente grande de muestras de voz es requerida.
 wall-of-text-more-mobile = La mayor parte de los datos usados por las grandes compañías no esta disponible para las personas. Nosotros pensamos que eso sofoca la innovación. Así que lanzamos el proyecto Common Voice, un proyecto para hacer que el reconocimiento de voz esté disponible para todos.
@@ -364,6 +366,7 @@ browse-file = Arrastra y suelta o <browseWrap>navega</browseWrap>
 connect-gravatar = Conectar con Gravatar
 gravatar_not_found = No se ha encontrado ningún gravatar para tu correo electrónico
 file_too_large = El archivo seleccionado es demasiado grande
+avatar-uploaded = Avatar subido
 max-file-size = { $kb }kb máx
 
 ## Profile - Email
@@ -882,7 +885,10 @@ demo-dashboard-card-body = Para cada grabación de voz donada y cada grabación 
 
 contribution-criteria-nav = Criterios
 contribution-for-example = por ejemplo
+contribution-misreadings-example-2-explanation = [Debería ser ‘dinosaurios’]
 contribution-background-noise-title = Ruido de fondo
+contribution-background-noise-example-1-fixed-title = <strong>[Estornudo]</strong> Los dinosaurios gigantes del <strong>[tos]</strong> Triásico.
+contribution-background-noise-example-2-fixed-title = El dinosaurio gigan <strong>[tos]</strong> del Triásico.
 contribution-volume-title = Volumen
 contribution-reader-effects-title = Efectos del lector
 see-more = </chevron></chevron>Ver más
