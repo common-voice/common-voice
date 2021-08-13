@@ -922,6 +922,6 @@ contribution-volume-title = Volume
 contribution-volume-description = Le voci dei differenti lettori presentano delle variazioni naturali di volume. Rifiuta la registrazione solo se il volume è talmente alto da interromperla o, caso più frequente, quando è talmente basso da non poter sentire quello che viene detto senza prendere il testo scritto come riferimento.
 contribution-reader-effects-description = La maggior parte delle registrazioni contiene voci di persone che parlano con un tono naturale. Puoi accettare registrazioni, sporadiche e non consuete, che siano gridate, dette sottovoce o dal tono chiaramente “drammatico”. Rifiuta le registrazioni cantate e quelle in cui è stato utilizzato un sintetizzatore vocale.
 contribution-just-unsure-title = Hai ancora dei dubbi?
-contribution-just-unsure-description = Se ti imbatti in qualcosa che queste linee guida non includono, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
+contribution-just-unsure-description = Se ti imbatti in una situazione che non è prevista in queste linee guida, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
 see-more = <chevron></chevron>Mostra di più
 see-less = <chevron></chevron>Mostra di meno
