@@ -115,6 +115,7 @@ ne-NP = nepalski
 nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
+nyn = nyankole
 oc = oksytański
 or = orija
 pa-IN = pendżabski
