@@ -1,10 +1,5 @@
 ## General
 
-return-to-cv = ܕܥܘܪ ܠܩܠܐ ܓܘܢܝܐ
-email-input =
-    .label = ܐܸܓܲܪܬܵܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܬܵܐ
-submit-form-action = ܫܕܪ
-loading = ܛܘܥܢܐ ...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -30,14 +25,14 @@ privacy = ܕܝܠܢܝܘܬܐ
 terms = ܫܪܥܬ
 cookies = ܟܘܟܟܝܣ
 faq = ܫܘܐܠ̈ܐ ܬܢܝ̈ܐ
-back-top = ܕܥܘܪ ܠܥܠܠ
+back-top = ܕܥܪ ܠܥܠܠ
 logout = ܦܠܘܛ
 
 ## Home Page
 
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
-vote-yes = ܗܹܐ
-vote-no = ܠܵܐ
+vote-yes = ܗܐ
+vote-no = ܠܐ
 speak-subtitle = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
 all-locales = ܟܠ
 today = ܐܕܝܘܡ
@@ -103,8 +98,6 @@ profile-form-accent =
     .label = ܡܡܠܠܐ
 profile-form-age =
     .label = ܫܢ̈ܐ
-profile-form-gender =
-    .label = ܓܢܣܐ
 hidden = ܛܘܫܝܐ
 visible = ܡܒܝܘܢܐ
 native-language =
@@ -116,7 +109,12 @@ female = ܢܩܒ݂ܐ
 # Gender
 other = ܐ݇ܚܪ݇ܢܐ
 profile-close = ܕܥܘܪ
-cancel-avatar-clip-recording = ܒܛܘܠ
+
+## Profile - Email
+
+
+## Profile - Email
+
 
 ## FAQ
 
@@ -130,7 +128,7 @@ about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
 ## Glossary
 
 
-## NotFound
+## Error pages
 
 
 ## Data
@@ -185,4 +183,22 @@ your-languages = ܠܹܫܵܢܘܟ݂ܘܢ
 keep = ܢܵܛܹܪ
 
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
 
