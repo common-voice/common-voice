@@ -160,27 +160,27 @@ languages-show-less = ܚܙܝܼ ܒܵܨܘܿܪܵܐ
 ## Contribution
 
 listen = ܫܡܥܝܼ
-skip = ܫܵܘܹܪ
-shortcuts = ܦܣܵܩܹܐ
+skip = ܫܘܪ
+shortcuts = ܦܣܩܐ
 
 ## Reporting
 
-success = ܟܲܫܝܼܪܘܼܬܵܐ
-continue = ܐܡܵܢܵܐ
+success = ܟܫܝܪܘܬܐ
+continue = ܐܡܢܐ
 
 ## Goals
 
 
 ## Dashboard
 
-your-languages = ܠܹܫܵܢܘܟ݂ܘܢ
+your-languages = ܠܫܢܘܟ݂ܘܢ
 
 ## Custom Goals
 
 
 ## Profile Delete
 
-keep = ܢܵܛܹܪ
+keep = ܢܛܪ
 
 ## Landing
 
