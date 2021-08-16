@@ -74,6 +74,8 @@ hr = Кроациянь кель
 hsb = Верце Сорбонь кель
 ht = Гаитинь кель
 hu = Венгрань кель
+hy-AM = Арменэнь кель
+hyw = Чивалгома ёнксонь арменэнь кель
 ia = Интерлингуань кель
 id = Индонесиянь кель
 is = Исландиянь кель
@@ -113,6 +115,7 @@ ne-NP = Непалинь кель
 nia = Ниасонь кель
 nl = Недерландонь кель
 nn-NO = Норвегиянь Нинорсконь кель
+nyn = Нянколень кель
 oc = Окситанонь кель
 or = Одиянь кель
 pa-IN = Пунжабинь кель
@@ -170,6 +173,7 @@ speak = Кортамс
 speak-now = Кортамс ней
 datasets = Датапурнавкст
 languages = Кельть
+about = Минденек
 profile = Профиль
 help = Лезкс
 contact = Контакт
@@ -187,6 +191,7 @@ logout = Лисемс
 ## Home Page
 
 home-title = Common Voice -- те Мозиллань инициятива, кона лезды тонавтомс машинатненень ломанень алкукс кортамос.
+default-tagline = «Common Voice» ушодксось -- Mozilla-нь тев, конаньсэ тонавтови машина кортамо кода алкуксонь ломань.
 home-cta = Кортак седе, лездак тесэ!
 wall-of-text-start = Вайгелесь эрьва чинь тев, ломанень. Секскак минек талновты тевс нолдавиця вайгельтехнологиянь кастомась-кепедемась. Ансяк вайгельсистемань шкамга-теемга эряви ламодояк ламо вайгелень дата.
 show-wall-of-text = Ловномс седе тов
@@ -267,6 +272,7 @@ shortcut-vote-no = а
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = с
 shortcut-record-toggle-label = Сёрмадомс/Лоткавтомс
+shortcut-submit = Велявтомс
 request-language-text = Келеть эзик муе зярс «Common Voice»-стэ?
 request-language-button = Вешемс кель
 
