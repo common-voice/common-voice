@@ -382,6 +382,10 @@ change-email-setings = Cambia tu email via Configurationes sub Identitate de con
 faq-title = Folio a questiones
 faq-what-cv-q = Que es Common Voice?
 faq-what-cv-a = Le technologia de recognition de voce revolutiona nostre maniera de interager con machinas, ma le systemas actualmente disponibile es costose e proprietari. Common Voice face parte del initiativa de Mozilla pro render melior e plus accessibile a totes le technologias de recognition de voce. Common Voice es un enorme base de datos global de voces donate, que permitte a omnes de trainar rapide- e facilemente le applicationes activate per voce, potentialmente in omne lingua.
+faq-what-cv-a-2 =
+    Le technologia de recognition vocal revolutiona le maniera de interager con le machinas, ma le systemas actualmente disponibile es costose e proprietari. Mozilla Common Voice es un initiativa pro render le technologia de recognition vocal melior e plus accessibile pro totes. Common Voice es un massive base de datos global de voces donate, que permitte a quicunque de maestrar rapidemente e facilemente le apps activate per voce in potentialmente cata lingua..
+    
+    Nos, non solo collige exemplos de voce in linguas largemente parlate, ma alsi in ille con un minor population de parlatores. Le publication del plure collectiones de datos vocal permittera a disveloppatores, interprenditores e communitates de plenar iste lacuna, per se mesme.
 faq-why-important-q = Proque es importante?
 faq-why-important-a =
     Parlar es sovente nostre maniera de communication le plus natural. Le technologias vocal apporta ille conforto a nostre computatores e apparatos mobile. Nos vole habilitar le disveloppatores a construer excellente applicationes de recognition de voce, como traductores in tempore real e assistentes digital activate per voce. Ma actualmente le major parte del datos vocal requirite pro construer iste typos de applicationes es costose e proprietari. Nos spera que le collection de datos de Common Voice permittera al disveloppatores de innovar e render disponibile le technologia vocal in lor proprie lingua.
@@ -919,6 +923,7 @@ contribution-misreadings-example-6-title = [Debe esser “We are”]
 contribution-misreadings-example-6-explanation = [Debe esser “We are”]
 contribution-misreadings-example-7-title = Nos exi pro obtener un caffe.
 contribution-misreadings-example-7-explanation = [Nulle ‘un’ in le texto original]
+contribution-misreadings-example-8-title = Le bombo passava veloce.
 contribution-misreadings-example-8-explanation = [Contento discorde]
 contribution-varying-pronunciations-title = Pronunciationes variate
 contribution-varying-pronunciations-description = Sia prudente ante rejectar un registration sur le base que le lector ha mal-pronunciate un parola, ha ponite le accento in le position errate o apparentemente ha ignorate un puncto de interrogation. Un large varietate de pronunciationes es usate in tote le mundo, parte del qual tu pote non haber audite in tu communitate local. Forni un margine de appreciation pro ille qui pote parlar differentemente de te.
