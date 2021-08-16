@@ -514,6 +514,7 @@ dataset-date = 날짜
 license = 라이센스: <licenseLink>{ $license }</licenseLink>
 license-mixed = 혼합됨
 data-download-singleword-title = 단일 단어 대상 세그먼트 다운로드
+data-download-singleword-callout-v2 = 이것은 음성 숫자 인식과 예 / 아니오 감지를 지원하는 데이터를 포함하는 사용 사례 중심 세그먼트입니다.
 review-terms = Common Voice를 사용하면 <termsLink>이용약관</termsLink>과 <privacyLink>개인정보 보호 정책</privacyLink>에 동의한 것으로 간주합니다.
 terms-agree = 동의합니다
 terms-disagree = 동의하지 않습니다
@@ -854,6 +855,7 @@ demo-language-select-card-body = 50 개 이상의 언어로 약 25만 9천명 �
 card-button-next = 다음
 card-button-back = 뒤로
 demo-language-select-label = 언어 찾기
+demo-eofy-header = 2019 년 말 출시
 demo-eofy-sub_header = 음성 데이터 세트, 다운로드 준비 완료
 demo-account = 계정
 
@@ -867,9 +869,12 @@ demo-account-sign-up = 가입 링크 보내기
 ## Demo Contribute
 
 demo-contribute-card-header = 목소리를 추가하거나 귀를 빌릴 준비가 되셨습니까?
+demo-listen-subtitle = 기여할 준비가 되었습니까?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = 개인 대시보드는 개인 및 커뮤니티 진행 상황에 대한 최신 정보를 제공합니다.
+demo-dashboard-card-body = 기부된 모든 음성 클립과 검증된 모든 오디오 클립에 대하여, 계정 대시 보드에서 기여하는 각 언어의 최신 진행 상황이 반영됩니다. 네, 하나 이상의 기여를할 수 있습니다!<br/><br/> 대시 보드를 사용하여 통계를 확인하거나 커뮤니티에서 다른 사람들과 함께 어떻게하고 있는지 확인하거나 일일 혹은 주간 기여 목표를 설정하세요.
 
 ## Validation criteria
 
