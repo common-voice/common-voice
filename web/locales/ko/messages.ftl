@@ -843,15 +843,30 @@ read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
 
 ## DemoLayout
 
+demo-get-started = 시작합니다
+demo-welcome = Common Voice에 오신 것을 환영합니다
+demo-welcome-subheader = 더 많은 것을 배우고 프로젝트에 기여하는 것에 관심이 있습니까?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common voice는 공개적으로 사용할 수 있는 세계에서 가장 큰 다국어 음성 데이터 세트입니다.
+demo-language-select-card-body = 50 개 이상의 언어로 약 25만 9천명 이상의 사람들이 기여한 덕분에, 이 데이터는 사람의 목소리에 더 잘 반응하도록 음성 지원 앱을 훈련시키는데 사용될 것입니다.
+card-button-next = 다음
+card-button-back = 뒤로
+demo-language-select-label = 언어 찾기
+demo-eofy-sub_header = 음성 데이터 세트, 다운로드 준비 완료
+demo-account = 계정
 
 ## Demo Account
 
+demo-account-card-header = 계정이 있으면 도움이 되지만, 공헌을 위해 꼭 필요한 것은 아닙니다.
+demo-account-enter-email =
+    .label = 가입 링크를 보낼 이메일을 입력하세요.
+demo-account-sign-up = 가입 링크 보내기
 
 ## Demo Contribute
 
+demo-contribute-card-header = 목소리를 추가하거나 귀를 빌릴 준비가 되셨습니까?
 
 ## Demo Dashboard
 
