@@ -171,33 +171,72 @@ faq-search-for-answers =
 
 ## ABOUT US
 
+about-speak = ᱨᱚᱲ ᱢᱮ
+about-dataset-new = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ
+about-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
+about-become-a-partner = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤ ᱵᱮᱱᱟ ᱯᱮ
+about-nav-why-common-voice = ᱪᱮᱫᱟᱜ?
+about-nav-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
 
 ## Glossary
 
 
 ## Error pages
 
+error-code = ᱵᱷᱩᱞ { $code }
 
 ## Data
 
+data-download-button = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱳᱰ ᱯᱮ
+data-download-yes = ᱦᱮᱸ
+data-download-deny = ᱵᱟᱝ
+data-other-title = ᱮᱴᱟᱜᱟ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ ᱠᱚ...
+data-other-goto = { $name } ᱨᱮ ᱪᱟᱞᱟᱜ ᱢᱮ
+data-other-download = ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱳᱰ
+data-bundle-button = ᱰᱟᱴᱟᱥᱮᱴ ᱜᱷᱮᱸᱴ ᱰᱟᱩᱱᱞᱳᱰ
+dataset-date = ᱢᱟᱹᱦᱤᱛ
+license-mixed = ᱢᱮᱥᱟ
+review-recording = ᱧᱮᱞ ᱫᱚᱦᱲᱟ
 
 ## Datasets Page
 
+language = ᱯᱟᱹᱨᱥᱤ
+size-gigabyte = GB
+size-megabyte = MB
+download-language = ᱰᱟᱩᱱᱞᱳᱰ { $language }
+more = ᱰᱷᱮᱨ
+close = ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+download = ᱰᱟᱩᱱᱞᱳᱰ
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = ᱭᱩᱛᱩᱢ
+contact-form-message =
+    .label = ᱠᱷᱚᱵᱚᱨ
+contact-required = *ᱞᱟᱹᱠᱛᱤ ᱜᱮᱭᱟ
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = ᱯᱟᱹᱨᱥᱤ
+select-language = ᱢᱤᱫᱴᱟᱝ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ...
+other-language = ᱮᱴᱟᱜᱟ ᱯᱟᱹᱨᱥᱤ
 
 ## Languages Overview
 
+language-total-progress = ᱢᱳᱴ
+language-search-input =
+    .placeholder = ᱥᱮᱸᱫᱽᱨᱟ
+sentences = ᱟᱭᱟᱛᱠᱚ
 
 ## Contribution
 
+action-click = ᱚᱛᱟᱭ ᱢᱮ
+contribute = ᱮᱱᱮᱢ ᱢᱮ
 
 ## Reporting
 
