@@ -165,6 +165,9 @@ faq-what-cv-q = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
 faq-why-important-q = ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱫᱟᱜ ᱢᱚᱦᱚᱛ ᱜᱮᱭᱟ?
 faq-how-get-q = ᱪᱮᱠᱟ ᱞᱮᱠᱟᱛᱮ ᱤᱧ ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱧᱟᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ?
 faq-when-release2-q = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱤᱥ ᱯᱮ ᱨᱤᱞᱤᱡᱽ ᱟ?
+faq-what-is-cv = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
+faq-search-for-answers =
+    .label = ᱡᱚᱵᱟᱵᱽ ᱞᱟᱹᱜᱤᱫ ᱥᱮᱸᱫᱽᱨᱟᱭ ᱢᱮ
 
 ## ABOUT US
 
