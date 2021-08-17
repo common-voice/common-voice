@@ -82,7 +82,8 @@ zh-TW = ᱪᱟᱭᱱᱤᱡᱽ (ᱛᱟᱤᱣᱟᱱ)
 
 speak = ᱨᱚᱲ ᱢᱮ
 speak-now = ᱱᱤᱛᱚᱜ ᱨᱚᱲ ᱢᱮ
-languages = ᱯᱟᱹᱨᱥᱤᱠᱚ
+datasets = ᱰᱟᱴᱟ ᱥᱮᱴ ᱠᱚ
+languages = ᱯᱟᱹᱨᱥᱤ ᱠᱚ
 about = ᱵᱟᱵᱚᱛ
 profile = ᱢᱚᱦᱲᱟ
 help = ᱜᱚᱲᱚ
@@ -90,17 +91,21 @@ contact = ᱥᱚᱢᱯᱚᱨᱠ
 privacy = ᱱᱤᱥᱚᱱ
 terms = ᱥᱚᱨᱛᱚᱠᱚ
 faq = FAQ
+link-copied = ᱞᱤᱝᱠ ᱱᱚᱠᱚᱞ ᱦᱩᱭᱮᱱᱟ
 
 ## Home Page
 
 vote-yes = ᱦᱮᱸ
 vote-no = ᱵᱟᱝ
 speak-subtitle = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱱᱮᱢ ᱢᱮ
+read-terms-q = ᱟᱞᱮᱭᱟᱜ ᱥᱚᱨᱚᱛ ᱯᱟᱲᱦᱟᱣ ᱟᱠᱟᱫᱟᱢ ᱥᱮ?
+ready-to-record = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫᱛᱮ ᱛᱮᱭᱟᱨ ᱢᱮᱱᱟᱢᱟ ᱥᱮ?
 all-locales = ᱡᱷᱚᱛᱚ
 today = ᱛᱮᱦᱮᱸᱧ
 
 ## Account Benefits
 
+benefits = ᱞᱟᱵᱷ ᱠᱚ
 
 ## What's public
 
@@ -113,6 +118,7 @@ today = ᱛᱮᱦᱮᱸᱧ
 
 ## Speak Shortcuts
 
+request-language-button = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱢᱮ
 
 ## ProjectStatus
 
@@ -125,18 +131,25 @@ profile-form-native-language =
     .label = ᱡᱟᱱᱟᱢ ᱯᱟᱹᱨᱥᱤ
 profile-form-age =
     .label = ᱩᱢᱮᱨ
+profile-form-gender-2 =
+    .label = ᱡᱟᱱᱟᱝ
 native-language =
     .label = ᱡᱟᱱᱟᱢ ᱯᱟᱹᱨᱥᱤ
 profile-form-submit-save = ᱥᱟᱺᱪᱟᱣ ᱢᱮ
 profile-form-submit-saved = ᱥᱟᱺᱪᱟᱣᱮᱱᱟ
 male = ᱠᱚᱲᱟ
 female = ᱠᱩᱲᱤ
+# Gender
+other = ᱮᱴᱟᱜᱽ-ᱟᱜ
+why-profile-title = ᱢᱤᱫᱴᱟᱝ ᱢᱚᱦᱲᱟ ᱫᱚ ᱪᱮᱫᱟᱜ ᱵᱮᱱᱟᱣᱟ?
 build-profile = ᱢᱚᱦᱲᱟ ᱛᱮᱭᱟᱨ ᱢᱮ
 avatar = ᱟᱣᱛᱟᱨ
 settings = ᱥᱟᱡᱟᱣ ᱠᱚ
 edit-profile = ᱢᱚᱦᱲᱟ ᱥᱟᱯᱲᱟᱣ  ᱢᱮ
+profile-close = ᱵᱚᱸᱫᱽ
 accept-privacy-title = ᱫᱟᱱᱟᱝ ᱨᱤᱛᱤ
 edit = ᱥᱟᱯᱲᱟᱣ
+download-profile = ᱤᱧᱟᱜ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱳᱰ ᱢᱮ
 on = ᱪᱟᱹᱞᱩ
 
 ## Profile - Email
@@ -144,9 +157,14 @@ on = ᱪᱟᱹᱞᱩ
 
 ## Profile - Email
 
+add-language = ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫᱽ ᱢᱮ
 
 ## FAQ
 
+faq-what-cv-q = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
+faq-why-important-q = ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱫᱟᱜ ᱢᱚᱦᱚᱛ ᱜᱮᱭᱟ?
+faq-how-get-q = ᱪᱮᱠᱟ ᱞᱮᱠᱟᱛᱮ ᱤᱧ ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱧᱟᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ?
+faq-when-release2-q = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱤᱥ ᱯᱮ ᱨᱤᱞᱤᱡᱽ ᱟ?
 
 ## ABOUT US
 
