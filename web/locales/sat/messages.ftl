@@ -45,15 +45,32 @@ sr = ᱥᱚᱨᱵᱤᱭᱟᱱ
 sw = ᱥᱣᱟᱦᱤᱞᱤ
 ta = ᱛᱟᱹᱢᱤᱞ
 tt = ᱛᱟᱛᱟᱨ
+zh-CN = ᱪᱟᱭᱱᱤᱡᱽ (ᱪᱟᱭᱱᱟ)
+zh-HK = ᱪᱟᱭᱱᱤᱡᱽ (ᱦᱚᱝ ᱠᱚᱝ)
 
 # [/]
 
 
 ## Layout
 
+speak = ᱨᱚᱲ ᱢᱮ
+speak-now = ᱱᱤᱛᱚᱜ ᱨᱚᱲ ᱢᱮ
+languages = ᱯᱟᱹᱨᱥᱤᱠᱚ
+about = ᱵᱟᱵᱚᱛ
+profile = ᱢᱚᱦᱲᱟ
+help = ᱜᱚᱲᱚ
+contact = ᱥᱚᱢᱯᱚᱨᱠ
+privacy = ᱱᱤᱥᱚᱱ
+terms = ᱥᱚᱨᱛᱚᱠᱚ
+faq = FAQ
 
 ## Home Page
 
+vote-yes = ᱦᱮᱸ
+vote-no = ᱵᱟᱝ
+speak-subtitle = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱱᱮᱢ ᱢᱮ
+all-locales = ᱡᱷᱚᱛᱚ
+today = ᱛᱮᱦᱮᱸᱧ
 
 ## Account Benefits
 
