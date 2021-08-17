@@ -149,7 +149,7 @@ edit-profile = ᱢᱚᱦᱲᱟ ᱥᱟᱯᱲᱟᱣ  ᱢᱮ
 profile-close = ᱵᱚᱸᱫᱽ
 accept-privacy-title = ᱫᱟᱱᱟᱝ ᱨᱤᱛᱤ
 edit = ᱥᱟᱯᱲᱟᱣ
-download-profile = ᱤᱧᱟᱜ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱳᱰ ᱢᱮ
+download-profile = ᱤᱧᱟᱜ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
 on = ᱪᱟᱹᱞᱩ
 
 ## Profile - Email
