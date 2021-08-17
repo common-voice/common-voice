@@ -1,6 +1,10 @@
 ## General
 
+return-to-cv = Common Voice ᱛᱮ ᱨᱩᱣᱟᱹᱲ ᱢᱮ
+email-input =
+    .label = ᱤᱢᱮᱞ
 submit-form-action = ᱡᱚᱢᱟᱭ ᱢᱮ
+loading = ᱞᱟᱫᱮᱜᱼᱟ…
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -10,6 +14,8 @@ not-available-abbreviation = N/A
 ## Languages
 
 ab = ᱚᱵᱠᱟᱡᱽ
+af = ᱟᱯᱷᱨᱤᱠᱟᱱᱥ
+am = ᱟᱢᱦᱟᱨᱤᱠ
 an = ᱟᱨᱜᱚᱱᱤᱡᱽ
 ar = ᱚᱨᱵᱤ
 as = ᱚᱥᱟᱢᱤ
@@ -18,35 +24,56 @@ az = ᱚᱡᱚᱨᱵᱮᱭᱡᱟᱱᱤ
 ba = ᱵᱟᱥᱠᱤᱨ
 bas = ᱵᱟᱥᱟ
 be = ᱵᱮᱞᱟᱨᱩᱥᱤ
+bn = ᱵᱮᱝᱜᱟᱞᱤ
+br = ᱵᱨᱮᱴᱚᱱ
 cs = ᱪᱮᱠ
 cv = ᱪᱩᱣᱟᱥ
 cy = ᱣᱮᱞᱥ
 da = ᱰᱮᱱᱤᱥ
 de = ᱡᱚᱨᱢᱚᱱ
+el = ᱜᱽᱨᱤᱠ
+fa = ᱯᱟᱹᱨᱥᱤᱭᱟᱹᱱ
 ff = ᱯᱷᱩᱞᱟᱦ
 fi = ᱯᱷᱤᱱᱤᱥ
 ga-IE = ᱟᱭᱨᱤᱥ
 he = ᱦᱤᱵᱽᱨᱩ
 hi = ᱦᱤᱱᱫᱤ
+id = ᱤᱱᱰᱚᱱᱮᱥᱤᱭᱚᱱ
 ja = ᱡᱟᱯᱟᱱᱤ
 ka = ᱡᱚᱨᱡᱤᱭᱟᱭ
 kk = ᱠᱟᱡᱟᱠᱷ
+ko = ᱠᱳᱨᱤᱭᱟᱹᱱ
+kw = ᱠᱚᱨᱱᱤᱥ
+lg = ᱩᱜᱟᱱᱰᱟ
 mdf = ᱢᱳᱠᱥᱷᱟ
+ml = ᱢᱟᱹᱞᱟᱭᱟᱞᱚᱢ
 mr = ᱢᱟᱨᱟᱴᱷᱤ
 mrj = ᱦᱤᱞ ᱢᱟᱨᱤ
 ms = ᱢᱟᱞᱟᱭ
 ne-NP = ᱱᱮᱯᱟᱞᱤ
 or = ᱳᱰᱤᱭᱟ
+pa-IN = ᱯᱚᱧᱡᱟᱵᱤ
+pl = ᱯᱳᱞᱤᱥ
 ru = ᱨᱩᱥᱤ
+sah = ᱥᱟᱠᱷᱟ
+si = ᱥᱤᱸᱦᱟᱞᱟ
 sk = ᱥᱞᱚᱣᱟᱠ
 so = ᱥᱳᱢᱟᱞᱤ
 sq = ᱚᱞᱵᱮᱱᱤᱭᱟᱱ
 sr = ᱥᱚᱨᱵᱤᱭᱟᱱ
 sw = ᱥᱣᱟᱦᱤᱞᱤ
 ta = ᱛᱟᱹᱢᱤᱞ
+te = ᱛᱮᱞᱜᱩ
+tg = ᱛᱟᱡᱤᱠ
+th = ᱛᱷᱟᱤ
+tl = ᱛᱟᱜᱟᱞᱚᱜᱽ
+tr = ᱛᱩᱨᱠᱤᱥ
 tt = ᱛᱟᱛᱟᱨ
+ur = ᱩᱨᱫᱩ
+uz = ᱩᱡᱽᱵᱮᱠ
 zh-CN = ᱪᱟᱭᱱᱤᱡᱽ (ᱪᱟᱭᱱᱟ)
 zh-HK = ᱪᱟᱭᱱᱤᱡᱽ (ᱦᱚᱝ ᱠᱚᱝ)
+zh-TW = ᱪᱟᱭᱱᱤᱡᱽ (ᱛᱟᱤᱣᱟᱱ)
 
 # [/]
 
