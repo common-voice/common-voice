@@ -237,21 +237,33 @@ sentences = ᱟᱭᱟᱛᱠᱚ
 
 action-click = ᱚᱛᱟᱭ ᱢᱮ
 contribute = ᱮᱱᱮᱢ ᱢᱮ
+share-common-voice = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
+target-segment-add-voice = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱥᱮᱞᱮᱫ ᱛᱟᱢ
+target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
 
 ## Reporting
 
+report = ᱨᱤᱯᱚᱴ
+report-title = ᱢᱤᱫ ᱴᱟᱝ ᱨᱤᱯᱚᱴ ᱡᱚᱢᱟᱭ ᱢᱮ
 
 ## Goals
 
 
 ## Dashboard
 
+your-languages = ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱠᱚ
+you = ᱟᱢ
+everyone = ᱡᱷᱚᱛᱚᱠᱚ
 
 ## Custom Goals
 
+both-speak-and-listen = ᱵᱟᱱᱟᱨᱜᱮ
+both-speak-and-listen-long = ᱵᱟᱱᱟᱨᱜᱮ (ᱨᱚᱲ ᱢᱮ ᱟᱨ ᱟᱡᱚᱢ ᱢᱮ)
 
 ## Profile Delete
 
+keep = ᱫᱚᱦᱚᱭ ᱢᱮ
+profile-form-delete = ᱢᱚᱦᱲᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
 
 ## Landing
 
@@ -261,12 +273,14 @@ contribute = ᱮᱱᱮᱢ ᱢᱮ
 
 ## Demo Datasets
 
+demo-account = ᱠᱷᱟᱛᱟ
 
 ## Demo Account
 
 
 ## Demo Contribute
 
+demo-listen-subtitle = ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱛᱮᱭᱟᱨ?
 
 ## Demo Dashboard
 
