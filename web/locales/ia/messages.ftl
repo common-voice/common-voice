@@ -286,6 +286,7 @@ shortcut-record-toggle-label = Registrar/stoppar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-registrar retalio
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Refusar le registration in curso
 shortcut-submit = Inserer
 shortcut-submit-label = Inviar registrationes
 request-language-text = Non se trova tu lingua sur Common Voice?
