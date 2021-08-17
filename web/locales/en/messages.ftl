@@ -288,6 +288,9 @@ shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
 
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Discard ongoing recording
+
 shortcut-submit = Return
 shortcut-submit-label = Submit clips
 
