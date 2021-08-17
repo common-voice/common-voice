@@ -92,7 +92,25 @@ today = ᱛᱮᱦᱮᱸᱧ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹᱜ ᱧᱩᱛᱩᱢ
+profile-form-native-language =
+    .label = ᱡᱟᱱᱟᱢ ᱯᱟᱹᱨᱥᱤ
+profile-form-age =
+    .label = ᱩᱢᱮᱨ
+native-language =
+    .label = ᱡᱟᱱᱟᱢ ᱯᱟᱹᱨᱥᱤ
+profile-form-submit-save = ᱥᱟᱺᱪᱟᱣ ᱢᱮ
+profile-form-submit-saved = ᱥᱟᱺᱪᱟᱣᱮᱱᱟ
+male = ᱠᱚᱲᱟ
+female = ᱠᱩᱲᱤ
+build-profile = ᱢᱚᱦᱲᱟ ᱛᱮᱭᱟᱨ ᱢᱮ
+avatar = ᱟᱣᱛᱟᱨ
+settings = ᱥᱟᱡᱟᱣ ᱠᱚ
+edit-profile = ᱢᱚᱦᱲᱟ ᱥᱟᱯᱲᱟᱣ  ᱢᱮ
+accept-privacy-title = ᱫᱟᱱᱟᱝ ᱨᱤᱛᱤ
 edit = ᱥᱟᱯᱲᱟᱣ
+on = ᱪᱟᱹᱞᱩ
 
 ## Profile - Email
 
