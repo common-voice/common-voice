@@ -594,6 +594,11 @@ days =
         [one] Ghjornu
        *[other] Ghjorni
     }
+validations =
+    { $count ->
+        [one] Cunvalidaziona
+       *[other] Cunvalidazioni
+    }
 
 ## Dashboard
 
@@ -610,6 +615,7 @@ you = Tù
 everyone = Ognunu
 recorded-clips = Campioni arrighjistrati
 validated-clips = Campioni cunvalidati
+total-approved = Tutale cunvalidatu
 set-visibility = Definisce a mo visibilità
 show-ranking = Muscià a mo classifica
 
@@ -626,6 +632,7 @@ average-difficulty = Mediana
 difficult-difficulty = Difficiule
 pro-difficulty = Prufessiunale
 want-to-continue = Vulete cuntinuà ?
+finish-editing = Compie i cambii in primu locu ?
 lose-changes-warning = Partendu avà, i vostri cambiamenti seranu persi
 build-custom-goal = Definisce un scopu parsunale
 help-reach-hours-pluralized =
