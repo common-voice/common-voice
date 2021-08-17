@@ -396,6 +396,7 @@ de-identified = Anonimizatu
 
 error-title-404 = Ùn pudemu micca truvà questa pagina per voi
 error-content-404 = Forse a nostra <homepageLink>paghjina d'accolta</homepageLink>v’aiutarà ? Pà fà una dumanda, raghjunghjisti a <matrixLink>chjachjerata di a cummunità Matrix</matrixLink>, tiniti l'ochji nant’à i prublemi di u situ via <githubLink>GitHub</githubLink> o visiteti <discourseLink>i nostri fori Discourse</discourseLink>.
+error-title-503 = Avemu un'interuzzione imprevista
 error-code = Errore { $code }
 
 ## Data
@@ -406,6 +407,7 @@ data-download-deny = Innò
 data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
 data-download-modal = Seti à u puntu di principià un scaricamentu di <size>{ $size } Go</size>, vulete cuntinuà ?
 data-subtitle = Custruimu una banca di voci aperta è dispunibile di manera publica chì ognunu puderà aduprà pà l'addestru di l'appiecazioni chì ponu parlà.
+data-explanatory-text = Noi cridimu chi banche di dati vucale tamante è pubbliche prumovani l’innuvazione è una cumpetiziona sana in e tecnulugie vucale appughjati annantu à l’amparera di e machine. Ghjè un sforzu glubale è invitemu tuttu ognunu à participà. U nostru scopu hè d’aiutà è tecnulugie vucale à esse più inclusive, à rispechjà a varietà di e voce di u mondu.
 data-get-started = <speechBlogLink>Iniziassi à a ricunniscenza vucale</speechBlogLink>
 data-other-title = Altre banche di voci…
 data-other-goto = Andà à { $name }
@@ -701,4 +703,7 @@ demo-contribute-card-body-v2 = Avà chì cunnusciti un pocu di più Common Voice
 demo-listen-subtitle = Seti pronti à cuntribuisce ?
 
 ## Demo Dashboard
+
+
+## Validation criteria
 
