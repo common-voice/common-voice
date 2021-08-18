@@ -35,15 +35,15 @@ vote-yes = ܗܐ
 vote-no = ܠܐ
 speak-subtitle = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
 all-locales = ܟܠ
-today = ܐܕܝܘܡ
+today = ܝܘܡܢܐ
 x-weeks-short =
     { $count ->
-        [zero] ܫܒ̈ܬ݂ܐ
+        [zero] ܫܒܬܐ
         [one] ܫܒܬܐ
-        [two] ܫܒ̈ܬ݂ܐ
-        [few] ܫܒ̈ܬ݂ܐ
-        [many] ܫܒ̈ܬ݂ܐ
-       *[other] ܫܒ̈ܬ݂ܐ
+        [two] ܫܒ̈ܬܐ
+        [few] ܫܒ̈ܬܐ
+        [many] ܫܒ̈ܬܐ
+       *[other] ܫܒ̈ܬܐ
     }
 x-months-short =
     { $count ->
