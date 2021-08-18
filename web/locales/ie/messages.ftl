@@ -35,10 +35,15 @@ link-copied = Ligament sta copiat
 
 ## Home Page
 
+show-wall-of-text = Leer plu
 vote-yes = Yes
 vote-no = No
 speak-subtitle = Donar vor voce
+hours-recorded = Hores registrat
+hours-validated = Hores validat
+todays-progress = Progresse de hodie
 help-reach-goal = Assiste nos atinger { $goal }
+today = Hodie
 
 ## Account Benefits
 
@@ -48,18 +53,46 @@ help-reach-goal = Assiste nos atinger { $goal }
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = o
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
 
 ## ProfileForm
 
+profile-form-age =
+    .label = Etá
+profile-form-gender-2 =
+    .label = Génere
+hidden = Celat
+visible = Visibil
+profile-form-submit-save = Gardar
+profile-form-submit-saved = Gardat
+male = Masculin
+female = Feminin
+# Gender
+other = Altri
+profile-close = Cluder
 
 ## Profile - Email
 
