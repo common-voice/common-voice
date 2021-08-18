@@ -129,6 +129,7 @@ ro = rumuński
 ru = rosyjski
 rw = kinyarwanda
 sah = jakucki
+sat = santali (ol ciki)
 sc = sardyński
 scn = sycylijski
 shi = shilha
