@@ -129,6 +129,7 @@ ro = Rumunšćina
 ru = Rušćina
 rw = Kinjarwanda
 sah = Sachašćina
+sat = Santališćina (Ol Chiki)
 sc = Sardinšćina
 scn = Sicilšćina
 shi = Tašelhitšćina
