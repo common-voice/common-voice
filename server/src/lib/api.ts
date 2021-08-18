@@ -22,6 +22,7 @@ import Challenge from './challenge';
 import { FeatureType, features } from 'common';
 import { TaxonomyToken, taxonomies } from 'common';
 import { getLocaleId } from './model/db';
+import Takeout from './takeout';
 
 const Transcoder = require('stream-transcoder');
 
