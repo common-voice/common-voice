@@ -128,6 +128,7 @@ Aber dafür wird Jennifer ja sicherlich auch gut bezahlt.
 Aber damit will ich gerade nicht anfangen.
 Aber dann kam er in die Schule.
 Aber dann könnte ich mich garnicht konzentrieren.
+Aber dann morgen bestimmt, nicht wahr?
 Aber dann regt euch bitte nicht auf, wenn ich für euch überraschend vorbeifahre.
 Aber dann wurde alles geändert.
 Aber darauf habe ich keine Lust.
@@ -1654,6 +1655,7 @@ Auch eine Abfuhr kann man höflich erteilen.
 Auch eine Grippeimpfung wird empfohlen.
 Auch eine intravenöse Verabreichung ist möglich.
 Auch eine kurze Pause kann Binnen-I, Unterstrich und Asterisk andeuten.
+Auch eine sehr schöne Uhr. Gutes Werk!
 Auch einem Paradigmenwechsel gegenüber wäre er nicht abgeneigt.
 Auch erfahrene Sprecher dürfen ihre Aufnahme gerne rechtzeitig beenden.
 Auch eventuelle Willensäußerungen zu Lebzeiten werden nicht beachtet.
@@ -1748,7 +1750,9 @@ Auf Tour bekommt man nicht immer nur Applaus.
 Auf Twitter gab es eine große Debatte darüber.
 Auf Videos verzichte ich absichtlich.
 Auf Wiedersehen, Herr Schulze!
+Auf Wiedersehen, Herr Song.
 Auf Wiedersehn am Donnerstag!
+Auf Wiedersehn heute abend!
 Auf Wiedersehn morgen!
 Auf Wiedersehn!
 Auf Wunsch haben wir ihren Namen geändert.
@@ -3029,11 +3033,14 @@ Bitte überprüfen Sie Ihre Anschlüsse.
 Bitte überprüfen Sie Ihre aufgenommenen Clips vor dem Hochladen.
 Bitte, Gitte.
 Bitte, bleib da.
+Bitte, buchstabieren Sie es.
 Bitte, du hilfst mir bei den Aufgaben.
 Bitte, folgen Sie mir.
 Bitte, nehmen Sie Platz!
 Bitte, nehmen Sie Platz.
+Bitte, nehmen Sie mir Mass, aber erst will ich mir den Stoff aussuchen.
 Bitte, reichen Sie mir doch einmal das Salz herüber.
+Bitte, treten Sie näher; ich werde Herrn Song gleich benachrichtigen.
 Bitte, zeigen Sie mal.
 Bla bla bla, entgegnete Gabriele genervt und desinteressiert.
 Blagen und Gören.
@@ -3396,6 +3403,7 @@ Da kommen wir dann ganz schnell zum Back-up.
 Da kommt dann ein Linux drauf.
 Da kommt ein Inder von der Toilette zurück und fragt, ob er helfen kann.
 Da kommt ein Wagen!
+Da kommt eine Droschke, die unbesetzt zu sein scheint.
 Da kommt einiges zusammen.
 Da kommt gerade ein Wagen, der nach dem Bahnhof.
 Da kommt irgend so ein glibberiges Zeug raus.
@@ -3474,6 +3482,7 @@ Da soll mich doch sogleich der Blitz treffen!
 Da sollte Hanna mal einen Blick drauf werfen.
 Da sollte man schon genau drauf achten.
 Da staunt sogar der Fuchs.
+Da steckt bestimmt eine richtig gute Idee dahinter.
 Da steht zwar Bosch drauf, es kommt aber trotzdem aus China.
 Da steht zwar ab achtzehn, aber eigentlich ist das Spiel ganz harmlos.
 Da stellen sich meine Nackenhaare hoch.
@@ -3871,6 +3880,8 @@ Danke, für deine Rückmeldung.
 Danke, gleichfalls!
 Danke, gut, vorzüglich, und Ihnen?
 Danke, ich werde es ausrichten.
+Danke, ja, und Ihnen?
+Danke, sehr gut.
 Danke, sehr hilfreich.
 Danke, weiß ich zu schätzen.
 Danke. Nun übernehmen Sie.
@@ -5143,6 +5154,7 @@ Das ist zwar indirekter, aber dennoch möglich.
 Das ist zwar verständlich, aber dennoch fatal.
 Das ist übel sprach der Dübel und verschwand in der Wand.
 Das ist überhaupt nicht egal.
+Das ist überhaupt nicht witzig.
 Das jahrelange Training, die hohen Investitionen und das Anlesen von Wissen?
 Das jüngste Kind wird stets am wenigsten konsequent erzogen.
 Das kam in meiner Ausbildung nicht vor.
@@ -5197,6 +5209,7 @@ Das karierte Hemd steht dir besser als das gestreifte.
 Das kennen Sie ja schon von Ihrer letzten Behandlung.
 Das klappt einfach nicht!
 Das klappt in elf von zehn Fällen.
+Das klappt ja schon mal gut.
 Das klingt alles langweilig!
 Das klingt ja nicht so, als würdest du noch daran glauben.
 Das klingt nach einem Plan.
@@ -5988,6 +6001,7 @@ Den sogenannten Systemmedien glaubt Nathanael sowieso nichts mehr.
 Den versteht keiner.
 Den wievielten haben wir?
 Den zu überreden ist keine große Kunst!
+Den »Germana Esperantisto«, bitte.
 Den Ärzten selbst ist dies aber nur zum Teil anzulasten.
 Den überteuerten Nippes kaufe ich nicht.
 Denise ist eine der Wackelkandidatinnen.
@@ -6482,6 +6496,7 @@ Der Musikmarkt ist längst gesättigt.
 Der Musterschüler kam mal wieder überpünktlich.
 Der Mähdrescher hat das ganze Weizenfeld abgeerntet.
 Der Mähroboter steuert geradezu zielstrebig auf das Kiesbett zu.
+Der Märchenonkel erzählt wieder Geschichten.
 Der Märchenonkel weiß zu erzählen.
 Der Müll aus den Fast-Food-Restaurants hat eine Rattenplage herbeigeführt.
 Der Mülleimer ist orange.
@@ -6932,6 +6947,7 @@ Der ist komisch.
 Der ist sauber.
 Der ist so lange her, das habe ich alles vergessen.
 Der ist uns leider durch die Lappen gegangen.
+Der ist zu schwer.
 Der italienische Anbieter kann mit dem besten Gesamtpaket überzeugen.
 Der jeweilige Internist überstellt die Patientin an einen entsprechenden Facharzt.
 Der junge Junge fiel viel hin.
@@ -6987,6 +7003,7 @@ Der professionelle Sprecher kann nicht darüber hinwegtäuschen, dass er den Inh
 Der rechte Rand des Touchpads lässt sich zum Scrollen verwenden.
 Der rote Planet ist nach dem griechischen Kriegsgott benannt.
 Der rote Sportwagen war zu schnell unterwegs.
+Der runde Tisch war eckig.
 Der räudige Köter pariert nicht.
 Der sagenumwobene Pferdeflüsterer ist zurückgekehrt!
 Der sah haargenau so aus wie du!
@@ -9196,6 +9213,7 @@ Du bist hier an der Universität und nicht in Hogwarts.
 Du bist hier, weil wir dich für einen anderen Job brauchen.
 Du bist ja ein Witzbold.
 Du bist ja komisch.
+Du bist ja schon fertig!
 Du bist mal wieder so romantisch, Ulrich!
 Du bist mein persönlicher Held.
 Du bist mir ja einer!
@@ -9569,6 +9587,7 @@ Dünner ist nicht besser.
 Dürfen die Kinder die Geschenke jetzt schon auspacken?
 Dürfen die Tassen mit Goldrand wirklich in den Geschirrspüler?
 Dürfen wir hier einen Film drehen?
+Dürfte ich Sie bitten, zu?
 Dürftiges Zweikampfverhalten und schlechtes Stellungsspiel führten zu der Niederlage.
 E-Bikes können ziemlich teuer sein.
 E-Mails gibt es schon länger als das Internet.
@@ -9860,6 +9879,7 @@ Ein Oktopus isst sich selber, wenn er aufgregt ist.
 Ein Orchester dieser Größe zu dirigieren, ist sicherlich anspruchsvoll.
 Ein Ostfriese gerät in eine Polizeikontrolle.
 Ein Papagei ist schnell gestresst.
+Ein Paradebeispiel der Stammtischrhetorik.
 Ein Parlamentarier.
 Ein Parser bereitet die Ausgabe für die Weiterverarbeitung vor.
 Ein Passant wurde von einem Einsatzfahrzeug angefahren.
@@ -10283,6 +10303,7 @@ Eine große Lagerhalle für Toilettenpapier brennt.
 Eine große Menge Wissen wurde auf wenig Papier gebündelt.
 Eine gut platzierte Sprengladung tut's auch.
 Eine gute Stunde ist rum.
+Eine halbe Flasche Bordeaŭ, aber etwas überschlagen!
 Eine halbe Stunde hätte ich für Sie noch.
 Eine hundert Tonnen schwere Presse stanzt die einzelnen Teile aus.
 Eine hundertjährige Eiche spendet Schatten.
@@ -10594,6 +10615,7 @@ Emotionale Aufladung kann zu verfälschten Ergebnissen führen.
 Emotionale Flashbacks sind charakteristisch für komplexe posttraumatische Belastungsstörungen.
 Emotionale Vernachlässigung im Kindesalter kann genauso traumatische Folgen wie andere Misshandlungen haben.
 Empfehle mich.
+Empfehlen Sie mich Ihrer Frau Gemahlin!
 Ende August kann man schon die ersten Äpfel ernten.
 Ende August und Anfang September war die Kurve hoch.
 Ende der Geschichte.
@@ -10655,6 +10677,7 @@ Entschuldigen Sie, aber ich muss dagegen Einspruch erheben; es zieht hier fürch
 Entschuldigen Sie, auf welcher Rechtsgrundlage operieren Sie hier?
 Entschuldigen Sie, dass ich störe.
 Entschuldigen Sie, ich habe Sie nicht recht verstanden.
+Entschuldigen Sie, ist Herr Song zu Hause?
 Entschuldigen Sie, können Sie mir den Weg nach der Hauptpost zeigen?
 Entschuldigen Sie, können Sie mir sagen, welches der kürzeste Weg nach dem Nordbahnhof ist?
 Entschuldigen Sie, könnten Sie mir wohl sagen, wieviel Uhr es ist?
@@ -10830,6 +10853,7 @@ Er ist in Richtung der Pool-Anlagen verschwunden.
 Er ist in diese Richtung abgehauen.
 Er ist ja niemandem unterstellt.
 Er ist ja ohnehin schon in der Kirche.
+Er ist mir sehr ähnlich, aber noch mehr meinem jüngeren Bruder.
 Er ist mit an Sicherheit grenzender Wahrscheinlichkeit nicht beim Fechten.
 Er ist nicht der Kopf der Bande, nur ein Handlanger.
 Er ist nicht so gross wie ich, aber er ist dicker.
@@ -11328,6 +11352,7 @@ Es hapert am Föderalismus.
 Es hat ein wenig gedauert, bis sie es begriffen hat.
 Es hat einen Grund, dass Grillwürste nicht an den Enden aufplatzen.
 Es hat eingeschlagen.
+Es hat gefroren; wir haben schönes Eis.
 Es hat gerade erst angefangen und ich habe jetzt schon keine Lust mehr.
 Es hat mich beruhigt, als du mich umarmt hast.
 Es hat mir gezeigt, dass ich wieder etwas fühle.
@@ -11501,6 +11526,7 @@ Es ist schwierig, Leuten zu helfen, die sowieso alles besser können.
 Es ist schwierig, diesen Leuten etwas zu verkaufen.
 Es ist sehr warm.
 Es ist seine Art, dir zu sagen, dass er dich mag.
+Es ist so heiß hier drinnen.
 Es ist so lustig, diese Leute zu beobachten!
 Es ist so sicher wie das Amen in der Kirche.
 Es ist so süß!
@@ -11692,6 +11718,7 @@ Es stellte sich heraus, dass der Kunde moralisch recht flexibel war.
 Es stellte sich heraus, dass es gar nicht Tom gewesen ist.
 Es stellte sich heraus, dass mein Begleiter ein ausgesprochener Miesepeter war.
 Es stinkt wie die Pest.
+Es taut; der Schnee schmilzt.
 Es trafen sich zwei Jäger im Wald.
 Es traut sich nur keiner, das zuzugeben.
 Es tut gut, mal wieder Zähne geputzt zu haben.
@@ -12269,6 +12296,7 @@ Früher tat ich das auch, doch damit habe ich aufgehört.
 Früher verbrachten wir dort oft unseren Urlaub.
 Früher war alles besser, auch schon damals.
 Früher war alles besser.
+Früher war alles besser?
 Früher war das Protokoll auch als Jabber bekannt.
 Früher war der Sonntagsbraten das einzige Fleischgericht der Woche.
 Früher war eine kalifornische Surfermarke sehr angesagt.
@@ -12529,6 +12557,7 @@ Für mich zählt nur die Leistung.
 Für morgen ist ein Castortransport geplant.
 Für morgen ist eine Fahrradtour geplant.
 Für nichts und wieder nichts hat er einen Streit vom Zaun gebrochen.
+Für nur einen Tag hast du sehr viel geschafft.
 Für revolutionäres Gedankengut war Rona nicht sehr aufgeschlossen.
 Für richtig hohe Drücke nimmt man aus Sicherheitsgründen besser Hydraulik als Pneumatik.
 Für schwangere Frauen ist das ebenfalls nichts.
@@ -12589,6 +12618,7 @@ Ganz einfach: Neunzehnhundertsiebzehn wohnte er schon in Rietschen.
 Ganz einfach: Weil es Spaß macht.
 Ganz klar, hierbei handelt es sich um einen technischen Defekt.
 Ganz offensichtlich hat der Herrscher jeden Bezug zum einfachen Volk verloren.
+Ganz recht, und das wird jetzt gern getragen.
 Ganz schmales Brett, auf dem sie steht.
 Ganz sicher sogar.
 Ganz so einfach ist es nicht.
@@ -12708,6 +12738,7 @@ Gehen wir an die frische Luft, das wird Sie vollständig wiederherstellen.
 Gehen wir auf die andere Seite; hier sind zuviel Menschen.
 Gehen wir auf einen Kaffee?
 Gehen wir etwas an die frische Luft.
+Gehen wir in das Restaurant da und speisen wir zu Mittag.
 Gehen wir in die Eisdiele?
 Gehen wir ins Bahnhofsrestaurant.
 Gehen wir morgen Abend ins Theater?
@@ -12753,6 +12784,7 @@ Geht im Stall die Heizung aus, kommt die Milch in Würfeln raus.
 Geht mir auch so.
 Geht mir genauso.
 Geht sonst noch jemand in Richtung Erlentwiete?
+Geht’s gut?
 Geht’s zu Hause allen gut?
 Gehören Durchhaltevermögen und Improvisationstalent zu Ihren Stärken?
 Gehören Sie auch zu den Strahlungshysterikern?
@@ -12844,6 +12876,7 @@ Georgien wird als heißer Favorit beim Eurovision Song Contest gehandelt.
 Geothermie ist wegen der seismischen Aktivität umstritten.
 Geplünderte Pakete können dann offiziell nicht zugestellt werden.
 Gepriesen sei sein Name!
+Gepäckträger, geben Sie mein Gepäck auf; hier ist meine Fahrkarte.
 Gerade Kinder haben oft Fieber.
 Gerade Lehrer sollten beim Sprechen auf eine korrekte Sprache achten.
 Gerade beim Umformulieren unterlaufen mir viele Fehler.
@@ -12952,6 +12985,7 @@ Gewagter Spruch!
 Gewalt schafft neue Probleme.
 Gewebe, das nicht mit Sauerstoff versorgt wird, stirbt nach wenigen Minuten ab.
 Gewiss, Ist Ihnen der Name des Verlegers bekannt?
+Gewiss, recht gern.
 Gewiss, sehr sogar.
 Gewisse Charakterzüge, die man als Kind schon hatte, legt man nie ab.
 Gewisse Entscheidungen kann man nicht rückgängig machen.
@@ -13339,6 +13373,7 @@ Habe ihr heute morgen noch einmal geschrieben.
 Haben Sie "Root Rechte" auf Ihrem derzeitigen Smartphone?
 Haben Sie Alkohol getrunken?
 Haben Sie Erfahrung mit der Durchsuchung von Mülleimern?
+Haben Sie Esperanto-Zeitungen?
 Haben Sie Fieber?
 Haben Sie Handbücher der esperantischen Umgangssprache?
 Haben Sie Ihr Bonusheft mitgebracht?
@@ -13936,6 +13971,7 @@ Herr Einstein und Frau Sommer betreiben gemeinsam eine Praxis für Logopädie un
 Herr Engel könnte das Zünglein an der Waage sein.
 Herr Ewald bietet abends einen Schnupperkurs an.
 Herr Fleischer sitzt neuerdings bei Lidl an der Kasse.
+Herr Frank?
 Herr Gebhardt ist nur von Amtswegen hier.
 Herr Gerloff geht meistens sehr bedacht vor.
 Herr Glöckner bewegt sich auf einem schmalen Grat.
@@ -14031,6 +14067,7 @@ Heute ist Serkan etwas knatschig.
 Heute ist Weltpremiere im neuen Theater.
 Heute ist das Internet schuld.
 Heute ist das Publikum bereit, für fast alles Applaus zu spenden.
+Heute ist der siebente, wir haben den siebenten.
 Heute ist der vierte November.
 Heute ist die Wettervorhersage mal wieder zuverlässiger als die Fahrplanauskunft.
 Heute ist ein rabenschwarzer Tag.
@@ -14564,6 +14601,7 @@ Ich auch nicht.
 Ich bedanke mich recht herzlich für Ihre Aufmerksamkeit.
 Ich bedanke mich recht schmerzlich.
 Ich bedauere sehr, ich bin hier selbst fremd.
+Ich bedauere sehr, mein Herr.
 Ich bedauere unendlich, ich kann es Ihnen nicht sagen.
 Ich bedaure diesen armen Wurm.
 Ich bedaure sehr, ich habe keine Uhr bei mir.
@@ -14669,6 +14707,7 @@ Ich bin kein Kind mehr!
 Ich bin kein Rassist, aber gegen Migranten wird man ja wohl noch hetzen dürfen!
 Ich bin kein Roboter.
 Ich bin kommende Woche zu Hause.
+Ich bin krank, etwas unwohl.
 Ich bin leider nicht befugt, Ihnen Eintritt zu gewähren.
 Ich bin leider wieder arbeitslos.
 Ich bin mein eigener Hund.
@@ -14709,12 +14748,14 @@ Ich bin sehr dafür, dass andere das Klima schützen.
 Ich bin sehr erotisiert.
 Ich bin sehr froh gewesen, dass ich schon geimpft bin.
 Ich bin sehr für ein fröhliches Miteinander, aber bitte nicht jedes Wochenende eine Party!
+Ich bin sehr hungrig; dieser Spaziergang hat mir Appetit gemacht.
 Ich bin sehr nervös, weil ich nicht weiß, wie ihr diese Neuigkeiten aufnehmen werdet.
 Ich bin sicher, dafür gibt es auch einen Fachbegriff.
 Ich bin sicher, irgendwo gibt es eine Hintertür.
 Ich bin stärker.
 Ich bin verliebt.
 Ich bin vom Tierschutzbund und würde gerne mit Ihnen über Ihre "Methoden" sprechen.
+Ich bin von oben bis unten voll mit Mückenstichen.
 Ich bin völlig durchnässt.
 Ich bin wahrscheinlich auch schon früher da.
 Ich bin weder auf Twitter noch auf Facebook aktiv.
@@ -14747,6 +14788,7 @@ Ich brauche jetzt etwas Härteres als Bier.
 Ich brauche kein Maßband, um zu sehen, dass das mehr als hundertzehn Zentimeter sind.
 Ich brauche nur eine Flasche davon.
 Ich brauche nur fünf Minuten.
+Ich brauche sie nötig.
 Ich brauche sie, weil unsere Minze Blattläuse hat.
 Ich brauche zwanzig Minuten.
 Ich bringe drei Flaschen Sekt und zwei Flaschen Wein mit.
@@ -14979,6 +15021,7 @@ Ich glaube, mein Subwoofer hat gerade die Katze inhaliert.
 Ich glaube, meine Mehrfachsteckdose ist kaputt.
 Ich glaube, sie trägt keine Unterwäsche unter dem Rock.
 Ich glaube, wir sind einer großen Sache auf der Spur!
+Ich glaubte, es sei später.
 Ich gratuliere Ihnen!
 Ich grüble, als wäre es mir eben doch nicht egal.
 Ich grüße meinen Fahrlehrer, der nicht gemerkt hat, dass ich beim Fahren texte.
@@ -15320,6 +15363,7 @@ Ich informiere Sie hiermit über Ihre Rechte.
 Ich kann Dinge besser betonen, wenn ich dazu gestikuliere.
 Ich kann Ihnen besorgen, was immer Sie wollen.
 Ich kann Ihnen bestätigen, dass das Internat wirklich nicht von schlechten Eltern ist.
+Ich kann Ihnen diese Sorte zu vier Pfennig empfehlen.
 Ich kann Ihnen einen guten Schönheitschirurgen empfehlen.
 Ich kann Leute nicht ausstehen, die sich ständig selbst bemitleiden.
 Ich kann Prozentrechnung!
@@ -15387,6 +15431,7 @@ Ich kann nicht mit der Sense umgehen.
 Ich kann nichts erkennen.
 Ich kann nichts sehen!
 Ich kann nur raten: Finger weg!
+Ich kann sie unmöglich billiger lassen; ich verdiene gar nichts daran.
 Ich kann verstehen, dass Rosanna sich hinters Licht geführt fühlt.
 Ich kann zwar kochen, Wäsche waschen allerdings nicht.
 Ich kannte mal ein Mädchen in Kärnten.
@@ -15397,6 +15442,7 @@ Ich kenne deinen Auftrag.
 Ich kenne den doch gar nicht!
 Ich kenne die Gepflogenheiten der Einheimischen nicht.
 Ich kenne eine Frau aus der Ukraine, die genauso spricht wie du.
+Ich kenne ihn nur vom Sehen.
 Ich kenne kein Großprojekt, welches teurer wurde als geplant.
 Ich kenne keinen Armin.
 Ich kenne mich hier auch nicht aus.
@@ -15611,6 +15657,7 @@ Ich möchte nicht zu einem ihrer Gefangenen werden.
 Ich möchte nicht, dass das Display immer mitrotiert.
 Ich möchte noch ein halbes Dutzend Hemden haben.
 Ich möchte nun einen neuen Text erstellen.
+Ich möchte russische Zigaretten haben.
 Ich möchte sie lieber mit Gummizügen haben, das ist bequemer.
 Ich möchte um sieben Uhr frühstücken.
 Ich möchte weitere Sätze für Common Voice kreieren.
@@ -15783,6 +15830,7 @@ Ich verstehe die Frage nicht.
 Ich verstehe gar nicht, warum meine Frau meinen Heiratsschwindel so persönlich nimmt.
 Ich verstehe nicht, warum einige dies als Lösungsweg sehen.
 Ich verstehe nicht, was das Problem ist.
+Ich verstehe nicht, was das Problem sein soll.
 Ich verstehe nicht, was er immer noch in der Startelf zu suchen hat.
 Ich verstehe nicht, was es daran nicht zu verstehen gibt.
 Ich verstehe nicht, was hier abgeht.
@@ -15933,6 +15981,7 @@ Ich will jetzt ein Rätsel lösen.
 Ich will jetzt nicht antworten.
 Ich will keine Fernbedienung, sondern einen fest installierten Schalter.
 Ich will mal nachsehen.
+Ich will mal sehen, ob er frei ist.
 Ich will mehr Geld!
 Ich will meinen Sprüchekalender zurückhaben.
 Ich will mich aber nicht überreden lassen.
@@ -15952,6 +16001,7 @@ Ich will nur noch schnell zur Sparkasse um Geld abzuheben.
 Ich will schaukeln! Tauchst du mich an?
 Ich will seine Arbeit gar nicht schlechtreden.
 Ich will zocken!
+Ich will zu meinem Bruder gehen.
 Ich will, dass der Computer mich auch versteht, wenn ich mit vollem Mund spreche.
 Ich will, dass die Rede aufgezeichnet wird.
 Ich wollte das nicht kaputt machen.
@@ -16052,6 +16102,7 @@ Ich zapfe hier auch gleich was vom Fass.
 Ich zeige dir etwas Besseres.
 Ich ziehe eine dunkle Farbe vor, die trägt sich besser.
 Ich ziehe in den Häuserkampf.
+Ich ziehe kaltes vor; das ist gesünder.
 Ich ziehe schon mal eine Spritze auf.
 Ich zitiere!
 Ich zoome oft mit der Lehrerin.
@@ -16330,6 +16381,7 @@ Im Grunde ist jedes Unglück gerade nur so schwer, als man es nimmt.
 Im Grunde kauft man eine Katze im Sack.
 Im Grunde wird der Wagen von der ganzen Familie genutzt.
 Im Halbschlaf kroch der Abenteurer aus dem Zelt.
+Im Handschuh- und Wäschegeschäft.
 Im Handschuhfach müsste ein Eiskratzer liegen.
 Im Haus sollte man keine Feuerwerkskörper zünden oder Raketen starten.
 Im Herbst beginnt Mercedes mit der Auslieferung des neuen Elektroautomodells.
@@ -17305,6 +17357,7 @@ Ist das noch wissenschaftliches Interesse oder schon Sensationslust?
 Ist das schon das höchste aller Gefühle?
 Ist das so eine Funktionshose, die man bei Bedarf kürzen kann?
 Ist das sonst noch jemandem aufgefallen?
+Ist das warm hier!
 Ist das wirklich ein echter Goldbarren?
 Ist deine Nase schon wieder dicht?
 Ist denn Corona immer noch nicht vorbei?
@@ -17524,6 +17577,8 @@ Ja, aber was.
 Ja, am besten den Milleniumfalken.
 Ja, am besten den Millenniumfalken.
 Ja, auch ich bin betroffen.
+Ja, bitte.
+Ja, bringen Sie ihn mir herauf.
 Ja, da haben wir noch einmal Glück gehabt.
 Ja, da muss er selber lachen.
 Ja, da staunen Sie, was?
@@ -17742,6 +17797,7 @@ Jeden Donnerstag geht Simeon Wilke abends zum Sport.
 Jeden Gedanken kannst du hier los werden.
 Jeden Gedanken kannst du hier loswerden.
 Jeden Morgen um fünf Uhr verlässt der Frühaufsteher das Haus.
+Jeden Sommer das Gleiche.
 Jeden Sonntag steht der Tatort auf dem Fernsehprogramm.
 Jeden Tag eine gute Tat.
 Jeden Tag erfindet die Frau eine neue Ausrede.
@@ -18620,7 +18676,11 @@ Keiner will die Rolle des Tollpatsches übernehmen.
 Keines davon konnte sie aufnehmen.
 Kekse sind in der Keksschachtel.
 Kekse, ich will mehr Kekse!
+Kellner, die Speisekarte!
 Kellner, führen Sie den Herrn nach Nummer zwei!
+Kellner, haben Sie Münchener?
+Kellner, nach dem Käse bringen Sie uns zwei Tassen Kaffee.
+Kellner, zahlen!
 Kelly musste heute noch den Bio-Müll raus bringen.
 Kennen Sie Herrn Song?
 Kennen Sie alle sechzehn Bundesländer mitsamt den dazugehörigen Hauptstädten?
@@ -18993,7 +19053,9 @@ Kurze Sätze sind schön und gut, aber auch ein paar lange wären hilfreich.
 Kurzum wurde die Kurtaxe erhöht.
 Kurzwelliges Licht macht auf Dauer kurzsichtig.
 Kurzzüge halten hier.
+Kutscher!
 Kutscher, halten Sie an!
+Kutscher, nach dem Nordbahnhof!
 Käffchen oder Teechen?
 Kämm dir die Haare!
 Käpt'n, wir kentern!
@@ -19352,6 +19414,7 @@ Lebensmüde sollte man nicht aufhalten, solange sie niemandem schaden.
 Lebenswirklichkeiten sind nun mal verschieden.
 Leberflecken sind Stellen auf der Haut, die mutiert sind.
 Lebt der noch?
+Leb’ wohl, lieber Freund!
 Leck mich fett, ist das geil!
 Leck mich!
 Leck mir die Stiefel, du Wurm!
@@ -19658,6 +19721,7 @@ Mache bitte das Licht im Bad und im Schlafzimmer wieder aus!
 Mache einen Zwischenhalt im Dornenwinkel achtzehn.
 Mache einmal die Augen zu.
 Mache ich eigentlich viele Rechtschreibfehler?
+Mache ich oft Fehler?
 Machen Sie also das Zimmer zurecht.
 Machen Sie den Test, wenn sie entspannt und ruhig sind.
 Machen Sie die Aufkleber nicht wieder ab!
@@ -19734,6 +19798,7 @@ Mal sehen, was der morgige Tag bringt.
 Mal sehen, was haben wir denn da?
 Mal sehen, wer gewonnen hat.
 Mal sehen, wie lange sie das durchhält.
+Mal sehen, wie wir weitermachen.
 Mal verliert man, mal gewinnen die anderen.
 Mal wieder ein Vermisstenfall.
 Mal wieder hat niemand die Hausaufgaben gemacht.
@@ -21521,6 +21586,7 @@ Nach der Chemotherapie konnte der Krebs nicht mehr nachgewiesen werden.
 Nach der Diversifizierung werdet ihr breiter aufgestellt sein.
 Nach der Ebbe kommt die Flut.
 Nach der Einreise nach Taiwan muss man erstmal zwei Wochen in Quarantäne.
+Nach der Ente bringen Sie mir Hammelkeule.
 Nach der Fahrt mit der Seilbahn hatten wir alle Druck auf den Ohren.
 Nach der Hochzeit ist gutes Aussehen unwichtig.
 Nach der Impfung sollte man nicht direkt zum Sport gehen.
@@ -21889,6 +21955,7 @@ Nein, jetzt musst du warten.
 Nein, keinen Rotwein.
 Nein, lass einmal, echt nicht.
 Nein, lieber nicht!
+Nein, machen Sie mir nichts ins Haar, das liebe ich nicht.
 Nein, man sollte dazu sitzen.
 Nein, meins ist es nicht.
 Nein, musst du nicht.
@@ -21899,6 +21966,7 @@ Nein, wieso?
 Nein, wir haben noch nicht genug!
 Nein, wir machen es so wie besprochen.
 Nein, über unsere Zukunft.
+Nein; wenn es nötig ist, kann ich mich in fünf Minuten ankleiden.
 Nele ist barfuß in eine Nacktschnecke getreten.
 Nelson mochte weder Hunde noch Katzen.
 Nemo ist ein Clownfisch.
@@ -22000,6 +22068,7 @@ Nicht einmal im direkten Vergleich fällt der Unterschied auf.
 Nicht einmal mein Chef kann selber kochen.
 Nicht erschrecken!
 Nicht für die Schule, sondern für das Leben lernen wir.
+Nicht ganz offen, nur halb offen, aber schliessen Sie die Fensterläden.
 Nicht ganz, aber fast.
 Nicht gut.
 Nicht hauen!
@@ -23328,6 +23397,7 @@ Rap ist die Kunst der Rapper.
 Rapsbreite dreizehn stand als Absender auf der Rückseite.
 Rasen Sie bitte nicht so, wenn ich Ihr Beifahrer bin!
 Rasend schnell zog die Feuerwalze über das kleine Dorf.
+Rasieren, bitte.
 Rassisten im Migrantenpelz gibt es auch?
 Rassisten sind keine Alternative.
 Rassistischer Farmer.
@@ -23585,6 +23655,7 @@ Sagen Sie doch bitte noch etwas zur Expertise Ihres Teams.
 Sagen Sie einfach die Matrikelnummer!
 Sagen Sie mal, hat die Wäscherin meine Wäsche gebracht?
 Sagen Sie mal, würde eine Reparatur dieser Uhr lange dauern?
+Sagen Sie, Herr Song, haben Sie von Herrn Frank wieder etwas gehört?
 Sagen wir mal, die Frage ist naheliegend.
 Sagt dir diese Fehlermeldung etwas?
 Sagt es mir, ich werde ihn informieren.
@@ -23810,6 +23881,7 @@ Schnee gibt es viel in Saint-Tropez, nur fällt er halt nicht vom Himmel.
 Schnee im März kommt immer seltener vor.
 Schnee ist etwas Wunderschönes.
 Schneeglöckchen strecken als eine der ersten Blühpflanzen ihre Köpfe aus dem Boden.
+Schneiden Sie mir auch das Haar, aber beeilen Sie sich, bitte, etwas.
 Schneider machen Beute.
 Schnell hatte Herr Jost gelernt, den Automaten zu überlisten.
 Schnell ordnen sich die Moleküle in einer Kristallstruktur an.
@@ -23909,6 +23981,7 @@ Schreib nicht mehr mit mir.
 Schreiben Sie Ihrem Abgeordneten!
 Schreiben Sie mit, wenn Sie nicht gerade ein fotografisches Gedächtnis haben.
 Schreiben Sie möglichst viel verschwurbelten Text, der nichts aussagt.
+Schreibpapier und Briefumschläge.
 Schreibschrift ist das Gegenteil von Schönschrift.
 Schreibst du dir das gerade auf?
 Schreibst du ein Logbuch?
@@ -24035,6 +24108,7 @@ Sehr gnädig!
 Sehr gut, die Leute waren begeistert.
 Sehr gute Einstellung, finde ich.
 Sehr hygienisch.
+Sehr liebenswürdig von Ihnen.
 Sehr löblich.
 Sehr passende Wortwahl!
 Sehr schmutzig; gestern hat es den ganzen Tag geregnet.
@@ -24636,6 +24710,7 @@ Sie kann schon bis zehn zählen.
 Sie kann sich gar nicht vorstellen, wie er sich benommen haben soll.
 Sie kaufte fünf Rollen Raufasertapete im Baumarkt ein.
 Sie kaufte zwei Kilo Äpfel und ein Kilo Orangen.
+Sie kennen gelernt zu haben.
 Sie kennen sicher diese eine Art von Eltern.
 Sie kennt nicht alle Nachnamen ihrer Schützlinge.
 Sie klagt über Schmerzen in der Ferse.
@@ -24760,6 +24835,7 @@ Sie schrieb ein Kürzel auf die entsprechende Stelle der Postkarte.
 Sie schrieb: " Horst, warte doch auf mich!"
 Sie schwebt auf Wolke sieben.
 Sie sehen mitteilungsbedürftig aus.
+Sie sehen nicht gut aus ; Sie sehen wirklich schlecht aus, lieber Freund.
 Sie selbst fand das unglaublich peinlich.
 Sie sieht die Fernsehshow als Chance.
 Sie sind Platz zweihundertdreiundsiebzig auf der Warteliste.
@@ -24796,6 +24872,7 @@ Sie spachtelt viel zu viel an sich herum.
 Sie spielen Michael Jackson Songs im Radio, da kann ich nicht stillsitzen.
 Sie sprachen stundenlang über Gott und die Welt.
 Sie sprechen ganz gut.
+Sie sprechen nicht schlecht aus.
 Sie sprechen sehr geläufig.
 Sie sprechen sehr gut aus.
 Sie spricht in ein Mikrofon mit Wackelkontakt.
@@ -24916,6 +24993,7 @@ Sie wären gut beraten, sich einen seriöseren Slogan zuzulegen.
 Sie wären nie zum Standesamt gekommen.
 Sie wäscht ihre Hände in Unschuld.
 Sie wünschen auch einen Kaffee?
+Sie wünschen ein Paar Stiefel?
 Sie wünschen, mein Herr?
 Sie würde davon abraten.
 Sie würde es von anderen abhängig machen, ob sie kommt oder nicht.
@@ -25868,6 +25946,7 @@ Stefan Raab kenne ich nur von dem Lied "Wir kiffen".
 Stefan Schmidt ist im Vorstand des örtlichen Musikvereins.
 Stefanie wurde von regelmäßigen, klatschenden Geräuschen wach.
 Stegemann hatte sie einmal gekauft und war dann in dieses Haus gezogen.
+Stehen Sie auf, Herr Nans!
 Stehen zu bleiben und innezuhalten bringt einen oft schneller voran, als zu strampeln.
 Steht auf und zeigt euch!
 Steht das Wasser auf dem Herd?
@@ -26027,6 +26106,7 @@ Tabea ist eine Expertin in Java-Programmierung.
 Tabea möchte für ihre Familie einen monatlichen Kochplan erstellen.
 Tag achttausend unter Menschen.
 Tag der offenen Verkaufstür.
+Tag- oder Nachthemden?
 Tagein tagaus wischt sie die Regale und räumt das Lager auf.
 Tags solltest du ihr nicht begegnen.
 Tagtäglich muss er Neues ausprobieren.
@@ -26248,6 +26328,7 @@ Treppenlift zu teuer? Holen Sie sich einen gebrauchten!
 Treppensteigen bringt den Kreislauf in Schwung.
 Treten Sie als Beifahrer auch immer aufs nicht vorhandene Bremspedal, wenn es brenzlig wird?
 Treten Sie selbstbestimmt auf.
+Treten wir irgendwo unter!
 Triff dich öfter mit ihr!
 Trink erstmal einen heißen Kamillentee.
 Trinken Sie Tee oder Kaffee?
@@ -26779,6 +26860,7 @@ Und warum erzählen Sie mir das?
 Und warum sollte es da ein Urheberrecht drauf geben?
 Und warum trotzdem alle durchgerasselt sind, soll nun schonungslos aufgeklärt werden.
 Und was bekommt man geboten?
+Und was für eine Weste?
 Und was für einen Stundenlohn haben die "Gaffer"?
 Und was glauben Sie, was daraus folgt?
 Und was hast du am Sonntag unternommen?
@@ -26796,6 +26878,7 @@ Und was sind Schlüsselkinder?
 Und was treibst du sonst so an Sport?
 Und was trinkst du gerne dazu?
 Und was wir nicht mitkriegen, das lassen wir hier zurück.
+Und was wäre sonst noch gefällig?
 Und was, wenn er die Leine einfach durchbeißt?
 Und weg ist er.
 Und weil es so schön ist, gleich noch mal!
@@ -26850,6 +26933,7 @@ Und wieder hat niemand den Jackpot geknackt.
 Und wieder ist die Dreizehn daran schuld!
 Und wieder scheint die Sonne so dolle, dass ich leider den Rollo hinunterlassen muss.
 Und wieso haben die alle die gleiche Frisur?
+Und wieviel Bogen?
 Und wieviel Freiraum möchten Sie ihm gewähren?
 Und wir haben es geglaubt.
 Und wir singen zusammen!
@@ -29079,6 +29163,7 @@ Wenden Sie sich an den Gebrauchtwagenhändler Ihres Vertrauens.
 Wenden Sie sich ans Notariat.
 Wenden Sie sich bei Fragen an Lotta Dahlenberg aus Eberswalde.
 Wenden Sie sich bei Fragen an das Zugpersonal.
+Wenden Sie sich, bitte, an den Portier; der wird Ihnen gewiss Auskunft geben können.
 Wenig bis nichts.
 Wenige Anlässe ermöglichen das Tragen eines Fracks.
 Wenige Minuten nach der Bestellung erreichte ihn auch schon die Versandbestätigung.
@@ -30023,6 +30108,7 @@ Wie gefällt dir deine neue Arbeit?
 Wie geht das denn weiter?
 Wie geht die dritte Strophe?
 Wie geht es Ihnen?
+Wie geht es Ihrer Frau Gemahlin?
 Wie geht es Melanie?
 Wie geht es deinem Hausarzt?
 Wie geht es dir jetzt?
@@ -30107,6 +30193,7 @@ Wie immer geht der Landarzt rigide mit seinen Assistenten um.
 Wie immer wird es auch ein paar Abtrünnige geben.
 Wie importiert man eine neue Schriftart?
 Wie in den guten, alten Zeiten!
+Wie ist Ihr werter Name?
 Wie ist da das Stimmungsbild?
 Wie ist das Barfußlaufen aus orthopädischer Sicht zu beurteilen?
 Wie ist das Wetter in Hannover?
@@ -30577,6 +30664,7 @@ Wiederkehrende Träume werden als Echo klassifiziert und vom Personal ignoriert.
 Wiedersehen!
 Wiederum wenn es besonders betont wird, dann wird Mal groß geschrieben.
 Wiegt er über zwanzig Gramm?
+Wien, zweiter, hin und zurück.
 Wieso akzeptierst du deinen Körper nicht einfach, wie er ist?
 Wieso ausgerechnet gegen Belgien?
 Wieso baut man keine Hochgeschwindigkeitsstrecke zwischen Würzburg und Stuttgart?
@@ -30706,6 +30794,9 @@ Wieviel beträgt die Gebühr für einen eingeschriebenen Brief?
 Wieviel bin ich Ihnen schuldig?
 Wieviel habe ich zu zahlen?
 Wieviel kostet das Prickelwasser?
+Wieviel kostet das Wort?
+Wieviel kostet der?
+Wieviel kostet die Fahrt?
 Wieviel macht das?
 Wieviel müsste es regnen, damit wir den Sommer gut überstehen?
 Wieviel wird ein Anzug aus diesem Stoff kosten?
@@ -31332,6 +31423,7 @@ Wo ist der Deckel für den Stift hier?
 Wo ist der Piratenschatz versteckt?
 Wo ist der Puck?
 Wo ist der Schieber, mit dem man das Licht dimmen kann?
+Wo ist der Stiefelknecht?
 Wo ist der Unterschied zwischen Impotenz und Zeugungsunfähigkeit?
 Wo ist der Zoomlink?
 Wo ist der nächste Einkaufsladen?
@@ -31518,6 +31610,7 @@ Wollen Sie die Straße an dieser Stelle überqueren?
 Wollen Sie es mir zeigen?
 Wollen Sie es tageweise oder auf den Monat mieten?
 Wollen Sie ihn einmal probieren?
+Wollen Sie liniiertes oder unliniiertes Papier?
 Wollen Sie meine fachliche Empfehlung hören?
 Wollen Sie meinen Ausweis sehen?
 Wollen Sie mich auf den Arm nehmen?
@@ -31739,6 +31832,8 @@ Wünschen Sie Ketchup oder Mayo zu Ihren Pommes?
 Wünschen Sie den Kaffee in Ihrem Zimmer zu trinken?
 Wünschen Sie einen Filzhut oder einen Strohhut?
 Wünschen Sie noch etwas Tomatensaft?
+Wünschen Sie noch etwas?
+Wünschen Sie warmes oder kaltes Wasser?
 Wünschen die Herren nicht das Menu?
 Würde die Absenkautomatik auch bei verringerter Schwerkraft noch funktionieren?
 Würde die Feuchtigkeit nicht auch so verdunsten und die Flasche abkühlen?
