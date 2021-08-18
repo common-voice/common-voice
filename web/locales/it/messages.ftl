@@ -129,6 +129,7 @@ ro = Rumeno
 ru = Russo
 rw = Kinyarwanda
 sah = Sacha
+sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
 shi = Shilha
