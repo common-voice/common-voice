@@ -115,6 +115,7 @@ ne-NP = Népalais
 nia = Nias
 nl = Néerlandais
 nn-NO = Norvégien nynorsk
+nyn = Nyankole
 oc = Occitan
 or = Odia
 pa-IN = Pendjabi
