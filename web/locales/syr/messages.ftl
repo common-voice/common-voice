@@ -7,6 +7,10 @@
 
 ## Languages
 
+el = ܝܘܢܐܝܬ݂
+fr = ܦܪܢܣܝܬ݂
+he = ܥܒ݂ܪܐܝܬ݂
+hy-AM = ܐܪܡܢܝܐ
 syr = ܣܘܼܪܝܝܐ
 
 # [/]
@@ -136,6 +140,7 @@ about-nav-partners = ܫܘܬܦܝ̈ܐ
 
 ## Glossary
 
+localization = ܡܫܪܝܬܐ
 
 ## Error pages
 
@@ -165,6 +170,7 @@ contact-required = ܘܠܝܝܐ*
 
 languages-show-more = ܚܙܝܼ ܝܲܬܝܼܪ
 languages-show-less = ܚܙܝܼ ܒܵܨܘܿܪܵܐ
+localized = ܡܫܪܝܬܐ
 
 ## Contribution
 
