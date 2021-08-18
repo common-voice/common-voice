@@ -904,6 +904,7 @@ demo-dashboard-card-body = Για κάθε φωνητικό κλιπ που δω
 contribution-criteria-nav = Κριτήρια
 contribution-criteria-link = Κατανοηση κριτηριων συνεισφορας
 contribution-criteria-page-title = Κριτήρια συνεισφοράς
+contribution-criteria-page-description = Κατανοήστε τι θα πρέπει να προσέξετε κατά την ακρόαση ενός φωνητικού κλιπ, εμπλουτίζοντας παράλληλα και τις δικές σας ηχογραφήσεις!
 contribution-for-example = για παράδειγμα
 contribution-misreadings-title = Λάθη στην ανάγνωση
 contribution-misreadings-description-extended-list-1 = Απουσία <strong>αόριστων</strong> ή <strong>οριστικών</strong> άρθρων στην αρχή της ηχογράφησης.
