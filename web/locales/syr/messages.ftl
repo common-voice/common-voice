@@ -127,6 +127,7 @@ faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
 
 ## ABOUT US
 
+about-speak = ܡܠܠ
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
 
 ## Glossary
