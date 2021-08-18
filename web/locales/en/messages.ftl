@@ -858,6 +858,32 @@ why-delete-recordings = Common Voice recordings are used by academics, small bus
     Can you let us know why you would like your recordings deleted?
 profile-form-delete = Delete Profile
 
+## Profile Download
+download-q = Need to download your data?
+download-info = Tell us what you'd like to download:
+download-profile-title = Profile
+download-profile-info = Includes email, username & demographic info
+download-profile-size = A few bytes
+download-recordings-title = Recordings
+download-recordings-info = Includes mp3's and related sentences
+download-recordings-size = Typically megabytes
+download-recordings-unavailable = You cannot request your recordings while another request is already in progress.
+download-size = Size
+download-selected = Selected
+download-start = Start Download
+download-requests = Download requests
+download-requests-info = When you request your recordings, we compile them into one or multiple ZIP files. Here are your past requests:
+download-request-button = Download
+download-request-title = { $created }
+download-request-description = { $clipCount } voice clips, { $size }. Expires { $expires }.
+download-request-archive-single = Single ZIP file.
+download-request-archive-multiple = Split into { $archiveCount } ZIP files.
+download-request-assembling-description = Your files are being assembled. Please check again later.
+download-request-refresh-button = Refresh
+download-request-modal-title = Download Links
+download-request-modal-description = Here are the links to download your ZIP files.
+download-request-link-text = Link { $offset } of { $total }
+download-request-link-single = If you prefer, below are newline-separated links. You can copy-paste these in your favorite download program.
 
 ## Landing
 welcome-staff = Welcome { $company } staff!

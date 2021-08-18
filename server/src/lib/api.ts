@@ -4,7 +4,7 @@ import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
-import { UserClient as UserClientType } from 'common';
+import { TakeoutRequest, UserClient as UserClientType } from 'common';
 import { authMiddleware } from '../auth-router';
 import { getConfig, CommonVoiceConfig } from '../config-helper';
 import Awards from './model/awards';
@@ -32,8 +32,9 @@ export default class API {
   clip: Clip;
   challenge: Challenge;
   metrics: Prometheus;
-  private s3: S3;
-  private bucket: Bucket;
+  private readonly s3: S3;
+  private readonly bucket: Bucket;
+  readonly takeout: Takeout;
 
   constructor(model: Model) {
     this.model = model;
@@ -42,6 +43,7 @@ export default class API {
     this.metrics = new Prometheus();
     this.s3 = AWS.getS3();
     this.bucket = new Bucket(this.model, this.s3);
+    this.takeout = new Takeout(this.model.db.mysql, this.s3, this.bucket);
   }
 
   getRouter(): Router {
@@ -90,6 +92,9 @@ export default class API {
     router.get('/user_client/goals', this.getGoals);
     router.get('/user_client/:locale/goals', this.getGoals);
     router.post('/user_client/awards/seen', this.seenAwards);
+    router.get('/user_client/takeout', this.getTakeouts);
+    router.post('/user_client/takeout/request', this.requestTakeout);
+    router.post('/user_client/takeout/:id/links', this.getTakeoutLinks);
 
     router.get('/:locale/sentences', this.getRandomSentences);
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
@@ -252,7 +257,10 @@ export default class API {
         sync: 'Y',
       },
     });
-    const clientId = await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
+    const clientId = await UserClient.updateBasketToken(
+      email,
+      JSON.parse(basketResponse).token
+    );
     await Basket.sync(clientId, true);
 
     response.json({});
@@ -393,6 +401,33 @@ export default class API {
     const { user } = request;
     await UserClient.deleteAvatarClipURL(user.emails[0].value);
     response.json('deleted');
+  };
+
+  getTakeouts = async (request: Request, response: Response) => {
+    const takeouts = await this.takeout.getClientTakeouts(request.client_id);
+    response.json(takeouts);
+  };
+
+  requestTakeout = async (request: Request, response: Response) => {
+    try {
+      // Throws if there is a pending takeout.
+      const takeout_id = await this.takeout.startTakeout(request.client_id);
+      response.json({ takeout_id });
+    } catch (err) {
+      response.status(400).json('pending');
+    }
+  };
+
+  getTakeoutLinks = async (request: Request, response: Response) => {
+    const {
+      client_id,
+      params: { id },
+    } = request;
+    const links = await this.takeout.generateDownloadLinks(
+      client_id,
+      parseInt(id)
+    );
+    response.json(links);
   };
 
   getContributionActivity = async (
