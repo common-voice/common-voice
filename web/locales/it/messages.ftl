@@ -283,6 +283,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registra/Interrompi
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ripeti la registrazione
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Invio
 shortcut-submit-label = Invia registrazioni
 request-language-text = Non trovi la tua lingua su Common Voice?
