@@ -926,6 +926,7 @@ contribution-misreadings-example-7-explanation = [Δεν υπάρχει «τα»
 contribution-misreadings-example-8-title = Η μέλισσα πέταξε γρήγορα.
 contribution-misreadings-example-8-explanation = [Εσφαλμένο περιεχόμενο]
 contribution-varying-pronunciations-title = Ποικίλες προφορές
+contribution-varying-pronunciations-description-extended = Από την άλλη, αν θεωρείτε ότι ο αναγνώστης δεν έχει συναντήσει ποτέ ξανά τη λέξη και απλά δεν μάντεψε σωστά την προφορά της, παρακαλούμε κάντε απόρριψη. Αν δεν γνωρίζετε σίγουρα, πατήστε το κουμπί «Παράλειψη».
 contribution-background-noise-title = Θόρυβος παρασκηνίου
 contribution-background-noise-description-extended = Αν η ηχογράφηση διακόπτεται, ή υπάρχει κροτάλισμα, απορρίψτε την εκτός κι αν ακούγεται ολόκληρο το κείμενο.
 contribution-background-noise-example-1-fixed-title = <strong>[Φτερνισμα]</strong> Οι γιγάντιοι δεινόσαυροι του <strong>[βηχας]</strong> Τριαδικού.
