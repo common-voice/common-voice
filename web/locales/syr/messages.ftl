@@ -66,7 +66,6 @@ x-years-short =
 
 ## Account Benefits
 
-benefits = ܫܘܟܢܐ
 
 ## What's public
 
@@ -76,10 +75,17 @@ benefits = ܫܘܟܢܐ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ܗ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ܠ
 
 ## Speak Shortcuts
 
 shortcut-rerecord-toggle = [1-5]
+shortcut-submit = ܕܥܪ
 
 ## ProjectStatus
 
