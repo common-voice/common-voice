@@ -931,6 +931,7 @@ contribution-background-noise-description-extended = Nếu đoạn ghi âm bị 
 contribution-background-noise-example-1-fixed-title = <strong>[Hắt xì hơi]</strong> Những con khủng long khổng lồ của <strong>[ho]</strong> kỷ Trias.
 contribution-background-noise-example-2-fixed-title = Những con khủng long khổng lồ <strong>[ho]</strong> kỷ Trias.
 contribution-background-noise-example-2-explanation = [Không thể nghe thấy một phần của văn bản]
+contribution-background-noise-example-3-fixed-title = <strong>[Tiếng lốp bốp]</strong> con khủng long khổng lồ của <strong>[tiếng lốp bốp]</strong> -riassic.
 contribution-background-voices-title = Giọng nền
 contribution-background-voices-description = Tiếng huyên náo trong nền yên tĩnh là được, nhưng chúng tôi không muốn có thêm giọng nói có thể khiến thuật toán máy xác định các từ không có trong văn bản. Nếu bạn có thể nghe thấy những từ khác biệt với những từ trong văn bản, clip đó nên bị từ chối. Thông thường, điều này xảy ra khi TV đã được bật hoặc nơi có cuộc trò chuyện đang diễn ra gần đó.
 contribution-background-voices-description-extended = Nếu đoạn ghi âm bị vỡ hoặc có tiếng rè, hãy từ chối trừ khi vẫn có thể nghe được toàn bộ nội dung.
