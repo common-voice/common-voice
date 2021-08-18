@@ -11,6 +11,8 @@ submit-form-action = Inviar
 
 ## Languages
 
+ca = Catalan
+cs = Tchec
 de = German
 el = Grec
 en = Anglese
@@ -19,6 +21,7 @@ es = Hispan
 ia = Interlingua
 ja = Japanese
 ru = Russ
+sk = Slovac
 sv-SE = Svedese
 
 # [/]
@@ -61,6 +64,7 @@ shortcut-skip = o
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
+shortcut-play-toggle-label = Reproducter/stoppar
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -73,7 +77,9 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Registrar/stoppar
 shortcut-rerecord-toggle = [1-5]
+request-language-button = Demandar un lingue
 
 ## ProjectStatus
 
@@ -105,6 +111,10 @@ profile-close = Cluder
 
 ## ABOUT US
 
+about-nav-why-common-voice = Pro quo?
+about-nav-how-it-works = Qualmen?
+about-nav-partners = Parteneros
+about-nav-get-involved = Colaborar
 
 ## Glossary
 
