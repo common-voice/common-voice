@@ -129,6 +129,7 @@ ro = 罗马尼亚语
 ru = 俄语
 rw = 卢旺达语
 sah = 萨哈语
+sat = 桑塔利语（Ol Chiki 文）
 sc = 萨丁尼亚语
 scn = 西西里语
 shi = 希尔哈语
