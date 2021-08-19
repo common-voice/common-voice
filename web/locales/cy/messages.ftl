@@ -129,6 +129,7 @@ ro = Rwmaneg
 ru = Rwsieg
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sisilieg
 shi = Shilha
