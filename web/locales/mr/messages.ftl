@@ -774,6 +774,7 @@ show-ranking = माझी रँकिंग दाखवा
 ## Custom Goals
 
 get-started-goals = ध्येयांबाबत माहिती घेऊयात
+create-custom-goal = सानुकूल ध्येय निश्चित करा
 both-speak-and-listen = दोन्ही
 both-speak-and-listen-long = दोन्ही (बोला आणि ऐका)
 daily-goal = दैनिक ध्येय
@@ -781,10 +782,23 @@ weekly-goal = साप्ताहिक ध्येय
 easy-difficulty = सुलभ
 average-difficulty = साधारण
 difficult-difficulty = कठीण
+pro-difficulty = प्रो
+lose-goal-progress-warning = आपले ध्येय संपादित करून आपण आपली विद्यमान प्रगती गमावू शकता.
 want-to-continue = आपण सुरू ठेवू इच्छिता?
 finish-editing = प्रथम एडिटिंग संपवायचे?
 lose-changes-warning = आता सोडणे म्हणजे आपण आपले बदल गमावाल
 build-custom-goal = सानुकूल ध्येय तयार करा
+help-reach-hours-pluralized =
+    { $language } या भाषेत  वैयक्तिक ध्येयाद्वारे { NUMBER($hours) ->
+        [one] { $hours } तास
+       *[other] { $hours } तास
+    }पोहोचण्यात आम्हाला  मदत करा
+help-reach-hours-general-pluralized =
+    या भाषेत वैयक्तिक ध्येयाद्वारे{ NUMBER($hours) ->
+        [one] { $hours } तास
+       *[other] { $hours } तास
+    }कॉमन व्हॉइसला पोहोचण्यास मदत करा
+    कॉमन व्हॉइसला पोहोचण्यास मदत करा
 set-a-goal = एक ध्येय ठरवा
 cant-decide = ठरवू शकत नाही?
 activity-needed-calculation-plural =
@@ -804,6 +818,9 @@ activity-needed-calculation-plural =
 how-many-per-day = ग्रेट! दररोज किती क्लिप्स आहेत?
 how-many-a-week = ग्रेट! आठवड्यातून किती क्लिप्स?
 which-goal-type = तुम्हाला बोलायचे आहे, ऐकायचे आहे की दोन्ही?
+receiving-emails-info =
+    सध्या तुम्ही ध्येयाबद्ल आठवण, माझी प्रगती
+    आणि कॉमन व्हॉइस बद्दल माहितीपत्र याबाबत मेल्स मिळवण्यासाठी सेटिंग केले आहे.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } क्लिप
