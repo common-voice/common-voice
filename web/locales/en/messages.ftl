@@ -883,7 +883,8 @@ download-request-assembling-description = Your files are being assembled. Please
 download-request-refresh-button = Refresh
 download-request-modal-title = Download Links
 download-request-modal-description = Here are the links to download your ZIP files.
-download-request-link-text = File #{ $offset } of { $total }
+download-request-link-text = Zip #{ $offset } of { $total }
+download-request-metadata-link = Sentence text
 download-request-link-single = You can also copy and paste the direct URLs into your favorite download manager. They will expire in 12 hours, but you can come back to this page to generate new ones any time.
 
 ## Landing

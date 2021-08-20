@@ -230,17 +230,24 @@ const LinkModal = ({
   return (
     <Modal {...props} innerClassName="download-request-modal">
       <Section title={title} info={description}>
-        <ul>
-          {links.map((link, i) => (
+        {links.length && (
+          <ul>
+            {links[0].map((link: string, i: number) => (
+              <li>
+                <Localized
+                  id="download-request-link-text"
+                  vars={{ offset: i + 1, total: links[0].length }}>
+                  <a key={link} href={link} target="_blank" />
+                </Localized>
+              </li>
+            ))}
             <li>
-              <Localized
-                id="download-request-link-text"
-                vars={{ offset: i + 1, total: links.length }}>
-                <a key={link} href={link} target="_blank" />
+              <Localized id="download-request-metadata-link">
+                <a key={links[1]} href={links[1]} target="_blank" />
               </Localized>
             </li>
-          ))}
-        </ul>
+          </ul>
+        )}
         <Localized id="download-request-link-single">
           <p />
         </Localized>

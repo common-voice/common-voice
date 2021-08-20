@@ -12,8 +12,8 @@ const kTakeoutConcurrency = 10;
 // How many takeouts can take place per hour.
 const kTakeoutRateLimiter: Bull.RateLimiter = { max: 10, duration: 3600 };
 
-// Maximum amount of bytes each takeout archive file can contain. 50 MB.
-const kChunkMaxSizeBytes = 50 * 1024 * 1024;
+// Maximum number of files to include in each archive
+const kChunkMaxFiles = 500;
 
 // How many days takeout archives are kept before getting deleted from S3 and the DB.
 const kExpirationDays = 30;
@@ -65,6 +65,12 @@ type TakeoutTask = {
   takeout_id: number;
 };
 
+export type ClientClip = {
+  original_sentence_id: string;
+  sentence: string;
+  path: string;
+};
+
 export default class Takeout {
   private readonly db: Mysql;
   private readonly s3: S3;
@@ -91,7 +97,7 @@ export default class Takeout {
   async generateDownloadLinks(
     client_id: string,
     takeout_id: number
-  ): Promise<string[]> {
+  ): Promise<(string | string[])[]> {
     const takeout = await this.getTakeout(takeout_id);
     if (takeout === null) throw 'no such takeout';
     if (takeout.client_id !== client_id) throw 'no such takeout';
@@ -100,7 +106,26 @@ export default class Takeout {
     const keys = [...Array(takeout.archive_count).keys()].map(offset =>
       this.bucket.takeoutKey(takeout, offset)
     );
-    return keys.map(key => this.bucket.getPublicUrl(key));
+
+    const links = [
+      keys.map(key => this.bucket.getPublicUrl(key)),
+      this.bucket.getPublicUrl(this.bucket.metadataKey(takeout)),
+    ];
+    return links;
+  }
+
+  async getClientClips(client_id: string): Promise<ClientClip[]> {
+    // Getting the paths from the db is faster than using S3 listObject, and
+    // covers situations where some clients have clips stored under different paths
+
+    const [clips] = await this.db.query(
+      `
+        SELECT original_sentence_id, sentence, path FROM clips WHERE client_id = ?
+      `,
+      [client_id]
+    );
+
+    return clips;
   }
 
   async takeoutWorker(job: Job<TakeoutTask>): Promise<void> {
@@ -111,20 +136,30 @@ export default class Takeout {
     // IN_PROGRESS takeouts that failed will get cleaned up eventually.
     if (takeout.state !== TakeoutState.PENDING) throw 'illegal state';
     await this.markTakeoutInProgress(takeout_id);
-    const clips = await this.bucket.getClientClips(takeout.client_id);
-    const [chunkedClips, totalSize] = Takeout.splitIntoMaxSizedChunks(clips);
+
+    const clips = await this.getClientClips(takeout.client_id);
+
+    const chunkedClips = Takeout.splitIntoChunks(clips.map(clip => clip.path));
     // This is where the meat of the work happens. While we could schedule all
     // promises at once to concurrently execute, the whole idea is not to overload
     // the server. So do the expensive work on each chunk sequentially.
     // const replies = await Promise.all(chunkedKeys
     //   .map((keys, offset) => bucket.zipTakeoutFilesToS3(takeout, offset, keys)));
-    const replies = [];
-    for (const [offset, chunk] of chunkedClips.entries()) {
-      replies.push(
-        await this.bucket.zipTakeoutFilesToS3(takeout, offset, chunk)
+    const fileSizes: S3.HeadObjectOutput[] = [];
+
+    chunkedClips.forEach(async (chunk: string[], index: number) => {
+      fileSizes.push(
+        await this.bucket.zipTakeoutFilesToS3(takeout, index, chunk)
       );
-      await job.progress(Math.ceil((100 * offset) / chunkedClips.length));
-    }
+      await job.progress(Math.ceil((100 * index) / chunkedClips.length));
+    });
+
+    fileSizes.push(await this.bucket.uploadClipMetadata(takeout, clips));
+    const totalSize = fileSizes.reduce(
+      (acc, curr) => (acc += curr.ContentLength),
+      0
+    );
+
     await this.finalizeTakeout(
       takeout_id,
       clips.length,
@@ -269,23 +304,18 @@ export default class Takeout {
     );
   }
 
-  private static splitIntoMaxSizedChunks(
-    clips: S3.Object[]
-  ): [string[][], number] {
-    const todo = [...clips];
+  private static splitIntoChunks(paths: string[]): string[][] {
+    const todo = [...paths];
     const chunks = [];
-    let totalSize = 0;
+
     do {
       const currentChunk = [];
-      let size = 0;
-      while (todo.length && size < kChunkMaxSizeBytes) {
+      while (todo.length && currentChunk.length < kChunkMaxFiles) {
         const clip = todo.pop();
-        currentChunk.push(clip.Key);
-        size += clip.Size;
+        currentChunk.push(clip);
       }
       chunks.push(currentChunk);
-      totalSize += size;
     } while (todo.length);
-    return [chunks, totalSize];
+    return chunks;
   }
 }
