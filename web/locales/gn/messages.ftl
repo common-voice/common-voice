@@ -907,6 +907,7 @@ demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmav
 
 contribution-for-example = Techapyrãrõ
 contribution-misreadings-title = Moñe’ẽ vai
+contribution-varying-pronunciations-example-1-title = Oguereko iñakã rehe akão.
 contribution-background-noise-title = Tyapu tapykuegua
 contribution-background-voices-title = Ñe’ẽ tapykuegua
 contribution-volume-title = Mbopuha
