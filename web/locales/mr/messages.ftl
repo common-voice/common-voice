@@ -834,6 +834,8 @@ confirm-goal = ध्येय निश्चित करा
 goal-interval-weekly = साप्ताहिक
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = { $type } साठी दररोजच्या { $count } क्लिपचे लक्ष्य शेअर करा
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } च्या साप्ताहिक ध्येययाची तुमची { $count } क्लिप संख्या सामायिक करा.
 share-goal-type-speak = बोलणे
 share-goal-type-listen = ऐकणे
 share-goal-type-both = बोलणे आणि ऐकणे
