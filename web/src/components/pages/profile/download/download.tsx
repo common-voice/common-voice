@@ -371,34 +371,34 @@ function DownloadProfile(props: WithLocalizationProps) {
           isDisabled={hasAnyPendingTakeout}
           disabledReason={getString('download-recordings-unavailable')}
         />
-        <Localized id="download-start">
-          <Button
-            rounded
-            disabled={!infoSelected && !recordingsSelected}
-            className="download-button"
-            onClick={() =>
-              download(
-                account,
-                api,
-                infoSelected,
-                recordingsSelected,
-                forceTakeoutRefresh
-              )
-            }
-          />
-        </Localized>
+        <div>
+          <Localized
+            id={recordingsSelected ? 'download-request' : 'download-start'}>
+            <Button
+              rounded
+              disabled={!infoSelected && !recordingsSelected}
+              className="download-button"
+              onClick={() =>
+                download(
+                  account,
+                  api,
+                  infoSelected,
+                  recordingsSelected,
+                  forceTakeoutRefresh
+                )
+              }
+            />
+          </Localized>
+        </div>
       </Section>
-      <Section
-        title={getString('download-requests')}
-        info={getString('download-requests-info')}
-        id="requests"
-        className="download-requests">
-        {takeouts && takeouts.length === 0 && (
-          <p>{getString('download-no-requests')}</p>
-        )}
-        {takeouts &&
-          takeouts.length &&
-          takeouts.map((request: TakeoutRequest) => (
+      {takeouts && takeouts.length > 0 && (
+        <Section
+          title={getString('download-requests')}
+          info={getString('download-requests-info')}
+          id="requests"
+          className="download-requests"
+          key={takeoutRefresh}>
+          {takeouts.map((request: TakeoutRequest) => (
             <Request
               key={request.id}
               request={request}
@@ -407,7 +407,8 @@ function DownloadProfile(props: WithLocalizationProps) {
               onRequestLinks={setTakeoutRequestId}
             />
           ))}
-      </Section>
+        </Section>
+      )}
     </>
   );
 }

@@ -150,6 +150,7 @@ export default class Bucket {
     chunk_offset: number,
     keys: string[]
   ): Promise<S3.ManagedUpload.SendData> {
+    console.log('start takeout zipping', takeout.id);
     const folder = `${takeout.client_id}/`;
     const destination = this.takeoutKey(takeout, chunk_offset);
     const bucket = getConfig().CLIP_BUCKET_NAME;

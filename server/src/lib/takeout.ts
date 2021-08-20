@@ -7,16 +7,21 @@ import { getConfig } from '../config-helper';
 import { TakeoutRequest, TakeoutState } from 'common';
 
 // How many concurrent takeouts can take place at any time.
-const kTakeoutConcurrency = 4;
+const kTakeoutConcurrency = 10;
+
 // How many takeouts can take place per hour.
-const kTakeoutRateLimiter: Bull.RateLimiter = { max: 4, duration: 3600 };
-// Maximum amount of bytes each takeout archive file can contain. 10 MB.
-const kChunkMaxSizeBytes = 10 * 1024 * 1024;
+const kTakeoutRateLimiter: Bull.RateLimiter = { max: 10, duration: 3600 };
+
+// Maximum amount of bytes each takeout archive file can contain. 50 MB.
+const kChunkMaxSizeBytes = 50 * 1024 * 1024;
+
 // How many days takeout archives are kept before getting deleted from S3 and the DB.
 const kExpirationDays = 30;
+
 // Margin for error when deleting expiring takeouts from the database.
 // When a takeout is this close (in hours) to expiring, remove it.
 const kExpirationMarginHours = 3;
+
 // Leave this much time for a takeout to complete. If it does not, it will get removed at cleanup time.
 const kStuckDurationHours = 24;
 
@@ -28,7 +33,9 @@ export type TaskQueues = {
 export function createTaskQueues(takeout: Takeout): TaskQueues {
   const createQueue = <T>(name: string, params?: QueueOptions) =>
     new Bull<T>(name, {
-      redis: getConfig().REDIS_URL,
+      redis: {
+        host: getConfig().REDIS_URL,
+      },
       prefix: `bull-${name}-`,
       ...params,
     });
@@ -97,7 +104,7 @@ export default class Takeout {
   }
 
   async takeoutWorker(job: Job<TakeoutTask>): Promise<void> {
-    console.log('performing takeout', job.data);
+    console.log('performing takeout', job.data.takeout_id);
     const takeout_id = job.data.takeout_id;
     const takeout = await this.getTakeout(takeout_id);
     if (takeout === null) throw 'unknown takeout';
@@ -195,7 +202,7 @@ export default class Takeout {
 
   private async insertNewTakeout(client_id: string): Promise<number> {
     if (!(await this.clientCanRequestTakeout(client_id)))
-      throw 'pending takeout';
+      throw new Error('pending takeout');
     const [q] = await this.db.query(
       `
       INSERT INTO user_client_takeouts (client_id, state, requested_date)
@@ -228,6 +235,7 @@ export default class Takeout {
     clip_total_size: number,
     archive_count: number
   ) {
+    console.log('finalizing takeout', takeout_id);
     return await this.db.query(
       `
       UPDATE user_client_takeouts 

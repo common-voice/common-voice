@@ -415,7 +415,7 @@ export default class API {
       const takeout_id = await this.takeout.startTakeout(request.client_id);
       response.json({ takeout_id });
     } catch (err) {
-      response.status(400).json('pending');
+      response.status(400).json(err.message);
     }
   };
 
