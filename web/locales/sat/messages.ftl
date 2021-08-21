@@ -182,14 +182,19 @@ faq-search-for-answers =
 
 about-title = Common Voice ᱫᱚ ᱪᱮᱫᱟᱜ?
 about-speak = ᱨᱚᱲ ᱢᱮ
+about-listen = ᱟᱧᱡᱚᱢ ᱢᱮ
 about-dataset-new = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ
 about-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
 about-become-a-partner = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤ ᱵᱮᱱᱟ ᱯᱮ
+about-get-involved = ᱥᱟᱹᱢᱤᱞᱚᱜ ᱯᱮ
 about-nav-why-common-voice = ᱪᱮᱫᱟᱜ?
 about-nav-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
+about-nav-get-involved = ᱥᱟᱹᱢᱤᱞᱚᱜ ᱯᱮ
 
 ## Glossary
 
+glossary = ᱥᱟᱵᱟᱫᱽ ᱜᱟᱫᱮᱞ
+sentence-collection = ᱟᱹᱭᱟᱹᱛ ᱛᱩᱢᱟᱹᱞ
 
 ## Error pages
 
@@ -220,6 +225,7 @@ download = ᱰᱟᱩᱱᱞᱳᱰ
 
 ## Download Modal
 
+download-title = ᱟᱢᱟᱜ ᱰᱟᱩᱱᱞᱳᱰ ᱮᱦᱚᱵᱮᱱᱟ ᱾
 
 ## Contact Modal
 
@@ -247,6 +253,7 @@ sentences = ᱟᱭᱟᱛᱠᱚ
 
 action-click = ᱚᱛᱟᱭ ᱢᱮ
 contribute = ᱮᱱᱮᱢ ᱢᱮ
+listen = ᱟᱧᱡᱚᱢ ᱢᱮ
 share-common-voice = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
 target-segment-add-voice = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱥᱮᱞᱮᱫ ᱛᱟᱢ
 target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
@@ -273,6 +280,7 @@ both-speak-and-listen-long = ᱵᱟᱱᱟᱨᱜᱮ (ᱨᱚᱲ ᱢᱮ ᱟᱨ ᱟ�
 ## Profile Delete
 
 keep = ᱫᱚᱦᱚᱭ ᱢᱮ
+remove = ᱚᱪᱚᱜᱽ ᱢᱮ
 profile-form-delete = ᱢᱚᱦᱲᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
 
 ## Landing
