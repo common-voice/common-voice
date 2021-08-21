@@ -14,18 +14,24 @@ not-available-abbreviation = N/A
 ## Languages
 
 ab = ᱚᱵᱠᱟᱡᱽ
+ace = ᱟᱥᱮᱱᱤᱥ
+ady = ᱟᱫᱮᱜᱷᱤ
 af = ᱟᱯᱷᱨᱤᱠᱟᱱᱥ
 am = ᱟᱢᱦᱟᱨᱤᱠ
 an = ᱟᱨᱜᱚᱱᱤᱡᱽ
 ar = ᱚᱨᱵᱤ
+arn = ᱢᱟᱯᱩᱰᱩᱱᱜᱩᱱ
 as = ᱚᱥᱟᱢᱤ
 ast = ᱮᱥᱴᱩᱨᱤᱭᱚᱱ
 az = ᱚᱡᱚᱨᱵᱮᱭᱡᱟᱱᱤ
 ba = ᱵᱟᱥᱠᱤᱨ
 bas = ᱵᱟᱥᱟ
 be = ᱵᱮᱞᱟᱨᱩᱥᱤ
+bg = ᱵᱩᱞᱜᱮᱨᱤᱭᱟᱹᱱ
+bm = ᱵᱟᱢᱵᱟᱨᱟ
 bn = ᱵᱮᱝᱜᱟᱞᱤ
 br = ᱵᱨᱮᱴᱚᱱ
+bxr = ᱵᱩᱨᱭᱟᱹᱛ
 cs = ᱪᱮᱠ
 cv = ᱪᱩᱣᱟᱥ
 cy = ᱣᱮᱞᱥ
@@ -56,6 +62,7 @@ pa-IN = ᱯᱚᱧᱡᱟᱵᱤ
 pl = ᱯᱳᱞᱤᱥ
 ru = ᱨᱩᱥᱤ
 sah = ᱥᱟᱠᱷᱟ
+sat = ᱥᱟᱱᱛᱟᱲᱤ (ᱚᱞ ᱪᱤᱠᱤ)
 si = ᱥᱤᱸᱦᱟᱞᱟ
 sk = ᱥᱞᱚᱣᱟᱠ
 so = ᱥᱳᱢᱟᱞᱤ
@@ -150,6 +157,7 @@ profile-close = ᱵᱚᱸᱫᱽ
 accept-privacy-title = ᱫᱟᱱᱟᱝ ᱨᱤᱛᱤ
 edit = ᱥᱟᱯᱲᱟᱣ
 download-profile = ᱤᱧᱟᱜ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
+off = ᱵᱚᱸᱱᱫ
 on = ᱪᱟᱹᱞᱩ
 
 ## Profile - Email
@@ -165,12 +173,14 @@ faq-what-cv-q = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
 faq-why-important-q = ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱫᱟᱜ ᱢᱚᱦᱚᱛ ᱜᱮᱭᱟ?
 faq-how-get-q = ᱪᱮᱠᱟ ᱞᱮᱠᱟᱛᱮ ᱤᱧ ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱧᱟᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ?
 faq-when-release2-q = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱤᱥ ᱯᱮ ᱨᱤᱞᱤᱡᱽ ᱟ?
+faq-why-my-lang-q = ᱤᱧᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱫᱟᱜ ᱱᱤᱛ ᱵᱟᱠᱚ ᱥᱟᱹᱢᱤᱞ ᱟᱠᱟᱫᱟ?
 faq-what-is-cv = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
 faq-search-for-answers =
     .label = ᱡᱚᱵᱟᱵᱽ ᱞᱟᱹᱜᱤᱫ ᱥᱮᱸᱫᱽᱨᱟᱭ ᱢᱮ
 
 ## ABOUT US
 
+about-title = Common Voice ᱫᱚ ᱪᱮᱫᱟᱜ?
 about-speak = ᱨᱚᱲ ᱢᱮ
 about-dataset-new = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ
 about-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
