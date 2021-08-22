@@ -103,6 +103,7 @@ link-copied = ᱞᱤᱝᱠ ᱱᱚᱠᱚᱞ ᱦᱩᱭᱮᱱᱟ
 
 ## Home Page
 
+show-wall-of-text = ᱟᱨᱦᱚᱸ ᱯᱟᱲᱦᱟᱣ ᱢᱮ
 vote-yes = ᱦᱮᱸ
 vote-no = ᱵᱟᱝ
 speak-subtitle = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱱᱮᱢ ᱢᱮ
@@ -219,6 +220,7 @@ review-recording = ᱧᱮᱞ ᱫᱚᱦᱲᱟ
 ## Datasets Page
 
 language = ᱯᱟᱹᱨᱥᱤ
+email-to-download = ᱰᱟᱩᱱᱞᱚᱰ ᱞᱟᱹᱜᱤᱫ ᱤᱢᱮᱞ ᱟᱫᱮᱨ ᱢᱮ
 size-gigabyte = GB
 size-megabyte = MB
 download-language = ᱰᱟᱩᱱᱞᱳᱰ { $language }
@@ -229,6 +231,9 @@ download = ᱰᱟᱩᱱᱞᱳᱰ
 ## Download Modal
 
 download-title = ᱟᱢᱟᱜ ᱰᱟᱩᱱᱞᱳᱰ ᱮᱦᱚᱵᱮᱱᱟ ᱾
+download-form-email =
+    .label = ᱟᱢᱟᱜ ᱤᱢᱮᱞ ᱟᱫᱮᱨ ᱛᱟᱢ
+    .value = ᱥᱟᱦᱨᱟᱣ ᱜᱮ, ᱟᱞᱮ ᱡᱩᱲᱟᱹᱣ ᱛᱟᱦᱮᱱ ᱟᱞᱮ ᱾
 
 ## Contact Modal
 
@@ -289,6 +294,7 @@ profile-form-delete = ᱢᱚᱦᱲᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
 
 ## Landing
 
+read-more-about = ᱟᱞᱮᱭᱟ ᱵᱟᱵᱚᱛ ᱥᱟᱦᱴᱟ ᱨᱮ ᱟᱨᱦᱚᱸ ᱯᱟᱲᱦᱟᱣ ᱯᱮ
 
 ## DemoLayout
 
