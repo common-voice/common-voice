@@ -129,6 +129,7 @@ request-language-button = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱢᱮ
 
 ## ProjectStatus
 
+status-contribute = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱱᱮᱢ ᱢᱮ
 
 ## ProfileForm
 
