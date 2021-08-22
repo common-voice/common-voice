@@ -97,6 +97,7 @@ help = ᱜᱚᱲᱚ
 contact = ᱥᱚᱢᱯᱚᱨᱠ
 privacy = ᱱᱤᱥᱚᱱ
 terms = ᱥᱚᱨᱛᱚᱠᱚ
+cookies = ᱠᱩᱠᱤᱡᱠᱚ
 faq = FAQ
 link-copied = ᱞᱤᱝᱠ ᱱᱚᱠᱚᱞ ᱦᱩᱭᱮᱱᱟ
 
@@ -156,6 +157,7 @@ settings = ᱥᱟᱡᱟᱣ ᱠᱚ
 edit-profile = ᱢᱚᱦᱲᱟ ᱥᱟᱯᱲᱟᱣ  ᱢᱮ
 profile-close = ᱵᱚᱸᱫᱽ
 accept-privacy-title = ᱫᱟᱱᱟᱝ ᱨᱤᱛᱤ
+login-signup = ᱵᱚᱞᱚᱱ / ᱥᱩᱦᱤ
 edit = ᱥᱟᱯᱲᱟᱣ
 download-profile = ᱤᱧᱟᱜ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
 off = ᱵᱚᱸᱱᱫ
@@ -245,6 +247,7 @@ other-language = ᱮᱴᱟᱜᱟ ᱯᱟᱹᱨᱥᱤ
 
 ## Languages Overview
 
+languages-show-more = ᱰᱷᱮᱨ ᱧᱮᱞ
 language-total-progress = ᱢᱳᱴ
 language-search-input =
     .placeholder = ᱥᱮᱸᱫᱽᱨᱟ
@@ -306,3 +309,4 @@ demo-listen-subtitle = ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱛᱮᱭᱟᱨ?
 
 ## Validation criteria
 
+see-more = <chevron></chevron>ᱰᱷᱮᱨ ᱧᱮᱞ
