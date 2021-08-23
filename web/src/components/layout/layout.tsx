@@ -2,7 +2,6 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
-import * as FullStory from '@fullstory/browser';
 import { LOCALES, NATIVE_NAMES } from '../../services/localization';
 import { trackGlobal, getTrackClass } from '../../services/tracker';
 import StateTree from '../../stores/tree';
@@ -163,12 +162,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         challengeTeamToken !== undefined && challengeToken !== undefined,
       featureStorageKey: await this.getFeatureKey(locale),
     });
-
-    try {
-      FullStory.setUserVars({ isLoggedIn: !!user.account });
-    } catch (e) {
-      // do nothing if FullStory not initialized (see app.tsx)
-    }
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
