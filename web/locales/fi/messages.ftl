@@ -869,3 +869,8 @@ demo-listen-subtitle = Valmiina osallistumaan?
 
 ## Demo Dashboard
 
+
+## Validation criteria
+
+contribution-background-noise-title = Taustamelu
+contribution-background-voices-title = Taustaäänet
