@@ -186,6 +186,7 @@ logout = Kirjaudu ulos
 ## Home Page
 
 home-title = Common Voice on Mozilla-projekti, jonka tavoitteena on opettaa koneet puhumaan kuin oikeat ihmiset.
+default-tagline = Mozilla Common Voice on aloite opettaa koneille, kuinka ihmiset puhuvat.
 home-cta = Puhu, avusta täällä!
 wall-of-text-start = Ääni on luonnollista ja inhimillistä. Siksi haluamme luoda käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin laaja ääniaineisto.
 wall-of-text-more-mobile = Suurin osa suuryritysten käyttämästä aineistosta ei ole laajasti käytettävissä. Meistä se tukahduttaa innovaation. Siitä syystä käynnistimme Common Voice -projektin, joka auttaa avaamaan puheentunnistuksen kaikille.
@@ -279,6 +280,7 @@ shortcut-record-toggle = n
 shortcut-record-toggle-label = Nauhoita / pysäytä
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Uudelleennauhoita äänite
+shortcut-discard-ongoing-recording-label = Hylkää käynnissä oleva tallenne
 request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
 request-language-button = Pyydä kieltä lisättäväksi
 
@@ -872,5 +874,16 @@ demo-listen-subtitle = Valmiina osallistumaan?
 
 ## Validation criteria
 
+contribution-criteria-link = Ymmärrä osallistumiskriteerit
+contribution-criteria-page-title = Osallistumiskriteerit
+contribution-criteria-page-description = Ymmärrä, mihin keskittyä äänileikkeitä kuunnellessa, ja auta tekemään äänitallenteistasi entistä parempia!
+contribution-for-example = esimerkiksi
+contribution-misreadings-title = Virheellisesti luettu
+contribution-varying-pronunciations-title = Vaihtelevat ääntämiset
 contribution-background-noise-title = Taustamelu
 contribution-background-voices-title = Taustaäänet
+contribution-volume-title = Äänenvoimakkuus
+contribution-reader-effects-title = Lukutehosteet
+contribution-just-unsure-title = Vielä epävarma?
+see-more = <chevron></chevron>Näytä lisää
+see-less = <chevron></chevron>Näytä vähemmän
