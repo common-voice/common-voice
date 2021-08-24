@@ -16,7 +16,7 @@
         );
     }
 
-    & nav {
+    nav {
         position: sticky;
         background: var(--lighter-grey);
 
@@ -35,7 +35,7 @@
             height: 100%;
         }
 
-        & ul {
+        ul {
             margin: 0;
             padding: 0;
             list-style: none;
@@ -46,7 +46,7 @@
             }
         }
 
-        & li {
+        li {
             font-weight: 600;
             opacity: 0.5;
 
@@ -67,7 +67,7 @@
             &.active {
                 opacity: 1;
 
-                & .line {
+                .line {
                     background-image: linear-gradient(
                         to right,
                         var(--gradient-pink),
@@ -76,19 +76,19 @@
                 }
             }
 
-            & .line {
+            .line {
                 margin-bottom: 10px;
                 height: 3px;
             }
         }
     }
 
-    & .sections {
+    .sections {
         max-width: 760px;
         width: 100%;
     }
 
-    & section {
+    section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -103,7 +103,7 @@
         }
     }
 
-    & .box {
+    .box {
         width: 100%;
         max-width: 370px;
 
@@ -115,65 +115,64 @@
             margin-bottom: 60px;
         }
 
-        & .dots-and-content {
+        .dots-and-content {
             display: flex;
             flex-direction: row;
         }
 
-        & .dots {
+        .dots {
             margin-inline-end: 15px;
             width: 40px;
             flex-shrink: 0;
         }
 
-        & .content {
+        .content {
             padding-inline-end: 45px;
             padding-bottom: 40px;
         }
 
-        & h2 {
+        h2 {
             font-size: var(--font-size-lg);
             font-weight: 600;
-            text-decoration: underline;
         }
 
-        & p {
+        p {
             line-height: 1.5;
             color: var(--near-black);
         }
     }
 
-    & .get-started {
-        & img {
+    .get-started {
+        img {
             width: inherit;
         }
 
-        & .content {
+        .content {
             margin-top: 35px;
         }
 
-        & h2 {
+        h2 {
             margin-bottom: 20px;
         }
     }
 
-    & .other-datasets {
+    .other-datasets {
         @media (--lg-up) {
             margin-bottom: 40px;
         }
     }
 
-    & .other-dataset {
+    .other-dataset {
         position: relative;
 
-        & .dataset-banner {
+        .dataset-banner {
             margin-bottom: 65px;
             height: 85px;
             opacity: 0.2;
             z-index: 0;
         }
 
-        & img {
+        img {
             border: 5px solid white;
             border-radius: 5px;
             width: 80px;
@@ -185,21 +184,21 @@
             background: white;
         }
 
-        & h2 {
+        h2 {
             margin-bottom: 10px;
         }
 
-        & p {
+        p {
             margin-bottom: 15px;
         }
 
-        & ul {
+        ul {
             margin: 0 0 30px;
             padding: 0;
             list-style: none;
         }
 
-        & li {
+        li {
             border-top: 1px solid var(--lighter-grey);
             padding: 15px 0;
             display: flex;
@@ -207,7 +206,7 @@
             justify-content: space-between;
             align-items: center;
 
-            & .label {
+            .label {
                 text-transform: uppercase;
                 font-size: var(--font-size-xs);
                 font-weight: 600;
@@ -215,28 +214,28 @@
             }
         }
 
-        & .buttons {
+        .buttons {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
         }
 
-        & .button {
+        .button {
             border: none;
             padding: 15px 30px;
             min-width: auto;
         }
 
-        & .download {
+        .download {
             background: var(--blue);
             color: white;
         }
     }
 
-    & .feedback {
+    .feedback {
         max-width: initial;
 
-        & img {
+        img {
             width: 100%;
 
             @media (--md-down) {
@@ -248,11 +247,11 @@
             }
         }
 
-        & .content {
+        .content {
             width: 100%;
         }
 
-        & .described-button {
+        .described-button {
             display: flex;
 
             @media (--md-down) {
@@ -268,12 +267,12 @@
                 margin-bottom: 30px;
             }
 
-            & p {
+            p {
                 margin-bottom: 20px;
                 max-width: 350px;
             }
 
-            & a {
+            a {
                 max-height: 57px;
             }
         }
