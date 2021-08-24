@@ -919,6 +919,7 @@ contribution-criteria-page-title = Критериуми за придонес
 contribution-for-example = на пример
 contribution-misreadings-title = Погрешно читање
 contribution-misreadings-description = Кога слушате, проверете многу внимателно дали она што е снимено е токму она што е напишано; отфрлете ако има дури и мали грешки. <br /> Многу вообичаени грешки вклучуваат:
+contribution-misreadings-description-extended-list-2 = Недостасува <strong>'s'</strong> на крајот од зборот.
 contribution-misreadings-description-extended-list-4 = Недостасува крајот на последниот збор бидејки снимката е прекината порано.
 contribution-misreadings-description-extended-list-5 = Потребни се повеќе обиди за да се прочита збор.
 contribution-misreadings-example-1-title = Џиновските диносауруси на Тријас.
