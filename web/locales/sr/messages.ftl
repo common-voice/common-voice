@@ -903,7 +903,11 @@ download-requests-info = Када затражите ваше снимке, ми
 download-request-button = Преузми
 download-request-title = { $created }
 download-request-description = { $clipCount } гласовних снимака, укупне величине { $size }. Истиче { $expires }.
+download-request-assembling-description = Ваше датотеке се склапају. Проверите поново касније.
 download-request-refresh-button = Освежи
+download-request-modal-title = Везе за преузимање
+download-request-modal-description = Ево веза за преузимање ваших ZIP датотека.
+download-request-link-text = Zip #{ $offset } од { $total }
 
 ## Landing
 
