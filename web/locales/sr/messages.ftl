@@ -887,6 +887,12 @@ profile-form-delete = Обриши профил
 
 ## Profile Download
 
+download-q = Треба да преузмете ваше податке?
+download-info = Реците нам шта желите да преузмете:
+download-profile-title = Профил
+download-profile-info = Укључује е-пошту, корисничко име и демографске податке
+download-profile-size = Неколико бајтова
+download-recordings-title = Снимци
 
 ## Landing
 
@@ -942,3 +948,4 @@ contribution-for-example = на пример
 contribution-misreadings-title = Грешке при читању
 contribution-misreadings-description = Приликом слушања, пажљиво проверите да ли је снимљено тачно онако како је написано; одбацујте чак и ако постоје мање грешке. <br />Врло честе грешке укључују:
 contribution-misreadings-description-extended-list-4 = Одсуство краја последње речи због превременог престанка снимања.
+contribution-misreadings-description-extended-list-5 = Поновљени покушаји читања речи.
