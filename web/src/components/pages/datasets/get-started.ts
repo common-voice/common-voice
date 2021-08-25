@@ -33,11 +33,11 @@ export default [
 		nick: 'coqui',
 		titleLocalized: false,
 		image: './images/coqui.jpg',
-		url: 'https://coqui.ai/',
+		url: 'https://github.com/coqui-ai/stt',
 		description: {
 			localizationId: 'resource-coqui-info',
 			linkElems: {
-				coquiLink: 'https://coqui.ai/'
+				coquiLink: 'https://github.com/coqui-ai/stt'
       }
 		}
 	},
