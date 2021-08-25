@@ -2,7 +2,6 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, Redirect, withRouter } from 'react-router';
-import * as FullStory from '@fullstory/browser';
 import { LOCALES, NATIVE_NAMES } from '../../services/localization';
 import { trackGlobal, getTrackClass } from '../../services/tracker';
 import StateTree from '../../stores/tree';
@@ -35,14 +34,13 @@ import {
   ChallengeToken,
   challengeTokens,
   FeatureType,
-  FeatureToken,
   features,
 } from 'common';
 import API from '../../services/api';
 import NotificationBanner from './../notification-banner/notification-banner';
 import { Notifications } from '../../stores/notifications';
 
-const LOCALES_WITH_NAMES = LOCALES.map(code => [
+export const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
   NATIVE_NAMES[code] || code,
 ]).sort((l1, l2) => l1[1].localeCompare(l2[1]));
@@ -164,12 +162,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         challengeTeamToken !== undefined && challengeToken !== undefined,
       featureStorageKey: await this.getFeatureKey(locale),
     });
-
-    try {
-      FullStory.setUserVars({ isLoggedIn: !!user.account });
-    } catch (e) {
-      // do nothing if FullStory not initialized (see app.tsx)
-    }
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
@@ -285,13 +277,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        {featureStorageKey &&
-          localStorage.getItem(featureStorageKey) !== 'true' && (
-            <SegmentBanner
-              locale={locale}
-              featureStorageKey={featureStorageKey}
-            />
-          )}
         <header className={hasScrolled ? 'active' : ''}>
           <div>
             <Logo />

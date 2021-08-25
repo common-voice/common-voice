@@ -32,7 +32,7 @@ export default async function fetchLegalDocument(
   const legalLocale = localeMapping[locale] ?? locale;
 
   const [status, text] = await request({
-    uri: `https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_${name}/${legalLocale}.md`,
+    uri: `https://raw.githubusercontent.com/mozilla/legal-docs/restructure/${legalLocale}/common_voice_${name}.md`,
     resolveWithFullResponse: true,
   })
     .then((response: any) => [response.statusCode, response.body])

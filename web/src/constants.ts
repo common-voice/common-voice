@@ -16,6 +16,6 @@ export const WHATS_PUBLIC = [
   'email-not-public',
   'recordings-and-locale-public',
   'username-optin-public',
-  'demographic-deidentified-clarity',
+  'demographic-deidentified-clarity-2',
   'username-email-not-demographic',
 ];

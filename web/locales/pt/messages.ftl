@@ -1,17 +1,17 @@
 ## General
 
-yes-receive-emails = Sim, envie e-mails. Quero manter-me informado sobre o Projeto Common Voice.
+yes-receive-emails = Sim, envie emails. Quero manter-me informado sobre o Projeto Common Voice.
 stayintouch = Nós da Mozilla estamos construindo uma comunidade em torno de tecnologias de voz. Queremos nos manter em contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.
-privacy-info = Prometemos lidar com suas informações com cautela. Saiba mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
+privacy-info = Prometemos lidar com suas informações com cuidado. Saiba mais em nosso <privacyLink>Aviso de privacidade</privacyLink>.
 return-to-cv = Voltar para o Common Voice
 email-input =
-    .label = E-mail
+    .label = Email
 submit-form-action = Enviar
 loading = Carregando…
-email-opt-in-info = Quero receber e-mails, tais como lembretes de metas, atualizações sobre meu progresso e boletins informativos sobre o Common Voice.
+email-opt-in-info = Quero receber emails, tais como lembretes de metas, atualizações sobre meu progresso e boletins informativos sobre o Common Voice.
 email-opt-in-info-title = Participe da lista de discussão do Common Voice
-email-opt-in-info-sub-with-challenge = Receba e-mails, tais como lembretes de objetivos e desafios, atualizações de progresso e boletins informativos sobre o Common Voice.
-email-opt-in-privacy-v2 = Ao optar por receber e-mails, você declara que concorda com a Mozilla lidar com essas informações, conforme explicado na <privacyLink>Política de privacidade</privacyLink> da Mozilla.
+email-opt-in-info-sub-with-challenge = Receba emails, tais como lembretes de objetivos e desafios, atualizações de progresso e boletins informativos sobre o Common Voice.
+email-opt-in-privacy-v2 = Ao optar por receber emails, você declara que concorda com a Mozilla lidar com essas informações, conforme explicado na <privacyLink>Política de privacidade</privacyLink> da Mozilla.
 indicates-required = * Indica campo obrigatório
 not-available-abbreviation = Não disponível
 
@@ -33,14 +33,18 @@ as = Assamês
 ast = Asturiano
 az = Azerbaidjano
 ba = Basquir
+bas = Basa
 be = Bielorrusso
 bg = Búlgaro
+bm = Bambara
 bn = Bengalês
 br = Bretão
 bxr = Buriato
 ca = Catalão
 cak = Caqchiquel
+ckb = Curdo central
 cnh = Hakha Chin
+co = Corso
 cs = Tcheco
 cv = Tchuvache
 cy = Galês
@@ -62,11 +66,13 @@ fr = Francês
 fy-NL = Frisão
 ga-IE = Irlandês
 gl = Galego
+gn = Guarani
 ha = Hauçá
 he = Hebraico
 hi = Hindi
 hr = Croata
 hsb = Alto Sorábio
+ht = Crioulo haitiano
 hu = Húngaro
 hy-AM = Armênio
 hyw = Armênio ocidental
@@ -81,33 +87,41 @@ kaa = Caracalpaque
 kab = Kabyle
 kbd = Kabardiano
 kk = Cazaque
+kmr = Curdo do norte
 ko = Coreano
 kpv = Komi-Zyrian
-ku = Curdo
 kw = Córnico
 ky = Quirguiz
 lg = Luganda
 lij = Liguriano
 lt = Lituano
 lv = Letão
+mai = Maitili
 mdf = Moksha
 mg = Malgaxe
 mhr = Meadow Mari
 mk = Macedônio
 ml = Malaiala
 mn = Mongol
+mos = Moré
+mr = Marata
 mrj = Hill Mari
+ms = Malaio
 mt = Maltês
 my = Birmanês
 myv = Erzya
 nb-NO = Norueguês (Bokmål)
 ne-NP = Nepalês
+nia = Nias
 nl = Holandês
 nn-NO = Novo norueguês
+nyn = Ancolé
 oc = Occitânico
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polonês
+ps = Pachto
 pt = Português
 rm-sursilv = Romanche (Sursilvan)
 rm-vallader = Romanche (Vallader)
@@ -115,11 +129,14 @@ ro = Romeno
 ru = Russo
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+shi = Tachelhit
 si = Cingalês
 sk = Eslovaco
 sl = Esloveno
+so = Somali
 sq = Albanês
 sr = Sérvio
 sv-SE = Sueco
@@ -132,14 +149,18 @@ th = Tailandês
 tl = Filipino
 tr = Turco
 tt = Tártaro
+tw = Twi
 uby = Ubykh
 udm = Udmurte
+ug = Uigur
 uk = Ucraniano
 ur = Urdu
 uz = Usbeque
 vec = Veneziano
 vi = Vietnamita
 vot = Vótico
+yo = Iorubá
+yue = Cantonês
 zh-CN = Chinês (China)
 zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
@@ -171,6 +192,7 @@ logout = Sair
 ## Home Page
 
 home-title = O projeto Common Voice é uma iniciativa da Mozilla para ajudar a ensinar às máquinas como pessoas reais falam.
+default-tagline = O Mozilla Common Voice é uma iniciativa para ajudar a ensinar às máquinas como pessoas reais falam.
 home-cta = Doe sua voz, contribua aqui!
 wall-of-text-start = A voz é natural, a voz é humana. É por isso que estamos fascinados com a criação de uma tecnologia de voz utilizável para nossas máquinas. Mas para criar sistemas de voz, é necessária uma quantidade extremamente grande de dados de voz.
 wall-of-text-more-mobile = A maior parte dos dados utilizados por grandes empresas não estão disponíveis para a maioria das pessoas. Nós achamos que isso sufoca a inovação. Então lançamos o Projeto Common Voice, para ajudar a tornar o reconhecimento de voz aberto para todos.
@@ -216,7 +238,7 @@ x-years-short =
     }
 help-make-dataset = Ajude-nos a construir um conjunto de dados de alta qualidade, aberto publicamente
 sign-up-account = Cadastre uma conta
-email-subscription-title = cadastre-se para receber notícias por e-mail
+email-subscription-title = cadastre-se para receber novidades por email
 email-subscription-title-new = Cadastre-se para receber do Common Voice boletins, lembretes de metas e informações de progresso
 
 ## Account Benefits
@@ -227,16 +249,16 @@ improve-audio = Informações de perfil aprimoram os dados de áudio usados no t
 keep-track = Acompanhe seu progresso e métricas em diversos idiomas.
 compare-progress = Veja como seu progresso se compara com outros contribuidores do mundo todo.
 view-goals = Veja seu progresso em comparação com metas pessoais e do projeto.
-join-newsletter = Opcionalmente, inscreva-se na nossa lista de e-mails para receber novidades sobre o projeto.
+join-newsletter = Opcionalmente, inscreva-se na nossa lista de emails para receber novidades sobre o projeto.
 
 ## What's public
 
 whats-public = O que é público?
-email-not-public = Não deixaremos público seu endereço de e-mail.
+email-not-public = Não deixaremos público seu endereço de email.
 recordings-and-locale-public = O número de gravações e para quais idiomas você contribuir serão públicos.
 username-optin-public = Você pode escolher deixar seu nome de usuário público ou anônimo.
-demographic-deidentified-clarity = Dados demográficos enviados opcionalmente (como idade, sexo, idioma e sotaque) nunca serão publicados no seu perfil e nem associados à sua conta no conjunto de dados. Clipes de áudio individuais serão associados a dados demográficos para fins de análises mais precisas - por exemplo, um pesquisador pode querer direcionar um modelo de treino para um segmento demográfico específico.
-username-email-not-demographic = Seu nome de usuário e e-mail não serão associados com os dados publicados.
+demographic-deidentified-clarity-2 = Dados demográficos enviados opcionalmente (como idade, gênero, idioma e sotaque) nunca ficarão públicos em seu perfil e não serão associados à sua conta no conjunto de dados. Clipes de áudio individuais serão associados a dados demográficos para fins de análises mais precisas. Por exemplo, um pesquisador pode querer direcionar um modelo de treinamento a um segmento demográfico específico.
+username-email-not-demographic = Seu nome de usuário e email não serão associados com os dados publicados.
 
 ## Speak & Listen Shortcuts
 
@@ -264,7 +286,12 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Gravar/Parar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regravar clipe
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Descartar gravação em andamento
+shortcut-submit = Return
+shortcut-submit-label = Enviar clipes
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
+request-language-text-learn = Veja como fazer a solicitação aqui!
 request-language-button = Solicite um idioma
 
 ## ProjectStatus
@@ -293,7 +320,7 @@ profile-form-accent =
     .label = Sotaque
 profile-form-age =
     .label = Idade
-profile-form-gender =
+profile-form-gender-2 =
     .label = Gênero
 leaderboard-visibility =
     .label = Visibilidade no quadro de líderes
@@ -320,13 +347,13 @@ profile-close = Fechar
 profile-explanation = Acompanhe o seu progresso com um perfil e ajude que as gravações sejam cada vez mais precisas.
 thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir seu perfil.
 why-demographic = Por que isto é importante?
-why-demographic-explanation = Dados anônimos de usuários, como idade, sexo e sotaque, ajudam a aprimorar os dados de áudio usados para treinar a precisão dos mecanismos de reconhecimento de voz. Seu nome de usuário e e-mail nunca serão associados com os dados enviados, e você pode escolher se seu nome de usuário ficará público ou anônimo.
+why-demographic-explanation-2 = Dados de usuários tornados anônimos, como idade, gênero e sotaque ajudam a melhorar os dados de áudio usados para treinar a precisão de mecanismos de reconhecimento de voz. Seu nome de usuário e email nunca serão associados aos dados enviados e você pode escolher se quer deixar tornar seu nome de usuário público ou anônimo.
 accept-privacy = Concordo que estas informações sejam utilizadas conforme explicado na <privacyLink>Política de Privacidade</privacyLink> da Mozilla.
 accept-privacy-title = Política de privacidade
 login-identity = Identidade de acesso
 login-signup = Entrar / Inscrever-se
 edit = Editar
-email-subscriptions = Inscrições de e-mails
+email-subscriptions = Inscrições de emails
 download-profile = Baixar meus dados
 contribution-experience = Experiência de colaboração
 skip-submission-feedback = Ignorar comentários de envio
@@ -334,31 +361,24 @@ skip-submission-description = Durante o envio de uma contribuição, o retorno s
 skip-submission-note = Nota: você ainda precisará escolher entre Falar ou Ouvir para alterar o tipo de contribuição.
 off = Desligar
 on = Ligar
-avatar-clip-title = Dê uma voz ao seu avatar
-change-your-avatar-clip = Deseja mudar seu clipe de voz?
-recording-in-progress = Gravação de voz em andamento
-avatar-clip-recorded = Seu avatar agora inclui um clipe de voz!
-record-voice-wave = GRAVE SUA VOZ
-retry-voice-wave-recording = TENTAR NOVAMENTE
-re-record = REGRAVAR
-delete-voice = EXCLUIR
-recording-voice-wave = Gravando
-delete-voice-clip = ou Excluir clipe de voz
-ready-to-upload = Enviar
-avatar-clip-fact = É um fato há muito estabelecido que um leitor se distrai com o conteúdo legível de uma página ao olhar seu layout.
-recreate-voice = Recriar sua voz
-cancel-avatar-clip-recording = CANCELAR
-about-avatar-clip-recording = Crie um clipe de voz associado ao avatar do seu perfil. Outras pessoas poderão passar o mouse sobre ele e ouvir seu clipe.
+
+## Profile - Email
+
 browse-file-title = Enviar um arquivo de imagem
 browse-file = Arraste e solte, ou <browseWrap>selecione</browseWrap>
 connect-gravatar = Conectar com Gravatar
 gravatar_not_found = Não foi encontrado um Gravatar para seu email
 file_too_large = O arquivo selecionado é grande demais
+avatar-uploaded = Avatar enviado
+max-file-size = Máximo { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Gerenciar inscrições
-manage-email-subscriptions = Gerenciar inscrições de e-mails
-email-already-used = Este e-mail já está sendo usado em uma conta diferente
+manage-email-subscriptions = Gerenciar inscrições de emails
+email-already-used = Este email já está sendo usado em outra conta
 add-language = Adicionar idioma
-change-email-setings = Altere seu e-mail usando as configurações em Identidade de acesso
+change-email-setings = Altere seu email usando as configurações em Identidade de acesso
 
 ## FAQ
 
@@ -368,6 +388,10 @@ faq-what-cv-a =
     A tecnologia de reconhecimento de voz está revolucionando o modo como interagimos com máquinas, mas os sistemas disponíveis atualmente são caros e proprietários. O Common Voice faz parte da iniciativa da Mozilla para tornar as tecnologias de reconhecimento de voz melhores e mais acessíveis a todos. O Common Voice é um banco de dados massivo global de vozes doadas que permite a qualquer um treinar aplicativos habilitados para voz com facilidade e rapidez, em potencialmente qualquer idioma.
     
     Nós estamos coletando amostras de voz não apenas de idiomas falados amplamente, mas também daqueles com menor população de falantes. Publicar um conjunto de dados variado de vozes potencializará desenvolvedores, empreendedores e comunidades para abordar esta lacuna eles mesmos. Além do conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
+faq-what-cv-a-2 =
+    A tecnologia de reconhecimento de voz está revolucionando o modo como interagimos com máquinas, mas os sistemas disponíveis atualmente são caros e proprietários. O Mozilla Common Voice é uma iniciativa para tornar as tecnologias de reconhecimento de voz melhores e mais acessíveis a todos. O Common Voice é um banco de dados massivo global de vozes doadas que permite a qualquer um treinar aplicativos habilitados para voz com facilidade e rapidez, em potencialmente qualquer idioma.
+    
+    Nós estamos coletando amostras de voz não apenas de idiomas falados amplamente, mas também daqueles com menor população de falantes. Publicar um conjunto de dados variado de vozes potencializa desenvolvedores, empreendedores e comunidades para abordar esta lacuna eles mesmos.
 faq-why-important-q = Por que é importante?
 faq-why-important-a =
     A fala é geralmente a maneira mais natural de nos comunicar e as tecnologias de voz estão trazendo essa conveniência para nossos computadores e dispositivos móveis. Queremos capacitar os desenvolvedores a criar aplicativos de reconhecimento de voz incríveis, como tradutores em tempo real e assistentes digitais habilitados para voz. Mas, no momento, a maioria dos dados de voz necessários para criar esses tipos de aplicativos é cara e proprietária. Esperamos que o conjunto de dados do Common Voice forneça aos desenvolvedores o que eles precisam para inovar e disponibilizar tecnologia de voz em seus próprios idiomas.
@@ -426,6 +450,9 @@ about-subtitle = O Common Voice faz parte da iniciativa da Mozilla de ajudar a e
 about-header-description =
     Ambos os projetos fazem parte de nossos esforços de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
     Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
+about-header-description-2 =
+    Este projeto é um esforço de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
+    Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
 how-does-it-work-title = Como funciona
 how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código aberto através de colaboração pública. Doe sua voz, valide a correção dos clipes de outras pessoas, torne o conjunto de dados melhor para todos.
 about-speak = Falar
@@ -453,9 +480,9 @@ about-partnership =
 about-get-involved = Envolva-se
 about-get-involved-text-2 =
     Quer ajudar a tornar o Common Voice ainda melhor?
-    Fantástico! Entre em contato via e-mail ou nos fóruns do <discourseLink>Discourse</discourseLink>,
+    Fantástico! Entre em contato via email ou nos fóruns do <discourseLink>Discourse</discourseLink>,
     relate problemas no site via <githubLink>GitHub</githubLink>,
-    ou participe de conversa da comunidade no <matrixLink>Matrix</matrixLink>.
+    ou participe de conversas da comunidade no <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Por quê?
 about-nav-how-it-works = Como?
 about-nav-partners = Parceiros
@@ -504,10 +531,12 @@ data-other-goto = Ir para { $name }
 data-other-download = Baixar dados
 data-bundle-button = Baixar pacote do conjunto de dados
 data-bundle-description = Os dados do Common Voice mais todos os outros conjuntos de dados acima.
+release-version = Versão
+dataset-date = Data
 license = Licença: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
 data-download-singleword-title = Baixar o segmento de destino de palavras únicas
-data-download-singleword-callout = Este é um segmento orientado a casos de uso que contêm dados para capacitar reconhecimento de dígitos falados, detecção de sim / não e dados de teste de palavra de despertar atenção para o <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Este é um segmento orientado a caso de uso que contém dados para capacitar reconhecimento de dígitos falados e detecção de sim/não.
 review-terms = Usando o Common Voice, você aceita nossos <termsLink>Termos</termsLink> e <privacyLink>Política de Privacidade</privacyLink>
 terms-agree = Estou de acordo
 terms-disagree = Não estou de acordo
@@ -538,8 +567,8 @@ cv-license = Licença
 audio-format = Formato de áudio
 number-of-voices = Número de vozes
 splits = Divisões
-email-to-download = Informe um e-mail para baixar
-why-email = <b>Por que um e-mail?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados, um e-mail nos fornece um meio de contato.
+email-to-download = Informe um email para baixar
+why-email = <b>Por que um email?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados. Um email nos fornece um meio de contato.
 confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -577,9 +606,9 @@ dataset-version = Versão
 ## Download Modal
 
 download-title = Seu download começou.
-download-helpus = Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por e-mail.
+download-helpus = Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por email.
 download-form-email =
-    .label = Digite seu e-mail
+    .label = Digite seu email
     .value = Obrigado, entraremos em contato.
 download-back = Voltar ao conjunto de dados do Common Voice
 download-no = Não, obrigado
@@ -675,6 +704,7 @@ share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
 keep-track-profile = Acompanhe seu progresso com um perfil
 login-to-get-started = Entre ou cadastre-se para começar
 target-segment-first-card = Você está contribuindo para nosso primeiro segmento alvo
+target-segment-generic-card = Você está contribuindo para um segmento-alvo
 target-segment-first-banner = Ajude a criar o primeiro segmento alvo do Common Voice em { $locale }
 target-segment-add-voice = Adicione sua voz
 target-segment-learn-more = Saiba mais
@@ -790,8 +820,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Ótimo! Quantos clipes por dia?
 how-many-a-week = Ótimo! Quantos clipes por semana?
 which-goal-type = Quer falar, ouvir ou ambos?
-receiving-emails-info = Sua conta está configurada para receber e-mails como lembretes de metas, informações de progresso e novidades sobre o Common Voice
-not-receiving-emails-info = No momento, sua conta está configurada para <bold>NÃO</bold> receber e-mails, como lembretes de metas, informações do seu progresso e boletins informativos sobre o Common Voice
+receiving-emails-info = Sua conta está configurada para receber emails, como lembretes de metas, informações de progresso e novidades sobre o Common Voice
+not-receiving-emails-info = No momento, sua conta está configurada para <bold>NÃO</bold> receber emails, como lembretes de metas, informações do seu progresso e boletins informativos sobre o Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } clipe
@@ -832,6 +862,98 @@ profile-form-delete = Excluir perfil
 
 welcome-staff = Boas-vindas, equipe do { $company }!
 help-contribute = Você pode ajudar a construir um conjunto de dados de código aberto diverso criando um perfil no Common Voice e contribuindo com sua voz.
-login-company = Entrar / Cadastrar-se com e-mail de { $company }
+login-company = Entrar / Cadastrar-se com email de { $company }
 profile-not-required = Não é obrigatório ter um perfil para contribuir, apesar de ser útil
 read-more-about = Saiba mais sobre o Common Voice
+
+## DemoLayout
+
+demo-get-started = Vamos começar
+demo-welcome = Bem-vindo ao Common Voice
+demo-welcome-subheader = Interessado em aprender mais e contribuir com o projeto?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice é o maior conjunto de dados de voz multilíngue do mundo disponível publicamente.
+demo-language-select-card-body = Graças a contribuições de mais de 259 mil pessoas em mais de 50 idiomas, esses dados estão sendo usados para treinar aplicativos com reconhecimento de fala para responder melhor à voz humana.
+card-button-next = Avançar
+card-button-back = Voltar
+demo-language-select-label = Procurar idiomas
+demo-eofy-header = Lançamento de final de ano de 2019
+demo-eofy-sub_header = Conjunto de dados de voz, pronto para baixar
+demo-account = Conta
+
+## Demo Account
+
+demo-account-card-header = Não é obrigatório ter uma conta para contribuir, embora seja útil.
+demo-account-card-body = À direita, destacamos os benefícios e esclarecemos quais informações tornamos públicas. Use os links abaixo para começar a usar uma conta do Common Voice em seu dispositivo.
+demo-account-enter-email =
+    .label = Digite um email para onde enviar um link de criação de conta
+demo-account-sign-up = Enviar link de criação de conta
+
+## Demo Contribute
+
+demo-contribute-card-header = Pronto para adicionar sua voz ou emprestar seu ouvido?
+demo-contribute-card-body-v2 = Agora que você já sabe um pouco mais sobre o Common Voice, que tal experimentar? Clique no ícone de microfone para começar a ler frases em voz alta. <br/><br/>Se preferir rever as contribuições de voz de outras pessoas, clique no ícone de reproduzir. Você ajudará a confirmar se as gravações correspondem às frases escritas na tela.
+demo-listen-subtitle = Pronto para contribuir?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Painéis pessoais mantêm você atualizado com o progresso individual e da comunidade.
+demo-dashboard-card-body = Para cada clipe de voz doado e cada clipe de áudio validado, os painéis da sua conta são atualizados para refletir seu progresso recente em cada idioma em que você contribui. Sim, você pode contribuir em mais de um!<br/><br/> Use painéis para acompanhar suas estatísticas, veja como você está se saindo ao lado de outras pessoas na comunidade e defina metas de contribuição diárias ou semanais.
+
+## Validation criteria
+
+contribution-criteria-nav = Critério
+contribution-criteria-link = Entenda os critérios de contribuição
+contribution-criteria-page-title = Critérios de contribuição
+contribution-criteria-page-description = Saiba o que procurar ao ouvir clipes de voz e ajude a tornar suas gravações de voz mais ricas também!
+contribution-for-example = por exemplo
+contribution-misreadings-title = Erros de leitura
+contribution-misreadings-description = Ao ouvir, verifique com muito cuidado se o que foi gravado é exatamente o que estava escrito; rejeite se houver o menor erro. <br />Erros muito comuns incluem:
+contribution-misreadings-description-extended-list-1 = Falta de <strong>'Um'</strong> ou <strong>'O'</strong> no início da gravação.
+contribution-misreadings-description-extended-list-2 = Falta de <strong>'s'</strong> no final de uma palavra.
+contribution-misreadings-description-extended-list-3 = Leitura de contrações que não estão de fato no texto, como "d'água" em vez de "de água" ou vice-versa.
+contribution-misreadings-description-extended-list-4 = Falta o final da última palavra devido à gravação ter sido encerrada rápido demais.
+contribution-misreadings-description-extended-list-5 = Várias tentativas de ler uma palavra.
+contribution-misreadings-example-1-title = Os dinossauros gigantes do Triássico.
+contribution-misreadings-example-2-title = O dinossauro gigante do Triássico.
+contribution-misreadings-example-2-explanation = [Deve ser ‘dinossauros’]
+contribution-misreadings-example-3-title = Os dinossauros gigantes do Triássi-.
+contribution-misreadings-example-3-explanation = [Gravação interrompida antes do final da última palavra]
+contribution-misreadings-example-4-title = Os dinossauros gigantes do Triássico. Sim.
+contribution-misreadings-example-4-explanation = [Foi gravado mais texto do que o necessário]
+contribution-misreadings-example-5-title = Vamos sair para tomar café.
+contribution-misreadings-example-6-title = Vou beber um copo d'água.
+contribution-misreadings-example-6-explanation = [Deveria ser “de água”]
+contribution-misreadings-example-7-title = Vamos sair para tomar um café.
+contribution-misreadings-example-7-explanation = [Sem ‘um’ no texto original]
+contribution-misreadings-example-8-title = A abelha passou rápido.
+contribution-misreadings-example-8-explanation = [Conteúdo não corresponde]
+contribution-varying-pronunciations-title = Pronúncias diferentes
+contribution-varying-pronunciations-description = Seja cauteloso antes de rejeitar um clipe se considerar que o leitor pronunciou uma palavra incorretamente, colocou ênfase no lugar errado ou aparentemente ignorou um ponto de interrogação. Há uma grande variedade de pronúncias em uso no mundo todo, algumas das quais você pode não ter ouvido falar em sua comunidade local. Dê uma margem de apreço àqueles que podem falar de forma diferente de você.
+contribution-varying-pronunciations-description-extended = Por outro lado, se julgar que o leitor provavelmente nunca se deparou com a palavra antes e está simplesmente dando um palpite incorreto na pronúncia, rejeite. Se não tiver certeza, use o botão de pular.
+contribution-varying-pronunciations-example-1-title = O menino usava um chapéu.
+contribution-varying-pronunciations-example-1-explanation = [Vogais átonas costumam ser pronunciadas no Brasil (menino, chapéu), mas não em Portugal (m'nino, ch'péu)]
+contribution-varying-pronunciations-example-2-title = Su-a mão levantou.
+contribution-varying-pronunciations-example-2-explanation = [‘Sua’ em português é sempre pronunciada como uma sílaba, não duas]
+contribution-background-noise-title = Ruído de fundo
+contribution-background-noise-description = Queremos que os algoritmos de aprendizado de máquina consigam lidar com uma variedade de ruídos de fundo. Mesmo ruídos relativamente altos podem ser aceitos, desde que não impeçam que você ouça o texto todo. Música de fundo tranquila está bem. Música alta o suficiente para atrapalhar a audição de pelo menos uma palavra, não.
+contribution-background-noise-description-extended = Se a gravação falhar ou apresentar estalos, rejeite, a menos que o texto ainda possa ser ouvido na íntegra.
+contribution-background-noise-example-1-fixed-title = <strong>[Espirro]</strong> Os dinossauros gigantes do <strong>[tosse]</strong> Triássico.
+contribution-background-noise-example-2-fixed-title = O dinossauro gigante <strong>[tosse]</strong> do Triássico.
+contribution-background-noise-example-2-explanation = [Parte do texto não pode ser ouvido]
+contribution-background-noise-example-3-fixed-title = <strong>[Estalo]</strong> dinossauros gigantes do <strong>[estalo]</strong> -riássico.
+contribution-background-voices-title = Vozes de fundo
+contribution-background-voices-description = Um burburinho de fundo está bem, mas não queremos vozes adicionais que podem fazer com que um algoritmo de máquina identifique palavras que não estão no texto escrito. Se você conseguir ouvir palavras distintas das do texto, o clipe deve ser rejeitado. Normalmente, isso acontece quando a TV foi deixada ligada ou onde há uma conversa acontecendo por perto.
+contribution-background-voices-description-extended = Se a gravação falhar ou apresentar estalos, rejeite, a menos que o texto ainda possa ser ouvido na íntegra.
+contribution-background-voices-example-1-title = Os dinossauros gigantes do Triássico. <strong>[lido por uma voz]</strong>
+contribution-background-voices-example-1-explanation = Você está vindo? <strong>[chamado por outra]</strong>
+contribution-volume-title = Volume
+contribution-volume-description = Há natural variação de volume entre os leitores. Rejeite somente se o volume estiver tão alto que a gravação falhe, ou (mais comum) se estiver tão baixo que você não possa ouvir o que está sendo dito sem referência ao texto escrito.
+contribution-reader-effects-title = Efeitos do leitor
+contribution-reader-effects-description = A maioria das gravações é de pessoas falando em sua voz natural. Você pode aceitar uma gravação ocasional fora do padrão que seja gritada, sussurrada ou obviamente feita com uma voz ‘dramática’. Rejeite gravações cantadas e aquelas que usam voz sintetizada por computador.
+contribution-just-unsure-title = Não tem certeza?
+contribution-just-unsure-description = Caso se depare com algo que essas diretrizes não abrangem, vote de acordo com seu bom senso. Se realmente não conseguir decidir, use o botão de pular e siga para a próxima gravação.
+see-more = <chevron></chevron>Ver mais
+see-less = <chevron></chevron>Ver menos

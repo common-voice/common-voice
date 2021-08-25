@@ -1,7 +1,9 @@
+import { TaxonomyType } from './taxonomies';
+
 export type Sentence = {
   id: string;
   text: string;
-  taxonomy?: string;
+  taxonomy?: TaxonomyType;
 };
 
 export type Clip = {

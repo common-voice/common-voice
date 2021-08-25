@@ -16,7 +16,6 @@ export function track(
     | 'Nav'
     | 'Landing'
     | 'Challenge'
-    | 'voice-avatar'
     | 'Error',
   action: string,
   locale?: string
@@ -70,6 +69,7 @@ export function trackRecording(
     | 'record'
     | 'submit'
     | 'rerecord'
+    | 'discard-ongoing'
     | 'view-shortcuts'
     | 'shortcut'
     | 'skip'
@@ -107,13 +107,6 @@ export function trackProfile(
   locale: string
 ) {
   track('Profile', action, locale);
-}
-
-export function trackVoiceAvatar(
-  action: 'self-listen' | 'listen' | 'create-voice-avatar',
-  locale: string
-) {
-  track('voice-avatar', action, locale);
 }
 
 export function trackLanguages(

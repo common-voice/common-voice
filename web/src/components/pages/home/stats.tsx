@@ -37,14 +37,16 @@ function StatsCard({
   children,
   onLocaleChange,
   header,
+  scrollable,
 }: {
   children?: React.ReactNode;
   header: React.ReactNode;
   onLocaleChange: (locale: string) => any;
+  scrollable?: boolean;
 }) {
   const [locale, setLocale] = useState(ALL_LOCALES);
   return (
-    <div className="home-card">
+    <div className={`home-card ${scrollable ? 'scrollable' : ''}`}>
       <div className="head">
         {header}
         <LanguageSelect
@@ -220,14 +222,15 @@ export namespace ClipsStats {
       const path = this.pathRef.current;
       if (!path) {
         this.setState({ hoveredIndex: null });
+      } else {
+        const { left, width } = path.getBoundingClientRect();
+        const hoveredIndex =
+          Math.round((DATA_LENGTH * (event.clientX - left)) / width) - 1;
+        this.setState({
+          hoveredIndex:
+            hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH ? hoveredIndex : null,
+        });
       }
-      const { left, width } = path.getBoundingClientRect();
-      const hoveredIndex =
-        Math.round((DATA_LENGTH * (event.clientX - left)) / width) - 1;
-      this.setState({
-        hoveredIndex:
-          hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH ? hoveredIndex : null,
-      });
     };
 
     handleMouseOut = () => this.setState({ hoveredIndex: null });
@@ -342,6 +345,7 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
       const { data } = this.state;
       return (
         <StatsCard
+          scrollable
           header={
             <div>
               <Localized id="voices-online">

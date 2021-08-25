@@ -32,14 +32,18 @@ as = アッサム語
 ast = アストゥリアス語
 az = アゼルバイジャン語
 ba = バシキール語
+bas = バサ語
 be = ベラルーシ語
 bg = ブルガリア語
+bm = バンバラ語
 bn = ベンガル語
 br = ブルトン語
 bxr = ブリヤート語
 ca = カタルーニャ語
 cak = カクチケル語
+ckb = 中央クルド語
 cnh = ハーカ・チン語
+co = コルシカ語
 cs = チェコ語
 cv = チュヴァシ語
 cy = ウェールズ語
@@ -61,11 +65,13 @@ fr = フランス語
 fy-NL = フリジア語
 ga-IE = アイルランド語
 gl = ガリシア語
+gn = グアラニー語
 ha = ハウサ語
 he = ヘブライ語
 hi = ヒンディー語
 hr = クロアチア語
 hsb = 高地ソルブ語
+ht = ハイチ語
 hu = ハンガリー語
 hy-AM = アルメニア語
 hyw = 西アルメニア語
@@ -80,22 +86,26 @@ kaa = カラカルパク語
 kab = カビル語
 kbd = カバルド語
 kk = カザフ語
+kmr = クルマンジークルド語
 ko = 韓国語
 kpv = コミ・ジリエーン語
-ku = クルド語
 kw = コーンウォール語
 ky = キルギス語
 lg = ガンダ語
 lij = リグリア語
 lt = リトアニア語
 lv = ラトビア語
+mai = マイティリー語
 mdf = モクシャ語
 mg = マダガスカル語
 mhr = 牧地マリ語
 mk = マケドニア語
 ml = マラヤーラム語
 mn = モンゴル語
+mos = モシ語
+mr = マラーティー語
 mrj = 山地マリ語
+ms = マレー語
 mt = マルタ語
 my = ビルマ語
 myv = エルジャ語
@@ -107,6 +117,7 @@ oc = オック語
 or = オリヤー語
 pa-IN = パンジャブ語
 pl = ポーランド語
+ps = パシュトー語
 pt = ポルトガル語
 rm-sursilv = ロマンシュ語 (Sursilvan)
 rm-vallader = ロマンシュ語 (ヴァラデル方言)
@@ -116,9 +127,11 @@ rw = ルワンダ語
 sah = サハ語
 sc = サルデーニャ語
 scn = シチリア語
+shi = シルハ語
 si = シンハラ語
 sk = スロバキア語
 sl = スロベニア語
+so = ソマリ語
 sq = アルバニア語
 sr = セルビア語
 sv-SE = スウェーデン語
@@ -133,12 +146,14 @@ tr = トルコ語
 tt = タタール語
 uby = ウビフ語
 udm = ウドムルト語
+ug = ウイグル語
 uk = ウクライナ語
 ur = ウルドゥー語
 uz = ウズベク語
 vec = ベネチア語
 vi = ベトナム語
 vot = ヴォート語
+yue = 広東語
 zh-CN = 中国語 (中国)
 zh-HK = 中国語 (香港)
 zh-TW = 中国語 (台湾)
@@ -231,7 +246,7 @@ whats-public = 公開される情報
 email-not-public = あなたのメールアドレスは公開しません。
 recordings-and-locale-public = 録音数とあなたの貢献した言語が公開されます。
 username-optin-public = ユーザー名を公開するか匿名にするか選ぶことができます。
-demographic-deidentified-clarity = 任意で送信された統計データ (年齢、性別、言語、アクセントなど) がプロフィールで公開されることはなく、データセット内のアカウントにもリンクされません。個々の音声クリップは、より正確な分析を行う目的で統計データに関連付けられます。たとえば、研究者がトレーニングモデルを特定の統計セグメントに向けて利用する場合があります。
+demographic-deidentified-clarity-2 = 任意で送信された統計データ (年齢、性別、言語、アクセントなど) がプロフィールで公開されることはなく、データセット内のアカウントにもリンクされません。個々の音声クリップは、より正確な分析を行う目的で統計データに関連付けられます。たとえば、研究者がトレーニングモデルを特定の統計セグメントに向けて利用する場合があります。
 username-email-not-demographic = あなたのユーザー名とメールアドレスは、発行されたデータに関連付けられることはありません。
 
 ## Speak & Listen Shortcuts
@@ -261,6 +276,7 @@ shortcut-record-toggle-label = 録音/停止
 shortcut-rerecord-toggle = [1〜5]
 shortcut-rerecord-toggle-label = 音声クリップを再録音
 request-language-text = あなたの使っている言語は Common Voice にありますか？
+request-language-text-learn = リクエストする方法をここで学びましょう！
 request-language-button = 言語の追加をリクエスト
 
 ## ProjectStatus
@@ -288,7 +304,7 @@ profile-form-accent =
     .label = 方言
 profile-form-age =
     .label = 年齢
-profile-form-gender =
+profile-form-gender-2 =
     .label = 性別
 leaderboard-visibility =
     .label = リーダーボードへの表示
@@ -315,7 +331,7 @@ profile-close = 閉じる
 profile-explanation = プロファイルを登録すると進捗の把握や、音声データの品質向上に役立ちます。
 thanks-for-account = 登録ありがとうございます。次はプロフィールの入力をお願いします。
 why-demographic = どうしてこれが問題なのですか？
-why-demographic-explanation = 年齢や性別、アクセントといった音声に関わるより詳細なユーザーデータは、匿名化した上で音声認識エンジンの精度向上に利用されます。あなたのユーザー名およびメールアドレスが送信したデータと関連付けられることは決してありません。また、ユーザー名を公開するか匿名にしておくかも選択できます。
+why-demographic-explanation-2 = 年齢や性別、アクセントといった音声に関わるより詳細なユーザーデータは、匿名化した上で音声認識エンジンの精度向上に利用されます。あなたのユーザー名およびメールアドレスが送信したデータと関連付けられることは決してありません。また、ユーザー名を公開するか匿名にしておくかも選択できます。
 accept-privacy = Mozillaの<privacyLink>プライバシーポリシー</privacyLink>の下でこの情報が用いられることに同意します。
 accept-privacy-title = プライバシーポリシー
 login-identity = ログイン用アカウント
@@ -475,6 +491,7 @@ de-identified-explanation = データセットの一部としてダウンロー�
 ## Error pages
 
 error-title-404 = お探しのページを見つけられませんでした
+error-content-404 = 私たちの <homepageLink>ホームページ</homepageLink> が役に立ちますか？ 質問するには、<matrixLink>Matrix コミュニティチャット</matrixLink> に参加するか、<githubLink>GitHub</githubLink> でサイトの問題を監視するか、<discourseLink>Discourse フォーラム</discourseLink> にアクセスしてください。
 error-title-503 = 予期しないダウンタイムが発生しています
 error-code = エラー { $code }
 
@@ -493,6 +510,8 @@ data-other-goto = { $name } へ行く
 data-other-download = データのダウンロード
 data-bundle-button = データセットをまとめてダウンロード
 data-bundle-description = Common Voice のデータと、上記のその他のデータセットをすべて含みます。
+release-version = バージョン
+dataset-date = 日付
 license = ライセンス：<licenseLink>{ $license }</licenseLink>
 license-mixed = 複合ライセンス
 review-terms = Common Voice を利用すると、「<termsLink>利用規約</termsLink>」と「<privacyLink>プライバシーについて</privacyLink>」に同意したものとみなします。
@@ -795,3 +814,23 @@ help-contribute = Common Voice プロファイルを作成し、音声を提供�
 login-company = ログイン / { $company } メールでアカウント登録
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
 read-more-about = 詳しくは Common Voice の概要ページをご覧ください
+
+## DemoLayout
+
+demo-welcome = Common Voice へようこそ
+
+## Demo Datasets
+
+card-button-next = 次へ
+card-button-back = 戻る
+demo-eofy-header = 2019 年末リリース
+demo-account = アカウント
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

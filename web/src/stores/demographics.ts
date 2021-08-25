@@ -11,6 +11,8 @@ export const ACCENTS: any = {
     northwestern: 'nord-occidental',
     northern: 'septentrional',
     valencian: 'valencià',
+    learner_es: 'aprenent (recent, des del castellà)',
+    learner_other: 'aprenent (recent, des d\'altres llengües)',
   },
   cy: {
     united_kingdom: 'Y Deyrnas Unedig Cymraeg',
@@ -171,6 +173,13 @@ export const ACCENTS: any = {
     mumhain: 'Gaeilge na Mumhan',
     connachta: 'Gaeilge Chonnacht',
     ulaidh: 'Gaeilge Uladh',
+  },
+  gl: {
+    atlantico: 'Atlántico (seseo e gheada)',
+    central: 'Central (gheada)',
+    oriental: 'Oriental (común en zona oriental)',
+    normativo: 'Normativo (estándar)',
+    neofalante: 'Neofalante',
   },
   'zh-TW': {
     keelung_city: '出生地：基隆市',

@@ -2,16 +2,16 @@
 
 yes-receive-emails = Әйе, миңа электрон хатлар җибәрегез. Минем Common Voice проекты турындагы яңалыкларны белеп торасым килә.
 stayintouch = Mozilla'да без сөйләм технологияләре тирәсендә бер җәмгыять туплау белән мәшгуль. Безнең хәбәрләр, яңа мәгълүмат чыганаклары, һәм Сезнең бу мәгълүматны ничек куллануыгыз хакында аралашып торасыбыз килә.
-privacy-info = Без Сезнең мәгълүмат белән нәзәкатьле эш итәргә вәгъдә бирәбез. Моның турында күбрәк белер өчен безнең <privacyLink>Хосусыйлык хакындагы аңлатмабызны</privacyLink> укыгыз.
+privacy-info = Без Сезнең мәгълүмат белән нәзәкатьле эш итәргә вәгъдә бирәбез. Моның турында күбрәк белер өчен безнең <privacyLink>Хосусыйлык аңлатмасын</privacyLink> укыгыз.
 return-to-cv = Common Voice'ка кире кайту
 email-input =
     .label = Эл. почта
 submit-form-action = Җибәрү
-loading = Йөкләнелә...
+loading = Йөкләнә...
 email-opt-in-info = Куелган максатлар турындагы искәртүләр, ирешкән уңышларым турындагы хәбәрләр һәм Common Voice яңалыклары кебек электрон хатлар килеп торсын.
 email-opt-in-info-title = Common Voice электрон хатларына язылу
 email-opt-in-info-sub-with-challenge = Куелган максатлар турындагы искәртүләр, ирешкән уңышларым турындагы хәбәрләр һәм Common Voice яңалыклары кебек электрон хатлар килеп торсын.
-email-opt-in-privacy = Эл. хатларга язылу белән Cез Мозилланың әлеге мәгълүматны <privacyLink>Хосусыйлык Сәясәтендә<privacyLink> аңлатылганча эшкәртүе белән килешәсез.
+email-opt-in-privacy-v2 = Эл. хатларга язылу аша сез Mozilla'ның әлеге мәгълүматны <privacyLink>Хосусыйлык Сәясәтендә</privacyLink> аңлатылганча эшкәртүе белән килешәсез.
 indicates-required = * Тиешле юлны күрсәтә
 not-available-abbreviation = Бирелмәгән
 
@@ -21,128 +21,149 @@ not-available-abbreviation = Бирелмәгән
 
 ## Languages
 
-ab = Абхазча
-ace = Ачехча
-ady = Адыгейча
+ab = Абхаз
+ace = Ачех
+ady = Адыгей
 af = Африкаанс
-am = Амхарча
-an = Арагонча
-ar = Гарәпчә
+am = Амхар
+an = Арагон
+ar = Гарәп
 arn = Мадупунгун
-as = Ассамча
-ast = Астурча
-az = Азәричә
-ba = Башкортча
+as = Ассам
+ast = Астур
+az = Азәри
+ba = Башкорт
+bas = Басаа
 be = Беларус
-bg = Болгарча
-bn = Бенгальча
-br = Бретонча
-bxr = Бурятча
-ca = Каталанча
-cak = Какчикелчә
-cnh = Хаха-чинча
-cs = Чехча
-cv = Чувашча
-cy = Валисийча
-da = Данча
-de = Алманча
-dsb = Сорбча, Түбән
-dv = Мальдивча
-el = Грекча
-en = Инглизчә
+bg = Болгар
+bm = Бамбара
+bn = Бенгал
+br = Бретон
+bxr = Бурят
+ca = Каталан
+cak = Какчикел
+ckb = Сорани көрд
+cnh = Хакһа-чин
+co = Корсикан
+cs = Чех
+cv = Чуваш
+cy = Уэльс
+da = Дан
+de = Алман
+dsb = Түбән сорб
+dv = Мальдив
+el = Грек
+en = Инглиз
 eo = Эсперанто
-es = Испанча
-et = Эстонча
-eu = Баскча
+es = Испан
+et = Эстон
+eu = Баск
 fa = Фарсы
-ff = Фулача
-fi = Финча
-fo = Фарерча
-fr = Французча
-fy-NL = Фризча
-ga-IE = Ирландча
-gl = Галисийча
+ff = Фула
+fi = Фин
+fo = Фарер
+fr = Француз
+fy-NL = Фриз
+ga-IE = Ирланд
+gl = Галисия
+gn = Гуарани
 ha = Хауса
-he = Яһүдчә
+he = Яһүд
 hi = Һинди
-hr = Хорватча
-hsb = Сорбча, Югары
-hu = Маҗарча
-hy-AM = Әрмәнчә
-hyw = Көнбатыш әрмәнчә
+hr = Хорват
+hsb = Югары сорб
+ht = Гаити креол
+hu = Маҗар
+hy-AM = Әрмән
+hyw = Көнбатыш әрмән
 ia = Интерлингва
-id = Индонезча
-is = Исландча
-it = Итальянча
-izh = Ижорча
-ja = Японча
-ka = Гөрҗичә
-kaa = Каракалпакча
-kab = Кабилчә
-kbd = Кабардача
-kk = Казакъча
-ko = Корейча
-kpv = Коми-зырянча
-ku = Көрдчә
-kw = Корнча
-ky = Кыргызча
-lg = Лугандача
-lij = Лигурча
-lt = Литвача
-lv = Латышча
-mdf = Мукшыча
+id = Индонез
+is = Исланд
+it = Итальян
+izh = Ижор
+ja = Япон
+ka = Грузин
+kaa = Каракалпак
+kab = Кабил
+kbd = Кабардин
+kk = Казакъ
+kmr = Курманҗи көрд
+ko = Корей
+kpv = Коми-зырян
+kw = Корн
+ky = Кыргыз
+lg = Луганда
+lij = Лигур
+lt = Литва
+lv = Латыш
+mai = Майтһили
+mdf = Мукшы
 mg = Малагаси
-mhr = Болын марича
-mk = Македонча
+mhr = Болын мари
+mk = Македон
 ml = Малаялам
-mn = Монголча
-mrj = Таулы марича
-mt = Мальтача
-my = Бирмача
-myv = Эрзяча
-nb-NO = Норвегча (Букмол)
-ne-NP = Непалча
-nl = Һолландча
-nn-NO = Яңа норвегча
-oc = Окситанча
+mn = Монгол
+mos = Мосси
+mr = Маратһи
+mrj = Таулы мари
+ms = Малай
+mt = Мальта
+my = Бирма
+myv = Эрзя
+nb-NO = Норвег (Букмол)
+ne-NP = Непал
+nia = Ниас
+nl = Һолланд
+nn-NO = Яңа норвег
+nyn = Ньянколе
+oc = Окситан
 or = Одия
 pa-IN = Пунжаб
-pl = Полякча
-pt = Португалча
-rm-sursilv = Романш сурсельвча
-rm-vallader = Ретороманча Валладер
-ro = Румынча
-ru = Русча
-rw = Киниаруанда
-sah = Сахача
-sc = Сардинчә
-scn = Сицилияча
+pap-AW = Папиаменто (Аруба)
+pl = Поляк
+ps = Пушту
+pt = Португал
+rm-sursilv = Романш сурсельв
+rm-vallader = Романш Валладер
+ro = Румын
+ru = Рус
+rw = Кинйаруанда
+sah = Саха
+sat = Сантали (Ол-чики)
+sc = Сардин
+scn = Сицилия
+shi = Шилһа
 si = Синһала
-sk = Словакча
-sl = Словенча
-sq = Албанча
-sr = Сербча
-sv-SE = Шведча
+sk = Словак
+sl = Словен
+so = Сомали
+sq = Албан
+sr = Серб
+sv-SE = Швед
 sw = Суахили
-syr = Сүриячә
-ta = Тамилчә
+syr = Сүрия
+ta = Тамил
 te = Телугу
-tg = Таҗикча
-th = Тайча
+tg = Таҗик
+th = Тай
 tl = Тагалог
-tr = Төрекчә
-tt = Татарча
-uby = Убыхча
-udm = Удмуртча
-uk = Украинча
-ur = Урдуча
-uz = Үзбәкчә
-vec = Венецияча
-vi = Вьетнамча
-vot = Вотча
-zh-CN = Кытайча (Кытай)
-zh-HK = Кытайча (Гонконг)
-zh-TW = Кытайча (Тайвань)
+tr = Төрек
+tt = Татар
+tw = Тви
+uby = Убых
+udm = Удмурт
+ug = Уйгыр
+uk = Украин
+ur = Урду
+uz = Үзбәк
+vec = Венеция
+vi = Вьетнам
+vot = Вот
+yo = Йоруба
+yue = Кантон
+zh-CN = Кытай (Кытай)
+zh-HK = Кытай (Гонконг)
+zh-TW = Кытай (Тайвань)
 
 # [/]
 
@@ -171,6 +192,7 @@ logout = Чыгу
 ## Home Page
 
 home-title = «Common Voice» проекты — Mozilla компаниясенең компьютерларга кешеләрнең чынлыкта ничек сөйләшүен өйрәтүгә юнәлдерелгән инициативасы.
+default-tagline = «Mozilla Common Voice» —  компьютерларга кешеләрнең чынлыкта ничек сөйләшүен өйрәтүгә юнәлдерелгән инициативасы.
 home-cta = Рәхәтләнеп сөйләгез, бу проектка ярдәм итегез!
 wall-of-text-start = Тавыш — табигый, кешеләргә хас күренеш. Шул сәбәпле без компьютерларда кулланырга уңайлы тавыш технологияләрен ясарга телибез. Әмма тавыш системаларын ясау өчен ифрат күп аудиоязмаларның булуы кирәк.
 wall-of-text-more-mobile = Зур ширкәтләр ия булган аудиомәгълүматны күпчелек кеше куллана алмый. Безнең уйлавыбызча, мондый хәл инновацияләрне тоткарлый. Нәкъ менә шул сәбәпле без Common Voice («Халык тавышы») проектын башлап җибәрдек. Әлеге проектның максаты — сөйләм тануны һәркем өчен дә ачык итү.
@@ -237,7 +259,7 @@ whats-public = Һәркемгә ачык дигән сүз нәрсә ул?
 email-not-public = Без сезнең эл. почтаны беркемгә дә күрсәтмәячәкбез.
 recordings-and-locale-public = Язмалар саны һәм кайсы телләргә өлеш кертүегез һәркемгә дә күренәчәк.
 username-optin-public = Кулланучы исемегезнең ачык яки аноним булуын сайлый аласыз.
-demographic-deidentified-clarity = Ихтыяри рәвештә җибәрелгән мәгълүмат (мәсәлән, катнашөчының яше, җенесе һәм акценты турында) һичкайчан профилегездә күрсәтелмәячәк һәм аудиоязмалар тупланмасында Сезнең хисап язмагыз белән бәйләнешкә кертелмәяәк. Анализ сыйфатын арттыру максатында кайбер аерым аудиоязмалар демографик мәгълүмат белән баетылачак. Соңрак бу тикшеренүчеләргә үзләренең сөйләм тану модельләрен билгеле бер демографик сегментларга яраклаштыруны мөмкин итәчәк.
+demographic-deidentified-clarity-2 = Ихтыяри рәвештә җибәрелгән мәгълүмат (мәсәлән, катнашучының яше, җенесе һәм акценты турында) һичкайчан профилегездә күрсәтелмәячәк һәм аудиоязмалар тупланмасында Сезнең хисап язмагыз белән бәйләнешкә кертелмәячәк. Анализ сыйфатын арттыру максатында аерым аудиоязмалар демографик мәгълүмат белән баетылачак. Соңрак бу тикшеренүчеләргә үзләренең сөйләм тану модельләрен билгеле бер демографик сегментларга яраклаштыруны мөмкин итәчәк.
 username-email-not-demographic = Кулланучы исемегез һәм эл. почтагыз нәшер ителгән мәгълүматка бәйле булмаячак.
 
 ## Speak & Listen Shortcuts
@@ -266,7 +288,11 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Яздыру/Туктату
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипны янәдән яздыру
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Enter
+shortcut-submit-label = Клипларны җибәрү
 request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
+request-language-text-learn = Өстәмә телләрне монда сорап була!
 request-language-button = Телнең өстәлүен сорау
 
 ## ProjectStatus
@@ -281,7 +307,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Алдагы максат: { $goal }
-english = Инглизчә
+english = Инглиз теле
 
 ## ProfileForm
 
@@ -295,10 +321,10 @@ profile-form-accent =
     .label = Акцент
 profile-form-age =
     .label = Яшь
-profile-form-gender =
+profile-form-gender-2 =
     .label = Җенес
 leaderboard-visibility =
-    .label = Лидерлар исемлегенең күренеше
+    .label = Лидерлар исемлегендә күренү-күренмәү
 hidden = Яшерен
 visible = Күренә
 native-language =
@@ -322,7 +348,7 @@ profile-close = Ябу
 profile-explanation = Үзегезнең прогрессыгызны профиль аша карап барыгыз һәм безнең тавыш мәгълүматыбызны төгәлрәк итүдә ярдәм итегез.
 thanks-for-account = Хисабыгызны раславыгыз өчен рәхмәт, әйдәгез хәзер профиль булдырыйк.
 why-demographic = Бу ни өчен мөһим?
-why-demographic-explanation = Кулланучының яше, җенесе һәм диалекты турындагы анонимлаштырылган күрсәткечләр сөйләм тану системаларын өйрәтүдә кулланыла торган аудио мәгълүматны яхшыртырга ярдәм итә. Сез тапшырган мәгълүматта кулланучы исемегез һәм email'ыгыз беркайчан да күрсәтелмәячәк, һәм кулланучы исемегезнең ачык яки аноним булуын үзегез сайлый аласыз.
+why-demographic-explanation-2 = Кулланучының яше, җенесе һәм диалекты турындагы анонимлаштырылган күрсәткечләр сөйләм тану системаларын өйрәтүдә кулланыла торган аудио мәгълүматны яхшыртырга ярдәм итә. Сез тапшырган мәгълүматта кулланучы исемегез һәм эл. почтагыз беркайчан да күрсәтелмәячәк, һәм кулланучы исемегезнең ачык яки аноним булуын үзегез сайлый аласыз.
 accept-privacy = Әлеге мәгълүматны Mozilla'ның <privacyLink>Хосусыйлык Сәясәтендә</privacyLink> аңлатылганча эшкәртүегез белән килешәм.
 accept-privacy-title = Хосусыйлык сәясәте
 login-identity = Кулланучы исеме
@@ -336,26 +362,19 @@ skip-submission-description = 'Җибәрү'гә баскач,  мәгълүма
 skip-submission-note = Искәрмә: Ярдәм итү төрен үзгәртү өчен сезгә Сөйләү яки Тыңлауны сайларга кирәк булачак.
 off = Сүнгән
 on = Кабынган
-avatar-clip-title = Аватарыгызны тавышлы итегез
-change-your-avatar-clip = Аудиоязмагызны үзгәртәсегез киләме?
-recording-in-progress = Тавыш яздыру бара
-avatar-clip-recorded = Сезнең аватарыгызның хәзер аудиоязмасы да бар!
-record-voice-wave = VOICEWAVE ЯЗДЫРУ
-retry-voice-wave-recording = КАБАТЛАУ
-re-record = ЯНӘДӘН ЯЗДЫРУ
-delete-voice = БЕТЕРҮ
-recording-voice-wave = Яздыру
-delete-voice-clip = яки аудиоязманы бетерү
-ready-to-upload = Йөкләү
-avatar-clip-fact = Сәхифәнең макетына караганда, укучының игътибары аның эчтәлегеннән читкә юнәлүе күптән билгеле.
-recreate-voice = Сәламләү аудиосын яңадан ясау
-cancel-avatar-clip-recording = Баш тарту
-about-avatar-clip-recording = Профилегезнең аватарына аудиосәлам өстәгез. Башка кулланучылар, «тычкан»нарын аудиоязма өстенә китереп, аны тыңлый алачак.
+
+## Profile - Email
+
 browse-file-title = Рәсем йөкләү
 browse-file = Өстерәп китерү яки <browseWrap>Карап чыгу</browseWrap>
 connect-gravatar = Gravatar белән тоташтыру
 gravatar_not_found = Сезнең эл. хат белән бәйле gravatar табылмады
 file_too_large = Сайланган файл артык зур
+avatar-uploaded = Аватар өстәлде
+max-file-size = иң күбе { $kb } КБ
+
+## Profile - Email
+
 manage-subscriptions = Язылуларны көйләү
 manage-email-subscriptions = Эл. почта абунәләре белән идарә итү
 email-already-used = Әлеге эл. хат башка аккаунтта кулланыла инде
@@ -449,9 +468,9 @@ about-partnership =
     Проектка ярдәм иткәннәре өчен, безнең түбәндәге кешеләргә һәм оешмаларга рәхмәт әйтәсебез килә:
 about-get-involved = Катнашу
 about-get-involved-text-2 =
-    Common Voice'ны тагын да яхшыртасыгыз киләме!
+    Common Voice-ны тагын да яхшыртасыгыз киләме!
     Бик шәп! Электрон почта я <discourseLink>Dıscourse</discourseLink>
-    форумы аша безнең белән элемтәгә керегез, <githubLink>GitHub</githubLink> аша сайттагы хаталар турында хәбәр итегез, яки <matrixLink>Matrix</matrixLink>'та безнең әңгәмә-чатка кушылыгыз.
+    форумнары аша безнең белән элемтәгә керегез, <githubLink>GitHub</githubLink> аша сайттагы хаталар турында хәбәр итегез, яки <matrixLink>Matrix</matrixLink>-та безнең әңгәмә-чатка кушылыгыз.
 about-nav-why-common-voice = Нигә?
 about-nav-how-it-works = Ничек?
 about-nav-partners = Партнёрлар
@@ -475,10 +494,13 @@ sst-explanation = Сөйләм-текст (Speech-to-text, STT) технолог
 de-identified = Анонимлаштырылган
 de-identified-explanation = Мәгълүмат базасының өлеше булган тавыш язмаларыннан проектка ярдәм итүче профилендәге белешмәне алып ату процессы.
 
-## NotFound
+## Error pages
 
-notfound-title = Табылмады
-notfound-content = Сезнең нәрсә эзләвегезне белмим, гафу итегез.
+error-title-404 = Без Cезнең өчен бу сәхифәне таба алмадык
+error-content-404 = Бәлки безнең <homepageLink>баш бит</homepageLink> ярдәм итәр? Сорау бирү өчен, зинһар <matrixLink> Matrix чатына</matrixLink> кушылыгыз. Сайт эшендәге җитешсезлекләрне <githubLink>GitHub</githubLink> сайтында күзәтә аласыз. Яисә <discourseLink>безнең Discourse форумнарына</discourseLink> күз салыгыз.
+error-title-503 = Көтелмәгән буш торуга юлыктык
+error-content-503 = Сайт мөмкин булганча тиз арада янәдән эшли башлаячак. Иң соңгы мәгълүмат алу өчен, зинһар <matrixLink>Matrix чатына</matrixLink> кушылыгыз, яисә, сайт эшендә булган җитешсезлекләр турында хәбәр итү я хәбәрдар булып тору өчен, <githubLink>GitHub</githubLink>'ка я <discourseLink>безнең Discourse форумнарыбызга</discourseLink> үтегез.
+error-code = Хата { $code }
 
 ## Data
 
@@ -495,9 +517,12 @@ data-other-goto = { $name } сәхифәсенә күчү
 data-other-download = Мәгълүматларны йөкләп алу
 data-bundle-button = Мәгълүмат тупланмалары коллекциясен йөкләп алу
 data-bundle-description = Common Voice мәгълүматы плюс югарыдагы барлык башка тавыш мәгълүматы тупланмалары.
+release-version = Версия
+dataset-date = Дата
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Кушма
 data-download-singleword-title = Берсүзле максат сегментны йөкләгез
+data-download-singleword-callout-v2 = Бу сегмент — махсус куллану очракларына тәгаенләнгән сегмент, ул үз эченә цифр исемнәрен һәм «әйе»/«юк»сүзләрен тануга кирәкле мәгълүмат ала.
 review-terms = Common Voice'ны куллануыгыз аша Сез безнең <termsLink>Шартлар</termsLink> һәм <privacyLink>Хосуйсыйлык сәясәте</privacyLink> белән килешәсез.
 terms-agree = Риза
 terms-disagree = Риза түгел
@@ -596,6 +621,7 @@ other-language = Башка тел
 ## Languages Overview
 
 language-section-in-progress = Әзерләнә
+language-section-in-progress-new-description = Бу телләр әлеге вакытта җәмгыять тарафыннан үстерү стадиясендә. Прогрес индикаторлары һәр тел өчен сайтның никадәр <localizationGlossaryLink>тәрҗемә ителүен</localizationGlossaryLink> һәм <sentenceCollectionGlossaryLink>җөмләләрнең никадәр җыелуын</sentenceCollectionGlossaryLink> күрсәтә.
 language-section-launched = Эшли башлаганнар
 language-section-launched-description = Эшкә кушылган әлеге телләр өчен сайт уңышлы <localizationGlossaryLink>тәрҗемә ителеп</localizationGlossaryLink>, <speakLink>Сөйләү</speakLink> һәм <listenLink>Тыңлау</listenLink> өчен җитәрлек күләмдә <sentenceCollectionGlossaryLink>җөмләләр җыелды</sentenceCollectionGlossaryLink>.
 languages-show-more = Күбрәк
@@ -617,7 +643,11 @@ contribute = Үз өлешеңне кертү
 listen = Тыңлау
 skip = Калдырып тору
 shortcuts = Төймә комбинацияләре
-clips-with-count = <bold>{ $count }</bold> Клип
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Клип
+       *[other] <bold>{ $count }</bold> Клиплар
+    }
 goal-help-recording = Сез Common Voice'ка көнлек { $goalValue } аудиоязма яздыру максатының <goalPercentage></goalPercentage> күрсәткеченә ирешүдә ярдәм иттегез!
 goal-help-validation = Сез Common Voice'ка көнлек { $goalValue } аудиоязма тикшерү максатының <goalPercentage></goalPercentage> күрсәткеченә ирешүдә ярдәм иттегез!
 contribute-more =
@@ -652,7 +682,7 @@ record-abort-text = Хәзер эшне туктату сезнең эшләгә
 record-abort-submit = Клип тапшыру
 record-abort-continue = Яздыруны тәмамлау
 record-abort-delete = Чыгу һәм клипларны бетерү
-listen-instruction = <playIcon></playIcon> { $actionType }, алар җөмләләрне төгәл укыдымы?
+listen-instruction = <playIcon></playIcon> төймәсенә { $actionType } һәм әйтегез, алар җөмләләрне төгәл укыдымы?
 listen-again-instruction = Шәп эш! <playIcon></playIcon> Әзер булгач, яңадан тыңлагыз
 listen-3rd-time-instruction = Икесе әзер, <playIcon></playIcon> дәвам итегез!
 listen-last-time-instruction = <playIcon></playIcon> Соңгысы!
@@ -663,6 +693,9 @@ record-button-label = Тавышыгызны яздырыгыз
 share-title-new = Безгә күбрәк тавыш табарга <bold>ярдәм итегез</bold>
 keep-track-profile = Профиль булдырып, башкарган эшләрегезне күзәтеп барыгыз
 login-to-get-started = Башлау өчен керегез яки теркәлегез
+target-segment-first-card = Сез үз өлешегезне безнең беренче максатлы сегментыбызга кертәсез
+target-segment-generic-card = Сез үз өлешегезне максатлы сегментка кертәсез
+target-segment-first-banner = Common Voice-ның { $locale } беренче максатлы сегментын булдырырга ярдәм итегез
 target-segment-add-voice = Тавышыгызны өстәү
 target-segment-learn-more = Тулырак
 
@@ -710,6 +743,7 @@ validations =
 
 your-languages = Сезнең телләрегез
 toward-next-goal = Алдагы максатка таба
+goal-reached = Максат ирешелде
 clips-you-recorded = Сез яздырган клиплар
 clips-you-validated = Сез тикшергән клиплар
 todays-recorded-progress = Яздырган клипларның бүгенге Common Voice прогрессы
@@ -725,6 +759,7 @@ validated-clips = Тикшерелгән клиплар
 total-approved = Барлык исбатланганнар
 overall-accuracy = Гомуми төгәллек
 set-visibility = Күренүчәнлек дәрәҗәсен көйләү
+visibility-explainer = Бу параметр Сезнең лидерлар исемлегендә күренү-күренмәвегез өчен җавалы. Әгәр яшерен икәнсез, Сезнең алга китеш башкаларга күренми. Башкача әйткәндә, сүрәтегез, исемегез һәм ирешкән саннарыгыз лидерлар исемлегендә күрсәтелмәячәк. Лидерлар исемлеге якынча { $minutes } минут саен яңартылып тора икәнен искәртәбез.
 visibility-overlay-note = Искәрмә: «Күренсен» диелгән булса, бу параметрны <profileLink>профиль битендә</profileLink> үзгәртеп була.
 show-ranking = Минем рейтингымны күрсәт
 
@@ -732,6 +767,7 @@ show-ranking = Минем рейтингымны күрсәт
 
 get-started-goals = Максат кую
 create-custom-goal = Шәхси бер максат кую
+goal-type = Нинди максатка ирешәсегез килә?
 both-speak-and-listen = Икесе дә
 both-speak-and-listen-long = Икесен дә (сөйләү һәм тыңлау)
 daily-goal = Көнлек максат
@@ -745,17 +781,42 @@ want-to-continue = Дәвам итәсегез киләме?
 finish-editing = Башта мөхәррирләүне тәмамларгамы?
 lose-changes-warning = Хәзер бу биттән китү үзгәртүләрегезнең югалуына китерәчәк.
 build-custom-goal = Шәхси бер максат булдыру
-help-reach-hours = Шәхси максат куеп, { $language } { NUMBER($hours) } сәгать аудиоязма җыярга ярдәм итегез
-help-reach-hours-general = Үзегезгә бер шәхси максат куеп, Common Voice'ка татар телендә { NUMBER($hours) } сәгать аудио җыярга ярдәм итегез
+help-reach-hours-pluralized =
+    Шәхси максат куеп, { $language }{ NUMBER($hours) ->
+        [one] { $hours } сәгать
+       *[other] { $hours } сәгать
+    }аудиоязма җыярга ярдәм итегез
+help-reach-hours-general-pluralized =
+    Үзегезгә бер шәхси максат куеп, Common Voice'ка{ NUMBER($hours) ->
+        [one] { $hours } сәгать
+       *[other] { $hours } сәгать
+    }аудиоязма җыярга ярдәм итегез
 set-a-goal = Максат кую
 cant-decide = Бер карарга килә алмыйсызмы?
-activity-needed-calculation = Әгәр { NUMBER($people) } кеше көненә { NUMBER($clipsPerDay) } аудиоязма яздырса, { NUMBER($totalHours) } сәгать аудиога нибары{ NUMBER($periodMonths) } ай эчендә иршеп була.
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $totalHours } сәгать
+       *[other] { $totalHours } сәгать
+    }эчендә генә ирешеп була { NUMBER($periodMonths) ->
+        [one] { $periodMonths } ай
+       *[other] { $periodMonths } ай
+    }әгәр{ NUMBER($people) ->
+        [one] { $people } кеше
+       *[other] { $people } кеше
+    }яздырса{ NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } аудиоязма
+       *[other] { $clipsPerDay } аудиоязма
+    }көненә
 how-many-per-day = Шәп! Көнгә ничә аудиоязма?
 how-many-a-week = Шәп! Атнага ничә аудиоязма?
 which-goal-type = Сөйлисегез киләме, тыңлыйсыгызмы, әллә икесе дә?
 receiving-emails-info = Әлеге вакытта Сез куелган максатлар турындагы искәртүләр, ирешкән уңышларыгыз турындагы хәбәрләр һәм Common Voice гәҗитләре кебек электрон хатларга язылгансыз.
 not-receiving-emails-info = Әлеге вакытта Сез куелган максатлар турындагы искәртүләр, ирешкән уңышларыгыз турындагы хәбәрләр һәм Common Voice гәҗитләре кебек электрон хатларга языл<bold>ма</bold>гансыз.
-n-clips = { NUMBER($count) } аудиоязма
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } клип
+       *[other] { $count } клиплар
+    }
 help-share-goal = Безгә күбрәк тавышлар табарга ярдәм итегез, максатыгыз белән уртаклашагыз
 confirm-goal = Максатны раслау
 goal-interval-weekly = Атна саен
@@ -791,3 +852,55 @@ help-contribute = Common Voice профилен булдырып һәм тавы
 login-company = { $company } электрон почтасы белән керү / теркәлү
 profile-not-required = Үз өлешеңне кертү өчен профильның булуы мәҗбүри түгел, гәрчә файдалы булса да
 read-more-about = Күбрәк мәгълүмат «Хакында» сәхифәсендә
+
+## DemoLayout
+
+demo-get-started = Әйдәгез башлыйбыз
+demo-welcome = Common Voice-ка рәхим итегез!
+demo-welcome-subheader = Проект турында күбрәк беләсегез һәм катнашасыгыз киләме?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice — дөньяда иң зур, һәркем өчен дә ачык, күптелле аудиоязмалар тупланмасы ул.
+demo-language-select-card-body = 259 меңнән артык кеше, 50-дән артык телдә сөйләп бу җыентыкны төзүдә катнашканга күрә, әлеге мәгълүматлар, кеше сөйләменә тагын да камилрәк җавап бирсеннәр дип, сөйләм белән эш итә алучы программаларны укыту өчен кулланыла.
+card-button-next = Киләсе
+card-button-back = Кире
+demo-language-select-label = Телләрне карау
+demo-eofy-header = 2019 ел азагында чыгарыла
+demo-eofy-sub_header = Тавышлар җыентыгы, йөкләүгә әзер
+demo-account = Аккаунт
+
+## Demo Account
+
+demo-account-card-header = Үз өлешеңне кертү өчен хисап язмасының булуы мәҗбүри түгел, гәрчә ул файдалы булса да
+demo-account-card-body = Уң якта без өстенлекләр турында язабыз һәм нинди мәгълүмат ачык булачагын аңлатабыз. Үз җиһазыгызда Common Voice хисабы белән эшли башлау өчен, түбәндәге сылтамалардан файдаланыгыз.
+demo-account-enter-email =
+    .label = Теркәлүгә сылтама алу өчен эл. почтагызны языгыз
+demo-account-sign-up = Теркәлү өчен сылтама җибәрү
+
+## Demo Contribute
+
+demo-contribute-card-header = Тавышыгызны өстәргә йә башкаларны тыңларга әзерсезме?
+demo-contribute-card-body-v2 = Хәзер Common Voice турында күбрәк белгәч, нигә эшләп карамаска? Җөмләләрне уку өчен, микрофон тамгасына басыгыз.<br/><br/>Әгәр башкаларның тавышын тикшерергә телисез икән, уйнату тамгасына басыгыз. Шулай итеп Сез бу тавышның текстка туры килү-килмәвен раслауда ярдәм итә аласыз.
+demo-listen-subtitle = Үз өлешеңне кертергә әзерсеңме?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Шәхси мәгълүмат панельләре аерым кешеләрнең, шулай ук бөтен берләшмәнең алга китеше турында белеп торырга ярдәм итәчәк.
+demo-dashboard-card-body = Сез аудиоязма яздырган яисә тикшергән саен, хисап язмагыздагы панель яңартылып, сезнең һәр телгә керткә өлешегезне күрсәтеп торачак. Әйе, берничә телгә өлеш кертә аласыз!<br/><br/> Статистикагызны күзәтеп бару, башкалар белән чагыштыру, көндәлек, атналык максатларыгызның үтәлеүен карау өчен мәгълүмат панелен кулланыгыз.
+
+## Validation criteria
+
+contribution-criteria-nav = Критерийлар
+contribution-criteria-link = Катнашу критерийларын аңлау
+contribution-criteria-page-title = Катнашу критерийлары
+contribution-for-example = мәсәлән
+contribution-misreadings-title = Дөрес укымаулар
+contribution-misreadings-example-8-explanation = [Туры килмәгән эчтәлек]
+contribution-varying-pronunciations-title = Төрле әйтелешләр
+contribution-background-noise-title = Арткы планда шау-шу
+contribution-background-voices-title = Арткы планда тавышлар
+contribution-volume-title = Тавыш көче
+contribution-reader-effects-title = Укучы эффектлары
+see-more = <chevron></chevron>Күбрәк
+see-less = <chevron></chevron>Әзрәк
