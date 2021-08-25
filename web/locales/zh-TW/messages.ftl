@@ -587,6 +587,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套讓研究�
 resource-deepspeech-info = Mozilla 的開放原始碼語音識別引擎 Deep Speech，可用來打造語音識別應用程式。您可閱讀我們的 <githubLink>Github 概觀</githubLink>或加入 <discourseLink>DeepSpeech Discourse</discourseLink> 了解如何入門。
 resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力於開放語音技術。他們的專案包含使用深度學習技術的 STT 與 TTS 引擎。
 community-playbook = 社群企劃書
+resource-playbook-info = <playbookLink>尋找對整個 Common Voice 貢獻過程的有用指南</playbookLink>，不論是從在地化、資料集使用方式，以及如何與我們的社群聯繫的相關資訊。
 data-other-librispeech-description = LibriSpeech 是一套取自 LibriVox 計畫，約一千小時長度的 16Khz 英語有聲書的語料庫。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
