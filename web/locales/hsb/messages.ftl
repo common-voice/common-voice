@@ -888,6 +888,10 @@ why-delete-recordings =
     Móžeće nam zdźělić, čehodla chceće swoje natočenja zhašeć?
 profile-form-delete = Profil zhašeć
 
+## Profile Download
+
+download-q = Dyrbiće swoje daty sćahnyć?
+
 ## Landing
 
 welcome-staff = Witajće, sobudźěłaćerjo { $company }!
