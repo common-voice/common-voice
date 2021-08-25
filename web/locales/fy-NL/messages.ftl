@@ -193,6 +193,7 @@ logout = Ofmelde
 ## Home Page
 
 home-title = It projekt Common Voice is it inisjatyf fan Mozilla om masinen te learen hoe't echte minsken sprekke.
+default-tagline = Mozilla Common Voice is in inisjatyf om masinen te helpen learen hoe't echte minsken sprekke.
 home-cta = Lit jo heare, doch hjir mei!
 wall-of-text-start =
     Spraak is natuerlik, spraak is minsklik. Dat is wêrom wy fassinearre binne mei it meitsjen fan brûkbere
@@ -296,6 +297,8 @@ shortcut-record-toggle = O
 shortcut-record-toggle-label = Opnimme/Stopje
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Fragmint opnij opnimme
+shortcut-discard-ongoing-recording = Esc
+shortcut-discard-ongoing-recording-label = Rinnende opname fuortsmite
 shortcut-submit = Tebek
 shortcut-submit-label = Fragminten yntsjinje
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
