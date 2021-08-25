@@ -917,6 +917,9 @@ download-request-assembling-description = Ваші файли збираютьс
 download-request-refresh-button = Оновити
 download-request-modal-title = Посилання для завантаження
 download-request-modal-description = Ось посилання для завантаження ZIP-файлів.
+download-request-link-text = Архів #{ $offset } з { $total }
+download-request-metadata-link = Текст речення
+download-request-link-single = Ви також можете скопіювати та вставити прямі URL-адреси у свій улюблений менеджер завантажень. Термін їхньої дії 12 годин, але ви можете повернутися на цю сторінку, щоб у будь-який час створити нові.
 
 ## Landing
 
