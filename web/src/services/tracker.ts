@@ -69,6 +69,7 @@ export function trackRecording(
     | 'record'
     | 'submit'
     | 'rerecord'
+    | 'discard-ongoing'
     | 'view-shortcuts'
     | 'shortcut'
     | 'skip'

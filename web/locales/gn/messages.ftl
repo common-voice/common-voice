@@ -289,6 +289,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Ñongatu/Joko
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Embohyapupyahu
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Jevy
 shortcut-submit-label = Emondo clips
 request-language-text = Nderejuhúipiko ne ñe’ẽ’ypy Common Voice-pe?
@@ -904,8 +905,14 @@ demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmav
 
 ## Validation criteria
 
+contribution-criteria-link = Eikumby mba’éichapa eipytyvõta
 contribution-for-example = Techapyrãrõ
 contribution-misreadings-title = Moñe’ẽ vai
+contribution-misreadings-description-extended-list-5 = Eha’ã hetajey emoñe’ẽ hag̃ua peteĩ ñe’ẽ.
+contribution-misreadings-example-8-explanation = [Tetepy ojokupyty’ỹva]
+contribution-varying-pronunciations-title = Je’epyre Hekoetáva
+contribution-varying-pronunciations-example-1-title = Oguereko iñakã rehe akão.
+contribution-varying-pronunciations-example-2-title = Omopu’ã ipo.
 contribution-background-noise-title = Tyapu tapykuegua
 contribution-background-voices-title = Ñe’ẽ tapykuegua
 contribution-volume-title = Mbopuha

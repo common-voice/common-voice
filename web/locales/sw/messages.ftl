@@ -154,6 +154,7 @@ uz = Kiuzbeki
 vec = Kivenetia
 vi = Kivietnamu
 vot = Kivoti
+yo = Kiyoruba
 yue = Kikantonisi
 zh-CN = Kichina (Uchina)
 zh-HK = Kichina (Hong Kong)

@@ -284,6 +284,7 @@ shortcut-record-toggle = s
 shortcut-record-toggle-label = Sekles/Seḥbes
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Sekles tukkist
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Uɣal
 shortcut-submit-label = Azen tukkisin
 request-language-text = Ur tettwaliḍ ara tutlayt-ik di Common Voice yakan?

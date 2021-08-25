@@ -26,6 +26,7 @@ Alle universitetets studenter kan fritt benytte universitetsbiblioteket.
 Alle untatt en av arbeiderne gikk hjem.
 Alle veier fører til Rom.
 Alle vet at han liker henne, og hun liker ham.
+Alle vet at månen er lagd av ost.
 Alle vil sitte ved siden av henne.
 Alt Tom og Mary ønsker å gjøre er å svømme.
 Alt du trenger å gjøre er å snakke.
@@ -51,6 +52,7 @@ Athen ligger i Hellas.
 Atombomber er en fare for menneskeheten.
 Atomenergi kan brukes til fredelige formål.
 Au!
+Au, kaffen er glovarm!
 August
 Av en eller annen grunn virket ikke mikrofonen tidligere.
 Av og til, bruker jeg saks som boksåpner.
@@ -107,6 +109,7 @@ Blir Tom noen gang sliten?
 Blir du hjemme i kveld?
 Blokker bilder fra domene
 Bo og leve
+Bob har vært forlovet med Mary i over et år.
 Bolten sitter helt fast og den rikker seg ikke i det hele tatt.
 Bordet er laget med verktøy av høy kvalitet.
 Bowlingbanen har aldri vært i bedre stand.
@@ -307,6 +310,7 @@ Det blir sammenheng mellom de ulike tiltak som iverksettes
 Det blåser i dag.
 Det bor tilhengere av flere ulike religioner i Hviterussland.
 Det der er bare helt galt
+Det der er en dukke.
 Det der må du gjøre fortest mulig.
 Det der må være den rødeste kvisa noensinne.
 Det eksperimentet var mislykket.
@@ -358,6 +362,7 @@ Det er i dag påvist smitte hos elever
 Det er ikke alle som lykkes her i livet.
 Det er ikke et ord.
 Det er ikke for sent å si det til henne.
+Det er ikke gull alt som glitrer.
 Det er ikke langt unna hotellet.
 Det er ikke lenger rom for tvil.
 Det er ikke lett å skrive et kjærlighetsbrev på engelsk.
@@ -509,6 +514,7 @@ Det var et øyeblikks pause i samtalen.
 Det var få mennesker på stranden.
 Det var ganske kaotisk.
 Det var ganske morsomt.
+Det var hell i uhell at ingen døde.
 Det var ikke en stjerne å se den natten.
 Det var ikke mange kvinnelige leger på den tiden.
 Det var ikke så lett som jeg trodde det ville være.
@@ -526,6 +532,7 @@ Det var så mørkt at de nesten ikke kunne se.
 Det var tidlig på våren, så det var ikke så mange kunder.
 Det vet vel du!
 Det vi ser, det vi føler, det er alt en del av vitenskapen
+Det vil gjøre skade på kornet.
 Det vil gå over av seg selv i løpet av to uker.
 Det vil ikke skje.
 Det vil ikke ta lang tid før han blir frisk.
@@ -539,6 +546,7 @@ Det å sosialisere er ikke alltid like enkelt for alle.
 Det å tilberede hyggelige måltider er en måte å vise takknemlighet og omsorg på.
 Dette apparatet produserer elektrisitet.
 Dette brevet kom mens du var ute.
+Dette dårlige været vil nok påvirke avlingene.
 Dette eplet er råttent.
 Dette er alt etter planen min.
 Dette er avataren din nå, Jake
@@ -560,6 +568,7 @@ Dette er ikke ei pipe.
 Dette er ikke min paraply. Den tilhører noen andre.
 Dette er siste gang jeg ber deg om å gjøre noe.
 Dette er veldig viktig. Likevel snakker ingen om det.
+Dette fjellet er dekket av snø hele året.
 Dette gamle bordet er fortsatt i bruk.
 Dette gjelder blant annet trykkvannverksrør.
 Dette huset tilhører herr Yamada.
@@ -575,6 +584,7 @@ Disse eplene er råtne.
 Disse perlene er ekte, ikke kunstige.
 Disse slipsene er til salgs.
 Disse to brødrene ligner på hverandre.
+Disse åkrene gir avlinger med god kvalitet.
 Ditt arbeid er langt fra tilfredsstillende.
 Doktoren sa at Tom må bli i sengen de neste ukene.
 Dokumenter du ønsker innsyn i, må bestilles.
@@ -600,6 +610,7 @@ Du burde unngå å ringe noen etter ti på kvelden.
 Du bør spørre Tom først.
 Du drikker for mye kaffe.
 Du er alltid overengstelig.
+Du er ansvarlig for det du har gjort.
 Du er dum.
 Du er død i løpet av få minutter
 Du er en engel!
@@ -702,6 +713,7 @@ Du vasket ikke hendene dine.
 Du vet at Tom og Mary slo opp, ikke sant?
 Du vet at dette er ulovlig, ikke sant?
 Du vet at jeg ikke kan fortelle deg.
+Du vet at jeg ikke liker egg.
 Du vet forskjellen, gjør du ikke?
 Du vet ikke hva du vil, ikke sant?
 Du vet ikke hvem jeg er, gjør du?
@@ -783,6 +795,7 @@ Er det sant at elefanter har god hukommelse?
 Er det sant?
 Er det slik det fungerer?
 Er det spiselig?
+Er det vanskelig å spise med spisepinner?
 Er det varmt?
 Er dette alt vi trenger?
 Er dette den riktige måten å håndtere problemet på?
@@ -844,6 +857,7 @@ Faren min verken røyker eller drikker.
 Fargen går ikke bort.
 Februar
 Feil!
+Feilen kostet ham hodet.
 Fem tusen dollar er mye penger.
 Fengselsvaktene vil streike i tre dager fra midnatt.
 Festen ble en suksess.
@@ -924,6 +938,7 @@ Gni flekken inn med eddik.
 God idé!
 God jul!
 God natt! Drøm søtt!
+God natt, alle sammen!
 God tur.
 God vitenskap består av gode observasjoner
 Godt nytt år!
@@ -964,6 +979,7 @@ Ha en god dag!
 Ha en riktig god jul!
 Ha i honningen, sitronsaften, de ristede mandlene og de revne eplene.
 Hagen hennes er et kunstverk.
+Hallo.
 Han anbefalte meg å gå der.
 Han ba om vår hjelp.
 Han begikk selvmord.
@@ -985,6 +1001,7 @@ Han ble tvunget til å signere kontrakten mot sin vilje.
 Han ble vant til å være våken langt ut på natta.
 Han bor i Tokyo nå.
 Han bor i en landsby.
+Han bor i et eple.
 Han brydde seg aldri noe særlig om meg.
 Han burde innrømme sin skyld.
 Han burde tilstå.
@@ -1011,6 +1028,7 @@ Han er en varulv.
 Han er familiens sorte får.
 Han er flink i matematikk.
 Han er for feit til å løpe fort.
+Han er fortsatt på arbeid.
 Han er gammel nok til å kunne kjøre bil.
 Han er gladest når han er med barnebarna sine.
 Han er god i tennis.
@@ -1133,12 +1151,14 @@ Han møtte sin venn mens han badet i sjøen.
 Han nektet for det øyeblikkelig.
 Han nærmet seg.
 Han oppdaget de tre fysiske lovene.
+Han oppdaget en ny stjerne.
 Han oppfant ikke krutt.
 Han overnatter hos onkelen sin.
 Han pleide å mobbe vennene sine.
 Han pleier å spise raskt.
 Han prøvde å slutte å røyke flere ganger, uten hell.
 Han pusser tennene etter måltider.
+Han reiser vel til Peru i morgen?
 Han reiste seg og trakk pusten dypt.
 Han røyker ikke.
 Han sa at jeg kunne sove på sofaen.
@@ -1168,6 +1188,7 @@ Han snakker i søvne.
 Han snakker kun engelsk og tysk, og jeg forstår ikke noen av delene.
 Han snakker mye.
 Han snorket høyt mens han sov.
+Han sov i timen.
 Han sover.
 Han sparket den så hardt, den fløy nesten over hele boligblokka!
 Han spiller tennis hver dag.
@@ -1238,6 +1259,7 @@ Hennes sønn døde av kreft allerede som barn.
 Her er hun, Askepott tilbake fra ballet
 Her er kartet.
 Her er noe av det du kan glede deg til
+Her går alle på ski.
 Her har jeg vært din dukkehustru, sånn som jeg hjemme var pappas dukkebarn.
 Her kan du få et kjapt innblikk i livet som student
 Her kan du lese våre årsmeldinger på nett
@@ -1251,6 +1273,7 @@ Hesten hopper.
 Hesten min er svart.
 Hils ham fra meg.
 Himmelen er blå.
+Hiromi har på seg en ny kjole.
 Historie ble opprinnelig videreformidlet gjennom fortelling av myter.
 Historien likner vals: den følger evig de tre trinnene krig, fred og revolusjon.
 Hitler førte Tyskland inn i krig.
@@ -1280,6 +1303,7 @@ Hun dro stolen mot seg.
 Hun drømte om ville jaguarer.
 Hun er alkoholiker.
 Hun er alltid bra sminket.
+Hun er bevistløs.
 Hun er deprimert.
 Hun er ei jente.
 Hun er en dyktig tennisspiller.
@@ -1396,6 +1420,7 @@ Hva er i vegen?
 Hva er mer guddommelig enn fornuften?
 Hva er populært nå?
 Hva er vitsen med å bekymre deg så mye?
+Hva faen tror du at du driver med?
 Hva gjorde du i ferien?
 Hva gjør du for å få tida til å gå?
 Hva gjør du for å få tiden til å gå?
@@ -1473,6 +1498,7 @@ Hvem lærte deg å danse?
 Hvem sin gitar er dette?
 Hvem sin sykkel er dette?
 Hvem sin tur er det?
+Hvem sitt rom er dette?
 Hvem skal du gi boka til?
 Hvem skal jeg velge?
 Hvem skrev denne boken? John.
@@ -1512,6 +1538,7 @@ Hvis du vil ha det rettferdig, har du kommet til feil planet
 Hvis han hadde visst sannheten, hadde han fortalt meg det.
 Hvis jeg lager en eksempelsetning, kan du rette den for meg?
 Hvis man ikke føler seg helt frisk skal man holde seg hjemme.
+Hvis to menn alltid mener det samme, er en av dem overflødig.
 Hvite biler er de peneste.
 Hvor ble det av Tom?
 Hvor ble det av alt brødet?
@@ -1529,6 +1556,7 @@ Hvor er møtet?
 Hvor er nærmeste bank?
 Hvor er nøkkelen din?
 Hvor er pennen?
+Hvor er skolen din?
 Hvor er tingene dine?
 Hvor er toalettet?
 Hvor er treet?
@@ -1550,6 +1578,7 @@ Hvor lenge sover en bjørn?
 Hvor lenge vil dette tauet holde?
 Hvor mange av oss får sjansen?
 Hvor mange barn har du?
+Hvor mange bøker leser du i måneden?
 Hvor mange dager vil det ta?
 Hvor mange ganger så du filmen?
 Hvor mange jobber du sammen med?
@@ -1698,6 +1727,7 @@ Ikke spis meg.
 Ikke spis uten meg.
 Ikke sånn!
 Ikke ta det personlig.
+Ikke vær dum.
 Ikke vær redd for å gjøre feil når du snakker Engelsk.
 Ikke vær redd for å si feil når du snakker Engelsk.
 Ikke vær så egoistisk.
@@ -1785,6 +1815,7 @@ Jeg dissekert en frosk en gang
 Jeg drakk.
 Jeg drar ikke på piknik hvis det regner i morgen.
 Jeg drar nå.
+Jeg drikker ikke så mye øl.
 Jeg drikker ikke te.
 Jeg drikker ikke vin.
 Jeg drikker ikke øl.
@@ -1946,6 +1977,7 @@ Jeg godtar det, men på en betingelse.
 Jeg gråt i sted.
 Jeg gråt.
 Jeg går hjem tidlig hver dag.
+Jeg går og handler hver morgen.
 Jeg går på skolen hver dag.
 Jeg går sammen med henne.
 Jeg går som regel til skolen.
@@ -1959,6 +1991,7 @@ Jeg hadde ristet brød til frokost.
 Jeg hadde steik og poteter i går.
 Jeg hadde vanskeligheter med å få tak i en drosje.
 Jeg har akkurat spist lunsj.
+Jeg har aldri før sett en så stor vannmelon.
 Jeg har aldri hørt at han har løyet.
 Jeg har aldri hørt noe slikt før.
 Jeg har aldri sett en så stor hval.
@@ -1979,6 +2012,7 @@ Jeg har en datter.
 Jeg har en følelse av at Tom vil ringe politiet.
 Jeg har en god jobb.
 Jeg har en idé du burde vurdere.
+Jeg har en katt og en hund.
 Jeg har en lett feber.
 Jeg har en overraskelse til deg.
 Jeg har en penn.
@@ -1989,6 +2023,7 @@ Jeg har et medfødt talent for matematikk.
 Jeg har fem boller i ovnen!
 Jeg har foreldrene mine å takke for at jeg har så god helse.
 Jeg har forsøkt å nå Tom siden i går.
+Jeg har fri i dag.
 Jeg har fått nok av frekkheten hans.
 Jeg har fått nok av spørsmålene dine.
 Jeg har helst ikke lyst på saft.
@@ -2054,6 +2089,7 @@ Jeg hater det når foreldrene mine kommer til skolen.
 Jeg hater naboen min.
 Jeg hater vinter.
 Jeg hater øyenbrynene mine.
+Jeg heter Farshad.
 Jeg heter Jack.
 Jeg heter Ricardo.
 Jeg heter Tom.
@@ -2234,6 +2270,7 @@ Jeg sitter ved bordet.
 Jeg skal aldri drikke igjen.
 Jeg skal aldri gjøre det igjen.
 Jeg skal dra når Tom kommer hit.
+Jeg skal gi deg en bok.
 Jeg skal gi deg en god pris.
 Jeg skal gi deg telefonnummeret til Dr. Shiegal.
 Jeg skal møte noen studenter.
@@ -2416,6 +2453,7 @@ Jeg var fri
 Jeg var førsteårsstudent i fjor.
 Jeg var hos tannlegen i dag.
 Jeg var ikke hos legen i fjor.
+Jeg var ikke med på samtalen.
 Jeg var ikke på skolen i går.
 Jeg var ikke så mye trist som jeg var sint.
 Jeg var naken.
@@ -2540,6 +2578,7 @@ John er en god ektemann til sin kone.
 John hadde en voldelig krangel med sin kone.
 John kom og flyttet noen av boksene.
 John kom til Japan igår.
+John skriver til foreldrene sine en gang i måneden.
 John skyndte seg ut.
 John vet ikke hvordan man spiller gitar.
 Jonas tok en stor slurk av melken sin og satt den ned
@@ -2549,6 +2588,7 @@ Juni
 Kaffen er klar.
 Kalven lærer av kua.
 Kalven tar etter kua.
+Kan du gi meg mobilnummeret ditt?
 Kan du gjøre det for meg?
 Kan du gjøre det?
 Kan du hjelpe meg litt?
@@ -2593,6 +2633,7 @@ Kanskje det var en katt.
 Kaoru har reist til Amerika.
 Kapitalmarkedet er ikke lenger det det var for noen år siden.
 Kapteinen ba oss forlate skipet.
+Karbonmonoksid er et giftig stoff som dannes ved ufullstendig forbrenning av karbonforbindelser.
 Karrieren hennes var full av suksesser.
 Kast ikke bort et eneste riskorn!
 Katten er stor.
@@ -2697,11 +2738,13 @@ Leser du en interessant bok?
 Levekostnadene økte kraftig.
 Lever kassetten tilbake i morgen.
 Ligger skolen din langt fra der du bor?
+Liker Tom tomater?
 Liker dere svarte katter?
 Liker du Seinfeld?
 Liker du golf?
 Liker du katter?
 Liker du musikk?
+Liker du svarte katter?
 Liker du å pilke på Trytetjønn?
 Likte du måltidet?
 Liljer er nasjonalblomsten til Italia.
@@ -2746,6 +2789,7 @@ Man bruker en ganske stor del av livet på å sove.
 Man bør aldri se direkte på sola med det blotte øye.
 Man lærer sjelden av historien.
 Man skal elske sin mor.
+Man skal ikke kaste stein i glasshus.
 Mange engelske ord stammer fra latin.
 Mange kriminelle i Amerika er avhengige av narkotika.
 Mange mistet huset sitt i jordskjelvet.
@@ -2904,6 +2948,7 @@ Pass på så du ikke blir drept.
 Pass på å ikke havne i trøbbel.
 Passer det for deg hvis jeg kommer klokken seks om ettermiddagen?
 Passordet er "Muiriel".
+Pastafarianere tror at et usynlig og upåviselig Flygende Spagettimonster skapte universet.
 Pengene mine ble stjålet.
 Penger lukter ikke.
 Perfekt. Takk skal du ha.
@@ -2937,6 +2982,7 @@ På den tiden dro Yuri ofte til London.
 På denne siden finner du informasjon om helse
 På dødsleiet ba han meg om å fortsette å skrive til deg.
 På grunn av det dårlige været ble flyets avgang forsinket med to timer.
+På grunn av oversvømmelsen ble det en dårlig rishøst.
 På jorden var disse gutta forsvarets hunder, marinesoldater
 På klare dager kan man se Fuji-fjellet.
 På vei hjem så jeg tre forskjellige rosa biler.
@@ -2951,6 +2997,7 @@ Ring meg hvis du finner ut noe.
 Ring meg med en gang, hvis noe skjer.
 Ring meg når du er klar til å dra.
 Ring meg opp!
+Risen er allerede innhøstet.
 Roma ble ikke bygd på en dag.
 Rommet er ikke lyst nok til å sy i.
 Roser blomstrer om våren.
@@ -2989,6 +3036,7 @@ Ses vi i morgen?
 Sex spiller egentlig ingen rolle for de fleste kinesere.
 Shakespeare er anerkjent som den største dramatikeren.
 Si det på gresk!
+Si meg, hvorfor trodde du jeg ville gå med på det?
 Si til henne hvilken hun skal ta.
 Siden han var så trøtt, sovnet han fort.
 Sikker på at dere ikke vil gi dere?
@@ -3046,6 +3094,7 @@ Slutt å være så snill.
 Slutt!
 Slå det opp i ordboken.
 Smak og behag kan ikke diskuteres.
+Smakte maten?
 Smarttelefonen er det viktigste verktøyet i hverdagslivet.
 Smelteverkene har hatt en relativt stabil andel.
 Smerten har for det meste forsvunnet.
@@ -3080,6 +3129,7 @@ Staben takker deg på forhånd
 Stabukken vil ikke komme frem til en løsning.
 Stemmer det ikke?
 Stjernene begynte å komme frem på himmelen.
+Stormen gjorde stor skade på avlingen.
 Stormen gjorde stor skade på eiendomen hennes.
 Strengt tatt er tomat en frukt.
 Strålende!
@@ -3120,7 +3170,9 @@ Ta den tiden du trenger, Yoshida.
 Ta kontakt om du har behov for denne tjenesten.
 Takk for informasjonen.
 Takk!
+Tar dere kredittkort?
 Tastaturet mitt er alt for gammelt og stygt.
+Teaterstykket varer i to og en halv time.
 Tegnet viser at svaret er riktig.
 Telefonen er betjent
 Telefonen ringte mens jeg var i dusjen.
@@ -3365,6 +3417,7 @@ Unnskyld meg Jake
 Unnskyld, kan du forklare meg hvordan en kommer seg til Central Park?
 Unnskyld, vekte jeg deg?
 Utdannelsen din er viktig.
+Uten din hjelp ville jeg ha mislyktes.
 Utsett aldri til i morgen det du kan gjøre i overmorgen.
 Uttrykket historiker brukes fra gammelt av om personer som skriver historie.
 Utvikling av organisasjon og tjenester
@@ -3393,6 +3446,7 @@ Vennligst snakk litt høyere.
 Vennligst ta av deg sokkene.
 Vennligst vent fem minutter.
 Vennligst vis meg bildene.
+Vennligst vær stille.
 Vent på mitt signal
 Vent! Jeg kommer straks!
 Verdiene smelter som snø i solen.
@@ -3430,6 +3484,7 @@ Vi er invitert på middag.
 Vi er naboer.
 Vi er sønnene hans.
 Vi er til sammen førtitre stykker.
+Vi er veldig glade for å ha henne her.
 Vi flytta i fjor.
 Vi former boligene våre, og etterpå former boligene våre oss.
 Vi frityrstekte kalkunen.
@@ -3517,6 +3572,7 @@ Vi støtte på mange vanskeligheter på ekspedisjonen.
 Vi så et glimt av slottet fra vinduet vårt i toget.
 Vi tok de normale hensynene.
 Vi trenger en blodprøve.
+Vi trenger penger.
 Vi tror fortsatt det er sant at han er uskyldig.
 Vi unnskyldte oss til hverandre.
 Vi valgte et hotell nær museene.
@@ -3525,6 +3581,7 @@ Vi var utslitte etter den lange gåturen.
 Vi vet at hun ble født i Canada.
 Vi vet begge at dette ikke er riktig.
 Vi vet begge hva som er der ute.
+Vi vil få en god avling hvis det fine været fortsetter.
 Vi vil gjerne vite hva som kan få folk til å kjøpe denne agurken.
 Vi viser nå hvordan dette lemmaet kan brukes til å bevise hovedteoremet vårt.
 Vi visste ikke at du var der.
@@ -3568,6 +3625,7 @@ Værmeldingen tok grunding feil.
 Værsågod.
 Yrkesmuligheter og videre utdanning
 Yumi kommer til å bli en lærer.
+Zamenhof, skaperen av det konstruerte språket esperanto, var en øyelege.
 Zhu Lis svik var en stor overraskelse for Varrick.
 alle barna gikk på skolen
 du er framme
@@ -3585,6 +3643,7 @@ ta til høyre i neste sving
 «Jeg kan ikke tape,» svarte Djevelen. «Alle dommerne er her nede i Helvete.»
 «Kan du spille gitar?» «Ja, det kan jeg.»
 «Mø, mø!» sa kua.
+«Og hvilken klasse går du i, da?» «Æ e i a, æ å.»
 «Polynesia» er et gresk ord som betyr «mange øyer».
 «Send meg saltet, er du snill.» «Vær så god!»
 «Søren! Jeg glemte paraplyen min på toget.» «Din rotekopp!»
@@ -3600,4 +3659,5 @@ ta til høyre i neste sving
 Ærlighet er veldig viktig.
 Én, tre og fem er oddetall.
 Økte krav til vernearbeid og trivselsfremmende tiltak på arbeidsplassen kommer til å bli stilt.
+Ønsket ditt vil gå i oppfyllelse i nær framtid.
 Ønsket hans ble endelig oppfylt.

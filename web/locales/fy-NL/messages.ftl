@@ -78,6 +78,7 @@ hy-AM = Armeensk
 hyw = West-Armeensk
 ia = Ynterlingua
 id = Yndonezysk
+ie = Ynterlingua
 is = Iislânsk
 it = Italiaansk
 izh = Izjorysk
@@ -115,6 +116,7 @@ ne-NP = Nepaleesk
 nia = Nias
 nl = Nederlânsk
 nn-NO = Norwegysk Nynorsk
+nyn = Nyankole
 oc = Okkitaansk
 or = Odia
 pa-IN = Punjabi
@@ -128,6 +130,7 @@ ro = Roemeensk
 ru = Russysk
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardyn
 scn = Sisiliaansk
 shi = Tashelhiyt (Shilha)
@@ -190,6 +193,7 @@ logout = Ofmelde
 ## Home Page
 
 home-title = It projekt Common Voice is it inisjatyf fan Mozilla om masinen te learen hoe't echte minsken sprekke.
+default-tagline = Mozilla Common Voice is in inisjatyf om masinen te helpen learen hoe't echte minsken sprekke.
 home-cta = Lit jo heare, doch hjir mei!
 wall-of-text-start =
     Spraak is natuerlik, spraak is minsklik. Dat is wêrom wy fassinearre binne mei it meitsjen fan brûkbere
@@ -293,6 +297,8 @@ shortcut-record-toggle = O
 shortcut-record-toggle-label = Opnimme/Stopje
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Fragmint opnij opnimme
+shortcut-discard-ongoing-recording = Esc
+shortcut-discard-ongoing-recording-label = Rinnende opname fuortsmite
 shortcut-submit = Tebek
 shortcut-submit-label = Fragminten yntsjinje
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
@@ -393,6 +399,10 @@ faq-what-cv-a =
     Spraakwerkenningstechnology is in revolúsje yn de manier wêrop wy omgean mei masinen, mar de op dit stuit beskikbere systemen binne djoer en ôfskerme. Common Voice is ûnderdiel fan Mozilla’s inisjatyf om spraakwerkenningstechnologyen better en foar elkenien tagonkliker te meitsjen. Common Voice is in enoarme wrâldwide database fan donearre stimmen, wêrmei't elkenien fluch en ienfâldich spraakstjoerde apps yn potinsjeel elke taal traine kin.
     
     Wy sammelje net allinnich spraakfragminten yn faak sprutsen talen, mar ek yn dy mei in lytser tal sprekkers. Troch in diverske gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken. Neist de Common Voice-gegevensset bouwe wy ek in iepenboarne-spraakwerkenningsprogramma mei de namme Deep Speech.
+faq-what-cv-a-2 =
+    Spraakherkenningstechnology is in revolúsje yn de manier wêrop wy omgean mei masinen, mar de op dit stuit beskikbere systemen binne djoer en ôfskerme. Mozilla Common Voice is in inisjatyf om spraakherkenningstechnologyen better en foar elkenien tagonkliker te meitsjen. Common Voice is in enoarme wrâldwide database fan donearre stimmen, wêrmei elkenien fluch en ienfâldich spraakstjoerde apps yn potinsjeel elke taal traine kin.
+    
+    Wy sammelje net allinnich spraakfragminten yn de meast sprutsen talen, mar ek yn dy mei in lytser oantal sprekkers. Troch in ferskate gegevensset mei stimmen te publisearjen, krije ûntwikkelers, ûndernimmers en mienskippen de mooglikheid om dizze kleau sels oan te pakken.
 faq-why-important-q = Wêrom is it wichtich?
 faq-why-important-a =
     Spraak is faaks de meast natuerlike manier om mei inoar te kommunisearjen en spraaktechnologyen bringe dat gemak nei ús kompjûters en mobile apparaten. Wy wolle ûntwikkelers de mooglikheid jaan geweldige spraakwerkenningstapassingen te bouwen, lykas realtime-oersetters en spraakstjoerde digitale assistinten. Mar op dit stuit binne de measte spraakgegevens dy't nedich binne om dit soarte fan tapassingen te bouwen djoer en ôfskerme. Wy hope dat de Common Voice-gegevensset ûntwikkelers biedt wat se nedich hawwe om te ynnovearjen en spraaktechnology beskikber te stellen yn harren eigen taal.
@@ -450,6 +460,9 @@ about-title = Wêrom Common Voice?
 about-subtitle = Common Voice is part fan in inisjatyf fan Mozilla om masinen te helpen learen hoe't echte minsken sprekke. Yn oanfolling op de Common Voice-gegevensset bouwe wy ek in iepen boarne spraakwerkenningsmasine mei de namme Deep Speech.
 about-header-description =
     Beide projekten meitsje diel út fan ús ynspanningen om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe us apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
+    Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
+about-header-description-2 =
+    Dit projekt is in ynspanning om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe ús apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
     Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
 how-does-it-work-title = Hoe't it wurket
 how-does-it-work-text = Wy crowdsource in iepen boarne stimgegevensset. Donearje jo stim, falidearje de sekuerens fan opnamen fan oaren en meitsje de gegevensset better foar elkenien.
@@ -584,8 +597,11 @@ subscribe = Abonnearje
 get-started-speech = Oan 'e gong mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
-deepspeech-info = De Common Voice-gegevensset is in oanfolling op Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, dy't jo brûke kinne om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
-common-voice-info-new = Hawwe jo fragen oer Common Voice? Ideeën foar ferbetteringen of kommentaar oer in spesifike taal? Praat mei op ús <discourseLink>Discourse-foarum</discourseLink> en lit it ús witte.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy't state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
+resource-deepspeech-info = Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, kin brûkt wurde om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-foarum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> is tawijd oan iepen spraaktechnology. Harren projekten omfetsje op deep learning basearre STT- en TTS-masinen.
+community-playbook = Mienskipsdraaiboek
+resource-playbook-info = <playbookLink>Untdek nuttige hantliedingen</playbookLink> oer it hiele Common Voice-trajekt, fan lokalisaasje ta gebrûk fan de dataset, krekt as hoe't jo kontakt meitsje kinne mei ús mienskip.
 data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
@@ -912,6 +928,7 @@ contribution-criteria-page-title = Bydragekritearia
 contribution-criteria-page-description = Ynformearje jo oer wêrop't jo by it harkjen fan fragminten lette moatte en hoe't jo jo eigen stimopnamen ferbetterje kinne!
 contribution-for-example = bygelyks
 contribution-misreadings-title = Lêsflaters
+contribution-misreadings-description = Kontrolearje wylst jo harkje soarchfuldich dat wat opnommen is ek krekt is wat der skreaun stiet; keur it ôf as der sels lytse flaters binne. <br />Faaks foarkommende flaters binne:
 contribution-volume-title = Folume
 contribution-reader-effects-title = Lêzereffekten
 contribution-just-unsure-title = Gewoan ûnwis?

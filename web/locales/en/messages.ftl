@@ -74,6 +74,7 @@ hy-AM = Armenian
 hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
+ie = Interlingue
 is = Icelandic
 it = Italian
 izh = Izhorian
@@ -125,6 +126,7 @@ ro = Romanian
 ru = Russian
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinian
 scn = Sicilian
 shi = Shilha
@@ -287,6 +289,9 @@ shortcut-record-toggle-label = Record/Stop
 
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
+
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Discard ongoing recording
 
 shortcut-submit = Return
 shortcut-submit-label = Submit clips
@@ -595,8 +600,13 @@ subscribe = Subscribe
 get-started-speech = Get Started with Speech Recognition
 other-datasets = Other Voice Datasets
 feedback-q = Have Feedback?
-deepspeech-info = The Common Voice dataset complements Mozilla’s open source voice recognition engine Deep Speech, which you can use to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
-common-voice-info-new = Have questions about Common Voice? Ideas for improvements or feedback about a specific language? Join us on our <discourseLink>Discourse forum</discourseLink> and let us know.
+
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is an <docsLink>open-source toolkit</docsLink> for researchers developing state-of-the-art conversational AI models.
+resource-deepspeech-info = Mozilla’s open source voice recognition engine Deep Speech can be used to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> is dedicated to open speech technology. Their projects include deep learning based STT and TTS engines.
+community-playbook = Community Playbook
+resource-playbook-info = <playbookLink>Find helpful guidance</playbookLink> on the entire Common Voice journey, from localisation to dataset usage, as well as how to connect with our community.
+
 data-other-librispeech-description = LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.

@@ -207,7 +207,7 @@ class SpeakPage extends React.Component<Props, State> {
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
     document.addEventListener('visibilitychange', this.releaseMicrophone);
-    document.addEventListener('keyup', this.handleKeyUprerecording);
+    document.addEventListener('keyup', this.handleKeyUp);
 
     if (
       !this.audio.isMicrophoneSupported() ||
@@ -218,7 +218,7 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   async componentWillUnmount() {
-    document.removeEventListener('keyup', this.handleKeyUprerecording);
+    document.removeEventListener('keyup', this.handleKeyUp);
 
     document.removeEventListener('visibilitychange', this.releaseMicrophone);
     if (!this.isRecording) return;
@@ -229,26 +229,36 @@ class SpeakPage extends React.Component<Props, State> {
     return this.state.recordingStatus === 'recording';
   }
 
-  private handleKeyUprerecording = async (event: any) => {
-    let index = null;
+  /**
+   * Shortcuts which need more complex matching than a single "key comparison"
+   * are handled here.
+   * If possible use the `shortcuts` prop of `ContributionPage` instead.
+   */
+  private handleKeyUp = async (event: KeyboardEvent) => {
+    let reRecordIndex = null;
     //for both sets of number keys on a keyboard with shift key
     if (event.code === 'Digit1' || event.code === 'Numpad1') {
-      index = 0;
+      reRecordIndex = 0;
     } else if (event.code === 'Digit2' || event.code === 'Numpad2') {
-      index = 1;
+      reRecordIndex = 1;
     } else if (event.code === 'Digit3' || event.code === 'Numpad3') {
-      index = 2;
+      reRecordIndex = 2;
     } else if (event.code === 'Digit4' || event.code === 'Numpad4') {
-      index = 3;
+      reRecordIndex = 3;
     } else if (event.code === 'Digit5' || event.code === 'Numpad5') {
-      index = 4;
+      reRecordIndex = 4;
+    } else if (event.key === "Esc" || event.key === "Escape") {
+      if (this.isRecording) {
+        trackRecording('discard-ongoing', this.props.locale);
+        await this.discardRecording();
+      }
     }
 
-    if (index !== null) {
+    if (reRecordIndex !== null) {
       trackRecording('rerecord', this.props.locale);
       await this.discardRecording();
       this.setState({
-        rerecordIndex: index,
+        rerecordIndex: reRecordIndex,
       });
     }
   };
@@ -745,10 +755,16 @@ class SpeakPage extends React.Component<Props, State> {
                 action: this.handleRecordClick,
               },
               {
+                key: 'shortcut-discard-ongoing-recording',
+                label: 'shortcut-discard-ongoing-recording-label',
+                // This is handled in handleKeyUp, separately.
+                action: () => {},
+              },
+              {
                 key: 'shortcut-submit',
                 label: 'shortcut-submit-label',
                 icon: <ReturnKeyIcon />,
-                // This is handled in handleKeyDown, separately.
+                // This is handled in handleKeyUp, separately.
                 action: () => {},
               },
             ]}

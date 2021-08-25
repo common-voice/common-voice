@@ -12,7 +12,6 @@ import {
 import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import * as Sentry from '@sentry/browser';
-import * as FullStory from '@fullstory/browser';
 import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
@@ -55,7 +54,6 @@ const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 
 const SENTRY_FE_DSN =
   'https://4a940c31e4e14d8fa6984e919a56b9fa@sentry.prod.mozaws.net/491';
-const FS_KEY = 'QDBTF';
 
 interface PropsFromState {
   api: API;
@@ -327,12 +325,6 @@ class App extends React.Component {
         "ResizeObserver loop limit exceeded"
       ],
     });
-
-    if (isProduction() && !doNotTrack()) {
-      FullStory.init({
-        orgId: FS_KEY,
-      });
-    }
   }
 
   async componentDidMount() {
