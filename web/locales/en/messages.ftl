@@ -74,6 +74,7 @@ hy-AM = Armenian
 hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
+ie = Interlingue
 is = Icelandic
 it = Italian
 izh = Izhorian

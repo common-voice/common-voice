@@ -2514,6 +2514,7 @@ A ‘brine smeller’ expressed his belief that mines might be opened.
 A-I does not guarantee a dystopia or utopia.
 Abdul is a hard working entrepreneur from a humble background.
 Aberdeen terriers, they are, and as sharp as mustard.
+Abhay is our reporting manager.
 Abide with me.
 Abort.
 About a hundred a month.
@@ -3231,6 +3232,7 @@ Altogether I was no spectacle for God-fearing citizens to see on a highroad.
 Altogether a fit-looking sort of man.
 Altogether he left Parker vaguely suspicious.
 Alvyn Abranches is from Goa.
+Alvyn apathetically states that he has no interest.
 Alvyn is staying in Porvorim now.
 Always fingering one's motives is a sign of an unwholesome preoccupation with self.
 Always her ears were hid in her short curls.
@@ -4468,6 +4470,8 @@ Animals don’t seem to want to work any more.
 Animation keeps children entertained for hours.
 Anime is just as popular in the west, not only in Japan.
 Aniseed balls are one of my favourite sweets
+Anisha apathetically states that he has no interest.
+Anisha is roaming around.
 Ann Spurgeon is going to be a minister.
 Ann flew to the door, face alight, eyes glowing.
 Ann stood up and drew a long breath.
@@ -4702,6 +4706,7 @@ Appointments have been substantiated into fixtures.
 Apricot is healthy.
 April Shirley, whatever is the matter with you?
 April is tax season in the United States.
+Apurva and I joined at the same time.
 Arabella Shirley, what have you done to your hair?
 Arabella applied her handkerchief to her eyes.
 Arabella inclined her head.
@@ -5406,6 +5411,7 @@ Be calm, girls, and let me think.
 Be careful of bitcoin Ponzi schemes.
 Be careful of black ice!
 Be careful to avoid all the pitfalls.
+Be cautious.
 Be cheerful. Strive to be happy.
 Be cross to me if I deserve it.
 Be dutiful and affectionate towards me, and I ask no other return.
@@ -5443,6 +5449,7 @@ Beatrice was putting in her comb.
 Beau is shaky in his forelegs.
 Beautiful crystallizations regularly flattened.
 Beautiful sunset this evening by the canal.
+Beautiful!
 Beauty was behind me, do you understand? — I was grown.
 Because I did really make him.
 Because I tell you to do so.
@@ -5632,7 +5639,11 @@ Between the three tongues we contrived to make ourselves intelligible.
 Between the two eldest and herself especially, there subsisted a particular regard.
 Between the two girls was a feud.
 Between these main groups there were waverers and compromisers.
+Beware of dogs.
+Beware of lions.
+Beware of tigers.
 Beware of unchained dogs in public.
+Beware of wild animals.
 Beware the Jabberwock, my son!
 Beyle is stunning.
 Beyond Annecy, they came to the bridge over the ravine.
@@ -6041,6 +6052,7 @@ But Linton requires his whole stock of care and kindness for himself.
 But Ma, I was not going to contradict.
 But Martin smiled a superior smile.
 But Matthew was terrible set on it.
+But Michael the archangel, deared not bring against him a railing judgment
 But Miriam was tortured.
 But Misha will not do it.
 But Miss Barker managed her arduous task well.
@@ -7208,9 +7220,11 @@ Can we bulk purchase these materials?
 Can we call the program "the Wonder Party Solution"?
 Can we chat later when I'm feeling a bit more sparky?
 Can we discuss it like adults?
+Can we do it later?
 Can we do nothing about fake news?
 Can we fly, my friends?
 Can we get away?
+Can we have this work done first?
 Can we meet tonight?
 Can we put this issue to bed now?
 Can we send the child back to the asylum?
@@ -7728,6 +7742,7 @@ Come quick, and read it!
 Come right in and look at our elocutionist, Amy.
 Come round here on the side-porch.
 Come to Calgary Stampede Week and have the time of your life.
+Come to Goa sometimes.
 Come to me tomorrow and you shall have a heart.
 Come to my arms, my beamish boy!
 Come upstairs, I've got something to show you.
@@ -8333,6 +8348,7 @@ Diesel engines make a different noise to petrol engines.
 Different dietary habits can have different effects on your health.
 Different in what way?
 Different moldings were studiously associated.
+Difficult to find Konkani speech datasets.
 Dig deep, this one is going to be expensive!.
 Dig in; you're sure good, was Daylight's answer.
 Digging for apples, yer honour!
@@ -8360,6 +8376,7 @@ Dismissed, he wanted to kiss her, but he dared not.
 Displaying Nazi symbols or propaganda is against the law in Germany.
 Disregard of the primary impulse may be self-defeating.
 Divided, we fall, together we may worry through.
+Divya is on leave tomorrow.
 Do I believe God had more favor with him because of his gifts?
 Do I believe Jesus is the son of God?
 Do I come across as being pretentious if I wear this?
@@ -9171,6 +9188,7 @@ Due to what is known as the maternal instinct, what?
 Duke George did not stop at home to partake of the beer and wine.
 Duluth has a cool, salubrious summer and a snug winter climate.
 Dunham, can your boy go along with Jesse.
+During December it snows in Shimla.
 During a game, Bradley's eyes are always a glaze of panoptic attention.
 During his illness his wife had spoilt him a little.
 During his long career, he received many honours and awards.
@@ -10422,7 +10440,13 @@ Go, and God be with you.
 Go, brave heart, and save me from despair.
 Go, say thy prayers, child, and ask God’s pardon.
 Goa has a lot of greenery.
+Goa has many beaches.
+Goa is a smallest state of India.
+Goa is a tourist place.
+Goa is a very beautiful place.
+Goa is a wonderful place to visit.
 Goa is famous for its beaches.
+Goa is famous for tourism.
 God always wants little girls to say their prayers.
 God and Father of mankind.
 God bless 'em, I hope I'll go on seeing them forever.
@@ -10500,6 +10524,7 @@ Good technology is indistinguishable from magic.
 Good things come in small packages.
 Good things come to those who wait.
 Good thinking, thanks!
+Good!
 Good-bye for the present, Jackson, good-bye.
 Good-bye, my dear.
 Good-evening, Joseph,’ I said, coldly.
@@ -11363,6 +11388,7 @@ He determined, to adopt a tone of conciliation.
 He did a fantastic job despite it not being his Forte.
 He did a sort of twiddly on the turf with his foot.
 He did a thorough job.
+He did in mine
 He did it very, very slowly.
 He did it with a courtesy that redounded to his credit.
 He did it, God damn him!
@@ -13043,6 +13069,7 @@ He shook his finger at his companions.
 He shook his head gently.
 He shook his head mournfully.
 He should be here.
+He should believe everything in the gospel bible verses
 He should have been here five minutes ago.
 He should have bowed, not saluted
 He should have kept silence about that pot of cream.
@@ -15604,6 +15631,9 @@ How did you produce this?
 How did you track us, really?
 How differently did everything now appear in which he was concerned!
 How difficult it is to bowl for a tail ender?
+How difficult it is to do it?
+How difficult it is to do that?
+How difficult it is to do this?
 How distant are the cousins?
 How do I...
 How do I change my wallpaper?
@@ -15726,6 +15756,7 @@ How in hell did he know it was you in the dark.
 How inappropriate that she should be out!
 How is Joe?’ ‘Very well,’ replied the old gentleman.
 How is bread made? ‘I know that!’ Alice cried eagerly.
+How is it possible to complete so fast?
 How is it with man after two hundred years?
 How is it with the common lives?
 How is it with us all today?
@@ -15756,6 +15787,7 @@ How long had this been going on?
 How long have you been an old friend of mine, Bertie?
 How long have you known it?
 How long have you known this woman?
+How long is it taking for you?
 How long it will take?
 How long should I have to hold out?
 How long the rain will be there?
@@ -15810,6 +15842,7 @@ How much is a fourth?
 How much is that, in pounds and pence?
 How much kilometres to travel more to Goa?
 How much money is in my savings account?
+How much more work is pending?
 How much sooner one tires of anything than of a book!
 How much to have left in the transport budget?
 How much was it.
@@ -16641,6 +16674,7 @@ I can sympathize with the objects.
 I can take a morsel of dinner standing and be off.
 I can talk what they call buckaroo Spanish.
 I can tell by your loyalty.
+I can type faster on a gaming keyboard.
 I can understand your feelings, my poor woman.
 I can't argue with you, and you know that.
 I can't be arsed with this rubbish.
@@ -16656,6 +16690,7 @@ I can't breathe where I am.
 I can't calm down. I don't know how. I don't want to be alone.
 I can't compose my speech with you mucking around.
 I can't conceive who he is; nobody can find out.
+I can't do a Konkani speech recognition engine.
 I can't do anything without help.
 I can't do anything, except write.
 I can't do it.
@@ -17162,6 +17197,7 @@ I don't gamble much, but I do enjoy roulette.
 I don't get you.
 I don't give a damn.
 I don't have a fiver. Can you change a tenner?
+I don't have any hope now.
 I don't have my watch.
 I don't have the oomph to do it any more.
 I don't intend to run away from a girl.
@@ -18564,6 +18600,7 @@ I love the fabric!
 I love the new logo!
 I love the soothing smell of lavender.
 I love the summer sun.
+I love the way you did the act.
 I love to experience life.
 I love to go mushrooming in my pyjamas and dressing gown.
 I love to play chess and go, but I find draughts rather too trivial
@@ -19102,6 +19139,7 @@ I recollect this lad some time ago being brought before the coroner.
 I recollect you went on holiday to Spain, where are the best sights?
 I recommend flannel knickers in preference to flannel petticoat.
 I recommend looking up “love” just to see how many verse there are!
+I recommend you read one book of the bible from each of these lists:
 I recorded what passed between us on the lawn.
 I rediscovered a brick path that was lost in the undergrowth.
 I refer my honourable friend to the answer I gave last week.
@@ -19693,6 +19731,7 @@ I think it is impressive.
 I think it is pretty.
 I think it is rather our way to be in earnest.
 I think it is rather vain.
+I think it will require more three weeks.
 I think it would be best.
 I think it would be well to acquiesce in her wishes.
 I think it's dreadful.
@@ -21542,6 +21581,7 @@ Illustrate a cat.
 Images used on Wikipedia are normally stored in its image repository, Wikimedia Commons
 Imagine our surprise.
 Imagine what has happened!
+Immanuel apathetically states that he has no interest.
 Immediately afterwards he heard the mother slowly mounting the stairs.
 Immediately he had finished tea he rose with alacrity to go out.
 Immediately he had her attention.
@@ -21563,6 +21603,7 @@ In Britain, an overpass is known as a flyover
 In Britain, mains power is typically supplied at two hundred and thirty volts
 In British English, brackets are the same things as parentheses
 In Celia's mind there was still the one desperate resolve.
+In December there is snow in Shimla.
 In England, County Record Offices act as local repositories.
 In England, a subway is always a tube, or the underground, or the Metro.
 In England, car owners must pay a vehicle excise duty tax.
@@ -21570,6 +21611,7 @@ In England, most criminals are dealt with by the Magistrates’ Courts.
 In English, we should say 'literally'.
 In February it will be our anniversary.
 In Germany it is illegal to deny the holocaust.
+In Goa, they speak in Konkani.
 In Gothic architecture quirks are abundantly used between mouldings.
 In Japanese tradition, the number four is often considered to be unlucky
 In June her letters grew hurried and less frequent.
@@ -21969,6 +22011,7 @@ In, and of itself, it would have little impact.
 Incidentally, I shall have left by then.
 Incidentally, too, I lost the friendship of Connie.
 Income and outgoings are of interest to accountants.
+Incredible!
 Increment the order quantity if you require more than one item.
 Incumbents almost always win the elections.
 Indeed I was in better spirits than I had been for months.
@@ -23156,6 +23199,7 @@ It racked me!
 It rained all through the evacuation.
 It rained heavily last night.
 It rained so that we had a math lesson indoors.
+It rains in Goa during the monsoons.
 It ran as follows: Come at once.
 It ran with his thoughts.
 It really doesn't have to be like that
@@ -24361,6 +24405,7 @@ It's rude to stare at people.
 It's simply a question of his health.
 It's simply intolerable.
 It's simply monstrous how one's words get twisted.
+It's snowy in Shimla in December.
 It's so dreadful to be poor!
 It's so early!
 It's some trick.
@@ -24377,6 +24422,7 @@ It's stuff and nonsense, George.
 It's such a hell of a career!
 It's such a wondrous landscape.
 It's such uphill work, and it takes such a time!
+It's terrible.
 It's that much junk.
 It's that naughty boy.
 It's the aurora borealis.
@@ -24890,6 +24936,7 @@ Jenny reminded us that politics is still news.
 Jenny was a tic-tac-toe world champion.
 Jenny went to Italy last year.
 Jenny's asleep, quite worn out.
+Jerry apathetically states that he has no interest.
 Jerry held the hat containing the money.
 Jerry was so secure in his nook that he did not roll away.
 Jerusalem is an ancient and holy city.
@@ -24948,7 +24995,9 @@ Jon was wrinkling his brows.
 Jonah thought the service had concluded.
 Jones faced criticism from his major customer.
 Jones was still in my way.
+Jonny apathetically states that he has no interest.
 Jonny, I'm ashamed of you!
+Joseph apathetically states that he has no interest.
 Joseph beheld my style of cookery with growing indignation.
 Joseph sits up late, doesn’t he?
 Josh, Dave and Stu are members of a boy band.
@@ -25075,6 +25124,7 @@ Justus is cute, isn't he?
 Kangaroos are causing major headaches for Austrian farmers.
 Kant completely devastates the cobwebs and sophistries.
 Karen is an atheist.
+Kartesh apathetically states that he has no interest.
 Kat had no business to look so rapt and radiant.
 Kat is such a sympathetic listener.
 Kate, Sophie and Liz have all decided to train as psychiatrists.
@@ -25172,6 +25222,10 @@ Knowing her son was angry, she trembled inwardly.
 Knowing him, I review the old Scandinavian myths with clearer understanding.
 Knowledge of agriculture can enable people to become self-sufficient.
 Koalas can only be seen in Austria.
+Konkani datasets are difficult to find.
+Konkani has no natural language processing models.
+Konkani has two dialects.
+Konkani is spoke in Goa.
 Kris had long ago settled that she was a baptist.
 Labor is either bodily or mental.
 Lack of appetite!
@@ -25677,6 +25731,8 @@ Luckily, it is easy to protect your online privacy.
 Lucy has two sisters and three brothers, all of whom love the countryside
 Lucy was certainly lying when she said that.
 Luddites are not supportive of technological advances to a degree.
+Lukas apathetically states that he has no interest.
+Luke apathetically states that he has no interest.
 Luke is a classical composer.
 Lunch was not a very festive function.
 Lydia came to us; and Wickham had constant admission to the house.
@@ -25755,8 +25811,14 @@ Man is asexual and sexual, while woman is all sexual.
 Man you met about a month ago.
 Man, there's hope for us yet.
 Man, you've hit it!
+Manisha apathetically states that he has no interest.
+Manisha is sitting there.
 Mankind must preserve the environmental ecosystem that sustains it.
+Manohar apathetically states that he has no interest.
 Manoj Tiwari is a good bowler.
+Manoj apathetically states that he has no interest.
+Manoj is the leader.
+Mansi just joined the job while I did.
 Manuel had one besetting sin.
 Many English come here to get fresh air and indulge in a gamble.
 Many Western languages derive from Indo-European roots
@@ -25831,6 +25893,7 @@ Marilla, I cannot face Josie Garner.
 Marilla, a broiled chicken!
 Marimbas and square drums formed the bands.
 Marjory sat on the table and watched Mike eat.
+Mark apathetically states that he has no interest.
 Mark had always been a worrier.
 Mark that word "unnecessary".
 Mark the area of water with a buoy.
@@ -26342,6 +26405,7 @@ Mournful penitence appeared on every feature.
 Move it to the side.
 Move to the left-hand lane if you're going to pull off here
 Movements may be synthesized without our will.
+Mozilla has no option of Konkani in it.
 Mr Booth himself brought them round.
 Mr Earnshaw and Mrs Linton are characters from Wuthering Heights
 Mr Elton returned, a very happy man.
@@ -26709,6 +26773,7 @@ My battery died, got a charger?
 My being saved from pain is a very secondary consideration.
 My bicycle tyre had a puncture, and I had to change the inner tube
 My birthday is in August.
+My birthday is in October.
 My blessed boy, words can't express my gladness.
 My boyfriend's been cheating on me.
 My brain ceased to reel.
@@ -27667,6 +27732,7 @@ Nor was I wrong.
 Nor was it.
 Nor was that bought for you.
 Nor would it thaw out his hands and feet.
+North Goa Konkani is different from the South Goa Konkani.
 North Persia and the silk carpets come first.
 Not Davis, who had no bicycle.
 Not I, my loving cousin!
@@ -29445,6 +29511,7 @@ People do not die of little trifling colds.
 People don't even have the ability to question these so called doctors.
 People don't like to reveal their anxieties.
 People don’t learn much in the schools nowadays.
+People have not responded yet.
 People just took Ubers
 People make me sick.
 People may be put off from buying expensive homes.
@@ -29630,6 +29697,7 @@ Play the track "Justified Ancients of Mu Mu - The Queen and I".
 Play up, Jenkins!
 Player three has left the game.
 Pleading work, he sketched and studied with Jessop.
+Pleasant surprise!
 Please accept my condolences.
 Please add milk to the list.
 Please answer the questions highlighted by the asterisk.
@@ -29675,6 +29743,7 @@ Please don't keep complaining about my cough
 Please don't open the door.
 Please don't say any more.
 Please don't sit on the worktop!
+Please don't smoke.
 Please don't think that.
 Please don't, Frederick!
 Please don't, Mary!
@@ -29825,6 +29894,7 @@ Porvorim is a good area.
 Porvorim is four kilometres away from Panjim.
 Porvorim police station is close to Sanjay School.
 Possession is nothing to me.
+Possible tomorrow there is no work.
 Possibly I am letting the thing prey on my mind too much.
 Possibly a drinker.
 Possibly a little injudicious, sir.
@@ -29842,6 +29912,7 @@ Pott was evidently giving way.
 Potter closed the window gently and turned to Jellicoe.
 Pour coffee.
 Poutine is a dish consisting of fries, unripened cheese curds, and gravy.
+Prabhu is her husband.
 Practically I know no history.
 Practically not at all.
 Practice what you preach.
@@ -29934,6 +30005,7 @@ Pretty loving, indeed!
 Pretty situation for the general chairman of the Club.
 Pretty soon, I will take your phone.
 Pretty straight story, eh?
+Pretty well done!
 Pretty well, grandmother, I think.
 Pretty well, thank you, sir.
 Pretty, indeed! Oh yes!
@@ -30321,6 +30393,7 @@ Romance had put upon him too hard a trial.
 Romance once more, thinks Davies.
 Romeo and Juliet is one of Shakespeare’s best plays
 Ron's looking a bit peaky.
+Ronak is still six months old.
 Rosa draws nearer to the housekeeper.
 Rosa has been crying and is in distress.
 Rosa is shyer than before.
@@ -30379,6 +30452,7 @@ Sally took a peek through the keyhole.
 Saltpeter, when employed as a fertilizer, is generally sown by hand.
 Sam accompanies me there.
 Sam and Patricia watched a film while eating their supper.
+Sam apathetically states that he has no interest.
 Sam assisted him to rise.
 Sam constrained himself, however, and replied that his master was extremely well.
 Sam gave a short nod of intelligence, and left the room.
@@ -30394,6 +30468,9 @@ Sam thought it was, too, but he held his peace.
 Sam, slightly dashed, repeated her assertion.
 Sammy, help me in, and fill me a small glass of brandy.
 Sampson picked up some other scholars whose lessons were proportionally unproductive.
+Samrat apathetically says that he has no interest.
+Samrat apathetically states that he has no interest.
+Samuel apathetically states that he has no interest.
 Samuel collects shiny football stickers.
 Samuel has an Indian liver. He pegs.
 Samuel is a collector of rare retro games.
@@ -32502,6 +32579,7 @@ Shift down a gear.
 Shirking won't do for me.
 Shirley has a very bad temper.
 Shirley, what have you done to your hair?
+Shivam had dengue last week.
 Shocking outrage in Paris.
 Shoes flew about the room.
 Shoes off at the door.
@@ -32715,6 +32793,7 @@ Smith's usual mode of progression was a dignified walk.
 Smith, Roberts and Jones formed a band.
 Smith, you saw the paint on this shoe?
 Smoke a cigarette, if you'll allow me.
+Smoking is not allowed.
 Smoking, perhaps, might seem more natural.
 Snail and his owns were later sold to the city.
 Snakes and ladders is a game of chance.
@@ -33251,6 +33330,7 @@ Specially the experimental vaccinations.
 Spectators were abound at the tournament.
 Speculators say artificial intelligence is the next big thing.
 Speech recognition systems need to work for people with speech impediments.
+Speech to text needs to be done this week.
 Speechless, he handed the telegram over.
 Speed is the keynote of the present age.
 Speeding increases the risk of car accidents.
@@ -33687,8 +33767,10 @@ Talking, laughing, or snoring, they make the beams of the house shake.
 Tall saguaros reared their fluted columns like giant candelabra.
 Tana is answering a question.
 Tana, grinning, bore the glass away to the kitchen.
+Tanisha is her sister.
 Tap to exit.
 Tartar-mustard is to be preferred to English for this sauce.
+Tarun is walking in the garden.
 Tax deductible items should be declared.
 Taylor played very well.
 Taylor was appointed a specialist adviser to the panel.
@@ -37382,6 +37464,7 @@ The odds seemed favourable for him.
 The odds were horrible, but I had to take them.
 The odds were that he had forgotten about it already.
 The offending gambler had got wind of what was coming to him.
+The office is packed with people.
 The officer will be here at four o’clock'.
 The officers will find women better worth their notice.
 The official intimation was in that note you brought me.
@@ -41322,6 +41405,7 @@ They sneaked into the cinema.
 They snigger and grin sometimes.
 They sold red spotty pocket-handkerchiefs at a penny.
 They sometimes talked for Buncombe.
+They speak in Konkani.
 They speak so funny, I can't hardly make them out.
 They spent their summer at Lockwood camp.
 They spent weeks digging the pond.
@@ -42695,6 +42779,7 @@ To you I’ve made myself worse than the devil.
 To you and your sisters.
 To you — to my two daughters — I may tell the truth.
 Toast tastes best with butter.
+Tobacco causes cancer.
 Tod had made his home.
 Tod snapped at it, and barked.
 Today Faith said something funny and I found myself laughing.
@@ -42723,6 +42808,7 @@ Tom Spink has a harpoon.
 Tom Thumb was a mouse.
 Tom Thumb went cautiously across the hearth-rug.
 Tom and Martin had a boat.
+Tom apathetically states that he has no interest.
 Tom believes the philosophy of Ayn Rand is truly objective.
 Tom blew a raspberry at Mary and ran away.
 Tom bullies marginalized people.
@@ -43013,6 +43099,7 @@ Under the gathering twilight the town was unexpectedly attractive.
 Under the militant type the individual is owned by the state.
 Under the old log the ground was smothered with woodlice.
 Under the stresses of the war their endurance reached the breaking point.
+Under their probing, he spills an important truth.
 Under these circumstances it's understandable.
 Underclothing of every kind is now being made of a cellular cloth.
 Understand me, I don't agree to this.
@@ -43189,6 +43276,7 @@ Violence broke out amongst the rank and file.
 Violence broke out in the streets.
 Violent life and athletic sports had never appealed to me.
 Viraj Kolhi got out on the first ball.
+Virat apathetically states that he has no interest.
 Virendra Sehwag's uniqueness is first bowl four.
 Visible nature is all plasticity and indifference,.
 Vitriol has no place in this forum.
@@ -43415,6 +43503,18 @@ We are happily married.
 We are here to help you to get out.
 We are hoping to meet up with Margaret and Steve in a fortnight's time.
 We are humans and we are from Earth.
+We are in April.
+We are in August.
+We are in December.
+We are in February.
+We are in January.
+We are in July.
+We are in June.
+We are in March.
+We are in May.
+We are in November.
+We are in October.
+We are in September.
 We are in a mind to go through life together.
 We are in sight of the bridge!
 We are in the Milky Way Galaxy.
@@ -44456,6 +44556,7 @@ Welcome to our research Laboratory.
 Welcome to the dream realm.
 Welcome, dear friends.
 Well done, sir!
+Well done.
 Well enough to know what his intentions were?
 Well now, you’ve guessed it!
 Well that’s all right.
@@ -45800,6 +45901,7 @@ When an object travels fast and it suddenly stops it experiences inertia.
 When an upset was obviously inevitable, the horses slackened their pace.
 When are we to hear more of this?
 When are you going to publish this work of yours?
+When are you going to submit your assignment?
 When are you going to that place?
 When are you returning my money?
 When business is going good shareholders receive a dividend.
@@ -45948,10 +46050,13 @@ When will he come home, Lena?
 When will she have it?
 When will the winner be announced?
 When will they be here?
+When will this work get over?
 When will you do it?
 When will you do my work?
+When will you finish the work?
 When will you graduate?
 When will you stop such romping ways?
+When will you submit your assignment?
 When wiring a plug, make sure you can identify the earth wire
 When would you catch me wishing to have what Catherine wanted?
 When you awaken, the street will be transformed.
@@ -47523,6 +47628,7 @@ You can imagine the state I was in.
 You can invent reasons.
 You can learn how to build parts for a prosthetic arm.
 You can lie as snug here as if you were in a moss-hole.
+You can listen to the entire bible on youtube
 You can make a direct transfer to our bank account.
 You can not find a replacement for Mahendra Singh as a captain.
 You can pop off, Jack.
@@ -47971,6 +48077,7 @@ You look chilly in spite of all this laughing.
 You look like you need a hug!.
 You look out upon the mountain, I see.
 You look pale.
+You look up bible verses online
 You love to talk about you, don't you?
 You loved me — then what right had you to leave me?
 You made a great impression.
@@ -48724,6 +48831,7 @@ Your aunt," said Tuppy, "is a bit above herself.
 Your being wrecked here has been a godsend to me.
 Your bliss lies, like his, in inflicting misery.
 Your blood pressure has stabilized.
+Your brother did not respond to it till now.
 Your brother will talk to you; I'm busy.
 Your cab, Gussie.
 Your cards are only to break the formality of a circle.
@@ -48915,6 +49023,8 @@ are you going with me?
 because they could just be in your head
 come to think of it, I don't know what snivel means.
 divide the light from the darkness
+everyone is a sinner
+for the wages of sin is death
 forever because the universe is expanding
 he asked me with a keen glance.
 he cried in amazement.
@@ -48929,6 +49039,7 @@ if you succeed in following your beliefs and morals in each lifetime
 in circumstances under which no weakling could survive
 it was melancholy to leave her to such society!
 joined a queue of three or four persons.
+just copy the references and they all come up at once.
 kind of like writing a book This is how bibles are made, maybe
 learn more about our organizational structure.
 like the stone in a peach

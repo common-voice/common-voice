@@ -109,6 +109,7 @@ Blir Tom noen gang sliten?
 Blir du hjemme i kveld?
 Blokker bilder fra domene
 Bo og leve
+Bob har vært forlovet med Mary i over et år.
 Bolten sitter helt fast og den rikker seg ikke i det hele tatt.
 Bordet er laget med verktøy av høy kvalitet.
 Bowlingbanen har aldri vært i bedre stand.
@@ -309,6 +310,7 @@ Det blir sammenheng mellom de ulike tiltak som iverksettes
 Det blåser i dag.
 Det bor tilhengere av flere ulike religioner i Hviterussland.
 Det der er bare helt galt
+Det der er en dukke.
 Det der må du gjøre fortest mulig.
 Det der må være den rødeste kvisa noensinne.
 Det eksperimentet var mislykket.
@@ -566,6 +568,7 @@ Dette er ikke ei pipe.
 Dette er ikke min paraply. Den tilhører noen andre.
 Dette er siste gang jeg ber deg om å gjøre noe.
 Dette er veldig viktig. Likevel snakker ingen om det.
+Dette fjellet er dekket av snø hele året.
 Dette gamle bordet er fortsatt i bruk.
 Dette gjelder blant annet trykkvannverksrør.
 Dette huset tilhører herr Yamada.
@@ -607,6 +610,7 @@ Du burde unngå å ringe noen etter ti på kvelden.
 Du bør spørre Tom først.
 Du drikker for mye kaffe.
 Du er alltid overengstelig.
+Du er ansvarlig for det du har gjort.
 Du er dum.
 Du er død i løpet av få minutter
 Du er en engel!
@@ -1299,6 +1303,7 @@ Hun dro stolen mot seg.
 Hun drømte om ville jaguarer.
 Hun er alkoholiker.
 Hun er alltid bra sminket.
+Hun er bevistløs.
 Hun er deprimert.
 Hun er ei jente.
 Hun er en dyktig tennisspiller.
@@ -1415,6 +1420,7 @@ Hva er i vegen?
 Hva er mer guddommelig enn fornuften?
 Hva er populært nå?
 Hva er vitsen med å bekymre deg så mye?
+Hva faen tror du at du driver med?
 Hva gjorde du i ferien?
 Hva gjør du for å få tida til å gå?
 Hva gjør du for å få tiden til å gå?
@@ -1492,6 +1498,7 @@ Hvem lærte deg å danse?
 Hvem sin gitar er dette?
 Hvem sin sykkel er dette?
 Hvem sin tur er det?
+Hvem sitt rom er dette?
 Hvem skal du gi boka til?
 Hvem skal jeg velge?
 Hvem skrev denne boken? John.
@@ -1571,6 +1578,7 @@ Hvor lenge sover en bjørn?
 Hvor lenge vil dette tauet holde?
 Hvor mange av oss får sjansen?
 Hvor mange barn har du?
+Hvor mange bøker leser du i måneden?
 Hvor mange dager vil det ta?
 Hvor mange ganger så du filmen?
 Hvor mange jobber du sammen med?
@@ -1719,6 +1727,7 @@ Ikke spis meg.
 Ikke spis uten meg.
 Ikke sånn!
 Ikke ta det personlig.
+Ikke vær dum.
 Ikke vær redd for å gjøre feil når du snakker Engelsk.
 Ikke vær redd for å si feil når du snakker Engelsk.
 Ikke vær så egoistisk.
@@ -1968,6 +1977,7 @@ Jeg godtar det, men på en betingelse.
 Jeg gråt i sted.
 Jeg gråt.
 Jeg går hjem tidlig hver dag.
+Jeg går og handler hver morgen.
 Jeg går på skolen hver dag.
 Jeg går sammen med henne.
 Jeg går som regel til skolen.
@@ -1981,6 +1991,7 @@ Jeg hadde ristet brød til frokost.
 Jeg hadde steik og poteter i går.
 Jeg hadde vanskeligheter med å få tak i en drosje.
 Jeg har akkurat spist lunsj.
+Jeg har aldri før sett en så stor vannmelon.
 Jeg har aldri hørt at han har løyet.
 Jeg har aldri hørt noe slikt før.
 Jeg har aldri sett en så stor hval.
@@ -2001,6 +2012,7 @@ Jeg har en datter.
 Jeg har en følelse av at Tom vil ringe politiet.
 Jeg har en god jobb.
 Jeg har en idé du burde vurdere.
+Jeg har en katt og en hund.
 Jeg har en lett feber.
 Jeg har en overraskelse til deg.
 Jeg har en penn.
@@ -2011,6 +2023,7 @@ Jeg har et medfødt talent for matematikk.
 Jeg har fem boller i ovnen!
 Jeg har foreldrene mine å takke for at jeg har så god helse.
 Jeg har forsøkt å nå Tom siden i går.
+Jeg har fri i dag.
 Jeg har fått nok av frekkheten hans.
 Jeg har fått nok av spørsmålene dine.
 Jeg har helst ikke lyst på saft.
@@ -2257,6 +2270,7 @@ Jeg sitter ved bordet.
 Jeg skal aldri drikke igjen.
 Jeg skal aldri gjøre det igjen.
 Jeg skal dra når Tom kommer hit.
+Jeg skal gi deg en bok.
 Jeg skal gi deg en god pris.
 Jeg skal gi deg telefonnummeret til Dr. Shiegal.
 Jeg skal møte noen studenter.
@@ -2564,6 +2578,7 @@ John er en god ektemann til sin kone.
 John hadde en voldelig krangel med sin kone.
 John kom og flyttet noen av boksene.
 John kom til Japan igår.
+John skriver til foreldrene sine en gang i måneden.
 John skyndte seg ut.
 John vet ikke hvordan man spiller gitar.
 Jonas tok en stor slurk av melken sin og satt den ned
@@ -2618,6 +2633,7 @@ Kanskje det var en katt.
 Kaoru har reist til Amerika.
 Kapitalmarkedet er ikke lenger det det var for noen år siden.
 Kapteinen ba oss forlate skipet.
+Karbonmonoksid er et giftig stoff som dannes ved ufullstendig forbrenning av karbonforbindelser.
 Karrieren hennes var full av suksesser.
 Kast ikke bort et eneste riskorn!
 Katten er stor.
@@ -2728,6 +2744,7 @@ Liker du Seinfeld?
 Liker du golf?
 Liker du katter?
 Liker du musikk?
+Liker du svarte katter?
 Liker du å pilke på Trytetjønn?
 Likte du måltidet?
 Liljer er nasjonalblomsten til Italia.
@@ -3019,6 +3036,7 @@ Ses vi i morgen?
 Sex spiller egentlig ingen rolle for de fleste kinesere.
 Shakespeare er anerkjent som den største dramatikeren.
 Si det på gresk!
+Si meg, hvorfor trodde du jeg ville gå med på det?
 Si til henne hvilken hun skal ta.
 Siden han var så trøtt, sovnet han fort.
 Sikker på at dere ikke vil gi dere?

@@ -4616,6 +4616,7 @@ Das Thermometer zeigte sechsunddreißig Grad Celsius an.
 Das Ticket gilt für einen Tag und ist nicht übertragbar.
 Das Ticket müssen Sie hinten am Automaten lösen.
 Das Ticket zur Anfahrt ist in der Eintrittskarte enthalten.
+Das Tief Manfred ist im Anmarsch.
 Das Topmodell ist freilich nicht für jedermann erschwinglich.
 Das Tunnelsystem im Untergrund von New York ist sehr komplex.
 Das Tänzerpaar legt eine heiße Sohle auf das Parkett.
@@ -5487,6 +5488,7 @@ Das war vorher auch schon so.
 Das war wirklich lecker.
 Das war während einem meiner Einsätze in der Zone.
 Das war überhaupt nicht vorgetäuscht!
+Das war's schon?
 Das waren die Nachrichten.
 Das waren die dümmsten Trends im Jahr zweitausendneunzehn.
 Das waren die längsten drei Minuten meines Lebens.
@@ -5636,6 +5638,7 @@ Datenanalyse ist zur Monetarisierung erforderlich, sagte der Chief Operating Off
 Datenmenge zum Trainieren des Netzes verdoppeln.
 Datenschutz ist nicht sexy.
 Datenschutz ist wie Umweltschutz.
+Datenschutzfreundliche Alternativen sind zum Beispiel DuckDuckGo oder Ecosia.
 Datenschützer haben ein Image-Problem.
 Dauerhaft möchte man nicht in diesem Irrenhaus leben.
 David hat den Geografie-Leistungskurs gewählt.
@@ -10614,6 +10617,7 @@ Emoticons lassen sich problemlos in alten Datenbanken abspeichern.
 Emotionale Aufladung kann zu verfälschten Ergebnissen führen.
 Emotionale Flashbacks sind charakteristisch für komplexe posttraumatische Belastungsstörungen.
 Emotionale Vernachlässigung im Kindesalter kann genauso traumatische Folgen wie andere Misshandlungen haben.
+Empfehle mich, mein Herr.
 Empfehle mich.
 Empfehlen Sie mich Ihrer Frau Gemahlin!
 Ende August kann man schon die ersten Äpfel ernten.
@@ -11731,6 +11735,7 @@ Es tut mir leid, ich habe alles getan für dich was ich konnte.
 Es tut mir leid, ich habe verschlafen.
 Es tut mir leid. Ich kann jetzt nicht telefonieren.
 Es tut mir schrecklich leid, Sir.
+Es tut mir sehr leid, dass.
 Es tut mir wirklich leid, doch ich bin nicht so gescheit!
 Es täte ihm gut, seinen Horizont etwas zu erweitern.
 Es täte uns gut, uns auf unsere alten Werte und Traditionen zurückzubesinnen.
@@ -11798,6 +11803,7 @@ Es wird nicht ganz klar, ob sie zu einer Sekte oder einem Junggesellenabschied g
 Es wird nicht lange dauern, bis der Erste von ihnen das Bewusstsein verliert.
 Es wird nie zu spät sein.
 Es wird nur nicht geahndet.
+Es wird schwer halten, einen Platz zu finden.
 Es wird sich alles aufklären, glauben Sie mir!
 Es wird stets zu Gunsten des Prüflings gerundet.
 Es wird von Jahr zu Jahr wärmer.
@@ -11857,6 +11863,7 @@ Etwaige sonstige Vorstellungskosten sind zum Beispiel Hotel- oder Verpflegungsko
 Etwaige sonstige Vorstellungskosten werden nicht erstattet.
 Etwas Balsamico schadet keiner Soße.
 Etwas Kindsein sollte sich jeder bewahren.
+Etwas Pomade gefällig?
 Etwas Wahres ist an der Geschichte dran.
 Etwas anderes wurde Joachim nun überdeutlich klar.
 Etwas kräftiger als Tesafilm muss es schon sein.
@@ -11939,6 +11946,7 @@ Fahren Sie den Wagen mal auf die Hebebühne!
 Fahren Sie den Wagen mal auf die Hebebühne.
 Fahren Sie einen Slalom um die Pylonen.
 Fahren Sie einfach über die Rheinbrücke und biegen Sie danach rechts ab!
+Fahren Sie zunächst nach dem grossen Platz!
 Fahren jetzt erst los.
 Fahrgemeinschaften schonen den Geldbeutel und die Umwelt gleichermaßen.
 Fahrgemeinschaften schonen zugleich den Geldbeutel und die Umwelt.
@@ -12826,6 +12834,7 @@ Gemeinwohl hat Vorrang gegenüber Einzelinteressen.
 Gemälden zufolge hatte Ludwig der dreizehnte einen Fetisch für Frauenkleider.
 Gemüse enthält viele Kohlenhydrate und Ballaststoffe.
 Gemüse kann ich viel kochen, das muss ich immer selbst essen.
+Gemüse sollte man nicht so lange liegen lassen.
 Gemüse von der Erde schmeckt einfach besser als das aus der Weltraumzucht.
 Gemütlich ist es ja im Matratzenlager.
 Genannt wurde der Gesamtbetrag, aber nicht die Stückelung.
@@ -13988,6 +13997,7 @@ Herr Meißner führt garantiert etwas im Schilde.
 Herr Minister, warum bin ich arbeitslos?
 Herr Möller muss mal wieder anderer Leute Unzulänglichkeiten ausbügeln.
 Herr Müller, ich habe mein Turnzeug zu Hause vergessen.
+Herr Nang wohnt jetzt Bogadozstrasse vierzehn, drei Treppen.
 Herr Nans ist da.
 Herr Neumann braucht ein neues Modem.
 Herr Ober, ein Bier!
@@ -14605,6 +14615,7 @@ Ich bedauere sehr, mein Herr.
 Ich bedauere unendlich, ich kann es Ihnen nicht sagen.
 Ich bedaure diesen armen Wurm.
 Ich bedaure sehr, ich habe keine Uhr bei mir.
+Ich befinde mich gar nicht wohl.
 Ich befriedige mich täglich selbst.
 Ich befürchte die kommt spätestens im Herbst.
 Ich befürchte, der Kaffee ist noch nicht ganz durchgelaufen.
@@ -14750,6 +14761,7 @@ Ich bin sehr froh gewesen, dass ich schon geimpft bin.
 Ich bin sehr für ein fröhliches Miteinander, aber bitte nicht jedes Wochenende eine Party!
 Ich bin sehr hungrig; dieser Spaziergang hat mir Appetit gemacht.
 Ich bin sehr nervös, weil ich nicht weiß, wie ihr diese Neuigkeiten aufnehmen werdet.
+Ich bin sehr stolz auf meinen Sohn.
 Ich bin sicher, dafür gibt es auch einen Fachbegriff.
 Ich bin sicher, irgendwo gibt es eine Hintertür.
 Ich bin stärker.
@@ -18113,6 +18125,7 @@ Jetzt müsste sie halt nur noch antworten.
 Jetzt neu in Köln: Olga und Fatima.
 Jetzt noch ein Pfannkuchen mit Nutella und Banane.
 Jetzt noch ein kühles Blondes und der Feierabend wäre perfekt.
+Jetzt noch eine halbe Stunde köcheln lassen.
 Jetzt nur noch die Schuhe.
 Jetzt pass mal gut auf!
 Jetzt probiere ich bereits das dritte Mikro aus.
@@ -19699,6 +19712,7 @@ Mach dein Radio endlich leiser!
 Mach den Rücken gerade und zieh den Bauch ein, wenn du mit ihr sprichst!
 Mach dich auf ein Disziplinarverfahren gefasst.
 Mach dich nicht kleiner, als du bist.
+Mach dir keine Sorgen.
 Mach dir mal nicht so viele Gedanken.
 Mach dir nichts daraus.
 Mach doch mal ein Selbstexperiment.
@@ -21966,6 +21980,7 @@ Nein, wieso?
 Nein, wir haben noch nicht genug!
 Nein, wir machen es so wie besprochen.
 Nein, über unsere Zukunft.
+Nein; hier ist der Schein.
 Nein; wenn es nötig ist, kann ich mich in fünf Minuten ankleiden.
 Nele ist barfuß in eine Nacktschnecke getreten.
 Nelson mochte weder Hunde noch Katzen.
@@ -22519,6 +22534,7 @@ Nun zeige ich Ihnen die Zimmer.
 Nun übertreibe es doch nicht immer, Mausi!
 Nun, Sie haben ein Problem, sagte der vollbärtige Mister Wodka.
 Nun, Sie haben es schon wieder nicht, aber trotzdem danke!
+Nun, da nehmen Sie mir Mass.
 Nun, das Öl kommt vielleicht aus Russland.
 Nun, der Beklagte hat einst einen Spielbetrieb besessen.
 Nun, dies ist ein Zweifelsfall.
@@ -24941,6 +24957,7 @@ Sie werden aber noch schriftlich darüber informiert.
 Sie werden dann automatisch umgeleitet.
 Sie werden darin sehr schöne Muster finden.
 Sie werden gerade noch zur rechten Zeit kommen.
+Sie werden gut tun, den Arzt holen zu lassen.
 Sie werden ihrem Herausforderer ordentlich einheizen.
 Sie werden immer willkommen sein.
 Sie werden vollständig zufrieden sein.
@@ -30664,6 +30681,7 @@ Wiederkehrende Träume werden als Echo klassifiziert und vom Personal ignoriert.
 Wiedersehen!
 Wiederum wenn es besonders betont wird, dann wird Mal groß geschrieben.
 Wiegt er über zwanzig Gramm?
+Wien, zweiter, Raucher!
 Wien, zweiter, hin und zurück.
 Wieso akzeptierst du deinen Körper nicht einfach, wie er ist?
 Wieso ausgerechnet gegen Belgien?
@@ -31619,6 +31637,7 @@ Wollen Sie mich begleiten?
 Wollen Sie mir diesen Knopf annähen?
 Wollen Sie mir einige Modebilder zeigen?
 Wollen Sie mir weismachen, dass die Kennlinie nicht durch den Ursprung verläuft?
+Wollen Sie nicht Ihren Handkoffer ins Netz legen; er wird Sie dann weniger genieren.
 Wollen Sie sich freundlichst mit mir hinaufbemühen?
 Wollen Sie, dass E-Tretroller auf dem Bürgersteig fahren?
 Wollen wir Ihn herein lassen?
@@ -31738,6 +31757,7 @@ Wurde der Code ausgiebig getestet?
 Wurde der Kater heute schon gefüttert?
 Wurde der Staatsanwalt benachrichtigt?
 Wurde der falsch geimpft, oder was?
+Wurde die Demokratie am Hindukusch verteidigt?
 Wurde die falsch geimpft, oder was?
 Wurde dir schon ein Impfangebot gemacht?
 Wurde ein Fördergeldantrag gestellt?
