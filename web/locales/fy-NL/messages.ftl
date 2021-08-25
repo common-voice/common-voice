@@ -461,6 +461,9 @@ about-subtitle = Common Voice is part fan in inisjatyf fan Mozilla om masinen te
 about-header-description =
     Beide projekten meitsje diel út fan ús ynspanningen om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe us apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
     Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
+about-header-description-2 =
+    Dit projekt is in ynspanning om de digitale spraakkleau te oerbrêgjen. Spraakwerkenningstechnologyen jouwe ús apparaten in minsklike diminsje, mar ûntwikkelers hawwe in enoarme hoemannichte spraakgegevens nedich om se te bouwen. Op dit stuit binne de measte fan dy gegevens djoer en ôfskerme.
+    Wy wolle spraakgegevens fergees en frij beskikber meitsje en derfoar soargje dat de gegevens in ferskaat fan echte minsken fertsjinwurdigje. Tegearre kinne wy stimwerkenning foar elkenien better meitsje.
 how-does-it-work-title = Hoe't it wurket
 how-does-it-work-text = Wy crowdsource in iepen boarne stimgegevensset. Donearje jo stim, falidearje de sekuerens fan opnamen fan oaren en meitsje de gegevensset better foar elkenien.
 about-speak = Sprek
@@ -594,6 +597,11 @@ subscribe = Abonnearje
 get-started-speech = Oan 'e gong mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy't state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
+resource-deepspeech-info = Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, kin brûkt wurde om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-foarum op Discourse</discourseLink> om te ûntdekken hoe't jo begjinne kinne.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> is tawijd oan iepen spraaktechnology. Harren projekten omfetsje op deep learning basearre STT- en TTS-masinen.
+community-playbook = Mienskipsdraaiboek
+resource-playbook-info = <playbookLink>Untdek nuttige hantliedingen</playbookLink> oer it hiele Common Voice-trajekt, fan lokalisaasje ta gebrûk fan de dataset, krekt as hoe't jo kontakt meitsje kinne mei ús mienskip.
 data-other-librispeech-description = LibriSpeech is in korpus fan ûngefear 1.000 oeren lêzen Ingelske spraak yn 16Khz ôfkomstich fan lêzen audioboeken fan it LibriVox-projekt.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = De TED-LIUM-korpus is makke fan audiopetearen en harren ûndertitels beskikber op de TED-website.
@@ -920,6 +928,7 @@ contribution-criteria-page-title = Bydragekritearia
 contribution-criteria-page-description = Ynformearje jo oer wêrop't jo by it harkjen fan fragminten lette moatte en hoe't jo jo eigen stimopnamen ferbetterje kinne!
 contribution-for-example = bygelyks
 contribution-misreadings-title = Lêsflaters
+contribution-misreadings-description = Kontrolearje wylst jo harkje soarchfuldich dat wat opnommen is ek krekt is wat der skreaun stiet; keur it ôf as der sels lytse flaters binne. <br />Faaks foarkommende flaters binne:
 contribution-volume-title = Folume
 contribution-reader-effects-title = Lêzereffekten
 contribution-just-unsure-title = Gewoan ûnwis?
