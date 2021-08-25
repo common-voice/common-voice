@@ -859,6 +859,9 @@ why-delete-recordings =
     Kan du låta oss veta varför du vill att dina inspelningar raderas?
 profile-form-delete = Ta bort profil
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Välkomna anställda på { $company }!
@@ -912,8 +915,11 @@ contribution-criteria-page-description = Förstå vad du ska leta efter när du 
 contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
+contribution-misreadings-example-4-explanation = [Mer har spelats in än den obligatoriska texten]
+contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
 contribution-varying-pronunciations-title = Varierande uttal
 contribution-background-noise-title = Bakgrundsbrus
+contribution-background-noise-example-2-explanation = [Delar av texten kan inte höras]
 contribution-background-voices-title = Bakgrundsröster
 contribution-volume-title = Volym
 contribution-just-unsure-title = Osäker?
