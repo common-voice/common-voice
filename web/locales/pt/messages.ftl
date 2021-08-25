@@ -586,8 +586,6 @@ subscribe = Assinar
 get-started-speech = Introdução ao reconhecimento de voz
 other-datasets = Outros conjuntos de dados de voz
 feedback-q = Quer fazer comentários?
-deepspeech-info = O conjunto de dados do Common Voice complementa o mecanismo de reconhecimento de voz de código aberto da Mozilla, Deep Speech, que você pode usar para construir aplicações de reconhecimento de voz. Leia nossa <githubLink>introdução no Github</githubLink> ou participe do <discourseLink>DeepSpeech Discourse</discourseLink> para saber como começar.
-common-voice-info-new = Tem perguntas sobre o Common Voice? Ideias para aprimorar, ou comentários sobre um idioma específico? Junte-se a nós em nosso <discourseLink>fórum do Discourse</discourseLink> e nos conte.
 data-other-librispeech-description = LibriSpeech é um corpus de aproximadamente 1000 horas de leitura em inglês em 16Khz, derivado de audiolivros do projeto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM Corpus foi criado a partir de áudios de palestras e suas transcrições, que estão disponíveis no site TED.
@@ -857,6 +855,22 @@ why-delete-recordings =
     
     Poderia nos dizer por que gostaria que suas gravações sejam apagadas?
 profile-form-delete = Excluir perfil
+
+## Profile Download
+
+download-profile-title = Perfil
+download-profile-info = Inclui email, nome de usuário e informações demográficas
+download-profile-size = Alguns bytes
+download-recordings-title = Gravações
+download-recordings-info = Inclui arquivos mp3 e frases relacionadas
+download-recordings-size = Normalmente megabytes
+download-size = Tamanho
+download-selected = Selecionado
+download-request-title = { $created }
+download-request-refresh-button = Atualizar
+download-request-modal-description = Aqui estão os links para baixar seus arquivos ZIP.
+download-request-link-text = Zip #{ $offset } de { $total }
+download-request-metadata-link = Texto da frase
 
 ## Landing
 
