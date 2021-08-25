@@ -21,6 +21,7 @@ import { getConfig } from './config-helper';
 import authRouter, { authMiddleware } from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import * as proxy from 'http-proxy-middleware';
+import { createTaskQueues, TaskQueues } from './lib/takeout';
 var HttpStatus = require('http-status-codes');
 
 require('source-map-support').install();
@@ -57,6 +58,7 @@ export default class Server {
   server: http.Server;
   model: Model;
   api: API;
+  taskQueues: TaskQueues;
   isLeader: boolean;
 
   get version() {
@@ -68,6 +70,8 @@ export default class Server {
     options = { bundleCrossLocaleMessages: true, ...options };
     this.model = new Model();
     this.api = new API(this.model);
+    this.taskQueues = createTaskQueues(this.api.takeout);
+    this.api.takeout.setQueue(this.taskQueues.dataTakeout);
     this.isLeader = null;
 
     const app = (this.app = express());

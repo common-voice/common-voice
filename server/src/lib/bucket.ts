@@ -1,7 +1,11 @@
 import { S3 } from 'aws-sdk';
 import { getConfig } from '../config-helper';
 import Model from './model';
-import { Sentence, Clip } from 'common';
+import { Clip, TakeoutRequest } from 'common';
+import { PassThrough } from 'stream';
+import { ClientClip } from './takeout';
+
+const s3Zip = require('s3-zip');
 
 /**
  * Bucket
@@ -114,6 +118,68 @@ export default class Bucket {
     }
 
     return Promise.all(clipPromises);
+  }
+
+  takeoutKey(takeout: TakeoutRequest, chunkIndex: number): string {
+    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_pt_${chunkIndex}.zip`;
+  }
+
+  metadataKey(takeout: TakeoutRequest): string {
+    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_metadata.txt`;
+  }
+
+  async zipTakeoutFilesToS3(
+    takeout: TakeoutRequest,
+    chunkIndex: number,
+    keys: string[]
+  ): Promise<S3.HeadObjectOutput> {
+    console.log('start takeout zipping', takeout.id);
+    const destination = this.takeoutKey(takeout, chunkIndex);
+    const bucket = getConfig().CLIP_BUCKET_NAME;
+    const passThrough = new PassThrough();
+
+    const s3pipe = s3Zip
+      .archive({ s3: this.s3, bucket, debug: true }, '', keys)
+      .pipe(passThrough);
+
+    await this.s3
+      .upload({
+        Bucket: bucket,
+        Body: passThrough,
+        Key: destination,
+        // TODO: enable this, currently bugs out s3proxy
+        // Tagging: 'Type=takeout'
+      })
+      .promise();
+
+    return await this.s3
+      .headObject({
+        Bucket: bucket,
+        Key: destination,
+      })
+      .promise();
+  }
+
+  async uploadClipMetadata(
+    takeout: TakeoutRequest,
+    clipData: ClientClip[]
+  ): Promise<S3.HeadObjectOutput> {
+    const metadataKey = this.metadataKey(takeout);
+    const sentenceData = clipData
+      .map(clip => `${clip.original_sentence_id}\t${clip.sentence}`)
+      .join('\n');
+    const bucket = getConfig().CLIP_BUCKET_NAME;
+
+    await this.s3
+      .putObject({ Bucket: bucket, Key: metadataKey, Body: sentenceData })
+      .promise();
+
+    return await this.s3
+      .headObject({
+        Bucket: bucket,
+        Key: metadataKey,
+      })
+      .promise();
   }
 
   getAvatarClipsUrl(path: string) {
