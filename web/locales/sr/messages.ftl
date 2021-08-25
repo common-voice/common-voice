@@ -893,6 +893,17 @@ download-profile-title = Профил
 download-profile-info = Укључује е-пошту, корисничко име и демографске податке
 download-profile-size = Неколико бајтова
 download-recordings-title = Снимци
+download-recordings-info = Укључује mp3 и повезане реченице
+download-size = Величина
+download-selected = Изабрано
+download-start = Започни преузимање
+download-request = Затражи преузимање
+download-requests = Претходни захтеви за преузимање
+download-requests-info = Када затражите ваше снимке, ми их сабијамо у једну или више ZIP датотека. Ево ваших претходних захтева:
+download-request-button = Преузми
+download-request-title = { $created }
+download-request-description = { $clipCount } гласовних снимака, укупне величине { $size }. Истиче { $expires }.
+download-request-refresh-button = Освежи
 
 ## Landing
 
