@@ -891,6 +891,25 @@ profile-form-delete = Profil zhašeć
 ## Profile Download
 
 download-q = Dyrbiće swoje daty sćahnyć?
+download-info = Zdźělće nam, kotre daty byšće rady sćahnył:
+download-profile-title = Profil
+download-profile-info = Wobsahuje e-mejlowu adresu, wužiwarske mjeno a demografiske informacije
+download-profile-size = Někotre bajty
+download-recordings-title = Natočenja
+download-recordings-info = Zapřijima mp3 a přisłušne sady
+download-recordings-size = Zwjetša megabajty
+download-size = Wulkosć
+download-selected = Wubrane
+download-start = Sćehnjenje započeć
+download-request = Sćehnjenje naprašować
+download-requests = Zańdźene sćehnjenske naprašowanja
+download-request-button = Sćahnyć
+download-request-title = { $created }
+download-request-refresh-button = Aktualizować
+download-request-modal-title = Sćehnjenske wotkazy
+download-request-modal-description = Tu su wotkazy za sćehnjenje wašich ZIP-datajow.
+download-request-link-text = Zip #{ $offset } z { $total }
+download-request-metadata-link = Tekst sady
 
 ## Landing
 
