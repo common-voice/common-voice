@@ -33,14 +33,18 @@ as = Asameg
 ast = Asturieg
 az = Aserbaijaneg
 ba = Bashkirs
+bas = Basaa
 be = Belarusieg
 bg = Bwlgareg
+bm = Bambara
 bn = Bengaleg
 br = Llydaweg
 bxr = Buryat
 ca = Catalaneg
 cak = Kaqchikel
+ckb = Cwrdeg y Canoldir
 cnh = Hakha Chin
+co = Corseg
 cs = Tsiec
 cv = Chuvash
 cy = Cymraeg
@@ -62,11 +66,13 @@ fr = Ffrangeg
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
 gl = Galisieg
+gn = Guarani
 ha = Hausa
 he = Hebraeg
 hi = Hindi
 hr = Croatieg
 hsb = Sorbeg Uwch
+ht = Haiteg
 hu = Hwngareg
 hy-AM = Armeneg
 hyw = Armeneg Gorllewninol
@@ -81,33 +87,41 @@ kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardieg
 kk = Casac
+kmr = Cwrdeg Kurmanji
 ko = Corëeg
 kpv = Komi-Zyrian
-ku = Cwrdeg
 kw = Cernyweg
 ky = Kyrgyz
 lg = Luganda
 lij = Ligurieg
 lt = Lithiuanieg
 lv = Latfieg
+mai = Maithili
 mdf = Moksha
 mg = Malagaseg
 mhr = Mari Dwyreiniol
 mk = Macedoneg
 ml = Malayalam
 mn = Mongolieg
+mos = Mossi
+mr = Marathi
 mrj = Mari Gorllewinol
+ms = Maleieg
 mt = Malteg
 my = Byrmaneg
 myv = Erzya
 nb-NO = Bokmål Norwyeg
 ne-NP = Nepaleg
+nia = Nias
 nl = Iseldireg
 nn-NO = Norwyeg Nynorsk
+nyn = Nyankole
 oc = Occitaneg
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Pwyleg
+ps = Pashto
 pt = Portiwgaleg
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
@@ -115,11 +129,14 @@ ro = Rwmaneg
 ru = Rwsieg
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sisilieg
+shi = Shilha
 si = Sinhala
 sk = Slofaceg
 sl = Slofeneg
+so = Somali
 sq = Albaneg
 sr = Serbeg
 sv-SE = Swedeg
@@ -132,14 +149,18 @@ th = Thai
 tl = Tagalog
 tr = Twrceg
 tt = Tartareg
+tw = Twi
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Wcraneg
 ur = Urdu
 uz = Wsbeceg
 vec = Venetieg
 vi = Fietnameg
 vot = Votig
+yo = Yoruba
+yue = Cantonëeg
 zh-CN = Tsieinëeg (Tsiena)
 zh-HK = Tsieinëeg (Hong Kong)
 zh-TW = Tsieinëeg (Taiwan)
@@ -171,6 +192,7 @@ logout = Allgofnodi
 ## Home Page
 
 home-title = Common Voice yw cynllun Mozilla i helpu dysgu peiriannau sut mae pobl go-iawn yn siarad.
+default-tagline = Mae Mozilla Common Voice yn gynllun i helpu dysgu peiriannau sut mae pobl go-iawn yn siarad.
 home-cta = Siarad a chyfrannu yma!
 wall-of-text-start = Mae llais yn beth naturiol ac yn perthyn i ni i gyd. Dyna pam mae gennym ddiddordeb mawr mewn creu technoleg llais ddefnyddiol ar gyfer ein peiriannau. Ond er mwyn creu systemau llais, mae angen data llais sylweddol iawn arnom.
 wall-of-text-more-mobile = Nid yw'r data sy'n cael ei ddefnyddio gan gwmnïau mawr ar gael i'r rhan fwyaf o bobl. I ni, mae hynny'n cyfyngu ar ddyfeisgarwch. Felly rydym wedi cychwyn Project Common Voice, fel bod adnabod llais ar gael i bawb.
@@ -249,7 +271,7 @@ whats-public = Beth sy'n Gyhoeddus?
 email-not-public = Fyddwn ni ddim yn gwneud eich e-bost yn gyhoeddus.
 recordings-and-locale-public = Bydd y nifer o recordiadau a pha ieithoedd rydych yn cyfrannu atyn nhw yn gyhoeddus.
 username-optin-public = Gallwch ddewis gwneud eich enw defnyddiwr yn gyhoeddus neu'n anhysbys.
-demographic-deidentified-clarity = Fydd data demograffig sy'n cael ei gynnig o ran dewis (e.e. oedran, rhyw, iaith, ac acen) byth yn cael ei gyhoeddi ar eich proffil, a fyddan nhw ddim yn gysylltiedig â'ch cyfrif yn y set ddata. Bydd clipiau sain unigol yn gysylltiedig â data demograffig at ddibenion dadansoddiad mwy cywir - er enghraifft, efallai y bydd ymchwilydd eisiau targedu model hyfforddi at segment demograffig penodol.
+demographic-deidentified-clarity-2 = Fydd data demograffig sy'n cael ei gynnig o ran dewis (e.e. oedran, rhyw, iaith, ac acen) byth yn cael ei gyhoeddi ar eich proffil, a fyddan nhw ddim yn gysylltiedig â'ch cyfrif yn y set ddata. Bydd clipiau sain unigol yn gysylltiedig â data demograffig at ddibenion dadansoddiad mwy cywir - er enghraifft, efallai y bydd ymchwilydd eisiau targedu model hyfforddi at segment demograffig penodol.
 username-email-not-demographic = Ni fydd eich enw defnyddiwr na'ch e-bost yn cael ei gysylltu â'r data sy'n cael ei gyhoeddi.
 
 ## Speak & Listen Shortcuts
@@ -278,7 +300,12 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Recordio/Atal
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Clip wedi'i ail recordio
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Dileu'r recordio parhaus
+shortcut-submit = Nôl
+shortcut-submit-label = Cyflwyno clipiau
 request-language-text = Ddim yn gweld eich iaith ar Common Voice eto?
+request-language-text-learn = Dysgwch sut i ofyn amdano yma!
 request-language-button = Cais am Iaith
 
 ## ProjectStatus
@@ -311,7 +338,7 @@ profile-form-accent =
     .label = Acen
 profile-form-age =
     .label = Oed
-profile-form-gender =
+profile-form-gender-2 =
     .label = Rhyw
 leaderboard-visibility =
     .label = Gwelededd y Sgorfwrdd
@@ -338,7 +365,7 @@ profile-close = Cau
 profile-explanation = Cadw golwg o'ch cynnydd gyda phroffil a helpu'n data llais i fod yn fwy cywir.
 thanks-for-account = Diolch am gadarnhau eich cyfrif, nawr ymlaen i greu eich proffil.
 why-demographic = Pam fod hyn o bwys?
-why-demographic-explanation = Mae data defnyddwyr dienw fel oed, rhyw ac acen yn helpu i wella'r data sain sy'n cael ei ddefnyddio i hyfforddi cywirdeb peiriannau adnabod llais. Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data rydych wedi ei gyflwyno a gallwch ddewis os ydych am wneud eich enw defnyddiwr yn hysbys neu beidio.
+why-demographic-explanation-2 = Mae data defnyddwyr dienw fel oed, rhyw ac acen yn helpu i wella'r data sain sy'n cael ei ddefnyddio i hyfforddi cywirdeb peiriannau adnabod llais. Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data rydych wedi ei gyflwyno a gallwch ddewis os ydych am wneud eich enw defnyddiwr yn hysbys neu beidio.
 accept-privacy = Rwy'n hapus gyda chi'n defnyddio'r wybodaeth yma fel rydych yn ei esbonio ym <privacyLink>Mholisi Preifatrwydd Mozilla</privacyLink>
 accept-privacy-title = Polisi Preifatrwydd
 login-identity = Enw Mewngofnodi
@@ -352,26 +379,19 @@ skip-submission-description = Wrth gyflwyno cyfraniadau bydd adborth y cael ei h
 skip-submission-note = Sylw: Bydd dal rhaid i chi ddewis rhwng Siarad neu Gwrando i newid y math o gyfraniad.
 off = Diffodd
 on = Ymlaen
-avatar-clip-title = Rhowch lais i'ch afatar
-change-your-avatar-clip = Eisiau newid eich clip llais?
-recording-in-progress = Wrthi'n recordio llais
-avatar-clip-recorded = Mae'ch afatar nawr yn cynnwys clip llais!
-record-voice-wave = RECORDIWCH EICH CYFARCHIAD LLAIS
-retry-voice-wave-recording = CYNNIG ETO
-re-record = AIL RECORDIO
-delete-voice = DILEU
-recording-voice-wave = Recordio
-delete-voice-clip = neu Ddileu clip llais
-ready-to-upload = Llwytho i Fyny
-avatar-clip-fact = Mae'n ffaith hysbys y bydd sylw'r darllenydd yn cael ei ddrysu gan gynnwys darllenadwy tudalen wrth edrych ar ei chynllun.
-recreate-voice = Ail greu'r Cyfarchiad Llais
-cancel-avatar-clip-recording = Diddymu
-about-avatar-clip-recording = Crëwch glip llais fel rhan o'ch afatar proffil. Bydd eraill yn gallu hofran a gwrando ar eich clip.
+
+## Profile - Email
+
 browse-file-title = Llwytho ffeil delwedd
 browse-file = Llusgo a gollwg neu <browseWrap>Bori</browseWrap>
 connect-gravatar = Cysylltu â Gravatar
 gravatar_not_found = Dim gravatar wedi ei ganfod o'ch e-bost
 file_too_large = Mae'r ffeil yma'n rhy fawr
+avatar-uploaded = Llwythwyd yr afatar
+max-file-size = uchafswm o { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Rheoli Tanysgrifiadau
 manage-email-subscriptions = Rheoli Tanysgrifiadau E-bost
 email-already-used = Mae'r e-bost yn cael ei ddefnyddio yn barod ar gyfer cyfrif gwahanol
@@ -386,11 +406,15 @@ faq-what-cv-a =
     Mae technoleg adnabod llais yn chwyldroi'r ffordd rydym yn rhyngweithio â pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud ac yn berchnogol. Mae Common Voice yn rhan o fenter Mozilla i wneud technolegau adnabod llais yn well ac yn fwy hygyrch i bawb. Mae Common Voice yn gronfa ddata fyd-eang enfawr o leisiau rhodd sy'n rhoi cyfle i unrhyw un apiau llais yn gyflym a rhwydd ym mhob iaith ac i bob pwrpas.
     
     Rydym nid yn unig yn casglu samplau llais mewn ieithoedd llafar eang ond hefyd yn y rheiny â phoblogaeth lai o siaradwyr. Bydd cyhoeddi set ddata amrywiol o leisiau yn rhoi grym i ddatblygwyr, entrepreneuriaid a chymunedau i fynd i'r afael â'r bwlch hwn eu hunain. Yn ogystal â set ddata Common Voice, rydym hefyd yn adeiladu peiriant adnabod lleferydd agored o'r enw Deep Speech.
+faq-what-cv-a-2 =
+    Mae technoleg adnabod llais yn chwyldroi'r ffordd rydym yn rhyngweithio â pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud ac yn berchnogol. Mae Common Voice yn rhan o fenter Mozilla i wneud technolegau adnabod llais yn well ac yn fwy hygyrch i bawb. Mae Common Voice yn gronfa ddata fyd-eang enfawr o leisiau wedi'u cyfrannu sy'n rhoi cyfle i unrhyw i hyfforddi apiau llais yn gyflym a rhwydd ym mhob iaith i bob pwrpas.
+    
+    Rydym nid yn unig yn casglu samplau llais mewn ieithoedd llafar eang ond hefyd yn y rheiny â phoblogaeth lai o siaradwyr. Bydd cyhoeddi set ddata amrywiol o leisiau yn rhoi grym i ddatblygwyr, entrepreneuriaid a chymunedau i fynd i'r afael â'r bwlch hwn eu hunain. Yn ogystal â set ddata Common Voice, rydym hefyd yn adeiladu peiriant adnabod lleferydd agored o'r enw Deep Speech.
 faq-why-important-q = Pam mae hyn yn bwysig?
 faq-why-important-a =
     Yn aml, defnyddio ein llais yw'r ffordd fwyaf naturiol rydym yn ei ddefnyddio i gyfathrebu â'n gilydd ac mae technolegau llais yn dod â'r cyfleustra hwnnw i'n cyfrifiaduron a'n dyfeisiau symudol. Rydyn am roi grym i ddatblygwyr adeiladu apiau adnabod llais anhygoel fel cyfieithwyr amser real a chynorthwywyr digidol sy'n defnyddio llais. Ond ar hyn o bryd mae'r rhan fwyaf o'r data llais sydd ei angen i adeiladu'r mathau hyn o apiau yn ddrud ac yn berchnogol. Rydym yn gobeithio y bydd set ddata Common Voice yn rhoi i'r datblygwyr hyn yr hyn sydd ei angen arnyn nhw i arloesi a gwneud technoleg llais ar gael yn eu hiaith eu hunain.
     Er mwyn gwneud adnabod llais hyd yn oed yn fwy cyffredin, rydym yn casglu samplau llais mewn ieithoedd sydd â phoblogaethau mawr llafar yn ogystal â rhai sydd â llai o siaradwyr yn aml wedi'u tan-wasanaethu gan wasanaethau adnabod llais masnachol. Bydd cyhoeddi set ddata amrywiol o leisiau yn grymuso datblygwyr, entrepreneuriaid a chymunedau llais cyfan i fynd i'r afael â'r bwlch hwn eu hunain.
-faq-how-get-q = Sut mae cmodd i mi ael gafael ar ddata Common Voice?
+faq-how-get-q = Sut mae modd i mi gael gafael ar ddata Common Voice?
 faq-how-get-a = Mae set ddata Common Voice ar gael i'w lwytho i lawr o dan y drwydded <licenseLink> CC0 </licenseLink> ar <datasetLink> ein tudalen Setiau Data</datasetLink>. Gallwch hefyd lwytho i lawr nifer o setiau data eraill sydd ar gael i'r cyhoedd o'r un dudalen.
 faq-when-release2-q = Pryd fyddwch chi'n ryddhau data Common Voice mewn ieithoedd eraill?
 faq-when-release2-a = Mae fersiwn iaith lluosog set ddata Common Voice yn cael ei grynhoi a'i lanhau gan y gymuned ar hyn o bryd. Os hoffech ein helpu i ddod â Common Voice i ieithoedd newydd, ewch i edrych ar y <sentenceCollectorLink>Teclyn Casglu Brawddegau</sentenceCollectorLink> ar gyfer ychwanegu brawddegau newydd i'r set ddata, a Mozilla <pontoonLink> Pontoon </pontoonLink> ar gyfer cyfieithu'r wefan ei hun. Bydd ieithoedd newydd yn cael eu hychwanegu at Common Voice am gyfraniadau llais pan fydd 5000 o frawddegau cymeradwy wedi'u casglu.
@@ -443,6 +467,9 @@ about-subtitle = Mae Common Voice yn rhan o fenter Mozilla i helpu i ddysgu peir
 about-header-description =
     Mae'r ddau brosiect hyn yn rhan o'n hymdrechion i bontio'r rhaniad lleferydd digidol. Mae technolegau adnabod llais yn dod â dimensiwn dynol i'n dyfeisiau, ond mae angen llawer iawn o ddata llais ar ddatblygwyr i'w hadeiladu. Ar hyn o bryd, mae'r rhan fwyaf o'r data hwnnw'n ddrud ac yn berchnogol.
     Rydym am sicrhau bod data llais ar gael yn rhwydd ac yn gyhoeddus, a sicrhau bod y data'n cynrychioli amrywiaeth pobl go iawn. Gyda'n gilydd gallwn wneud adnabod llais yn well i bawb.
+about-header-description-2 =
+    Mae'r project hwn yn ymdrech i bontio'r rhaniad lleferydd digidol. Mae technolegau adnabod llais yn dod â dimensiwn dynol i'n dyfeisiau, ond mae angen llawer iawn o ddata llais ar ddatblygwyr i'w hadeiladu. Ar hyn o bryd, mae'r rhan fwyaf o'r data hwnnw'n ddrud ac yn berchnogol.
+    Rydym am sicrhau bod data llais ar gael yn rhwydd ac yn gyhoeddus, a sicrhau bod y data'n cynrychioli amrywiaeth pobl go iawn. Gyda'n gilydd gallwn wneud adnabod llais yn well i bawb.
 how-does-it-work-title = Sut mae'n gweithio?
 how-does-it-work-text = Rydym yn torfoli set ddata cod agored o leisiau. Rhowch eich llais, dilyswch gywirdeb clipiau pobl eraill, gwnewch y set ddata yn well i bawb.
 about-speak = Siarad
@@ -469,7 +496,7 @@ about-partnership =
     Hoffem ddiolch i'r bobl a'r sefydliadau canlynol am eu cymorth gyda'r prosiect:
 about-get-involved = Ymunwch
 about-get-involved-text-2 =
-    Eisiau helpu i wneud Common Voice well fyth?
+    Eisiau helpu i wneud Common Voice yn well fyth?
     Gwych! Cysylltwch trwy e-bost neu ar <discourseLink>Discource</discourseLink>,
     cyflwynwch adborth trwy <githubLink>GitHub</githubLink>, neu ymuno â ni
     ar lwyfan sgwrsio cymdeithasol <matrixLink>Matrix</matrixLink>
@@ -521,10 +548,12 @@ data-other-goto = Mynd i { $name }
 data-other-download = Llwytho Data i Lawr
 data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
+release-version = Fersiwn
+dataset-date = Dyddiad
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
 data-download-singleword-title = Llwytho'r Segment Targed Un Gair i Lawr
-data-download-singleword-callout = Mae hwn yn segment sy'n cael ei yrru gan achos defnydd yn cynnwys data i bweru adnabod digidau sy'n cael eu llefaru, canfod ie/na, a data profi gair deffro ar gyfer <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Mae hon yn segment defnydd sy'n cael ei yrru gan achos sy'n cynnwys data i bweru cydnabyddiaeth digid llafar a chanfod iawn / na.
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
 terms-agree = Rwy'n cytuno
 terms-disagree = Nid wyf yn cytuno
@@ -696,6 +725,7 @@ share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
 keep-track-profile = Cadwch olwg ar eich cynnydd gyda phroffil
 login-to-get-started = Mewngofnodiwch neu gofrestru i ddechrau arni
 target-segment-first-card = Rydych yn cyfrannu tuag at ein segment targed cyntaf
+target-segment-generic-card = Rydych yn cyfrannu at segment targed
 target-segment-first-banner = Helpwch i greu segment targed cyntaf Common Voice yn { $locale }
 target-segment-add-voice = Ychwanegwch Eich Llais
 target-segment-learn-more = Dysgu Rhagor
@@ -756,6 +786,7 @@ validations =
 
 your-languages = Eich Ieithoedd
 toward-next-goal = Ymlaen i'r targed nesaf
+goal-reached = Wedi cyrraedd y nod
 clips-you-recorded = Clipiau Rydych Wedi'u Recordio
 clips-you-validated = Clipiau Rydych Wedi'u Dilysu
 todays-recorded-progress = Cynnydd Common Voice heddiw ar glipiau wedi'u recordio
@@ -895,3 +926,95 @@ help-contribute = Gallwch helpu i adeiladu set ddata cod agored amrywiol trwy gr
 login-company = Mewngofnodi/Ymuno gydag e-bost { $company }
 profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
+
+## DemoLayout
+
+demo-get-started = Gadewch i ni Gychwyn Arni
+demo-welcome = Croeso i Common Voice
+demo-welcome-subheader = Oes gennych chi ddiddordeb mewn dysgu rhagor a chyfrannu at y project?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice yw'r set ddata llais aml-iaith fwyaf sydd ar gael i'r cyhoedd.
+demo-language-select-card-body = Diolch i gyfraniadau gan dros 259k o bobl mewn dros 50 o ieithoedd, mae'r data hwn yn cael ei ddefnyddio i hyfforddi rhaglenni lleferydd i ymateb yn well i'r llais dynol.
+card-button-next = Nesaf
+card-button-back = Nôl
+demo-language-select-label = Pori Ieithoedd
+demo-eofy-header = Rhyddhad Diwedd Blwyddyn 2019
+demo-eofy-sub_header = Set Ddata Llais, Yn Barod i'w Lwytho i Lawr
+demo-account = Cyfrif
+
+## Demo Account
+
+demo-account-card-header = Nid oes angen cael cyfrif i gyfrannu ond gall fod yn ddefnyddiol.
+demo-account-card-body = I'r dde rydym yn amlinellu'r buddion ac yn egluro pa wybodaeth rydym yn ei gyhoeddi. Defnyddiwch y dolenni isod i ddechrau gyda chyfrif Common Voice ar eich dyfais eich hun.
+demo-account-enter-email =
+    .label = Rhowch e-bost i anfon dolen ymuno
+demo-account-sign-up = Anfon dolen ymuno
+
+## Demo Contribute
+
+demo-contribute-card-header = Yn barod i ychwanegu eich llais neu'n barod i wrando?
+demo-contribute-card-body-v2 = Nawr eich bod yn gwybod ychydig mwy am Common Voice, beth am roi cynnig arni? Cliciwch ar eicon y meicroffon i ddechrau darllen brawddegau yn uchel. <br/> <br/> Os yw'n well gennych adolygu cyfraniadau llais pobl eraill, cliciwch ar yr eicon chwarae. Byddwch yn helpu drwy gadarnhau fod y recordiad llais rydych chi'n ei glywed yn cyfateb i'r geiriau sydd wedi'u hysgrifennu ar y sgrin.
+demo-listen-subtitle = Yn barod i gyfrannu?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Mae byrddau gwaith personol yn darparu'r wybodaeth ddiweddaraf am gynnydd unigolion a chymunedau.
+demo-dashboard-card-body = Ar gyfer pob clip llais sy'n cael ei gyfrannu, a phob clip sain sy'n cael ei ddilysu, mae bwrdd gwaith eich cyfrif yn cael eu diweddaru i adlewyrchu'ch cynnydd diweddaraf ym mhob iaith rydych chi'n cyfrannu ati. Ie, gallwch chi gyfrannu at fwy nag un! <br/> <br/> Defnyddiwch fwrdd gwaith i weld eich ystadegau, sut rydych chi'n gwneud o gymharu ac eraill yn y gymuned, a gosod nodau targedau dyddiol neu wythnosol.
+
+## Validation criteria
+
+contribution-criteria-nav = Meini Prawf
+contribution-criteria-link = Deall y meini prawf cyfrannu
+contribution-criteria-page-title = Meini Prawf Cyfrannu
+contribution-criteria-page-description = Deall beth i chwilio amdano wrth wrando ar glipiau llais ac i helpu i wneud eich recordiadau llais yn gyfoethocach!
+contribution-for-example = er enghraifft
+contribution-misreadings-title = Camddarllen
+contribution-misreadings-description = Wrth wrando, gwiriwch yn ofalus iawn mai'r hyn sydd wedi'i recordio yw'r union beth sydd wedi'i ysgrifennu; gwrthodwch os oes mân wallau hyd yn oed. <br />Mae camgymeriadau cyffredin iawn yn cynnwys:
+contribution-misreadings-description-extended-list-1 = <strong>'Mae'</strong> neu <strong> 'Y' </strong> coll ar ddechrau'r recordiad.
+contribution-misreadings-description-extended-list-2 = <strong>'au'</strong> coll ar ddiwedd gair.
+contribution-misreadings-description-extended-list-3 = Darllen crynodebau nad ydyn nhw yno mewn gwirionedd, fel "Ry' ni" yn lle "Rydyn ni", neu i'r gwrthwyneb.
+contribution-misreadings-description-extended-list-4 = Colli diwedd y gair olaf trwy orffen y recordiad yn rhy gyflym.
+contribution-misreadings-description-extended-list-5 = Cymryd sawl ymgais i ddarllen gair.
+contribution-misreadings-example-1-title = Deinosoriaid anferth y Triasig.
+contribution-misreadings-example-2-title = Deinosor anferth y Triasig.
+contribution-misreadings-example-2-explanation = [Dylai fod yn ‘deinosoriaid’]
+contribution-misreadings-example-3-title = Deinosoriaid anferth y Triasi-.
+contribution-misreadings-example-3-explanation = [Recordiad wedi'i dorri cyn diwedd y gair olaf]
+contribution-misreadings-example-4-title = Deinosoriaid anferth y Triasig. Ie.
+contribution-misreadings-example-4-explanation = [Recordiwyd mwy na'r testun gofynnol]
+contribution-misreadings-example-5-title = Rydyn ni'n mynd allan i gael coffi.
+contribution-misreadings-example-6-title = Ry ni'n mynd allan i gael coffi.
+contribution-misreadings-example-6-explanation = [Dylai fod yn “Rydyn ni”]
+contribution-misreadings-example-7-title = Rydyn ni'n mynd allan i gael paned o goffi.
+contribution-misreadings-example-7-explanation = [Dim ‘paned o’ yn y testun gwreiddiol]
+contribution-misreadings-example-8-title = Gwibiodd y cacwn heibio.
+contribution-misreadings-example-8-explanation = [Cynnwys heb ei gyfateb]
+contribution-varying-pronunciations-title = Ynganiadau Amrywiol
+contribution-varying-pronunciations-description = Byddwch yn ofalus cyn gwrthod clip oherwydd bod y darllenydd wedi cam-ynganu gair, wedi rhoi’r pwyslais yn y lle anghywir, neu, yn ôl pob golwg wedi anwybyddu marc cwestiwn. Mae yna amrywiaeth eang o ynganiadau yn cael eu defnyddio, rhai nad ydych chi efallai wedi clywed yn eich cymuned leol. Byddwch yn barod i ganiatáu fod rhai pobl yn siarad yn wahanol i chi.
+contribution-varying-pronunciations-description-extended = Ar y llaw arall, os credwch nad yw'r darllenydd fwy na thebyg erioed wedi dod ar draws y gair o'r blaen, a'i fod wedi dyfalu yn anghywir ar yr ynganiad, gwrthodwch hynny. Os nad ydych chi'n siŵr, defnyddiwch y botwm Hepgor.
+contribution-varying-pronunciations-example-1-title = Roedd yn drist iawn o'i gweld hi'n mynd.
+contribution-varying-pronunciations-example-1-explanation = [ Mae 'drist' yn iawn os ydi'r 'i' yn fyr (tafodieithoedd y de) neu yn hir (drîst - tafodieithoedd y gogledd)]
+contribution-varying-pronunciations-example-2-title = Mae angen glân-hau y ffenestr.
+contribution-varying-pronunciations-example-2-explanation = [Mae 'glanhau' yn Gymraeg bob amser yn cael ei ynganu gyda'r acen ar y sillaf olaf, nid y sillaf cyntaf]
+contribution-background-noise-title = Sŵn Cefndir
+contribution-background-noise-description = Rydym am i'r algorithmau addysgu peiriannau allu trin amrywiaeth o synnau cefndir, ac mae modd derbyn synau cymharol uchel hyd yn oed ar yr amod nad ydyn nhw'n eich rhwystro rhag clywed y testun cyfan. Mae cerddoriaeth gefndir dawel yn iawn; ond nid cerddoriaeth sy'n ddigon uchel i'ch rhwystro rhag clywed pob gair.
+contribution-background-noise-description-extended = Os yw'r recordiad yn torri i fyny, neu os oes ganddo gracellau, gwrthodwch oni bai bod y testun cyfan yn dal i allu cael ei glywed.
+contribution-background-noise-example-1-fixed-title = <strong>[Tisian]</strong> Deinosoriaid anferth y <strong>[pesychu] </strong>Triasig.
+contribution-background-noise-example-2-fixed-title = Deino anferth <strong>[pesychu]</strong> y Triasig.
+contribution-background-noise-example-2-explanation = [Nid oes modd clywed rhan o'r testun]
+contribution-background-noise-example-3-fixed-title = <strong>[Cracellu]</strong>deinosoriaid anferth y <strong>[pesychu] </strong>-riasig.
+contribution-background-voices-title = Lleisiau Cefndir
+contribution-background-voices-description = Mae sŵn cefndir tawel yn iawn, ond nid ydym am gael lleisiau ychwanegol a allai achosi i algorithm peiriant  adnabod geiriau nad ydynt yn y testun ysgrifenedig. Os gallwch chi glywed geiriau gwahanol ar wahân i eiriau'r testun, rhaid gwrthod y clip. Fel arfer, mae hyn yn digwydd lle mae'r teledu wedi'i adael ymlaen, neu lle mae sgwrs yn digwydd gerllaw.
+contribution-background-voices-description-extended = Os yw'r recordiad yn torri i fyny, neu os oes ganddo gracellau, dylech ei  wrthod oni bai bod clywed y testun cyfan i gyd.
+contribution-background-voices-example-1-title = Deinosoriaid anferth y Triasig. <strong>[wedi'i ddarllen gan un llais]</strong>
+contribution-background-voices-example-1-explanation = Wyt ti'n dod? <strong>[llais arall yn galw]</strong>
+contribution-volume-title = Lefel y Sain
+contribution-volume-description = Bydd amrywiadau naturiol yn y sain recordio rhwng darllenwyr. Gwrthodwch dim ond os yw'r sain mor uchel nes bod y recordiad yn torri i fyny, neu (yn fwy cyffredin) os yw mor isel fel na allwch glywed yr hyn sy'n cael ei ddweud heb edrych ar y testun ysgrifenedig.
+contribution-reader-effects-title = Effeithiau'r Darllenydd
+contribution-reader-effects-description = Mae'r mwyafrif o recordiadau o bobl yn siarad yn eu llais naturiol. Gallwch dderbyn ambell recordiad ansafonol sy’n cael ei weiddi, ei sibrwd, neu ei gyflwyno’n amlwg mewn llais ‘dramatig’. Gwrthodwch recordiadau wedi'u canu a'r rhai sy'n defnyddio llais wedi'i syntheseiddio gan gyfrifiadur.
+contribution-just-unsure-title = Dal Ddim yn Siŵr?
+contribution-just-unsure-description = Os dewch chi ar draws rhywbeth nad yw'r canllawiau hyn yn ei gynnwys, defnyddiwch eich synnwyr cyffredin. Os nad ydych yn gallu penderfynu go iawn, defnyddiwch y botwm hepgor a mynd ymlaen i'r recordiad nesaf.
+see-more = <chevron></chevron>Gweld rhagor
+see-less = <chevron></chevron>Gweld llai

@@ -33,14 +33,18 @@ as = Assam
 ast = Asturias
 az = Azerbaijan
 ba = Bashkir
+bas = Basaa
 be = Belarut
 bg = Bulgaria
+bm = Bambara
 bn = Bengal
 br = Breton
 bxr = Buryat
 ca = Catalunya
 cak = Kaqchikel
+ckb = Tiếng Soran
 cnh = Hakha Chin
+co = Corsican
 cs = Séc
 cv = Chuvash
 cy = Wales
@@ -62,11 +66,13 @@ fr = Pháp
 fy-NL = Frisia
 ga-IE = Ireland
 gl = Galicia
+gn = Guarani
 ha = Hausa
 he = Do Thái
 hi = Hindi
 hr = Croatia
 hsb = Thượng Sorb
+ht = Haiti
 hu = Hungary
 hy-AM = Armenia
 hyw = Armenia Tây
@@ -81,33 +87,41 @@ kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
 kk = Kazakh
+kmr = Tiếng Kurmanji
 ko = Hàn
 kpv = Komi-Zyria
-ku = Kurd
 kw = Cornwall
 ky = Kyrgyz
 lg = Luganda
 lij = Ligurian
 lt = Litva
 lv = Latvia
+mai = Maithili
 mdf = Moksha
 mg = Malagasy
 mhr = Mari Đông
 mk = Macedonia
 ml = Malayalam
 mn = Mông Cổ
+mos = Mossi
+mr = Marathi
 mrj = Mari Tây
+ms = Mã Lai
 mt = Malta
 my = Miến Điện
 myv = Erzya
 nb-NO = Na Uy Bokmål
 ne-NP = Nepal
+nia = Nias
 nl = Hà Lan
 nn-NO = Na Uy Nynorsk
+nyn = Nyankole
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Ba Lan
+ps = Pashto
 pt = Bồ Đào Nha
 rm-sursilv = Romansh Sursilva
 rm-vallader = Romansh
@@ -115,11 +129,14 @@ ro = Rumani
 ru = Nga
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinia
 scn = Sicilian
+shi = Shilha
 si = Sinhala
 sk = Slovakia
 sl = Slovenia
+so = Somali
 sq = Albania
 sr = Serbia
 sv-SE = Thụy Điển
@@ -132,14 +149,18 @@ th = Thái
 tl = Tagalog
 tr = Thổ Nhĩ Kỳ
 tt = Tatar
+tw = Twi
 uby = Ubykh
 udm = Udmurt
+ug = Uyghur
 uk = Ukraina
 ur = Urdu
 uz = Uzbek
 vec = Venetian
 vi = Việt
 vot = Votic
+yo = Yoruba
+yue = Quảng Đông
 zh-CN = Trung (Trung Quốc)
 zh-HK = Trung (Hồng Kông)
 zh-TW = Trung (Đài Loan)
@@ -171,6 +192,7 @@ logout = Đăng xuất
 ## Home Page
 
 home-title = Common Voice là ý tưởng của Mozilla nhằm để dạy cho các phần mềm cách nói chuyện của con người.
+default-tagline = Mozilla Common Voice là một sáng kiến giúp đào tạo cho máy móc cách người thật nói.
 home-cta = Hãy lên tiếng, đóng góp giọng nói ở đây!
 wall-of-text-start = Giọng nói là tự nhiên, giọng nói là con người. Đó là lý do chúng tôi hứng thú với việc tạo ra công nghệ giọng nói có thể sử dụng được cho các phần mềm. Nhưng để tạo ra hệ thống này thì cần có một lượng lớn dữ liệu các giọng nói.
 wall-of-text-more-mobile = Phần lớn các dữ liệu được sử dụng bởi các công ty lớn thì không có sẵn cho đa số mọi người. Chúng tôi nghĩ rằng điều này làm cản trở sự sáng tạo. Vì vậy chúng tôi ra mắt dự án Common Voice, một dự án giúp mọi người tiếp cận được công nghệ nhận dạng giọng nói.
@@ -232,7 +254,7 @@ whats-public = Có gì được công khai?
 email-not-public = Chúng tôi sẽ không công khai email của bạn.
 recordings-and-locale-public = Số lượng bản ghi và ngôn ngữ bạn đóng góp sẽ được công khai.
 username-optin-public = Bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
-demographic-deidentified-clarity = Dữ liệu nhân khẩu học được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) sẽ không bao giờ được công khai trên hồ sơ của bạn và sẽ không được liên kết với tài khoản của bạn trong bộ dữ liệu. Các clip âm thanh riêng lẻ sẽ được liên kết với dữ liệu nhân khẩu học nhằm mục đích phân tích chính xác hơn - ví dụ: nhà nghiên cứu có thể muốn nhắm mục tiêu mô hình đào tạo đến một phân khúc nhân khẩu học cụ thể.
+demographic-deidentified-clarity-2 = Dữ liệu nhân khẩu học được gửi tùy chọn (ví dụ: tuổi, giới tính, ngôn ngữ và giọng nói) sẽ không bao giờ được công khai trên hồ sơ của bạn và sẽ không được liên kết với tài khoản của bạn trong bộ dữ liệu. Các clip âm thanh riêng lẻ sẽ được liên kết với dữ liệu nhân khẩu học nhằm mục đích phân tích chính xác hơn - ví dụ: nhà nghiên cứu có thể muốn nhắm mục tiêu mô hình đào tạo đến một phân khúc nhân khẩu học cụ thể.
 username-email-not-demographic = Tên người dùng và email của bạn sẽ không được liên kết với dữ liệu được công bố.
 
 ## Speak & Listen Shortcuts
@@ -261,7 +283,12 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Ghi/Dừng
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Clip ghi lại
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Hủy ghi âm đang diễn ra
+shortcut-submit = Quay lại
+shortcut-submit-label = Gửi clip
 request-language-text = Chưa thấy ngôn ngữ của mình trên Common Voice?
+request-language-text-learn = Tìm hiểu cách yêu cầu nó ở đây!
 request-language-button = Yêu cầu ngôn ngữ
 
 ## ProjectStatus
@@ -289,7 +316,7 @@ profile-form-accent =
     .label = Giọng vùng miền
 profile-form-age =
     .label = Tuổi
-profile-form-gender =
+profile-form-gender-2 =
     .label = Giới tính
 leaderboard-visibility =
     .label = Hiển thị bảng thành tích
@@ -316,7 +343,7 @@ profile-close = Đóng
 profile-explanation = Theo dõi tiến trình của bạn với một hồ sơ và giúp dữ liệu giọng nói của chúng tôi chính xác hơn.
 thanks-for-account = Cảm ơn bạn đã xác nhận tài khoản của mình, giờ hãy tạo hồ sơ của bạn.
 why-demographic = Vì sao điều này quan trọng?
-why-demographic-explanation = Dữ liệu người dùng ẩn danh như tuổi, giới tính và giọng vùng miền giúp cải thiện dữ liệu âm thanh được sử dụng để đào tạo sự chính xác của công cụ nhận dạng giọng nói. Tên người dùng và email của bạn sẽ không bao giờ được liên kết với dữ liệu đã gửi của bạn, và bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
+why-demographic-explanation-2 = Dữ liệu người dùng ẩn danh như tuổi, giới tính và giọng vùng miền giúp cải thiện dữ liệu âm thanh được sử dụng để đào tạo sự chính xác của công cụ nhận dạng giọng nói. Tên người dùng và email của bạn sẽ không bao giờ được liên kết với dữ liệu đã gửi của bạn, và bạn có thể chọn đặt tên người dùng của mình ở chế độ công khai hoặc ẩn danh.
 accept-privacy = Tôi đồng ý với việc các bạn xử lý thông tin này khi các bạn giải thích trong <privacyLink>Chính sách bảo mật</privacyLink> của Mozilla
 accept-privacy-title = Chính sách riêng tư
 login-identity = Nhận dạng đăng nhập
@@ -330,26 +357,19 @@ skip-submission-description = Trong khi đóng góp, phản hồi của bài g�
 skip-submission-note = Lưu ý: Bạn vẫn cần chọn giữa Nói hoặc Nghe để thay đổi hình thức đóng góp.
 off = Tắt
 on = Bật
-avatar-clip-title = Hãy nói lên avatar của bạn
-change-your-avatar-clip = Bạn muốn thay đổi clip giọng nói của bạn?
-recording-in-progress = Đang ghi âm giọng nói
-avatar-clip-recorded = Ảnh đại diện của bạn bây giờ bao gồm một clip giọng nói!
-record-voice-wave = Ghi VOICEWAVE
-retry-voice-wave-recording = THỬ LẠI
-re-record = GHI ÂM LẠI
-delete-voice = XÓA
-recording-voice-wave = Đang ghi
-delete-voice-clip = hoặc  Xóa clip thoại
-ready-to-upload = Tải lên
-avatar-clip-fact = Một thực tế lâu nay là người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó.
-recreate-voice = Tái tạo Voicewave
-cancel-avatar-clip-recording = Hủy bỏ
-about-avatar-clip-recording = Tạo một clip bằng giọng nói như một phần của hình đại diện hồ sơ của bạn. Những người khác sẽ có thể di chuột và nghe clip của bạn.
+
+## Profile - Email
+
 browse-file-title = Tải lên hình ảnh
 browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
 connect-gravatar = Kết nối với Gravatar
 gravatar_not_found = Không tìm thấy gravatar cho email của bạn
 file_too_large = Tập tin đã chọn quá lớn
+avatar-uploaded = Đã tải lên hình đại diện
+max-file-size = Tối đa { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Quản lý các mục đăng kí
 manage-email-subscriptions = Quản lý đăng ký bản tin email
 email-already-used = Email đã được sử dụng cho tài khoản khác
@@ -364,6 +384,10 @@ faq-what-cv-a =
     Công nghệ nhận dạng giọng nói đang cách mạng hóa cách chúng ta tương tác với máy móc, nhưng các hệ thống hiện có là đắt tiền và độc quyền. Common Voice là một phần của sáng kiến Mozilla, giúp mọi công nghệ nhận dạng giọng nói tốt hơn và dễ tiếp cận hơn cho mọi người. Common Voice là một cơ sở dữ liệu toàn cầu khổng lồ về các giọng nói được quyên tặng cho phép mọi người nhanh chóng và dễ dàng đào tạo các ứng dụng hỗ trợ giọng nói bằng mọi ngôn ngữ.
     
     Chúng tôi không chỉ thu thập các mẫu giọng nói bằng các ngôn ngữ được sử dụng rộng rãi mà còn ở những người có số lượng người nói nhỏ hơn. Xuất bản một tập dữ liệu đa dạng về tiếng nói sẽ trao quyền cho các nhà phát triển, doanh nhân và cộng đồng để tự giải quyết khoảng trống này. Ngoài bộ dữ liệu Common Voice, chúng tôi còn xây dựng một công cụ nhận dạng giọng nói mã nguồn mở có tên Deep Speech.
+faq-what-cv-a-2 =
+    Công nghệ nhận dạng giọng nói đang cách mạng hóa cách chúng ta tương tác với máy móc, nhưng các hệ thống hiện có rất đắt và độc quyền.  Mozilla Common Voice là một sáng kiến ​​nhằm làm cho công nghệ nhận dạng giọng nói tốt hơn và dễ tiếp cận hơn cho mọi người.  Common Voice là một cơ sở dữ liệu toàn cầu khổng lồ về các giọng nói được quyên góp cho phép mọi người nhanh chóng và dễ dàng đào tạo các ứng dụng hỗ trợ giọng nói ở mọi ngôn ngữ có khả năng.
+    
+    Chúng tôi không chỉ thu thập các mẫu giọng nói ở các ngôn ngữ được nói rộng rãi mà còn ở những ngôn ngữ có số lượng người nói ít hơn.  Việc xuất bản một tập dữ liệu đa dạng về tiếng nói sẽ trao quyền cho các nhà phát triển, doanh nhân và cộng đồng tự giải quyết khoảng cách này.
 faq-why-important-q = Tại sao nó lại quan trọng?
 faq-why-important-a =
     Lời nói thường là cách tự nhiên nhất mà chúng ta giao tiếp với nhau và công nghệ giọng nói đang mang lại sự thuận tiện cho máy tính và thiết bị di động của chúng ta. Chúng tôi muốn trao quyền cho các nhà phát triển để xây dựng các ứng dụng nhận dạng giọng nói tuyệt vời như dịch giả thời gian thực và trợ lý kỹ thuật số hỗ trợ giọng nói. Nhưng ngay bây giờ hầu hết dữ liệu giọng nói cần thiết để xây dựng các loại ứng dụng này là đắt tiền và độc quyền. Chúng tôi hy vọng bộ dữ liệu Common Voice sẽ cung cấp cho các nhà phát triển những gì họ cần để đổi mới và cung cấp công nghệ giọng nói bằng ngôn ngữ của họ.
@@ -421,6 +445,9 @@ about-title = Tại sao là Common Voice?
 about-subtitle = Common Voice là một phần trong sáng kiến của Mozilla nhằm giúp đào tạo cho máy móc cách người thật nói. Ngoài bộ dữ liệu Common Voice, chúng tôi còn xây dựng một công cụ nhận dạng giọng nói nguồn mở có tên Deep Speech.
 about-header-description =
     Cả hai dự án này là một phần trong những nỗ lực của chúng tôi để thu hẹp sự phân chia lời nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
+    Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
+about-header-description-2 =
+    Dự án này là một nỗ lực để thu hẹp khoảng cách giữa giọng nói kỹ thuật số. Các công nghệ nhận dạng giọng nói mang lại kích thước con người cho các thiết bị của chúng tôi, nhưng các nhà phát triển cần một lượng dữ liệu giọng nói khổng lồ để xây dựng chúng. Hiện nay, hầu hết các dữ liệu đó là đắt tiền và độc quyền.
     Chúng tôi muốn cung cấp dữ liệu giọng nói một cách tự do và công khai và đảm bảo dữ liệu thể hiện sự đa dạng của người thực. Cùng nhau chúng ta có thể làm cho nhận dạng giọng nói tốt hơn cho mọi người.
 how-does-it-work-title = Nó hoạt động như thế nào
 how-does-it-work-text = Chúng tôi có thể cung cấp một bộ dữ liệu nguồn mở của các giọng nói. Quyên góp giọng nói của bạn, xác thực tính chính xác clip của người khác, làm cho bộ dữ liệu tốt hơn cho mọi người.
@@ -481,6 +508,7 @@ de-identified-explanation = Quá trình mà một người đóng góp thông ti
 
 error-title-404 = Chúng tôi không thể tìm thấy trang đó cho bạn
 error-content-404 = Có lẽ <homepageLink>trang chủ</homepageLink> của chúng tôi sẽ giúp ích? Để đặt câu hỏi, vui lòng tham gia <matrixLink>cộng đồng trò chuyện trên Matrix</matrixLink>, theo dõi các sự cố trang qua <githubLink>GitHub</githubLink> hoặc truy cập <discourseLink>diễn đàn Discourse của chúng tôi</discourseLink>.
+error-title-503 = Trang web hiện không thể truy cập được
 error-content-503 = Các trang web sẽ quay lại càng sớm càng tốt. Để biết thông tin mới nhất, vui lòng tham gia <matrixLink>cộng đồng trò chuyện trên Matrix</matrixLink> hoặc truy cập <githubLink>GitHub</githubLink> hoặc <discourseLink>diễn đàn Discourse của chúng tôi</discourseLink> để gửi và theo dõi các vấn đề về trải nghiệm trang web.
 error-code = Lỗi { $code }
 
@@ -499,10 +527,12 @@ data-other-goto = Đi đến { $name }
 data-other-download = Tải dữ liệu
 data-bundle-button = Tải Gói dữ liệu xuống
 data-bundle-description = Dữ liệu Common Voice cộng với tất cả các bộ dữ liệu giọng nói khác ở trên.
+release-version = Phiên bản
+dataset-date = Ngày
 license = Giấy phép: <licenseLink>{ $license }</licenseLink>
 license-mixed = Xáo trộn
 data-download-singleword-title = Tải xuống phân đoạn mục tiêu từ đơn
-data-download-singleword-callout = Đây là phân đoạn theo trường hợp sử dụng có chứa dữ liệu để tăng khả năng nhận dạng chữ số nói, phát hiện có / không và kiểm tra dữ liệu cho <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = Đây là một phân đoạn theo trường hợp sử dụng chứa dữ liệu để hỗ trợ nhận dạng chữ số bằng giọng nói và phát hiện có / không.
 review-terms = Bằng việc sử dụng Common Voice, bạn đồng ý với <termsLink>Điều khoản</termsLink> và <privacyLink>Thông báo bảo mật</privacyLink> của chúng tôi
 terms-agree = Tôi đồng ý
 terms-disagree = Tôi không đồng ý
@@ -672,6 +702,7 @@ share-title-new = <bold>Giúp chúng tôi</bold> tìm thêm giọng nói
 keep-track-profile = Theo dõi tiến trình của bạn với một hồ sơ
 login-to-get-started = Đăng nhập hoặc đăng ký để bắt đầu
 target-segment-first-card = Bạn đang đóng góp cho phân đoạn mục tiêu đầu tiên của chúng tôi
+target-segment-generic-card = Bạn đang đóng góp cho một phân đoạn mục tiêu
 target-segment-first-banner = Giúp tạo phân đoạn mục tiêu đầu tiên của Common Voice trong { $locale }
 target-segment-add-voice = Thêm giọng nói của bạn
 target-segment-learn-more = Tìm hiểu thêm
@@ -824,3 +855,95 @@ help-contribute = Bạn có thể giúp xây dựng bộ dữ liệu nguồn m�
 login-company = Đăng nhập / Đăng ký bằng email { $company }
 profile-not-required = Có một hồ sơ là không cần thiết để đóng góp mặc dù nó rất hữu ích
 read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
+
+## DemoLayout
+
+demo-get-started = Bắt đầu nào
+demo-welcome = Chào mừng đến với Common Voice
+demo-welcome-subheader = Bạn muốn tìm hiểu thêm và đóng góp cho dự án?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice là tập dữ liệu giọng nói đa ngôn ngữ có sẵn công khai lớn nhất thế giới.
+demo-language-select-card-body = Nhờ sự đóng góp của hơn 259 nghìn người bằng hơn 50 ngôn ngữ, dữ liệu này đang được sử dụng để đào tạo các ứng dụng hỗ trợ giọng nói để phản hồi tốt hơn với giọng nói của con người.
+card-button-next = Tiếp
+card-button-back = Quay lại
+demo-language-select-label = Duyệt qua các ngôn ngữ
+demo-eofy-header = Bản phát hành cuối năm 2019
+demo-eofy-sub_header = Tập dữ liệu giọng nói, sẵn sàng để tải xuống
+demo-account = Tài khoản
+
+## Demo Account
+
+demo-account-card-header = Không cần có một tài khoản để đóng góp, mặc dù nó rất hữu ích.
+demo-account-card-body = Ở bên phải, chúng tôi phác thảo các lợi ích và làm rõ thông tin nào chúng tôi công khai. Sử dụng các liên kết bên dưới để bắt đầu với tài khoản Common Voice trên thiết bị của riêng bạn.
+demo-account-enter-email =
+    .label = Nhập email để gửi liên kết đăng ký
+demo-account-sign-up = Gửi liên kết đăng ký
+
+## Demo Contribute
+
+demo-contribute-card-header = Sẵn sàng thêm giọng nói của bạn hoặc kiểm tra bản ghi âm?
+demo-contribute-card-body-v2 = Bây giờ bạn đã biết thêm một chút về Common Voice, tại sao không thử? Nhấp vào biểu tượng micrô để bắt đầu đọc to các câu. <br/><br/>Nếu bạn muốn xem lại các đóng góp bằng giọng nói của người khác, hãy nhấp vào biểu tượng phát. Bạn sẽ giúp xác nhận rằng bản ghi khớp với các câu được viết trên màn hình.
+demo-listen-subtitle = Sẵn sàng đóng góp?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Trang tổng quan cá nhân giúp bạn cập nhật những tiến bộ của cá nhân và cộng đồng.
+demo-dashboard-card-body = Đối với mọi đoạn thoại được tặng và mọi đoạn âm thanh đã được xác thực, trang tổng quan tài khoản của bạn sẽ được cập nhật để phản ánh sự tiến bộ mới nhất của bạn ở mỗi ngôn ngữ mà bạn đóng góp. Có, bạn có thể đóng góp cho nhiều hơn một!<br/><br/>Sử dụng trang tổng quan để theo dõi số liệu thống kê của bạn, xem bạn đang hoạt động như thế nào cùng với những người khác trong cộng đồng và đặt mục tiêu đóng góp hàng ngày hoặc hàng tuần.
+
+## Validation criteria
+
+contribution-criteria-nav = Tiêu chuẩn
+contribution-criteria-link = Hiểu các tiêu chuẩn đóng góp
+contribution-criteria-page-title = Tiêu chuẩn đóng góp
+contribution-criteria-page-description = Hiểu những điều cần tìm khi nghe đoạn thoại và giúp bản ghi âm giọng nói của bạn phong phú hơn!
+contribution-for-example = ví dụ
+contribution-misreadings-title = Đọc sai
+contribution-misreadings-description = Khi nghe, hãy kiểm tra thật kỹ xem những gì đã ghi có chính xác là những gì đã được viết hay không; từ chối nếu có sai sót dù chỉ là nhỏ. Những sai lầm rất phổ biến <br /> bao gồm:
+contribution-misreadings-description-extended-list-1 = Thiếu <strong>'A'</strong> hoặc <strong>'The'</strong> ở đầu bản ghi.
+contribution-misreadings-description-extended-list-2 = Thiếu <strong>'s'</strong> ở cuối một từ.
+contribution-misreadings-description-extended-list-3 = Đọc các từ mà nó không thực sự ở đó, chẳng hạn như "Chúng tôi" thay vì "Chúng tôi là" hoặc ngược lại.
+contribution-misreadings-description-extended-list-4 = Bỏ lỡ phần cuối của từ cuối cùng do cắt đoạn ghi âm quá nhanh.
+contribution-misreadings-description-extended-list-5 = Mất nhiều lần để đọc một từ.
+contribution-misreadings-example-1-title = Những con khủng long khổng lồ của kỷ Trias.
+contribution-misreadings-example-2-title = Con khủng long khổng lồ của kỷ Trias.
+contribution-misreadings-example-2-explanation = [Nên là 'Những con khủng long']
+contribution-misreadings-example-3-title = Những con khủng long khổng lồ của Triassi-.
+contribution-misreadings-example-3-explanation = [Đoạn ghi âm bị cắt trước khi kết thúc từ cuối cùng]
+contribution-misreadings-example-4-title = Những con khủng long khổng lồ của kỷ Trias. Đúng.
+contribution-misreadings-example-4-explanation = [Có nhiều từ thừa đã được ghi lại so với văn bản được yêu cầu]
+contribution-misreadings-example-5-title = Chúng tôi sẽ ra ngoài để uống cà phê.
+contribution-misreadings-example-6-title = Chúng ta sẽ ra ngoài uống cà phê.
+contribution-misreadings-example-6-explanation = [Nên là "Chúng tôi"]
+contribution-misreadings-example-7-title = Chúng tôi sẽ ra ngoài để uống một cà phê.
+contribution-misreadings-example-7-explanation = [Không có ‘một’ trong văn bản gốc]
+contribution-misreadings-example-8-title = Bumblebee đã tăn tốc.
+contribution-misreadings-example-8-explanation = [Nội dung không khớp]
+contribution-varying-pronunciations-title = Thay đổi cách phát âm
+contribution-varying-pronunciations-description = Hãy thận trọng trước khi từ chối một clip cho rằng người đọc đã phát âm sai một từ, đặt trọng âm không đúng chỗ hoặc rõ ràng đã bỏ qua một dấu chấm hỏi. Có rất nhiều cách phát âm được sử dụng trên khắp thế giới, một số cách phát âm có thể bạn chưa nghe thấy trong cộng đồng địa phương của mình. Vui lòng đánh giá cao những người có thể nói khác với bạn.
+contribution-varying-pronunciations-description-extended = Mặt khác, nếu bạn nghĩ rằng người đọc có thể chưa bao giờ gặp từ này trước đây và chỉ đơn giản là đoán sai cách phát âm, vui lòng từ chối. Nếu bạn không chắc chắn, hãy sử dụng nút bỏ qua.
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ đều được cho dù với trọng âm ở âm tiết đầu tiên (Anh) hay thứ hai (Mỹ)]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ trong tiếng Anh luôn được phát âm là một âm tiết, không phải hai]
+contribution-background-noise-title = Tiếng nền ồn
+contribution-background-noise-description = Chúng tôi muốn các thuật toán máy học có thể xử lý nhiều loại tiếng ồn xung quanh và thậm chí những tiếng ồn tương đối lớn cũng có thể được chấp nhận với điều kiện chúng không ngăn bạn nghe thấy toàn bộ văn bản. Nhạc nền yên tĩnh là được; âm nhạc đủ lớn để ngăn bạn nghe thấy từng từ một.
+contribution-background-noise-description-extended = Nếu đoạn ghi âm bị vỡ hoặc có tiếng rè, hãy từ chối trừ khi vẫn có thể nghe được toàn bộ nội dung.
+contribution-background-noise-example-1-fixed-title = <strong>[Hắt xì hơi]</strong> Những con khủng long khổng lồ của <strong>[ho]</strong> kỷ Trias.
+contribution-background-noise-example-2-fixed-title = Những con khủng long khổng lồ <strong>[ho]</strong> kỷ Trias.
+contribution-background-noise-example-2-explanation = [Không thể nghe thấy một phần của văn bản]
+contribution-background-noise-example-3-fixed-title = <strong>[Tiếng lốp bốp]</strong> con khủng long khổng lồ của <strong>[tiếng lốp bốp]</strong> -riassic.
+contribution-background-voices-title = Giọng nền
+contribution-background-voices-description = Tiếng huyên náo trong nền yên tĩnh là được, nhưng chúng tôi không muốn có thêm giọng nói có thể khiến thuật toán máy xác định các từ không có trong văn bản. Nếu bạn có thể nghe thấy những từ khác biệt với những từ trong văn bản, clip đó nên bị từ chối. Thông thường, điều này xảy ra khi TV đã được bật hoặc nơi có cuộc trò chuyện đang diễn ra gần đó.
+contribution-background-voices-description-extended = Nếu đoạn ghi âm bị vỡ hoặc có tiếng rè, hãy từ chối trừ khi vẫn có thể nghe được toàn bộ nội dung.
+contribution-background-voices-example-1-title = Những con khủng long khổng lồ của kỷ Trias. <strong>[đọc bằng một giọng nói]</strong>
+contribution-background-voices-example-1-explanation = Bạn có đến không? <strong>[được gọi bởi người khác]</strong>
+contribution-volume-title = Âm lượng
+contribution-volume-description = Sẽ có sự thay đổi tự nhiên về khối lượng giữa các độc giả. Chỉ từ chối nếu âm lượng quá cao khiến bản ghi âm bị vỡ hoặc (phổ biến hơn) nếu âm lượng quá nhỏ khiến bạn không thể nghe được những gì đang được nói nếu không tham chiếu đến văn bản đã viết.
+contribution-reader-effects-title = Hiệu ứng trình đọc
+contribution-reader-effects-description = Hầu hết các bản ghi âm là của những người nói chuyện bằng giọng nói tự nhiên của họ. Bạn có thể chấp nhận bản ghi âm không chuẩn thỉnh thoảng được hét lên, thì thầm hoặc rõ ràng là được phân phối bằng giọng ‘kịch tính’. Vui lòng từ chối các bản ghi âm đã hát và những bản ghi âm sử dụng giọng nói do máy tính tổng hợp.
+contribution-just-unsure-title = Không chắc chắn?
+contribution-just-unsure-description = Nếu bạn gặp điều gì đó mà các nguyên tắc này không đề cập đến, vui lòng bỏ phiếu theo đánh giá tốt nhất của bạn. Nếu bạn thực sự không thể quyết định, hãy sử dụng nút bỏ qua và chuyển sang bản ghi tiếp theo.
+see-more = <chevron></chevron>Xem thêm
+see-less = <chevron></chevron>Xem ít hơn

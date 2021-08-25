@@ -32,15 +32,19 @@ arn = mapudungun
 as = assami
 ast = astuaria
 az = azeri
-ba = bashkiirit
+ba = baškiiri
+bas = basaa
 be = valkovenäjä
 bg = bulgaria
+bm = bambara
 bn = bengali
 br = bretoni
 bxr = burjaatti
 ca = katalaani
 cak = kaqchikel
+ckb = soranî
 cnh = hakha chin
+co = korsika
 cs = tšekki
 cv = tšuvassi
 cy = kymri
@@ -62,11 +66,13 @@ fr = ranska
 fy-NL = friisi
 ga-IE = iiri
 gl = galicia
+gn = guarani
 ha = hausa
 he = heprea
 hi = hindi
 hr = kroatia
 hsb = yläsorbi
+ht = haiti
 hu = unkari
 hy-AM = armenia
 hyw = länsiarmenia
@@ -77,26 +83,29 @@ it = italia
 izh = inkeroinen
 ja = japani
 ka = georgia
-kaa = karakalpak
+kaa = karakalpakki
 kab = kabyyli
 kbd = kabardi
 kk = kazakki
 ko = korea
 kpv = komisyrjääni
-ku = kurdi
 kw = korni
 ky = kirgiisi
 lg = ganda
 lij = liguuri
 lt = liettua
 lv = latvia
+mai = maithili
 mdf = mokša
 mg = malagassi
 mhr = niittymari
 mk = makedonia
 ml = malajalam
 mn = mongoli
+mos = mossi
+mr = marathi
 mrj = vuorimari
+ms = malaiji
 mt = malta
 my = burma
 myv = ersä
@@ -106,8 +115,10 @@ nl = hollanti
 nn-NO = norjan nynorsk
 oc = oksitaani
 or = orija
-pa-IN = punjabi
+pa-IN = pandžabi
+pap-AW = papiamentu (Aruba)
 pl = puola
+ps = paštu
 pt = portugali
 rm-sursilv = sursilvan retoromaani
 rm-vallader = retoromaani (Vallader)
@@ -117,9 +128,11 @@ rw = ruanda
 sah = Jakuutti
 sc = sardi
 scn = sisilia
+shi = tašelhit
 si = sinhala
 sk = slovakki
 sl = sloveeni
+so = somali
 sq = albania
 sr = serbia
 sv-SE = ruotsi
@@ -134,12 +147,14 @@ tr = turkki
 tt = tataari
 uby = ubyh
 udm = udmurtti
+ug = uiguuri
 uk = ukraina
 ur = urdu
 uz = uzbekki
 vec = venetsia
 vi = vietnam
 vot = vatja
+yue = kantoninkiina
 zh-CN = kiina (Kiina)
 zh-HK = kiina (Hong Kong)
 zh-TW = kiina (Taiwan)
@@ -160,7 +175,7 @@ contact = Yhteystiedot
 privacy = Yksityisyys
 terms = Ehdot
 cookies = Evästeet
-faq = Usein kysytyt kysymykset
+faq = UKK
 content-license-text = Sisältö on saatavilla <licenseLink>Creative Commons -lisenssillä</licenseLink>
 share-title = Auta meitä löytämään muita lahjoittamaan äänensä!
 share-text = Auta opettamaan koneita kuinka oikeat ihmiset puhuvat, lahjoita äänesi täällä: { $link }
@@ -171,6 +186,7 @@ logout = Kirjaudu ulos
 ## Home Page
 
 home-title = Common Voice on Mozilla-projekti, jonka tavoitteena on opettaa koneet puhumaan kuin oikeat ihmiset.
+default-tagline = Mozilla Common Voice on aloite opettaa koneille, kuinka ihmiset puhuvat.
 home-cta = Puhu, avusta täällä!
 wall-of-text-start = Ääni on luonnollista ja inhimillistä. Siksi haluamme luoda käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin laaja ääniaineisto.
 wall-of-text-more-mobile = Suurin osa suuryritysten käyttämästä aineistosta ei ole laajasti käytettävissä. Meistä se tukahduttaa innovaation. Siitä syystä käynnistimme Common Voice -projektin, joka auttaa avaamaan puheentunnistuksen kaikille.
@@ -235,7 +251,7 @@ whats-public = Mikä on julkista?
 email-not-public = Emme julkaise sähköpostiosoitettasi.
 recordings-and-locale-public = Tallenteiden määrä ja tieto siitä mihin kieliin olet osallistunut ovat julkisia.
 username-optin-public = Voit tehdä käyttäjätunnuksestasi joko julkisen tai nimettömän.
-demographic-deidentified-clarity = Vapaaehtoisesti ilmoitettuja henkilötietojasi (esim. ikä, sukupuoli, kieli ja aksentti) ei koskaan julkisteta profiilissasi, eikä niitä yhdistetä tilisi kanssa. Yksittäiset äänileikkeet yhdistetään henkillötietoihin tarkempaa analysointia varten - esimerkiksi tutkija voi haluta kohdistaa koulutusmallin tiettyyn väestöryhmään.
+demographic-deidentified-clarity-2 = Valinnaisesti lähetettyjä väestötietoja (esim. ikä, sukupuoli, kieli ja aksentti) ei koskaan julkaista profiilissasi, eikä niitä linkitetä tiliisi tietoaineistossa. Yksittäiset äänileikkeet liitetään väestötietoihin tarkemman analyysin vuoksi - tutkija saattaa esimerkiksi haluta kohdistaa koulutusmallin tiettyyn väestöryhmään.
 username-email-not-demographic = Käyttäjätunnustasi ja sähköpostiosoitettasi ei liitetä julkaistuun aineistoon.
 
 ## Speak & Listen Shortcuts
@@ -264,6 +280,7 @@ shortcut-record-toggle = n
 shortcut-record-toggle-label = Nauhoita / pysäytä
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Uudelleennauhoita äänite
+shortcut-discard-ongoing-recording-label = Hylkää käynnissä oleva tallenne
 request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
 request-language-button = Pyydä kieltä lisättäväksi
 
@@ -293,7 +310,7 @@ profile-form-accent =
     .label = Murre
 profile-form-age =
     .label = Ikä
-profile-form-gender =
+profile-form-gender-2 =
     .label = Sukupuoli
 leaderboard-visibility =
     .label = Näkyvyys pistetilastossa
@@ -320,7 +337,6 @@ profile-close = Sulje
 profile-explanation = Pidä kirjaa edistymisestäsi profiilin avulla ja auta tarkentamaan ääniaineistoamme.
 thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
-why-demographic-explanation = Nimettömät käyttäjätiedot, kuten ikä, sukupuoli ja murre, auttavat parantamaan puheentunnistusmoottoreiden opettamiseen käytettävää ääniaineistoa. Käyttäjänimeäsi ja sähköpostiosoitettasi ei koskaan yhdistetä lähettämääsi aineistoon ja voit valita teetkö käyttäjätunnuksesi julkiseksi tai nimettömäksi.
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
 accept-privacy-title = Yksityisyyskäytäntö
 login-identity = Käyttäjätunnus
@@ -334,26 +350,18 @@ skip-submission-description = Palautteen antaminen Lähetä-painikkeen painamise
 skip-submission-note = Huomaa: Sinun täytyy silti valita Puhu tai Kuuntele vaihtaaksesi osallistumisen tapaa.
 off = Pois päältä
 on = Päällä
-avatar-clip-title = Anna avatarillesi ääni
-change-your-avatar-clip = Haluatko vaihtaa äänen?
-recording-in-progress = Äänen tallennus käynnissä
-avatar-clip-recorded = Avatarillasi on nyt ääni!
-record-voice-wave = ÄÄNITÄ
-retry-voice-wave-recording = YRITÄ UUDELLEEN
-re-record = NAUHOITA UUDELLEEN
-delete-voice = POISTA
-recording-voice-wave = Nauhoitus
-delete-voice-clip = tai poista ääniklippi
-ready-to-upload = LATAA
-avatar-clip-fact = On vakiintunut tieto, että lukija häiriintyy sivun luettavasta sisällöstä tarkastellessaan sen asettelua.
-recreate-voice = Luo äänitys uudelleen
-cancel-avatar-clip-recording = PERUUTA
-about-avatar-clip-recording = Lisää ääninäyte profiilikuvaasi. Muut voivat kuunnella näytteen siirtämällä kursorin sen päälle.
+
+## Profile - Email
+
 browse-file-title = Lataa kuvatiedosto
 browse-file = Vedä ja pudota tai <browseWrap>Selaa</BrowseWrap>
 connect-gravatar = Yhdistä Gravatariin
 gravatar_not_found = Sähköpostiosoitteella ei löytynyt gravataria
 file_too_large = Valittu tiedosto on liian suuri
+avatar-uploaded = Profiilikuva lähetetty
+
+## Profile - Email
+
 manage-subscriptions = Muokkaa tilauksia
 manage-email-subscriptions = Hallitse sähköpostitilauksia
 email-already-used = Sähköpostiosoite on jo käytössä toisessa tilissä
@@ -498,10 +506,12 @@ data-other-goto = Siirry sivustolle { $name }
 data-other-download = Lataa aineisto
 data-bundle-button = Lataa koottu aineistokokoelma
 data-bundle-description = Common Voice -aineisto sekä kaikki ylläolevat aineistot
+release-version = Versio
+dataset-date = Päivämäärä
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Useita
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
-data-download-singleword-callout = Tämä on käyttötapauskohtainen segmentti, joka sisältää tietoja puhutun numeron tunnistusta varten, kyllä / ei -tapausten tunnistusta varten ja herätyssanojen testeiksi <fxLink> Firefox Voicessa </fxLink>.
+data-download-singleword-callout-v2 = Tämä on käyttötapaukseen perustuva segmentti, joka sisältää tietoa puhuttujen lukujen tunnistamisen ja kyllä/ei -havaitsemisen tehostamiseksi.
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy
@@ -830,3 +840,50 @@ help-contribute = Voit auttaa luomaan monipuolisen ja avoimen aineiston luomalla
 login-company = Kirjaudu sisään / Luo tunnukset yrityksen { $company } sähköpostilla
 profile-not-required = Profiili ei ole välttämätön osallistumiseen, mutta siitä on hyötyä
 read-more-about = Lue lisää Lisätietoja-sivulta
+
+## DemoLayout
+
+demo-get-started = Aloitetaan
+demo-welcome = Tervetuloa Common Voiceen
+demo-welcome-subheader = Haluatko oppia lisää ja osallistua projektiin?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice on maailman suurin julkisesti saatavilla oleva, useita kieliä sisältävä äänien tietoaineisto.
+card-button-next = Seuraava
+card-button-back = Takaisin
+demo-language-select-label = Selaa kieliä
+demo-eofy-header = Loppuvuoden 2019 julkaisu
+demo-eofy-sub_header = Ääniaineisto, valmiina ladattavaksi
+demo-account = Tili
+
+## Demo Account
+
+demo-account-card-header = Tili ei ole edellytys osallistumiselle, tosin se on hyödyllinen.
+demo-account-enter-email =
+    .label = Kirjoita sähköpostiosoite lähettääksesi rekisteröitymislinkin
+demo-account-sign-up = Lähetä rekisteröitymislinkki
+
+## Demo Contribute
+
+demo-contribute-card-header = Oletko valmis lisäämään äänesi tai lainaamaan kuuloaistiasi?
+demo-listen-subtitle = Valmiina osallistumaan?
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+contribution-criteria-link = Ymmärrä osallistumiskriteerit
+contribution-criteria-page-title = Osallistumiskriteerit
+contribution-criteria-page-description = Ymmärrä, mihin keskittyä äänileikkeitä kuunnellessa, ja auta tekemään äänitallenteistasi entistä parempia!
+contribution-for-example = esimerkiksi
+contribution-misreadings-title = Virheellisesti luettu
+contribution-varying-pronunciations-title = Vaihtelevat ääntämiset
+contribution-background-noise-title = Taustamelu
+contribution-background-voices-title = Taustaäänet
+contribution-volume-title = Äänenvoimakkuus
+contribution-reader-effects-title = Lukutehosteet
+contribution-just-unsure-title = Vielä epävarma?
+see-more = <chevron></chevron>Näytä lisää
+see-less = <chevron></chevron>Näytä vähemmän

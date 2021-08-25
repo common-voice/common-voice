@@ -12,9 +12,8 @@ import { trackLanguages } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
-import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
-import { Button, Hr, StyledLink, TextButton } from '../../ui/ui';
+import { LinkButton, Button, Hr, StyledLink, TextButton } from '../../ui/ui';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 
 interface PropsFromState {
@@ -35,7 +34,6 @@ interface State {
   selectedSection: LanguageSection;
   showAllInProgress: boolean;
   showAllLaunched: boolean;
-  showLanguageRequestModal: boolean;
   query: string;
 }
 
@@ -49,7 +47,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     selectedSection: 'launched',
     showAllInProgress: false,
     showAllLaunched: false,
-    showLanguageRequestModal: false,
     query: '',
   };
 
@@ -217,7 +214,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       selectedSection,
       showAllInProgress,
       showAllLaunched,
-      showLanguageRequestModal,
       query,
     } = this.state;
 
@@ -257,20 +253,16 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
           <div className="text">
             <div className="inner">
-              <Localized id="request-language-text">
-                <h2 />
-              </Localized>
+              <h2>
+                <Localized id="request-language-text" />{' '}
+                <Localized id="request-language-text-learn" />
+              </h2>
               <Localized id="request-language-button">
-                <Button
+                <LinkButton
                   outline
                   rounded
-                  onClick={() => {
-                    trackLanguages(
-                      'open-request-language-modal',
-                      this.props.locale
-                    );
-                    this.setState({ showLanguageRequestModal: true });
-                  }}
+                  blank
+                  href="https://github.com/mozilla/common-voice/blob/main/docs/LANGUAGE.md"
                 />
               </Localized>
             </div>
@@ -278,14 +270,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
         </div>
 
         <br />
-
-        {showLanguageRequestModal && (
-          <RequestLanguageModal
-            onRequestClose={() =>
-              this.setState({ showLanguageRequestModal: false })
-            }
-          />
-        )}
 
         <div className="mobile-headings">
           <Hr />

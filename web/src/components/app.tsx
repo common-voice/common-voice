@@ -1,4 +1,5 @@
 import * as React from 'react';
+import * as Modal from 'react-modal';
 import { Suspense } from 'react';
 import { connect, Provider } from 'react-redux';
 import {
@@ -11,7 +12,6 @@ import {
 import { Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import * as Sentry from '@sentry/browser';
-import * as FullStory from '@fullstory/browser';
 import { UserClient } from 'common';
 import store from '../stores/root';
 import URLS from '../urls';
@@ -35,6 +35,8 @@ import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import { User } from '../stores/user';
 import Layout from './layout/layout';
+import DemoLayout from './layout/demo-layout';
+import NotificationBanner from './notification-banner/notification-banner';
 import NotificationPill from './notification-pill/notification-pill';
 import { Spinner } from './ui/ui';
 import {
@@ -52,7 +54,6 @@ const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 
 const SENTRY_FE_DSN =
   'https://4a940c31e4e14d8fa6984e919a56b9fa@sentry.prod.mozaws.net/491';
-const FS_KEY = 'QDBTF';
 
 interface PropsFromState {
   api: API;
@@ -97,6 +98,7 @@ let LocalizedPage: any = class extends React.Component<
   async componentDidMount() {
     await this.prepareBundleGenerator(this.props);
     this.props.refreshUser();
+    Modal.setAppElement('#root');
   }
 
   async UNSAFE_componentWillReceiveProps(nextProps: LocalizedPagesProps) {
@@ -202,7 +204,7 @@ let LocalizedPage: any = class extends React.Component<
   }
 
   render() {
-    const { locale, notifications, toLocaleRoute } = this.props;
+    const { locale, notifications, toLocaleRoute, location } = this.props;
     const { l10n, uploadPercentage } = this.state;
 
     if (!l10n) return null;
@@ -262,7 +264,11 @@ let LocalizedPage: any = class extends React.Component<
                   }
                 />
               ))}
-              <Layout />
+              {location.pathname.includes(URLS.DEMO) ? (
+                <DemoLayout />
+              ) : (
+                <Layout />
+              )}
             </Switch>
           </>
         </LocalizationProvider>
@@ -315,13 +321,10 @@ class App extends React.Component {
       dsn: SENTRY_FE_DSN,
       environment: isProduction() ? 'prod' : 'stage',
       release: process.env.GIT_COMMIT_SHA || null,
+      ignoreErrors: [
+        "ResizeObserver loop limit exceeded"
+      ],
     });
-
-    if (isProduction() && !doNotTrack()) {
-      FullStory.init({
-        orgId: FS_KEY,
-      });
-    }
   }
 
   async componentDidMount() {

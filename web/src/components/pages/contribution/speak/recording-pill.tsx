@@ -52,6 +52,7 @@ function RecordingPill({
     } else {
       audio.pause();
       audio.currentTime = 0;
+      setShowSentenceTooltip(false);
     }
     setIsPlaying(nextIsPlaying);
   };

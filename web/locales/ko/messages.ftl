@@ -33,14 +33,18 @@ as = 아삼어
 ast = 아스투리아스어
 az = 아제르바이잔어
 ba = 바시키르어
+bas = 바사어
 be = 벨로루시어
 bg = 불가리아어
+bm = 밤바라어
 bn = 벵골어
 br = 브르타뉴어
 bxr = 부랴트어
 ca = 카탈로니아어
 cak = 마야어
+ckb = 중앙 쿠르드어
 cnh = 하카어
+co = 코르시카어
 cs = 체코어
 cv = 추바시어
 cy = 웨일스어
@@ -62,11 +66,13 @@ fr = 프랑스어
 fy-NL = 프리지아어
 ga-IE = 아일랜드어
 gl = 갈리시아어
+gn = 과라니어
 ha = 하우사어
 he = 히브리어
 hi = 힌디어
 hr = 크로아티아어
 hsb = 고지 소르브어
+ht = 아이티어
 hu = 헝가리어
 hy-AM = 아르메니아어
 hyw = 서부 아르메니아어
@@ -81,22 +87,26 @@ kaa = 카라칼파크어
 kab = 커바일어
 kbd = 카바르다어
 kk = 카자흐스탄어
+kmr = 쿠르만지 쿠르드어
 ko = 한국어
 kpv = 코미지리안어
-ku = 쿠르드어
 kw = 콘월어
 ky = 키르기스스탄어
 lg = 루간다어
 lij = 리구리아어
 lt = 리투아니아어
 lv = 라트비아어
+mai = 마이틸어
 mdf = 목샤어
 mg = 말라가시어
 mhr = 메도우 마리어
 mk = 마케도니아어
 ml = 말라얄람어
 mn = 몽골어
+mos = 모시어
+mr = 마라티어
 mrj = 힐 마리어
+ms = 말레이어
 mt = 몰타어
 my = 버마어
 myv = 에르자어
@@ -107,7 +117,9 @@ nn-NO = 노르웨이어 뉘노르스크
 oc = 오크어
 or = 오리야어
 pa-IN = 펀자브어
+pap-AW = 파피아멘토(아루바)
 pl = 폴란드어
+ps = 파슈토어
 pt = 포르투갈어
 rm-sursilv = 로만슈 수르실반어
 rm-vallader = 로만슈 발라데르어
@@ -117,9 +129,11 @@ rw = 키냐르완다어
 sah = 사하어
 sc = 사르데냐어
 scn = 시칠리아어
+shi = 실하어
 si = 싱할라어
 sk = 슬로바키아어
 sl = 슬로베니아어
+so = 소말리아어
 sq = 알바니아어
 sr = 세르비아어
 sv-SE = 스웨덴어
@@ -134,12 +148,14 @@ tr = 터키어
 tt = 타타르어
 uby = 우비흐어
 udm = 우드무르트어
+ug = 위구르어
 uk = 우크라이나어
 ur = 우르두어
 uz = 우즈베키스탄어
 vec = 베네치아어
 vi = 베트남어
 vot = 바트어
+yue = 광동어
 zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
 zh-TW = 중국어(중화민국)
@@ -234,7 +250,7 @@ whats-public = 어떤 것이 공개됩니까?
 email-not-public = 사용자의 이메일을 공개하지 않습니다.
 recordings-and-locale-public = 내 녹음 횟수와 기여한 언어는 공개됩니다.
 username-optin-public = 사용자 이름의 공개여부를 선택하실 수 있습니다.
-demographic-deidentified-clarity = 선택적으로 제출 된 인구 통계 데이터 (예 : 연령, 성별, 언어 및 악센트)는 프로필에 공개되지 않으며 데이터 세트의 계정에 연결되지 않습니다. 보다 정확한 분석을 위해 개별 오디오 클립이 인구 통계 데이터와 연결됩니다. 예를 들어, 연구원은 특정 인구 통계 세그먼트에 대한 훈련 모델을 대상으로 할 수 있습니다.
+demographic-deidentified-clarity-2 = 선택적으로 제출 된 인구 통계 데이터 (예 : 연령, 성별, 언어 및 악센트)는 프로필에 공개되지 않으며 데이터 세트의 계정에 연결되지 않습니다. 보다 정확한 분석을 위해 개별 오디오 클립이 인구 통계 데이터와 연결됩니다. 예를 들어, 연구원은 특정 인구 통계 세그먼트에 대한 훈련 모델을 대상으로 할 수 있습니다.
 username-email-not-demographic = 사용자 이름과 이메일은 공개된 데이터와 연관되지 않습니다.
 
 ## Speak & Listen Shortcuts
@@ -264,6 +280,7 @@ shortcut-record-toggle-label = 녹음/멈추기
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 레코드클립 재녹음
 request-language-text = 아직도 사용하는 언어가 Common Voice에서 보이지 않나요?
+request-language-text-learn = 여기에서 요청하는 방법을 알아보세요!
 request-language-button = 언어 요청하기
 
 ## ProjectStatus
@@ -291,7 +308,7 @@ profile-form-accent =
     .label = 억양
 profile-form-age =
     .label = 나이
-profile-form-gender =
+profile-form-gender-2 =
     .label = 성별
 leaderboard-visibility =
     .label = 리더 보드 공개 설정
@@ -318,7 +335,7 @@ profile-close = 닫기
 profile-explanation = 프로필을 사용하여 진행 상황을 파악하고 음성 데이터의 정확성을 높일 수 있습니다.
 thanks-for-account = 계정을 확인해 주셔서 감사 드리며 이제 프로필을 작성하겠습니다.
 why-demographic = 왜 이 문제가 중요합니까?
-why-demographic-explanation = 연령, 성별, 억양과 같은 익명 사용자 데이터는 음성 인식 엔진의 정확성을 교육하는 데 사용되는 오디오 데이터를 개선하는 데 도움이 됩니다. 사용자 이름과 이메일은 제출된 데이터와 연결되지 않으며 사용자 이름을 공개할지 익명으로 할지 선택할 수 있습니다.
+why-demographic-explanation-2 = 연령, 성별, 억양과 같은 익명 사용자 데이터는 음성 인식 엔진의 정확성을 교육하는 데 사용되는 오디오 데이터를 개선하는 데 도움이 됩니다. 사용자 이름과 이메일은 제출된 데이터와 연결되지 않으며 사용자 이름을 공개할지 익명으로 할지 선택할 수 있습니다.
 accept-privacy = Mozilla의 <privacyLink>개인 정보 보호정책</privacyLink>에서 설명한대로 이 정보를 처리해 주십시오.
 accept-privacy-title = 개인 정보 보호 정책
 login-identity = 로그인 정보
@@ -332,26 +349,17 @@ skip-submission-description = '제출'을 클릭하면 기여 제출 피드백�
 skip-submission-note = 참고: Speak(말하기) 또는 Listen(듣기) 중 하나를 선택해야 합니다.
 off = 꺼짐
 on = 켜짐
-avatar-clip-title = 아바타에게 목소리 주기
-change-your-avatar-clip = 음성 클립을 변경하시겠습니까?
-recording-in-progress = 음성 녹음 중
-avatar-clip-recorded = 아바타에 음성 클립이 포함되었습니다!
-record-voice-wave = 음성 녹음
-retry-voice-wave-recording = 다시 시도
-re-record = 다시 녹음
-delete-voice = 삭제
-recording-voice-wave = 녹음 중
-delete-voice-clip = 또는  음성 클립 삭제
-ready-to-upload = 업로드
-avatar-clip-fact = 레이아웃을 볼 때 읽을 수 있는 내용으로 인해 독자가 방해를 받는 다는 사실은 오랫동안 확립된 사실입니다.
-recreate-voice = 음성 재생성
-cancel-avatar-clip-recording = 취소
-about-avatar-clip-recording = 음성을 프로필 아바타의 일부로 만듭니다. 다른 사람들이 프로필 위에 마우스를 올리면 음성을 들을 수 있게 됩니다.
+
+## Profile - Email
+
 browse-file-title = 이미지 파일 업로드
 browse-file = 끌어 놓기 또는 <browseWrap>둘러보기</browseWrap>
 connect-gravatar = Gravatar에 연결하기
 gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
 file_too_large = 선택한 파일이 너무 큽니다.
+
+## Profile - Email
+
 manage-subscriptions = 구독 관리
 manage-email-subscriptions = 이메일 구독 관리
 email-already-used = 다른 계정에 이미 이메일이 사용되었습니다.
@@ -501,10 +509,12 @@ data-other-goto = { $name }로 이동
 data-other-download = 데이터 다운로드
 data-bundle-button = 데이터 세트 번들 다운로드
 data-bundle-description = Common Voice 데이터에는 위의 모든 다른 음성 데이터 세트가 포함됩니다.
+release-version = 버전
+dataset-date = 날짜
 license = 라이센스: <licenseLink>{ $license }</licenseLink>
 license-mixed = 혼합됨
 data-download-singleword-title = 단일 단어 대상 세그먼트 다운로드
-data-download-singleword-callout = 이것은 음성 숫자 인식, 예 / 아니오 감지 및 <fxLink>Firefox Voice</fxLink>에 대한 wakeword 테스트 데이터를 지원하는 데이터를 포함하는 사용 사례 중심 세그먼트입니다.
+data-download-singleword-callout-v2 = 이것은 음성 숫자 인식과 예 / 아니오 감지를 지원하는 데이터를 포함하는 사용 사례 중심 세그먼트입니다.
 review-terms = Common Voice를 사용하면 <termsLink>이용약관</termsLink>과 <privacyLink>개인정보 보호 정책</privacyLink>에 동의한 것으로 간주합니다.
 terms-agree = 동의합니다
 terms-disagree = 동의하지 않습니다
@@ -675,6 +685,7 @@ share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
 keep-track-profile = 프로필로 진행 상황을 추적
 login-to-get-started = 시작하려면 로그인 또는 가입을 하세요.
 target-segment-first-card = 첫 번째 대상 세그먼트에 기여하고 있습니다.
+target-segment-generic-card = 대상 세그먼트에 기여하고 있습니다.
 target-segment-first-banner = { $locale }로 Common Voice의 첫 번째 대상 세그먼트 만드는 것을 도와주세요.
 target-segment-add-voice = 내 목소리 추가
 target-segment-learn-more = 더 알아보기
@@ -830,3 +841,40 @@ help-contribute = Common Voice 프로필을 만들고 본인의 목소리로 참
 login-company = { $company } 이메일로 로그인/가입
 profile-not-required = 프로필이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
 read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
+
+## DemoLayout
+
+demo-get-started = 시작합니다
+demo-welcome = Common Voice에 오신 것을 환영합니다
+demo-welcome-subheader = 더 많은 것을 배우고 프로젝트에 기여하는 것에 관심이 있습니까?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common voice는 공개적으로 사용할 수 있는 세계에서 가장 큰 다국어 음성 데이터 세트입니다.
+demo-language-select-card-body = 50 개 이상의 언어로 약 25만 9천명 이상의 사람들이 기여한 덕분에, 이 데이터는 사람의 목소리에 더 잘 반응하도록 음성 지원 앱을 훈련시키는데 사용될 것입니다.
+card-button-next = 다음
+card-button-back = 뒤로
+demo-language-select-label = 언어 찾기
+demo-eofy-header = 2019 년 말 출시
+demo-eofy-sub_header = 음성 데이터 세트, 다운로드 준비 완료
+demo-account = 계정
+
+## Demo Account
+
+demo-account-card-header = 계정이 있으면 도움이 되지만, 공헌을 위해 꼭 필요한 것은 아닙니다.
+demo-account-enter-email =
+    .label = 가입 링크를 보낼 이메일을 입력하세요.
+demo-account-sign-up = 가입 링크 보내기
+
+## Demo Contribute
+
+demo-contribute-card-header = 목소리를 추가하거나 귀를 빌릴 준비가 되셨습니까?
+demo-listen-subtitle = 기여할 준비가 되었습니까?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = 개인 대시보드는 개인 및 커뮤니티 진행 상황에 대한 최신 정보를 제공합니다.
+demo-dashboard-card-body = 기부된 모든 음성 클립과 검증된 모든 오디오 클립에 대하여, 계정 대시 보드에서 기여하는 각 언어의 최신 진행 상황이 반영됩니다. 네, 하나 이상의 기여를할 수 있습니다!<br/><br/> 대시 보드를 사용하여 통계를 확인하거나 커뮤니티에서 다른 사람들과 함께 어떻게하고 있는지 확인하거나 일일 혹은 주간 기여 목표를 설정하세요.
+
+## Validation criteria
+

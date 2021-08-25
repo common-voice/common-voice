@@ -1,5 +1,3 @@
-@import url('../../../vars.css');
-
 .user-setting {
     margin-top: 40px;
 
@@ -89,7 +87,7 @@
 
         @media (--md-up) {
             flex: 0;
-            min-width: 134px;
+            min-width: auto;
         }
 
         & svg {

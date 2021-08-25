@@ -33,6 +33,7 @@ as = Asamés
 ast = Asturiano
 az = Azerí
 ba = Baixkir
+bas = Basaa
 be = Belorruso
 bg = Bulgaro
 bn = Bengalí
@@ -83,7 +84,6 @@ kbd = Kabardiano
 kk = Casaco
 ko = Coreano
 kpv = Komi-Zyrian
-ku = Kurdo
 kw = Cornico
 ky = Kirguís
 lg = Luganda
@@ -291,8 +291,6 @@ profile-form-accent =
     .label = Accento
 profile-form-age =
     .label = Edat
-profile-form-gender =
-    .label = Sexo
 leaderboard-visibility =
     .label = Visibilidat en a taula de clasificación
 hidden = Amagau
@@ -315,6 +313,13 @@ settings = Achustes
 edit-profile = Editar perfil
 profile-create-success = Feito, perfil creau!
 profile-close = Zarrar
+edit = Editar
+
+## Profile - Email
+
+
+## Profile - Email
+
 
 ## FAQ
 
@@ -398,4 +403,22 @@ faq-search-for-answers =
 
 
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
 
