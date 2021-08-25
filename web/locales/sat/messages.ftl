@@ -187,11 +187,14 @@ faq-search-for-answers =
 about-title = Common Voice ᱫᱚ ᱪᱮᱫᱟᱜ?
 about-speak = ᱨᱚᱲ ᱢᱮ
 about-listen = ᱟᱧᱡᱚᱢ ᱢᱮ
+about-yes-votes = ≥ ᱒ ᱦᱮᱸ ᱵᱷᱚᱴ
+about-no-votes = ≥ ᱒ ᱵᱟᱝ ᱵᱷᱚᱴ
 about-dataset-new = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ
 about-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
 about-become-a-partner = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤ ᱵᱮᱱᱟ ᱯᱮ
 about-get-involved = ᱥᱟᱹᱢᱤᱞᱚᱜ ᱯᱮ
 about-nav-why-common-voice = ᱪᱮᱫᱟᱜ?
+about-nav-how-it-works = ᱪᱮᱠᱟᱛᱮ ?
 about-nav-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
 about-nav-get-involved = ᱥᱟᱹᱢᱤᱞᱚᱜ ᱯᱮ
 
