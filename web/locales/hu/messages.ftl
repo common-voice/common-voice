@@ -33,14 +33,18 @@ as = Asszámi
 ast = Asztúriai
 az = Azeri
 ba = Baskír
+bas = Basza
 be = Belorusz
 bg = Bolgár
+bm = Bambara
 bn = Bengáli
 br = Breton
 bxr = Burját
 ca = Katalán
 cak = Kacsikel
+ckb = Közép-kurd
 cnh = Hakha Chin
+co = Korzikai
 cs = Cseh
 cv = Csuvas
 cy = Walesi
@@ -62,11 +66,13 @@ fr = Francia
 fy-NL = Fríz
 ga-IE = Ír
 gl = Galícia
+gn = Guarani
 ha = Hausza
 he = Héber
 hi = Hindi
 hr = Horvát
 hsb = Szorb, felső
+ht = Haiti
 hu = Magyar
 hy-AM = Örmény
 hyw = Nyugati-örmény
@@ -81,33 +87,41 @@ kaa = Karakalpak
 kab = Kabil
 kbd = Kabardi
 kk = Kazak
+kmr = Kurmandzsi kurd
 ko = Koreai
 kpv = Komi-zürjén
-ku = Kurd
 kw = Cornwalli
 ky = Kirgiz
 lg = Luganda
 lij = Ligur
 lt = Litván
 lv = Lett
+mai = Maithili
 mdf = Moksa
 mg = Malgas
 mhr = Mezei mari
 mk = Macedón
 ml = Malajálam
 mn = Mongol
+mos = Moszi
+mr = Maráthi
 mrj = Hegyi mari
+ms = Maláj
 mt = Máltai
 my = Burmai
 myv = Erza
 nb-NO = Norvég bokmål
 ne-NP = Nepáli
+nia = Nias
 nl = Holland
 nn-NO = Norvég nynorsk
+nyn = Nyankole
 oc = Okcitán
 or = Orija
 pa-IN = Pandzsábi
+pap-AW = Papiamento (Aruba)
 pl = Lengyel
+ps = Pastu
 pt = Portugál
 rm-sursilv = Romans sursilvan
 rm-vallader = Romans vallader
@@ -117,9 +131,11 @@ rw = Ruandai
 sah = Szaha
 sc = Szárd
 scn = Szicíliai
+shi = Tachelhit
 si = Szingaléz
 sk = Szlovák
 sl = Szlovén
+so = Szomáli
 sq = Albán
 sr = Szerb
 sv-SE = Svéd
@@ -132,14 +148,18 @@ th = Thai
 tl = Tagalog
 tr = Török
 tt = Tatár
+tw = Twi
 uby = Ubih
 udm = Udmurt
+ug = Ujgur
 uk = Ukrán
 ur = Urdu
 uz = Üzbég
 vec = Velencei
 vi = Vietnámi
 vot = Vót
+yo = Joruba
+yue = Kantoni
 zh-CN = Kínai (Kína)
 zh-HK = Kínai (Hong Kong)
 zh-TW = Kínai (Tajvan)
@@ -162,7 +182,7 @@ terms = Jogi feltételek
 cookies = Sütik
 faq = GYIK
 content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseLink> alatt érhető el.
-share-title = Segítsen olyanokat találni, akik a hangjukat adják.
+share-title = Segítsen megtalálni azokat, akik a hangjukat adják.
 share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
@@ -171,6 +191,7 @@ logout = Kijelentkezés
 ## Home Page
 
 home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
+default-tagline = A Mozilla Common Voice egy kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
 home-cta = Szólaljon meg, működjön közre.
 wall-of-text-start = A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára van szükség.
 wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem érhetőek el. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
@@ -192,10 +213,10 @@ vote-no = Nem
 toggle-play-tooltip = Nyomja meg az { shortcut-play-toggle } gombot a lejátszási módba váltáshoz
 speak-subtitle = Adja a hangját
 speak-paragraph = A hangklipek rögzítése a nyílt adatkészletünk összeállításának szerves része; egyesek azt mondanák, hogy ez a szórakoztató része.
-speak-goal-text = Rögzített klipek
+speak-goal-text = Rögzített klip
 listen-subtitle = Segítsen ellenőrizni a hangokat
 listen-paragraph = A közzétett klipek ellenőrzése hasonlóan fontos a Common Voice küldetéséhez. Hallgasson bele, és segítsen nekünk a minőségi nyílt forráskódú beszédadatok létrehozásában.
-listen-goal-text = Ellenőrzött klipek
+listen-goal-text = Ellenőrzött klip
 hours-recorded = Rögzített órák
 hours-validated = Ellenőrzött órák
 voices-online = Jelenleg online hangok
@@ -241,7 +262,7 @@ whats-public = Mi nyilvános?
 email-not-public = Nem fogjuk nyilvánossá tenni az e-mail címét.
 recordings-and-locale-public = A felvételei száma, és a nyelvek amikben Ön közreműködik, nyilvánosak lesznek.
 username-optin-public = Kiválaszthatja, hogy a felhasználó neve nyilvános vagy privát legyen.
-demographic-deidentified-clarity = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipeket a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – például egy kutató egy konkrét demográfiai szegmensre akarhat betanítani egy modellt.
+demographic-deidentified-clarity-2 = Az opcionálisan benyújtott demográfiai adatok (például életkor, nem, nyelv és akcentus) sosem lesznek közzétéve a profilján, és nem lesznek összekapcsolva a fiókjával az adatkészletben. Az egyes hangklipeket a pontosabb elemzés céljából össze lesznek kapcsolva a demográfiai adatokkal – például egy kutató egy konkrét demográfiai szegmensre akarhat betanítani egy modellt.
 username-email-not-demographic = A felhasználóneve és az e-mail címe nem lesz társítva a közzétett adatokkal.
 
 ## Speak & Listen Shortcuts
@@ -270,7 +291,12 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Rözgzítés/leállítás
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klip újrarögzítése
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = A folyamatban lévő felvétel elvetése
+shortcut-submit = Enter
+shortcut-submit-label = Klipek beküldése
 request-language-text = Nem látja az anyanyelvét a Common Voice-on?
+request-language-text-learn = Tudja meg, hogyan kérheti itt.
 request-language-button = Nyelv kérése
 
 ## ProjectStatus
@@ -299,7 +325,7 @@ profile-form-accent =
     .label = Akcentus
 profile-form-age =
     .label = Életkor
-profile-form-gender =
+profile-form-gender-2 =
     .label = Nem
 leaderboard-visibility =
     .label = Ranglista láthatósága
@@ -326,7 +352,7 @@ profile-close = Bezárás
 profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen pontosabbá tenni az adatainkat.
 thanks-for-account = Köszönjük, hogy megerősítette a fiókját, most állítsuk össze a profilját.
 why-demographic = Miért számít ez?
-why-demographic-explanation = Az anonimizált felhasználói adatok, mint az életkor, nem és akcentus segít jobbá tenni a hangadatokat, melyek a hangfelismerő motorok pontosságának tanítására használhatóak. A felhasználónév és a jelszó sosem lesz hozzákapcsolva a beküldött adatokhoz, és megadhatja azt is, hogy a felhasználóneve nyilvános vagy anonim legyen.
+why-demographic-explanation-2 = Az anonimizált felhasználói adatok, mint az életkor, nem és akcentus segít jobbá tenni a hangadatokat, melyek a hangfelismerő motorok pontosságának tanítására használhatóak. A felhasználónév és a jelszó sosem lesz hozzákapcsolva a beküldött adatokhoz, és megadhatja azt is, hogy a felhasználóneve nyilvános vagy anonim legyen.
 accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelveiben</privacyLink> leírtak szerint kezeljék az adataimat
 accept-privacy-title = Adatvédelmi irányelvek
 login-identity = Bejelentkezési azonosító
@@ -340,26 +366,19 @@ skip-submission-description = A közreműködések beküldésekor a visszajelzé
 skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszéljen vagy Figyeljen lehetőséget a közreműködés típusának módosításához.
 off = Ki
 on = Be
-avatar-clip-title = Adjon hangot az avatárjának
-change-your-avatar-clip = Meg akarja változtatni a hangklipjét?
-recording-in-progress = Hangfelvétel folyamatban
-avatar-clip-recorded = Az avatárja most már hangklipet tartalmaz!
-record-voice-wave = HANGHULLÁM RÖGZÍTÉSE
-retry-voice-wave-recording = ÚJRAPRÓBÁLKOZÁS
-re-record = ÚJRAFELVÉTEL
-delete-voice = TÖRLÉS
-recording-voice-wave = Felvétel
-delete-voice-clip = vagy törölje a hangklipet
-ready-to-upload = Feltöltés
-avatar-clip-fact = Régóta bebizonyosodott tény, hogy elvonja az olvasó figyelmét az oldal olvasható tartalma, ha az elrendezését figyeli.
-recreate-voice = Hozza létre újra a hanghullámot
-cancel-avatar-clip-recording = Mégse
-about-avatar-clip-recording = Hozzon létre egy hangklipet a profilja avatárjának részeként. Mások felé húzhatják az egeret, és meghallgathatják a klipet.
+
+## Profile - Email
+
 browse-file-title = Képfájl feltöltése
 browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
 connect-gravatar = Kapcsolódás a Gravatarral
 gravatar_not_found = Nem található gravatar az e-mail címéhez
 file_too_large = A kiválasztott fájl túl nagy
+avatar-uploaded = Profilkép feltöltése
+max-file-size = legfeljebb { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Feliratkozások kezelése
 manage-email-subscriptions = E-mail feliratkozások kezelése
 email-already-used = Az e-mail már használatban van egy másik fiókban
@@ -372,6 +391,10 @@ faq-title = Gyakran Ismételt Kérdések
 faq-what-cv-q = Mi a Common Voice?
 faq-what-cv-a =
     A hangfelismerési technológia forradalmasítja a gépekkel történő interakciót, de a jelenleg elérhető rendszerek drágák és tulajdonosi modellűek. A Common Voice a Mozilla kezdeményezésének része, amellyel a hangfelismerési technológia mindenki számára elérhetővé akarjuk tenni. A Common Voice felajánlott hangok hatalmas globális adatbázisa, amellyel bárki gyorsan és könnyen betaníthatja a hangfelismerést használó alkalmazását, akár tetszőleges nyelven.
+    
+    Nemcsak a széles körűen beszélt nyelveken gyűjtünk hangmintákat, de a kisebb beszélőszámú nyelveken is. A változatos hangadatkészlet közzététele lehetőséget ad a fejlesztőknek, vállalkozóknak és a közösségeknek, hogy leküzdjék ezt a különbséget. A Common Voice adatkészlete mellett egy nyílt forráskódú beszédfelismerő motort is készítünk, melyet Deep Speechnek hívunk.
+faq-what-cv-a-2 =
+    A hangfelismerési technológia forradalmasítja a gépekkel történő interakciót, de a jelenleg elérhető rendszerek drágák és tulajdonosi modellűek. A Mozilla Common Voice egy olyan kezdeményezés, amellyel a hangfelismerési technológiát mindenki számára elérhetővé akarjuk tenni. A Common Voice felajánlott hangok hatalmas globális adatbázisa, amellyel bárki gyorsan és könnyen betaníthatja a hangfelismerést használó alkalmazását, akár tetszőleges nyelven.
     
     Nemcsak a széles körűen beszélt nyelveken gyűjtünk hangmintákat, de a kisebb beszélőszámú nyelveken is. A változatos hangadatkészlet közzététele lehetőséget ad a fejlesztőknek, vállalkozóknak és a közösségeknek, hogy leküzdjék ezt a különbséget. A Common Voice adatkészlete mellett egy nyílt forráskódú beszédfelismerő motort is készítünk, melyet Deep Speechnek hívunk.
 faq-why-important-q = Ez miért fontos?
@@ -428,6 +451,9 @@ about-title = Miért a Common Voice?
 about-subtitle = A Common Voice a Mozilla azon kezdeményezésének része, hogy megtanítsuk a gépeket arra, hogyan beszélnek az emberek. A Common Voice adatkészlet mellett egy nyílt forráskódú szövegfelismerési motort is fejlesztünk, melyet Deep Searchnek hívnak.
 about-header-description =
     Mindkét projekt azon erőfeszítésünk része, hogy áthidaljuk a digitális beszéd szakadékát. A hangfelismerési technológiák emberi dimenziót adnak az eszközeinknek, de a fejlesztőknek hatalmas mennyiségű hangadatra van szükségük az elkészítésükhöz. Jelenleg az ilyen adatok legnagyobb része drága és zárt.
+    A hangadatokat szabadon és nyilvánosan elérhetővé akarjuk tenni, és meg akarunk győződni arról, hogy az adatok a valódi emberek sokszínűségét tükrözik. Együtt mindenki számára jobbá tehetjük a hangfelismerést.
+about-header-description-2 =
+    A projekt a digitális beszéd szakadékának áthidalását célzó kezdeményezés. A hangfelismerési technológiák emberi dimenziót adnak az eszközeinknek, de a fejlesztőknek hatalmas mennyiségű hangadatra van szükségük az elkészítésükhöz. Jelenleg az ilyen adatok legnagyobb része drága és zárt.
     A hangadatokat szabadon és nyilvánosan elérhetővé akarjuk tenni, és meg akarunk győződni arról, hogy az adatok a valódi emberek sokszínűségét tükrözik. Együtt mindenki számára jobbá tehetjük a hangfelismerést.
 how-does-it-work-title = Hogyan működik
 how-does-it-work-text = Közösségi munkában gyűjtjük a hangok nyílt forráskódú készletét. Adja a hangját, ellenőrizze más emberek klipjeinek pontosságát, és tegye mindenki számára jobbá az adatkészletet.
@@ -507,10 +533,12 @@ data-other-goto = Ugrás ide: { $name }
 data-other-download = Adatok letöltése
 data-bundle-button = Adatkészletcsomag letöltése
 data-bundle-description = Common Voice adatok plusz az összes fenti adatkészlet.
+release-version = Verzió
+dataset-date = Dátum
 license = Licenc: <licenseLink>{ $license }</licenseLink>
 license-mixed = Vegyes
 data-download-singleword-title = Töltse le az egyszavas célszegmenst
-data-download-singleword-callout = Ez egy konkrét használati esetet célzó szegmens, mely kiejtett számok felismeréséhez, igen / nem észleléshez és hívószó-teszteléshez alkalmas adatokat tartalmaz a <fxLink>Firefox Voice</fxLink> számára.
+data-download-singleword-callout-v2 = Ez egy konkrét felhasználási esetet célzó szegmens, amely a szóbeli igen / nem felismerést lehetővé tévő adatokat tartalmaz.
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
@@ -678,6 +706,7 @@ share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
 keep-track-profile = Kövesse nyomon az előrehaladását egy profil segítségével
 login-to-get-started = A kezdéshez jelentkezzen be vagy regisztráljon
 target-segment-first-card = Közreműködik az első célszegmensünkben
+target-segment-generic-card = Közreműködik egy célszegmensben
 target-segment-first-banner = Segítsen a Common Voice első { $locale } célszegmensének létrehozásában
 target-segment-add-voice = Adja a hangját
 target-segment-learn-more = További tudnivalók
@@ -737,8 +766,8 @@ you = Ön
 everyone = Mindenki
 contribution-activity = Közreműködési tevékenység
 top-contributors = Legjobb közreműködők
-recorded-clips = Rögzített klipek
-validated-clips = Ellenőrzött klipek
+recorded-clips = Rögzített klip
+validated-clips = Ellenőrzött klip
 total-approved = Összes jóváhagyott
 overall-accuracy = Összesített pontosság
 set-visibility = Láthatóság beállítása
@@ -842,3 +871,71 @@ help-contribute = Az Ön segítségével sokoldalú, nyílt forráskódú adatk�
 login-company = Jelentkezzen be / regisztráljon a { $company } e-mail címével
 profile-not-required = Profil nem szükséges a közreműködéshez, de hasznos ha van
 read-more-about = További információk a Névjegy oldalon
+
+## DemoLayout
+
+demo-get-started = Kezdjünk hozzá
+demo-welcome = Üdvözli a Common Voice
+demo-welcome-subheader = Szeretne többet megtudni és közreműködni a projektben?
+
+## Demo Datasets
+
+demo-language-select-card-header = A Common Voice a világ legnagyobb nyilvánosan elérhető, többnyelvű hangadatkészlete.
+demo-language-select-card-body = Köszönhetően 259 ezer ember közreműködésének több mint 50 nyelven, az adatokat arra használják, hogy beszédalapú alkalmazásokat tanítsanak be, hogy jobban válaszoljanak az emberi hangra.
+card-button-next = Tovább
+card-button-back = Vissza
+demo-language-select-label = Nyelvek tallózása
+demo-eofy-header = 2019-es év végi kiadás
+demo-eofy-sub_header = Hangadatkészlet, letöltésre kész
+demo-account = Fiók
+
+## Demo Account
+
+demo-account-card-header = Bár fiók nem szükséges a közreműködéshez, de hasznos ha van.
+demo-account-card-body = A jobb oldalon felvázoljuk az előnyöket és tisztázzuk a nyilvánosságra hozott információkat. A lenti hivatkozásokkal nekikezdhet egy Common Voice-fiókkal a saját eszközén.
+demo-account-enter-email =
+    .label = Adjon meg egy e-mail-címet a regisztrációs hivatkozás elküldéséhez
+demo-account-sign-up = Regisztrációs hivatkozás engedélyezése
+
+## Demo Contribute
+
+demo-contribute-card-header = Készen áll, hogy kölcsönadja a hangját vagy a fülét?
+demo-contribute-card-body-v2 = Most, hogy egy kicsit többet tud a Common Voice-ról, miért ne próbálná ki? Kattintson a mikrofon ikonra a mondatok hangos olvasásának megkezdéséhez.<br/><br/>Ha inkább átnézné mások hanghozzájárulásait, kattintson a lejátszás ikonra. Segíteni fog annak a megerősítésében, hogy a hangfelvételek megegyeznek a képernyőre írt mondatokkal.
+demo-listen-subtitle = Készen áll a közreműködésre?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = A személyes irányítópultok naprakészen tartják az egyéni és közösségi előrehaladást.
+demo-dashboard-card-body = Minden felajánlott vagy ellenőrzött hangklip esetén frissülnek a fiókhoz tartozó vezérlőpultok, hogy jelezzék a legfrissebb előrehaladását a közreműködött nyelvekben. Igen, egynél többen is közreműködhet!<br/><br/> A vezérlőpultjainkkal követheti a saját statisztikáit, megnézheti hogyan áll a közösség más tagjaihoz képest, és napi vagy heti közreműködési célokat állíthat be.
+
+## Validation criteria
+
+contribution-criteria-nav = Feltételek
+contribution-criteria-link = Közreműködési feltételek megértése
+contribution-criteria-page-title = Közreműködési feltételek
+contribution-criteria-page-description = Értse meg, hogy mire kell figyelnie, amikor a hangklipeket meghallgatja, és segítsen gazdagabbá tenni a saját hangfelvételeit is.
+contribution-for-example = például
+contribution-misreadings-title = Félreolvasások
+contribution-misreadings-description = Hallgatáskor nagyon gondosan ellenőrizze, hogy ami rögzítve lett, az pontosan egyezik-e a leírtakkal; akkor is utasítsa el, ha kisebb hibák vannak. <br />Nagyon gyakori hibák:
+contribution-misreadings-description-extended-list-1 = Hiányzó névelő a felvétel elején.
+contribution-misreadings-description-extended-list-2 = Hiányzó többes szám a szó végén.
+contribution-misreadings-description-extended-list-3 = Olyan összevonások felolvasása, melyek nem szerepelnek a szövegben.
+contribution-misreadings-description-extended-list-4 = Hiányzó utolsó szó a felvétel túl gyors befejezése miatt.
+contribution-misreadings-description-extended-list-5 = Többszöri próbálkozás egy szó felolvasására.
+contribution-misreadings-example-1-title = A triász óriás dinoszauruszai.
+contribution-misreadings-example-2-title = A triász óriás dinoszaurusza.
+contribution-misreadings-example-2-explanation = [Ennek kellene lennie: „dinoszauruszai”]
+contribution-misreadings-example-3-title = A triász óriás dinoszaurusz-.
+contribution-misreadings-example-3-explanation = [A felvétel az utolsó szó vége előtt megszakadt]
+contribution-misreadings-example-4-title = A triász óriás dinoszauruszai. Igen.
+contribution-misreadings-example-4-explanation = [Több lett rögzítve, mint a szükséges szöveg]
+contribution-misreadings-example-5-title = Kimegyünk kávézni.
+contribution-varying-pronunciations-title = Változó kiejtések
+contribution-background-noise-title = Háttérzaj
+contribution-background-noise-example-2-explanation = [A szöveg egy része nem hallható]
+contribution-background-voices-title = Hangok a háttérben
+contribution-volume-title = Hangerő
+contribution-reader-effects-title = Felolvasói hatások
+contribution-just-unsure-title = Csak bizonytalan?
+see-more = <chevron> </chevron> További információk
+see-less = <chevron> </chevron> Kevesebb információ

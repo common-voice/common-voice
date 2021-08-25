@@ -33,6 +33,7 @@ const StatsPage = ({ allGoals, dashboardLocale }: Props) =>
 
       <div className="cards">
         <StatsCard
+          scrollable
           key="contribution"
           title="contribution-activity"
           currentLocale={dashboardLocale}

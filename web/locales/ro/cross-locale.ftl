@@ -6,7 +6,7 @@ get-involved-title = Contribuie la { $lang }
 get-involved-text =
     Îți mulțumim pentru interesul de a contribui la { $lang }. Ne străduim să pregătim fiecare limbă pentru lansare și să ne ținem
     la curent echipele prin e-mail. Dacă vreisă contribui, te rugăm să ne furnizezi adresa ta de e-mail mai jos.
-get-involved-form-title = Înscrie-te pentru actualizări despre { $lang }:
+get-involved-form-title = Înscrie-te pentru actualizări cu privire la { $lang }:
 get-involved-email =
     .label = E-mail
 get-involved-opt-in = Da, vreau să primesc e-mailuri. Aș dori să primesc informații despre avansul lucrărilor pe această limbă în Common Voice.

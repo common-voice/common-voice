@@ -7,6 +7,7 @@ import { useLocalizedDiscourseURL } from '../../locale-helpers';
 import { Button, LinkButton, StyledLink } from '../../ui/ui';
 import Dots from './dots';
 import datasets from './other-datasets';
+import getStartedResource from './get-started';
 
 import './resources.css';
 
@@ -16,13 +17,44 @@ const NAV_IDS = {
   feedback: 'feedback',
 };
 
+const GetStartedResource = React.memo(
+  ({ title, nick, trademark, titleLocalized, image, url, description }: any) => {
+    Object.keys(description.linkElems).forEach((el) => {
+      description.linkElems[el] = <StyledLink href={description.linkElems[el]} blank />
+    });
+
+    return (
+      <div key={nick} className="box">
+        <img src={require(`${image}`)} />
+        <div className="dots-and-content">
+          <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
+          <div className="content">
+            <h2>
+              <StyledLink
+                href={url}
+                blank>
+                { titleLocalized ? <Localized id={nick} /> : title }
+              </StyledLink>{ trademark ? trademark : ''}
+            </h2>
+            <Localized
+              id={description.localizationId}
+              elems={description.linkElems}>
+              <p />
+            </Localized>
+          </div>
+        </div>
+      </div>
+    )
+  }
+);
+
 const Dataset = React.memo(
   ({ color, name, nick, size, url, download, license }: any) => {
     const [collapsed, setCollapsed] = useState(true);
     return (
       <div className="other-dataset box">
         <img src={require(`./images/${nick}.jpg`)} alt="" />
-        <div className="banner" style={{ backgroundColor: color }} />
+        <div className="dataset-banner" style={{ backgroundColor: color }} />
         <div className="dots-and-content">
           <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
           <div className="content">
@@ -139,60 +171,10 @@ export default React.memo(() => {
           name={NAV_IDS.getStarted}
           onChangeIntersection={handleIntersectionChange}
           className="get-started">
-          <div key="deepspeech-info" className="box">
-            <img src={require(`./images/deepspeech.png`)} />
-            <div className="dots-and-content">
-              <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
-              <div className="content">
-                <h2>
-                  <StyledLink
-                    href="https://discourse.mozilla.org/c/deep-speech"
-                    blank>
-                    DeepSpeech
-                  </StyledLink>
-                </h2>
-                <Localized
-                  id="deepspeech-info"
-                  elems={{
-                    githubLink: (
-                      <StyledLink
-                        href="https://github.com/mozilla/DeepSpeech"
-                        blank
-                      />
-                    ),
-                    discourseLink: (
-                      <StyledLink
-                        href="https://discourse.mozilla.org/c/deep-speech"
-                        blank
-                      />
-                    ),
-                  }}>
-                  <p />
-                </Localized>
-              </div>
-            </div>
-          </div>
+          {getStartedResource.map(props => (
+            <GetStartedResource key={props.nick} {...props} />
+          ))}
 
-          <div key="common-voice-info-new" className="box">
-            <img src={require(`./images/discourse.png`)} />
-            <div className="dots-and-content">
-              <Dots backgroundColor={'var(--lighter-grey)'} space={20} />
-              <div className="content">
-                <h2>
-                  <StyledLink href={discourseURL} blank>
-                    Discourse
-                  </StyledLink>
-                </h2>
-                <Localized
-                  id="common-voice-info-new"
-                  elems={{
-                    discourseLink: <StyledLink href={discourseURL} blank />,
-                  }}>
-                  <p />
-                </Localized>
-              </div>
-            </div>
-          </div>
         </Section>
 
         <Section

@@ -1,5 +1,3 @@
-@import url('../../../vars.css');
-
 .pill.recording {
     &.done .contents > * {
         height: 100%;

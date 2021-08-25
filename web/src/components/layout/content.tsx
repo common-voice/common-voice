@@ -14,6 +14,7 @@ const FAQPage = React.lazy(() => import('../pages/faq/faq'));
 const AboutPage = React.lazy(() => import('../pages/about/about'));
 const LandingPage = React.lazy(() => import('../pages/landing/landing'));
 const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'));
+const CriteriaPage = React.lazy(() => import('../pages/criteria/criteria'));
 
 export default function Content({ location }: { location: any }) {
   const [locale, toLocaleRoute] = useLocale();
@@ -76,6 +77,7 @@ export default function Content({ location }: { location: any }) {
             path={toLocaleRoute(URLS.DASHBOARD)}
             component={DashboardPage}
           />
+          <Route path={toLocaleRoute(URLS.CRITERIA)} component={CriteriaPage} />
           {[URLS.CHALLENGE, URLS.STATS, URLS.GOALS, URLS.AWARDS].map(path => (
             <Route
               key={path}

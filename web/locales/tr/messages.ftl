@@ -11,6 +11,7 @@ loading = Yükleniyor…
 email-opt-in-info = Hedef hatırlatmaları, ilerleme durumum ve Common Voice ile ilgili bültenler gibi e-postalar almak istiyorum.
 email-opt-in-info-title = Common Voice e-posta listesine katılın
 email-opt-in-info-sub-with-challenge = Hedef hatırlatmaları, ilerleme durumu ve Common Voice ile ilgili bültenler gibi e-postalar alın.
+email-opt-in-privacy-v2 = E-posta almayı tercih ettiğinizde bu bilgileri Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanmasını kabul etmiş oluyorsunuz.
 indicates-required = * Gerekli alanları gösterir
 not-available-abbreviation = Yok
 
@@ -32,14 +33,18 @@ as = Assamca
 ast = Asturyanca
 az = Azerice
 ba = Başkurtça
+bas = Basaa
 be = Belarusça
 bg = Bulgarca
+bm = Bambara
 bn = Bengalce
 br = Bretonca
 bxr = Buryatça
 ca = Katalanca
 cak = Kakçikelce
+ckb = Soranice
 cnh = Hakha Chin
+co = Korsikaca
 cs = Çekçe
 cv = Çuvaşça
 cy = Galce
@@ -61,11 +66,13 @@ fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
 gl = Galce
+gn = Guarani
 ha = Hausaca
 he = İbranice
 hi = Hintçe
 hr = Hırvatça
 hsb = Yukarı Sorbca
+ht = Haiti dili
 hu = Macarca
 hy-AM = Ermenice
 hyw = Batı Ermenicesi
@@ -80,33 +87,40 @@ kaa = Karakalpakça
 kab = Berberice
 kbd = Kabardeyce
 kk = Kazakça
+kmr = Kurmançça
 ko = Korece
 kpv = Komi Zıryan
-ku = Kürtçe
 kw = Kernevekçe
 ky = Kırgızca
 lg = Luganda
 lij = Liguryanca
 lt = Litvanca
 lv = Letonca
+mai = Maithili
 mdf = Mokşa
 mg = Malgaşça
 mhr = Ova Marice
 mk = Makedonca
 ml = Malayalam
 mn = Moğolca
+mos = Mossi
+mr = Marathice
 mrj = Dağlık Marice
+ms = Malayca
 mt = Maltaca
 my = Birmanca
 myv = Erzyanca
 nb-NO = Norveç Bokmål
 ne-NP = Nepalce
+nia = Nias
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
 oc = Oksitanca
 or = Odia
 pa-IN = Pencapça
+pap-AW = Papiamento (Aruba)
 pl = Lehçe
+ps = Peştuca
 pt = Portekizce
 rm-sursilv = Romanşça Sursilvan
 rm-vallader = Romanşça Vallader
@@ -116,9 +130,11 @@ rw = Kinyarwanda
 sah = Yakutça
 sc = Sardinya dili
 scn = Sicilyaca
+shi = Şilha
 si = Seylanca
 sk = Slovakça
 sl = Slovakça
+so = Somalice
 sq = Arnavutça
 sr = Sırpça
 sv-SE = İsveççe
@@ -131,14 +147,18 @@ th = Tayca
 tl = Tagalog
 tr = Türkçe
 tt = Tatarca
+tw = Twi
 uby = Ubıhça
 udm = Udmurtça
+ug = Uygurca
 uk = Ukraynaca
 ur = Urduca
 uz = Özbekçe
 vec = Venedikçe
 vi = Vietnamca
 vot = Votic
+yo = Yoruba
+yue = Kantonca
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
@@ -234,7 +254,7 @@ whats-public = Başkaları hangi bilgilerinizi görür?
 email-not-public = E-posta adresinizi hiç kimse göremez.
 recordings-and-locale-public = Yaptığınız kayıt sayısını ve katkıda bulunduğunuz dilleri başkaları görebilir.
 username-optin-public = Kullanıcı adınızı isterseniz gösterebilir isterseniz de anonim kalabilirsiniz.
-demographic-deidentified-clarity = İsteğe bağlı olarak gönderilen demografik veriler (örn. yaş, cinsiyet, dil ve aksan) hiçbir zaman profilinizde görüntülenmeyecek ve veri kümesindeki hesabınızla ilişkilendirilmeyecektir. Ses kayıtları, analizin doğruluğunu artırmak amacıyla demografik verilerle tek tek ilişkilendirilecektir. Örneğin, bir araştırmacı belirli bir demografik segmenti hedefleyen bir eğitim modeli geliştirmek isteyebilir.
+demographic-deidentified-clarity-2 = İsteğe bağlı olarak gönderilen demografik veriler (örn. yaş, cinsiyet, dil ve aksan) hiçbir zaman profilinizde görüntülenmeyecek ve veri kümesindeki hesabınızla ilişkilendirilmeyecektir. Ses kayıtları, analizin doğruluğunu artırmak amacıyla demografik verilerle tek tek ilişkilendirilecektir. Örneğin, bir araştırmacı belirli bir demografik segmenti hedefleyen bir eğitim modeli geliştirmek isteyebilir.
 username-email-not-demographic = Kullanıcı adınız ve e-posta adresiniz, paylaşılan verilerle ilişkilendirilmeyecektir.
 
 ## Speak & Listen Shortcuts
@@ -263,7 +283,10 @@ shortcut-record-toggle = k
 shortcut-record-toggle-label = Kaydet/Durdur
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Yeniden kaydedin
+shortcut-submit = Enter
+shortcut-submit-label = Kayıtları gönder
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
+request-language-text-learn = Nasıl talep edebileceğinizi öğrenin!
 request-language-button = Yeni dil iste
 
 ## ProjectStatus
@@ -292,7 +315,7 @@ profile-form-accent =
     .label = Aksan
 profile-form-age =
     .label = Yaş
-profile-form-gender =
+profile-form-gender-2 =
     .label = Cinsiyet
 leaderboard-visibility =
     .label = Liderlik görünürlüğü
@@ -319,7 +342,7 @@ profile-close = Kapat
 profile-explanation = Profil oluşturarak hem ilerlemenizi takip edebilir hem de ses verilerimizin daha verimli olmasını sağlayabilirsiniz.
 thanks-for-account = Hesabınızı onayladığınız için teşekkür ederiz. Şimdi profilinizi oluşturalım.
 why-demographic = Bu neden önemli?
-why-demographic-explanation = Yaş, cinsiyet ve aksan gibi anonim kullanıcı verileri, konuşma tanıma motorlarının doğruluğunu eğitmek için kullanılan ses verilerini geliştirmeye yardımcı olur. Kullanıcı adınız ve e-postanız gönderilen verilerinizle asla ilişkilendirilmez. Kullanıcı adınızın başkaları tarafından görünüp görünmeyeceğini de seçebilirsiniz.
+why-demographic-explanation-2 = Yaş, cinsiyet ve aksan gibi anonim kullanıcı verileri, konuşma tanıma motorlarının doğruluğunu eğitmek için kullanılan ses verilerini geliştirmeye yardımcı olur. Kullanıcı adınız ve e-postanız gönderilen verilerinizle asla ilişkilendirilmez. Kullanıcı adınızın başkaları tarafından görünüp görünmeyeceğini de seçebilirsiniz.
 accept-privacy = Bu bilgilerin Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanılmasını kabul ediyorum
 accept-privacy-title = Gizlilik Politikası
 login-identity = Giriş kimliği
@@ -333,26 +356,19 @@ skip-submission-description = Katkı gönderimi sırasında Gönder'e tıkladık
 skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya Dinleme arasında seçim yapmanız gerekecektir.
 off = Kapalı
 on = Açık
-avatar-clip-title = Avatarınızı seslendirin
-change-your-avatar-clip = Ses kaydınızı değiştirmek mi istiyorsunuz?
-recording-in-progress = Ses kaydı devam ediyor
-avatar-clip-recorded = Avatarınıza artık ses kaydı ekleyebilirsiniz!
-record-voice-wave = SESİNİZİ KAYDEDİN
-retry-voice-wave-recording = YENİDEN DENE
-re-record = YENİDEN KAYDET
-delete-voice = SİL
-recording-voice-wave = Kaydediliyor
-delete-voice-clip = veya  ses kaydını sil
-ready-to-upload = Yükle
-avatar-clip-fact = Okuyucular bir sayfanın yerleşimini incelerken okunabilir içerik dikkat dağıtabilir.
-recreate-voice = Sesinizi yeniden kaydedin
-cancel-avatar-clip-recording = İptal
-about-avatar-clip-recording = Profil resminizin bir parçası olarak ses kaydı oluşturun. Başkaları profilinizin üzerine gelerek kaydı dinleyebilir.
+
+## Profile - Email
+
 browse-file-title = Resim dosyası yükle
 browse-file = Sürükleyip bırak veya <browseWrap>göz at</browseWrap>
 connect-gravatar = Gravatar ile bağlan
 gravatar_not_found = E-postanıza ait gravatar bulunamadı
 file_too_large = Seçilen dosya çok büyük
+avatar-uploaded = Avatar yüklendi
+max-file-size = en fazla { $kb } kb
+
+## Profile - Email
+
 manage-subscriptions = Abonelikleri yönet
 manage-email-subscriptions = E-posta aboneliklerini yönet
 email-already-used = Bu e-posta farklı bir hesapta zaten kullanılıyor
@@ -399,9 +415,11 @@ faq-where-src-from-2-a =
     
     Kaynak cümlelerimizi bu <githubLink>GitHub klasöründe</githubLink> görüntüleyebilirsiniz.
 faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Wikipedia makalelerini okumalarını istemiyorsunuz?
+faq-why-not-ask-read-a = Common Voice veri kümesini olabildiğince yararlı hale getirmek için yalnızca Creative Commons (CC0) lisanslı kaynak metinlere izin vermeye karar verdik. CC0 standardını kullanmak, kaynak metin bulup derlemenin daha zor olduğu anlamına geliyor; ancak elde edilen ses verilerini kullanım kısıtlamaları olmadan ve Mozilla'dan izin almadan herkesin kullanmasına izin veriyor. Sonuç olarak, çok dilli veri kümesini araştırmacılar, üniversiteler, girişimler, devletler, sosyal amaçlı kuruluşlar ve bu işe meraklı kişiler dahil herkes için olabildiğince faydalı hale getirmek istiyoruz.
 faq-why-account-q = Neden hesap açayım?
 faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
 faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizliliğini nasıl sağlıyorsunuz?
+faq-how-privacy-a = Veri kümesindeki tüm ses kayıtları kişisel bilgilerden arındırılır. Katkıda bulunan kullanıcılar profilleri üzerinden demografik veriler sağlamışsa bu bilgiler indirilebilir veri kümesine anonim bir şekilde eklenir ve profil sayfasında asla görüntülenmez.
 faq-what-determine-identity-q = Common Voice veri kümesindeki konuşmacıların “kimliklerinin belirlenemez olması” ne anlama geliyor?
 faq-what-is-cv = Common Voice nedir?
 faq-using-cv = Common Voice Kullanımı
@@ -421,6 +439,7 @@ how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesini
 about-speak = Konuş
 about-speak-text = Katkıda bulunanlar ses kayıtlarını bağışlanan cümle bankasından okuyarak kaydederler.
 about-listen-queue = Dinleme Kuyruğu
+about-listen-queue-text = Ses kayıtları, dinleyiciler tarafından dinlenmek üzere bir gönderim kuyruğuna eklenir.
 about-listen = Dinle
 about-listen-text = Kullanıcılar, konuşmacıların cümleyi doğru okuduğunu kontrol ederek bağışlanan kayıtların doğruluğunu onaylar.
 about-is-it-valid = Klip geçerli mi?
@@ -481,6 +500,8 @@ data-other-goto = { $name } sitesine git
 data-other-download = Verileri indir
 data-bundle-button = Veri kümesi paketini indir
 data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
+release-version = Sürüm
+dataset-date = Tarih
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
 data-download-singleword-title = Tek kelimelik hedef segmentini indir
@@ -656,6 +677,7 @@ share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
 keep-track-profile = Profil oluşturarak ilerlemenizi takip edin
 login-to-get-started = Başlamak için giriş yapın veya kaydolun
 target-segment-first-card = İlk hedef segmentimize katkıda bulunuyorsunuz
+target-segment-generic-card = Bir hedef segmentine katkıda bulunuyorsunuz
 target-segment-first-banner = Common Voice’un ilk { $locale } hedef segmentini oluşturmaya yardımcı olun
 target-segment-add-voice = Sesinizi ekleyin
 target-segment-learn-more = Daha fazla bilgi alın
@@ -743,17 +765,31 @@ finish-editing = Önce düzenleme bitirilsin mi?
 lose-changes-warning = Şimdi çıkarsanız değişiklikleriniz kaybolacaktır
 build-custom-goal = Kendi hedefinizi belirleyin
 help-reach-hours-pluralized =
-    Kişisel bir hedef belirleyerek { $language } dilinde{ NUMBER($hours) ->
+    Kişisel bir hedef belirleyerek { $language } dilinde { NUMBER($hours) ->
         [one] { $hours } saate
        *[other] { $hours } saate
-    }ulaşmamıza yardımcı olun
+    } ulaşmamıza yardımcı olun
 help-reach-hours-general-pluralized =
     Kişisel bir hedefle Common Voice'un bir dilde { NUMBER($hours) ->
         [one] { $hours } saate
        *[other] { $hours } saate
-    }ulaşmasına yardımcı olun
+    } ulaşmasına yardımcı olun
 set-a-goal = Hedef belirle
 cant-decide = Karar veremiyor musunuz?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one] { $people } kişi
+       *[other] { $people } kişi
+    } günde { NUMBER($periodMonths) ->
+        [one] { $clipsPerDay } ses
+       *[other] { $clipsPerDay } ses
+    } kaydederse { NUMBER($people) ->
+        [one] { $periodMonths } aydan
+       *[other] { $periodMonths } aydan
+    } biraz uzun bir sürede { NUMBER($clipsPerDay) ->
+        [one] { $totalHours } saatlik
+       *[other] { $totalHours } saatlik
+    } ses kaydına ulaşılabilir.
 how-many-per-day = Harika! Günde kaç kayıt?
 how-many-a-week = Harika! Haftada kaç kayıt?
 which-goal-type = Konuşmak mı, dinlemek mi yoksa ikisini birden mi yapmak istiyorsunuz?
@@ -802,3 +838,50 @@ help-contribute = Common Voice profili oluşturarak ve sesinizle katkıda buluna
 login-company = { $company } e-postasıyla giriş / kayıt
 profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
 read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
+
+## DemoLayout
+
+demo-get-started = Hadi başlayalım
+demo-welcome = Common Voice’a hoş geldiniz
+demo-welcome-subheader = Daha fazla bilgi almak ve projeye katkıda bulunmak ister misiniz?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice, dünyanın halka açık en büyük, çok dilli ses veri kümesidir.
+demo-language-select-card-body = 50'den fazla dilde 259.000'den fazla kişinin katkıları sayesinde bu veriler, insan sesine daha iyi yanıt verebilecek konuşma özellikli uygulamaları eğitmek için kullanılıyor.
+card-button-next = İleri
+card-button-back = Geri
+demo-language-select-label = Tarayıcı dilleri
+demo-eofy-header = 2019 Yıl Sonu Sürümü
+demo-eofy-sub_header = Ses veri kümesi, indirilmeye hazır
+demo-account = Hesap
+
+## Demo Account
+
+demo-account-card-header = Katkıda bulunmak için hesap açmak zorunda değilsiniz ama açmanın bazı faydaları var.
+demo-account-enter-email =
+    .label = Kayıt bağlantısı almak için e-postanızı yazın
+demo-account-sign-up = Kayıt bağlantısını gönder
+
+## Demo Contribute
+
+demo-contribute-card-header = Sesinizi eklemeye veya eklenenleri dinlemeye hazır mısınız?
+demo-contribute-card-body-v2 = Artık Common Voice'u daha iyi tanıdığınıza göre neden denemiyorsunuz? Cümleleri sesli okumaya başlamak için mikrofon simgesine tıklayın. <br/><br/>Başkalarının ses kayıtlarını incelemeyi tercih ederseniz oynat simgesine tıklayın. Ses kayıtlarının ekranda yazılan cümlelerle eşleştiğini doğrulamanızı isteyeceğiz.
+demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Kişisel panolar, bireysel ilerlemeniz ve topluluk ilerlemesi konusunda sizi bilgilendirir.
+demo-dashboard-card-body = Bağışlanan ve doğrulanan her ses kaydı için hesap panolarınız, katkıda bulunmuş olduğunuz her dildeki en son ilerlemenizi yansıtacak şekilde güncellenir.<br/><br/> Evet, birden fazla dilde katkıda bulunabilirsiniz! İstatistiklerinizi takip etmek, topluluktaki diğer kişilerle birlikte ne yaptığınızı görmek ve günlük veya haftalık katılım hedefleri belirlemek için panoları kullanabilirsiniz.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriter
+contribution-criteria-link = Katkıda bulunma kriterlerini anlayın
+contribution-criteria-page-title = Katkıda bulunma kriterleri
+contribution-for-example = örnek
+contribution-misreadings-title = Yanlış okumalar
+contribution-background-noise-title = Arka plan gürültüsü
+contribution-background-voices-title = Arka plan sesleri
+contribution-volume-title = Ses seviyesi
+contribution-reader-effects-title = Okuyucu efektleri

@@ -33,14 +33,18 @@ as = asamski
 ast = asturyjski
 az = azerski
 ba = baszkirski
+bas = basaa
 be = białoruski
 bg = bułgarski
+bm = bambara
 bn = bengalski
 br = bretoński
 bxr = buriacki
 ca = kataloński
 cak = kakczikel
+ckb = sorani
 cnh = haka czin
+co = korsykański
 cs = czeski
 cv = czuwaski
 cy = walijski
@@ -62,11 +66,13 @@ fr = francuski
 fy-NL = fryzyjski
 ga-IE = irlandzki
 gl = galicyjski
+gn = guarani
 ha = hausa
 he = hebrajski
 hi = hindi
 hr = chorwacki
 hsb = górnołużycki
+ht = haitański
 hu = węgierski
 hy-AM = ormiański
 hyw = zachodni ormiański
@@ -81,33 +87,41 @@ kaa = karakałpacki
 kab = kabylski
 kbd = kabardyjski
 kk = kazachski
+kmr = kurmandżi
 ko = koreański
 kpv = komi (zyriański)
-ku = kurdyjski
 kw = kornijski
 ky = kirgiski
 lg = luganda
 lij = liguryjski
 lt = litewski
 lv = łotewski
+mai = maithili
 mdf = moksza
 mg = malgaski
 mhr = maryjski łąkowy
 mk = macedoński
 ml = malajalam
 mn = mongolski
+mos = mossi
+mr = marathi
 mrj = maryjski górski
+ms = malajski
 mt = maltański
 my = birmański
 myv = erzja
 nb-NO = norweski (bokmål)
 ne-NP = nepalski
+nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
+nyn = nyankole
 oc = oksytański
 or = orija
 pa-IN = pendżabski
+pap-AW = papiamento (Aruba)
 pl = polski
+ps = paszto
 pt = portugalski
 rm-sursilv = retoromański (sursilvan)
 rm-vallader = retoromański (vallader)
@@ -115,11 +129,14 @@ ro = rumuński
 ru = rosyjski
 rw = kinyarwanda
 sah = jakucki
+sat = santali (ol ciki)
 sc = sardyński
 scn = sycylijski
+shi = shilha
 si = syngaleski
 sk = słowacki
 sl = słoweński
+so = somalijski
 sq = albański
 sr = serbski
 sv-SE = szwedzki
@@ -132,14 +149,18 @@ th = tajski
 tl = tagalski
 tr = turecki
 tt = tatarski
+tw = twi
 uby = ubyski
 udm = udmurcki
+ug = ujgurski
 uk = ukraiński
 ur = urdu
 uz = uzbecki
 vec = wenecki
 vi = wietnamski
 vot = wotycki
+yo = joruba
+yue = kantoński
 zh-CN = chiński (Chiny)
 zh-HK = chiński (Hongkong)
 zh-TW = chiński (Tajwan)
@@ -171,6 +192,7 @@ logout = Wyloguj się
 ## Home Page
 
 home-title = Common Voice to inicjatywa Mozilli pomagająca w uczeniu maszyn mowy prawdziwych ludzi.
+default-tagline = Mozilla Common Voice to inicjatywa pomagająca w uczeniu maszyn mowy prawdziwych ludzi.
 home-cta = Nagrywaj i pomagaj!
 wall-of-text-start = Mowa to dla nas coś naturalnego i ludzkiego. Dlatego tak bardzo fascynuje nas tworzenie systemu rozpoznawania mowy, który mogłyby wykorzystywać maszyny. Ale aby to osiągnąć, potrzeba niezwykle obszernej bazy danych z nagraniami ludzkiej mowy.
 wall-of-text-more-mobile = Dane wykorzystywane przez duże firmy są niedostępne dla większości. Uważamy, że to hamuje rozwój. Dlatego uruchomiliśmy projekt Common Voice, który ma sprawić, aby systemy rozpoznawania głosu były dostępne dla każdego.
@@ -238,7 +260,7 @@ whats-public = Co jest publiczne?
 email-not-public = Twój adres e-mail nie będzie dostępny publicznie.
 recordings-and-locale-public = Liczba nagrań i języki, w których uczestniczysz, będą publiczne.
 username-optin-public = Możesz ustawić swoją nazwę użytkownika jako publiczną lub anonimową.
-demographic-deidentified-clarity = Opcjonalnie wysłane dane demograficzne (np. wiek, płeć, język i akcent) nigdy nie będą publiczne w profilu użytkownika i nie będą powiązane z kontem w zbiorze danych. Poszczególne nagrania dźwiękowe będą powiązane z danymi demograficznymi w celu dokładniejszej analizy — na przykład naukowiec może chcieć ukierunkować model szkoleniowy na konkretny segment demograficzny.
+demographic-deidentified-clarity-2 = Opcjonalnie wysłane dane demograficzne (np. wiek, płeć, język i akcent) nigdy nie będą publiczne w profilu użytkownika i nie będą powiązane z kontem w zbiorze danych. Poszczególne nagrania dźwiękowe będą powiązane z danymi demograficznymi w celu dokładniejszej analizy — na przykład naukowiec może chcieć ukierunkować model szkoleniowy na konkretny segment demograficzny.
 username-email-not-demographic = Twoja nazwa użytkownika i adres e-mail nie będą powiązane z opublikowanymi danymi.
 
 ## Speak & Listen Shortcuts
@@ -267,7 +289,12 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Nagraj/zatrzymaj
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nagraj ponownie
+shortcut-discard-ongoing-recording = Esc
+shortcut-discard-ongoing-recording-label = Odrzuć trwające nagranie
+shortcut-submit = Enter
+shortcut-submit-label = Wyślij nagrania
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
+request-language-text-learn = Dowiedz się, jak go zaproponować tutaj!
 request-language-button = Zaproponuj dodanie języka
 
 ## ProjectStatus
@@ -297,7 +324,7 @@ profile-form-accent =
     .label = Akcent
 profile-form-age =
     .label = Wiek
-profile-form-gender =
+profile-form-gender-2 =
     .label = Płeć
 leaderboard-visibility =
     .label = Widoczność na rankingu
@@ -324,7 +351,7 @@ profile-close = Zamknij
 profile-explanation = Kontroluj swój postęp za pomocą profilu i pomóż zwiększyć dokładność naszych danych.
 thanks-for-account = Dziękujemy za potwierdzenie konta. Utworzymy teraz Twój profil.
 why-demographic = Dlaczego to ważne?
-why-demographic-explanation = Anonimowe dane o użytkowniku, takie jak wiek, płeć i akcent zwiększają jakość danych dźwiękowych używanych do trenowania dokładności mechanizmów rozpoznawania mowy. Twoja nazwa użytkownika i adres e-mail nigdy nie będą powiązane z przesyłanymi danymi, a także możesz ustawić, czy nazwa użytkownika ma być publiczna lub anonimowa.
+why-demographic-explanation-2 = Anonimowe dane o użytkowniku, takie jak wiek, płeć i akcent zwiększają jakość danych dźwiękowych używanych do trenowania dokładności mechanizmów rozpoznawania mowy. Twoja nazwa użytkownika i adres e-mail nigdy nie będą powiązane z przesyłanymi danymi, a także możesz ustawić, czy nazwa użytkownika ma być publiczna lub anonimowa.
 accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink> Mozilli
 accept-privacy-title = Zasady ochrony prywatności
 login-identity = Tożsamość logowania
@@ -338,26 +365,19 @@ skip-submission-description = Informacje zwrotne będą pomijane po kliknięciu 
 skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a słuchaniem, aby zmienić rodzaj pracy.
 off = Wyłączone
 on = Włączone
-avatar-clip-title = Dodaj głos do swojego awatara
-change-your-avatar-clip = Chcesz zmienić swoje nagranie?
-recording-in-progress = Trwa nagrywanie
-avatar-clip-recorded = Twój awatar ma teraz głos!
-record-voice-wave = Utwórz nagranie powitalne
-retry-voice-wave-recording = Ponów
-re-record = Nagraj ponownie
-delete-voice = Usuń
-recording-voice-wave = Nagrywanie
-delete-voice-clip = lub usuń nagranie
-ready-to-upload = Wyślij
-avatar-clip-fact = Od dawna wiadomo, że czytelnik będzie rozproszony tekstem strony, patrząc na jej układ.
-recreate-voice = Ponownie utwórz nagranie powitalne
-cancel-avatar-clip-recording = Anuluj
-about-avatar-clip-recording = Utwórz nagranie jako część swojego awatara. Inni będą mogli go najechać i je odsłuchać.
+
+## Profile - Email
+
 browse-file-title = Wyślij plik obrazu
 browse-file = Przeciągnij tutaj lub <browseWrap>przeglądaj</browseWrap>
 connect-gravatar = Połącz z serwisem Gravatar
 gravatar_not_found = Nie odnaleziono awatara Gravatar dla tego adresu e-mail
 file_too_large = Wybrany plik jest za duży
+avatar-uploaded = Wysłano awatar
+max-file-size = Maksymalnie { $kb } KB
+
+## Profile - Email
+
 manage-subscriptions = Zarządzaj subskrypcjami
 manage-email-subscriptions = Zarządzaj subskrypcjami wiadomości
 email-already-used = Adres e-mail jest już używany przez inne konto
@@ -372,6 +392,10 @@ faq-what-cv-a =
     Technologia rozpoznawania głosu rewolucjonizuje sposób używania maszyn, ale obecnie dostępne systemy są kosztowne i zastrzeżone. Common Voice jest częścią inicjatywy Mozilli mającej na celu uczynienie rozpoznawania głosu lepszym i dostępnym dla każdego. Common Voice to ogromna globalna baza nagrań głosu, która pozwala każdemu szybko i łatwo trenować aplikacje obsługujące głos w potencjalnie każdym języku.
     
     Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
+faq-what-cv-a-2 =
+    Technologia rozpoznawania głosu rewolucjonizuje sposób używania maszyn, ale obecnie dostępne systemy są kosztowne i zastrzeżone. Mozilla Common Voice to inicjatywa mająca na celu uczynienie rozpoznawania głosu lepszym i dostępnym dla każdego. Common Voice to ogromna globalna baza nagrań głosu, która pozwala każdemu szybko i łatwo trenować aplikacje obsługujące głos w potencjalnie każdym języku.
+    
+    Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści.
 faq-why-important-q = Dlaczego to jest ważne?
 faq-why-important-a =
     Mowa jest często najbardziej naturalnym sposobem komunikowania się ze sobą, a technologie głosowe zapewniają nam tę wygodę na komputerach i telefonach. Chcemy umożliwić deweloperom tworzenie niesamowitych aplikacji rozpoznających głos, takich jak tłumaczenie w czasie rzeczywistym i cyfrowi asystenci głosowi. Jednak obecnie większość danych głosowych wymaganych do tworzenia tego rodzaju aplikacji jest kosztowna i zastrzeżona. Mamy nadzieję, że zbiór danych Common Voice zapewni deweloperom to, czego potrzebują, aby wprowadzać innowacje i udostępniać technologię mowy w swoim języku.
@@ -429,6 +453,9 @@ about-title = Dlaczego Common Voice?
 about-subtitle = Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
 about-header-description =
     Oba te projekty są częścią naszych wysiłków na rzecz zniwelowania podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
+    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
+about-header-description-2 =
+    Ten projekt ma na celu zniwelowanie podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
     Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
 how-does-it-work-title = Jak to działa
 how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
@@ -508,10 +535,12 @@ data-other-goto = Przejdź do { $name }
 data-other-download = Pobierz dane
 data-bundle-button = Pobierz zbiór danych
 data-bundle-description = Dane Common Voice ze wszystkimi innymi zbiorami danych powyżej.
+release-version = Wersja
+dataset-date = Data
 license = Licencja: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mieszana
 data-download-singleword-title = Pobierz segment docelowy dla pojedynczego słowa
-data-download-singleword-callout = To segment zawierający dane do rozpoznawania wymawianych cyfr, wykrywania tak/nie i dane testowe słowa wybudzającego dla projektu <fxLink>Firefox Voice</fxLink>.
+data-download-singleword-callout-v2 = To segment przeznaczony do konkretnego użytku, zawierający dane wspomagające rozpoznawanie wymawianych cyfr i wykrywanie tak/nie.
 review-terms = Korzystając z Common Voice, zgadzasz się na <termsLink>warunki korzystania</termsLink> i <privacyLink>zasady ochrony prywatności</privacyLink>
 terms-agree = Zgadzam się
 terms-disagree = Nie zgadzam się
@@ -668,7 +697,7 @@ record-abort-text = Wyjście teraz oznacza utratę postępów
 record-abort-submit = Wyślij nagrania
 record-abort-continue = Dokończ nagrywanie
 record-abort-delete = Wyjdź i usuń nagrania
-listen-instruction = { $actionType } <playIcon></playIcon> czy poprawnie wymówiono zdanie?
+listen-instruction = { $actionType } <playIcon></playIcon>, a następnie zdecyduj, czy poprawnie wymówiono zdanie
 listen-again-instruction = Świetna robota! <playIcon></playIcon> Odsłuchaj ponownie
 listen-3rd-time-instruction = Dwa zrobione <playIcon></playIcon>, tak trzymaj!
 listen-last-time-instruction = <playIcon></playIcon> Ostatnie!
@@ -680,6 +709,7 @@ share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów
 keep-track-profile = Śledź swoje postępy za pomocą profilu
 login-to-get-started = Zaloguj się lub zarejestruj, aby zacząć
 target-segment-first-card = Przyczyniasz się do naszego pierwszego segmentu docelowego
+target-segment-generic-card = Przyczyniasz się do segmentu docelowego
 target-segment-first-banner = Pomóż utworzyć pierwszy segment docelowy projektu Common Voice w języku: { $locale }
 target-segment-add-voice = Dodaj swój głos
 target-segment-learn-more = Więcej informacji
@@ -854,3 +884,44 @@ help-contribute = Możesz pomóc zbudować różnorodny zbiór danych open sourc
 login-company = Zaloguj/zarejestruj się za pomocą adresu e-mail firmy { $company }
 profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
 read-more-about = Przeczytaj więcej na stronie informacji o nas
+
+## DemoLayout
+
+demo-get-started = Pierwsze kroki
+demo-welcome = Witamy w Common Voice
+demo-welcome-subheader = Chcesz dowiedzieć się więcej i wziąć udział w projekcie?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common Voice to największy na świecie publicznie dostępny zbiór danych z mową w wielu językach.
+demo-language-select-card-body = Dzięki wkładowi ponad 259 tysięcy osób w ponad 50 językach te dane są używane do trenowania aplikacji obsługujących mowę, aby lepiej reagowały na ludzki głos.
+card-button-next = Dalej
+card-button-back = Wstecz
+demo-language-select-label = Przeglądaj języki
+demo-eofy-header = Wydanie na koniec 2019 roku
+demo-eofy-sub_header = Zbiór danych z mową, gotowy do pobrania
+demo-account = Konto
+
+## Demo Account
+
+demo-account-card-header = Konto nie jest wymagane do wzięcia udziału, ale się przydaje.
+demo-account-card-body = Po prawej przedstawiamy korzyści i wyjaśniamy, jakie informacje są publiczne. Skorzystaj z poniższych odnośników, aby zacząć używać konta Common Voice na swoim urządzeniu.
+demo-account-enter-email =
+    .label = Wpisz adres e-mail, aby wysłać odnośnik rejestracji
+demo-account-sign-up = Wyślij odnośnik rejestracji
+
+## Demo Contribute
+
+demo-contribute-card-header = Chcesz dodać swój głos lub użyczyć ucha?
+demo-contribute-card-body-v2 = Skoro już trochę wiesz o projekcie Common Voice, dlaczego by go nie wypróbować? Kliknij ikonę mikrofonu, aby zacząć czytać zdania na głos. <br/><br/>Jeśli wolisz weryfikować nagrania innych osób, kliknij ikonę odtwarzania. Pomożesz potwierdzić, że nagrania zgadzają się ze zdaniami na ekranie.
+demo-listen-subtitle = Chcesz wziąć udział?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = Osobisty panel informuje Cię na bieżąco o postępach indywidualnych i całej społeczności.
+demo-dashboard-card-body = Twój panel konta jest aktualizowany po każdym nagraniu i każdym zweryfikowaniu nagrania, aby odzwierciedlać Twoje najnowsze postępy w każdym języku, w jakim bierzesz udział. Tak, możesz nagrywać w więcej niż jednym!<br/><br/> Korzystaj z panelu, aby śledzić swoje statystyki, sprawdzić, jak radzisz sobie razem z innymi członkami społeczności oraz ustalać dzienne lub tygodniowe cele.
+
+## Validation criteria
+
+see-more = <chevron></chevron>Więcej
+see-less = <chevron></chevron>Mniej
