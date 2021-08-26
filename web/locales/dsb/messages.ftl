@@ -78,6 +78,7 @@ hy-AM = Armeńšćina
 hyw = Pódwjacornoarmeńšćina
 ia = Interlingua
 id = Indonešćina
+ie = Interlingue
 is = Islandšćina
 it = Italšćina
 izh = Ižoršćina
@@ -589,8 +590,7 @@ subscribe = Aboněrowaś
 get-started-speech = Prědne kšace z powědańskim spóznaśim
 other-datasets = Druge głosowe datowe sajźby
 feedback-q = Maśo komentary?
-deepspeech-info = Datowa sajźba Common Voice wudopołnjujo Deep Speech, mašinu głosowego spóznaśa wótwórjonego žrědła Mozilla, kótaruž móžośo wužywaś, aby nałoženja głosowego spóznaśa wuwijaś. Cytajśo naš <githubLink>pśeglěd Github</githubLink> abo pśizamkniśo se forumoju <discourseLink>DeepSpeech Discourse</discourseLink>, aby zgónił, kak móžośo zachopiś.
-common-voice-info-new = Maśo pšašanja wó Common Voice? Ideje za pólěpšenja abo komentary wó wěstej rěcy? Pśizamkniśo se nam na našom <discourseLink>forumje Discourse</discourseLink> a dajśo je nam k wěsći.
+community-playbook = Zapiski zgromaźeństwa
 data-other-librispeech-description = LibriSpeech jo korpus skóro 1.000 góźinow wjengelskej rěcy (nagrate z 16 Khz), kótarež z wótsłuchańskich knigłow projekta LibriVox póchadaju.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM jo napórał z awdiopśednoskow a jich transkripcijow, kótarež su na websedle TED k dispoziciji.
@@ -888,6 +888,13 @@ why-delete-recordings =
     
     Móžeće nam zdźělić, čehodla chceće swoje natočenja zhašeć?
 profile-form-delete = Profil wulašowaś
+
+## Profile Download
+
+download-q = Musyśo swóje daty ześěgnuś?
+download-info = Dajśo nam k wěsći, kótare daty cośo ześěgnuś:
+download-profile-title = Profil
+download-profile-info = Wopśimujo e-mailowu adresu, wužywaŕske mě a demografiske informacije
 
 ## Landing
 
