@@ -888,6 +888,11 @@ download-request-archive-single = Einzelne ZIP-Datei mit
 download-request-archive-multiple = Aufgeteilt in { $archiveCount } ZIP-Dateien mit
 download-request-assembling-description = Ihre Dateien werden zusammengestellt. Bitte schauen Sie später noch einmal vorbei.
 download-request-refresh-button = Aktualisieren
+download-request-modal-title = Download-Links
+download-request-modal-description = Hier sind die Links zum Herunterladen Ihrer ZIP-Dateien.
+download-request-link-text = ZIP-Datei { $offset } von { $total }
+download-request-metadata-link = Satztext
+download-request-link-single = Sie können die direkten URLs auch kopieren und in Ihren bevorzugten Download-Manager einfügen. Sie laufen in 12 Stunden ab, aber Sie können jederzeit zu dieser Seite zurückkehren, um neue zu erstellen.
 
 ## Landing
 
