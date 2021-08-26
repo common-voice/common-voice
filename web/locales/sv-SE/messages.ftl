@@ -880,8 +880,15 @@ download-requests = Tidigare nedladdningsförfrågningar
 download-requests-info = När du begär dina inspelningar sammanställer vi dem till en eller flera ZIP-filer. Här är dina tidigare önskemål:
 download-request-button = Hämta
 download-request-title = { $created }
+download-request-description = { $clipCount } röstklipp, total arkivstorlek { $size }. Upphör { $expires }.
+download-request-archive-single = Enstaka ZIP-fil som innehåller
+download-request-archive-multiple = Dela upp i { $archiveCount } ZIP-filer som innehåller
+download-request-assembling-description = Dina filer sammanställs. Vänligen försök igen senare.
 download-request-refresh-button = Uppdatera
-download-request-modal-title = Ladda ner länkar
+download-request-modal-title = Nedladdningslänkar
+download-request-modal-description = Här är länkarna för att ladda ner dina ZIP-filer.
+download-request-link-text = Zip #{ $offset } av { $total }
+download-request-metadata-link = Meningstext
 
 ## Landing
 
