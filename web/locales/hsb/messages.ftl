@@ -907,6 +907,7 @@ download-request = Sćehnjenje naprašować
 download-requests = Zańdźene sćehnjenske naprašowanja
 download-request-button = Sćahnyć
 download-request-title = { $created }
+download-request-description = Ličba hłosowych klipow: { $clipCount }, cyłkowna  archiwowa wulkosć { $size }. Njepłaćiwe wot { $expires }.
 download-request-archive-single = Jednotliwa ZIP-dataja z
 download-request-archive-multiple = Ličba ZIP-datajow, do kotrychž je so rozdźěliło, z
 download-request-assembling-description = Waše dataje so zestajeja. Prošu spytajće pozdźišo hišće raz.
