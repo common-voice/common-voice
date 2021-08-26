@@ -923,6 +923,22 @@ why-delete-recordings =
     A wnewch chi roi gwybod i ni pam yr hoffech i'ch cofnodion gael eu dileu?
 profile-form-delete = Dileu Proffil
 
+## Profile Download
+
+download-q = Angen llwytho eich data i lawr?
+download-info = Dywedwch wrthym beth yr hoffech ei lwytho i lawr:
+download-profile-title = Proffil
+download-profile-info = Yn cynnwys e-bost, enw defnyddiwr a gwybodaeth ddemograffig
+download-profile-size = Ychydig o feitiau
+download-recordings-title = Recordiadau
+download-recordings-info = Yn cynnwys mp3au a brawddegau cysylltiedig
+download-recordings-size = Megabeitiau fel arfer
+download-recordings-unavailable = Nid oes modd i chi ofyn am eich recordiadau tra bo cais arall eisoes ar y gweill.
+download-size = Maint
+download-selected = Dewiswyd
+download-start = Cychwyn Llwytho i Lawr
+download-request = Gofyn am Lwytho i Lawr
+
 ## Landing
 
 welcome-staff = Croeso staff { $company }!
