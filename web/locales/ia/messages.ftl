@@ -862,18 +862,29 @@ profile-form-delete = Deler le profilo
 
 ## Profile Download
 
+download-q = Besonia tu de discargar tu datos?
+download-info = Dice nos que tu amarea discargar:
 download-profile-title = Profilo
 download-profile-info = Include email, nomine de usator e info demographic
+download-profile-size = Alcun bytes
 download-recordings-title = Registrationes
+download-recordings-info = Include mp3s e phrases correlate
 download-recordings-size = Megabytes tipic
+download-recordings-unavailable = Tu non pote requirer tu registrationes durante que un altere requesta es jam in curso.
 download-size = Dimension
 download-selected = Seligite
 download-start = Initiar le discargamento
 download-request = Requirer le discargamento
+download-requests-info = Quando tu require tu registrationes, nos los compila in un o plure files ZIP. Ecce tu passate requestas:
 download-request-button = Discargar
 download-request-title = { $created }
+download-request-archive-single = Singule FILE ZIP que contine
+download-request-archive-multiple = Divider in { $archiveCount } files ZIP continente
+download-request-assembling-description = Tu files va esser assemblate. Verifica de novo plus tarde.
 download-request-refresh-button = Actualisar
 download-request-modal-title = Discargar ligamines
+download-request-modal-description = Ecce le ligamine de discargamento de tu files ZIP.
+download-request-metadata-link = Texto del phrase
 
 ## Landing
 
