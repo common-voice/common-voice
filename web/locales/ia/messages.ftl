@@ -584,6 +584,7 @@ subscribe = Subscriber se
 get-started-speech = Comenciar con le Recognition de voce
 other-datasets = Other Voice Datasets
 feedback-q = Ha tu commentario?
+resource-nemo-info = <githubLink>NVIDIA Nemo</githubLink>™ es un <docsLink>equipamento open-source</docsLink> pro recercatores disveloppante le stato-del-arte de modellos de intelligentia artificial conversational.
 community-playbook = Libro del jocos del communitate
 resource-playbook-info = <playbookLink>Trova utile guida</playbookLink> sur le integre route de Common Voice, ab le localisation al uso del collection de datos e como connecter se con nostre communitate.
 data-other-librispeech-description = LibriSpeech es un corpus de circa 1000 horas de anglese parlate a 16Khz derivate ab la lectura de audio-libros ab le projecto LibriVox.
