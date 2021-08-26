@@ -855,6 +855,17 @@ remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab 
 why-delete-recordings = Le registrationes de Common Voice es utilisate per le academicos, le micre negotios e per le enthusiastas del recognition vocal pro adjutar a provar e facer crescer ressources publicamente disponibile como le modellos vocal.
 profile-form-delete = Deler le profilo
 
+## Profile Download
+
+download-profile-title = Profilo
+download-profile-info = Include email, nomine de usator e info demographic
+download-recordings-title = Registrationes
+download-recordings-size = Megabytes tipic
+download-request-button = Discargar
+download-request-title = { $created }
+download-request-refresh-button = Actualisar
+download-request-modal-title = Discargar ligamines
+
 ## Landing
 
 welcome-staff = Benvenite staff de { $company }!
