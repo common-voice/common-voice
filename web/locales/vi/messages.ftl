@@ -78,6 +78,7 @@ hy-AM = Armenia
 hyw = Armenia Tây
 ia = Interlingua
 id = Indo
+ie = Interlingue
 is = Iceland
 it = Ý
 izh = Izhorian
@@ -582,8 +583,6 @@ subscribe = Đăng kí
 get-started-speech = Bắt đầu với nhận dạng giọng nói
 other-datasets = Bộ dữ liệu thoại khác
 feedback-q = Có phản hồi?
-deepspeech-info = Bộ dữ liệu Common Voice bổ sung cho công cụ nhận dạng giọng nói mã nguồn mở Mozilla, Deep Speech, mà bạn có thể sử dụng để xây dựng các ứng dụng nhận dạng giọng nói. Đọc <githubLink>tổng quan về Github</githubLink> của chúng tôi hoặc tham gia <discourseLink>diễn ngôn DeepSpeech</discourseLink> để tìm hiểu cách bắt đầu.
-common-voice-info-new = Có câu hỏi nào về Common Voice? Ý tưởng cho cải tiến hoặc phản hồi về một ngôn ngữ cụ thể? Tham gia với chúng tôi trên <discourseLink>diễn đàn Discourse</discourseLink> và cho chúng tôi biết.
 data-other-librispeech-description = LibriSpeech là một kho tàng khoảng 1000 giờ của 16Khz bài phát biểu tiếng Anh có nguồn gốc từ các audiobook từ dự án LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM corpus được tạo từ các cuộc nói chuyện, và các bản ghi chép của họ có sẵn trên trang web của TED.
@@ -847,6 +846,9 @@ why-delete-recordings =
     
     Bạn có thể cho chúng tôi biết lý do tại sao bạn muốn xóa bản ghi của mình không?
 profile-form-delete = Xóa hồ sơ
+
+## Profile Download
+
 
 ## Landing
 
