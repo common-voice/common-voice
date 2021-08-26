@@ -586,6 +586,7 @@ other-datasets = Other Voice Datasets
 feedback-q = Ha tu commentario?
 resource-nemo-info = <githubLink>NVIDIA Nemo</githubLink>™ es un <docsLink>equipamento open-source</docsLink> pro recercatores disveloppante le stato-del-arte de modellos de intelligentia artificial conversational.
 resource-deepspeech-info = Le motor de recognition vocal open-source de Mozilla: Deep Speech, pote esser usate pro producer applicationes de recognition vocal. Lege nostre <githubLink>summario de GitHub</githubLink> o junge te a <discourseLink>DeepSpeech Discourse</discourseLink> pro saper como comenciar.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> es dedicate a render libere le technologia vocal. Su projectos include motores STT e TTS basate sur le apprendimento profunde.
 community-playbook = Libro del jocos del communitate
 resource-playbook-info = <playbookLink>Trova utile guida</playbookLink> sur le integre route de Common Voice, ab le localisation al uso del collection de datos e como connecter se con nostre communitate.
 data-other-librispeech-description = LibriSpeech es un corpus de circa 1000 horas de anglese parlate a 16Khz derivate ab la lectura de audio-libros ab le projecto LibriVox.
