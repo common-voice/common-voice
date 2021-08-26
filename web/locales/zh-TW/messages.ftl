@@ -849,6 +849,28 @@ why-delete-recordings =
     能讓我們知道您為什麼想要刪除錄音片段嗎？
 profile-form-delete = 刪除帳號
 
+## Profile Download
+
+download-q = 需要下載您的資料嗎？
+download-info = 告訴我們您要下載哪些資料：
+download-profile-title = 個人資料
+download-profile-info = 包括電子郵件地址、使用者名稱和人口統計資訊
+download-profile-size = 幾位元組而已
+download-recordings-title = 錄音片段
+download-recordings-info = 包含錄音 MP3 檔與相關聯的語句
+download-recordings-size = 通常幾 MB
+download-recordings-unavailable = 若已經有正在處理中的請求，不能再提出新的請求。
+download-size = 大小
+download-selected = 已選擇
+download-start = 開始下載
+download-request = 要求下載
+download-requests = 過去的下載請求
+download-request-button = 下載
+download-request-title = { $created }
+download-request-description = { $clipCount } 個錄音片段，壓縮檔總大小 { $size }，於 { $expires } 失效。
+download-request-refresh-button = 重新整理
+download-request-modal-title = 下載鏈結
+
 ## Landing
 
 welcome-staff = 歡迎 { $company } 的員工！
