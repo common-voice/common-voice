@@ -78,6 +78,7 @@ hy-AM = Armeniska
 hyw = Armenisk västerländska
 ia = Interlingua
 id = Indonesiska
+ie = Interlingue
 is = Isländska
 it = Italienska
 izh = Ingriska
@@ -290,6 +291,7 @@ shortcut-record-toggle-label = Spela in/Stoppa
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spela in klipp igen
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Ignorera pågående inspelning
 shortcut-submit = Återgå
 shortcut-submit-label = Skicka in klipp
 request-language-text = Kan du inte se ditt språk på Common Voice än?
@@ -861,6 +863,25 @@ profile-form-delete = Ta bort profil
 
 ## Profile Download
 
+download-q = Behöver du ladda ner din data?
+download-info = Berätta vad du vill ladda ner:
+download-profile-title = Profil
+download-profile-info = Inkluderar e-post, användarnamn och demografisk information
+download-profile-size = Några byte
+download-recordings-title = Inspelningar
+download-recordings-info = Inkluderar mp3-filer och relaterade meningar
+download-recordings-size = Typiskt megabyte
+download-recordings-unavailable = Du kan inte begära dina inspelningar medan en annan begäran redan pågår.
+download-size = Storlek
+download-selected = Vald
+download-start = Starta nedladdning
+download-request = Begär nedladdning
+download-requests = Tidigare nedladdningsförfrågningar
+download-requests-info = När du begär dina inspelningar sammanställer vi dem till en eller flera ZIP-filer. Här är dina tidigare önskemål:
+download-request-button = Hämta
+download-request-title = { $created }
+download-request-refresh-button = Uppdatera
+download-request-modal-title = Ladda ner länkar
 
 ## Landing
 
