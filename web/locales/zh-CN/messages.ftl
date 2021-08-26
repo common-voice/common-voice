@@ -844,6 +844,24 @@ why-delete-recordings =
     能让我们知道您为什么想要删除录音片段吗？
 profile-form-delete = 删除用户资料
 
+## Profile Download
+
+download-q = 需要下载您的数据吗？
+download-info = 请告诉我们您要下载的内容：
+download-recordings-info = 包含录音 MP3 音频和相关语句
+download-recordings-size = 通常几 MB
+download-size = 大小
+download-start = 开始下载
+download-request = 请求下载
+download-requests = 过去的下载请求
+download-request-button = 下载
+download-request-title = { $created }
+download-request-refresh-button = 刷新
+download-request-modal-title = 下载链接
+download-request-modal-description = 下列是 ZIP 文件的下载链接。
+download-request-link-text = 第 { $offset } 个 ZIP 文件，共 { $total } 个
+download-request-metadata-link = 语句文本
+
 ## Landing
 
 welcome-staff = 欢迎 { $company } 员工！
