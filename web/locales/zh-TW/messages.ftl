@@ -865,11 +865,18 @@ download-selected = 已選擇
 download-start = 開始下載
 download-request = 要求下載
 download-requests = 過去的下載請求
+download-requests-info = 我們會將您要求的錄音檔整理編纂成一個或多個 ZIP 壓縮檔。下列是您過去提出的要求：
 download-request-button = 下載
 download-request-title = { $created }
 download-request-description = { $clipCount } 個錄音片段，壓縮檔總大小 { $size }，於 { $expires } 失效。
+download-request-archive-single = 包含下列項目的單一 ZIP 壓縮檔
+download-request-archive-multiple = 包含下列項目的 { $archiveCount } 個 ZIP 分割壓縮檔
+download-request-assembling-description = 正在整理您的資料，請稍後再試。
 download-request-refresh-button = 重新整理
 download-request-modal-title = 下載鏈結
+download-request-modal-description = 下列是您的 ZIP 檔的下載鏈結。
+download-request-link-text = 第 { $offset } 個 ZIP 檔，共 { $total } 個
+download-request-metadata-link = 語句文字
 
 ## Landing
 
