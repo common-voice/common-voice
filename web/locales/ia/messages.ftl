@@ -885,6 +885,7 @@ download-request-refresh-button = Actualisar
 download-request-modal-title = Discargar ligamines
 download-request-modal-description = Ecce le ligamine de discargamento de tu files ZIP.
 download-request-metadata-link = Texto del phrase
+download-request-link-single = Tu pote alsi copiar e collar le directe URLs in tu favorite gestor de discargamento. Illos expirara in 12 horas, ma tu pote recede a iste pagina pro generar los nove cata vice.
 
 ## Landing
 
