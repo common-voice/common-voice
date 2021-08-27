@@ -38,6 +38,9 @@ export function createTaskQueues(takeout: Takeout): TaskQueues {
     const bull = new Bull<T>(name, {
       redis: {
         host: redisDomain,
+        tls: {
+          host: redisDomain
+        }
       },
       prefix: `bull-${name}-`,
       ...params,
