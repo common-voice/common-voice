@@ -870,6 +870,21 @@ download-recordings-unavailable = არ შეგიძლიათ ჩან�
 download-size = მოცულობა
 download-selected = არჩეული
 download-start = ჩამოტვირთვის დაწყება
+download-request = ჩამოტვირთვის მოთხოვნა
+download-requests = ჩამოტვირთვის წინა მოთხოვნები
+download-requests-info = როდესაც მოითხოვთ თქვენს ჩანაწერებს, ჩვენ ვათავსებთ მათ ერთ ან რამდენიმე ZIP-ფაილში. აქაა, თქვენი წინა მოთხოვნები:
+download-request-button = ჩამოტვირთვა
+download-request-title = { $created }
+download-request-description = { $clipCount } ხმოვანი ჩანაწერი, არქივის მოცულობა სულ { $size }. ვადა { $expires }.
+download-request-archive-single = ერთ ZIP-ფაილად
+download-request-archive-multiple = დაყოფილი { $archiveCount } ცალ ZIP-ფაილად
+download-request-assembling-description = თქვენი ფაილები იკრიბება. გთხოვთ, შეამოწმოთ ცოტა ხანში.
+download-request-refresh-button = განახლება
+download-request-modal-title = ჩამოსატვირთი ბმულები
+download-request-modal-description = აქაა ბმულები, თქვენი ZIP-ფაილების ჩამოსატვირთად.
+download-request-link-text = Zip #{ $offset }, სულ { $total }
+download-request-metadata-link = წინადადების ტექსტი
+download-request-link-single = აგრეთვე, შეგიძლიათ ბმულის ასლები აიღოთ და ჩასვათ სასურველ ჩამოტვირთვების მმართველში. ვადა ამოიწურება 12 საათში, თუმცა ამ გვერდიდან, ნებისმიერ დროს მოახერხებთ, ბმულების ახლიდან წარმოქმნას.
 
 ## Landing
 
