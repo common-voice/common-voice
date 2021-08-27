@@ -78,6 +78,7 @@ hy-AM = Arménien
 hyw = Arménien occidental
 ia = Interlingua
 id = Indonésien
+ie = Interlingue
 is = Islandais
 it = Italien
 izh = Ingrien
@@ -588,8 +589,9 @@ subscribe = S’abonner
 get-started-speech = S’initier à la reconnaissance vocale
 other-datasets = Autres jeux de données vocales
 feedback-q = Vous avez des suggestions ?
-deepspeech-info = Le jeu de données Common Voice est un complément au moteur open source de reconnaissance vocale de Mozilla, Deep Speech, que vous pouvez utiliser pour créer des applications de reconnaissance vocale. Consultez notre <githubLink>aperçu sur GitHub</githubLink> ou rejoignez le <discourseLink>Discourse de DeepSpeech</discourseLink> pour bien commencer.
-common-voice-info-new = Vous avez des questions sur Common Voice ? Des idées d’améliorations ou des suggestions sur une langue particulière ? Retrouvez-nous sur notre <discourseLink>forum Discourse</discourseLink> et faites-nous-en part.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ est une <docsLink>boîte à outils open source</docsLink> pour les chercheurs développant des modèles d’IA conversationnelle de pointe.
+resource-deepspeech-info = Le moteur open source de reconnaissance vocale de Mozilla, Deep Speech, peut être utilisé pour créer des applications de reconnaissance vocale. Consultez notre <githubLink>aperçu sur GitHub</githubLink> ou rejoignez le <discourseLink>Discourse de DeepSpeech</discourseLink> pour bien commencer.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> est dédié à la technologie de la parole ouverte. Parmi leurs projets figurent des moteurs STT et TTS basés sur l’apprentissage en profondeur.
 data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures de lecture en anglais (16 kHz) issu de livres audio du projet LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Le corpus TED-LIUM est construit à partir des dialogues audio et de leurs transcriptions disponibles sur le site TED.
@@ -859,6 +861,9 @@ why-delete-recordings =
     
     Pourriez-vous nous indiquer pourquoi vous souhaitez supprimer vos enregistrements ?
 profile-form-delete = Supprimer le profil
+
+## Profile Download
+
 
 ## Landing
 
