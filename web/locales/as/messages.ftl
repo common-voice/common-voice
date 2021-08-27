@@ -581,7 +581,8 @@ other-datasets = অন্য ভইচ ডেটাছেটবোৰ
 feedback-q = সঁহাৰি আছেনে?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ হৈছে অত্যাধুনিক কথোপকথনমূলক AI মডেল প্ৰস্তুত কৰা গৱেষকসকলৰ বাবে এক <docsLink>মুক্ত-উৎসৰ টুলকিট</docsLink>।
 resource-deepspeech-info = কথন চিনাক্তকৰণ এপ্লিকেশ্যন তৈয়াৰ কৰিবলৈ Mozilla-ৰ মুক্ত উৎসৰ কণ্ঠস্বৰ চিনাক্তকৰণ ইঞ্জিন Deep Speech ব্যৱহাৰ কৰিব পাৰি। আমাৰ <githubLink>Github অৱলোকন</githubLink> পঢ়ক নাইবা কেনেকৈ আৰম্ভ কৰিব লাগে জানিবলৈ <discourseLink>DeepSpeech Discourse</discourseLink>-ত যোগদান কৰক।
-resource-coqui-info = <coquiLink>Coqui</coquiLink> মুকলি কথন প্ৰযুক্তিৰ বাবে উৎসৰ্গিত। তেওঁলোকৰ প্ৰকল্পসমূহৰ ভিতৰত আছে গভীৰ শিক্ষণ-ভিত্তিক STT আৰু TTS ইঞ্জিন।
+resource-coqui-info = <coquiLink>Coqui</coquiLink> মুক্ত কথন প্ৰযুক্তিৰ বাবে উৎসৰ্গিত। তেওঁলোকৰ প্ৰকল্পসমূহৰ ভিতৰত আছে গভীৰ শিক্ষণ-ভিত্তিক STT আৰু TTS ইঞ্জিন।
+community-playbook = সাম্প্ৰদায়িক প্লে'বুক
 data-other-librispeech-description = LibriSpeech হৈছে LibriVox প্ৰকল্পৰ পঠিত অডিঅ'কিতাপবোৰৰ পৰা লাভ কৰা 1000 ঘণ্টীয়া 16Khz পঠিত ইংৰাজী কথনৰ এক সংগ্ৰহ।
 data-other-ted-name = TED-LIUM ক'ৰ্পাছ
 data-other-ted-description = TED-LIUM ক'ৰ্পাছ TED ৱেবছাইটত উপলব্ধ অডিঅ' কথা আৰু সেইবোৰৰ পাঠান্তৰৰ পৰা বনোৱা হৈছিল।
@@ -858,6 +859,11 @@ profile-form-delete = প্ৰ'ফাইল মচি পেলাওক
 
 ## Profile Download
 
+download-request-description = { $clipCount }টা ভইচ ক্লিপ, আৰ্কাইভৰ মুঠ আকাৰ { $size }। { $expires } ম্যাদ উকলিব।
+download-request-archive-single = এটাই ZIP ফাইল য'ত থাকিব
+download-request-archive-multiple = { $archiveCount }টা ZIP ফাইলত বিভক্ত য'ত থাকিব
+download-request-assembling-description = আপোনাৰ ফাইলসমূহ একত্ৰিত কৰি থকা হৈছে। অনুগ্ৰহ কৰি পাছত পুনৰ পৰীক্ষা কৰিব।
+download-request-refresh-button = সতেজ কৰক
 download-request-modal-title = ডাউনল'ড লিংকসমূহ
 download-request-link-text = { $total }টাৰ #{ $offset } নং Zip
 download-request-metadata-link = বাক্য-পাঠ
