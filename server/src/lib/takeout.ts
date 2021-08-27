@@ -30,11 +30,14 @@ export type TaskQueues = {
   dataTakeoutCleanup: Queue<{}>;
 };
 
+const redisUrlParts = getConfig().REDIS_URL.split("//");
+const redisDomain = redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0];
+
 export function createTaskQueues(takeout: Takeout): TaskQueues {
   const createQueue = <T>(name: string, params?: QueueOptions) =>
     new Bull<T>(name, {
       redis: {
-        host: getConfig().REDIS_URL,
+        host: redisDomain,
       },
       prefix: `bull-${name}-`,
       ...params,
