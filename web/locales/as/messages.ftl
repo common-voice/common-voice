@@ -579,6 +579,7 @@ subscribe = ছাব‌স্ক্ৰাইব কৰক
 get-started-speech = কথন চিনাক্তকৰণেৰে আৰম্ভ হৈ যাওক
 other-datasets = অন্য ভইচ ডেটাছেটবোৰ
 feedback-q = সঁহাৰি আছেনে?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ হৈছে অত্যাধুনিক কথোপকথনমূলক AI মডেল প্ৰস্তুত কৰা গৱেষকসকলৰ বাবে এক <docsLink>মুক্ত-উৎসৰ টুলকিট</docsLink>।
 data-other-librispeech-description = LibriSpeech হৈছে LibriVox প্ৰকল্পৰ পঠিত অডিঅ'কিতাপবোৰৰ পৰা লাভ কৰা 1000 ঘণ্টীয়া 16Khz পঠিত ইংৰাজী কথনৰ এক সংগ্ৰহ।
 data-other-ted-name = TED-LIUM ক'ৰ্পাছ
 data-other-ted-description = TED-LIUM ক'ৰ্পাছ TED ৱেবছাইটত উপলব্ধ অডিঅ' কথা আৰু সেইবোৰৰ পাঠান্তৰৰ পৰা বনোৱা হৈছিল।
@@ -855,6 +856,8 @@ profile-form-delete = প্ৰ'ফাইল মচি পেলাওক
 
 ## Profile Download
 
+download-request-modal-title = ডাউনল'ড লিংকসমূহ
+download-request-link-text = { $total }টাৰ #{ $offset } নং Zip
 download-request-metadata-link = বাক্য-পাঠ
 
 ## Landing
