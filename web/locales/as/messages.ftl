@@ -859,6 +859,19 @@ profile-form-delete = প্ৰ'ফাইল মচি পেলাওক
 
 ## Profile Download
 
+download-q = আপোনাৰ ডাটা ডাউনল'ড কৰিব লাগে নেকি?
+download-info = আপুনি কি ডাউনল'ড কৰিব বিচাৰে আমাক কওক:
+download-profile-title = প্ৰ'ফাইল
+download-profile-info = ইমেইল, ব্যৱহাৰকাৰীনাম আৰু জনগাঁথনিমূলক তথ্য অন্তৰ্ভুক্ত
+download-profile-size = কেইটামান বাইট
+download-recordings-title = ৰেকৰ্ডিংবোৰ
+download-size = আকাৰ
+download-selected = বাছনি কৰিছে
+download-start = ডাউনল'ড আৰম্ভ কৰক
+download-request = ডাউনল'ডৰ অনুৰোধ কৰক
+download-requests = পূৰ্বৰ ডাউনল'ডৰ অনুৰোধসমূহ
+download-request-button = ডাউনল'ড কৰক
+download-request-title = { $created }
 download-request-description = { $clipCount }টা ভইচ ক্লিপ, আৰ্কাইভৰ মুঠ আকাৰ { $size }। { $expires } ম্যাদ উকলিব।
 download-request-archive-single = এটাই ZIP ফাইল য'ত থাকিব
 download-request-archive-multiple = { $archiveCount }টা ZIP ফাইলত বিভক্ত য'ত থাকিব
@@ -867,6 +880,7 @@ download-request-refresh-button = সতেজ কৰক
 download-request-modal-title = ডাউনল'ড লিংকসমূহ
 download-request-link-text = { $total }টাৰ #{ $offset } নং Zip
 download-request-metadata-link = বাক্য-পাঠ
+download-request-link-single = আপুনি আপোনাৰ প্ৰিয় ডাউনল'ড মেনেজাৰত পোনপটীয়া URL কপি-পে'ষ্ট কৰিবও পাৰে। সেয়া 12 ঘণ্টাৰ ভিতৰত উকলি যাব যদিও আপুনি যিকোনো সময়তে নতুন এটা তৈয়াৰ কৰিবলৈ এই পৃষ্ঠালৈ ঘূৰি আহিব পাৰে।
 
 ## Landing
 
