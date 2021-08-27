@@ -78,6 +78,7 @@ hy-AM = სომხური
 hyw = დასავლეთ სომხური
 ia = ინტერლინგვა
 id = ინდონეზიური
+ie = ინტერლინგვა
 is = ისლანდიური
 it = იტალიური
 izh = იჟორული
@@ -857,6 +858,18 @@ profile-form-delete = პროფილის წაშლა
 
 ## Profile Download
 
+download-q = გესაჭიროებათ თქვენი მონაცემების ჩამოტვირთვა?
+download-info = რისი ჩამოტვირთვა გსურთ:
+download-profile-title = პროფილი
+download-profile-info = მოიცავს ელფოსტას, მეტსახელსა და დემოგრაფიულ მონაცემებს
+download-profile-size = რამდენიმე ბაიტი
+download-recordings-title = ჩანაწერები
+download-recordings-info = მოიცავს mp3-ფაილებს, თანმხლები წინადადებებით
+download-recordings-size = ჩვეულებრივ, მეგაბაიტები
+download-recordings-unavailable = არ შეგიძლიათ ჩანაწერების მოთხოვნა, როცა სხვა მოთხოვნა უკვე მუშავდება.
+download-size = მოცულობა
+download-selected = არჩეული
+download-start = ჩამოტვირთვის დაწყება
 
 ## Landing
 
