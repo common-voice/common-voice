@@ -860,8 +860,10 @@ profile-form-delete = Mba’ete Mboguete
 
 ## Profile Download
 
+download-info = Emombe’umi mba’épa emboguejyse:
 download-profile-title = Mba’ete
 download-recordings-title = Ñeñongatukuéra
+download-recordings-info = Oĩ mp3 ha ñe’ẽñemi ojokupytýva
 download-size = Tuichakue
 download-selected = Poravopyre
 download-start = Emboguejy Ñepyrũ
