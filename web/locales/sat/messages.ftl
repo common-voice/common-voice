@@ -5,6 +5,7 @@ email-input =
     .label = ᱤᱢᱮᱞ
 submit-form-action = ᱡᱚᱢᱟᱭ ᱢᱮ
 loading = ᱞᱟᱫᱮᱜᱼᱟ…
+indicates-required = * ᱞᱟᱹᱠᱛᱤ ᱠᱟᱱ ᱡᱟᱭᱜᱟ ᱠᱟᱱᱟ
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -32,6 +33,11 @@ bm = ᱵᱟᱢᱵᱟᱨᱟ
 bn = ᱵᱮᱝᱜᱟᱞᱤ
 br = ᱵᱨᱮᱴᱚᱱ
 bxr = ᱵᱩᱨᱭᱟᱹᱛ
+ca = ᱠᱮᱴᱟᱞᱮᱱ
+cak = ᱠᱟᱠᱪᱤᱠᱮᱞ
+ckb = ᱥᱮᱱᱴᱨᱟᱞ ᱠᱩᱨᱫᱤᱥ
+cnh = ᱦᱟᱠᱷᱟ ᱪᱷᱤᱱ
+co = ᱠᱚᱨᱥᱤᱠᱟᱱ
 cs = ᱪᱮᱠ
 cv = ᱪᱩᱣᱟᱥ
 cy = ᱣᱮᱞᱥ
@@ -294,6 +300,9 @@ both-speak-and-listen-long = ᱵᱟᱱᱟᱨᱜᱮ (ᱨᱚᱲ ᱢᱮ ᱟᱨ ᱟ�
 keep = ᱫᱚᱦᱚᱭ ᱢᱮ
 remove = ᱚᱪᱚᱜᱽ ᱢᱮ
 profile-form-delete = ᱢᱚᱦᱲᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
+
+## Profile Download
+
 
 ## Landing
 
