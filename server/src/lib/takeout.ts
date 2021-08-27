@@ -34,14 +34,22 @@ export function createTaskQueues(takeout: Takeout): TaskQueues {
   const redisUrlParts = getConfig().REDIS_URL?.split("//");
   const redisDomain = redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0];
 
-  const createQueue = <T>(name: string, params?: QueueOptions) =>
-    new Bull<T>(name, {
+  const createQueue = <T>(name: string, params?: QueueOptions) => {
+    const bull = new Bull<T>(name, {
       redis: {
         host: redisDomain,
       },
       prefix: `bull-${name}-`,
       ...params,
     });
+
+    if (getConfig().DEBUG) {
+      console.log(bull);
+    }
+
+    return bull;
+  }
+
 
   const dataTakeout = createQueue<TakeoutTask>('data-takeout', {
     limiter: kTakeoutRateLimiter,
