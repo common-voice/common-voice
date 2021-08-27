@@ -139,7 +139,7 @@ export default class Bucket {
     const passThrough = new PassThrough();
 
     const s3pipe = s3Zip
-      .archive({ s3: this.s3, bucket, debug: true }, '', keys)
+      .archive({ s3: this.s3, bucket }, '', keys)
       .pipe(passThrough);
 
     await this.s3
