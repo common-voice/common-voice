@@ -70,8 +70,12 @@ export default class Server {
     options = { bundleCrossLocaleMessages: true, ...options };
     this.model = new Model();
     this.api = new API(this.model);
-    this.taskQueues = createTaskQueues(this.api.takeout);
-    this.api.takeout.setQueue(this.taskQueues.dataTakeout);
+
+    if (getConfig().REDIS_URL) {
+      this.taskQueues = createTaskQueues(this.api.takeout);
+      this.api.takeout.setQueue(this.taskQueues.dataTakeout);
+    }
+
     this.isLeader = null;
 
     const app = (this.app = express());
