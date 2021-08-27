@@ -584,6 +584,11 @@ subscribe = Subscriber se
 get-started-speech = Comenciar con le Recognition de voce
 other-datasets = Other Voice Datasets
 feedback-q = Ha tu commentario?
+resource-nemo-info = <githubLink>NVIDIA Nemo</githubLink>™ es un <docsLink>equipamento open-source</docsLink> pro recercatores disveloppante le stato-del-arte de modellos de intelligentia artificial conversational.
+resource-deepspeech-info = Le motor de recognition vocal open-source de Mozilla: Deep Speech, pote esser usate pro producer applicationes de recognition vocal. Lege nostre <githubLink>summario de GitHub</githubLink> o junge te a <discourseLink>DeepSpeech Discourse</discourseLink> pro saper como comenciar.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> es dedicate a render libere le technologia vocal. Su projectos include motores STT e TTS basate sur le apprendimento profunde.
+community-playbook = Libro del jocos del communitate
+resource-playbook-info = <playbookLink>Trova utile guida</playbookLink> sur le integre route de Common Voice, ab le localisation al uso del collection de datos e como connecter se con nostre communitate.
 data-other-librispeech-description = LibriSpeech es un corpus de circa 1000 horas de anglese parlate a 16Khz derivate ab la lectura de audio-libros ab le projecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = Le corpus de TED-LIUM esseva facite ab  audio e lor transcriptiones disponibile sur le sito web de TED.
@@ -854,6 +859,33 @@ keep-info = Tu registrationes de voce anonyme remanera in le collection de datos
 remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab le collection de datos. Si tu requesta es approbate, nos contactara le personas qui ha discargate le collection de datos e requestara que illes etiam remove tu registrationes de voce.
 why-delete-recordings = Le registrationes de Common Voice es utilisate per le academicos, le micre negotios e per le enthusiastas del recognition vocal pro adjutar a provar e facer crescer ressources publicamente disponibile como le modellos vocal.
 profile-form-delete = Deler le profilo
+
+## Profile Download
+
+download-q = Besonia tu de discargar tu datos?
+download-info = Dice nos que tu amarea discargar:
+download-profile-title = Profilo
+download-profile-info = Include email, nomine de usator e info demographic
+download-profile-size = Alcun bytes
+download-recordings-title = Registrationes
+download-recordings-info = Include mp3s e phrases correlate
+download-recordings-size = Megabytes tipic
+download-recordings-unavailable = Tu non pote requirer tu registrationes durante que un altere requesta es jam in curso.
+download-size = Dimension
+download-selected = Seligite
+download-start = Initiar le discargamento
+download-request = Requirer le discargamento
+download-requests-info = Quando tu require tu registrationes, nos los compila in un o plure files ZIP. Ecce tu passate requestas:
+download-request-button = Discargar
+download-request-title = { $created }
+download-request-archive-single = Singule FILE ZIP que contine
+download-request-archive-multiple = Divider in { $archiveCount } files ZIP continente
+download-request-assembling-description = Tu files va esser assemblate. Verifica de novo plus tarde.
+download-request-refresh-button = Actualisar
+download-request-modal-title = Discargar ligamines
+download-request-modal-description = Ecce le ligamine de discargamento de tu files ZIP.
+download-request-metadata-link = Texto del phrase
+download-request-link-single = Tu pote alsi copiar e collar le directe URLs in tu favorite gestor de discargamento. Illos expirara in 12 horas, ma tu pote recede a iste pagina pro generar los nove cata vice.
 
 ## Landing
 

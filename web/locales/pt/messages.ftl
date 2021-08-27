@@ -78,6 +78,7 @@ hy-AM = Armênio
 hyw = Armênio ocidental
 ia = Interlíngua
 id = Indonésio
+ie = Interlíngua
 is = Islandês
 it = Italiano
 izh = Ijoriano
@@ -586,8 +587,10 @@ subscribe = Assinar
 get-started-speech = Introdução ao reconhecimento de voz
 other-datasets = Outros conjuntos de dados de voz
 feedback-q = Quer fazer comentários?
-deepspeech-info = O conjunto de dados do Common Voice complementa o mecanismo de reconhecimento de voz de código aberto da Mozilla, Deep Speech, que você pode usar para construir aplicações de reconhecimento de voz. Leia nossa <githubLink>introdução no Github</githubLink> ou participe do <discourseLink>DeepSpeech Discourse</discourseLink> para saber como começar.
-common-voice-info-new = Tem perguntas sobre o Common Voice? Ideias para aprimorar, ou comentários sobre um idioma específico? Junte-se a nós em nosso <discourseLink>fórum do Discourse</discourseLink> e nos conte.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ é um <docsLink>toolkit de código aberto</docsLink> para pesquisadores que desenvolvem modelos de inteligência artificial de conversação de última geração.
+resource-deepspeech-info = O mecanismo de reconhecimento de voz de código aberto da Mozilla, Deep Speech, pode ser usado para construir aplicações de reconhecimento de voz. Leia nossa <githubLink>introdução no Github</githubLink> ou participe do <discourseLink>DeepSpeech Discourse</discourseLink> para saber como começar.
+resource-coqui-info = O <coquiLink>Coqui</coquiLink> é dedicado à tecnologia aberta de voz. Seus projetos incluem mecanismos STT e TTS baseados em aprendizagem profunda.
+resource-playbook-info = <playbookLink>Encontre orientações úteis</playbookLink> em toda a jornada no Common Voice, desde a localização até o uso do conjunto de dados, além de como se conectar com nossa comunidade.
 data-other-librispeech-description = LibriSpeech é um corpus de aproximadamente 1000 horas de leitura em inglês em 16Khz, derivado de audiolivros do projeto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM Corpus foi criado a partir de áudios de palestras e suas transcrições, que estão disponíveis no site TED.
@@ -857,6 +860,36 @@ why-delete-recordings =
     
     Poderia nos dizer por que gostaria que suas gravações sejam apagadas?
 profile-form-delete = Excluir perfil
+
+## Profile Download
+
+download-q = Precisa baixar seus dados?
+download-info = Indique o que você quer baixar:
+download-profile-title = Perfil
+download-profile-info = Inclui email, nome de usuário e informações demográficas
+download-profile-size = Alguns bytes
+download-recordings-title = Gravações
+download-recordings-info = Inclui arquivos mp3 e frases relacionadas
+download-recordings-size = Normalmente megabytes
+download-recordings-unavailable = Você não pode solicitar suas gravações enquanto outra solicitação já estiver em andamento.
+download-size = Tamanho
+download-selected = Selecionado
+download-start = Iniciar download
+download-request = Solicitar download
+download-requests = Pedidos anteriores de download
+download-requests-info = Quando você solicita suas gravações, nós as reunimos em um ou vários arquivos ZIP. Veja seus pedidos anteriores:
+download-request-button = Baixar
+download-request-title = { $created }
+download-request-description = { $clipCount } clipes de voz. O tamanho total do compactado é { $size }. Expira em { $expires }.
+download-request-archive-single = Arquivo ZIP único contendo
+download-request-archive-multiple = Separar em { $archiveCount } arquivos ZIP contendo
+download-request-assembling-description = Seus arquivos estão sendo preparados. Verifique novamente mais tarde.
+download-request-refresh-button = Atualizar
+download-request-modal-title = Links de download
+download-request-modal-description = Aqui estão os links para baixar seus arquivos ZIP.
+download-request-link-text = Zip #{ $offset } de { $total }
+download-request-metadata-link = Texto da frase
+download-request-link-single = Você também pode copiar e colar as URLs diretas em seu gerenciador preferido de download. Elas expiram em 12 horas, mas você pode voltar a esta página para gerar novas quando quiser.
 
 ## Landing
 

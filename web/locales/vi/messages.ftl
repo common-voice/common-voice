@@ -78,6 +78,7 @@ hy-AM = Armenia
 hyw = Armenia Tây
 ia = Interlingua
 id = Indo
+ie = Interlingue
 is = Iceland
 it = Ý
 izh = Izhorian
@@ -582,8 +583,11 @@ subscribe = Đăng kí
 get-started-speech = Bắt đầu với nhận dạng giọng nói
 other-datasets = Bộ dữ liệu thoại khác
 feedback-q = Có phản hồi?
-deepspeech-info = Bộ dữ liệu Common Voice bổ sung cho công cụ nhận dạng giọng nói mã nguồn mở Mozilla, Deep Speech, mà bạn có thể sử dụng để xây dựng các ứng dụng nhận dạng giọng nói. Đọc <githubLink>tổng quan về Github</githubLink> của chúng tôi hoặc tham gia <discourseLink>diễn ngôn DeepSpeech</discourseLink> để tìm hiểu cách bắt đầu.
-common-voice-info-new = Có câu hỏi nào về Common Voice? Ý tưởng cho cải tiến hoặc phản hồi về một ngôn ngữ cụ thể? Tham gia với chúng tôi trên <discourseLink>diễn đàn Discourse</discourseLink> và cho chúng tôi biết.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ là một <docsLink>bộ công cụ mã nguồn mở</docsLink> dành cho các nhà nghiên cứu đang phát triển các mô hình AI đàm thoại hiện đại.
+resource-deepspeech-info = Công cụ nhận dạng giọng nói nguồn mở Deep Speech của Mozilla có thể được sử dụng để xây dựng các ứng dụng nhận dạng giọng nói. Đọc <githubLink>tổng quan Github</githubLink> của chúng tôi hoặc tham gia <discourseLink>Discourse của DeepSpeech</discourseLink> để tìm hiểu cách bắt đầu.
+resource-coqui-info = <coquiLink>Coqui</coquiLink>dành riêng cho công nghệ lời nói cởi mở. Các dự án của họ bao gồm các công cụ STT và TTS dựa trên deep learning.
+community-playbook = Sổ tay cộng đồng
+resource-playbook-info = <playbookLink>Tìm hướng dẫn hữu ích</playbookLink> về toàn bộ hành trình Common Voice, từ bản địa hóa đến sử dụng tập dữ liệu, cũng như cách kết nối với cộng đồng của chúng tôi.
 data-other-librispeech-description = LibriSpeech là một kho tàng khoảng 1000 giờ của 16Khz bài phát biểu tiếng Anh có nguồn gốc từ các audiobook từ dự án LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM corpus được tạo từ các cuộc nói chuyện, và các bản ghi chép của họ có sẵn trên trang web của TED.
@@ -847,6 +851,35 @@ why-delete-recordings =
     
     Bạn có thể cho chúng tôi biết lý do tại sao bạn muốn xóa bản ghi của mình không?
 profile-form-delete = Xóa hồ sơ
+
+## Profile Download
+
+download-q = Cần tải xuống dữ liệu của bạn?
+download-info = Hãy cho chúng tôi biết những gì bạn muốn tải xuống:
+download-profile-title = Hồ sơ
+download-profile-info = Bao gồm email, tên người dùng & thông tin nhân khẩu học
+download-profile-size = Một vài byte
+download-recordings-title = Bản ghi
+download-recordings-info = Bao gồm mp3 và các câu liên quan
+download-recordings-size = Thường lên đến megabyte
+download-recordings-unavailable = Bạn không thể yêu cầu bản ghi của mình trong khi một yêu cầu khác đang được thực hiện.
+download-size = Kích thước
+download-selected = Đã chọn
+download-start = Bắt đầu tải xuống
+download-request = Yêu cầu tải xuống
+download-requests = Yêu cầu tải xuống trước đây
+download-requests-info = Khi bạn yêu cầu bản ghi của mình, chúng tôi sẽ biên dịch chúng thành một hoặc nhiều tệp ZIP. Đây là những yêu cầu trước đây của bạn:
+download-request-button = Tải xuống
+download-request-title = { $created }
+download-request-description = { $clipCount } bản ghi thoại, tổng kích thước lưu trữ { $size }. Hết hạn { $expires }.
+download-request-archive-single = Một tệp ZIP chứa
+download-request-archive-multiple = Chia thành { $archiveCount } tệp ZIP chứa
+download-request-assembling-description = Các tệp của bạn đang được tập hợp. Vui lòng kiểm tra lại sau.
+download-request-refresh-button = Làm mới
+download-request-modal-title = Liên kết tải xuống
+download-request-modal-description = Đây là các liên kết để tải xuống các tệp ZIP của bạn.
+download-request-link-text = Zip #{ $offset } trong tổng số { $total }
+download-request-link-single = Bạn cũng có thể sao chép và dán URL vào trình quản lý tải xuống yêu thích của mình. Chúng sẽ hết hạn sau 12 giờ, nhưng bạn có thể quay lại trang này để tạo những cái mới bất kỳ lúc nào.
 
 ## Landing
 

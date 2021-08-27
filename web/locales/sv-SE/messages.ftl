@@ -78,6 +78,7 @@ hy-AM = Armeniska
 hyw = Armenisk västerländska
 ia = Interlingua
 id = Indonesiska
+ie = Interlingue
 is = Isländska
 it = Italienska
 izh = Ingriska
@@ -290,6 +291,7 @@ shortcut-record-toggle-label = Spela in/Stoppa
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spela in klipp igen
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Ignorera pågående inspelning
 shortcut-submit = Återgå
 shortcut-submit-label = Skicka in klipp
 request-language-text = Kan du inte se ditt språk på Common Voice än?
@@ -859,6 +861,36 @@ why-delete-recordings =
     Kan du låta oss veta varför du vill att dina inspelningar raderas?
 profile-form-delete = Ta bort profil
 
+## Profile Download
+
+download-q = Behöver du ladda ner din data?
+download-info = Berätta vad du vill ladda ner:
+download-profile-title = Profil
+download-profile-info = Inkluderar e-post, användarnamn och demografisk information
+download-profile-size = Några byte
+download-recordings-title = Inspelningar
+download-recordings-info = Inkluderar mp3-filer och relaterade meningar
+download-recordings-size = Typiskt megabyte
+download-recordings-unavailable = Du kan inte begära dina inspelningar medan en annan begäran redan pågår.
+download-size = Storlek
+download-selected = Vald
+download-start = Starta nedladdning
+download-request = Begär nedladdning
+download-requests = Tidigare nedladdningsförfrågningar
+download-requests-info = När du begär dina inspelningar sammanställer vi dem till en eller flera ZIP-filer. Här är dina tidigare önskemål:
+download-request-button = Hämta
+download-request-title = { $created }
+download-request-description = { $clipCount } röstklipp, total arkivstorlek { $size }. Upphör { $expires }.
+download-request-archive-single = Enstaka ZIP-fil som innehåller
+download-request-archive-multiple = Dela upp i { $archiveCount } ZIP-filer som innehåller
+download-request-assembling-description = Dina filer sammanställs. Vänligen försök igen senare.
+download-request-refresh-button = Uppdatera
+download-request-modal-title = Nedladdningslänkar
+download-request-modal-description = Här är länkarna för att ladda ner dina ZIP-filer.
+download-request-link-text = Zip #{ $offset } av { $total }
+download-request-metadata-link = Meningstext
+download-request-link-single = Du kan också kopiera och klistra in de direkta webbadresserna i din favorithämtningshanterare. De upphör om 12 timmar, men du kan när som helst återvända till den här sidan för att skapa nya.
+
 ## Landing
 
 welcome-staff = Välkomna anställda på { $company }!
@@ -912,8 +944,12 @@ contribution-criteria-page-description = Förstå vad du ska leta efter när du 
 contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
+contribution-misreadings-example-3-explanation = [Inspelning avbruten före slutet av det sista ordet]
+contribution-misreadings-example-4-explanation = [Mer har spelats in än den obligatoriska texten]
+contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
 contribution-varying-pronunciations-title = Varierande uttal
 contribution-background-noise-title = Bakgrundsbrus
+contribution-background-noise-example-2-explanation = [Delar av texten kan inte höras]
 contribution-background-voices-title = Bakgrundsröster
 contribution-volume-title = Volym
 contribution-just-unsure-title = Osäker?

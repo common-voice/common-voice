@@ -78,6 +78,7 @@ hy-AM = Armeno
 hyw = Armeno occidentale
 ia = Interlingua
 id = Indonesiano
+ie = Interlingue
 is = Islandese
 it = Italiano
 izh = Izoriano
@@ -570,8 +571,11 @@ subscribe = Iscriviti
 get-started-speech = Inizia con il riconoscimento vocale
 other-datasets = Altri dataset vocali
 feedback-q = Hai suggerimenti?
-deepspeech-info = Il dataset di Common Voice integra il motore di riconoscimento vocale open source di Mozilla, Deep Speech, utilizzabile per creare applicazioni di riconoscimento vocale. Leggi la <githubLink>panoramica GitHub</githubLink> o unisciti a <discourseLink>DeepSpeech su Discourse</discourseLink> per sapere come cominciare.
-common-voice-info-new = Hai domande su Common Voice? Vuoi comunicarci opinioni o suggerimenti per migliorare una specifica lingua? Scrivici sul <discourseLink>forum Discourse</discourseLink>.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ è un <docsLink>toolkit open-source</docsLink> per i ricercatori che sviluppano modelli conversazionali di intelligenza artificiale all’avanguardia.
+resource-deepspeech-info = Il motore di riconoscimento vocale open source di Mozilla, Deep Speech, può essere utilizzato per creare applicazioni di riconoscimento vocale. Leggi la <githubLink>panoramica su GitHub</githubLink> o partecipa a <discourseLink>DeepSpeech su Discourse</discourseLink> per scoprire come cominciare.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> è un’organizzazione che si occupa di tecnologia aperta in ambito vocale. Alcuni dei loro progetti includono motori STT e TTS basati su deep learning.
+community-playbook = Linee guida della community
+resource-playbook-info = <playbookLink>Trova indicazioni utili</playbookLink> sull’intero percorso di Common Voice, dalla localizzazione all’utilizzo del set di dati, e informazioni su come entrare in contatto con la nostra community.
 data-other-librispeech-description = LibriSpeech è un corpus contenente circa 1000 ore di registrazioni in lingua inglese a 16kHz tratto dalla lettura di audiolibri del progetto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Il corpus TED-LIUM è realizzato con registrazioni audio di conferenze e relative trascrizioni disponibili sul sito TED.
@@ -841,6 +845,9 @@ why-delete-recordings =
     
     Puoi spiegarci per quale motivo desideri cancellare le tue registrazioni?
 profile-form-delete = Elimina profilo
+
+## Profile Download
+
 
 ## Landing
 

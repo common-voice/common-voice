@@ -542,7 +542,7 @@ number-of-voices = Äänien määrä
 splits = Osat
 email-to-download = Anna sähköpostiosoite ladataksesi
 why-email = <b>Miksi sähköpostiosoite?</b> Meille voi tulla tarve olla sinuun yhteyksissä aineistoon muutoksiin liittyen, jolloin sähköposti on  yksi yhteystieto.
-confirm-size = Olet aloittamassa <b>{ $size }</b> gigatavun latausta.
+confirm-size = Olet aloittamassa <b>{ $size }</b>:n latausta.
 size-gigabyte = Gt
 size-megabyte = Mt
 confirm-no-identify = <b>Sitoudut</b> olemaan yrittämättä tunnistaa Common Voice -aineiston puhujia.
@@ -559,8 +559,6 @@ subscribe = Tilaa
 get-started-speech = Aloita puheentunnistuksen parissa
 other-datasets = Muut puheaineistot
 feedback-q = Haluatko antaa palautetta?
-deepspeech-info = Common Voice -aineisto täydentää Mozillan avoimen lähdekoodin puheentunnistusohjelmaa Deep Speech, jota voit käyttää puheentunnistuksen sovellutuksissa. Lue <githubLink>yleiskatsaus GitHubista</githubLink> tai liity <discourseLink>DeepSpeech Discourseen</discourseLink> oppiaksesi, kuinka pääset alkuun.
-common-voice-info-new = Onko sinulla kysymyksiä Common Voicesta? Ajatuksia sen parantamisesta tai palautetta tietystä kielestä? Liity <discourseLink>Discourse -keskusteluun</discourseLink> ja kerro meille!
 data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja niiden tekstityksistä TED-sivustolta.
@@ -832,6 +830,9 @@ why-delete-recordings =
     
     Haluatko kertoa, miksi haluat poistaa tekemäsi nauhoitukset?
 profile-form-delete = Poista profiili
+
+## Profile Download
+
 
 ## Landing
 
