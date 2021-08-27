@@ -21,7 +21,7 @@ import InfoPage from './info/info';
 import Settings from './settings/settings';
 
 import './layout.css';
-import DownloadProfile from './download/download';
+import DownloadProfile, { downloadTextAsFile, getProfileInfo } from './download/download';
 
 interface PropsFromState {
   user: User.State;
@@ -30,6 +30,15 @@ interface PropsFromState {
 interface Props extends LocalePropsFromState, PropsFromState {}
 
 const Layout = ({ toLocaleRoute, user }: Props) => {
+  if (window.location.search.includes('enableNewDownload=1')) {
+    try {
+      sessionStorage.setItem('downloadEnabled', 'true');
+    } catch(e) {
+      console.warn(`A sessionStorage error occurred ${e.message}`);
+    }
+  }
+  const downloadEnabled = sessionStorage.getItem('downloadEnabled');
+
   const [infoRoute, avatarRoute, prefRoute, deleteRoute, downloadRoute] = [
     URLS.PROFILE_INFO,
     URLS.PROFILE_AVATAR,
@@ -63,13 +72,20 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
           ]
             .slice(0, user.account ? Infinity : 1)
             .map(({ route, icon, id }) => (
-              <NavLink key={route} to={route}>
+              (route !== downloadRoute || downloadEnabled) ?
+              (<NavLink key={route} to={route}>
                 {icon}
                 <Localized id={id}>
                   <span className="text" />
                 </Localized>
-              </NavLink>
-            ))}
+              </NavLink>) : (
+                <a key={route} onClick={() => downloadTextAsFile('profile.txt', getProfileInfo(user.account))} href="#">
+                  <CloudIcon />
+                  <Localized id="download-profile">
+                    <span className="text" />
+                  </Localized>
+                </a>
+            )))}
         </div>
       </div>
       <div className="content">
@@ -81,14 +97,15 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             { route: deleteRoute, Component: DeleteProfile },
             { route: downloadRoute, Component: DownloadProfile },
           ].map(({ route, Component }) => (
-            <Route
+            (route !== downloadRoute || downloadEnabled) ?
+            (<Route
               key={route}
               exact
               path={route}
               render={props =>
                 user.account ? <Component /> : <Redirect to={infoRoute} />
               }
-            />
+            />) : null
           ))}
           <Route
             render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}

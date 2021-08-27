@@ -265,7 +265,7 @@ const LinkModal = ({
   );
 };
 
-function downloadTextAsFile(filename: string, text: string) {
+export function downloadTextAsFile(filename: string, text: string) {
   return downloadAsFile(
     filename,
     'data:text/plain;charset=utf-8,' + encodeURIComponent(text)
@@ -282,7 +282,7 @@ function downloadAsFile(filename: string, url: string) {
   a.remove();
 }
 
-function getProfileInfo(account: UserClient) {
+export function getProfileInfo(account: UserClient) {
   return [
     ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
     ...account.locales.reduce((all, l, i) => {
