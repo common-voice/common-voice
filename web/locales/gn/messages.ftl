@@ -859,6 +859,18 @@ profile-form-delete = Mba’ete Mboguete
 
 ## Profile Download
 
+download-profile-title = Mba’ete
+download-recordings-title = Ñeñongatukuéra
+download-size = Tuichakue
+download-selected = Poravopyre
+download-start = Emboguejy Ñepyrũ
+download-request = Ejerure Ñemboguejy
+download-requests = Ñemboguejy ohasámava mba’ejerure
+download-request-button = Mboguejy
+download-request-title = { $created }
+download-request-refresh-button = Mbohekopyahu
+download-request-modal-title = Emboguejy Mbojuajuha
+download-request-metadata-link = Ñe’ẽjuaju moñe’ẽrã
 
 ## Landing
 
