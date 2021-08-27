@@ -590,6 +590,7 @@ feedback-q = Quer fazer comentários?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ é um <docsLink>toolkit de código aberto</docsLink> para pesquisadores que desenvolvem modelos de inteligência artificial de conversação de última geração.
 resource-deepspeech-info = O mecanismo de reconhecimento de voz de código aberto da Mozilla, Deep Speech, pode ser usado para construir aplicações de reconhecimento de voz. Leia nossa <githubLink>introdução no Github</githubLink> ou participe do <discourseLink>DeepSpeech Discourse</discourseLink> para saber como começar.
 resource-coqui-info = O <coquiLink>Coqui</coquiLink> é dedicado à tecnologia aberta de voz. Seus projetos incluem mecanismos STT e TTS baseados em aprendizagem profunda.
+community-playbook = Orientações à comunidade
 resource-playbook-info = <playbookLink>Encontre orientações úteis</playbookLink> em toda a jornada no Common Voice, desde a localização até o uso do conjunto de dados, além de como se conectar com nossa comunidade.
 data-other-librispeech-description = LibriSpeech é um corpus de aproximadamente 1000 horas de leitura em inglês em 16Khz, derivado de audiolivros do projeto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
