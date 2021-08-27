@@ -78,6 +78,7 @@ hy-AM = আৰ্মেনীয়
 hyw = পশ্চিমীয়া আৰ্মেনীয়
 ia = ইণ্টাৰ্লিংগুৱা
 id = ইণ্ডোনেচীয়
+ie = ইণ্টাৰ্লিংগ
 is = আইচলেণ্ডীয়
 it = ইটালিয়ান
 izh = ইজ'ৰীয়
@@ -578,8 +579,6 @@ subscribe = ছাব‌স্ক্ৰাইব কৰক
 get-started-speech = কথন চিনাক্তকৰণেৰে আৰম্ভ হৈ যাওক
 other-datasets = অন্য ভইচ ডেটাছেটবোৰ
 feedback-q = সঁহাৰি আছেনে?
-deepspeech-info = কমন ভইচ ডেটাছেটে Mozilla-ৰ মুকলি উৎসৰ কণ্ঠ চিনাক্তকৰণ ইঞ্জিন Deep Speech-ক সম্পূৰ্ণ কৰে, যিটো আপুনি কথন চিনাক্তকৰণ এপ্লিকেশ্যন নিৰ্মাণ কৰিবলৈ ব্যৱহাৰ কৰিব পাৰে। কেনেকৈ আৰম্ভ কৰিব সেয়া জানিবলৈ আমাৰ <githubLink>Github অৱলোকন</githubLink> পঢ়ক বা <discourseLink>DeepSpeech Discourse</discourseLink>-ত যোগদান কৰক।
-common-voice-info-new = কমন ভইচৰ বিষয়ে কিবা প্ৰশ্ন আছেনে? উন্নয়নৰ বাবে আইডিয়া বা কোনো নিৰ্দিষ্ট ভাষাৰ বিষয়ে সঁহাৰি? আমাৰ <discourseLink>Discourse ফ'ৰাম</discourseLink>ত যোগদান কৰি আমাক জনাওক।
 data-other-librispeech-description = LibriSpeech হৈছে LibriVox প্ৰকল্পৰ পঠিত অডিঅ'কিতাপবোৰৰ পৰা লাভ কৰা 1000 ঘণ্টীয়া 16Khz পঠিত ইংৰাজী কথনৰ এক সংগ্ৰহ।
 data-other-ted-name = TED-LIUM ক'ৰ্পাছ
 data-other-ted-description = TED-LIUM ক'ৰ্পাছ TED ৱেবছাইটত উপলব্ধ অডিঅ' কথা আৰু সেইবোৰৰ পাঠান্তৰৰ পৰা বনোৱা হৈছিল।
@@ -853,6 +852,10 @@ why-delete-recordings =
     
     আপুনি আপোনাৰ ৰেকৰ্ডিংবোৰ কিয় মচি পেলাবলৈ বিচাৰে আমাক জনাব পাৰিবনে?
 profile-form-delete = প্ৰ'ফাইল মচি পেলাওক
+
+## Profile Download
+
+download-request-metadata-link = বাক্য-পাঠ
 
 ## Landing
 
