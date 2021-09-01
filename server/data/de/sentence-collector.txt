@@ -53,6 +53,7 @@ Ab in das Gehölz damit, ne!
 Ab in deine Ecke.
 Ab in den Papierkorb damit!
 Ab in den Stall!
+Ab in die Schwarzwaldklinik!
 Ab ins Bett mit euch!
 Ab ins Bett mit euch, Kinder!
 Ab ins Körbchen!
@@ -450,6 +451,7 @@ Ach Quatsch, das kann jeder!
 Ach Rebekka, wir hätten unsere Pläne im Vorhinein besser koordinieren müssen.
 Ach Shit, Frau Schmitt.
 Ach Waldi, heute schon gepusht?
+Ach da ist die Bahnhofsmission.
 Ach der Frühling ist wundervoll.
 Ach der hatte auch eine Fernsehsendung?
 Ach die!
@@ -3974,6 +3976,7 @@ Dann mache ich das halt.
 Dann machen alle Mann kehrt.
 Dann machen wir halt Kartoffelsuppe.
 Dann muss die Straße länger gesperrt bleiben.
+Dann muss ich immer viele Bücher mit mir herumschleppen.
 Dann muss man bereits Bremsen.
 Dann muss man praktisch noch mal von Null anfangen.
 Dann muss sie eben dickere Bretter bohren.
@@ -4951,6 +4954,7 @@ Das ist die beste Ausrede, die man haben kann.
 Das ist die beste Werbung, die ich je gesehen habe!
 Das ist die dümmste von allen.
 Das ist die eine Möglichkeit, es zu erkennen.
+Das ist die nervigste Mücke, die ich je gesehen habe.
 Das ist die neuste Spiegelreflexkamera von Nikon.
 Das ist die sauberste Männer-Wohngruppe, die ich je gesehen habe!
 Das ist die unbestreitbare Logik eines Quantenphysikers.
@@ -5376,6 +5380,7 @@ Das schwächste Glied bestimmt die Stärke der gesamten Kette.
 Das schädigt unseren ohnehin schon ramponierten Ruf.
 Das sich ändernde Magnetfeld induziert eine Spannung im Leiter.
 Das sichtbare Spektrum des Lichts umfasst nicht einmal eine Oktave.
+Das sieht aber "benutzt" aus.
 Das sieht doch schon viel besser aus.
 Das sieht gefährlich aus.
 Das sieht ihm ähnlich.
@@ -6509,6 +6514,7 @@ Der Nachbar hat beim Einparken die Mülltonne umgefahren.
 Der Nachbar schichtet seinen Kompost um.
 Der Nachbar vom Biest hat welche Zimmernummer?
 Der Nachbarsjunge hat es draußen beim Spielen gefunden.
+Der Nachtfalter.
 Der Nachwuchs kommt blind auf die Welt.
 Der Name des ersten deutschen Astronauten ist meist nur Ostdeutschen ein Begriff.
 Der Name ist Programm.
@@ -7157,6 +7163,7 @@ Deswegen meckert sie nicht herum.
 Deswegen muss man bei deren Anstrengung stets laut herumstöhnen.
 Deswegen musste er beseitigt werden.
 Deswegen musste er ja überhaupt ins Gefängnis.
+Deswegen musste ich Erdkunde statt Englisch wählen.
 Deswegen müssen Kinder eine gewisse Mindestgröße haben.
 Deswegen singe auch ich unter der Dusche.
 Deswegen sollte man auf diese Weise auch keinen Gewinn erwirtschaften können.
@@ -7520,6 +7527,7 @@ Die Frühschicht erledigt Herr Wittgenstein.
 Die Funktion des Beines ist permanent wiederhergestellt.
 Die Funktion ist wahrscheinlich ein Einzeiler, maximal aber ein Dreizeiler.
 Die Fußballfans haben alle Wohnstraßen in der Umgebung zugeparkt.
+Die Fächerkombination, die ich eigentlich wählen wollte, gab es nicht mehr.
 Die Fähre startet von Dagebüll und fährt über Föhr nach Amrum.
 Die Fünf gegen Willi.
 Die Fünf ist mitnichten genau die Mitte auf einer Skala von eins bis zehn.
@@ -7861,6 +7869,7 @@ Die Mutter war nicht sehr erfreut.
 Die Mädchen waren begeistert, dass Billy Joel auch in ihrem Hotel war.
 Die Männer in den weißen Kitteln sind unterwegs!
 Die Möbel waren alt, doch sie erfüllten ihren Zweck.
+Die Mücke ist andauernd auf meinem Teller gelandet.
 Die Mühlen der Verwaltung mahlen langsam.
 Die Müllentsorgung klappt in Deutschland recht reibungslos.
 Die Müllmänner sagen ein lustiges Lied.
@@ -8085,6 +8094,7 @@ Die Spezialeinheit des Zolls wird zentrale Unterstützungseinheit Zoll, kurz Z-U
 Die Spezifikationen haben sich geändert.
 Die Spielbar sei aus diesem Grunde als Russenpuff in aller Munde.
 Die Sprache der neuen Nachrichtensprecherin wirkt zuweilen steril.
+Die Spracheingabe hat mich die ganze Zeit nicht verstanden.
 Die Spree durchfließt Berlin.
 Die Spur des Geldes lässt sich meistens zurückverfolgen.
 Die Spätfolgen sind bekannt.
@@ -10648,6 +10658,7 @@ Endlich wieder Nachschub!
 Endlich wieder ein ordentlicher Winter!
 Endlich wieder so zugedonnert wie früher.
 Endlich wird mal wieder etwas Speicherplatz frei.
+Endlich, nach elf Anläufen.
 Endstation ist Elsterwerda.
 Ene mene Bauernhaus, sofort geht jetzt das Feuer aus. Hex, hex!
 Ene mene Holzverbrennung, fertig ist die Spracherkennung. Hex, hex!
@@ -11320,6 +11331,7 @@ Es gibt nichts!
 Es gibt nichts, was es nicht gibt.
 Es gibt noch andere Lösungen, die ich euch auch gerne bei Gelegenheit zeige.
 Es gibt noch die Magdeburger Börde.
+Es gibt noch mehr Namen dafür.
 Es gibt noch weitaus schlimmere Nachrichten.
 Es gibt noch zu viele weiße Flecken auf der Karte.
 Es gibt nur eine Breitbandverbindung von der Außenwelt ins Gehirn.
@@ -11703,6 +11715,7 @@ Es sind nur noch Fragmente übrig.
 Es sind schlicht die Mittel, die fehlen.
 Es sind schwere Zeiten für uns alle.
 Es sind stets die Sieger, die die Geschichte schreiben.
+Es sind zu viele Einzelstunden und zu wenige Doppelstunden.
 Es sind zu viele.
 Es soll dem Rädelsführer einen Vorgeschmack darauf geben, was ihn erwartet.
 Es soll eine einheitliche Regelung gefunden werden.
@@ -12670,6 +12683,7 @@ Gefährlich wird es, wenn er seiner Frau ins Lenkrad greift.
 Gefällt Ihnen Facebook?
 Gefällt Ihnen diese Farbe?
 Gefällt Ihnen dieses Modell?
+Gefällt dir dein Stundenplan?
 Gefällt dir die Farbe rot?
 Gefällt dir mein Beinkleid?
 Gefällt er sich in seiner Rolle?
@@ -13562,6 +13576,7 @@ Halten Sie die Presse zurück!
 Halten Sie durch!
 Halten Sie hier kein Kaffeekränzchen!
 Halten Sie ihn nicht für eine Allzweckwaffe.
+Halten Sie ihr Mikrophon nicht so nah an mein Gesicht.
 Halten Sie nach großgewachsenen Personen Ausschau.
 Halten Sie sich aus dieser Angelegenheit heraus!
 Halten Sie sich bitte mit Ihrer Systemkritik zurück, zumindest ihr gegenüber.
@@ -13932,6 +13947,7 @@ Heiße Würstchen!
 Heißt das nicht, dass beide im Gefängnis sind?
 Heißt das, wir sind auf uns allein gestellt?
 Heißt der Vertragspartner Kuhn oder Kühn?
+Heißt es Erdkunde oder Geografie?
 Heißt es geniest oder genossen?
 Heißt es jetzt Peking oder Beijing?
 Heißt es jetzt Schraubenzieher oder Schraubendreher?
@@ -14842,6 +14858,7 @@ Ich denke, damit kommen wir klar.
 Ich denke, das Bild spricht für sich selbst.
 Ich denke, das Interview ist getürkt.
 Ich denke, das Prinzip sollte klar geworden sein.
+Ich denke, das wird der beste Teil.
 Ich denke, dazu gibt es keine vernünftige Alternative.
 Ich denke, die Vorteile überwiegen.
 Ich denke, du hast mir schon geholfen.
@@ -15473,6 +15490,7 @@ Ich komme gleich.
 Ich komme heute etwas später von der Arbeit zurück.
 Ich komme ja bei dir nicht rein.
 Ich komme mit dem Bus.
+Ich komme mit repetetiven Aufgaben nicht so gut klar.
 Ich komme nicht drauf.
 Ich komme noch mal dran.
 Ich komme nur nachts.
@@ -15795,6 +15813,7 @@ Ich stochere wieder in der selben Wunde herum.
 Ich streame meine Musik nur noch über das Internet.
 Ich studiere die Mathematik und Deutsch.
 Ich studiere seit neunzehnhundertachtundneunzig.
+Ich studierte an der Universität des Lebens.
 Ich suche das Netzteil von meinem Laptop.
 Ich suche einen Kieferorthopäden für mein Krokodil.
 Ich suche erfolglos nach einem angenehm und dezent riechenden Rasierwasser oder After-Shave-Balsam.
@@ -15987,6 +16006,7 @@ Ich will gerade besser auf meine Energie-Grenzen achten.
 Ich will gerne eine Nummer mit dir schieben, bin allerdings schon spät dran.
 Ich will heute nicht aus dem Bett.
 Ich will hier auch gar nicht behaupten, dass die Nachteile überwiegen.
+Ich will hier raus!
 Ich will ihm nur ein bisschen Angst einjagen.
 Ich will jetzt ausgehen.
 Ich will jetzt ein Rätsel lösen.
@@ -17562,6 +17582,7 @@ Ja wo gehn se, wo gehn se denn alle hin?
 Ja wo geht es denn hin?
 Ja wo laufen Sie denn hin?
 Ja wo laufen und fahren sie denn schon wieder hin?
+Ja wo sind sie denn alle hin?
 Ja! Nein! Ohhh!
 Ja, Gefühle sind ein echter Beziehungskiller!
 Ja, Herr, aber die reichen nicht.
@@ -19988,6 +20009,7 @@ Man könnte zum Beispiel die Silhouette hervorheben.
 Man lernt hier immer wieder etwas dazu.
 Man löst das Problem nicht, indem man seine Abhängigkeit zu einem anderen Anbieter verschiebt.
 Man marschiert nicht einfach nach Mordor ein.
+Man meint, du hättest nichts zu tun.
 Man merkt aber, dass alles nur gestellt ist.
 Man merkt auch, dass die Bücher ganz unterschiedliche Schreibstile haben.
 Man merkt ihr die Anspannung förmlich an.
@@ -20546,6 +20568,7 @@ Mein schwaches Herz verkraftet das nicht!
 Mein unzuverlässiger Ex-Partner zahlt keinen Unterhalt.
 Mein vergoldetes Smartphone mit besetzten Brillianten ist ins Klosett gefallen.
 Mein überaus seriöser Zwischenhändler von der Straße berichtete mir vom Ärger mit dem Zoll.
+Meine Aufmerksamkeitsspanne wird echt immer kürzer.
 Meine Auswahl ist groß.
 Meine Barbie hat ein schöneres Kleid als ich.
 Meine Bedenken mögen euch nicht passen, sie sind aber berechtigt!
@@ -21290,6 +21313,7 @@ Montagen werden stets nur an Montagen durchgeführt.
 Montags habe ich immer frei.
 Mord verjährt nicht.
 Morgen Abend gehen wir in eine Sushibar.
+Morgen beginnt der Ernst des Lebens.
 Morgen findet kein Nachmittagsunterricht statt, weil Elternsprechtag ist.
 Morgen fliegst du nach München.
 Morgen gehe ich zum Tierarzt und lasse meinen inneren Schweinehund einschläfern.
@@ -24154,6 +24178,7 @@ Sei ein Held.
 Sei endlich still, sonst trage ich dich ins Klassenbuch ein!
 Sei froh, dass das Urteil so milde ausfiel.
 Sei froh, dass dir nicht der schwere Hammer auf den Fuß gefallen ist!
+Sei froh, dass sie dich nicht gestochen hat.
 Sei kein Depp.
 Sei lieber ein durchschnittliches Original als eine schlechte Kopie.
 Sei nett zu mir, sonst enterbe ich dich!
@@ -24591,6 +24616,7 @@ Sie haben es vielleicht schon bemerkt.
 Sie haben gut geraten.
 Sie haben hier keine Zugangsberechtigung.
 Sie haben keine Lust, weit zu laufen.
+Sie haben keine Rechte an meinen Bildern.
 Sie haben mich angerempelt.
 Sie haben mich nicht korrekt über meine Rechte informiert!
 Sie haben mir ins Gesicht gefilmt!
@@ -25858,6 +25884,7 @@ Sprechen Sie direkt mit der Patientin, nicht mit Ihren Assistenten über sie.
 Sprechen Sie fließend Portugiesisch?
 Sprechen Sie ihn einfach an.
 Sprechen Sie ihn nicht darauf an, dass er zittert.
+Sprechen Sie nach dem Piepton.
 Sprechen Sie nicht darüber mit ihm.
 Sprechen sie deutsch?
 Sprechgesang kann durchaus Niveau haben.
@@ -26640,6 +26667,7 @@ Und dann wird wieder immer nur auf die Linken gezeigt.
 Und dann, haben Sie Briefmarken?
 Und dann, könnten Sie mir einen guten deutschen Roman empfehlen?
 Und darum folgt die Quittung nun auf dem Fuße.
+Und das Ganze wird nicht besser.
 Und das Leben erwacht vom Neuen.
 Und das Schlimme daran ist, dass es dabei nicht um sie geht.
 Und das Viertel würde lebenswerter werden.
@@ -30974,10 +31002,12 @@ Wir haben auf dem Bürodach einen Hubschrauberlandeplatz.
 Wir haben das Regal auseinandergebaut.
 Wir haben das ja eben so'n bisschen angetippt.
 Wir haben die Kirschen schon abgebrockt.
+Wir haben die Mücke dann rausgescheucht.
 Wir haben die Szene in einem Kurzvideo für Sie nachgestellt.
 Wir haben doch gar nichts getan.
 Wir haben doch gerade erst angefangen!
 Wir haben ein ansprechendes Tagungsprogramm für Sie vorbereitet.
+Wir haben einen neuen Stundenplan bekommen.
 Wir haben einen riesigen Fundus an Vorlesungsaufzeichnungen, die Untertitel benötigen.
 Wir haben einen tollen Hund!
 Wir haben einiges nachzuholen.
@@ -31451,6 +31481,7 @@ Wo ist die Menüleiste hin?
 Wo ist die Seife?
 Wo ist die Verwertungsgesellschaft, wenn man sie mal braucht?
 Wo ist die nächste Bushaltestelle?
+Wo ist hier das Wohlfahrtsbüro?
 Wo ist hier der Ausschalter?
 Wo ist hier die Flaniermeile?
 Wo ist mein Brieföffner?
