@@ -864,6 +864,15 @@ profile-form-delete = Supprimer le profil
 
 ## Profile Download
 
+download-q = Besoin de télécharger vos données ?
+download-recordings-title = Enregistrements
+download-recordings-info = Comprend les MP3 et les phrases liées, peut prendre un certain temps à préparer
+download-recordings-size = Généralement plusieurs mégaoctets
+download-recordings-unavailable = Vous ne pouvez pas demander vos enregistrements alors qu’une autre demande est déjà en cours.
+download-size = Taille
+download-request-button = Télécharger
+download-request-title = { $created }
+download-request-archive-single = Fichier ZIP unique contenant
 
 ## Landing
 
