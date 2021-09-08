@@ -855,6 +855,8 @@ profile-form-delete = Διαγραφή προφίλ
 
 ## Profile Download
 
+download-request-button = Λήψη
+download-request-title = { $created }
 download-request-refresh-button = Ανανέωση
 download-request-modal-title = Σύνδεσμοι λήψεων
 download-request-metadata-link = Κείμενο πρότασης
