@@ -34,14 +34,14 @@ export function createTaskQueues(takeout: Takeout): TaskQueues {
   const redisUrlParts = getConfig().REDIS_URL?.split("//");
   const redisDomain = redisUrlParts.length > 1 ? redisUrlParts[1] : redisUrlParts[0];
 
+  let redisOpts: any = { host: redisDomain }
+  if (getConfig().REDIS_URL.includes("rediss://")) {
+    redisOpts = {...redisOpts, tls: redisOpts }
+  }
+
   const createQueue = <T>(name: string, params?: QueueOptions) => {
     const bull = new Bull<T>(name, {
-      redis: {
-        host: redisDomain,
-        tls: {
-          host: redisDomain
-        }
-      },
+      redis: redisOpts,
       prefix: `bull-${name}-`,
       ...params,
     });
