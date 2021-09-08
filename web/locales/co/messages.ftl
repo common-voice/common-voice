@@ -723,3 +723,12 @@ demo-listen-subtitle = Seti pronti à cuntribuisce ?
 ## Validation criteria
 
 contribution-for-example = per esempiu
+contribution-misreadings-example-1-title = I dinusauri giganti di u Triassicu.
+contribution-misreadings-example-3-explanation = [Arrighjistramentu piantatu nanzu à a fine di l'ultima parolla]
+contribution-misreadings-example-4-title = I dinusauri giganti di u Triassicu. Iè.
+contribution-misreadings-example-4-explanation = [L'arrighjistramentu hè più longu chè u testu privistu]
+contribution-misreadings-example-5-title = Ci n'andemu fora per piglià un caffè.
+contribution-misreadings-example-8-explanation = [U cuntenutu ùn currisponde micca]
+contribution-varying-pronunciations-title = Prununcie variabile
+contribution-varying-pronunciations-example-2-title = A so manu era al-zata.
+contribution-background-noise-title = Rimore di fondu
