@@ -1,3 +1,4 @@
+"Ach, tue ich das?", fragte sie geheuchelt und lächelte wissend.
 "Alle Mann ausschwärmen!", befiehlt der Anführer.
 "Ameisenscheiße!", rief die Fotografin, um die Schüler zum Lachen zu bringen.
 "Beim Jupiter!", fluchte der Römer.
@@ -5,6 +6,7 @@
 "Bravo!", ruft Herr Wolf.
 "Da Capo al fine" weist den Musiker an, zu wiederholen.
 "Die Ärzte" aus Berlin!
+"Du Hochstapler!", keuchte er und zwang sich nicht weiter zu antworten.
 "Ein bischen Spass muss sein" performt von Roberto Blanco.
 "Es regnet den ganzen Tag!", stöhnte Norbert.
 "Faszinierend" sagte doch Mister Spock immer.
@@ -14,11 +16,14 @@
 "Ich verstehe nur Bahnhof", gesteht Rosalie.
 "Ich wünsche mir einen Roboter, der Unkraut rupft", stöhnt der Gärtner.
 "Ist das für mich?", fragte sie ungläubig.
+"Krapfen" war sein erstes Wort, das er richtig aussprechen konnte.
 "Krieg der Sterne" hat eine ganze Generation geprägt. Noch heute.
+"Kriege führen mögen andere, du, glückliches Österreich, heirate."
 "Leicht bekömmlich" ist meistens fettigem Essen vorzuziehen.
 "Lithiumabbau durch Kinderarbeit?", hakt Yasmin nach. Yvonne antwortet.
 "Semmeln" ist ein bayrisches Wort für Brötchen.
 "Sinnlos im Weltraum" war auch ganz witzig.
+"So ein Sauwetter!", schimpfte er und ging.
 "Synchronicity" von Sharon Dodua Otoo ist dem magischen Realismus zuzuordnen.
 "Tiefrot im Dispo" wird es richtig teuer.
 "Traumatisch" ist nicht die Steigerung von "schlimm", sondern eine andere Kategorie.
@@ -413,6 +418,7 @@ Aber, bitte, machen Sie sie nicht zu eng.
 Aber, im Gegenteil, es freut mich sehr, dass ich Sie getroffen habe.
 Abfahrt!
 Abfahrt.
+Abfahrtsgelder dürfen nur in Anwendung der Reziprozität erhoben werden.
 Abflug!
 Abgelaufene Medikamente sind nicht in der Toilette zu entsorgen.
 Abgemacht!
@@ -670,6 +676,7 @@ Alle Proben sind gesichert.
 Alle Schlagzeuger wurden von der Polizei festgenommen.
 Alle Spiegel und Wände sind beschlagen.
 Alle Sprachkurse sind ausgebucht.
+Alle Staatsbürger sind vor dem Gesetz gleich.
 Alle Statisten und unwichtige Nebencharaktere halten jetzt mal die Klappe!
 Alle Steckdosen waren belegt.
 Alle Säugetiere haben ungefähr die gleiche Körpertemperatur.
@@ -1120,6 +1127,7 @@ Am Aschermittwoch wird immer medienwirksam gegen die Kontrahenten gepoltert.
 Am Badesee war viel los.
 Am Bahnübergang funktioniert die Schranke nicht richtig.
 Am Besten den Systempartner anrufen und fragen wie es verschlüsselt ist.
+Am Bordstein liegt ein Fahrrad.
 Am Computer wird alles detailgetreu nachgebaut.
 Am Deal wird nichts geändert.
 Am Dienstag ist mein ganzer Tag voll mit Meetings.
@@ -1253,6 +1261,7 @@ Amanda Hollis glaubte, sich verhört zu haben.
 Amelie begibt sich mit einer Wünschelrute auf die Suche nach einer Wasserader.
 Amelie sucht Kopfhörer, die Kindergeschrei gut abschirmen.
 American Football ist eine Sportart aus Amerika.
+Amnestien wegen gerichtlich strafbarer Handlungen werden durch Bundesgesetz erteilt.
 An Christi Himmelfahrt ist Vatertag.
 An Dienstagen sind dafür um so mehr Meetings angesetzt.
 An Feierabend ist noch nicht zu denken.
@@ -1332,6 +1341,7 @@ An einer Wasserscheide grenzen die Einzugsgebiete zweier Flüsse aneinander.
 An einigen Stellen war der weiße Schnee gelb eingefärbt.
 An entspannten Tagen dreht der Folterknecht Däumchen.
 An ihnen ist nämlich gar nichts falsch.
+An ihrer Spitze steht der Landespolizeidirektor.
 An irgendwas scheint es ja zu scheitern.
 An irgendwas sollte ich dich noch erinnern.
 An jedem dritten Donnerstag im Monat trifft sich die Seniorengruppe im Vereinsheim.
@@ -1811,6 +1821,7 @@ Auf dem Weg dahin gibt es aber auch einen McDonalds.
 Auf dem Weg dorthin wurde er ständig von Passanten angerempelt.
 Auf dem Weg hält der Zug unter anderem in Itzehoe.
 Auf dem Weg liegen heruntergefallene Äste und ganze Baumteile.
+Auf dem Weg von Linz nach Graz überquert man den Pyhrnpass.
 Auf dem Weg zum Auto ist mir der Einkaufszettel aus der Tasche gefallen.
 Auf dem Weg zur Bücherei wurde Fridolin von einem Wolkenbruch überrascht.
 Auf dem höchsten Punkt der Strecke legten sie eine Pause ein.
@@ -2021,6 +2032,7 @@ Augen auf die Straße!
 August ist nicht nur ein Monat, sondern auch ein Vorname.
 Aus Angst vor dem Feuer versteckte sich der kleine Junge im Kleiderschrank.
 Aus Angst vor drohenden Kompatibilitätsproblemen installieren viele Anwender keine Updates.
+Aus Anlass des Papstbesuches in Österreich werden Scheidemünzen ausgegeben.
 Aus Benutzersicht betrifft es vor allem die Freiheiten des Nutzers.
 Aus Bequemlichkeit hat er das Paket lieber gleich beim Nachbarn im Erdgeschoss abgegeben.
 Aus Bequemlichkeit steigen die Leute dort in den Zug, wo sie den Bahnsteig betreten.
@@ -2293,6 +2305,7 @@ Befinden sich noch Menschen in dem Gebäude?
 Befriedung schaffen mit den Waffen?
 Begib dich zum Treffpunkt!
 Begib dich zur Party und sprich mit dem Botschafter.
+Beginn und Ende der überwachten Messstrecken sind anzukündigen.
 Beginnen Sie Ihren persönlichen Rachefeldzug noch heute!
 Beginnen Sie mit etwas Positivem.
 Beginnen wir mit einer einfachen Übung.
@@ -2414,6 +2427,7 @@ Bei der Bundesnetzagentur sind bestimmt schon viele Beschwerden über Flixbus ei
 Bei der Bundeswehr sieht es nicht besser aus.
 Bei der Bundeszentrale für politische Bildung kann sich jeder das Grundgesetz kostenlos bestellen.
 Bei der Coronafrisur werde ich ganz wuschig.
+Bei der Einsetzung ist der Grundsatz der Verhältniswahl einzuhalten.
 Bei der Formulierung schwingt schon einiges an Gesellschaftskritik mit.
 Bei der Füllung und den Beilagen kann man variieren.
 Bei der Heilsarmee wird Bianca ihre Sozialstunden ableisten.
@@ -2609,6 +2623,7 @@ Beim Klatschen gibt es kein Richtig und Falsch.
 Beim Kochen nervt am meisten das Schnibbeln von Gemüse im Vorfeld.
 Beim Kunden stürzt die Software immer ab.
 Beim Laufen bleibt die Kelle unten.
+Beim Lesen dieser Zeilen lerne ich teilweise Neues!
 Beim Lesen von Kochrezepten bekomme ich immer Hunger, du auch?
 Beim Memory hat Nathanael wie immer abgeräumt.
 Beim Mikado darf sich keines der anderen Stäbchen bewegen.
@@ -3168,6 +3183,7 @@ Brotkrümel in Champagnersoße will keiner essen.
 Bruchrechnung zählt nicht zur höheren Mathematik.
 Brummelt der sich immer einen in den nicht vorhandenen Bart?
 Brunhilde hat sich einen Finger eingeklemmt.
+Brunn am Gebirge ist eine Marktgemeinde im Bezirk Mödling in Niederösterreich.
 Bruno ging gestern erstmals zum Blutspenden.
 Brustschwimmen ist langsamer als Kraulen.
 Brutto entlehnt dem Lateinischen.
@@ -3182,6 +3198,9 @@ Bud Spencer und der Feuerwehrchor, bitte!
 Bug oder Feature?
 Buhnen sind meist senkrecht zur Küste in den Boden gerammte Holzpflockreihen.
 Bulgarien gilt als das Armenhaus Europas.
+Bund und Länder können untereinander Vereinbarungen über Angelegenheiten ihres jeweiligen Wirkungsbereiches schließen.
+Bund, Länder und Gemeinden bekennen sich zur tatsächlichen Gleichstellung von Mann und Frau.
+Bundeshauptstadt und Sitz der obersten Organe des Bundes ist Wien.
 Bundeskartellamt schränkt Facebook beim Datensammeln ein.
 Bundestagsabgeordnete werden von nur einer Diät satt.
 Burkhard beherrscht den Zahlenraum von eins bis zwanzig sicher.
@@ -4210,6 +4229,7 @@ Darüber habe ich sie nicht in Unkenntnis gelassen.
 Darüber herrscht Konsens.
 Darüber herrscht offenbar eine stille Übereinkunft.
 Darüber hinaus ist ihr Fauxpas nicht zu entschuldigen.
+Darüber hinaus sind keine Ausnahmegenehmigungen zu erteilen.
 Darüber ist Hieronymus schon lange hinweg.
 Darüber kann man streiten.
 Darüber lässt sich trefflich streiten.
@@ -4233,6 +4253,7 @@ Das Abrollgeräusch der Reifen ist sehr leise.
 Das Adrenalin hält einen wach.
 Das Alter der Täterin wird zwischen zwanzig und dreißig Jahre geschätzt.
 Das Altpapier kommt durch den Briefkasten herein und mit der blauen Tonne wieder heraus.
+Das Amt des Bundespräsidenten dauert sechs Jahre.
 Das Amt kann sich vor Anfragen kaum retten.
 Das Antiteilchen des Elektrons wird gelegentlich auch als Positron bezeichnet.
 Das Arbeitsverhältnis wurde im gegenseitigen Einvernehmen beendet.
@@ -4261,6 +4282,7 @@ Das Barometer zeigt beständiges Wetter an.
 Das Bauernhaus wird auch Kotten genannt.
 Das Bauwerk nimmt langsam Gestalt an.
 Das Bekannteste Moped aus der D-D-R ist die Simson S einundfünfzig.
+Das Benediktinerstift Admont ist bekannt für die größte Klosterbibliothek der Welt.
 Das Berufsleben eines Juweliers ist nicht ungefährlich.
 Das Besondere an diesem Impfstoff ist, dass er nur mit einer Dosis auskommt.
 Das Beste an den Pools ist, dass man die Leiter verkaufen kann.
@@ -4282,6 +4304,8 @@ Das Buch beleuchtet queere Familienstrukturen auf eine Weise, die selten ist.
 Das Buch leistet exzellente Dienste als Briefbeschwerer und Staubfänger.
 Das Buch wird sicher ein Bestseller.
 Das Budget beträgt einhundert Euro, such dir etwas innerhalb dieses Rahmens aus.
+Das Bundesgebiet bildet ein einheitliches Währungs-, Wirtschafts- und Zollgebiet.
+Das Bundesgebiet umfasst die Gebiete der Bundesländer.
 Das Bundeskartellamt schränkt die Sammlung und Verarbeitung von Nutzerdaten durch Facebook stark ein.
 Das Bundeskriminalamt hat viele Computerspezialisten für digitale Forensik.
 Das Bügeleisen ist blau.
@@ -4302,6 +4326,7 @@ Das Drehleiterfahrzeug ist geerdet.
 Das Dritte habe ich vergessen.
 Das Dromedar setzt zur Gegenwehr an.
 Das Eichhörnchen kletterte den Baum hoch.
+Das Eigentum ist unverletzlich.
 Das Einhorn war wunderschön.
 Das Einnehmen von Holunder hat die Symptome verschlimmbessert.
 Das Einzige, was der Stadt fehlt, ist ein Gefängnis.
@@ -4315,7 +4340,11 @@ Das Entscheidende am Wissen ist, dass man es beherzigt und anwendet.
 Das Entscheidende an Tortellini ist die Füllung.
 Das Epizentrum befindet sich an der Westküste Indonesiens.
 Das Erdhörnchen inspiziert den Schraubenzieher.
+Das Erfordernis des Adels als Bedingung für den Genuß von Stiftungen entfällt.
+Das Ergebnis der Volksabstimmung ist amtlich zu verlautbaren.
+Das Ergebnis der Wahl des Bundespräsidenten ist vom Bundeskanzler amtlich kundzumachen.
 Das Ergebnis ist konterintuitiv.
+Das Ergebnis seiner Überprüfung gibt der Rechnungshof der betreffenden Landesregierung bekannt.
 Das Essen gammelt nun schon seit drei Wochen im Kühlschrank.
 Das Essen hier ist wirklich ausgewogen.
 Das Essen riecht aber gut, was gibt es denn?
@@ -4331,10 +4360,12 @@ Das Fahrzeug muss vollständig zerlegt werden.
 Das Feedback von Sarah ist immer hart und ehrlich.
 Das Fell von deinem Hund ist so puffig und flaschig.
 Das Ferkel hat ja noch nichts auf den Rippen.
+Das Fernmeldegeheimnis darf nicht verletzt werden.
 Das Fest findet am Hauptplatz statt.
 Das Fieber ist hingegen wieder vorüber.
 Das Flacon hat einen goldenen Verschluss.
 Das Frauenwahlrecht sollte nicht mit der Damenwahl verwechselt werden.
+Das Freihaus ist eine Gebäude der Technischen Universität Wien und war früher ein Wohnhauskomplex.
 Das Frühstück ist die wichtigste Mahlzeit des Tages.
 Das Fußballspiel wird nicht im Fernsehen übertragen.
 Das Ganze funktioniert wie eine Murmelbahn.
@@ -4379,6 +4410,7 @@ Das Gewicht muss nach vorn verlagert werden.
 Das Gewinde passt nicht, weil es eine andere Steigung aufweist.
 Das Gewitter ist vorüber.
 Das Gleiche gilt für Einkommensnachweise.
+Das Gleiche gilt, wenn die Stelle des Bundespräsidenten dauernd erledigt ist.
 Das Gluckern entsteht nur, wenn Luft im System ist.
 Das Gremium tagt bereits morgen.
 Das Groupie ist ein weiblicher Fan, der seine Aufmerksamkeit einem Idol oder Star widmet.
@@ -4391,6 +4423,7 @@ Das Handy wird von einem schlanken Lithium-Ionen-Akku angetrieben.
 Das Hauptproblem von digitaler Bildung an Schulen ist nicht der Mangel an Technik.
 Das Haus ist umstellt.
 Das Haus wird noch gebaut.
+Das Hausrecht ist unverletzlich.
 Das Hermannsdenkmal bei Detmold, im Teuteburger Wald gelegen, erinnert an die Varusschlacht.
 Das Hinterfragen der eigenen Überzeugungen sollte ebenfalls ein Ziel sein.
 Das Holz wurde vor längerer Zeit geschlagen und liegt nun am Wegrand aufgestapelt.
@@ -4455,6 +4488,7 @@ Das Leben ist voller Überraschungen.
 Das Leben ohne Mensa ist hart, aber wir müssen irgendwie überleben.
 Das Leben schreibt die besten Geschichten.
 Das Leben wäre nur halb so schön ohne Träume.
+Das Lederhosentreffen ist ein international bekanntes Volksfest, das regelmäßig in Windischgarsten stattfindet.
 Das Licht der aufgehenden Sonne scheint durch die Blätter der Palmen.
 Das Licht ist ausgeschaltet.
 Das Licht kann gedimmt werden.
@@ -4511,6 +4545,7 @@ Das Paket wurde bereits an die Spedition übergeben.
 Das Personal in den Impfzentren ist so super nett.
 Das Personal scheint nicht psychologisch geschult zu sein.
 Das Personal war sehr freundlich, herrausragend!
+Das Petitionsrecht steht Jedermann zu.
 Das Pferd läuft auf die Turf.
 Das Phantom der Oper sitzt im Boot.
 Das Phänomen ist unter dem Begriff „Long Covid“ bekannt.
@@ -4627,6 +4662,7 @@ Das Unglück ist auf Grenada passiert, er wurde von einem Schnellboot erwischt.
 Das Unkraut wächst schneller, als man es ausrupfen kann.
 Das Unterfangen hängt am seidenen Faden.
 Das Unwetter hat große Schäden hinterlassen.
+Das Urheberrecht ist vererblich.
 Das Vakzin wird in den Staaten auch von Pfizer produziert.
 Das Vaterland verleiht die allerbesten Gaben.
 Das Ventil ist ein Punkt, den man sich gut merken kann.
@@ -4645,6 +4681,7 @@ Das Viren und Bakterien Mutterschiff wurde lokalisiert.
 Das Volk blickt auf zum Firmament.
 Das Volk der Elfen versammelte sich unter einem gigantischen Gewölbe.
 Das Volk der Juristen wird besonders gut von Volksvertretern vertreten.
+Das Volk hat an der Rechtsprechung mitzuwirken.
 Das Volk will den Krieg nicht.
 Das Vordach ist seit letztem Winter undicht.
 Das Vorlesen der Termine scheint der Pressesprecherin heute große Schwierigkeiten zu bereiten.
@@ -5439,6 +5476,7 @@ Das tut schon beim Zugucken weh.
 Das unscheinbare Programm kommt mit einem Rattenschwanz an Abhängigkeiten daher.
 Das unübersichtliche Menü ist mit zahlreichen sinnlosen Schaltern überfrachtet.
 Das vegane Schokoeis schmeckt überraschend gut.
+Das verfassungsmäßige Zustandekommen der Bundesgesetze wird durch den Bundespräsidenten beurkundet.
 Das verhindert, dass sich die Pedale beim Treten von alleine löst.
 Das verleiht uns einen Vorsprung von vielleicht zwei, drei Stunden.
 Das verstehst du noch nicht.
@@ -5810,6 +5848,7 @@ Dem Alkohol fröhnen macht dumm und gleichgültig.
 Dem Baby verabreicht man Fiebermittel als Zäpfchen.
 Dem Bergfried einer Burg werden wichtige Funktionen bei der Verteidigung zugeschrieben.
 Dem Bericht zufolge war Frau Eckstein stark unterzuckert.
+Dem Bundesheer obliegt die militärische Landesverteidigung.
 Dem Burschen gehört gehörig der Kopf gewaschen!
 Dem Chauffeur kommt eine Schlüsselrolle zu.
 Dem Deutschen sind seine Autos so heilig wie dem Amerikaner seine Schusswaffen.
@@ -5828,6 +5867,7 @@ Dem Mädchen ist sein Eis heruntergefallen.
 Dem Nachwuchstalent fehlt es nicht an Kaltschnäuzigkeit.
 Dem Patienten sind die alltäglichen Abläufe in den Praxen nicht geläufig.
 Dem Plattendreher erklärte Jonny seine Wunschmusik.
+Dem Roten Kreuz wurde eine Zeughütte im rückwärtigen Teil des Schulgebäudes zur Benutzung übergeben.
 Dem Stück ist einiges an Dynamik verloren gegangen.
 Dem aufmerksamen Leser dürfte das bereits aufgefallen sein.
 Dem beherzten Eingreifen des Augenzeugen ist es zu verdanken, dass nichts passiert ist.
@@ -5908,6 +5948,7 @@ Den Möhrensalat ließ Gebhard stehen ohne ihn einmal probiert zu haben.
 Den Nachbarn zufolge hat der Amokläufer stets freundlich gegrüßt.
 Den Namen habe ich schon einmal gehört.
 Den Namen haben Sie vor drei Wochen öffentlich getwittert.
+Den Oberbefehl über das Bundesheer führt der Bundespräsident.
 Den Ofen hast du im Blick?
 Den Perso hast du dir doch von deiner Schwester geliehen!
 Den Plan über den Haufen werfen kann man immer noch.
@@ -6062,6 +6103,7 @@ Der Abrisskalender geht fast einen Monat nach.
 Der Absprung kostet Überwindung, aber der Nervenkitzel ist es wert.
 Der Abwasch in unserer neuen Wohnung ist winzig.
 Der Adler ist im Nest gelandet.
+Der Adler trägt auf seinem Haupt eine goldene Mauerkrone mit drei sichtbaren Zinnen.
 Der Affront bringt die Ministerpräsidentin unter Zugzwang.
 Der Agent zog sich zurück, um nicht aufzufallen.
 Der Airbag habe nicht funktioniert.
@@ -6096,6 +6138,7 @@ Der Arzt setzte seine Brille auf die Nasenspitze und sah Hildegard unheimlich an
 Der Aufbau eines Iglus ist einfach, aber durchdacht.
 Der Aufbau und das alles ist mir noch vollkommen unklar.
 Der Aufkleber klebte einfach zu fest.
+Der Aufstieg der Habsburger wird auch durch erfolgreiche Heiratspolitik erklärt.
 Der Ausdruck "nach bestem Wissen und Gewissen" wird oft falsch verwendet
 Der Ausdruck "nach bestem Wissen und Gewissen" wird oft falsch verwendet.
 Der Ausgang des Experiments ist ungewiss.
@@ -6167,6 +6210,9 @@ Der Boss der Firma steht nun vor Gericht.
 Der Brechungsindex ist eine dimensionslose Größe.
 Der Briefträger kommt bei uns erst immer nachmittags.
 Der Buchbinder war bloß ein Zufallsopfer.
+Der Bundesminister für Inneres bestellt den Landespolizeidirektor im Einvernehmen mit dem Landeshauptmann.
+Der Bundespräsident ordnet die Volksabstimmung an.
+Der Bundesstaat wird gebildet aus: Burgenland, Kärnten, Niederösterreich, Oberösterreich, Salzburg, Steiermark, Tirol, Vorarlberg, Wien.
 Der Bundestag aber auch nicht.
 Der Bundestag darf kein rechtsfreier Raum sein!
 Der Bundestag wurde Opfer eines Hackerangriffs.
@@ -6443,6 +6489,7 @@ Der Kügere kippt nach.
 Der Kühlschrank befindet sich im Zimmer nebenan.
 Der Lack ist auf Hochglanz poliert.
 Der Laden schloss abends um zwanzig Uhr.
+Der Landespolizeidirektor der Landespolizeidirektion Wien trägt die Funktionsbezeichnung „Landespolizeipräsident“.
 Der Landtag hat seinen Sitz im Schloß in Schwerin.
 Der Laserpointer ist viel zu stark!
 Der Legende nach haust im See ein Ungeheuer!
@@ -6518,6 +6565,10 @@ Der Nachtfalter.
 Der Nachwuchs kommt blind auf die Welt.
 Der Name des ersten deutschen Astronauten ist meist nur Ostdeutschen ein Begriff.
 Der Name ist Programm.
+Der Nationalpark Kalkalpen ist ein österreichischer Nationalpark.
+Der Nationalrat wirkt in Angelegenheiten des Europäischen Stabilitätsmechanismus mit.
+Der Nationalrat wählt aus seiner Mitte den Präsidenten, den zweiten und dritten Präsidenten.
+Der Nationalrat wählt aus seiner Mitte nach dem Grundsatz der Verhältniswahl den Hauptausschuss.
 Der Naturschutzbund ruft zu einer bundesweiten Vogelzählaktion auf.
 Der Nebel war so dicht, dass Freddy nicht einmal seine eigene Hand sehen konnte.
 Der Nebel wird sich bald erheben zerstreuen.
@@ -6580,6 +6631,9 @@ Der Rat der Ältesten berät über den Unrat der Zweitältesten.
 Der Ratgeber heißt: Jerusalem von A bis Z.
 Der Rauch aus dem Innenhof zog durch das Schlafzimmerfenster in die ganze Wohnung.
 Der Raum dazwischen hingegen wird immer dünner besiedelt.
+Der Rechnungshof besteht aus einem Präsidenten und den erforderlichen Beamten und Hilfskräften.
+Der Rechnungshof ist befugt, die Gebarung der Träger der Sozialversicherung zu überprüfen.
+Der Rechnungshof untersteht unmittelbar dem Nationalrat.
 Der Rechtsextremist ermordete Lübcke mit einem Kopfschuss aus geringer Entfernung.
 Der Regional-Express fährt eine andere Strecke.
 Der Reihe nach rollen die Motorräder über die Verladerampe.
@@ -6651,6 +6705,7 @@ Der Server-Markt wird von Linux-Betriebssystemen dominiert.
 Der Sicherheitsdienst führt den Leger einer Stinkbombe ab.
 Der Sieg hat mal wieder gutgetan.
 Der Sinn von fettarmer Margarine erschließt sich mir nicht.
+Der Sitz des Nationalrates ist die Bundeshauptstadt Wien.
 Der Skandal ist genau dann vorbei, wenn der Kanzleramtsminister ihn für beendet erklärt.
 Der Softwarehersteller hatte die kostenlose Version so verstümmelt, dass sie nutzlos wurde.
 Der Sommer hätte so schön werden können.
@@ -6751,6 +6806,7 @@ Der Umstieg auf das neue System lief nicht reibungsfrei
 Der Unparteiische lässt weiterlaufen.
 Der Unterschied ist selbst für einen Muttersprachler schwer zu erkennen.
 Der Unterschied zwischen Nachrichten vorsingen und Nachrichten vorlesen ist schon bekannt?
+Der Urheber bestimmt, ob und mit welcher Urheberbezeichnung das Werk zu versehen ist.
 Der Ursprung des Viruses soll ein Fischmarkt in der Stadt Wuhan sein.
 Der Vater furzt, die Kinder lachen, so kann man billig Feuer machen.
 Der Vater hat keine Lust auf stundenlanges Gezeter.
@@ -6763,6 +6819,7 @@ Der Veranstalter des Konzerts sieht dies naturgemäß etwas anders.
 Der Verband der Dachszüchter hat bereits Proteste angekündigt.
 Der Verband lebensfreudiger Kinder fordert ein Recht auf Einkaufswagenrennen in Supermärkten.
 Der Verfasser des Manuskripts ist wahrhaftig ein Genie.
+Der Verfassungsgerichtshof erkennt über Verletzungen des Völkerrechtes nach den Bestimmungen eines besonderen Bundesgesetzes.
 Der Vergleich ist nicht so weit hergeholt, wie es zunächst scheint.
 Der Vergleich mit Darth Vader ist etwas an den Haaren herbeigezogen.
 Der Verkauf von Bio-Produkten ist einfach lukrativer.
@@ -6796,6 +6853,7 @@ Der W-Lan-Router, das Modem oder der Telefonserver?
 Der Wagen rollt unaufhaltsam aufs Gebüsch zu.
 Der Wagen wird nicht lange halten.
 Der Wahlomat empfiehlt mir Parteien, von denen ich noch nie gehört habe.
+Der Wahltag muss ein Sonntag oder ein gesetzlicher Feiertag sein.
 Der Wald ist ja fast so finster, wie bei Hänsel und Gretel.
 Der Wald steht schwarz und schweiget.
 Der Waldbrand wütet bereits seit Wochen.
@@ -7014,6 +7072,7 @@ Der rote Planet ist nach dem griechischen Kriegsgott benannt.
 Der rote Sportwagen war zu schnell unterwegs.
 Der runde Tisch war eckig.
 Der räudige Köter pariert nicht.
+Der römische Namen für Windischgarsten lautete "Gabromagus", das bedeutet "Bocksfeld".
 Der sagenumwobene Pferdeflüsterer ist zurückgekehrt!
 Der sah haargenau so aus wie du!
 Der schaut doch nur.
@@ -7283,6 +7342,7 @@ Die Auswahl an Kochkursen überschreitet die Zumutbarkeit.
 Die Auswahl an Säften war sehr groß.
 Die Auswertung der Beweismittel wird voraussichtlich mehrere Monate andauern.
 Die Auswirkungen auf das Klima werden wir alle noch zu spüren bekommen.
+Die Ausübung dieser Rechte wird durch besondere Gesetze geregelt.
 Die Autobahn musst du da verlassen, wo der Name deiner Zielstadt dran steht.
 Die Autos der Müllabfuhr sind orange.
 Die Autos hielten an und ließen sie vorbei.
@@ -7314,10 +7374,12 @@ Die Bedeutung von Bass- und Violinschlüssel wird beim Betrachten der Grafik sof
 Die Bedienung der App ist selbsterklärend.
 Die Bedingungen haben sich geändert.
 Die Beeren sind das einzige an einer Berberitze, was nicht giftig ist.
+Die Befehlsgewalt über das Bundesheer übt der zuständige Bundesminister aus.
 Die Begründungen der Falschfahrer werden auch immer interessanter.
 Die Behandlung war kostenlos, aber bestimmt nicht umsonst.
 Die Behörde will verstärkt gegen illegale Beschäftigungen vorgehen.
 Die Behörden der Zollverwaltung sind zur Mitwirkung an Prüfungen der Landesfinanzbehörden berechtigt.
+Die Beifügung einer religiösen Beteuerung ist zulässig.
 Die Beiträge werden aber immer besser.
 Die Belastung durch Nitrate erfordert aufwendigere Filteranlagen.
 Die Belastung durch den Transitverkehr ist eine Zumutung.
@@ -7327,6 +7389,8 @@ Die Benennung der Geschlechter bei den Anzeigen könnte man sich sparen.
 Die Benutzerfreundlichkeit ist ausgezeichnet.
 Die Benutzeroberfläche war selbst für unerfahrene Benutzer gut zu verstehen.
 Die Benutzung des Sprungturms erfolgt grundsätzlich auf eigene Gefahr.
+Die Berichte des Rechnungshofes sind nach Vorlage an den Nationalrat zu veröffentlichen.
+Die Beschlüsse der Bundesversammlung über eine Kriegserklärung sind vom Bundeskanzler amtlich kundzumachen.
 Die Beschreibung liest sich wie eine Werbebroschüre.
 Die Beschreibung sollte schon akkurat sein.
 Die Beschriftung passt nicht zur Grafik.
@@ -7336,6 +7400,7 @@ Die Betriebswirtschaftslehrenpartys waren schon immer die "besten".
 Die Bettdecke ist zu warm.
 Die Bettdecke ist zu warm. Die kann man auf einer Skihütte nutzen.
 Die Bettwäsche wasche ich alle zwei Wochen.
+Die Beurkundung ist vom Bundeskanzler gegenzuzeichnen.
 Die Bevölkerung nimmt zu.
 Die Bevölkerungspyramide ist schon lange keine Pyramide mehr.
 Die Bibliothek von Harvard war ein paar Nummern zu groß für sie.
@@ -7460,6 +7525,7 @@ Die Erfindung der Schutzimpfung ist der vielleicht bedeutendste Fortschritt der 
 Die Erkenntnis, dass Kipplüften ineffizient ist, hat sich im Büro noch nicht durchgesetzt.
 Die Erlösung naht.
 Die Ermittlungen in dieser Angelegenheit sind Sache der Polizei.
+Die Errichtung eines Gemeindewachkörpers oder eine Änderung seiner Organisation ist der Bundesregierung anzuzeigen.
 Die Erste links, die Zweite rechts und dann einfach durch die Mitte.
 Die Ersthelferin bringt den Verunglückten in die stabile Seitenlage.
 Die Erträge der Auktion waren dieses Jahr überschaubar.
@@ -7485,6 +7551,7 @@ Die Familie kam wegen des Bombenkriegs nach Süddeutschland.
 Die Fans der Fußballmannschaft jubelten.
 Die Fans wollen das so.
 Die Farbe der Blätter ist eine Mischung aus grün und gelb.
+Die Farben der Republik Österreich sind rot-weiß-rot.
 Die Farne, die hier wachsen, sind doch eigentlich ganz ansehnlich.
 Die Feinstaubbelastung ist zu Silvester am höchsten.
 Die Felder, die bestellen wir, denn ohne Gerste gäb's kein Bier.
@@ -7499,6 +7566,7 @@ Die Firma Bartels gehört schon eher zum Mittelstand.
 Die Firma hat die Frist verstreichen lassen.
 Die Firma meldete sofort ein Patent an.
 Die Fitness einer Person hängt vom Training und auch von ihrer Veranlagung ab.
+Die Flagge besteht aus drei gleichbreiten waagrechten Streifen.
 Die Flasche Sprudel hier ist fast leer.
 Die Fliegerstaffel der Bundespolizei hat Feierabend.
 Die Flora und Fauna auf dem Vulkan ist einzigartig.
@@ -7518,7 +7586,9 @@ Die Frau hat im Bett geraucht und ist dann eingeschlafen.
 Die Frau macht mich ganz perplex.
 Die Frau zog eine Duftwolke von Parfüm hinter sich her.
 Die Frauen ähnelten sich sehr in ihren Vorurteilen.
+Die Freiheit der Auswanderung ist von Staatswegen nur durch die Wehrpflicht beschränkt.
 Die Freiheitskämpfer im Internet haben leider nicht die Mittel wie die kommerziellen Giganten.
+Die Freizügigkeit der Person und des Vermögens innerhalb des Staatsgebietes unterliegt keiner Beschränkung.
 Die Freude ist auf meiner Seite!
 Die Frisur hält.
 Die FritzBox ist gleichzeitig Modem und Router.
@@ -7529,6 +7599,7 @@ Die Funktion ist wahrscheinlich ein Einzeiler, maximal aber ein Dreizeiler.
 Die Fußballfans haben alle Wohnstraßen in der Umgebung zugeparkt.
 Die Fächerkombination, die ich eigentlich wählen wollte, gab es nicht mehr.
 Die Fähre startet von Dagebüll und fährt über Föhr nach Amrum.
+Die Führung dieser Adelsbezeichnungen, Titel und Würden ist untersagt.
 Die Fünf gegen Willi.
 Die Fünf ist mitnichten genau die Mitte auf einer Skala von eins bis zehn.
 Die Fütterung wollen wir nicht verpassen.
@@ -7551,6 +7622,8 @@ Die Gegend kenne ich wie meine eigene Hosentasche.
 Die Gegend war schon immer sehr ruhig.
 Die Geheimnummer muss erst freigerubbelt werden.
 Die Gemeinde hat ihn gesperrt. Er wäre nicht verkehrssicher.
+Die Gemeinde ist Gebietskörperschaft mit dem Recht auf Selbstverwaltung und zugleich Verwaltungssprengel.
+Die Gemeinde ist selbständiger Wirtschaftskörper.
 Die Gemeinde schiebt den schwarzen Peter zur Kreisverwaltung und die schiebt ihn wieder zurück.
 Die Generalzolldirektion wird von einer Frau geleitet.
 Die Generatoren erzeugen ja keinen Gleichstrom.
@@ -7568,6 +7641,7 @@ Die Geschwister schaukeln gemeinsam in der Doppelschaukel.
 Die Gesellschaft lässt uns Obdachlose im Stich.
 Die Gesellschaft schuldet dir rein gar nichts!
 Die Gesetze der Physik sind nicht verhandelbar.
+Die Gesetzgebung des Bundes übt der Nationalrat gemeinsam mit dem Bundesrat aus.
 Die Gesundheitsämter sind komplett überfordert.
 Die Gewerkschaft wird dir nicht helfen können.
 Die Gewitterziege hat gesprochen.
@@ -7601,6 +7675,7 @@ Die Handwerker tragen Berufskleidung in Leuchtfarben.
 Die Hauptstadt der Bundesrepublik Deutschland ist Berlin.
 Die Hauptstadt des Gebietes Xinjiang heißt Ürümqi.
 Die Hauptverantwortlichen kommen nicht nur ungeschoren davon, sondern kassieren auch noch eine Abfindung.
+Die Hausdurchsuchungen zum Behufe der polizeilichen Aufsicht sind nach den Vorschriften der Strafprozessordnung vorzunehmen.
 Die Hausfrau hängt Wäsche auf.
 Die Hausnummer muss beleuchtet sein.
 Die Haustür habe ich verkauft.
@@ -7612,6 +7687,7 @@ Die Herkunft einiger Rohstoffe ist zumindest zweifelhaft.
 Die Herleitung bleibe ich Ihnen schuldig.
 Die Hersteller von Shampoo sind also gar nicht so innovativ, wie sie glauben.
 Die Hexen fliegen auf einem Besen durch's blaue Fenster.
+Die Hilfskräfte ernennt der Präsident des Rechnungshofes.
 Die Hinweise verdichten sich.
 Die Hinweise zum Datenschutz entnehmen Sie bitte dem Blatt hier.
 Die Hipster haben uns die Schallplatte zurück gebracht.
@@ -7672,6 +7748,7 @@ Die Jungs und ich gehen einen trinken.
 Die Jungs werden sowieso vor uns unten angekommen sein.
 Die Jury ist mit hochkarätigen Experten besetzt.
 Die Jury überrascht mit einem vernichtenden Urteil.
+Die Justiz ist von der Verwaltung in allen Instanzen getrennt.
 Die Kamera zoomt auf das Gesicht des Redners.
 Die Kanzlei wird von den beiden Anwältinnen geführt.
 Die Kanzlerkandidatin der Grünen ist Annalena Baerbock.
@@ -7846,11 +7923,16 @@ Die Metro ist sehr nahe.
 Die Mietwagenfirma wollte den Personalausweis kopieren.
 Die Mikrowelle ist neu.
 Die Milchstraße hat eine Spiralform.
+Die Militärgerichtsbarkeit ist - außer für Kriegszeiten - aufgehoben.
 Die Mirabelle ist der zweite Baum in unserem Garten.
 Die Mitarbeitenden werden um ihre Ferien gebracht.
 Die Mitarbeiter des Sachgebiets F nehmen die Ahndung der festgestellten Verstöße vor.
 Die Mitarbeiter können ja gar nichts dafür, wenn sie solche E-Mails erhalten.
 Die Mitarbeiter wollten einen Betriebsrat gründen.
+Die Mitglieder der Bundesregierung werden vor Antritt ihres Amtes vom Bundespräsidenten angelobt.
+Die Mitglieder der Landesregierung müssen nicht dem Landtag angehören, aber zum Landtag wählbar sein.
+Die Mitglieder des Landtages genießen die gleiche Immunität wie die Mitglieder des Nationalrates.
+Die Mitglieder universitärer Kollegialorgane sind weisungsfrei.
 Die Mittel müssen zweckgebunden eingesetzt werden.
 Die Mobilität verursacht viele der angesprochenen Probleme mit.
 Die Moderatoren geben Beiträge frei oder sperren sie.
@@ -7873,6 +7955,7 @@ Die Mücke ist andauernd auf meinem Teller gelandet.
 Die Mühlen der Verwaltung mahlen langsam.
 Die Müllentsorgung klappt in Deutschland recht reibungslos.
 Die Müllmänner sagen ein lustiges Lied.
+Die Münzen sind aus einer Legierung von Silber und Kupfer herzustellen.
 Die Müritz ist der größte Binnensee in Mecklenburg-Vorpommern.
 Die Mütze wurde später in der Nähe des Hauses gefunden.
 Die Nachbarin aus dem Haus gegenüber ist gerade mit nackten Brüsten am Küchenfenster vorbeigelaufen.
@@ -7910,6 +7993,8 @@ Die Offiziere der N-V-A waren zumeist Parteimitglieder.
 Die Offiziere der Nationalen Volksarmee waren zumeist Parteimitglieder.
 Die Operation ist sinnlos, schmerzhaft und unumkehrbar.
 Die Orbitale kann man ausrechnen.
+Die Organisation und das Verfahren des Verwaltungsgerichtshofes werden durch ein besonderes Bundesgesetz geregelt.
+Die Organisation und die Zuständigkeit der ordentlichen Gerichte werden durch Bundesgesetz geregelt.
 Die Ortsbezeichnung Niendorf kommt in Norddeutschland sehr oft vor.
 Die Ostsee übrigens auch, allerdings nicht auf deutschem Gebiet.
 Die Pandemie ist noch nicht vorbei.
@@ -8006,10 +8091,12 @@ Die Renovierung der Wohnung wurde sehr schlampig durchgeführt.
 Die Reparatur schlägt mit über tausend Euro zu Buche.
 Die Reporter klatschen Beifall und wollen mehr wissen.
 Die Reporterin hatte ihn nicht erkannt und war an ihm vorbeigelaufen.
+Die Republik anerkennt die Rolle der Sozialpartner.
 Die Resonanz darauf war überwiegend positiv.
 Die Restmülltonne ist die einzig richtige Tonne für kompostierbaren Kunststoff.
 Die Resultate sind nicht schlecht, aber der Erntefaktor muss noch erhöht werden.
 Die Retourkutsche ließ nicht lange auf sich warten.
+Die Richter sind in Ausübung ihres richterlichen Amtes unabhängig.
 Die Rivalitäten zwischen den Stämmen verhindern eine nachhaltige Versorgung.
 Die Robotik wird viele Berufsbilder verändern.
 Die Rollläden werden von Schrittmotoren angetrieben.
@@ -8048,6 +8135,7 @@ Die Schuhe sind von Adidas oder von Nike.
 Die Schule hatte sich auf Naturwissenschaften spezialisiert.
 Die Schule ist für die Kinder in gut erreichbarer Nähe.
 Die Schulen wurden geschlossen.
+Die Schulpflicht beträgt zumindest neun Jahre und es besteht auch Berufsschulpflicht.
 Die Schuppen gehören zum Fisch dazu.
 Die Schutzhülle wird im Juni umfassend erneuert.
 Die Schweiz besitzt de jure keine Hauptstadt.
@@ -8068,6 +8156,7 @@ Die Siedetemperatur ist extrem druckabhängig.
 Die Signale müssen bei der Übertragung durchs Kabel hohe Distanzen zurücklegen.
 Die Sitze sind mit Leder umrahmt.
 Die Sitzungen bei der Vorsitzenden waren zu später Stunde meist feuchtfröhlich.
+Die Sitzungen des Nationalrates sind öffentlich.
 Die Socken habe ich selbst gestrickt.
 Die Socken waren total durchgeschwitzt.
 Die Software muss aktualisiert werden um weiterhin zuverlässig zu funktionieren.
@@ -8096,11 +8185,13 @@ Die Spielbar sei aus diesem Grunde als Russenpuff in aller Munde.
 Die Sprache der neuen Nachrichtensprecherin wirkt zuweilen steril.
 Die Spracheingabe hat mich die ganze Zeit nicht verstanden.
 Die Spree durchfließt Berlin.
+Die Sprengel der Bezirksgerichte sind durch Verordnung der Bundesregierung festzulegen.
 Die Spur des Geldes lässt sich meistens zurückverfolgen.
 Die Spätfolgen sind bekannt.
 Die Staatsanwaltschaft bereitet die Anklage sehr gewissenhaft vor.
 Die Staatssicherheit in der D-D-R war ein Teil des Apparats zur Repression.
 Die Stacheln schützen vor Fressfeinden.
+Die Stadt Innsbruck liegt direkt am Karwendel – ein Traum für Bergfreunde!
 Die Stadt Shenzhen wird auch als „Fabrik der Welt“ bezeichnet.
 Die Stadt Westerstede liegt im Ammerland.
 Die Stadt möchte offenbar den Sauftourismus fördern, anders ist die Entscheidung nicht zu erklären.
@@ -8114,6 +8205,7 @@ Die Stellungnahme des Sportverbands treibt ihn zur Weißglut.
 Die Sterne scheinen zum Greifen nah und sind doch so fern.
 Die Sterne schießen Neutrinos auf uns und wir merken es nicht.
 Die Steuererklärung ist immer ein wenig schwierg bei so vielen Geschäftsreisen.
+Die Stiftsbibliothek zu Admont wurde in der Vergangenheit als „Achtes Weltwunder“ bezeichnet.
 Die Stimme des Psychiaters ist leider nicht mehr ganz dieselbe wie früher.
 Die Stimme hört sich an wie die von unserem ehemaligen Datenschutzbeauftragten.
 Die Strafe war nur auf Bewährung.
@@ -8150,6 +8242,7 @@ Die Tasse verfärbt sich, wenn man sie mit einer heißen Flüssigkeit füllt.
 Die Tasten F und J haben eine kleine Kerbe.
 Die Taten werden weiterhin verharmlost.
 Die Taxifahrer demonstrierten gegen Uber.
+Die Technische Universität Wien ist Österreichs größte naturwissenschaftlich-technische Forschungs- und Bildungseinrichtung.
 Die Teilnahme sollte freiwillig sein.
 Die Teilnehmer der Demonstration achteten darauf, den Rasen nicht zu betreten.
 Die Telefonanlage streikte, daher war das Unternehmen für seine Kunden nicht erreichbar.
@@ -8165,6 +8258,7 @@ Die These der Überbehütung ist eine bizarre Unterstellung.
 Die Tiere müssen aus dem Zoo evakuiert werden.
 Die Tiere schleppen auch Krankheiten ein.
 Die Titelverteidigerin war auch zugegen.
+Die Todesstrafe ist abgeschafft.
 Die Todesursache habe ich vergessen.
 Die Toiletten waren sauber, aber die Seife war leider alle.
 Die Touristen sind weg, ihre Hinterlassenschaften sind hier geblieben.
@@ -8195,12 +8289,15 @@ Die Uhr ist voller Sand.
 Die Umsteigezeit ist mit drei Minuten sehr knapp kalkuliert.
 Die Unglückszahl dreizehn hat man bei der Nummerierung einfach ausgelassen.
 Die Union sollte ihre Prämisse überdenken.
+Die Universität Wien trägt den Namen "Alma Mater Rudolphina Vindobonensis".
 Die Unterkunft in der Baracke ist sicher nicht das Gelbe vom Ei.
 Die Unterspülung ist bedauerlich, ließ sich aber nicht verhindern.
 Die Untertasse backt an der Tasse fest.
 Die Untertitel werden durch eine Einblendung verdeckt.
+Die Urkunden über die Ratifikation, Annahme oder Genehmigung wird beim Generalsekretariat hinterlegt.
 Die Urlaubssperre gilt das gesamte Jahr, nur im November nicht.
 Die Ursache für den Ausfall haben wir bestimmt der Software zu verdanken.
+Die Urteile und Erkenntnisse werden im Namen der Republik verkündet und ausgefertigt.
 Die Vakzine konnten sehr zeitnah verimpft werden.
 Die Venus hat einen viel stärkeren Treibhauseffekt als die Erde.
 Die Venus wird auch als Morgenstern bezeichnet.
@@ -8227,7 +8324,9 @@ Die Villa ist geschützt wie eine Festung.
 Die Volksmarine war Teil der N-V-A.
 Die Volksmarine war Teil der Nationalen Volksarmee.
 Die Volljährigkeit wird von vielen Jugendlichen lange erwartet.
+Die Vollziehung dieses Bundesverfassungsgesetzes obliegt der Bundesregierung.
 Die Vorband stellte den ganzen Rest des Konzertes in den Schatten.
+Die Vorlage zur Beurkundung erfolgt durch den Bundeskanzler.
 Die Vorlesung ersetzt nicht das Selbststudium.
 Die Vorräte sind ausgesprochen knapp bemessen.
 Die Vorschriften sprechen von Abbauzeiten von maximal zwölf Wochen.
@@ -8319,6 +8418,7 @@ Die Zündung einer einzelnen Rakete kann man nicht als Feuerwerk bezeichnen.
 Die abgeleitete Standardeinheit für Energie ist Joule.
 Die aggressive Vermarktung des Mittels ist Teil der unrühmlichen Geschichte des Pharmakonzerns.
 Die allermeisten Weihnachtspyramiden sind gar keine Pyramiden.
+Die allgemein anerkannten Regeln des Völkerrechtes gelten als Bestandteile des Bundesrechtes.
 Die allgemeinen Geschäftsbedingungen sind das, was du bei Installationen immer wegklickst.
 Die allgemeinen Geschäftsbedingungen wollte ich mir gemütlich bei einem Glas Wein durchlesen.
 Die alte Frau molk die Kühe und die Ziegen noch mit der Hand.
@@ -8330,6 +8430,7 @@ Die alten Geräte sind ausgemustert.
 Die alten Herrschaften haben es immer so eilig.
 Die alten Stücke sind die besten.
 Die alten sind besser als die neuen.
+Die am nördlichsten gelegene Stadt Österreichs ist Litschau.
 Die amerikanische Regierung versucht die Verwendung von Hardware von Huawei zu verhindern.
 Die amerikanische Regierung versucht, die Verwendung von Hardware von Huawei zu verhindern.
 Die andere Beteiligte konnte mit leichten Blessuren abtransportiert werden.
@@ -8343,6 +8444,7 @@ Die angriffslustige Linksextreme prügelt sich gerne mit Neonazis.
 Die aufgeführten Fragen würde ich allesamt bejahen.
 Die aufgeworfene Erde ist schädlingsfrei.
 Die australische Schönheit begann gerade durchzustarten.
+Die beiden Fänge umschließt eine gesprengte Eisenkette.
 Die beiden Großen nehmen ihren kleinen Bruder voll in Schutz.
 Die beiden Größen sind also äquivalent.
 Die beiden Hackerinnen haben sich zusammengetan.
@@ -8392,6 +8494,7 @@ Die drei sahen der Spinne beim Weben ihres Netzes zu.
 Die drei suchen nach einer Stelle, an der sie ins Wasser gehen können.
 Die drei wurden in der verbotenen Zone erwischt.
 Die dreistellige Sicherheitszahl steht auf der Rückseite der Kreditkarte.
+Die drittgrößte Stadt in Österreich heißt Linz.
 Die durchgestrichene Mülltonne bedeutet, dass Akkus nicht in den Hausmüll gehören.
 Die durchgestrichene Mülltonne bedeutet, dass Batterien nicht in den Hausmüll gehören.
 Die dänische Männer-Handballnationalmannschaft vertritt Dänemark bei internationalen Turnieren im Handball.
@@ -8454,6 +8557,7 @@ Die gerade erst neu hinzugekommene legt ein beträchtliches Tempo vor.
 Die gesamte Fastenzeit nicht zu Lügen, als Verzicht sozusagen.
 Die gesamte Fastenzeit nicht zu lügen, als Verzicht sozusagen.
 Die gesamte Telefonanlage im Haus ist dann tot.
+Die gesamte staatliche Verwaltung darf nur auf Grund der Gesetze ausgeübt werden.
 Die geschossweise erfolgende Übereinanderstellung nennt man Superposition.
 Die gezeigten Filmszenen sind völlig aus dem Zusammenhang gerissen.
 Die gibts doch heute gar nicht mehr.
@@ -8501,6 +8605,7 @@ Die inneren Organe werden vom Chitinpanzer geschützt und gestützt.
 Die isländische Band hielt eine palästinensische Flagge in die Höhe.
 Die ist aber noch originalverpackt.
 Die ist allerdings eher Nische und muss unter Umständen komplizierter beschafft werden.
+Die ist freie Werknutzung im Interesse der Rechtspflege und der Verwaltung.
 Die ist hart im Nehmen.
 Die ist ja drollig.
 Die ist leider in Paris und geht durch den Park spazieren.
@@ -8549,6 +8654,7 @@ Die meisten Bürger sind zu bequem für einen Boykott.
 Die meisten Chorsänger haben keine Ahnung, was der Text bedeutet.
 Die meisten Fahrer haben ihre Freisprechanlage so laut, dass man draußen mithören kann.
 Die meisten Fehler werden immer wieder aufs Neue gemacht.
+Die meisten Gebäude der Technischen Universität Wien befinden sich im Stadtzentrum von Wien.
 Die meisten Gespräche mit meinem Nachbarn laufen so über den Gartenzaun.
 Die meisten Handynutzer machen ihre Panoramaaufnahmen falsch.
 Die meisten Legehennen werden nicht einmal zwei Jahre alt.
@@ -8602,8 +8708,12 @@ Die nukleare Abschreckungspolitik habe siebzig Jahre lang den Frieden in Europa 
 Die nächste "Reform" kommt bestimmt!
 Die nächste Ladung geht direkt nach Singapur.
 Die nächste Station muss ich raus.
+Die näheren Bestimmungen über das Verfahren für das Volksbegehren werden durch Bundesgesetz getroffen.
+Die näheren Bestimmungen über das Wahlverfahren werden durch Bundesgesetz getroffen.
+Die näheren Bestimmungen über das Wahlverfahren werden durch die Landtagswahlordnungen getroffen.
 Die obere Schicht sollte stichfest sein.
 Die offizielle Version lautet ganz anders.
+Die ordentliche Gerichtsbarkeit geht vom Bund aus.
 Die ostpolyne­sischen Inseln gehören poli­tisch zu Französisch-Polyne­sien.
 Die paar Cent sind halt auch egal.
 Die passen doch überhaupt nicht zusammen!
@@ -8721,10 +8831,14 @@ Die Äpfel sind groß, rot und lecker.
 Die Ärzte raten Claudia vom Schäferhund ab.
 Die Öffnung ist dehnbar.
 Die Öffnungszeiten der Geschäfte weiten sich immer weiter aus.
+Die Österreichische Gebärdensprache ist als eigenständige Sprache anerkannt.
 Die Österreichische Volkspartei hat laut den Umfragen eine absolute Mehrheit.
 Die Überquerungshilfe aus dem Beamtendeutsch ist umgangssprachlich der Zebrastreifen.
 Die Überschrift passt überhaupt nicht zum Text.
+Die öffentlichen Aemter sind für alle Staatsbürger gleich zugänglich.
+Die öffentlichen Universitäten sind Stätten freier wissenschaftlicher Forschung, Lehre und Erschließung der Künste.
 Die ölgefeuerte Heizung ist eine alte Dreckschleuder, welche modernisiert werden muss.
+Die österreichischen Staatsbürger haben das Recht, sich zu versammeln und Vereine zu bilden.
 Die überspringe ich dann meistens.
 Die übertriebene, aber ehrliche Entschuldigung von Reinhard habe ich dann doch angenommen.
 Die übrig gebliebenen Dokumente waren ohne praktischen Wert.
@@ -8750,6 +8864,7 @@ Dies ist als Aufforderung an alle Täter und Trittbrettfahrer zu verstehen.
 Dies ist das einzige noch unbebaute Grundstück in der Innenstadt.
 Dies ist der perfekte Moment, die Karten auf den Tisch zu legen.
 Dies ist die Aufgabe des Sprengmeisters.
+Dies ist die Fakultät für Informatik an der Technische Universität Wien.
 Dies ist die dunkle Seite der Nacht.
 Dies ist ein Computer von Dell.
 Dies ist ein Passivhaus.
@@ -8919,6 +9034,8 @@ Dieser Pilz ist zwar nicht giftig, aber ungenießbar.
 Dieser Planet ist nicht für massenhaft motorisierten Individualverkehr gemacht.
 Dieser Rauchabzug ist eine gefährliche Fehlkonstruktion.
 Dieser Sachverhalt wird gerade vor Gericht geprüft.
+Dieser Satz hat keinen tiefergehenden Sinn.
+Dieser Satz hat weniger als vierzehn Worte.
 Dieser Satz ist zu lang.
 Dieser Satz kein Verb.
 Dieser Satz war Händel wichtig.
@@ -8932,6 +9049,7 @@ Dieser Sänger ist einfach grandios.
 Dieser Teufelskerl kann einfach alles!
 Dieser Titel geht so in Ohr, dass man ihn nicht so schnell wieder vergisst.
 Dieser Typ ist mir echt unsympathisch.
+Dieser Vortrag wäre ein guter Kandidat für Bullshitbingo!
 Dieser Wasserkocher ist eine komplette Fehlkonstruktion.
 Dieser Weg soll nach Wilhelmshöhe führen.
 Dieser Weg war für dich vorherbestimmt.
@@ -8951,6 +9069,7 @@ Dieses Fahrrad gehört nicht mir.
 Dieses Formular ist mir gänzlich unbekannt.
 Dieses Gedicht ist für dich, liebe Amanda.
 Dieses Gefühl schnürte ihm die Kehle zu.
+Dieses Gesetz tritt am Tage seiner Kundmachung in Kraft.
 Dieses Grundstück wäre förmlich ideal für Familie Jost.
 Dieses Haarspray klebt nicht.
 Dieses Haus wurde neunzehnhundertdrei gebaut.
@@ -8970,6 +9089,7 @@ Dieses Lied soll bitte auf meiner Beerdigung gespielt werden.
 Dieses Mal ist es ein echtes Problem.
 Dieses Parfüm von Dominik ist nicht schlecht.
 Dieses Problem gibt es allerdings nicht nur in Ostdeutschland.
+Dieses Protokoll liegt für jeden Unterzeichnerstaat des Übereinkommens zur Unterzeichnung auf.
 Dieses Puzzle hat so viele Teile, dass immer wieder Puzzleteile vom Tisch fallen.
 Dieses Startup hat die Gründung eines Betriebsrats verhindert.
 Dieses Symbol ist das Zeichen unserer Vorfahren.
@@ -9382,6 +9502,7 @@ Du lieber Himmel!
 Du liest vor, als ob jeder Satz eine Frage wäre.
 Du machst das schon.
 Du machst dir keine Vorstellungen.
+Du machst keinen Sinn! Ich verstehe deine Taten nicht.
 Du meine Güte, ich habe noch gar kein Geschenk!
 Du meinst das ernst?
 Du meinst wohl fünfhundert Kilokalorien.
@@ -9442,6 +9563,7 @@ Du solltest mehr zuhören und weniger interpretieren.
 Du solltest nicht alles glauben, was im Fernsehen gezeigt wird.
 Du solltest nicht andere für dein Scheitern verantwortlich machen.
 Du spielst ja genau so gut Gitarre wie Vanessa.
+Du sprichst gefährliche Worte gelassen aus!
 Du sprichst mit dieser wunderschönen Frau, die dich abschleppen wollte, über deine Ex-Freundin?
 Du sprichst von einer Intimrasur richtig?
 Du stinkst voll nach Schweiß.
@@ -9509,8 +9631,10 @@ Dumpingpreis und Dumpinglohn gehen meist Hand in Hand.
 Durch Abhören unserer Telefonate hat der Geheimdienst sicher eine riesige Datenbank.
 Durch Anklicken wird die Auswahl bestätigt.
 Durch Ballbesitz alleine werden sie die Partie nicht gewinnen.
+Durch Bundesgesetz wird eine Altersgrenze bestimmt, mit deren Erreichung die Richter in Ruhestand treten.
 Durch Erosion verschwinden die Bodenstrukturen nach ein paar Jahren wieder.
 Durch Fenster kommen die ja nie.
+Durch Gesetz können Formen der Mitwirkung der Selbstverwaltungskörper an der staatlichen Vollziehung vorgesehen werden.
 Durch Hecheln regulieren sie ihre Körpertemperatur.
 Durch Ihre Spende zeigen Sie, dass es auch Andersdenkende gibt.
 Durch Nachdenken und Hinterfragen deckt man Pseudowissenschaften auf.
@@ -9760,6 +9884,7 @@ Ein Angriff wie aus dem Lehrbuch!
 Ein Apfelbaum sollte es werden.
 Ein Arzt muss dem Patienten helfen, nicht mit ihm leiden.
 Ein Audit untersucht, ob Prozesse, Anforderungen und Richtlinien die geforderten Standards erfüllen.
+Ein Aufenthalt in einem anderen Mitgliedstaat der Europäischen Union gilt nicht als Verhinderung.
 Ein Auftragskiller hat ihn bereits im Fadenkreuz.
 Ein Autokauf ist heutzutage als Finanzierung des organisierten Verbrechens anzusehen.
 Ein Autokorso zog durch die Ortschaft.
@@ -10257,6 +10382,7 @@ Eine Sondernutzung liegt mithin vor.
 Eine Spendenbescheinigung ist die moderne Form eines Ablassbriefes.
 Eine Spinne war in den Rauchmelder gekrochen und hatte den Fehlalarm ausgelöst.
 Eine Stange aus Metall ist selten standhaft.
+Eine Statutarstadt - eine Stadt im Rang eines Bezirkes - muss eine gewisse Größe haben.
 Eine Steckdose, die keinen Strom liefert, ist nutzloser Blödsinn.
 Eine Stewardess kommt vorbei und reißt ihn aus seiner Gedankenwelt.
 Eine Stichprobe der Größe eins ist nicht besonders aussagekräftig.
@@ -10272,6 +10398,7 @@ Eine Versicherung braucht man für Dinge, die einen ruinieren können.
 Eine Videovorschau mit weißem Rahmen wurde links mittig eingeblendet.
 Eine Vierer-Wohngemeinschaft wäre genau das Richtige für mich.
 Eine WhatsApp-Nachricht an Tina schreiben.
+Eine Wiederwahl für die unmittelbar folgende Funktionsperiode ist nur einmal zulässig.
 Eine Woche nach dem verheerenden Unfall ist die Wasserski-Anlage wieder in Betrieb.
 Eine Woche später bekam ich Post von der Versicherung.
 Eine Währung, die nicht währt, ist schon bald nichts mehr wert.
@@ -10283,6 +10410,7 @@ Eine andere Route? Die gibt es nicht.
 Eine andere Verbindung wäre günstiger.
 Eine auf dem Schreibtisch liegende Lupe hat den Brand verursacht.
 Eine ausgefallene Ampel sorgt für ungewöhnlich geschmeidigen Verkehrsfluss.
+Eine behördliche Verfolgung des Bundespräsidenten ist nur zulässig, wenn ihr die Bundesversammlung zugestimmt hat.
 Eine beliebte Anfängerübung ist zum Beispiel ein texturierter Würfel, der sich dreht.
 Eine bequeme Bank lädt zum Verweilen ein.
 Eine besonders große Tüte Popcorn, bitte!
@@ -10565,6 +10693,7 @@ Einmal täglich muss die Salbe aufgetragen werden.
 Einmal und nie wieder.
 Einmal veröffentlicht, lassen sich die Änderungen nicht mehr revidieren.
 Einmal zwei halbe Hähnchen, bitte!
+Einrichtungen für die Stationierung von Atomwaffen dürfen nicht geschaffen werden.
 Eins zwo, eins zwo drei vier!
 Einseifen ist nicht erlaubt.
 Einsicht ist der erste Schritt zur Besserung.
@@ -10668,6 +10797,7 @@ Engelbert zog seine Hackerhose an und fuhr zum Kongress.
 Englisch als Sprache ist gescheitert.
 Englisch fehlt in der Sprachenübersicht.
 Engländer werden den folgenden Satz missverstehen.
+Enns, Wien und Wels gelten als die ältesten Städte Österreichs.
 Entfernen Sie sich aus meinem Haus.
 Entgegen dem allgemein bekannten Liedtext hat Pit gar keinen Bart.
 Entgegen der landläufigen Meinung trifft deine Vermutung zu.
@@ -10946,9 +11076,11 @@ Er prägt das Straßenbild der Stadt.
 Er rannte auf sie zu, umarmte sie und küsste sie stürmisch.
 Er rasiert sich noch mit dem Handtuch.
 Er reagiert empfindlich auf das Thema.
+Er reagierte sofort und antwortete umfassend.
 Er redet sich richtig in Rage.
 Er redet um des Redens Willen.
 Er redete sich damit heraus, dass er Schaden abwenden wollte.
+Er redete sich um Kopf und Kragen.
 Er reichte ihn, den gut verpackten, bereits zu den Verfahrensakten.
 Er richtet sein Fernrohr auf das Dokument und versucht, einen Blick darauf zu erhaschen.
 Er riecht deinen Angstschweiß.
@@ -10958,6 +11090,7 @@ Er sagt die Wahrheit, wirklich echt ehrlich.
 Er sagt, er beschäftigt sich nur damit.
 Er sagte, er habe ein ungutes Gefühl bei dieser Sache.
 Er sah sie an und sagte nur: Das ist jetzt nicht dein Ernst, oder?
+Er schenkte ihr endlich reinen Wein ein und sie unterhielten sich die halbe Nacht.
 Er schluchzte vor Tränen.
 Er schneidet den Karton auf und sucht den Lieferschein darin.
 Er schrie in die Welt hinaus, dass die bestehende Ordnung untergehen wird.
@@ -10975,6 +11108,7 @@ Er sollte nicht gleich zu Beginn all seine Kräfte verpulvern.
 Er sollte sich noch mal eine realistischere Version seiner Geschichte ausdenken.
 Er spielt an einem dieser Automaten.
 Er spielte das Lied für mich.
+Er sprachs, drehte sich um und ging.
 Er steckt mit einem Bein im Gefängnis, um das andere herauszuziehen.
 Er steht vor der Millionenfrage und hat noch keinen einzigen Joker gebraucht.
 Er steigt in den Zweikampf ein, als wolle er ihn umnieten.
@@ -11499,6 +11633,7 @@ Es ist makaber aber wahr.
 Es ist mir übel.
 Es ist mit spritzendem Fett zu rechnen, also ziehen wir besser eine Schürze an.
 Es ist möglich, einzelne Pakete zu priorisieren.
+Es ist nach den Grundsätzen eines Milizsystems einzurichten.
 Es ist nach zehn vorbei.
 Es ist nahezu windstill.
 Es ist natürlich auch nicht frei von Nebenwirkungen.
@@ -11768,6 +11903,7 @@ Es war eine Vorstellung mit starken Kontrasten.
 Es war eine andere Zeit damals.
 Es war eine lebhafte Diskussion.
 Es war eine schwierige Situation und Betsy hat sie virtuos gemeistert.
+Es war einer dieser Tage, an denen man am liebsten einfach nur zuhause bliebe.
 Es war einfach nicht mit ihrer Lebensweise vereinbar.
 Es war ganz okay.
 Es war halt einfacher, es so zu implementieren.
@@ -12116,6 +12252,7 @@ Folgen Sie der Autobahn Richtung Stettin für dreißig Kilometer.
 Folgen Sie mir auf Twitter!
 Folgen Sie mir nicht, ich habe mich verlaufen.
 Folgen Sie mir!
+Folgende Eisenbahnen werden zu Hochleistungsstrecken erklärt.
 Folgende Produkte könnten Sie auch interessieren.
 Folgerichtig wird der Fluss nicht so schnell über seine Ufer treten.
 Folglich handelt es sich bei Ammoniak um ein giftiges Gas.
@@ -12431,6 +12568,7 @@ Für Untrainierte könnte die Übung sogar schädlich sein.
 Für Verpflegung ist gesorgt.
 Für Verschüttete kommt die Bergwacht oft zu spät.
 Für Vertuschung hingegen schon.
+Für Wien ist die Landespolizeidirektion zugleich Sicherheitsbehörde erster Instanz.
 Für Wittenberge gibt es auch zwanzig Punkte.
 Für Wohnsiedlungen blieb dann der Platz im Westen.
 Für alle Beteiligten ist die Aktion unangenehm bis peinlich.
@@ -12485,6 +12623,7 @@ Für die Menschheit besteht wieder Hoffnung!
 Für die Modernisierung der Flotte reicht der Fond leider nicht aus.
 Für die Pflege von großen Datenbanken benötigt man solche Tools.
 Für die Qualität seiner Beiträge ist jeder selbst verantwortlich.
+Für die Republik Österreich besteht eine einheitliche Staatsbürgerschaft.
 Für die Sklaven gibt es nicht genug Unterkünfte.
 Für die Sonderausstellung mussten wir noch mal extra bezahlen.
 Für die Studie werden Menschen mit Nahtoderfahrung befragt.
@@ -12545,6 +12684,8 @@ Für ihre klaren Worte heimste sie bei ihren Mitstreitern viel Lob ein.
 Für immer und ewig!
 Für jede Persönlichkeit eine Stimme.
 Für jeden Tag hängt ein Strumpf am Adventskalender.
+Für jedes Land besteht ein Verwaltungsgericht des Landes.
+Für jedes Land besteht eine Landespolizeidirektion.
 Für kleine Kinder sind Klettverschlüsse sehr praktisch.
 Für läppische fünfzig Euro hat er mir eine neue Bohrung angeboten.
 Für manche sind das keine Kondensstreifen, sondern Chemtrails.
@@ -13211,6 +13352,7 @@ Granate auf neun Uhr!
 Gratulation dazu!
 Grauenhaft!
 Grausame Experimente des Mittelalters zeigen, dass Zuneigung und Liebe für Säuglinge überlebenswichtig sind.
+Graz ist eine Stadt in Österreich.
 Gregor wollte in dieser Nacht im Zelt übernachten.
 Greif mit deinen dreckigen Fingern nicht den Teig an.
 Greifen Sie zu!
@@ -14671,6 +14813,7 @@ Ich bin dafür, die Erfindung nach ihrem Erfinder zu benennen.
 Ich bin dann einfach von der Mauer gesprungen.
 Ich bin das siebente von acht Kindern, also fast Kruste.
 Ich bin der Gerichtsvollzieher.
+Ich bin der Meinung, es sollten hier auch Witze erzählt werden.
 Ich bin der Täter. Der Sanitäter.
 Ich bin der zukünftige Thronfolger.
 Ich bin des Griechischen nicht mächtig.
@@ -14804,6 +14947,7 @@ Ich bleibe dann aber auch länger bei Marco.
 Ich blicke da nicht mehr durch.
 Ich brauche Unterstützung.
 Ich brauche deine Zustimmung, bevor ich dich penetriere.
+Ich brauche diese Daten bis nächste Woche!
 Ich brauche dringend eine neue Sonnenbrille.
 Ich brauche ein Mikrofon.
 Ich brauche ein Taschentuch! Hat jemand ein Taschentuch für mich?
@@ -14871,6 +15015,7 @@ Ich denke, man kann ihn als Apple-Jünger bezeichnen.
 Ich denke, sein anderes Vorhaben fällt damit wohl auch flach.
 Ich denke, wir haben das Beste daraus gemacht.
 Ich denke, zehn Uhr ist eine humane Zeit.
+Ich dichte, dachte er und schrieb weiter an seinen Versen.
 Ich dimme kurz das Licht.
 Ich dreh durch!
 Ich drehe mich um und wiehere wie ein Pferd.
@@ -15078,6 +15223,7 @@ Ich hab reservierte Plätze, aber im falschen Zug.
 Ich hab seit Jahren keinen schönen Lidstrich mehr geschafft.
 Ich hab sie gefragt, ob ihr Bruder zwei Bücher will.
 Ich hab unseren Flyer schon ajouriert.
+Ich habe "Buddenbrooks" von Thomas Mann gelesen und kann es wärmstens empfehlen.
 Ich habe Angst vor dem Tag, an dem mein Computer kaputt geht.
 Ich habe Angst!
 Ich habe Angst, dass ich mit meinem Anruf jemanden aufwecken könnte.
@@ -15452,6 +15598,7 @@ Ich kann mir nicht vorstellen, das Jan zu sowas in der Lage ist.
 Ich kann mir nicht vorstellen, dass der nackig baden geht.
 Ich kann mir schon denken, wie das wieder endet.
 Ich kann mir vorstellen, dass sie als alleinerziehende Mutter unter großem Druck steht.
+Ich kann mit dieser Frage nichts anfangen, bitte formuliere sie um.
 Ich kann nicht alle glücklich machen, ich bin nicht Nutella.
 Ich kann nicht alleine die Arbeit einer ganzen Abteilung erledigen.
 Ich kann nicht an zwei Orten gleichzeitig sein.
@@ -15569,6 +15716,7 @@ Ich mag den verbrannten Pfannkuchen nicht essen.
 Ich mag dich in meiner Nähe haben.
 Ich mag die Stimme des Aliens.
 Ich mag diese Brotstangen vom Italiener.
+Ich mag dieses Projekt, es wird vielen Menschen helfen.
 Ich mag es lieber blutig und roh.
 Ich mag es nicht fotografiert zu werden.
 Ich mag es nicht, fotografiert zu werden.
@@ -16036,6 +16184,7 @@ Ich will zocken!
 Ich will zu meinem Bruder gehen.
 Ich will, dass der Computer mich auch versteht, wenn ich mit vollem Mund spreche.
 Ich will, dass die Rede aufgezeichnet wird.
+Ich wohne und arbeite in Wien.
 Ich wollte das nicht kaputt machen.
 Ich wollte doch so gerne ein Lagerfeuer machen.
 Ich wollte eigentlich beides in einem Abwasch erledigen.
@@ -16153,6 +16302,7 @@ Ihm brummt der Schädel.
 Ihm fehlt die nötige Coolness.
 Ihm ist eine Laus über die Leber gelaufen, also provoziere ihn nicht unnötig.
 Ihm selbst war die Diskrepanz nicht aufgefallen.
+Ihm sind die Landespolizeidirektionen, ihnen wiederum die Bezirksverwaltungsbehörden als Sicherheitsbehörden nachgeordnet.
 Ihm solltet ihr dienen, nicht euch selbst!
 Ihm wird die Sache zu heikel.
 Ihm wäre das zu müßig.
@@ -16529,6 +16679,7 @@ Im Sommer werden des Öfteren kurze Hosen getragen.
 Im Stau passieren keine tödlichen Unfälle.
 Im Steinbruch müssen die großen Brocken vor dem Transport zerstückelt werden.
 Im Stellenangebot stand klar drin, dass Reisebereitschaft erwartet wird.
+Im Strafverfahren gilt der Anklageprozess.
 Im Sturm sind die Bäume abgeknickt wie Streichhölzer.
 Im Städtischen Anzeiger findet man auch nichts dazu.
 Im Süden nimmt sie ihren Lauf.
@@ -16554,6 +16705,7 @@ Im Vorbeigehen erhaschte ich einen kurzen Blick durch die offene Schlafzimmertü
 Im Vorbeigehen erhaschte ich einen kurzen Blick durch die offene Zimmertür.
 Im Vorbeigehen erhaschte sie einen kurzen Blick durch die Tür der Männerumkleide.
 Im Vorfeld hat er sich einiges überlegt, was er heute umsetzen will.
+Im Vorsitz des Bundesrates wechseln die Länder halbjährlich in alphabetischer Reihenfolge.
 Im Wald begegnete das Mädchen einem Fuchs.
 Im Wald wird Holz geschlagen.
 Im Wareneingang kontrollierst Du die erhaltene Ware.
@@ -16601,6 +16753,7 @@ Im strömenden Regen erklimmt sie den Turm.
 Im tiefen Meer ist man vor Erdbeben und Tsunamis sicher.
 Im weiteren Spielverlauf verflachte die Partie zunehmends.
 Im zweiten Band geht es um Bekannte der Charaktere aus dem ersten Band.
+Im Übrigen ist das Urheberrecht unübertragbar.
 Im überkritischen Zustand sind Fluide irgendwie gleichzeitig flüssig und gasförmig.
 Immer brav alles ankreuzen!
 Immer dann, wenn man den Service braucht, steht er vorübergehend nicht zur Verfügung.
@@ -16743,6 +16896,7 @@ In Tirol enthält gefühlt jedes zweite Brötchen Kümmel.
 In Travemünde mündet die Trave in die Ostsee, daher der Name.
 In Ulm, um Ulm, und um Ulm herum wachsen viele Ulmen.
 In Vancouver kann man am selben Tag Ski fahren und am Strand liegen.
+In Verfahren wegen mit gerichtlicher Strafe bedrohter Handlungen nehmen sie Ermittlungs- und Anklagefunktionen wahr.
 In Wahrheit ist das Leben als Model nicht so glamourös wie oft dargestellt.
 In Wahrheit ist es immer noch am Leben.
 In Warschau fand Marianne das perfekte Restaurant.
@@ -16901,6 +17055,7 @@ In der Toskana war es auch nicht viel wärmer.
 In der Umkleide stinkt es nach Männerschweiß.
 In der Verlängerung wurde schon so manches Spiel entschieden.
 In der Villa spukt ein Poltergeist.
+In der Volksabstimmung entscheidet die unbedingte Mehrheit der gültig abgegebenen Stimmen.
 In der Werkstatt eines Bekannten hat der Sechzehnjährige sein Mofa aufmöbeln lassen.
 In der Wewelsburg sind heutzutage ein Museum und eine Jugendherberge.
 In der Wildnis würde er keine vierundzwanzig Stunden überleben.
@@ -17136,6 +17291,7 @@ In zwanzig Minuten lohnt es sich nicht mehr, groß was anzufangen.
 In zwei Wochen bekomme ich einen neuen Stromzähler.
 In zweiter Instanz entschied das Gericht zugunsten der Behinderten.
 In Österreich darf man ab siebzehn Jahren alleine mit dem Auto fahren.
+In Österreich dürfen Atomwaffen nicht hergestellt, gelagert, transportiert, getestet oder verwendet werden.
 In älteren Teilen hörte sie sich anders an.
 In öffentlichen Verkehrsmitteln gilt die Maskenpflicht.
 Indem man den Dotter mehrfach von einer Hälfte der Schale in die andere kippt.
@@ -17166,9 +17322,11 @@ Ingolf hatte das Bild auf Instagram gepostet.
 Ingrid Zeller will sich ihr Muttermal chirurgisch entfernen lassen.
 Inmitten irrsinniger Idioten inhaliert Irmgard ihren Ingwertee.
 Innerhalb der nächsten Jahre hatte der Internationale Frauentag seinen Platz in der Bewegung gefunden.
+Innerhalb des Bundes dürfen Zwischenzolllinien oder sonstige Verkehrsbeschränkungen nicht errichtet werden.
 Innerhalb kürzester Zeit wird die Landebahn mit einem Schaumteppich bedeckt.
 Innerhalb weniger Minuten schlabberte der Vierbeiner restlos alles weg.
 Innovation kommt ja auch von Regelbruch.
+Innsbruck liegt am Fuße der Nordkette, eine der vier Gebirgsketten im Karwendel.
 Insbesondere Entscheider in Wirtschaft und Politik sollten sich damit auskennen.
 Insbesondere da es ein Jugendwort ist, liegt die Vermutung doch irgendwie nahe.
 Insbesondere dann, wenn es sich bei dem Objekt um ein männliches handelt.
@@ -17212,6 +17370,7 @@ Investigative Journalisten denunziert er seit geraumer Zeit systematisch, um sie
 Investitionen in die teuren Straßen lohnen sich am meisten.
 Inwiefern ist das bitte ein Fall für den Jugendschutz?
 Inwiefern ist es unpatriotisch, an der eigenen Regierung Kritik zu äußern?
+Inwieweit Organe der Gemeinden als Sicherheitsbehörden einzuschreiten haben, bestimmen die Bundesgesetze.
 Inzucht verringert den Genpool einer Population.
 Inzwischen haben sich die Leute mit den Missständen arrangiert.
 Inzwischen hat jeder Zweite Schwierigkeiten mit dem Akkusativ.
@@ -17436,6 +17595,7 @@ Ist dies dein erster Streifen?
 Ist dies die ungekürzte Originalfassung?
 Ist dies echtes Parkett oder ein Imitat?
 Ist dies ein echtes Foto oder ein gerendertes Bild?
+Ist dies eine Meta-Frage?
 Ist dies teurer als das andere?
 Ist diese Art von Musik gerade angesagt?
 Ist dieses Spiel für Kinder geeignet?
@@ -17816,6 +17976,7 @@ Jede Reservierung kostet Aufpreis.
 Jede Saison werden hier tausende Bierdeckel geklaut.
 Jede Sekunde zählt.
 Jede Variable muss explizit deklariert werden.
+Jede Verwaltungsbehörde kann auf Grund der Gesetze innerhalb ihres Wirkungsbereiches Verordnungen erlassen.
 Jede endliche Gruppe gerader Ordnung enthält ein Element gerader Ordnung.
 Jede endliche Gruppe mit einer ungeraden Anzahl von Elementen ist auflösbar.
 Jede gute Küchenwaage hat eine Tara-Funktion.
@@ -17875,6 +18036,7 @@ Jeder Spieler bildet mit seiner Hand eine Figur.
 Jeder Suizidversuch ist als Hilferuf zu verstehen.
 Jeder Teilnehmer gibt dabei primitive Geräusche von sich.
 Jeder Topf hat einen Deckel.
+Jeder Unterthänigkeits- und Hörigkeitsverband ist für immer aufgehoben.
 Jeder Vers wird vom Vorsänger vorgesungen und danach wiederholt der Chor.
 Jeder Vorfall muss protokolliert werden.
 Jeder algebraische Zahlkörper mit abelscher Galoisgruppe ist in einem Kreisteilungskörper enthalten.
@@ -17911,6 +18073,7 @@ Jeder kennt hier jeden.
 Jeder legt andere Kriterien an.
 Jeder macht das so, aber eigentlich ist es falsch.
 Jeder macht mal Fehler.
+Jeder männliche Staatsbürger ist wehrpflichtig.
 Jeder nimmt sich einen Gummiknüppel und dann ab in die Menge damit!
 Jeder nur eine Kugel!
 Jeder schreibt etwas anderes.
@@ -17934,6 +18097,7 @@ Jeder, der ein Anliegen hat, kann seine Frage offen stellen.
 Jeder, der jetzt lacht, ist ein Nerd.
 Jeder, der nur ein Fünkchen Anstand hat, wäre längst zurückgetreten.
 Jeder, ohne Unterschied, hat das Recht auf gleichen Lohn für gleiche Arbeit.
+Jedermann hat das Recht auf Freiheit und Sicherheit.
 Jederzeit gerne wieder!
 Jedes Böhnchen ein Tönchen.
 Jedes Böhnchen gibt ein Tönchen.
@@ -17942,6 +18106,7 @@ Jedes Ding ist wert, was sein Käufer bereit ist dafür zu zahlen.
 Jedes Ding ist, wie einer es achtet.
 Jedes Frühjahr kommen hunderte Erntehelfer aus Osteuropa zum Spargelstechen.
 Jedes Großprojekt wird hierzulande von engstirnigen Anwohnern behindert.
+Jedes Grundstück muss zu einer Gemeinde gehören.
 Jedes Handwerk verlangt seinen Meister.
 Jedes Hauptzollamt ist in mehrere Sachgebiete unterteilt.
 Jedes Individuum ist das Produkt seiner Gene und Umwelteinflüsse.
@@ -17950,8 +18115,13 @@ Jedes Jahr beginnt die Spendenkampagne ein wenig früher.
 Jedes Jahr fällt Heiligabend auf den vierundzwanzigsten Dezember.
 Jedes Jahr organisiert die Tanzschule einen Abschlussball.
 Jedes Jahr wird wie wild Fasnet gefeiert.
+Jedes Kind hat Anspruch auf den Schutz und die Fürsorge.
+Jedes Kind hat Anspruch auf regelmäßige persönliche Beziehungen und direkte Kontakte zu beiden Elternteilen.
+Jedes Kind hat das Recht auf Schutz vor wirtschaftlicher und sexueller Ausbeutung.
+Jedes Kind hat das Recht auf gewaltfreie Erziehung.
 Jedes Kind sollte auf Bäume klettern dürfen.
 Jedes Kind weiß das.
+Jedes Land gliedert sich in Gemeinden.
 Jedes Mal verwechsle ich Fluoreszenz mit Phosphoreszenz.
 Jedes Mal wegen einer Kleinigkeit.
 Jedes Mal weicht der alte Höpfner vom Manuskript ab!
@@ -18773,6 +18943,7 @@ Kinder in Afrika hätten das noch essen können!
 Kinder legen eben andere Kriterien an als Erwachsene.
 Kinder legen gerne Steckperlen zu bunten Mustern zusammen.
 Kinder wären so toll, wenn da nicht ständig diese Eltern wären!
+Kinderarbeit ist verboten.
 Kinderfahrräder sollten in Signalfarben angestrichen werden.
 Kindergärtnerin ist eine antiquerte Berufsbezeichnung.
 Kindergärtnerin ist eine antiquierte Berufsbezeichnung.
@@ -18791,6 +18962,7 @@ Kiwi bezeichnet die Frucht, aber auch den Vogel.
 Kiwi kann auch ein Vogel sein.
 Kiwi sind lecker.
 Kiwi werden in Neuseeland angebaut.
+Klagenfurt, oder in voller Länge Klagenfurt am Wörthersee genannt, ist die größte Stadt Kärntens.
 Klammern Sie sich nicht an diese eine Technologie.
 Klamotten müsste ich auch mal wieder kaufen.
 Klamotten und Haare riechen nach Feuer.
@@ -21846,6 +22018,7 @@ Neben Fachlichem gibt es natürlich auch genügend Platz, sich einfach mal wiede
 Neben Licht strahlen die Scheinwerfer vor allem auch große Mengen Wärme ab.
 Neben Zoll müsste Susi auch Einfuhrumsatzsteuer für ihr Geschenk aus China zahlen.
 Neben dem Reissack steht auch ein Kartoffelsack.
+Neben dem Rettungsdienst wird vom Roten Kreuz auch der Dienst "Essen auf Rädern" durchgeführt.
 Neben den Hauptspeisen steht ein breites Angebot an Beilagen bereit.
 Neben den brummenden Stromkasten setzen sich nur schwerhörige Leute.
 Neben den drei großen monotheistischen Religionen gibt es auch den Buddhismus und den Hinduismus.
@@ -22000,6 +22173,7 @@ Nein, musst du nicht.
 Nein, nein, nein, nein, nein, nein!
 Nein, soviel kann ich nicht anlegen.
 Nein, um Gottes Willen!
+Nein, wieso ich? Ich sehe hier absolut keine Notwendigkeit.
 Nein, wieso?
 Nein, wir haben noch nicht genug!
 Nein, wir machen es so wie besprochen.
@@ -22257,6 +22431,8 @@ Niemand bei klarem Verstand käme auf so eine Idee.
 Niemand darf davon erfahren.
 Niemand darf der Folter oder grausamer, unmenschlicher oder erniedrigender Behandlung oder Strafe unterworfen werden.
 Niemand darf gezwungen werden, einer Vereinigung anzugehören.
+Niemand darf seinem gesetzlichen Richter entzogen werden.
+Niemand darf wegen seiner Behinderung benachteiligt werden.
 Niemand darf willkürlich festgenommen, in Haft gehalten oder des Landes verwiesen werden.
 Niemand darf willkürlich seines Eigentums beraubt werden.
 Niemand erlernt eine Sprache in nur einer Woche.
@@ -22539,6 +22715,7 @@ Nun schreit hier nicht so herum!
 Nun sei nicht so ein Dickkopf!
 Nun sind alle gefordert, sich einzuschränken.
 Nun spiel nicht den sterbenden Schwan.
+Nun sprich doch endlich mit ihr und frag sie! Sonst wird das nie etwas.
 Nun spring schon!
 Nun standen sie sich splitterfasernackt gegenüber.
 Nun starten Sie endlich die Sequenz!
@@ -22686,6 +22863,7 @@ Nächstes Mal werde ich lieber anderthalbfache Geschwindigkeit nehmen.
 Nächstes Mal werde ich nicht bei Gundula Kircher mitfahren.
 Nächstes Mal, wenn mich dein Hund ableckt, lecke ich zurück!
 Nächstes Wochenende soll doch der Kaiser zu Besuch kommen.
+Nähere Bestimmungen zur Ausführung dieses Hauptstückes sind bundesgesetzlich zu treffen.
 Nähert man sich damit der Stromleitung zu nah, bekommen die Betroffenen einen elektrischen Schlag.
 Nähmaschinen sind ein typisches Hochzeitsgeschenk.
 Nämlich das Aussitzen des Skandals.
@@ -22744,6 +22922,8 @@ Obacht! Realitätsbezogene Texte!
 Obdachlose sind hilfsbereiter als Superreiche.
 Oben im Fernsehturm gibt es ein Restaurant.
 Oberpfaffenhofen ist als Standort des Deutschen Zentrums für Luft- und Raumfahrt bekannt.
+Oberste Instanz in Zivil- und Strafrechtssachen ist der Oberste Gerichtshof.
+Oberste Sicherheitsbehörde ist der Bundesminister für Inneres.
 Objekte ab einer bestimmten Distanz werden nur noch statisch beleuchtet.
 Obwohl Flori die Route täglich fährt, weiß der die Straßennamen nicht aus dem Kopf.
 Obwohl Flori die Route täglich fährt, weiß er die Straßennamen nicht aus dem Kopf.
@@ -23472,6 +23652,7 @@ Recht gern.
 Recht hat sie!
 Recht muss eine möglichst gute Annäherung an Gerechtigkeit sein.
 Rechts stehen, links gehen.
+Rechts und links davon befindet sich je eine kleinere Mädchenfigur.
 Rechtzeitig daran denken, dass die Feiertage vor der Tür stehen.
 Rede keinen Unsinn!
 Reden ist Silber, Schweigen ist Gold.
@@ -23547,6 +23728,7 @@ Rheinischer Zuckerrübensirup ist eine regionale Delikatesse.
 Rhetorik in Schwarz-Weiß.
 Rhetorisch geschickt reagierte Magnus mit einer Gegenfrage.
 Ri Ra Rutsch wir fahren mit der Kutsch
+Richard Keller initiierte die Städtepartnerschaft zwischen Großenlüder und Windischgarsten.
 Richard hatte zwar die Bananenschale liegen lassen, aber nicht damit Katja ausrutschte.
 Richten Sie sich auch nach den örtlichen Gegebenheiten.
 Richtet sich das Programm an Kinder?
@@ -23630,6 +23812,7 @@ Ruhig Brauner!
 Rund um den Marienplatz wurde jetzt die Verkehrsführung geändert.
 Rund um die Uhr wird die Festung bewacht.
 Runde Fallschirme haben in der Mitte ein Loch, damit sie nicht zur Seite wegklappen.
+Rundfunk gemäß Absatz eins ist eine öffentliche Aufgabe.
 Runter mit den Waffen!
 Runter vom Gas!
 Runter von den Gleisen!
@@ -23710,6 +23893,7 @@ Salamander, die Feuer spucken können, heißen Feuersalamander.
 Salim öffnete die Flaschenpost und heraus kam ein Flaschengeist.
 Salopp ausgedrückt wollen wir wissen, wie sehr uns der Term um die Ohren fliegt.
 Salve!
+Salzburg, ein sehr beliebtes touristisches Ziel, wird aus aller Welt besucht.
 Samantha nimmt eine Vuvuzela mit ins Stadion.
 Samin stellt sich nicht ungeschickt an, sie hat Dyspraxie.
 Sammeln Sie Punkte?
@@ -23730,6 +23914,7 @@ Sandra, einundzwanzig, in deiner Nähe möchte dich kennenlernen!
 Sandy Bergmann überzeugt mit einer starken Vorstellung.
 Sanfte Klaviermusik untermalt den Abgang.
 Sangria ist auch nur günstiger Alkohol.
+Sankt Veit an der Glan liegt in Mittelkärnten.
 Sarah erwischte sich ein weiteres Mal dabei, nicht zugehört zu haben.
 Sarah kam als Frühchen genau fünfundvierzig Tage vor dem errechneten Termin auf die Welt.
 Sarah kann abends nicht einschlafen und wird morgens nicht wach.
@@ -24042,6 +24227,7 @@ Schuld daran sind die Verantwortlichen.
 Schuld ist immer jemand anderes.
 Schuld ist wie immer die Globalisierung.
 Schule soll Kinder zu aufgeklärten, kritisch denkenden Bürgern erziehen.
+Schulen, die nicht öffentlich sind, sind Privatschulen.
 Schulte achtet auf jedes Detail.
 Schulterblicke sind auch einem Radfahrer zuzumuten.
 Schwach zuckend liegt der Käfer am Boden.
@@ -24509,6 +24695,7 @@ Sichtlich um Frieden bemüht versucht die Kassiererin noch irgendwo welche aufzu
 Sichtlich zerknirscht verließ sie den Besprechungsraum.
 Sie Knalltüte hört sich förmlicher an.
 Sie absolvierte jedoch keine Schauspielausbildung.
+Sie achtet deren Autonomie und fördert den sozialpartnerschaftlichen Dialog durch die Einrichtung von Selbstverwaltungskörpern.
 Sie akzeptiert und respektiert Menschen so, wie sie sind.
 Sie arbeitet aber daran.
 Sie bat mich, mir einen runterzuholen.
@@ -24627,6 +24814,7 @@ Sie haben sich den Ball hart erkämpft und dann leichtfertig wieder hergegeben.
 Sie haben sich eine Belohnung verdient.
 Sie haben sich eng umschlungen ins Bett gekuschelt.
 Sie haben sich verlaufen!
+Sie handeln im Rahmen der Gesetze autonom und können Satzungen erlassen.
 Sie hat Hoffnung auf Änderung der Verträge.
 Sie hat Pipi und Stinker gemacht.
 Sie hat Vergnügen daran, Passanten in einer Sprache zu beleidigen, die sie nicht verstehen.
@@ -24698,6 +24886,7 @@ Sie hätte den Mund nicht so voll nehmen sollen.
 Sie hätte es fast nicht gemerkt.
 Sie hätte schon gern mit Elisabeth geschlafen.
 Sie hätte sich fast zu Tode gesoffen.
+Sie hören eure Worte und doch verstehen sie sie nicht.
 Sie hört alles außer synthetischen Pop.
 Sie hört sich gerne reden.
 Sie infiltrieren das Gebäude durch den Schacht des stillgelegten Fahrstuhls.
@@ -24961,6 +25150,7 @@ Sie versucht mit allen Mitteln, Aufmerksamkeit auf sich zu ziehen.
 Sie versucht zu entkommen!
 Sie versucht, die Verkäuferin um den Differenzbetrag zu prellen.
 Sie vollzieht eine Hundertachzig-Grad-Wende, wie sie im Buche steht.
+Sie war Lehrerin für Deutsch als Fremdsprache und Deutsch als Zweitsprache.
 Sie war bei Ikea und hat sich schwedische Gardinen gekauft.
 Sie war die Hälfte der Zeit mit etwas anderem beschäftigt.
 Sie war gigantisch.
@@ -25143,6 +25333,7 @@ Sind die Wertsachen im Hotelzimmer sicher?
 Sind die bescheuert?
 Sind die echt?
 Sind die nicht niedlich?
+Sind diese Budgetzahlen nun endlich korrekt?
 Sind hier nur noch Modeopfer unterwegs?
 Sind im Bahnhof
 Sind ja nur Steuergelder!
@@ -25579,6 +25770,7 @@ Sobald sie herunterfällt, zerbricht sie in Scherben.
 Soeben hat mir Luise mitgeteilt, dass sie nach Wien umgezogen ist.
 Soeben ist der Herr Direktor mit seiner Gemahlin eingetroffen.
 Soeben ist eine Entscheidung gefallen.
+Sofern derartige bereits bestehen, dürfen sie nicht in Betrieb genommen werden.
 Sofort anrufen?
 Sofort auflegen!
 Sofort muss die Rechtslage geändert werden!
@@ -25919,6 +26111,10 @@ Spätestens zwei Wochen nach der Wahl sollte nichts mehr von ihnen zu sehen sein
 Spürst du auch ab und zu ein Phantomvibrieren in der Hosentasche?
 Spürst du auch dieses Kribbeln?
 Spürst du es auch?
+St. Pölten bewarb sich als Europäische Kulturhauptstadt Zweitausend-vier-und-zwanzig.
+St. Pölten ist eine Stadt im Alpenvorland am Fluss Traisen.
+Staatsanwälte sind Organe der ordentlichen Gerichtsbarkeit.
+Staatsbürgerinnen können freiwillig Dienst im Bundesheer als Soldatinnen leisten.
 Staatsrat Buchholz wirft seit der Mittagspause mit zerknüllten Akten auf den Papierkorb.
 Stacheln aus Metall sollen verhindern, dass Tauben auf der Anzeige landen.
 Stadtwerke und Müllabfuhr haben die kreativsten Sprüche auf ihren Fahrzeugen.
@@ -26061,6 +26257,7 @@ Still und heimlich haben sie sich in ein Hinterzimmer verkrümelt.
 Stille ist manchem mehr wert als Beschallung.
 Stillende Mütter sollten auf blähende Nahrung verzichten.
 Stillgestanden!
+Stimmberechtigt bei Volksabstimmungen ist, wer am Abstimmungstag das Wahlrecht zum Nationalrat besitzt.
 Stimmen Analyse und Stimmenerzeugung für Fortgeschrittene.
 Stimmen muss man besonders ernst nehmen, wenn man der Einzige ist, der sie hört.
 Stimmt auch wieder.
@@ -26248,6 +26445,7 @@ Tief durchatmen!
 Tief im Innern der Maschine führen die Mechaniker eine Reparatur durch.
 Tief im Innern ist Hausmeister Wiebe noch ein kleines Kind.
 Tieffliegende Hubschrauber machen der Menschenmenge Angst.
+Tiefgründig blickte er in die Ferne, mit den Gedanken weit, weit weg.
 Tiere ohne Herz sind also sicher vor ihnen.
 Tiermedizin ist ein anspruchsvoller Studiengang.
 Tillman kann sich auch eine Reise ans Mittelmeer oder auf die Kanaren vorstellen.
@@ -27163,6 +27361,7 @@ Ups, mein Fehler!
 Ups, schon wieder ein Blechschaden!
 Ups, schon wieder einen Shitstorm ausgelöst!
 Uranus rotiert ganz anders als die anderen Planeten.
+Urheber eines Werkes ist, wer es geschaffen hat.
 Urlaub für den Sport oder Urlaub vom Sport?
 Urlaub muss genehmigt werden.
 Urlaub nehmen wäre auch mal wieder eine feine Sache.
@@ -27341,6 +27540,7 @@ Verwahrloste Drogen-Kinder?
 Verwalten Sie mein Vermögen solange!
 Verwechsle niemals den Rettungsassistenten mit dem Notfallsanitäter!
 Verwenden Sie nur hochwertige Backzutaten!
+Verwertungsrechte sind der Exekution wegen Geldforderungen entzogen.
 Verwirf die Änderungen und starte noch mal von vorn.
 Verwirrt erhob sie sich langsam und bewegte sich ins Wohnzimmer.
 Verwöhnt ja - ganz die Mama!
@@ -27586,6 +27786,7 @@ Vier verschiedene Motorisierungen stehen zur Auswahl.
 Viertel nach neun.
 Vierundzwanzig Türchen warten darauf, geöffnet zu werden.
 Vierzehn Wörter sind ein weises Limit.
+Villach ist weit über die Grenzen Kärntens für seinen Villacher Fasching bekannt.
 Vincent konnte die Gefühle seiner Mitarbeiter nicht so gut deuten.
 Viren sind keine Lebewesen.
 Viren sollen nur "die Alten" bekommen?
@@ -27720,6 +27921,7 @@ Von der Zusammenlegung verspricht man sich Synergieeffekte.
 Von der schlechten Luft bekam ich solche Kopfschmerzen, dass ich den Raum verlassen musste.
 Von diesem Modell können wir Ihnen nur abraten.
 Von diesem Tag an wollte sich Friedhelm nur noch vegetarisch ernähren.
+Von diesem Verbot ausgenommen ist der Transport für Zwecke der ausschließlich friedlichen Nutzung.
 Von dieser Gleichmacherei hält er nichts.
 Von dieser mickrigen Portion werde ich nicht satt.
 Von dieser überzeugenden Mimik könnte sich der andere Schauspieler eine dicke Scheibe abschneiden.
@@ -27793,6 +27995,7 @@ Von wenigen Beschränkungen abgesehen kann man das Pseudonym frei wählen.
 Von zehn Schüssen gingen neun daneben.
 Von zu viel Sahne wirst du fett!
 Von zwölf bis mittag.
+Vor Ablauf der Gesetzgebungsperiode kann der Nationalrat durch einfaches Gesetz seine Auflösung beschließen.
 Vor Ausrufe- und Fragezeichen bitte kein Leerzeichen setzen!
 Vor Bären fürchte ich mich nicht. Vor Wilderern schon eher.
 Vor Fragezeichen ist das Leerzeichen unnötig.
@@ -27819,6 +28022,7 @@ Vor dem Dünsten trennt man ihnen die Gliedmaßen ab.
 Vor dem Ende seines Arbeitsvertrags sollte man all seinen Urlaub verbrauchen.
 Vor dem Erdbeben benahmen sich die Ziegen seltsam.
 Vor dem Gesetz sind alle gleich, aber manche sind gleicher als andere.
+Vor dem Gesetze sind alle Staatsbürger gleich.
 Vor dem Gäste-Klo ist eine Falltür installiert.
 Vor dem Hofladen musste Dirk eine gefühlte Ewigkeit lang Schlange stehen.
 Vor dem Kommentieren bitte mehr als nur die Überschrift lesen!
@@ -27901,6 +28105,7 @@ Vorletzte Nacht hat Dustin schon so schlecht geschlafen, weil seine Nase dicht w
 Vorläufig ist die Ehe auf drei Jahre befristet, mit der Option zur schrittweisen Verlängerung.
 Vorne und hinten befinden sich weitere Tanks zum Balancieren.
 Vorrangig geht es darum, den Gegner einzuschüchtern.
+Vorrechte der Geburt, des Geschlechtes, des Standes, der Klasse und des Bekenntnisses sind ausgeschlossen.
 Vorschnell hat die Ärztin eine Lungenembolie diagnostiziert.
 Vorsicht Stufe!
 Vorsicht mit solchen Begriffen!
@@ -28997,6 +29202,7 @@ Weiter hinten gibt es noch viele freie Plätze.
 Weiter nichts?
 Weiter zum nächsten Kapitel.
 Weitere Anpassungen werden kategorisch ausgeschlossen.
+Weitere Aufgaben des Bundesheeres werden durch Bundesverfassungsgesetz geregelt.
 Weitere Faktoren sind Gleichgültigkeit und Unkenntnis.
 Weitere Modelle von Simson sind zum Beispiel die Schwalbe, der Sperber oder der Habicht.
 Weitere Symptome sind Schwindelgefühle und Appetitlosigkeit.
@@ -29443,6 +29649,7 @@ Wenn es regnet nehme ich den Hubschrauber zur Arbeit.
 Wenn es schön gerade werden soll, empfiehlt es sich, die Bohrmaschine einzuspannen.
 Wenn es weiter nichts ist!
 Wenn etwas rot blinkt, ist das nie ein gutes Zeichen.
+Wenn gelindere Mittel ausreichen, ist vom Freiheitsentzug abzusehen.
 Wenn hier etwas übermäßig voll ist, dann sind Sie das!
 Wenn ich Bier trinke geht es mir gut
 Wenn ich Ihnen das sagen würde, müsste ich Sie leider töten.
@@ -30014,6 +30221,8 @@ Werden wir für Arbeit noch Geld bekommen?
 Werden wir genauso versagen wie die Generation unserer Eltern?
 Werfen sie Handtücher, die gewaschen werden sollen, bitte auf den Boden.
 Werfen wir ihm eine Torte ins Gesicht?
+Werke der Literatur im Sinne dieses Gesetzes sind Sprachwerke aller Art einschließlich Computerprogrammen.
+Werke im Sinne dieses Gesetzes sind eigentümliche geistige Schöpfungen auf den Gebieten der Literatur.
 Werke von Bach sind meistens aufregend.
 Werkzeug aus Vanadium rostet soweit ich weiß nicht.
 Werkzeuge aus Diamant halten besonders lange.
@@ -30731,7 +30940,9 @@ Wieso denn das nicht?
 Wieso denn nicht?
 Wieso die iberische Halbinsel besser geeignet wäre, musst du vernünftig darlegen.
 Wieso dreht sich die Kompassnadel ständig im Kreis?
+Wieso finde ich in dieser Datenbank eigentlich keine Witze?
 Wieso fragen wir nicht einen von denen?
+Wieso fragst du mich eigentlich solche Fragen?
 Wieso fragst du mich eigentlich, wenn du sowieso alles besser weißt?
 Wieso fragst du?
 Wieso fährst du denn geradeaus?
@@ -30858,6 +31069,7 @@ Wildes Plakatieren wäre kontraproduktiv.
 Wildpinkler hat man überall.
 Wildschweine zu stören ist eine dumme Idee.
 Wilfried wollte die schweren Kisten ganz allein in die Scheune tragen.
+Wilhelm Svetlin, Arzt und Psychiater, war bedeutend für die Wasserversorgung in Windischgarsten.
 Will Babsi mir eine Schwangerschaft verheimlichen?
 Will der Journalismus überhaupt gerettet werden?
 Will der mich veralbern?
@@ -30920,6 +31132,12 @@ Willst du wirklich für immer leben?
 Willst mir nicht einen Döner kaufen?
 Winde wehen stets von Hochdruck- zu Tiefdruckgebieten.
 Windenergie und Solarstrom läuten die notwendige Energiewende ein.
+Windischgarsten besitzt eine eigene Freiwillige Feuerwehr.
+Windischgarsten ist ein Dorf im Süden Oberösterreichs.
+Windischgarsten ist eine Marktgemeinde in Oberösterreich im Süden des Bezirks Kirchdorf.
+Windischgarsten liegt umrahmt von den Haller Mauern, dem Sengsengebirge und dem Toten Gebirge.
+Windischgarsten verfügt über eine Volksschule, zwei Neue Mittelschulen und eine Polytechnische Schule.
+Windischgarsten verfügt über einen modernen Sportplatz, der von internationalen Fußballvereinen geschätzt wird.
 Windkraftanlagen sind nun Teil unserer Kulturlandschaft.
 Windows ist das Betriebssystem, das die meisten Probleme verursacht.
 Windows ist das am weiten verbreitetste Betriebssystem.
@@ -31155,6 +31373,7 @@ Wir sehen uns in Bielefeld.
 Wir sehen uns.
 Wir setzen uns mal zusammen, da wir ausklabüstern müssen, wie wir weiter verfahren.
 Wir sind Dickhäuter.
+Wir sind am Boden zerstört, doch das Leben geht weiter.
 Wir sind auf der Suche nach einem Wirt.
 Wir sind dann immerhin acht Leute zur Wahl.
 Wir sind den oberen Rundweg gegangen.
@@ -31179,6 +31398,7 @@ Wir sind praktisch schon am Ziel.
 Wir sind sehr einsam.
 Wir sind sowieso schon spät dran.
 Wir sind stets bemüht, die Fantasie unseres Publikums anzuregen.
+Wir sind todunglücklich, aber was hilft es uns? Es muss weitergehen.
 Wir sind umzingelt.
 Wir sind vier Außenseiter, die nicht dazu gehören
 Wir sind vier Außenseiter, die nicht dazugehören.
@@ -32114,6 +32334,7 @@ Zuletzt hab ich eine Liebesgeschichte zwischen einer nichtbinären Person und ei
 Zuletzt habe ich eine Liebesgeschichte zwischen einer nichtbinären Person und einem Trans-Mann gelesen.
 Zuletzt vor zwei Wochen.
 Zuletzt war sie vor einem halben Jahr hier.
+Zulässig ist die vorübergehende Vervielfältigung, wenn sie flüchtig oder begleitend ist.
 Zum Abendprogramm gehört auch ein spannendes Quiz.
 Zum Abschluss singen alle gemeinsam Stille Nacht.
 Zum Ausrollen verwenden wir eine Teigrolle.
@@ -32379,6 +32600,9 @@ x und y heben sich gegenseitig weg.
 Öl oder Butter zum Anbraten verwenden.
 Ömer weigert sich, einen solchen Knebelvertrag zu unterschreiben.
 Örtlich kann es auch zu leichten Schauern kommen.
+Österreich bekennt sich zur umfassenden Landesverteidigung.
+Österreich ist ein Bundesstaat.
+Österreich ist eine demokratische Republik. Ihr Recht geht vom Volk aus.
 Übe dich in Geduld, mein Junge!
 Üben, üben, üben!
 Über Belichtungszeit und Filmempfindlichkeit beeinflusst man die Helligkeit des Bildes.
