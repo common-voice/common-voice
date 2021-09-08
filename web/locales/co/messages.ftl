@@ -62,7 +62,8 @@ ko = Coreanu
 lij = Ligure
 mhr = Mari da e pratuline
 mk = Macedunianu
-mrj = Mari da e culline
+mrj = Mari uccidentale
+ms = Malese
 mt = Maltese
 my = Birmanu
 ne-NP = Nepalese
@@ -203,6 +204,7 @@ shortcut-record-toggle = a
 shortcut-record-toggle-label = Arrighjistrà/Firmà
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rifà l’arrighjistramentu
+shortcut-discard-ongoing-recording = SCAP
 request-language-text = Ùn viditi micca a vostra lingua in Common Voice ?
 request-language-text-learn = Scupriti quì comu dumandala !
 request-language-button = Richiede una lingua
@@ -614,6 +616,7 @@ stats = Statistiche
 awards = Ricumpense
 you = Tù
 everyone = Ognunu
+top-contributors = Migliori cuntributori
 recorded-clips = Campioni arrighjistrati
 validated-clips = Campioni cunvalidati
 total-approved = Tutale cunvalidatu
@@ -675,6 +678,7 @@ profile-form-delete = Sguassà u prufilu
 
 ## Profile Download
 
+download-request-button = Scaricà
 
 ## Landing
 
@@ -718,3 +722,4 @@ demo-listen-subtitle = Seti pronti à cuntribuisce ?
 
 ## Validation criteria
 
+contribution-for-example = per esempiu
