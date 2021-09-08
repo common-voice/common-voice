@@ -655,12 +655,16 @@ record-abort-continue = Compie l'arrighjistramentu
 record-abort-delete = Andassi è sguassà i ducumenti
 listen-instruction = { $actionType }<playIcon></playIcon> anu prununciatu l'infrasata di manera curretta ?
 listen-again-instruction = Un bellu travagliu ! <playIcon></playIcon> Ascolta torna quandu site prontu
+listen-3rd-time-instruction = Più chì 2 <playIcon></playIcon>, cuntinuatelu !
 listen-last-time-instruction = <playIcon></playIcon>L'ultimu !
 listen-empty-state = Ùn avemu più campioni dà cunvalidà in issa lingua...
 speak-empty-state = Ùn avemu più infrasate à arrighjistrà in issa lingua...
+speak-empty-state-cta = Prupone incù altre infrasate
 record-button-label = Arrighjistrà a vostra voce
+share-title-new = <bold>Aiutate ci</bold> à truvà voci in più
 keep-track-profile = Seguiteti i vostri prugressi creendu un prufilu
 login-to-get-started = Cunnittiti vi o iscrivite vi pà cummincià
+target-segment-first-banner = Aiuteti à creà u primu segmentu d’ugettivu di Common Voice in { $locale }
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
 
@@ -692,6 +696,11 @@ days =
         [one] Ghjornu
        *[other] Ghjorni
     }
+recordings =
+    { $count ->
+        [one] Arrighjistramentu
+       *[other] Arrighjistramenti
+    }
 validations =
     { $count ->
         [one] Cunvalidaziona
@@ -715,7 +724,9 @@ top-contributors = Migliori cuntributori
 recorded-clips = Campioni arrighjistrati
 validated-clips = Campioni cunvalidati
 total-approved = Tutale cunvalidatu
+overall-accuracy = Pricisione glubale
 set-visibility = Definisce a mo visibilità
+visibility-overlay-note = Nota : Quandu hè definitu à nantu à 'Visìbile', si pò cambià à nant'à a <profileLink>pagina di prufilu</profileLink>
 show-ranking = Muscià a mo classifica
 
 ## Custom Goals
@@ -724,12 +735,14 @@ get-started-goals = Principià incù i scopi
 create-custom-goal = Creà un scopu parsunale
 goal-type = Chì sorte di scopu vulete custruì ?
 both-speak-and-listen = Tramindui
+both-speak-and-listen-long = I duie (Parlà è Stà à sente)
 daily-goal = Scopu di u ghjornu
 weekly-goal = Scopu di a settimana
 easy-difficulty = Faciule
 average-difficulty = Mediana
 difficult-difficulty = Difficiule
 pro-difficulty = Prufessiunale
+lose-goal-progress-warning = Cambiendu u vostru scopu, si pò perde i vostri prugressi attuali
 want-to-continue = Vulete cuntinuà ?
 finish-editing = Compie i cambii in primu locu ?
 lose-changes-warning = Partendu avà, i vostri cambiamenti seranu persi
@@ -757,12 +770,22 @@ n-clips-pluralized =
 help-share-goal = Aiutate ci à truvà voci in più, spartite u vostru scopu
 confirm-goal = Cunfirmà u scopu
 goal-interval-weekly = Settimanale
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Sparte u vostru scopu ghjurnalieru di { $count } campioni { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Sparte u vostru scopu settimanale di { $count } campioni { $type }
+share-goal-type-speak = Parlati
+share-goal-type-listen = Stati à sente
+share-goal-type-both = Parlati è stati à sente
 weekly-goal-created = U vostru scopu sittimanale hè statu creatu
 daily-goal-created = U vostru scopu ghjurnalieru hè statu creatu
+track-progress = Seguitati i prugressi quì nant'à a vostra paghjina di statistiche.
+return-to-edit-goal = Vultà quì pà mudificà u vostru scopu quand'ella vi piace
 share-goal = Sparte u mo scopu
 
 ## Profile Delete
 
+delete-q = Vulete dumandà chi i vostri arrighjistramenti urali siani cacciati dinù, o preferite tene li in a banca di dati di Common Voice ?
 keep = Mantene
 remove = Caccià
 why-delete-recordings =
@@ -774,6 +797,7 @@ profile-form-delete = Sguassà u prufilu
 ## Profile Download
 
 download-request-button = Scaricà
+download-request-title = { $created }
 
 ## Landing
 
@@ -792,6 +816,7 @@ demo-welcome-subheader = Site interessati pà amparà ne di più è cuntribuisce
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice hè a più maiò banca di dati vucale in parechje lingue, dispunibule publicamente di u mondu.
+demo-language-select-card-body = Grazie à e cuntribuzione di più di 259 mile persone in più di 50 lingue, sti dati sò utilizati pà l’addestramentu d’appiecazioni cù a ricunniscenza vucale pà migliurà a so risposta à a voce umana.
 card-button-next = Seguita
 card-button-back = Nanzu
 demo-language-select-label = Splurà e lingue
@@ -802,6 +827,7 @@ demo-account = Contu
 ## Demo Account
 
 demo-account-card-header = Ùn c'hè bisognu di contu pà cuntribuisce, ancu s'ellu hè ghjuvevule.
+demo-account-card-body = À a diritta, discrivimu i vantaghji è chjarifichemu l'infurmazioni chè no rendemu publiche. Appughjate à nant'à i ligami quì sottu per principià incù un contu Common Voice nant'à u vostru apparechju.
 demo-account-enter-email =
     .label = Scrivite u vostru indirizzu elettronicu pà riceve un ligame d'iscrizzione
 demo-account-sign-up = Mandà u ligame d'iscrizzione
@@ -814,10 +840,20 @@ demo-listen-subtitle = Seti pronti à cuntribuisce ?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = I tavuloni di cumanda parsunale vi tenenu à capu di i vostri prugressi individuali è di quelli di a cumunità.
+demo-dashboard-card-body = Per ogni campione datu è ogni campione vucale cunvalidatu, u vostru tavulonu di cumande hè messu à ghjornu per riflettà i vostri prugressi attuali in ogni lingua à a quella vo aveti cuntribuitu. Iè, si pò cuntribuisce in più chè una !<br/><br/> U vostru tavulone di cumande s’impiega per seguità e vostre statistiche, per vede ciò ch’aveti fattu secondu à l’altri, è definisce i vostri scopi ghjurnalieru o settimanale di cuntribuzione.
 
 ## Validation criteria
 
+contribution-criteria-nav = Criterii
+contribution-criteria-link = Capisce i criterii di cuntribuzione
+contribution-criteria-page-title = Criterii di cuntribuzione
+contribution-criteria-page-description = Capiscite ciò ch'ellu ci vole à circà quandu ascultate campioni urali è migliurate i vostri campioni !
 contribution-for-example = per esempiu
+contribution-misreadings-title = Sbaglii di lettura
+contribution-misreadings-description = Ascultendu, feti casu chè e parolle prununciate sianu e stesse chè quelle scritte ; ricusate ancu s'ellu ci sò chjuchi sbaglii. <br /> I sbaglii i più currenti ponu esse:
+contribution-misreadings-description-extended-list-4 = Sminticà a fine di a parolla cumpiendu l'arrighjistramentu troppu in furia.
+contribution-misreadings-description-extended-list-5 = Ripigliate vi parechje volte per leghje una parolla.
 contribution-misreadings-example-1-title = I dinusauri giganti di u Triassicu.
 contribution-misreadings-example-3-explanation = [Arrighjistramentu piantatu nanzu à a fine di l'ultima parolla]
 contribution-misreadings-example-4-title = I dinusauri giganti di u Triassicu. Iè.
@@ -825,6 +861,8 @@ contribution-misreadings-example-4-explanation = [L'arrighjistramentu hè più l
 contribution-misreadings-example-5-title = Ci n'andemu fora per piglià un caffè.
 contribution-misreadings-example-8-explanation = [U cuntenutu ùn currisponde micca]
 contribution-varying-pronunciations-title = Prununcie variabile
+contribution-varying-pronunciations-description = Feti casu nanzu di ricusà un campionu per via d'un sbagliu di prununcia, d'aletta o di sminticu di puntu d'interrogazione. Esistanu parechji varietà di prununcie in u mondu, forse ch'ùn l'aveti micca tutte sente ind'è vo. Per piacè, date vi una margine d'appreziamentu per quelli ch'ùn parlanu micca cume voi.
+contribution-varying-pronunciations-description-extended = D'un antru latu, sè vo pinsate chè u lettore ùn hà forse mai incuntratu a parolla è ch'ellu si face un sbagliu annant'à a prununcia, per piacè ricusate l'arrighjistramentu. Sè ùn site micca sicuru, appughjate annant'à u buttone scappà.
 contribution-varying-pronunciations-example-2-title = A so manu era al-zata.
 contribution-varying-pronunciations-example-2-explanation = [L'incalcu si mette nant'à a seconda sillaba, micca a prima]
 contribution-background-noise-title = Rimore di fondu
