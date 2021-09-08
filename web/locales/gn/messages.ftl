@@ -189,6 +189,7 @@ logout = Esẽ
 ## Home Page
 
 home-title = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo oñe’ẽháicha yvypóra.
+default-tagline = Common Voice niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo oñe’ẽháicha yvypóra.
 home-cta = Eñe’ẽ, eipytyvõ ápe!
 wall-of-text-start = Ñane ahy’o ñe’ẽ niko yvypóra mba’e. Upévare roipytyvõseterei oĩ hag̃ua ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
@@ -862,8 +863,10 @@ profile-form-delete = Mba’ete Mboguete
 
 download-info = Emombe’umi mba’épa emboguejyse:
 download-profile-title = Mba’ete
+download-profile-size = Ndahetái bytes
 download-recordings-title = Ñeñongatukuéra
 download-recordings-info = Oĩ mp3 ha ñe’ẽñemi ojokupytýva
+download-recordings-size = Ha’etéva megabytes
 download-size = Tuichakue
 download-selected = Poravopyre
 download-start = Emboguejy Ñepyrũ
