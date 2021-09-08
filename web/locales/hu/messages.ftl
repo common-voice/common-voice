@@ -78,6 +78,7 @@ hy-AM = Örmény
 hyw = Nyugati-örmény
 ia = Interlingva
 id = Indonéz
+ie = Interlingue
 is = Izlandi
 it = Olasz
 izh = Izsór
@@ -86,6 +87,7 @@ ka = Grúz
 kaa = Karakalpak
 kab = Kabil
 kbd = Kabardi
+ki = Kikuju
 kk = Kazak
 kmr = Kurmandzsi kurd
 ko = Koreai
@@ -110,6 +112,7 @@ ms = Maláj
 mt = Máltai
 my = Burmai
 myv = Erza
+nan-tw = Tajvani (minnan)
 nb-NO = Norvég bokmål
 ne-NP = Nepáli
 nia = Nias
@@ -129,6 +132,7 @@ ro = Román
 ru = Orosz
 rw = Ruandai
 sah = Szaha
+sat = Szantáli
 sc = Szárd
 scn = Szicíliai
 shi = Tachelhit
@@ -588,8 +592,11 @@ subscribe = Feliratkozás
 get-started-speech = Első lépések a beszédfelismeréssel
 other-datasets = Más hangadatkészletek
 feedback-q = Visszajelzése van?
-deepspeech-info = A Common Voice adatkészlet kiegészíti a Mozilla nyílt forráskódú hangfelismerő motorját, a Deep Speech-et, amelyet beszédfelismerő alkalmazások készítéséhez használhat. Olvassa el a <githubLink>Github áttekintést</githubLink>, vagy az első lépésekhez csatlakozzon a <discourseLink>DeepSpeech Discourse-hoz</discourseLink>.
-common-voice-info-new = Kérdése van a Common Voice-szal kapcsolatban? Ötlete van egy adott nyelv fejlesztéséhez, vagy visszajelzést küldene? Csatlakozzon hozzánk a <discourseLink>Discourse fórumon</discourseLink>, és tudassa velünk.
+resource-nemo-info = Az <githubLink>NVIDIA NeMo</githubLink>™ egy <docsLink>nyílt forráskódú eszközkészlet</docsLink> a legmodernebb társalgási MI modelleket fejlesztő kutatók számára.
+resource-deepspeech-info = A Mozilla nyílt forráskódú hangfelismerő motorja, a Deep Speech, beszédfelismerő alkalmazások készítéséhez használható. Olvassa el a <githubLink>Github áttekintést</githubLink>, vagy az első lépésekhez csatlakozzon a <discourseLink>DeepSpeech Discourse-hoz</discourseLink>.
+resource-coqui-info = A <coquiLink>Coqui</coquiLink> elkötelezett a nyílt beszédtechnológia iránt. A projektjeik közé tartoznak a mély tanuláson alapuló STT (beszédfelismerés) és TTS (beszédszintézis) motorok.
+community-playbook = Közösségi kézikönyv
+resource-playbook-info = <playbookLink>Találjon hasznos útmutatást</playbookLink> a Common Voice teljes folyamatához, a lokalizációtól kezdve az adatkészlet használatáig, és tudja meg, hogyan lehet a közösségünk része.
 data-other-librispeech-description = A LibriSpeech egy közel 1000 órás 16 KHz-es korpusz, ami a LibriVox projekt hangoskönyveinek felolvasott angol szövegéből áll.
 data-other-ted-name = TED-LIUM korpusz
 data-other-ted-description = A TED-LIUM korpusz a TED weboldalon elérhető előadások hanganyagából és a hozzájuk tartozó feliratokból készült.
@@ -863,6 +870,12 @@ why-delete-recordings =
     
     Meg tudja mondani, hogy miért akarja töröltetni a rögzítéseit?
 profile-form-delete = Profil törlése
+
+## Profile Download
+
+download-q = Le kell töltenie az adatait?
+download-info = Mondja el, mit szeretne letölteni:
+download-profile-title = Profil
 
 ## Landing
 
