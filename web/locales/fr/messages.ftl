@@ -592,6 +592,7 @@ feedback-q = Vous avez des suggestions ?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ est une <docsLink>boîte à outils open source</docsLink> pour les chercheurs développant des modèles d’IA conversationnelle de pointe.
 resource-deepspeech-info = Le moteur open source de reconnaissance vocale de Mozilla, Deep Speech, peut être utilisé pour créer des applications de reconnaissance vocale. Consultez notre <githubLink>aperçu sur GitHub</githubLink> ou rejoignez le <discourseLink>Discourse de DeepSpeech</discourseLink> pour bien commencer.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> est dédié à la technologie de la parole ouverte. Parmi leurs projets figurent des moteurs STT et TTS basés sur l’apprentissage en profondeur.
+resource-playbook-info = <playbookLink>Trouvez des conseils utiles</playbookLink> sur l’ensemble du parcours Common Voice, de la localisation à l’utilisation des jeux de données, ainsi que sur la façon de prendre contact avec notre communauté.
 data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures de lecture en anglais (16 kHz) issu de livres audio du projet LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Le corpus TED-LIUM est construit à partir des dialogues audio et de leurs transcriptions disponibles sur le site TED.
@@ -865,6 +866,7 @@ profile-form-delete = Supprimer le profil
 ## Profile Download
 
 download-q = Besoin de télécharger vos données ?
+download-profile-size = Quelques octets
 download-recordings-title = Enregistrements
 download-recordings-info = Comprend les MP3 et les phrases liées, peut prendre un certain temps à préparer
 download-recordings-size = Généralement plusieurs mégaoctets
@@ -873,6 +875,13 @@ download-size = Taille
 download-request-button = Télécharger
 download-request-title = { $created }
 download-request-archive-single = Fichier ZIP unique contenant
+download-request-archive-multiple = Divisé en { $archiveCount } fichiers ZIP contenant
+download-request-assembling-description = Vos fichiers sont en cours d’assemblage. Veuillez vérifier à nouveau plus tard.
+download-request-refresh-button = Actualiser
+download-request-modal-title = Liens de téléchargement
+download-request-modal-description = Voici les liens pour télécharger vos fichiers ZIP.
+download-request-link-text = Zip n°{ $offset } sur { $total }
+download-request-link-single = Vous pouvez également copier et coller les liens directs dans votre gestionnaire de téléchargement préféré. Ils expireront dans 12 heures, mais vous pouvez revenir sur cette page pour en générer de nouveaux à tout moment.
 
 ## Landing
 
