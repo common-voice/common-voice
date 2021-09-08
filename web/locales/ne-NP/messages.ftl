@@ -142,12 +142,46 @@ todays-progress = आजको प्रगति
 help-reach-goal = हामीलाइ { $goal } प्राप्त गर्न मद्दत गर्नुहोस
 read-terms-q = के तपाइँले हाम्रो सर्तहरु पढ्नुभयो ?
 ready-to-record = आफ्नो अवाज दान दिन तयार हुनुहुन्छ ?
+all-locales = सबै
+today = आज
+x-weeks-short =
+    { $count ->
+        [one] हप्ता
+       *[other] हप्ता
+    }
+x-months-short =
+    { $count ->
+        [one] महिना
+       *[other] महिना
+    }
+x-years-short =
+    { $count ->
+        [one] बर्ष
+       *[other] बर्ष
+    }
+help-make-dataset = हामीलाई उच्च गुणवत्ता, सार्वजनिक रूपमा खुल्ला डेटासेट बनाउन मद्दत गर्नुहोस
+sign-up-account = खाताको लागि साइन अप गर्नुहोस्
+email-subscription-title = ईमेल अद्यावधिकहरूको लागि साइन अप गर्नुहोस्
+email-subscription-title-new = साझा आवाज न्यूजलेटरहरू, लक्ष्य अनुस्मारकहरू र प्रगति अपडेटहरूको लागि साइन अप गर्नुहोस्
 
 ## Account Benefits
 
+benefits = लाभहरू
+rich-data = केही बेनामी डेमोग्राफिक डाटा प्रदान गरेर तपाईको सबमिट गरिएको डाटालाई सकेसम्म धनी बनाउनुहोस्। हामी यसलाई सार्वजनिक बनाउनु अघि सबै जनसांख्यिकीय डाटालाई अ-पहिचान गर्छौं।
+improve-audio = प्रोफाइल जानकारीले भाषण प्रशिक्षणमा प्रयोग गरिएको अडियो डेटा सुधार गर्दछ।
+keep-track = विविध भाषाहरूमा तपाईको प्रगति र मेट्रिक्सहरू ट्रयाक राख्नुहोस्।
+compare-progress = तपाईंको प्रगति कसरी विश्वभरका अन्य योगदानकर्ताहरूसंग तुलना हुदैछ हेर्नुहोस् ।
+view-goals = व्यक्तिगत र परियोजना लक्ष्यहरूको विरूद्ध तपाईको प्रगति हेर्नुहोस्।
+join-newsletter = वैकल्पिक रूपमा हाम्रो इमेल सूचीमा अद्यावधिक र परियोजना बारे नयाँ जानकारीको लागि सामेल हुनुहोस्।
 
 ## What's public
 
+whats-public = सार्बजनिक के के छ?
+email-not-public = हामी तपाईंको ईमेल सार्वजनिक गर्दैनौं।
+recordings-and-locale-public = रेकर्डिङहरूको संख्या र कुन भाषाहरूमा तपाईंले योगदान गर्नुभएको जानकारी सार्वजनिक हुनेछ।
+username-optin-public = तपाईं आफ्नो प्रयोगकर्ता नाम सार्वजनिक वा गुमनाम बनाउन छनौट गर्न सक्नुहुन्छ।
+demographic-deidentified-clarity-2 = वैकल्पिक रूपमा पेश गरिएको जनसांख्यिकीय डेटा (उदाहरण उमेर, लिङ्ग, भाषा, र एक्सेन्ट) लाई कहिले तपाईको प्रोफाइलमा सार्वजनिक गरिने छैन, र डाटासेटमा तपाईंको खातामा लिंक गरिने छैन। व्यक्तिगत अडियो क्लिपहरू अधिक सटीक विश्लेषणको उद्देश्यका लागि डेमोग्राफिक डाटासँग सम्बन्धित हुनेछ - उदाहरणका लागि, एक अन्वेषक एक विशेष जनसांख्यिकीय खण्डमा एक प्रशिक्षण मोडेललाई लक्षित गर्न चाहन सक्छ।
+username-email-not-demographic = तपाईको प्रयोगकर्ता नाम र ईमेल प्रकाशित डेटासँग सम्बद्ध हुनेछैन।
 
 ## Speak & Listen Shortcuts
 
@@ -173,8 +207,13 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = रेकर्ड गर्नुहोस्/रोक्नुहोस्
+shortcut-rerecord-toggle = [१-५]
 shortcut-rerecord-toggle-label = क्लिप पुन: रेकर्ड गर्नुहोस्
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = फर्किनुहोस्
+shortcut-submit-label = क्लिप बुझाउनुहोस्
 request-language-text = Common Voice मा तपाईँको भाषा अझै देख्नुभएन ?
+request-language-text-learn = यहाँ कसरी अनुरोध गर्ने जान्नुहोस्!
 request-language-button = भाषा अनुरोध गर्नुहोस्
 
 ## ProjectStatus
@@ -195,10 +234,22 @@ english = अंग्रेजी
 
 profile-form-username =
     .label = प्रयोगकर्ता नाम
+profile-form-native-language =
+    .label = मूल भाषा
+profile-form-additional-language =
+    .label = अतिरिक्त भाषा
 profile-form-accent =
     .label = उच्चारण
 profile-form-age =
     .label = उमेर
+profile-form-gender-2 =
+    .label = लिङ्ग
+leaderboard-visibility =
+    .label = लिडरबोर्ड दृश्यता
+hidden = लुकेको
+visible = देखिने
+native-language =
+    .label = मूल भाषा
 profile-form-submit-save = बचत गर्नुहोस्
 profile-form-submit-saved = बचत गरियो
 male = पुरुष
@@ -207,6 +258,9 @@ female = महिला
 other = अन्य
 why-profile-title = प्रोफाइल किन ?
 why-profile-text = तपाईँको बारेमा केहि जानकारी प्रदान गर्दा, तपाईँले Common Voice मा पेश गर्ने अडियो डाटा, बोलि पहिचान गर्ने इन्जिनहरुको लागि अझ उपयोगि हुनेछन् जसले यो डाटा उनिहरुको शुद्दता सुधार गर्न प्रयोग गर्छन् ।
+dashboard = ड्यासबोर्ड
+build-profile = प्रोफाइल बनाउनुहोस्
+avatar = अवतार
 edit-profile = प्रोफाइल सम्पादन गर्नुहोस्
 profile-create-success = सफलता, प्रोफाईल सिर्जना गरियो!
 profile-close = बन्द गर्नुहोस्
