@@ -935,5 +935,6 @@ contribution-background-noise-title = Tyapu tapykuegua
 contribution-background-noise-example-2-explanation = [Ndaikatúi oñehendu moñe’ẽrã vore]
 contribution-background-voices-title = Ñe’ẽ tapykuegua
 contribution-volume-title = Mbopuha
+contribution-just-unsure-title = ¿Nahekorasãi?
 see-more = <chevron></chevron>Ehechave
 see-less = <chevron></chevron>Ehecha’ive
