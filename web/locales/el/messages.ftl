@@ -579,8 +579,6 @@ subscribe = Εγγραφή
 get-started-speech = Ξεκινήστε με την αναγνώριση ομιλίας
 other-datasets = Άλλα σύνολα δεδομένων φωνής
 feedback-q = Έχετε σχόλια;
-deepspeech-info = Το σύνολο δεδομένων του Common Voice συμπληρώνει το Deep Speech, την ανοικτού κώδικα μηχανή αναγνώρισης φωνής της Mozilla, το οποίο μπορείτε να χρησιμοποιήσετε για να αναπτύξετε εφαρμογές αναγνώρισης ομιλίας. Διαβάστε την <githubLink>επισκόπηση στο Github</githubLink> ή γίνετε μέλος του <discourseLink>DeepSpeech Discourse</discourseLink> για να μάθετε πώς να ξεκινήσετε.
-common-voice-info-new = Έχετε απορίες σχετικά με το Common Voice; Ιδέες για βελτιώσεις ή σχόλια για μια συγκεκριμένη γλώσσα; Ελάτε στο <discourseLink>φόρουμ μας στο Discourse</discourseLink> και πείτε μας.
 data-other-librispeech-description = Το LibriSpeech είναι ένα σύνολο στοιχείων με περίπου 1000 ώρες από 16Khz αναγνωσμένων ομιλιών στα Αγγλικά, που προέρχονται από τα ηχητικά βιβλία του έργου LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Το σύνολο στοιχείων TED-LIUM δημιουργήθηκε από ηχητικές ομιλίες και απομαγνητοφωνήσεις αυτών, που είναι διαθέσιμες στην ιστοσελίδα του TED.
@@ -854,6 +852,14 @@ why-delete-recordings =
     
     Μπορείτε να μάς ενημερώσετε γιατί θέλετε να διαγραφούν οι ηχογραφήσεις σας;
 profile-form-delete = Διαγραφή προφίλ
+
+## Profile Download
+
+download-request-button = Λήψη
+download-request-title = { $created }
+download-request-refresh-button = Ανανέωση
+download-request-modal-title = Σύνδεσμοι λήψεων
+download-request-metadata-link = Κείμενο πρότασης
 
 ## Landing
 

@@ -11,6 +11,7 @@ loading = Бор шуда истодааст…
 email-opt-in-info = Ман мехоҳам, ки паёмҳои электрониро ба монанди ёдовариҳо оид ба ҳадафҳо, навигариҳо оид ба пешрафтҳои ман ва паёмҳои иттилоотӣ оид ба «Common Voice» қабул намоям.
 email-opt-in-info-title = Ба рӯйхати «Common Voice» мактубҳо обуна шавед
 email-opt-in-info-sub-with-challenge = Паёмҳои электрониро ба монанди ёдовариҳо оид ба ҳадафҳо, навигариҳо оид ба пешрафтҳо ва паёмҳои иттилоотӣ оид ба «Common Voice» қабул намоед.
+email-opt-in-privacy-v2 = Бо интихоби қабули паёмҳои электронӣ, шумо изҳор мекунед, ки шумо бо Mozilla барои коркарди ин иттилоот ба тавре, ки дар <privacyLink> Сиёсати махфияти</privacyLink> Mozilla шарҳ дода шудааст, розӣ ҳастед.
 indicates-required = * ин аломат майдони ҳатмиро нишон медиҳад
 not-available-abbreviation = Дастнорас
 
@@ -218,6 +219,9 @@ request-language-button = Дархости забон
 ## ProjectStatus
 
 status-title = Вазъи умумии лоиҳа: бинед, ки мо то куҷо расидаем!
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Ҳадафҳои навбатӣ: { $goal }
 english = Англисӣ
 
 ## ProfileForm
@@ -232,6 +236,8 @@ profile-form-age =
     .label = Синну сол
 profile-form-gender-2 =
     .label = Ҷинс
+leaderboard-visibility =
+    .label = Қобили намоиш дар лавҳаи пешравон
 hidden = Ноаён
 visible = Намоён
 native-language =
@@ -446,6 +452,9 @@ return-to-edit-goal = Барои таҳрир кардани ҳадафи худ
 keep = Ногоҳ доштан
 remove = Тоза кардан
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Кормандони { $company } хуш омадед!
@@ -466,4 +475,7 @@ demo-account = Ҳисоб
 demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
 ## Demo Dashboard
+
+
+## Validation criteria
 

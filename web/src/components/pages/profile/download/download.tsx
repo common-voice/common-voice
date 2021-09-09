@@ -49,11 +49,11 @@ const Item = ({
   title,
   size,
   info,
+  type,
+  action,
   className = '',
   disabledReason = '',
-  isSelected = true,
   isDisabled = false,
-  setIsSelected,
   children,
   ...props
 }: {
@@ -61,11 +61,11 @@ const Item = ({
   title: string;
   size: string;
   info: string;
+  type: 'profile' | 'clips';
+  action: () => void;
   className?: string;
-  isSelected: boolean;
   isDisabled?: boolean;
   disabledReason?: string;
-  setIsSelected: any;
   children?: React.ReactNode;
 }) => {
   return (
@@ -75,23 +75,19 @@ const Item = ({
         <h3>{title}</h3>
         <p>{info}</p>
       </div>
-      <div className="download-item-size">
-        <p>{size}</p>
-      </div>
+      <p>{size}</p>
+
       {isDisabled ? (
         <span className="download-disabled">{disabledReason}</span>
       ) : (
-        <LabeledCheckbox
-          checked={isSelected}
-          onChange={(event: any) => {
-            setIsSelected(event.target.checked);
-          }}
-          label={
-            <Localized id="download-selected">
-              <span />
-            </Localized>
-          }
-        />
+        <Localized
+          id={type === 'clips' ? 'download-request' : 'download-start'}>
+          <Button
+            rounded
+            className="download-button"
+            onClick={action}
+          />
+        </Localized>
       )}
     </div>
   );
@@ -301,13 +297,12 @@ export function getProfileInfo(account: UserClient) {
 function download(
   account: UserClient,
   api: API,
-  infoSelected: boolean,
-  recordingsSelected: boolean,
+  type: 'profile' | 'clips',
   forceTakeoutRefresh: () => void
 ) {
-  if (infoSelected) downloadTextAsFile('profile.txt', getProfileInfo(account));
+  if (type === 'profile') downloadTextAsFile('profile.txt', getProfileInfo(account));
 
-  if (recordingsSelected)
+  if (type === 'clips')
     api
       .requestTakeout()
       .then((data: any) => forceTakeoutRefresh())
@@ -318,9 +313,6 @@ function DownloadProfile(props: WithLocalizationProps) {
   const api = useAPI();
   const account = useAccount();
   const { getString } = props;
-
-  const [infoSelected, setInfoSelected] = useState(true);
-  const [recordingsSelected, setRecordingsSelected] = useState(true);
 
   const [hasAnyPendingTakeout, setHasAnyPendingTakeout] = useState(false);
   const [takeouts, setTakeouts] = useState(null);
@@ -342,10 +334,6 @@ function DownloadProfile(props: WithLocalizationProps) {
     );
   }, [takeouts]);
 
-  useEffect(() => {
-    if (hasAnyPendingTakeout) setRecordingsSelected(false);
-  }, [hasAnyPendingTakeout]);
-
   return (
     <>
       {takeoutRequestId !== null && (
@@ -365,44 +353,25 @@ function DownloadProfile(props: WithLocalizationProps) {
           title={getString('download-profile-title')}
           info={getString('download-profile-info')}
           size={getString('download-profile-size')}
-          isSelected={infoSelected}
-          setIsSelected={setInfoSelected}
+          type='profile'
+          action={() => download(account, api, 'profile', forceTakeoutRefresh)}
         />
         <Item
           icon={<MicIcon />}
           title={getString('download-recordings-title')}
           info={getString('download-recordings-info')}
           size={getString('download-recordings-size')}
-          isSelected={recordingsSelected}
-          setIsSelected={setRecordingsSelected}
+          type='clips'
+          action={() => download(account, api, 'clips', forceTakeoutRefresh)}
           isDisabled={hasAnyPendingTakeout}
           disabledReason={getString('download-recordings-unavailable')}
         />
-        <div>
-          <Localized
-            id={recordingsSelected ? 'download-request' : 'download-start'}>
-            <Button
-              rounded
-              disabled={!infoSelected && !recordingsSelected}
-              className="download-button"
-              onClick={() =>
-                download(
-                  account,
-                  api,
-                  infoSelected,
-                  recordingsSelected,
-                  forceTakeoutRefresh
-                )
-              }
-            />
-          </Localized>
-        </div>
       </Section>
       {takeouts && takeouts.length > 0 && (
         <Section
           title={getString('download-requests')}
           info={getString('download-requests-info')}
-          id="requests"
+          id='requests'
           className="download-requests"
           key={takeoutRefresh}>
           {takeouts.map((request: TakeoutRequest) => (

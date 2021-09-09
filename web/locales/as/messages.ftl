@@ -78,6 +78,7 @@ hy-AM = আৰ্মেনীয়
 hyw = পশ্চিমীয়া আৰ্মেনীয়
 ia = ইণ্টাৰ্লিংগুৱা
 id = ইণ্ডোনেচীয়
+ie = ইণ্টাৰ্লিংগ
 is = আইচলেণ্ডীয়
 it = ইটালিয়ান
 izh = ইজ'ৰীয়
@@ -578,8 +579,11 @@ subscribe = ছাব‌স্ক্ৰাইব কৰক
 get-started-speech = কথন চিনাক্তকৰণেৰে আৰম্ভ হৈ যাওক
 other-datasets = অন্য ভইচ ডেটাছেটবোৰ
 feedback-q = সঁহাৰি আছেনে?
-deepspeech-info = কমন ভইচ ডেটাছেটে Mozilla-ৰ মুকলি উৎসৰ কণ্ঠ চিনাক্তকৰণ ইঞ্জিন Deep Speech-ক সম্পূৰ্ণ কৰে, যিটো আপুনি কথন চিনাক্তকৰণ এপ্লিকেশ্যন নিৰ্মাণ কৰিবলৈ ব্যৱহাৰ কৰিব পাৰে। কেনেকৈ আৰম্ভ কৰিব সেয়া জানিবলৈ আমাৰ <githubLink>Github অৱলোকন</githubLink> পঢ়ক বা <discourseLink>DeepSpeech Discourse</discourseLink>-ত যোগদান কৰক।
-common-voice-info-new = কমন ভইচৰ বিষয়ে কিবা প্ৰশ্ন আছেনে? উন্নয়নৰ বাবে আইডিয়া বা কোনো নিৰ্দিষ্ট ভাষাৰ বিষয়ে সঁহাৰি? আমাৰ <discourseLink>Discourse ফ'ৰাম</discourseLink>ত যোগদান কৰি আমাক জনাওক।
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ হৈছে অত্যাধুনিক কথোপকথনমূলক AI মডেল প্ৰস্তুত কৰা গৱেষকসকলৰ বাবে এক <docsLink>মুক্ত-উৎসৰ টুলকিট</docsLink>।
+resource-deepspeech-info = কথন চিনাক্তকৰণ এপ্লিকেশ্যন তৈয়াৰ কৰিবলৈ Mozilla-ৰ মুক্ত উৎসৰ কণ্ঠস্বৰ চিনাক্তকৰণ ইঞ্জিন Deep Speech ব্যৱহাৰ কৰিব পাৰি। আমাৰ <githubLink>Github অৱলোকন</githubLink> পঢ়ক নাইবা কেনেকৈ আৰম্ভ কৰিব লাগে জানিবলৈ <discourseLink>DeepSpeech Discourse</discourseLink>-ত যোগদান কৰক।
+resource-coqui-info = <coquiLink>Coqui</coquiLink> মুক্ত কথন প্ৰযুক্তিৰ বাবে উৎসৰ্গিত। তেওঁলোকৰ প্ৰকল্পসমূহৰ ভিতৰত আছে গভীৰ শিক্ষণ-ভিত্তিক STT আৰু TTS ইঞ্জিন।
+community-playbook = সাম্প্ৰদায়িক প্লে'বুক
+resource-playbook-info = সমগ্ৰ কমন ভইচ যাত্ৰাত স্থানীয়কৰণৰ পৰা আদি কৰি ডাটাছেট ব্যৱহাৰ আৰু লগতে আমাৰ সম্প্ৰদায়ৰ সৈতে কেনেকৈ সংযোগ কৰিব পাৰি তাৰে <playbookLink>সহায়ক নিৰ্দেশনা পাওক</playbookLink>।
 data-other-librispeech-description = LibriSpeech হৈছে LibriVox প্ৰকল্পৰ পঠিত অডিঅ'কিতাপবোৰৰ পৰা লাভ কৰা 1000 ঘণ্টীয়া 16Khz পঠিত ইংৰাজী কথনৰ এক সংগ্ৰহ।
 data-other-ted-name = TED-LIUM ক'ৰ্পাছ
 data-other-ted-description = TED-LIUM ক'ৰ্পাছ TED ৱেবছাইটত উপলব্ধ অডিঅ' কথা আৰু সেইবোৰৰ পাঠান্তৰৰ পৰা বনোৱা হৈছিল।
@@ -853,6 +857,36 @@ why-delete-recordings =
     
     আপুনি আপোনাৰ ৰেকৰ্ডিংবোৰ কিয় মচি পেলাবলৈ বিচাৰে আমাক জনাব পাৰিবনে?
 profile-form-delete = প্ৰ'ফাইল মচি পেলাওক
+
+## Profile Download
+
+download-q = আপোনাৰ ডাটা ডাউনল'ড কৰিব লাগে নেকি?
+download-info = আপুনি কি ডাউনল'ড কৰিব বিচাৰে আমাক কওক:
+download-profile-title = প্ৰ'ফাইল
+download-profile-info = ইমেইল, ব্যৱহাৰকাৰীনাম আৰু জনগাঁথনিমূলক তথ্য অন্তৰ্ভুক্ত
+download-profile-size = কেইটামান বাইট
+download-recordings-title = ৰেকৰ্ডিংবোৰ
+download-recordings-info = mp3 আৰু আনুষংগিক বাক্য অন্তৰ্ভুক্ত
+download-recordings-size = সাধাৰণতে মেগাবাইট
+download-recordings-unavailable = ইতিমধ্যে আন এটা অনুৰোধৰ কাম চলি থকা অৱস্থাত আপুনি আপোনাৰ ৰেকৰ্ডিংবোৰৰ অনুৰোধ কৰিব নোৱাৰে।
+download-size = আকাৰ
+download-selected = বাছনি কৰিছে
+download-start = ডাউনল'ড আৰম্ভ কৰক
+download-request = ডাউনল'ডৰ অনুৰোধ কৰক
+download-requests = পূৰ্বৰ ডাউনল'ডৰ অনুৰোধবোৰ
+download-requests-info = যেতিয়া আপুনি আপোনাৰ ৰেকৰ্ডিংবোৰৰ অনুৰোধ কৰে, তেতিয়া আমি সেইবোৰ এটা বা কেইবাটাও ZIP ফাইলত সংকলন কৰোঁ। ইয়াত আপোনাৰ পূৰ্বৰ অনুৰোধবোৰ দিয়া হৈছে:
+download-request-button = ডাউনল'ড কৰক
+download-request-title = { $created }
+download-request-description = { $clipCount }টা ভইচ ক্লিপ, আৰ্কাইভৰ মুঠ আকাৰ { $size }। { $expires } ম্যাদ উকলিব।
+download-request-archive-single = এটাই ZIP ফাইল য'ত থাকিব
+download-request-archive-multiple = { $archiveCount }টা ZIP ফাইলত বিভক্ত য'ত থাকিব
+download-request-assembling-description = আপোনাৰ ফাইলসমূহ একত্ৰিত কৰি থকা হৈছে। অনুগ্ৰহ কৰি পাছত পুনৰ পৰীক্ষা কৰিব।
+download-request-refresh-button = সতেজ কৰক
+download-request-modal-title = ডাউনল'ড লিংকসমূহ
+download-request-modal-description = আপোনাৰ ZIP ফাইলবোৰ ডাউনল'ড কৰাৰ লিংককেইটা ইয়াত দিয়া হৈছে।
+download-request-link-text = { $total }টাৰ #{ $offset } নং Zip
+download-request-metadata-link = বাক্য-পাঠ
+download-request-link-single = আপুনি আপোনাৰ প্ৰিয় ডাউনল'ড মেনেজাৰত পোনপটীয়া URL কপি-পে'ষ্ট কৰিবও পাৰে। সেয়া 12 ঘণ্টাৰ ভিতৰত উকলি যাব যদিও আপুনি যিকোনো সময়তে নতুন এটা তৈয়াৰ কৰিবলৈ এই পৃষ্ঠালৈ ঘূৰি আহিব পাৰে।
 
 ## Landing
 

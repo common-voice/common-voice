@@ -879,6 +879,7 @@ download-request-refresh-button = Làm mới
 download-request-modal-title = Liên kết tải xuống
 download-request-modal-description = Đây là các liên kết để tải xuống các tệp ZIP của bạn.
 download-request-link-text = Zip #{ $offset } trong tổng số { $total }
+download-request-metadata-link = Câu văn bản
 download-request-link-single = Bạn cũng có thể sao chép và dán URL vào trình quản lý tải xuống yêu thích của mình. Chúng sẽ hết hạn sau 12 giờ, nhưng bạn có thể quay lại trang này để tạo những cái mới bất kỳ lúc nào.
 
 ## Landing

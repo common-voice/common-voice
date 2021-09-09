@@ -2514,7 +2514,14 @@ A ‘brine smeller’ expressed his belief that mines might be opened.
 A-I does not guarantee a dystopia or utopia.
 Abdul is a hard working entrepreneur from a humble background.
 Aberdeen terriers, they are, and as sharp as mustard.
+Abhay goes to work.
+Abhay is a good boy.
+Abhay is a nice guy.
+Abhay is acting weird today.
 Abhay is our reporting manager.
+Abhay is very sad today.
+Abhay is worried about something.
+Abhay works on time.
 Abide with me.
 Abort.
 About a hundred a month.
@@ -3233,7 +3240,15 @@ Altogether a fit-looking sort of man.
 Altogether he left Parker vaguely suspicious.
 Alvyn Abranches is from Goa.
 Alvyn apathetically states that he has no interest.
+Alvyn goes to work.
+Alvyn is a good boy.
+Alvyn is a nice guy.
+Alvyn is acting weird today.
 Alvyn is staying in Porvorim now.
+Alvyn is very sad today.
+Alvyn is very sweet.
+Alvyn is worried about something.
+Alvyn works on time.
 Always fingering one's motives is a sign of an unwholesome preoccupation with self.
 Always her ears were hid in her short curls.
 Always keep household detergents out of children's reach.
@@ -3533,6 +3548,7 @@ And William occupied her chiefly.
 And William went to London, to start a new life.
 And a long time afterwards she brought her another supply.
 And a nice brother he is — half-brother I mean to say.
+And a river went out of Eden to water the garden;
 And a second afterwards, a tiny bright light shone.
 And a very good name too.
 And a whisky and soda, and so forth.
@@ -4078,6 +4094,7 @@ And the foundation stone of service, in his case, was obedience.
 And the frock in which she went away was of green chiffon over satin.
 And the front door's unbolted.
 And the furniture was old and battered.
+And the gold of that land is good:
 And the government is like this and like that.
 And the hue of it was a deepening misery.
 And the letters are destroyed with the person?
@@ -4086,6 +4103,8 @@ And the mind of the thoroughly well-informed man is a dreadful thing.
 And the money he had saved up grew littler and littler.
 And the money was just sufficient.
 And the money's gone!
+And the name of the second river is nile
+And the name of the third river is Hudson
 And the natives were very kind.
 And the neighbours made broths, and gave eggs, and such invalids’ trifles.
 And the night had fallen.
@@ -8369,6 +8388,7 @@ Disaster would fall upon the man who sinned, and upon the whole brotherhood.
 Discipline and grievance policy.
 Discovery of the jewels!
 Discretion is the better part of valour, or so they say.
+Discussion is better than just sitting alone and doing.
 Disgraceful that an able-bodied man like you should dare to beg.
 Disingenuousness and double dealing seemed to meet him at every turn.
 Dismiss her patronage from consideration?
@@ -8377,6 +8397,8 @@ Displaying Nazi symbols or propaganda is against the law in Germany.
 Disregard of the primary impulse may be self-defeating.
 Divided, we fall, together we may worry through.
 Divya is on leave tomorrow.
+Divya is still working on it.
+Django is a Python web framework.
 Do I believe God had more favor with him because of his gifts?
 Do I believe Jesus is the son of God?
 Do I come across as being pretentious if I wear this?
@@ -8516,6 +8538,7 @@ Do you have a booking with us?
 Do you have a carpet sweeper or a Hoover I can borrow?
 Do you have a clean handkerchief?
 Do you have a credit or debit card to pay for the remaining elements?
+Do you have a degree in douchery?
 Do you have a favourite knock knock joke?
 Do you have a softer one?
 Do you have a spouse?
@@ -10719,6 +10742,14 @@ Happy people come on!
 Happy wife, happy life.
 Hard biscuit, commonly called crackers, are sometimes given.
 Harder than I could have supposed you would be.
+Hardik goes to work.
+Hardik is a good boy.
+Hardik is a nice guy.
+Hardik is acting weird today.
+Hardik is very sad today.
+Hardik is very sweet.
+Hardik is worried about something.
+Hardik works on time.
 Hardly were our plans made public before we were met by powerful opposition.
 Hareton and Joseph were probably fast asleep in bed.
 Hareton looked at his plate, and did not repeat the confession.
@@ -11006,6 +11037,7 @@ Having turned the sarcasm into a compliment, he resumed his story.
 Hayden Caramel was afraid they'd have to toddle off.
 Haymakers are valuable implements.
 Hayward is essentially a stylist.
+He a major role to play.
 He abandoned all attempt at guarding.
 He absentmindedly stumbled over the cerulean staircase.
 He accidentally put his driving licence in the dustbin
@@ -11479,6 +11511,7 @@ He doesn't pressure me or get upset when I mess up.
 He doesn't seem a bad sort of chap.
 He doesn’t get here till half-past eight.
 He dolefully lit a cigarette.
+He doth the right thing.
 He drank a bit.
 He drank of the water cautiously.
 He drank off two more glasses of wine, one after another.
@@ -12230,6 +12263,7 @@ He is so excessively handsome!
 He is so quiet, because there is no one to talk to.
 He is so very superior.
 He is so very sympathetic.
+He is still a toddler.
 He is still asleep, and nothing is astir.
 He is struggling for life in an overcrowded profession.
 He is such a cheery fellow.
@@ -12720,6 +12754,7 @@ He placed his paw on one, and its movements were accelerated.
 He plainly wavered.
 He played billiards in the Mechanics’ Hall.
 He played the bowl over the covers to get a four.
+He plays a good role overall.
 He plays the character of Smith in the University review.
 He plodded on for half an hour, when the hallucination arose again.
 He pointed at the fireplace.
@@ -12886,6 +12921,7 @@ He richly deserved his reputation.
 He rises; she rises too.
 He risked his life daily, and with gaiety.
 He rode up from his position of third man in the swing.
+He rolled on it.
 He rolled over and sat up staring.
 He rose again and was hit severely behind the ear.
 He rose and assisted Muhammed to arise.
@@ -13834,6 +13870,7 @@ He was obliged to shut his eyes and pretend to sleep.
 He was obviously pleased with his admiration.
 He was of a violent character.
 He was often cruelly ashamed.
+He was on a superior role.
 He was on his back, scratching upwards.
 He was one of the worst patients imaginable.
 He was only just in time, for the door yielded.
@@ -13948,6 +13985,7 @@ He was the first wife and Mara A.
 He was the founder of a now-defunct journal.
 He was the lady.
 He was the leader, and Tudor was his lieutenant.
+He was the main character of the film.
 He was the man of action among fumblers.
 He was the master of the situation.
 He was the most forgetful squirrel in the wood.
@@ -14060,6 +14098,7 @@ He went out upon the war-path, and added scalp to scalp.
 He went over a ship's side.
 He went over to the writing-table and opened the blotting-book.
 He went past Clara without speaking.
+He went rolling on the seesaw.
 He went straight to the root of the matter.
 He went straight to the sink where his wife was washing up.
 He went suddenly to her, and put his hand on her shoulder.
@@ -15292,6 +15331,9 @@ His resumé says he enjoys solving usability problems in user interfaces.
 His revenge would have been complete indeed.
 His reward should have been peace and repose.
 His ridiculous hypersensitiveness made her heart ache.
+His role is important.
+His role was a army man.
+His role was major.
 His rubbish was taken away in the dustcart
 His ruddy face darkened in parallel planes of shadows.
 His run lost its stateliness and increased its vigour.
@@ -16006,6 +16048,7 @@ However, there’s no help for it.
 However, this is simply not true.
 However, to return to the point under discussion, why not?
 However, too late to worry about that now.
+However, we need our money.
 However, we walked home very silently.
 However, we will call the head waiter.
 However, we’ll be friends now.
@@ -22765,6 +22808,7 @@ It is generally the man's own fault.
 It is geographically located five hundred miles south-east.
 It is getting late, and they have not come.
 It is good practice to commiserate the losing team.
+It is good to play with kids.
 It is gradually becoming restricted to the dirigible balloon.
 It is growing, every day, every hour.
 It is he who encourages me.
@@ -22909,6 +22953,7 @@ It is regrettable that she has lost.
 It is required in the performance of our most basic public responsibilities.
 It is requisite to lay some stress yourself.
 It is right that I should be chastened in some penalty.
+It is right to do that.
 It is rude to curse.
 It is sad to hear about you loss. How did it happen?
 It is said that bees send out scouts before leaving the hive.
@@ -25227,6 +25272,14 @@ Konkani has no natural language processing models.
 Konkani has two dialects.
 Konkani is spoke in Goa.
 Kris had long ago settled that she was a baptist.
+Kunal goes to work.
+Kunal is a good boy.
+Kunal is a nice guy.
+Kunal is acting weird today.
+Kunal is very sad today.
+Kunal is very sweet.
+Kunal is worried about something.
+Kunal works on time.
 Labor is either bodily or mental.
 Lack of appetite!
 Lack of exercise must have been a factor.
@@ -25739,6 +25792,7 @@ Lydia came to us; and Wickham had constant admission to the house.
 Lydia was Lydia still; untamed, unabashed, wild, noisy, and fearless.
 Lydia was exceedingly fond of him.
 Lyra watched that visible inaudible conversation.
+M. S. Dhoni is a great wicketkeeper.
 Ma's ruinous to everything.
 Ma, I always hated and detested him.
 Mab, she said.
@@ -25770,6 +25824,7 @@ Mahendra Singh Dhoni created a record of fastest stumping.
 Mahogany runs good to three feet.
 Maintain your health while you have it, it's easier.
 Maize is another word for corn
+Major role was given to him.
 Majority of his runs are scored off side.
 Make a clear beginning altogether.
 Make a note to get your eyebrows done.
@@ -25817,7 +25872,15 @@ Mankind must preserve the environmental ecosystem that sustains it.
 Manohar apathetically states that he has no interest.
 Manoj Tiwari is a good bowler.
 Manoj apathetically states that he has no interest.
+Manoj goes to work.
+Manoj is a good boy.
+Manoj is a nice guy.
+Manoj is acting weird today.
 Manoj is the leader.
+Manoj is very sad today.
+Manoj is very sweet.
+Manoj is worried about something.
+Manoj works on time.
 Mansi just joined the job while I did.
 Manuel had one besetting sin.
 Many English come here to get fresh air and indulge in a gamble.
@@ -30148,6 +30211,11 @@ Rachel is too outspoken.
 Racing cars are essential to motorsport
 Radiator coolant has a cooling effect on an Engine.
 Rains play their part in flushing streets.
+Rajib is the assistant pastor of our church.
+Rajib is the assistant pastor.
+Rajib is the deacon of our church.
+Rajib is the deacon.
+Rajib played well yesterday.
 Ralph loathed Todd.
 Ralph wondered what on earth the Q in his middle name stood for.
 Ran over to call on you.
@@ -37358,6 +37426,7 @@ The name gopher signifies a gray squirrel in Canada.
 The name is a cord.
 The name is the most famous for these of Cook.
 The name of little Benjamin's papa was old Mr Benjamin Bunny.
+The name of the first is golden, where there is gold;
 The name of these good people was Jordan.
 The name of this old pagan's god was Compound Interest.
 The name over the window was "Ginger and Pickles."
@@ -38668,6 +38737,11 @@ The tip-toppers are livelier than the mediums.
 The tipping points are interrelated, and could amplify one another.
 The tires are Deflated.
 The tires became bald from heavy usage.
+The tissue paper roll is in the kitchen.
+The tissue roll is in the bathroom.
+The tissue roll is in the kitchen.
+The tissue roll is in the toilet.
+The tissue roll.
 The toad-under-the-harrow expression began to fade from Sanders's face.
 The toaster burnt the toast, it was blackened and crusty.
 The toddler became hyper after he ate some chocolate.
@@ -44319,6 +44393,7 @@ We want the brass to be powerful for the viewers to hear.
 We want the parade to be seen by millions around the world.
 We want to include all of our partners in this project.
 We want to reduce exclusion and promote inclusion.
+We want to work in a group.
 We want you to be part of this community.
 We want — I can’t hold the thing.
 We wanted to foster children.
@@ -49051,9 +49126,11 @@ remember ye the words which have been spoken before by the apostles.
 said I, taking the woman aside.
 the Bet was named after him.
 the constable observes to the audience.
+the fourth river is Euphrates.
 the greater light to rule the day, and the lesser to rule the night:
 the judgments which I have formed
 the teacher doesn't like the word 'say'
+the tree of knowledge of good and evil was there.
 the word "pasta" comes from Italian, but "noodle" comes from German.
 to put me on my guard?
 upending my world or adding something new and complicated to the mix

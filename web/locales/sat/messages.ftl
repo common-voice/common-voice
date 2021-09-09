@@ -5,6 +5,8 @@ email-input =
     .label = ᱤᱢᱮᱞ
 submit-form-action = ᱡᱚᱢᱟᱭ ᱢᱮ
 loading = ᱞᱟᱫᱮᱜᱼᱟ…
+email-opt-in-info-title = Common Voice ᱢᱮᱞᱤᱝ ᱥᱩᱪᱤ ᱥᱟᱶ ᱡᱩᱲᱟᱣᱜ ᱢᱮ
+indicates-required = * ᱞᱟᱹᱠᱛᱤ ᱠᱟᱱ ᱡᱟᱭᱜᱟ ᱠᱟᱱᱟ
 not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -32,12 +34,23 @@ bm = ᱵᱟᱢᱵᱟᱨᱟ
 bn = ᱵᱮᱝᱜᱟᱞᱤ
 br = ᱵᱨᱮᱴᱚᱱ
 bxr = ᱵᱩᱨᱭᱟᱹᱛ
+ca = ᱠᱮᱴᱟᱞᱮᱱ
+cak = ᱠᱟᱠᱪᱤᱠᱮᱞ
+ckb = ᱥᱮᱱᱴᱨᱟᱞ ᱠᱩᱨᱫᱤᱥ
+cnh = ᱦᱟᱠᱷᱟ ᱪᱷᱤᱱ
+co = ᱠᱚᱨᱥᱤᱠᱟᱱ
 cs = ᱪᱮᱠ
 cv = ᱪᱩᱣᱟᱥ
 cy = ᱣᱮᱞᱥ
 da = ᱰᱮᱱᱤᱥ
 de = ᱡᱚᱨᱢᱚᱱ
+dsb = ᱥᱚᱨᱵᱤᱭᱟᱱ, ᱞᱟᱛᱟᱨ
+dv = ᱫᱷᱤᱣᱮᱦᱤ
 el = ᱜᱽᱨᱤᱠ
+en = ᱤᱝᱨᱟᱡᱤ
+eo = ᱮᱥᱯᱟᱨᱮᱱᱴᱚ
+es = ᱥᱯᱮᱱᱤᱥ
+et = ᱮᱥᱴᱚᱱᱤᱭᱟᱹᱱ
 fa = ᱯᱟᱹᱨᱥᱤᱭᱟᱹᱱ
 ff = ᱯᱷᱩᱞᱟᱦ
 fi = ᱯᱷᱤᱱᱤᱥ
@@ -121,12 +134,29 @@ benefits = ᱞᱟᱵᱷ ᱠᱚ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = ᱪᱟᱹᱞᱩ/ᱵᱚᱸᱫ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = ESC
 request-language-button = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱢᱮ
 
 ## ProjectStatus
@@ -294,6 +324,9 @@ both-speak-and-listen-long = ᱵᱟᱱᱟᱨᱜᱮ (ᱨᱚᱲ ᱢᱮ ᱟᱨ ᱟ�
 keep = ᱫᱚᱦᱚᱭ ᱢᱮ
 remove = ᱚᱪᱚᱜᱽ ᱢᱮ
 profile-form-delete = ᱢᱚᱦᱲᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
+
+## Profile Download
+
 
 ## Landing
 

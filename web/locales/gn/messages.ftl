@@ -189,6 +189,7 @@ logout = Esẽ
 ## Home Page
 
 home-title = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo oñe’ẽháicha yvypóra.
+default-tagline = Common Voice niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo oñe’ẽháicha yvypóra.
 home-cta = Eñe’ẽ, eipytyvõ ápe!
 wall-of-text-start = Ñane ahy’o ñe’ẽ niko yvypóra mba’e. Upévare roipytyvõseterei oĩ hag̃ua ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
@@ -290,6 +291,7 @@ shortcut-record-toggle-label = Ñongatu/Joko
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Embohyapupyahu
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Emboyke ñeñongatu oikóva
 shortcut-submit = Jevy
 shortcut-submit-label = Emondo clips
 request-language-text = Nderejuhúipiko ne ñe’ẽ’ypy Common Voice-pe?
@@ -579,8 +581,6 @@ subscribe = Mboheraguapy
 get-started-speech = Eñepyrũ ko árape ayvu jeikuaa
 other-datasets = Ambue mba’ekuaara ayvugua rupa
 feedback-q = ¿Eñe’ẽsépa?
-deepspeech-info = Common Voice kuaapy’aty oykeko ambue Mozilla rembiporu hérava Deep Speech, ha’éva ku’eha ojeporukuaáva tembiporúpe oikũmby ha ohaiséva oje’éva chupe. Emoñe’ẽ ore <githubLink>Github Kuaapyrã</githubLink> térã eike ore <discourseLink>DeepSpeech Ñomongeta renda</discourseLink> eikuaaseve hag̃ua hese ha mba’éichapa eikekuaa ko tembiapópe.
-common-voice-info-new = Oĩpa emba’eporanduséva Common Voice rehe? Oúramo ne akãme apy’ã iporãjepéva térã oĩramo mba’e eme’ẽséva hese ne remiandu peteĩ ñe’ẽme rehegua, eike eñe’ẽvo orendive ore <discourseLink>Ñomongetaguasu</discourseLink> rendápe.
 data-other-librispeech-description = LibriSpeech-niko peteĩ ñe’ẽryapuryru oguerekóva 1000 aravo rupi 16Khz ñe’ẽjoaju ryapu ñongatupyre inglés-pe oúva aponde’aguasu LibriVox arandukarendúvagui.
 data-other-ted-name = TED-LIUM Ñe’ẽryapu Ryru
 data-other-ted-description = TED-LIUM ñe’ẽryapu ryru ombyaty ñe’ẽryapu oúva ñomongeta ha jehai TED ñandutirendágui.
@@ -859,6 +859,27 @@ why-delete-recordings =
     Ikatúpa eremi oréve mba’érepa remboguesepa reipytyvõva’ekue?
 profile-form-delete = Mba’ete Mboguete
 
+## Profile Download
+
+download-info = Emombe’umi mba’épa emboguejyse:
+download-profile-title = Mba’ete
+download-profile-size = Ndahetái bytes
+download-recordings-title = Ñeñongatukuéra
+download-recordings-info = Oĩ mp3 ha ñe’ẽñemi ojokupytýva
+download-recordings-size = Ha’etéva megabytes
+download-size = Tuichakue
+download-selected = Poravopyre
+download-start = Emboguejy Ñepyrũ
+download-request = Ejerure Ñemboguejy
+download-requests = Ñemboguejy ohasámava mba’ejerure
+download-request-button = Mboguejy
+download-request-title = { $created }
+download-request-archive-single = Marandurenda ZIP ha'eño orekóva
+download-request-assembling-description = Oñembyaty ne marandurendakuéra. Ehechajey ag̃amieve.
+download-request-refresh-button = Mbohekopyahu
+download-request-modal-title = Emboguejy Mbojuajuha
+download-request-metadata-link = Ñe’ẽjuaju moñe’ẽrã
+
 ## Landing
 
 welcome-staff = ¡Tereg̃uahẽporãite { $company } atýpe!
@@ -909,12 +930,16 @@ contribution-criteria-link = Eikumby mba’éichapa eipytyvõta
 contribution-for-example = Techapyrãrõ
 contribution-misreadings-title = Moñe’ẽ vai
 contribution-misreadings-description-extended-list-5 = Eha’ã hetajey emoñe’ẽ hag̃ua peteĩ ñe’ẽ.
+contribution-misreadings-example-6-explanation = [Oñemoĩva’erã “Ñande”]
+contribution-misreadings-example-8-title = Pe mberuguasu ohasa pya’eterei.
 contribution-misreadings-example-8-explanation = [Tetepy ojokupyty’ỹva]
 contribution-varying-pronunciations-title = Je’epyre Hekoetáva
 contribution-varying-pronunciations-example-1-title = Oguereko iñakã rehe akão.
 contribution-varying-pronunciations-example-2-title = Omopu’ã ipo.
 contribution-background-noise-title = Tyapu tapykuegua
+contribution-background-noise-example-2-explanation = [Ndaikatúi oñehendu moñe’ẽrã vore]
 contribution-background-voices-title = Ñe’ẽ tapykuegua
 contribution-volume-title = Mbopuha
+contribution-just-unsure-title = ¿Nahekorasãi?
 see-more = <chevron></chevron>Ehechave
 see-less = <chevron></chevron>Ehecha’ive

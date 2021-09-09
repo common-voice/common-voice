@@ -14,7 +14,7 @@ import {
 } from './lib/model/leaderboard';
 import { trackPageView } from './lib/analytics';
 import API from './lib/api';
-import { redis, redlock } from './lib/redis';
+import { redis, useRedis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
@@ -70,8 +70,14 @@ export default class Server {
     options = { bundleCrossLocaleMessages: true, ...options };
     this.model = new Model();
     this.api = new API(this.model);
-    this.taskQueues = createTaskQueues(this.api.takeout);
-    this.api.takeout.setQueue(this.taskQueues.dataTakeout);
+
+    useRedis.then((ready) => {
+      if (ready) {
+        this.taskQueues = createTaskQueues(this.api.takeout);
+        this.api.takeout.setQueue(this.taskQueues.dataTakeout);
+      }
+    });
+
     this.isLeader = null;
 
     const app = (this.app = express());
