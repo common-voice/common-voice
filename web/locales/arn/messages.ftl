@@ -11,6 +11,7 @@ arn = Mapuzugun
 de = Alemanzugun
 en = Iglezugun
 es = Kastijazugun
+fi = Suomizugun
 fr = Fvransiazugun
 gn = Waranizugun
 it = Italiazugun
@@ -18,6 +19,8 @@ ja = Niponzugun
 nl = Olandazugun
 pl = Polakozugun
 pt = Portugalzugun
+ru = Rusiazugun
+sv-SE = Suesiazugun
 
 # [/]
 
