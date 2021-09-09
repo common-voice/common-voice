@@ -969,3 +969,4 @@ contribution-varying-pronunciations-example-1-explanation = ['बेल्ट्
 contribution-varying-pronunciations-example-2-title = मेरो नाम्
 contribution-varying-pronunciations-example-2-explanation = [लेख्दा 'नाम' भन्दा 'नाम्' हुन्छ]
 contribution-background-noise-title = पृष्ठभूमिमा शोर
+contribution-background-noise-description = हामी मेशिन सिकाउने एल्गोरिदमले पृष्ठभूमिका धेरै किसिमका शोरलाई संभाल गर्न सक्ने सक्षम बानाऊन चाहन्छौं, र पनी अपेक्षाकृत ठूलो आवाज लाई स्वीकार गर्न सकिन्छ बशर्ते कि उनीहरु तपाइँ पाठ को सम्पूर्णता सुन्न बाट रोक्दैन। पृष्ठभूमिमा शान्त संगीत ठीक छ; संगीत ठूलो स्वरमा तपाइँ प्रत्येक र प्रत्येक शब्द सुन्न बाट रोक्न को लागी भने ठिक छैन।
