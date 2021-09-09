@@ -87,6 +87,7 @@ ka = Georgiano
 kaa = Karakalpak
 kab = Cabilo
 kbd = Cabardo
+ki = Gikuyu
 kk = Kazako
 kmr = Curdo Kurmanji
 ko = Coreano
@@ -111,6 +112,7 @@ ms = Malese
 mt = Maltese
 my = Birmano
 myv = Erza
+nan-tw = Taiwanese (Minnan)
 nb-NO = Bokmål (Norvegia)
 ne-NP = Nepalese
 nia = Nias
@@ -848,6 +850,30 @@ profile-form-delete = Elimina profilo
 
 ## Profile Download
 
+download-q = Vuoi scaricare i tuoi dati?
+download-profile-title = Profilo
+download-profile-info = Contiene email, nome utente e le informazioni demografiche disponibili
+download-profile-size = Qualche byte
+download-recordings-title = Registrazioni
+download-recordings-info = Contiene gli mp3 e le frasi correlate. Potrebbe richiedere del tempo per la preparazione
+download-recordings-size = Dell’ordine dei megabyte
+download-recordings-unavailable = Non puoi richiedere le tue registrazioni mentre è già in corso un’altra richiesta.
+download-size = Dimensione
+download-selected = Selezionato
+download-start = Scarica i dati del profilo
+download-request = Richiedi le registrazioni
+download-requests = Richieste di download di registrazioni precedenti
+download-requests-info = Quando richiedi le tue registrazioni, vengono compilate in uno o più file ZIP. Ecco le tue richieste passate:
+download-request-button = Scarica
+download-request-title = { $created }
+download-request-description = { $clipCount } registrazioni vocali, dimensione totale dell’archivio { $size }. Scade { $expires }.
+download-request-archive-single = File ZIP singolo contenente
+download-request-archive-multiple = Dividi in { $archiveCount } file ZIP contenenti
+download-request-assembling-description = I tuoi file sono in fase di assemblaggio. Controlla più tardi.
+download-request-refresh-button = Aggiorna
+download-request-modal-description = Ecco i link per scaricare i tuoi file ZIP.
+download-request-metadata-link = Testo della frase
+download-request-link-single = Puoi anche copiare e incollare gli URL diretti nel tuo download manager preferito: scadranno tra 12 ore, ma puoi tornare in questa pagina e generarne di nuovi in qualsiasi momento.
 
 ## Landing
 
