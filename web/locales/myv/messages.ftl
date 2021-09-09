@@ -513,6 +513,7 @@ language = Кель
 size = Покшолма
 validated-hr-total = Зяро част ваннозь весемезе
 overall-hr-total = Зяро част весемезе
+cv-license = Лиценция
 audio-format = Аудионь формат
 number-of-voices = Зяро вайгельтнеде
 splits = Явомат
@@ -821,6 +822,7 @@ download-request-metadata-link = Валрисьмень текст
 ## Landing
 
 welcome-staff = Совадо { $company } ломанть!
+login-company = Совамс / Шкамс совамо тарка { $company } ёндолсёрма адрессэ
 profile-not-required = Лездамсто профилэсь а эряви, ялатеке сон лезэв
 
 ## DemoLayout
