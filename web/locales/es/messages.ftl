@@ -285,6 +285,8 @@ shortcut-record-toggle = g
 shortcut-record-toggle-label = Grabar/Detener
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Grabar de nuevo el clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Descartar la grabación en curso
 shortcut-submit = Volver
 shortcut-submit-label = Enviar grabaciones
 request-language-text = ¿Aún no encuentras tu idioma en Common Voice?
@@ -567,8 +569,6 @@ subscribe = Suscribirse
 get-started-speech = Empieza hoy mismo con el Reconocimiento de voz
 other-datasets = Otras bases de datos de voces
 feedback-q = ¿Tienes algún comentario?
-deepspeech-info = La base de datos de Common Voice complementa el motor de reconocimiento de voz de código abierto de Deep Speech, que puedes utilizar para crear aplicaciones de reconocimiento de voz. Consulta nuestra <githubLink>sinopsis de Github</githubLink> o únete a <discourseLink>DeepSpeech Discourse</discourseLink> para saber más sobre cómo y por dónde empezar.
-common-voice-info-new = ¿Tienes dudas sobre Common Voice? ¿Ideas para mejorar o comentarios de un idioma en concreto? Únete a nuestro <discourseLink>foro de Discourse</discourseLink> y cuéntanoslo.
 data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16KHz derivado de lecturas de audiolibros del proyecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
@@ -838,6 +838,17 @@ why-delete-recordings =
     
     ¿Nos puedes indicar por qué quieres eliminar tus grabaciones?
 profile-form-delete = Eliminar perfil
+
+## Profile Download
+
+download-q = ¿Necesitas descargar tus datos?
+download-info = Dinos qué te gustaría descargar:
+download-profile-title = Perfil
+download-recordings-title = Grabaciones
+download-size = Tamaño
+download-selected = Seleccionado
+download-request-title = { $created }
+download-request-refresh-button = Actualizar
 
 ## Landing
 
