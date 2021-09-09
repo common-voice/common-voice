@@ -8,7 +8,16 @@
 ## Languages
 
 arn = Mapuzugun
+de = Alemanzugun
 en = Iglezugun
+es = Kastijazugun
+fr = Fvransiazugun
+gn = Waranizugun
+it = Italiazugun
+ja = Niponzugun
+nl = Olandazugun
+pl = Polakozugun
+pt = Portugalzugun
 
 # [/]
 
