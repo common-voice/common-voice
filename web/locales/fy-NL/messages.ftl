@@ -87,6 +87,7 @@ ka = Georgysk
 kaa = Karakalpaksk
 kab = Kabylysk
 kbd = Kabardysk
+ki = Kikuyu
 kk = Kazaksk
 kmr = Kurmanci
 ko = Koreaansk
@@ -111,6 +112,7 @@ ms = Maleizysk
 mt = Malteesk
 my = Burmeesk
 myv = Erzja
+nan-tw = Taiwaneesk (Minnan)
 nb-NO = Noarsk Bokmål
 ne-NP = Nepaleesk
 nia = Nias
@@ -876,6 +878,36 @@ why-delete-recordings =
     Kinne jo ús witte litte wêrom jo jo opnamen fuortsmite litte wolle?
 profile-form-delete = Profyl fuortsmite
 
+## Profile Download
+
+download-q = Wolle jo jo gegevens downloade?
+download-info = Fertel ús wat jo downloade wolle:
+download-profile-title = Profyl
+download-profile-info = Befettet e-mailadres, brûkersnamme en demografyske gegevens
+download-profile-size = In pear bytes
+download-recordings-title = Opnamen
+download-recordings-info = Befettet mp3’s en relatearre sinnen
+download-recordings-size = Meastentiids megabytes
+download-recordings-unavailable = Jo kinne jo opnamen net opfreegje wylst der al in oar fersyk yn behanneling is.
+download-size = Grutte
+download-selected = Selektearre
+download-start = Download starte
+download-request = Download oanfreegje
+download-requests = Eardere downloadfersiken
+download-requests-info = Wannear't jo jo opnamen opfreegje, kompilearje wy dizze yn ien of mear ZIP-bestannen. Dit binne jo eardere fersiken:
+download-request-button = Downloade
+download-request-title = { $created }
+download-request-description = { $clipCount } spraakfragminten, totale argyfgrutte { $size }. Ferrint { $expires }.
+download-request-archive-single = Inkeld ZIP-bestân mei
+download-request-archive-multiple = Splitst oer { $archiveCount } ZIP-bestannen mei
+download-request-assembling-description = Jo bestannen wurde gearstald. Kom letter werom.
+download-request-refresh-button = Fernije
+download-request-modal-title = Downloadkeppelingen
+download-request-modal-description = Hjir binne de keppelingen om jo ZIP-bestannen te downloaden.
+download-request-link-text = ZIP-bestân { $offset } fan { $total }
+download-request-metadata-link = Sintekst
+download-request-link-single = Jo kinne ek de streekrjochte URL’s kopiearje en yn jo favorite downloadbehearder plakken. Se ferrinne oer 12 oer, mar jo kinne op elk momint weromkeare nei dizze side om nije oan te meitsjen.
+
 ## Landing
 
 welcome-staff = Wolkom meiwurkers fan { $company }!
@@ -929,6 +961,10 @@ contribution-criteria-page-description = Ynformearje jo oer wêrop't jo by it ha
 contribution-for-example = bygelyks
 contribution-misreadings-title = Lêsflaters
 contribution-misreadings-description = Kontrolearje wylst jo harkje soarchfuldich dat wat opnommen is ek krekt is wat der skreaun stiet; keur it ôf as der sels lytse flaters binne. <br />Faaks foarkommende flaters binne:
+contribution-misreadings-description-extended-list-1 = <strong>‘In’</strong> of <strong>‘De’</strong> ûntbrekt oan it begjin fan de opname.
+contribution-misreadings-description-extended-list-2 = Der ûntbrekt <strong>‘s’</strong> of <strong>‘en’</strong> oan it ein fan in wurd.
+contribution-misreadings-description-extended-list-3 = Gearfoegingen dy't der eins net binne, lykas ‘Sa’n’ yn stee fan ‘Sa ien’, of oarsom.
+contribution-misreadings-description-extended-list-4 = It ein fan it lêste wurd ûntbrekt troch it te fluch ôfbrekken fan de opname.
 contribution-volume-title = Folume
 contribution-reader-effects-title = Lêzereffekten
 contribution-just-unsure-title = Gewoan ûnwis?
