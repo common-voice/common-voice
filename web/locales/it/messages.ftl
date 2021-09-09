@@ -850,7 +850,8 @@ profile-form-delete = Elimina profilo
 
 ## Profile Download
 
-download-q = Vuoi scaricare i tuoi dati?
+download-q = Desideri scarica i tuoi dati?
+download-info = Scegli che cosa vuoi scaricare:
 download-profile-title = Profilo
 download-profile-info = Contiene email, nome utente e le informazioni demografiche disponibili
 download-profile-size = Qualche byte
@@ -871,7 +872,9 @@ download-request-archive-single = File ZIP singolo contenente
 download-request-archive-multiple = Dividi in { $archiveCount } file ZIP contenenti
 download-request-assembling-description = I tuoi file sono in fase di assemblaggio. Controlla più tardi.
 download-request-refresh-button = Aggiorna
+download-request-modal-title = Link per scaricare
 download-request-modal-description = Ecco i link per scaricare i tuoi file ZIP.
+download-request-link-text = ZIP #{ $offset } di { $total }
 download-request-metadata-link = Testo della frase
 download-request-link-single = Puoi anche copiare e incollare gli URL diretti nel tuo download manager preferito: scadranno tra 12 ore, ma puoi tornare in questa pagina e generarne di nuovi in qualsiasi momento.
 
