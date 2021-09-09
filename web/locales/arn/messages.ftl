@@ -8,6 +8,7 @@
 ## Languages
 
 arn = Mapuzugun
+en = Iglezugun
 
 # [/]
 
@@ -91,6 +92,9 @@ arn = Mapuzugun
 
 
 ## Profile Delete
+
+
+## Profile Download
 
 
 ## Landing
