@@ -861,6 +861,7 @@ profile-form-delete = Mba’ete Mboguete
 
 ## Profile Download
 
+download-q = ¿Emboguejýtapa ne mba’ekuaarã?
 download-info = Emombe’umi mba’épa emboguejyse:
 download-profile-title = Mba’ete
 download-profile-size = Ndahetái bytes
