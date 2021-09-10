@@ -809,6 +809,7 @@ profile-form-delete = Sguassà u prufilu
 
 ## Profile Download
 
+download-q = Bisognu à scaricà i vostri dati?
 download-profile-title = Prufilu
 download-recordings-title = Arrighjistramenti
 download-recordings-unavailable = Ùn pudete micca richiede i vostri arrighjistramenti mentre hè dighjà in corsu un'altra richiesta.
