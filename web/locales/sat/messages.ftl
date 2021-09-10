@@ -243,6 +243,12 @@ x-months-short =
         [two] { $count } ᱪᱟᱸ
        *[other] { $count } ᱪᱟᱸ
     }
+x-years-short =
+    { $count ->
+        [one] { $count } ᱥᱮ
+        [two] { $count } ᱥᱮ
+       *[other] { $count } ᱥᱮ
+    }
 help-make-dataset = ᱦᱟᱭ ᱠᱣᱟᱞᱤᱴᱭ, ᱯᱟᱹᱵᱞᱤᱠ ᱠᱷᱩᱞᱟᱹ ᱰᱟᱴᱟᱥᱮᱴ ᱛᱮᱭᱟᱨ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ
 sign-up-account = ᱠᱷᱟᱛᱟ ᱞᱟᱹᱜᱤᱫ ᱥᱩᱢᱤ ᱮᱢ ᱛᱟᱢ
 email-subscription-title = ᱤᱢᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱥᱩᱦᱤ ᱮᱢ ᱢᱮ
@@ -313,8 +319,10 @@ female = ᱠᱩᱲᱤ
 # Gender
 other = ᱮᱴᱟᱜᱽ-ᱟᱜ
 why-profile-title = ᱢᱤᱫᱴᱟᱝ ᱢᱚᱦᱲᱟ ᱫᱚ ᱪᱮᱫᱟᱜ ᱵᱮᱱᱟᱣᱟ?
+dashboard = ᱰᱮᱥᱵᱚᱰ
 build-profile = ᱢᱚᱦᱲᱟ ᱛᱮᱭᱟᱨ ᱢᱮ
 avatar = ᱟᱣᱛᱟᱨ
+goals = ᱜᱚᱞ
 settings = ᱥᱟᱡᱟᱣ ᱠᱚ
 edit-profile = ᱢᱚᱦᱲᱟ ᱥᱟᱯᱲᱟᱣ  ᱢᱮ
 profile-close = ᱵᱚᱸᱫᱽ
@@ -327,6 +335,9 @@ on = ᱪᱟᱹᱞᱩ
 
 ## Profile - Email
 
+browse-file-title = ᱪᱤᱛᱟᱹᱨ ᱨᱮᱫ ᱞᱟᱫᱮ ᱢᱮ
+avatar-uploaded = ᱟᱹᱣᱛᱟᱨ ᱞᱟᱫᱮ ᱦᱩᱭ ᱮᱱᱟ
+max-file-size = ᱡᱟᱹᱥᱛᱤ { $kb }kb
 
 ## Profile - Email
 
