@@ -157,6 +157,7 @@ uz = Uzbequistán ñe’ẽ
 vec = Venecia ñe’ẽ
 vi = Vietnam ñe’ẽ
 vot = Votic ñe’ẽ
+yo = Joruva
 yue = China ñe’ẽ
 zh-CN = China ñe’ẽ (Chinapegua)
 zh-HK = China ñe’ẽ (Hong Kong-pegua)
