@@ -559,6 +559,7 @@ get-started-speech = Cummincià incù a ricunniscenza vucale
 other-datasets = Altre banche di voci
 feedback-q = Avete sugestione ?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ hè un <docsLink>arnese cù e fonte aperte</docsLink> pà i circadori chì sviluppani mudeli d’Intelligenza Artifiziale cunversaziunale à l’avanguardia.
+data-other-librispeech-description = LibriSpeech hè un corpus d'à pocu pressu 1000 ori di letture in inglese (à 16 kHz) chì ghjunghjenu da libri audio di u prughjettu LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = U corpus TED-LIUM hè statu fattu incù i discorsi è e so trascrizzione dispunibile à nant'à u situ TED.
 data-other-tatoeba-description = Tatoeba hè una banca maiò d'infrasate, traduzzione è ducumenti urali chì ghjovanu à l'imparera di e lingue. Issu scaricamentu cuntene ducumenti urali, in inglese, arrigistratu da a so cummunità.
@@ -805,8 +806,14 @@ profile-form-delete = Sguassà u prufilu
 
 ## Profile Download
 
+download-profile-title = Prufilu
+download-recordings-title = Arrighjistramenti
+download-recordings-unavailable = Ùn pudete micca richiede i vostri arrighjistramenti mentre hè dighjà in corsu un'altra richiesta.
+download-selected = Selezziunatu
+download-request = Richiede arrighjistramenti
 download-request-button = Scaricà
 download-request-title = { $created }
+download-request-metadata-link = Testu di l'infrasata
 
 ## Landing
 
@@ -872,6 +879,7 @@ contribution-misreadings-example-3-explanation = [Arrighjistramentu piantatu nan
 contribution-misreadings-example-4-title = I dinusauri giganti di u Triassicu. Iè.
 contribution-misreadings-example-4-explanation = [L'arrighjistramentu hè più longu chè u testu privistu]
 contribution-misreadings-example-5-title = Ci n'andemu fora per piglià un caffè.
+contribution-misreadings-example-8-title = U bufone passava in furia.
 contribution-misreadings-example-8-explanation = [U cuntenutu ùn currisponde micca]
 contribution-varying-pronunciations-title = Prununcie variabile
 contribution-varying-pronunciations-description = Feti casu nanzu di ricusà un campionu per via d'un sbagliu di prununcia, d'aletta o di sminticu di puntu d'interrogazione. Esistanu parechji varietà di prununcie in u mondu, forse ch'ùn l'aveti micca tutte sente ind'è vo. Per piacè, date vi una margine d'appreziamentu per quelli ch'ùn parlanu micca cume voi.
