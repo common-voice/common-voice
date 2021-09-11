@@ -78,6 +78,7 @@ hy-AM = ormiański
 hyw = zachodni ormiański
 ia = interlingua
 id = indonezyjski
+ie = interlingue
 is = islandzki
 it = włoski
 izh = iżorski
@@ -86,6 +87,7 @@ ka = gruziński
 kaa = karakałpacki
 kab = kabylski
 kbd = kabardyjski
+ki = kikuju
 kk = kazachski
 kmr = kurmandżi
 ko = koreański
@@ -110,6 +112,7 @@ ms = malajski
 mt = maltański
 my = birmański
 myv = erzja
+nan-tw = tajwański (minnański)
 nb-NO = norweski (bokmål)
 ne-NP = nepalski
 nia = nias
@@ -590,8 +593,11 @@ subscribe = Subskrybuj
 get-started-speech = Poznaj rozpoznawanie mowy
 other-datasets = Inne zbiory danych
 feedback-q = Masz sugestie?
-deepspeech-info = Zbiór danych Common Voice stanowi uzupełnienie mechanizmu rozpoznawania mowy open source o nazwie Deep Speech od Mozilli, którego można używać do tworzenia aplikacji rozpoznających mowę. Przeczytaj <githubLink>podsumowanie w serwisie GitHub</githubLink> lub dołącz do <discourseLink>DeepSpeech w serwisie Discourse</discourseLink>, aby dowiedzieć się, jak zacząć.
-common-voice-info-new = Masz pytania dotyczące Common Voice? Pomysły na ulepszenia lub sugestie na temat konkretnego języka? Dołącz do nas na naszym <discourseLink>forum Discourse</discourseLink> i daj znam znać.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ to <docsLink>zestaw narzędzi open source</docsLink> dla naukowców rozwijających najnowocześniejsze konwersacyjne modele sztucznej inteligencji.
+resource-deepspeech-info = Mechanizm rozpoznawania mowy open source o nazwie Deep Speech od Mozilli może być używany do tworzenia aplikacji rozpoznających mowę. Przeczytaj <githubLink>podsumowanie w serwisie GitHub</githubLink> lub dołącz do <discourseLink>DeepSpeech w serwisie Discourse</discourseLink>, aby dowiedzieć się, jak zacząć.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> jest poświęcony otwartym technologiom mowy. Ich projekty obejmują mechanizmy rozpoznawania i syntezy mowy oparte na głębokim uczeniu.
+community-playbook = Podręcznik społeczności
+resource-playbook-info = <playbookLink>Znajdź pomocne wskazówki</playbookLink> na temat wszystkiego, co związane z Common Voice, od lokalizacji do wykorzystania zbioru danych, a także jak współpracować z naszą społecznością.
 data-other-librispeech-description = LibriSpeech to zbiór około 1000 godzin angielskiej mowy w jakości 16 KHz, z tekstów audiobooków z projektu LibriVox.
 data-other-ted-name = Zbiór TED-LIUM
 data-other-ted-description = Zbiór TED-LIUM został utworzony z nagrań przemów i ich transkrypcji dostępnych na stronie konferencji TED.
@@ -876,6 +882,17 @@ why-delete-recordings =
     
     Czy możesz nam powiedzieć, dlaczego chcesz, aby Twoje nagrania zostały usunięte?
 profile-form-delete = Usuń profil
+
+## Profile Download
+
+download-q = Chcesz pobrać swoje dane?
+download-info = Powiedz nam, co chcesz pobrać:
+download-profile-title = Profil
+download-profile-info = Zawiera adres e-mail, nazwę użytkownika i dane demograficzne, dostępne od razu
+download-profile-size = Kilka bajtów
+download-recordings-title = Nagrania
+download-recordings-info = Zawiera pliki MP3 i powiązane zdania, przygotowanie może zająć trochę czasu
+download-recordings-size = Zazwyczaj megabajty
 
 ## Landing
 
