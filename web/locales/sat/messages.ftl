@@ -291,6 +291,10 @@ request-language-button = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱢᱮ
 ## ProjectStatus
 
 status-contribute = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱮᱱᱮᱢ ᱢᱮ
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ᱞᱟᱦᱟ ᱜᱚᱞ ᱠᱚᱺ { $goal }
+english = ᱤᱝᱨᱟᱡᱤ
 
 ## ProfileForm
 
