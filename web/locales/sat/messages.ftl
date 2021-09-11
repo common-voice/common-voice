@@ -331,6 +331,7 @@ settings = ᱥᱟᱡᱟᱣ ᱠᱚ
 edit-profile = ᱢᱚᱦᱲᱟ ᱥᱟᱯᱲᱟᱣ  ᱢᱮ
 profile-close = ᱵᱚᱸᱫᱽ
 accept-privacy-title = ᱫᱟᱱᱟᱝ ᱨᱤᱛᱤ
+login-identity = ᱵᱚᱞᱚ ᱩᱯᱨᱩᱢ
 login-signup = ᱵᱚᱞᱚᱱ / ᱥᱩᱦᱤ
 edit = ᱥᱟᱯᱲᱟᱣ
 download-profile = ᱤᱧᱟᱜ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
