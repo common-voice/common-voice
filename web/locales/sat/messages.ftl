@@ -334,26 +334,38 @@ accept-privacy-title = ᱫᱟᱱᱟᱝ ᱨᱤᱛᱤ
 login-identity = ᱵᱚᱞᱚ ᱩᱯᱨᱩᱢ
 login-signup = ᱵᱚᱞᱚᱱ / ᱥᱩᱦᱤ
 edit = ᱥᱟᱯᱲᱟᱣ
+email-subscriptions = ᱥᱟᱹᱵᱥᱠᱨᱤᱯᱥᱚᱱ ᱠᱚ ᱮᱢᱮᱞ ᱠᱚᱢ
 download-profile = ᱤᱧᱟᱜ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
+contribution-experience = ᱮᱱᱮᱢ ᱵᱟᱲᱟᱭᱤᱡ
+skip-submission-feedback = ᱯᱩᱥᱴᱟᱹᱣ ᱮᱢ ᱠᱷᱚᱵᱚᱨ ᱡᱚᱢᱟ ᱟᱲᱟᱜ ᱠᱟᱜ ᱢᱮ
 off = ᱵᱚᱸᱱᱫ
 on = ᱪᱟᱹᱞᱩ
 
 ## Profile - Email
 
 browse-file-title = ᱪᱤᱛᱟᱹᱨ ᱨᱮᱫ ᱞᱟᱫᱮ ᱢᱮ
+connect-gravatar = ᱜᱽᱨᱟᱣᱟᱹᱛᱟᱨ ᱥᱟᱶ ᱡᱩᱲᱟᱹᱣᱜ ᱢᱮ
+gravatar_not_found = ᱟᱢᱟᱜ ᱤᱢᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱜᱽᱨᱟᱹᱣᱟᱹᱛᱟᱨ ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ
+file_too_large = ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱨᱮᱫ ᱫᱚ ᱟᱹᱰᱤ ᱢᱟᱨᱟᱝ ᱜᱮᱭᱟ
 avatar-uploaded = ᱟᱹᱣᱛᱟᱨ ᱞᱟᱫᱮ ᱦᱩᱭ ᱮᱱᱟ
 max-file-size = ᱡᱟᱹᱥᱛᱤ { $kb }kb
 
 ## Profile - Email
 
+manage-subscriptions = ᱥᱟᱹᱵᱥᱠᱨᱤᱯᱥᱚᱱ ᱢᱮᱱᱮᱡᱽ ᱢᱮ
+manage-email-subscriptions = ᱤᱢᱮᱞ ᱥᱟᱹᱵᱥᱠᱨᱤᱯᱥᱚᱱ ᱢᱮᱱᱮᱡᱽ ᱢᱮ
+email-already-used = ᱵᱷᱮᱜᱟᱨ ᱠᱷᱟᱛᱟ ᱞᱟᱹᱜᱤᱫ ᱤᱢᱮᱞ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱵᱮᱵᱷᱟᱨ ᱠᱟᱱᱟ
 add-language = ᱯᱟᱹᱨᱥᱤ ᱥᱮᱞᱮᱫᱽ ᱢᱮ
+change-email-setings = ᱵᱚᱞᱚ ᱩᱯᱨᱩᱢ ᱞᱟᱛᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱟᱡᱟᱣ ᱳᱟᱦᱴᱟ ᱨᱮ ᱟᱢᱟᱜ ᱤᱢᱮᱞ ᱵᱚᱫᱚᱞ ᱢᱮ
 
 ## FAQ
 
+faq-title = ᱵᱟᱨᱚᱢᱵᱟᱨ ᱠᱩᱞᱤᱭᱟᱜ ᱠᱩᱠᱞᱤ ᱠᱚ
 faq-what-cv-q = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
 faq-why-important-q = ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱫᱟᱜ ᱢᱚᱦᱚᱛ ᱜᱮᱭᱟ?
 faq-how-get-q = ᱪᱮᱠᱟ ᱞᱮᱠᱟᱛᱮ ᱤᱧ ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱧᱟᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ?
 faq-when-release2-q = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱤᱥ ᱯᱮ ᱨᱤᱞᱤᱡᱽ ᱟ?
+faq-why-mission-q = Common Voice ᱫᱚ Mozilla ᱢᱤᱥᱚᱱ ᱨᱮᱭᱟᱜ ᱦᱟᱹᱴᱤᱧ ᱨᱮ ᱪᱚᱫᱟᱜ ᱢᱮᱱᱟᱜᱼᱟ?
 faq-why-my-lang-q = ᱤᱧᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱫᱟᱜ ᱱᱤᱛ ᱵᱟᱠᱚ ᱥᱟᱹᱢᱤᱞ ᱟᱠᱟᱫᱟ?
 faq-what-is-cv = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
 faq-search-for-answers =
