@@ -893,6 +893,21 @@ download-profile-size = Kilka bajtów
 download-recordings-title = Nagrania
 download-recordings-info = Zawiera pliki MP3 i powiązane zdania, przygotowanie może zająć trochę czasu
 download-recordings-size = Zazwyczaj megabajty
+download-recordings-unavailable = Nie możesz poprosić o nagrania, kiedy inna prośba jest już w toku.
+download-size = Rozmiar
+download-selected = Wybrane
+download-start = Pobierz dane profilu
+download-request = Poproś o nagrania
+download-requests = Poprzednie prośby o pobranie nagrań
+download-requests-info = Gdy prosisz o nagrania, zbieramy je w jeden lub wiele plików ZIP. Oto Twoje wcześniejsze prośby:
+download-request-button = Pobierz
+download-request-title = { $created }
+download-request-description =
+    { $clipCount ->
+        [one] { $clipCount } nagranie, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
+        [few] { $clipCount } nagrania, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
+       *[other] { $clipCount } nagrań, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
+    }
 
 ## Landing
 
