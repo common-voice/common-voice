@@ -921,6 +921,7 @@ download-request-modal-title = Odnośniki pobierania
 download-request-modal-description = Odnośniki do pobrania plików ZIP.
 download-request-link-text = { $offset }. plik ZIP z { $total }
 download-request-metadata-link = Tekst zdania
+download-request-link-single = Można także skopiować bezpośrednie adresy URL i wkleić je do swojego ulubionego menedżera pobierania. Wygasną za 12 godzin, ale w każdej chwili można wrócić do tej strony, aby utworzyć nowe.
 
 ## Landing
 
