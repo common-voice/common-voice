@@ -87,6 +87,7 @@ ka = Грузиски
 kaa = Каракалак
 kab = Кабилски
 kbd = Кабаријан
+ki = Кикују
 kk = Казакстански
 kmr = Курмански курдски
 ko = Корејски
@@ -111,6 +112,7 @@ ms = Малајски
 mt = Малтешки
 my = Бурмански
 myv = Ерзија
+nan-tw = Тајвански (Минан)
 nb-NO = Норвешки Букмол
 ne-NP = Непалски
 nia = Нијас
@@ -872,6 +874,10 @@ profile-form-delete = Избриши профил
 
 ## Profile Download
 
+download-profile-title = Профил
+download-recordings-title = Снимки
+download-size = Големина
+download-request-button = Преземи
 
 ## Landing
 
