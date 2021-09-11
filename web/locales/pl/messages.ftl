@@ -228,19 +228,19 @@ x-weeks-short =
     { $count ->
         [one] Tydzień
         [few] { $count } tygodnie
-       *[other] { $count } tygodni
+       *[many] { $count } tygodni
     }
 x-months-short =
     { $count ->
         [one] Miesiąc
         [few] { $count } miesiące
-       *[other] { $count } miesięcy
+       *[many] { $count } miesięcy
     }
 x-years-short =
     { $count ->
         [one] Rok
         [few] { $count } lata
-       *[other] { $count } lat
+       *[many] { $count } lat
     }
 help-make-dataset = Pomóż nam zbudować wysokiej jakości, publicznie otwarty zbiór danych
 sign-up-account = Zarejestruj konto
@@ -308,7 +308,7 @@ status-hours =
     { $hours ->
         [one] Jedna godzina zweryfikowanych nagrań!
         [few] { $hours } godziny zweryfikowanych nagrań!
-       *[other] { $hours } godzin zweryfikowanych nagrań!
+       *[many] { $hours } godzin zweryfikowanych nagrań!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -748,19 +748,19 @@ days =
     { $count ->
         [one] dzień
         [few] dni
-       *[other] dni
+       *[many] dni
     }
 recordings =
     { $count ->
         [one] nagranie
         [few] nagrania
-       *[other] nagrań
+       *[many] nagrań
     }
 validations =
     { $count ->
         [one] sprawdzone nagranie
         [few] sprawdzone nagrania
-       *[other] sprawdzonych nagrań
+       *[many] sprawdzonych nagrań
     }
 
 ## Dashboard
@@ -906,8 +906,21 @@ download-request-description =
     { $clipCount ->
         [one] { $clipCount } nagranie, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
         [few] { $clipCount } nagrania, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
-       *[other] { $clipCount } nagrań, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
+       *[many] { $clipCount } nagrań, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
     }
+download-request-archive-single = Jeden plik ZIP zawierający
+download-request-archive-multiple =
+    { $archiveCount ->
+        [one] Podziel na { $archiveCount } plik ZIP zawierający
+        [few] Podziel na { $archiveCount } pliki ZIP zawierające
+       *[many] Podziel na { $archiveCount } plików ZIP zawierających
+    }
+download-request-assembling-description = Pliki są zbierane. Sprawdź ponownie później.
+download-request-refresh-button = Odśwież
+download-request-modal-title = Odnośniki pobierania
+download-request-modal-description = Odnośniki do pobrania plików ZIP.
+download-request-link-text = { $offset }. plik ZIP z { $total }
+download-request-metadata-link = Tekst zdania
 
 ## Landing
 
