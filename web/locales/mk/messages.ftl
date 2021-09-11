@@ -78,6 +78,7 @@ hy-AM = Ерменски
 hyw = Ерменски западен
 ia = Интерлингва
 id = Индонезиски
+ie = Интерлингве
 is = Исландски
 it = Италјански
 izh = Изоријан
@@ -593,8 +594,8 @@ subscribe = Претплати се
 get-started-speech = Започнете со препознавање на говорот
 other-datasets = Други гласовни податочни сетови
 feedback-q = Имате мислење?
-deepspeech-info = Податоците за Common Voice ја надополнуваат програмата за препознавање на говор објавена како слободен софтвер на Mozilla, која можете да ја користите за изградба на апликации за препознавање говор. Прочитајте го нашиот <githubLink>Преглед на Github</githubLink> или вклучете се на <discourseLink>DeepSpeech Discourse</discourseLink> за да научите како да започнете.
-common-voice-info-new = Имате прашања во врска со Common Voice? Идеи за подобрувања или повратни информации за одреден јазик? Придружете ни се на нашиот <discourseLink>форум на Discourse</discourseLink> и известете нѐ.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ е <docsLink> пакет со алатки со отворен код</docsLink> за истражувачи кои развиваат најсовремени разговорни модели со вештачка интелигенција.
+resource-coqui-info = <coquiLink> Coqui </coquiLink> е посветена на технологија за отворен говор. Нивните проекти вклучуваат STT и TTS машини базирани на длабоко учење.
 data-other-librispeech-description = LibriSpeech е корпус од приближно 1000 часа од 16Khz прочитан англиски говор добиен од читани аудио-книги од проектот LibriVox.
 data-other-ted-name = Корпус TED-LIUM
 data-other-ted-description = Корпусот TED-LIUM беше изработен од аудио-говори и нивните транскрипции, достапни на мрежното место на TED.
@@ -739,7 +740,7 @@ report-other-comment =
     .placeholder = Коментар
 success = Успех
 continue = Продолжи
-report-success = Ивештајот е успешно испратен
+report-success = Извештајот е успешно испратен
 
 ## Goals
 
@@ -868,6 +869,9 @@ why-delete-recordings =
     
     Можете ли да ни кажете зошто сакате вашите снимки да бидат избришани?
 profile-form-delete = Избриши профил
+
+## Profile Download
+
 
 ## Landing
 
