@@ -394,6 +394,12 @@ faq-what-cv-a =
     Teknik för röstigenkänning revolutionerar hur vi interagerar med maskiner, men nuvarande tillgängliga system är dyra och proprietära. Common Voice är en del av Mozillas initiativ för att göra röstigenkänning bättre och mer tillgänglig för alla. Common Voice är en massiv global databas av donerade röster som låter vem som helst snabbt och enkelt träna appar med röst-stöd i potentiellt vilket språk som helst.
     
     Vi samlar inte bara in röstprover i stora språk utan även i de som har färre talare. Genom att publicera en mångfaldig datauppsättning av röster gör vi det möjligt för utvecklare, entreprenörer, och gemenskaper att själva påverka klyftan som finns. Utöver datan i Common Voice, bygger vi också Deep Speech, en röstigenkänning i öppen källkod.
+faq-what-cv-a-2 =
+    Teknologin för röstigenkänning revolutionerar sättet på hur vi interagerar med maskiner, men dagens tillgängliga system är både dyra och patentskyddade. 'Mozilla Common Voice' är ett initiativ för att göra röstigenkänningsteknologin både bättre och tillgängligt för alla.
+    'Common Voice' är en massiv global databas med donerade röster som låter vem som helst, snabbt och lätt att träna appar med röstigenkänning i potentiellt vilket språk som helst.
+    
+    Vi samlar inte bara på röster från dom största språken utan även ifrån mindre talade språk.
+    Att publicera ett dataset med ett stort utbud av röster lägger grunden för att stimulera programutvecklare, entreprenörer och andra grupper att själva börja lägga till data som saknas.
 faq-why-important-q = Varför är det viktigt?
 faq-why-important-a =
     Tal är oftast det mest naturliga sättet vi kommunicerar med varann på och teknik tar den bekvämligheten till våra datorer och mobila enheter. Vi vill möjliggöra för utvecklare att bygga fantastiska appar med röstigenkänning, såsom översättare i realtid och röstaktiverade digitala assistenter. Men just nu är den mesta röstdatan som krävs för att bygga den här typen av appar dyr och proprietär. Vi hoppas att datamängden i Common Voice ger utvecklare vad de behöver för att innovera och göra röstteknik tillgängliga på deras egna språk.
@@ -452,6 +458,11 @@ about-subtitle = Common Voice är en del av Mozillas initiativ för att hjälpa 
 about-header-description =
     Båda dessa projekt är en del av våra ansträngningar att överbrygga den digitala talklyftan. Röstigenkänningsteknik ger en mänsklig dimension till våra enheter, men utvecklare behöver en enorm mängd röstdata för att bygga dem. För närvarande är de flesta av dessa data dyra och proprietära.
     Vi vill göra röstdata fritt och allmänt tillgängliga, och se till att uppgifterna representerar mångfalden av riktiga människor. Tillsammans kan vi göra röstigenkänning bättre för alla.
+about-header-description-2 =
+    Detta projekt är ett försök att överbrygga det digitala talets klyfta.
+    Röstigenkänningsteknologin tillför en mänsklig dimension åt våra apparater men för att det skall lyckas så behöver utvecklare enorma mängder av röstdata och för tillfället så är större delen av dessa data både dyr och belagd med patent.
+    Vi vill att röstdata skall vara gratis och tillgängligt för alla, inte minst  för att säkerställa att datan verkligen representerar mångfalden av verkliga människor.
+    Tillsammans kan vi göra röstigenkänning bättre för alla.
 how-does-it-work-title = Hur fungerar det
 how-does-it-work-text = Vi crowdsourcar en röstdatamängd med öppen källkod. Donera din röst, bekräfta noggrannheten i inspelningar från andra och gör datamängden bättre för alla.
 about-speak = Tala
