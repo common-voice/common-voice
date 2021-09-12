@@ -78,6 +78,7 @@ hy-AM = Әрмән
 hyw = Көнбатыш әрмән
 ia = Интерлингва
 id = Индонез
+ie = Интерлингве
 is = Исланд
 it = Итальян
 izh = Ижор
@@ -86,6 +87,7 @@ ka = Грузин
 kaa = Каракалпак
 kab = Кабил
 kbd = Кабардин
+ki = Кикуйу
 kk = Казакъ
 kmr = Курманҗи көрд
 ko = Корей
@@ -110,6 +112,7 @@ ms = Малай
 mt = Мальта
 my = Бирма
 myv = Эрзя
+nan-tw = Тайван (Миннан)
 nb-NO = Норвег (Букмол)
 ne-NP = Непал
 nia = Ниас
@@ -572,8 +575,6 @@ subscribe = Язылу
 get-started-speech = Сөйләм тану системасын ясый башлау
 other-datasets = Башка аудиоязма җыентыклары
 feedback-q = Тәнкыйть-тәкъдимнәрегез бармы?
-deepspeech-info = Common Voice мәгълүмат тупланмасы Mozilla'ның Deep Speech исемле сөйләм тану моторын тулыландырып тора. Ул моторны кулланып, сез сөйләм танучы кушымталар булдыра аласыз. Deep Speech белән эшли башлау өчен, <githubLink>Github'тагы күзәтүне</githubLink> укыгыз яисә <discourseLink>DeepSpeech Discourse форумына</discourseLink> үтегез.
-common-voice-info-new = Common Voice турында сорауларыгыз бармы? Тәкъдимнәрегез я билгеле бер тел турында фикерләрегез бармы? <discourseLink>Discourse форумында </discourseLink> безгә кушылыгыз һәм фикерләрегезне безгә җиткерегез.
 data-other-librispeech-description = LibriSpeech корпусы — LibriVox проекты кысаларында хасил булган аудиокитаплардан төзелгән, 16kHz ешлыкта яздырылган якынча 1000 сәгатьлек инглиз сөйләменнән гыйбарәт бер корпус.
 data-other-ted-name = «TED-LIUM» корпусы
 data-other-ted-description = «TED-LIUM» корпусы — TED веб-сәхифәсендәге чыгышларның аудиосыннан һәм аларның транскрипциясеннән төзелгән бер җыентык.
@@ -844,6 +845,17 @@ keep-info = Сезнең аноним тавыш язмаларыгыз Common V
 remove-info = Мәгълүмат базасыннан сезнең тавыш язмаларыгызны бетерү турындагы соравыгызны без караячакбыз. Әгәр сезнең соравыгыз канәгатьләндерелсә, без мәгълүмат базасын йөкләп алган кешеләр белән элемтәгә кереп, алардан сезнең тавыш язмаларыгызны бетерүләрен сораячакбыз.
 why-delete-recordings = Common Voice язмалары академик оешмалар, кече бизнес һәм тавыш тану белән бәйле энтузиастлар тарафыннан тавыш модельләре кебек һәркемгә ачык булган ресурслар әзерләүдә һәм үстерүдә ярдәм күрсәтү өчен кулланыла.
 profile-form-delete = Профильне бетерү
+
+## Profile Download
+
+download-profile-title = Профиль
+download-selected = Сайланган
+download-request-button = Йөкләп алу
+download-request-title = { $created }
+download-request-refresh-button = Яңарту
+download-request-modal-title = Сылтамаларны йөкләп алу
+download-request-link-text = Zip #{ $offset } / { $total }
+download-request-metadata-link = Җөмлә тексты
 
 ## Landing
 
