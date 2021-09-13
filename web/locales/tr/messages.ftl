@@ -283,6 +283,7 @@ shortcut-record-toggle = k
 shortcut-record-toggle-label = Kaydet/Durdur
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Yeniden kaydedin
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Enter
 shortcut-submit-label = Kayıtları gönder
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
@@ -383,6 +384,10 @@ faq-what-cv-a =
     Ses tanıma teknolojisi, makinelerle etkileşime girme biçimimizde devrim yaratıyor ancak şu anda mevcut sistemler pahalı ve tescilli. Common Voice, Mozilla’nın ses tanıma teknolojilerini herkes için daha iyi ve daha erişilebilir hale getirme girişiminin bir parçasıdır. Common Voice, herkesin ses özelliği olan uygulamaları potansiyel olarak her dilde hızlı ve kolay bir şekilde eğitmesine olanak tanıyan geniş bir küresel bağışlanmış ses veritabanıdır.
     
     Ses örneklerini yalnızca yaygın olarak konuşulan dillerden değil, aynı zamanda daha az konuşmacısı olan dillerden de topluyoruz. Farklı bir ses veri kümesi yayınlamak geliştiricileri, girişimcileri ve toplulukları bu boşluğu kendileri ele almaya teşvik edecektir. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da kuruyoruz.
+faq-what-cv-a-2 =
+    Ses tanıma teknolojisi, makinelerle etkileşime girme biçimimizde devrim yaratıyor ancak şu anda mevcut sistemler pahalı ve tescilli. Mozilla Common Voice, ses tanıma teknolojilerini herkes için iyileştirmeye ve daha erişilebilir hale getirmeye çalışan bir girişim. Common Voice, herkesin ses özelliği olan uygulamaları potansiyel olarak her dilde hızlı ve kolay bir şekilde eğitmesine olanak tanıyan bağışlanmış seslerden oluşan geniş ve küresel bir veritabanı.
+    
+    Ses örneklerini yalnızca yaygın olarak konuşulan dillerden değil, aynı zamanda daha az konuşmacısı olan dillerden de topluyoruz. Geniş yelpazede bir ses veri kümesi yayımlamak; geliştiricileri, girişimcileri ve toplulukları bu boşluğu doldurmaya teşvik edecektir.
 faq-why-important-q = Ne önemi var?
 faq-why-important-a =
     Konuşma genellikle birbirimizle iletişim kurmamızın en doğal yoludur ve ses teknolojileri bu rahatlığı bilgisayarlarımıza ve mobil cihazlarımıza getirmektedir. Geliştiricilere, gerçek zamanlı çevirmenler ve ses özellikli dijital asistanlar gibi harika ses tanıma uygulamaları oluşturma konusunda güç vermek istiyoruz. Ancak şu anda bu tür uygulamaları oluşturmak için gereken ses verilerinin çoğu pahalı ve özeldir. Common Voice veri kümesinin, geliştiricilere, yenilikler yapmaları ve konuşma teknolojisini kendi dillerinde kullanıma sunmaları için ihtiyaç duydukları şeyi vereceğini umuyoruz.
@@ -434,6 +439,9 @@ about-subtitle = Common Voice, Mozilla'nın makinelere gerçek insanların nası
 about-header-description =
     Bu projelerin her ikisi de dijital konuşma ayrımını kapatma çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut getiriyor ancak geliştiricilerin bunları oluşturmak için çok büyük miktarda ses verisine ihtiyaçları var. Şu anda, bu verilerin çoğu pahalı ve tescilli.
     Ses verilerini özgür ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil ettiğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
+about-header-description-2 =
+    Bu proje dijital konuşma ayrımını kapatma çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut getiriyor ancak geliştiricilerin bunları oluşturmak için çok büyük miktarda ses verisine ihtiyaçları var. Şu anda, bu verilerin çoğu pahalı ve tescilli.
+    Ses verilerini özgür ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil ettiğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
 how-does-it-work-title = Nasıl çalışıyor?
 how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesinizi bağışlayın, diğer kişilerin kayıtlarının doğruluğunu doğrulayın, veri kümesini herkes için daha iyi hale getirin.
 about-speak = Konuş
@@ -478,6 +486,7 @@ hours-validated-explanation = “Evet” oyu ile 3 kullanıcıdan 2’si tarafı
 sst = Konuşmadan metne (STT)
 sst-explanation = Konuşmadan metne (STT) teknolojileri ses verilerini metne dönüştürür.
 de-identified = Anonimleştirilmiş
+de-identified-explanation = Veri kümesi indirilmek üzere paketlendiği zaman katkıda bulunanın profil bilgilerinin bağışlanan ses kayıtlarında gizlenmesi süreci.
 
 ## Error pages
 
@@ -505,6 +514,7 @@ dataset-date = Tarih
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
 data-download-singleword-title = Tek kelimelik hedef segmentini indir
+data-download-singleword-callout-v2 = Bu, kullanım senaryosu odaklı, konuşulan rakam tanıma ve evet/hayır algılamayı destekleme amaçlı veri içeren bir segmenttir.
 review-terms = Common Voice’u kullandığınızda <termsLink>Koşullarımızı</termsLink> ve <privacyLink>Gizlilik İlkelerimizi</privacyLink> kabul etmiş olursunuz.
 terms-agree = Kabul ediyorum
 terms-disagree = Kabul etmiyorum
@@ -555,8 +565,8 @@ subscribe = Abone ol
 get-started-speech = Konuşma tanımaya giriş
 other-datasets = Diğer ses veri kümeleri
 feedback-q = Görüşleriniz mi var?
-deepspeech-info = Common Voice veri kümesi, Mozilla’nın konuşma tanıma uygulamaları oluşturmak için kullanabileceğiniz açık kaynaklı ses tanıma motoru Deep Speech'i tamamlar. Nasıl başlayacağınızı öğrenmek için <githubLink>Github genel bakışımızı</githubLink> okuyun veya <discourseLink>DeepSpeech Discourse</discourseLink>'a katılın.
-common-voice-info-new = Common Voice hakkında sorularınız mı var? Belirli bir dille ilgili iyileştirmeler veya geri bildirimler için fikirleriniz mi var? <discourseLink>Discourse forumumuzda</discourseLink> bize katılın ve bize bildirin.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™, en yeni teknolojilerle etkileşimli yapay zekâ modelleri geliştiren araştırmacılar için <docsLink>açık kaynaklı bir araç takımıdır</docsLink>.
+resource-deepspeech-info = Mozilla’nın açık kaynaklı ses tanıma motoru Deep Speech, konuşma tanıma uygulamaları oluşturmak için kullanılabilir. Nasıl başlayacağınızı öğrenmek için <githubLink>Github genel bakışımızı</githubLink> okuyun veya <discourseLink>DeepSpeech Discourse</discourseLink>'a katılın.
 data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
 data-other-ted-name = TED-LIUM Korpusu
 data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur.
@@ -830,6 +840,15 @@ why-delete-recordings =
     
     Kayıtlarınızın neden silinmesini istediğinizi bize bildirir misiniz?
 profile-form-delete = Profilimi sil
+
+## Profile Download
+
+download-q = Verilerinizi indirmeniz mi gerekiyor?
+download-profile-title = Profil
+download-profile-info = E-posta, kullanıcı adı ve demografik bilgileri içerir. Hemen indirilebilir
+download-profile-size = Birkaç bayt
+download-recordings-title = Kayıtlar
+download-recordings-info = MP3'leri ve ilgili cümleleri içerir. Hazırlanması biraz zaman alabilir
 
 ## Landing
 
