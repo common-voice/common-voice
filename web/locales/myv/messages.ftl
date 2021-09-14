@@ -779,6 +779,8 @@ share-n-weekly-contribution-goal = Явшемс эсеть эрьва тарго
 share-goal-type-speak = Кортазь
 share-goal-type-listen = Кунсолозь
 share-goal-type-both = Кортазь-кунсолозь
+# LINK will be replaced with the current URL
+goal-share-text = Ансяк теинь эстень вайгелень сёрмадомадо норовавкс # CommonVoice -- адя мартон кундатано тонавтомо машинатненень кортамо кода алкукс ломанть кортыть { $link }
 weekly-goal-created = Таргонь норовавксот-целеть шказь-теезь
 daily-goal-created = Чинь норовавксот-целеть шказь-теезь
 track-progress = Невтемс касомат тесэяк, статистикань лопасоткак.
