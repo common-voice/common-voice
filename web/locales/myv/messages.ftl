@@ -580,6 +580,7 @@ other-language = Лия кель
 
 language-section-in-progress = Тевесь моли
 language-section-launched = Нолдазь
+language-section-launched-description = Неть нолдазь кельтнень туртов сайтатне  вадрясто-парсте <localizationGlossaryLink>ютавтозь</localizationGlossaryLink>, седе башка сатышка <sentenceCollectionGlossaryLink>валрисьметнеде пурназь</sentenceCollectionGlossaryLink> <speakLink>Кортамонь</speakLink> ды <listenLink>Кунсоломань</listenLink> тевтнень топавтомга.
 languages-show-more = Неемс седе ламо
 languages-show-less = Неемс седе аламо
 language-meter-in-progress = Поладксонь молемась
@@ -764,6 +765,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Маралянь тевть! Зяро клипть чизэнзэ?
 how-many-a-week = Маралянь тевть! Зяро клипть таргозонзо?
 which-goal-type = Тон арсят Кортамс, Кунсоломс эли кавонест тевтнень тейсыть?
+receiving-emails-info = Ней аравтоматне невтить учат пельденк сёрмат, конатнесэ ёвтави «Common Voice» проектэнь норовавкстнэде-цельтнеде, зяро ды кода монь путовкстнэ лэздыть ды конат пачтить проектэнь кулялопат.
+not-receiving-emails-info = Зярс аравтоматне невтить <bold>А УЧАТ</bold> пельденк сёрмат, конатнесэ ёвтави «Common Voice» проектэнь норовавкстнэде-цельтнеде, зяро ды кода монь путовкстнэ лэздыть ды конат пачтить проектэнь кулялопат.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } клип
