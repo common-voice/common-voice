@@ -33,7 +33,6 @@ const MAINTENANCE_PATH = path.join(__dirname, '..', '..', 'maintenance');
 const RELEASE_VERSION = getConfig().RELEASE_VERSION;
 const ENVIRONMENT = getConfig().ENVIRONMENT;
 const PROD = getConfig().PROD;
-const KIBANA_PREFIX = getConfig().KIBANA_PREFIX;
 const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
 
 const CSP_HEADER = [
@@ -132,48 +131,6 @@ export default class Server {
       });
 
       app.use(authRouter);
-      app.use(KIBANA_PREFIX, authMiddleware, (request, response, next) => {
-        const { KIBANA_URL: target, KIBANA_ADMINS } = getConfig();
-        if (!target) {
-          response
-            .status(HttpStatus.INTERNAL_SERVER_ERROR)
-            .json({ error: 'KIBANA_URL missing in config' });
-          return;
-        }
-
-        const { baseUrl, client_id, user } = request;
-
-        if (!user || !client_id) {
-          response.redirect('/login?redirect=' + baseUrl);
-          return;
-        }
-
-        // For now, you either get full access of Kibana or none at all.
-        const userEmail = user.emails[0].value;
-
-        if (
-          !userEmail ||
-          !(
-            userEmail.endsWith('@mozilla.com') ||
-            JSON.parse(KIBANA_ADMINS).includes(userEmail)
-          )
-        ) {
-          response.status(HttpStatus.FORBIDDEN).json({
-            error: `${userEmail} is not authenticated for Kibana access.`,
-          });
-          return;
-        }
-
-        trackPageView(baseUrl, client_id);
-
-        proxy({
-          target,
-          changeOrigin: true,
-          pathRewrite: {
-            ['^' + baseUrl]: '',
-          },
-        })(request, response, next);
-      });
 
       app.use('/api/v1', this.api.getRouter());
 
