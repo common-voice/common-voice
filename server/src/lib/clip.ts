@@ -8,6 +8,7 @@ import Model from './model';
 import getLeaderboard from './model/leaderboard';
 import { earnBonus, hasEarnedBonus } from './model/achievements';
 import * as Basket from './basket';
+import * as Sentry from '@sentry/node';
 import Bucket from './bucket';
 import { ClientParameterError, ServerError } from './utility';
 import Awards from './model/awards';
@@ -69,6 +70,17 @@ export default class Clip {
     return router;
   }
 
+
+  /*
+   * Helper function to send error message to client, and save to Sentry
+   * defaults to save_clip_error
+   */
+  clipSaveError(headers: any, response: Response, status: number, msg: string, customError?: string) {
+    const compiledError = customError ? `${customError} ${msg}` : `save_clip_error ${msg}`;
+    response.status(status).send(compiledError);
+    Sentry.captureEvent({ request: { headers }, message: compiledError });
+  }
+
   serveClip = async ({ params }: Request, response: Response) => {
     const url = await this.bucket.getClipUrl(params.clip_id);
     if (url) {
@@ -79,26 +91,20 @@ export default class Clip {
   };
 
   saveClipVote = async (
-    { client_id, body, params }: Request,
+    { client_id, body, params, headers }: Request,
     response: Response
   ) => {
     const id = params.clipId as string;
     const { isValid, challenge } = body;
 
     if (!id || !client_id) {
-      const msg = `saveClipVote missing parameter: ${id ? 'client_id' : 'clip_id'}.`;
-      response
-        .status(400)
-        .send(msg);
-      console.error(msg);
+      this.clipSaveError(headers, response, 400, `missing parameter: ${id ? 'client_id' : 'clip_id'}`, 'save_vote_error');
       return;
     }
 
     const clip = await this.model.db.findClip(id);
     if (!clip) {
-      const msg = `saveClipVote clip not found: ${id}.`;
-      response.status(422).send(msg);
-      console.error(msg);
+      this.clipSaveError(headers, response, 422, `clip not found: ${id}`, 'save_vote_error');
       return;
     }
 
@@ -147,19 +153,13 @@ export default class Clip {
     const size = headers['content-length'];
 
     if (!sentenceId || !client_id) {
-      const msg = `save_clip_error missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}.`;
-      response
-        .status(400)
-        .send(msg);
-      console.error(msg);
+      this.clipSaveError(headers, response, 400, `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`);
       return;
     }
 
     const sentence = await this.model.db.findSentence(sentenceId);
     if (!sentence) {
-      const msg = `save_clip_error sentence not found: ${sentenceId}.`;
-      response.status(422).send(msg);
-      console.error(msg);
+      this.clipSaveError(headers, response, 422, `sentence not found: ${sentenceId}`);
       return;
     }
 
@@ -197,15 +197,11 @@ export default class Clip {
         .channels(1)
         .sampleRate(32000)
         .on('error', (error: string) => {
-          response
-            .status(500)
-            .send(`save_clip_error ${error} for ${metadata}`);
+          this.clipSaveError(headers, response, 500, `${error} for ${metadata}`);
           return;
         })
         .on('finish', async() => {
-          console.log(
-            `clip written to s3 ${metadata}`
-          );
+          console.log(`clip written to s3 ${metadata}`);
 
           await this.model.saveClip({
             client_id: client_id,
@@ -255,9 +251,7 @@ export default class Clip {
         })
         .promise();
     } else {
-      response
-        .status(500)
-        .send(`save_clip_error ${clipFileName} already exists`);
+      this.clipSaveError(headers, response, 500, `${clipFileName} already exists`);
       return;
     }
   };
