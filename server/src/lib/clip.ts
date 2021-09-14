@@ -86,18 +86,20 @@ export default class Clip {
     const { isValid, challenge } = body;
 
     if (!id || !client_id) {
-      response.statusMessage = 'save_clip_vote_missing_parameter';
+      const msg = `saveClipVote missing parameter: ${id ? 'client_id' : 'clip_id'}.`;
       response
         .status(400)
-        .send(`Missing parameter: ${id ? 'client_id' : 'clip_id'}.`);
-      throw new ClientParameterError();
+        .send(msg);
+      console.error(msg);
+      return;
     }
 
     const clip = await this.model.db.findClip(id);
     if (!clip) {
-      response.statusMessage = 'save_clip_vote_missing_clip';
-      response.status(422).send(`Clip not found: ${id}.`);
-      throw new ServerError();
+      const msg = `saveClipVote clip not found: ${id}.`;
+      response.status(422).send(msg);
+      console.error(msg);
+      return;
     }
 
     const glob = clip.path.replace('.mp3', '');
@@ -134,7 +136,8 @@ export default class Clip {
 
   /**
    * Save the request body as an audio file.
-   * TODO: Check for empty or silent clips before uploading.
+   * Ensure errors from this function include the term save_clip_error
+   * to be easily parsed from other errors
    */
   saveClip = async (request: Request, response: Response) => {
     const { client_id, headers } = request;
@@ -144,29 +147,29 @@ export default class Clip {
     const size = headers['content-length'];
 
     if (!sentenceId || !client_id) {
-      response.statusMessage = 'save_clip_missing_parameter';
+      const msg = `save_clip_error missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}.`;
       response
         .status(400)
-        .send(
-          `Missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}.`
-        );
-      console.log(`sent headers: ${JSON.stringify(headers)}`);
-      throw new ClientParameterError();
+        .send(msg);
+      console.error(msg);
+      return;
     }
 
     const sentence = await this.model.db.findSentence(sentenceId);
     if (!sentence) {
-      response.statusMessage = 'save_clip_missing_sentence';
-      response.status(422).send(`Sentence not found: ${sentenceId}.`);
-      throw new ServerError();
+      const msg = `save_clip_error sentence not found: ${sentenceId}.`;
+      response.status(422).send(msg);
+      console.error(msg);
+      return;
     }
 
     // Where is our audio clip going to be located?
     const folder = client_id + '/';
     const filePrefix = sentenceId;
     const clipFileName = folder + filePrefix + '.mp3';
+    const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`;
 
-    try {
+    if (!await this.bucket.fileExists(clipFileName)) {
       // If the folder does not exist, we create it.
       await this.s3
         .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
@@ -193,6 +196,55 @@ export default class Clip {
         .format('mp3')
         .channels(1)
         .sampleRate(32000)
+        .on('error', (error: string) => {
+          response
+            .status(500)
+            .send(`save_clip_error ${error} for ${metadata}`);
+          return;
+        })
+        .on('finish', async() => {
+          console.log(
+            `clip written to s3 ${metadata}`
+          );
+
+          await this.model.saveClip({
+            client_id: client_id,
+            localeId: sentence.locale_id,
+            original_sentence_id: sentenceId,
+            path: clipFileName,
+            sentence: sentence.text,
+          });
+          await Awards.checkProgress(client_id, { id: sentence.locale_id });
+
+          await checkGoalsAfterContribution(client_id, { id: sentence.locale_id });
+
+          Basket.sync(client_id).catch(e => console.error(e));
+
+          const challenge = headers.challenge as ChallengeToken;
+          const ret = challengeTokens.includes(challenge)
+            ? {
+                filePrefix: filePrefix,
+                showFirstContributionToast: await earnBonus('first_contribution', [
+                  challenge,
+                  client_id,
+                ]),
+                hasEarnedSessionToast: await hasEarnedBonus(
+                  'invite_contribute_same_session',
+                  client_id,
+                  challenge
+                ),
+                // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
+                // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
+                showFirstStreakToast: await earnBonus('three_day_streak', [
+                  client_id,
+                  client_id,
+                  challenge,
+                ]),
+                challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+              }
+            : { filePrefix };
+          response.json(ret);
+        })
         .stream();
 
       await this.s3
@@ -202,53 +254,11 @@ export default class Clip {
           Body: audioOutput,
         })
         .promise();
-
-      console.log(
-        `clip written to s3 ${clipFileName} (${size} bytes, ${format}) from ${source}`
-      );
-
-      await this.model.saveClip({
-        client_id: client_id,
-        localeId: sentence.locale_id,
-        original_sentence_id: sentenceId,
-        path: clipFileName,
-        sentence: sentence.text,
-      });
-      await Awards.checkProgress(client_id, { id: sentence.locale_id });
-
-      await checkGoalsAfterContribution(client_id, { id: sentence.locale_id });
-
-      Basket.sync(client_id).catch(e => console.error(e));
-
-      const challenge = headers.challenge as ChallengeToken;
-      const ret = challengeTokens.includes(challenge)
-        ? {
-            filePrefix: filePrefix,
-            showFirstContributionToast: await earnBonus('first_contribution', [
-              challenge,
-              client_id,
-            ]),
-            hasEarnedSessionToast: await hasEarnedBonus(
-              'invite_contribute_same_session',
-              client_id,
-              challenge
-            ),
-            // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-            // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-            showFirstStreakToast: await earnBonus('three_day_streak', [
-              client_id,
-              client_id,
-              challenge,
-            ]),
-            challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-          }
-        : { filePrefix };
-      response.json(ret);
-    } catch (error) {
-      console.error(error);
-      response.statusCode = error.statusCode || 500;
-      response.statusMessage = 'save_clip_error';
-      response.json(error);
+    } else {
+      response
+        .status(500)
+        .send(`save_clip_error ${clipFileName} already exists`);
+      return;
     }
   };
 

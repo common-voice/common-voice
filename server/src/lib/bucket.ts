@@ -66,6 +66,21 @@ export default class Bucket {
     }
   }
 
+
+  /**
+   * Check if given file exists
+   */
+  async fileExists(path: string) {
+    const file = await this.s3
+      .headObject({
+        Bucket: getConfig().CLIP_BUCKET_NAME,
+        Key: path,
+      })
+      .promise();
+
+    return file.ContentLength > 0;
+  }
+
   /**
    * Grab metadata to play clip on the front end.
    */
