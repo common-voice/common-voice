@@ -876,6 +876,7 @@ download-request = Ejerure Ñemboguejy
 download-requests = Ñemboguejy ohasámava mba’ejerure
 download-request-button = Mboguejy
 download-request-title = { $created }
+download-request-description = { $clipCount } ayvu mbyky, marandurenda tuichakue { $size }. Hu’ãta { $expires }.
 download-request-archive-single = Marandurenda ZIP ha'eño orekóva
 download-request-assembling-description = Oñembyaty ne marandurendakuéra. Ehechajey ag̃amieve.
 download-request-refresh-button = Mbohekopyahu
