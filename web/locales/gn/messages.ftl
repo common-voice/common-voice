@@ -110,6 +110,7 @@ ms = Malasia ñe’ẽ
 mt = Malta ñe’ẽ
 my = Burma ñe’ẽ
 myv = Erzya ñe’ẽ
+nan-tw = Taiwán ñe’e (Minnan)
 nb-NO = Noruega ñe’ẽ
 ne-NP = Nepali ñe’ẽ
 nia = Nias
