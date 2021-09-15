@@ -2520,6 +2520,7 @@ Abhay is a nice guy.
 Abhay is acting weird today.
 Abhay is our reporting manager.
 Abhay is very sad today.
+Abhay is very sweet.
 Abhay is worried about something.
 Abhay works on time.
 Abide with me.
@@ -2632,6 +2633,7 @@ Adam G., by God!
 Adam Patch was not well, said Shuttleworth indignantly.
 Adam was not well, said Shuttleworth indignantly.
 Adaptiveness is the peculiarity of human nature.
+Add a collaborator to the repository.
 Add fairy-princess gag.
 Add four grams of butter to the self raising flour.
 Add some Cilantro.
@@ -4490,6 +4492,8 @@ Animation keeps children entertained for hours.
 Anime is just as popular in the west, not only in Japan.
 Aniseed balls are one of my favourite sweets
 Anisha apathetically states that he has no interest.
+Anisha is a good girl.
+Anisha is brilliant.
 Anisha is roaming around.
 Ann Spurgeon is going to be a minister.
 Ann flew to the door, face alight, eyes glowing.
@@ -4722,6 +4726,7 @@ Apple is an American company.
 Apple, Google, Amazon and Facebook are often described as tech giants.
 Apply for the new position that's opened up.
 Appointments have been substantiated into fixtures.
+Approximately it is twenty five.
 Apricot is healthy.
 April Shirley, whatever is the matter with you?
 April is tax season in the United States.
@@ -5388,6 +5393,7 @@ Bad data can cause inaccuracies in machine learning algorithms.
 Bad example for the boys.
 Bad news will be a little the better.
 Bad plans are prone to failure.
+Baga beach is beautiful.
 Baidu is like the Google of China.
 Baillie is the true newspaper; he is to be used and studied like one.
 Bake for two hours at four hundred degrees.
@@ -5415,6 +5421,8 @@ Barry was here this afternoon, Angie.
 Basil is a herb.
 Bassett was a fastidious man.
 Bassett was a silent bread crumbler.
+Bastora is a village.
+Batch normalisation is another technique to reduce overfitting.
 Batsmen can win you matches.
 Battle Royale is a popular gamemode among preteens.
 Baxter Dawes he knew and disliked.
@@ -7179,6 +7187,9 @@ Caddy seemed equally at a loss.
 Caddy, show Miss Clare and Miss Summerson their rooms.
 Cadmium batteries can be recycled also.
 Cafes and clubs roared incessantly.
+Calanguate beach is beautiful.
+Calanguate has a beach.
+Calanguate is a good place.
 Calcium is essential for healthy bone structure.
 Calgary is on the eve of its Stampede festival.
 California soon shall wear each hue.
@@ -7349,6 +7360,7 @@ Can't you speak English?
 Can't you stroll around a little longer?
 Can't you wake him?
 Can't you, Jo?
+Canacona is a taluka of Goa.
 Canada became a British possession.
 Canada produces most of the world’s maple syrup.
 Canadians call the one dollar coin "the loonie" as it depicts a loon.
@@ -7366,6 +7378,7 @@ Cannot you inform him that it is frightful earnest?
 Cannot you tell her whom I am, eh, Joseph?
 Cannot you tell him I will?’ she returned.
 Canterbury Cathedral is home to the shrine of the murdered archbishop Thomas Becket.
+Canva is a good photo editor.
 Can’t blame her for getting scared!
 Can’t promise, my dear Sir, can’t promise.
 Can’t we be good friends?
@@ -7569,6 +7582,7 @@ Charming boy — poor dear mother and I absolutely inseparable.
 Chase you all over the country?
 Cheap housing helps first time buyers get onto the property ladder.
 Cheap, cheap.
+Check balance
 Check the calorimeter.
 Check the mirror.
 Check this out.
@@ -7883,6 +7897,7 @@ Consternation sat on every face.
 Consumables are the most sold items.
 Consumer electronics are not built to last like they used to.
 Consumers want an appealing, stylish and durable product.
+Content Management Systems are outdated now-a-days.
 Continuous Integration has been a lifesaver for us.
 Continuous effort – not strength or intelligence – is the key to unlocking our potential.
 Contrary to popular belief, the Great Wall of China is not visible from space.
@@ -8941,6 +8956,7 @@ Don't touch that butter. It's rancid!
 Don't try to influence him.
 Don't try to shield him.
 Don't turn it off yet.
+Don't use Wordpress for creating a website.
 Don't wake Miss Clare.
 Don't we always go halves in everything?
 Don't worry about it, my friend.
@@ -8997,6 +9013,7 @@ Don't you, though!
 Don't you, usually?
 Don't, Jo; it's so boyish!
 Don't, that's her name for me!
+Dona Paula view point is beautiful.
 Donald wants a cameo if we are going to shoot here.
 Done some good work on my novel.
 Donna knew best and Donna was bringing her up.
@@ -9209,6 +9226,8 @@ Due to his uniform!
 Due to unforeseen circumstances the event had to be cancelled.
 Due to what is known as the maternal instinct, what?
 Duke George did not stop at home to partake of the beer and wine.
+Duler is a village.
+Duler is in Goa.
 Duluth has a cool, salubrious summer and a snug winter climate.
 Dunham, can your boy go along with Jesse.
 During December it snows in Shimla.
@@ -9323,6 +9342,8 @@ Either the funny hat, or postures.
 Either the suit must be ended, Esther - or the suitor.
 Either way, I’m happy.
 Ejecting disk in five seconds.
+Elaborate with example.
+Elaborate your answer.
 Elderly individuals take advantage of accessibility technology.
 Elderly people can be vulnerable and need assistance, but might not ask for it.
 Electric Vehicles might be practical if more investment was put into recharging infrastructure.
@@ -9428,6 +9449,9 @@ Escape, however, was not his plan.
 Especially when you see her sideways.
 Especially with copper toes?
 Esther certainly does think so.
+Esther is a mad person.
+Esther is the bad one in that story.
+Esther is the villain in the story.
 Esther, my dear, do you wish to ask me anything?
 Esther, will you forgive me?
 Ethical considerations should be made to mitigate the misuse of technology advancements.
@@ -9718,6 +9742,7 @@ Experts conceive autonomous vehicles will come to wherever you are on demand.
 Experts recommend robots should not be gendered to avoid promoting harmful stereotypes.
 Experts recommend robots should not be gendered to avoid promoting harmful stereotypes..
 Explain the term patent trolling.
+Explain the whole scenario.
 Explainability in machine learning models help us understand how it came to a decision.
 Explosive laughs were constantly issuing from the sideboard.
 Exports are constrained by import levies at the destination.
@@ -9868,6 +9893,8 @@ Five western cattle died of Spanish fever at Millerton
 Fix your thoughts on that cold steak-and-kidney pie in the larder.
 Fixing me with a glittering eye, like the Ancient Mariner.
 Fizzy drinks often have a lot of sugar and are bad for your teeth
+Flask can be used to create api's.
+Flask is a Python web framework.
 Flies are good fertilizers.
 Flights within Europe are cheap.
 Fling her into the kitchen!
@@ -10470,6 +10497,7 @@ Goa is a very beautiful place.
 Goa is a wonderful place to visit.
 Goa is famous for its beaches.
 Goa is famous for tourism.
+Goa is the smallest state of India.
 God always wants little girls to say their prayers.
 God and Father of mankind.
 God bless 'em, I hope I'll go on seeing them forever.
@@ -12157,6 +12185,7 @@ He is a capable and credible researcher.
 He is a child — an absolute child.
 He is a child, you know!
 He is a climate change sceptic. Good grief!
+He is a collaborator.
 He is a cousin, several times removed.
 He is a dark-haired, stout, youthful-looking male soprano.
 He is a fathead—a great blundering John Bull.
@@ -12184,6 +12213,7 @@ He is a young man of perhaps thirty, with smooth, black hair.
 He is able to give a mass of new examples of garden carpets.
 He is absolutely necessary to me.
 He is accused of embezzling two hundred thousand dollars.
+He is added as a collaborator.
 He is afraid I shall laugh at him.
 He is alive yet.
 He is alone in the offices.
@@ -12213,6 +12243,7 @@ He is clear that every such person wants to depose him.
 He is considered, in the profession, a respectable man?
 He is driving it in broad daylight.
 He is fairly frail nowadays, and has to walk with a walking frame
+He is five years old approximately.
 He is forever anticipating persecution and martyrdom.
 He is going out now — furious!
 He is gone.
@@ -15689,6 +15720,7 @@ How do I know if I am experiencing a heart attack?
 How do I remember?
 How do I transmit this photo with infrared?
 How do I turn the clock back on this?
+How do it work in that case?
 How do we emerge as successful businesses during an economic downturn?
 How do we encourage greater involvement with the overall vision?
 How do we identify cancer early?
@@ -16275,6 +16307,7 @@ I am going to the town house, my dear, the family house.
 I am going to try drilling for oil.
 I am going to try you to the utmost.
 I am good at active listening.
+I am good in approximation.
 I am gradually making my way.
 I am gratified to hear it, sir.
 I am greatly opposed to the crossing of Persians with merino.
@@ -17915,6 +17948,7 @@ I have a kaleidoscope.
 I have a lot of transgender friends
 I have a lunch engagement, so will follow in the car.
 I have a miniature statue.
+I have a old house in Torda.
 I have a pastor like that.
 I have a poodle, my sister has an Alsatian
 I have a prickly cough.
@@ -20116,6 +20150,7 @@ I want to tell you good-bye.
 I want to tell you now when I can.
 I want to tell you something, mother.
 I want to think.
+I want to understand the whole scenario.
 I want to, oh, so much!
 I want you boys above all to be keen.
 I want you to call me Jacob.
@@ -21625,6 +21660,8 @@ Images used on Wikipedia are normally stored in its image repository, Wikimedia 
 Imagine our surprise.
 Imagine what has happened!
 Immanuel apathetically states that he has no interest.
+Immanuel is a brilliant guy.
+Immanuel is a good boy.
 Immediately afterwards he heard the mother slowly mounting the stairs.
 Immediately he had finished tea he rose with alacrity to go out.
 Immediately he had her attention.
@@ -25313,6 +25350,15 @@ Late in my pregnancy, I walked a little bit like a Penguin.
 Lately Jason had been taking his time
 Later in the afternoon he returned to the apartment.
 Later it began to rain.
+Later on I will go to Bicholim.
+Later on I will go to Mapusa.
+Later on I will go to Margao.
+Later on I will go to Panjim.
+Later on I will go to Pernem.
+Later on I will go to Sanguem.
+Later on I will go to meet him.
+Later on he did well.
+Later on he will try to fix it.
 Later on the clergyman came and talked softly with her.
 Lather, rinse and repeat.
 Laughably simple, eh?
@@ -25940,10 +25986,13 @@ Many thanks, Robert.
 Many thanks. I'm looking forward to it.
 Many vegetables are green.
 Many words in English aren't pronounced how they're spelt.
+Mapusa is a city.
 Marble is soft, and can be scratched with a knife.
 March was to take Elizabeth to Hunsford.
 Mardi Gras is an extravagant event every spring in New Orleans.
+Margao is a city in Goa.
 Margao is around forty kilometres away from Panjim.
+Margao is the capital of South Goa district.
 Margarine is an alternative to butter.
 Marge is short for margarine.
 Maria needs to mind her own business.
@@ -26273,6 +26322,7 @@ Minton pit waved its plumes of white steam, coughed, and rattled hoarsely.
 Minute by minute she does her duty.
 Minuteness never fritters into pettiness.
 Miramar Beach is the closest to Panjim.
+Miramar beach is beautiful.
 Miriam already began to suffer.
 Miriam and her brother were naturally antagonistic.
 Miriam appeared in the doorway.
@@ -27269,6 +27319,8 @@ Nebula must not be regarded as in all cases a very local phenomenon.
 Necessity is the mother of all invention.
 Need I worry about it?
 Need a hand?
+Need more to elaborate on this.
+Need to elaborate on this.
 Need to learn more about this place.
 Neither Jane nor Elizabeth were comfortable on this subject.
 Neither Papist nor dissenter need apply.
@@ -27752,6 +27804,7 @@ Nobody would think of building one in such an out-of-the-way place.
 Nobody'll find nothing in such a scrimmage as that.
 Nobody's gonna like it if I can't even sing it right.
 Nod your head; that's what I want to see you do.
+Node.js is a JavaScript web framework for backend development.
 Nominated, constituted, and appointed.
 Non-conformists are still conforming to something.
 Non-motorists are allowed to cross on allotted areas.
@@ -29557,6 +29610,7 @@ Pearce's little eyes were fixed on him shrewdly.
 Pears are definitely my favourite fruit.
 Pebbles and dirt flew along with hair and fur.
 Peculiar little soul — she gets me.
+Pedem is a village.
 Pedophilia or the love of children may be included under this head.
 Peewits, with their white breasts glistening, wheeled and screamed about them.
 Pegging down the bat is simple, but destructive and ineffective.
@@ -29670,6 +29724,8 @@ Perish the thought.
 Perishable items must be delivered faster.
 Permit me to introduce my friends.
 Permit me to introduce to you her Majesty, the Queen.
+Pernem is a city.
+Pernem is in Goa.
 Perplexity returned to it.
 Perrault found one with head buried in the grub box.
 Persecution for the expression of opinions seems to me perfectly logical.
@@ -29937,6 +29993,7 @@ Polygamy must occasion sodomy, bestiality, or the like.
 Polynesia could mimic any one.
 Polynesia crept in, very softly, and got under the bed.
 Polynesia, Chee-Chee and the crocodile enjoyed the hot sun no end.
+Ponda is a village in Goa.
 Pooh, pooh, nonsense.
 Poor Linton ran a frightened eye over the faces of the three.
 Poor beggar, he’ll wish himself anywhere rather.
@@ -29954,7 +30011,10 @@ Porcupines are fascinating.
 Porridge is healthier without sugar.
 Porters are hurrying to and fro with luggage on trucks.
 Porvorim is a good area.
+Porvorim is a place in Goa.
+Porvorim is a village in Goa.
 Porvorim is four kilometres away from Panjim.
+Porvorim is were I live.
 Porvorim police station is close to Sanjay School.
 Possession is nothing to me.
 Possible tomorrow there is no work.
@@ -30241,6 +30301,7 @@ Re-entering my room seemed like the recovery of reality.
 Reach for his cheque-book and start writing.
 Reaching it she again considered.
 Reaching the peak of the mountain was an exhilarating experience.
+React.js is a JavaScript web framework for frontend development.
 Reaction was a greater bore than action.
 Read away; it's all one to me.
 Read five chapters on Sunday.
@@ -30514,10 +30575,13 @@ Said he'd consider it.
 Said she came out two winters ago in Kansas City.
 Said the gentleman, "Don't you want to go there?"
 Sailors furnish many of the instruments which they use in the ship's work.
+Salcete is a taluka of Goa.
 Salcete is the largest taluka of Goa.
 Sallie has some girls staying with her.
 Sally took a peek through the keyhole.
 Saltpeter, when employed as a fertilizer, is generally sown by hand.
+Salvador Do Mundo is a place in Goa.
+Salvador Do Mundo is a village in Goa.
 Sam accompanies me there.
 Sam and Patricia watched a film while eating their supper.
 Sam apathetically states that he has no interest.
@@ -30545,6 +30609,9 @@ Samuel is a collector of rare retro games.
 Samuel was puffing and out of breath.
 Sand, Cement and Gravel cohesively bond together to create a strong concrete mix.
 Sandel would never become a world champion.
+Sangolda is a place in Goa.
+Sangolda is a village in Goa.
+Sanguem is a taluka of Goa.
 Santa Claus knows whether you're naughty or nice.
 Sapphire makes great jewellery.
 Sarah taught kids during the day and looked after her cats in the evening.
@@ -33102,6 +33169,8 @@ Soaked in seawater they offset the heat rays.
 Sobbing, she sat down in a chair.
 Soccer is called Football in England.
 Soccer is known as Football in England.
+Soccoro is a place in Goa.
+Soccoro is a village in Goa.
 Social media has taken over our lives.
 Social media is useful, but scary.
 Social media must automatically filter graphic content.
@@ -33423,6 +33492,7 @@ Spring is a rather frisky season.
 Spring onions are very tasty in a salad
 Spring was the worst time.
 St George is the patron saint of England.
+St. Inez is close to Panjim city.
 Stability is a double-edged sword.
 Stand and deliver, the highwayman said.
 Stand aside, then.
@@ -34194,6 +34264,7 @@ That photograph of Uncle Tom as the bandmaster.
 That picture's askew, you know.
 That plan is now in cold storage.
 That plant we call the Indian fig is an admirable fence
+That process is known as pigmentation.
 That put the finishing touch on the panic.
 That putrid calendar must come down, though.
 That really doesn't seem appropriate.
@@ -35039,6 +35110,8 @@ The air was sickly sweet with cheap perfume.
 The aircraft approached the runway.
 The airs the fellow gives himself!
 The algorithm ate my homework.
+The algorithm will try to overfit the data.
+The algorithms will do approximation on the data.
 The alien was a rather fetching aquamarine colour.
 The alimentary canal is thoroughly flushed in every part.
 The alkali sets the reducer in action and is called the accelerator.
@@ -37452,6 +37525,7 @@ The neighbourhood had to be cleared for some black business.
 The neighbouring country demonstrated its hegemony.
 The neophyte's first day at work went well.
 The network administrator resolved the connectivity issue of the router.
+The neural dropout layer so that it reduces overfitting.
 The neuron consists of a retina, an optic nerve, and an optic ganglion.
 The new approach had less than a quarter of the impact of the old.
 The new area is located in the town of the Simon, Ontario's C.
@@ -39954,6 +40028,7 @@ There is a general strike.
 There is a good deal of sound Democracy in Republican prohibitionism.
 There is a great honour in being granted a Nobel prize.
 There is a growing demand for developers with analytics expertise.
+There is a guy whose name is Guy.
 There is a heightened risk of political tension and conflict.
 There is a house there still.
 There is a huge gap between the two detached homes.
@@ -42997,6 +43072,7 @@ Too much, he told me, with ominous rolling head.
 Too stormy for me with my cold.
 Too true, Jeeves.
 Toothpicks are an underrated part of dental hygiene.
+Torda is located in Salvador Do Mundo.
 Torrents came tumbling from crag to crag, dashing into foam and spray.
 Tortilla chips are tasty.
 Toto did not like it.
@@ -43264,6 +43340,7 @@ Utterly confounded, Mr. George stands looking at the knocker.
 Vaccinations are not good for health.
 Vaccines give protection from previously common viruses like Polio.
 Vaccines have nearly eradicated Polio occurrences.
+Vagator beach is beautiful.
 Vain, ignorant, idle, and absolutely uncontrolled!
 Vainly she cried to herself, "I must not fail tonight."
 Valentine's Day is on February fourteenth, but I don't have a valentine.
@@ -43277,6 +43354,7 @@ Vanessa postponed taking her children to the doctor.
 Vanilla cupcakes forever.
 Vanity working on a weak head produces every sort of mischief.
 Vargas the town has no longer part of the city of Lagrange's.
+Vasco is a city in Goa.
 Vastly different was the Gussie who stood before me now.
 Vegetable fibres find India their most prolific home.
 Vegetable produce is a vital export for many countries.
@@ -44111,9 +44189,11 @@ We mustn't forget to pack a flannel.
 We need a greater emphasis on reform.
 We need a lot of time for principal photography.
 We need better ways of averting cancer.
+We need good implementation factors.
 We need help with the economy.
 We need her more than ever
 We need more audience contribution.
+We need more collaborators.
 We need more developers to make a viable project.
 We need more empathy between patients and doctors.
 We need more funding if we're going to finish the project.
@@ -47095,11 +47175,21 @@ Won't you tell me a story, while we are resting?
 Wonder how old he is?
 Wonder if all blind people do?
 Wonder if he's a lion dog, Charles suggested.
+Wonderful design.
 Won’t Stacy be delighted?
 Won’t you come here again?
 Won’t you sit down?
 Woodcourt came home, and I soon had no doubt at all.
 Word wrap formatting helps text documents read clearer.
+Wordpress can be used to design light weight websites.
+Wordpress cannot be used for large and complex websites.
+Wordpress has many plugins.
+Wordpress is an old framework.
+Wordpress is not used by anyone in the industry.
+Wordpress is not used now-a-days.
+Wordpress is out dated.
+Wordpress plugins are available.
+Wordpress websites can be created by anyone.
 Words fail me to describe that ice cream.
 Words flooded from her in a low husky voice.
 Words of limitation operate by reference to or connection with other words.
@@ -47110,6 +47200,7 @@ Work of this character establishes sympathy between the co-workers.
 Workers like to feel like they are more than a cog in a machine.
 Working for a charity can be very rewarding.
 Working hard to reduce inequality.
+Working with Wordpress is hectic now-a-days.
 Worldly goods are divided unequally, and man must not repine.
 Worn socks have a pungent odour.
 Worried is right.

@@ -10112,7 +10112,6 @@ Yok, hayır.
 Yok, sağ ol.
 Yok, yok.
 Yok.
-Yokluk, yoksulluğun karşılığı değildir.
 Yoksa başka türlü mü?
 Yoksa böyle birdenbire başlayışım namusuna mı dokundu?
 Yoksa dün akşam ciddi değil miydiniz?
@@ -10327,10 +10326,7 @@ Zorlukları, azapları anlatmakla tükenmeyecek bir yolculuktan sonra Sinop'a ge
 Zımpara kağıdına; ömrümüzü, zevklerimizi törpüleyecek bir zımpara kağıdına…
 Zırlamasına pencerenin önünde!
 bir yandan mutlu olmak için ne kadar çok sebebim olduğunu düşünüyorum.
-gidilen yer ve mekâna kendini ait hissetmez
-kendi içerisinde farklılıklar barındırmaz.
 kendimi kendimden çıkarsam sıfır kalmaz
-orada varla yok arasında bir yerde dururlar.
 ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçıracaktı.
 Âmin.
 Çabuk ol!
@@ -10916,7 +10912,6 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 İlk rastgeldiğim polisten Charité dedikleri bu hastanenin nerede olduğunu öğrendim.
 İlk sahifeye bir göz attım, serlevha filan yoktu.
 İlk suali ben sorsaydım, hakim vaziyette ben olacaktım.
-İlk zamanlar gelenler açısından da farklılıklar flulaşır;
 İlk zamanlarda onların silahlarını bilmiyordum.
 İlk şüpheleri tekrar kafasına gelmişti.
 İmdat!
