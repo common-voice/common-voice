@@ -501,7 +501,7 @@ terms-agree = Ве мельс пран
 terms-disagree = Ве мельс а пран
 review-aborted = Материалонь тонгомась лоткавтозь. Ули мелеть нардамс эсеть лентас сёрмадовкстнэнь?
 review-submit-title = Одов кунсоломс & Совавтомс
-review-submit-msg = Сюкпря лентас сёрмадовкстнэнь кисэ!<lineBreak></lineBreak>Ней, одов кунсолытя ды совавтытя эсеть клипстнэнь ало.
+review-submit-msg = Сюкпря лентас сёрмадовкстнэнь кисэ!<lineBreak></lineBreak>Ней, одов кунсолытя ды совавтытя эсеть клиптнэнь ало.
 review-recording = Лентас сёрмадовксонь кунсолома
 review-rerecord = Сёрмадомс одов
 review-cancel = Нардамс мезе совавтыть
@@ -607,8 +607,8 @@ skip = Ютамс вакска
 shortcuts = Керязь кить
 clips-with-count-pluralized =
     { $count ->
-        [one] Ролик
-       *[other] Роликт
+        [one] Клип
+       *[other] Клипть
     }
 goal-help-recording = Лездыде Common Voice-нень пачкодеме <goalPercentage></goalPercentage> видьс минек эрьва чинь  вайгельсэ сёрмадомань норовавксонть эйстэ { $goalValue } !
 goal-help-validation = Лездыде Common Voice-нень пачкодеме <goalPercentage></goalPercentage> видьс минек эрьва чинь  вайгельсэ сёрмадовксонь ванномань норовавксонть эйстэ { $goalValue } !
@@ -640,9 +640,9 @@ record-submit-tooltip = { $actionType } совавтомс зярдо анока
 clips-uploaded = Зяро клипть тонгозь
 record-abort-title = Васня сёрмадоманть прядомс?
 record-abort-text = Лисиндерят нейке, поладома теветь ёми
-record-abort-submit = Совавтомс клипст
+record-abort-submit = Совавтомс клипть
 record-abort-continue = Прядомс лентас сёрмадоманть
-record-abort-delete = Лисемс & Нардамс клипстнэнь
+record-abort-delete = Лисемс & Нардамс клиптнень
 listen-instruction = { $actionType } <playIcon></playIcon> истя кода эряви ёвтызь валрисьменть?
 listen-again-instruction = Пек паро! <playIcon></playIcon> Кунсолок одов, зярдо кенерят
 listen-3rd-time-instruction = 2 теезь, ней седе тов! <playIcon></playIcon>
