@@ -595,7 +595,7 @@ language-search-input =
 language-speakers = Кортыцятнеде
 localized = Ютавтозь эсь кельс
 sentences = Валрисьметь
-total-hours = Кочказь част
+total-hours = Ваннозь част
 
 ## Contribution
 
