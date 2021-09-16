@@ -876,11 +876,12 @@ demo-dashboard-card-header = Эсеть аравтома лазот невтит
 
 contribution-criteria-nav = Критерият
 contribution-criteria-link = Чарькодемс лезксэнь максомань критерият
-contribution-criteria-page-title = Лезксэнь максомань критерият
+contribution-criteria-page-title = Лезксэнь максомань критериятне
 contribution-criteria-page-description = Чарькодть мезес явомс мель, зярдо кунсолат вайгельсэ сёрмадозь клипть, ды тувако вадрякстомтыть эсеть вайгельсэ сёрмадовкстнэньгак
 contribution-for-example = саемга
 contribution-misreadings-title = Беряньстэ ловномат
 contribution-misreadings-description = Зярдо кунсолат, кирдть мельсэ вейкеяк ильведевкс, кодамо вишинька илязо уле, а маштови нолдамс. Текстэсь улезэ истямо кода и вайгелесь. Ёртык понгиндеряй ильведевкскеяк. <br/>Сеедьстэ вастневиця ильведевкстне истят:
+contribution-misreadings-description-extended-list-2 = Валонть песэ а саты <strong>'т'</strong>.
 contribution-misreadings-description-extended-list-3 = Ловномсто нолды моравикст-гласнойть, конатне текстсэ максозь, саемга "пандало" "пандо ало"-нь таркас, эли мекевлангт.
 contribution-misreadings-description-extended-list-4 = Аудионь меельце валонть пезэ нолдазь; сёрмадовксось лоткавтозь шкадо  икеле.
 contribution-misreadings-description-extended-list-5 = Ловномсто ёвты секе валонть зярыяксть пецек-пецек.
