@@ -886,6 +886,7 @@ download-request-assembling-description = Oñembyaty ne marandurendakuéra. Ehec
 download-request-refresh-button = Mbohekopyahu
 download-request-modal-title = Emboguejy Mbojuajuha
 download-request-modal-description = Ko’ápe oĩ juajuha emboguejy hag̃ua ZIP marandurenda.
+download-request-link-text = Zip #{ $offset } { $total } Zip mba’e
 download-request-metadata-link = Ñe’ẽjuaju moñe’ẽrã
 
 ## Landing
