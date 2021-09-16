@@ -458,17 +458,25 @@ request-language-title = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ
 request-language-form-language =
     .label = ᱯᱟᱹᱨᱥᱤ
 request-language-success-title = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱨᱟᱹᱥ ᱞᱮᱠᱟᱛᱮ ᱡᱚᱢᱟ ᱮᱱᱟ, ᱥᱟᱨᱦᱟᱣ ᱾
+request-language-success-content = Common Voice ᱨᱮ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱞᱠᱟ ᱠᱚ ᱥᱮᱞᱮᱫᱼᱟ ᱚᱱᱟ ᱵᱟᱵᱚᱛ ᱟᱞᱮ ᱟᱨᱦᱚᱸ ᱵᱤᱵᱨᱚᱬ ᱞᱚᱜᱚᱱ ᱜᱮ ᱞᱮ ᱞᱟᱹᱭ ᱟ ᱾
 select-language = ᱢᱤᱫᱴᱟᱝ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ...
 other-language = ᱮᱴᱟᱜᱟ ᱯᱟᱹᱨᱥᱤ
 
 ## Languages Overview
 
 language-section-in-progress = ᱞᱟᱦᱟ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ
+language-section-in-progress-new-description = ᱱᱚᱶᱟ ᱯᱟᱹᱨᱥᱤ ᱠᱚ ᱫᱚ ᱱᱤᱛᱚᱜ ᱠᱚᱢᱭᱩᱱᱤᱴᱭ ᱰᱮᱵᱷᱞᱚᱯᱢᱮᱱᱴ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ ᱾ ᱱᱚᱶᱟ ᱞᱟᱦᱟ ᱵᱟᱨ ᱫᱚ ᱡᱷᱚᱜᱚ ᱯᱟᱹᱨᱥᱤ ᱠᱚᱣᱟᱜ ᱞᱟᱦᱟ ᱠᱚ <localizationGlossaryLink> ᱣᱮᱵᱥᱟᱭᱤᱴ ᱛᱚᱨᱡᱚᱢᱟ </localizationGlossaryLink> ᱟᱨ <sentenceCollectionGlossaryLink> ᱟᱭᱟᱛ ᱴᱩᱢᱟᱹᱞ </sentenceCollectionGlossaryLink> ᱨᱮ ᱫᱮᱠᱷᱟᱣᱮᱫᱼᱟᱭ ᱾
+language-section-launched = ᱩᱪᱷᱟᱹᱱ ᱮᱱᱟ
 languages-show-more = ᱰᱷᱮᱨ ᱧᱮᱞ
+languages-show-less = ᱠᱚᱢ ᱧᱮᱞ ᱢᱮ
+language-meter-in-progress = ᱞᱟᱦᱟ
 language-total-progress = ᱢᱳᱴ
 language-search-input =
     .placeholder = ᱥᱮᱸᱫᱽᱨᱟ
+language-speakers = ᱨᱚᱲᱠᱩᱜ
+localized = ᱛᱚᱨᱡᱚᱢᱟ ᱦᱩᱭ
 sentences = ᱟᱭᱟᱛᱠᱚ
+total-hours = ᱯᱩᱥᱴᱟᱹᱣ ᱪᱷᱚ ᱴᱟᱲ
 
 ## Contribution
 
@@ -484,6 +492,16 @@ clips-with-count-pluralized =
         [two] <bold>{ $count }</bold> ᱠᱞᱤᱯ ᱠᱤᱱ
        *[other] <bold>{ $count }</bold> ᱠᱞᱤᱯ ᱠᱚ
     }
+contribute-more =
+    { $count ->
+        [one] { $count } ᱞᱟᱹᱜᱤᱫ ᱥᱚᱡᱽ?
+        [two] { $count } ᱠᱤᱱ ᱞᱟᱹᱜᱤᱫ ᱥᱚᱡᱽ?
+       *[other] { $count } ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱥᱚᱡᱽ?
+    }
+record-cta = ᱨᱮᱠᱚᱰᱤᱝ ᱮᱦᱚᱵ ᱢᱮ
+record-platform-not-supported = ᱟᱞᱮ ᱤᱠᱟᱹ ᱠᱷᱚᱡᱚᱜ ᱠᱟᱱᱟ ᱞᱮ, ᱟᱢᱟᱜ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱫᱚ ᱱᱤᱛᱚᱜ ᱵᱟᱭ ᱥᱟᱹᱯᱚᱴᱮᱫ ᱟᱭ ᱾
+record-platform-not-supported-desktop = ᱰᱮᱥᱠᱴᱚᱯ ᱥᱟᱫᱷᱚᱱ ᱠᱚ ᱨᱮ ᱟᱢ ᱫᱚ ᱰᱟᱩᱱᱞᱚᱰ ᱠᱟᱛᱮ ᱮᱱᱮᱢ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ…
+record-platform-not-supported-ios-non-safari = iOS ᱨᱮ ᱨᱮᱠᱚᱰᱤᱝ ᱮᱢ ᱪᱷᱚ ᱞᱟᱹᱜᱤᱫ ᱫᱟᱭᱟᱠᱟᱛᱮ Safari ᱨᱮ ᱞᱟᱦᱟᱜ ᱢᱮ…
 share-common-voice = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
 target-segment-add-voice = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱥᱮᱞᱮᱫ ᱛᱟᱢ
 target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
