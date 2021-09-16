@@ -344,7 +344,7 @@ build-profile = Теемс профиль
 avatar = Аватар
 goals = Норовамот
 settings = Аравтомат
-edit-profile = Витнемс-петнемс профиленть
+edit-profile = Витнемс-петнемс профилеть
 profile-create-success = Теветь лиссь, профилеть шкавсь!
 profile-close = Пекстамс
 profile-explanation = Кирдть журнал, вант кода теветь моли эсеть профайласо ды лездак миненек: улезэ вайгельдатанок эрьва ёндо седе вадря.
@@ -610,8 +610,8 @@ clips-with-count-pluralized =
         [one] Клип
        *[other] Клипть
     }
-goal-help-recording = Лездыде Common Voice-нень пачкодеме <goalPercentage></goalPercentage> видьс минек эрьва чинь  вайгельсэ сёрмадомань норовавксонть эйстэ { $goalValue } !
-goal-help-validation = Лездыде Common Voice-нень пачкодеме <goalPercentage></goalPercentage> видьс минек эрьва чинь  вайгельсэ сёрмадовксонь ванномань норовавксонть эйстэ { $goalValue } !
+goal-help-recording = Лездыть Common Voice-нень пачкодеме <goalPercentage></goalPercentage> видьс минек эрьва чинь  вайгельсэ сёрмадомань { $goalValue }  норовавксонть эйстэ!
+goal-help-validation = Лездыть Common Voice-нень пачкодеме <goalPercentage></goalPercentage> видьс минек эрьва чинь  вайгельсэ сёрмадовксонь ванномань { $goalValue } норовавксонть эйстэ !
 contribute-more =
     { $count ->
        *[other] Анокат седе тов { $count } теемс?
