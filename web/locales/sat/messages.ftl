@@ -401,17 +401,30 @@ error-code = ᱵᱷᱩᱞ { $code }
 data-download-button = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱳᱰ ᱯᱮ
 data-download-yes = ᱦᱮᱸ
 data-download-deny = ᱵᱟᱝ
+data-download-license = ᱞᱟᱭᱥᱮᱱᱥ: <licenseLink>CC-0</licenseLink>
 data-other-title = ᱮᱴᱟᱜᱟ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ ᱠᱚ...
 data-other-goto = { $name } ᱨᱮ ᱪᱟᱞᱟᱜ ᱢᱮ
 data-other-download = ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱳᱰ
 data-bundle-button = ᱰᱟᱴᱟᱥᱮᱴ ᱜᱷᱮᱸᱴ ᱰᱟᱩᱱᱞᱳᱰ
 dataset-date = ᱢᱟᱹᱦᱤᱛ
 license-mixed = ᱢᱮᱥᱟ
+terms-agree = ᱤᱧᱤᱧ ᱥᱤᱠᱟᱹᱨ ᱜᱮᱭᱟ
+terms-disagree = ᱤᱧ ᱵᱟᱧ ᱥᱤᱠᱟᱹᱨ ᱜᱮᱭᱟ
 review-recording = ᱧᱮᱞ ᱫᱚᱦᱲᱟ
+review-rerecord = ᱫᱩᱦᱲᱟᱹ ᱨᱮᱠᱚᱰ
+review-cancel = ᱡᱚᱢᱟ ᱠᱚ ᱨᱚᱫ ᱢᱮ
+review-keep-recordings = ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ ᱫᱚᱦᱚᱭ ᱢᱮ
+review-delete-recordings = ᱤᱧᱟᱜ ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ ᱢᱮᱴᱟᱣ ᱢᱮ
 
 ## Datasets Page
 
 language = ᱯᱟᱹᱨᱥᱤ
+# File size in gigabytes
+size = ᱢᱟᱯ
+cv-license = ᱞᱟᱭᱥᱮᱱᱥ
+audio-format = ᱥᱟᱲᱮ ᱯᱷᱚᱨᱢᱟᱴ
+number-of-voices = ᱥᱟᱲᱮ ᱠᱚᱣᱟᱜ ᱮᱞ
+splits = ᱵᱷᱟᱜᱽ
 email-to-download = ᱰᱟᱩᱱᱞᱚᱰ ᱞᱟᱹᱜᱤᱫ ᱤᱢᱮᱞ ᱟᱫᱮᱨ ᱢᱮ
 size-gigabyte = GB
 size-megabyte = MB
@@ -444,6 +457,7 @@ other-language = ᱮᱴᱟᱜᱟ ᱯᱟᱹᱨᱥᱤ
 
 ## Languages Overview
 
+language-section-in-progress = ᱞᱟᱦᱟ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ
 languages-show-more = ᱰᱷᱮᱨ ᱧᱮᱞ
 language-total-progress = ᱢᱳᱴ
 language-search-input =
