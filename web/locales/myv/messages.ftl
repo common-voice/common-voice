@@ -186,7 +186,7 @@ terms = Терминт
 cookies = Нумолонь кшить
 faq = Сеедьстэ максозь кевкстемат
 content-license-text = Вайгельть-текстт-мезть саевить <licenseLink>Creative Commons лиценсиясо</licenseLink>
-share-title = Лездак миненек муемс ломанть, конат лездыть ловномс марямга текстт.
+share-title = Лездак тенек муемс ломанть, конат лездыть ловномс марямга текстт.
 share-text = Лездак тонавтомс машинатненень, кода ломанть алкукс кортыть, ловнок марямга текстт.
 link-copied = Ссылканть лангсто саезь копия
 back-top = Мекев верев
@@ -203,7 +203,7 @@ wall-of-text-more-desktop = Ней маштови кучомс миненек э
 wall-of-text-first = Вайгелесь эрьва чинь ломанень тев. Секскак минек талновты тевс нолдавиця вайгельтехнологиянь кастомась-кепедемась. Ансяк вайгельсистемань шкамга-теемга эряви ламодояк ламо вайгелень дата.
 wall-of-text-second = Даннойтнень седе покш пельксэсь, конань тевс нолдыть корпорациятне, а понгить весенень. Те, минек коряс, лепшти инновациятнень.Секскак минь нолдынек Common Voice проект, конань норовкссозо-целезэ - теемс весень туртов панжадокс вайгелень содавманть.
 show-wall-of-text = Ловномс седе тов
-help-us-title = Лездак миненек кочкамс вадря валрисьметь!
+help-us-title = Лездак тенек ванномс вадря валрисьметь!
 help-us-explain = Лепштика «кунсоловтомс» повненть, кунсолок ды ёвтак миненек: ало рисьмесь видестэ ёвтазь?
 no-clips-to-validate = Маряви, арасть те кельсэнть кодаткак кунсоломань туртов сёрмадовкст. Лездак тенек теемс одт, тейть зярояк эсь пельде.
 vote-yes = Истя
@@ -219,7 +219,7 @@ hours-recorded = Сёрмадозь частнэде
 hours-validated = Ваннозь частнэде
 voices-online = Зяро вайгельть ней алтымасонть
 todays-progress = Течинь тевень поладксось
-help-reach-goal = Лездак миненек пачкодемс { $goal } видьс
+help-reach-goal = Лездак тенек пачкодемс { $goal } видьс
 read-terms-q = Договоронок уш ловнык?
 ready-to-record = Аноктадо лездамс вайгельсэнк?
 all-locales = Весе
@@ -239,7 +239,7 @@ x-years-short =
         [one] ие
        *[other] иеть
     }
-help-make-dataset = Лездадо тенек теемс датань пурнавкс, конась вадрясто теезь ды весенень панжадо
+help-make-dataset = Лездадо тенек теемс данноень пурнавкс, конась вадрясто теезь ды весенень панжадо
 sign-up-account = Цюртак эстеть совамо тарка
 email-subscription-title = Сёрмадстомс пря од содамочинь одкстомтоматнес
 email-subscription-title-new = Сёрмадстынк прянк Common Voice кучоматнес, норовамонь мельс ледстнематнес ды одкстомтомань касомантень.
@@ -288,7 +288,7 @@ shortcut-vote-no = а
 shortcut-record-toggle = с
 shortcut-record-toggle-label = Сёрмадомс/Лоткавтомс
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Одкстомтомс роликенть
+shortcut-rerecord-toggle-label = Одкстомтомс клипенть
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Ёртомс сёрмадоманть, конась ней моли
 shortcut-submit = Велявтомс
@@ -347,7 +347,7 @@ settings = Аравтомат
 edit-profile = Витнемс-петнемс профилеть
 profile-create-success = Теветь лиссь, профилеть шкавсь!
 profile-close = Пекстамс
-profile-explanation = Кирдть журнал, вант кода теветь моли эсеть профайласо ды лездак миненек: улезэ вайгельдатанок эрьва ёндо седе вадря.
+profile-explanation = Кирдть журнал, вант кода тевтне молить эсеть профилсэ ды лездак тенек: улест вайгельданнойнек эрьва ёндо седе вадрят.
 thanks-for-account = Сюкпря совамо таркат кемекстамонть кисэ! Ней адя тейсынек профайлат.
 why-demographic = Мезекс те эряви?
 why-demographic-explanation-2 = Лемтеме тевс нолдыцятнеде содамочись кода акцент, цёра, аваломань, паролгавтсызь аудиоданнойтнень, конатне эрявить кортавкстнэнь седе парсте чарькодемас. Тынк леменк ды э-почтань адресэнк зярдояк а совавтовить тынк максозь даннойтнень юткс ды эстенк маштови кочкамс: максомс леменк неявиксэкс эли кадомс сонзэ кекшезь.
@@ -554,7 +554,7 @@ dataset-version = Версия
 ## Download Modal
 
 download-title = Таргамот ушодовсь.
-download-helpus = Лездак миненек путомс-аравтомс вайгельтехнологиянь перька ломаньпурнавкс, кирдть контакт э-сёрма вельде.
+download-helpus = Лездак тенек путомс-аравтомс вайгельтехнологиянь перька ломаньпурнавкс, кирдть контакт ёндолсёрма вельде.
 download-form-email =
     .label = Совавтык э-сёрмапаргот
     .value = Сюкпря, сёрмадтано тенть.
@@ -614,7 +614,7 @@ goal-help-recording = Лездыть Common Voice-нень пачкодеме <g
 goal-help-validation = Лездыть Common Voice-нень пачкодеме <goalPercentage></goalPercentage> видьс минек эрьва чинь  вайгельсэ сёрмадовксонь ванномань { $goalValue } норовавксонть эйстэ !
 contribute-more =
     { $count ->
-       *[other] Анокат седе тов { $count } теемс?
+       *[other] Анокат теемс таго { $count }?
     }
 record-cta = Ушодомс сёрмадоманть
 record-platform-not-supported = Илямизь чумондо, платформат. туртов арасть эрявикс аравтомат.
@@ -651,7 +651,7 @@ listen-empty-state = Весиясть те кельсэнть кемекстам
 speak-empty-state = Весиясть те кельсэнть ловномс валрисьменек...
 speak-empty-state-cta = Максомс лезкс валрисьмесэ
 record-button-label = Сёрмадомс вайгелеть
-share-title-new = <bold>Лездак миненек</bold> муемс лия вайгельть
+share-title-new = <bold>Лездак тенек</bold> муемс лия вайгельть
 keep-track-profile = Ваномс путовксот касома мельга профилсэ
 login-to-get-started = Совак эли совамо тарка тейть тевень ушодомга
 target-segment-first-card = Кандат лезэ минек васенце норовавкс сегментс.
@@ -745,7 +745,7 @@ help-reach-hours-pluralized =
     Лездак изнямс{ NUMBER($hours) ->
         [one] { $hours } час
        *[other] { $hours } част
-    }{ $language }сэ эсеть норовавксот-целеть вельде
+    } { $language }сэ эсеть норовавксот-целеть вельде
 help-reach-hours-general-pluralized =
     Лездак Common Voice-нень изнямс{ NUMBER($hours) ->
         [one] { $hours } час
@@ -757,16 +757,16 @@ activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
         [one] { $totalHours } час пурнави
        *[other] { $totalHours } част пурнавить
-    } сеске{ NUMBER($periodMonths) ->
+    } сеске { NUMBER($periodMonths) ->
         [one] { $periodMonths } ковдо
        *[other] { $periodMonths } ковдо
-    }мейле{ NUMBER($people) ->
+    } мейле { NUMBER($people) ->
         [one] { $people } ломань карминдеряй
        *[other] { $people } ломанть карминдеряйть
-    }сёрмадомо{ NUMBER($clipsPerDay) ->
+    } сёрмадомо { NUMBER($clipsPerDay) ->
         [one] { $clipsPerDay } клип
        *[other] { $clipsPerDay } клипть
-    }чизэнзэ.
+    } чизэнзэ.
 how-many-per-day = Маралянь тевть! Зяро клипть чизэнзэ?
 how-many-a-week = Маралянь тевть! Зяро клипть таргозонзо?
 which-goal-type = Тон арсят Кортамс, Кунсоломс эли кавонест тевтнень тейсыть?
