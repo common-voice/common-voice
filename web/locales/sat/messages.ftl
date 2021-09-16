@@ -536,6 +536,8 @@ target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
 
 report = ᱨᱤᱯᱚᱴ
 report-title = ᱢᱤᱫ ᱴᱟᱝ ᱨᱤᱯᱚᱴ ᱡᱚᱢᱟᱭ ᱢᱮ
+report-difficult-pronounce = ᱩᱪᱨᱚᱬ ᱢᱩᱥᱠᱤᱞ ᱜᱮᱭᱟ
+report-offensive-speech = ᱠᱷᱟᱨᱟᱯ ᱨᱚᱲ
 report-other-comment =
     .placeholder = ᱱᱤᱡᱮᱛᱮ ᱨᱚᱲ
 success = ᱨᱟᱹᱥ ᱞᱮᱠᱷᱟᱛᱮ
