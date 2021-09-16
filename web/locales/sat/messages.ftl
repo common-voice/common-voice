@@ -432,6 +432,7 @@ download-language = ᱰᱟᱩᱱᱞᱳᱰ { $language }
 more = ᱰᱷᱮᱨ
 close = ᱵᱚᱸᱫᱚᱭ ᱢᱮ
 download = ᱰᱟᱩᱱᱞᱳᱰ
+dataset-version = ᱵᱷᱟᱹᱨᱥᱚᱱ
 
 ## Download Modal
 
@@ -439,9 +440,12 @@ download-title = ᱟᱢᱟᱜ ᱰᱟᱩᱱᱞᱳᱰ ᱮᱦᱚᱵᱮᱱᱟ ᱾
 download-form-email =
     .label = ᱟᱢᱟᱜ ᱤᱢᱮᱞ ᱟᱫᱮᱨ ᱛᱟᱢ
     .value = ᱥᱟᱦᱨᱟᱣ ᱜᱮ, ᱟᱞᱮ ᱡᱩᱲᱟᱹᱣ ᱛᱟᱦᱮᱱ ᱟᱞᱮ ᱾
+download-back = Common Voice ᱰᱟᱴᱟ ᱥᱮᱫ ᱨᱩᱟᱹᱲ ᱢᱮ
+download-no = ᱡᱟᱦᱱᱟᱜ ᱥᱟᱨᱦᱟᱣ ᱵᱟᱝᱟ
 
 ## Contact Modal
 
+contact-title = ᱥᱚᱢᱯᱚᱨᱠ ᱯᱷᱚᱨᱢ
 contact-form-name =
     .label = ᱭᱩᱛᱩᱢ
 contact-form-message =
@@ -450,8 +454,10 @@ contact-required = *ᱞᱟᱹᱠᱛᱤ ᱜᱮᱭᱟ
 
 ## Request Language Modal
 
+request-language-title = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ
 request-language-form-language =
     .label = ᱯᱟᱹᱨᱥᱤ
+request-language-success-title = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱨᱟᱹᱥ ᱞᱮᱠᱟᱛᱮ ᱡᱚᱢᱟ ᱮᱱᱟ, ᱥᱟᱨᱦᱟᱣ ᱾
 select-language = ᱢᱤᱫᱴᱟᱝ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ...
 other-language = ᱮᱴᱟᱜᱟ ᱯᱟᱹᱨᱥᱤ
 
@@ -467,8 +473,17 @@ sentences = ᱟᱭᱟᱛᱠᱚ
 ## Contribution
 
 action-click = ᱚᱛᱟᱭ ᱢᱮ
+action-tap = ᱴᱤᱯᱟᱹᱣ
 contribute = ᱮᱱᱮᱢ ᱢᱮ
 listen = ᱟᱧᱡᱚᱢ ᱢᱮ
+skip = ᱟᱲᱟᱜ
+shortcuts = ᱥᱚᱴᱠᱚᱴ
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ᱠᱞᱤᱯ
+        [two] <bold>{ $count }</bold> ᱠᱞᱤᱯ ᱠᱤᱱ
+       *[other] <bold>{ $count }</bold> ᱠᱞᱤᱯ ᱠᱚ
+    }
 share-common-voice = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
 target-segment-add-voice = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱥᱮᱞᱮᱫ ᱛᱟᱢ
 target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
@@ -477,9 +492,25 @@ target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
 
 report = ᱨᱤᱯᱚᱴ
 report-title = ᱢᱤᱫ ᱴᱟᱝ ᱨᱤᱯᱚᱴ ᱡᱚᱢᱟᱭ ᱢᱮ
+report-other-comment =
+    .placeholder = ᱱᱤᱡᱮᱛᱮ ᱨᱚᱲ
+success = ᱨᱟᱹᱥ ᱞᱮᱠᱷᱟᱛᱮ
+continue = ᱞᱟᱦᱟ
 
 ## Goals
 
+days =
+    { $count ->
+        [one] ᱫᱤᱱ
+        [two] ᱫᱤᱱ
+       *[other] ᱫᱤᱱ
+    }
+recordings =
+    { $count ->
+        [one] ᱨᱮᱠᱚᱰᱤᱝ
+        [two] ᱨᱮᱠᱚᱰᱤᱝ ᱠᱤᱱ
+       *[other] ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ
+    }
 
 ## Dashboard
 
