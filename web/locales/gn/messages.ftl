@@ -885,6 +885,7 @@ download-request-archive-multiple = Emboja’o { $archiveCount } ZIP orekóva ma
 download-request-assembling-description = Oñembyaty ne marandurendakuéra. Ehechajey ag̃amieve.
 download-request-refresh-button = Mbohekopyahu
 download-request-modal-title = Emboguejy Mbojuajuha
+download-request-modal-description = Ko’ápe oĩ juajuha emboguejy hag̃ua ZIP marandurenda.
 download-request-metadata-link = Ñe’ẽjuaju moñe’ẽrã
 
 ## Landing
