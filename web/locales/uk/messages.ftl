@@ -935,7 +935,7 @@ read-more-about = Докладніше на сторінці Про нас
 
 demo-get-started = Почнімо
 demo-welcome = Вітаємо в Common Voice
-demo-welcome-subheader = Хочете дізнатись більше та зробити свій внесок у проєкт?
+demo-welcome-subheader = Хочете дізнатися більше та зробити свій внесок у проєкт?
 
 ## Demo Datasets
 
