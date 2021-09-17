@@ -960,6 +960,7 @@ contribution-criteria-page-description = Förstå vad du ska leta efter när du 
 contribution-for-example = till exempel
 contribution-misreadings-title = Felläsningar
 contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
+contribution-misreadings-description-extended-list-4 = Slutet på det sista ordet saknades eftersom inspelningen avbröts för snabbt.
 contribution-misreadings-example-3-explanation = [Inspelning avbruten före slutet av det sista ordet]
 contribution-misreadings-example-4-explanation = [Mer har spelats in än den obligatoriska texten]
 contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
