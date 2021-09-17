@@ -31,6 +31,8 @@ Many language communities are self organising and have their contact channels on
   * [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
 * Italian (`it`):
   * [Telegram](https://t.me/mozitabot) 
+* Kiswahili ('`sw`):
+  * [Discourse](https://discourse.mozilla.org/c/voice/sw/603)   
 * Traditional Chinese (`zh-TW`):
   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-tw:mozilla.org)
   * [Telegram](https://t.me/moztwcv)
