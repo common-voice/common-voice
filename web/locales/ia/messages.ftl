@@ -587,10 +587,10 @@ get-started-speech = Comenciar con le Recognition de voce
 other-datasets = Other Voice Datasets
 feedback-q = Ha tu commentario?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ es un <docsLink>instrumentario open source</docsLink> pro recercatores que disveloppa modellos avantiate de intelligentia artificial conversational.
-resource-deepspeech-info = Le motor de recognition vocal open-source de Mozilla: Deep Speech, pote esser usate pro producer applicationes de recognition vocal. Lege nostre <githubLink>summario de GitHub</githubLink> o junge te a <discourseLink>DeepSpeech Discourse</discourseLink> pro saper como comenciar.
+resource-deepspeech-info = Le motor de recognition vocal open source de Mozilla, Deep Speech, pote esser usate pro crear applicationes de recognition vocal. Lege nostre <githubLink>summario sur GitHub</githubLink> o adhere al <discourseLink>DeepSpeech Discourse</discourseLink> pro saper como comenciar.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> es dedicate a render libere le technologia vocal. Su projectos include motores STT e TTS basate sur le apprendimento profunde.
 community-playbook = Libro del jocos del communitate
-resource-playbook-info = <playbookLink>Trova utile guida</playbookLink> sur le integre route de Common Voice, ab le localisation al uso del collection de datos e como connecter se con nostre communitate.
+resource-playbook-info = <playbookLink>Trova consilios utile</playbookLink> sur tote le aspectos de Common Voice, p.ex. localisation, uso del collection de datos, e como connecter se con nostre communitate.
 data-other-librispeech-description = LibriSpeech es un corpus de circa 1000 horas de anglese parlate a 16Khz derivate ab la lectura de audio-libros ab le projecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = Le corpus de TED-LIUM esseva facite ab  audio e lor transcriptiones disponibile sur le sito web de TED.
@@ -864,15 +864,15 @@ profile-form-delete = Deler le profilo
 
 ## Profile Download
 
-download-q = Besonia tu de discargar tu datos?
-download-info = Dice nos que tu amarea discargar:
+download-q = Vole discargar tu datos?
+download-info = Dice nos lo que tu vole discargar:
 download-profile-title = Profilo
-download-profile-info = Include email, nomine de usator e info demographic
+download-profile-info = Include e-mail, nomine de usator e information demographic; disponibile immediatemente
 download-profile-size = Alcun bytes
 download-recordings-title = Registrationes
-download-recordings-info = Include mp3s e phrases correlate
-download-recordings-size = Megabytes tipic
-download-recordings-unavailable = Tu non pote requirer tu registrationes durante que un altere requesta es jam in curso.
+download-recordings-info = Include MP3s e phrases associate; pote prender alcun tempore a preparar
+download-recordings-size = In general, plure megabytes
+download-recordings-unavailable = Tu non pote requestar tu registrationes durante que un altere requesta es jam in curso.
 download-size = Dimension
 download-selected = Seligite
 download-start = Initiar le discargamento
