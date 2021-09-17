@@ -353,7 +353,7 @@ why-demographic = Proque es isto relevante?
 why-demographic-explanation-2 = Le datos anonyme del usator como su etate, genere, e accento adjuta a meliorar le datos audio usate pro maestrar le precision del motores de recognition de voce. Tu nomine de usator e email jammais essera associate con tu datos submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
 accept-privacy = Io concorda que vos tracta iste informationes como vos explica in le <privacyLink>Politica de confidentialitate</privacyLink> de Mozilla
 accept-privacy-title = Politica de confidentialitate
-login-identity = Identitate de connexion
+login-identity = Identitate pro aperir session
 login-signup = Aperir session / Inscriber se
 edit = Modificar
 email-subscriptions = Subscriptiones de email
@@ -381,7 +381,7 @@ manage-subscriptions = Gerer le subscriptiones
 manage-email-subscriptions = Gerer le abonamentos a email
 email-already-used = Iste email es jam utilisate pro un conto differente
 add-language = Adder un lingua
-change-email-setings = Cambia tu email via Configurationes sub Identitate de connexion
+change-email-setings = Cambia tu adresse de e-mail via Parametros sub "Identitate pro aperir session"
 
 ## FAQ
 
@@ -896,7 +896,7 @@ download-request-link-single = Tu pote etiam copiar e collar le URLs directe in 
 
 welcome-staff = Benvenite staff de { $company }!
 help-contribute = Tu pote adjutar a producer un collection de datos open-source, diverse, per le creation de un profilo Common Voice e contribuente per tu voce.
-login-company = Accede / Inscribe te con le<t0/> email de { $company }
+login-company = Aperi session o inscribe te con le adresse de e-mail de { $company }
 profile-not-required = Haber un profilo non es necessari pro contribuer, ma es utile; lege proque hic infra.
 read-more-about = Lege plus in nostre pagina: A proposito
 
