@@ -855,10 +855,16 @@ profile-form-delete = Διαγραφή προφίλ
 
 ## Profile Download
 
+download-q = Θέλετε να κάνετε λήψη των δεδομένων σας;
+download-info = Πείτε μας τι θέλετε να λάβετε:
+download-profile-title = Προφίλ
+download-profile-info = Περιλαμβάνει email, όνομα χρήστη και δημογραφικά στοιχεία (άμεσα διαθέσιμο)
+download-recordings-title = Ηχογραφήσεις
 download-request-button = Λήψη
 download-request-title = { $created }
 download-request-refresh-button = Ανανέωση
 download-request-modal-title = Σύνδεσμοι λήψεων
+download-request-link-text = Zip #{ $offset } από { $total }
 download-request-metadata-link = Κείμενο πρότασης
 
 ## Landing
