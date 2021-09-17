@@ -875,22 +875,22 @@ download-recordings-size = In general, plure megabytes
 download-recordings-unavailable = Tu non pote requestar tu registrationes durante que un altere requesta es jam in curso.
 download-size = Dimension
 download-selected = Seligite
-download-start = Initiar le discargamento
-download-request = Requirer le discargamento
-download-requests = Requestas de discargamento passate
-download-requests-info = Quando tu require tu registrationes, nos los compila in un o plure files ZIP. Ecce tu passate requestas:
+download-start = Discargar le datos del profilo
+download-request = Requestar registrationes
+download-requests = Requestas de discargamento de registrationes passate
+download-requests-info = Quando tu requesta tu registrationes, nos los combina in un o plure files ZIP. Ecce tu requestas passate:
 download-request-button = Discargar
 download-request-title = { $created }
 download-request-description = { $clipCount } registrationes vocal, dimension total total del archivo { $size }. Expira le { $expires }.
-download-request-archive-single = Singule FILE ZIP que contine
+download-request-archive-single = Singule file ZIP que contine
 download-request-archive-multiple = Divider in { $archiveCount } files ZIP continente
-download-request-assembling-description = Tu files va esser assemblate. Verifica de novo plus tarde.
+download-request-assembling-description = Tu files es in curso de assemblage. Verifica de novo plus tarde.
 download-request-refresh-button = Actualisar
 download-request-modal-title = Discargar ligamines
 download-request-modal-description = Ecce le ligamine de discargamento de tu files ZIP.
 download-request-link-text = Zip #{ $offset } de { $total }
 download-request-metadata-link = Texto del phrase
-download-request-link-single = Tu pote alsi copiar e collar le directe URLs in tu favorite gestor de discargamento. Illos expirara in 12 horas, ma tu pote recede a iste pagina pro generar los nove cata vice.
+download-request-link-single = Tu pote etiam copiar e collar le URLs directe in tu gestor de discargamento favorite. Illos expirara in 12 horas, ma tu pote sempre retornar a iste pagina pro generar noves.
 
 ## Landing
 
