@@ -281,6 +281,7 @@ shortcut-record-toggle-label = Nauhoita / pysäytä
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Uudelleennauhoita äänite
 shortcut-discard-ongoing-recording-label = Hylkää käynnissä oleva tallenne
+shortcut-submit-label = Lähetä äänileikkeet
 request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
 request-language-button = Pyydä kieltä lisättäväksi
 
