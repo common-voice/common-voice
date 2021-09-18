@@ -918,6 +918,7 @@ download-request-modal-title = Sćehnjenske wotkazy
 download-request-modal-description = Tu su wotkazy za sćehnjenje wašich ZIP-datajow.
 download-request-link-text = Zip #{ $offset } z { $total }
 download-request-metadata-link = Tekst sady
+download-request-link-single = Móžeće tež direktne URL do swojeho najlubšeho zrjadowaka sćehnjenjow kopěrować. Spadnu za 12 hodźin, ale móžeće so k tutej stronje wróćić, zo byšće kóždy čas nowe generował.
 
 ## Landing
 
