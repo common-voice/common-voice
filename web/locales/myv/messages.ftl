@@ -290,11 +290,11 @@ shortcut-record-toggle-label = Сёрмадомс/Лоткавтомс
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Одкстомтомс клипенть
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Ёртомс сёрмадоманть, конась ней моли
+shortcut-discard-ongoing-recording-label = Лоткавтомс молиця сёрмадоманть
 shortcut-submit = Велявтомс
 shortcut-submit-label = Кучомс клипть
 request-language-text = Келеть эзик муе зярс «Common Voice»-стэ?
-request-language-text-learn = Содамс кода вешемс тестэ!
+request-language-text-learn = Исковадо, кода вешемс сонзэ тестэ.
 request-language-button = Вешемс кель
 
 ## ProjectStatus
