@@ -300,7 +300,7 @@ request-language-button = Вешемс кель
 ## ProjectStatus
 
 status-title = Ломань икелев ливтевить содамочи седе, зяро вайгелень сёрмадомат ды кодамо кельтнесэ.
-status-contribute = Лездамс эсеть вайгельсэ
+status-contribute = Сёрмадык вайгелеть
 status-hours =
     { $hours ->
         [one] час ваннозь те видьс!
@@ -308,7 +308,7 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Сыця норовамот: { $goal }
+status-goal = Икеле пелев норовамот: { $goal }
 english = Англань кель
 
 ## ProfileForm
@@ -326,9 +326,9 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Сыме
 leaderboard-visibility =
-    .label = Ветиень лазонть неявомазо
+    .label = Невтемс монь тёкшсо
 hidden = Кекшезь
-visible = Неяви
+visible = Неявикс
 native-language =
     .label = Тиринь кель
 profile-form-submit-save = Ванстомс
@@ -338,14 +338,14 @@ female = Ава
 # Gender
 other = Лия
 why-profile-title = Мезекс профилесь?
-why-profile-text = Максындерят эсь прядот зярыя информация Common Voice-нень совавтомстонзо, аудио датанть эйстэ карми седе ламо лезэ вайгелень содыця технологиянь кастомасо-кепедемасо, сеньсэ седе вадрясто теевить машинатне.
+why-profile-text = Максындерят зярыя содамочи эсеть эйстэ, Common Voice - в кучозь аудиоданнойтне кармить улеме седе лезэвть кортавкстнэнь чарькодемасо ды сынст эрявикс ёнкстнэнь паролгавтомасо.
 dashboard = Аравтомкат
 build-profile = Теемс профиль
 avatar = Аватар
 goals = Норовамот
 settings = Аравтомат
 edit-profile = Витнемс-петнемс профилеть
-profile-create-success = Теветь лиссь, профилеть шкавсь!
+profile-create-success = Пек паро, профилеть шказь!
 profile-close = Пекстамс
 profile-explanation = Кирдть журнал, вант кода тевтне молить эсеть профилсэ ды лездак тенек: улест вайгельданнойнек эрьва ёндо седе вадрят.
 thanks-for-account = Сюкпря совамо таркат кемекстамонть кисэ! Ней адя тейсынек профайлат.
@@ -358,7 +358,7 @@ login-signup = совамс/сёрмадстомс эсь прянть
 edit = Витнемс-петнемс
 email-subscriptions = Кучомс ёндол сёрмасо сёрмадстомат
 download-profile = Таргамс алтымасто монь датан
-contribution-experience = Лездамосо Умок
+contribution-experience = Максодо питне Common Voice - сэ тевденк
 skip-submission-feedback = Ютак совавтозденть пачтямонть вакска
 skip-submission-description = "Кучомс" повонь лепштямодо мейле Common Voice марто тевденк питнень максомась нолдави вакска ды теде мейле тыненк маштови седе тов сёрмадомс вайгель ды ванномс сёрмадозенть.
 skip-submission-note = Арсема: Лездамо типенть полавтомга сави теть кочкамс: Кортамс эли Кунсоломс.
