@@ -453,11 +453,9 @@ about-nav-how-it-works = Кода ?
 about-nav-partners = Ялгат
 about-nav-get-involved = Кундамс вейсэнь тевс
 mycroft-title = Mycroft Ai
-mycroft-subtitle = Ломань теевкс валонь прев
-mycroft-description =
-    Mycroft-ось масторлангонь васенце вайгелень лезды кедь, конась теезь весенень панжадо кодсо.
-    Mycroft важоди косо понгсь — содымашинасо, машинасо эли Raspberry Pi-сэ.
-mycroft-secondary-description = Те весенень панжадо программонь обеспечения, сонзэ маштови ладсемс, полавтнемс, вадрякстомтомс зяро мелеть. Mycroft маштови нолдамс тевс наукань проектсэ, мик башка фирмань приложенияс.
+mycroft-subtitle = Шкинезь прев
+mycroft-description = Mycroft -- масторлангонь васенце вайгель марто лездыця, конань панжадо кодозо. Mycroft важоди эрьва косо -- компьюторсо, автомобильсэ или Raspberry Pi-сэ.
+mycroft-secondary-description = Те панжадо код марто программань топавтома, конань маштови шождасто полавтомс, келейгавтомс ды паролгавтомс. Mycroft маштови нолдамс тевс эрьва кодамо отраслясо, наукань проектстэ саезь компоративной программань топавтома витс.
 
 ## Glossary
 
@@ -489,14 +487,15 @@ data-subtitle = Пурнатано вайгельде аштиця, весене
 data-get-started = <speechBlogLink>Ушодт вайгелень содамо тевсэ сокарямо</speechBlogLink>
 data-other-title = Вайгелень лия данной пурнавкст...
 data-other-goto = Молемс «{ $name }» таркас
-data-other-download = Таргамс Датанть
-data-bundle-button = Таргамс датапурнавкс керьмаз
+data-other-download = Таргамс Даннойтнень
+data-bundle-button = Таргамс данной пурнавкс керьмаз
 data-bundle-description = Common Voice даннойть вейсэ весе лия данной пурнавкс марто, конатне вере максозь.
 release-version = Версия
 dataset-date = Ие-ков-чи
 license = Лицензиясь: <licenseLink>{ $license }</licenseLink>
 license-mixed = Човор
-data-download-singleword-title = Таргинк норовавкс сегмент «Вейке вал»
+data-download-singleword-title = Таргинк норовамо сегментэнть «Вейке вал»
+data-download-singleword-callout-v2 = Те сегментэсь норовазь башка явозь тев лангс, эйсэнзэ улить даннойть, конат паролгавтыть цифрань ды валтнэнь «истя»/« аволь» чарькодеманть.
 review-terms = «Common Voice»-энь тевс нолдазь, невтят ве мельс прат минек <termsLink>Условиятнень</termsLink> ды <privacyLink>Эсь тевень конёвонть</privacyLink> марто.
 terms-agree = Ве мельс пран
 terms-disagree = Ве мельс а пран
