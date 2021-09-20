@@ -491,7 +491,7 @@ mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligentia artificial
 mycroft-description =
     Mycroft es le prime assistente open-source al mundo.
-    Mycroft flue ubicunque: sur un computator de scriptorio, intra un automobile o sur un Raspberry Pi.
+    Mycroft functiona ubicunque: sur un computator de scriptorio, in un automobile o sur un Raspberry Pi.
 mycroft-secondary-description = Isto es un software open-source que pote ser liberemente re-miscite, extendite e meliorate. Mycroft pote ser usate in toto, ab un projecto scientific a un application software de interprisa.
 
 ## Glossary
