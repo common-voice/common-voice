@@ -284,8 +284,15 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = ᱨᱮᱠᱚᱰ/ᱛᱷᱚᱢ
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ᱠᱞᱤᱯ ᱫᱩᱦᱲᱟᱹ ᱨᱮᱠᱚᱰ ᱢᱮ
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = ᱪᱟᱹᱞᱩᱜ ᱠᱟᱱ ᱨᱮᱠᱚᱰᱤᱝ ᱦᱚᱴᱟᱣ ᱢᱮ
+shortcut-submit = ᱨᱩᱟᱹᱲ
+shortcut-submit-label = ᱥᱠᱤᱯ ᱡᱚᱢᱟᱭ ᱢᱮ
+request-language-text = Common Voice ᱨᱮ ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱱᱤᱛ ᱫᱷᱟᱹᱵᱤᱡ ᱵᱟᱝ ᱧᱮᱞᱧᱟᱢ ᱮᱫ ᱟᱢ?
+request-language-text-learn = ᱪᱮᱞᱠᱟ ᱠᱚ ᱱᱮᱦᱚᱨᱟ ᱚᱱᱟ ᱵᱟᱵᱚᱛ ᱱᱚᱰᱮ ᱵᱟᱲᱟᱭᱟᱢ!
 request-language-button = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱢᱮ
 
 ## ProjectStatus
@@ -368,6 +375,7 @@ faq-when-release2-q = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱮᱴᱟᱜ ᱯ
 faq-why-mission-q = Common Voice ᱫᱚ Mozilla ᱢᱤᱥᱚᱱ ᱨᱮᱭᱟᱜ ᱦᱟᱹᱴᱤᱧ ᱨᱮ ᱪᱚᱫᱟᱜ ᱢᱮᱱᱟᱜᱼᱟ?
 faq-why-my-lang-q = ᱤᱧᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱫᱟᱜ ᱱᱤᱛ ᱵᱟᱠᱚ ᱥᱟᱹᱢᱤᱞ ᱟᱠᱟᱫᱟ?
 faq-what-is-cv = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
+faq-using-cv = Common Voice ᱵᱮᱵᱷᱟᱨᱮᱫᱟᱹᱧ
 faq-search-for-answers =
     .label = ᱡᱚᱵᱟᱵᱽ ᱞᱟᱹᱜᱤᱫ ᱥᱮᱸᱫᱽᱨᱟᱭ ᱢᱮ
 
