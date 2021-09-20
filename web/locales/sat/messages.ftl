@@ -382,11 +382,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Common Voice ᱫᱚ ᱪᱮᱫᱟᱜ?
+how-does-it-work-title = ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱞᱠᱟ ᱠᱟᱹᱢᱤᱭᱟᱭ?
 about-speak = ᱨᱚᱲ ᱢᱮ
 about-listen = ᱟᱧᱡᱚᱢ ᱢᱮ
 about-yes-votes = ≥ ᱒ ᱦᱮᱸ ᱵᱷᱚᱴ
 about-no-votes = ≥ ᱒ ᱵᱟᱝ ᱵᱷᱚᱴ
 about-dataset-new = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ
+about-clip-graveyard = ᱠᱞᱤᱯ ᱢᱚᱥᱟᱬᱤ
 about-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
 about-become-a-partner = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤ ᱵᱮᱱᱟ ᱯᱮ
 about-get-involved = ᱥᱟᱹᱢᱤᱞᱚᱜ ᱯᱮ
@@ -394,10 +396,13 @@ about-nav-why-common-voice = ᱪᱮᱫᱟᱜ?
 about-nav-how-it-works = ᱪᱮᱠᱟᱛᱮ ?
 about-nav-partners = ᱵᱷᱟᱹᱜᱤᱭᱟᱹᱨᱤᱠᱚ
 about-nav-get-involved = ᱥᱟᱹᱢᱤᱞᱚᱜ ᱯᱮ
+mycroft-title = Mycroft Ai
+mycroft-subtitle = ᱟᱨᱴᱤᱯᱷᱤᱥᱤᱭᱟᱞ ᱤᱱᱴᱮᱞᱤᱡᱮᱱᱥ
 
 ## Glossary
 
 glossary = ᱥᱟᱵᱟᱫᱽ ᱜᱟᱫᱮᱞ
+localization = ᱞᱚᱠᱟᱞᱟᱭᱡᱮᱥᱚᱱ
 sentence-collection = ᱟᱹᱭᱟᱹᱛ ᱛᱩᱢᱟᱹᱞ
 
 ## Error pages
