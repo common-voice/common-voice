@@ -247,7 +247,7 @@ email-subscription-title-new = Inscribe te al bulletines de novas, rememoratione
 ## Account Benefits
 
 benefits = Beneficios
-rich-data = Que tu rende plus ric possibile tu datos inviate, per informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que nos rende public los.
+rich-data = Inricchi le datos que tu nos invia: da nos alcun informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que nos los rende public.
 improve-audio = Le informationes del profilo meliora le precision del datos audio usate pro le exercitation del recognition de voce.
 keep-track = Tracia tu progresso e metricas inter plure linguas.
 compare-progress = Compara tu progresso a illo de altere contributores in tote le mundo.
@@ -259,7 +259,7 @@ join-newsletter = Optionalmente junge te a nostre lista email pro le actualisati
 whats-public = Que es Public?
 email-not-public = Nos non rendera public tu email.
 recordings-and-locale-public = Le numero de registrationes e le linguas que tu usa pro contribuer sera public.
-username-optin-public = Tu pote eliger de render public tu nomine de usator o anonyme.
+username-optin-public = Tu pote eliger de render tu nomine de usator public o anonyme.
 demographic-deidentified-clarity-2 = Le datos demographic optional (p.ex. etate, genere, lingua, accento) nunquam essera publicate sur tu profilo e non essera ligate a tu conto in le collection de datos. Le retalios audio individual essera associate al datos demographic pro permitter un analyse plus accurate; per exemplo, un recercator poterea concentrar un modello de training a un segmento demographic particular.
 username-email-not-demographic = Tu nomine de usator e email non essera associate con le datos publicate.
 
