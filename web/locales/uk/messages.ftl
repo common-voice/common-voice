@@ -904,6 +904,7 @@ download-recordings-title = Записи
 download-recordings-info = Включає mp3 та пов'язані речення
 download-recordings-size = Зазвичай мегабайт
 download-recordings-unavailable = Ви не можете запитувати свої записи, поки виконується інший запит.
+download-recently-requested = Ви можете подавати запит на нове видалення ваших записів кожні { $days } днів.
 download-size = Розмір
 download-selected = Вибрано
 download-start = Почати завантаження
