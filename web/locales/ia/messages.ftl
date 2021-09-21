@@ -873,6 +873,7 @@ download-recordings-title = Registrationes
 download-recordings-info = Include MP3s e phrases associate; pote prender alcun tempore a preparar
 download-recordings-size = In general, plure megabytes
 download-recordings-unavailable = Tu non pote requestar tu registrationes durante que un altere requesta es jam in curso.
+download-recently-requested = Tu pote requestar un nove extraction de tu registrationes cata { $days } dies.
 download-size = Dimension
 download-selected = Seligite
 download-start = Discargar le datos del profilo
