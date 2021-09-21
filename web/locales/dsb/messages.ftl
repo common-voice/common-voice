@@ -918,6 +918,7 @@ download-request-modal-title = Ześěgnjeńske wótkaze
 download-request-modal-description = How su wótkaze za ześěgnjenje wašych ZIP-datajow.
 download-request-link-text = Zip #{ $offset } z { $total }
 download-request-metadata-link = Tekst sady
+download-request-link-single = Móžośo teke direktne URL do swójogo nejlubšego zastojnika ześěgnjenjow kopěrowaś. Spadnu za 12 góźin, ale móžośo se k toś tomu bokoju wrośiś, aby kuždy cas nowe generěrował.
 
 ## Landing
 
