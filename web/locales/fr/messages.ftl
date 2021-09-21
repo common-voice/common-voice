@@ -111,6 +111,7 @@ ms = Malais
 mt = Maltais
 my = Birman
 myv = Erzya
+nan-tw = Taïwanais (Minnan)
 nb-NO = Norvégien bokmål
 ne-NP = Népalais
 nia = Nias
@@ -867,12 +868,19 @@ profile-form-delete = Supprimer le profil
 ## Profile Download
 
 download-q = Besoin de télécharger vos données ?
+download-info = Dites-nous ce que vous souhaitez télécharger :
+download-profile-info = Comprend l’adresse e-mail, le nom d’utilisateur et les informations démographiques, disponible immédiatement
 download-profile-size = Quelques octets
 download-recordings-title = Enregistrements
 download-recordings-info = Comprend les MP3 et les phrases liées, peut prendre un certain temps à préparer
 download-recordings-size = Généralement plusieurs mégaoctets
 download-recordings-unavailable = Vous ne pouvez pas demander vos enregistrements alors qu’une autre demande est déjà en cours.
 download-size = Taille
+download-selected = Sélectionné
+download-start = Télécharger les données du profil
+download-request = Demander les enregistrements
+download-requests = Demandes de téléchargement d’enregistrements antérieurs
+download-requests-info = Lorsque vous demandez vos enregistrements, nous les compilons dans un ou plusieurs fichiers ZIP. Voici vos demandes précédentes :
 download-request-button = Télécharger
 download-request-title = { $created }
 download-request-archive-single = Fichier ZIP unique contenant
