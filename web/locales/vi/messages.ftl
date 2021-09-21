@@ -865,6 +865,7 @@ download-recordings-title = Bản ghi
 download-recordings-info = Bao gồm mp3 và các câu liên quan
 download-recordings-size = Thường lên đến megabyte
 download-recordings-unavailable = Bạn không thể yêu cầu bản ghi của mình trong khi một yêu cầu khác đang được thực hiện.
+download-recently-requested = Bạn có thể yêu cầu một bản ghi âm mới cứ { $days } ngày một lần.
 download-size = Kích thước
 download-selected = Đã chọn
 download-start = Bắt đầu tải xuống
