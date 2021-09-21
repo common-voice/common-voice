@@ -1,17 +1,17 @@
 ## General
 
 yes-receive-emails = Si, invia me emails. Io vole esser informate sur le projecto Common Voice.
-stayintouch = Nos a Mozilla construe un communitate circum le technologias del voce. Nos placerea restar in contacto con le novas, nove datos fontes e saper plus circa como tu usa iste datos.
+stayintouch = Nos a Mozilla construe un communitate de interessatos in technologias de voce. Nos volerea remaner in contacto pro inviar te actualitates, informar te de nove fontes de datos e saper plus sur como tu usa iste datos.
 privacy-info = Nos promitte de gerer tu informationes con cura. Lege plus in nostre <privacyLink>aviso de confidentialitate</privacyLink>.
 return-to-cv = Retornar a Common Voice
 email-input =
-    .label = Email
+    .label = E-mail
 submit-form-action = Inviar
 loading = Cargamento…
 email-opt-in-info = Io volerea reciper e-mails como rememorationes de objectivos, actualisationes de mi progresso e bulletines de novas sur Common Voice.
 email-opt-in-info-title = Inscribe te al lista de diffusion de Common Voice
 email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de defias e objectivos, actualisationes de progresso e bulletines de novas sur Common Voice.
-email-opt-in-privacy-v2 = Si tu opta de reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate</privacyLink>.
+email-opt-in-privacy-v2 = Si tu opta pro reciper e-mails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
 
@@ -187,15 +187,15 @@ cookies = Cookies
 faq = Folio a questiones
 content-license-text = Contento disponibile sub <licenseLink>licentia Creative Commons</licenseLink>
 share-title = Adjuta nos a trovar alteres pro donar lor voce!
-share-text = Adjuta a inseniar al machinas como parla le personas real, dona tu voce al { $link }
+share-text = Adjuta a inseniar a machinas como personas real parla! Dona tu voce sur { $link }
 link-copied = Ligamine copiate
-back-top = Receder al initio
+back-top = Retornar al initio
 logout = Clauder session
 
 ## Home Page
 
-home-title = Le projecto Common Voice es un initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real.
-default-tagline = Mozilla Common Voice es un initiativa pro adjutar a inseniar al machinas como parla le personas real.
+home-title = Le projecto Common Voice es un initiativa de Mozilla pro adjutar a inseniar a machinas como personas real parla.
+default-tagline = Mozilla Common Voice es un initiativa pro adjutar a inseniar a machinas como personas real parla.
 home-cta = Face audir de te, contribue ora!
 wall-of-text-start = Le voce es natural, le voce es human. Ecce proque nos es fascinate del idea de crear technologia vocal utile pro nostre machinas. Ma pro crear systemas vocal es necessari un grandissime quantitate de datos vocal.
 wall-of-text-more-mobile = Le major parte del datos usate per le grande companias non es disponibile al majoritate del personas. Nos pensa que isto suffoca le innovation. Dunque nos ha lanceate le projecto Common Voice, un projecto pro adjutar a render le recognition de voce disponibile pro omnes.
