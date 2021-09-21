@@ -39,3 +39,5 @@ Many language communities are self organising and have their contact channels on
   * [Line](https://bit.ly/cv-line) 
 * Turkic (`cv`, `tt`, `ky`, `kk`, `tr`, `sah`):
   * [Telegram](https://t.me/joinchat/WRFz62nYdmJ1uo1L)
+* Uzbek (`uz`):
+  * [Telegram](https://t.me/joinchat/lz2WlEvxlSQ1YzJi) 
