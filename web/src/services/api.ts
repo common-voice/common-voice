@@ -470,4 +470,8 @@ export default class API {
       method: 'GET',
     });
   }
+
+  async getServerDate(): Promise<string> {
+    return await this.fetch(`${API_PATH}/server_date`);
+  }
 }

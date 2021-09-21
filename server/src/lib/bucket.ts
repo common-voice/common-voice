@@ -146,7 +146,7 @@ export default class Bucket {
   async zipTakeoutFilesToS3(
     takeout: TakeoutRequest,
     chunkIndex: number,
-    keys: string[]
+    paths: string[]
   ): Promise<S3.HeadObjectOutput> {
     console.log('start takeout zipping', takeout.id);
     const destination = this.takeoutKey(takeout, chunkIndex);
@@ -154,7 +154,9 @@ export default class Bucket {
     const passThrough = new PassThrough();
 
     const s3pipe = s3Zip
-      .archive({ s3: this.s3, bucket }, '', keys)
+      .archive({ s3: this.s3, bucket }, '', paths, paths.map(path =>
+        `takeout_${takeout.id}_pt_${chunkIndex}/${ path.split('/').length > 1 ? path.split('/')[1] : path }`
+      ))
       .pipe(passThrough);
 
     await this.s3
@@ -179,10 +181,12 @@ export default class Bucket {
     takeout: TakeoutRequest,
     clipData: ClientClip[]
   ): Promise<S3.HeadObjectOutput> {
+    const fields = ['original_sentence_id', 'sentence', 'locale'];
     const metadataKey = this.metadataKey(takeout);
-    const sentenceData = clipData
-      .map(clip => `${clip.original_sentence_id}\t${clip.sentence}`)
+    let sentenceData = clipData
+      .map((clip: any) => fields.map(field => clip[field]).join('\t'))
       .join('\n');
+    sentenceData = `${fields.join('\t')}\n${sentenceData}`;
     const bucket = getConfig().CLIP_BUCKET_NAME;
 
     await this.s3
@@ -205,4 +209,17 @@ export default class Bucket {
     const clip = await this.model.db.findClip(id);
     return clip ? this.getPublicUrl(clip.path) : null;
   }
+
+    /**
+   * Delete function for S3 used for removing old avatars
+   */
+  public async deletePath(path: string) {
+    await this.s3
+      .deleteObject({
+        Bucket: getConfig().CLIP_BUCKET_NAME,
+        Key: path,
+      })
+      .promise();
+  }
+
 }

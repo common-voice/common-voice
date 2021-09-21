@@ -13,7 +13,7 @@ const kTakeoutConcurrency = 10;
 const kTakeoutRateLimiter: Bull.RateLimiter = { max: 10, duration: 3600 };
 
 // Maximum number of files to include in each archive
-const kChunkMaxFiles = 500;
+const kChunkMaxFiles = 2000;
 
 // How many days takeout archives are kept before getting deleted from S3 and the DB.
 const kExpirationDays = 30;
@@ -83,6 +83,7 @@ export type ClientClip = {
   original_sentence_id: string;
   sentence: string;
   path: string;
+  locale: string;
 };
 
 export default class Takeout {
@@ -134,7 +135,7 @@ export default class Takeout {
 
     const [clips] = await this.db.query(
       `
-        SELECT original_sentence_id, sentence, path FROM clips WHERE client_id = ?
+        SELECT original_sentence_id, sentence, path, name AS locale FROM clips LEFT JOIN locales ON clips.locale_id = locales.id WHERE client_id = ?
       `,
       [client_id]
     );
@@ -184,6 +185,8 @@ export default class Takeout {
   }
 
   async takeoutCleanupWorker(job: Job<{}>) {
+    console.log('Running takeout cleanup worker');
+
     // Delete expired (or close to expiration) takeouts.
     const expired_deleted = await this.deleteCloseToExpirationTakeouts();
     if (expired_deleted)
@@ -221,30 +224,61 @@ export default class Takeout {
     return takeouts[0] || null;
   }
 
+  private async deleteTakeoutFiles(takeouts: TakeoutRequest[]) {
+    takeouts.forEach(async (takeout) => {
+      for (let i = 0; i < takeout.archive_count; i++) {
+        await this.bucket.deletePath(this.bucket.takeoutKey(takeout, i));
+      }
+      await this.bucket.deletePath(this.bucket.metadataKey(takeout));
+    });
+    console.log(`deleted s3 files for the following takeout ids: ${takeouts.map(takeout => takeout.id).join(",")}`);
+  }
+
+
   private async deleteCloseToExpirationTakeouts() {
+    const [expiredTakeouts] = (await this.db.query(
+      `
+        SELECT * FROM user_client_takeouts
+        WHERE expiration_date IS NOT NULL
+          AND state != ?
+          AND DATE_SUB(expiration_date, INTERVAL ? HOUR) < NOW()
+      `,
+      [TakeoutState.EXPIRED, kExpirationMarginHours]
+    )) as [TakeoutRequest[]];
+
+    if (expiredTakeouts.length) await this.deleteTakeoutFiles(expiredTakeouts);
+
     return (
       await this.db.query(
         `
-      DELETE FROM user_client_takeouts
-      WHERE expiration_date IS NOT NULL
-        AND DATE_SUB(expiration_date, INTERVAL ? HOUR) < NOW()
-    `,
-        [kExpirationMarginHours]
-      )
+          UPDATE user_client_takeouts
+          SET state = ?
+          WHERE id IN (?)
+        `, [TakeoutState.EXPIRED, expiredTakeouts.map(takeout => takeout.id)])
     )[0].affectedRows;
   }
 
   private async deleteStuckTakeouts() {
+    const [stuckTakeouts] = (await this.db.query(
+      `
+        SELECT * FROM user_client_takeouts
+        WHERE state != ?
+          AND DATE_ADD(requested_date, INTERVAL ? HOUR) < NOW()
+      `,
+      [TakeoutState.AVAILABLE, kStuckDurationHours]
+    )) as [TakeoutRequest[]];
+
+    if (stuckTakeouts.length) await this.deleteTakeoutFiles(stuckTakeouts);
+
     // Requests that are still PENDING or IN_PROGRESS and did not complete within
     // kStuckDurationHours are deleted.
     return (
       await this.db.query(
         `
-      DELETE FROM user_client_takeouts
-      WHERE state != ?
-        AND DATE_ADD(requested_date, INTERVAL ? HOUR) < NOW()
-    `,
-        [TakeoutState.AVAILABLE, kStuckDurationHours]
+          DELETE FROM user_client_takeouts
+          WHERE id IN (?)
+        `,
+        [stuckTakeouts.map(takeout => takeout.id)]
       )
     )[0].affectedRows;
   }
@@ -270,10 +304,10 @@ export default class Takeout {
     const [pending] = await this.db.query(
       `
       SELECT 1 FROM user_client_takeouts
-      WHERE client_id = ? AND state != ?
+      WHERE client_id = ? AND state IN (?)
       LIMIT 1
     `,
-      [client_id, TakeoutState.AVAILABLE]
+      [client_id, [TakeoutState.PENDING, TakeoutState.IN_PROGRESS]]
     );
     return pending.length === 0;
   }
