@@ -877,6 +877,7 @@ download-recordings-title = Recordings
 download-recordings-info = Includes mp3s and related sentences, may take some time to prepare
 download-recordings-size = Typically megabytes
 download-recordings-unavailable = You cannot request your recordings while another request is already in progress.
+download-recently-requested = You can request a new takeout of your recordings every { $days } days.
 download-size = Size
 download-selected = Selected
 download-start = Download profile data

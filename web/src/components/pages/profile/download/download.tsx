@@ -16,6 +16,9 @@ import Modal, { ModalProps } from '../../../modal/modal';
 
 const pick = require('lodash.pick');
 
+// you can request a new takeout every 7 days
+const REQUEST_LIMIT = 7;
+
 const Section = ({
   title,
   titleAction,
@@ -314,7 +317,9 @@ function DownloadProfile(props: WithLocalizationProps) {
   const account = useAccount();
   const { getString } = props;
 
+  const [serverDate, setServerDate] = useState(new Date());
   const [hasAnyPendingTakeout, setHasAnyPendingTakeout] = useState(false);
+  const [hasRecentTakeout, setHasRecentTakeout] = useState(false);
   const [takeouts, setTakeouts] = useState(null);
   const [takeoutRefresh, setTakeoutRefresh] = useState(0);
   const forceTakeoutRefresh = () => setTakeoutRefresh(x => x + 1);
@@ -322,6 +327,7 @@ function DownloadProfile(props: WithLocalizationProps) {
 
   useEffect(() => {
     api.fetchTakeouts().then(setTakeouts);
+    api.getServerDate().then(date => setServerDate(new Date(date)));
   }, [takeoutRefresh]);
 
   useEffect(() => {
@@ -329,6 +335,15 @@ function DownloadProfile(props: WithLocalizationProps) {
       (takeouts || []).reduce(
         (acc: boolean, t: TakeoutRequest) =>
           acc || t.state !== TakeoutState.AVAILABLE,
+        false
+      )
+    );
+
+    setHasRecentTakeout(
+      (takeouts || []).reduce(
+        (acc: boolean, t: TakeoutRequest) => {
+          return acc || serverDate.getTime() <= (new Date(t.requested_date).getTime() + REQUEST_LIMIT * 24 * 60 * 60 * 1000);
+        },
         false
       )
     );
@@ -363,8 +378,9 @@ function DownloadProfile(props: WithLocalizationProps) {
           size={getString('download-recordings-size')}
           type='clips'
           action={() => download(account, api, 'clips', forceTakeoutRefresh)}
-          isDisabled={hasAnyPendingTakeout}
-          disabledReason={getString('download-recordings-unavailable')}
+          isDisabled={hasAnyPendingTakeout || hasRecentTakeout}
+          disabledReason={hasAnyPendingTakeout ? getString('download-recordings-unavailable') :
+            getString('download-recently-requested', { days: REQUEST_LIMIT }) }
         />
       </Section>
       {takeouts && takeouts.length > 0 && (

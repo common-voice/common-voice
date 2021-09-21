@@ -127,6 +127,7 @@ export default class API {
 
     router.get('/feature/:locale/:feature', this.getFeatureFlag);
     router.get('/bucket/:bucket_type/:path/:cdn', this.getPublicUrl);
+    router.get('/server_date', this.getServerDate);
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
@@ -501,4 +502,9 @@ export default class API {
     );
     response.json({ url });
   };
+
+  getServerDate = (request: Request, response: Response) => {
+    // prevents contributors manipulating dates in client
+    response.json(new Date());
+  }
 }
