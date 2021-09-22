@@ -947,3 +947,6 @@ contribution-misreadings-example-3-explanation = [마지막 단어가 끝나기 
 contribution-misreadings-example-4-explanation = [요청한 텍스트보다 더 많은 것이 녹음되었음]
 contribution-misreadings-example-8-explanation = [내용이 일치하지 않음]
 contribution-varying-pronunciations-title = 다양한 발음
+contribution-varying-pronunciations-description = 읽는 사람이 단어를 잘못 발음했거나, 강세를 잘못된 위치에 넣었거나, 물음표를 무시했다면 클립을 거부하기 전에 확인해주세요. 전 세계에서 사용되는 발음은 매우 다양하며, 그 중 일부는 지역 사회에서 들어보지 못한 것일 수 있습니다. 다르게 말하는 사람들을 위한 이해의 여백을 남겨 주세요.
+contribution-varying-pronunciations-description-extended = 반면에 읽는 사람이 단어를 이전에 본 적이 없는 것 같고 발음에 대해 잘못된 추측을 하고 있다고 생각되면 거부하세요. 확실하지 않은 경우 건너뛰기 버튼을 사용하세요.
+contribution-background-noise-title = 배경 소음
