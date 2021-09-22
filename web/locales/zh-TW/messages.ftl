@@ -862,6 +862,7 @@ download-recordings-title = 錄音片段
 download-recordings-info = 包含錄音 MP3 檔與相關聯的語句
 download-recordings-size = 通常幾 MB
 download-recordings-unavailable = 若已經有正在處理中的請求，不能再提出新的請求。
+download-recently-requested = 您可以每 { $days } 天要求一次新的錄音資料打包。
 download-size = 大小
 download-selected = 已選擇
 download-start = 開始下載
