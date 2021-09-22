@@ -873,6 +873,7 @@ download-start = Last ned profildata
 download-request = Be om innspelingar
 download-request-button = Last ned
 download-request-title = { $created }
+download-request-description = { $clipCount } taleklipp, total arkivstorleik { $size }. Går ut{ $expires }.
 
 ## Landing
 
