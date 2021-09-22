@@ -858,6 +858,7 @@ download-recordings-title = 录音片段
 download-recordings-info = 包含录音 MP3 音频和相关语句
 download-recordings-size = 通常几 MB
 download-recordings-unavailable = 已有正在处理中的请求，无法发起新的请求。
+download-recently-requested = 您可以每 { $days } 天请求一次新的录音数据。
 download-size = 大小
 download-selected = 已选中
 download-start = 开始下载
