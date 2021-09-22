@@ -388,6 +388,10 @@ faq-what-cv-a =
     음성 인식 기술은 기계와 상호작용하는 방법을 혁신적으로 바꾸고 있습니다. 하지만 현재 사용가능한 시스템들은 비싸고 사유화 되어 있습니다. Common Voice는 음성인식 기술을 더 발전 시키고 모든 사람이 접근할 수 있게 만든 Mozilla 시작점입니다. Common Voice는 누구나 쉽고 빠르게 음성지원 앱을 학습 할 수 있게 하는 잠재적으로 모든 언어를 대상으로 하는 기부로 이루어진 대용량의 세계적인 음성 데이터 베이스 입니다.
     
     우리는 많이 사용되는 언어의 음성 샘플만 수집하지 않고 사용하는 인구가 적은 언어도 수집합니다. 다양한 음성 데이터 세트를 배포하여 개발자와 기업가, 커뮤니티가 이러한 차이를 극복할 수 있는 힘을 부여합니다. 또한 Common Voice 데이터 세트와 함께 Deep Speech라는 음성인식 오픈소스 엔진을 만들고 있습니다.
+faq-what-cv-a-2 =
+    음성 인식 기술은 기계와의 상호작용을 혁신적으로 바꾸고 있습니다. 하지만 현재 사용되는 시스템은 비싸고 사유화 되어 있습니다. Mozilla Common Voice는 음성인식 기술을 더 발전시키고 모든 사람에게 접근가능하도록 하는 프로젝트입니다. Common Voice는 기부한 음성으로 이루어진 세계적인 대용량 음성 데이터베이스로, 이를 통해 누구나 빠르고 쉽게 잠재적으로 모든 언어의 음성지원 앱을 학습시킬 수 있습니다.
+    
+    우리는 많이 사용되는 언어의 음성 샘플을 수집하는 것 뿐 아니라, 사용 인구가 적은 언어도 수집합니다. 다양한 음성 데이터셋을 배포함으로써 개발자와 기업가, 커뮤니티가 이러한 차이를 극복할 수 있도록 힘을 실어줄 것입니다.
 faq-why-important-q = 이것이 왜 중요할까요?
 faq-why-important-a =
     말하기는 우리가 다른 사람과 커뮤니케이션 하는 가장 자연스러운 방법입니다. 음성 기술은 그 편리한 방법을 컴퓨터와 모바일 환경에서 사용할 수 있게 합니다. 우리는 실시간 번역기나 음성지원이 가능한 디지털 비서와 같은 놀라운 음성 인식 앱을 개발자들이 만들어 낼 수 있는 환경을 만들고자 합니다. 그러나 지금, 이러한 종류의 앱들은 비싸고 사유화되어 있고 이 같은 앱을 만들려면 많은 양의 음성 데이터를 필요로 합니다. 우리는 개발자들이 그들의 언어로 된 혁신적인 말하기 기술을 만드는데 필요한 것을 Common Voice 데이터 세트가 제공해 주기를 원합니다.
@@ -445,6 +449,9 @@ about-title = 왜 Common Voice 인가요?
 about-subtitle = Common Voice는 실제로 사람이 어떻게 말하는지를 기계에게 교육시키기 위한 Mozilla의 시작 활동의 일부입니다. Common Voice 뿐만 아니라 우리는 Deep Speech라는 오픈 소스 음성 인식 엔진을 만들고 있습니다.
 about-header-description =
     이 두 프로젝트는 디지털 음성 격차를 해소하려는 노력의 일환입니다. 음성 인식 기술은 우리의 기기에 인간과 같은 능력을 가져다 주지만 개발자는 이를 구축하기 위해 엄청난 양의 음성 데이터가 필요합니다. 현재 이 데이터의 대부분은 비싸고 독점되어 있습니다.
+    우리는 음성 데이터를 자유롭고 공개적으로 이용할 수 있게 하고 데이터가 실제 사람들의 다양성을 나타내는 지 확인하고 싶습니다. 함께하면 우리는 모두를 위한 음성 인식기술을 만들 수 있습니다.
+about-header-description-2 =
+    이 프로젝트는 디지털 음성 격차를 해소하기 위한 노력의 일환입니다. 음성 인식 기술은 우리의 기기에 인간과 같은 능력을 가져다 주지만 개발자는 이를 구축하기 위해 엄청난 양의 음성 데이터가 필요합니다. 현재 이 데이터의 대부분은 비싸고 독점되어 있습니다.
     우리는 음성 데이터를 자유롭고 공개적으로 이용할 수 있게 하고 데이터가 실제 사람들의 다양성을 나타내는 지 확인하고 싶습니다. 함께하면 우리는 모두를 위한 음성 인식기술을 만들 수 있습니다.
 how-does-it-work-title = 어떻게 작동하나요?
 how-does-it-work-text = 오픈 소스 음성 데이터 세트를 크라우드 소싱하고 있습니다. 목소리를 기부하고, 다른 사람의 클립의 정확성을 검증하고, 모든 사람에게 더 나은 데이터 세트를 만드세요.
@@ -578,6 +585,11 @@ subscribe = 구독하기
 get-started-speech = 음성인식 시작하기
 other-datasets = 기타 음성 데이터세트
 feedback-q = 제안 사항이 있습니까?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™는 최첨단 대화형 AI 모델을 개발하는 연구자를 위한 <docsLink>오픈 소스 툴킷</docsLink>입니다.
+resource-deepspeech-info = Mozilla의 오픈 소스 음성 인식 엔진 Deep Speech를 사용해 음성 인식 어플리케이션을 만들 수 있습니다. <githubLink>Github 개요</githubLink>를 읽거나 <discourseLink>DeepSpeech Discourse</discourseLink>에 참여하여 시작하는 방법을 알아보세요.
+resource-coqui-info = <coquiLink>Coqui</coquiLink>는 개방형 음성 기술에 전념합니다. 그들은 딥 러닝 기반 STT 및 TTS 엔진 등의 프로젝트를 진행하고 있습니다.
+community-playbook = 커뮤니티 활용법
+resource-playbook-info = 지역화에서 데이터셋 용례까지 아우르는 Common Voice 여정 및 커뮤니티와 유대를 쌓는 방법에 대한 <playbookLink>유용한 지침</playbookLink>을 찾아보십시오.
 data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 읽은 오디오 북에서 파생 된 16Khz의 약 1000 시간의 말뭉치입니다.
 data-other-ted-name = TED-LIUM 말뭉치
 data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
@@ -848,6 +860,32 @@ profile-form-delete = 프로필 지우기
 
 ## Profile Download
 
+download-q = 데이터를 다운로드해야 합니까?
+download-info = 다운로드할 항목을 알려주세요:
+download-profile-title = 프로필
+download-profile-info = 이메일과 사용자 이름, 인구 통계 정보 포함, 즉시 사용 가능
+download-profile-size = 몇 바이트
+download-recordings-title = 녹음
+download-recordings-info = mp3와 관련 문장이 포함되어 있으며 준비하는 데 시간이 걸릴 수 있음
+download-recordings-size = 보통 수 메가바이트
+download-recordings-unavailable = 다른 요청이 이미 진행 중이라면 녹음을 요청할 수 없습니다.
+download-size = 크기
+download-selected = 선택됨
+download-start = 프로필 데이터 다운로드
+download-request = 녹음 요청
+download-requests = 과거 녹음 다운로드 요청
+download-requests-info = 녹음을 요청하면 하나 이상의 ZIP 파일로 묶습니다. 과거 요청은 다음과 같습니다:
+download-request-button = 다운로드
+download-request-title = { $created }
+download-request-description = { $clipCount }개의 음성 클립, 총 아카이브 크기 { $size }. { $expires }에 만료됩니다.
+download-request-archive-single = 단일 ZIP 파일은 다음을 포함함
+download-request-archive-multiple = { $archiveCount } 개로 분할된 ZIP 파일은 다음을 포함
+download-request-assembling-description = 파일을 수집 중입니다. 나중에 다시 확인하십시오.
+download-request-refresh-button = 새로고침
+download-request-modal-title = 다운로드 링크
+download-request-modal-description = ZIP 파일 다운로드 링크입니다.
+download-request-link-text = Zip { $total } 중 #{ $offset }
+download-request-metadata-link = 문장 텍스트
 
 ## Landing
 
