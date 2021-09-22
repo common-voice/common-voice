@@ -893,6 +893,7 @@ download-request-refresh-button = Actualiser
 download-request-modal-title = Liens de téléchargement
 download-request-modal-description = Voici les liens pour télécharger vos fichiers ZIP.
 download-request-link-text = Zip n°{ $offset } sur { $total }
+download-request-metadata-link = Texte de la phrase
 download-request-link-single = Vous pouvez également copier et coller les liens directs dans votre gestionnaire de téléchargement préféré. Ils expireront dans 12 heures, mais vous pouvez revenir sur cette page pour en générer de nouveaux à tout moment.
 
 ## Landing
