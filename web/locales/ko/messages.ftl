@@ -117,6 +117,7 @@ ne-NP = 네팔어
 nia = 니아스어
 nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
+nyn = 엔코어어
 oc = 오크어
 or = 오리야어
 pa-IN = 펀자브어
@@ -149,6 +150,7 @@ th = 태국어
 tl = 타갈로그어
 tr = 터키어
 tt = 타타르어
+tw = 트위어
 uby = 우비흐어
 udm = 우드무르트어
 ug = 위구르어
@@ -158,6 +160,8 @@ uz = 우즈베키스탄어
 vec = 베네치아어
 vi = 베트남어
 vot = 바트어
+yi = 이디시어
+yo = 요루바어
 yue = 광동어
 zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
@@ -190,6 +194,7 @@ logout = 로그아웃
 ## Home Page
 
 home-title = Common Voice Project는 실제 사람들이 어떻게 말하는지 기계들에게 가르치기 위한 Mozilla의 프로젝트입니다.
+default-tagline = Mozilla Common Voice는 기계에게 실제 사람들이 말하는 법을 가르치는 프로젝트입니다.
 home-cta = 말하고, 여기서 기여하세요!
 wall-of-text-start = 목소리는 자연적이고 사람을 나타냅니다. 그래서 우리는 기계를 위한 사용할 만한 음성 기술을 만들고자 하게 되었습니다. 하지만 음성 시스템을 만들기 위해서는 매우 많은 양의 데이터가 필요합니다.
 wall-of-text-more-mobile = 큰 기업에서 사용하는 대부분의 데이터는 일반 사람들이 사용할 수 없습니다. 이는 혁신을 저지하는 것입니다. 그래서 우리는 모두에게 열려있는 Common Voice 프로젝트를 시작했습니다.
@@ -282,6 +287,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = 녹음/멈추기
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 레코드클립 재녹음
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = 진행 중인 녹음 취소
+shortcut-submit = 돌아가기
+shortcut-submit-label = 클립 제출
 request-language-text = 아직도 사용하는 언어가 Common Voice에서 보이지 않나요?
 request-language-text-learn = 여기에서 요청하는 방법을 알아보세요!
 request-language-button = 언어 요청하기
@@ -360,6 +369,8 @@ browse-file = 끌어 놓기 또는 <browseWrap>둘러보기</browseWrap>
 connect-gravatar = Gravatar에 연결하기
 gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
 file_too_large = 선택한 파일이 너무 큽니다.
+avatar-uploaded = 아바타 업로드됨
+max-file-size = 최대 { $kb }kb
 
 ## Profile - Email
 
