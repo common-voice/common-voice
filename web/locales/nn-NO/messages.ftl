@@ -874,6 +874,10 @@ download-request = Be om innspelingar
 download-request-button = Last ned
 download-request-title = { $created }
 download-request-description = { $clipCount } taleklipp, total arkivstorleik { $size }. Går ut{ $expires }.
+download-request-archive-single = Enkel zip-fil med
+download-request-archive-multiple = Delt inn i { $archiveCount } zip-filer med
+download-request-refresh-button = Oppdater
+download-request-modal-title = Nedlastingslenker
 
 ## Landing
 
@@ -921,3 +925,4 @@ demo-dashboard-card-body = For kvart stemmeklipp som dvert donert, og kvart lydk
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriterium
