@@ -878,6 +878,8 @@ download-request-archive-single = Enkel zip-fil med
 download-request-archive-multiple = Delt inn i { $archiveCount } zip-filer med
 download-request-refresh-button = Oppdater
 download-request-modal-title = Nedlastingslenker
+download-request-link-text = Zip #{ $offset } av { $total }
+download-request-metadata-link = Setningstekst
 
 ## Landing
 
@@ -926,3 +928,5 @@ demo-dashboard-card-body = For kvart stemmeklipp som dvert donert, og kvart lydk
 ## Validation criteria
 
 contribution-criteria-nav = Kriterium
+contribution-for-example = til dømes
+contribution-misreadings-title = Feiltolkingar
