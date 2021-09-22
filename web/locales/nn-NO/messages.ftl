@@ -78,6 +78,7 @@ hy-AM = Armensk
 hyw = Vestarmensk
 ia = Interlingua
 id = Indonesisk
+ie = Interlingue
 is = Islandsk
 it = Italiensk
 izh = Ingrisk
@@ -86,6 +87,7 @@ ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
 kbd = Kabardisk
+ki = Kikuyu
 kk = Kasakhisk
 kmr = Nordkurdisk
 ko = Koreansk
@@ -110,11 +112,13 @@ ms = Malaysisk
 mt = Maltesisk
 my = Burmesisk
 myv = Erziamordvinsk
+nan-tw = Taiwansk (Minnan)
 nb-NO = Norsk (bokmål)
 ne-NP = Nepalsk
 nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
+nyn = Nyankole
 oc = Oksitansk
 or = Oriya
 pa-IN = Panjabi
@@ -281,6 +285,7 @@ shortcut-record-toggle = e
 shortcut-record-toggle-label = Spel inn/Stopp
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spel inn klippet ein gong til
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Enter
 shortcut-submit-label = Send inn klipp
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
@@ -565,8 +570,6 @@ subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du ei tilbakemelding?
-deepspeech-info = Common Voice-datasettet komplementerer Mozillas opne kjeldekode-stemmegjenkjenningsmotor Deep Speech, som du kan bruke til å byggje talegjenkjenningsapplikasjonar. Les <githubLink> Github-oversikta </githubLink> vår, eller bli med på <discourseLink> DeepSpeech Discourse </discourseLink> for å lære korleis du kjem i gang.
-common-voice-info-new = Har du spørsmål om Common Voice? Idear til forbetringar eller tilbakemeldinger om eit bestemt språk? Bli med i <discourseLink> Discourse forum </discourseLink> og gi oss beskjed.
 data-other-librispeech-description = LibriSpeech er eit korpus av omlag 1000 timar med engelsk tale (16Khz-opptak) henta frå lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpuset er laga på bakgrunn av lydsamtalar og transkripsjonar av desse, på TED-nettsida.
@@ -845,6 +848,10 @@ why-delete-recordings =
     Kan du fortelje oss om kvifor du vil at lydklippa dine skal slettast?
 profile-form-delete = Slett profilen
 
+## Profile Download
+
+download-profile-title = Profil
+
 ## Landing
 
 welcome-staff = Velkomne tilsette på { $company }!
@@ -888,3 +895,6 @@ demo-listen-subtitle = Klar til å bidra?
 
 demo-dashboard-card-header = Personleg oversikt held deg oppdatert med individuelle og samfunnsmessige framsteg.
 demo-dashboard-card-body = For kvart stemmeklipp som dvert donert, og kvart lydklipp som vert validert, vert kontooversikta oppdatert for å reflektere den siste framgangen din på kvart språk du bidrar til. Ja, du kan bidra til meir enn éitt!<br/><br/> Bruk oversikta for å spore statistikken din, sjå korleis du har det saman med andre i samfunnet, og bestemme daglege bidragsmål og vekebidragsmål.
+
+## Validation criteria
+
