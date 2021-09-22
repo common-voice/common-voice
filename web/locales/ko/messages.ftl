@@ -886,6 +886,7 @@ download-request-modal-title = 다운로드 링크
 download-request-modal-description = ZIP 파일 다운로드 링크입니다.
 download-request-link-text = Zip { $total } 중 #{ $offset }
 download-request-metadata-link = 문장 텍스트
+download-request-link-single = URL을 직접 사용하는 다운로드 관리자에 복사하여 붙여넣을 수도 있습니다. 링크는 12시간 후에 만료되지만 언제든지 이 페이지로 돌아와 새로 생성할 수 있습니다.
 
 ## Landing
 
@@ -915,6 +916,7 @@ demo-account = 계정
 ## Demo Account
 
 demo-account-card-header = 계정이 있으면 도움이 되지만, 공헌을 위해 꼭 필요한 것은 아닙니다.
+demo-account-card-body = 우측에는 혜택을 간략하게 설명하고 공개될 정보가 어떤 것인지 명시하고 있습니다. 아래 링크를 통해 사용자의 기기에서 Common Voice 계정을 시작하십시오.
 demo-account-enter-email =
     .label = 가입 링크를 보낼 이메일을 입력하세요.
 demo-account-sign-up = 가입 링크 보내기
@@ -922,6 +924,7 @@ demo-account-sign-up = 가입 링크 보내기
 ## Demo Contribute
 
 demo-contribute-card-header = 목소리를 추가하거나 귀를 빌릴 준비가 되셨습니까?
+demo-contribute-card-body-v2 = 이제 Common Voice에 대해 조금 더 알게 되었으니, 사용해 보시는 건 어떨까요? 마이크 아이콘을 클릭하고 문장을 소리내어 읽어주세요. <br/><br/>다른 사람이 기여한 음성을 검토하시려면 재생 아이콘을 클릭하세요. 녹음이 화면에 쓰여진 문장과 일치하는지 확인하는데 도움을 주실 수 있습니다.
 demo-listen-subtitle = 기여할 준비가 되었습니까?
 
 ## Demo Dashboard
@@ -931,3 +934,16 @@ demo-dashboard-card-body = 기부된 모든 음성 클립과 검증된 모든 �
 
 ## Validation criteria
 
+contribution-criteria-nav = 기준
+contribution-criteria-link = 기여 기준 이해하기
+contribution-criteria-page-title = 기여 기준
+contribution-criteria-page-description = 음성 클립을 들을 때 무엇을 찾아야 하는지 이해하고 음성 녹음을 풍부하게 만드세요!
+contribution-for-example = 예를 들어
+contribution-misreadings-title = 오독
+contribution-misreadings-description = 들을 때 쓰여진 내용이 정확히 녹음 되었는지 매우 주의 깊게 확인하십시오. 사소한 오류라도 있으면 거부하십시오. <br />아주 흔한 실수는 다음과 같습니다.
+contribution-misreadings-description-extended-list-4 = 녹음을 너무 빨리 중단해 마지막 단어의 끝 부분을 놓치는 것.
+contribution-misreadings-description-extended-list-5 = 한 단어를 여러 번 읽는 것.
+contribution-misreadings-example-3-explanation = [마지막 단어가 끝나기 전에 녹음이 중단됨]
+contribution-misreadings-example-4-explanation = [요청한 텍스트보다 더 많은 것이 녹음되었음]
+contribution-misreadings-example-8-explanation = [내용이 일치하지 않음]
+contribution-varying-pronunciations-title = 다양한 발음
