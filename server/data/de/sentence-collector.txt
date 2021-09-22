@@ -723,6 +723,7 @@ Alle kommen mit, um Levin anzufeuern.
 Alle lehnen ihr Fahrrad ans Geländer. Nur nicht Titus, der hat einen Ständer.
 Alle mal herhören!
 Alle meine Freunde sagen, ich sei verrückt, doch ich ziehe das durch.
+Alle mit gezogener Waffe.
 Alle möchten alt werden, aber niemand will alt sein.
 Alle mögen Katzen. Außer Klaus, denn der mag die Maus.
 Alle müssen heute arbeiten. Nur die Bayern, die dürfen feiern.
@@ -1207,6 +1208,7 @@ Am Tagebau merkte Hans, welche Auswirkungen sein Energieverbrauch auf die Landsc
 Am Telefon kaufe ich nichts.
 Am Telefon weiß man nie, wer sonst noch mithört.
 Am Telefon wurde die Verwalterin schnell pampig.
+Am Terminal kommt der Bro.
 Am Valentinstag schicke ich meinem Freund zur Abwechslung mal eine Hassmail.
 Am Vortag hatte sie noch helle Momente.
 Am Wasserkraftwerk kam Hanno dann doch etwas ins Grübeln.
@@ -1551,6 +1553,7 @@ Apple und Samsung sind die Marktführer in diesem Bereich.
 Apple will sich nicht mehr ausschließlich auf's Hardware-Geschäft beschränken.
 Applets sind kleine Programme, auch App oder Apps genannt.
 Apropos Prompts, der Schwerpunkt der Woche ist gerade Impfzentren.
+Arab hat die ganze Straße auf den Kopf gestellt.
 Araber schreiben von rechts nach links.
 Arabische Schrift müsste für Linkshänder besser geeignet sein als die lateinische.
 Arbeit hat mit Nichtstun überhaupt nichts zu tun.
@@ -2257,6 +2260,7 @@ Axel Eduard Fischer ist seit neunzehnhundertachtundneunzig Mitglied des Deutsche
 Axel Eduard Fischer wurde in Karlsruhe geboren.
 Axel Fischer ist Mitglied der überparteilichen Europa-Union Deutschland.
 Axel Schweiß und Reiner Zufall möchten sich bitte an der Rezeption melden.
+Baby, bete dass wir gewinnen.
 Babys brauchen vor allem viel Liebe.
 Babys und Kleinkinder sind sogenannte Traglinge.
 Back dir ein Eis!
@@ -3214,6 +3218,7 @@ Bringt euch in Sicherheit!
 Bringt mir noch ein Bier und ihr kriegt eure Zugabe!
 Briten essen pro Kopf viel Zerealien und die Deutschen viel Brot.
 British Airways ist die einzige große Fluglinie, welche diese Insel anfliegt.
+Bro, die Quali ist geil.
 Bro, herzlichen Glückwunsch!
 Broiler ist in Deutschland die fachsprachliche Bezeichnung für Masthuhn.
 Brokkoli muss immer als Beispiel für ein Gemüse herhalten, das Kinder nicht mögen.
@@ -3222,7 +3227,14 @@ Brot kann schimmeln. Und was kannst du?
 Brot und Spiele ermöglichten Diktaturen.
 Brotkrümel in Champagnersoße will keiner essen.
 Bruchrechnung zählt nicht zur höheren Mathematik.
+Bruder, Jobcenter will nicht mehr zahlen.
+Bruder, dein Ziel ist auch mein Ziel.
+Bruder, der steht auf der Todesliste ganz oben.
+Bruder, die Bullen waren bei mir.
+Bruder, die spielen Spielchen mit uns.
+Bruder, es geht um so viel Geld.
 Bruder, schmeiß dein Handy weg.
+Bruder, wo bleibt mein para?
 Brummelt der sich immer einen in den nicht vorhandenen Bart?
 Brunhilde hat sich einen Finger eingeklemmt.
 Brunn am Gebirge ist eine Marktgemeinde im Bezirk Mödling in Niederösterreich.
@@ -4599,8 +4611,10 @@ Das Oktoberfest sollte man da lassen, wo es herkommt.
 Das Opossum stellt sich nur tot.
 Das Ordnungsamt kontrolliert die Einhaltung des Leinenzwangs für Hunde.
 Das Paar hat keine Kinder.
+Das Paket kommt morgen früh in Hamburg an.
 Das Paket wird nicht geöffnet.
 Das Paket wurde bereits an die Spedition übergeben.
+Das Para wird dringend gebraucht.
 Das Personal in den Impfzentren ist so super nett.
 Das Personal scheint nicht psychologisch geschult zu sein.
 Das Personal war sehr freundlich, herrausragend!
@@ -4699,6 +4713,7 @@ Das Taschentuch ist voll mit Schnodder.
 Das Taxi ist auf dem Weg.
 Das Taxi setzte Herbert wie vereinbart am Arbeitsamt ab.
 Das Team aus Houston bleibt weiterhin Träger der roten Laterne.
+Das Team ist bereits auf dem Weg dorthin.
 Das Technische Hilfswerk und die Feuerwehr halfen bei der Bewältigung des Unglücks.
 Das Teil hat Alma auf dem Basar erstanden.
 Das Teil ist ja auch komplett durchgebogen.
@@ -4775,6 +4790,7 @@ Das Zimmer fühlt sich jetzt viel größer an als vorher.
 Das Zimmer ist echt nicht klein.
 Das Zimmer ist jetzt ganz schön vollgestellt.
 Das Zimmermädchen schuldet mir fünfzehn Cent Pfand!
+Das Zollamt ist heute morgen aufgetaucht.
 Das Zugeständnis ist natürlich auch als Annäherung zu verstehen.
 Das akademische Viertel ist längst um.
 Das allein scheint schwierig genug zu sein.
@@ -6185,6 +6201,7 @@ Der Akku ist auch kaputt.
 Der Akku ist sowieso schon hinüber.
 Der Akt muss aus Graz angefordert werden, das kann ein paar Tage dauern.
 Der Aktionsradius des Roboters beträgt circa einen Kilometer.
+Der Albanier schuldet mir noch Geld.
 Der Altar steht immer im Osten der Kirche.
 Der Altar wiegt mindestens vierzig Zentner.
 Der Alte hat ihm mit dem Schürhaken eins über die Rübe gezogen.
@@ -6609,6 +6626,7 @@ Der Markt Metten ehrte ihn mit der goldenen Sportlernadel.
 Der Markt wird es wie immer richten.
 Der Marsch durch sumpfiges Gelände dauerte mehrere Stunden.
 Der Maulwurf gräbt unter dem Rasen seine Gänge.
+Der Maximaler Gewinn steht im Vordergrund.
 Der Mechaniker konnte den Fehler an meinem fünf Jahre alten Auto nicht finden.
 Der Medizinstudent war krachend durch das Physikum gefallen.
 Der Meisterkoch wird schon wissen, wie er die Reihenfolge der Gerichte arrangiert.
@@ -6826,6 +6844,7 @@ Der Staubsauger war mir am Ende doch zu laut.
 Der Stein fällt in den Brunnen, die Schere auch.
 Der Stellungskrieg an der Westfront war eine sinnlose Materialschlacht.
 Der Steward und die Stewardess kümmern sich um das Wohl der Passagiere.
+Der Stoff ist gerade angekommen.
 Der Strafverteidiger ist eine Koryphäe auf seinem Gebiet.
 Der Straßenbauer war mit aufwendigen Pflasterarbeiten beschäftigt.
 Der Straßenfeger gibt sich Mühe, die Instruktionen genau zu befolgen.
@@ -6862,6 +6881,7 @@ Der Text lässt sich ja für unsere Zwecke adaptieren.
 Der Thronfolger wird uns nun seine Kampfkünste vorführen.
 Der Ticker hat immer die neusten Nachrichten.
 Der Tipp kam von zwei ehemaligen Mafiosi.
+Der Tisch war voll. der ganze scheiß Tisch war voll.
 Der Tisch war voller Knöpfe.
 Der Tischler baut ein Hochbett.
 Der Titel besteht aus nur einem Wort.
@@ -6871,6 +6891,7 @@ Der Touchscreen seines Handys hat einen Sprung.
 Der Trainer hat uns beim Krafttraining kopfrechnen lassen.
 Der Trainer hat uns mit den heutigen Sprints richtig hart rangenommen.
 Der Transitzug wurde aufgehalten.
+Der Transport ist sehr gefährlich, Bro.
 Der Transport wurde abgefangen.
 Der Trick besteht darin, nicht alles sofort rauszulassen.
 Der Trick besteht vor allem darin, möglichst viel Gewicht mit den Beinen zu stemmen.
@@ -6888,6 +6909,7 @@ Der Typ ist ein Game Changer.
 Der Typ ist nicht einmal demokratisch legitimiert!
 Der Typ muss auf jeden Fall schon einiges intus gehabt haben.
 Der Typ nervt!
+Der Typ regt mich mega auf.
 Der Typ sieht aus wie ein stereotyper Gerichtsmediziner.
 Der TÜV Rheinland hat auch Projekte in Asien.
 Der Tänzer war vor Ort.
@@ -7496,6 +7518,7 @@ Die Beschlüsse der Bundesversammlung über eine Kriegserklärung sind vom Bunde
 Die Beschreibung liest sich wie eine Werbebroschüre.
 Die Beschreibung sollte schon akkurat sein.
 Die Beschriftung passt nicht zur Grafik.
+Die Beschuldigungen sind gegenstandslos.
 Die Besenkammer sollte besenrein sein.
 Die Besichtigung wurde von einem Strohmann geleitet, der selbst von nichts wusste.
 Die Bestimmungen dieser Verordnung gelten für alle Betriebe, die der Aufsicht der Bergbehörde unterstehen.
@@ -7612,6 +7635,7 @@ Die Eltern der kleinen Marietta möchten sich bitte umgehend an der Talstation e
 Die Eltern meiner Freundin spülen jeden Tag das Geschirr per Hand.
 Die Eltern sind die wichtigsten Personen eines Kindes.
 Die Eltern von Samuel waren nach Irland ausgewandert.
+Die EncroChat-Nachrichten haben offengelegt, wie die Kriminellen arbeiten.
 Die Engelwurzsalbe habe ich im Hebammenladen bekommen.
 Die Enteignung gilt es um jeden Preis zu verhindern.
 Die Entscheiderinnen haben anders entschieden.
@@ -7783,6 +7807,7 @@ Die Hagelkörner trommelten nur so auf das Vordach.
 Die Hagelkörner waren so groß, dass sie die Blätter der Bäume durchschlagen haben.
 Die Hakennase wurde auch gerichtet.
 Die Halle zu restaurieren, wird ein Vermögen kosten.
+Die Handgranaten sind da.
 Die Handlung enthält mehrere gravierende Logikfehler.
 Die Handtücher sind noch nass.
 Die Handwerker fingen an die Tapete abzureißen.
@@ -8049,6 +8074,7 @@ Die Mitarbeiter wollten einen Betriebsrat gründen.
 Die Mitglieder der Bundesregierung werden vor Antritt ihres Amtes vom Bundespräsidenten angelobt.
 Die Mitglieder der Landesregierung müssen nicht dem Landtag angehören, aber zum Landtag wählbar sein.
 Die Mitglieder des Landtages genießen die gleiche Immunität wie die Mitglieder des Nationalrates.
+Die Mitglieder des kolumbianischen Drogenkartells schieben Stress.
 Die Mitglieder universitärer Kollegialorgane sind weisungsfrei.
 Die Mittel müssen zweckgebunden eingesetzt werden.
 Die Mobilität verursacht viele der angesprochenen Probleme mit.
@@ -8295,6 +8321,7 @@ Die Sonne scheint.
 Die Sonne steht fast senkrecht am Himmel.
 Die Sonne wird erst heute Nachmittag wieder herauskommen.
 Die Soundkarte ist auf dem Mainboard integriert.
+Die Spanier sind auf dem Weg ins Lager.
 Die Spanne reicht vom kleinen Ballon für den Kindergeburtstag bis zum riesigen Fesselballon.
 Die Sparbücher sind voll aber ohne Zinsen.
 Die Sparbücher sind voll, aber ohne Zinsen.
@@ -8724,6 +8751,7 @@ Die hat ja einen Bock geschossen heute.
 Die hat nämlich ein Loch.
 Die hat sich die Haare heute nicht onduliert.
 Die hatte ich mir vom Sperrmüll besorgt.
+Die herstellung und der Handel sind Strafbar.
 Die heutige Kollekte fließt in meine persönlichen Ersparnisse.
 Die heutigen Emos waren früher die Grufties.
 Die hier?
@@ -8753,6 +8781,7 @@ Die ist stabil.
 Die ist zwei Wochen dort.
 Die junge Hals-Nasen-Ohren-Ärztin bangt um ihren Arbeitsplatz.
 Die jungen Leute haben heutzutage keinen Respekt mehr!
+Die jungs gehen morgen in die Sauna.
 Die kann man auf einer Skihütte nutzen.
 Die kann man beim Tierarzt kaufen, kostet fast vierzig Euro.
 Die katalanischen Sprecher haben Beachtliches geleistet.
@@ -8957,6 +8986,7 @@ Die wären nämlich alle geschmolzen gewesen.
 Die wöchentliche Ruhezeit kann in einzelnen Wochen gekürzt werden oder entfallen.
 Die würde sich auch im Garten gut machen.
 Die würden sicher nichts verschweigen.
+Die zahlen jetzt Schutzgeld und das nicht wenig.
 Die zehn Impfangebote.
 Die zehntausend Sätze schaffen wir alle zusammen auch noch!
 Die zentralen Elemente sind Gefühlskälte und Ignoranz sowie Mangel an Kommunikation.
@@ -9027,6 +9057,7 @@ Dies ist kein Schnelllesewettbewerb.
 Dies ist mein Beitrag zu mehr Gerechtigkeit in der Welt.
 Dies ist meine grundsätzliche Arbeitseinstellung in allen Fragen des Berufslebens.
 Dies ist nur eine Übung.
+Dies ist original flex.
 Dies ist schon die dritte Apotheke, die kein Sinnlosium akut verkauft!
 Dies ist sicherlich auch der Tatsache geschuldet, dass man nur annehmen oder ablehnen kann.
 Dies ist unser Grundgerüst, das nun sukzessive erweitert wird.
@@ -9271,6 +9302,7 @@ Diesmal wollte sie dem Obdachlosen etwas Geld geben.
 Dietmar Hassel ist ein Tunichtgut, genau wie seine Geschwister.
 Dietrich hat ein vorlautes Mundwerk.
 Differenzieren ist Handwerk, Integrieren ist Kunst!
+Digga wallah was für ein scheiß Tag heute.
 Digitales hingegen hält ewig, wenn – und nur wenn – man es richtig macht.
 Digitalisierung hat nicht zwangsweise mit Nullen und Einsen zu tun.
 Digitalisierung ist okay, aber bitte nicht so kopflos!
@@ -9325,6 +9357,7 @@ Doch ihre Kontrahentin hat einen Schlagring.
 Doch irgendwann ist es einfach zu viel des Guten.
 Doch jetzt hat Susi eine Stelle in der Niederlassung in Aschaffenburg.
 Doch kurze Zeit später fuhr sie die Straße auf und ab.
+Doch macht euch gefasst, ich bin der Jackpot auf dem Markt.
 Doch natürlich gibt es auch eine andere Seite der Medaille.
 Doch nicht alle Buhnen werden aus Gründen des Küstenschutzes installiert.
 Doch nicht diese!
@@ -9433,6 +9466,7 @@ Dort, wo das Wasser flacher wird, brechen sich die Wellen.
 Dorthin gelangen sie mit der Zeit über Haushaltsabwässer.
 Dramatische Musik wird eingespielt.
 Dramatische Szenen spielten sich gestern auf dem Hamburger Dom ab.
+Draußen auf der Straße laufen Heuchler und Zinker.
 Draußen fahren ist schwieriger als drinnen.
 Draußen gewittert es.
 Draußen sieht es sehr nach Regen aus.
@@ -10438,6 +10472,7 @@ Ein Ära geht zu Ende.
 Ein Öltanker ist ausgelaufen.
 Einbildung ist auch eine Form der Bildung.
 Einbildung ist auch eine Form von Bildung.
+Einbindung anderer Behörden.
 Eindeutig nein.
 Eine Absage ist nicht das Ende der Welt.
 Eine Alternative zu YouTube bezahlt Ihre Nutzer.
@@ -11148,6 +11183,7 @@ Er ist ausgezeichnet.
 Er ist dann neunzehnhundertsieben weggezogen.
 Er ist der Messias!
 Er ist dreizehn Jahre jünger als ich.
+Er ist ein Kickboxer und schmuggelt Schnee.
 Er ist ein Meister seines Fachs.
 Er ist ein Narr.
 Er ist ein Urgestein aus der Techno-Szene.
@@ -11624,6 +11660,7 @@ Es gibt ja verschiedene Coronaviren.
 Es gibt kein Getränk, welches er nicht kennt.
 Es gibt kein richtig oder falsch.
 Es gibt kein schlechtes Wetter, es gibt nur schlechte Kleidung.
+Es gibt keine Beweise für den Sachverhalt.
 Es gibt keine Bilder von mir.
 Es gibt keine dummen Fragen.
 Es gibt keine medizinische Notwendigkeit, Segelohren zu korrigieren.
@@ -11709,6 +11746,7 @@ Es ist Winter in der Bundesrepublik Deutschland.
 Es ist Zeit, einen Neuanfang zu wagen.
 Es ist acht Minuten nach neun.
 Es ist allenfalls eine Wahl zwischen Pest und Cholera.
+Es ist alles viel zu hart, Bro.
 Es ist also einfach eine gewichtete Summe.
 Es ist an einem Stahlseil befestigt, das über den Strom gespannt wurde.
 Es ist angenehm, eine Universal-Entschuldigung für alles zu haben.
@@ -13831,6 +13869,7 @@ Haben wir nicht, kriegen wir nicht, kriegen wir auch nicht wieder rein: so nicht
 Haben wir noch Butter im Kühlschrank?
 Haben wir noch etwas Zeit?
 Haben wir vergessen, ein Mitglied des Betriebsrates einzuladen?
+Habibi, mach nicht so.
 Habt Erbarmen mit mir!
 Habt Erbarmen!
 Habt Ihr Lust, einen Spaziergang mit mir zu machen?
@@ -15027,6 +15066,7 @@ Ich bin auf dem Weg nach Hause.
 Ich bin auf der Suche nach einer neuen Herausforderung.
 Ich bin aus Sicherheitsgründen Single, denn die meisten Morde sind Beziehungstaten.
 Ich bin bedient.
+Ich bin bereit, mit dir zu fahren.
 Ich bin dafür, die Erfindung nach ihrem Erfinder zu benennen.
 Ich bin dann einfach von der Mauer gesprungen.
 Ich bin das siebente von acht Kindern, also fast Kruste.
@@ -15083,6 +15123,7 @@ Ich bin hier am Essen.
 Ich bin hier nicht der Eimer.
 Ich bin hier nicht die Virenschleuder!
 Ich bin hier nicht die Zahnfee!
+Ich bin im Bunker angekommen. Was soll ich machen?
 Ich bin im kompletten letzten Jahr nicht ein mal mit dem Zug gefahren.
 Ich bin immer wieder von Ihrer Einfühlsamkeit beeindruckt, Herr Wilke!
 Ich bin immer wieder überrascht.
@@ -15183,6 +15224,7 @@ Ich brauche nur eine Flasche davon.
 Ich brauche nur fünf Minuten.
 Ich brauche sie nötig.
 Ich brauche sie, weil unsere Minze Blattläuse hat.
+Ich brauche viel Lemon Haze, sofort!
 Ich brauche zwanzig Minuten.
 Ich bringe drei Flaschen Sekt und zwei Flaschen Wein mit.
 Ich bringe ihn auch gleich wieder zurück.
@@ -15348,6 +15390,7 @@ Ich gehe dann mal kicken.
 Ich gehe davon aus, dass jeder von Ihnen eine Suchmaschine bedienen kann.
 Ich gehe frühzeitig zu Bett.
 Ich gehe gewöhnlich gegen zehn Uhr abends schlafen.
+Ich gehe gleich die Tür machen.
 Ich gehe gleich erstmal aufs Zimmer die Powerbank holen.
 Ich gehe jetzt duschen.
 Ich gehe jetzt einkaufen, sonst muss ich hungern.
@@ -15462,6 +15505,7 @@ Ich habe Ralf noch nie so glücklich und entspannt gesehen.
 Ich habe Root-Rechte auf meinen Geräten!
 Ich habe Sarah mit einem Rätsel beschäftigt.
 Ich habe Schuppen.
+Ich habe Schutzgeld genommen.
 Ich habe Sie akustisch nicht verstanden.
 Ich habe Sie nicht verstanden.
 Ich habe Susanne im Fernsehen gesehen.
@@ -15918,10 +15962,12 @@ Ich liebe die Sprache.
 Ich liebe diese Musik!
 Ich liebe diesen trockenen Humor!
 Ich liebe es, in schlauen Büchern zu schmökern!
+Ich liefere nur bestes haze, ich schwör.
 Ich liege in deinem Schoß.
 Ich mach das aber ohne, dass die es sehen
 Ich mache das nur dir zuliebe.
 Ich mache dir gleich ein Foto vom Essen.
+Ich mache ganze Magazin leer.
 Ich mache hier nur meinen Job, verstehen Sie?
 Ich mache jeden Tag vierzig Liegestütz.
 Ich mache meinen Tee immer ohne Beutel.
@@ -16003,6 +16049,7 @@ Ich muss mich mit dem Anziehen beeilen, sonst komme ich zu spät ins Geschäft.
 Ich muss mich setzen.
 Ich muss mich verzählt haben.
 Ich muss morgen abreisen.
+Ich muss morgen noch meine Wäsche waschen.
 Ich muss noch mal schnell bei Aldi rein.
 Ich muss noch tapezieren und die Dachschräge streichen.
 Ich muss noch zwei Stunden in der Stadt warten.
@@ -16139,6 +16186,7 @@ Ich schreibe ein Email an die Verwaltung.
 Ich schreibe immer Geldbörse, weil ich mir nicht merken kann wie man Portemonnaie schreibt.
 Ich schwitze fürchterlich.
 Ich schwöre es beim Grab meiner Großmutter.
+Ich schwöre ich habe nichts gemacht.
 Ich schwöre!
 Ich schätze den Aufwand auf drei Mannmonate.
 Ich schätze zwölf Euro und ein paar Zerquetschte.
@@ -16327,6 +16375,7 @@ Ich werde dann diesen Stoff nehmen.
 Ich werde diesen Ausdruck nicht merken können.
 Ich werde diesen da nehmen.
 Ich werde dieses Buch »Nummer dreizehn« nehmen.
+Ich werde erst gestopt, wenn ich unter der Erde bin, Diggi.
 Ich werde es am Mittwoch nicht schaffen.
 Ich werde es ausrichten.
 Ich werde es herausfinden.
@@ -19465,6 +19514,7 @@ Kostprobe gefällig?
 Kraftklub ist eine fünfköpfige Rap-Rock-Band aus Chemnitz.
 Krankenkassen hantieren mit hochsensiblen Gesundheitsdaten.
 Krankheiten werden sich andernfalls schnell verbreiten.
+Krass, ne. Ich sag dir was Digga.
 Krass, oder?
 Krasse Nummer.
 Krawatten zu binden, ist auch echt kompliziert.
@@ -19715,6 +19765,7 @@ Larissa hat ein Faible für altertümliche Lyrik.
 Larry hört am liebsten Hip-Hop.
 Lars hört schon wieder sehr laut Punk-Rock und Heavy-Metal.
 Laserdruck ist eine Art des Offsetdrucks.
+Lass aus allen Rohren ballern.
 Lass bloß meinen Lieblingskugelschreiber heil!
 Lass das Ei kreiseln, um zu sehen, ob es gekocht ist.
 Lass das sein!
@@ -20870,6 +20921,7 @@ Mein Anschluss wird nächste Woche Mittwoch vom Techniker in Betrieb genommen.
 Mein Arzt riet mir, mit dem Rauchen aufzuhören.
 Mein Arzt sagt, ich soll noch keinen Sport treiben.
 Mein Auto ist schwarz.
+Mein Baba ist der größter auf der Straße.
 Mein Baby hat mit dem Babyphon meinen Babysitter gerufen.
 Mein Bauch ist sehr schwabbelig.
 Mein Beifahrer hatte so eine Fahne, dass die Alkoholwegfahrsperre mich nicht losfahren ließ.
@@ -24083,6 +24135,7 @@ Rote Klinker an der Fassade.
 Rothaarige Kobolde sind nur dann sichtbar, wenn sie an etwas festkleben.
 Rotiert wird, wenn die Angabe wechselt.
 Rotkohl mit Äpfeln und Kassler kann man selber machen.
+Rotterdam ist unser erster Zwischenstop.
 Rotwein und Weißwein ist das Resultat aufwändiger Arbeit.
 Rotwein war ursächlich für seine lose Zunge.
 Rotwein, Weißwein und Rosee sind je nach Jahreszeit passend zu empfehlen.
@@ -24192,6 +24245,7 @@ Sagtest du nicht, dass du die Pfandflaschen weggebracht hättest?
 Sag’ mal, mein Junge, weisst du, was für ein Gebäude das ist?
 Sahne und Pudding gehören auf jeden Speiseplan.
 Saisonales Obst und Gemüse kaufen, damit der Geldbeutel geschont wird.
+Salam. Bruder. Fasten ist dieses Jahr besonders hart.
 Salamander, die Feuer spucken können, heißen Feuersalamander.
 Salim öffnete die Flaschenpost und heraus kam ein Flaschengeist.
 Salopp ausgedrückt wollen wir wissen, wie sehr uns der Term um die Ohren fliegt.
@@ -24881,6 +24935,7 @@ Seit ich die Tabletten abgesetzt habe, wache ich morgens immer mit einer Latte a
 Seit ich keinen Kaffee mehr trinke, bin ich ruhiger und ausgeglichener.
 Seit ihrem Besuch in Tibet meditiert sie abends je eine halbe Stunde.
 Seit jeher postulieren sie ein gewisses Maß an Selbstlosigkeit.
+Seit langem hat mich keiner so krass aufgeregt.
 Seit meine Nachbarn ein Hochhaus errichtet haben, empfängt meine Satellitenschüssel nichts mehr.
 Seit neuestem habe ich doch ein Laminiergerät.
 Seit neunzehnhundertachtzig gelten die Pocken weltweit als ausgerottet.
@@ -27727,6 +27782,7 @@ Ute und Hannelore nehmen heute die Schwebebahn über den Rhein.
 Valentin kam mit dem exzentrischen Verkäufer nicht klar.
 Valentina weiß jetzt, wie sie alle ihre Probleme lösen wird.
 Validierungsqualität und -geschwindigkeit würden von einer Normalisierung profitieren.
+Vallah Nein, aber danke Bro.
 Vandalismus hat es ja dort noch nie gegeben.
 Vanilleeis mit Eierlikör, bitte.
 Vanilleeis mit Schokoüberzug und Mandelsplittern ist mein Lieblingseis.
@@ -28246,6 +28302,7 @@ Von beidem etwas mehr, bitte!
 Von daher bietet sich das sowieso an.
 Von dem Geld könnte ich jetzt eine Woche Skiurlaub machen.
 Von dem Geräusch bekommt man eine Gänsehaut.
+Von dem Treffen gibt es Fotos.
 Von dem redest du ständig.
 Von dem würde ich mich fernhalten.
 Von den Italienern könnte man hingegen mehr erwarten.
@@ -28484,6 +28541,7 @@ Wadenwickel sind eine alte aber immer noch effektive Methode.
 Waffen, Drogen oder Funkgeräte?
 Wahlen sind des Volkes einziges Mittel der unblutigen Entmachtung.
 Wahlkampfmodus ausschalten.
+Wahlla, ich schwöre auf den Koran.
 Wahnsinn und Genialität liegen oft nicht weit auseinander.
 Wahre Schnäppchen muss man mit der Lupe suchen.
 Wahren Sie die Contenance.
@@ -28517,6 +28575,9 @@ Wahrzeichen der Stadt Lübeck ist das Holstentor.
 Waldemar konnte sich an dem kalten, trüben Tag nicht dazu durchringen aufzustehen.
 Waldpool, hat das eigentlich jemand gelesen? Wie cool ist das denn?
 Wale leben nur aus Versehen im Meer.
+Wallah ich dachte jetzt geht es ab.
+Wallah ich dachte jetzt ist es vorbei.
+Wallah, die spielen mit uns.
 Walter Lübcke war ein deutscher Politiker.
 Walter Lübcke wurde am ersten Juni zweitausendneunzehn ermordet.
 Walter Lübcke wurde am zweiten Juni zweitausendneunzehn ermordet.
@@ -30435,6 +30496,7 @@ Wer pimpern will muß nett sein.
 Wer pimpern will, muß nett sein.
 Wer poltert da unten herum?
 Wer putzt meine Schuhe?
+Wer rast, der rottet schnell.
 Wer rastet, der rostet schnell.
 Wer redet der Jugend so einen Unsinn ein?
 Wer ruft um diese Zeit an?
@@ -30512,6 +30574,7 @@ Wer von euch hat Lust heute Abend noch was zu machen?
 Wer von euch hat eingeparkt?
 Wer von euch kann gut Spuren lesen?
 Wer von sich aus am Rand geht, lässt Platz zum Überholen.
+Wer vor deine Tür kommt, den darfst Du Schlagen.
 Wer wagt es, meine Ruhe zu stören?
 Wer war denn noch alles dabei?
 Wer war zuerst da, die Straße oder du?
@@ -31537,6 +31600,7 @@ Wintergrillen geht generell auch im Sommer.
 Winterreifen braucht man ungefähr von Oktober bis Ostern.
 Wintersportler wissen das.
 Wir akzeptieren Streikbrecher jeden Geschlechts.
+Wir akzeptieren keine Entschuldigung, er muss bestraft werden.
 Wir alle kamen nackt auf die Welt.
 Wir alle sind beruhigt, dass wir nicht von der amerikanischen Raumfahrtbehörde abgehört werden.
 Wir automatisieren ja gerade deshalb alles Mögliche, damit wir es nicht selbst erledigen müssen.
@@ -33013,6 +33077,7 @@ x und y heben sich gegenseitig weg.
 Über Probleme müssen wir freilich reden.
 Über Schnellspanner freuen sich auch Diebe.
 Über Themen außerhalb von Fußball konnte ich mit ihm nicht sprechen.
+Über Wochen hat er sich was eingesteckt.
 Über andere zu lachen, ist die primitivste Art von Humor.
 Über das Einstiegsgehalt kann man schon mal nicht meckern.
 Über das Kommen mancher Leute tröstet uns nichts als die Hoffnung auf ihr Gehen.

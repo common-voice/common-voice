@@ -1755,6 +1755,8 @@
 'You won’t believe me, then?’ said Catherine.
 'You've no idea,' she said, 'how he loves his food.'
 'You’ve done with coming here,’ cried Catherine.
+I was raised with morals, the majority of which I agree with
+any religions that have multiple deities, pagan beliefs
 A Bank Holiday in Britain is like a public holiday in America
 A Cancer tumor can be characterized as a benign or malignant growth.
 A Christmas Carol.
@@ -1810,6 +1812,7 @@ A boat sneaks up from nowhere.
 A boatman exchanged civilities with him.
 A bone-headed play by O'Donnell gave the Maroons their second run.
 A born distributor, who will do you credit.
+A bottle of bleach
 A bowl of gazpacho is commonly ready in every house of an evening.
 A boy is born in Bethlehem.
 A brain stroke can have devastating life changing consequences.
@@ -2241,6 +2244,7 @@ A porter ran out.
 A portion of the town is south of the original layout.
 A portrayal of child life, natural, wholesome, and inspiring.
 A positive labour of Hercules, I assure you!
+A pot of boiling water
 A power user is well versed in using a system.
 A practiced mechanic will measure by his thumb.
 A practiced stenographer took down many of these communications as they were spoken.
@@ -2526,6 +2530,7 @@ Abhay is worried about something.
 Abhay works on time.
 Abide with me.
 Abort.
+About Us and Site Notices
 About a hundred a month.
 About eight next morning I witnessed the arrival of two constables and a sergeant.
 About four o'clock Theodore presented himself in the back kitchen.
@@ -2643,6 +2648,7 @@ Addiction to cigarettes can be beaten with help.
 Adding a "leave page" confirmation pop-up would remedy the problem.
 Adding new words when reading does not make the sentence correct.
 Addison's composition is carelessly irregular but nevertheless much-laboured and fingered.
+Additional Water Guidance
 Additionally you will need to spend one hour per day revising these topics.
 Additionally, there is a homework video due Tuesday.
 Adele casually suggested the kind of dress which she would prefer.
@@ -2678,6 +2684,7 @@ Adolescence is a period teenagers transition into adulthood.
 Adrian knows how to drive.
 Adriana spoke Portuguese fluently.
 Adults often reminisce about their teenage years.
+Advance Child Tax Credit and Economic Impact Payments - Stimulus Checks
 Adversarial machine learning algorithms compete against each other to improve themselves.
 Advertise with us!
 Aeon's passed, much knowledge was lost.
@@ -2967,10 +2974,12 @@ Alice—Alice—I won’t forget it again.
 Alignment is the first quality to be considered in purchasing a typewriter.
 Alkaline batteries are recyclable.
 All Celia's heart and youth rose in revolt against her extremity.
+All Drinking Water Topics
 All His pictures are like that, if you’ve noticed.
 All I know is, I'm going to have it.
 All I want know is how many.
 All London is ours — now.
+All Topics and Services
 All about us, beneath us, sorrow and pain.
 All an appearance can know is mirage.
 All applications to be made to the committee.
@@ -4655,6 +4664,7 @@ Any average young fellow can teach himself in a week.
 Any branch of knowledge.
 Any casual gain, or godsend, is naturally devoted to the same purpose.
 Any embarrassment in dealing with it is a weakness that hinders social progress.
+Any explanation is better than no explanation
 Any means you like.
 Any mongrel could smell those with a cold in the head.
 Any new milk downstairs, Summer?
@@ -5420,6 +5430,7 @@ Barred out of my own bedroom, by a flagrant absurdity!
 Barrett and Wilson, come here.
 Barristers and solicitors are types of lawyer
 Barry was here this afternoon, Angie.
+Basic Information
 Basil is a herb.
 Bassett was a fastidious man.
 Bassett was a silent bread crumbler.
@@ -5893,6 +5904,7 @@ Business was not resulting.
 Business, he said, required his immediate attendance.
 Businesses can avoid churn by looking after staff and cultivating talents.
 Businesses must have a responsible technology strategy.
+Bust Common Myths and Learn the Facts
 But "Let's dance!"
 But - why, she is the miraculous mouthpiece of posterity.
 But Aizah was not at her window.
@@ -7212,6 +7224,7 @@ Call my sister.
 Call nine nine nine.
 Call one one one.
 Call over and swear the jury!
+Call the Safe Drinking Water Hotline
 Call the official company directly if you are unsure.
 Call the waiters!
 Call the waiters,’ said the old gentleman.
@@ -7434,6 +7447,7 @@ Cars must stop at a Zebra stripe and allow people to cross.
 Carts are used by only a few gentlemen.
 Carts were jammed solid on the bridge with camels bobbing along through them.
 Cartwright made his way, the shoe-bearer in close attendance.
+Cases & Data
 Casey, taking out the nugget of cake, held it timidly out to his rivals.
 Cassandra; rather a pretty name.
 Cassette tapes are dead technology.
@@ -7476,6 +7490,7 @@ Cauliflower seed obtained from England is the most esteemed in Holland.
 Caustic fixed alkali dissolves the precipitated iron very readily.
 Caution, Handle with care.
 Cautiously the men disembarked and crept up the bank.
+Cdc-mediaLow Resolution Video
 Celandines and violets were out.
 Celia began to struggle furiously, convulsively.
 Celia covered her face with her hands for a few moments.
@@ -7592,6 +7607,7 @@ Cheap, cheap.
 Check balance
 Check the calorimeter.
 Check the mirror.
+Check the status of my stimulus check
 Check this out.
 Check-strings are pulled after the manner of angry dramatic uncles.
 Chee-Chee and Polynesia watched him, keeping very quiet and still.
@@ -7904,6 +7920,7 @@ Conspicuous consumption of valuables is a means of reputability to the gentleman
 Constable, I have no doubt he'll move on.
 Consternation sat on every face.
 Consumables are the most sold items.
+Consumer Confidence Reports
 Consumer electronics are not built to last like they used to.
 Consumers want an appealing, stylish and durable product.
 Contact Us to ask a question, provide feedback, or report a problem.
@@ -8425,6 +8442,7 @@ Disregard of the primary impulse may be self-defeating.
 Divided, we fall, together we may worry through.
 Divya is on leave tomorrow.
 Divya is still working on it.
+Django Rest Framework can be used for creating A. P. I.'s.
 Django is a Python web framework.
 Do I believe God had more favor with him because of his gifts?
 Do I believe Jesus is the son of God?
@@ -8497,6 +8515,7 @@ Do not yell at me!
 Do not you begin to feel that now?
 Do now, at last, dear godmother, if you please!
 Do one thing for me.
+Do onto others as you would have others do onto you
 Do people still use a phone directory?
 Do say you like it.
 Do say you will.
@@ -9408,6 +9427,7 @@ Elsa isn't a beggar!
 Elsa said something quite clever on Thursday.
 Else why should the gate again be open at midnight?
 Elsewhere in the world, the birds were chirping and wildlife was thriving.
+Emergency Disinfection of Drinking Water
 Emily came tumbling down the stairs, a big ball of excitement
 Emily has fun all afternoon playing outside while you're cooped up in your room
 Emma Ann Rochester came home tired, as usual
@@ -9449,6 +9469,7 @@ Enjoy your achievements as well as your plans.
 Enough has been said.
 Enough of this, my dear!
 Enough to buy clothes.
+Enter your email
 Enterprises are picking up the pace in adopting digital marketing.
 Enters now the psychology of the situation.
 Entirely Jeeves's fault.
@@ -9770,6 +9791,7 @@ Extreme ironing, as a sport, can often be a surprise to spectators.
 Extrinsic factors like the economy, culture and social media have an effect on business.
 Eyes don't trouble you any more, do they?
 Eyes on the door.
+Facebook Twitter LinkedIn Syndicate
 Fact, my dear Sir, fact.
 Faction and favouritism are the high roads to power.
 Factory-made goods dominate the modern world.
@@ -9788,6 +9810,7 @@ False alarms were horrifyingly common during the Cold War.
 False anti-vax campaigns are risking the safety of children.
 Fame is not all it's cracked up to be.
 Familiarity with a system allows a person to be intuitive with another system.
+Family running in tall grass
 Famine had been my great ally.
 Fancy has ascribed to the black-trunked tree a masculine gender.
 Fancy living a fortnight in such suspense!
@@ -9856,6 +9879,7 @@ Finally one of the biggest mice spoke.
 Finally she picked up her basket.
 Finally, as a State necessity, the matter of the religions was compromised.
 Finals are next week and I'm panicking.
+Financial Assistance for Food, Housing, and Bills
 Find a train design that would be operable on the given track.
 Find a way, then!
 Find information on changes to passport processing.
@@ -9946,6 +9970,7 @@ Foolish, silly boy!
 Fools they were — not to be more afraid of him.
 Football managers devise the perfect strategy for their team.
 Footnotes have been provided.
+For Developers
 For Gawd's sake!
 For Gawd's sake, cover that face!
 For God's sake don't worry me.
@@ -9960,6 +9985,7 @@ For Helene gave her a look, a smile of reassurance.
 For I look at another of your questions.
 For I was thinking desperately of what I had found in Scudder’s pocket-book.
 For Miriam he was too quick.
+For Students and Teachers
 For a Salvadorian he was not such a calamitous little man.
 For a few moments he ate in silence.
 For a few months there may be disorders in some sections.
@@ -10086,6 +10112,7 @@ For ten minutes she could hear nothing but herself.
 For ten months he had to stay at home after his illness.
 For that reason Le Beau had chosen him to fight the big fight.
 For that we did not work, and that has come.
+For the Media
 For the convenience of our customers we accept contactless payment.
 For the first time in his life he was yearning for a scrap.
 For the floor of the unit, we have chosen an inexpensive soft wood.
@@ -10188,6 +10215,7 @@ Free samples are available at the Welcome Desk.
 Free, is not in this shop keepers lexicon.
 Freed from this hindrance, the Buster shot forward on its course.
 Freedom of speech.
+Frequently Asked Questions about Vaccination
 Frequently he hated Miriam.
 Fresh and efficient crackers swung continually at the ends of the stockwhips.
 Fresh cases, still able to walk, they clustered about the spokesman.
@@ -10253,6 +10281,7 @@ Fun forever, and no grubbing!
 Fun ways with whipped cream.
 Fun with flags.
 Fundamentally changing an industry quickly, leaves little time to adapt.
+Funding & Grants
 Funny thing people having gold teeth.
 Further details of the new German Army Bill are now available.
 Furthermore, the case was set for mandatory arbitration in July.
@@ -10406,6 +10435,7 @@ Glad you're back at last.
 Glad you're feeling better.
 Glad you're here.
 Glanders have often been confounded with strangles.
+Glass containers
 Glass manufactories were crippled by harassing enactments.
 Glass of wine, Sir!’ ‘With great pleasure,’ replied Mr. Tupman.
 Glinda is a good Witch, isn't she? asked the child.
@@ -10689,6 +10719,7 @@ Gregson shoved back his chair and rose to his feet.
 Gregson was asleep when he re-entered the cabin.
 Gridley, a disappointed suitor, has been here today and has been alarming.
 Grit had got trapped under the tread of my boots.
+Ground Water and Drinking Water Home
 Grovel, and the best of them get uppish.
 Grover Cleveland was being groomed for his first Presidential term.
 Grown such a man too, grown such a fine strong man.
@@ -13658,6 +13689,7 @@ He was a merry monarch, especially so for an Asiatic.
 He was a mighty monarch.
 He was a miserable performer on a bicycle.
 He was a pariah; a wanderer without a friend or a home.
+He was a person
 He was a prayer along with her.
 He was a profound reader of men's characters.
 He was a prohibitionist, wasn't he?
@@ -14314,6 +14346,7 @@ He's a captain.
 He's a fine example of an American.
 He's a first rate, square headed, thoroughly honest man.
 He's a good one.
+He's a great source for symbolism
 He's a habitual latecomer, but he always does his hours.
 He's a man of very high ideals.
 He's a paper maker.
@@ -14420,6 +14453,8 @@ He, too, was quite at home.
 He, with ruffled hair, was sulking upon the sofa.
 Head and neck cancers can be disfiguring.
 Head west toward New York.
+Health Depts
+Healthcare Workers
 Healthcare in the United Kingdom is provided by the National Health Service
 Healthy competition is a catalyst for growth and improvement.
 Hear a live paper yelp!
@@ -15512,6 +15547,7 @@ Holly picked up the ladybird off the floor and held it on her finger.
 Hollywood had a writers hiatus.
 Holograph technology is being commercialized finally.
 Holographic technology is an augmentation of the virtual world with the real world.
+Home
 Home was, for him, beside his mother.
 Homecoming is the biggest school event of the fall.
 Homely in appearance, perhaps, but one of us.
@@ -16191,6 +16227,7 @@ I already booked a holiday.
 I already know you’re upset about the show.
 I also desire to live in amity with my professional brethren.
 I also hate this guy.
+I also looked into Judaism, Buddhism
 I also understand that similar branch organizations have made their appearance in Europe.
 I always came to the conclusion, finally, that I could do nothing.
 I always drink orange juice.
@@ -16647,6 +16684,7 @@ I believe it, now attend to Mr. George.
 I believe love always wins in the end.
 I believe so, your ladyship.
 I believe that there are tens of thousands of different species of beetle
+I believe that we are reincarnated here on earth
 I believe the child is crazy.
 I believe the current housing market may be a bubble.
 I believe they will be able to borrow any sums they please.
@@ -17268,6 +17306,7 @@ I don't approve of corporal punishment, especially for girls.
 I don't attach any value to money.
 I don't believe Tom overdosed.
 I don't believe for one second that consumer protections stifle innovation.
+I don't believe in this phrase “be tolerant of your inferiors”
 I don't believe the stated motive for the attack.
 I don't believe you are!
 I don't believe you've got any heart.
@@ -17385,6 +17424,7 @@ I don't see why one shouldn't humour him.
 I don't see why they should tax us.
 I don't see why.
 I don't sing any silly or any jerky songs.
+I don't study it, but I like to think it was long ago
 I don't suppose he has spoken to a girl for years.
 I don't suppose he'll ever take another wicket.
 I don't suppose she noticed it at all, the little fathead.
@@ -17780,6 +17820,7 @@ I guess I’ll have to.
 I guess by her silence, as much as anything, what she feels.
 I guess it's about time we saw him.
 I guess sometimes I can be a little psychologically dependent on others.
+I guess with most of the things Jesus allegedly did in the Bible
 I guess you ain't much of a slouch at shooting.
 I guess you'll like 'em.
 I guess you’re all right at anything.
@@ -17837,6 +17878,7 @@ I had heard of it already without an offended or angry word.
 I had him into my room.
 I had him out of bed — very grumpy.
 I had intended to skip school.
+I had interesting experiences with religion, I liked the community
 I had invented a shorthand symbolism for crystalline forms.
 I had it in the cake-house
 I had just dropped off when you did your bell-ringing act.
@@ -18501,6 +18543,7 @@ I know how I can manage; I'll adopt her!
 I know how great it seems.
 I know it will.
 I know it's aching.
+I know it's better to treat people with love-
 I know it's urgent; I’ll get on to it straight away
 I know its a bad habit stay awake for no reason.
 I know its value, sir.
@@ -19384,6 +19427,7 @@ I saw you pursue your friendship with her.
 I saw you strike that gentleman hard.
 I saw, I imitated, I survived!
 I saw, and do see, many reasons to make it desirable.
+I say I believe in heaven
 I say it, though I am his mother.
 I say nothing.
 I say the children; I have two little daughters.
@@ -20775,6 +20819,7 @@ I'd rather have Mary.
 I'd rather have her than all the rest.
 I'd rather look at you.
 I'd rather stay here, thank you.
+I'd say in the Buddhist fashion You, but not you
 I'd say there was going to be a glorious scrap.
 I'd sell myself first.
 I'd sooner have my chips back.
@@ -21337,6 +21382,7 @@ I've left them long enough.
 I've lost my car keys.
 I've lost the best cook to England.
 I've made the most amazing discovery!
+I've never been a part of a formalized religion
 I've never been away for longer than a week.
 I've never been into bars I prefer activities instead.
 I've never been to Beverly Hills.
@@ -21550,6 +21596,7 @@ If they thought they could get the information in Paris they would try there.
 If they want fresh.
 If this volume has been a source of spiritual help, please let us know.
 If this was indeed a theatre.
+If water is cloudy, let it settle.
 If we can save even one life, then it would be worth it.
 If we design it that way.
 If we even knew its sex we might give it a name.
@@ -22591,6 +22638,7 @@ It does to me.
 It does, was her audacious answer.
 It doesn't cost a penny to be nice.
 It doesn't cost a penny to smile.
+It doesn't fall into anything I really believe
 It doesn't hurt to be nice.
 It doesn't hurt to be polite.
 It doesn't look like it.
@@ -23118,6 +23166,7 @@ It is what I should revel in myself.
 It is what everybody says.
 It is what is known as a gesture.
 It is what no English lawyer can object to.
+It is widely agreed that South Australia is leading the way in renewables.
 It is with reference to the chef.
 It is your duty to undertake a survey.
 It is your task to complete the sale.
@@ -24078,6 +24127,7 @@ It was useless trying: it would never be a success between them.
 It was very accurate indeed.
 It was very consciously intimate.
 It was very dark and very cold.
+It was very preachy, very brainwash, unsettling, disturbing, almost fake
 It was very pretty and young, and the hair was fair.
 It was very pretty.
 It was very quiet in the little square that was filled with nursemaids.
@@ -25056,6 +25106,8 @@ Jerry was so secure in his nook that he did not roll away.
 Jerusalem is an ancient and holy city.
 Jesse is the obvious choice, but the history with Jake makes the decision hard.
 Jessie is a renowned comedian.
+Jesus is More than a Carpenter
+Jesus is more misunderstood in history than other figures
 Jesus was a man that some some call Christ.
 Jim picked her pocket while Fred created a diversion
 Jim squatted down, struggling to keep his balance.
@@ -25184,6 +25236,7 @@ Just her father's way of doing good.
 Just in front of him stood a motorcycle.
 Just joshing!
 Just keep your eye upon him for a few minutes.
+Just kidding You never really mean the first thing you say
 Just let me know what you think
 Just let us know where we can find you.
 Just like a whole set of fire-irons falling into the fender!
@@ -25198,6 +25251,7 @@ Just our little Chancery phrases, my love.
 Just passing through, or come to stay?
 Just put your luggage into the boot
 Just relaxing and chilling out.
+Just see where the conversation would go if he's willing to talk to me
 Just sign right here and I’ll have that all squared away for you.
 Just sit still, buddy, and you'll feel better.
 Just smell how nice.
@@ -25417,6 +25471,7 @@ Lay off the pep pills, Mary.
 Lay's career was in the county seat of Maya.
 Lazurus rises from the dead.
 Lead team, outreach team, or the above church can help you find mentors.
+Leadership
 Learn about relief options for businesses.
 Learn to walk before you run.
 Learning and humanization quickly followed.
@@ -26193,6 +26248,7 @@ Meet a luscious debutante?
 Meet me at the car.
 Meet me at the foot of the escalator in five minutes.
 Meet me at the truck.
+Meet the Staff
 Meet you next time with similiar stuff.
 Meg and me are going to the gig tonight.
 Meg is so, and I am content with her success.
@@ -26445,6 +26501,7 @@ Miss Western was the princess.
 Miss Williams was the worthy winner of the award.
 Miss it! Miss Out!
 Missing the bus made me very annoyed.
+Mission and Vision
 Mistakes happen to everyone.
 Mix fifty grams of flour with milk.
 Mix the flour and butter and pour into a baking tray.
@@ -26473,6 +26530,8 @@ Moonlight, darkness, dawn, sunrise, day.
 Moore's music waxed peculiarly loud that evening.
 Mops, sir, eagerly answered the sailor at the wheel.
 Moral — don’t go rebelling.
+More
+More Information
 More a sort of frozen calm, if you know what I mean.
 More abruptly this time, from increased embarrassment.
 More and more faces were turned to him.
@@ -26510,6 +26569,7 @@ Most inconsiderate, he thought, as they reached the road.
 Most leap at the opportunity.
 Most medics don't recommend bursting blisters
 Most of her social media postings were duck-face poses
+Most of it didn't make sense
 Most of the clerks had not turned up.
 Most of the discoveries of humanity exist in cyberspace.
 Most of the plaintiff's bill was passed by the taxing master.
@@ -29294,6 +29354,7 @@ Order a private room, and do not mention my name.
 Order more breakfast, all the breakfast you can get.
 Ordinary folk seemed shallow to them, trivial and inconsiderable.
 Organic materials naturally disintegrate unlike inorganic plastics.
+Organization
 Organized playgrounds were a valuable asset to any city.
 Organs are strengthened by exercise and atrophied by disuse.
 Orient the table in the direction of the east wall.
@@ -29303,6 +29364,8 @@ Orienteering is a sport that combines cross-country running and map reading
 Orion had seemed just an ordinary constellation to him.
 Orion was for them chief in significance among the constellations.
 Ornithology is a fascinating hobby.
+Other Disinfection Methods
+Other Myths and Facts
 Other families did not welcome us to their mahogany.
 Other insects merely dive into the water or skate upon the surface.
 Other less noisy figures flitted timidly among the shadows.
@@ -30023,12 +30086,14 @@ Points of view, new ideas, life.
 Poisons manufactured within the system can act in a similar manner.
 Polished substances have less friction than rough ones.
 Political conciliation became the slang of the day.
+Political discourse has slowed the rollout of renewable energy in Australia.
 Politics is more dangerous than war, for in war you are only killed once.
 Polly was curt and businesslike.
 Polygamy must occasion sodomy, bestiality, or the like.
 Polynesia could mimic any one.
 Polynesia crept in, very softly, and got under the bed.
 Polynesia, Chee-Chee and the crocodile enjoyed the hot sun no end.
+Polytheism set the best with me, partially because that's how I was raised
 Ponda is a village in Goa.
 Pooh, pooh, nonsense.
 Poor Linton ran a frightened eye over the faces of the three.
@@ -30178,12 +30243,14 @@ Prince was teaching, of course.
 Princeton is unique in the mystery that enshrouds the origin of the name.
 Principal rivers—there are none.
 Principally because I received a letter from Scudder.
+Print
 Print Emergency Disinfection of Drinking Water document.
 Printed as a crossover, it darkens the indigo where it falls.
 Printed, published and sold at Geneva.
 Priscilla drinks — she's always drinking.
 Prissy is grown up, you know.
 Private Eye is a British fortnightly satirical magazine.
+Private Wells
 Probability and statistics will be valuable for students of machine learning.
 Probably Charles never painted more magically than in those ten minutes.
 Probably a flatfish.
@@ -30212,6 +30279,7 @@ Providence had delivered him through the maelstrom.
 Providence takes us in tow.
 Psychology cannot attain the certainty and exactness of the physical science.
 Psychology doesn't get you anywhere.
+Public Health Grand Rounds
 Public interest had flagged and gradually died out.
 Public transport is extremely efficient.
 Publicity is the very soul of justice.
@@ -30407,7 +30475,9 @@ Regular maintenance is the best way to prolong the life of an engine.
 Regular practice improves performance.
 Regular small overpayment's on a mortgage is the best way to reduce interest.
 Regulation and governance removes ambiguity.
+Regulatory Requirements
 Relate it all.
+Related Pages
 Relax! It's Sunday and our favorite show is about to begin!
 Relaxing, he tumbled back upon his pillow.
 Religion was fading into the background.
@@ -30431,13 +30501,16 @@ Remiss in anything, my dear!
 Remonstrances were useless.
 Remotely lock my car.
 Remuneration is usually calculated according to supply and demand.
+Renewables are quickly taking over the Australian energy grid.
 Rents are considerably higher in the inner parts of the city.
 Repay your smallest debt quickly, then use the surplus on the larger debts.
 Repeal this statute, my good sir?
 Repeater racks should be polished underhand.
 Repeaters changed their coats and hats after every vote.
+Report a Website Issue
 Report fake websites to anti-phishing companies to make a safer internet.
 Report the error or skip the sentence.
+Reporting bugs is a quite easy.
 Representative reform he valued for its connection with internationalism.
 Representative theories of perception avoid the logical paradox
 Reproduction may be divided into nonsexual and sexual.
@@ -30606,6 +30679,7 @@ Saccharin is now sold in granular and tabloid form ready for immediate use.
 Sad for you, no biggy for me.
 Sadly it was too little, too late.
 Sadly my telescope was nothing like the Hubble.
+Safe Drinking Water Information System
 Safe in my own room, I read the letter.
 Saffron rice is expensive.
 Sage and thyme, and mint and two onions, and some parsley.
@@ -30699,6 +30773,7 @@ School is cancelled due to the fifty-foot dinosaur ravaging the area.
 School meetings were held in the auditorium.
 School of the Old English Squire.
 Schreck has a weakness for calling everyone ‘Bonehead’ and ‘Fathead’.
+Science
 Science advances one funeral at a time.
 Science discovers the universal from the particular.
 Science has found the problem no playground.
@@ -30772,6 +30847,7 @@ Self-help books are useless unless internalized.
 Seltzer water excites upon the tongue a taste gently salt, and mildly alkaline.
 Send a telegram saying I will come at once.
 Send it to Liberty’s.
+Send money
 Send that off, Jeeves.
 Sending big hugs, love dad.
 Sending our daughter to boarding school was the hardest decision we had to make.
@@ -32805,6 +32881,7 @@ Sid made mental note of the omission.
 Side by side they started for the Plaza.
 Sidtunes were used on the Commodore sixty four computer.
 Sift the evidence.
+Sign Up to Receive Email Updates
 Sike! I lied. These fries are mine.
 Silence all round, if you please!
 Silent Night.
@@ -33530,12 +33607,16 @@ Spring is a rather frisky season.
 Spring onions are very tasty in a salad
 Spring was the worst time.
 St George is the patron saint of England.
+St. Inez is a place in Goa.
+St. Inez is close to Panaji
 St. Inez is close to Panjim city.
+St. Inez is close to Panjim.
 Stability is a double-edged sword.
 Stand and deliver, the highwayman said.
 Stand aside, then.
 Stand forth, Jo, in uncompromising colours!
 Stand off butcher and baker and all the rest.
+Standards and Regulations
 Stanley forgot to turn the tap off and flooded the bathroom.
 Stars God's daisy chain.
 Stars are out and everything.
@@ -34117,6 +34198,7 @@ That at any rate is the theory of our Constitution.
 That at least he could believe.
 That awful little man!
 That beautiful, characteristic, velvety, egg-shell enamel is highly artistic.
+That being said, not everyone uses it to that severe extent and
 That bird is just a passage migrant.
 That bird knew more geography than people will ever know.
 That blue is its colour.
@@ -34222,6 +34304,7 @@ That is so French.
 That is so kind, I gladly tell you.
 That is something I won’t encourage.
 That is suppose to happen now.
+That is suppose to happen.
 That is the best time to think things out.
 That is the bitter cry.
 That is the common dialect of the low people of Rome.
@@ -37536,6 +37619,7 @@ The musicians pulled off the bass drop with incredible skill.
 The mutation is allied to its ancestor as a branch is to a tree.
 The mutt ran along the inside of the fence.
 The name Randy is not found very often in Britain.
+The name doesn't hold much weight
 The name flashed across my memory.
 The name gopher signifies a gray squirrel in Canada.
 The name is a cord.
@@ -38588,6 +38672,7 @@ The staining survives several scourings.
 The staircase ascends to the roof of the high rise building.
 The staircase was dark.
 The stakes were taken up by their owners.
+The standup is at ten P. M. I. S. T.
 The star is billions of miles away.
 The stars are so beautiful.
 The stars are very easily found by alignment.
@@ -42850,6 +42935,7 @@ To be efficient a gunner must have a good eye.
 To be fair she doesn't do anything.
 To be frank, that may happen.
 To be healthy you should eat five portions of fruit and veg every day
+To be honest, Christianity is a religion that I enjoy the least
 To be honest, I don’t think she has much of a conscience.
 To be honest, I kinda want reassurance from him.
 To be jealous you've got to have a fearful crush.
@@ -42921,6 +43007,7 @@ To post a letter, look for a red postbox or pillar box
 To produce replicas of the design, the operator strikes this matrix into lead.
 To protect against invasion, a range of defences were built in Kent and Sussex.
 To read the Bible through in one year, read three chapters each week day.
+To reduce disruption, students should take water bottles to school for water during class.
 To return to the letter.
 To reveal art and conceal the artist is art's aim.
 To rush blindly into the high gear would be fatal.
@@ -43384,6 +43471,7 @@ Usually he rang his bell and laughed towards the house.
 Uttering shriek upon shriek, she sank upon the ground.
 Utterly confounded, Mr. George stands looking at the knocker.
 Vaccinations are not good for health.
+Vaccines
 Vaccines give protection from previously common viruses like Polio.
 Vaccines have nearly eradicated Polio occurrences.
 Vagator beach is beautiful.
@@ -43464,6 +43552,7 @@ Vicky is a Christian.
 Vicky is very knowledgeable on the politics of migration.
 Victims have been made to feel marginalised.
 Victory is within reach.
+View the Official Mission Statements and Organizational Charts
 Viewing the paralysed member, we plainly discovered the red globules dissolved.
 Viewpoints surrounding this issue have been contested for generations.
 Vigorous, decided, with sentiments to a certain point; not coarse.
@@ -43477,6 +43566,7 @@ Viraj Kolhi got out on the first ball.
 Virat apathetically states that he has no interest.
 Virendra Sehwag's uniqueness is first bowl four.
 Visible nature is all plasticity and indifference,.
+Vital Signs
 Vitriol has no place in this forum.
 Vocabulary is an indication of an author's literary sources.
 Voice first technology is a user experience designed to work with only speech.
@@ -43485,6 +43575,7 @@ Voice recognition will be a game changer.
 Voice systems need to be more forgiving of people who cannot speak clearly.
 Voices seemed to be shouting conflicting orders, other voices answered.
 Volapük is surprisingly genderqueer-friendly.
+Volume of Water
 Volumes could not have said more.
 Volunteer Medical workers save many lives by giving vulnerable people health-care access
 Volunteers are the backbone of non-governmental humanitarian aid organizations.
@@ -43601,6 +43692,7 @@ Wassail, wassail all over the town.
 Waste disposal workers help keep our communities clean.
 Watching plants grow over time, is a satisfying experience.
 Watchmen are required relatively in larger numbers.
+Water being poured through a filter
 Water buffalo and cattle were hauling carts through the mud.
 Water disinfection tablets.
 Water had made the book crumpled and unreadable.
@@ -47241,6 +47333,7 @@ Wordpress websites can be created by anyone.
 Words fail me to describe that ice cream.
 Words flooded from her in a low husky voice.
 Words of limitation operate by reference to or connection with other words.
+Work & School
 Work hard to unleash your full potential.
 Work is being stopped.
 Work is therefore defined as the force applied over a distance
@@ -47249,6 +47342,7 @@ Workers like to feel like they are more than a cog in a machine.
 Working for a charity can be very rewarding.
 Working hard to reduce inequality.
 Working with Wordpress is hectic now-a-days.
+World Health Organization Technical Briefing on Boil Water
 Worldly goods are divided unequally, and man must not repine.
 Worn socks have a pungent odour.
 Worried is right.
@@ -49037,6 +49131,7 @@ Young men write the most pathetic letters!
 Young people are beaming with creativity.
 Young people are frequently told nowadays to reach for the stars.
 Young people shouldn't let their vote go to waste.
+Your Health
 Your accent is different, where are you from?
 Your account does not have admin privileges.
 Your account of the Indian grass was entertaining
@@ -49230,6 +49325,7 @@ and is found in the following year.
 and it was so.
 and let them be for signs, and for seasons, and for days, and years:
 and played for his sons.
+and that God recycles the universe
 and these I have chosen according to how I want to live my life
 and they described you jolly well, down to your boots and shirt.
 and was not not a cousin.
@@ -49237,7 +49333,9 @@ and was written by a fold touch.
 and with the knowledge of your ill opinion, too!
 are you going with me?
 because they could just be in your head
+because thy let us ride horses for a significant amount of time
 come to think of it, I don't know what snivel means.
+coranavirus
 divide the light from the darkness
 everyone is a sinner
 for the wages of sin is death
@@ -49252,26 +49350,37 @@ he says, with a plain appearance of exasperation.
 he time-takers studied their stopwatches with serious faces.
 how has he got rich?
 if you succeed in following your beliefs and morals in each lifetime
+illustration of person thinking about having a baby
 in circumstances under which no weakling could survive
 it was melancholy to leave her to such society!
+it will let me understand things when it wants me to, or
 joined a queue of three or four persons.
 just copy the references and they all come up at once.
 kind of like writing a book This is how bibles are made, maybe
 learn more about our organizational structure.
+like a hurricane, flood, or water pipe breakage
 like the stone in a peach
 many seem to find a belief system whose morals fit theirs
+media icon Low Resolution Video
 millions of antifeminists berated the feminists for berating the guy
 my dear, I am quite delighted with him.
+need to address a moral situation I hadn't necessarily thought of before
+partly because he's more well-known
 people eat snow cones in the afternoon, not evening.
+pour the water from one clean container to another several times.
 questions create more questions and answers create more questions
 remember ye the words which have been spoken before by the apostles.
 said I, taking the woman aside.
+so whenever the universe decides to let me understand things
 some questions are all consuming
+that we do not understand between the dimensions
 the Bet was named after him.
 the constable observes to the audience.
 the fourth river is Euphrates.
 the greater light to rule the day, and the lesser to rule the night:
 the judgments which I have formed
+the result of something even bigger in the cosmos
+the symbolism can't be overused, doesn't wear out
 the teacher doesn't like the word 'say'
 the tree of knowledge of good and evil was there.
 the word "pasta" comes from Italian, but "noodle" comes from German.
@@ -49281,6 +49390,7 @@ we are moving now,’ said the old gentleman exultingly.
 we can move up or down the food chain
 where is that?’ I asked.
 where they go about their normal lives and there their just human too
+which piece of it makes sense, was I wrong here
 while others cost thousands?
 whispered Miss Jellyby, drawing my arm tighter through her own.
 whispered Richard, not thinking she could hear him.

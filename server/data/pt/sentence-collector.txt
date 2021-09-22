@@ -21187,25 +21187,204 @@ São Domingos do Capim
 São Domingos do Cariri
 São Domingos do Maranhão
 São Domingos do Norte
+São Domingos do Prata
+São Domingos do Sul
+São Felipe
+São Felipe d'Oeste
+São Fernando
+São Fidélis
 São Francisco
+São Francisco de Assis
+São Francisco de Assis do Piauí
+São Francisco de Goiás
+São Francisco de Itabapoana
+São Francisco de Paula
+São Francisco de Sales
+São Francisco do Brejão
+São Francisco do Conde
+São Francisco do Glória
+São Francisco do Guaporé
+São Francisco do Maranhão
+São Francisco do Oeste
+São Francisco do Pará
+São Francisco do Piauí
+São Francisco do Sul
+São Félix
+São Félix de Balsas
+São Félix de Minas
+São Félix do Araguaia
+São Félix do Coribe
+São Félix do Piauí
+São Félix do Tocantins
 São Félix do Xingu
 São Gabriel
+São Gabriel da Cachoeira
+São Gabriel da Palha
+São Gabriel do Oeste
+São Geraldo
+São Geraldo da Piedade
+São Geraldo do Araguaia
+São Geraldo do Baixio
 São Gonçalo
+São Gonçalo do Abaeté
 São Gonçalo do Amarante
+São Gonçalo do Gurgueia
+São Gonçalo do Pará
+São Gonçalo do Piauí
+São Gonçalo do Rio Abaixo
+São Gonçalo do Rio Preto
+São Gonçalo do Sapucaí
+São Gonçalo dos Campos
+São Gotardo
+São Jerônimo
+São Jerônimo da Serra
+São Joaquim
+São Joaquim da Barra
+São Joaquim de Bicas
+São Joaquim do Monte
+São Jorge
+São Jorge d'Oeste
+São Jorge do Ivaí
+São Jorge do Patrocínio
 São José
 São José Dos Campos
 São José Dos Pinhais
+São José da Barra
+São José da Bela Vista
+São José da Boa Vista
+São José da Coroa Grande
+São José da Lagoa Tapada
+São José da Laje
+São José da Lapa
+São José da Safira
+São José da Tapera
+São José da Varginha
+São José da Vitória
+São José das Missões
+São José das Palmeiras
+São José de Caiana
+São José de Espinharas
+São José de Mipibu
+São José de Piranhas
+São José de Princesa
 São José de Ribamar
+São José de Ubá
+São José do Alegre
+São José do Barreiro
+São José do Belmonte
+São José do Bonfim
+São José do Brejo do Cruz
+São José do Calçado
+São José do Campestre
+São José do Cedro
+São José do Cerrito
+São José do Divino
+São José do Egito
+São José do Goiabal
+São José do Herval
+São José do Hortêncio
+São José do Inhacorá
+São José do Jacuri
+São José do Jacuípe
+São José do Mantimento
+São José do Norte
+São José do Ouro
+São José do Peixe
+São José do Piauí
+São José do Povo
+São José do Rio Claro
 São José do Rio Pardo
 São José do Rio Preto
+São José do Sabugi
+São José do Seridó
+São José do Sul
+São José do Vale do Rio Preto
+São José do Xingu
+São José dos Ausentes
+São José dos Basílios
+São José dos Campos
+São José dos Cordeiros
+São José dos Pinhais
+São José dos Quatro Marcos
+São José dos Ramos
+São João
+São João Batista
+São João Batista do Glória
 São João Del Rei
+São João Evangelista
+São João Nepomuceno
 São João a falta e o Menino Jesus a estende.
+São João d'Aliança
+São João da Baliza
+São João da Barra
 São João da Boa Vista
+São João da Canabrava
+São João da Fronteira
+São João da Lagoa
+São João da Mata
+São João da Paraúna
+São João da Ponta
+São João da Ponte
+São João da Serra
+São João da Urtiga
+São João da Varjota
+São João das Duas Pontes
+São João das Missões
+São João de Iracema
 São João de Meriti
+São João de Pirabas
+São João del-Rei
+São João do Araguaia
+São João do Arraial
+São João do Caiuá
+São João do Cariri
+São João do Caru
+São João do Itaperiú
+São João do Ivaí
+São João do Jaguaribe
+São João do Manhuaçu
+São João do Manteninha
+São João do Oeste
+São João do Oriente
+São João do Pacuí
+São João do Paraíso
+São João do Pau-d'Alho
+São João do Piauí
+São João do Polêsine
+São João do Rio do Peixe
+São João do Sabugi
+São João do Soter
+São João do Sul
+São João do Tigre
+São João do Triunfo
+São João dos Patos
+São Julião
 São Leopoldo
+São Lourenço
 São Lourenço da Mata
+São Lourenço da Serra
+São Lourenço do Oeste
+São Lourenço do Piauí
+São Lourenço do Sul
+São Ludgero
+São Luiz
+São Luiz Gonzaga
+São Luiz do Norte
+São Luiz do Paraitinga
 São Luís
+São Luís Gonzaga do Maranhão
+São Luís de Montes Belos
+São Luís do Curu
+São Luís do Piauí
+São Luís do Quitunde
+São Mamede
+São Manoel do Paraná
+São Manuel
+São Marcos
+São Martinho
+São Martinho da Serra
 São Mateus
+São Mateus do Maranhão
 São Miguel Dos Campos
 São Miguel do Guamá
 São Paulo
