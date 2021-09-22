@@ -162,6 +162,7 @@ uz = Uzbekšćina
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+yi = Jiddišćina
 yo = Joruba
 yue = Kantonšćina
 zh-CN = Chinšćina (China)
