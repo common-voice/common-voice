@@ -851,6 +851,8 @@ profile-form-delete = Slett profilen
 ## Profile Download
 
 download-profile-title = Profil
+download-size = Storleik
+download-selected = Markert
 
 ## Landing
 
