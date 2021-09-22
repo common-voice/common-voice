@@ -86,6 +86,7 @@ ka = 그루지아어
 kaa = 카라칼파크어
 kab = 커바일어
 kbd = 카바르다어
+ki = 키쿠유어
 kk = 카자흐스탄어
 kmr = 쿠르만지 쿠르드어
 ko = 한국어
@@ -110,8 +111,10 @@ ms = 말레이어
 mt = 몰타어
 my = 버마어
 myv = 에르자어
+nan-tw = 대만어(민난)
 nb-NO = 노르웨이어 보크몰
 ne-NP = 네팔어
+nia = 니아스어
 nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
 oc = 오크어
@@ -564,8 +567,6 @@ subscribe = 구독하기
 get-started-speech = 음성인식 시작하기
 other-datasets = 기타 음성 데이터세트
 feedback-q = 제안 사항이 있습니까?
-deepspeech-info = Common Voice 데이터 세트는 음성 인식 애플리케이션을 구축하는 데 사용할 수있는 Mozilla의 오픈 소스 음성 인식 엔진 Deep Speech를 보완합니다. <githubLink>Github 개요</githubLink>를 읽거나 <discourseLink>DeepSpeech Discourse</discourseLink>에 참여하여 시작하는 방법을 알아보세요.
-common-voice-info-new = Common Voice에 대해 질문이 있나요? 특정한 언어에 대한 개선 아이디어나 피드백이 있나요? <discourseLink>Discourse 포럼</discourseLink>에 참여하여 알려주세요.
 data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 읽은 오디오 북에서 파생 된 16Khz의 약 1000 시간의 말뭉치입니다.
 data-other-ted-name = TED-LIUM 말뭉치
 data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
@@ -833,6 +834,9 @@ why-delete-recordings =
     
     녹음된 내용을 삭제하려는 이유를 알려주시겠습니까?
 profile-form-delete = 프로필 지우기
+
+## Profile Download
+
 
 ## Landing
 
