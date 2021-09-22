@@ -26,6 +26,7 @@ ace = Acenese
 ady = Adighè
 af = Africaanu
 am = Amaricu
+an = Aragunese
 ar = Arabu
 arn = Mapudungunu
 as = Assamese
