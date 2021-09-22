@@ -151,6 +151,7 @@ th = Thai
 tl = Tagalog
 tr = Tyrkisk
 tt = Tatarisk
+tw = Twi
 uby = Ubykhisk
 udm = Udmurtisk
 ug = Uigurisk
@@ -160,6 +161,7 @@ uz = Usbekisk
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+yo = Joruba
 yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
@@ -192,6 +194,7 @@ logout = Logg ut
 ## Home Page
 
 home-title = Prosjektet Common Voice er eit Mozilla-initiativ, som skal hjelpe maskiner med å forstå korleis folk snakkar.
+default-tagline = Mozilla Common Voice er eit initiativ som skal hjelpe maskiner med å forstå korleis vanlege folk snakkar.
 home-cta = Snakk, støtt prosjektet og gje eit bidrag!
 wall-of-text-start = Stemma er naturleg, stemma er menneskeleg. Det er derfor vi er fascinert av å lage ein brukbar stemmeteknologi til maskinene våre. Men for å lage system til stemmegjenkjenning, trengst det svært store mengder med stemmedata.
 wall-of-text-more-mobile = Ein større del av dei dataa som vert nytta av store selskap er likevel utilgjengelege for folk flest. Vi trur at dette kjem til å bremse nyskapinga. Derfor lanserte vi prosjektet Common Voice, eit prosjekt som hjelper til med å gjere talegjenkjenning tilgjengeleg for alle.
@@ -286,6 +289,7 @@ shortcut-record-toggle-label = Spel inn/Stopp
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spel inn klippet ein gong til
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Forkast denne innspelinga
 shortcut-submit = Enter
 shortcut-submit-label = Send inn klipp
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
@@ -386,6 +390,10 @@ faq-what-cv-a =
     Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelege system er dyre og lukka. Common Voice er ein del av Mozillas initiativ for å gjere talegjenkjenningsteknologi betre og meir tilgjengeleg for alle. Common Voice er ein stor, global database med stemmebidrag, som lèt kven som helst, raskt og enkelt trene stemme-aktiverte applikasjonar i potensielt alle språk.
     
     Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
+faq-what-cv-a-2 =
+    Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner på, men tilgjengelege system er dyre og lukka. Mozillas Common Voice er eit initiativ for å gjere talegjenkjenningsteknologi betre og meir tilgjengeleg for alle. Common Voice er ein stor, global database med stemmebidrag, som lèt kven som helst, raskt og enkelt trene stemme-aktiverte applikasjonar i potensielt alle språk.
+    
+    Vi samlar ikkje berre lydklipp frå språk med stor utbreiing, men òg frå dei med færre brukarar. Ved å publisere eit variert datasett med stemmer, så set vi utviklarar, gründarar og samfunn i stand til å sjølv fylle dette behovet.
 faq-why-important-q = Kvifor er det viktig?
 faq-why-important-a =
     Tale er ofte den mest naturlege måten vi kommuniserer med kvarandre, og taleteknologi gir oss den mulegheita på datamaskiner og portable einingar. Vi ønskjer å setje programvareutviklarar i stand til å byggje fantastiske talegjenkjenningsapplikasjonar, som sanntidsomsetting og stemmestyrte personlege assistentar. Men akkurat no er det meste av taledata som trengs for å byggje denne typen applikasjonar dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklarar det dei treng for å lage nye ting og gjere taleteknologi tilgjengeleg på sitt eige språk. 
@@ -850,9 +858,21 @@ profile-form-delete = Slett profilen
 
 ## Profile Download
 
+download-q = Treng du å laste ned data?
+download-info = Fortel oss kva du vil laste ned:
 download-profile-title = Profil
+download-profile-info = Inkluderer e-post, brukarnamn og demografisk info, tilgjengeleg no
+download-profile-size = Eit par byte
+download-recordings-title = Innspelingar
+download-recordings-info = Inkluderer mp3-ar og tilhøyrande setningar, kan ta litt tid å gjere klart
+download-recordings-size = Vanlegvis nokre megabyte
+download-recordings-unavailable = Du kan ikkje be om innspelingane dine samtidig som ein annan førespurnad er i gang
 download-size = Storleik
 download-selected = Markert
+download-start = Last ned profildata
+download-request = Be om innspelingar
+download-request-button = Last ned
+download-request-title = { $created }
 
 ## Landing
 
