@@ -162,6 +162,7 @@ uz = Uzbek
 vec = Venetian
 vi = Việt
 vot = Votic
+yi = Yiddish
 yo = Yoruba
 yue = Quảng Đông
 zh-CN = Trung (Trung Quốc)
