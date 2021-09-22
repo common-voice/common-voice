@@ -158,6 +158,7 @@ uz = Uzbek
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)

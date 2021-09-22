@@ -139,6 +139,7 @@ Anh tên là gì
 Anh tìm chiếc xe tải đó mà hỏi
 Anh vui liền, nhưng bỗng lại buồn ngay
 Anh và em sẽ không gặp lại nhau được đâu
+Anh vào trong khám phá đến tanh bành
 Anh về đây em vào trong nhà đi
 Anh vừa chợt nghe văng vẳng bên tai cái thứ gì đó phát ra
 Anh vừa mới kí xong một bản hợp đồng
@@ -175,6 +176,8 @@ Ban đầu Trinh không định nói
 Bao giờ có dịp
 Bao giờ gặp lại cô?!
 Bao mỹ từ bỗng chốc lại bay xa
+Bao nhiêu cảm xúc đan xen
+Bao nhiêu ước hẹn anh dành...em thôi.
 Bao năm rồi cô nhỉ?
 Bao tháng mười anh vẫn còn nhớ mãi
 Bay, đậu bờ rào
@@ -273,8 +276,10 @@ Bên trong quán có một người bước ra
 Bên trong rất nhiều những ngôi nhà sàn
 Bên trong đèn hồng đèn đỏ đèn xanh lờ mờ luôn được bật sáng
 Bên trong đặt một lọ thủy tinh
+Bình minh chiếu rọi muôn ngàn ánh dương
 Bình thường sẽ về được
 Bóng mát sân trường
+Bóng nhạn phương xa lẻ bầy tìm kiếm
 Bóng tối thì cũng đã bao trùm tất cả
 Bóng đen đó đưa bàn tay về phía của em
 Bông cúc chi, thạch thảo tím giao hòa
@@ -315,6 +320,7 @@ Bận lòng Anh trong hạnh phúc mai này.
 Bật ngay dậy rồi bước nhanh vào trong nhà
 Bắt sâu lao xao
 Bắt đầu kể từ ngày hôm đó
+Bắt đầu ngày mới bằng nghìn yêu thương.
 Bằng chứng đó là shop quần áo mà trinhmở ra
 Bằng cách qua nhà của A Pheng ngủ
 Bằng không thì nó bắt đi
@@ -366,6 +372,7 @@ Bố ở lại viện để mẹ về tìm cho nhanh
 Bối cảnh tạo bày ai là kẻ thế vai?
 Bốn chữ lượn lờ
 Bồ bịch nhăng nhít
+Bồi hồi hoa cúc nở sao vàng trời
 Bồn chồn không thể nào có thể ngủ được
 Bỗng có ngày thay thế một niềm vui
 Bỗng cười khúc khích
@@ -469,9 +476,12 @@ Cho con hi vọng
 Cho con người thực sự Người hơn.
 Cho em bước vào
 Cho em khôn lớn
+Cho hoa nở duyên hồng bao cô gái
 Cho hoa tươi thắm ngát hương
 Cho hạnh phúc thêm ngập tràn sôi động
+Cho hạnh phúc ấm dần quanh ngõ xóm
 Cho khắc khoải thêm những tháng ngày vui
+Cho muôn cây cỏ màu xanh tuyệt vời!
 Cho mùa thu rơi thoáng nhẹ qua thềm
 Cho nên Hà liền đáp
 Cho nên Trinh phải đỗ xe ở ngoài đường lớn rồi bước bộ vào
@@ -504,6 +514,8 @@ Chuyện này thực chất thì không khó
 Chuyện tình yêu, quan trọng gì đâu:
 Chuyện yêu đương, chuyện cơm áo gạo tiền.
 Chàng trai bị thương có vẻ can đảm lắm
+Chào em cô gái tháng mười
+Chào em, yêu dấu Tháng Mười
 Chào một đứa bé cao tầm đến đầu gối
 Cháu không uống được rượu nên mới cố cạn ly chất đắng này vậy
 Cháu là hà ni
@@ -511,6 +523,7 @@ Cháy khát khao anh dâng tình sâu đậm
 Châm một điếu rồi liền đáp
 Chân cô in vết trên đường bụi
 Chân tay bủn rủn
+Chân thành trọn vẹn trong ngàn yêu thương.
 Chín bỏ làm mười: xí xóa, bỏ qua, dễ dãi
 Chín tháng mười ngày
 Chính bản thân tạo đã phải lặn lội nhiều ngày trong rừng
@@ -556,6 +569,7 @@ Chúng tôi đang chở nhau đi sắm đồ cưới
 Chúng tôi đang cố gắng thu xếp
 Chúng tôi đều cúi đầu làm lễ chào tất cả mọi người ở đây
 Chúng tôi ở đây tầm khoảng một tuần
+Chút mưa, chút nắng vờn quanh
 Chút se lạnh cũng thấy lòng man mác
 Chút se lạnh đã luồn trong nắng mới
 Chút sắc vàng óng ả chẳng còn đâu!
@@ -648,6 +662,7 @@ Chỉ mong cho con
 Chỉ một lát sau bỗng có người chạy tới hớt hải báo tin
 Chỉ một ước mơ thôi
 Chỉ mở mắt ra nằm yên trong đó
+Chỉ nghe thấy tiếng hương đêm nhẹ nhàng
 Chỉ ngồi trân mình chịu đau
 Chỉ nên dừng lại ở mức đủ thôi
 Chỉ việc vào bàn
@@ -807,6 +822,7 @@ Câu hẹn thề rụng khẽ lá chơi vơi
 Câu hỏi bất ngờ của bà khiến cho hả ni cũng còn lúng túng
 Câu hỏi khiến cho Tuấn ngẩng mặt lên nhìn
 Câu nói của bố kéo em về hiện tại
+Câu thơ tôi bỗng rung lên dạt dào
 Cây chẳng còn xạc xào rơi rụng lá
 Cây cỏ tỉnh táo
 Cây cối khô khát
@@ -894,6 +910,7 @@ Có một nhân vật xuất hiện song song với Quân
 Có một tương lai
 Có ngó qua họ hàng được tí nào đâu
 Có người còn chẳng biết là có sống được không
+Có ngập ngừng nhớ kẻ đã từng yêu?
 Có như vậy bác mới yên lòng
 Có những cái cây lâu năm
 Có những nỗi đau không làm rách thịt da
@@ -991,6 +1008,7 @@ Cùng chia sẻ sức người đời chà đạp
 Cùng gánh vác những nẻo đường xuôi ngược
 Cùng lúc đó trình vội buông quân ra rồi lùi lại phía sau
 Cùng lắm là Thảo ông Thần Tài
+Cùng nhau dệt mộng tình trường ước mơ.
 Cùng tình yêu ở lại...
 Cúc vàng vẫn thắm bên thềm
 Căn nhà của A Hội quay về phía bên mạn rừng
@@ -1017,6 +1035,7 @@ Cũng nghe người ta nói lại thôi
 Cũng như của quân chồng của Nhi
 Cũng như là gần đây trinh hay gọi điện hỏi han
 Cũng như mình trong những lúc vắng nhau
+Cũng thường giận dỗi đành hanh
 Cũng vui hớn hở
 Cũng vừa lúc ấy hà ni bước ra
 Cũng đều làm đúng
@@ -1026,6 +1045,7 @@ Cơm đã sẳn sàn
 Cơm độn khoai lát
 Cơn gió bấc gửi trao... màu hạnh phúc!
 Cơn lạnh nào cũng ấm nếu có đôi
+Cơn mưa bất chợt buông rèm
 Cơn đau khiến cho cô lập tức phải buông tay ra
 Cười hiền hòa rồi đáp lại
 Cạn trút bầu thơ
@@ -1088,6 +1108,7 @@ Danh hiệu
 Danh vọng tiền tài đam mê khát vọng
 Di sản
 Diễn văn của Hồ Chí Minh
+Duyên tháng mười và cải đắng vàng tươi
 Dâng hết em rồi, em ơi em biết đấy
 Dã quỳ Nói lái là thành quỷ già rồi phải không
 Dã quỳ là tên một loại hoa tiêu biểu ở cái vùng này
@@ -1128,6 +1149,7 @@ Dẫu đã được giải
 Dắt tay em, bước bên thềm hạnh phúc!
 Dặn anh ta chờ ở đó hà ni dìu phong leo cầu thang
 Dệt mộng ước bản hòa ca đến lớp..
+Dịu dàng đón ánh bình minh
 Dở dang hoài, dang dở, dở dang thôi
 Dục vọng khao khát của trình về Quân
 Dứt lời Hà mở cửa bước ra bên ngoài
@@ -1153,6 +1175,7 @@ Em còn xa mãi
 Em có bị bệnh gì không
 Em có nhớ màu hoa trong gió thổi
 Em có say đâu mà bác bảo em không biết
+Em có thấy tháng mười xanh xao quá?
 Em công chuyện thì em cứ đi
 Em cùng bố mẹ em và người nhà của Thảo đều có mặt
 Em cũng
@@ -1187,6 +1210,7 @@ Em liền nói
 Em liền nói lại
 Em liền trả lời
 Em là bạn thân của Nhi vợ của anh
+Em là nắng ấm giữa trời mùa thu
 Em lái xe được mà
 Em lúc bây giờ bất ngờ và hoảng loạn
 Em lúc bấy giờ mới nhớ lại lời của Thảo nói đêm qua
@@ -1224,6 +1248,7 @@ Em rùng mình rồi Ngã vật ra giường
 Em sao vậy có cách mấy thước mà nhìn cũng không ra anh sao
 Em sợ mình xao xuyến chuyện yêu xưa
 Em sợ như mọi người nói
+Em thuở ấy đi về quên dấu gót
 Em thì không hiểu chuyện lắm
 Em thích mặt chị đỏ lắm ạ
 Em thương em quý
@@ -1232,13 +1257,16 @@ Em thấy nhớ trường
 Em thầm thì hãy gọi tên lên​
 Em thề có cây xoài này làm chứng
 Em toan chạy vù lên trước mặt của Thảo
+Em trao anh trái tim hường
 Em vui lúc trăng tròn
 Em vất vả vì chuyện của gia đình anh quá
 Em vẫn biết Thảo đã mất rồi nên mới ngập ngừng
 Em vẫn biết đấy là điều đã cũ
 Em vẫn còn sống giữa một trái tim.
+Em về nghe tiếng gió ru
 Em về rồi tháng mười một của anh
 Em với Thảo có đi ăn chè
+Em với hoa, với bao điều oan trái
 Em xin bà ấy
 Em xích gần thêm một chút, anh hờn
 Em yên tâm là kẻ đó sẽ không làm phiền
@@ -1247,12 +1275,14 @@ Em yêu trường lắm
 Em á khẩu luôn không nói được câu nào
 Em đi qua rạo rực cả trời chiều
 Em đi ra ngoài một chút
+Em đi xen giữa cỏ cây
 Em đi đâu mà không cần xin
 Em đâu dám nghĩ là vĩnh viễn
 Em đã chẳng hẹn nhau đêm ấy nữa
 Em đã chẳng trách anh yêu người khác
 Em đã chẳng đổ cho anh bao tội lỗi
 Em đã nhìn thấy Thảo đứng ở ngã ba
+Em đã trao chìa tình cho anh mở
 Em đúng là một người bạn tốt của Nhi và anh
 Em đờ đẫn nhìn lại Thảo
 Em đứng lặng mắt nhìn ai không nói
@@ -1342,14 +1372,18 @@ Gắn kết bè bạn
 Gắng đi học đều
 Gặp rồi thì không biết thế nào đâu nhỉ
 Gặp trường hợp em như thế em có bình tĩnh được không
+Gọi lòng say thả mộng mãi yêu thương
 Gọi một chiếc xe thồ cô hỏi
 Gọi tôi là dã quỳ
 Gọi xe cấp cứu đi người này vẫn còn sống này
 Gọi điện hỏi thăm Quân lại là Trinh
 Gớm nữa cô nói sợ quá
 Gợi dậy trong em
+Gợi đường mơ thắm mãi chữ tình ân
 Gửi các bạn trẻ
+Gửi hương yêu thắp lửa mộng lòng xinh
 Gửi lòng theo hạt mưa bay
+Gửi mây xa biền biệt bóng chân trời
 Gửi theo gió đến ai nơi xa ấy.
 Gửi vào cơn gió ngàn lời yêu em
 Hai chiếc dép kia gặp nhau tự bao giờ
@@ -1400,6 +1434,7 @@ Hay vô tình cơn gió sớm đùa trêu!?
 Hay vô tình như em đã quên tôi?
 Hay vô tình quên đi
 Hay đúng hơn là không muốn vùng vẫy nữa
+Heo may se lạnh anh thèm vòng tay
 Hi sinh tuổi xuân
 Hi vọng là có thể cứu được
 Hi vọng tôi đã không quay lại quá muộn
@@ -1532,6 +1567,9 @@ Hơn nữa con thanh lại tận mắt chứng kiến cảnh nó chết
 Hơn nữa nó không xứng đáng để anh được yêu thương
 Hơn nữa thì bé kuman của tao biết phải làm gì
 Hơn nữa trong mấy ngày qua
+Hương men say man mác của mùa thu
+Hương thu còn thoảng đâu đây bên thềm
+Hương thu dìu dịu ngọt lành
 Hương thơm mát rượi
 Hướng dẫn cài đặt phần mềm
 Hạ Chết một cách thảm khốc
@@ -1562,6 +1600,7 @@ Họ đem anh trong tình trạng thương tích Đầy người vào đây
 Họp lớp sau nhiều năm Mỗi Người Một Nơi
 Hỏi thăm một số người thì biết đến nhà của già làm
 Hỏi thăm thì nó mếu máo nói
+Hỏi tâm tư người xưa cũ đâu rồi?
 Hồ Chí Minh
 Hồ Chí Minh trong văn học, nghệ thuật
 Hồ Chí Minh đã được tạp chí Time bình chọn
@@ -1572,6 +1611,8 @@ Hồn của con bé không thể về nhà được
 Hội gì vậy
 Hội họa
 Hội leo lên giường không ngủ được
+Hỡi ơi lá rụng tháng mười
+In bóng hình rạng rỡ đôi ta.
 In bóng nhau vờn luân điệu vũ
 Khe khẽ
 Khi Trinh đến xác của Nhi vẫn được phủ kín
@@ -1639,6 +1680,7 @@ Khéo lại là tàn tật cả đời
 Khép lại nhé những tủi hờn uất hận
 Khóc nhiều cũng đến lúc đôi mắt của quân mệt mỏi
 Khóe léo bày biện trên bàn thờ ni Kuman
+Khói thuốc rớt gợi đôi niềm dư ảnh
 Khô khan hạn hán
 Khôn hồn thì mau đưa anh chàng tên phong đó về đây
 Khôn lớn thêm rồi
@@ -1671,6 +1713,7 @@ Không dám nói ra sự thật
 Không dám nói thật hà liền đáp
 Không gian về đêm im lặng như tờ
 Không giấu gì anh
+Không heo may cũng chẳng cúc rợp chiều
 Không hiểu Trinh đang nói chuyện với ai
 Không hiểu là có chuyện gì không
 Không hề suy chuyển gì cả
@@ -1765,6 +1808,7 @@ Kỉ niệm buồn vui
 Kịch bản văn nghệ chào mừng ngày Nhà giáo Việt Nam
 Kỳ lạ thay những gì càng bí hiểm càng mông lung
 Lau xong bỏ đi luôn cũng được
+Lay phay mưa bụi thầm thì chữ yêu
 Leo tận núi đồi
 Linh hồn ta còn u ẩn hơn đêm
 Liu riu róc rách giọt sầu mênh mông
@@ -1774,10 +1818,12 @@ Liệu rằng có một cuộc sống an Yên với các thiên thần nhỏ
 Liệu rằng em có thể có được anh không
 Lo ma chay cho bà tâm
 Lo sợ mình sơ suất cho nên trinh bật dậy
+Long lanh ánh mắt mỉm cười...đón anh.
 Loà nhoà mắt ướt
 Luôn có một sức hút kỳ lạ đối với con người
 Luôn dành cho con
 Luôn ở bên ta
+Ly rượu chúc đôi hình chung một bóng
 Là Hà đã thấy ngôi nhà này có gì đó không ổn
 Là anh đây chỉ thăm hỏi đôi lời
 Là bài thơ anh kể về đôi dép
@@ -1811,6 +1857,7 @@ Làm âm binh là sao
 Làm đi làm lại mấy lần mà không được
 Làm được như vậy thì càng tốt
 Làm ơn cho con đi lên
+Làn mây lả lướt thả mình... trôi xa.
 Lá vàng rơi rụng dưới chân chim
 Lá vàng thưa thớt quá
 Lái xe đến phòng tập
@@ -1824,6 +1871,8 @@ Lên thảm nhung, xuống cát bụi cùng nhau
 Lên xe đóng kín cửa lại
 Lên đến gần đây là mình thấy ngay ấy mà
 Lênh đênh mãi con đò trên bến vắng
+Líu lo chim hót gọi mời... thiết tha.
+Lòng chợt buồn như mới thoáng chia phôi
 Lòng cứ quặn đau
 Lòng mẹ bao la
 Lòng mẹ cao ngất
@@ -1862,6 +1911,7 @@ Lại hợp nhau như vậy
 Lại không có tránh được đâu
 Lại nhớ anh nào phải không
 Lại thêm có một bà bói người dân tộc sang
+Lại ưu buồn như đôi mắt cố nhân
 Lạnh buốt luôn
 Lấy Chồng Giàu
 Lấy cũng mệt lả cả ra
@@ -1895,6 +1945,7 @@ Mang theo cả những bài thơ dang dở
 Mang đến cho người
 May mà con vợ em khấn xin bà chị mới tha cho
 May mắn mà nó mang lại cho chủ nhân ngày càng cao
+Miên man sợi nắng vương cành đung đưa
 Miệng dẻo nhưng vẫn có chút gì đó thật thà
 Miệng hộc ra máu
 Mong Thầy đừng có giận
@@ -1920,6 +1971,9 @@ Mà Nhi lại là bạn thân thiết của em
 Mà Nhà tôi đi có thắp hương các cụ đầu đuôi rồi
 Mà Trinh đã thấy dạo rực
 Mà anh bạn của trinh dịch lại như sau
+Mà anh còn nợ chưa đền được em
+Mà anh dành tặng bây giờ... không em.
+Mà anh hứa tặng bất ngờ lại quên
 Mà anh đã đưa tôi đi thỉnh chứ
 Mà ban nãy mày bảo là kể cho tao nghe chuyện gì
 Mà chinh đã bật sau khi cho kuman ăn
@@ -1950,6 +2004,7 @@ Mà mình trả lời
 Mà nhắn tin qua Facebook thì mới biết cũng không có kịp
 Mà nước ngọt cứ tự động theo đường ống bút
 Mà sao con Trinh nó làm gì mà giàu nhanh như vậy chứ
+Mà sao đã thấy sương mờ nhẹ bay
 Mà sau đó Trinh được songchai dịch lại
 Mà suýt nữa cả trình nôn tại chỗ
 Mà tao cũng thấy họ có chết đâu
@@ -1964,7 +2019,9 @@ Mà vượt thoạt trông thấy hà ni đã kêu lên
 Mà vừa nói vừa trở ra bên ngoài
 Mà xem ra cô ấy cũng không Có khỏe lắm đâu
 Mà y như rằng là như thật
+Mà Đông như muốn vội sang bên này
 Mà đến cả bố em cũng không thể giải thích
+Mà để em chỉ còn là dĩ vãng?
 Mà đứng áp sát người ngay cánh cửa
 Màu son cũng đẹp nữa mua ở đâu vậy
 Mày bỏ tao thì tao biết chơi cùng ai
@@ -2002,15 +2059,18 @@ Mình không thể thua một đứa đã chết
 Mình muốn có được anh ấy
 Mình phải đi tìm người đàn bà có tin Dã Quỳ nào ấy
 Mình thua gì cái nhi cơ chứ
+Mình tôi lưu luyến trong lòng.
 Mình về đi Cảm ơn cô hà ni
 Mình đi ngay cho kịp
 Mòn mỏi hao gầy
 Món quà này chỉ chút thôi tiền lẻ
+Môi hôn vội vã chưa đầy
 Môi vẫn thắm gọi thuyền quyên về bến.
 Mùa Thu về ngang phố
 Mùa giao mùa lặng thinh
 Mùa thu chết trong nỗi sầu tê tái
 Mùa thu cái lạnh dịu dàng
+Mùa thu cũng bớt úa vàng
 Mùa thu quấn quýt gót hài
 Mùa thu ra biển cả
 Mùa thu trên khắp phố phường
@@ -2022,6 +2082,7 @@ Mùa thu đi cùng lá
 Mùa thu đẹp lắm em ơi
 Mùa xuân đi rồi
 Mùa đi cùng tháng năm
+Mùa đông về sương rơi lạnh cóng.
 Mơ màng như thật mà không biết đâu mà lần cả
 Mưa hay nước mắt rơi từng giọt đắng
 Mưa lớn biết bao!
@@ -2035,6 +2096,7 @@ Mưa thu nức nở dòng tuôn
 Mưa vẫn bay trên góc phố tình nhân
 Mưa về phố nhỏ
 Mưa đến muộn hay trời còn cất giấu
+Mượn câu lục bát đề thơ mấy vần
 Mảnh thơ tình khờ dại
 Mất chân
 Mấy anh ở đây lâu không
@@ -2196,6 +2258,7 @@ Mỗi ngày trôi qua cảm xúc trong Trinh ngày càng mãnh liệt
 Mỗi người một công việc
 Mỗi sớm mai thướt tha áo nhuộm màu
 Mỗi thu sang, mỗi khắc nhớ em nhiều...
+Mộng mơ, chân thật, hiền lành
 Mộng uyên ương hồ điệp
 Một bé kuman thật sự là cần nhiều hơn vậy đấy
 Một chiếc thyền trôi
@@ -2318,6 +2381,7 @@ Ngày ấy vào mùa thu
 Ngóng dài không thôi
 Ngôi nhà hai tầng khá rộng với Hai Phòng ngủ
 Ngôi nhà hình như lệch mức bình thường
+Ngôn từ hối hả liêu xiêu
 Ngõ vẫn là sỏi đá chứ không đổ bê tông như bây giờ
 Người chết là Vong
 Người chở mùa thu tôi vừa đỏ
@@ -2334,6 +2398,7 @@ Người người thì đang tấp nập đi lại
 Người nhà tao nói thế cho nên là lập miếu để thờ
 Người phụ nữ tên dã quỳ
 Người qua đường lúc chiều cũng hiếu kỳ
+Người say với cỏ, cỏ say bên người!
 Người ta cũng nói sống nói chết
 Người ta gọi cặp đôi chúng tôi là loài hoa rừng đẹp nhất
 Người ta khác Tao khác
@@ -2342,6 +2407,7 @@ Người ta phụ, hoặc thờ ơ, chẳng biết
 Người thiểu số không biết nói nhiều
 Người trong bản đào một chiếc hố thật to để chôn tập thể
 Người tình là dòng sông nhỏ ra khơi
+Người xa có hiểu nỗi niềm chờ mong
 Người xa xăm quá!-Tôi buồn lắm
 Người yêu về mà không có nhận ra sao
 Người yếu bóng vía thì nhìn thấy mà kinh sợ
@@ -2360,6 +2426,7 @@ Ngập ngừng gọi khẽ mùa Đông trở về
 Ngắm tiếp vì sao
 Ngắm tỏ sao trời
 Ngọc Lan là vợ chưa cưới của anh phải không
+Ngọt ngào, nồng thắm em là... hoa xinh.
 Ngồi cạnh hà ni phát hiện ra điều ấy nên hỏi nhanh
 Ngồi dưới gốc cây một cách mệt nhọc
 Ngồi lên xe cùng nhau
@@ -2420,6 +2487,7 @@ Như có ai đó đang chơi đùa
 Như có giông như giữa đồi gió hú
 Như có một vật gì đó chặn ngang cổ họng
 Như cô đang xoa đầu một đứa trẻ nhỏ
+Như hôm qua vừa trao vội cho người
 Như không khí, như màu xanh lá cỏ
 Như kể công cha
 Như là gói cả mùi hương đất trời
@@ -2587,6 +2655,7 @@ Nhặt cánh hoa rơi chẳng thấy buồn
 Nhặt lòng theo chiếc lá rơi
 Nhị tuy đã chết
 Nhớ Bác nói láo cây xoài em không ra quả thật
+Nhớ hai ta và mối tình ngày ấy
 Nhớ lại câu nói của quân bữa tối
 Nhớ lại giấc mơ vừa rồi Quân lại tiếp tục khóc
 Nhớ lời tôi đấy đó sẽ là người
@@ -2597,6 +2666,7 @@ Nhớ ngay lại chuyện đêm qua khiến cho chinh bật dậy
 Nhớ nhà thửa nhỏ
 Nhớ quá đi thôi
 Nhớ tôi nói đây là người khách của cô
+Nhớ về anh, vàng au màu hoa ấy
 Nhờ có em mà anh lấy lại được tinh thần
 Nhờ vậy phong mới tỉnh táo
 Những Tưởng có khi do lúc đầu em bị ám ảnh về thảo
@@ -2659,6 +2729,7 @@ Những trang tin số liệu lại quay về
 Những trước khi chết Nhi cũng có phát điên
 Những tấm hình được chụp từ góc xa
 Những vong khác cũng phải có phép chứ
+Những vạt nắng cong mềm như dải lụa
 Những vật tầm thường cũng viết thành thơ
 Những vừa cúii người thì ngã sắp luôn xuống sàn nhà
 Những âm thanh kỳ dị phát ra rầm rộ
@@ -2814,10 +2885,13 @@ Nỗi trống trải se thắt hồn thiếu phụ
 Nỗi vui buồn đem chia sẻ cùng nhau
 Nỗi đau ấy biến thành lòng dũng cảm
 Nội dung tin nhắn và đọc được như sau
+Nợ em chỉ một lời yêu chưa tròn
+Nợ em thêm một câu thơ
 Nợ trần ai hay mối duyên tiền kiếp
 Nụ hôn nồng hoang dại đến đê mê.
 Nụ hôn nồng tê tái lúc đắm say
 Nửa giờ sau
+Nửa thu còn lại tần ngần điều chi
 Ok bận thì cứ việc đi
 Phong
 Phong cách phối đồ hiện đại
@@ -2834,6 +2908,7 @@ Phong vẫn còn sống nên sau đó vài giây
 Phong vẫn cương quyết
 Phong đang trong tình trạng choáng váng
 Phong đáp
+Pháo vu quy nô nức bến xa gần
 Phân tích bài thơ Nhàn của Nguyễn Bỉnh Khiêm
 Phía bên ngoài cửa có ai đó đang đứng
 Phía sau đầu vẫn còn hơi đau
@@ -2929,7 +3004,9 @@ Ra đường bây giờ sợ lắm
 Ra đến chỗ để xe thì Phương chép miệng
 Ru lòng ta say mê niềm hạnh phúc
 Ru phím miên tình trong bóng mưa...
+Ru tình ta đó thiết tha... nồng nàn.
 Ru tôi lớn khôn
+Ru tôi ngọn gió trang đài
 Run rẩy nghĩ rằng mình gặp ma
 Rét đã ngọt vào da
 Rót vào hồn sầu cung thương trầm lắng
@@ -2971,6 +3048,7 @@ Rời khỏi căn phòng mà Hà vẫn còn sởn cả gai ốc
 Rời mái trường thân yêu
 Rời nắng chang chang
 Rụng đầy trước ngõ
+Rủ nhau xây tổ một đời yêu thương
 Sai một li đi một dặm
 Sao Cái Thảo nó không về nhà mà cứ ở đó hả bà
 Sao Toàn những cái chuyện không đâu vậy anh
@@ -2986,6 +3064,7 @@ Sao con tôi lại khổ thế này hả trời
 Sao cô lại leo lên giường nằm chung với tôi không có sợ sao
 Sao em vừa mang nỗi niềm cúc tím
 Sao khi trở lại anh cũng leo lên nằm chung
+Sao không cầm, và giữ cho riêng anh
 Sao không đưa anh ấy đi vào bệnh viện chữa trị
 Sao khẽ khẽ tiếng lá rơi còn đó?
 Sao lại chưa trải qua hết kiếp luân hồi
@@ -3036,6 +3115,7 @@ Sau đó họ đốn chặt những cái cây to lớn
 Sau đó thì mới mở cửa ra
 Sau đó ông mới quay lại trả lời chú tiểu
 Say đắm lạ những chặng đường phía trước...
+Se lòng ngọn gió heo may
 Sinh cơ lập nghiệp
 Sinh li tử biệt
 Sinh lão bệnh tử
@@ -3085,6 +3165,7 @@ Sấm chợp đang giật lên từng hồi
 Sầu Thu kết lại cùng mưa
 Sắc hồng tựa trái tim tan vỡ
 Sắc mặt của quân sau một tuần cũng đã khá hơn
+Sắc thu vàng rực mắt người long lanh
 Sắp có chuyện không hay rồi đấy
 Sắp tới bốn mươi chín ngày của con bé kia
 Sẽ dừng lại khi chỉ còn một chiếc
@@ -3121,7 +3202,9 @@ Ta nghĩ mọi chuyện không đơn giản như vậy đâu
 Ta ngồi đong cả một trời kỷ niệm
 Ta thấy có những người mặc đồ tây
 Ta thấy gì đâu sau sắc yêu kiều
+Ta thấy tháng mười bất chợt
 Ta viết tiếp dạ khúc Mưa hiu hắt
+Ta yêu nhịp đời rộn rã
 Tai nghe sản xuất bản năng mách bảo chính không nên đi xuống
 Tai nạn diễn ra chớp nhoáng ngay ở đầu hẻm giao với đường lớn
 Tai vách mạch rừng.
@@ -3163,6 +3246,7 @@ Thay đổi một cách quá nhanh chóng
 Theo bước mùa xuân
 Theo cơn mưa bay buồn
 Theo dòng nước mênh mang
+Theo gió thu quyện thắm dạ ân tình
 Theo kịp chương trình
 Theo ngày theo tháng
 Theo như lời của Sâm Trai phiên dịch lại
@@ -3175,16 +3259,21 @@ Thiện tai Thiện tai
 Thoảng mùi hương cốm nơi đâu?
 Thoảng sắc hồng, làn mây lướt trên cao
 Thoảng thơ từng búi tóc dài
+Thoảng trong cơn gió nhẹ nhàng
 Thu chưa phai vội bỡ ngỡ đông về
 Thu chở em qua hay đông đưa em đến?
+Thu còn lưu luyến mê say chốn này
+Thu còn vương vấn mơ màng
 Thu dùng dằng nên hoa mãi ngẩn ngơ
 Thu dọn xong xuôi
+Thu nay còn lại ít ngày
 Thu qua rồi chiếc lá chẳng còn xanh
 Thu sắp tàn lá vẫn rơi mê mải
 Thu tiếp hồn tôi người hữu hiện
 Thu vấn vương lá còn rơi rụng
 Thu về cho cô không ít tiền bạc mối quan hệ tốt
 Thu vội vã nhặt gom từng hạt nắng
+Thu đi qua mới nửa phần
 Thua keo này bày keo khác
 Thua thầy một vạn không bằng kém bạn một li
 Thuyền to sóng cả.
@@ -3193,9 +3282,17 @@ Thuở đó nào tôi đã biết gì
 Thành lập Đảng Cộng sản Việt Nam
 Thành đô hoa lệ
 Tháng Mười lá vẫn còn bay
+Tháng Mười về trong nỗi nhớ mênh mông
+Tháng Mười về, một chút nhớ mong manh
 Tháng Mười đêm vắng lê thê
+Tháng Mười, em đến thật rồi
 Tháng hai trồng cà, tháng ba trồng đỗ.
+Tháng mười ca khúc khải hoàn... Nhé em!
+Tháng mười chút lạ, chút quen
 Tháng mười cong chiếc lá khô
+Tháng mười em lại dỗi hờn bâng quơ
+Tháng mười góc phố liêu xiêu
+Tháng mười hạnh phúc ngập tràn
 Tháng mười là tháng mười ơi
 Tháng mười lắm kẻ sang ngang
 Tháng mười một anh vẫn về lối cũ
@@ -3210,15 +3307,23 @@ Tháng mười một Đông sang rồi em đó
 Tháng mười một đã về rồi em nhỉ!?
 Tháng mười một đẹp lại duyên
 Tháng mười một,chờ mong duyên mới
+Tháng mười nay ghé về nhưng rất lạ
+Tháng mười ngào ngọt lời thơ
+Tháng mười ngọt ngào quá đỗi
+Tháng mười nhớ nhớ quên quên
 Tháng mười qua theo tờ lịch dần rơi
 Tháng mười rồi mình cùng sánh bước chung
 Tháng mười rồi mình hò hẹn nhé anh
 Tháng mười rồi, lành lạnh gió đông qua
 Tháng mười rồi, sao nhung nhớ còn đây?
 Tháng mười rồi, đêm sẽ bỗng dài hơn?
+Tháng mười thu rải lối đi
 Tháng mười tháng mười đấy.
+Tháng mười thương nhớ ngẩn ngơ
 Tháng mười tưởng xa lắm.
+Tháng mười tới vẹn tròn bao đôi lứa
 Tháng mười vương mùi hoa sữa
+Tháng mười vẫn đợi vẫn trông tháng mười..
 Tháng mười về
 Tháng mười về anh chợt biết làm thơ
 Tháng mười về bên góc phố liêu xiêu
@@ -3234,8 +3339,12 @@ Tháng mười về ta thêm yêu cuộc sống
 Tháng mười về thu cũng thật đáng yêu
 Tháng mười về tôi lại nhớ người ta
 Tháng mười về yêu thương từng câu hát
+Tháng mười về, hương xưa rơi đầy áo
 Tháng mười về... Thu rất vội em ơi!
 Tháng mười vừa sang hơi gió
+Tháng mười êm dịu mong chờ bình an.
+Tháng mười đó hàn sương nhè nhẹ trải
+Tháng mười đến thu tàn trêu gió lộng
 Tháng mười ơi cho ta phút êm đềm
 Tháng mười ơi gieo vui cơn gió lộng
 Tháng mười ơi yêu thương nặng ân tình
@@ -3414,6 +3523,7 @@ Thổi về xao động cả:
 Thổn thức một người xa vắng...
 Thổn thức nhìn quanh, chẳng còn ai bên cạnh
 Thời gian bước triền miên
+Thời gian lỗi nhịp tuần hoàn
 Thời gian như là gió
 Thời gian này Thoải mái và tự do
 Thời gian rảnh Trinh đi chơi đi làm đẹp
@@ -3483,6 +3593,7 @@ Toàn thân của chị nóng ran
 Tra tấn tinh thần của em lúc mấy giờ
 Trang viết chỉ toàn giấy trắng
 Trao dồi đạo đức
+Trao em tình cảm chứa chan
 Trao hi vọng ta dệt câu thơ, nhạc...
 Trao hơi ấm khi đông vừa chạm ngõ
 Trao nồng nàn còn đó những xuyến xao
@@ -3574,6 +3685,7 @@ Trong khi người tốt với anh hết lòng,Yêu Anh
 Trong khói thuốc và giận hờn nức nở
 Trong lành biết bao!
 Trong lòng anh nghe một chút nao nao
+Trong lòng thầm tiếc một thời ngu ngơ
 Trong lúc hà ni hốt hoảng
 Trong lúc luống cuống
 Trong lọ thủy tinh ấy
@@ -3592,6 +3704,7 @@ Trong thuật làm phép thì tôi biết là khi muốn giúp ai
 Trong tim anh những nốt nhạc ngân lên
 Trong truyện chúng ta đều được nghe qua
 Trong tâm trí của Trinh lúc này chỉ nghĩ đến quân
+Trong vườn đua nở sắc hoa
 Trong điện thoại Hạ liền đáp
 Truyện làm ăn của nó phất lên là cũng nhờ thế
 Truyện âm là không có đùa được đâu
@@ -3604,12 +3717,16 @@ Trâu già thích gặm cỏ non.
 Trên bàn nơi đặt Kuman
 Trên bầu trời cao
 Trên bầu trời xanh
+Trên cao chim hót gọi mời
 Trên chiếc bàn đó ngoài hoa tươi bát nhang và đến thơm
+Trên con phố xá chuyển mình
 Trên con đường đời
 Trên cành cây vẫn vương vài tia nắng.
 Trên cành, chim sáo
 Trên dốc nhớ chợt trời lên cơn bão
 Trên giường của cô vẫn còn những tấm ảnh chụp quân vương vãi
+Trên những con đường hối hả
+Trên tay cầm những vần thơ
 Trên tay của Trinh đủ các loại bánh kẹo đồ chơi mới
 Trên thảm cỏ mấy hạt còn chưa nở
 Trên xe có tài xế và một cậu lơ xe và anh
@@ -3723,6 +3840,8 @@ Tây Bắc đang đợi
 Té nước theo mưa.
 Tên gọi, bí danh, bút danh
 Tên trộm sẽ phá cửa và xông vào
+Tìm anh đâu giữa... mịt mù hôm nay!
+Tìm chung nhịp đập một lòng nên đôi.
 Tìm em trong đôi mắt của mùa thu
 Tìm hiểu về bài thơ Tự Tình của Hồ Xuân Hương
 Tìm kiếm thầy giỏi nhất để đến xem
@@ -3743,15 +3862,18 @@ Tình ta như hàng cây
 Tình theo nét bút
 Tình thương con cần
 Tình thương quán cũng là nhà, lều tranh có nghĩa hơn tòa ngói cao.
+Tình yêu ơi, ngọt ngào và cay đắng
 Tóc gáy của cô dựng đứng lên
 Tóc mẹ bạc trắng
 Tóc mẹ thêm màu
 Tóm lại em thà tin còn hơn là không tin
 Tô thắm sắc cho vườn hoa sống động
+Tô điểm trang má thắm đượm môi hường
 Tôi Kể tóm tắt cho nghe
 Tôi biết em là cô gái mộng mơ
 Tôi biết em rất buốt đôi bàn tay
 Tôi biết em vốn yếu mềm như cỏ
+Tôi bỏ lại một mùa thu cuối gió
 Tôi chỉ mong là cái tâm nó an mà thôi
 Tôi chỉ muốn
 Tôi chỉ vô tình thôi
@@ -3788,6 +3910,7 @@ Tôi mở cái bản đồ trong điện thoại ra rồi nói
 Tôi nghe xong thì cảm ơn rối rít
 Tôi nghe xong thì ôm cái bụng đói
 Tôi ngậm cái bánh mì nhai ngấu nghiến
+Tôi ngồi đây, ngóng nhìn bên cửa sổ
 Tôi nhấp ngụm trà rồi hỏi
 Tôi nhớ lời người đã bảo tôi
 Tôi nhớ tới Lan cô ấy bị tai nạn
@@ -3844,6 +3967,7 @@ Tại sao lại thế Sao mày lại đối xử với tao như vậy
 Tại sao nó không về báo mộng cho chúng tôi
 Tại sao tại sao nó chết rồi
 Tại Đám ma
+Tạm biệt Thu, rơi lệ đón Đông.
 Tạnh từ lúc nào
 Tạo nên những hình thù kì lạ cũng đã được lưu trữ
 Tấc đất tấc vàng
@@ -3958,6 +4082,7 @@ Và phương trời thẳm mờ sương cát
 Và phải nhớ kỹ là không bao giờ được bỏ bê nó
 Và rồi Cậu ta đi luôn
 Và sáng mai nếu chiếc xe kia không trở lại
+Và ta tiếp chặng hành trình
 Và thường đem lòng yêu thương cô chủ quán đây
 Và thật bất ngờ đưa tay đẩy mạnh một cái
 Và tiến thẳng ra quốc lộ, phóng như bay theo hướng lập trình
@@ -3975,6 +4100,7 @@ Và định nói gì đó nhưng không kịp
 Và đỏ như màu máu thắm pha
 Vài người nữa cũng đổ xô chạy đến
 Vàng lối về lặng sải bước nôn nao
+Vàng thêm nắng ấm một trời xuyến xao
 Vào một đêm trăng khuyết
 Vào đêm run rẩy sầu cơn mưa nhỏ
 Váy trời ban phước
@@ -3993,11 +4119,14 @@ Vô tình anh không nói
 Vô tình em không biết
 Vô tình nói một câu
 Vô tình suốt cuộc đời
+Vô tư trong những buồn tênh
 Văn hay chữ tốt
 Vương vấn mái trường
+Vườn hồng ấm áp tình thơ thắm nồng.
 Vượt trên tất cả
 Vạn vật khô ráo
 Vả lại
+Vấn vương chẳng nói nên lời
 Vất vả nắng sương
 Vần thơ ươm trong tâm trí mơ hồ
 Vần vũ mây che đèn cao áp chập chờn
@@ -4015,6 +4144,7 @@ Vẫn quay đều cùng mơ ước tuổi xanh..
 Vẫn thấy thật vui
 Vẫn tiếc nuối những ngày thu tràn nắng
 Vẫn vang lời tha thiết
+Vẫn ở đó, vạt êm bên vồng cải
 Vật đẹp biết bao!
 Vậy Bây giờ chúng ta cần phải làm sao
 Vậy Bây giờ chị muốn chúng tôi phải làm cái gì
@@ -4110,6 +4240,7 @@ Vừa ngọt ngào rực rỡ đóa hồng nhung?
 Vừa nói Trinh vừa khóc sướt mướt
 Vừa thông minh lại vừa xinh đẹp
 Vừa tắt máy trinh đi ngay sang phòng thờ của kumanthong
+Xa anh rồi còn nguyên màu nhung nhớ
 Xa cách
 Xa mặt cách lòng
 Xa nhau mới hiểu đoạn trường
@@ -4133,6 +4264,7 @@ Xem nhân viên nó làm ăn thế nào
 Xem thêm
 Xem thêm các bài thơ khác:
 Xin anh không nhắc lại​
+Xin chào nhau nhé tháng mười
 Xin chào toàn thể quý thính giả của Nghe đọc truyện chấm net
 Xin cảm ơn quý khán thính giả đã chú ý lắng nghe
 Xin kính chào qúy thính giả của nghe đọc truyện chấm net
@@ -4170,6 +4302,7 @@ Xẩm Say xong thì thở phào hắn liền đáp
 Xởi lởi trời cho, so đo trời lấy lại
 Yên tâm tao sẽ giúp mày
 Yêu
+Yêu loài hoa và một thời khờ dại
 Yêu là chết ở trong lòng một ít
 Yêu lắm trường lớp ơi
 Yêu mẹ thương cha
@@ -4177,6 +4310,7 @@ Yêu nhau cau sáu bổ ba, ghét nhau cau sáu bổ ra làm mười
 Yêu nhau vạn sự chẳng nề, dẫu trăm chỗ lệch cũng kê cho bằng
 Yêu nhau xa cũng nên gần, ghét nhau cách một bàn chân cũng lìa
 Yêu nhau yêu cả đường đi, ghét nhau ghét cả tông chi họ hàng
+Yêu thương giấu ở trong lòng
 Yêu thương nó hơn
 Yêu trẻ, trẻ đến nhà; kính già, già để tuổi cho.
 Yêu, là chết ở trong lòng một ít
@@ -5139,6 +5273,7 @@ xạ thủ
 Đi lấy hàng mấy hôm cho nên đâu có biết đâu
 Đi ngay đi
 Đi qua cùng heo may.
+Đi qua góc phố tháng mười
 Đi theo ta
 Đi theo ta nào
 Đi thăm Lúc này là không có tiện đâu
@@ -5169,6 +5304,7 @@ xạ thủ
 Đung đưa theo gió
 Đàn bà con gái ai cũng có lòng đố kỵ
 Đàn con thơ dại
+Đành đem thơ trải lối đời tháng năm.
 Đám kia thì về nhả tiếp khách
 Đám ma cũng đã xong xuôi
 Đám ma của bạn diễn ra chóng vánh
@@ -5207,6 +5343,7 @@ xạ thủ
 Đêm dài thế khi nào thôi trăn trở
 Đêm gom sương tưới vỡ những xanh màu
 Đêm khuya sương xuống
+Đêm mưa buồn, tình ngóng duyên chờ.
 Đêm mở mắt nhìn trăng rơi xuống vực
 Đêm nay nghe thấy những tiếng động lạ
 Đêm nay trăng sáng
@@ -5339,12 +5476,16 @@ xạ thủ
 Đến đây thu dọn tất cả những thứ còn sót lại và lập bản
 Đều nhớ rằng trong những tráp cuối cùng của truyện
 Để Bác sĩ về tận nhà cũng chỉ là uống thuốc
+Để Thu hờn dỗi chẳng hồng má ai
+Để Thu nhặt nốt hoa cài tóc em.
 Để anh đưa em về
 Để buồn không đến gọi lời Thu xưa
 Để bây giờ thầm tiếc
 Để bảo đảm an toàn cho bản thân mình
 Để bọn họ lừa đảo trục lợi mà thôi
+Để chiều hờn dỗi quắt quay nhớ người
 Để cho Hoa nắng dịu êm
+Để cho Thu nhé tỏa bay hương nồng
 Để cho ai đó mơ màng dáng ai
 Để cho anh tới dạt dào bên Em
 Để cho anh tới xóa buồn buồn đi
@@ -5371,6 +5512,7 @@ xạ thủ
 Để dịp khác việc này đột xuất quá
 Để em hé nụ môi xinh
 Để hỏi thăm tình hình con bé dưới đó ra sao
+Để hồn lơ lửng trên vai em rồi
 Để khói yêu thương mùa xanh nụ
 Để lấy lại tinh thần về còn thi vào trung học phổ thông
 Để mình mẹ mãi
@@ -5385,8 +5527,11 @@ xạ thủ
 Để sớm mai sương giăng mành thổn thức
 Để ta rảo bước khoan thai trên đường
 Để thuyền cập bến chòng trành hương yêu
+Để tháng mười khóc con nắng lìa đôi
 Để thỉnh về một thứ
 Để tâm trí đem hoà cùng sách vở
+Để tôi lạc bước ngọt ngào
+Để tôi thắp sáng ước mơ.
 Để tôi vào bên trong nói chuyện với trưởng làng
 Để vợ lên đầu
 Để xem thầy nói gì không
@@ -5415,6 +5560,7 @@ xạ thủ
 Đợi làm gì ai biết trước mà mong.
 Đợi mẹ gặp được bà dân tộc ấy rồi tính tiếp
 Đợi một lúc sau thấy mẹ của Thảo tới
+Đợi tháng mười rơi nhẹ xuống lòng sân
 Đợi áo ai hồng
 Đợi đến giờ bà bói làm lễ
 Đủ cho lúa chín vàng.
@@ -5433,7 +5579,9 @@ xạ thủ
 Đừng hôn, dù thấy cánh hoa tươi
 Đừng làm ẩm áo khách chưa quen.
 Đừng lại gần tao
+Đừng mang sương phủ bờ vai
 Đừng nghĩ quẩn anh nhé
+Đừng nha vội vã mang Đông
 Đừng tắm chiều nay, biển lắm người.
 Đừng ôm gối chiếc, đêm nay ngủ...
 đang hớn hỏ vì nghĩ đây là cuộc gọi của Quân
@@ -5478,6 +5626,7 @@ xạ thủ
 Ơi mẹ... Mẹ ơi!
 ơ Kìa sao về sớm thế
 Ươm mầm xanh đón đợi xuân hường
+Ươm mộng mơ đón đợi gió Đông.
 Ước gì ước gì anh ấy là chồng của mình
 Ước mong ân ái đậm say
 Ướt như chuột lột
@@ -5488,6 +5637,7 @@ xạ thủ
 Ảnh hưởng của Hồ Chí Minh ở Việt Nam ngày nay
 Ầy
 Ẩn số khó tìm phép tính chẳng giản đơn
+Ẩn trong thi tứ những điều thiêng liêng
 Ốm đau, bệnh tật
 Ồn ào quá mức
 ờ con vất đi đi, mẹ con cứ nghe linh tinh
@@ -5499,6 +5649,7 @@ xạ thủ
 Ở dưới đó
 Ở một mình có nhà thế này thì sướng quá rồi còn gì
 Ở một mình thì chả có cái gì
+Ở nơi nào, người có biết hay không?
 Ở thôn người ta chỉ quen gọi bấy là bà len thôi Nhưng mà
 Ở đây cũng mới có điện lắp về
 Ở đây cơ mà

@@ -340,6 +340,7 @@ Ama diyeceksin ki, o keyfinden adam vurmadı, canını kurtarmak için vurdu.
 Ama doktor pek tehlikeli bulmuyordu.
 Ama eğlendik değil mi?
 Ama geceleri çınarın altında adamakıllı coşar, gözlerini kıza diker, üfler, üflerdi…
+Ama hayatta kalmayı, binlerce yıllık kadim geleneği sürdürmeyi başardılar.
 Ama hayret ediyorum.
 Ama hayır.
 Ama işte o kadar.
@@ -1623,6 +1624,7 @@ Bilemezsin.
 Bilemiyorum.
 Bilemiyorum...
 Biletçi gelerek buradan ileri gidilmeyeceğini söyledi.
+Bilgi Yönetimi ve Mevcut Durum Analizi
 Bilhassa bu kadar kalabalığın içinde yalnızlık ne acı oluyor yarabbi!
 Bilhassa bu rivayetlerin bir kısmının Şükufe’den çıktığını hissediyordum.
 Bilhassa böyle bir tiyatrocu kız için!
@@ -2111,6 +2113,7 @@ Biz alışkınız değil mi?
 Biz ancak o zaman sahiden yaşamaya, -ruhumuzla yaşamaya- başlıyorduk.
 Biz bile burada, sefarethanede büyük bir toplantı yaparak zaferin heyecanını tatmıştık.
 Biz bunları kendisine veririz.
+Biz buradayız, diyordu… Yüzlerce yıldır, burada…
 Biz buraya yabancı bir baltanın girmemesi için hep birden karşı koyduk.
 Biz de ağaçların altına, onlara karşı oturduk.
 Biz de fikir sahibiyiz…
@@ -2230,6 +2233,7 @@ Bu bir tayını da üç günde yiyor, kalan ikisini satarak katık yapmak istiyo
 Bu bir tuzak!
 Bu bir tuzak.
 Bu bir yalan.
+Bu bir yönüyle yeni bir durum tazminidir de.
 Bu bir şaka mı?
 Bu bir...
 Bu bıçkın fanilasını ne zaman giymiştim?
@@ -2276,6 +2280,7 @@ Bu dördüncü gelişimiz.
 Bu dünyada merhamet ehli çoktur, seni herhalde istediğinden ziyade, memnun ederler.
 Bu düşünce ona dayaktan ve hapisten daha acı geliyordu.
 Bu elimle…
+Bu eser, kültürel öneminden ötürü Türkiye Cumhuriyeti'nde kamuya maledilmiştir.
 Bu eski püskü elbiseli, siyah fanilalı, ince kumral bıyıklı külhanbeyini süzdü.
 Bu esmer dağların ortasında, kirli bir bakkal önlüğüne yamanmış yeşil kadifeyi andırıyordu.
 Bu esmer ve yağlı çehrede çiçek belki en korkunç tahribatını yapmıştı.
@@ -2298,6 +2303,7 @@ Bu gerçek değil.
 Bu gerçek mi?
 Bu gerçek olamaz.
 Bu gerçek.
+Bu gruplar aslında göçmenliği ve mülteciliği katmerli yaşayan, öteki içerisindeki “öteki”lerdir…
 Bu gülüşlerin arkasında bir şey saklı gibiydi.
 Bu günde doğanlar halim selim ve felaketleri hafif ve devamsız olur, dedi.
 Bu güzel.
@@ -2441,6 +2447,8 @@ Bu ona fenalık değil ki, doğrudan doğruya iyilik…
 Bu oydu.
 Bu oğlandan gayrı sana hayır gelmeyeceğini anladın.
 Bu portrede ne vardı?..
+Bu rapor bir kamu malıdır.
+Bu raporun içeriği yalnızca hazırlayanlarına aittir ve Avrupa Birliği’nin görüşlerini yansıtmamaktadır.
 Bu resmi pek mi merak ettiniz?
 Bu sabah.
 Bu sadece...
@@ -4030,6 +4038,7 @@ Eyvah!
 Eyvah.
 Eyvah…
 Eyvallah.
+Ezidi, Dürzi, Ermeni, Süryani Çingene, Filistinli gibi etnik ve dinsel azınlıklardan da oluşuyor.
 Eğer Bekir yalnız dayak atsa, bunu da tenha bir yerde yapsa, hiç ağırıma gitmezdi.
 Eğer ben bu kızla buna rağmen hayatımı birleştirmek istiyorsam, bu sebepsiz değildi.
 Eğer bugünlerimde beni sen de yalnız bırakırsan ne yaparım ben o zaman?
@@ -4275,6 +4284,7 @@ Fark eder mi?
 Fark etmez.
 Fark ettim.
 Farketmez.
+Farklılıkların belirginleşmesi, yeni rol ve statüler ilk bakışta dışarıdan görülemez.
 Farkında olmadan geç vakte kadar içmişiz.
 Farkında olmadan yapmak istediği bu hareket, ona şimdi en lüzumlu bir şeymiş gibi görünüyordu.
 Farkındayım.
@@ -4292,8 +4302,10 @@ Fevkalade ciddi bir şey düşünüyor gibiydi.
 Fevkalade sevindim.
 Fevkalade üzüldüler.
 Fevkalade.
+Fikir ve Sanat Eserleri Kanunu'na göre eserin koruma süresi dolmuştur.
 Fikrimi değiştirdim.
 Filanca filan yerde benim lehimde söylemiş!
+Fotokopi yapılabilir, elektronik ortama kopyalanabilir, yaygın olarak dağıtılabilir.
 Fransız seyyah: "Bir sanatkar…" dedi, "Ümidi kırılmış bir sanatkar…".
 Frau Tiedemann tekrar yanıma gelmişti.
 Frenklere karşı bağdaş kurup oturtmak olur mu?
@@ -4546,6 +4558,7 @@ Gidemem.
 Gidemezsin.
 Gider, gider!
 Giderim…
+Gidilen yer ve mekâna kendini ait hissetmez, orada varla yok arasında bir yerde dururlar.
 Gidin buradan!
 Gidin buradan.
 Gidin!
@@ -4764,6 +4777,7 @@ Gözümün yaşını silip ayaklarımı kuru otlarda sürüyerek uzaklaştım.
 Gözümün önünde yepyeni bir dünya açılır gibiydi.
 Gözümün önüne, bu salonda muhakeme olunurken onun alaka ile beni dinlemesi geldi.
 Gözünü etrafta bir gezdirdi.
+Göçmenler ve mülteciler söz konusu olduğunda yerli halkta şöyle bir algı oluşur.
 Göğsü ağır ağır kalkıp inerek devam etti.
 Göğsü bağrı açık ve fitil gibi sarhoştu.
 Göğsü bağrı çıplak genç kadın birkaç ayık hovardanın kucağında dolaşıyordu.
@@ -4843,6 +4857,7 @@ Güzin Hanım hayretle döndü.
 Güzin Hanım istemeyerek yaklaştı.
 Güçlü ol.
 Güçlükle boş bir masa bulduk.
+Gıda Dışı Malzeme Dağıtılması
 Gıpta ettim.
 Ha ha ha!
 Ha ha!
@@ -6049,6 +6064,7 @@ Kaymakamla candarma kumandanının kendisine neler yaptığını anlattı.
 Kaymakamın hemşerisi…
 Kaymakamın suratına şiddetle indi.
 Kaymakamın yanına girdi…
+Kaynak gösterilerek rapordan alıntı yapılabilir.
 Kaynatam öldü ve baldızımla kayınlarım başıma kaldı.
 Kayınbiraderleriniz küçük mü?
 Kayıpmışlar da, gördün mü diye soruyorlar!
@@ -6342,6 +6358,7 @@ Korkuyorsun.
 Korkuyorum!
 Korkuyorum.
 Korkuyu şimdiye kadar içimde böyle madde halinde hissetmemiştim.
+Koruma süresi eser sahibinin yaşadığı müddetçe ve ölümünden itibaren yetmiş yıl devam eder.
 Kovuldun!
 Kovuldun.
 Koy başını göğsüme, böylece, ellerin avuçlarımın içinde bana anlat.
@@ -7648,6 +7665,7 @@ On biri geçiyordu.
 On dört odalı harap evden ve birkaç parça eşyamızdan başka bir şeyim kalmamıştı.
 On dört yaşından on sekiz yaşına kadar yalnız boş gezdi.
 On gün kadar sonra uzun bir mektup aldım.
+On ikinci maddenin birinci fıkrasındaki hallerde koruma süresi, eserin aleniyet tarihinden sonra yetmiş yıldır.
 On sene arasam böyle kafa dengi bir arkadaş bulamazdım.
 On sene bu!
 On sene, hiç azalmayan bir aşkla, onu sevmekte devam etmiştim.
@@ -7881,6 +7899,7 @@ Orada, gözün içinde ne varsa hepsini getir!
 Orada.
 Orada; yarım kalmış bir şikayete devam etmek istiyormuş gibi, ağzı aralık duran iskeleti gösterdi.
 Oradaki evlerden birinin kapı aralığına gizlenerek beklemeye başladım.
+Oradaki yoksulluktan, onlar yüksünmez.
 Oradakilerden birkaçı güldü ve Ali derhal sustu.
 Oradalar!
 Oradalar.
@@ -7957,6 +7976,9 @@ Ova düzdü.
 Ovada, çadırın önünde, dört beş kişi oturmuşlardı.
 Ovanın ortasındaydık.
 Oynat!
+Oysa gelenler de içlerinde “ötekileri” barındırıyor.
+Oysa öteki de içinde “ötekileri” barındırır.
+Oysaki özellikle kitlesel göçle gelen topluluk bütün kesitleriyle, bütün katmanlarıyla, bütün renkleriyle göç eder.
 Oyum!
 Oyun başladı…
 Oyun bitti.
@@ -8169,6 +8191,7 @@ Raif efendinin yattığı odaya girince büsbütün şaşırdım.
 Raif efendinin ölümü bana o kadar tesir etmemişti.
 Raif efendiyi son bir defa görmeden gitmek istemiyordum.
 Raporlar verildi ve fezlekeler yapıldı.
+Raporun tamamı veya bir kısmı izinsiz olarak basılıp çoğaltılabilir.
 Razı olduk.
 Reddedildi.
 Reis bey, müsaade ederseniz artık her şeyi, bütün hakikati söyleyeceğim!
@@ -8232,12 +8255,14 @@ Sadece, kalkıp, kimseye haber vermeden gitmeyi ve bu sıkıntılı vaziyetten k
 Sadece...
 Sadece: "Sen de biraz değişmişsin!" dedi.
 Sahi mi?
+Sahibinin ölümünden sonra alenileşen eserlerde koruma süresi ölüm tarihinden sonra yetmiş yıldır.
 Sahiden anlamıyorum ne demek istiyorsun?
 Sahiden benim böyle bir şey söyleyeceğime inanacak kadar budala mıydı?
 Sahiden böyle bir anneniz olmasını ister miydiniz?
 Sahiden mi?
 Sahiden müteessir olmuştu.
 Sahilde yan yana dolaşıyor ve sadece birbirimize bakışıp gülümsüyorduk.
+Sahip olmamak, fakirliği değil mülkiyetsizliği ifade eder.
 Sahnenin arka kapısından dışarı bakarak söylendi..
 Sahneye yakın köşelerden birinde de bir kuyruklu piyano vardı.
 Sakin ol dostum.
@@ -9078,6 +9103,8 @@ Sıkıcı.
 Sıkıldım.
 Sıkılıyordum, sadece sıkılıyordum.
 Sıkıntıların nedir?
+Sınıfsal, etnik, dinsel, politik, vb. farklılıklar bir kenara itilir.
+Sınırı aşıp gelen yabancılar sanki homojen bir kütleden ibarettir, kendi içerisinde farklılıklar barındırmaz.
 Sıra bende.
 Sıra sende.
 Sırada kim var?
@@ -9099,6 +9126,7 @@ Sırtını merdivenin duvarına vererek bekledi.
 Ta ilerideki köşede bir polis dolaşıyordu.
 Ta ilerilerde büyük ve motorlu bir mavna, rıhtımdaki arabalara meyve ve sebze boşaltıyordu.
 Ta kendisi.
+Ta ki, toplumsal yaşamda farklılıklar yeniden belirginleşmeye başlayıncaya kadar.
 Tabancasını almamıştı.
 Tabi ki hayır.
 Tabi ki.
@@ -9357,6 +9385,7 @@ Tomar tomar kağıtlar gitti, geldi.
 Tombazların demir gövdelerine vuran sular kuş cıvıldamalarına benzeyen sesler çıkarıyordu.
 Toplanın!
 Toplanın.
+Toplumsal Ağlar Aracılığıyla Bilgi Yayımı
 Topu topu bir kazı vardı; onun da yumurtalarını bakkal İlyas Efendi'ye bağlamıştı.
 Topuğumun üzerinde hızla geriye döndüm.
 Tren hareket etti.
@@ -9614,6 +9643,7 @@ Ve karşımdaki kandilin arkasında, ona benzeyen sayısı bellisiz kandiller s�
 Ve korkunç çıkış tekrar başlıyordu.
 Ve kızı alıp gitti.
 Ve memleketin kadınları onun şiirlerini sonsuz bir baygınlık ve şehvetle okurlardı.
+Ve mülksüzlük iyidir, göç yolunda ağırlık yapmaz.
 Ve münasebetimizi arkadaşlık hududunun dışına çıkarmak istedim…
 Ve mütemadiyen dönen tahtadan çarklar gıcırdar, gıcırdar.
 Ve nihayet günün birinde korktuğum şey oldu.
@@ -9822,6 +9852,7 @@ Yandan vuran elektrik ışığı kirpiklerinin gölgesini burnunun üst tarafın
 Yandın garip Halil'im, yandın!
 Yangın!
 Yani
+Yani Suriyeliler sadece Müslüman, Hristiyan, Arap, Kürt ve Türkmenlerden ibaret değil.
 Yani benim hiçbir dinle alakam yok!
 Yani dün, cumartesi günü, öğleüzeri eve gelmiş ve soyunmuştum.
 Yani hakikaten kuvvetli, tam bir erkek.
@@ -10112,6 +10143,7 @@ Yok, hayır.
 Yok, sağ ol.
 Yok, yok.
 Yok.
+Yokluk, yoksulluğun karşılığı değildir.
 Yoksa başka türlü mü?
 Yoksa böyle birdenbire başlayışım namusuna mı dokundu?
 Yoksa dün akşam ciddi değil miydiniz?
@@ -10383,6 +10415,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Çenesinin adaleleri gerilmişti.
 Çevrilmemiş altyazı
 Çift sürme zamanıdır, işler yarım kalır diye tereddüt ediyordu.
+Çingene toplumuna ait fotoğraflarda yaşamları çoğunlukla, yoksulluk ve yoksunluk kareleri olarak veriliyor.
 Çitin kapısını iterek girdiler.
 Çitin kenarlarına sine sine ormana daldı.
 Çoban başını çevirerek arkasına baktı.
@@ -10570,9 +10603,11 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Çünkü komiserlerin, candarma kumandanlarının, kaymakamların çağırmasına alışkındı…
 Çünkü o bugün şaheserini bitirmişti.
 Çünkü o zaman kendi istediğimi değil, benden istenileni yapmaya mecbur olacağım.
+Çünkü onlar yüz yıllar süren “büyük yürüyüşe” evlerini sırtlarına alıp, yola çıkmışlardır…
 Çünkü onun bence ehemmiyeti yok.
 Çünkü onun bu kadar beğenilmesine sebep, yalnız katil olmasıydı.
 Çünkü seni seviyorum.
+Çünkü toprağında, sokağında ve evinde barınamaz olmuştur.
 Çünkü çok fakirdi.
 Çünkü şimdiye kadar yazanların ancak var olduğunu bildirdikleri şeye o bizzat erişmişti.
 Çünkü, üst üste üç mektubunu cevapsız bıraktıktan sonra o da yazmaz olmuştu.
@@ -10686,6 +10721,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 Öteki omuzlarını silkti: "İki şarap şişesi kırıldı, yüz ellişerden üç lira…"
 Öteki ona cevap vermeden beni işaret ederek.
 Öteki onu dışarı çıkararak hava aldırmaya çalışıyor.
+Öteki İçinde "Öteki" olmak
 Öteki, elini ağzına götürdü: "Sus…"
 Öteki, elini hastanın omuzuna koyarak: "On beş kuruşun da mı yok?" dedi.
 Öteki, iskemlesinden süratle doğruldu.
@@ -10905,6 +10941,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 İlk defa konuştuğu bir adama ellerini terk etmekte hiçbir fevkaladelik bulmuyor gibiydi.
 İlk defa olarak bu genç kıza karşı içimde hürmete benzeyen şeyler beliriyor.
 İlk defa olarak bu mevzuya temas ediyordu.
+İlk eser sahibi tüzelkişi ise, koruma süresi aleniyet tarihinden itibaren yetmiş yıldır.
 İlk gelen otobüse atlayarak rastgele bir istikamete yollandım.
 İlk günlerde o beni arıyor, ben çekingen durdukça üstüme düşüyordu.
 İlk günlerin şaşkınlığı çok sürmedi.
@@ -10912,6 +10949,7 @@ ve bunları çalanların yüzünü kaplayan mühim ifade beni buradan da kaçır
 İlk rastgeldiğim polisten Charité dedikleri bu hastanenin nerede olduğunu öğrendim.
 İlk sahifeye bir göz attım, serlevha filan yoktu.
 İlk suali ben sorsaydım, hakim vaziyette ben olacaktım.
+İlk zamanlar gelenler açısından da farklılıklar flulaşır.
 İlk zamanlarda onların silahlarını bilmiyordum.
 İlk şüpheleri tekrar kafasına gelmişti.
 İmdat!

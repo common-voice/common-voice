@@ -2366,6 +2366,7 @@ A strange thing then happened.
 A strange voice, too!
 A strap may be run through the lower curl of an Arab cradle spring.
 A string across a cupboard!
+A stroke of luck could be called a miracle
 A strong light beat out through the widening gap upon his face.
 A strong shudder shook me.
 A strong turnout of snow-shoers is a very picturesque sight.
@@ -5114,6 +5115,7 @@ At a quarter-past seven came a low knock, and Miriam entered.
 At all costs she must be prevented from giving that information.
 At all costs they must spend the night there.
 At all hours of the night, the pleasure-seeker may gain admission.
+At altitudes above five thousand feet, boil water for three minutes.
 At any minute.
 At any moment, too, your treasure may be discovered.
 At any other time, Mr. Winkle would have replied in the affirmative.
@@ -5760,6 +5762,8 @@ Bobby made no coherent reply; he was engaged in feeling his pulse.
 Bodies are conductive and their property is conductivity.
 Bodies in this state are also said to be electrified by influence.
 Body language is a behavioral language that can be visually understood.
+Boil water, if you do not have bottled water.
+Boiling is sufficient to kill pathogenic bacteria, viruses and protozoa.
 Bollywood has vast legacy.
 Bonfires burst out in all in parts of the frame.
 Bong goes the bell.
@@ -5849,6 +5853,7 @@ Bring the rest immediately.
 Bring the torch over here; we need more light
 Bring them forward, lieutenant.
 Bring us the flute!
+Bring water to a rolling boil for at least one minute.
 Brinkley Court had given of its best.
 Bristol Water is most proper for the patient's common drink.
 Britain has an uncodified constitution.
@@ -5945,6 +5950,7 @@ But I do not believe that they are going to be married.
 But I do not think he will kill me.
 But I do wish you’d stay till after tea.
 But I don't believe in false modesty.
+But I don't believe it's permanent or mandatory
 But I don't drink.
 But I don't feel that way, Charles.
 But I don't suppose I'm being so careful.
@@ -6186,6 +6192,7 @@ But every man's not obliged to be solvent?
 But every time he shrank from such a climb down.
 But everything’s curious today.
 But fact takes no heed of human hopes.
+But faith in God is trusting in God, not in other people or myself
 But first you must be the brothers and the father.
 But first you must put on the spectacles.
 But first — get up, Linton!
@@ -7819,6 +7826,7 @@ Commodities are sold in huge volumes.
 Common British terms for a toilet are loo and lavatory
 Common accident in these parts.
 Common glue is gelatin contaminated with impurities, to which it owes its color.
+Common household iodine or tincture of iodine.
 Common punctuation marks include the full stop, comma, semicolon, and inverted commas
 Common sense reasoning is a limitation of the current generation of algorithms.
 Communication will also be had with New Orleans.
@@ -7884,6 +7892,7 @@ Consequently, I rely upon your ladyship's honour.
 Conservatism discards prescription, shrinks from principle, disavows progress.
 Consider Mr. Collins's respectability, and Charlotte's steady, prudent character.
 Consider a circle on the complex plane.
+Consider how the water looks and how to filter it if needed.
 Consider the facts.
 Consider what a great girl you are.
 Consider what o’clock it is.
@@ -7897,6 +7906,7 @@ Consternation sat on every face.
 Consumables are the most sold items.
 Consumer electronics are not built to last like they used to.
 Consumers want an appealing, stylish and durable product.
+Contact Us to ask a question, provide feedback, or report a problem.
 Content Management Systems are outdated now-a-days.
 Continuous Integration has been a lifesaver for us.
 Continuous effort – not strength or intelligence – is the key to unlocking our potential.
@@ -8405,6 +8415,8 @@ Discovery of the jewels!
 Discretion is the better part of valour, or so they say.
 Discussion is better than just sitting alone and doing.
 Disgraceful that an able-bodied man like you should dare to beg.
+Disinfect water using household bleach, if you can’t boil water.
+Disinfection does not work as well when water is cloudy or colored.
 Disingenuousness and double dealing seemed to meet him at every turn.
 Dismiss her patronage from consideration?
 Dismissed, he wanted to kiss her, but he dared not.
@@ -8478,6 +8490,7 @@ Do not run away with such an idea.
 Do not speak a word of this to any one.
 Do not speak of money at present.
 Do not tremble and cry so much for me.
+Do not use scented, color safe, or bleaches with added cleaners.
 Do not use this pen.
 Do not waste any more of his time.
 Do not yell at me!
@@ -9082,6 +9095,7 @@ Dorothy was now standing on both feet.
 Dot the I's and cross the T's.
 Dot will be the student liaison this week.
 Double Gloucester is an underrated cheese.
+Double the amount of bleach if the water is cloudy, colored, or very cold.
 Doubly stressing this final admonition, he ordered the company dismissed.
 Doubt and distrust were exhibited in his countenance.
 Doubt is the beginning, not the end of wisdom
@@ -9765,6 +9779,7 @@ Fairy godmothers seem at least as strict as other godmothers.
 Fairy lights are a very popular decoration for a Christmas tree
 Fairy queens must be slender.
 Faith is hard to come by.
+Faith isn't about closing our eyes and clinging to whatever belief system we've picked
 Faith, I forgot the child!
 Fake it until you make it.
 Fake news has recently become an area of great public concern
@@ -9920,6 +9935,7 @@ Fog on the Essex marshes, fog on the Kentish heights.
 Foghorns are deafeningly loud.
 Folks never learn.
 Follow my leader is a great game for young children.
+Follow the instructions on the label for safe handling and storage of this chemical.
 Follow the manual, please.
 Follow the right exit under the bridge.
 Follow your own path and let people talk.
@@ -10112,6 +10128,7 @@ For you might rule it — you could rule it.
 For you would have forbidden me to use your name.
 For your information.
 For your own good — you must not side with disorder.
+For your safety, do it in a ventilated area and wear eye protection.
 For, as I say, I hated her.
 Foraging for scrap metal has become a profitable business for some.
 Forces, standing in certain correlations, form the whole content of our idea of matter.
@@ -10516,6 +10533,8 @@ God forgive me! Hush, love!
 God has given me a squeaky voice.
 God help him!
 God helping me, for Thy Name's sake. Amen.
+God is deeply committed to avoiding destroying me
+God is just another word for what we don't understand
 God keep him meek and patient!
 God rest ye merry, gentlemen.
 God save the king! The prince remained to hear no more.
@@ -10649,6 +10668,7 @@ Grandfather was slowly rubbing his legs.
 Grandma and grandad were always very encouraging.
 Grandparents have many anecdotes.
 Granny and grandpa loved playing with their grandchildren.
+Granular calcium hypochlorite.
 Graphene is a recent break-through material.
 Graphics designers are creative and imaginative.
 Greaseproof paper is very useful for wrapping sandwiches
@@ -17252,6 +17272,7 @@ I don't believe the stated motive for the attack.
 I don't believe you are!
 I don't believe you've got any heart.
 I don't blame you, Rick, but I have had experience since.
+I don't blame, him, I just don't revere him for being perfect
 I don't bother my former friends.
 I don't call the London exclusive clique the best English society.
 I don't care a toss about the law.
@@ -17276,9 +17297,12 @@ I don't have a fiver. Can you change a tenner?
 I don't have any hope now.
 I don't have my watch.
 I don't have the oomph to do it any more.
+I don't have this written down
 I don't intend to run away from a girl.
 I don't intend to stay here long, any way.
+I don't know
 I don't know about that.
+I don't know and I can't wait to find out
 I don't know anybody.
 I don't know anything about love and such nonsense!
 I don't know anything about that.
@@ -17399,6 +17423,7 @@ I don't want my music on a kid's television show!
 I don't want one.
 I don't want that.
 I don't want to argue with ladies and gentlemen.
+I don't want to be offensive
 I don't want to be preached to.
 I don't want to bring mine.
 I don't want to dance.
@@ -18781,6 +18806,7 @@ I miss you every day.
 I missed the dermatology class, may I borrow your notes?
 I missed you.
 I mistrusted that man from the start.
+I modified it
 I mounted to the podium, where the Chancellor and his collaborators were.
 I much prefer yoga than going to the gym
 I mumble, feigning sleepiness, as I try to hide my ragged breathing.
@@ -19183,6 +19209,7 @@ I really don't care for her attitude
 I really don't fancy going out today.
 I really don't know what to do.
 I really enjoyed our little chat.
+I really enjoyed the opportunity
 I really feared that she was going to shoot me.
 I really fell for her.
 I really felt for her.
@@ -19382,6 +19409,7 @@ I scrapbooked these reports during several months.
 I scrapped that car ages ago.
 I scrunched the muddy gravel beneath the boughs of budding trees.
 I secretly told mum all about it.
+I see God's commitment and God's power in the bible
 I see a broad stretch of meadow.
 I see barrel-house boys going around for handouts.
 I see everything in him.
@@ -20502,6 +20530,7 @@ I wish I could see her.
 I wish I could see you.
 I wish I could take a break.
 I wish I could.
+I wish I did the things I understood
 I wish I had dimples in my cheeks, Lilly.
 I wish I had known it was your friend.
 I wish I had nerves like Jane Sanderson.
@@ -21501,6 +21530,7 @@ If the others turn up — well, God help us all!
 If the product is deficient in any way, please contact us.
 If the sacrifice is a true one.
 If the verdict was in their favor, it meant Italy.
+If the water is cloudy or colored, add ten drops of iodine.
 If the world was to stop spinning today, we would all cease to exist.
 If their accomplices find us here, we are lost.
 If there be a felicitous phrase, he is sure to gouge the sentence.
@@ -21543,6 +21573,7 @@ If you are scary, we never shall cut any figure in the business.
 If you are stupid enough to do that, I can't guarantee your safety.
 If you are unsure a link is genuine, search on Google.
 If you ask me, I want a double daiquiri.
+If you asked me last year what happened after death
 If you believe me, I swung along that road whistling.
 If you can afford it, take a taxi rather than a bus
 If you can assist, please write a cheque.
@@ -22841,6 +22872,7 @@ It is forecast to rain hailstones tomorrow, be careful.
 It is fortunate for Kansas that you have brains.
 It is fresh in my recollection.
 It is full of unruly members.
+It is generally better to use flowing water than still, stagnant water.
 It is generally the man's own fault.
 It is geographically located five hundred miles south-east.
 It is getting late, and they have not come.
@@ -25539,6 +25571,7 @@ Let us talk it over and find a way out.
 Let us therefore employ the three terms as follows.
 Let us try to raise the quality of the recorded clips, not the quantity.
 Let us walk on.
+Let water cool naturally and store it in clean containers with covers.
 Let ’em come.
 Let's coordinate with the rest of the team and pick this up again later.
 Let's do it next Sunday.
@@ -25710,6 +25743,7 @@ Lizzie and I send our best regards to all of you.
 Lizzy is only headstrong in such matters as these.
 Localization means identification with a locality for the purposes of recruiting.
 Locally a menthol spray may be used.
+Locate a clean dropper from your medicine cabinet or emergency supply kit.
 Lock it.
 Lock the door — quietly — from the inside.
 Lockwood, your new tenant, sir.
@@ -25746,6 +25780,7 @@ Look at this lovely crimson!
 Look at those sleeves!
 Look at us — look at us!
 Look both ways.
+Look for other sources of water in and around your home.
 Look here, I'll go.
 Look here, I'll tell you how it is.
 Look here, auntie, can I have this room?
@@ -28188,6 +28223,7 @@ Now tell me how to get there.
 Now tell me what you make of the case.
 Now tell me what you've been at, little sinner?
 Now tell me yours.
+Now that I know I'm confused, I'd ask about the afterlife
 Now that is just a man's blindness.
 Now that is sure to help her!
 Now that mobile phones are so popular, telephone boxes have largely disappeared
@@ -30074,6 +30110,7 @@ Preliminary spadework must be put in.
 Premature babies are sometimes also known as preemies.
 Prendergast suddenly changed the conversation.
 Preparations have been made to meet such an emergency.
+Prepare and store an emergency water supply.
 Prepare for the worst!
 Prequels are better if they fit with the storyline and explain unanswered questions.
 Present and past joined hands over the gulf of years.
@@ -30141,6 +30178,7 @@ Prince was teaching, of course.
 Princeton is unique in the mystery that enshrouds the origin of the name.
 Principal rivers—there are none.
 Principally because I received a letter from Scudder.
+Print Emergency Disinfection of Drinking Water document.
 Printed as a crossover, it darkens the indigo where it falls.
 Printed, published and sold at Geneva.
 Priscilla drinks — she's always drinking.
@@ -33572,6 +33610,8 @@ Still, there it is.
 Still, there it was.
 Still, they had found a taxi.
 Still, you see, I never intend to marry.
+Stir and let stand for thirty minutes.
+Stir and let the water stand for at least thirty minutes before use.
 Stockings, gloves, sunshades, all are to be khaki.
 Stone and Bird felt secure.
 Stone and Robertson were quite concerned.
@@ -33598,6 +33638,7 @@ Stop wishing and start doing.
 Stop writing down everything!
 Stopped speaking only; her hand was still in motion.
 Stopped to get the license for to-morrow, ma'am.
+Store the settled and filtered water in clean containers with covers.
 Storehouses were set up whereby relatives could send relief.
 Storms are predicted across the Pacific Ocean.
 Story after story followed each other with the most exciting haste.
@@ -37396,6 +37437,7 @@ The misrecognition would then be very similar.
 The mistake had damaged his reputation.
 The mists cleared away.
 The mixture detonates when presented to a lighted taper.
+The mixture will produce a chlorine solution of approximately five hundred milligrams per liter.
 The mob came on, but it could not advance.
 The mob carried away the very boards and rafters.
 The mobile phone signal can be very patchy outside built-up areas
@@ -39056,6 +39098,7 @@ The water has dried.
 The water in the bath was being replenished by the dripping tap.
 The water is forced all over the house.
 The water ran quickly over stones and broken pots.
+The water should have a slight chlorine odor.
 The water squishes under our feet in the grass.
 The water was dripping from the bed, the pail had rolled into a corner.
 The water-spider resembles the common spider in its appearance.
@@ -39461,6 +39504,7 @@ Then do everything the Doctor tells you.
 Then each looked out of the window.
 Then eventually, but gorgeously, would come Dick's turn.
 Then eventually, but gorgeously, would come Dominic's turn.
+Then filter the water through a clean cloth, paper towel, or coffee filter.
 Then flopping on his seat he sinks.
 Then followed a little discussion of the merits of pyjamas.
 Then footsteps returning down the passage.
@@ -40929,6 +40973,7 @@ These specimens were sufficiently hard to scratch rock-crystal.
 These stipulations having been concluded, Sam locked the door and departed.
 These strata are not united together.
 These surgeries took way too long.
+These tablets are available online or at pharmacies and sporting goods stores.
 These teachers have generally been found within establishments.
 These therefore are cases of mental chemistry.
 These thermal waters are absolutely colorless.
@@ -43323,6 +43368,7 @@ Uptime indicates this computer has never been restarted.
 Upvote the comment if you like it, or downvote it if you disagree.
 Uranium is very combustible; it burns with a remarkably white and shining light.
 Use a flannel to wash your face, not a towel
+Use boiled water, or disinfected water until regular water service is restored.
 Use butter moderately.
 Use glitter that naturally breaks down.
 Use the snowball method to become free of debt sooner.
@@ -43556,6 +43602,7 @@ Waste disposal workers help keep our communities clean.
 Watching plants grow over time, is a satisfying experience.
 Watchmen are required relatively in larger numbers.
 Water buffalo and cattle were hauling carts through the mud.
+Water disinfection tablets.
 Water had made the book crumpled and unreadable.
 Water scarcity has troubled the region.
 Water tastes different regionally.
@@ -43572,6 +43619,7 @@ We Woosters can bite the bullet.
 We accidentally left the lid off the petri dish.
 We actually approve of each other.
 We advise you to save money regularly for a rainy day.
+We agree on more than you might assume
 We agreed to a deal of fifty thousand pounds for the house.
 We aim to accommodate reasonable requests.
 We aim to please
@@ -47755,6 +47803,7 @@ You came for me, no doubt?
 You came while I was still in bed.
 You can add new sentences on the "Common Voice Sentence Collector" website.
 You can also put a splash of it in when baking for good measure.
+You can also use river or lake water.
 You can apply for membership of the board.
 You can attach the poster using drawing pins
 You can avoid telephone scams by ending a cold call.
@@ -48271,6 +48320,7 @@ You may find yourself out of pocket by thousands of pounds in legal fees.
 You may galvanize the nerve of a corpse.
 You may go into Holborn, with precaution, and never be run over.
 You may have heard my name.
+You may have iodine in your medicine cabinet or first aid kit.
 You may have it, you may!
 You may have noticed that.
 You may imagine their astonishment to find the room empty.
@@ -49209,12 +49259,14 @@ just copy the references and they all come up at once.
 kind of like writing a book This is how bibles are made, maybe
 learn more about our organizational structure.
 like the stone in a peach
+many seem to find a belief system whose morals fit theirs
 millions of antifeminists berated the feminists for berating the guy
 my dear, I am quite delighted with him.
 people eat snow cones in the afternoon, not evening.
 questions create more questions and answers create more questions
 remember ye the words which have been spoken before by the apostles.
 said I, taking the woman aside.
+some questions are all consuming
 the Bet was named after him.
 the constable observes to the audience.
 the fourth river is Euphrates.

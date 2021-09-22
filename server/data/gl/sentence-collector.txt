@@ -176,11 +176,13 @@
 'Zeltia cubriu unha etapa heroica da medicina española'
 ...Universo'
 ...creo que ó mellor teríamos que levalo ó médico.
+...despois de que o roubo dun caixeiro automático
 ...e a policía marroquí quere confirmar que non é do mercado negro.
 ...e cando aquela criatura estivo
 ...e dous de dez na carteira.
 ...e facer voar a vosa casa!
 ...e matou á súa familia cun machado.
+...e me oias escribir...
 ...e mires os debuxos,vale?
 ...e nunca che faría dano...
 ...e o deterioro que se pode producir.
@@ -418,6 +420,7 @@ A ciencia, a nova nobreza! O progreso.
 A ciencia, a sacrosanta ciencia con respostas para todo o deste mundo, ¿que diría?
 A cifra confirma o descenso dos casos activos e tamén dos pacientes hospitalizados
 A cima que debemos coroar atópase aínda moi lonxe.
+A cincuenta ou sesenta metros está a casa do Edelmiro.
 A cisterna contén; a fonte reborda.
 A cita de Horacio corresponde á súa obra Sátiras
 A cita exacta é Política, I, dous, catro.
@@ -834,6 +837,7 @@ A miña seria pequena Dora.
 A miña sogra bailáronlle os ollos nas concas e eu arrepentinme do ofrecemento:
 A miña sogra estaba por aquí, así que eu non.
 A miña testa.
+A miña vergoña.
 A miña vida agora é tan entretida...
 A miña vida está usada.
 A miña vida só foi tolemias doces, dá mágoa.
@@ -849,6 +853,7 @@ A mociña aquelada está a tenderme o pan.
 A mociña aquelada virou nunha rúa travesa.
 A modalidade de xogo será de stableford hándicap con dúas categorías.
 A modestia non lle vai á escuridade.
+A modo, non tan rápido.
 A modo.
 A moeda única alcanza o máximo valor dos últimos catro meses
 A moita cera fai desconfiar os santos.
@@ -971,6 +976,7 @@ A película non me gustou nada de nada.
 A pena de morte é algo tremendamente estúpido, necio, contrario á razón.
 A penas consigo que me entendan cando pido un prato dun menú.
 A penas levabamos un minuto de duelo cando iniciei a miña táctica.
+A penas me queda tempo.
 A penas unha ducia de casas ou de choupanas conformaba o lugar.
 A penicilina tamén axudou moito nos duros tempos da posguerra?
 A penumbra axudoume.
@@ -1437,6 +1443,7 @@ A árbore dominante adoita ser castiñeiro
 A árbore fóra da xanela toca moi suavemente na fiestra....
 A última orde, grotesca na súa familiaridade urbana, provocoulle un ataque de ira.
 A última vez que nos vimos foi en Venecia.
+A única forma de se ser feliz é amando.
 A única razón pola que falamos é porque precisamos o que tes na cachola.
 A, querido amigo, déixeme contarlle unha fermosa parvada!
 Abades, fidalgos e campesiños á caza
@@ -1756,6 +1763,7 @@ Agora hai máis capacidade de diálogo coas outras administracións, por exemplo
 Agora imos mellor.
 Agora imos un-un.
 Agora iremos ao palacio do meu pai, onde sempre impera o azul.
+Agora irán a por min.
 Agora levo camiseta.
 Agora mesmo están a levar a cabo a execución.
 Agora mesmo non teño fame, igual como algo máis tarde.
@@ -2474,6 +2482,7 @@ Arriba está baleiro, señor.
 Arriba á esquerda, unha obra da colección O Moucho, de Edicións Castrelos.
 Arriba, fotograma de Xustiza, de María Ramos.
 Arrincastes dos altares unha doncela da que Amor quere facer unha lenda.
+Arrincáronlle, con perdón señor, as súas partes...
 Arrodeábannos os mesmos cotarelos, pero agora cubertos a cachos por algunhas matogueiras.
 Arroz e fabas achegan fibra, hidratos de carbono e proteínas
 Arrásanos o río da melancolía.
@@ -2919,6 +2928,7 @@ Atacounos xusto onde vivimos.
 Atenas é a capital de Grecia
 Atención!
 Atención, zona perigosa.
+Atendeu ó que os homes falaban.
 Atendédeo xa.
 Atenuación
 Atopa as xemas. Tráemas.
@@ -3368,6 +3378,7 @@ Boas novas, cabaleiros.
 Boas tardes, damas e cabaleiros.
 Boas! En que vos podo axudar?
 Bogotá? Aínda non ten a mente ben organizada.
+Boh é o meu novo superpoder.
 Boh! E mesmo cen, con semellantes torturadores.
 Boh! Eu fun verdugo unha vez.
 Boh, non podo oír nada.
@@ -3639,6 +3650,7 @@ Cando a culpa é de todos, a culpa é de ninguén
 Cando a luz medrou algo, padre xa estaba pronto para recibilos.
 Cando a primeira parte fai acto de presenza, o resto atrapállase na memoria.
 Cando a túa mamá se tirou do balcón, o teu papá estaba durmido?
+Cando a túa nai
 Cando aburran o xogo, desfaranse de nós.
 Cando acababan as leccións, con todo, xeralmente remataba tamén o seu mal humor.
 Cando acabes vas á cociña
@@ -3682,6 +3694,7 @@ Cando estea fóra, imos queimar a cidade.
 Cando estea no prado.
 Cando esteas listo, por que non probas iso?
 Cando faga falta: debemos atopar a casa e solucionar todos os preliminares primeiro.
+Cando falei de que había uns compañeiros que me agardaban no monte, el comentou:
 Cando foron as últimas eleccións?
 Cando hai fame non hai pan duro
 Cando isto oíu ergueuse sorrindo.
@@ -3901,6 +3914,7 @@ Castígueme cen días se quere, e seguirei sorrindo igual, cando rematen.
 Cata, meu, estiven semanas tentando recordalo.
 Catalunya á deriva
 Categorías especiais de datos.
+Catorce veces me chamou o xuíz para
 Catro cabezas fuxiron.
 Catro de cada dez dentistas recomendan facer a cama.
 Catro estaban mortos, e tres moribundos.
@@ -3932,6 +3946,7 @@ Ceo, esas flores son preciosas.
 Ceos máis anubrados na Coruña e norte de Lugo.
 Cero. Nada.
 Certame
+Certamente non o era.
 Certo será pero eu non o creo.
 Certo é que o Goberno aprobou unha rebaixa dos impostos directos.
 Cesteiro que fai un cesto fai un cento se lle deren verga e tempo
@@ -4199,6 +4214,7 @@ Colgáronme aquí hai cinco anos.
 Collan o meu trofeo.
 Colle agulla e fío branco e axúdame a rematar isto.
 Colle ese bolígrafo, que este non escribe ben.
+Colle ese cesto e ven comigo.
 Colle fama e déitate a durmir
 Colle o laboratorio!
 Colle o teu martelo, voa e fala con el.
@@ -4227,6 +4243,8 @@ Coloca o cursor sobre a barra de desprazamento e arrastra para abaixo.
 Coloco a maleta entre os bancos e sento.
 Colombia, con todo, é outra cousa.
 Coma Xoana de Arco! –«Sacerdotes, profesores, mestres, trabucádesvos entregándome á xustiza.
+Coma a túa tía Enriqueta
+Coma aos faraóns.
 Coma el eu voume consumindo.
 Coma min.
 Coma se diso dependese quen gobernará Vigo, Ourense, Viana do Bolo ou as deputacións.
@@ -4398,6 +4416,7 @@ Como que na fraga?
 Como que non hai outra ambulancia?
 Como que non?
 Como que odio como enches o lavavaixelas.
+Como que te namoraches de min?
 Como que é complicado?
 Como rastrexar unha chamada ata a súa orixe!
 Como resultado de baterche na faciana.
@@ -4723,6 +4742,7 @@ Coñecémonos hai uns anos, no aeroporto?
 Coñecéranse cando o do Prestige
 Coñecéranse en segundo de carreira e axiña simpatizaran;
 Coñecéronse hai dous meses, pero xa están pensando en casar.
+Coñecíaa, mais non me lembraba de que
 Coñecín a alguén que espertaba con ruídos baixos, pensando que podía ser a policía.
 Coñecín a cada fillo de familia!
 Coñezo aínda a natureza? Coñézome? –Non máis verbas.
@@ -4939,6 +4959,7 @@ Daquela "Regreso ao Futuro" é unha trapallada?
 Daquela a alternativa é a morte.
 Daquela a miña amiga dixo que se achegaba o inverno.
 Daquela aforras cartos na miña mesa?
+Daquela agora aos imbéciles que provocaron esta desfeita páganlles por limpala.
 Daquela aínda eras ti pequerrecho.
 Daquela balea quitei provisións para un ano enteiro.
 Daquela cal é o propósito desta empresa?
@@ -5335,9 +5356,11 @@ Defina morriña.
 Define comer ou serás desintegrado.
 Definitivamente, non creo fose por unha punta.
 Defíneme saudade.
+Dei volta ó zarro e todo está normal...
 Deica logo, amigo.
 Deica logo, rapaz.
 Deica logo.
+Deica unha hora ou hora e media estareino agardando...
 Deica á noite, querida.
 Deicho porque quixen, non por facerche un favor
 Deilles unha boa.
@@ -5380,6 +5403,7 @@ Deixemos que eses tolos soñadores sigan o camiño dos seus soños.
 Deixou de procurar o fugaz e ilusorio.
 Deixou escapar un longo suspiro e foi coma se espertase dun soño.
 Deixou que o teléfono soase impertinente;
+Deixou un rego del pola horta toda...
 Deixoume auténticas perlas.
 Deixoume pasmada.
 Deixounos para sempre a historia dos galegos no Golfo de México
@@ -5816,6 +5840,7 @@ Dime, cantos mendigos enfermos hai?
 Dime, esta señora é a túa tía?
 Diminúe a presión hospitalaria, pero segue a ser moi elevada
 Dimite o ministro palestino de Interior alegando "carencia de plenos poderes"
+Dimo cando queiras e sen reparo ningún.
 Din de min todo o que puiden.
 Din meus avós que teño que labrar o futuro
 Din que o proceso de aprendizaxe acelérase.
@@ -6258,6 +6283,7 @@ Díxenche que pagaba a pena.
 Díxenche que podías probalo.
 Díxenche que soltases a túa arma!
 Díxenche que ías morrer por iso.
+Díxenlle o que ti me mandaras e o home quedou convencido...
 Díxenlle que a deixase, pero non serviu de nada, por suposto.
 Díxenlle que era un erro.
 Díxenlle que non o fixese.
@@ -6601,6 +6627,7 @@ E el xa saberá que facer.
 E el, "Si, seino.
 E el, unha coidadora para os seus fillos.
 E ela abanea o seu torso con sutileza, adiante e atrás, ollando as flores.
+E ela amañaba, sorrindo, o seu peiteado.
 E ela di, "Non podo crer que te largues!
 E ela levouno o máis lonxe que puido de Cloe.
 E elas, comen castañas e beben leite?
@@ -6725,6 +6752,7 @@ E levounos á despensa detrás da cociña.
 E logo berraba unha e outra vez até obrigarme a tapar os oídos.
 E logo cal é a túa comida preferida?
 E logo comezou a facer a cousa marela
+E logo dis
 E logo disto, foron pasar revista ás cabras e ás ovellas.
 E logo díxolle ó intruso:
 E logo en que penso? Xa son as cinco e vinte.
@@ -6906,6 +6934,7 @@ E para ben ou para mal
 E para que lle van dar un bálsamo?
 E para que quero medrar?
 E para que?
+E para traer cartos
 E parece que agora se presenta unha ocasión.
 E paso soa a maior parte do tempo.
 E pensei na filla do rei Dragón.
@@ -7243,6 +7272,7 @@ Ela abrazouno, chorando coma unha tola.
 Ela acenou coa cabeza en sinal de negación.
 Ela afastouse de min, deixando baleiros os meus anhelosos brazos.
 Ela agradeceullo con elegancia, dando a entender que a proposta era do seu agrado.
+Ela asentiu coa cabeza mentres lle volvía a tapa do termo.
 Ela asentiu coa cabeza, e a piques estiven de darlle un lapote, por tola.
 Ela asiu un remo e el o outro; ambos singraron xuntos.
 Ela axeónllase nas lousas marróns.
@@ -7353,6 +7383,7 @@ En Galicia sempre chove
 En Galicia, esta situación intensifícase aínda máis:
 En Galiza non se regularizan apenas inmigrantes.
 En Galiza, os galegos votan si.
+En Hokkaido déronse cita dúas plataformas con visións diversas da situación mundial.
 En Hollywood semella mal visto chamarse polo nome orixinal.
 En Internet isto é todo o que atopei.
 En Israel e Siria atópase máis abundantemente que en Chipre e Turquía
@@ -7545,6 +7576,7 @@ Encargueille ao panadeiro dous bolos para a festa.
 Enche os recibidores de po de rubís ardente
 Enchede tódolos depósitos antes de nada.
 Enchinme a comer ensalada e xa non teño máis fame.
+Enchoupado no seu propio sangue...
 Enchín una pía de papel.
 Encolleuse de ombreiros e, volvéndose cun expresivo «puf!», preguntoume se gozara da diversión.
 Encollo os ombros de novo e miro dentro do portal.
@@ -7822,6 +7854,7 @@ Eramos moi novas e inocentes.
 Eramos moitos nas miñas circunstancias, todos abandonados, sós, acosados coma feras.
 Eramos puros, asegúrocho.
 Eran as dez e media cando cheguei a casa.
+Eran as sete menos vinte da mañá.
 Eran dous ou tres.
 Eran estes dous viños de moita sona na Roma antiga.
 Eran extremadamente violentos e crueis cos inimigos
@@ -7948,6 +7981,7 @@ Escintilan os postes brancos que delimitan a vía.
 Escoita a recriminación do imbécil.
 Escoita con atención
 Escoita isto.
+Escoita o que imos facer...
 Escoita! As trompetas!
 Escoita, a viaxe.
 Escoita, abrigo de pel
@@ -7996,6 +8030,7 @@ Ese encanto ánima e corpo tomou E os esforzos dispersou.
 Ese era o plan.
 Ese era o principal asunto.
 Ese escribir e pintar a man é un xesto de xenerosidade, unha entrega.
+Ese foi o trato...
 Ese foi un dos temas que máis discutimos na Asamblea Constituínte.
 Ese fulano enmeigoute −exclamei encabuxado.
 Ese home está xogando aos marcianos.
@@ -8518,6 +8553,7 @@ Está ben, Matías.
 Está ben, dareiche once.
 Está ben, está ben.
 Está ben, muller, está ben así.
+Está ben, si, pero aínda terá que agardar alí algúns días...
 Está ben, vale, de acordo, non mo repitas máis
 Está ben, xa pasou.
 Está ben.
@@ -8549,6 +8585,7 @@ Está facendo todo o posible.
 Está feble, si, mais iso era de esperar.
 Está mal visto conservar o nome orixinal?
 Está mellorando.
+Está morto...
 Está máis preto do lume e quecerá antes.
 Está na Biblia
 Está nevando a cachón. Mañá ó mellor non hai escola.
@@ -8853,6 +8890,7 @@ Eu vivín e morrín en infinidades de equinoccios, coma ti...
 Eu vivín millóns de anos.
 Eu volvín.
 Eu voto para que Castalia sexa a nosa presidenta.”
+Eu vou mete-las cousas na casa e tomar unha ducha.
 Eu vía todo o decorado do que, en espírito, se arrodeaba; roupa, sabas, mobles
 Eu xa che dixen que non te meteras co Ruzo.
 Eu xa estaba fóra ó raiar o día.
@@ -9122,6 +9160,7 @@ Foi de feito a primeira vez na miña vida que dubidei de ti.
 Foi denantes de que vostede viñese, alcaide.
 Foi desexo da súa nai, supoño.
 Foi divertido.
+Foi ela.
 Foi elixido presidente rexional en outubro dese ano.
 Foi en balde.
 Foi en maio cando lle bateu co mallo
@@ -9149,6 +9188,7 @@ Foi un funeral estraño, o descenso daquel corpo invisíbel na húmida buraca.
 Foi un longo asedio.
 Foi un longo e cruel asedio.
 Foi un pacto consensuado.
+Foi un riso calculado en magnitude e duración.
 Foi un traballo lento.
 Foi unha chiripa cósmica
 Foi unha feble subdución
@@ -9339,6 +9379,7 @@ Gabamos ó cabalo desde o seu nacemento para habitualo a servir.
 Gabea xa!”
 Gabriel conseguirá, si, ser protagonista, decidir os seus actos.
 Galaxia ten un patrimonio histórico que non podemos deixar de lado.
+Galaxia, a editorial que traduciu a Heidegger e rompeu o folclorismo franquista
 Galego, calatán e éuscaro alíanse para reclamar dereitos
 Galegos ilustres vinculados á institución
 Galegos nos Premios da Música
@@ -9376,6 +9417,7 @@ García Teixeiro, entre o épico e o narrativo
 García ten un plan para a xubilación.
 Garda ben os teus cartiños no fondo da túa faixa.
 Garda o ficheiro con outro nome
+Garda tamén, canda ti, o macuto este...
 Gasolinas
 Gastan o resto do día entre espectáculos, xogos e actuacións musicais.
 Gastan sobre todo en tres cousas: cans, dados e gabiáns.
@@ -9727,6 +9769,7 @@ Hoxe vai moito frío
 Hoxe volverei tarde
 Hoxe vou no turno de noite a traballar.
 Hoxe á noite vou ao cine.
+Hoxe á tarde chegareime deica o hospital...
 Hoxe é martes.
 Hoxe é o Día Nacional de Kazakhistán.
 Hoxe é o día
@@ -9780,6 +9823,7 @@ Igual non o desfrutas.
 Igual non é cousa de armas.
 Igual o peón que o millonario.
 Igual o tiña merecido.
+Igual podes invitalo á festa de Liz.
 Igual que os cabaleiros gobernan as copas, estes nobres coregos gobernan o canto.
 Igual que poden ver cousas que aínda non pasaron...
 Igual que ti e eu estamos a falar.
@@ -10063,6 +10107,7 @@ Isto do cibercole mata a un.
 Isto en plantas cultivadas.
 Isto era o que estaba buscando
 Isto está ben.
+Isto está feito unha merda...
 Isto está moi escuro.
 Isto faime ter pouca morriña do mundo.
 Isto fano as tribos de América do Norte.
@@ -10723,6 +10768,7 @@ Mexan por nós e dicimos que chove.
 Miguel Anxo Fernández Lores, antes de dirixirse ó público onte en Pontevedra
 Miguel Anxo Murado aprendeulle a un corvo a dicir: Quero tortilla!
 Miguel Barros elixido secretario comarcal
+Miguel Iceta asegura que dende Cataluña non din cales deben ser os pactos
 Mikhaylo Zubkov, da man coa súa filla despois de agredila
 Mil cabras e cen bois de primeira metidos nun abrigo...
 Mil millóns de beneficios para o Banco Gallego
@@ -10840,6 +10886,7 @@ Moi ben. Temos un plan.
 Moi ben. Vémonos aí.
 Moi ben. Vémoste aquí de volta.
 Moi ben. Xa imos. Estamos esfameados.
+Moi ben...
 Moi cómoda, tanto no partido como no grupo municipal.
 Moi doado —respondeu o meu cicerone—.
 Moi estraño, moi emocionante.
@@ -11229,6 +11276,7 @@ Ninguén máis vai volver a casa.
 Ninguén negou que ela merecera ben este castigo, se calquera outro llo inflixira.
 Ninguén obtén a licenciatura até que completa as tarefas asignadas.
 Ninguén pode crear algo da nada.
+Ninguén pode entrar na finca se ti non queres, nin hai veciños...
 Ninguén podía dicir outro tanto
 Ninguén quere volver preto do mar.
 Ninguén se atreve a poñerme a man encima ou a ameazarme cunha arma.
@@ -11453,6 +11501,7 @@ Non embargante, non hai que ler un estudo para saber como está a profesión.
 Non empecei ó nacer senón ó ser concibido.
 Non empeces outra vez.
 Non entendemos o que nos quería dicir con isto último.
+Non entendía as razóns que Silvio tivera para montar no auto a aquel home.
 Non entendín nada.
 Non era a nosa única máquina do tempo.
 Non era así, polo menos cría firmemente que non.
@@ -11795,6 +11844,7 @@ Non repare nese! —dixo en ton despectivo—.
 Non responde.
 Non respondeu a isto
 Non respondín nada e limiteime a facerlle unha lixeira reverencia.
+Non resultaba cara: viaxes, estancias e algúns galanos de cando en vez...
 Non roubaba, non
 Non sabe o que perdeu por non mirar cara a aquí!
 Non sabe vostede o ben que me argallo.
@@ -12083,6 +12133,7 @@ Non é porque cultivamos a bruma! Comemos a febre coa nosa verdura acuosa.
 Non é posible?
 Non é posíbel rescatala;
 Non é probable; é unha nena, e parécese moito á súa nai.
+Non é que el fose un grande compositor.
 Non é que fora a Torre de Babel, claro, mais cumpría dous bos obxectivos.
 Non é que sexa unha competición, pero ela quéreme..
 Non é só o feito e que esa luva canalice a forza
@@ -12214,6 +12265,7 @@ Nos sólidos, as ondas mecánicas poden ter diversas formas
 Nos telediarios sae Rodrigo Rato cos últimos exemplares da pela, asinados e todo.
 Nos últimos meses tense falado abondo da economía de Ferrol e da súa área...
 Nosa, fálame sempre!
+Nota do señor cura párroco
 Nota: Este anxo, que agora é un demo, é amigo persoal meu.
 Notei unha dor violenta, atroz, indescritible, e sentín a voz de alguén que dicía:
 Noticias frescas? Se cadra da Corte de Inglaterra?
@@ -12288,6 +12340,7 @@ Nunca serás un bo sacerdote, pero talvez si un grande artista.
 Nunca sirvas nunca a quen serviu
 Nunca souben se falabas en serio cando dicías aquilo
 Nunca tal vin!
+Nunca tal vin...
 Nunca tanto tempo perdeu a aguia como cando quixo aprender do corvo.
 Nunca te equivocas se colles a un Castelao, un Cunqueiro, a Filgueira Valverde...
 Nunca te traizoaría. Nunca.
@@ -12406,6 +12459,7 @@ O Merlo, Dominguitos, Trangallada...
 O Newcastle confirma a fichaxe de Asprilla
 O Niveiros pasaba pola Ponte e levaba a xente para Santiago
 O Plan Nacional de Regadíos, en síntese, recolle tres programas de actuación.
+O Pontevedra B ascendeu a Terceira nesta fin de semana
 O Regulamento establece amplas marxes para determinar a contía das sancións.
 O Rei semellaba algo frío.
 O Río Celestial é a Pantasma das Augas.
@@ -13161,6 +13215,7 @@ O romance da Vía Láctea
 O roscón de reis é un dos meus doces favoritos.
 O rostro pareceu alongarse...
 O ruído abouxador ecoou no interior e provocoulle un irreprimible chimpo;
+O ruído do motor, que seguía aceso, non deixaba oí-lo que dicía.
 O ruído que fago ao mastigar, molesta.
 O río Miño conforma a raia húmida con Portugal.
 O río máis importante é o río Tambre
@@ -13464,6 +13519,7 @@ Onde vai parar!
 Onde vai que morreu!
 Onde vas?
 Onde vexas corpo bota carga e onde vexas orellas dá cebada.
+Onde virdes moita comida non vos metades.
 Onde vires moito fume non te vaias quentar.
 Onde vives?
 Onde vos levou iso?
@@ -14092,6 +14148,7 @@ Pechado por defunción
 Pechei a porta detrás nosa
 Pecho os ollos e adormezo.
 Pecho os ollos.
+Pechouse a porta do coche.
 Pedimos unhas racións de polbo e pementos?
 Pediu que a colocasen no ataúde... e deseguido morreu.
 Pedro Chosco vaite de aí
@@ -14532,8 +14589,10 @@ Pobre, por que lle ía negar ese alivio? Aceptei, e agora parece máis contento.
 Pobres homes, traballadores! Non pido pregarias; coa vosa confianza só serei feliz.
 Pobreza non é vileza.
 Pobriña! Que vai facer con ela?
+Pobriño, que morte levou...
 Pode acontecer o contrario.
 Pode aturar vinte días tranquilamente, alcaide −fanfurriñou diante de min.
+Pode chamar dende o auto se ten algún problema...
 Pode consultar os detalles se quere saber máis.
 Pode describilos?
 Pode non ser adecuado para menores
@@ -14635,6 +14694,7 @@ Pois marcho ó traballo.
 Pois mira que es andavía, que ruído metes
 Pois na miña opinión, ti es unha merda!
 Pois ninguén que non as valore.
+Pois non había veciños nun estadio? —Vin pedir pan.
 Pois non se reprima, ho! –díxenlle con imprudente afabilidade–.
 Pois non se ven por ningún lado casos de persoas que protesten.
 Pois non sei o que lle ves.
@@ -14818,6 +14878,7 @@ Por iso, vai ser necesario un certo grao de poliglotismo.
 Por isto, considerou que o prezo se manterá en cotas elevadas.
 Por min como se non volven nunha semana ou dez días.
 Por min que chova
+Por moito que a Vde. lle amole.
 Por mor de tristes austeridades querería nese doce peito estar.
 Por non erguerme cedo, acabei perdendo o bus.
 Por o carro á fronte dos bois.
@@ -14963,6 +15024,7 @@ Posdata, quérote
 Posible recesión
 Posición do delegado de protección de datos.
 Posme medio quilo de costela de porco?
+Poste atrás dunha árbore ou algo así que eu xa irei atento...
 Posterior ó feito
 Posteriormente pasou a designar o lugar destinado a ese espectáculos
 Posto que desexas irte, sen dúbida debes irte.
@@ -15192,6 +15254,7 @@ Púxencho ben claro
 Púxoo pingando!
 Púxose arrubiado de rabia, e a voz tremíalle mentres bruaba
 Púxose en marcha unha busca, e despois dunha exhaustiva investigación, atopáronse algunhas pistas.
+Púxose tola e fixo esta barbaridade...
 Púxoseme o ollo esquerdo morado despois de tropezar.
 Qatar suxire diminuí-la producción de petróleo ante a caída dos prezos
 Que
@@ -15443,6 +15506,7 @@ Que, pensas que quero facelo?
 Que...
 Que?
 Que? Bocexa? Abúrrese comigo?
+Que? a eternidade.
 Queda atrapado no meu cabelo.
 Queda só a cuncha dunha persoa que é vista por outras persoas...
 Queda todo o día por diante, a tarde e a noite enteira...
@@ -15695,6 +15759,7 @@ Quixera que non estiveras preocupada por min.
 Quixera un Maragall co mesmo peso que ten no Estado.
 Quixera unha sesta das boas
 Quixeron que eu cargase co peso da xustiza.
+Quixo de novo sorrir, derrotada xa, cando pensou na maquillaxe pero tampouco non puido.
 Quizais a fermosa mazá ata estaba gardada para un pastor namorado.
 Quizais atopou servidoras mellores ca min onda súa nai.
 Quizais máis tarde haberá un momento xunto o mar para pensar nisto.
@@ -15874,6 +15939,8 @@ Ridiculamente paga, pouco recoñecida, puñeteiramente difícil.
 Rifou con Antipas polo asunto de Herodías.
 Ripa apela ao "sentido común e civismo" hoxe en Pamplona
 Rirse dunha persoa na miña situación! Era o peor tipo de crueldade.
+Rita atendeu outra vez á néboa que se esfiañaba preto do río.
+Rita ergueu a manta unha miguiña e alasou forte.
 Riu sen facer ruído, e deu dous pasos silandeiros para fóra do carreiro.
 Roberto Trashorras por fin tivo unha oportunidade en Galiza.
 Roberto Verino dálle a todo: moda, viño e agora métese a ceramista
@@ -15983,6 +16050,7 @@ Sacúdelle a polaina ao pai
 Sae correndo.
 Sae deste lugar!
 Saiamos ou non, ti estate alí á espera
+Saio retratado nas revistas e xornais moito máis do que eu quixera...
 Saio á plataforma traseira do vagón.
 Saio á rúa e camiño polo lado soleado.
 Sala do Papagaio, lugar no que ten lugar a elección do Pontífice
@@ -16117,6 +16185,7 @@ Se me pregunta, non lle vou dicir unha mentira.
 Se me vas dicir que o mire polo lado bo...
 Se mesmo aproba os nosos trabucos!
 Se mesmo parece que estivo alí!
+Se mesmo resulta divertido, pénsao ben...
 Se non acadamos esa xema, miles de millóns de persoas seguen mortas.
 Se non bules non imos dar chegado á praia.
 Se non cedese...
@@ -16126,6 +16195,7 @@ Se non estivese segura da súa magnanimidade, pensaría que me ten envexa.
 Se non fose pola penicilina acabaría morrendo.
 Se non fose polo rabo, empeñaba a burra
 Se non fose por ela...
+Se non hai ninguén, mellor...
 Se non hai novidade, saimos mañá de viaxe.
 Se non mo dis, que lle vou facer...
 Se non nola venden, daquela teremos que collela pola forza.
@@ -16594,6 +16664,7 @@ Si, vanme aforcar...
 Si, vimos de...
 Si, véxome a min mesmo como un único home: o amante, sempre o amante.
 Si, xa o sei. Xa o sei.
+Si, xa os vin pasar onte á tarde...
 Si, xa sei que ti non queres pensar nesa posibilidade, e fas mal, asegúrocho.
 Si, xefe.
 Si, é como me chama cariñosamente.
@@ -16649,6 +16720,7 @@ Sigo pensando que teño a razón.
 Sigo sendo digno.
 Sigo sentado e fumo.
 Sigo tentando mellorar.
+Silvio riu.
 Simboliza os amigos que aínda teño, é o nexo
 Simple:
 Simplemente, non os tiñan.
@@ -16694,6 +16766,7 @@ Solbes tacha de mala a cifra
 Solbes ve normal a venda a bo prezo do filial do Santander
 Solbes:
 Soletréame esas siglas
+Solicitóuselle que fixese por procurar máis información e que nola comunicase á maior brevidade.
 Solta o móbil! Non ves que vas a conducir?
 Soltei a cabeza.
 Solteiriña, non te cases, non deixes a boa vida.
@@ -16772,6 +16845,7 @@ Son xustas causas para desherdar a calquera lexitimario
 Son...
 Sonche cousas que pasan.
 Sonche duros de roer.
+Sonlle quince ou dezaseis quilómetros nada máis...
 Sonoro, éo sen dúbida.
 Sopra forte, pero continuo.
 Sor María da Consolación non esperaba aquilo.
@@ -16952,6 +17026,7 @@ Tampouco fixo tanto frío
 Tampouco foi casualidade.
 Tampouco hai cambio de rumbo na política económica da Eurozona.
 Tampouco marcha o tren
+Tampouco non pasaba nada, no "pazo" había radio e televisión.
 Tampouco ollamos veciños.
 Tampouco parece ser enteiramente circular.
 Tampouco se descoidara a Pan.
@@ -16999,6 +17074,7 @@ Tamén nos anos corenta e cincuenta se comezou a erradicar a tuberculose...
 Tamén nos deixou a Lelo, a Moncho, a Tamboril, a Eladia e a Sara.
 Tamén o día dos namorados.
 Tamén o tratamos como nome propio, e tamén o escribimos con maiúscula inicial.
+Tamén os animais poden tolear...
 Tamén os meus xeonllos estaban cubertos de calos.
 Tamén perdera o machado do xeo.
 Tamén pode consultar a normativa oficial do galego
@@ -17094,6 +17170,7 @@ Temos que coller as castañas
 Temos que convivir sabendo que temos dúas linguas oficiais.
 Temos que desenvolver unha tecnoloxía que nos iguale a todas e todos.
 Temos que devolvelas
+Temos que estar atentos ó indicador...
 Temos que facelo.
 Temos que facer que pague a pena.
 Temos que ir ao súper, que xa non nos queda froita nin leite.
@@ -17321,6 +17398,7 @@ Thomas Demand, a máis visitada.
 Thor, volveu. O rapaz da tele que me volveu chamar imbécil.
 Ti a min non me enganas
 Ti aínda non naceras.
+Ti ben sabes que eu teño medo deles.
 Ti berra o que queiras e ponte como queiras.
 Ti como lle chamas, banjo ou banxo?
 Ti confiaches sempre en min e eu non fun quen de manter a promesa.
@@ -17578,6 +17656,7 @@ Todos, en fin, atopan un motivo para inducir os demais a seguir trasfegando.
 Todos, en maior ou menor medida, foron cómplices.
 Todos, sen excepción, desexan encontrar unha oferta que colme as súas aspiracións.
 Todos.
+Toleou, iso é o que debeu pasar...
 Tolos hainos en todas partes.
 Toma cartos.
 Toma un chouriciño para merendar.
@@ -17955,6 +18034,7 @@ Unha brisa matinal propiciou o murmurio das árbores.
 Unha cacheira significaba que a terra estaba en paz.
 Unha carpa xunto á estrada permanece constantemente ocupada, por necesidade e por denuncia:
 Unha casa que simboliza a fuxida dun medio opresivo.
+Unha casualidade...
 Unha chama dourada rutilou polo leste.
 Unha chamada para deter a destrución salvaxe que acaba co mundo salvaxe.
 Unha coia que, cando se estraga, cheira que apesta.
@@ -18097,6 +18177,7 @@ Vacilou un momento, coma se pensase.
 Vacilou, e advertiu que todos sabían que agarrara unha pa.
 Vai a Propiedades, Opcións, Configuración e reinicia o sistema
 Vai a vella morrendo e vai aprendendo.
+Vai algo vello pero aínda se move...
 Vai amodo, que por aquí hai nenos xogando.
 Vai ao conto!
 Vai ao vestíbulo.
@@ -18307,6 +18388,7 @@ Vexo con máis cós ollos, ben o sabes.
 Vexo en min os moitos eus que foron constituíndome.
 Vexo que a natureza non é máis que un espectáculo de bondade.
 Vexo que terei que traelos ó rego.
+Veña que te axudo.
 Veña –acirroume o misioneiro–.
 Veña, amigo. Esperta.
 Veña, home.
@@ -18547,6 +18629,7 @@ Vouche quitar a comida −ameazoume.
 Voume deitar e intentar adormecer.
 Voume indo que me é hora.
 Voume meter no mar aínda que sexa inverno!
+Vouno enterrar aí adiante, preto do prado...
 Vouno esnaquizar coma unha miñoca! Pode estar segura! Fareille suar a gota gorda.
 Vouno gozar. Moitísimo.
 Voute botar de menos, amigo.
@@ -18667,6 +18750,7 @@ Xa lle dixen que non lle penso axudar, que non vai valer para nada.
 Xa lle poden facer de todo, que o nacho non desembucha.
 Xa llelo dixeron
 Xa me advertiron que erades un home teimudo e altivo...
+Xa me dirás para que tiña que agardar por ti agachada.
 Xa me fixeron o peor, e aínda sigo aquí.
 Xa me gustaría a min que me vacinaran
 Xa me gustaría a min ver ese Chucco.
@@ -18905,9 +18989,12 @@ Zeta
 Zeus, agarda un pouco máis, pídocho por favor.
 Zoroastro foi un antigo profeta iranio
 Zoscaríame se o fixese.
+_... está coa cativa pequena no hospital, que houbo que operala do apéndice antonte.
 _Acórdate de que che dixen por teléfono que eu teño os terreos...
+_Agora non baixe do coche por nada...
 _Aquilo xa pasou.
 _Así que se extraviou, ¿non é?
+_Baixa, fíxate que marabilla de río.
 _Ben, irmás.
 _Carola, parece que non entendes nada do que che digo.
 _Chucco, Chucco...
@@ -18936,6 +19023,7 @@ _Ganas de seguir adiante, de facer cousas novas, de cambiar o destino...
 _Grazas _respondeu o aludido, molesto por aquela intromisión na súa intimidade_.
 _Home, ¿que quere que lle diga? _desconcertouse Xuvenal_.
 _Imos e é bastante.
+_Iso pasa de contado, xa o verás...
 _Lévanse, mamá.
 _Madre, non me gustaría que a interesada soubese que fun eu quen...
 _Madre, sor Mónica xa está fóra agardando para falar con vostede.
@@ -18943,6 +19031,9 @@ _Nando, Nandiño, ¿que che pasa?
 _Nin para ti nin para ninguén, fillo.
 _Non faga caso do que lle di Norberto _interveu Noemí conciliadora_.
 _Non me decatara.
+_Non sei por que temos que facer todas estas parvadas, eu...
+_Non sei, non pasou por onde nós viñamos.
+_Non vaias facer ningunha trasnada cando o paisano estea diante...
 _Non, non estou seguro de nada, pero mellor será soltalo.
 _Nunca probara nada tan exquisito.
 _Nunha ocasión ollei a súa sombra.
@@ -18975,6 +19066,7 @@ _Tentar resolve-lo problema do paro aumentando o número de funcionarios paréce
 _Tes outra carta _anunciou desde a porta_.
 _Ti ris _coqueteou Casanova cun toque mundano_ porque non me tomas en serio.
 _Tiven un pesadelo, máis nada.
+_Tivo que se-la cadela...
 _Trunfan ouros.
 _Vai ti por ela _respondeu Luís, suando coma un cabalo, sen disimula-la irritación_.
 _Vale, eu sígote.
@@ -19002,6 +19094,7 @@ _¡Anda! _exclamou Xuvenal impresionado_.
 _¡Así non acabaremos nunca!
 _¡Axiña!
 _¡Corenta en copas, me cago en diole!
+_¡Ei... a modo!
 _¡Escoitade!
 _¡Ese non me gusta!
 _¡Miguel!
@@ -19048,8 +19141,11 @@ _¿Queres explicarme que raios che pasa?
 _¿Seica non ides ve-lo fútbol?
 _¿Semellantes?
 _¿Ti víchelo algunha vez?
+_É lóxico...
 _É moi forte e non se pode prever como reaccionará.
+_É parte do xogo, enténdeo.
 _É que témo-lo tute pola metade.
+_É un tractor.
 a Medicina recomenda evitar esperas e molestias.
 a cabeza caeu rodando polo chan!
 a conciencia de que se está a escribir unha novela breve.
@@ -19189,9 +19285,11 @@ coa morte de Dionís.
 coa súa bicicleta
 coa súa enfermidade, animal!
 coidan as fillas bonecas da súa propiedade ás que mangonear a pracer.
+coido que me ten pinchado o teléfono.
 coido que nunca existiu.
 coido que o aeroporto pechará nunha hora.
 colle o outro.
+coma a un verme.
 coma nós, estudar é un luxo.
 coma os porcos no estrume do seu cortello
 coma se rexeitaran facer esta preciosa adquisición porque é demasiado fácil.
@@ -20265,6 +20363,7 @@ xogando decote con lume, tiña que queimarse
 É o río máis longo, mais non o máis caudaloso
 É o seu coche.
 É o seu corazón.
+É o tal para un tipo coma ti que necesita inspiración e tranquilidade.
 É o teu corpo o que vai quedando fóra de xogo, anaco tras anaco.
 É o teu deber ir alí sempre que poidas.
 É o vento que zoa
@@ -20276,6 +20375,7 @@ xogando decote con lume, tiña que queimarse
 É para ela.
 É para min?
 É para ti, para merendar.
+É parroquia veciña do outrora importante mosteiro de Cis fundado no século X.
 É parte da miña vida.
 É parte dun agasallo de aniversario
 É parvo!
@@ -20403,11 +20503,13 @@ xogando decote con lume, tiña que queimarse
 Éxtase, pesadelo, sono nun niño de chamas.
 Ía a pé, asistida tan só por unha serventa.
 Ía ata alí en bici para ducharme.
+Ía calor por baixo daquela manta.
 Ía comunicarlle a súa excitación a Brais, cando lembrou o libro dos velenos.
 Ía ir á casa.
 Ía levarme a Roma, invitada polo Senado...
 Ía meterme na piscina, di Brais que está a auga conxelada, así que paso.
 Ía moita calor dentro.
+Ía ser un día de calor.
 Ía todo entonado
 Ía un día de bochorno.
 Ía un frío siberiano
@@ -20442,6 +20544,7 @@ xogando decote con lume, tiña que queimarse
 Ó menos é o que escribe Tácito, autor excelente, historiador dos máis fiables.
 Ó meu amante.
 Ó meu amigo.
+Ó parecer esta actitude non é nova nel.
 Ó pasar ó carón das maceiras imos descansar, e collereiche unha ou dúas mazás
 Ó preguntar polo camiño, a muller enmudece.
 Ó primeiro colgábase del pero entón, percibindo o cansazo que causaba, axudouno e apoiouno.
