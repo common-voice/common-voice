@@ -162,6 +162,7 @@ uz = Oezbeeks
 vec = Venetiaans
 vi = Vietnamees
 vot = Wotisch
+yi = Jiddisch
 yo = Yoruba
 yue = Kantonees
 zh-CN = Chinees (China)
