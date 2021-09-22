@@ -908,6 +908,7 @@ download-selected = Wubrane
 download-start = Sćehnjenje započeć
 download-request = Sćehnjenje naprašować
 download-requests = Zańdźene sćehnjenske naprašowanja
+download-requests-info = Hdyž swoje natočenja požadaće, kompilujemy je do jednoho ZIP-dataje abo do wjacorych ZIP-datajow. Tu su waše dotalne požadanja:
 download-request-button = Sćahnyć
 download-request-title = { $created }
 download-request-description = Ličba hłosowych klipow: { $clipCount }, cyłkowna  archiwowa wulkosć { $size }. Njepłaćiwe wot { $expires }.
