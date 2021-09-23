@@ -31,7 +31,7 @@ Many language communities are self organising and have their contact channels on
   * [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
 * Italian (`it`):
   * [Telegram](https://t.me/mozitabot) 
-* Kiswahili ('`sw`):
+* Kiswahili (`sw`):
   * [Discourse](https://discourse.mozilla.org/c/voice/sw/603)   
 * Traditional Chinese (`zh-TW`):
   * [Matrix](https://chat.mozilla.org/#/room/#common-voice-tw:mozilla.org)
@@ -39,5 +39,7 @@ Many language communities are self organising and have their contact channels on
   * [Line](https://bit.ly/cv-line) 
 * Turkic (`cv`, `tt`, `ky`, `kk`, `tr`, `sah`):
   * [Telegram](https://t.me/joinchat/WRFz62nYdmJ1uo1L)
+* Turkish (`tr`)
+  * [Discourse](https://discourse.mozilla.org/c/voice/tr/610)  
 * Uzbek (`uz`):
   * [Telegram](https://t.me/joinchat/lz2WlEvxlSQ1YzJi) 
