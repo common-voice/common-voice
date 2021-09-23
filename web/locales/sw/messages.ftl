@@ -894,3 +894,6 @@ demo-dashboard-card-body = Kwa kila kipande cha sauti kilicho changiwa, na kwa k
 ## Validation criteria
 
 contribution-criteria-nav = Vigezo
+contribution-criteria-link = Elewa vigezo vya michango
+contribution-criteria-page-title = Vigezo vya Mchango
+contribution-for-example = Kwa mfano
