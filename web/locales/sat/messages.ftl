@@ -591,6 +591,14 @@ profile-form-delete = ᱢᱚᱦᱲᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
 
 ## Profile Download
 
+download-size = ᱢᱟᱯ
+download-selected = ᱵᱟᱪᱷᱟᱣᱮᱱᱟ
+download-start = ᱢᱚᱦᱚᱨ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
+download-request = ᱨᱮᱠᱚᱰᱤᱝ ᱱᱮᱦᱚᱨ ᱢᱮ
+download-request-button = ᱰᱟᱩᱱᱞᱚᱰ
+download-request-title = { $created }
+download-request-refresh-button = ᱱᱟᱶᱟ ᱟᱹᱨᱩ
+download-request-modal-title = ᱰᱟᱩᱱᱞᱚᱰ ᱞᱤᱝᱠ
 
 ## Landing
 
