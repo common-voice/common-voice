@@ -566,8 +566,6 @@ subscribe = Jiandikishe
 get-started-speech = Pata kuanza na utambulizi wa sauti
 other-datasets = Daftari zingine za sauti
 feedback-q = Una Maoni?
-deepspeech-info = Daftari la Common Voice linakamilisha chanzo wazi la utambuzi wa sauti ya injini ya Deep speech ya Mozilla, ambayo inaweza kutumika kutengeneza programu za utambuzi wa sauti. Soma <githubLink>muhtasari wetu wa Github</githubLink> au jiunge na <discourseLink>DeepSpeech Dicrourse</discourseLink> ili kujifunza jinsi ya kuanza.
-common-voice-info-new = Je! Una maswali kuhusu Common Voice? Mawazo ya maboresho au maoni juu ya lugha maalum? Jiunge nasi kwenye idhaa yetu ya <discourseLink> Discourse </discourseLink> na utujulishe.
 data-other-librispeech-description = LibriSpeech ni daftari la takriban saa 1000 za 16Khz za sauti ya Kiingereza ziliyosomwa kutoka vitabu vya sauti vya mradi wa LibriVox.
 data-other-ted-name = Daftari la TED-LIUM
 data-other-ted-description = Daftari la TED-LIUM liliundawa kutoka kwa mazungumzo ya sauti na nakala zao zinapatikana kwenye wavuti wa TED.
@@ -846,6 +844,9 @@ why-delete-recordings =
     Je! Unaweza kutujulisha kwa nini ungependa rekodi zako zifutwe?
 profile-form-delete = Futa wasifu
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Karibu wafanyikazi wa { $company }!
@@ -892,3 +893,4 @@ demo-dashboard-card-body = Kwa kila kipande cha sauti kilicho changiwa, na kwa k
 
 ## Validation criteria
 
+contribution-criteria-nav = Vigezo
