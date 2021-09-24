@@ -872,6 +872,7 @@ download-recordings-title = ৰেকৰ্ডিংবোৰ
 download-recordings-info = mp3 আৰু আনুষংগিক বাক্য অন্তৰ্ভুক্ত
 download-recordings-size = সাধাৰণতে মেগাবাইট
 download-recordings-unavailable = ইতিমধ্যে আন এটা অনুৰোধৰ কাম চলি থকা অৱস্থাত আপুনি আপোনাৰ ৰেকৰ্ডিংবোৰৰ অনুৰোধ কৰিব নোৱাৰে।
+download-recently-requested = আপুনি { $days } দিনৰ মূৰে-মূৰে আপোনাৰ ৰেকৰ্ডিংবোৰ আঁতৰাবলৈ নতুনকৈ অনুৰোধ কৰিব পাৰে।
 download-size = আকাৰ
 download-selected = বাছনি কৰিছে
 download-start = ডাউনল'ড আৰম্ভ কৰক
