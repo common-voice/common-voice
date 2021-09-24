@@ -33,7 +33,7 @@ export function useIsSubscribed() {
         account.basket_token
     )
       .then(response => response.json())
-      .then(body => setIsSubscribed(body.newsletters.includes('common-voice')));
+      .then(body => setIsSubscribed(body.newsletters?.includes('common-voice')));
   }, [account.basket_token]);
 
   return isSubscribed;
