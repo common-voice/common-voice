@@ -169,10 +169,10 @@ export default class Clip {
     const clipFileName = folder + filePrefix + '.mp3';
     const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`;
 
-    this.bucket.fileExists(clipFileName).then((exists: any) => {
-      this.clipSaveError(headers, response, 500, `${clipFileName} already exists`);
+    if (await this.model.db.clipExists(client_id, sentenceId)) {
+      this.clipSaveError(headers, response, 204, `${clipFileName} already exists`);
       return;
-    }).catch(async (notFound: any) => {
+    } else {
       // If the folder does not exist, we create it.
       await this.s3
         .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
@@ -253,7 +253,7 @@ export default class Clip {
           Body: audioOutput,
         })
         .promise();
-    })
+    }
   };
 
   serveRandomClips = async (
