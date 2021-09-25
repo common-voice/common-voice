@@ -895,6 +895,12 @@ download-recordings-title = Nagrania
 download-recordings-info = Zawiera pliki MP3 i powiązane zdania, przygotowanie może zająć trochę czasu
 download-recordings-size = Zazwyczaj megabajty
 download-recordings-unavailable = Nie możesz poprosić o nagrania, kiedy inna prośba jest już w toku.
+download-recently-requested =
+    { $days ->
+        [one] Można poprosić o nagrania raz dziennie.
+        [few] Można poprosić o nagrania co { $days } dni.
+       *[many] Można poprosić o nagrania co { $days } dni.
+    }
 download-size = Rozmiar
 download-selected = Wybrane
 download-start = Pobierz dane profilu
