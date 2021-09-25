@@ -162,6 +162,7 @@ uz = uzbecki
 vec = wenecki
 vi = wietnamski
 vot = wotycki
+yi = jidysz
 yo = joruba
 yue = kantoński
 zh-CN = chiński (Chiny)
