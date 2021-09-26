@@ -860,6 +860,7 @@ download-recordings-title = Registrazioni
 download-recordings-info = Contiene gli mp3 e le frasi correlate. Potrebbe richiedere del tempo per la preparazione
 download-recordings-size = Dell’ordine dei megabyte
 download-recordings-unavailable = Non puoi richiedere le tue registrazioni mentre è già in corso un’altra richiesta.
+download-recently-requested = Puoi richiedere un nuovo download delle tue registrazioni ogni { $days } giorni.
 download-size = Dimensione
 download-selected = Selezionato
 download-start = Scarica i dati del profilo
