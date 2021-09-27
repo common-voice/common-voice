@@ -162,6 +162,7 @@ uz = Uzbekistanska
 vec = Venetianska
 vi = Vietnamesiska
 vot = Votiska
+yi = Jiddisch
 yo = Yoruba
 yue = Kantonesiska
 zh-CN = Kinesiska (Kina)
