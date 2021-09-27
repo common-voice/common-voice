@@ -78,6 +78,7 @@ hy-AM = Arménština
 hyw = Západní arménština
 ia = Interlingua
 id = Indonéština
+ie = Interlingue
 is = Islandština
 it = Italština
 izh = Ižorština
@@ -86,6 +87,7 @@ ka = Gruzínština
 kaa = Karakalpačtina
 kab = Kabylština
 kbd = Kabardština
+ki = Kikujština
 kk = Kazaština
 kmr = Kurmándží kurdština
 ko = Korejština
@@ -110,6 +112,7 @@ ms = Malajština
 mt = Maltština
 my = Barmština
 myv = Erzja
+nan-tw = Tchajwanština (Minnan)
 nb-NO = Norština (Bokmål)
 ne-NP = Nepálština
 nia = Niaština
@@ -588,8 +591,11 @@ subscribe = Odebírat
 get-started-speech = Začínáme s rozpoznáváním řeči
 other-datasets = Ostatní hlasové datasety
 feedback-q = Máte zpětnou vazbu?
-deepspeech-info = Dataset Common Voice doplňuje open source systém Mozilly Deep Speech pro rozpoznávání hlavu, který můžete použít pro tvorbu aplikací rozpoznávajících řeč. Pro začátek si přečtěte naše <githubLink>shrnutí na GitHubu</githubLink> nebo se připojte na <discourseLink>DeepSpeech Discourse</discourseLink>.
-common-voice-info-new = Máte otázky k projektu Common Voice? Nápady na zlepšení? Nebo nám chcete poskytnout zpětnou vazbu ke konkrétnímu jazyku? Přidejte se na naše <discourseLink>Discourse fórum</discourseLink> a dejte nám vědět!
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>open-source sada nástrojů</docsLink> pro výzkumníky nejpokročilejších konverzačních modelů umělé inteligence.
+resource-deepspeech-info = Open source systém Mozilly Deep Speech pro rozpoznávání hlasu můžete použít pro tvorbu aplikací rozpoznávajících řeč. Pro začátek si přečtěte naše <githubLink>shrnutí na GitHubu</githubLink> nebo se připojte na <discourseLink>DeepSpeech Discourse</discourseLink>.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> se zabývá otevřenými technologiemi týkající se práce s řečí. Jejich projekty zahrnují systémy pro rozpoznávání i syntézu řeči, a jsou založené na hlubokém učení.
+community-playbook = Komunitní příručka
+resource-playbook-info = <playbookLink>Zde naleznete užitečné informace</playbookLink> o celém projektu Common Voice, od lokalizace po používání datových sad a zapojení se do komunity.
 data-other-librispeech-description = LibriSpeech je korpus přibližně 1 000 hodin 16 kHz čtené angličtiny odvozený od čtených audioknih z projektu LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je tvořen zvukem přednášek a jejich přepisů dostupných na webu TED.
@@ -875,6 +881,12 @@ why-delete-recordings =
     Řeknete nám, proč chcete smazat vaše nahrávky?
 profile-form-delete = Smazat profil
 
+## Profile Download
+
+download-q = Potřebujete stáhnout svá data?
+download-info = Řekněte nám, co chcete stáhnout:
+download-profile-title = Profil
+
 ## Landing
 
 welcome-staff = Vítejte zaměstnanci { $company }!
@@ -921,6 +933,8 @@ demo-dashboard-card-body = Vaše nástěnka se aktualizuje s každou nově nahra
 
 ## Validation criteria
 
+contribution-criteria-link = Kritéria pro přispívání
+contribution-criteria-page-title = Kritéria pro přispívání
 contribution-for-example = například
 contribution-misreadings-title = Přeřeknutí
 contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, jestli nahrávka obsahuje přesně to, co je napsáno. Odmítněte nahrávku i pokud obsahuje jen drobnou chybu. <br />Mezi běžné chyby patří:
