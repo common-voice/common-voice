@@ -930,3 +930,5 @@ demo-dashboard-card-body = For kvart stemmeklipp som dvert donert, og kvart lydk
 contribution-criteria-nav = Kriterium
 contribution-for-example = til dømes
 contribution-misreadings-title = Feiltolkingar
+see-more = <chevron></chevron>Vis meir
+see-less = <chevron></chevron>Vis mindre
