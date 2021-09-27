@@ -544,6 +544,7 @@ other-datasets = Вайгелень лия данной пурнавкст
 feedback-q = Мельполадксот улить?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ те <docsLink>весенень панжадо кедьёнкс парго</docsLink>, конась алтазь ванкшныцятненень, конатне саить мель кастомс-кепедемс ломанень теевкс валонь прев кортнемань моделт.
 resource-deepspeech-info = Мозиллань Deep Speech (эрзякс Домка Кортамо) весенень панжадо вайгелень содамо машиназо маштови нолдамс тевс вайгелень содамо чарькс программань теемстэ. Ловнок <githubLink>Github тевтнеде</githubLink> эли совак <discourseLink>DeepSpeech Дискурсияс</discourseLink> вана тосо кармат содамо, кода кундамс тевс.
+resource-coqui-info = <coquiLink>Coqui</coquiLink>-сь алтазь весенень панжадо вайгелень технологияс. «Coqui»-нь проекттнэсэ STT (кортамосто-текстэнь) ды TTS (текстстэ-кортамонь) машинат, конатне теезь «deep learning» (эрзякс домкасто тонавтнема) лангс нежедезь.
 community-playbook = Теиця куронь кунсолома журнал
 data-other-ted-name = «TED-LIUM» Корпус
 data-other-ted-description = «TED-LIUM» Корпусось пурназь «TED» сайтсэ максозь аудио кортамотнень ды сынст транскрипцияст эйстэ.
