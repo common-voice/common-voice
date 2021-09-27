@@ -935,6 +935,7 @@ demo-dashboard-card-body = Vaše nástěnka se aktualizuje s každou nově nahra
 
 contribution-criteria-link = Kritéria pro přispívání
 contribution-criteria-page-title = Kritéria pro přispívání
+contribution-criteria-page-description = Na co se zaměřit při poslechu hlasových nahrávek i při pořizování vlastních nahrávek.
 contribution-for-example = například
 contribution-misreadings-title = Přeřeknutí
 contribution-misreadings-description = Během poslechu dávejte bedlivě pozor, jestli nahrávka obsahuje přesně to, co je napsáno. Odmítněte nahrávku i pokud obsahuje jen drobnou chybu. <br />Mezi běžné chyby patří:
@@ -951,6 +952,8 @@ contribution-background-voices-description-extended = Pokud nahrávka šumí neb
 contribution-background-voices-example-1-explanation = Jdeš? <strong>[další řečník]</strong>
 contribution-volume-title = Hlasitost
 contribution-volume-description = Hlasitost nahrávek od jednotlivých autorů se bude pochopitelně lišit. Nahrávky odmítejte jen pokud je hlasitost tak vysoká, že se nahrávka rozpadá, nebo (a to je častější) je nahrávka tak potichu, že bez přečtení napsaného textu nerozeznáte všechna slova.
+contribution-reader-effects-title = Způsob řeči
+contribution-reader-effects-description = Ve většině nahrávek lidé mluví normálním hlasem. Ale nevadí ani občasný zvýšený hlas, šeptání nebo "dramatický" přednes. Odmítněte však prosím zpěv a nahrávky počítačem syntetizovaným hlasem.
 contribution-just-unsure-title = Jen si nejste jisti?
 contribution-just-unsure-description = Pokud narazíte v nahrávce na problém, který tu nezmiňujeme, hlasujte o nahrávce podle svého nejlepšího úsudku. Pokud se nemůžete rozhodnout, nahrávku přeskočte.
 see-more = <chevron></chevron> Zobrazit více
