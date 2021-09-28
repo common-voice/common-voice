@@ -951,5 +951,6 @@ contribution-misreadings-description-extended-list-1 = Manglande <strong>«Ei(n)
 contribution-misreadings-description-extended-list-2 = Manglar ein <strong>«s»</strong> på slutten av eit ord.
 contribution-misreadings-description-extended-list-3 = Å slå saman ord utan at dei er slått saman i teksten, som å lese «harkje» i staden for «har ikkje», eller omvendt.
 contribution-misreadings-description-extended-list-5 = Fleire forsøk på å lese eit ord.
+contribution-background-noise-title = Bakgrunnsstøy
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
