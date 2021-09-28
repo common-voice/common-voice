@@ -338,6 +338,7 @@ goals = ᱜᱚᱞ
 settings = ᱥᱟᱡᱟᱣ ᱠᱚ
 edit-profile = ᱢᱚᱦᱲᱟ ᱥᱟᱯᱲᱟᱣ  ᱢᱮ
 profile-close = ᱵᱚᱸᱫᱽ
+why-demographic = ᱪᱮᱫ ᱪᱤᱠᱟᱹ ᱮᱱᱟ?
 accept-privacy-title = ᱫᱟᱱᱟᱝ ᱨᱤᱛᱤ
 login-identity = ᱵᱚᱞᱚ ᱩᱯᱨᱩᱢ
 login-signup = ᱵᱚᱞᱚᱱ / ᱥᱩᱦᱤ
@@ -375,6 +376,8 @@ faq-how-get-q = ᱪᱮᱠᱟ ᱞᱮᱠᱟᱛᱮ ᱤᱧ ᱥᱚᱢᱟᱱ ᱟᱲᱟ
 faq-when-release2-q = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱮᱴᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱤᱥ ᱯᱮ ᱨᱤᱞᱤᱡᱽ ᱟ?
 faq-why-mission-q = Common Voice ᱫᱚ Mozilla ᱢᱤᱥᱚᱱ ᱨᱮᱭᱟᱜ ᱦᱟᱹᱴᱤᱧ ᱨᱮ ᱪᱚᱫᱟᱜ ᱢᱮᱱᱟᱜᱼᱟ?
 faq-why-my-lang-q = ᱤᱧᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱫᱟᱜ ᱱᱤᱛ ᱵᱟᱠᱚ ᱥᱟᱹᱢᱤᱞ ᱟᱠᱟᱫᱟ?
+faq-why-account-q = ᱢᱤᱫᱴᱟᱹᱝ ᱠᱷᱟᱛᱟ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱭᱤᱱ ᱟᱹᱯ ᱪᱮᱫᱟᱜ ᱤᱧ ᱮᱢ ᱟ?
+faq-is-account-public-q = ᱤᱧᱟᱜ ᱠᱷᱟᱛᱟ ᱟᱭᱢᱟ ᱦᱚᱲ ᱠᱚ ᱵᱟᱲᱟᱭᱟ ᱥᱮ?
 faq-what-is-cv = Common Voice ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?
 faq-using-cv = Common Voice ᱵᱮᱵᱷᱟᱨᱮᱫᱟᱹᱧ
 faq-search-for-answers =
@@ -405,6 +408,7 @@ mycroft-subtitle = ᱟᱨᱴᱤᱯᱷᱤᱥᱤᱭᱟᱞ ᱤᱱᱴᱮᱞᱤᱡᱮ
 glossary = ᱥᱟᱵᱟᱫᱽ ᱜᱟᱫᱮᱞ
 localization = ᱞᱚᱠᱟᱞᱟᱭᱡᱮᱥᱚᱱ
 sentence-collection = ᱟᱹᱭᱟᱹᱛ ᱛᱩᱢᱟᱹᱞ
+sst = ᱥᱟᱲᱮ ᱠᱷᱚᱱ ᱚᱞ (STT)
 
 ## Error pages
 
@@ -420,10 +424,14 @@ data-other-title = ᱮᱴᱟᱜᱟ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ ᱠᱚ...
 data-other-goto = { $name } ᱨᱮ ᱪᱟᱞᱟᱜ ᱢᱮ
 data-other-download = ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱳᱰ
 data-bundle-button = ᱰᱟᱴᱟᱥᱮᱴ ᱜᱷᱮᱸᱴ ᱰᱟᱩᱱᱞᱳᱰ
+release-version = ᱵᱷᱟᱹᱨᱥᱚᱱ
 dataset-date = ᱢᱟᱹᱦᱤᱛ
+license = ᱞᱟᱭᱥᱮᱱᱥ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ᱢᱮᱥᱟ
 terms-agree = ᱤᱧᱤᱧ ᱥᱤᱠᱟᱹᱨ ᱜᱮᱭᱟ
 terms-disagree = ᱤᱧ ᱵᱟᱧ ᱥᱤᱠᱟᱹᱨ ᱜᱮᱭᱟ
+review-submit-title = ᱧᱮᱞ ᱫᱚᱦᱲᱟ ᱟᱨ ᱡᱚᱢᱟ
+review-submit-msg = ᱨᱮᱠᱚᱰᱤᱝ ᱞᱟᱹᱜᱤᱫ ᱟᱭᱢᱟ ᱥᱟᱨᱦᱟᱣ!<lineBreak></lineBreak>ᱱᱤᱛᱚᱜ ᱧᱮᱞ ᱫᱚᱦᱲᱟ ᱟᱨ ᱟᱢᱟᱜ ᱠᱞᱤᱯ ᱞᱟᱛᱟᱨ ᱨᱮ ᱡᱚᱢᱟᱭ ᱢᱮ ᱾
 review-recording = ᱧᱮᱞ ᱫᱚᱦᱲᱟ
 review-rerecord = ᱫᱩᱦᱲᱟᱹ ᱨᱮᱠᱚᱰ
 review-cancel = ᱡᱚᱢᱟ ᱠᱚ ᱨᱚᱫ ᱢᱮ
@@ -443,6 +451,11 @@ email-to-download = ᱰᱟᱩᱱᱞᱚᱰ ᱞᱟᱹᱜᱤᱫ ᱤᱢᱮᱞ ᱟᱫ
 size-gigabyte = GB
 size-megabyte = MB
 download-language = ᱰᱟᱩᱱᱞᱳᱰ { $language }
+subscribe = ᱥᱟᱹᱵᱥᱠᱨᱟᱭᱤᱵᱽ
+other-datasets = ᱮᱴᱟᱜ ᱥᱟᱲᱮ ᱰᱟᱴᱥᱮᱴ
+feedback-q = ᱟᱢᱟᱜ ᱢᱚᱛ ᱢᱮᱱᱟᱜᱼᱟ ᱥᱮ?
+data-other-ted-name = TED-LIUM ᱠᱚᱨᱯᱚᱥ
+go-languages-page = ᱯᱟᱹᱨᱥᱤ ᱥᱟᱦᱴᱟ ᱛᱮ ᱪᱟᱞᱟᱜ ᱢᱮ
 more = ᱰᱷᱮᱨ
 close = ᱵᱚᱸᱫᱚᱭ ᱢᱮ
 download = ᱰᱟᱩᱱᱞᱳᱰ
@@ -543,6 +556,9 @@ listen-instruction = { $actionType }<playIcon></playIcon> ᱪᱮᱫ ᱩᱱᱠᱩ
 listen-again-instruction = ᱪᱚᱨᱚᱠ ᱞᱟᱹᱢᱤ!<playIcon></playIcon>ᱥᱚᱡ ᱞᱚᱠᱷᱟᱱᱮᱢ ᱫᱩᱦᱲᱟᱹ ᱟᱧᱡᱚᱢ ᱢᱮ
 listen-3rd-time-instruction = 2 ᱞᱟᱛᱟᱨ, ᱪᱟᱹᱞᱩ ᱠᱟᱜ ᱢᱮ!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon><playIcon>ᱢᱩᱪᱟᱹᱫᱟᱜ!
+speak-empty-state-cta = ᱟᱹᱭᱟᱹᱛ ᱮᱱᱮᱢ ᱢᱮ
+record-button-label = ᱟᱢᱟᱜ ᱥᱟᱲᱮ ᱨᱮᱠᱚᱰ ᱢᱮ
+share-title-new = <bold>ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ</bold> ᱟᱨᱦᱚᱸ ᱥᱟᱲᱮ ᱯᱟᱱᱛᱮ ᱢᱮ
 target-segment-add-voice = ᱟᱢᱟᱜ ᱟᱲᱟᱝ ᱥᱮᱞᱮᱫ ᱛᱟᱢ
 target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
 
@@ -550,6 +566,8 @@ target-segment-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
 
 report = ᱨᱤᱯᱚᱴ
 report-title = ᱢᱤᱫ ᱴᱟᱝ ᱨᱤᱯᱚᱴ ᱡᱚᱢᱟᱭ ᱢᱮ
+report-offensive-language = ᱠᱷᱟᱨᱟᱯ ᱯᱟᱹᱨᱥᱤ
+report-different-language = ᱵᱷᱮᱜᱟᱨ ᱯᱟᱹᱨᱥᱤ
 report-difficult-pronounce = ᱩᱪᱨᱚᱬ ᱢᱩᱥᱠᱤᱞ ᱜᱮᱭᱟ
 report-offensive-speech = ᱠᱷᱟᱨᱟᱯ ᱨᱚᱲ
 report-other-comment =
@@ -582,6 +600,13 @@ everyone = ᱡᱷᱚᱛᱚᱠᱚ
 
 both-speak-and-listen = ᱵᱟᱱᱟᱨᱜᱮ
 both-speak-and-listen-long = ᱵᱟᱱᱟᱨᱜᱮ (ᱨᱚᱲ ᱢᱮ ᱟᱨ ᱟᱡᱚᱢ ᱢᱮ)
+pro-difficulty = ᱯᱨᱚ
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ᱠᱞᱤᱯ
+        [two] { $count } ᱠᱞᱤᱯ ᱠᱤᱱ
+       *[other] { $count } ᱠᱞᱤᱯ ᱠᱚ
+    }
 
 ## Profile Delete
 
