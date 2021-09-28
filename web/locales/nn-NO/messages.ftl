@@ -161,6 +161,7 @@ uz = Usbekisk
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+yi = Jiddisk
 yo = Joruba
 yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
