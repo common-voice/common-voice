@@ -880,6 +880,7 @@ download-recordings-title = Opnamen
 download-recordings-info = Bevat mp3’s en gerelateerde zinnen
 download-recordings-size = Meestal megabytes
 download-recordings-unavailable = U kunt uw opnamen niet opvragen terwijl er al een ander verzoek in behandeling is.
+download-recently-requested = U kunt elke { $days } dagen een nieuwe verzameling van uw opnamen aanvragen.
 download-size = Grootte
 download-selected = Geselecteerd
 download-start = Download starten
