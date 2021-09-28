@@ -582,6 +582,7 @@ subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du ei tilbakemelding?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er eit <docsLink>open-kjeldekodeverktøy</docsLink> for forskarar som utviklar moderne kunstig intelligens-modellar for samtalerobotar.
 resource-playbook-info = <playbookLink>Få hjelp og rettleiing</playbookLink> gjennom heile Common Voice-reisa, frå omsetjing til bruk av datasett, og ta kontakt med fellesskapet.
 data-other-librispeech-description = LibriSpeech er eit korpus av omlag 1000 timar med engelsk tale (16Khz-opptak) henta frå lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM korpus
