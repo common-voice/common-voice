@@ -446,6 +446,9 @@ faq-search-for-answers =
 about-title = Kvifor Common Voice?
 about-subtitle = Common Voice er ein del av Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar. I tillegg til Common Voice-datasettet byggjer vi òg ein talegjenkjenningsmotor med open kjeldekode som heiter Deep Speech.
 about-header-description = Begge desse prosjekta er delar av strevet vårt for å byggje bru over det digitale skiljet. Talegjenkjenning bidreg med ein menneskeleg dimensjon til dei digitale einingane våre, men utviklarar treng ei enorm mengde med data for å byggje dei. Det meste av slike data er dyre og proprietære. Vi ønskjer å gjere stemmedata gratis og offentleg tilgjengeleg, og forsikre om at dataa representerer variasjonen mellom verkelege menneske. Saman kan vi gjere talegjenkjenning betre for alle.
+about-header-description-2 =
+    Dette prosjektet er ein freistnad på å byggje bru over den digitale talekløfta. Taleattkjenningsteknologiar gjer dingsane våre meir menneskelege, men utviklarane treng enorme mengder med taledata for å byggje dei. No er det meste av slike data dyre og proprietære.
+    Vi ønskjer å gjere taledata gratis og offentleg tilgjengeleg, og sikre at dataa speglar mangfaldet mellom vanlege folk. I lag kan vi gjere taleattkjenning betre for alle.
 how-does-it-work-title = Korleis fungerer det?
 how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datasettet betre for alle.
 about-speak = Tal
