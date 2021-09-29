@@ -595,8 +595,10 @@ recordings =
 ## Dashboard
 
 your-languages = ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱠᱚ
+awards = ᱥᱤᱨᱯᱷᱟᱹ ᱠᱚ
 you = ᱟᱢ
 everyone = ᱡᱷᱚᱛᱚᱠᱚ
+contribution-activity = ᱮᱱᱮᱢ ᱠᱟᱹᱢᱤ
 
 ## Custom Goals
 
