@@ -84,6 +84,7 @@ At me ein morgonstund skal glida inn
 At vi ikkje måtte slikke på gelenderet
 Attende i krigen verkar alt enno meir meiningslaust.
 Au -- eg gløymde heilt spørsmålet!
+Audun på Rust tok det ikkje så hardt med arbeidet.
 Auel på berre nokre månedar og eg synest dei var veldig gode.
 Augo dine bar i seg ein varme.
 Austen passer kanskje ikkje for alle...
@@ -104,6 +105,7 @@ Barberen fortel historie frå Sevilla om ein galen mann.
 Barnepiken likte eg og veldig godt!
 Basso har eit nydeleg språk som gjør det moro å lese nynorsk.
 Begge graviditetane er eit resultat av faren sine overgrep.
+Begge lettleste nynorske bøker skrevne med ein humor som varmar om hjartet.
 Beklagar!
 Beklager at eg ikkje uttrykte meg presist nok.
 Ber eg din kjærleik
@@ -177,6 +179,7 @@ Blir tungt å berre lese Hamsun og Knausgård heile tida.
 Blir vi med eit
 Boka anbefalar eg på det varmaste.
 Boka blir populær og ein bestseljar.
+Boka endar dessutan med eit spørsmål.
 Boka endrar ikkje innhald sjølv om det er i eit anna format.
 Boka er berre flott!
 Boka er eit av dei mange verka som viser Spania frå undersida.
@@ -314,6 +317,7 @@ Dei viser ein velstelt gard.
 Dei viser godt korleis eins eigne erfaringar påvirkar korleis ein les bøker.
 Dei vyrder meg ikkje stort.
 Dei åtte løfta er
+Delar av forteljinga er så stillferdig at eg kanskje ikkje fekk med meg alt.
 Dele ut fleire stjerner enn Rose-Marie.
 Deler av denne boka vart skriven heime hos oss på Byre i Ryfylke.
 Den MÅ du berre lese!
@@ -336,6 +340,7 @@ Den første og siste boka eg kjem til å lese av Coelho.
 Den gav ikkje noko særleg ekstra til boka.
 Den gjer mykje godt som ikkje gjer noko vondt.
 Den glemte hagen lika eg endå betre.
+Den gongen hadde eg råd til å kaste meg fram på torget
 Den hadde eg selvfølgeleg gløymt.
 Den har eg faktisk lest!
 Den har eg lese.
@@ -435,12 +440,14 @@ Denne var ikkje engasjerande i det heile.
 Denne var ikkje so enkel.
 Denne vart langdryg og hadde på langt nær same intensiteten.
 Departementa har også innført eigne tiltak for å hindre spreiing blant besøkande og tilsette.
+Der dei slo meg når eg rava forbi.
 Der ein blir møtt
 Der ein kan koma
 Der er også ein døvetolk definert som hjelpemiddel.
 Der får ein vere i fred.
 Der kan eg ikkje svare på korfor folk gjer som dei gjer.
 Der kann vera hardt Skal på ein mjuk Kjerne.
+Der menn sloss om meg og eg let meg rive sund!
 Der må eg seia meg sterkt ueinig!
 Der set me frå oss dei me har lest og finn oss nye.
 Der skal talet på sideformer og jamstilte former reduserast etter det eg forstår.
@@ -479,6 +486,7 @@ Desse kjem eg til å lese med tid og stunder...
 Desse tek eg fram og les i rett som det er.
 Dessutan favoriserer eg ein del ord og ordlydar til fordel for andre.
 Dessutan fekk eg gavekort på bok.
+Dessutan har ho vel eit litt vanskeleg forhold til alkohol?
 Dessutan ramla eg av lasset her også...
 Dessutan tykkjer eg han har ein noko strammare regi.
 Dessutan var ho stygg
@@ -653,6 +661,7 @@ Det finst ho haugar og lass med gratis ebøker på engelsk!
 Det finst i dag tilskotsordningar for å ta vare på natur.
 Det finst så mange stader ein kan utvikle lidenskap for.
 Det forstår eg godt.
+Det fyrste eg gret av?
 Det fyrste lyt komme frå eit verk med innslag av strofar med enderim.
 Det får vi berre håpe på!
 Det gjekk jo ikkje så bra med Midas.
@@ -664,6 +673,7 @@ Det gjorde han ikkje.
 Det gode kjem ikkje for ofta.
 Det hadde blitt endå meir troverdig om ho ikkje så einsidig hadde svartmale israelarane.
 Det hadde gått fleire gonger utan at eg hadde fått med meg slutten.
+Det hadde ikkje ligge tilgards hjå Rustkarane den siste mannsalderen.
 Det hadde vore meir nyttig om eg hadde bretta klesvasken min...
 Det hadde vore veldig kjekt å vere med i alle fall.
 Det handlar om bønder.
@@ -743,10 +753,12 @@ Det spørst berre kva steg som blir tatt mot ei god løysing.
 Det stemmer at eg jobber i vidaregåande.
 Det stig av hav eit alveland
 Det står at eg leser boka nå.
+Det svakaste punktet i boka er likevel forsøket på å formidle ein åndelig bodskap.
 Det syner oss eit system som er i ferd med å rotna opp innanfrå.
 Det synest eg er ein god plan.
 Det synest eg.
 Det tar eg som eit godt teikn.
+Det teikna til ein overlag sommar i år.
 Det tenkjer eg på.
 Det tenkte eg og!
 Det tok fleire år før eg endeleg knekte koden.
@@ -812,6 +824,7 @@ Det vesle som ein vart
 Det vil alltid vere ulike vinklingar som det er viktig å få med.
 Det vil jo også gi meir lesetid.
 Det vil me verja trutt
+Det vil nok ikkje stå som ein brusande kvit glorie
 Det vil ta tid før eg får lese boka.
 Det ville vere meire
 Det ville vore morsomt å høyre litt meir om favorittane til folk.
@@ -925,6 +938,7 @@ Dette synest eg ikkje fungerer i avsnittet om Paula.
 Dette tyder på at du er ein fullstendig normal bokelskar.
 Dette tykkjer eg er eit svært interessant tema.
 Dette var berre eit lite utval av det som står på lista.
+Dette var ei av dei bøkene eg hadde tenkt kunne passe til advent......
 Dette var ei bok eg lika godt.Den historiske rama er dramatisk og interessant.
 Dette var ei bok eg vil hugse.
 Dette var ein flott anmeldelse av denne boka!
@@ -1165,6 +1179,7 @@ Eg er enig med deg Elianne.
 Eg er enig med deg.
 Eg er enig med det meste.
 Eg er enig.
+Eg er faktisk ikkje sikker på når eg gret sist eg les ei bok.
 Eg er faktisk litt usikker på kva eg synest om boka.
 Eg er for!
 Eg er forresten imponert over at du har prøvd deg som omsetjar sjølv!
@@ -1341,6 +1356,7 @@ Eg hadde eit gammalt opptak med Hauk Aabel i baronsenga.
 Eg hadde gleda meg til å lesa vidare om Erica Falck og søstera.
 Eg hadde ikkje hørt om ho før eg tilfeldigvis kom over henne på biblioteket.
 Eg hadde ikkje noko store forventningar heller.
+Eg hadde likevel ikkje problem med søvnen då eg las boka på senga.
 Eg hadde lyst å gripa inn i boka og ordna alt!
 Eg hadde lyst å spise kvart eit ord og kvar ein setning.
 Eg hadde mest lyst å ta fram pennen å byrje rette på skrivinga hennar...
@@ -1372,6 +1388,7 @@ Eg har ei vakker jente
 Eg har ein del rester av nøstebarngarn som er avsatt til prematuravdelinger.
 Eg har eit par titlar eg blei veldig usikker på.
 Eg har eit problem.
+Eg har elska mykje.
 Eg har endå ikkje sett lyd!
 Eg har fleire år på rad berre lest lettvekterar.
 Eg har for mykje bøker og må gjere noko med det.
@@ -2013,6 +2030,7 @@ Eg trur no ho er lovlig!
 Eg trur også det er noko i det du skissererer opp.
 Eg trur omlag halve klassa på eit eller anna tidspunkt las ei av desse.
 Eg trur språket er bevisst brukt av forfattaren.
+Eg tur nok at eg baud deg levelege kår
 Eg tykkjer boka fell mellom to stolar.
 Eg tykkjer du skildrar boka godt.
 Eg tykkjer ho blir betre for kvar gong eg les ho.
@@ -2172,6 +2190,7 @@ Ein av mine favorittar!
 Ein av mine favorittar.
 Ein blir glad i dei tre hovedpersonane.
 Ein blir glad i karakterane.
+Ein blir glad i personane i boka.
 Ein blir godt kjend med Amalie Skram.
 Ein blir gripen frå første side.
 Ein blir sittende å lese side etter side og tida flyr.
@@ -2189,9 +2208,11 @@ Ein direkte favoritt
 Ein draum om heim
 Ein drep ikkje det vonde med øks.
 Ein drope
+Ein dukkar ned i ei verd ein ikkje skulle tru fans.
 Ein engel i den andre
 Ein enkel quiz i dei seine timar.
 Ein fantastisk bragd av forfattar Joakim Garff.
+Ein fantastisk flott måte å komponera ei bok på!
 Ein fascinerande historie.
 Ein favoritt for mange er Jason sine bøker.
 Ein favoritt hjå meg og!
@@ -2498,6 +2519,7 @@ Er ein då eismall?
 Er einig i at Benvolio er meir reflektert enn dei fleste andre i stykket.
 Er eit svik verd den pris?
 Er eit temmeleg..
+Er enig i at denne var meir ujamn enn første boka i trilogien.
 Er forsåvidt einig i at det er meir liv i serien enn filmen.
 Er forsåvidt enig i at Bella Swan er eit heller dårleg forbilde for ungjenter.
 Er ganske sikker på at eg kjem til å lese denne fleire gonger!
@@ -2567,6 +2589,7 @@ Finn dokument.
 Finn tema.
 Finnes det noken gode bøker der handlinga foregår i ein rettssal?
 Fins noko vondare enn eit svik?
+Fint språk - ikkje for ordrikt.
 Fire bøker blei det på meg i år.
 Flata ut på trappa so eg såg stjerner i rafta
 Fleire av dei nominerte har fine begynnelsar.
@@ -2840,6 +2863,7 @@ Har ikkje lese mykje av Nesbø.
 Har ikkje lese noko anna av han.
 Har ikkje lese noko av henne før.
 Har ikkje lest dei neste og har ikkje planer om det heller.
+Har ikkje så mange sidene igjen.....
 Har lese alle bøkene fleire gonger.
 Har lese dei fleire gonger.
 Har lese den fleire gangar.
@@ -2867,6 +2891,7 @@ Heile livet mitt har eg samla vinterkveldar
 Heilt anleis enn det eg hadde trudd.
 Heilt einig i at det var ein bra ting å gjere.
 Heilt frå første stund var eg som fanga i Hovlands Bergensunivers.
+Heilt til eg oppfatta at den ikkje hadde noko med jula å gjere.
 Heksene og Georgs magiske medisin blei lesne om og om igjen.
 Held likevel ein knapp på Kurt-bøkene som det beste av Loe.
 Held med ein gong her.
@@ -3027,6 +3052,7 @@ Håper du får ein flott tur til Cuba!
 Håper ho tar kontrollen etterkvart!
 Håper og trur at vi får meir lesverdig frå hennar hand.
 Håret ditt kjenner eg
+Håret mitt hadde ein gong glans av gull og bronse.
 Høgre har kjempa mot.
 Høgtlesing er eigentleg påkrevd for å klare å formidle kva ho seier her.
 Høres ut som noko eg kan tenke meg sjølv!
@@ -3444,6 +3470,7 @@ Kva vil vi med dei alkoholfrie sonene i Noreg?
 Kvar eg fekk tak i han?
 Kvar ein står einsam på hjarta åt jorda
 Kvar ein tanke som eg tenkte til sitt upphav dei batt
+Kvar finn eg dette?
 Kvar gang eg får skrekken for å gløyme det...
 Kvelden i går blei brukt på ei bok eg absolutt ikkje likte.
 Kven er eg ute etter og kva bok er det snakk om til slutt?
@@ -3523,6 +3550,7 @@ Loppemarked har som regel eit artid bokutval.
 Lori Lansens er ein god forteljar.
 Lucinda Riley klarer ikkje å fenge meg.
 Ludvig Holberg skulle vel ikkje ha bruk for ein nærare presentasjon.
+Lurar også på om han ikkje veit om anna arkitektur enn art deco.
 Lurer ofte på kvifor.....Og nokre av dei burde kanskje fleire hatt gleda av??
 Lurer på korleis eg ville lika dei nå....?
 Lurer på om eg har vorte tussete...
@@ -3541,6 +3569,7 @@ Mang ein bokelskar lyt erkjenne at smak er individuelt.
 Mange av orda vert ikkje brukte lenger....
 Mange av råda er gode og ein del er lette å gjennomføra.
 Mange fleire eg vil lese.
+Mange menn eg kjende er døde i dag.
 Mange praktiske ting i livet er eg svak i.
 Mange småfortellingar gjer at boka ikkje blir ei rein historiebok.
 Manglar heller ikkje humor.
@@ -3626,6 +3655,7 @@ Men cd-ane var så hakkete at eg valde å avbryte.
 Men da får ein korte ned på ambisjonane!
 Men dei er jo ein kategori for seg sjølv.
 Men den gjev meg diverre ikkje noko leseglede.
+Men den manglar litt på å vere stor litteratur.
 Men den var nydeleg då eg leste den.
 Men denne siste var eg svært skuffa over.
 Men der er ikkje planane heilt konkretiserte ennå.
@@ -3642,6 +3672,7 @@ Men det er mine eigne grammatiske feil eg får mareritt av...
 Men det er nok dei siste eg hugser best.
 Men det er nok fleire her inne som kan meir om dette enn eg.....
 Men det er vel eit av privilegiumer som forfattere har...
+Men det er vel fordi eg ikkje trur på spøkelsar.
 Men det er vel på sin plass å senda ein gratulasjon.
 Men det fortel om ein nærleik
 Men det har kanskje med at dei er skrivne på eit gamalt språk.
@@ -3666,6 +3697,7 @@ Men du høyrer det ikkje.
 Men du kan glede deg til Østbys gjendikting dersom du ikkje alt har byrja!
 Men du meiner serien ikkje er så veldig bra?
 Men du ser det ikkje.
+Men du skal vite at eg tok ikkje alltid pengar for det!
 Men du veit det ikkje.
 Men då eg leste boka sjølv blei eg skremt.
 Men då er det mykje i bøkene ein går glipp av.
@@ -3980,6 +4012,7 @@ Nokre gonger er fred ganske enkelt berre fred.
 Nokre gonger kan kvantitet vere å foretrekke framfor kvalitet.
 Norrlands akvavit - som eg fekk anbefalt her inne.
 Norsk Bokselskap er absolutt ein nettstad å følgja med på frametter.
+Norske samtidsromanar som eg syntes er lesverdige
 Novellene Eg vil at nokon skal vente på meg er også gode.
 Ny dag - det er ikkje berre skifte mellom mørke og lys.
 Ny kommentar kjem når eg er ferdig med lydboka.
@@ -3995,6 +4028,7 @@ Nå er eg ferdig.
 Nå er eg freista å ta dei fram att.
 Nå er eg godt fornøgd med at eg har gjennomført det.
 Nå fekk eg lyst til å lese opp att bøkene.
+Nå gjeld det berre å bli kvitt dette regnet...
 Nå har eg endeleg fått somla meg til å skrive litt om boka også.
 Nå har eg kome fram til i kveld
 Nå har eg lytta ferdig Little Women av Louisa May Alcott.
@@ -4212,6 +4246,7 @@ Og onkelen er ein del av tittelen..
 Og plogen eg køyrer og kornet eg sår
 Og ringen vart vid omkring treet.
 Og samtidig klarer ho meisterstykket å skrive ein roman om spisevegring.
+Og sidan eg vart litt nysgjerrig på Jon O.
 Og sjølv då trur eg at eg heller ville klandra meg sjølv!
 Og sjørøvere.
 Og skrive kan ho!
@@ -4328,6 +4363,7 @@ Poenget er vel meir at eg gledar meg over litteratur.
 Poinn kalle isa me så sval ein drekk.
 Pollestad bruker dialogforma - og lykkast ikkje så godt som Platon.
 Potensgiverne blei veldig populær.
+Problemet er at han ikkje greier å legge på seg.
 Prøvde det på ein klasse ein gong.
 Prøvde for sikkerhets skuld om eg kan gjere endringar hjå meg sjølv no.
 Pus høyres ut som ein skikkeleg bra katt!
@@ -4463,6 +4499,7 @@ Sistnevnde blei eg oppriktig skuffa over.
 Sit omtrent ikkje igjen med noko.
 Sitatboka har ikkje eg.
 Sjefen og eg.
+Sjeldan eg har hatt så mykje moro av å lesa ei bokomtale!
 Sjeldan eg les dårlege bøker.
 Sjeldan har eg lese så intense skildringar.
 Sjelden eg les bøker utelukkande fordi dei har vunne ein eller anna pris.
@@ -4481,6 +4518,7 @@ Sjølv les eg gjerne fire-fem bøker til ei kvar tid.
 Sjølv likar eg til dømes å diskure fantastisk litteratur.
 Sjølv likte eg boka godt.
 Sjølv må eg sei meg einig.
+Sjølv om det var saker og ting der eg ikkje vart heilt klok på.
 Sjølv om ho ofte ristar på hovudet over valet mitt av sjanger...
 Sjølv om ikkje du liker det er det nok mange som gjer det.
 Sjølv om ulempane vert skildra nokre kapittel seinare synest eg dette er uheldig.
@@ -4640,6 +4678,7 @@ Står du der ikkje ein dag eg kjem
 Størstedelen av Eg elska ho er dialoger mellom svigerfar og svigerdatter.
 Støttar forslaget om ein Bokelskere-app!
 Susi er ganske så eigenrådig og forlaget beskriv ho som modig.
+Svang Mage vandar ikkje Maten.
 Svært utfordrande å lese på spansk med den sparsomme spansken eg kan!
 Synd du blei skuffet.
 Synes diskusjonane deira rundt bøkene var svært interessante eg.
@@ -4789,6 +4828,7 @@ Tenkte eg det ikkje!
 Tenkte eg skulle prøve dette formatet.
 Tenkte på det då eg lagde lista.
 Terjai Vesaas er kanskje eit døme på nynorsk mange vil finne vanskeleg.
+That keep me searching
 Thorleif vil aldri gi opp Maren uansett hva ho har sagt.
 Tid er eit større problem enn språk...
 Tidleg lurte eg på om det var stemmane til kvinnene som las som irriterte.
@@ -4895,6 +4935,7 @@ Var berre det.
 Var berre ei slimut glye
 Var berre litt overraska over engasjementet og reaksjonane på noko eg meiner.
 Var det den leidi eg skulde?
+Var det då Jim fekk ein brest i forholdet til Tommy?
 Var det eit rop i Vind?
 Var det eit rop i vind?
 Var ein vanleg kveld.
