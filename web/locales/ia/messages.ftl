@@ -1,17 +1,17 @@
 ## General
 
 yes-receive-emails = Si, invia me emails. Io vole esser informate sur le projecto Common Voice.
-stayintouch = Nos a Mozilla construe un communitate circum le technologias del voce. Nos placerea restar in contacto con le novas, nove datos fontes e saper plus circa como tu usa iste datos.
+stayintouch = Nos a Mozilla construe un communitate de interessatos in technologias de voce. Nos volerea remaner in contacto pro inviar te actualitates, informar te de nove fontes de datos e saper plus sur como tu usa iste datos.
 privacy-info = Nos promitte de gerer tu informationes con cura. Lege plus in nostre <privacyLink>aviso de confidentialitate</privacyLink>.
 return-to-cv = Retornar a Common Voice
 email-input =
-    .label = Email
+    .label = E-mail
 submit-form-action = Inviar
 loading = Cargamento…
 email-opt-in-info = Io volerea reciper e-mails como rememorationes de objectivos, actualisationes de mi progresso e bulletines de novas sur Common Voice.
 email-opt-in-info-title = Inscribe te al lista de diffusion de Common Voice
 email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de defias e objectivos, actualisationes de progresso e bulletines de novas sur Common Voice.
-email-opt-in-privacy-v2 = Si tu opta de reciper emails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>Politica de confidentialitate</privacyLink>.
+email-opt-in-privacy-v2 = Si tu opta pro reciper e-mails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
 
@@ -78,6 +78,8 @@ hy-AM = Armenio
 hyw = Armenian occidental
 ia = Interlingua
 id = Indonesiano
+ie = Interlingue
+ig = Igbo
 is = Islandese
 it = Italiano
 izh = Azoriano
@@ -86,6 +88,7 @@ ka = Georgiano
 kaa = Karakalpak
 kab = Cabilo
 kbd = Kabardo
+ki = Kikuyu
 kk = Kazakh
 kmr = Kurdo Kurmanxhi
 ko = Coreano
@@ -110,11 +113,13 @@ ms = Malay
 mt = Maltese
 my = Birmano
 myv = Erzya
+nan-tw = Taiwanese (Minnan)
 nb-NO = Norvegiano Bokmål
 ne-NP = Nepalese
 nia = Nias
 nl = Nederlandese
 nn-NO = Norvegiano Nynorsk
+nyn = Nyankole
 oc = Occitano
 or = Odia
 pa-IN = Punjabi
@@ -128,6 +133,7 @@ ro = Romaniano
 ru = Russo
 rw = Ruanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
 shi = Shilha
@@ -148,6 +154,7 @@ tl = Tagalog
 tr = Turco
 tt = Tataro
 tw = Twi
+ty = Tahitiano
 uby = Ubykh
 udm = Udmurte
 ug = Uyghur
@@ -157,6 +164,7 @@ uz = Uzbek
 vec = Venetian
 vi = Vietnamese
 vot = Votico
+yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
@@ -182,18 +190,19 @@ cookies = Cookies
 faq = Folio a questiones
 content-license-text = Contento disponibile sub <licenseLink>licentia Creative Commons</licenseLink>
 share-title = Adjuta nos a trovar alteres pro donar lor voce!
-share-text = Adjuta a inseniar al machinas como parla le personas real, dona tu voce al { $link }
+share-text = Adjuta a inseniar a machinas como personas real parla! Dona tu voce sur { $link }
 link-copied = Ligamine copiate
-back-top = Receder al initio
+back-top = Retornar al initio
 logout = Clauder session
 
 ## Home Page
 
-home-title = Le projecto Common Voice es un initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real.
+home-title = Le projecto Common Voice es un initiativa de Mozilla pro adjutar a inseniar a machinas como personas real parla.
+default-tagline = Mozilla Common Voice es un initiativa pro adjutar a inseniar a machinas como personas real parla.
 home-cta = Face audir de te, contribue ora!
 wall-of-text-start = Le voce es natural, le voce es human. Ecce proque nos es fascinate del idea de crear technologia vocal utile pro nostre machinas. Ma pro crear systemas vocal es necessari un grandissime quantitate de datos vocal.
 wall-of-text-more-mobile = Le major parte del datos usate per le grande companias non es disponibile al majoritate del personas. Nos pensa que isto suffoca le innovation. Dunque nos ha lanceate le projecto Common Voice, un projecto pro adjutar a render le recognition de voce disponibile pro omnes.
-wall-of-text-more-desktop = Ora tu pote donar tu voce pro adjutar nos a producer un base de datos de voce aperte e libere que omnes pote usar pro facer applicationes innovative pro apparatos mobile e pro le web.<lineBreak></lineBreak> Lege un phrase pro adjutar le machinas a apprender como parla le personas real. Controla le labor de altere contributores pro meliorar le qualitate. Es tanto simple!
+wall-of-text-more-desktop = Ora tu pote donar tu voce pro adjutar nos a producer un base de datos de voce de public dominio, que omnes pote usar pro facer applicationes innovative pro apparatos mobile e pro le web.<lineBreak></lineBreak> Lege un phrase pro adjutar le machinas a apprender como parla le personas real. Controla le labor de altere contributores pro meliorar le qualitate. Es tanto simple!
 wall-of-text-first = Le voce es natural, le voce es human. Ecce proque nos es enthusiasta del idea de crear technologia vocal utile pro nostre machinas. Ma pro crear systemas vocal, le disveloppatores require un grandissime quantitate de datos vocal.
 wall-of-text-second = Le major parte del datos usate per le grande companias non es disponibile al majoritate del personas. Nos pensa que isto suffoca le innovation. Dunque nos ha lanceate Common Voice, un projecto pro adjutar a render le recognition de voce liberemente disponibile pro omnes.
 show-wall-of-text = Lege plus
@@ -211,7 +220,7 @@ listen-paragraph = Le validation del retalios vocal donate es equalmente importa
 listen-goal-text = Retalios validate
 hours-recorded = Horas registrate
 hours-validated = Horas validate
-voices-online = Voces actualmente online
+voices-online = Voces actualmente in linea
 todays-progress = Progressos hodierne
 help-reach-goal = Adjuta nos a obtener { $goal }
 read-terms-q = Ha tu legite nostre terminos de uso?
@@ -241,7 +250,7 @@ email-subscription-title-new = Inscribe te al bulletines de novas, rememoratione
 ## Account Benefits
 
 benefits = Beneficios
-rich-data = Que tu rende plus ric possibile tu datos inviate, per informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que nos rende public los.
+rich-data = Inricchi le datos que tu nos invia: da nos alcun informationes demographic anonyme. Nos de-identifica tote le datos demographic ante que nos los rende public.
 improve-audio = Le informationes del profilo meliora le precision del datos audio usate pro le exercitation del recognition de voce.
 keep-track = Tracia tu progresso e metricas inter plure linguas.
 compare-progress = Compara tu progresso a illo de altere contributores in tote le mundo.
@@ -253,7 +262,7 @@ join-newsletter = Optionalmente junge te a nostre lista email pro le actualisati
 whats-public = Que es Public?
 email-not-public = Nos non rendera public tu email.
 recordings-and-locale-public = Le numero de registrationes e le linguas que tu usa pro contribuer sera public.
-username-optin-public = Tu pote eliger de render public tu nomine de usator o anonyme.
+username-optin-public = Tu pote eliger de render tu nomine de usator public o anonyme.
 demographic-deidentified-clarity-2 = Le datos demographic optional (p.ex. etate, genere, lingua, accento) nunquam essera publicate sur tu profilo e non essera ligate a tu conto in le collection de datos. Le retalios audio individual essera associate al datos demographic pro permitter un analyse plus accurate; per exemplo, un recercator poterea concentrar un modello de training a un segmento demographic particular.
 username-email-not-demographic = Tu nomine de usator e email non essera associate con le datos publicate.
 
@@ -283,6 +292,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registrar/stoppar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-registrar retalio
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Refusar le registration in curso
 shortcut-submit = Inserer
 shortcut-submit-label = Inviar registrationes
 request-language-text = Non se trova tu lingua sur Common Voice?
@@ -342,10 +353,10 @@ profile-close = Clauder
 profile-explanation = Tracia tu progresso con un profilo e adjuta nostre datos de voce a devenir plus accurate.
 thanks-for-account = Gratias pro haber confirmate tu conto. Ora, que nos crea tu profilo.
 why-demographic = Proque es isto relevante?
-why-demographic-explanation-2 = Le datos anonyme del usator como su etate, genere, e accento adjuta a meliorar le datos audio usate pro maestrar le precision del motores de recognition de voce. Tu nomine de usator e email jammais essera associate con tu datos submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
+why-demographic-explanation-2 = Le datos anonymisate de usatores como etate, genere e accento adjuta a meliorar le datos audio usate pro augmentar le precision del motores de recognition de voce. Tu nomine de usator e adresse de e-mail non essera jammais associate con tu datos submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
 accept-privacy = Io concorda que vos tracta iste informationes como vos explica in le <privacyLink>Politica de confidentialitate</privacyLink> de Mozilla
 accept-privacy-title = Politica de confidentialitate
-login-identity = Identitate de connexion
+login-identity = Identitate pro aperir session
 login-signup = Aperir session / Inscriber se
 edit = Modificar
 email-subscriptions = Subscriptiones de email
@@ -373,13 +384,17 @@ manage-subscriptions = Gerer le subscriptiones
 manage-email-subscriptions = Gerer le abonamentos a email
 email-already-used = Iste email es jam utilisate pro un conto differente
 add-language = Adder un lingua
-change-email-setings = Cambia tu email via Configurationes sub Identitate de connexion
+change-email-setings = Cambia tu adresse de e-mail via Parametros sub "Identitate pro aperir session"
 
 ## FAQ
 
 faq-title = Folio a questiones
 faq-what-cv-q = Que es Common Voice?
 faq-what-cv-a = Le technologia de recognition de voce revolutiona nostre maniera de interager con machinas, ma le systemas actualmente disponibile es costose e proprietari. Common Voice face parte del initiativa de Mozilla pro render melior e plus accessibile a totes le technologias de recognition de voce. Common Voice es un enorme base de datos global de voces donate, que permitte a omnes de trainar rapide- e facilemente le applicationes activate per voce, potentialmente in omne lingua.
+faq-what-cv-a-2 =
+    Le technologia de recognition vocal revolutiona le maniera de interager con le machinas, ma le systemas actualmente disponibile es costose e proprietari. Mozilla Common Voice es un initiativa pro render le technologia de recognition vocal melior e plus accessibile pro totes. Common Voice es un massive base de datos global de voces donate, que permitte a quicunque de maestrar rapidemente e facilemente le apps activate per voce in potentialmente cata lingua..
+    
+    Nos, non solo collige exemplos de voce in linguas largemente parlate, ma alsi in ille con un minor population de parlatores. Le publication del plure collectiones de datos vocal permittera a disveloppatores, interprenditores e communitates de plenar iste lacuna, per se mesme.
 faq-why-important-q = Proque es importante?
 faq-why-important-a =
     Parlar es sovente nostre maniera de communication le plus natural. Le technologias vocal apporta ille conforto a nostre computatores e apparatos mobile. Nos vole habilitar le disveloppatores a construer excellente applicationes de recognition de voce, como traductores in tempore real e assistentes digital activate per voce. Ma actualmente le major parte del datos vocal requirite pro construer iste typos de applicationes es costose e proprietari. Nos spera que le collection de datos de Common Voice permittera al disveloppatores de innovar e render disponibile le technologia vocal in lor proprie lingua.
@@ -438,6 +453,9 @@ about-subtitle = Common Voice es parte del initiativa de Mozilla pro adjutar a i
 about-header-description =
     Ambe iste projectos face parte de nostre effortios pro construer un ponte super le division digital vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores require un enorme quantitate de datos vocal pro crear los. Actualmente, le major parte de ille datos es costose e proprietari.
     Nos vole render le datos vocal liberemente e publicamente disponibile e assecurar que le datos representa le diversitate del personas real. Insimul nos pote render le recognition vocal melior pro totes.
+about-header-description-2 =
+    Iste projecto es un effortio pro construer un ponte super le division digital vocal. Le technologias de recognition vocal apporta un dimension human a nostre apparatos, ma le disveloppatores require un enorme quantitate de datos vocal pro crear los. Actualmente, le major parte de ille datos es costose e proprietari.
+    Nos vole render le datos vocal liberemente e publicamente disponibile e assecurar que le datos representa le diversitate del personas real. Insimul nos pote render le recognition vocal melior pro totes.
 how-does-it-work-title = Como functiona illo?
 how-does-it-work-text = Nos face un grande collecta open-source de voces donate. Dona tu voce, valida le precision del retalios vocal del alteres, rende melior le collection de datos pro totes!
 about-speak = Parlar
@@ -476,7 +494,7 @@ mycroft-title = Mycroft Ai
 mycroft-subtitle = Intelligentia artificial
 mycroft-description =
     Mycroft es le prime assistente open-source al mundo.
-    Mycroft flue ubicunque: sur un computator de scriptorio, intra un automobile o sur un Raspberry Pi.
+    Mycroft functiona ubicunque: sur un computator de scriptorio, in un automobile o sur un Raspberry Pi.
 mycroft-secondary-description = Isto es un software open-source que pote ser liberemente re-miscite, extendite e meliorate. Mycroft pote ser usate in toto, ab un projecto scientific a un application software de interprisa.
 
 ## Glossary
@@ -571,8 +589,11 @@ subscribe = Subscriber se
 get-started-speech = Comenciar con le Recognition de voce
 other-datasets = Other Voice Datasets
 feedback-q = Ha tu commentario?
-deepspeech-info = Le collection de datos de Common Voice completa motor de recognition del voce open-source de Mozilla, Deep Speech, que tu pote usar pro crear applicationes de recognition de voce. Lege nostre <githubLink>panorama GitHub</githubLink> o junge te a <discourseLink>DeepSpeech Discourse</discourseLink> pro saper como comenciar.
-common-voice-info-new = Ha tu questiones re Common Voice? Ideas pro meliorationes o commentarios re un lingua specific? Junge te a nos sur nostre <discourseLink>foro de Discourse</discourseLink> e face lo nos saper.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ es un <docsLink>instrumentario open source</docsLink> pro recercatores que disveloppa modellos avantiate de intelligentia artificial conversational.
+resource-deepspeech-info = Le motor de recognition vocal open source de Mozilla, Deep Speech, pote esser usate pro crear applicationes de recognition vocal. Lege nostre <githubLink>summario sur GitHub</githubLink> o adhere al <discourseLink>DeepSpeech Discourse</discourseLink> pro saper como comenciar.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> es dedicate a render libere le technologia vocal. Su projectos include motores STT e TTS basate sur le apprendimento profunde.
+community-playbook = Libro del jocos del communitate
+resource-playbook-info = <playbookLink>Trova consilios utile</playbookLink> sur tote le aspectos de Common Voice, p.ex. localisation, uso del collection de datos, e como connecter se con nostre communitate.
 data-other-librispeech-description = LibriSpeech es un corpus de circa 1000 horas de anglese parlate a 16Khz derivate ab la lectura de audio-libros ab le projecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = Le corpus de TED-LIUM esseva facite ab  audio e lor transcriptiones disponibile sur le sito web de TED.
@@ -639,7 +660,7 @@ total-hours = Numero total de horas
 action-click = Clicca sur
 action-tap = Tocca
 contribute = Contribuer
-listen = Ascolta
+listen = Ascoltar
 skip = Saltar
 shortcuts = Accessos directe
 clips-with-count-pluralized =
@@ -768,7 +789,7 @@ get-started-goals = Comencia a usar le objectivos
 create-custom-goal = Crear un Objectivo personal
 goal-type = Qual typo de proposito desira tu cunstruer?
 both-speak-and-listen = Ambe
-both-speak-and-listen-long = Ambe (Parlar e Ascoltar)
+both-speak-and-listen-long = Ambes (parlar e ascoltar)
 daily-goal = Objectivo quotidian
 weekly-goal = Objectivo septimanal
 easy-difficulty = Facile
@@ -808,7 +829,7 @@ activity-needed-calculation-plural =
     } cata die.
 how-many-per-day = Magnific! Quante retalios per die?
 how-many-a-week = Magnific! Quante retalios per septimana?
-which-goal-type = Vole tu parlar, ascoltar o ambe?
+which-goal-type = Vole tu parlar, ascoltar o ambes?
 receiving-emails-info = Tu ha optate pro reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
 not-receiving-emails-info = Tu ha optate pro <bold>NON</bold> reciper e-mails como rememorationes de objectivos, actualisationes de tu progresso e bulletines de novas sur Common Voice.
 n-clips-pluralized =
@@ -844,11 +865,42 @@ remove-info = Nos revidera tu requesta de eliminar tu registrationes de voce ab 
 why-delete-recordings = Le registrationes de Common Voice es utilisate per le academicos, le micre negotios e per le enthusiastas del recognition vocal pro adjutar a provar e facer crescer ressources publicamente disponibile como le modellos vocal.
 profile-form-delete = Deler le profilo
 
+## Profile Download
+
+download-q = Vole discargar tu datos?
+download-info = Dice nos lo que tu vole discargar:
+download-profile-title = Profilo
+download-profile-info = Include e-mail, nomine de usator e information demographic; disponibile immediatemente
+download-profile-size = Alcun bytes
+download-recordings-title = Registrationes
+download-recordings-info = Include MP3s e phrases associate; pote prender alcun tempore a preparar
+download-recordings-size = In general, plure megabytes
+download-recordings-unavailable = Tu non pote requestar tu registrationes durante que un altere requesta es jam in curso.
+download-recently-requested = Tu pote requestar un nove extraction de tu registrationes cata { $days } dies.
+download-size = Dimension
+download-selected = Seligite
+download-start = Discargar le datos del profilo
+download-request = Requestar registrationes
+download-requests = Requestas de discargamento de registrationes passate
+download-requests-info = Quando tu requesta tu registrationes, nos los combina in un o plure files ZIP. Ecce tu requestas passate:
+download-request-button = Discargar
+download-request-title = { $created }
+download-request-description = { $clipCount } registrationes vocal, dimension total total del archivo { $size }. Expira le { $expires }.
+download-request-archive-single = Singule file ZIP que contine
+download-request-archive-multiple = Divider in { $archiveCount } files ZIP continente
+download-request-assembling-description = Tu files es in curso de assemblage. Verifica de novo plus tarde.
+download-request-refresh-button = Actualisar
+download-request-modal-title = Discargar ligamines
+download-request-modal-description = Ecce le ligamine de discargamento de tu files ZIP.
+download-request-link-text = Zip #{ $offset } de { $total }
+download-request-metadata-link = Texto del phrase
+download-request-link-single = Tu pote etiam copiar e collar le URLs directe in tu gestor de discargamento favorite. Illos expirara in 12 horas, ma tu pote sempre retornar a iste pagina pro generar noves.
+
 ## Landing
 
 welcome-staff = Benvenite staff de { $company }!
 help-contribute = Tu pote adjutar a producer un collection de datos open-source, diverse, per le creation de un profilo Common Voice e contribuente per tu voce.
-login-company = Accede / Inscribe te con le<t0/> email de { $company }
+login-company = Aperi session o inscribe te con le adresse de e-mail de { $company }
 profile-not-required = Haber un profilo non es necessari pro contribuer, ma es utile; lege proque hic infra.
 read-more-about = Lege plus in nostre pagina: A proposito
 
@@ -887,3 +939,59 @@ demo-listen-subtitle = Preste a contribuer?
 
 demo-dashboard-card-header = Le tabulieros personal te tene al currente con le progresso individual e communitari.
 demo-dashboard-card-body = Pro cata retalio de voce donate e cata retalio de audio validate, le tabulieros de tu conto se actualisa pro reflecter le ultime progresso in cata lingua in que tu contribue. Si, tu pote contribuer a plure linguas!<br/><br/>Usa le tabulieros pro traciar tu statisticas, comparar tu progresso con illo de alteres in le communitate, e definir objectivos de contribution quotidian o septimanal.
+
+## Validation criteria
+
+contribution-criteria-nav = Criterios
+contribution-criteria-link = Comprender le criterios de contribution
+contribution-criteria-page-title = Criterios de contribution
+contribution-criteria-page-description = Comprender a que prestar attention al ascolta de registrationes vocal e adjutar render tu registrationes vocal ancora plus ric!
+contribution-for-example = per exemplo
+contribution-misreadings-title = Errores de lectura
+contribution-misreadings-description = Quando tu ascolta, controla multo accuratemente que lo que ha essite registrate es exactemente illo que ha essite scribite; rejecta lo si il ha mesmo errores minor. <br />Multo commun errores include:
+contribution-misreadings-description-extended-list-1 = Carentia de <strong>'Un'</strong> o <strong>'Le'</strong> al initio del registration.
+contribution-misreadings-description-extended-list-2 = Carente de un <strong>'s/es'</strong> al fin de un parola.
+contribution-misreadings-description-extended-list-3 = Lectura de contractiones que non es realmente illac.
+contribution-misreadings-description-extended-list-4 = Carentia del fin del ultime parola per secar le registration troppo rapidemente.
+contribution-misreadings-description-extended-list-5 = Facer plure tentativas de leger un parola.
+contribution-misreadings-example-1-title = Le gigantesc dinosauros del triassico.
+contribution-misreadings-example-2-title = Le gigantesc dinosauro del triassico.
+contribution-misreadings-example-2-explanation = [Debe esser ‘dinosauros’]
+contribution-misreadings-example-3-title = Le gigantesc dinosauros del triassi-.
+contribution-misreadings-example-3-explanation = [Truncamento de registration ante le fin del ultime parola]
+contribution-misreadings-example-4-title = Le gigantesc dinosauros del triassico. Si.
+contribution-misreadings-example-4-explanation = [Altero ha essite registrate que le texto necessari]
+contribution-misreadings-example-5-title = Nos exi pro obtener caffe.
+contribution-misreadings-example-6-title = [Debe esser “We are”]
+contribution-misreadings-example-6-explanation = [Debe esser “We are”]
+contribution-misreadings-example-7-title = Nos exi pro obtener un caffe.
+contribution-misreadings-example-7-explanation = [Nulle ‘un’ in le texto original]
+contribution-misreadings-example-8-title = Le bombo passava veloce.
+contribution-misreadings-example-8-explanation = [Contento discorde]
+contribution-varying-pronunciations-title = Pronunciationes variate
+contribution-varying-pronunciations-description = Sia prudente ante rejectar un registration sur le base que le lector ha mal-pronunciate un parola, ha ponite le accento in le position errate o apparentemente ha ignorate un puncto de interrogation. Un large varietate de pronunciationes es usate in tote le mundo, parte del qual tu pote non haber audite in tu communitate local. Forni un margine de appreciation pro ille qui pote parlar differentemente de te.
+contribution-varying-pronunciations-description-extended = Del altere latere, si tu pensa que le lector antea ha probabilemente jammais incontrate le parola e que ille simplemente face un non correcte estimation del pronunciation, per favor rejecta lo. Si tu non es secur, usa le button saltar.
+contribution-varying-pronunciations-example-1-title = Le puero usava un cappello.
+contribution-varying-pronunciations-example-1-explanation = [In interlingua le duple litteras de "cappello" pote esser pronunciate como singule]
+contribution-varying-pronunciations-example-2-title = Nos a multe tempore.
+contribution-varying-pronunciations-example-2-explanation = ["Nos ha" le 'ha' debe esser aspirate]
+contribution-background-noise-title = Rumor de fundo
+contribution-background-noise-description = Nos vole que le algorithmos de apprendimento automatic pote tractar un varietate de rumor de fundo, e mesmo relativemente alte rumores pote esser acceptate a condition que illos non te impedi de audir le totalitate del texto. Quiete musica de fundo es OK; musica alte bastante a te impedir de audir cata parola, non es.
+contribution-background-noise-description-extended = Si le registration se interrumpe o ha crepitationes, rejecta lo a minus que le totalitate del texto pote ancora esser audite.
+contribution-background-noise-example-1-fixed-title = <strong>[Sternuta]</strong> Le gigantesc dinosauros del <strong>[tusse]</strong> Trias.
+contribution-background-noise-example-2-fixed-title = Le gigantesc dino <strong>[tusse]</strong> le trias.
+contribution-background-noise-example-2-explanation = [Parte del texto non pote esser audite]
+contribution-background-noise-example-3-fixed-title = <strong>[Crepitation]</strong> gigantesc dinosauros de <strong>[crepitation]</strong> -rias.
+contribution-background-voices-title = Voces de fundo
+contribution-background-voices-description = Un quiete murmuration de fundo es OK, ma nos non vole altere voces que pote causar al algorithmo de machina de identificar parolas que non es in le texto scribite. Si tu pote audir parolas distincte a parte de illos del texto, le registration debe esser rejectate. Typicamente isto eveni ubi le TV ha essite lassate active o ubi il ha un conversation vicin.
+contribution-background-voices-description-extended = Si le registration se interrumpe o ha crepitationes, rejecta lo a minus que le totalitate del texto pote ancora esser audite.
+contribution-background-voices-example-1-title = Le gigantesc dinosauros del triassico. <strong>[legite per un voce]</strong>
+contribution-background-voices-example-1-explanation = Esque tu veni?
+contribution-volume-title = Volumine
+contribution-volume-description = Il sera natural variationes in volumine inter lectores. Rejecta solo si le volumine es assi alte que le registration se interrumpe, o (plus communmente) si illo es assi basse que tu non pote audir lo que es dicite sin referentia al texto scribite.
+contribution-reader-effects-title = Effectos del lector
+contribution-reader-effects-description = Le major parte del registrationes es de personas qui parla in lor natural voce. Tu pote acceptar le occasional registration non-standard que es critate, susurrate, o obviemente fornite in un voce ‘dramatic’. Per favor rejecta registrationes cantate e illos que usa un voce synthetisate per computator.
+contribution-just-unsure-title = Justo insecur?
+contribution-just-unsure-description = Si tu ha incontrate qualcosa que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
+see-more = <chevron></chevron>Vider plus
+see-less = <chevron></chevron>Vider minus

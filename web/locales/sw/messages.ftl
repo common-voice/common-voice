@@ -154,6 +154,7 @@ uz = Kiuzbeki
 vec = Kivenetia
 vi = Kivietnamu
 vot = Kivoti
+yo = Kiyoruba
 yue = Kikantonisi
 zh-CN = Kichina (Uchina)
 zh-HK = Kichina (Hong Kong)
@@ -552,7 +553,7 @@ confirm-size = Uko tayari kuanzisha upakuaji wa <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Unakubali</b> kutojaribu kubaini utambulisho wa wasemaji kwenye daftari ya Common Voice
-download-language = Pakua { $lugha }
+download-language = Pakua { $language }
 validated-hours = Masaa yaliyo halalishwa
 recorded-hours = masaa yaliyorekodiwa
 whats-inside = Nini kipo ndani ya daftari la Common Voice?
@@ -565,8 +566,6 @@ subscribe = Jiandikishe
 get-started-speech = Pata kuanza na utambulizi wa sauti
 other-datasets = Daftari zingine za sauti
 feedback-q = Una Maoni?
-deepspeech-info = Daftari la Common Voice linakamilisha chanzo wazi la utambuzi wa sauti ya injini ya Deep speech ya Mozilla, ambayo inaweza kutumika kutengeneza programu za utambuzi wa sauti. Soma <githubLink>muhtasari wetu wa Github</githubLink> au jiunge na <discourseLink>DeepSpeech Dicrourse</discourseLink> ili kujifunza jinsi ya kuanza.
-common-voice-info-new = Je! Una maswali kuhusu Common Voice? Mawazo ya maboresho au maoni juu ya lugha maalum? Jiunge nasi kwenye idhaa yetu ya <discourseLink> Discourse </discourseLink> na utujulishe.
 data-other-librispeech-description = LibriSpeech ni daftari la takriban saa 1000 za 16Khz za sauti ya Kiingereza ziliyosomwa kutoka vitabu vya sauti vya mradi wa LibriVox.
 data-other-ted-name = Daftari la TED-LIUM
 data-other-ted-description = Daftari la TED-LIUM liliundawa kutoka kwa mazungumzo ya sauti na nakala zao zinapatikana kwenye wavuti wa TED.
@@ -845,6 +844,9 @@ why-delete-recordings =
     Je! Unaweza kutujulisha kwa nini ungependa rekodi zako zifutwe?
 profile-form-delete = Futa wasifu
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Karibu wafanyikazi wa { $company }!
@@ -888,3 +890,10 @@ demo-listen-subtitle = Uko tayari kuchangia?
 
 demo-dashboard-card-header = Dashbodi za kibinafsi zinakupasha juu ya maendeleo ya kibinafsi na ya jamii.
 demo-dashboard-card-body = Kwa kila kipande cha sauti kilicho changiwa, na kwa kila kipande cha sauti kilichothibitishwa, dashbodi zako za akaunti zimesasishwa ili kuonesha maendeleo yako ya hivi karibuni katika kila lugha unayochangia. Ndio, unaweza kuchangia zaidi ya moja!<br/><br/> Tumia dashbodi kufuatilia takwimu zako, angalia jinsi unavyoendelea pamoja na wengine katika jamii, na weka lengo la mchango la kila siku au kila wiki.
+
+## Validation criteria
+
+contribution-criteria-nav = Vigezo
+contribution-criteria-link = Elewa vigezo vya michango
+contribution-criteria-page-title = Vigezo vya Mchango
+contribution-for-example = Kwa mfano

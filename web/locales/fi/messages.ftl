@@ -186,6 +186,7 @@ logout = Kirjaudu ulos
 ## Home Page
 
 home-title = Common Voice on Mozilla-projekti, jonka tavoitteena on opettaa koneet puhumaan kuin oikeat ihmiset.
+default-tagline = Mozilla Common Voice on aloite opettaa koneille, kuinka ihmiset puhuvat.
 home-cta = Puhu, avusta täällä!
 wall-of-text-start = Ääni on luonnollista ja inhimillistä. Siksi haluamme luoda käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin laaja ääniaineisto.
 wall-of-text-more-mobile = Suurin osa suuryritysten käyttämästä aineistosta ei ole laajasti käytettävissä. Meistä se tukahduttaa innovaation. Siitä syystä käynnistimme Common Voice -projektin, joka auttaa avaamaan puheentunnistuksen kaikille.
@@ -279,6 +280,8 @@ shortcut-record-toggle = n
 shortcut-record-toggle-label = Nauhoita / pysäytä
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Uudelleennauhoita äänite
+shortcut-discard-ongoing-recording-label = Hylkää käynnissä oleva tallenne
+shortcut-submit-label = Lähetä äänileikkeet
 request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
 request-language-button = Pyydä kieltä lisättäväksi
 
@@ -540,7 +543,7 @@ number-of-voices = Äänien määrä
 splits = Osat
 email-to-download = Anna sähköpostiosoite ladataksesi
 why-email = <b>Miksi sähköpostiosoite?</b> Meille voi tulla tarve olla sinuun yhteyksissä aineistoon muutoksiin liittyen, jolloin sähköposti on  yksi yhteystieto.
-confirm-size = Olet aloittamassa <b>{ $size }</b> gigatavun latausta.
+confirm-size = Olet aloittamassa <b>{ $size }</b>:n latausta.
 size-gigabyte = Gt
 size-megabyte = Mt
 confirm-no-identify = <b>Sitoudut</b> olemaan yrittämättä tunnistaa Common Voice -aineiston puhujia.
@@ -557,8 +560,6 @@ subscribe = Tilaa
 get-started-speech = Aloita puheentunnistuksen parissa
 other-datasets = Muut puheaineistot
 feedback-q = Haluatko antaa palautetta?
-deepspeech-info = Common Voice -aineisto täydentää Mozillan avoimen lähdekoodin puheentunnistusohjelmaa Deep Speech, jota voit käyttää puheentunnistuksen sovellutuksissa. Lue <githubLink>yleiskatsaus GitHubista</githubLink> tai liity <discourseLink>DeepSpeech Discourseen</discourseLink> oppiaksesi, kuinka pääset alkuun.
-common-voice-info-new = Onko sinulla kysymyksiä Common Voicesta? Ajatuksia sen parantamisesta tai palautetta tietystä kielestä? Liity <discourseLink>Discourse -keskusteluun</discourseLink> ja kerro meille!
 data-other-librispeech-description = LibriSpeech on noin 1000 tunnin 16 Khz:n puheaineisto englanninkielisiä ääneen luettuja audiokirjoja LibriVox-projektilta.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM on tehty puhenauhotteista ja niiden tekstityksistä TED-sivustolta.
@@ -831,6 +832,25 @@ why-delete-recordings =
     Haluatko kertoa, miksi haluat poistaa tekemäsi nauhoitukset?
 profile-form-delete = Poista profiili
 
+## Profile Download
+
+download-q = Haluatko ladata tietosi?
+download-info = Kerro meille mitä haluat ladata:
+download-profile-title = Profiili
+download-recordings-title = Äänitallenteet
+download-size = Koko
+download-selected = Valittu
+download-start = Lataa profiilitiedot
+download-request = Pyydä äänitallenteet
+download-request-button = Lataa
+download-request-title = { $created }
+download-request-archive-single = Yksi zip-tiedosto sisältäen
+download-request-archive-multiple = Jaa { $archiveCount } eri zip-tiedostoksi sisältäen
+download-request-assembling-description = Tiedostojasi kootaan. Tarkista myöhemmin uudelleen.
+download-request-refresh-button = Päivitä
+download-request-modal-title = Latauslinkit
+download-request-link-text = Zip-tiedosto { $offset }/{ $total }
+
 ## Landing
 
 welcome-staff = Tervetuloa, yrityksen { $company } työntekijä!
@@ -869,3 +889,19 @@ demo-listen-subtitle = Valmiina osallistumaan?
 
 ## Demo Dashboard
 
+
+## Validation criteria
+
+contribution-criteria-link = Ymmärrä osallistumiskriteerit
+contribution-criteria-page-title = Osallistumiskriteerit
+contribution-criteria-page-description = Ymmärrä, mihin keskittyä äänileikkeitä kuunnellessa, ja auta tekemään äänitallenteistasi entistä parempia!
+contribution-for-example = esimerkiksi
+contribution-misreadings-title = Virheellisesti luettu
+contribution-varying-pronunciations-title = Vaihtelevat ääntämiset
+contribution-background-noise-title = Taustamelu
+contribution-background-voices-title = Taustaäänet
+contribution-volume-title = Äänenvoimakkuus
+contribution-reader-effects-title = Lukutehosteet
+contribution-just-unsure-title = Vielä epävarma?
+see-more = <chevron></chevron>Näytä lisää
+see-less = <chevron></chevron>Näytä vähemmän

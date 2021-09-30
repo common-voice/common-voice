@@ -81,7 +81,7 @@ export default class API {
       return;
     }
     if (response.status >= 400) {
-      if (response.statusText === 'save_clip_error') {
+      if (response.statusText.includes('save_clip_error')) {
         throw new Error(response.statusText);
       }
       throw new Error(await response.text());
@@ -127,7 +127,7 @@ export default class API {
         sentence_id: sentenceId,
         challenge: getChallenge(this.user),
         from_demo: fromDemo ? 'true' : 'false',
-        source: 'web'
+        source: 'web',
       },
       body: blob,
     });
@@ -194,9 +194,7 @@ export default class API {
     });
   }
 
-  fetchClipsStats(
-    locale?: string
-  ): Promise<
+  fetchClipsStats(locale?: string): Promise<
     {
       date: string;
       total: number;
@@ -206,9 +204,7 @@ export default class API {
     return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/stats');
   }
 
-  fetchClipVoices(
-    locale?: string
-  ): Promise<
+  fetchClipVoices(locale?: string): Promise<
     {
       date: string;
       value: number;
@@ -285,6 +281,25 @@ export default class API {
 
   deleteAvatarClip() {
     return this.fetch(API_PATH + '/user_client/delete_avatar_clip');
+  }
+
+  fetchTakeouts() {
+    return this.fetch(API_PATH + '/user_client/takeout');
+  }
+
+  requestTakeout() {
+    return this.fetch(API_PATH + '/user_client/takeout/request', {
+      method: 'POST',
+    });
+  }
+
+  fetchTakeoutLinks(id: number) {
+    return this.fetch(
+      [API_PATH, 'user_client', 'takeout', id, 'links'].join('/'),
+      {
+        method: 'POST',
+      }
+    );
   }
 
   fetchLeaderboard(type: 'clip' | 'vote', cursor?: [number, number]) {
@@ -454,5 +469,9 @@ export default class API {
     return this.fetch(`${API_PATH}/bucket/${bucketType}/${path}/${useCDN}`, {
       method: 'GET',
     });
+  }
+
+  async getServerDate(): Promise<string> {
+    return await this.fetch(`${API_PATH}/server_date`);
   }
 }

@@ -889,3 +889,10 @@ demo-listen-subtitle = Klar til å bidra?
 
 demo-dashboard-card-header = Personlig oversikt holder deg oppdatert med individuelle og samfunnsmessige fremskritt.
 demo-dashboard-card-body = For hvert stemmeklipp som doneres, og hvert lydklipp som valideres, oppdateres kontoens oversikt for å gjenspeile den siste fremgangen din på hvert språk du bidrar til. Ja, du kan bidra til mer enn én!<br/><br/> Bruk oversikt for å spore statistikken din, se hvordan du har det sammen med andre i samfunnet, og angi daglige eller ukentlige bidragsmål.
+
+## Validation criteria
+
+contribution-for-example = for eksempel
+contribution-misreadings-title = Feillesninger
+see-more = <chevron></chevron>Se mer
+see-less = <chevron></chevron>Se mindre

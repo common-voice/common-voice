@@ -63,7 +63,7 @@ ff = Fula
 fi = Finsk
 fo = Færøysk
 fr = Fransk
-fy-NL = frisisk
+fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
@@ -78,6 +78,7 @@ hy-AM = Armensk
 hyw = Vestarmensk
 ia = Interlingua
 id = Indonesisk
+ie = Interlingue
 is = Islandsk
 it = Italiensk
 izh = Ingrisk
@@ -86,6 +87,7 @@ ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
 kbd = Kabardisk
+ki = Kikuyu
 kk = Kasakhisk
 kmr = Nordkurdisk
 ko = Koreansk
@@ -110,11 +112,13 @@ ms = Malaysisk
 mt = Maltesisk
 my = Burmesisk
 myv = Erziamordvinsk
+nan-tw = Taiwansk (Minnan)
 nb-NO = Norsk (bokmål)
 ne-NP = Nepalsk
 nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
+nyn = Nyankole
 oc = Oksitansk
 or = Oriya
 pa-IN = Panjabi
@@ -128,6 +132,7 @@ ro = Rumensk
 ru = Russisk
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (ol-chiki)
 sc = Sardinsk
 scn = Siciliansk
 shi = Shilha
@@ -147,6 +152,7 @@ th = Thai
 tl = Tagalog
 tr = Tyrkisk
 tt = Tatarisk
+tw = Twi
 uby = Ubykhisk
 udm = Udmurtisk
 ug = Uigurisk
@@ -156,6 +162,8 @@ uz = Usbekisk
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+yi = Jiddisk
+yo = Joruba
 yue = Kantonesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
@@ -188,6 +196,7 @@ logout = Logg ut
 ## Home Page
 
 home-title = Prosjektet Common Voice er eit Mozilla-initiativ, som skal hjelpe maskiner med å forstå korleis folk snakkar.
+default-tagline = Mozilla Common Voice er eit initiativ som skal hjelpe maskiner med å forstå korleis vanlege folk snakkar.
 home-cta = Snakk, støtt prosjektet og gje eit bidrag!
 wall-of-text-start = Stemma er naturleg, stemma er menneskeleg. Det er derfor vi er fascinert av å lage ein brukbar stemmeteknologi til maskinene våre. Men for å lage system til stemmegjenkjenning, trengst det svært store mengder med stemmedata.
 wall-of-text-more-mobile = Ein større del av dei dataa som vert nytta av store selskap er likevel utilgjengelege for folk flest. Vi trur at dette kjem til å bremse nyskapinga. Derfor lanserte vi prosjektet Common Voice, eit prosjekt som hjelper til med å gjere talegjenkjenning tilgjengeleg for alle.
@@ -281,6 +290,8 @@ shortcut-record-toggle = e
 shortcut-record-toggle-label = Spel inn/Stopp
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spel inn klippet ein gong til
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Forkast denne innspelinga
 shortcut-submit = Enter
 shortcut-submit-label = Send inn klipp
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
@@ -381,6 +392,10 @@ faq-what-cv-a =
     Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelege system er dyre og lukka. Common Voice er ein del av Mozillas initiativ for å gjere talegjenkjenningsteknologi betre og meir tilgjengeleg for alle. Common Voice er ein stor, global database med stemmebidrag, som lèt kven som helst, raskt og enkelt trene stemme-aktiverte applikasjonar i potensielt alle språk.
     
     Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
+faq-what-cv-a-2 =
+    Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner på, men tilgjengelege system er dyre og lukka. Mozillas Common Voice er eit initiativ for å gjere talegjenkjenningsteknologi betre og meir tilgjengeleg for alle. Common Voice er ein stor, global database med stemmebidrag, som lèt kven som helst, raskt og enkelt trene stemme-aktiverte applikasjonar i potensielt alle språk.
+    
+    Vi samlar ikkje berre lydklipp frå språk med stor utbreiing, men òg frå dei med færre brukarar. Ved å publisere eit variert datasett med stemmer, så set vi utviklarar, gründarar og samfunn i stand til å sjølv fylle dette behovet.
 faq-why-important-q = Kvifor er det viktig?
 faq-why-important-a =
     Tale er ofte den mest naturlege måten vi kommuniserer med kvarandre, og taleteknologi gir oss den mulegheita på datamaskiner og portable einingar. Vi ønskjer å setje programvareutviklarar i stand til å byggje fantastiske talegjenkjenningsapplikasjonar, som sanntidsomsetting og stemmestyrte personlege assistentar. Men akkurat no er det meste av taledata som trengs for å byggje denne typen applikasjonar dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklarar det dei treng for å lage nye ting og gjere taleteknologi tilgjengeleg på sitt eige språk. 
@@ -432,6 +447,9 @@ faq-search-for-answers =
 about-title = Kvifor Common Voice?
 about-subtitle = Common Voice er ein del av Mozillas initiativ for å hjelpe til med å lære maskiner korleis folk snakkar. I tillegg til Common Voice-datasettet byggjer vi òg ein talegjenkjenningsmotor med open kjeldekode som heiter Deep Speech.
 about-header-description = Begge desse prosjekta er delar av strevet vårt for å byggje bru over det digitale skiljet. Talegjenkjenning bidreg med ein menneskeleg dimensjon til dei digitale einingane våre, men utviklarar treng ei enorm mengde med data for å byggje dei. Det meste av slike data er dyre og proprietære. Vi ønskjer å gjere stemmedata gratis og offentleg tilgjengeleg, og forsikre om at dataa representerer variasjonen mellom verkelege menneske. Saman kan vi gjere talegjenkjenning betre for alle.
+about-header-description-2 =
+    Dette prosjektet er ein freistnad på å byggje bru over den digitale talekløfta. Taleattkjenningsteknologiar gjer dingsane våre meir menneskelege, men utviklarane treng enorme mengder med taledata for å byggje dei. No er det meste av slike data dyre og proprietære.
+    Vi ønskjer å gjere taledata gratis og offentleg tilgjengeleg, og sikre at dataa speglar mangfaldet mellom vanlege folk. I lag kan vi gjere taleattkjenning betre for alle.
 how-does-it-work-title = Korleis fungerer det?
 how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av stemmer. Bidra med stemma di, valider nøyaktigheita av andre sine lydklipp og gjer datasettet betre for alle.
 about-speak = Tal
@@ -565,8 +583,10 @@ subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du ei tilbakemelding?
-deepspeech-info = Common Voice-datasettet komplementerer Mozillas opne kjeldekode-stemmegjenkjenningsmotor Deep Speech, som du kan bruke til å byggje talegjenkjenningsapplikasjonar. Les <githubLink> Github-oversikta </githubLink> vår, eller bli med på <discourseLink> DeepSpeech Discourse </discourseLink> for å lære korleis du kjem i gang.
-common-voice-info-new = Har du spørsmål om Common Voice? Idear til forbetringar eller tilbakemeldinger om eit bestemt språk? Bli med i <discourseLink> Discourse forum </discourseLink> og gi oss beskjed.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er eit <docsLink>open-kjeldekodeverktøy</docsLink> for forskarar som utviklar moderne kunstig intelligens-modellar for samtalerobotar.
+resource-deepspeech-info = Mozilla Deep Speech er ein open kjeldekode-motor for taleattkjenning som kan brukast i taleattkjenningsapplikasjonar. Les  <githubLink>oppsummeringa på Github</githubLink> eller bli med på <discourseLink>DeepSpeech Discourse</discourseLink> for å lære meir om korleis du kjem i gang med systemet.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> jobbar for open taleteknologi. Prosjekta deira inkluderer system for tale-til-tekst og tekst-til-tale basert på djup læring.
+resource-playbook-info = <playbookLink>Få hjelp og rettleiing</playbookLink> gjennom heile Common Voice-reisa, frå omsetjing til bruk av datasett, og ta kontakt med fellesskapet.
 data-other-librispeech-description = LibriSpeech er eit korpus av omlag 1000 timar med engelsk tale (16Khz-opptak) henta frå lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpuset er laga på bakgrunn av lydsamtalar og transkripsjonar av desse, på TED-nettsida.
@@ -704,7 +724,7 @@ report-grammar-or-spelling-detail = Setninga har ein grammatisk feil eller ein s
 report-different-language = Anna språk
 report-different-language-detail = Det er skrive på eit anna språk enn det eg snakkar.
 report-difficult-pronounce = Vanskeleg å uttale
-report-difficult-pronounce-detail = Den inneheld ord eller uttrykk som er vanskeleg å lese eller uttale.
+report-difficult-pronounce-detail = Den inneheld ord eller uttrykk som er vanskelege å lese eller uttale.
 report-offensive-speech = Krenkande tale
 report-offensive-speech-detail = Lydklippet har respektlaust eller krenkande språk.
 report-other-comment =
@@ -845,6 +865,35 @@ why-delete-recordings =
     Kan du fortelje oss om kvifor du vil at lydklippa dine skal slettast?
 profile-form-delete = Slett profilen
 
+## Profile Download
+
+download-q = Treng du å laste ned data?
+download-info = Fortel oss kva du vil laste ned:
+download-profile-title = Profil
+download-profile-info = Inkluderer e-post, brukarnamn og demografisk info, tilgjengeleg no
+download-profile-size = Eit par byte
+download-recordings-title = Innspelingar
+download-recordings-info = Inkluderer mp3-ar og tilhøyrande setningar, kan ta litt tid å gjere klart
+download-recordings-size = Vanlegvis nokre megabyte
+download-recordings-unavailable = Du kan ikkje be om innspelingane dine samtidig som ein annan førespurnad er i gang
+download-size = Storleik
+download-selected = Markert
+download-start = Last ned profildata
+download-request = Be om innspelingar
+download-requests = Tidlegare førespurnadar om innspelingsnedlastingar
+download-requests-info = Når du ber om innspelingane så set vi dei i hop til ei eller fleire zip-filer. Her er dei tidlegare førespurnadane dine:
+download-request-button = Last ned
+download-request-title = { $created }
+download-request-description = { $clipCount } taleklipp, total arkivstorleik { $size }. Går ut{ $expires }.
+download-request-archive-single = Enkel zip-fil med
+download-request-archive-multiple = Delt inn i { $archiveCount } zip-filer med
+download-request-assembling-description = Vi driv og set i hop filene dine. Prøv igjen seinare.
+download-request-refresh-button = Oppdater
+download-request-modal-title = Nedlastingslenker
+download-request-modal-description = Her er lenkjene du kan bruke til å laste ned zip-filene dine.
+download-request-link-text = Zip #{ $offset } av { $total }
+download-request-metadata-link = Setningstekst
+
 ## Landing
 
 welcome-staff = Velkomne tilsette på { $company }!
@@ -888,3 +937,20 @@ demo-listen-subtitle = Klar til å bidra?
 
 demo-dashboard-card-header = Personleg oversikt held deg oppdatert med individuelle og samfunnsmessige framsteg.
 demo-dashboard-card-body = For kvart stemmeklipp som dvert donert, og kvart lydklipp som vert validert, vert kontooversikta oppdatert for å reflektere den siste framgangen din på kvart språk du bidrar til. Ja, du kan bidra til meir enn éitt!<br/><br/> Bruk oversikta for å spore statistikken din, sjå korleis du har det saman med andre i samfunnet, og bestemme daglege bidragsmål og vekebidragsmål.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterium
+contribution-criteria-link = Forstå bidragskriterium
+contribution-criteria-page-title = Bidragskriterium
+contribution-criteria-page-description = Forstå kva du skal sjå etter når du lyttar til talesnuttar og bidra til å forbetre taleinnspelingane dine òg!
+contribution-for-example = til dømes
+contribution-misreadings-title = Feiltolkingar
+contribution-misreadings-description = Når du lyttar må du sjekke nøye etter at det som er spelt inn betyr akkurat det som er skrive; forkast opptaket sjølv om det er berre små feil. <br/>Vanlege feil inkluderer:
+contribution-misreadings-description-extended-list-1 = Manglande <strong>«Ei(n)»</strong> eller <strong>«Den»</strong> i starten av opptaket.
+contribution-misreadings-description-extended-list-2 = Manglar ein <strong>«s»</strong> på slutten av eit ord.
+contribution-misreadings-description-extended-list-3 = Å slå saman ord utan at dei er slått saman i teksten, som å lese «harkje» i staden for «har ikkje», eller omvendt.
+contribution-misreadings-description-extended-list-5 = Fleire forsøk på å lese eit ord.
+contribution-background-noise-title = Bakgrunnsstøy
+see-more = <chevron></chevron>Vis meir
+see-less = <chevron></chevron>Vis mindre

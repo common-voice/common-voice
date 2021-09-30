@@ -526,6 +526,7 @@ Ale muž ten byl nedočkavý, proto jal se popoháněti i samu přírodu.
 Ale my chceme uvařit pivo dobré že?
 Ale my nejsme svoji, cikánko!
 Ale má stejné problémy jako jiné techniky.
+Ale mám strach, aby z toho neměl zdravotní problémy.
 Ale měla jsem tě ráda vod začátku, Janičko.
 Ale mělo to uvnitř všechno, co má člověk.
 Ale měnit ho rozhodně nebudu.
@@ -579,6 +580,7 @@ Ale pozor!
 Ale počkej, zaplatím ti.
 Ale počítá!
 Ale pravý pán domu je číslo tři.
+Ale protože žije jen v bytě, až tolik příežitostí k pohybu nemá.
 Ale proč jde pan Lidenbrock již domů?
 Ale proč mi řekla to druhé?
 Ale proč říká, že poznám žal?
@@ -694,6 +696,7 @@ Ano, je to bohužel tak.
 Ano, k jeho sluchu ani nepronikne krutý žal a nářek vlastního bratra.
 Ano, musel něco udělat.
 Ano, mám, a nejraději ty na měření rychlosti.
+Ano, můj kocour se jmenuje Pepíček.
 Ano, nechtěl Lestreda zradit.
 Ano, opotřebují se.
 Ano, opravdu je to Willem Dafoe.
@@ -1344,6 +1347,7 @@ Daleko častěji dělají party u sebe v bytě než venku.
 Dali by ji do stoupy.
 Dali mně lhůtu – do dne do roka.
 Dali si s tím práci a chtěli vytvořit něco hezkého.
+Dalo by se říct, že Pepíček je sympatický a přítulný tlusťoch.
 Dalo by se říct, že jen absolutní minimum.
 Další blok je zaklet k tomu, aby nesl samé železné balkóny.
 Další diskuze na stejné téma je plýtváním času.
@@ -2924,6 +2928,7 @@ Kdyby ryby nebyly.
 Kdyby s tím byl nějaký problém, dejte mi vědět.
 Kdyby se na mne podívala, zkameněl bych.
 Kdyby sis to rozmyslel, dej mi vědět.
+Kdyby trochu víc běhal, nebude takový tlustoprd.
 Kdyby věděla, že je poctím návštěvou, byla by podřezala husu.
 Kdybych byl přítel, myslíte, že bych seděl před zamčenými vraty?
 Kdybych přestala dýchat, dal by mi umělé dýchání?
@@ -3030,6 +3035,7 @@ Kobalt se v zemské kůře vyskytuje maně.
 Kobyla kopyty klapala.
 Kocour se jen přetvařuje.
 Kocour sedí přede dveřmi, zdá se, že spí.
+Kocour totiž strašlivě žere.
 Koho že tam máte?
 Kol žhoucí tůně spějte po pěšině!
 Kolem jel oddíl dělníků v autech.
@@ -3104,6 +3110,7 @@ Kozlík lékařský!
 Kozy se chvějí, a ptáci zalézají do děr.
 Kozy strkáš chlapům až pod nos!
 Kozí Kuncka jí říkali.
+Kočka je úplně normálně hubená.
 Kočár ujíždí krajinou.
 Kristepane!
 Krok ke zproletarizování všech vrstev.
@@ -3563,6 +3570,7 @@ Mám je už dlouho, přesto jsem je celé dlouhé roky odkládal.
 Mám jet na hory?
 Mám ještě něco podepsat?
 Mám na krajíčku, tyhle scenérie mě vždycky dojímají.
+Mám neuvěřitelně tlustého kocoura.
 Mám o ní mluvit?
 Mám peněženku naditou penězi.
 Mám rád rozkvetlé zahrady.
@@ -3944,6 +3952,7 @@ Ne ten postoj, ale reakce lidí.
 Ne toho neznámého.
 Ne víc?
 Ne vždy se setkal s pochopením.
+Ne že by mi vadilo, jak vypadá.
 Ne že by nešel, ale prostor působil divně a nepřirozeně.
 Ne, Marius a Sulla byli vojevůdci a bojovali proti sobě.
 Ne, Bobe, počkej.
@@ -6751,6 +6760,7 @@ Takže letos Besson samozřejmě udělal co?
 Takže není moc důvodů se mu smát.
 Takže pomáhá a chrání.
 Takže proč čtete tak málo?
+Takže se zase musím pochlapit a přinutit Pepíčka držet dietu.
 Takže se zdraží elektřina.
 Takže si už museli poradit s lecčím.
 Takže tam nesmí být žádné rušení, žádný vítr, žádní lidé.

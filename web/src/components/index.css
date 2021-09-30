@@ -55,8 +55,9 @@ body,
 #main {
     padding: 0;
     margin: 0;
-    min-height: 100vh;
     width: 100%;
+    height: 100vh;
+    max-height:  100%;
 }
 
 h1,
@@ -225,7 +226,7 @@ button {
         padding: 0 var(--page-margin);
     }
 
-    & > div {
+    > div {
         box-sizing: border-box;
         transition: opacity var(--transition-duration-slow) var(--easing);
         max-width: var(--desktop-width);
@@ -237,6 +238,10 @@ button {
         @media (--md-up) {
             min-height: auto;
             padding: 0;
+        }
+
+        @media (--xl-up) {
+            max-width: var(--wide-desktop-width);
         }
     }
 }

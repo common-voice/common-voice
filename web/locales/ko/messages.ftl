@@ -72,11 +72,13 @@ he = 히브리어
 hi = 힌디어
 hr = 크로아티아어
 hsb = 고지 소르브어
+ht = 아이티어
 hu = 헝가리어
 hy-AM = 아르메니아어
 hyw = 서부 아르메니아어
 ia = 인테르링구아어
 id = 인도네시아어
+ie = 인테르링구에어
 is = 아이슬란드어
 it = 이탈리아어
 izh = 이조르어
@@ -85,6 +87,7 @@ ka = 그루지아어
 kaa = 카라칼파크어
 kab = 커바일어
 kbd = 카바르다어
+ki = 키쿠유어
 kk = 카자흐스탄어
 kmr = 쿠르만지 쿠르드어
 ko = 한국어
@@ -95,24 +98,33 @@ lg = 루간다어
 lij = 리구리아어
 lt = 리투아니아어
 lv = 라트비아어
+mai = 마이틸어
 mdf = 목샤어
 mg = 말라가시어
 mhr = 메도우 마리어
 mk = 마케도니아어
 ml = 말라얄람어
 mn = 몽골어
+mos = 모시어
+mr = 마라티어
 mrj = 힐 마리어
+ms = 말레이어
 mt = 몰타어
 my = 버마어
 myv = 에르자어
+nan-tw = 대만어(민난)
 nb-NO = 노르웨이어 보크몰
 ne-NP = 네팔어
+nia = 니아스어
 nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
+nyn = 엔코어어
 oc = 오크어
 or = 오리야어
 pa-IN = 펀자브어
+pap-AW = 파피아멘토(아루바)
 pl = 폴란드어
+ps = 파슈토어
 pt = 포르투갈어
 rm-sursilv = 로만슈 수르실반어
 rm-vallader = 로만슈 발라데르어
@@ -120,11 +132,14 @@ ro = 루마니아어
 ru = 러시아어
 rw = 키냐르완다어
 sah = 사하어
+sat = 산탈어 (올치키)
 sc = 사르데냐어
 scn = 시칠리아어
+shi = 실하어
 si = 싱할라어
 sk = 슬로바키아어
 sl = 슬로베니아어
+so = 소말리아어
 sq = 알바니아어
 sr = 세르비아어
 sv-SE = 스웨덴어
@@ -137,14 +152,19 @@ th = 태국어
 tl = 타갈로그어
 tr = 터키어
 tt = 타타르어
+tw = 트위어
 uby = 우비흐어
 udm = 우드무르트어
+ug = 위구르어
 uk = 우크라이나어
 ur = 우르두어
 uz = 우즈베키스탄어
 vec = 베네치아어
 vi = 베트남어
 vot = 바트어
+yi = 이디시어
+yo = 요루바어
+yue = 광동어
 zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
 zh-TW = 중국어(중화민국)
@@ -176,6 +196,7 @@ logout = 로그아웃
 ## Home Page
 
 home-title = Common Voice Project는 실제 사람들이 어떻게 말하는지 기계들에게 가르치기 위한 Mozilla의 프로젝트입니다.
+default-tagline = Mozilla Common Voice는 기계에게 실제 사람들이 말하는 법을 가르치는 프로젝트입니다.
 home-cta = 말하고, 여기서 기여하세요!
 wall-of-text-start = 목소리는 자연적이고 사람을 나타냅니다. 그래서 우리는 기계를 위한 사용할 만한 음성 기술을 만들고자 하게 되었습니다. 하지만 음성 시스템을 만들기 위해서는 매우 많은 양의 데이터가 필요합니다.
 wall-of-text-more-mobile = 큰 기업에서 사용하는 대부분의 데이터는 일반 사람들이 사용할 수 없습니다. 이는 혁신을 저지하는 것입니다. 그래서 우리는 모두에게 열려있는 Common Voice 프로젝트를 시작했습니다.
@@ -268,7 +289,12 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = 녹음/멈추기
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 레코드클립 재녹음
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = 진행 중인 녹음 취소
+shortcut-submit = 돌아가기
+shortcut-submit-label = 클립 제출
 request-language-text = 아직도 사용하는 언어가 Common Voice에서 보이지 않나요?
+request-language-text-learn = 여기에서 요청하는 방법을 알아보세요!
 request-language-button = 언어 요청하기
 
 ## ProjectStatus
@@ -337,26 +363,19 @@ skip-submission-description = '제출'을 클릭하면 기여 제출 피드백�
 skip-submission-note = 참고: Speak(말하기) 또는 Listen(듣기) 중 하나를 선택해야 합니다.
 off = 꺼짐
 on = 켜짐
-avatar-clip-title = 아바타에게 목소리 주기
-change-your-avatar-clip = 음성 클립을 변경하시겠습니까?
-recording-in-progress = 음성 녹음 중
-avatar-clip-recorded = 아바타에 음성 클립이 포함되었습니다!
-record-voice-wave = 음성 녹음
-retry-voice-wave-recording = 다시 시도
-re-record = 다시 녹음
-delete-voice = 삭제
-recording-voice-wave = 녹음 중
-delete-voice-clip = 또는  음성 클립 삭제
-ready-to-upload = 업로드
-avatar-clip-fact = 레이아웃을 볼 때 읽을 수 있는 내용으로 인해 독자가 방해를 받는 다는 사실은 오랫동안 확립된 사실입니다.
-recreate-voice = 음성 재생성
-cancel-avatar-clip-recording = 취소
-about-avatar-clip-recording = 음성을 프로필 아바타의 일부로 만듭니다. 다른 사람들이 프로필 위에 마우스를 올리면 음성을 들을 수 있게 됩니다.
+
+## Profile - Email
+
 browse-file-title = 이미지 파일 업로드
 browse-file = 끌어 놓기 또는 <browseWrap>둘러보기</browseWrap>
 connect-gravatar = Gravatar에 연결하기
 gravatar_not_found = 이메일에 사용할 gravatar를 찾을 수 없습니다.
 file_too_large = 선택한 파일이 너무 큽니다.
+avatar-uploaded = 아바타 업로드됨
+max-file-size = 최대 { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = 구독 관리
 manage-email-subscriptions = 이메일 구독 관리
 email-already-used = 다른 계정에 이미 이메일이 사용되었습니다.
@@ -371,6 +390,10 @@ faq-what-cv-a =
     음성 인식 기술은 기계와 상호작용하는 방법을 혁신적으로 바꾸고 있습니다. 하지만 현재 사용가능한 시스템들은 비싸고 사유화 되어 있습니다. Common Voice는 음성인식 기술을 더 발전 시키고 모든 사람이 접근할 수 있게 만든 Mozilla 시작점입니다. Common Voice는 누구나 쉽고 빠르게 음성지원 앱을 학습 할 수 있게 하는 잠재적으로 모든 언어를 대상으로 하는 기부로 이루어진 대용량의 세계적인 음성 데이터 베이스 입니다.
     
     우리는 많이 사용되는 언어의 음성 샘플만 수집하지 않고 사용하는 인구가 적은 언어도 수집합니다. 다양한 음성 데이터 세트를 배포하여 개발자와 기업가, 커뮤니티가 이러한 차이를 극복할 수 있는 힘을 부여합니다. 또한 Common Voice 데이터 세트와 함께 Deep Speech라는 음성인식 오픈소스 엔진을 만들고 있습니다.
+faq-what-cv-a-2 =
+    음성 인식 기술은 기계와의 상호작용을 혁신적으로 바꾸고 있습니다. 하지만 현재 사용되는 시스템은 비싸고 사유화 되어 있습니다. Mozilla Common Voice는 음성인식 기술을 더 발전시키고 모든 사람에게 접근가능하도록 하는 프로젝트입니다. Common Voice는 기부한 음성으로 이루어진 세계적인 대용량 음성 데이터베이스로, 이를 통해 누구나 빠르고 쉽게 잠재적으로 모든 언어의 음성지원 앱을 학습시킬 수 있습니다.
+    
+    우리는 많이 사용되는 언어의 음성 샘플을 수집하는 것 뿐 아니라, 사용 인구가 적은 언어도 수집합니다. 다양한 음성 데이터셋을 배포함으로써 개발자와 기업가, 커뮤니티가 이러한 차이를 극복할 수 있도록 힘을 실어줄 것입니다.
 faq-why-important-q = 이것이 왜 중요할까요?
 faq-why-important-a =
     말하기는 우리가 다른 사람과 커뮤니케이션 하는 가장 자연스러운 방법입니다. 음성 기술은 그 편리한 방법을 컴퓨터와 모바일 환경에서 사용할 수 있게 합니다. 우리는 실시간 번역기나 음성지원이 가능한 디지털 비서와 같은 놀라운 음성 인식 앱을 개발자들이 만들어 낼 수 있는 환경을 만들고자 합니다. 그러나 지금, 이러한 종류의 앱들은 비싸고 사유화되어 있고 이 같은 앱을 만들려면 많은 양의 음성 데이터를 필요로 합니다. 우리는 개발자들이 그들의 언어로 된 혁신적인 말하기 기술을 만드는데 필요한 것을 Common Voice 데이터 세트가 제공해 주기를 원합니다.
@@ -428,6 +451,9 @@ about-title = 왜 Common Voice 인가요?
 about-subtitle = Common Voice는 실제로 사람이 어떻게 말하는지를 기계에게 교육시키기 위한 Mozilla의 시작 활동의 일부입니다. Common Voice 뿐만 아니라 우리는 Deep Speech라는 오픈 소스 음성 인식 엔진을 만들고 있습니다.
 about-header-description =
     이 두 프로젝트는 디지털 음성 격차를 해소하려는 노력의 일환입니다. 음성 인식 기술은 우리의 기기에 인간과 같은 능력을 가져다 주지만 개발자는 이를 구축하기 위해 엄청난 양의 음성 데이터가 필요합니다. 현재 이 데이터의 대부분은 비싸고 독점되어 있습니다.
+    우리는 음성 데이터를 자유롭고 공개적으로 이용할 수 있게 하고 데이터가 실제 사람들의 다양성을 나타내는 지 확인하고 싶습니다. 함께하면 우리는 모두를 위한 음성 인식기술을 만들 수 있습니다.
+about-header-description-2 =
+    이 프로젝트는 디지털 음성 격차를 해소하기 위한 노력의 일환입니다. 음성 인식 기술은 우리의 기기에 인간과 같은 능력을 가져다 주지만 개발자는 이를 구축하기 위해 엄청난 양의 음성 데이터가 필요합니다. 현재 이 데이터의 대부분은 비싸고 독점되어 있습니다.
     우리는 음성 데이터를 자유롭고 공개적으로 이용할 수 있게 하고 데이터가 실제 사람들의 다양성을 나타내는 지 확인하고 싶습니다. 함께하면 우리는 모두를 위한 음성 인식기술을 만들 수 있습니다.
 how-does-it-work-title = 어떻게 작동하나요?
 how-does-it-work-text = 오픈 소스 음성 데이터 세트를 크라우드 소싱하고 있습니다. 목소리를 기부하고, 다른 사람의 클립의 정확성을 검증하고, 모든 사람에게 더 나은 데이터 세트를 만드세요.
@@ -506,10 +532,12 @@ data-other-goto = { $name }로 이동
 data-other-download = 데이터 다운로드
 data-bundle-button = 데이터 세트 번들 다운로드
 data-bundle-description = Common Voice 데이터에는 위의 모든 다른 음성 데이터 세트가 포함됩니다.
+release-version = 버전
+dataset-date = 날짜
 license = 라이센스: <licenseLink>{ $license }</licenseLink>
 license-mixed = 혼합됨
 data-download-singleword-title = 단일 단어 대상 세그먼트 다운로드
-data-download-singleword-callout = 이것은 음성 숫자 인식, 예 / 아니오 감지 및 <fxLink>Firefox Voice</fxLink>에 대한 wakeword 테스트 데이터를 지원하는 데이터를 포함하는 사용 사례 중심 세그먼트입니다.
+data-download-singleword-callout-v2 = 이것은 음성 숫자 인식과 예 / 아니오 감지를 지원하는 데이터를 포함하는 사용 사례 중심 세그먼트입니다.
 review-terms = Common Voice를 사용하면 <termsLink>이용약관</termsLink>과 <privacyLink>개인정보 보호 정책</privacyLink>에 동의한 것으로 간주합니다.
 terms-agree = 동의합니다
 terms-disagree = 동의하지 않습니다
@@ -559,8 +587,11 @@ subscribe = 구독하기
 get-started-speech = 음성인식 시작하기
 other-datasets = 기타 음성 데이터세트
 feedback-q = 제안 사항이 있습니까?
-deepspeech-info = Common Voice 데이터 세트는 음성 인식 애플리케이션을 구축하는 데 사용할 수있는 Mozilla의 오픈 소스 음성 인식 엔진 Deep Speech를 보완합니다. <githubLink>Github 개요</githubLink>를 읽거나 <discourseLink>DeepSpeech Discourse</discourseLink>에 참여하여 시작하는 방법을 알아보세요.
-common-voice-info-new = Common Voice에 대해 질문이 있나요? 특정한 언어에 대한 개선 아이디어나 피드백이 있나요? <discourseLink>Discourse 포럼</discourseLink>에 참여하여 알려주세요.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™는 최첨단 대화형 AI 모델을 개발하는 연구자를 위한 <docsLink>오픈 소스 툴킷</docsLink>입니다.
+resource-deepspeech-info = Mozilla의 오픈 소스 음성 인식 엔진 Deep Speech를 사용해 음성 인식 어플리케이션을 만들 수 있습니다. <githubLink>Github 개요</githubLink>를 읽거나 <discourseLink>DeepSpeech Discourse</discourseLink>에 참여하여 시작하는 방법을 알아보세요.
+resource-coqui-info = <coquiLink>Coqui</coquiLink>는 개방형 음성 기술에 전념합니다. 그들은 딥 러닝 기반 STT 및 TTS 엔진 등의 프로젝트를 진행하고 있습니다.
+community-playbook = 커뮤니티 활용법
+resource-playbook-info = 지역화에서 데이터셋 용례까지 아우르는 Common Voice 여정 및 커뮤니티와 유대를 쌓는 방법에 대한 <playbookLink>유용한 지침</playbookLink>을 찾아보십시오.
 data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 읽은 오디오 북에서 파생 된 16Khz의 약 1000 시간의 말뭉치입니다.
 data-other-ted-name = TED-LIUM 말뭉치
 data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
@@ -829,6 +860,36 @@ why-delete-recordings =
     녹음된 내용을 삭제하려는 이유를 알려주시겠습니까?
 profile-form-delete = 프로필 지우기
 
+## Profile Download
+
+download-q = 데이터를 다운로드해야 합니까?
+download-info = 다운로드할 항목을 알려주세요:
+download-profile-title = 프로필
+download-profile-info = 이메일과 사용자 이름, 인구 통계 정보 포함, 즉시 사용 가능
+download-profile-size = 몇 바이트
+download-recordings-title = 녹음
+download-recordings-info = mp3와 관련 문장이 포함되어 있으며 준비하는 데 시간이 걸릴 수 있음
+download-recordings-size = 보통 수 메가바이트
+download-recordings-unavailable = 다른 요청이 이미 진행 중이라면 녹음을 요청할 수 없습니다.
+download-size = 크기
+download-selected = 선택됨
+download-start = 프로필 데이터 다운로드
+download-request = 녹음 요청
+download-requests = 과거 녹음 다운로드 요청
+download-requests-info = 녹음을 요청하면 하나 이상의 ZIP 파일로 묶습니다. 과거 요청은 다음과 같습니다:
+download-request-button = 다운로드
+download-request-title = { $created }
+download-request-description = { $clipCount }개의 음성 클립, 총 아카이브 크기 { $size }. { $expires }에 만료됩니다.
+download-request-archive-single = 단일 ZIP 파일은 다음을 포함함
+download-request-archive-multiple = { $archiveCount } 개로 분할된 ZIP 파일은 다음을 포함
+download-request-assembling-description = 파일을 수집 중입니다. 나중에 다시 확인하십시오.
+download-request-refresh-button = 새로고침
+download-request-modal-title = 다운로드 링크
+download-request-modal-description = ZIP 파일 다운로드 링크입니다.
+download-request-link-text = Zip { $total } 중 #{ $offset }
+download-request-metadata-link = 문장 텍스트
+download-request-link-single = URL을 직접 사용하는 다운로드 관리자에 복사하여 붙여넣을 수도 있습니다. 링크는 12시간 후에 만료되지만 언제든지 이 페이지로 돌아와 새로 생성할 수 있습니다.
+
 ## Landing
 
 welcome-staff = { $company } 임직원 분들을 환영합니다!
@@ -836,3 +897,72 @@ help-contribute = Common Voice 프로필을 만들고 본인의 목소리로 참
 login-company = { $company } 이메일로 로그인/가입
 profile-not-required = 프로필이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
 read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
+
+## DemoLayout
+
+demo-get-started = 시작합니다
+demo-welcome = Common Voice에 오신 것을 환영합니다
+demo-welcome-subheader = 더 많은 것을 배우고 프로젝트에 기여하는 것에 관심이 있습니까?
+
+## Demo Datasets
+
+demo-language-select-card-header = Common voice는 공개적으로 사용할 수 있는 세계에서 가장 큰 다국어 음성 데이터 세트입니다.
+demo-language-select-card-body = 50 개 이상의 언어로 약 25만 9천명 이상의 사람들이 기여한 덕분에, 이 데이터는 사람의 목소리에 더 잘 반응하도록 음성 지원 앱을 훈련시키는데 사용될 것입니다.
+card-button-next = 다음
+card-button-back = 뒤로
+demo-language-select-label = 언어 찾기
+demo-eofy-header = 2019 년 말 출시
+demo-eofy-sub_header = 음성 데이터 세트, 다운로드 준비 완료
+demo-account = 계정
+
+## Demo Account
+
+demo-account-card-header = 계정이 있으면 도움이 되지만, 공헌을 위해 꼭 필요한 것은 아닙니다.
+demo-account-card-body = 우측에는 혜택을 간략하게 설명하고 공개될 정보가 어떤 것인지 명시하고 있습니다. 아래 링크를 통해 사용자의 기기에서 Common Voice 계정을 시작하십시오.
+demo-account-enter-email =
+    .label = 가입 링크를 보낼 이메일을 입력하세요.
+demo-account-sign-up = 가입 링크 보내기
+
+## Demo Contribute
+
+demo-contribute-card-header = 목소리를 추가하거나 귀를 빌릴 준비가 되셨습니까?
+demo-contribute-card-body-v2 = 이제 Common Voice에 대해 조금 더 알게 되었으니, 사용해 보시는 건 어떨까요? 마이크 아이콘을 클릭하고 문장을 소리내어 읽어주세요. <br/><br/>다른 사람이 기여한 음성을 검토하시려면 재생 아이콘을 클릭하세요. 녹음이 화면에 쓰여진 문장과 일치하는지 확인하는데 도움을 주실 수 있습니다.
+demo-listen-subtitle = 기여할 준비가 되었습니까?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = 개인 대시보드는 개인 및 커뮤니티 진행 상황에 대한 최신 정보를 제공합니다.
+demo-dashboard-card-body = 기부된 모든 음성 클립과 검증된 모든 오디오 클립에 대하여, 계정 대시 보드에서 기여하는 각 언어의 최신 진행 상황이 반영됩니다. 네, 하나 이상의 기여를할 수 있습니다!<br/><br/> 대시 보드를 사용하여 통계를 확인하거나 커뮤니티에서 다른 사람들과 함께 어떻게하고 있는지 확인하거나 일일 혹은 주간 기여 목표를 설정하세요.
+
+## Validation criteria
+
+contribution-criteria-nav = 기준
+contribution-criteria-link = 기여 기준 이해하기
+contribution-criteria-page-title = 기여 기준
+contribution-criteria-page-description = 음성 클립을 들을 때 무엇을 찾아야 하는지 이해하고 음성 녹음을 풍부하게 만드세요!
+contribution-for-example = 예를 들어
+contribution-misreadings-title = 오독
+contribution-misreadings-description = 들을 때 쓰여진 내용이 정확히 녹음 되었는지 매우 주의 깊게 확인하십시오. 사소한 오류라도 있으면 거부하십시오. <br />아주 흔한 실수는 다음과 같습니다.
+contribution-misreadings-description-extended-list-4 = 녹음을 너무 빨리 중단해 마지막 단어의 끝 부분을 놓치는 것.
+contribution-misreadings-description-extended-list-5 = 한 단어를 여러 번 읽는 것.
+contribution-misreadings-example-3-explanation = [마지막 단어가 끝나기 전에 녹음이 중단됨]
+contribution-misreadings-example-4-explanation = [요청한 텍스트보다 더 많은 것이 녹음되었음]
+contribution-misreadings-example-8-explanation = [내용이 일치하지 않음]
+contribution-varying-pronunciations-title = 다양한 발음
+contribution-varying-pronunciations-description = 읽는 사람이 단어를 잘못 발음했거나, 강세를 잘못된 위치에 넣었거나, 물음표를 무시했다면 클립을 거부하기 전에 확인해주세요. 전 세계에서 사용되는 발음은 매우 다양하며, 그 중 일부는 지역 사회에서 들어보지 못한 것일 수 있습니다. 다르게 말하는 사람들을 위한 이해의 여백을 남겨 주세요.
+contribution-varying-pronunciations-description-extended = 반면에 읽는 사람이 단어를 이전에 본 적이 없는 것 같고 발음에 대해 잘못된 추측을 하고 있다고 생각되면 거부하세요. 확실하지 않은 경우 건너뛰기 버튼을 사용하세요.
+contribution-background-noise-title = 배경 소음
+contribution-background-noise-description = 우리는 기계 학습 알고리즘이 다양한 배경 소음을 처리할 수 있기를 원하며, 텍스트 전체를 듣는 데 방해가 되지 않는다면 비교적 큰 소음도 수용할 수 있습니다. 조용한 배경 음악은 괜찮습니다. 모든 단어가 들리지 않을 정도로 큰 음악은 그렇지 않습니다.
+contribution-background-noise-description-extended = 녹음이 깨지거나 딱딱거리는 소리가 난다면, 텍스트 전체가 잘 들리지 않는 한 거부합니다.
+contribution-background-noise-example-2-explanation = [텍스트의 일부가 들리지 않음]
+contribution-background-voices-title = 배경 목소리
+contribution-background-voices-description = 조용한 배경 소음은 괜찮지만, 쓰여진 텍스트에 없는 단어를 기계 알고리즘이 식별할 수 있는 추가 음성은 그렇지 않습니다. 텍스트와 별개의 다른 말이 들린다면 클립을 거부해야 합니다. 일반적으로 이것은 TV가 켜져 있거나 근처에서 대화가 진행되고 있을 때 발생합니다.
+contribution-background-voices-description-extended = 녹음이 깨지거나 딱딱거리는 소리가 난다면, 텍스트 전체가 잘 들리지 않는 한 거부합니다.
+contribution-background-voices-example-1-explanation = 오고 있어? <strong>[다른 사람이 부르는 소리]</strong>
+contribution-volume-title = 소리 크기
+contribution-volume-description = 읽는 사람들 사이엔 소리 크기의 자연스러운 변화가 있을 것입니다. 목소리가 너무 커서 녹음이 끊기거나 (더 흔하게는) 너무 작아 원문을 참조하지 않으면 무슨 말을 하는지 들리지 않는 경우에만 거부하십시오.
+contribution-reader-effects-description = 대부분의 녹음은 사람들의 자연스러운 목소리입니다. 소리지르거나 속삭이거나 명백히 '극적인' 목소리로 전달한 비표준 녹음을 허용할 수 있습니다. 노래하는 녹음 및 컴퓨터 합성 음성을 사용한 녹음 등은 거부하십시오.
+contribution-just-unsure-title = 그냥 잘 모르겠다면?
+contribution-just-unsure-description = 이 지침에서 다루지 않는 것을 발견하면 최선의 판단에 따라 결정하십시오. 정말 결정하기 어려우면 건너뛰기 버튼을 누르고 다음 녹음으로 넘어가십시오.
+see-more = <chevron></chevron>더 보기
+see-less = <chevron></chevron>덜 보기

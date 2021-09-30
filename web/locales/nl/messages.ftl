@@ -78,6 +78,8 @@ hy-AM = Armeens
 hyw = West-Armeens
 ia = Interlingua
 id = Indonesisch
+ie = Interlingue
+ig = Igbo
 is = IJslands
 it = Italiaans
 izh = Izjorisch
@@ -86,6 +88,7 @@ ka = Georgisch
 kaa = Karakalpaks
 kab = Kabylisch
 kbd = Kabardisch
+ki = Kikuyu
 kk = Kazachs
 kmr = Kurmanci
 ko = Koreaans
@@ -110,11 +113,13 @@ ms = Maleis
 mt = Maltees
 my = Burmees
 myv = Erzja
+nan-tw = Taiwanees (Minnan)
 nb-NO = Noors Bokmål
 ne-NP = Nepalees
 nia = Nias
 nl = Nederlands
 nn-NO = Noors Nynorsk
+nyn = Nyankole
 oc = Occitaans
 or = Odia
 pa-IN = Punjabi
@@ -128,6 +133,7 @@ ro = Roemeens
 ru = Russisch
 rw = Kinyarwanda
 sah = Jakoets
+sat = Santali (Ol Chiki)
 sc = Sardijns
 scn = Siciliaans
 shi = Tashelhiyt (Shilha)
@@ -148,6 +154,7 @@ tl = Tagalog
 tr = Turks
 tt = Tataars
 tw = Twi
+ty = Tahitiaans
 uby = Oebychs
 udm = Oedmoerts
 ug = Oeigoers
@@ -157,6 +164,7 @@ uz = Oezbeeks
 vec = Venetiaans
 vi = Vietnamees
 vot = Wotisch
+yi = Jiddisch
 yo = Yoruba
 yue = Kantonees
 zh-CN = Chinees (China)
@@ -190,6 +198,7 @@ logout = Afmelden
 ## Home Page
 
 home-title = Het Common Voice-project is een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken.
+default-tagline = Mozilla Common Voice is een initiatief om machines te helpen leren hoe echte mensen spreken.
 home-cta = Laat uw stem horen, draag hier bij!
 wall-of-text-start = Spraak is natuurlijk, spraak is menselijk. Daarom zijn we gefascineerd in het maken van een bruikbare spraaktechnologie voor onze machines. Maar voor het maken van spraaksystemen is een extreem grote hoeveelheid spraakgegevens nodig.
 wall-of-text-more-mobile = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Project Common Voice gestart, een project dat spraakherkenning voor iedereen beschikbaar helpt te maken.
@@ -283,6 +292,8 @@ shortcut-record-toggle = o
 shortcut-record-toggle-label = Opnemen/Stoppen
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Fragment opnieuw opnemen
+shortcut-discard-ongoing-recording = Esc
+shortcut-discard-ongoing-recording-label = Lopende opname verwerpen
 shortcut-submit = Terug
 shortcut-submit-label = Fragmenten indienen
 request-language-text = Ziet u uw taal nog niet op Common Voice?
@@ -383,6 +394,10 @@ faq-what-cv-a =
     Spraakherkenningstechnologie is een revolutie in de manier waarop we omgaan met machines, maar de momenteel beschikbare systemen zijn duur en afgeschermd. Common Voice is onderdeel van Mozilla’s initiatief om spraakherkenningstechnologieën beter en voor iedereen toegankelijker te maken. Common Voice is een enorme wereldwijde database van gedoneerde stemmen, waarmee iedereen snel en eenvoudig spraakgestuurde apps in potentieel elke taal kan trainen.
     
     We verzamelen niet alleen spraakfragmenten in veelgesproken talen, maar ook in die met een kleiner aantal sprekers. Door een diverse gegevensset met stemmen te publiceren, krijgen ontwikkelaars, ondernemers en gemeenschappen de mogelijkheid om deze kloof zelf aan te pakken. Naast de Common Voice-gegevensset bouwen we ook een opensource-spraakherkenningsprogramma met de naam Deep Speech.
+faq-what-cv-a-2 =
+    Spraakherkenningstechnologie is een revolutie in de manier waarop we omgaan met machines, maar de momenteel beschikbare systemen zijn duur en afgeschermd. Mozilla Common Voice is een initiatief om spraakherkenningstechnologieën beter en voor iedereen toegankelijker te maken. Common Voice is een enorme wereldwijde database van gedoneerde stemmen, waarmee iedereen snel en eenvoudig spraakgestuurde apps in potentieel elke taal kan trainen.
+    
+    We verzamelen niet alleen spraakfragmenten in veelgesproken talen, maar ook in die met een kleiner aantal sprekers. Door een diverse gegevensset met stemmen te publiceren, krijgen ontwikkelaars, ondernemers en gemeenschappen de mogelijkheid om zelf deze kloof te overbruggen.
 faq-why-important-q = Waarom is het belangrijk?
 faq-why-important-a =
     Spraak is vaak de meest natuurlijke manier om met elkaar te communiceren en spraaktechnologieën brengen dat gemak naar onze computers en mobiele apparaten. We willen ontwikkelaars de mogelijkheid geven geweldige spraakherkenningstoepassingen te bouwen, zoals realtime-vertalers en spraakgestuurde digitale assistenten. Maar op dit moment zijn de meeste spraakgegevens die nodig zijn om dit soort toepassingen te bouwen duur en afgeschermd. We hopen dat de Common Voice-gegevensset ontwikkelaars biedt wat ze nodig hebben om te innoveren en spraaktechnologie beschikbaar te stellen in hun eigen taal.
@@ -440,6 +455,9 @@ about-title = Waarom Common Voice?
 about-subtitle = Common Voice is onderdeel van een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken. In aanvulling op de Common Voice-gegevensset bouwen we ook een open source spraakherkenningsengine genaamd Deep Speech.
 about-header-description =
     Beide projecten maken deel uit van onze inspanningen om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
+    We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
+about-header-description-2 =
+    Dit project is een inspanning om de digitale spraakkloof te overbruggen. Spraakherkenningstechnologieën geven onze apparaten een menselijke dimensie, maar ontwikkelaars hebben een enorme hoeveelheid spraakgegevens nodig om ze te bouwen. Momenteel zijn de meeste van die gegevens duur en afgeschermd.
     We willen spraakgegevens gratis en vrij beschikbaar maken en ervoor zorgen dat de gegevens de diversiteit van echte mensen vertegenwoordigen. Samen kunnen we stemherkenning voor iedereen beter maken.
 how-does-it-work-title = Hoe werkt het
 how-does-it-work-text = We crowdsourcen een open source stemgegevensset. Doneer uw stem, valideer de nauwkeurigheid van opnames van anderen, en maak de gegevensset beter voor iedereen.
@@ -574,8 +592,11 @@ subscribe = Abonneren
 get-started-speech = Beginnen met spraakherkenning
 other-datasets = Andere spraakgegevenssets
 feedback-q = Hebt u feedback?
-deepspeech-info = De Common Voice-gegevensset is een aanvulling op Deep Speech, de opensource-spraakherkenningsengine van Mozilla, die u kunt gebruiken om spraakherkenningstoepassingen te bouwen. Lees ons <githubLink>GitHub-overzicht</githubLink> of bezoek het <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ontdekken hoe u kunt beginnen.
-common-voice-info-new = Hebt u vragen over Common Voice? Ideeën voor verbeteringen of feedback over een specifieke taal? Praat mee op ons <discourseLink>Discourse-forum</discourseLink> en laat het ons weten.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is een <docsLink>opensource-toolkit</docsLink> voor onderzoekers die state-of-the-art-AI-modellen voor conversaties ontwikkelen.
+resource-deepspeech-info = Deep Speech, de opensource-spraakherkenningsengine van Mozilla, kan worden gebruikt om spraakherkenningstoepassingen te bouwen. Lees ons <githubLink>GitHub-overzicht</githubLink> of bezoek het <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ontdekken hoe u kunt beginnen.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> is toegewijd aan open spraaktechnologie. Hun projecten omvatten op deep learning gebaseerde STT- en TTS-engines.
+community-playbook = Gemeenschapsdraaiboek
+resource-playbook-info = <playbookLink>Ontdek nuttige handleidingen</playbookLink> over het gehele Common Voice-traject, van lokalisatie tot gebruik van de dataset, evenals hoe u contact kunt maken met onze gemeenschap.
 data-other-librispeech-description = LibriSpeech is een pakket met circa 1.000 uur aan 16 kHz gesproken Engels, afgeleid van opgelezen audioboeken uit het LibriVox-project.
 data-other-ted-name = TED-LIUM-corpus
 data-other-ted-description = Het TED-LIUM-corpus is samengesteld uit audiotoespraken en hun transcripties, zoals beschikbaar op de TED-website.
@@ -850,6 +871,37 @@ why-delete-recordings =
     Kunt u ons laten weten waarom u uw opnamen wilt laten verwijderen?
 profile-form-delete = Profiel verwijderen
 
+## Profile Download
+
+download-q = Wilt u uw gegevens downloaden?
+download-info = Vertel ons wat u wilt downloaden:
+download-profile-title = Profiel
+download-profile-info = Bevat e-mailadres, gebruikersnaam en demografische gegevens
+download-profile-size = Een paar bytes
+download-recordings-title = Opnamen
+download-recordings-info = Bevat mp3’s en gerelateerde zinnen
+download-recordings-size = Meestal megabytes
+download-recordings-unavailable = U kunt uw opnamen niet opvragen terwijl er al een ander verzoek in behandeling is.
+download-recently-requested = U kunt elke { $days } dagen een nieuwe verzameling van uw opnamen aanvragen.
+download-size = Grootte
+download-selected = Geselecteerd
+download-start = Download starten
+download-request = Download aanvragen
+download-requests = Eerdere downloadverzoeken
+download-requests-info = Wanneer u uw opnamen opvraagt, compileren wij deze in één of meerdere ZIP-bestanden. Dit zijn uw eerdere verzoeken:
+download-request-button = Downloaden
+download-request-title = { $created }
+download-request-description = { $clipCount } spraakfragmenten, totale archiefgrootte { $size }. Verloopt { $expires }.
+download-request-archive-single = Enkel ZIP-bestand met
+download-request-archive-multiple = Gesplitst over { $archiveCount } ZIP-bestanden met
+download-request-assembling-description = Uw bestanden worden samengesteld. Kom later terug.
+download-request-refresh-button = Vernieuwen
+download-request-modal-title = Downloadkoppelingen
+download-request-modal-description = Hier zijn de koppelingen om uw ZIP-bestanden te downloaden.
+download-request-link-text = ZIP-bestand { $offset } van { $total }
+download-request-metadata-link = Zintekst
+download-request-link-single = U kunt ook de rechtstreekse URL’s kopiëren en in uw favoriete downloadbeheerder plakken. Ze verlopen over 12 uur, maar u kunt op elk moment terugkeren naar deze pagina om nieuwe aan te maken.
+
 ## Landing
 
 welcome-staff = Welkom medewerkers van { $company }!
@@ -893,3 +945,59 @@ demo-listen-subtitle = Klaar om bij te dragen?
 
 demo-dashboard-card-header = Persoonlijke dashboards houden u op de hoogte van uw individuele voortgang en van die van de gemeenschap.
 demo-dashboard-card-body = Voor elk gedoneerd spraakfragment en elk gevalideerd audiofragment worden uw accountdashboards bijgewerkt om uw laatste vorderingen weer te geven in elke taal waaraan u bijdraagt. Ja, u kunt aan meer dan één bijdragen!<br/><br/> Gebruik dashboards om uw statistieken bij te houden, te bekijken hoe u het doet naast anderen in de gemeenschap en dagelijkse of wekelijkse bijdragedoelen vast te stellen.
+
+## Validation criteria
+
+contribution-criteria-nav = Criteria
+contribution-criteria-link = Bijdragecriteria begrijpen
+contribution-criteria-page-title = Bijdragecriteria
+contribution-criteria-page-description = Begrijp waar u op moet letten als u spraakfragmenten beluistert en help uw spraakopnamen ook rijker te maken!
+contribution-for-example = bijvoorbeeld
+contribution-misreadings-title = Verkeerd gelezen
+contribution-misreadings-description = Controleer terwijl u luistert zorgvuldig dat wat is opgenomen ook precies is wat er geschreven staat; keur het af als er zelfs kleine fouten zijn. <br />Veel voorkomende fouten zijn:
+contribution-misreadings-description-extended-list-1 = <strong>‘Een’</strong> of <strong>‘De’</strong> ontbreekt aan het begin van de opname.
+contribution-misreadings-description-extended-list-2 = Er ontbreekt <strong>‘s’</strong> of <strong>‘en’</strong> aan het einde van een woord.
+contribution-misreadings-description-extended-list-3 = Samenvoegingen die er eigenlijk niet zijn, zoals ‘Zo’n’ in plaats van ‘Zo een’, of andersom.
+contribution-misreadings-description-extended-list-4 = Het einde van het laatste woord ontbreekt door het te snel afbreken van de opname.
+contribution-misreadings-description-extended-list-5 = Meerdere pogingen om een woord te lezen.
+contribution-misreadings-example-1-title = De enorme dinosaurussen van het Trias.
+contribution-misreadings-example-2-title = De enorme dinosaurus van het Trias.
+contribution-misreadings-example-2-explanation = [Moet ‘dinosaurussen’ zijn]
+contribution-misreadings-example-3-title = De enorme dinosaurussen van het Tria-.
+contribution-misreadings-example-3-explanation = [Opname afgekapt voor het einde van het laatste woord]
+contribution-misreadings-example-4-title = De enorme dinosaurussen van het Trias. Ja.
+contribution-misreadings-example-4-explanation = [Er is meer dan de benodigde tekst opgenomen]
+contribution-misreadings-example-5-title = Ik heb koffie met haar gedronken.
+contribution-misreadings-example-6-title = Ik heb koffie met ’r gedronken.
+contribution-misreadings-example-6-explanation = [Zou ‘haar’ moeten zijn]
+contribution-misreadings-example-7-title = Ik heb een koffie met haar gedronken.
+contribution-misreadings-example-7-explanation = [Er zit geen ‘een’ in de oorspronkelijke tekst]
+contribution-misreadings-example-8-title = De hommel vloog voorbij.
+contribution-misreadings-example-8-explanation = [Niet-overeenkomende inhoud]
+contribution-varying-pronunciations-title = Uiteenlopende uitspraken
+contribution-varying-pronunciations-description = Wees voorzichtig voordat u een fragment afwijst als een lezer een woord verkeerd uitspreekt, de nadruk op de verkeerde plaats legt of openlijk een vraagteken negeert. Er wordt een grote variëteit aan uitspraken in de wereld gebruikt, en sommige hebt u mogelijk in uw omgeving niet gehoord. Bied enige ruimte aan personen die anders dan u spreken.
+contribution-varying-pronunciations-description-extended = Als u daarentegen denkt dat de lezer het woord nog nooit heeft gebruikt en simpelweg een onjuiste inschatting van de uitspraak doet, wijs het fragment dan af. Als u het niet zeker weet, gebruik dan de knop Overslaan.
+contribution-varying-pronunciations-example-1-title = Hij bestelde een portie saté.
+contribution-varying-pronunciations-example-1-explanation = [‘Saté’ is OK met zowel de klemtoon op de eerste als de tweede lettergreep]
+contribution-varying-pronunciations-example-2-title = Hij trok zich te-rug.
+contribution-varying-pronunciations-example-2-explanation = [‘Terug’ wordt vaak als één lettergreep uitgesproken, niet als twee]
+contribution-background-noise-title = Achtergrondgeluid
+contribution-background-noise-description = We willen dat de machinelerende algoritmen een breed scala aan achtergrondgeluiden kunnen verwerken, en zelfs relatief luide geluiden kunnen worden geaccepteerd, onder voorwaarde dat ze niet verhinderen dat u de gehele tekst hoort. Rustige achtergrondmuziek is OK; muziek die luid genoeg is om ervoor te zorgen dat u niet elk woord kunt verstaan niet.
+contribution-background-noise-description-extended = Als de opname wordt verstoord of kraakt, wijs deze dan af, tenzij de gehele tekst nog steeds verstaanbaar is.
+contribution-background-noise-example-1-fixed-title = <strong>[Niezen]</strong> De enorme dinosaurussen van het <strong>[hoesten]</strong> Trias.
+contribution-background-noise-example-2-fixed-title = De enorme dino <strong>[hoesten]</strong> het Trias.
+contribution-background-noise-example-2-explanation = [De tekst is deels onverstaanbaar]
+contribution-background-noise-example-3-fixed-title = <strong>[Gekraak]</strong> enorme dinosaurussen van <strong>[gekraak]</strong> -ias.
+contribution-background-voices-title = Achtergrondgeluiden
+contribution-background-voices-description = Een rustig geroezemoes op de achtergrond is OK, maar we willen geen extra stemmen die ervoor kunnen zorgen dat een machine-algoritme woorden identificeert die niet in de geschreven tekst staan. Als u andere woorden dan die van de tekst kunt horen, moet het fragment worden afgewezen. Meestal gebeurt dit als de tv aanstaat of als er een gesprek in de buurt wordt gevoerd.
+contribution-background-voices-description-extended = Als de opname wegvalt of gekraak bevat, wijs het fragment dan af, tenzij de gehele tekst nog verstaanbaar is.
+contribution-background-voices-example-1-title = De enorme dinosaurussen van het Trias. <strong>[gelezen door één stem]</strong>
+contribution-background-voices-example-1-explanation = Kom je? <strong>[geroepen door iemand anders]</strong>
+contribution-volume-title = Volume
+contribution-volume-description = Er zullen natuurlijke variaties in volume tussen lezers zijn. Wijs het fragment alleen af als het volume zo hoog is dat de opname onderbroken wordt, of (vaker) als het zo laag is dat onverstaanbaar is wat er wordt gezegd zonder naar de geschreven tekst te moeten kijken.
+contribution-reader-effects-title = Lezereffecten
+contribution-reader-effects-description = De meeste opnames zijn van mensen die met hun natuurlijke stem praten. U kunt af en toe een afwijkende opname accepteren die wordt geschreeuwd, gefluisterd of duidelijk wordt afgeleverd met een ‘dramatische’ stem. Wijs gezongen opnames en opnames met een computergegenereerde stem af.
+contribution-just-unsure-title = Gewoon onzeker?
+contribution-just-unsure-description = Als u iets tegenkomt dat niet in deze richtlijnen wordt behandeld, stem dan naar uw beste oordeel. Als u echt niet kunt beslissen, gebruik dan de knop Overslaan en ga door naar de volgende opname.
+see-more = <chevron></chevron>Meer tonen
+see-less = <chevron></chevron>Minder tonen

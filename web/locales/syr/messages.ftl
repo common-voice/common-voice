@@ -1,10 +1,5 @@
 ## General
 
-return-to-cv = ܕܥܘܪ ܠܩܠܐ ܓܘܢܝܐ
-email-input =
-    .label = ܐܸܓܲܪܬܵܐ ܐܸܠܝܼܩܲܛܪܘܿܢܵܝܬܵܐ
-submit-form-action = ܫܕܪ
-loading = ܛܘܥܢܐ ...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -12,6 +7,15 @@ loading = ܛܘܥܢܐ ...
 
 ## Languages
 
+ar = ܥܪܒܝܬ݂
+el = ܝܘܢܐܝܬ݂
+en = ܐܢܓܠܣ
+fa = ܦܪܣܐܝܼܬ
+fr = ܦܪܢܣܝܬ݂
+he = ܥܒ݂ܪܐܝܬ݂
+hi = ܗܢܕܝܐ
+hy-AM = ܐܪܡܢܝܐ
+hyw = ܐܪܡܢܝܐ ܡܥܪܒ݂ܝܐ
 syr = ܣܘܼܪܝܝܐ
 
 # [/]
@@ -23,32 +27,32 @@ speak = ܐܡܪ
 speak-now = ܐܡܪ ܗܕ݂ܝܼܐ
 datasets = ܣܕܪ̈ܐ ܕܫܘܘܕ̈ܥܐ
 languages = ܠܫܢ̈ܐ
-about = ܡܢܘ
+about = ܡܢܝ ܝܘܚ
 profile = ܨܠܡܐ
 help = ܥܘܕܪܢܐ
 privacy = ܕܝܠܢܝܘܬܐ
 terms = ܫܪܥܬ
 cookies = ܟܘܟܟܝܣ
 faq = ܫܘܐܠ̈ܐ ܬܢܝ̈ܐ
-back-top = ܕܥܘܪ ܠܥܠܠ
+back-top = ܕܥܪ ܠܥܠܠ
 logout = ܦܠܘܛ
 
 ## Home Page
 
 show-wall-of-text = ܩܪܝ ܝܬܝܪ
-vote-yes = ܗܹܐ
-vote-no = ܠܵܐ
+vote-yes = ܗܐ
+vote-no = ܠܐ
 speak-subtitle = ܗܲܒ݇ܠ ܩܠܘܟܘܢ
 all-locales = ܟܠ
-today = ܐܕܝܘܡ
+today = ܝܘܡܢܐ
 x-weeks-short =
     { $count ->
-        [zero] ܫܒ̈ܬ݂ܐ
+        [zero] ܫܒܬܐ
         [one] ܫܒܬܐ
-        [two] ܫܒ̈ܬ݂ܐ
-        [few] ܫܒ̈ܬ݂ܐ
-        [many] ܫܒ̈ܬ݂ܐ
-       *[other] ܫܒ̈ܬ݂ܐ
+        [two] ܫܒ̈ܬܐ
+        [few] ܫܒ̈ܬܐ
+        [many] ܫܒ̈ܬܐ
+       *[other] ܫܒ̈ܬܐ
     }
 x-months-short =
     { $count ->
@@ -71,7 +75,6 @@ x-years-short =
 
 ## Account Benefits
 
-benefits = ܫܘܟܢܐ
 
 ## What's public
 
@@ -81,10 +84,17 @@ benefits = ܫܘܟܢܐ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ܗ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ܠ
 
 ## Speak Shortcuts
 
 shortcut-rerecord-toggle = [1-5]
+shortcut-submit = ܕܥܪ
 
 ## ProjectStatus
 
@@ -97,14 +107,10 @@ profile-form-username =
     .label = ܫܡܐ ܕܡܦܠܚܢܐ
 profile-form-native-language =
     .label = ܠܫܢܐ ܐܬܪܢܝܐ
-profile-form-additional-language =
-    .label = ܠܫܢܐ ܡܬܡܙܝܕܢܐ
 profile-form-accent =
     .label = ܡܡܠܠܐ
 profile-form-age =
     .label = ܫܢ̈ܐ
-profile-form-gender =
-    .label = ܓܢܣܐ
 hidden = ܛܘܫܝܐ
 visible = ܡܒܝܘܢܐ
 native-language =
@@ -116,7 +122,12 @@ female = ܢܩܒ݂ܐ
 # Gender
 other = ܐ݇ܚܪ݇ܢܐ
 profile-close = ܕܥܘܪ
-cancel-avatar-clip-recording = ܒܛܘܠ
+
+## Profile - Email
+
+
+## Profile - Email
+
 
 ## FAQ
 
@@ -125,12 +136,18 @@ faq-how-get-q = ܕܐܟ݂ܝ ܟܐ ܩܢܝܢ ܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ؟
 
 ## ABOUT US
 
+about-speak = ܡܠܠ
 about-dataset-new = ܣܕܪܐ ܕܫܘܘܕ̈ܥܐ ܕܩܠܐ ܓܘܢܝܐ
+about-partners = ܫܘܬܦܝ̈ܐ
+about-become-a-partner = ܗܘܐ ܫܘܬܦܐ
+about-nav-how-it-works = ܐܝܟܢܐ؟
+about-nav-partners = ܫܘܬܦܝ̈ܐ
 
 ## Glossary
 
+localization = ܡܫܪܝܬܐ
 
-## NotFound
+## Error pages
 
 
 ## Data
@@ -158,31 +175,50 @@ contact-required = ܘܠܝܝܐ*
 
 languages-show-more = ܚܙܝܼ ܝܲܬܝܼܪ
 languages-show-less = ܚܙܝܼ ܒܵܨܘܿܪܵܐ
+localized = ܡܫܪܝܬܐ
 
 ## Contribution
 
 listen = ܫܡܥܝܼ
-skip = ܫܵܘܹܪ
-shortcuts = ܦܣܵܩܹܐ
+skip = ܫܘܪ
+shortcuts = ܦܣܩܐ
 
 ## Reporting
 
-success = ܟܲܫܝܼܪܘܼܬܵܐ
-continue = ܐܡܵܢܵܐ
+success = ܟܫܝܪܘܬܐ
+continue = ܐܡܢܐ
 
 ## Goals
 
 
 ## Dashboard
 
-your-languages = ܠܹܫܵܢܘܟ݂ܘܢ
+your-languages = ܠܫܢܘܟ݂ܘܢ
 
 ## Custom Goals
 
 
 ## Profile Delete
 
-keep = ܢܵܛܹܪ
+keep = ܢܛܪ
 
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
 

@@ -14,13 +14,14 @@ import {
 } from './lib/model/leaderboard';
 import { trackPageView } from './lib/analytics';
 import API from './lib/api';
-import { redis, redlock } from './lib/redis';
+import { redis, useRedis, redlock } from './lib/redis';
 import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 import authRouter, { authMiddleware } from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import * as proxy from 'http-proxy-middleware';
+import { createTaskQueues, TaskQueues } from './lib/takeout';
 var HttpStatus = require('http-status-codes');
 
 require('source-map-support').install();
@@ -32,7 +33,6 @@ const MAINTENANCE_PATH = path.join(__dirname, '..', '..', 'maintenance');
 const RELEASE_VERSION = getConfig().RELEASE_VERSION;
 const ENVIRONMENT = getConfig().ENVIRONMENT;
 const PROD = getConfig().PROD;
-const KIBANA_PREFIX = getConfig().KIBANA_PREFIX;
 const SECONDS_IN_A_YEAR = 365 * 24 * 60 * 60;
 
 const CSP_HEADER = [
@@ -42,7 +42,7 @@ const CSP_HEADER = [
   `img-src 'self' www.google-analytics.com www.gstatic.com https://www.gstatic.com https://*.amazonaws.com https://*.amazon.com https://gravatar.com https://*.mozilla.org https://*.allizom.org data:`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
   // Note: we allow unsafe-eval locally for certain webpack functionality.
-  `script-src 'self' 'unsafe-eval' 'sha256-fIDn5zeMOTMBReM1WNoqqk2MBYTlHZDfCh+vsl1KomQ=' 'sha256-Hul+6x+TsK84TeEjS1fwBMfUYPvUBBsSivv6wIfKY9s=' https://www.google-analytics.com https://pontoon.mozilla.org https://sentry.prod.mozaws.net https://fullstory.com https://edge.fullstory.com`,
+  `script-src 'self' 'unsafe-eval' 'sha256-fIDn5zeMOTMBReM1WNoqqk2MBYTlHZDfCh+vsl1KomQ=' 'sha256-Hul+6x+TsK84TeEjS1fwBMfUYPvUBBsSivv6wIfKY9s=' https://www.google-analytics.com https://pontoon.mozilla.org https://sentry.prod.mozaws.net`,
   `font-src 'self' https://fonts.gstatic.com`,
   `connect-src 'self' blob: https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com https://sentry.prod.mozaws.net https://basket.mozilla.org https://basket-dev.allizom.org https://rs.fullstory.com https://edge.fullstory.com`,
 ].join(';');
@@ -57,6 +57,7 @@ export default class Server {
   server: http.Server;
   model: Model;
   api: API;
+  taskQueues: TaskQueues;
   isLeader: boolean;
 
   get version() {
@@ -68,6 +69,14 @@ export default class Server {
     options = { bundleCrossLocaleMessages: true, ...options };
     this.model = new Model();
     this.api = new API(this.model);
+
+    useRedis.then((ready) => {
+      if (ready) {
+        this.taskQueues = createTaskQueues(this.api.takeout);
+        this.api.takeout.setQueue(this.taskQueues.dataTakeout);
+      }
+    });
+
     this.isLeader = null;
 
     const app = (this.app = express());
@@ -122,48 +131,6 @@ export default class Server {
       });
 
       app.use(authRouter);
-      app.use(KIBANA_PREFIX, authMiddleware, (request, response, next) => {
-        const { KIBANA_URL: target, KIBANA_ADMINS } = getConfig();
-        if (!target) {
-          response
-            .status(HttpStatus.INTERNAL_SERVER_ERROR)
-            .json({ error: 'KIBANA_URL missing in config' });
-          return;
-        }
-
-        const { baseUrl, client_id, user } = request;
-
-        if (!user || !client_id) {
-          response.redirect('/login?redirect=' + baseUrl);
-          return;
-        }
-
-        // For now, you either get full access of Kibana or none at all.
-        const userEmail = user.emails[0].value;
-
-        if (
-          !userEmail ||
-          !(
-            userEmail.endsWith('@mozilla.com') ||
-            JSON.parse(KIBANA_ADMINS).includes(userEmail)
-          )
-        ) {
-          response.status(HttpStatus.FORBIDDEN).json({
-            error: `${userEmail} is not authenticated for Kibana access.`,
-          });
-          return;
-        }
-
-        trackPageView(baseUrl, client_id);
-
-        proxy({
-          target,
-          changeOrigin: true,
-          pathRewrite: {
-            ['^' + baseUrl]: '',
-          },
-        })(request, response, next);
-      });
 
       app.use('/api/v1', this.api.getRouter());
 

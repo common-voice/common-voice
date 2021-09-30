@@ -78,6 +78,8 @@ hy-AM = Әрмән
 hyw = Көнбатыш әрмән
 ia = Интерлингва
 id = Индонез
+ie = Интерлингве
+ig = Игбо
 is = Исланд
 it = Итальян
 izh = Ижор
@@ -86,6 +88,7 @@ ka = Грузин
 kaa = Каракалпак
 kab = Кабил
 kbd = Кабардин
+ki = Кикуйу
 kk = Казакъ
 kmr = Курманҗи көрд
 ko = Корей
@@ -110,11 +113,13 @@ ms = Малай
 mt = Мальта
 my = Бирма
 myv = Эрзя
+nan-tw = Тайван (Миннан)
 nb-NO = Норвег (Букмол)
 ne-NP = Непал
 nia = Ниас
 nl = Һолланд
 nn-NO = Яңа норвег
+nyn = Ньянколе
 oc = Окситан
 or = Одия
 pa-IN = Пунжаб
@@ -128,6 +133,7 @@ ro = Румын
 ru = Рус
 rw = Кинйаруанда
 sah = Саха
+sat = Сантали (Ол-чики)
 sc = Сардин
 scn = Сицилия
 shi = Шилһа
@@ -147,6 +153,8 @@ th = Тай
 tl = Тагалог
 tr = Төрек
 tt = Татар
+tw = Тви
+ty = Таити
 uby = Убых
 udm = Удмурт
 ug = Уйгыр
@@ -156,6 +164,8 @@ uz = Үзбәк
 vec = Венеция
 vi = Вьетнам
 vot = Вот
+yi = Идиш
+yo = Йоруба
 yue = Кантон
 zh-CN = Кытай (Кытай)
 zh-HK = Кытай (Гонконг)
@@ -188,6 +198,7 @@ logout = Чыгу
 ## Home Page
 
 home-title = «Common Voice» проекты — Mozilla компаниясенең компьютерларга кешеләрнең чынлыкта ничек сөйләшүен өйрәтүгә юнәлдерелгән инициативасы.
+default-tagline = «Mozilla Common Voice» —  компьютерларга кешеләрнең чынлыкта ничек сөйләшүен өйрәтүгә юнәлдерелгән инициативасы.
 home-cta = Рәхәтләнеп сөйләгез, бу проектка ярдәм итегез!
 wall-of-text-start = Тавыш — табигый, кешеләргә хас күренеш. Шул сәбәпле без компьютерларда кулланырга уңайлы тавыш технологияләрен ясарга телибез. Әмма тавыш системаларын ясау өчен ифрат күп аудиоязмаларның булуы кирәк.
 wall-of-text-more-mobile = Зур ширкәтләр ия булган аудиомәгълүматны күпчелек кеше куллана алмый. Безнең уйлавыбызча, мондый хәл инновацияләрне тоткарлый. Нәкъ менә шул сәбәпле без Common Voice («Халык тавышы») проектын башлап җибәрдек. Әлеге проектның максаты — сөйләм тануны һәркем өчен дә ачык итү.
@@ -283,6 +294,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Яздыру/Туктату
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Клипны янәдән яздыру
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Enter
 shortcut-submit-label = Клипларны җибәрү
 request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
@@ -318,7 +330,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Җенес
 leaderboard-visibility =
-    .label = Лидерлар исемлегенең күренеше
+    .label = Лидерлар исемлегендә күренү-күренмәү
 hidden = Яшерен
 visible = Күренә
 native-language =
@@ -462,9 +474,9 @@ about-partnership =
     Проектка ярдәм иткәннәре өчен, безнең түбәндәге кешеләргә һәм оешмаларга рәхмәт әйтәсебез килә:
 about-get-involved = Катнашу
 about-get-involved-text-2 =
-    Common Voice'ны тагын да яхшыртасыгыз киләме!
+    Common Voice-ны тагын да яхшыртасыгыз киләме!
     Бик шәп! Электрон почта я <discourseLink>Dıscourse</discourseLink>
-    форумы аша безнең белән элемтәгә керегез, <githubLink>GitHub</githubLink> аша сайттагы хаталар турында хәбәр итегез, яки <matrixLink>Matrix</matrixLink>'та безнең әңгәмә-чатка кушылыгыз.
+    форумнары аша безнең белән элемтәгә керегез, <githubLink>GitHub</githubLink> аша сайттагы хаталар турында хәбәр итегез, яки <matrixLink>Matrix</matrixLink>-та безнең әңгәмә-чатка кушылыгыз.
 about-nav-why-common-voice = Нигә?
 about-nav-how-it-works = Ничек?
 about-nav-partners = Партнёрлар
@@ -566,8 +578,6 @@ subscribe = Язылу
 get-started-speech = Сөйләм тану системасын ясый башлау
 other-datasets = Башка аудиоязма җыентыклары
 feedback-q = Тәнкыйть-тәкъдимнәрегез бармы?
-deepspeech-info = Common Voice мәгълүмат тупланмасы Mozilla'ның Deep Speech исемле сөйләм тану моторын тулыландырып тора. Ул моторны кулланып, сез сөйләм танучы кушымталар булдыра аласыз. Deep Speech белән эшли башлау өчен, <githubLink>Github'тагы күзәтүне</githubLink> укыгыз яисә <discourseLink>DeepSpeech Discourse форумына</discourseLink> үтегез.
-common-voice-info-new = Common Voice турында сорауларыгыз бармы? Тәкъдимнәрегез я билгеле бер тел турында фикерләрегез бармы? <discourseLink>Discourse форумында </discourseLink> безгә кушылыгыз һәм фикерләрегезне безгә җиткерегез.
 data-other-librispeech-description = LibriSpeech корпусы — LibriVox проекты кысаларында хасил булган аудиокитаплардан төзелгән, 16kHz ешлыкта яздырылган якынча 1000 сәгатьлек инглиз сөйләменнән гыйбарәт бер корпус.
 data-other-ted-name = «TED-LIUM» корпусы
 data-other-ted-description = «TED-LIUM» корпусы — TED веб-сәхифәсендәге чыгышларның аудиосыннан һәм аларның транскрипциясеннән төзелгән бер җыентык.
@@ -839,6 +849,17 @@ remove-info = Мәгълүмат базасыннан сезнең тавыш я
 why-delete-recordings = Common Voice язмалары академик оешмалар, кече бизнес һәм тавыш тану белән бәйле энтузиастлар тарафыннан тавыш модельләре кебек һәркемгә ачык булган ресурслар әзерләүдә һәм үстерүдә ярдәм күрсәтү өчен кулланыла.
 profile-form-delete = Профильне бетерү
 
+## Profile Download
+
+download-profile-title = Профиль
+download-selected = Сайланган
+download-request-button = Йөкләп алу
+download-request-title = { $created }
+download-request-refresh-button = Яңарту
+download-request-modal-title = Сылтамаларны йөкләп алу
+download-request-link-text = Zip #{ $offset } / { $total }
+download-request-metadata-link = Җөмлә тексты
+
 ## Landing
 
 welcome-staff = { $company } хезмәткәрләре, хуш килдегез!
@@ -882,3 +903,19 @@ demo-listen-subtitle = Үз өлешеңне кертергә әзерсеңме
 
 demo-dashboard-card-header = Шәхси мәгълүмат панельләре аерым кешеләрнең, шулай ук бөтен берләшмәнең алга китеше турында белеп торырга ярдәм итәчәк.
 demo-dashboard-card-body = Сез аудиоязма яздырган яисә тикшергән саен, хисап язмагыздагы панель яңартылып, сезнең һәр телгә керткә өлешегезне күрсәтеп торачак. Әйе, берничә телгә өлеш кертә аласыз!<br/><br/> Статистикагызны күзәтеп бару, башкалар белән чагыштыру, көндәлек, атналык максатларыгызның үтәлеүен карау өчен мәгълүмат панелен кулланыгыз.
+
+## Validation criteria
+
+contribution-criteria-nav = Критерийлар
+contribution-criteria-link = Катнашу критерийларын аңлау
+contribution-criteria-page-title = Катнашу критерийлары
+contribution-for-example = мәсәлән
+contribution-misreadings-title = Дөрес укымаулар
+contribution-misreadings-example-8-explanation = [Туры килмәгән эчтәлек]
+contribution-varying-pronunciations-title = Төрле әйтелешләр
+contribution-background-noise-title = Арткы планда шау-шу
+contribution-background-voices-title = Арткы планда тавышлар
+contribution-volume-title = Тавыш көче
+contribution-reader-effects-title = Укучы эффектлары
+see-more = <chevron></chevron>Күбрәк
+see-less = <chevron></chevron>Әзрәк

@@ -78,6 +78,8 @@ hy-AM = Armeniska
 hyw = Armenisk västerländska
 ia = Interlingua
 id = Indonesiska
+ie = Interlingue
+ig = Igbo
 is = Isländska
 it = Italienska
 izh = Ingriska
@@ -86,6 +88,7 @@ ka = Georgiska
 kaa = Karakalpakiska
 kab = Kabyliska
 kbd = Kabardinska
+ki = Kikuyu
 kk = Kazakstanska
 kmr = Kurmanji kurdiska
 ko = Koreanska
@@ -110,11 +113,13 @@ ms = Malajiska
 mt = Maltesiska
 my = Burmesiska
 myv = Erzya
+nan-tw = Taiwanesiska (Minnan)
 nb-NO = Norska Bokmål
 ne-NP = Nepali
 nia = Nias
 nl = Nederländska
 nn-NO = Norska, nynorska
+nyn = Nyankole
 oc = Occitanska
 or = Odia
 pa-IN = Punjabi
@@ -128,6 +133,7 @@ ro = Rumänska
 ru = Ryska
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardiska
 scn = Sicilianska
 shi = Shilha
@@ -147,6 +153,8 @@ th = Thailändska
 tl = Tagalog
 tr = Turkiska
 tt = Tatariska
+tw = Twi
+ty = Tahitiska
 uby = Ubychiska
 udm = Udmurtiska
 ug = Uiguriska
@@ -156,6 +164,8 @@ uz = Uzbekistanska
 vec = Venetianska
 vi = Vietnamesiska
 vot = Votiska
+yi = Jiddisch
+yo = Yoruba
 yue = Kantonesiska
 zh-CN = Kinesiska (Kina)
 zh-HK = Kinesiska (Hong Kong)
@@ -188,6 +198,7 @@ logout = Logga ut
 ## Home Page
 
 home-title = Projektet Common Voice är Mozillas initiativ att hjälpa till att lära maskiner hur riktiga människor talar.
+default-tagline = Mozilla Common Voice är ett initiativ för att lära maskiner hur riktiga människor talar.
 home-cta = Öppna din mun, stöd projekt och gör ett bidrag!
 wall-of-text-start = Språk är naturligt, språk är mänskligt. Därför fascineras vi av att skapa användbara taligenkänningsteknologier för våra enheter. Att utveckla röstbaserade system kräver emellertid en mycket stor mängd inspelningar i talat språk.
 wall-of-text-more-mobile = En större del av den data som används av stora företag är emellertid otillgänglig för de flesta människor. Vi tror att detta kommer att förhindra innovation. Därför lanserade vi projektet Common Voice, ett projekt som hjälper till att göra taligenkänning tillgänglig för alla.
@@ -284,6 +295,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Spela in/Stoppa
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Spela in klipp igen
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Ignorera pågående inspelning
 shortcut-submit = Återgå
 shortcut-submit-label = Skicka in klipp
 request-language-text = Kan du inte se ditt språk på Common Voice än?
@@ -384,6 +397,12 @@ faq-what-cv-a =
     Teknik för röstigenkänning revolutionerar hur vi interagerar med maskiner, men nuvarande tillgängliga system är dyra och proprietära. Common Voice är en del av Mozillas initiativ för att göra röstigenkänning bättre och mer tillgänglig för alla. Common Voice är en massiv global databas av donerade röster som låter vem som helst snabbt och enkelt träna appar med röst-stöd i potentiellt vilket språk som helst.
     
     Vi samlar inte bara in röstprover i stora språk utan även i de som har färre talare. Genom att publicera en mångfaldig datauppsättning av röster gör vi det möjligt för utvecklare, entreprenörer, och gemenskaper att själva påverka klyftan som finns. Utöver datan i Common Voice, bygger vi också Deep Speech, en röstigenkänning i öppen källkod.
+faq-what-cv-a-2 =
+    Teknologin för röstigenkänning revolutionerar sättet på hur vi interagerar med maskiner, men dagens tillgängliga system är både dyra och patentskyddade. 'Mozilla Common Voice' är ett initiativ för att göra röstigenkänningsteknologin både bättre och tillgängligt för alla.
+    'Common Voice' är en massiv global databas med donerade röster som låter vem som helst, snabbt och lätt att träna appar med röstigenkänning i potentiellt vilket språk som helst.
+    
+    Vi samlar inte bara på röster från dom största språken utan även ifrån mindre talade språk.
+    Att publicera ett dataset med ett stort utbud av röster lägger grunden för att stimulera programutvecklare, entreprenörer och andra grupper att själva börja lägga till data som saknas.
 faq-why-important-q = Varför är det viktigt?
 faq-why-important-a =
     Tal är oftast det mest naturliga sättet vi kommunicerar med varann på och teknik tar den bekvämligheten till våra datorer och mobila enheter. Vi vill möjliggöra för utvecklare att bygga fantastiska appar med röstigenkänning, såsom översättare i realtid och röstaktiverade digitala assistenter. Men just nu är den mesta röstdatan som krävs för att bygga den här typen av appar dyr och proprietär. Vi hoppas att datamängden i Common Voice ger utvecklare vad de behöver för att innovera och göra röstteknik tillgängliga på deras egna språk.
@@ -442,6 +461,11 @@ about-subtitle = Common Voice är en del av Mozillas initiativ för att hjälpa 
 about-header-description =
     Båda dessa projekt är en del av våra ansträngningar att överbrygga den digitala talklyftan. Röstigenkänningsteknik ger en mänsklig dimension till våra enheter, men utvecklare behöver en enorm mängd röstdata för att bygga dem. För närvarande är de flesta av dessa data dyra och proprietära.
     Vi vill göra röstdata fritt och allmänt tillgängliga, och se till att uppgifterna representerar mångfalden av riktiga människor. Tillsammans kan vi göra röstigenkänning bättre för alla.
+about-header-description-2 =
+    Detta projekt är ett försök att överbrygga det digitala talets klyfta.
+    Röstigenkänningsteknologin tillför en mänsklig dimension åt våra apparater men för att det skall lyckas så behöver utvecklare enorma mängder av röstdata och för tillfället så är större delen av dessa data både dyr och belagd med patent.
+    Vi vill att röstdata skall vara gratis och tillgängligt för alla, inte minst  för att säkerställa att datan verkligen representerar mångfalden av verkliga människor.
+    Tillsammans kan vi göra röstigenkänning bättre för alla.
 how-does-it-work-title = Hur fungerar det
 how-does-it-work-text = Vi crowdsourcar en röstdatamängd med öppen källkod. Donera din röst, bekräfta noggrannheten i inspelningar från andra och gör datamängden bättre för alla.
 about-speak = Tala
@@ -575,8 +599,9 @@ subscribe = Prenumerera
 get-started-speech = Kom igång med taligenkänning
 other-datasets = Andra röstdatamängder
 feedback-q = Har du feedback?
-deepspeech-info = Common Voice-datamängd kompletterar Mozillas taligenkännande motor Deep Voice (öppen källkod), som du kan använda för att bygga taligenkänningsprogram. Läs vår <githubLink>Github-översikt</githubLink> eller gå med i <discourseLink>DeepSpeech Discourse</discourseLink> för att lära dig hur du kommer igång.
-common-voice-info-new = Har du frågor om Common Voice? Idéer för förbättringar eller feedback om ett visst språk? Gå med i vårt <discourseLink>Discourse-forum</discourseLink> och låt oss veta.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ är en <docsLink>verktygslåda med öppen källkod</docsLink> för forskare som utvecklar toppmoderna AI-modeller för konversation.
+resource-deepspeech-info = Mozilla´s röstigenkänningsmotor 'Deep Speech', med öppen källkod, kan användas för att skapa röstigenkänningsapplikationer. Läs vår  <githubLink>Github överblick</githubLink> eller anslut dig till <discourseLink>DeepSpeech Discourse</discourseLink> för att lära dig hur du själv kommer igång.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> är dedikerat till att öppna upp teknologin för röstigenkänning. Deras projekt inkluderar STT- och TTS-baserade djupinlärningsmotorer.
 data-other-librispeech-description = LibriSpeech är ett korpus på cirka 1000 timmar av 16Khz inläst från engelska ljudböcker från LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM-korpuset gjordes av föredrag och deras transkriptioner tillgängliga från TED-webbplatsen.
@@ -855,6 +880,36 @@ why-delete-recordings =
     Kan du låta oss veta varför du vill att dina inspelningar raderas?
 profile-form-delete = Ta bort profil
 
+## Profile Download
+
+download-q = Behöver du ladda ner din data?
+download-info = Berätta vad du vill ladda ner:
+download-profile-title = Profil
+download-profile-info = Inkluderar e-post, användarnamn och demografisk information
+download-profile-size = Några byte
+download-recordings-title = Inspelningar
+download-recordings-info = Inkluderar mp3-filer och relaterade meningar
+download-recordings-size = Typiskt megabyte
+download-recordings-unavailable = Du kan inte begära dina inspelningar medan en annan begäran redan pågår.
+download-size = Storlek
+download-selected = Vald
+download-start = Starta nedladdning
+download-request = Begär nedladdning
+download-requests = Tidigare nedladdningsförfrågningar
+download-requests-info = När du begär dina inspelningar sammanställer vi dem till en eller flera ZIP-filer. Här är dina tidigare önskemål:
+download-request-button = Hämta
+download-request-title = { $created }
+download-request-description = { $clipCount } röstklipp, total arkivstorlek { $size }. Upphör { $expires }.
+download-request-archive-single = Enstaka ZIP-fil som innehåller
+download-request-archive-multiple = Dela upp i { $archiveCount } ZIP-filer som innehåller
+download-request-assembling-description = Dina filer sammanställs. Vänligen försök igen senare.
+download-request-refresh-button = Uppdatera
+download-request-modal-title = Nedladdningslänkar
+download-request-modal-description = Här är länkarna för att ladda ner dina ZIP-filer.
+download-request-link-text = Zip #{ $offset } av { $total }
+download-request-metadata-link = Meningstext
+download-request-link-single = Du kan också kopiera och klistra in de direkta webbadresserna i din favorithämtningshanterare. De upphör om 12 timmar, men du kan när som helst återvända till den här sidan för att skapa nya.
+
 ## Landing
 
 welcome-staff = Välkomna anställda på { $company }!
@@ -898,3 +953,25 @@ demo-listen-subtitle = Redo att bidra?
 
 demo-dashboard-card-header = Personliga översikten håller dig uppdaterad om individuella och gemensamma framsteg.
 demo-dashboard-card-body = För varje donerat röstklipp och validerat ljudklipp uppdateras översikten för att återspegla dina senaste framsteg på varje språk du bidrar till. Ja, du kan bidra till mer än ett!<br/><br/> Använd översikten för att spåra din statistik, se hur du arbetar tillsammans med andra i gemenskapen och ställ in dagliga eller veckovisa bidragsmål.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterier
+contribution-criteria-link = Förstå bidragskriterier
+contribution-criteria-page-title = Bidragskriterier
+contribution-criteria-page-description = Förstå vad du ska leta efter när du lyssnar på röstklipp och hjälp till att göra dina röstinspelningar bättre!
+contribution-for-example = till exempel
+contribution-misreadings-title = Felläsningar
+contribution-misreadings-description = När du lyssnar, kontrollera mycket noga att det som har spelats in är exakt det som har skrivits; avvisa om det är mindre fel.<br />Mycket vanliga fel inkluderar:
+contribution-misreadings-description-extended-list-4 = Slutet på det sista ordet saknades eftersom inspelningen avbröts för snabbt.
+contribution-misreadings-example-3-explanation = [Inspelning avbruten före slutet av det sista ordet]
+contribution-misreadings-example-4-explanation = [Mer har spelats in än den obligatoriska texten]
+contribution-misreadings-example-8-explanation = [Felaktigt innehåll]
+contribution-varying-pronunciations-title = Varierande uttal
+contribution-background-noise-title = Bakgrundsbrus
+contribution-background-noise-example-2-explanation = [Delar av texten kan inte höras]
+contribution-background-voices-title = Bakgrundsröster
+contribution-volume-title = Volym
+contribution-just-unsure-title = Osäker?
+see-more = <chevron></chevron>Se mer
+see-less = <chevron></chevron>Se mindre

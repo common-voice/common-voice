@@ -1027,4 +1027,12 @@ export default class DB {
       [id]
     );
   }
+
+  async clipExists(client_id: string, sentence_id: string) {
+    const [[row]] = await this.mysql.query(`
+      SELECT id FROM clips WHERE client_id = ? AND original_sentence_id = ?
+    `, [client_id, sentence_id]);
+
+    return !!row;
+  }
 }

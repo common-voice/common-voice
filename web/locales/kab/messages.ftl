@@ -147,6 +147,7 @@ th = Taṭaylant
 tl = Tagalugt
 tr = Taṭurkit
 tt = Taṭaṭarit
+tw = Tatwit
 uby = Tubyixt
 udm = Tudmurt
 ug = Tawigurt
@@ -156,6 +157,7 @@ uz = Tuzbikt
 vec = Taviṭnamit
 vi = Tavyiṭnamit
 vot = Tavutikt
+yo = Tayurubit
 yue = Takuntunit
 zh-CN = Tacinwat (Cinwa)
 zh-HK = Tacinwat (Hung Kung)
@@ -188,6 +190,7 @@ logout = Ffeɣ
 ## Home Page
 
 home-title = Asenfaṛ n Common Voice yella-d s lmendad n Mozilla. Yella-d i uɛiwen n yiselkimen akken ad issinen amek i heddṛen yimdanen n tidet.
+default-tagline = Asenfaṛ n Common Voice yella-d i uɛiwen n yiselkimen akken ad issinen amek i ttmeslayen yimdanen.
 home-cta = Mmeslay, ttekki da!
 wall-of-text-start = Taɣect d tagamant, taɣect d ayla n umdan. Ɣef aya i nebɣa ad d-nexdem tatiknulujit n taɣect ara sseqdacent tmacinin-nneɣ. Acu kan, akken ad d-nesnulfu inagrawen n taɣect, yessefk ad d-nelqeḍ aṭas n yisefka s tuɣac n yimdanen.
 wall-of-text-more-mobile = Tuget n yisefka i seqdacent tkebbaniyin  ur llin ara i tuget n yimdanen. Nwala d akken ayagi yesseḥbas asnulfu. Ɣef aya, asenfaṛ Common Voice ilul-d. D asenfaṛ ara yessifsusen anekcum ɣer tmussni n taɣect, i yal yiwen.
@@ -281,6 +284,7 @@ shortcut-record-toggle = s
 shortcut-record-toggle-label = Sekles/Seḥbes
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Sekles tukkist
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Uɣal
 shortcut-submit-label = Azen tukkisin
 request-language-text = Ur tettwaliḍ ara tutlayt-ik di Common Voice yakan?
@@ -890,3 +894,20 @@ demo-listen-subtitle = Twejdeḍ ad tettekkiḍ?
 
 demo-dashboard-card-header = Tifelwiyin n usenqed tudmawanin ad k-ǧǧent ad tḍefreḍ asfari udmawan neɣ amɣiwan.
 demo-dashboard-card-body = Di yal tukkist n taɣect akked yal tukkist n umeslaw yettwaqeblen, tafelwit n usenqed n umiḍan-ik ad tattwalqem akken ad d-iban usfari-ik aneggaru deg yal tutlayt ideg i tettekkaḍ. Ih, tzemreḍ ad tettekkiḍ deg ddeqs n tutlayin!<br/><br/> Seqdec tafelwit n usenqed akken ad tefreḍ tiddadanin-ik, ad twaliḍ asfari-ik d wid n yimttekkiyen-nniḍen n temɣiwent daɣen ad tgeḍ iswi n uttekki n wass neɣ n yimalas.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriteriya
+contribution-criteria-link = Gzu isefranen n uttekki
+contribution-criteria-page-title = Attekki n Kriteriya
+contribution-criteria-page-description = Gzu ayen i ilaqen ticki tselleḍ i tefyar, snerni daɣen si tama-k taɣuri-ik!
+contribution-for-example = amedya
+contribution-misreadings-title = Tuccḍa deg tɣuri
+contribution-misreadings-description-extended-list-2 = Ixuṣṣ
+contribution-misreadings-description-extended-list-4 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
+contribution-misreadings-description-extended-list-5 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
+contribution-misreadings-example-3-explanation = [Asekles yettwagzem send ad yemmed wawal aneggaru]
+contribution-volume-title = Ableɣ
+contribution-just-unsure-title = Tkukraḍ?
+see-more = <chevron></chevron>Wali ugar
+see-less = <chevron></chevron>Wali drus

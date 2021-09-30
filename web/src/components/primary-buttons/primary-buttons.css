@@ -20,6 +20,7 @@
         height: 80px;
         filter: blur(7.6px);
         transition: opacity var(--transition-duration) linear;
+        will-change: opacity;
 
         @media (--md-up) {
             width: 109px;

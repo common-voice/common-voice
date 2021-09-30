@@ -43,13 +43,11 @@ export type CommonVoiceConfig = {
   BASKET_API_KEY?: string;
   IMPORT_SENTENCES: boolean;
   REDIS_URL: string;
-  KIBANA_URL: string;
-  KIBANA_PREFIX: string;
-  KIBANA_ADMINS: string;
   LAST_DATASET: string;
   SENTRY_DSN: string;
   MAINTENANCE_MODE: boolean;
   BENCHMARK_LIVE: boolean;
+  DEBUG: boolean;
   FLAG_BUFFER_STREAM_ENABLED: boolean;
 };
 
@@ -95,14 +93,12 @@ const BASE_CONFIG: CommonVoiceConfig = {
   },
   IMPORT_SENTENCES: configEntry('CV_IMPORT_SENTENCES', true, castBoolean),
   REDIS_URL: configEntry('CV_REDIS_URL', null),
-  KIBANA_URL: configEntry('CV_KIBANA_URL', null),
-  KIBANA_PREFIX: configEntry('CV_KIBANA_PREFIX', '/_plugin/kibana'),
-  KIBANA_ADMINS: configEntry('CV_KIBANA_ADMINS', null),
   LAST_DATASET: configEntry('CV_LAST_DATASET', '2019-06-12'),
   SENTRY_DSN: configEntry('CV_SENTRY_DSN', ''),
   MAINTENANCE_MODE: configEntry('CV_MAINTENANCE_MODE', false, castBoolean),
   BASKET_API_KEY: configEntry('CV_BASKET_API_KEY', null),
   BENCHMARK_LIVE: configEntry('CV_BENCHMARK_LIVE', false, castBoolean),
+  DEBUG: configEntry('CV_DEBUG', false, castBoolean),
   FLAG_BUFFER_STREAM_ENABLED: configEntry('CV_FLAG_BUFFER_STREAM_ENABLED', false, castBoolean),
 };
 

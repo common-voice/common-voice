@@ -78,6 +78,8 @@ hy-AM = ormiański
 hyw = zachodni ormiański
 ia = interlingua
 id = indonezyjski
+ie = interlingue
+ig = igbo
 is = islandzki
 it = włoski
 izh = iżorski
@@ -86,6 +88,7 @@ ka = gruziński
 kaa = karakałpacki
 kab = kabylski
 kbd = kabardyjski
+ki = kikuju
 kk = kazachski
 kmr = kurmandżi
 ko = koreański
@@ -110,11 +113,13 @@ ms = malajski
 mt = maltański
 my = birmański
 myv = erzja
+nan-tw = tajwański (minnański)
 nb-NO = norweski (bokmål)
 ne-NP = nepalski
 nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
+nyn = nyankole
 oc = oksytański
 or = orija
 pa-IN = pendżabski
@@ -128,6 +133,7 @@ ro = rumuński
 ru = rosyjski
 rw = kinyarwanda
 sah = jakucki
+sat = santali (ol ciki)
 sc = sardyński
 scn = sycylijski
 shi = shilha
@@ -148,6 +154,7 @@ tl = tagalski
 tr = turecki
 tt = tatarski
 tw = twi
+ty = tahitański
 uby = ubyski
 udm = udmurcki
 ug = ujgurski
@@ -157,6 +164,7 @@ uz = uzbecki
 vec = wenecki
 vi = wietnamski
 vot = wotycki
+yi = jidysz
 yo = joruba
 yue = kantoński
 zh-CN = chiński (Chiny)
@@ -190,6 +198,7 @@ logout = Wyloguj się
 ## Home Page
 
 home-title = Common Voice to inicjatywa Mozilli pomagająca w uczeniu maszyn mowy prawdziwych ludzi.
+default-tagline = Mozilla Common Voice to inicjatywa pomagająca w uczeniu maszyn mowy prawdziwych ludzi.
 home-cta = Nagrywaj i pomagaj!
 wall-of-text-start = Mowa to dla nas coś naturalnego i ludzkiego. Dlatego tak bardzo fascynuje nas tworzenie systemu rozpoznawania mowy, który mogłyby wykorzystywać maszyny. Ale aby to osiągnąć, potrzeba niezwykle obszernej bazy danych z nagraniami ludzkiej mowy.
 wall-of-text-more-mobile = Dane wykorzystywane przez duże firmy są niedostępne dla większości. Uważamy, że to hamuje rozwój. Dlatego uruchomiliśmy projekt Common Voice, który ma sprawić, aby systemy rozpoznawania głosu były dostępne dla każdego.
@@ -222,19 +231,19 @@ x-weeks-short =
     { $count ->
         [one] Tydzień
         [few] { $count } tygodnie
-       *[other] { $count } tygodni
+       *[many] { $count } tygodni
     }
 x-months-short =
     { $count ->
         [one] Miesiąc
         [few] { $count } miesiące
-       *[other] { $count } miesięcy
+       *[many] { $count } miesięcy
     }
 x-years-short =
     { $count ->
         [one] Rok
         [few] { $count } lata
-       *[other] { $count } lat
+       *[many] { $count } lat
     }
 help-make-dataset = Pomóż nam zbudować wysokiej jakości, publicznie otwarty zbiór danych
 sign-up-account = Zarejestruj konto
@@ -286,6 +295,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Nagraj/zatrzymaj
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nagraj ponownie
+shortcut-discard-ongoing-recording = Esc
+shortcut-discard-ongoing-recording-label = Odrzuć trwające nagranie
 shortcut-submit = Enter
 shortcut-submit-label = Wyślij nagrania
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
@@ -300,7 +311,7 @@ status-hours =
     { $hours ->
         [one] Jedna godzina zweryfikowanych nagrań!
         [few] { $hours } godziny zweryfikowanych nagrań!
-       *[other] { $hours } godzin zweryfikowanych nagrań!
+       *[many] { $hours } godzin zweryfikowanych nagrań!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -387,6 +398,10 @@ faq-what-cv-a =
     Technologia rozpoznawania głosu rewolucjonizuje sposób używania maszyn, ale obecnie dostępne systemy są kosztowne i zastrzeżone. Common Voice jest częścią inicjatywy Mozilli mającej na celu uczynienie rozpoznawania głosu lepszym i dostępnym dla każdego. Common Voice to ogromna globalna baza nagrań głosu, która pozwala każdemu szybko i łatwo trenować aplikacje obsługujące głos w potencjalnie każdym języku.
     
     Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
+faq-what-cv-a-2 =
+    Technologia rozpoznawania głosu rewolucjonizuje sposób używania maszyn, ale obecnie dostępne systemy są kosztowne i zastrzeżone. Mozilla Common Voice to inicjatywa mająca na celu uczynienie rozpoznawania głosu lepszym i dostępnym dla każdego. Common Voice to ogromna globalna baza nagrań głosu, która pozwala każdemu szybko i łatwo trenować aplikacje obsługujące głos w potencjalnie każdym języku.
+    
+    Zbieramy nie tylko próbki głosu w powszechnie używanych językach, ale także w tych z mniejszą liczbę użytkowników. Opublikowanie różnorodnego zbioru danych głosowych umożliwi deweloperom, przedsiębiorcom i społecznościom samodzielne zasypanie tej przepaści.
 faq-why-important-q = Dlaczego to jest ważne?
 faq-why-important-a =
     Mowa jest często najbardziej naturalnym sposobem komunikowania się ze sobą, a technologie głosowe zapewniają nam tę wygodę na komputerach i telefonach. Chcemy umożliwić deweloperom tworzenie niesamowitych aplikacji rozpoznających głos, takich jak tłumaczenie w czasie rzeczywistym i cyfrowi asystenci głosowi. Jednak obecnie większość danych głosowych wymaganych do tworzenia tego rodzaju aplikacji jest kosztowna i zastrzeżona. Mamy nadzieję, że zbiór danych Common Voice zapewni deweloperom to, czego potrzebują, aby wprowadzać innowacje i udostępniać technologię mowy w swoim języku.
@@ -444,6 +459,9 @@ about-title = Dlaczego Common Voice?
 about-subtitle = Common Voice jest częścią inicjatywy Mozilli pomagającej w uczeniu maszyn mowy prawdziwych ludzi. Oprócz zbioru danych Common Voice tworzymy także mechanizm rozpoznawania mowy open source o nazwie Deep Speech.
 about-header-description =
     Oba te projekty są częścią naszych wysiłków na rzecz zniwelowania podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
+    Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
+about-header-description-2 =
+    Ten projekt ma na celu zniwelowanie podziału cyfrowego. Technologie rozpoznawania głosu nadają naszym urządzeniom ludzki wymiar, ale deweloperzy do ich tworzenia potrzebują olbrzymiej ilości danych mowy. Obecnie większość takich danych jest kosztowna i zastrzeżona.
     Chcemy, aby dane mowy były publicznie dostępne i upewnić się, że reprezentują różnorodność prawdziwych ludzi. Razem możemy ulepszyć rozpoznawanie głosu dla wszystkich.
 how-does-it-work-title = Jak to działa
 how-does-it-work-text = Wspólnie tworzymy zbiór danych mowy open source. Nagraj swój głos, sprawdź dokładność nagrań innych osób, ulepsz zbiór dla wszystkich.
@@ -578,8 +596,11 @@ subscribe = Subskrybuj
 get-started-speech = Poznaj rozpoznawanie mowy
 other-datasets = Inne zbiory danych
 feedback-q = Masz sugestie?
-deepspeech-info = Zbiór danych Common Voice stanowi uzupełnienie mechanizmu rozpoznawania mowy open source o nazwie Deep Speech od Mozilli, którego można używać do tworzenia aplikacji rozpoznających mowę. Przeczytaj <githubLink>podsumowanie w serwisie GitHub</githubLink> lub dołącz do <discourseLink>DeepSpeech w serwisie Discourse</discourseLink>, aby dowiedzieć się, jak zacząć.
-common-voice-info-new = Masz pytania dotyczące Common Voice? Pomysły na ulepszenia lub sugestie na temat konkretnego języka? Dołącz do nas na naszym <discourseLink>forum Discourse</discourseLink> i daj znam znać.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ to <docsLink>zestaw narzędzi open source</docsLink> dla naukowców rozwijających najnowocześniejsze konwersacyjne modele sztucznej inteligencji.
+resource-deepspeech-info = Mechanizm rozpoznawania mowy open source o nazwie Deep Speech od Mozilli może być używany do tworzenia aplikacji rozpoznających mowę. Przeczytaj <githubLink>podsumowanie w serwisie GitHub</githubLink> lub dołącz do <discourseLink>DeepSpeech w serwisie Discourse</discourseLink>, aby dowiedzieć się, jak zacząć.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> jest poświęcony otwartym technologiom mowy. Ich projekty obejmują mechanizmy rozpoznawania i syntezy mowy oparte na głębokim uczeniu.
+community-playbook = Podręcznik społeczności
+resource-playbook-info = <playbookLink>Znajdź pomocne wskazówki</playbookLink> na temat wszystkiego, co związane z Common Voice, od lokalizacji do wykorzystania zbioru danych, a także jak współpracować z naszą społecznością.
 data-other-librispeech-description = LibriSpeech to zbiór około 1000 godzin angielskiej mowy w jakości 16 KHz, z tekstów audiobooków z projektu LibriVox.
 data-other-ted-name = Zbiór TED-LIUM
 data-other-ted-description = Zbiór TED-LIUM został utworzony z nagrań przemów i ich transkrypcji dostępnych na stronie konferencji TED.
@@ -730,19 +751,19 @@ days =
     { $count ->
         [one] dzień
         [few] dni
-       *[other] dni
+       *[many] dni
     }
 recordings =
     { $count ->
         [one] nagranie
         [few] nagrania
-       *[other] nagrań
+       *[many] nagrań
     }
 validations =
     { $count ->
         [one] sprawdzone nagranie
         [few] sprawdzone nagrania
-       *[other] sprawdzonych nagrań
+       *[many] sprawdzonych nagrań
     }
 
 ## Dashboard
@@ -865,6 +886,52 @@ why-delete-recordings =
     Czy możesz nam powiedzieć, dlaczego chcesz, aby Twoje nagrania zostały usunięte?
 profile-form-delete = Usuń profil
 
+## Profile Download
+
+download-q = Chcesz pobrać swoje dane?
+download-info = Powiedz nam, co chcesz pobrać:
+download-profile-title = Profil
+download-profile-info = Zawiera adres e-mail, nazwę użytkownika i dane demograficzne, dostępne od razu
+download-profile-size = Kilka bajtów
+download-recordings-title = Nagrania
+download-recordings-info = Zawiera pliki MP3 i powiązane zdania, przygotowanie może zająć trochę czasu
+download-recordings-size = Zazwyczaj megabajty
+download-recordings-unavailable = Nie możesz poprosić o nagrania, kiedy inna prośba jest już w toku.
+download-recently-requested =
+    { $days ->
+        [one] Można poprosić o nagrania raz dziennie.
+        [few] Można poprosić o nagrania co { $days } dni.
+       *[many] Można poprosić o nagrania co { $days } dni.
+    }
+download-size = Rozmiar
+download-selected = Wybrane
+download-start = Pobierz dane profilu
+download-request = Poproś o nagrania
+download-requests = Poprzednie prośby o pobranie nagrań
+download-requests-info = Gdy prosisz o nagrania, zbieramy je w jeden lub wiele plików ZIP. Oto Twoje wcześniejsze prośby:
+download-request-button = Pobierz
+download-request-title = { $created }
+download-request-description =
+    { $clipCount ->
+        [one] { $clipCount } nagranie, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
+        [few] { $clipCount } nagrania, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
+       *[many] { $clipCount } nagrań, całkowity rozmiar archiwum: { $size }. Wygasa { $expires }.
+    }
+download-request-archive-single = Jeden plik ZIP zawierający
+download-request-archive-multiple =
+    { $archiveCount ->
+        [one] Podziel na { $archiveCount } plik ZIP zawierający
+        [few] Podziel na { $archiveCount } pliki ZIP zawierające
+       *[many] Podziel na { $archiveCount } plików ZIP zawierających
+    }
+download-request-assembling-description = Pliki są zbierane. Sprawdź ponownie później.
+download-request-refresh-button = Odśwież
+download-request-modal-title = Odnośniki pobierania
+download-request-modal-description = Odnośniki do pobrania plików ZIP.
+download-request-link-text = { $offset }. plik ZIP z { $total }
+download-request-metadata-link = Tekst zdania
+download-request-link-single = Można także skopiować bezpośrednie adresy URL i wkleić je do swojego ulubionego menedżera pobierania. Wygasną za 12 godzin, ale w każdej chwili można wrócić do tej strony, aby utworzyć nowe.
+
 ## Landing
 
 welcome-staff = Witamy pracowników firmy { $company }!
@@ -908,3 +975,8 @@ demo-listen-subtitle = Chcesz wziąć udział?
 
 demo-dashboard-card-header = Osobisty panel informuje Cię na bieżąco o postępach indywidualnych i całej społeczności.
 demo-dashboard-card-body = Twój panel konta jest aktualizowany po każdym nagraniu i każdym zweryfikowaniu nagrania, aby odzwierciedlać Twoje najnowsze postępy w każdym języku, w jakim bierzesz udział. Tak, możesz nagrywać w więcej niż jednym!<br/><br/> Korzystaj z panelu, aby śledzić swoje statystyki, sprawdzić, jak radzisz sobie razem z innymi członkami społeczności oraz ustalać dzienne lub tygodniowe cele.
+
+## Validation criteria
+
+see-more = <chevron></chevron>Więcej
+see-less = <chevron></chevron>Mniej

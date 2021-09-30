@@ -119,3 +119,12 @@ export function stringContains(haystack: string, needles: string) {
 export function doNotTrack() {
   return navigator.doNotTrack === '1' || navigator.doNotTrack === 'yes';
 }
+
+export function byteToSize(bytes: number, getString: Function): string {
+  const megabytes = bytes / 1024 / 1024;
+  return megabytes < 1
+    ? Math.round(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
+    : megabytes > 1024
+    ? Math.round(megabytes / 1024) + ' ' + getString('size-gigabyte')
+    : Math.round(megabytes) + ' ' + getString('size-megabyte');
+}

@@ -78,6 +78,8 @@ hy-AM = Armenisch
 hyw = Westarmenisch
 ia = Interlingua
 id = Indonesisch
+ie = Interlingue
+ig = Igbo
 is = Isländisch
 it = Italienisch
 izh = Ischorisch
@@ -86,6 +88,7 @@ ka = Georgisch
 kaa = Karakalpak
 kab = Kabylisch
 kbd = Kabardinisch
+ki = Kikuyu
 kk = Kasachisch
 kmr = Kurmandschi Kurdisch
 ko = Koreanisch
@@ -110,11 +113,13 @@ ms = Malaiisch
 mt = Maltesisch
 my = Birmanisch
 myv = Ersjanisch
+nan-tw = Taiwanesisch (Minnan)
 nb-NO = Norwegisches Bokmål
 ne-NP = Nepali
 nia = Nias
 nl = Niederländisch
 nn-NO = Nynorsk
+nyn = Nyankole
 oc = Okzitanisch
 or = Odia
 pa-IN = Punjabi
@@ -128,6 +133,7 @@ ro = Rumänisch
 ru = Russisch
 rw = Kinyarwanda
 sah = Sacha
+sat = Santali (Ol Chiki)
 sc = Sardisch
 scn = Sizilianisch
 shi = Taschelhit
@@ -148,6 +154,7 @@ tl = Tagalog
 tr = Türkisch
 tt = Tatarisch
 tw = Twi
+ty = Tahitisch
 uby = Ubychisch
 udm = Udmurtisch
 ug = Uigurisch
@@ -157,6 +164,7 @@ uz = Usbekisch
 vec = Venezianisch
 vi = Vietnamesisch
 vot = Wotisch
+yi = Jiddisch
 yo = Yoruba
 yue = Kantonesisch
 zh-CN = Chinesisch (China)
@@ -190,6 +198,7 @@ logout = Abmelden
 ## Home Page
 
 home-title = Das Common-Voice-Projekt ist eine Initiative von Mozilla, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
+default-tagline = Mozilla Common Voice- ist eine Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen.
 home-cta = Mund aufmachen, Projekt unterstützen, mitarbeiten!
 wall-of-text-start = Sprache ist natürlich, Sprache ist menschlich. Deshalb sind wir davon fasziniert, brauchbare Technologien zur Spracherkennung für unsere Geräte zu erschaffen. Allerdings wird zur Entwicklung sprachbasierter Systeme eine sehr große Menge an Aufnahmen von gesprochener Sprache benötigt.
 wall-of-text-more-mobile = Der überwiegende Teil der von großen Unternehmen genutzten Daten ist für die Mehrheit der Menschen jedoch nicht zugänglich. Wir glauben, dass dadurch Innovation unterbunden wird. Aus diesem Grund haben wir das Projekt Common Voice ins Leben gerufen, ein Projekt, das dabei hilft, Spracherkennung für jeden zugänglich zu machen.
@@ -283,6 +292,8 @@ shortcut-record-toggle = a
 shortcut-record-toggle-label = Aufnahme/Abbruch
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Aufzeichnung wiederholen
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Laufende Aufzeichnung verwerfen
 shortcut-submit = Eingabe
 shortcut-submit-label = Aufzeichnungen übertragen
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
@@ -383,6 +394,10 @@ faq-what-cv-a =
     Die Spracherkennungstechnologie revolutioniert die Art und Weise, wie wir mit Geräten interagieren. Die derzeit verfügbaren Systeme sind jedoch teuer und proprietär. Common Voice ist Teil der Initiative von Mozilla, um Technologien zur Spracherkennung für alle besser und zugänglicher zu machen. Common Voice ist eine riesige globale Datenbank mit gespendeten Stimmen, mit der jeder schnell und einfach sprachgesteuerte Apps in jeder Sprache trainieren kann.
     
     Wir sammeln nicht nur Sprachproben in weit verbreiteten Sprachen, sondern auch in solchen mit einer geringeren Anzahl von Sprechern. Durch die Veröffentlichung eines umfangreichen Datensatzes von Stimmen können Entwickler, Unternehmer und Gemeinschaften diese Lücke selbst beheben. Neben dem Common-Voice-Datensatz erstellen wir auch eine Open-Source-Spracherkennungs-Engine namens Deep Speech.
+faq-what-cv-a-2 =
+    Die Spracherkennungstechnologie revolutioniert die Art und Weise, wie wir mit Geräten interagieren. Die derzeit verfügbaren Systeme sind jedoch teuer und proprietär. Mozilla Common Voice ist eine Initiative, um Technologien zur Spracherkennung für alle besser und zugänglicher zu machen. Common Voice ist eine riesige globale Datenbank mit gespendeten Stimmen, mit der jeder schnell und einfach sprachgesteuerte Apps in jeder Sprache trainieren kann.
+    
+    Wir sammeln nicht nur Sprachproben in weit verbreiteten Sprachen, sondern auch in solchen mit einer geringeren Anzahl von Sprechern. Durch die Veröffentlichung eines umfangreichen Datensatzes von Stimmen können Entwickler, Unternehmer und Gemeinschaften diese Lücke selbst beheben.
 faq-why-important-q = Warum ist das wichtig?
 faq-why-important-a =
     Sprache ist oft die natürlichste Art, wie wir miteinander kommunizieren, und Sprachtechnologien machen diesen Komfort auf unseren Computern und mobilen Geräten nutzbar. Wir möchten Entwickler in die Lage versetzen, erstaunliche Spracherkennungsanwendungen wie Echtzeitübersetzer und sprachgestützte digitale Assistenten zu entwickeln. Im Moment sind jedoch die meisten Sprachdaten, die zur Erstellung solcher Apps erforderlich sind, teuer und proprietär. Wir hoffen, dass der Common-Voice-Datensatz den Entwicklern das gibt, was sie benötigen, um die Sprachtechnologie in ihrer eigenen Sprache zur Verfügung zu stellen.
@@ -440,6 +455,9 @@ about-title = Warum Common Voice?
 about-subtitle = Common-Voice ist ein Teil von Mozillas Initiative, die dabei helfen soll, Geräten beizubringen, wie echte Menschen sprechen. Zusätzlich zum Common-Voice-Datensatz entwickeln wir auch eine quelloffene Spracherkennungs-Engine namens Deep Speech.
 about-header-description =
     Beide Projekte sind Teil unserer Bemühungen, die Lücke, die digitale Sprache bedeutet, zu überbrücken. Spracherkennungstechnologien verleihen unseren Geräten eine menschliche Dimension, aber Entwickler benötigen eine riesige Menge an Sprachdaten, um sie zu erstellen. Derzeit sind die meisten dieser Daten teuer und proprietär.
+    Wir möchten Sprachdaten frei und öffentlich verfügbar machen und sicherstellen, dass die Daten die Vielfalt echter Menschen darstellen. Gemeinsam können wir die Spracherkennung für alle verbessern.
+about-header-description-2 =
+    Dieses Projekt ist ein Versuch, die Lücke, die digitale Sprache bedeutet, zu überbrücken. Spracherkennungstechnologien verleihen unseren Geräten eine menschliche Dimension, aber Entwickler benötigen eine riesige Menge an Sprachdaten, um sie zu erstellen. Derzeit sind die meisten dieser Daten teuer und proprietär.
     Wir möchten Sprachdaten frei und öffentlich verfügbar machen und sicherstellen, dass die Daten die Vielfalt echter Menschen darstellen. Gemeinsam können wir die Spracherkennung für alle verbessern.
 how-does-it-work-title = Wie es funktioniert
 how-does-it-work-text = Wir crowdsourcen einen Open-Source-Datensatz von Stimmen. Spenden Sie Ihre Stimme, überprüfen Sie die Genauigkeit der Clips anderer Personen, und verbessern Sie den Datensatz für alle.
@@ -574,8 +592,11 @@ subscribe = Abonnieren
 get-started-speech = Erste Schritte mit der Spracherkennung
 other-datasets = Andere Sprachdatensätze
 feedback-q = Möchten Sie uns etwas mitteilen?
-deepspeech-info = Der Common-Voice-Datasatz ist eine Ergänzung zu Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, mit der Sie Spracherkennungsanwendungen entwickeln können. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen.
-common-voice-info-new = Haben Sie Fragen zu Common Voice? Verbesserungsvorschläge oder Feedback zu einer bestimmten Sprache? Besuchen Sie unser <discourseLink>Discourse-Forum</discourseLink> und teilen Sie uns dies mit.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ist ein <docsLink>Open-Source-Toolkit</docsLink> für Forscher, die hochmoderne dialogorientierte KI-Modelle entwickeln.
+resource-deepspeech-info = Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, kann zur Entwicklung von Spracherkennungsanwendungen verwendet werden. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen
+resource-coqui-info = <coquiLink>Coqui</coquiLink> widmet sich der offenen Sprachtechnologie. Ihre Projekte umfassen Deep-Learning-basierte STT- und TTS-Engines.
+community-playbook = Aufzeichnungen der Aktivitäten der Gemeinschaft
+resource-playbook-info = <playbookLink>Hier finden Sie hilfreiche Anleitungen</playbookLink> zum gesamten Weg von Common Voice, von der Lokalisierung bis zur Verwendung von Datensätzen, sowie zur Verbindung mit unserer Gemeinschaft.
 data-other-librispeech-description = LibriSpeech ist ein Korpus aus ca. 1000 Stunden vorgelesener Texte in englischer Sprache (aufgenommen in 16kHz), welche ursprünglich aus Hörbüchern des LibriVox-Projektes entnommen wurden.
 data-other-ted-name = TED-LIUM-Korpus
 data-other-ted-description = Der TED-LIUM-Korpus wurde aus Audio-Vorträgen und deren Abschriften erstellt, die auf der TED-Webseite verfügbar sind.
@@ -848,6 +869,37 @@ why-delete-recordings =
     Können Sie uns mitteilen, warum Sie Ihre Aufnahmen löschen möchten?
 profile-form-delete = Profil löschen
 
+## Profile Download
+
+download-q = Müssen Sie Ihre Daten herunterladen?
+download-info = Sagen Sie uns, was Sie herunterladen möchten:
+download-profile-title = Profil
+download-profile-info = Enthält E-Mail-Adresse, Benutzername und demografische Informationen
+download-profile-size = Ein paar Bytes
+download-recordings-title = Aufnahmen
+download-recordings-info = Enthält mp3s und verwandte Sätze
+download-recordings-size = Normalerweise Megabyte
+download-recordings-unavailable = Sie können Ihre Aufnahmen nicht anfordern, während bereits eine andere Anforderung in Bearbeitung ist.
+download-recently-requested = Sie können alle { $days } Tage eine neue Entnahme Ihrer Aufnahmen anfordern.
+download-size = Dateigröße
+download-selected = Ausgewählt
+download-start = Download beginnen
+download-request = Download anfordern
+download-requests = Frühere Download-Anfragen
+download-requests-info = Wenn Sie Ihre Aufnahmen anfordern, stellen wir diese in einer oder mehreren ZIP-Dateien zusammen. Hier sind Ihre vergangenen Anfragen:
+download-request-button = Herunterladen
+download-request-title = { $created }
+download-request-description = { $clipCount } Sprachclips, Gesamtarchivgröße { $size }. Läuft ab am { $expires }
+download-request-archive-single = Einzelne ZIP-Datei mit
+download-request-archive-multiple = Aufgeteilt in { $archiveCount } ZIP-Dateien mit
+download-request-assembling-description = Ihre Dateien werden zusammengestellt. Bitte schauen Sie später noch einmal vorbei.
+download-request-refresh-button = Aktualisieren
+download-request-modal-title = Download-Links
+download-request-modal-description = Hier sind die Links zum Herunterladen Ihrer ZIP-Dateien.
+download-request-link-text = ZIP-Datei { $offset } von { $total }
+download-request-metadata-link = Satztext
+download-request-link-single = Sie können die direkten URLs auch kopieren und in Ihren bevorzugten Download-Manager einfügen. Sie laufen in 12 Stunden ab, aber Sie können jederzeit zu dieser Seite zurückkehren, um neue zu erstellen.
+
 ## Landing
 
 welcome-staff = { $company }, Mitarbeiter von { $company }!
@@ -891,3 +943,59 @@ demo-listen-subtitle = Sind Sie bereit, mitzumachen?
 
 demo-dashboard-card-header = Persönliche Übersichten halten Sie über den individuellen und gemeinschaftlichen Fortschritt auf dem Laufenden.
 demo-dashboard-card-body = Für jeden gespendeten Sprachclip und jeden validierten Audioclip werden Ihre Konto-Übersichten aktualisiert, um Ihre neuesten Fortschritte in jeder Sprache widerzuspiegeln, zu der Sie beitragen. Ja, Sie können zu mehr als einer Sprache beitragen! <br/><br/> Verwenden Sie Übersichten, um Ihre Statistiken zu verfolgen, sich mit anderen Mitgliedern der Gemeinschaft zu vergleichen und um tägliche oder wöchentliche Beitragsziele festzulegen.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterien
+contribution-criteria-link = Kriterien zum Mitwirken verstehen
+contribution-criteria-page-title = Kriterien zum Mitwirken
+contribution-criteria-page-description = Informieren Sie sich darüber, worauf Sie beim Anhören von Sprachclips achten sollten und wie Sie auch Ihre Stimmaufzeichnungen verbessern können!
+contribution-for-example = Beispiel
+contribution-misreadings-title = Lesefehler
+contribution-misreadings-description = Überprüfen Sie beim Hören sehr genau, ob das Aufgenommene auch das Geschriebene ist; lehnen Sie die Aufzeichnung ab, auch wenn es nur geringfügige Fehler gibt. <br />Sehr häufige Fehler sind:
+contribution-misreadings-description-extended-list-1 = Fehlendes <strong>„Ein(e)“</strong> oder <strong>„Der“/„Die“/„Das“</strong> zum Beginn einer Aufzeichnung
+contribution-misreadings-description-extended-list-2 = Fehlendes <strong>„“s</strong> am Ende eines Wortes.
+contribution-misreadings-description-extended-list-3 = Zusammenziehungen (Kontraktionen) beim Lesen, die eigentlich nicht da sind, wie „fürs“ statt „für das“ oder umgekehrt.
+contribution-misreadings-description-extended-list-4 = Fehlendes Ende des letzten Worts eines Satzes, weil die Aufnahme zu schnell beendet wird.
+contribution-misreadings-description-extended-list-5 = Mehrere Versuche, ein Wort zu lesen.
+contribution-misreadings-example-1-title = Die großen Einsatzfahrzeuge der Feuerwehr.
+contribution-misreadings-example-2-title = Die großen Einsatzfahrzeug der Feuerwehr.
+contribution-misreadings-example-2-explanation = [Sollte „Einsatzfahrzeuge“ heißen]
+contribution-misreadings-example-3-title = Die großen Einsatzfahrzeuge der Feuerw-.
+contribution-misreadings-example-3-explanation = [Aufnahme vor Ende des letzten Wortes abgeschnitten]
+contribution-misreadings-example-4-title = Die großen Einsatzfahrzeuge der Feuerwehr. Ja.
+contribution-misreadings-example-4-explanation = [Es wurde mehr als der erforderliche Text aufgenommen]
+contribution-misreadings-example-5-title = Wir gehen Kaffee holen.
+contribution-misreadings-example-6-title = Wir gehn Kaffee holen.
+contribution-misreadings-example-6-explanation = [Sollte „Wir gehen“ heißen]
+contribution-misreadings-example-7-title = Wir gehen einen Kaffee holen.
+contribution-misreadings-example-7-explanation = [Im Originaltext ist kein „einen“]
+contribution-misreadings-example-8-title = Die Hummel flog vorbei.
+contribution-misreadings-example-8-explanation = [Nicht übereinstimmender Inhalt]
+contribution-varying-pronunciations-title = Unterschiedliche Aussprachen
+contribution-varying-pronunciations-description = Seien Sie vorsichtig, bevor Sie einen Clip mit der Begründung ablehnen, dass der Leser ein Wort falsch ausgesprochen hat, die Betonung an der falschen Stelle gesetzt oder anscheinend ein Fragezeichen ignoriert hat. Es gibt eine Vielzahl von Aussprachen auf der ganzen Welt, von denen Sie einige in Ihrer Umgebung möglicherweise noch nicht gehört haben. Bitte berücksichtigen Sie, dass es Menschen gibt, die anders sprechen als Sie.
+contribution-varying-pronunciations-description-extended = Wenn Sie hingegen der Meinung sind, dass der Leser das Wort wahrscheinlich noch nie gesehen hat und einfach die Aussprache falsch geraten hat, lehnen Sie es bitte ab. Wenn Sie unsicher sind, klicken Sie auf die Schaltfläche „Überspringen“.
+contribution-varying-pronunciations-example-1-title = Er trank einen Kaffee.
+contribution-varying-pronunciations-example-1-explanation = [„Kaffee“ wird im Deutschen auf der ersten, im Österreichischen auf der zweiten Silbe betont.]
+contribution-varying-pronunciations-example-2-title = Es herrschte totales Cha-os.
+contribution-varying-pronunciations-example-2-explanation = [„Chaos“ wird im Deutschen mit einer, nicht mit zwei Silben gesprochen.]
+contribution-background-noise-title = Hintergrundgeräusche
+contribution-background-noise-description = Wir möchten, dass die Algorithmen des maschinellen Lernens mit einer Vielzahl von Hintergrundgeräuschen umgehen können. Es sind sogar relativ laute Geräusche akzeptabel, solange sie noch den ganzen Text hören können. Ruhige Hintergrundmusik ist in Ordnung; Musik, die so laut ist, dass Sie nicht mehr jedes Wort verstehen, ist es nicht.
+contribution-background-noise-description-extended = Wenn die Aufnahme abbricht oder knistert, verwerfen Sie sie, es sei denn, der gesamte Text ist noch zu hören.
+contribution-background-noise-example-1-fixed-title = <strong>[Schneuzen]</strong> Die großen Dinosaurier der <strong>[Husten]</strong> Trias.
+contribution-background-noise-example-2-fixed-title = Die großen Dino <strong>[Husten]</strong> der Trias.
+contribution-background-noise-example-2-explanation = [Ein Teil des Textes ist nicht zu hören]
+contribution-background-noise-example-3-fixed-title = <strong>[Rauschen]</strong> großen Dinosaurier der <strong>[Rauschen]</strong> -rias.
+contribution-background-voices-title = Hintergrundstimmen
+contribution-background-voices-description = Ein leises Hintergrundrauschen ist in Ordnung, aber wir möchten keine zusätzlichen Stimmen, die dazu führen können, dass ein maschineller Algorithmus Wörter erkennt, die nicht im geschriebenen Text enthalten sind. Wenn Sie andere Wörter als den Text hören, sollte der Clip abgelehnt werden. Dies geschieht normalerweise dort, wo der Fernseher angelassen wurde oder in der Nähe ein Gespräch stattfindet.
+contribution-background-voices-description-extended = Wenn die Aufnahme abbricht oder knistert, verwerfen Sie sie, es sei denn, der gesamte Text ist noch zu hören.
+contribution-background-voices-example-1-title = Die großen Dinosaurier der Trias. <strong>[von einer Stimme gelesen]</strong>
+contribution-background-voices-example-1-explanation = Kommst Du? <strong>[Zwischenruf einer anderen Stimme]</strong>
+contribution-volume-title = Lautstärke
+contribution-volume-description = Es wird natürliche Schwankungen in der Lautstärke zwischen den Lesern geben. Lehnen Sie nur ab, wenn die Lautstärke so hoch ist, dass die Aufnahme gestört wird, oder (häufiger) wenn sie so niedrig ist, dass Sie das Gesagte ohne Nachlesen im geschriebenen Text nicht hören können.
+contribution-reader-effects-title = Lesereffekte
+contribution-reader-effects-description = Die meisten Aufnahmen stammen von Menschen, die mit ihrer natürlichen Stimme sprechen. Sie können gelegentliche, nicht standardmäßige Aufnahmen akzeptieren, die gerufen, geflüstert oder offensichtlich mit einer „dramatischen“ Stimme geliefert werden. Bitte lehnen Sie gesungene Aufnahmen und solche mit einer computergenerierten Stimme ab.
+contribution-just-unsure-title = Nur unsicher?
+contribution-just-unsure-description = Wenn Sie auf etwas stoßen, das diese Richtlinien nicht abdecken, stimmen Sie bitte nach bestem Wissen und Gewissen ab. Wenn Sie sich wirklich nicht entscheiden können, verwenden Sie die Überspringen-Schaltfläche und fahren Sie mit der nächsten Aufnahme fort.
+see-more = <chevron></chevron>Mehr anzeigen
+see-less = <chevron></chevron>Weniger anzeigen

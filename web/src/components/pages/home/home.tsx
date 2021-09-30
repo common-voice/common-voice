@@ -84,7 +84,7 @@ export default function HomePage() {
       <div className="text">
         <div className="inner">
           <div className="title">
-            <Localized id="home-title">
+            <Localized id="default-tagline">
               <h1 />
             </Localized>
           </div>

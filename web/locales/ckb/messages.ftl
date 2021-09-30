@@ -280,6 +280,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = تۆمار/ڕاگرتن
 shortcut-rerecord-toggle = [٥-١]
 shortcut-rerecord-toggle-label = تۆماری دووبارە
+shortcut-submit = گەڕانەوە
+shortcut-submit-label = ناردنی دەنگەکان
 request-language-text = زمانی خۆت لە دەنگی گشتی نابینیت؟
 request-language-text-learn = بزانە چۆن دەتوانی لێرە داوای بکەی!
 request-language-button = داواکردنی زمان
@@ -861,3 +863,9 @@ demo-listen-subtitle = ئامادەی بۆ بەشداری؟
 
 demo-dashboard-card-header = بۆردی تاکەکسی هەمیشە ئاگادارت دەکات لە دوواترین بەشداریە کەسییەکان وچالاکی کۆمەڵەکە.
 demo-dashboard-card-body = بۆ هەموو گرتەیەکی دەنگی بەخشراو، و هەموو گرتەیەکی دەنگی ساغکراوە، داشبۆردی هەژمارەکەت نوێدەکرێتەوە بۆ ڕەنگدانەوەی دوایین پێشکەوتنەکانت لە هەر زمانێک کە بەشداریت کردووە. بەڵێ، دەتوانی بەشداری زیاتر لە یەک زمان بکەیت! <br/><br/> داشبۆرد بەکاربهێنە بۆ بەدواداچوونی ئامارەکانت، بزانە لە کوێی لە پاڵ کەسانی تری ناو کۆمەڵگا، و ئامانجی بەشداریکردنی ڕۆژانە یان هەفتانە دابنێ.
+
+## Validation criteria
+
+contribution-volume-title = پلەی دەنگ
+see-more = <chevron></chevron>زیاتر ببینە
+see-less = <chevron></chevron>کەمتر ببینە

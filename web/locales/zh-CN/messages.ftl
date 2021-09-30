@@ -78,6 +78,8 @@ hy-AM = 亚美尼亚语
 hyw = 西亚美尼亚语
 ia = 国际语
 id = 印度尼西亚语
+ie = 国际语 E
+ig = 伊博语
 is = 冰岛语
 it = 意大利语
 izh = 英格里亚语
@@ -86,6 +88,7 @@ ka = 格鲁吉亚语
 kaa = 卡拉卡尔帕克语
 kab = 卡拜尔语
 kbd = 卡巴尔达语
+ki = 基库尤语
 kk = 哈萨克语
 kmr = 库尔曼吉库尔德语
 ko = 韩语
@@ -110,11 +113,13 @@ ms = 马来语
 mt = 马耳他语
 my = 缅甸语
 myv = 厄尔兹亚语
+nan-tw = 闽南语（台湾地区）
 nb-NO = 书面挪威语
 ne-NP = 尼泊尔语
 nia = 尼亚斯语
 nl = 荷兰语
 nn-NO = 新挪威语
+nyn = 尼扬科勒语
 oc = 欧西坦语
 or = 奥里亚语
 pa-IN = 旁遮普语
@@ -128,6 +133,7 @@ ro = 罗马尼亚语
 ru = 俄语
 rw = 卢旺达语
 sah = 萨哈语
+sat = 桑塔利语（Ol Chiki 文）
 sc = 萨丁尼亚语
 scn = 西西里语
 shi = 希尔哈语
@@ -148,6 +154,7 @@ tl = 塔加洛语
 tr = 土耳其语
 tt = 鞑靼语
 tw = 契维语
+ty = 塔希提语
 uby = 尤比克语
 udm = 乌德穆尔特语
 ug = 维吾尔语
@@ -157,6 +164,7 @@ uz = 乌兹别克语
 vec = 威尼斯语
 vi = 越南语
 vot = 沃提克语
+yi = 意第绪语
 yo = 约鲁巴语
 yue = 粤语
 zh-CN = 汉语（中国大陆）
@@ -190,6 +198,7 @@ logout = 退出登录
 ## Home Page
 
 home-title = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助教会机器真人的说话方式。
+default-tagline = Mozilla Common Voice 项目，旨在帮助教会机器真人的说话方式。
 home-cta = 有话在此大声说！
 wall-of-text-start = 语音是自然的、有人性的。这也是为什么我们希望为机器建立可用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-more-mobile = 大部分由行业巨头持有的数据，并未开放给公众使用。我们认为这会扼杀创新，因而推出了 Common Voice 项目，让语音识别技术的大门对每个人开放。
@@ -280,6 +289,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = 录音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新录制片段
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = 丢弃进行中的录音
 shortcut-submit = 返回
 shortcut-submit-label = 提交片段
 request-language-text = 没在 Common Voice 看到您的语言吗？
@@ -379,6 +390,10 @@ faq-what-cv-a =
     语音识别技术正在改变我们与机器交互的方式，但现今的识别系统不仅昂贵，而且技术封闭。Common Voice 是 Mozilla 发起的一项倡议，旨在推进语音识别技术，更广泛地为大众服务。Common Voice 也是一套庞大的数据库，收录了全球各地贡献的语音数据，让任何人都可以更快更轻松地训练支持所有语言的语音识别程序。
     
     除了应用最广泛的语言，我们还收集了使用人数较少的语种语音样本。一套丰富而又公开的语音数据集能够帮助开发者、创业者以及各个社区缩小语言规模的鸿沟。除 Common Voice 数据集外，我们还在构建一套名为 Deep Speech 的开源语音识别引擎。
+faq-what-cv-a-2 =
+    语音识别技术正在改变我们与机器交互的方式，但现今的识别系统不仅昂贵，而且技术封闭。Mozilla Common Voice 项目，旨在推进语音识别技术，更广泛地为大众服务。Common Voice 也是一套庞大的数据库，收录了全球各地贡献的语音数据，让任何人都可以更快更轻松地训练支持所有语言的语音识别程序。
+    
+    除了应用最广泛的语言，我们还收集了使用人数较少的语种语音样本。一套丰富而又公开的语音数据集能够帮助开发者、创业者以及各个社区缩小语言规模的鸿沟。
 faq-why-important-q = 为什么如此重要？
 faq-why-important-a = 说话是人类相互沟通最自然的方式。而语音技术把这种方便感带到了计算机与移动设备上。我们想让开发者能够打造效果极好的语音识别程序，比如实时翻译器和语音数字助手。但此刻，大多数打造这类应用所必需的语音数据都是私有且昂贵的。我们希望 Common Voice 提供的数据集能满足开发者所需，把语音技术带到他们所说的语言。
 faq-how-get-q = 我要如何获取 Common Voice 数据？
@@ -434,6 +449,9 @@ about-subtitle = Common Voice 项目是 Mozilla 发起的倡议，旨在帮助�
 about-header-description =
     这两个项目都是我们努力弭平数字语音鸿沟的一部分。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
     我们希望能够自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
+about-header-description-2 =
+    此项目是我们努力弭平数字语音鸿沟所做的努力。语音识别技术为我们的设备带来人性的维度，但开发者需要巨量的语音数据来构建它们。目前大部分语音数据都相当昂贵且为巨头专有。
+    我们希望自由公开地提供语音数据，并确保数据反映出人们实际的多样性。让我们一起为所有人把语音识别技术发展得更好吧！
 how-does-it-work-title = 原理是什么？
 how-does-it-work-text = 我们集众人之力，构建开源的语音数据集。欢迎捐出一段声音，或者帮助验证录音片段是否正确，让数据集能够变得更好。
 about-speak = 说话
@@ -489,7 +507,7 @@ de-identified-explanation = 在打包下载数据集时，贡献者的个人信�
 
 ## Error pages
 
-error-title-404 = 我们找不到你要查看的页面
+error-title-404 = 我们找不到您要查看的页面
 error-content-404 = 也许回到我们的<homepageLink>主页</homepageLink>会有所帮助？若要询问问题，可以加入<matrixLink>Matrix 社区聊天频道</matrixLink>、关注 <githubLink>GitHub</githubLink> 上的网站问题反馈，或到<discourseLink>我们的 Discourse 论坛</discourseLink>让我们知道。
 error-title-503 = 发生了意外的宕机
 error-content-503 = 网站将尽快恢复正常。请到我们的 <matrixLink>Matrix 社区聊天频道</matrixLink>、<githubLink>GitHub</githubLink> 上的网站问题反馈，或到 <discourseLink>Discourse 论坛</discourseLink>向我们反馈，获取最新信息。
@@ -565,8 +583,11 @@ subscribe = 订阅
 get-started-speech = 语音识别入门
 other-datasets = 其他语音数据集
 feedback-q = 有反馈要提供？
-deepspeech-info = Common Voice 数据集与 Mozilla 的开源语音识别引擎 Deep Speech 相辅相成，您可以使用其构建语音识别应用程序。您可以阅读我们的 <githubLink>Github 概述</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入门。
-common-voice-info-new = 对 Common Voice 有疑问？有针对特定语言的改进或反馈意见？欢迎加入我们的 <discourseLink>Discourse  论坛</discourseLink>告诉我们。
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套可让研究者开发最先进的对话式 AI 模型的<docsLink>开源工具包</docsLink>。
+resource-deepspeech-info = Mozilla 的开源语音识别引擎 Deep Speech，可用于构建语音识别应用程序。您可以阅读我们的 <githubLink>Github 概述</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入门。
+resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力于开放语音技术。他们的项目包括使用深度学习技术的 STT 与 TTS 引擎。
+community-playbook = 社区手册
+resource-playbook-info = <playbookLink>了解开始 Common Voice 之旅的实用指南</playbookLink>，从本地化、数据集使用方式，到如何与社区联系等更多信息。
 data-other-librispeech-description = Librispeech 是从 Librivox 项目中得到的大约 1000 小时的 16khz 有声读物的英文语音语料库。
 data-other-ted-name = TED-LIUM 语料库
 data-other-ted-description = TED-LIUM 语料库由在 TED 网站上提供的讲话音频和转录文字制作而成。
@@ -635,7 +656,7 @@ action-tap = 点按
 contribute = 参与贡献
 listen = 聆听
 skip = 跳过
-shortcuts = 快捷方式
+shortcuts = 快捷键
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> 个片段
@@ -828,6 +849,37 @@ why-delete-recordings =
     能让我们知道您为什么想要删除录音片段吗？
 profile-form-delete = 删除用户资料
 
+## Profile Download
+
+download-q = 需要下载您的数据吗？
+download-info = 请告诉我们您要下载的内容：
+download-profile-title = 个人资料
+download-profile-info = 包括电子邮件地址、用户名和人口统计信息
+download-profile-size = 大概几个字节
+download-recordings-title = 录音片段
+download-recordings-info = 包含录音 MP3 音频和相关语句
+download-recordings-size = 通常几 MB
+download-recordings-unavailable = 已有正在处理中的请求，无法发起新的请求。
+download-recently-requested = 您可以每 { $days } 天请求一次新的录音数据。
+download-size = 大小
+download-selected = 已选中
+download-start = 开始下载
+download-request = 请求下载
+download-requests = 过去的下载请求
+download-requests-info = 我们会将您请求的录音片段整理为一个或多个 ZIP 压缩文件。下列是您过去提出的请求：
+download-request-button = 下载
+download-request-title = { $created }
+download-request-description = { $clipCount } 个录音片段，压缩文件总大小 { $size }，于 { $expires } 失效。
+download-request-archive-single = 包含下列项目的单个 ZIP 压缩文件
+download-request-archive-multiple = 包含下列项目的 { $archiveCount } 个 ZIP 分割压缩文件
+download-request-assembling-description = 正在整理文件，请稍候再试。
+download-request-refresh-button = 刷新
+download-request-modal-title = 下载链接
+download-request-modal-description = 下列是 ZIP 文件的下载链接。
+download-request-link-text = 第 { $offset } 个 ZIP 文件，共 { $total } 个
+download-request-metadata-link = 语句文本
+download-request-link-single = 您还可以将直链 URL 复制并粘贴到您最常用的下载管理器。有效期为 12 个小时，但您可以随时返回此页面生成新的。
+
 ## Landing
 
 welcome-staff = 欢迎 { $company } 员工！
@@ -871,3 +923,59 @@ demo-listen-subtitle = 准备好作出贡献了吗？
 
 demo-dashboard-card-header = 个人面板可让您了解个人和社区的最新进展。
 demo-dashboard-card-body = 每录入一个语音片段，每验证一个音频片段，您的账户面板都会更新，以反映您在每种语言中贡献的最新进展。是的，您可以为多个语言做出贡献！通过面板来跟踪您的统计数据，了解您与社区中其他人的情况，并设定每日或每周的贡献目标。
+
+## Validation criteria
+
+contribution-criteria-nav = 准则
+contribution-criteria-link = 了解贡献准则
+contribution-criteria-page-title = 贡献准则
+contribution-criteria-page-description = 了解在聆听语音片段时需注意些什么，此举有助于您录制更多片段。
+contribution-for-example = 例如
+contribution-misreadings-title = 误读
+contribution-misreadings-description = 聆听语音片段时，请仔细核对语音片段中的内容是否与屏幕上显示的文字完全一致。哪怕只有微小的不一致，都请否决它。<br />下面列出了一些非常常见的错误：
+contribution-misreadings-description-extended-list-1 = 录音内容缺少句首的<strong>“A”</strong>或<strong>“The”</strong>。
+contribution-misreadings-description-extended-list-2 = 词尾缺少 <strong>'s'</strong>。
+contribution-misreadings-description-extended-list-3 = 阅读实际并不存在的缩写，例如是“We're”而不是“We are”，反之亦然。
+contribution-misreadings-description-extended-list-4 = 由于过快地结束录音而没有录入最后一个词。
+contribution-misreadings-description-extended-list-5 = 朗读某个词语时多次尝试。
+contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
+contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
+contribution-misreadings-example-2-explanation = [应该是“dinosaurs”]
+contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
+contribution-misreadings-example-3-explanation = [录音在最后一个词结束前终止]
+contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.
+contribution-misreadings-example-4-explanation = [所录内容多于要求文本]
+contribution-misreadings-example-5-title = We are going out to get coffee.
+contribution-misreadings-example-6-title = We’re going out to get coffee.
+contribution-misreadings-example-6-explanation = [应该是“We are”]
+contribution-misreadings-example-7-title = We are going out to get a coffee.
+contribution-misreadings-example-7-explanation = [原文里没有“a”]
+contribution-misreadings-example-8-title = The bumblebee sped by.
+contribution-misreadings-example-8-explanation = [内容不符]
+contribution-varying-pronunciations-title = 不同发音
+contribution-varying-pronunciations-description = 在以朗读者发音错误、将重音放在错误的地方或明显忽略了问号为由驳回片段之前要谨慎行事。世界各地有各种各样的发音，其中一些您可能在当地社区没有听到。请为那些可能与您发音不同的人提供欣赏的空间。
+contribution-varying-pronunciations-description-extended = 另一方面，如果你认为朗读者此前从未遇到过这个词，并且单纯的对它的发音进行了错误的猜测，请将它驳回。如果你不确定，请按“跳过”按钮。
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-example-1-explanation = [“Beret”的重音无论是在第一个音节（英式英语）或是第二个（美式英语）都可以]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
+contribution-varying-pronunciations-example-2-explanation = [英语中的“Raised”的发音一直为一个音节，而不是两个]
+contribution-background-noise-title = 背景噪音
+contribution-background-noise-description = 我们希望机器学习算法能够处理多样的背景噪音。一定程度的噪音是可接受的，只要它不妨碍您辨识整段文字。可接受安静的背景音乐，过于嘈杂以至于影响您辨识任何词语的音乐则不可以。
+contribution-background-noise-description-extended = 如果录音中断或有噪音，除非仍可听清整段文字，否则请将其驳回。
+contribution-background-noise-example-1-fixed-title = <strong>[喷嚏]</strong> The giant dinosaurs of the </strong>[咳嗽]</strong> Triassic.
+contribution-background-noise-example-2-fixed-title = The giant dino <strong>[咳嗽]</strong> the Triassic.
+contribution-background-noise-example-2-explanation = [听不清部分文字]
+contribution-background-noise-example-3-fixed-title = <strong>[噼啪声]</strong> giant dinosaurs of <strong>[噼啪声]</strong> -riassic.
+contribution-background-voices-title = 背景噪音
+contribution-background-voices-description = 一定程度的噪音是可接受的，但我们不希望有太大的声音，这可能导致机器算法识别出书面文本中没有的词。如果您能听到明显的文字以外的词语，这个片段应该被驳回。这种情况常发生在电视开着，或者附近有谈话的地方。
+contribution-background-voices-description-extended = 如果录音中断，或有噼啪声，请驳回，除非仍能听到全部的文字。
+contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic. <strong>[其他声源]</strong>
+contribution-background-voices-example-1-explanation = Are you coming? <strong>[被另一人打断]</strong>
+contribution-volume-title = 音量
+contribution-volume-description = 朗读者之间的声音大小会有自然差异。仅当音量太高以至于录音中断，或（更常见的情况）音量太小以至于不参考书面文字您就听不到正在说的内容时，才驳回。
+contribution-reader-effects-title = 朗读者因素
+contribution-reader-effects-description = 大多数录音都是人们用自然的声音说话。但您可以偶尔接受非标准录音，即大喊大叫、低声说话或明显用“抑扬顿挫”的声音说话。请驳回唱出来的录音和那些使用计算机合成的声音。
+contribution-just-unsure-title = 仍有不解之处？
+contribution-just-unsure-description = 如果遇到了这些准则没有涵盖的内容，请根据您的最佳判断来投票。如果真的无法决定，请使用跳过按钮，继续下一个录音。
+see-more = <chevron></chevron>看更多
+see-less = <chevron></chevron>看更少

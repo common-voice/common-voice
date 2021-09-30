@@ -78,6 +78,8 @@ hy-AM = Armenšćina
 hyw = Zapadoarmenšćina
 ia = Interlingua
 id = Indonešćina
+ie = Interlingue
+ig = Igbo
 is = Islandšćina
 it = Italšćina
 izh = Ižoršćina
@@ -86,6 +88,7 @@ ka = Georgišćina
 kaa = Karakalpakšćina
 kab = Kabylšćina
 kbd = Kabardinšćina
+ki = Kikujušćina
 kk = Kazachšćina
 kmr = Kurmandźiska kurdišćina
 ko = Korejšćina
@@ -110,11 +113,13 @@ ms = Malajišćina
 mt = Maltašćina
 my = Burmašćina
 myv = Erzya
+nan-tw = Taiwanšćina (Minnan)
 nb-NO = Norwegski Bokmål
 ne-NP = Nepalšćina
 nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
+nyn = Nkorešćina
 oc = Okcitanšćina
 or = Odiašćina
 pa-IN = Pundžabšćina
@@ -128,6 +133,7 @@ ro = Rumunšćina
 ru = Rušćina
 rw = Kinjarwanda
 sah = Sachašćina
+sat = Santališćina (Ol Chiki)
 sc = Sardinšćina
 scn = Sicilšćina
 shi = Tašelhitšćina
@@ -148,6 +154,7 @@ tl = Tagalog
 tr = Turkowšćina
 tt = Tataršćina
 tw = Twi
+ty = Tahitišćina
 uby = Ubychišćina
 udm = Udmurtšćina
 ug = Ujguršćina
@@ -157,6 +164,7 @@ uz = Uzbekšćina
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+yi = Jiddišćina
 yo = Joruba
 yue = Kantonšćina
 zh-CN = Chinšćina (China)
@@ -190,6 +198,7 @@ logout = Wotzjewić
 ## Home Page
 
 home-title = Projekt Common Voice je iniciatiwa Mozilla, kotraž ma pomhać, mašinam wučić, kak woprawdźići ludźo rěča.
+default-tagline = Mozilla Common Voice je iniciatiwa, kotraž ma pomhać, mašinam wučić, kak woprawdźići ludźo rěča.
 home-cta = Rěčće runjewon, dźěłajće tu sobu!
 wall-of-text-start = Hłós je přirodny, hłós je čłowjeski. Tohodla smy fascinowani, wužitnu hłosowu technologiju za naše mašiny wutworić. Ale, za wutworjenje hłosowych systemow je jara wulke mnóstwo hłosowych datow trěbne.
 wall-of-text-more-mobile = Najwjace datow wužiwane wot wulkich předewzaćow za wjetšinu ludźi přistupne njeje. Myslimy, zo to inowaciju znjemóžnja. Tohodla smy projekt Common Voice startowali, projekt, kotryž kóždemu spóznawanje hłosow spřistupnja.
@@ -289,6 +298,8 @@ shortcut-record-toggle = o
 shortcut-record-toggle-label = Natočić/Zastajić
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Klip znowa natočić
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Běžne natočenje zaćisnyć
 shortcut-submit = Zapodaće
 shortcut-submit-label = Natočenja wotpósłać
 request-language-text = Waša rěč hišće na Common Voice njeje?
@@ -388,6 +399,10 @@ change-email-setings = Emejlowu adresu w nastajenjach pod přizjewjenskej identi
 faq-title = Husto stajene prašenja
 faq-what-cv-q = Što Common Voice je?
 faq-what-cv-a = Technologija hłosoweho spóznaća wašnje rewolucionuje, na kotrež z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Common Voice je dźěl iniciatiwy Mozilla, technologije hłosoweho spóznaća polěpšić a bóle přistupne činić. Common Voice je hoberska globalna datowa banka darjenych hłosow, kotraž kóždemu zmóžnja, přez hłosy wodźene nałoženja w kóždej rěči spěšnje a lochko trenować.
+faq-what-cv-a-2 =
+    Technologija hłosoweho spóznaća wašnje rewolucionuje, na kotrež z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Mozilla Common Voice je iniciatiwa, technologije hłosoweho spóznaće polěpšić a bóle přistupne činić. Common Voice je hoberska globalna datowa banka darjenych hłosow, kotraž kóždemu zmóžnja, přez hłosy wodźene nałoženja w kóždej rěči spěšnje a lochko trenować.
+    
+    Njehromadźimy jenož hłosowe přikłady w daloko rozšěrjenych rěčach, ale tež w tajkich z mjenje rěčnikami. Wozjewjenje wšelakoreje datoweje sadźby hłosow wuwiwarjow, předewzaćelow a zhomadźenstwa wukmani, tutu dźěru sami wupjelnić.
 faq-why-important-q = Čehodla je wažne?
 faq-why-important-a =
     Rěčenje je husto najpřirodniše wašnje, na kotrež jedyn z druhim komunikujemy a hłosowe technologije přinjesu tutu lěpšinu k našim ličakam a mobilnym gratam. Chcemy wuwiwarjow wukmanić, wulkotne nałoženja hłosoweho spóznaća  wuwiwać, na přikład přełožowaki, kotrež we woprawdźitym času přełožuja a přez hłós wodźene digitalne asistenty. Ale tuchwilu je najwjace hłosowych datow, kotrež su trěbne za wuwiwanje tajkich nałoženjow, su drohe a proprietarne. Nadźijamy so, zo datowa sadźba Common Voice wuwiwarjam da, štož trjebaja, zo bychu rěčensku technologiju w swojej rěči wobnowili a wutworili.
@@ -445,6 +460,9 @@ about-title = Čehodla Common Voice?
 about-subtitle = Common Voice je dźěl iniciatiwy Mozilla, kotraž ma mašiny wučić, kak woprawdźići ludźo rěča. Nimo datoweje sadźby Common Voice, wuwiwamy program za rěčenske spóznaće wotewrjeneho žórła z mjenom Deep Speech.
 about-header-description =
     Wobaj projektaj stej dźěl našich napinanjow, zo byštej mjezotu digitalneho rěčenja přemosćiłoj. Technologije hłosoweho spóznaća čłowjesku dimensiju na naše graty přinjesu, ale wuwiwarjo trjebaja nimoměry wjele hłosowych datow, zo bychu so wutworili. Tuchwilu je najwjace z tutych datow drohe a proprietarne.
+    Chcemy hłosowe daty darmotnje a zjawnje k dispoziciji stajić a zawěsćić, zo daty wšelakorosć woprawdźitych ludźi wotbłyšćuja. Hromadźe móžemy hłosowe spóznaće za kóždeho polěpšić.
+about-header-description-2 =
+    Tutón projekt je napinanje, zo bychmy mjezotu digitalneho rěčenja přemosćiłoj. Technologije hłosoweho spóznaća čłowjesku dimensiju na naše graty přinjesu, ale wuwiwarjo trjebaja nimoměry wjele hłosowych datow, zo bychu so wutworili. Tuchwilu je najwjace z tutych datow drohe a proprietarne.
     Chcemy hłosowe daty darmotnje a zjawnje k dispoziciji stajić a zawěsćić, zo daty wšelakorosć woprawdźitych ludźi wotbłyšćuja. Hromadźe móžemy hłosowe spóznaće za kóždeho polěpšić.
 how-does-it-work-title = Kak to funguje
 how-does-it-work-text = Přeměsćamy datowu sadźbu hłosow wotewrjeneho žórła do dobrowólnikow. Darće swój hłós, přepruwujće dokładnosć klipy druhich wosobow, polěpšće datowu sadźbu za kóždeho.
@@ -577,8 +595,7 @@ subscribe = Abonować
 get-started-speech = Prěnje kroki z rěčenskim spóznaćom
 other-datasets = Druhe hłosowe datowe sadźby
 feedback-q = Maće komentary?
-deepspeech-info = Datowa sadźba Common Voice wudospołnja Deep Speech, mašinu hłosoweho spóznaća wotewrjeneho žórła Mozilla, kotruž móžeće wužiwać, zo byšće nałoženja hłosoweho spóznaća wuwiwać. Čitajće naš <githubLink>přehlad Github</githubLink> abo přidružće so forumej <discourseLink>DeepSpeech Discourse</discourseLink>, zo byšće zhonił, kak móžeće započeć.
-common-voice-info-new = Maće prašenja wo Common Voice? Ideje za polěpšenja abo komentary wo wěstej rěči? Přidružće so nam na našim <discourseLink>forumje Discourse</discourseLink> a zdźělće je nam.
+community-playbook = Zapiski zhromadźenstwa
 data-other-librispeech-description = LibriSpeech je korpus nimale 1.000 hodźin w jendźelskej rěči (natočene z 16 Khz), kotrež ze słuchoknihow projekta LibriVox pochadźeja.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je z awdiopřednoškow a jich transkripcijow wutworił, kotrež su na websydle TED k dispoziciji.
@@ -877,6 +894,36 @@ why-delete-recordings =
     Móžeće nam zdźělić, čehodla chceće swoje natočenja zhašeć?
 profile-form-delete = Profil zhašeć
 
+## Profile Download
+
+download-q = Dyrbiće swoje daty sćahnyć?
+download-info = Zdźělće nam, kotre daty byšće rady sćahnył:
+download-profile-title = Profil
+download-profile-info = Wobsahuje e-mejlowu adresu, wužiwarske mjeno a demografiske informacije
+download-profile-size = Někotre bajty
+download-recordings-title = Natočenja
+download-recordings-info = Zapřijima mp3 a přisłušne sady
+download-recordings-size = Zwjetša megabajty
+download-recordings-unavailable = Nimaće přistup k swojim natočenjam, mjeztym zo druhi hižo ma přistup.
+download-size = Wulkosć
+download-selected = Wubrane
+download-start = Sćehnjenje započeć
+download-request = Sćehnjenje naprašować
+download-requests = Zańdźene sćehnjenske naprašowanja
+download-requests-info = Hdyž swoje natočenja požadaće, kompilujemy je do jedneje ZIP-dataje abo do wjacorych ZIP-datajow. Tu su waše dotalne požadanja:
+download-request-button = Sćahnyć
+download-request-title = { $created }
+download-request-description = Ličba hłosowych klipow: { $clipCount }, cyłkowna  archiwowa wulkosć { $size }. Njepłaćiwe wot { $expires }.
+download-request-archive-single = Jednotliwa ZIP-dataja z
+download-request-archive-multiple = Ličba ZIP-datajow, do kotrychž je so rozdźěliło, z
+download-request-assembling-description = Waše dataje so zestajeja. Prošu spytajće pozdźišo hišće raz.
+download-request-refresh-button = Aktualizować
+download-request-modal-title = Sćehnjenske wotkazy
+download-request-modal-description = Tu su wotkazy za sćehnjenje wašich ZIP-datajow.
+download-request-link-text = Zip #{ $offset } z { $total }
+download-request-metadata-link = Tekst sady
+download-request-link-single = Móžeće tež direktne URL do swojeho najlubšeho zrjadowaka sćehnjenjow kopěrować. Spadnu za 12 hodźin, ale móžeće so k tutej stronje wróćić, zo byšće kóždy čas nowe generował.
+
 ## Landing
 
 welcome-staff = Witajće, sobudźěłaćerjo { $company }!
@@ -920,3 +967,48 @@ demo-listen-subtitle = Chceće sobu činić?
 
 demo-dashboard-card-header = Wosobinske přehlady was wo indiwiduelnym postupje a wo postupje zhromadźenstwa na běžnym dźerža.
 demo-dashboard-card-body = Za kóždy darjeny hłosowy klip a kóždy přepruwowany awdioklip so waše kontowe přehlady aktualizuja, zo by so waš najnowši postup w kóždej rěči, ke kotrejž přinošujeće, wotbłyšćował. Haj, móžeće k wjace hač jednej rěči přinošować!<br/><br/> Wužiwajće přehlady, zo byšće swoje statistiki slědował, zo byšće widźał, kak porno druhim ludźom w zhromadźenstwje wotrězujeće a zo byšće so wšědne abo tydźenske přinošowanske cile stajił.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriterije
+contribution-criteria-link = Kriterije sobuskutkowanja rozumić
+contribution-criteria-page-title = Kriterije sobuskutkowanja
+contribution-criteria-page-description = Zhońće, na čož dwy dyrbjał dźiwać, hdyž na hłosowe klipy słuchaće, a pomhajće tež swoje hłosowe natočenja wobohaćić!
+contribution-for-example = na přikład
+contribution-misreadings-title = Čitanske zmylki
+contribution-misreadings-description = Přepruwujće při słuchanju jara dokładnje, hač natočenje eksaktnje napisanemu tekstej wotpowěduje; wotpokazajće jo, samo hdyž jenož snadne zmylki su. <br />Jara huste zmylki su:
+contribution-misreadings-description-extended-list-1 = Falowacy <strong>'A'</strong> abo <strong>'The'</strong> na spočatku nahraća.
+contribution-misreadings-description-extended-list-2 = Falowacy <strong>'s'</strong> na kóncu słowa.
+contribution-misreadings-description-extended-list-3 = Kontrakcije při čitanju, na přikład „žno“ město „hižo“ abo nawopak.
+contribution-misreadings-description-extended-list-4 = Falowacy kónc poslednjeho słowa, dokelž natočenje je so přespěšnišo wotrězało.
+contribution-misreadings-description-extended-list-5 = Wjacore pospyty słowo čitać.
+contribution-misreadings-example-1-title = Hoberske dinosawriery triasa.
+contribution-misreadings-example-2-title = Hoberski dinosawrier triasa.
+contribution-misreadings-example-2-explanation = [Dyrbjało ‚dinosawriery‘ rěkać]
+contribution-misreadings-example-3-title = Hoberske dinosawriery trias-.
+contribution-misreadings-example-3-explanation = [Natočenje před kóncom poslednjeho słowa wotrězane]
+contribution-misreadings-example-4-title = Hoberske dinosawriery triasa. Haj.
+contribution-misreadings-example-4-explanation = [Je so wjace natočiło, hač trěbny tekst]
+contribution-misreadings-example-5-title = Dźemy po kofej.
+contribution-misreadings-example-6-title = Dźemy po kofej.
+contribution-misreadings-example-6-explanation = [Dyrbjało „Dźemy“ rěkać]
+contribution-misreadings-example-7-title = Dźemy po jedyn kofej.
+contribution-misreadings-example-7-explanation = [‘a’ w originalnym teksće njeje]
+contribution-misreadings-example-8-title = Čmjeła nimo lećeše.
+contribution-misreadings-example-8-explanation = [Wobsah njewotpowěduje]
+contribution-varying-pronunciations-title = Rozdźělne wurjekowanja
+contribution-background-noise-title = Pozadkowe šumy
+contribution-background-noise-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> Hoberske dinosawriery <strong>[cough]</strong> triasa.
+contribution-background-noise-example-2-fixed-title = Hoberski dino <strong>[cough]</strong> triasa.
+contribution-background-noise-example-2-explanation = [Dźěl teksta słyšeć njeje]
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> hoberske dinosawriery <strong>[crackle]</strong> -riasa.
+contribution-background-voices-title = Pozadkowe hłosy
+contribution-background-voices-description-extended = Jeli natočenje přetorhnje abo knyskota, wotpokazajće jo, chibazo cyłkowny tekst je hišće słyšeć.
+contribution-background-voices-example-1-title = Hoberske dinosawriery triasa. <strong>[čita so wot jednoho hłosa]</strong>
+contribution-background-voices-example-1-explanation = Přińdźeš? <strong>[hłós druheho]</strong>
+contribution-volume-title = Sylnosć zwuka
+contribution-reader-effects-title = Efekty čitarja
+contribution-just-unsure-title = Jenož njewěsty?
+see-more = <chevron></chevron>Wjace pokazać
+see-less = <chevron></chevron>Mjenje pokazać

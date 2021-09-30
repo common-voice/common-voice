@@ -323,7 +323,7 @@ why-demographic = De ce contează?
 accept-privacy = Sunt de acord să gestionați aceste informații conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla
 accept-privacy-title = Politică de confidențialitate
 login-identity = Identitate de autentificare
-login-signup = Autentificare / Înregistrare
+login-signup = Autentifică-te / Înscrie-te
 edit = Editează
 email-subscriptions = Abonamente e-mail
 download-profile = Descarcă-mi datele
@@ -391,7 +391,7 @@ faq-where-src-from-2-a =
     Ne poți vedea propozițiile-sursă în acest <githubLink>dosar de pe GitHub</githubLink>.
 faq-why-not-ask-read-q = De ce nu cereți oamenilor să citească din cărți sau articole Wikipedia în diferite limbi?
 faq-why-not-ask-read-a = Pentru a face setul de date Common Voice cât mai util posibil, am decis să permitem numai texte-sursă disponibile sub o licență Creative Commons (CC0). Folosirea standardului CC0 înseamnă că este mai dificil de găsit și colectat texte-sursă, dar permite oricui să folosească datele vocale rezultate fără restricții de utilizare sau autorizare din partea Mozilla. În final, vrem să facem setul de date multilingvistic cât mai util posibil pentru oricine, inclusiv pentru cercetători, universități, startup-uri, autorități guvernamentale, organizații cu scopuri sociale și ca hobby.
-faq-why-account-q = De ce trebuie să-mi creez un cont?
+faq-why-account-q = De ce trebuie să mă înscriu pentru un cont?
 faq-is-account-public-q = Informațiile contului meu sunt publice?
 faq-how-privacy-q = Cum asigurați anonimatul și intimitatea persoanelor care și-au donat vocea?
 faq-how-privacy-a = Toate datele cu caracter personal care permit identificarea sunt eliminate din toate secvențele vocale. Când un colaborator furnizează date demografice prin intermediul profilului, aceste informații sunt „dezidentificate” din secvențele vocale înainte de împachetarea pentru descărcare în setul de date și nu sunt niciodată făcute publice pe pagina de profil.
@@ -496,7 +496,7 @@ review-aborted = Încărcare abandonată. Vrei să-ți ștergi înregistrările?
 review-submit-title = Revezi și trimite
 review-submit-msg = Îți mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum revezi secvențele vocale de mai jos și trimite-le.
 review-recording = Revezi
-review-rerecord = Înregistrează din nou
+review-rerecord = Reînregistrează
 review-cancel = Anulează trimiterea
 review-keep-recordings = Păstrează înregistrările
 review-delete-recordings = Șterge înregistrările mele
@@ -660,7 +660,7 @@ speak-empty-state-cta = Contribuie cu propoziții
 record-button-label = Înregistrează-ți vocea
 share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
 keep-track-profile = Urmărește-ți progresul cu ajutorul unui profil
-login-to-get-started = Intră în cont sau creează-ți unul pentru a începe
+login-to-get-started = Autentifică-te sau înscrie-te pentru a începe
 target-segment-first-card = Contribui la primul nostru segment-țintă
 target-segment-first-banner = Ajută-ne să creăm primul segment-țintă Common Voice în { $locale }
 target-segment-add-voice = Adaugă-ți vocea
@@ -829,7 +829,7 @@ profile-form-delete = Șterge profilul
 
 welcome-staff = Bun venit, angajaților { $company }!
 help-contribute = Poți ajuta la clădirea unui set de date divers, cu cursă deschisă, creând un profil Common Voice și contribuind cu vocea ta.
-login-company = Conectare/Înregistrare cu adresa de e-mail { $company }
+login-company = Autentifică-te / Înscrie-te cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
 read-more-about = Află mai multe pe pagina Despre
 
@@ -841,6 +841,9 @@ read-more-about = Află mai multe pe pagina Despre
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Introdu adresa de e-mail pentru a trimite un link de înscriere
+demo-account-sign-up = Trimite linkul de înscriere
 
 ## Demo Contribute
 

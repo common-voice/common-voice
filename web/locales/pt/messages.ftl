@@ -78,6 +78,7 @@ hy-AM = Armênio
 hyw = Armênio ocidental
 ia = Interlíngua
 id = Indonésio
+ie = Interlíngua
 is = Islandês
 it = Italiano
 izh = Ijoriano
@@ -115,6 +116,7 @@ ne-NP = Nepalês
 nia = Nias
 nl = Holandês
 nn-NO = Novo norueguês
+nyn = Ancolé
 oc = Occitânico
 or = Odia
 pa-IN = Punjabi
@@ -128,6 +130,7 @@ ro = Romeno
 ru = Russo
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
 shi = Tachelhit
@@ -190,6 +193,7 @@ logout = Sair
 ## Home Page
 
 home-title = O projeto Common Voice é uma iniciativa da Mozilla para ajudar a ensinar às máquinas como pessoas reais falam.
+default-tagline = O Mozilla Common Voice é uma iniciativa para ajudar a ensinar às máquinas como pessoas reais falam.
 home-cta = Doe sua voz, contribua aqui!
 wall-of-text-start = A voz é natural, a voz é humana. É por isso que estamos fascinados com a criação de uma tecnologia de voz utilizável para nossas máquinas. Mas para criar sistemas de voz, é necessária uma quantidade extremamente grande de dados de voz.
 wall-of-text-more-mobile = A maior parte dos dados utilizados por grandes empresas não estão disponíveis para a maioria das pessoas. Nós achamos que isso sufoca a inovação. Então lançamos o Projeto Common Voice, para ajudar a tornar o reconhecimento de voz aberto para todos.
@@ -283,6 +287,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Gravar/Parar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regravar clipe
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Descartar gravação em andamento
 shortcut-submit = Return
 shortcut-submit-label = Enviar clipes
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
@@ -383,6 +389,10 @@ faq-what-cv-a =
     A tecnologia de reconhecimento de voz está revolucionando o modo como interagimos com máquinas, mas os sistemas disponíveis atualmente são caros e proprietários. O Common Voice faz parte da iniciativa da Mozilla para tornar as tecnologias de reconhecimento de voz melhores e mais acessíveis a todos. O Common Voice é um banco de dados massivo global de vozes doadas que permite a qualquer um treinar aplicativos habilitados para voz com facilidade e rapidez, em potencialmente qualquer idioma.
     
     Nós estamos coletando amostras de voz não apenas de idiomas falados amplamente, mas também daqueles com menor população de falantes. Publicar um conjunto de dados variado de vozes potencializará desenvolvedores, empreendedores e comunidades para abordar esta lacuna eles mesmos. Além do conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
+faq-what-cv-a-2 =
+    A tecnologia de reconhecimento de voz está revolucionando o modo como interagimos com máquinas, mas os sistemas disponíveis atualmente são caros e proprietários. O Mozilla Common Voice é uma iniciativa para tornar as tecnologias de reconhecimento de voz melhores e mais acessíveis a todos. O Common Voice é um banco de dados massivo global de vozes doadas que permite a qualquer um treinar aplicativos habilitados para voz com facilidade e rapidez, em potencialmente qualquer idioma.
+    
+    Nós estamos coletando amostras de voz não apenas de idiomas falados amplamente, mas também daqueles com menor população de falantes. Publicar um conjunto de dados variado de vozes potencializa desenvolvedores, empreendedores e comunidades para abordar esta lacuna eles mesmos.
 faq-why-important-q = Por que é importante?
 faq-why-important-a =
     A fala é geralmente a maneira mais natural de nos comunicar e as tecnologias de voz estão trazendo essa conveniência para nossos computadores e dispositivos móveis. Queremos capacitar os desenvolvedores a criar aplicativos de reconhecimento de voz incríveis, como tradutores em tempo real e assistentes digitais habilitados para voz. Mas, no momento, a maioria dos dados de voz necessários para criar esses tipos de aplicativos é cara e proprietária. Esperamos que o conjunto de dados do Common Voice forneça aos desenvolvedores o que eles precisam para inovar e disponibilizar tecnologia de voz em seus próprios idiomas.
@@ -440,6 +450,9 @@ about-title = Por que o Common Voice?
 about-subtitle = O Common Voice faz parte da iniciativa da Mozilla de ajudar a ensinar às máquinas como pessoas de verdade falam. Em paralelo ao conjunto de dados do Common Voice, estamos construindo também um mecanismo de reconhecimento de voz de código aberto chamado Deep Speech.
 about-header-description =
     Ambos os projetos fazem parte de nossos esforços de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
+    Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
+about-header-description-2 =
+    Este projeto é um esforço de conciliar a desunião da fala digital. Tecnologias de reconhecimento de voz dão uma dimensão humana a nossos dispositivos, mas os desenvolvedores precisam de uma enorme quantidade de dados de voz para construí-las. Atualmente, a maioria dos dados é cara e proprietária.
     Queremos criar dados de voz disponíveis publicamente e gratuitamente, além de assegurar que os dados representem a diversidade de pessoas reais. Juntos podemos tornar o reconhecimento de voz melhor para todos.
 how-does-it-work-title = Como funciona
 how-does-it-work-text = Estamos colhendo um conjunto de dados de voz de código aberto através de colaboração pública. Doe sua voz, valide a correção dos clipes de outras pessoas, torne o conjunto de dados melhor para todos.
@@ -574,8 +587,11 @@ subscribe = Assinar
 get-started-speech = Introdução ao reconhecimento de voz
 other-datasets = Outros conjuntos de dados de voz
 feedback-q = Quer fazer comentários?
-deepspeech-info = O conjunto de dados do Common Voice complementa o mecanismo de reconhecimento de voz de código aberto da Mozilla, Deep Speech, que você pode usar para construir aplicações de reconhecimento de voz. Leia nossa <githubLink>introdução no Github</githubLink> ou participe do <discourseLink>DeepSpeech Discourse</discourseLink> para saber como começar.
-common-voice-info-new = Tem perguntas sobre o Common Voice? Ideias para aprimorar, ou comentários sobre um idioma específico? Junte-se a nós em nosso <discourseLink>fórum do Discourse</discourseLink> e nos conte.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ é um <docsLink>toolkit de código aberto</docsLink> para pesquisadores que desenvolvem modelos de inteligência artificial de conversação de última geração.
+resource-deepspeech-info = O mecanismo de reconhecimento de voz de código aberto da Mozilla, Deep Speech, pode ser usado para construir aplicações de reconhecimento de voz. Leia nossa <githubLink>introdução no Github</githubLink> ou participe do <discourseLink>DeepSpeech Discourse</discourseLink> para saber como começar.
+resource-coqui-info = O <coquiLink>Coqui</coquiLink> é dedicado à tecnologia aberta de voz. Seus projetos incluem mecanismos STT e TTS baseados em aprendizagem profunda.
+community-playbook = Orientações à comunidade
+resource-playbook-info = <playbookLink>Encontre orientações úteis</playbookLink> em toda a jornada no Common Voice, desde a localização até o uso do conjunto de dados, além de como se conectar com nossa comunidade.
 data-other-librispeech-description = LibriSpeech é um corpus de aproximadamente 1000 horas de leitura em inglês em 16Khz, derivado de audiolivros do projeto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM Corpus foi criado a partir de áudios de palestras e suas transcrições, que estão disponíveis no site TED.
@@ -846,6 +862,36 @@ why-delete-recordings =
     Poderia nos dizer por que gostaria que suas gravações sejam apagadas?
 profile-form-delete = Excluir perfil
 
+## Profile Download
+
+download-q = Precisa baixar seus dados?
+download-info = Indique o que você quer baixar:
+download-profile-title = Perfil
+download-profile-info = Inclui email, nome de usuário e informações demográficas
+download-profile-size = Alguns bytes
+download-recordings-title = Gravações
+download-recordings-info = Inclui arquivos mp3 e frases relacionadas
+download-recordings-size = Normalmente megabytes
+download-recordings-unavailable = Você não pode solicitar suas gravações enquanto outra solicitação já estiver em andamento.
+download-size = Tamanho
+download-selected = Selecionado
+download-start = Iniciar download
+download-request = Solicitar download
+download-requests = Pedidos anteriores de download
+download-requests-info = Quando você solicita suas gravações, nós as reunimos em um ou vários arquivos ZIP. Veja seus pedidos anteriores:
+download-request-button = Baixar
+download-request-title = { $created }
+download-request-description = { $clipCount } clipes de voz. O tamanho total do compactado é { $size }. Expira em { $expires }.
+download-request-archive-single = Arquivo ZIP único contendo
+download-request-archive-multiple = Separar em { $archiveCount } arquivos ZIP contendo
+download-request-assembling-description = Seus arquivos estão sendo preparados. Verifique novamente mais tarde.
+download-request-refresh-button = Atualizar
+download-request-modal-title = Links de download
+download-request-modal-description = Aqui estão os links para baixar seus arquivos ZIP.
+download-request-link-text = Zip #{ $offset } de { $total }
+download-request-metadata-link = Texto da frase
+download-request-link-single = Você também pode copiar e colar as URLs diretas em seu gerenciador preferido de download. Elas expiram em 12 horas, mas você pode voltar a esta página para gerar novas quando quiser.
+
 ## Landing
 
 welcome-staff = Boas-vindas, equipe do { $company }!
@@ -889,3 +935,59 @@ demo-listen-subtitle = Pronto para contribuir?
 
 demo-dashboard-card-header = Painéis pessoais mantêm você atualizado com o progresso individual e da comunidade.
 demo-dashboard-card-body = Para cada clipe de voz doado e cada clipe de áudio validado, os painéis da sua conta são atualizados para refletir seu progresso recente em cada idioma em que você contribui. Sim, você pode contribuir em mais de um!<br/><br/> Use painéis para acompanhar suas estatísticas, veja como você está se saindo ao lado de outras pessoas na comunidade e defina metas de contribuição diárias ou semanais.
+
+## Validation criteria
+
+contribution-criteria-nav = Critério
+contribution-criteria-link = Entenda os critérios de contribuição
+contribution-criteria-page-title = Critérios de contribuição
+contribution-criteria-page-description = Saiba o que procurar ao ouvir clipes de voz e ajude a tornar suas gravações de voz mais ricas também!
+contribution-for-example = por exemplo
+contribution-misreadings-title = Erros de leitura
+contribution-misreadings-description = Ao ouvir, verifique com muito cuidado se o que foi gravado é exatamente o que estava escrito; rejeite se houver o menor erro. <br />Erros muito comuns incluem:
+contribution-misreadings-description-extended-list-1 = Falta de <strong>'Um'</strong> ou <strong>'O'</strong> no início da gravação.
+contribution-misreadings-description-extended-list-2 = Falta de <strong>'s'</strong> no final de uma palavra.
+contribution-misreadings-description-extended-list-3 = Leitura de contrações que não estão de fato no texto, como "d'água" em vez de "de água" ou vice-versa.
+contribution-misreadings-description-extended-list-4 = Falta o final da última palavra devido à gravação ter sido encerrada rápido demais.
+contribution-misreadings-description-extended-list-5 = Várias tentativas de ler uma palavra.
+contribution-misreadings-example-1-title = Os dinossauros gigantes do Triássico.
+contribution-misreadings-example-2-title = O dinossauro gigante do Triássico.
+contribution-misreadings-example-2-explanation = [Deve ser ‘dinossauros’]
+contribution-misreadings-example-3-title = Os dinossauros gigantes do Triássi-.
+contribution-misreadings-example-3-explanation = [Gravação interrompida antes do final da última palavra]
+contribution-misreadings-example-4-title = Os dinossauros gigantes do Triássico. Sim.
+contribution-misreadings-example-4-explanation = [Foi gravado mais texto do que o necessário]
+contribution-misreadings-example-5-title = Vamos sair para tomar café.
+contribution-misreadings-example-6-title = Vou beber um copo d'água.
+contribution-misreadings-example-6-explanation = [Deveria ser “de água”]
+contribution-misreadings-example-7-title = Vamos sair para tomar um café.
+contribution-misreadings-example-7-explanation = [Sem ‘um’ no texto original]
+contribution-misreadings-example-8-title = A abelha passou rápido.
+contribution-misreadings-example-8-explanation = [Conteúdo não corresponde]
+contribution-varying-pronunciations-title = Pronúncias diferentes
+contribution-varying-pronunciations-description = Seja cauteloso antes de rejeitar um clipe se considerar que o leitor pronunciou uma palavra incorretamente, colocou ênfase no lugar errado ou aparentemente ignorou um ponto de interrogação. Há uma grande variedade de pronúncias em uso no mundo todo, algumas das quais você pode não ter ouvido falar em sua comunidade local. Dê uma margem de apreço àqueles que podem falar de forma diferente de você.
+contribution-varying-pronunciations-description-extended = Por outro lado, se julgar que o leitor provavelmente nunca se deparou com a palavra antes e está simplesmente dando um palpite incorreto na pronúncia, rejeite. Se não tiver certeza, use o botão de pular.
+contribution-varying-pronunciations-example-1-title = O menino usava um chapéu.
+contribution-varying-pronunciations-example-1-explanation = [Vogais átonas costumam ser pronunciadas no Brasil (menino, chapéu), mas não em Portugal (m'nino, ch'péu)]
+contribution-varying-pronunciations-example-2-title = Su-a mão levantou.
+contribution-varying-pronunciations-example-2-explanation = [‘Sua’ em português é sempre pronunciada como uma sílaba, não duas]
+contribution-background-noise-title = Ruído de fundo
+contribution-background-noise-description = Queremos que os algoritmos de aprendizado de máquina consigam lidar com uma variedade de ruídos de fundo. Mesmo ruídos relativamente altos podem ser aceitos, desde que não impeçam que você ouça o texto todo. Música de fundo tranquila está bem. Música alta o suficiente para atrapalhar a audição de pelo menos uma palavra, não.
+contribution-background-noise-description-extended = Se a gravação falhar ou apresentar estalos, rejeite, a menos que o texto ainda possa ser ouvido na íntegra.
+contribution-background-noise-example-1-fixed-title = <strong>[Espirro]</strong> Os dinossauros gigantes do <strong>[tosse]</strong> Triássico.
+contribution-background-noise-example-2-fixed-title = O dinossauro gigante <strong>[tosse]</strong> do Triássico.
+contribution-background-noise-example-2-explanation = [Parte do texto não pode ser ouvido]
+contribution-background-noise-example-3-fixed-title = <strong>[Estalo]</strong> dinossauros gigantes do <strong>[estalo]</strong> -riássico.
+contribution-background-voices-title = Vozes de fundo
+contribution-background-voices-description = Um burburinho de fundo está bem, mas não queremos vozes adicionais que podem fazer com que um algoritmo de máquina identifique palavras que não estão no texto escrito. Se você conseguir ouvir palavras distintas das do texto, o clipe deve ser rejeitado. Normalmente, isso acontece quando a TV foi deixada ligada ou onde há uma conversa acontecendo por perto.
+contribution-background-voices-description-extended = Se a gravação falhar ou apresentar estalos, rejeite, a menos que o texto ainda possa ser ouvido na íntegra.
+contribution-background-voices-example-1-title = Os dinossauros gigantes do Triássico. <strong>[lido por uma voz]</strong>
+contribution-background-voices-example-1-explanation = Você está vindo? <strong>[chamado por outra]</strong>
+contribution-volume-title = Volume
+contribution-volume-description = Há natural variação de volume entre os leitores. Rejeite somente se o volume estiver tão alto que a gravação falhe, ou (mais comum) se estiver tão baixo que você não possa ouvir o que está sendo dito sem referência ao texto escrito.
+contribution-reader-effects-title = Efeitos do leitor
+contribution-reader-effects-description = A maioria das gravações é de pessoas falando em sua voz natural. Você pode aceitar uma gravação ocasional fora do padrão que seja gritada, sussurrada ou obviamente feita com uma voz ‘dramática’. Rejeite gravações cantadas e aquelas que usam voz sintetizada por computador.
+contribution-just-unsure-title = Não tem certeza?
+contribution-just-unsure-description = Caso se depare com algo que essas diretrizes não abrangem, vote de acordo com seu bom senso. Se realmente não conseguir decidir, use o botão de pular e siga para a próxima gravação.
+see-more = <chevron></chevron>Ver mais
+see-less = <chevron></chevron>Ver menos

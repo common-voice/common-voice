@@ -78,6 +78,8 @@ hy-AM = 亞美尼亞語
 hyw = 西亞美尼亞語
 ia = 國際語
 id = 印尼語
+ie = 國際語（Interlingue）
+ig = 伊格柏語
 is = 冰島語
 it = 義大利語
 izh = 伊喬里亞語
@@ -86,6 +88,7 @@ ka = 喬治亞語
 kaa = 卡拉卡爾帕克語
 kab = 卡拜爾語
 kbd = 卡巴達語
+ki = 吉庫尤語
 kk = 哈薩克語
 kmr = 庫曼吉庫德語
 ko = 韓語
@@ -110,11 +113,13 @@ ms = 馬來語
 mt = 馬爾他語
 my = 緬甸語
 myv = 厄茲亞語
+nan-tw = 台語
 nb-NO = 挪威語（Bokmål）
 ne-NP = 尼泊爾語
 nia = 尼亞斯語
 nl = 荷蘭語
 nn-NO = 挪威語（Nynorsk）
+nyn = 尼安科萊語
 oc = 奧西坦語
 or = 奧里亞語
 pa-IN = 旁遮普語
@@ -128,6 +133,7 @@ ro = 羅馬尼亞語
 ru = 俄語
 rw = 盧安達語
 sah = 薩哈語
+sat = Santali（Ol Chiki 字）
 sc = 薩丁尼亞語
 scn = 西西里語
 shi = 施盧赫語
@@ -148,6 +154,7 @@ tl = 塔加祿語（菲律賓）
 tr = 土耳其語
 tt = 韃靼語
 tw = 特威語 (西非)
+ty = 大溪地語
 uby = 尤比克語
 udm = 烏德莫特語
 ug = 維吾爾語
@@ -157,6 +164,7 @@ uz = 烏茲別克語
 vec = 威尼斯語
 vi = 越南語
 vot = 沃特語
+yi = 意第緒語
 yo = 約魯巴語 (奈及利亞)
 yue = 粵語
 zh-CN = 華語（中國）
@@ -190,6 +198,7 @@ logout = 登出
 ## Home Page
 
 home-title = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。
+default-tagline = Mozilla Common Voice 是一套想讓機器學會真人說話方式的專案。
 home-cta = 有話大聲說，在此獻聲！
 wall-of-text-start = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-more-mobile = 大部分由大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
@@ -282,6 +291,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = 錄音/停止
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = 重新錄製片段
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = 捨棄目前錄音
 shortcut-submit = 返回
 shortcut-submit-label = 送出片段
 request-language-text = 沒在 Common Voice 看到您的語言嗎？
@@ -381,6 +392,10 @@ faq-what-cv-a =
     語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Common Voice 是 Mozilla 打算讓語音識別技術變得更好、讓任何人都更能使用的計畫的一部分。Common Voice 也是一套收集了世界各地人們所捐贈的語音的資料庫，希望讓任何人都可以快速而簡單地訓練出可識別任何語音功能的應用程式。
     
     我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套廣泛的語音資料集，可幫助開發者、創業家，以及各個社群來縮小彼此之間的鴻溝。除了 Common Voice 的資料集外，我們也在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
+faq-what-cv-a-2 =
+    語音識別技術正在改變我們與機器互動的方式，但目前可用的系統都相當昂貴，並且是專有技術。Mozilla Common Voice 是打算讓語音識別技術變得更好、讓任何人都更能使用的計畫。Common Voice 也是一套收集了世界各地人們所捐贈的語音的資料庫，希望讓任何人都可以快速而簡單地訓練出可識別任何語音功能的應用程式。
+    
+    我們不只想收集被廣泛使用的語言的語音樣本，也想要收集較少人使用的語言的語音樣本。發布一套廣泛的語音資料集，可幫助開發者、創業家，以及各個社群來縮小彼此之間的鴻溝。
 faq-why-important-q = 這有什麼重要的？
 faq-why-important-a =
     說話通常是我們與其他人最自然的溝通方式，語音技術也讓電腦和行動裝置更方便使用。我們希望讓開發者們建置令人驚嘆的語音識別應用程式，例如即時翻譯機、有語音功能的數位助理等等。但現在用來建置這些軟體所需的語音資料，大部分都是昂貴且專有的，因而我們希望能提供 Common Voice 資料集給開發者進行創新，也讓他們能使用自己的語言來打造語音技術。
@@ -438,6 +453,9 @@ about-title = 為什麼會有 Common Voice？
 about-subtitle = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。除了 Common Voice 資料集外，我們也正在打造一套稱為 Deep Speech 的開放原始碼語音識別引擎。
 about-header-description =
     這兩個專案都是我們努力弭平數位語音落差的一部份。語音識別技術可讓我們的裝置帶來人性，但開發者需要極為龐大數量的語音資料，才能打造出這樣的系統。目前大部分語音資料都相當昂貴，也是專有的資料。
+    我們希望讓語音資料能夠公開自由使用，並確保資料反映出人們實際的多樣性。讓我們一起為所有人把語音識別技術變得更好吧！
+about-header-description-2 =
+    此專案是我們為了努力弭平數位語音落差所做的努力。語音識別技術可讓我們的裝置帶來人性，但開發者需要極為龐大數量的語音資料，才能打造出這樣的系統。目前大部分語音資料都相當昂貴，也是專有的資料。
     我們希望讓語音資料能夠公開自由使用，並確保資料反映出人們實際的多樣性。讓我們一起為所有人把語音識別技術變得更好吧！
 how-does-it-work-title = 原理是什麼？
 how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是否正確，讓資料集能夠變得更好。
@@ -570,8 +588,11 @@ subscribe = 訂閱
 get-started-speech = 語音辨識新手入門
 other-datasets = 其他語音資料集
 feedback-q = 有意見要回饋嗎？
-deepspeech-info = Common Voice 資料集可與 Mozilla 的開放原始碼語音識別引擎 Deep Speech 互補，讓您用來打造語音識別應用程式。您可閱讀我們的 <githubLink>Github 概觀</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入門。
-common-voice-info-new = 有關於 Common Voice 的問題嗎？有針對某種語言的新點子或能改善的意見回饋嗎？歡迎加入 <discourseLink>Discourse 討論區</discourseLink>留言給我們知道。
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套讓研究者開發最先進的 AI 對話模型的<docsLink>開放原始碼工具組</docsLink>。
+resource-deepspeech-info = Mozilla 的開放原始碼語音識別引擎 Deep Speech，可用來打造語音識別應用程式。您可閱讀我們的 <githubLink>Github 概觀</githubLink>或加入 <discourseLink>DeepSpeech Discourse</discourseLink> 了解如何入門。
+resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力於開放語音技術。他們的專案包含使用深度學習技術的 STT 與 TTS 引擎。
+community-playbook = 社群企劃書
+resource-playbook-info = <playbookLink>尋找對整個 Common Voice 貢獻過程的有用指南</playbookLink>，不論是從在地化、資料集使用方式，以及如何與我們的社群聯繫的相關資訊。
 data-other-librispeech-description = LibriSpeech 是一套取自 LibriVox 計畫，約一千小時長度的 16Khz 英語有聲書的語料庫。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
@@ -833,6 +854,37 @@ why-delete-recordings =
     能讓我們知道您為什麼想要刪除錄音片段嗎？
 profile-form-delete = 刪除帳號
 
+## Profile Download
+
+download-q = 需要下載您的資料嗎？
+download-info = 告訴我們您要下載哪些資料：
+download-profile-title = 個人資料
+download-profile-info = 包括電子郵件地址、使用者名稱和人口統計資訊
+download-profile-size = 幾位元組而已
+download-recordings-title = 錄音片段
+download-recordings-info = 包含錄音 MP3 檔與相關聯的語句
+download-recordings-size = 通常幾 MB
+download-recordings-unavailable = 若已經有正在處理中的請求，不能再提出新的請求。
+download-recently-requested = 您可以每 { $days } 天要求一次新的錄音資料打包。
+download-size = 大小
+download-selected = 已選擇
+download-start = 開始下載
+download-request = 要求下載
+download-requests = 過去的下載請求
+download-requests-info = 我們會將您要求的錄音檔整理編纂成一個或多個 ZIP 壓縮檔。下列是您過去提出的要求：
+download-request-button = 下載
+download-request-title = { $created }
+download-request-description = { $clipCount } 個錄音片段，壓縮檔總大小 { $size }，於 { $expires } 失效。
+download-request-archive-single = 包含下列項目的單一 ZIP 壓縮檔
+download-request-archive-multiple = 包含下列項目的 { $archiveCount } 個 ZIP 分割壓縮檔
+download-request-assembling-description = 正在整理您的資料，請稍後再試。
+download-request-refresh-button = 重新整理
+download-request-modal-title = 下載鏈結
+download-request-modal-description = 下列是您的 ZIP 檔的下載鏈結。
+download-request-link-text = 第 { $offset } 個 ZIP 檔，共 { $total } 個
+download-request-metadata-link = 語句文字
+download-request-link-single = 您也可以將網址直接複製貼到想用的下載管理員。這些鏈結將於 12 小時候失效，但可隨時回到此頁面重新產生新鏈結。
+
 ## Landing
 
 welcome-staff = 歡迎 { $company } 的員工！
@@ -876,3 +928,59 @@ demo-listen-subtitle = 準備好參與貢獻了嗎？
 
 demo-dashboard-card-header = 可讓您掌控個人與社群進度的個人儀錶板。
 demo-dashboard-card-body = 每當您錄下或驗證了一段語音，就會更新您的帳號儀錶板，來反映您在參與貢獻的各種語言當中的最新進度。沒錯，您可以參與不只一種語言！<br/><br/>您可以使用儀錶板來追蹤目前狀態、看看自己跟社群當中的其他人目前差距多少，並且設定每日或每週貢獻目標。
+
+## Validation criteria
+
+contribution-criteria-nav = 準則
+contribution-criteria-link = 了解貢獻準則
+contribution-criteria-page-title = 貢獻準則
+contribution-criteria-page-description = 了解在聆聽語音片段時要注意什麼，並幫助您能錄下更多聲音！
+contribution-for-example = 舉例來說
+contribution-misreadings-title = 誤讀
+contribution-misreadings-description = 聆聽錄音時，仔細確認錄下的語音內容與畫面上顯示的文字完全相符，有任何一點錯誤就退回更正。<br />以下是常見的錯誤類型：
+contribution-misreadings-description-extended-list-1 = 錄音內容缺少了句首的<strong>「A」</strong>或<strong>「The」</strong>。
+contribution-misreadings-description-extended-list-2 = 缺少字尾的複數<strong>「s」</strong>。
+contribution-misreadings-description-extended-list-3 = 閱讀時略過或多了某些字。例如「錄音的注意事項」一句中，只唸出「錄音注意事項」（未唸出「的」字），或唸成「錄音時的注意事項」（多出「時」字）。
+contribution-misreadings-description-extended-list-4 = 因為太快按下停止錄音而導致句尾被截斷。
+contribution-misreadings-description-extended-list-5 = 錄音中多次嘗試念出某些文字。
+contribution-misreadings-example-1-title = 三疊紀的大恐龍。
+contribution-misreadings-example-2-title = 三疊紀的恐龍。
+contribution-misreadings-example-2-explanation = （少了「大」字）
+contribution-misreadings-example-3-title = 三疊紀的大恐...。
+contribution-misreadings-example-3-explanation = （錄音的句尾被截斷）
+contribution-misreadings-example-4-title = 三疊紀的好大恐龍。
+contribution-misreadings-example-4-explanation = （錄音內容比實際的句子多了某些字）
+contribution-misreadings-example-5-title = 我們要出去買咖啡。
+contribution-misreadings-example-6-title = 我們要去買咖啡。
+contribution-misreadings-example-6-explanation = （少了「出」）
+contribution-misreadings-example-7-title = 我們要出去買杯咖啡。
+contribution-misreadings-example-7-explanation = （原句中沒有「杯」）
+contribution-misreadings-example-8-title = 大黃蜂路過。
+contribution-misreadings-example-8-explanation = （內容完全不符）
+contribution-varying-pronunciations-title = 確認發音
+contribution-varying-pronunciations-description = 因為發音錯誤而拒絕某些錄音時，請特別小心。例如捲舌不捲舌、一字多音的常見讀法⋯⋯等，世界各地都有華語使用者，某些地區的口音或習慣讀音可能與你的所在地相差甚遠。對於不同口音的錄音者，請保持一定的彈性。
+contribution-varying-pronunciations-description-extended = 另一方面，如果你很肯定錄音者根本不認識這個字，只是在有邊讀邊、亂猜讀音，請果斷拒絕。如果無法確定，請按略過鈕。
+contribution-varying-pronunciations-example-1-title = 主角戴了一頂法國貝雷帽。
+contribution-varying-pronunciations-example-1-explanation = （念為「主 ㄐㄩㄝˊ」或「主 ㄐㄧㄠˇ」、「ㄈㄚˇ國」或「ㄈㄚˋ國」皆可）
+contribution-varying-pronunciations-example-2-title = 只是一杯蜂蜜
+contribution-varying-pronunciations-example-2-explanation = （念成「ㄗˇ」是或「ㄓˇ」是，「ㄈㄥ」蜜或「ㄏㄨㄥ」蜜，基本上只是錄音者的口音發音習慣，不應視為錯誤）
+contribution-background-noise-title = 背景噪音
+contribution-background-noise-description = 我們希望機器模型能適應多樣化的背景噪音（甚至是很大的聲音），只要你仍然能聽見每一個字即可。錄到小聲的背景音樂也沒問題，但太大聲讓你無法聽出每一個字就不行。
+contribution-background-noise-description-extended = 除非你仍可完整聽到每一個字，否則請拒絕聽起來斷斷續續的錄音。
+contribution-background-noise-example-1-fixed-title = <strong>[噴嚏聲]</strong> 三疊紀的大 <strong>[咳嗽聲]</strong> 恐龍。
+contribution-background-noise-example-2-fixed-title = 三疊ㄐ... <strong>[咳]</strong> 大恐龍。
+contribution-background-noise-example-2-explanation = （聽不清楚某些字）
+contribution-background-noise-example-3-fixed-title = <strong>[沒聲音]</strong> 疊紀的 <strong>[爆音]</strong> 龍。
+contribution-background-voices-title = 背景噪音
+contribution-background-voices-description = 背景有一些模糊人聲沒關係，但我們不希望讓機器誤聽到多餘的字。如果你聽到錄音中混入了不在句子中的字，請拒絕該錄音。通常是錄音時開著電視、或者旁邊有人說話時發生。
+contribution-background-voices-description-extended = 除非你仍可完整聽到每一個字，否則請拒絕聽起來斷斷續續的錄音。
+contribution-background-voices-example-1-title = 三疊紀的大恐龍 <strong>（錄音者正在錄音）</strong>
+contribution-background-voices-example-1-explanation = 你要不要來？<strong>（其他人在背後說話）</strong>
+contribution-volume-title = 音量大小
+contribution-volume-description = 不同的錄音者自然會有音量差異。如果音量過大讓語音爆掉，或者（更常見）太小聲，不看句子就聽不懂時，請拒絕該錄音。
+contribution-reader-effects-title = 聲音的表現
+contribution-reader-effects-description = 大部分的錄音者是以日常說話的方式錄製。當你偶而聽到「不正常」的錄音，例如用喊的、氣音、或者「戲劇性」的演出時，仍可以接受。但請拒絕把句子唱出來，或是由電腦合成的聲音。
+contribution-just-unsure-title = 無法決定嗎？
+contribution-just-unsure-description = 如果你遇到本指南中沒有涵蓋的狀況，還請自行盡力判斷。如果真的很難決定，直接按下「略過」到下一句去吧。
+see-more = <chevron></chevron>看更多
+see-less = <chevron></chevron>看更少

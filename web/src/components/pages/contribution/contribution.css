@@ -20,11 +20,15 @@
     justify-content: space-between;
     overflow-x: hidden;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px 20px;
     max-width: var(--wide-desktop-width);
-    height: 100%;
     width: 100%;
+    height:  100%;
     box-sizing: border-box;
+
+    @media (--md-up) {
+        padding: 20px;
+    }
 
     @media (--tall) {
         padding-top: 50px;
@@ -47,6 +51,31 @@
         @media (--md-up) {
             padding: 0 38px;
             height: 57px;
+        }
+    }
+
+    .contribution-criteria {
+        display: block;
+        color: var(--black);
+        text-transform: uppercase;
+        font-size: var(--font-size-sm);
+        text-align: center;
+        margin-top: 1.5rem;
+        font-weight: 600;
+
+        @media (--md-up) {
+            margin-top:  0;
+            margin-bottom: 1rem;
+        }
+
+        svg {
+            fill: var(--black);
+            margin-inline-end: 0.5rem;
+            vertical-align: text-bottom;
+        }
+
+        &:hover {
+            text-decoration: underline;
         }
     }
 
@@ -109,6 +138,15 @@
             @media (--md-up) {
                 width: 57px;
                 height: 57px;
+            }
+        }
+
+        .mobile-break {
+            display:  block;
+            width:  1px;
+            height: 1px;
+            @media (--md-up) {
+                display: none;
             }
         }
 
@@ -244,7 +282,7 @@
         .cards {
             position: relative;
             max-width: 700px;
-            height: 275px;
+            height: 200px;
             width: 100%;
 
             @media (--md-up) {
@@ -343,7 +381,7 @@
     }
 
     .buttons {
-        margin-top: 30px;
+        margin-top: 1rem;
 
         display: flex;
         justify-content: space-between;

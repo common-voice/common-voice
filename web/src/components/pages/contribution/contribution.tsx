@@ -383,26 +383,13 @@ class ContributionPage extends React.Component<Props, State> {
                 />
               </Localized>
             </div>
+            <div className="mobile-break" />
 
-            {this.isLoaded && !errorContent ? (
-              <div className={'counter ' + (isSubmitted ? 'done' : '')}>
-                {isSubmitted && <CheckIcon />}
-                <Localized
-                  id="clips-with-count-pluralized"
-                  elems={{ bold: <b /> }}
-                  vars={{ count: this.renderClipCount() }}>
-                  <span className="text" />
-                </Localized>
-              </div>
-            ) : (
-              <div />
-            )}
-            {isSubmitted && (
-              <Tooltip arrow title={getString('share-common-voice')}>
-                <button className="open-share" onClick={this.toggleShareModal}>
-                  <ShareIcon />
-                </button>
-              </Tooltip>
+            {!errorContent && !isSubmitted &&  (
+              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria hidden-sm-down">
+                <ExternalLinkIcon />
+                <Localized id="contribution-criteria-link"/>
+              </LocaleLink>
             )}
           </div>
 
@@ -502,16 +489,6 @@ class ContributionPage extends React.Component<Props, State> {
 
               <div className="pills">
                 <div className="inner">
-                  {!errorContent && (
-                    <div className="counter">
-                      <Localized
-                        id="clips-with-count-pluralized"
-                        elems={{ bold: <b /> }}
-                        vars={{ count: this.renderClipCount() }}>
-                        <span className="text" />
-                      </Localized>
-                    </div>
-                  )}
                   {this.isDone && (
                     <div className="review-instructions">
                       <Localized id="review-instruction">
@@ -551,6 +528,13 @@ class ContributionPage extends React.Component<Props, State> {
               <canvas ref={this.canvasRef} />
               {primaryButtons}
             </div>
+
+            {!errorContent && !isSubmitted &&  (
+              <LocaleLink blank to={URLS.CRITERIA} className="contribution-criteria hidden-md-up">
+                <ExternalLinkIcon />
+                <Localized id="contribution-criteria-link"/>
+              </LocaleLink>
+            )}
 
             <div className="buttons">
               <div>

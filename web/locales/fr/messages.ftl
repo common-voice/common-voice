@@ -78,6 +78,7 @@ hy-AM = Arménien
 hyw = Arménien occidental
 ia = Interlingua
 id = Indonésien
+ie = Interlingue
 is = Islandais
 it = Italien
 izh = Ingrien
@@ -86,6 +87,7 @@ ka = Géorgien
 kaa = Karakalpak
 kab = Kabyle
 kbd = Kabarde
+ki = Kikuyu
 kk = Kazakh
 kmr = Kurmandji kurde
 ko = Coréen
@@ -110,10 +112,13 @@ ms = Malais
 mt = Maltais
 my = Birman
 myv = Erzya
+nan-tw = Taïwanais (Minnan)
 nb-NO = Norvégien bokmål
 ne-NP = Népalais
+nia = Nias
 nl = Néerlandais
 nn-NO = Norvégien nynorsk
+nyn = Nkore
 oc = Occitan
 or = Odia
 pa-IN = Pendjabi
@@ -127,6 +132,7 @@ ro = Roumain
 ru = Russe
 rw = Kinyarwanda
 sah = Iakoute
+sat = Santali (Ol Chiki)
 sc = Sarde
 scn = Sicilien
 shi = Tachelhit/chleuh
@@ -146,6 +152,7 @@ th = Thaï
 tl = Tagalog
 tr = Turc
 tt = Tatar
+tw = Twi
 uby = Oubykh
 udm = Oudmourte
 ug = Ouïghour
@@ -155,6 +162,8 @@ uz = Ouzbek
 vec = Vénitien
 vi = Vietnamien
 vot = Vote
+yi = Yiddish
+yo = Yoruba
 yue = Cantonais
 zh-CN = Chinois (Chine)
 zh-HK = Chinois (Hong-Kong)
@@ -187,6 +196,7 @@ logout = Déconnexion
 ## Home Page
 
 home-title = Le projet Common Voice est une initiative de Mozilla pour aider à apprendre aux machines comment les humains parlent vraiment.
+default-tagline = Le projet Common Voice de Mozilla aide à apprendre aux machines comment les humains parlent vraiment.
 home-cta = Faites don de votre voix, contribuez ici !
 wall-of-text-start = La voix est naturelle, la voix est humaine. C’est pour cela que nous souhaitons créer des technologies vocales de qualité pour nos machines. Mais réaliser de tels systèmes requiert un gigantesque volume de données vocales.
 wall-of-text-more-mobile = La plupart des données utilisées par les grandes sociétés ne sont pas mises à la disposition de monsieur ou madame Tout-le-monde. Nous pensons que cela freine l’innovation. C’est pour cela que le projet Common Voice existe, c’est un projet qui facilite l’accès à la reconnaissance vocale, pour tout le monde.
@@ -282,6 +292,8 @@ shortcut-record-toggle = e
 shortcut-record-toggle-label = Enregistrer/Arrêter
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Refaire l’enregistrement
+shortcut-discard-ongoing-recording = Échap
+shortcut-discard-ongoing-recording-label = Ignorer l’enregistrement en cours
 shortcut-submit = Entrée
 shortcut-submit-label = Envoyer les enregistrements
 request-language-text = Votre langue n’est pas encore disponible ?
@@ -382,6 +394,10 @@ faq-what-cv-a =
     Les technologies de reconnaissance vocale révolutionnent notre façon d’interagir avec les machines, mais les systèmes disponibles sont chers et propriétaires. Common Voice fait partie des activités de Mozilla qui ont pour but d’améliorer les technologies de reconnaissance vocale et de les rendre plus accessibles à tous et à toutes. Common Voice est une immense base de données d’enregistrements vocaux qui permet à n’importe qui de facilement et rapidement entraîner des applications interagissant avec la voix, potentiellement dans toutes les langues.
     
     Nous ne collectons pas seulement des enregistrements de voix dans les langues les plus parlées, mais aussi dans celles qui n’ont qu’un petit nombre de locuteurs. La publication d’un échantillon diversifié de voix permettra aux développeurs, entrepreneurs et communautés de surmonter ce handicap. Outre le jeu de données Common Voice, nous développons également un moteur de reconnaissance vocale libre et open source appelé Deep Speech.
+faq-what-cv-a-2 =
+    Les technologies de reconnaissance vocale révolutionnent notre façon d’interagir avec les machines, mais les systèmes disponibles sont chers et propriétaires. Common Voice de Mozilla a pour but d’améliorer les technologies de reconnaissance vocale et de les rendre plus accessibles à tous et à toutes. Common Voice est une immense base de données d’enregistrements vocaux qui permet à n’importe qui de facilement et rapidement entraîner des applications interagissant avec la voix, potentiellement dans toutes les langues.
+    
+    Nous ne collectons pas seulement des enregistrements de voix dans les langues les plus parlées, mais aussi dans celles qui n’ont qu’un petit nombre de locuteurs. La publication d’un échantillon diversifié de voix permettra aux développeurs, entrepreneurs et communautés de surmonter ce handicap.
 faq-why-important-q = Pourquoi est-ce important ?
 faq-why-important-a =
     La parole est souvent le moyen le plus naturel de communiquer les uns avec les autres et les technologies vocales apportent ce confort à nos ordinateurs et appareils mobiles. Nous voulons donner aux développeurs et développeuses les moyens de créer des applications de reconnaissance vocale étonnantes, telles que des traducteurs en temps réel et des assistants numériques à commandes vocales. Mais pour le moment, la plupart des données vocales nécessaires à la création de ce type d’applications sont coûteuses et propriétaires. Nous espérons que le jeu de données Common Voice donnera aux développeurs et développeuses ce dont ils ont besoin pour innover et rendre la technologie de la parole disponible dans leur propre langue.
@@ -439,6 +455,9 @@ about-title = Pourquoi Common Voice ?
 about-subtitle = Common Voice fait partie de l’initiative de Mozilla aidant les machines à apprendre comment parlent les vraies personnes. Outre le jeu de données Common Voice, nous créons également un moteur de reconnaissance vocale open source appelé Deep Speech.
 about-header-description =
     Ces deux projets font partie de nos efforts pour réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs et développeuses ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
+    Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous et toutes.
+about-header-description-2 =
+    Ce projet vise à réduire la fracture de la parole numérisée. Les technologies de reconnaissance vocale apportent une dimension humaine à nos appareils, mais les développeurs et développeuses ont besoin d’une énorme quantité de données vocales pour les concevoir. Actuellement, la plupart de ces données sont coûteuses et propriétaires.
     Nous voulons rendre les données vocales librement et publiquement accessibles, et nous assurer que les données représentent la diversité de personnes réelles. Ensemble, nous pouvons améliorer la reconnaissance vocale pour tous et toutes.
 how-does-it-work-title = Mode d’emploi
 how-does-it-work-text = Nous appelons à la participation collective pour constituer un jeu de données open source de voix. Donnez votre voix, validez la précision des échantillons d’autres personnes, améliorez le jeu de données pour tout le monde.
@@ -522,7 +541,7 @@ release-version = Version
 dataset-date = Date
 license = Licence : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
-data-download-singleword-title = Télécharger le segment cible de mot unique
+data-download-singleword-title = Téléchargez le segment cible de mot unique
 data-download-singleword-callout-v2 = Il s’agit d’un segment basé sur des cas d’utilisation contenant des données pour la reconnaissance vocale des chiffres et la détection oui/non.
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>Conditions d’utilisation</termsLink> et notre <privacyLink>Politique de confidentialité</privacyLink>
 terms-agree = J’accepte
@@ -573,8 +592,11 @@ subscribe = S’abonner
 get-started-speech = S’initier à la reconnaissance vocale
 other-datasets = Autres jeux de données vocales
 feedback-q = Vous avez des suggestions ?
-deepspeech-info = Le jeu de données Common Voice est un complément au moteur open source de reconnaissance vocale de Mozilla, Deep Speech, que vous pouvez utiliser pour créer des applications de reconnaissance vocale. Consultez notre <githubLink>aperçu sur GitHub</githubLink> ou rejoignez le <discourseLink>Discourse de DeepSpeech</discourseLink> pour bien commencer.
-common-voice-info-new = Vous avez des questions sur Common Voice ? Des idées d’améliorations ou des suggestions sur une langue particulière ? Retrouvez-nous sur notre <discourseLink>forum Discourse</discourseLink> et faites-nous-en part.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ est une <docsLink>boîte à outils open source</docsLink> pour les chercheurs développant des modèles d’IA conversationnelle de pointe.
+resource-deepspeech-info = Le moteur open source de reconnaissance vocale de Mozilla, Deep Speech, peut être utilisé pour créer des applications de reconnaissance vocale. Consultez notre <githubLink>aperçu sur GitHub</githubLink> ou rejoignez le <discourseLink>Discourse de DeepSpeech</discourseLink> pour bien commencer.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> est dédié à la technologie de la parole ouverte. Parmi leurs projets figurent des moteurs STT et TTS basés sur l’apprentissage en profondeur.
+community-playbook = Guide de la communauté
+resource-playbook-info = <playbookLink>Trouvez des conseils utiles</playbookLink> sur l’ensemble du parcours Common Voice, de la localisation à l’utilisation des jeux de données, ainsi que sur la façon de prendre contact avec notre communauté.
 data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures de lecture en anglais (16 kHz) issu de livres audio du projet LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Le corpus TED-LIUM est construit à partir des dialogues audio et de leurs transcriptions disponibles sur le site TED.
@@ -845,6 +867,35 @@ why-delete-recordings =
     Pourriez-vous nous indiquer pourquoi vous souhaitez supprimer vos enregistrements ?
 profile-form-delete = Supprimer le profil
 
+## Profile Download
+
+download-q = Besoin de télécharger vos données ?
+download-info = Dites-nous ce que vous souhaitez télécharger :
+download-profile-title = Profil
+download-profile-info = Comprend l’adresse e-mail, le nom d’utilisateur et les informations démographiques, disponible immédiatement
+download-profile-size = Quelques octets
+download-recordings-title = Enregistrements
+download-recordings-info = Comprend les MP3 et les phrases liées, peut prendre un certain temps à préparer
+download-recordings-size = Généralement plusieurs mégaoctets
+download-recordings-unavailable = Vous ne pouvez pas demander vos enregistrements alors qu’une autre demande est déjà en cours.
+download-size = Taille
+download-selected = Sélectionné
+download-start = Télécharger les données du profil
+download-request = Demander les enregistrements
+download-requests = Demandes de téléchargement d’enregistrements antérieurs
+download-requests-info = Lorsque vous demandez vos enregistrements, nous les compilons dans un ou plusieurs fichiers ZIP. Voici vos demandes précédentes :
+download-request-button = Télécharger
+download-request-title = { $created }
+download-request-archive-single = Fichier ZIP unique contenant
+download-request-archive-multiple = Divisé en { $archiveCount } fichiers ZIP contenant
+download-request-assembling-description = Vos fichiers sont en cours d’assemblage. Veuillez vérifier à nouveau plus tard.
+download-request-refresh-button = Actualiser
+download-request-modal-title = Liens de téléchargement
+download-request-modal-description = Voici les liens pour télécharger vos fichiers ZIP.
+download-request-link-text = Zip n°{ $offset } sur { $total }
+download-request-metadata-link = Texte de la phrase
+download-request-link-single = Vous pouvez également copier et coller les liens directs dans votre gestionnaire de téléchargement préféré. Ils expireront dans 12 heures, mais vous pouvez revenir sur cette page pour en générer de nouveaux à tout moment.
+
 ## Landing
 
 welcome-staff = Bienvenue au personnel de { $company } !
@@ -888,3 +939,59 @@ demo-listen-subtitle = Prêt·e à contribuer ?
 
 demo-dashboard-card-header = Les tableaux de bord personnels vous tiennent au courant des progrès individuels et communautaires.
 demo-dashboard-card-body = Pour chaque échantillon vocal donné et pour chaque échantillon audio validé, les tableaux de bord de votre compte sont mis à jour afin de refléter vos derniers progrès dans chacune des langues à laquelle vous avez contribué. Oui, vous pouvez contribuer à plusieurs langues !<br/><br/> Utilisez les tableaux de bord pour suivre vos statistiques, pour comparer vos progrès à ceux d’autres membres de la communauté et pour fixer des objectifs de contribution quotidiens ou hebdomadaires.
+
+## Validation criteria
+
+contribution-criteria-nav = Critères
+contribution-criteria-link = Comprendre les critères de contribution
+contribution-criteria-page-title = Critères de contribution
+contribution-criteria-page-description = Comprenez ce à quoi il faut prêter attention lors de l’écoute d’échantillons vocaux et enrichissez même vos propres enregistrements !
+contribution-for-example = par exemple
+contribution-misreadings-title = Erreurs de lecture
+contribution-misreadings-description = Lors de l’écoute, vérifiez très attentivement que ce qui a été enregistré correspond exactement à ce qui est écrit ; rejetez même s’il y a des erreurs mineures. <br />Voici les erreurs les plus courantes :
+contribution-misreadings-description-extended-list-1 = Il manque <strong>« Un/Une »</strong> ou <strong>« Le/La »</strong> au début de l’enregistrement.
+contribution-misreadings-description-extended-list-2 = Il manque un <strong>« s »</strong> à la fin d’un mot.
+contribution-misreadings-description-extended-list-3 = Des contractions inexistantes sont lues, telles que « surment » au lieu de « surement ».
+contribution-misreadings-description-extended-list-4 = La fin du dernier mot est coupée, car l’enregistrement a été arrêté trop vite.
+contribution-misreadings-description-extended-list-5 = Faire plusieurs tentatives pour lire un mot.
+contribution-misreadings-example-1-title = Les dinosaures géants du Trias.
+contribution-misreadings-example-2-title = Le dinosaure géant du Trias.
+contribution-misreadings-example-2-explanation = [Devrait être « Les » dinosaures]
+contribution-misreadings-example-3-title = Les dinosaures géants du Tria-.
+contribution-misreadings-example-3-explanation = [Enregistrement coupé avant la fin du dernier mot]
+contribution-misreadings-example-4-title = Les dinosaures géants du Trias. Oui.
+contribution-misreadings-example-4-explanation = [Plus que le texte requis a été enregistré]
+contribution-misreadings-example-5-title = Surement, il fera beau.
+contribution-misreadings-example-6-title = Surment, il fera beau.
+contribution-misreadings-example-6-explanation = [Devrait être « surement »]
+contribution-misreadings-example-7-title = Surement, il y fera beau.
+contribution-misreadings-example-7-explanation = [Pas de « y » dans le texte original]
+contribution-misreadings-example-8-title = Le bourdon a filé.
+contribution-misreadings-example-8-explanation = [Contenu sans rapport]
+contribution-varying-pronunciations-title = Prononciations différentes
+contribution-varying-pronunciations-description = Faites attention avant de rejeter un échantillon au motif que le lecteur ou la lectrice semble avoir mal prononcé un mot ou certaines paires de voyelles, ou semble avoir ignoré un point d’interrogation. Il existe une grande variété de prononciations utilisées dans le monde, dont certaines que vous n’avez peut-être pas entendues dans votre région. Veuillez prévoir une marge d’appréciation pour les personnes qui peuvent parler différemment de vous.
+contribution-varying-pronunciations-description-extended = En revanche, si vous pensez que le lecteur ou la lectrice n’a jamais rencontré le mot auparavant et qu’il ou elle tente simplement de deviner la bonne prononciation, veuillez rejeter l’enregistrement. Si vous n’êtes pas sûr·e, utilisez le bouton Passer.
+contribution-varying-pronunciations-example-1-title = La locomotive tirait plusieurs wagons.
+contribution-varying-pronunciations-example-1-explanation = [La prononciation de « Wagon » est correcte que vous entendiez « Vagon » (FR) ou « Ouagon » (BE)]
+contribution-varying-pronunciations-example-2-title = Le sandwich jambon beurre
+contribution-varying-pronunciations-example-2-explanation = [« sandwich » en français se prononce comme un mot, pas deux]
+contribution-background-noise-title = Bruits de fond
+contribution-background-noise-description = Il est souhaitable que les algorithmes d’apprentissage automatique soient capables de gérer une variété de bruits de fond. Même des bruits relativement forts peuvent être acceptés à condition qu’ils ne vous empêchent pas d’entendre l’intégralité du texte. Une musique de fond calme est aussi acceptable, mais une musique assez forte pour vous empêcher d’entendre chaque mot ne l’est pas.
+contribution-background-noise-description-extended = Si l’enregistrement est haché ou contient des craquements, rejetez-le à moins que l’intégralité du texte ne soit intelligible.
+contribution-background-noise-example-1-fixed-title = <strong>[ Reniflement ]</strong> Les dinosaures géants du <strong>[ toux ]</strong> Trias.
+contribution-background-noise-example-2-fixed-title = Le dinosaure géant <strong>[ toux ]</strong> le Trias.
+contribution-background-noise-example-2-explanation = [Une partie du texte ne peut pas être entendue]
+contribution-background-noise-example-3-fixed-title = <strong>[ Craquement ]</strong> dinosaures géants du <strong>[ Craquement ]</strong> -rias.
+contribution-background-voices-title = Voix en arrière-plan
+contribution-background-voices-description = Un faible brouhaha de fond est acceptable, mais il ne doit pas y avoir de voix supplémentaires qui pourraient amener un algorithme machine à identifier des mots qui ne figurent pas dans le texte écrit. Si vous pouvez entendre des mots distincts de ceux du texte, l’enregistrement doit être rejeté. Cela se produit généralement lorsqu’un téléviseur a été laissé allumé ou lorsqu’une conversation a lieu à proximité.
+contribution-background-voices-description-extended = Si l’enregistrement est haché ou contient des craquements, rejetez-le à moins que l’intégralité du texte ne soit intelligible.
+contribution-background-voices-example-1-title = Les dinosaures géants du Trias. <strong>[lu par une première voix]</strong>
+contribution-background-voices-example-1-explanation = Tu viens ? <strong>[prononcé par une autre voix]</strong>
+contribution-volume-title = Volume
+contribution-volume-description = Il y a des variations naturelles de volume entre les lecteurs et lectrices. Ne rejetez que si le volume est si élevé que l’enregistrement est haché, ou (plus communément) s’il est si bas que vous ne pouvez pas entendre ce qui est dit sans référence au texte écrit.
+contribution-reader-effects-title = Intonations et effets sonores
+contribution-reader-effects-description = Dans la plupart des enregistrements les personnes parlent avec leur voix naturelle. Vous pouvez accepter occasionnellement un enregistrement non standard crié, chuchoté ou clairement prononcé avec une voix « théâtrale ». Veuillez rejeter les enregistrements chantés et ceux utilisant une voix synthétisée par ordinateur.
+contribution-just-unsure-title = Vous hésitez ?
+contribution-just-unsure-description = Si vous rencontrez une situation que ces directives ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
+see-more = <chevron></chevron>Afficher plus d’exemples
+see-less = <chevron></chevron>Afficher moins d’exemples

@@ -1,16 +1,13 @@
 import { Localized } from '@fluent/react';
-const pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Redirect, Route, Switch } from 'react-router';
 import { NavLink } from 'react-router-dom';
-import { UserClient } from 'common';
 import { User } from '../../../stores/user';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
 import {
-  BarChartIcon,
   CameraIcon,
   CloudIcon,
   CogIcon,
@@ -24,47 +21,7 @@ import InfoPage from './info/info';
 import Settings from './settings/settings';
 
 import './layout.css';
-
-function downloadData(account: UserClient) {
-  const text = [
-    ...Object.entries(
-      pick(
-        account,
-        'email',
-        'username',
-        'age',
-        'gender',
-        'clips_count',
-        'votes_count',
-        'avatar_url'
-      )
-    ),
-    ...account.locales.reduce((all, l, i) => {
-      const localeLabel = 'language ' + (i + 1);
-      return [
-        ...all,
-        [localeLabel, l.locale],
-        [localeLabel + ' accent', l.accent],
-      ];
-    }, []),
-  ]
-    .map(([key, value]) => key + ': ' + value)
-    .join('\n');
-
-  const element = document.createElement('a');
-  element.setAttribute(
-    'href',
-    'data:text/plain;charset=utf-8,' + encodeURIComponent(text)
-  );
-  element.setAttribute('download', 'profile.txt');
-
-  element.style.display = 'none';
-  document.body.appendChild(element);
-
-  element.click();
-
-  document.body.removeChild(element);
-}
+import DownloadProfile, { downloadTextAsFile, getProfileInfo } from './download/download';
 
 interface PropsFromState {
   user: User.State;
@@ -73,11 +30,21 @@ interface PropsFromState {
 interface Props extends LocalePropsFromState, PropsFromState {}
 
 const Layout = ({ toLocaleRoute, user }: Props) => {
-  const [infoRoute, avatarRoute, prefRoute, deleteRoute] = [
+  if (window.location.search.includes('enableNewDownload=1')) {
+    try {
+      sessionStorage.setItem('downloadEnabled', 'true');
+    } catch(e) {
+      console.warn(`A sessionStorage error occurred ${e.message}`);
+    }
+  }
+  const downloadEnabled = sessionStorage.getItem('downloadEnabled');
+
+  const [infoRoute, avatarRoute, prefRoute, deleteRoute, downloadRoute] = [
     URLS.PROFILE_INFO,
     URLS.PROFILE_AVATAR,
     URLS.PROFILE_SETTINGS,
     URLS.PROFILE_DELETE,
+    URLS.PROFILE_DOWNLOAD,
   ].map(r => toLocaleRoute(r));
   return (
     <div className="profile-layout">
@@ -97,24 +64,28 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
               icon: <TrashIcon />,
               id: 'profile-form-delete',
             },
+            {
+              route: downloadRoute,
+              icon: <CloudIcon />,
+              id: 'download-profile',
+            },
           ]
             .slice(0, user.account ? Infinity : 1)
             .map(({ route, icon, id }) => (
-              <NavLink key={route} to={route}>
+              (route !== downloadRoute || downloadEnabled) ?
+              (<NavLink key={route} to={route}>
                 {icon}
                 <Localized id={id}>
                   <span className="text" />
                 </Localized>
-              </NavLink>
-            ))}
-          {user.account && (
-            <a onClick={() => downloadData(user.account)} href="#">
-              <CloudIcon />
-              <Localized id="download-profile">
-                <span className="text" />
-              </Localized>
-            </a>
-          )}
+              </NavLink>) : (
+                <a key={route} onClick={() => downloadTextAsFile('profile.txt', getProfileInfo(user.account))} href="#">
+                  <CloudIcon />
+                  <Localized id="download-profile">
+                    <span className="text" />
+                  </Localized>
+                </a>
+            )))}
         </div>
       </div>
       <div className="content">
@@ -124,15 +95,17 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             { route: avatarRoute, Component: AvatarSetup },
             { route: prefRoute, Component: Settings },
             { route: deleteRoute, Component: DeleteProfile },
+            { route: downloadRoute, Component: DownloadProfile },
           ].map(({ route, Component }) => (
-            <Route
+            (route !== downloadRoute || downloadEnabled) ?
+            (<Route
               key={route}
               exact
               path={route}
               render={props =>
                 user.account ? <Component /> : <Redirect to={infoRoute} />
               }
-            />
+            />) : null
           ))}
           <Route
             render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}

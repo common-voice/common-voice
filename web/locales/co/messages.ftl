@@ -22,65 +22,145 @@ not-available-abbreviation = Micca dispunibule
 ## Languages
 
 ab = Abcasu
+ace = Acenese
+ady = Adighè
 af = Africaanu
-an = Aragonese
+am = Amaricu
+an = Aragunese
 ar = Arabu
+arn = Mapudungunu
+as = Assamese
 ast = Asturianu
 az = Azerbaigianu
+ba = Baschiru
+bas = Basaa
 be = Bielorussiu
 bg = Bulgaru
+bm = Bambara
 bn = Bengalese
 br = Brittonu
+bxr = Buriatu
 ca = Catalanu
+cak = Kaqchikel
+ckb = Curdu centrale
+cnh = Hakha Chin
 co = Corsu
 cs = Ceccu
+cv = Ciuvasciu
 cy = Gallese
 da = Danese
 de = Tedescu
-dsb = Bassu Sorbu
+dsb = Bassu sorabu
 dv = Maldivianu
 el = Grecu
 en = Inglese
 eo = Esperanto
 es = Spagnolu
+et = Estone
 eu = Bascu
 fa = Persianu
+ff = Fulà
 fi = Finlandese
+fo = Faruese
 fr = Francese
+fy-NL = Frisone
 ga-IE = Irlandese
+gl = Gallegu
+gn = Guaranì
+ha = Hausa
 he = Ebraicu
-hr = Croatu
-hsb = Altu Sorbu
-hu = Ungherese
+hi = Hindì
+hr = Cruatu
+hsb = Altu sorabu
+ht = Haitianu
+hu = Ungarese
+hy-AM = Armenianu
+hyw = Armenianu uccidentale
 ia = Interlingua
+id = Indunesianu
+ie = Interlingue
 is = Islandese
 it = Talianu
-ja = Giapponese
+izh = Izurianu
+ja = Giappunese
+ka = Geurgianu
+kaa = Karakalpak
 kab = Cabile
-ko = Coreanu
+kbd = Cabardu
+kk = Kazacu
+kmr = Curdu kurmanji
+ko = Cureanu
+kpv = Komi Zyrianu
+kw = Cornicu
+ky = Kirghisu
+lg = Luganda
 lij = Ligure
-mhr = Mari da e pratuline
-mk = Macedunianu
-mrj = Mari da e culline
+lt = Lituanu
+lv = Lettone
+mai = Maithili
+mdf = Mukscià
+mg = Malgasciu
+mhr = Mari urientale
+mk = Macedone
+ml = Malayalam
+mn = Mongulu
+mos = Morè
+mr = Marathi
+mrj = Mari uccidentale
+ms = Malese
 mt = Maltese
 my = Birmanu
+myv = Erza
+nb-NO = Nurvigese Bokmål
 ne-NP = Nepalese
 nl = Nederlandese
-oc = Occitanu
-pt = Portughese
+nn-NO = Nurvigese Nynorsk
+oc = Uccitanu
+or = Odia
+pa-IN = Punjabi
+pap-AW = Papiamentu (Aruba)
+pl = Pulunese
+ps = Pashtò
+pt = Purtughese
+rm-sursilv = Rumanciu sottusilvanu
+rm-vallader = Rumanciu Vallader
+ro = Rumenu
 ru = Russiu
+rw = Kinyarwanda
+sah = Iacutu
 sc = Sardu
 scn = Sicilianu
-sk = Slovaccu
-sl = Slovenu
+shi = Tascelì
+si = Singalese
+sk = Sluvaccu
+sl = Sluvenu
+so = Somalu
+sq = Albanese
 sr = Serbu
-sv-SE = Svedese
+sv-SE = Svidese
+sw = Swahili
+syr = Siriacu
+ta = Tamil
 te = Telugu
+tg = Tagicu
 th = Tailandese
+tl = Tagalog
 tr = Turcu
 tt = Tataru
-ur = Urdu
+uby = Ubykh
+udm = Udmurtu
+ug = Uiguru
+uk = Ucranianu
+ur = Urdù
+uz = Uzbecu
 vec = Venizianu
+vi = Vietnamianu
+vot = Voticu
+yo = Yoruba
+yue = Cantunese
+zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
 
 # [/]
 
@@ -109,6 +189,7 @@ logout = Scunnettassi
 ## Home Page
 
 home-title = Common Voice hè l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone.
+default-tagline = Common Voice hè un'iniziativa per aiutà à insegnà à e macchine cumu parlanu e vere persone.
 home-cta = Parlate puru, cuntribuite quì !
 wall-of-text-start = A voce hè naturale, a voce hè umana. Hè per quessa chì no simu affascinati da a criazione di una tecnulugia di voce aduprabile per e nostre macchine. Ma per creà sistemi di voce, una quantità tamanta di dati vucale hè richiesta.
 wall-of-text-more-mobile = A maiò parte di i dati ghjuvati da l'imprese maiò ùn sò micca dispunibile à a maiurità di e parsone. Pinsemu chì suffuca l'innuvazione. Tandu avemu lanciatu u prughjettu Common Voice, pà aiutà à apre à tutti a ricunniscenza vucale.
@@ -202,6 +283,9 @@ shortcut-record-toggle = a
 shortcut-record-toggle-label = Arrighjistrà/Firmà
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rifà l’arrighjistramentu
+shortcut-discard-ongoing-recording = SCAP
+shortcut-discard-ongoing-recording-label = Scartà l'arrighjistramentu in corsu
+shortcut-submit-label = Invià campioni
 request-language-text = Ùn viditi micca a vostra lingua in Common Voice ?
 request-language-text-learn = Scupriti quì comu dumandala !
 request-language-button = Richiede una lingua
@@ -269,6 +353,7 @@ email-subscriptions = Abbunamenti da indirizzu elettronicu
 download-profile = Scaricà i mio dati
 contribution-experience = Spirienza di cuntribuzione
 skip-submission-feedback = Saltà l’inviu di cummenti
+skip-submission-description = L'inviu di cummenti sarà disattivatu dopu avè appughjatu « Invià ». A cuntribuzione cuntinuarà dirattamentu cù è 5 arrighjistramenti o cunvalidazione succissivi.
 skip-submission-note = Nota: Duvete sempre selezziunà trà Parlà o Ascultà per cambià u tippu di cuntribuzione.
 off = Disattivatu
 on = Attivatu
@@ -299,6 +384,10 @@ faq-what-cv-a =
     A tecnulugia di a ricunniscenza vucale hè in traccia di rivuluziunà a nostra manera d'interagisce cù e macchine, ma i sistemi ch'omu pò aduprà per avà sò cari è esclusivi. Common Voice fà parte di a mossa di Mozilla chì cerca da rende più bonu è più accessibile da tutti e tecnulugie di ricunniscenza vucale. Common Voice hè una banca di dati mundiale tamanta di voci date chì pirmette à tutt'ognunu di modu prestu è simplice d'addestrà applicazioni vucali in putenzialmente ogni lingua.
     
     Ùn femu micca ch'è racoglie ritagliuli di voci in le lingue più parlate di u mundu ma dinò in quelle parlate da menu ghjente. Publicà una banca di voci diversa hà da pirmette à i sviluppatori, l'impresarii è e cumunità di superà da per elli sta mancanza. In più di a banca di dati di Common Voice, sviluppemu ancu un mutore di ricunniscenza vocale open source chjamatu Deep Speech.
+faq-what-cv-a-2 =
+    A tecnulugia di a ricunniscenza vucale hè in traccia di rivuluziunà a nostra manera d'interagisce cù e macchine, ma i sistemi ch'omu pò aduprà per avà sò cari è esclusivi. Common Voice hè un'iniziativa di Mozilla pà rende più bonu è più accessibile da tutti e tecnulugie di ricunniscenza vucale. Common Voice hè una banca di dati mundiale tamanta di voci date chì pirmette à tutt'ognunu di modu prestu è simplice d'addestrà applicazioni vucali in putenzialmente ogni lingua.
+    
+    Ùn femu micca ch'è racoglie ritagliuli di voci in le lingue più parlate di u mundu ma dinò in quelle parlate da menu ghjente. Publicà una banca di voci diversa hà da pirmette à i sviluppatori, l'impresarii è e cumunità di superà da per elli sta mancanza. In più di a banca di dati di Common Voice, sviluppemu ancu un mutore di ricunniscenza vocale open source chjamatu Deep Speech.
 faq-why-important-q = Parchì hè impurtante ?
 faq-why-important-a =
     Parlà hè spessu a manera più naturale di cumunicà cù l'altri è e tecnulugie vucale sò in traccia d'arricà sta capacità à i nostri ordinatori è dispusitivi mobili. Vulemu dà arnesi à i sviluppatori ch'elli possanu crià applicazioni di ricunniscenza vucale cum'è traduttori in tempu reale è assistenti digitali vucali. Ma per avà, a maiò parte di i dati vucali richiesti da fà quelli tippi d'applicazioni sò cari è pruprietarii. Spiremu chì a banca di dati Common Voice darà à i sviluppatori e risorse necessarie per innuvà è rende a tecnulugia vucale dispunibile in le so propie lingue.
@@ -307,15 +396,22 @@ faq-why-important-a =
 faq-how-get-q = Comu possu uttene i dati di Common Voice ?
 faq-how-get-a = A banca di dati Common Voice hè dispunibile à u scaricamentu sottu à a licenza <licenseLink>CC0</licenseLink> à a paghjina di <datasetLink>e nostre banche di dati</datasetLink>. Pudeti ancu scaricà parechje altre banche di dati publiche da issa paghjina.
 faq-when-release2-q = Quandu publicareti i dati di Common Voice in altre lingue ?
+faq-when-release2-a = A versione multi-lingue di a banca di dati Common Voice hè attualmente in ripulitura è nittatura dà a cummunità. Si vuleti aiutaci à raghjunghje mori lingue in Common Voice, pudeti aduprà <sentenceCollectorLink>l'Arnese di Racolta d'Infrasate</sentenceCollectorLink> pà ingrandà a banca di dati, è Mozilla <pontoonLink>Pontoon</pontoonLink> pà traduce u sitiu web stessu. Nove lingue sò aghjunte pà e cuntribuzioni vucale quandu 5000 infrasate cunvalidate sò state raccogliate.
 faq-why-mission-q = Parchì Common Voice fà parte di a missione di Mozilla ?
 faq-what-cv-and-deepspeech-q = Chì gjhè a differenza trà Common Voice è Deep Speech ?
+faq-what-cv-and-deepspeech-a = A banca di dati Common Voice cumpleta u mutore di ricunniscenza vucale di Mozilla, Deep Speech. A prima versione di Deep Speech hè stata publicata di nuvembre 2017 e hà sempre evuluatu dapoi. Cridimu chì sta tecnulugia di ricunniscenza vucale, incù a banca di dati, duvariani esse dispunibile per tutti. Speremu chì isse tecnulugie aiutarani i sviluppadori à creà un’onda di prudutti è servizii innuvanti.
 faq-is-goal-assistant-q = U scopu di Common Voice saria di custruisce un assistente vucale ?
 faq-is-goal-assistant-a = U scopu di a banca di dati Common Voice hè di permette à tutt'ognunu in lu mondu sanu di sviluppà applicazioni di ricunniscenza vocale, di ricunniscenza di i lucutori, o qualsiasi tippu d'applicazioni chì richerghi dati vocali. Un assistente vucale hè solu unu di i numarosi tippi d'applicazioni chì si puderia fà aduprendu a banca di dati.
 faq-do-want-native-q = Issa lingua ùn hè micca a mè lingua materna è aghju un accentu, vuleti quantunque a mè voce ?
 faq-do-want-native-a = Iè, vulemu in particulari a vostra voce! Una parte di l'ughjettivu di Common Voice hè di riunisce u mori accenti sfarenti pussibule pà fà funziunà i servizii di ricunniscenza vucale ugualmente bè per tutti. Questu vole dì chì e cuntribuzione da lucutori non nativi sò particularmente impurtanti.
 faq-why-different-speakers-q = Parchì avete bisognu di tanti lucutori differente per ogni lingua ?
+faq-why-different-speakers-a =
+    A maiurità di e banche di dati vucale sò addistrati incù una sopra riprisintazione demugrafica di <articleLink>masci di classa mezana</articleLink>. Accenti è dialetti sottu riprisentati sò tipicamenti quelli di gruppi di parsoni dighjà marginalizzati. Mori apparechji strazieghjani pà ricunnosce voce feminile. 
+    Ghjè parchì vulemu svariatezza in a nostra banca di dati !
 faq-why-my-lang-q = Parchì a me lingua ùn hè ancu inghjusa ?
+faq-why-my-lang-new-a = Mozilla ùn sceglie o favurisci alcuna lingua sopr’à un’altra. A u cuntrariu, Common Voice hè un iniziativa di a cumunità, mà ci sò <multilangLink>parechje tappe pà aghjunghje una lingua addizziunale</multilangLink> è principià à racoglie campioni vucali. Primu, u situ web di Common Voice hà da esse traduttu pà esse accessibile à i locutori di sta lingua. Sicondu, avemu bisognu d’una tamanta cullezione d’infrasate libare di dritti pà esse lighjiti ad alta voce. Hè solu quandu issi duie cundizione sò suddesfani chi una lingua hè « lanciata » in Common Voice hè chì la ghjenti poni principià à arrighjistrassi è a cunvalidà l’altri. Si vuleti aiutà à lancià una lingua, addirizzatevi à <sentenceCollectorLink>l’arnese di racogliera d’infrasate</sentenceCollectorLink>.
 faq-what-quality-q = Chì niveddu di qualità audio hè richiestu pà avè un campione di voce adupratu in a banca di dati ?
+faq-what-quality-a = Vulemu chì a banca di dati di Common Voice pari à a qualità di ciò chì un mutori di ricunniscenza vucale sintarà in a rialità, è dunque circhemu varietà. In più da una cumunità diversa di locutori, una banca di dati cù una qualità varia insignarà à u mutori di ricunniscenza à gestisce parechji situazione realistiche, da una discussione in fondu à u frombu di una vittura. Si u campione vucale pò esse capitu, eddu cunvenerà sicuramente pà a banca di dati.
 faq-why-10k-hours-q = Parchì sò 10,000 ore d'arrighjistramenti cunvalidate u scopu ?
 faq-why-10k-hours-a = Hè più o menu a quantità d'ore necessarii pà addestrà un sistemu di pruduzzione di voce-à-u-testu.
 faq-how-calc-hours-q = Di chì manera Common Voice calculeghja l'ore ?
@@ -391,11 +487,13 @@ sentence-collection-explanation = Racoglie infrasate da u duminiu publicu, o scr
 hours-recorded-explanation = U contu di l'ori arrighjistrati sin'à avà.
 sst = Discorsu-à-u-testu (Speech-to-text, STT)
 de-identified = Anonimizatu
+de-identified-explanation = U prucessu chì scurisce l'infurmazioni di u prufilu d'un cuntributore da i so campioni vucali quandu eddi sò appruntati per u scaricamentu cum'è una parte di a banca di dati.
 
 ## Error pages
 
 error-title-404 = Ùn pudemu micca truvà questa pagina per voi
 error-content-404 = Forse a nostra <homepageLink>paghjina d'accolta</homepageLink>v’aiutarà ? Pà fà una dumanda, raghjunghjisti a <matrixLink>chjachjerata di a cummunità Matrix</matrixLink>, tiniti l'ochji nant’à i prublemi di u situ via <githubLink>GitHub</githubLink> o visiteti <discourseLink>i nostri fori Discourse</discourseLink>.
+error-title-503 = Avemu un'interuzzione imprevista
 error-code = Errore { $code }
 
 ## Data
@@ -406,6 +504,7 @@ data-download-deny = Innò
 data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
 data-download-modal = Seti à u puntu di principià un scaricamentu di <size>{ $size } Go</size>, vulete cuntinuà ?
 data-subtitle = Custruimu una banca di voci aperta è dispunibile di manera publica chì ognunu puderà aduprà pà l'addestru di l'appiecazioni chì ponu parlà.
+data-explanatory-text = Noi cridimu chi banche di dati vucale tamante è pubbliche prumovani l’innuvazione è una cumpetiziona sana in e tecnulugie vucale appughjati annantu à l’amparera di e machine. Ghjè un sforzu glubale è invitemu tuttu ognunu à participà. U nostru scopu hè d’aiutà è tecnulugie vucale à esse più inclusive, à rispechjà a varietà di e voce di u mondu.
 data-get-started = <speechBlogLink>Iniziassi à a ricunniscenza vucale</speechBlogLink>
 data-other-title = Altre banche di voci…
 data-other-goto = Andà à { $name }
@@ -416,6 +515,8 @@ release-version = Versione
 dataset-date = Data
 license = Licenza : <licenseLink> { $license } </licenseLink>
 license-mixed = Mischiatu
+data-download-singleword-title = Scaricà u segmentu specificu incù parolle uniche
+data-download-singleword-callout-v2 = Questu hè un segmentu fattu pà un casu d'utilizazione cuntenendu dati pà a ricunniscenza vucale di i ciffri è di e parolle Iè / Innò.
 review-terms = Usendu Common Voice, site d'accunsentu incù i nostri <termsLink>cundizioni d'utilizazioni</termsLink> è <privacyLink>a nostra pulitica di cunfidenzialità</privacyLink>
 terms-agree = Sò d'accunsentu
 terms-disagree = Ùn sò micca d'accunsentu
@@ -431,6 +532,12 @@ review-delete-recordings = Sguassà i mo arrighjistramenti
 ## Datasets Page
 
 datasets-headline = Custruimu una banca di voci, in sfarente lingue, aperta è dispunibile di manera publica chì ognunu puderà aduprà pà l'addestru di l'appiecazioni chì ponu parlà.
+datasets-positioning =
+    Noi cridimu chi banche di dati vucale tamante è pubbliche prumovani l’innuvazione è una cumpetizione sana in e tecnulugie vucale appughjate annantu à l’amparera di e machine.
+    
+    A banca di dati multilingue di Common Voice hè ghjà a più impurtante dispunibile pubblicamente di a so categuria, ma ùn hè micca a sola.
+    
+    Guardeti sta paghjina cumè una rifirenza pà altre banche di dati vucale di fonte aperte è pà e nostre messe à ghjornu future.
 language = Lingua
 # File size in gigabytes
 size = Dimensione
@@ -443,14 +550,20 @@ splits = Staccature
 email-to-download = Scrivite u vostru indirizzu elettronicu pà scaricà
 why-email = <b>Perchè un indirizzu email ?</b> Un indirizzu email ci permette d'invià vi i cambiamenti eventuali à nant'à a banca di dati.
 confirm-size = Site à nant'à u puntu di cummincià u scaricamentu di <b>{ $size }</b>
+size-gigabyte = Go
+size-megabyte = Mo
 confirm-no-identify = <b>Voi accitteti</b> d’ùn pruvà micca à identificà è voce in a banca di dati Common Voice.
 download-language = Scaricà { $language }
 validated-hours = Ore Cunvalidate
 recorded-hours = Ore Arrighjistrate
 whats-inside = Cosa c'hè ind'a basa di dati di Common Voice ?
+want-dataset-update = Vuleti riceve messe à ghjorni appuntu à e nove versione di a banca di dati Common Voice ? Abbunatevi à u nostru nutiziale.
 subscribe = Abbunassi
 get-started-speech = Cummincià incù a ricunniscenza vucale
+other-datasets = Altre banche di voci
 feedback-q = Avete sugestione ?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ hè un <docsLink>arnese cù e fonte aperte</docsLink> pà i circadori chì sviluppani mudeli d’Intelligenza Artifiziale cunversaziunale à l’avanguardia.
+data-other-librispeech-description = LibriSpeech hè un corpus d'à pocu pressu 1000 ori di letture in inglese (à 16 kHz) chì ghjunghjenu da libri audio di u prughjettu LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = U corpus TED-LIUM hè statu fattu incù i discorsi è e so trascrizzione dispunibile à nant'à u situ TED.
 data-other-tatoeba-description = Tatoeba hè una banca maiò d'infrasate, traduzzione è ducumenti urali chì ghjovanu à l'imparera di e lingue. Issu scaricamentu cuntene ducumenti urali, in inglese, arrigistratu da a so cummunità.
@@ -514,6 +627,7 @@ total-hours = Ore cunvalidate
 action-click = Preme
 action-tap = Appughjà
 contribute = Cuntribuisce
+listen = Stà à sente
 skip = Scappà
 shortcuts = Scurtatoghji
 clips-with-count-pluralized =
@@ -555,12 +669,16 @@ record-abort-continue = Compie l'arrighjistramentu
 record-abort-delete = Andassi è sguassà i ducumenti
 listen-instruction = { $actionType }<playIcon></playIcon> anu prununciatu l'infrasata di manera curretta ?
 listen-again-instruction = Un bellu travagliu ! <playIcon></playIcon> Ascolta torna quandu site prontu
+listen-3rd-time-instruction = Più chì 2 <playIcon></playIcon>, cuntinuatelu !
 listen-last-time-instruction = <playIcon></playIcon>L'ultimu !
 listen-empty-state = Ùn avemu più campioni dà cunvalidà in issa lingua...
 speak-empty-state = Ùn avemu più infrasate à arrighjistrà in issa lingua...
+speak-empty-state-cta = Prupone incù altre infrasate
 record-button-label = Arrighjistrà a vostra voce
+share-title-new = <bold>Aiutate ci</bold> à truvà voci in più
 keep-track-profile = Seguiteti i vostri prugressi creendu un prufilu
 login-to-get-started = Cunnittiti vi o iscrivite vi pà cummincià
+target-segment-first-banner = Aiuteti à creà u primu segmentu d’ugettivu di Common Voice in { $locale }
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
 
@@ -592,6 +710,16 @@ days =
         [one] Ghjornu
        *[other] Ghjorni
     }
+recordings =
+    { $count ->
+        [one] Arrighjistramentu
+       *[other] Arrighjistramenti
+    }
+validations =
+    { $count ->
+        [one] Cunvalidaziona
+       *[other] Cunvalidazioni
+    }
 
 ## Dashboard
 
@@ -606,9 +734,13 @@ stats = Statistiche
 awards = Ricumpense
 you = Tù
 everyone = Ognunu
+top-contributors = Migliori cuntributori
 recorded-clips = Campioni arrighjistrati
 validated-clips = Campioni cunvalidati
+total-approved = Tutale cunvalidatu
+overall-accuracy = Pricisione glubale
 set-visibility = Definisce a mo visibilità
+visibility-overlay-note = Nota : Quandu hè definitu à nantu à 'Visìbile', si pò cambià à nant'à a <profileLink>pagina di prufilu</profileLink>
 show-ranking = Muscià a mo classifica
 
 ## Custom Goals
@@ -617,13 +749,16 @@ get-started-goals = Principià incù i scopi
 create-custom-goal = Creà un scopu parsunale
 goal-type = Chì sorte di scopu vulete custruì ?
 both-speak-and-listen = Tramindui
+both-speak-and-listen-long = I duie (Parlà è Stà à sente)
 daily-goal = Scopu di u ghjornu
 weekly-goal = Scopu di a settimana
 easy-difficulty = Faciule
 average-difficulty = Mediana
 difficult-difficulty = Difficiule
 pro-difficulty = Prufessiunale
+lose-goal-progress-warning = Cambiendu u vostru scopu, si pò perde i vostri prugressi attuali
 want-to-continue = Vulete cuntinuà ?
+finish-editing = Compie i cambii in primu locu ?
 lose-changes-warning = Partendu avà, i vostri cambiamenti seranu persi
 build-custom-goal = Definisce un scopu parsunale
 help-reach-hours-pluralized =
@@ -649,12 +784,22 @@ n-clips-pluralized =
 help-share-goal = Aiutate ci à truvà voci in più, spartite u vostru scopu
 confirm-goal = Cunfirmà u scopu
 goal-interval-weekly = Settimanale
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Sparte u vostru scopu ghjurnalieru di { $count } campioni { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Sparte u vostru scopu settimanale di { $count } campioni { $type }
+share-goal-type-speak = Parlati
+share-goal-type-listen = Stati à sente
+share-goal-type-both = Parlati è stati à sente
 weekly-goal-created = U vostru scopu sittimanale hè statu creatu
 daily-goal-created = U vostru scopu ghjurnalieru hè statu creatu
+track-progress = Seguitati i prugressi quì nant'à a vostra paghjina di statistiche.
+return-to-edit-goal = Vultà quì pà mudificà u vostru scopu quand'ella vi piace
 share-goal = Sparte u mo scopu
 
 ## Profile Delete
 
+delete-q = Vulete dumandà chi i vostri arrighjistramenti urali siani cacciati dinù, o preferite tene li in a banca di dati di Common Voice ?
 keep = Mantene
 remove = Caccià
 why-delete-recordings =
@@ -662,6 +807,21 @@ why-delete-recordings =
     
     Pudeti spiegaci parchì vuleti sguassà i vostri arrighjistramenti ?
 profile-form-delete = Sguassà u prufilu
+
+## Profile Download
+
+download-q = Bisognu à scaricà i vostri dati?
+download-profile-title = Prufilu
+download-recordings-title = Arrighjistramenti
+download-recordings-size = Di regula in megaottetti
+download-recordings-unavailable = Ùn pudete micca richiede i vostri arrighjistramenti mentre hè dighjà in corsu un'altra richiesta.
+download-selected = Selezziunatu
+download-request = Richiede arrighjistramenti
+download-request-button = Scaricà
+download-request-title = { $created }
+download-request-modal-title = Ligami di scaricamentu
+download-request-link-text = Zip #{ $offset } di { $total }
+download-request-metadata-link = Testu di l'infrasata
 
 ## Landing
 
@@ -680,6 +840,7 @@ demo-welcome-subheader = Site interessati pà amparà ne di più è cuntribuisce
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice hè a più maiò banca di dati vucale in parechje lingue, dispunibule publicamente di u mondu.
+demo-language-select-card-body = Grazie à e cuntribuzione di più di 259 mile persone in più di 50 lingue, sti dati sò utilizati pà l’addestramentu d’appiecazioni cù a ricunniscenza vucale pà migliurà a so risposta à a voce umana.
 card-button-next = Seguita
 card-button-back = Nanzu
 demo-language-select-label = Splurà e lingue
@@ -690,6 +851,7 @@ demo-account = Contu
 ## Demo Account
 
 demo-account-card-header = Ùn c'hè bisognu di contu pà cuntribuisce, ancu s'ellu hè ghjuvevule.
+demo-account-card-body = À a diritta, discrivimu i vantaghji è chjarifichemu l'infurmazioni chè no rendemu publiche. Appughjate à nant'à i ligami quì sottu per principià incù un contu Common Voice nant'à u vostru apparechju.
 demo-account-enter-email =
     .label = Scrivite u vostru indirizzu elettronicu pà riceve un ligame d'iscrizzione
 demo-account-sign-up = Mandà u ligame d'iscrizzione
@@ -702,3 +864,49 @@ demo-listen-subtitle = Seti pronti à cuntribuisce ?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = I tavuloni di cumanda parsunale vi tenenu à capu di i vostri prugressi individuali è di quelli di a cumunità.
+demo-dashboard-card-body = Per ogni campione datu è ogni campione vucale cunvalidatu, u vostru tavulonu di cumande hè messu à ghjornu per riflettà i vostri prugressi attuali in ogni lingua à a quella vo aveti cuntribuitu. Iè, si pò cuntribuisce in più chè una !<br/><br/> U vostru tavulone di cumande s’impiega per seguità e vostre statistiche, per vede ciò ch’aveti fattu secondu à l’altri, è definisce i vostri scopi ghjurnalieru o settimanale di cuntribuzione.
+
+## Validation criteria
+
+contribution-criteria-nav = Criterii
+contribution-criteria-link = Capisce i criterii di cuntribuzione
+contribution-criteria-page-title = Criterii di cuntribuzione
+contribution-criteria-page-description = Capiscite ciò ch'ellu ci vole à circà quandu ascultate campioni urali è migliurate i vostri campioni !
+contribution-for-example = per esempiu
+contribution-misreadings-title = Sbaglii di lettura
+contribution-misreadings-description = Ascultendu, feti casu chè e parolle prununciate sianu e stesse chè quelle scritte ; ricusate ancu s'ellu ci sò chjuchi sbaglii. <br /> I sbaglii i più currenti ponu esse:
+contribution-misreadings-description-extended-list-1 = Manca <strong>'Una/Un'</strong> o <strong>'A/U'</strong> a u principiu di l'arrighjistramentu.
+contribution-misreadings-description-extended-list-2 = Manca a marca di u plurale o a <strong>vucale finale</strong> à a fine d'una parolla.
+contribution-misreadings-description-extended-list-4 = Sminticà a fine di a parolla cumpiendu l'arrighjistramentu troppu in furia.
+contribution-misreadings-description-extended-list-5 = Ripigliate vi parechje volte per leghje una parolla.
+contribution-misreadings-example-1-title = I dinusauri giganti di u Triassicu.
+contribution-misreadings-example-2-explanation = [Deve esse ‘dinusauri’]
+contribution-misreadings-example-3-title = I dinusauri giganti di u Triassi-.
+contribution-misreadings-example-3-explanation = [Arrighjistramentu piantatu nanzu à a fine di l'ultima parolla]
+contribution-misreadings-example-4-title = I dinusauri giganti di u Triassicu. Iè.
+contribution-misreadings-example-4-explanation = [L'arrighjistramentu hè più longu chè u testu privistu]
+contribution-misreadings-example-5-title = Ci n'andemu fora per piglià un caffè.
+contribution-misreadings-example-8-title = U bufone passava in furia.
+contribution-misreadings-example-8-explanation = [U cuntenutu ùn currisponde micca]
+contribution-varying-pronunciations-title = Prununcie variabile
+contribution-varying-pronunciations-description = Feti casu nanzu di ricusà un campionu per via d'un sbagliu di prununcia, d'aletta o di sminticu di puntu d'interrogazione. Esistanu parechji varietà di prununcie in u mondu, forse ch'ùn l'aveti micca tutte sente ind'è vo. Per piacè, date vi una margine d'appreziamentu per quelli ch'ùn parlanu micca cume voi.
+contribution-varying-pronunciations-description-extended = D'un antru latu, sè vo pinsate chè u lettore ùn hà forse mai incuntratu a parolla è ch'ellu si face un sbagliu annant'à a prununcia, per piacè ricusate l'arrighjistramentu. Sè ùn site micca sicuru, appughjate annant'à u buttone scappà.
+contribution-varying-pronunciations-example-2-title = A so manu era al-zata.
+contribution-varying-pronunciations-example-2-explanation = [L'incalcu si mette nant'à a seconda sillaba, micca a prima]
+contribution-background-noise-title = Rimore di fondu
+contribution-background-noise-description = Vulemu che l'algoritmi siani in capacità d'ammaistrà una varietà maiò di rimori di fondu, è ancu s'elli sò forti tandu ch'ellu si pò sempri sente u testu sanu. Una musica di fondu pò esse accettata s'ella ùn impedisce micca a capiscitura d'ogni parolla.
+contribution-background-noise-description-extended = Sè l'arrighjistramentu si pianta o s'ellu hà certi prublemi, ricusate lu a menu chè u testu ferma capiscitoghju di manera sana.
+contribution-background-noise-example-2-explanation = [Una parte di u testu ùn si pò sente]
+contribution-background-voices-title = Voce di fondu
+contribution-background-voices-description = Un chjucu rimoru di fondu hè accettatu mà ùn si pò avè voci in più di quella di l'arrighjistramentu perchè ponu fà chì l'algoritmu identificheghja antre parolle che quelle scritte. Se pudeti sente parolle sfarente di quelle di u testu, l'arrighjistramentu deve esse ricusatu. Si pò accadde quandu a televisiò hè stata accesa o quandu a ghjente tene una discuzzione vicina.
+contribution-background-voices-description-extended = Sè l'arrighjistramentu si pianta o s'ellu hà d'altri prublemi, ricusate lu à menu ch'ellu sia sempre capiscitoghju di manera sana.
+contribution-background-voices-example-1-title = I dinusauri giganti di u Triassicu. <strong>[lettu da una voce unica]</strong>
+contribution-volume-title = Volume
+contribution-volume-description = Ci seranu variazioni di volume trà i sfarenti lettori. Ricusà solu sè u volume hè cusì altu chì l'arrighjistramentu pianta, o (di manera più cummuna) s'ellu hè cusì bassu ch'ùn si sente micca u testu.
+contribution-reader-effects-title = Effetti di lettura
+contribution-reader-effects-description = A maiurità di l'arrighjistramenti sò di parsoni chi parlani nurmalamente. Pudeti cunvalidà di tempi à tempi un arrighjistramenti mughjatu, sussuratu o in una voce teatrale. Per piacè ricuseti arrighjistramenti chì sò cantati o fati cù una voce artificiale.
+contribution-just-unsure-title = Ùn site micca sicuru ?
+contribution-just-unsure-description = Sè vo incuntrate calcosa ch'ùn hè micca pigliatu in contu in isse istruzzione, vutate cum'ella vi pare u megliu. Sè un vi pudeti decidà, pichjate annant'à u buttone scappà è andate à u prossimu campionu.
+see-more = <chevron></chevron>Vedene di più
+see-less = <chevron></chevron>Vedene di menu

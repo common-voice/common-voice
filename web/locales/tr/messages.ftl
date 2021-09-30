@@ -78,6 +78,7 @@ hy-AM = Ermenice
 hyw = Batı Ermenicesi
 ia = Interlingua
 id = Endonezce
+ie = Interlingue
 is = İzlandaca
 it = İtalyanca
 izh = İngrice
@@ -86,6 +87,7 @@ ka = Gürcüce
 kaa = Karakalpakça
 kab = Berberice
 kbd = Kabardeyce
+ki = Kikuyu
 kk = Kazakça
 kmr = Kurmançça
 ko = Korece
@@ -110,11 +112,13 @@ ms = Malayca
 mt = Maltaca
 my = Birmanca
 myv = Erzyanca
+nan-tw = Tayvanca (Minnan)
 nb-NO = Norveç Bokmål
 ne-NP = Nepalce
 nia = Nias
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
+nyn = Nyankole
 oc = Oksitanca
 or = Odia
 pa-IN = Pencapça
@@ -128,6 +132,7 @@ ro = Rumence
 ru = Rusça
 rw = Kinyarwanda
 sah = Yakutça
+sat = Santali (Ol Chiki)
 sc = Sardinya dili
 scn = Sicilyaca
 shi = Şilha
@@ -147,6 +152,7 @@ th = Tayca
 tl = Tagalog
 tr = Türkçe
 tt = Tatarca
+tw = Twi
 uby = Ubıhça
 udm = Udmurtça
 ug = Uygurca
@@ -156,6 +162,8 @@ uz = Özbekçe
 vec = Venedikçe
 vi = Vietnamca
 vot = Votic
+yi = Yidiş
+yo = Yoruba
 yue = Kantonca
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
@@ -188,6 +196,7 @@ logout = Çıkış
 ## Home Page
 
 home-title = Common Voice projesi makinelere gerçek insanların nasıl konuştuklarını öğretmek için Mozilla’nın başlattığı bir girişimdir.
+default-tagline = Mozilla Common Voice makinelere gerçek insanların nasıl konuştuklarını öğretme girişimidir.
 home-cta = Konuşarak katkı sağla!
 wall-of-text-start = Ses doğaldır, insanidir. Bu yüzden makinelerimiz için kullanılabilir ses teknolojileri üretmekle ilgileniyoruz. Ama ses sistemleri yaratmak için çok büyük miktarlarda ses verisine ihtiyaç var.
 wall-of-text-more-mobile = Büyük şirketlerin kullandığı verilerin çoğu insanların çoğunluğunun kullanımına açık değil. Biz bunun yenileşmeyi bastırdığını düşünüyoruz. Bu yüzden ses tanıma sistemlerini herkese açık hale getirmek için Common Voice projesini başlattık.
@@ -281,6 +290,8 @@ shortcut-record-toggle = k
 shortcut-record-toggle-label = Kaydet/Durdur
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Yeniden kaydedin
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Yapılmakta olan kaydı sil
 shortcut-submit = Enter
 shortcut-submit-label = Kayıtları gönder
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
@@ -381,6 +392,10 @@ faq-what-cv-a =
     Ses tanıma teknolojisi, makinelerle etkileşime girme biçimimizde devrim yaratıyor ancak şu anda mevcut sistemler pahalı ve tescilli. Common Voice, Mozilla’nın ses tanıma teknolojilerini herkes için daha iyi ve daha erişilebilir hale getirme girişiminin bir parçasıdır. Common Voice, herkesin ses özelliği olan uygulamaları potansiyel olarak her dilde hızlı ve kolay bir şekilde eğitmesine olanak tanıyan geniş bir küresel bağışlanmış ses veritabanıdır.
     
     Ses örneklerini yalnızca yaygın olarak konuşulan dillerden değil, aynı zamanda daha az konuşmacısı olan dillerden de topluyoruz. Farklı bir ses veri kümesi yayınlamak geliştiricileri, girişimcileri ve toplulukları bu boşluğu kendileri ele almaya teşvik edecektir. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da kuruyoruz.
+faq-what-cv-a-2 =
+    Ses tanıma teknolojisi, makinelerle etkileşime girme biçimimizde devrim yaratıyor ancak şu anda mevcut sistemler pahalı ve tescilli. Mozilla Common Voice, ses tanıma teknolojilerini herkes için iyileştirmeye ve daha erişilebilir hale getirmeye çalışan bir girişim. Common Voice, herkesin ses özelliği olan uygulamaları potansiyel olarak her dilde hızlı ve kolay bir şekilde eğitmesine olanak tanıyan bağışlanmış seslerden oluşan geniş ve küresel bir veritabanı.
+    
+    Ses örneklerini yalnızca yaygın olarak konuşulan dillerden değil, aynı zamanda daha az konuşmacısı olan dillerden de topluyoruz. Geniş yelpazede bir ses veri kümesi yayımlamak; geliştiricileri, girişimcileri ve toplulukları bu boşluğu doldurmaya teşvik edecektir.
 faq-why-important-q = Ne önemi var?
 faq-why-important-a =
     Konuşma genellikle birbirimizle iletişim kurmamızın en doğal yoludur ve ses teknolojileri bu rahatlığı bilgisayarlarımıza ve mobil cihazlarımıza getirmektedir. Geliştiricilere, gerçek zamanlı çevirmenler ve ses özellikli dijital asistanlar gibi harika ses tanıma uygulamaları oluşturma konusunda güç vermek istiyoruz. Ancak şu anda bu tür uygulamaları oluşturmak için gereken ses verilerinin çoğu pahalı ve özeldir. Common Voice veri kümesinin, geliştiricilere, yenilikler yapmaları ve konuşma teknolojisini kendi dillerinde kullanıma sunmaları için ihtiyaç duydukları şeyi vereceğini umuyoruz.
@@ -403,6 +418,7 @@ faq-why-different-speakers-a = Çoğu konuşma veritabanı, <articleLink>erkek v
 faq-why-my-lang-q = Neden dilim henüz eklenmedi?
 faq-why-my-lang-new-a = Mozilla hiçbir dili diğerlerinden üstün görmez. Common Voice tamamen topluluk tarafından yürütülen bir girişimdir, ancak <multilangLink>yeni bir dil eklemek</multilangLink> ve ses bağışlarını toplamaya başlamak için birkaç adımın tamamlanması gerekir. İlk olarak, kişilerin kendi dillerinde katkıda bulunabilmeleri için Common Voice web sitesinin o dile çevrilmesi gerekir. Daha sonra, insanların sesli olarak okuyabileceği, telif hakkı olmayan, büyük bir cümle koleksiyonunun derlenmesi gerekir. Bu gereksinimlerin her ikisi de karşılandığında insanların seslerini kaydetmeye ve başkalarının kaydettiği sesleri doğrulamaya başlaması için Common Voice'a o dil eklenir. Yeni bir dil eklemeye yardım etmek istiyorsanız <sentenceCollectorLink>cümle toplama aracımıza</sentenceCollectorLink> bakabilirsiniz.
 faq-what-quality-q = Bir ses kaydının veri kümesinde kullanılabilmesi için hangi düzeyde ses kalitesi gerekir?
+faq-what-quality-a = Common Voice veri kümesinin, bir konuşmayı metne dönüştürme motorunun doğal ortamda duyacağı ses kalitesini yansıtmasını istiyoruz, bu nedenle çeşitlilik arıyoruz. Farklı konuşmacılara ek olarak, değişen ses kalitelerine sahip bir veri kümesi, konuşmayı metne dönüştürme motoruna, gerçek hayatta karşılaşabileceği arka plan sesleri ve araba gürültüsü gibi çeşitli gerçek durumlarının üstesinden gelmeyi öğretecektir. Kendi sesiniz anlaşılıyorsa, kaydınız veri kümesi için yeterince iyi demektir.
 faq-why-10k-hours-q = Neden dil başına 10.000 saat onaylı ses kaydı hedefi var?
 faq-why-10k-hours-a = Bu süre, işe yarar bir konuşmayı metne dönüştürme sisteminin eğitilmesi için gereken yaklaşık süredir.
 faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
@@ -419,6 +435,10 @@ faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
 faq-how-privacy-q = Seslerini bağışlayan kişilerin anonimliğini ve gizliliğini nasıl sağlıyorsunuz?
 faq-how-privacy-a = Veri kümesindeki tüm ses kayıtları kişisel bilgilerden arındırılır. Katkıda bulunan kullanıcılar profilleri üzerinden demografik veriler sağlamışsa bu bilgiler indirilebilir veri kümesine anonim bir şekilde eklenir ve profil sayfasında asla görüntülenmez.
 faq-what-determine-identity-q = Common Voice veri kümesindeki konuşmacıların “kimliklerinin belirlenemez olması” ne anlama geliyor?
+faq-what-determine-identity-a =
+    Common Voice veri kümesi, konuşma destekli uygulamaları eğitmek için kullanılabilen, açık ve herkesin kullanabileceği bir kaynaktır. Katkıda bulunanların güvenliğini korumak için, Common Voice veri kümesini indiren herkesten katkıda bulunanların gizliliğine saygı göstermelerini istiyoruz.
+    
+    Veri kümesindeki tüm ses kayıtları kişisel olarak tanımlayıcı bilgilerden arındırılmıştır. Veri kümesini indirdiğinizde, katkıda bulunanların kimliklerini belirlemeye çalışmayacağınızı kabul edersiniz. Yani veri kümesindeki bilgileri katkıda bulunan kişilerin kişisel bilgileriyle eşleştirmeye çalışamazsınız. Bununla birlikte, veri kümesindeki bilgileri zaten veri kümesinde bulunan diğer bilgilerle ilişkilendirerek konuşma tanıma, konuşmacı tanıma veya diğer uygulamaları eğitmek için kullanabilirsiniz.
 faq-what-is-cv = Common Voice nedir?
 faq-using-cv = Common Voice Kullanımı
 faq-description = Common Voice, Mozilla’nın makinelere gerçek insanların nasıl konuştuklarını öğretme girişiminin bir parçasıdır.
@@ -431,6 +451,9 @@ about-title = Neden Common Voice?
 about-subtitle = Common Voice, Mozilla'nın makinelere gerçek insanların nasıl konuştuğunu öğretme girişiminin bir parçasıdır. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da geliştiriyoruz.
 about-header-description =
     Bu projelerin her ikisi de dijital konuşma ayrımını kapatma çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut getiriyor ancak geliştiricilerin bunları oluşturmak için çok büyük miktarda ses verisine ihtiyaçları var. Şu anda, bu verilerin çoğu pahalı ve tescilli.
+    Ses verilerini özgür ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil ettiğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
+about-header-description-2 =
+    Bu proje dijital konuşma ayrımını kapatma çabalarımızın bir parçası. Ses tanıma teknolojileri cihazlarımıza insani bir boyut getiriyor ancak geliştiricilerin bunları oluşturmak için çok büyük miktarda ses verisine ihtiyaçları var. Şu anda, bu verilerin çoğu pahalı ve tescilli.
     Ses verilerini özgür ve herkese açık hale getirmek ve verilerin gerçek insanların çeşitliliğini temsil ettiğinden emin olmak istiyoruz. Birlikte ses tanımayı herkes için daha iyi hale getirebiliriz.
 how-does-it-work-title = Nasıl çalışıyor?
 how-does-it-work-text = Açık kaynaklı bir ses veri kümesi topluyoruz. Sesinizi bağışlayın, diğer kişilerin kayıtlarının doğruluğunu doğrulayın, veri kümesini herkes için daha iyi hale getirin.
@@ -452,7 +475,16 @@ about-clip-graveyard = Kayıt Mezarlığı
 about-clip-graveyard-text = Kayıt Mezarlığı, Common Voice veri kümesine girmeyen ses kayıtlarından oluşur. Veri kümesi gibi Kayıt Mezarlığı da indirilebilir.
 about-partners = İş ortakları
 about-become-a-partner = Ortağımız olun
+about-partnership =
+    Common Voice işbirliğine dayalı bir projedir. Tüm zamanların en büyük açık kaynaklı ses veri kümesini oluşturmak için iş ortaklarımıza ve projeye katkıda bulunan gönüllülerimize bel bağlıyoruz.
+    
+    Projeye yardımlarından dolayı aşağıdaki kişi ve kuruluşlara teşekkür etmek isteriz:
 about-get-involved = Bize katılın
+about-get-involved-text-2 =
+    Common Voice'u daha da iyileştirmeye yardımcı olmak ister misiniz?
+    E-posta veya <discourseLink>Discourse</discourseLink> forumları yoluyla bizimle iletişime geçebilir,
+    <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını bildirebilir veya
+    <matrixLink>Matrix</matrixLink>'te topluluk sohbetlerine katılabilirsiniz.
 about-nav-why-common-voice = Neden ?
 about-nav-how-it-works = Nasıl ?
 about-nav-partners = İş ortakları
@@ -476,6 +508,7 @@ hours-validated-explanation = “Evet” oyu ile 3 kullanıcıdan 2’si tarafı
 sst = Konuşmadan metne (STT)
 sst-explanation = Konuşmadan metne (STT) teknolojileri ses verilerini metne dönüştürür.
 de-identified = Anonimleştirilmiş
+de-identified-explanation = Veri kümesi indirilmek üzere paketlendiği zaman katkıda bulunanın profil bilgilerinin bağışlanan ses kayıtlarında gizlenmesi süreci.
 
 ## Error pages
 
@@ -503,6 +536,7 @@ dataset-date = Tarih
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
 data-download-singleword-title = Tek kelimelik hedef segmentini indir
+data-download-singleword-callout-v2 = Bu, kullanım senaryosu odaklı, konuşulan rakam tanıma ve evet/hayır algılamayı destekleme amaçlı veri içeren bir segmenttir.
 review-terms = Common Voice’u kullandığınızda <termsLink>Koşullarımızı</termsLink> ve <privacyLink>Gizlilik İlkelerimizi</privacyLink> kabul etmiş olursunuz.
 terms-agree = Kabul ediyorum
 terms-disagree = Kabul etmiyorum
@@ -553,8 +587,9 @@ subscribe = Abone ol
 get-started-speech = Konuşma tanımaya giriş
 other-datasets = Diğer ses veri kümeleri
 feedback-q = Görüşleriniz mi var?
-deepspeech-info = Common Voice veri kümesi, Mozilla’nın konuşma tanıma uygulamaları oluşturmak için kullanabileceğiniz açık kaynaklı ses tanıma motoru Deep Speech'i tamamlar. Nasıl başlayacağınızı öğrenmek için <githubLink>Github genel bakışımızı</githubLink> okuyun veya <discourseLink>DeepSpeech Discourse</discourseLink>'a katılın.
-common-voice-info-new = Common Voice hakkında sorularınız mı var? Belirli bir dille ilgili iyileştirmeler veya geri bildirimler için fikirleriniz mi var? <discourseLink>Discourse forumumuzda</discourseLink> bize katılın ve bize bildirin.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™, en yeni teknolojilerle etkileşimli yapay zekâ modelleri geliştiren araştırmacılar için <docsLink>açık kaynaklı bir araç takımıdır</docsLink>.
+resource-deepspeech-info = Mozilla’nın açık kaynaklı ses tanıma motoru Deep Speech, konuşma tanıma uygulamaları oluşturmak için kullanılabilir. Nasıl başlayacağınızı öğrenmek için <githubLink>Github genel bakışımızı</githubLink> okuyun veya <discourseLink>DeepSpeech Discourse</discourseLink>'a katılın.
+community-playbook = Topluluk Başucu Kitabı
 data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
 data-other-ted-name = TED-LIUM Korpusu
 data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur.
@@ -829,6 +864,33 @@ why-delete-recordings =
     Kayıtlarınızın neden silinmesini istediğinizi bize bildirir misiniz?
 profile-form-delete = Profilimi sil
 
+## Profile Download
+
+download-q = Verilerinizi indirmeniz mi gerekiyor?
+download-info = Ne indirmek istediğinizi belirtin:
+download-profile-title = Profil
+download-profile-info = E-posta, kullanıcı adı ve demografik bilgileri içerir. Hemen indirilebilir
+download-profile-size = Birkaç bayt
+download-recordings-title = Kayıtlar
+download-recordings-info = MP3'leri ve ilgili cümleleri içerir. Hazırlanması biraz zaman alabilir
+download-recordings-size = Genellikle birkaç megabayt
+download-recordings-unavailable = Başka bir istek devam ederken kayıtlarınızı talep edemezsiniz.
+download-size = Boyut
+download-selected = Seçilmiş
+download-start = Profil verilerini indir
+download-request = Kayıtları iste
+download-requests = Geçmiş kayıt indirme istekleri
+download-requests-info = Kayıtlarınızı talep ettiğinizde, bunları bir veya daha fazla ZIP dosyası halinde derleriz. İşte geçmişteki istekleriniz:
+download-request-button = İndir
+download-request-title = { $created }
+download-request-description = { $clipCount } ses kaydı, toplam arşiv boyutu { $size }. Süre sonu: { $expires }.
+download-request-assembling-description = Dosyalarınız derleniyor. Lütfen daha sonra tekrar kontrol edin.
+download-request-refresh-button = Yenile
+download-request-modal-title = İndirme Bağlantıları
+download-request-link-text = Zip { $offset } / { $total }
+download-request-metadata-link = Cümle metni
+download-request-link-single = Ayrıca doğrudan URL'leri kopyalayıp favori indirme yöneticinize yapıştırabilirsiniz. Bu bağlantılar 12 saat sonra geçersiz olacak, ancak istediğiniz zaman yenilerini oluşturmak için bu sayfaya geri dönebilirsiniz.
+
 ## Landing
 
 welcome-staff = Hoş geldiniz { $company } ekibi!
@@ -871,3 +933,42 @@ demo-listen-subtitle = Katkıda bulunmaya hazır mısınız?
 
 demo-dashboard-card-header = Kişisel panolar, bireysel ilerlemeniz ve topluluk ilerlemesi konusunda sizi bilgilendirir.
 demo-dashboard-card-body = Bağışlanan ve doğrulanan her ses kaydı için hesap panolarınız, katkıda bulunmuş olduğunuz her dildeki en son ilerlemenizi yansıtacak şekilde güncellenir.<br/><br/> Evet, birden fazla dilde katkıda bulunabilirsiniz! İstatistiklerinizi takip etmek, topluluktaki diğer kişilerle birlikte ne yaptığınızı görmek ve günlük veya haftalık katılım hedefleri belirlemek için panoları kullanabilirsiniz.
+
+## Validation criteria
+
+contribution-criteria-nav = Kriter
+contribution-criteria-link = Katkıda bulunma kriterlerini anlayın
+contribution-criteria-page-title = Katkıda bulunma kriterleri
+contribution-criteria-page-description = Ses kayıtlarını dinlerken nelere dikkat etmeniz gerektiğini öğrenin. Böylece kendi ses kayıtlarınızı da zenginleştirebilirsiniz.
+contribution-for-example = örnek
+contribution-misreadings-title = Yanlış okumalar
+contribution-misreadings-description = Dinlediğiniz kaydın metinle tam olarak aynı olup olmadığını çok dikkatli kontrol edin. Küçük hatalar olsa bile reddedin. <br />Şunlar çok yaygın yapılan hatalardır:
+contribution-misreadings-description-extended-list-4 = Kaydın aceleyle sonlandırılması nedeniyle son kelimenin sonunun kaydedilmemesi.
+contribution-misreadings-description-extended-list-5 = Bir kelimeyi okurken birkaç deneme yapma.
+contribution-misreadings-example-1-title = Bu hastalıklar vücudunu sarsmıştı.
+contribution-misreadings-example-2-title = Bu hastalık vücudunu sarsmıştı.
+contribution-misreadings-example-2-explanation = [‘hastalıklar’ olmalıydı]
+contribution-misreadings-example-3-title = Bu hastalıklar vücudunu sars-
+contribution-misreadings-example-3-explanation = [Kayıt son sözcük tamamlanmadan bitirilmiş]
+contribution-misreadings-example-4-title = Bu hastalıklar onun vücudunu sarsmıştı.
+contribution-misreadings-example-4-explanation = [Metindekinden daha fazla sözcük kaydedilmiş]
+contribution-misreadings-example-8-explanation = [Uyuşmayan içerik]
+contribution-varying-pronunciations-title = Farklı telaffuzlar
+contribution-varying-pronunciations-example-1-title = Yarın geliyordu.
+contribution-varying-pronunciations-example-1-explanation = ['Geliyordu' ya da 'geliyodu' olarak okunabilir]
+contribution-varying-pronunciations-example-2-title = Oparlörü biraz kısar mısın?
+contribution-varying-pronunciations-example-2-explanation = ['Hoparlör' kelimesini 'oparlör', 'apörlö' gibi okumak yanlıştır]
+contribution-background-noise-title = Arka plan gürültüsü
+contribution-background-noise-description-extended = Kayıt kesiliyorsa veya çatırtılıysa, metnin tamamı da duyulamıyorsa reddedin.
+contribution-background-noise-example-1-fixed-title = <strong>[HAPŞIRMA]</strong> Bu hastalıklar vücudunu <strong>[ÖKSÜRME]</strong> sarsmıştı.
+contribution-background-noise-example-2-fixed-title = Bu hastal <strong>[ÖKSÜRME]</strong> vücudunu sarsmıştı.
+contribution-background-noise-example-2-explanation = [Metnin bir kısmı duyulamıyor]
+contribution-background-noise-example-3-fixed-title = <strong>[ÇATIRTI]</strong> hastalıklar vücudunu <strong>[ÇATIRTI]</strong> -mıştı.
+contribution-background-voices-title = Arka plan sesleri
+contribution-volume-title = Ses seviyesi
+contribution-volume-description = Okuyucular arasında ses seviyesi ile ilgili doğal farklılıklar olacaktır. Yalnızca ses kaydı bozulacak kadar yüksekse veya (daha yaygın olarak) yazılı metne bağlı kalmadan duyulamayacak kadar düşük sesle söyleniyorsa reddedin.
+contribution-reader-effects-title = Okuyucu efektleri
+contribution-reader-effects-description = Çoğu kayıt, doğal sesleriyle konuşan insanlara aittir. Ara sıra önünüze gelirse bağırılan, fısıldanan veya açıkça "dramatik" bir sesle yapılan standart dışı kayıtları da kabul edebilirsiniz. Lütfen şarkı biçiminde söylenen kayıtları ve bilgisayar tarafından sentezlenmiş sesleri reddedin.
+contribution-just-unsure-title = Emin değil misiniz?
+see-more = <chevron></chevron>Devamını gör
+see-less = <chevron></chevron>Daha azını gör

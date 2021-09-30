@@ -74,6 +74,8 @@ hy-AM = Armenian
 hyw = Armenian Western
 ia = Interlingua
 id = Indonesian
+ie = Interlingue
+ig = Igbo
 is = Icelandic
 it = Italian
 izh = Izhorian
@@ -82,6 +84,7 @@ ka = Georgian
 kaa = Karakalpak
 kab = Kabyle
 kbd = Kabardian
+ki = Kikuyu
 kk = Kazakh
 kmr = Kurmanji Kurdish
 ko = Korean
@@ -106,11 +109,13 @@ ms = Malay
 mt = Maltese
 my = Burmese
 myv = Erzya
+nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nyn = Nyankole
 oc = Occitan
 or = Odia
 pa-IN = Punjabi
@@ -124,6 +129,7 @@ ro = Romanian
 ru = Russian
 rw = Kinyarwanda
 sah = Sakha
+sat = Santali (Ol Chiki)
 sc = Sardinian
 scn = Sicilian
 shi = Shilha
@@ -144,6 +150,7 @@ tl = Tagalog
 tr = Turkish
 tt = Tatar
 tw = Twi
+ty = Tahitian
 uby = Ubykh
 udm = Udmurt
 ug = Uyghur
@@ -153,6 +160,7 @@ uz = Uzbek
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+yi = Yiddish
 yo = Yoruba
 yue = Cantonese
 zh-CN = Chinese (China)
@@ -181,8 +189,8 @@ back-top = Back to Top
 logout = Log Out
 
 ## Home Page
-home-title =
-  Common Voice is Mozilla's initiative to help teach machines how real people speak.
+home-title = Common Voice is Mozilla's initiative to help teach machines how real people speak.
+default-tagline = Mozilla Common Voice is an initiative to help teach machines how real people speak.
 home-cta = Speak up, contribute here!
 wall-of-text-start =
   Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice
@@ -287,6 +295,9 @@ shortcut-record-toggle-label = Record/Stop
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Re-record clip
 
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Discard ongoing recording
+
 shortcut-submit = Return
 shortcut-submit-label = Submit clips
 
@@ -384,8 +395,10 @@ faq-title = Frequently Asked Questions
 faq-what-cv-q = What is Common Voice?
 faq-what-cv-a =
     Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is part of Mozilla’s initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
+faq-what-cv-a-2 =
+    Voice recognition technology is revolutionizing the way we interact with machines, but the currently available systems are expensive and proprietary. Mozilla Common Voice is an initiative to make voice recognition technologies better and more accessible for everyone. Common Voice is a massive global database of donated voices that lets anyone quickly and easily train voice-enabled apps in potentially every language.
 
-    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
+    We're not only collecting voice samples  in widely spoken languages but also in those with a smaller population of speakers. Publishing a diverse dataset of voices will empower developers, entrepreneurs, and communities to address this gap themselves.
 
 faq-why-important-q = Why is it important?
 faq-why-important-a =
@@ -459,6 +472,7 @@ faq-search-for-answers =
 about-title = Why Common Voice?
 about-subtitle = Common Voice is part of Mozilla's initiative to help teach machines how real people speak. In addition to the Common Voice dataset, we’re also building an open source speech recognition engine called Deep Speech.
 about-header-description = Both of these projects are part of our efforts to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
+about-header-description-2 = This project is an effort to bridge the digital speech divide. Voice recognition technologies bring a human dimension to our devices, but developers need an enormous amount of voice data to build them. Currently, most of that data is expensive and proprietary.
     We want to make voice data freely and publicly available, and make sure the data represents the diversity of real people. Together we can make voice recognition better for everyone.
 how-does-it-work-title = How does it work?
 how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
@@ -591,8 +605,13 @@ subscribe = Subscribe
 get-started-speech = Get Started with Speech Recognition
 other-datasets = Other Voice Datasets
 feedback-q = Have Feedback?
-deepspeech-info = The Common Voice dataset complements Mozilla’s open source voice recognition engine Deep Speech, which you can use to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
-common-voice-info-new = Have questions about Common Voice? Ideas for improvements or feedback about a specific language? Join us on our <discourseLink>Discourse forum</discourseLink> and let us know.
+
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is an <docsLink>open-source toolkit</docsLink> for researchers developing state-of-the-art conversational AI models.
+resource-deepspeech-info = Mozilla’s open source voice recognition engine Deep Speech can be used to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> is dedicated to open speech technology. Their projects include deep learning based STT and TTS engines.
+community-playbook = Community Playbook
+resource-playbook-info = <playbookLink>Find helpful guidance</playbookLink> on the entire Common Voice journey, from localisation to dataset usage, as well as how to connect with our community.
+
 data-other-librispeech-description = LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.
@@ -851,6 +870,35 @@ why-delete-recordings = Common Voice recordings are used by academics, small bus
     Can you let us know why you would like your recordings deleted?
 profile-form-delete = Delete Profile
 
+## Profile Download
+download-q = Need to download your data?
+download-info = Tell us what you'd like to download:
+download-profile-title = Profile
+download-profile-info = Includes email, username & demographic info, available right away
+download-profile-size = A few bytes
+download-recordings-title = Recordings
+download-recordings-info = Includes mp3s and related sentences, may take some time to prepare
+download-recordings-size = Typically megabytes
+download-recordings-unavailable = You cannot request your recordings while another request is already in progress.
+download-recently-requested = You can request a new takeout of your recordings every { $days } days.
+download-size = Size
+download-selected = Selected
+download-start = Download profile data
+download-request = Request recordings
+download-requests = Past recordings download requests
+download-requests-info = When you request your recordings, we compile them into one or multiple ZIP files. Here are your past requests:
+download-request-button = Download
+download-request-title = { $created }
+download-request-description = { $clipCount } voice clips, total archive size { $size }. Expires { $expires }.
+download-request-archive-single = Single ZIP file containing
+download-request-archive-multiple = Split into { $archiveCount } ZIP files containing
+download-request-assembling-description = Your files are being assembled. Please check again later.
+download-request-refresh-button = Refresh
+download-request-modal-title = Download Links
+download-request-modal-description = Here are the links to download your ZIP files.
+download-request-link-text = Zip #{ $offset } of { $total }
+download-request-metadata-link = Sentence text
+download-request-link-single = You can also copy and paste the direct URLs into your favorite download manager. They will expire in 12 hours, but you can come back to this page to generate new ones any time.
 
 ## Landing
 welcome-staff = Welcome { $company } staff!
@@ -890,3 +938,70 @@ demo-listen-subtitle = Ready to contribute?
 ## Demo Dashboard
 demo-dashboard-card-header = Personal dashboards keep you up-to-date with individual and community progress.
 demo-dashboard-card-body = For every voice clip donated, and every audio clip validated, your account dashboards are updated to reflect your latest progress in each language you contribute to. Yes, you can contribute to more than one!<br/><br/> Use dashboards to track your stats, see how you're doing alongside others in the community, and set daily or weekly contribution goals.
+
+
+
+## Validation criteria
+contribution-criteria-nav = Criteria
+contribution-criteria-link = Understand contribution criteria
+
+contribution-criteria-page-title = Contribution Criteria
+contribution-criteria-page-description = Understand what to look for when listening to voice clips and help make your voice recordings richer too!
+contribution-for-example = for example
+
+contribution-misreadings-title = Misreadings
+contribution-misreadings-description = When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. <br />Very common mistakes include:
+contribution-misreadings-description-extended-list-1 = Missing <strong>'A'</strong> or <strong>'The'</strong> at the beginning of the recording.
+contribution-misreadings-description-extended-list-2 = Missing an <strong>'s'</strong> at the end of a word.
+contribution-misreadings-description-extended-list-3 = Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.
+contribution-misreadings-description-extended-list-4 = Missing the end of the last word by cutting off the recording too quickly.
+contribution-misreadings-description-extended-list-5 = Taking several attempts to read a word.
+
+contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
+contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
+contribution-misreadings-example-2-explanation = [Should be ‘dinosaurs’]
+contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
+contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
+contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.
+contribution-misreadings-example-4-explanation = [More has been recorded than the required text]
+contribution-misreadings-example-5-title = We are going out to get coffee.
+contribution-misreadings-example-6-title = We’re going out to get coffee.
+contribution-misreadings-example-6-explanation = [Should be “We are”]
+contribution-misreadings-example-7-title = We are going out to get a coffee.
+contribution-misreadings-example-7-explanation = [No ‘a’ in the original text]
+contribution-misreadings-example-8-title = The bumblebee sped by.
+contribution-misreadings-example-8-explanation = [Mismatched content]
+
+contribution-varying-pronunciations-title = Varying Pronunciations
+contribution-varying-pronunciations-description = Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.
+contribution-varying-pronunciations-description-extended = On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.
+contribution-varying-pronunciations-example-1-title = On his head he wore a beret.
+contribution-varying-pronunciations-example-1-explanation = [‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]
+contribution-varying-pronunciations-example-2-title = His hand was rais-ed.
+contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in English is always pronounced as one syllable, not two]
+
+contribution-background-noise-title = Background Noise
+contribution-background-noise-description = We want the machine learning algorithms to able to handle a variety of background noise, and even relatively loud noises can be accepted provided that they don’t prevent you from hearing the entirety of the text. Quiet background music is OK; music loud enough to prevent you from hearing each and every word is not.
+contribution-background-noise-description-extended = If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.
+contribution-background-noise-example-1-fixed-title = <strong>[Sneeze]</strong> The giant dinosaurs of the <strong>[cough]</strong> Triassic.
+contribution-background-noise-example-2-fixed-title = The giant dino <strong>[cough]</strong> the Triassic.
+contribution-background-noise-example-2-explanation = [Part of the text can’t be heard]
+contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> giant dinosaurs of <strong>[crackle]</strong> -riassic.
+
+contribution-background-voices-title = Background Voices
+contribution-background-voices-description = A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.
+contribution-background-voices-description-extended = If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.
+contribution-background-voices-example-1-title = The giant dinosaurs of the Triassic. <strong>[read by one voice]</strong>
+contribution-background-voices-example-1-explanation = Are you coming? <strong>[called by another]</strong>
+
+contribution-volume-title = Volume
+contribution-volume-description = There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.
+
+contribution-reader-effects-title = Reader Effects
+contribution-reader-effects-description = Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.
+
+contribution-just-unsure-title = Just Unsure?
+contribution-just-unsure-description = If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.
+
+see-more = <chevron></chevron>See more
+see-less = <chevron></chevron>See less

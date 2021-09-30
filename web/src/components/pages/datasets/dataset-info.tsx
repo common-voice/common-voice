@@ -25,7 +25,6 @@ import {
   TextButton,
 } from '../../ui/ui';
 import CircleStats, { CircleStat } from './circle-stats';
-import Dots from './dots';
 import releases from './stats';
 import {
   DatasetPropsFromState,
@@ -35,9 +34,10 @@ import {
 } from './types';
 import './dataset-info.css';
 import URLS from '../../../urls';
+import { byteToSize } from '../../../utility';
 
-export const CURRENT_RELEASE = 'cv-corpus-6.1-2020-12-11';
-const SEGMENT_RELEASE = 'cv-corpus-6.1-singleword';
+export const CURRENT_RELEASE = 'cv-corpus-7.0-2021-07-21';
+const SEGMENT_RELEASE = 'cv-corpus-7.0-singleword';
 
 const DEFAULT_CATEGORY_COUNT = 2;
 
@@ -98,15 +98,6 @@ type Props = LocalePropsFromState & WithLocalizationProps;
 
 const formatHrs = (hrs: number) => {
   return hrs < 1 ? Math.floor(hrs * 100) / 100 : Math.floor(hrs);
-};
-
-const byteToSize = (bytes: number, getString: Function) => {
-  const megabytes = bytes / 1024 / 1024;
-  return megabytes < 1
-    ? Math.round(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
-    : megabytes > 1024
-    ? Math.round(megabytes / 1024) + ' ' + getString('size-gigabyte')
-    : Math.round(megabytes) + ' ' + getString('size-megabyte');
 };
 
 function renderStats(stats: any, bundleState: BundleState) {

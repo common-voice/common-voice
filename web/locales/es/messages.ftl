@@ -106,17 +106,22 @@ mn = mongol
 mos = Mossi
 mr = Maratí
 mrj = Mari occidental
+ms = Malayo
 mt = Maltés
 my = Birmano
 myv = Erzya
 nb-NO = Noruego (Bokmål)
 ne-NP = Nepalí
+nia = Nias
 nl = Neerlandés
 nn-NO = Noruego Nynorsk
+nyn = Nyankole
 oc = occitano
 or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
 pl = Polaco
+ps = Pastún
 pt = Portugués
 rm-sursilv = romanche sursilvano
 rm-vallader = Romansh Vallader
@@ -126,6 +131,7 @@ rw = Kinyarwanda
 sah = Yakuto
 sc = sardo
 scn = Siciliano
+shi = Tashelhit
 si = Cingalés
 sk = Eslovaco
 sl = Esloveno
@@ -142,14 +148,17 @@ th = Tailandés
 tl = Tagalo
 tr = Turco
 tt = Tártaro
+tw = Twi
 uby = Ubijé
 udm = Udmurto
+ug = Uigur
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
 vec = Veneciano
 vi = vietnamita
 vot = Votic
+yo = Yoruba
 yue = Cantonés
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
@@ -182,6 +191,7 @@ logout = Cerrar sesión
 ## Home Page
 
 home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a enseñarles a las máquinas cómo hablan las personas.
+default-tagline = Mozilla Common Voice es una iniciativa para ayudar a enseñar a las máquinas cómo hablan las personas.
 home-cta = Habla, ¡contribuye aquí!
 wall-of-text-start = La voz es natural, la voz es humana. Es por eso que estamos fascinados con crear una tecnología de voz para nuestras maquinas. Pero para crear un sistema de voz, una cantidad extremadamente grande de muestras de voz es requerida.
 wall-of-text-more-mobile = La mayor parte de los datos usados por las grandes compañías no esta disponible para las personas. Nosotros pensamos que eso sofoca la innovación. Así que lanzamos el proyecto Common Voice, un proyecto para hacer que el reconocimiento de voz esté disponible para todos.
@@ -275,6 +285,8 @@ shortcut-record-toggle = g
 shortcut-record-toggle-label = Grabar/Detener
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Grabar de nuevo el clip
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Descartar la grabación en curso
 shortcut-submit = Volver
 shortcut-submit-label = Enviar grabaciones
 request-language-text = ¿Aún no encuentras tu idioma en Common Voice?
@@ -356,6 +368,7 @@ browse-file = Arrastra y suelta o <browseWrap>navega</browseWrap>
 connect-gravatar = Conectar con Gravatar
 gravatar_not_found = No se ha encontrado ningún gravatar para tu correo electrónico
 file_too_large = El archivo seleccionado es demasiado grande
+avatar-uploaded = Avatar subido
 max-file-size = { $kb }kb máx
 
 ## Profile - Email
@@ -556,8 +569,6 @@ subscribe = Suscribirse
 get-started-speech = Empieza hoy mismo con el Reconocimiento de voz
 other-datasets = Otras bases de datos de voces
 feedback-q = ¿Tienes algún comentario?
-deepspeech-info = La base de datos de Common Voice complementa el motor de reconocimiento de voz de código abierto de Deep Speech, que puedes utilizar para crear aplicaciones de reconocimiento de voz. Consulta nuestra <githubLink>sinopsis de Github</githubLink> o únete a <discourseLink>DeepSpeech Discourse</discourseLink> para saber más sobre cómo y por dónde empezar.
-common-voice-info-new = ¿Tienes dudas sobre Common Voice? ¿Ideas para mejorar o comentarios de un idioma en concreto? Únete a nuestro <discourseLink>foro de Discourse</discourseLink> y cuéntanoslo.
 data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16KHz derivado de lecturas de audiolibros del proyecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
@@ -828,6 +839,19 @@ why-delete-recordings =
     ¿Nos puedes indicar por qué quieres eliminar tus grabaciones?
 profile-form-delete = Eliminar perfil
 
+## Profile Download
+
+download-q = ¿Necesitas descargar tus datos?
+download-info = Dinos qué te gustaría descargar:
+download-profile-title = Perfil
+download-recordings-title = Grabaciones
+download-size = Tamaño
+download-selected = Seleccionado
+download-request-button = Descargar
+download-request-title = { $created }
+download-request-refresh-button = Actualizar
+download-request-modal-title = Enlaces de descarga
+
 ## Landing
 
 welcome-staff = ¡Te damos la bienvenida, empleado de { $company }!
@@ -862,9 +886,23 @@ demo-account-sign-up = Enviar enlace de registro
 ## Demo Contribute
 
 demo-contribute-card-header = ¿Listo para agregar tu voz o prestar tu oído?
+demo-contribute-card-body-v2 = Ahora que sabes un poco más de Common Voice, ¿por qué no probarlo? Haz clic en el icono del micrófono para empezar a leer frases en voz alta. <br/><br/>Si prefieres revisar las contribuciones de voz de otras personas, haz clic en el icono de reproducción. Ayudarás a confirmar que las grabaciones coinciden con las oraciones escritas en pantalla.
 demo-listen-subtitle = ¿Listo para contribuir?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Los paneles personales te mantienen al día de los progresos individuales y comunitarios.
 demo-dashboard-card-body = Para cada grabación de voz donada y cada grabación de audio validada, los paneles de control de tu cuenta se actualizan para reflejar el progreso más reciente en cada idioma en el que colaboras. Sí, ¡puedes contribuir a más de uno!<br/><br/> Usa paneles para rastrear tus estadísticas, ver cómo estás haciendo junto a otros en la comunidad, y establecer objetivos de colaboración diarios o semanales.
+
+## Validation criteria
+
+contribution-criteria-nav = Criterios
+contribution-for-example = por ejemplo
+contribution-misreadings-example-2-explanation = [Debería ser ‘dinosaurios’]
+contribution-background-noise-title = Ruido de fondo
+contribution-background-noise-example-1-fixed-title = <strong>[Estornudo]</strong> Los dinosaurios gigantes del <strong>[tos]</strong> Triásico.
+contribution-background-noise-example-2-fixed-title = El dinosaurio gigan <strong>[tos]</strong> del Triásico.
+contribution-volume-title = Volumen
+contribution-reader-effects-title = Efectos del lector
+see-more = </chevron></chevron>Ver más
+see-less = <chevron></chevron>Ver menos

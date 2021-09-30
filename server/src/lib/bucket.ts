@@ -1,7 +1,11 @@
 import { S3 } from 'aws-sdk';
 import { getConfig } from '../config-helper';
 import Model from './model';
-import { Sentence, Clip } from 'common';
+import { Clip, TakeoutRequest } from 'common';
+import { PassThrough } from 'stream';
+import { ClientClip } from './takeout';
+
+const s3Zip = require('s3-zip');
 
 /**
  * Bucket
@@ -62,6 +66,19 @@ export default class Bucket {
     }
   }
 
+
+  /**
+   * Check if given file exists
+   */
+  async fileExists(path: string): Promise<any> {
+    return await this.s3
+      .headObject({
+        Bucket: getConfig().CLIP_BUCKET_NAME,
+        Key: path,
+      })
+      .promise();
+  }
+
   /**
    * Grab metadata to play clip on the front end.
    */
@@ -116,6 +133,72 @@ export default class Bucket {
     return Promise.all(clipPromises);
   }
 
+  takeoutKey(takeout: TakeoutRequest, chunkIndex: number): string {
+    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_pt_${chunkIndex}.zip`;
+  }
+
+  metadataKey(takeout: TakeoutRequest): string {
+    return `${takeout.client_id}/takeouts/${takeout.id}/takeout_${takeout.id}_metadata.txt`;
+  }
+
+  async zipTakeoutFilesToS3(
+    takeout: TakeoutRequest,
+    chunkIndex: number,
+    paths: string[]
+  ): Promise<S3.HeadObjectOutput> {
+    console.log('start takeout zipping', takeout.id);
+    const destination = this.takeoutKey(takeout, chunkIndex);
+    const bucket = getConfig().CLIP_BUCKET_NAME;
+    const passThrough = new PassThrough();
+
+    const s3pipe = s3Zip
+      .archive({ s3: this.s3, bucket }, '', paths, paths.map(path =>
+        `takeout_${takeout.id}_pt_${chunkIndex}/${ path.split('/').length > 1 ? path.split('/')[1] : path }`
+      ))
+      .pipe(passThrough);
+
+    await this.s3
+      .upload({
+        Bucket: bucket,
+        Body: passThrough,
+        Key: destination,
+        // TODO: enable this, currently bugs out s3proxy
+        // Tagging: 'Type=takeout'
+      })
+      .promise();
+
+    return await this.s3
+      .headObject({
+        Bucket: bucket,
+        Key: destination,
+      })
+      .promise();
+  }
+
+  async uploadClipMetadata(
+    takeout: TakeoutRequest,
+    clipData: ClientClip[]
+  ): Promise<S3.HeadObjectOutput> {
+    const fields = ['original_sentence_id', 'sentence', 'locale'];
+    const metadataKey = this.metadataKey(takeout);
+    let sentenceData = clipData
+      .map((clip: any) => fields.map(field => clip[field]).join('\t'))
+      .join('\n');
+    sentenceData = `${fields.join('\t')}\n${sentenceData}`;
+    const bucket = getConfig().CLIP_BUCKET_NAME;
+
+    await this.s3
+      .putObject({ Bucket: bucket, Key: metadataKey, Body: sentenceData })
+      .promise();
+
+    return await this.s3
+      .headObject({
+        Bucket: bucket,
+        Key: metadataKey,
+      })
+      .promise();
+  }
+
   getAvatarClipsUrl(path: string) {
     return this.getPublicUrl(path);
   }
@@ -124,4 +207,17 @@ export default class Bucket {
     const clip = await this.model.db.findClip(id);
     return clip ? this.getPublicUrl(clip.path) : null;
   }
+
+    /**
+   * Delete function for S3 used for removing old avatars
+   */
+  public async deletePath(path: string) {
+    await this.s3
+      .deleteObject({
+        Bucket: getConfig().CLIP_BUCKET_NAME,
+        Key: path,
+      })
+      .promise();
+  }
+
 }
