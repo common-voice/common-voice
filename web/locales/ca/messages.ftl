@@ -79,6 +79,7 @@ hyw = armeni occidental
 ia = interlingua
 id = indonesi
 ie = interlingue
+ig = igbo
 is = islandès
 it = italià
 izh = ingrià
@@ -112,11 +113,13 @@ ms = malai
 mt = maltès
 my = birmà
 myv = mordovià erza
+nan-tw = taiwanès (min nan)
 nb-NO = Bokmål noruec
 ne-NP = nepalès
 nia = nias
 nl = neerlandès
 nn-NO = noruec nynorsk
+nyn = nyankole
 oc = occità
 or = oriya
 pa-IN = panjabi
@@ -130,6 +133,7 @@ ro = romanès
 ru = rus
 rw = ruandès
 sah = iacut
+sat = santali (ol chiki)
 sc = sard
 scn = sicilià
 shi = chelha
@@ -150,6 +154,7 @@ tl = tagal
 tr = turc
 tt = tàtar
 tw = twi
+ty = tahitià
 uby = ubikh
 udm = udmurt
 ug = uigur
@@ -389,6 +394,10 @@ faq-what-cv-a =
     La tecnologia de reconeixement de veu està revolucionant la manera com interactuem amb les màquines, però els sistemes disponibles actualment són cars i privatius. El Common Voice forma part de la iniciativa de Mozilla per fer que les tecnologies de reconeixement de veu siguin millors i més accessibles per a tothom. El Common Voice és una base de dades mundial massiva de donacions de veus que permet a qualsevol persona entrenar ràpidament i fàcil les aplicacions de veu en pràcticament qualsevol llengua.
     
     No només recollim mostres de veu de llengües molt esteses; també de llengües amb una població de parlants més petita. La publicació d'un conjunt de dades diverses veus permetrà als desenvolupadors, empresaris i comunitats solucionar aquesta manca per ells mateixos. A més del conjunt de dades del Common Voice, també estem construint un motor de reconeixement de veu de codi obert anomenat Deep Speech.
+faq-what-cv-a-2 =
+    La tecnologia de reconeixement de veu està revolucionant la manera com interactuem amb les màquines, però els sistemes disponibles actualment són cars i privatius. Mozilla Common Voice és una iniciativa per a fer que les tecnologies de reconeixement de veu siguin millors i més accessibles per a tothom. El Common Voice és una base de dades mundial massiva de donacions de veus que permet a qualsevol persona entrenar ràpidament i fàcil les aplicacions de veu en pràcticament qualsevol llengua.
+    
+    No només recollim mostres de veu de llengües molt esteses; també de llengües amb una població de parlants més petita. La publicació d'un conjunt de dades diverses veus permetrà als desenvolupadors, empresaris i comunitats solucionar aquesta manca per ells mateixos.
 faq-why-important-q = Per què és important?
 faq-why-important-a =
     La parla és sovint la manera més natural de comunicar-nos entre nosaltres i les tecnologies de veu aporten aquesta comoditat als ordinadors i dispositius mòbils. Volem capacitar els desenvolupadors per crear aplicacions sorprenents de reconeixement de veu, com per exemple, traductors en temps real i assistents digitals controlats per la veu. Ara mateix, però,  la majoria de les dades de veu necessàries per construir aquests tipus d'aplicacions són cares i propietàries. Esperem que el conjunt de dades del Common Voice proporcioni als desenvolupadors allò que necessiten per innovar i que la tecnologia de la parla estigui disponible en la seva respectiva llengua.
@@ -446,6 +455,9 @@ about-title = Per què Common Voice?
 about-subtitle = El projecte Common Voice forma part de la iniciativa de Mozilla per ajudar les màquines a aprendre com parlem les persones de debò. A més del conjunt de dades del Common Voice, també estem construint un motor de reconeixement de veu de codi obert anomenat Deep Speech.
 about-header-description =
     Ambdós projectes formen part dels nostres esforços per reduir les desigualtats en el món de la veu digital. Les tecnologies de reconeixement de veu aporten una dimensió humana als nostres dispositius, però els desenvolupadors necessiten una gran quantitat de dades de veu per crear-les. Actualment, la majoria d'aquestes dades són cares i propietàries.
+    Volem que les dades de veu siguin lliures i públiques, i garantir que les dades representin la diversitat de la gent real. Junts podem fer que el reconeixement de veu sigui millor per a tothom.
+about-header-description-2 =
+    Aquest projecte és un esforç per a reduir les desigualtats en el món de la veu digital. Les tecnologies de reconeixement de veu aporten una dimensió humana als nostres dispositius, però els desenvolupadors necessiten una gran quantitat de dades de veu per crear-les. Actualment, la majoria d'aquestes dades són cares i propietàries.
     Volem que les dades de veu siguin lliures i públiques, i garantir que les dades representin la diversitat de la gent real. Junts podem fer que el reconeixement de veu sigui millor per a tothom.
 how-does-it-work-title = Com funciona?
 how-does-it-work-text = Estem creant de forma col·laborativa un conjunt de dades de veu obert. Doneu la vostra veu, valideu la precisió dels talls d'altres persones i feu que el conjunt de dades sigui millor per a tothom.
@@ -578,6 +590,7 @@ subscribe = Subscriu-m'hi
 get-started-speech = Introducció al reconeixement de veu
 other-datasets = Altres conjunts de dades de veu
 feedback-q = Teniu algun comentari?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ és un <docsLink>joc d'eines de codi obert</docsLink> per a investigadors que desenvolupen models de conversa d'IA d'última generació.
 data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM es va crear a partir d'enregistraments d'àudio i llurs transcripcions disponibles en el lloc web de TED.
