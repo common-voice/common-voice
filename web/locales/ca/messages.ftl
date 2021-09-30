@@ -78,6 +78,7 @@ hy-AM = armeni
 hyw = armeni occidental
 ia = interlingua
 id = indonesi
+ie = interlingue
 is = islandès
 it = italià
 izh = ingrià
@@ -86,6 +87,7 @@ ka = georgià
 kaa = karakalpak
 kab = cabilenc
 kbd = kabardí
+ki = kikuiu
 kk = kazakh
 kmr = kurd del nord
 ko = coreà
@@ -157,6 +159,7 @@ uz = uzbek
 vec = vènet
 vi = vietnamita
 vot = vòtic
+yi = ídix
 yo = ioruba
 yue = cantonès
 zh-CN = xinès (Xina)
@@ -283,6 +286,7 @@ shortcut-record-toggle = e
 shortcut-record-toggle-label = Enregistra/atura
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Torna a enregistrar el tall
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Retorn
 shortcut-submit-label = Envia els talls
 request-language-text = No trobeu la vostra llengua al Common Voice?
@@ -572,8 +576,6 @@ subscribe = Subscriu-m'hi
 get-started-speech = Introducció al reconeixement de veu
 other-datasets = Altres conjunts de dades de veu
 feedback-q = Teniu algun comentari?
-deepspeech-info = El conjunt de dades del Common Voice complementa el motor de reconeixement de veu de codi obert Deep Speech de Mozilla, que podeu utilitzar per crear aplicacions de reconeixement de veu. Llegiu-ne la <githubLink>descripció general al Github</githubLink> o visiteu el <discourseLink>fòrum DeepSpeech al Discourse</discourseLink> per obtenir informació sobre com començar.
-common-voice-info-new = Teniu cap pregunta sobre el Common Voice? Idees de millora o comentaris sobre una llengua en particular? Uniu-vos al <discourseLink>fòrum Discourse</discourseLink> i feu-nos-ho saber.
 data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM es va crear a partir d'enregistraments d'àudio i llurs transcripcions disponibles en el lloc web de TED.
@@ -849,6 +851,9 @@ why-delete-recordings =
     Podríeu fer-nos saber per què voleu suprimir els vostres enregistraments?
 profile-form-delete = Suprimeix el perfil
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Personal de { $company }, us donem la benvinguda!
@@ -915,11 +920,11 @@ contribution-misreadings-example-3-explanation = [Tall d'enregistrament abans de
 contribution-misreadings-example-4-title = Els grans dinosaures del Triàsic. Sí.
 contribution-misreadings-example-4-explanation = [S'han enregistrat més paraules de les indicades en el text]
 contribution-misreadings-example-5-title = Anem en tren a Tarragona.
-contribution-misreadings-example-5-explanation = [Contingut no coincident]
 contribution-misreadings-example-6-title = 'Nem en tren a Tarragona.
 contribution-misreadings-example-6-explanation = [Hauria de ser «Anem»]
 contribution-misreadings-example-7-title = Anem amb tren a Tarragona.
 contribution-misreadings-example-7-explanation = [El text original indica «en»]
+contribution-misreadings-example-8-explanation = [El contingut no coincideix]
 contribution-varying-pronunciations-title = Pronunciacions variables
 contribution-varying-pronunciations-description = Tingueu cura abans de rebutjar un clip perquè el lector ha pronunciat malament una paraula. El català té una àmplia varietat de pronúncies, i potser no les heu sentit mai. No es pronuncia igual en català central, balear, valencià o septentrional. Feu confiança a aquells que parlen d’una manera diferent de la vostra.
 contribution-varying-pronunciations-description-extended = D'altra banda, si creieu que probablement el lector no s'ha trobat mai amb la paraula i simplement fa una suposició incorrecta de la pronúncia, rebutgeu el tall. Si no n'esteu segur, utilitzeu el botó Omet.
@@ -930,11 +935,7 @@ contribution-varying-pronunciations-example-2-explanation = [En català, «fixat
 contribution-background-noise-title = Soroll de fons
 contribution-background-noise-description = Volem que els algoritmes d’aprenentatge automàtic siguin capaços de manejar diversos sorolls de fons. Es poden acceptar sorolls relativament forts, sempre que no impedeixin escoltar la totalitat del text. La música de fons tranquil·la està bé; la música prou forta, que eviti que sentiu totes les paraules, no ho és.
 contribution-background-noise-description-extended = Si l'enregistrament es talla, o fa espetecs, rebutgeu-lo. Llevat que es pugui sentir la totalitat del text.
-contribution-background-noise-example-1-title = <strong>< estornut ></strong> Els grans dinosaures del <strong>< tos ></strong> Triàsic.
-contribution-background-noise-example-2-title = Els grans dino <strong>< tos ></strong> del Triàsic.
 contribution-background-noise-example-2-explanation = [No se sent part del text]
-contribution-background-noise-example-3-title = <strong>< espetec ></strong> grans dinosaures de <strong>< espetec ></strong> -riàsic.
-contribution-background-noise-example-3-explanation = [No se sent part del text]
 contribution-background-voices-title = Veus de fons
 contribution-background-voices-description = Un soroll de fons tranquil està bé, però no volem que hi hagi veus addicionals que puguin fer que un algoritme informàtic identifiqui paraules que no apareixen en el text escrit. Si podeu sentir paraules diferents a part de les del text, s'hauria de rebutjar el clip. Normalment, això passa si s'ha deixat el televisor encès o si hi ha una conversa a prop.
 contribution-background-voices-description-extended = Si l'enregistrament es talla, o fa espetecs, rebutgeu-lo. Llevat que se senti la totalitat del text.
