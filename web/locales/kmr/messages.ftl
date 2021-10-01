@@ -78,6 +78,8 @@ hy-AM = Ermenkî
 hyw = Ermenkiya Rojavayî
 ia = Interlingua
 id = Indonezî
+ie = Interlingue
+ig = Igbo
 is = Îzlandî
 it = Îtalî
 izh = Îzhoriyanî
@@ -86,6 +88,7 @@ ka = Gurcî
 kaa = Karakalpakî
 kab = Kabîlî
 kbd = Kabardiyanî
+ki = Kikuyu
 kk = Qazaxî
 kmr = Kurdî (Kurmancî)
 ko = Koreyî
@@ -96,6 +99,7 @@ lg = Lugandayî
 lij = Liguriyanî
 lt = Lîtwanî
 lv = Latviyayî
+mai = Maithili
 mdf = Mokşayî
 mg = Malagasî
 mhr = Meadow Marî
@@ -103,18 +107,23 @@ mk = Makedonî
 ml = Malayalamî
 mn = Mongolî
 mos = Moreyî
+mr = Marathi
 mrj = Mariya Çiyayî
 ms = Malezî
 mt = Maltayî
 my = Burmayî
 myv = Erzayî
+nan-tw = Taywanî (Minnan)
 nb-NO = Norwecî (bokmål)
 ne-NP = Nepalî
+nia = Nias
 nl = Holendî
 nn-NO = Norwecî (nynorsk)
+nyn = Nyankole
 oc = Oksîtanî
 or = Odiayî
 pa-IN = Puncabî
+pap-AW = Papiamento (Aruba)
 pl = Polonî
 ps = Peştûyî
 pt = Portugalî
@@ -124,11 +133,14 @@ ro = Romanî
 ru = Rûsî
 rw = Kînyariwandayî
 sah = Saxayî
+sat = Santali (Ol Chiki)
 sc = Sardînî
 scn = Sicîlî
+shi = Shilha
 si = Sinhalayî
 sk = Slovakî
 sl = Slovenî
+so = Somalî
 sq = Albanî
 sr = Sirbî
 sv-SE = Swêdî
@@ -141,14 +153,19 @@ th = Tayî
 tl = Tagalogî
 tr = Tirkî
 tt = Teterî
+tw = Twi
+ty = Tahitian
 uby = Ûbîxî
 udm = Udmurtî
+ug = Uyghurî
 uk = Ukraynî
 ur = Urdûyî
 uz = Ozbekî
 vec = Venedîkî
 vi = Viyetnamî
 vot = Votîkî
+yi = Yîdîş
+yo = Yoruba
 yue = Kantonî
 zh-CN = Çînî (Çîn)
 zh-HK = Çînî (Hong Kong)
@@ -181,6 +198,7 @@ logout = Derkeve
 ## Home Page
 
 home-title = Common Voice hewldaneke Mozillayê ye, ew çawaniya axaftina mirovan fêrî makîneyan dike ji bo ku makîne jî mîna mirovan rast biaxivin.
+default-tagline = Mozilla Common Voice hewldanek e û armanca wê ev e ku fêrî makenîneyan bike ka mirovên rastîn çawa diaxivin.
 home-cta = Biaxive, piştgiriyê bide!
 wall-of-text-start =
     Deng xwezayî ye, deng mirovî ye. Ji ber vê em bi hindê re eleqedar dibin ku ji bo makîneyên xwe teknolojiyên
@@ -292,6 +310,10 @@ shortcut-record-toggle = t
 shortcut-record-toggle-label = Tomar bike/Rawestîne
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Dîsa tomar bike
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Tomara tê kirin jê bibe
+shortcut-submit = Vegere
+shortcut-submit-label = Tomaran bişîne
 request-language-text = Tu zimanê xwe li ser Common Voicê nabînî?¶
 request-language-text-learn = Bizane bê tu çawa dikarî li vir daxwaz bikî!
 request-language-button = Zimanekî bixwaze
@@ -365,26 +387,19 @@ skip-submission-description = Di dema şandina beşdariyê de piştî ku li 'Bi�
 skip-submission-note = Not: Ji bo guhertina cureya beşdariyê divê tu Axaftinê an Jî Guhdarîkirinê hilbijêrî.
 off = Girtî
 on = Vekirî
-avatar-clip-title = Avatarê xwe bipeyivîne
-change-your-avatar-clip = Tu dixwazî tomara dengê xwe biguherînî?
-recording-in-progress = Tomarkirina deng berdewam e
-avatar-clip-recorded = Avatara te êdî klîbeke dengî jî dihewîne!
-record-voice-wave = DENGÊ XWE TOMAR BIKE
-retry-voice-wave-recording = DÎSA BICERIBÎNE
-re-record = DÎSA TOMAR BIKE
-delete-voice = JÊ BIBE
-recording-voice-wave = Tê tomarkirin
-delete-voice-clip = an jî  klîba dengê jê bibe
-ready-to-upload = Lê bar bike
-avatar-clip-fact = Ev rastî ji berê ve tê zanîn ku gava xwînerek li raxistina rûpelekê dinêre, dê bal û dîqeta wî ji ber naveroka wê ya nivîskî ve bê pelişandin.
-recreate-voice = Dengê xwe dîsa tomar bike
-cancel-avatar-clip-recording = Betal bike
-about-avatar-clip-recording = Klîbeke dengî biafirîne û bike parçeyek ji profîla xwe. Dema ku hin kes bên profîla te ew ê karibin li vê klîbê guhdarî bikin.
+
+## Profile - Email
+
 browse-file-title = Dosyeya wêneyê bar bike
 browse-file = Biherikîne û bihêle an jî <browseWrap>Bibîne</browseWrap>
 connect-gravatar = Bi Gravatarê ve girêde
 gravatar_not_found = Ti gravatarên bi emaîla te ve girêdayî nehate dîtin
 file_too_large = Dosyeya hatiye bijartin pir mezin e
+avatar-uploaded = Avatar hat lêbarkirin
+max-file-size = herî zêde { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Abonetiyan birêve bibe
 manage-email-subscriptions = Abonetiyên emaîlê birêve bibe
 email-already-used = Emaîl jixwe ji bo hesabeke din tê bikaranîn
@@ -556,7 +571,6 @@ subscribe = Bibe abone
 get-started-speech = Bi Nasîna Axaftinê Dest Pê Bike
 other-datasets = Komdaneyên din ên dengî
 feedback-q = Pêşniyara te heye?
-common-voice-info-new = Hin pirsên te li ser Common Voiceê heye? Fikrên te ji bo baştirkirinê hene an jî tu dixwazî li ser zimanekî taybet paşragihandinê bişînî? Li ser <discourseLink>Forûma Discourseê</discourseLink> ya me tevlî me bibe û hayê me jê çêke.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Danegeha TED-LIUM'ê ji danûstandinên dengî û transkrîpsiyonên wan ên li ser malpera TED'ê hatiye çêkirin.
 data-other-voxforge-description = VoxForge ji bo berhevkirina transkrîpsiyona xeberdanan bi Motorên Naskirina Xeberdanan yê Belaş-ji-bo-bikaranînê û Çavkanî-azad hatiye avakirin.
@@ -810,6 +824,12 @@ why-delete-recordings =
     Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?
 profile-form-delete = Profîlê jê bibe
 
+## Profile Download
+
+download-request-refresh-button = Nû bike
+download-request-modal-title = Girêdankên jêbarkirinê
+download-request-modal-description = Girêdanka jêbarkirina pelên te yên ZIP li virê ye.
+
 ## Landing
 
 welcome-staff = Tîma { $company } hûn bi xêr hatin
@@ -851,3 +871,6 @@ demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Destgehên şexsî derbarê pêşveçûna te û pêşveçûna civakê de te agahdar dike.
+
+## Validation criteria
+
