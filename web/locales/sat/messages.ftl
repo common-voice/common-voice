@@ -390,7 +390,9 @@ faq-search-for-answers =
 about-title = Common Voice ᱫᱚ ᱪᱮᱫᱟᱜ?
 how-does-it-work-title = ᱱᱚᱶᱟ ᱫᱚ ᱪᱮᱞᱠᱟ ᱠᱟᱹᱢᱤᱭᱟᱭ?
 about-speak = ᱨᱚᱲ ᱢᱮ
+about-listen-queue = ᱟᱧᱡᱚᱢᱼᱫᱷᱟᱹᱲ
 about-listen = ᱟᱧᱡᱚᱢ ᱢᱮ
+about-is-it-valid = ᱱᱚᱶᱟ ᱠᱞᱤᱯ ᱫᱚ ᱥᱟᱹᱨᱤᱭᱟᱹ ᱜᱭᱟ ᱥᱮ?
 about-yes-votes = ≥ ᱒ ᱦᱮᱸ ᱵᱷᱚᱴ
 about-no-votes = ≥ ᱒ ᱵᱟᱝ ᱵᱷᱚᱴ
 about-dataset-new = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ
@@ -599,11 +601,15 @@ awards = ᱥᱤᱨᱯᱷᱟᱹ ᱠᱚ
 you = ᱟᱢ
 everyone = ᱡᱷᱚᱛᱚᱠᱚ
 contribution-activity = ᱮᱱᱮᱢ ᱠᱟᱹᱢᱤ
+set-visibility = ᱤᱧᱟᱜ ᱧᱮᱞᱚᱜ ᱠᱚ ᱥᱮᱴ ᱢᱮ
 
 ## Custom Goals
 
 both-speak-and-listen = ᱵᱟᱱᱟᱨᱜᱮ
 both-speak-and-listen-long = ᱵᱟᱱᱟᱨᱜᱮ (ᱨᱚᱲ ᱢᱮ ᱟᱨ ᱟᱡᱚᱢ ᱢᱮ)
+easy-difficulty = ᱟᱞᱜᱟ
+average-difficulty = ᱮᱣᱨᱮᱡᱽ
+difficult-difficulty = ᱟᱸᱱᱴ
 pro-difficulty = ᱯᱨᱚ
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -611,6 +617,7 @@ n-clips-pluralized =
         [two] { $count } ᱠᱞᱤᱯ ᱠᱤᱱ
        *[other] { $count } ᱠᱞᱤᱯ ᱠᱚ
     }
+goal-interval-weekly = ᱦᱟᱴᱠᱤᱭᱟᱹ
 
 ## Profile Delete
 
@@ -620,6 +627,7 @@ profile-form-delete = ᱢᱚᱦᱲᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
 
 ## Profile Download
 
+download-profile-title = ᱢᱚᱦᱲᱟ
 download-size = ᱢᱟᱯ
 download-selected = ᱵᱟᱪᱷᱟᱣᱮᱱᱟ
 download-start = ᱢᱚᱦᱚᱨ ᱰᱟᱴᱟ ᱰᱟᱩᱱᱞᱚᱰ ᱢᱮ
@@ -638,6 +646,9 @@ read-more-about = ᱟᱞᱮᱭᱟ ᱵᱟᱵᱚᱛ ᱥᱟᱦᱴᱟ ᱨᱮ ᱟᱨ�
 
 ## Demo Datasets
 
+card-button-next = ᱤᱱᱟᱹ ᱛᱟᱭᱚᱱ
+card-button-back = ᱯᱟᱹᱪᱞᱟᱹ
+demo-language-select-label = ᱯᱟᱹᱨᱥᱤ ᱠᱚ ᱵᱽᱨᱟᱩᱡᱽ ᱢᱮ
 demo-account = ᱠᱷᱟᱛᱟ
 
 ## Demo Account
