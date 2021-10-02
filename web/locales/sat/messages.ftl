@@ -663,4 +663,6 @@ demo-listen-subtitle = ᱮᱱᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱛᱮᱭᱟᱨ?
 
 ## Validation criteria
 
+contribution-for-example = ᱫᱟᱹᱭᱠᱟᱹ ᱞᱮᱠᱷᱟ ᱛᱮ
+contribution-misreadings-title = ᱵᱷᱩᱞ ᱯᱟᱲᱦᱟᱣ
 see-more = <chevron></chevron>ᱰᱷᱮᱨ ᱧᱮᱞ
