@@ -11,7 +11,7 @@ loading = Carrighende...
 email-opt-in-info = Mi diat a pràghere de retzire messàgios de posta eletrònica comente apuntos de is obietivos, is atualizatziones de su progressu meu e bolletinos a subra de Common Voice.
 email-opt-in-info-title = Aderi a sa lista de posta de Common Voice
 email-opt-in-info-sub-with-challenge = Ais a retzire messàgios che a apuntos de disafios e de obietivos, atualizatziones de progressu, e bolletinos a subra de Common Voice.
-email-opt-in-privacy = Atzetende de retzire messàgios eletrònicos, atzetas puru chi Mozilla impreet custa informatzione de acordu cun s'<privacyLink>Avisu de riservadesa<privacyLink> de Mozilla.
+email-opt-in-privacy-v2 = Seberende de retzire lìteras a s'indiritzu de posta eletrònica atzetas chi Mozilla impitet custas informatziones comente ispiegadu in sa <privacyLink>Polìtica de riservadesa</privacyLink> sua.
 indicates-required = * Indicat unu campu rechèdidu
 not-available-abbreviation = No est a disponimentu
 
@@ -33,12 +33,18 @@ as = Assamesu
 ast = Asturianu
 az = Azeri
 ba = Baschiru
+bas = Basaa
 be = Bielorussu
 bg = Bùlgaru
+bm = Bambara
 bn = Bengalesu
 br = Brètone
 bxr = Buriat
 ca = Catalanu
+cak = Kaqchikel
+ckb = Curdu tzentrale
+cnh = Hakha Chin
+co = Corsicanu
 cs = Tzecu
 cv = Ciuvàsciu
 cy = Gallesu
@@ -60,52 +66,81 @@ fr = Frantzesu
 fy-NL = Frisone
 ga-IE = Irlandesu
 gl = Galitzianu
+gn = Guaranì
 ha = Hausa
 he = Ebràicu
-hi-IN = Hindi
+hi = Hindi
 hr = Croatu
 hsb = Sòrabu artu
+ht = Haitianu
 hu = Ungheresu
+hy-AM = Armenu
+hyw = Armenu otzidentale
 ia = Interlingua
 id = Indonesianu
+ie = Interlingue
+ig = Igbo
 is = Islandesu
 it = Italianu
+izh = Ìngricu
 ja = Giaponesu
 ka = Georgianu
+kaa = Karakalpak
 kab = Cabilencu
+kbd = Cabardianu
+ki = Gikuyu
 kk = Kazacu
+kmr = Curdu de su Norte
 ko = Coreanu
-ku = Curdu
+kpv = Komi
 kw = Còrnicu
 ky = Chirghisu
+lg = Luganda
 lij = Lìgure
 lt = Lituanu
 lv = Lètone
+mai = Maithili
 mdf = Moksha
 mg = Malgàsciu
+mhr = Mari de is praterias
 mk = Matzèdone
 ml = Malayalam
 mn = Mòngolu
+mos = Morè
+mr = Marathi
+mrj = Mari de is montigros
+ms = Malesu
 mt = Maltesu
+my = Birmanu
 myv = Erzya
+nan-tw = Taiwanesu (Minnan)
 nb-NO = Norvegesu Bokmål
 ne-NP = Nepalesu
+nia = Nias
 nl = Olandesu
 nn-NO = Norvegesu Nynorsk
+nyn = Nyankole
 oc = Otzitanu
+or = Odia
 pa-IN = Punjabi
+pap-AW = Papiamentu (Aruba)
 pl = Polacu
+ps = Pashto
 pt = Portoghesu
 rm-sursilv = Romànciu Sursilvan
 rm-vallader = Romànciu Vallader
 ro = Rumenu
 ru = Russu
 rw = Kinyarwanda
+sah = Yakut
+sat = Santali (Ol Chiki)
 sc = Sardu
 scn = Sitzilianu
+shi = Tashelhit
 si = Sinhala
 sk = Islovacu
 sl = Islovenu
+so = Sòmalu
 sq = Albanesu
 sr = Serbu
 sv-SE = Isvedesu
@@ -115,14 +150,23 @@ ta = Tamil
 te = Telugu
 tg = Tagicu
 th = Tailandesu
+tl = Tagalog
 tr = Turcu
 tt = Tàtaru
+tw = Twi
+ty = Tahitianu
+uby = Ubykh
+udm = Udmurtu
+ug = Uiguru
 uk = Ucràinu
 ur = Urdu
 uz = Uzbecu
 vec = Vènetu
 vi = Vietnamita
 vot = Vòticu
+yi = Yiddish
+yo = Yoruba
+yue = Cantonesu
 zh-CN = Tzinesu (Tzina)
 zh-HK = Tzinesu (Hong Kong)
 zh-TW = Tzinesu (Taiwan)
@@ -154,6 +198,7 @@ logout = Serra sa sessione
 ## Home Page
 
 home-title = Common Voice est s'initziativa de Mozilla pro agiudare a imparare a is màchinas comente chistionat sa gente reale.
+default-tagline = Common Voice est un'initziativa pro agiudare a insegnare a is màchinas comente chistionant is persones normales.
 home-cta = Chistiona, contribui inoghe!
 wall-of-text-start = Sa boghe est naturale, sa boghe est umana. Est pro custu chi bolemus creare tecnologias de boghe de calidade pro is màchinas. Però isvilupare custos sistemas rechedet unu volùmene mannu de datos de boghe.
 wall-of-text-more-mobile = Sa majoria de is datos impreados dae is aziendas mannas no sunt a disponimentu pro totus. Cunsideramus chi custu frenat s'innovatzione. Est pro custa resone chi amus lantzadu su progetu Common Voice, pro chi sa tecnologia de reconnoschimentu de boghe siat aberta pro totus.
@@ -171,7 +216,7 @@ wall-of-text-second =
 show-wall-of-text = Leghe àteru
 help-us-title = Agiuda·si a validare frases!
 help-us-explain = Incarca Reprodue, ascurta e nara·si si s'àudio currispondet a sa frase in bàsciu:
-no-clips-to-validate = Paret chi no ci sunt registratziones de ascurtare in custa limba. Agiuda·si a crèschere custu elencu registrende carchi cosa.
+no-clips-to-validate = Paret chi no ci siant registratziones de ascurtare in custa limba. Agiuda·si a crèschere custu elencu registrende carchi cosa.
 vote-yes = Emmo
 vote-no = Nono
 toggle-play-tooltip = Incarca { shortcut-play-toggle } pro aviare e frimare sa reprodutzione
@@ -226,7 +271,7 @@ whats-public = Cale informatzione est pùblica?
 email-not-public = No amus a fàghere pùblicu s'indiritzu tuo de posta eletrònica.
 recordings-and-locale-public = Su nùmeru de registradas e is limbas a is chi as contribuidu ant a èssere pùblicos.
 username-optin-public = Podes seberare si boles chi su nòmine de usuàriu tuo siat pùblicu o anònimu.
-demographic-deidentified = Is datos demogràficos frunidos in manera optzionale (che a s'edade, sessu, limba e atzentu) sunt fatas anònimas e no ant a èssere mai visìbiles in su profilu pùblicu tuo.
+demographic-deidentified-clarity-2 = Is datos demogràficos optzionales imbiados (a es. s'edade, su gènere, sa limba e s'atzentu) no ant a èssere mai publicados in su profilu tuo, e no ant a èssere ligados a su contu tuo in su pachete de datos. Is registratziones àudio individuales ant a èssere assotziadas cun is datos demogràficos pro sa punna de un'anàlisi prus a sa minuda - a esèmpiu, unu chircadore diat pòdere bòlere orientare unu modellu de annestru conca a unu segmentu demogràficu ispetzìficu.
 username-email-not-demographic = Su nòmine usuàriu tuo e s'indiritzu de posta eletrònicu no ant a èssere assotziados a is datos publicados.
 
 ## Speak & Listen Shortcuts
@@ -255,7 +300,12 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Registra/Firma
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Torra a registrare
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Iscarta sa registratzione in cursu
+shortcut-submit = Imbiu
+shortcut-submit-label = Imbia is registratziones
 request-language-text = No agatas sa limba tua in Common Voice?
+request-language-text-learn = Impara comente dda pedire inoghe!
 request-language-button = Pedi una limba
 
 ## ProjectStatus
@@ -284,8 +334,8 @@ profile-form-accent =
     .label = Atzentu
 profile-form-age =
     .label = Edade
-profile-form-gender =
-    .label = Sessu
+profile-form-gender-2 =
+    .label = Gènere
 leaderboard-visibility =
     .label = Visibilidade in sa classificatzione
 hidden = Cuadu
@@ -311,7 +361,7 @@ profile-close = Serra
 profile-explanation = Sighi su progressu tuo cun unu profilu e agiuda·si a megiorare sa pretzisione e is datos de boghe.
 thanks-for-account = Gràtzias de sa cunfirmatzione de su contu. Immoe amus a creare su profilu tuo.
 why-demographic = Pro ite est importante?
-why-demographic-explanation = Is datos anònimos de usuàriu che a edade, sessu e atzentu agiudant a megiorare is datos de àudio impreados pro allenare sa pretzisione de is motores de reconnoschimentu de boghe. Su nòmine de usuàriu e s'indiritzu eletrònicu tuo no ant a èssere mai assotziados a is datos chi as a publicare, e podes fintzas seberare si boles chi su nòmine de usuàriu tuo siat pùblicu o anònimu.
+why-demographic-explanation-2 = Is datos anonimizados comente s'edade, su gènere e s'atzentu agiudant a megiorare is datos de s'àudio impitados pro s'annestru de s'acuradesa de su motore de reconnoschimentu vocale. Su nòmine usuàriu tuo e s'indiritzu de posta tuo no ant a èssere mai assotziados cun is datos imbiados, e podes seberare de fàghere in manera chi su nòmine usuàriu tuo siat pùblicu o anònimu.
 accept-privacy = Atzeto chi impreades custas informatziones de acordu cun s'<privacyLink>avisu de riservadesa</privacyLink> de Mozilla
 accept-privacy-title = Avisu de riservadesa
 login-identity = Identidade de intrada
@@ -325,26 +375,19 @@ skip-submission-description = S'imbiu de cummentos at a èssere disativadu cando
 skip-submission-note = Nota: in cada manera, as a dèpere seberare intre Chistiona o Ascurta pro modificare sa genia de cuntributu.
 off = Disativadu
 on = Ativu
-avatar-clip-title = Dona una boghe a s'avatar tuo
-change-your-avatar-clip = Boles modificare sa registratzione de boghe tua?
-recording-in-progress = Registrada de boghe in cursu
-avatar-clip-recorded = S'avatar tuo immoe includet una registratzione de boghe!
-record-voice-wave = Registra sa boghe tua
-retry-voice-wave-recording = TORRA·BI A PROARE
-re-record = TORRA A REGISTRARE
-delete-voice = CANTZELLA
-recording-voice-wave = Registrende
-delete-voice-clip = or  Cantzella sa registrada
-ready-to-upload = CÀRRIGA
-avatar-clip-fact = Est unu fatu connòschidu chi su disignu de una pàgina podet distràere is letores dae su cuntenutu.
-recreate-voice = Torra a creare sa boghe tua
-cancel-avatar-clip-recording = ANNULLA
-about-avatar-clip-recording = Crea una registratzione de boghe comente a parte de s'avatar de profilu tuo. Àteros usuàrios ant a pòdere ascurtare sa registratzione tua passende su sòrighe a subra de s'icona tua.
+
+## Profile - Email
+
 browse-file-title = Càrriga un'immàgine
 browse-file = Traga inoghe o <browseWrap><browseWrap>Nàviga</browseWrap>
 connect-gravatar = Connete cun Gravatar
 gravatar_not_found = Perunu profilu Gravatar agatadu pro s'indiritzu de posta eletrònica tuo
 file_too_large = S'archìviu seletzionadu est tropu mannu
+avatar-uploaded = Àvatar carrigadu
+max-file-size = màssimu { $kb }kb
+
+## Profile - Email
+
 manage-subscriptions = Gesti is sutiscritziones
 manage-email-subscriptions = Gesti is sutiscritziones de posta eletrònica
 email-already-used = Custu indiritzu de posta eletrònica est giai impreadu dae un'àteru contu
@@ -359,6 +402,10 @@ faq-what-cv-a =
     Sa tecnologia de reconnoschimentu de boghe est rivolutzionende sa manera comente si relatzionamus cun is màchinas, ma pro immoe is sistemas disponìbiles sunt caros e propietàrios. Common Voice faghet parte de s'initziativa de Mozilla pro megiorare is tecnologias de reconnoschimentu de boghe e ddas torrare prus atzessìbiles a totus. Common Voice est una base de datos  massiva de boghes donadas dae sos usuàrios chi permitint a calesi siat persone de allenare in manera lestra e sèmplitze is pròpias aplicatziones chi impreant su reconnoschimentu de boghe in belle calesi siat limba.¶
     ¶
     No isceti immagasinamus mustras de boghes de is limbas prus chistionadas de su mundu; fintzas de cussas cun una populatzione de faeddadores prus pitica. Sa publicatzione de unu pachete de boghes diversu at a cunsentire a isvilupadores, imprendidores e comunidades de afrontare custa mancàntzia issos etotu. In prus de is datos de Common Voice, semus fintzas isvilupende unu motore de reconnoschimentu de boghe cun lissèntzia lìbera tzerriadu Deep Speech.
+faq-what-cv-a-2 =
+    Sa tecnologia de reconnoschimentu vocale est rivolutzionende sa manera nostra de interagire cun is màchinas, ma is sistemas a disponimentu oe sunt costosos e propietàrios. Mozilla Common Voice est un'initziativa pro megiorare is tecnologias de reconnoschimentu vocale e fàghere in manera chi siant prus atzessìbiles pro totus. Common Voice est una base de datos globales de boghes donadas chi permitit a totus de addestrare aplicatziones chi impitant is boghes, potentzialmente in cale si siat limba.
+    
+    Non semus isceti collende campionaduras de boghes in is limbas prus ispainadas ma fintzas in is chi tenent una populatzione de chistionadores prus pitica. Publichende unu pachete de datos de boghes diferentes amus a permìtere a is isvilupadores, a is imprendidores e a is comunidades de pònnere fronte a custa diferèntzia.
 faq-why-important-q = Pro ite est importante?
 faq-why-important-a =
     Chistionare est a s'ispissu su prus manera naturale de comunicare e is tecnologias de boghe sunt introduinde custa facultade fintzas in is elaboradores e dispositivos mòbiles nostros. Bolimus cunsentire a is isvilupadores de creare aplicatziones ispantosas noas basadas in su reconnoschimentu de boghe, comente a tradutores a in tempus reale e assistentes digitales. Atualmente sa majoria de is datos de boghe chi serbint pro custa genia de aplicatziones sunt caros e propietàrios. Cun su pachete de datos de Common Voice bolimus frunire a is isvilupadores is resursas netzessàrias pro innovare e torrare sa tecnologia de boghe disponìbile in sa pròpia limba.¶
@@ -379,16 +426,29 @@ faq-do-want-native-a = Eja, bolemus mescamente sa boghe tua! Parte de s'obietivu
 faq-why-different-speakers-q = Pro ite si serbint faeddadores aici diferentes pro cada limba?
 faq-why-different-speakers-a = Sa majoria de bases de datos sunt allenados cun un'isproportzione demogràfica a favore de is boghes <articleLink>maschiles e de classe mèdia</articleLink>. Imbetzes, is atzentos e is dialetos assotziados a grupos giai marginalizados sunt prus pagu rapresentados in is pachetes de datos pro s'allenamentu. Meda màchinas tenent dificultades pro cumprèndere boghes feminiles. Est pro custu chi bolimus chi sa base de datos nostra siat variada.
 faq-why-my-lang-q = Pro ite sa limba mia no est ancora incluida?
+faq-why-my-lang-new-a = Mozilla non sèberat o favorit nissuna limba cunfronta a s'àtera. Common Voice est un'initziativa ghiada de su totu dae sa comunidade, ma ci bolent <multilangLink>passos medas pro agiùnghere una limba noa</multilangLink> e cumintzare a regollire donatziones de boghes. In antis de totu tocat a bortare su situ de Common Voice in manera chi is membros de sa comunidade potzant atzèdere a s'esperièntzia de contributzione in sa limba issoro. A pustis, tenimus bisòngiu de una regorta manna de fràsias sena deretu de autore de fàghere lèghere a sa gente. A pustis de àere rispetadu custos rechisidos una limba benit "lantzada" in Common Voice pro permìtere a sa gente de cumintzare a registrare sa boghe issoro e de cunvalidare is donatziones de àtere. Si boles agiudare a lantzare una limba noa bae a <sentenceCollectorLink>s'aina de regollida de frases</sentenceCollectorLink> nostra pro cumintzare.
 faq-what-quality-q = Cale est su livellu de calidade chi depet tènnere una registrada de boghe pro ddu pòdere impreare in su pachete de datos?
+faq-what-quality-a = Bolimus chi su pachete de datos de Common Voice rifletat sa calidade de s'àudio chi unu motore de sìntesi vocale at a intèndere cada die, e pro custu bisongiamus de variedade. Paris a una comunidade diferentziada de chistionadores, unu pachete de datos cun una calidade de s'àudio variàbile at a imparare a su motore de sìntesi vocale a gestire situatziones diferentes in su mundu reale, dae sa gente chi chistionat in s'isfundu a s'abbolotu de is màchinas. Finas a cando sa boghe de sa registratzione tua si cumprendet diat èssere bona bastante pro su pachete de datos.
 faq-why-10k-hours-q = Pro ite s'obietivu est cussu de riunire 10.000 oras verificadas de registradas de àudio pro cada limba?
 faq-why-10k-hours-a = Custu est, prus o mancu, su nùmeru de oras netzessàriu pro allenare unu sistema de reconnoschimentu de boghe in produtzione.
 faq-how-calc-hours-q = Comente càrculat is oras, Common Voice?
 faq-how-calc-hours-a = Carculamus is oras istimende sa durada mèdia de cada registrada, e a pustis multiplichende cussu nùmeru pro su totale de registradas pro totu is limbas.
 faq-where-src-from-2-q = Dae aunde benint is testos?
+faq-where-src-from-2-a =
+    Su testu de orìgine nostru est su resurtadu de donatziones de is cuntribuidores paris a diàlogos dae films de domìniu pùblicu comente a <italic>It’s a Wonderful Life</italic>.
+    
+    Podes castiare is frases de orìgine nostras in custa <githubLink>cartella de GitHub</githubLink>.
+faq-why-not-ask-read-q = Pro ite non pedides a sa gente de lèghere libros o artìculos de Wikipedia in limbas diferentes?
+faq-why-not-ask-read-a = Pro fàghere in manera chi su pachete de datos de Common Voice siat su prus ùtile possìbile amus seberadu de permìtere isceti testos chi sunt a disponimentu in suta de una litzèntzia Creative Commons (CC0). Su de impitare su standard CC0 bolet nàrrere chi est prus difìtzile a agatare e regollire testos de orìgine, ma permitit a totus de impitare is datos vocales chi s'otenent sena restritziones de impitu o autorizatziones de Mozilla. A sa fine, bolimus fàghere in manera chi su pachete de datos multilìngue siat su prus ùtile possìbile pro totus, incluende is chircadores, is universidades, is guvernos, is organizatziones cun punnas sotziales e is amantiosos.
 faq-why-account-q = Pro ite mi depo creare unu contu?
 faq-is-account-public-q = S'informatzione de su contu meu est pùblica?
 faq-how-privacy-q = Comente garantides s'anonimidade e sa riservadesa de sa gente chi at donadu is boghes issoro?
+faq-how-privacy-a = In totu is registratziones de su pachete de datos, benint bogadas is informatziones personales. Cando unu cuntribuidore frunit datos demogràficos impitende su profilu suo, cussa informatzione benit bogadas dae is registratziones vocales suas in antis de ddas pònnere paris a is àteras in su pachete de datos pro s'iscarrigamentu, e non benint mai postas pùblicas in sa pàgina de profilu sua.
 faq-what-determine-identity-q = Ite bolet nàrrere chi non potzo "determinare s'identidade" de is faeddadores in su pachete de datos de Common Voice?
+faq-what-determine-identity-a =
+    Su pachete de datos de Common Voice est una resursa aberta e a disponimentu pùblicu chi si podet impitare pro addestrare una variedade manna de aplicatziones chi impreant is boghes. Pro amparare sa seguresa de is cuntribuidores nostros pedimus a totu is chi iscarrigant su pachete de datos de Common Voice de rispetare sa riservadesa issoro.
+    
+    In totu is registratziones de su pachete de datos, benint bogadas is informatziones personales. Cando iscàrrigas su pachete de datos atzetas de non chircare de individuare s'identidade de nissunu de is cuntribuidores. Custu bolet nàrrere chi non podes chircare de ligare is informatziones de su pachete de datos a s'identidade de nissunu cuntribuidore. Podes, però, impitare su pachete de datos pro addestrare su reconnoschimentu vocale, su reconnoschimentu de chistionadores o àteras aplicatziones lighende, pro fàghere un'esèmpiu, is informatziones de su pachete de datos cun àteras informatziones chi ci sunt giai a intro.
 faq-what-is-cv = Ite est Common Voice?
 faq-using-cv = Impreare Common Voice
 faq-description = Common Voice est parte de s'initziativa de Mozilla pro agiudare a imparare a is màchinas comente chistionat sa gente reale.
@@ -399,6 +459,10 @@ faq-search-for-answers =
 
 about-title = Pro ite Common Voice?
 about-subtitle = Common Voice est parte de s'initziativa de Mozilla pro agiudare a imparare a is màchinas comente chistionat sa gente reale. In prus de su pachete de datos de Common Voice, semus costruende fintzas unu motore de reconnoschimentu de boghe cun lissèntzia de còdighe abertu tzerriadu Deep Speech.
+about-header-description = Ambos custos progetos sunt parte de is isfortzos nostros pro minimare su divàriu in s'àmbitu de su reconnoschimentu vocale. Is tecnologias de reconnoschimentu vocale batint una dimensione umana a is dispositivos nostros, ma is isvilupadores tenent bisòngiu de unu muntone de datos vocales pro ddas isvilupare. In dies de oe sa parte manna de custos datos est costosa e propietària.
+about-header-description-2 =
+    Custu progetu punnat a minimare su divàriu in s'àmbitu de su reconnoschimentu vocale. Is tecnologias de reconnoschimentu vocale batint una dimensione umana a is dispositivos nostros, ma is isvilupadores tenent bisòngiu de unu muntone de datos vocales pro ddas isvilupare. In dies de oe sa parte manna de custos datos est costosa e propietària.
+    Bolimus fàghere in manera chi is datos vocales siant a disponimentu in manera lìbera e pùblica, e chi rapresentent sa diversidade de sa gente reale. Paris podimus megiorare su reconnoschimentu vocale pro totus.
 how-does-it-work-title = Comente funtzionat?
 how-does-it-work-text = Semus creende in manera collaborativa unu pachete de datos cun lissèntzia de còdighe abertu. Dona sa boghe tua, verìfica is registratziones fatas de àteras persones, faghe chi su pachete de datos siat mègius pro totus.
 about-speak = Chistiona
@@ -440,10 +504,8 @@ sst = Reconnoschimentu de boghe (Speech-to-text, STT)
 sst-explanation = Su reconnoschimentu de boghe (STT) cunvertet is datos de boghe in testu.
 de-identified = Anonimizatzione
 
-## NotFound
+## Error pages
 
-notfound-title = No agatadu
-notfound-content = No ischimus ite ses chirchende.
 
 ## Data
 
@@ -537,7 +599,6 @@ contribute = Contribui
 listen = Ascurta
 skip = Brinca
 shortcuts = Incurtzaduras
-clips-with-count = <bold>{ $count }</bold> registratziones
 goal-help-recording = As agiudadu Common Voice a arribare a su <goalPercentage></goalPercentage> de s'obietivu diàriu de { $goalValue } registratziones!
 goal-help-validation = As agiudadu Common Voice a arribare a su <goalPercentage></goalPercentage> de s'obietivu diàriu de { $goalValue } validatziones!
 contribute-more =
@@ -548,7 +609,6 @@ contribute-more =
 record-cta = Cumintza a registrare
 record-platform-not-supported = Sa prataforma tua no est galu cumpatìbile.
 record-platform-not-supported-desktop = In elaboradores de iscrivania, podes iscarrigare sa prus reghente:
-record-platform-not-supported-ios = Is usuàrios de <bold>iOS</bold> podent iscarrigare sa nostra aplicatzione gratùita:
 record-must-allow-microphone = Depes permitere s'atzessu a su micròfonu.
 record-no-mic-found = Perunu micròfonu agatadu.
 record-error-too-short = Sa registratzione est tropu curtza.
@@ -618,5 +678,26 @@ keep = Mantene
 remove = Cantzella
 profile-form-delete = Cantzella su profilu
 
+## Profile Download
+
+
 ## Landing
+
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
 
