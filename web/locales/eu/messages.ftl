@@ -34,12 +34,14 @@ az = Azerbaijanera
 ba = Baxkirera
 be = Bielorrusiera
 bg = Bulgariera
+bm = Banbara
 bn = Bengaliera
 br = Bretoiera
 bxr = Buriatera
 ca = Katalana
 cak = Kaqchikela
 cnh = Hakha China
+co = Korsikera
 cs = Txekiera
 cv = Chuvashera
 cy = Galesera
@@ -61,6 +63,7 @@ fr = Frantsesa
 fy-NL = Frisiera
 ga-IE = Irlandako gaelikoa
 gl = Galiziera
+gn = Guaraniera
 ha = Hausa
 he = Hebreera
 hi = Hindia
@@ -82,7 +85,6 @@ kbd = Kabardinoa
 kk = Kazakhera
 ko = Koreera
 kpv = Komiera
-ku = Kurduera
 kw = Kornubiera
 ky = Kirgizera
 lg = Luganda
@@ -96,6 +98,7 @@ mk = Mazedoniera
 ml = Malabarera
 mn = Mongoliera
 mrj = Mendietako mariera
+ms = Malaysiera
 mt = Maltera
 my = Birmaniera
 myv = Erziera
@@ -119,6 +122,7 @@ scn = Siziliera
 si = Sinhala
 sk = Eslovakiera
 sl = Esloveniera
+so = Somaliera
 sq = Albaniera
 sr = Serbiera
 sv-SE = Suediera
@@ -291,8 +295,6 @@ profile-form-accent =
     .label = Azentua
 profile-form-age =
     .label = Adina
-profile-form-gender =
-    .label = Sexua
 leaderboard-visibility =
     .label = Sailkapenaren ikusgaitasuna
 hidden = Ezkutuan
@@ -318,7 +320,6 @@ profile-close = Itxi
 profile-explanation = Egin zure aurrerapenen jarraipena profil batekin eta lagundu ahots-datu zehatzagoak lortzen.
 thanks-for-account = Eskerrik asko zure kontua baieztatzeagatik, orain osatu zure profila.
 why-demographic = Zergatik da garrantzitsua hau?
-why-demographic-explanation = Adina, sexua eta azentua bezalako datu anonimizatuek, hizketaren ezagutza-motorren zehaztasuna hobetzen laguntzen dute hauek entrenatzeko audioen ezaugarriak osatzen dituztelako. Zure erabiltzaile-izena eta helbide elektronikoa ez dira inoiz zuk bidalitako datuekin lotuko eta zure erabiltzaile-izena publikoa ala anonimoa izatea aukera dezakezu.
 accept-privacy = Ondo iruditzen zait informazio hau <privacyLink>pribatutasun politikan</privacyLink> azaltzen den bezala kudeatzea.
 accept-privacy-title = Pribatutasun-politika
 login-identity = Saioa hasteko identitatea
@@ -332,26 +333,17 @@ skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
-avatar-clip-title = Eman ahotsa zure abatarrari
-change-your-avatar-clip = Zure ahots-grabaketa aldatu nahi duzu?
-recording-in-progress = Ahotsa grabatzen ari da
-avatar-clip-recorded = Zure avatarrak orain ahots-grabaketa bat du!
-record-voice-wave = GRABATU AHOTS-UHINA
-retry-voice-wave-recording = SAIATU BERRIRO
-re-record = GRABATU BERRIRO
-delete-voice = EZABATU
-recording-voice-wave = Grabazioa
-delete-voice-clip = edo ezabatu ahots grabazioa
-ready-to-upload = IGO
-avatar-clip-fact = Aspalditik jakina da irakurleak eduki irakurgarritik arreta galtzen duela orriaren diseinuari begiratzen dionean.
-recreate-voice = Birsortu ahots-uhina
-cancel-avatar-clip-recording = Utzi
-about-avatar-clip-recording = Sortu ahots grabaketa bat zure profileko avatarrari esleitzeko. Honela, beste pertsona batzuek zure ahotsa entzun ahalko dute.
+
+## Profile - Email
+
 browse-file-title = Igo irudi-fitxategi bat
 browse-file = Arrastatu eta jaregin, edo <browseWrap>nabigatu</browseWrap>
 connect-gravatar = Konektatu Gravatarrera
 gravatar_not_found = Ez da gravatarrik aurkitu zure e-postarako
 file_too_large = Hautatutako fitxategia handiegia da
+
+## Profile - Email
+
 manage-subscriptions = Kudeatu harpidetzak
 manage-email-subscriptions = Kudeatu eposta harpidetzak
 email-already-used = E-posta hori dagoeneko erabili da beste kontu batean
@@ -486,6 +478,8 @@ data-other-goto = Joan { $name }-(e)ra
 data-other-download = Deskargatu datuak
 data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
+release-version = Bertsioa
+dataset-date = Data
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
 data-download-singleword-title = Deskargatu hitz bakarreko esparru zehatzeko atala
@@ -538,8 +532,6 @@ subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
-deepspeech-info = Common Voice datu-sortak, Mozillaren Deep Speech ahotsaren ezagutzarako motor librea osatzen du, hizketaren ezagutzadun aplikazioak garatzeko erabil dezakezuna. Irakurri gure <githubLink>GitHub laburpena</githubLink> edo batu zaitez <discourseLink>DeepSpeecheko Discourse forora</discourseLink> nondik hasi ikasteko.
-common-voice-info-new = Common Voice-ri buruzko galderak dituzu? Hobekuntzak egiteko ideiak edo hizkuntza zehatz bati buruzko informazioa? Batu zaitez <discourseLink>Discourseko forora</discourseLink> eta esaguzu.
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
@@ -802,6 +794,9 @@ why-delete-recordings =
     Esango al zeniguke zergatik nahi duzun zure grabaketak ezabatzea?
 profile-form-delete = Ezabatu profila
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Ongi etorri, { $company }-(e)ko langile!
@@ -809,3 +804,22 @@ help-contribute = Kode irekiko datu-multzo desberdin bat eraikitzen lagun dezake
 login-company = Hasi saioa / Eman izena { $company }-ko epostarekin
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 read-more-about = Irakurri gehiago guri buruzko orrian
+
+## DemoLayout
+
+demo-welcome = Ongi etorri Common Voicera
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
