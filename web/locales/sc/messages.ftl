@@ -836,15 +836,71 @@ activity-needed-calculation-plural =
        *[other] { $periodMonths } meses
     }
 how-many-per-day = Bene meda! Cantas registratziones a sa die?
+how-many-a-week = Bene meda! Cantas registratziones a sa chida?
+which-goal-type = Boles chistionare, ascurtare o ambos?
+receiving-emails-info = In custu momentu ses cunfiguradu pro retzire messàgios de posta eletrònica che a is ammentos de is obietivos, is annoamentos a pitzu de is progressos e is bolletinos de noas in contu de Common Voice
+not-receiving-emails-info =
+    In custu momentu ses cunfiguradu pro <bold>NON</bold> retzire messàgios de posta eletrònica che a is ammentos de is obietivos, is
+    annoamentos a pitzu de is progressos e is bolletinos de noas in contu de Common Voice
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } registratzione
+       *[other] { $count } registratziones
+    }
+help-share-goal = Agiuda·nos a agatare prus boghes, cumpartzi s'obietivu tuo
+confirm-goal = Cunfirma s'obietivu
+goal-interval-weekly = Ònnia chida
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Cumpartzi s'obietivu tuo de { $count } registratziones { $type } a sa die
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Cumpartzi s'obietivu tuo de { $count } registratziones { $type } a sa chida
+share-goal-type-speak = chistionadas
+share-goal-type-listen = ascurtadas
+share-goal-type-both = chistionadas e ascurtadas
+# LINK will be replaced with the current URL
+goal-share-text = Apo creadu immoe un'obietivu personale pro is donatziones de boghe a #CommonVoice -- auni·ti e me e agiuda·mi a insegnare a is màchinas comente chistionant is persones beras { $link }
+weekly-goal-created = S'obietivu chidajolu tuo est istadu creadu
+daily-goal-created = S'obietivu diàriu tuo est istadu creadu
+track-progress = Sighi su protzessu inoghe e in sa pàgina de is istatìsticas tuas.
+return-to-edit-goal = Torra a inoghe pro modificare s'obietivu tuo in cale si siat momentu.
+share-goal = Cumpartzi s'obietivu meu
 
 ## Profile Delete
 
+delete-q = Boles pedire chi fintzas is registratziones de sa boghe tua bèngiant cantzelladas, o preferis a las mantènnere in su pachete de datos de Common Voice?
 keep = Mantene
 remove = Cantzella
+keep-info = Is registratziones de boghe anònimas tuas ant a abarrare in su pachete de datos de Common Voice. A pustis de àere cantzelladu su profilu tuo no as a pòdere prus imbiare una rechesta pro bogare is registratziones tuas dae su pachete de datos
+remove-info = Amus a revisionare sa rechesta tua de bogare is registratziones de boghe tuas dae su pachete de datos. Si sa rechesta tua s'at a atzetare amus a cuntatare is chi ant iscarrigadu su pachete de datos e amus a pedire fintzas a issos de cantzellare is registratziones vocales tuas.
+why-delete-recordings =
+    Is registratziones de Common Voice benint impreadas dae acadèmicos, aziendas minores e amantiosos de su reconnoschimentu vocale pro agiudare a allenare e a crèschere resursas a disponimentu in manera pùblica, che a is modellos de boghe.
+    
+    Si podes fàghere ischire pro ite boles chi is registratziones tuas bèngiant cantzelladas?
 profile-form-delete = Cantzella su profilu
 
 ## Profile Download
 
+download-q = Tenes bisòngiu de iscarrigare is datos tuos?
+download-info = Nara·si ite dias bòlere iscarrigare:
+download-profile-title = Profilu
+download-profile-info = Incluit s'indiritzu de posta eletrònica, su nòmine usuàriu e is informatziones demogràficas, a disponimentu immediatamente
+download-profile-size = Unos cantos bytes
+download-recordings-title = Registratziones
+download-recordings-info = Incluit is mp3 e is frases ligadas. Bi diat pòdere bòlere unu pagu de tempus pro l'ammaniare
+download-recordings-size = De sòlitu unos cantos megabytes
+download-recordings-unavailable = Non podes pedire is registratziones tuas cando ddoe est giai un'àtera rechesta in cursu.
+download-recently-requested = Podes pedire un'esportatzione noa de is registratziones tuas onni { $days } dies.
+download-size = Mannària
+download-selected = Seletzionadu
+download-start = Iscàrriga is datos de su profilu
+download-request = Pedi is registratziones
+download-requests = Rechestas betzas de iscarrigamentu de is registratziones
+download-requests-info = Cando pedis is registratziones tuas ddas compilamus in unu o prus documentos ZIP. Inoghe bi sunt is rechestas antepostas tuas:
+download-request-button = Iscàrriga
+download-request-title = { $created }
+download-request-description = { $clipCount } registratziones de boghe, mannària totale de s'archìviu { $size }. Iscadit { $expires }.
+download-request-archive-single = Documentu ZIP sìngulu chi cuntenet
+download-request-archive-multiple = Partzi in { $archiveCount } documentos ZIP chi cuntèngiant
 
 ## Landing
 
