@@ -483,7 +483,16 @@ about-clip-graveyard = Campusantu de registratziones
 about-clip-graveyard-text = Su Campusantu de registratziones cuntenet registratziones de boghe chi no sunt intradas in su pachete de datos de Common Voice. Comente su pachete de datos, fintzas su Campusantu de registratziones podet èssere iscarrigadu.
 about-partners = Sòtzios
 about-become-a-partner = Diveni sòtziu
+about-partnership =
+    Common Voice est unu progetu collaborativu, e dipendimus dae sa comunidade nostra de sòtzios e cuntribuidores pro istantargiare su pachete de datos vocales lìberos prus mannu de semper.
+    
+    Si diat agradare a torrare gràtzias a is persones e a is organizatziones chi sighint pro s'agiudu issoro a su progetu:
 about-get-involved = Ìmplica·ti
+about-get-involved-text-2 =
+    Boles agiudare a megiorare Common Voice galu de prus?
+    Bene meda! Cuntata·nos impitende sa posta eletrònica o is fòrums de <discourseLink>Discourse</discourseLink>, sinnala is problemas de su situ
+     pro mèdiu de <githubLink>GitHub</githubLink>, o aderi a
+     sa tzarrada de sa comunidade in <matrixLink>Matrix</matrixLink>.
 about-nav-why-common-voice = Pro ite?
 about-nav-how-it-works = Comente?
 about-nav-partners = Sòtzios
