@@ -901,24 +901,98 @@ download-request-title = { $created }
 download-request-description = { $clipCount } registratziones de boghe, mannària totale de s'archìviu { $size }. Iscadit { $expires }.
 download-request-archive-single = Documentu ZIP sìngulu chi cuntenet
 download-request-archive-multiple = Partzi in { $archiveCount } documentos ZIP chi cuntèngiant
+download-request-assembling-description = Is documentos tuos sunt in fase de assemblàgiu. Verìfica prus a tardu.
+download-request-refresh-button = Annoa
+download-request-modal-title = Ligòngios de iscarrigamentu
+download-request-modal-description = Inoghe ci sunt is ligòngios pro iscarrigare is documentos ZIP tuos.
+download-request-link-text = Zip nùm. { $offset } de { $total }
+download-request-metadata-link = Testu de sa frase
+download-request-link-single = Podes fintzas copiare e incollare is URL diretos in su gestore de iscarrigamentos preferidu tuo. Ant a iscadire a pustis de 12 oras, ma as a pòdere torrare a custa pàgina pro nde generare de noos in cale si siat momentu.
 
 ## Landing
 
+welcome-staff = Personale de { $company }, bene bènnidos!
+help-contribute = Podes agiudare a istantargiare unu pachete de datos diversificados e abertos creende unu profilu de Common Voice e contribuende cun sa boghe tua.
+login-company = Intra / Registra·ti cun s'indiritzu de posta eletrònica de { $company }
+profile-not-required = Su de tènnere unu profilu no est netzessàriu pro contribuire ma est ùtile. Càstia pro ite inoghe in suta.
+read-more-about = Leghe àteras informatziones in sa pàgina nostra "In contu de"
 
 ## DemoLayout
 
+demo-get-started = Cumintzamus
+demo-welcome = Ti donamus su benebènnidu a Common Voice
+demo-welcome-subheader = Nde boles ischire de prus e contribuire a su progetu?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice est su pachete de datos de boghe multilìngue a disponimentu in manera pùblica prus mannu de su mundu.
+demo-language-select-card-body = Gràtzias a is contributziones de prus de 259 mìgia persones in prus de 50 limbas custos datos benint impreados pro allenare aplicatziones cun suportu de boghe a rispòndere mègius a sa boghe umana.
+card-button-next = Imbeniente
+card-button-back = Antepostu
+demo-language-select-label = Esplora is limbas
+demo-eofy-header = Versione de agabbu de s'annu 2019
+demo-eofy-sub_header = Pachetes de datos de boghe, prontu pro s'iscarrigamentu
+demo-account = Contu
 
 ## Demo Account
 
+demo-account-card-header = Su de tènnere unu contu no est netzessàriu pro contribuire, ma agiudat.
+demo-account-card-body = A manu dereta descriemus is benefìtzios e acrarimus ite informatziones ponimus pùblicas. Imprea is ligòngios inoghe in suta pro cumintzare cun unu contu de Common Voice in su dispositivu tuo.
+demo-account-enter-email =
+    .label = Inserta un'indiritzu de posta eletrònica pro imbiare unu ligòngiu de registratzione
+demo-account-sign-up = Imbia su ligòngiu de registratzione
 
 ## Demo Contribute
 
+demo-contribute-card-header = Prontu a agiùnghere sa boghe tua o a imprestare is origras tuas?
+demo-contribute-card-body-v2 = Immoe chi connosches unu pagu de prus a pitzu de Common Voice, pro ite no ddu proas? Incarca in s'icona de su micròfonu pro cumintzare a lèghere frases a boghe arta. <br/><br/>Si preferis revisionare is contributziones de boghe de àteras persones incarca in s'icona de riprodutzione. As a agiudare a cunfirmare chi is registratziones currispondant cun is frases iscritas in s'ischermu.
+demo-listen-subtitle = Prontu a contribuire?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Is pannellos personales ti mantenent annoadu a pitzu de is progressos individuale e de sa comunidade.
+demo-dashboard-card-body = Pro cada registratzione donada e cada registratzione validada is pannellos de su contu tuo benint annoados pro rapresentare su progressu reghente tuo in totu is limbas in ue contribuis. Eja, podes contribuire a prus de una limba!<br/><br/> Imprea is pannellos pro arrastare is istatìsticas tuas, castiare comente ses andende cunfronta a is àteros in sa comunidade e pònnere obietivos de contributzione diàrios o chidajolos.
 
 ## Validation criteria
 
+contribution-criteria-nav = Critèrios
+contribution-criteria-link = Cumprende is critèrios de validatzione
+contribution-criteria-page-title = Critèrios de contributzione
+contribution-criteria-page-description = Cumprende ite castiare cando ses ascurtende registratziones de boghe e comente agiudare a arrichire is tuas!
+contribution-for-example = a esèmpiu
+contribution-misreadings-title = Faddinas de leghidura
+contribution-misreadings-description = Cando ses ascurtende dae cara chi su chi ses ascurtende currispondat in manera esata a su chi ddoe est iscritu; refuda si ddoe sunt fintzas faddinas piticas. <br />Faddinas fitianas meda incluint:
+contribution-misreadings-description-extended-list-1 = Sa mancàntzia de <strong>artìculos indeterminativos</strong> ("unu", "una" etz.) o <strong>determinativos</strong> ("su", "sa", "sos", "sas", "is", etz.) a su cumintzu de sa registratzione.
+contribution-misreadings-description-extended-list-2 = Sa mancàntzia de una <strong>'s'</strong> a s'agabbu de unu faeddu.
+contribution-misreadings-description-extended-list-3 = Elisiones chi non ddoe sunt in su testu, o a s'imbesse. A es. "dd'apo naradu" in logu de "Ddi apo naradu" o "bi est" in logu de "b'est".
+contribution-misreadings-description-extended-list-4 = Sa mancàntzia de s'ùrtimu faeddu pro neghe de una registratzione serrada tropu in presse.
+contribution-misreadings-description-extended-list-5 = Tentativos mùltiplos de lèghere unu faeddu.
+contribution-misreadings-example-1-title = Is dinosàuros gigantes de su Triàssicu.
+contribution-misreadings-example-2-title = Su dinosàuru gigante de su Triàssicu.
+contribution-misreadings-example-2-explanation = [Diat dèpere èssere ‘dinosàuros’]
+contribution-misreadings-example-3-title = Is dinosàuros gigantes de su Triàssi-.
+contribution-misreadings-example-3-explanation = [Registratzione truncada in antis de s'agabbu de s'ùrtimu faeddu]
+contribution-misreadings-example-4-title = Is dinosàuros gigantes de su Triàssicu. Eja.
+contribution-misreadings-example-4-explanation = [In sa registratzione ddoe sunt prus faeddos de cussos de su testu]
+contribution-misreadings-example-5-title = Oe ddoe est fritu meda.
+contribution-misreadings-example-6-title = Oe dd'est fritu meda.
+contribution-misreadings-example-6-explanation = [Diat dèpere èssere “Ddoe est”]
+contribution-misreadings-example-7-title = Oe dd'est meda fritu.
+contribution-misreadings-example-7-explanation = [Fiat ‘fritu meda’ in su testu originale]
+contribution-misreadings-example-8-title = Su mumui est coladu curre-curre.
+contribution-misreadings-example-8-explanation = [Su cuntenutu non currispondet]
+contribution-varying-pronunciations-title = Pronùntzias chi mudant
+contribution-varying-pronunciations-description = Pensa·bi unu pagu in antis de refudare una registratziones ca su leghidore at pronuntziadu male unu faeddu, at postu s'atzentu in su tretu isballiadu o paret chi apat ignoradu unu puntu interrogativu. Ddoe sunt pronùntzias medas impreadas in su mundu, e medas de cussa mancari non dd'as mai intesas in sa comunidade locale tua. Chirca de tènnere unu pagu de elastitzidade e de aprètziu pro is chi faeddant in manera diferente dae sa tua.
+contribution-varying-pronunciations-description-extended = Dae s'àtera banda, si pensas chi su leghidore no apat mai bidu cussu faeddu e siat isceti chirchende de addivinare sa pronùntzia, refuda·dda. Si non ses seguru, imprea su butone Brinca.
+contribution-varying-pronunciations-example-1-title = Bògio iscarrigare un'immàgine dae inoghe.
+contribution-varying-pronunciations-example-1-explanation = [‘Bògio’ si podet pronuntziare fintzas ‘bozo’, ‘vozo’ o ‘bollu’, ‘iscarrigare’ si podet pronuntziare fintzas ‘iscarrigai’ o ‘scarrigai’, 'immàgine' si podet pronuntziare fintzas ‘imàgine’ ‘màgine’, ‘immàgini’ o ‘màgini’ e ‘inoghe’ si podet pronuntziare fintzas ‘innoghe’, ‘inoche’, ‘innohe’, ‘inoxi’ o ‘innoxe’]
+contribution-varying-pronunciations-example-2-title = Issos non bolent.
+contribution-varying-pronunciations-example-2-explanation = [‘Bolent’, gasi comente àteros faeddos, in sardu si podet pronuntziare cun sa paragògica (‘bòlente’) o in àteras maneras (a es. ‘bòlene’), fintzas si s'iscriet semper in sa matessi manera]
+contribution-background-noise-title = Abbolotu de isfundu
+contribution-background-noise-description = Bolimus chi is algoritmos de imparòngiu de is màchinas siant in gradu de gestire una variedade manna de abbolotos de isfundu, e fintzas sonos a volume artu si podent atzetare si non t'impedint de intèndere totu su testu intreu. Una mùsica de isfundu trancuilla andat bene, una mùsica arta bastante pro t'impedire de intèndere totu is faeddos nono.
+contribution-background-noise-description-extended = Si sa registratzione si serrat, o tenet problemas, refuda·dda francu chi totu su testu si potzat intèndere su pròpiu.
+contribution-background-noise-example-1-fixed-title = <strong>[istùrridu]</strong> Is dinosàuros gigantes de su <strong>[corpu de tùssiu]</strong> Triàssicu.
+contribution-background-noise-example-2-fixed-title = Is dinosàu-<strong>corpu de tùssiu</strong> Triàssicu.
+contribution-background-noise-example-2-explanation = [Una parte de su testu non s'intendet]
+contribution-background-noise-example-3-fixed-title = <strong>[Sonu]</strong> dinosàuros gigantes de <strong>[sonu]</strong> -àssicu.
+contribution-background-voices-title = Boghes de isfundu
