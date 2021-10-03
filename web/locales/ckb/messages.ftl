@@ -78,6 +78,7 @@ hy-AM = ئەرمەنی
 hyw = ئەرمینیای ڕۆژئاوا
 ia = ئینترلینگووا
 id = ئیندۆنیزی
+ie = ئینترلینگوی
 is = ئایسلەندی
 it = ئیتالیایی
 izh = ئیگۆری
@@ -86,6 +87,7 @@ ka = جۆرجی
 kaa = کاراکالپاکی
 kab = قەبیلی
 kbd = کاباردی
+ki = کیکوویوو
 kk = کازاخی
 kmr = کوردی کرمانجی
 ko = کۆری
@@ -112,8 +114,10 @@ my = بۆرمایی
 myv = ئارزی
 nb-NO = نەرویجی بۆکمالی
 ne-NP = نیپاڵی
+nia = Nias
 nl = هۆڵەندی
 nn-NO = نەرویجی نینۆرسک
+nyn = Nyankole
 oc = ئۆکیتان
 or = ئۆدیا
 pa-IN = پنجابی
@@ -127,6 +131,7 @@ ro = ڕۆمانی
 ru = ڕووسی
 rw = کینیای ڕواندی
 sah = ساخا
+sat = Santali (Ol Chiki)
 sc = ساردینی
 scn = سیسیلیە
 shi = شیلها
@@ -146,6 +151,7 @@ th = تایلەندی
 tl = تاگالۆگی
 tr = تورکی
 tt = تەتەری
+tw = تویی
 uby = ئوبیخ
 udm = ئودمورت
 ug = ئیگۆر
@@ -155,6 +161,7 @@ uz = ئۆزبەکی
 vec = ڤێنیسی
 vi = ڤیێتنامی
 vot = ڤۆتیک
+yo = یۆرووبا
 yue = کانتۆنی (چین)
 zh-CN = چینی (چین)
 zh-HK = چینی (هۆنگ کۆنگ)
@@ -280,6 +287,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = تۆمار/ڕاگرتن
 shortcut-rerecord-toggle = [٥-١]
 shortcut-rerecord-toggle-label = تۆماری دووبارە
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = ئەم تۆمارە فڕێدە
 shortcut-submit = گەڕانەوە
 shortcut-submit-label = ناردنی دەنگەکان
 request-language-text = زمانی خۆت لە دەنگی گشتی نابینیت؟
@@ -547,8 +556,6 @@ subscribe = بەشداریکردن
 get-started-speech = دەست پێ بکە بۆ ناسینەوە وتار
 other-datasets = زانیاریسێتەکانی تری دەنگ
 feedback-q = ڕەخنەوپێشنیارت هەیە؟
-deepspeech-info = ئەم زانیاریسێتە پرۆژەی ناسینەوەی وتاری DeepSpeechی مۆزیلا تەواو دەکات کە دەتوانی بەکاری بهێنی بۆ درووستکردنی نەرمەکالای ناسینەوەی وتار. <githubLink> لێرە</githubLink> زیاتر بخوێنەوە یان سەردانی <discourseLink>DeepSpeech Discourse</discourseLink> بکە بۆ ئەوەی زیاتر بزانی.
-common-voice-info-new = پرسیارت هەیە سەبارەت بە دەنگی گشتی؟ ڕات هەیە بۆ باشتر کردن یان پێشنیار؟ لەگەڵمان بە لە <discourseLink>مەکۆی Discourse</discourseLink> و هەواڵمان پێ بدە.
 data-other-librispeech-description = LibriSpeech زانیاریسێتێکە لە ١٠،٠٠٠ کاژێر دەنگی 16khz لە وتاری ئینگلیزی کە لە کتێبە دەنگییەکانی پڕۆژەی LibroVox کۆ کراوەتەوە.
 data-other-ted-name = زانیاریسێتی TED-LIUM
 data-other-ted-description = زانیاریسێتی TED-LIUM لە وتارەکانی دەنگی و تێکستەکانی ماڵپەڕی TED ساز کرا.
@@ -820,6 +827,13 @@ remove-info = ئێمە بە داواکاری تۆ بۆ سڕینەوەی دەنگ
 why-delete-recordings = کەسانی ئەکادێمیک، تیجارەتە چکوولەکان و کەسانی سەرخۆش بە تەکنۆلۆژیای ناسینەوەی وتار دەنگەکانی دەنگی گشتی بەکار دێنن بۆ فێرکردن و باشتر کردنی سەرچاوە کراوەکان وەک مۆدێلەکانی دەنگی. پێمان دەڵێی بۆچی دەتهەوێ دەنگەکانی تۆ بسڕینەوە؟
 profile-form-delete = سڕینەوەی پرۆفایل
 
+## Profile Download
+
+download-q = دەتەوێت زانیارییەکانت دابگریت؟
+download-info = پێمان بڵێ حەزدەکەی چی دابگریت:
+download-profile-title = پرۆفایل
+download-profile-size = چەند بایتێک
+
 ## Landing
 
 welcome-staff = بەخێربێی کارمەندی { $company }
@@ -866,6 +880,10 @@ demo-dashboard-card-body = بۆ هەموو گرتەیەکی دەنگی بەخش�
 
 ## Validation criteria
 
+contribution-criteria-page-title = چوارچێوەی بەشداری
+contribution-for-example = بۆ نموونە
+contribution-varying-pronunciations-example-2-title = دەستی بەرزکردەوە
 contribution-volume-title = پلەی دەنگ
+contribution-just-unsure-title = دڵنیا نیت؟
 see-more = <chevron></chevron>زیاتر ببینە
 see-less = <chevron></chevron>کەمتر ببینە
