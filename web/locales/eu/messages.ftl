@@ -361,6 +361,8 @@ browse-file = Arrastatu eta jaregin, edo <browseWrap>nabigatu</browseWrap>
 connect-gravatar = Konektatu Gravatarrera
 gravatar_not_found = Ez da gravatarrik aurkitu zure e-postarako
 file_too_large = Hautatutako fitxategia handiegia da
+avatar-uploaded = Avatarra igo da
+max-file-size = { $kb }kb gehienez
 
 ## Profile - Email
 
@@ -512,8 +514,8 @@ review-submit-msg = Eskerrik asko grabatzeagatik!<lineBreak></lineBreak>Orain on
 review-recording = Berrikusi
 review-rerecord = Grabatu berriro
 review-cancel = Ezeztatu bidalketa
-review-keep-recordings = Mantendu grabazioak
-review-delete-recordings = Ezabatu nire grabazioak
+review-keep-recordings = Mantendu grabaketak
+review-delete-recordings = Ezabatu nire grabaketak
 
 ## Datasets Page
 
@@ -633,7 +635,7 @@ contribute-more =
         [one] { $count } gehiago egiteko prest?
        *[other] { $count } gehiago egiteko prest?
     }
-record-cta = Hasi grabazioa
+record-cta = Hasi grabaketa
 record-platform-not-supported = Sentitzen dugu baina orain ez diogu plataforma horri euskarririk ematen.
 record-platform-not-supported-desktop = Mahaigaineko ordenagailuetan, azkena deskarga dezakezu:
 record-platform-not-supported-ios-non-safari = iOS-en Safarirekin jarraitu grabaketak egin ahal izateko…
@@ -655,10 +657,10 @@ share-common-voice = Partekatu Common Voice
 review-instruction = Berrikusi eta grabaketak berriz egin beharrezkoa bada
 record-submit-tooltip = { $actionType } bidali prest egotean
 clips-uploaded = Grabaketak igota
-record-abort-title = Aurretik grabazioa bukatu?
+record-abort-title = Lehenago grabaketa bukatu?
 record-abort-text = Orain ateratzen bazara egin berri dituzunak galduko dira
 record-abort-submit = Bidali grabaketak
-record-abort-continue = Bukatu grabazioa
+record-abort-continue = Bukatu grabaketa
 record-abort-delete = Irten eta ezabatu grabaketak
 listen-instruction = { $actionType }<playIcon></playIcon> esaldia ondo ahoskatu dute?
 listen-again-instruction = Lan bikaina!<playIcon></playIcon> Entzun berriro prest zaudenean
@@ -816,6 +818,15 @@ profile-form-delete = Ezabatu profila
 
 ## Profile Download
 
+download-q = Zure datuak deskargatu behar dituzu?
+download-profile-title = Profila
+download-recordings-title = Grabaketak
+download-size = Tamaina
+download-start = Deskargatu profilaren datuak
+download-request-button = Deskargatu
+download-request-title = { $created }
+download-request-refresh-button = Freskatu
+download-request-modal-title = Deskarga estekak
 
 ## Landing
 
@@ -831,6 +842,10 @@ demo-welcome = Ongi etorri Common Voicera
 
 ## Demo Datasets
 
+card-button-next = Hurrengoa
+card-button-back = Atzera
+demo-language-select-label = Arakatu hizkuntzak
+demo-account = Kontua
 
 ## Demo Account
 
@@ -843,3 +858,9 @@ demo-welcome = Ongi etorri Common Voicera
 
 ## Validation criteria
 
+contribution-criteria-nav = Irizpideak
+contribution-criteria-link = Ulertu parte hartzeko irizpideak
+contribution-criteria-page-title = Parte hartzeko irizpideak
+contribution-volume-title = Bolumena
+see-more = <chevron></chevron>Ikusi gehiago
+see-less = <chevron></chevron>Ikusi gutxiago
