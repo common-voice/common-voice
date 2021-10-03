@@ -650,6 +650,7 @@ other-language = Àtera limba
 language-section-in-progress = In progressu
 language-section-in-progress-new-description = Custas limbas immoe sunt in fase de isvilupu dae parte de sa comunidade. Is barras de su progressu indicant canto in antis est cada limba in su protzessu de <localizationGlossaryLink>localizatzione de su situ</localizationGlossaryLink> e de <sentenceCollectionGlossaryLink>regollida de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = In produtzione
+language-section-launched-description = Pro custas limbas lantzadas, su situ web est istadu <localizationGlossaryLink>localizadu</localizationGlossaryLink>, e tenet <sentenceCollectionGlossaryLink>frases regollidas</sentenceCollectionGlossaryLink> bastantes pro permìtere is contributziones ligadas a su <speakLink>chistionòngiu</speakLink> e a <listenLink>s'ascurtòngiu</listenLink>.
 languages-show-more = Bide·nde de prus
 languages-show-less = Bide·nde prus pagu
 language-meter-in-progress = Progressu
@@ -669,6 +670,11 @@ contribute = Contribui
 listen = Ascurta
 skip = Brinca
 shortcuts = Incurtzaduras
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> registratzione
+       *[other] <bold>{ $count }</bold> registratziones
+    }
 goal-help-recording = As agiudadu Common Voice a arribare a su <goalPercentage></goalPercentage> de s'obietivu diàriu de { $goalValue } registratziones!
 goal-help-validation = As agiudadu Common Voice a arribare a su <goalPercentage></goalPercentage> de s'obietivu diàriu de { $goalValue } validatziones!
 contribute-more =
@@ -679,11 +685,13 @@ contribute-more =
 record-cta = Cumintza a registrare
 record-platform-not-supported = Sa prataforma tua no est galu cumpatìbile.
 record-platform-not-supported-desktop = In elaboradores de iscrivania, podes iscarrigare sa prus reghente:
+record-platform-not-supported-ios-non-safari = In iOS sighi cun Safari pro permìtere sa registratzione…
 record-must-allow-microphone = Depes permitere s'atzessu a su micròfonu.
 record-no-mic-found = Perunu micròfonu agatadu.
 record-error-too-short = Sa registratzione est tropu curtza.
 record-error-too-long = Sa registratzione est tropu longa.
 record-error-too-quiet = Su volùmene de sa registratzione est tropu bàsciu.
+record-cancel = Annulla sa registratzione noa
 record-instruction = { $actionType }<recordIcon></recordIcon> a pustis leghe cun boghe arta sa frase
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cando as a àere acabbadu
 record-three-more-instruction = Àteras tres!
@@ -691,6 +699,8 @@ record-again-instruction = Bene meda!<recordIcon></recordIcon> Registra s'imbeni
 record-again-instruction2 = Sighi aici! Registra·nde un'àtera <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ùrtima!
 review-tooltip = Revisiona e torra a registrare inoghe
+share-clip = Cumpartzi sa registratzione tua
+share-common-voice = Cumpartzi Common Voice
 review-instruction = Revisiona e torra a registrare si ti serbit
 record-submit-tooltip = { $actionType } imbia cando ses prontu
 clips-uploaded = Registratziones carrigadas
@@ -703,14 +713,43 @@ listen-instruction = { $actionType }<playIcon></playIcon> ant lèghidu in manera
 listen-again-instruction = Bonu traballu!<playIcon></playIcon> Torra a ascurtare cando ses prontu
 listen-3rd-time-instruction = 2 giai fatas, sighi aici!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ùrtima!
+listen-empty-state = Amus acabbadu is registratziones de validare in custa limba...
+speak-empty-state = Amus acabbadu is frases de registrare in custa limba...
+speak-empty-state-cta = Contribui cun frases
 record-button-label = Registra sa boghe tua
 share-title-new = <bold>Agiuda·si</bold> a agatare prus boghes
+keep-track-profile = Sighi su progressu tuo cun unu profilu
+login-to-get-started = Intra o registra·ti pro cumintzare
+target-segment-first-card = Ses cuntribuende a su primu segmentu obietivu nostru
+target-segment-generic-card = Ses cuntribuende a unu segmentu obietivu
+target-segment-first-banner = Agiuda a creare su primu segmentu obietivu de Common Voice in { $locale }
+target-segment-add-voice = Agiunghe sa boghe tua
+target-segment-learn-more = Àteras informatziones
 
 ## Reporting
 
+report = Sinnala
+report-title = Imbia un'informe
+report-ask = Ite problemas ses tenende cun custa frase?
+report-offensive-language = Limbàgiu ofensivu
+report-offensive-language-detail = Custa frase tenet unu limbàgiu non rispetosu o ofensivu.
+report-grammar-or-spelling = Faddina grammaticale/ortogràfica
+report-grammar-or-spelling-detail = Sa frase tenet una faddina de grammàtica o de ortografia.
+report-different-language = Limba diferente
+report-different-language-detail = Est iscrita in una limba diferente dae sa chi so chistionende.
+report-difficult-pronounce = Difìtzile de pronuntziare
+report-difficult-pronounce-detail = Cuntenet faeddos o frases chi sunt difìtziles de lèghere o de pronuntziare.
+report-offensive-speech = Cuntenutu ofensivu
+report-offensive-speech-detail = Custa registratzione tenet unu limbàgiu non rispetosu o ofensivu.
+report-other-comment =
+    .placeholder = Cummentu
+success = Fatu
+continue = Sighi
+report-success = As imbiadu s'informe
 
 ## Goals
 
+streaks = Sèries
 days =
     { $count ->
         [one] Die
@@ -731,16 +770,72 @@ validations =
 
 your-languages = Is limbas tuas
 toward-next-goal = Conca a s'obietivu imbeniente
+goal-reached = Ses lòmpidu a s'obietivu
+clips-you-recorded = Registratziones chi as fatu
+clips-you-validated = Registratziones chi as validadu
+todays-recorded-progress = Progressu de Common Voice de oe a pitzu de is registratziones fatas
+todays-validated-progress = Progressu de Common Voice de oe a pitzu de is registratziones validadas
 stats = Istatìsticas
+awards = Prèmios
 you = Tue
 everyone = Totus
 contribution-activity = Atividade de collaboratzione
 top-contributors = Collaboradores prus ativos
+recorded-clips = Registratziones fatas
+validated-clips = Registratziones validadas
 total-approved = Totale de aprovados
 overall-accuracy = Pretzisione globale
+set-visibility = Cunfigura sa visibilidade mea
+visibility-explainer = Custa cunfiguratzione controllat sa visibilidade tua in sa classìfica. Si est cuada su progressu tuo at a èssere privadu. Custu bolet nàrrere chi s'immàgine tua, su nòmine usuàriu tuo e su progressu tuo no ant a apàrrere in sa classìfica. Tene in contu chi in s'annoamentu de sa classìfica ci bolent { $minutes } pro acabbare cun totu is modìficas.
+visibility-overlay-note = Dae cara: cando est impostada comente 'Visìbile', custa cunfiguratzione si podet cambiare dae sa <profileLink>pàgina de profilu</profileLink>
+show-ranking = Ammustra sa positzione mea
 
 ## Custom Goals
 
+get-started-goals = Cumintza cun is obietivos
+create-custom-goal = Crea un'obietivu personalizadu
+goal-type = Ite casta de obietivu boles creare?
+both-speak-and-listen = Ambos
+both-speak-and-listen-long = Ambos (registrare e ascurtare)
+daily-goal = Obietivu diàriu
+weekly-goal = Obietivu chidajolu
+easy-difficulty = Fàtzile
+average-difficulty = Normale
+difficult-difficulty = Difìtzile
+pro-difficulty = Espertu
+lose-goal-progress-warning = Modifichende s'obietivu tuo dias pòdere pèrdere su progressu atuale tuo.
+want-to-continue = Boles sighire?
+finish-editing = In antis boles acabbare de modificare?
+lose-changes-warning = Essende immoe as a pèrdere is modìficas tuas
+build-custom-goal = Crea un'obietivu personalizadu
+help-reach-hours-pluralized =
+    Agiuda a arribbare a{ NUMBER($hours) ->
+        [one] { $hours } ora
+       *[other] { $hours } oras
+    }in { $language } cun un'obietivu personale
+help-reach-hours-general-pluralized =
+    Agiuda a Common Voice a arribbare a{ NUMBER($hours) ->
+        [one] { $hours } ora
+       *[other] { $hours } oras
+    }in una limba cun un'obietivu personale
+set-a-goal = Cunfigura un'obietivu
+cant-decide = Non resesses a detzìdere?
+activity-needed-calculation-plural =
+    Si { NUMBER($people) ->
+        [one] { $people } persone registrat
+       *[other] { $people } persones registrant
+    } { NUMBER($clipsPerDay) ->
+        [one] { $clipsPerDay } registratzione
+       *[other] { $clipsPerDay } registratziones
+    } a sa die, si podet arribbare a { NUMBER($totalHours) ->
+        [one] { $totalHours } ora
+       *[other] { $totalHours } oras
+    }in pagu prus de{ NUMBER($periodMonths) ->
+        [one] { $periodMonths } mese
+        [11] { $periodMonths } meses
+       *[other] { $periodMonths } meses
+    }
+how-many-per-day = Bene meda! Cantas registratziones a sa die?
 
 ## Profile Delete
 
