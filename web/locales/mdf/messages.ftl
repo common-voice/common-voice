@@ -1,6 +1,9 @@
 ## General
 
 return-to-cv = Меки «Common Voice-нди»
+email-input =
+    .label = Э-адрессь
+submit-form-action = Кучемс
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -8,6 +11,10 @@ return-to-cv = Меки «Common Voice-нди»
 
 ## Languages
 
+ab = Абхазонь кяль
+ace = Ачехонь кяль
+ady = Адыгонь кяль
+af = Африкансонь кяль
 
 # [/]
 
