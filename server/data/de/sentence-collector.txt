@@ -454,6 +454,7 @@ Absurd wird es dann, wenn die potenziellen Profiteure am ärgsten gegen die Ver�
 Abwarten und Tee trinken.
 Abwiegen und Abmessen sind bei Grundzutaten unvermeidlich.
 Abwählen!
+Ach Homi, erst androgyn und dann nur noch fett.
 Ach Kinder, wer hat euch nur erzogen?
 Ach Malte, du bist wie eine Mutter ohne Brust.
 Ach Malte, gestern ging es noch.
@@ -2470,6 +2471,7 @@ Bei der Formulierung schwingt schon einiges an Gesellschaftskritik mit.
 Bei der Füllung und den Beilagen kann man variieren.
 Bei der Heilsarmee wird Bianca ihre Sozialstunden ableisten.
 Bei der Hitze ziehe ich ganz bestimmt kein Unterhemd an.
+Bei der Informationstechnik Abteilung wohl gar nicht.
 Bei der Interpretation sollte man berücksichtigen, zu welcher Zeit das Lied entstand.
 Bei der Kassiererin stelle ich mich ungern an.
 Bei der Kurzgeschichte Eis handelt es sich um ein Werk der Autorin Helga Novak.
@@ -14381,6 +14383,7 @@ Herr Brecht hat eine dicke Beule am Kopf.
 Herr Brehme, das Anliegen ist von höchster Priorität.
 Herr Doktor, der Simulant aus Zimmer hundertdreizehn ist gestorben.
 Herr Doktor, wenn ich liege, dann geht es wieder.
+Herr Doktor, wenn ich so liege, dann geht es wieder!
 Herr Dombauer immer mit seiner Prinzipienreiterei!
 Herr Eckel sollte den Ball lieber flach halten.
 Herr Eder hatte vergessen, die Markierungen wegzuradieren.
@@ -21407,6 +21410,7 @@ Mist, wieder nichts geschafft!
 Mist, wir waren so dicht dran!
 Mister Laber und seine Tasche.
 Mister Pyramide und sein Treppengebaren.
+Mister Schlapphut und seine Hose.
 Mister Status und seine Schwiegereltern.
 Mit A-B-C-D-E-F-G ist ein Teil des Alphabets buchstabiert!
 Mit Ach und Krach konnten sie den Pylon für die Hängebrücke aufrichten.
@@ -21920,6 +21924,7 @@ Mutter und Kind sind wohlauf.
 Muttersprachler sind herzlich Willkommen.
 Muttersprachler sind herzlich willkommen.
 Mutti stand unter Schock.
+Muttis Bester musste sich einen Bart wachsen lassen.
 Muß das denn heute noch fertig werden?
 Mädchen schminken sich, um älter auszusehen.
 Mädchen, was machst du da?
@@ -28667,6 +28672,7 @@ Wann werden die gelben Säcke abgeholt?
 Wann werden endlich mehr Power-to-Gas-Anlagen errichtet?
 Wann werden wir uns wiedersehen?
 Wann wird das Hanf in Deutschland freigegeben?
+Wann wird denn auf Linux umgestellt?
 Wann wird der Hanf in Deutschland freigegeben?
 Wann wird der endlich mal erwachsen?
 Wann wird der erste Radfahrer mit seinem Fahrrad die Schallmauer durchbrechen?
@@ -29368,6 +29374,7 @@ Was soll daran verkehrt sein?
 Was soll das denn bringen?
 Was soll das denn hier werden, wenn es fertig ist?
 Was soll denn auf dein Sandwich drauf?
+Was soll denn eine transsexuelle Bi-Lesbe sein?
 Was soll denn pimpern bedeuten?
 Was soll ein Kinderdentist sein?
 Was soll ich anderes denken, als dass ein Roter hier gewesen ist?
@@ -32423,6 +32430,7 @@ Worauf läuft dieser Witz eigentlich hinaus?, fragt er sich.
 Worauf sollte man bei einer Wohnungsbesichtigung achten?
 Worauf wartest du noch?
 Worauf wartet ihr dann noch?
+Woraus besteht dieses Rezyklat?
 Woraus besteht ein Gemüseeintopf?
 Worin besteht der Unterschied zwischen Konfitüre und Marmelade?
 Worin hat sie ihren Ursprung?
@@ -32469,6 +32477,7 @@ Wurde der Staatsanwalt benachrichtigt?
 Wurde der falsch geimpft, oder was?
 Wurde die Demokratie am Hindukusch verteidigt?
 Wurde die falsch geimpft, oder was?
+Wurde dieses Produkt aus rezyklierten Stoffen hergestellt?
 Wurde dir schon ein Impfangebot gemacht?
 Wurde ein Fördergeldantrag gestellt?
 Wurden Sie herzlich aufgenommen oder fühlten Sie sich nicht willkommen?
