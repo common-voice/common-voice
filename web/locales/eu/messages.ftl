@@ -34,12 +34,15 @@ az = Azerbaijanera
 ba = Baxkirera
 be = Bielorrusiera
 bg = Bulgariera
+bm = Banbara
 bn = Bengaliera
 br = Bretoiera
 bxr = Buriatera
 ca = Katalana
 cak = Kaqchikela
+ckb = Erdialdeko kurduera
 cnh = Hakha China
+co = Korsikera
 cs = Txekiera
 cv = Chuvashera
 cy = Galesera
@@ -61,16 +64,20 @@ fr = Frantsesa
 fy-NL = Frisiera
 ga-IE = Irlandako gaelikoa
 gl = Galiziera
+gn = Guaraniera
 ha = Hausa
 he = Hebreera
 hi = Hindia
 hr = Kroaziera
 hsb = Goi-sorabiera
+ht = Haitiko kreolera
 hu = Hungariera
 hy-AM = Armeniera
 hyw = Armeniera (mendebaldekoa)
 ia = Interlingua
 id = Indonesiera
+ie = Interlingua
+ig = Igboera
 is = Islandiera
 it = Italiera
 izh = Ingriera
@@ -79,23 +86,28 @@ ka = Georgiera
 kaa = Karakalpaka
 kab = Kabylera
 kbd = Kabardinoa
+ki = Kikuyua
 kk = Kazakhera
+kmr = Kurmanji kurduera
 ko = Koreera
 kpv = Komiera
-ku = Kurduera
 kw = Kornubiera
 ky = Kirgizera
 lg = Luganda
 lij = Liguriera
 lt = Lituaniera
 lv = Letoniera
+mai = Maithilia
 mdf = Moksha
 mg = Malgaxera
 mhr = Larreetako mariera
 mk = Mazedoniera
 ml = Malabarera
 mn = Mongoliera
+mos = Mossiera
+mr = Marathera
 mrj = Mendietako mariera
+ms = Malaysiera
 mt = Maltera
 my = Birmaniera
 myv = Erziera
@@ -106,7 +118,9 @@ nn-NO = Nynorsk norvegiera
 oc = Okzitaniera
 or = Oriya
 pa-IN = Punjabera
+pap-AW = Papiamentoa
 pl = Poloniera
+ps = Paxtunera
 pt = Portugesa
 rm-sursilv = Sursilvana
 rm-vallader = Valladera (erromantxea)
@@ -119,6 +133,7 @@ scn = Siziliera
 si = Sinhala
 sk = Eslovakiera
 sl = Esloveniera
+so = Somaliera
 sq = Albaniera
 sr = Serbiera
 sv-SE = Suediera
@@ -131,14 +146,19 @@ th = Thailandiera
 tl = Tagaloa
 tr = Turkiera
 tt = Tatarera
+tw = Twi
+ty = Tahitiera
 uby = Ubikera
 udm = Udmurtera
+ug = Uigurrera
 uk = Ukrainera
 ur = Urdua
 uz = Uzbekera
 vec = Veneziera
 vi = Vietnamera
 vot = Votikera
+yo = Jorubera
+yue = Kantonera
 zh-CN = Txinera (Txina)
 zh-HK = Txinera (Hong Kong)
 zh-TW = Txinera (Taiwan)
@@ -262,6 +282,8 @@ shortcut-record-toggle = g
 shortcut-record-toggle-label = Grabatu/Gelditu
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Birgrabatutako grabaketa
+shortcut-discard-ongoing-recording = ESK
+shortcut-submit = Sartu
 request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
 request-language-button = Eskatu hizkuntza bat
 
@@ -291,8 +313,8 @@ profile-form-accent =
     .label = Azentua
 profile-form-age =
     .label = Adina
-profile-form-gender =
-    .label = Sexua
+profile-form-gender-2 =
+    .label = Generoa
 leaderboard-visibility =
     .label = Sailkapenaren ikusgaitasuna
 hidden = Ezkutuan
@@ -318,7 +340,6 @@ profile-close = Itxi
 profile-explanation = Egin zure aurrerapenen jarraipena profil batekin eta lagundu ahots-datu zehatzagoak lortzen.
 thanks-for-account = Eskerrik asko zure kontua baieztatzeagatik, orain osatu zure profila.
 why-demographic = Zergatik da garrantzitsua hau?
-why-demographic-explanation = Adina, sexua eta azentua bezalako datu anonimizatuek, hizketaren ezagutza-motorren zehaztasuna hobetzen laguntzen dute hauek entrenatzeko audioen ezaugarriak osatzen dituztelako. Zure erabiltzaile-izena eta helbide elektronikoa ez dira inoiz zuk bidalitako datuekin lotuko eta zure erabiltzaile-izena publikoa ala anonimoa izatea aukera dezakezu.
 accept-privacy = Ondo iruditzen zait informazio hau <privacyLink>pribatutasun politikan</privacyLink> azaltzen den bezala kudeatzea.
 accept-privacy-title = Pribatutasun-politika
 login-identity = Saioa hasteko identitatea
@@ -332,26 +353,19 @@ skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
-avatar-clip-title = Eman ahotsa zure abatarrari
-change-your-avatar-clip = Zure ahots-grabaketa aldatu nahi duzu?
-recording-in-progress = Ahotsa grabatzen ari da
-avatar-clip-recorded = Zure avatarrak orain ahots-grabaketa bat du!
-record-voice-wave = GRABATU AHOTS-UHINA
-retry-voice-wave-recording = SAIATU BERRIRO
-re-record = GRABATU BERRIRO
-delete-voice = EZABATU
-recording-voice-wave = Grabazioa
-delete-voice-clip = edo ezabatu ahots grabazioa
-ready-to-upload = IGO
-avatar-clip-fact = Aspalditik jakina da irakurleak eduki irakurgarritik arreta galtzen duela orriaren diseinuari begiratzen dionean.
-recreate-voice = Birsortu ahots-uhina
-cancel-avatar-clip-recording = Utzi
-about-avatar-clip-recording = Sortu ahots grabaketa bat zure profileko avatarrari esleitzeko. Honela, beste pertsona batzuek zure ahotsa entzun ahalko dute.
+
+## Profile - Email
+
 browse-file-title = Igo irudi-fitxategi bat
 browse-file = Arrastatu eta jaregin, edo <browseWrap>nabigatu</browseWrap>
 connect-gravatar = Konektatu Gravatarrera
 gravatar_not_found = Ez da gravatarrik aurkitu zure e-postarako
 file_too_large = Hautatutako fitxategia handiegia da
+avatar-uploaded = Avatarra igo da
+max-file-size = { $kb }kb gehienez
+
+## Profile - Email
+
 manage-subscriptions = Kudeatu harpidetzak
 manage-email-subscriptions = Kudeatu eposta harpidetzak
 email-already-used = E-posta hori dagoeneko erabili da beste kontu batean
@@ -486,6 +500,8 @@ data-other-goto = Joan { $name }-(e)ra
 data-other-download = Deskargatu datuak
 data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
+release-version = Bertsioa
+dataset-date = Data
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
 data-download-singleword-title = Deskargatu hitz bakarreko esparru zehatzeko atala
@@ -498,8 +514,8 @@ review-submit-msg = Eskerrik asko grabatzeagatik!<lineBreak></lineBreak>Orain on
 review-recording = Berrikusi
 review-rerecord = Grabatu berriro
 review-cancel = Ezeztatu bidalketa
-review-keep-recordings = Mantendu grabazioak
-review-delete-recordings = Ezabatu nire grabazioak
+review-keep-recordings = Mantendu grabaketak
+review-delete-recordings = Ezabatu nire grabaketak
 
 ## Datasets Page
 
@@ -538,8 +554,6 @@ subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
 other-datasets = Beste ahots datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
-deepspeech-info = Common Voice datu-sortak, Mozillaren Deep Speech ahotsaren ezagutzarako motor librea osatzen du, hizketaren ezagutzadun aplikazioak garatzeko erabil dezakezuna. Irakurri gure <githubLink>GitHub laburpena</githubLink> edo batu zaitez <discourseLink>DeepSpeecheko Discourse forora</discourseLink> nondik hasi ikasteko.
-common-voice-info-new = Common Voice-ri buruzko galderak dituzu? Hobekuntzak egiteko ideiak edo hizkuntza zehatz bati buruzko informazioa? Batu zaitez <discourseLink>Discourseko forora</discourseLink> eta esaguzu.
 data-other-librispeech-description = LibriSpeech 16 Khz-tan grabatutako 1.000 ordu inguruko corpusa da, LibriVox proiektuko audio-liburuak ingelesez irakurrita.
 data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
@@ -621,7 +635,7 @@ contribute-more =
         [one] { $count } gehiago egiteko prest?
        *[other] { $count } gehiago egiteko prest?
     }
-record-cta = Hasi grabazioa
+record-cta = Hasi grabaketa
 record-platform-not-supported = Sentitzen dugu baina orain ez diogu plataforma horri euskarririk ematen.
 record-platform-not-supported-desktop = Mahaigaineko ordenagailuetan, azkena deskarga dezakezu:
 record-platform-not-supported-ios-non-safari = iOS-en Safarirekin jarraitu grabaketak egin ahal izateko…
@@ -643,10 +657,10 @@ share-common-voice = Partekatu Common Voice
 review-instruction = Berrikusi eta grabaketak berriz egin beharrezkoa bada
 record-submit-tooltip = { $actionType } bidali prest egotean
 clips-uploaded = Grabaketak igota
-record-abort-title = Aurretik grabazioa bukatu?
+record-abort-title = Lehenago grabaketa bukatu?
 record-abort-text = Orain ateratzen bazara egin berri dituzunak galduko dira
 record-abort-submit = Bidali grabaketak
-record-abort-continue = Bukatu grabazioa
+record-abort-continue = Bukatu grabaketa
 record-abort-delete = Irten eta ezabatu grabaketak
 listen-instruction = { $actionType }<playIcon></playIcon> esaldia ondo ahoskatu dute?
 listen-again-instruction = Lan bikaina!<playIcon></playIcon> Entzun berriro prest zaudenean
@@ -802,6 +816,18 @@ why-delete-recordings =
     Esango al zeniguke zergatik nahi duzun zure grabaketak ezabatzea?
 profile-form-delete = Ezabatu profila
 
+## Profile Download
+
+download-q = Zure datuak deskargatu behar dituzu?
+download-profile-title = Profila
+download-recordings-title = Grabaketak
+download-size = Tamaina
+download-start = Deskargatu profilaren datuak
+download-request-button = Deskargatu
+download-request-title = { $created }
+download-request-refresh-button = Freskatu
+download-request-modal-title = Deskarga estekak
+
 ## Landing
 
 welcome-staff = Ongi etorri, { $company }-(e)ko langile!
@@ -809,3 +835,32 @@ help-contribute = Kode irekiko datu-multzo desberdin bat eraikitzen lagun dezake
 login-company = Hasi saioa / Eman izena { $company }-ko epostarekin
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 read-more-about = Irakurri gehiago guri buruzko orrian
+
+## DemoLayout
+
+demo-welcome = Ongi etorri Common Voicera
+
+## Demo Datasets
+
+card-button-next = Hurrengoa
+card-button-back = Atzera
+demo-language-select-label = Arakatu hizkuntzak
+demo-account = Kontua
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+contribution-criteria-nav = Irizpideak
+contribution-criteria-link = Ulertu parte hartzeko irizpideak
+contribution-criteria-page-title = Parte hartzeko irizpideak
+contribution-volume-title = Bolumena
+see-more = <chevron></chevron>Ikusi gehiago
+see-less = <chevron></chevron>Ikusi gutxiago

@@ -79,6 +79,7 @@ hyw = zachodni ormiański
 ia = interlingua
 id = indonezyjski
 ie = interlingue
+ig = igbo
 is = islandzki
 it = włoski
 izh = iżorski
@@ -153,6 +154,7 @@ tl = tagalski
 tr = turecki
 tt = tatarski
 tw = twi
+ty = tahitański
 uby = ubyski
 udm = udmurcki
 ug = ujgurski
@@ -162,6 +164,7 @@ uz = uzbecki
 vec = wenecki
 vi = wietnamski
 vot = wotycki
+yi = jidysz
 yo = joruba
 yue = kantoński
 zh-CN = chiński (Chiny)
@@ -894,6 +897,12 @@ download-recordings-title = Nagrania
 download-recordings-info = Zawiera pliki MP3 i powiązane zdania, przygotowanie może zająć trochę czasu
 download-recordings-size = Zazwyczaj megabajty
 download-recordings-unavailable = Nie możesz poprosić o nagrania, kiedy inna prośba jest już w toku.
+download-recently-requested =
+    { $days ->
+        [one] Można poprosić o nagrania raz dziennie.
+        [few] Można poprosić o nagrania co { $days } dni.
+       *[many] Można poprosić o nagrania co { $days } dni.
+    }
 download-size = Rozmiar
 download-selected = Wybrane
 download-start = Pobierz dane profilu

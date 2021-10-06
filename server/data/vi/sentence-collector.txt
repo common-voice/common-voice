@@ -54,6 +54,7 @@ Anh anh ta
 Anh buồn đau mải miết
 Anh bảo em ngồi xích lại gần hơn.
 Anh bị sao vậy
+Anh bỏ đi dấu chân còn để lại
 Anh cho tôi ra ngoài chợ tôi sẽ xuống ở đó
 Anh chàng bật dậy
 Anh chàng bắt đầu hốt hoảng
@@ -497,6 +498,7 @@ Cho thêm rét mướt mảnh hồn đơn côi
 Cho thằng con thi
 Cho tôi tắm mát
 Cho tôi được lau khô dòng lệ chảy
+Cho ái ân thêm muôn phần hương sắc.
 Cho đến khi từ bên ngoài có một chiếc xe hơi cũ đậu lại
 Cho đến tác dụng của kuman là gì
 Chu choa hôm nay mặc bộ đồ xinh đẹp quá
@@ -517,6 +519,7 @@ Chàng trai bị thương có vẻ can đảm lắm
 Chào em cô gái tháng mười
 Chào em, yêu dấu Tháng Mười
 Chào một đứa bé cao tầm đến đầu gối
+Chào nhau nụ ấm hơi người
 Cháu không uống được rượu nên mới cố cạn ly chất đắng này vậy
 Cháu là hà ni
 Cháy khát khao anh dâng tình sâu đậm
@@ -651,6 +654,7 @@ Chỉ có học hành thi cử
 Chỉ có mẹ thôi
 Chỉ có một mình bà ấy ở vậy thôi
 Chỉ có một điều lạ duy nhất
+Chỉ có ta vẫn cách xa mải miết.
 Chỉ có vậy thôi
 Chỉ có điều là không thể nhìn thấy
 Chỉ cần bản thân mình được an toàn
@@ -930,6 +934,7 @@ Có vẻ sáng hơn mọi ngày
 Có yêu nhau đâu mà chẳng rời nửa bước
 Có ông nào đó đòi bắt con đi mẹ ơi
 Có ý là muốn thăm bé
+Có điều gì còn khúc mắc hay sao
 Có điều là thấy không gọi cho được chuyện gì
 Có điều tôi nhắc các vị
 Có đàn ông là quý rồi
@@ -1016,6 +1021,7 @@ Căn phòng cũng trở nên đột nhiên lạnh ngắt
 Căn phòng kín
 Căn phòng thờ Kumanthong đối diện với phòng ngủ của Chinh
 Căn phòng trống không một mình anh hoang lạnh
+Căn phòng vắng nỗi âu sầu tràn tới.
 Cũng chả lâu sau khi anh tạ độ trưởng thành
 Cũng chẳng hiểu tại sao tôi hoàn toàn không có nhớ gì hết
 Cũng chỉ theo chân bố mẹ làm những công việc lặt vặt
@@ -1067,6 +1073,8 @@ Cảm ơn Na Cảm ơn Na đã giúp mẹ
 Cảm ơn anh đã giúp đỡ
 Cảm ơn anh đã trăn trở êm đềm
 Cảm ơn con
+Cảm ơn em mái tóc dài
+Cảm ơn em vẫn còn kềm chân tôi
 Cảm ơn em đã luôn động viên anh lúc yếu đuối
 Cảm ơn mẹ
 Cất tất cả những đồ dùng vào trong chiếc túi nặng trịch
@@ -1089,6 +1097,7 @@ Cỏ uống sương rơi
 Cố gắng nhìn vào màn đêm đen đặc, bao trùm lên tất cả
 Cột thật chắc để dựng lên những căn nhà sản như bây giờ
 Của chồng, công vợ: chồng làm ra, vợ gìn giữ, đó là của chung.
+Của một thời hai đứa vẫn còn yêu...
 Cứ Như Vậy Đi
 Cứ bám riết đeo đẳng em tội nghiệp
 Cứ chúi tới trước
@@ -1272,6 +1281,7 @@ Em xích gần thêm một chút, anh hờn
 Em yên tâm là kẻ đó sẽ không làm phiền
 Em yêu mái trường
 Em yêu trường lắm
+Em yêu ơi tháng mười về rồi đó
 Em á khẩu luôn không nói được câu nào
 Em đi qua rạo rực cả trời chiều
 Em đi ra ngoài một chút
@@ -1311,6 +1321,7 @@ Giáo án mầm non chủ đề Thơ Tình bạn
 Gió bên ngoài cửa sổ hành lang khẽ thổi vào bên trong
 Gió cồn cào se sắt đến rã rời
 Gió cứ thổi triền miên
+Gió em êm dịu chan hoà
 Gió heo may dường như không thổi nữa
 Gió heo may theo mùa Thu vội vã
 Gió hãi hùng giật rú từng cơn
@@ -1435,6 +1446,7 @@ Hay vô tình như em đã quên tôi?
 Hay vô tình quên đi
 Hay đúng hơn là không muốn vùng vẫy nữa
 Heo may se lạnh anh thèm vòng tay
+Heo may xe lạnh chờ mong gót hồng.
 Hi sinh tuổi xuân
 Hi vọng là có thể cứu được
 Hi vọng tôi đã không quay lại quá muộn
@@ -1959,6 +1971,7 @@ Muôn vàng tấc đất
 Muôn vật cần mưa
 Muôn vật thêm xanh
 Muốn biết chính xác thì phải tìm hiểu chuyện từ gia đình Thảo trước
+Muốn bên em cho đôi mắt trong ngần
 Muốn làm thì phải Tín Tâm
 Muốn ngỏ lời mà sao tôi thật ngốc
 Muốn sống tiếp phải theo lời của ta
@@ -2009,6 +2022,7 @@ Mà sau đó Trinh được songchai dịch lại
 Mà suýt nữa cả trình nôn tại chỗ
 Mà tao cũng thấy họ có chết đâu
 Mà thôi nhắc cái chuyện đấy làm gì cho nó buồn ra
+Mà tim tôi đã tơi bời đó em.
 Mà trong lòng nỗi nhớ cứ chênh vênh
 Mà trải nghiệm qua rồi thì mới thấy đó là sự thật
 Mà tôi tìm kiếm khắp nơi không có thấy
@@ -2065,6 +2079,7 @@ Mình đi ngay cho kịp
 Mòn mỏi hao gầy
 Món quà này chỉ chút thôi tiền lẻ
 Môi hôn vội vã chưa đầy
+Môi tròn theo dấu phấn son
 Môi vẫn thắm gọi thuyền quyên về bến.
 Mùa Thu về ngang phố
 Mùa giao mùa lặng thinh
@@ -2887,6 +2902,7 @@ Nỗi đau ấy biến thành lòng dũng cảm
 Nội dung tin nhắn và đọc được như sau
 Nợ em chỉ một lời yêu chưa tròn
 Nợ em thêm một câu thơ
+Nợ nần chồng chất nặng thêm
 Nợ trần ai hay mối duyên tiền kiếp
 Nụ hôn nồng hoang dại đến đê mê.
 Nụ hôn nồng tê tái lúc đắm say
@@ -3085,6 +3101,7 @@ Sao nóng thế, làm tim tôi bỏng cháy?
 Sao nửa đêm lại vào nằm làm tôi cứ tưởng
 Sao sao à ừ tớ thấy trong người không được khỏe
 Sao tao ở dưới đó với mày được
+Sao tháng mười anh chênh chao đến thế!
 Sao thế nhỉ
 Sao trong lòng cứ vời vợi mông lung
 Sao trời linh thế!
@@ -3261,6 +3278,7 @@ Thoảng sắc hồng, làn mây lướt trên cao
 Thoảng thơ từng búi tóc dài
 Thoảng trong cơn gió nhẹ nhàng
 Thu chưa phai vội bỡ ngỡ đông về
+Thu chưa qua nắng đã nhợt phai mầu
 Thu chở em qua hay đông đưa em đến?
 Thu còn lưu luyến mê say chốn này
 Thu còn vương vấn mơ màng
@@ -3282,6 +3300,7 @@ Thuở đó nào tôi đã biết gì
 Thành lập Đảng Cộng sản Việt Nam
 Thành đô hoa lệ
 Tháng Mười lá vẫn còn bay
+Tháng Mười rồi, lòng em lại xôn xao
 Tháng Mười về trong nỗi nhớ mênh mông
 Tháng Mười về, một chút nhớ mong manh
 Tháng Mười đêm vắng lê thê
@@ -3330,10 +3349,12 @@ Tháng mười về bên góc phố liêu xiêu
 Tháng mười về cho ta nhiều mơ ước
 Tháng mười về con nắng bớt vàng ươm
 Tháng mười về con nắng lại vỡ đôi
+Tháng mười về con tim anh thầm nhắc
 Tháng mười về em còn nhớ hay quên
 Tháng mười về em còn nhớ hay quên!?
 Tháng mười về heo may cứ ung dung
 Tháng mười về hả anh.
+Tháng mười về mùa cây thay áo mới
 Tháng mười về ta sánh bước bên nhau
 Tháng mười về ta thêm yêu cuộc sống
 Tháng mười về thu cũng thật đáng yêu
@@ -3343,7 +3364,9 @@ Tháng mười về, hương xưa rơi đầy áo
 Tháng mười về... Thu rất vội em ơi!
 Tháng mười vừa sang hơi gió
 Tháng mười êm dịu mong chờ bình an.
+Tháng mười đã đến rồi ư
 Tháng mười đó hàn sương nhè nhẹ trải
+Tháng mười đến,tôi mong duyên mới.
 Tháng mười đến thu tàn trêu gió lộng
 Tháng mười ơi cho ta phút êm đềm
 Tháng mười ơi gieo vui cơn gió lộng
@@ -3435,6 +3458,7 @@ Thùng rỗng kêu to.
 Thơ anh không thể dối
 Thơ tình cuối mùa thu
 Thơ tình ngày không anh
+Thơ tôi trải xuống em ngồi cho êm...
 Thơ về gia đình cho bé
 Thơ đăng facebook hay nhất
 Thơ, văn, tuyển tập
@@ -3488,6 +3512,7 @@ Thậm chí là còn dùng nhiều hơn ngày thường
 Thậm chí lại đôi chân bị liệt của nó hoạt động lại bình thường
 Thậm chí để trong bữa ăn Quân còn ít nói hơn bình thường
 Thật ra con cũng có người yêu rồi
+Thật rộn ràng những phòng cưới sân ga
 Thật sự thì xin lỗi vì đã làm phiền anh chị như vậy
 Thật thà là cha dại.
 Thật thà ăn cháo, láo nháo ăn cơm
@@ -3563,6 +3588,7 @@ Tiếng chuông đồng hồ quả lắc Vang lên
 Tiếng côn trùng réo rắt quyện tiếng mưa
 Tiếng gào thét của tên con gái của bố mẹ Thảo
 Tiếng khóc vang vọng khiến cho bố mẹ nó tỉnh giấc
+Tiếng lá khô xào xạc giữa đêm thâu
 Tiếng mõ tụng kinh vẫn còn vang lên tới điện chính
 Tiếng mẹ à ơi
 Tiếng nghịch ngợm đồ đạc đại loại là như vậy
@@ -3759,6 +3785,7 @@ Trăng hay tình lứa đôi?
 Trăng khuyết
 Trăng quầng thì hạn, trăng tán thì mưa.
 Trăng thề chiếc bóng bên đường
+Trăng đêm Đông,trăng soi khắp ngả.
 Trước cuộc nói chuyện của mình với Nhi
 Trước cuộc đời rộng lớn mênh mang
 Trước cửa nhà mình có bao giờ tin mấy cái trò đó đâu
@@ -4028,6 +4055,7 @@ Từ đó cho đến chiều anh chàng nằm yên như hôn mê
 Từ đấy thu rồi thu lại thu
 Từng bỏ nhà đi suốt mấy năm trời
 Từng chút từng chút một
+Từng cặp đôi bên nhau đẹp như hoa
 Từng khung bậc cảm xúc mới chỉ được bắt đầu sau vài giây
 Từng ngày băn khoăn
 Từng ngày suy nghĩ
@@ -5223,6 +5251,7 @@ xạ thủ
 Ôi thật tuyệt vời
 Ôi trời xa, vầng trán của người yêu!
 Ôi tình yêu và kẻ đời viễn xứ
+Ôi! Đâu hỡi? Những chiều xưa nắng đổ
 Ôi, quạnh vắng vô cùng
 Ôm cổ gầy mắc cỡ đến mùa sau
 Ôm hũ đựng tro cốt của người mẹ khóc đến gục đi trên bàn
@@ -5624,6 +5653,7 @@ xạ thủ
 đừng nghe đời của ông ta nói ông ta là kẻ xấu đấy
 đừng xa lánh tôi
 Ơi mẹ... Mẹ ơi!
+Ơn em xin nguyện đáp đền
 ơ Kìa sao về sớm thế
 Ươm mầm xanh đón đợi xuân hường
 Ươm mộng mơ đón đợi gió Đông.
