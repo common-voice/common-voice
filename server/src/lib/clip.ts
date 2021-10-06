@@ -19,6 +19,13 @@ const Transcoder = require('stream-transcoder');
 const { Converter } = require('ffmpeg-stream');
 const { Readable } = require('stream');
 
+enum ERRORS {
+  MISSING_PARAM = 'MISSING_PARAM',
+  CLIP_NOT_FOUND = 'CLIP_NOT_FOUND',
+  SENTENCE_NOT_FOUND = 'SENTENCE_NOT_FOUND',
+  ALREADY_EXISTS = 'ALREADY_EXISTS',
+}
+
 /**
  * Clip - Responsibly for saving and serving clips.
  */
@@ -70,15 +77,26 @@ export default class Clip {
     return router;
   }
 
-
   /*
    * Helper function to send error message to client, and save to Sentry
    * defaults to save_clip_error
    */
-  clipSaveError(headers: any, response: Response, status: number, msg: string, customError?: string) {
-    const compiledError = customError ? `${customError} ${msg}` : `save_clip_error ${msg}`;
+  clipSaveError(
+    headers: any,
+    response: Response,
+    status: number,
+    msg: string,
+    fingerprint: string,
+    type: 'vote' | 'clip'
+  ) {
+    const compiledError = `save_${type}_error: ${fingerprint}: ${msg}`;
     response.status(status).send(compiledError);
-    Sentry.captureEvent({ request: { headers }, message: compiledError });
+
+    Sentry.withScope(scope => {
+      // group errors together based on their request and response
+      scope.setFingerprint([`save_${type}_error`, fingerprint]);
+      Sentry.captureEvent({ request: { headers }, message: compiledError });
+    });
   }
 
   serveClip = async ({ params }: Request, response: Response) => {
@@ -98,13 +116,27 @@ export default class Clip {
     const { isValid, challenge } = body;
 
     if (!id || !client_id) {
-      this.clipSaveError(headers, response, 400, `missing parameter: ${id ? 'client_id' : 'clip_id'}`, 'save_vote_error');
+      this.clipSaveError(
+        headers,
+        response,
+        400,
+        `missing parameter: ${id ? 'client_id' : 'clip_id'}`,
+        ERRORS.MISSING_PARAM,
+        'vote'
+      );
       return;
     }
 
     const clip = await this.model.db.findClip(id);
     if (!clip) {
-      this.clipSaveError(headers, response, 422, `clip not found: ${id}`, 'save_vote_error');
+      this.clipSaveError(
+        headers,
+        response,
+        422,
+        `clip not found: ${id}`,
+        ERRORS.CLIP_NOT_FOUND,
+        'vote'
+      );
       return;
     }
 
@@ -153,13 +185,27 @@ export default class Clip {
     const size = headers['content-length'];
 
     if (!sentenceId || !client_id) {
-      this.clipSaveError(headers, response, 400, `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`);
+      this.clipSaveError(
+        headers,
+        response,
+        400,
+        `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`,
+        ERRORS.MISSING_PARAM,
+        'clip'
+      );
       return;
     }
 
     const sentence = await this.model.db.findSentence(sentenceId);
     if (!sentence) {
-      this.clipSaveError(headers, response, 422, `sentence not found: ${sentenceId}`);
+      this.clipSaveError(
+        headers,
+        response,
+        422,
+        `sentence not found: ${sentenceId}`,
+        ERRORS.SENTENCE_NOT_FOUND,
+        'clip'
+      );
       return;
     }
 
@@ -170,7 +216,14 @@ export default class Clip {
     const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`;
 
     if (await this.model.db.clipExists(client_id, sentenceId)) {
-      this.clipSaveError(headers, response, 204, `${clipFileName} already exists`);
+      this.clipSaveError(
+        headers,
+        response,
+        204,
+        `${clipFileName} already exists`,
+        ERRORS.ALREADY_EXISTS,
+        'clip'
+      );
       return;
     } else {
       // If the folder does not exist, we create it.
@@ -200,10 +253,17 @@ export default class Clip {
         .channels(1)
         .sampleRate(32000)
         .on('error', (error: string) => {
-          this.clipSaveError(headers, response, 500, `${error} for ${metadata}`);
+          this.clipSaveError(
+            headers,
+            response,
+            500,
+            `${error} for ${metadata}`,
+            `ffmpeg ${error}`,
+            'clip'
+          );
           return;
         })
-        .on('finish', async() => {
+        .on('finish', async () => {
           console.log(`clip written to s3 ${metadata}`);
 
           await this.model.saveClip({
@@ -215,7 +275,9 @@ export default class Clip {
           });
           await Awards.checkProgress(client_id, { id: sentence.locale_id });
 
-          await checkGoalsAfterContribution(client_id, { id: sentence.locale_id });
+          await checkGoalsAfterContribution(client_id, {
+            id: sentence.locale_id,
+          });
 
           Basket.sync(client_id).catch(e => console.error(e));
 
